@@ -4,7 +4,7 @@ JD Cloud MySQL/Percona service provide slow log statistics, slow log details, an
 ## Operation Steps
 1. Login [RDS Management Console](https://rds-console.jdcloud.com/database).    
 2. Select and click the target instance, and then enter the instance detailed page.  
-3. Click the Tab page of ***Performance Optimization***, select the time range, and query ***Slow Log Statistics*** or *** Slow Log Details***.
+3. Click the Tab page of ***Performance Optimization***, select the time range, and query ***Slow Log Statistics*** or ***Slow Log Details***.
     * The list shows the default start time per statistics/execution, in reverse order.
 
 |Query Item|Content|

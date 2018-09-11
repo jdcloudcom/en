@@ -151,7 +151,8 @@
 |16-core 64GB|16000|14000|1600|
 |16-core 64GB|16000|14000|2000|
 
-SQL Server
+## SQL Server
+
 |Instance Type|Storage Space (GB)|
 |---|---|
 |2-core 8GB|200|

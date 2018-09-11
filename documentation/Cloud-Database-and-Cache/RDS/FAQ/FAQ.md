@@ -1,5 +1,5 @@
 # FAQ
-## Current Types Supported by Cloud Database
+## Current Database Type Supported by Cloud Database
 The current types supported by the database are MySQL 5.6, MySQL 5.7, Percona 5.7, SQL Server 2008 R2 Enterprise Edition, SQL Server 2012 Enterprise Edition, SQL Server 2014 Enterprise Edition, SQL Server 2016 Enterprise Edition, and there will be more available database types later.
 
 ## VM's Failure to Access RDS

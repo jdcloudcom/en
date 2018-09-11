@@ -29,13 +29,13 @@ It is recommended to choose the region closest to the regions of users to reduce
       - MySQL: More than 4 remaining IPs are required.
       - SQL Server: More than 10 remaining IPs are required.
       
-![Connection Instance 2](../../../image/RDS/Create-Instance-2.png)
+![Connection Instance 2](../../image/RDS/Create-Instance-2.png)
  
 - Deployment Mode: Currently, it supports single-availability zone deployment and multi-availability zone deployment.
    - Multiple Availability Zone: The primary and secondary databases are located in different availability zones, with higher availability; if an availability zone fails, the entire instances can still provide services.
    - Single Availability Zone Deployment: The primary and secondary database are located in the same availability zone. If the availability zone fails, the entire instances cannot provide services.
    
-![Connection Instance 3](../../../image/RDS/Create-Instance-3.png)  
+![Connection Instance 3](../../image/RDS/Create-Instance-3.png)  
 
 - Basic Information
    - Instance Name: It is allowed to repeat, while the length and characters of the name have certain limits, which shall be subject to the console.
