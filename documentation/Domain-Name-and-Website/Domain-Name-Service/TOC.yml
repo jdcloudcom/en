@@ -55,13 +55,6 @@
       herf: User-Agreements/Donline-Terms-of-Service-of-Domain-Name.md        
     - name: IDN Online Transfer Agreement
       herf: User-Agreements/IDN-Online-Transfer-Agreement.md          
-  - name: Static Page
-    items:
-    - name: Query Domain Name
-      herf: Static-Page/Query-Domain-Name.md 
-    - name: Query Domain Name Information
-      herf: Static-Page/Query-Domain-Name-Information.md           
-    - name: Home Page
-      herf: Static-Page/Home-Page.md   
+
           
           
