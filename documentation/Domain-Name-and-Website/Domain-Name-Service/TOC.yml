@@ -4,7 +4,7 @@
   - name: Product Introduction
     items:
       - name: Product Overview
-        herf: Introduction/Product-Overview.md
+        herf: Introduction/What-Is-Domain-Name.md
       - name: Core Concept
         herf: Introduction/Core-Concept.md
       - name: Features
@@ -12,7 +12,9 @@
       - name: Product Advantage
         herf: Introduction/Product-Functions.md
       - name: Product Specifications
-        ‘herf: Introduction/Product-Specifications.md
+        herf: Introduction/Product-Specifications.md
+      - name: Application Scenario
+        herf: Introduction/Application-Scenario.md 
   - name: Getting Started Guide
     items:
       - name: Create Information Template
@@ -26,7 +28,7 @@
           - name: Domain Name Status
             herf: Operation-Guide/Domain-Management/Domain-Name-Status.md
           - name: Domain Name Transfer-out
-            herf: Operation-Guide/Domain-Management/Domain Name Transfer-out.md
+            herf: Operation-Guide/Domain-Management/Domain-Name-Transfer-out.md
           - name: Security Setting
             herf: Operation-Guide/Domain-Management/Security-Setting.md      
           - name: Domain Name Resolution
@@ -55,13 +57,5 @@
       herf: User-Agreements/Donline-Terms-of-Service-of-Domain-Name.md        
     - name: IDN Online Transfer Agreement
       herf: User-Agreements/IDN-Online-Transfer-Agreement.md          
-  - name: Static Page
-    items:
-    - name: Query Domain Name
-      herf: Static-Page/Query-Domain-Name.md 
-    - name: Query Domain Name Information
-      herf: Static-Page/Query-Domain-Name-Information.md           
-    - name: Home Page
-      herf: Static-Page/Home-Page.md   
           
           
