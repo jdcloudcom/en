@@ -1,4 +1,4 @@
-# Product specification
+# Specifications
 
 The cloud physical server provides the following instance types: Standard Computing Type, Computing Performance Type Ⅰ, Computing Performance Type Ⅱ, and Standard Storage Type. More models are coming.
 
