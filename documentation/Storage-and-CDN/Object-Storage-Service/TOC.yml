@@ -1,19 +1,19 @@
  name: Object Storage Service
  href: 
  items:
- - name: Product Introduction
+ - name: Introduction
    items:
-      - name: OSS Overview
-        href:  Introduction/What-Is-OSS.md.md
+      - name: Product Overview
+        href: Introduction/Product-Overview.md
       - name: Core Concept
         href: Introduction/Core-Concepts.md
-      - name: Product Function
-        href: Introduction/Functions.md
+      - name: Features
+        href: Introduction/Features.md
       - name: Restraint Instructions
         href: Introduction/Restrictions.md 
-      - name: Application Scenario 
+      - name: Application Scenarios 
         href: Introduction/Application-Scenarios.md    
- - name: Product Pricing
+ - name: Pricing
    items:
       - name: Billing Overview
         href: Pricing/Billing-Overview.md 
@@ -23,21 +23,7 @@
         href: Pricing/Price-Overview.md
       - name: View Bills
         href: Pricing/Check-Bill.md name
- - name: Product Pricing
-   items:
-      - name: Setup Service
-        href: Getting-Started/Sign-Up-Service.md
-      - name: Create Storage Space
-        href: Getting-Started/Create-Bucket.md
-      - name: Upload Files
-        href: Getting-Started/Upload-Object.md
-      - name: Share and Download Files
-        href: Getting-Started/Share-And-Download-Object.md
-      - name: Delete Files
-        href: Getting-Started/Delete-Object.md
-      - name: Delete Storage Space
-        href: Getting-Started/Delete-Bucket.md
- - name: Getting Started Guide
+ - name: Getting-Started
    items:
       - name: Setup Service
         href: Getting-Started/Sign-Up-Service.md
