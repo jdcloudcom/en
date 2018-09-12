@@ -1,4 +1,4 @@
-# API Opening and Calling
+# Introduction
 
 You can achieve the service opening through creation and configuration of API group.
 This paper will lead you to open the API through control panel.

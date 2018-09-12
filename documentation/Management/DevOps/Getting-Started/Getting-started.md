@@ -1,4 +1,4 @@
-# Summary of Getting-started Guide
+# Introduction
 
 Introduction
 
