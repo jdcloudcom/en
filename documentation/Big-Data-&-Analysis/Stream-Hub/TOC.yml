@@ -4,7 +4,7 @@ items:
 - name: Introduction
   items:
     - name: Product Overview
-      href: Introduction/Product Overview.md
+      href: Introduction/Product-Overview.md
     - name: Basic Infrastructure
       href: Introduction/Basic-Infrastructure.md
     - name: Benefits
