@@ -14,11 +14,11 @@
       - name: Features
         items:
           - name: Direct Connection
-            href: Introduction/Functions/Direct-Connect-Features.md
+            href: Introduction/Features/Direct-Connect-Features.md
           - name: Hosted Connect
-            href: Introduction/Functions/Hosted-Connect-Features.md
+            href: Introduction/Features/Hosted-Connect-Features.md
           - name: Border Gateway
-            href: Introduction/Functions/Border-Gateway-Features.md
+            href: Introduction/Features/Border-Gateway-Features.md
       - name: Restrictions
         href: Introduction/Restrictions.md
       - name: Application Scenarios
