@@ -4,14 +4,14 @@
   - name: Introduction
     items:
       - name: Product Overview
-        href: Introduction/Overview.md
-        name: Product Function
-        href: Introduction/Functions.md  
-  - name: Product Pricing
+        href: Introduction/Product-Overview.md
+        name: Features
+        href: Introduction/Features.md  
+  - name: Pricing
     items:
       - name: Billing Overview
         href: Pricing/Billing-Overview.md
-  - name: Getting Started Guide
+  - name: Getting Started
     items:
       - name: Quick Guidance
         href: Getting-Started/Getting-Started.md
@@ -46,8 +46,10 @@
     href: Troubleshooting/Uninstall-Endpoint-Security .md
   - name: API Reference
     href: 
+  status: 0
   - name: SDK Reference
     href:
+  status: 0
   - name: Relevant Resources
     items:
     - name: Document Historical Records
