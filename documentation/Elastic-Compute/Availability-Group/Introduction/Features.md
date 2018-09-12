@@ -1,4 +1,4 @@
-# Introduction of Functions
+# Features
 
 ## Physical Dispersion across Availability Zones and Fault Domains
 
