@@ -1,5 +1,5 @@
 
-# Getting Started Guide Overview
+# Guide Overview
 
 **Initial setup**
 **Register JD Cloud account**
