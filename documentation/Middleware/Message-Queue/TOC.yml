@@ -3,16 +3,16 @@
   items:
   - name: Introduction
     items:
-      - name: What Is MQ?
-        href: Introduction/What-Is-MQ.md
+      - name: Product Overview
+        href: Introduction/Product-Overview.md
       - name: Core Concepts
         href: Introduction/Core-Concepts.md
       - name: Basic Infrastructure
         href: Introduction/Basic-Infrastructure.md
       - name: Benefits
         href: Introduction/Benefits.md
-      - name: Functions
-        href: Introduction/Functions.md
+      - name: Features
+        href: Introduction/Features.md
       - name: Specification
         href: Introduction/Specification.md
         status: 0
@@ -32,8 +32,8 @@
         href: Pricing/Purchase-Process.md 
   - name: Getting Started
     items:
-      - name: Quick Start Overview
-        href: Getting-Started/Overview.md
+      - name: Introduction
+        href: Getting-Started/Getting Started.md
       - name: Create Resources
         href: Getting-Started/Create-Resource.md
       - name: Produce And Consumer Message
