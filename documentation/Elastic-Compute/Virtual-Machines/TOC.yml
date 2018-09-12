@@ -1,35 +1,35 @@
-  name: Virtual Machine
+  name: Virtual Machines
   href: 
   items:
-  - name: Product Introduction
+  - name: Introduction
     items:
       - name: Product Overview
-        href: Introduction/Overview.md
-      - name: Core Concept
+        href: Introduction/Product-Overview.md
+      - name: Core Concepts
         href: Introduction/Core-Concepts.md
       - name: Region and Availability Zone
         href: Introduction/Regions-and-AvailabilityZones.md
+      - name: Benefits
+        href: Introduction/Benefits.md
       - name: Features
-        href: Introduction/Advantages.md
-      - name: Product Function
-        href: Introduction/Functions.md
-      - name: Product Specifications
-        href: Introduction/Instance-Type-Family.md
-      - name: Limitation Description
-        href: Introduction/Limits.md
-      - name: Application Scenario 
-        href: Introduction/Scenarios.md    
-  - name: Product Pricing
+        href: Introduction/Features.md
+      - name: Specifications
+        href: Introduction/Specifications.md
+      - name: Restrictions
+        href: Introduction/Restrictions.md
+      - name: Application Scenarios 
+        href: Introduction/Application-Scenarios.md    
+  - name: Pricing
     items:
       - name: Billing Overview
         href: Pricing/Billing-Overview.md
       - name: Billing Rules
         href: Pricing/Billing-Rules.md
       - name: Price Overview
-        href: Pricing/Price.md
-      - name: Purchase Procedure
+        href: Pricing/Price-Overview.md
+      - name: Purchase Process
         href: Pricing/Purchase-Process.md 
-      - name: Renewal Procedure
+      - name: Renew Process
         href: Pricing/Renew-Process.md
   - name: Linux Getting-Started Guide
     items:
@@ -55,7 +55,7 @@
         href: Getting-Start-Windows/Connect-to-Windows-Instance.md
       - name: Create File System
         href: Getting-Start-Windows/Create-File-System.md
-  - name: Operation Guidelines
+  - name: Operation Guide
     items:
       - name: Instance
         item:
