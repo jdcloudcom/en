@@ -1,40 +1,40 @@
   name: DevOps
   href: 
   items:
-  - name: Product Introduction
+  - name: Introduction
     items:
-      - name: DevOps Overview
-        href: Introduction/What-Is-DevOps.md
-      - name: Core Concept
+      - name: Product Overview
+        href: Introduction/Product-Overview.md
+      - name: Core Concepts
         href: Introduction/Core-Concepts.md
-      - name: Basic Architecture
+      - name: Basic Infrastructure
         href: Introduction/Basic-Infrastructure.md
-      - name: Product Advantage
+      - name: Benefits
         href: Introduction/Benefits.md
-      - name: Product Function
-        href: Introduction/Functions.md
-      - name: Product Specification
-        href: Introduction/Specification.md
-      - name: Restraint Instructions
+      - name: Features
+        href: Introduction/Features.md
+      - name: Specifications
+        href: Introduction/Specifications.md
+      - name: Restrictions
         href: Introduction/Restrictions.md
-      - name: Application Scenario 
+      - name: Application Scenarios 
         href: Introduction/Application-Scenarios.md    
-  - name: Product Pricing
+  - name: Pricing
     items:
-      - name: Billing Summary
+      - name: Billing Overview
         href: Pricing/Billing-Overview.md
       - name: Billing Rules
         href: Pricing/Billing-Rules.md
       - name: Price Overview
         href: Pricing/Price-Overview.md
-      - name: Purchase Procedure
+      - name: Purchase Process
         href: Pricing/Purchase-Process.md 
-      - name: Renewal Procedure
+      - name: Renew Process
         href: Pricing/Renew-Process.md
-  - name: Getting-started Guide
+  - name: Getting-started
     items:
-      - name: Summary of Getting-started Guide
-        href: Getting-Started/Introduction.md
+      - name: Introduction
+        href: Getting-Started/Getting-started.md
       - name: Install Super Agents in the Virtual Machines
         href: Getting-Started/Install-Agent.md
       - name: Create Service Tree Nodes
@@ -71,6 +71,7 @@
       href: Best-Practices/Monitoring.md
   - name: Course
     items:
+    status：0
   - name: Troubleshooting
     items:
     - name: Problems of Fault Class
@@ -89,9 +90,9 @@
       href: User-Agreements/Product-Terms-of-Service.md                 
     - name: SLA
       href: User-Agreements/SLA.md               
-  - name: Relevant Resources
+  - name: Related Resources
     items:
-    - name: Document Historical Records
+    - name: Document History
       href: Related-Resources/Document-History.md   
     - name: Filing
       href: Related-Resources/Filing.md                 
