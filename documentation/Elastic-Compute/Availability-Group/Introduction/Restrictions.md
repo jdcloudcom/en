@@ -1,4 +1,4 @@
-# Use Restrictions
+# Restrictions
 
 * The quota of the Availability Group is 20. If you need additional resources, please apply for the ticket.
 * The Availability Zone property of the Availability Group is not allowed to be modified after creation.

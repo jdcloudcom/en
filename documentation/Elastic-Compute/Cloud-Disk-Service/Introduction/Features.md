@@ -1,4 +1,4 @@
-# **Product function**
+# **Features**
 
 **Rich product form**
 
