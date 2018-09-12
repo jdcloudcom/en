@@ -1,0 +1,19 @@
+swagger: "2.0"
+definitions:
+  ipResourceProtectInfo:
+    type: object
+    x-jdcloud-module: baseanti
+    properties:
+      startTime:
+        type: string
+        description: Start time of attack
+      endTime:
+        type: string
+        description: End time of attack
+      status:
+        type: integer
+        description: Status, 0->completed  1->clean  2->black hole
+      cause:
+        type: integer
+        description: Trigger cause, 0->unknown  1->four-layer  2->seven-layer  3->four-layer and seven-layer
+

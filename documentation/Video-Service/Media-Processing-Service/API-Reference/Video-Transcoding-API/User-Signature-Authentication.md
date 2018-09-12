@@ -95,7 +95,7 @@ AccessKeySecret is “1MYaiNh3NeN9SuxaqFjSrc7I49rWKkQCxpl9eLNZ”
 
 | |Sample|
 |-|-|
-|Request|PUT /sign.txt   HTTP/1.1<br>Content-Type: text/plain<br>Content-MD5: 0c791a8c18017c7ad1675936d12bae5d<br>x-jss-server-side-encryption: false<br>Date: Thu, 13 Jul 2017 02:37:31 GMT<br>Authorization: jingdong qbS5QXpLORrvdrmb: xvj2Iv7WcSwnN26XYnTq/c2YBQs=<br>Content-Length: 20<br>Host: s-bj.jcloud.com|
+|Request|PUT /sign.txt   HTTP/1.1<br>Content-Type: text/plain<br>Content-MD5: 0c791a8c18017c7ad1675936d12bae5d<br>x-jss-server-side-encryption: false<br>Date: Thu, 13 Jul 2017 02:37:31 GMT<br>Authorization: jingdong qbS5QXpLORrvdrmb: xvj2Iv7WcSwnN26XYnTq/c2YBQs=<br>Content-Length: 20<br>Host: oss.cn-north-1.jcloudcs.com|
 |The signature character string calculation formula|Signature =   base64(hmac-sha1(AccessKeySecret,<br>HTTP-Verb + “\n” <br>+ Content-MD5 + “\n”<br>+ Content-Type + “\n” <br>+ Date + “\n”<br>+ CanonicalizedHeaders<br>+ CanonicalizedResource))
 |The signature character string|PUT\n<br>0c791a8c18017c7ad1675936d12bae5d\n<br>text/plain\n<br>Thu, 13 Jul 2017 02:37:31   GMT\n<br>x-jss-server-side-encryption:false\n<br>/oss-test/sign.txt|
 
@@ -136,14 +136,14 @@ PUT /sign.txt   HTTP/1.1
   Date: Thu, 13 Jul 2017 02:37:31 GMT
   Authorization: jingdong qbS5QXpLORrvdrmb: xvj2Iv7WcSwnN26XYnTq/c2YBQs=
   Content-Length: 20
-  Host: s-bj.jcloud.com
+  Host: oss.cn-north-1.jcloudcs.com
 ```
 Detailed analysis:
 
 1. If the incoming AccessKey is absent or inactive, return 403 Forbidden. Error code: InvalidAccessKey.
 
-2. The time of incoming request must be within 15 minutes after the current time of JD Cloud storage server, otherwise it will return 403 Forbidden. Error code: RequestTimeTooSkewed.
+2. The time of incoming request must be within 15 minutes after the current time of JD Cloud OSS server, otherwise it will return 403 Forbidden. Error code: RequestTimeTooSkewed.
 
 3. If the format of the Authorization value in the user request header is incorrect, return 400 Bad Request. Error code: InvalidToken.
 
-All requests in JD Cloud Storage must use the GMT format specified in the HTTP 1.1 Protocol. The date format is: Wed, 22 May 2017 05:29:49 GMT
+All requests in JD Cloud OSS must use the GMT format specified in the HTTP 1.1 Protocol. The date format is: Wed, 22 May 2017 05:29:49 GMT

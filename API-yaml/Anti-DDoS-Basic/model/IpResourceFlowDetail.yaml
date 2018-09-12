@@ -1,0 +1,17 @@
+swagger: "2.0"
+definitions:
+  ipResourceFlowDetail:
+    type: object
+    x-jdcloud-module: baseanti
+    properties:
+      used:
+        type: array
+        description: Use value of corresponding time point
+        items:
+          type: integer
+          format: int64
+      times:
+        type: array
+        description: Time point
+        items:
+          type: string

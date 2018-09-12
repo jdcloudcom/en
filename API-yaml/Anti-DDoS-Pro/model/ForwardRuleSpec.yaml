@@ -1,0 +1,32 @@
+swagger: "2.0"
+definitions:
+  forwardRuleSpec:
+    type: object
+    x-jdcloud-module: ipanti
+    properties:
+      protocol:
+        type: string
+        description: Protocol: TCP or UDP
+      port:
+        type: integer
+        description: Port number
+      algorithm:
+        type: string
+        description: Forwarding rules: wrr->Round Robin with weight  wlc->minimum weighted connection  rr->Round Robin without weight  sh->source address hash
+      originType:
+        type: string
+        description: Back-to-origin type, ip or domain
+      originAddr:
+        type: array
+        items:
+          $ref: "../model/OriginAddrItem.yaml#/definitions/OriginAddrItem"
+      onlineAddr:
+        type: array
+        items:
+          type: string
+      originDomain:
+        type: string
+        description: Back-to-origin domain name
+      originPort:
+        type: integer
+        description: Back-to-origin port number

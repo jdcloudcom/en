@@ -4,11 +4,11 @@
   - name: Introduction
     items:
       - name: Product Overview
-        href: Introduction/What-Is-Application-Security-Gateway.md
+        href: Introduction/Product-Overview.md
       - name: Benefits
         href: Introduction/Benefits.md
       - name: Features
-        href: Introduction/Functions.md
+        href: Introduction/Features.md
       - name: Restrictions
         href: Introduction/Restrictions.md
         name: Specifications

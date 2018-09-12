@@ -2,7 +2,7 @@
 # Introduction #
   Welcome to the JD Cloud Developer Node.js Tool Kit (Node.js SDK). Use JD Cloud. Node.js SDK, you can access various services from JD Cloud without complex programming. 
 
-  To help you understand the meaning of some of the concepts and parameters in the SDK, we recommend that you first review[JD Cloud OpenAPI Use Getting Started] before using the SDK (http://www.jdcloud.com/help/detail/355/isCatalog/0). To understand the specific parameters and meanings of each API, refer to the program comments or the API documentation for specific product lines under the OpenAPI & SDK.
+  To help you understand the meaning of some of the concepts and parameters in the SDK, we recommend that you first review [JD Cloud OpenAPI Use Getting Started] before using the SDK (http://www.jdcloud.com/help/detail/355/isCatalog/0). To understand the specific parameters and meanings of each API, refer to the program comments or the API documentation for specific product lines under the OpenAPI & SDK.
 
 
 
@@ -20,11 +20,11 @@ npm install jdcloud-sdk-js
 
  
 
-You can also download the sdk source code yourself. The source code address is:[Node.js SDK](https://github.com/jdcloud-api/jdcloud-sdk-nodejs).
+You can also download the sdk source code yourself. The source code address is: [Node.js SDK](https://github.com/jdcloud-api/jdcloud-sdk-nodejs).
 
  
 
-With any of the problems in the SDK use, you welcome you to communicate with the Github project[SDK Use Problem Feedback page](https://github.com/jdcloud-api/jdcloud-sdk-nodejs/issues).
+With any of the problems in the SDK use, you welcome you to communicate with the Github project [SDK Use Problem Feedback page](https://github.com/jdcloud-api/jdcloud-sdk-nodejs/issues).
 
 
 

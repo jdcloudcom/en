@@ -1,0 +1,29 @@
+swagger: "2.0"
+definitions:
+  DDosAttackLog:
+    type: object
+    x-jdcloud-module: ipanti
+    properties:
+      attackTraffic:
+        type: number
+        format: float
+        description: Attack traffic
+      blackHole:
+        type: integer
+        description: Is black hole triggered, 0->no  1->yes
+      startTime:
+        type: string
+        description: Start time of attack
+      endTime:
+        type: string
+        description: End time of attack
+      unit:
+        type: string
+        description: Traffic unit, i.e. bps, Kbps, Mbps and Gbps
+      instanceId:
+        type: integer
+        format: int64
+        description: Advanced Anti-DDoS instance ID
+      name:
+        type: string
+        description: Advanced Anti-DDoS instance name

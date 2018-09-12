@@ -10,5 +10,5 @@ This paper introduces the important update history of documents of API gateway p
 
 ## Relevant References
 
-- [Product Overview](../ Introduction / What-Is-APIGateway.md)
+- [Product Overview](../Introduction/What-Is-APIGateway.md)
 

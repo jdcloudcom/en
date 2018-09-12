@@ -2,7 +2,7 @@
 # Introduction #
   Welcome to the JD Cloud Developer Php Tool Kit (Php SDK). With the JD Cloud Php SDK, you can access the services provided by JD Cloud without complex programming. 
 
-  To help you understand the meaning of some of the concepts and parameters in the SDK, we recommend that you first review[JD Cloud OpenAPI Use Getting Started] before using the SDK (http://www.jdcloud.com/help/detail/355/isCatalog/0). To understand the specific parameters and meanings of each API, refer to the program comments or the API documentation for specific product lines under the OpenAPI & SDK.
+  To help you understand the meaning of some of the concepts and parameters in the SDK, we recommend that you first review [JD Cloud OpenAPI Use Getting Started](http://www.jdcloud.com/help/detail/355/isCatalog/0) before using the SDK. To understand the specific parameters and meanings of each API, refer to the program comments or the API documentation for specific product lines under the OpenAPI & SDK.
 
 
 
@@ -33,11 +33,11 @@ or
     composer install 
 
 
-You can also download the SDK source code yourself. The source code address is:[PhpSDK](https://github.com/jdcloud-api/jdcloud-sdk-php).
+You can also download the SDK source code yourself. The source code address is: [PhpSDK](https://github.com/jdcloud-api/jdcloud-sdk-php).
 
  
 
-With any of the problems in the SDK use, you are welcomed to communicate with the Github project[SDK Use Problem Feedback page](https://github.com/jdcloud-api/jdcloud-sdk-php/issues).
+With any of the problems in the SDK use, you are welcomed to communicate with the Github project [SDK Use Problem Feedback page](https://github.com/jdcloud-api/jdcloud-sdk-php/issues).
 
 
 Note: JD Cloud does not provide other downloading ways, please be sure to use the above-mentioned official download method!

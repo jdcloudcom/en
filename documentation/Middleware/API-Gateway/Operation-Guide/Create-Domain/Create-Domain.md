@@ -8,20 +8,6 @@ API gateway offers the domain name association based on API group. The API gatew
 - The customized domain names support online environment only, other environments (test, pre-publish) not.
 
 
-## Application Scenarios
-The user can solve following problems through customized domain names:
-
-1. User A owns a website with the domain name of abc.com, and at this moment, he needs to migrate the request for picture in the website to OSS but does not want to modify the code of any web page, namely, do not change the external link. Use CNAME function at this time.
-
-2. Avoid the cross-domain or security issue that may be involved in the business.
-
-3. The user does not expect to show oss domain name but wants to use his own domain.
-
-
-
-## Preconditions 
-The user who opens the JD Cloud Object Storage Service and has no overdue bills
-
 
 ## Process of Adding New Customized Domain Name
 ### Operation Steps:
@@ -35,13 +21,4 @@ The user who opens the JD Cloud Object Storage Service and has no overdue bills
 
 
 
-##Associate Process 
-### Operation Steps:
-#### STEP1: find the group which requires to associate the domain:
-![APIgroup list](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/apigroup-rp-apigroup-list.png)
-
-#### STEP2: Associate Domain
-Click **Associate Domain** in this group row to select and associate the domain required to be mapped. You can add a new custom domain in the custom domain page and then associate the domain in case of unavailable domain.
-
-![Associate domain](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/apigroup-bdym.png)
 

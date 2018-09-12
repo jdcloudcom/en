@@ -1,19 +1,22 @@
 # Traffic Control Policy
 
-Currently, the API gateway configures security protection settings for you, providing two security measures: Backend signature key pair and traffic control policy. This section will introduce the traffic control policy.
+API Gateway offers Flow Control Policy to have API call under control. The Flow Control Policy needs to be bounded to API grouping to work on the API under the grouping.
 
-The Traffic Control Policy can affect the associated API only after associating the Traffic Control Policy to API group.
+-  The Flow Control Policy can have restrictions on API grouping times and single Access Key times.
+-  Please note that restrictions of single Access Key times shall not be greater than that of API grouping flow, that is, restrictions of single Access Key times <= restrictions of API grouping flow.
+-  The upper limit of Flow Control for each API grouping is 500 QPS by default (the figure can be increased by submitting the Open Ticket application).
+-  The Flow Control Policy takes effect upon binding with API grouping. One policy can be bounded to multiple API groupings and each API grouping takes effect separately.
+-  In the case that an API grouping has been bounded with certain policy, the policy will be replaced when you are binding a new policy, which takes effect in real time.
+-  At the API Gateway Console, such basic operations as creating, modifying, deleting, checking, binding and unbinding of the Flow Control Policy can be completed.
+-  Flow Control unit: minute(s), day(s).
 
-- The traffic control policy can limit for API group and the single access key limit. The unit of traffic control is minute and day. Mind that the single access key limit should not be more than the API group limit. That is, single access key limit <= API group traffic limit.
-- The default traffic control limit of each API group is considered as 500QPS (this value can be improved by Open Ticket) when you set the API traffic upper limit, because of API gateway limit.
-
-- Associate API group. You can associate the policy to several API groups. The limit of traffic control policy will separately affect each API associated by the policy. When you associate the API, if this API has been associated to a policy, then your operation will replace the previous one and take effect in real time.
-- You can perform some basic operations of traffic control policy at API gateway control panel, such as creation, modification, deletion and check. There are also operations such as associate and disassociate of traffic control policy with API group.
+When a Flow Control Policy is created, Region shall be selected and cannot be changed once selected, it can only be applied for the API under the same Region.
 
 
 
 ## Operational Steps
 You need to select Region which can not be changed once selected and can only be applied to the API under the same one Region when you create traffic control policy.
+
 
 1. Click the **Traffic Control Policy** at left menu to enter the page of traffic control policy list to configure and associate the policy.
 

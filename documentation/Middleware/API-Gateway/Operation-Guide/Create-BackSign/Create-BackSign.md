@@ -1,11 +1,12 @@
 # Backend Service Signature
 
 
-Currently, the API gateway configures security protection settings for you, providing two security measures: Backend signature key pair and traffic control policy. This paper will introduce the backend signature.
+The Backend Signature Key Pair employs backend signature verification to guarantee your backend security after your real backend is requested by JD Cloud user AK/SK(Access Key/Access Key Secret) at the gateway.
 
-The key pair of backend signature adopts JD Cloud User AK/SK(Access Key/Access Key Secret), which will protect your backend through verification of backend signature when the gateway requests your real backend.
+Once the JD Cloud AK/SK key pair is bounded to API grouping, the AK/SK will be added and shown when the API under the grouping is requested by the gateway, the identity of gateway is verified by your backend through verifying the signature character string.
 
-After you associate the AK/SK key pair of JD Cloud user to API, this AK/SK will be added and showed when the gateway requests this API, and your backend will verify the identity of gateway through verification of string of signature.
+Click Backend Signature on the left for the configuration and binding of Backend Signature.
+
 
 
 ## Operational Steps

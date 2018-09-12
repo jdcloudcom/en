@@ -1,0 +1,8 @@
+swagger: "2.0"
+info:
+  version: "v1"
+  title: JD Cloud Advanced Anti-DDoS APIs
+  description: JD Cloud Advanced Anti-DDoS APIs
+host: "ipanti.jdcloud-api.com"
+x-jdcloud-version: "v1"
+x-jdcloud-revision: "1.0.1"

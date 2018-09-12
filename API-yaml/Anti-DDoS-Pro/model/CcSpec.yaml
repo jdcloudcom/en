@@ -1,0 +1,24 @@
+swagger: "2.0"
+definitions:
+  CCSpec:
+    type: object
+    x-jdcloud-module: ipanti
+    properties:
+      ccProtectMode:
+        type: integer
+        description: cc defense mode, 0->normal  1->loose  2->critical  3->customized
+      ccThreshold:
+        type: integer
+        description: Threshold of CC defense
+      hostQps:
+        type: integer
+        description: When ccProtectMode is a customized mode, specify the protection threshold of each Host
+      hostUrlQps:
+        type: integer
+        description: When ccProtectMode is a customized mode, specify the protection threshold of each Host+URI
+      ipHostQps:
+        type: integer
+        description: When ccProtectMode is a customized mode, specify the protection threshold of each source IP to Host
+      ipHostUrlQps:
+        type: integer
+        description: When ccProtectMode is a customized mode, specify the protection threshold of each source IP to Host+URI

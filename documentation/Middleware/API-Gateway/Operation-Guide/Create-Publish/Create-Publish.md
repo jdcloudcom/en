@@ -7,7 +7,6 @@ API caller can access and call the API through custom domain or secondary domain
 Please note that:
 - If selecting Mock backend in publishing, directly return to normal constant result instead of requesting the real back service when commissioning. This method applies to test if the request link of API is correct and skip the APP authentication and signature verification;
 - The gateway will actually request the backend service if selecting the unique backend and call the backend address.
-- Make sure you have properly configured the traffic control policy, backend signature, authorized access and other information of API group before publishing, otherwise the access may be affected.
 
 
 ## Operation Steps:
@@ -29,11 +28,8 @@ Firstly, enter the **API Group Management** page and find the group to be publis
 Description:
 
 
-
-
-
 1) Select the version to be published. API gateway supports the version management of group, so you need to pay attention to select the version to be published when publishing. Subsequently, you can switch or log off different versions in environment management.
-
+   
 2) Select the environment to be published. API gateway provides three environments: Test, Pre-release, On-line.
 
 3) Select the publishing type of backend service. Support Mock backend and real backend at present. When commissioning, if selecting Mock backend to publish, then do not request the real backend service, but return to constant result. This method applies to test if the request link of API is correct and skip the APP authentication and signature verification.
