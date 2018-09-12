@@ -31,8 +31,8 @@
             href: Introduction/Application-Scenarios/Hybrid-Cloud-Deployments-Under-Regulatory-Requirements.md
   - name: Pricing
     items:
-      - name: Billing Rule
-        href: Pricing/Billing-Rule.md
+      - name: Billing Overview
+        href: Pricing/Billing-Overview.md
   - name: Getting Started
     items:
        - name: Direct Connection of the Same Account in the Same Region
