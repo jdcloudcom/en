@@ -1,6 +1,6 @@
 
 
-# Restriction Statement
+# Restrictions
 
 | Resources | Limitations | Exceptional Application Method |
 | --- | --- | --- |
