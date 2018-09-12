@@ -1,4 +1,4 @@
-# Product Specification
+# Specifications
 
 Enterprise version (SaaS version):
 
