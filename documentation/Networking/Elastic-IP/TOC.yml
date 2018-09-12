@@ -1,16 +1,16 @@
 ﻿ name: Elastic IP
   href: 
   items:
-  - name: Product Introduction
+  - name: Introduction
     items:
       - name: Product Overview
-        href: Introduction/What-is-Elastic-IP.md
+        href: Introduction/Product-Overview.md
       - name: Core Concept
         href: Introduction/Core-Concepts.md
-      - name: Product Advantages
+      - name: Advantages
         href: Introduction/Benefits.md
-      - name: Product Function
-        href: Introduction/Functions.md
+      - name: Features
+        href: Introduction/Features.md
       - name: Restraint Instructions
         href: Introduction/Restrictions.md
       - name: Application Scenario 
