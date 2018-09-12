@@ -1,6 +1,6 @@
 # Cross-origin access setting
 
-The cross-origin resource sharing (CORS) defines the interaction method between a client Web application program loaded in one domain and resources in another domain. When any one of the protocol, domain name and port requesting URL is different from the current page address, it is cross-origin. For example, the most common one is to call a resource in one domain name in the webpage under another domain name, such as a JavaScript script, Web fonts, etc. The browser limits cross-origin HTTP requests originating from scripts usually out of security reasons, and the default security limit is the same-origin policy. As a result, a cross-origin access check mechanism is recommended by W3C, i.e., CORS. With the mechanism, the Web application server is able to support the cross-station identity and access management, make the cross-station data transmission safer and relieve risk of cross-origin HTTP request. You can refer to the W3C CORS specification for specific CORS rules.
+The cross-origin resource sharing (CORS) defines the interaction method between a client Web application program loaded in one domain and resources in another domain. When any one of the protocol, domain name and port requesting URL is different from the current page address, it is cross-origin. For example, the most common one is to call a resource in one domain name in the webpage under another domain name, such as a JavaScript script, Web fonts, etc. The browser limits cross-origin HTTP requests originating from scripts usually out of security reasons, and the default security limit is the same-origin policy. As a result, a cross-origin access check mechanism is recommended by W3C, i.e., CORS. With the mechanism, the Web application server is able to support the cross-station identity and access management, make the cross-station data transmission safer and relieve risk of cross-origin HTTP request. You can refer to the W3C CORS specification for [CORS rules](https://www.w3.org/TR/cors/).
 
 Common customer scenarios for cross-origin resource sharing:
 
@@ -34,7 +34,7 @@ Cross-Origin Resource Sharing (CORS) is a standard cross-origin solution provide
 
 ## The setup process in the console is as follows:
 
-1. Login to the console->Cloud Storage->Space Management->Login to a certain Bucket->Space Settings, name it as “Cross-origin Access Settings”:
+1. Login to the console->Object Storage Service->Bucket Management->Login to a certain Bucket->Space Settings, name it as “Cross-origin Access Settings”:
 
 ![跨域访问设置](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-037.png)
 

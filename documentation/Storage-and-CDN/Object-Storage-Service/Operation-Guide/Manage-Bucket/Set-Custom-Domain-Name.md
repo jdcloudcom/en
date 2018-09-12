@@ -23,10 +23,10 @@ Customized domain name is available as access address to the storage file in OSS
 
 + Before association: example.oss.cn-north-1.jcloudcs.com /test.jpg
 + After successful association: hello-world.com/test.jpg
-  You can associate the customized domain name to the OSS Internet domain name through the console to realize the customized domain name access to the file under the storage space, or you can configure JD Cloud CDN to realize the acceleration function at the same time. Refer to [Internet domain name- endpoint ](https://www.jdcloud.com/help/detail/1177/isCatalog/1)
+  You can associate the customized domain name to the OSS Internet domain name through the console to realize the customized domain name access to the file under the storage space, or you can configure JD Cloud CDN to realize the acceleration function at the same time. Refer to [Internet domain name- endpoint ](../../API-Reference-S3-Compatible/Regions-And-Endpoints.md)
 
 ## Action steps for associating domain name
-1. Login the console->cloud storage->space management->enter into a Bucket-> space setting, and click “Customized Domain Name”.
+1. Login the console->Object Storage Service->space management->enter into a Bucket-> space setting, and click “Customized Domain Name”.
 2. Click the button of adding the domain name and open the page for associating user’s domain name, as shown in the following figure:
 ![图片](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/TimLine%E5%9B%BE%E7%89%8720180731191346.jpg)
  
@@ -48,5 +48,5 @@ Click the destination domain name or the right-handed resolution button to enter
 Add resolution, and then add the resolution page.
 Choose CNAME in the record type drop-down list; in the record value box, fill in the corresponding storage space Internet domain name (i.e. Bucket domain name, such as BucketName.oss.cn-north-1.jcloudcs.com).
 Click confirmation, and the domain name resolution is completed.
-Refer to [JD Cloud DNS-Add Resolution Record](https://www.jdcloud.com/help/detail/2167/isCatalog/1) for details
+Refer to [JD Cloud DNS-Add Resolution Record](../../../../Domain-Name-and-Website/JD-Cloud-DNS/Introduction/What-Is-DNS.md) for details
 

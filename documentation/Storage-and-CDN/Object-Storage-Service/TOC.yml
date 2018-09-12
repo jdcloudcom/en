@@ -280,5 +280,4 @@
       - name: Use S3cmd to Manage OSS
         href: Best-Practices/S3cmd.md
  - name: FAQ
-   href:
-    status: 0
+   status: 0

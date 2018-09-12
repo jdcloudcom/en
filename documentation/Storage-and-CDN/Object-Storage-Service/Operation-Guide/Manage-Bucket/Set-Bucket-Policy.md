@@ -1,8 +1,8 @@
-# Access permission setting
+# Set bucket policy
 
 ## Bucket Policy
 
-JD Cloud object storage service provides flexible permission control mechanism. You can set the access permission of the storage space when creating the storage space, or modify the space permission after creation. In addition to providing the access permission control of storage space level, you can also conduct flexible permission access configuration to the files and the directory levels. There are currently four access permissions for the Bucket level:
+JD Cloud object storage service provides flexible permission control mechanism. You can set the access permission of the bucket when creating the bucket, or modify the space permission after creation. In addition to providing the access permission control ofbucket level, you can also conduct flexible permission access configuration to the files and the directory levels. There are currently four access permissions for the Bucket level:
 
 |Permission Name|Permission English Value|Permission Description|
 |-|-|-|

@@ -1,9 +1,9 @@
-- name: SSL Digital Certificate
+- name: SSL Certificate
   href: 
 - name: Introduction
   items:
    - name: Product Overview
-        href: Introduction/Overview.md
+        href: Introduction/Product-Overview.md
       - name: Core Concepts
         href: Introduction/Core-Concepts.md
       - name: Basic Architecture
@@ -12,7 +12,7 @@
       - name: Benefits
         href: Introduction/Benefits.md
       - name: Features
-        href: Introduction/Functions.md
+        href: Introduction/Features.md
       - name: Specifications
         href: 
         status: 0
