@@ -1,4 +1,4 @@
-# Product Function
+# Features
 
 JD Cloud Physical Server mainly provides the following functions, and for more functions, please visit JD Cloud console for experience:
 
