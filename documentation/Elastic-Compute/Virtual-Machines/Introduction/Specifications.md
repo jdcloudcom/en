@@ -1,5 +1,4 @@
-# Instance Type
-
+# Specifications
 An instance is the smallest unit that JD Cloud provides computing services for your business. Different instances identify their corresponding computing, memory, storage, and networking capabilities by their types and specific specifications. Meanwhile, the instance type family you specified when you create an instance determines the hardware configuration of this instance. You can select the appropriate instance type family and specific specification based on the type and size of the application you need to deploy.
 
 The following is the example specification type information of the current JD Cloud. The types and specifications of the saleable instances in different regions are not identical. Please refer to the example creation page. The specific Instance Type specifications can be classified according to different application scenarios:
