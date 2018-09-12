@@ -42,13 +42,13 @@ http://downloads.oss.cn-north-1.jcloudcs.com/lena.jpg?x-oss-process=img/s/200/30
 
 5. Upper limit of the maximum number of processing actions of a single request <=100; repetitive operation is accumulated.
 
-For example: http://downloads.oss.cn-north-1.jcloudcs.com/lena.jpg?x-oss-process=img/s/200/300/cc/200/260中
+For example: http://downloads.oss.cn-north-1.jcloudcs.com/lena.jpg?x-oss-process=img/s/200/300/cc/200/260
 
 Scale s and center crop cc are recorded as two actions.
 
 6. Total length of processing parameters cannot exceed 1024 bytes
 
-For example: http://downloads.oss.cn-north-1.jcloudcs.com/lena.jpg?x-oss-process=img/s/200/300/cc/200/260中
+For example: http://downloads.oss.cn-north-1.jcloudcs.com/lena.jpg?x-oss-process=img/s/200/300/cc/200/260
 
 The part of processing parameters includes img/s/200/300/cc/200/260
 

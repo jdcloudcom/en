@@ -1,11 +1,11 @@
 # Backend Service Signature
 
 
-The key pair of backend signature adopts JD Cloud User AK/SK(Access Key/Access Key Secret), which will protect your backend through verification of backend signature when the gateway requests your real backend.
+The Backend Signature Key Pair employs backend signature verification to guarantee your backend security after your real backend is requested by JD Cloud user AK/SK(Access Key/Access Key Secret) at the gateway.
 
-您将京东云用户AK/SK密钥绑定到 API分组 上后，当网关请求这个分组下的 API 时，会添加并出示该AK/SK，您的后端通过验证签名字符串来验证网关的身份。
+Once the JD Cloud AK/SK key pair is bounded to API grouping, the AK/SK will be added and shown when the API under the grouping is requested by the gateway, the identity of gateway is verified by your backend through verifying the signature character string.
 
-点击左侧 后端签名，进行后端签名的配置和绑定。
+Click Backend Signature on the left for the configuration and binding of Backend Signature.
 
 
 

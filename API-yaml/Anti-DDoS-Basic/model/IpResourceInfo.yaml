@@ -1,0 +1,27 @@
+swagger: "2.0"
+definitions:
+  ipResourceInfo:
+    type: object
+    x-jdcloud-module: baseanti
+    properties:
+      ip:
+        type: string
+        description: EIP address
+      safeStatus:
+        type: integer
+        description: Security status, 0->safe  1->clean  2->black hole
+      region:
+        type: string
+        description: Region, i.e. cn-north-1, cn-south-1, cn-east-1 and cn-east-2
+      blackHoleThreshold:
+        type: integer
+        format: int64
+        description: Black hole threshold, unit: bps
+      cleanThresholdBps:
+        type: integer
+        format: int64
+        description: Traffic rate of trigger cleaning, unit: bps
+      cleanThresholdPps:
+        type: integer
+        format: int64
+        description: Package rate of trigger cleaning, unit: pps

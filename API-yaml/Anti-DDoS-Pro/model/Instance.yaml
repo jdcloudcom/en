@@ -1,0 +1,108 @@
+swagger: "2.0"
+definitions:
+  instance:
+    type: object
+    x-jdcloud-module: ipanti
+    properties:
+      instanceId:
+        type: integer
+        format: int64
+        description: Instance ID
+      name:
+        type: string
+        description: Instance Name
+      carrier:
+        type: string
+        description: ISP Line, i.e. UNICOM and TELECOM
+      elasticTriggerCount:
+        type: integer
+        description: Times of triggering elastic bandwidth
+      abovePeakCount:
+        type: integer
+        description: Frequency of over peak value
+      inBitslimit:
+        type: integer
+        description: Minimum bandwidth
+      resilientBitslimit:
+        type: integer
+        description: Elastic bandwidth
+      businessBitslimit:
+        type: integer
+        description: Business bandwidth
+      ccThreshold:
+        type: integer
+        description: CC threshold
+      ruleCount:
+        type: integer
+        description: Non-web service rules
+      webRuleCount:
+        type: integer
+        description: Web service rules
+      chargeStatus:
+        type: string
+        description: Billing status, PAID->normal  ARREARS->overdue  EXPIRED->expired
+      securityStatus:
+        type: string
+        description: Security status, SAFE->security  CLEANING->cleaning  BLOCKING-blocking
+      createTime:
+        type: integer
+        format: int64
+        description: Instance creation time
+      expireTime:
+        type: integer
+        format: int64
+        description: Instance expiration time
+      resourceId:
+        type: string
+        description: Resource ID, used during upgrade and renewal
+      ccProtectMode:
+        type: integer
+        description: cc defense mode, 0->normal  1->critical  2->relaxed  3->customized
+      ccProtectStatus:
+        type: integer
+        description: cc enabling status, 0->disabled  1->enabled
+      ccSpeedLimit:
+        type: integer
+        description: cc defense mode has the same speed limit as customized mode
+      ccSpeedPeriod:
+        type: integer
+        description: cc defense mode has the same speed limit period as customized mode
+      ipBlackList:
+        type: array
+        items:
+          type: string
+        description: IP blacklist
+      ipBlackStatus:
+        type: integer
+        description: IP blacklist status, 0->disabled  1->enabled
+      ipWhiteList:
+        type: array
+        items:
+          type: string
+        description: IP white list
+      ipWhiteStatus:
+        type: integer
+        description: IP white list status, 0->disabled  1->enabled
+      pin:
+        type: string
+        description: User pin
+      urlWhitelist:
+        type: array
+        items:
+          type: string
+        description: url white list
+      urlWhitelistStatus:
+        type: integer
+        description: url white list status, 0->disabled  1->enabled
+      hostQps:
+        type: integer
+        description: The protection threshold of each Host when ccProtectMode is a customized mode
+      hostUrlQps:
+        type: integer
+        description: The protection threshold of each Host+URI when ccProtectMode is a customized mode
+      ipHostQps:
+        type: integer
+        description: The protection threshold of each source IP to Host when ccProtectMode is a customized mode
+      ipHostUrlQps:
+        type: integer
+        description: The protection threshold of each source IP to Host+URI when ccProtectMode is a customized mode

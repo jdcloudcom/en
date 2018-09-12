@@ -15,7 +15,7 @@ The billing cycle of JD Cloud object storage service is based on day, which sett
  <tr height=40 style='mso-height-source:userset;height:30.0pt'>
   <td colspan=2 height=40 class=xl65 width=256 style='height:30.0pt;width:192pt'>Billing Items</td>
   <td class=xl65 width=219 style='border-left:none;width:164pt'>Storage Unit Price of Standard type</td>
-  S<td class=xl65 width=198 style='border-left:none;width:149pt'>Unit Price of reduced redundancy storage</td>
+  <td class=xl65 width=198 style='border-left:none;width:149pt'>Unit Price of reduced redundancy storage</td>
  </tr>
  <tr height=40 style='mso-height-source:userset;height:30.0pt'>
   <td rowspan=3 height=120 class=xl66 width=96 style='height:90.0pt;border-top:

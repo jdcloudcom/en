@@ -19,7 +19,7 @@ Using the source code to install as follows:
 
 	python setup.py install
  
-With any of the problems in the SDK use, you welcome you to communicate with the Github project[SDK Use Problem Feedback page](https://github.com/jdcloud-api/jdcloud-sdk-python/issues).
+With any of the problems in the SDK use, you welcome you to communicate with the Github project [SDK Use Problem Feedback page](https://github.com/jdcloud-api/jdcloud-sdk-python/issues).
 
 **Note: JD Cloud does not provide other downloading methods. Please be sure to use the above-mentioned official download method!**
  
