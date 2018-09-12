@@ -1,4 +1,4 @@
-# Summary of Getting Started Guide
+# Getting Started Overview
 
 ## Turn-on Process
 
