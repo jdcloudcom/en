@@ -10,7 +10,7 @@
 			{
 				"funcName":"",
 				"funcTitle":"可配置RAID模式",
-				"funcP":"对于系统盘统一提供RAID1模式，保证系统盘的高可用性。对于数据盘用户可根据业务需求选择NO RAID、RAID0或RAID1。"
+				"funcP":"对于系统盘统一提供RAID1模式，保证系统盘的高可用性。对于数据盘用户可根据业务需求选择NO RAID、RAID0、RAID1或RAID10。"
 			},
 			{
 				"funcName":"",
