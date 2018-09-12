@@ -33,7 +33,7 @@
   - name: Getting Started
     items:
       - name: Introduction
-        href: Getting-Started/Getting Started.md
+        href: Getting-Started/Getting-Started.md
       - name: Create Resources
         href: Getting-Started/Create-Resource.md
       - name: Produce And Consumer Message
