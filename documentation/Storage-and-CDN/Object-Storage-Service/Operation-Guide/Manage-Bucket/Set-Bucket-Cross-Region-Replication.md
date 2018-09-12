@@ -18,7 +18,7 @@ Setting up cross-region replication may be helpful when you have the following n
 ## The setup process in the console is as follows:
 
 
-1. Login to the Console->Cloud Storage->Space Management->Enter a Bucket->Space Settings->Cross-Region Replication
+1. Login to the Console->OSS->Object Storage Service->Enter a Bucket->Space Settings->Cross-Region Replication
 
 ![跨区域复制](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-041.png)
 

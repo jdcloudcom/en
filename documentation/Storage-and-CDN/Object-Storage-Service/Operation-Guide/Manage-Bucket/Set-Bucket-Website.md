@@ -20,7 +20,7 @@ After uploading resources such as pictures, videos, static pages and client scri
 
 ## Relevant console actions:
 
-1. Login to the Console->Cloud Storage->Space Management->Enter a Bucket->Space Settings, click “Static Website Hosting”:
+1. Login to the Console->Object Storage Service->Space Management->Enter a Bucket->Space Settings, click “Static Website Hosting”:
 
 ![静态网站托管](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-040.png)
 

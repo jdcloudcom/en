@@ -1,4 +1,4 @@
-## **Package Details**
+## **Price Overview**
 
 | Product Parameters                    | Advanced Edition     | Enterprise Edition     | Ultimate Edition       |
 | --------------------------- | ---------- | ---------- | ------------ |

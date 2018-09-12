@@ -1,6 +1,6 @@
-# Turn on service
+# Sign up service
 
-Functions provided by the object storage service can be used only when the JD Cloud Object Storage Service is turned on. Procedures for turning on are as below:
+Functions provided by the object storage service can be used only when the JD Cloud Object Storage Service is signed up. Procedures for signing up are as below:
 
 1. Log in JD Cloud official website to enter the object storage service product page and click Instant Account Setup:
 
@@ -10,12 +10,12 @@ Functions provided by the object storage service can be used only when the JD Cl
 
 ![实名认证](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-007.png)
 
-3. Click Go to real-name verification; the Turn on Object Storage Service interface will appear after completing verification. It is shown in the figure below:
+3. Click Go to real-name verification; the Sign Up Object Storage Service interface will appear after completing verification. It is shown in the figure below:
 
 ![开通对象存储服务](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-007.png)
 
-4. Check “I have read and agreed the Cloud Storage Service Terms” and click Confirm to turn on to successfully turn on the object storage service; after that, directly go to the overview page of object storage service console.
+4. Check “I have read and agreed the object storage service Terms” and click Confirm to turn on to successfully sign up the object storage service; after that, directly go to the overview page of object storage service console.
 
 ![开通成功](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-008.png)
 
-Note: after the object storage service is turned on successfully, the system will not automatically create AccessKey and AccessKeySecret for users, the users need to manually create them in the AccessKey Management of Personal Center.
+Note: after the object storage service is signed up successfully, the system will not automatically create AccessKey and AccessKeySecret for users, the users need to manually create them in the AccessKey Management of Personal Center.
