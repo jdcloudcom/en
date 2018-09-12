@@ -1,4 +1,4 @@
-# Product Function
+# Features
 
 Content distribution: It provides complete Internet content distribution management and network acceleration solutions for static web pages, files, on-demand videos, and live videos.
 
