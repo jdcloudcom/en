@@ -1,4 +1,4 @@
-# Service Limits
+# Restrictions
 
 ## Account Limit
 * You need to perform real-name verification for the JD Cloud account used to create the VM instance. For details, please refer to [Real-name Verification]();
