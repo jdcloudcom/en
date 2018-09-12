@@ -1,6 +1,6 @@
 
 
-# Features
+# Benefits
 
 | | JD Cloud Kubernetes Service | Self -built Kubernetes |
 | --- | --- | --- |
