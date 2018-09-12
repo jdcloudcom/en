@@ -15,7 +15,7 @@
 - name: Getting Started
   items:
     - name: Instructions
-      href: Getting-Started/Guide description.md
+      href: Getting-Started/Guide-description.md
     - name: Step 1: Create Data Source Connection
       href: Getting-Started/create-dataSource.md
     - name: Step 2: Create Synchronization Task
@@ -49,9 +49,9 @@
     - name: Data Synchronization
       items:
         - name: New Synchronization Task
-          href: Operation-Guide/Data sync guide/Create-a-sync-task.md
+          href: Operation-Guide/Data-sync-guide/Create-a-sync-task.md
         - name: Operation and Maintenance of Synchronization Task
-          href: Operation-Guide/Data sync guide/Task-operation.md
+          href: Operation-Guide/Data-sync-guide/Task-operation.md
 - name: Troubleshooting
   items:
     - name: Problems of Transferring Multiple Tables
