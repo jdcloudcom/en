@@ -1,0 +1,112 @@
+﻿  name: JCS for Redis
+  href: 
+  items:
+  - name: Introduction
+    items:
+      - name: Product Overview
+        href: Introduction/Product-Overview.md
+      - name: Core Concepts
+        href: Introduction/Core-Concepts.md
+      - name: Basic Infrastructure
+        href: Introduction/Basic-Infrastructure.md
+      - name: Benefits
+        href: Introduction/Benefits.md
+      - name: Features
+        href: Introduction/Features.md
+      - name: Specifications
+        href: Introduction/Specifications.md
+      - name: Restrictionss
+        href: Introduction/Restrictions.md
+      - name: Application Scenario 
+        href: Introduction/Application-Scenarios.md    
+  - name: Pricing
+    items:
+      - name: Billing Overview
+        href: Pricing/Billing-Overview.md
+      - name: Billing Rules
+        href: Pricing/Billing-Rules.md
+      - name: Price Overview
+        href: Pricing/Price-Overview.md
+      - name: Purchase Process
+        href: Pricing/Purchase-Process.md 
+      - name: Renewal Process
+        href: Pricing/Renewal-Process.md
+  - name: Getting-started
+    items:
+      - name: Create Instance
+        href: Getting-Started/Create-Instance.md
+      - name: Instance Connection
+        href: Getting-Started/Connect-Instances.md
+      - name: Command Support
+        href: Getting-Started/Command-Supported.md
+      - name: Summary of Getting-started Guide
+        href: Getting-Started/Getting-Started-Overview.md
+  - name: Operation Guide
+    items:
+      - name: Instance Management
+        items:
+          - name: Change Configuration
+            href: Operation-Guide/Instance-Management/Change-Configuration.md
+          - name: Modify Password
+            href: Operation-Guide/Instance-Management/Change-Password.md
+          - name: Change Instance Name
+            href: Operation-Guide/Instance-Management/Modify-Instancename.md      
+          - name: Release Instance
+            href: Operation-Guide/Instance-Management/Release-Instance.md
+      - name: Login with Account
+        items:
+          - name: Account for Login
+            href: Operation-Guide/Login/Login.md
+      - name: Monitoring Alarm
+        items:
+          - name: View Monitoring Information
+            href: Operation-Guide/Monitoring/Monitoring.md
+          - name: Set Alarm Rules
+            href: Operation-Guide/Monitoring/Alarm-Rules.md              
+  - name: Best Practice
+    items:
+    - name: C/C++ Connect Redis Instance
+      href: Best-Practices/CorC++-Connect-to-Redis-Instance.md
+    - name: Golang Connect Redis Instance
+      href: Best-Practices/Golang-Connect-to-Redis-Instance.md
+    - name: Java Connect Redis Instance
+      href: Best-Practices/Java-Connect-to-Redis-Instance.md
+    - name: Node.js Connect Redis Instance
+      href: Best-Practices/Node.js-Connect-to-Redis-Instance.md
+    - name: PHP Connect Redis Instance
+      href: Best-Practices/PHP-Connect-to-Redis-Instance.md
+    - name: Python Connect Redis Instance
+      href: Best-Practices/Python-Connect-to-Redis-Instance.md
+    - name: Public Network Connect Redis Instance
+      href: Best-Practices/Public-Network-Connect-to-Redis-Instance.md
+  - name: Course
+    items:
+    status: 0
+  - name: Troubleshooting
+    items:
+    status: 0      
+  - name: FAQ
+    href: FAQ/FAQ.md
+  - name: API Reference
+    href:
+  - name: SDK Reference
+    href:
+  - name: User Agreement
+    status: 0
+    items:
+    - name: Service Terms
+      href: User-Agreements/Product-Terms-of-Service.md           
+      status: 0      
+    - name: SLA
+      href: User-Agreements/SLA.md           
+      status: 0       
+  - name: Relevant Resources
+    items:
+    - name: Document History
+      href: Related-Resources/Document-History.md   
+    - name: Filing
+      href: Related-Resources/Filing.md           
+      status: 0        
+    - name: Glossary
+      href: Related-Resources/Glossary.md           
+      status: 0

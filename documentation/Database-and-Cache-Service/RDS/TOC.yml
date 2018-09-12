@@ -1,31 +1,32 @@
   name: RDS
   href: 
   items:
-  - name: Product Introduction
+  - name: Introduction
     items:
       - name: Product Overview
-        herf: Introduction/What-Is-RDS.md
-      - name: Core Concept
+        herf: Introduction/Product-Overview.md
+      - name: Core Concepts
         herf: Introduction/Core-Concepts.md
-      - name: Basic Architecture
+      - name: Basic Infrastructure
         herf: Introduction/Basic-Infrastructure.md
-      - name: Product Advantage
+      - name: Benefits
         herf: Introduction/Benefits.md
-      - name: Product Function
-        herf: Introduction/Functions.md
-      - name: Product Specifications
-        herf: Introduction/Specification.md
-      - name: Restraint Instructions
+      - name: Features
+        herf: Introduction/Features.md
+        status：0
+      - name: Specifications
+        herf: Introduction/Specifications.md
+      - name: Restrictions
         items:
-        - name: MySQL Limit Description
+        - name: MySQL Restrictions
           herf: Introduction/Restrictions/MySQL-Restrictions.md
-        - name: Percona Limit Description
+        - name: Percona Restrictions
           herf: Introduction/Restrictions/Percona-Restrictions.md
-        - name: SQL Server Limit Description
+        - name: SQL Server Restrictions
           herf: Introduction/Restrictions/SQLServer-Restrictions.md
       - name: Application Scenario
         herf: Introduction/Application-Scenarios.md
-  - name: Product Billing
+  - name: Pricing
     items:
       - name: Billing Overview
         herf: Pricing/Billing-Overview.md
@@ -38,14 +39,14 @@
       - name: Renewal Process
         herf: Pricing/Renewal-Process.md
         
-  - name: Start Guide
+  - name: Getting Started
     items:
       - name: Create Instance
         herf: Getting-Started/Create-RDS-Instance.md
       - name: Delete Instance
         herf: Getting-Started/Delete-RDS-Instance.md
   
-  - name: Operation Guidelines
+  - name: Operation Guide
     items:
       - name: Instance Management
         items:
@@ -278,11 +279,13 @@
           
   - name: API reference
     herf:
+    status：0
   - name: SDK reference
     herf:
+    status：0
   - name: Related Resources
     items:
-    - name: Document Historical Records
+    - name: Document History
       herf: Related-Resources/Document-History.md
     - name: Terms of Service
       herf: Related-Resources/Service-Terms.md

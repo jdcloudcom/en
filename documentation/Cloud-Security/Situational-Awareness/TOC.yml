@@ -3,13 +3,13 @@
   items:
   - name: Introduction
     items:
-      - name: Cloud Situation Awareness Definition
-        href: Introduction/Definition.md
-      - name: Product Architecture
-        href: Introduction/Product-Architecture.md
+      - name: Product Overview
+        href: Introduction/Product-Overview.md
+      - name: Basic Infrastructure
+        href: Introduction/Basic-Infrastructure.md
       - name: Application Scenarios
-        href: Application-Scenario.md
-  - name: Operation Manual
+        href: Application-Scenarios.md
+  - name: Operation Guide
     items:
       - name: Threat Overview
         href: Operation-Guide/Threat-Overview.md
