@@ -1,7 +1,6 @@
----
-title:Limits
 
-# Restriction Statement
+
+# Specifications
 
  1. At present cn-north-1 and cn-east-2 are online.
  2. At present support only Docker image based on Linux operation system.
