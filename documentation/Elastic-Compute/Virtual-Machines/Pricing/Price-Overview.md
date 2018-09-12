@@ -1,4 +1,4 @@
-# price overview
+# Price Overview
 
 You can directly use the [Virtual Machine Price Calculator] provided by JD Cloud (https://www.jdcloud.com/calculator/calHost) to check the price of the product portfolio you need, or you can check the price overview of relevant resources for the estimation of the input cost.
 
