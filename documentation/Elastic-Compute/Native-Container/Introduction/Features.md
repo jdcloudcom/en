@@ -1,7 +1,6 @@
----
-title:Functions
 
-# Product Function
+
+# Features
 
 JD Cloud native container mainly provide following functions and experience JD Cloud console for more functions:
 
