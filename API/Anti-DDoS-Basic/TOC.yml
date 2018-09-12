@@ -1,4 +1,4 @@
-  name: Basic Anti-DDoS
+  name: Anti-DDoS Basic
   href: 
   items:
   - name: Interface Overview
@@ -7,16 +7,16 @@
     href: ChangeLog.md
   - name: Interface Information
     items:
-      - name:  Basic Anti-DDoS APIs
+      - name:  Anti-DDoS Basic APIs
         items:
           - name: describeIpResourceFlow
-            href: Basic-Anti-DDoS-APIs/describeIpResourceFlow.md
+            href: Anti-DDoS-Basic-APIs/describeIpResourceFlow.md
           - name: describeIpResourceInfo
-            href: Basic-Anti-DDoS-APIs/describeIpResourceInfo.md
+            href: Anti-DDoS-Basic-APIs/describeIpResourceInfo.md
           - name: describeIpResourceProtectInfo
-            href: Basic-Anti-DDoS-APIs/describeIpResourceProtectInfo.md
+            href: Anti-DDoS-Basic-APIs/describeIpResourceProtectInfo.md
           - name: describeIpResources
-            href: Basic-Anti-DDoS-APIs/describeIpResources.md
+            href: Anti-DDoS-Basic-APIs/describeIpResources.md
           - name: setCleanThreshold
-            href: Basic-Anti-DDoS-APIs/setCleanThreshold.md 
+            href: Anti-DDoS-Basic-APIs/setCleanThreshold.md 
                     
