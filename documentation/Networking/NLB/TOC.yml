@@ -4,7 +4,7 @@
   - name: Product Introduction
     items:
       - name: Product Overview
-        href: Introduction/What-Is-NLB.md
+        href: Introduction/Product-Overview.md
       - name: Core Concept
         href: Introduction/Core-Concepts.md
       - name: Basic Architecture
@@ -12,24 +12,24 @@
       - name: Product Advantage
         href: Introduction/Benefits.md
       - name: Product Function
-        href: Introduction/Functions.md
-      - name: Product Specification
-        href: Introduction/Specification.md
-      - name: Limitation Description
+        href: Introduction/Features.md
+      - name: Product Specifications
+        href: Introduction/Specifications.md
+      - name: Restrictions
         href: Introduction/Restrictions.md
-      - name: Application Scenario 
+      - name: Application Scenarios 
         href: Introduction/Application-Scenarios.md    
   - name: Product Pricing
     items:
       - name: Billing Overview
         href: Pricing/Billing-Overview.md
-      - name: Billing Rule
+      - name: Billing Rules
         href: Pricing/Billing-Rules.md
       - name: Price Overview
         href: Pricing/Price-Overview.md
-      - name: Purchase Procedure
+      - name: Purchase Process
         href: Pricing/Purchase-Process.md 
-      - name: Renewal Procedure
+      - name: Renew-Process
         href: Pricing/Renew-Process.md
   - name: Start Guide
     items:
