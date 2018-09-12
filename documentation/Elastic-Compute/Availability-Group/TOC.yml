@@ -1,64 +1,62 @@
   name: Availability Group
   href: 
   items:
-  - name: Product Description
+  - name: Introduction
     items:
-      - name: Product Summary
-        href: Introduction/Overview.md
-      - name: Core Concept
+      - name: Product Overview
+        href: Introduction/Product-Overview.md
+      - name: Core Concepts
         href: Introduction/Core-Concepts.md
+      - name: Benefits
+        href: Introduction/Benefits.md
       - name: Features
-        href: Introduction/Advantages.md
-      - name: Product Function
-        href: Introduction/Functions.md
-      - name: Product Specification
-        href: Introduction/Instance-Type-Family.md
-      - name: Restriction Statement
-        href: Introduction/Limits.md
+        href: Introduction/Features.md
+      - name: Restrictions
+        href: Introduction/Restrictions.md
       - name: Application Scenario 
         href: Introduction/Scenarios.md    
-  - name: Product Pricing
+  - name: Pricing
     items:
       - name: Billing Summary
         href: Pricing/Billing-Overview.md
-  - name: Getting-started Guide
+  - name: Getting-started
     href: Getting-Start.md
   - name: Operation Guide
     items:
       - name: Create Availability Groups
-        href: /Operation-Guide/Create-AG.md
+        href: Operation-Guide/Create-AG.md
       - name: Modify Instance Template
-        href: /Operation-Guide/Modify-Instance-Template.md
+        href: Operation-Guide/Modify-Instance-Template.md
       - name: Auto Scaling
         item:
           - name: Auto-Scaling Overview
-            href: /Operation-Guide/Auto-Scaling/Auto-Scaling-Overview.md
+            href: Operation-Guide/Auto-Scaling/Auto-Scaling-Overview.md
           - name: Enable Auto-Scaling
-            href: /Operation-Guide/Auto-Scaling/Enable-AS.md
+            href: Operation-Guide/Auto-Scaling/Enable-AS.md
           - name: Disable Auto-Scaling
-            href: /Operation-Guide/Auto-Scaling/Disable-AS.md
+            href: Operation-Guide/Auto-Scaling/Disable-AS.md
           - name: Modify Auto-Scaling
-            href: /Operation-Guide/Auto-Scaling/Modify-AS-Attributes.md
+            href: Operation-Guide/Auto-Scaling/Modify-AS-Attributes.md
           - name: Create Auto-Scaling Strategy
-            href: /Operation-Guide/Auto-Scaling/Create-AS-Strategy.md
+            href: Operation-Guide/Auto-Scaling/Create-AS-Strategy.md
           - name: Enable Auto-Scaling Strategy
-            href: /Operation-Guide/Auto-Scaling/Enable-AS-Strategy.md
+            href: Operation-Guide/Auto-Scaling/Enable-AS-Strategy.md
           - name: Disable Auto-Scaling Strategy
-            href: /Operation-Guide/Auto-Scaling/Disable-AS-Strategy.md
+            href: Operation-Guide/Auto-Scaling/Disable-AS-Strategy.md
       - name: Manually Add Instances
-        href: /Operation-Guide/Add-Instance-Manually.md
+        href: Operation-Guide/Add-Instance-Manually.md
       - name: Manually Remove Instances
-        href: /Operation-Guide/Remove-Instance-Manually.md
+        href: Operation-Guide/Remove-Instance-Manually.md
       - name: Delete Availability Group
-        href: /Operation-Guide/Delete-AG.md
+        href: Operation-Guide/Delete-AG.md
   - name: Best Practices
     items:
     - name: Optimal Configuration
-      href: /Users/lulu8/Documents/Help Documentation/cn/documentation/Elastic-Compute/Availability-Group/Best-Practices/Best-configuration -recommendation.md
+      href: Best-Practices/Best-configuration -recommendation.md
     - name: Configure self-starting
-      href: /Users/lulu8/Documents/Help Documentation/cn/documentation/Elastic-Compute/Availability-Group/Best-Practices/Auto-Enable-Services-on-Startup.md
+      href: Best-Practices/Auto-Enable-Services-on-Startup.md
     - name: Set fixed exit IP
-      href: /Users/lulu8/Documents/Help Documentation/cn/documentation/Elastic-Compute/Availability-Group/Best-Practices/Set-Static-Outbound-IP.md
+      href: Best-Practices/Set-Static-Outbound-IP.md
   - name: Tutorial
     status: 0
     items:     

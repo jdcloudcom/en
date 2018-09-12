@@ -13,7 +13,7 @@ href:
     - name: Features
       herf: Introduction/Features.md
     - name: Specifications
-      herf: Introduction/Specification.md
+      herf: Introduction/Specifications.md
     - name: Restrictions
       herf: Introduction/Restrictions.md
     - name: Application Scenarios 
@@ -34,8 +34,8 @@ href:
       herf: Operation-Guide/View-Report-log.md            
 - name: Best Practices
   items:
-  - name: Basic Anti-DDoS + IP high anti-linkage
-    herf: Basic-Anti-DDoS + Advanced-Anti-DDoS.md	
+  - name: Anti-DDoS Basic + Anti-DDoS Pro linkage
+    herf: Solution.md	
 - name: Tutorial
   items:
   status: 0

@@ -1,21 +1,21 @@
   name: CDN
   href: 
   items:
-  - name: Product Introduction
+  - name: Introduction
     items:
       - name: Product Overview
-        href: Introduction/What-Is-CDN.md
+        href: Introduction/Product-Overview.md
       - name: Core Concept
         href: Introduction/Core-Concepts.md
       - name: Basic Architecture
         href: Introduction/Basic-Infrastructure.md
-      - name: Product Advantage
+      - name: Benefits
         href: Introduction/Benefits.md
-      - name: Product Function
-        href: Introduction/Functions.md
+      - name: Features
+        href: Introduction/Features.md
       - name: Application Scenario 
         href: Introduction/Application-Scenarios.md    
-  - name: Product Pricing
+  - name: Pricing
     items:
       - name: Billing Overview
         href: Pricing/Billing-Overview.md
@@ -23,10 +23,10 @@
         href: Pricing/Billing-change.md
       - name: Arrearage Description
         href: Pricing/Arrears.md
-  - name: Getting Started Guide
+  - name: Getting Started
     items:
       - name: Getting Started Guide
-        href: Getting-Started/Getting-started-guide.md
+        href: Getting-Started/Getting-Started.md
   - name: Operation Guide
     items:
       - name: Live Video

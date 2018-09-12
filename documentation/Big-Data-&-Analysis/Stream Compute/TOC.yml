@@ -4,10 +4,10 @@ items:
 - name: Introduction
   items:
     - name: Product Summary
-      href: Introduction/Overview.md
-    - name: What is Stream Computing Service
+      href: Introduction/Product-Overview.md
+    - name: What is Stream Compute
       href: Introduction/what-is-stream-compute.md
-    - name: Comparison of Stream Computing Service and Batch Computing
+    - name: Comparison of Stream Compute and Batch Compute
       href: Introduction/compare.md
     - name: Basic Infrastructure
       href: Introduction/Basic-Infrastructure.md

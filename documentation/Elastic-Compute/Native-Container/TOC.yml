@@ -1,38 +1,38 @@
   name: Native Container
   href: 
   items:
-  - name: Product Description
+  - name: Introduction
     items:
-      - name: Native Containers Overview
-        href: Introduction/What-Is-NativeContainer.md
-      - name: Core Concept
+      - name: Product Overview
+        href: Introduction/Product-Overview.md
+      - name: Core Concepta
         href: Introduction/Core-Concepts.md
+      - name: Benefits
+        href: Introduction/Benefits.md
       - name: Features
-        href: Introduction/Advantages.md
-      - name: Product Function
-        href: Introduction/Functions.md
-      - name: Restriction Description
-        href: Introduction/Limits.md
-      - name: Application Scenario 
-        href: Introduction/Scenarios.md
+        href: Introduction/Features.md
+      - name: Restrictions
+        href: Introduction/Restrictions.md
+      - name: Application Scenarios
+        href: Introduction/Application-Scenarios.md
       - name: Compare with VM
         href: Introduction/Comparison.md
-  - name: Product Pricing
+  - name: Pricing
     items:
-      - name: Billing Summary
-        href: Pricing/Overview.md
+      - name: Billing Overview
+        href: Pricing/Billing-Overview.md
       - name: Billing Rules
         href: Pricing/Billing-Rules.md
       - name: Price Overview
-        href: Pricing/Pricing.md
+        href: Pricing/Price-Overview.md
       - name: Purchase Process
         href: Pricing/Purchase-Process.md
       - name: Renew Process
         href: Pricing/Renew-Proces.md
-  - name: Getting-started Guide
+  - name: Getting-started
     items:
-      - name: Getting Started Guide Overview
-        href: Getting-Started/Overview.md
+      - name: Guide Overview
+        href: Getting-Started/Guide-Overview.md
       - name: Create Container Image
         href: Getting-Started/Create-Images.md
       - name: Create Container Instance
@@ -42,7 +42,7 @@
       - name: Container Instance
         items:
           - name: Container Instance Overview
-            href: Operation-Guide/Instance/Overview.md
+            href: Operation-Guide/Instance/Container-Instance-Overview.md
           - name: Instance Configuration Recommendation
             href: Operation-Guide/Instance/Recommend-Instance.md
           - name: Instance Life Cycle

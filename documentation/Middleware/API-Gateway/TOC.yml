@@ -1,25 +1,26 @@
-name: API gateway
+name: API Gateway
 href: 
 items:
-- name: Product Introduction
+- name: Introduction
   items:
     - name: Product Overview
-      herf: Introduction/What-Is-APIGateway.md
-    - name: Core Concept
+      herf: Introduction/Product-Overview.md
+    - name: Core Concepts
       herf: Introduction/Core-Concepts.md
-    - name: Basic Architecture
+    - name: Basic Infrastructure
       herf: Introduction/Basic-Infrastructure.md
-    - name: Product Advantage
+    - name: Benefits
       herf: Introduction/Benefits.md
-    - name: Product Function
-      herf: Introduction/Functions.md
-    - name: Product Specification
-      herf: Introduction/Specification.md
-    - name: Restraint Instructions
+    - name: Features
+      herf: Introduction/Features.md
+    - name: Specifications
+      herf: Introduction/Specifications.md
+      status:0
+    - name: Restrictions
       herf: Introduction/Restrictions.md
-    - name: Application Scenario 
+    - name: Application Scenarios 
       herf: Introduction/Application-Scenarios.md    
-- name: Product Pricing
+- name: Pricing
   items:
     - name: Billing Overview
       herf: Pricing/Billing-Overview.md
@@ -27,15 +28,15 @@ items:
       herf: Pricing/Billing-Rules.md
     - name: Price Overview
       herf: Pricing/Price-Overview.md
-    - name: Purchase Procedure
+    - name: Purchase Process
       herf: Pricing/Purchase-Process.md 
-    - name: Renewal Procedure
+    - name: Renew Process
       herf: Pricing/Renew-Process.md
       status: 0 
-- name: Getting Started Guide
+- name: Getting Started
   items:
-    - name: Overview
-      herf: Getting-Started/Overview.md
+    - name: Introduction
+      herf: Getting-Started/Getting-Started.md
     - name: Create API Groups
       herf: Getting-Started/STEP1-Create -APIGroup.md
     - name: Create APIs

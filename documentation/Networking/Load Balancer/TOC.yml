@@ -1,0 +1,104 @@
+  name: Load Balancer
+  href: 
+  items:
+  - name: Introduction
+    items:
+      - name: Product Overview
+        href: Introduction/Product-Overview.md
+      - name: Core Concepts
+        href: Introduction/Core-Concepts.md
+      - name: Basic Infrastructure
+        href: Introduction/Basic-Infrastructure.md
+      - name: Benefits
+        href: Introduction/Benefits.md
+      - name: Features
+        href: Introduction/Features.md
+      - name: Specifications
+        href: Introduction/Specifications.md
+      - name: Restrictions
+        href: Introduction/Restrictions.md
+      - name: Application Scenarios 
+        href: Introduction/Application-Scenarios.md    
+  - name: Pricing
+    items:
+      - name: Billing Overview
+        href: Pricing/Billing-Overview.md
+      - name: Billing Rule
+        href: Pricing/Billing-Rules.md
+      - name: Price Overview
+        href: Pricing/Price-Overview.md
+      - name: Purchase Process
+        href: Pricing/Purchase-Process.md 
+      - name: Renew Process
+        href: Pricing/Renew-Process.md
+  - name: Getting Started
+    items:
+      - name: Create Load Balancer Instance
+        href: Getting-Started/Create-Instance.md
+      - name: Create Listening Policy
+        href: Getting-Started/Create-ListenerPolicy.md
+      - name: Create Backend Service
+        href: Getting-Started/Create-Backend.md
+      - name: Create Virtual Server Group
+        href: Getting-Started/Create-TargetGroup.md
+      - name: Register Service Instance
+        href: Getting-Started/Register-Targets.md
+      - name: Create Availability Group
+        href: Getting-Started/Create-AvailabilityGroup.md
+  - name: Operation Guide
+    items:
+      - name: Configuration Guide
+        href: Operation-Guide/Start-From-Here.md
+      - name: Create Load Balancer Instance
+        href: Operation-Guide/Create-ALB-Instance.md
+      - name: Load Balancer Management
+        href: Operation-Guide/ALB-Instance-Management.md
+      - name: Listener Management
+        href: Operation-Guide/Listener-Management.md
+      - name: Backend Service Management
+        href: Operation-Guide/Backend-Management.md
+      - name: Virtual Server Group Management
+        href: Operation-Guide/TargetGroup-Management.md
+      - name: Monitoring Service
+        href: Operation-Guide/Monitoring.md           
+  - name: Best Practice
+    items:
+    - name: Deploy HTTP service by load balancer
+      href: Best-Practices/Deploy-HTTPS-Service-with-ALB.md
+    - name: Deploy TCP service by load balancer
+      href: Best-Practices/Deploy-TCP-Service-with-ALB.md
+    - name: Deploy multiple-port business and server reuse service by load balancer
+      href: Best-Practices/Deploy-Multiple-Listener-single-backend-ALB.md
+    - name: Deploy availability business by load balancer
+      href: Best-Practices/Deploy-High-Availability-Service-with-ALB.md
+    - name: HTTP listener provide session persistence service based on cookie
+      href: Best-Practices/Session-Sticky-with-ALB.md
+    - name: Deploy service base on virtual machine and container by load balancer
+      href: Best-Practices/Distribute-service-to-vm-and-container-with-ALB.md
+    - name: Deploy auto scaling business on the server by load balancer
+      href: Best-Practices/AG-as-backend-server.md
+    - name: Conversion between public network load balancer and private network load balancer
+      href: Best-Practices/Switch-between-Internal-and-External-ALB.md
+  - name: Troubleshoot
+    items:
+    - name: Load balancer business access failed
+      href: Troubleshooting/Access-ALB-Service-Failed.md
+  - name: FAQ
+    href: FAQ/FAQ.md
+  - name: API Reference
+    href:
+    status: 0      
+  - name: SDK Reference
+    href:
+    status: 0      
+  - name: User Agreements
+    items:
+    - name: Service Terms
+      href: User-Agreements/Product-Terms-of-Service.md               
+    - name: SLA
+      href: User-Agreements/SLA.md           
+  - name: Related Resources
+    items:
+    - name: Document History
+      href: Related-Resources/Document-History.md   
+

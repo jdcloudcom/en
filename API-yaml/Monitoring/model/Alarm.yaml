@@ -50,7 +50,7 @@ definitions:
         description: "Notification period unit: hour"
         type: integer
       operation:
-        description: 报警比较符，只能为以下几种<=,<,>,>=,==,!=
+        description: Alarm comparison is limited to <=,<,>,>=,==,!=
         type: string
       period:
         description: "Statistical period, unit in minutes, currently supported value: 2, 5, 15, 30, 60"
