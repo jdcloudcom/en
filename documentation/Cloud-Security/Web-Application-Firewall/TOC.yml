@@ -4,11 +4,11 @@
   - name: Introduction
     items:
       - name: Product Overview
-        href: Introduction/What-Is-WAF.md
+        href: Introduction/Product-Overview.md
       - name: Benefits
         href: Introduction/Benefits.md
       - name: Features
-        href: Introduction/Functions.md
+        href: Introduction/Features.md
       - name: Application Scenarios 
         href: Introduction/Application-Scenarios.md    
   - name: Pricing
@@ -17,8 +17,8 @@
         href: Pricing/Purchase-Method.md
       - name: Purchase Process
         href: Pricing/Purchase-Process.md
-      - name: Package Details
-        href: Pricing/Package-Details.md         
+      - name: Price Overview
+        href: Pricing/Price Overview.md         
   - name: Operation Guide
     items:
     - name: To Add Web Site

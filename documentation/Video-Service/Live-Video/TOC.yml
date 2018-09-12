@@ -2,21 +2,21 @@
   href: 
 - name: Product Description
   items:
-    - name: Product Summary
-      href: Introduction/What-Is-Live-Video.md
+    - name: Product Overview
+      href: Introduction/Product-Overview.md
     - name: Core Concept
       href: Introduction/Core-Concepts.md
-    - name: Infrastructure Architecture
+    - name: Basic Infrastructure
       href: Introduction/Basic-Infrastructure.md
-    - name: Product Advantage
+    - name: Benefits
       href: Introduction/Benefits.md
-    - name: Product Function
-      href: Introduction/Functions.md
-    - name: Restraint Instructions
+    - name: Features
+      href: Introduction/Features.md
+    - name: Restrictions
       href: Introduction/Restrictions.md
-    - name: Application Scenario 
+    - name: Application Scenarios
       href: Introduction/Application-Scenarios.md    
-- name: Product Pricing
+- name: Pricing
   items:
     - name: Billing Overview
       href: Pricing/Billing-Overview.md
@@ -26,29 +26,29 @@
       href: Pricing/Price-Overview.md
     - name: Purchase Process
       href: Pricing/Purchase-Process.md 
-- name: Getting-started Guide
+- name: Getting Started
   items:
-    - name: Turn on Service
+    - name: Service Provisioning
       href: Getting-Started/Service-Provisioning.md
-    - name: Create Domain Name
+    - name: Create Domain
       href: Getting-Started/Create-Domain.md
-    - name: Associate CNAME Address
+    - name: Configuring CNAME
       href: Getting-Started/Configuring-CNAME.md
-    - name: Start Pushing Streaming
+    - name: Start Pushing
       href: Getting-Started/Start-Pushing.md
-    - name: Start Broadcasting
+    - name: Start Playing
       href: Getting-Started/Start-Playing.md
 - name: Operation Guide
   items:
-    - name: Domain Name Management
+    - name: Domain Management
       href: Operation-Guide/Domain-Management.md
-    - name: Live Pushing Streaming
+    - name: Live Streaming
       href: Operation-Guide/Live-Streaming.md
     - name: Live Broadcast
       href: Operation-Guide/Live-Broadcast.md    
     - name: Live Transcoding
       href: Operation-Guide/Live-Transcoding.md
-    - name: Live Record
+    - name: Live Recording
       href: Operation-Guide/Live-Recording.md  
     - name: Live Snapshot
       href: Operation-Guide/Live-Snapshot.md 
@@ -63,18 +63,18 @@
 - name: Best Practices
   items:
     - name: Use FMLE Tool for Pushing Streaming
-      href: Best-Practices/Push with the FMLE tool.md
+      href: Best-Practices/Use-FMLE-Tool-for-Pushing-Streaming.md
     - name: Use Xsplit Tool for Pushing Streaming
-      href: Best-Practices/Push with the Xsplit tool.md
+      href: Best-Practices/Use-Xsplit-Tool-for-Pushing-Streaming.md
     - name: Use OBS Tool for Pushing Streaming
-      href: Best-Practices/Push with the obs tool.md
+      href: Best-Practices/Use-OBS-Tool-for-Pushing-Streaming.md
 - name: Tutorial
   items:
   status: 0
 - name: Troubleshooting
   items:
-    - name: Pushing Streaming Connection Failure
-      href: Troubleshooting/Push connection failed.md  
+    - name: Push Streaming Connection Failure
+      href: Troubleshooting/Push-Streaming-Connection-Failure.md  
 - name: FAQ
   href: FAQ/FAQ.md
 - name: API Reference
