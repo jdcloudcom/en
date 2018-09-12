@@ -1,4 +1,4 @@
-# **Product category**
+# **Specifications**
 
 
 Cloud disk is a high-availability, high-reliability and low-cost storage devices, which can be used as an independent expandable disk of virtual machine to provide virtual machine with data storage of data block-level. Cloud disk adopts distributed mechanism with three copies, to provide virtual machine with up to 99.9999999% data reliability guarantee. Based on different performances, cloud disk is divided into two types, i.e. SSD cloud disk and Premium Hdd cloud disk.
