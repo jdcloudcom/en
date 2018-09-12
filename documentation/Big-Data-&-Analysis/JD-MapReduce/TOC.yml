@@ -10,15 +10,15 @@
       herf: Introduction/Basic-Infrastructure.md
     -  name: Benefits
       herf: Introduction/Benefits.md
-    -  name: Product Features
-      herf: Introduction/Functions.md
+    -  name: Features
+      herf: Introduction/Features.md
     -  name: Specifications
-      herf: Introduction/Specification.md
+      herf: Introduction/Specifications.md
     -  name: Restrictions
       herf: Introduction/Restrictions.md
     -  name: Application Scenarios
       herf: Introduction/Application-Scenarios.md    
--  name: Billing
+-  name: Pricing
   items:
     -  name: Billing Overview
       herf: Pricing/Billing-Overview.md
@@ -30,7 +30,7 @@
       herf: Pricing/Purchase-Process.md 
     -  name: Renewal Process
       herf: Pricing/Renew-Process.md
--  name: Start Guide
+-  name: Getting Started
   items:
     -  name: Product Overview
       herf: Getting-Started/1-Overview.md
