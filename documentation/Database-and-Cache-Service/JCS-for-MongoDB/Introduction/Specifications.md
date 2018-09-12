@@ -1,4 +1,4 @@
-# Product Specification
+# Specifications
 
 The MongoDB currently supports the following instance specifications.
 

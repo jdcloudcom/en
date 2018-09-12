@@ -1,25 +1,25 @@
-  name: MongoDB
+  name: JCS for MongoDB
   href: 
   items:
-  - name: Product Brief Introduction
+  - name: Introduction
     items:
       - name: Product Overview
-        href: Introduction/What-Is-MongoDB.md
-      - name: Core Concept
+        href: Introduction/Product-Overview.md
+      - name: Core Concepts
         href: Introduction/Core-Concepts.md
-      - name: Infrastructure
+      - name: Basic Infrastructure
         href: Introduction/Basic-Infrastructure.md
-      - name: Product Advantages
+      - name: Benefits
         href: Introduction/Benefits.md
-      - name: Product Features
-        href: Introduction/Functions.md
-      - name: Product Specifications
-        href: Introduction/Specification.md
-      - name: Restraint Instructions
+      - name: Features
+        href: Introduction/Features.md
+      - name: Specifications
+        href: Introduction/Specifications.md
+      - name: Restrictions
         href: Introduction/Restrictions.md
       - name: Application Scenario 
         href: Introduction/Application-Scenarios.md    
-  - name: Product Billing
+  - name: Pricing
     items:
       - name: Billing Overview
         href: Pricing/Billing-Overview.md
@@ -31,7 +31,7 @@
         href: Pricing/Purchase-Process.md 
       - name: Renewal Process
         href: Pricing/Renew-Process.md
-  - name: Start Guide
+  - name: Getting Started
     items:
       - name: Create Instance
         href: Getting-Started/Create-Instance.md
@@ -43,7 +43,7 @@
         href: Getting-Started/Import-Data.md
       - name: Export Data
         href: Getting-Started/Export-Data.md
-  - name: Operation Guidelines
+  - name: Operation Guide
     items:
       - name: Instance Management
         items:
@@ -123,7 +123,7 @@
       status: 0       
   - name: Related Resources
     items:
-    - name: Document History Records
+    - name: Document History
       href: Related-Resources/Document-History.md   
     - name: Filing
       href: Related-Resources/Filing.md           

@@ -1,4 +1,4 @@
-# Instance Type
+# Specifications
 ## MySQL
 |Instance Type|Max. Connections|Max. IOPS| Storage Space(GB)|
 |---|---|---|---|

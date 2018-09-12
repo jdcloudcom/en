@@ -1,4 +1,4 @@
-# Features
+# Benefits
 ## Reliable Brand
 JD Cloud is a cloud computing integrated service provider under the JD Group. It owns the world's leading cloud computing technology and complete service platform. Relying on the long-term business practices and technology accumulation in cloud computing, big data, Internet of Things and mobile internet applications of JD Group, JD Cloud is committed to building a socialized cloud service platform to provide safe, professional, stable and convenient cloud professional service to the whole society.
 

@@ -1,26 +1,26 @@
   name: TiDB Service
   href:
   items:
-  - name: Product Description
+  - name: Introduction
     items:
-    - name: Product Summary
-      herf: Product-Introduction/Overview.md
-    - name: Core Concept
-      herf: Product-Introduction/Core-Concepts.md
-    - name: Infrastructure Architecture
-      herf: Product-Introduction/Basic-Infrastructure.md
+    - name: Product Overview
+      herf: Introduction/Product-Overview.md
+    - name: Core Concepts
+      herf: Introduction/Core-Concepts.md
+    - name: Basic Infrastructure
+      herf: Introduction/Basic-Infrastructure.md
+    - name: Benefits
+      herf: Introduction/Benefits.md
     - name: Features
-      herf: Product-Introduction/Benefits.md
-    - name: Product Function
-      herf: Product-Introduction/Functions.md
-    - name: Product Specification
-      herf: Product-Introduction/Specification.md
-    - name: Restriction Statement
-      herf: Product-Introduction/Restrictions.md
+      herf: Introduction/Features.md
+    - name: Specifications
+      herf: Introduction/Specifications.md
+    - name: Restrictions
+      herf: Introduction/Restrictions.md
     - name: Application Scenario
       herf: Introduction/Application-Scenarios.md
 
-  - name: Getting-started Guide
+  - name: Getting-started
     items:
     - name: Create Instance
       herf: Getting-Started/Product-Introduction/
@@ -74,8 +74,10 @@
 
   - name: API Reference
     herf:
+    status：0
   - name: SDK Reference
     herf:
+    status：0
   - name: Related Resources
     items:
     - name: Document History

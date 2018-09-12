@@ -1,4 +1,4 @@
-- # Product Features
+# Features
 
   ### Basic Resolution
 

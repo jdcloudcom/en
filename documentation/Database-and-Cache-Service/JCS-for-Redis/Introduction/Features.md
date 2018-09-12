@@ -1,4 +1,4 @@
-﻿# Functional Fetures
+﻿# Features
 
 ## Product Functions
 ### Data Persistence Storage

@@ -1,4 +1,4 @@
-- #Advantages of Cloud Resolution
+ # Benefits
 
   **High-available**
 

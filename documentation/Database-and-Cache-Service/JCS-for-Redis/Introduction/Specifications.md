@@ -1,4 +1,4 @@
-# Product Specification
+# Specifications
 
 - Primary-secondary version
 

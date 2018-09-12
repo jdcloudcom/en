@@ -1,6 +1,7 @@
-- name: Live Video
-  href: 
-- name: Product Description
+name: Live Video
+href:
+items: 
+- name: Introduction
   items:
     - name: Product Overview
       href: Introduction/Product-Overview.md

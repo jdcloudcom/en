@@ -1,25 +1,25 @@
   name: Domain Name Service
   href: 
   items:
-  - name: Product Introduction
+  - name: Introduction
     items:
       - name: Product Overview
         herf: Introduction/Product-Overview.md
-      - name: Core Concept
-        herf: Introduction/Core-Concept.md
+      - name: Core Concepts
+        herf: Introduction/Core-Concepts.md
+      - name: Benefits
+        herf: Introduction/Benefits.md
       - name: Features
-        herf: Introduction/Product-Advantage.md
-      - name: Product Advantage
-        herf: Introduction/Product-Functions.md
-      - name: Product Specifications
-        ‘herf: Introduction/Product-Specifications.md
-  - name: Getting Started Guide
+        herf: Introduction/Features.md
+      - name: Specifications
+        ‘herf: Introduction/Specifications.md
+  - name: Getting Started
     items:
       - name: Create Information Template
         herf: Getting-Started/Create Information Template.md
       - name: Register Domain Name.md
         herf: Getting-Started/Register Domain Name.md
-  - name: Operation Guidelines
+  - name: Operation Guide
     items:
       - name: Domain Name Management
         items:
@@ -47,7 +47,7 @@
       herf: Troubleshooting/Domain-Name-and-Reverse-Resolution.md
     - name: How to Skip Root Domain Name without www to Main Domain Name with www
       herf: Troubleshooting/How-to-Skip-Root-Domain-Name-Without-www-to-Main-Domain-Name-With-www.md  
-  - name: Frequently Questions
+  - name: FAQ
     herf: FAQ/FAQ.md
   - name: User Agreement
     items:
@@ -55,13 +55,6 @@
       herf: User-Agreements/Donline-Terms-of-Service-of-Domain-Name.md        
     - name: IDN Online Transfer Agreement
       herf: User-Agreements/IDN-Online-Transfer-Agreement.md          
-  - name: Static Page
-    items:
-    - name: Query Domain Name
-      herf: Static-Page/Query-Domain-Name.md 
-    - name: Query Domain Name Information
-      herf: Static-Page/Query-Domain-Name-Information.md           
-    - name: Home Page
-      herf: Static-Page/Home-Page.md   
+
           
           

@@ -1,4 +1,4 @@
-# Product Specifications
+# Specifications
 The specifications which are open during the period of public beta are as follows and the quantity of nodes is temporarily unadjustable.
 
 |	node type	|	Specification	|	Quantity of nodes	|

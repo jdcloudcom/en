@@ -1,4 +1,4 @@
-# Product Function
+# Features
 
 ## Horizontal Elastic Expansion
 Distributed TiDB can expand seamlessly as your data grows, just by adding more devices to meet the business growth, and as for the application layer, it is not necessary to worry about the storage’s capacity and throughput. 

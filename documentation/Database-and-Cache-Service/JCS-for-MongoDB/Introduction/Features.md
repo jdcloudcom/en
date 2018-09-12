@@ -1,4 +1,4 @@
-# Product Features
+# Features
 
 ## Easy to Use
 
