@@ -1,4 +1,4 @@
-# Product Function
+# Features
 
 **Configuration management**
 
