@@ -1,30 +1,30 @@
 ﻿
-  name: Kuberenetes Cluster
+  name: JCS for Kubernetes
   href: 
   items:
-  - name: Product Description
+  - name: Introduction
     items:
-      - name: Kubernetes Service Overview
-        href: Introduction/What-Is-KubernetesCluster.md
-      - name: Core Concept
+      - name: Product Overview
+        href: Introduction/Product-Overview.md
+      - name: Core Concepts
         href: Introduction/Core-Concepts.md
-      - name:  Product Advantage
-        href: Introduction/Advantages.md
-      - name: Product Function
-        href: Introduction/Functions.md
-      - name: Product Specification
-        href: Introduction/Instance-Type-Family.md
-      - name: Restriction Statement
-        href: Introduction/Limits.md
-      - name: Application Scenario 
-        href: Introduction/Scenarios.md    
-  - name: Product Pricing
+      - name:  Benefits
+        href: Introduction/Benefits.md
+      - name: Features
+        href: Introduction/Features.md
+      - name: Specifications
+        href: Introduction/Specifications.md
+      - name: Restrictions
+        href: Introduction/Restrictions.md
+      - name: Application Scenarios
+        href: Introduction/Application-Scenarios.md    
+  - name: Pricing
     items:
-      - name: Billing Summary
-        href: Pricing/Overview.md
+      - name: Billing Overview
+        href: Pricing/Billing-Overview.md
       - name: Purchase Process
         href: Pricing/Purchase-Process.md
-  - name: Getting-started Guide
+  - name: Getting-started
     items:
       - name: Create Clusters
         href: Getting-Started/Create-Cluster.md
@@ -35,7 +35,7 @@
       - name: Cluster
         items:
           - name: Cluster Overview
-            href: Operation-Guide/Cluster//Overview.md
+            href: Operation-Guide/Cluster/Overview.md
           - name: Create Clusters
             href: Operation-Guide/Cluster/Create-Cluster.md
           - name: Connect Clusters
