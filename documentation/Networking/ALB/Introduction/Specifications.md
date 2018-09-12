@@ -1,4 +1,4 @@
-# Product specification
+# Specifications
 
 The load balancer (LB) support the auto scaling and the LB instance count can be expanded as per the business flow; the user reserve the required private IP required in the segment depending on the maximum business access scale; and at present, it is suggested at least 10 private IPs shall be reserved.
 
