@@ -261,10 +261,10 @@
         href: Best-Practices/Anti-leech.md 
       - name: Use CloudBerry to Manage OSS
         href: Best-Practices/CloudBerry.md 
-      - name: Generate Pre-signature URL
-        href: Best-Practices/Signature-In-URL.md
+      - name: Generate Presigned-URL
+        href: Best-Practices/Presigned-URL.md
       - name: Cross-origin Access
-        href:  Best-Practices/CORS.md
+        href: Best-Practices/CORS.md
       - name: Data Migration Tool 
         href: Best-Practices/Data-Migration-Tool.md 
       - name: Use S3cmd to Manage OSS
