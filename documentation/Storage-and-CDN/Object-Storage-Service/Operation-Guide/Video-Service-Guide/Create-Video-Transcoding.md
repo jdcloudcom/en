@@ -1,6 +1,6 @@
 # Create video transcoding
 
-Description: transcode the video file on JD Cloud Storage, and save the transcoded video as a new file.
+Description: transcode the video file on JD Cloud OSS, and save the transcoded video as a new file.
 
 Request grammar:
 ```
