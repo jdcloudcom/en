@@ -1,6 +1,6 @@
-# Picture watermark
+# Add image watermark
 
-Add watermark of picture format on the picture file.
+Add watermark of image format on the picture file.
 
 Use method: each wmi triggers actions of adding watermark and then set each parameter value with parameters begun with w in the following list; if the first one is not a control character of parameters in the list or there is no subsequent parameters, actual actions of adding watermark will be triggered; optional parameters not set will use a default value and each parameter will be initialized as the default value after watermarking.
 
