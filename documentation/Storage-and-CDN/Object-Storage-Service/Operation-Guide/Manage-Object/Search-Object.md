@@ -1,4 +1,4 @@
-# File search
+# Search object
 
 Object storage service of JD Cloud supports for searching for files or folders in bucket in a manner of filename prefix matching; when searching by name prefix, the search of character string will be case-sensitive and cannot contain forward slash'/ 'character. The search scope is limited to the root level of the current object or to objects in the current folder (excluding subfolders and the objects contained therein).
 
