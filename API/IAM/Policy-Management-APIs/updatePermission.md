@@ -1,50 +1,50 @@
 # updatePermission
 
 
-## 描述
+## Description
 Modify strategies
 
-## 请求方式
+## Request method
 PUT
 
-## 请求地址
+## Request address
 https://iam.jdcloud-api.com/v1/regions/{regionId}/permission/{permissionId}
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**permissionId**|Integer|True||Permission id error|
 |**regionId**|String|True||Region ID|
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**updatePermissionInfo**|[UpdatePermissionInfo](##UpdatePermissionInfo)|True||Permission information|
 
 ### <a name="UpdatePermissionInfo">UpdatePermissionInfo</a>
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**content**|[PermissionDetail[]](##PermissionDetail)|True||Permission details|
 |**description**|String|False||Description, 0~256 characters|
 |**name**|String|True||Permission name, 1~32 numbers, characters, Chinese characters, line-throughs and underlines|
 ### <a name="PermissionDetail">PermissionDetail</a>
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**permission**|String|True||Permission type: Read-only-R, Delete-D, Modification-M|
 |**resource**|[Resource[]](##Resource)|True||Resource information|
 ### <a name="Resource">Resource</a>
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**ids**|String[]|True||Resource id set, transmission * means that it is valid for all ids|
 |**type**|String|True||Resource type, virtual machine-server, Image-image, cloud disk-volume, vpc-vpc, public Ip-floatingIP, load balancer-loadbalance, cloud database (mysql)-database, cloud cache-cache|
 
-## 返回参数
-|名称|类型|描述|
+## Return parameter
+|Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
 
 
 
-## 返回码
-|返回码|描述|
+## Return code
+|Return code|Description|
 |---|---|
 |**200**|OK|

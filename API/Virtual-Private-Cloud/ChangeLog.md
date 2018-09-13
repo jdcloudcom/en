@@ -1,9 +1,9 @@
-# 更新历史 #
-API版本：0.4.1
+# Update History #
+API version: 0.4.1
 
-|发布时间|版本号|更新|说明|
+|Release Time|Version Number| Update |Instructions|
 |---|---|---|---|
-|2018-08-20|0.4.1|扩展支持|* Java SDK新增对Android系统的支持|
-|2018-08-16|0.4.0|增加新接口|* 增加创建私有网络接口<br>* 增加删除私有网络接口|
-|2018-07-26|0.3.0|增加新接口|* 增加查询弹性网卡列表接口<br>* 增加创建网卡接口，只能创建辅助网卡接口<br>* 增加查询弹性网卡信息详情接口<br>* 增加删除弹性网卡接口<br>* 增加修改弹性网卡接口|
-|2017-11-31|0.1.0|初始版本|* VPC基本操作接口|
+|2018-08-20|0.4.1|Extension support|* Java SDK adds support to Android system|
+|2018-08-16|0.4.0|Add a new interface|* Add a creation virtual private cloud interface<br>* Add a deletion virtual private cloud interface|
+|2018-07-26|0.3.0|Add a new interface|* Add a query elastic network interface list interface <br>* Add a creation interface that can only create secondary network interface<br>* Add a query elastic network interface information detail interface<br>* Add a deletion elastic network interface API<br>* Add a modification elastic network interface API|
+|2017-11-31|0.1.0|Initial Version|* VPC Basic Operation Interface|

@@ -1,26 +1,26 @@
 # calculateClusterPrice
 
 
-## 描述
+## Description
 Calculate the cluster price of the corresponding specification attribute
 
-## 请求方式
+## Request method
 POST
 
-## 请求地址
+## Request address
 https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/cluster:calculate
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**regionId**|String|True||Region ID|
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**clusterListViewModel**|[ClusterListViewModel](##ClusterListViewModel)|True||Cluster information views need to be transferred in except for userName and data Center|
 
 ### <a name="ClusterListViewModel">ClusterListViewModel</a>
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**bandwidthOut**|Integer|False||Network bandwidth|
 |**coreInstanceType**|String|False||Core instance type|
@@ -36,22 +36,22 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/cluster:calculate
 |**slaveNodeNumber**|Integer|False||Slave node number|
 |**userName**|String|False||User name|
 
-## 返回参数
-|名称|类型|描述|
+## Return parameter
+|Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
 |**result**|[Result](##Result)||
 
 
 ### <a name="Result">Result</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**data**|Integer||
 |**message**|String||
 |**status**|String||
 
-## 返回码
-|返回码|描述|
+## Return code
+|Return code|Description|
 |---|---|
 |**200**|OK|
 |**500**|Internal server error|

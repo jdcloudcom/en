@@ -1,21 +1,21 @@
 # describeBackups
 
 
-## 描述
+## Description
 View the detailed information of all backups in the RDS instance. The returned backup list is sorted in descending order from start time of backup (backupStartTime). <br>- Support SQL Server Only
 
-## 请求方式
+## Request method
 GET
 
-## 请求地址
+## Request address
 https://rds.jdcloud-api.com/v1/regions/{regionId}/backups
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**regionId**|String|True||Region code, with range detailed in [Regions and Availability Zone Comparison Table](../Enum-Definitions/Regions-AZ.md)|
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**auto**|Integer|False||Query the backup type, 0 for manual backup, 1 for automatic backup, not for all.<br>**- Test parameters, only support SQL Server, and may be replaced by other parameters later**|
 |**backupTimeRangeEndFilter**|String|False||Return the backup list whose backup start time is shorter than or equal to this time<br>**-Test parameters, only support SQL Server, and may be replaced by other parameters later**|
@@ -27,19 +27,19 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/backups
 |**pageSize**|Integer|True||The default of the number of data displayed per page is 10, and the value range is [1,100], which can only be a multiple of 10.|
 
 
-## 返回参数
-|名称|类型|描述|
+## Return parameter
+|Name|Type|Description|
 |---|---|---|
 |**result**|[Result](##Result)||
 
 
 ### <a name="Result">Result</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**backup**|[Backup[]](##Backup)|Backup Collection|
 |**totalCount**|Integer|Total Number of Records|
 ### <a name="Backup">Backup</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**backupEndTime**|String|Backup end time, format: YYYY-MM-DD HH:mm:ss|
 |**backupFiles**|String[]|Backup File List<br>- **SQL Server supports**, there can be multiple backup files and the naming rules for file name are:<br>(1) Full: Database name +.bak<br>(2) Incremental: Database name +.diff<br>- **MySQL does not support**|
@@ -53,7 +53,7 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/backups
 |**backupUnit**|String|Backup granularity, instance backup or multi-database backup,  detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)<br>- **SQL Server supports**<br>- **MySQL does not support**|
 |**instanceId**|String|Backup Instance ID|
 
-## 返回码
-|返回码|描述|
+## Return code
+|Return code|Description|
 |---|---|
 |**200**|OK|

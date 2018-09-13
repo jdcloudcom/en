@@ -1,16 +1,16 @@
 # JD Cloud Resolution OpenAPI APIs
 
 
-## 简介
+## Introduction
 JD Cloud Resolution OpenAPI APIs
 
 
-### 版本
+### Version
 v1
 
 
 ## API
-|接口名称|请求方式|功能描述|
+|Interface name|Request mehod|Function description|
 |---|---|---|
 |**addDomain**|POST|Add Main Domain Name|
 |**addMonitor**|POST|Add monitoring items for subdomains, by default, all monitoring items of subdomains are added to the monitoring|

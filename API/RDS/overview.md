@@ -1,16 +1,16 @@
 # Cloud Database RDS
 
 
-## 简介
+## Introduction
 At present, RDS OpenAPI supports SQL Server service, which can realize database management, account management, backup management, cloud on single database and other functions through OpenAPI, and will support cloud MySQL sevice later.
 
 
-### 版本
+### Version
 v1
 
 
 ## API
-|接口名称|请求方式|功能描述|
+|Interface name|Request mehod|Function description|
 |---|---|---|
 |**createAccount**|POST|Create a database account. The user can use the client, application, etc. to log in to the RDS database instance through the account and password. <br>For ease of management and recovery, RDS restricts accounts. Database accounts can only be created, deleted, and authorized by the console or OpenAPI. Users cannot perform related operations on accounts through SQL statements.|
 |**createAudit**|POST|It enables the database audit function of SQL Server and currently supports instance\-level database audit. Users can enable and disable the audit function, customize audit policies, and download audit files as needed. The audit file is a native SQL Server audit file and is saved for 6 months by default. <br>\- Support SQL Server Only|
@@ -20,8 +20,8 @@ v1
 |**deleteAccount**|DELETE|Delete the database account. After the account is deleted, it cannot be restored and the user cannot use this account to log in the RDS instance.|
 |**deleteAudit**|DELETE|Disable Database Audit. After the database audit is disabled, the previously generated audit result files are not deleted immediately. The audit result files will be automatically deleted by the system after the expiration date. The default expiration time is 6 months<br>\- Support SQL Server Only|
 |**deleteBackup**|DELETE|Deletes the RDS instance backup. Only the user\-generated backups are allowed to be deleted and the system automatic backups are not allow to be deleted.|
-|**deleteDatabase**|DELETE|Delete the database from the RDS instance. For management and data restoration, RDS controls user permissions. Users can only delete databases through the console or this interface.</br>敏感操作，可开启<a href="https://www.jdcloud.com/help/detail/3786/isCatalog/1">MFA操作保护</a>|
-|**deleteInstance**|DELETE|Delete an RDS Instance or a read\-only instance of MySQL. When the primary instance of MySQL is deleted, the corresponding read\-only instance of MySQL is also deleted</br>敏感操作，可开启<a href="https://www.jdcloud.com/help/detail/3786/isCatalog/1">MFA操作保护</a>|
+|**deleteDatabase**|DELETE|Delete the database from the RDS instance. For management and data restoration, RDS controls user permissions. Users can only delete databases through the console or this interface.</br>sensitive operation, enable<a href="https://www.jdcloud.com/help/detail/3786/isCatalog/1">MFA operation protection</a>|
+|**deleteInstance**|DELETE| Delete an RDS Instance or a read\-only instance of MySQL. When the primary instance of MySQL is deleted, the corresponding read-only instance of MySQL is also deleted</br>sensitive operation, enable<a href="https://www.jdcloud.com/help/detail/3786/isCatalog/1">MFA operation protection</a>|
 |**describeAccounts**|GET|View all account information in an RDS instance, including the account name, access rights to each database, etc.|
 |**describeAudit**|GET|View the audit options of the current instance that have been enabled. If no audit option is enabled for the current instance, it returns an empty array<br>\- Support SQL Server Only|
 |**describeBackupDownloadURL**|GET|Obtain the download link of the entire backups or  a single file in the backup. <br>\- When there is a file name in the input parameter, obtain the download link of the file. <br>\- When there is no file name in the input parameter, obtain the download link of the entire backups. <br>Due to the difference of backup mechanism, when using this interface to download backups, SQL Server must input the file name, and each file is downloaded one by one. It does not support downloading the entire backup. The file name (excluding the suffix) in the SQL Server backup is the database name of the backup. For example, the file name is my_test_db.bak, indicating that the file is a backup of the my_test_db database. <br>MySQL can download the entire backup set, but does not support the download of a single file. <br>\- Support SQL Server Only|

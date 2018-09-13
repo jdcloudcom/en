@@ -1,37 +1,37 @@
 # assignSecondaryIps
 
 
-## 描述
-给网卡分配secondaryIp接口
+## Description
+Assign secondaryIp interface to network interface
 
-## 请求方式
+## Request method
 POST
 
-## 请求地址
+## Request address
 https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkInterfaces/{networkInterfaceId}:assignSecondaryIps
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**networkInterfaceId**|String|True||networkInterface ID|
 |**regionId**|String|True||Region ID|
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**force**|Boolean|False|True|secondary ip被其他接口占用时，是否抢占。false：非抢占重分配，true：抢占重分配，默认抢占重分配。默认值：true|
-|**secondaryIpCount**|Number|False||指定自动分配的secondaryIp个数|
-|**secondaryIps**|String[]|False||指定分配的secondaryIp地址|
+|**force**|Boolean|False|True|When secondary ip is occupied by other interfaces, whether to preempt it or not. false: non-preemption for reallocation, true: preemption for reallocation, default preemption for reallocation. Default value: true|
+|**secondaryIpCount**|Number|False||Assign automatically allocated number of secondaryIp|
+|**secondaryIps**|String[]|False||Assign allocated secondaryIp address|
 
 
-## 返回参数
-|名称|类型|描述|
+## Return parameter
+|Name|Type|Description|
 |---|---|---|
-|**requestId**|String|请求ID|
+|**requestId**|String|Request ID|
 
 
 
-## 返回码
-|返回码|描述|
+## Return code
+|Return code|Description|
 |---|---|
 |**200**|Successful operation|
 |**400**|Request parameter x.y.z is 'xxx', expected one of [yyy,zzz]|

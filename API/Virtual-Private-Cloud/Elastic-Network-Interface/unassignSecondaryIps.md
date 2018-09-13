@@ -1,35 +1,35 @@
 # unassignSecondaryIps
 
 
-## 描述
-给网卡删除secondaryIp接口
+## Description
+Delete secondaryIp interface from network interface
 
-## 请求方式
+## Request method
 POST
 
-## 请求地址
+## Request address
 https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkInterfaces/{networkInterfaceId}:unassignSecondaryIps
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**networkInterfaceId**|String|True||networkInterface ID|
 |**regionId**|String|True||Region ID|
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**secondaryIps**|String[]|False||指定删除的secondaryIp地址|
+|**secondaryIps**|String[]|False||Assign deleted secondaryIp address|
 
 
-## 返回参数
-|名称|类型|描述|
+## Return parameter
+|Name|Type|Description|
 |---|---|---|
-|**requestId**|String|请求ID|
+|**requestId**|String|Request ID|
 
 
 
-## 返回码
-|返回码|描述|
+## Return code
+|Return code|Description|
 |---|---|
 |**200**|Successful operation|
 |**400**|Request parameter x.y.z is 'xxx', expected one of [yyy,zzz]|

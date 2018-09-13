@@ -1,35 +1,35 @@
 # addMonitor
 
 
-## 描述
+## Description
 Add monitoring items for subdomains, by default, all monitoring items of subdomains are added to the monitoring
 
-## 请求方式
+## Request method
 POST
 
-## 请求地址
+## Request address
 https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domain/{domainId}/monitorAdd
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**domainId**|String|True||Domain Name ID|
 |**regionId**|String|True||Region ID to which the instance belongs|
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**subDomainName**|String|True||Subdomain|
 
 
-## 返回参数
-|名称|类型|描述|
+## Return parameter
+|Name|Type|Description|
 |---|---|---|
 |**requestId**|String|ID of this request|
 
 
 
-## 返回码
-|返回码|描述|
+## Return code
+|Return code|Description|
 |---|---|
 |**200**|OK|
 |**400**|BAD_REQUEST|

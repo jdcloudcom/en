@@ -1,44 +1,44 @@
 # addNetworkSecurityGroupRules
 
 
-## 描述
-添加安全组规则
+## Description
+Add security group rule
 
-## 请求方式
+## Request method
 POST
 
-## 请求地址
+## Request address
 https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkSecurityGroups/{networkSecurityGroupId}:addNetworkSecurityGroupRules
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**networkSecurityGroupId**|String|True||NetworkSecurityGroup ID|
 |**regionId**|String|True||Region ID|
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**networkSecurityGroupRuleSpecs**|[AddSecurityGroupRules[]](##AddSecurityGroupRules)|True||安全组规则信息|
+|**networkSecurityGroupRuleSpecs**|[AddSecurityGroupRules[]](##AddSecurityGroupRules)|True||Security group rule information|
 
 ### <a name="AddSecurityGroupRules">AddSecurityGroupRules</a>
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**addressPrefix**|String|True||匹配地址前缀|
-|**description**|String|False||描述,​ 允许输入UTF-8编码下的全部字符，不超过256字符|
-|**direction**|Number|True||安全组规则方向。0：入规则; 1：出规则|
-|**fromPort**|Number|False||规则限定起始传输层端口, 取值范围:1-65535, 若protocol为传输层协议，默认值为1，若protocol不是传输层协议，恒为0。如果规则只限定一个端口号，fromPort和toPort填写同一个值|
-|**protocol**|Number|True||规则限定协议。300:All; 6:TCP; 17:UDP; 1:ICMP|
-|**toPort**|Number|False||规则限定终止传输层端口, 取值范围:1-65535, 若protocol为传输层协议，默认值为65535，若protocol不是传输层协议，恒为0。如果规则只限定一个端口号，fromPort和toPort填写同一个值|
+|**addressPrefix**|String|True||Prefix of matching address|
+|**description**|String|False||Description, all characters allowed to enter under UTF-8 encoding, without exceeding 256 characters|
+|**direction**|Number|True||Security group rule direction. 0: inbound rule; 1: outbound rule|
+|**fromPort**|Number|False||The start transport layer port of rule limit, value range:1-65535; if the protocol is a transport layer protocol, the default value is 1; if the protocol is not a transport layer protocol, the value is constantly 0. If the rule is limited to one port, the same value is filled in the fromPort and toPort|
+|**protocol**|Number|True||Rule limits protocol. 300:All; 6:TCP; 17:UDP; 1:ICMP|
+|**toPort**|Number|False||The end transport layer port of rule limit, value range:1-65535; if the protocol is a transport layer protocol, the default value is 65535; if the protocol is not a transport layer protocol, the value is constantly 0. If the rule is limited to one port, a same value is filled in the fromPort and toPort|
 
-## 返回参数
-|名称|类型|描述|
+## Return parameter
+|Name|Type|Description|
 |---|---|---|
-|**requestId**|String|请求ID|
+|**requestId**|String|Request ID|
 
 
 
-## 返回码
-|返回码|描述|
+## Return code
+|Return code|Description|
 |---|---|
 |**200**|Successful operation|
 |**400**|Request parameter x.y.z is 'xxx', expected one of [yyy,zzz]|

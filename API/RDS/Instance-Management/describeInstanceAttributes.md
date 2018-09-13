@@ -1,36 +1,36 @@
 # describeInstanceAttributes
 
 
-## 描述
+## Description
 Query the details of the RDS instance (MySQL, SQL Server, etc.) and the MySQL read-only instance details
 
-## 请求方式
+## Request method
 GET
 
-## 请求地址
+## Request address
 https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**instanceId**|String|True||RDS instance ID, which uniquely identifies an RDS instance|
 |**regionId**|String|True||Region code, with range detailed in [Regions and Availability Zone Comparison Table](../Enum-Definitions/Regions-AZ.md)|
 
-## 请求参数
+## Request parameter
 无
 
 
-## 返回参数
-|名称|类型|描述|
+## Return parameter
+|Name|Type|Description|
 |---|---|---|
 |**result**|[Result](##Result)||
 
 
 ### <a name="Result">Result</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**dbInstanceAttributes**|[DBInstanceAttribute](##DBInstanceAttribute)||
 ### <a name="DBInstanceAttribute">DBInstanceAttribute</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**auditStatus**|String|Audit status, detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)|
 |**azId**|String[]|AZ ID, the first is AZ for the primary instance, which is detailed in [Regions and Availability Zone Comparison Table](../Enum-Definitions/Regions-AZ.md)|
@@ -54,7 +54,7 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}
 |**subnetId**|String|Subnet ID|
 |**vpcId**|String|VPC ID|
 ### <a name="Charge">Charge</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**chargeExpiredTime**|String|Expiration time, i.e. the expiration time of Pay-In-Advance resource, which shall be subject to ISO8601, with the UTC time used in the format of YYYY-MM-DDTHH:mm:ssZ. Pay-As-You-Go resource field is blank.|
 |**chargeMode**|String|Payment model, the value shall be prepaid_by_duration, postpaid_by_usage or postpaid_by_duration; prepaid_by_duration refers to Pay-In-Advance; postpaid_by_usage refers to Pay By Consumption and Pay-As-You-Go; postpaid_by_duration refers to Pay By Configuration and Pay-As-You-Go, and is postpaid_by_duration by default|
@@ -62,7 +62,7 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}
 |**chargeStartTime**|String|The start time of the billing shall be subject to ISO8601, with the UTC time used in the format of YYYY-MM-DDTHH:mm:ssZ|
 |**chargeStatus**|String|Cost payment status, the value is respectively normal, overdue and arrear.|
 
-## 返回码
-|返回码|描述|
+## Return code
+|Return code|Description|
 |---|---|
 |**200**|OK|

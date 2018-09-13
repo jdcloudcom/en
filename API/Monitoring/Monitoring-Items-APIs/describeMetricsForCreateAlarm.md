@@ -1,42 +1,42 @@
 # describeMetricsForCreateAlarm
 
 
-## 描述
+## Description
 Query indicator list available to create monitoring rules based on resource type
 
-## 请求方式
+## Request method
 GET
 
-## 请求地址
+## Request address
 https://monitor.jdcloud-api.com/v1/metricsForCreateAlarm
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**serviceCode**|String|False||Type of resource, blank by default, displaying all items<br>vm--> virtual machine<br>disk-->cloud disk<br>ip--> public IP<br>balance-->load balancer<br>database-->MySQL Service revision<br>cdn-->JD CDN<br>redis-->redis cloud cache<br>mongodb-->mongoDB cloud cache<br>storage-->cloud storage<br>sqlserver-->cloud database sqlserver revision <br>nativecontainer-->container<br>|
 
 
-## 返回参数
-|名称|类型|描述|
+## Return parameter
+|Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Requested identifier id|
 |**result**|[Result](##Result)||
 
 
 ### <a name="Result">Result</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**serviceCodeList**|[ServiceCodeMetrics[]](##ServiceCodeMetrics)||
 ### <a name="ServiceCodeMetrics">ServiceCodeMetrics</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**metrics**|[MetricDetail[]](##MetricDetail)||
 |**serviceCode**|String||
 ### <a name="MetricDetail">MetricDetail</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**calculateUnit**|String|Computing unit of indicator, such as bit/s, %, byte|
 |**downSample**|String|Sampling frequency|
@@ -44,8 +44,8 @@ https://monitor.jdcloud-api.com/v1/metricsForCreateAlarm
 |**metricName**|String|Name of monitoring indicator|
 |**serviceCode**|String|Identifier of resource type|
 
-## 返回码
-|返回码|描述|
+## Return code
+|Return code|Description|
 |---|---|
 |**200**|OK|
 |**400**|invalid parameter|

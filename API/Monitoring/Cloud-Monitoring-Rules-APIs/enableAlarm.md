@@ -1,33 +1,33 @@
 # enableAlarm
 
 
-## 描述
+## Description
 Enable the alarm rule, when the alarm rule is in the status of “Disabled”, the alarm rule can be enabled by using the interface.
 
-## 请求方式
+## Request method
 POST
 
-## 请求地址
+## Request address
 https://monitor.jdcloud-api.com/v1/regions/{regionId}/alarms/{alarmId}:enable
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**alarmId**|String|True||Rule id|
 |**regionId**|String|True||Region ID|
 
-## 请求参数
+## Request parameter
 无
 
 
-## 返回参数
-|名称|类型|描述|
+## Return parameter
+|Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Requested identifier id|
 
 
 
-## 返回码
-|返回码|描述|
+## Return code
+|Return code|Description|
 |---|---|
 |**200**|OK|
 |**400**|invalid parameter|
