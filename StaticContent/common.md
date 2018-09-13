@@ -25,7 +25,7 @@ Product features
 Application scenario
 Customer instance
 Help Documentation
-Understand more 
+Learn More
 
 ### Public sector-Top part
 Balance
@@ -310,4 +310,255 @@ Pricing inquiry of JD Cloud provides nearly 30 cloud products and services for e
 JD Cloud is an integrated service provide for cloud computing under the JD Group, which has the world's leading cloud computing technology and complete service platform. Based on JD’s long-term business practice and  technical accumulation in cloud calculation, bid data, IOT and mobile internet, JD Cloud is devoted to building a social cloud platform and providing safe, professional, steady and convenient cloud service for the society.
 
 
+```
+
+
+Tag content on the title page of 0911 new products
+* 7*12 professional customer service, service consultation
+* Stick on top
+* Manual customer service
+* Network error, please try again later
+* Submission failed, please try again later
+* Please select at least one option
+* Email cannot be blank
+* Mobile cannot be blank
+* Please enter digital value
+* Mobile numbers do not match
+* Application condition and detailed rules
+* Close
+* Calculating
+
+`Note: English in titleMap does not need to be translated  Only translate the Chinese text within the braces `
+```
+ titleMap: {
+          cloudhost: {
+            title: "Cloud server_virtual machine_elastic compute_virtual machine trial-JD Cloud",
+            keywords: "Cloud server, virtual machine, elastic compute, BGP multi-line, virtual machine trial",
+            description:
+              "Virtual machine is a cloud computing service provided by JD Cloud. It is easy to manage and it is secure and reliable. You do not have to invest your energy in hardware purchase and maintenance. Multiple VMs can be created and released at any time, applications can be quickly deployed, and the computing power can be expanded according to business needs, paying on demand, saving costs, and helping you to carry out business in a more efficient and stable way."
+          },
+          clouddisk: {
+            title: "Cloud disk service_block storage_random storage_data storage_SSD Cloud Disk_Premium Hdd Cloud Disk-JD Cloud",
+            keywords: "Cloud disk service, block storage, random storage, data storage, SSD Cloud Disk, Premium Hdd Cloud Disk",
+            description:
+              "Cloud disk service is a low-delay, persistent and high-reliability data block-level storage provided by JD Cloud for virtual machine. Data in cloud disk service are stored in multiple real-time copies to prevent data unavailability due to component failure while providing you with high-availability data storage service. Elastic expansion is allowed for cloud disk service capacity. You can expand data bucket at a low price in a few minutes to achieve persistent storage of your data."
+          },
+          dockers: {
+            title: "Container service_Docker_container cloud-JD Cloud",
+            keywords: "Container service, Docker, container cloud",
+            description:
+              "Container service is a product with high performance, high security and high reliability that are launched based on JD’s deep accumulation in container technology. The product fully integrates the advantages of Docker containers and virtual machines. Based on JD Cloud computing foundation, it provides users with a safe and easy-to-use container cloud service. At the same time, it supports the startup status second-level billing mode, which effectively reduces the invested costs of the users."
+          },
+          vpcs: {
+            title: "Virtual private cloud_virtual private cloud_VPC_Network ACL_virtual router_elastic IP-JD Cloud",
+            keywords: "Virtual private cloud, virtual private cloud, VPC, EIP, virtual router, elastic IP, network ACL",
+            description:
+              "JD Cloud virtual private cloud provides a simple and convenient channel for you to build a logically isolated network environment. Users can complete network planning in a simple and understandable way according to their needs, and can realize functions such as network isolation, subnet interconnection, public network access, and network sharing."
+          },
+          loadbalance: {
+            title: "Load balancer_traffic distribution_seamless migration_disaster tolerance-JD Cloud",
+            keywords: "Load balancer, traffic distribution, seamless migration, disaster tolerance",
+            description:
+              "The load balancer can distribute large concurrent traffic to several virtual machines, adjust resource utilization, eliminate influence to systems by fault of single virtual machine, improve system availability and expand system serviceability."
+          },
+          vpn: {
+            title: "VPN_multicloud_IPSEC_encryption communication_private network-JD Cloud",
+            keywords: "VPN, multicloud, IPSEC, encryption communication, private network",
+            description:
+              "VPN connection uses public network to set up private network, and enables external users to access intranets, cross-regional intranet interconnection, etc. For example, the enterprise data center and the JD Cloud virtual private cloud can be connected through the VPN private network to provide a secure and reliable multicloud deployment."
+          },
+          clouddb: {
+            title: "Cloud database_relational database_distributional database_MYSQL-JD Cloud",
+            keywords: "Cloud database, relational database, distributional database, MYSQL",
+            description:
+              "Cloud database is a stable and reliable relational database cloud service provided by JD Cloud. Compared to tradition databases, it is easy to deploy, manage and expand. By default, it supports the primary-secondary hot standby architecture and provides complete solutions such as data backup, fault recovery and monitoring to completely solve the problem of database operation and maintenance."
+          },
+          redis: {
+            title: "JCS_Redis_Memcache_high speed cache system-JD Cloud",
+            keywords: "JCS, Redis, Memcache, high speed cache system",
+            description:
+              "JCS for Redis is an online cache service based on Redis protocol provided by JD Cloud. It supports various types for users to select from, such as the primary-secondary version and the cluster version. It can meet the requirements of availability, reliability, and high read/write performance in multiple service scenarios. It supports hot standby, and provides automatic switch for disaster tolerance, instance monitoring and other services to reduce business risks and ensure business continuity."
+          },
+          cloudstorage: {
+            title: "Object storage service_oss_cloud storage-JD Cloud",
+            keywords: "Object storage service, oss, cloud storage",
+            description:
+              "ObjectStorageService (OSS) is a large-scale distributed object storage service independently researched and developed by JD Cloud. It provides high-availability, low-cost, and secure cloud storage services for enterprises and individual developers. You can realize unified management of data to meet a variety of storage needs. It supports the standard RestfulAPIs, you only need to pay by the actual usage, and there is no minimum usage limit."
+          },
+          cdn: {
+            title: "CDN_content distribution_website accelerating _CDN server_CDN accelerating-JD Cloud",
+            keywords: "CDN, content distribution, website accelerating, CDN server, CDN accelerating",
+            description:
+              "Based on JD's high-quality network infrastructure, JD Cloud ContentDeliveryNetwork (CDN) provides you with low-cost, high-performance and scalable content distribution service. Utilize the server closest to each user to efficiently deliver mass contents to Internet end consumer users faster and more reliably. To enable this function, you need to contact the operation personnel. Tel: 4006151212."
+          },
+          ddosprotection: {
+            title:
+              "Anti-DDoS Basic_DDoS Attack Protection_mass-traffic attack_cloud security_traffic cleaning_anti-denial service-JD Cloud",
+            keywords:
+              "Anti-DDoS Basic, DDoS Attack Protection, mass-traffic attack, cloud security, traffic cleaning, anti-denial service",
+            description:
+              "Anti-DDoS Basic is a free service for JD Cloud users against DDoS attacks. It can protect you against basic DDoS attacks and provide up to 2G protection capability. The cleaning trigger value can be set according to business needs, so that common DDoS attacks will not threaten your business and protect your business security."
+          },
+          consultation: {
+            title: "Security consultation_cloud service_risk evaluation_security incident management-JD Cloud",
+            keywords: "Security consultation, cloud service, risk evaluation, security incident management",
+            description:
+              "JD Cloud security consultation service is an all-dimensional security service provided by JD Cloud security experts for users based on years of security best practice experience in combination with specific customer scenarios. So that it ensures the normal running and continuous optimization of the user security system. It provides strong technical capabilities to support and guarantee the stable and secure running of customer business."
+          },
+          jsrc: {
+            title: "Security public test_security information_vulnerability collection_white hat_threats risk-JD Cloud",
+            keywords: "Security public test, security information, vulnerability collection, white hat, threats risk",
+            description:
+              "JSRC is a JD Cloud security community consisting of enterprise users, JD Group security department, white hats and industry-leading security experts. It is a platform to help enterprises establish private emergency response centers (to help enterprises collect vulnerability information)."
+          },
+          monitering: {
+            title: "Cloud monitor_website monitoring_server resource monitoring_site cloud service monitoring-JD Cloud",
+            keywords: "Cloud monitor, website monitoring, server resource monitoring, site cloud service monitoring",
+            description:
+              "CloudMonitor is a monitoring and alarming service for your JD Cloud resources. It is your monitoring solution expert. It monitors and alarms automatically 24 hours, monitors your cloud service in real time, and you can customize metric monitoring rules and alarming policies. CloudMonitor will send alarm notifications via SMS, email, etc., and it also provides a view of the current alarm status and alarm history."
+          },
+          subusers: {
+            title: "Sub-account management_permission assignment_website permission_account permission management-JD Cloud",
+            keywords: "Sub-account management, permission assignment, website permission, account permission management",
+            description:
+              "JD Cloud sub-account management is committed to providing cloud resource centralized management service for enterprise-level users. It assigns operation permissions to managers based on resources. By sub-account management, it can assign independent permissions to employee accounts, avoiding multiple employees sharing the primary account and achieves permission and responsibility consistency. To enable this function, you need to contact the operation personnel. Tel: 4006151212."
+          },
+          dataintegration: {
+            title:
+              "Data compute_data access_data channel_data synchronization_offline data_streaming data_data transmission interaction-JD Cloud",
+            keywords:
+              "Data compute, data access, data channel, data synchronization, offline data, streaming data, data transmission interaction",
+            description:
+              "Data compute is a kind of cloud data mobile service. Through data integration, data synchronization among multiple different data sources between local data sources and cloud data sources and among data sources (including object storage service, cloud database, data warehouse, etc.) can be easily realized.
+          },
+          datawarehouse: {
+            title: "Data warehouse_big data compute_data mining_data analysis_PB-level data processing-JD Cloud",
+            keywords: "Data warehouse, big data compute, data mining, data analysis, PB-level data processing",
+            description:
+              "JD Cloud data warehouse is a fully-hosted cloud database service with low cost. Data warehouse provides the out-of-the-box data management, flexible computing resource, open data interface and fine-grained permission system, helping users quickly build the enterprise-level data analysis platform and constantly focusing on the release of data value."
+          },
+          bi: {
+            title:
+              "BI report_big data analysis_data-based operation_mass data analysis_data visualization analysis-JD Cloud",
+            keywords: "BI report, big data analysis, data-based operation, mass data analysis, data visualization analysis",
+            description:
+              "JD Cloud BI report one-stop self-service data analysis platform supports drag-and-drop operation, rich visualization effects, and instant visualization of mass data, helping you to easily complete data analysis, business data exploration, and fully exploit the value of enterprise data."
+          },
+          jmr: {
+            title: "Elastic Hadoop_elastic Spark_MapReduce_Presto-JD Cloud",
+            keywords: "Elastic Hadoop, elastic Spark, MapReduce, Presto",
+            description:
+              "JMR (JingDong MapReduce) is a Hadoop/Spark hosting service based on elastic compute capacity and open source ecosystem, by which the user can easily use such low-cost services as MapReduce, Hive, Spark and Presto for big data processing analysis."
+          },
+          gpu: {
+            title:
+              "GPU service_artificial intelligence_image processing_in-depth learning_scientific computing_concurrent computing_floating-point computing-JD Cloud",
+            keywords:
+              "GPU service, artificial intelligence, image processing, in-depth learning, scientific computing, concurrent computing, floating-point computing",
+            description:
+              "GPU service provides more efficient computing service based on GPU, which is suitable for multi-domain scenarios such as artificial intelligence, image processing, deep learning, and scientific computing. It has real-time high speed, providing excellent concurrent computing and floating-point computing capabilities."
+          },
+          mongodb: {
+            title:
+              "Cloud database MongoDB_NoSQL database_high availability architecture_disaster tolerance switching_fault migration-JD Cloud",
+            keywords: "Cloud database MongoDB, NoSQL database, high availability architecture, disaster tolerance switching, fault migration",
+            description:
+              "The MongoDB Service, which is based on MongoDB, is a high-performance NoSQL database service provided by JD Cloud, which is widely accepted in the world. It is fully compatible with MongoDB protocol and provides a highly available architecture of three-node replica set by migration. It supports automatic disaster tolerance switching, and the fault immigration can be automatically completed to ensure service availability."
+          },
+          webscan: {
+            title: "web scan_security vulnerability_web security_vulnerability scan_Web hijacking-JD Cloud",
+            keywords: "web scan, security vulnerability, web security, vulnerability scan, Web hijacking",
+            description:
+              "Web scan is a security technology product provided by JD for cloud tenants based on years of security best practice experience. It can discover the common web security vulnerabilities that may exist on the machine to the attackers. It can provide the necessary technical means for the users to establish a cloud security defense system and continuous optimization to ensure the web security of users."
+          },
+          hostscan: {
+            title: "Virtual machine scan_vulnerability scan_endpoint security_remote detection-JD Cloud",
+            keywords: "Virtual machine scan, vulnerability scan, endpoint security, remote detection",
+            description:
+              "Virtual machine scan is a security technology product provided by JD for cloud tenants based on years of security best practice experience. It can discover the common web security vulnerabilities that may exist on the machine to the attackers, so that it can buy precious time for vulnerability fixing. It can provide the necessary technical means for the users to establish a cloud security defense system and continuous optimization to ensure the endpoint security of users."
+          },
+          JLS: {
+            title: "Log service_log data_data collection_mass log processing_log service platform-JD Cloud",
+            keywords: "Log service, log data, data collection, mass log processing, log service platform",
+            description:
+              "Log service is a one-stop service for log data. After years of 618 and 11.11 testing, we have refined the internal log service system into a log service platform that can provide external services, enabling enterprises to quickly complete data collection, consumption, storage, query and other functions to help enterprises improve operation and maintenance efficiency, and build a mass log processing service platform for the digital technology era."
+          },
+          streamhub: {
+            title: "Streaming data center_message service_high throughput_streaming data_data analysis-JD Cloud",
+            keywords: "Streaming data center, message service, high throughput, streaming data, data analysis",
+            description:
+              "Streaming data center is an extensible, distributed and high-throughput message service oriented towards big data scenario, providing message establishment and subscription functions with low latency to help users to construct streaming data analysis and application rapidly."
+          },
+          "stream-compute": {
+            title:
+              "Stream Compute_big data_real-time data processing_construct streaming processing application_data cleaning_streaming data center-JD Cloud",
+            keywords:
+              "Stream Compute, big data, real-time data processing, construct streaming processing application, data cleaning, streaming data center",
+            description:
+              "Stream computing is a real-time data processing and analysis platform under the scenario of big data, supporting users to program data processing job by the manner of SQL to lower the development threshold of streaming data and help users to construct streaming processing application rapidly."
+          },
+          search: {
+            title:
+              "Open search_search hosting service_search solutions_structured data_data processing_search results ranking-JD Cloud",
+            keywords:
+              "Open search, search hosting service, search solutions, structured data, data processing, search results ranking",
+            description:
+              "JD Cloud open search is a one-stop search hosting service for structured data, providing simple, efficient and stable search solutions for extensive mobile application developers and webmasters. Open search hosts JD Cloud’s own search business. We use the cloud service to share JD Cloud's mature search technology solutions to extensive developers in the form of open search."
+          },
+          profile: {
+            title:
+              "Portrait analysis_user profiling_user tag_modelling analysis_crowd portrait analysis_data cleaning_data integration expansion-JD Cloud",
+            keywords:
+              "Portrait analysis, user profiling, user tag, modelling analysis, crowd portrait analysis, data cleaning, data integration expansion",
+            description:
+              "Portrait analysis product provides enterprise customers with online services for designing, producing and applying user profiling tags: Supporting enterprise customers to conduct cleaning and modelling analysis, independent designing of user tags and generating business rules to the user data of JD Cloud data warehouse; supporting enterprise customers to conduct market segmentation understanding and crowd portrait analysis of the output tag data; and conduct targeted population planning for accurate marketing activities based on user tags."
+          },
+          ml: {
+            title:
+              "Machine learning platform_algorithm model_online prediction_offline prediction_model training_model evaluation-JD Cloud",
+            keywords: "Machine learning platform, algorithm model, online prediction, offline prediction, model training, model evaluation",
+            description:
+              "The machine learning platform provides powerful data processing capability and convenient data processing tools. It has built in rich algorithmic models to satisfy the one-stop services from raw data to model output. Users can quickly build smart business with the machine learning platform."
+          },
+          antiporn: {
+            title: "Intelligent anti-porn_vision algorithm_in-depth learning_image identification_image recognition-JD Cloud",
+            keywords: "Intelligent anti-porn, vision algorithm, in-depth learning, image identification, image recognition",
+            description:
+              "Intelligent anti-porn is based on advanced in-depth learning and computer vision algorithms to provide accurate and efficient porn image identification service. It can be applied to business scenarios such as child secure web surfing and live streaming porn review, reducing the enterprise cost of manual auditing and reducing the risk of violation."
+          },
+          ocr: {
+            title:
+              "OCR character recognition_image character recognition_ID card identifictaion_bank card recognition_customized recognition service-JD Cloud",
+            keywords:
+              "OCR character recognition, image character recognition, ID card identifictaion, bank card recognition, customized recognition service",
+            description:
+              "OCR character recognition can analyze and recognize the text data in the image file to obtain the text content in the image."
+          },
+          bm: {
+            title: 'Physical server-JD Cloud',
+            keywords: 'Physical server, virtual machine, cloud server, object storage service, cloud storage',
+            description: 'Physical server is an exclusive physical server rental service provided by JD Cloud that is purchased by demand, suitable for IT scenarios with high requirements for data security, computing timeliness, stability, real-time, and industry supervision.'
+          },
+          nat: {
+            title: 'Nat gateway-JD Cloud',
+            keywords: 'NAT, NAT gateway, NAT console, SNAT_DNAT',
+            description: 'The Nat gateway service provided by JD Cloud can be used to build an exit for virtual private cloud to connect with public network. You can customize SNAT and flexibly configure rules to achieve multi-instance shared public network bandwidth.'
+          },
+          live: {
+            title: 'Live video-JD Cloud',
+            keywords: 'Video solutions, live video system plan, network live streaming server, online live streaming server, video monitoring',
+            description: 'JD Cloud live video service bases on JD Cloud platform\'s high-quality network infrastructure and large-scale distributional real-time transcoding technology to provide customers with low-latency, high-availability and easy-to-access live video one-stop service, solving customer\'s underlying R&D difficulties, reducing device operation and maintenance costs, and helping customers quickly build their own live streaming platforms and applications.'
+          },
+          meidaprocess: {
+            title: 'Media processing service-JD Cloud',
+            keywords: 'Media service, video stream processing service, real-time video stream processing, cloud stream processing',
+            description: 'Media Processing Service is a multimedia file processing service provided by JD Cloud, which provides customers with convenient one-stop services such as video transcoding, snapshots and callbacks.'
+          },
+          dataintegration: {
+            title: 'Data factory-JD Cloud',
+            keywords: 'Data factory, data collection, data analysis service, data synchronization, data scheduling policy',
+            description: 'Data factory is a kind of cloud data integration service with built-in choreography and scheduling capabilities for data synchronization and data processing and analysis task, helping users quickly build data processing and analysis jobs in the form of workflow and executing the jobs periodically.'
+          },
+
+        }
 ```
