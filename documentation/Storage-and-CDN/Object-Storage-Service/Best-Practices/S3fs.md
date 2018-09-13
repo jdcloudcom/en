@@ -41,7 +41,7 @@ Description
 
 mkdir: Create a new folder as the local mounting catalog.
 
-s3fs: Manually mount commands, in which the bucketname is the bucket name, /new is the local mounting path, passwd_file is the password file location, and url is the S3 domain name compatible to [JD Cloud object storage service]((../API-Reference-S3-Compatible/Regions-And-Endpoints.md) (please input service domain name where the bucket is located)
+s3fs: Manually mount commands, in which the bucketname is the bucket name, /new is the local mounting path, passwd_file is the password file location, and url is the S3 domain name compatible to [JD Cloud object storage service](../API-Reference-S3-Compatible/Regions-And-Endpoints.md) (please input service domain name where the bucket is located)
 
 **5. View mounting results**
 ```
