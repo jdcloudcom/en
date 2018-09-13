@@ -1,4 +1,4 @@
-# Delete files
+# Delete object
 
 You can at any time delete files you do not need in storage space to avoid costs of storage capacity according to the below action process:
 
