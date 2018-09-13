@@ -14,6 +14,6 @@ Basic functions of image processing:
 
 * Adding watermarks of images and texts
 
-* Face detection
+* Face Recognition
 
 * Image porn identification
