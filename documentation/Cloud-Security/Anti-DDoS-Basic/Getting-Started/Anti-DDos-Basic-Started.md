@@ -17,7 +17,7 @@
 ** Note **: Basic protection is open by default and cannot be closed.
 
 # Relevant reference
-- [What is Basic Anti-DDoS](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Basic-Anti-DDoS/Introduction/Overview.md)
-- [Functional Properties](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Basic-Anti-DDoS/Introduction/Functions.md)
-- [Application Scenarios](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Basic-Anti-DDoS/Introduction/Application-Scenarios.md)
-- [Infrastructure](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Basic-Anti-DDoS/Introduction/Basic-Infrastructure.md)
+- [What is Basic Anti-DDoS](../Introduction/Overview.md)
+- [Functional Properties](../Introduction/Functions.md)
+- [Application Scenarios](../Introduction/Application-Scenarios.md)
+- [Infrastructure](../Introduction/Basic-Infrastructure.md)
