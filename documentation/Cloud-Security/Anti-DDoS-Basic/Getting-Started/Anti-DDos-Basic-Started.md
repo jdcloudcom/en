@@ -17,7 +17,7 @@
 ** Note **: Basic protection is open by default and cannot be closed.
 
 # Relevant reference
-- [What is Basic Anti-DDoS](../Introduction/Overview.md)
-- [Functional Properties](../Introduction/Functions.md)
+- [What is Basic Anti-DDoS](../Introduction/Product-Overview.md)
+- [Functional Properties](../Introduction/Features.md)
 - [Application Scenarios](../Introduction/Application-Scenarios.md)
 - [Infrastructure](../Introduction/Basic-Infrastructure.md)
