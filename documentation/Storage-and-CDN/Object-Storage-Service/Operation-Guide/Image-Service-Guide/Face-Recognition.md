@@ -1,4 +1,4 @@
-# Face detection
+# Face Recognition
 
 Identify face information in the image
 
