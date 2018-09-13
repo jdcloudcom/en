@@ -1,13 +1,13 @@
 # Create account
-Before using database, you need to create account in the block chain data service instance. You can't manage the database account by SQL statement but only by actions on console.
+Before using database, you need to create account in the blockchain data service instance. You can't manage the account by SQL command but only by actions on the console.
 
 ## Precautions
-* Database created by starting synchronization service can only set read permission.
+* Database created by synchronization service can only set read permission.
 
 ## Action Steps
-1. Log in [Block chain data service console](https://bds-console.jdcloud.com/block/list). 
-2. Select the target instance needs to create account and click the target instance to enter the Details of the instance. 
-3. Select  **Account Management** tag to open the Account Management; click  **Create Account** button to modify the parameters in the account popup as below description 
+1. Log in [blockchain data service console](https://bds-console.jdcloud.com/block/list). 
+2. Select the target instance needs to create account and click the target instance to enter the details of the instance. 
+3. Select  **Account Management** tag to open the Account Management. Click  **Create Account** button to modify the parameters in the account popup as below description 
     * Database account and password: we reserved some keyword names for database accounts for your reference [Actions Limit](to be supplemented) and the length and characters of the account and password have some limits which is subject to the console.
     * Authorize database: database authorized by this account
         * Add authorized database, click the database name in the authorizable database list and click the middle button “>”, then the selected database name will be removed from the authorizable database list and added to the end of the authorized database list. **Read Only** permission is selected by default.
