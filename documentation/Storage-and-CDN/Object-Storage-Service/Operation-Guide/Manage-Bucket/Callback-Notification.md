@@ -159,4 +159,4 @@ You can configure the callback server according to the following examples:
     }
 ```
 ### Callback Signature
-If your callback server is maliciously attacked by others, as the malicious callback of your application server, the application server receives some illegal requests and the normal logic is affected. In such case, you need to judge if the callback request is from OSS. Please refer to the document: [Callback Signature Verification]() for the verification of callback signature.
+If your callback server is maliciously attacked by others, as the malicious callback of your application server, the application server receives some illegal requests and the normal logic is affected. In such case, you need to judge if the callback request is from OSS. Please refer to the document: [Callback Signature Verification](../../Best-Practices/Setting-Signature-Authentication-For-Callback-Server.md) for the verification of callback signature.
