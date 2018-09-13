@@ -25,7 +25,7 @@ href:
 - name: Getting Started
   items:
     - name: Capture basic protection capabilities
-      herf: Getting-Started/Basic-Anti-DDos-Started.md
+      herf: Getting-Started/Anti-DDos-Basic-Started.md
 - name: Operation Guide
   items:
     - name: Protection threshold setting
@@ -34,8 +34,8 @@ href:
       herf: Operation-Guide/View-Report-log.md            
 - name: Best Practices
   items:
-  - name: Anti-DDoS Basic + Anti-DDoS Pro linkage
-    herf: Solution.md	
+  - name: Anti-DDoS Basic + Anti-DDoS Pro
+    herf: Best-Practices/Linkage-Scheme.md	
 - name: Tutorial
   items:
   status: 0
