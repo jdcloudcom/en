@@ -93,9 +93,9 @@
                   href: Operation-Guide/Image-Service-Guide/Add-Image-Watermarks.md 
                 - name: Text Watermark
                   href: Operation-Guide/Image-Service-Guide/Add-Text-Watermarks.md 
-                - name: Acquire Image Information
-                  href: Operation-Guide/Image-Service-Guide/Obtein-Image-Information.md
-                - name: Face Detection
+                - name: Obtain Image Information
+                  href: Operation-Guide/Image-Service-Guide/Obtain-Image-Information.md
+                - name: Face Recognition
                   href: Operation-Guide/Image-Service-Guide/Face-Recognition.md	
                 - name: Image Porn Identification
                   href: Operation-Guide/Image-Service-Guide/Porn-Recognition.md  
