@@ -10,8 +10,8 @@
       href: Introduction/Features.md
 - name: Pricing
   items:
-    - name: Price Overview
-      href: Pricing/Price-Overview.md
+    - name: Billing Overview
+      href: Pricing/Billing-Overview.md
 - name: Getting-started
   items:
     - name: Summary
