@@ -52,7 +52,7 @@ You can specify a Bucket to create or change the NotificationConfiguration via P
 Note:
 * TopicConfiguration: Relevant configuration rules for message notification, supporting many rules When the event is triggered, TopicConfiguration will be matched one by one in orders via the Object and the event type. If the match is successful, the message notification will be sent and the match is terminated.
 * Id: the unique identifier of TopicConfiguration; if it is not set, OSS will assign an ID randomly
-* Topic: When the time of occurrence is specified, OSS will send message to this topic in the format of NS:endpoint1,endpoint2,endpoint3 (it must begin with "NS:", several addresses must be separated with ",” and at most 5 addresses are configured)
+* Topic: When the event of occurrence is specified, OSS will send message to this topic in the format of NS:endpoint1,endpoint2,endpoint3 (it must begin with "NS:", several addresses must be separated with ",” and at most 5 addresses are configured)
 * Event: Event type triggering notification
 * Filter: Resource filtering rule. If no, all resources under the Bucket shall come into force
 * S3Key: Defining resource filtering rules
