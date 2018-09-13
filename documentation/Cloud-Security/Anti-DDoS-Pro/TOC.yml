@@ -34,7 +34,7 @@
   - name: Getting Started
     items:
     - name: Product Overview
-      herf : Overview.md
+      herf: Getting-Started/Overview.md
     - name: Create Instance
       herf: Getting-Started/Create-Instance.md
     - name: Non-web Service Forwarding Rules
