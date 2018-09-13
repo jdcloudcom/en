@@ -23,8 +23,8 @@ sudo make install
 ```
 **3. Create password file**
 ```
-echo key:sercert > /home/passwd-s3fs
-chmod 600 /home/passwd-s3fs
+echo key:sercert > ~/.passwd-s3fs
+chmod 600 ~/.passwd-s3fs
 ```
 Description
 
@@ -35,7 +35,7 @@ chmod 600: Only the current user can access the key file setting.
 **4. Mount object storage service to local catalog/new**
 ```
 mkdir /new
-s3fs bucketname /new -o passwd_file=/home/passwd-s3fs -o url="http://s3.cn-north-1.jcloudcs.com"
+s3fs bucketname /new -o passwd_file=~/.passwd-s3fs -o url="http://s3.cn-north-1.jcloudcs.com"
 ```
 Description
 
