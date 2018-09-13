@@ -22,4 +22,4 @@ At console of TiDB Service, you can view multiple database indicators. Through t
 |	TiDB-SELECT statistics of statement	|	Unit: Times/Min	|	60 Seconds/Time	|	30 Days	|
 |	TiKV-Usage Space	|	Unit: GB	|	60 Seconds/Time	|	30 Days	|
 |	TiKV-Usage Amount of Memory	|	Unit: GB	|	60 Seconds/Time	|	30 Days	|
-|	TiKV-CPU average usage rate	|	Unit:%	|	60秒/次	|	30 Days	|
+|	TiKV-CPU average usage rate	|	Unit:%	|	60 seconds/time	|	30 Days	|

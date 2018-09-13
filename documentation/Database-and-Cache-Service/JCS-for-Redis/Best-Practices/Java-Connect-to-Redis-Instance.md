@@ -14,14 +14,14 @@ public static void main(String[] args) {
         int port = 6379;
         String token = "${redis-id}:{your password}";// token displayed on the console
         jedis = new Jedis(host, port);
-        //鉴权信息
+        //Authentication Information
         jedis.auth(token);
         String key = "redis";
         String value = "jmiss-redis";
-        //set一个key
+        //Set a key
         String retCode = jedis.set(key, value);
         System.out.println("Set Key: " + key + " Value: " + value + "  return code is: " + retCode);
-        //get 设置进去的key
+        //Get set access key
         String getvalue = jedis.get(key);
         System.out.println("Get Key: " + key + " ReturnValue: " + getvalue);
     } catch (Exception e) {

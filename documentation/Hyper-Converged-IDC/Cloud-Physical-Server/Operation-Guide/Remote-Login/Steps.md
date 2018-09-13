@@ -21,7 +21,7 @@ Open Putty client, and enter the following contents in the PuTTY Configuration w
 
 Enter the administrator account in the Putty dialog window, and press enter key.
 ```
-管理员帐号：
+Administrator account:
 CentOS：root
 Ubuntu：ubuntu
 ```

@@ -9,8 +9,8 @@ In addition, in order to improve the write performance, you can tune the paramet
 Please pay special attention to this parameter:
 ```
 [raftstore]
-# 默认为 true，表示强制将数据刷到磁盘上。如果是非金融安全级别的业务场景，建议设置成 false，
-# 以便获得更高的性能。
+# True by default, meaning to copy the data to the disk compulsorily. For the business scenarios of non-finance security level, it is recommended to set as false,
+# To obtain higher performance.
 sync-log = true
 ```
 

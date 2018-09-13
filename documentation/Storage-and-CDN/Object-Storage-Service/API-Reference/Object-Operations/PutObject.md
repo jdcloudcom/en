@@ -12,7 +12,7 @@ Host: BucketName. s.jcloud.com
 x-jss-server-side-encryption:   true or false      
 x-jss-storage-class: STANDARD   or REDUCED_REDUNDANCY
 Date: GMT  Date     
-Authorization: signatureValue#请参照"访问控制"
+Authorization:   signatureValue#Please refer to "Identity and Access Management"
 ```
 **Request Header**
 

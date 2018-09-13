@@ -10,7 +10,7 @@ POST   /ObjectName?uploadId= UploadId HTTP/1.1
 Host: BucketName. s.jcloud.com
 Content-Length: Size
 Date: GMT   Date     
-Authorization:   signatureValue#请参照“访问控制”
+Authorization:   signatureValue#Please refer to “Identity and Access Management”
  
 {
       "Part": [

@@ -7,11 +7,11 @@ Request Grammar：
 GET searchVideoList&videoTaskQuery=videoTaskQuery HTTP/1.1
 Host: oss.cn-north-1.jcloudcs.com
 Date: date
-Authorization: signatureValue#请参照《安全认证》
+Authorization: signatureValue#Please refer to Security Verification
 ```
 Description:
 
-* videoTaskQuery：查询任务列表，JSON格式，相关Description参数如下：
+* videoTaskQuery: Query Task List and JSON format, and related Description parameters are explained as follows:
 
 * bucket: source bucket
 
@@ -38,7 +38,7 @@ Connection: Keep-Alive
 User-Agent: JFS-JCLOUD-SDK-JAVA/1.0.0 (Java 1.8.0_45; Vendor Oracle Corporation; Windows 7 6.1; HttpClient 4.2.1)
 ```
 
-响应Sample:
+Response Sample:
 ```
 HTTP/1.1 200 OK
 x-jss-request-id: AF4C3B343F152E1A

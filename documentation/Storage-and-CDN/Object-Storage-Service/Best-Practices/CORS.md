@@ -76,7 +76,7 @@ function loadXMLDoc() {
 
 <body>
 <h2>Test CORS</h2>
-<button type="button" onclick="loadXMLDoc()">请求数据</button>
+<button type="button" onclick="loadXMLDoc()">Request data</button>
 <div id="myDiv"></div>
 </body>
 </html>

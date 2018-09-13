@@ -7,7 +7,7 @@ Request grammar:
 DELETE deleteVideoTask&taskId= taskId
 Host: oss.cn-north-1.jcloudcs.com
 Date: date
-Authorization: signatureValue#请参照《安全认证》
+Authorization: signatureValue#Please refer to Security Verification
 ```
 
 Request example:

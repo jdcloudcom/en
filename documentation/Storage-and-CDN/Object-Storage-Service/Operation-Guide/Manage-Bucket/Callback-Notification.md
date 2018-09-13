@@ -92,35 +92,35 @@ When the callback notification is triggered, OSS will generate a message notific
 {  
    "Records":[  
       {  
-         "eventVersion":"1.0",  //版本号，目前为"1.0"
-         "eventSource":"oss",  //事件源，固定为"oss"
-         "awsRegion":"cn-north-1",  //Bucket所在region
-         "eventTime":Mon, 06 Aug 2018 10:19:51 GMT,  //事件触发时间
-         "eventName":"event-type",  //事件类型
+         eventVersion:"1.0",  //Version number, currently "1.0"
+         eventSource:"oss",  //Event source, fixed as "oss"
+         awsRegion:"cn-north-1",  //The region which Bucket is in
+         eventTime:Mon, 06 Aug 2018 10:19:51 GMT,  //Time the event was caused
+         eventName:"event-type",  //Event type
          "userIdentity":{  
-            "principalId":"userId-of-the-user-who-caused-the-event"  //触发事件用户ID
+            principalId:"userId-of-the-user-who-caused-the-event"  //User ID of the user who caused the event
          },
          "requestParameters":{  
-            "sourceIPAddress":"domain-name-where-request-came-from"  //发起事件请求的域名
+            sourceIPAddress:"domain-name-where-request-came-from"  //Domain name where event request came from
          },
          "responseElements":{  
-            "x-amz-request-id":"OSS generated request ID"  //发起事件的请求ID
+            x-amz-request-id:"OSS generated request ID"  //Request ID of the generated event
          },
          "s3":{  
-            "s3SchemaVersion":"1.0",  //通知内容版本号，目前为"1.0"
-            "configurationId":"ID found in the bucket notification configuration",  //事件通知配置中ConfigurationId
+            s3SchemaVersion:"1.0",  //Version number of the notification content, currently "1.0"
+            configurationId:"ID found in the bucket notification configuration",  //ConfigurationId in the event notification configuration
             "bucket":{  
-               "name":"bucket-name",  //Bucket名称
+               name:"bucket-name",  //Bucket name
                "ownerIdentity":{  
-                  "principalId":"userId-of-the-bucket-owner"  //Bucket owner用户ID
+                  principalId:"userId-of-the-bucket-owner"  //User ID of the Bucket owner
                }
             },
             "object":{  
-               "key":"object-key",  //Object名称
-               "eTag":"object eTag"  //Object的etag，与GetObject请求返回的ETag头的内容相同
+               key:"object-key",  //Object name
+               eTag:"object eTag"  //Object etag, the same as the content of Etag header returned from GetObject request
             }
          },
-	"callBackVar": {  //回调通知配置中的自定义参数
+	"callBackVar": {  //Call back customized parameters in the notification configuration
 	    "callBackVars": {                 
 		"var1":["value1","value3"],
 		"var2":["value2"]
@@ -144,16 +144,16 @@ Verification Process:
 
 You can configure the callback server according to the following examples:
 ```
-//简单格式的消息通知
+//Messages notification in simple format
     @RequestMapping("/notifications1")
     public String notifications1(@RequestBody String message
             , @RequestHeader HttpHeaders headers) {
 		
         if (headers.get("x-jdcloud-message-type").get(0).equals("SubscriptionConfirmation")) {
-			//设置时对url的校验，需要对message进行base64编码并返回
+			//For the verification of url during settings, message needs to be encoded by using base64 and returned
             return Base64Utils.encodeToString(message.getBytes(StandardCharsets.UTF_8));
         } else {
-            //消息通知处理  your code，处理完毕后需要返回 http code 200，body不做校验
+            //Message notification processes your code, http code 200 needs to be returned when processing is completed, and body shall not be verified
             return "";
         }
     }

@@ -7,7 +7,7 @@ The action is used to list Parts uploaded in Multipart Upload.
 GET   /ObjectName?uploadId=UploadId HTTP/1.1
 Host: BucketName. s.jcloud.com
 Date: GMT   Date     
-Authorization:   signatureValue#请参照“访问控制”
+Authorization:   signatureValue#Please refer to “Identity and Access Management”
 ```
 **Request Parameter**
 

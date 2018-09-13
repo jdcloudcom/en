@@ -70,7 +70,7 @@ When the local system is Linux and you need to login the Window instance remotel
 Before logging in, please check the [Security Group] of the instance and the [Network ACL] configuration of the subnet to ensure that the port 3389 of instance is open. After installing rdesktop, run the following commands to login the instance:
 
 ```
-rdesktop -u administrator -p <实例登录密码> <实例公网IP地址>
+rdesktop -u administrator -p <Instance login password> <Instance EIP address>
 ```
 
 ## Related Reference

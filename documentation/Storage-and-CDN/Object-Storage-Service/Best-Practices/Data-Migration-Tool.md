@@ -37,8 +37,8 @@ Worker configuration file is config-worker (Path: osstransfer/src/worker/config-
 
 Configuration content is as follows
 ```
-#port: 指定该worker使用的端口号，默认值是6262;
-#is-continue: True/False,是否继续上次未完成的任务，默认只为True。
+#port: Port number the worker is specified to use, the default value is 6262;
+#is-continue: True/False, whether to continue the task uncompleted last time, the default value is True.
 port=1234
 is-continue=True
 ```

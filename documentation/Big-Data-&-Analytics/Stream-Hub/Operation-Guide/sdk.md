@@ -30,7 +30,7 @@ Sample Code: <br>
     ```
     (2) Create an upload data object<br>
     ```
-    String msg = "单条消息";
+    String msg = "Single message";
     Entity entity = new Entity();
     entity.setKey("KEY：");
     entity.setValue("VALUE：" + msg);
@@ -46,7 +46,7 @@ Sample Code: <br>
     Specified-partition upload method: putStreamRecords(List, Partition )<br>
     Unspecified-partition upload method: putStreamRecordsNoPartiton(List)<br><br>
     ```
-    String msg = "单条消息";
+    String msg = "Single message";
     Entity entity = new Entity();
     entity.setKey("KEY：");
     entity.setValue("VALUE：" + msg);
@@ -56,8 +56,8 @@ Sample Code: <br>
     Entity entity1 = null;
     for (int i  = 0; i < 10; i++) {
     entity1 = new Entity();
-    entity1.setKey("批量消息KEY:" + i);
-    entity1.setValue("批量消息VALUE:" + i);
+    entity1.setKey("Bulk message KEY:" + i);
+    entity1.setValue("Bulk message VALUE:" + i);
     entities.add(entity1);
     }
     String recordIds =  streamingHubUpload.putStreamRecords(entities, 1);

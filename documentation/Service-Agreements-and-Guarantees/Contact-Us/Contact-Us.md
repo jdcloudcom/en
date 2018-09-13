@@ -13,5 +13,5 @@ Service time: 24/7 support<br /><br />
 mail:jdcloud@jd.com<br />
 Service time: 24/7 support<br /><br />
 5. JD Cloud WeChat Service Account<br />
-wechat: 京东云JDCloud<br />
+wechat: JD Cloud<br />
 Service time: 24/7 support

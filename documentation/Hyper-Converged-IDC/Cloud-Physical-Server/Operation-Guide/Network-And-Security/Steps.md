@@ -5,8 +5,8 @@ The following is an example of creating a filter table firewall:
 ### **1. Clear Original Rules**
 
 ```
-[root@jd ~]# iptables -F    #清除预设表filter中的所有规则链的规则
-[root@jd ~]# iptables -X    #清除预设表filter中使用者自定链中的规则
+[root@jd ~]# iptables -F    #Clear the rules of all the rule chains in the preset form filter
+[root@jd ~]# iptables -X    #Clear the rules of the user-customized chains in the preset form filter
 ```
 ### **2. Set Preset Rules**
 

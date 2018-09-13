@@ -7,7 +7,7 @@ Request Grammar：
 GET getVideoTask&taskId= taskId
 Host: oss.cn-north-1.jcloudcs.com
 Date: date
-Authorization: signatureValue#请参照《安全认证》
+Authorization: signatureValue#Please refer to Security Verification
 ```
 
 Request example:
@@ -20,7 +20,7 @@ Connection: Keep-Alive
 User-Agent: JFS-JCLOUD-SDK-JAVA/1.0.0 (Java 1.8.0_45; Vendor Oracle Corporation; Windows 7 6.1; HttpClient 4.2.1)
 ```
 
-Request响应：
+Request response:
 ```
 HTTP/1.1 200 OK
 x-jss-request-id: 99AC4715136F3038

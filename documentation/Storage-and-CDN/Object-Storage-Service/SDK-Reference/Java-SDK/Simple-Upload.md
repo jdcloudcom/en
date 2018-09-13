@@ -4,74 +4,74 @@ Stream upload and local file upload are called as simple upload. Stream upload u
 
 ## Stream Upload
 ```
-//您的AccessKey和SecretKey可以登录对象存储的控制台，在【Access Key 管理】中查看。  
+//You can log in to the console of Object Storage Service with AccessKey and SecretKey to view it in [AccessKey Management].  
 String accessKey =  "<yourAccessKeyId>";  
 String secreteKey = "<yourSecretKey>";       
-// endpoint以华北-北京为例，其它region请按实际情况填写  
+// Take cn-north-1 as an example for endpoint, and fill in according to actual situation for other regions  
 String endPoint = "oss.cn-north-1.jcloudcs.com";  
 File file = new File("<localFile>");   
 String bucketName = "<yourBucketName>";  
 String objectName = "<yourObjectName>";   
-//ClientConfig当前为默认配置，用户可根据需要自行配置，如设置连接超时时间等  
+//The configuration of ClientConfig is currently by default. If the user needs some other configurations, he/she may configure them by himself/herself, such as setting the time of connection time-out.  
 ClientConfig config = new ClientConfig();  
   
-//构造JingdongStorageService实例  
+//Build JingdongStorageService instance  
 Credential credential = new Credential(accessKey, secreteKey);  
 JingdongStorageService jss = new JingdongStorageService(credential,config); 
-//配置endPoint  
+//Configure endPoint  
 jss.setEndpoint(endPoint);    
   
-//创建objectService实例  
+//Create objectService instance  
 ObjectService objectService = jss.bucket(bucketName).object(objectName);  
-//使用低冗余存储，则使用该句代码  
+//If low redundancy storage is used, then use this code  
 //objectService.getBuilder().getHeaders().put(JssHeaders.X_JSS_STORAGE_CLASS, StorageClass.ReducedRedundancy.toString());  
   
-//获取输入流  
+//Obtain input streaming  
 InputStream inputStream = new FileInputStream(file);  
-//获取流长度  
+//Obtain streaming length  
 long contentLength = file.length();  
-//设置上传文件Content-type为"text/html"。函数返回上传数据的Etag,目前Etag的值为上传数据的MD5  
+//Set the Content-type of the uploaded file as "text/html”. The function returns the Etag of the uploaded data, and the current value of Etad is MD5 of the uploaded data  
 String md5 = objectService.entity(contentLength,inputStream).contentType("text/html").put();  
-//若对上传文件进行加密，则使用该句代码  
+//If the uploaded file is to be encrypted, then use this code  
 //String md5 = objectService.entity(contentLength,inputStream).contentType("text/html").put(true);  
 System.out.println(md5);  
   
-//JingdongStorageService对象内部维护一组HTTP连接池，在不使用该对象之前需要调用其destroy方法关闭连接池，  
-//请注意，一旦调用destroy方法，该对象就不能再次被使用，否则将会抛出异常。  
+//A group of HTTP connection pool inside the JingdongStorageService object is under maintenance. Other destroy methods shall be called to close the connection pool before using the object,  
+//Please note that once the destroy method is called, the object cannot be used again, otherwise an exception will be thrown.  
 jss.destroy();
 ```
 
 ## Local File Upload
 ```
-//您的AccessKey和SecretKey可以登录到对象存储的控制台，在【Access Key 管理】中查看。  
+//You can log in to the console of Object Storage Service with AccessKey and SecretKey to view it in [AccessKey Management].  
 String accessKey =  "<yourAccessKeyId>";  
 String secreteKey = "<yourSecretKey>";       
-// endpoint以华北-北京为例，其它region请按实际情况填写  
+// Take cn-north-1 as an example for endpoint, and fill in according to actual situation for other regions  
 String endPoint = "s-bj.jcloud.com";  
 File file = new File("<localFile>");   
 String bucketName = "<yourBucketName>";  
 String objectName = "<yourObjectName>";    
-//ClientConfig当前为默认配置，用户可根据需要自行配置，如设置连接超时时间等  
+//The configuration of ClientConfig is currently by default. If the user needs some other configurations, he/she may configure them by himself/herself, such as setting the time of connection time-out.  
 ClientConfig config = new ClientConfig();   
 
-//构造JingdongStorageService实例  
+//Build JingdongStorageService instance  
 Credential credential = new Credential(accessKey, secreteKey);  
 JingdongStorageService jss = new JingdongStorageService(credential,config); 
-//配置endPoint  
+//Configure endPoint  
 jss.setEndpoint(endPoint);    
  
-//创建objectService实例  
+//Create objectService instance  
 ObjectService objectService = jss.bucket(bucketName).object(objectName);  
-//使用低冗余存储，则使用该句代码  
+//If low redundancy storage is used, then use this code  
 //objectService.getBuilder().getHeaders().put(JssHeaders.X_JSS_STORAGE_CLASS, StorageClass.ReducedRedundancy.toString());  
  
-//设置上传文件Content-type为"text/html"。函数返回上传数据的Etag,目前Etag的值为上传数据的MD5  
+//Set the Content-type of the uploaded file as "text/html”. The function returns the Etag of the uploaded data, and the current value of Etad is MD5 of the uploaded data  
 String md5 = objectService.entity(file).contentType("text/html").put();  
-//若对上传文件进行加密，则使用该句代码  
+//If the uploaded file is to be encrypted, then use this code  
 //String md5 = objectService.entity(file).contentType("text/html").put(true);  
 System.out.println(md5);  
  
-//JingdongStorageService对象内部维护一组HTTP连接池，在不使用该对象之前需要调用其destroy方法关闭连接池，  
-//请注意，一旦调用destroy方法，该对象就不能再次被使用，否则将会抛出异常。  
+//A group of HTTP connection pool inside the JingdongStorageService object is under maintenance. Other destroy methods shall be called to close the connection pool before using the object,  
+//Please note that once the destroy method is called, the object cannot be used again, otherwise an exception will be thrown.  
 jss.destroy();
 ```
