@@ -27,6 +27,6 @@
 |Initiate Multipart Uploade|Initiate MultipartUpload Event|
 |Upload Part|Upload File by Parts|
 |Complete Multipart Upload|Complete Multipart Upload of Entire File|
-|Abort Multipart UploadAbort Multipart Upload Event|
+|Abort Multipart Upload|Abort Multipart UploadAbort Multipart Upload Event|
 |List Multipart Uploads|List All Multipart Upload Events in Execution|
 |List Parts|List All Successfully Uploaded Parts under Assigned Upload ID|
