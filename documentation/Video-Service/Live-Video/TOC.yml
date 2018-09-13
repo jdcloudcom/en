@@ -63,19 +63,19 @@ items:
       href: Operation-Guide/Statistical-Analysis.md
 - name: Best Practices
   items:
-    - name: Use FMLE Tool for Pushing Streaming
-      href: Best-Practices/Use-FMLE-Tool-for-Pushing-Streaming.md
-    - name: Use Xsplit Tool for Pushing Streaming
-      href: Best-Practices/Use-Xsplit-Tool-for-Pushing-Streaming.md
-    - name: Use OBS Tool for Pushing Streaming
-      href: Best-Practices/Use-OBS-Tool-for-Pushing-Streaming.md
+    - name: Push with the FMLE tool
+      href: Best-Practices/Push-with-the-FMLE-tool.md
+    - name: Push with the OBS tool
+      href: Best-Practices/ Push-with-the-OBS-tool.md
+    - name: Push with the Xsplit tool
+      href: Best-Practices/Push-with-the-Xsplit-tool.md
 - name: Tutorial
   items:
   status: 0
 - name: Troubleshooting
   items:
-    - name: Push Streaming Connection Failure
-      href: Troubleshooting/Push-Streaming-Connection-Failure.md  
+    - name: Push connection failed
+      href: Troubleshooting/Push-connection-failed.md  
 - name: FAQ
   href: FAQ/FAQ.md
 - name: API Reference
