@@ -130,10 +130,14 @@
       - name: Compatible Public Header
         href:  API-Reference-S3-Compatible/Compatibility-Header.md      
       - name: Compatible Interface
-        href: API-Reference-S3-Compatible/Compatibility-API.md            
+        items:
+           - name: Compatible Interface Overview
+             href: API-Reference-S3-Compatible/Compatibility-API/Compatibility-API-overview.md
+           - name: Post Object
+             href: API-Reference-S3-Compatible/Compatibility-API/Post-Object.md                  
       - name: Expansion Interface
         items:
-           - name:  Compress Object
+           - name: Compress Object
              href: API-Reference-S3-Compatible/Extension-API/Compress-Object.md
            - name: ImgProtected
              href: API-Reference-S3-Compatible/Extension-API/ImgProtected.md
@@ -141,7 +145,7 @@
         items:
            - name: Overview
              href: API-Reference-S3-Compatible/Compatibility-Tools/Introduction.md
-           - name:  SDK-Python
+           - name: SDK-Python
              href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-Python.md
            - name: SDK-Python
              href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-Python.md
