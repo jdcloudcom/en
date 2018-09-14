@@ -10,5 +10,5 @@ Log in to the JD Cloud Monitoring Console, select Management -> Monitoring -> da
 2. Click on "Add View" in the top right corner. Select the Chart Type, Product Type, View Dimension, Monitoring Item (support adding multiple Monitoring Items), graph name, select monitoring resources, click on the “OK” button to complete the creation of the monitoring View.
 ![](https://raw.githubusercontent.com/jdcloudcom/cn/edit/image/Cloud-Monitor/zuijiashijian/%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B51.2.png)
 ### View dashboard Monitoring View
-Enter the Dashboard details page to view an overview of all monitoring graphs for the current panel configuration. Supports time screening, zooming, downloading, etc. for a single monitoring graph, allowing users to view monitoring data in a fine-grained manner.
+Enter the Dashboard details page to view an overview of all monitoring Views for the current panel configuration. Supports time screening, zooming, downloading, etc. for a single monitoring View, allowing users to view monitoring data in a fine-grained manner.
 ![](https://raw.githubusercontent.com/jdcloudcom/cn/zhangwenjie30-patch-4/image/Cloud-Monitor/dashboard/%E6%9F%A5%E7%9C%8B%E7%9B%91%E6%8E%A7%E5%9B%BE%E8%A1%A8.png)
