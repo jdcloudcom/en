@@ -6,10 +6,10 @@ For cloud disk price, refer to the following table, with specific price subject 
     <tbody>
         <tr class="firstRow">
             <td style="padding: 7px 10px; border: 1px solid rgb(221, 221, 221); vertical-align: top; white-space: pre-wrap;" class="confluenceTd" rowspan="3">
-                <span style="color: rgb(0, 0, 0); font-family: Microsoft YaHei, &quot;Microsoft YaHei&quot;; font-size: 14px;”>type</span>
+                <span style="color: rgb(0, 0, 0); font-family: Microsoft YaHei, &quot;Microsoft YaHei&quot;; font-size: 14px;">type</span>
             </td>
             <td style="padding: 7px 10px; border: 1px solid rgb(221, 221, 221); vertical-align: top; white-space: pre-wrap;" class="confluenceTd" rowspan="3">
-                <span style="color: rgb(0, 0, 0); font-family: Microsoft YaHei, &quot;Microsoft YaHei&quot;; font-size: 14px;”>capacity</span>
+                <span style="color: rgb(0, 0, 0); font-family: Microsoft YaHei, &quot;Microsoft YaHei&quot;; font-size: 14px;">capacity</span>
             </td>
             <td style="padding: 7px 10px; border: 1px solid rgb(221, 221, 221); vertical-align: top; white-space: pre-wrap;" class="confluenceTd" colspan="6">
                 <span style="color: rgb(0, 0, 0); font-family: Microsoft YaHei, &quot;Microsoft YaHei&quot;; font-size: 14px;">monthly package(RMB)</span>
@@ -20,10 +20,10 @@ For cloud disk price, refer to the following table, with specific price subject 
         </tr>
         <tr>
             <td style="padding: 7px 10px; border: 1px solid rgb(221, 221, 221); vertical-align: top; white-space: pre-wrap;" class="confluenceTd" colspan="3">
-                <span style="color: rgb(0, 0, 0); font-family: Microsoft YaHei, &quot;Microsoft YaHei&quot;; font-size: 14px;”>1 month</span>
+                <span style="color: rgb(0, 0, 0); font-family: Microsoft YaHei, &quot;Microsoft YaHei&quot;; font-size: 14px;">1 month</span>
             </td>
             <td style="padding: 7px 10px; border: 1px solid rgb(221, 221, 221); vertical-align: top; white-space: pre-wrap;" class="confluenceTd" colspan="3">
-                <span style="color: rgb(0, 0, 0); font-family: Microsoft YaHei, &quot;Microsoft YaHei&quot;; font-size: 14px;”>1 year</span>
+                <span style="color: rgb(0, 0, 0); font-family: Microsoft YaHei, &quot;Microsoft YaHei&quot;; font-size: 14px;">1 year</span>
             </td>
         </tr>
         <tr>
@@ -57,10 +57,10 @@ For cloud disk price, refer to the following table, with specific price subject 
         </tr>
         <tr>
             <td style="padding: 7px 10px; border: 1px solid rgb(221, 221, 221); vertical-align: top; white-space: pre-wrap;" class="confluenceTd">
-                <span style="color: rgb(0, 0, 0); font-family: Microsoft YaHei, &quot;Microsoft YaHei&quot;; font-size: 14px;”>SSD cloud disk</span>
+                <span style="color: rgb(0, 0, 0); font-family: Microsoft YaHei, &quot;Microsoft YaHei&quot;; font-size: 14px;">SSD cloud disk</span>
             </td>
             <td style="padding: 7px 10px; border: 1px solid rgb(221, 221, 221); vertical-align: top; white-space: pre-wrap;" class="confluenceTd" rowspan="2">
-                <span style="color: rgb(0, 0, 0); font-family: Microsoft YaHei, &quot;Microsoft YaHei&quot;; font-size: 14px;”>every 10GB</span>
+                <span style="color: rgb(0, 0, 0); font-family: Microsoft YaHei, &quot;Microsoft YaHei&quot;; font-size: 14px;">every 10GB</span>
             </td>
             <td style="padding: 7px 10px; border: 1px solid rgb(221, 221, 221); vertical-align: top; white-space: pre-wrap;" class="confluenceTd">
                 <span style="color: rgb(0, 0, 0); font-family: Microsoft YaHei, &quot;Microsoft YaHei&quot;; font-size: 14px;">10</span>

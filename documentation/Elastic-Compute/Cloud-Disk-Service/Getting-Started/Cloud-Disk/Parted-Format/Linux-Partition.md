@@ -8,7 +8,7 @@
 In Linux system, you can use the script provided by JD Cloud to detect whether there is any data disk that has not yet been partitioned and then to automatically format and attach the data disk so as to spare you of entering complex commands and going through procedures.
 
 <p>
-<img src="http://cms.jcloud.com/ueditor/dialogs/attachment/fileTypeImages/icon_rar.gif"/><a title=”attach script.zip" href="http://img1.jcloudcs.com/cms/6bbc4a45-02ce-460d-9696-c31f3fa18c6f20170728174252.zip" target="_self"><span style="color: rgb(0, 0, 0); font-family: Microsoft YaHei, &quot;Microsoft YaHei&quot;; font-size: 14px;">attach script.zip</span></a>
+<img src="http://cms.jcloud.com/ueditor/dialogs/attachment/fileTypeImages/icon_rar.gif"/><a title="attach script.zip" href="http://img1.jcloudcs.com/cms/6bbc4a45-02ce-460d-9696-c31f3fa18c6f20170728174252.zip" target="_self"><span style="color: rgb(0, 0, 0); font-family: Microsoft YaHei, &quot;Microsoft YaHei&quot;; font-size: 14px;">attach script.zip</span></a>
 </p>
 <br>
 You can use this script in the following two manners:

@@ -86,7 +86,7 @@ If yours is WanNet on a windows machine, you should use the DNS alias resolution
 
 ASP：
 
-Response.Status=”301 MovedPermanently”
+Response.Status="301 MovedPermanently”
 
 Response.AddHeader”Location”,”http://www.jdcloud.com/”
 

@@ -134,7 +134,7 @@ String endpoint = "oss.cn-north-1.jcloudcs.com";
 String accessKey = "<your accessKey>";  
 String secretKey = "<your secretKey>";  
 String bucketName = "<your bucketName>";  
-String key = “<you objectKey>”;  
+String key ="<you objectKey>”;  
        
 // Create JingdongStorageService instance  
 Credential credential = new Credential(accessKey, secreteKey);  

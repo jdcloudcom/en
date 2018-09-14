@@ -1,4 +1,4 @@
-# Service Level Agreement (SLA) of Network Load Balancer Service
+# Service Level Agreement (SLA) of Load Balancing Service
 
 ## 1. Service Scope ##
 
@@ -7,7 +7,7 @@ The load balancer provided by JD Cloud is a load balancing service that distribu
 ## 2. Service Level Indicator ##
 **2.1 Service Functions**
 
-Load balancer has advanced functions such as self-service management, automatic fault recovery and anti-network attacks. It is suitable for community websites, enterprise official websites, portals, E-commerce websites, SAAS applications and gaming applications. For details on all the specific functions of the load balancing service, please refer to the detailed description document, technical document and helping document provided by JD Cloud on the official website. All the functional changes of load balancer that may affect users will be announced to the users.
+Load balancer has advanced functions such as self-service management, automatic fault recovery and anti-network attacks. It is suitable for community websites, enterprise official websites, portals, E-commerce websites, SAAS applications and game applications. For details on all the specific functions of the load balancing service, please refer to the detailed description document, technical document and helping document provided by JD Cloud on the official website. All the functional changes of load balancer that may affect users will be announced to the users.
 
 **2.2 Service Availability**
 
@@ -103,7 +103,7 @@ JD Cloud provides 7×24 hours of operation maintenance for the load balancer ins
 
 **2.5 Network Access Performance**
 
-When an user turns on the JD Cloud load balancing service, the user can select the public network exit bandwidth required for each load balancer instance or adopt the method of billing by traffic; the public network exit bandwidth can be configured from 1Mbps to 100Mbps. JD Cloud provides BGP multi-line access to ensure the quality of network access for users.
+When an user turns on the JD cloud load balancing service, the user can select the public network exit bandwidth required for each load balancer instance or adopt the method of billing by traffic; the public network exit bandwidth can be configured from 1Mbps to 100Mbps. JD Cloud provides BGP multi-line access to ensure the quality of network access for users.
 
 **2.6 Service Metering Accuracy**
 
@@ -117,7 +117,7 @@ The principle of “100 times compensation for faults” is implemented for JD C
 
 In the event of failure of normal use of load balancer due to JD Cloud fault, or failure of normal website access due to JD Cloud fault, JD Cloud will compensate for the unavailability time, excluding the service unavailability time caused by the following reasons:
 
-1) Caused by the system maintenance that JD Cloud has notified the users in advance, including migration, maintenance, upgrade and simulation fault drill;
+1) Caused by the system maintenance that JD Cloud have notified the users in advance, including cutover, maintenance, upgrade and simulation fault drill;
 
 2) Unavailability situations such as packet loss and latency caused by operator fault;
 
@@ -152,4 +152,5 @@ The total compensation amount shall not exceed the total amount of current servi
 Compensation for load balancer is only provided for the load balancer itself other than the virtual machine under the load balancer.
 
 ## 3. Miscellaneous ##
-JD Cloud has the right to make adjustments to partial service indicators of the Service Level Agreement according to changes, and promptly publish announcements on JD Cloud official website of www.jdcloud.com, or send emails or written notices to notify users of the modified contents.
+
+JD Cloud has the right to make adjustments to partial service indicators of the Service Level Agreement according to changes, and promptly publish announcements on JD Cloud official website (www.jdcloud.com), or send Emails or written notices to notify users of the modified contents.
