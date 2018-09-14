@@ -35,7 +35,7 @@
 			{
 				"funcName":"",
 				"funcTitle":"Supports data access in three ways, i.e. static data, relational data, and APIs",
-				"funcP":"Support Jason format static data, RDS Cloud Database, local relational database, JD Cloud data computing service and online API. Meet your needs of real-time computing and monitoring of all kinds of big data, to give full play to the computing power of big data."
+				"funcP":"Support Json format static data, RDS Cloud Database, local relational database, JD Cloud data computing service and online API. Meet your needs of real-time computing and monitoring of all kinds of big data, to give full play to the computing power of big data."
 			}
 		]
 	}
