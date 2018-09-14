@@ -3,7 +3,7 @@ PostObject uses the HTML form to upload files to the assigned bucket.
 
 Use HTTP POST to directly transfer files to the Bucket of object storage service based on the browser, which can reduce delay. The message entity of Post Object is encoded through a multiple form format (multipart/form-data); parameters in the Put Object
 actions are transmitted by HTTP request header and parameters in the Post actions are transmitted as a form field in the message entity. This interface is compatible with S3, only support the compatible S3 service domain name of OSS (<bucket>.s3.<region>.jcloudcs.com)
-, [Refer to server domain name](https://www.jdcloud.com/help/detail/1902/isCatalog/1).
+, [Refer to server domain name](../../API-Reference-S3-Compatible/Regions-And-Endpoints.md).
 
 Request Grammar
 ```

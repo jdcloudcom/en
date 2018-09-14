@@ -1,4 +1,4 @@
-# Cross-region replication settings
+# Cross-region replication setting
 
 Bucket Cross-Region Replication is a cross-region Bucket automatic and asynchronous replication of Object, which synchronizes changes (excluding deletion actions) to objects in the source Bucket to the target Bucket. The Bucket cross-region replication function can well meet the requirements of user data replication or provide the demands for Bucket cross-region disaster tolerance. The objects in the target Bucket are exact backup copies of the objects in the source Bucket, which have the same object names, metadata and contents.
 

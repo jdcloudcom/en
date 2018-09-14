@@ -3,6 +3,7 @@
 The following table includes Common Response Headers (HTTP Headers) returned by JD Cloud Storage API, these response headers can be used by all requests, the definitions are as follows:
 
 |Name|Description|
+---|---
 |Content-Length|HTTP request content length defined in RFC2616 <br>Type: Character string<br>Default value: None<br>Customer Scenario: Request required to submit data to oss|
 |Connection|Indicate link status between the client and the oss server <br>Type: Enumerated effective value: open, close<br>Default value: None|
 |Date|GMT time stamp that the cloud storage server responds to this request, for example: Mon, 23 Feb 2013 03:14:57 GMT <br>Type: Time<br>Default value: None|

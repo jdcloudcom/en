@@ -23,8 +23,8 @@ sudo make install
 ```
 **3. Create password file**
 ```
-echo key:sercert > /home/passwd-s3fs
-chmod 600 /home/passwd-s3fs
+echo key:sercert > ~/.passwd-s3fs
+chmod 600 ~/.passwd-s3fs
 ```
 Description
 
@@ -35,13 +35,13 @@ chmod 600: Only the current user can access the key file setting.
 **4. Mount object storage service to local catalog/new**
 ```
 mkdir /new
-s3fs bucketname /new -o passwd_file=/home/passwd-s3fs -o url="http://s3.cn-north-1.jcloudcs.com"
+s3fs bucketname /new -o passwd_file=~/.passwd-s3fs -o url="http://s3.cn-north-1.jcloudcs.com"
 ```
 Description
 
 mkdir: Create a new folder as the local mounting catalog.
 
-s3fs: Manually mount commands, in which the bucketname is the bucket name, /new is the local mounting path, passwd_file is the password file location, and url is the S3 domain name compatible to JD Cloud object storage service (please input service domain name where the bucket is located)
+s3fs: Manually mount commands, in which the bucketname is the bucket name, /new is the local mounting path, passwd_file is the password file location, and url is the S3 domain name compatible to [JD Cloud object storage service](../API-Reference-S3-Compatible/Regions-And-Endpoints.md) (please input service domain name where the bucket is located)
 
 **5. View mounting results**
 ```

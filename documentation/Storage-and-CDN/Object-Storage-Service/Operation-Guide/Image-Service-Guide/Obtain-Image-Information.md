@@ -26,4 +26,4 @@ http://oss.cn-north-1.jcloudcs.com/downloads/example.jpg?x-oss-process=imgexif
 
 Returned results:
 
-{"FileType":"JPEG","FileSize":"38539","ImageWidth":"350","ImageHeight":"236","Make":"Canon","Model":"Canon EOS 1100D","Software":"www.meitu.com","ExposureTime":"1/200","ExifOffset":"118","ExposureTime":"1/200","FNumber":"5/1","ISOSpeedRatings":"160, 0","DateTimeOriginal":"2013:05:17 16:21:36","Flash":"16, 0","FocalLength":"140/1","LensModel":"EF75-300mm f/4-5.6"}
+{"FileType":"JPEG","FileSize":"38539","ImageWidth":"350","ImageHeight":"236","Make":"Canon","Model":"Canon EOS 1100D","Software":"www.meitu.com", "ExposureTime":"1/200","ExifOffset":"118","ExposureTime":"1/200","FNumber":"5/1","ISOSpeedRatings":"160, 0","DateTimeOriginal":"2013:05:17 16:21:36","Flash":"16, 0","FocalLength":"140/1","LensModel":"EF75-300mm f/4-5.6"}

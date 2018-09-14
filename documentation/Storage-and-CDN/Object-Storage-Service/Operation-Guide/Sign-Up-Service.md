@@ -1,4 +1,4 @@
-# Signing up service
+# Sign up service
 
 Functions provided by the object storage service can be used only when the JD Cloud Object Storage Service is signed up. Procedures for signing up on are as below:
 

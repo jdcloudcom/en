@@ -1,7 +1,7 @@
-# Form Upload
+# Post object
 ## Application scenarios
 
- Form upload refers to the user using the Post Object request in the OSS API to complete the file upload. It is very suitable to be embedded in the HTML web page to upload files. The more common application scenario is the website application. Take the social network site as an example:
+ Post object refers to the user using the Post Object request in the OSS API to complete the file upload. It is very suitable to be embedded in the HTML web page to upload files. The more common application scenario is the website application. Take the social network site as an example:
 
 
 
@@ -11,12 +11,12 @@
             <td valign="top" style="border:solid #DDDDDD 1px;background:#F0F0F0;padding:7px 15px 7px 10px"></td>
             <td valign="top" style="border:solid #DDDDDD 1px;border-left:none;background:#F0F0F0;padding:7px 15px 7px 10px">
                 <p>
-                    <strong><span style="font-family:宋体;color:black">Non-form Upload</span></strong>
+                    <strong><span style="font-family:宋体;color:black">Non-Post object</span></strong>
                 </p>
             </td>
             <td valign="top" style="border:solid #DDDDDD 1px;border-left:none;background:#F0F0F0;padding:7px 15px 7px 10px">
                 <p>
-                    <strong><span style="font-family:宋体;color:black">Form Upload</span></strong>
+                    <strong><span style="font-family:宋体;color:black">Post object</span></strong>
                 </p>
             </td>
         </tr>
@@ -56,7 +56,7 @@
 
  
 
-Benefits of Using Form Upload
+Benefits of Using Post object
 
 + From the perspective of process, the forwarding step is omitted, which can reduce the latency of uploading to OSS.
 
@@ -64,7 +64,7 @@ Benefits of Using Form Upload
 
 Upload Limit
 
-1. Size Limit: When using the form upload, Object cannot exceed 5GB.
+1. Size Limit: When using the Post object, object cannot exceed 5GB.
 
    Form data and boundaries (excluding the file content) must not exceed 20 KB.
 2. Naming Limit
@@ -81,7 +81,7 @@ Security and Authorization
 
 In order to prevent a third party from uploading Objects to the developer's bucket without authorization, in addition to OSS providing access permission control at the Bucket level, you can also conduct flexible permission access configuration at the file and directory levels. For details, see Access Permission Settings.
 
-To authorize upload to a third party, you can use the PostPolicy method; see PostObject for details.
+To authorize upload to a third party, you can use the PostPolicy method; see [PostObject](../../API-Reference-S3-Compatible/Compatibility-API/Post-Object.md) for details.
 
  
 
@@ -110,5 +110,5 @@ The Policy form field of the Post request is used to verify the validity of the 
 
 Function Usage Reference
 
-API：PostObject
+API：[PostObject](../../API-Reference-S3-Compatible/Compatibility-API/Post-Object.md)
 

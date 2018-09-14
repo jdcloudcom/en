@@ -1,4 +1,4 @@
-# Delete objects
+# Delete object
 
 You can at any time delete objects you do not need in bucket to avoid costs of bucket capacity according to the below action process:
 
