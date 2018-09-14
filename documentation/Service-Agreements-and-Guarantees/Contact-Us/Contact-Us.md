@@ -4,14 +4,14 @@ JD Cloud (JDCloud.com) is the cloud computing integrated service provider of JD 
 <br />
 1. 400 Service Phone Number<br />
 tel: 400 615 1212<br />
-Service time: 24/7 support<br /><br />
+Service time: 7*24 support<br /><br />
 2.[Work Order](https://ticket.jdcloud.com/myorder/submit)<br />
-Service time: 24/7 support<br /><br />
+Service time: 7*24 support<br /><br />
 3. Intelligent Customer Service JIMI<br />
-Service time: 24/7 support<br /><br />
+Service time: 7*24 support<br /><br />
 4. Email<br />
 mail:jdcloud@jd.com<br />
-Service time: 24/7 support<br /><br />
+Service time: 7*24 support<br /><br />
 5. JD Cloud WeChat Service Account<br />
 wechat: JD Cloud<br />
-Service time: 24/7 support
+Service time: 7*24 support
