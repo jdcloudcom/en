@@ -1,4 +1,7 @@
-<p><span style="color:#1F497D"><br/></span></p><p>代码：</p><pre class="brush:xml;toolbar:false">&lt;policymap&gt;
+<p><span style="color:#1F497D"><br/></span>
+</p>
+<p>代码：</p>
+<pre class="brush:xml;toolbar:false">&lt;policymap&gt;
 &nbsp;&nbsp;&lt;policy&nbsp;domain=&quot;coder&quot;&nbsp;rights=&quot;none&quot;&nbsp;pattern=&quot;PS&quot;&nbsp;/&gt;
 &nbsp;&nbsp;&lt;policy&nbsp;domain=&quot;coder&quot;&nbsp;rights=&quot;none&quot;&nbsp;pattern=&quot;EPS&quot;&nbsp;/&gt;
 &nbsp;&nbsp;&lt;policy&nbsp;domain=&quot;coder&quot;&nbsp;rights=&quot;none&quot;&nbsp;pattern=&quot;PDF&quot;&nbsp;/&gt;
