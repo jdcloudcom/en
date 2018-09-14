@@ -1,4 +1,4 @@
-## Product Function
+## Features
 ### Dashboard
 Provides the function of User Customized Metric Monitoring Data Display. Users can focus on the core service monitoring indicators in a dashboard to meet the scenarios of large-scale screen display, batch instance summary display, troubleshooting, and data comparison analysis.
 ## Resource Monitoring
