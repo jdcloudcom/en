@@ -660,5 +660,14 @@
 		"id":"111",
 		"button_title":"查看详情",
 		"main_title":"京东云产业链生态赋能"
+	},
+	{
+		"sub_title":"全托管的私有镜像仓库，一站式部署服务，一折促销中",
+		"image_Url":"//img1.jcloudcs.com/cms/05502018-8106-4b8d-bb05-55a18c50da6320180915180235.png",
+		"dynamic_image":"//img1.jcloudcs.com/cms/c3be633c-40a3-4a3b-b4a3-99dd27a6a27620180915180241.png",
+		"name":"容器镜像仓库开放公测",
+		"id":"623",
+		"button_title":"查看详情",
+		"main_title":"容器镜像仓库开放公测"
 	}
 ]
