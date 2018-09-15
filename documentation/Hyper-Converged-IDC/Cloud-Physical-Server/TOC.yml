@@ -50,45 +50,45 @@
       - name: Network and Security
         items:
           - name:  Function Description
-            href: Operation-Guide/Network-And-Security/Description.md
+            href: Operation-Guide/Network-And-Security/Description-Network-And-Security.md
           - name: Action Steps
-            href: Operation-Guide/Network-And-Security/Steps.md
+            href: Operation-Guide/Network-And-Security/Steps-Network-And-Security.md
       - name: Image Use Instructions
         items:
           - name:  Function Description
-            href: Operation-Guide/Image/Description.md
+            href: Operation-Guide/Image/Description-Image.md
           - name: Action Steps
-            href: Operation-Guide/Image/Steps.md
+            href: Operation-Guide/Image/Steps-Image.md
       - name: Set RAID Level
         items:
           - name:  Function Description
-            href: Operation-Guide/Set-RAID-Level/Description.md      
+            href: Operation-Guide/Set-RAID-Level/Description-Set-RAID-Level.md      
           - name: Action Steps
-            href: Operation-Guide/Set-RAID-Level/Steps.md
+            href: Operation-Guide/Set-RAID-Level/Steps-Set-RAID-Level.md
       - name: Remote Login
         items:
           - name:  Function Description
-            href: Operation-Guide/Remote-Login/Description.md
+            href: Operation-Guide/Remote-Login/Description-Remote-Login.md
           - name: Action Steps
-            href: Operation-Guide/Remote-Login/Steps.md
+            href: Operation-Guide/Remote-Login/Steps-Remote-Login.md
       - name: Life Cycle Management of Cloud Physical Server
         items:
           - name:  Function Description
-            href: Operation-Guide/Cloud-Physical-Server-Life-Cycle-Management/Description.md
+            href: Operation-Guide/Cloud-Physical-Server-Life-Cycle-Management/Description-Cloud-Physical-Server-Life-Cycle-Management.md
           - name: Action Steps
-            href: Operation-Guide/Cloud-Physical-Server-Life-Cycle-Management/Steps.md
+            href: Operation-Guide/Cloud-Physical-Server-Life-Cycle-Management/Steps-Cloud-Physical-Server-Life-Cycle-Management.md
       - name: Reinstall Operating System
         items:
           - name:  Function Description
-            href: Operation-Guide/Reinstall/Description.md
+            href: Operation-Guide/Reinstall/Description-Reinstall.md
           - name: Action Steps
-            href: Operation-Guide/Reinstall/Steps.md
+            href: Operation-Guide/Reinstall/Steps-Reinstall.md
       - name: Adjust Public Network Bandwidth
         items:
           - name:  Function Description
-            href: Operation-Guide/Adjust-Public-Network-Bandwidth/Description.md
+            href: Operation-Guide/Adjust-Public-Network-Bandwidth/Description-Adjust-Public-Network-Bandwidth.md
           - name: Action Steps
-            href: Operation-Guide/Adjust-Public-Network-Bandwidth/Steps.md
+            href: Operation-Guide/Adjust-Public-Network-Bandwidth/Steps-Adjust-Public-Network-Bandwidth.md
   - name: Best Practice
     items:
     - name: Create and Configure Cloud Physical Server
