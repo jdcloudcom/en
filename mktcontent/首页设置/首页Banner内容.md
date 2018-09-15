@@ -621,5 +621,44 @@
 		"id":"106",
 		"button_title":"Details",
 		"main_title":"MariaDB Service"
+	},
+	{
+		"sub_title":" Provide T3+ Quality Machine Room, Power of High Reliability and Network Security Hosting Services",
+		"image_Url":"//img1.jcloudcs.com/cms/4ebeffae-a1b0-40f6-b54f-01576a83db2720180830190526.png",
+		"dynamic_image":"//img1.jcloudcs.com/cms/cdd9c18a-d258-4814-b03c-9d08240281d220180830190530.png",
+		"name":" Open Beta Test for Cloud Cabinet Service",
+		"id":"107",
+		"button_title":"Details",
+		"main_title":" Open Beta Test for Cloud Cabinet Service"
+	},
+	{
+		"sub_title":" WAF Exclusive to High-Performance Resources Provides Security Compliance Protection for VPC Border and Internal Web",
+		"image_Url":"//img1.jcloudcs.com/cms/52d0f88c-9469-4813-a56b-fdf44ef6ed6720180830191256.png",
+		"dynamic_image":"//img1.jcloudcs.com/cms/adb81821-34a8-4187-a9cb-0bcf67839b0520180830191301.png",
+		"name":" Launch of Application Security Gateway",
+		"id":"108",
+		"button_title":"Details",
+		"main_title":" Launch of Application Security Gateway"
+	},
+	{
+		"dynamic_image":"//img1.jcloudcs.com/cms/b2446640-69c6-42eb-b66c-8dde8e9d237020180831153207.png",
+		"name":" Partners of JD Cloud Conference in 2018",
+		"id":"109",
+		"backgroud_image":"//img1.jcloudcs.com/cms/15a13e84-3647-43e2-89cc-f6b6eef704ac20180831153212.jpg"
+	},
+	{
+		"image_Url":"//img1.jcloudcs.com/cms/59dc6c66-5bbc-4638-9c24-febafd3c111b20180831162003.png",
+		"name":" Partners of JD Cloud Conference in 2018",
+		"id":"110",
+		"backgroud_image":"//img1.jcloudcs.com/cms/514a40a6-c993-46cd-81fb-82514cb4a12720180831162024.jpg"
+	},
+	{
+		"sub_title":" Industrial Cloud Type Digital Transformation, Cloud Industry and New Economic Agglomeration",
+		"image_Url":"//img1.jcloudcs.com/cms/982bf1de-1010-4477-8569-061d64b2daa920180910183303.png",
+		"dynamic_image":"//img1.jcloudcs.com/cms/d416c5a9-c10a-4917-9fcf-090c6ea95da620180910183310.png",
+		"name":" Biologic Empowerment of JD Cloud",
+		"id":"111",
+		"button_title":"Details",
+		"main_title":" Biologic empowerment of JD Cloud industrial chain"
 	}
 ]
