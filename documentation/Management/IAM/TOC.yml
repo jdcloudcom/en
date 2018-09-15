@@ -4,7 +4,7 @@
   - name: Overview
     items:
       - name: Overview
-        href: Overview.md
+        href: Product-Overview.md
   - name: Identity Management
     items:
       - name: Sub-user
@@ -20,7 +20,7 @@
   - name: Virtual MFA Equipment
     items:
       - name: Overview
-        href: Virtual-MFA-Management/Overview.md
+        href: Virtual-MFA-Management/MFA-Overview.md
       - name: MFA Setting
         href: Virtual-MFA-Management/MFA-Settings.md
       - name: Login Verification
