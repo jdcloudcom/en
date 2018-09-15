@@ -36,7 +36,7 @@
       - name: Getting Started Overview
         href: Getting-Started/Getting-Started.md
       - name: Create Cloud Physical Server
-        href: Getting-Started/Create-Create-Cloud-Physical-Server.md
+        href: Getting-Started/Create-Cloud-Physical-Server.md
       - name: Configure Cloud Physical Server
         href: Getting-Started/Allocate-Cloud-Physical-Server.md
       - name: View Cloud Physical Server
