@@ -126,7 +126,7 @@
       - name: Regions And Endpoints
         href: API-Reference-S3-Compatible/Regions-And-Endpoints.md
       - name: Compatible Signature Verification
-        href: API-Reference-S3-Compatible/User-Signature-Authentication.md  
+        href: API-Reference-S3-Compatible/User-Signature-Authentication-s3.md  
       - name: Compatible Public Header
         href:  API-Reference-S3-Compatible/Compatibility-Header.md      
       - name: Compatible Interface
