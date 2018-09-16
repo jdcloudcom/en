@@ -50,7 +50,7 @@
 		"dynamic_image":"//img1.jcloudcs.com/cms/42646faf-e6c0-484f-ae71-978e4670cda820170315183105.png",
 		"name":"JD ENTERPRISE PURCHase",
 		"id":"19",
-		"button_title":"Details",
+		"button_title":"More",
 		"main_title":"Enterprise Procurement Festival"
 	},
 	{
@@ -111,7 +111,7 @@
 		"dynamic_image":"//img1.jcloudcs.com/cms/93dd0edb-1126-4f1e-b1be-b59ff781775420170601165735.png",
 		"name":".top domain name promotion",
 		"id":"28",
-		"button_title":"Details",
+		"button_title":"More",
 		"main_title":"Cooperate with TOP Registration Authority for Preempting”Peaked”Domain Name” with ¥7"
 	},
 	{
@@ -126,7 +126,7 @@
 		"dynamic_image":"//img1.jcloudcs.com/cms/5e53c4d1-032e-418e-a84b-8d9539e1bf9a20180416100833.png",
 		"name":"Cloud Database SQL Server published officially",
 		"id":"32",
-		"button_title":"Details",
+		"button_title":"More",
 		"main_title":"Cloud database SQL Server published officially",
 		"backgroud_image":"//img1.jcloudcs.com/cms/abde51f8-4017-4a13-b16c-a6cfdccb38da20171107182143.png"
 	},
@@ -136,7 +136,7 @@
 		"dynamic_image":"//img1.jcloudcs.com/cms/80ed0236-3d48-4500-a2c5-1c9a4fc2b59a20170714020440.png",
 		"name":"sky VM",
 		"id":"33",
-		"button_title":"Details",
+		"button_title":"More",
 		"main_title":"Next Skylake virtual machine"
 	},
 	{
@@ -262,7 +262,7 @@
 		"dynamic_image":"//img1.jcloudcs.com/cms/2b57c800-62bc-42bd-a7a4-1beedfde5e4920180102160901.png",
 		"name":"JD Cloud Matrix Business",
 		"id":"61",
-		"button_title":"Learn Details",
+		"button_title":"Learn More",
 		"main_title":"JD Cloud Matrix Business",
 		"backgroud_image":"//img1.jcloudcs.com/cms/f2278bca-2b64-40f9-ad63-8d2e9b7ef70f20180102144630.png"
 	},
@@ -311,7 +311,7 @@
 		"dynamic_image":"//img1.jcloudcs.com/cms/4a509718-fe0f-4cc1-aca4-4662793f497620180208103113.png",
 		"name":"OSS 2.0 upgrade",
 		"id":"66",
-		"button_title":"Learn Details",
+		"button_title":"Learn More",
 		"main_title":"Highlight release of object Storage Service 2.0",
 		"backgroud_image":"//img1.jcloudcs.com/cms/b0761253-4bc2-4b44-ab3f-21cccad924de20180208103120.png"
 	},
@@ -350,7 +350,7 @@
 		"dynamic_image":"//img1.jcloudcs.com/cms/85b7563d-110f-45cb-ae1e-04bbf4e70f7020180328112031.png",
 		"name":"Advanced Anti-DDoS",
 		"id":"70",
-		"button_title":"Learn Details",
+		"button_title":"Learn More",
 		"main_title":"Advanced Anti-DDoS V2.0 release",
 		"backgroud_image":"//img1.jcloudcs.com/cms/4dd2b489-1dea-4f8d-9afa-ee7883d26c0020180328112035.png"
 	},
@@ -360,7 +360,7 @@
 		"dynamic_image":"//img1.jcloudcs.com/cms/51414841-36e3-4966-93ca-60d9de59e59c20180410095754.png",
 		"name":"Cloud Database Official version of Cloud Database MongoDB published",
 		"id":"74",
-		"button_title":"Details",
+		"button_title":"More",
 		"main_title":"Official version of cloud database MongoDB published"
 	},
 	{
@@ -384,7 +384,7 @@
 		"dynamic_image":"//img1.jcloudcs.com/cms/9176b156-07a3-4cd1-9924-f367cb266e5220180420124359.png",
 		"name":"openApi",
 		"id":"77",
-		"button_title":"Learn Details",
+		"button_title":"Learn More",
 		"main_title":"OpenAPI is formally opened",
 		"backgroud_image":"//img1.jcloudcs.com/cms/02b233e2-b6b9-4680-ac11-89a3463699b420180419112656.jpg"
 	},
@@ -418,7 +418,7 @@
 		"dynamic_image":"//img1.jcloudcs.com/cms/89731e25-8c2c-4fad-8fcf-b23b2c52308a20180425190211.png",
 		"name":"JD Cloud Matrix Insight",
 		"id":"81",
-		"button_title":"Learn Details",
+		"button_title":"Learn More",
 		"main_title":"JD Cloud Matrix Insight"
 	},
 	{
@@ -436,7 +436,7 @@
 		"dynamic_image":"//img1.jcloudcs.com/cms/00ef8cd0-bece-4a18-b00a-02389878436720180510171008.png",
 		"name":"MongoDB renewal",
 		"id":"83",
-		"button_title":"Details",
+		"button_title":"More",
 		"main_title":"Cloud database MongoDB official version"
 	},
 	{
@@ -532,7 +532,7 @@
 		"dynamic_image":"//img1.jcloudcs.com/cms/1119fa6b-42a2-4015-9874-1f8b2dab945620180622182508.png",
 		"name":"Web application firewall published",
 		"id":"96",
-		"button_title":"Learn Details",
+		"button_title":"Learn More",
 		"main_title":"Web application firewall published"
 	},
 	{
@@ -541,7 +541,7 @@
 		"dynamic_image":"//img1.jcloudcs.com/cms/413deccb-8e09-4534-a139-09c042d8891e20180625171551.png",
 		"name":"Cloud Database Cloud Database Percona open to the public",
 		"id":"97",
-		"button_title":"Details",
+		"button_title":"More",
 		"main_title":"Cloud database Percona service open to the public"
 	},
 	{
@@ -550,7 +550,7 @@
 		"dynamic_image":"//img1.jcloudcs.com/cms/330897ae-2b70-415d-8f70-13ffb48657b020180702113606.png",
 		"name":"Distributed Database Tidb Open Test",
 		"id":"98",
-		"button_title":"Details",
+		"button_title":"More",
 		"main_title":"Distributed database TiDB Service open test"
 	},
 	{
@@ -577,7 +577,7 @@
 		"dynamic_image":"//img1.jcloudcs.com/cms/860035b1-44b6-4985-8adc-86d3314cac8720180717161456.png",
 		"name":"JCQ open test",
 		"id":"101",
-		"button_title":"Details",
+		"button_title":"More",
 		"main_title":"Message queue JCQ open test"
 	},
 	{
@@ -586,7 +586,7 @@
 		"dynamic_image":"//img1.jcloudcs.com/cms/bf1b1c38-3503-47dd-baf0-6ae29542c4f320180719111858.png",
 		"name":"Kubernetes Service open cluster test",
 		"id":"102",
-		"button_title":"Details",
+		"button_title":"More",
 		"main_title":"Kubernetes Service open cluster test"
 	},
 	{
@@ -610,7 +610,7 @@
 		"dynamic_image":"//img1.jcloudcs.com/cms/e35e61dd-f467-48c8-b8ed-bc21a91bc09c20180809112857.png",
 		"name":"LB Product Up-Gradation and Revision",
 		"id":"105",
-		"button_title":"Details",
+		"button_title":"More",
 		"main_title":"LB product upgrade and revision"
 	},
 	{
@@ -619,7 +619,7 @@
 		"dynamic_image":"//img1.jcloudcs.com/cms/61c871c1-7cb0-4700-a7e4-daf47e43375820180822140142.png",
 		"name":"Cloud Database MariaDB Service",
 		"id":"106",
-		"button_title":"Details",
+		"button_title":"More",
 		"main_title":"MariaDB Service"
 	},
 	{
@@ -628,7 +628,7 @@
 		"dynamic_image":"//img1.jcloudcs.com/cms/cdd9c18a-d258-4814-b03c-9d08240281d220180830190530.png",
 		"name":" Open Beta Test for Cloud Cabinet Service",
 		"id":"107",
-		"button_title":"Details",
+		"button_title":"More",
 		"main_title":" Open Beta Test for Cloud Cabinet Service"
 	},
 	{
@@ -637,7 +637,7 @@
 		"dynamic_image":"//img1.jcloudcs.com/cms/adb81821-34a8-4187-a9cb-0bcf67839b0520180830191301.png",
 		"name":" Launch of Application Security Gateway",
 		"id":"108",
-		"button_title":"Details",
+		"button_title":"More",
 		"main_title":" Launch of Application Security Gateway"
 	},
 	{
@@ -658,7 +658,7 @@
 		"dynamic_image":"//img1.jcloudcs.com/cms/d416c5a9-c10a-4917-9fcf-090c6ea95da620180910183310.png",
 		"name":" Biologic Empowerment of JD Cloud",
 		"id":"111",
-		"button_title":"Details",
+		"button_title":"More",
 		"main_title":" Biologic empowerment of JD Cloud industrial chain"
 	}
 ]
