@@ -13,7 +13,7 @@
         herf: Introduction/Benefits.md
       - name: Features
         herf: Introduction/Features.md
-        status：0
+        status: 0
       - name: Specifications
         herf: Introduction/Specifications.md
       - name: Restrictions
@@ -37,15 +37,13 @@
       - name: Purchase Process
         herf: Pricing/Purchase-Process.md
       - name: Renewal Process
-        herf: Pricing/Renewal-Process.md
-        
+        herf: Pricing/Renewal-Process.md      
   - name: Getting Started
     items:
       - name: Create Instance
         herf: Getting-Started/Create-RDS-Instance.md
       - name: Delete Instance
         herf: Getting-Started/Delete-RDS-Instance.md
-  
   - name: Operation Guide
     items:
       - name: Instance Management
@@ -68,14 +66,12 @@
               herf: Operation-Guide/Instance/Reboot-Instance/Reboot-Percona-Instance.md
             - name: Reboot SQL Server
               herf: Operation-Guide/Instance/Reboot-Instance/Reboot-Instance-SQLServer.md
-  
       - name: Read-only Instance Management
         items:
         - name: Create Read-only Instance
           herf: Operation-Guide/Read-only-Instance-Management/Create-Read-only Instance.md
         - name: Reboot Read-only Instance
-          herf: Operation-Guide/Read-only-Instance-Management/Alarm-Rules-Setting.md 
-  
+          herf: Operation-Guide/Read-only-Instance-Management/Alarm-Rules-Setting.md  
       - name: Account Management
         items:
           - name: Create Account
@@ -85,8 +81,7 @@
           - name: Reset Password
             herf: Operation-Guide/Account/Reset-Password.md
           - name: Delete Account
-            herf: Operation-Guide/Account/Delete-Account.md
-  
+            herf: Operation-Guide/Account/Delete-Account.md  
       - name: Database Management
         items:
           - name: Create Database
@@ -279,10 +274,10 @@
           
   - name: API reference
     herf:
-    status：0
+    status: 0
   - name: SDK reference
     herf:
-    status：0
+    status: 0
   - name: Related Resources
     items:
     - name: Document History
