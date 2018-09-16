@@ -1,0 +1,38 @@
+<p style="text-indent: 2em;">For Cloud users, it is a common solution to distribute business traffic and ensure quality and availability of services via Load Balancer. Generally, users usually deploy servers on the backend of Load Balancer that directly hosts access traffic, and therefore, Load Balancer products greatly determine the capabilities of external services. </p>
+<p style="text-indent: 2em;"><br/></p>
+<p style="text-align: center; text-indent: 0em;"><img src="//img1.jcloudcs.com/cms/4e6ef427-e90b-41a1-bf9e-d0fb9f1332e120180809104506.jpg" title="" alt="12.jpg"/></p>
+<p style="text-indent: 2em;"><br/></p>
+<p style="text-indent: 2em;">Recently, JD Cloud officially released a new version of the load balancer product. This iteration update mainly has been carried out from the two dimensions of function enhancement and structure adjustment, in order to achieve a significant improvement in features, stability, reliability and other aspects of the product. </p>
+<p style="text-indent: 2em;"><br/></p>
+<p style="text-indent: 2em;">Functionally, the Upgrade adds support for Availability Group and containers as service distribution objects, the configuration for idle timeout management, the display functions of health check results in backend service instance, and supports for HTTP request for header field capabilities, etc.<span style="color: rgb(51, 51, 51); font-family: -apple-system-font, BlinkMacSystemFont, &quot; Helvetica Neue&quot;, &quot;PingFang SC&quot;, &quot; Hiragino Sans GB&quot;, &quot; Microsoft YaHei UI&quot; &quot;Microsoft YaHei&quot; Arial, sans-serif; font-size: 15px; letter-spacing: 0.544 px; text-align: justify; background-color: rgb(255, 255, 255);"> </span></p>
+<p style="text-indent: 2em;"><span style="color: rgb(51, 51, 51); font-family: -apple-system-font, BlinkMacSystemFont, &quot;Helvetica Neue&quot;, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei UI&quot;, &quot;Microsoft YaHei&quot;, Arial, sans-serif; font-size: 15px; letter-spacing: 0.544px; text-align: justify; background-color: rgb(255, 255, 255);"><br/></span></p>
+<p style="text-indent: 2em;">In structure, the new version of load balancer divides the original monitoring rules into two modules: monitor and backend service, so that the structure is clear and the backend service may be reused. Monitors are used to define the rules for distinction of listening protocol type, ports and other client business requests; Backend service modules are used to define the protocol types and ports of the service side and are mounted with availability groups or virtual server groups. </p>
+<p style="text-indent: 2em;"><br/></p>
+<p style="text-indent: 2em;"><strong>Triple high-availability mechanism, raise the quota of service stability</strong></p>
+<p><br/></p>
+<p style="text-indent: 2em;">Based on JD Cloud’s powerful availability group service, the upgraded load balancer realizes the triple availability mechanism, and supports elastic expansion. </p>
+<p style="text-indent: 2em;"><br/></p>
+<section><p style="text-indent: 2em;">In terms of high availability of load balancer, JD Cloud load balancer adopts cluster deployment and provides active-active mode (providing 2 resource instances at least under a single availability zone). Traffic can be transferred to another load balancer service if one load balancer service fails while the business side has no perception. </p>
+<p style="text-indent: 2em;"><br/></p>
+<p style="text-indent: 2em;">For areas that support multiple Availability Zones, the Load Balancer can be created in different Availability Zones to avoid system failures due to failures in a single Availability Zone, which improves system reliability, and provides users with higher availability. </p>
+<p style="text-indent: 2em;"><br/></p>
+<p style="text-indent: 2em;">In the aspect of availability of backend servers, after bound with availability groups, the load balancer can dynamically adjust the number of servers according to traffic flow and equipment load to achieve reasonable allocation of resources and ensure the normal operation of business. Availability groups can distribute backend servers to different racks and different availability zones to avoid system failures caused due to the failure in a single rack or availability zone. </p>
+<p style="text-indent: 2em;"><br/></p>
+<p style="text-indent: 0em; text-align: center;"><img src="//img1.jcloudcs.com/cms/700b4418-ea63-4d01-b859-5db8f21ec2e520180809104813.jpg" title="" alt="fuzai2g.jpg"/></p>
+<p style="text-indent: 0em;"><br/></p>
+<p style="text-indent: 2em;"><strong>Independence of backend service, upgrade of rich functions</strong></p>
+<p><strong style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><br/></strong></p>
+<p style="text-indent: 2em;">The Load Balancer of new version will check the health status of instances in the backend service resource pool, automatically isolate and attach instances that provide services in backend to ensure the normal operation of the business. </p>
+<p style="text-indent: 2em;"><br/></p>
+<p style="text-indent: 2em;">The independence of backend services enables different listeners to use the same backend service, allowing you to directly create two listeners based on Ports 80 and 443 and use the same backend service in some business scenarios (such as a Web service that provides both HTTP/HTTPs access). </p>
+<p style="text-indent: 2em;"><br/></p>
+<p style="text-indent: 2em;">In the aspects of protocol and scheduling algorithm, the load balancer supports TCP/HTTP (S) protocol snooping, and supports 3 scheduling algorithms including weighted round robin, weighted least connections and source IP forwarding, which can be selected according to business needs. Meanwhile, to meet the customization requirements by customers, a number of functional parameter configurations are opened, including listener idle connection timeout, session retention, HTTP header fields (IP, port and protocol) pass through to the backend server and so on. </p>
+<p style="text-indent: 2em;"><br/></p>
+<p style="text-indent: 2em;">It is worth mentioning that the load balancer of new version supports associate containers as backend servers, which can effectively improve the performance, stability and reliability of container services by balancing load, and also supports Virtual Machines and containers as backend servers for hybrid deployment. </p>
+<p style="text-indent: 2em;"><br/></p>
+<p style="text-indent: 2em;"><img src="//img1.jcloudcs.com/cms/744354d6-e982-4085-a06f-df266cef18c220180809104831.jpg" title="" alt="fuzai3g.jpg"/></p>
+<p><br/></p>
+<p style="text-indent: 2em;">In addition, the upgraded Load Balancer of  shall support Associate Security Group, and set import/exit / policy of traffics independently; at the same time, the Public IP  is equipped with anti-attack capabilities of DDoS to ensure security. Load Balancer resource quotas should also be further enhanced so as to meet the needs of large-scale business deployment. </p>
+<p style="text-indent: 2em;"><br/></p>
+<p style="text-indent: 2em;">After this update and iteration, JD Cloud load balancer provides more powerful support for flexibly adjusting load scale to achieve high availability, coping with sudden mass traffic, analyzing real customer sources, achieving high security requirements and other business scenarios. </p>
+</section>
