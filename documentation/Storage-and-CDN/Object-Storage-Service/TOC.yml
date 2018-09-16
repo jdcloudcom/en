@@ -190,17 +190,29 @@
                   href:  API-Reference/Access-Control/Signature-In-URL.md
            - name: About Service Actions
              items:
-                - name: Contain Signature in the Header
+                - name: GetService
                   href: API-Reference/Service-Operations/GetService.md  
+           - name: About Bucket Actions
+             items:
+                - name: PutBucket
+                  href: API-Reference/Bucket-Operations/PutBucket.md
+                - name: GetBucket
+                  href: API-Reference/Bucket-Operations/GetBucket.md             
+                - name: PutBucketReferer
+                  href: API-Reference/Bucket-Operations/PutBucketReferer.md 
+                - name: GetBucketReferer
+                  href: API-Reference/Bucket-Operations/GetBucketReferer.md 
+                - name: DeleteBucket
+                  href: API-Reference/Bucket-Operations/DeleteBucket.md            
            - name: About Object Actions
              items:
-                - name: GetService
-                  href: API-Reference/API-Reference/Object-Operations/GetObject.md
-                - name: PutService
-                  href: API-Reference/Service-Operations/PutService.md
-                - name: DeleteService
-                  href: API-Reference/Service-Operations/DeleteService.md  
-           - name: About MultipartUpload Actions
+                - name: PutObject
+                  href: API-Reference/Object-Operations/PutObject.md
+                - name: GetObject
+                  href: API-Reference/Object-Operations/GetObject.md
+                - name: DeleteObject
+                  href: API-Reference/Object-Operations/DeleteObject.md
+                - name: About MultipartUpload Actions
              items:
                - name: InitiateMultipartUpload
                  href: API-Reference/MultipartUpload-Operations/InitiateMultipartUpload.md
