@@ -1,4 +1,4 @@
-# Rapid use of media processing
+# Quick Start
 
 JD Cloud object storage service provides the offline transcoding function of audio and video files. You may realize the processing of audio and video files by creating audio and video workflow according to the following action steps:
 
