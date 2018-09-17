@@ -1,44 +1,44 @@
 # backupDownloadURL
 
 
-## 描述
+## Description
 Get Backup Download Link
 
-## 请求方式
+## Request method
 GET
 
-## 请求地址
+## Request address
 https://mongodb.jdcloud-api.com/v1/regions/{regionId}/backups/{backupId}/downloadURL
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**backupId**|String|True||backup ID|
 |**regionId**|String|True||Region ID|
 
-## 请求参数
-无
+## Request parameter
+None
 
 
-## 返回参数
-|名称|类型|描述|
+## Return parameter
+|Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
 |**result**|[Result](##Result)||
 
 
 ### <a name="Result">Result</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**backupDownloadURL**|[BackupDownloadURL](##BackupDownloadURL)||
 ### <a name="BackupDownloadURL">BackupDownloadURL</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**backupInternetDownloadURL**|String|Address of Public Network Download Link|
 |**backupIntranetDownloadURL**|String|Address of Intranet Download Link|
 |**backupName**|String|Backup Name|
 |**linkExpiredTime**|String|Expiration Time of Public Network and Intranet Download Link|
 
-## 返回码
-|返回码|描述|
+## Return code
+|Return code|Description|
 |---|---|
 |**200**|OK|

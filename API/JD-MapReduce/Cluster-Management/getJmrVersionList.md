@@ -1,39 +1,39 @@
 # getJmrVersionList
 
 
-## 描述
+## Description
 Return to the current jmr revision list
 
-## 请求方式
+## Request method
 GET
 
-## 请求地址
+## Request address
 https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/jmrVersions
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**regionId**|String|True||Region ID|
 
-## 请求参数
-无
+## Request parameter
+None
 
 
-## 返回参数
-|名称|类型|描述|
+## Return parameter
+|Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
 |**result**|[Result](##Result)||
 
 
 ### <a name="Result">Result</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**data**|String[]|Current jmr revision list|
 |**message**|String||
 |**status**|String||
 
-## 返回码
-|返回码|描述|
+## Return code
+|Return code|Description|
 |---|---|
 |**200**|OK|
 |**500**|Internal server error|

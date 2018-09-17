@@ -1,7 +1,7 @@
 # createSnapshot
 
 
-## 描述
+## Description
 -   Create a snapshot for the specified cloud disk service, and the status of the newly generated snapshot is creating.
 -   The quota for single-user snapshots in the same region is 15.
 -   To ensure data integrity, please stop writing to the cloud disk before creating a snapshot to ensure the integrity of snapshot data.
@@ -10,43 +10,43 @@
 -   The time demanded to create a snapshot depends on the capacity of the cloud disk service. The larger the capacity is, the longer it will take.
 
 
-## 请求方式
+## Request method
 POST
 
-## 请求地址
+## Request address
 https://disk.jdcloud-api.com/v1/regions/{regionId}/snapshots
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**regionId**|String|True||Region ID|
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**clientToken**|String|True|| Idempotence check parameter|
 |**snapshotSpec**|[SnapshotSpec](##SnapshotSpec)|True||Create Snapshot Specification|
 
 ### <a name="SnapshotSpec">SnapshotSpec</a>
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**description**|String|False||Snapshot Description|
 |**diskId**|String|True||Cloud disk service ID used to create the snapshot|
 |**name**|String|True||Snapshot Name|
 
-## 返回参数
-|名称|类型|描述|
+## Return parameter
+|Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
 |**result**|[Result](##Result)|Result Set|
 
 
 ### <a name="Result">Result</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**snapshotId**|String|Snapshot ID Created|
 
-## 返回码
-|返回码|描述|
+## Return code
+|Return code|Description|
 |---|---|
 |**400**|Invalid parameter|
 |**401**|Authentication failed|

@@ -1,38 +1,38 @@
 # listInstanceInfo
 
 
-## 描述
+## Description
 Search the instance information of the user
 
-## 请求方式
+## Request method
 GET
 
-## 请求地址
+## Request address
 https://xdata.jdcloud-api.com/v1/regions/{regionId}/dwInstance
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**regionId**|String|True||Region ID|
 
-## 请求参数
-无
+## Request parameter
+None
 
 
-## 返回参数
-|名称|类型|描述|
+## Return parameter
+|Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
 |**result**|[Result](##Result)||
 
 
 ### <a name="Result">Result</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**data**|[DwInstance[]](##DwInstance)||
 |**message**|String||
 |**status**|Boolean||
 ### <a name="DwInstance">DwInstance</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**area**|String|Instance zone|
 |**comments**|String|Instance description|
@@ -41,8 +41,8 @@ https://xdata.jdcloud-api.com/v1/regions/{regionId}/dwInstance
 |**instanceOwnerName**|String|Instance owner|
 |**uname**|String|Instance alias (shown on the page)|
 
-## 返回码
-|返回码|描述|
+## Return code
+|Return code|Description|
 |---|---|
 |**200**|OK|
 |**500**|Internal server error|

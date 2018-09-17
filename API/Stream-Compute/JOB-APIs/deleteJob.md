@@ -1,41 +1,41 @@
 # deleteJob
 
 
-## 描述
+## Description
 Delete job
 
-## 请求方式
+## Request method
 DELETE
 
-## 请求地址
+## Request address
 https://streamcompute.jdcloud-api.com/v1/regions/{regionId}/job
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**regionId**|String|True||Region ID|
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**jobId**|Integer|True|||
 |**namespaceId**|String|True|||
 
 
-## 返回参数
-|名称|类型|描述|
+## Return parameter
+|Name|Type|Description|
 |---|---|---|
 |**regionId**|String||
 |**result**|[Result](##Result)||
 
 
 ### <a name="Result">Result</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**message**|String|Returned information of deleting job|
 |**status**|Boolean||
 
-## 返回码
-|返回码|描述|
+## Return code
+|Return code|Description|
 |---|---|
 |**200**|OK|
 |**500**|INTERNAL_ERROR|

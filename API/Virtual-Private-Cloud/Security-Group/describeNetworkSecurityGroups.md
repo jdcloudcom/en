@@ -1,47 +1,47 @@
 # describeNetworkSecurityGroups
 
 
-## 描述
+## Description
 Query security group list
 
-## 请求方式
+## Request method
 GET
 
-## 请求地址
+## Request address
 https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkSecurityGroups/
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**regionId**|String|True||Region ID|
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**filters**|[Filter[]](##Filter)|False||networkSecurityGroupIds - Security group ID list, support multiple IDs<br>networkSecurityGroupNames - Security group name list, support multiple names<br>vpcId	- vpc Id of security group, support single Id<br>|
 |**pageNumber**|Integer|False|1|Page; it is 1 by default, the value range: [1,∞); when the pages exceed total pages, show the last page|
 |**pageSize**|Integer|False|20|Paging size; it is 20 by default; value range[10, 100]|
 
 ### <a name="Filter">Filter</a>
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**name**|String|True||Name of filter requirements|
 |**operator**|String|False||Operator of filter requirements is eq by default|
 |**values**|String[]|True||Value of filter requirements|
 
-## 返回参数
-|名称|类型|描述|
+## Return parameter
+|Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
 |**result**|[Result](##Result)|Returned results|
 
 
 ### <a name="Result">Result</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**networkSecurityGroups**|[NetworkSecurityGroup[]](##NetworkSecurityGroup)|Security group resource information list|
 |**totalCount**|Number|Total number|
 ### <a name="NetworkSecurityGroup">NetworkSecurityGroup</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**createdTime**|String|Creation time of security group|
 |**description**|String|Security group description information|
@@ -50,7 +50,7 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkSecurityGroups/
 |**securityGroupRules**|[SecurityGroupRule[]](##SecurityGroupRule)|Security group rule information|
 |**vpcId**|String|vpc Id of security group|
 ### <a name="SecurityGroupRule">SecurityGroupRule</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**addressPrefix**|String|Prefix of matching address|
 |**createdTime**|String|Creation time of security group rule|
@@ -62,8 +62,8 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkSecurityGroups/
 |**ruleId**|String|Security group rule ID|
 |**toPort**|Number|The end transport layer port of rule limit, the default value is 1, if protocol is not a transport layer protocol, the value is constantly 0|
 
-## 返回码
-|返回码|描述|
+## Return code
+|Return code|Description|
 |---|---|
 |**200**|OK|
 |**400**|invalid parameter|

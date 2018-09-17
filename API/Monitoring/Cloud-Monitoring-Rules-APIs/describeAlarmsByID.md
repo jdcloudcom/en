@@ -1,37 +1,37 @@
 # describeAlarmsByID
 
 
-## 描述
+## Description
 Query rule details
 
-## 请求方式
+## Request method
 GET
 
-## 请求地址
+## Request address
 https://monitor.jdcloud-api.com/v1/regions/{regionId}/alarms/{alarmId}
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**alarmId**|String|True||Rule id|
 |**regionId**|String|True||Region ID|
 
-## 请求参数
-无
+## Request parameter
+None
 
 
-## 返回参数
-|名称|类型|描述|
+## Return parameter
+|Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
 |**result**|[Result](##Result)||
 
 
 ### <a name="Result">Result</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**alarm**|[Alarm](##Alarm)||
 ### <a name="Alarm">Alarm</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**calculation**|String|Statistical method: average value=avg, maximum value=max, minimum value=min,|
 |**contactGroups**|String[]|Notify contact group, for example [“contact group 1”, “contact group 2”]|
@@ -54,8 +54,8 @@ https://monitor.jdcloud-api.com/v1/regions/{regionId}/alarms/{alarmId}
 |**times**|Integer|Alarm after how many times|
 |**value**|Number|Alarm value, this field is valid when querying the alarming rule|
 
-## 返回码
-|返回码|描述|
+## Return code
+|Return code|Description|
 |---|---|
 |**200**|OK|
 |**400**|invalid parameter|

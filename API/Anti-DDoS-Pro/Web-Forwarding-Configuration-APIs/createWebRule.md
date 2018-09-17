@@ -1,27 +1,27 @@
 # createWebRule
 
 
-## 描述
+## Description
 Add a web service rule
 
-## 请求方式
+## Request method
 POST
 
-## 请求地址
+## Request address
 https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/webRules
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**instanceId**|String|True||Instance ID|
 |**regionId**|String|True||Belonging region ID|
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**webRuleSpec**|[WebRuleSpec](##WebRuleSpec)|True||Web service rule parameter|
 
 ### <a name="WebRuleSpec">WebRuleSpec</a>
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**algorithm**|String|False||Forwarding rules: wrr->Round Robin with weight  rr->Round Robin without weight|
 |**customPortStatus**|Integer|False||Confirm whether it is customized port number or not? 0->default  1->customized|
@@ -38,21 +38,21 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/webR
 |**port**|String|False||HTTP protocol port number, such as 80 and 81, and multiple port numbers are separated by commas|
 |**protocol**|String|False||Protocol: HTTP, HTTPS and HTTP_HTTPS|
 ### <a name="OriginAddrItem">OriginAddrItem</a>
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**inJdCloud**|Boolean|False||Confirm whether it is the Private IP/EIP address of JD Cloud?|
 |**ip**|String|False||Back-to-origin IP address|
 |**weight**|Integer|False||Weight|
 
-## 返回参数
-|名称|类型|描述|
+## Return parameter
+|Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
 
 
 
-## 返回码
-|返回码|描述|
+## Return code
+|Return code|Description|
 |---|---|
 |**200**|OK|
 |**400**|BAD_REQUEST|

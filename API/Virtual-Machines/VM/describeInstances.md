@@ -1,49 +1,49 @@
 # describeInstances
 
 
-## 描述
+## Description
 Batch query of virtual machine details<br>
 This API supports paging query with 20 items per page by default.
 
 
-## 请求方式
+## Request method
 GET
 
-## 请求地址
+## Request address
 https://vm.jdcloud-api.com/v1/regions/{regionId}/instances
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**regionId**|String|True||Region ID|
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**filters**|[Filter[]](##Filter)|False||instanceId-VM ID, exact match, multiple supported<br>PrivateIpAddress-primary private IP address of primary network interface, fuzzy match, multiple supported<br>az-AZ,  exact match,  multiple supported<br>vpcId-Virtual Private Cloud ID, exact match, multiple supported<br>status-virtual machine status,  match exactly,  support multiple,  <a href="https://www.jdcloud.com/help/detail/3869/isCatalog/1">refer to virtual machine status</a><br>name-VM name, fuzzy match, single supported<br>imageId-Image ID, exact match, multiple supported<br>networkInterfaceId-ENI ID, exact match, multiple supported<br>subnetId-subnet ID, exact match, multiple supported<br>agId-Use the AG id, single supported<br>faultDomain-Error domain, multiple supported<br>|
 |**pageNumber**|Integer|False|1|Page; 1 by default|
 |**pageSize**|Integer|False|20|Paging size;20 by default;Value range[10, 100]|
 
 ### <a name="Filter">Filter</a>
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**name**|String|True||Name of filter requirements|
 |**operator**|String|False||Operator of filter requirements is eq by default|
 |**values**|String[]|True||Value of filter requirements|
 
-## 返回参数
-|名称|类型|描述|
+## Return parameter
+|Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
 |**result**|[Result](##Result)||
 
 
 ### <a name="Result">Result</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**instances**|[Instance[]](##Instance)||
 |**totalCount**|Number||
 ### <a name="Instance">Instance</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**ag**|[Ag](##Ag)|AG, where an AG is used to create a VM, an AG name can be displayed here|
 |**az**|String|The AZ of the VM|
@@ -68,12 +68,12 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instances
 |**tags**|[Tag[]](##Tag)|Tag information|
 |**vpcId**|String|ID of the VPC to which the primary network interface belongs|
 ### <a name="Ag">Ag</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**id**|String|AG id|
 |**name**|String|AG name|
 ### <a name="Charge">Charge</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**chargeExpiredTime**|String|Expiration time, i.e. the expiration time of Pay-In-Advance resource, which shall be subject to ISO8601, with the UTC time used in the format of YYYY-MM-DDTHH:mm:ssZ. Pay-As-You-Go resource field is blank.|
 |**chargeMode**|String|Payment model, the value shall be prepaid_by_duration, postpaid_by_usage or postpaid_by_duration; prepaid_by_duration refers to Pay-In-Advance; postpaid_by_usage refers to Pay By Consumption and Pay-As-You-Go; postpaid_by_duration refers to Pay By Configuration and Pay-As-You-Go, and is postpaid_by_duration by default|
@@ -81,7 +81,7 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instances
 |**chargeStartTime**|String|The start time of the billing shall be subject to ISO8601, with the UTC time used in the format of YYYY-MM-DDTHH:mm:ssZ|
 |**chargeStatus**|String|Cost payment status, the value is respectively normal, overdue and arrear.|
 ### <a name="InstanceDiskAttachment">InstanceDiskAttachment</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**autoDelete**|Boolean|Deleting this disk with the VM automatically when the machine is deleted. The default value is true, which cannot be changed by local.<br>This parameter does not take effect if the data disk in the VM is a monthly package.<br>This parameter does not take effect if the data disk in the VM is a shared data disk.<br>|
 |**cloudDisk**|[Disk](##Disk)|Cloud disk service instance type|
@@ -89,7 +89,7 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instances
 |**diskCategory**|String|Disk classification, the local disk or data disk is taken.<br>The system disk supports local disk or cloud disk. The system disk selects local Type, and the user must use the image localDisk type; If the system disk selects the cloud type, the user must use the image of the cloudDisk type.<br>The data disk supports cloud disk only.<br>|
 |**localDisk**|[LocalDisk](##LocalDisk)|Local disk instance type|
 ### <a name="Disk">Disk</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**attachments**|[DiskAttachment[]](##DiskAttachment)|Attach Information|
 |**az**|String|AZ, to which the cloud disk service belongs|
@@ -105,7 +105,7 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instances
 |**status**|String|Status of the cloud disk service, creating, available, in-use, extending, restoring, deleting, deleted, error_create, error_delete, error_restore or error_extend|
 |**tags**|[Tag[]](##Tag)|Tag information|
 ### <a name="DiskAttachment">DiskAttachment</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**attachTime**|String|Attaching Time|
 |**attachmentId**|String|Attach ID|
@@ -114,23 +114,23 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instances
 |**instanceType**|String|Type of the instance  attached, vm or nc|
 |**status**|String|Attaching state, "attaching", "attached", "detaching" or "detached"|
 ### <a name="Tag">Tag</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**key**|String|Tag Key|
 |**value**|String|Tag Value|
 ### <a name="LocalDisk">LocalDisk</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**diskSizeGB**|Integer|Disk size|
 |**diskType**|String|Disk type, value range {premium-hdd,  ssd}|
 ### <a name="InstanceNetworkInterfaceAttachment">InstanceNetworkInterfaceAttachment</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**autoDelete**|Boolean|Indicates whether the network interface is deleted when deleting an instance, and the default is true, which cannot be changed currently|
 |**deviceIndex**|Integer|Device Index|
 |**networkInterface**|[InstanceNetworkInterface](##InstanceNetworkInterface)|Network interface API instance type|
 ### <a name="InstanceNetworkInterface">InstanceNetworkInterface</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**macAddress**|String|Ethernet address|
 |**networkInterfaceId**|String|ENI ID|
@@ -141,24 +141,24 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instances
 |**subnetId**|String|Subnet ID|
 |**vpcId**|String|Virtual Network ID|
 ### <a name="NetworkInterfacePrivateIp">NetworkInterfacePrivateIp</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**elasticIpAddress**|String|Elastic IP instance address|
 |**elasticIpId**|String|Elastic IP instance ID|
 |**privateIpAddress**|String|IPV4 address of private IP|
 ### <a name="SecurityGroupSimple">SecurityGroupSimple</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**groupId**|String|Security groupID|
 |**groupName**|String|Security group name|
 ### <a name="Tag">Tag</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**key**|String|Tag key|
 |**value**|String|Tag value|
 
-## 返回码
-|返回码|描述|
+## Return code
+|Return code|Description|
 |---|---|
 |**400**|Invalid parameter|
 |**401**|Authentication failed|

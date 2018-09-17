@@ -1,37 +1,37 @@
 # detachNetworkInterface
 
 
-## 描述
+## Description
 The virtual machine will load an elastic network interface. <br>
 The virtual machine status must be running or stopped status without being operated,  the task is available. <br>
 The primary network interface cannot be detached.
 
 
-## 请求方式
+## Request method
 POST
 
-## 请求地址
+## Request address
 https://vm.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:detachNetworkInterface
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**instanceId**|String|True||VM ID|
 |**regionId**|String|True||Region ID|
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**networkInterfaceId**|String|True||ENI ID|
 
 
-## 返回参数
-|名称|类型|描述|
+## Return parameter
+|Name|Type|Description|
 |---|---|---|
 
 
 
-## 返回码
-|返回码|描述|
+## Return code
+|Return code|Description|
 |---|---|
 |**400**|Invalid parameter|
 |**401**|Authentication failed|

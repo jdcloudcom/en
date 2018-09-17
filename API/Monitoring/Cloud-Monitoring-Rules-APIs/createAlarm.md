@@ -1,27 +1,27 @@
 # createAlarm
 
 
-## 描述
+## Description
 Create alarm rules, it can create alarm rules for a certain instance, or it also can create alarm rules for multiple instances at the same time.
 
-## 请求方式
+## Request method
 POST
 
-## 请求地址
+## Request address
 https://monitor.jdcloud-api.com/v1/regions/{regionId}/alarms
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**regionId**|String|True||Region ID|
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**clientToken**|String|True||Idempotent validation parameter, 32-bit at the longest, the return value will not change if the value does not change|
 |**createAlarmSpec**|[CreateAlarmSpec](##CreateAlarmSpec)|True|||
 
 ### <a name="CreateAlarmSpec">CreateAlarmSpec</a>
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**calculation**|String|True||Statistical method must be consistent with the defined metric, with an optional list of values: avg, max, sum, min|
 |**contactGroups**|String[]|False||Contact group notified by alarm rules must be already created on the console, for example“[‘contact group 1’, ‘contact group 2’]”|
@@ -36,20 +36,20 @@ https://monitor.jdcloud-api.com/v1/regions/{regionId}/alarms
 |**threshold**|Number|True||Alarm threshold, currently, only numeric type is available|
 |**times**|Integer|True||Continuous periods, alarms are made when several statical periods meet threshold value conditions through continuous detections, optional values: 1, 2, 3, 5|
 
-## 返回参数
-|名称|类型|描述|
+## Return parameter
+|Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
 |**result**|[Result](##Result)||
 
 
 ### <a name="Result">Result</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**alarmIdList**|String[]|Rule id list created successfully|
 
-## 返回码
-|返回码|描述|
+## Return code
+|Return code|Description|
 |---|---|
 |**200**|OK|
 |**400**|invalid parameter|

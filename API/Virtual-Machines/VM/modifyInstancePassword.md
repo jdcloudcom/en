@@ -1,36 +1,36 @@
 # modifyInstancePassword
 
 
-## 描述
+## Description
 Modify the virtual machine password and the machine is not allowed to operate when there is no ongoing task. <br>
 The new password will take effect after the VM is rebooted.
 
 
-## 请求方式
+## Request method
 POST
 
-## 请求地址
+## Request address
 https://vm.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:modifyInstancePassword
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**instanceId**|String|True||VM ID|
 |**regionId**|String|True||Region ID|
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**password**|String|True||Password,  <a href = "https://www.jdcloud.com/help/detail/3870/isCatalog/1 ">Refer to the public parameter specification</a>.|
 
 
-## 返回参数
-|名称|类型|描述|
+## Return parameter
+|Name|Type|Description|
 |---|---|---|
 
 
 
-## 返回码
-|返回码|描述|
+## Return code
+|Return code|Description|
 |---|---|
 |**400**|Invalid parameter|
 |**401**|Authentication failed|

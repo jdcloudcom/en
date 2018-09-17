@@ -1,34 +1,34 @@
 # deleteAlarms
 
 
-## 描述
+## Description
 Delete alarm rules already created in batches
 
-## 请求方式
+## Request method
 DELETE
 
-## 请求地址
+## Request address
 https://monitor.jdcloud-api.com/v1/regions/{regionId}/alarms
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**regionId**|String|True||Region ID|
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**ids**|String|True||For rule id to be deleted, use "|" to separate multiple rules|
 
 
-## 返回参数
-|名称|类型|描述|
+## Return parameter
+|Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
 
 
 
-## 返回码
-|返回码|描述|
+## Return code
+|Return code|Description|
 |---|---|
 |**200**|OK|
 |**400**|invalid parameter|

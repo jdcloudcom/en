@@ -1,26 +1,26 @@
 # createSubuser
 
 
-## 描述
+## Description
 Create sub-accounts
 
-## 请求方式
+## Request method
 POST
 
-## 请求地址
+## Request address
 https://iam.jdcloud-api.com/v1/regions/{regionId}/subUser
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**regionId**|String|True||Region ID|
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**createSubUserInfo**|[CreateSubUserInfo](##CreateSubUserInfo)|True||Sub-account information|
 
 ### <a name="CreateSubUserInfo">CreateSubUserInfo</a>
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**createAk**|Boolean|True||Create accessKey or not|
 |**description**|String|False||Description, 0~256 characters|
@@ -30,14 +30,14 @@ https://iam.jdcloud-api.com/v1/regions/{regionId}/subUser
 |**passwordConfirm**|String|True||Confirm password|
 |**phone**|String|True||Mobile number, area code-mobile number, at present only support 0086-Chinese mobile number|
 
-## 返回参数
-|名称|类型|描述|
+## Return parameter
+|Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
 
 
 
-## 返回码
-|返回码|描述|
+## Return code
+|Return code|Description|
 |---|---|
 |**200**|OK|

@@ -1,35 +1,35 @@
 # modifySnpAttribute
 
 
-## 描述
+## Description
 Modify the name or description of the snapshot
 
-## 请求方式
+## Request method
 PATCH
 
-## 请求地址
+## Request address
 https://disk.jdcloud-api.com/v1/regions/{regionId}/snapshots/{snapshotId}
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**regionId**|String|True||Region ID|
 |**snapshotId**|String|True||Snapshot ID|
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**description**|String|False||Snapshot description. Name or description must be specified|
 |**name**|String|False||Snapshot Name|
 
 
-## 返回参数
-|名称|类型|描述|
+## Return parameter
+|Name|Type|Description|
 |---|---|---|
 
 
 
-## 返回码
-|返回码|描述|
+## Return code
+|Return code|Description|
 |---|---|
 |**400**|Invalid parameter|
 |**401**|Authentication failed|

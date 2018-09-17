@@ -1,47 +1,47 @@
 # describeSnapshots
 
 
-## 描述
+## Description
 Query the list of cloud disk snapshots. Filters, between multiple filter conditions is logic AND, and multiple values ​​inside each condition is logic OR
 
-## 请求方式
+## Request method
 GET
 
-## 请求地址
+## Request address
 https://disk.jdcloud-api.com/v1/regions/{regionId}/snapshots
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**regionId**|String|True||Region ID|
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**filters**|[Filter[]](##Filter)|False||snapshotId - cloud disk snapshot ID, support multiple<br>diskId - the cloud disk service ID of the snapshot to be generated, support multiple<br>Status - snapshot status, accurate match, support multiple, creating, available, in-use, deleting, error_create or error_delete<br>name - snapshot name, fuzzy match, support single<br>|
 |**pageNumber**|Integer|False|1|Page number, defaults is 1; value range: [1, ∞)|
 |**pageSize**|Integer|False|20|Page size, default is 20; value range: [10,100]|
 
 ### <a name="Filter">Filter</a>
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**name**|String|True||Name of filter requirements|
 |**operator**|String|False||Operator of filter requirements is eq by default|
 |**values**|String[]|True||Value of filter requirements|
 
-## 返回参数
-|名称|类型|描述|
+## Return parameter
+|Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
 |**result**|[Result](##Result)|Query Result Set|
 
 
 ### <a name="Result">Result</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**snapshots**|[Snapshot[]](##Snapshot)|List of snapshot information details queried|
 |**totalCount**|Integer|Number of snapshots queried|
 ### <a name="Snapshot">Snapshot</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**createTime**|String|Creation Time|
 |**description**|String|Snapshot Description|
@@ -51,8 +51,8 @@ https://disk.jdcloud-api.com/v1/regions/{regionId}/snapshots
 |**snapshotSizeGB**|Integer|Snapshot Size, in GiB|
 |**status**|String|Snapshot state, creating, available, in-use, deleting, error_create or error_delete|
 
-## 返回码
-|返回码|描述|
+## Return code
+|Return code|Description|
 |---|---|
 |**200**|OK|
 |**400**|Invalid parameter|

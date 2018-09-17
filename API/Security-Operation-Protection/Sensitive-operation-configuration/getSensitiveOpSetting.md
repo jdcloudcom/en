@@ -1,40 +1,40 @@
 # getSensitiveOpSetting
 
 
-## 描述
+## Description
 Obtain the settings information of operation protection
 
-## 请求方式
+## Request method
 GET
 
-## 请求地址
+## Request address
 https://sop.jdcloud-api.com/v1/regions/{regionId}/sensitiveOpSetting
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**regionId**|String|True||Region ID|
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**action**|String|True||Action action serviceName:actionName|
 
 
-## 返回参数
-|名称|类型|描述|
+## Return parameter
+|Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
 |**result**|[Result](##Result)||
 
 
 ### <a name="Result">Result</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**extInfo**|String|Expansion information is the mobile number after the mask when type=1, and is the email address after the mask when type=2|
 |**status**|Integer|Enabling status of operation protection: 0-not enabled, 1-enabled|
 |**type**|Integer|Verification methods of operation protection: 0-none, 1-SMS, 2-email, 3-MFA|
 
-## 返回码
-|返回码|描述|
+## Return code
+|Return code|Description|
 |---|---|
 |**200**|OK|

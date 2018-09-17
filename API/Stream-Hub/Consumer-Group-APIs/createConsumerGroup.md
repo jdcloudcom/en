@@ -1,26 +1,26 @@
 # createConsumerGroup
 
 
-## 描述
+## Description
 Create consumerGroupName
 
-## 请求方式
+## Request method
 POST
 
-## 请求地址
+## Request address
 https://streambus.jdcloud-api.com/v1/regions/{regionId}/consumerGroup
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**regionId**|String|True||Region ID|
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**consumerGroupStr**|[ConsumerGroup](##ConsumerGroup)|False||Consumer group object|
 
 ### <a name="ConsumerGroup">ConsumerGroup</a>
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**createdTime**|String|False|||
 |**delete**|String|False|||
@@ -28,21 +28,21 @@ https://streambus.jdcloud-api.com/v1/regions/{regionId}/consumerGroup
 |**name**|String|False|||
 |**topicId**|Integer|False|||
 
-## 返回参数
-|名称|类型|描述|
+## Return parameter
+|Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
 |**result**|[Result](##Result)||
 
 
 ### <a name="Result">Result</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**message**|String||
 |**status**|Boolean||
 
-## 返回码
-|返回码|描述|
+## Return code
+|Return code|Description|
 |---|---|
 |**200**|OK|
 |**401**|STREAMHUB_UNAUTHENTICATED|

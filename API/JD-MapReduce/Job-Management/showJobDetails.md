@@ -1,40 +1,40 @@
 # showJobDetails
 
 
-## 描述
+## Description
 View the job details corresponding to the specified jobId
 
-## 请求方式
+## Request method
 POST
 
-## 请求地址
+## Request address
 https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/{jobId}:detail
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**jobId**|String|True||Job Id to be viewed|
 |**regionId**|String|True||Region ID|
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 
 
-## 返回参数
-|名称|类型|描述|
+## Return parameter
+|Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
 |**result**|[Result](##Result)||
 
 
 ### <a name="Result">Result</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**data**|[JmrJobViewModel](##JmrJobViewModel)||
 |**message**|String||
 |**status**|String||
 ### <a name="JmrJobViewModel">JmrJobViewModel</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**clusterId**|String|Cluster ID|
 |**clusterName**|String|Cluster name|
@@ -59,8 +59,8 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/{jobId}:detail
 |**taskScheduleType**|Integer||
 |**userpin**|String|User name|
 
-## 返回码
-|返回码|描述|
+## Return code
+|Return code|Description|
 |---|---|
 |**200**|OK|
 |**500**|Internal server error|

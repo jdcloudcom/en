@@ -1,31 +1,31 @@
 # createUserAccessKey
 
 
-## 描述
+## Description
 Create AccessKey
 
-## 请求方式
+## Request method
 POST
 
-## 请求地址
+## Request address
 https://iam.jdcloud-api.com/v1/regions/{regionId}/userAccessKey
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**regionId**|String|True||Region ID|
 
-## 请求参数
-无
+## Request parameter
+None
 
 
-## 返回参数
-|名称|类型|描述|
+## Return parameter
+|Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
 
 
 
-## 返回码
-|返回码|描述|
+## Return code
+|Return code|Description|
 |---|---|
 |**200**|OK|

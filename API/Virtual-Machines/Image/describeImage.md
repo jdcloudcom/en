@@ -1,38 +1,38 @@
 # describeImage
 
 
-## 描述
+## Description
 Query image details.
 
 
-## 请求方式
+## Request method
 GET
 
-## 请求地址
+## Request address
 https://vm.jdcloud-api.com/v1/regions/{regionId}/images/{imageId}
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**imageId**|String|True||Image ID|
 |**regionId**|String|True||Region ID|
 
-## 请求参数
-无
+## Request parameter
+None
 
 
-## 返回参数
-|名称|类型|描述|
+## Return parameter
+|Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
 |**result**|[Result](##Result)||
 
 
 ### <a name="Result">Result</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**image**|[Image](##Image)|image details|
 ### <a name="Image">Image</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**architecture**|String|Image architecture. i386, x86_64|
 |**createTime**|String|Creation time|
@@ -52,7 +52,7 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/images/{imageId}
 |**systemDisk**|[InstanceDiskAttachment](##InstanceDiskAttachment)|System disk configuration|
 |**systemDiskSizeGB**|Integer|Image system disk size|
 ### <a name="InstanceDiskAttachment">InstanceDiskAttachment</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**autoDelete**|Boolean|Deleting this disk with the VM automatically when the machine is deleted. The default value is true, which cannot be changed by local.<br>This parameter does not take effect if the data disk in the VM is a monthly package.<br>This parameter does not take effect if the data disk in the VM is a shared data disk.<br>|
 |**cloudDisk**|[Disk](##Disk)|Cloud disk service instance type|
@@ -60,7 +60,7 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/images/{imageId}
 |**diskCategory**|String|Disk classification, the local disk or data disk is taken.<br>The system disk supports local disk or cloud disk. The system disk selects local Type, and the user must use the image localDisk type; If the system disk selects the cloud type, the user must use the image of the cloudDisk type.<br>The data disk supports cloud disk only.<br>|
 |**localDisk**|[LocalDisk](##LocalDisk)|Local disk instance type|
 ### <a name="Disk">Disk</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**attachments**|[DiskAttachment[]](##DiskAttachment)|Attach Information|
 |**az**|String|AZ, to which the cloud disk service belongs|
@@ -76,7 +76,7 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/images/{imageId}
 |**status**|String|Status of the cloud disk service, creating, available, in-use, extending, restoring, deleting, deleted, error_create, error_delete, error_restore or error_extend|
 |**tags**|[Tag[]](##Tag)|Tag information|
 ### <a name="DiskAttachment">DiskAttachment</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**attachTime**|String|Attaching Time|
 |**attachmentId**|String|Attach ID|
@@ -85,7 +85,7 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/images/{imageId}
 |**instanceType**|String|Type of the instance  attached, vm or nc|
 |**status**|String|Attaching state, "attaching", "attached", "detaching" or "detached"|
 ### <a name="Charge">Charge</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**chargeExpiredTime**|String|Expiration time, i.e. the expiration time of Pay-In-Advance resource, which shall be subject to ISO8601, with the UTC time used in the format of YYYY-MM-DDTHH:mm:ssZ. Pay-As-You-Go resource field is blank.|
 |**chargeMode**|String|Payment model, the value shall be prepaid_by_duration, postpaid_by_usage or postpaid_by_duration; prepaid_by_duration refers to Pay-In-Advance; postpaid_by_usage refers to Pay By Consumption and Pay-As-You-Go; postpaid_by_duration refers to Pay By Configuration and Pay-As-You-Go, and is postpaid_by_duration by default|
@@ -93,18 +93,18 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/images/{imageId}
 |**chargeStartTime**|String|The start time of the billing shall be subject to ISO8601, with the UTC time used in the format of YYYY-MM-DDTHH:mm:ssZ|
 |**chargeStatus**|String|Cost payment status, the value is respectively normal, overdue and arrear.|
 ### <a name="Tag">Tag</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**key**|String|Tag Key|
 |**value**|String|Tag Value|
 ### <a name="LocalDisk">LocalDisk</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**diskSizeGB**|Integer|Disk size|
 |**diskType**|String|Disk type, value range {premium-hdd,  ssd}|
 
-## 返回码
-|返回码|描述|
+## Return code
+|Return code|Description|
 |---|---|
 |**400**|Invalid parameter|
 |**401**|Authentication failed|

@@ -1,40 +1,40 @@
 # pauseCronJob
 
 
-## 描述
+## Description
 Suspend a regular task of the job
 
-## 请求方式
+## Request method
 POST
 
-## 请求地址
+## Request address
 https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/cronJob/{planId}:pause
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**planId**|String|True||Suspended task ID|
 |**regionId**|String|True||Region ID|
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 
 
-## 返回参数
-|名称|类型|描述|
+## Return parameter
+|Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
 |**result**|[Result](##Result)||
 
 
 ### <a name="Result">Result</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**message**|String||
 |**status**|String||
 
-## 返回码
-|返回码|描述|
+## Return code
+|Return code|Description|
 |---|---|
 |**200**|OK|
 |**500**|Internal server error|

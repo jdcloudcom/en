@@ -1,47 +1,47 @@
 # describeSubnets
 
 
-## 描述
+## Description
 Query subnet list
 
-## 请求方式
+## Request method
 GET
 
-## 请求地址
+## Request address
 https://vpc.jdcloud-api.com/v1/regions/{regionId}/subnets/
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**regionId**|String|True||Region ID|
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**filters**|[Filter[]](##Filter)|False||subnetIds - subnet ID list, support multiple IDs<br>subnetNames - subnet name list, support multiple names<br>routeTableId	- subnet associated route table Id, support single Id<br>aclId - subnet associated acl Id, support single Id<br>vpcId- vpc Id of subnet, support single Id<br>|
 |**pageNumber**|Integer|False|1|Page; it is 1 by default, the value range: [1,∞); when the pages exceed total pages, show the last page|
 |**pageSize**|Integer|False|20|Paging size; it is 20 by default; value range[10, 100]|
 
 ### <a name="Filter">Filter</a>
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**name**|String|True||Name of filter requirements|
 |**operator**|String|False||Operator of filter requirements is eq by default|
 |**values**|String[]|True||Value of filter requirements|
 
-## 返回参数
-|名称|类型|描述|
+## Return parameter
+|Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
 |**result**|[Result](##Result)|Returned results|
 
 
 ### <a name="Result">Result</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**subnets**|[Subnet[]](##Subnet)|Subnet resource information list|
 |**totalCount**|Number|Total number|
 ### <a name="Subnet">Subnet</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**aclId**|String|Subnet associated acl Id|
 |**addressPrefix**|String|Subnet segment, subnet segment in vpc cannot overlap, value range of cidr: 10.0.0.0/8、172.16.0.0/12, 192.168.0.0/16 and their subnets included and the length of subnet mask is between 16 and 28. If VPC includes Cidr, it must be the Cidr subnet of VPC|
@@ -55,7 +55,7 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/subnets/
 |**subnetName**|String|Subnet name|
 |**vpcId**|String|VPC Id of subnet|
 
-## 返回码
-|返回码|描述|
+## Return code
+|Return code|Description|
 |---|---|
 |**200**|OK|

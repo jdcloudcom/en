@@ -1,21 +1,21 @@
 # describeCcAttackLogDetails
 
 
-## 描述
+## Description
 Search the cc attack log details
 
-## 请求方式
+## Request method
 GET
 
-## 请求地址
+## Request address
 https://ipanti.jdcloud-api.com/v1/regions/{regionId}/attacklog:ccDetail
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**regionId**|String|True||Belonging region ID|
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**endTime**|String|True||Search end time, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ|
 |**instanceId**|String|True||Advanced Anti-DDoS instance ID|
@@ -25,25 +25,25 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/attacklog:ccDetail
 |**subDomain**|String[]|False||Subdomain name|
 
 
-## 返回参数
-|名称|类型|描述|
+## Return parameter
+|Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
 |**result**|[Result](##Result)||
 
 
 ### <a name="Result">Result</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**dataList**|[CCAttackLogDetail[]](##CCAttackLogDetail)||
 |**totalCount**|Integer||
 ### <a name="CCAttackLogDetail">CCAttackLogDetail</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**key**|String|Feature key|
 |**num**|Integer|Attacks|
 
-## 返回码
-|返回码|描述|
+## Return code
+|Return code|Description|
 |---|---|
 |**200**|OK|

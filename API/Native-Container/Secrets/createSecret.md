@@ -1,49 +1,49 @@
 # createSecret
 
 
-## 描述
+## Description
 Create a secret for storing relevant confidential information of image registry.
 
 
-## 请求方式
+## Request method
 POST
 
-## 请求地址
+## Request address
 https://nc.jdcloud-api.com/v1/regions/{regionId}/secrets
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**regionId**|String|True||Region ID|
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**data**|[DockerRegistryData](##DockerRegistryData)|False||Confidential data. <br><br>Valid characters of key include letters, numbers, -, _ and .; <br><br>The value is the character string encoded by Base64, which can’t comprise a line break (please use base64 -w 0 option under linux); the length cap of each value is 4KB; and the length of the entire data can’t exceed 256KB; <br><br>Fields as server, username and password must be contained and the field of email is optional. <br><br>|
 |**name**|String|True||Names of confidential data can’t be the same<br>|
 |**secretType**|String|True||Now, only the following confidential data type is supported: docker-registry, which is the docker registry verification type.<br>|
 
 ### <a name="DockerRegistryData">DockerRegistryData</a>
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**email**|String|False||Email address|
 |**password**|String|True||Password|
 |**server**|String|True||registry server address|
 |**username**|String|True||User name|
 
-## 返回参数
-|名称|类型|描述|
+## Return parameter
+|Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
 |**result**|[Result](##Result)||
 
 
 ### <a name="Result">Result</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**secretName**|String||
 
-## 返回码
-|返回码|描述|
+## Return code
+|Return code|Description|
 |---|---|
 |**400**|Invalid parameter|
 |**401**|Authentication failed|

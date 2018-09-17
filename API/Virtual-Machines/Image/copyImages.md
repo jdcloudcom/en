@@ -1,47 +1,47 @@
 # copyImages
 
 
-## 描述
+## Description
 Image inter-domain replication,  copy private images to other regions,  allowing you to operate your private image only. <br>
 Only images of the cloudDisk cloud of system disk are supported.
 
 
-## 请求方式
+## Request method
 POST
 
-## 请求地址
+## Request address
 https://vm.jdcloud-api.com/v1/regions/{regionId}/images:copyImages
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**regionId**|String|True||Region ID|
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**destinationRegion**|String|True||target area|
 |**sourceImageIds**|String[]|True||Source image ID|
 
 
-## 返回参数
-|名称|类型|描述|
+## Return parameter
+|Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
 |**result**|[Result](##Result)||
 
 
 ### <a name="Result">Result</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**copyImages**|[CopyImage[]](##CopyImage)|source image and target image mapping relationships|
 ### <a name="CopyImage">CopyImage</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**destinationImageId**|String|Target image ID after replication|
 |**sourceImageId**|String|Source image ID|
 
-## 返回码
-|返回码|描述|
+## Return code
+|Return code|Description|
 |---|---|
 |**400**|Invalid parameter|
 |**401**|Authentication failed|

@@ -1,21 +1,21 @@
 # createNetworkInterface
 
 
-## 描述
+## Description
 Create network interface, can only create secondary network interface
 
-## 请求方式
+## Request method
 POST
 
-## 请求地址
+## Request address
 https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkInterfaces/
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**regionId**|String|True||Region ID|
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**az**|String|False||Availability zone, user’s default availability zone|
 |**description**|String|False||Description, all characters allowed to enter under UTF-8 coding, which is not exceed 256 characters|
@@ -28,20 +28,20 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkInterfaces/
 |**subnetId**|String|True||Subnet ID|
 
 
-## 返回参数
-|名称|类型|描述|
+## Return parameter
+|Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
 |**result**|[Result](##Result)|Returned results|
 
 
 ### <a name="Result">Result</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**networkInterfaceId**|String|Elastic network interface Id|
 
-## 返回码
-|返回码|描述|
+## Return code
+|Return code|Description|
 |---|---|
 |**200**|Successful operation|
 |**409**|Resource 'primaryIp' already be used|

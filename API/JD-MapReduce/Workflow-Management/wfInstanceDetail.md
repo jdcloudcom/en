@@ -1,39 +1,39 @@
 # wfInstanceDetail
 
 
-## 描述
+## Description
 View the detailed information of the specified workflow
 
-## 请求方式
+## Request method
 POST
 
-## 请求地址
+## Request address
 https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/wfInstance:detail
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**regionId**|String|True||Region ID|
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**wfId**|String|True|||
 |**wfInstanceId**|String|True|||
 
 
-## 返回参数
-|名称|类型|描述|
+## Return parameter
+|Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
 |**result**|[Result](##Result)||
 
 
 ### <a name="Result">Result</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**message**|[Message](##Message)||
 ### <a name="Message">Message</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**code**|String|Code|
 |**data**|Object|Data|
@@ -50,12 +50,12 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/wfInstance:detail
 |**taskId**|String||
 |**total**|Integer||
 ### <a name="Path">Path</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**child**|Integer||
 |**father**|Integer||
 ### <a name="Rect">Rect</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**instanceId**|Integer||
 |**instanceStatus**|Integer||
@@ -69,8 +69,8 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/wfInstance:detail
 |**x**|Number||
 |**y**|Number||
 
-## 返回码
-|返回码|描述|
+## Return code
+|Return code|Description|
 |---|---|
 |**200**|OK|
 |**500**|Internal server error|

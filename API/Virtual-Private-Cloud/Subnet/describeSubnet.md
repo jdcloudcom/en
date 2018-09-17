@@ -1,37 +1,37 @@
 # describeSubnet
 
 
-## 描述
+## Description
 Query subnet information details
 
-## 请求方式
+## Request method
 GET
 
-## 请求地址
+## Request address
 https://vpc.jdcloud-api.com/v1/regions/{regionId}/subnets/{subnetId}
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**regionId**|String|True||Region ID|
 |**subnetId**|String|True||Subnet ID|
 
-## 请求参数
-无
+## Request parameter
+None
 
 
-## 返回参数
-|名称|类型|描述|
+## Return parameter
+|Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
 |**result**|[Result](##Result)|Returned results|
 
 
 ### <a name="Result">Result</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**subnet**|[Subnet](##Subnet)|Subnet resource information|
 ### <a name="Subnet">Subnet</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**aclId**|String|Subnet associated acl Id|
 |**addressPrefix**|String|Subnet segment, subnet segment in vpc cannot overlap, value range of cidr: 10.0.0.0/8、172.16.0.0/12, 192.168.0.0/16 and their subnets included and the length of subnet mask is between 16 and 28. If VPC includes Cidr, it must be the Cidr subnet of VPC|
@@ -45,7 +45,7 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/subnets/{subnetId}
 |**subnetName**|String|Subnet name|
 |**vpcId**|String|VPC Id of subnet|
 
-## 返回码
-|返回码|描述|
+## Return code
+|Return code|Description|
 |---|---|
 |**200**|OK|

@@ -1,40 +1,40 @@
 # setCcIpLimit
 
 
-## 描述
+## Description
 Set the speed limit of each Ip of instance CC defense
 
-## 请求方式
+## Request method
 POST
 
-## 请求地址
+## Request address
 https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:setCcIpLimit
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**instanceId**|String|True||Instance ID|
 |**regionId**|String|True||Belonging region ID|
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**cCSpec**|[CcIpLimitSpec](##CcIpLimitSpec)|True||cc parameter|
 
 ### <a name="CcIpLimitSpec">CcIpLimitSpec</a>
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**ccSpeedLimit**|Integer|False||Speed limit of each CC defense IP|
 |**ccSpeedPeriod**|Integer|False||Speed limit statistic period of each CC defense IP|
 
-## 返回参数
-|名称|类型|描述|
+## Return parameter
+|Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
 
 
 
-## 返回码
-|返回码|描述|
+## Return code
+|Return code|Description|
 |---|---|
 |**200**|OK|
 |**404**|NOT_FOUND|

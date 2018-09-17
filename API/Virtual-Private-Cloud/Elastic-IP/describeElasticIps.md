@@ -1,47 +1,47 @@
 # describeElasticIps
 
 
-## 描述
+## Description
 Query elastic ip list
 
-## 请求方式
+## Request method
 GET
 
-## 请求地址
+## Request address
 https://vpc.jdcloud-api.com/v1/regions/{regionId}/elasticIps/
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**regionId**|String|True||Region ID|
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**filters**|[Filter[]](##Filter)|False||elasticIpIds - elasticip id array conditions, support multiple Ids<br>elasticIpAddress - eip IP address, support single address<br>chargeStatus	- eip payment status, normal(normal status) or overdue(Pay-In-Advance expired) or arrear(arrear status), support single status<br>|
 |**pageNumber**|Integer|False|1|Page; it is 1 by default, the value range: [1,∞); when the pages exceed total pages, show the last page|
 |**pageSize**|Integer|False|20|Paging size; it is 20 by default; value range: [10, 100]|
 
 ### <a name="Filter">Filter</a>
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**name**|String|True||Name of filter requirements|
 |**operator**|String|False||Operator of filter requirements is eq by default|
 |**values**|String[]|True||Value of filter requirements|
 
-## 返回参数
-|名称|类型|描述|
+## Return parameter
+|Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
 |**result**|[Result](##Result)|Returned results|
 
 
 ### <a name="Result">Result</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**elasticIps**|[ElasticIp[]](##ElasticIp)|elasticIp resource information list|
 |**totalCount**|Integer|Total number|
 ### <a name="ElasticIp">ElasticIp</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**bandwidthMbps**|Integer|Elastic ip speed limit (unit: Mbps)|
 |**charge**|[Charge](##Charge)|Billing configuration|
@@ -54,7 +54,7 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/elasticIps/
 |**privateIpAddress**|String|IPV4 address of private IP|
 |**provider**|String|IP service provider, values include bgp or no_bgp|
 ### <a name="Charge">Charge</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**chargeExpiredTime**|String|Expiration time, i.e. the expiration time of Pay-In-Advance resource, which shall be subject to ISO8601, with the UTC time used in the format of YYYY-MM-DDTHH:mm:ssZ. Pay-As-You-Go resource field is blank.|
 |**chargeMode**|String|Payment model, the value shall be prepaid_by_duration, postpaid_by_usage or postpaid_by_duration; prepaid_by_duration refers to Pay-In-Advance; postpaid_by_usage refers to Pay By Consumption and Pay-As-You-Go; postpaid_by_duration refers to Pay By Configuration and Pay-As-You-Go, and is postpaid_by_duration by default|
@@ -62,8 +62,8 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/elasticIps/
 |**chargeStartTime**|String|The start time of the billing shall be subject to ISO8601, with the UTC time used in the format of YYYY-MM-DDTHH:mm:ssZ|
 |**chargeStatus**|String|Cost payment status, the value is respectively normal, overdue and arrear.|
 
-## 返回码
-|返回码|描述|
+## Return code
+|Return code|Description|
 |---|---|
 |**200**|OK|
 |**400**|invalid parameter|
