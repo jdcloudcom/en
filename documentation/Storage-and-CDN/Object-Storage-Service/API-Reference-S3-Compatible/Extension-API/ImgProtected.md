@@ -70,7 +70,7 @@ Cache-Control: no-cache
 
 ## GET Bucket ImgProtected Condition
 
-Get Configuration of bucket original image protection
+Get configuration of bucket original image protection
 
 Request Grammar
 ```

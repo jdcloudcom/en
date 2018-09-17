@@ -4,7 +4,7 @@ According to [Domain Name Validation Principle](http://www.jcloud.com/help/detai
 
 The following is an example of www.jddnstest.com, which shows the corresponding test methods and steps on the Windows and Linux platforms, respectively. The jddnstest.com resolution has been added through the cloud resolution console, the NS address has been modified to the cloud resolution address ns1.jdgslb.com/ns2.jdgslb.com, and the A record address of www.jddnstest.com is configured.
 
-## **Windows Platform Test Methods and Steps: **
+## **Windows Platform Test Methods and Steps:**
 
 The Windows platform can use the system command ping and nslookup, implement the command and test in the CMD window.
 
@@ -12,7 +12,7 @@ I. Test whether the resolution record has taken effect in customer/Local DNS
 
 Operation Steps:
 
-1. Open the Windows command line window, click Start->All Programs->Attachment->Command Prompt
+1. Open the Windows command line window, click **Start**->**All Programs**->**Attachment**->**Command Prompt**
 
 2. In the CMD window, execute the command ping www.jddnstest.com
 
@@ -38,7 +38,7 @@ Test whether the resolution record has taken effect on the cloud resolution serv
 
 You can see that the address of www.jddnstest.com was successfully obtained on the customer, and the result is returned by the cloud resolution server.
 
-## **Linux Platform Test Methods and Steps: **
+## **Linux Platform Test Methods and Steps:**
 
 The Linux platform can take the ping and dig commands and test through command lines.
 

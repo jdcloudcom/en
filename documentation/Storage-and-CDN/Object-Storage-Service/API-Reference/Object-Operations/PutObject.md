@@ -33,7 +33,7 @@ Detail Analysis:
 
 4. End-to-end verification may be carried out by client through HTTP header Content-MD5 to guarantee the completeness of the uploaded data. Before uploading, the client will compute the Content-MD5 value of uploaded data, and upload the value together with data to cloud storage. After the cloud storage receives the data, it will compute the Content-MD5 value of the received data again, compare it with the Content-MD5 provided by the client, and save the data to the cloud storage only when the Content-MD5 values match with each other, or the server will return error and the uploading fails.
 
-5. If the “Content-Length” value in request header is shorter than the data length transmitted in actual request body (body), OSS will fail to upload files, and the uploaded data will be discarded.
+5. If the "Content-Length" value in request header is shorter than the data length transmitted in actual request body (body), OSS will fail to upload files, and the uploaded data will be discarded.
 
 6. If Content length parameter is not added to Head, 400 Length Required error will be returned. Error code: MissingContentLength
 

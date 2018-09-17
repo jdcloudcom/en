@@ -7,26 +7,26 @@ You need a domain name and get the machine IP address (or email MX record) from 
 
 2. Set domain name resolution
 
-On JD Cloud [Console], enter the domain name management list, click resolution and point the domain name to the website machine IP address (or e-mail MX record), then you can quickly complete the domain name resolution setting. The specific operation process is as follows:
+On JD Cloud [Console], enter the domain name management list, click **Resolution** and point the domain name to the website machine IP address (or e-mail MX record), then you can quickly complete the domain name resolution setting. The specific operation process is as follows:
 
 A. Enter the domain name resolution setting page
 
-- On JD Cloud [Console], enter the domain name management list, then select the domain name to be operated, click on the resolution operation, and directly enter the resolution operation page.
+- On JD Cloud [Console], enter the domain name management list, then select the domain name to be operated, click **Resolution Operation**, and directly enter the resolution operation page.
 
-![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Domain-Name-and-Website/Image-Domain/jiexi1.jpg)
+![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Domain-Name-&-License/Image-Domain/jiexi1.jpg)
 
-- Click [Add Resolution], select the record type as A record; the machine record is empty, or fill in www; Fill in the machine IP address with record you obtained earlier; resolve the line, and wait for TTL default. Click Save to complete the domain name resolution setting.
+- Click **Add Resolution**, select the record type as A record; the machine record is empty, or fill in www; Fill in the machine IP address with record you obtained earlier; resolve the line, and wait for TTL default. Click **Save** to complete the domain name resolution setting.
 
-![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Domain-Name-and-Website/Image-Domain/jiexi2.jpg)
+![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Domain-Name-&-License/Image-Domain/jiexi2.jpg)
 
 
-![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Domain-Name-and-Website/Image-Domain/jiexi3.jpg)
+![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Domain-Name-&-License/Image-Domain/jiexi3.jpg)
 
-B. DNS check
+B. DNS Check
 
 The domain name resolution service defaults to Xinnet DNS service. However, after modifying the default DNS service or using the DNS service of other third-party company, domain name resolution will no longer be operated on this console.
 
-C. Effective time of resolution
+C. Effective Time of Resolution
 
 The new resolution takes effect immediately after the completion of setting.
 

@@ -2,7 +2,7 @@
 
 Description: create a Redis instance with specified configuration
 
-- Request method
+- Request Method
 
 ```xml 
 POST https://redis.jdcloud-api.com/v1/regions/{regionId}/cacheInstance
@@ -12,7 +12,7 @@ Name|type|required or not |default| description
 ---|:--:|:--:|:--:|---:
 regionId|String|True||Region ID in the region where the Redis instance is located. At present, Redis includes North China, South China, and eastern China regions. The Region ID is cn-north-1, cn-south-1 and cn-east-2 respectively.
 
-- Request parameter
+- Request Parameter
 
 Name|type|required or not|default|description
 ---|:--:|:--:|:--:|---:
@@ -47,22 +47,22 @@ chargeDuration|Integer|False||Pay-In-Advance billing hours, when chargeMode is t
 chargeMode|String|False|postpaid_by_duration|Billing model, the value shall be: prepaid_by_duration, postpaid_by_usage or postpaid_by_duration, prepaid_by_duration indicates Pay-In-Advance; postpaid_by_usage indicates Pay By Configuration and Pay-As-You-Go, with the default of postpaid_by_duration
 chargeUnit|String|False||Pay-In-Advance billing unit, it is valid when chargeMode is prepaid_by_duration; the value is month, year, with the default of month
 
-- Return parameter
+- Return Parameter
 
-Name|type|description
+Name|Type|Description
 ---|:--:|---:
 requestId|String|
 result|Result|
 
 Result
 
-Name|type|description
+Name|Type|Description
 ---|:--:|---:
 cacheInstanceId|String|
 orderNum|String|
 
-Error code
+Error Code
 
-Error code|description
+Error Code|Description
 ---|---:
 200|OK

@@ -1,9 +1,9 @@
-﻿# connection instance
+﻿# Connection Instance
 
 Since the database service provided by Jmiss Redis is completely compatible with the native database service, the way to connect to the database is basically similar. Any clients compatible with Redis protocol can access to Jmiss Redis service, and users can choose any Redis clients according to its application characteristics.
 
 
-# JD Cloud Virtual Machine Redis-cli connection
+# JD Cloud Virtual Machine Redis-cli Connection
 
 The JD Cloud cache Redis can only be accessed with JD Cloud VPC, that is, only when Redis is installed on a virtual machine in the same VPC can it use Redis-cli to establish a connection with Redis and perform data operations.
 

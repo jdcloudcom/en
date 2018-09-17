@@ -17,7 +17,7 @@
         href: Introduction/Specifications.md
       - name: Restrictions
         href: Introduction/Restrictions.md
-      - name: Application Scenario 
+      - name: Application Scenarios 
         href: Introduction/Application-Scenarios.md    
   - name: Pricing
     items:
@@ -29,13 +29,13 @@
         href: Pricing/Price-Overview.md
       - name: Purchase Process
         href: Pricing/Purchase-Process.md 
-      - name: Renewal Process
+      - name: Renew Process
         href: Pricing/Renew-Process.md
   - name: Getting Started
     items:
       - name: Create Instance
         href: Getting-Started/Create-Instance.md
-      - name: Set Whitelist
+      - name: Set White List
         href: Getting-Started/Set-Whitelist.md
       - name: Connection Instance
         href: Getting-Started/Connect-Instance.md
@@ -55,7 +55,7 @@
             href: Operation-Guide/Instance-Management/Renewal-Instructions.md      
           - name: Delete instance
             href: Operation-Guide/Instance-Management/Delete-Instance.md
-      - name: Manage Account
+      - name: Account Management
         items:
           - name: Create Account
             href: Operation-Guide/Account-Management/Create-MongoDB-Account.md
@@ -98,11 +98,11 @@
   - name: Tutorial
     items:
     status: 0
-  - name: Problem Troubleshoot
+  - name: Troubleshooting
     items:
-    - name: Can not Connect the MongoDB Instance with Virtual Machine?
+    - name: Can not Connect the MongoDB Instance with Virtual Machines?
       href: Troubleshooting/Connect-Failed.md
-    - name: Which Commands Are Not Supported by the MongoDB?
+    - name: Which Commands Are Not Supported by the JCS for MongoDB?
       href: Troubleshooting/Command.md
     - name: Account and Password Correct, but No Authority for Connection?
       href: Troubleshooting/Authentication.md        
@@ -112,7 +112,7 @@
     href:
   - name: SDK Reference
     href:
-  - name: User Agreement
+  - name: User Agreements
     status: 0
     items:
     - name: Terms of Service

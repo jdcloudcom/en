@@ -1,9 +1,9 @@
 # Product Overview
 
 
-The MongoDB Service, which is based on MongoDB, is a high-performance NoSQL database service provided by JD Cloud, which is widely accepted in the world. It is fully compatible with MongoDB protocol and provides a highly available architecture of three-node replica set by default. It supports automatic disaster tolerance switching and auto completion of default transfer to ensure service availability, and supports flexible expansion, backup recovery and monitoring alarm, so as to reduce management and maintenance costs and help you focus on the application and business development.
+The MongoDB Service, which is based on JCS for MongoDB, is a high-performance NoSQL database service provided by JD Cloud, which is widely accepted in the world. It is fully compatible with MongoDB protocol and provides a highly available architecture of three-node replica set by default. It supports automatic disaster tolerance switching and auto completion of default transfer to ensure service availability, and supports flexible expansion, backup recovery and monitoring alarm, so as to reduce management and maintenance costs and help you focus on the application and business development.
 
-The MongoDB has the following features:
+The JCS for MongoDB has the following features:
 
 * Automatically build a high-availability architecture of three-node replica set to support automatic disaster tolerance switching.
 * Provide convenient database backup and restore functions, and backup and restore can be done with one click.
@@ -30,4 +30,4 @@ The MongoDB has the following features:
 	- [Set Alarm Rules](../Operation-Guide/Monitoring/Alarm-Rules.md)
 
 ## Billing
-The MongoDB supports two billing types including monthly package and pay by configuration. For more information, please see "[Billing Rules](./ Pricing/ Billing-Rules.md) ".
+The JCS for MongoDB supports two billing types including monthly package and pay by configuration. For more information, please see "[Billing Rules](./ Pricing/ Billing-Rules.md) ".

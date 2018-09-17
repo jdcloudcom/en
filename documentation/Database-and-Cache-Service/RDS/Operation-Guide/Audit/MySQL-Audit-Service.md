@@ -16,4 +16,4 @@ SQL audit will not analyze the actual parameters, and a small number of records 
 
     ![Screenshot](https://img1.jcloudcs.com/cms/0fb72d45-8e54-4ef9-a4c1-a1af3b66421020180319113956.png)
 
-3. Click *** Query *** to see a list of SQL that meets the requirements.
+3. Click ***Query*** to see a list of SQL that meets the requirements.

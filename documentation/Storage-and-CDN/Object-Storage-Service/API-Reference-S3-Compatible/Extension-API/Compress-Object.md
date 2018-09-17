@@ -1,6 +1,6 @@
 # Compress Object
 
-## API description
+## API Description
 
 You can perform package download and other actions through compressing multiple Objects in JD Cloud Object Storage Service into one Object.
 
@@ -129,13 +129,13 @@ The callback retries when the server is temporarily unavailable; the interval ti
 
 The order of the callbacks is not guaranteed, it is not related with the time initiating Compress request and the time of successful generation of CompressObject.
 
-** Callback security**
+**Callback security**
 
 In phase I, the OSS callback mechanism does not include a validation mechanism; a malicious user may forge an OSS callback request to call back your callback service, it is suggested that you can add necessary validation information to the dynamically generated callback address to avoid from being maliciously call-backed.
 
-Use method
+Use Method
 
-Dependent package:
+Dependent Package:
 ```
   <dependency>
   <groupId>com.amazonaws</groupId>
@@ -144,6 +144,6 @@ Dependent package:
   </dependency>
 ```
 
-## Reference example
+## Reference Example
 
 http://oss.cn-north-1.jcloudcs.com/downloads/compress-object-example.zip

@@ -1,6 +1,6 @@
 # Delete Video Task
 
-Description: delete task through video task id
+Description: Delete Task through Video Task id
 
 Request grammar:
 ```
@@ -10,7 +10,7 @@ Date: date
 Authorization: signatureValue#Please refer to Security Verification
 ```
 
-Request example:
+Request Example:
 ```
 DELETE deleteVideoTask&taskId=78fbb093de19fc HTTP/1.1
 Date: Tue, 15 Dec 2015 12:55:54 GMT
@@ -21,7 +21,7 @@ Connection: Keep-Alive
 User-Agent: JFS-JCLOUD-SDK-JAVA/1.0.0 (Java 1.8.0_45; Vendor Oracle Corporation; Windows 7 6.1; HttpClient 4.2.1)
 ```
 
-Response example:
+Response Example:
 ```
 HTTP/1.1 200 OK
 x-jss-request-id: BBDC82A4C4B61A5F

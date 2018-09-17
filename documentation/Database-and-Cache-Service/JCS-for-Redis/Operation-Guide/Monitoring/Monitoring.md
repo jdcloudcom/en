@@ -4,13 +4,13 @@ Currently, there are six types of monitoring: Memory Usage, Memory Utilization R
 
 1. Log in to the [Redis Console](https://redis-console.jdcloud.com/redis) to locate the target instance.
 
-2. Click Instance Name to go to the Details of the instance.
+2. Click **Instance Name** to go to the details of the instance page.
 
-3. In the navigation tab above, select Monitoring.
+3. In the navigation tab above, select **Monitoring**.
 
-4. Select Monitoring Time to view.
+4. Select **Monitoring Time** to view.
 
-5. In the upper right corner, you can set the alarm rules, or click to enter the alarm rules page of Cloud Monitor.
+5. In the upper right corner, you can set the alarm rules, or click to enter the alarm rules page of Monitoring.
 
 
 ## Monitoring Items
@@ -31,6 +31,6 @@ Currently, there are six types of monitoring: Memory Usage, Memory Utilization R
 
 Currently, a line chart is displayed. The minimum period of sampling data is 1 minute. The display time is 1 hour, 6 hours, 12 hours, 1 day, 3 days, 7 days and 14 days. You can also select the date range by yourself.
 
-If you want to view more detailed monitoring indicator data, please visit the Cloud Monitor menu.
+If you want to view more detailed monitoring indicator data, please visit the Monitoring menu.
 
 ![监控图](https://github.com/jdcloudcom/cn/tree/edit/image/Redis/monitoring.png)

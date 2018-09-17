@@ -1,5 +1,5 @@
 ## Report Monitoring Data
-The function of Customized Metric Monitoring provides you with an interface for reporting monitoring data, so that you can report the time series data collected by yourself to the Cloud Monitor. Currently, the method of OpenAPI is supported to report, and the original data and the aggregated statistics can be reported.
+The feature of Customized Metric Monitoring provides you with an interface for reporting monitoring data, so that you can report the time series data collected by yourself to the Monitoring. Currently, the method of OpenAPI is supported to report, and the original data and the aggregated statistics can be reported.
 
 ### Reporting Interface Description
 
@@ -16,7 +16,7 @@ cn-east-2 |monitor.cn-east-2.jdcloud-api.com
 
 3. Support batch reporting mode. A single request can contain up to 50 data points; the data size shall not exceed 256k.
 
-Note: For Getting Started Guide on OpenAPI, please see the <a href="www.jdcloud.com">public description</a>
+Note: For Getting Started on OpenAPI, please see the <a href="www.jdcloud.com">public description</a>
 
 ### Request Method
 
@@ -72,7 +72,7 @@ Name | Type
 
 ### Sample Code
 
-Request sample
+Request Sample
 ```
 [
 

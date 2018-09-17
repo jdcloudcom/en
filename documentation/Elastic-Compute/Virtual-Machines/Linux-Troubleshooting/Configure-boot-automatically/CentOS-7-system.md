@@ -209,7 +209,7 @@ The service has been created so far. By rebooting the system, you will find that
 
 Here is an example of setting up the SSSH startup at boot:
 
-#View Whether the SSHD Service is Started.
+# View Whether the SSHD Service is Started.
 
 *systemctl status sshd*
 

@@ -31,7 +31,7 @@ Add:
 
 Temporarily Effective Mode:
 
-Direct execute
+Direct Execute
 
 
 *export PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin*

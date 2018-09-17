@@ -1,4 +1,4 @@
-# Image rotation
+# Image Rotation
 
 Rotate the image as required.
 

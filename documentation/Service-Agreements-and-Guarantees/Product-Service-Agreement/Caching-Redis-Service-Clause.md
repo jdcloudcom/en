@@ -1,10 +1,10 @@
-**The Service Terms is the valid agreement between the owner of the JD Cloud website (referred to in this Agreement as “JD Cloud” website: www.jdcloud.com) and you on matters relating to Redis of JD Cloud. By stamping, clicking to confirm on the web page, or other ways to accept the Service Terms, including but not limited to the actual use of Redis service of JD Cloud without clicking to confirm the Service Terms, you have reached an agreement with JD Cloud and agreed to accept all agreed contents of the Service Terms. In case of any inconsistency between the text stamped by both parties and the text of Service Terms accepted and confirmed by clicking the web page or other ways, the text stamped by both parties shall prevail.**
+**The Service Terms is the valid agreement between the owner of the JD Cloud website (referred to in this Agreement as "JD Cloud" website: www.jdcloud.com) and you on matters relating to Redis of JD Cloud. By stamping, clicking to confirm on the web page, or other ways to accept the Service Terms, including but not limited to the actual use of Redis service of JD Cloud without clicking to confirm the Service Terms, you have reached an agreement with JD Cloud and agreed to accept all agreed contents of the Service Terms. In case of any inconsistency between the text stamped by both parties and the text of Service Terms accepted and confirmed by clicking the web page or other ways, the text stamped by both parties shall prevail.**
 
-**For the Service Terms, you are reminded to pay special attention to the restriction and exemption terms, determination and handling terms of JD Cloud on your violations and breach of contract, and the selection terms of jurisdictional courts. Restriction and exemption terms may be indicated in bold or by underline for your attention. You should carefully read the entire contents of the Service Terms before accepting the Service Terms. If you have any questions about the Service Terms, please contact the relevant business department of JD Cloud and JD Cloud will explain the terms to you. If you do not agree on any of the contents of the Service Terms, or cannot accurately understand the interpretation of these terms made by JD Cloud, please do not continue the operation. **
+**For the Service Terms, you are reminded to pay special attention to the restriction and exemption terms, determination and handling terms of JD Cloud on your violations and breach of contract, and the selection terms of jurisdictional courts. Restriction and exemption terms may be indicated in bold or by underline for your attention. You should carefully read the entire contents of the Service Terms before accepting the Service Terms. If you have any questions about the Service Terms, please contact the relevant business department of JD Cloud and JD Cloud will explain the terms to you. If you do not agree on any of the contents of the Service Terms, or cannot accurately understand the interpretation of these terms made by JD Cloud, please do not continue the operation.**
 
 ## 1. Service Content
 
-1.1 “Service” in the terms refers to the live Redis service and related technical and network support services that JD Cloud provides to you at www.jdcloud.com.
+1.1 "Service" in the terms refers to the live Redis service and related technical and network support services that JD Cloud provides to you at www.jdcloud.com.
 
 ​1.2. The service provided by JD Cloud must comply with the provisions of the Service Terms.
 
@@ -48,7 +48,7 @@ You understand and acknowledge that the above list does not cover all types of l
 
 3.1.3.3 If the services of JD Cloud involve the license of third-party software, you agree to abide by the relevant license agreement;
 
-3.1.3.4 Do Not Intersperse Email Ads or SPAMs: Do not use the services provided by JD Cloud to intersperse a large number of undesired or uncalled emails, electronic advertising or emails containing reactionary information, pornographic information or other harmful information;
+3.1.3.4 Do not intersperse Email Ads or SPAMs: Do not use the services provided by JD Cloud to intersperse a large number of undesired or uncalled emails, electronic advertising or emails containing reactionary information, pornographic information or other harmful information;
 
 3.1.3.5 The Redis provided by JD Cloud shall not be used as disk space for rent;
 
@@ -178,7 +178,7 @@ You understand and acknowledge that the above list does not cover all types of l
 
 9.1 Due to force majeure or other accidents, the performance of this Service Terms becomes impossible, unnecessary or meaningless, and the party suffering from force majeure or accident is not liable.
 
-9.2. Force majeure or accidental events refer to unforeseeable, insurmountable and unavoidable objective events that have a significant impact on one or both parties, including but not limited to natural disasters such as floods, earthquakes, epidemics of plagues, and social events such as war, unrest, government actions, interruption of telecommunications trunk lines, hackers, network path blocking, technical adjustment of telecom department and government regulation.
+9.2. Force majeure or accidental events refer to unforeseeable, insurmountable and unavoidable objective events that have a significant impact on one or both parties, including but not limited to natural disasters such as floods, earthquakes, epidemics of plagues, and social events such as war, unrest, government actions, and interruption of telecommunications trunk lines, hackers, network path blocking, technical adjustment of telecom department and government regulation.
 
 ## 10. Governing Law and Dispute Resolution
 

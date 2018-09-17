@@ -1,10 +1,10 @@
 # Domain Status
 
-1. Pre-registration status
+1. Pre-registration Status
 
 After the domain name payment is complete, we will submit your registration information to the Registration Authority for review. In this state, the domain name is pre-registered. If the registered information is in the normal state after passing the registration authority, the domain name is normal. If your enrollment information contains non-routine information that may be rejected, we will return your payment amount to the balance. The moderate domain name pre-registration state is in the instantaneous state, not more than 5 minutes. If the domain name has been pre-registered and has been paid for success, please contact our customer service.
 
-2. Interpretation of domain name status in whois
+2. Interpretation of Domain Name Status in whois
 
 When viewing the domain name whois, there is a "Domain Name Status" column. Each domain name has its current status and may have only one or more statuses. Understanding the meaning of various domain names helps you understand why the domain name is in different statuses and take appropriate and timely action.
 
@@ -42,7 +42,7 @@ pending Transfer: under transferring process
 
 pending Verification: domain name verification period (the real-name verification is not completed after the registration of a domain name, and the materials shall be submitted for verification as early as possible and within 5 days, if failed, it will enter into Server Hold status)
 
-3. Expiration status of domain name
+3. Expiration Status of Domain Name
 
 A. Within 1 to 45 days after the domain name expires, it will be in the REGISTRAR HOLD status (under retention by the registrar):
 

@@ -9,15 +9,15 @@ Via JD Cloud Console, you can renew the currently running instance. Please renew
 ## Operation Steps
 
 1. Login [MongoDB Console](https://mongodb-console.jdcloud.com/mongodb?dataCenter=bj_02).
-1. Enter the “Instance List” page, select the target instance, and click **Renew ** in the operation items to open the “Renewal” page.
+1. Enter the "Instance List" page, select the target instance, and click **Renew ** in the operation items to open the "Renewal" page.
 
    ![](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-037.png)
 
-1. On the “Renewal” page, select the duration of time you want to renew and read the Terms of Service for MongoDB.
+1. On the "Renewal" page, select the duration of time you want to renew and read the Terms of Service for JCS for MongoDB.
 
    ![](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-038.png)
 
-1. Confirm the information without mistakes, click ** to Pay **, and complete the payment process.
+1. Confirm the information without mistakes, click **to Pay**, and complete the payment process.
 
 1. After the renewal is complete, you can view the latest expiration time for the instance on the "Instance List" page or the "Instance Details" page.
 

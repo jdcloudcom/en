@@ -22,7 +22,7 @@ Note: Do not check SSL, and use signature revision 4
 
 After filling in the above information, click Test Connect to check whether it can connect to cloud storage. After confirming connection, click OK to save the account.
 
-3. Data management
+3. Data Management
 
 Go back to the program main interface, select the account test-cloudberry you just created and the results are shown below; then you can operate data.
 

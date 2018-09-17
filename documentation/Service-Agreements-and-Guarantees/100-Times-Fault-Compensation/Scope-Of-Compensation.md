@@ -1,5 +1,5 @@
 # # Compensation Range
-The inability to work properly of JD Cloud digivoice big data platform/virtual machine/ load balancer/cloud database/cloud storage caused by JD Cloud failure, and the inability of normal websites' access caused by JD Cloud failure, JD Cloud will compensate the unavailable using time, yet not including the unavailable using time caused by the following reasons:
+The inability to work properly of JD Cloud Digivoice Big Data Analysis Platform/virtual machine/Load Balancer/cloud database/cloud storage caused by JD Cloud failure, and the inability of normal websites' access caused by JD Cloud failure, JD Cloud will compensate the unavailable using time, yet not including the unavailable using time caused by the following reasons:
 <br />
 1. Caused by the system maintenance procedures after JD Cloud's notification in advance, including cutting, maintenance, upgrading and simulated failure drill;
 2. Packet loss and delay caused by operators' failure;

@@ -11,7 +11,7 @@ When problems are found in connection or performance of the MySQL/Percona servic
 3. Select the tag of ***Read-only Instance Management***, open the read-only instance management page, select the read-only instance to be rebooted and click ***Reboot*** in ***Operation*** column to reboot the read-only instance.
 4. Popup box for the reboot confirmation is shown in the figure.
     * Click ***OK*** to reboot the read-only instance.
-    * Click ***Cancel *** to cancel the read-only instance rebooting.
+    * Click ***Cancel*** to cancel the read-only instance rebooting.
 
 ![image2018-5-31 19_5_23.png](https://img1.jcloudcs.com/cms/e15dfed8-47a9-4ec8-b131-fd8a329e253720180531190633.png)
 

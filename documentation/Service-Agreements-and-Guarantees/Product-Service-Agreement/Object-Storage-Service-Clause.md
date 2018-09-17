@@ -1,10 +1,10 @@
-**This Service Terms is a valid agreement between the owner of the JD Cloud website (referred to in this Agreement as “JD Cloud” website: www.jdcloud.com) and you on matters relating to the object storage service of JD Cloud. By stamping, clicking to confirm on the web page, or other ways to accept the Service Terms, including but not limited to the actual use of object storage service of JD Cloud without clicking to confirm the Service Terms, you have reached an agreement with JD Cloud and agreed to accept all agreed contents of the Service Terms. In case of any inconsistency between the text stamped by both parties and the text of Service Terms accepted and confirmed by clicking the web page or other ways, the text stamped by both parties shall prevail.**
+**This Service Terms is a valid agreement between the owner of the JD Cloud website (referred to in this Agreement as "JD Cloud" website: www.jdcloud.com) and you on matters relating to the Object Storage Service of JD Cloud. By stamping, clicking to confirm on the web page, or other ways to accept the Service Terms, including but not limited to the actual use of Object Storage Service of JD Cloud without clicking to confirm the Service Terms, you have reached an agreement with JD Cloud and agreed to accept all agreed contents of the Service Terms. In case of any inconsistency between the text stamped by both parties and the text of Service Terms accepted and confirmed by clicking the web page or other ways, the text stamped by both parties shall prevail.**
 
-**For the Service Terms, you are reminded to pay special attention to the restriction and exemption terms, determination and handling terms of JD Cloud on your violations and breach of contract, and the selection terms of jurisdictional courts. Restriction and exemption terms may be indicated in bold or by underline for your attention. You should carefully read the entire contents of the Service Terms before accepting the Service Terms. If you have any questions about the Service Terms, please contact the relevant business department of JD Cloud and JD Cloud will explain the terms to you. If you do not agree on any of the contents of the Service Terms, or cannot accurately understand the interpretation of these terms made by JD Cloud, please do not continue the operation. **
+**For the Service Terms, you are reminded to pay special attention to the restriction and exemption terms, determination and handling terms of JD Cloud on your violations and breach of contract, and the selection terms of jurisdictional courts. Restriction and exemption terms may be indicated in bold or by underline for your attention. You should carefully read the entire contents of the Service Terms before accepting the Service Terms. If you have any questions about the Service Terms, please contact the relevant business department of JD Cloud and JD Cloud will explain the terms to you. If you do not agree on any of the contents of the Service Terms, or cannot accurately understand the interpretation of these terms made by JD Cloud, please do not continue the operation.**
 
 ## **1. Service Content**
 
-1.1 "Services" in the terms means: JD Cloud provides you with the object storage service of JD Cloud and related technical and network support services displayed on the website [www.jdcloud.com](https://www.jdcloud.com/index).
+1.1 "Services" in the terms means: JD Cloud provides you with the Object Storage Service of JD Cloud and related technical and network support services displayed on the website [www.jdcloud.com](https://www.jdcloud.com/index).
 
 ​1.2. The service provided by JD Cloud must comply with the provisions of the Service Terms.
 
@@ -32,7 +32,7 @@
 
 ​3.1.3.1 If you use the services provided by JD Cloud to conduct operating or non-operating activities that require the license or approval of the relevant national authorities, you shall obtain the relevant license or approval. including but not limited to the following:
 
-If your website uses the object storage service of JD Cloud to store data, you must ensure that your website is licensed or approved by the relevant national authorities;
+If your website uses the Object Storage Service of JD Cloud to store data, you must ensure that your website is licensed or approved by the relevant national authorities;
 
 If your website provides non-operating Internet information services, you must fill the non-operating website on the record, and ensure that all the filling information submitted is true and effective, and submit the updated information in the filing system in a timely manner when the filing information changes;
 
@@ -52,7 +52,7 @@ If you are engaged in Internet information services such as news, publishing, ed
 
 3.1.3.3 If the services of JD Cloud involve the license of third-party software, you agree to abide by the relevant license agreement;
 
-3.1.3.4 Do Not Intersperse Email Ads or SPAMs: Do not use the services provided by JD Cloud to intersperse a large number of undesired or uncalled emails, electronic advertising or emails containing reactionary information, pornographic information or other harmful information;
+3.1.3.4 Do not intersperse Email Ads or SPAMs: Do not use the services provided by JD Cloud to intersperse a large number of undesired or uncalled emails, electronic advertising or emails containing reactionary information, pornographic information or other harmful information;
 
 3.1.3.5 Do not use the resources and services provided by JD Cloud to upload, download, store, and release the following information or contents and do not provide any convenience for others to release such information (including but not limited to setting URL, BANNER links, etc.):
 
@@ -82,7 +82,7 @@ If you are engaged in Internet information services such as news, publishing, ed
 
 3.1.3.10 In case that JD Cloud discovers you have violated the above provisions, we have the right to take corresponding measures based on the actual conditions, including but not limited to immediately terminating and suspending the service or deleting corresponding information. If a third-party organization or an individual raises a question or complaint against you, JD Cloud will inform you that you are responsible for making explanations and issuing the supporting evidences within the specified time. If you fail to provide contrary evidence or provide feedback within the time limit, JD Cloud will take measures including but not limited to stopping or suspending services immediately or deleting relevant information. If you do not update your contact information or the contact information is incorrect that leads to failure of contacting you, you will be deemed you fail to provide feedback within the time limit.
 
-3.1.4 You understand and agree that the state secrets of the People's Republic of China are protected by law. You have the obligation to keep the state secrets of the PRC. You shall comply with the requirements of relevant confidential laws and regulations when using the JD Cloud's object storage, and shall not endanger the security of the state secrets of the PRC, otherwise you will be investigated by relevant laws.
+3.1.4 You understand and agree that the state secrets of the People's Republic of China are protected by law. You have the obligation to keep the state secrets of the PRC. You shall comply with the requirements of relevant confidential laws and regulations when using the JD Cloud's Object Storage Service, and shall not endanger the security of the state secrets of the PRC, otherwise you will be investigated by relevant laws.
 
 3.1.5 You should not install or use any pirated software on the JD Cloud service platform, otherwise you are solely responsible for the results of your actions (such as software installation and operation by yourself).
 
@@ -92,11 +92,11 @@ If you are engaged in Internet information services such as news, publishing, ed
 
 3.1.8 You shall submit to JD Cloud the contacts who implement the Service Terms and the list of personnel managing products and services on the user network and cloud platform and their and contact information, and shall provide necessary assistance. If the above personnel change, you should update the information online and notify JD Cloud in time. You are responsible for the untrue, inaccurate or incomplete identity information provided by you as well as the consequences caused by the matters above.
 
-3.1.9 You must keep the access log records of your website in accordance with the Regulations on Internet Information Service Management and Regulations on Internet Electronic Bulletin Service Management and other laws and regulations, including the published information content and its release time, IP, domain names, etc. When inquired by the relevant governmental organs, you shall provide relevant information in accordance with the laws. You are solely responsible for all legal liabilities arising from the failure of keeping relevant records as required.
+3.1.9 You must keep the access log records of your website in accordance with the Regulations on Internet Information Service Management, Regulations on Internet Electronic Bulletin Service Management and other laws and regulations, including the published information content and its release time, IP, domain names, etc. When inquired by the relevant governmental organs, you shall provide relevant information in accordance with the laws. You are solely responsible for all legal liabilities arising from the failure of keeping relevant records as required.
 
 3.1.10 In view of limitation of the existing technology development level in this industry, you understand that JD Cloud cannot guarantee that the services it provides are flawless (for example, security products of JD Cloud cannot guarantee the absolute security of your hardware or software), but it promises to improve the service quality and service levels continuously. Therefore, you agree even if the services provided by JD Cloud have defects, the above-mentioned defects are unavoidable due to the technical level in the industry at the time, and it will not be regarded as JD Cloud's default. You agree to cooperate with JD Cloud to solve the above problems.
 
-3.1.11 Data backup is your obligation and responsibility. Although the object storage service of JD Cloud may be configured with data backup function, it does not mean that data backup is the responsibility of JD Cloud. JD Cloud does not guarantee full backup of user data, nor does it assume any responsibility for user data backup work or results.
+3.1.11 Data backup is your obligation and responsibility. Although the Object Storage Service of JD Cloud may be configured with data backup function, it does not mean that data backup is the responsibility of JD Cloud. JD Cloud does not guarantee full backup of user data, nor does it assume any responsibility for user data backup work or results.
 
 3.2 Rights and Obligations of JD Cloud
 
@@ -158,7 +158,7 @@ If you are engaged in Internet information services such as news, publishing, ed
 
 7.3.2 If you are in severe breach of the Service Terms (including but not limited to: a. You failed to fulfill your payment obligations in accordance with the Agreement, and/or b. You have severely violated the law, etc.), JD Cloud reserves the right to terminate the service in advance and you shall still pay the outstanding fee; if you fail to fulfill the payment obligation as agreed, JD Cloud will suspend and terminate the service as stipulated below:
 
-7.3.2.1 You can continue to use the object storage service of JD Cloud for 24h from the first arrears; if, 24h later, you still fail to recharge it successfully and enough to pay the service fees owed, JD Cloud will suspend the service and freeze the operation of the object storage service under your account, but still store your data and continue to bill;
+7.3.2.1 You can continue to use the Object Storage Service of JD Cloud for 24h from the first arrears; if, 24h later, you still fail to recharge it successfully and enough to pay the service fees owed, JD Cloud will suspend the service and freeze the operation of the Object Storage Service under your account, but still store your data and continue to bill;
 
 7.3.2.2 If you have not recharged successfully and the account balance is insufficient to cover the service fees owed at the expiration time of the 15th day after the service from JD Cloud is suspended (from the time when the suspension of the service is suspended to the expiration of the same time on the 15th day), JD Cloud will terminate the Service Terms and stop providing services for you. Meanwhile, all the data you have saved in JD Cloud will be deleted and cleared and will never be recovered.
 
@@ -184,7 +184,7 @@ If you are engaged in Internet information services such as news, publishing, ed
 
 9.1 Due to force majeure or other accidents, the performance of this Service Terms becomes impossible, unnecessary or meaningless, and the party suffering from force majeure or accident is not liable.
 
-9.2. Force majeure or accidental events refer to unforeseeable, insurmountable and unavoidable objective events that have a significant impact on one or both parties, including but not limited to natural disasters such as floods, earthquakes, epidemics of plagues, and social events such as war, unrest, government actions, interruption of telecommunications trunk lines, hackers, network path blocking, technical adjustment of telecom department and government regulation.
+9.2. Force majeure or accidental events refer to unforeseeable, insurmountable and unavoidable objective events that have a significant impact on one or both parties, including but not limited to natural disasters such as floods, earthquakes, epidemics of plagues, and social events such as war, unrest, government actions, and interruption of telecommunications trunk lines, hackers, network path blocking, technical adjustment of telecom department and government regulation.
 
 ## **10. Governing Law and Dispute Resolution**
 

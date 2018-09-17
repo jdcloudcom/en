@@ -7,7 +7,7 @@ The action is used to delete an Object.
 DELETE  /ObjectName HTTP/1.1
 Host: BucketName. s.jcloud.com
 Date: GMT  Date     
-Authorization:   signatureValue#Please refer to “Identity and Access Management”
+Authorization:   signatureValue#Please refer to "Identity and Access Management"
 ```
 
 Detail Analysis:

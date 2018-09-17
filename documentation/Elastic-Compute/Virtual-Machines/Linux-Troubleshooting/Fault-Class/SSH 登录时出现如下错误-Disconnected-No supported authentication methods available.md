@@ -8,7 +8,7 @@ Note: The configuration and instructions of Linux in this article have been test
 
 **Problem Description:**
 
-When logging in to a Linux virtual machine using SSH, even if the password is entered correctly, an error message as follows appears:
+When logging in to a Linux Virtual Machines using SSH, even if the password is entered correctly, an error message as follows appears:
 
 *Permission denied (publickey,gssapi-keyex,gssapi-with-mic).*
 

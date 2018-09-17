@@ -1,12 +1,12 @@
 # Personal Real-name Verification Guideline
 You can complete personal real-name verification through JD Finance. For more details, please visit My JD (http://home.jd.com) > Account Setting > Account Security > Real-Name Verification > Verify Now.
 
-You can also select personal real-name verification in JD Cloud Account Management > Real-name Verification to perform “Verify Now”.
+You can also select **Personal Real-name Verification** in JD Cloud Account Management > Real-name Verification to perform **Verify Now**.
 <div align=center><img src=https://github.com/jdcloudcom/cn/blob/edit/image/User/Real%20name%20verification/%E4%B8%AA%E4%BA%BA%E8%AE%A4%E8%AF%81-%E7%AB%8B%E5%8D%B3%E8%AE%A4%E8%AF%81.png></div>
 
 ## New User Verification
 
-If you have never performed the personal real-name verification on the website of JD Group, please select the newly verified user. When filling in the bank card number, please select the deposit card or credit card of the supported bank. For supported banks, please check【Supported Banks】.
+If you have never performed the personal real-name verification on the website of JD Group, please select the newly verified user. When filling in the bank card number, please select the deposit card or credit card of the supported bank. For supported banks, please check **Supported Banks**.
 <div align=center><img src=https://github.com/jdcloudcom/cn/blob/edit/image/User/Real%20name%20verification/%E4%B8%AA%E4%BA%BA%E8%AE%A4%E8%AF%81-%E6%96%B0%E7%94%A8%E6%88%B7%E8%AE%A4%E8%AF%81.png></div>
 
 
@@ -15,25 +15,25 @@ If you receive the following notification during real-name verification, which i
 
 In such case,
 
- 1. If you have never used this certificate to perform personal real-name verification for any JD Group account, please click “Get Back by Appealing” and submit an appeal application;
+ 1. If you have never used this certificate to perform personal real-name verification for any JD Group account, please click **Get Back by Appealing** and submit an appeal application;
     
  2. If your JD Cloud account is an enterprise account, please perform enterprise real-name verification to avoid possible account ownership disputes; and
 
- 3. If you confirm that you have performed personal real-name verification on any website of JD Group, and you remember information on the verified account, please select “Associate Verified Account”.
+ 3. If you confirm that you have performed personal real-name verification on any website of JD Group, and you remember information on the verified account, please select **Associate Verified Account**.
 
 ## Associate Verified Account
 When associate verified account, you need to provide the JD account user name that has undergone personal real-name verification with your identity document. You can log in to My JD (http://home.jd.com) with your verified account to view it on the personal information page.
 <div align=center><img src=https://github.com/jdcloudcom/cn/blob/edit/image/User/Real%20name%20verification/%E4%B8%AA%E4%BA%BA%E8%AE%A4%E8%AF%81-%E8%AE%A4%E8%AF%81%E8%B4%A6%E5%8F%B7%E7%BB%91%E5%AE%9A1.png></div>
 
 
-Fill in the user name verified with real name into the verified JD account and click “Associate Now”:
+Fill in the user name verified with real name into the verified JD account and click **Bind Now**:
 <div align=center><img src=https://github.com/jdcloudcom/cn/blob/edit/image/User/Real%20name%20verification/%E4%B8%AA%E4%BA%BA%E8%AE%A4%E8%AF%81-%E8%AE%A4%E8%AF%81%E8%B4%A6%E5%8F%B7%E7%BB%91%E5%AE%9A2.png></div>
 
 To ensure that you are the owner of the verified account, the mobile phone number of the verified account needs to be verified. After the verification, the personal real-name verification is completed. Your personal real name information will be the same as the verified account:
 <div align=center><img src=https://github.com/jdcloudcom/cn/blob/edit/image/User/Real%20name%20verification/%E4%B8%AA%E4%BA%BA%E8%AE%A4%E8%AF%81-%E8%AE%A4%E8%AF%81%E8%B4%A6%E5%8F%B7%E7%BB%91%E5%AE%9A3.png></div>
 
 
-【Exception Handling】
+**Exception Handling**
  - If the following notification pops up when you associate verified account, it indicates that your verified account is not currently associated with a mobile phone number in My JD.
 <div align=center><img src=https://github.com/jdcloudcom/cn/blob/edit/image/User/Real%20name%20verification/%E4%B8%AA%E4%BA%BA%E8%AE%A4%E8%AF%81-%E8%AE%A4%E8%AF%81%E8%B4%A6%E5%8F%B7%E7%BB%91%E5%AE%9A-%E5%BC%82%E5%B8%B8%E6%83%85%E5%86%B51.png></div>
 

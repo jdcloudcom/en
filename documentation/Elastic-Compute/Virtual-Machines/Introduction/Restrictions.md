@@ -14,7 +14,7 @@
 * The multicast protocol is not supported at this time. It is recommended to use the unicast peer-to-peer method instead.
 * Windows Server instance supports password login, and Linux system instance supports password and key pair login.
 
-## Other Limits
+## Other Restrictions
 Constraints|Constraint Rules|Exception Application Mode   
 :---|:---|:---     
 Optional VM Instance Specifications|See VM Instance Specifications|Open Ticket 
@@ -26,10 +26,10 @@ Single Region Elastic IP Quota|10|Open Ticket
 Single VPC Security Group Quota|50|Open Ticket  
 Single Region Private Image Quota|5|Open Ticket  
 Single Region Shared Image Quota|5 (acceptable for no more than 5)|Adjustment Not Supported
-Quota of Cloud Disk Service Attached to Single Virtual Machine|8 (SSD Cloud Disk or Premium Hdd Cloud Disk)|Adjustment Not Supported       
-Quota of Elastic IP Associated to Single Virtual Machine |1|Adjustment Not Supported        
-Quota of Security Group Associated toc Single Virtual Machine|5|Adjustment Not Supported    
-Quota of Key Pair Associated to Single Virtual Machine|1|Adjustment Not Supported     
+Quota of Cloud Disk Service Attached to Single Virtual Machines|8 (SSD Cloud Disk or Premium Hdd Cloud Disk)|Adjustment Not Supported       
+Quota of Elastic IP Associated to Single Virtual Machines |1|Adjustment Not Supported        
+Quota of Security Group Associated toc Single Virtual Machines|5|Adjustment Not Supported    
+Quota of Key Pair Associated to Single Virtual Machines|1|Adjustment Not Supported     
 System Disk Type and Capacity|40GB Local Disk for Free and Adjustment Not Supported<br>Cloud Disk Service 40~500GB (in beta)|Local Disk Capacity Adjustment Not Supported   
 Data Disk Type and Capacity|All are Cloud Disk Services<br>SSD Cloud Disk: 20GB~1,000GB<br>Premium Hdd Cloud Disk: 20GB~​​3000GB|Adjustment Not Supported            
 Single Security Group Rules Quota|Total Outbound and Inbound Rules No More Than 100|Adjustment Not Supported    

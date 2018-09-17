@@ -12,7 +12,7 @@ MySQL/Percona service read-only instance is a single-node architecture that sync
 1. Login [RDS Console](https://rds-console.jdcloud.com/database).
 2. Select the instance that required to be added with the read-only instance, click the name of the target instance, and enter the instance detailed page.
 3. Select the tag of ***Read-only Instance Management***, open the read-only instance management page and click ***Add Read-only Instance*** to create a read-only instance.
-4. Description for the interface parameter  of a read-only instance creation
+4. Description for the interface parameter of a read-only instance creation
     * Region: The region cannot be modified, and the default is in the same region as the main instance.
     * Availability Zone: Different regions, the number of available regions varies based on the console. Please refer to [Region and Availability Zone] for the detailed description of regions (https://www.jdcloud.com/help/detail/1844/isCatalog/1)
     * Types: It is recommended to read the read-only instance with a type not smaller than the primary instance, in terms of the selection of new read-only instance type.

@@ -40,7 +40,7 @@ It should be noted that the system may be stuck due to resource exhaustion. You 
 
 **4. Check hosts.deny**
  
-Log in to the virtual machine through the remote login mode of the console and check /etc/hosts.deny;
+Log in to the Virtual Machines through the remote login mode of the console and check /etc/hosts.deny;
 
  Is there any denyIP in cat /etc/hosts.deny? When the IP address is added to the file, the address will not be logged in (protection time is 30 minutes, and it will be automatically cleared after 30 minutes); delete the IP address in vim /etc/hosts.deny file;
 

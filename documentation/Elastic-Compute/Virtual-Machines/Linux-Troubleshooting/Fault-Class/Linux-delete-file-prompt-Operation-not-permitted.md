@@ -1,8 +1,8 @@
 # Delete File in Linux and Prompt Operation not permitted
 
-**Problem Phenomenon: **
+**Problem Phenomenon:**
 
-If the user deletes or moves the file in the virtual machine, it will prompt "Operation not permitted" error, and the operation will be unsuccessful, as shown in the following figure;
+If the user deletes or moves the file in the Virtual Machines, it will prompt "Operation not permitted" error, and the operation will be unsuccessful, as shown in the following figure;
 
 ![](https://github.com/jdcloudcom/cn/blob/cn-VirtualMachine-Linux/image/Elastic-Compute/Virtual-Machine/Linux/Linux%E5%88%A0%E9%99%A4%E6%96%87%E4%BB%B6%E6%8F%90%E7%A4%BAOperation%20not%20permitted01.png)
 

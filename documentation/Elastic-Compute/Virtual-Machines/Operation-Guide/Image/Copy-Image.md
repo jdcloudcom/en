@@ -14,11 +14,11 @@ The image replication operation includes, first, it copies the cloud disk snapsh
 * The replication operation does not change the status of the source image. But the image cannot be deleted and the replication request cannot be submitted again until the replication operation is complete, and the rest of the operations (viewing, information modifying, VM Instance creating, etc.) are not affected.
 
 ## Operation Steps
-1. Access [Image Console][1] to enter the image list page. Or access [JD Cloud Console][2] Click navigation bar on the left [Elastic Compute] - [Virtual Machine] - [Image] to enter the image list page.
-2. Select [Private Image] TAB, select the private image needs to be replicated (the image type must be the cloud system disk), click [More] - [Image Replication]; or batch to tick no more than 5 images, click [Image Replication] below the list.
+1. Access [Image Console][1] to enter the image list page. Or access [JD Cloud Console][2] Click navigation bar on the left **Elastic Compute** - **Virtual Machines** - **Image** to enter the image list page.
+2. Select **Private Image** TAB, select the private image needs to be replicated (the image type must be the cloud system disk), click **More** - **Image Replication**; or batch to tick no more than 5 images, click **Image Replication** below the list.
 ![](../../../../../image/vm/Operation-Guide-Image-copy1.png)
 ![](../../../../../image/vm/Operation-Guide-Image-copy2.png)
-3. The confirmation pop-up window will show the number of snapshots included in the source image selected and the quotas for private images and cloud disk snapshots in regions that support replication operations other than the current one. Click [OK] to start the image replication.
+3. The confirmation pop-up window will show the number of snapshots included in the source image selected and the quotas for private images and cloud disk snapshots in regions that support replication operations other than the current one. Click **OK** to start the image replication.
 ![](../../../../../image/vm/Operation-Guide-Image-copy3.png)
 4. After the replication task is successfully submitted, the replica image displays a status of "Pending", along with the overall replication progress as a percentage. The replica image name is the same as the source image with description automatically added, which can be modified after creation.
  ![](../../../../../image/vm/Operation-Guide-Image-copy4.png)

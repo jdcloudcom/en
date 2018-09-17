@@ -9,8 +9,8 @@
 |API|Description|
 |-|-|
 |Put Bucket|Create Bucket|
-|Put Bucket Referer|Set anti-theft chain rules of Referer|
-|Get Bucket Referer|View anti-theft chain rules of Referer|
+|Put Bucket Referer|Set anti-leech rules of Referer|
+|Get Bucket Referer|View anti-leech chain rules of Referer|
 |Delete Bucket| Delete Bucket|
 |Get Bucket(List Object)|Get all information of Object in Bucket|
 

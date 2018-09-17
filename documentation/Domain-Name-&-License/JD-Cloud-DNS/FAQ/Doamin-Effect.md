@@ -28,10 +28,10 @@ The domain NS records can only be modified through the domain name registrar, an
 
 **Resolution Record Adding and Effective Process Modification**
 
-1. New resolution record
+1. New Resolution Record
 
 The cloud resolution server quickly synchronizes to all nodes and the resolution configuration takes effect in seconds. The customer initiates a DNS request, and as Local DNS does not have a cache, it iterates the query directly to get the new resolution record. The customer theory take effects in seconds as well, but some Local DNS without caches will jump to its own ad notification page, etc., the actual effective time depends on the local DNS behavior where the customer locates, which is typically no more than 1 hour.
 
-2. Resolution record modification
+2. Resolution Record
 
 The cloud resolution server will quickly synchronize to all nodes as well and the resolution configuration will take effect in seconds. All nodes in the entire domain name resolution process have caches, the cache aging is constrained by the TTL of the record value. Only after the TTL expires, the Local DNS will re-iterate the query to get the new record value. The theoretical refresh time is roughly the same as the record TTL. However, some Local DNS will modify the TTL values obtained from the authoritative server, and the actual refresh time will depend on the Local DNS behavior configured by the customer.

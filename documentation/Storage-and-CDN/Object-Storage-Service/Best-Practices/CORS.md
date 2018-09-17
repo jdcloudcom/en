@@ -1,4 +1,4 @@
-# Cross-origin resource sharing
+# Best Practices of Cross-origin resource sharing
 
 ## Same-origin policy
 
@@ -26,9 +26,9 @@ Configuration steps for obtaining data from OSS by AJAX are introduced by the fo
 
 **Preparation conditions**
 
-1. Upload the file cors.html with the content of “successful request” in the test-cors storage bucket. Click “Obtaining Address” and the access address of the object, cors.html, is displayed: http://test-cors.oss.cn-east-1.jcloudcs.com/cors.html.
+1. Upload the file cors.html with the content of "successful request" in the test-cors storage bucket. Click **Obtaining Address** and the access address of the object, cors.html, is displayed: http://test-cors.oss.cn-east-1.jcloudcs.com/cors.html.
 
-2. Disable the browser’s cache function, to prevent the mismatch to the CORS requirements due to the reason that the browser caches the heater content returned by the server last time and to prevent influence to request result. Taking chrome for example, open the “Developer’s tool” and check “Disable cache”.
+2. Disable the browser’s cache function, to prevent the mismatch to the CORS requirements due to the reason that the browser caches the heater content returned by the server last time and to prevent influence to request result. Taking chrome for example, open the "Developer  tool" and check "Disable cache".
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-083.jpg)
 
@@ -36,7 +36,7 @@ Configuration steps for obtaining data from OSS by AJAX are introduced by the fo
 
 1. Confirm if the file is addressable
 
-Access cors.html via curl, display the file content “Request Successful” and ensure that the object is able to be accessed normally.
+Access cors.html via curl, display the file content "Request Successful" and ensure that the object is able to be accessed normally.
 ```
 curl http://test-cors.oss.cn-east-1.jcloudcs.com/cors.html
 ```
@@ -46,7 +46,7 @@ curl http://test-cors.oss.cn-east-1.jcloudcs.com/cors.html
 
 Directly access the cors.html file with the AJAX technique
 
-Write a simple HTML file at first, copy the following codes into the local, save the same as the HTML file, host the webpage in the virtual machine with the IP address of 47.104.98.151. Therefore the address of the webpage is http://47.104.98.151/cors-test.html (The test address does not support the access. If you need access the test address, please configure such address by yourself).
+Write a simple HTML file at first, copy the following codes into the local, save the same as the HTML file, host the webpage in the virtual machines with the IP address of 47.104.98.151. Therefore the address of the webpage is http://47.104.98.151/cors-test.html (The test address does not support the access. If you need access the test address, please configure such address by yourself).
 ```
 <!DOCTYPE html>
 <html>
@@ -83,7 +83,7 @@ function loadXMLDoc() {
 ```
 3. Page access
 
-Enter “http://47.104.98.151/cors-test.html” in the Chrome browser to log into the test page, click “Data Request” button and the following error is shown. Error notification: You have no access permission and the reason is the Header, Access-Control-Allow-Origin, is not found.
+Enter "http://47.104.98.151/cors-test.html" in the Chrome browser to log into the test page, click **Data Request** button and the following error is shown. Error notification: You have no access permission and the reason is the Header, Access-Control-Allow-Origin, is not found.
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-085.jpg)
 
@@ -93,7 +93,7 @@ When logging in the Header page to check request again, the Request with Origin,
 
 4. Setting CORS
 
-Log in console -> Object Storage Service -> Bucket Management -> Log in bucket test-cors -> Bucket Setting -> Cross-origin resource sharing setting.Clicking CORS statement configuration to log in the configuration page.
+Log in console -> Object Storage Service -> Space Management -> Log in bucket test-cors -> Space Setting -> Cross-origin resource sharing setting.Clicking CORS statement configuration to log in the configuration page.
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-087.jpg)
 

@@ -2,7 +2,7 @@
 It mainly explains how to transfer data from the self-built VM MySQL to JD Cloud MySQL service. The self-built MySQL requires operations such as daily maintenance, monitoring and backup, while JD Cloud MySQL service spares these operations and only requires user's attention on the use.
 
 ## Precautions
-* New MySQL instance is required to share one ***virtual private cloud*** with the VM.
+* New MySQL instance is required to share one ***Virtual Private Cloud*** with the VM.
 * Ensure the capacity space of the new MySQL instance not smaller than the MySQL self-built in VM.
 
 ## Operation Steps
@@ -14,10 +14,10 @@ It mainly explains how to transfer data from the self-built VM MySQL to JD Cloud
     ```
     mysqldump -u User name -p Password --single-transaction --set-gtid-purged=OFF -B Database name > /Path/Outputted file name.sql
 
-    Parameter description
-        User name: User name of self-built database.
+    Parameter Description
+        User Name: User name of self-built database.
         Password: Password of self-built database.
-        Database name: Fill in database names to be outputted and separate several database names with spaces
+        Database Name: Fill in database names to be outputted and separate several database names with spaces.
     ```
 
 5. Import the data into the MySQL service and execute the command after exporting self-built MySQL data from the VM to the local.
@@ -25,9 +25,9 @@ It mainly explains how to transfer data from the self-built VM MySQL to JD Cloud
     ```
     mysql -u User name -p Password -h Cloud database domain < /Path/Outputted file name.sql
 
-    Parameter description
-        User name: User name in actions of step 3
-        Password: Corresponding password of the user in actions of step 3
+    Parameter Description
+        User Name: User name in actions of Step 3
+        Password: Corresponding password of the user in actions of Step 3
         Database domain: Please view domain of MySQL service in the Details page of instance.
     ```
     

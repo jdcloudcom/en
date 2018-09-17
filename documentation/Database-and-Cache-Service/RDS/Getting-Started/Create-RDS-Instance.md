@@ -11,7 +11,7 @@ RDS instance can be purchased through the console.
 
 ![Instance List](../../image/RDS/Instance-List.png)
    
-## 2. Select Information, e.g. Instance Configuration.
+## 2. Select information, e.g. Instance Configuration.
 Select or enter the relevant configuration information of the instance. The parameters of the instance configuration are as follows:
 - Billing Method: "Monthly Package" or "Pay By Configuration" are available. Please refer to [Billing Rules](../../Billing-Rules.md) for the billing method selection.
 - Region: Select the region where the instance is located. **The intranets of resources in different regions are not interconnected and cannot be changed after creation**. Please refer to the region and availability zone for details of regions.
@@ -23,8 +23,8 @@ It is recommended to choose the region closest to the regions of users to reduce
 
 ![Create Instance 1](../../image/RDS/Create-Instance-1.png)
 
-- Virtual Private Cloud: Instances can only be created in the virtual private cloud. If not having a virtual private cloud and subnet, users can create a virtual private cloud and subnet through the link of [New Virtual Private Cloud] and [Create New Subnet]. After the creation is complete, click [Refresh] to see the newly created virtual private cloud and subnet.
-   - Please make sure that database instance and VM that needs to connect to the database instance are in the same virtual private cloud when choosing virtual private cloud.
+- Virtual Private Cloud: Instances can only be created in the Virtual Private Cloud. If not having a Virtual Private Cloud and subnet, users can create a Virtual Private Cloud and subnet through the link of [New Virtual Private Cloud] and [Create New Subnet]. After the creation is complete, click [Refresh] to see the newly created Virtual Private Cloud and subnet.
+   - Please make sure that database instance and VM that needs to connect to the database instance are in the same Virtual Private Cloud when choosing Virtual Private Cloud.
    - Instance can be created in a selected subnet which retains a vast number of remaining IPs to allow creation of instances due to management demand.
       - MySQL: More than 4 remaining IPs are required.
       - SQL Server: More than 10 remaining IPs are required.
@@ -32,7 +32,7 @@ It is recommended to choose the region closest to the regions of users to reduce
 ![Connection Instance 2](../../../image/RDS/Create-Instance-2.png)
  
 - Deployment Mode: Currently, it supports single-availability zone deployment and multi-availability zone deployment.
-   - Multiple Availability Zone: The primary and secondary databases are located in different availability zones, with higher availability; if an availability zone fails, the entire instances can still provide services.
+   - Multiple Availability Zones: The primary and secondary databases are located in different availability zones, with higher availability; if an availability zone fails, the entire instances can still provide services.
    - Single Availability Zone Deployment: The primary and secondary database are located in the same availability zone. If the availability zone fails, the entire instances cannot provide services.
    
 ![Connection Instance 3](../../../image/RDS/Create-Instance-3.png)  
@@ -62,6 +62,6 @@ Then enter the order confirmation page, and click [Pay Now] after confirming the
 
 ![Connection Instance 7](../../image/RDS/Create-Instance-7.png)
 
-## 6. Creation Complete
+## 6. Creation Completed
 After a while, click the refresh button to manually refresh the page, the page will display that the instance is created in normal running condition.
 

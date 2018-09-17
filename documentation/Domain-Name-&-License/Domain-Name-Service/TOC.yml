@@ -12,13 +12,18 @@
       - name: Features
         herf: Introduction/Features.md
       - name: Specifications
-        ‘herf: Introduction/Specifications.md
+        herf: Introduction/Specifications.md
+      - name: Specifications
+        herf: Introduction/Application-Scenario.md 
   - name: Getting Started
     items:
       - name: Create Information Template
-        herf: Getting-Started/Create Information Template.md
-      - name: Register Domain Name.md
-        herf: Getting-Started/Register Domain Name.md
+        herf: Getting-Started/Create-Information-Template.md
+      - name: Register Domain Name
+        herf: Getting-Started/Register-Domain-Name.md
+      - name: Information Template
+        herf: Getting-Started/Information-Template.md
+        
   - name: Operation Guide
     items:
       - name: Domain Name Management
@@ -40,18 +45,21 @@
       - name: Domain Name Transfer
         items:
           - name: Transfer Domain Name
-            herf: Operation-Guide/Domain-Transfer/Domain-Name-Transfer.md        
+            herf: Operation-Guide/Domain-Transfer/Domain-Name-Transfer.md    
   - name: Troubleshooting
     items:
     - name: Domain Name and Reverse Resolution
       herf: Troubleshooting/Domain-Name-and-Reverse-Resolution.md
     - name: How to Skip Root Domain Name without www to Main Domain Name with www
-      herf: Troubleshooting/How-to-Skip-Root-Domain-Name-Without-www-to-Main-Domain-Name-With-www.md  
+      herf: Troubleshooting/How-to-Skip-Root-Domain-Name-Without-www-to-Main-Domain-Name-With-www.md
   - name: FAQ
     herf: FAQ/FAQ.md
-  - name: User Agreement
+  - name: User Agreements
     items:
     - name: Online Terms of Service of Domain Name
-      herf: User-Agreements/Donline-Terms-of-Service-of-Domain-Name.md        
+      herf: User-Agreements/Donline-Terms-of-Service-of-Domain-Name.md      
     - name: IDN Online Transfer Agreement
-      herf: User-Agreements/IDN-Online-Transfer-Agreement.md
+      herf: User-Agreements/IDN-Online-Transfer-Agreement.md      
+
+          
+          

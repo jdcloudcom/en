@@ -1,6 +1,6 @@
 **This Service Terms is a valid agreement between the owner of the JD Cloud website (referred to in this Agreement as "JD Cloud" website: www.jdcloud.com) and you on matters relating to the EIP service. By stamping, clicking to confirm on the web page, or other ways to accept the Service Terms, including but not limited to the actual use of EIP service of JD Cloud without clicking to confirm the Service Terms, you have reached an agreement with JD Cloud and agreed to accept all agreed contents of the Service Terms. In case of any inconsistency between the text stamped by both parties and the text of Service Terms accepted and confirmed by clicking the web page or other ways, the text stamped by both parties shall prevail.**
 
-**For the Service Terms, you are reminded to pay special attention to the restriction and exemption terms, determination and handling terms of JD Cloud on your violations and breach of contract, and the selection terms of jurisdictional courts. Restriction and exemption terms may be indicated in bold or by underline for your attention. You should carefully read the entire contents of the Service Terms before accepting the Service Terms. If you have any questions about the Service Terms, please contact the relevant business department of JD Cloud and JD Cloud will explain the terms to you. If you do not agree on any of the contents of the Service Terms, or cannot accurately understand the interpretation of these terms made by JD Cloud, please do not continue the operation. **
+**For the Service Terms, you are reminded to pay special attention to the restriction and exemption terms, determination and handling terms of JD Cloud on your violations and breach of contract, and the selection terms of jurisdictional courts. Restriction and exemption terms may be indicated in bold or by underline for your attention. You should carefully read the entire contents of the Service Terms before accepting the Service Terms. If you have any questions about the Service Terms, please contact the relevant business department of JD Cloud and JD Cloud will explain the terms to you. If you do not agree on any of the contents of the Service Terms, or cannot accurately understand the interpretation of these terms made by JD Cloud, please do not continue the operation.**
 
 ## **1. Service Content**
 
@@ -34,7 +34,7 @@
 
 3.1.3.4 You shall not copy, distribute, transfer, license or provide others to use the EIP service provided by JD Cloud without the prior written consent of JD Cloud;
 
-3.1.3.5 Do Not Intersperse Email Ads or SPAMs: Do not use the services provided by JD Cloud to intersperse a large number of undesired or uncalled emails, electronic advertising or emails containing reactionary information, pornographic information or other harmful information;
+3.1.3.5 Do not intersperse Email Ads or SPAMs: Do not use the services provided by JD Cloud to intersperse a large number of undesired or uncalled emails, electronic advertising or emails containing reactionary information, pornographic information or other harmful information;
 
 3.1.3.6 Do not use the resources and services provided by JD Cloud to upload, download, store, and release the following information or contents and do not provide any convenience for others to release such information (including but not limited to setting URL, BANNER links, etc.):
 
@@ -54,7 +54,7 @@
 
 3.1.3.6.8 Other content that violates laws and regulations, departmental regulations or national policies.
 
-3.1.3.7 You shall not occupy, or lead programs or processes, etc. to occupy a large amount of server memory, CPU or network bandwidth resources in the platform (hereinafter referred to as "cloud platform") composed of JD Cloud computing resources (such as virtual machine, network bandwidth and storage space), or bring severe and unreasonable loads to the JD Cloud platform or JD Cloud's other users' networks, servers (including but not limited to local and nonlocal and international networks, servers, etc.), products/applications, etc., or affect the normal and smooth communication among JD Cloud and the Internet, or JD Cloud and specific networks, servers, interior of JD Cloud as well, or result in server's downtime, crash of products and services of JD Cloud or other users, or no access to products/applications on the cloud platform for the users and other problems;
+3.1.3.7 You shall not occupy, or lead programs or processes, etc. to occupy a large amount of server memory, CPU or network bandwidth resources in the platform (hereinafter referred to as "cloud platform") composed of JD Cloud computing resources (such as Virtual Machines, network bandwidth and storage space), or bring severe and unreasonable loads to the JD Cloud platform or JD Cloud's other users' networks, servers (including but not limited to local and nonlocal and international networks, servers, etc.), products/applications, etc., or affect the normal and smooth communication among JD Cloud and the Internet, or JD Cloud and specific networks, servers, interior of JD Cloud as well, or result in server's downtime, crash of products and services of JD Cloud or other users, or no access to products/applications on the cloud platform for the users and other problems;
 
 3.1.3.8 You shall not use EIP service in any manner or purpose that would violate national and local laws and regulations, industry practices and social public ethics, and affect or damage or may affect or damage the interests of JD Cloud and JD Group.
 
@@ -122,7 +122,7 @@
 
 7.1 Due to force majeure or other accidents, the performance of this Service Terms becomes impossible, unnecessary or meaningless, and the party suffering from force majeure or accident is not liable.
 
-7.2. Force majeure or accidental events refer to unforeseeable, insurmountable and unavoidable objective events that have a significant impact on one or both parties, including but not limited to natural disasters such as floods, earthquakes, epidemics of plagues, and social events such as war, unrest, government actions, interruption of China telecom trunk lines, hackers network congestion, telecommunications sector technology adjustment and government regulation.
+7.2. Force majeure or accidental events refer to unforeseeable, insurmountable and unavoidable objective events that have a significant impact on one or both parties, including but not limited to natural disasters such as floods, earthquakes, epidemics of plagues, and social events such as war, unrest, government actions, and interruption of China telecom trunk lines, hackers network congestion, telecommunications sector technology adjustment and government regulation.
 
 ## **8. Governing Law and Dispute Resolution**
 

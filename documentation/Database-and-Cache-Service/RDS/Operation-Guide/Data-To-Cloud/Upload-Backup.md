@@ -29,7 +29,7 @@ The region code supports the following regions
 |cn-north-1|cn-north-1|
 |cn-east-2|cn-east-2|
 
-**Command Instance: ** Upload the backup file “z:/Backup/testdb.bak” to cn-north-1.
+**Command Instance: ** Upload the backup file "z:/Backup/testdb.bak" to cn-north-1.
 ```
 upload-tool.exe -r cn-north -f z:/Backup/testdb.bak -k   U2FsdGVkX19c7B0ZGP0mU++sXgWZoHCeGP0tacbRz3TpoOKPsXmncA
 ```

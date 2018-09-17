@@ -1,9 +1,9 @@
 # Core Concepts
-When you learn about the JD Cloud virtual machine, the following core concepts are usually involved:
+When you learn about the JD Cloud Virtual Machines, the following core concepts are usually involved:
 
 Concept|introduction
 :---|:---
-Instance|virtual machine resources on JD Cloud.
+Instance|Virtual Machines resources on JD Cloud.
 Region and Availability Zone|physical deployment location instances and other resources.
 Instance Type|The instance type identifies different instance configurations, including vCPU (core), memory (GB), storage, and network performance.
 Image|The preset template for instance running environment, which contains the server's pre-configured environment (operating system and other installed software).

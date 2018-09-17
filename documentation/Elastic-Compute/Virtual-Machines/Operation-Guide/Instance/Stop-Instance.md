@@ -12,12 +12,12 @@ The instance must be in the "Running" status. If the instance is in the "Stopped
 
 
 ## Operation Steps
-1. Access [Virtual Machine Console](https://cns-console.jdcloud.com/host/compute/list) and enter the instance list page. Or access [JD Cloud Console](https://console.jdcloud.com) Click navigation bar on the left [Elastic Compute] - [Virtual Machine] to enter the instance list page.
+1. Access [Virtual Machines Console](https://cns-console.jdcloud.com/host/compute/list) and enter the instance list page. Or access [JD Cloud Console](https://console.jdcloud.com) Click navigation bar on the left **Elastic Compute** - **Virtual Machines** to enter the instance list page.
 2. Select Regions.
 3. Select the instance you want to stop in the instance list and confirm that its status is "Running". If you need to operate multiple instances at the same time, you can complete through multiple selection.
-4. Single Operation: Click [Operate] - [Stop], or click the instance name to enter the details page and click [Operate] - [Stop];
-<br>Batch operation: Click [Stop] below the list
+4. Single Operation: Click **Operate** - **Stop**, or click the instance name to enter the details page and click **Operate** - **Stop**;
+<br>Batch operation: Click **Stop** below the list
 ![](../../../../../image/vm/stopinstance.png)
-5. In the "Stop Instance" pop-up window, confirm the information and click [Confirm] to submit the start.
+5. In the "Stop Instance" pop-up window, confirm the information and click **OK** to submit the start.
 
 When instance enters the "Stopping" status, instance shall not be able to perform other operations. When the stop is complete, the instance will enter the "Stopped" status.

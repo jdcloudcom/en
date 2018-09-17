@@ -4,7 +4,7 @@ This paper introduces the purchase entries of MongoDB.
 
 ## Portal 1: [Product Introduction Page](https://www.jdcloud.com/products/mongodb)
 1. Log in to JD Cloud Official Website [https://www.jdcloud.com/](https://www.jdcloud.com/).
-2. Select "Product > Cloud Database MongoDB", as shown in the figure below.
+2. Select "Product > JCS for MongoDB", as shown in the figure below.
 
 ![MongoDB](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/productpage.png)
 

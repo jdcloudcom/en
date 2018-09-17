@@ -8,14 +8,14 @@ The underlying architecture of JD Cloud Object Storage Service is entirely same 
 
 Meanwhile, JD Cloud Object Storage Service also provides you with a simple and convenient Restful interface and easy-used SDK to help you manage and access the data on JD Cloud Object Storage Service in any application, at any time and any place.
 
-## OSS storage level
+## OSS Storage Level
 Standard Storage: standard storage provides users with high-reliability, high-availability and high-performance object storage service. Standard storage has low access delay and higher throughput, so it is applicable to the business scenario where has large throughput and hotspot files required frequently access, e.g. mobile application, large-scale websites, picture sharing, hotspot audio/video, etc.
 
 Reduced Redundancy Storage: reduced redundancy storage provides users with object storage service of lower storage cost and lower access delay. Compared with standard storage, reduced redundancy storage largely reduces the price of storage, so it is applicable to the business scenario where has low read frequency and data requires long-time cold backup on object storage service; the minimum of storage time is 30 days.
 
 ## Quick navigation
 
-[Billing rules](../Pricing/Billing-Rules.md)
+[Billing Rules](../Pricing/Billing-Rules.md) 
 
 [Basic actions of OSS](../Operation-Guide/Sign-Up-Service.md)
 

@@ -17,7 +17,7 @@
         href: Introduction/Specifications.md
       - name: Restrictionss
         href: Introduction/Restrictions.md
-      - name: Application Scenario 
+      - name: Application Scenarios 
         href: Introduction/Application-Scenarios.md    
   - name: Pricing
     items:
@@ -29,9 +29,9 @@
         href: Pricing/Price-Overview.md
       - name: Purchase Process
         href: Pricing/Purchase-Process.md 
-      - name: Renewal Process
+      - name: Renew Process
         href: Pricing/Renewal-Process.md
-  - name: Getting-started
+  - name: Getting Started
     items:
       - name: Create Instance
         href: Getting-Started/Create-Instance.md
@@ -39,7 +39,7 @@
         href: Getting-Started/Connect-Instances.md
       - name: Command Support
         href: Getting-Started/Command-Supported.md
-      - name: Summary of Getting-started Guide
+      - name: Summary of Getting Started
         href: Getting-Started/Getting-Started-Overview.md
   - name: Operation Guide
     items:
@@ -63,7 +63,7 @@
             href: Operation-Guide/Monitoring/Monitoring.md
           - name: Set Alarm Rules
             href: Operation-Guide/Monitoring/Alarm-Rules.md              
-  - name: Best Practice
+  - name: Best Practices
     items:
     - name: C/C++ Connect Redis Instance
       href: Best-Practices/CorC++-Connect-to-Redis-Instance.md
@@ -79,7 +79,7 @@
       href: Best-Practices/Python-Connect-to-Redis-Instance.md
     - name: Public Network Connect Redis Instance
       href: Best-Practices/Public-Network-Connect-to-Redis-Instance.md
-  - name: Course
+  - name: Tutorial
     items:
     status: 0
   - name: Troubleshooting
@@ -91,7 +91,7 @@
     href:
   - name: SDK Reference
     href:
-  - name: User Agreement
+  - name: User Agreements
     status: 0
     items:
     - name: Service Terms
@@ -100,7 +100,7 @@
     - name: SLA
       href: User-Agreements/SLA.md           
       status: 0       
-  - name: Relevant Resources
+  - name: Related Resources
     items:
     - name: Document History
       href: Related-Resources/Document-History.md   

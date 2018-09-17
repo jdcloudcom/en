@@ -1,4 +1,4 @@
 ## Supporting Products
-Only for JD Cloud digivoice big data platform/virtual machine/ load balancer/cloud database/cloud storage/cloud disk service/cloud buffer<br/>
+Only for JD Cloud Digivoice Big Data Analysis Platform/Virtual Machine/ Load Balancer/Cloud Database/Cloud Storage/Cloud Disk Service/JCS for Redis<br/>
 Compensation Process: <br/>
-Feedback of failure → creating work ticket by JD Cloud → troubleshooting problem by JD Cloud → compensation processing → compensation review
+Feedback of Failure → Creating Open Ticket by JD Cloud → Troubleshooting by JD Cloud → Compensation Processing → Compensation Review

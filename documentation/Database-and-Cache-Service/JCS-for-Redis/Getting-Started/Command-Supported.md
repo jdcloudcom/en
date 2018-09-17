@@ -1,4 +1,4 @@
-﻿# Redis command support
+﻿# Redis Command Support
 
 
 
@@ -6,7 +6,7 @@ Cloud Database Redis is based on the revision 2.8.19 and the command can be foun
 
 
 
-## Command actions available
+## Command Actions Available
 
 Key (Key)|String|Hash|List|Set|SortedSet 
 ---|:--:|:--:|:--:|:--:|---:
@@ -45,7 +45,7 @@ ECHO||SCRIPT FLUSH
 
 Description:
 
-- KEYS command can only be used under the VPC network. It is a dangerous command and may cause performance problems. Please ensure that it is used under the condition of few keys. If it is required to query a specific key from a large data set, it is recommended to use the collection structure (set) of Redis.
+- KEYS command can only be used under the VPC network. It is a dangerous command and may cause performance problems. Please ensure that it is used under the condition of few keys. If it is required to query a specific key from a big data set, it is recommended to use the collection structure (set) of Redis.
 
 - INFO command is restricted from using in cluster version: info cpu/replication/persistence is not supported
 

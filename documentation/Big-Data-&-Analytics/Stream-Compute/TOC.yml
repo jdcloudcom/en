@@ -3,39 +3,40 @@ href:
 items:
 - name: Introduction
   items:
-    - name: Product Summary
-      href: Introduction/Product-Overview.md
-    - name: What is Stream Compute
-      href: Introduction/what-is-stream-compute.md
-    - name: Comparison of Stream Compute and Batch Compute
-      href: Introduction/compare.md
-    - name: Basic Infrastructure
-      href: Introduction/Basic-Infrastructure.md
-    - name: Benefits
-      href: Introduction/Benefits.md
-    - name: Features
-      href: Introduction/Features.md
-    - name: Application Scenario
-      href: Introduction/Application-Scenarios.md
+  - name: Product Overview
+    href: Introduction/Product-Overview.md
+  - name: What is Stream Compute
+    href: Introduction/what-is-stream-compute.md
+  - name: Comparison of Stream Compute and Batch Compute
+    href: Introduction/compare.md
+  - name: Basic Infrastructure
+    href: Introduction/Basic-Infrastructure.md
+  - name: Benefits
+    href: Introduction/Benefits.md
+  - name: Features
+    href: Introduction/Features.md
+  - name: Application Scenarios
+    href: Introduction/Application-Scenarios.md
 - name: Pricing
   items:
-    - name: Purchase Notes
-      href: Pricing/Billing-Overview.md
-    - name: Rules for Delay in Payment
-      href: Pricing/Billing-Rules.md
-    - name: Price Overview
-      href: Pricing/Price-Overview.md
-- name: Getting-started
+  - name: Purchase Notes
+    href: Pricing/Billing-Overview.md
+  - name: Arrears Rules
+    href: Pricing/Billing-Rules.md
+  - name: Price Overview
+    href: Pricing/Price-Overview.md
+- name: Getting Started
   items:
-    - name: Getting-started
-      href: Getting-Started/Getting-Started.md
+  - name: Getting Started
+    href: Getting-Started/Getting-Started.md
 - name: Operation Guide
   items:
-    - name: Create Application
-      href: Operation-Guide/create.md
-    - name: Data Input
-      href: Operation-Guide/data-input.md
-    - name: Data Output
-      href: Operation-Guide/data-output.md
-    - name: Job Development
-      href: Operation-Guide/task-develop.md
+  - name: Create Application
+    href: Operation-Guide/create.md
+  - name: Data Input
+    href: Operation-Guide/data-input.md
+  - name: Data Output
+    href: Operation-Guide/data-output.md
+  - name: Job Development
+    href: Operation-Guide/task-develop.md
+

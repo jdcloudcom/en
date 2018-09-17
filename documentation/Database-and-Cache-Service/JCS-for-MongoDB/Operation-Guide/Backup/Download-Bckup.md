@@ -4,7 +4,7 @@ Download of backup files for the MongoDB instances is supported, and you can dow
 
 ## Operation Steps:
 1. Login [MongoDB Console](https://mongodb-console.jdcloud.com/mongodb?dataCenter=bj_02).
-1. On the "Instance List" page, select the target instance, then click ** Instance Name ** to enter the "Instance Details" page.
+1. On the "Instance List" page, select the **target instance**, then click **Instance Name** to enter the "Instance Details" page.
 1. On the "Instance Details" page, click **Backup and Recovery** to view the backup data.
 1. Select the backup you want to download. In the operation items, click **Download** to open "Download Popup".
 	
@@ -16,7 +16,7 @@ Download of backup files for the MongoDB instances is supported, and you can dow
 	
 	- The validity period of intranet address and internet address is 24 hours;
 	- English quotation marks shall be added to URL when download using wget;
-	- If the virtual machine is in the same region with the virtual database, you are recommended to use the intranet address for downloading;
+	- If the Virtual Machines is in the same region with the virtual database, you are recommended to use the intranet address for downloading;
 
 ## Related Reference
 

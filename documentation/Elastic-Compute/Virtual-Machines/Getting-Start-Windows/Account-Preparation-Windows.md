@@ -10,7 +10,7 @@ If you are to purchase an instance billed by configuration, as the method of Pay
 
 If you purchase the monthly package instance, as the pay-in-advance mode is adopted, you will need to pay the full cost of the selected instance configuration for a specified life cycle, so you will need sufficient account balance (cash balance + amount of available coupons) or choose a third party payment to complete the payment at the time of payment.
 
-For more information about billing rules, please refer to [Virtual Machine Billing Rules](../Pricing/Billing-Rules.md);
+For more information about billing rules, please refer to [Virtual Machines Billing Rules](../Pricing/Billing-Rules.md);
 If you want to know the specific cost for different configurations, different billing modes, and different purchase durations, you can go to [Price Calculator][1] for cost estimation.
 
 ## Related Reference
@@ -19,7 +19,7 @@ If you want to know the specific cost for different configurations, different bi
 
 [Real-name Verification](../../../User-Service/Real-Name-Verification/Real-Name-Verification.md)
 
-[Virtual Machine Billing Rules](../Pricing/Billing-Rules.md)
+[Virtual Machines Billing Rules](../Pricing/Billing-Rules.md)
 
 [Price Calculator][1]
 

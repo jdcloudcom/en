@@ -1,6 +1,6 @@
 # **Product Overview**
 
-## **What is Domain Name Resolution? **
+## **What is Domain Name Resolution?**
 
 The domain Name System, or DNS, is one of the basic systems for the entire Internet service, which is responsible for converting the Internet domain name that people access into an IP address, the process of conversion is called "Domain Name Resolution", so DNS is also called "Domain Name Resolution System". The domain name system is composed of a tree structure. Starting from the root node, it includes the root domain, the top-level domain, and the second-level domain. The bottom leaf represents the host name, and each complete path combination represent a full qualified domain name, also known as the full domain name.
 

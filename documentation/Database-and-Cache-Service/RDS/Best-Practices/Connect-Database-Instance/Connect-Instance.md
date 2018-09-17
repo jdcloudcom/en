@@ -13,7 +13,7 @@ You can connect the instance through the JD Cloud DMS function and the local cli
 ## Connection to Database via JD Cloud VM
 Users can access the database by entering the command line after the RDS client is installed in JD Cloud Machine.
 
-1. Command format: mysql-h Domain Name -P Port -u Username -p Password.
+1. Command Format: mysql-h Domain Name -P Port -u Username -p Password.
 2. Domain Name: The domain name of the cloud database to be accessed shall be displayed in the detail page of the cloud database.
 3. Port: The default link port number is 3306.
 4. Username: Username for database creation.

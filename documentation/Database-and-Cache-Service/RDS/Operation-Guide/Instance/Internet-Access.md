@@ -3,7 +3,7 @@ Internet access configured with database instances
 
 ## Remarks
 - Internet access is disabled by default for the sake of security.
-- Set up a whitelist before enabling the internet access.
+- Set up a White List before enabling the internet access.
 - Please wait for 3~5 minutes since it takes time for the domain name of the internet coming into effect.
 - If the internet access is disabled, the access address will change the next time the internet access is enabled.**
 - Access to the internet is temporarily free.

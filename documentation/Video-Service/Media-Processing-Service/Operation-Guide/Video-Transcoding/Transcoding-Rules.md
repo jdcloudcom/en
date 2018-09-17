@@ -1,4 +1,4 @@
-# Basic rules for transcoding
+# Basic Rules for Transcoding
 
 Input format supports most of the mainstream audio and video formats, such as mp4, flv, avi, rmvb, wmv, hls, etc.;
 

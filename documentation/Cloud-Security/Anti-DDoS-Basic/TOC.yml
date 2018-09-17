@@ -4,48 +4,46 @@ items:
 - name: Introduction
   items:
     - name: Product Overview
-      herf: Introduction/Product-Overview.md
+      href: Introduction/Product-Overview.md
     - name: Core Concepts
-      herf: Introduction/Core-Concepts.md
-    - name: Basic Infrastructure
-      herf: Introduction/Basic-Infrastructure.md
+      href: Introduction/Core-Concepts.md
+    - name: Basic Architecture
+      href: Introduction/Basic-Infrastructure.md
     - name: Benefits
-      herf: Introduction/Benefits.md
+      href: Introduction/Benefits.md
     - name: Features
-      herf: Introduction/Features.md
+      href: Introduction/Features.md
     - name: Specifications
-      herf: Introduction/Specifications.md
+      href: Introduction/Specification.md
+      status: 0
     - name: Restrictions
-      herf: Introduction/Restrictions.md
+      href: Introduction/Restrictions.md
     - name: Application Scenarios 
-      herf: Introduction/Application-Scenarios.md    
+      href: Introduction/Application-Scenarios.md    
 - name: Pricing
   items:
     - name: Billing Overview
-      herf: Pricing/Billing-Overview.md
+      href: Pricing/Billing-Overview.md
 - name: Getting Started
   items:
-    - name: Capture basic protection capabilities
-      herf: Getting-Started/Anti-DDos-Basic-Started.md
+    - name: Capture Anti-DDoS Basic Capabilities
+      href: Getting-Started/Anti-DDos-Basic-Started.md
 - name: Operation Guide
   items:
-    - name: Protection threshold setting
-      herf: Operation-Guide/Protection-Threshold-Set.md
+    - name: Protection Threshold Setting
+      href: Operation-Guide/Protection-Threshold-Set.md
     - name: View Monitoring Log
-      herf: Operation-Guide/View-Report-log.md            
+      href: Operation-Guide/View-Report-log.md            
 - name: Best Practices
   items:
-  - name: Anti-DDoS Basic + Anti-DDoS Pro
-    herf: Best-Practices/Linkage-Scheme.md	
+    - name: Anti-DDoS Basic + Anti-DDoS Pro Linkage Scheme
+      href: Best-Practices/Linkage-Scheme.md	
 - name: Tutorial
-  items:
   status: 0
 - name: Troubleshooting
-  herf:
-  status: 0
+  href:
 - name: FAQ
-  herf: FAQ/FAQ.md
-- name: API reference
-  herf:
-  status: 0  
-          
+  href: FAQ/FAQ.md
+- name: API Reference
+  href: 
+  status: 0     

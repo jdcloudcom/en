@@ -1,10 +1,10 @@
-**This Service Terms is a valid agreement between the owner of the JD Cloud website (referred to in this agreement as "JD Cloud" website: **[www.jdcloud.com](https://www.jdcloud.com/index)**) and you on matters relating to application security gateway service. By stamping, clicking to confirm on the web page, or other ways to accept the Service Terms, including but not limited to the actual use of application security gateway service of JD Cloud without clicking to confirm the Service Terms, you have reached an agreement with JD Cloud and agreed to accept all agreed contents of the Service Terms. In case of any inconsistency between the text stamped by both parties and the text of Service Terms accepted and confirmed by clicking the web page or other ways, the text stamped by both parties shall prevail.**
+**This Service Terms is a valid agreement between the owner of the JD Cloud website (referred to in this agreement as "JD Cloud" website:**[www.jdcloud.com](https://www.jdcloud.com/index)**) and you on matters relating to Application Security Gateway service. By stamping, clicking to confirm on the web page, or other ways to accept the Service Terms, including but not limited to the actual use of Application Security Gateway service of JD Cloud without clicking to confirm the Service Terms, you have reached an agreement with JD Cloud and agreed to accept all agreed contents of the Service Terms. In case of any inconsistency between the text stamped by both parties and the text of Service Terms accepted and confirmed by clicking the web page or other ways, the text stamped by both parties shall prevail.**
 
-**For the Service Terms, you are reminded to pay special attention to the restriction and exemption terms, determination and handling terms of JD Cloud on your violations and breach of contract, and the selection terms of jurisdictional courts. Restriction and exemption terms may be indicated in bold or by underline for your attention. You should carefully read the entire contents of the Service Terms before accepting these terms. If you have any questions about the Service Terms, please contact the relevant business department of JD Cloud and JD Cloud will explain the terms to you. If you do not agree on any of the contents of the Service Terms, or cannot accurately understand the interpretation of these terms made by JD Cloud, please do not continue the operation. **
+**For the Service Terms, you are reminded to pay special attention to the restriction and exemption terms, determination and handling terms of JD Cloud on your violations and breach of contract, and the selection terms of jurisdictional courts. Restriction and exemption terms may be indicated in bold or by underline for your attention. You should carefully read the entire contents of the Service Terms before accepting these terms. If you have any questions about the Service Terms, please contact the relevant business department of JD Cloud and JD Cloud will explain the terms to you. If you do not agree on any of the contents of the Service Terms, or cannot accurately understand the interpretation of these terms made by JD Cloud, please do not continue the operation.**
 
 **1.** **Service Content**
 
-1.1. "Service" in the terms means JD Cloud provides you with the cloud application security gateway service and related technical and network support services displayed on the website [www.jdcloud.com](https://www.jdcloud.com/index).
+1.1. "Service" in the terms means JD Cloud provides you with the cloud Application Security Gateway service and related technical and network support services displayed on the website [www.jdcloud.com](https://www.jdcloud.com/index).
 
 1.2. The service provided by JD Cloud must comply with the provisions of the Service Terms.
 
@@ -54,7 +54,7 @@ You understand and acknowledge that the above list does not cover all types of l
 
 3.1.3.3. If the services of JD Cloud involve the license of third-party software, you agree to abide by the relevant license agreement;
 
-3.1.3.4. Do Not intersperse Email Ads or SPAMs: Do not use the services provided by JD Cloud to intersperse a large number of undesired or uncalled emails, electronic advertising or emails containing reactionary information, pornographic information or other harmful information;
+3.1.3.4. Do not intersperse Email Ads or SPAMs: Do not use the services provided by JD Cloud to intersperse a large number of undesired or uncalled emails, electronic advertising or emails containing reactionary information, pornographic information or other harmful information;
 
 3.1.3.5. Do not use the resources and services provided by JD Cloud to upload, download, store, and release the following information or contents and do not provide any convenience for others to release such information (including but not limited to setting URL, BANNER links, etc.):
 
@@ -86,13 +86,13 @@ You understand and acknowledge that the above list does not cover all types of l
 
 3.1.3.11. In case that JD Cloud discovers you have violated the above provisions, we have the right to take corresponding measures based on the actual conditions, including but not limited to immediately terminating and suspending the service or deleting corresponding information. If a third-party organization or an individual raises a question or complaint against you, JD Cloud will inform you that you are responsible for making explanations and issuing the supporting evidences within the specified time. If you fail to provide contrary evidence or provide feedback within the time limit, JD Cloud will take measures including but not limited to stopping or suspending services immediately or deleting relevant information. If you do not update your contact information or the contact information is incorrect that leads to failure of contacting you, you will be deemed you fail to provide feedback within the time limit.
 
-3.1.4. Application security gateway of JD Cloud ensures the security protection of Web or APP business in VPC network. It should be used together with a load balancer, so you understand and acknowledge that you must use a JD Cloud load balancer before you can enjoy the application security gateway service of JD Cloud. Besides, one application security gateway can only associate with one load balancer at one time and the application security gateway will provide security protection for the Web or APP business of the load balancer in the VPC network.
+3.1.4. Application Security Gateway of JD Cloud ensures the security protection of Web or APP business in VPC network. It should be used together with a Load Balancer, so you understand and acknowledge that you must use a JD Cloud Load Balancer before you can enjoy the Application Security Gateway service of JD Cloud. Besides, one Application Security Gateway can only associate with one Load Balancer at one time and the Application Security Gateway will provide security protection for the Web or APP business of the Load Balancer in the VPC network.
 
 3.1.5. You should not install or use any pirated software on the JD Cloud service platform, otherwise you are solely responsible for the results of your actions (such as software installation and operation by yourself).
 
 3.1.6. You are responsible for the integrity and confidentiality of the passwords and codes for entering and managing various products and services on the JD Cloud platform. All losses and consequences caused by the loss or leakage of data, key, passwords, etc. due to your improper maintenance or improper confidentiality measures shall be borne by yourself.
 
-3.1.7. You should submit the list of persons who  execute the Service Terms and persons who manage various products and services on the user network and cloud platform to JD Cloud, and provide necessary assistance. If the above personnel change, you should update the information online and notify JD Cloud in time. You are responsible for the untrue, inaccurate or incomplete identity information provided by you as well as the consequences caused by the matters above.
+3.1.7. You should submit the list of persons who execute the Service Terms and persons who manage various products and services on the user network and cloud platform to JD Cloud, and provide necessary assistance. If the above personnel change, you should update the information online and notify JD Cloud in time. You are responsible for the untrue, inaccurate or incomplete identity information provided by you as well as the consequences caused by the matters above.
 
 3.1.8. You must keep the access log records of your website in accordance with the Regulations on Internet Information Service Management and Regulations on Internet Electronic Bulletin Service Management and other laws and regulations, including the published information content and its release time, IP, domain names, etc. When inquired by the relevant governmental organs, you shall provide relevant information in accordance with the laws. You are solely responsible for all legal liabilities arising from the failure of keeping relevant records as required.
 
@@ -110,7 +110,7 @@ You understand and acknowledge that the above list does not cover all types of l
 
 3.2.2.2. JD Cloud provides a 7×24h online work order service system to answer customer questions.
 
-3.2.3. Where the service involves application security gateway, JD Cloud is responsible only for the operation maintenance at the bottom part of operating system and of the software provided by JD Cloud, that is, the related technical architecture and operating system of the application security gateway. You will be responsible for the upper part of the operating system (such as the applications you install on your system). Besides, if you upgrade your operating system yourself, it may cause adverse effects such as downtime. Please consider the risks and operation with caution.
+3.2.3. Where the service involves Application Security Gateway, JD Cloud is responsible only for the operation maintenance at the bottom part of operating system and of the software provided by JD Cloud, that is, the related technical architecture and operating system of the Application Security Gateway. You will be responsible for the upper part of the operating system (such as the applications you install on your system). Besides, if you upgrade your operating system yourself, it may cause adverse effects such as downtime. Please consider the risks and operation with caution.
 
 3.2.4. JD Cloud will clear the faults caused by non-human factors, except for your reasons and/or force majeure as well as matters excluded in the control scope of JD Cloud.
 
@@ -150,7 +150,7 @@ You understand and acknowledge that the above list does not cover all types of l
 
 **7.** **Opening, Use and Termination of Services**
 
-7.1. The service period is calculated from the day that you opens the application security gateway service (refers to the service shown and provided to you at [www.jdcloud.com](https://www.jdcloud.com/index)) successfully, i.e. the day that you can enjoy application security gateway service of JD Cloud. The specific service period will be calculated based on your actual usage.
+7.1. The service period is calculated from the day that you opens the Application Security Gateway service (refers to the service shown and provided to you at [www.jdcloud.com](https://www.jdcloud.com/index)) successfully, i.e. the day that you can enjoy Application Security Gateway service of JD Cloud. The specific service period will be calculated based on your actual usage.
 
 7.2. You shall keep your account balance sufficient for uninterrupted use of the service.
 
@@ -158,13 +158,13 @@ You understand and acknowledge that the above list does not cover all types of l
 
 7.3.1. Both parties terminate early by consensus;
 
-7.3.2. If you disenable one application security gateway, JD Cloud will stop providing the application security gateway service; if you disenable all application security gateways, the Service Terms will be terminated;
+7.3.2. If you disenable one Application Security Gateway, JD Cloud will stop providing the Application Security Gateway service; if you disenable all Application Security Gateways, the Service Terms will be terminated;
 
 7.3.3. If you are in severe breach of the Service Terms (including but not limited to: a. You failed to fulfill your payment obligations in accordance with the Agreement, and/or b. You have severely violated the law, etc.), JD Cloud reserves the right to terminate the service in advance and you shall still pay the outstanding fee; if you fail to fulfill the payment obligation as agreed, JD Cloud will suspend and terminate the service as stipulated below:
 
-7.3.3.1. For the first arrears, if you fail to recharge the account successfully and ensure the account balance is enough to pay the service fees owed, JD Cloud will suspend the service, but still reserve your application security gateway.
+7.3.3.1. For the first arrears, if you fail to recharge the account successfully and ensure the account balance is enough to pay the service fees owed, JD Cloud will suspend the service, but still reserve your Application Security Gateway.
 
-7.3.3.2. If you have not recharged successfully and the account balance is insufficient to cover the service fees owed at the expiration time of the 7th day after the service from JD Cloud is suspended (from the time when the suspension of the service is suspended to the expiration of the same time on the 7th day), JD Cloud will terminate the Service Terms and clear your application security gateway.
+7.3.3.2. If you have not recharged successfully and the account balance is insufficient to cover the service fees owed at the expiration time of the 7th day after the service from JD Cloud is suspended (from the time when the suspension of the service is suspended to the expiration of the same time on the 7th day), JD Cloud will terminate the Service Terms and clear your Application Security Gateway.
 
 7.3.4. You understand and fully accept that although JD Cloud has established necessary technical measures to protect against matters or behaviors (collectively referred to as such behaviors) endangering the network security including computer viruses, network intrusion and attack damage (including but not limited to DDOS) (and will continue to improve based on the development of technology), in consideration of the limitations and relativity of network security techniques and the unpredictability of such behaviors, if you encounter such behaviors and this causes harm to JD Cloud or other networks or servers (including but not limited to local, non-local and international networks, servers, etc.) of JD Cloud, or affects the smooth contact between JD Cloud and international Internet or JD Cloud and specific network/server or internal smooth contact of JD Cloud, JD Cloud may decide to suspend or terminate the service. If the service is terminated, the service fee will be calculated based on the actual service provided, and you will still be responsible for the service fee (if any) that you have not paid.
 
@@ -188,7 +188,7 @@ You understand and acknowledge that the above list does not cover all types of l
 
 9.1. When the Service Terms is impossibly performed or become unnecessary or meaningless due to force majeure or other accidents, the party suffering from force majeure or accident shall not be held liable.
 
-9.2. Force majeure or accidental events refer to unforeseeable, insurmountable and unavoidable objective events that have a significant impact on one or both parties, including but not limited to natural disasters such as floods, earthquakes, epidemics of plagues, and social events such as war, unrest, government actions, interruption of China telecom trunk lines, hackers network congestion, telecommunications sector technology adjustment and government regulation.
+9.2. Force majeure or accidental events refer to unforeseeable, insurmountable and unavoidable objective events that have a significant impact on one or both parties, including but not limited to natural disasters such as floods, earthquakes, epidemics of plagues, and social events such as war, unrest, government actions, and interruption of China telecom trunk lines, hackers network congestion, telecommunications sector technology adjustment and government regulation.
 
 **10.** **Governing Law and Dispute Resolution**
 

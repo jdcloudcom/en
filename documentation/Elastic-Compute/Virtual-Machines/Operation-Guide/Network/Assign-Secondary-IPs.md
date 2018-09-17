@@ -10,15 +10,15 @@ Secondary Private IP Address: The private IP address other than the primary IP a
 
 The single elastic network interface can have an upper limit of 21 private IP addresses, that is, 20 secondary private IPs can be assigned in addition to the primary private IP. When the number of allocated private IPs has not reached the upper limit, you can operate to assign the secondary private IP.
 	
-	Please note that: the actual number of private IPs that can be assigned is also limited by the number of remaining IPs on the subnet where the elastic network interface is located.
+	Note: the actual number of private IPs that can be assigned is also limited by the number of remaining IPs on the subnet where the elastic network interface is located.
 
 ## Operation Steps
 
-1. Access [Virtual Machine Console](https://cns-console.jdcloud.com/host/compute/list) and enter the instance list page. Or access [JD Cloud Console](https://console.jdcloud.com) Click navigation bar on the left [Elastic Compute] - [Virtual Machine] to enter the instance list page.
+1. Access [Virtual Machines Console](https://cns-console.jdcloud.com/host/compute/list) and enter the instance list page. Or access [JD Cloud Console](https://console.jdcloud.com) Click navigation bar on the left **Elastic Compute** - **Virtual Machines** to enter the instance list page.
 2. Select Regions.
 3. In the instance list, select the instance that needs to be assigned the secondary private IP and click the name to enter the details page.
-4. Click [Elastic network interface] Tab, select the elastic network interface that needs to be assigned IP, and click [Assign private IP].
-5. Add private IP to be added to the pop-up window. You can choose the private IP address assigned by the system automatically or the customized private IP address. Note that you need to be within the CIDR scope of the elastic network interface machine and cannot conflict with an occupied address. Support multiple assignments at the same time, click [Confirm].
+4. Click **Elastic Network Interface** Tab, select the elastic network interface that needs to be assigned IP, and click **Assign private IP**.
+5. Add private IP to be added to the pop-up window. You can choose the private IP address assigned by the system automatically or the customized private IP address. Note that you need to be within the CIDR scope of the elastic network interface machine and cannot conflict with an occupied address. Support multiple assignments at the same time, click **OK**.
 		
 		Please note:
 		* After the console operation is completed, you need to log in to the instance for configuration to take effect.
@@ -61,7 +61,7 @@ The Linux system uses CentOS 7.2 as an example and the detailed operation is as 
 
 	```
 	TYPE="ETHERNET"
-	#BOOTPROTO="dhcp"
+	# BOOTPROTO="dhcp"
 	DEFROUTE="yes"
 	PEERDNS="yes"
 	PEERROUTES="yes"
@@ -109,9 +109,9 @@ Windows system uses Windows Server 2012 R2 Standard Edition 64-bit Chinese versi
 4. After opening the distributes, select "Internet Protocol Version 4 (TCP/IPv4)" and click "Attribute".![](../../../../../image/vm/AssignIP3.png )
 5. After opening the attributes, the display is as follows![](../../../../../image/vm/AssignIP4.png)
    Modify the content to the image below, then click "Advanced"![](../../../../../image/vm/AssignIP5.png)
-6. Click Advanced to display the following image![](../../../../../image/vm/AssignIP6.png)
-<br>Click“Add”, fill in as bellow, click“Add” and confirm![](../../../../../image/vm/AssignIP7.png)
-Click "Confirm" to return to the attribute page![](../../../../../image/vm/AssignIP8.png)<br>Fill in the DNS server address and write “103.224.222.222” and “103.224.222.223” and complete after clicking “Confirm”![](../../../../../image/vm/AssignIP9.png)
+6. Click **Advanced** to display the following image![](../../../../../image/vm/AssignIP6.png)
+<br>Click **Add**, fill in as bellow, click **Add** and confirm![](../../../../../image/vm/AssignIP7.png)
+Click **OK** to return to the attribute page![](../../../../../image/vm/AssignIP8.png)<br>Fill in the DNS server address and write "103.224.222.222" and "103.224.222.223" and complete after clicking "Confirm"![](../../../../../image/vm/AssignIP9.png)
 
 ## Related Reference
 

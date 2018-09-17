@@ -3,7 +3,7 @@
 
 ![Tag1](../../../image/RDS/Tag-1.png)
 
-The figure above shows the tag implementation. Three tags are associateed to the “cloud database instance A” and the “cloud database instance B”, and the corresponding keys are “Department”, “Purpose” and “Project”. Wherein
+The figure above shows the tag implementation. Three tags are associated to the "cloud database instance A" and the "cloud database instance B", and the corresponding keys are "Department", "Purpose" and "Project". Wherein
 - The department of the instance A is the R&D Department, with the purpose of ERP development and of xx project
 - The department of the instance B is the R&D Department with the purpose of website development and of yy project.
 
@@ -21,4 +21,4 @@ The figure above shows the tag implementation. Three tags are associateed to the
 - The maximum value of the tag value (Value) is 255 characters (UTF-8).
 - The tag key/value cannot be used with the prefix "jrn: ". it only supports Chinese, numbers, capital and lowercase letters, spaces and special symbols, such as _.:/=+-@, and it is case sensitive and cannot begin with a space.
 - The tag key (Key) of any tags for each resource shall be unique, and the tag of the same tag key (Key) will be replaced;
-- When unbinding a tag, if the tag has no bound resources after disassociating, the tag will be automatically deleted.
+- When unbinding a tag, if the tag has no bound resources after unbinding, the tag will be automatically deleted.

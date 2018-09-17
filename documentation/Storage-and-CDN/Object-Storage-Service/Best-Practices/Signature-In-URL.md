@@ -13,7 +13,7 @@ The dependent sdk configured in pom.xml is as follows:
 </dependency>
 ```
 
-2. Example code
+2. Example Code
 
 The following is an example presigned URL.
 ```

@@ -2,7 +2,7 @@
 
 Description: query account quota information
 
-- Request method
+- Request Method
 ```xml
 GET https://redis.jdcloud-api.com/v1/regions/{regionId}/quota
 ```
@@ -10,33 +10,33 @@ Name|type|required or not|default|description
 ---|:--:|:--:|:--:|---:
 regionId|String|True||Region ID in the region where the Redis instance is located. At present, Redis includes North China, South China, and eastern China regions. The Region ID is cn-north-1, cn-south-1 and cn-east-2 respectively.
 
-- Request parameter<br>
+- Request Parameter<br>
 None
 
 
-- Return parameter
+- Return Parameter
 
-Name|type|description
+Name|Type|Description
 ---|:--:|---:
 requestId|String|
 result|Result
 
 - Result
 
-Name|type|description
+Name|Type|Description
 ---|:--:|---:
 quota|Quota|
 
 - Quota
 
-Name|type|description
+Name|Type|Description
 ---|:--:|---:
 max|Integer|Quota
 name|string|Name of the item of quota
-used|Integer|used numbers
+used|Integer|Used numbers
 
-- Error code
+- Error Code
 
-Error code|description
+Error Code|Description
 ---|---:
 200|OK

@@ -1,6 +1,6 @@
-# Restraint Instructions
+# Restrictions
 
-You can quickly create and use the  MongoDB, but there are some constraints need to be noted in use.
+You can quickly create and use the  JCS for MongoDB, but there are some constraints need to be noted in use.
 
 ## Storage Engine
 The storage engine defaults to WiredTiger and does not support modification.

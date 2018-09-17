@@ -12,7 +12,7 @@ d) Distributions that have been officially stopped for maintenance, such as Debi
 
 e) All official security updates must be installed when making image.
 
-f) Ensure that the endpoint security system is installed and powered on.
+f) Ensure that the Endpoint Security System is installed and powered on.
 
 1.2 Operations suggestion
 Install the security update:
@@ -23,11 +23,11 @@ b) Ubuntu: Update with the apt update && apt upgrade command
 
 c) CentOS: Automatically update with the yum update command
 
-Check the machine security status:
+Check Endpoint Security Status:
 
 a) Windows: Task Manager -> Process, check if there is a jdcloudhids process
 
-b) Linux: ps - ef  | grep jdcloudhids, check if if there is a jdcloudhids process
+b) Linux: ps - ef  | grep jdcloudhids, check if there is a jdcloudhids process
 
 1.3 Important component safety
 The components listed below must ensure that no vulnerabilities are exploited:
@@ -62,7 +62,7 @@ e) Reasonable configuration of system key directory permissions, such as /etc, /
 
 f) Except for the /tmp directory, other directories do not allow 777 permissions.
 
-g) The default log service is guaranteed to run normally, such as dmesg, syslog, wtmp, btmp, sudo, etc.
+g) The default Log Service is guaranteed to run normally, such as dmesg, syslog, wtmp, btmp, sudo, etc.
 
 h) Non-public service ports are not open to the extranet (such as redis 6379, mongodb 27017, etc.), only open what is required.
 

@@ -24,7 +24,7 @@ s3 = boto3.client(
     's3',  
     aws_access_key_id=ACCESS_KEY,  
     aws_secret_access_key=SECRET_KEY,  
-    #An endpoint_url example is given below  
+    # An endpoint_url example is given below  
     endpoint_url='http://s3.cn-north-1.jcloudcs.com'  
     )  
 #use s3 client to create bucket、put object....

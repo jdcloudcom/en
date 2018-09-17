@@ -1,14 +1,14 @@
-**This Service Terms is a valid agreement between the owner of the JD Cloud website (referred to in the Agreement as "JD Cloud" website: **[www.jdcloud.com](https://www.jdcloud.com/)**) and you on matters relating to JD Cloud Digivoice Big Data Analysis Platform (**[xdata.jdcloud.com](https://xdata.jdcloud.com/)**) (including data factory service, data computing service, JD MapReduce service, streaming data bus service and stream computing service which are collectively referred to as "Digivoice"). By stamping, clicking to confirm on the web page, or other ways to accept the Service Terms, including but not limited to the actually using of Digivoice service without clicking to confirm the Service Terms, you have reached an agreement with JD Cloud and agreed to accept all agreed contents of the Service Terms. In case of any inconsistency between the text stamped by both parties and the text of Service Terms accepted and confirmed by clicking the web page or other ways, the text stamped by both parties shall prevail.**
+**This Service Terms is a valid agreement between the owner of the JD Cloud website (referred to in the Agreement as "JD Cloud" website:**[www.jdcloud.com](https://www.jdcloud.com/)**) and you on matters relating to JD Cloud Digivoice Big Data Analysis Platform (**[xdata.jdcloud.com](https://xdata.jdcloud.com/)**) (including Data Factory service, Data Compute, JD MapReduce service, Stream Hub service and Stream Compute service which are collectively referred to as "Digivoice"). By stamping, clicking to confirm on the web page, or other ways to accept the Service Terms, including but not limited to the actually using of Digivoice service without clicking to confirm the Service Terms, you have reached an agreement with JD Cloud and agreed to accept all agreed contents of the Service Terms. In case of any inconsistency between the text stamped by both parties and the text of Service Terms accepted and confirmed by clicking the web page or other ways, the text stamped by both parties shall prevail.**
 
  
 
-**For the Service Terms, you are reminded to pay special attention to the restriction and exemption terms, determination and handling terms of JD Cloud on your violations and breach of contract, and the selection terms of jurisdictional courts. Restriction and exemption terms may be indicated in bold or by underline for your attention. You should carefully read the entire contents of the Service Terms before accepting the Service Terms. If you have any questions about the Service Terms, please contact the relevant business department of JD Cloud and JD Cloud will explain the terms to you. If you do not agree on any of the contents of the Service Terms, or cannot accurately understand the interpretation of these terms made by JD Cloud, please do not continue the operation. **
+**For the Service Terms, you are reminded to pay special attention to the restriction and exemption terms, determination and handling terms of JD Cloud on your violations and breach of contract, and the selection terms of jurisdictional courts. Restriction and exemption terms may be indicated in bold or by underline for your attention. You should carefully read the entire contents of the Service Terms before accepting the Service Terms. If you have any questions about the Service Terms, please contact the relevant business department of JD Cloud and JD Cloud will explain the terms to you. If you do not agree on any of the contents of the Service Terms, or cannot accurately understand the interpretation of these terms made by JD Cloud, please do not continue the operation.**
 
  
 
 **1.** **Service Content**
 
-1.1 “Service” in the terms refers to the Digivoice service and related technical and network support services that JD Cloud provides to you at xdata.jdcloud.com. Including data factory service, data computing service, JD MapReduce service, streaming data bus service and stream computing service.
+1.1 "Service" in the terms refers to the Digivoice service and related technical and network support services that JD Cloud provides to you at xdata.jdcloud.com. Including Data Factory service, Data Compute, JD MapReduce service, Stream Hub service and Stream Compute service.
 
 1.2 The services provided by Digivoice must comply with the provisions of the Service Terms.
 
@@ -46,7 +46,7 @@
 
 3.1.3.3 If the services of JD Cloud involve the license of third-party software, you agree to abide by the relevant license agreement;
 
-3.1.3.4 Do Not Intersperse Email Ads or SPAMs: Do not use the services provided by JD Cloud to intersperse a large number of undesired or uncalled emails, electronic advertising or emails containing reactionary information, pornographic information or other harmful information;
+3.1.3.4 Do not intersperse Email Ads or SPAMs: Do not use the services provided by JD Cloud to intersperse a large number of undesired or uncalled emails, electronic advertising or emails containing reactionary information, pornographic information or other harmful information;
 
 3.1.3.5 Do not use the resources and services provided by JD Cloud to upload, download, store, and release the following information or contents and do not provide any convenience for others to release such information (including but not limited to setting URL, BANNER links, etc.):
 
@@ -66,7 +66,7 @@
 
 3.1.3.5.8 Other content that violates laws and regulations, departmental rules or national policies.
 
-3.1.3.6 Do not establish or utilize the relevant equipment and configuration to operate irrelevant programs or processes, or write malicious code to occupy a large amount of server memory, CPU or network bandwidth resources in the platform (hereinafter referred to as "cloud platform") composed of JD Cloud computing resources (such as Digivoice service, network bandwidth, storage space, etc.), or bring severe and unreasonable loads to the JD Cloud platform or JD Cloud’s other users’ networks, servers (including but not limited to local and ecdemic and international networks, servers, etc.), products/applications, etc., or affect the normal and smooth communication among JD Cloud and the Internet, or JD Cloud and specific networks, servers, interior of JD Cloud as well, or result in server’s downtime, crash of products and services of JD Cloud or other users, or no access to products/applications on cloud platform for the users, etc.
+3.1.3.6 Do not establish or utilize the relevant equipment and configuration to operate irrelevant programs or processes, or write malicious code to occupy a large amount of server memory, CPU or network bandwidth resources in the platform (hereinafter referred to as "cloud platform") composed of JD Cloud computing resources (such as Digivoice service, network bandwidth, and storage space), or bring severe and unreasonable loads to the JD Cloud platform or JD Cloud’s other users’ networks, servers (including but not limited to local and ecdemic and international networks, servers, etc.), products/applications, etc., or affect the normal and smooth communication among JD Cloud and the Internet, or JD Cloud and specific networks, servers, interior of JD Cloud as well, or result in server’s downtime, crash of products and services of JD Cloud or other users, or no access to products/applications on cloud platform for the users, etc.
 
 3.1.3.7 Do not conduct any behavior or attempt to undermine the network security (including but not limited to phishing, hacking, phishing, website or space containing or suspected of spreading: viruses, Trojans and malicious codes as well as suspected behaviors of attacking other websites and servers via virtual servers, such as scanning, sniffing, ARP spoofing and DOS);
 
@@ -202,7 +202,7 @@ In order to ensure that the programs you upload and run comply with the provisio
 
 9.1. When the Service Terms is impossibly performed or become unnecessary or meaningless due to force majeure or other accidents, the party suffering from force majeure or accident shall not be held liable.
 
-9.2. Force majeure or accidental events refer to unforeseeable, insurmountable and unavoidable objective events that have a significant impact on one or both parties, including but not limited to natural disasters such as floods, earthquakes, epidemics of plagues, and social events such as war, unrest, government actions, interruption of China telecom trunk lines, hackers network congestion, telecommunications sector technology adjustment and government regulation.
+9.2. Force majeure or accidental events refer to unforeseeable, insurmountable and unavoidable objective events that have a significant impact on one or both parties, including but not limited to natural disasters such as floods, earthquakes, epidemics of plagues, and social events such as war, unrest, government actions, and interruption of China telecom trunk lines, hackers network congestion, telecommunications sector technology adjustment and government regulation.
 
  
 
@@ -230,15 +230,15 @@ In order to ensure that the programs you upload and run comply with the provisio
 
 1. [Data Factory Service]
 
-1.1. The data factory service is currently in a **free trial period**. During the free trial period, JD Cloud will not make any commitment to the availability and reliability of the service. JD Cloud will not be responsible for the work or results of your use of JD Cloud's data factory service; however, JD Cloud is willing to work with you to solve the problem and promise continuously improve service quality and service level. In case of any problem, you can report to JD Cloud by calling the technical support hotline and get technical support. If you can't solve the problem, you shall stop using the JD Cloud's data factory service.
+1.1. The Data Factory service is currently in a **free trial period**. During the free trial period, JD Cloud will not make any commitment to the availability and reliability of the service. JD Cloud will not be responsible for the work or results of your use of JD Cloud's Data Factory service; however, JD Cloud is willing to work with you to solve the problem and promise continuously improve service quality and service level. In case of any problem, you can report to JD Cloud by calling the technical support hotline and get technical support. If you can't solve the problem, you shall stop using the JD Cloud's Data Factory service.
 
  
 
-2. [Data Computing Service]
+2. [Data Compute]
 
-2.1. JD Cloud charges you the data computing service fee based on demand in pay-as-you-go mode. If the deduction fails, JD Cloud will stop your operation permission on the service. If you need to continue to use JD Cloud's data computing service, you shall renew in a timely manner.
+2.1. JD Cloud charges you the Data Compute fee based on demand in pay-as-you-go mode. If the deduction fails, JD Cloud will stop your operation permission on the service. If you need to continue to use JD Cloud's Data Compute, you shall renew in a timely manner.
 
-2.2. You must ensure that you have legal permission to operate the data by using the JD Cloud's data computing service.
+2.2. You must ensure that you have legal permission to operate the data by using the JD Cloud's Data Compute.
 
  
 
@@ -250,22 +250,22 @@ In order to ensure that the programs you upload and run comply with the provisio
 
  
 
-4. [Streaming Data Bus Service]
+4. [Stream Hub Service]
 
-4.1. When the deduction of the previous day's bills of your streaming data bus service fails, it will be deemed as arrears.
+4.1. When the deduction of the previous day's bills of your Stream Hub service fails, it will be deemed as arrears.
 
-4.2. The data bus service will be automatically stopped immediately after the arrears, and the deduction will be stopped.
+4.2. The Stream Hub service will be automatically stopped immediately after the arrears, and the deduction will be stopped.
 
-4.3. 3.2. If you pay the arrears within 15 days, the service will be automatically opened and you can continue to use it; if you fail to pay the arrears within 15 days, it will be deemed that you have voluntarily given up the streaming data bus service. After the service is stopped, the unprocessed message data will be automatically released and the released data is unrecoverable.
+4.3. 3.2. If you pay the arrears within 15 days, the service will be automatically opened and you can continue to use it; if you fail to pay the arrears within 15 days, it will be deemed that you have voluntarily given up the Stream Hub service. After the service is stopped, the unprocessed message data will be automatically released and the released data is unrecoverable.
 
  
 
-5. [Stream Computing Service]
+5. [Stream Compute Service]
 
 5.1. In the pay-as-you-go mode, the bill for the previous hour will be generated according to the resource allocation and actual usage time and charge is then cleared.
 
 5.2. Billing by Volume: It is a pay-as-you-go mode, that is, you can use the service and then make payment, billing in seconds, and resource unit price is displayed in RMB/hour. The life cycle of billing starts from the creation of the application to the deletion of the application. When the bill is less than RMB0.01 in the life cycle, and it will be replenished and charged by RMB0.01. The end time of the billing is based on the time of deleting the application (accurate to the second).
 
-5.3. The stream computing service will be automatically stopped immediately after the arrears, and the deduction will be stopped.
+5.3. The Stream Compute service will be automatically stopped immediately after the arrears, and the deduction will be stopped.
 
-5.4. If you pay the arrears within 15 days, the service will be automatically opened and you can continue to use it; if you fail to pay the arrears within 15 days, it will be deemed that you have voluntarily given up the stream computing service.
+5.4. If you pay the arrears within 15 days, the service will be automatically opened and you can continue to use it; if you fail to pay the arrears within 15 days, it will be deemed that you have voluntarily given up the Stream Compute service.

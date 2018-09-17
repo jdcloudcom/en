@@ -9,7 +9,7 @@ The backup instance will be stored in the cloud storage service of JD Cloud. At 
 ## Create Manual Backup
 1. Login [RDS Console](https://rds-console.jdcloud.com/database).
 2. Select the instance to be manually backed up, click the name of the instance, and enter the instance detailed page.
-3. Select the tag of ***Backup Management *** and click ***Create Backup***. Then a backup creation box will be popped up, and the parameters are as follows:
+3. Select the tag of ***Backup Management*** and click ***Create Backup***. Then a backup creation box will be popped up, and the parameters are as follows:
     * Backup Name: It is allowed to repeat, while the length and characters of the name have certain limits, which shall be subject to the console.
     * Click ***OK*** to complete the backup.
     * Click ***Cancel*** to cancel the backup creation.

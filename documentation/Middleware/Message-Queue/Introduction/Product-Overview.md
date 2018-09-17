@@ -1,8 +1,8 @@
-# What is MQ?
+# Product Overview
 
-MQ(Message Queue) is a distributed message queue service developed by JD Cloud, which realizes asynchronous decoupling among services in the distributed architecture. The product can provide asynchronous communication mechanism for different applications of distributed deployment or the different components of the same application. JD Cloud Message Queue realizes the functions of publishing and subscription, message query, dead letter queue, reset consumer offset, sequence message and delay message, has the characteristics of high availability, high reliability, high performance, smooth expansion and dynamic monitoring. Message Queue is an indispensable core product in the cloud architecture.
+MQ(Message Queue) is a distributed message queue service developed by JD Cloud, which realizes asynchronous decoupling among services in the distributed architecture. The product can provide asynchronous communication mechanism for different applications of distributed deployment or the different components of the same application. JD Cloud Message Queue realizes the functions of publishing and subscription, Message Query, Dead Letter Queue, reset consumer offset, sequence message and delay message, has the characteristics of high availability, high reliability, high performance, smooth expansion and dynamic monitoring. Message Queue is an indispensable core product in the cloud architecture.
 
-## How Can I Get Started with MQ?
+## How Can I Get Started with Message Queue?
 
 - Quick Start
 	- [Create Resources](../Getting-Started/Create-Resource.md)
@@ -14,10 +14,10 @@ MQ(Message Queue) is a distributed message queue service developed by JD Cloud, 
 - Message Subscription
 	- [Send Message](../Operation-Guide/Message-Management/Send-Message.md)
 	- [Query Message](../Operation-Guide/Message-Management/Query-Message.md)
-	- [Redrive Message](../Operation-Guide/Backup/Message-Management/Redrive-Message.md)
+	- [Resend Message](../Operation-Guide/Backup/Message-Management/Resend-Message.md)
 - Operation and Maintenance Management
 	- [View Monitoring Information](../Operation-Guide/Monitoring/Monitoring.md)
 	- [Set Alarm Rules](../Operation-Guide/Monitoring/Alarm-Rules.md)
 
 ## Billing
-MQ supports Pay-As-You-Go billing method, for details to see [Billing-Rules](https://github.com/jdcloudcom/en/blob/edit/documentation/Middleware/Message-Queue/Pricing/Billing-Rules.md).
+Message Queue supports Pay-As-You-Go Billing Type, for details to see [Billing-Rules](https://github.com/jdcloudcom/en/blob/edit/documentation/Middleware/Message-Queue/Pricing/Billing-Rules.md).

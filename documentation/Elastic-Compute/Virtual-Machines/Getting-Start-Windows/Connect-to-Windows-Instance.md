@@ -25,8 +25,8 @@ After purchasing and launching an instance of Windows type, you can choose to lo
 Create an instance and acquire the account number and corresponding password.
 * Administrator Account: Administrator
 * Password: JD Cloud instance can obtain password in two ways.
-  * When creating an instance, select [Set Later] and the system will send a default password by SMS and email. You can use the default password to verify when you login to the instance.
-  * Select [Set Now], and then you should enter a customized password in the password setting text box. If you forget the password, you can reset the password by [Reset Password](../Operation-Guide/Instance/Reset-Password.md). This function is only available for the "Running" instance.
+  * When creating an instance, select **Set Later** and the system will send a default password by SMS and email. You can use the default password to verify when you login to the instance.
+  * Select **Set Now**, and then you should enter a customized password in the password setting text box. If you forget the password, you can reset the password by [Reset Password](../Operation-Guide/Instance/Reset-Password.md). This function is only available for the "Running" instance.
 
 ## Use VNC to Login Instance
 VNC login is a way provided by JD Cloud for remote connection to instance for users via Web browser. In the case that a remote login client is not installed or the client remote login is not available, the user can connect to the instance through VNC login, observe the instance status, and perform basic instance management operations through the instance user.
@@ -34,7 +34,7 @@ The scenarios of VNC login include at least the following:
 * View the starting progress of the instance
 * When logging in via client SSH or mstsc is unavailable, log in the instance via VNC login.
 
-1. Click [Remote Connect] In the operation column of the Instance List to connect to the Windows instance via VNC.
+1. Click **Remote Connect** In the operation column of the Instance List to connect to the Windows instance via VNC.
 ![](../../../../image/vm/Getting-Start-Linux-Connect-console.png)
 
 2. Enter the system login interface by clicking the Ctrl+Alt+Del command in the upper left corner:
@@ -50,15 +50,15 @@ Please note:
 
 ## If the local system is Windows, login the Windows instance using remote desktop.
 Before connecting the Windows instance using MSTSC remote desktop, user must first ensure that the instance is associated to the EIP, and such access is allowed in the security group and network ACL rules. You can create a Windows instance on the JD Cloud console and acquire the EIP: XXX.XXX.XXX.XXX.
-1. Click the [Start] on the computer and find "Running".
+1. Click **Start** on the computer and find **Run**.
 ![](../../../../image/vm/Getting-Start-Linux-Connect-Windows-menu.png)
-2. Enter mstsc command in Running and click OK to open the remote desktop connection dialog.
+2. Enter mstsc command in Running and click **OK** to open the remote desktop connection dialog.
 ![](../../../../image/vm/Getting-Start-Linux-Connect-Windows-mstsc.png)
-3. Connect the instance according to the EIP associated when creating the instance, and then enter the username: Administrator, and select "Allow me to save the credentials".
+3. Connect the instance according to the EIP associated when creating the instance, and then enter the username: Administrator, and select **Allow me to save the credentials**.
 ![](../../../../image/vm/Getting-Start-Linux-Connect-Windows-mstsc1.png)
-4. After clicking [Connect], enter the password and connect to the instance.
+4. After clicking **Connect**, enter the password and connect to the instance.
 ![](../../../../image/vm/Getting-Start-Linux-Connect-Windows-mstsc2.png)
-5. Select "Do not ask me if to connect to this computer" and click [Yes].>
+5. Select **Do not ask me again if to connect to this computer** and click **Yes**.>
 ![](../../../../image/vm/Getting-Start-Linux-Connect-Windows-mstsc3.png)
 6. Connect to the Windows instance you created on JD Cloud Successfully.>
 ![](../../../../image/vm/Getting-Start-Linux-Connect-Windows-mstsc4.png)
