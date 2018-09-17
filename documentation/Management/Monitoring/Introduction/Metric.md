@@ -178,7 +178,7 @@ Disk Write Throughput	|kbps|	1 Minute
 Network Inbound Traffic	|bps|	1 Minute
 Network Outbound Traffic	|bps|	1 Minute
 
-## OSS Monitoring 
+## OSS Monitoring  Metric
 Monitoring Metrics | Units | Minimum Monitoring Granularity
 ---|---|---
 Internet Inbound Traffic|Byte|	1 Minute
@@ -194,79 +194,81 @@ CDN Outbound Traffic	|Byte|	1 Minute
 
 Monitoring Metrics | Units | Minimum Monitoring Granularity
 ---|---|---
-Maximum Number of Instances	|Quantity|	1 Minute
-Minimum Number of Instances	|Quantity|	1 Minute
-Number of Service Instances	|Quantity|	1 Minute
-Number of Total Instances	|Quantity|	1 Minute
-Number of Added Instances |Quantity|	1 Minute
-Number of Shifted Instances	|Quantity|	1 Minute
+Max Instances	| Count|	1 Minute
+Min Instances	|Count|	1 Minute
+Runing Instances|Count|	1 Minute
+Instances	|Count|	1 Minute
+Joining  Instances |Count|	1 Minute
+Removing Instances	|Count|	1 Minute
 
 **VM Instance**
 
 Monitoring Metrics | Units | Minimum Monitoring Granularity
 ---|---|---
-CPU Utilization Rate	|%|	1 Minute
-Memory Utilization Rate	|%|	1 Minute
-Network Entry Rate	|%|	1 Minute
-Network Out Rate	|%|	1 Minute
+CPU Usage	|%|	1 Minute
+Memory Usage	|%|	1 Minute
+Network Inbound Rate	|%|	1 Minute
+Network Outbound Rate	|%|	1 Minute
 
 ## JD MapReduce Monitoring Metric
 Monitoring Metrics | Units | Minimum Monitoring Granularity
 ---|---|---
-Non-heap Memory Usage	|mb|	1 Minute
-Heap Memory Used	|mb|	1 Minute
-HDFS Used	|Byte|	1 Minute
-NameNode Block Total Number	|Quantity|	1 Minute
-The Total Number of Files Managed by the NameNode	|Quantity|	1 Minute
-datanode Node Surviving Number	|Quantity|	1 Minute
-Rpc Call Average Time	|Millisecond|	1 Minute
-Rpc Operation Average Time	|Millisecond|	1 Minute
-Current rpc Open Number	|Quantity|	1 Minute
-RPC Current Call Queue Length	|Quantity|	1 Minute
+Used Non-heap Memory	|mb|	1 Minute
+Used Heap Memory	|mb|	1 Minute
+Used HDFS	|Byte|	1 Minute
+NameNode blocks 	|Count|	1 Minute
+NameNode Managed Files |Count|	1 Minute
+Survival  Datanodes	|Count|	1 Minute
+RPC Invoking 	|ms |	1 Minute
+RPC Operation	|ms|	1 Minute
+Open RPC |Count|	1 Minute
+RPC Invoking  QueueLength |Count|	1 Minute
 
 ## JCQ Monitoring Metric
 **Topic**
 
 Monitoring Metrics | Units | Minimum Monitoring Granularity
 ---|---|---
-Produced TPS	|Bar/Second|	1 Minute
-Number of Published Pessages	|Quantity|	1 Minute
-The Number of Requests for Published Messages	|Frequency|	1 Minute
-The Size of the Published Message	|Byte|	1 Minute
+Produced TPS	|Count/s|	1 Minute
+Published Messages	|Count|	1 Minute
+Published Message Requests	|Count|	1 Minute
+Published Message Size	|Byte|	1 Minute
 
 **ConsumerGroup**
 
 Monitoring Metrics | Units | Minimum Monitoring Granularity
 ---|---|---
-Consumed TPS	|Bar/Second|	1 Minute
-Number of Stacked Messages	|Quantity|	1 Minute
-Number of Requests to Receive Messages |Quantity|	1 Minute
-Number of Successfully Received Messages |Quantity|	1 Minute
-Total Number of Received Messages	|Quantity|	1 Minute
-Number of Successfully Received Messages |Quantity|	1 Minute
-The Size of the Received Message	|Byte|	1 Minute
+Consumed TPS	|Count/s|	1 Minute
+Buildup Messages	|Count|	1 Minute
+Succed Received Messages  |Count|	1 Minute
+Received Messages	|Count|	1 Minute
+Received Message Requests |Count|	1 Minute
+Received Message Size	|Byte|	1 Minute
 
 ## BDS Monitoring Metric
 Monitoring Metrics | Units | Minimum Monitoring Granularity
 ---|---|---
-Checkpoint Writes to Page Number per Second	|Quantity|	1 Minute
-Number of Login per Second	|Frequency|	1 Minute
-Number of Full Table Scans per Second	|Frequency|	1 Minute
-SQL Execution Times	|Frequency|	1 Minute
-SQL Compiling Times	|Frequency|	1 Minute
-Number of Lock Timeouts	|Frequency|	1 Minute
-Number of Deadlocks	|Frequency|	1 Minute
-Number of Lock Waits	|Frequency|	1 Minute
-Business Quantity per Second	|Quantity|	1 Minute
-Cache Hit Rate	|%|	1 Minute
-Current Total Connections	|Quantity|	1 Minute
-Network Entry Rate	|bps|	1 Minute
-Network Out Rate	|bps|	1 Minute
-Hard Disk Read I0	|kbps|	1 Minute
-Hard Disk Write I0	|kbps|	1 Minute
-Hard Disk Usage	|MByte|	1 Minute
-Hard Disk Utilization Rate	|%|	1 Minute
-Disk Queue Length	|Quantity|	1 Minute
-CPU Utilization Rate	|%|	1 Minute
-Number of Blocked Processes	|Quantity|	1 Minute
+CheckPoint Write Page Per Second	|Count|	1 Minute
+Log In Per Second	|Count|	1 Minute
+Table Scan Per Second	|Count|	1 Minute
+SQL Execution Per Second	|Count|	1 Minute
+SQL Compilation Per Second	|Count|	1 Minute
+Lock Timeout|Count|	1 Minute
+Lock Dead|Count|	1 Minute
+Lock Wait	|Count|	1 Minute
+TPS	|Quantity|	1 Minute
+Buffer Hits	|%|	1 Minute
+Connections	|Quantity|	1 Minute
+Network Inbound Rate	|bps|	1 Minute
+Network Outbound  Rate	|bps|	1 Minute
+Disk Read Throughput	|kbps|	1 Minute
+Disk Write Throughput	|kbps|	1 Minute
+Used Disk	|MByte|	1 Minute
+Disk Usage 	|%|	1 Minute
+Used UserData |MByte|	1 Minute
+Used SystemData |MByte|	1 Minute
+Used LogFiles |MByte|	1 Minute
+Disk QueueLength|Count|	1 Minute
+CPU Usage	|%|	1 Minute
+Processes Blocked	|Count|	1 Minute
 
