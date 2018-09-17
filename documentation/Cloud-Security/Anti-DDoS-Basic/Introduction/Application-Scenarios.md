@@ -1,6 +1,6 @@
 # Application Scenarios
 
-** Below is a description of the applicable scenarios for JD Cloud Anti-DDoS Basic: **
+**Below is a description of the applicable scenarios for JD Cloud Anti-DDoS Basic:**
 
 JD Cloud Anti-DDoS Basic is only applicable to the public network IP users in JD Cloud and attacking scenarios with the highest attacking flow rate of 2G.
 

@@ -1,11 +1,11 @@
 # Advantages
 
-# # high-quality protective route
+## high-quality protective route
 
 - High quality BGP routes with low latency, guaranteeing stability and availability of your business.
 - The speed of access immune to DDoS attacks.
 
-# # Installation-free maintenance
+## Installation-free maintenance
 - No need to purchase expensive cleaner devices.
 - No need of installation for the basic protection, which is automically run for customers.
 - Intelligent business learning and configurations of protection rules.
