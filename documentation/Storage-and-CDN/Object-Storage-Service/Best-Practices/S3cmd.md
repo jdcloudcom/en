@@ -21,7 +21,7 @@ The python is successfully installed when the above indications are given. If th
 
 ## Installation and usage
 
-** Download S3cmd**
+**Download S3cmd**
 ```
 git clone https://github.com/s3tools/s3cmd.git
 ```
