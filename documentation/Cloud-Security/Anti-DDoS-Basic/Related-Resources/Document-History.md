@@ -4,7 +4,7 @@ This document introduces the important updating history of Basic Anti-DDoS docum
 
 | Launch Date | Property | Description |
 |-|-|-|
-| March, 2016 | external publication | product first external publication |
+| March, 2016 | external publication | the first external publication of product |
 
 ## Related Reference
 

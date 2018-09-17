@@ -2,9 +2,9 @@
 
 ** Below is a description of the application scenario for JD Cloud Basic Anti-DDoS: **
 
-JD Cloud Basic Anti-DDoS is only applicable to the public network IP users in JD Cloud and attack protection scenarios with the highest flow rate not exceeding 2G.
+JD Cloud Basic Anti-DDoS is only applicable to the public network IP users in JD Cloud and attack protection scenarios with the highest attacking flow rate of 2G.
 
-Purchase "Advanced Anti-DDoS" if you need more attack protection, or if you need more protection from JD Cloud. Reference:[Advanced Anti-DDoS](https://www.jdcloud.com/products/ipanti)
+Please purchase "Advanced Anti-DDoS" if you need a larger-capacity attack protection or a DDos protection beyond JD Cloud. Reference:[Advanced Anti-DDoS](https://www.jdcloud.com/products/ipanti)
 
  
 

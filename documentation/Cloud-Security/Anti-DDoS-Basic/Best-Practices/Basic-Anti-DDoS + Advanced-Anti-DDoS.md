@@ -1,6 +1,6 @@
 # Basic Anti-DDoS + IP high anti-linkage scheme
 
-The Basic Anti-DDoS is a free service that JD Cloud provides to counter common cloud attacks. Provide up to 2G attack protection capabilities. For a DDoS attack that exceeds 2G attack traffic, a black hole is triggered, leading to that normal business cannot be accessed. In this case, the user can solve the problem by deploying the basic protection plus IP high anti-linkage way. Under the condition that the attacking flow rate is less than 2G, the basic protection can finish the cleaning of the attack flow rate, and the cleaned flow rate can be re-injected. The attack flow exceeds 2G to Advanced Anti-DDoS, and is protected by Advanced Anti-DDoS.
+The Basic Anti-DDoS is a free service that JD Cloud provides to counter common cloud attacks. Provide up to 2G attack protection capabilities. For a DDoS attack that exceeds the protection capacity of 2G, a black hole is triggered, leading the normal business out of access. In this case, the user can solve the problem by deploying the basic protection plus IP high anti-linkage. Under the condition that the attacking flow rate is less than 2G, the basic protection can finish the cleaning of the attack flow rate, and the cleaned flow rate can be re-injected. The attack flow exceeds 2G to Advanced Anti-DDoS, and is protected by Advanced Anti-DDoS.
 
 ## Protection Structure
 

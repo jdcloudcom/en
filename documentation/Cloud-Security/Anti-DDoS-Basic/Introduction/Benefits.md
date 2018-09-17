@@ -1,27 +1,27 @@
-# Benefits
+# Advantages
 
 # # high-quality protective route
 
-- High quality BGP routes with low latency and guaranteed traffic stability and availability.
-- The speed of access will not be affected by DDoS attacks.
+- High quality BGP routes with low latency, guaranteeing stability and availability of your business.
+- The speed of access immune to DDoS attacks.
 
-Maintenance-free installation of # #
-- The user does not have to purchase expensive cleaning equipment.
-- As long as you are a customer of JD Cloud, you will automatically open the basic protection function for you and do not need to install it.
-- Intelligent business learning and configuration protection rules.
+# # Installation-free maintenance
+- No need to purchase expensive cleaner devices.
+- No need of installation for the basic protection, which is automically run for customers.
+- Intelligent business learning and configurations of protection rules.
 
-## precision protection
+## Precise protection
 
-- Precise recognition attack, second-level open protection.
-- autonomously develop and clean equipment and algorithms to ensure a low false kill rate.
+- Precise recognition of attack, protection up in second-level.
+- Autonomous development of cleaner equipement and algorithms, ensuring a low false kill rate.
 - Single point and multi-point cleaning will not interfere with each other
-- Efficient defense against common DDoS attacks, including, but not limited to, common attacks such as syc flood, ack flood, etc., do not have an impact on normal business access.
-- Based on the actual business requirements, you can flexibly and real-time modify the purge trigger value to flexibly respond to business needs.
-- Real-time monitoring and displaying the current DDoS attacking data, fast locating the source of attack, monitoring the attack state, shortening the duration of the black hole, and recovering the service as soon as possible.
+- Efficient defense against common DDoS attacks, including, but not limited to, syc flood, ack flood, etc., no impact on normal business access.
+- Flexible and real-time modification on the purge trigger threshold, can better respond to business needs.
+- Real-time monitoring and displaying the current DDoS-attack data, fast locating the source of attack, monitoring the attack state, shortening the duration of the black hole, and recovering the service with an extreme speed.
 
 ## Free Service
 
-- Basic Anti-DDoS is open for users free of charge. As long as you are users of JD Cloud, JD Cloud provides the foundation and protection for free to provide maximum 2G protection capacity for you free of charge.
+- Basic Anti-DDoS is open for users free of charge. As long as you are users of JD Cloud, JD Cloud provides for free the basic DDos protection with a maximum capacity of 2G.
 
 ## Related Reference
 
