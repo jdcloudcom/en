@@ -74,7 +74,7 @@
           - name: Delete Object
             href: Operation-Guide/Manage-Object/Delete-Object.md
           - name: Post Object
-            href: Operation-Guide/Manage-Object/Post-Object.md                  
+            href: Operation-Guide/Manage-Object/Post-Object-1.md                  
           - name: Consumption Monitoring
             href: Operation-Guide/Manage-Object/Usage-Monitoring.md         
       - name: Image Processing Guide
@@ -138,7 +138,7 @@
            - name: Compatible Interface Overview
              href: API-Reference-S3-Compatible/Compatibility-API/Compatibility-API-overview.md
            - name: Post Object
-             href: API-Reference-S3-Compatible/Compatibility-API/Post-Object.md                  
+             href: API-Reference-S3-Compatible/Compatibility-API/Post-Object-2.md                  
       - name: Expansion Interface
         items:
            - name: Compress Object
