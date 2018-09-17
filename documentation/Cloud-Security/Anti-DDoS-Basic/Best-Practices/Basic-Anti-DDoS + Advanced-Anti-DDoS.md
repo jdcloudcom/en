@@ -7,7 +7,7 @@ The Anti-DDoS Basic is a free service that JD Cloud provides to counter common c
 ![Protection Structure](https://github.com/jdcloudcom/cn/blob/edit/image/Basic%20Anti-DDos/best_pritice.png)
 
 
-# # Scheme Advantages
+## Scheme Advantages
 
 1. Anti-DDoS Basic provides basic detection and protection. When the attacking flow exceeds the threshold of 2G, it is migrated to Anti-DDoS Pro. This cooperative defense mode can meet the independent and controllable regulatory requirements of  data for the government and financial industries.
 2. CNAME access, one-click automatic cloud uploading, simple configuration, reduce the workloads of operation and maintenance.
