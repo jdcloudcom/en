@@ -1,33 +1,33 @@
-# Cloud Product Monitoring Indicator
-## VM Monitoring Indicator
+# Cloud Product Monitoring Metric
+## VM Monitoring Metric
 
-Monitoring Indicators | Units | Minimum Monitoring Granularity
+Monitoring Metrics | Units | Minimum Monitoring Granularity
 ---|---|---
-CPU Utilization Rate | % | 1 Minute
-Memory Utilization Rate | % | 1 Minute
-Disk Read Traffic | kbps | 1 Minute
-Disk Write Traffic | kbps | 1 Minute
-Network Inflow | bps | 1 Minute
-Network Outflow | bps | 1 Minute
+CPU Usage | % | 1 Minute
+Memory Usage | % | 1 Minute
+Disk Read Throughput | kbps | 1 Minute
+Disk Write Throughput | kbps | 1 Minute
+Network Inbound Traffic | bps | 1 Minute
+Network Outbound Traffic | bps | 1 Minute
 
-## Cloud Disk Monitoring Indicator
-Monitoring Indicators | Units | Minimum Monitoring Granularity
+## Cloud Disk Monitoring Metric
+Monitoring Metrics | Units | Minimum Monitoring Granularity
 ---|---|---
-Disk Read Bandwidth | bps | 1 Minute
-Disk Write Bandwidth | bps | 1 Minute
-Disk Read IOPS|pcs/sec | 1 Minute
-Disk Write IOPS|pcs/sec | 1 Minute
+Disk Read Throughput | bps | 1 Minute
+Disk Write Throughput | bps | 1 Minute
+Disk Read IOPS|Count/s | 1 Minute
+Disk Write IOPS|Count/s | 1 Minute
 
-## Public IP Monitoring Indicator
-Monitoring Indicators | Units | Minimum Monitoring Granularity
+## Public IP Monitoring Metric
+Monitoring Metrics | Units | Minimum Monitoring Granularity
 ---|---|---
 Public Network Inflow | byte | 1 Minute
 Public Network Outflow | byte | 1 Minute
 Public Network Inbound Quantity |per Second |1 Minute
 Public Network Outbound Quantity | per second | 1 Minute
 
-## CDN Monitoring Indicator
-Monitoring Indicators | Units | Minimum Monitoring Granularity
+## CDN Monitoring Metric
+Monitoring Metrics | Units | Minimum Monitoring Granularity
 ---|---|---
 Bandwidth Peak | Mbits/s|1 Minute
 Return Code 4xx%|%|1 Minute
@@ -36,8 +36,8 @@ Hit Ratio|%|1 Minute
 Public Network Outbound Quantity|Mbytes|1 Minute
 Requests per Second |Count|1 Minute
 
-## MySQL/percona/MariaDB Monitoring Indicator
-Monitoring Indicators | Units | Minimum Monitoring Granularity
+## MySQL/percona/MariaDB Monitoring Metric
+Monitoring Metrics | Units | Minimum Monitoring Granularity
 ---|---|---
 CPU Utilization Rate	|%|	1 Minute
 Memory Utilization Rate	|%|	1 Minute
@@ -71,8 +71,8 @@ MySQL_COMDML   Insert_Select	|Quantity|	1 Minute
 MySQL_COMDML   Replace	|Quantity|	1 Minute
 MySQL_COMDML   Replace Select	|Quantity|	1 Minute
 
-## SQLServer Monitoring Indicator
-Monitoring Indicators | Units | Minimum Monitoring Granularity
+## SQLServer Monitoring Metric
+Monitoring Metrics | Units | Minimum Monitoring Granularity
 ---|---|---
 CPU Utilization Rate	|%|	1 Minute
 Memory Utilization Rate	|%|	1 Minute
@@ -98,18 +98,18 @@ Network Inflow Rate|kbps|	1 Minute
 Network Outflow Rate|kbps|	1 Minute
 Disk Queue Length|Quantity| 1 Minute
 
-## DRDS Monitoring Indicator
-Monitoring Indicators | Units | Minimum Monitoring Granularity
+## DRDS Monitoring Metric
+Monitoring Metrics | Units | Minimum Monitoring Granularity
 ---|---|---
 CPU Utilization Rate	|%|	1 Minute
 Average Network Inflow per Second	|Byte|	1 Minute
 Average Network Outflow per Second	|Byte|	1 Minute
 Number of Current Connections	|Quantity|	1 Minute
 
-## LB Monitoring Indicator
+## LB Monitoring Metric
 **Application Load Balancer**
 
-Monitoring Indicators | Units | Minimum Monitoring Granularity
+Monitoring Metrics | Units | Minimum Monitoring Granularity
 ---|---|---
 Number of New Requests	|Quantity|	1 Minute
 Number of New Connections	|Quantity|	1 Minute
@@ -124,7 +124,7 @@ Total Number of Bytes|Byte|	1 Minute
 
 **Network Load Balancer**
 
-Monitoring Indicators | Units | Minimum Monitoring Granularity
+Monitoring Metrics | Units | Minimum Monitoring Granularity
 ---|---|---
 Number of New Connections	|Quantity|	1 Minute
 Number of Active Connections	|Quantity|	1 Minute
@@ -133,8 +133,8 @@ Outflow Rate|Byte|	1 Minute
 Incoming Packet Rate|pps|	1 Minute
 
 
-## Cache Redis Monitoring Indicator
-Monitoring Indicators | Units | Minimum Monitoring Granularity
+## Cache Redis Monitoring Metric
+Monitoring Metrics | Units | Minimum Monitoring Granularity
 ---|---|---
 Memory Usage |MB|	1 Minute
 Memory Utilization Rate	|%|	1 Minute
@@ -144,8 +144,8 @@ QPS	|Frequency|	1 Minute
 Hit Ratio	|%|	1 Minute
 Number of Instance Keys|Quantity|	1 Minute
 
-## MongoDB Monitoring Indicator
-Monitoring Indicators | Units | Minimum Monitoring Granularity
+## MongoDB Monitoring Metric
+Monitoring Metrics | Units | Minimum Monitoring Granularity
 ---|---|---
 CPU Utilization Rate	|%|	1 Minute
 Memory Utilization Rate	|%|	1 Minute
@@ -172,8 +172,8 @@ Wt_max_bytes_config|byte|1 Minute
 
 
 
-## Native Container Monitoring Indicator
-Monitoring Indicators | Units | Minimum Monitoring Granularity
+## Native Container Monitoring Metric
+Monitoring Metrics | Units | Minimum Monitoring Granularity
 ---|---|---
 CPU Utilization Rate	|%|	1 Minute
 Memory Utilization Rate	|%|	1 Minute
@@ -182,8 +182,8 @@ Disk Write Throughput	|kbps|	1 Minute
 Network Entry Rate	|bps|	1 Minute
 Network Out Rate	|bps|	1 Minute
 
-## OSS Monitoring
-Monitoring Indicators | Units | Minimum Monitoring Granularity
+## OSS Monitoring 
+Monitoring Metrics | Units | Minimum Monitoring Granularity
 ---|---|---
 Public Network Inflow	|Byte|	1 Minute
 Public Network Outflow	|Byte|	1 Minute
@@ -196,7 +196,7 @@ CDN Outflow	|Byte|	1 Minute
 ## Auto Scaling Monitoring
 **Auto Scaling Group**
 
-Monitoring Indicators | Units | Minimum Monitoring Granularity
+Monitoring Metrics | Units | Minimum Monitoring Granularity
 ---|---|---
 Maximum Number of Instances	|Quantity|	1 Minute
 Minimum Number of Instances	|Quantity|	1 Minute
@@ -207,15 +207,15 @@ Number of Shifted Instances	|Quantity|	1 Minute
 
 **VM Instance**
 
-Monitoring Indicators | Units | Minimum Monitoring Granularity
+Monitoring Metrics | Units | Minimum Monitoring Granularity
 ---|---|---
 CPU Utilization Rate	|%|	1 Minute
 Memory Utilization Rate	|%|	1 Minute
 Network Entry Rate	|%|	1 Minute
 Network Out Rate	|%|	1 Minute
 
-## JD MapReduce Monitoring Indicator
-Monitoring Indicators | Units | Minimum Monitoring Granularity
+## JD MapReduce Monitoring Metric
+Monitoring Metrics | Units | Minimum Monitoring Granularity
 ---|---|---
 Non-heap Memory Usage	|mb|	1 Minute
 Heap Memory Used	|mb|	1 Minute
@@ -228,10 +228,10 @@ Rpc Operation Average Time	|Millisecond|	1 Minute
 Current rpc Open Number	|Quantity|	1 Minute
 RPC Current Call Queue Length	|Quantity|	1 Minute
 
-## JCQ Monitoring Indicator
+## JCQ Monitoring Metric
 **Topic**
 
-Monitoring Indicators | Units | Minimum Monitoring Granularity
+Monitoring Metrics | Units | Minimum Monitoring Granularity
 ---|---|---
 Produced TPS	|Bar/Second|	1 Minute
 Number of Published Pessages	|Quantity|	1 Minute
@@ -240,7 +240,7 @@ The Size of the Published Message	|Byte|	1 Minute
 
 **ConsumerGroup**
 
-Monitoring Indicators | Units | Minimum Monitoring Granularity
+Monitoring Metrics | Units | Minimum Monitoring Granularity
 ---|---|---
 Consumed TPS	|Bar/Second|	1 Minute
 Number of Stacked Messages	|Quantity|	1 Minute
@@ -250,8 +250,8 @@ Total Number of Received Messages	|Quantity|	1 Minute
 Number of Successfully Received Messages |Quantity|	1 Minute
 The Size of the Received Message	|Byte|	1 Minute
 
-## BDS Monitoring Indicator
-Monitoring Indicators | Units | Minimum Monitoring Granularity
+## BDS Monitoring Metric
+Monitoring Metrics | Units | Minimum Monitoring Granularity
 ---|---|---
 Checkpoint Writes to Page Number per Second	|Quantity|	1 Minute
 Number of Login per Second	|Frequency|	1 Minute
