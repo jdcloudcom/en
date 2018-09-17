@@ -83,7 +83,7 @@
             href: Operation-Guide/Image-Service-Guide/Introduction.md
           - name: Access Rules of Image Processing
             href: Operation-Guide/Image-Service-Guide/Image-Access-Rules.md
-          - name: Getting Started
+          - name: Quick Start
             href: Operation-Guide/Image-Service-Guide/Getting-Started.md  
           - name: Image Scaling
             href: peration-Guide/Image-Service-Guide/Resize-Images.md
@@ -111,7 +111,7 @@
         items:                        
           - name: Overview
             href: Operation-Guide/Video-Service-Guide/Video-Service-Guide-Overview.md
-          - name: Getting Started
+          - name: Quick Start
             href: Operation-Guide/Video-Service-Guide/Getting-Started.md
           - name: Signature Authentication
             href: Operation-Guide/Video-Service-Guide/User-Signature-Authentication.md   
