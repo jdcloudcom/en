@@ -610,35 +610,35 @@
 		"dynamic_image":"//img1.jcloudcs.com/cms/e35e61dd-f467-48c8-b8ed-bc21a91bc09c20180809112857.png",
 		"name":"Load Balancer Product Up-Gradation and Revision",
 		"id":"105",
-		"button_title":"Details",
+		"button_title":"More",
 		"main_title":"Load Balancer Product Upgrade and Revision"
 	},
 	{
-		"sub_title":"Stable and reliable data base service is compatible with MySQL protocol",
+		"sub_title":"Stable and Reliable Database Service Compatible with MySQL Protocol",
 		"image_Url":"//img1.jcloudcs.com/cms/60d96a2a-3d21-4186-b8fa-bcc061a1bb2120180822140138.png",
 		"dynamic_image":"//img1.jcloudcs.com/cms/61c871c1-7cb0-4700-a7e4-daf47e43375820180822140142.png",
 		"name":"JCS for MariaDB",
 		"id":"106",
-		"button_title":"Details",
+		"button_title":"More",
 		"main_title":"JCS for MariaDB"
 	},
 	{
-		"sub_title":" Provide T3+ Quality Machine Room, Power of High Reliability and Network Security Hosting Services",
+		"sub_title":"Hosted Service based on Reliable Power and Network with T3+ Quality Server Room Details",
 		"image_Url":"//img1.jcloudcs.com/cms/4ebeffae-a1b0-40f6-b54f-01576a83db2720180830190526.png",
 		"dynamic_image":"//img1.jcloudcs.com/cms/cdd9c18a-d258-4814-b03c-9d08240281d220180830190530.png",
-		"name":" Open Test for Cloud Cabinet Service",
+		"name":"Cloud Cabinet Service in Beta",
 		"id":"107",
-		"button_title":"Details",
-		"main_title":" Open Test for Cloud Cabinet Service"
+		"button_title":"More",
+		"main_title":"Cloud Cabinet Service in Beta"
 	},
 	{
-		"sub_title":" WAF Exclusive to High-Performance Resources Provides Security Compliance Protection for VPC Border and Internal Web",
+		"sub_title":"Provides Compliant Protection for VPC Boundary and Internal Web Security with High Performance Resources and Exclusive WAF",
 		"image_Url":"//img1.jcloudcs.com/cms/52d0f88c-9469-4813-a56b-fdf44ef6ed6720180830191256.png",
 		"dynamic_image":"//img1.jcloudcs.com/cms/adb81821-34a8-4187-a9cb-0bcf67839b0520180830191301.png",
-		"name":" Launch of Application Security Gateway",
+		"name":"Application Security Gateway Goes Online",
 		"id":"108",
-		"button_title":"Details",
-		"main_title":" Launch of Application Security Gateway"
+		"button_title":"More",
+		"main_title":"Application Security Gateway Goes Online"
 	},
 	{
 		"dynamic_image":"//img1.jcloudcs.com/cms/b2446640-69c6-42eb-b66c-8dde8e9d237020180831153207.png",
@@ -653,13 +653,13 @@
 		"backgroud_image":"//img1.jcloudcs.com/cms/514a40a6-c993-46cd-81fb-82514cb4a12720180831162024.jpg"
 	},
 	{
-		"sub_title":" Industrial Cloud Type Digital Transformation, Cloud Industry and New Economic Agglomeration",
+		"sub_title":" Industrial Cloud-based Digitalization, New Economy on Cloud",
 		"image_Url":"//img1.jcloudcs.com/cms/982bf1de-1010-4477-8569-061d64b2daa920180910183303.png",
 		"dynamic_image":"//img1.jcloudcs.com/cms/d416c5a9-c10a-4917-9fcf-090c6ea95da620180910183310.png",
 		"name":" Biologic Empowerment of JD Cloud",
 		"id":"111",
-		"button_title":"Details",
-		"main_title":" Biologic Empowerment of JD Cloud Industrial Chain"
+		"button_title":"More",
+		"main_title":" JD Cloud Industry Chain Ecosystem Empowerment"
 	},
 	{
 		"sub_title":"全托管的私有镜像仓库，一站式部署服务，一折促销中",
@@ -667,7 +667,7 @@
 		"dynamic_image":"//img1.jcloudcs.com/cms/c3be633c-40a3-4a3b-b4a3-99dd27a6a27620180915180241.png",
 		"name":"容器镜像仓库开放公测",
 		"id":"623",
-		"button_title":"Details",
+		"button_title":"More",
 		"main_title":"容器镜像仓库开放公测"
 	}
 ]
