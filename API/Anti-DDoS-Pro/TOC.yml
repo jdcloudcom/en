@@ -1,4 +1,4 @@
-  name: Advanced Anti-DDoS
+  name: Anti-DDoS Pro
   href: 
   items:
   - name: Interface Overview
@@ -7,66 +7,66 @@
     href: ChangeLog.md
   - name: Interface Information
     items:
-      - name: Advanced Anti-DDoS Attack Record APIs
+      - name: Anti-DDoS Pro Attack Record APIs
         items:
           - name: describeCcAttackLogDetails
-            href: Advanced-Anti-DDoS-Attack-Record-APIs/describeCcAttackLogDetails.md
+            href: Anti-DDoS-Pro-Attack-Record-APIs/describeCcAttackLogDetails.md
           - name: describeCcAttackLogs
-            href: Advanced-Anti-DDoS-Attack-Record-APIs/describeCcAttackLogs.md
+            href: Anti-DDoS-Pro-Attack-Record-APIs/describeCcAttackLogs.md
           - name: describeDDosAttackLogs
-            href: Advanced-Anti-DDoS-Attack-Record-APIs/describeDDosAttackLogs.md
+            href: Anti-DDoS-Pro-Attack-Record-APIs/describeDDosAttackLogs.md
       - name: Advanced Anti-DDoS Instance APIs
         items:
           - name: createInstance
-            href: Advanced-Anti-DDoS-Instance-APIs/createInstance.md
+            href: Anti-DDoS-Pro-Instance-APIs/createInstance.md
           - name: describeInstance
-            href: Advanced-Anti-DDoS-Instance-APIs/describeInstance.md
+            href: Anti-DDoS-Pro-Instance-APIs/describeInstance.md
           - name: describeInstances
-            href: Advanced-Anti-DDoS-Instance-APIs/describeInstances.md
+            href: Anti-DDoS-Pro-Instance-APIs/describeInstances.md
           - name: disableCcIpLimit
-            href: Advanced-Anti-DDoS-Instance-APIs/disableCcIpLimit.md
+            href: Anti-DDoS-Pro-Instance-APIs/disableCcIpLimit.md
           - name: disableCcObserverMode
-            href: Advanced-Anti-DDoS-Instance-APIs/disableCcObserverMode.md
+            href: Anti-DDoS-Pro-Instance-APIs/disableCcObserverMode.md
           - name: disableInstanceCC
-            href: Advanced-Anti-DDoS-Instance-APIs/disableInstanceCC.md
+            href: Anti-DDoS-Pro-Instance-APIs/disableInstanceCC.md
           - name: disableInstanceIpBlackList
-            href: Advanced-Anti-DDoS-Instance-APIs/disableInstanceIpBlackList.md
+            href: Anti-DDoS-Pro-Instance-APIs/disableInstanceIpBlackList.md
           - name: disableInstanceIpWhiteList
-            href: Advanced-Anti-DDoS-Instance-APIs/disableInstanceIpWhiteList.md
+            href: Anti-DDoS-Pro-Instance-APIs/disableInstanceIpWhiteList.md
           - name: disableInstanceUrlWhiteList
-            href: Advanced-Anti-DDoS-Instance-APIs/disableInstanceUrlWhiteList.md
+            href: Anti-DDoS-Pro-Instance-APIs/disableInstanceUrlWhiteList.md
           - name: enableCcIpLimit
-            href: Advanced-Anti-DDoS-Instance-APIs/enableCcIpLimit.md
+            href: Anti-DDoS-Pro-Instance-APIs/enableCcIpLimit.md
           - name: enableCcObserverMode
-            href: Advanced-Anti-DDoS-Instance-APIs/enableCcObserverMode.md
+            href: Anti-DDoS-Pro-Instance-APIs/enableCcObserverMode.md
           - name: enableInstanceCC
-            href: Advanced-Anti-DDoS-Instance-APIs/enableInstanceCC.md
+            href: Anti-DDoS-Pro-Instance-APIs/enableInstanceCC.md
           - name: enableInstanceIpBlackList
-            href: Advanced-Anti-DDoS-Instance-APIs/enableInstanceIpBlackList.md
+            href: Anti-DDoS-Pro-Instance-APIs/enableInstanceIpBlackList.md
           - name: enableInstanceIpWhiteList
-            href: Advanced-Anti-DDoS-Instance-APIs/enableInstanceIpWhiteList.md
+            href: Anti-DDoS-Pro-Instance-APIs/enableInstanceIpWhiteList.md
           - name: enableInstanceUrlWhiteList
-            href: Advanced-Anti-DDoS-Instance-APIs/enableInstanceUrlWhiteList.md
+            href: Anti-DDoS-Pro-Instance-APIs/enableInstanceUrlWhiteList.md
           - name: modifyInstanceCC
-            href: Advanced-Anti-DDoS-Instance-APIs/modifyInstanceCC.md
+            href: Anti-DDoS-Pro-Instance-APIs/modifyInstanceCC.md
           - name: modifyInstanceIpBlackList
-            href: Advanced-Anti-DDoS-Instance-APIs/modifyInstanceIpBlackList.md
+            href: Anti-DDoS-Pro-Instance-APIs/modifyInstanceIpBlackList.md
           - name: modifyInstanceIpWhiteList
-            href: Advanced-Anti-DDoS-Instance-APIs/modifyInstanceIpWhiteList.md
+            href: Anti-DDoS-Pro-Instance-APIs/modifyInstanceIpWhiteList.md
           - name: modifyInstanceName
-            href: Advanced-Anti-DDoS-Instance-APIs/modifyInstanceName.md
+            href: Anti-DDoS-Pro-Instance-APIs/modifyInstanceName.md
           - name: modifyInstanceUrlWhiteList
-            href: Advanced-Anti-DDoS-Instance-APIs/modifyInstanceUrlWhiteList.md
+            href: Anti-DDoS-Pro-Instance-APIs/modifyInstanceUrlWhiteList.md
           - name: setCcIpLimit
-            href: Advanced-Anti-DDoS-Instance-APIs/setCcIpLimit.md
+            href: Anti-DDoS-Pro-Instance-APIs/setCcIpLimit.md
       - name:  Advanced Anti-DDoS Report APIs
         items:
           - name: ccGraph
-            href: Advanced-Anti-DDoS-Report-APIs/ccGraph.md
+            href: Anti-DDoS-Pro-Report-APIs/ccGraph.md
           - name: ddosGraph
-            href: Advanced-Anti-DDoS-Report-APIs/ddosGraph.md
+            href: Anti-DDoS-Pro-Report-APIs/ddosGraph.md
           - name: fwdGraph
-            href: Advanced-Anti-DDoS-Report-APIs/fwdGraph.md
+            href: Anti-DDoS-Pro-Report-APIs/fwdGraph.md
       - name:  Non Web Forwarding Configuration APIs
         items:
           - name: createForwardRule

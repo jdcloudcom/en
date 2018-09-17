@@ -24,23 +24,23 @@ Multipart upload is divided into the following 3 steps:
 
 Before use multipart upload mode, a Multipart Upload event must be initiated first. The action will return an Upload ID created by OSS server, which is used for marking this Multipart Upload event. User can initiate relevant actions by this ID, such as terminate Multipart Upload, query Multipart Upload, etc. Call jss.bucket(bucketName).object(key).initiateMultipartUpload initiate a multipart upload event:
 ```
-// endpoint以华北-北京为例，其它region请按实际情况填写  
+// Take cn-north-1 as an example for endpoint, and fill in according to actual situation for other regions  
 String endpoint = "oss.cn-north-1.jcloudcs.com";  
-//您的AccessKey和SecretKey可以登录到对象存储的控制台，在【Access Key 管理】中查看。  
+//You can log in to the console of Object Storage Service with AccessKey and SecretKey to view it in [AccessKey Management].  
 String accessKey = "<yourAccessKey>";  
 String SecretKey = "<yourSecretKey>";  
 String bucketName = "<yourBucketName>";  
 String key = "<yourObjcetkey>";  
-// 创建JingdongStorageService实例
+// Create JingdongStorageService instance
 Credential credential = new Credential(accessKey, secreteKey);  
-//默认配置文件。如用户需要个别配置，则自行配置。例:config.setMaxConnections(20);  
+// Configure files by default. The user can configure by himself/herself if any other configuration is needed. Such as:config.setMaxConnections(20);  
 ClientConfig config = new ClientConfig();  
 JingdongStorageService jss= new JingdongStorageService (credential, config);  
-//设置Endpoint  
+// Set Endpoint  
 jss.setEndpoint(endpoint);  
 String storageClass =  StorageClass.ReducedRedundancy.toString();  
     
-//使用低冗余存储，则使用该句代码  
+//If low redundancy storage is used, then use this code  
 //jss.bucket(bucketName).object(key).getBuilder().getHeaders().put(JssHeaders.X_JSS_STORAGE_CLASS, StorageClass.ReducedRedundancy.toString());  
 InitMultipartUploadResult initResult = jss.bucket(bucketName).object(key).initMultipartUpload();  
 jss.destroy();
@@ -57,11 +57,11 @@ After initiating a Multipart Upload, data to be uploaded can be parted according
 ```
 List<UploadPartResult> uploadPartResults= new ArrayList<UploadPartResult>();  
 InputStream inputStream = new FileInputStream(new File("<localFile>"));  
-// 设置分片大小  
+// Set multipart size  
 Long partSize = 700*1024;  
-// 设置分片号，范围是1~10000，  
+// Set multipart number, ranging from 1~10000,  
 int partNum = 1;  
-// 设置文件偏移量,第一个文件偏移为 0  
+// Set file offset, the offset of the first file is 0  
 int fileOffset = 0;  
 ByteStreams.skipFully(inputStream, fileOffset);  
   
@@ -103,23 +103,23 @@ Notes:
 
 You can terminate corresponding Multipart Upload event according to Upload ID. When a Multipart Upload event is terminated, this Upload ID cannot be used for any actions and the uploaded data will be deleted. Call jss.bucket(bucketName).object(key).abortMultipartUpload to abort multipart upload event:
 ```
-// endpoint以华北-北京为例，其它region请按实际情况填写  
+// Take cn-north-1 as an example for endpoint, and fill in according to actual situation for other regions  
 String endpoint = "oss.cn-north-1.jcloudcs.com";  
-//您的AccessKey和SecretKey可以登录到对象存储的控制台，在【Access Key 管理】中查看。  
+//You can log in to the console of Object Storage Service with AccessKey and SecretKey to view it in [AccessKey Management].  
 String accessKey = "<yourAccessKey>";  
 String SecretKey = "<yourSecretKey>";  
 String bucketName = "<your bucketName>";  
 String key = "<your objcetkey>";  
  
-// 创建JingdongStorageService实例  
+// Create JingdongStorageService instance  
 Credential credential = new Credential(accessKey, secreteKey);  
-//默认配置文件。如用户需要个别配置，则自行配置。例:config.setMaxConnections(20);  
+// Configure files by default. The user can configure by himself/herself if any other configuration is needed. Such as:config.setMaxConnections(20);  
 ClientConfig config = new ClientConfig();  
 JingdongStorageService jss= new JingdongStorageService (credential, config);
-//设置Endpoint  
+// Set Endpoint  
 jss.setEndpoint(endpoint);  
  
-// 取消分片上传，其中uploadId来自于initiateMultipartUpload  
+// Cancel multipart upload, wherein the uploadId is from initiateMultipartUpload  
 jss.bucket(bucketName).object(key).abortMultipartUpload("<uploadId>");  
 jss.destroy();
 ```
@@ -128,35 +128,35 @@ jss.destroy();
 
 List all successfully uploaded parts belong to the designated Upload ID. Note: if a substep upload event has been completed or aborted, its uploaded multiparts cannot be listed.
 ```
-// endpoint以华北-北京为例，其它region请按实际情况填写  
+// Take cn-north-1 as an example for endpoint, and fill in according to actual situation for other regions  
 String endpoint = "oss.cn-north-1.jcloudcs.com";  
-// 您的AccessKey和SecretKey可以登录到对象存储的控制台，在【Access Key 管理】中查看。  
+//You can log in to the console of Object Storage Service with AccessKey and SecretKey to view it in [AccessKey Management].  
 String accessKey = "<your accessKey>";  
 String secretKey = "<your secretKey>";  
 String bucketName = "<your bucketName>";  
-String key = “<you objectKey>”;  
+String key ="<you objectKey>”;  
        
-// 创建JingdongStorageService实例  
+// Create JingdongStorageService instance  
 Credential credential = new Credential(accessKey, secreteKey);  
-//默认配置文件。如用户需要个别配置，则自行配置。例:config.setMaxConnections(20);  
+// Configure files by default. The user can configure by himself/herself if any other configuration is needed. Such as:config.setMaxConnections(20);  
 ClientConfig config = new ClientConfig();  
 JingdongStorageService jss= new JingdongStorageService (credential, config);
-//设置Endpoint  
+// Set Endpoint  
 jss.setEndpoint(endpoint);  
   
-// 获取已上传分片，其中initResult来自于initiateMultipartUpload  
+// Obtain uploaded multipart, wherein the initResult is from initiateMultipartUpload  
 ListPartsResult partList = jss.bucket(bucketName).object(key).listParts(initResult.getUploadId());  
 for (PartSummary part : partListing.getParts()) {  
- // 分片号，上传的时候指定  
+ //Multipart number, specified when uploading  
     part.getPartNumber();  
-    // 分片数据大小  
+    // Multipart data size  
     part.getSize();  
-    // Part的ETag  
+    // ETag of Part  
     part.getETag();  
-    // Part的最后修改上传  
+    // Final modification and upload of Part  
     part.getLastModified();  
 }  
-// 关闭client  
+// Close client  
 jss.destroy();
 ```
 
@@ -164,23 +164,23 @@ jss.destroy();
 
 List all substep upload events in a Bucket space. Note: if a substep upload event has been completed or aborted, the event cannot be listed.
 ```
-// endpoint以华北-北京为例，其它region请按实际情况填写  
+// Take cn-north-1 as an example for endpoint, and fill in according to actual situation for other regions  
 String endpoint = "oss.cn-north-1.jcloudcs.com";  
-// 您的AccessKey和SecretKey可以登录到对象存储的控制台，在【Access Key 管理】中查看。  
+//You can log in to the console of Object Storage Service with AccessKey and SecretKey to view it in [AccessKey Management].  
 String accessKey = "<your accessKey>";  
 String secretKey = "<your secretKey>";  
 String bucketName = "<your bucketName>";  
       
-// 创建JingdongStorageService实例  
+// Create JingdongStorageService instance  
 Credential credential = new Credential(accessKey, secreteKey);  
-//默认配置文件。如用户需要个别配置，则自行配置。例:config.setMaxConnections(20);  
+// Configure files by default. The user can configure by himself/herself if any other configuration is needed. Such as:config.setMaxConnections(20);  
 ClientConfig config = new ClientConfig();  
 JingdongStorageService jss= new JingdongStorageService (credential, config);
-//设置Endpoint  
+// Set Endpoint  
 jss.setEndpoint(endpoint);  
-// 列举分片上传事件  
+// List the multipart upload events  
 BucketService bucketService = jss.bucket(bucketName);  
-//增加前缀匹配  
+//Add prefix matching  
 //bucketService.prefix("<your perfix>");  
 MultipartUploadListing multipartUploadListing = bucketService.listMultipartUploads();
 
@@ -192,6 +192,6 @@ for (Upload upload : multipartUploadListing.getUploads()) {
         //date of initiate multipart ipload  
         upload.getInitiated();  
 }  
-// 关闭client  
+// Close client  
 jss.destroy();
 ```

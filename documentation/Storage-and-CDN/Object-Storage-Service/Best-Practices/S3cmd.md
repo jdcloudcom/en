@@ -35,7 +35,7 @@ File catalog: s3cmd/S3/S3.py, the 254th line is modified to be: self.endpoint_re
 
 **S3cmd installation**
 ```
-sudo cp -f s3cmd/ /usr/local/
+sudo cp -rf s3cmd/ /usr/local/
 sudo ln -s /usr/local/s3cmd/s3cmd /usr/bin/s3cmd
 ```
 

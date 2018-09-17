@@ -1,27 +1,27 @@
-﻿  name: Direct Connection Service
+﻿  name: Direct Connection
   href:
   items:
-  - name: Product Introduction
+  - name: Introduction
     items:
       - name: Product Overview
-        href: Introduction/Direct-Connect-Service-Overview.md
-      - name: Basic Architecture
+        href: Introduction/Product-Overvie.md
+      - name: Basic Infrastructure
         href: Introduction/Basic-Infrastructure.md
-      - name: Core Concept
+      - name: Core Concepts
         href: Introduction/Core-Concepts.md
-      - name: Product Advantage
+      - name: Benefits
         href: Introduction/Benefits.md
-      - name: Product Function
+      - name: Features
         items:
           - name: Direct Connection
-            href: Introduction/Functions/Direct-Connect.md
+            href: Introduction/Features/Direct-Connect-Features.md
           - name: Hosted Connect
-            href: Introduction/Functions/Hosted-Connect.md
+            href: Introduction/Features/Hosted-Connect-Features.md
           - name: Border Gateway
-            href: Introduction/Functions/Border-Gateway.md
-      - name: Limitation Description
+            href: Introduction/Features/Border-Gateway-Features.md
+      - name: Restrictions
         href: Introduction/Restrictions.md
-      - name: Application Scenario
+      - name: Application Scenarios
         items:
           - name: Expansion of the Current Data Center of the Enterprise
             href: Introduction/Application-Scenarios/Extension-On-Premises.md
@@ -29,11 +29,11 @@
             href: Introduction/Application-Scenarios/High-Availability-Architecture-For-Multiple-Place.md
           - name: Multicloud Deployment under Regulatory Requirements
             href: Introduction/Application-Scenarios/Hybrid-Cloud-Deployments-Under-Regulatory-Requirements.md
-  - name: Product Pricing
+  - name: Pricing
     items:
-      - name: Billing Rule
+      - name: Billing Overview
         href: Pricing/Billing-Overview.md
-  - name: Start Guide
+  - name: Getting Started
     items:
        - name: Direct Connection of the Same Account in the Same Region
          href: Getting-Started/Connect-To-The-Same-Account-Or-Region-Direct-Connetct.md
@@ -64,7 +64,7 @@
     - name: Service Terms
       href:
       status: 0
-  - name: Relevant Resources
+  - name: Related Resources
     items:
     - name: Document History
       href:

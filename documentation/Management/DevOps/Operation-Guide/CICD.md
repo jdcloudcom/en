@@ -38,19 +38,19 @@ group name need to be>two characters, module name & branch name naming specifica
 - Construction methods: support build.sh and makefile and provide compilation templates corresponding to different languages 
 
 ```
-#以golang为例，需要在代码库的根路径增加编译脚本，示例build.sh如下：
+#Take golang as an example, you need to add compilation scripts in the root path of the code library. The example build.sh is as follows:
 #!/bin/bash
-#编译脚本的原理是将编译结果放到output目录中，这个样例模版提供一个产生一个最基本golang运行程序包的编译脚本，对于特殊的需求请酌情考虑
+#The principle of compilation script is to put the compilation result into the output directory. This sample template provides a compilation script that generates a most basic golang running program package. For special needs, please consider it as appropriate.
 #
-#1、该脚本支持参数化，参数将传入build_package函数（内容为最终执行的编译命令）
-#   ，用$1,$2....表示，第1,2...个参数
-#2、部署需要启动程序，所以需要提供control文件放在当前目录中，用于启动和
-#   监控程序状态
-#用户修改部分
-readonly PACKAGE_DIR_NAME=""    #main文件相对于src文件夹所在的目录,可选项
-readonly PACKAGE_BIN_NAME=""    #定义产出的运行程序名,必填项
-readonly CONF_DIR_NAME=""       #定义配置文件目录,此路径为相对路径,可选项
-#最终的抽包路径为$OUTPUT
+#1. The script supports parameterization; the parameters will be passed to the build_package function (the content is the compilation command finally executed)
+#,  use $1, $2.... to show the first, second ... parameters
+#2. The deployment requires to start up the program, so the control file needs to be provided in the current directory for startup and
+#   Monitor the program status
+#Part modified by the user
+readonly PACKAGE_DIR_NAME=""    #The directory of the main file corresponding to src folder, optional
+readonly PACKAGE_BIN_NAME=""    #Define the name of the generated running program, compulsory
+readonly CONF_DIR_NAME=""       #Define the directory of configuration files, this path is a relative path; optional
+#Final package-extracting path is $OUTPUT
 if [[ "${PACKAGE_BIN_NAME}" == "" ]];then
     echo "Please set "PACKAGE_BIN_NAME" value"
     exit 1
@@ -60,22 +60,22 @@ function set_work_dir
     readonly OUTPUT=$(pwd)/output
     readonly WORKSPACE_DIR=$(pwd)
 }
-#清理编译构建目录操作
+#Operation of clearing compilation and building directory
 function clean_before_build
 {
     cd ${WORKSPACE_DIR}
     rm -rf bin pkg
     rm -rf ${OUTPUT}
 }
-#实际的编译命令
-#这个函数中可使用$1,$2...获取第1,2...个参数
+#Actual compilation command
+#In this function, $1, $2... Are used to obtain the first, second... parameters
 function build_package()
 {
     cd ${WORKSPACE_DIR}
     export GOPATH=$(pwd)
     go install ${PACKAGE_DIR_NAME} || return 1
 }
-#建立最终发布的目录
+#Build the directory finally released
 function build_dir
 {
     mkdir -p ${OUTPUT}/bin || return 1
@@ -90,7 +90,7 @@ function dir_not_empty()
     fi
     return 0
 }
-#拷贝编译结果到发布的目录
+#Copy the compilation result to the released directory
 function copy_result
 {
     cd ${WORKSPACE_DIR}
@@ -98,7 +98,7 @@ function copy_result
     cp -r ./control ${OUTPUT}/bin || return 1
     (dir_not_empty ${WORKSPACE_DIR}/${CONF_DIR_NAME} && mkdir -p ${OUTPUT}/${CONF_DIR_NAME};cp -rf ./${CONF_DIR_NAME}/* ${OUTPUT}/${CONF_DIR_NAME}/);return 0
 }
-#执行
+#Execute
 function main()
 {
     cd $(dirname $0)
@@ -177,10 +177,10 @@ control example is shown as below:
 ```
 #!/bin/bash
 cd "$(dirname $0)"/.. || exit 1
-PROC_NAME=confcenter # 进程名 一般就是二进制的名字java类程序一般就是java
-START_COMMAND='bin/confcenter' #在output目录下启动你程序的命令
-PROC_PORT=8055 # 程序占用的端口，建议写，程序不占用端口的话只用ps来判断进程是否启动，机器上有同名程序是可能有问题
-WAIT_TIME=60 # 执行START_COMMAND后到程序能完全启动listen端口需要花的时间
+PROC_NAME=confcenter # Process name is usually the binary name and usually it is java for java program
+START_COMMAND='bin/confcenter' #Command of starting up your program under the output directory
+PROC_PORT=8055 # For the port occupied by the program, it is recommended to write. If the program does not occupy the port, it can be judged only through ps whether the process is started. If there is a program with the same name in the machine, there may be a problem.
+WAIT_TIME=60 # The time taken from executing TART_COMMAND to when the program can fully start listen port
   
 PROC_NAME=${PROC_NAME::15}
 if [ -f default_env.sh ];then
@@ -319,32 +319,32 @@ See the following examples,
 
 ```
 [
-    // 层级1
+    // Level 1
     {
-        "concurrency": 2, // 分组1内并发度（注意：0表示全并发，1表示串行，n 表示最多同时有 n 个 job 同时执行）
-        "timeout": 1200,  // 分组1超时时间（s）
-        "pause": 1,       // 本层执行完成后，视图会进入“暂停”状态，在执行记录中点击“继续执行”后方可执行后续层级
-        "max_fail": 3,    // 本层失败 job 数达到3时才标记本层（以及整个视图）为失败，这里如果给0则忽略所有失败 job
-        // 分组1内的部署 job，每个 job 对应一个 APP 的部署
+        concurrency: 2, // Concurrency in group 1 (Note: 0 stands for full concurrency, 1 stands for serial, n stands for up to n jobs are executed at the same time)
+        timeout: 1200,  // time-out of group 1 (s)
+        pause: 1,       // After the execution of this level is completed, the view will enter into the “pause” status; click “continue to execute” in the execution records to continue executing the following levels
+        max_fail: 3,    // The level (and the whole view) will only be marked as failed when the number of failed jobs in this level  reaches 3; if it is given 0 here, all the failed jobs will be ignored
+        // Deployment job in group 1, each job corresponds to the deployment of one APP
         "jobs": [
             // job1
             {
-                "app_name": "yangxiaojia-test-app1",  // job1 APP 名
-                "concurrency": "0",                   // job1 实例并发度（包部署：0-串行，30-30%，70-70%，100-并行 || 镜像部署：0-并行，1-串行，2-同时最多2个实例并行…）
-                "instance_timeout": 300,              // job1 执行超时时间（s）
-                // job1 部署目标
+                app_name: "yangxiaojia-test-app1",  // job1 APP name
+                concurrency: "0",                   // job1 instance concurrency (package deployment: 0-serial, 30-30%, 70-70%, and 100-concurrency || Image deployment: 0-concurrency, 1-serial, 2- 2 instances at most can be concurrent at the same time…)
+                instance_timeout: 300,              // job1 execution time-out time (s)
+                // job1 deployment target
                 "target": [
-                    "group-hb",                      // 目标分组（如果是包部署也可以是实例，如0.group-hb）
+                    group-hb,                      // Target group (if it is package deployment, it can be instance too, such as 0.group-hb)
                     "group-sh"
                 ],
-                "type": "1",                          // job1 上线类型：1-包部署，2-镜像部署，4-弹性部署，5-弹性扩容
-                "version": "4f40681d-20170622095458"  // job1 上线包版本
+                type: "1",                          // job1 online types: 1-package deployment, 2-image deployment, 4-elastic deployment, 5-elastic expansion
+                version: "4f40681d-20170622095458"  // job1 online package version
             }
-            // 其他job
+            // Other jobs
             ...
         ]
     }
-    // 其他层级
+    // Other levels
     ...
 ]
 ```

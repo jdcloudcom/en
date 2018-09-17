@@ -43,7 +43,7 @@ SHOW CREATE table person;
 ## View Columns of the Table
 ```
 SHOW FULL COLUMNS table_name;
-例如：
+For example:
 SHOW FULL COLUMNS FROM person;
 ```
 ## Delete Table
@@ -53,6 +53,6 @@ DROP TABLE table_name;
 E.g:
 ```
 DROP TABLE person;
-或者
+Or
 DROP TABLE IF EXISTS person;
 ```

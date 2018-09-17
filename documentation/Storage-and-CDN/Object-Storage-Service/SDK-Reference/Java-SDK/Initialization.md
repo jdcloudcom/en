@@ -20,19 +20,19 @@ After acquiring the AccessKeyId and secretAccessKeyId, you can perform initializ
 
 Use domain name to create JingdongStorageService, with the relevant codes being as follows:
 ```
- //访问京东云的accessKey  
+ //The accessKey to access JD Cloud  
 String accessKey = "<yourAccessKeyId>";  
 String secreteKey = "<yoursecretKeyId>";    
-//endpoint以华北-北京为例  
+//Take cn-north-1 as an example for endpoint  
 String endpoint = "oss.cn-north-1.jcloudcs.com";  
  
-//创建JingdongStorageService实例  
+//Create JingdongStorageService instance  
 JingdongStorageService jss=new JingdongStorageService(accessKey,secreteKey);
 jss.setEndpoint(endpoint);  
   
-//使用云存储  
+//Use cloud storage  
   
-//销毁JingdongStorageService实例  
+//Destruct JingdongStorageService instance  
 jss.destroy();
 ```
 Notification:
@@ -57,27 +57,27 @@ If you need to modify some default configurations of JingdongStorageService, ple
 
 Parameter codes are shown as below:
 ```
-//访问京东云的accessKey  
+//The accessKey to access JD Cloud  
 String accessKey =  "<yourAccessKeyId>";  
 String secreteKey = "<yourSecretKey>";   
-//endpoint以华北-北京为例  
+//Take cn-north-1 as an example for endpoint  
 String endpoint = "oss.cn-north-1.jcloudcs.com";  
  
-//创建ClientConfig实例  
+//Create ClientConfig instance  
 ClientConfig clientConfig=new ClientConfig();  
-//设置最大连接数，默认为128  
+//Set maximum connection number, 128 by default  
 clientConfig.setMaxConnections(300);  
-//设置请求超时时间，默认是50s  
+//Set the time of request time-out, 50s by default  
 clientConfig.setSocketTimeout(15000);  
-//设置失败请求重试次数，默认是3次  
+//Set the retry times of failed request, 3 times by default  
 clientConfig.setMaxErrorRetry(6);  
 
-//创建JingdongStorageService实例  
+//Create JingdongStorageService instance  
 JingdongStorageService jss=new JingdongStorageService(accessKey,secreteKey);
 jss.setEndpoint(endpoint);  
  
-//使用对象存储
+//Use object storage service
   
-//销毁JingdongStorageService实例  
+//Destruct JingdongStorageService instance  
 jss.destroy();
 ```

@@ -4,27 +4,27 @@ JD Cloud storage provides a kind of authentication method based on Query String,
 
 Generated URL accesses with the method of GET by default, thus, users can directly access relevant contents via a browser, the codes are as follows:
 ```
-// endpoint以华北-北京为例，其它region请按实际情况填写  
+// Take cn-north-1 as an example for endpoint, and fill in according to actual situation for other regions  
 String endpoint = "oss.cn-north-1.jcloudcs.com";  
-//您的AccessKey和SecretKey可以登录到对象存储的控制台，在【Access Key 管理】中查看。  
+//You can log in to the console of Object Storage Service with AccessKey and SecretKey to view it in [AccessKey Management].  
 String accessKey = "<your accessKey>";  
 String secretKey = "<your secretKey>";  
 String bucketName = "<your bucketName>";  
-String key = “<you objectKey>”;  
+String key ="<you objectKey>”;  
        
-// 创建JingdongStorageService实例  
+// Create JingdongStorageService instance  
 Credential credential = new Credential(accessKey, secreteKey);  
-//默认配置文件。如用户需要个别配置，则自行配置。例:config.setMaxConnections(20);  
+// Configure files by default. The user can configure by himself/herself if any other configuration is needed. Such as:config.setMaxConnections(20);  
 ClientConfig config = new ClientConfig();  
 JingdongStorageService jss= new JingdongStorageService (credential, config);  
-//设置Endpoint  
+// Set Endpoint  
 jss.setEndpoint(endpoint);  
       
-//生成URL，可以通过浏览器直接访问，过期时间是1小时  
+//Generate URL, and may access directly through the browser, and the expiration time is 1 hour  
 URI signatureUrl = jss.bucket(bucketName).object(key)
                    .generatePresignedUrl(3600);  
-// 打印URL  
+// Print URL  
 System.out.println(signatureUrl.toString());  
-// 关闭jss  
+// Close jss  
 jss.destroy();
 ```

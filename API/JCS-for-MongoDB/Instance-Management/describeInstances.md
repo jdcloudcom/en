@@ -1,21 +1,21 @@
 # describeInstances
 
 
-## 描述
+## Description
 Query Instance Information
 
-## 请求方式
+## Request method
 GET
 
-## 请求地址
+## Request address
 https://mongodb.jdcloud-api.com/v1/regions/{regionId}/instances
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**regionId**|String|True||Region ID|
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**filters**|[Filter[]](##Filter)|False||instanceId - Instance ID, Accurate Matching<br>instanceName - Instance Name, Fuzzy Matching<br>instanceStatus - mongodb status, accurate matching, support multiple RUNNING: Running, ERROR: Error, BUILDING: Creating, DELETING: Deleting, RESTORING: Restoring, RESIZING: under Configuration Change<br>chargeMode - Billing Type, Accurate Matching<br>|
 |**pageNumber**|Integer|False||Page number; default: 1; value range: [1, ∞)|
@@ -23,32 +23,32 @@ https://mongodb.jdcloud-api.com/v1/regions/{regionId}/instances
 |**sorts**|[Sort[]](##Sort)|False||createTime - Creation Time, asc (Positive Order), desc (Reverse Order)<br>|
 
 ### <a name="Filter">Filter</a>
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**name**|String|True||Name of filter requirements|
 |**operator**|String|False||Operator of filter requirements is eq by default|
 |**values**|String[]|True||Value of filter requirements|
 ### <a name="Sort">Sort</a>
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**direction**|String|False||Direction of sorting requirements|
 |**name**|String|False||Name of sorting requirements|
 
-## 返回参数
-|名称|类型|描述|
+## Return parameter
+|Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
 |**result**|[Result](##Result)||
 
 
 ### <a name="Result">Result</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**dbInstances**|[DBInstance[]](##DBInstance)||
 |**pageNumber**|Integer||
 |**totalCount**|Integer||
 ### <a name="DBInstance">DBInstance</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**accountName**|String|Default User Name|
 |**azId**|String[]|AZ ID, AZs at primary, secondary and hidden nodes in turn.|
@@ -74,7 +74,7 @@ https://mongodb.jdcloud-api.com/v1/regions/{regionId}/instances
 |**subnetId**|String|Subnet ID|
 |**vpcId**|String|VPCID|
 ### <a name="Charge">Charge</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**chargeExpiredTime**|String|Expiration time, i.e. the expiration time of Pay-In-Advance resource, which shall be subject to ISO8601, with the UTC time used in the format of YYYY-MM-DDTHH:mm:ssZ. Pay-As-You-Go resource field is blank.|
 |**chargeMode**|String|Payment model, the value shall be prepaid_by_duration, postpaid_by_usage or postpaid_by_duration; prepaid_by_duration refers to Pay-In-Advance; postpaid_by_usage refers to Pay By Consumption and Pay-As-You-Go; postpaid_by_duration refers to Pay By Configuration and Pay-As-You-Go, and is postpaid_by_duration by default|
@@ -82,7 +82,7 @@ https://mongodb.jdcloud-api.com/v1/regions/{regionId}/instances
 |**chargeStartTime**|String|The start time of the billing shall be subject to ISO8601, with the UTC time used in the format of YYYY-MM-DDTHH:mm:ssZ|
 |**chargeStatus**|String|Cost payment status, the value is respectively normal, overdue and arrear.|
 
-## 返回码
-|返回码|描述|
+## Return code
+|Return code|Description|
 |---|---|
 |**200**|OK|

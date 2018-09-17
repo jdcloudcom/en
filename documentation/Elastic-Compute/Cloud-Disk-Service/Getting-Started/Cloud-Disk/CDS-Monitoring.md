@@ -55,7 +55,7 @@ JD Cloud has provided monitoring data up to 30 days for cloud disk attached to a
                 <span style="color: rgb(0, 0, 0); font-family: Microsoft YaHei, &quot;Microsoft YaHei&quot;; font-size: 14px;">average number of requests for read data action per second</span>
             </td>
             <td style="padding-top: 7px; padding-bottom: 7px; vertical-align: top;" class="confluenceTd" colspan="1">
-                <span style="color: rgb(0, 0, 0); font-family: Microsoft YaHei, &quot;Microsoft YaHei&quot;; font-size: 14px;”>number/second</span>
+                <span style="color: rgb(0, 0, 0); font-family: Microsoft YaHei, &quot;Microsoft YaHei&quot;; font-size: 14px;">number/second</span>
             </td>
         </tr>
         <tr>
@@ -66,7 +66,7 @@ JD Cloud has provided monitoring data up to 30 days for cloud disk attached to a
                 <span style="color: rgb(0, 0, 0); font-family: Microsoft YaHei, &quot;Microsoft YaHei&quot;; font-size: 14px;">average requests for write data action per second</span>
             </td>
             <td style="padding-top: 7px; padding-bottom: 7px; vertical-align: top;" class="confluenceTd" colspan="1">
-                <span style="color: rgb(0, 0, 0); font-family: Microsoft YaHei, &quot;Microsoft YaHei&quot;; font-size: 14px;”>number/second</span>
+                <span style="color: rgb(0, 0, 0); font-family: Microsoft YaHei, &quot;Microsoft YaHei&quot;; font-size: 14px;">number/second</span>
             </td>
         </tr>
     </tbody>

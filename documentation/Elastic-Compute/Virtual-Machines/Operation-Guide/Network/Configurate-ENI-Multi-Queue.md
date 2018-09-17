@@ -54,12 +54,12 @@ Here, CentOS 6.9 is taken as an example to introduce the configuration steps.
 	RX:		0
 	TX:		0
 	Other:		0
-	Combined:	4      # 此行代表最多支持4个队列
+	Combined:	4      # This row stands for 4 queues to be supported at most
 	Current hardware settings:
 	RX:		0
 	TX:		0
 	Other:		0
-	Combined:	1      # 此行代表当前生效1个队列
+	Combined:	1      # This row stands for 1 queue which is currently in effect
 	[root@test ~]# ethtool -L eth0 combined 4
 	```
 	

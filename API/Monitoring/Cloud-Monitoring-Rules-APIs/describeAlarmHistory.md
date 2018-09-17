@@ -1,21 +1,21 @@
 # describeAlarmHistory
 
 
-## 描述
+## Description
 Query alarm history, supporting query based on alarm rule ID, resource ID and product name.
 
-## 请求方式
+## Request method
 GET
 
-## 请求地址
+## Request address
 https://monitor.jdcloud-api.com/v1/regions/{regionId}/alarmHistory
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**regionId**|String|True||Region ID|
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**endTime**|String|True||Query end time of data, current time by default, it can enter long-type time, and it also can enter yyyy-MM-dd'T’HH:mm:ssZ type time|
 |**id**|String|False||Id of alarm rule|
@@ -26,15 +26,15 @@ https://monitor.jdcloud-api.com/v1/regions/{regionId}/alarmHistory
 |**startTime**|String|True||Query start time of data, 24 hours ago by default, it can enter long-type time, and it also can enter yyyy-MM-dd'T’HH:mm:ssZ type time|
 
 
-## 返回参数
-|名称|类型|描述|
+## Return parameter
+|Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Requested identifier id|
 |**result**|[Result](##Result)||
 
 
 ### <a name="Result">Result</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**alarmHistoryList**|[AlarmHistory[]](##AlarmHistory)|Alarm history list|
 |**numberPages**|Number|Number of total pages|
@@ -42,7 +42,7 @@ https://monitor.jdcloud-api.com/v1/regions/{regionId}/alarmHistory
 |**pageNumber**|Number|Page|
 |**pageSize**|Number|Paging size|
 ### <a name="AlarmHistory">AlarmHistory</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**calculation**|String|Statistical method: average value=avg, maximum value=max, minimum value=min,|
 |**contactGroups**|String[]|Contact group notified, for example [“contact group 1”, “contact group 2”]|
@@ -64,8 +64,8 @@ https://monitor.jdcloud-api.com/v1/regions/{regionId}/alarmHistory
 |**times**|Integer|Alarm after how many times|
 |**value**|Number|Alarm value|
 
-## 返回码
-|返回码|描述|
+## Return code
+|Return code|Description|
 |---|---|
 |**200**|OK|
 |**400**|invalid parameter|

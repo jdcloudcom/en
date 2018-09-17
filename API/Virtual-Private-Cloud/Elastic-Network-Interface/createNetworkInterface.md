@@ -1,47 +1,47 @@
 # createNetworkInterface
 
 
-## 描述
-创建网卡接口，只能创建辅助网卡
+## Description
+Create network interface, can only create secondary network interface
 
-## 请求方式
+## Request method
 POST
 
-## 请求地址
+## Request address
 https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkInterfaces/
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**regionId**|String|True||Region ID|
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**az**|String|False||可用区，用户的默认可用区|
-|**description**|String|False||描述,​ 允许输入UTF-8编码下的全部字符，不超过256字符|
-|**networkInterfaceName**|String|False||网卡名称，只允许输入中文、数字、大小写字母、英文下划线“_”及中划线“-”，不允许为空且不超过32字符。|
-|**primaryIpAddress**|String|False||网卡主IP，如果不指定，会自动从子网中分配|
-|**sanityCheck**|Integer|False||源和目标IP地址校验，取值为0或者1,默认为1|
-|**secondaryIpAddresses**|String[]|False||SecondaryIp列表|
-|**secondaryIpCount**|Integer|False||自动分配的SecondaryIp数量|
-|**securityGroups**|String[]|False||要绑定的安全组ID列表，最多指定5个安全组|
-|**subnetId**|String|True||子网ID|
+|**az**|String|False||Availability zone, user’s default availability zone|
+|**description**|String|False||Description, all characters allowed to enter under UTF-8 encoding, without exceeding 256 characters|
+|**networkInterfaceName**|String|False||Network interface name, only allowed to enter Chinese, numbers, capital and lowercase letters, English underline “_” and line-through “-”, must provide a name which cannot exceed 32 characters. |
+|**primaryIpAddress**|String|False||Network interface primary IP, if it has not been assigned, it will be allocated automatically from the subnet|
+|**sanityCheck**|Integer|False||Source and target IP address verification, with value 0 or 1, 1 by default|
+|**secondaryIpAddresses**|String[]|False||SecondaryIp list|
+|**secondaryIpCount**|Integer|False||Number of SecondaryIp assigned automatically|
+|**securityGroups**|String[]|False||Security group ID list to be associated, a maximum of 5 security groups can be assigned|
+|**subnetId**|String|True||Subnet ID|
 
 
-## 返回参数
-|名称|类型|描述|
+## Return parameter
+|Name|Type|Description|
 |---|---|---|
-|**requestId**|String|请求ID|
-|**result**|[Result](##Result)|返回结果|
+|**requestId**|String|Request ID|
+|**result**|[Result](##Result)|Return result|
 
 
 ### <a name="Result">Result</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
-|**networkInterfaceId**|String|弹性网卡Id|
+|**networkInterfaceId**|String|Elastic network interface Id|
 
-## 返回码
-|返回码|描述|
+## Return code
+|Return code|Description|
 |---|---|
 |**200**|Successful operation|
 |**409**|Resource 'primaryIp' already be used|

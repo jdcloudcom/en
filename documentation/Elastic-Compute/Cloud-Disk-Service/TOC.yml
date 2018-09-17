@@ -1,27 +1,27 @@
 
-  name: Cloud Disk
+  name: Cloud Disk Service
   href:
   items:
-  - name: Product Introduction
+  - name: Introduction
     items:
       - name: Product Overview
-        href: Introduction/What-Is-CloudDisk.md
+        href: Introduction/Product-Overview.md
       - name: Region and Availability Zone
         href: Introduction/Region-Zone.md       
-      - name: Product Function
-        href: Introduction/Functions.md
-      - name: Product Advantage
+      - name: Features
+        href: Introduction/Features.md
+      - name: Benefits
         href: Introduction/Benefits.md
       - name: Application Scenario
         href: Introduction/Application-Scenarios.md
-      - name: Product Category
-        href: Introduction/Specification-Classification.md
+      - name: Specifications
+        href: Introduction/Specifications.md
       - name: Performance Test
         href: Introduction/Performance-Test.md
-      - name: Use Constraint
+      - name: Restrictions
         href: Introduction/Restrictions.md
         
-  - name: Purchase Notes
+  - name: Pricing
     items:
     - name: Description of Billing Method
       items:
@@ -40,7 +40,7 @@
           - name: Purchase from Official Website
             href: Pricing/Purchase-Channel/Buy-On-Website.md      
         
-  - name: Cloud Disk
+  - name: Getting-Started
     items:
        - name: create cloud disk
          href: Getting-Started/Cloud-Disk/Create-Cloud-Disk.md
@@ -78,7 +78,7 @@
        - name: cloud disk monitoring
          href: Getting-Started/Cloud-Disk/Cloud-Disk-Monitoring.md
           
-  - name: cloud disk snapshot
+  - name: Operation Guide
     items:
        - name: create cloud disk snapshot
          href: Operation-Guide/Cloud-Disk-Snapshot/Create-CloudDisk-SnapShot.md

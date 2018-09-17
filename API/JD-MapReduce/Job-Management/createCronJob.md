@@ -1,21 +1,21 @@
 # createCronJob
 
 
-## 描述
+## Description
 Create or update scheduling configuration
 
-## 请求方式
+## Request method
 POST
 
-## 请求地址
+## Request address
 https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/cronJob:create
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**regionId**|String|True||Region ID|
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**day**|String|True||Occupy day according to the time parameter in Cron format|
 |**hour**|String|True|0|Occupy hour according to the time parameter in Cron format|
@@ -26,7 +26,7 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/cronJob:create
 |**week**|String|True||Occupy week according to the time parameter in Cron format|
 
 ### <a name="JmrPlanViewModel">JmrPlanViewModel</a>
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**az**|String|False|||
 |**clusterId**|String|False|||
@@ -47,21 +47,21 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/cronJob:create
 |**planStatus**|String|False|||
 |**planType**|String|False|||
 
-## 返回参数
-|名称|类型|描述|
+## Return parameter
+|Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
 |**result**|[Result](##Result)||
 
 
 ### <a name="Result">Result</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**message**|String||
 |**status**|String||
 
-## 返回码
-|返回码|描述|
+## Return code
+|Return code|Description|
 |---|---|
 |**200**|OK|
 |**500**|Internal server error|

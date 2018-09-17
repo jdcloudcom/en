@@ -16,13 +16,13 @@ Click “JD Cloud account” for login
 
 In the virtual machine, you need to install the super Agent for deployment and management. The specific methods of Agent installation are shown as below
 ```
-#华北-北京：
+#cn-north-1:
 wget -c http://devops-hb.oss-internal.cn-north-1.jcloudcs.com/ifrit/ifrit-agent-external-v0.01.377.8918eae.20180418132906.bin -O installer && sh installer /export/servers/ifrit && rm -f installer
-#华东-上海：
+#cn-east-2:
 wget -c http://devops-hd.oss-internal.cn-east-2.jcloudcs.com/ifrit/ifrit-agent-external-v0.01.377.8918eae.20180418132906.bin -O installer && sh installer /export/servers/ifrit && rm -f installer
-#华东-宿迁：
+#cn-east-1:
 wget -c http://devops-sq.oss-internal.cn-east-1.jcloudcs.com/ifrit/ifrit-agent-external-v0.01.377.8918eae.20180418132906.bin -O installer && sh installer /export/servers/ifrit && rm -f installer
-#华南-广州：
+#cn-south-1:
 wget -c http://devops.oss-internal.cn-south-1.jcloudcs.com/ifrit/ifrit-agent-external-v0.01.377.8918eae.20180418132906.bin -O installer && sh installer /export/servers/ifrit && rm -f installer
 
 ```
@@ -30,9 +30,9 @@ wget -c http://devops.oss-internal.cn-south-1.jcloudcs.com/ifrit/ifrit-agent-ext
 In the third-party machine (physical machine or virtual machine), the installation method of Agent is as follows:
 ```
 wget -c http://devops-hb.oss.cn-north-1.jcloudcs.com/ifrit/ifrit-agent-external-v0.01.377.8918eae.20180418132906.bin -O installer && sh installer -- -t $tenant -r $region -v $vpc /export/servers/ifrit && rm -f installer
-    -t tenant #devops中的租户名
-    -v vpc    #由用户编写，将作为服务器的vpc名称
-    -r region #由用户编写，将作为服务器的region名称
+    -t tenant #tenant name in devops
+    -v vpc    #name of vpc to be the server that is written by the user
+    -r region #name of region to be the server that is written by the user
 
 ```
 

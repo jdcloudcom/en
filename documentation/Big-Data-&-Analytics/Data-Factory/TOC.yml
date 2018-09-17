@@ -1,0 +1,42 @@
+- name: Data Factory
+  href: 
+- name: Introduction
+  items:
+    - name: Product Overview
+      href: Introduction/Product-Overview.md
+    - name: Core Concept
+      href: Introduction/Core-Concepts.md
+    - name: Features
+      href: Introduction/Features.md
+- name: Pricing
+  items:
+    - name: Billing Overview
+      href: Pricing/Billing-Overview.md
+- name: Getting-started
+  items:
+    - name: Summary
+      href: Getting-Started/Guide-description.md
+    - name: Create Workflow Task
+      href: Getting-Started/Create-a-workFlow-task.md
+    - name: View Instance in Execution
+      href: Getting-Started/instances.md
+- name: Operation Guide
+  items:
+    - name: Login Console
+      href: Operation-Guide/Console-guide.md
+    - name: Workflow
+      items:
+        - name: Create Workflow
+          href: Operation-Guide/workFlow/create-workFlow.md
+        - name: Operation and Maintenance of Workflow
+          href: Operation-Guide/workFlow/Operation-workFlow.md
+    - name: Operation and Maintenance Center
+      href: Operation-Guide/Operation-center-guide.md
+- name: Tools for Uploading Data to Cloud
+  items:
+    - name: xDatacmd
+      href: SDK-Reference/xDatacmd.md
+    - name: xDatacmd
+      href: SDK-Reference/xDatacmd.md
+- name: FAQ
+  href: FAQ/FAQ.md

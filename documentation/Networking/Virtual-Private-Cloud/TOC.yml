@@ -1,35 +1,35 @@
 ﻿  name: VPC
   href:
   items:
-  - name: Product Description
+  - name: Introduction
     items:
-      - name: Product Summary
-        href: Introduction/VPC-Overview.md
+      - name: Product Overview
+        href: Introduction/Product-Overview.md
       - name: Infrastructure Architecture
         href: Introduction/Basic-Infrastructure.md
       - name: Core Idea
         href: Introduction/Core-Concepts.md
-      - name: Product Advantages
+      - name: Product Benefits
         href: Introduction/Benefits.md
-      - name: Product Features
+      - name: Features
         items:
           - name: VPC
-            href: Introduction/Functions/VPC.md
+            href: Introduction/Features/VPC-Features.md
           - name: Subnet
-            href: Introduction/Functions/Subnet.md
+            href: Introduction/Features/Subnet-Features.md
           - name: ACL
-            href: Introduction/Functions/Network-ACL.md
+            href: Introduction/Features/Network-ACL-Features.md
           - name: Security Group
-            href: Introduction/Functions/Security-Group.md
+            href: Introduction/Features/Security-Group-Features.md
           - name: NFV
-            href: Introduction/Functions/NFV.md
+            href: Introduction/Features/NFV-Features.md
           - name: Route Table
-            href: Introduction/Functions/Route-Table.md
+            href: Introduction/Features/Route-Table-Features.md
           - name: VPC Peering Connection
-            href: Introduction/Functions/VPC-Peering.md
-      - name: Restriction Statement
+            href: Introduction/Features/VPC-Peering-Features.md
+      - name: Restrictions
         href: Introduction/Restrictions.md
-      - name: Application Scenario
+      - name: Application Scenarios
         items:
           - name: Basic Business on the Cloud
             href: Introduction/Application-Scenarios/Basic-Business-Into-Cloud.md
@@ -39,9 +39,9 @@
             href: Introduction/Application-Scenarios/Business-Security-Access-Control.md
           - name: Multi-VMs Shared EIP Access to External Networks
             href: Introduction/Application-Scenarios/Multiple-Virtual-Machines-Use-Shared-IpAddress-To-Access-Internet.md
-  - name: Product Pricing
+  - name: Pricing
     items:
-      - name: Billing Rules
+      - name: Billing Overview
         href: Pricing/Billing-Overview.md
   - name: Getting-started Guide
     items:

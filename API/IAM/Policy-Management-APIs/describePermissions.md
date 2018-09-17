@@ -1,21 +1,21 @@
 # describePermissions
 
 
-## 描述
+## Description
 Search policy list
 
-## 请求方式
+## Request method
 GET
 
-## 请求地址
+## Request address
 https://iam.jdcloud-api.com/v1/regions/{regionId}/permissions
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**regionId**|String|True||Region ID|
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**keyword**|String|False||Keyword|
 |**pageNumber**|Integer|True||Page|
@@ -23,20 +23,20 @@ https://iam.jdcloud-api.com/v1/regions/{regionId}/permissions
 |**queryType**|Integer|True||Permission type, 0-All, 1- System Permissions, 2-Customized permission|
 
 
-## 返回参数
-|名称|类型|描述|
+## Return parameter
+|Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
 |**result**|[Result](##Result)||
 
 
 ### <a name="Result">Result</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**permissions**|[Permission[]](##Permission)|Authority list information|
 |**total**|Integer|Total amount|
 ### <a name="Permission">Permission</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**account**|String|Primary account pin|
 |**content**|String|Permission content|
@@ -47,17 +47,17 @@ https://iam.jdcloud-api.com/v1/regions/{regionId}/permissions
 |**permissionType**|String|Permission type|
 |**version**|String|Permission revision number|
 ### <a name="PermissionDetail">PermissionDetail</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**permission**|String|Permission type: Read-only-R, Delete-D, Modification-M|
 |**resource**|[Resource[]](##Resource)|Resource information|
 ### <a name="Resource">Resource</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**ids**|String[]|Resource id set, transmission * means that it is valid for all ids|
 |**type**|String|Resource type, virtual machine-server, Image-image, cloud disk-volume, vpc-vpc, public Ip-floatingIP, load balancer-loadbalance, cloud database (mysql)-database, cloud cache-cache|
 
-## 返回码
-|返回码|描述|
+## Return code
+|Return code|Description|
 |---|---|
 |**200**|OK|

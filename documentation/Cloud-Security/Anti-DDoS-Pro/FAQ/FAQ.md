@@ -69,14 +69,14 @@ If the attack traffic so excessive that the operator's ban is triggered, the dur
 
 A: Advanced protection sets up error code pages for the following special cases, and you can view and troubleshoot the problems according to the prompt on the page .
 
-| 错误码	| 含义	| 出现原因 | 该怎么办 |
+| Error code	| Meaning	| Reasons for occurring | What to do |
 | :- | :- | :- | :- |
-|ERROR 422 |	禁止访问 | 	对不起，由于您的电脑或IP可能存在恶意行为，网站管理者已对您所在的区域或访问IP进行了访问控制，拒绝了您的访问。|	请联系网站管理员，修改访问策略。|
-|ERROR 420 |	请求重入 |	您的同一访问多次经过京东IP高防的节点。|	请确认网站配置，是否配置了多重代理服务器，且代理路径发生环路。|
-|ERROR 522 |	源站不可达	您的同一访问多次经过京东IP高防的节点。 |	源站服务器出错，常见原因是DNS设置出错、变更尚未生效或源站防火墙 |对请求进行了封禁。请稍后访问，或联系网站管理员。|
-|ERROR 421 |	域名不存在	| 您访问的域名没有购买京东云IP高防服务或者配置未生效，因此无法提供服务。 |	请确认该网站已购买京东云的IP高防服务，且配置已生效。|
-|ERROR 523 |	源站繁忙 |	有可能是源站由于遭受CC攻击而导致服务器繁忙。	| 源站服务器繁忙，请稍后访问。|
-|ERROR 524 |	服务器繁忙	源站服务器繁忙。 |	源站服务器繁忙，请稍后访问。 |
+|ERROR 422 |	Access denied | 	Sorry, the webmaster has performed identity and access management to the region you are in or the access IP and denied your access because of possible malicious behavior on your computer or IP. |	Please contact the webmaster to modify the access policy. |
+|ERROR 420 |	Request to re-enter |	The same access from you has passed though the node of Advanced Anti-DDoS of JD. |	Please confirm the website configuration, and confirm whether it is configured with multiple proxy servers, and the proxy path has generated loop. |
+|ERROR 522 |	The origin server is unreachable	. The same access from you has passed though the node of Advanced Anti-DDoS of JD. |F	or errors occurring to the origin server, the common causes are DNS setting error, changes have not taken effect or origin server firewall |The request is blocked. Please access later or contact the webmaster. |
+|ERROR 421 |	The domain name does not exist	| The domain you access has not purchased Advanced Anti-DDoS service of JD Cloud or the configuration has not taken effect, so the services cannot be provided. |	Please confirm the website has purchased Advanced Anti-DDoS service of JD Cloud and the configuration has taken effect. |
+|ERROR 523 |	The origin server is busy |	The server is busy due to the possible reason that the origin server is subject to CC attack	| The origin server is busy. Please access later. |
+|ERROR 524 |	The server is busy	. The origin server is busy. |	The origin server is busy. Please access later. |
 
 An example of the error page style:
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/error%20page.png)

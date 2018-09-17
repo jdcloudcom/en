@@ -1,2 +1,3 @@
 1. Analyze the industry characteristics of the packaging industry, plan product categories, construct one-stop B2B e-commerce platform solutions, and attract various suppliers, branding companies and purchasing agents in the packaging industry to move in the platform to realize on-line transactions. <br/>
+
 2. Based on the personalized design feature of the packaging industry, realize the C2M personalized customization business service capability by embedding the image beautification tools.

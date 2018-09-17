@@ -1,5 +1,6 @@
 name: Anti-DDoS Basic
 href: 
+items:
 - name: Introduction
   items:
     - name: Product Overview
@@ -13,7 +14,7 @@ href:
     - name: Features
       herf: Introduction/Features.md
     - name: Specifications
-      herf: Introduction/Specification.md
+      herf: Introduction/Specifications.md
     - name: Restrictions
       herf: Introduction/Restrictions.md
     - name: Application Scenarios 
@@ -25,7 +26,7 @@ href:
 - name: Getting Started
   items:
     - name: Capture basic protection capabilities
-      herf: Getting-Started/Basic-Anti-DDos-Started.md
+      herf: Getting-Started/Anti-DDos-Basic-Started.md
 - name: Operation Guide
   items:
     - name: Protection threshold setting
@@ -34,8 +35,8 @@ href:
       herf: Operation-Guide/View-Report-log.md            
 - name: Best Practices
   items:
-  - name: Basic Anti-DDoS + IP high anti-linkage
-    herf: Basic-Anti-DDoS + Advanced-Anti-DDoS.md	
+  - name: Anti-DDoS Basic + Anti-DDoS Pro
+    herf: Best-Practices/Linkage-Scheme.md	
 - name: Tutorial
   items:
   status: 0

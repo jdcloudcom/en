@@ -6,7 +6,7 @@ git clone https://github.com/NodeRedis/node_redisnpm install redis
 ```
 - step2: call sample code
 <pre><code>
-//连接redis
+//Connect redis
 var redis = require("redis"),
   port = 6379,
   host = 'jredis-hb1-prod-957e3a3d-0d76-45d4-a896-706173208db2.jmiss.jcloud.com',
@@ -17,15 +17,15 @@ var redis = require("redis"),
 // AUTH
 client.auth(token, redis.print)
 
-// 写入数据
+// Write data
 client.set("key", "OK");
 
-// 获取数据，返回String
+// Obtain data, return String
 client.get("key", function (err, reply) {
     console.log(reply.toString());
 });
 
-// 如果传入一个Buffer，返回也是一个Buffer
+// If pass in a Buffer, it will return a Buffer
 client.get(new Buffer("key"), function (err, reply) {
     console.log(reply.toString());
 });

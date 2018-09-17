@@ -1,34 +1,34 @@
 # resetPassword
 
 
-## 描述
+## Description
 
 
-## 请求方式
+## Request method
 POST
 
-## 请求地址
+## Request address
 https://mongodb.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:resetPassword
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**instanceId**|String|True||Instance ID|
 |**regionId**|String|True||Region ID|
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**accountPassword**|String|True||The new password must contain and only support letters and numbers with length no less than 8 characters and no more than 16 characters.|
 
 
-## 返回参数
-|名称|类型|描述|
+## Return parameter
+|Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
 
 
 
-## 返回码
-|返回码|描述|
+## Return code
+|Return code|Description|
 |---|---|
 |**200**|OK|

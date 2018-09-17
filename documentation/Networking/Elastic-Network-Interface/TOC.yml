@@ -4,13 +4,13 @@
   - name: Product Introduction
     items:
       - name: Product Overview
-        href: Introduction/What-is-Elastic-Network-Interface.md
+        href: Introduction/Product-Overview.md
       - name: Core Concept
         href: Introduction/Core-Concepts.md
       - name: Product Advantages
         href: Introduction/Benefits.md
       - name: Product Function
-        href: Introduction/Functions.md
+        href: Introduction/Features.md
       - name: Restrictions Instructions
         href: Introduction/Restrictions.md
       - name: Application Scenario 

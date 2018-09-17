@@ -14,40 +14,40 @@ Stream download, download to the local file are called as simple download.
 
 When download large files, you may want to perform stream processing (process a part of content for one time) instead of all contents.
 ```
-//您的AccessKey和SecretKey可以登录到对象存储的控制台，在【Access Key 管理】中查看。  
+//You can log in to the console of Object Storage Service with AccessKey and SecretKey to view it in [AccessKey Management].  
 String accessKey =  "<yourAccessKeyId>";  
 String secreteKey = "<yourSecretKey>";       
-// endpoint以华北-北京为例，其它region请按实际情况填写  
+// Take cn-north-1 as an example for endpoint, and fill in according to actual situation for other regions  
 String endPoint = "oss.cn-north-1.jcloudcs.com";  
 String bucketName = "<yourBucketName>";  
 String objectName = "<yourObjectName>";  
-//ClientConfig当前为默认配置，用户可根据需要自行配置，如设置连接超时时间等  
+//The configuration of ClientConfig is currently by default. If the user needs some other configurations, he/she may configure them by himself/herself, such as setting the time of connection time-out.  
 ClientConfig config = new ClientConfig();  
  
-//构造JingdongStorageService实例  
+//Build JingdongStorageService instance  
 Credential credential = new Credential(accessKey, secreteKey);  
 JingdongStorageService jss = new JingdongStorageService(credential,config); 
-//配置endPoint  
+//Configure endPoint  
 jss.setEndpoint(endPoint);    
   
-//创建objectService实例  
+//Create objectService instance  
 ObjectService objectService = jss.bucket(bucketName).object(objectName);  
  
-//获取object对象  
+//Obtain an object  
 StorageObject storageObject = objectService.get();  
-// 读Object内容  
+// Read Object content  
 System.out.println("Object content:");  
 BufferedReader reader = new BufferedReader(new InputStreamReader(storageObject.getInputStream()));  
 String tempString = null;  
-// 一次读入一行，直到读入null为文件结束  
+// Read one row once, the file ends until null is read  
 while ((tempString = reader.readLine()) != null) {  
     System.out.println(tempString);  
 }  
 
 reader.close();       
 storageObject.close();  
- /JingdongStorageService对象内部维护一组HTTP连接池，在不使用该对象之前需要调用其destroy方法关闭连接池，  
-//请注意，一旦调用destroy方法，该对象就不能再次被使用，否则将会抛出异常。  
+ //A group of HTTP connection pool inside the JingdongStorageService object is under maintenance. Other destroy methods shall be called to close the connection pool before using the object,  
+//Please note that once the destroy method is called, the object cannot be used again, otherwise an exception will be thrown.  
 jss.destroy();
 ```
 Notification:
@@ -76,32 +76,32 @@ The reason is stream reading may not read all the data by a single time, see Inp
 
 Download the contents of Object to the designated local file(s). If the designated local file do not exist, it will be created.
 ```
-//您的AccessKey和SecretKey可以登录到对象存储的控制台，在【Access Key 管理】中查看。  
+//You can log in to the console of Object Storage Service with AccessKey and SecretKey to view it in [AccessKey Management].  
 String accessKey =  "<yourAccessKeyId>";  
 String secreteKey = "<yourSecretKey>";       
-// endpoint以华北-北京为例，其它region请按实际情况填写  
+// Take cn-north-1 as an example for endpoint, and fill in according to actual situation for other regions  
 String endPoint = "oss.cn-north-1.jcloudcs.com";  
 String bucketName = "<yourBucketName>";  
 String objectName = "<yourObjectName>";   
-//ClientConfig当前为默认配置，用户可根据需要自行配置，如设置连接超时时间等  
+//The configuration of ClientConfig is currently by default. If the user needs some other configurations, he/she may configure them by himself/herself, such as setting the time of connection time-out.  
 ClientConfig config = new ClientConfig();  
   
-//构造JingdongStorageService实例  
+//Build JingdongStorageService instance  
 Credential credential = new Credential(accessKey, secreteKey);  
 JingdongStorageService jss = new JingdongStorageService(credential,config); 
-//配置endPoint  
+//Configure endPoint  
 jss.setEndpoint(endPoint);    
   
-//创建objectService实例  
+//Create objectService instance  
 ObjectService objectService = jss.bucket(bucketName).object(objectName);  
 
-//获取object对象  
+//Obtain an object  
 StorageObject storageObject = objectService.get();  
-//将文件下载到本地文件中，如下示例是将指定的object下载到"localFile"中  
+//Download the file to the local files, as the example below, the specified object is downloaded to the "localFile"  
 storageObject.toFile(new File("<localFile>"));  
 
  
-//JingdongStorageService对象内部维护一组HTTP连接池，在不使用该对象之前需要调用其destroy方法关闭连接池，  
-//请注意，一旦调用destroy方法，该对象就不能再次被使用，否则将会抛出异常。  
+//A group of HTTP connection pool inside the JingdongStorageService object is under maintenance. Other destroy methods shall be called to close the connection pool before using the object,  
+//Please note that once the destroy method is called, the object cannot be used again, otherwise an exception will be thrown.  
 jss.destroy();
 ```

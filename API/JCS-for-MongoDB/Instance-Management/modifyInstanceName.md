@@ -1,34 +1,34 @@
 # modifyInstanceName
 
 
-## 描述
+## Description
 Modify Instance Name
 
-## 请求方式
+## Request method
 POST
 
-## 请求地址
+## Request address
 https://mongodb.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:modifyInstanceName
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**instanceId**|String|True||Instance ID|
 |**regionId**|String|True||Region ID|
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**instanceName**|String|True||The new instance name only supports numbers, letters, underlines, Chinese, with length no less than 2 characters and no more than 32 characters.|
 
 
-## 返回参数
-|名称|类型|描述|
+## Return parameter
+|Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
 
 
 
-## 返回码
-|返回码|描述|
+## Return code
+|Return code|Description|
 |---|---|
 |**200**|OK|

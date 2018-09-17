@@ -1,34 +1,34 @@
 # restoreInstance
 
 
-## 描述
+## Description
 Data Recovery
 
-## 请求方式
+## Request method
 POST
 
-## 请求地址
+## Request address
 https://mongodb.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/restoreInstance
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**instanceId**|String|True||Instance ID|
 |**regionId**|String|True||Region ID|
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**backupId**|String|True||Backup ID|
 
 
-## 返回参数
-|名称|类型|描述|
+## Return parameter
+|Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
 
 
 
-## 返回码
-|返回码|描述|
+## Return code
+|Return code|Description|
 |---|---|
 |**200**|OK|

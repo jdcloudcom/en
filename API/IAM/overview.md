@@ -1,18 +1,18 @@
 # IAM API
 
 
-## 简介
+## Introduction
 IAM APIs
 
 
-### 版本
+### Version
 v1
 
 
 ## API
-|接口名称|请求方式|功能描述|
+|Interface name|Request mehod|Function description|
 |---|---|---|
-|**addPermissionsToSubUser**|POST|Associate policies for sub\-users|
+|**addPermissionsToSubUser**|POST|Associate policies for sub-users|
 |**createPermission**|POST|Create policy|
 |**createSubuser**|POST|Create sub\-accounts|
 |**createUserAccessKey**|POST|Create AccessKey|

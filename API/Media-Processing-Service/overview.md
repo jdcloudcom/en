@@ -1,16 +1,16 @@
 # Media Processing API
 
 
-## 简介
+## Introduction
 Media Processing Related Interface
 
 
-### 版本
+### Version
 v1
 
 
 ## API
-|接口名称|请求方式|功能描述|
+|Interface name|Request mehod|Function description|
 |---|---|---|
 |**createThumbnailTask**|POST|Create a screenshot task, return the task ID when the creation is successful. This API is used to capture the screen at a specified time.|
 |**getNotification**|GET|Acquire Screenshot Notification|

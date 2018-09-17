@@ -1,4 +1,4 @@
-##一.General situation to create minimized parameter of a machine
+##1. General situation to create minimized parameter of a machine
 
     Virtual machine to create local disk as system disk
     {

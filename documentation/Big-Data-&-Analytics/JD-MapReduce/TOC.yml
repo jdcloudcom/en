@@ -1,0 +1,74 @@
+- name: JD MapReduce
+  href: 
+-  name: Introduction
+  items:
+    -  name: Product Overview
+      herf: Introduction/Product-Overview.md
+    -  name: Core Concepts
+      herf: Introduction/Core-Concepts.md
+    -  name: Basic Infrastructure
+      herf: Introduction/Basic-Infrastructure.md
+    -  name: Benefits
+      herf: Introduction/Benefits.md
+    -  name: Features
+      herf: Introduction/Features.md
+    -  name: Specifications
+      herf: Introduction/Specifications.md
+    -  name: Restrictions
+      herf: Introduction/Restrictions.md
+    -  name: Application Scenarios
+      herf: Introduction/Application-Scenarios.md    
+-  name: Pricing
+  items:
+    -  name: Billing Overview
+      herf: Pricing/Billing-Overview.md
+    -  name: Billing Rules
+      herf: Pricing/Billing-Rules.md
+    -  name: Price Overview
+      herf: Pricing/Price-Overview.md
+    -  name: Purchase Process
+      herf: Pricing/Purchase-Process.md 
+    -  name: Renewal Process
+      herf: Pricing/Renew-Process.md
+-  name: Getting Started
+  items:
+    -  name: Product Overview
+      herf: Getting-Started/1-Overview.md
+    -  name: Create a cluster
+      herf: Getting-Started/2-Create-Cluster.md
+    -  name: Configure the job
+      herf: Getting-Started/3-Create-Job.md
+    -  name: Deployment job
+      herf: Getting-Started/4-Deploy-Job.md
+    -  name: Cluster monitoring
+      herf: Getting-Started/5-Monitor-Cluster.md
+-  name: Operation Guide
+  items:
+    -  name: Operation Guide
+    - herf: Operation-Guide/Guide.md
+-  name: Best Practices
+  items:
+  -  name: Offline analysis
+    herf: Best-Practices/JMR-Best-Practice-1.md
+  -  name: Stream calculation
+    herf: Best-Practices/JMR-Best-Practice-2.md
+  -  name: One-stop big data platform
+    herf: Best-Practices/JMR-Best-Practice-3.md
+-  name: Troubleshooting
+  items:
+  -  name: Instructions
+    herf: Troubleshooting/Instructions.md
+-  name: FAQ
+  herf: FAQ/FAQ.md
+-  name: API reference
+  herf: API-Reference/API.md
+  status: 0 
+-  name: SDK reference
+  herf: SDK-Reference/Overview.md
+  status: 0 
+-  name: Related Resources
+  items:
+  -  name: Document History
+    herf: Related-Resources/Document-History.md     
+  - name: SLA
+    herf: Related-Resources/SLA.md

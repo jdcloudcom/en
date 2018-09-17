@@ -1,6 +1,6 @@
 # Create video transcoding
 
-Description: transcode the video file on JD Cloud Storage, and save the transcoded video as a new file.
+Description: transcode the video file on JD Cloud OSS, and save the transcoded video as a new file.
 
 Request grammar:
 ```
@@ -66,6 +66,6 @@ Content-Type: application/json;charset=UTF-8
 Content-Length: 34
 Date: Tue, 15 Dec 2015 13:10:50 GMT
 {“taskId”: "0a354cca27994b398931b205bbf96985"}   
-错误返回信息：
+Wrong return information:
 {"code":"NoSuchKey","message":" The specified file used for video transcoding does not exist, file name = Wildlifetest.wmv","resource":"/test-bucket13/Wildlifetest.wmv","requestId":"8764E879D8AEE8BF"}
 ```

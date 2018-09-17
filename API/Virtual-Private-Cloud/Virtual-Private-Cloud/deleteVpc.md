@@ -1,33 +1,33 @@
 # deleteVpc
 
 
-## 描述
-删除私有网络
+## Description
+"Delete virtual private cloud
 
-## 请求方式
+## Request method
 DELETE
 
-## 请求地址
+## Request address
 https://vpc.jdcloud-api.com/v1/regions/{regionId}/vpcs/{vpcId}
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**regionId**|String|True||Region ID|
 |**vpcId**|String|True||Vpc ID|
 
-## 请求参数
+## Request parameter
 无
 
 
-## 返回参数
-|名称|类型|描述|
+## Return parameter
+|Name|Type|Description|
 |---|---|---|
-|**requestId**|String|请求ID|
+|**requestId**|String|Request ID|
 
 
 
-## 返回码
-|返回码|描述|
+## Return code
+|Return code|Description|
 |---|---|
 |**400**|Invalid parameter|
 |**401**|Authentication failed|

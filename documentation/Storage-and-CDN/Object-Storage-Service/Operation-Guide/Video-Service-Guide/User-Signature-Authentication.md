@@ -1,4 +1,4 @@
-#Video processing signature verification
+# Video processing signature verification
 
 User can add Header of Authorization in HTTP request to contain information on Signature, to state that this message has been authorized.
 
@@ -127,7 +127,7 @@ String signature =  new String(Base64.encodeBase64(rawHmac), "UTF-8");
 ```
 
 The Signature calculation result shall be xvj2Iv7WcSwnN26XYnTq/c2YBQs=, because
-Authorization = “jingdong” + AccessKey + “:” + Signature. Therefore, Authorization is “jingdong qbS5QXpLORrvdrmb: xvj2Iv7WcSwnN26XYnTq/c2YBQs=”, and add Authorization header to compose the final message that needs to be sent:
+Authorization ="jingdong” + AccessKey + ":" + Signature. Therefore, Authorization is “jingdong qbS5QXpLORrvdrmb: xvj2Iv7WcSwnN26XYnTq/c2YBQs=", and add Authorization header to compose the final message that needs to be sent:
 ```
 PUT /sign.txt   HTTP/1.1
   Content-Type: text/plain

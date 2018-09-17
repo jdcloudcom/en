@@ -1,24 +1,24 @@
   name: Tag Service
   href: 
   items:
-  - name: Product Introduction
+  - name: Introduction
     items:
       - name: Product Overview
-        href: Introduction/What-Is-Tag.md
-      - name: Core Concept
+        href: Introduction/Product-Overview.md
+      - name: Core Concepts
         href: Introduction/Core-Concepts.md
-      - name: Features
+      - name: Benefits
         href: Introduction/Benefits.md
-      - name: Product Function
-        href: Introduction/Functions.md
-      - name: Limitation Description
+      - name: Features
+        href: Introduction/Features.md
+      - name: Restrictions
         href: Introduction/Restrictions.md
-      - name: Application Scenario 
+      - name: Application Scenarios 
         href: Introduction/Application-Scenarios.md    
-  - name: Product Pricing
+  - name: Pricing
     items:
-      - name: Product Pricing
-        href: Pricing/Pricing.md
+      - name: Billing Overview
+        href: Pricing/Billing-Overview.md
   - name: Operation Guide
     items:
       - name: Tag List

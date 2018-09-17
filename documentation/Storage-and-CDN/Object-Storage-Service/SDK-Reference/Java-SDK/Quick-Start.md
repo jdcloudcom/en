@@ -8,19 +8,19 @@ In this section, you will see how to quickly use Java SDK to complete normal act
 
 Before sending any a HTTP request to the object storage service, a JingdongStorageService instance must be created first:
 ```
-//访问京东云的accessKey  
+//The accessKey to access JD Cloud  
 String accessKey = "<yourAccessKeyId>";  
 String secreteKey = "<yoursecretKeyId>";    
-//endpoint以华北-北京为例  
+//Take cn-north-1 as an example for endpoint  
 String endpoint = "oss.cn-north-1.jcloudcs.com";  
  
-//创建JingdongStorageService实例  
+//Create JingdongStorageService instance  
 JingdongStorageService jss= new JingdongStorageService(accessKey,secreteKey);  
 jss.setEndpoint(endpoint);  
  
-//使用对象存储  
+//Use object storage service  
   
-//销毁JingdongStorageService实例  
+//Destruct JingdongStorageService instance  
 jss.destroy();
 ```
 Notification: see “Initialization” for more initialization contents of OSSClient.
@@ -29,7 +29,7 @@ Notification: see “Initialization” for more initialization contents of OSSCl
 
 Bucket is OSS global naming space, (being equivalent to the container of data), which can store several objects. The following codes demonstrate how to create a Bucket:
 ```
-// 创建bucket  
+// Create bucket  
 String bucketName = "<your-bucket-name>";  
 jss.createBucket(bucketName);
 ```
@@ -47,11 +47,11 @@ File file = new File("D:/test");
 String bucketName =  "<your-bucket-name>";
 String objectName =  "<your-object-name>";
 ObjectService objectService = jss.bucket(bucketName).object(objectName);
-//获取输入流  
+//Obtain input streaming  
 InputStream inputStream = new FileInputStream(file);  
-//获取流长度  
+//Obtain streaming length  
 long contentLength = file.length();  
-//设置上传文件Content-type为"text/html"。函数返回上传数据的Etag  
+//Set the Content-type of the uploaded file as "text/html”. The function returns the Etag of the uploaded data  
 String md5 = objectService.entity(contentLength,inputStream).contentType("text/html").put();
 ```
 Notification:
@@ -67,16 +67,16 @@ The following codes demonstrate how to acquire the text contents of Object:
 String bucketName =  "<your-bucket-name>";
 String objectName =  "<your-object-name>";
 
-//创建objectService实例  
+//Create objectService instance  
 ObjectService objectService = jss.bucket(bucketName).object(objectName);  
 
-//获取object对象  
+//Obtain an object  
 StorageObject storageObject = objectService.get();  
-// 读Object内容  
+// Read Object content  
 System.out.println("Object content:");  
 BufferedReader reader = new BufferedReader(new InputStreamReader(storageObject.getInputStream()));  
 String tempString = null;  
-// 一次读入一行，直到读入null为文件结束  
+// Read one row once, the file ends until null is read  
 while ((tempString = reader.readLine()) != null) {  
     System.out.println(tempString);  
 }  
@@ -90,11 +90,11 @@ Notification: see “Download File” for more information of downloading Object
 
 When a series of upload Object actions have been completed, it may need to view which Objects are contained under the Bucket. The following codes demonstrate how to list the Objects under the Bucket:
 ```
-//创建BucketService实例  
+//Create BucketService instance  
 BucketService bucketService = jss.bucket(bucketName);  
-//列出bucket下满足条件的文件和文件夹  
+//List the files and folders under the bucket that satisfy the conditions  
 ObjectListing objectList = bucketService.listObject();  
-//列出指定条件下的object名称  
+//List the object names under the specified conditions  
 for (ObjectSummary objectSummary : objectList.getObjectSummaries()) {  
      System.out.println("objectName : "+objectSummary.getKey());  
  }
@@ -107,8 +107,8 @@ The following code demonstrates how to delete the designated Objects:
 String bucketName =  "<your-bucket-name>";
 String objectName =  "<your-object-name>";
  
-//创建objectService实例    
+//Create objectService instance    
 ObjectService objectService = jss.bucket(bucketName).object(objectName);    
-//删除object    
+//Delete object    
 ObjectService.delete();
 ```

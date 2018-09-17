@@ -1,2 +1,3 @@
 1. Comprehensively analyze the characteristics of Shenzhen South China City's own resource advantages, and establish a comprehensive trading platform which focuses on serving enterprise purchasers, individual purchasing and downstream suppliers, thus to promote the establishment of the whole South China City brand under line to promote the enterprise in e-commerce transformation and upgrading so as to achieve effective integration of product flow, logistics and customer flow;<br/>
+
 2. For hardware B2B self-support e-commerce platform, combined with the business characteristics of Shenzhen South China City, connect the Jianzhengbao product of PingAn Bank to customize special supply energy and various corresponding interfaces for Shenzhen South China City

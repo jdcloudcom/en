@@ -52,7 +52,7 @@
   - name: Best Practices
     items:
     - name: Optimal Configuration
-      href: Best-Practices/Best-configuration -recommendation.md
+      href: Best-Practices/Best-configuration-recommendation.md
     - name: Configure self-starting
       href: Best-Practices/Auto-Enable-Services-on-Startup.md
     - name: Set fixed exit IP

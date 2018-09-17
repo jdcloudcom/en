@@ -1,10 +1,10 @@
-  name: Identity and Access Management
+  name: IAM
   href: 
   items:
   - name: Overview
     items:
       - name: Overview
-        href: Overview.md
+        href: Product-Overview.md
   - name: Identity Management
     items:
       - name: Sub-user
@@ -20,7 +20,7 @@
   - name: Virtual MFA Equipment
     items:
       - name: Overview
-        href: Virtual-MFA-Management/Overview.md
+        href: Virtual-MFA-Management/MFA-Overview.md
       - name: MFA Setting
         href: Virtual-MFA-Management/MFA-Settings.md
       - name: Login Verification
@@ -30,5 +30,5 @@
       - name: Guidance for Third-party Application Installation and Usage
         href: Virtual-MFA-Management/Third-Party-Apps.md
       - name: FAQ for MFA Login Verification
-        href: Virtual-MFA-Management/FAQs.md
+        href: Virtual-MFA-Management/MFA-FAQs.md
         

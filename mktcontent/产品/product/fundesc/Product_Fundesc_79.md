@@ -10,7 +10,7 @@
 			{
 				"funcName":"",
 				"funcTitle":"Configurable RAID mode",
-				"funcP":"The RAID1 mode is uniformly provided for the system disk to ensure high availability of the system disk. For data disks, user can choose NO RAID, RAID0 or RAID1 according to business demands."
+				"funcP":"The RAID1 mode is uniformly provided for the system disk to ensure high availability of the system disk. For data disks, user can choose NO RAID, RAID0, RAID1 or RAID10 according to business demands."
 			},
 			{
 				"funcName":"",

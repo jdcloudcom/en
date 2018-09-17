@@ -10,45 +10,45 @@ Acquire object list under the bucket, perform dictionary sorting for the returne
 
 List all Objects under Bucket:
 ```
-//您的AccessKey和SecretKey可以登录到对象存储的控制台，在【Access Key 管理】中查看。  
+//You can log in to the console of Object Storage Service with AccessKey and SecretKey to view it in [AccessKey Management].  
 String accessKey =  "<yourAccessKeyId>";  
 String secreteKey = "<yourSecretKey>";       
-// endpoint以华北-北京为例，其它region请按实际情况填写  
+// Take cn-north-1 as an example for endpoint, and fill in according to actual situation for other regions  
 String endPoint = "oss.cn-north-1.jcloudcs.com";  
 String bucketName = "<yourBucketName>";  
   
-//ClientConfig当前为默认配置，用户可根据需要自行配置，如设置连接超时时间等  
+//The configuration of ClientConfig is currently by default. If the user needs some other configurations, he/she may configure them by himself/herself, such as setting the time of connection time-out.  
 ClientConfig config = new ClientConfig();   
   
-//构造JingdongStorageService实例  
+//Build JingdongStorageService instance  
 Credential credential = new Credential(accessKey, secreteKey);  
 JingdongStorageService jss = new JingdongStorageService(credential,config); 
-//配置endPoint  
+//Configure endPoint  
 jss.setEndpoint(endPoint);  
           
-//创建BucketService实例  
+//Create BucketService instance  
 BucketService bucketService = jss.bucket(bucketName);  
-//列出bucket下满足条件的文件和文件夹  
+//List the files and folders under the bucket that satisfy the conditions  
 ObjectListing objectList = bucketService.listObject();  
-//列出指定条件下的object名称  
+//List the object names under the specified conditions  
 for (ObjectSummary objectSummary : objectList.getObjectSummaries()) {  
     System.out.println("objectName : "+objectSummary.getKey());  
 }  
 
-//JingdongStorageService对象内部维护一组HTTP连接池，在不使用该对象之前需要调用其destroy方法关闭连接池，  
-//请注意，一旦调用destroy方法，该对象就不能再次被使用，否则将会抛出异常。  
+//A group of HTTP connection pool inside the JingdongStorageService object is under maintenance. Other destroy methods shall be called to close the connection pool before using the object,  
+//Please note that once the destroy method is called, the object cannot be used again, otherwise an exception will be thrown.  
 jss.destroy();
 ```
 
 **Designate maximum return number**
 ```
-//创建BucketService实例  
+//Create BucketService instance  
 BucketService bucketService = jss.bucket(bucketName);  
-//指定返回最大条数为10  
+//The specified maximum number of returns is 10  
 bucketService.maxKeys(10);  
-//列出bucket下满足条件的文件和文件夹  
+//List the files and folders under the bucket that satisfy the conditions  
 ObjectListing objectList = bucketService.listObject();  
-//列出指定条件下的object名称  
+//List the object names under the specified conditions  
 for (ObjectSummary objectSummary : objectList.getObjectSummaries()) {  
      System.out.println("objectName : "+objectSummary.getKey());  
 }
@@ -57,13 +57,13 @@ for (ObjectSummary objectSummary : objectList.getObjectSummaries()) {
 **Return Objects with designated prefix(es)**
 
 ```
-//创建BucketService实例  
+//Create BucketService instance  
 BucketService bucketService = jss.bucket(bucketName);  
-//指定返回前缀  
+//Specifiy the prefix of returns  
 bucketService.prefix("file");  
-//列出bucket下满足条件的文件和文件夹  
+//List the files and folders under the bucket that satisfy the conditions  
 ObjectListing objectList = bucketService.listObject();  
-//列出指定条件下的object名称  
+//List the object names under the specified conditions  
 for (ObjectSummary objectSummary : objectList.getObjectSummaries()) {  
      System.out.println("objectName : "+objectSummary.getKey());  
 }
@@ -72,13 +72,13 @@ for (ObjectSummary objectSummary : objectList.getObjectSummaries()) {
 **Return the objects after the designated Object**
 
 ```
-//创建BucketService实例  
+//Create BucketService instance  
 BucketService bucketService = jss.bucket(bucketName);  
-//返回"file"后以字典序排序的Object信息，结果中不包含"file"  
+//The Object information in dictionary order after returning "file", the result does not contain "file"  
 bucketService.marker("file");  
-//列出bucket下满足条件的文件和文件夹  
+//List the files and folders under the bucket that satisfy the conditions  
 ObjectListing objectList = bucketService.listObject();  
-//列出指定条件下的object名称  
+//List the object names under the specified conditions  
 for (ObjectSummary objectSummary : objectList.getObjectSummaries()) {  
      System.out.println("objectName : "+objectSummary.getKey());  
 }
@@ -91,15 +91,15 @@ String marker = null;
 ObjectListing objectList = null;  
 do {  
      System.out.println(".................page....................");  
-      //创建BucketService实例  
+      //Create BucketService instance  
      BucketService bucketService = jss.bucket(bucketName);  
-     //返回marker后以字典序排序的Object信息，结果中不包含marker  
+     //The Object information in dictionary order after returning marker, the result does not contain marker  
     bucketService.marker(marker);  
-    //指定返回最大条数为5  
+    //The specified maximum number of returns is 5  
     bucketService.maxKeys(5);  
-    //列出bucket下满足条件的文件和文件夹  
+    //List the files and folders under the bucket that satisfy the conditions  
     objectList = bucketService.listObject();  
-    //列出指定条件下的object名称  
+    //List the object names under the specified conditions  
     List<ObjectSummary> objectSummaries = objectList.getObjectSummaries();  
     for (ObjectSummary objectSummary : objectSummaries) {  
          System.out.println("objectName : "+objectSummary.getKey());  
@@ -113,20 +113,20 @@ do {
 Acquire all objects after the specific Object by paging, with the number of Objects being equal to the value of maxKeys per page.
 
 ```
-//分页获取"file"后以字典序排序的Object信息，结果中不包含"file"  
+//The Object information in dictionary order after obtaining "file” by paging, the result does not contain "file"  
 String marker = "file";  
 ObjectListing objectList = null;  
 do {  
     System.out.println(".................page....................");  
-    //创建BucketService实例  
+    //Create BucketService instance  
     BucketService bucketService = jss.bucket(bucketName);  
-    //返回marker后以字典序排序的Object信息，结果中不包含marker  
+    //The Object information in dictionary order after returning marker, the result does not contain marker  
     bucketService.marker(marker);  
-    //指定返回最大条数为5  
+    //The specified maximum number of returns is 5  
     bucketService.maxKeys(5);  
-    //列出bucket下满足条件的文件和文件夹  
+    //List the files and folders under the bucket that satisfy the conditions  
     objectList = bucketService.listObject();  
-    //列出指定条件下的object名称  
+    //List the object names under the specified conditions  
     List<ObjectSummary> objectSummaries = objectList.getObjectSummaries();  
     for (ObjectSummary objectSummary : objectSummaries) {  
         System.out.println("objectName : "+objectSummary.getKey());  
@@ -144,17 +144,17 @@ String marker = null;
 ObjectListing objectList = null;  
 do {  
     System.out.println(".................page....................");  
-    //创建BucketService实例  
+    //Create BucketService instance  
     BucketService bucketService = jss.bucket(bucketName);  
-    //指定返回前缀的object  
+    //Specify the object of the prefix of returns  
     bucketService.prefix("file");  
-    //返回marker后以字典序排序的Object信息，结果中不包含marker  
+    //The Object information in dictionary order after returning marker, the result does not contain marker  
     bucketService.marker(marker);  
-    //指定返回最大条数为5  
+    //The specified maximum number of returns is 5  
     bucketService.maxKeys(5);  
-    //列出bucket下满足条件的文件和文件夹  
+    //List the files and folders under the bucket that satisfy the conditions  
     objectList = bucketService.listObject();  
-    //列出指定条件下的object名称  
+    //List the object names under the specified conditions  
     List<ObjectSummary> objectSummaries = objectList.getObjectSummaries();  
     for (ObjectSummary objectSummary : objectSummaries) {  
         System.out.println("objectName : "+objectSummary.getKey());  
@@ -178,16 +178,16 @@ Notification: if there 4 files in the Bucket: oss.jpg, jingdong/file, jingdong/d
 When we need to acquire all files under the storage space, we use the following codes:
 
 ```
-//创建BucketService实例  
+//Create BucketService instance  
 BucketService bucketService = jss.bucket(bucketName);  
-//列出bucket下满足条件的文件和文件夹  
+//List the files and folders under the bucket that satisfy the conditions  
 ObjectListing objectList = bucketService.listObject();  
-//列出指定条件下的object名称  
+//List the object names under the specified conditions  
 System.out.println("objectName : ");  
 for (ObjectSummary objectSummary : objectList.getObjectSummaries()) {  
     System.out.println(objectSummary.getKey());  
 }  
-//列出指定条件下的文件夹  
+//List the folders under the specified conditions  
 System.out.println("\nCommonPrefixes : ");  
 for (String commonPrefixes : objectList.getCommonPrefixes()) {  
     System.out.println(commonPrefixes);  
@@ -210,18 +210,18 @@ CommonPrefixes :
 We can acquire all files under a directory (jingdong/) by setting Prefix parameter:
 
 ```
-//创建BucketService实例  
+//Create BucketService instance  
 BucketService bucketService = jss.bucket(bucketName);  
-//获取"jingdong/"下所有的文件  
+//Obtain all the files under "jingdong/"  
 bucketService.prefix("jingdong/");  
-//列出bucket下满足条件的文件和文件夹  
+//List the files and folders under the bucket that satisfy the conditions  
 ObjectListing objectList = bucketService.listObject();  
-//列出指定条件下的object名称  
+//List the object names under the specified conditions  
 System.out.println("objectName : ");  
 for (ObjectSummary objectSummary : objectList.getObjectSummaries()) {  
     System.out.println(objectSummary.getKey());  
 }  
-//列出指定条件下的文件夹  
+//List the folders under the specified conditions  
 System.out.println("\nCommonPrefixes : ");  
 for (String commonPrefixes : objectList.getCommonPrefixes()) {  
     System.out.println(commonPrefixes);  
@@ -244,18 +244,18 @@ CommonPrefixes :
 In the case of combining Prefix and Delimiter, files and sub-directories under the directory (jingdong/) can be listed. It shall be noted that it only takes effect when HasCommonPrefix is true:
 
 ```
-//创建BucketService实例  
+//Create BucketService instance  
 BucketService bucketService = jss.bucket(bucketName);  
-//列出"jingdong/"下的文件和子目录,需要注意的是hasCommonPrefix必须为true才生效
+//List all the files and subdirectories under “jingdong/”. Please note that hasCommonPrefix must be true to take effect
 bucketService.prefix("jingdong/").delimiter("/").hasCommonPrefix(true);  
-//列出bucket下满足条件的文件和文件夹  
+//List the files and folders under the bucket that satisfy the conditions  
 ObjectListing objectList = bucketService.listObject();  
-//列出指定条件下的object名称  
+//List the object names under the specified conditions  
 System.out.println("objectName : ");  
 for (ObjectSummary objectSummary : objectList.getObjectSummaries()) {  
      System.out.println(objectSummary.getKey());  
 }  
-//列出指定条件下的文件夹  
+//List the folders under the specified conditions  
 System.out.println("\nCommonPrefixes : ");  
 for (String commonPrefixes : objectList.getCommonPrefixes()) {  
     System.out.println(commonPrefixes);  
