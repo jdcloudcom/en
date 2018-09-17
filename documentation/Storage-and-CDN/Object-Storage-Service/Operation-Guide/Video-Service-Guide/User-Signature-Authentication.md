@@ -1,4 +1,4 @@
-# Video processing signature verification
+# Video processing signature authentication
 
 User can add Header of Authorization in HTTP request to contain information on Signature, to state that this message has been authorized.
 
