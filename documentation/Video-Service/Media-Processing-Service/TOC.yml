@@ -24,7 +24,7 @@
            - name: Transcoding Rules
              href: Operation-Guide/Video-Transcoding/Transcoding-Rules.md
            - name: Create Viedo Transcoding
-             href: Operation-Guide/Video-Transcoding/Video-Transcoding.md 	  
+             href: Operation-Guide/Video-Transcoding/Create-Video-Transcoding-2.md 	  
       - name: Video Snapshot
         href: Operation-Guide/Video-Snapshot.md
       - name: Callback Settings
