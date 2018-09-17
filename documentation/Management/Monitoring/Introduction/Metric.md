@@ -265,6 +265,7 @@ Disk Read Throughput	|kbps|	1 Minute
 Disk Write Throughput	|kbps|	1 Minute
 Used Disk	|MByte|	1 Minute
 Disk Usage 	|%|	1 Minute
+Disk QueueLength |Count|1 Minute
 CPU Usage	|%|	1 Minute
 Memory Usage |%|	1 Minute
 Processes Blocked	|Count|	1 Minute
