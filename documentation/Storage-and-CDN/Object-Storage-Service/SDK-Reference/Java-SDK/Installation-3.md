@@ -1,4 +1,4 @@
-# Installation-3
+# Installation
 
 ## Environment preparation
 
