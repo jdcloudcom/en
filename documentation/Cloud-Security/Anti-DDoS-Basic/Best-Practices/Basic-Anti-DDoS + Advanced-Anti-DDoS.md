@@ -15,6 +15,6 @@ The Basic Anti-DDoS is a free service that JD Cloud provides to counter common c
 ## Advanced Anti-DDoS
 
 The Basic Anti-DDoS is the protection services provided by JD Cloud for the users free of charge. If you need the Advanced Anti-DDoS service provided by JD Cloud, you need to buy JD Cloud Advanced Anti-DDoS as needed. After you purchase it, you will be able to get Advanced Anti-DDoS services from JD Cloud.
-The Advanced Anti-DDoS purchase window is as follows.
+The Advanced Anti-DDoS purchase page is as follows.
 
 For Advanced Anti-DDoS purchase window, see: [IP High Guard](https://www.jdcloud.com/products/ipanti)
