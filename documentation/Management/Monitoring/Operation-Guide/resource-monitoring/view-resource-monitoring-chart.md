@@ -1,4 +1,4 @@
-## View Resource Monitoring Graph
+## View Resource Monitoring Chart
 The monitoring chart of the resource can be viewed in two ways, one is viewed on the Cloud Monitor page, and the other is viewed in the resource.
 ### Cloud Monitor Page View
 1. Log in to the JD Cloud Console, click Manage ->Monitoring->Resource Monitoring Menu, then select the type of resource to be viewed, and enter the monitor list for the resource.
