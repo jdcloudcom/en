@@ -1,16 +1,16 @@
 # Cloud Database RDS
 
 
-## 简介
+## Introduction
 At present, RDS OpenAPI supports SQL Server service, which can realize database management, account management, backup management, cloud on single database and other functions through OpenAPI, and will support cloud MySQL sevice later.
 
 
-### 版本
+### Version
 v1
 
 
 ## API
-|接口名称|请求方式|功能描述|
+|Interface name|Request mehod|Function description|
 |---|---|---|
 |**createAccount**|POST|Create a database account. The user can use the client, application, etc. to log in to the RDS database instance through the account and password. <br>For ease of management and recovery, RDS restricts accounts. Database accounts can only be created, deleted, and authorized by the console or OpenAPI. Users cannot perform related operations on accounts through SQL statements.|
 |**createAudit**|POST|It enables the database audit function of SQL Server and currently supports instance\-level database audit. Users can enable and disable the audit function, customize audit policies, and download audit files as needed. The audit file is a native SQL Server audit file and is saved for 6 months by default. <br>\- Support SQL Server Only|

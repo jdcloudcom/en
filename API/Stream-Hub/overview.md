@@ -1,16 +1,16 @@
 # JDCLOUD streaming data bus API
 
 
-## 简介
+## Introduction
 Provide related APIs for streaming data bus topic.
 
 
-### 版本
+### Version
 v1
 
 
 ## API
-|接口名称|请求方式|功能描述|
+|Interface name|Request mehod|Function description|
 |---|---|---|
 |**addTopic**|POST|When creating topic, only the topic parameter in the topicModel needs to be transmitted, and the other two parameters can be blank|
 |**createConsumerGroup**|POST|Create consumerGroupName|

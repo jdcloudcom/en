@@ -1,16 +1,16 @@
 # Sensitive Operation Protection
 
 
-## 简介
+## Introduction
 Related interfaces of sensitive operation protection (SOP)
 
 
-### 版本
+### Version
 v1
 
 
 ## API
-|接口名称|请求方式|功能描述|
+|Interface name|Request mehod|Function description|
 |---|---|---|
 |**getSecurityToken**|POST|Obtaining Token|
 |**getSensitiveOpSetting**|GET|Obtain the settings information of operation protection|

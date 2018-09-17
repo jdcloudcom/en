@@ -1,16 +1,16 @@
 # JD Cloud Advanced Anti-DDoS APIs
 
 
-## 简介
+## Introduction
 JD Cloud Advanced Anti-DDoS APIs
 
 
-### 版本
+### Version
 v1
 
 
 ## API
-|接口名称|请求方式|功能描述|
+|Interface name|Request mehod|Function description|
 |---|---|---|
 |**ccGraph**|GET|Forwarding traffic report|
 |**createForwardRule**|POST|Add a non\-web service rule|

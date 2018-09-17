@@ -1,16 +1,16 @@
 # JDCLOUD Stream Computing APIs
 
 
-## 简介
+## Introduction
 Provide related APIs for stream computing operation.
 
 
-### 版本
+### Version
 v1
 
 
 ## API
-|接口名称|请求方式|功能描述|
+|Interface name|Request mehod|Function description|
 |---|---|---|
 |**addOrUpdateJob**|POST|Add or update job|
 |**addOrUpdateStorage**|POST|Create or update storage|

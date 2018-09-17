@@ -1,16 +1,16 @@
 # Cloud Monitor
 
 
-## 简介
+## Introduction
 Cloud Monitor APIs, mainly comprising creation, deletion, change and review of monitoring rules and query of monitoring item data
 
 
-### 版本
+### Version
 v1
 
 
 ## API
-|接口名称|请求方式|功能描述|
+|Interface name|Request mehod|Function description|
 |---|---|---|
 |**createAlarm**|POST|Create alarm rules, it can create alarm rules for a certain instance, or it also can create alarm rules for multiple instances at the same time.|
 |**deleteAlarms**|DELETE|Delete alarm rules already created in batches|

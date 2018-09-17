@@ -1,16 +1,16 @@
 # VM
 
 
-## 简介
+## Introduction
 VM instance, image, instance type, instance template, quota-related APIs
 
 
-### 版本
+### Version
 v1
 
 
 ## API
-|接口名称|请求方式|功能描述|
+|Interface name|Request mehod|Function description|
 |---|---|---|
 |**associateElasticIp**|POST|The virtual machine associates the elastic public IP,  and the associating is the IP of the elastic public network corresponding to the primary IP and the intranet primary IP. </br>A virtual machine can only associate with an EIP (master network card). If the main network card already exists EIP,  the error will be returned. </br>If the user is on the blacklist, an error will occur.</br>|
 |**attachDisk**|POST|Attach a data disk (cloud hard disk) for a virtual machine,  and the virtual machine and the cloud disk service are not attached when they are in progress. <br></br>The virtual machine status must be running or stopped status. <br></br>The VM of the local disk as system disk can be attached with eight data disks, and the VM of cloud disk service can be attached with seven data disks.</br>|
