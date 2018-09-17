@@ -12,9 +12,8 @@ schemes:
 paths:
   "/quotas/":
      get:
-       summary: "Query quota information"
-       description: "Query quota information"
-       x-jdcloud-internal: true
+       summary: "Query Quota Information"
+       description: "Query Quota Information"
        operationId: DescribeQuota
 
        parameters:
@@ -22,11 +21,11 @@ paths:
             in: query
             required: true
             type: string
-            description: "Resource type, value range: vpc, elastic_ip, subnet, security_group, vpcpeering, network_interface (quota only sums up secondary network interface)"
+            description: Resource Type. Value Range: VPC, elastic_ip, subnet, security_group, VPCpeering, network_interface (quota only sums up secondary network interface)
           - name: parentResourceId
             in: query
             type: string
-            description: If the type is vpc, elastic_ip, network_interface, do not set; if the type is subnet, security_group, vpcpeering, set as vpcId
+            description: If the type is VPC, elastic_ip, network_interface, do not set; if the type is subnet, security_group, VPCpeering, set as VPCId
 
        responses:
          200:
@@ -35,7 +34,7 @@ paths:
              type:  object
              properties:
                result:
-                 description: "Returned results"
+                 description: "Returned Results"
                  properties:
                    quota:
                      type: object
@@ -50,8 +49,8 @@ paths:
            description: "Internal server error"
 
      patch:
-       summary: "Modify quota information"
-       description: "Modify quota information"
+       summary: "Modify Quota Information"
+       description: "Modify Quota Information"
        x-jdcloud-internal: true
        operationId: ModifyQuota
 
@@ -59,7 +58,7 @@ paths:
           - name: modifyQuotaSpec
             in: body
             required: true
-            description: "Modify quota"
+            description: "Modify Quota"
             x-jdcloud-tiered: false
             schema:
               $ref: "../model/ModifyQuotaSpec.yaml#/definitions/modifyQuotaSpec"

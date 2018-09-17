@@ -8,9 +8,9 @@ To conveniently understand the meaning of some of the concepts and parameters in
 
 ## Environment Preparation
 1. The JD Cloud Go SDK is suitable for Go 1.6 and above.
-2. Before apply for JD Cloud open API, [AccessKey management page](https://uc.jdcloud.com/accesskey/index) shall be called out for application of accesskey and secretKey Key Pair (AK/SK). AK/ SK information shall be kept properly and if lost, it is likely to cause illegal users to use this information to operate your resources on the cloud, resulting data or property losses.
+2. Before apply for JD Cloud open API, [AccessKey Management Page](https://uc.jdcloud.com/accesskey/index) shall be called out for application of accesskey and secretKey Key Pair (AK/SK). AK/ SK information shall be kept properly and if lost, it is likely to cause illegal users to use this information to operate your resources on the cloud, resulting data or property losses.
 
-## Download and install
+## Download & Installation
 1. Download address of JD Cloud Go SDK:[Go SDK](https://github.com/jdcloud-api/jdcloud-sdk-go).
 2. You can also obtain the installation package using the following command, which is downloaded to the first path or directory in the GOPATH environment variable.
 
@@ -23,7 +23,7 @@ To conveniently understand the meaning of some of the concepts and parameters in
 3. Set Request Parameters
 4. Response to implementation requests
 
-### The general code of is as follows:
+### The general code is as follows:
 ``` go
 package main
 

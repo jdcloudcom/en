@@ -8,19 +8,19 @@ definitions:
     properties:
       category:
         type: string
-        description: Environment variable name
+        description: Environment Variable Name
       autoDelete:
         type: boolean
         description: Automatic deletion, the volume is automatically deleted at the time the container is deleted.
       mountPath:
         type: string
-        description: Catalog mounted into the container
+        description: Catalog Mounted into the Container
       readOnly:
         type: boolean
         description: Read-only, false by default; only valid to data volume; when root volume is false.
       cloudDisk:
         $ref: "./InstanceCloudDisk.yaml#/definitions/instanceCloudDisk"
-        description: Cloud disk service specification
+        description: Cloud Disk Service Specification
       fsType:
         type: string
         description: Specify volume file system type and support [xfs, ext4] now.

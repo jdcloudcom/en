@@ -8,23 +8,23 @@ definitions:
         description: networkAcl ID
       networkAclName:
         type: string
-        description: networkAcl name
+        description: NetworkAcl Name
       vpcId:
         type: string
-        description: Virtual private cloud ID
+        description: VPC ID
       networkAclRules:
         type: array
-        description: networkAcl rule list
+        description: NetworkAcl Rule List
         items:
           $ref: "./NetworkAclRule.yaml#/definitions/networkAclRule"
       subnetIds:
         type: array
         items:
           type: string
-        description: networkAcl associated subnet list
+        description: NetworkAcl Associated Subnet List
       description:
         type: string
         description: "Description, all characters allowed to enter under UTF-8 coding, which is not exceed 256 characters"
       createdTime:
         type: string
-        description: networkAcl creation time
+        description: NetworkAcl Creation Time

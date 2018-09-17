@@ -12,22 +12,22 @@ definitions:
         description: Database id
       userName:
         type: string
-        description: User name
+        description: User Name
       databaseName:
         type: string
-        description: Database name
+        description: Database Name
       totalTableQuantity:
         type: integer
-        description: Number of summary lists
+        description: Number of Summary Lists
       createTime:
         type: string
-        description: Creation time
+        description: Creation Time
       lastUpdateTime:
         type: string
-        description: Last update time
+        description: Last Update Time
       physicalStorageCapacity:
         type: string
-        description: Last update time
+        description: Last Update Time
       category:
         type: string
         description: Category
@@ -42,4 +42,4 @@ definitions:
         description: Location
       comments:
         type: string
-        description: Description information
+        description: Description  Information

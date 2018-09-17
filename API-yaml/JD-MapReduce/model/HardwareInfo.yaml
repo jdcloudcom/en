@@ -7,13 +7,13 @@ definitions:
     properties:
       nodeName:
         type: string
-        description: Node name
+        description: Node Name
       nodeType:
         type: string
-        description: Node type
+        description: Node Type
       nodeStatus:
         type: string
-        description: Node status
+        description: Node Status
       innerIp:
         type: string
         description: Private IP
@@ -25,28 +25,28 @@ definitions:
         description: Firewall
       nodeCoreNum:
         type: integer
-        description: Node core number
+        description: Node Core Number
       nodeMemoryNum:
         type: integer
-        description: Node memory
+        description: Node Memory
       nodeSystemInfo:
         type: string
-        description: Node system information
+        description: Node System Information
       nodeDiskType:
         type: string
-        description: Node hard disk type
+        description: Node Hard Disk Type
       nodeDiskVolume:
         type: integer
-        description: Node hard disk capacity
+        description: Node Hard Disk Capacity
       serverId:
         type: string
-        description: Node instance ID
+        description: Node Instance ID
       msg:
         type: string
         description: Message
       instanceType:
         type: string
-        description: Node hardware configuration
+        description: Node Hardware Configuration
       instanceInfo:
         type: string
-        description: Node hardware type
+        description: Node Hardware Type

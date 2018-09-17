@@ -8,9 +8,9 @@ definitions:
     properties:
       permission:
         type: string
-        description: "Permission type: Read-only-R, Delete-D, Modification-M"
+        description: "Permission Type: Read-only-R, Delete-D, Modification-M"
       resource:
         type: array
         items:
           $ref: "./Resource.yaml#/definitions/resource"
-        description: Resource information
+        description: Resource Information

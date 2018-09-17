@@ -7,13 +7,13 @@ definitions:
     properties:
       columnName:
         type: string
-        description: Field name
+        description: Field Name
       columnType:
         type: string
-        description: Field type
+        description: Field Type
       isPartition:
         type: boolean
         description: Is the field partitioned
       comments:
         type: string
-        description: Description information
+        description: Description  Information

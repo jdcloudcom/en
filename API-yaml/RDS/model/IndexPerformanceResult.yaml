@@ -16,7 +16,7 @@ definitions:
         description: Index Name
       sizeKB:
         type: integer
-        description: Index Size in KB
+        description: Index Size, Unit: KB
       userSeeks:
         type: integer
         description: Cumulative index search times since the server was started

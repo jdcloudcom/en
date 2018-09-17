@@ -7,7 +7,7 @@ definitions:
     properties:
       volumeType:
         type: string
-        description: Disk capacity type
+        description: Disk Capacity Type
       limit:
         type: string
-        description: Maximum disk capacity
+        description: Maximum Disk Capacity

@@ -2,7 +2,7 @@ swagger: "2.0"
 info:
   version: "v1"
   title: Resolution Record
-  description: Cloud resolution OpenAPI resolution record API
+  description: Cloud Resolution OpenAPI Resolution Record API
 
 basePath: /regions/{regionId}
 
@@ -10,18 +10,18 @@ paths:
   /domain/{domainId}/RR:
   ###################### Query Resolution Record of Main Domain Name ######################
     get:
-      description: "Query the resolution record of the main domain name"
+      description: "Query the Resolution Record of the main domain name"
       operationId: searchRR
       parameters:
         - name: pageNumber
           in: query
           type: integer
-          description: Current page, starting value of 1, default value of 1
+          description: Current page, starting value is 1, default value is 1
           required: false
         - name: pageSize
           in: query
           type: integer
-          description: Number of rows per page set during the page query, default value of 10
+          description: Number of rows per page set during the page query, default value is 10
           required: false
       responses:
         200:
@@ -31,18 +31,18 @@ paths:
               result:
                 properties:
                   dataList:
-                    description: List of the resolution record
+                    description: List of Resolution Records
                     type: array
                     items:
                       $ref: "../model/RR.yaml#/definitions/RR"
                   totalCount:
-                    description: Number of all resolution records
+                    description: Number of All Resolution Records
                     type: integer
                   totalPage:
-                    description: Pages of all resolution records
+                    description: Pages of All Resolution Records
                     type: integer
                   currentCount:
-                    description: Resolution records of current page
+                    description: Resolution Records of Current Page
                     type: integer
               requestId:
                 type: string
@@ -70,7 +70,7 @@ paths:
           in: query
           type: integer
           required: true
-          description: view ID, 0 in default
+          description: View ID, 0 by default
       responses:
         200:
           description: OK
@@ -79,7 +79,7 @@ paths:
               result:
                 properties:
                   data:
-                    description: Tree of the resolution line
+                    description: Tree of Resolution Line
                     type: array
                     items:
                       $ref: "../model/RR.yaml#/definitions/viewTree"
@@ -92,7 +92,7 @@ paths:
   /domain/{domainId}/RRAdd:
   ###################### Add Resolution Record of Domain Name ######################
     post:
-      description: "Add a resolution record of the domain name"
+      description: "Add a Resolution Record of the Domain Name"
       operationId: addRR
       parameters:
         - name: req
@@ -109,7 +109,7 @@ paths:
               result:
                 properties:
                   dataList:
-                    description: Resolution record result after successful addition
+                    description: Resolution Record Result after Successful Addition
                     $ref: "../model/RR.yaml#/definitions/RR"
               requestId:
                 type: string
@@ -120,7 +120,7 @@ paths:
   /domain/{domainId}/RRUpdate:
   ###################### Modify Resolution Record of Domain Name ######################
     post:
-      description: "Modify a resolution record of the main domain name"
+      description: "Modify a Resolution Record of the Main Domain Name"
       operationId: updateRR
       parameters:
         - name: req
@@ -143,7 +143,7 @@ paths:
   /domain/{domainId}/RROperate:
   ###################### Operation Set of Domain Name Resolution Record ######################
     post:
-      description: "Enable, disable, delete the resolution records under the main domain name"
+      description: "Enable, disable, or delete the resolution records under the main domain name"
       operationId: operateRR
       parameters:
         - name: ids
@@ -152,12 +152,12 @@ paths:
           items:
             type: integer
           required: true
-          description: Resolution record ID of the operation demanded
+          description: Resolution Record ID of the Operation Required
         - name: action
           in: query
           type: string
           required: true
-          description: Operation type, on->enable, off->disable, del->delete
+          description: Operation Type, On->Enable, Off->Disable, Del->Delete
       responses:
         200:
           description: OK

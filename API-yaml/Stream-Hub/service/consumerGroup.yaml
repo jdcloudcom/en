@@ -2,7 +2,7 @@ swagger: "2.0"
 info:
   version: "v1"
   title: Consumer Group APIs
-  description: Information APIs related to streaming data bus ConsumerGroup
+  description: Information APIs related to Stream Hub ConsumerGroup
 basePath: '/regions/{regionId}'
 paths:
 #######View all the consumer groups of the assigned subject################
@@ -14,7 +14,7 @@ paths:
         - name: topicId
           type: integer
           in: query
-          description: Subject id
+          description: Subject ID
           required: true
       responses:
         200:
@@ -33,7 +33,7 @@ paths:
                       $ref: "../model/consumerGroupList.yaml#/definitions/consumerGroup"
         400:
             description: UNAUTHENTICATED   
-###################Create consumerGroupName##############################
+###################Create ConsumerGroupName##############################
   /consumerGroup:
     post:
       description: Create consumerGroupName
@@ -41,7 +41,7 @@ paths:
       parameters:
         - name: consumerGroupStr
           in: body
-          description: Consumer group object
+          description: Consumer Group Object
           schema:
             $ref: "../model/consumerGroupList.yaml#/definitions/consumerGroup"
       responses:
@@ -62,9 +62,9 @@ paths:
           description: UNAUTHENTICATED
         '401':
           description: STREAMHUB_UNAUTHENTICATED
-###################Delete consumerGroupName##############################
+###################Delete ConsumerGroupName##############################
     delete:
-      description: Delete consumerGroupName
+      description: Delete ConsumerGroupName
       operationId: deleteConsumerGroup
       parameters:
         - name: topicId
@@ -77,7 +77,7 @@ paths:
           in: query
           type: integer
           format: int64
-          description: Consumer group ID
+          description: Consumer Group ID
           required: true
       responses:
         '200':

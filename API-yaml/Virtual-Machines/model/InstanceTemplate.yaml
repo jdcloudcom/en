@@ -23,4 +23,4 @@ definitions:
       createdTime:
         type: string
         format: date-time
-        description: Creation time
+        description: Creation Time

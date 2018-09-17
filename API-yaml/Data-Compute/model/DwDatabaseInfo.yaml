@@ -10,7 +10,7 @@ definitions:
         description: Owner
       comments:
         type: string
-        description: Description information
+        description: Description  Information
       databaseName:
         type: string
-        description: Database name
+        description: Database Name

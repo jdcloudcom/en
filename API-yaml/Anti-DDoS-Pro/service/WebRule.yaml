@@ -2,7 +2,7 @@ swagger: "2.0"
 info:
   version: "v1"
   title: Web Forwarding Configuration APIs
-  description: Web forwarding configuration APIs
+  description: Web Forwarding Configuration APIs
 
 basePath: /regions/{regionId}
 
@@ -178,6 +178,47 @@ paths:
         500:
           description: INTERNAL_SERVER_ERROR
 
+  /instances/{instanceId}/webRules/{webRuleId}:modifyCertInfo:
+    post:
+      description: "编辑证书"
+      operationId: modifyCertInfo
+      parameters:
+        - name: certInfoModifySpec
+          in: body
+          description: "编辑证书请求参数"
+          required: true
+          schema:
+            $ref: "../model/CertInfoModifySpec.yaml#/definitions/CertInfoModifySpec"
+      responses:
+        200:
+          description: OK
+          schema:
+            properties:
+              requestId:
+                type: string
+
+  /instances/{instanceId}/webRule:describeCertInfo:
+    post:
+      description: "查询证书预览信息"
+      operationId: describeCertInfo
+      parameters:
+        - name: certInfoDescribeSpec
+          in: body
+          description: "查询证书预览请求参数"
+          required: true
+          schema:
+            $ref: "../model/CertInfoDescribeSpec.yaml#/definitions/CertInfoDescribeSpec"
+      responses:
+        200:
+          description: OK
+          schema:
+            properties:
+              result:
+                properties:
+                  data:
+                    $ref: "../model/CertInfo.yaml#/definitions/CertInfo"
+              requestId:
+                type: string
 # General parameters of path
 parameters:
   regionId:
@@ -185,7 +226,7 @@ parameters:
     in: path
     required: true
     type: string
-    description: Belonging region ID
+    description: Belonging Region ID
   instanceId:
     name: instanceId
     in: path
@@ -197,4 +238,4 @@ parameters:
     in: path
     required: true
     type: string
-    description: Web service rule ID
+    description: Web Service Rule ID

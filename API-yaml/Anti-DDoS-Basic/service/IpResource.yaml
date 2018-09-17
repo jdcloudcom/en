@@ -1,8 +1,8 @@
 swagger: "2.0"
 info:
   version: "v1"
-  title: Basic Anti-DDoS APIs
-  description: Basic Anti-DDoS APIs
+  title: Anti-DDoS Basic APIs
+  description: Anti-DDoS Basic APIs
 
 basePath: /regions/{regionId}
 
@@ -16,7 +16,7 @@ paths:
           in: query
           type: string
           required: false
-          description: IP fuzzy matching
+          description: IP Fuzzy Matching
       responses:
         200:
           description: OK
@@ -57,7 +57,7 @@ paths:
       parameters:
         - name: cleanThresholdSpec
           in: body
-          description: cc parameter
+          description: cc Parameter
           required: true
           schema:
             $ref: "../model/CleanThresholdSpec.yaml#/definitions/cleanThresholdSpec"
@@ -85,7 +85,7 @@ paths:
           in: query
           type: integer
           required: false
-          description: Records of limited search
+          description: Records of Limited Search
       responses:
         200:
           description: OK
@@ -111,7 +111,7 @@ paths:
           in: query
           type: string
           required: false
-          description: "Search end time, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ"
+          description: Search end time, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ
       responses:
         200:
           description: OK
@@ -126,17 +126,17 @@ paths:
         404:
           description: NOT_FOUND
 
-# General parameters of path
+# General Parameters of Path
 parameters:
   regionId:
     name: regionId
     in: path
     required: true
     type: string
-    description: Belonging region ID
+    description: Belonging Region ID
   ip:
     name: ip
     in: path
     required: true
     type: string
-    description: EIP address
+    description: EIP Address

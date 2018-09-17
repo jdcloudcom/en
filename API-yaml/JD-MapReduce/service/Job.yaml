@@ -32,7 +32,7 @@ paths:
                        type: array
                        items:
                          type: string
-                       description: Returned job type list
+                       description: Returned Job Type List
                  requestId:
                    type: string
            500:
@@ -53,8 +53,8 @@ paths:
                  jmrJobViewModel:
                    $ref: "../model/JmrJobViewModel.yaml#/definitions/jmrJobViewModel"
                    description: |
-                             "Required fields: clusterId and az"
-                             "Optional fields: jobName, jobType and clusterName"
+                             "Required Fields: clusterId and az"
+                             "Optional Fields: jobName, jobType and clusterName"
                  selectParams:
                    $ref: "../model/SelectParams.yaml#/definitions/selectParams"
          responses:
@@ -105,7 +105,7 @@ paths:
                    description: It is considered as the job name verification basis
                  jobName:
                    type: string
-                   description: Job name to be verified
+                   description: Job Name to be Verified
          responses:
            200:
              description: OK
@@ -121,7 +121,7 @@ paths:
                    type: string
            500:
              description: "Internal server error"
-#################### Create a job ###########################
+#################### Create a Job ###########################
   "/job:create":
        post:
          description: "Create a job based on the parameter information transferred in"
@@ -148,7 +148,7 @@ paths:
                    type: string
            500:
              description: "Internal server error"
-#################### Modify the job information ###########################
+#################### Modify the Job Information ###########################
   "/job:modify":
        post:
          description: "Modify the corresponding job information based on the parameter information transferred in"
@@ -176,7 +176,7 @@ paths:
            500:
              description: "Internal server error"
 
-#################### Delete a job ###########################
+#################### Delete a Job ###########################
   "/job/{jobId}:delete":
        post:
          description: "Delete a job specified by jobId"
@@ -186,7 +186,7 @@ paths:
              in: path
              type: string
              required: true
-             description: Job Id to be deleted
+             description: Job Id to be Deleted
          responses:
            200:
              description: OK
@@ -203,10 +203,10 @@ paths:
            500:
              description: "Internal server error"
 
-#################### Create and execute a job ###########################
+#################### Create and Execute a Job ###########################
   "/job:createAndExecute":
        post:
-         description: "Create and execute a job under the cluster"
+         description: "Create and Execute a Job under the Cluster"
          operationId: createAndExcuteJob
          parameters:
            - name: jmrJobViewModel
@@ -230,7 +230,7 @@ paths:
                    type: string
            500:
              description: "Internal server error"
-#################### Execute a task ###########################
+#################### Execute a Task ###########################
   "/job:execute":
        post:
          description: "Execute a specified job"
@@ -270,7 +270,7 @@ paths:
            500:
              description: "Internal server error"
 
-#################### Check the job details ###########################
+#################### Check the Job Details ###########################
   "/{jobId}:detail":
        post:
          description: "View the job details corresponding to the specified jobId"
@@ -280,7 +280,7 @@ paths:
              in: path
              type: string
              required: true
-             description: Job Id to be viewed
+             description: Job Id to be Viewed
          responses:
            200:
              description: OK
@@ -309,11 +309,11 @@ paths:
              in: path
              type: string
              required: true
-             description: jobId to be searched
+             description: Job Id to be Searched
            - name: selectParams
              in: body
              required: false
-             description: Search conditions, optional
+             description: Search Conditions, optional
              schema:
                properties:
                  selectParams:
@@ -335,7 +335,7 @@ paths:
                          properties:
                            totalNum:
                              type: integer
-                             description: Query list size
+                             description: Query List Size
                            taskList:
                              type: array
                              items:
@@ -368,7 +368,7 @@ paths:
                    description: Cluster ID
                  filePath:
                    type: string
-                   description: Path of the file to be deleted
+                   description: Path of the File to be Deleted
          responses:
            200:
              description: OK
@@ -403,7 +403,7 @@ paths:
                        type: string
                      data:
                        type: integer
-                       description: Cluster job number
+                       description: Cluster Job Number
                  requestId:
                    type: string
            500:
@@ -437,7 +437,7 @@ paths:
                          properties:
                            totalNum:
                              type: integer
-                             description: Cluster job number
+                             description: Cluster Job Number
                            cronJobs:
                              type: array
                              items:
@@ -466,10 +466,10 @@ paths:
                properties:
                  jmrPlanViewModel:
                    $ref: "../model/JmrPlanViewModel.yaml#/definitions/jmrPlanViewModel"
-                   description: "Required fields: az, planName, planType and planStatus"
+                   description: "Required Fields: az, planName, planType and planStatus"
                  selectParams:
                    $ref: "../model/SelectParams.yaml#/definitions/selectParams"
-                   description: Optional parameters of search conditions
+                   description: Optional Parameters of Search Conditions
          responses:
            200:
              description: OK
@@ -487,7 +487,7 @@ paths:
                          properties:
                            totalNum:
                              type: integer
-                             description: Cluster job number
+                             description: Cluster Job Number
                            cronJobs:
                              type: array
                              items:
@@ -520,7 +520,7 @@ paths:
                    description: It is considered as the verification basis
                  planName:
                    type: string
-                   description: Verified plan name
+                   description: Verified Plan Name
          responses:
            200:
              description: OK
@@ -558,7 +558,7 @@ paths:
                properties:
                  jmrPlanViewModel:
                    $ref: "../model/JmrPlanViewModel.yaml#/definitions/jmrPlanViewModel"
-                   description: Scheduling configuration to be created or updated
+                   description: Scheduling Configuration to be Created or Updated
                  time:
                    type: string
                    description: Occupy time according to the time parameter in Cron format
@@ -605,7 +605,7 @@ paths:
              in: path
              type: string
              required: true
-             description: Execution plan Id
+             description: Execution Plan Id
            - name: body
              in: body
              required: false
@@ -630,7 +630,7 @@ paths:
                          properties:
                            totalNum:
                              type: integer
-                             description: Query list size
+                             description: Query List Size
                            jobList:
                              type: array
                              items:
@@ -643,7 +643,7 @@ paths:
            500:
              description: "Internal server error"
 
-#################### Modify the execution plan ###########################
+#################### Modify the Execution Plan ###########################
   "/cronJob:modify":
        post:
          description: "Modify the execution plan of deployment job"
@@ -703,7 +703,7 @@ paths:
            500:
              description: "Internal server error"
 
-#################### Suspend a regular task ###########################
+#################### Suspend a Regular Task ###########################
   "/cronJob/{planId}:pause":
        post:
          description: "Suspend a regular task of the job"
@@ -713,7 +713,7 @@ paths:
              in: path
              type: string
              required: true
-             description: Suspended task ID
+             description: Suspended Task ID
          responses:
            200:
              description: OK
@@ -730,7 +730,7 @@ paths:
            500:
              description: "Internal server error"
 
-#################### Recover a regular task ###########################
+#################### Recover a Regular task ###########################
   "/cronJob/{planId}:resume":
        post:
          description: "Recover a regular task of the job"
@@ -740,7 +740,7 @@ paths:
              in: path
              type: string
              required: true
-             description: Task ID to be recovered
+             description: Task ID to be Recovered
          responses:
            200:
              description: OK
@@ -767,7 +767,7 @@ paths:
              in: path
              type: string
              required: true
-             description: Task ID to be deleted
+             description: Task ID to be Deleted
          responses:
            200:
              description: OK
@@ -795,7 +795,7 @@ paths:
              type: number
              format: int64
              required: true
-             description: long type, task ID
+             description: Long Type, Task ID
            - name: body
              in: body
              required: false
@@ -849,7 +849,7 @@ paths:
                properties:
                  planId:
                    type: string
-                   description: Regular task ID
+                   description: Regular Task ID
                  selectParams:
                    $ref: "../model/SelectParams.yaml#/definitions/selectParams"
                    description: Search conditions, optional parameters
@@ -870,7 +870,7 @@ paths:
                          properties:
                            totalNum:
                              type: integer
-                             description: Query list size
+                             description: Query List Size
                            taskList:
                              type: array
                              items:
@@ -883,7 +883,7 @@ paths:
            500:
              description: "Internal server error"
 
-#################### Execute now ###########################
+#################### Execute Now ###########################
   "/cronJob/{planId}:runOnce":
        post:
          description: "Execute a regular task now"
@@ -910,7 +910,7 @@ paths:
            500:
              description: "Internal server error"
 
-#################### Obtain the last operation record of a job of a regular task ###########################
+#################### Obtain the Last Operation Record of a Job of a Regular Task ###########################
   "/lastCronJobTask/{jobId}":
        post:
          description: "Obtain the last operation record of a job of a regular task"
@@ -920,7 +920,7 @@ paths:
              in: query
              required: true
              type: string
-             description: Regular task ID, required
+             description: Regular Task ID, required
            - name: jobId
              in: path
              type: string
@@ -944,7 +944,7 @@ paths:
            500:
              description: "Internal server error"
 
-#################### Obtain the tasks in the plan (tasks already added to the quartz scheduler) ###########################
+#################### Obtain the Tasks in the Plan (tasks already added to the quartz scheduler) ###########################
   "/executingJob:list":
        get:
          description: "Obtain the tasks in the plan (tasks already added to the quartz scheduler)"
@@ -964,12 +964,12 @@ paths:
                        type: array
                        items:
                          $ref: "../model/JmrPlanViewModel.yaml#/definitions/jmrPlanViewModel"
-                       description: Execution plan list
+                       description: Execution Plan List
                  requestId:
                    type: string
            500:
              description: "Internal server error"
-# Path general parameter
+# Path General Parameter
 parameters:
  regionId:
    name: regionId

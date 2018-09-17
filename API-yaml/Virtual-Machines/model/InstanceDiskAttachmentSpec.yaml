@@ -6,9 +6,9 @@ definitions:
       diskCategory:
         type: string
         description: |
-          Disk classification, the local or cloud data disk is taken.
-          The system disk supports local disk or cloud disk. The system disk selects local Type, and the user must use the image localDisk type; If the system disk selects the cloud type, the user must use the image of the cloudDisk type.
-          The data disk supports cloud disk only.
+          Disk classification, the local or Cloud Disk Service is taken.
+          The system disk supports local disk or Cloud Disk Service. The system disk selects local Type, and the user must use the image localDisk type; If the system disk selects the cloud type, the user must use the image of the cloudDisk type.
+          The data disk supports Cloud Disk Service only.
       autoDelete:
         type: boolean
         description: |
@@ -20,7 +20,7 @@ definitions:
         description: Data disk configuration
       deviceName:
         type: string
-        description: "Data disk logical attach point, value range: vda, vdb, vdc, vdd, vde, vdb, vdg, vdh, vdi"
+        description: Data disk logical attach point, value range: vda, vdb, vdc, vdd, vde, vdb, vdg, vdh, vdi
       noDevice:
         type: boolean
         description: |

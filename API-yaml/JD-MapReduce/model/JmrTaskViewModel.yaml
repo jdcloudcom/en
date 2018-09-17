@@ -9,33 +9,33 @@ definitions:
         type: integer
       taskId:
         type: string
-        description: Job Id
+        description: Job ID
       taskName:
         type: string
-        description: Job name
+        description: Job Name
       taskType:
         type: string
-        description: Job type
+        description: Job Type
       status:
         type: string
         description: Status
       startTime:
         type: string
         format: date
-        description: Start time
+        description: Start Time
       endTime:
         type: string
         format: date
-        description: End time
+        description: End Time
       duration:
         type: string
-        description: Time of duration
+        description: Time of Duration
       userpin:
         type: string
-        description: User name
+        description: User Name
       dataCenter:
         type: string
-        description: Data center, i.e. regionId
+        description: Data Center, i.e. regionId
       jobId:
         type: string
       planId:
@@ -45,4 +45,4 @@ definitions:
         description: Workflow Id
       workflowInstanceId:
         type: string
-        description: Workflow instance Id
+        description: Workflow Instance ID

@@ -5,16 +5,16 @@ definitions:
     properties:
       remark:
         type: string
-        description: Company name
+        description: Company Name
       industry:
         type: string
-        description: Industry of main business
+        description: Industry of Main Business
       subIndustry:
         type: string
-        description: Sub-option of main business
+        description: Sub-option of Main Business
       business:
         type: string
-        description: Main business
+        description: Main Business
       website:
         type: string
         description: Website
@@ -29,10 +29,10 @@ definitions:
         description: City
       cpCountry:
         type: string
-        description: District and county
+        description: District and County
       cpAddress:
         type: string
-        description: Detailed address
+        description: Detailed Address
       cpTelphone:
         type: string
-        description: Contact mobile number
+        description: Contact Mobile Number

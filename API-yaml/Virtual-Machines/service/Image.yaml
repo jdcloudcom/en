@@ -62,7 +62,7 @@ paths:
     get:
       description: |
         Query the image information list. <br>
-        This interface allows you to query an public image of JD cloud,  a third-party image,  a private image,  or an image that other users share to you. <br>
+        This interface allows you to query an public image of JD Cloud,  a third-party image,  a private image,  or an image that other users share to you. <br>
         This API supports paging query with 20 items per page by default.
       operationId: describeImages
       parameters:
@@ -203,7 +203,7 @@ paths:
     ###################### Shared Image ######################
     post:
       description: |
-        Shared Image allows you to operate only your private image,  and a single image can be shared for up to 20 JD cloud accounts. <br>
+        Shared Image allows you to operate only your private image,  and a single image can be shared for up to 20 JD Cloud accounts. <br>
         The packaging image does not currently support sharing.
       operationId: shareImage
       parameters:
@@ -321,7 +321,7 @@ paths:
     post:
       description: |
         Image inter-domain replication,  copy private images to other regions,  allowing you to operate your private image only. <br>
-        Only images of the cloudDisk cloud of system disk are supported.
+        Only images of the Cloud Disk Service of system disk are supported.
       operationId: copyImages
       parameters:
         - name: sourceImageIds

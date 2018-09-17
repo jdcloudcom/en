@@ -6,7 +6,7 @@ info:
 
 basePath: /regions/{regionId}
 paths:
- ###################### Query metric data ######################
+ ###################### Query Metric Data ######################
   "/{clusterId}/history:list":
        post:
          description: "View the cluster history"
@@ -40,7 +40,7 @@ paths:
                          properties:
                            totalNum:
                              type: integer
-                             description: Number of audit log lists returned
+                             description: Number of Audit Log Lists Returned
                            auditLogList:
                              type: array
                              items:
@@ -52,7 +52,7 @@ paths:
                    type: string
            500:
              description: "Internal server error"
-# Path general parameter
+# Path General Parameter
 parameters:
  regionId:
    name: regionId

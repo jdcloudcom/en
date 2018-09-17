@@ -10,4 +10,4 @@ definitions:
         description: Quota
       used:
         type: integer
-        description: Used number
+        description: Used Number

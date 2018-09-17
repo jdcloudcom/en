@@ -7,48 +7,48 @@ definitions:
     properties:
       archived: 
         type: integer
-        description: "Whether to archive or not (0: not archived, 1: archived)"
+        description: "Whether to Archive or Not (0: not archived, 1: archived)"
       createdTime:
         type: string
         format: date
-        description: "Time stamp of creating topic" 
+        description: "Time Stamp of Creating Topic" 
       deleted:
         type: integer
-        description: "Whether the topic has been deleted (0: not deleted, 1: deleted)"
+        description: "Whether the Topic has been Deleted (0: not deleted, 1: deleted)"
       id:
         type: integer
-        description: "id value of topic"
+        description: "ID Value of Topic"
       lifecycle:
         type: integer
-        description: "Reserve time after writing data"
+        description: "Reserve Time After Writing Data"
       name:
         type: string
-        description: "topic name in the streaming data bus"
+        description: "Topic Name in the Stream Hub"
       partitionNum:
         type: string
-        description: "partition number in the corresponding kafka"
+        description: "Partition Number in the Corresponding Kafka"
       remark:
         type: string
         description: "Note"
       shardNum:
         type: string
-        description: "shard number in the streaming data bus"
+        description: "Shard Number in the Stream Hub"
       status:
         type: integer
         description: "0: created, 1: pending"
       topicName:
         type: string
-        description: "topic name in the corresponding kafka"
+        description: "Topic Name in the Corresponding Kafka"
       uid:
         type: string
-        description: "uid in the corresponding kafka"
+        description: "UID in the Corresponding Kafka"
       updatedTime:
         type: string
         format: date
-        description: "Time stamp of updating topic" 
+        description: "Time Stamp of Updating Topic" 
       userPin:
         type: string
-        description: "userPin of the user"
+        description: "UserPin of the User"
       dataSize:
         type: string
       

@@ -5,7 +5,7 @@ definitions:
     properties:
       elasticIpId:
         type: string
-        description: Assign disassociated elastic Ip Id
+        description: Assign Disassociated Elastic IP ID
       elasticIpAddress:
         type: string
-        description: Assign disassociated elastic Ip address
+        description: Assign Disassociated Elastic IP Address

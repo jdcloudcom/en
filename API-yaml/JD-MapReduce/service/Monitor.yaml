@@ -6,10 +6,10 @@ info:
 
 basePath: /regions/{regionId}
 paths:
- ###################### Query metric data ######################
+ ###################### Query Metric Data ######################
   "/metricData/{clusterId}:query":
        post:
-         description: "Search metric data"
+         description: "Search Metric Data"
          operationId: queryMetricData
          x-jdcloud-internal: true
          parameters:
@@ -42,7 +42,7 @@ paths:
                    type: string
            500:
              description: "Internal server error"
- ###################### Query metric data ######################
+ ###################### Query Metric Data ######################
   "/{clusterId}/nodeInfo:list":
        post:
          description: "Search the detailed information of nodes under the cluster"
@@ -73,7 +73,7 @@ paths:
                    type: string
            500:
              description: "Internal server error"
-# Path general parameter
+# Path General Parameter
 parameters:
  regionId:
    name: regionId

@@ -1,6 +1,6 @@
-swagger: "2.0"                                  # Implemented based on Swagger version 2.0
+Swagger: "2.0"                                  # Implemented based on Swagger Version 2.0
 info:
-  version: "v1"                                 # OpenApi version number
+  version: "v1"                                 # OpenApi Version Number
   title: OSS APIs
   description: OSS APIs
 
@@ -13,6 +13,7 @@ paths:
       - developers
       summary: create imgProtected
       operationId: putImgProtected
+      x-jdcloud-internal: true
       description: |
         Create original image protection
       produces:
@@ -22,13 +23,13 @@ paths:
         name: bucketname
         required: true
         type: string
-        description: "Bucket Name, e.g.: test"
+        description: Bucket Name, e.g.: test
       - in: query
         name: condition
         description: Include xml of image suffix to be protected
         required: true
         type: string
-        description: Original image protection configuration
+        description: Original Image Protection Configuration
       responses:
         200:
           description: OK
@@ -49,6 +50,7 @@ paths:
       - developers
       summary: get imgProtected Condition
       operationId: getimgProtectedCondition
+      x-jdcloud-internal: true
       description: |
         Obtain original image protection configuration of current bucket
       produces:
@@ -58,7 +60,7 @@ paths:
         name: bucketname
         required: true
         type: string
-        description: "Bucket Name, e.g.: test"
+        description: Bucket Name, e.g.: test
       responses:
         200:
           description: OK
@@ -84,8 +86,9 @@ paths:
       - developers
       summary: delete imgProtected
       operationId: deleteImgProtected
+      x-jdcloud-internal: true
       description: |
-        Disable original image protection
+        Disable Original Image Protection
       produces:
       - application/json
       parameters:
@@ -93,7 +96,7 @@ paths:
         name: bucketname
         required: true
         type: string
-        description: "Bucket Name, e.g.: test"
+        description: Bucket Name, e.g.: test
       responses:
         200:
           description: OK
@@ -109,12 +112,12 @@ paths:
           description: The specified bucket does not exist.
 #          schema:
 #            $ref: '../model/oss.yaml#/definitions/ErrorResponse'
-# Path general parameter
+# Path General Parameter
 parameters:
   regionId:
     name: regionId
     in: path
     required: true
     type: string
-    description: "Region ID, e.g.: cn-north-1"
+    description: Region ID, e.g.: cn-north-1
 

@@ -25,13 +25,13 @@ definitions:
         description: Instance Type Code
       instanceStorageGB:
         type: integer
-        description: Disk, in GB
+        description: Disk, Unit: GB
       instanceCPU:
         type: integer
         description: Number of CPU Cores
       instanceMemoryMB:
         type: integer
-        description: Memory Size in MB
+        description: Memory Size, Unit: MB
       regionId:
         type: string
         description: Region ID, detailed in [Regions and Availability Zone Comparison Table](../Enum-Definitions/Regions-AZ.md)
@@ -58,7 +58,7 @@ definitions:
         description: Application Access Port
       connectionMode:
         type: string
-        description: Access mode, detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)
+        description: Access  Mode, detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)
       auditStatus:
         type: string
         description: Audit status, detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)

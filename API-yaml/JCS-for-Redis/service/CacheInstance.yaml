@@ -1,20 +1,20 @@
 swagger: "2.0"
 info:
   version: "v1"
-  title: Redis Instance APIs
-  description: Redis Instance Related Interface
+  title: JCS for Redis Instance APIs
+  description: JCS for Redis Instance Related APIs
 
 basePath: /regions/{regionId}
 
 paths:
   "/cacheInstance":
-    ###################### Create redis Interface ######################
+    ###################### Create JCS for Redis APIs ######################
     post:
       description: |
-        Create Redis Instance of the Specified Configuration
-        Specification Performance: The specifications for creating the Redis instance are divided into two versions: principal-subordinate version and cluster version. Each specification has the maximum number of connections, the limit of internal network bandwidth, CPU processing capacity, specification code and other information, please see: <a href="https://www.jdcloud.com/help/detail/411/ isCatalog/1">instance type code</a>
+        Create JCS for Redis Instance of the Specified Configuration
+        Specification Performance: The specifications for creating the JCS for Redis instance are divided into two versions: principal-subordinate version and cluster version. Each specification has the maximum number of connections, the internal network bandwidth cap, CPU processing capacity, specification code and other information, please see: <a href="https://www.jdcloud.com/help/detail/411/ isCatalog/1">instance type code</a>
         Availability Zone: Available zone is a physical zone in which the infrastructure such as power and network are independent of each other in the same region. A zone contains one or more availability zones, and multiple availability zones in the same region can be connected to each other. Detailed information on the geographical availability zone can be found: <a href="https://www.jdcloud.com/help/detail/2222/isCatalog/1">Regional availability zone details</a>
-        Virtual Private Cloud: referred to as VPC,which means the isolation network space with customized logic and supports for customized network segment, rout policy, etc. Specific information can be found: <a href="https://www.jdcloud.com/help/detail/1509/isCatalog/1">Virtual private cloud</a>
+        Virtual Private Cloud: referred to as VPC, which means the isolation network space with customized logic and supports for customized network segment, rout policy, etc. Specific information can be found: <a href="https://www.jdcloud.com/help/detail/1509/isCatalog/1">Virtual Private Cloud</a>
         Subnet: The subnet is the IP address block in the range of the VPC IP address, which is subnet for short. The subnet is created under the VPC. The segment in the same VPC cannot overlap and the segments of different VPCs can overlap. Specific information can be found: <a href="https://www.jdcloud.com/help/detail/1510/isCatalog/1">subnet details</a>
       operationId: createCacheInstance
       parameters:
@@ -23,7 +23,7 @@ paths:
           required: true
           schema:
             $ref: "../model/CacheInstanceSpec.yaml#/definitions/cacheInstanceSpec"
-          description: Creates a specific attribute of the cache instance, including the virtual private cloud ID (vpcId), subnet ID (subnetId), cache instance name, cache instance type, cache instance password, the description of ID information of the availability zone where the cache instance is located and cache instance.
+          description: Creates a specific attribute of the cache instance, including the Virtual Private Cloud ID (vpcId), subnet ID (subnetId), cache instance name, cache instance type, cache instance password, the description of ID information of the availability zone where the cache instance is located and cache instance.
         - name: charge
           in: body
           schema:
@@ -46,9 +46,9 @@ paths:
                 type: string
                 description: ID of This Query Request.
 
-    ###################### redis List Interface ######################
+    ###################### JCS for Redis List APIs ######################
     get:
-      description: "The query of Redis instance list and its instance information can be the the paging query, query the specified page number, specify the size of page and the filter conditions"
+      description: "The query of JCS for Redis instance list and its instance information can be the the paging query, query the specified page number, specify the size of page and the filter conditions"
       operationId: describeCacheInstances
       parameters:
         - name: pageNumber
@@ -74,7 +74,7 @@ paths:
           items:
             $ref: "../../common/model/Sort.yaml#/definitions/sort"
           description: |
-            createTime - Create Time (asc: positive order, desc: inverted order)
+            createTime - Create Time (asc: Positive Order, desc: Inverted Order)
       responses:
         200:
           description: OK
@@ -96,9 +96,9 @@ paths:
                 description: ID of This Query Request
 
   "/cacheInstance/{cacheInstanceId}":
-    ###################### redis Details Interface ######################
+    ###################### JCS for Redis Details APIs ######################
     get:
-      description: "The details of querying a single Redis instance"
+      description: "Query details of a single JCS for Redis instance"
       operationId: describeCacheInstance
       responses:
         200:
@@ -110,7 +110,7 @@ paths:
                 description: The information result of querying the cache instance list
                 properties:
                   cacheInstance:
-                    description: The information to query the object cache instance
+                    description: The information of the object cache instance to query
                     $ref: "../model/CacheInstance.yaml#/definitions/cacheInstance"
               requestId:
                 type: string
@@ -118,19 +118,19 @@ paths:
         404:
           description: NOT_FOUND
 
-    ###################### Modify the Resource Name and Description of redis#################### #
+    ###################### Modify the Resource Name and Description of JCS for Redis#################### #
     patch:
-      description: "Modify the resource name and description of the Redis instance, at least one of the two"
+      description: "Modify the resource name and description of the JCS for Redis instance, at least one of the two"
       operationId: modifyCacheInstanceAttribute
       parameters:
         - name: cacheInstanceName
           in: query
           type: string
-          description: "The name of cache Redis instance resource only supports numbers, letters, underlines, Chinese, no less than 2 characters and no more than 32 characters"
+          description: "The name of JCS for Redis instance resource only supports numbers, letters, underlines, Chinese, no less than 2 characters and no more than 32 characters"
         - name: cacheInstanceDescription
           in: query
           type: string
-          description: "The description of the Redis instance resource can not be more than 256 characters"
+          description: "The description of the JCS for Redis instance resource cannot be more than 256 characters"
       responses:
         200:
           description: OK
@@ -140,12 +140,12 @@ paths:
                 type: string
                 description: ID of This Modification Request
     
-    ###################### Delete redis Interface######################
+    ###################### Delete JCS for Redis APIs######################
     delete:
       description: |
-        Delete a single Redis instance that is paid by configuration billing or the monthly package has expired and the monthly package that has not expired cannot be deleted
-        Only in the status of runningrunningor errorerrorstatus can be deleted, but other status cannot be deleted
-        The user in white list cannot delete the virtual machine that the monthly package has expired
+        Delete a single JCS for Redis instance that is paid by configuration billing or the monthly package has expired and the monthly package that has not expired cannot be deleted
+        Only in the running<b>running</b>or error<b>error</b>status can be deleted, but other status cannot be deleted
+        The user in the White List cannot delete the virtual machine that the monthly package has expired
       operationId: deleteCacheInstance
       responses:
         200:
@@ -157,18 +157,18 @@ paths:
                 description: ID of This Delete Request
 
   "/cacheInstance/{cacheInstanceId}:modifyCacheInstanceClass":
-    ###################### Change redis Configuration ######################
+    ###################### Change JCS for Redis Configuration ######################
     post:
       description: |
-        Changing the configuration of the Redis instance can only change the instance configuration in the running status and the specification of the changed configuration cannot be the same as the previous one
-        Pay-in-advance users, from the cluster version to the principal/subordinate version, the  memory size of the new specification is larger than the old size of the memory size, from the principal/subordinate version to the cluster version, the memory size of the new specification is no less than the memory size of the old specification
+        Changing the configuration of the JCS for Redis instance can only change the instance configuration in the running status and the specification of the changed configuration cannot be the same as the previous one
+        Pay-in-advance users, from the cluster version to the principal/subordinate version, the memory size of the new specification is larger than the old size of the memory size, from the principal/subordinate version to the cluster version, the memory size of the new specification is no less than the memory size of the old specification
       operationId: modifyCacheInstanceClass
       parameters:
         - name: cacheInstanceClass
           in: query
           required: true
           type: string
-          description: 'The modified Redis type after the change, see: <a href="https://www.jdcloud.com/help/detail/411/isCatalog/1">instance type code</a>'
+          description: 'The modified JCS for Redis type after the change, see: <a href="https://www.jdcloud.com/help/detail/411/isCatalog/1">instance type code</a>
       responses:
         200:
           description: OK
@@ -185,9 +185,9 @@ paths:
                 description: ID of This Change Request
 
   "/cacheInstance/{cacheInstanceId}:resetCacheInstancePassword":
-    ###################### Reset redis Password ######################
+    ###################### Reset JCS for Redis Password ######################
     post:
-      description: "Reset the password of the Redis instance to support the password-free operation"
+      description: "Reset the password of the JCS for Redis instance to support the password-free operation"
       operationId: resetCacheInstancePassword
       parameters:
         - name: password
@@ -204,9 +204,9 @@ paths:
                 description: ID of This Reset Request
 
   "/cacheInstance/{cacheInstanceId}/instanceConfig":
-    ###################### Modify redis Parameter Configuration ######################
+    ###################### Modify JCS for Redis Parameter Configuration ######################
     post:
-      description: "Modify the parameter configuration of the redis instance to support the modification of some parameter"
+      description: "Modify the parameter configuration of the JCS for Redis instance to support the modification of some parameter"
       operationId: "modifyInstanceConfig"
       x-jdcloud-internal: true
       parameters:
@@ -227,9 +227,9 @@ paths:
                 type: string
                 description: ID of This Modification Request
 
-    ###################### View redis Parameter Configuration ######################
+    ###################### View JCS for Redis Parameter Configuration ######################
     get:
-      description: "View the current configuration parameters of the Redis instance"
+      description: "View the current configuration parameters of the JCS for Redis instance"
       operationId: "describeInstanceConfig"
       x-jdcloud-internal: true
       responses:
@@ -251,9 +251,9 @@ paths:
           description: NOT_FOUND
 
   "/cacheInstance/{cacheInstanceId}/backup":
-    ###################### Creat redis Backup ######################
+    ###################### Creat JCS for Redis Backup ######################
     post:
-      description: "Create a redis instance backup and the backup type is manual backup, which can set the backup file name"
+      description: "Create a JCS for Redis instance backup and the backup type is manual backup, which can set the backup file name"
       operationId: "createBackup"
       x-jdcloud-internal: true
       parameters:
@@ -281,9 +281,9 @@ paths:
                 type: string
                 description: ID of This Create Request
 
-    ###################### Query redis Backup List ######################
+    ###################### Query JCS for Redis Backup List ######################
     get:
-      description: "Querying redis backup list supports paging query and querying a backup information"
+      description: "Querying JCS for Redis backup list supports paging query and querying a backup information"
       operationId: "describeBackups"
       x-jdcloud-internal: true
       parameters:
@@ -311,7 +311,7 @@ paths:
                 properties:
                   backups:
                     type: array
-                    description: The Set of Interface of Backup
+                    description: Set of Backup APIs
                     items:
                       $ref: "../model/Backup.yaml#/definitions/backup"
                   totalCount:
@@ -324,9 +324,9 @@ paths:
           description: NOT_FOUND
 
   "/cacheInstance/{cacheInstanceId}/backupPolicy":
-    ###################### Query redis Backup Policy ######################  
+    ###################### Query JCS for Redis Backup Policy ######################  
     get:
-      description: "Query redis Backup Policy"
+      description: "Query JCS for Redis Backup Policy"
       operationId: "describeBackupPolicy"
       x-jdcloud-internal: true
       responses:
@@ -336,7 +336,7 @@ paths:
             properties:
               backupPeriod:
                 type: string
-                description: "Backup period contains: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday and Sunday"
+                description: "Backup period contains Monday, Tuesday, Wednesday, Thursday, Friday, Saturday and Sunday"
               backupTime:
                 type: string
                 description: "Backup time, format: HH:mmZ-HH:mmZ"
@@ -350,9 +350,9 @@ paths:
         404:
           description: NOT_FOUND
 
-    ###################### Modify redis backup policy ######################
+    ###################### Modify JCS for Redis Backup Policy ######################
     patch:
-      description: "Modify the automatic backup policy of Redis to modify the backup period and backup time period"
+      description: "Modify the automatic backup policy of JCS for Redis to modify the backup period and backup time period"
       operationId: "modifyBackupPolicy"
       x-jdcloud-internal: true
       parameters:
@@ -366,7 +366,7 @@ paths:
           required: true
           type: string
           description: |
-            Backup Period: includes:
+            Backup Period: Including
             Monday，Tuesday，Wednesday，Thursday，Friday，Saturday，Sunday
       responses:
         200:
@@ -378,9 +378,9 @@ paths:
                 description: ID of This Query Request
 
   "/cacheInstance/{cacheInstanceId}/restore":
-    ###################### Backup and Restore redis Instance ######################
+    ###################### Backup and Restore JCS for Redis Instance ######################
     post:
-      description: "Backup and restore the redis instance is to restore the redis instance based on one backup operation"
+      description: "Backup and restore the JCS for Redis instance is to restore the JCS for Redis instance based on one backup operation"
       operationId: "restoreInstance"
       x-jdcloud-internal: true
       parameters:
@@ -388,7 +388,7 @@ paths:
           in: query
           required: true
           type: string
-          description: "Backup operation ID is to restore redis instance according to this backup operation"
+          description: "Backup operation ID is to restore JCS for Redis instance according to this backup operation"
       responses:
         200:
           description: OK
@@ -396,7 +396,7 @@ paths:
             properties:
               requestId:
                 type: string 
-                description: ID of This Rquest
+                description: ID of This Request
 
 
 # General Parameters for Path
@@ -406,10 +406,10 @@ parameters:
     in: path
     required: true
     type: string
-    description: The Region ID of the region where the Redis instance is located. At present, the Redis has North China, South China, and East China regions, and the corresponding Region IDs are cn-north-1, cn-south-1, and cn-east-2
+    description: The Region ID of the region where the JCS for Redis instance is located. At present, the JCS for Redis has North China, South China, and East China regions, and the corresponding Region IDs are cn-north-1, cn-south-1, and cn-east-2
   cacheInstance:
     name: cacheInstanceId
     in: path
     required: true
     type: string
-    description: The ID of the Redis instance is the unique identifier to access to instance.
+    description: The ID of the JCS for Redis instance is the unique identifier to access to instance.

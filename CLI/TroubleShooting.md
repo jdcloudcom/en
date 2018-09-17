@@ -1,25 +1,25 @@
 
-# Frequently Questions
+# FAQ
 
-## 1. How to get AccessKey and SecretKey?
+## 1. How to Get AccessKey and SecretKey?
 
 Refer to JD Cloud OpenAPI Help page for pre-condition sections: https://www.jdcloud.com/help/detail/355/isCatalog/0
 
 
 
-## 2. How do I select RegionId?
+## 2. How Do I Select RegionId?
 
 Refer to the JD Cloud OpenAPI Help page for the local coding section:https://www.jdcloud.com/help/detail/355/isCatalog/0
 
 
 
-## 3. Does the CLI command line open source?
+## 3. Does the CLI Command Line Open Source?
 
 JD Cloud CLI is open-source and can be downloaded from GitHub. Address: https://github.com/jdcloud-api/jdcloud-cli
 
 
 
-## 4.    What happens when you return an error?
+## 4. What Happens When You Return An Error?
 
 Print details using the overview option debug and feed back to the destination of the GitHub library of the JD Cloud CLI, or open a ticket in JD Cloud.
 
@@ -28,13 +28,13 @@ Example:
 	jdc --debug command sub-command
    
 
-## 5.    Is the CLI paid?
+## 5. Is the CLI Paid?
 
 No charge for now.
 
 
 
-## 6.    How to do feed back and help when you encounter problems?
+## 6. How to Feedback and Ask for Help When You Encounter Problems?
 
 Open a ticket in JD Cloud Console
 
@@ -46,7 +46,7 @@ Submit Issue at GitHub, Address: https://github.com/jdcloud-api/jdcloud-cli/issu
 
 ## 7.    How to Install JD Cloud Python SDK?
 
-pip Installation
+Pip Installation
 
 
 	pip install jdcloud_sdk

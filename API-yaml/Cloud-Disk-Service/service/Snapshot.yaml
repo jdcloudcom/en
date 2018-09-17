@@ -14,15 +14,15 @@ paths:
    ###################### API for Cloud Disk Snapshot List Query ######################
     get:
       operationId: describeSnapshots
-      summary: "Query cloud disk snapshot list"
-      description: "Query the list of cloud disk snapshots. Filters, between multiple filter conditions is logic AND, and multiple values ​​inside each condition is logic OR"
+      summary: "Query Cloud Disk Snapshot List"
+      description: "Query the List of Cloud Disk Snapshots. Filters, between multiple filter conditions is logic AND, and multiple values ​​inside each condition is logic OR"
       parameters:
         - name: pageNumber
           in: query
           type: integer
           default: 1
           minimum: 1
-          description: "Page number, defaults is 1; value range: [1, ∞)"
+          description: "Page Number, Defaults is 1; Value Range: [1, ∞)"
  
         - name: pageSize
           in: query
@@ -30,7 +30,7 @@ paths:
           default: 20
           minimum: 10
           maximum: 100
-          description: "Page size, default is 20; value range: [10,100]"
+          description: "Page Size, Default is 20; Value Range: [10,100]"
 
         - name: filters
           in: query
@@ -38,9 +38,9 @@ paths:
           items:
             $ref: "../../common/model/Filter.yaml#/definitions/filter"
           description: |
-            snapshotId - cloud disk snapshot ID, support multiple
-            diskId - the cloud disk service ID of the snapshot to be generated, support multiple
-            Status - snapshot status, accurate match, support multiple, creating, available, in-use, deleting, error_create or error_delete
+            snapshotId - Cloud Disk Snapshot ID, Support Multiple
+            diskId - the Cloud Disk ID of the Snapshot to be Generated, Support Multiple
+            status - snapshot status, accurate match, support multiple, creating, available, in-use, deleting, error_create or error_delete
             name - snapshot name, fuzzy match, support single
       responses:
         200:
@@ -54,12 +54,12 @@ paths:
                 properties:
                   snapshots:
                     type: array
-                    description: "List of snapshot information details queried"
+                    description: "List of Snapshot Details Queried"
                     items:
                       $ref: "../model/Snapshot.yaml#/definitions/snapshot"
                   totalCount:
                     type: integer
-                    description: "Number of snapshots queried"
+                    description: "Number of Snapshots Queried"
               requestId:
                 type: string
                 description: "Request ID"
@@ -74,14 +74,14 @@ paths:
 
    ###################### API for Cloud Disk Snapshot Creation ######################
     post:
-      summary: "Create a cloud disk snapshot"
+      summary: "Create a Cloud Disk Snapshot"
       description: |
-        -   Create a snapshot for the specified cloud disk service, and the status of the newly generated snapshot is creating.
+        -   Create a snapshot for the specified Cloud Disk, and the status of the newly generated snapshot is creating.
         -   The quota for single-user snapshots in the same region is 15.
-        -   To ensure data integrity, please stop writing to the cloud disk before creating a snapshot to ensure the integrity of snapshot data.
-        -   Before creating a snapshot, we suggest you uninstall the cloud disk service and reattach the disk to the virtual machine after the snapshot is created.
-        -   The life cycle of manual snapshots is independent from the cloud disk service. Please delete unnecessary snapshots in time.
-        -   The time demanded to create a snapshot depends on the capacity of the cloud disk service. The larger the capacity is, the longer it will take.
+        -   To ensure data integrity, please stop writing to the Cloud Disk before creating a snapshot to ensure the integrity of snapshot data.
+        -   Before creating a snapshot, we suggest you uninstall the Cloud Disk and reattach the disk to the virtual machine after the snapshot is created.
+        -   The life cycle of manual snapshots is independent from the Cloud Disk. Please delete unnecessary snapshots in time.
+        -   The time demanded to create a snapshot depends on the capacity of the Cloud Disk. The larger the capacity is, the longer it will take.
       operationId: createSnapshot
       parameters:
         - name: SnapshotSpec
@@ -94,7 +94,7 @@ paths:
           in: query
           required: true
           type: string
-          description: " Idempotence check parameter"
+          description: " Idempotence Check Parameter"
       responses:
         200:
           description: OK
@@ -125,8 +125,8 @@ paths:
    ###################### API for Querying Details of Cloud Disk Snapshot ######################
   "/snapshots/{snapshotId}":
       get:
-        summary: "Cloud disk snapshot information details"
-        description: "Query cloud disk snapshot information details"
+        summary: "Cloud Disk Snapshot Details"
+        description: "Query Cloud Disk Snapshot Details"
         operationId: describeSnapshot
         responses:
           200:
@@ -134,7 +134,7 @@ paths:
             schema:
               properties:
                 result:
-                  description: "Cloud disk snapshot information details queried"
+                  description: "Cloud Disk Snapshot Details Queried"
                   type: object
                   properties:
                     snapshot:
@@ -155,10 +155,10 @@ paths:
 
    ###################### API for Cloud Disk Snapshot Deletion ######################
       delete:
-        summary: "Delete a cloud disk snapshot"
+        summary: "Delete a Cloud Disk snapshot"
         description: |
-          -   Delete a single cloud disk snapshot: The snapshot status must be available or error status.
-          -   The snapshot is independent from life cycle of the cloud disk service. Deleting a snapshot does not have any effect on the cloud disk that created the snapshot.
+          -   Delete a single Cloud Disk snapshot: The snapshot status must be available or error status.
+          -   The snapshot is independent from life cycle of the Cloud Disk. Deleting a snapshot does not have any effect on the Cloud Disk that created the snapshot.
           -   After the snapshot is deleted, it cannot be recovered. Please be cautious.
         operationId: deleteSnapshot
         responses:
@@ -177,8 +177,8 @@ paths:
 
    ###################### API for Snapshot Properties Modification ######################
       patch:
-        summary: "Modify snapshot properties"
-        description: "Modify the name or description of the snapshot"
+        summary: "Modify Snapshot Properties"
+        description: "Modify the Name or Description of the Snapshot"
         operationId: modifySnpAttribute
         parameters:
           - name: name
@@ -188,7 +188,7 @@ paths:
           - name: description
             in: query
             type: string
-            description: "Snapshot description. Name or description must be specified"
+            description: "Snapshot Description. Name or description must be specified"
         responses:
           200:
             description: OK

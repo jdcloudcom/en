@@ -2,7 +2,7 @@ swagger: "2.0"
 info:
   version: "v1"
   title: Native Container
-  description: Native container APIs
+  description: Native Container APIs
 
 basePath: /regions/{regionId}
 
@@ -18,9 +18,9 @@ paths:
             - Images named as nginx:tag or mysql/mysql-server:tag are the public images of docker hub
             - Images named as container-registry/image:tag are the images of private registry
             - The private registry must be compatible to the docker registry verification mechanism and save confidential information via secret.
-        - hostname specification
+        - Hostname Specification
             - Two modes are supported: Write through a tab mode or write through a complete machine name mode.
-            - Tag specification
+            - Tag Specification
                 - 0-9, a-z (both upper case and lower case are acceptable) and - (minus), others are deemed as invalid character string
                 - Neither start with a minus nor end with a minus.
                 - At least 1 character and at most 63 characters
@@ -28,38 +28,38 @@ paths:
                 - Tags are connected with “.” (dots)
                 - Neither start with a “.” (dot) or end with a “.” (dot).
                 - Complete machine name (including tags and dots “.”) with at most 63 ASCII characters
-        - Network configuration
+        - Network Configuration
             - Specify primary network interface configuration information
                 - Be sure to specify one subnet
                 - A security group must be specified when creating a virtual machine and at most 5 security groups can be specified.
                 - The elastic IP can be restricted by specifying elasticIp specification, with the bandwidth value range of [1-200]Mbps and the stepping of 1Mbps.
                 - The primaryIpAddress of network interface can be specified; such IP shall be within the subnet IP range and shall not be occupied; and maxCount can only be 1 when specifying subnet IP.
-                - The securityGroup and the Subnet shall be in the same virtual private cloud (VPC).
+                - The securityGroup and the Subnet shall be in the same Virtual Private Cloud (VPC).
                 - Set deviceIndex of primary network interface to be 1
         - Storage
             - The volume can be divided into a root volume and a data volume; the root volume is mounted with the catalog /; and the data volume is mounted with any specified catalog.
-            - The bottom storage medium of the volume only supports the cloud type, i.e. the cloud disk service.
+            - The bottom storage medium of the volume only supports the cloud type, i.e. the Cloud Disk Service.
             - System Disk
-                - The available cloud disk service types include ssd and premium-hdd.
-                - Disk size
-                    - ssd: range [10, 100]GB, step size: 10G
-                    - premium-hdd: range [20, 1000]GB, step size: 10G
-                - Automatic deletion
+                - The available Cloud Disk Service types include ssd and premium-hdd.
+                - Disk Size
+                    - SSD: Range [10, 100]GB, Step Size: 10G
+                    - Premium-hdd: Range [20, 1000]GB, Step Size: 10G
+                - Automatic Deletion
                     - The cloud disk will be automatically deleted with the container by default. For the data disk or the shared type data disk with the monthly package, the parameter is invalid.
-                - The existing cloud disk service can be selected.
+                - The existing Cloud Disk Service can be selected.
             - Data Disk
-                - The available cloud disk service types include ssd and premium-hdd.
-                - Disk size
-                    - ssd: range [20, 1000]GB, step size: 10G
-                    - premium-hdd: range [20, 3000]GB, step size: 10G
-                - Automatic deletion
-                    - Automatic deletion by default
-                - The existing cloud disk service can be selected.
+                - The available Cloud Disk Service types include ssd and premium-hdd.
+                - Disk Size
+                    - SSD: Range [20, 1000]GB, Step Size: 10G
+                    - Premium-hdd: Range [20, 3000]GB, Step Size: 10G
+                - Automatic Deletion
+                    - Automatic Deletion by Default
+                - The existing Cloud Disk Service can be selected.
                 - A single container can be mounted with 7 data volumes at most.
         - Billing
           - Elastic IP billing mode: If the separate setting of Pay By Consumption is selected, other billing modes shall be subject to the machine.
-          - The billing mode of cloud disk service is subject to the machine.
-        - Container log
+          - The billing mode of Cloud Disk Service is subject to the machine.
+        - Container Log
             - A 10MB storage space will be distributed to the local by default and is automatically rotated.
         - Others
             - After being created, the container is in running status.
@@ -101,10 +101,10 @@ paths:
         503:
           description: "Service unavailable"
 
-    ###################### Container list interface ######################
+    ###################### Container List Interface ######################
     get:
       description: |
-        Search native container details in batches <br>
+        Search Native Container details in batches <br>
         This interface supports query in pages, with 20 entries per page by default.
       operationId: describeContainers
       parameters:
@@ -125,7 +125,7 @@ paths:
             containerId - Instance ID, exact match, support many IDs
             privateIpAddress - Primary network interface IP address, fuzzy matching and supporting many IP addresses
             az - Availability zone, exact matching, supporting many availability zones
-            vpcId - Virtual private cloud ID, exact match, support many IDs
+            vpcId - Virtual Private Cloud ID, exact match, support many IDs
             status - Container status, exact match, support many statuses
             name - Instance name, fuzzy matching and supporting many names
             subnetId - Instance ID, fuzzy matching and supporting many IDs
@@ -156,10 +156,10 @@ paths:
           description: "Service unavailable"
 
   "/containers/{containerId}":
-    ###################### Container detail interface ######################
+    ###################### Container Detail Interface ######################
     get:
       description: |
-        Search details of one native container
+        Search details of one Native Container
       operationId: describeContainer
       responses:
         200:
@@ -182,12 +182,12 @@ paths:
         503:
           description: "Service unavailable"
     
-    ###################### Delete container interface ######################
+    ###################### Delete Container Interface ######################
     delete:
       description: |
         The container must have the status of stopped, running or error. <br>
         The instance paid by volume will keep running until it is deleted. The instance not used anymore can be passively stopped through this interface. <br>
-        Only the instance with the type of billing by volume can be passively deleted. The container with monthly package expired can also be deleted. Please report to the ticket system for other situations. The container with billing status exception can’t be deleted.
+        Only the instance with the billing type by volume can be passively deleted. The container with monthly package expired can also be deleted. Please report to the ticket system for other situations. The container with billing status exception can’t be deleted.
       operationId: deleteContainer
       responses:
         200:
@@ -209,7 +209,7 @@ paths:
           description: "Service unavailable"
 
   "/containers/{containerId}:startContainer":
-    ###################### Start container interface ######################
+    ###################### Start Container Interface ######################
     post:
       description: |
         Start a single container in the off status and the container involved a job can’t be started. <br>
@@ -235,7 +235,7 @@ paths:
           description: "Service unavailable"
 
   "/containers/{containerId}:stopContainer":
-    ###################### Stop container interface ######################
+    ###################### Stop Container Interface ######################
     post:
       description: |
         Stop a single instance in the operating status and the container involved in a job can’t be started.
@@ -260,7 +260,7 @@ paths:
           description: "Service unavailable"
 
   "/containers/{containerId}:modifyContainerAttribute":
-    ###################### Modify container attribute ######################
+    ###################### Modify Container Attribute ######################
     patch:
       description: |
         Modify the container name and description.
@@ -269,7 +269,7 @@ paths:
         - name: name
           in: query
           type: string
-          description: Container name
+          description: Container Name
         - name: description
           in: query
           type: string
@@ -294,7 +294,7 @@ paths:
           description: "Service unavailable"
 
   "/containers/{containerId}:associateElasticIp":
-    ###################### Associate EIP to a container ######################
+    ###################### Associate EIP to a Container ######################
     post:
       description: |
         The elastic IP associated with the container is the elastic IP corresponding to the primary network interface and primary private IP.
@@ -327,7 +327,7 @@ paths:
           description: "Service unavailable"
 
   "/containers/{containerId}:disassociateElasticIp":
-    ###################### Disassociate EIP from container ######################
+    ###################### Disassociate EIP from Container ######################
     post:
       description: |
         The EIP disassociated with the container is the elastic IP corresponding to the primary network interface and primary private IP.
@@ -358,7 +358,7 @@ paths:
           description: "Service unavailable"
 
   "/containers/{containerId}:getLogs":
-    ###################### Search container logs ######################
+    ###################### Search Container Logs ######################
     get:
       description: |
         Search a container log
@@ -407,7 +407,7 @@ paths:
 
 
 
-# Path general parameter
+# Path General Parameter
 parameters:
   regionId:
     name: regionId

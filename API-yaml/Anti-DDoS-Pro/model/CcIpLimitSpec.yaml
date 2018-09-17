@@ -6,7 +6,7 @@ definitions:
     properties:
       ccSpeedLimit:
         type: integer
-        description: Speed limit of each CC defense IP
+        description: Speed Limit of Each CC Defense IP
       ccSpeedPeriod:
         type: integer
-        description: Speed limit statistic period of each CC defense IP
+        description: Speed Limit Statistic Period of Each CC Defense IP

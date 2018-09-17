@@ -14,40 +14,40 @@ definitions:
       clusterPrimaryId:
         type: integer
         format: int64
-        description: Cluster primary key ID
+        description: Cluster Primary Key ID
       status:
         type: string
-        description: Cluster status
+        description: Cluster Status
       nodeCount:
         type: integer
-        description: Node number
+        description: Node Number
       payType:
         type: string
-        description: Payment type
+        description: Payment Type
       payPrice:
         type: string
-        description: Payment price
+        description: Payment Price
       createTime:
         type: string
         format: date-time
-        description: Creation time
+        description: Creation Time
       duration:
         type: string
-        description: Operating hours
+        description: Operating Hours
       hardware:
         type: array
         items:
           $ref: "./HardwareInfo.yaml#/definitions/hardwareInfo"
       softwareStack:
         type: object
-        description: Software information
+        description: Software Information
         properties:
           version:
             type: string
-            description: Revision
+            description: Version
           software:
             type: string
-            description: Software list
+            description: Software List
       dataCenter:
         type: string
         description: Region, the same as regionID
@@ -59,10 +59,10 @@ definitions:
         description: Whether it is high availability mode or not
       vpcName:
         type: string
-        description: Name of virtual private cloud
+        description: Name of Virtual Private Cloud
       vpcSubnetName:
         type: string
-        description: Subnet name
+        description: Subnet Name
       bandwidthOut:
         type: integer
-        description: Network bandwidth
+        description: Network Bandwidth

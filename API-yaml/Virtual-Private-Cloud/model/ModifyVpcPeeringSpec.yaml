@@ -5,7 +5,7 @@ definitions:
     properties:
       vpcPeeringName:
         type: string
-        description: "VpcPeering name, must provide a name. Value range of name: 1-32 Chinese, English capital and lowercase letters, numbers and underline delimiter"
+        description: VPCPeering Name, Must Provide A nName. Value Range of Name: 1-32 Chinese, English capital and lowercase letters, numbers and underline delimiter
       description:
         type: string
-        description: "VpcPeering description, value range: 0-256 Chinese, English capital and lowercase letters, numbers and underline delimiter"
+        description: VPCPeering Description. Value Range: 0-256 Chinese, English capital and lowercase letters, numbers and underline delimiter

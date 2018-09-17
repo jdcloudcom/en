@@ -9,4 +9,4 @@ definitions:
         type: array
         items:
           $ref: "./ModifyRouteTableRules.yaml#/definitions/modifyRouteTableRules"
-        description: Route table rule information
+        description: Route Table Rule Information

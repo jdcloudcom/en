@@ -24,7 +24,7 @@ definitions:
         type: string
         required: true
         description: |
-          "Software service revision, please fill in one of the following lists:"
+          "Software service Version, please fill in one of the following lists:"
           "JMR1.0.0"
           "JMR1.0.1"
           "JMR1.0.2"
@@ -39,25 +39,25 @@ definitions:
       #payPrice:
         #type: string
         #required: true
-        #description: Billing price
+        #description: Billing Price
       masterNodeNumber:
         type: integer
         required: true
-        description: Master node number
+        description: Master Node Number
       #masterCore:
         #type: integer
         #required: true
-        #description: Master node CPU
+        #description: Master Node CPU
       #masterMemory:
         #type: integer
         #required: true
-        #description: Master node memory (At least 8G memory is recommended; otherwise the service may fail to deploy)
+        #description: Master Node Memory (At least 8G memory is recommended; otherwise the service may fail to deploy)
       masterNodeDiskType:
         type: string
         description: |
           "Master node cloud disk type, the optional types are (the following types are separated with "/")"
           "NBD/NBD_SATA"
-          "Respectively stand for: Performance Type/Capacity Type"
+          "Respectively Stand for: Performance Type/Capacity Type"
       masterNodeDiskVolume:
         type: integer
         description: Master node cloud disk capacity must be the integral multiples of 10, but greater than 20 and less than 3000GB
@@ -68,21 +68,21 @@ definitions:
       slaveNodeNumber:
         type: integer
         required: true
-        description: Slave node number
+        description: Slave Node Number
       #slaveCore:
         #type: integer
         #required: true
-        #description: Slave node CPU
+        #description: Slave Node CPU
       #slaveMemory:
         #type: integer
         #required: true
-        #description: Slave node memory (At least 4G memory is recommended; otherwise the service may fail to deploy)
+        #description: Slave Node Memory (At least 4G memory is recommended; otherwise the service may fail to deploy)
       slaveNodeDiskType:
         type: string
         description: |
           "Slave node cloud disk type, the optional types are (the following types are separated with "/")"
           "NBD/NBD_SATA"
-          "Respectively stand for: Performance Type/Capacity Type"
+          "Respectively Stand for: Performance Type/Capacity Type"
       slaveNodeDiskVolume:
         type: integer
         description: Slave node cloud disk capacity must be the integral multiples of 10, but greater than 20 and less than 3000GB
@@ -109,7 +109,7 @@ definitions:
       vpcId:
         type: string
         default: new
-        description: Virtual private cloud ID
+        description: Virtual Private Cloud ID
       vpcSubnetId:
         type: string
         default: new
@@ -117,4 +117,4 @@ definitions:
       bandwidth:
         type: integer
         default: 5
-        description: Upper limit of network bandwidth
+        description: Network Bandwidth Cap

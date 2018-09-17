@@ -1,19 +1,19 @@
 swagger: '2.0'
 info:
   version: v1
-  title: storage APIs
-  description: Information APIs related to stream computing storage
+  title: Storage APIs
+  description: Information APIs Related to Stream Compute Storage
 basePath: '/regions/{regionId}'
 paths:
-#######Create or update storage################
+#######Create or Update Storage################
   /storage:
     post:
-      description: Create or update storage
+      description: Create or Update Storage
       operationId: addOrUpdateStorage
       parameters:
         - name: storageStr
           in: body
-          description: Details of creating or updating storage
+          description: Details of Creating or Updating Storage
           required: true
           schema:
             $ref: "../model/storageInfo.yaml#/definitions/storage"
@@ -37,9 +37,9 @@ paths:
           description: NOT_FOUND
         '500':
           description: INTERNAL_ERROR
-#######Delete the assigned input################
+#######Delete the Assigned Input################
     delete:
-      description: Delete the assigned input
+      description: Delete the Assigned Input
       operationId: deleteStorage
       parameters:
         - name: storageId
@@ -63,9 +63,9 @@ paths:
           description: UNAUTHENTICATED
         '500':
           description: internal error
-#######Delete the assigned input################
+#######Delete the Assigned Input################
     get:
-      description: Query the assigned input
+      description: Query the Assigned Input
       operationId: describeStorage
       parameters:
         - name: storageId
@@ -90,15 +90,15 @@ paths:
           description: UNAUTHENTICATED
         '500':
           description: internal error
-#######View all the input under the assigned applications################
+#######View All the Input Under the Assigned Applications################
   /storageList:
     get:
-      description: Create or update storage
+      description: Create or Update Storage
       operationId: getStorageList
       parameters:
         - name: storageType
           in: query
-          description: storage type
+          description: Storage Type
           required: true
           type: string
         - name: namespaceId

@@ -57,7 +57,7 @@ definitions:
       launchTime:
         type: string
         format: date-time
-        description: Creation time
+        description: Creation Time
       az:
         type: string
         description: The AZ of the VM

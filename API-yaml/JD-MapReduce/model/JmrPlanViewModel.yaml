@@ -7,7 +7,7 @@ definitions:
     properties:
       planId:
         type: number
-        description: Task scheduling id
+        description: Task Scheduling id
       planName:
         type: string
       planType:
@@ -20,14 +20,14 @@ definitions:
       createTime:
         type: string
         format: date
-        description: Creation time
+        description: Creation Time
       modifyTime:
         type: string
         format: date
-        description: Modification time
+        description: Modification Time
       dataCenter:
         type: string
-        description: Data center, i.e. regionId
+        description: Data Center, i.e. regionId
       az:
         type: string
       jobGroup:
@@ -37,7 +37,7 @@ definitions:
         description: Trigger
       cronExpression:
         type: string
-        description: Time after formatt
+        description: Time After Formatt
       isSync:
         type: boolean
       description:

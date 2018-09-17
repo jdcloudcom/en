@@ -43,7 +43,7 @@ paths:
              in: query
              type: string
              required: true
-             description: "Cluster ID: composed of eight characters"
+             description: "Cluster ID: Composed of eight characters"
          responses:
            200:
              description: OK
@@ -57,7 +57,7 @@ paths:
                        type: string
                      data:
                        $ref: "../model/ClusterDetailModel.yaml#/definitions/clusterDetailModel"
-                       description: Corresponding cluster details
+                       description: Corresponding Cluster Details
                  requestId:
                    type: string
            500:
@@ -73,7 +73,7 @@ paths:
              in: path
              type: string
              required: true
-             description: "Cluster ID: composed of eight characters"
+             description: "Cluster ID: Composed of eight characters"
          responses:
            200:
              description: OK
@@ -107,15 +107,15 @@ paths:
                        type: string
                      data:
                        $ref: "../model/AppModel.yaml#/definitions/appModel"
-                       description: AK/SK queried
+                       description: AK/SK Queried
                  requestId:
                    type: string
            500:
              description: "Internal server error"
-##############Software configuration information list###########
+##############Software Configuration Information List###########
   "/softwareStack":
        get:
-         description: "Software configuration information list"
+         description: "Software Configuration Information List"
          operationId: getPropertyValue
          responses:
            200:
@@ -130,15 +130,15 @@ paths:
                        type: string
                      data:
                        $ref: "../model/SoftStack.yaml#/definitions/softStack"
-                       description: Software configuration information
+                       description: Software Configuration Information
                  requestId:
                    type: string
            500:
              description: "Internal server error"
-##############Hardware configuration information list###########
+##############Hardware Configuration Information List###########
   "/hardwareStack":
        get:
-         description: "Hardware configuration information list"
+         description: "Hardware Configuration Information List"
          operationId: getHardwareStack
          responses:
            200:
@@ -153,7 +153,7 @@ paths:
                        type: string
                      data:
                        $ref: "../model/HardWareStackData.yaml#/definitions/hardWareStackData"
-                       description: Hardware information queried
+                       description: Hardware Information Queried
                  requestId:
                    type: string
            500:
@@ -178,7 +178,7 @@ paths:
                        type: array
                        items:
                          $ref: "../model/InstanceList.yaml#/definitions/instanceList"
-                       description: Machine specification list
+                       description: Machine Specification List
                  requestId:
                    type: string
            500:
@@ -193,7 +193,7 @@ paths:
              in: path
              type: string
              required: true
-             description: "Cluster ID: composed of eight characters"
+             description: "Cluster ID: Composed of eight characters"
          responses:
            200:
              description: OK
@@ -211,29 +211,29 @@ paths:
                          properties:
                            total:
                              type: integer
-                             description: Cluster machine total number
+                             description: Cluster Machine Total Number
                            clusters:
                              type: array
                              items:
                                $ref: "../model/idataCluster.yaml#/definitions/idataCluster"
                        description: |
                                      "Include cluster information list - clusters"
-                                     "Cluster machine total number - total"
+                                     "Cluster Machine Total Number - Total"
                  requestId:
                    type: string
            500:
              description: "Internal server error"
-###################### Obtain software list information ######################
+###################### Obtain Software List Information ######################
   "/softwareInfo":
        post:
-         description: "Obtain software list information of the corresponding revision"
+         description: "Obtain software list information of the corresponding Version"
          operationId: getSoftwareInfo
          parameters:
            - name: ver
              in: query
              required: true
              type: string
-             description: "JMR software revision number"
+             description: "JMR Software Version Number"
          responses:
            200:
              description: OK
@@ -247,22 +247,22 @@ paths:
                        type: string
                      data:
                        type: string
-                       description: Corresponding software list information
+                       description: Corresponding Software List Information
                  requestId:
                    type: string
            500:
              description: "Internal server error"
-###################### Obtain the software list corresponding to the assigned JMR revision and the revision information ######################
+###################### Obtain the software list corresponding to the assigned JD MapReduce Version and the version information ######################
   "/softwareInfo/v2":
        post:
-         description: "Obtain the software list corresponding to the assigned JMR revision and the revision information"
+         description: "Obtain the software list corresponding to the assigned JD MapReduce Version and the Version information"
          operationId: getSoftwareAndVersionInfo
          parameters:
            - name: ver
              in: query
              required: true
              type: string
-             description: "JMR software revision number"
+             description: "JMR Software Version Number"
          responses:
            200:
              description: OK
@@ -282,10 +282,10 @@ paths:
                    type: string
            500:
              description: "Internal server error"
- ##########Return to the jmr revision list######
+ ##########Return to the JD MapReduce Version List######
   "/jmrVersions":
        get:
-          description: "Return to the current jmr revision list"
+          description: "Return to the current JD MapReduce Version List"
           operationId: getJmrVersionList
           responses:
             200:
@@ -302,12 +302,12 @@ paths:
                        type: array
                        items:
                          type: string
-                       description: Current jmr revision list
+                       description: Current JD MapReduce Version List
                   requestId:
                     type: string
             500:
               description: "Internal server error"
-###################### Calculate the cluster price ######################
+###################### Calculate the Cluster Price ######################
   "/cluster:calculate":
        post:
          description: "Calculate the cluster price of the corresponding specification attribute"
@@ -359,10 +359,10 @@ paths:
                    type: string
            500:
              description: "Internal server error"
-###################### Query the remaining server quota ######################
+###################### Query the Remaining Server Quota ######################
   "/serverQuota:query":
        get:
-         description: "Query the remaining server quota"
+         description: "Query the Remaining Server Quota"
          operationId: queryServerQuota
          responses:
            200:
@@ -377,12 +377,12 @@ paths:
                        type: string
                      data:
                        $ref: "../model/AvailableNumData.yaml#/definitions/availableNumData"
-                       description: Remaining service quota
+                       description: Remaining Server Quota
                  requestId:
                    type: string
            500:
              description: "Internal server error"
-###################### Obtain vpc collection ######################
+###################### Obtain vpc Collection ######################
   "/vpcs:query":
        post:
          description: "Obtain vpc collection"
@@ -402,12 +402,12 @@ paths:
                        type: array
                        items:
                          $ref: "../model/QueryVpcs.yaml#/definitions/queryVpcs"
-                       description: VPC collection
+                       description: VPC Collection
                  requestId:
                    type: string
            500:
              description: "Internal server error"
-###################### Query VpcSubnet collection ######################
+###################### Query VpcSubnet Collection ######################
   "/vpcSubnets/{vpcId}:query":
        post:
          description: "Query Vpc subnet collection"
@@ -432,12 +432,12 @@ paths:
                        type: array
                        items:
                          $ref: "../model/QueryVpcSubnets.yaml#/definitions/queryVpcSubnets"
-                       description: VPC subnet information collection
+                       description: VPC Subnet Information Collection
                  requestId:
                    type: string
            500:
              description: "Internal server error"
-###################### Logical deletion ######################
+###################### Logical Deletion ######################
   "/cluster/{recordId}:delete":
        post:
          description: "Execute logical deletion on the assigned cluster"
@@ -487,12 +487,12 @@ paths:
                        type: string
                      data:
                        type: string
-                       description: "8-digit random code of the cluster"
+                       description: "8-digit Random Code of the Cluster"
                  requestId:
                    type: string
            500:
              description: "Internal server error"
-###################### User name verification ######################
+###################### User Name Verification ######################
   "/userName:validate":
        get:
          description: "Verify the login user name"
@@ -532,7 +532,7 @@ paths:
                  type:
                    type: integer
                    description: |
-                        "Required parameters, billing type"
+                        "Required Parameters, Billing Type"
                               "* 1: Pay By Configuration"
                               "* 601-609: Monthly package for 1 month to 9 months"
                               "* 610: Monthly package for 1 year"
@@ -600,7 +600,7 @@ paths:
                    type: string
            500:
              description: "Internal server error"
-###################### Cluster expansion ######################
+###################### Cluster Expansion ######################
   "/cluster:expansion":
        post:
          description: "Expand a specified number of instances for the specified cluster"
@@ -618,7 +618,7 @@ paths:
                    description: Cluster ID to be expanded
                  expansionNum:
                    type: integer
-                   description: Expansion number
+                   description: Expansion Number
          responses:
            200:
              description: OK
@@ -699,7 +699,7 @@ paths:
                    type: string
            500:
              description: "Internal server error"
-###################### Currently monitored service list ######################
+###################### Currently Monitored Service List ######################
   "/monitorServices":
        post:
          description: "All the corresponding service lists under the currently monitored cluster"
@@ -730,10 +730,10 @@ paths:
                    type: string
            500:
              description: "Internal server error"
-###################### Detailed data of service survival status monitoring ######################
+###################### Detailed Data of Service Survival Status Monitoring ######################
   "/monitorDetails":
        post:
-         description: "Detailed data of service survival status monitoring"
+         description: "Detailed Data of Service Survival Status Monitoring"
          operationId: monitorDetails
          parameters:
            - name: body
@@ -749,7 +749,7 @@ paths:
                    description: "Cluster ID"
                  service:
                    type: string
-                   description: "Service name, such as HADOOP"
+                   description: "Service Name, such as HADOOP"
          responses:
            200:
              description: OK
@@ -799,7 +799,7 @@ paths:
              description: "Internal server error"
 
 
-# Path general parameter
+# Path General Parameter
 parameters:
  regionId:
    name: regionId

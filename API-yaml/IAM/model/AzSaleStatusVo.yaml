@@ -8,7 +8,7 @@ definitions:
         description:
       canSale:
         type: integer
-        description: Sold out or not (0-No, 1-Yes)
+        description: Sold Out or Not (0-No, 1-Yes)
       visible:
         type: integer
-        description: Visible or not (1-Yes, 0-No)
+        description: Visible or Not (1-Yes, 0-No)

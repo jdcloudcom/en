@@ -14,10 +14,10 @@ definitions:
         description: Device Index
       attachStatus:
         type: string
-        description: Associating status
+        description: Associating Status
       attachTime:
         type: string
-        description: Associating time
+        description: Associating Time
       networkInterface:
         $ref: "./InstanceNetworkInterface.yaml#/definitions/instanceNetworkInterface"
-        description: Elastic network interface information
+        description: Elastic Network Interface Information

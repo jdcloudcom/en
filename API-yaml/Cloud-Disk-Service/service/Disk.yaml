@@ -2,7 +2,7 @@ swagger: "2.0"
 info:
   version: "v1"
   title: CDS APIs
-  description: CDS APIs, provides functions including creating cloud disk services in batches, querying a cloud disk service, deleting a cloud disk service, expanding a cloud disk service, modifying the cloud disk service information, and using a snapshot to restore a cloud disk service.
+  description: CDS APIs, provides functions including creating Cloud Disks in batches, querying a Cloud Disk, deleting a Cloud Disk, expanding a Cloud Disk, modifying the Cloud Disk information, and using a snapshot to restore a Cloud Disk.
 
 basePath: /regions/{regionId}
 
@@ -11,35 +11,35 @@ schemes:
 
 paths:
   "/disks":
-    ###################### API for Cloud Disk Service Creation ######################
+    ###################### API for Cloud Disk Creation ######################
     post:
       description: |
-        -   Create one or more cloud disk services that are paid by configuration or by service time.
+        -   Create one or more Cloud Disks that are paid by configuration or by service time.
         -   Disk type includes Premium Hdd Cloud Disk and SSD Cloud Disk.
         -   The billing method defaults to paying by configuration.
-        -   After creation is completed, the cloud disk service is in available status.
+        -   After creation is completed, the status of the Cloud Disk is available.
         -   The optional parameter snapshot ID is used to create a new disk.
-        -   When creating in batches, the name of the cloud disk service is: hard disk name -number, such as myDisk-1 and myDisk-2.
+        -   In batch creation, the name of the Cloud Disk is: hard disk name -number, such as myDisk-1 and myDisk-2.
         -   maxCount is the maximum effort, and it is not guaranteed that maxCount can be reached.
-      summary: "Create cloud disk service"
+      summary: "Create Cloud Disk"
       operationId: createDisks
       parameters:
         - name: DiskSpec
           in: body
           required: true
-          description: "Create specification of the cloud disk service"
+          description: "Create Specification of the Cloud Disk"
           schema:
             $ref: "../model/DiskSpec.yaml#/definitions/diskSpec"
         - name: maxCount
           in: query
           type: integer
           required: true
-          description: "Instance purchase quantity; value range: [1,100]"
+          description: "Instance Purchase Quantity; Value Range: [1,100]"
         - name: clientToken
           in: query
           type: string
           required: true
-          description: " Idempotence check parameter"
+          description: " Idempotence Check Parameter"
       responses:
         200:
           description: OK
@@ -50,7 +50,7 @@ paths:
                 properties:
                   diskIds:
                     type: array
-                    description: "List of cloud disk service IDs created"
+                    description: "List of Cloud Disk IDs created"
                     items:
                       type: string
               requestId:
@@ -69,10 +69,10 @@ paths:
         503:
           description: "Service unavailable"
 
-    ###################### API for Cloud Disk Service List Query ######################
+    ###################### API for Cloud Disk List Query ######################
     get:
       operationId: describeDisks
-      summary: "Query cloud disk service list"
+      summary: "Query Cloud Disk list"
       description: |
         -   filters, between multiple filter conditions is logic AND, and multiple values ​​inside each condition is logic OR
       parameters:
@@ -81,7 +81,7 @@ paths:
           type: integer
           default: 1
           minimum: 1
-          description: "Page number, defaults is 1; value range: [1, ∞)"
+          description: "Page Number, Defaults is 1; Value Range: [1, ∞)"
           
         - name: pageSize
           in: query
@@ -89,11 +89,11 @@ paths:
           default: 20
           minimum: 10
           maximum: 100
-          description: "Page size, default is 20; value range: [10,100]"
+          description: "Page Size, Default is 20; Value Range: [10,100]"
           
         - name: tags
           in: query
-          description: Tag filter condition
+          description: Tag Filter Condition
           type: array
           items:
             $ref: "../model/TagFilter.yaml#/definitions/tagFilter"
@@ -104,14 +104,14 @@ paths:
           items:
             $ref: "../../common/model/Filter.yaml#/definitions/filter"
           description: |
-            diskId - cloud disk service ID, accurate match, support multiple
-            diskType - type of cloud disk service, accurate match, support multiple, ssd or premium-hdd
-            instanceId - ID of the machine, to which the cloud disk service is attached, accurate match, support multiple
-            instanceType - Type of the machine, to which the cloud disk service is attached, accurate match, support multiple
-            status - availability zone, accurate match, support multiple
-            az - status of cloud disk service, accurate match, support multiple
-            name - name of cloud disk service, fuzzy match, support single
-            multiAttach - whether the cloud disk service is multi-point attached, accurate match, support single
+            diskId - Cloud Disk ID, Accurate Match, Support Multiple
+            diskType - Type of Cloud Disk, Accurate Match, Support Multiple, ssd or premium-hdd
+            instanceId - ID of the Machine, to which the Cloud Disk is Attached, Accurate Match, Support Multiple
+            instanceType - Type of the Machine, to which the Cloud Disk is Attached, Accurate Match, Support Multiple
+            status - Availability Zone, Accurate Match, Support Multiple
+            az - Status of Cloud Disk, Accurate Match, Support Multiple
+            name - Name of Cloud Disk, Fuzzy Match, Support Single
+            multiAttach - Whether the Cloud Disk is multi-point attached, Accurate Match, Support Single
       responses:
         200:
           description: OK
@@ -124,12 +124,12 @@ paths:
                 properties:
                   disks:
                     type: array
-                    description: "List of cloud disk service information details queried"
+                    description: "List of Cloud Disk Details queried"
                     items:
                       $ref: "../model/Disk.yaml#/definitions/disk"
                   totalCount:
                     type: integer
-                    description: "Number of cloud disk services queried"
+                    description: "Number of Cloud Disks queried"
               requestId:
                 type: string
                 description: "Request ID"
@@ -142,11 +142,11 @@ paths:
         503:
           description: "Service unavailable"
 
-    ###################### API for Cloud Disk Service Details Query ######################
+    ###################### API for Cloud Disk Details Query ######################
   "/disks/{diskId}":
       get:
-        summary: "Query details of a cloud disk service"
-        description: "Query details of a cloud disk service"
+        summary: "Query Details of a Cloud Disk"
+        description: "Query details of a Cloud Disk"
         operationId: describeDisk
         responses:
           200:
@@ -154,7 +154,7 @@ paths:
             schema:
               properties:
                 result:
-                  description: "Query cloud disk service information details"
+                  description: "Query Cloud Disk details"
                   properties:
                     disk:
                       $ref: "../model/Disk.yaml#/definitions/disk"
@@ -172,13 +172,13 @@ paths:
           503:
             description: "Service unavailable"
 
-    ###################### API for Single Cloud Disk Service Deletion ######################
+    ###################### API for Single Cloud Disk Deletion ######################
       delete:
-        summary: "Delete a single cloud disk service"
+        summary: "Delete a Single Cloud Disk"
         description: |
-          -   delete a cloud disk service billing by configuration. The disk types include the Premium Hdd Cloud Disk and the SSD Cloud Disk.
-          -   After the hard disk is deleted, the cloud disk snapshot can be retained.
-          -   When the disk is released, the state of the cloud disk is to-be-attached (Available).
+          -   Delete a Cloud Disk billed by configuration. The disk types include the Premium Hdd Cloud Disk and the SSD Cloud Disk.
+          -   After the hard disk is deleted, the Cloud Disk snapshot can be retained.
+          -   When the disk is released, the status of the Cloud Disk is to-be-attached (Available).
           -   If the disk of the specified ID does not exist, the request will be ignored.
         operationId: deleteDisk
         responses:
@@ -195,20 +195,20 @@ paths:
           503:
             description: "Service unavailable"
 
-    ###################### API for Cloud Disk Service Properties Modification ######################
+    ###################### API for Cloud Disk Properties Modification ######################
       patch:
-        summary: "Modify cloud disk service properties"
-        description: "Modify the name or description of the cloud disk service, specify either"
+        summary: "Modify Cloud Disk properties"
+        description: "Modify the name or description of the Cloud Disk, specify either"
         operationId: modifyDiskAttribute
         parameters:
           - name: name
             in: query
             type: string
-            description: "Name of the cloud disk service. Only Chinese, numbers, uppercase and lowercase letters, English underline '_' and line-through '-' are allowed. It is not allowed to be blank and shall not exceed 32 characters."
+            description: "Name of the Cloud Disk. Only Chinese characters, numbers, uppercase and lowercase letters, English underscores '_' and hyphens '-' are allowed. It is not allowed to be blank and shall not exceed 32 characters."
           - name: description
             in: query
             type: string
-            description: "Description of the cloud disk service. It allows you to enter all characters under UTF-8 encoding, but no more than 256 characters."
+            description: "Description of the Cloud Disk. It allows you to enter all characters under UTF-8 encoding, but no more than 256 characters."
         responses:
           200:
             description: OK
@@ -223,21 +223,21 @@ paths:
           503:
             description: "Service unavailable"
 
-    ###################### API for Cloud Disk Service Recovery from Snapshot ######################
+    ###################### API for Cloud Disk Recovery from Snapshot ######################
   "/disks/{diskId}:restore":
       post:
-        summary: "Recovering a cloud disk service from a snapshot"
+        summary: "Recovering a Cloud Disk from a snapshot"
         description: |
           -   Data recovery operations can only be executed on the source hard disk, from which the snapshot was taken.
           -   Snapshots can be used for data recovery operations only if the source hard disk is available.
-          -   After the cloud disk service is restored, the current data will be cleared. Please be cautious.
+          -   After the Cloud Disk is restored, the current data will be cleared. Please be cautious.
         operationId: restoreDisk
         parameters:
           - name: snapshotId
             in: query
             type: string
             required: true
-            description: "Snapshot ID used to recover the cloud disk"
+            description: "Snapshot ID used to recover the Cloud Disk"
         responses:
           200:
             description: OK
@@ -252,12 +252,12 @@ paths:
           503:
             description: "Service unavailable"
 
-    ###################### API for  Capacity Expansion of Cloud Disk Service ######################
+    ###################### API for  Capacity Expansion of Cloud Disk ######################
   "/disks/{diskId}:extend":
       post:
-        summary: "Cloud disk service capacity can only be expanded, and cannot be reduced."
+        summary: "Cloud disk capacity can only be expanded, and cannot be reduced."
         description: |
-          -   Expansion of the cloud disk service requires it in available status.
+          -   Expansion of the Cloud Disk requires it in available status.
           -   Capacity expansion is not allowed while the disk is creating a snapshot.
         operationId: extendDisk
         parameters:
@@ -265,7 +265,7 @@ paths:
             in: query
             type: integer
             required: true
-            description: "The size of the cloud disk service after expansion is in GiB"
+            description: "The size of the Cloud Disk after expansion is in GiB"
         responses:
           200:
             description: OK
@@ -292,4 +292,4 @@ parameters:
     in: path
     required: true
     type: string
-    description: Cloud Disk Service ID
+    description: Cloud Disk ID

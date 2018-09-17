@@ -11,8 +11,8 @@ definitions:
       type:
         type: integer
         description: |
-                  "Required parameters, billing type:"
+                  "Required Parameters, Billing Type:"
                   "Pay by configuration<br/>"
                        "601-609: Monthly package for 1 month to 9 months"
-                       "610: Monthly package for 1 year"
-                       "620: Monthly package for 2 years"
+                       "610: Monthly Package for 1 Year"
+                       "620: Monthly Package for 2 Years"

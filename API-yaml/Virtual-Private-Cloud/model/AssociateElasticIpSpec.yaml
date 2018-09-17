@@ -5,10 +5,10 @@ definitions:
     properties:
       elasticIpId:
         type: string
-        description: Associated elastic Ip Id
+        description: Associated Elastic IP ID
       privateIpAddress:
         type: string
-        description: Associate elastic Ip to assigned privateIp
+        description: Associate Elastic IP to Assigned Private IP
       elasticIpAddress:
         type: string
-        description: Associated elastic Ip address
+        description: Associated Elastic IP Address

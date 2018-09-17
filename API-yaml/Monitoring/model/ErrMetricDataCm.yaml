@@ -6,7 +6,7 @@ definitions:
     properties:
       errMetricData:
         type: string
-        description: Error data
+        description: Error Data
       errDetail:
         type: string
-        description: Error data description
+        description: Error Data Description
