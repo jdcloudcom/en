@@ -1,4 +1,4 @@
-# Open Basic Anti-DDoS
+# Open Anti-DDoS Basic
 
 ** Precondition **
 
@@ -6,18 +6,18 @@
 
 ** Operation steps **
 
-1. Log in to[Basic Protection Console](https://console.jdcloud.com/host/vpc/list), navigate to Select Network->Virtual Private Cloud, find the IP menu of public network. Please apply for purchasing the required public network IP as needed.
+1. Log in to[Anti-DDoS Basic Console](https://console.jdcloud.com/host/vpc/list), navigate to Select Network->Virtual Private Cloud, find the IP menu of public network. Please apply for purchasing the required public network IP as needed.
 
 ![Create instance](https://github.com/jdcloudcom/cn/blob/edit/image/Basic%20Anti-DDos/Instance01.png)
 
-2. Switch to the Basic Anti-DDoS under the cloud security menu. The basic protection takes effect automatically for the public network IP you purchased.
+2. Switch to Anti-DDoS Basic under Cloud Security. Anti-DDoS Basic takes effect automatically for the public network IP you purchased.
 
 ![Create instance](https://github.com/jdcloudcom/cn/blob/edit/image/Basic%20Anti-DDos/Instance02.png)
 
-** Note **: Basic protection is on by default and cannot be turned off.
+** Note **: Anti-DDoS Basic is on by default and cannot be turned off.
 
 # Relevant reference
-- [What is Basic Anti-DDoS](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Basic-Anti-DDoS/Introduction/Overview.md)
-- [Functional Properties](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Basic-Anti-DDoS/Introduction/Functions.md)
-- [Application Scenarios](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Basic-Anti-DDoS/Introduction/Application-Scenarios.md)
+- [What is Anti-DDoS Basic](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Basic-Anti-DDoS/Introduction/Overview.md)
+- [Function Properties](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Basic-Anti-DDoS/Introduction/Functions.md)
+- [Applicable Scenarios](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Basic-Anti-DDoS/Introduction/Application-Scenarios.md)
 - [Infrastructure](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Basic-Anti-DDoS/Introduction/Basic-Infrastructure.md)

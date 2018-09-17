@@ -1,10 +1,10 @@
 # Application Scenarios
 
-** Below is a description of the application scenario for JD Cloud Basic Anti-DDoS: **
+** Below is a description of the applicable scenarios for JD Cloud Anti-DDoS Basic: **
 
-JD Cloud Basic Anti-DDoS is only applicable to the public network IP users in JD Cloud and attack protection scenarios with the highest attacking flow rate of 2G.
+JD Cloud Anti-DDoS Basic is only applicable to the public network IP users in JD Cloud and attacking scenarios with the highest attacking flow rate of 2G.
 
-Please purchase "Advanced Anti-DDoS" if you need a larger-capacity attack protection or a DDos protection beyond JD Cloud. Reference:[Advanced Anti-DDoS](https://www.jdcloud.com/products/ipanti)
+Please purchase "Anti-DDoS Pro" if you need a larger-capacity protection or a DDos protection out of JD Cloud. Reference:[Anti-DDoS Pro](https://www.jdcloud.com/products/ipanti)
 
  
 
@@ -12,5 +12,5 @@ Please purchase "Advanced Anti-DDoS" if you need a larger-capacity attack protec
 
 ## Related Reference
 
-- [Advanced Anti-DDoS](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Advanced-Anti-DDoS/Introduction/What-Is-Advanced-Anti-DDoS.md)
-- [Advanced Anti-DDoS pricing](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Advanced-Anti-DDoS/Pricing/Billing-Rules.md)
+- [Anti-DDoS Pro](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Advanced-Anti-DDoS/Introduction/What-Is-Advanced-Anti-DDoS.md)
+- [Anti-DDoS Pro pricing](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Advanced-Anti-DDoS/Pricing/Billing-Rules.md)

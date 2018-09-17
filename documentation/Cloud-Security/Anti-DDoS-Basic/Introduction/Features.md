@@ -1,6 +1,6 @@
 # Features
 
-## Introduction to the basic protection function of DDoS
+## Introduction to the function of Anti-DDoS Basic
 | Function | Subfunction | Property Description |
 | - | - | - |
 | attack protection type | Malformation message filtering | filtering attack of frag flood, smurf, stream floor, land floor, filtering formatted packets of IP, TCP and UDP. |

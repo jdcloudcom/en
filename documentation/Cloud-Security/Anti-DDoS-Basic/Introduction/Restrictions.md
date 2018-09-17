@@ -1,8 +1,8 @@
 # Restrictions
 
-Only JD Cloud users who successfully apply for public network IP have permission to use the basic protection.
+Only JD Cloud users who have successfully applied for public network IP have permission to utilize Anti-DDoS.
 
 # # protective bandwidth
 
-Basic protection support a maximum of 2G protection capability. If the attacking flow to the public network IP is more than 2G, the black hole is triggered to mask all accesses.
-If you need larger-capability attack protection, please buy high anti-IP.
+Anti-DDoS Basic support a maximum of 2G protection capability. If the attacking flow to the public network IP is more than 2G, the black hole is triggered to mask all accesses.
+If you need a larger-capability protection, please buy Anti-DDoS Pro.
