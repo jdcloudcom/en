@@ -2,7 +2,7 @@
 
 
 ## Description
-Query indicator list available to create monitoring rules based on resource type
+Query metric list available to create monitoring rules based on resource type
 
 ## Request method
 GET
@@ -22,7 +22,7 @@ https://monitor.jdcloud-api.com/v1/metricsForCreateAlarm
 ## Return parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String|Requested identifier id|
+|**requestId**|String|Request ID|
 |**result**|[Result](##Result)||
 
 
@@ -38,10 +38,10 @@ https://monitor.jdcloud-api.com/v1/metricsForCreateAlarm
 ### <a name="MetricDetail">MetricDetail</a>
 |Name|Type|Description|
 |---|---|---|
-|**calculateUnit**|String|Computing unit of indicator, such as bit/s, %, byte|
+|**calculateUnit**|String|Computing unit of metric, such as bit/s, %, byte|
 |**downSample**|String|Sampling frequency|
-|**metric**|String|English identifier of monitoring indicator|
-|**metricName**|String|Name of monitoring indicator|
+|**metric**|String|Metric|
+|**metricName**|String|Metric name|
 |**serviceCode**|String|Identifier of resource type|
 
 ## Return code

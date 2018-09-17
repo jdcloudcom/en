@@ -15,7 +15,7 @@ https://redis.jdcloud-api.com/v1/regions/{regionId}/instanceClass
 |**regionId**|String|True||Region ID|
 
 ## Request parameter
-无
+None
 
 
 ## Return parameter

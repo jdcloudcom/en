@@ -9,7 +9,7 @@ definitions:
         description: Subdomain name
       protocol:
         type: string
-        description: Protocol: HTTP, HTTPS and HTTP_HTTPS
+        description: "Protocol: HTTP, HTTPS and HTTP_HTTPS"
       port:
         type: string
         description: HTTP protocol port number, such as 80 and 81, and multiple port numbers are separated by commas
@@ -38,7 +38,7 @@ definitions:
         description: Certificate private key
       algorithm:
         type: string
-        description: Forwarding rules: wrr->Round Robin with weight  rr->Round Robin without weight
+        description: "Forwarding rules: wrr->Round Robin with weight  rr->Round Robin without weight"
       forceJump:
         type: integer
         description: Confirm to enable https forced jump? The attribute may be configured when the protocol is HTTP_HTTPS  0->no  1->yes

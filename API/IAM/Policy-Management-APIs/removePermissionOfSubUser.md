@@ -17,7 +17,7 @@ https://iam.jdcloud-api.com/v1/regions/{regionId}/subUser/{subUser}/permissions/
 |**subUser**|String|True||Sub-user name|
 
 ## Request parameter
-无
+None
 
 
 ## Return parameter

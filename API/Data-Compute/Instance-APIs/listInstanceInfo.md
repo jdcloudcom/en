@@ -15,7 +15,7 @@ https://xdata.jdcloud-api.com/v1/regions/{regionId}/dwInstance
 |**regionId**|String|True||Region ID|
 
 ## Request parameter
-无
+None
 
 
 ## Return parameter

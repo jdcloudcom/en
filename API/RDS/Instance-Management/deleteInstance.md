@@ -2,7 +2,7 @@
 
 
 ## Description
-Delete an RDS Instance or a read-only instance of MySQL. When the primary instance of MySQL is deleted, the corresponding read-only instance of MySQL is also deleted</br>sensitive operation, enable<a href="https://www.jdcloud.com/help/detail/3786/isCatalog/1">MFA operation protection</a>
+Delete an RDS Instance or a read-only instance of MySQL. When the primary instance of MySQL is deleted, the corresponding read-only instance of MySQL is also deleted</br>敏感操作，可开启<a href="https://www.jdcloud.com/help/detail/3786/isCatalog/1">MFA操作保护</a>
 
 ## Request method
 DELETE
@@ -16,7 +16,7 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}
 |**regionId**|String|True||Region code, with range detailed in [Regions and Availability Zone Comparison Table](../Enum-Definitions/Regions-AZ.md)|
 
 ## Request parameter
-无
+None
 
 
 ## Return parameter

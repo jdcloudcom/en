@@ -16,14 +16,14 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkSecurityGroups/{network
 |**regionId**|String|True||Region ID|
 
 ## Request parameter
-无
+None
 
 
 ## Return parameter
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
-|**result**|[Result](##Result)|Return result|
+|**result**|[Result](##Result)|Returned results|
 
 
 ### <a name="Result">Result</a>
@@ -44,10 +44,10 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkSecurityGroups/{network
 |---|---|---|
 |**addressPrefix**|String|Prefix of matching address|
 |**createdTime**|String|Creation time of security group rule|
-|**description**|String|Description, all characters allowed to enter under UTF-8 encoding, which is not exceed 256 characters|
+|**description**|String|Description, all characters allowed to enter under UTF-8 coding, which is not exceed 256 characters|
 |**direction**|Number|Security group rule direction. 0: inbound rule; 1: outbound rule|
 |**fromPort**|Number|The start transport layer port of rule limit, the default value is 1, if protocol is not a transport layer protocol, the value is constantly 0|
-|**ipVersion**|Number|Matching address protocol version. 4：IPv4|
+|**ipVersion**|Number|Matching address protocol revision 4：IPv4|
 |**protocol**|Number|Rule limits protocol. 300:All; 6:TCP; 17:UDP; 1:ICMP|
 |**ruleId**|String|Security group rule ID|
 |**toPort**|Number|The end transport layer port of rule limit, the default value is 1, if protocol is not a transport layer protocol, the value is constantly 0|

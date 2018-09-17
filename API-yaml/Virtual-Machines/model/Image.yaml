@@ -26,7 +26,7 @@ definitions:
         description: "image source,  jcloud: public image,  marketplace: image marketplace,  image self: user's own image share: image shared by other users"
       osType:
         type: string
-        description: OS type. Value: [windows, linux]
+        description: "OS type. Value: [windows, linux]"
       status:
         type: string
         description: <a href="https://www.jdcloud.com/help/detail/3871/isCatalog/1">参考镜像状态</a>

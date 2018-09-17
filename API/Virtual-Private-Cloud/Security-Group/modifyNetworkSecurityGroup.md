@@ -18,7 +18,7 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkSecurityGroups/{network
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**description**|String|False||Security group description, value range: 0-256 of all characters entered under UTF-8 encoding|
+|**description**|String|False||Security group description, value range: 0-256 of all characters entered under UTF-8 coding|
 |**networkSecurityGroupName**|String|False||Security group name. Value range of name: 1-32 Chinese, English capital and lowercase letters, numbers and underline delimiter|
 
 

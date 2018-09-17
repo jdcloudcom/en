@@ -16,13 +16,13 @@ https://monitor.jdcloud-api.com/v1/regions/{regionId}/alarms/{alarmId}:disable
 |**regionId**|String|True||Region ID|
 
 ## Request parameter
-无
+None
 
 
 ## Return parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String|Requested identifier id|
+|**requestId**|String|Request ID|
 
 
 

@@ -4,13 +4,13 @@ definitions:
     x-jdcloud-module: nc
     x-jdcloud-internal: false
     type: object
-    description: Disk classification cloud: According to cloud disk service volume, root volume can only be the cloud type.
+    description: "Disk classification cloud: According to cloud disk service volume, root volume can only be the cloud type."
     required:
       - category
     properties:
       category:
         type: string  
-        description: Disk classification cloud: According to cloud disk service volume, root volume can only be the cloud type. 
+        description: "Disk classification cloud: According to cloud disk service volume, root volume can only be the cloud type. "
       autoDelete:
         type: boolean  
         description: Automatic deletion, the volume is automatically deleted at the time the container is deleted; the value is True by default; and only the scenario of cloud disk service is supported.

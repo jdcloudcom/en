@@ -14,7 +14,7 @@ definitions:
         description: Image ID
       includePassword:
         type: boolean
-        description: Whether a custom password is contained in the start template, true: password contained, false: password not contained
+        description: "Whether a custom password is contained in the start template, true: password contained, false: password not contained"
       systemDisk:
         $ref: "./InstanceTemplateDiskAttachment.yaml#/definitions/instanceTemplateDiskAttachment"
         description: System disk information

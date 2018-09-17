@@ -9,7 +9,7 @@ definitions:
     properties:
       nextHopType:
         type: string
-        description: Type of next, value range: instance: virtual machine, internet: public network, vpc_peering: vpc peering connection, bgw: border gateway
+        description: "Type of next, value range: instance: virtual machine, internet: public network, vpc_peering: vpc peering connection, bgw: border gateway"
       nextHopId:
          type: string
          description: Next id

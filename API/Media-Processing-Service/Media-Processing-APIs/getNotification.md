@@ -15,7 +15,7 @@ https://mps.jdcloud-api.com/v1/regions/{regionId}/notification
 |**regionId**|String|True||region id|
 
 ## Request parameter
-无
+None
 
 
 ## Return parameter

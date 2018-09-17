@@ -18,9 +18,9 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkInterfaces/{networkInte
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**description**|String|False||Description, all characters allowed to enter under UTF-8 encoding, without exceeding 256 characters|
+|**description**|String|False||Description, all characters allowed to enter under UTF-8 coding, which is not exceed 256 characters|
 |**networkInterfaceName**|String|False||Elastic network interface name, only allowed to enter Chinese, numbers, capital and lowercase letters, English underline “_” and line-through “-”, must provide a name which cannot exceed 32 characters|
-|**securityGroups**|String[]|False||Security group updated by way of replacing original security group. If the security group ID list is updated, a maximum of 5 security groups can be assigned|
+|**securityGroups**|String[]|False||To replace the security group with mode update of the original security group. If the security group ID list is updated, a maximum of 5 security groups can be done|
 
 
 ## Return parameter

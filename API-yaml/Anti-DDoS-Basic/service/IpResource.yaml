@@ -111,7 +111,7 @@ paths:
           in: query
           type: string
           required: false
-          description: Search end time, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ
+          description: "Search end time, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ"
       responses:
         200:
           description: OK

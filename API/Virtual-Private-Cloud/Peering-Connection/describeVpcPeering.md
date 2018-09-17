@@ -2,7 +2,7 @@
 
 
 ## Description
-"Query VpcPeering resource details
+Query VpcPeering resource details
 
 ## Request method
 GET
@@ -16,14 +16,14 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/vpcPeerings/{vpcPeeringId}
 |**vpcPeeringId**|String|True||vpcPeeringId ID|
 
 ## Request parameter
-无
+None
 
 
 ## Return parameter
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
-|**result**|[Result](##Result)|Return result|
+|**result**|[Result](##Result)|Returned results|
 
 
 ### <a name="Result">Result</a>

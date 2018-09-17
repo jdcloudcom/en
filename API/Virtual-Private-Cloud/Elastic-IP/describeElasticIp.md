@@ -16,14 +16,14 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/elasticIps/{elasticIpId}
 |**regionId**|String|True||Region ID|
 
 ## Request parameter
-无
+None
 
 
 ## Return parameter
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
-|**result**|[Result](##Result)|Return result|
+|**result**|[Result](##Result)|Returned results|
 
 
 ### <a name="Result">Result</a>
@@ -35,7 +35,7 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/elasticIps/{elasticIpId}
 |---|---|---|
 |**bandwidthMbps**|Integer|Elastic ip speed limit (unit: Mbps)|
 |**charge**|[Charge](##Charge)|Billing configuration|
-|**createdTime**|String|Creation Time of Elastic ip|
+|**createdTime**|String|Creation Time of elastic ip|
 |**elasticIpAddress**|String|Elastic IP address|
 |**elasticIpId**|String|Elastic IP Id|
 |**instanceId**|String|Instance Id|

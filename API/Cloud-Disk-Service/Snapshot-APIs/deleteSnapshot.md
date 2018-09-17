@@ -19,7 +19,7 @@ https://disk.jdcloud-api.com/v1/regions/{regionId}/snapshots/{snapshotId}
 |**snapshotId**|String|True||Snapshot ID|
 
 ## Request parameter
-无
+None
 
 
 ## Return parameter

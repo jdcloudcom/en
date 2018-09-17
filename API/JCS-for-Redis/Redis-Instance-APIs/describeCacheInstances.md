@@ -50,7 +50,7 @@ https://redis.jdcloud-api.com/v1/regions/{regionId}/cacheInstance
 |Name|Type|Description|
 |---|---|---|
 |**azId**|[AzId](##AzId)|az Information|
-|**cacheInstanceClass**|String|For instance type code, see<a href="https://www.jdcloud.com/help/detail/411/isCatalog/1">instance type code</a>|
+|**cacheInstanceClass**|String|实例规格代码，参见<a href="https://www.jdcloud.com/help/detail/411/isCatalog/1">实例规格代码</a>|
 |**cacheInstanceDescription**|String|Instance Description|
 |**cacheInstanceId**|String|Instance ID|
 |**cacheInstanceMemoryMB**|Integer|Capacity, in MB|

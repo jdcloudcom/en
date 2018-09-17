@@ -2,7 +2,7 @@
 
 
 ## Description
-View certain resource monitoring data, which needs to designate the monitoring indicator and the time range.
+Get statistics for the specified metric. To get more precise data points, the user can narrow or increase the specified time range.
 
 ## Request method
 GET
@@ -12,7 +12,7 @@ https://monitor.jdcloud-api.com/v1/regions/{regionId}/metrics/{metric}/metricDat
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**metric**|String|True||English identifier (id) of monitoring item|
+|**metric**|String|True||Metric|
 |**regionId**|String|True||Region Id|
 
 ## Request parameter
@@ -34,7 +34,7 @@ https://monitor.jdcloud-api.com/v1/regions/{regionId}/metrics/{metric}/metricDat
 ## Return parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String|Requested identifier id|
+|**requestId**|String|Request ID|
 |**result**|[Result](##Result)||
 
 
@@ -55,7 +55,7 @@ https://monitor.jdcloud-api.com/v1/regions/{regionId}/metrics/{metric}/metricDat
 ### <a name="Metric">Metric</a>
 |Name|Type|Description|
 |---|---|---|
-|**calculateUnit**|String|Computing unit of indicator, such as bit/s, %, k|
+|**calculateUnit**|String|Computing unit of metric, such as bit/s, %, k|
 |**metric**|String|English identifier of monitoring item|
 |**metricName**|String|Name of monitoring item|
 

@@ -8,7 +8,7 @@ definitions:
     properties:
       maxCount:
         type: integer
-        description: Purchase number of elastic ip; value range: [1,100]
+        description: "Purchase number of elastic ip; value range: [1,100]"
       elasticIpAddress:
         type: string
         description: Create by assigning elastic ip address, when multiple elastic ips are applied for creation, it must be blank

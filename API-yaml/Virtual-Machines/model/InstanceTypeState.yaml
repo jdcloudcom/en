@@ -8,4 +8,4 @@ definitions:
         description: AZ
       inStock:
         type: boolean
-        description: Tradable details, true: available, false: sold out, unavailable
+        description: "Tradable details, true: available, false: sold out, unavailable"

@@ -15,7 +15,7 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/userName:validate
 |**regionId**|String|True||Region ID|
 
 ## Request parameter
-无
+None
 
 
 ## Return parameter

@@ -19,7 +19,7 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/elasticIps/
 |---|---|---|---|---|
 |**elasticIpAddress**|String|False||Create by assigning elastic ip address, when multiple elastic ips are applied for creation, it must be blank|
 |**elasticIpSpec**|[ElasticIpSpec](##ElasticIpSpec)|True||Elastic ip specification|
-|**maxCount**|Integer|True||Purchase number of elastic ips; value range: [1,100]|
+|**maxCount**|Integer|True||Purchase number of elastic ip; value range: [1,100]|
 
 ### <a name="ElasticIpSpec">ElasticIpSpec</a>
 |Name|Type|Required or not|Default value|Description|
@@ -37,7 +37,7 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/elasticIps/
 ## Return parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|[Result](##Result)|Return result|
+|**result**|[Result](##Result)|Returned results|
 
 
 ### <a name="Result">Result</a>

@@ -7,10 +7,10 @@ definitions:
       cleanThresholdBps:
         type: integer
         format: int64
-        description: Traffic rate of trigger cleaning, unit: bps, with the range from 10000000 to 300000000
+        description: "Traffic rate of trigger cleaning, unit: bps, with the range from 10000000 to 300000000"
         required: true
       cleanThresholdPps:
         type: integer
         format: int64
-        description: Package rate of trigger cleaning, unit: pps, with the range from 2000 to 70000
+        description: "Package rate of trigger cleaning, unit: pps, with the range from 2000 to 70000"
         required: true

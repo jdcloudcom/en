@@ -2,7 +2,7 @@
 
 
 ## Description
-"Query VpcPeering resource list
+Query VpcPeering resource list
 
 ## Request method
 GET
@@ -18,8 +18,8 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/vpcPeerings/
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**filters**|[Filter[]](##Filter)|False||vpcPeeringIds - vpcPeering ID, support multiple IDs<br>vpcPeeringNames - vpcPeering name list, support multiple names<br>vpcId	- vpcPeering home terminal Vpc Id, support single Id<br>remoteVpcId - vpcPeering opposite terminal Vpc Id, support single Id<br>|
-|**pageNumber**|Integer|False|1|Page, 1 by default, value range: [1,∞); when the pages exceed total pages, show the last page|
-|**pageSize**|Integer|False|20|Paging size, 20 by default; value range: [10,100]|
+|**pageNumber**|Integer|False|1|Page; it is 1 by default, the value range: [1,∞); when the pages exceed total pages, show the last page|
+|**pageSize**|Integer|False|20|Paging size; it is 20 by default; value range[10, 100]|
 
 ### <a name="Filter">Filter</a>
 |Name|Type|Required or not|Default value|Description|
@@ -32,13 +32,13 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/vpcPeerings/
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
-|**result**|[Result](##Result)|Return result|
+|**result**|[Result](##Result)|Returned results|
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**totalCount**|Number|Total amount|
+|**totalCount**|Number|Total number|
 |**vpcPeerings**|[VpcPeering[]](##VpcPeering)|VpcPeering resource information list|
 ### <a name="VpcPeering">VpcPeering</a>
 |Name|Type|Description|

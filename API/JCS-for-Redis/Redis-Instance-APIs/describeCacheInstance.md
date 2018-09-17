@@ -16,7 +16,7 @@ https://redis.jdcloud-api.com/v1/regions/{regionId}/cacheInstance/{cacheInstance
 |**regionId**|String|True||The Region ID of the region where the Redis instance is located. At present, the Redis has North China, South China, and East China regions, and the corresponding Region IDs are cn-north-1, cn-south-1, and cn-east-2|
 
 ## Request parameter
-无
+None
 
 
 ## Return parameter
@@ -34,7 +34,7 @@ https://redis.jdcloud-api.com/v1/regions/{regionId}/cacheInstance/{cacheInstance
 |Name|Type|Description|
 |---|---|---|
 |**azId**|[AzId](##AzId)|az Information|
-|**cacheInstanceClass**|String|For instance type code, see<a href="https://www.jdcloud.com/help/detail/411/isCatalog/1">instance type code</a>|
+|**cacheInstanceClass**|String|实例规格代码，参见<a href="https://www.jdcloud.com/help/detail/411/isCatalog/1">实例规格代码</a>|
 |**cacheInstanceDescription**|String|Instance Description|
 |**cacheInstanceId**|String|Instance ID|
 |**cacheInstanceMemoryMB**|Integer|Capacity, in MB|

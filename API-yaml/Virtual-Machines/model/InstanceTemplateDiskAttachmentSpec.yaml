@@ -20,7 +20,7 @@ definitions:
         description: Data disk instance type
       deviceName:
         type: string
-        description: Data disk logical attach point, value range: vda, vdb, vdc, vdd, vde, vdb, vdg, vdh, vdi
+        description: "Data disk logical attach point, value range: vda, vdb, vdc, vdd, vde, vdb, vdg, vdh, vdi"
       noDevice:
         type: boolean
         description: |

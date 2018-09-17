@@ -14,19 +14,19 @@ definitions:
         description: Rule limits protocol. Value range: All, TCP, UDP, ICMP
       fromPort:
         type: integer
-        description: The start transport layer port of rule limit, value range: 1-65535; if the protocol is a transport layer protocol, the default value is 1; if the protocol is not a transport layer protocol, the setting becomes invalid and the value is constantly 0. If the rule is limited to one port, a same value is filled in the fromPort and toPort
+        description: "The start transport layer port of rule limit, value range: 1-65535; if the protocol is a transport layer protocol, the default value is 1; if the protocol is not a transport layer protocol, the setting becomes invalid and the value is constantly 0. If the rule is limited to one port, a same value is filled in the fromPort and toPort"
       toPort:
         type: integer
-        description: The end transport layer port of rule limit, value range: 1-65535; if the protocol is a transport layer protocol, the default value is 65535; if the protocol is not a transport layer protocol, the setting becomes invalid and the value is constantly 0. If the rule is limited to one port, a same value is filled in the fromPort and toPort 
+        description: "The end transport layer port of rule limit, value range: 1-65535; if the protocol is a transport layer protocol, the default value is 65535; if the protocol is not a transport layer protocol, the setting becomes invalid and the value is constantly 0. If the rule is limited to one port, a same value is filled in the fromPort and toPort "
       direction:
         type: string
-        description: networkAcl rule direction. ingress: inbound rule; egress: outbound rule
+        description: "networkAcl rule direction. ingress: inbound rule; egress: outbound rule"
       addressPrefix:
         type: string
         description: Prefix of matching address
       ruleAction:
         type: string
-        description: Identity and access management policy: allow: allow, deny: deny
+        description: "Identity and access management policy: allow: allow, deny: deny"
       priority:
         type: integer
         description: Rule matching priority, value range is [1,32768]; the smaller the priority number is, the higher priority it is

@@ -2,7 +2,7 @@
 
 
 ## Introduction
-Cloud Monitor APIs, mainly comprising create, read, update, delete of monitoring rules and query of monitoring item data
+Cloud Monitor APIs, mainly comprising creation, deletion, change and review of monitoring rules and query of monitoring item data
 
 
 ### Version
@@ -17,10 +17,10 @@ v1
 |**describeAlarmHistory**|GET|Query alarm history, supporting query based on alarm rule ID, resource ID and product name.|
 |**describeAlarms**|GET|Query monitoring rules, supporting query based on rule status, alarm status, resource ID and product name.|
 |**describeAlarmsByID**|GET|Query rule details|
-|**describeMetricData**|GET|View certain resource monitoring data, which needs to designate the monitoring indicator and the time range.|
-|**describeMetrics**|GET|Query indicator list available to get monitoring data based on resource type|
-|**describeMetricsForCreateAlarm**|GET|Query indicator list available to create monitoring rules based on resource type|
+|**describeMetricData**|GET|Get statistics for the specified metric. To get more precise data points, the user can narrow or increase the specified time range.|
+|**describeMetrics**|GET|Query metric list to get monitoring data list based on product type|
+|**describeMetricsForCreateAlarm**|GET|Query metric list available to create monitoring rules based on resource type|
 |**disableAlarm**|POST|Disable the alarm rule. After the alarm rule is disabled, the detection of monitoring item data of the instance will be stopped.|
-|**enableAlarm**|POST|Enable the alarm rule, when the alarm rule is in the status of “Disabled”, the alarm rule can be enabled by using the interface.|
-|**putMetricData**|POST|The interface is the interface for customized metric monitoring data reporting, which is convenient for you to report the time series data collected by yourself to the Cloud Monitor. It can report original data and aggregated statistical data. It supports reporting methods in batches. A single request contains up to 50 data points; the data size does not exceed 256k.|
+|**enableAlarm**|POST|Enable the alarm rule, when the alarm rule is in the status of “Disabled”, the alarm rule can be enabled by using the API.|
+|**putMetricData**|POST|The API is for reporting the customized monitoring data, facilitating the user to report the collected time series data to the Cloud Monitor. Original data and aggregated statistical data can be reported in batches. A single request contains up to 50 data points; the data size does not exceed 256k.|
 |**updateAlarm**|PATCH|Modify alarm rules already created, support to modify alarm rules and notified contact information When the alarm rule is in the status of “Enabled” the alarm rule is allowed to be modified.|

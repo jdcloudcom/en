@@ -9,10 +9,10 @@ definitions:
     properties:
       protocol:
         type: number
-        description: Rule limits protocol. 300:All; 6:TCP; 17:UDP; 1:ICMP
+        description: "Rule limits protocol. 300:All; 6:TCP; 17:UDP; 1:ICMP"
       direction:
         type: number
-        description: Security group rule direction. 0: inbound rule; 1: outbound rule
+        description: "Security group rule direction. 0: inbound rule; 1: outbound rule"
       addressPrefix:
         type: string
         description: Prefix of matching address

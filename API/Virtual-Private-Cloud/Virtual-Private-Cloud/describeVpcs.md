@@ -18,8 +18,8 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/vpcs/
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**filters**|[Filter[]](##Filter)|False||vpcIds - vpc ID list, support multiple IDs<br>vpcNames - vpc name list, support multiple names<br>|
-|**pageNumber**|Integer|False|1|Page, 1 by default, value range: [1,∞); when the pages exceed total pages, show the last page|
-|**pageSize**|Integer|False|20|Paging size, 20 by default; value range: [10,100]|
+|**pageNumber**|Integer|False|1|Page; it is 1 by default, the value range: [1,∞); when the pages exceed total pages, show the last page|
+|**pageSize**|Integer|False|20|Paging size; it is 20 by default; value range: [10, 100]|
 
 ### <a name="Filter">Filter</a>
 |Name|Type|Required or not|Default value|Description|
@@ -32,13 +32,13 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/vpcs/
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
-|**result**|[Result](##Result)|Return result|
+|**result**|[Result](##Result)|Returned results|
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**totalCount**|Number|Total amount|
+|**totalCount**|Number|Total number|
 |**vpcs**|[Vpc[]](##Vpc)|Vpc resource information list|
 ### <a name="Vpc">Vpc</a>
 |Name|Type|Description|

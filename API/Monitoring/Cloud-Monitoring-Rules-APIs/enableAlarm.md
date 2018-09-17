@@ -2,7 +2,7 @@
 
 
 ## Description
-Enable the alarm rule, when the alarm rule is in the status of “Disabled”, the alarm rule can be enabled by using the interface.
+Enable the alarm rule, when the alarm rule is in the status of “Disabled”, the alarm rule can be enabled by using the API.
 
 ## Request method
 POST
@@ -16,13 +16,13 @@ https://monitor.jdcloud-api.com/v1/regions/{regionId}/alarms/{alarmId}:enable
 |**regionId**|String|True||Region ID|
 
 ## Request parameter
-无
+None
 
 
 ## Return parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String|Requested identifier id|
+|**requestId**|String|Request ID|
 
 
 

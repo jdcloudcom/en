@@ -18,8 +18,8 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkSecurityGroups/
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**filters**|[Filter[]](##Filter)|False||networkSecurityGroupIds - Security group ID list, support multiple IDs<br>networkSecurityGroupNames - Security group name list, support multiple names<br>vpcId	- vpc Id of security group, support single Id<br>|
-|**pageNumber**|Integer|False|1|Page, 1 by default, value range: [1,∞); when the pages exceed total pages, show the last page|
-|**pageSize**|Integer|False|20|Paging size, 20 by default; value range: [10,100]|
+|**pageNumber**|Integer|False|1|Page; it is 1 by default, the value range: [1,∞); when the pages exceed total pages, show the last page|
+|**pageSize**|Integer|False|20|Paging size; it is 20 by default; value range[10, 100]|
 
 ### <a name="Filter">Filter</a>
 |Name|Type|Required or not|Default value|Description|
@@ -32,14 +32,14 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkSecurityGroups/
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
-|**result**|[Result](##Result)|Return result|
+|**result**|[Result](##Result)|Returned results|
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
 |**networkSecurityGroups**|[NetworkSecurityGroup[]](##NetworkSecurityGroup)|Security group resource information list|
-|**totalCount**|Number|Total amount|
+|**totalCount**|Number|Total number|
 ### <a name="NetworkSecurityGroup">NetworkSecurityGroup</a>
 |Name|Type|Description|
 |---|---|---|
@@ -54,10 +54,10 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkSecurityGroups/
 |---|---|---|
 |**addressPrefix**|String|Prefix of matching address|
 |**createdTime**|String|Creation time of security group rule|
-|**description**|String|Description, all characters allowed to enter under UTF-8 encoding, which is not exceed 256 characters|
+|**description**|String|Description, all characters allowed to enter under UTF-8 coding, which is not exceed 256 characters|
 |**direction**|Number|Security group rule direction. 0: inbound rule; 1: outbound rule|
 |**fromPort**|Number|The start transport layer port of rule limit, the default value is 1, if protocol is not a transport layer protocol, the value is constantly 0|
-|**ipVersion**|Number|Matching address protocol version. 4：IPv4|
+|**ipVersion**|Number|Matching address protocol revision 4：IPv4|
 |**protocol**|Number|Rule limits protocol. 300:All; 6:TCP; 17:UDP; 1:ICMP|
 |**ruleId**|String|Security group rule ID|
 |**toPort**|Number|The end transport layer port of rule limit, the default value is 1, if protocol is not a transport layer protocol, the value is constantly 0|

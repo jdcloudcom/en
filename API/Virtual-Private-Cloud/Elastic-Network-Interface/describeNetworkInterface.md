@@ -16,14 +16,14 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkInterfaces/{networkInte
 |**regionId**|String|True||Region ID|
 
 ## Request parameter
-无
+None
 
 
 ## Return parameter
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
-|**result**|[Result](##Result)|Return result|
+|**result**|[Result](##Result)|Returned results|
 
 
 ### <a name="Result">Result</a>
@@ -44,7 +44,7 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkInterfaces/{networkInte
 |**networkInterfaceId**|String|Elastic network interface ID|
 |**networkInterfaceName**|String|Elastic network interface name|
 |**networkSecurityGroupIds**|String[]|Security group ID list|
-|**primaryIp**|[NetworkInterfacePrivateIp](##NetworkInterfacePrivateIp)|Network interface primary IP|
+|**primaryIp**|[NetworkInterfacePrivateIp](##NetworkInterfacePrivateIp)|Primary IP of network interface|
 |**role**|String|Network interface role, value range: Primary (primary network interface), Secondary (secondary network interface)|
 |**sanityCheck**|Integer|Source and target IP address verification, with value 0 or 1|
 |**secondaryIps**|[NetworkInterfacePrivateIp[]](##NetworkInterfacePrivateIp)|Network interface auxiliary IP list|

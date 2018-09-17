@@ -54,7 +54,7 @@ paths:
       parameters:
       - in: path
         name: bucketname
-        description: bucket name, e.g.: test-bucket
+        description: "bucket name, e.g.: test-bucket"
         required: true
         type: string
       responses:
@@ -78,7 +78,7 @@ paths:
       parameters:
       - in: path
         name: bucketname
-        description: bucket name, e.g.: test-bucket
+        description: "bucket name, e.g.: test-bucket"
         required: true
         type: string
       responses:
@@ -108,7 +108,7 @@ paths:
       parameters:
       - in: path
         name: bucketname
-        description: bucket name, e.g.: test-bucket
+        description: "bucket name, e.g.: test-bucket"
         required: true
         type: string
       responses:
@@ -139,12 +139,12 @@ paths:
       parameters:
       - in: path
         name: bucketname
-        description: bucket name, e.g.: test-bucket
+        description: "bucket name, e.g.: test-bucket"
         required: true
         type: string
       - in: path
         name: objectkey
-        description: objectkey, e.g.: test-object
+        description: "objectkey, e.g.: test-object"
         required: true
         type: string
       - in: header
@@ -183,4 +183,4 @@ parameters:
     in: path
     required: true
     type: string
-    description: Region ID, e.g.: cn-north-1
+    description: "Region ID, e.g.: cn-north-1"

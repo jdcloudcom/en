@@ -16,7 +16,7 @@ https://iam.jdcloud-api.com/v1/regions/{regionId}/userAccessKey/{accessKey}:enab
 |**regionId**|String|True||Region ID|
 
 ## Request parameter
-无
+None
 
 
 ## Return parameter

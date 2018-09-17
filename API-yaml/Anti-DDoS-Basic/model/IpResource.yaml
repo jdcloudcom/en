@@ -9,7 +9,7 @@ definitions:
         description: EIP address
       bandwidth:
         type: integer
-        description: Bandwidth cap, unit: Mbps
+        description: "Bandwidth cap, unit: Mbps"
       safeStatus:
         type: integer
         description: Security status, 0->safe  1->clean  2->black hole

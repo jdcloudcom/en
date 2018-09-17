@@ -19,10 +19,10 @@ https://monitor.jdcloud-api.com/v1/regions/{regionId}/alarms/{alarmId}
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**calculation**|String|True||Statistical method: average value=avg, maximum value=max, minimum value=min, summation=sum|
-|**contactGroups**|String[]|False||Contact group notified, for example [“contact group 1”, “contact group 2”]|
-|**contactPersons**|String[]|False||Contact notified, for example“[‘contact 1’, ‘contact 2’]”|
+|**contactGroups**|String[]|False||Notify contact group, for example [“contact group 1”, “contact group 2”]|
+|**contactPersons**|String[]|False||Notify contact, for example“[‘contact 1’, ‘contact 2’]”|
 |**downSample**|String|False||Sampling frequency|
-|**metric**|String|True||Query Metric field returned by list interface of available monitoring item based on the product line|
+|**metric**|String|True||Query Metric field returned by list API of available monitoring item based on the product line|
 |**noticePeriod**|Integer|False||Notification period unit: hour|
 |**operation**|String|True||>=、>、<、<=、==、!=|
 |**period**|Integer|True||Statistical period (unit: minute), optional value: 2, 5, 15, 30, 60|
@@ -34,7 +34,7 @@ https://monitor.jdcloud-api.com/v1/regions/{regionId}/alarms/{alarmId}
 ## Return parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String|Requested identifier id|
+|**requestId**|String|Request ID|
 |**result**|[Result](##Result)||
 
 

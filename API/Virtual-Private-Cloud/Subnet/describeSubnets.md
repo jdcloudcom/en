@@ -17,9 +17,9 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/subnets/
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**filters**|[Filter[]](##Filter)|False||subnetIds - subnet ID name, support multiple IDs<br>subnetNames - subnet name list, support multiple names<br>routeTableId	- Subnet associated route table Id, support single Id<br>aclId - Subnet associated acl Id, support single Id<br>vpcId - VPC Id of subnet, support single Id<br>|
-|**pageNumber**|Integer|False|1|Page, 1 by default, value range: [1,∞); when the pages exceed total pages, show the last page|
-|**pageSize**|Integer|False|20|Paging size, 20 by default; value range: [10,100]|
+|**filters**|[Filter[]](##Filter)|False||subnetIds - subnet ID list, support multiple IDs<br>subnetNames - subnet name list, support multiple names<br>routeTableId	- subnet associated route table Id, support single Id<br>aclId - subnet associated acl Id, support single Id<br>vpcId- vpc Id of subnet, support single Id<br>|
+|**pageNumber**|Integer|False|1|Page; it is 1 by default, the value range: [1,∞); when the pages exceed total pages, show the last page|
+|**pageSize**|Integer|False|20|Paging size; it is 20 by default; value range[10, 100]|
 
 ### <a name="Filter">Filter</a>
 |Name|Type|Required or not|Default value|Description|
@@ -32,14 +32,14 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/subnets/
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
-|**result**|[Result](##Result)|Return result|
+|**result**|[Result](##Result)|Returned results|
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
 |**subnets**|[Subnet[]](##Subnet)|Subnet resource information list|
-|**totalCount**|Number|Total amount|
+|**totalCount**|Number|Total number|
 ### <a name="Subnet">Subnet</a>
 |Name|Type|Description|
 |---|---|---|

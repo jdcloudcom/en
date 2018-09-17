@@ -16,7 +16,7 @@ https://mps.jdcloud-api.com/v1/regions/{regionId}/thumbnail/{taskId}
 |**taskId**|String|True||task id|
 
 ## Request parameter
-无
+None
 
 
 ## Return parameter

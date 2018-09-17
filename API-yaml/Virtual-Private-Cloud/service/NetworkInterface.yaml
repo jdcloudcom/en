@@ -22,7 +22,7 @@ paths:
             type: integer
             default: 1
             minimum: 1
-            description: Page; it is 1 by default, the value range: [1,∞); when the pages exceed total pages, show the last page
+            description: "Page; it is 1 by default, the value range: [1,∞); when the pages exceed total pages, show the last page"
           - name: pageSize
             in: query
             type: integer
