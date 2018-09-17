@@ -1,4 +1,4 @@
-# Upload Objcet
+# Upload Object
 
 When you successfully create the bucket, you can upload any type of files to the bucket. You can upload an objcet less than 1GB via the object storage service console. If you need to upload objcets greater than 1GB, please upload them by way of object storage service  API or SDK.
 
