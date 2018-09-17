@@ -61,74 +61,78 @@
              href: Operation-Guide/Manage-Bucket/Set-Bucket-Cross-Region-Replication.md
            - name: Customized Domain Name Setting
              href: Operation-Guide/Manage-Bucket/Set-Custom-Domain-Name.md
-           - name: Document Management
-             items:
-                - name: Create Folder
-                  href: Operation-Guide/Manage-Object/Create-Folder.md
-                - name: Search Object
-                  href: Operation-Guide/Manage-Object/Search-Object.md	
-                - name: Get Object URL
-                  href: Operation-Guide/Manage-Object/Get-Object-URL.md
-                - name: Delete Object
-                  href: Operation-Guide/Manage-Object/Delete-Object.md
-                - name: Consumption Monitoring
-                  href: Operation-Guide/Manage-Object/Usage-Monitoring.md
-           - name: Image Processing Guide
-             items:
-                - name: Introduction
-                  href: Operation-Guide/Image-Service-Guide/Introduction.md
-                - name: Access Rules of Image Processing
-                  href: Operation-Guide/Image-Service-Guide/Image-Access-Rules.md	
-                - name: Quick Use Picture Service
-                  href: Operation-Guide/Image-Service-Guide/Getting-Started.md  
-                - name: Image Zooming
-                  href: peration-Guide/Image-Service-Guide/Resize-Images.md
-                - name: Image Rotation
-                  href: Operation-Guide/Image-Service-Guide/Rotate-Image.md 
-                - name: Image Cropping
-                  href: Operation-Guide/Image-Service-Guide/Crop-Images.md 
-                - name: Format Conversion
-                  href: Operation-Guide/Image-Service-Guide/Convert-Format.md	
-                - name: Image Watermark
-                  href: Operation-Guide/Image-Service-Guide/Add-Image-Watermarks.md 
-                - name: Text Watermark
-                  href: Operation-Guide/Image-Service-Guide/Add-Text-Watermarks.md 
-                - name: Obtain Image Information
-                  href: Operation-Guide/Image-Service-Guide/Obtain-Image-Information.md
-                - name: Face Recognition
-                  href: Operation-Guide/Image-Service-Guide/Face-Recognition.md	
-                - name: Image Porn Identification
-                  href: Operation-Guide/Image-Service-Guide/Porn-Recognition.md  
-                - name: Original Image Protection
-                  href:  Operation-Guide/Image-Service-Guide/Source-Image-Protection.md
-                - name: Error Response
-                  href: Operation-Guide/Image-Service-Guide/Response-To-Errors.md
-           - name: Video Processing Guide
-             items:
-                - name: Overview
-                  href: Operation-Guide/Video-Service-Guide/Video-Service-Guide-Overview.md
-                - name: Access Rules of Image Processing
-                  href: Operation-Guide/Video-Service-Guide/Getting-Started.md
-                - name: Video Processing Signature Verification
-                  href: Operation-Guide/Video-Service-Guide/User-Signature-Authentication.md   
-                - name: Create Video Transcoding
-                  href: Operation-Guide/Video-Service-Guide/Create-Video-Transcoding.md 
-                - name: Acquire Video Task List
-                  href: Operation-Guide/Video-Service-Guide/Get-Video-Task.md 
-                - name: Search Video Task
-                  href: Operation-Guide/Video-Service-Guide/Query-Video-Task.md
-                - name: Delete Video Task
-                  href: Operation-Guide/Video-Service-Guide/Delete-Video-Task.md	
+           - name: Callback Notification
+             href: Operation-Guide/Manage-Bucket/Callback-Notification.md
+      - name: Object Management
+        items:
+          - name: Create Folder
+            href: Operation-Guide/Manage-Object/Create-Folder.md
+          - name: Search Object
+            href: Operation-Guide/Manage-Object/Search-Object.md	
+          - name: Get Object URL
+            href: Operation-Guide/Manage-Object/Get-Object-URL.md
+          - name: Delete Object
+            href: Operation-Guide/Manage-Object/Delete-Object.md
+          - name: Post Object
+            href: Operation-Guide/Manage-Object/Post-Object.md                  
+          - name: Consumption Monitoring
+            href: Operation-Guide/Manage-Object/Usage-Monitoring.md         
+      - name: Image Processing Guide
+        items:            
+          - name: Introduction
+            href: Operation-Guide/Image-Service-Guide/Introduction.md
+          - name: Access Rules of Image Processing
+            href: Operation-Guide/Image-Service-Guide/Image-Access-Rules.md
+          - name: Getting Started
+            href: Operation-Guide/Image-Service-Guide/Getting-Started.md  
+          - name: Image Scaling
+            href: peration-Guide/Image-Service-Guide/Resize-Images.md
+          - name: Image Rotation
+            href: Operation-Guide/Image-Service-Guide/Rotate-Image.md 
+          - name: Image Cropping
+            href: Operation-Guide/Image-Service-Guide/Crop-Images.md 
+          - name: Format Conversion
+            href: Operation-Guide/Image-Service-Guide/Convert-Format.md	
+          - name: Image Watermark
+            href: Operation-Guide/Image-Service-Guide/Add-Image-Watermarks.md 
+          - name: Text Watermark
+            href: Operation-Guide/Image-Service-Guide/Add-Text-Watermarks.md 
+          - name: Obtain Image Information
+            href: Operation-Guide/Image-Service-Guide/Obtain-Image-Information.md
+          - name: Face Recognition
+            href: Operation-Guide/Image-Service-Guide/Face-Recognition.md	
+          - name: Image Porn Identification
+            href: Operation-Guide/Image-Service-Guide/Porn-Recognition.md  
+          - name: Original Image Protection
+            href: Operation-Guide/Image-Service-Guide/Source-Image-Protection.md
+          - name: Error Response
+            href: Operation-Guide/Image-Service-Guide/Response-To-Errors.md 
+      - name: Video Processing Guide
+        items:                        
+          - name: Overview
+            href: Operation-Guide/Video-Service-Guide/Video-Service-Guide-Overview.md
+          - name: Getting Started
+            href: Operation-Guide/Video-Service-Guide/Getting-Started.md
+          - name: Signature Authentication
+            href: Operation-Guide/Video-Service-Guide/User-Signature-Authentication.md   
+          - name: Create Video Transcoding
+            href: Operation-Guide/Video-Service-Guide/Create-Video-Transcoding.md 
+          - name: Acquire Video Task List
+            href: Operation-Guide/Video-Service-Guide/Get-Video-Task.md 
+          - name: Search Video Task
+            href: Operation-Guide/Video-Service-Guide/Query-Video-Task.md
+          - name: Delete Video Task
+            href: Operation-Guide/Video-Service-Guide/Delete-Video-Task.md	
  - name: API Reference(S3 Compatible)
    items:
       - name: Overview
         href: API-Reference-S3-Compatible/Introduction.md
       - name: Regions And Endpoints
         href: API-Reference-S3-Compatible/Regions-And-Endpoints.md
-      - name: Compatible Signature Verification
+      - name: Compatible Signature Authentication
         href: API-Reference-S3-Compatible/User-Signature-Authentication-s3.md  
       - name: Compatible Public Header
-        href:  API-Reference-S3-Compatible/Compatibility-Header.md      
+        href: API-Reference-S3-Compatible/Compatibility-Header.md      
       - name: Compatible Interface
         items:
            - name: Compatible Interface Overview
@@ -161,8 +165,6 @@
              href: API-Reference-S3-Compatible/Compatibility-Tools/CloudBerry.md                
  - name: API Reference(Previous Version)
    items:
-      - name: 
-        href: Operation-Guide/Overview-Pag.md
       - name: OSS API Introduction
         items:
            - name: Basic Concept
@@ -175,64 +177,63 @@
              href: API-Reference/Introduction/OSS-Concepts.md 
       - name: API Overview
         href: API-Reference/API-Overview.md
-      - name: General HTTP Header Definition
+      - name: General HTTP Header
         items:
            - name: General Request Header
              href: API-Reference/HTTP-Header/Request-Headers.md
            - name: Public Response Header
              href: API-Reference/Introduction/Response-Headers.md        
-           - name: Document Management
-           - name: Identity and Access Management
-             items:
-                - name: Contain Signature in the Header
-                  href: API-Reference/Access-Control/Signature-In-Header.md
-                - name: Contain Signature in the URL
-                  href:  API-Reference/Access-Control/Signature-In-URL.md
-           - name: About Service Actions
-             items:
-                - name: GetService
-                  href: API-Reference/Service-Operations/GetService.md  
-           - name: About Bucket Actions
-             items:
-                - name: PutBucket
-                  href: API-Reference/Bucket-Operations/PutBucket.md
-                - name: GetBucket
-                  href: API-Reference/Bucket-Operations/GetBucket.md             
-                - name: PutBucketReferer
-                  href: API-Reference/Bucket-Operations/PutBucketReferer.md 
-                - name: GetBucketReferer
-                  href: API-Reference/Bucket-Operations/GetBucketReferer.md 
-                - name: DeleteBucket
-                  href: API-Reference/Bucket-Operations/DeleteBucket.md            
-           - name: About Object Actions
-             items:
-                - name: PutObject
-                  href: API-Reference/Object-Operations/PutObject.md
-                - name: GetObject
-                  href: API-Reference/Object-Operations/GetObject.md
-                - name: DeleteObject
-                  href: API-Reference/Object-Operations/DeleteObject.md
-                - name: About MultipartUpload Actions
-             items:
-               - name: InitiateMultipartUpload
-                 href: API-Reference/MultipartUpload-Operations/InitiateMultipartUpload.md
-               - name: UploadPart
-                 href: API-Reference/MultipartUpload-Operations/UploadPart.md
-               - name: CompleteMultipartUpload
-                 href: API-Reference/MultipartUpload-Operations/CompleteMultipartUpload.md
-               - name: ListMultipartUploads
-                 href: API-Reference/MultipartUpload-Operations/ListMultipartUploads.md 
-               - name: AbortMultipartUpload
-                 href: API-Reference/MultipartUpload-Operations/AbortMultipartUpload.md 
-               - name: ListParts
-                 href: API-Reference/MultipartUpload-Operations/ListParts.md
-           - name: Error Response
-             items:
-               - name: Error Response List
-                 href: API-Reference/Response-To-Errors/Error-List.md
-               - name: Error Response Structure
-                 href: API-Reference/Response-To-Errors/Response-Structure.md
- - name: Previous Version SDK
+      - name: Signature Authentication
+        items:             
+           - name: Signature in the Header
+             href: API-Reference/Access-Control/Signature-In-Header.md
+           - name: Signature in the URL
+             href: API-Reference/Access-Control/Signature-In-URL.md
+      - name: Service Operations
+        items:
+           - name: GetService
+             href: API-Reference/Service-Operations/GetService.md
+      - name: Bucket Operations
+        items:
+           - name: PutBucket
+             href: API-Reference/Bucket-Operations/PutBucket.md
+           - name: GetBucket
+             href: API-Reference/Bucket-Operations/GetBucket.md             
+           - name: PutBucketReferer
+             href: API-Reference/Bucket-Operations/PutBucketReferer.md 
+           - name: GetBucketReferer
+             href: API-Reference/Bucket-Operations/GetBucketReferer.md 
+           - name: DeleteBucket
+             href: API-Reference/Bucket-Operations/DeleteBucket.md
+      - name: Object Operations
+        items:
+           - name: PutObject
+             href: API-Reference/Object-Operations/PutObject.md
+           - name: GetObject
+             href: API-Reference/Object-Operations/GetObject.md
+           - name: DeleteObject
+             href: API-Reference/Object-Operations/DeleteObject.md
+      - name: MultipartUpload Operations
+        items:
+          - name: InitiateMultipartUpload
+            href: API-Reference/MultipartUpload-Operations/InitiateMultipartUpload.md
+          - name: UploadPart
+            href: API-Reference/MultipartUpload-Operations/UploadPart.md
+          - name: CompleteMultipartUpload
+            href: API-Reference/MultipartUpload-Operations/CompleteMultipartUpload.md
+          - name: ListMultipartUploads
+            href: API-Reference/MultipartUpload-Operations/ListMultipartUploads.md 
+          - name: AbortMultipartUpload
+            href: API-Reference/MultipartUpload-Operations/AbortMultipartUpload.md 
+          - name: ListParts
+            href: API-Reference/MultipartUpload-Operations/ListParts.md 
+      - name: Error Response
+        items:
+          - name: Error Response List
+            href: API-Reference/Response-To-Errors/Error-List.md
+          - name: Error Response Structure
+            href: API-Reference/Response-To-Errors/Response-Structure.md
+ - name: SDK Reference(Previous Version)
    items:
       - name: Java SDK
         items:
@@ -247,7 +248,7 @@
            - name: List Bucket
              href: SDK-Reference/Java-SDK/List-Buckets.md  
            - name: Delete Bucket
-             href:  SDK-Reference/Java-SDK/Delete-Bucket.md 
+             href: SDK-Reference/Java-SDK/Delete-Bucket.md 
            - name: Simple Upload
              href: SDK-Reference/Java-SDK/Simple-Upload.md 
            - name: Multipart Upload
@@ -256,30 +257,33 @@
              href: SDK-Reference/Java-SDK/Simple-Download.md
            - name: Range Download
              href: SDK-Reference/Java-SDK/Range-Download.md
-           - name: Management File
-             href:  SDK-Reference/Java-SDK/Manage-Objects.md
-           - name: Delete Files
+           - name: Manage Objects
+             href: SDK-Reference/Java-SDK/Manage-Objects.md
+           - name: Delete Object
              href: SDK-Reference/Java-SDK/Delete-Object.md
-           - name: Move File
+           - name: Move Object
              href: SDK-Reference/Java-SDK/Move-Object.md
-           - name: Grant Access Privilege
-             href:  SDK-Reference/Java-SDK/User-Signature-Authentication.md             
-           - name: Document Management                  
+           - name: Generate presigned URL
+             href: SDK-Reference/Java-SDK/User-Signature-Authentication.md        
  - name: Best Practice
    items:
       - name: Use S3fs to Mount Bucket on Linux Instance
         href: Best-Practices/S3fs.md
       - name: Bucket Policy
-        href: Best-Practices/Anti-leech.md 
+        href: Best-Practices/Bucket-Policy.md
+      - name: Anti-leech
+        href: Best-Practices/Anti-leech.md         
       - name: Use CloudBerry to Manage OSS
         href: Best-Practices/CloudBerry.md 
-      - name: Generate Presigned-URL
-        href: Best-Practices/Presigned-URL.md
+      - name: Generate presigned URL
+        href: Best-Practices/Signature-In-URL.md
       - name: Cross-origin Access
         href: Best-Practices/CORS.md
       - name: Data Migration Tool 
         href: Best-Practices/Data-Migration-Tool.md 
       - name: Use S3cmd to Manage OSS
         href: Best-Practices/S3cmd.md
+      - name: Set Signature Authentication For Callback Server
+        href: Best-Practices/Setting-Signature-Authentication-For-Callback-Server.md 
  - name: FAQ
    status: 0
