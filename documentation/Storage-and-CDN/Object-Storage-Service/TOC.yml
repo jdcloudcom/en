@@ -22,7 +22,7 @@
       - name: Price Overview
         href: Pricing/Price-Overview.md
       - name: View Bills
-        href: Pricing/Check-Bill.md name
+        href: Pricing/Check-Bill.md
  - name: Getting-Started
    items:
       - name: Sign Up Service
