@@ -16,7 +16,7 @@ cn-east-2 |monitor.cn-east-2.jdcloud-api.com
 
 3. Support batch reporting mode. A single request can contain up to 50 data points; the data size shall not exceed 256k.
 
-Note: For Getting Started Guide on OpenAPI, please see the <a href="www.jdcloud.com">public description</a>
+Note: For Getting Started Guide on OpenAPI, please see the <a href="https://github.com/jdcloudcom/en/blob/translationUse/API/Common-Declaration/Introduction.md">public description</a>
 
 ### Request Method
 
