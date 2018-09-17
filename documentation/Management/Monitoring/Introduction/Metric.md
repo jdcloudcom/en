@@ -129,39 +129,39 @@ ProcessedOut_pps |pps|	1 Minute
 ProcessedIn_Bytes|Byte|	1 Minute
 
 
-## Cache Redis Monitoring Metric
+## Redis Monitoring Metric
 Monitoring Metrics | Units | Minimum Monitoring Granularity
 ---|---|---
-Memory Usage |MB|	1 Minute
-Memory Utilization Rate	|%|	1 Minute
-Intranet Inflow	|bps|	1 Minute
-Intranet Outflow	|bps|	1 Minute
-QPS	|Frequency|	1 Minute
-Hit Ratio	|%|	1 Minute
-Number of Instance Keys|Quantity|	1 Minute
+Used Memory |MB|	1 Minute
+Memory Usage	|%|	1 Minute
+Intranet In Traffic	|bps|	1 Minute
+Intranet Out Traffic	|bps|	1 Minute
+QPS	|Count|	1 Minute
+Hit Rate	|%|	1 Minute
+Instance Key|Count|	1 Minute
 
 ## MongoDB Monitoring Metric
 Monitoring Metrics | Units | Minimum Monitoring Granularity
 ---|---|---
-CPU Utilization Rate	|%|	1 Minute
-Memory Utilization Rate	|%|	1 Minute
-Disk Utilization Rate	|%|	1 Minute
+CPU Usage	|%|	1 Minute
+Memory Usage	|%|	1 Minute
+Disk Usage	|%|	1 Minute
 IOPS Utilization Rate	|%|	1 Minute
-Connections|Quantity|1 Minute 
-network_bytesIn|Byte|1 Minute 
-network_bytesOut|Byte|1 Minute 
-network_numRequests|Byte|1 Minute 
-op_command|Quantity|	1 Minute
-op_delete|Quantity| 1 Minute
-op_getmore|Quantity| 1 Minute
-op_insert|Quantity| 1 Minute
-op_query|Quantity| 1 Minute
-op_update|Quantity| 1 Minute
-cursor_timeoute|Quantity| 1 Minute
-cursor_totalOpen|Quantity| 1 Minute
-globalLock_cp_total|Quantity| 1 Minute
-globalLock_cp_readers|Quantity| 1 Minute
-globalLock_cp_writers|Quantity| 1 Minute
+Connections|Count|1 Minute 
+Network Inbound|Byte|1 Minute 
+Network Outbound|Byte|1 Minute 
+Network Requests|Byte|1 Minute 
+Op_command|Count|	1 Minute
+Op_delete|Count| 1 Minute
+Op_getmore|Count| 1 Minute
+Op_insert|Count| 1 Minute
+Op_query|Count| 1 Minute
+Op_update|Count| 1 Minute
+Cursor_timeoute|Count| 1 Minute
+Cursor_totalOpen|Count| 1 Minute
+GlobalLock_cp_total|Count| 1 Minute
+GlobalLock_cp_readers|Count| 1 Minute
+GlobalLock_cp_writers|Count| 1 Minute
 Wt_bytes_read_into_cache|byte|1 Minute
 Wt_bytes_written_from_cache|byte|1 Minute
 Wt_max_bytes_config|byte|1 Minute
@@ -172,22 +172,22 @@ Wt_max_bytes_config|byte|1 Minute
 Monitoring Metrics | Units | Minimum Monitoring Granularity
 ---|---|---
 CPU Usage	|%|	1 Minute
-Memory Utilization Rate	|%|	1 Minute
+Memory Usage	|%|	1 Minute
 Disk Read Throughput	|kbps|	1 Minute
 Disk Write Throughput	|kbps|	1 Minute
-Network Entry Rate	|bps|	1 Minute
-Network Out Rate	|bps|	1 Minute
+Network Inbound Traffic	|bps|	1 Minute
+Network Outbound Traffic	|bps|	1 Minute
 
 ## OSS Monitoring 
 Monitoring Metrics | Units | Minimum Monitoring Granularity
 ---|---|---
-Public Network Inflow	|Byte|	1 Minute
-Public Network Outflow	|Byte|	1 Minute
-Get Total Requests	|Frequency|	1 Minute
-Put Total Requests	|Frequency|	1 Minute
-Total Requests	|Frequency|	1 Minute
-CDN Inflow	|Byte|	1 Minute
-CDN Outflow	|Byte|	1 Minute
+Internet Inbound Traffic|Byte|	1 Minute
+Internet Outbound Traffic	|Byte|	1 Minute
+Get Requests	|Frequency|	1 Minute
+Put Requests	|Frequency|	1 Minute
+Requests	|Frequency|	1 Minute
+CDN Inbound Traffic	|Byte|	1 Minute
+CDN Outbound Traffic	|Byte|	1 Minute
 
 ## Auto Scaling Monitoring
 **Auto Scaling Group**
