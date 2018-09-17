@@ -1,37 +1,37 @@
 # describeIndexPerformance
 
 
-## Description
+## 描述
 Obtain statistics on index performance based on user-defined query conditions, and provide missing indexes and suggestions for index creation. Users can use these information to find index-related performance bottlenecks and optimize them. <br>- Support SQL Server Only
 
-## Request method
+## 请求方式
 POST
 
-## Request address
+## 请求地址
 https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/performance:describeIndexPerformance
 
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**instanceId**|String|True||RDS instance ID, which uniquely identifies an RDS instance|
 |**regionId**|String|True||Region code, with range detailed in [Regions and Availability Zone Comparison Table](../Enum-Definitions/Regions-AZ.md)|
 
-## Request parameter
-|Name|Type|Required or not|Default value|Description|
+## 请求参数
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**db**|String|False||Multiple names of the database to be queried are separated by commas and all databases are by default.|
 |**pageNumber**|Integer|False||The default of the page number of the data displayed is 1 and the value range is [-1,1000). When pageNumber is -1, return all data page numbers; when the total number of pages is exceeded, display the last page.|
 |**pageSize**|Integer|False||The default of the number of data displayed per page is 50 and the value range is [1,100]. It can only be a multiple of 10 used for the interface to query the list.|
-|**queryType**|String|True||Query type, return results of fields from high to low for different query types. <br>The following types are supported:<br>Missing: Index missing<br>Size: Index size, unit KB<br>Updates: Index updates<br>Scans: Table scan times<br>Used: Least used<br>|
+|**queryType**|String|True||查询类型，不同的查询类型按照相应的字段从高到低返回结果。<br>支持如下类型：<br>Missing：缺失索引<br>Size：索引大小，单位KB<br>Updates：索引更新次数<br>Scans：表扫描次数<br>Used：最少使用<br>|
 
 
-## Return parameter
-|Name|Type|Description|
+## 返回参数
+|名称|类型|描述|
 |---|---|---|
 |**result**|[Result](##Result)||
 
 
 ### <a name="Result">Result</a>
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
 |**indexPerformanceResult**|[IndexPerformanceResult[]](##IndexPerformanceResult)|When the queryType is Missing, the field is empty <br>when the queryType is other values, return IndexPerformanceResult|
 |**missingIndexResult**|[MissingIndexResult[]](##MissingIndexResult)|When queryType is Missing, the result set is MissingIndexResult<br>when queryType is other values, the field is null.|
@@ -39,7 +39,7 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/perform
 |**pageSize**|Integer|The Number of Data Displayed Per Page|
 |**totalCount**|Integer|Total Number of Records|
 ### <a name="IndexPerformanceResult">IndexPerformanceResult</a>
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
 |**db**|String|Database Name|
 |**index**|String|Index Name|
@@ -52,7 +52,7 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/perform
 |**userSeeks**|Integer|Cumulative index search times since the server was started|
 |**userUpdates**|Integer|Cumulative number of index updates since the server was started|
 ### <a name="MissingIndexResult">MissingIndexResult</a>
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
 |**avgUserImpact**|Number|The average percentage gain that the user may get during query after implementing this missing index. This value indicates that if this missing index is implemented, the query cost will decrease by this percentage on average.|
 |**db**|String|Database Name|
@@ -63,7 +63,7 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/perform
 |**userScans**|Integer|Number of scans caused by the query of a user that might have used the suggested index in the group.|
 |**userSeeks**|Integer||
 
-## Return code
-|Return code|Description|
+## 返回码
+|返回码|描述|
 |---|---|
 |**200**|OK|

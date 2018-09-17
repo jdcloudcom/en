@@ -1,40 +1,40 @@
 # getClusterDetailInfo
 
 
-## Description
+## 描述
 Display the cluster details during cluster expansion
 
-## Request method
+## 请求方式
 POST
 
-## Request address
+## 请求地址
 https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/clusterInfo/{clusterId}:detail
 
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**clusterId**|String|True||Cluster ID to be expanded|
 |**regionId**|String|True||Region ID|
 
-## Request parameter
-|Name|Type|Required or not|Default value|Description|
+## 请求参数
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 
 
-## Return parameter
-|Name|Type|Description|
+## 返回参数
+|名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
 |**result**|[Result](##Result)||
 
 
 ### <a name="Result">Result</a>
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
 |**data**|[ClusterDetailInfo](##ClusterDetailInfo)||
 |**message**|String||
 |**status**|String||
 ### <a name="ClusterDetailInfo">ClusterDetailInfo</a>
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
 |**masterCore**|Integer|Master node CPU|
 |**masterDiskType**|String|"Master node cloud disk type, the optional types are (the following types are separated with "/")"<br>"NBD/NBD_SATA"<br>"Respectively stand for: Performance Type/Capacity Type"<br>|
@@ -51,8 +51,8 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/clusterInfo/{clusterId}:d
 |**slaveMemory**|Integer|Slave node memory (At least 4G memory is recommended; otherwise the service may fail to deploy)|
 |**slaveNum**|Integer|Slave node number|
 
-## Return code
-|Return code|Description|
+## 返回码
+|返回码|描述|
 |---|---|
 |**200**|OK|
 |**500**|Internal server error|

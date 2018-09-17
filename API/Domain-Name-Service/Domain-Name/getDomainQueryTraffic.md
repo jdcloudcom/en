@@ -1,44 +1,44 @@
 # getDomainQueryTraffic
 
 
-## Description
+## 描述
 View query traffic of domain names
 
-## Request method
+## 请求方式
 GET
 
-## Request address
+## 请求地址
 https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domain/{domainId}/queryTraffic
 
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**domainId**|String|True||Domain Name ID|
 |**regionId**|String|True||Region ID to which the instance belongs|
 
-## Request parameter
-|Name|Type|Required or not|Default value|Description|
+## 请求参数
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**domainName**|String|True||Domain Name|
 |**end**|String|True||Termination time, UTC time, for example, 2017-11-10T23:00:00Z|
 |**start**|String|True||Start time, UTC time, for example, 2017-11-10T23:00:00Z|
 
 
-## Return parameter
-|Name|Type|Description|
+## 返回参数
+|名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
 |**result**|[Result](##Result)||
 
 
 ### <a name="Result">Result</a>
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
 |**time**|Integer[]|Time series|
 |**traffic**|Number[]|Data series|
 |**unit**|String|Unit of data|
 
-## Return code
-|Return code|Description|
+## 返回码
+|返回码|描述|
 |---|---|
 |**200**|OK|
 |**400**|NOT_FOUND|

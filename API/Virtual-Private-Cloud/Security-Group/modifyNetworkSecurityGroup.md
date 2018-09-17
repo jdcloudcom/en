@@ -1,36 +1,36 @@
 # modifyNetworkSecurityGroup
 
 
-## Description
+## 描述
 Modify security group attribute
 
-## Request method
+## 请求方式
 PATCH
 
-## Request address
+## 请求地址
 https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkSecurityGroups/{networkSecurityGroupId}
 
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**networkSecurityGroupId**|String|True||NetworkSecurityGroup ID|
 |**regionId**|String|True||Region ID|
 
-## Request parameter
-|Name|Type|Required or not|Default value|Description|
+## 请求参数
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**description**|String|False||Security group description, value range: 0-256 of all characters entered under UTF-8 encoding|
+|**description**|String|False||Security group description, value range: 0-256 of all characters entered under UTF-8 coding|
 |**networkSecurityGroupName**|String|False||Security group name. Value range of name: 1-32 Chinese, English capital and lowercase letters, numbers and underline delimiter|
 
 
-## Return parameter
-|Name|Type|Description|
+## 返回参数
+|名称|类型|描述|
 |---|---|---|
 |**requestId**|String|Request ID|
 
 
 
-## Return code
-|Return code|Description|
+## 返回码
+|返回码|描述|
 |---|---|
 |**200**|OK|
 |**400**|Request parameter x.y.z is 'xxx', expected one of [yyy,zzz]|

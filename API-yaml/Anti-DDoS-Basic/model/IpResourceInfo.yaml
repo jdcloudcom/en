@@ -16,12 +16,12 @@ definitions:
       blackHoleThreshold:
         type: integer
         format: int64
-        description: Black hole threshold, unit: bps
+        description: "Black hole threshold, unit: bps"
       cleanThresholdBps:
         type: integer
         format: int64
-        description: Traffic rate of trigger cleaning, unit: bps
+        description: "Traffic rate of trigger cleaning, unit: bps"
       cleanThresholdPps:
         type: integer
         format: int64
-        description: Package rate of trigger cleaning, unit: pps
+        description: "Package rate of trigger cleaning, unit: pps"

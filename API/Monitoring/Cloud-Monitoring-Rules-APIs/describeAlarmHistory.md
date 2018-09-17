@@ -1,21 +1,21 @@
 # describeAlarmHistory
 
 
-## Description
+## 描述
 Query alarm history, supporting query based on alarm rule ID, resource ID and product name.
 
-## Request method
+## 请求方式
 GET
 
-## Request address
+## 请求地址
 https://monitor.jdcloud-api.com/v1/regions/{regionId}/alarmHistory
 
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**regionId**|String|True||Region ID|
 
-## Request parameter
-|Name|Type|Required or not|Default value|Description|
+## 请求参数
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**endTime**|String|True||Query end time of data, current time by default, it can enter long-type time, and it also can enter yyyy-MM-dd'T’HH:mm:ssZ type time|
 |**id**|String|False||Id of alarm rule|
@@ -26,15 +26,15 @@ https://monitor.jdcloud-api.com/v1/regions/{regionId}/alarmHistory
 |**startTime**|String|True||Query start time of data, 24 hours ago by default, it can enter long-type time, and it also can enter yyyy-MM-dd'T’HH:mm:ssZ type time|
 
 
-## Return parameter
-|Name|Type|Description|
+## 返回参数
+|名称|类型|描述|
 |---|---|---|
-|**requestId**|String|Requested identifier id|
+|**requestId**|String|Request ID|
 |**result**|[Result](##Result)||
 
 
 ### <a name="Result">Result</a>
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
 |**alarmHistoryList**|[AlarmHistory[]](##AlarmHistory)|Alarm history list|
 |**numberPages**|Number|Number of total pages|
@@ -42,12 +42,12 @@ https://monitor.jdcloud-api.com/v1/regions/{regionId}/alarmHistory
 |**pageNumber**|Number|Page|
 |**pageSize**|Number|Paging size|
 ### <a name="AlarmHistory">AlarmHistory</a>
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
 |**calculation**|String|Statistical method: average value=avg, maximum value=max, minimum value=min,|
-|**contactGroups**|String[]|Contact group notified, for example [“contact group 1”, “contact group 2”]|
-|**contactPersons**|String[]|Contact notified, for example“[‘contact 1’, ‘contact 2’]”|
-|**deleted**|Integer|Whether the rule has been deleted, 1 represents it has been deleted, 0 represents it has not been deleted, the deleted rules will not be retrieved when using the interface for querying rules|
+|**contactGroups**|String[]|Notify contact group, for example [“contact group 1”, “contact group 2”]|
+|**contactPersons**|String[]|Notify contact, for example“[‘contact 1’, ‘contact 2’]”|
+|**deleted**|Integer|Whether the rule has been deleted, 1 represents it has been deleted, 0 represents it has not been deleted, the deleted rules will not be retrieved when using the API for querying rules|
 |**enabled**|Integer|Enable&Disable 1 Enable, 0 Disable|
 |**id**|String|Rule id|
 |**metric**|String|Monitoring item|
@@ -64,8 +64,8 @@ https://monitor.jdcloud-api.com/v1/regions/{regionId}/alarmHistory
 |**times**|Integer|Alarm after how many times|
 |**value**|Number|Alarm value|
 
-## Return code
-|Return code|Description|
+## 返回码
+|返回码|描述|
 |---|---|
 |**200**|OK|
 |**400**|invalid parameter|

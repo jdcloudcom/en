@@ -1,37 +1,37 @@
 # associateElasticIp
 
 
-## Description
+## 描述
 Associate elastic Ip interface to network interface
 
-## Request method
+## 请求方式
 POST
 
-## Request address
+## 请求地址
 https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkInterfaces/{networkInterfaceId}:associateElasticIp
 
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**networkInterfaceId**|String|True||networkInterface ID|
 |**regionId**|String|True||Region ID|
 
-## Request parameter
-|Name|Type|Required or not|Default value|Description|
+## 请求参数
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**elasticIpAddress**|String|False||Associated elastic Ip address|
 |**elasticIpId**|String|False||Associated elastic Ip Id|
 |**privateIpAddress**|String|False||Associate elastic Ip to assigned privateIp|
 
 
-## Return parameter
-|Name|Type|Description|
+## 返回参数
+|名称|类型|描述|
 |---|---|---|
 |**requestId**|String|Request ID|
 
 
 
-## Return code
-|Return code|Description|
+## 返回码
+|返回码|描述|
 |---|---|
 |**200**|Successful operation|
 |**400**|Request parameter x.y.z is 'xxx', expected one of [yyy,zzz]|

@@ -1,32 +1,32 @@
 # deleteDatabase
 
 
-## Description
-Delete the database from the RDS instance. For management and data restoration, RDS controls user permissions. Users can only delete databases through the console or this interface.</br>sensitive operation, enable<a href="https://www.jdcloud.com/help/detail/3786/isCatalog/1">MFA operation protection</a>
+## 描述
+Delete the database from the RDS instance. For management and data restoration, RDS controls user permissions. Users can only delete databases through the console or this interface.</br>敏感操作，可开启<a href="https://www.jdcloud.com/help/detail/3786/isCatalog/1">MFA操作保护</a>
 
-## Request method
+## 请求方式
 DELETE
 
-## Request address
+## 请求地址
 https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/databases/{dbName}
 
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**dbName**|String|True||Database name|
 |**instanceId**|String|True||RDS instance ID, which uniquely identifies an RDS instance|
 |**regionId**|String|True||Region code, with range detailed in [Regions and Availability Zone Comparison Table](../Enum-Definitions/Regions-AZ.md)|
 
-## Request parameter
+## 请求参数
 无
 
 
-## Return parameter
-|Name|Type|Description|
+## 返回参数
+|名称|类型|描述|
 |---|---|---|
 
 
 
-## Return code
-|Return code|Description|
+## 返回码
+|返回码|描述|
 |---|---|
 |**200**|OK|

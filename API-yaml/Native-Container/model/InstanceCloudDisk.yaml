@@ -26,7 +26,7 @@ definitions:
           description: Disk size (GiB)
         status:
           type: string
-          description: Cloud disk service type, value: creating, available, in-use, extending, restoring, deleting, deleted, error_creating, error_deleting, error_restoring or error_extending
+          description: "Cloud disk service type, value: creating, available, in-use, extending, restoring, deleting, deleted, error_creating, error_deleting, error_restoring or error_extending"
         createTime:
           type: string
           description: Creation time

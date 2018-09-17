@@ -1,36 +1,36 @@
 # extendDisk
 
 
-## Description
+## 描述
 -   Expansion of the cloud disk service requires it in available status.
 -   Capacity expansion is not allowed while the disk is creating a snapshot.
 
 
-## Request method
+## 请求方式
 POST
 
-## Request address
+## 请求地址
 https://disk.jdcloud-api.com/v1/regions/{regionId}/disks/{diskId}:extend
 
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**diskId**|String|True||Cloud Disk Service ID|
 |**regionId**|String|True||Region ID|
 
-## Request parameter
-|Name|Type|Required or not|Default value|Description|
+## 请求参数
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**diskSizeGB**|Integer|True||The size of the cloud disk service after expansion is in GiB|
 
 
-## Return parameter
-|Name|Type|Description|
+## 返回参数
+|名称|类型|描述|
 |---|---|---|
 
 
 
-## Return code
-|Return code|Description|
+## 返回码
+|返回码|描述|
 |---|---|
 |**400**|Invalid parameter|
 |**401**|Authentication failed|

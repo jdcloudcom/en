@@ -1,41 +1,41 @@
 # describeAlarmsByID
 
 
-## Description
+## 描述
 Query rule details
 
-## Request method
+## 请求方式
 GET
 
-## Request address
+## 请求地址
 https://monitor.jdcloud-api.com/v1/regions/{regionId}/alarms/{alarmId}
 
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**alarmId**|String|True||Rule id|
 |**regionId**|String|True||Region ID|
 
-## Request parameter
+## 请求参数
 无
 
 
-## Return parameter
-|Name|Type|Description|
+## 返回参数
+|名称|类型|描述|
 |---|---|---|
-|**requestId**|String|Requested identifier id|
+|**requestId**|String|Request ID|
 |**result**|[Result](##Result)||
 
 
 ### <a name="Result">Result</a>
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
 |**alarm**|[Alarm](##Alarm)||
 ### <a name="Alarm">Alarm</a>
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
 |**calculation**|String|Statistical method: average value=avg, maximum value=max, minimum value=min,|
-|**contactGroups**|String[]|Contact group notified, for example [“contact group 1”, “contact group 2”]|
-|**contactPersons**|String[]|Contact notified, for example“[‘contact 1’, ‘contact 2’]”|
+|**contactGroups**|String[]|Notify contact group, for example [“contact group 1”, “contact group 2”]|
+|**contactPersons**|String[]|Notify contact, for example“[‘contact 1’, ‘contact 2’]”|
 |**createTime**|String|Creation time|
 |**enabled**|Integer|Enable&Disable 1 Enable, 0 Disable|
 |**id**|String|Rule id|
@@ -54,8 +54,8 @@ https://monitor.jdcloud-api.com/v1/regions/{regionId}/alarms/{alarmId}
 |**times**|Integer|Alarm after how many times|
 |**value**|Number|Alarm value, this field is valid when querying the alarming rule|
 
-## Return code
-|Return code|Description|
+## 返回码
+|返回码|描述|
 |---|---|
 |**200**|OK|
 |**400**|invalid parameter|

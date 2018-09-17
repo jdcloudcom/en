@@ -20,7 +20,7 @@ paths:
       parameters:
       - in: header
         name: bucketmaxcount
-        description: bucket maximum, e.g.: 50, minimum 20
+        description: "bucket maximum, e.g.: 50, minimum 20"
         required: true
         type: integer
       - in: header
@@ -46,4 +46,4 @@ parameters:
     in: path
     required: true
     type: string
-    description: Region ID, e.g.: cn-north-1
+    description: "Region ID, e.g.: cn-north-1"

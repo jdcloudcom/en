@@ -1,37 +1,37 @@
 # describeDisk
 
 
-## Description
+## 描述
 Query details of a cloud disk service
 
-## Request method
+## 请求方式
 GET
 
-## Request address
+## 请求地址
 https://disk.jdcloud-api.com/v1/regions/{regionId}/disks/{diskId}
 
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**diskId**|String|True||Cloud Disk Service ID|
 |**regionId**|String|True||Region ID|
 
-## Request parameter
+## 请求参数
 无
 
 
-## Return parameter
-|Name|Type|Description|
+## 返回参数
+|名称|类型|描述|
 |---|---|---|
 |**requestId**|String|Request ID|
 |**result**|[Result](##Result)|Query cloud disk service information details|
 
 
 ### <a name="Result">Result</a>
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
 |**disk**|[Disk](##Disk)||
 ### <a name="Disk">Disk</a>
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
 |**attachments**|[DiskAttachment[]](##DiskAttachment)|Attach Information|
 |**az**|String|AZ, to which the cloud disk service belongs|
@@ -47,7 +47,7 @@ https://disk.jdcloud-api.com/v1/regions/{regionId}/disks/{diskId}
 |**status**|String|Status of the cloud disk service, creating, available, in-use, extending, restoring, deleting, deleted, error_create, error_delete, error_restore or error_extend|
 |**tags**|[Tag[]](##Tag)|Tag information|
 ### <a name="DiskAttachment">DiskAttachment</a>
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
 |**attachTime**|String|Attaching Time|
 |**attachmentId**|String|Attach ID|
@@ -56,7 +56,7 @@ https://disk.jdcloud-api.com/v1/regions/{regionId}/disks/{diskId}
 |**instanceType**|String|Type of the instance  attached, vm or nc|
 |**status**|String|Attaching state, "attaching", "attached", "detaching" or "detached"|
 ### <a name="Charge">Charge</a>
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
 |**chargeExpiredTime**|String|Expiration time, i.e. the expiration time of Pay-In-Advance resource, which shall be subject to ISO8601, with the UTC time used in the format of YYYY-MM-DDTHH:mm:ssZ. Pay-As-You-Go resource field is blank.|
 |**chargeMode**|String|Payment model, the value shall be prepaid_by_duration, postpaid_by_usage or postpaid_by_duration; prepaid_by_duration refers to Pay-In-Advance; postpaid_by_usage refers to Pay By Consumption and Pay-As-You-Go; postpaid_by_duration refers to Pay By Configuration and Pay-As-You-Go, and is postpaid_by_duration by default|
@@ -64,13 +64,13 @@ https://disk.jdcloud-api.com/v1/regions/{regionId}/disks/{diskId}
 |**chargeStartTime**|String|The start time of the billing shall be subject to ISO8601, with the UTC time used in the format of YYYY-MM-DDTHH:mm:ssZ|
 |**chargeStatus**|String|Cost payment status, the value is respectively normal, overdue and arrear.|
 ### <a name="Tag">Tag</a>
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
 |**key**|String|Tag Key|
 |**value**|String|Tag Value|
 
-## Return code
-|Return code|Description|
+## 返回码
+|返回码|描述|
 |---|---|
 |**400**|Invalid parameter|
 |**401**|Authentication failed|

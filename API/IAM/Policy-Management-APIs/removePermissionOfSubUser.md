@@ -1,33 +1,33 @@
 # removePermissionOfSubUser
 
 
-## Description
+## 描述
 Disassociate policies for sub-users
 
-## Request method
+## 请求方式
 DELETE
 
-## Request address
+## 请求地址
 https://iam.jdcloud-api.com/v1/regions/{regionId}/subUser/{subUser}/permissions/{permissionId}
 
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**permissionId**|Integer|True||Permission id error|
 |**regionId**|String|True||Region ID|
 |**subUser**|String|True||Sub-user name|
 
-## Request parameter
+## 请求参数
 无
 
 
-## Return parameter
-|Name|Type|Description|
+## 返回参数
+|名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
 
 
 
-## Return code
-|Return code|Description|
+## 返回码
+|返回码|描述|
 |---|---|
 |**200**|OK|

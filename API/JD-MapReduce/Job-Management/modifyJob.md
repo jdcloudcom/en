@@ -1,26 +1,26 @@
 # modifyJob
 
 
-## Description
+## 描述
 Modify the corresponding job information based on the parameter information transferred in
 
-## Request method
+## 请求方式
 POST
 
-## Request address
+## 请求地址
 https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/job:modify
 
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**regionId**|String|True||Region ID|
 
-## Request parameter
-|Name|Type|Required or not|Default value|Description|
+## 请求参数
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**jmrJobViewModel**|[JmrJobViewModel](##JmrJobViewModel)|True||clusterId, jobName, jobType, location, jobArgs, retryTimes and isSendMsg are required|
 
 ### <a name="JmrJobViewModel">JmrJobViewModel</a>
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**clusterId**|String|False||Cluster ID|
 |**clusterName**|String|False||Cluster name|
@@ -45,21 +45,21 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/job:modify
 |**taskScheduleType**|Integer|False|||
 |**userpin**|String|False||User name|
 
-## Return parameter
-|Name|Type|Description|
+## 返回参数
+|名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
 |**result**|[Result](##Result)||
 
 
 ### <a name="Result">Result</a>
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
 |**message**|String||
 |**status**|String||
 
-## Return code
-|Return code|Description|
+## 返回码
+|返回码|描述|
 |---|---|
 |**200**|OK|
 |**500**|Internal server error|

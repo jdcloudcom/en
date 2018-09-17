@@ -1,44 +1,44 @@
 # getMonitor
 
 
-## Description
+## 描述
 View the configuration and status of the monitoring items of the main domain
 
-## Request method
+## 请求方式
 GET
 
-## Request address
+## 请求地址
 https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domain/{domainId}/monitor
 
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**domainId**|String|True||Domain Name ID|
 |**regionId**|String|True||Region ID to which the instance belongs|
 
-## Request parameter
-|Name|Type|Required or not|Default value|Description|
+## 请求参数
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**pageIndex**|Integer|False||Current page, starting value of 1, default value of 1|
 |**pageSize**|Integer|False||Number of rows per page set during paged query|
 |**searchValue**|String|False||Query Value|
 
 
-## Return parameter
-|Name|Type|Description|
+## 返回参数
+|名称|类型|描述|
 |---|---|---|
 |**requestId**|String|ID of this request|
 |**result**|[Result](##Result)||
 
 
 ### <a name="Result">Result</a>
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
 |**currentCount**|Integer|Number of monitoring items of current website page|
 |**dataList**|[Monitor[]](##Monitor)|list of website monitoring items of the current page|
 |**totalCount**|Integer|Number of monitoring items of all websites|
 |**totalPage**|Integer|Pages for all website monitoring items|
 ### <a name="Monitor">Monitor</a>
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
 |**alarmLimit**|Integer|Trigger an alarm several times|
 |**canRecover**|Boolean|Is it possible to recover now?|
@@ -74,8 +74,8 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domain/{domainId}/
 |**type**|Integer|1 A record, 2 CNAME|
 |**usedType**|Integer|Usage record, host_value 0, ip_backup_01 1, ip_backup_02 2 and cname_backup 3|
 
-## Return code
-|Return code|Description|
+## 返回码
+|返回码|描述|
 |---|---|
 |**200**|OK|
 |**400**|BAD_REQUEST|

@@ -15,7 +15,7 @@ definitions:
         description: Subnet name, only allowed to enter Chinese, numbers, capital and lowercase letters, English underline “_” and line-through “-”, must provide a name which cannot exceed 32 characters.
       addressPrefix:
         type: string
-        description: Subnet segment, subnet segment in vpc cannot overlap, value range of cidr: 10.0.0.0/8、172.16.0.0/12, 192.168.0.0/16 and their subnets included and the length of subnet mask is between 16 and 28. If vpc includes cidr, it must be the cidr subnet of vpc
+        description: "Subnet segment, subnet segment in vpc cannot overlap, value range of cidr: 10.0.0.0/8、172.16.0.0/12, 192.168.0.0/16 and their subnets included and the length of subnet mask is between 16 and 28. If vpc includes cidr, it must be the cidr subnet of vpc"
       routeTableId:
         type: string
         description: Subnet associated route table Id, it is default route table of vpc by default

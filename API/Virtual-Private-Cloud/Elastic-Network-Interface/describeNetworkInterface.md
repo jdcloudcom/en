@@ -1,37 +1,37 @@
 # describeNetworkInterface
 
 
-## Description
+## 描述
 Query elastic network interface information details
 
-## Request method
+## 请求方式
 GET
 
-## Request address
+## 请求地址
 https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkInterfaces/{networkInterfaceId}
 
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**networkInterfaceId**|String|True||networkInterface ID|
 |**regionId**|String|True||Region ID|
 
-## Request parameter
+## 请求参数
 无
 
 
-## Return parameter
-|Name|Type|Description|
+## 返回参数
+|名称|类型|描述|
 |---|---|---|
 |**requestId**|String|Request ID|
-|**result**|[Result](##Result)|Return result|
+|**result**|[Result](##Result)|Returned results|
 
 
 ### <a name="Result">Result</a>
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
 |**networkInterface**|[NetworkInterface](##NetworkInterface)|networkInterface resource information|
 ### <a name="NetworkInterface">NetworkInterface</a>
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
 |**az**|String|Availability zone name|
 |**createdTime**|String|Creation time of elastic network interface|
@@ -44,21 +44,21 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkInterfaces/{networkInte
 |**networkInterfaceId**|String|Elastic network interface ID|
 |**networkInterfaceName**|String|Elastic network interface name|
 |**networkSecurityGroupIds**|String[]|Security group ID list|
-|**primaryIp**|[NetworkInterfacePrivateIp](##NetworkInterfacePrivateIp)|Network interface primary IP|
+|**primaryIp**|[NetworkInterfacePrivateIp](##NetworkInterfacePrivateIp)|Primary IP of network interface|
 |**role**|String|Network interface role, value range: Primary (primary network interface), Secondary (secondary network interface)|
 |**sanityCheck**|Integer|Source and target IP address verification, with value 0 or 1|
 |**secondaryIps**|[NetworkInterfacePrivateIp[]](##NetworkInterfacePrivateIp)|Network interface auxiliary IP list|
 |**subnetId**|String|Subnet ID|
 |**vpcId**|String|Virtual network ID|
 ### <a name="NetworkInterfacePrivateIp">NetworkInterfacePrivateIp</a>
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
 |**elasticIpAddress**|String|Elastic IP instance address|
 |**elasticIpId**|String|Elastic IP instance ID|
 |**privateIpAddress**|String|IPV4 address of private IP|
 
-## Return code
-|Return code|Description|
+## 返回码
+|返回码|描述|
 |---|---|
 |**200**|OK|
 |**400**|invalid parameter|

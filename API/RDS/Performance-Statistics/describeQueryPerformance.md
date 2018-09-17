@@ -1,44 +1,44 @@
 # describeQueryPerformance
 
 
-## Description
+## 描述
 Obtain the information of performance statistics of SQL execution, such as slow SQL, etc. based on user-defined query conditions. Based on this information, users can find and optimize performance bottlenecks related to SQL execution. <br>- Support SQL Server Only
 
-## Request method
+## 请求方式
 POST
 
-## Request address
+## 请求地址
 https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/performance:describeQueryPerformance
 
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**instanceId**|String|True||RDS instance ID, which uniquely identifies an RDS instance|
 |**regionId**|String|True||Region code, with range detailed in [Regions and Availability Zone Comparison Table](../Enum-Definitions/Regions-AZ.md)|
 
-## Request parameter
-|Name|Type|Required or not|Default value|Description|
+## 请求参数
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**pageNumber**|Integer|False||The default of the number of the data displayed is 1 and the value range is [-1,1000]. When pageNumber is -1, return all data page numbers; when the total number of pages is exceeded, display the last page.|
 |**pageSize**|Integer|False||The default of the number of data displayed per page is 50 and the value range is [1,100]. It can only be a multiple of 10 used for the interface to query the list.|
-|**queryType**|String|True||Query type, return results of fields from high to low for different query types. <br>The following types are supported:<br>ExecutionCount: Execution times<br>LastRows: Return row number last time<br>ElapsedTime: Average execution times<br>CPUTime: Average CPU time<br>LogicalReads: Average logical reads<br>LogicalWrites: Average logical writes<br>PhysicalReads: Average physical reads<br>|
+|**queryType**|String|True||查询类型，不同的查询类型按照相应的字段从高到低返回结果。<br>支持如下类型：<br>ExecutionCount：执行次数<br>LastRows：上次返回行数<br>ElapsedTime：平均执行时间<br>CPUTime：平均CPU时间<br>LogicalReads：平均逻辑读<br>LogicalWrites：平均逻辑写<br>PhysicalReads：平均物理读<br>|
 |**threshold**|Integer|False||Return only records whose query condition is larger than or equal to threshold and the default is 0|
 
 
-## Return parameter
-|Name|Type|Description|
+## 返回参数
+|名称|类型|描述|
 |---|---|---|
 |**result**|[Result](##Result)||
 
 
 ### <a name="Result">Result</a>
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
 |**pageNumber**|Integer|The Page Number of the Current Data|
 |**pageSize**|Integer|The Number of Data Displayed Per Page|
 |**queryPerformanceResult**|[QueryPerformanceResult[]](##QueryPerformanceResult)|The Result Set of Query Performance Statistics|
 |**totalCount**|Integer|Total Number of Records|
 ### <a name="QueryPerformanceResult">QueryPerformanceResult</a>
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
 |**elapsedTime**|Integer|Average Execution Time in milliseconds (ms)|
 |**executionCount**|Integer|Number of Executions|
@@ -50,7 +50,7 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/perform
 |**sql**|String|sql statement|
 |**workerTime**|Integer|Average CPU Usage Time in milliseconds (ms)|
 
-## Return code
-|Return code|Description|
+## 返回码
+|返回码|描述|
 |---|---|
 |**200**|OK|

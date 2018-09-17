@@ -1,16 +1,16 @@
 # Data Computing Service API
 
 
-## Introduction
+## 简介
 Data computing service APIs
 
 
-### Version
+### 版本
 v1
 
 
 ## API
-|Interface name|Request mehod|Function description|
+|接口名称|请求方式|功能描述|
 |---|---|---|
 |**cancelPySparkJob**|POST|Terminate a user's PySpark script task|
 |**cancelRasQuery**|POST|Terminate the search on the user's Spark SQL script|

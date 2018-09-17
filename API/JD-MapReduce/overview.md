@@ -1,16 +1,16 @@
 # JMR API
 
 
-## Introduction
+## 简介
 Provide APIs for JMR operation in big data infrastructure services
 
 
-### Version
+### 版本
 v1
 
 
 ## API
-|Interface name|Request mehod|Function description|
+|接口名称|请求方式|功能描述|
 |---|---|---|
 |**calculateClusterPrice**|POST|Calculate the cluster price of the corresponding specification attribute|
 |**calculateExpansionPrice**|POST|Compute the price of cluster expansion|

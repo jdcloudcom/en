@@ -1,26 +1,26 @@
 # saveWorkFlow
 
 
-## Description
+## 描述
 Save the workflow information
 
-## Request method
+## 请求方式
 POST
 
-## Request address
+## 请求地址
 https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/workflow:save
 
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**regionId**|String|True||Region ID|
 
-## Request parameter
-|Name|Type|Required or not|Default value|Description|
+## 请求参数
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**workflow**|[EmrWorkflow](##EmrWorkflow)|True|||
 
 ### <a name="EmrWorkflow">EmrWorkflow</a>
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**createTime**|String|False||Workflow creation time|
 |**dataCenter**|String|False||Data center, i.e. regionId|
@@ -34,21 +34,21 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/workflow:save
 |**workflowId**|String|False||Workflow ID|
 |**workflowName**|String|False||Workflow name|
 
-## Return parameter
-|Name|Type|Description|
+## 返回参数
+|名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
 |**result**|[Result](##Result)||
 
 
 ### <a name="Result">Result</a>
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
 |**data**|[Message](##Message)||
 |**message**|String||
 |**status**|String||
 ### <a name="Message">Message</a>
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
 |**code**|String|Code|
 |**data**|Object|Data|
@@ -65,12 +65,12 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/workflow:save
 |**taskId**|String||
 |**total**|Integer||
 ### <a name="Path">Path</a>
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
 |**child**|Integer||
 |**father**|Integer||
 ### <a name="Rect">Rect</a>
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
 |**instanceId**|Integer||
 |**instanceStatus**|Integer||
@@ -84,8 +84,8 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/workflow:save
 |**x**|Number||
 |**y**|Number||
 
-## Return code
-|Return code|Description|
+## 返回码
+|返回码|描述|
 |---|---|
 |**200**|OK|
 |**500**|Internal server error|

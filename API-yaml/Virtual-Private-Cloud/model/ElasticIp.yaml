@@ -11,7 +11,7 @@ definitions:
         description: Elastic IP address
       bandwidthMbps:
         type: integer
-        description: Elastic ip speed limit (unit: Mbps)
+        description: "Elastic ip speed limit (unit: Mbps)"
       provider:
         type: string
         description: IP service provider, values include bgp or no_bgp

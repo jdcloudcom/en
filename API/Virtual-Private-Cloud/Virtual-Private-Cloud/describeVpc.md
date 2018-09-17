@@ -1,37 +1,37 @@
 # describeVpc
 
 
-## Description
+## 描述
 Query Vpc information details
 
-## Request method
+## 请求方式
 GET
 
-## Request address
+## 请求地址
 https://vpc.jdcloud-api.com/v1/regions/{regionId}/vpcs/{vpcId}
 
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**regionId**|String|True||Region ID|
 |**vpcId**|String|True||Vpc ID|
 
-## Request parameter
+## 请求参数
 无
 
 
-## Return parameter
-|Name|Type|Description|
+## 返回参数
+|名称|类型|描述|
 |---|---|---|
 |**requestId**|String|Request ID|
-|**result**|[Result](##Result)|Return result|
+|**result**|[Result](##Result)|Returned results|
 
 
 ### <a name="Result">Result</a>
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
 |**vpc**|[Vpc](##Vpc)|Vpc resource information|
 ### <a name="Vpc">Vpc</a>
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
 |**aclIds**|String[]||
 |**addressPrefix**|String|If it is blank, segment is not limited; if it is not blank, it is 10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16 and their subnets included and the length of subnet mask is between 16 and 28|
@@ -42,7 +42,7 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/vpcs/{vpcId}
 |**vpcId**|String|Vpc Id|
 |**vpcName**|String|Virtual private cloud name, value range: 1-60 Chinese, English capital and lowercase letters, numbers and underline delimiter|
 ### <a name="Subnet">Subnet</a>
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
 |**aclId**|String|Subnet associated acl Id|
 |**addressPrefix**|String|Subnet segment, subnet segment in vpc cannot overlap, value range of cidr: 10.0.0.0/8、172.16.0.0/12, 192.168.0.0/16 and their subnets included and the length of subnet mask is between 16 and 28. If VPC includes Cidr, it must be the Cidr subnet of VPC|
@@ -56,8 +56,8 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/vpcs/{vpcId}
 |**subnetName**|String|Subnet name|
 |**vpcId**|String|VPC Id of subnet|
 
-## Return code
-|Return code|Description|
+## 返回码
+|返回码|描述|
 |---|---|
 |**200**|OK|
 |**400**|invalid parameter|

@@ -14,7 +14,7 @@ definitions:
         description: Availability zone name
       role:
         type: string
-        description: Network interface role, value range: Primary (primary network interface), Secondary (secondary network interface)
+        description: "Network interface role, value range: Primary (primary network interface), Secondary (secondary network interface)"
       macAddress:
         type: string
         description: Ethernet address
@@ -42,7 +42,7 @@ definitions:
         description: Network interface auxiliary IP list
       instanceType:
         type: string
-        description: Associated instance type family, value range: vm
+        description: "Associated instance type family, value range: vm"
       instanceId:
         type: string
         description: Associated instance ID
@@ -51,7 +51,7 @@ definitions:
         description: Account of instance
       deviceIndex:
         type: integer
-        description: Device reference number of network interface on the instance, value range: [0,8], 0: secondary network interface doesn't associate device, 1: primary network interface, 2-8: secondary network interface has associated device
+        description: "Device reference number of network interface on the instance, value range: [0,8], 0: secondary network interface doesn't associate device, 1: primary network interface, 2-8: secondary network interface has associated device"
       description:
         type: string
         description: Network interface description information

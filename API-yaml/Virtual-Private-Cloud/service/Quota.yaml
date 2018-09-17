@@ -22,7 +22,7 @@ paths:
             in: query
             required: true
             type: string
-            description: Resource type, value range: vpc, elastic_ip, subnet, security_group, vpcpeering, network_interface (quota only sums up secondary network interface)
+            description: "Resource type, value range: vpc, elastic_ip, subnet, security_group, vpcpeering, network_interface (quota only sums up secondary network interface)"
           - name: parentResourceId
             in: query
             type: string

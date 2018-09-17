@@ -10,13 +10,13 @@ definitions:
         description: networkAcl rule ID
       protocol:
         type: string
-        description: Rule limits protocol. Value range: All, TCP, UDP, ICMP
+        description: "Rule limits protocol. Value range: All, TCP, UDP, ICMP"
       fromPort:
         type: integer
-        description: The start transport layer port of rule limit, value range: 1-65535; if the protocol is a transport layer protocol, the default value is 1; if the protocol is not a transport layer protocol, the setting becomes invalid and the value is constantly 0. If the rule is limited to one port, a same value is filled in the fromPort and toPort
+        description: "The start transport layer port of rule limit, value range: 1-65535; if the protocol is a transport layer protocol, the default value is 1; if the protocol is not a transport layer protocol, the setting becomes invalid and the value is constantly 0. If the rule is limited to one port, a same value is filled in the fromPort and toPort"
       toPort:
         type: integer
-        description: The end transport layer port of rule limit, value range: 1-65535; if the protocol is a transport layer protocol, the default value is 65535; if the protocol is not a transport layer protocol, the setting becomes invalid and the value is constantly 0. If the rule is limited to one port, a same value is filled in the fromPort and toPort
+        description: "The end transport layer port of rule limit, value range: 1-65535; if the protocol is a transport layer protocol, the default value is 65535; if the protocol is not a transport layer protocol, the setting becomes invalid and the value is constantly 0. If the rule is limited to one port, a same value is filled in the fromPort and toPort"
       addressPrefix:
         type: string
         description: Prefix of matching address

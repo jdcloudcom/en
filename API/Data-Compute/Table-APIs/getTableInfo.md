@@ -1,42 +1,42 @@
 # getTableInfo
 
 
-## Description
+## 描述
 Search the specified datasheet information of user instance
 
-## Request method
+## 请求方式
 GET
 
-## Request address
+## 请求地址
 https://xdata.jdcloud-api.com/v1/regions/{regionId}/dwTable/{tableName}
 
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**regionId**|String|True||Region ID|
 |**tableName**|String|True||Datasheet name|
 
-## Request parameter
-|Name|Type|Required or not|Default value|Description|
+## 请求参数
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**databaseName**|String|True||Database name|
 |**instanceName**|String|True||Instance name|
 
 
-## Return parameter
-|Name|Type|Description|
+## 返回参数
+|名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
 |**result**|[Result](##Result)||
 
 
 ### <a name="Result">Result</a>
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
 |**data**|[DwTable](##DwTable)||
 |**message**|String||
 |**status**|Boolean||
 ### <a name="DwTable">DwTable</a>
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
 |**category**|String|Category|
 |**comments**|String|Description information|
@@ -55,7 +55,7 @@ https://xdata.jdcloud-api.com/v1/regions/{regionId}/dwTable/{tableName}
 |**tableName**|String|Table name|
 |**userName**|String|User name|
 ### <a name="DwHiveObjectPrivileges">DwHiveObjectPrivileges</a>
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
 |**alter**|Boolean|alter permission|
 |**create**|Boolean|create permission|
@@ -68,8 +68,8 @@ https://xdata.jdcloud-api.com/v1/regions/{regionId}/dwTable/{tableName}
 |**status**|Boolean|Status|
 |**update**|Boolean|update permission|
 
-## Return code
-|Return code|Description|
+## 返回码
+|返回码|描述|
 |---|---|
 |**200**|OK|
 |**500**|Internal server error|

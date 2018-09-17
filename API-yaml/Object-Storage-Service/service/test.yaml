@@ -22,7 +22,7 @@ paths:
         name: bucketname
         required: true
         type: string
-        description: Bucket Name, e.g.: test
+        description: "Bucket Name, e.g.: test"
       - in: query
         name: condition
         description: Include xml of image suffix to be protected
@@ -58,7 +58,7 @@ paths:
         name: bucketname
         required: true
         type: string
-        description: Bucket Name, e.g.: test
+        description: "Bucket Name, e.g.: test"
       responses:
         200:
           description: OK
@@ -93,7 +93,7 @@ paths:
         name: bucketname
         required: true
         type: string
-        description: Bucket Name, e.g.: test
+        description: "Bucket Name, e.g.: test"
       responses:
         200:
           description: OK
@@ -116,5 +116,5 @@ parameters:
     in: path
     required: true
     type: string
-    description: Region ID, e.g.: cn-north-1
+    description: "Region ID, e.g.: cn-north-1"
 

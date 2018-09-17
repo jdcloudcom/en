@@ -20,7 +20,7 @@ definitions:
         description: Data disk configuration
       deviceName:
         type: string
-        description: Data disk logical attach point, value range: vda, vdb, vdc, vdd, vde, vdf, vdg, vdh, vdi. It is not used in the system disk, and can only be used for the data disk.
+        description: "Data disk logical attach point, value range: vda, vdb, vdc, vdd, vde, vdf, vdg, vdh, vdi. It is not used in the system disk, and can only be used for the data disk."
       noDevice:
         type: boolean
         description: |

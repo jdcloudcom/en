@@ -1,35 +1,35 @@
 # removeNetworkSecurityGroupRules
 
 
-## Description
+## 描述
 Remove security group rule
 
-## Request method
+## 请求方式
 POST
 
-## Request address
+## 请求地址
 https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkSecurityGroups/{networkSecurityGroupId}:removeNetworkSecurityGroupRules
 
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**networkSecurityGroupId**|String|True||NetworkSecurityGroup ID|
 |**regionId**|String|True||Region ID|
 
-## Request parameter
-|Name|Type|Required or not|Default value|Description|
+## 请求参数
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**ruleIds**|String[]|True||Security group rule Id list|
 
 
-## Return parameter
-|Name|Type|Description|
+## 返回参数
+|名称|类型|描述|
 |---|---|---|
 |**requestId**|String|Request ID|
 
 
 
-## Return code
-|Return code|Description|
+## 返回码
+|返回码|描述|
 |---|---|
 |**200**|Successful operation|
 |**400**|Request field x.y.z is missing.|

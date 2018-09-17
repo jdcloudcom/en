@@ -8,10 +8,10 @@ definitions:
         description: VPC Id of subnet
       vpcName:
         type: string
-        description: Virtual private cloud name, value range: 1-60 Chinese, English capital and lowercase letters, numbers and underline delimiter
+        description: "Virtual private cloud name, value range: 1-60 Chinese, English capital and lowercase letters, numbers and underline delimiter"
       addressPrefix:
         type: array
         items:
           type: string
-        description: If it is blank, segment is not limited; if it is not blank, it is 10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16 and their subnets included and the length of subnet mask is between 16 and 28
+        description: "If it is blank, segment is not limited; if it is not blank, it is 10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16 and their subnets included and the length of subnet mask is between 16 and 28"
 

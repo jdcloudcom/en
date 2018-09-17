@@ -1,27 +1,27 @@
 # createTable
 
 
-## Description
+## 描述
 Create a user instance datasheet
 
-## Request method
+## 请求方式
 POST
 
-## Request address
+## 请求地址
 https://xdata.jdcloud-api.com/v1/regions/{regionId}/dwTable
 
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**regionId**|String|True||Region ID|
 
-## Request parameter
-|Name|Type|Required or not|Default value|Description|
+## 请求参数
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**dbModelDBTable**|[DwTableDesc](##DwTableDesc)|True||Datasheet description information|
 |**instanceName**|String|True||Instance name|
 
 ### <a name="DwTableDesc">DwTableDesc</a>
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**comments**|String|False||Description information|
 |**createTime**|String|False||Creation time (automatically generated)|
@@ -36,27 +36,27 @@ https://xdata.jdcloud-api.com/v1/regions/{regionId}/dwTable
 |**rows**|[DwTableRow[]](##DwTableRow)|False||List information|
 |**tableName**|String|False||Table name|
 ### <a name="DwTableRow">DwTableRow</a>
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**columnName**|String|False||Field name|
 |**columnType**|String|False||Field type|
 |**comments**|String|False||Description information|
 |**isPartition**|Boolean|False||Is the field partitioned|
 
-## Return parameter
-|Name|Type|Description|
+## 返回参数
+|名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
 |**result**|[Result](##Result)||
 
 
 ### <a name="Result">Result</a>
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
 |**message**|String||
 |**status**|Boolean||
 
-## Return code
-|Return code|Description|
+## 返回码
+|返回码|描述|
 |---|---|
 |**200**|OK|

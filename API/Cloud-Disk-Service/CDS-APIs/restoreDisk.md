@@ -1,37 +1,37 @@
 # restoreDisk
 
 
-## Description
+## 描述
 -   Data recovery operations can only be executed on the source hard disk, from which the snapshot was taken.
 -   Snapshots can be used for data recovery operations only if the source hard disk is available.
 -   After the cloud disk service is restored, the current data will be cleared. Please be cautious.
 
 
-## Request method
+## 请求方式
 POST
 
-## Request address
+## 请求地址
 https://disk.jdcloud-api.com/v1/regions/{regionId}/disks/{diskId}:restore
 
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**diskId**|String|True||Cloud Disk Service ID|
 |**regionId**|String|True||Region ID|
 
-## Request parameter
-|Name|Type|Required or not|Default value|Description|
+## 请求参数
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**snapshotId**|String|True||Snapshot ID used to recover the cloud disk|
 
 
-## Return parameter
-|Name|Type|Description|
+## 返回参数
+|名称|类型|描述|
 |---|---|---|
 
 
 
-## Return code
-|Return code|Description|
+## 返回码
+|返回码|描述|
 |---|---|
 |**400**|Invalid parameter|
 |**401**|Authentication failed|

@@ -1,35 +1,35 @@
 # deleteHdfsFile
 
 
-## Description
+## 描述
 Delete an hdfs file under the corresponding path of the specified cluster
 
-## Request method
+## 请求方式
 POST
 
-## Request address
+## 请求地址
 https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/hdfsFile:delete
 
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**regionId**|String|True||Region ID|
 
-## Request parameter
-|Name|Type|Required or not|Default value|Description|
+## 请求参数
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**clusterId**|String|True||Cluster ID|
 |**filePath**|String|True||Path of the file to be deleted|
 
 
-## Return parameter
-|Name|Type|Description|
+## 返回参数
+|名称|类型|描述|
 |---|---|---|
 |**requestId**|String||
 
 
 
-## Return code
-|Return code|Description|
+## 返回码
+|返回码|描述|
 |---|---|
 |**200**|OK|
 |**500**|Internal server error|

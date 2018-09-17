@@ -1,27 +1,27 @@
 # updateRR
 
 
-## Description
+## 描述
 Modify a resolution record of the main domain name
 
-## Request method
+## 请求方式
 POST
 
-## Request address
+## 请求地址
 https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domain/{domainId}/RRUpdate
 
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**domainId**|String|True||Domain Name ID|
 |**regionId**|String|True||Region ID to which the instance belongs|
 
-## Request parameter
-|Name|Type|Required or not|Default value|Description|
+## 请求参数
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**req**|[UpdateRR](##UpdateRR)|True||UpdateRR Parameter|
 
 ### <a name="UpdateRR">UpdateRR</a>
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**domainName**|String|False||Main Domain Name|
 |**hostRecord**|String|False||Machine Record|
@@ -35,15 +35,15 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domain/{domainId}/
 |**viewValue**|Integer|False||ID of the resolution line|
 |**weight**|Integer|False||Weight of the resolution record|
 
-## Return parameter
-|Name|Type|Description|
+## 返回参数
+|名称|类型|描述|
 |---|---|---|
 |**requestId**|String|ID of this request|
 
 
 
-## Return code
-|Return code|Description|
+## 返回码
+|返回码|描述|
 |---|---|
 |**200**|OK|
 |**400**|BAD_REQUEST|

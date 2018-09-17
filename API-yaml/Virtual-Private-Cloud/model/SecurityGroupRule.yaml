@@ -8,16 +8,16 @@ definitions:
         description: Security group rule ID
       direction:
         type: number
-        description: Security group rule direction. 0: inbound rule; 1: outbound rule
+        description: "Security group rule direction. 0: inbound rule; 1: outbound rule"
       protocol:
         type: number
-        description: Rule limits protocol. 300:All; 6:TCP; 17:UDP; 1:ICMP
+        description: "Rule limits protocol. 300:All; 6:TCP; 17:UDP; 1:ICMP"
       addressPrefix:
         type: string
         description: Prefix of matching address
       ipVersion:
         type: number
-        description: Matching address protocol revision 4：IPv4
+        description: "Matching address protocol revision 4：IPv4"
       fromPort:
         type: number
         description: The start transport layer port of rule limit, the default value is 1, if protocol is not a transport layer protocol, the value is constantly 0

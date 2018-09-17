@@ -6,13 +6,13 @@ definitions:
     properties:
       protocol:
         type: string
-        description: Protocol: TCP or UDP
+        description: "Protocol: TCP or UDP"
       port:
         type: integer
         description: Port number
       algorithm:
         type: string
-        description: Forwarding rules: wrr->Round Robin with weight  wlc->minimum weighted connection  rr->Round Robin without weight  sh->source address hash
+        description: "Forwarding rules: wrr->Round Robin with weight  wlc->minimum weighted connection  rr->Round Robin without weight  sh->source address hash"
       originType:
         type: string
         description: Back-to-origin type, ip or domain

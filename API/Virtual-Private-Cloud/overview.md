@@ -1,16 +1,16 @@
 # JD Cloud VPC
 
 
-## Introduction
+## 简介
 VPC APIs
 
 
-### Version
+### 版本
 v1
 
 
 ## API
-|Interface name|Request mehod|Function description|
+|接口名称|请求方式|功能描述|
 |---|---|---|
 |**addNetworkSecurityGroupRules**|POST|Add security group rule|
 |**assignSecondaryIps**|POST|Assign secondaryIp interface to network interface|

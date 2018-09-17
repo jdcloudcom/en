@@ -6,7 +6,7 @@ definitions:
     properties:
       type:
         type: string
-        description: Resource type, value range: vpc, elastic_ip, subnet, security_group, vpcpeering, network_interface (quota only sums up secondary network interface)
+        description: "Resource type, value range: vpc, elastic_ip, subnet, security_group, vpcpeering, network_interface (quota only sums up secondary network interface)"
       parentResourceId:
         type: string
         description: vpc, elastic_ip and network_interface are blank; subnet, security_group and vpcpeering are vpcId

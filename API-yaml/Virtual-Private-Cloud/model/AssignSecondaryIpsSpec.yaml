@@ -5,7 +5,7 @@ definitions:
     properties:
         force:
           type: boolean
-          description: When secondary ip is occupied by other interfaces, whether to preempt it or not. false: non-preemption for reallocation, true: preemption for reallocation, default preemption for reallocation. Default value: true
+          description: "When secondary ip is occupied by other interfaces, whether to preempt it or not. false: non-preemption for reallocation, true: preemption for reallocation, default preemption for reallocation. Default value: true"
           default: true
         secondaryIps:
           type: array

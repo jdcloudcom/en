@@ -1,43 +1,43 @@
 # searchRR
 
 
-## Description
+## 描述
 Query the resolution record of the main domain name
 
-## Request method
+## 请求方式
 GET
 
-## Request address
+## 请求地址
 https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domain/{domainId}/RR
 
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**domainId**|String|True||Domain Name ID|
 |**regionId**|String|True||Region ID to which the instance belongs|
 
-## Request parameter
-|Name|Type|Required or not|Default value|Description|
+## 请求参数
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**pageNumber**|Integer|False||Current page, starting value of 1, default value of 1|
 |**pageSize**|Integer|False||Number of rows per page set during the page query, default value of 10|
 
 
-## Return parameter
-|Name|Type|Description|
+## 返回参数
+|名称|类型|描述|
 |---|---|---|
 |**requestId**|String|ID of this request|
 |**result**|[Result](##Result)||
 
 
 ### <a name="Result">Result</a>
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
 |**currentCount**|Integer|Resolution records of current page|
 |**dataList**|[RR[]](##RR)|List of the resolution record|
 |**totalCount**|Integer|Number of all resolution records|
 |**totalPage**|Integer|Pages of all resolution records|
 ### <a name="RR">RR</a>
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
 |**hostRecord**|String|Machine Record|
 |**hostValue**|String|Value of the resolution record|
@@ -50,8 +50,8 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domain/{domainId}/
 |**viewValue**|Integer[]|ID of the resolution line|
 |**weight**|Integer|Weight of the resolution record|
 
-## Return code
-|Return code|Description|
+## 返回码
+|返回码|描述|
 |---|---|
 |**200**|OK|
 |**400**|BAD_REQUEST|
