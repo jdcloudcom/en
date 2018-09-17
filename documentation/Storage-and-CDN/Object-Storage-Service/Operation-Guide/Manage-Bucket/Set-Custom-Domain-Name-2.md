@@ -1,4 +1,4 @@
-# Customized domain name service
+# Customized domain name
 
 You can associate the customized domain name access to your own Bucket, i.e. CNAME. What’s more, in accordance with the requirements of China's Internet Administration Regulations, if users need to open this function, they must provide valid information such as filling No. of Ministry of Industry and Information Technology and ID Card of domain name holder, which can only be used after being approved by JD Cloud. After you enable the CNAME function, OSS will automatically process access requests to the domain name. 
 Application scenario
