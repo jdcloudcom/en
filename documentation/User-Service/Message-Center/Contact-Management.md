@@ -6,7 +6,7 @@ On the Account Management > Contact Management page, you can set up the contact 
 
 
 
-There is only one default account contact, i.e. you. The email address and mobile of the account contact can be modified on the “Account Security” page. Please refer to How to Modify the Mobile Bound to the Account for more details.
+There is only one default account contact, i.e. you. The email address and mobile of the account contact can be modified on the “Account Security” page. Please refer to [How to Modify the Mobile Bound to the Account](../../../documentation/User-Service/Account-Management/Change-The-Phone-Number.md) for more details.
 
 ## New Contact
 On the “Manage Contacts” page, you may add and manage up to 20 contacts. If a contact is set as “Primary Contact”, the service personnel of JD Cloud will make the initial contact with such contact when necessary.
