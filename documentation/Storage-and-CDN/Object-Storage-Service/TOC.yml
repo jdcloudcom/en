@@ -273,7 +273,7 @@
         href: Best-Practices/Bucket-Policy.md
       - name: Anti-leech
         href: Best-Practices/Anti-leech.md         
-      - name: Use CloudBerry to Manage OSS
+      - name: CloudBerry
         href: Best-Practices/CloudBerry.md 
       - name: Generate presigned URL
         href: Best-Practices/Signature-In-URL.md
@@ -281,7 +281,7 @@
         href: Best-Practices/CORS.md
       - name: Data Migration Tool 
         href: Best-Practices/Data-Migration-Tool.md 
-      - name: Use S3cmd to Manage OSS
+      - name: S3cmd
         href: Best-Practices/S3cmd.md
       - name: Set Signature Authentication For Callback Server
         href: Best-Practices/Setting-Signature-Authentication-For-Callback-Server.md 
