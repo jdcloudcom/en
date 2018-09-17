@@ -21,55 +21,56 @@ Disk Write IOPS|Count/s | 1 Minute
 ## Public IP Monitoring Metric
 Monitoring Metrics | Units | Minimum Monitoring Granularity
 ---|---|---
-Public Network Inflow | byte | 1 Minute
-Public Network Outflow | byte | 1 Minute
-Public Network Inbound Quantity |per Second |1 Minute
-Public Network Outbound Quantity | per second | 1 Minute
+Network Packets In | pps | 1 Minute
+Network Packets Out | pps | 1 Minute
+Network In |bps |1 Minute
+Network Out | bps | 1 Minute
 
 ## CDN Monitoring Metric
 Monitoring Metrics | Units | Minimum Monitoring Granularity
 ---|---|---
-Bandwidth Peak | Mbits/s|1 Minute
-Return Code 4xx%|%|1 Minute
-Return Code 5xx%|%|1 Minute
-Hit Ratio|%|1 Minute
-Public Network Outbound Quantity|Mbytes|1 Minute
-Requests per Second |Count|1 Minute
+Peak Bandwidth | Mbits/s|1 Minute
+4XX Return Code  |%|1 Minute
+5XX Return Code |%|1 Minute
+Hit Rate|%|1 Minute
+Internet Outbound Traffic|Mbytes|1 Minute
+QPS |Count|1 Minute
+Source Station Availability|%|1 Minute
+Source Station Delay |ms|1 Minute
 
 ## MySQL/percona/MariaDB Monitoring Metric
 Monitoring Metrics | Units | Minimum Monitoring Granularity
 ---|---|---
-CPU Utilization Rate	|%|	1 Minute
-Memory Utilization Rate	|%|	1 Minute
-Total Hard Disk Space Usage|MB|1 Minute
-User Data Usage|MB|1 Minute
-System Data Usage|MB|1 Minute
-Log File Usage|MB|1 Minute
-Network Reception Flow|bps|	1 Minute
-Outgoing Network Traffic|bps|	1 Minute
-Instance Inflow per Second|bps|	1 Minute
-Instance Inflow per Second|bps|	1 Minute
-SQL Statement Executions per Second	|Frequency|1 Minute
-Business Quantity per Second	|Quantity|	1 Minute
-Temporary Table Quantity	|Quantity|1 Minute
-Current Total Connections	|Quantity|	1 Minute
-Current Active Connections	|Quantity|	1 Minute
-InnoDB Reads per Second	|B|	1 Minute
-InnoDB Writes per Second	|B|	1 Minute
-InnoDB Cache Pool Read Hit Ratio	|%|	1 Minute
-InnoDB Cache Pool Utilization Ratio	|%|	1 Minute
-InnoDB Cache Pool Dirty Block Ratio	|%|	1 Minute
-InnoDB Reads to the Cache Pool per Second	|Frequency|	1 Minute
-InnoDB Writes to the Cache Pool per Second	|Frequency|	1 Minute
-InnoDB Log Physical Writes per Second	|Frequency|	1 Minute
-Number of fsync writes per second completed by InnoDB logs	|Quantity|	1 Minute
-MySQL_COMDML   Delete	|Quantity|	1 Minute
-MySQL_COMDML   Insert	|Quantity|	1 Minute
-MySQL_COMDML   Select	|Quantity|	1 Minute
-MySQL_COMDML   Update	|Quantity|	1 Minute
-MySQL_COMDML   Insert_Select	|Quantity|	1 Minute
-MySQL_COMDML   Replace	|Quantity|	1 Minute
-MySQL_COMDML   Replace Select	|Quantity|	1 Minute
+CPU Usage	|%|	1 Minute
+Memory Usage	|%|	1 Minute
+Used Disk |MB|1 Minute
+Used UserData |MB|1 Minute
+Used SystemData |MB|1 Minute
+Used LogFiles |MB|1 Minute
+Network Inbound|bps|	1 Minute
+Network Outbound|bps|	1 Minute
+Connections|Count|	1 Minute
+Curren Active Connections|Count|	1 Minute
+Temporary Tables	|Count|	1 Minute
+SQL Execution Per Second|Count|1 Minute
+TPS	|Count|	1 Minute
+Instance In Traffic |bps|	1 Minute
+Instance Out Traffic|bps|	1 Minute
+InnoDB BufferPool Hits	|%|	1 Minute
+InnoDB BufferPool Usage |%|	1 Minute
+InnoDBBufferPool-DirtyBlock |%|	1 Minute
+InnoDB Read Throughput Per Second |B|	1 Minute
+InnoDB Write Throughput Per Second |B|	1 Minute
+InnoDB BufferPool Read |Count|	1 Minute
+InnoDB BufferPool Write |Count|	1 Minute
+InnoDB Log Physical Write |Count|	1 Minute
+MySQL_COMDML   Delete	|Count|	1 Minute
+MySQL_COMDML   Insert	|Count|	1 Minute
+MySQL_COMDML   Select	|Count|	1 Minute
+MySQL_COMDML   Update	|Count|	1 Minute
+MySQL_COMDML   Insert_Select	|Count|	1 Minute
+MySQL_COMDML   Replace	|Count|	1 Minute
+MySQL_COMDML   Replace Select	|Count|	1 Minute
 
 ## SQLServer Monitoring Metric
 Monitoring Metrics | Units | Minimum Monitoring Granularity
