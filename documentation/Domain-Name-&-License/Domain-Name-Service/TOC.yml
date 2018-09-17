@@ -12,13 +12,17 @@
       - name: Features
         herf: Introduction/Features.md
       - name: Specifications
-        ‘herf: Introduction/Specifications.md
+        herf: Introduction/Specifications.md
+      - name: Application Scenario
+        herf: Introduction/Application-Scenario.md
   - name: Getting Started
     items:
       - name: Create Information Template
         herf: Getting-Started/Create Information Template.md
-      - name: Register Domain Name.md
+      - name: Register Domain Name
         herf: Getting-Started/Register Domain Name.md
+      - name: Information Template
+        herf: Getting-Started/Information-Template.md
   - name: Operation Guide
     items:
       - name: Domain Name Management
