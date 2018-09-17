@@ -75,63 +75,58 @@ MySQL_COMDML   Replace Select	|Count|	1 Minute
 ## SQLServer Monitoring Metric
 Monitoring Metrics | Units | Minimum Monitoring Granularity
 ---|---|---
-CPU Utilization Rate	|%|	1 Minute
-Memory Utilization Rate	|%|	1 Minute
-Data Disk Utilization Rate|%|	1 Minute
-Data Disk Disk Uage	|MByte|	1 Minute
-Data Disk Write IOPS	|Frequency/Second|	1 Minute
-Data Disk Read IOPS	|Frequency/Second|	1 Minute
-Input Traffic of Instance per Second	|kbps|	1 Minute
-Output Traffic of Instance per Second	|kbps|	1 Minute
-Current Total Connections	|Quantity|	1 Minute
-Average Number of Transactions per Second	|Quantity|	1 Minute
-Average Number of SQL Statement Executions per Second  |Frequency|	1 Minute
-Cache Hit Rate	|%|	1 Minute
-Number of Checkpoint Written to Page per Second     |Frequency|	1 Minute
-Number of Login per Second	|Frequency|	1 Minute
-Average Number of Full Table Scans per Second	|Frequency|	1 Minute
-Number of SQL Compilations per Second	|Quantity|	1 Minute
-Number of Lock Timeouts per Second	|Frequency|	1 Minute
-Number of Deadlocks per Second	|Frequency|	1 Minute
-Number of Lock Waits per Second	|Frequency|	1 Minute
-Number of Blocked Processes|Quantity|	1 Minute
-Network Inflow Rate|kbps|	1 Minute
-Network Outflow Rate|kbps|	1 Minute
-Disk Queue Length|Quantity| 1 Minute
+CPU Usage	|%|	1 Minute
+Memory Usage	|%|	1 Minute
+Disk Usage|%|	1 Minute
+Used Disk	|MByte|	1 Minute
+DataDisk-WriteIOPS	|Count/s|	1 Minute
+DataDisk-ReadIOPS	|Count/s|	1 Minute
+Network Inbound  Rate	|kbps|	1 Minute
+Network Outbound  Rate	|kbps|	1 Minute
+Connections	|Count|	1 Minute
+TPS	|Count|	1 Minute
+SQL Execution Per Second |Count|	1 Minute
+Buffer Hits	|%|	1 Minute
+CheckPoint Write Page Per Second   | Count |	1 Minute
+Log In Per Second	|Count|	1 Minute
+Table Scan Per Second	|Count|	1 Minute
+SQL Compilation Per Second	|Count|	1 Minute
+Lock Timeout Per Second	|Count|	1 Minute
+Lock Dead Per Second	|Count|	1 Minute
+Lock Wait Per Second	|Count|	1 Minute
+Processes Blocked|Count|	1 Minute
+Disk QueueLength |Count|1 Minute
 
 ## DRDS Monitoring Metric
 Monitoring Metrics | Units | Minimum Monitoring Granularity
 ---|---|---
-CPU Utilization Rate	|%|	1 Minute
-Average Network Inflow per Second	|Byte|	1 Minute
-Average Network Outflow per Second	|Byte|	1 Minute
-Number of Current Connections	|Quantity|	1 Minute
+CPU Usage	|%|	1 Minute
+Network Inbound Traffic|bps|	1 Minute
+Network Outbound Traffic	|bps|	1 Minute
+Current Connections	|Count|	1 Minute
 
 ## LB Monitoring Metric
 **Application Load Balancer**
 
 Monitoring Metrics | Units | Minimum Monitoring Granularity
 ---|---|---
-Number of New Requests	|Quantity|	1 Minute
-Number of New Connections	|Quantity|	1 Minute
-Number of Active Connections	|Quantity|	1 Minute
-Server Error	|Quantity|	1 Minute
-Client error	|Quantity|	1 Minute
-Inflow Rate|bps|	1 Minute
-Outflow Rate|bps|	1 Minute
-Number of Bytes Inflow|Byte|	1 Minute
-Number of Bytes Outflow|Byte|	1 Minute
-Total Number of Bytes|Byte|	1 Minute
+New Connection Counts 	|Count|	1 Minute
+Active Connection Counts	|Count|	1 Minute
+Requests	|Count|	1 Minute
+Server Error	|Count|	1 Minute
+Client error	|Count|	1 Minute
+
 
 **Network Load Balancer**
 
 Monitoring Metrics | Units | Minimum Monitoring Granularity
 ---|---|---
-Number of New Connections	|Quantity|	1 Minute
-Number of Active Connections	|Quantity|	1 Minute
-Inflow Rate|bps|	1 Minute
-Outflow Rate|Byte|	1 Minute
-Incoming Packet Rate|pps|	1 Minute
+New Connection Counts 	|Quantity|	1 Minute
+Active Connection Counts|Quantity|	1 Minute
+Requests	|Count|	1 Minute
+ProcessedIn_bps|bps|	1 Minute
+ProcessedOut_pps |pps|	1 Minute
+ProcessedIn_Bytes|Byte|	1 Minute
 
 
 ## Cache Redis Monitoring Metric
@@ -176,7 +171,7 @@ Wt_max_bytes_config|byte|1 Minute
 ## Native Container Monitoring Metric
 Monitoring Metrics | Units | Minimum Monitoring Granularity
 ---|---|---
-CPU Utilization Rate	|%|	1 Minute
+CPU Usage	|%|	1 Minute
 Memory Utilization Rate	|%|	1 Minute
 Disk Read Throughput	|kbps|	1 Minute
 Disk Write Throughput	|kbps|	1 Minute
