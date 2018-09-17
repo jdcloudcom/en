@@ -1,4 +1,4 @@
-# Use URL signature to grant access privilege
+# Generate presigned URL
 
 JD Cloud storage provides a kind of authentication method based on Query String, i.e., by perform Presigned action, generate a URL with authentication information for the Objects and send it to third party users to implement public access. When generating URL, you can designate URL expired time so as to restrict users from accessing with long time.
 

@@ -14,7 +14,7 @@
       - name: Sign up Service
         href: Getting-Started/Sign-Up-Service.md   
       - name: Create Video Transcoding
-        href: Getting-Started/Create-Video-Transcoding.md
+        href: Getting-Started/Create-Video-Transcoding-1.md
       - name: Create Video Snapshot
         href: Getting-Started/Create-Video-Snapshot.md 
  - name: Operation Guide
@@ -24,7 +24,7 @@
            - name: Transcoding Rules
              href: Operation-Guide/Video-Transcoding/Transcoding-Rules.md
            - name: Create Viedo Transcoding
-             href: Operation-Guide/Video-Transcoding/Video-Transcoding.md 	  
+             href: Operation-Guide/Video-Transcoding/Create-Video-Transcoding-2.md 	  
       - name: Video Snapshot
         href: Operation-Guide/Video-Snapshot.md
       - name: Callback Settings
@@ -34,7 +34,7 @@
       - name: User Signature Verification
         href: Video-Transcoding-API/User-Signature-Authentication.md  
       - name: Create Video Transcoding
-        href: Video-Transcoding-API/Create-Video-Transcoding.md 
+        href: Video-Transcoding-API/Create-Video-Transcoding-3.md 
       - name: Get Video Task
         href: Video-Transcoding-API/Get-Video-Task.md 
       - name: Query Video Task

@@ -1,4 +1,4 @@
-# List Bucket
+# List Buckets
 
 You can use JingdongStorageService.listBuckets to list all Buckets under designated users, the following codes show how to list designated users’ Bucket lists by simple methods:
 ```
