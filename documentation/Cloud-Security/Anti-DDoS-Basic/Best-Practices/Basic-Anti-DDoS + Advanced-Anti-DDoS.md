@@ -1,4 +1,4 @@
-# Anti-DDoS Basic + Anti-DDoS Pro scheme
+# Anti-DDoS Basic + Anti-DDoS Pro combining scheme
 
 The Anti-DDoS Basic is a free service that JD Cloud provides to counter common cloud attacks. The capacity of protection is up to 2G. When DDoS attacks go beyond the protection capacity, a black hole is triggered, leading the normal business out of access. In this case, the user can solve the problem by deploying Anti-DDoS Basic plus Anti-DDoS Pro. Under the condition of an attacking flow rate less than 2G, Anti-DDoS Basic is capable of cleaning the attacking flow, and the cleaned flow will be re-injected. For the cases of the attacking flow rates over 2G, Anti-DDoS Pro copes with them.
 
