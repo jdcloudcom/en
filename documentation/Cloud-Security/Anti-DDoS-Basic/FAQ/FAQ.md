@@ -2,7 +2,7 @@
 
 **1, Q: What is the Application Scenario for Anti-DDoS Basic?**
 
-A: JD Cloud Anti-DDoS Basic is applied to attack protection scenarios with the highest attacking flow rate not exceeding 2G. Once the attack flow exceeds the Anti-DDoS Basic capability of the machine room, the black hole will be triggered, and the black hole will be triggered to limit the IP of the black hole for a certain period of time.
+A: JD Cloud Anti-DDoS Basic is applied to attack protection scenarios with the highest attacking flow rate not exceeding 2G. Once the attack flow exceeds the Anti-DDoS Basic capability of the machine room, the black hole will be triggered to limit the IP of the black hole for a certain period of time.
 
 **2, Q: How Do I Start Anti-DDoS Basic?**
 
