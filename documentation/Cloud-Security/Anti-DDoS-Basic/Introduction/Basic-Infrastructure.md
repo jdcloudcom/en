@@ -15,9 +15,9 @@ Note: 1. The image flow to the detection device 2. The detection device detects 
 
 | Name | Description |
 | - | - |
-| Management Center | is mainly responsible for receiving attack information and sending a cleaning strategy to the cleaning equipment to guide the cleaning equipment to carry out traffic cleaning.
-| Cleaning equipment | Mainly based on the cleaning strategy issued by the management center, wash the flow of attack, and re-inject the cleaned clean flow.
-| Detection Device | mainly analyzes the traffic components to determine if an attack occurred. If an attack occur, send attack information to that management centre.
+| Management Center | Mainly responsible for receiving attack information and sending a cleaning strategy to the cleaning equipment to guide the cleaning equipment to carry out traffic cleaning.
+| Cleaning equipment | Mainly responsible for washing the flow of attack based on the cleaning strategy issued by the management center, and re-injecting the cleaned clean flow.
+| Detection Device | Mainly repsonsible for analyzing the traffic components to determine if an attack occurred, and sending attack information to that management centre, if an attack occurs.
 
 ## Related Reference
 

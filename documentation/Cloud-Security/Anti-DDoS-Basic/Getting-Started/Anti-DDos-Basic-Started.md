@@ -10,7 +10,7 @@
 
 ![Create Instance](../../../../image/Basic%20Anti-DDos/Instance01.png)
 
-2. Switch to the Anti-DDoS Basic under the cloud security menu, and the public network IP you purchased has been automatically added to the Anti-DDoS Basic.
+2. Switch to Anti-DDoS Basic under the cloud security menu, and the public network IP you purchased has been automatically added to the Anti-DDoS Basic.
 
 ![Create Instance](https://github.com/jdcloudcom/cn/blob/edit/image/Basic%20Anti-DDos/Instance02.png)
 
