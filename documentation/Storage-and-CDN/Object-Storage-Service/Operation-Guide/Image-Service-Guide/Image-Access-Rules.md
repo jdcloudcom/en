@@ -4,7 +4,7 @@ The image service is accessed by GET request of standard HTTP and all processing
 
 ## Request for thumbnail through processing parameters
 
-1. Users request for image processing interface
+1.Users request for image processing interface
 
 (a) Old interface: connect "?img/processing parameters" after the original file address
 
@@ -14,7 +14,7 @@ For example: http://downloads.oss.cn-north-1.jcloudcs.com/lena.jpg?img/s/200/300
 
 For example: http://downloads.oss.cn-north-1.jcloudcs.com/lena.jpg?x-oss-process=img/s/200/300
 
-2. Request for original image
+2.Request for original image
 
 (a) File direct download mode
 
@@ -24,7 +24,7 @@ For example: http://downloads.oss.cn-north-1.jcloudcs.com/lena.jpg
 
 For example: http://downloads.oss.cn-north-1.jcloudcs.com/lena.jpg?x-oss-process=img/o
 
-3. Image processing actions support sequential queue
+3.Image processing actions support sequential queue
 
 Connect image processing instructions as a processing queue in sequence and segment each task name and ancillary parameter with "/"; then background will execute them in sequence.
 
@@ -38,15 +38,15 @@ Resultant address of relative image processing:
 
 http://downloads.oss.cn-north-1.jcloudcs.com/lena.jpg?x-oss-process=img/s/200/300/cc/200/260
 
-4. In the processing queue, sequential execution will affect final results.
+4.In the processing queue, sequential execution will affect final results.
 
-5. Upper limit of the maximum number of processing actions of a single request <=100; repetitive operation is accumulated.
+5.Upper limit of the maximum number of processing actions of a single request <=100; repetitive operation is accumulated.
 
 For example: http://downloads.oss.cn-north-1.jcloudcs.com/lena.jpg?x-oss-process=img/s/200/300/cc/200/260
 
 Scale s and center crop cc are recorded as two actions.
 
-6. Total length of processing parameters cannot exceed 1024 bytes
+6.Total length of processing parameters cannot exceed 1024 bytes
 
 For example: http://downloads.oss.cn-north-1.jcloudcs.com/lena.jpg?x-oss-process=img/s/200/300/cc/200/260
 
