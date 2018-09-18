@@ -3,12 +3,14 @@
 Get Bucket Referer Action is used to view Referer relevant configuration of Bucket anti-leech chain. 
 
 **Request Grammar**
+
 ```
 GET   /?bucketReferer HTTP/1.1
 Host: BucketName.s-bj.jcloud.com
 Date: GMT Date
 Authorization: signatureValue
 ```
+
 **Response Elements**
 
 |Name|Description|
@@ -25,6 +27,7 @@ Detail Analysis:
 3.If Bucket is not subject to the Referer relevant configuration, OSS will return the default AllowNull Value and a Null Value.
 
 **Request Example**
+
 ```
 GET   /?bucketReferer HTTP/1.1
 Date: Tue, 11 Jul 2017   09:12:11 GMT
@@ -34,6 +37,7 @@ Connection: Keep-Alive
 ```
 
 **Already set return example of Referer rules**
+
 ```
 HTTP/1.1 200 OK
 Server: nginx
@@ -46,6 +50,7 @@ x-jss-request-id:   A84C875C916A1E24
 ```
 
 **Return example of Referer rules is not set**
+
 ```
 HTTP/1.1 204 No   Content
 Server: nginx
