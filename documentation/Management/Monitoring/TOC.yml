@@ -23,7 +23,7 @@ items:
   items:
     - name: Billing Overview
       href: Pricing/Billing-Overview.md
-- name: Getting Started 
+- name: Getting Started
   items:
     - name: Getting Started Overview
       href: Getting-Started/getting-started-overview.md
