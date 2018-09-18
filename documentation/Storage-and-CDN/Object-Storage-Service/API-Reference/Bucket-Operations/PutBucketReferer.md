@@ -21,6 +21,7 @@ Host: BucketName.s-bj.jcloud.com
 |IsAllowNull|Assign request access whether allows referer field is null. <br>Type: Enumerated character string<br>Effective value: true or false Default value: true|Yes|
 
 Detail Analysis:
+
 1.Only the owner of Bucket can initiate Put Bucket Referer request, or return 403 Forbidden Message. Error code: AccessDenied.
 
 2.Configurations assigned in IsAllowNull will replace previous IsAllowNull configurations, the field is a compulsory item, IsAllowNull configurations in the system by default are true.
