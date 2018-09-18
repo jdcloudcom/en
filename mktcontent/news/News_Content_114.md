@@ -13,7 +13,7 @@ Based on the context of new era, lead the  new trend of smart education
 
 <p style="text-indent: 2em;"><span style="text-indent: 2em;"><br/></span></p>
 <p style="text-indent: 0em; text-align: center;"><span style="text-indent: 2em;"><img src="//img1.jcloudcs.com/cms/8d85e9ce-6e30-4f3b-a08d-0d33b3f3f09520180726193105.jpg" title="" alt="新闻2.jpg"/></span></p>
-<p style="text-indent: 2em; text-align: center;"><span style="font-size: 14px;"><strong><span style="text-indent: 2em;">京东集团副总裁，京东云生态业务负责人刘子豪</span></strong></span></p>
+<p style="text-indent: 2em; text-align: center;"><span style="font-size: 14px;"><strong><span style="text-indent: 2em;">Liu Zihao, VP of JD Group, Head of JD Cloud Eco-business</span></strong></span></p>
 <p style="text-indent: 2em;"><span style="text-indent: 2em;"><br/></span></p>
 
 <p style="text-indent: 2em;"><span style="font-size: 16px;"><strong>Liu Zihao, Vice President of JD Group and Head of JD Cloud Ecologic Business</strong></span></p>
