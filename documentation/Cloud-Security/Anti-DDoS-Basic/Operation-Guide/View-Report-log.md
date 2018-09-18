@@ -1,6 +1,6 @@
 # Monitor Log View
 
-1. You can view the monitoring reports of the last 15 minutes on the monitoring page of the Anti-DDoS Basic.
+1. You can view the monitoring reports of the last 15 minutes on the monitoring page of Anti-DDoS Basic.
 
 ![Create Object](https://github.com/jdcloudcom/en/blob/anti-ddos/image/Basic%20Anti-DDos/report01.png)
 

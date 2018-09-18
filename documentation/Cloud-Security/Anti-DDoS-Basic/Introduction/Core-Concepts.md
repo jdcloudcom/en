@@ -4,4 +4,4 @@
 
 - Traffic Cleaning: JD Cloud server provides the basic defense function by default. And automatically carrying out traffic cleaning on the IP when the network traffic exceeds a threshold value. The method comprises the following steps of: Orienteering a flow from an original network path to a cleaning device, performing normal and abnormal judgment on the flow components of the IP through a cleaning device, discarding the abnormal flow, limiting the flow of the final arrival server, reducing the harm caused by the attack to the server, but may cause injury to a normal portion of the flow.
 
-- Black Hole: The cloud will screen all access to the server when the server is vulnerable to an attack traffic that exceeds the maximum protection capacity set. For Anti-DDoS Basic, a flow access exceeding 2 G triggers a black hole.
+- Black Hole: The cloud will screen all access to the server when the server is vulnerable to an attack traffic that exceeds the maximum protection capacity set. For Anti-DDoS Basic, a flow access exceeding 2G triggers a black hole.
