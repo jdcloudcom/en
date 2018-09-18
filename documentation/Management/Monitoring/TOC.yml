@@ -44,7 +44,7 @@ items:
           href: Operation-Guide/dashboard/terms-and-conditions.md
         - name: My Favorite Dashboards
           href: Operation-Guide/dashboard/focus-page.md
-        - name: Manage Dashboard
+        - name: Dashboard Management
           href: Operation-Guide/dashboard/dashboard-management.md      
         - name: Manage Monitoring Chart
           href: Operation-Guide/dashboard/monitoring-chart-management.md
