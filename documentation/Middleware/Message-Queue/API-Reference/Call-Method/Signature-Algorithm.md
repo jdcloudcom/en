@@ -4,11 +4,11 @@
 
 Apply for AccessKey and SecretKey key pair (AK/SK for short) on the AccessKey Management page under the User Center Account Management of JD Cloud.
 The AK/SK information should be kept properly, which, if lost, may cause illegal users to use this information to manipulate your resources on the cloud, causing losses to your data and property.
-The AK/SK key pair are allowed to be enabled or disabled, which after enabled, can be used to call OpenAPI, and after disabled, cannot be used to call OpenAPI.
+The AK/SK key pair are allowed to be enabled or disabled, which after being enabled, can be used to call OpenAPI, and after being disabled, cannot be used to call OpenAPI.
 
 The message queue JCQ HttpProxy service will authenticate the request of each access, and each submitted request needs to include a signature in the request's header.
 The message queue JCQ will authenticate the identity of the sender of a request by symmetric encryption with AK/SK, and the request will be considered valid if the calculated signature is the same as the one provided;
-Otherwise this request will be denied and HTTP 403, Authentication failed error will be returned.
+Otherwise this request will be denied and HTTP 403, Authentication failed error, will be returned.
 
 ### The rule for generation of signature is as follows:
 
@@ -16,13 +16,13 @@ String obtained by using secretKey to encrypt signSource with **hmac-sha1**
 
 ### The rule for generation of signSource is as follows:
 
-Use the `accessKey` and `dateTime` and `all parameters` in the public request header to construct a map, which, after sorted according to the lexicographic order of the key values, is concatenated to form a string in the format of key1=value1&key2=value2&...&key100=value100.
+Use the `accessKey` and `dateTime` and `all parameters` in the public request header to construct a map, which, after being sorted according to the lexicographic order of the key values, is concatenated to form a string in the format of key1=value1&key2=value2&...&key100=value100.
 
 Where, the messages field of sending the message needs to be preprocessed and then added to the computing of signSource. The rule for preprocessing is as follows:
 
-First, takes out the key-value pairs in its `properties` of each Message and sorts them with the other fields of the Message, which are then be concatenated in the format of key1=value1&key2=value2&...&key100=value100,
+First, take out the key-value pairs in its `properties` of each Message and sort them with the other fields of the Message, which are then be concatenated in the format of key1=value1&key2=value2&...&key100=value100,
 to generate the string message_signsource, and then, for message_signsource, evaluate the md5 value to generate message_str,
-and finally, all the Message are concatenated using English commas in the order in which they appear in the list to form the final string message_value (in the format of `message_str1,message_str2,message_str3`)【separated with commas】as the value of the final messages field.
+and finally, all the Messages are concatenated using English commas in the order in which they appear in the list to form the final string message_value (in the format of `message_str1,message_str2,message_str3`) **Separated with Commas** as the value of the final messages field.
 
 ### Sample Code (Python3)
 

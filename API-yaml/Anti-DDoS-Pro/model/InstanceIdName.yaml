@@ -6,7 +6,7 @@ definitions:
     properties:
       id:
         type: string
-        description: "Instance id"
+        description: "Instance ID"
       name:
         type: string
         description: "Instance Name"

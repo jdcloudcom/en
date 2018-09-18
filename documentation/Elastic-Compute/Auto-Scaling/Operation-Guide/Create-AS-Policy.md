@@ -16,7 +16,7 @@ When the setting is complete, the timed task will appear in the list on the page
 ![Search 1](https://github.com/jdcloudcom/cn/blob/AutoScaling/image/Elastic-Compute/Autoscaling/%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A87.png)
 ## Alarm Strategy
 
-Alarm strategy is an alarm strategy configured based on monitoring indicators (such as CPU, memory utilization rate) and the number of instances in the dynamic expanding auto scaling group, which is suitable for use in a circumstance where the business fluctuations are unpredictable.
+Alarm strategy is an alarm strategy configured based on monitoring indicators (such as CPU and memory utilization rate) and the number of instances in the dynamic expanding auto scaling group, which is suitable for use in a circumstance where the business fluctuations are unpredictable.
 
 If you want to adjust your business deployment according to the VM indicators, you can customize the alarm task, which will help you automatically increase or decrease the count of VM instances when the business load makes the indictors reach a threshold, and thus can flexibly respond to the change of the business load, improve the utilization rate of the equipment, and save the costs for the deployment and instances.
 

@@ -16,9 +16,9 @@ The manually added VM does not require a Cooling Time.
 The Auto Scaling function is completely free of charge, please feel free to use.
 A VM instances that is automatically created or manually added through Auto Scaling will be charged at the normal Pay-By-Consumption VM price.
 
-## 4. How to increase the maximum number of Cloud Servers for a Auto Scaling Group?
+## 4. How to increase the maximum number of Cloud Servers for an Auto Scaling Group?
 
-Currently, each user can create 20 VM instances in each region; If you need to create more instances, you can apply for increasing the limit through an Open Ticket
+Currently, each user can create 20 VM instances in each region; if you need to create more instances, you can apply for increasing the limit through an Open Ticket
 
 ## 5. What kind of machine is suitable for using Auto Scaling?
 

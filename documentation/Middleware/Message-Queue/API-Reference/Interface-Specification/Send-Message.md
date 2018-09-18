@@ -10,7 +10,7 @@ POST {Http access point}/v1/messages HTTP/1.1
 
   Request Body is in JSON format and contains the following fields:
 
-| Field name   | Field type | Required or not   | Description       |
+| Field Name   | Field Type | Required or Not   | Description       |
 | :------: | :-------------: | :------: | :------------------------- |
 |  topic   |     string      | Required |                            |
 |   type   |     string      | Required | NORMAL, ORDER, TRANSACTION |
@@ -18,7 +18,7 @@ POST {Http access point}/v1/messages HTTP/1.1
 
   Where Message is of type Map and contains the following fields:
 
-| Field name   | Field type | Required or not | Description       |
+| Field Name   | Field Type | Required or Not | Description       |
 | :----------: | :-----------------: | :------: | -------------------------- |
 |     body     |       string        | Required | Message length does not exceed 256K         |
 | delaySeconds |        int32        | Optional | 0 <= delaySeconds <= 86400 |
@@ -27,16 +27,16 @@ POST {Http access point}/v1/messages HTTP/1.1
 
 - Response Body
 
-  1. Request successful
+  1. Requested
 
-  |  Field name   | Field type | Description                                                |
+  |  Field Name   | Field Type | Description                                                |
   | :-------: | :------: | :---------------------------------------------------------- |
   | requestId |  string  | requestId of this request is used to search the call chain     |
-  |  result   |   map    | Return format is: `{"messageIds": ["messageId_1", "messageId_2"]}` |
+  |  result   |   map    | Return Format: `{"messageIds": ["messageId_1", "messageId_2"]}` |
 
-  2. Request failed
+  2. Request Failure
 
-  | Field name   | Field type | Description                                                |
+  | Field Name   | Field Type | Description                                                |
   | --------- | -------- | ------------------------------------------------------------ |
   | requestId | string  | requestId of this request is used to search the call chain         |
-  |  error   |   map    | Return format is: `{"code":403,"message":" Authentication failed","status":" PERMISSION_DENIED"}` |
+  |  error   |   map    | Return Format: `{"code":403,"message":" Authentication failed","status":" PERMISSION_DENIED"}` |

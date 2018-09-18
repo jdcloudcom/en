@@ -1,7 +1,7 @@
 # Specifications
 ## Specifications of Computer Room
 
-|Region of Room|cn-north, cn-east, cn-south|
+|Regions of Room|cn-north, cn-east, cn-south|
 |:-|:-|
 |**Room Level**|**T3+**|
 |**Power**|**Dual commercial power, UPS power, diesel generator**|
@@ -18,7 +18,7 @@
 
 ## Network Specifications
 
-|Network Access|Supporting for BGP line</br>Supporting for ISP line (Telecom, Unicom and Mobile)|
+|Network Access|Supporting for BGP line</br>Supporting for ISP line (China Telecom, China  Unicom and China Mobile)|
 |:-|:-|
 
 

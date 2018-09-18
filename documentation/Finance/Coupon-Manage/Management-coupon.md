@@ -18,4 +18,4 @@
 
 (1) Normal coupon deduction cannot be conducted unless the coupon supports both the product line and the billing type.
 
-(2) Under the same conditions, the system will give priority to deduct coupons with the lowest amount. For coupons with the same amounts, those with the latest validity period will be firstly deducted.
+(2) Under the same conditions, the system will give priority to deduct coupons with the lowest amount. For coupons with the same amount, those with the latest validity period will be firstly deducted.

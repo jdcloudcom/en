@@ -39,7 +39,7 @@ items:
         status: 0
 - name: Getting Started
   items:
-      - name: Overview of Getting Started
+      - name: Getting Started Overview
         href: Getting-Started/Overview.md
 - name: Operation Guide
   items:

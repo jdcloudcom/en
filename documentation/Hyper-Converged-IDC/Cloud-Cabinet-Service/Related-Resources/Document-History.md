@@ -4,4 +4,4 @@ This document introduces the important update history of the Cloud Cabinet Servi
 
 |**Issuance Date**|**Version Number**|**Description**|
 |:--:|:--:|:--:|
-|August, 2018|V1.0|Cloud Cabinet Service official version V1.0 is launched. |
+|August, 2018|V1.0| The official version V1.0 of Cloud Cabinet Service is launched. |

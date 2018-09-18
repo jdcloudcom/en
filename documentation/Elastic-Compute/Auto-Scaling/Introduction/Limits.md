@@ -1,5 +1,5 @@
 
-## **Service restrictions**
+## **Service Restrictions**
 
 At present, the region includes cn-north-1. (cn-east-1, cn-east-2 and cn-south-1 are about to be opened)
 

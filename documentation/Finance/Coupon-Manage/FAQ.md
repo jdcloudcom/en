@@ -6,7 +6,7 @@
 
 (1) Issuance: Coupon amount directly issued to the account number
 (2) Payment: Coupon amount to pay bill
-(3) Associate: Coupon amount associated by users themselves
+(3) Association: Coupon amount associated by users themselves
 (4) Expiration: Coupon exceeding valid operational use time
 (5) Return: When a user deletes a resource, if there is a paid but not consumed coupon amount, the corresponding coupon will be returned
 (6) Refund: After paying bill with coupon, if the resource corresponding to the bill create failed, the corresponding amount of coupon will be returned

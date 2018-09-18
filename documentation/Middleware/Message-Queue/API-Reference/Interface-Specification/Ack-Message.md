@@ -9,7 +9,7 @@ POST {Http access point}/v1/ack HTTP/1.1
 - Request Body
   The Request Body is in JSON format and contains the following parameters:
 
-| Field name          | Field type | Required     | Description                                     |
+| Field Name          | Field Type | Required     | Description                                     |
 | --------------- | -------- | -------- | ---------------------------------------- |
 | topic           | string   | Required |                                          |
 | consumerGroupId | string   | Required |                                          |
@@ -18,16 +18,16 @@ POST {Http access point}/v1/ack HTTP/1.1
 
 - Response Body
 
-  1. Request successful
+  1. Requested
 
-  | Field name          | Field type | Description                       |
+  | Field Name          | Field Type | Description                       |
   | :-------: | :------: | :---------------------------------- |
   | requestId |  string  | requestId of this request is used to search the call chain |
   |  result   |   null   | `null`                              |
 
-  2. Request failed
+  2. Request Failure
 
-  | Field name          | Field type | Description                       |
+  | Field Name          | Field Type | Description                       |
   | :-------: | :------: | ------------------------------------------------------------ |
   | requestId |  string  | requestId of this request is used to search the call chain |
-  |  error   |   map    | Return format is: `{"code":500,"message":" Ack message failure","status":" INTERNAL"}` |
+  |  error   |   map    | Return format: `{"code":500,"message":" Ack message failure","status":" INTERNAL"}` |
