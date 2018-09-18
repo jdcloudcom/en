@@ -62,6 +62,8 @@ items:
       items:
         - name: Customized Metric Monitoring Overview
           href: Operation-Guide/custom-monitoring/custom-monitoring-overview.md
+        - name: Report Monitoring Data
+          href: Operation-Guide/custom-monitoring/reporting-monitoring-data.md
         - name: View Monitoring Data
           href: Operation-Guide/custom-monitoring/view-monitoring-data.md
         - name: Delete Monitoring Data
