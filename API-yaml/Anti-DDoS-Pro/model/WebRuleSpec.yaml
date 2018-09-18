@@ -50,4 +50,4 @@ definitions:
         description: "Confirm to enable http back-to-origin, 0->no  1->yes. The attribute may be configured when HTTPS is checked"
       websocketStatus:
         type: integer
-        description: "是否开启 WebSocket, 0 为不开启, 1 为开启"
+        description: "Confirm to enable WebSocket or not, 0 is no, and 1 is yes"

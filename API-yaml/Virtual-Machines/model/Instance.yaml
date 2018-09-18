@@ -31,7 +31,7 @@ definitions:
         description: "The address of the primary network interface of primary IP associating EIP"
       status:
         type: string
-        description: "云主机状态，<a href="https://www.jdcloud.com/help/detail/3869/isCatalog/1">参考云主机状态</a>"
+        description: "Virtual machine status,<a href="https://www.jdcloud.com/help/detail/3869/isCatalog/1">refer to virtual machine status</a>"
       description: "type: string"
         description: "VM description"
       imageId:

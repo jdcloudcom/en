@@ -180,12 +180,12 @@ paths:
 
   /instances/{instanceId}/webRules/{webRuleId}:modifyCertInfo:
     post:
-      description: "编辑证书"
+      description: "Edit Certificate"
       operationId: modifyCertInfo
       parameters:
         - name: certInfoModifySpec
           in: body
-          description: "编辑证书请求参数"
+          description: "Request Parameter of Editing Certificate"
           required: true
           schema:
             $ref: "../model/CertInfoModifySpec.yaml#/definitions/CertInfoModifySpec"
@@ -199,12 +199,12 @@ paths:
 
   /instances/{instanceId}/webRule:describeCertInfo:
     post:
-      description: "查询证书预览信息"
+      description: "Query the Certificate Preview Information"
       operationId: describeCertInfo
       parameters:
         - name: certInfoDescribeSpec
           in: body
-          description: "查询证书预览请求参数"
+          description: "Query the Request Parameter of Certificate Preview"
           required: true
           schema:
             $ref: "../model/CertInfoDescribeSpec.yaml#/definitions/CertInfoDescribeSpec"

@@ -1,26 +1,26 @@
 # createNamespace
 
 
-## 描述
+## Description
 Create namespace
 
-## 请求方式
+## Request Method
 POST
 
-## 请求地址
+## Request Address
 https://streamcompute.jdcloud-api.com/v1/regions/{regionId}/namespace
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**regionId**|String|True||Region ID|
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request Parameter
+|Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**namespaceStr**|[Namespace](##Namespace)|True|||
 
 ### <a name="Namespace">Namespace</a>
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**createTime**|String|False|||
 |**deleted**|Integer|False|||
@@ -36,20 +36,20 @@ https://streamcompute.jdcloud-api.com/v1/regions/{regionId}/namespace
 |**updateTime**|String|False|||
 |**userName**|String|False|||
 
-## 返回参数
-|名称|类型|描述|
+## Return Parameter
+|Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
 |**result**|[Result](##Result)||
 
 
 ### <a name="Result">Result</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**status**|Boolean|Create the successful marker|
 
-## 返回码
-|返回码|描述|
+## Return Code
+|Return Code|Description|
 |---|---|
 |**200**|OK|
 |**500**|INTERNAL_ERROR|

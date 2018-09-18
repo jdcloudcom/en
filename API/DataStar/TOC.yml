@@ -1,0 +1,17 @@
+  name: Data Star
+  href: 
+  items:
+  - name: APIs Overview
+    href: overview.md
+  - name: Update History
+    href: changelog.md
+  - name: APIs Information
+    items:
+      - name: Data Management Related APIs
+        items:
+          - name: getPackageId
+            href: DMP-APIs/getPackageId.md
+      - name: Profile Single Label Output Related APIs
+        items:
+          - name: getProfile
+            href: Profile-Single-Lable-Output-APIs/getProfile.md

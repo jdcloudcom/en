@@ -3,7 +3,7 @@
 
 ## Description
 Delete a private image that only allows you to operate your personal private image.
-若镜像已共享给其他用户，需先取消共享才可删除。
+If the image is shared to other users, the image can be deleted only when the sharing is released.
 
 
 ## Request method

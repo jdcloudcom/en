@@ -44,7 +44,7 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instanceStatus
 |Name|Type|Description|
 |---|---|---|
 |**instanceId**|String|VM ID|
-|**status**|String|<a href="https://www.jdcloud.com/help/detail/3869/isCatalog/1">参考云主机状态</a>|
+|**status**|String|<a href="https://www.jdcloud.com/help/detail/3869/isCatalog/1">Refer to virtual machine status</a>|
 
 ## Return code
 |Return code|Description|

@@ -41,7 +41,7 @@ paths:
     delete:
       description: "|"
         Delete a private image that only allows you to operate your personal private image.
-        若镜像已共享给其他用户，需先取消共享才可删除。
+        If the image is shared to other users, the image can be deleted only when the sharing is released.
       operationId: deleteImage
       responses:
         200:
@@ -87,7 +87,7 @@ paths:
         - name: status
           in: query
           type: string
-          description: "<a href="https://www.jdcloud.com/help/detail/3871/isCatalog/1">参考镜像状态</a>"
+          description: "<a href="https://www.jdcloud.com/help/detail/3871/isCatalog/1">refer to image status</a>"
         - name: pageNumber
           in: query
           type: integer
@@ -131,7 +131,7 @@ paths:
     ###################### Query Image Restriction Interface ######################
     get:
       description: "|"
-        查询镜像的实例规格限制。<br>
+        Query the instance type limit of the image. <br>
         This interface allows you to view the type of specifications that are not supported by the image. Only the public image,  the third-party image has a specification type restriction,  and the private image of the individual does not have this limit.
       operationId: describeImageConstraints
       responses:
@@ -289,7 +289,7 @@ paths:
     ###################### Image Transition ######################
     post:
       description: "|"
-        内部接口。<br>
+        Internal APIs. <br>
         Image conversion,  only the conversion of the image from the LocalDisk to the cloudDisk type is supported,  allowing only your personal private image to be operated.
       operationId: convertImage
       x-jdcloud-internal: true

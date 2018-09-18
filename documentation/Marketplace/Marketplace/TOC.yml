@@ -50,13 +50,13 @@ items:
         herf: Service-Related/Image-Help.md
       - name: Website Building Help Documentation
         herf: Service-Related/Website-Help.md
-      - name: 京东云PLUS企业云盘帮助文档
+      - name: Help Documentation of JD Cloud PLUS Enterprise Cloud Disk
         herf: Service-Related/PLUS-Enterprise-Cloud-Box-Document.md
-      - name: 京东云PLUS企业邮箱帮助文档
+      - name: Help Documentation of JD Cloud PLUS Enterprise Email
         herf: Service-Related/PLUS-Enterprise-Email-Document.md
-      - name: 京东云PLUS云会议帮助文档
+      - name: Help Documentation of JD Cloud PLUS Meeting
         herf: Service-Related/PLUS-Meeting-Document.md
-      - name: 京东云PLUS智能短信帮助文档
+      - name: Help Documentation of JD Cloud PLUS Intelligent SMS
         herf: Service-Related/PLUS-Smart-SMS-Document.md 
       - name: Guide for Service Provider Adding Dongdong
         herf: Service-Related/IM-Operation-Manual.md

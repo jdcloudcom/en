@@ -73,7 +73,7 @@ items:
             href: Operation-Guide/Manage-Object/Get-Object-URL.md
           - name: Delete Files
             href: Operation-Guide/Manage-Object/Delete-Object.md
-          - name: 表单上传
+          - name: Form Upload
             href: Operation-Guide/Manage-Object/Post-Object.md                  
           - name: Consumption Monitoring
             href: Operation-Guide/Manage-Object/Usage-Monitoring.md

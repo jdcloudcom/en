@@ -55,7 +55,7 @@ paths:
     ###################### Query ssh Key Pair List ######################
     get:
       description: "|"
-        批量查询密钥对。<br>
+        Query secret key pairs in batches. <br>
         This API supports paging query with 20 items per page by default.
       operationId: describeKeypairs
       x-jdcloud-internal: true

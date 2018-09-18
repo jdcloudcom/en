@@ -378,12 +378,12 @@ paths:
 
   /instances/{instanceId}:modifyEPB:
     post:
-      description: "更新实例弹性防护带宽"
+      description: "Update the Instance Elastic Protection Bandwidth"
       operationId: modifyEPB
       parameters:
         - name: ePBSpec
           in: body
-          description: "更新弹性防护带宽请求参数"
+          description: "Update the Request Parameter of Elastic Protection Bandwidth"
           required: true
           schema:
             $ref: "../model/EPBSpec.yaml#/definitions/EPBSpec"
@@ -399,7 +399,7 @@ paths:
 
   /instances/{instanceId}:describeAlarmConfig:
     get:
-      description: "查询告警配置"
+      description: "Query Alarm Configuration"
       operationId: describeAlarmConfig
       responses:
         200:
@@ -417,12 +417,12 @@ paths:
 
   /instances/{instanceId}:modifyAlarmConfig:
     post:
-      description: "更新告警配置"
+      description: "Update Alarm Configuration"
       operationId: modifyAlarmConfig
       parameters:
         - name: alarmConfigSpec
           in: body
-          description: "更新告警配置请求参数"
+          description: "Update the Request Parameter of Alarm Configuration"
           required: true
           schema:
             $ref: "../model/AlarmConfigSpec.yaml#/definitions/AlarmConfigSpec"
@@ -436,19 +436,19 @@ paths:
 
   /instance/describeNameList:
     get:
-      description: "查询高防实例名称列表"
+      description: "Query the List of Advanced Anti-DDoS Instance Names"
       operationId: describeNameList
       parameters:
         - name: id
           in: query
           type: string
           required: false
-          description: "高防实例 ID, 为空则查询所有实例名称"
+          description: "Advanced Anti-DDoS Instance ID; If Blank, Query All the Instance Names"
         - name: name
           in: query
           type: string
           required: false
-          description: "实例名称, 可模糊匹配"
+          description: "Instance Name, Fuzzy Matching Available"
         - name: pageNumber
           in: query
           type: integer
@@ -458,7 +458,7 @@ paths:
           in: query
           type: integer
           required: false
-          description: "分页大小, 默认为 10, 取值范围 [0, 100]"
+          description: "Paging Size, 10 by Default; Value Range [0, 100]"
       responses:
         200:
           description: "OK"
@@ -472,19 +472,19 @@ paths:
                       $ref: "../model/InstanceIdName.yaml#/definitions/InstanceIdName"
                   currentCount:
                     type: integer
-                    description: "当前页数量"
+                    description: "Current page counts"
                   totalCount:
                     type: integer
-                    description: "实例总数"
+                    description: "Total number of instances"
                   totalPage:
                     type: integer
-                    description: "总页数"
+                    description: "Total number of pages"
               requestId:
                 type: string
 
   /instance/describeProtectionStatistics:
     get:
-      description: "查询高防实例防护统计信息"
+      description: "Query the Statistic Information of Advanced Anti-DDoS Instance Protection"
       operationId: describeProtectionStatistics
       responses:
         200:
@@ -504,14 +504,14 @@ paths:
 
   /instance/checkName:
     get:
-      description: "检测实例名称是否合法"
+      description: "Detect Whether the Instance Name is Legal"
       operationId: checkName
       parameters:
         - name: name
           in: query
           type: string
           required: true
-          description: "待检测实例名称"
+          description: "Instance Name to be Detected"
       responses:
         200:
           description: "OK"
@@ -521,13 +521,13 @@ paths:
                 properties:
                   data:
                     type: boolean
-                    description: "检测结果, true 表示合法, false 表示不合法"
+                    description: "Detection Result, True Means Legal, False Means Illegal"
               requestId:
                 type: string
 
   /instance/describeVpcIpList:
     get:
-      description: "查询用户的京东云 IP 资源"
+      description: "Query the JD Cloud IP Resources of Users"
       operationId: describeVpcIpList
       parameters:
         - name: pageNumber
@@ -539,7 +539,7 @@ paths:
           in: query
           type: integer
           required: false
-          description: "分页大小, 默认为 10, 取值范围 [0, 100], 0 表示全量"
+          description: "Paging Size, 10 by Default; Value Range [0, 100], 0 Means Full"
       responses:
         200:
           description: "OK"
@@ -553,19 +553,19 @@ paths:
                       $ref: "../model/VpcIpResource.yaml#/definitions/VpcIpResource"
                   currentCount:
                     type: integer
-                    description: "当前页数量"
+                    description: "Current page counts"
                   totalCount:
                     type: integer
-                    description: "实例总数"
+                    description: "Total number of instances"
                   totalPage:
                     type: integer
-                    description: "总页数"
+                    description: "Total number of pages"
               requestId:
                 type: string
 
   /instance/describeCCDefaultThresholds:
     get:
-      description: "查询 CC 自定义默认阈值"
+      description: "Query the CC Customized Default Threshold"
       operationId: describeCCDefaultThresholds
       responses:
         200:

@@ -2,7 +2,7 @@
 
 
 ## Description
-查询镜像的实例规格限制。<br>
+Query the instance type limit of the image. <br>
 This interface allows you to view the type of specifications that are not supported by the image. Only the public image,  the third-party image has a specification type restriction,  and the private image of the individual does not have this limit.
 
 

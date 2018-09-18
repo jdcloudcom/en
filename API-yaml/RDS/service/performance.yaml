@@ -14,7 +14,7 @@ paths:
           required: true
           in: query
           type: string
-          description: "查询类型，不同的查询类型按照相应的字段从高到低返回结果。<br>支持如下类型：<br>Missing：缺失索引<br>Size：索引大小，单位KB<br>Updates：索引更新次数<br>Scans：表扫描次数<br>Used：最少使用<br>"
+          description: "Query Type, Return Results of Fields From High to Low for Different Query Types. <br>The following types are supported:<br>Missing: Index missing<br>Size: Index size, unit KB<br>Updates: Index updates<br>Scans: Table scan times<br>Used: Least used|<br>"
         - name: db
           required: false
           in: query
@@ -65,7 +65,7 @@ paths:
           required: true
           in: query
           type: string
-          description: "查询类型，不同的查询类型按照相应的字段从高到低返回结果。<br>支持如下类型：<br>ExecutionCount：执行次数<br>LastRows：上次返回行数<br>ElapsedTime：平均执行时间<br>CPUTime：平均CPU时间<br>LogicalReads：平均逻辑读<br>LogicalWrites：平均逻辑写<br>PhysicalReads：平均物理读<br>"
+          description: "Query Type, Return Results of Fields From High to Low for Different Query Types. <br>support the following types: <br>ExecutionCount: Number of executions<br>LastRows: Number of rows returned last time<br>ElapsedTime: Average execution time<br>CPUTime: Average CPU time<br>LogicalReads: Average logical read<br>LogicalWrites: Average logical write<br>PhysicalReads: Average physical read<br>"
         - name: threshold
           required: false
           in: query

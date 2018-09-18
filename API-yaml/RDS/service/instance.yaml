@@ -226,21 +226,21 @@ paths:
                 properties:
                   instanceId:
                     type: string
-  "/instances/{instanceId}:modifyInstanceSpec":    #修改实例配置
+  "/instances/{instanceId}:modifyInstanceSpec":    #Modify instance configuration
     post:
-      description: "实例扩容，支持升级实例的CPU，内存及磁盘。目前暂不支持实例降配<br>- 仅支持MySQL"
+      description: "Instance Expansion, Supports Upgrading the Instance CPU, Memory and Disk. Instance configuration downgrade not supported currently<br>- only support MySQL"
       operationId: modifyInstanceSpec
       parameters:
         - name: newInstanceClass
           required: true
           in: query
           type: string
-          description: "扩容后实例规格"
+          description: "Instance Type after Expansion"
         - name: newInstanceStorageGB
           required: true
           in: query
           type: integer
-          description: "扩容后实例磁盘大小"
+          description: "Instance Disk Size after Expansion"
       responses:
         200:
           description: "OK"
@@ -250,17 +250,17 @@ paths:
                 properties:
                   orderId:
                     type: string
-                    description: "生成的订单号"
-  "/instances/{instanceId}:createInstanceByTime":    #根据时间点创建实例
+                    description: "Generated Order Number"
+  "/instances/{instanceId}:createInstanceByTime":    #Create Instance Based on Time Points
     post:
-      description: "根据源实例备份创建一个新实例，并通过追加日志的方式，将新实例的数据恢复到跟源实例指定时间点的数据状态一样。<br>例如根据实例A在“2018-06-18 23:00:00”时间点创建一个实例B，就是新建一个实例B，该实例B的数据跟实例A在“2018-06-18 23:00:00”这个时间点的数据完全一致。<br>对于SQL Server，主备切换后30分钟内，不支持按时间点恢复/创建，例如在10:05分用户进行了主备切换，那么10:05 ~ 10:35这个时间段不能进行按时间点恢复/创建。<br>- 仅支持MySQL"
+       description: "Create a new instance based on the source instance backup, and recover the data of the new instance to the same status as the data at the specified time point of the source instance by adding new logs. <br>For example, creating an instance B at the time point "2018-06-18 23:00:00" based on instance A means creating an instance B, of which the data is exactly the same as the data of instance A at the time point \"2018-06-18 23:00:00\". <br>For the SQL Server, recovery/creation by time point is not supported within 30 minutes after the primary/backup switchover. For example, if the user performs the primary/backup switchover at 10:05, recovery/creation by time point is unavailable during the time period from 10:05 to 10:35. <br>- only support MySQL"
       operationId: createInstanceByTime
       parameters:
         - name: restoreTime
           required: true
           in: query
           type: string
-          description: "根据源实例的哪个时间点创建新实例"
+          description: "Create New Instance Based on Which Time Point of the Source Instance"
         - name: instanceSpec
           required: true
           in: body
@@ -276,10 +276,10 @@ paths:
                 properties:
                   instanceId:
                     type: string
-                    description: "新创建的实例ID"
-  "/instances/{instanceId}:createROInstance":    #创建只读实例
+                    description: "Newly Created Instance ID"
+  "/instances/{instanceId}:createROInstance":    #Create Read-only Instance
     post:
-      description: "创建MySQL的只读实例<br>- 仅支持MySQL"
+      description: "Create Read-only Instance of MySQL<br>- only support MySQL"
       operationId: createROInstance
       x-jdcloud-internal: true
       parameters:
@@ -292,17 +292,17 @@ paths:
           required: true
           in: query
           type: string
-          description: "只读实例规格FlavorId"
+          description: "Read-only Instance Type FlavorId"
         - name: instanceStorageGB
           required: true
           in: query
           type: integer
-          description: "磁盘空间"
+          description: "Disk Space"
         - name: count
           required: false
           in: query
           type: integer
-          description: "创建只读实例的数目,缺省为1"
+          description: "Number of Created Read-only Instances, 1 by Default"
       responses:
         200:
           description: "OK"
@@ -312,13 +312,13 @@ paths:
                 properties:
                   roInstanceId:
                     type: array
-                    description: "新创建的只读实例ID的列表"
+                    description: "List of Newly Created Read-only Instance IDs"
                     items:
                       type: string
-                      description: "新创建的只读实例ID"
+                      description: "Newly Created Read-only Instance ID"
                   orderId:
                     type: string
-                    description: "订单ID"
+                    description: "Order ID"
 # General Parameters for Path
 parameters:
   regionId:

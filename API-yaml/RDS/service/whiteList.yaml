@@ -5,7 +5,7 @@ info:
   description: "White List Related Interface"
 basePath: /regions/{regionId}
 paths:
-  "/instances/{instanceId}/whiteList": #实例的IP白名单
+  "/instances/{instanceId}/whiteList": #Instance IP white list
     put:
       description: "Modify the IP White List that allows access to the instance. The White List is a list of IP/IP segments that are allowed to access the current instance. By default, the White List is open to the VPC. If the user has enabled the internet access, you need to configure a White List for the IP of the internet."
       operationId: modifyWhiteList
