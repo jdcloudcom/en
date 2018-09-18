@@ -623,7 +623,7 @@
 		"main_title":"JCS for MariaDB"
 	},
 	{
-		"sub_title":"Hosted Service based on Reliable Power and Network with T3+ Quality Server Room Details",
+		"sub_title":"Hosted Service based on Reliable Power and Network with T3+ Quality Server Room",
 		"image_Url":"//img1.jcloudcs.com/cms/4ebeffae-a1b0-40f6-b54f-01576a83db2720180830190526.png",
 		"dynamic_image":"//img1.jcloudcs.com/cms/cdd9c18a-d258-4814-b03c-9d08240281d220180830190530.png",
 		"name":"Cloud Cabinet Service in Beta",
