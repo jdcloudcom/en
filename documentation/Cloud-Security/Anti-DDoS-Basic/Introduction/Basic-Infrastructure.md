@@ -21,8 +21,8 @@ Note: 1. The image flow to the detection device 2. The detection device detects 
 
 ## Related Reference
 
-- [What is Anti-DDoS Basic](Overview.md)
+- [What is Anti-DDoS Basic](Product-Overview.md)
 - [Core Concepts](Core-Concepts.md)
 - [Application Scenarios](Application-Scenarios.md)
-- [Basic Function](Functions.md)
+- [Basic Function](Features.md)
 - [Use limit](Restrictions.md)
