@@ -8,7 +8,7 @@
 
 ![image](https://raw.githubusercontent.com/jdcloudcom/cn/zhangwenjie30-patch-4/image/Cloud-Monitor/yunziyuan/%E5%AE%9E%E4%BE%8B%E8%AF%A6%E6%83%85_%E6%8A%A5%E8%AD%A6%E8%A7%84%E5%88%99.png)
 
-3. Input monitoring items, statistical periods, statistical methods, calculation methods, thresholds, and durations. According to business requirements, you can also set grading alarms (divided into moderate, severe, and critical). Click on “Next” to add alarm rules and contacts, and click on “Next” step, click on "Finish". 
+3. Input monitoring metircs, statistical periods, statistical methods, calculation methods, thresholds, and durations. According to business requirements, you can also set grading alarms (divided into moderate, severe, and critical). Click on “Next” to add alarm rules and contacts, and click on “Next” step, click on "Finish". 
 
 ![image](https://raw.githubusercontent.com/jdcloudcom/cn/cn-cloudmonitor/image/Cloud-Monitor/%E8%AE%BE%E7%BD%AE%E6%8A%A5%E8%AD%A6%E8%A7%84%E5%88%99.png)
 
