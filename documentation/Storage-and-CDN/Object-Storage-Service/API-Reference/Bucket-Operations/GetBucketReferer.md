@@ -49,7 +49,7 @@ x-jss-request-id:   A84C875C916A1E24
 {"AllowNull":false,"Effect":"ALLOW","Value":["www.abc.com","www.*.com"]}
 ```
 
-**Return example of Referer rules is not set**
+**Response example of Referer rules is not set**
 
 ```
 HTTP/1.1 204 No   Content
