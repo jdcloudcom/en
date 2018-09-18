@@ -1,6 +1,6 @@
 # Protection Threshold Setting
 
-1. Navigate to the console->Anti-DDoS Basic, base protection, find the IP of the public network that needs to be modified, enter the basic information page, as follows:
+1. Navigate to the **Console->Anti-DDoS Basic**, base protection, find the IP of the public network that needs to be modified, enter the basic information page, as follows:
 
 ![Create Object](https://github.com/jdcloudcom/cn/blob/edit/image/Basic%20Anti-DDos/threshold01.png)
 
