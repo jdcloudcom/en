@@ -28,13 +28,13 @@ https://mps.jdcloud-api.com/v1/regions/{regionId}/thumbnail
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**thumbnailQuery**|[ThumbnailQuery](##ThumbnailQuery)||
+|**thumbnailQuery**|ThumbnailQuery||
 ### <a name="ThumbnailQuery">ThumbnailQuery</a>
 |Name|Type|Description|
 |---|---|---|
@@ -44,7 +44,7 @@ https://mps.jdcloud-api.com/v1/regions/{regionId}/thumbnail
 |**marker**|String|marker of this request, starting position of tag query, taskID here|
 |**nextMarker**|String|Get the marker value to be passed on the next page (taskID here), only when isTruncated is true (data not all returned), it appears (readonly)|
 |**status**|String|Status (SUCCESS, ERROR, PENDDING, RUNNING)|
-|**taskList**|[ThumbnailTask[]](##ThumbnailTask)|Returned task List (readonly)|
+|**taskList**|ThumbnailTask[]|Returned task List (readonly)|
 |**truncated**|Boolean|Indicate whether the returned data is truncated. true means there is data behind the page, that is, the data is not all returned; false means that this is the last page, that is, the data has all been returned (readonly)|
 ### <a name="ThumbnailTask">ThumbnailTask</a>
 |Name|Type|Description|
@@ -52,10 +52,10 @@ https://mps.jdcloud-api.com/v1/regions/{regionId}/thumbnail
 |**createdTime**|String|Task creation time, format (GMT): yyyy-MM-dd’T’HH:mm:ss.SSS’Z’  (readonly)|
 |**errorCode**|Integer|Error Code (readonly)|
 |**lastUpdatedTime**|String|Task creation time, format (GMT): yyyy-MM-dd’T’HH:mm:ss.SSS’Z’  (readonly)|
-|**rule**|[ThumbnailTaskRule](##ThumbnailTaskRule)||
-|**source**|[ThumbnailTaskSource](##ThumbnailTaskSource)||
+|**rule**|ThumbnailTaskRule||
+|**source**|ThumbnailTaskSource||
 |**status**|String|Status (SUCCESS, ERROR, PENDDING, RUNNING) (readonly)|
-|**target**|[ThumbnailTaskTarget](##ThumbnailTaskTarget)||
+|**target**|ThumbnailTaskTarget||
 |**taskID**|String|Task ID (readonly)|
 ### <a name="ThumbnailTaskRule">ThumbnailTaskRule</a>
 |Name|Type|Description|

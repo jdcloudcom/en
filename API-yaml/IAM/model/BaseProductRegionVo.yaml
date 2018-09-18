@@ -5,9 +5,9 @@ definitions:
     properties:
       serviceCode:
         type: string
-        description: Product code
+        description: Product Code
       regionAzVos:
         type: array
         items:
           $ref: "./RegionAzVo.yaml#/definitions/regionAzVo"
-        description: az information
+        description: Az Information

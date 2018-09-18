@@ -1,6 +1,6 @@
 # Document History
 
-This document introduces the important updating history of Basic Anti-DDoS documentation, including material properties of the new product and updates to the content based on the users' feedback.
+This document introduces the important updating history of Anti-DDoS Basic documentation, including material properties of the new product and updates to the content based on the users' feedback.
 
 | Launch Date | Property | Description |
 |-|-|-|
@@ -8,4 +8,4 @@ This document introduces the important updating history of Basic Anti-DDoS docum
 
 ## Related Reference
 
-- [Product Overview](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Basic-Anti-DDoS/Introduction/What-Is-Basic-Anti-DDoS.md)
+- [Product Overview](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Anti-DDoS-Basic/Introduction/Product-Overview.md)

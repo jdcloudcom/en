@@ -26,7 +26,7 @@ This article describes how to create a geography backup synchronization service 
 
    ![Create Synchronization Service](../../../../../image/mongodb/mongo-043.png)
 
-1. Fill in the service information in “Creation Popup”.
+1. Fill in the service information in "Creation Popup".
 
    ![Create Synchronization Service](../../../../../image/mongodb/mongo-044.png)
 

@@ -2,7 +2,7 @@
 
 ## Capability Limits of Specification
 
-- Primary-secondary version
+- Primary-secondary Version
 
 Specification|Maximum Number of Connections |Upper Limit of Intranet Bandwidth (MB/s) |CPU Processing Capacity
 :---|:--|:--|:---

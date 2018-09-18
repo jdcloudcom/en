@@ -23,18 +23,18 @@ None
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
-|**result**|[Result](##Result)|Returned results|
+|**result**|Result|Returned results|
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**elasticIp**|[ElasticIp](##ElasticIp)|elasticIp resource information|
+|**elasticIp**|ElasticIp|elasticIp resource information|
 ### <a name="ElasticIp">ElasticIp</a>
 |Name|Type|Description|
 |---|---|---|
 |**bandwidthMbps**|Integer|Elastic ip speed limit (unit: Mbps)|
-|**charge**|[Charge](##Charge)|Billing configuration|
+|**charge**|Charge|Billing configuration|
 |**createdTime**|String|Creation Time of elastic ip|
 |**elasticIpAddress**|String|Elastic IP address|
 |**elasticIpId**|String|Elastic IP Id|

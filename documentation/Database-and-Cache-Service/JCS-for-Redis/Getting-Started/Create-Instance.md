@@ -1,6 +1,6 @@
 ﻿# Create instance
 
-You can create a new Redis instance in the Redis console or API. Please refer to “[Price Overview](../Pricing/Price-Overview.md)”、“[Billing Rules](../Pricing/Billing-Rules.md)” for Billing Instructions for instance
+You can create a new Redis instance in the Redis console or API. Please refer to "[Price Overview](../Pricing/Price-Overview.md)"、"[Billing Rules](../Pricing/Billing-Rules.md)" for Billing Instructions for instance
 
 This document introduces creating a new Redis instance through the Redis console.
 
@@ -11,26 +11,26 @@ This document introduces creating a new Redis instance through the Redis console
 ## Action Steps
 1. Log in to [Redis console](https://redis-console.jdcloud.com/redis).
 
-2. Click the “Create” button to jump to the instance creation page at the page of “Instance List” page.
+2. Click **Create** to jump to the instance creation page at the page of "Instance List" page.
    ![创建实例](https://github.com/jdcloudcom/cn/tree/edit/image/Redis/create-redis-instance.PNG)
 
 3. Select payment method, region, specification, network, deployment plan, basic information, purchase, etc., at the newly created instance page.
 
-4. Click “Buy Now” to enter the “Order Confirmation” page.
+4. Click **Buy Now** to enter the "Order Confirmation" page.
 
-5. Confirm instance information at the “Order Confirmation” and read Redis Service Terms.
+5. Confirm instance information at the "Order Confirmation" and read Redis Service Terms.
 
-  - If the billing type is pay by configuration, please select Instant Account Setup.
-  - If the billing type is based on monthly package, please click Pay Now to enter the “order payment” page to complete the payment process.
-After payment is completed, the page will automatically jump to Redis “Instance List” page to wait for the competition of the instance creation. You can view the newly created instance on the “Instance List” page.
+  - If the billing type is pay by configuration, please select **Instant Account Setup**.
+  - If the billing type is based on monthly package, please click **Pay Now** to enter the "order payment" page to complete the payment process.
+After payment is completed, the page will automatically jump to Redis "Instance List" page to wait for the competition of the instance creation. You can view the newly created instance on the "Instance List" page.
 
 6. View the completion of creating the instance in the list
-  - If the status is “Pending”, please wait a few minutes patiently.
-  - If the status is “Running”, the creating is done.
+  - If the status is "Pending", please wait a few minutes patiently.
+  - If the status is "Running", the creating is done.
 
 ## Relevant references
 
-- [Summary of Getting-started Guide](Set-Whitelist.md)
+- [Summary of Getting Started](Set-Whitelist.md)
 - [Connection Instance](Connect-Instances.md)
 - [Modify Password](../../Operation-Guide/Instance-Management/Change-Password.md)
 - [Change Instance Configuration](../../Operation-Guide/Instance-Management/Change-Configuration.md)

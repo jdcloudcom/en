@@ -1,5 +1,5 @@
 # Index Performance Statistics
-Index performance analysis covers the statistics of index usage, such as index size, table scan, least-frequently-used indexes, index updates, etc., and indicates missing indexes and suggestions.
+Index performance analysis covers the statistics of index usage, such as index size, table scan, least-frequently-used indexes, and index updates, and indicates missing indexes and suggestions.
 
 ## 1. Select Database and Performance Indicators
 Based on a single database, index performance analysis can be provided for statistics of all databases by default, and users can also select one or several databases for analysis.

@@ -17,12 +17,12 @@ paths:
               in: query
               type: string
               required: true
-              description: "Instance name"
+              description: "Instance Name"
             - name: databaseName
               in: query
               type: string
               required: true
-              description: "Database name"
+              description: "Database Name"
           responses:
             200:
               description: OK
@@ -52,11 +52,11 @@ paths:
               in: query
               type: string
               required: true
-              description: "Instance name"
+              description: "Instance Name"
             - name: dbModelDBTable
               in: body
               required: true
-              description: "Datasheet description information"
+              description: "Datasheet Description Information"
               schema:
                 $ref: "../model/DwTableDesc.yaml#/definitions/dwTableDesc"
           responses:
@@ -83,12 +83,12 @@ paths:
               in: query
               type: string
               required: true
-              description: "Instance name"
+              description: "Instance Name"
             - name: databaseName
               in: query
               type: string
               required: true
-              description: "Database name"
+              description: "Database Name"
           responses:
             200:
               description: OK
@@ -116,12 +116,12 @@ paths:
               in: query
               type: string
               required: true
-              description: "Instance name"
+              description: "Instance Name"
             - name: databaseName
               in: query
               type: string
               required: true
-              description: "Database name"
+              description: "Database Name"
           responses:
             200:
               description: OK
@@ -140,7 +140,7 @@ paths:
             500:
               description: "Internal server error"
 
-# Path general parameter
+# Path General Parameter
 parameters:
   regionId:
     name: regionId
@@ -153,4 +153,4 @@ parameters:
     in: path
     required: true
     type: string
-    description: Datasheet name
+    description: Datasheet Name

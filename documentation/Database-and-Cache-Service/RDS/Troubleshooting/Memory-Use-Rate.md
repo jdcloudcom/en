@@ -23,7 +23,7 @@ The size of the session memory is specified by the following parameters of the M
 * binlog_cache_size
 * tmp_table_size
 
-## Why the Memory Usage Rate is 100%?
+## Why is the Memory Usage Rate 100%?
 Through the above analysis of memory usage rate, it can  be seen that the more frequently the MySQL/Percona service instance accesses, the more connections, the memory usage rate is likely to reach 100%, which is normal in most cases, indicating the MySQL/Percona service is working at full capacity.
 
 ## Reduce Memory Usage Rate

@@ -18,19 +18,19 @@ https://iam.jdcloud-api.com/v1/regions/{regionId}/permission/{permissionId}
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**updatePermissionInfo**|[UpdatePermissionInfo](##UpdatePermissionInfo)|True||Permission information|
+|**updatePermissionInfo**|UpdatePermissionInfo|True||Permission information|
 
 ### <a name="UpdatePermissionInfo">UpdatePermissionInfo</a>
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**content**|[PermissionDetail[]](##PermissionDetail)|True||Permission details|
+|**content**|PermissionDetail[]|True||Permission details|
 |**description**|String|False||Description, 0~256 characters|
 |**name**|String|True||Permission name, 1~32 numbers, characters, Chinese characters, line-throughs and underlines|
 ### <a name="PermissionDetail">PermissionDetail</a>
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**permission**|String|True||Permission type: Read-only-R, Delete-D, Modification-M|
-|**resource**|[Resource[]](##Resource)|True||Resource information|
+|**resource**|Resource[]|True||Resource information|
 ### <a name="Resource">Resource</a>
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|

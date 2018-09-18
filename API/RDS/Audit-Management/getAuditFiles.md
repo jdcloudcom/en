@@ -22,13 +22,13 @@ None
 ## Return parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**auditFiles**|[AuditFile[]](##AuditFile)||
+|**auditFiles**|AuditFile[]||
 ### <a name="AuditFile">AuditFile</a>
 |Name|Type|Description|
 |---|---|---|

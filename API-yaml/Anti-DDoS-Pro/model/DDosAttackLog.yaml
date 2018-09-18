@@ -7,23 +7,23 @@ definitions:
       attackTraffic:
         type: number
         format: float
-        description: Attack traffic
+        description: Attack Traffic
       blackHole:
         type: integer
         description: Is black hole triggered, 0->no  1->yes
       startTime:
         type: string
-        description: Start time of attack
+        description: Start Time of Attack
       endTime:
         type: string
-        description: End time of attack
+        description: End Time of Attack
       unit:
         type: string
-        description: Traffic unit, i.e. bps, Kbps, Mbps and Gbps
+        description: Traffic Unit, i.e. bps, Kbps, Mbps and Gbps
       instanceId:
         type: integer
         format: int64
-        description: Advanced Anti-DDoS instance ID
+        description: Advanced Anti-DDoS Instance ID
       name:
         type: string
-        description: Advanced Anti-DDoS instance name
+        description: Advanced Anti-DDoS Instance Name

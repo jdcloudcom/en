@@ -1,10 +1,10 @@
 # Sign up Service
 
-Operation steps
+Operation Steps
 
 1. Use the successfully registered JD Cloud account to login the homepage of Media Processing Service.
 
-2. Click [Instant Account Setup], and enter setup page.
+2. Click **Instant Account Setup**, and enter setup page.
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Media-Processing-Service/MPS-001.png)
 

@@ -1,4 +1,4 @@
-# Add image watermark
+# Add Image Watermark
 
 Add watermark of image format on the picture file.
 

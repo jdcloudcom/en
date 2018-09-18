@@ -1,7 +1,7 @@
 swagger: "2.0"
 definitions:
   createAlarmBody:
-    ###################### Create alarm ######################
+    ###################### Create Alarm ######################
     x-jdcloud-module: monitor
     type: object
     required:
@@ -47,13 +47,13 @@ definitions:
         description: For values, please view <a href="https://www.jdcloud.com/help/detail/2791/isCatalog/1"> [Query metric list to create monitoring rules available]</a> metric field of API
         type: string
       noticePeriod:
-        description: "Notification period unit: hour"
+        description: "Notification Period Unit: Hour"
         type: integer
       operation:
         description: Alarm comparison is limited to <=,<,>,>=,==,!=
         type: string
       period:
-        description: "Statistical period, unit in minutes, currently supported value: 2, 5, 15, 30, 60"
+        description: "Statistical period, unit: minutes, currently supported value: 2, 5, 15, 30, 60"
         type: integer
       resourceIds:
         description: Alarm rules shall correspond to the Instance List, 100 pieces at most each time, for example"['resourceId1','resourceId2']"
@@ -68,11 +68,11 @@ definitions:
         type: number
         format: double
       times:
-        description: "Continuous periods, alarms are made when several statical periods meet threshold value conditions through continuous detections, optional values: 1, 2, 3, 5"
+        description: "Continuous periods, alarms are made when several statistical periods meet threshold value conditions through continuous detections, optional values: 1, 2, 3, 5"
         type: integer
 
   updateAlarmBody:
-    ###################### Modify alarm######################  
+    ###################### Modify Alarm######################  
     x-jdcloud-module: monitor
     type: object
     required:
@@ -98,22 +98,22 @@ definitions:
         items:
           type: string
       downSample:
-        description: Sampling frequency
+        description: Sampling Frequency
         type: string
       metric:
         description: Query Metric field returned by list API of available monitoring item based on the product line
         type: string
       noticePeriod:
-        description: "Notification period unit: hour"
+        description: "Notification Period Unit: Hour"
         type: integer
       operation:
         description: '>=、>、<、<=、==、!='
         type: string
       period:
-        description: "Statistical period (unit: minute), optional value: 2, 5, 15, 30, 60"
+        description: "Statistical Period (Unit: Minute), optional value: 2, 5, 15, 30, 60"
         type: integer
       serviceCode:
-        description: Product name
+        description: Product Name
         type: string
       threshold:
         description: Threshold
@@ -124,7 +124,7 @@ definitions:
         type: integer
 
   alarmHistory:
-    ###################### Alarm history######################  
+    ###################### Alarm History######################  
     x-jdcloud-module: monitor
     type: object
     properties:
@@ -145,41 +145,41 @@ definitions:
         description: Whether the rule has been deleted, 1 represents it has been deleted, 0 represents it has not been deleted, the deleted rules will not be retrieved when using the API for querying rules
         type: integer
       enabled:
-        description: Enable&Disable 1 Enable, 0 Disable
+        description: Enable & Disable 1 Enable, 0 Disable
         type: integer
       id:
-        description: Rule id
+        description: Rule ID
         type: string
       metric:
-        description: Monitoring item
+        description: Monitoring Item
         type: string
       metricName:
-        description: Name of rule id monitoring item
+        description: Name of Rule ID Monitoring Item
         type: string
       noticePeriod:
-        description: "Notification period unit: hour"
+        description: "Notification Period Unit: Hour"
         type: integer
       noticeTime:
-        description: Alarm time
+        description: Alarm Time
         type: string
         format: date-time
       operation:
         description: '>=、>、<、<=、==、！='
         type: string
       period:
-        description: "Statistical period (unit: minute)"
+        description: "Statistical Period (Unit: Minute)"
         type: integer
       region:
-        description: Region information
+        description: Region Information
         type: string
       resourceId:
-        description: Resource id applied by this rule
+        description: Resource ID Applied by This Rule
         type: string
       serviceCode:
-        description: Product corresponded to the alarm rule
+        description: Product Corresponded to the Alarm Rule
         type: string
       tag:
-        description: Auxiliary information of monitoring item
+        description: Auxiliary Information of Monitoring Item
         type: string
       threshold:
         description: Threshold
@@ -189,12 +189,12 @@ definitions:
         description: Alarm after how many times
         type: integer
       value:
-        description: Alarm value
+        description: Alarm Value
         type: number
         format: double
   
   alarm:
-    ###################### Alarm information######################  
+    ###################### Alarm Information######################  
     x-jdcloud-module: monitor
     type: object
     properties:
@@ -212,48 +212,48 @@ definitions:
         items:
           type: string
       createTime:
-        description: Creation time
+        description: Creation Time
         type: string
         format: date-time
       enabled:
-        description: Enable&Disable 1 Enable, 0 Disable
+        description: Enable & Disable 1 Enable, 0 Disable
         type: integer
       id:
-        description: Rule id
+        description: Rule ID
         type: string
       metric:
-        description: Monitoring item
+        description: Monitoring Item
         type: string
       metricName:
-        description: Name of rule id monitoring item
+        description: Name of Rule ID Monitoring Item
         type: string
       noticePeriod:
-        description: "Notification period unit: hour"
+        description: "Notification Period Unit: Hour"
         type: integer
       noticeTime:
-        description: Alarm time  ,  this field is valid when querying the alarming rule
+        description: Alarm time, this field is valid when querying the alarming rule
         type: string
         format: date-time
       operation:
         description: '>=、>、<、<=、==、！='
         type: string
       period:
-        description: "Statistical period (unit: minute)"
+        description: "Statistical Period (Unit: Minute)"
         type: integer
       region:
-        description: Region information
+        description: Region Information
         type: string
       resourceId:
-        description: Resource id applied by this rule
+        description: Resource ID Applied by This Rule
         type: string
       serviceCode:
-        description: Product corresponded to the alarm rule
+        description: Product Corresponded to the Alarm Rule
         type: string
       status:
-        description: "Monitoring item status: 1 Normal, 2 Alarm, 4 Insufficient data"
+        description: "Monitoring Item Status: 1 Normal, 2 Alarm, 4 Insufficient data"
         type: integer
       tag:
-        description: Auxiliary information of monitoring item
+        description: Auxiliary Information of Monitoring Item
         type: string
       threshold:
         description: Threshold

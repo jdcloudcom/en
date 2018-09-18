@@ -1,6 +1,6 @@
-# Billing rules
+# Billing Rules
 
-## Billing items
+## Billing Items
 
 <table border=0 cellpadding=0 cellspacing=0 width=840 style='border-collapse:
  collapse;table-layout:fixed;width:632pt'>
@@ -127,7 +127,7 @@
  </tr>
 </table>
 
-## Billing cases
+## Billing Cases
 
 **Case background 1 (use standard storage)**
 

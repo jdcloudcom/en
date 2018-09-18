@@ -13,7 +13,7 @@
 
 
 
-# SDK usage method #
+# SDK Usage Method #
 It is recommended to install the JD Cloud Php SDK using Composer: 
 
 First add in composer.json

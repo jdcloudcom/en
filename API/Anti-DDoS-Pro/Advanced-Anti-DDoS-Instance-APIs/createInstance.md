@@ -17,7 +17,7 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**instanceSpec**|[InstanceSpec](##InstanceSpec)|True||Instance type parameter|
+|**instanceSpec**|InstanceSpec|True||Instance type parameter|
 
 ### <a name="InstanceSpec">InstanceSpec</a>
 |Name|Type|Required or not|Default value|Description|
@@ -36,7 +36,7 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>

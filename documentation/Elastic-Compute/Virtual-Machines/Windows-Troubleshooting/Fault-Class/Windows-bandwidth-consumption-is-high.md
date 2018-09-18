@@ -1,5 +1,5 @@
 # Windows High Bandwidth Occupation Processing
-**Possible Reasons for High Bandwidth Occupation of the Server: **
+**Possible Reasons for High Bandwidth Occupation of the Server:**
 
 1. The frequent access of the user to the service causes large bandwidth occupation.
 
@@ -9,11 +9,11 @@
 
 **View the occupation by the process of bandwidth through Windows Resource Monitor:**
 
-Open the [Task Manager]->[Performance]->[Resource Monitor]->[Network] in Windows 2008 R2, as shown below:
+Open the **Task Manager** -> **Performance** -> **Resource Monitor** -> **Network** in Windows 2008 R2, as shown below:
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows%E5%B8%A6%E5%AE%BD%E5%8D%A0%E7%94%A8%E9%AB%98%E7%9A%84%E5%A4%84%E7%90%8601.png)
 
-Open [Task Manager]->[Performance]->[Resource Monitor]->[Network] in Windows 2012 R2, as shown below:
+Open **Task Manager** -> **Performance** -> **Resource Monitor** -> **Network** in Windows 2012 R2, as shown below:
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows%E5%B8%A6%E5%AE%BD%E5%8D%A0%E7%94%A8%E9%AB%98%E7%9A%84%E5%A4%84%E7%90%8602.png)
 

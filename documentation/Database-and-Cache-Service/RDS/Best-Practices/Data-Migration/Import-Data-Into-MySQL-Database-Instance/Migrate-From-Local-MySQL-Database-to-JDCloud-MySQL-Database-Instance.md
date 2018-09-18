@@ -3,7 +3,7 @@ It mainly explains how to transfer data from the local self-built MySQL to JD Cl
 
 ## Precautions
 * Use a VM as the transmission medium, if to import the data in local MySQL to the MySQL service.
-* New MySQL instance is required to share one ***virtual private cloud*** with the VM.
+* New MySQL instance is required to share one ***Virtual Private Cloud*** with the VM.
 * Ensure the capacity space of the new MySQL instance not smaller than the self-built local MySQL.
 
 ## Operation Steps
@@ -15,15 +15,15 @@ It mainly explains how to transfer data from the local self-built MySQL to JD Cl
     ```
     mysqldump -u User name -p Password --single-transaction --set-gtid-purged=OFF -B Database name > /Path/Outputted file name.sql
 
-    Parameter description
-        User name: User name of self-built database.
+    Parameter Description
+        User Name: User name of self-built database.
         Password: Password of self-built database.
-        Database name: Fill in database names to be outputted and separate several database names with spaces
+        Database Name: Fill in database names to be outputted and separate several database names with spaces.
     ```
     
 5. Start creating a VM after exporting the local self-built MySQL data to the local.
 6. See specific steps of VM creation in [Create VM Instance](https://www.jdcloud.com/help/detail/303/isCatalog/1). Pay attention to following matters when creating VM instances.
-    * Make sure that VM shares one ***virtual private cloud*** with the MySQL service created in step 1.
+    * Make sure that VM shares one ***Virtual Private Cloud*** with the MySQL service created in step 1.
     * A new VM needs a **Public IP*** for public network access, otherwise local data files cannot be uploaded to the VM.
     * Make sure that ***Network ACL*** of the subnet where the VM exists, allows the local SSH to connect to the VM.
 
@@ -32,7 +32,7 @@ It mainly explains how to transfer data from the local self-built MySQL to JD Cl
     ```
     scp /Path/Outputted file name.sql User name of virtual machine@Virtual Machine EIP: /Virtual Machine Path
 
-    Parameter description
+    Parameter Description
         User name of virtual machine: User name at the time of creating a virtual machine instance.
         Virtual Machine EIP: EIP address associated with virtual machine.
         Virtual Machine path: Storage path in virtual machine of files uploaded locally.
@@ -43,9 +43,9 @@ It mainly explains how to transfer data from the local self-built MySQL to JD Cl
     ```
     mysql -u User name -p Password -h Cloud database domain < /Virtual machine path/Outputted file name.sql
 
-    Parameter description
-        User name: User name in actions of step 3
-        Password: Corresponding password of the user in actions of step 3
+    Parameter Description
+        User Name: User name in actions of Step 3
+        Password: Corresponding password of the user in actions of Step 3
         Database domain: Please view domain of MySQL service in the Details page of instance.
     ```
 9. Zero error prompt indicates successful import. You can log in the MySQL service to see if the data has been imported.

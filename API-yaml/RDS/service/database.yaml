@@ -83,7 +83,7 @@ paths:
           description: OK
   "/instances/{instanceId}/databases/{dbName}:restoreDatabaseFromFile": #Restore the SQL Server database from the user-uploaded backup file
     post:
-      description: Restore a single database from the backup file uploaded by the user to the cloud through the cloud on single database<br>- only support SQL Server
+      description: Restore a single database from the backup file uploaded by the user to the cloud through the Cloud on Single Database<br>- only support SQL Server
       operationId: restoreDatabaseFromFile
       parameters:
         - name: restoreDatabaseFromFile
@@ -118,7 +118,7 @@ paths:
             properties:
               ossURL:
                 type: string
-                description: The inner link of the backup file uploaded by the user to object storage service, OSS
+                description: The inner link of the backup file uploaded by the user to Object Storage Service, OSS
       responses:
         200:
           description: OK

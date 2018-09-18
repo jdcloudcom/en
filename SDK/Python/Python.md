@@ -9,7 +9,7 @@
 1. The JD Cloud Python SDK is suitable for Python 2.7. * and 3. * Version.
 2. To apply the accesskey and the secretKey (AK/SK) in advance in the AccessKey Management page under the Account Management of JD Cloud User Center before starting to call the JD Cloud open API. AK/SK information shall be kept properly and if lost, it is likely to cause illegal users to use this information to operate your resources on the cloud, resulting data or property losses.
 
-# SDK usage method #
+# SDK Usage Method #
 It is recommended to install the JD Cloud Python SDK using pip as follows:
 
 	pip install -U jdcloud_sdk
@@ -31,7 +31,7 @@ The calling of the Python SDK is mainly divided into four steps:
 3. Set Request Parameters
 4. Response to implementation requests
 
-The following is an example of a call to query the cloud host instance type
+The following is an example of a call to query the VM instance type
 
 ```python
 from jdcloud_sdk.core.credential import Credential
@@ -54,7 +54,7 @@ try:
     print resp.result
 except Exception, e:
     print e
-    #Error handling
+    #Error Handling
 ```
 
 If you need to set up an additional header, for example to call an interface that opens the MFA operation protection, you need to pass x-jdcloud-security-token, as follows:

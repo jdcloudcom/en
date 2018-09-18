@@ -7,7 +7,7 @@ The action is used to obtain the specified Object content
 GET /ObjectName   HTTP/1.1
 Host: BucketName. s.jcloud.com
 Date: GMT   Date     
-Authorization:   signatureValue#Please refer to “Identity and Access Management”
+Authorization:   signatureValue#Please refer to "Identity and Access Management"
 Range: bytes=ByteRange(optional)
 ```
 **Request Header**

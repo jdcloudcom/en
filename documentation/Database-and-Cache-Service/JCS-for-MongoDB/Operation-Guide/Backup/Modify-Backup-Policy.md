@@ -1,6 +1,6 @@
 # Set Automatic Backup
 
-The MongoDB supports automatic backup. After the instance is created, a full backup is performed every day. The backup data is stored in the JD Cloud Object Storage Service, and can be kept for up to 7 days. Currently, no fee is charged. The default start time of the backup task is 0:00-1:00 every day. You can adjust the automatic backup time according to the business situation.
+The JCS for MongoDB supports automatic backup. After the instance is created, a full backup is performed every day. The backup data is stored in the JD Cloud Object Storage Service, and can be kept for up to 7 days. Currently, no fee is charged. The default start time of the backup task is 0:00-1:00 every day. You can adjust the automatic backup time according to the business situation.
 
 
 ## Precautions
@@ -9,8 +9,8 @@ The MongoDB supports automatic backup. After the instance is created, a full bac
 
 ## Operation Steps
 1. Login [MongoDB Console](https://mongodb-console.jdcloud.com/mongodb?dataCenter=bj_02).
-1. On the "Instance List" page, select the target instance, then click ** Instance Name ** to enter the "Instance Details" page.
-1. On the  "Instance Details" page, click **Backup and Recovery** > **Backup Strategy** to go to the “Backup Strategies” page.
+1. On the "Instance List" page, select the target instance, then click **Instance Name** to enter the "Instance Details" page.
+1. On the  "Instance Details" page, click **Backup and Recovery** > **Backup Strategy** to go to the "Backup Strategies" page.
    
    ![](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-017.png)
 

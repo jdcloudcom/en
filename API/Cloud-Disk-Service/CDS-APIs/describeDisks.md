@@ -18,10 +18,10 @@ https://disk.jdcloud-api.com/v1/regions/{regionId}/disks
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**filters**|[Filter[]](##Filter)|False||diskId - cloud disk service ID, accurate match, support multiple<br>diskType - type of cloud disk service, accurate match, support multiple, ssd or premium-hdd<br>instanceId - ID of the machine, to which the cloud disk service is attached, accurate match, support multiple<br>instanceType - Type of the machine, to which the cloud disk service is attached, accurate match, support multiple<br>status - availability zone, accurate match, support multiple<br>az - status of cloud disk service, accurate match, support multiple<br>name - name of cloud disk service, fuzzy match, support single<br>multiAttach - whether the cloud disk service is multi-point attached, accurate match, support single<br>|
+|**filters**|Filter[]|False||diskId - cloud disk service ID, accurate match, support multiple<br>diskType - type of cloud disk service, accurate match, support multiple, ssd or premium-hdd<br>instanceId - ID of the machine, to which the cloud disk service is attached, accurate match, support multiple<br>instanceType - Type of the machine, to which the cloud disk service is attached, accurate match, support multiple<br>status - availability zone, accurate match, support multiple<br>az - status of cloud disk service, accurate match, support multiple<br>name - name of cloud disk service, fuzzy match, support single<br>multiAttach - whether the cloud disk service is multi-point attached, accurate match, support single<br>|
 |**pageNumber**|Integer|False|1|Page number, defaults is 1; value range: [1, ∞)|
 |**pageSize**|Integer|False|20|Page size, default is 20; value range: [10,100]|
-|**tags**|[TagFilter[]](##TagFilter)|False||Tag filter condition|
+|**tags**|TagFilter[]|False||Tag filter condition|
 
 ### <a name="Filter">Filter</a>
 |Name|Type|Required or not|Default value|Description|
@@ -39,20 +39,20 @@ https://disk.jdcloud-api.com/v1/regions/{regionId}/disks
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
-|**result**|[Result](##Result)|Query Result Set|
+|**result**|Result|Query Result Set|
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**disks**|[Disk[]](##Disk)|List of cloud disk service information details queried|
+|**disks**|Disk[]|List of cloud disk service information details queried|
 |**totalCount**|Integer|Number of cloud disk services queried|
 ### <a name="Disk">Disk</a>
 |Name|Type|Description|
 |---|---|---|
-|**attachments**|[DiskAttachment[]](##DiskAttachment)|Attach Information|
+|**attachments**|DiskAttachment[]|Attach Information|
 |**az**|String|AZ, to which the cloud disk service belongs|
-|**charge**|[Charge](##Charge)|Configuration information for cloud disk service billing|
+|**charge**|Charge|Configuration information for cloud disk service billing|
 |**createTime**|String|Cloud disk service creating time|
 |**description**|String|Description of the cloud disk service. It allows you to enter all characters under UTF-8 encoding, but no more than 256 characters.|
 |**diskId**|String|Cloud Disk Service ID|
@@ -62,7 +62,7 @@ https://disk.jdcloud-api.com/v1/regions/{regionId}/disks
 |**name**|String|Name of the cloud disk service. Only Chinese, numbers, uppercase and lowercase letters, English underline "_" and line-through "-" are allowed. It is not allowed to be blank and shall not exceed 32 characters.|
 |**snapshotId**|String|Snapshot ID used to create the cloud disk service|
 |**status**|String|Status of the cloud disk service, creating, available, in-use, extending, restoring, deleting, deleted, error_create, error_delete, error_restore or error_extend|
-|**tags**|[Tag[]](##Tag)|Tag information|
+|**tags**|Tag[]|Tag information|
 ### <a name="DiskAttachment">DiskAttachment</a>
 |Name|Type|Description|
 |---|---|---|

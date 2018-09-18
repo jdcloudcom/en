@@ -1,13 +1,13 @@
 swagger: "2.0" # realized based on Swagger 2.0 version
 info:
   version: v1
-  title: Whitelist
-  description: Whitelist Related Interface
+  title: White List
+  description: White List Related Interface
 basePath: /regions/{regionId}
 paths:
-  "/instances/{instanceId}/whiteList": #IP Whitelist of Instance
+  "/instances/{instanceId}/whiteList": #实例的IP白名单
     put:
-      description: Modify the IP whitelist that allows access to the instance. The whitelist is a list of IP/IP segments that are allowed to access the current instance. By default, the whitelist is open to the VPC. If the user has enabled the internet access, you need to configure a whitelist for the IP of the internet.
+      description: Modify the IP White List that allows access to the instance. The White List is a list of IP/IP segments that are allowed to access the current instance. By default, the White List is open to the VPC. If the user has enabled the internet access, you need to configure a White List for the IP of the internet.
       operationId: modifyWhiteList
       x-jdcloud-internal: true
       parameters:
@@ -20,9 +20,9 @@ paths:
         200:
           description: OK
     get:
-      description: View the current whitelist of RDS instances. The whitelist is a list of IP/IP segments that are allowed to access the current instance. By default, the whitelist is open to the VPC. If the user has enabled the internet access, you need to configure a whitelist for the IP of the internet.
+      description: View the current White List of RDS instances. The White List is a list of IP/IP segments that are allowed to access the current instance. By default, the White List is open to the VPC. If the user has enabled the internet access, you need to configure a White List for the IP of the internet.
       operationId: describeWhiteList
-      #x-jdcloud-internal: true
+      x-jdcloud-internal: true
       responses:
         200:
           description: OK
@@ -32,7 +32,7 @@ paths:
                 properties:
                   whiteLists:
                     type: array
-                    description: Whitelist
+                    description: White List
                     items:
                       $ref: ../model/WhiteList.yaml#/definitions/WhiteList
 # General Parameters for Path

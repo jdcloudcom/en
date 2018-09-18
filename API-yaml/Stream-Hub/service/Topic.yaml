@@ -2,7 +2,7 @@ swagger: "2.0"
 info:
   version: "v1"
   title: TOPIC APIs
-  description: Information APIs related to streaming data bus topic
+  description: Information APIs related to Stream Hub topic
 
 basePath: /regions/{regionId} 
 
@@ -44,8 +44,7 @@ paths:
         - name: topicModel
           in: body
           required: true
-          description: |
-            Example: {"topicModel":{"topic":{"archived":0,"id":"","name":"create","remark":"note","shardNum":1,"partitionNum":2,"lifecycle":3}}}
+          description: Example: {"topicModel":{"topic":{"archived":0,"id":"","name":"create","remark":"note","shardNum":1,"partitionNum":2,"lifecycle":3}}}
           schema:
             $ref: "../model/addOrUpdateTopic.yaml#/definitions/topicModel"
       responses:
@@ -60,7 +59,7 @@ paths:
                     type: boolean
                   message:
                     type: string
-                    description: "Status information"
+                    description: "Status Information"
               requestId:
                 type: string
         400:
@@ -74,7 +73,7 @@ paths:
         - name: topicModel
           in: body
           required: true
-          description: When updating the subject, only the attributes in the topic in the topicModel need to be modified; to create archives, the target and the parameters of archiving destination (mysql, JD Cloud Elasticsearch, Object Storage Service and Data Computing Service) need to be assigned.
+          description: When updating the subject, only the attributes in the topic in the topicModel need to be modified; to create archives, the target and the parameters of archiving destination (mysql, JCS for Elasticsearch, Object Storage Service and Data Compute) need to be assigned.
           schema:
             $ref: "../model/addOrUpdateTopic.yaml#/definitions/topicModel"
       responses:
@@ -89,14 +88,14 @@ paths:
                     type: boolean
                   message:
                     type: string
-                    description: "Status information"
+                    description: "Status Information"
               requestId:
                 type: string
         400:
           description: ERROR
 ###################### Delete topic APIs ######################
     delete:
-      description: "Delete topic"
+      description: "Delete Topic"
       operationId: deleteTopic
       parameters:
         - name: name
@@ -115,7 +114,7 @@ paths:
                     type: boolean
                   message:
                     type: string
-                    description: "Status information"
+                    description: "Status Information"
               requestId:
                 type: string
         404:
@@ -145,7 +144,7 @@ paths:
         404:
           description: NOT FOUND
                                 
-# Path general parameter
+# Path General Parameter
 parameters:
   regionId:
     name: regionId

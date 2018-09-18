@@ -11,4 +11,4 @@ definitions:
           $ref: "../model/Options.yaml#/definitions/options"
       label:
         type: string
-        description: Classification of machine models
+        description: Classification of Machine Models

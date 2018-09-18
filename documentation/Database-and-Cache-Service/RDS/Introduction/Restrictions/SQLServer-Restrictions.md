@@ -25,11 +25,11 @@ Each account can create **Five** SQL Server instances in each region. Please sub
 
 # IV. Names and Password Limits
 
-- ** Instance Name: **Name supports Chinese, numbers, lowercase letters, and English underline “_” only, with no less than 2 characters and no more than 32 characters;
-- **Backup Name: **Name supports Chinese, numbers, capital and lowercase letters, and English underline “_” only, with no more than 64 characters;
-- **Database Name: **Name supports numbers, lowercase letters and English underline “_” only, and it must begin with a letter and ends with a letter or a number, with no less than 2 characters or no more than 32 characters;
-- ** Account Name: **Name supports numbers, capital and lowercase letters and English underline “_” only, and it must begin with a letter and ends with a letter or a number, with no less than 2 characters or no more than 16 characters;
-- **Password: ** The password cannot be empty. It must contain capital and lowercase letters and numbers, with 8-32 characters, and supports special characters, such as -=;,./~!@#$%^&*()_+-|{}:<>?, which means it supports ASCII characters except `[]'".
+- ** Instance Name: **Name supports Chinese, numbers, lowercase letters, and English underline "_" only, with no less than 2 characters and no more than 32 characters;
+- **Backup Name: **Name supports Chinese, numbers, capital and lowercase letters, and English underline "_" only, with no more than 64 characters;
+- **Database Name: **Name supports numbers, lowercase letters and English underline "_" only, and it must begin with a letter and ends with a letter or a number, with no less than 2 characters or no more than 32 characters;
+- ** Account Name: **Name supports numbers, capital and lowercase letters and English underline "_" only, and it must begin with a letter and ends with a letter or a number, with no less than 2 characters or no more than 16 characters;
+- **Password:** The password cannot be empty. It must contain capital and lowercase letters and numbers, with 8-32 characters, and supports special characters, such as -=;,./~!@#$%^&*()_+-|{}:<>?, which means it supports ASCII characters except `[]'".
 
 # V. Reserved Keywords
 

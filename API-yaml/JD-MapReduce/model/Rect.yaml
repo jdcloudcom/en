@@ -20,7 +20,7 @@ definitions:
         description: Retry times after the task is failed
       intervalTimes:
         type: integer
-        description: Re-running interval of the failed task
+        description: Re-running Interval of the Failed Task
       x:
         type: number
         format: double

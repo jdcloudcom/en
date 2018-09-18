@@ -8,10 +8,10 @@ definitions:
     properties:
       vpcId:
         type: string
-        description: Virtual private cloud id
+        description: VPC ID
       networkAclName:
         type: string
-        description: networkAcl name
+        description: NetworkAcl Name
       description:
         type: string
         description: "Description, all characters allowed to enter under UTF-8 coding, which is not exceed 256 characters"

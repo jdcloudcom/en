@@ -1,4 +1,4 @@
-# Restraint Instructions
+# Restrictions
 ## Max. Limit of Connections
 ### Percona
 |Instance Type|Max. Connections|

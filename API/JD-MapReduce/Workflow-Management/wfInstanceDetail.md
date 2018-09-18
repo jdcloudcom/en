@@ -25,13 +25,13 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/wfInstance:detail
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**message**|[Message](##Message)||
+|**message**|Message||
 ### <a name="Message">Message</a>
 |Name|Type|Description|
 |---|---|---|
@@ -39,9 +39,9 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/wfInstance:detail
 |**data**|Object|Data|
 |**instanceId**|String||
 |**jobId**|String|Job ID|
-|**path**|[Path[]](##Path)||
+|**path**|Path[]||
 |**pipeline**|String||
-|**rect**|[Rect[]](##Rect)||
+|**rect**|Rect[]||
 |**result**|String|Result|
 |**source**|String||
 |**sourceParameterList**|String[]||

@@ -7,5 +7,5 @@ definitions:
     properties:
       bandwidthMbps:
         type: integer
-        description: "Elastic IP speed limit (unit: Mbps), value range is [1-200]"
+        description: "Elastic IP Speed Limit (unit: Mbps). Value Range: [1-200]"
 

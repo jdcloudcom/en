@@ -18,7 +18,7 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instanceTypes
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**filters**|[Filter[]](##Filter)|False||instanceTypes - Instance type, exact match, multiple support<br>az-AZ,  exact match,  multiple supported<br>|
+|**filters**|Filter[]|False||instanceTypes - Instance type, exact match, multiple support<br>az-AZ,  exact match,  multiple supported<br>|
 
 ### <a name="Filter">Filter</a>
 |Name|Type|Required or not|Default value|Description|
@@ -31,14 +31,14 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instanceTypes
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**instanceTypes**|[InstanceType[]](##InstanceType)|Generic instance type|
-|**specificInstanceTypes**|[InstanceType[]](##InstanceType)|User-specific instance type; ticket application required|
+|**instanceTypes**|InstanceType[]|Generic instance type|
+|**specificInstanceTypes**|InstanceType[]|User-specific instance type; ticket application required|
 |**totalCount**|Integer|Quantity|
 ### <a name="InstanceType">InstanceType</a>
 |Name|Type|Description|
@@ -49,7 +49,7 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instanceTypes
 |**instanceType**|String|Instance type, such as g.b1.2xlarge|
 |**memoryMB**|Integer|Memory size|
 |**nicLimit**|Integer|Number of ENI supported|
-|**state**|[InstanceTypeState[]](##InstanceTypeState)|Instance type status|
+|**state**|InstanceTypeState[]|Instance type status|
 ### <a name="InstanceTypeState">InstanceTypeState</a>
 |Name|Type|Description|
 |---|---|---|

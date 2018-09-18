@@ -23,13 +23,13 @@ None
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**data**|[IpResourceInfo](##IpResourceInfo)||
+|**data**|IpResourceInfo||
 ### <a name="IpResourceInfo">IpResourceInfo</a>
 |Name|Type|Description|
 |---|---|---|

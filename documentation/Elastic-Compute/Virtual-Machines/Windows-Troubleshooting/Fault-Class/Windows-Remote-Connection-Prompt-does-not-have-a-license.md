@@ -38,9 +38,9 @@ On the other hand, the two default free connection authorizations will be cancel
 
 Each user can have more than one session by cancelling RDP-Tcp:
 
-1. Login Windows VM via vnc function for console remote connection. Select [Start] > [Control Panel] > [Management Tool] > [Server Manager].
+1. Login Windows VM via vnc function for console remote connection. Select **Start** > **Control Panel** > **Management Tool** > **Server Manager**.
 
-2. Double-click [Remote Desktop Session Host Configuration] on the [Remote Desktop Services] page.
+2. Double-Click **Remote Desktop Session Host Configuration] on the [Remote Desktop Services] page.
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows%E8%BF%9C%E7%A8%8B%E8%BF%9E%E6%8E%A5%E6%8F%90%E7%A4%BA%E6%B2%A1%E6%9C%89%E6%8E%88%E6%9D%83%E8%AE%B8%E5%8F%AF%E8%AF%8103.png)
 
@@ -69,13 +69,13 @@ Delete remote desktop session host role and use the two default free connection 
 
 1. Login Windows VM via vnc function for console remote connection.
 
-2. Select [Start]>[Control Panel]>[Management Tool]>[Server Manager].
+2. Select **Start** > **Control Panel** > **Management Tool** > **Server Manager**.
 
-3. Select [Manage]>[Delete Role] in the upper right corner of the page.
+3. Select **Manage**> **Delete Role** in the upper right corner of the page.
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows%E8%BF%9C%E7%A8%8B%E8%BF%9E%E6%8E%A5%E6%8F%90%E7%A4%BA%E6%B2%A1%E6%9C%89%E6%8E%88%E6%9D%83%E8%AE%B8%E5%8F%AF%E8%AF%8105.png)
 
-4. Click [Next] in the [Delete Functions and Roles] window, and then click [Next].
+4. Click **Next** in the **Delete Functions and Roles** window, and then click **Next**.
 
 5. In the third step of the wizard, uncheck remote desktop services, and remain default configurations for other options.
 
@@ -87,13 +87,13 @@ Delete remote desktop session host role and use the two default free connection 
 
 **Windows 2008 System Operation Methods**
 
-1. Login Windows VM via vnc function for console remote connection. Select [Start] > [Control Panel] > [Management Tool] > [Server Manager].
+1. Login Windows VM via vnc function for console remote connection. Select **Start** > **Control Panel** > **Management Tool** > **Server Manager**.
 
-2. Right-click [Remote Desktop Services] and select [Delete Role Services] in the [Server Manager] window.
+2. Right click **Remote Desktop Services** and select **Delete Role Services** in the **Server Manager** window.
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows%E8%BF%9C%E7%A8%8B%E8%BF%9E%E6%8E%A5%E6%8F%90%E7%A4%BA%E6%B2%A1%E6%9C%89%E6%8E%88%E6%9D%83%E8%AE%B8%E5%8F%AF%E8%AF%8107.png)
 
-3. Uncheck [Remote Desktop Session Host] in the pop-up window, and click [Next] until it is complete.
+3. Uncheck **Remote Desktop Session Host** in the pop-up window, and click **Next** until it is complete.
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows%E8%BF%9C%E7%A8%8B%E8%BF%9E%E6%8E%A5%E6%8F%90%E7%A4%BA%E6%B2%A1%E6%9C%89%E6%8E%88%E6%9D%83%E8%AE%B8%E5%8F%AF%E8%AF%8108.png)
 

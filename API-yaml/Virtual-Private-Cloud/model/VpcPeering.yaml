@@ -5,23 +5,23 @@ definitions:
     properties:
       vpcPeeringId:
         type: string
-        description: VpcPeering Id
+        description: VPCPeering ID
       vpcPeeringName:
         type: string
-        description: "VpcPeering name, a name cannot be duplicate under the same account, value range: 1-32 Chinese, English capital and lowercase letters, numbers and underline delimiter"
+        description: VPCPeering Name, A Name Cannot be Duplicate Under the Same Account. Value Range: 1-32 Chinese, English capital and lowercase letters, numbers and underline delimiter
       vpcPeeringState:
         type: string
         description: Status, values include Connected, Disconnected, Initiated
       description:
         type: string
-        description: "VpcPeering description, can be null value, value range: 0-256 Chinese, English capital and lowercase letters, numbers and underline delimiter"
+        description: VPCPeering Description, Can be Null Value. Value Range: 0-256 Chinese, English capital and lowercase letters, numbers and underline delimiter
       vpcInfo:
         $ref: "./VpcPeeringVpcInfo.yaml#/definitions/vpcPeeringVpcInfo"
-        description: Vpc information launching VpcPeering
+        description: VPC Information Launching VPCPeering
       remoteVpcInfo:
         $ref: "./VpcPeeringVpcInfo.yaml#/definitions/vpcPeeringVpcInfo"
-        description: Opposite terminal Vpc information
+        description: Opposite Terminal VPC information
       createdTime:
         type: string
-        description: VpcPeering creation time
+        description: VPCPeering Creation Time
 

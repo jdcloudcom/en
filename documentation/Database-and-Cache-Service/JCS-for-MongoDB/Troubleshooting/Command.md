@@ -2,10 +2,10 @@
 
 ## Problem Description
 
-Which commands are limited by the MongoDB?
+Which commands are limited by the JCS for JCS for MongoDB?
 
 ## Problem Processing
-To ensure that the MongoDB replica set is running properly, the MongoDB limits some commands, and the commands supported and limited are as follows:
+To ensure that the MongoDB replica set is running properly, the JCS for MongoDB limits some commands, and the commands supported and limited are as follows:
 
 |Command	|Support	|Not Support|
 |---|---|---|

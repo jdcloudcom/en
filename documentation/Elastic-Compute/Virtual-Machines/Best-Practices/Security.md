@@ -17,7 +17,7 @@ When multiple different accounts are required to control a same set of instance,
 
 ## Division of Virtual Private Cloud
 
-Choose to use virtual private cloud to divide logical areas, deploy instances of different business attributes in different virtual private cloud, or in different subnets of a same virtual private cloud, and configure the identity and access management between subnets through network ACL to isolate instances at different security levels inside the enterprise. For more information, please refer to [Virtual Private Cloud](../../../Networking/Overview.md).
+Choose to use Virtual Private Cloud to divide logical areas, deploy instances of different business attributes in different Virtual Private Cloud, or in different subnets of a same Virtual Private Cloud, and configure the identity and access management between subnets through network ACL to isolate instances at different security levels inside the enterprise. For more information, please refer to [Virtual Private Cloud](../../../Networking/Overview.md).
 
 ## Security Group Configuration
 
@@ -25,7 +25,7 @@ When using a security group, it is recommended to configure the security group a
 
 * Minimum Authorization.
 
-	Restrict the access by using the allowed trusted address of security group to access instances. Configure the strictest rules in security group. Since the security group employs a white list mechanism, you only need to open the traffic port configuration that allows access.
+	Restrict the access by using the allowed trusted address of security group to access instances. Configure the strictest rules in security group. Since the security group employs a White List mechanism, you only need to open the traffic port configuration that allows access.
 	
 	For example, you can configure that only allowing your local host to access the TCP inbound traffic of port 80. If your local host's public IP address is 111.111.111.111, you can add a security group rule with source of 111.111.111.111, protocol of TCP and destination port of 80. Please refer to the security group for more information.
 * Create and Apply Different Security Groups on Instance Sets of Different Services.

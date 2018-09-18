@@ -1,4 +1,4 @@
-# Format conversion
+# Format Conversion
 
 Convert format of image as required; one can designate progressive display and image quality.
 

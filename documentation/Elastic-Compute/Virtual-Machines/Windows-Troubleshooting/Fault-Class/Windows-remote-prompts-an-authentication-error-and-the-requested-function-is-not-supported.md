@@ -13,17 +13,17 @@ On May 8, 2018, Microsoft released an updated patch that changed the default set
 
 **Solution:**
 
-1. Users input *gpedit.msc* in the [Running] and enter [Local Group Policy Editor] on the client.
+1. Users input *gpedit.msc* in the **Run** and enter **Local Group Policy Editor** on the client.
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows%E8%BF%9C%E7%A8%8B%E6%8F%90%E7%A4%BA%E5%87%BA%E7%8E%B0%E8%BA%AB%E4%BB%BD%E9%AA%8C%E8%AF%81%E9%94%99%E8%AF%AF%EF%BC%8C%E8%A6%81%E6%B1%82%E7%9A%84%E5%87%BD%E6%95%B0%E4%B8%8D%E5%8F%97%E6%94%AF%E6%8C%8102.png)
 
-2. Select [Computer Configuration]>[Administrative Templates]>[System]>[Credential Assignment]>[Encryption Oracle Remediation].
+2. Select **Computer Configuration** > **Administrative Templates** > **System** > **Credential Assignment** > **Encryption Oracle Remediation**.
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows%E8%BF%9C%E7%A8%8B%E6%8F%90%E7%A4%BA%E5%87%BA%E7%8E%B0%E8%BA%AB%E4%BB%BD%E9%AA%8C%E8%AF%81%E9%94%99%E8%AF%AF%EF%BC%8C%E8%A6%81%E6%B1%82%E7%9A%84%E5%87%BD%E6%95%B0%E4%B8%8D%E5%8F%97%E6%94%AF%E6%8C%8103.png)
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows%E8%BF%9C%E7%A8%8B%E6%8F%90%E7%A4%BA%E5%87%BA%E7%8E%B0%E8%BA%AB%E4%BB%BD%E9%AA%8C%E8%AF%81%E9%94%99%E8%AF%AF%EF%BC%8C%E8%A6%81%E6%B1%82%E7%9A%84%E5%87%BD%E6%95%B0%E4%B8%8D%E5%8F%97%E6%94%AF%E6%8C%8104.png)
 
-3. Select [Enable] and then [Vulnerability].
+3. Select **Enable** and then **Vulnerability**.
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows%E8%BF%9C%E7%A8%8B%E6%8F%90%E7%A4%BA%E5%87%BA%E7%8E%B0%E8%BA%AB%E4%BB%BD%E9%AA%8C%E8%AF%81%E9%94%99%E8%AF%AF%EF%BC%8C%E8%A6%81%E6%B1%82%E7%9A%84%E5%87%BD%E6%95%B0%E4%B8%8D%E5%8F%97%E6%94%AF%E6%8C%8105.png)
 

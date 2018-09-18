@@ -3,7 +3,7 @@
 
 2. The signature is required to write in 2-12 characters with Chinese or English letter and numbers; symbol, full English letters or numbers are not allowed.
 
-3. SMS signature is consist of 【】 and signature content, such as 【JD Cloud】 and 【JD Cloud Computing】. Only text is required in the application.
+3. SMS signature is consist of [] and signature content, such as [JD Cloud] and [JD Cloud Computing]. Only text is required in the application.
 
 4. Original business license or copy (with the enterprise seal) is required for SMS signature. In case that signature/ SMS involves the right of a third party, the real authorization shall be provided and submitted to the backend for approval.
 

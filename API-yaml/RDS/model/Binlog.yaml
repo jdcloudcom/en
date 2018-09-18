@@ -16,7 +16,7 @@ definitions:
         description: binlog Log Size in KB
       binlogStartTime:
         type: string
-        description: binlog start time, format: YYYY-MM-DD HH:mm:ss
+        description: binlog Start Time, Format: YYYY-MM-DD HH:mm:ss
       binlogEndTime:
         type: string
-        description: binlog end time, format: YYYY-MM-DD HH:mm:ss
+        description: binlog End Time, Format: YYYY-MM-DD HH:mm:ss

@@ -28,7 +28,7 @@ c. The original image protection supports the old and new interfaces for image p
 
 ![原图1](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-066.jpg)
 
-3. Click “Original Image Protection Settings” to enter the settings page, you can choose to enable the original image protection and set the suffixes to be protected.
+3. Click **Original Image Protection Settings** to enter the settings page, you can choose to enable the original image protection and set the suffixes to be protected.
 
 ![原图2](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-067.jpg)
 

@@ -6,16 +6,16 @@ definitions:
     properties:
       protocol:
         type: string
-        description: "Protocol: TCP or UDP"
+        description: Protocol: TCP or UDP
       port:
         type: integer
-        description: Port number
+        description: Port Number
       algorithm:
         type: string
-        description: "Forwarding rules: wrr->Round Robin with weight  wlc->minimum weighted connection  rr->Round Robin without weight  sh->source address hash"
+        description: Forwarding Rules: wrr->round Robin with weight  wlc->minimum weighted connection  rr->round Robin without weight  sh->source address hash
       originType:
         type: string
-        description: Back-to-origin type, ip or domain
+        description: Back-to-origin Type, ip or domain
       originAddr:
         type: array
         items:
@@ -26,7 +26,7 @@ definitions:
           type: string
       originDomain:
         type: string
-        description: Back-to-origin domain name
+        description: Back-to-origin Domain Name
       originPort:
         type: integer
-        description: Back-to-origin port number
+        description: Back-to-origin Port Number

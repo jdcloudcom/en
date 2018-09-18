@@ -9,19 +9,19 @@ definitions:
     properties:
       instanceName:
         type: string
-        description: Instance name
+        description: Instance Name
       comments:
         type: string
-        description: Instance description
+        description: Instance Description
       instanceOwnerName:
         type: string
-        description: Instance owner
+        description: Instance Owner
       area:
         type: string
-        description: Instance zone
+        description: Instance Zone
       uname:
         type: string
-        description: Instance alias (shown on the page)
+        description: Instance Alias (shown on the page)
       createTime:
         type: string
-        description: Instance creation time
+        description: Instance Creation Time

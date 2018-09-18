@@ -78,7 +78,7 @@ paths:
         required: false
       - name: "limit"
         in: "query"
-        description: "Number of query records [1, 1000]"
+        description: "Number of Query Records [1, 1000]"
         type: "integer"
         default: 1000
         required: false
@@ -262,11 +262,11 @@ definitions:
         readOnly: true
       createdTime:
         type: "string"
-        description: "Task creation time, format (GMT): yyyy-MM-dd’T’HH:mm:ss.SSS’Z’  (readonly)"
+        description: "Task Creation Time, Format (GMT): yyyy-MM-dd’T’HH:mm:ss.SSS’Z’  (readonly)"
         readOnly: true
       lastUpdatedTime:
         type: "string"
-        description: "Task creation time, format (GMT): yyyy-MM-dd’T’HH:mm:ss.SSS’Z’  (readonly)"
+        description: "Task Creation Time, Format (GMT): yyyy-MM-dd’T’HH:mm:ss.SSS’Z’  (readonly)"
         readOnly: true
       source:
         $ref: "#/definitions/ThumbnailTaskSource"
@@ -284,7 +284,7 @@ definitions:
     properties:
       bucket:
         type: "string"
-        description: "Enter the bucket of Video Information"
+        description: "Enter the Bucket of Video Information"
       key:
         type: "string"
         description: "Enter the Key of Video Information"
@@ -370,7 +370,7 @@ definitions:
         description: "Query End Time, Time Format (GMT): yyyy-MM-dd’T’HH:mm:ss.SSS’Z’"
       marker:
         type: "string"
-        description: "marker of this request, starting position of tag query, taskID here"
+        description: "Marker of this request, starting position of tag query, taskID here"
       limit:
         type: "integer"
         description: "The maximum number of elements in the task list returned by this request, valid value: [1-1000], default: 1000"
@@ -384,7 +384,7 @@ definitions:
         readOnly: true
       taskList:
         type: "array"
-        description: "Returned task List (readonly)"
+        description: "Returned Task List (readonly)"
         readOnly: true
         items:
           $ref: "#/definitions/ThumbnailTask"

@@ -28,7 +28,7 @@ definitions:
         description: Number of CPU Cores
       instanceMemoryGB:
         type: integer
-        description: Memory, in GB
+        description: Memory, Unit: GB
       azId:
         type: array
         items:
@@ -66,13 +66,13 @@ definitions:
         description: Creation Time
       preferredBackupWindow:
         type: string
-        description: "Automatic backup time, for example: 00:00-02:00, indicating automatic backup of the database from 0 to 2"
+        description: "Automatic Backup Time, for example: 00:00-02:00, indicating automatic backup of the database from 0 to 2"
       preferredmaintenanceWindow:
         type: string
-        description: "System maintenance time, for example: 00:00-02:00, indicating system maintenance from 0 to 2"
+        description: "System Maintenance Time, for example: 00:00-02:00, indicating system maintenance from 0 to 2"
       charge:
         $ref: "../../charge/model/Charge.yaml#/definitions/charge"
         description: Billing Information
       isSetSecurityIps:
         type: boolean
-        description: "Whether to Set Whitelist, true: set, false: not set"
+        description: "Whether to Set White List, true: set, false: not set"

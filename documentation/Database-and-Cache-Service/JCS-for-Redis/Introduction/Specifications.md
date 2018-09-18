@@ -1,6 +1,6 @@
 # Specifications
 
-- Primary-secondary version
+- Primary-secondary Version
 
 Specification|Specification Code|Description
 :---|:--|:---

@@ -4,7 +4,7 @@
 
 Domain name service is a comprehensive domain name management platform that integrates domain name registration, resolution, monitoring and protection. Domain name service can help you meet the following requirements:
 - Domain Registration: Provide a wide range of domain names for you to select.
-- Domain Name Protection: Fully protect your registration information and domain name information from malicious harassment based on security services such as privacy protection and security lock service.
+- Domain Name Protection: Fully protect your registration information and domain name information from malicious harassment based on security service such as privacy protection and security lock service.
 - Brand Protection: Protect your brand with domain names and help groups and large enterprises manage brands and domain names safely and efficiently.
 - Domain Name Resolution: Provide free, efficient and secure DNS server Based on JD Cloud resolution to ensure that domain names are ready to use right after purchase.
 
@@ -14,7 +14,7 @@ Domain name service is a comprehensive domain name management platform that inte
 There are millions of machines on the Internet. To differentiate these machines, each machine is assigned an IP address. However, because the IP address has no practical meaning, it is difficult to remember, so there is the domain name.
 The domain name is mainly composed of English letters, Arabic numerals, "-", ".", etc., in order to facilitate the memory and communication of a set of server addresses (website, email, FTP, etc.).
 The domain name and the IP address are corresponded to each other. On the Internet, there is a DNS (Domain Name Server) to convert the domain name and IP. You enter the domain name on the browser, and the DNS will convert the domain name and IP to find the corresponding server, then open the corresponding web page.
-To establish  server publishing information on the Internet, you must first register the corresponding domain name. Domain name registration is the basis for establishing services on the Internet. Since the registration of domain names follows the principle of “first apply for registration first”, the registration of each domain name in the Chinese Library is unique and non-repeatable. If you want to use your server to publish information, you need to register the domain name as soon as possible.
+To establish  server publishing information on the Internet, you must first register the corresponding domain name. Domain name registration is the basis for establishing services on the Internet. Since the registration of domain names follows the principle of "first apply for registration first", the registration of each domain name in the Chinese Library is unique and non-repeatable. If you want to use your server to publish information, you need to register the domain name as soon as possible.
 
 
 ## Domain Name

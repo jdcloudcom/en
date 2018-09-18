@@ -1,6 +1,6 @@
-﻿#Features
+﻿# Benefits
 
-Features|Cloud Cache Redis|Self-built Redis
+Benefits|Cloud Cache Redis|Self-built Redis
 :---|:--|:---
 High Availability|Hot Standby, Automatic Switching. When the primary node fails, the secondary node is quickly promoted to be the new primary node, and the service is continued; the service data is persisted, and the instance is deployed across the Availability Zone to ensure data security and uninterrupted operation of the business.|Self Installation and Configuration of Primary-secondary Nodes; Ensure the operation of the redis service, database management relying on technicians.
 Smooth Expansion|One-click Expansion, Convenient and Fast. Enable flexible expansion, on-demand selection, and on-demand upgrade according to usage, so as to improve resource utilization and reduce redundancy costs; you can log in to the console to expand, the entire process will not affect your On-line business.|After exceeding the capacity threshold, it is necessary to create a sufficient amount of resources, interrupt application connections, and migrate data. This process will affect normal access to the service. Long expansion period and low resource utilization rate

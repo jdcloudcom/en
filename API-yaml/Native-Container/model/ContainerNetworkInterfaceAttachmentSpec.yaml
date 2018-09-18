@@ -16,7 +16,7 @@ definitions:
         description: Device Index
       networkInterface:
         $ref: "./NetworkInterfaceSpec.yaml#/definitions/networkInterfaceSpec"
-        description: Network interface specification
+        description: Network Interface Specification
       # networkInterfaceId:
       #   type: stirng
-      #   description: Network interface ID
+      #   description: Network Interface ID

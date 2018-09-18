@@ -7,7 +7,7 @@ definitions:
     properties:
       totalNum:
         type: integer
-        description: Number of audit log lists returned
+        description: Number of Audit Log Lists Returned
       auditLogList:
         type: array
         items:

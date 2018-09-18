@@ -1,5 +1,5 @@
-# price overview
- The MongoDB supports two types of billing, including monthly package and pay by configuration. The cost of an instance consists of two parts: specification (CPU and memory) and storage space.
+# Price Overview
+ The JCS for MongoDB supports two types of billing, including monthly package and pay by configuration. The cost of an instance consists of two parts: specification (CPU and memory) and storage space.
  ## Specification Cost
  Specification Code | Specifications | Maximum Connections | Maximum IOPS | Monthly Package (RMB/Month) | Pay By Configuration (RMB/Hour)
 :---|:--- |---: |---: |---: |---: 

@@ -17,7 +17,7 @@ https://streamcompute.jdcloud-api.com/v1/regions/{regionId}/job
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**jobStr**|[JobStr](##JobStr)|True||Details of creating job|
+|**jobStr**|JobStr|True||Details of creating job|
 
 ### <a name="JobStr">JobStr</a>
 |Name|Type|Required or not|Default value|Description|
@@ -42,13 +42,13 @@ https://streamcompute.jdcloud-api.com/v1/regions/{regionId}/job
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**okInfo**|[OkInfo](##OkInfo)|Successful result object|
+|**okInfo**|OkInfo|Successful result object|
 ### <a name="OkInfo">OkInfo</a>
 |Name|Type|Description|
 |---|---|---|

@@ -1,7 +1,7 @@
 
 # Use Example
 
-## Create a container in JSON
+## Create A Container in JSON
 
 	jdc nc create-containers --input-json \
     '{
@@ -38,7 +38,7 @@
     }'
    
 
-## Create a container using File
+## Create A Container Using File
 
 If the json string in the upper section is stored in the container-spec.json of a directory, you can create a container using the following command.
 
@@ -52,7 +52,7 @@ Windows：
 	jdc nc create-containers --input-json  'file://c:/container-spec.json'
    
 
-## start container
+## Start Container
 
 	jdc nc start-container --container-id c-igz8rekh5q
 Return:
@@ -153,7 +153,7 @@ Return:
 	}
    
 
-## delete container
+## Delete Container
 
 	jdc nc delete-container --container-id c-igz8rekh5q
 Return: 

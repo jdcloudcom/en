@@ -7,21 +7,21 @@ definitions:
     properties:
       materNum:
         type: integer
-        description: Master node number
+        description: Master Node Number
       masterCore:
         type: integer
         required: true
-        description: Master node CPU
+        description: Master Node CPU
       masterMemory:
         type: integer
         required: true
-        description: Master node memory (At least 8G memory is recommended; otherwise the service may fail to deploy)
+        description: Master Node Memory (At least 8G memory is recommended; otherwise the service may fail to deploy)
       masterDiskType:
         type: string
         description: |
                   "Master node cloud disk type, the optional types are (the following types are separated with "/")"
                   "NBD/NBD_SATA"
-                  "Respectively stand for: Performance Type/Capacity Type"
+                  "Respectively Stand for: Performance Type/Capacity Type"
       masterDiskVolume:
         type: integer
         description: Master node cloud disk capacity must be the integral multiples of 10, but greater than 20 and less than 3000GB
@@ -31,25 +31,25 @@ definitions:
         description: "Master node specification, such as: g.n1.xlarge; please refer to [document](https://www.jdcloud.com/help/detail/296/isCatalog/1) for more specification"
       masterInstanceInfo:
         type: string
-        description: master node instance information
+        description: Master Node Instance Information
       slaveNum:
         type: integer
         required: true
-        description: Slave node number
+        description: Slave Node Number
       slaveCore:
         type: integer
         required: true
-        description: Slave node CPU
+        description: Slave Node CPU
       slaveMemory:
         type: integer
         required: true
-        description: Slave node memory (At least 4G memory is recommended; otherwise the service may fail to deploy)
+        description: Slave Node Memory (At least 4G memory is recommended; otherwise the service may fail to deploy)
       slaveDiskType:
         type: string
         description: |
             "Slave node cloud disk type, the optional types are (the following types are separated with "/")"
             "NBD/NBD_SATA"
-            "Respectively stand for: Performance Type/Capacity Type"
+            "Respectively Stand for: Performance Type/Capacity Type"
       slaveDiskVolume:
         type: integer
         description: Slave node cloud disk capacity must be the integral multiples of 10, but greater than 20 and less than 3000GB
@@ -59,4 +59,4 @@ definitions:
         description: "Slave node specification, such as: g.n1.xlarge; please refer to [document](https://www.jdcloud.com/help/detail/296/isCatalog/1) for more specification"
       slaveInstanceInfo:
         type: string
-        description: Slave node instance information
+        description: Slave Node Instance Information

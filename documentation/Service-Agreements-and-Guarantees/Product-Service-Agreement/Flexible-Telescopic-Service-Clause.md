@@ -1,16 +1,16 @@
-**This service term is a valid agreement between the owner of the JD Cloud website (referred to in this Agreement as "JD Cloud" website: **[www.jdcloud.com](https://www.jdcloud.com/)**) and you on matters relating to JD Cloud's auto scaling service ((hereinafter referred to as auto scaling). By stamping, clicking to confirm on the web page, or other ways to accept the Service Terms, including but not limited to the actual use of auto scaling service of JD Cloud without clicking to confirm the Service Terms, you have reached an agreement with JD Cloud and agreed to accept all agreed contents of the Service Terms. In case of any inconsistency between the text stamped by both parties and the text of Service Terms accepted and confirmed by clicking the web page or other ways, the text stamped by both parties shall prevail.**
+**This service term is a valid agreement between the owner of the JD Cloud website (referred to in this Agreement as "JD Cloud" website:**[www.jdcloud.com](https://www.jdcloud.com/)**) and you on matters relating to JD Cloud's Auto Scaling service ((hereinafter referred to as Auto Scaling). By stamping, clicking to confirm on the web page, or other ways to accept the Service Terms, including but not limited to the actual use of Auto Scaling service of JD Cloud without clicking to confirm the Service Terms, you have reached an agreement with JD Cloud and agreed to accept all agreed contents of the Service Terms. In case of any inconsistency between the text stamped by both parties and the text of Service Terms accepted and confirmed by clicking the web page or other ways, the text stamped by both parties shall prevail.**
 
-**For the Service Terms, you are reminded to pay special attention to the restriction and exemption terms, determination and handling terms of JD Cloud on your violations and breach of contract, and the selection terms of jurisdictional courts. Restriction and exemption terms may be indicated in bold or by underline for your attention. You should carefully read the entire contents of the Service Terms before accepting the Service Terms. If you have any questions about the Service Terms, please contact the relevant business department of JD Cloud and JD Cloud will explain the terms to you. If you do not agree on any of the contents of the Service Terms, or cannot accurately understand the interpretation of these terms made by JD Cloud, please do not continue the operation. **
+**For the Service Terms, you are reminded to pay special attention to the restriction and exemption terms, determination and handling terms of JD Cloud on your violations and breach of contract, and the selection terms of jurisdictional courts. Restriction and exemption terms may be indicated in bold or by underline for your attention. You should carefully read the entire contents of the Service Terms before accepting the Service Terms. If you have any questions about the Service Terms, please contact the relevant business department of JD Cloud and JD Cloud will explain the terms to you. If you do not agree on any of the contents of the Service Terms, or cannot accurately understand the interpretation of these terms made by JD Cloud, please do not continue the operation.**
 
 ## **1. Service Content**
 
-1.1 "Service" in the terms refers to the auto scaling service and related technical and network support services that JD Cloud provides to you at [https://www.jdcloud.com/].
+1.1 "Service" in the terms refers to the Auto Scaling service and related technical and network support services that JD Cloud provides to you at [https://www.jdcloud.com/].
 
 ​1.2. The service provided by JD Cloud must comply with the provisions of the Service Terms.
 
 ## **2. Service Fee**
 
-At this stage, JD Cloud's auto scaling service is free for you, JD Cloud will not charge you, but it does not rule out the possibility of future commercialization of JD Cloud and charging you for the service. You will be notified in advance before JD Cloud charges you.
+At this stage, JD Cloud's Auto Scaling service is free for you, JD Cloud will not charge you, but it does not rule out the possibility of future commercialization of JD Cloud and charging you for the service. You will be notified in advance before JD Cloud charges you.
 
 ## **3. Rights and Obligations**
 
@@ -20,15 +20,15 @@ At this stage, JD Cloud's auto scaling service is free for you, JD Cloud will no
 
 3.1.2 You shall pay the corresponding service fee according to the instructions of JD Cloud on the page and the provisions of the Service Terms (if any).
 
-3.1.3 Before using JD Cloud's auto scaling service, you should carefully read JD Cloud's relevant service instructions, technical specifications, operation procedures, etc. displayed on its official page, and understand the relevant content and possible consequences. During using the auto scaling service, you should follow the relevant operation guidelines, please grasp the risk and do it discreetly. You understand and agree that JD Cloud's auto scaling service is selected by you through your own independent and prudent judgment, and you should be responsible for your selection, including but not limited to:
+3.1.3 Before using JD Cloud's Auto Scaling service, you should carefully read JD Cloud's relevant service instructions, technical specifications, operation procedures, etc. displayed on its official page, and understand the relevant content and possible consequences. During using the Auto Scaling service, you should follow the relevant operation guidelines, please grasp the risk and do it discreetly. You understand and agree that JD Cloud's Auto Scaling service is selected by you through your own independent and prudent judgment, and you should be responsible for your selection, including but not limited to:
 
-3.1.3.1 In the process of using the auto scaling service, if your choice of scaling rules, settings, etc. are your own operation, you will be responsible for your actions and their consequences;
+3.1.3.1 In the process of using the Auto Scaling service, if your choice of scaling rules, settings, etc. are your own operation, you will be responsible for your actions and their consequences;
 
 3.1.3.2 JD Cloud creates or releases services for you in accordance with scaling rules of your choice, which are also deemed to be your own actions and you will be responsible for your actions and their consequences.
 
-3.1.4 Although you still do not have to pay for JD Cloud's auto scaling service, but for the other paid services of JD Cloud you receive and use through auto scaling service (unless otherwise agreed by the parties), you should pay the corresponding service fee to JD Cloud according to the applicable charging standard of this service, and abide by its Service Terms, terms of virtual machine service <https://www.jdcloud.com/help/detail/159/isCatalog/1>
+3.1.4 Although you still do not have to pay for JD Cloud's Auto Scaling service, but for the other paid services of JD Cloud you receive and use through Auto Scaling service (unless otherwise agreed by the parties), you should pay the corresponding service fee to JD Cloud according to the applicable charging standard of this service, and abide by its Service Terms, terms of Virtual Machines service <https://www.jdcloud.com/help/detail/159/isCatalog/1>
 
-3.1.5 You understand and acknowledge that by confirming the Service Terms, you agree to open your application programming interface (open API) to JD Cloud, which will be used by JD Cloud to provide you with the auto scaling service you specify.
+3.1.5 You understand and acknowledge that by confirming the Service Terms, you agree to open your application programming interface (open API) to JD Cloud, which will be used by JD Cloud to provide you with the Auto Scaling service you specify.
 
 3.1.6 You promise:
 
@@ -40,7 +40,7 @@ If you are engaged in Internet information services such as news, publishing, ed
 
 3.1.6.3 If the services of JD Cloud involve the license of third-party software, you agree to abide by the relevant license agreement;
 
-3.1.6.4 Do Not intersperse Email Ads or Spams: Do not use the services provided by JD Cloud to intersperse a large number of undesired or uncalled emails, electronic advertising or emails containing reactionary information, pornographic information or other harmful information;
+3.1.6.4 Do not intersperse Email Ads or Spams: Do not use the services provided by JD Cloud to intersperse a large number of undesired or uncalled emails, electronic advertising or emails containing reactionary information, pornographic information or other harmful information;
 
 3.1.6.5 Do not use the resources and services provided by JD Cloud to upload, download, store, and release the following information or contents and do not provide any convenience for others to release such information (including but not limited to setting URL, BANNER links, etc.):
 
@@ -92,7 +92,7 @@ If you are engaged in Internet information services such as news, publishing, ed
 
 3.2.2.2 JD Cloud provides a 7×24h online open ticket service system to answer customer questions.
 
-3.2.3 JD Cloud is only responsible for the operation and maintenance of the software provided by itself, that is, the relevant technical framework and operating system for auto scaling service. You will be responsible for the upper part of the operating system (such as the applications you install on your system). Besides, if you upgrade your operating system yourself, it may cause adverse effects such as downtime. Please consider the risks and operation with caution.
+3.2.3 JD Cloud is only responsible for the operation and maintenance of the software provided by itself, that is, the relevant technical framework and operating system for Auto Scaling service. You will be responsible for the upper part of the operating system (such as the applications you install on your system). Besides, if you upgrade your operating system yourself, it may cause adverse effects such as downtime. Please consider the risks and operation with caution.
 
 3.2.4 JD Cloud will clear the faults caused by non-human factors, except for your reasons and/or force majeure as well as matters excluded in the control scope of JD Cloud.
 
@@ -136,7 +136,7 @@ If you are engaged in Internet information services such as news, publishing, ed
 
 ## **7. Term and Termination**
 
-7.1 The auto scaling service shall be available from the date of your service opening; and JD Cloud will stop providing you with this service if you clear its scaling rules and configurations.
+7.1 The Auto Scaling service shall be available from the date of your service opening; and JD Cloud will stop providing you with this service if you clear its scaling rules and configurations.
 
 7.2 The service term shall be terminated in advance in the following circumstances:
 
@@ -154,9 +154,9 @@ If you are engaged in Internet information services such as news, publishing, ed
 
 8.2 You understand that the following situations are not regarded as JD Cloud's breach for the particularity of computers and the Internet:
 
-8.2.1 You understand and agree that During the free trial period of auto scaling service, JD Cloud will not make any commitment to the availability and reliability of the service. JD Cloud will not be responsible for the work or results of your use of JD Cloud's auto scaling service; however, JD Cloud is willing to work with you to solve the problem and promise continuously improve service quality and service level. In case of any problem, you can report to JD Cloud by calling the technical support hotline and get technical support. If you can't solve the problem, you shall stop using the JD Cloud's auto scaling service;
+8.2.1 You understand and agree that During the free trial period of Auto Scaling service, JD Cloud will not make any commitment to the availability and reliability of the service. JD Cloud will not be responsible for the work or results of your use of JD Cloud's Auto Scaling service; however, JD Cloud is willing to work with you to solve the problem and promise continuously improve service quality and service level. In case of any problem, you can report to JD Cloud by calling the technical support hotline and get technical support. If you can't solve the problem, you shall stop using the JD Cloud's Auto Scaling service;
 
-8.2.2 For the failure of creation and release of the auto scaling service for reasons of telecommunications system fault, Internet congestion, application system/or the service itself that will be created, including but not limited to service upgrade, shutdown of application programming interface, insufficient inventory, excessive startup time, and force majeure, JD Cloud will be exempted from the liability.
+8.2.2 For the failure of creation and release of the Auto Scaling service for reasons of telecommunications system fault, Internet congestion, application system/or the service itself that will be created, including but not limited to service upgrade, shutdown of application programming interface, insufficient inventory, excessive startup time, and force majeure, JD Cloud will be exempted from the liability.
 
 8.3 In no event shall JD Cloud be liable for any indirect, consequential, disciplinary, incidental or special damages, including loss of profits suffered by you using JD Cloud services (even if you have been advised of the possibility of such losses).
 
@@ -166,7 +166,7 @@ If you are engaged in Internet information services such as news, publishing, ed
 
 9.1 Due to force majeure or other accidents, the performance of this Service Terms becomes impossible, unnecessary or meaningless, and the party suffering from force majeure or accident is not liable.
 
-9.2. Force majeure or accidental events refer to unforeseeable, insurmountable and unavoidable objective events that have a significant impact on one or both parties, including but not limited to natural disasters such as floods, earthquakes, epidemics of plagues, and social events such as war, unrest, government actions, interruption of telecommunications trunk lines, hackers, network path blocking, technical adjustment of telecom department and government regulation.
+9.2. Force majeure or accidental events refer to unforeseeable, insurmountable and unavoidable objective events that have a significant impact on one or both parties, including but not limited to natural disasters such as floods, earthquakes, epidemics of plagues, and social events such as war, unrest, government actions, and interruption of telecommunications trunk lines, hackers, network path blocking, technical adjustment of telecom department and government regulation.
 
 ## **10. Governing Law and Dispute Resolution**
 

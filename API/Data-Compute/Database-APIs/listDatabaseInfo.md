@@ -24,13 +24,13 @@ https://xdata.jdcloud-api.com/v1/regions/{regionId}/dwDatabase
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**data**|[DwDatabaseInfo[]](##DwDatabaseInfo)||
+|**data**|DwDatabaseInfo[]||
 |**message**|String||
 |**status**|Boolean||
 ### <a name="DwDatabaseInfo">DwDatabaseInfo</a>

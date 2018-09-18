@@ -7,7 +7,7 @@ definitions:
     properties:
       value:
         type: string
-        description: Specification description of the corresponding machine
+        description: Specification Description of the Corresponding Machine
       label:
         type: string
-        description: CPU and memory size of the machine
+        description: CPU and Memory Size of the Machine

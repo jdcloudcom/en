@@ -1,28 +1,29 @@
-# Specifications
+# Instance Specifications Type
+
 An instance is the smallest unit that JD Cloud provides computing services for your business. Different instances identify their corresponding computing, memory, storage, and networking capabilities by their types and specific specifications. Meanwhile, the instance type family you specified when you create an instance determines the hardware configuration of this instance. You can select the appropriate instance type family and specific specification based on the type and size of the application you need to deploy.
 
 The following is the example specification type information of the current JD Cloud. The types and specifications of the saleable instances in different regions are not identical. Please refer to the example creation page. The specific Instance Type specifications can be classified according to different application scenarios:
 
-* General: [General Shared Type](#g.s), [General Standard Type](#g.n)
-* Compute-Optimized Standard type: [Compute Optimized Standard Type](#c.n)
-* Memory-Optimized type: [Memory Optimized Standard Type](#m.n)
-* High-frequency calculation type: [High-frequency calculation optimization type](#h.g)
+* General: [General Shared Type]((./specifications#g.s)、[General Standard Type](./specifications#g.n)
+* Compute-Optimized Standard type: [Compute Optimized Standard Type](./specifications#c.n)
+* Memory-Optimized type: [Memory Optimized Standard Type](./specifications#m.n)
+* High-frequency calculation type: [High-frequency calculation optimization type](./specifications#h.g)
 
-## Universal type
-The universal model currently provides General Shared Type and General Standard types, providing you with balanced computing and memory resources to meet the needs of most business scenarios. Each of the vCPUs in the common standard type corresponds to an Intel Xeon processor hyper-threaded core with a vCPU to memory ratio of 1:4.
+## General
+The General currently provides General Shared and General Standard types, providing you with balanced computing and memory resources to meet the needs of most business scenarios. Each of the vCPUs in the common standard type corresponds to an Intel Xeon processor hyper-threaded core with a vCPU to memory ratio of 1:4.
 
-### General Shared Type>
-**Specification type features:**
+### General Shared<div id="g.s"></div>
+**Specification Type Features:**
 
-* vCPU to memory ratio is 1:1 or 1:2
+* vCPU to Memory Ratio is 1:1 or 1:2
 * Processor: 2.1 GHz Intel Xeon E5-2683 v4 (Broadwell) processor
-* Support for the following two types of cloud disk services:
+* Support for the following two types of Cloud Disk Services:
 	*Premium Hdd Cloud Disk
-	* SSD cloud disk
-* Applicable scenario:
+	* SSD Cloud Disk
+* Applicable Scenario:
 	* Primary stage of personal website with small visit flows
 	* Microservices
-	* Test environment
+	* Test Environment
 
 **Instance Type**
 
@@ -31,17 +32,17 @@ Instance Type|vCPU (core)|Memory (GB)
 g.s1.micro|1|	1
 g.s1.small|1|2
 
-### General Standard Type>
+### General Standard Type<div id="g.n"></div>
 **Specification type features:**
 
 * vCPU to memory ratio is 1:4 (except for g.n1.xlarge_m specification)
 * Processor:
 	* Second generation: 2.4 GHz Intel Xeon Gold 6148 (Skylake) processor
 	* First generation: 2.1 GHz Intel Xeon E5-2683 v4 (Broadwell) processor
-* Support for the following two types of cloud disk services:
+* Support for the following two types of Cloud Disk Services:
 	*Premium Hdd Cloud Disk
-	* SSD cloud disk
-* Applicable scenario:
+	* SSD Cloud Disk
+* Applicable Scenario:
 	* Enterprise applications of all types and sizes
 	* Small and medium data systems, caches, search clusters
 	* Data analysis and calculation
@@ -74,27 +75,27 @@ g.n1.2xlarge|8|32|4
 g.n1.4xlarge|16|64|4	
 g.n1.8xlarge|32|128|4	
 
-The standard * indicates that the Virtual Machine is not supported by this specification, and you are not allowed to adjust the current Virtual Machine to this specification, but it does not affect the use of your existing Virtual Machine.
+The standard * indicates that the Virtual Machines is not supported by this specification, and you are not allowed to adjust the current Virtual Machines to this specification, but it does not affect the use of your existing Virtual Machines.
 
 ## Compute Optimized Type
 Compute Optimized Type currently offer Compute-Optimized Standard that provide you with high-performance computing resources that can be met. Each vCPU corresponds to a hyper-threaded core of an Intel Xeon processor.
 
-### Compute-Optimized Standard>
-**Specification type features:**
+### Compute-Optimized Standard<div id="c.n"></div>
+**Specification Type Features:**
 
-* vCPU to memory ratio is 1:2 (except for c.n1.xlarge_m, c.n1.2xlarge_s, c.n1.2xlarge_m and c.n1.4xlarge_m specifications)
+* vCPU to Memory Ratio is 1:2 (except for c.n1.xlarge_m, c.n1.2xlarge_s, c.n1.2xlarge_m and c.n1.4xlarge_m specifications)
 * Processor:
 	* Second generation: 2.4 GHz Intel Xeon Gold 6148 (Skylake) processor
 	* First generation: 2.1 GHz Intel Xeon E5-2683 v4 (Broadwell) processor
-* Support for the following two types of cloud disk services:
+* Support for the following two types of Cloud Disk Services:
 	*Premium Hdd Cloud Disk
-	* SSD cloud disk
-* Applicable scenario:
-	* Batch workload
-	* Web frontend server
-	* Large multiplayer online game (MMO) front end
-	* Data analysis, batch calculation, video coding
-	* High performance science and engineering applications
+	* SSD Cloud Disk
+* Applicable Scenario:
+	* Batch Workload
+	* Web Frontend Server
+	* Large Multiplayer Online Game (MMO) Front End
+	* Data Analysis, Batch Calculation, Video Coding
+	* High Performance Science and Engineering Applications
 
 **Instance Type**
 
@@ -124,22 +125,22 @@ c.n1.4xlarge_m|16|16|4|*
 c.n1.4xlarge|16|32|4	
 c.n1.8xlarge|32|64|4	
 
-The standard * indicates that the Virtual Machine is not supported by this specification, and you are not allowed to adjust the current Virtual Machine to this specification, but it does not affect the use of your existing Virtual Machine.
+The standard * indicates that the Virtual Machines is not supported by this specification, and you are not allowed to adjust the current Virtual Machines to this specification, but it does not affect the use of your existing Virtual Machines.
 
-## Memory Optimized Type
-Memory-Optimized Type currently offer a Memory-Optimized Standard Type for applications with large memory operations, lookups, and calculations. Each vCPU corresponds to a hyper-threaded core of an Intel Xeon processor.
+## Memory Optimized
+Memory-Optimized Standard currently offer a Memory-Optimized Standard Type for applications with large memory operations, lookups, and calculations. Each vCPU corresponds to a hyper-threaded core of an Intel Xeon processor.
 
-### Memory-Optimized Standard>
-**Specification type features:**
+### Memory-Optimized Standard<div id="m.n"></div>
+**Specification Type Features:**
 
 * vCPU to memory ratio is 1:8 (except for m.n1.medium specification)
 * Processor:
 	* Second generation: 2.4 GHz Intel Xeon Gold 6148 (Skylake) processor
 	* First generation: 2.1 GHz Intel Xeon E5-2683 v4 (Broadwell) processor
-* Support for the following two types of cloud disk services:
+* Support for the following two types of Cloud Disk Services:
 	*Premium Hdd Cloud Disk
-	* SSD cloud disk
-* Applicable scenario:
+	* SSD Cloud Disk
+* Applicable Scenario:
 	* High performance database, in-memory database
 	* Data analysis and mining, distributed memory caching
 	* Hadoop, Spark clusters and other enterprise large memory requirements applications
@@ -169,31 +170,31 @@ m.n1.xlarge|4|32	|4
 m.n1.2xlarge|8|64|4	
 m.n1.4xlarge|16|128|4	
 
-The standard * indicates that the Virtual Machine is not supported by this specification, and you are not allowed to adjust the current Virtual Machine to this specification, but it does not affect the use of your existing Virtual Machine.
+The standard * indicates that the Virtual Machines is not supported by this specification, and you are not allowed to adjust the current Virtual Machines to this specification, but it does not affect the use of your existing Virtual Machines.
 
-## High frequency calculation type
+## High-Frequency-Compute
 
 High-frequency computing models currently offer high-frequency computing general-purpose models that provide you with high-performance computing resources. Each vCPU corresponds to a hyper-threaded core of an Intel Xeon processor.
 
-### High-Frequency-Compute General Type>
-**Specification type features:**
+### High-Frequency-Compute General<div id="h.g"></div>
+**Specification Type Features:**
 
-* vCPU to memory ratio is 1:4
+* vCPU to Memory Ratio is 1:4
 * Computational performance is stable, the processor frequency is high
 * Processor:
-	* Second generation: 3.2 GHz Intel Xeon Gold 6146 (Skylake) processor
-	* First generation: 3.2 GHz Intel Xeon E5-2667 v4 (Broadwell) processor
-* Support for the following two types of cloud disk services:
+	* Second Generation: 3.2 GHz Intel Xeon Gold 6146 (Skylake) processor
+	* First Generation: 3.2 GHz Intel Xeon E5-2667 v4 (Broadwell) processor
+* Support for the following two types of Cloud Disk Services:
 	*Premium Hdd Cloud Disk
-	* SSD cloud disk
-* Applicable scenario:
-	* High-performance web front-end server
-	* High performance science and engineering applications
-	* MMO games, video coding
+	* SSD Cloud Disk
+* Applicable Scenario:
+	* High-performance Web Front-end Server
+	* High Performance Science and Engineering Applications
+	* MMO games, Video Coding
 
 **Instance Type**
 
-Second generation:
+Second Generation:
 
 Instance Type|vCPU (core)|Memory (GB)|Network Interface Multi-Queue
 :---|:---|:---|:---
@@ -203,7 +204,7 @@ h.g2.2xlarge|8|32|4
 h.g2.4xlarge|16|64|4
 h.g2.8xlarge|32|128|4
 
-First generation:
+First Generation:
 
 Instance Type|vCPU (core)|Memory (GB)|Network Interface Multi-Queue
 :---|:---|:---|:---
@@ -215,8 +216,8 @@ h.g1.6xlarge|24|96|4
 
 Please note:
 
-* The second-generation Virtual Machine (except for high-frequency computing) is temporarily open only in cn-north-1, cn-east-2 and cn-south-1, and the high-frequency computing type is only available in cn-south-1;
-* The first generation of general, compute optimized, and memory optimized virtual machines in cn-north-1 and cn-east-2 regions may also run on 2.3 GHz Intel Xeon E5-2698 v3 (Haswell) processor;
+* The Second-generation Virtual Machines (except for high-frequency computing) is temporarily open only in cn-north-1, cn-east-2 and cn-south-1, and the high-frequency computing type is only available in cn-south-1;
+* The First generation of general, compute optimized, and memory optimized Virtual Machines in cn-north-1 and cn-east-2 regions may also run on 2.3 GHz Intel Xeon E5-2698 v3 (Haswell) processor;
 * After purchasing an instance, you can modify the configuration of the instance according to the change of business scale. For details, please refer to [Resize](../Operation-Guide/Instance/Resize-Instance.md).
 
 ## Related Reference

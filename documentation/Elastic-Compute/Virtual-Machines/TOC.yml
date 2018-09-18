@@ -1,6 +1,6 @@
-  name: Virtual Machines
-  href: 
-  items:
+name: Virtual Machines
+href:
+items:
   - name: Introduction
     items:
       - name: Product Overview
@@ -17,8 +17,8 @@
         href: Introduction/Specifications.md
       - name: Restrictions
         href: Introduction/Restrictions.md
-      - name: Application Scenarios 
-        href: Introduction/Application-Scenarios.md    
+      - name: Application Scenarios
+        href: Introduction/Application-Scenarios.md
   - name: Pricing
     items:
       - name: Billing Overview
@@ -28,10 +28,10 @@
       - name: Price Overview
         href: Pricing/Price-Overview.md
       - name: Purchase Process
-        href: Pricing/Purchase-Process.md 
+        href: Pricing/Purchase-Process.md
       - name: Renew Process
         href: Pricing/Renew-Process.md
-  - name: Linux Getting-Started Guide
+  - name: Linux Getting Started
     items:
       - name: Preparation before Creation
         href: Getting-Start-Linux/Account-Preparation-Linux.md
@@ -43,7 +43,7 @@
         href: Getting-Start-Linux/Connect-to-Linux-Instance.md
       - name: Attach Data Disk
         href: Getting-Start-Linux/Mount-DataDisk.md
-  - name: Windows Getting-Started Guide
+  - name: Windows Getting Started
     items:
       - name: Preparation before Creation
         href: Getting-Start-Windows/Account-Preparation-Windows.md
@@ -58,7 +58,7 @@
   - name: Operation Guide
     items:
       - name: Instance
-        item:
+        items:
           - name: Instance Overview
             href: Operation-Guide/Instance/Instance-Overview.md
           - name: Instance Life Cycle
@@ -94,7 +94,7 @@
           - name: Delete Instance
             href: Operation-Guide/Instance/Delete-Instance.md
       - name: Instance Template
-        item:
+        items:
           - name: Instance Template Overview
             href: Operation-Guide/Instance-Template/Instance-Template-Overview.md
           - name: Create Instance Template
@@ -102,7 +102,7 @@
           - name: Delete Instance Template
             href: Operation-Guide/Instance-Template/Delete-Instance-Template.md
       - name: Image
-        item:
+        items:
           - name: Image Overview
             href: Operation-Guide/Image/Image-Overview.md
           - name: Image Type
@@ -120,7 +120,7 @@
           - name: Delete Private Image
             href: Operation-Guide/Image/Delete-Private-Image.md
       - name: Storage
-        item:
+        items:
           - name: Storage Overview
             href: Operation-Guide/Storage/Strorage-Overview.md
           - name: Storage Type
@@ -141,14 +141,14 @@
             href: Operation-Guide/Storage/Assign-Device-Name.md
           - name: Configure Deletion Attribute
             href: Operation-Guide/Storage/Configurate-Delete-Attributes.md
-      - name: Network
-        item:
-          - name: Network Overview
+      - name: Networking
+        items:
+          - name: Networking Overview
             href: Operation-Guide/Network/Network-Overview.md
           - name: Bind Elastic Network Interface
-            href: Operation-Guide/Network/Associate-ENI.md
+            href: Operation-Guide/Network/Attach-ENI.md
           - name: Unbind Elastic Network Interface
-            href: Operation-Guide/Network/Disassociate-ENI.md
+            href: Operation-Guide/Network/Detach-ENI.md
           - name: Assign Auxiliary Private IP
             href: Operation-Guide/Network/Assign-Secondary-IPs.md
           - name: Release Auxiliary Private IP
@@ -162,7 +162,7 @@
           - name: Configure Elastic Network Interface Deletion Attribute
             href: Operation-Guide/Network/Configurate-Delete-Attributes.md
       - name: Key Pair
-        item:
+        items:
           - name: Key Pair Overview
             href: Operation-Guide/Key-Pair/KeyPair-Overview.md
           - name: Create Key Pair
@@ -170,7 +170,7 @@
           - name: Bind Key Pair
             href: Operation-Guide/Key-Pair/Bind-Keypair.md
       - name: Security Group
-        item:
+        items:
           - name: Security Group Overview
             href: Operation-Guide/Security-Group/Security-Group-Overview.md
           - name: Security Group Rule
@@ -181,10 +181,10 @@
             href: Operation-Guide/Security-Group/Security-Group-Scenarios.md
           - name: Create Security Group
             href: Operation-Guide/Security-Group/Create-Security-Group.md
-          - name: Security Group Binds Virtual Machine
-            href: Operation-Guide/Security-Group/Associate-Instance.md
-          - name: Security Group Unbinds Virtual Machine
-            href: Operation-Guide/Security-Group/Disassociate-Instance.md
+          - name: Security Group Binds Virtual Machines
+            href: Operation-Guide/Security-Group/Associate-Security-Group.md
+          - name: Security Group Unbinds Virtual Machines
+            href: Operation-Guide/Security-Group/Disassociate-Security-Group.md
           - name: Configure Security Group Inbound Rules
             href: Operation-Guide/Security-Group/Configurate-Inbound-Rules.md
           - name: Configure Security Group Outbound Rules
@@ -192,7 +192,7 @@
           - name: Delete Security Group
             href: Operation-Guide/Security-Group/Delete-Security-Group.md
       - name: Tag
-        item:
+        items:
           - name: Tag Overview
             href: Operation-Guide/Tag/Tag-Overview.md
           - name: Filter by Tag
@@ -200,299 +200,298 @@
           - name: Edit Tag
             href: Operation-Guide/Tag/Edit-Tag.md
       - name: Security
-        item:
+        items:
           - name: Enable CC Protection
             href: Operation-Guide/Security/Turn-on-CC-Protection.md
       - name: Monitoring
-        item:
+        items:
           - name: Monitoring Overview
             href: Operation-Guide/Monitoring/Monitoring-Overview.md
           - name: Get Monitoring Data
             href: Operation-Guide/Monitoring/Get-Monitor-Data.md
           - name: Set Alarm
             href: Operation-Guide/Monitoring/Set-Alarm.md
-  - name: Best Practices
-    items:
-    - name: Security
-      href: Best-Practices/Security.md
-    - name: Storage
-      href: Best-Practices/Storage.md
-    - name: Backup and Recovery
-      href: Best-Practices/Backup-and-Restore.md
-  - name: Tutorial
-    status: 0
-    items:         
-  - name: Linux Operation and Maintenance Guide
-    items:
-    - name: Linux Environment Configuration
-          item:
-          name: Installation and Configuration of FTP Service
-          href: Linux-Troubleshooting/Configuration-Class/FTP-service-installation-and-configuration.md
-          name: ubuntu System Replacement Software Installation Source     
-          href: Linux-Troubleshooting/Configuration-Class/Ubuntu-system-replacement-software-installation-source.md
-          name: Centos Installation Configuration vncserver
-          href: Linux-Troubleshooting/Configuration-Class/Centos-installation-configuration-vncserver.md
-          name: Centos7 Installs Graphical Interface 
-          href: Linux-Troubleshooting/Configuration-Class/Centos7-installation-graphical-interface.md
-          name: Intranet NTP Service
-          href: Linux-Troubleshooting/Configuration-Class/Intranet-NTP-service.md
-          name: Kernel Operation Not Upgraded When Linux System Is Upgraded
-          href: Linux-Troubleshooting/Configuration-Class/Linux-operation-is-not-upgraded-when-upgrading-Linux-system.md
-          name: Linux System Configures SNAT
-          href: Linux-Troubleshooting/Configuration-Class/Linux-system-configuration-SNAT.md
-          name: Method to Modify Hostname of Linux System
-          href: Linux-Troubleshooting/Configuration-Class/Linux-system-modification-host-name-method.md
-          name: Permission to Modify File Directory of Linux System
-          href: Linux-Troubleshooting/Configuration-Class/Linux-system-to-modify-file-directory-permissions.md
-          name: Linux System Uses nohup to Execute Program in the Background
-          href: Linux-Troubleshooting/Configuration-Class/Linux-system-uses-nohup-to-put-the-program-into-the-background.md
-          name: SSH Creation and Login
-          href: Linux-Troubleshooting/Configuration-Class/SSH-creation-and-login.md
-          name: SSH Service Change Port
-          href: Linux-Troubleshooting/Configuration-Class/SSH-service-change-port.md
-          name: Modify Maximum Connections for Created mysql Database
-          href: Linux-Troubleshooting/Configuration-Class/Self-built-mysql-database-to-modify-the-maximum-number-of-connections.md
-          name: Set ssh Automatic Login Between Virtual Machines
-          href: Linux-Troubleshooting/Configuration-Class/Set-ssh-password-free-login-between-cloud-hosts.md
-          name: Ubuntu Configures Graphical Interface and vnc
-          href: Linux-Troubleshooting/Configuration-Class/Ubuntu-configuration-graphical-interface-and-vnc.md
-    - name: Linux Startup at Boot
-          item:
-          name: CentOS 5 and CentOS 6 Systems
-          href: Linux-Troubleshooting/Configure-boot-automatically/CentOS-5-and-CentOS-6-systems.md
-          name: CentOS 7 System
-          href: Linux-Troubleshooting/Configure-boot-automatically/CentOS-7-system.md
-          name: Ubuntu 12.04-14.04 System
-          href: Linux-Troubleshooting/Configure-boot-automatically/Ubuntu-12-04-14-04-system.md
-          name: Ubuntu 16.04 System
-          href: Linux-Troubleshooting/Configure-boot-automatically/Ubuntu-16-04-system.md          
-    - name: Linux Faults
-          item:
-          name: Solution for Failure to Obtain Private IP After Creation of Virtual Machine Using centos Private Image.
-          href: Linux-Troubleshooting/Fault-Class/Cannot-obtain-intranet-IP-solution-after-creating-a-cloud-host-using-centos-private-image.md
-          name: Linux System message Log Error: kernel: TCP: time wait bucket table overflowt
-          href: Linux-Troubleshooting/Fault-Class/Linux-system-message-log-error-kernel-TCP-time-wait-bucket-table-overflowt.md
-          name: Linux System's Query of Time Synchronization Server Timed Out
-          href: Linux-Troubleshooting/Fault-Class/Linux-system-query-time-synchronization-server-timeout.md
-          name: SSH Enables UseDNS Making Connection Speed to Slow Down
-          href: Linux-Troubleshooting/Fault-Class/SSH-enabled-UseDNS-causes-connection-slowdown.md
-          name: SSH Startup Error /var/empty/sshd must be owned by root and not group or world-writable
-          href: Linux-Troubleshooting/Fault-Class/SSH-startup-error-be-owned-by-root-and-not-group-or-world-writable.md
-          name: Following Error Occurs at SSH Login: Maximum amount of failed attempts was reached
-          href: Linux-Troubleshooting/Fault-Class/The-following-error-occurred-during-SSH-login-Maximum-amount-of-failed-attempts-was-reached.md
-          name: Following Error Occurs at SSH Login: ssh_exchange_identification: read: Connection reset by peer
-          href: Linux-Troubleshooting/Fault-Class/The-following-error-occurred-during-SSH-login-ssh-exchange-identification-read-Connection-reset-by-peer.md
-          name: Following Error Occurs When SSH Service Is Started: main process exited, code=exited
-          href: Linux-Troubleshooting/Fault-Class/The-following-error-occurred-when-the-SSH-service-started-main-process-exited-code-exited.md
-          name: Analysis of Two Causes for Slow Login to Linux ssh
-          href: Linux-Troubleshooting/Fault-Class/Analysis-of-two-reasons-why-Linux-ssh-is-slow-to-log-in.md
-          name: Long Return Time at Calling Tencent API
-          href: Linux-Troubleshooting/Fault-Class/Calling-Tencent-API-returns-longer.md
-          name: CentOS Still Can't Be Logged in by Entering the Username Correctly
-          href: Linux-Troubleshooting/Fault-Class/CentOS-still-can't-log-in-if-you-enter-your-username-correctly.md
-          name: How to View the Time When the Server Was Last Restarted from the System
-          href: Linux-Troubleshooting/Fault-Class/How-to-view-the-time-when-the-server-was-last-restarted-from-the-system.md
-          name: Delete File in Linux and Prompt Operation not permitted
-          href: Linux-Troubleshooting/Fault-Class/Linux-delete-file-prompt-Operation-not-permitted.md
-          name: Troubleshooting for High Occupation of Linux System CPU and Memory
-          href: Linux-Troubleshooting/Fault-Class/Linux-system-cpu-memory-high-load-troubleshooting.md
-          name: Problems When Linux System Creates Cloud Disk with Snapshot
-          href: Linux-Troubleshooting/Fault-Class/Linux-system-creates-a-cloud-disk-problem-through-snapshots.md
-          name: Total Time Exception of Linux System ping Test
-          href: Linux-Troubleshooting/Fault-Class/Linux-system-ping-test-total-time-is-abnormal.md
-          name: Linux System Prompts -bash:ls:command not found
-          href: Linux-Troubleshooting/Fault-Class/Linux-system-prompt-bash-ls-command-not-found.md
-          name: It Prompts Insufficient Space When Linux System Views Log by tail
-          href: Linux-Troubleshooting/Fault-Class/Linux-system-tail-view-log-prompt-space-is-insufficient.md
-          name: SSH Login Fails After Repeatedly Entering the root Password and Following Error Occurs: Too many authentication failures for root
-          href: Linux-Troubleshooting/Fault-Class/SSH-cannot-log-in-after-entering-the-root-password-multiple-times-The-following-error-is-reported-Too-many-authentication-failures-for-root.md
-          name: Troubleshooting for SSH Remote Login Failure
-          href: Linux-Troubleshooting/Fault-Class/SSH-cannot-remotely-log-in-to-troubleshoot.md
-          name: Timeout Setting for SSH Disconnection
-          href: Linux-Troubleshooting/Fault-Class/SSH-connection-disconnect-timeout-setting.md
-          name: SSH Login Error Host key verification failed
-          href: Linux-Troubleshooting/Fault-Class/SSH-login-error-Host-key-verification-failed.md
-          name: Module is unknown Appears during SSH Login
-          href: Linux-Troubleshooting/Fault-Class/SSH-login-report-Module-is-unknown.md
-          name: No supported key exchange algorithms Appears during SSH Login
-          href: Linux-Troubleshooting/Fault-Class/SSH-login-report-No-supported-key-exchange-algorithms.md
-          name: fatal: mm_request_send: write: Broken pipe Appears during SSH Login
-          href: Linux-Troubleshooting/Fault-Class/SSH-login-report-fatal-mm-request-send-write-Broken-pipe.md
-          name: must be owned by root and not group or word-writable Appears during SSH Login
-          href: Linux-Troubleshooting/Fault-Class/SSH-login-reported-must-be-owned-by-root-and-not-group-or-word-writable.md
-          name: Permission denied, please try again Appears during SSH Login
-          href: Linux-Troubleshooting/Fault-Class/SSH-login-time-report-Permission-denied-please-try-again.md
-          name: User root not allowed because not listed in Appears during SSH Login
-          href: Linux-Troubleshooting/Fault-Class/SSH-login-time-report-User-root-not-allowed-because-not-listed-in.md
-          name: Following Error Occurs during SSH Connection: error Could not get shadow infromation for root
-          href: Linux-Troubleshooting/Fault-Class/The-following-error-occurred-during-SSH-connection-error-Could-not-get-shadow-infromation-for-root.md
-          name: Following Error Occurs during SSH Connection: pam_limits(sshd:session)：could not sent limit for 'nofile'
-          href: Linux-Troubleshooting/Fault-Class/The-following-error-occurred-during-SSH-connection-pam-limits-sshd-session-could-not-sent-limit-for-nofile.md
-          name: Following Error Occurs during SSH Connection: pam_unix(sshdsession) session closed for user
-          href: Linux-Troubleshooting/Fault-Class/The-following-error-occurred-during-SSH-connection-pam-unix-sshdsession-session-closed-for-user.md
-          name: Following Error Occurs during SSH Login: Disconnected:No supported authentication methods available
-          href: Linux-Troubleshooting/Fault-Class/The-following-error-occurred-during-SSH-login-Disconnected-No-supported-authentication-methods-available.md
-          name: Following Error Occurs during SSH Connection: pam_listfile(sshd:auth): Refused user root for service sshd
-          href: Linux-Troubleshooting/Fault-Class/The-following-error-occurred-during-SSH-login-pam-listfile-sshd-auth-Refused-user-root-for-service-sshd.md
-          name: Following Error Occurs during SSH Connection: requirement "uid >= 1000" not met by user "root"
-          href: Linux-Troubleshooting/Fault-Class/The-following-error-occurred-during-SSH-login-requirement-uid-1000-not-met-by-user-root.md
-          name: Following Error Occurs When SSH Service is Started: fatal: Cannot bind any address
-          href: Linux-Troubleshooting/Fault-Class/The-following-error-occurred-when-the-SSH-service-started-fatal-Cannot-bind-any-address.md
-          name: Method to Automatically Restore Ubuntu System after DNS Modification and Restarting
-          href: Linux-Troubleshooting/Fault-Class/Ubuntu-system-to-modify-the-automatic-recovery-method-after-DNS-restart.md         
-  - name: Windows Operation and Maintenance Guide
-    items:
-    - name: Windows Environment Configuration
-          item:
-          name: Configure https for iis Service in Windows2008
-          herf: Windows-Troubleshooting/Configuration-Class/Windows-2008-iis-service-configuration-https.md
-          name: Modify Desktop Background in Windows 2012
-          herf: Windows-Troubleshooting/Configuration-Class/Windows-2012-modify-desktop-background.md
-          name: Delete Server Role or Function in windows 2012
-          href: Windows-Troubleshooting/Configuration-Class/Windows-2012-remove-server-role-or-function.md
-          name: Windows Virtual Machine Adjustment and Activation Mode Is KMS
-          href: Windows-Troubleshooting/Configuration-Class/Windows-cloud-host-adjustment-activation-mode-is-KMS.md
-          name: Reset winsock Configuration in Windows
-          href: Windows-Troubleshooting/Configuration-Class/Windows-reset-winsock-configuration.md
-          name: Forward Audio Files to Local Computer for Play in Windows System
-          href: Windows-Troubleshooting/Configuration-Class/Windows-system-audio-files-to-local-computer-playback.md
-          name: Method to View and Modify Remote Desktop Port of Windows System
-          href: Windows-Troubleshooting/Configuration-Class/Windows-system-remote-desktop-port-viewing-and-modification-method.md
-          name: Set Not to Lock Screen of Windows System
-          href: Windows-Troubleshooting/Configuration-Class/Windows-system-settings-do-not-lock-screen.md
-          name: Disable ECN Function in Windows2012 System
-          href: Windows-Troubleshooting/Configuration-Class/Windows2012-system-turns-off-ECN-function.md
-          name: Compatibility Mode of 360 and ie Browser Settings
-          href: Windows-Troubleshooting/Configuration-Class/360-and-IE-browser-settings-compatibility-mode.md
-          name: How to cancel the display of login key combination in Windows system
-          href: Windows-Troubleshooting/Configuration-Class/How-to-cancel-the-login-display-key-combination-in-Windows-system.md
-          name: Enable 500 True Error by IIS7.5
-          href: Windows-Troubleshooting/Configuration-Class/IIS7-5-open-500-true-error.md
-          name: Set Log Time and Local Time Synchronous by IIS7.5
-          href: Windows-Troubleshooting/Configuration-Class/IIS7-5-sets-the-log-time-and-local-time-synchronization.md
-          name: Windows2008 Disk Partition and Formatting
-          href: Windows-Troubleshooting/Configuration-Class/Windows-2008-disk-partitioning-and-formatting.md
-          name: Closed Event Tracker of Windows Virtual Machine
-          href: Windows-Troubleshooting/Configuration-Class/Windows-Cloud-Host-Close-Event-Tracker.md
-          name: Windows Firewall Allows/ Forbids ping
-          href: Windows-Troubleshooting/Configuration-Class/Windows-Firewall-allows-pings-to-be-disabled.md
-          name: Windows Firewall Allows/ Forbids Port Access
-          href: Windows-Troubleshooting/Configuration-Class/Windows-Firewall-allows-port-access-to-be-disabled.md
-          name: Set IP to Limit Access to Windows IIS Website
-          href: Windows-Troubleshooting/Configuration-Class/Windows-IIS-website-setting-IP-restricted-access.md
-          name: Windows Update Settings
-          href: Windows-Troubleshooting/Configuration-Class/Windows-Update-update-settings.md
-          name: Close ie Browser Enhanced Security of Windows
-          href: Windows-Troubleshooting/Configuration-Class/Windows-closes-IE-browser-to-enhance-security.md
-          name: Method to Limit Memory of Self-built SqlServer of Windows Virtual Machine
-          href: Windows-Troubleshooting/Configuration-Class/Windows-cloud-host-self-built-SqlServer-limit-memory-method.md
-          name: Method to Modify DNS in Windows
-          href: Windows-Troubleshooting/Configuration-Class/Windows-modify-DNS-method.md
-          name: Modify Disk Drive in Windows
-          href: Windows-Troubleshooting/Configuration-Class/Windows-modify-disk-drive-letter.md
-          name: Method to Backup and Restore Registry in Windows
-          href: Windows-Troubleshooting/Configuration-Class/Windows-registry-backup-and-restore-method.md
-          name: Method to Configure Port Forwarding for Windows Server
-          href: Windows-Troubleshooting/Configuration-Class/Windows-server-configuration-port-forwarding-method.md
-          name: SQL Image Login Method of Windows System
-          href: Windows-Troubleshooting/Configuration-Class/Windows-system-SQL-image-login-method.md
-          name: Open PDO for php in Windows System
-          href: Windows-Troubleshooting/Configuration-Class/Windows-system-php-open-PDO.md
-          name: Open fsockopen Function for php in Windows System
-          href: Windows-Troubleshooting/Configuration-Class/Windows-system-php-open-fsockopen-function.md
-          name: Restart Remote Desktop Service in Windows System
-          href: Windows-Troubleshooting/Configuration-Class/Windows-system-restarts-Remote-Desktop-Service.md
-          name: Upload Files via Remote Desktop under Windows System
-          href: Windows-Troubleshooting/Configuration-Class/Windows-uploads-files-via-Remote-Desktop.md
-          name: Windows2008 ftp Service Installation and Configuration
-          href: Windows-Troubleshooting/Configuration-Class/Windows2008-installation-and-configuration-ftp-service.md
-          name: Windows2008 Caps System Cache
-          href: Windows-Troubleshooting/Configuration-Class/Windows2008-limits-system-cache-limit.md
-          name: Enable Kernel Dump in Windows2008
-          href: Windows-Troubleshooting/Configuration-Class/Windows2008-opens-kernel-dump-configuration.md
-          name: Windows2008 Virtual Memory Setting
-          href: Windows-Troubleshooting/Configuration-Class/Windows2008-set-virtual-memory.md
-          name: Windows2012 Disk Partition and Formatting
-          href: Windows-Troubleshooting/Configuration-Class/Windows2012-disk-partitioning-and-formatting.md
-          name: Windows2012 FTP Service Installation and Configuration
-          href: Windows-Troubleshooting/Configuration-Class/Windows2012-installation-and-configuration-ftp-service.md
-          name: Windows2012 SID Modification
-          href: Windows-Troubleshooting/Configuration-Class/Windows2012-modify-SID.md
-          name: Windows2012 Remote Desktop Set as Not Disconnected
-          href: Windows-Troubleshooting/Configuration-Class/Windows2012-set-remote-desktop-does-not-disconnect.md
-          name: Windows2012 NETFramework3.5 Installation Method
-          href: Windows-Troubleshooting/Configuration-Class/Windows2012-system-installation-NETFramework3.5-installation-method.md
-    - name: Windows Startup at Boot
-          item:
-          name: Windows System
-          herf: Windows-Troubleshooting/Configure-boot-automatically/Windows-system.md
-    - name: Windows Faults
-          item:
-          name: Windows Port 80 Exception Processing
-          herf: Windows-Troubleshooting/Fault-Class/Handlingof-abnormal-Windows-80-port-usage.md
-          name: Windows Excessive Time_Wait Causes Internet Failure
-          herf: Windows-Troubleshooting/Fault-Class/Too-many-Windows-Time-Wait-failed-to-access-the-external-network.md
-          name: What if the VM Auto Reboots in Early Morning
-          href: Windows-Troubleshooting/Fault-Class/What-should-I-do-if-the-cloud-host-automatically-restarts-in-the-early-morning.md
-          name: \"8000FFFF windows update Unknown Error\" Prompts When  Windows2008 Updates Patches
-          href: Windows-Troubleshooting/Fault-Class/Windows-2008-update-patch-reported-8000FFFF-windows-update-encountered-an-unknown-error.md
-          name: Error Occurs and Source Files Not Found during .NET Framework 3.5.1 Installation in Windows2012
-          href: Windows-Troubleshooting/Fault-Class/Windows-2012-installation-NET-Framework-3-5-1-error-can-not-find-the-source-file.md
-          name: Windows Failed to Refresh Server Manager
-          href: Windows-Troubleshooting/Fault-Class/Windows-refreshes-server-manager-failed.md
-          name: No Login Right Prompted during Windows Remote Login
-          href: Windows-Troubleshooting/Fault-Class/Windows-remote-login-prompts-no-login-permission.md
-          name: Windows Remote ID Verification Error and Requested Function Not Supported
-          href: Windows-Troubleshooting/Fault-Class/Windows-remote-prompts-an-authentication-error-and-the-requested-function-is-not-supported.md
-          name: High Memery Usage by TrustedInstaller.exe in Windows System
-          href: Windows-Troubleshooting/Fault-Class/Windows-system-TrustedInstaller-exe-takes-up-memory.md
-          name: Method to Process High CPU and Memory Resources Usage by svchost.exe in Windows System
-          href: Windows-Troubleshooting/Fault-Class/Windows-system-svchost-exe-process-occupies-cpu-high-memory-resources.md
-          name: FTP Error 451 Processing Method
-          href: Windows-Troubleshooting/Fault-Class/FTP-report-Error-code-451-processing-method.md
-          name: Mac System Fails to Connect Windows2012
-          href: Windows-Troubleshooting/Fault-Class/Mac-system-cannot-connect-to-Windows2012.md
-          name: Reasons for Task Manager Data Suspension in Windows
-          href: Windows-Troubleshooting/Fault-Class/Reasons-for-Windows-Task-Manager-data-pause.md
-          name: Broiler Server Processing Method
-          href: Windows-Troubleshooting/Fault-Class/Server-is-handled-by-broiler.md
-          name: No Authorization Prompted during Windows Remote Connection
-          href: Windows-Troubleshooting/Fault-Class/Windows-Remote-Connection-Prompt-does-not-have-a-license.md
-          name: Windows Remote Desktop Credential Not Work
-          href: Windows-Troubleshooting/Fault-Class/Windows-Telegram-credentials-do-not-work.md
-          name: Windows Auto Update Occupies High CPU Memory
-          href: Windows-Troubleshooting/Fault-Class/Windows-automatic-update-consumes-too-much-CPU-memory.md
-          name: Windows High Bandwidth Usage Processing
-          href: Windows-Troubleshooting/Fault-Class/Windows-bandwidth-consumption-is-high.md
-          name: Windows File Attribute without Security Tab
-          href: Windows-Troubleshooting/Fault-Class/Windows-file-properties-do-not-have-a-security-tab.md
-          name: msvcr100.dll Lost Prompted during Windows Program Installation
-          href: Windows-Troubleshooting/Fault-Class/Windows-installation-running-application-prompts-msvcr100-dll-missing.md
-          name: External or Offline Status of Windows System Cloud Disk
-          href: Windows-Troubleshooting/Fault-Class/Windows-system-cloud-drive-status-external-or-offline.md
-          name: Troubleshooting for High CPU Usage in Windows System
-          href: Windows-Troubleshooting/Fault-Class/Windows-system-cpu-occupancy-high-troubleshooting.md
-          name: Analysis on Windows System Memory Usage
-          href: Windows-Troubleshooting/Fault-Class/Windows-system-memory-footprint-analysis.md
-          name: High cpu Resources Usage by tasking.exe in Windows System
-          href: Windows-Troubleshooting/Fault-Class/Windows-system-tasking-exe-process-occupies-a-lot-of-cpu-resources.md
-          name: Windows update Error 80070008 or 8007000e
-          href: Windows-Troubleshooting/Fault-Class/Windows-update-error-80070008-or-8007000e.md
-          name: 0x80070422 Error Reported during Windows2008 Server Manager Refresh
-          href: Windows-Troubleshooting/Fault-Class/Windows2008-Server-Manager-refreshes-0x80070422-error.md
-          name: Method to Process Failure to Find Disk Management in Computer Management in Windows2008
-          href: Windows-Troubleshooting/Fault-Class/Windows2008-computer-management-can-not-find-the-way-to-manage-disk.md
-          name: ie Browser Cannot Be Opened in Windows2012
-          href: Windows-Troubleshooting/Fault-Class/Windows2012-ie-browser-can-not-open.md
-          name: Error Occur during .net3.5 Installation in Windows2016
-          href: Windows-Troubleshooting/Fault-Class/Windows2016-installation-net-5-error.md        
-  - name: API reference
-    href:
-  - name: SDK reference
-    href:
-  - name: FAQ
-    href: 
-  - name: Related Resources
-    status: 0
-    items:
-
+      - name: Best Practices
+        items:
+          - name: Security
+            href: Best-Practices/Security.md
+          - name: Storage
+            href: Best-Practices/Storage.md
+          - name: Backup and Recovery
+            href: Best-Practices/Backup-and-Restore.md
+      - name: Tutorial
+        status: 0
+        items:
+          - name: Linux Operation and Maintenance Guide
+            items:
+              - name: Linux Environment Configuration
+                items:
+                  - name: Installation and Configuration of FTP Service
+                    href: Linux-Troubleshooting/Configuration-Class/FTP-service-installation-and-configuration.md
+                  - name: ubuntu System Replacement Software Installation Source
+                    href: Linux-Troubleshooting/Configuration-Class/Ubuntu-system-replacement-software-installation-source.md
+                  - name: Centos Installation Configuration vncserver
+                    href: Linux-Troubleshooting/Configuration-Class/Centos-installation-configuration-vncserver.md
+                  - name: Centos7 Installs Graphical Interface
+                    href: Linux-Troubleshooting/Configuration-Class/Centos7-installation-graphical-interface.md
+                  - name: Intranet NTP Service
+                    href: Linux-Troubleshooting/Configuration-Class/Intranet-NTP-service.md
+                  - name: Kernel Operation Not Upgraded When Linux System Is Upgraded
+                    href: Linux-Troubleshooting/Configuration-Class/Linux-operation-is-not-upgraded-when-upgrading-Linux-system.md
+                  - name: Linux System Configures SNAT
+                    href: Linux-Troubleshooting/Configuration-Class/Linux-system-configuration-SNAT.md
+                  - name: Method to Modify Hostname of Linux System
+                    href: Linux-Troubleshooting/Configuration-Class/Linux-system-modification-host-name-method.md
+                  - name: Permission to Modify File Directory of Linux System
+                    href: Linux-Troubleshooting/Configuration-Class/Linux-system-to-modify-file-directory-permissions.md
+                  - name: Linux System Uses nohup to Execute Program in the Background
+                    href: Linux-Troubleshooting/Configuration-Class/Linux-system-uses-nohup-to-put-the-program-into-the-background.md
+                  - name: SSH Creation and Login
+                    href: Linux-Troubleshooting/Configuration-Class/SSH-creation-and-login.md
+                  - name: SSH Service Change Port
+                    href: Linux-Troubleshooting/Configuration-Class/SSH-service-change-port.md
+                  - name: Modify Maximum Connections for Created mysql Database
+                    href: Linux-Troubleshooting/Configuration-Class/Self-built-mysql-database-to-modify-the-maximum-number-of-connections.md
+                  - name: Set ssh Automatic Login Between Virtual Machines
+                    href: Linux-Troubleshooting/Configuration-Class/Set-ssh-password-free-login-between-cloud-hosts.md
+                  - name: Ubuntu Configures Graphical Interface and vnc
+                    href: Linux-Troubleshooting/Configuration-Class/Ubuntu-configuration-graphical-interface-and-vnc.md
+              - name: Linux Startup at Boot
+                items:
+                  - name: CentOS 5 and CentOS 6 Systems
+                    href: Linux-Troubleshooting/Configure-boot-automatically/CentOS-5-and-CentOS-6-systems.md
+                  - name: CentOS 7 System
+                    href: Linux-Troubleshooting/Configure-boot-automatically/CentOS-7-system.md
+                  - name: Ubuntu 12.04-14.04 System
+                    href: Linux-Troubleshooting/Configure-boot-automatically/Ubuntu-12-04-14-04-system.md
+                  - name: Ubuntu 16.04 System
+                    href: Linux-Troubleshooting/Configure-boot-automatically/Ubuntu-16-04-system.md
+              - name: Linux Faults
+                items:
+                  - name: Solution for Failure to Obtain Private IP After Creation of Virtual Machines Using centos Private Image.
+                    href: Linux-Troubleshooting/Fault-Class/Cannot-obtain-intranet-IP-solution-after-creating-a-cloud-host-using-centos-private-image.md
+                  - name: Linux System message Log Error: kernel: TCP: time wait bucket table overflowt
+                    href: Linux-Troubleshooting/Fault-Class/Linux-system-message-log-error-kernel-TCP-time-wait-bucket-table-overflowt.md
+                  - name: Linux System's Query of Time Synchronization Server Timed Out
+                    href: Linux-Troubleshooting/Fault-Class/Linux-system-query-time-synchronization-server-timeout.md
+                  - name: SSH Enables UseDNS Making Connection Speed to Slow Down
+                    href: Linux-Troubleshooting/Fault-Class/SSH-enabled-UseDNS-causes-connection-slowdown.md
+                  - name: SSH Startup Error /var/empty/sshd must be owned by root and not group or world-writable
+                    href: Linux-Troubleshooting/Fault-Class/SSH-startup-error-be-owned-by-root-and-not-group-or-world-writable.md
+                  - name: Following Error Occurs at SSH Login: Maximum amount of failed attempts was reached
+                    href: Linux-Troubleshooting/Fault-Class/The-following-error-occurred-during-SSH-login-Maximum-amount-of-failed-attempts-was-reached.md
+                  - name: Following Error Occurs at SSH Login: ssh_exchange_identification: read: Connection reset by peer
+                    href: Linux-Troubleshooting/Fault-Class/The-following-error-occurred-during-SSH-login-ssh-exchange-identification-read-Connection-reset-by-peer.md
+                  - name: Following Error Occurs When SSH Service Is Started: main process exited, code=exited
+                    href: Linux-Troubleshooting/Fault-Class/The-following-error-occurred-when-the-SSH-service-started-main-process-exited-code-exited.md
+                  - name: Analysis of Two Causes for Slow Login to Linux ssh
+                    href: Linux-Troubleshooting/Fault-Class/Analysis-of-two-reasons-why-Linux-ssh-is-slow-to-log-in.md
+                  - name: Long Return Time at Calling Tencent API
+                    href: Linux-Troubleshooting/Fault-Class/Calling-Tencent-API-returns-longer.md
+                  - name: CentOS Still Can't Be Logged in by Entering the Username Correctly
+                    href: Linux-Troubleshooting/Fault-Class/CentOS-still-can't-log-in-if-you-enter-your-username-correctly.md
+                  - name: How to View the Time When the Server Was Last Restarted from the System
+                    href: Linux-Troubleshooting/Fault-Class/How-to-view-the-time-when-the-server-was-last-restarted-from-the-system.md
+                  - name: Delete File in Linux and Prompt Operation not permitted
+                    href: Linux-Troubleshooting/Fault-Class/Linux-delete-file-prompt-Operation-not-permitted.md
+                  - name: Linux系统cpu，内存高负载排查
+                    href: Linux-Troubleshooting/Fault-Class/Linux-system-cpu-memory-high-load-troubleshooting.md
+                  - name: Problems When Linux System Creates Cloud Disk with Snapshot
+                    href: Linux-Troubleshooting/Fault-Class/Linux-system-creates-a-cloud-disk-problem-through-snapshots.md
+                  - name: Total Time Exception of Linux System Ping Test
+                    href: Linux-Troubleshooting/Fault-Class/Linux-system-ping-test-total-time-is-abnormal.md
+                  - name: Linux System Prompts -bash:ls:command not found
+                    href: Linux-Troubleshooting/Fault-Class/Linux-system-prompt-bash-ls-command-not-found.md
+                  - name: It prompts insufficient space when Linux system views log by tail
+                    href: Linux-Troubleshooting/Fault-Class/Linux-system-tail-view-log-prompt-space-is-insufficient.md
+                  - name: SSH Login Fails After Repeatedly Entering the root Password and Following Error Occurs: Too many authentication failures for root
+                    href: Linux-Troubleshooting/Fault-Class/SSH-cannot-log-in-after-entering-the-root-password-multiple-times-The-following-error-is-reported-Too-many-authentication-failures-for-root.md
+                  - name: Troubleshooting for SSH Remote Login Failure
+                    href: Linux-Troubleshooting/Fault-Class/SSH-cannot-remotely-log-in-to-troubleshoot.md
+                  - name: Timeout Setting for SSH Disconnection
+                    href: Linux-Troubleshooting/Fault-Class/SSH-connection-disconnect-timeout-setting.md
+                  - name: SSH Login Error Host key verification failed
+                    href: Linux-Troubleshooting/Fault-Class/SSH-login-error-Host-key-verification-failed.md
+                  - name: Module is unknown Appears during SSH Login
+                    href: Linux-Troubleshooting/Fault-Class/SSH-login-report-Module-is-unknown.md
+                  - name: No supported key exchange algorithms Appears during SSH Login
+                    href: Linux-Troubleshooting/Fault-Class/SSH-login-report-No-supported-key-exchange-algorithms.md
+                  - name: fatal: mm_request_send: write: Broken pipe Appears during SSH Login
+                    href: Linux-Troubleshooting/Fault-Class/SSH-login-report-fatal-mm-request-send-write-Broken-pipe.md
+                  - name: must be owned by root and not group or word-writable Appears during SSH Login
+                    href: Linux-Troubleshooting/Fault-Class/SSH-login-reported-must-be-owned-by-root-and-not-group-or-word-writable.md
+                  - name: Permission denied, please try again Appears during SSH Login
+                    href: Linux-Troubleshooting/Fault-Class/SSH-login-time-report-Permission-denied-please-try-again.md
+                  - name: User root not allowed because not listed in Appears during SSH Login
+                    href: Linux-Troubleshooting/Fault-Class/SSH-login-time-report-User-root-not-allowed-because-not-listed-in.md
+                  - name: Following Error Occurs during SSH Connection: error Could not get shadow infromation for root
+                    href: Linux-Troubleshooting/Fault-Class/The-following-error-occurred-during-SSH-connection-error-Could-not-get-shadow-infromation-for-root.md
+                  - name: SSH 连接时出现如下错误：pam_limits(sshd：session)：could not sent limit for 'nofile'
+                    href: Linux-Troubleshooting/Fault-Class/The-following-error-occurred-during-SSH-connection-pam-limits-sshd-session-could-not-sent-limit-for-nofile.md
+                  - name: Following Error Occurs during SSH Connection: pam_unix(sshdsession) session closed for user
+                    href: Linux-Troubleshooting/Fault-Class/The-following-error-occurred-during-SSH-connection-pam-unix-sshdsession-session-closed-for-user.md
+                  - name: Following Error Occurs during SSH Login: Disconnected:No supported authentication methods available
+                    href: Linux-Troubleshooting/Fault-Class/The-following-error-occurred-during-SSH-login-Disconnected-No-supported-authentication-methods-available.md
+                  - name: Following Error Occurs during SSH Connection: pam_listfile(sshd:auth): Refused user root for service sshd
+                    href: Linux-Troubleshooting/Fault-Class/The-following-error-occurred-during-SSH-login-pam-listfile-sshd-auth-Refused-user-root-for-service-sshd.md
+                  - name: Following Error Occurs during SSH Connection: requirement "uid >= 1000" not met by user "root"
+                    href: Linux-Troubleshooting/Fault-Class/The-following-error-occurred-during-SSH-login-requirement-uid-1000-not-met-by-user-root.md
+                  - name: Following Error Occurs When SSH Service is Started: fatal: Cannot bind any address
+                    href: Linux-Troubleshooting/Fault-Class/The-following-error-occurred-when-the-SSH-service-started-fatal-Cannot-bind-any-address.md
+                  - name: Method to Automatically Restore Ubuntu System after DNS Modification and Restarting
+                    href: Linux-Troubleshooting/Fault-Class/Ubuntu-system-to-modify-the-automatic-recovery-method-after-DNS-restart.md
+              - name: Windows Operation and Maintenance Guide
+                items:
+                  - name: Windows Environment Configuration
+                    items:
+                      - name: Configure https for iis Service in Windows 2008
+                        href: Windows-Troubleshooting/Configuration-Class/Windows-2008-iis-service-configuration-https.md
+                      - name: Modify Desktop Background in Windows 2012
+                        href: Windows-Troubleshooting/Configuration-Class/Windows-2012-modify-desktop-background.md
+                      - name: Delete Server Role or Function in Windows 2012
+                        href: Windows-Troubleshooting/Configuration-Class/Windows-2012-remove-server-role-or-function.md
+                      - name: Windows Virtual Machines Adjustment and Activation Mode is KMS
+                        href: Windows-Troubleshooting/Configuration-Class/Windows-cloud-host-adjustment-activation-mode-is-KMS.md
+                      - name: Reset Winsock Configuration in Windows
+                        href: Windows-Troubleshooting/Configuration-Class/Windows-reset-winsock-configuration.md
+                      - name: Forward Audio Files to Local Computer for Play in Windows System
+                        href: Windows-Troubleshooting/Configuration-Class/Windows-system-audio-files-to-local-computer-playback.md
+                      - name: Method to View and Modify Remote Desktop Port of Windows System
+                        href: Windows-Troubleshooting/Configuration-Class/Windows-system-remote-desktop-port-viewing-and-modification-method.md
+                      - name: Set Not to Lock Screen of Windows System
+                        href: Windows-Troubleshooting/Configuration-Class/Windows-system-settings-do-not-lock-screen.md
+                      - name: Disable ECN Function in Windows 2012 System
+                        href: Windows-Troubleshooting/Configuration-Class/Windows2012-system-turns-off-ECN-function.md
+                      - name: Compatibility Mode of 360 and IE Browser Settings
+                        href: Windows-Troubleshooting/Configuration-Class/360-and-IE-browser-settings-compatibility-mode.md
+                      - name: How to cancel the display of login key combination in Windows system
+                        href: Windows-Troubleshooting/Configuration-Class/How-to-cancel-the-login-display-key-combination-in-Windows-system.md
+                      - name: Enable 500 True Error by IIS7.5
+                        href: Windows-Troubleshooting/Configuration-Class/IIS7-5-open-500-true-error.md
+                      - name: Set Log Time and Local Time Synchronous by IIS7.5
+                        href: Windows-Troubleshooting/Configuration-Class/IIS7-5-sets-the-log-time-and-local-time-synchronization.md
+                      - name: Windows 2008 Disk Partition and Formatting
+                        href: Windows-Troubleshooting/Configuration-Class/Windows-2008-disk-partitioning-and-formatting.md
+                      - name: Closed Event Tracker of Windows Virtual Machines
+                        href: Windows-Troubleshooting/Configuration-Class/Windows-Cloud-Host-Close-Event-Tracker.md
+                      - name: Windows Firewall Allows/ Forbids ping
+                        href: Windows-Troubleshooting/Configuration-Class/Windows-Firewall-allows-pings-to-be-disabled.md
+                      - name: Windows Firewall Allows/ Forbids Port Access
+                        href: Windows-Troubleshooting/Configuration-Class/Windows-Firewall-allows-port-access-to-be-disabled.md
+                      - name: Set IP to Limit Access to Windows IIS Website
+                        href: Windows-Troubleshooting/Configuration-Class/Windows-IIS-website-setting-IP-restricted-access.md
+                      - name: Windows Update Settings
+                        href: Windows-Troubleshooting/Configuration-Class/Windows-Update-update-settings.md
+                      - name: Close IE Browser Enhanced Security of Windows
+                        href: Windows-Troubleshooting/Configuration-Class/Windows-closes-IE-browser-to-enhance-security.md
+                      - name: Method to Limit Memory of Self-built SqlServer of Windows Virtual Machines
+                        href: Windows-Troubleshooting/Configuration-Class/Windows-cloud-host-self-built-SqlServer-limit-memory-method.md
+                      - name: Method to Modify DNS in Windows
+                        href: Windows-Troubleshooting/Configuration-Class/Windows-modify-DNS-method.md
+                      - name: Modify Disk Drive in Windows
+                        href: Windows-Troubleshooting/Configuration-Class/Windows-modify-disk-drive-letter.md
+                      - name: Method to Backup and Restore Registry in Windows
+                        href: Windows-Troubleshooting/Configuration-Class/Windows-registry-backup-and-restore-method.md
+                      - name: Method to Configure Port Forwarding for Windows Server
+                        href: Windows-Troubleshooting/Configuration-Class/Windows-server-configuration-port-forwarding-method.md
+                      - name: SQL Image Login Method of Windows System
+                        href: Windows-Troubleshooting/Configuration-Class/Windows-system-SQL-image-login-method.md
+                      - name: Open PDO for php in Windows System
+                        href: Windows-Troubleshooting/Configuration-Class/Windows-system-php-open-PDO.md
+                      - name: Open fsockopen Function for php in Windows System
+                        href: Windows-Troubleshooting/Configuration-Class/Windows-system-php-open-fsockopen-function.md
+                      - name: Restart Remote Desktop Service in Windows System
+                        href: Windows-Troubleshooting/Configuration-Class/Windows-system-restarts-Remote-Desktop-Service.md
+                      - name: Upload Files via Remote Desktop under Windows System
+                        href: Windows-Troubleshooting/Configuration-Class/Windows-uploads-files-via-Remote-Desktop.md
+                      - name: Windows 2008 ftp Service Installation and Configuration
+                        href: Windows-Troubleshooting/Configuration-Class/Windows2008-installation-and-configuration-ftp-service.md
+                      - name: Windows 2008 Caps System Cache
+                        href: Windows-Troubleshooting/Configuration-Class/Windows2008-limits-system-cache-limit.md
+                      - name: Enable Kernel Dump in Windows 2008
+                        href: Windows-Troubleshooting/Configuration-Class/Windows2008-opens-kernel-dump-configuration.md
+                      - name: Windows 2008 Virtual Memory Setting
+                        href: Windows-Troubleshooting/Configuration-Class/Windows2008-set-virtual-memory.md
+                      - name: Windows 2012 Disk Partition and Formatting
+                        href: Windows-Troubleshooting/Configuration-Class/Windows2012-disk-partitioning-and-formatting.md
+                      - name: Windows 2012 FTP Service Installation and Configuration
+                        href: Windows-Troubleshooting/Configuration-Class/Windows2012-installation-and-configuration-ftp-service.md
+                      - name: Windows 2012 SID Modification
+                        href: Windows-Troubleshooting/Configuration-Class/Windows2012-modify-SID.md
+                      - name: Windows 2012 Remote Desktop Set as Not Disconnected
+                        href: Windows-Troubleshooting/Configuration-Class/Windows2012-set-remote-desktop-does-not-disconnect.md
+                      - name: Windows 2012 NETFramework3.5 Installation Method
+                        href: Windows-Troubleshooting/Configuration-Class/Windows2012-system-installation-NETFramework3.5-installation-method.md
+                  - name: Windows Startup at Boot
+                    items:
+                      - name: Windows System
+                        href: Windows-Troubleshooting/Configure-boot-automatically/Windows-system.md
+                  - name: Windows Faults
+                    items:
+                      - name: Windows Port 80 Exception Processing
+                        href: Windows-Troubleshooting/Fault-Class/Handlingof-abnormal-Windows-80-port-usage.md
+                      - name: Windows Excessive Time_Wait Causes Internet Failure
+                        href: Windows-Troubleshooting/Fault-Class/Too-many-Windows-Time-Wait-failed-to-access-the-external-network.md
+                      - name: What if the VM Auto Reboots in Early Morning
+                        href: Windows-Troubleshooting/Fault-Class/What-should-I-do-if-the-cloud-host-automatically-restarts-in-the-early-morning.md
+                      - name: Windows2008 更新补丁报"8000FFFFwindows update 遇到未知错误"
+                        href: Windows-Troubleshooting/Fault-Class/Windows-2008-update-patch-reported-8000FFFF-windows-update-encountered-an-unknown-error.md
+                      - name: Error Occurs and Source Files Not Found during .NET Framework 3.5.1 Installation in Windows 2012
+                        href: Windows-Troubleshooting/Fault-Class/Windows-2012-installation-NET-Framework-3-5-1-error-can-not-find-the-source-file.md
+                      - name: Windows Failed to Refresh Server Manager
+                        href: Windows-Troubleshooting/Fault-Class/Windows-refreshes-server-manager-failed.md
+                      - name: No Login Right Prompted during Windows Remote Login
+                        href: Windows-Troubleshooting/Fault-Class/Windows-remote-login-prompts-no-login-permission.md
+                      - name: Windows Remote ID Verification Error and Requested Function Not Supported
+                        href: Windows-Troubleshooting/Fault-Class/Windows-remote-prompts-an-authentication-error-and-the-requested-function-is-not-supported.md
+                      - name: High Memery Usage by TrustedInstaller.exe in Windows System
+                        href: Windows-Troubleshooting/Fault-Class/Windows-system-TrustedInstaller-exe-takes-up-memory.md
+                      - name: Windows系统svchost.exe进程占用cpu，内存资源高的处理办法
+                        href: Windows-Troubleshooting/Fault-Class/Windows-system-svchost-exe-process-occupies-cpu-high-memory-resources.md
+                      - name: FTP Error 451 Processing Method
+                        href: Windows-Troubleshooting/Fault-Class/FTP-report-Error-code-451-processing-method.md
+                      - name: Mac System Fails to Connect Windows 2012
+                        href: Windows-Troubleshooting/Fault-Class/Mac-system-cannot-connect-to-Windows2012.md
+                      - name: Reasons for Task Manager Data Suspension in Windows
+                        href: Windows-Troubleshooting/Fault-Class/Reasons-for-Windows-Task-Manager-data-pause.md
+                      - name: Broiler Server Processing Method
+                        href: Windows-Troubleshooting/Fault-Class/Server-is-handled-by-broiler.md
+                      - name: No Authorization Prompted during Windows Remote Connection
+                        href: Windows-Troubleshooting/Fault-Class/Windows-Remote-Connection-Prompt-does-not-have-a-license.md
+                      - name: Windows Remote Desktop Credential Not Work
+                        href: Windows-Troubleshooting/Fault-Class/Windows-Telegram-credentials-do-not-work.md
+                      - name: Windows自动更新消耗cpu内存过高
+                        href: Windows-Troubleshooting/Fault-Class/Windows-automatic-update-consumes-too-much-CPU-memory.md
+                      - name: Windows High Bandwidth Usage Processing
+                        href: Windows-Troubleshooting/Fault-Class/Windows-bandwidth-consumption-is-high.md
+                      - name: Windows File Attribute without Security Tab
+                        href: Windows-Troubleshooting/Fault-Class/Windows-file-properties-do-not-have-a-security-tab.md
+                      - name: msvcr100.dll Lost Prompted during Windows Program Installation
+                        href: Windows-Troubleshooting/Fault-Class/Windows-installation-running-application-prompts-msvcr100-dll-missing.md
+                      - name: External or Offline Status of Windows System Cloud Disk
+                        href: Windows-Troubleshooting/Fault-Class/Windows-system-cloud-drive-status-external-or-offline.md
+                      - name: Windows系统cpu占用高排查
+                        href: Windows-Troubleshooting/Fault-Class/Windows-system-cpu-occupancy-high-troubleshooting.md
+                      - name: Analysis on Windows System Memory Usage
+                        href: Windows-Troubleshooting/Fault-Class/Windows-system-memory-footprint-analysis.md
+                      - name: Windows系统tasking.exe进程占用大量cpu资源
+                        href: Windows-Troubleshooting/Fault-Class/Windows-system-tasking-exe-process-occupies-a-lot-of-cpu-resources.md
+                      - name: Windows update Error 80070008 or 8007000e
+                        href: Windows-Troubleshooting/Fault-Class/Windows-update-error-80070008-or-8007000e.md
+                      - name: 0x80070422 Error Reported during Windows 2008 Server Manager Refresh
+                        href: Windows-Troubleshooting/Fault-Class/Windows2008-Server-Manager-refreshes-0x80070422-error.md
+                      - name: Method to Process Failure to Find Disk Management in Computer Management in Windows 2008
+                        href: Windows-Troubleshooting/Fault-Class/Windows2008-computer-management-can-not-find-the-way-to-manage-disk.md
+                      - name: IE Browser Cannot Be Opened in Windows 2012
+                        href: Windows-Troubleshooting/Fault-Class/Windows2012-ie-browser-can-not-open.md
+                      - name: Error Occur during .net3.5 Installation in Windows 2016
+                        href: Windows-Troubleshooting/Fault-Class/Windows2016-installation-net-5-error.md
+                  - name: API Reference
+                    href:
+                  - name: SDK Reference
+                    href:
+                  - name: FAQ
+                    href:
+                  - name: Related Resources
+                    status: 0
+                    items:

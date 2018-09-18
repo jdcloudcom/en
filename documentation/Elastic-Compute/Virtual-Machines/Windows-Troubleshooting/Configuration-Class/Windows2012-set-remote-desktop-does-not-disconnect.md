@@ -1,10 +1,10 @@
-# Windows2012 Remote Desktop Set  as Not Disconnected
+# Windows 2012 Remote Desktop Set  as Not Disconnected
 
-Select [Start] in the lower left corner
+Select **Start** in the lower left corner
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows2012%E8%AE%BE%E7%BD%AE%E8%BF%9C%E7%A8%8B%E6%A1%8C%E9%9D%A2%E4%B8%8D%E6%96%AD%E5%BC%8001.png)
 
-Select [Running].
+Select **Run**.
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows2012%E8%AE%BE%E7%BD%AE%E8%BF%9C%E7%A8%8B%E6%A1%8C%E9%9D%A2%E4%B8%8D%E6%96%AD%E5%BC%8002.png)
 
@@ -12,7 +12,7 @@ Enter *gpedit.msc*
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows2012%E8%AE%BE%E7%BD%AE%E8%BF%9C%E7%A8%8B%E6%A1%8C%E9%9D%A2%E4%B8%8D%E6%96%AD%E5%BC%8003.png)
 
-Select Computer Configuration -- Administrative Templates -- Windows Components -- Remote Desktop Services -- Remote Desktop Session Host -- Session Time Limit.
+依次选择计算机配置--管理模板--windows组件--远程桌面服务--远程桌面会话主机--会话时间限制。
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows2012%E8%AE%BE%E7%BD%AE%E8%BF%9C%E7%A8%8B%E6%A1%8C%E9%9D%A2%E4%B8%8D%E6%96%AD%E5%BC%8004.png)
 

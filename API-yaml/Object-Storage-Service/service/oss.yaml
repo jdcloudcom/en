@@ -1,4 +1,4 @@
-swagger: "2.0"                                  # Implemented based on Swagger version 2.0
+Swagger: "2.0"                                  # Implemented based on Swagger Version 2.0
 info:
   version: "v1"                                 # OpenApi version number
   title: OSS APIs
@@ -54,7 +54,7 @@ paths:
       parameters:
       - in: path
         name: bucketname
-        description: "bucket name, e.g.: test-bucket"
+        description: bucket name, e.g.: test-bucket
         required: true
         type: string
       responses:
@@ -78,7 +78,7 @@ paths:
       parameters:
       - in: path
         name: bucketname
-        description: "bucket name, e.g.: test-bucket"
+        description: bucket name, e.g.: test-bucket
         required: true
         type: string
       responses:
@@ -108,7 +108,7 @@ paths:
       parameters:
       - in: path
         name: bucketname
-        description: "bucket name, e.g.: test-bucket"
+        description: bucket name, e.g.: test-bucket
         required: true
         type: string
       responses:
@@ -132,6 +132,7 @@ paths:
       - developers
       summary: moveObject
       operationId: moveObject
+      x-jdcloud-internal: true
       description: |
         moveobject
       produces:
@@ -139,12 +140,12 @@ paths:
       parameters:
       - in: path
         name: bucketname
-        description: "bucket name, e.g.: test-bucket"
+        description: bucket name, e.g.: test-bucket
         required: true
         type: string
       - in: path
         name: objectkey
-        description: "objectkey, e.g.: test-object"
+        description: objectkey, e.g.: test-object
         required: true
         type: string
       - in: header
@@ -176,11 +177,11 @@ paths:
 #          schema:
 #            $ref: '../model/oss.yaml#/definitions/ErrorResponse'
 
-# Path general parameter
+# Path General Parameter
 parameters:
   regionId:
     name: regionId
     in: path
     required: true
     type: string
-    description: "Region ID, e.g.: cn-north-1"
+    description: Region ID, e.g.: cn-north-1

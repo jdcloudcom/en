@@ -1,7 +1,7 @@
 
 # Instructions for Use
 
-## preposition condition
+## Preposition Condition
 
 ### Authentication AccessKey and SecretKey
 
@@ -26,11 +26,11 @@ Issue date|JD Cloud CLI|JD Cloud Python SDK
 
 
 
-## structure model
+## Structure Model
 
 
 	jdc [options] <command> <sub-command> [parameters and help]
-options: Global options, including help, debug, quiet, output, etc.
+options: Global Options, including help, debug, quiet, output, etc.
 
 command: cloud product service and tool commands
 
@@ -119,7 +119,7 @@ The return result needs to be fixed with the requestId property. Successful oper
 
 Examples of return results:
 
-Success condition   
+Success   
 
 
 	{
@@ -132,7 +132,7 @@ Success condition
 
      
 
-Failure condition
+Failure
 
 
 	{
@@ -152,7 +152,7 @@ Failure condition
 
 
 
-## interactive command
+## interactive Command
 
 Two interactive commands for container products are currently supported: attach and exc-start.
 
@@ -206,7 +206,7 @@ Linux or Mac platforms are recommended.
 
 
 
-## Skeleon generation
+## Skeleon Generation
 
 Each product command has a generate-senklet subcommand to generate an input parameter framework for a suboperation, that is, an empty json string. The user can copy the complex input parameter json string to a file for storage, fill specific parameters with optional information according to the parameters identified in the OpenAPI document, and then use--input-json 'file:// xx/ x.json' to create or modify resources.
 
@@ -214,7 +214,7 @@ OpenAPI documentation: https://www.jdcloud.com/help/faq?act=3
 
 
  
-## multi-user use
+## Multi-user Use
 
 
 

@@ -1,0 +1,41 @@
+'账户管理' = 'Account Management'
+'基本资料' = 'Basic Information'
+'安全设置' = 'Security Settings'
+'实名认证' = 'Real-name Verification'
+'学生认证' = 'Student Verification'
+'联系人管理' = 'Contact Person Management'
+'AccessKey管理' = 'AccessKey Management'
+'虚拟MFA认证' = 'Virtual MFA Authentication'
+
+
+'资金管理' = 'Money Management'
+'资金账户' = 'Money Account'
+'充值' = 'recharge'
+'线下汇款单管理' = 'Offline Money Order Management'
+
+'消费管理' = 'Consumption Management'
+'消费总览' = 'Consumption Overview'
+'资源账单' = 'Resource Bill'
+'消费记录' = 'Purchase History'
+
+'订单管理' = 'Order Management'
+
+'代金券管理' = 'Coupon Management'
+
+'发票管理' = 'Invoice Management'
+'发票列表' = 'Invoice List'
+'发票信息管理' = 'Invoice Information Management'
+'邮寄地址管理' = 'Mail Address Management'
+
+'费用管理' = 'Cost Management'
+
+'消息管理' = 'Message Management'
+'我的消息' = 'My Messages'
+'消息设置' = 'Message Settings'
+
+'工单管理' = 'Ticket Management'
+'提交工单' = 'Open Ticket'
+'我的工单' = 'My Ticket'
+
+'账号管理' = 'Account Management'
+'重置密码' = 'Reset Password'

@@ -24,13 +24,13 @@ https://streamcompute.jdcloud-api.com/v1/regions/{regionId}/namespaceDetail
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**namespace**|[Namespace](##Namespace)|namespace objects queried out|
+|**namespace**|Namespace|namespace objects queried out|
 ### <a name="Namespace">Namespace</a>
 |Name|Type|Description|
 |---|---|---|

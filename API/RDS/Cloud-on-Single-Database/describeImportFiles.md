@@ -22,13 +22,13 @@ None
 ## Return parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**importFiles**|[ImportFile[]](##ImportFile)|Collection of Imported Files|
+|**importFiles**|ImportFile[]|Collection of Imported Files|
 ### <a name="ImportFile">ImportFile</a>
 |Name|Type|Description|
 |---|---|---|

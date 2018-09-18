@@ -26,13 +26,13 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/forw
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**dataList**|[ForwardRule[]](##ForwardRule)||
+|**dataList**|ForwardRule[]||
 |**totalCount**|Integer||
 ### <a name="ForwardRule">ForwardRule</a>
 |Name|Type|Description|
@@ -42,7 +42,7 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/forw
 |**id**|Integer|Rule ID|
 |**instanceId**|Integer|Instance ID|
 |**onlineAddr**|String[]|Online address|
-|**originAddr**|[OriginAddrItem[]](##OriginAddrItem)||
+|**originAddr**|OriginAddrItem[]||
 |**originDomain**|String|Back-to-origin domain name|
 |**originPort**|Integer|Back-to-origin port number|
 |**originType**|String|Back-to-origin type, ip or domain|

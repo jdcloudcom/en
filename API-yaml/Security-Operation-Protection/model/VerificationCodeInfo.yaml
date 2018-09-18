@@ -8,7 +8,7 @@ definitions:
     properties:
       action:
         type: string
-        description: "Action action serviceName:actionName"
+        description: Operate action serviceName:actionName
       type:
         type: integer
-        description: "dcd verification methods: mobile-1  email-2"
+        description: Dcd Verification Methods: Mobile-1  Email-2

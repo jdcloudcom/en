@@ -18,7 +18,7 @@ https://baseanti.jdcloud-api.com/v1/regions/{regionId}/ipResources/{ip}:setClean
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**cleanThresholdSpec**|[CleanThresholdSpec](##CleanThresholdSpec)|True||cc parameter|
+|**cleanThresholdSpec**|CleanThresholdSpec|True||cc parameter|
 
 ### <a name="CleanThresholdSpec">CleanThresholdSpec</a>
 |Name|Type|Required or not|Default value|Description|

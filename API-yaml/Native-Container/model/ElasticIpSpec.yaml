@@ -10,10 +10,10 @@ definitions:
     properties:
       bandwidthMbps:
         type: integer
-        description: "Elastic IP speed limit unit: MB"
+        description: Elastic IP Speed Limit   Unit: MB  
       provider:
         type: string    
-        description: "IP service provider, value: bgp or no_bg"
+        description: IP Service Provider, value: bgp or no_bg    
       chargeSpec:
         $ref: "../../charge/model/ChargeSpec.yaml#/definitions/chargeSpec"
-        description: Billing configuration 
+        description: Billing Configuration 

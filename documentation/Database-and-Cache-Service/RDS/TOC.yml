@@ -4,74 +4,75 @@
   - name: Introduction
     items:
       - name: Product Overview
-        herf: Introduction/Product-Overview.md
+        href: Introduction/Product-Overview.md
       - name: Core Concepts
-        herf: Introduction/Core-Concepts.md
+        href: Introduction/Core-Concepts.md
       - name: Basic Infrastructure
-        herf: Introduction/Basic-Infrastructure.md
+        href: Introduction/Basic-Infrastructure.md
       - name: Benefits
-        herf: Introduction/Benefits.md
-      - name: Features
-        herf: Introduction/Features.md
-        status: 0
+        href: Introduction/Benefits.md
       - name: Specifications
-        herf: Introduction/Specifications.md
+        href: Introduction/Specifications.md
       - name: Restrictions
         items:
         - name: MySQL Restrictions
-          herf: Introduction/Restrictions/MySQL-Restrictions.md
+          href: Introduction/Restrictions/MySQL-Restrictions.md
         - name: Percona Restrictions
-          herf: Introduction/Restrictions/Percona-Restrictions.md
+          href: Introduction/Restrictions/Percona-Restrictions.md
         - name: SQL Server Restrictions
-          herf: Introduction/Restrictions/SQLServer-Restrictions.md
-      - name: Application Scenario
-        herf: Introduction/Application-Scenarios.md
+          href: Introduction/Restrictions/SQLServer-Restrictions.md
+      - name: Application Scenarios
+        href: Introduction/Application-Scenarios.md
   - name: Pricing
     items:
       - name: Billing Overview
-        herf: Pricing/Billing-Overview.md
+        href: Pricing/Billing-Overview.md
       - name: Billing Rules
-        herf: Pricing/Billing-Rules.md
+        href: Pricing/Billing-Rules.md
       - name: Price Overview
-        herf: Pricing/Price-Overview.md
+        href: Pricing/Price-Overview.md
       - name: Purchase Process
-        herf: Pricing/Purchase-Process.md
-      - name: Renewal Process
-        herf: Pricing/Renewal-Process.md      
+        href: Pricing/Purchase-Procedure.md
+      - name: Renew Process
+        href: Pricing/Renewal-Procedure.md
+        
   - name: Getting Started
     items:
       - name: Create Instance
-        herf: Getting-Started/Create-RDS-Instance.md
+        href: Getting-Started/Create-RDS-Instance.md
       - name: Delete Instance
-        herf: Getting-Started/Delete-RDS-Instance.md
+        href: Getting-Started/Delete-RDS-Instance.md
+  
   - name: Operation Guide
     items:
       - name: Instance Management
         items:
           - name: Create Instance
-            herf: Operation-Guide/Instance/Create-Instance.md
+            href: Operation-Guide/Instance/Create-Instance.md
           - name: View Instance
-            herf: Operation-Guide/Instance/View-Instance.md
+            href: Operation-Guide/Instance/View-Instance.md
           - name: Delete Instance
-            herf: Operation-Guide/Instance/Delete-Instance.md
+            href: Operation-Guide/Instance/Delete-Instance.md
           - name: Enable Internet Access
-            herf: Operation-Guide/Instance/Internet-Access.md
+            href: Operation-Guide/Instance/Internet-Access.md
           - name:  Failover Instance
-            herf: Operation-Guide/Instance/Failover-Instance.md
+            href: Operation-Guide/Instance/Failover-Instance.md
           - name: Reboot Instance
             items:
             - name: Reboot MySQL
-              herf: Operation-Guide/Instance/Reboot-Instance/Reboot-MySQL-Instance.md
+              href: Operation-Guide/Instance/Reboot-Instance/MySQL-Restart-Instance.md
             - name: Reboot Percona
-              herf: Operation-Guide/Instance/Reboot-Instance/Reboot-Percona-Instance.md
+              href: Operation-Guide/Instance/Reboot-Instance/Percona-Restart-Instance.md
             - name: Reboot SQL Server
-              herf: Operation-Guide/Instance/Reboot-Instance/Reboot-Instance-SQLServer.md
+              href: Operation-Guide/Instance/Reboot-Instance/SQLServer-Restart-Instance.md
+  
       - name: Read-only Instance Management
         items:
         - name: Create Read-only Instance
-          herf: Operation-Guide/Read-only-Instance-Management/Create-Read-only Instance.md
+          herf: Operation-Guide/Readonly-Instance-Management/Create-Readonly-Instance.md
         - name: Reboot Read-only Instance
-          herf: Operation-Guide/Read-only-Instance-Management/Alarm-Rules-Setting.md  
+          herf: Operation-Guide/Readonly-Instance-Management/Restart-Readonly-Instance.md
+  
       - name: Account Management
         items:
           - name: Create Account
@@ -81,116 +82,117 @@
           - name: Reset Password
             herf: Operation-Guide/Account/Reset-Password.md
           - name: Delete Account
-            herf: Operation-Guide/Account/Delete-Account.md  
+            herf: Operation-Guide/Account/Delete-Account.md
+  
       - name: Database Management
         items:
           - name: Create Database
-            herf: Operation-Guide/Database-Management/Create-Database.md
+            href: Operation-Guide/Database-Management/Create-Database.md
           - name: Delete Database
-            herf: Operation-Guide/Database-Management/Delete-Database.md
+            href: Operation-Guide/Database-Management/Delete-Database.md
   
       - name: Backup Management
         items:
           - name: Create Backup
             items:
             - name: MySQL Create Backup
-              herf: Operation-Guide/Backup/Create-Backup/Create-MySQL-Backup.md
+              href: Operation-Guide/Backup/Create-Backup/MySQL-Create-Backup.md
             - name: Percona Create Backup
-              herf: Operation-Guide/Backup/Create-Backup/Create-Percona-Backup.md
+              href: Operation-Guide/Backup/Create-Backup/Percona-Create-Backup.md
             - name: Create SQL Server Backup
-              herf: Operation-Guide/Backup/Create-Backup/Create-Backup-SQLServer.md
+              href: Operation-Guide/Backup/Create-Backup/SQLServer-Create-Backup.md
           - name: Backup Strategy
             items:
             - name: MySQL Backup Strategy
-              herf: Operation-Guide/Backup/Backup-Strategy/MySQL-Backup-Strategy.md
+              href: Operation-Guide/Backup/Backup-Policy/MySQL-Backup-Policy.md
             - name: Percona Backup Strategy
-              herf: Operation-Guide/Backup/Backup-Strategy/Percona-Backup-Strategy.md
+              href: Operation-Guide/Backup/Backup-Policy/Percona-Backup-Policy.md
             - name: SQL Server Backup Strategy
-              herf: Operation-Guide/Backup/Backup Strategy/Backup-Strategy-SQLServer.md
+              href: Operation-Guide/Backup/Backup-Policy/SQLServer-Backup-Policy.md
           - name: Backup Download
             items:
             - name: MySQL Backup Download
-              herf: Operation-Guide/Backup/Backup-Download/MySQL-Backup-Download.md
+              href: Operation-Guide/Backup/Backup-Download/MySQL-Backup-Download.md
             - name: Percona Backup Download
-              herf: Operation-Guide/Backup/Backup-Download/Percona-Backup-Download.md
+              href: Operation-Guide/Backup/Backup-Download/Percona-Backup-Download.md
             - name: SQL Server Backup Download
-              herf: Operation-Guide/Backup/Backup-Download/Download-Backup-SQLServer.md
+              href: Operation-Guide/Backup/Backup-Download/SQLServer-Backup-Download.md
             - name: Backup Replace and Recovery
               items:
               - name: MySQL Backup Recovery
-                herf: Operation-Guide/Backup/Restore-Instance/MySQL-Backup-Recovery.md
+                href: Operation-Guide/Backup/Restore-Instance/MySQL-Backup-Restore.md
               - name: Percona Backup Recovery
-                herf: Operation-Guide/Backup/Restore-Instance/Percona-Backup Recovery.md
+                href: Operation-Guide/Backup/Restore-Instance/Percona-Backup-Restore.md
               - name: SQL Server Backup Recovery
-                herf: Operation-Guide/Backup/Restore-Instance/Restore-Instance-SQLServer.md
+                herf: Operation-Guide/Backup/Restore-Instance/SQLServer-Backup-Restore.md
           - name: Delete Backup
-            herf: Operation-Guide/Backup/Delete-Backup.md
+            href: Operation-Guide/Backup/Delete-Backup.md
             
       - name: Binlog Management
         items:
         - name: File Management
-          herf: Operation-Guide/Binlog Management/File-Management.md
+          href: Operation-Guide/Binlog-Management/Binlog-File-Management.md
         - name: File Download
-          herf: Operation-Guide/Binlog Management/File-Download.md
+          href: Operation-Guide/Binlog-Management/Binlog-File-Download.md
   
         - name: Security Management
           items:
-          - name: Set Whitelist
-            herf: Operation-Guide/Security/Set-Whitelist.md
+          - name: Set White List
+            href: Operation-Guide/Security/Set-Whitelist.md
        
       - name: Cloud on Single Database
         items:
         - name: Introduction to Cloud on Single Database
-          herf: Operation-Guide/Data-To-Cloud/Data-To-Cloud-Introduction.md
+          href: Operation-Guide/Data-To-Cloud/Data-To-Cloud-Introduction.md
         - name: Step 1 Backup Local Database
-          herf: Operation-Guide/Data-To-Cloud/Backup-Local-Database.md
+          href: Operation-Guide/Data-To-Cloud/Backup-Local-Database.md
         - name: Step 2 Upload Backup
-          herf: Operation-Guide/Data-To-Cloud/Upload-Backup.md
+          href: Operation-Guide/Data-To-Cloud/Upload-Backup.md
         - name: Step 3 Backup Import
-          herf: Operation-Guide/Data-To-Cloud/Import-Backup.md
+          href: Operation-Guide/Data-To-Cloud/Import-Backup.md
         - name: Delete Uploaded File
-          herf: Operation-Guide/Data-To-Cloud/Delete-Import.md
+          href: Operation-Guide/Data-To-Cloud/Delete-Import.md
 
-      - name: Parameter Set
+      - name: Parameter Set 
         items:
-        - name: Create Parameter Set
-          herf: Operation-Guide/Parameter-Set/Create-a-Parameter-Set.md
-        - name: Modify Parameter Set
-          herf: Operation-Guide/Parameter-Set/Modify-Parameter-Set.md
-        - name: Copy Parameter Set
-          herf: Operation-Guide/Parameter-Set/Copy-Parameter-Set.md
-        - name: Delete Parameter Set
-          herf: Operation-Guide/Parameter-Set/Delete-Parameter-Set.md
+         - name: Create Parameter Set
+           href: Operation-Guide/Parameter-Group/Creat-Parameter-Group.md
+         - name: Modify Parameter Set
+           href: Operation-Guide/Parameter-Group/Modify-Parameter-Group.md
+         - name: Copy Parameter Set
+           href: Operation-Guide/Parameter-Group/Copy-Parameter-Group.md
+         - name: Delete Parameter Set
+           href: Operation-Guide/Parameter-Group/Delete-Parameter-Group.md
           
       - name: Audit
         items:
         - name: MySQL Audit Service
-          herf: Operation-Guide/Audit/MySQL-Audit-Service.md
+          href: Operation-Guide/Audit/MySQL-Audit-Service.md
         - name: Percona Audit Service
-          herf: Operation-Guide/Audit/Percona-Operation-Guide/Audit/Percona-Audit-Service.md
+          href: Operation-Guide/Audit/Percona-Audit-Service.md
         - name: SQL Server Audit Service
           items:
           - name: Introduction to SQL Server Audit
-            herf: Operation-Guide/Audit/SQL-Server-Audit/Audit-Introduction.md
+            href: Operation-Guide/Audit/SQL-Server-Audit/Audit-Introduction.md
           - name: Open Audit
-            herf: Operation-Guide/Audit/SQL-Server-Audit/Enable-Audit.md
+            href: Operation-Guide/Audit/SQL-Server-Audit/Enable-Audit.md
           - name: Edit Audit
-            herf: Operation-Guide/Audit/SQL-Server-Audit/Edit-Audit.md
+            href: Operation-Guide/Audit/SQL-Server-Audit/Edit-Audit.md
           - name: Close Audit
-            herf: Operation-Guide/Audit/SQL-Server-Audit/Disable-Audit.md  
+            href: Operation-Guide/Audit/SQL-Server-Audit/Disable-Audit.md  
           - name: Download Audit Results
-            herf: Operation-Guide/Audit/SQL-Server-Audit/Dowload-Audit.md
+            href: Operation-Guide/Audit/SQL-Server-Audit/Dowload-Audit.md
           - name: View Audit Results
-            herf: Operation-Guide/Audit/SQL-Server-Audit/View-Audit-Result.md    
+            href: Operation-Guide/Audit/SQL-Server-Audit/View-Audit-Result.md    
  
       - name: Performance Statistics & Analysis
         items:
         - name: Introduction to Performance Statistics & Analysis
-          herf: Operation-Guide/Performance/Performance-Statistics-Introduction.md
+          href: Operation-Guide/Performance/Performance-Statistics-Introduction.md
         - name: SQL Performance Statistics
-          herf: Operation-Guide/Performance/SQL-Performance.md
+          href: Operation-Guide/Performance/SQL-Performance.md
         - name:  Index Performance Optimization
-          herf: Operation-Guide/Performance/Index-Performance.md
+          href: Operation-Guide/Performance/Index-Performance.md
 
       - name: Resource Tag
         items:
@@ -206,91 +208,89 @@
       - name: Monitoring Alarm
         items:
         - name: View Monitoring Information
-          herf: Operation-Guide/Monitoring-Alarm/View-Monitoring-Information.md          
+          href: Operation-Guide/Monitor-Alarm/View-Monitor-Information.md          
         - name: Set Alarm Rules
-          herf: Operation-Guide/Monitoring-Alarm/Alarm-Rules-Setting.md      
+          href: Operation-Guide/Monitor-Alarm/Set-Alarm-Rules.md
           
                       
       - name: Cross-Region Backup Synchronization
         items:
         - name: New Backup Synchronization Service
-          herf: Operation-Guide/Cross-Region-Synchronization-Service/New-Cross-Region Synchronization Service.md
-        - name: Create an Instance based on the Backup
-          herf: Operation-Guide/Cross-Region-Synchronization-Service/Create-a-New-Instance-Based-on-Backup-Data.md
+          href: Operation-Guide/Cross-Region-Synchronization-Service/Create-Cross-Region-Synchronization-Service.md
+        - name: Create an Instance Based on the Backup
+          href: Operation-Guide/Cross-Region-Synchronization-Service/Create-Instance-Based-On-Backup.md
         - name: Delete Backup Synchronization Service
-          herf: Operation-Guide/Cross-Region-Synchronization-Service/Delete-Cross-Region-Backup-Service.md          
+          href: Operation-Guide/Cross-Region-Synchronization-Service/Delete-Cross-Region-Synchronization-Service.md
            
       - name: Log Management
-        herf: Operation-Guide/Log-Management.md   
+        href: Operation-Guide/Log-Management.md   
       - name: Access Mode Setting
-        herf: Operation-Guide/Access-Mode-Setting.md     
+        href: Operation-Guide/Set-Access-Mode.md     
             
   - name: Best Practices
     items:
     - name: Data Transferring
       items:
       - name: From MySQL to Percona
-        herf: Best-Practices/Data-Transferring/From-MySQL-Service-to-Percona-Service.md
+        href: Best-Practices/Data-Migration/Migrate-From-MySQL-Database-to-Percona-Database.md
       - name: Import MySQL
         items:
         - name: Import from Local MySQL
-          herf: Best-Practices/Data-Transferring/Import-Data-to-MySQL-Service-Instance/Transfer-from-Local-MySQL-to-MySQL-Service.md
+          href: Best-Practices/Data-Migration/Import-Data-Into-MySQL-Database-Instance/Migrate-From-Local-MySQL-Database-to-JDCloud-MySQL-Database-Instance.md
         - name: Import from VM MySQL
-          herf: Best-Practices/Data-Transferring/Import Data-to-MySQL-Service-Instance/Import-from-VM-MySQL-to-MySQL-Service.md
+          href: Best-Practices/Data-Migration/Import-Data-Into-MySQL-Database-Instance/Migrate-From-JDCloud-VM-MySQL-Database-to-JDCloud-MySQL-Database-Instance.md
       - name: Import Percona
         items:
         - name: Import from Local Percona
-          herf: Best-Practices/Data-Transferring/Import-Data-to-Percona-Service-Instance/Transfer-from-Local-Percona-to-Percona-Service.md
+          href: Best-Practices/Data-Migration/Import-Data-Into-Percona-Database-Instance/Migrate-From-Local-Percona-Database-to-JDCloud-Percona-Database-Instance.md
         - name: Import from VM Percona
-          herf: Best-Practices/Data-Transferring/Import-Data-to-Percona-Service-Instance/Transfer-from-VM-Percona-to-Percona-Service.md
+          href: Best-Practices/Data-Migration/Import-Data-Into-Percona-Database-Instance/Migrate-From-JDCloud-VM-Percona-Database-to-JDCloud-Percona-Database-Instance.md
     - name: Restore Backup Files to the Self-built Database
       items:
       - name: Restore Backup Files to the Self-built MySQL
-        herf: Best-Practices/Restore-Backup-Files-to-the-Self-built-Database/Restore-Backup-Files-to-the-Self-built-MySQL.md
+        href: Best-Practices/Restore-Backup-To-Self-Built-Database/Restore-Backup-To-Self-Built-MySQL-Database.md
       - name: Restore the Backup Files to the Self-built Percona
-        herf: Best-Practices/Restore-Backup-Files-to-the-Self-built-Database/Restore-Backup-Files-to-the-Self-built-Percona.md
+        href: Best-Practices/Restore-Backup-To-Self-Built-Percona-Database.md
     - name: Connect to Database Instance
       items:
       - name: Connect Instance
-        herf: Best-Practices/Connect-to-Database-Instance/Connect-to-Instance.md     
+        href: Best-Practices/Connect-Database-Instance/Connect-Instance.md  
       - name: Connect SQL Server from Client
-        herf: Best-Practices/Connect-to-Database-Instance/Client-Connect-SQLServer.md
+        href: Best-Practices/Connect-Database-Instance/Client-Connect-SQLServer.md
       - name: Connect SQL Server from Virtual Machine
-        herf: Best-Practices/Connect-to-Database-Instance/Host-Connect-SQLServer.md
+        href: Best-Practices/Connect-Database-Instance/Host-Connect-SQLServer.md
   
   - name: FAQ
     items:
     - name: FAQ
-      herf: FAQ/FAQ.md
+      href: FAQ/FAQ.md
     - name: Storage Engine 
-      herf: FAQ/Storage-Engine.md
+      href: FAQ/Storage-Engine.md
     - name: Storage Space
-      herf: FAQ/Storage-Space.md
+      href: FAQ/Storage-Space.md
 
   - name: Troubleshooting
     items:
     - name: Memory Usage Rate
-      herf: Troubleshooting/Memory-Usage-Rate.md
+      href: Troubleshooting/Memory-Use-Rate.md
           
-  - name: API reference
-    herf:
-    status: 0
-  - name: SDK reference
-    herf:
-    status: 0
+  - name: API Reference
+    href:
+  - name: SDK Reference
+    href:
   - name: Related Resources
     items:
     - name: Document History
-      herf: Related-Resources/Document-History.md
+      href: Related-Resources/Document-History.md
     - name: Terms of Service
-      herf: Related-Resources/Service-Terms.md
+      href: Related-Resources/Service-Terms.md
       status: 0
     - name: SLA
-      herf: Related-Resources/SLA.md
+      href: Related-Resources/SLA.md
       status: 0
     - name: Filing
-      herf: Related-Resources/Filing.md
+      href: Related-Resources/Filing.md
       status: 0
     - name: Glossary
-      herf: Related-Resources/Glossary.md
+      href: Related-Resources/Glossary.md
       status: 0

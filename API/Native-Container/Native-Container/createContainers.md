@@ -70,7 +70,7 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/containers
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**containerSpec**|[ContainerSpec](##ContainerSpec)|False||Create container specification|
+|**containerSpec**|ContainerSpec|False||Create container specification|
 |**maxCount**|Integer|False||Purchase number of instances; value range: [1,100]|
 
 ### <a name="ContainerSpec">ContainerSpec</a>
@@ -78,20 +78,20 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/containers
 |---|---|---|---|---|
 |**args**|String[]|False||The container will carry out the parameter of the command. It is CMD of docker image by default if none is specified.|
 |**az**|String|True||Availability zone of container|
-|**charge**|[ChargeSpec](##ChargeSpec)|False||Billing configuration; if no specification is made, the billing type is Pay-As-You-Go - Pay as the service time by default|
+|**charge**|ChargeSpec|False||Billing configuration; if no specification is made, the billing type is Pay-As-You-Go - Pay as the service time by default|
 |**command**|String[]|False||The container will carry out the command. It is ENTRYPOINT of docker image by default if none is specified.|
-|**dataVolumes**|[VolumeMountSpec[]](##VolumeMountSpec)|False||Mounted data Volume information; at most 7|
+|**dataVolumes**|VolumeMountSpec[]|False||Mounted data Volume information; at most 7|
 |**description**|String|False||Container description|
-|**elasticIp**|[ElasticIpSpec](##ElasticIpSpec)|False||Elastic IP specification related to primary IP of primary network interface|
-|**envs**|[EnvVar[]](##EnvVar)|False||Environment variables executed by containers; if the environmental variable Key is the same in the image, values in the image will be replaced; </br> 10 pairs at most|
-|**hostAliases**|[HostAlias[]](##HostAlias)|False||Domain and IP mapping information; </br> at most 10 alias|
+|**elasticIp**|ElasticIpSpec|False||Elastic IP specification related to primary IP of primary network interface|
+|**envs**|EnvVar[]|False||Environment variables executed by containers; if the environmental variable Key is the same in the image, values in the image will be replaced; </br> 10 pairs at most|
+|**hostAliases**|HostAlias[]|False||Domain and IP mapping information; </br> at most 10 alias|
 |**hostname**|String|False||For machine name and specification, please refer to the instruction document; default container ID|
 |**image**|String|False||Image name </br> 1. Docker Hub public image is specified via names as nginx, mysql/mysql-server </br> </br> repository contains at most 256 characters, tag contains at most 128 characters, and registry contains as most 255 characters </br> the image download overtime is 10min|
 |**instanceType**|String|True||Instance type family; refer to [Document](https://www.jdcloud.com/help/detail/1992/isCatalog/1)|
-|**logConfiguration**|[LogConfiguration](##LogConfiguration)|False||Container log configuration information; 10MB storage space will be assigned to the local by default|
+|**logConfiguration**|LogConfiguration|False||Container log configuration information; 10MB storage space will be assigned to the local by default|
 |**name**|String|True||Container name|
-|**primaryNetworkInterface**|[ContainerNetworkInterfaceAttachmentSpec](##ContainerNetworkInterfaceAttachmentSpec)|True||Primary network interface configuration information|
-|**rootVolume**|[VolumeMountSpec](##VolumeMountSpec)|True||Root Volume information|
+|**primaryNetworkInterface**|ContainerNetworkInterfaceAttachmentSpec|True||Primary network interface configuration information|
+|**rootVolume**|VolumeMountSpec|True||Root Volume information|
 |**secret**|String|False||Name cited by secrete; secret is not required when using images of Docker Hub and JD Cloud CR|
 |**tty**|Boolean|False||If a container is assigned with tty. It is not assigned by default|
 |**workingDir**|String|False||Container’s working catalog. If not specified, it is root catalog (/) by default; and the working catalog must be the absolute path.|
@@ -107,7 +107,7 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/containers
 |**autoDelete**|Boolean|False||Automatic deletion, the volume is automatically deleted at the time the container is deleted; the value is True by default; and only the scenario of cloud disk service is supported.|
 |**category**|String|True||Disk classification cloud: According to cloud disk service volume, root volume can only be the cloud type. |
 |**cloudDiskId**|String|False||Cloud disk service ID; if the existing cloud disk is used, be sure to specify partion and fsType.|
-|**cloudDiskSpec**|[DiskSpec](##DiskSpec)|False||Cloud disk service specification; the cloud disk service automatically created with the container will not divide the disk and will only format the file system.|
+|**cloudDiskSpec**|DiskSpec|False||Cloud disk service specification; the cloud disk service automatically created with the container will not divide the disk and will only format the file system.|
 |**formatVolume**|Boolean|False||A new disk automatically created with the container will be automatically formatted to the specified file system type; the existing disk mounted will not be formatted by default and only will be mounted as per specified fsType; and if you intend to format the mounted disk, be sure to set the field as true.|
 |**fsType**|String|False||Specify volume file system type and support [xfs, ext4] now; if the file system type is not specified for the newly-created disk, such disk will be formatted to xfs by default.|
 |**mountPath**|String|False||Catalog mounted into the container; it is not required to specify catalog for the root volume and the mounted catalog is (/); a catalog must be specified for the data volume, which must be the absolute path without any (:).|
@@ -116,7 +116,7 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/containers
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**az**|String|True||Availability zone, to which the cloud disk service belongs|
-|**charge**|[ChargeSpec](##ChargeSpec)|False||Billing configuration. If not specified, the default billing type is pay-as-you-go - pay by service time by default.|
+|**charge**|ChargeSpec|False||Billing configuration. If not specified, the default billing type is pay-as-you-go - pay by service time by default.|
 |**description**|String|False||Description of the cloud disk service|
 |**diskSizeGB**|Integer|True||Size of the cloud disk service, in GiB; ssd value range of [20,1000]GB and step size of 10G; premium-hdd value range of [20,3000]GB and step size of 10G|
 |**diskType**|String|True||Type of the cloud disk service, value ssd or premium-hdd|
@@ -127,7 +127,7 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/containers
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**bandwidthMbps**|Integer|False||Elastic IP speed limit unit: MB|
-|**chargeSpec**|[ChargeSpec](##ChargeSpec)|False||Billing configuration|
+|**chargeSpec**|ChargeSpec|False||Billing configuration|
 |**provider**|String|False||IP service provider, value: bgp or no_bg|
 ### <a name="EnvVar">EnvVar</a>
 |Name|Type|Required or not|Default value|Description|
@@ -143,7 +143,7 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/containers
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**logDriver**|String|False||Name log configuration information; a 10MB storage space will be assigned to the local by default and is automatically rotated.|
-|**options**|[LogOption](##LogOption)|False||Configuration options of log Driver|
+|**options**|LogOption|False||Configuration options of log Driver|
 ### <a name="LogOption">LogOption</a>
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
@@ -154,7 +154,7 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/containers
 |---|---|---|---|---|
 |**autoDelete**|Boolean|False||Indicate if the network interface is deleted when deleting the container, it is True by default; only True is supported now|
 |**deviceIndex**|Integer|False||Device Index|
-|**networkInterface**|[NetworkInterfaceSpec](##NetworkInterfaceSpec)|True||Network interface specification|
+|**networkInterface**|NetworkInterfaceSpec|True||Network interface specification|
 ### <a name="NetworkInterfaceSpec">NetworkInterfaceSpec</a>
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
@@ -171,7 +171,7 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/containers
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>

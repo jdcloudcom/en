@@ -16,7 +16,7 @@ definitions:
         description: 实例规格代码，参见<a href="https://www.jdcloud.com/help/detail/411/isCatalog/1">实例规格代码</a>
       cacheInstanceMemoryMB:
         type: integer
-        description: Capacity, in MB
+        description: Capacity, Unit: MB
       cacheInstanceStatus:
         type: string
         description: "Instance status, running: running, error: error, creating: pending, changing: changing, deleting: deleting"
@@ -38,7 +38,7 @@ definitions:
         description: ID of Subnet
       connectionDomain:
         type: string
-        description: Access to the domain name
+        description: Access to the Domain Name
       port:
         type: integer
         description: Port

@@ -23,13 +23,13 @@ None
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**alarm**|[Alarm](##Alarm)||
+|**alarm**|Alarm||
 ### <a name="Alarm">Alarm</a>
 |Name|Type|Description|
 |---|---|---|

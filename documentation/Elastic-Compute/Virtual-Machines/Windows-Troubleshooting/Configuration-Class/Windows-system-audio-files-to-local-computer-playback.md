@@ -8,7 +8,7 @@ If a red cross is shown on the sound in the lower right corner after the windows
 **Solution:**
 
 The remote sound can be played on the local computer by setting the local computer remote desktop tool.
-Please adjust the following settings in the virtual machine first;
+Please adjust the following settings in the Virtual Machines first;
 
 **windows 2008 System:**
 
@@ -51,7 +51,7 @@ Open the local remote desktop software, click on Options - Local Resources, sele
 
 **Local Computer Windows 7 System:**
 
-Open the local remote desktop software, click "Options" - "Local Resources", click "Settings" at the remote sound, select "Play in This Computer" at the remote audio play area of the pop-up tab and click OK;
+Open the local remote desktop software, click **Options** - **Local Resources**, click **Settings** at the remote sound, select **Play in This Computer** at the remote audio play area of the pop-up tab and click **OK**;
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows%E7%B3%BB%E7%BB%9F%E9%9F%B3%E9%A2%91%E6%96%87%E4%BB%B6%E8%BD%AC%E6%9C%AC%E5%9C%B0%E7%94%B5%E8%84%91%E6%92%AD%E6%94%BE10.png)
 

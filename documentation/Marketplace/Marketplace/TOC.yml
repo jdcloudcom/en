@@ -1,73 +1,81 @@
-- name: Cloud Marketplace
-  items:
-  - name: Service provider
+- name: Marketplace
+items:
+  - name: Service Provider
     items:
-      - name: Move-in of the service provider
+      - name: Move-in of Service Provider
         items:
-        - name: introduction to the cloud marketplace
-          herf: ISV-Enter/MarketPlace-Introduction.md
-        - name: Introduction to move-in conditions and categories
-          herf: ISV-Enter/Enter-condition.md
-        - name: Move-in process
-          herf: ISV-Enter/Enter-Flow.md
-        - name: Move-in agreement
-          herf: ISV-Enter/Enter-Agreement.md
-        - name: Management specification
-          herf: ISV-Enter/Management-Practices.md
-        - name: Specification for market campaign and cooperation
-          herf: ISV-Enter/Norms-Of-Cooperation.md
-      - name: Management backend
+        - name: Introduction to Marketplace
+          herf: ISV/ISV-Enter/MarketPlace-Introduction.md
+        - name: Introduction to Move-in Conditions and Categories
+          herf: ISV/ISV-Enter/Enter-condition.md
+        - name: Move-in Process
+          herf: ISV/ISV-Enter/Enter-Flow.md
+        - name: Move-in Agreement
+          herf: ISV/ISV-Enter/Enter-Agreement.md
+        - name: Management Specification
+          herf: ISV/ISV-Enter/Management-Practices.md
+        - name: Specification for Market Campaign and Cooperation
+          herf: ISV/ISV-Enter/Norms-Of-Cooperation.md
+      - name: Management Backend
         items:
-        - name: Modifying the service price
+        - name: Modifying Service Price
           herf: Management-Backstage/Revise-The-Price.md
-        - name: Introduction to image products to be released
+        - name: Introduction to Image Products Release
           herf: Management-Backstage/Image-Release.md
-        - name: Introduction to software products to be released
+        - name: Introduction to Software Products Release
           herf: Management-Backstage/Software-Release.md
-        - name: Introduction to downloading type products released
+        - name: Introduction to Downloading Type Products Release
           herf: Management-Backstage/Download-Release.md
-        - name: Introduction to offline service commodities
+        - name: Introduction to Offline Service Commodities
           herf: Management-Backstage/Offline-Service-Release.md
-        - name: Select the type of products to be released (delivery method)
+        - name: Select the Type of Products To Be Released (Delivery Method)
           herf: Management-Backstage/Delivery-Method.md
-        - name: Service provider settlement
+        - name: Service Provider Settlement
           herf: Management-Backstage/ISV-Balance.md
-      - name: Product access
+      - name: Product Access
         items:
-        - name: Third-party image security specification
+        - name: Third-party Image Security Specification
           herf: Product-Enter/Image-Safe-Standard.md
-        - name: Third-party image creation specification
+        - name: Third-party Image Creation Specification
           herf: Product-Enter/Image-Make-Standard.md
-        - name: JD Cloud marketplace active notification generation method help document
+        - name: Help Documentation on Generation Method of JD Cloud Marketplace Active Notification
           herf: Product-Enter/Notify-Interface-Standard.md
-  - name: service related
+  - name: Service-related
     items:
-        - name: Subscription agreement
-          herf: Service-Related/Subscription-Agreement.md
-        - name: Request for invoices
-          herf: Service-Related/Invoice.md
-        - name: Image help documentation
-          herf: Service-Related/Image-Help.md
-        - name: Website building help document
-          herf: Service-Related/Website-Help.md
-        - name: Guide for service provider adding Dongdong
-          herf: Service-Related/IM-Operation-Manual.md
-        - name: SMS service
-          items:
-          - name: JD Cloud SMS advantages
-            herf: Messaging-Service/Message-Advantage.md
-          - name: SMS service FAQ
-            herf: Messaging-Service/Message-FAQ.md
-          - name: Sending process
-            herf: Messaging-Service/Message-Send.md
-          - name: SMS pricing method
-            herf: Messaging-Service/Message-Charging.md
-          - name: Signature review rule
-            herf: Messaging-Service/Sign-Rule.md
-          - name: Template review rule
-            herf: Messaging-Service/Templet-Rule.md
-  - name: Contact us
+      - name: Subscription Agreement
+        herf: Service-Related/Subscription-Agreement.md
+      - name: Request for Invoices
+        herf: Service-Related/Invoice.md
+      - name: Image Help Documentation
+        herf: Service-Related/Image-Help.md
+      - name: Website Building Help Documentation
+        herf: Service-Related/Website-Help.md
+      - name: 京东云PLUS企业云盘帮助文档
+        herf: Service-Related/PLUS-Enterprise-Cloud-Box-Document.md
+      - name: 京东云PLUS企业邮箱帮助文档
+        herf: Service-Related/PLUS-Enterprise-Email-Document.md
+      - name: 京东云PLUS云会议帮助文档
+        herf: Service-Related/PLUS-Meeting-Document.md
+      - name: 京东云PLUS智能短信帮助文档
+        herf: Service-Related/PLUS-Smart-SMS-Document.md 
+      - name: Guide for Service Provider Adding Dongdong
+        herf: Service-Related/IM-Operation-Manual.md
+      - name: SMS Service
+        items:
+        - name: JD Cloud SMS Advantages
+          herf: Messaging-Service/Message-Advantage.md
+        - name: SMS Service FAQ
+          herf: Messaging-Service/Message-FAQ.md
+        - name: Sending Process
+          herf: Messaging-Service/Message-Send.md
+        - name: SMS Pricing Method
+          herf: Messaging-Service/Message-Charging.md
+        - name: Signature Review Rule
+          herf: Messaging-Service/Sign-Rule.md
+        - name: Template Review Rule
+          herf: Messaging-Service/Templet-Rule.md
+  - name: Contact Us
     items:
-        - name: Contact us
-          herf: Contact-Us/Contact-Us.md
+      - name: Contact Us
+        herf: Contact-Us/Contact-Us.md
           

@@ -2,7 +2,7 @@
 
 
 
-Log in to the virtual machine and execute the command:
+Log in to the Virtual Machines and execute the command:
 
 1.*yum -y groupinstall "X Window System"* #Install x window package
 
@@ -12,7 +12,7 @@ Log in to the virtual machine and execute the command:
 
 4.*reboot* #Server rebooted
 
-After reboot, through the virtual machine console, remotely connect to vnc function to log in, you can see the graphical interface as shown:
+After reboot, through the Virtual Machines console, remotely connect to vnc function to log in, you can see the graphical interface as shown:
 
 ![](https://github.com/jdcloudcom/cn/blob/cn-VirtualMachine-Linux/image/Elastic-Compute/Virtual-Machine/Linux/Centos7%E5%AE%89%E8%A3%85%E5%9B%BE%E5%BD%A2%E7%95%8C%E9%9D%A201.png)
 

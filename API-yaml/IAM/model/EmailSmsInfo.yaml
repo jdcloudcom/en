@@ -12,16 +12,16 @@ definitions:
     properties:
       createPin:
         type: string
-        description: User pin
+        description: User Pin
       title:
         type: string
-        description: Email subject
+        description: Email Subject
       sendType:
         type: integer
-        description: Sending type, 1-Sending Email, 2-Sending SMS
+        description: Sending Type, 1-Sending Email, 2-Sending SMS
       content:
         type: string
-        description: Email content
+        description: Email Content
       receives:
         type: array
         items:
@@ -29,12 +29,12 @@ definitions:
         description: Recipient
       templateId:
         type: integer
-        description: Template code
+        description: Template Code
       templateParam:
         type: array
         items:
           type: string
-        description: Template parameter
+        description: Template Parameter
       smsMessageSource:
         type: string
-        description: Business code (and product application)
+        description: Business Code (and Product Application)

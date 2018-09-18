@@ -18,7 +18,7 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domain/{domainId}/
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**req**|[UpdateRR](##UpdateRR)|True||UpdateRR Parameter|
+|**req**|UpdateRR|True||UpdateRR Parameter|
 
 ### <a name="UpdateRR">UpdateRR</a>
 |Name|Type|Required or not|Default value|Description|

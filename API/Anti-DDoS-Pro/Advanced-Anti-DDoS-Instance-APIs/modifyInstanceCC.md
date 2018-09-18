@@ -18,7 +18,7 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:setC
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**cCSpec**|[CCSpec](##CCSpec)|True||cc parameter|
+|**cCSpec**|CCSpec|True||cc parameter|
 
 ### <a name="CCSpec">CCSpec</a>
 |Name|Type|Required or not|Default value|Description|

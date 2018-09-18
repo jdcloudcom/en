@@ -8,15 +8,15 @@ basePath: /regions/{regionId}
 
 paths:
   "/subUser":
-    ###################### Create sub-accounts######################
+    ###################### Create Sub-accounts######################
     post:
-      description: "Create sub-accounts"
+      description: "Create Sub-accounts"
       operationId: createSubuser
       x-jdcloud-internal: false
       parameters:
         - name: createSubUserInfo
           in: body
-          description: Sub-account information
+          description: Sub-account Information
           required: true
           schema:
             $ref: "../model/CreateSubUserInfo.yaml#/definitions/createSubUserInfo"
@@ -30,7 +30,7 @@ paths:
                 type: string
 
   "/userAccessKeys":
-    ###################### Obtaining user’s all AccessKeys ######################
+    ###################### Obtaining User’s All AccessKeys ######################
     get:
       description: "Search AccessKey list"
       operationId: describeUserAccessKeys
@@ -45,7 +45,7 @@ paths:
                 properties:
                   userAccessKeys:
                    type: array
-                   description: userAccessKey list
+                   description: UserAccessKey list
                    items:
                      $ref: "../model/UserAccessKey.yaml#/definitions/userAccessKey"
               requestId:
@@ -115,21 +115,21 @@ paths:
 
 
   "/user:describeUserInfo":
-    ###################### Obtain user’s information based on AccessKey or AccountId ######################
+    ###################### Obtain User’s Information Based on AccessKey or AccountId ######################
     get:
-      description: "Obtain user’s information based on AccessKey or AccountId"
+      description: "Obtain User’s Information Based on AccessKey or AccountId"
       operationId: describeUserInfo
       x-jdcloud-internal: true
       parameters:
         - name: accessKey
           in: query
           type: string
-          description: User accessKey
+          description: User AccessKey
           required: false
         - name: accountId
           in: query
           type: string
-          description: User’s unique id
+          description: User’s Unique id
           required: false
       responses:
         200:
@@ -141,7 +141,7 @@ paths:
                 properties:
                   pin:
                     type: string
-                    description: User pin, if there is a sub-account, its format is primary account pin @ sub-account pin
+                    description: User Pin, if there is a sub-account, its format is primary account pin @ sub-account pin
                   enabled:
                     type: boolean
                     description: If the user is available; true means that the user available, while false means that the user is unavailable and the user is in the blacklist
@@ -151,16 +151,16 @@ paths:
                   accountId:
                     type: integer
                     format: int64
-                    description: User’s unique id
+                    description: User’s Unique id
                   accessKey:
                     type: string
-                    description: accessKey, blank when inputting a parameter as accountId
+                    description: AccessKey, blank when inputting a parameter as accountId
                   accessKeySecret:
                     type: string
-                    description: accessKeySecret, blank when inputting parameter as accountId
+                    description: AccessKeySecret, blank when inputting parameter as accountId
                   state:
                     type: integer
-                    description: accessKey status, 0-Disabled, 1-Enabled, blank when inputting a parameter as accountId
+                    description: AccessKey status, 0-Disabled, 1-Enabled, blank when inputting a parameter as accountId
                   yn:
                     type: integer
                     description: Deleted or not, 0-Deleted, 1-Valid, blank when inputting a parameter as accountId
@@ -177,7 +177,7 @@ paths:
         - name: pin
           in: query
           type: string
-          description: User pin
+          description: User Pin
           required: true
       responses:
         200:
@@ -189,35 +189,35 @@ paths:
                 properties:
                   pin:
                     type: string
-                    description: User pin
+                    description: User Pin
                   enabled:
                     type: integer
                     description: If the user is available; 1 means that the user available, while 0 means that the user is unavailable and the user is in the blacklist
                   userType:
                     type: integer
-                    description: "User type 1: Person, 2: Enterprise, 3: Upgraded individual enterprise"
+                    description: "User Type 1: Person, 2: Enterprise, 3: Upgraded individual enterprise"
                   personAuthStatus:
                     type: integer
                     description: -1-Unverified (personal), 1-Verified (personal)
                   companyaAuthStatus:
                     type: integer
-                    description: 0-Reviewing (enterprise), 1-Verified (enterprise), 2-Failed (enterprise)
+                    description: 0-Reviewing (Enterprise), 1-Verified (Enterprise), 2-Failed (Enterprise)
                   accountBalance:
                     type: number
-                    description: Account balance
+                    description: Account Balance
                   accountId:
                     type: integer
                     format: int64
-                    description: User’s unique id
+                    description: User’s Unique id
                   meta:
                     type: string
-                    description: User’s extended information
+                    description: User’s Extended Information
                   activeStatus:
                     type: integer
-                    description: User’s activation status
+                    description: User’s Activation Status
                   cscPhone:
                     type: string
-                    description: User’s mobile phone number
+                    description: User’s Mobile Phone Number
                   cscEmail:
                     type: string
                     description: User’s Email
@@ -225,16 +225,16 @@ paths:
                 type: string
 
   "/user:describeUserThreshold":
-    ###################### Obtaining user’s doorhead value based user pin ######################
+    ###################### Obtain user’s doorhead value based user pin ######################
     get:
-      description: "Obtaining user’s threshold value based user pin"
+      description: "Obtain user’s threshold value based user pin"
       operationId: describeUserThreshold
       x-jdcloud-internal: true
       parameters:
         - name: pin
           in: query
           type: string
-          description: User pin
+          description: User Pin
           required: true
       responses:
         200:
@@ -246,17 +246,17 @@ paths:
                 properties:
                   pin:
                     type: string
-                    description: User pin
+                    description: User Pin
                   threshold:
                     type: number
-                    description: Threshold value
+                    description: Threshold Value
               requestId:
                 type: string
 
   "/describeGlobalAzSaleStatus":
-      ###################### Obtaining availability zone status under all regions ######################
+      ###################### Obtain availability zone status under all regions ######################
       get:
-        description: "Obtaining availability zone status under all regions"
+        description: "Obtain availability zone status under all regions"
         operationId: describeGlobalAzSaleStatus
         x-jdcloud-internal: true
         responses:
@@ -276,16 +276,16 @@ paths:
 
 
   "/describeGlobalAzMapping":
-      ###################### Obtaining availability zone mapping relations under all regions ######################
+      ###################### Obtain availability zone mapping relations under all regions ######################
       get:
-        description: "Obtaining availability zone mapping relations under all regions"
+        description: "Obtain availability zone mapping relations under all regions"
         operationId: describeGlobalAzMapping
         x-jdcloud-internal: true
         parameters:
          - name: pin
            in: query
            type: string
-           description: User pin
+           description: User Pin
            required: true
         responses:
           200:
@@ -303,7 +303,7 @@ paths:
                   type: string
 
 
-# Path general parameter
+# Path General Parameter
 parameters:
   regionId:
     name: regionId

@@ -8,25 +8,25 @@ definitions:
     properties:
         diskId:
           type: string
-          description: Cloud disk service ID
+          description: Cloud Disk Service ID
         az:
           type: string
           description: Corresponding AZ
         name:
           type: string
-          description: Disk name
+          description: Disk Name
         description:
           type: string
-          description: Disk description
+          description: Disk Description
         diskType:
           type: string
-          description: Disk type, value ssd or premium-hdd
+          description: Disk Type, Value: ssd or premium-hdd
         diskSize:
           type: integer
-          description: Disk size (GiB)
+          description: Disk Size (GiB)
         status:
           type: string
-          description: "Cloud disk service type, value: creating, available, in-use, extending, restoring, deleting, deleted, error_creating, error_deleting, error_restoring or error_extending"
+          description: Cloud Disk Service type, value: creating, available, in-use, extending, restoring, deleting, deleted, error_creating, error_deleting, error_restoring or error_extending
         createTime:
           type: string
-          description: Creation time
+          description: Creation Time

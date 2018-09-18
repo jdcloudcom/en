@@ -27,7 +27,7 @@ https://redis.jdcloud-api.com/v1/regions/{regionId}/cacheInstance/{cacheInstance
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|ID of This Change Request|
-|**result**|[Result](##Result)|The Result Information of This Request.|
+|**result**|Result|The Result Information of This Request.|
 
 
 ### <a name="Result">Result</a>

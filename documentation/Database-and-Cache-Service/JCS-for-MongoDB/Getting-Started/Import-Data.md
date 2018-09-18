@@ -1,6 +1,6 @@
 # Import Data
 
-With MongoDB's own mongodump and mongorestore commands, you can import data from a self-built MongoDB database into a MongoDB instance.
+With MongoDB's own mongodump and mongorestore commands, you can import data from a self-built MongoDB database into a JCS for MongoDB instance.
 
 ## Precautions
 Please use the mongodump and mongorestore tools with MongoDB 3.2 version and higher.

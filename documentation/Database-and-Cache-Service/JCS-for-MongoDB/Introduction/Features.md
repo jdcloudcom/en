@@ -25,7 +25,7 @@ Support for multiple availability zone deployment, you can specify the available
 ## Security
  
 ### VPC Virtual Private Cloud
-The instance is deployed in a user-defined VPC virtual private cloud, and network isolation protection is performed directly at the TCP layer to ensure data security.
+The instance is deployed in a user-defined VPC, and network isolation protection is performed directly at the TCP layer to ensure data security.
 
 ### White list
 Support user-defined IP white list and security control from access source.
@@ -53,7 +53,7 @@ You can set alarm rules based on the monitoring items. When the monitoring items
 ## Related Reference
 
 - [Product Overview](../Introduction/What-Is-MongoDB.md)
-- [Product Specification](../Product-Introduction/Specification.md)
+- [Specifications](../Product-Introduction/Specification.md)
 - [Price Overview](../Pricing/Price-Overview.md)
 - [Create Instance](../Getting-Started/Create-Instance.md)
 - [Alter Configuration](../Operation-Guide/Instance-Management/Modify-Instance-Spec.md)

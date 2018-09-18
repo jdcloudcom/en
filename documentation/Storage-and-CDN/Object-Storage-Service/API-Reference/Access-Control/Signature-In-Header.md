@@ -24,11 +24,11 @@ Notes:
 
 4. \n represents line separator
 
-5. Content-MD5 represents MD5 value of the content data requested, and the message content (not including the header) is calculated for MD5 value to obtain a 128-bit number, and content-MD5 is obtained by encoding base64. The request header can be used for the examination of message legality (whether a message is consistent with the sent content), such as “3fe8ebd7f5996651fa46c4aefe24b6af”, and it can also be null.
+5. Content-MD5 represents MD5 value of the content data requested, and the message content (not including the header) is calculated for MD5 value to obtain a 128-bit number, and content-MD5 is obtained by encoding base64. The request header can be used for the examination of message legality (whether a message is consistent with the sent content), such as "3fe8ebd7f5996651fa46c4aefe24b6af", and it can also be null.
 
-6. Content-Type represents the type of request, such as “text/plain”, and it can also be null.
+6. Content-Type represents the type of request, such as "text/plain", and it can also be null.
 
-7. Date represents the time of this operation, and it much be GMT format, such as “Sun, 09 Jul 2017 06:08:40 GMT”.
+7. Date represents the time of this operation, and it much be GMT format, such as "Sun, 09 Jul 2017 06:08:40 GMT".
 
 8. CanonicalizedHeaders represents the arrangement in the dictionary order of HTTP headers with prefix x-jss-.
 
@@ -48,7 +48,7 @@ for example, convert x-jss-server-side-encryption:  false into x-jss-server-side
 
 1. Separate each header and content with the \n delimiter and splice the final CanonicalizedHeaders.
 
-2. If there is no HTTP request header prefixed x-jss-, CanonicalizedHeaders shall be null character string “”.
+2. If there is no HTTP request header prefixed x-jss-, CanonicalizedHeaders shall be null character string "".
 
 Note:
 
@@ -56,15 +56,15 @@ Note:
 
 2. If there is only one, such as x-jss-server-side-encryption:false\n, pay attention to \n at the end.
 
-3. If there are more than one, pay attention to “\n” at the end.
+3. If there are more than one, pay attention to "\n" at the end.
 
 ## Methods of Constructing CanonicalizedHeaders
 
 Users send request to access OSS target resource, which is called CanonicalizedResource. Its construction methods are as follows:
 
-1. Set CanonicalizedResource to a null character string “”.
+1. Set CanonicalizedResource to a null character string "".
 
-2. Put in the OSS resource they want to access /BucketName/ObjectName(if there is no ObjectName, then CanonicalizedResource will be “/BucketName”, and if there is no BucketName at the same time, it shall be “/”).
+2. Put in the OSS resource they want to access /BucketName/ObjectName(if there is no ObjectName, then CanonicalizedResource will be "/BucketName", and if there is no BucketName at the same time, it shall be "/").
 
 Sample:
 
@@ -92,9 +92,9 @@ Signature sample
 
 If:
 
-AccessKey is “qbS5QXpLORrvdrmb”,
+AccessKey is "qbS5QXpLORrvdrmb",
 
-AccessKeySecret is “1MYaiNh3NeN9SuxaqFjSrc7I49rWKkQCxpl9eLNZ”
+AccessKeySecret is "1MYaiNh3NeN9SuxaqFjSrc7I49rWKkQCxpl9eLNZ"
 
 Request
 ```
@@ -110,7 +110,7 @@ PUT /sign.txt   HTTP/1.1
 Signature character string calculation formula
 ```
 Signature =   base64(hmac-sha1(AccessKeySecret,
-  HTTP-Verb + “\n” 
+  HTTP-Verb + "\n" 
   + Content-MD5 + “\n”
   + Content-Type + “\n” 
   + Date + “\n”
@@ -166,8 +166,8 @@ Detailed analysis:
 
 1. If the incoming AccessKey is absent or inactive, return 403 Forbidden. Error code: InvalidAccessKey.
 
-2. The time of incoming request must be within 15 minutes after the current time of JD Cloud storage server, otherwise it will return 403 Forbidden. Error code: RequestTimeTooSkewed.
+2. The time of incoming request must be within 15 minutes after the current time of JD Cloud object storage service, otherwise it will return 403 Forbidden. Error code: RequestTimeTooSkewed.
 
 3. If the format of the Authorization value in the user request header is incorrect, return 400 Bad Request. Error code: InvalidToken.
 
-All requests in JD Cloud Storage must use the GMT format specified in the HTTP 1.1 Protocol. The date format is: Wed, 22 May 2017 05:29:49 GMT
+All requests in JD Cloud object storage service must use the GMT format specified in the HTTP 1.1 Protocol. The date format is: Wed, 22 May 2017 05:29:49 GMT

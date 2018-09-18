@@ -7,7 +7,7 @@ definitions:
     properties:
       vpcSubnetId:
         type: string
-        description: VPC subnet id
+        description: VPC Subnet ID
       vpcSubnetName:
         type: string
-        description: VPC subnet name
+        description: VPC Subnet Name

@@ -10,13 +10,13 @@ In the MongoDB console, you can set alarm rules based on monitoring items. When 
 ## Operation Steps
 
 1. Log into [MongoDB Console](https://mongodb-console.jdcloud.com/mongodb?dataCenter=bj_02).
-1. On the "Instance List" page, select the target instance, then click ** Instance Name ** to enter the "Instance Details" page.
+1. On the "Instance List" page, select the **target instance**, then click **Instance Name** to enter the "Instance Details" page.
 1. On the "Instance Details" page, click **Monitor** to enter the "Monitoring Information" page.
-1. Click ** Set Alarm Rules** on the right side of the page to enter the "Alarm Rules" page.
+1. Click **Set Alarm Rules** on the right side of the page to enter the "Alarm Rules" page.
 
    ![](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-025.png)
 
-1. On the “Alarm Rules” page, click **Add Alarm Rules** to enter the “Set Alarm Rules” page and add new rules as prompted.
+1. On the "Alarm Rules" page, click **Add Alarm Rules** to enter the "Set Alarm Rules" page and add new rules as prompted.
  
    ![](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-026.png)
 

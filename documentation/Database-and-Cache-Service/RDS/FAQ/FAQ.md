@@ -18,7 +18,7 @@ The data in the performance analysis is saved in the instance memory. The perfor
 - describeQueryPerformance
 
 ## Users still cannot connect to the RDS instance via internet after the instance access is opened.
-In default, the RDS whitelist is only available to the VPC where this instance resides to ensure data security. Thus, you need to add your new IP address in the whitelist to access the database instance.
+In default, the RDS White List is only available to the VPC where this instance resides to ensure data security. Thus, you need to add your new IP address in the White List to access the database instance.
 
 ## Why not enter a username and password when creating a database based on backup or time point.
 The username and password of the backup source database may be used for the new database created based on the backup or time point, which temporarily does not support the manual input during creation.
@@ -51,4 +51,4 @@ The data in the performance analysis is saved in the instance memory. The perfor
 - describeQueryPerformance
 
 ## Users still fails to connect to the instance through the internet after the RDS instance access.
-In default, the RDS whitelist is only available to the VPC where this instance resides to ensure data security. Thus, you need to add your new IP address in the whitelist to access the database instance.
+In default, the RDS White List is only available to the VPC where this instance resides to ensure data security. Thus, you need to add your new IP address in the White List to access the database instance.

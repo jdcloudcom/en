@@ -22,13 +22,13 @@ None
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**data**|[AvailableNumData](##AvailableNumData)|The number of remaining resources that can be created|
+|**data**|AvailableNumData|The number of remaining resources that can be created|
 |**message**|String||
 |**status**|String||
 ### <a name="AvailableNumData">AvailableNumData</a>

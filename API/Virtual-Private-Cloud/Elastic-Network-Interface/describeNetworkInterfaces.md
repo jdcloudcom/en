@@ -17,7 +17,7 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkInterfaces/
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**filters**|[Filter[]](##Filter)|False||networkInterfaceIds - elastic network interface ID list, support multiple IDs<br>networkInterfaceNames - elastic network interface name list, support multiple names<br>vpcId - vpc Id of elastic network interface, support single Id<br>subnetId	- subnet Id of elastic network interface, support single Id<br>role - network interface role, value range: Primary (primary network interface), Secondary (secondary network interface), support single role<br>|
+|**filters**|Filter[]|False||networkInterfaceIds - elastic network interface ID list, support multiple IDs<br>networkInterfaceNames - elastic network interface name list, support multiple names<br>vpcId - vpc Id of elastic network interface, support single Id<br>subnetId	- subnet Id of elastic network interface, support single Id<br>role - network interface role, value range: Primary (primary network interface), Secondary (secondary network interface), support single role<br>|
 |**pageNumber**|Integer|False|1|Page; it is 1 by default, the value range: [1,∞); when the pages exceed total pages, show the last page|
 |**pageSize**|Integer|False|20|Paging size; it is 20 by default; value range[10, 100]|
 
@@ -32,13 +32,13 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkInterfaces/
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
-|**result**|[Result](##Result)|Returned results|
+|**result**|Result|Returned results|
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**networkInterfaces**|[NetworkInterface[]](##NetworkInterface)|networkInterface resource information list|
+|**networkInterfaces**|NetworkInterface[]|networkInterface resource information list|
 |**totalCount**|Number|Total number|
 ### <a name="NetworkInterface">NetworkInterface</a>
 |Name|Type|Description|
@@ -54,10 +54,10 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkInterfaces/
 |**networkInterfaceId**|String|Elastic network interface ID|
 |**networkInterfaceName**|String|Elastic network interface name|
 |**networkSecurityGroupIds**|String[]|Security group ID list|
-|**primaryIp**|[NetworkInterfacePrivateIp](##NetworkInterfacePrivateIp)|Primary IP of network interface|
+|**primaryIp**|NetworkInterfacePrivateIp|Primary IP of network interface|
 |**role**|String|Network interface role, value range: Primary (primary network interface), Secondary (secondary network interface)|
 |**sanityCheck**|Integer|Source and target IP address verification, with value 0 or 1|
-|**secondaryIps**|[NetworkInterfacePrivateIp[]](##NetworkInterfacePrivateIp)|Network interface auxiliary IP list|
+|**secondaryIps**|NetworkInterfacePrivateIp[]|Network interface auxiliary IP list|
 |**subnetId**|String|Subnet ID|
 |**vpcId**|String|Virtual network ID|
 ### <a name="NetworkInterfacePrivateIp">NetworkInterfacePrivateIp</a>

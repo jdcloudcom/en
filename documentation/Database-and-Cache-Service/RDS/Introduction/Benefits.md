@@ -1,4 +1,4 @@
-# Features
+# Benefits
 
 ## Quick Deployment
 RDS instance with availability can be created in minutes right after types are selected and the order is placed. The instance has complete monitoring and alarm functions and can be put into use and create value immediately.

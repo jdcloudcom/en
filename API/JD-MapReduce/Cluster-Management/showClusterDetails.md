@@ -24,13 +24,13 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/detail
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**data**|[ClusterDetailModel](##ClusterDetailModel)|Corresponding cluster details|
+|**data**|ClusterDetailModel|Corresponding cluster details|
 |**message**|String||
 |**status**|String||
 ### <a name="ClusterDetailModel">ClusterDetailModel</a>
@@ -42,7 +42,7 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/detail
 |**dataCenter**|String|Region, the same as regionID|
 |**duration**|String|Operating hours|
 |**haFlag**|Boolean|Whether it is high availability mode or not|
-|**hardware**|[HardwareInfo[]](##HardwareInfo)||
+|**hardware**|HardwareInfo[]||
 |**id**|String|Cluster ID|
 |**jssFlag**|Boolean|Whether to associate the Object Storage Service or not|
 |**name**|String|Cluster name supports Chinese, numbers, capital and lowercase letters, English underline “_” and line-through “-”, with the length of 6-32 characters.|

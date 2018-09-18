@@ -14,13 +14,13 @@ definitions:
         description: Instance ID
       domain:
         type: string
-        description: Subdomain name
+        description: Subdomain Name
       cname:
         type: string
-        description: cname of rules
+        description: cname of Rules
       protocol:
         type: string
-        description: "Protocol: HTTP, HTTPS and HTTP_HTTPS"
+        description: Protocol: HTTP, HTTPS and HTTP_HTTPS
       port:
         type: string
         description: HTTP protocol port number, such as 80 and 81, and multiple port numbers are separated by commas
@@ -49,16 +49,16 @@ definitions:
         description: Certificate private key
       httpCertStatus:
         type: integer
-        description: "Certificate status: 0->exceptional  1->normal"
+        description: Certificate status: 0->exceptional  1->normal
       status:
         type: integer
-        description: 0->defense status  1->back-to-origin status
+        description: 0->defense Status  1->back-to-origin Status
       ccStatus:
         type: integer
         description: 0->CC disabled  1->CC enabled
       algorithm:
         type: string
-        description: "Forwarding rules: wrr->Round Robin with weight  rr->Round Robin without weight"
+        description: Forwarding rules: wrr->Round Robin with weight  rr->Round Robin without weight
       forceJump:
         type: integer
         description: Confirm to enable https forced jump? The attribute may be configured when the protocol is HTTP_HTTPS  0->no  1->yes

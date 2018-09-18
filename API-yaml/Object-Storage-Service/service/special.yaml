@@ -1,4 +1,4 @@
-swagger: "2.0"                                  # Implemented based on Swagger version 2.0
+Swagger: "2.0"                                  # Implemented based on Swagger Version 2.0
 info:
   version: "v1"                                 # OpenApi version number
   title: SpecialUser APIs
@@ -13,6 +13,7 @@ paths:
       - developers
       summary: update bucket max count
       operationId: updateBucketMaxCount
+      x-jdcloud-internal: true
       description: |
         Update bucket maximum
       produces:
@@ -20,7 +21,7 @@ paths:
       parameters:
       - in: header
         name: bucketmaxcount
-        description: "bucket maximum, e.g.: 50, minimum 20"
+        description: Bucket Maximum, e.g.: 50, Minimum 20
         required: true
         type: integer
       - in: header
@@ -39,11 +40,11 @@ paths:
           description: Access Denied
 #          schema:
 #            $ref: '../model/oss.yaml#/definitions/ErrorResponse'
-# Path general parameter
+# Path General Parameter
 parameters:
   regionId:
     name: regionId
     in: path
     required: true
     type: string
-    description: "Region ID, e.g.: cn-north-1"
+    description: Region ID, e.g.: cn-north-1

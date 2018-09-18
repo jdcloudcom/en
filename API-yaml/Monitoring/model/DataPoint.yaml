@@ -7,7 +7,7 @@ definitions:
       timestamp:
         type: integer
         format: int64
-        description: Time stamp
+        description: Time Stamp
       value:
         type: string
         description: Value        

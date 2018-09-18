@@ -23,11 +23,11 @@ definitions:
       monitorEnable:
         type: integer
         required: true
-        description: Monitoring status, turn on monitor 2, suspend monitor 4
+        description: Monitoring Status  Turn on monitor 2, Suspend monitor 4
       monitorFreq:
         type: integer
         required: true
-        description: Monitoring frequency, in second
+        description: Monitoring Frequency  Unit: Second
       monitorPort:
         type: integer
         required: true
@@ -59,11 +59,11 @@ definitions:
       stopRecoverRule:
         type: integer
         required: true
-        description: 0 automatic recovery, 1 manual recovery
+        description: 0 Automatic Recovery, 1 Manual Recovery
       switchRecoverRule:
         type: integer
         required: true
-        description: 0 restore to the main host automatically, 1 restore to the main host manually
+        description: 0 Restore to the main host automatically, 1 Restore to the main host manually
   monitor:
     type: object
     x-jdcloud-module: clouddnsservice
@@ -85,7 +85,7 @@ definitions:
         description: Main Domain Name
       hostStatus:
         type: integer
-        description: Machine status, 0 normal, 1 exception
+        description: Machine Status, 0 Normal, 1 Exception
       hostValue:
         type: string
         description: Monitoring Object
@@ -97,34 +97,34 @@ definitions:
         description: Alternate Address 1
       ipBackup01Status:
         type: integer
-        description: Status of the alternate address 1, 0 normal, 1 exception
+        description: Status of Alternate Address 1, 0 Normal, 1 Exception
       ipBackup01Type:
         type: integer
-        description: Type of the alternate address 1, 1 ip, 2 domain name
+        description: Type of Alternate Address 1, 1 ip, 2 Domain name
       ipBackup02: 
         type: string
         description: Alternate Address 2
       ipBackup02Status:
         type: integer
-        description: Status of the alternate address 2, 0 normal, 1 exception
+        description: Status of Alternate Address 2, 0 Normal, 1 Exception
       ipBackup02Type:
         type: integer
-        description: Type of the alternate address 1, 1 ip, 2 domain name
+        description: Type of Alternate Address 1, 1 ip, 2 Domain name
       manualBackup:
         type: string
-        description: Manually switched address
+        description: Manually Switched Address
       manualBackupStatus:
         type: integer
-        description: Status of the manually switched address, 0 normal, 1 exception
+        description: Status of Manually Switched Address, 0 Normal, 1 Exception
       manualBackupType:
         type: integer
-        description: Type of the manually switched address, 1 ip, 2 domain name
+        description: Type of  Manually Switched Address, 1 ip, 2 Domain name
       monitorEnable:
         type: integer
-        description: Monitoring status, turn on monitor 2, suspend monitor 4
+        description: Monitoring Status  Turn on monitor 2, Suspend monitor 4
       monitorFreq:
         type: integer
-        description: Monitoring frequency, in s
+        description: Monitoring Frequency, Unit: s
       monitorPort:
         type: integer
         description: Monitoring Port
@@ -154,19 +154,19 @@ definitions:
         description: https 0，https 1
       stopRecoverRule:
         type: integer
-        description: 0 automatic recovery, 1 manual recovery
+        description: 0 Automatic Recovery, 1 Manual Recovery
       subDomainName:
         type: string
         description: Subdomain
       switchRecoverRule:
         type: integer
-        description: 0 restore to the main host automatically, 1 restore to the main host manually
+        description: 0 Restore to the main host automatically, 1 Restore to the main host manually
       type:
         type: integer
         description: 1 A record, 2 CNAME
       usedType:
         type: integer
-        description: Usage record, host_value 0, ip_backup_01 1, ip_backup_02 2 and cname_backup 3
+        description: Usage Record, host_value 0, ip_backup_01 1, ip_backup_02 2 and cname_backup 3
 
   monitorAlarmInfo:
     type: object

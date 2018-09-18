@@ -1,4 +1,4 @@
-# Enable Kernel Dump in Windows2008
+# Enable Kernel Dump in Windows 2008
 Windows does not have Core Dump enabled by default. In some special cases, such as blue screen, stuck, hang, black screen, etc., Core Dump needs to be used to locate the root cause of the problem more quickly for targeted processing.
 
 
@@ -11,7 +11,7 @@ How to generate a kernel or full memory dump file in Windows Server 2008 and Win
 
 https://support.microsoft.com/zh-cn/kb/969028
 
-Troubleshoot “blue screen” or Stop error problems before you contact：
+Troubleshoot "blue screen" or Stop error problems before you contact：
 
 https://support.microsoft.com/kb/3106831
 
@@ -21,19 +21,19 @@ We recommend that you use the manual configuration tool, and to prevent system s
 
 **Manual Configuration (Applicable to All Versions of Windows Machines)**
 
-1. Right click the Computer and select Properties.
+1. Right click **Computer** and select **Properties**.
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/windows2008%E5%BC%80%E5%90%AF%E5%86%85%E6%A0%B8%E8%BD%AC%E5%82%A8%E9%85%8D%E7%BD%AE01.png)
 
-2. Select Advanced System Settings.
+2. Select **Advanced System Settings**.
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/windows2008%E5%BC%80%E5%90%AF%E5%86%85%E6%A0%B8%E8%BD%AC%E5%82%A8%E9%85%8D%E7%BD%AE02.png)
 
-3. Successively choose Advanced, Performance and Settings in the System Properties.
+3. Successively choose **Advanced**, **Performance** and **Settings** in the System Properties.
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/windows2008%E5%BC%80%E5%90%AF%E5%86%85%E6%A0%B8%E8%BD%AC%E5%82%A8%E9%85%8D%E7%BD%AE03.png)
 
-4. Successively choose Advanced, Virtual Memory and Change in Performance option.
+4. Successively choose **Advanced**, **Virtual Memory** and **Change** in Performance option.
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/windows2008%E5%BC%80%E5%90%AF%E5%86%85%E6%A0%B8%E8%BD%AC%E5%82%A8%E9%85%8D%E7%BD%AE04.png)
 
@@ -41,7 +41,7 @@ We recommend that you use the manual configuration tool, and to prevent system s
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/windows2008%E5%BC%80%E5%90%AF%E5%86%85%E6%A0%B8%E8%BD%AC%E5%82%A8%E9%85%8D%E7%BD%AE05.png)
 
-6. Select [System Properties]>[Advanced]>[Startup and Recovery]>[Settings].
+6. Select **System Properties** > **Advanced** > **Startup and Recovery** > **Settings**.
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/windows2008%E5%BC%80%E5%90%AF%E5%86%85%E6%A0%B8%E8%BD%AC%E5%82%A8%E9%85%8D%E7%BD%AE06.png)
 

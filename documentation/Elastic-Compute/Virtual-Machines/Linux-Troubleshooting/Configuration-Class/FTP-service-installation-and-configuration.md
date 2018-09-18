@@ -29,9 +29,9 @@ View Related Configuration Files:
 
 */etc/vsftpd/vsftpd.conf*           Main configuration files and core configuration files
 
-*/etc/vsftpd/ftpusers*               Blacklist, users inside this list are not allowed to access the FTP server.
+*/etc/vsftpd/ftpusers*               Black list, users inside this list are not allowed to access the FTP server.
 
-*/etc/vsftpd/user_list*              Whitelist, a list of users allowed to access the FTP server.
+*/etc/vsftpd/user_list*              White list, a list of users allowed to access the FTP server.
 
 2. Set the service of booting vsftpd ftp after startup.
 
@@ -84,7 +84,7 @@ Change the permission of the /var/ftp/pub directory, add write permission to the
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Linux/FTP%E6%9C%8D%E5%8A%A1%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE05.png)
 
-**IV. Configuration of Local User Login **
+**IV. Configuration of Local User Login**
 After installation of vsftp, only anonymous ftp login is supported by default. If the user attempts to login the server using the account in the Linux operating system, it will be rejected by vsftpd. Local user login means logging in to the ftp server using the user account and password in the Linux operating system.
 
 1. Create a Local User:
@@ -125,7 +125,7 @@ Meanwhile, in order to ensure the accuracy of subsequent client test results, we
 
 3. Client Testing:
 
-Directly use the address ftp://server ip address: ftp port (if you do not specify the port, you will access port 21 by default), as shown in the figure. A pop-up dialog box for entering the user name and password indicates that the configuration is successful. After entering the username and password correctly, click Login to execute operations with corresponding permissions on the FTP file.
+Directly use the address ftp://server ip address: ftp port (if you do not specify the port, you will access port 21 by default), as shown in the figure. A pop-up dialog box for entering the user name and password indicates that the configuration is successful. After entering the username and password correctly, click **Login** to execute operations with corresponding permissions on the FTP file.
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Linux/FTP%E6%9C%8D%E5%8A%A1%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE08.png)
 

@@ -12,7 +12,7 @@ definitions:
         description: Event ID
       eventType:
         type: string
-        description: Event type
+        description: Event Type
       description:
         type: string
         description: Description

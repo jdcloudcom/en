@@ -1,4 +1,4 @@
-# Application Scenario
+# Application Scenarios
 ## Why to register a domain name
 Registering a domain name allows you to build your own trusted system on the Internet. Domain names can effectively give you a lively online image on the Internet. Registering a domain name has the following advantages:
 

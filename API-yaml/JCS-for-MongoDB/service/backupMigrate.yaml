@@ -52,11 +52,11 @@ paths:
         - name: pageNumber
           in: query
           type: integer
-          description: "Page number; default: 1; value range: [1, ∞)"
+          description: "Page Number; Default: 1; Value range: [1, ∞)"
         - name: pageSize
           in: query
           type: integer
-          description: "Page size; default: 10; value range: [10,100]"
+          description: "Page Size; Default: 10; Value range: [1,100]"
         - name: filters
           in: query
           type: array
@@ -81,7 +81,7 @@ paths:
               requestId:
                 type: string
 
-  "/backupSynchronicities/{serviceId}": #Delete A Cross-region Backup Synchronization Service
+  "/backupSynchronicities/{serviceId}": #Delete a Cross-region Backup Synchronization Service
     delete:
       description: Delete Cross-region Backup Synchronization Service
       operationId: deleteBackupSynchronicities

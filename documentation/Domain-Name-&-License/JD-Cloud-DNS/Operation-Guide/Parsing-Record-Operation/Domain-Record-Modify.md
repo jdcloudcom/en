@@ -1,10 +1,10 @@
 - ## **Modify Resolution Record:**
 
-  1. Log in to the JD Cloud console and select "Domain Name Resolution List".
+  1. Log in to the JD Cloud console and select **Domain Name Resolution List**.
 
-  2. Select the domain name you want to operate, click the Domain Name or the Resolve button on the right to enter the "Domain Name Resolution Console".
+  2. Select the **Domain Name** you want to operate, click the **Domain Name** or the **Resolve** on the right to enter the "Domain Name Resolution Console".
 
-  3. Click the Modify button under the operation
+  3. Click the **Modify** under the operation
 
   ![img](file:///C:\Users\ZHANGJ~1\AppData\Local\Temp\msohtmlclip1\01\clip_image002.png)
 

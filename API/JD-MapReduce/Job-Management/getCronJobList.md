@@ -17,8 +17,8 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/cronJob:list
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**jmrPlanViewModel**|[JmrPlanViewModel](##JmrPlanViewModel)|True||Required fields: az, planName, planType and planStatus|
-|**selectParams**|[SelectParams](##SelectParams)|False||Optional parameters of search conditions|
+|**jmrPlanViewModel**|JmrPlanViewModel|True||Required fields: az, planName, planType and planStatus|
+|**selectParams**|SelectParams|False||Optional parameters of search conditions|
 
 ### <a name="JmrPlanViewModel">JmrPlanViewModel</a>
 |Name|Type|Required or not|Default value|Description|
@@ -53,7 +53,7 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/cronJob:list
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>

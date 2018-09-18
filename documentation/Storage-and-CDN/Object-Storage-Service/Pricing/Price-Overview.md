@@ -1,4 +1,4 @@
-# Price overview
+# Price Overview
 
 The billing cycle of JD Cloud object storage service is based on day, which settles the bills of the previous day in a fixed time every day and the relevant charge standard within a billing cycle is shown as below:
 

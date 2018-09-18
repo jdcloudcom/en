@@ -23,13 +23,13 @@ None
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
-|**result**|[Result](##Result)|Returned results|
+|**result**|Result|Returned results|
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**networkSecurityGroup**|[NetworkSecurityGroup](##NetworkSecurityGroup)|Security group resource information|
+|**networkSecurityGroup**|NetworkSecurityGroup|Security group resource information|
 ### <a name="NetworkSecurityGroup">NetworkSecurityGroup</a>
 |Name|Type|Description|
 |---|---|---|
@@ -37,7 +37,7 @@ None
 |**description**|String|Security group description information|
 |**networkSecurityGroupId**|String|Security group ID|
 |**networkSecurityGroupName**|String|Security group name|
-|**securityGroupRules**|[SecurityGroupRule[]](##SecurityGroupRule)|Security group rule information|
+|**securityGroupRules**|SecurityGroupRule[]|Security group rule information|
 |**vpcId**|String|vpc Id of security group|
 ### <a name="SecurityGroupRule">SecurityGroupRule</a>
 |Name|Type|Description|

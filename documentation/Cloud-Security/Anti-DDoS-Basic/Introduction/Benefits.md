@@ -1,16 +1,16 @@
 # Benefits
 
-# # high-quality protective route
+# # Quality Protective Route
 
 - High quality BGP routes with low latency and guaranteed traffic stability and availability.
 - The speed of access will not be affected by DDoS attacks.
 
-Maintenance-free installation of # #
+Maintenance-free Installation# #
 - The user does not have to purchase expensive cleaning equipment.
-- As long as you are a customer of JD Cloud, you will automatically open the basic protection function for you and do not need to install it.
+- As long as you are a customer of JD Cloud, you will automatically open the Anti-DDoS Basic function for you and do not need to install it.
 - Intelligent business learning and configuration protection rules.
 
-## precision protection
+## Precision Protection
 
 - Precise recognition attack, second-level open protection.
 - autonomously develop and clean equipment and algorithms to ensure a low false kill rate.
@@ -21,7 +21,7 @@ Maintenance-free installation of # #
 
 ## Free Service
 
-- Basic Anti-DDoS is open for users free of charge. As long as you are users of JD Cloud, JD Cloud provides the foundation and protection for free to provide maximum 2G protection capacity for you free of charge.
+- Anti-DDoS Basic is open for users free of charge. As long as you are users of JD Cloud, JD Cloud provides the foundation and protection for free to provide maximum 2G protection capacity for you free of charge.
 
 ## Related Reference
 

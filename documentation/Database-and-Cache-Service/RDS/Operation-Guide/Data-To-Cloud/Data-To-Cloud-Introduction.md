@@ -11,7 +11,7 @@ Supported versions of offline database:
 - SQL Server 2014
 - SQL Server 2016
 
-**Note: It only supports to restore the low-version database backups to a higher-version cloud database. For example, SQL Server 2012 backups can be restored to the SQL Server Service 2014, but cannot be restored to SQL Server Service 2008R2. **
+**Note: It only supports to restore the low-version database backups to a higher-version cloud database. For example, SQL Server 2012 backups can be restored to the SQL Server Service 2014, but cannot be restored to SQL Server Service 2008R2.**
 
 #### 1. Main Steps
 The operation of the cloud on single database are basically carried out in three steps:

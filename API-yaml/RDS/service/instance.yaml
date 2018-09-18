@@ -11,7 +11,7 @@ paths:
     post:
       description: Create an RDS instance and the user can use the corresponding database client or application to link to the RDS instance through the domain name and port to operate.
       operationId: createInstance
-      #x-jdcloud-internal: true
+      x-jdcloud-internal: true
       parameters:
         - name: instanceSpec
           required: true
@@ -31,7 +31,7 @@ paths:
     get:
       description: Obtain the summary information about all RDS instances and MySQL read-only instances under the current account, such as instance type family, version, billing information, etc.
       operationId: describeInstances
-      #x-jdcloud-internal: true
+      x-jdcloud-internal: true
       parameters:
         - name: pageNumber
           required: false
@@ -61,14 +61,14 @@ paths:
       description: Delete an RDS Instance or a read-only instance of MySQL. When the primary instance of MySQL is deleted, the corresponding read-only instance of MySQL is also deleted
       operationId: deleteInstance
       x-jdcloud-mfa: true
-      #x-jdcloud-internal: true
+      x-jdcloud-internal: true
       responses:
         200:
           description: OK
     get:
       description: Query the details of the RDS instance (MySQL, SQL Server, etc.) and the MySQL read-only instance details
       operationId: describeInstanceAttributes
-      #x-jdcloud-internal: true
+      x-jdcloud-internal: true
       responses:
         200:
           description: OK
@@ -82,7 +82,7 @@ paths:
     post:
       description: View the backup policy of the RDS instance. The supported backup policies are slightly different depending on the types of database. For details, please refer to the detailed description in the returned parameters<br>- only support SQL Server
       operationId: getBackupPolicy
-      #x-jdcloud-internal: true
+      x-jdcloud-internal: true
       responses:
         200:
           description: OK
@@ -92,16 +92,16 @@ paths:
                 properties:
                   startWindow:
                     type: string
-                    description: "The range of start time window to automatically backup is 00:00-23:59, and the time range difference must not be less than 30 minutes. <br>For example: 00:00-01:00, it means that the database is automatically backed up from 0:00 to 01:00, and the time of backup completion is related to the size of the instance, not necessarily within this time range."
+                    description: The range of start time window to automatically backup is 00:00-23:59, and the time range difference must not be less than 30 minutes. <br>For example: 00:00-01:00, it means that the database is automatically backed up from 0:00 to 01:00, and the time of backup completion is related to the size of the instance, not necessarily within this time range.
                   retentionPeriod:
                     type: integer
                     description: The retention period of automatic backup, in days, defaults to 7 days, range is 7-730
                   cycleMode:
                     type: integer
-                    description: "The cyclical pattern of automatic backup<br>1: indicates backup that the daily backup is full<br>2: indicates that the automatic backup is performed in full, incremental, such as the first day is full backup, then the second and third days are incremental backup; the fourth day is full backup, and so on.<br>- **SQL Server supports**<br>- **MySQL does not support **"
+                    description: The cyclical pattern of automatic backup<br>1: indicates backup that the daily backup is full<br>2: indicates that the automatic backup is performed in full, incremental, such as the first day is full backup, then the second and third days are incremental backup; the fourth day is full backup, and so on.<br>- **SQL Server supports**<br>- **MySQL does not support **
                   backupBinlog:
                     type: string
-                    description: "Whether to back up binlog<br>true: indicates backup<br>false: indicates no backup- <br>**SQL Server does not support**<br>- **MySQL supports**"
+                    description: Whether to back up binlog<br>true: indicates backup<br>false: indicates no backup- <br>**SQL Server does not support**<br>- **MySQL supports**
   "/instances/{instanceId}:setBackupPolicy": #Modify Backup Policy
     post:
       description: Modify the RDS instance backup policy. At present, only the user can modify the 'start time window of the automatic backup' parameter and other parameters are not open for modification.
@@ -116,15 +116,15 @@ paths:
             properties:
               startWindow:
                 type: string
-                description: "The range of start time window to automatically backup is 00:00-23:59, and the time range difference must not be less than 30 minutes. <br>For example: 00:00-01:00, it means that the database is automatically backed up from 0:00 to 01:00, and the time of backup completion is related to the size of the instance, not necessarily within this time range."
+                description: The range of start time window to automatically backup is 00:00-23:59, and the time range difference must not be less than 30 minutes. <br>For example: 00:00-01:00, it means that the database is automatically backed up from 0:00 to 01:00, and the time of backup completion is related to the size of the instance, not necessarily within this time range."
       responses:
         200:
           description: OK
   "/instances/{instanceId}:setInstanceName": #Modify the instance name
     post:
-      description: "Modify the instance name to support Chinese. The specific rules for the instance name can be found in the Help Center document: [Name and Password Restrictions] (../../../documentation/Cloud-Database-and-Cache/RDS/Introduction /Restrictions/SQLServer-Restrictions.md)<br>-  Support SQL Server Only"
+      description: Modify the instance name to support Chinese. The specific rules for the instance name can be found in the Help Center document: [Name and Password Restrictions] (../../../documentation/Cloud-Database-and-Cache/RDS/Introduction /Restrictions/SQLServer-Restrictions.md)<br>-  Support SQL Server Only"
       operationId: setInstanceName
-      #x-jdcloud-internal: true
+      x-jdcloud-internal: true
       parameters:
         - name: setInstanceName
           in: body
@@ -135,23 +135,23 @@ paths:
             properties:
               instanceName:
                 type: string
-                description: "The instance name, which supports Chinese, and the specific rules for the instance name can be found in the Help Center documentation: [Name and Password Restrictions] (../../../documentation/Cloud-Database-and-Cache/RDS/Introduction/ Restrictions/SQLServer-Restrictions.md)"
+                description: The instance name, which supports Chinese, and the specific rules for the instance name can be found in the Help Center documentation: [Name and Password Restrictions] (../../../documentation/Cloud-Database-and-Cache/RDS/Introduction/ Restrictions/SQLServer-Restrictions.md)"
       responses:
         200:
           description: OK
   "/instances/{instanceId}:failoverInstance": #RDS Instance Failover
     post:
-      description: "Perform a RDS Instance Failover. <br>Note: If the instance is being backed up, the failover will terminate the backup operation. You can view the start time of backup in the backup policy to see whether a backup is running. If you need to perform the failover during the instance backup, you are advised to perform a full instance backup manually<br>for SQL Server, within 30 minutes of failover, restore/create by time point is not supported. For example, the user performs the failover at 10:05, then the time period from 10:05 to 10:35 cannot be restored/created. <br>- Support SQL Server Only"
+      description: Perform a RDS Instance Failover. <br>Note: If the instance is being backed up, the failover will terminate the backup operation. You can view the start time of backup in the backup policy to see whether a backup is running. If you need to perform the failover during the instance backup, you are advised to perform a full instance backup manually<br>for SQL Server, within 30 minutes of failover, restore/create by time point is not supported. For example, the user performs the failover at 10:05, then the time period from 10:05 to 10:35 cannot be restored/created. <br>- Support SQL Server Only"
       operationId: failoverInstance
-      #x-jdcloud-internal: true
+      x-jdcloud-internal: true
       responses:
         200:
           description: OK
   "/instances/{instanceId}:rebootInstance": #Reboot RDS Instance
     post:
-      description: "Reboot the RDS instance. For example, after modifying some configuration parameters, you need to reboot the instance to take effect. You can combine the failover function to reboot the standby machine to reduce the impact on the service<br>**Note: If the instance is being backed up, rebooting the primary instance will terminate the backup operation. ** You can view the start time of backup in the backup policy to see whether a backup is running. If you need to reboot the primary instance during the instance backup, you are advised to perform a full instance backup manually after rebooting."
+      description: Reboot the RDS instance. For example, after modifying some configuration parameters, you need to reboot the instance to take effect. You can combine the failover function to reboot the standby machine to reduce the impact on the service<br>**Note: If the instance is being backed up, rebooting the primary instance will terminate the backup operation. ** You can view the start time of backup in the backup policy to see whether a backup is running. If you need to reboot the primary instance during the instance backup, you are advised to perform a full instance backup manually after rebooting."
       operationId: rebootInstance
-      #x-jdcloud-internal: true
+      x-jdcloud-internal: true
       parameters:
         - name: rebootInstance
           in: body
@@ -201,7 +201,6 @@ paths:
     post:
       description: Creates a new instance based on the full backup of the source instance. The data of the new instance is the same as the data status of the source instance when the backup is created. <br>For example, create a new instance B according to a full backup "mybak" of source instance A. The backup is created in "2018-8-18 03:23:54". Then the data status of the new instance B is consistent with the status of the instance A'2018-8-18 03:23:54'<br>- only support MySQL
       operationId: createInstanceFromBackup
-      x-jdcloud-internal: true
       parameters:
         - name: backupId
           required: true
@@ -212,13 +211,13 @@ paths:
           required: true
           in: query
           type: string
-          description: "The identifier is an instance of what type is created, such as MySQL, SQL Server, etc. For details, see the document [Enumeration Parameter Definition] (../Enum-Definitions/Enum-Definitions.md)<br>** Note: The engine that backs up the source instance must be the same as the engine of the instance to be created**"
+          description: The identifier is an instance of what type is created, such as MySQL, SQL Server, etc. For details, see the document [Enumeration Parameter Definition] (../Enum-Definitions/Enum-Definitions.md)<br>** Note: The engine that backs up the source instance must be the same as the engine of the instance to be created**
         - name: instanceSpec
           required: true
           in: body
           description: New Instance Type Created
           schema:
-            $ref: "../model/RestoredNewDBInstanceSpec.yaml#/definitions/RestoredNewDBInstanceSpec"
+            $ref: ../model/RestoredNewDBInstanceSpec.yaml#/definitions/RestoredNewDBInstanceSpec"
       responses:
         200:
           description: OK
@@ -228,6 +227,99 @@ paths:
                 properties:
                   instanceId:
                     type: string
+  "/instances/{instanceId}:modifyInstanceSpec":    #修改实例配置
+    post:
+      description: 实例扩容，支持升级实例的CPU，内存及磁盘。目前暂不支持实例降配<br>- 仅支持MySQL
+      operationId: modifyInstanceSpec
+      parameters:
+        - name: newInstanceClass
+          required: true
+          in: query
+          type: string
+          description: 扩容后实例规格
+        - name: newInstanceStorageGB
+          required: true
+          in: query
+          type: integer
+          description: 扩容后实例磁盘大小
+      responses:
+        200:
+          description: OK
+          schema:
+            properties:
+              result:
+                properties:
+                  orderId:
+                    type: string
+                    description: 生成的订单号
+  "/instances/{instanceId}:createInstanceByTime":    #根据时间点创建实例
+    post:
+      description: 根据源实例备份创建一个新实例，并通过追加日志的方式，将新实例的数据恢复到跟源实例指定时间点的数据状态一样。<br>例如根据实例A在“2018-06-18 23:00:00”时间点创建一个实例B，就是新建一个实例B，该实例B的数据跟实例A在“2018-06-18 23:00:00”这个时间点的数据完全一致。<br>对于SQL Server，主备切换后30分钟内，不支持按时间点恢复/创建，例如在10:05分用户进行了主备切换，那么10:05 ~ 10:35这个时间段不能进行按时间点恢复/创建。<br>- 仅支持MySQL
+      operationId: createInstanceByTime
+      parameters:
+        - name: restoreTime
+          required: true
+          in: query
+          type: string
+          description: 根据源实例的哪个时间点创建新实例
+        - name: instanceSpec
+          required: true
+          in: body
+          description: New Instance Type Created
+          schema:
+            $ref: ../model/RestoredNewDBInstanceSpec.yaml#/definitions/RestoredNewDBInstanceSpec"
+      responses:
+        200:
+          description: OK
+          schema:
+            properties:
+              result:
+                properties:
+                  instanceId:
+                    type: string
+                    description: 新创建的实例ID
+  "/instances/{instanceId}:createROInstance":    #创建只读实例
+    post:
+      description: 创建MySQL的只读实例<br>- 仅支持MySQL
+      operationId: createROInstance
+      x-jdcloud-internal: true
+      parameters:
+        - name: azId
+          required: true
+          in: query
+          type: string
+          description: AZ ID
+        - name: instanceClass
+          required: true
+          in: query
+          type: string
+          description: 只读实例规格FlavorId
+        - name: instanceStorageGB
+          required: true
+          in: query
+          type: integer
+          description: 磁盘空间
+        - name: count
+          required: false
+          in: query
+          type: integer
+          description: 创建只读实例的数目,缺省为1
+      responses:
+        200:
+          description: OK
+          schema:
+            properties:
+              result:
+                properties:
+                  roInstanceId:
+                    type: array
+                    description: 新创建的只读实例ID的列表
+                    items:
+                      type: string
+                      description: 新创建的只读实例ID
+                  orderId:
+                    type: string
+                    description: 订单ID
 # General Parameters for Path
 parameters:
   regionId:

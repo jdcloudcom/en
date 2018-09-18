@@ -20,7 +20,7 @@ paths:
             - Windows Server 2012 R2 Standard Edition 64-bit Chinese version SQL Server 2014 Standard SP2 memory needs more than 1 GB;
             - Windows Server all image CPUs must not be selected to exceed 64 cores CPU.
             - Can query <a href="https://www.jdcloud.com/help/detail/2874/isCatalog/1">DescribeImages</a> Interface derives image information for the specified zone.
-            - The selected image must support the selected specification type. Can query <a href="https://www.jdcloud.com/help/detail/2872/isCatalog/1">DescribeImageConstraints</a> Interface obtains specification type limit information for the specified image.<br> 
+            - The selected image must support the selected specification type. Can query <a href="https://www.jdcloud.com/help/detail/2872/isCatalog/1">DescribeImageConstraints</a> Interface obtains specification type limit information for the specified image.<br>
         - Network Instance Type
             - Specify primary network card configuration information
                 - SubnetId must be specified
@@ -37,25 +37,25 @@ paths:
                     - cloud: value range: 40-500GB,  and cannot be smaller than the minimum system disk size of image; if not specified,  the default is the system disk size in the image
                 - Auto-delete
                     - If local,  default auto-deletion,  this property cannot be modified
-                    - True if cloud type-based cloud disk service are configured
+                    - True if cloud type-based Cloud Disk Service are configured
             - Data disk
                 - Disk classification,  data disks only support cloud
-                - The type of cloud disk service drive can select ssd,  premium-hdd
+                - The type of Cloud Disk Service drive can select ssd,  premium-hdd
                 - Disk Size
                     - premium-hdd: range[20, 3000] GB,  step size: 10G
                     - ssd: range[20, 1000] GB,  step size: 10G
                 - Auto-delete
                     - Auto-deletion by default, for the data disk or shared data disk of the monthly package, this parameter does not take effect
-                    - SnapshotId can be specified to create a cloud disk service
+                    - SnapshotId can be specified to create a Cloud Disk Service
                 - You can create a disk from a snapshot
-            - The VM of local type system can attach 8 cloud disks services
-            - The VM of cloud type system can attach 7 cloud disk services
+            - The VM of local type system can attach 8 Cloud Disk Services
+            - The VM of cloud type system can attach 7 Cloud Disk Services
         - Billing
             - Billing mode of EIP. If you choose to set separately by consumption,  the other billing modes are subject to the machine.
-            - The billing mode of the cloud disk service is subject to the machine
+            - The billing mode of the Cloud Disk Service is subject to the machine
         - Others
             - After the creation is complete,  the machine status is running
-            - Only the Linux system virtual machine can specify key pair
+            - Only the Linux system Virtual Machines can specify key pair
             - maxCount is the maximum effort,  and it is not guaranteed that maxCount can be reached
             - The VM's az replaces the az attribute of the disk
         - Password
@@ -109,7 +109,7 @@ paths:
     ###################### Machine List API ######################
     get:
       description: |
-        Batch query of virtual machine details<br>
+        Batch query of Virtual Machines details<br>
         This API supports paging query with 20 items per page by default.
       operationId: describeInstances
       parameters:
@@ -199,7 +199,7 @@ paths:
         Delete a single virtual machine that is paid by configuration,  or expires in a monthly package. You cannot delete a virtual machine without billing information. <br>
         The virtual machine status must be <b>running<b>,  <b>stopped<b>,  <b>error<b>,  and the virtual machine is not in progress to delete. <br>
         The virtual machine that has not expired in monthly package cannot be deleted. The white list user cannot delete the virtual machine that has expired in monthly package. <br>
-        If the data disk attached in the machine is the cloud disk billed by instance type and is not a shared cloud disk service, and the AutoDelete property is true, then the data disk is deleted along with the machine.
+        If the data disk attached in the machine is the cloud disk billed by instance type and is not a shared Cloud Disk Service, and the AutoDelete property is true, then the data disk is deleted along with the machine.
       operationId: deleteInstance
       x-jdcloud-mfa: true
       responses:
@@ -395,9 +395,9 @@ paths:
       description: |
           A virtual machine attaches an elastic network interface <br>
           The virtual machine status must be running or stopped status without being operated,  the task is available. <br>
-          If the public IP is associated with the elastic network interface,  the az of the public IP needs to be consistent with the az of the virtual machine,  or the public network IP belongs to the full available zone to be attached. <br>
-          The number of the virtual machine to attach the elastic network interface cannot exceed the limit of the instance type. Can query <a href = "https://www.jdcloud.com/help/detail/2901/isCatalog/1"> DescribeInstanceTypes</a> interface gives specification information for the specified zone or availability zone. <br>
-          The elastic network interface and the virtual machine must be under the same vpc.
+          If the public IP is associated with the elastic network interface,  the az of the public IP needs to be consistent with the az of the Virtual Machines,  or the public network IP belongs to the full available zone to be attached. <br>
+          The number of the Virtual Machines to attach the elastic network interface cannot exceed the limit of the instance type. Can query <a href = "https://www.jdcloud.com/help/detail/2901/isCatalog/1"> DescribeInstanceTypes</a> interface gives specification information for the specified zone or availability zone. <br>
+          The elastic network interface and the Virtual Machines must be under the same vpc.
       operationId: attachNetworkInterface
       parameters:
         - name: networkInterfaceId
@@ -485,9 +485,8 @@ paths:
     ###################### Associate VM with EIP ######################
     post:
       description: |
-        The virtual machine associates the elastic public IP,  and the associating is the IP of the elastic public network corresponding to the primary IP and the intranet primary IP. 
-        A virtual machine can only associate with an EIP (master network card). If the main network card already exists EIP,  the error will be returned. 
-        If the user is on the blacklist, an error will occur.
+        The Virtual Machines associates the elastic public IP,  and the associating is the IP of the elastic public network corresponding to the primary IP and the intranet primary IP.
+        A virtual machine can only associate with an EIP (master network card). If the main network card already exists EIP,  the error will be returned.
       operationId: associateElasticIp
       parameters:
         - name: elasticIpId
@@ -541,7 +540,7 @@ paths:
       description: |
         Create a private image for the virtual machine. The virtual machine status must be stopped. <br>
         A virtual machine can create an image with no task in progress. <br>
-        If a data disk is attached in the virtual machine,  the snapshot of data disk is created by default to generate a packaged image. <br>
+        If a data disk is attached in the Virtual Machines,  the snapshot of data disk is created by default to generate a packaged image. <br>
         After calling the API, the user can not use the image normally until the image status becomes <b>ready</b>.
       operationId: createImage
       parameters:
@@ -590,16 +589,16 @@ paths:
     ###################### Attaching a VM with a Hard Disk ######################
     post:
       description: |
-        Attach a data disk (cloud hard disk) for a virtual machine,  and the virtual machine and the cloud disk service are not attached when they are in progress. <br>
+        Attach a data disk (cloud hard disk) for a virtual machine,  and the Virtual Machines and the Cloud Disk Service are not attached when they are in progress. <br>
         The virtual machine status must be running or stopped status. <br>
-        The VM of the local disk as system disk can be attached with eight data disks, and the VM of cloud disk service can be attached with seven data disks.
+        The VM of the local disk as system disk can be attached with eight data disks, and the VM of Cloud Disk Service can be attached with seven data disks.
       operationId: attachDisk
       parameters:
         - name: diskId
           in: query
           type: string
           required: true
-          description: Cloud disk service ID
+          description: Cloud Disk Service ID
         - name: deviceName
           in: query
           type: string
@@ -608,7 +607,7 @@ paths:
           in: query
           type: boolean
           default: false
-          description: Automatically delete this cloud disk service with the machine, False by default. It supports only the cloud disk service that is paid by instance types. This parameter is not valid for a shared type cloud disk service.
+          description: Automatically delete this Cloud Disk Service with the machine, False by default. It supports only the cloud disk service that is paid by instance types. This parameter is not valid for a shared type cloud disk service.
       responses:
         200:
           description: OK
@@ -627,14 +626,14 @@ paths:
     ###################### Detach a Hard Disk from a VM ######################
     post:
       description: |
-        For virtual machine uninstalling data disk,  a virtual machine,  and a cloud disk service are not loaded until they are in progress. <br>
+        For virtual machine uninstalling data disk,  a virtual machine,  and a Cloud Disk Service are not loaded until they are in progress. <br>
       operationId: detachDisk
       parameters:
         - name: diskId
           in: query
           type: string
           required: true
-          description: Cloud disk service ID
+          description: Cloud Disk Service ID
         - name: force
           in: query
           type: boolean
@@ -770,9 +769,9 @@ paths:
     ###################### VM Changes Instance Type ######################
     post:
       description: |
-          virtual machine Change Specification Type 
-          The status of the virtual machine must be stopped status. <br>
-          The cloud disk service created in 16 years is the machine of the system disk,  and the generation and the second generation specification type are not allowed to be adjusted to each other. <br>
+          Virtual Machines Change Specification Type
+          The status of the Virtual Machines must be stopped status. <br>
+          The Cloud Disk Service created in 16 years is the machine of the system disk,  and the generation and the second generation specification type are not allowed to be adjusted to each other. <br>
           Local disk (type) is the machine of the system disk,  and the first generation and the second generation specification type are not allowed to be adjusted to each other. <br>
           Machine,  generation,  and second-generation specification types created using availability group (Ag) do not allow mutual adjustment. <br>
           The cloud disk service (cloud type) is the machine of the system disk,  and the generation and the second generation specification type are allowed to adjust to each other. <br>
@@ -805,7 +804,7 @@ paths:
     post:
       description: |
         Virtual machine uses the specified image to reset the virtual machine image<br>
-        The status of the virtual machine must be stopped status. <br>
+        The status of the Virtual Machines must be stopped status. <br>
         If the system disk type of the current virtual machine is a WORM type,  the replacement image must be an image of the current Disk type;Similarly,  if the system disk of the current virtual machine is cloud type,  the replacement image must be an image of the clyDisk type. Can query <a href = "https://www.jdcloud.com/help/detail/2874/isCatalog/1"> DescribeImages</a> interface gets the image information for the specified zone. <br>
         If you do not specify the image ID,  the current machine's original image rebuild system is used by default. <br>
         The specified image must be able to support the instanceType of the current machine, otherwise an error will occur. Query <a href="https://www.jdcloud.com/help/detail/2872/isCatalog/1">DescribeImageConstraints</a> API for instance type limit information about the specified image.

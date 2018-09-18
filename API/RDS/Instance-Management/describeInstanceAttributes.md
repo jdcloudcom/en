@@ -22,19 +22,19 @@ None
 ## Return parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**dbInstanceAttributes**|[DBInstanceAttribute](##DBInstanceAttribute)||
+|**dbInstanceAttributes**|DBInstanceAttribute||
 ### <a name="DBInstanceAttribute">DBInstanceAttribute</a>
 |Name|Type|Description|
 |---|---|---|
 |**auditStatus**|String|Audit status, detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)|
 |**azId**|String[]|AZ ID, the first is AZ for the primary instance, which is detailed in [Regions and Availability Zone Comparison Table](../Enum-Definitions/Regions-AZ.md)|
-|**charge**|[Charge](##Charge)|Billing Configuration|
+|**charge**|Charge|Billing Configuration|
 |**connectionMode**|String|Access mode, detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)|
 |**createTime**|String|Instance Creation Time|
 |**engine**|String|Instance engine type, such as MySQL or SQL Server, etc., detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)|

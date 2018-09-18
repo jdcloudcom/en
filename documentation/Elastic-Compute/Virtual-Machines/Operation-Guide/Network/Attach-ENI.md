@@ -2,7 +2,7 @@
 
 Elastic network interface mainly has the following associated information:
 
-* Primary Network Interface: A special type of elastic network Interface that is created with virtual machine and has the same lifetime as virtual machine.
+* Primary Network Interface: A special type of elastic network Interface that is created with Virtual Machines and has the same lifetime as Virtual Machines.
 * Secondary Network Interface: It needs to be created independently, deleted and supported for elastic plugging, of which the primary network interface does not support associating and disassociating, and secondary network interface supports associating and disassociating
 * Primary Private IP: The first private IP address assigned when elastic network interface is created can be specified by the user or assigned by the system but not supported for release.
 * Secondary Private IP: The private IP address assigned by the elastic network interface except the primary IP can be assigned by the user or assigned by the system to support release.
@@ -26,11 +26,11 @@ Over 8-core	|8	|21
 
 ## Operation Steps
 
-1. Access [Virtual Machine Console](https://cns-console.jdcloud.com/host/compute/list) and enter the instance list page. Or access [JD Cloud Console](https://console.jdcloud.com) Click navigation bar on the left [Elastic Compute] - [Virtual Machine] to enter the instance list page.
+1. Access [Virtual Machines Console](https://cns-console.jdcloud.com/host/compute/list) and enter the instance list page. Or access [JD Cloud Console](https://console.jdcloud.com) Click navigation bar on the left **Elastic Compute** - **Virtual Machines** to enter the instance list page.
 2. Select Regions.
 3. In the instance list, select the instance to which you want to bind the elastic network interface. Click the name to enter the details page.
-4. Click [Elastic Network Interface] Tab-[Bind Elastic Network Interface].
-5. In the pop-up window, select an elastic network interface and click [Confirm].
+4. Click **Elastic Network Interface** tab - **Bind Elastic Network Interface**.
+5. In the pop-up window, select an elastic network interface and click **OK**.
 		
 		Please note:
 		* It takes a few minutes for the operation to bind, so please wait for the page to refresh.
@@ -39,10 +39,10 @@ Over 8-core	|8	|21
 		
 For detailed routing and IP configuration, see [Configuring Routing](../../../../Networking/Elastic-Network-Interface/Operation-Guide/VM-Configuration/Linux-Permanent-Configuration.md).
 
-In addition, you can also bind from the elastic network interface console. For details, see [Elastic Network Interface Side Associate Elastic Network Interface](../../../../Networking/Elastic-Network-Interface/Operation- Guide/Elastic-Network-Interface-Management/Associate-Elastic-Network-Interface.md).
+**Elastic Network Interface**(../../../../Networking/Elastic-Network-Interface/Operation- Guide/Elastic-Network-Interface-Management/Associate-Elastic-Network-Interface.md).
 
 ## Related Reference
 
 [Configure Routing](../../../../Networking/Elastic-Network-Interface/Operation-Guide/VM-Configuration/Linux-Permanent-Configuration.md)
 
-[Elastic Network Interface Side Bind Elastic Network Interface](../../../../Networking/Elastic-Network-Interface/Operation-Guide/Elastic-Network-Interface-Management/Associate-Elastic-Network-Interface. Md)
+**Elastic Network Interface**(../../../../Networking/Elastic-Network-Interface/Operation-Guide/Elastic-Network-Interface-Management/Associate-Elastic-Network-Interface. Md)

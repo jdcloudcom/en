@@ -1,20 +1,20 @@
-# Core Concept
+# Core Concepts
 ## Monitoring Category
-**Monitoring Indicator**  
-Indicator is the basic concept of the Cloud Monitor. An indicator represents a set of data points that are published to the Cloud Monitor and sorted by time. An indicator can be thought of as a variable to be monitored, and a data point represents a value that changes over time. For example, the CPU usage of a particular VM Instance is an indicator provided by the JD Cloud VM. The data points themselves can come from any application or business activity from which you collect data.
-The Cloud Service Resource sends indicators to the Cloud Monitor. You can retrieve statistics about these data points by an ordered set of time series data.
+**Monitoring Metric**  
+Metric is the basic concept of the Cloud Monitor. An indicator represents a set of data points that are published to the Monitoring and sorted by time. An indicator can be thought of as a variable to be monitored, and a data point represents a value that changes over time. For example, the CPU usage of a particular VM Instance is an indicator provided by the JD Cloud VM. The data points themselves can come from any application or business activity from which you collect data.
+The Cloud Service Resource sends indicators to the Monitoring. You can retrieve statistics about these data points by an ordered set of time series data.
 
 **Statistical Data**   
-Statistical Data is the Indicator Data Aggregation over a specified time period. All statistical data are equipped with units of measure. Common units include seconds (time units), Bytes (bits), bits (bits), % (percentage), and secondary (counting units).
+Statistical Data is the Metric Data Aggregation over a specified time period. All statistical data are equipped with units of measure. Common units include seconds (time units), Bytes (bits), bits (bits), % (percentage), and secondary (counting units).
 
 **Time period**   
-The time period is the interval length of the Cloud Monitor Statistical Data, and each time stamp data represents the result of aggregating all the collected data within a specified time period. The minimum granularity of the time period is one Minute.
+The time period is the interval length of the Monitoring Statistical Data, and each time stamp data represents the result of aggregating all the collected data within a specified time period. The minimum granularity of the time period is one Minute.
 
 **Time Stamp**  
-Each indicator data point in the Cloud Monitor must be equipped with a time stamp indicating the time of this raw data collection. The Time Stamp used in the request must be a dateTime object and contain the full date and hours, minutes, and seconds, for example: 2000-01-31 23:59:59, it is recommended that you provide Time Stamp in Beijing time (East Eight Time Zone).
+Each metric data point in the Monitoring must be equipped with a time stamp indicating the time of this raw data collection. The Time Stamp used in the request must be a dateTime object and contain the full date and hours, minutes, and seconds, for example: 2000-01-31 23:59:59, it is recommended that you provide Time Stamp in Beijing time (East Eight Time Zone).
 
 **Indicator Data Aggregation**  
-The Cloud Monitor aggregates statistical data based on the length of the monitoring period that you specify when you retrieve statistical data.  
+The Monitoring aggregates statistical data based on the length of the monitoring period that you specify when you retrieve statistical data.  
 If a 1-hour monitoring period is selected, the minimum granularity is 1 minute, that is, each data point is the result of aggregating all the collected data within one minute. The minimum granularity of aggregation for different monitoring cycles is as follows:
 
 Monitoring Cycle| Minimum Granularity
@@ -28,11 +28,11 @@ Monitoring Cycle| Minimum Granularity
 1 Month | 3 Hours
 
 **Monitoring Cycle**   
-Refers to the Monitoring Time period of an indicator in the Cloud Monitor, which can be selected by: Supports up to the monitoring period of the previous month from the current day. Optional cycle range: 1 hour, 6 hours, 12 hours, 1 day, 3 days, 7 days, 14 days, optional time period.
+Refers to the Monitoring Time period of an indicator in the Monitoring, which can be selected by: Supports up to the monitoring period of the previous month from the current day. Optional cycle range: 1 hour, 6 hours, 12 hours, 1 day, 3 days, 7 days, 14 days, optional time period.
 
-**Cloud Monitor Status**  
+**Monitoring Status**  
 Normal: The current resource is running normally and the indicator data does not meet the alarm criteria which has been set.  
-Alarm: The current Resource Indicator Data has reached the alarm criteria which has been set.  
+Alarm: The current Resource metric Data has reached the alarm criteria which has been set.  
 Data Deficiencies: The current resource monitoring data has not been obtained yet.  
 Not Set: The current resource does not set alarm rules.  
 Not Enabled: The current resource has set alarm but is not enabled.
@@ -45,11 +45,11 @@ It refers to how the monitoring data is displayed in the graph, including the tw
 Details: Multiple instances of the same indicator are not aggregated, and one Monitoring Item of a resource displays a piece of data.
 Summary: Multiple instances of the same indicator are aggregated to display, and one Monitoring Item of a resource displays a piece of data.
 
-**Bioavailability**  
+**Availability**  
 It refers to the number of detection results/detection result total number *100 whose status code returned by the detection point is less than 400 during the detection period.
 
 **Response Time**  
-Response time is the time from the initiation of the detection to the receipt of the result of the request. If there is a redirect during the detection, this value contains the redirect time.
+Response time is the time from initiation of the detection to receipt of the request result. If there is a redirect during the detection, this value contains the redirect time.
 ## Alarm Category
 **Alarm**  
 Use alarm to monitor a single indicator over a specified time period and perform one or more specified actions based on how the indicator value changes relative to the threshold. According to the alarm rules you set, when the resource reaches the threshold, you will be notified by SMS or E-mail at the first time to protect your business.

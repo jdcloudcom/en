@@ -1,17 +1,17 @@
-name: Operation instructions
+name: Operation Instructions
 href: 
 items:
-- name: CLI profile
+- name: CLI Introduction
   herf: Introduction.md
-- name: installation
+- name: Installation
   herf: Installation.md
-- name: configuration
+- name: Configuration
   herf: Config.md
 - name: Instruction for Use
   herf: Usage.md
-- name: example for use
+- name: Example for Use
   herf: Examples.md
-- name: Frequently Questions
+- name: FAQ
   herf: TroubleShooting.md
           
           

@@ -10,7 +10,7 @@ definitions:
         description: Subnet ID
       az:
         type: string
-        description: Availability zone, user’s default availability zone
+        description: Availability Zone, User’s Default Availability Zone
       networkInterfaceName:
         type: string
         description: Network interface name, only allowed to enter Chinese, numbers, capital and lowercase letters, English underline “_” and line-through “-”, must provide a name which cannot exceed 32 characters.
@@ -21,15 +21,15 @@ definitions:
         type: array
         items:
           type: string
-        description: SecondaryIp list
+        description: Secondary IP List
       secondaryIpCount:
         type: integer
-        description: Amount of SecondaryIp assigned automatically
+        description: Amount of Secondary IP Assigned Automatically
       securityGroups:
         type: array
         items:
           type: string
-        description: Security group ID list to be associated, a maximum of 5 security groups can be done
+        description: Security Group ID list to be associated, a maximum of 5 Security Groups can be done
       sanityCheck:
         type: integer
         description: Source and target IP address verification, with value 0 or 1, default value is 1

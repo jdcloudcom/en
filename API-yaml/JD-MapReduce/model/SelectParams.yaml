@@ -7,12 +7,12 @@ definitions:
     properties:
       pageNum:
         type: integer
-        description: Search paging number, optional condition
+        description: Search Paging Number, optional condition
       pageSize:
         type: integer
-        description: Search paging size, optional condition
+        description: Search Paging Size, optional condition
       orderBy:
         type: string
-        description: Ranking condition, optional
+        description: Ranking Condition, optional
       status:
         type: string

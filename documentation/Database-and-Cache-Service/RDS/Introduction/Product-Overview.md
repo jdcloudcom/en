@@ -1,5 +1,5 @@
 # Product Overview
-RDS is a stable and reliable cloud database service of JD Cloud based on MySQL service, Percona service and SQL Server service that are popular worldwide. RDS is more easily to be deployed, managed and expanded compared with traditional. It supports the primary-secondary hot standby framework by default, and provides complete solutions for data backup, failure recovery and monitoring to completely solve the issues of database operation and maintenance. Meanwhile, JD Cloud RDS provides a high-level security for database services by using network isolation, internet restrictions by whitelists, etc.
+RDS is a stable and reliable cloud database service of JD Cloud based on MySQL service, Percona service and SQL Server service that are popular worldwide. RDS is more easily to be deployed, managed and expanded compared with traditional. It supports the primary-secondary hot standby framework by default, and provides complete solutions for data backup, failure recovery and monitoring to completely solve the issues of database operation and maintenance. Meanwhile, JD Cloud RDS provides a high-level security for database services by using network isolation, internet restrictions by White Lists, etc.
 
 ## RDS Features
 * The current JD Cloud database supports three database types: MySQL, Percona and SQL Server.

@@ -54,7 +54,7 @@ meta fresh: It is specifically to redirect to a new webpage after a certain time
 
 Specific Method for 301 Redirect
 
-1. set the .htaccess file (only for linux systems, requiring virtual machine support.)
+1. Set the .htaccess file (only for linux systems, requiring virtual machine support.)
 
 When visiting jdcloud.com/, it will automatically go to www.jdcloud.com
 
@@ -86,7 +86,7 @@ If yours is WanNet on a windows machine, you should use the DNS alias resolution
 
 ASP：
 
-Response.Status="301 MovedPermanently”
+Response.Status="301 MovedPermanently"
 
 Response.AddHeader”Location”,”http://www.jdcloud.com/”
 
@@ -94,9 +94,9 @@ Response.End
 
 PHP：
 
-header(“HTTP/1.1 301 MovedPermanently”)；
+header("HTTP/1.1 301 MovedPermanently")；
 
-header(“Location：http://www.jdcloud.com/”)；
+header("Location：http://www.jdcloud.com/")；
 
 exit()；
 

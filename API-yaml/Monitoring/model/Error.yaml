@@ -6,10 +6,10 @@ definitions:
     properties:
       code:
         type: integer
-        description: "Error code"
+        description: "Error Code"
       message:
           type: string
-          description: "Error information" 
+          description: "Error Information" 
       status:
           type: string
-          description: "Error status"   
+          description: "Error Status"   

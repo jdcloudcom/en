@@ -1,4 +1,4 @@
-# Java connection
+# Java Connection
 - step1: download java client of redis, reference address: <a href="https://github.com/xetorthio/jedis">https://github.com/xetorthio/jedis</a> </p>
 
 - step2: write test case
@@ -93,21 +93,21 @@ public static void main(String[] args) {
 
 - step3: configure parameters for redisPool through Properties documents
 
-<pre><code>#IP address
+<pre><code>#IP Address
 redis.pool.host=jcache-online20***59f-aeba-46*0-9fec-2de*****cd4c.jdicts.jcloud.com
-# Port number
+# Port Number
 redis.pool.port=6379
 redis.pool.pass=89376FC86*******403911BF5C538
-# The largest idle
+# The Largest idle
 redis.pool.maxIdle=300
-# The biggest allocated object
+# The Biggest Allocated Object
 redis.pool.maxTotal=600
 # How long does it take to check the idle connection?
 redis.pool.timeBetweenEvictionRunsMillis=5000
 # How long does it take to recover the idle connection?
 redis.pool.minEvictableIdleTimeMillis=8000
 # The sum of the above values shall not less than 15 seconds, otherwise the server connection may be breaked.
-#borrow object
+# borrow object
 redis.pool.testOnBorrow=true
 redis.pool.timeout=3000
 redis.pool.testWhileIdle=true</code></pre>

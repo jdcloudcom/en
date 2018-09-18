@@ -17,7 +17,7 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkSecurityGroups/
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**filters**|[Filter[]](##Filter)|False||networkSecurityGroupIds - Security group ID list, support multiple IDs<br>networkSecurityGroupNames - Security group name list, support multiple names<br>vpcId	- vpc Id of security group, support single Id<br>|
+|**filters**|Filter[]|False||networkSecurityGroupIds - Security group ID list, support multiple IDs<br>networkSecurityGroupNames - Security group name list, support multiple names<br>vpcId	- vpc Id of security group, support single Id<br>|
 |**pageNumber**|Integer|False|1|Page; it is 1 by default, the value range: [1,∞); when the pages exceed total pages, show the last page|
 |**pageSize**|Integer|False|20|Paging size; it is 20 by default; value range[10, 100]|
 
@@ -32,13 +32,13 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkSecurityGroups/
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
-|**result**|[Result](##Result)|Returned results|
+|**result**|Result|Returned results|
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**networkSecurityGroups**|[NetworkSecurityGroup[]](##NetworkSecurityGroup)|Security group resource information list|
+|**networkSecurityGroups**|NetworkSecurityGroup[]|Security group resource information list|
 |**totalCount**|Number|Total number|
 ### <a name="NetworkSecurityGroup">NetworkSecurityGroup</a>
 |Name|Type|Description|
@@ -47,7 +47,7 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkSecurityGroups/
 |**description**|String|Security group description information|
 |**networkSecurityGroupId**|String|Security group ID|
 |**networkSecurityGroupName**|String|Security group name|
-|**securityGroupRules**|[SecurityGroupRule[]](##SecurityGroupRule)|Security group rule information|
+|**securityGroupRules**|SecurityGroupRule[]|Security group rule information|
 |**vpcId**|String|vpc Id of security group|
 ### <a name="SecurityGroupRule">SecurityGroupRule</a>
 |Name|Type|Description|

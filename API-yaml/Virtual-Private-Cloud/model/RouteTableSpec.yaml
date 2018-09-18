@@ -8,7 +8,7 @@ definitions:
     properties:
       vpcId:
         type: string
-        description: Virtual private cloud ID of route table
+        description: VPC ID of Route Table
       routeTableName:
         type: string
         description: Route table name, only allowed to enter Chinese, numbers, capital and lowercase letters, English underline “_” and line-through “-”, must provide a name which cannot exceed 32 characters.

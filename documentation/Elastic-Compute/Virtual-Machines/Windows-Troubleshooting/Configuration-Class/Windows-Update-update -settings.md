@@ -1,11 +1,11 @@
 # Windows Update Settings
 Windows system server of JD Cloud does not enable Windows Update to check for updates by default. Users can set the check for updates by themselves in the following way:
 
-1. Click "Start" - "Control Panel";
+1. Click **Start** - **Control Panel**;
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows%20Update%E6%9B%B4%E6%96%B0%E8%AE%BE%E7%BD%AE01.png)
 
-2. Open the Control Panel and select "Small Icon" in the category at the top right corner, then open "Windows Update" and select "Change Settings" on the left.
+2. Open the Control Panel and select **Small Icon** in the category at the top right corner, then open **Windows Update** and select **Change Settings** on the left.
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows%20Update%E6%9B%B4%E6%96%B0%E8%AE%BE%E7%BD%AE02.png)
 

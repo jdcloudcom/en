@@ -24,13 +24,13 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/vpcSubnets/{vpcId}:query
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**data**|[QueryVpcSubnets[]](##QueryVpcSubnets)|VPC subnet information collection|
+|**data**|QueryVpcSubnets[]|VPC subnet information collection|
 |**message**|String||
 |**status**|String||
 ### <a name="QueryVpcSubnets">QueryVpcSubnets</a>

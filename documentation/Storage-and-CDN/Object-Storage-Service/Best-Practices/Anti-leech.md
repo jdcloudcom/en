@@ -1,12 +1,12 @@
-# Anti-Leech
+# Best Practices of Anti-Leech
 
-To prevent the data stored in object storage service from hotlinking by others, JD Cloud Object Storage Service supports Anti-Leech method based on HTTP Header Referer field. You can set the white list of Referer field through the console. After setting the white list, only users of Referer field within the white list can access the data stored in Bucket and those requests out of the white list will be denied. However, if the Referer white list is not configured, data can be accessed by default without being limited by the white list.
+To prevent the data stored in object storage service from hotlinking by others, JD Cloud Object Storage Service supports anti-leech chain method based on HTTP Header Referer field. You can set the white list of Referer field through the console. After setting the white list, only users of Referer field within the white list can access the data stored in Bucket and those requests out of the white list will be denied. However, if the Referer white list is not configured, data can be accessed by default without being limited by the white list.
 
 ## Anti-Leech
 
 Website A stores its static resources such as images or videos on the OSS of JD Cloud storage. But website B uses these images or videos resources of website A to put on its own website without permit of website A. In this way, website B steals the space and traffic of website A while A did not receive any benefit but bear fees for using these resources. The behavior that B steals A's resources to put on its own website is called hotlinking.
 
-The primary method for Anti-Leech is to limit referrers by setting Referer:
+The primary method for anti-leech is to limit referrers by setting Referer:
 
 The principle for setting Referer is to compare the Referer attribute of HTTP request header (has saved which URL sends this request to the server) with the white list permitted by the server, if consistency, it indicates it is an intra-request or a site request that you can trust; if inconsistency, it is considered to be hotlinking and the request of this site will be denied.
 
@@ -20,7 +20,7 @@ Quote OSS resources in a network A: The browser visits the page of the network h
 
 ## Configuring Anti-Leech
 
-Log in the JD Cloud object storage page and enter the Setting-Permission Setting page under one Bucket, as shown in the figure below:
+Log in the JD Cloud object storage service page and enter the Setting-Permission Setting page under one Bucket, as shown in the figure below:
 
 ![权限设置](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-075.jpg)
 
@@ -28,7 +28,7 @@ Once the write-read permission of this Bucket is set as the customized permissio
 
 ![自定义权限](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-076.jpg)
 
-Check Referer white list in the “Setting” to set the Referer white list and set if the Referer is allowed to be blank.
+Check Referer white list in the "Setting" to set the Referer white list and set if the Referer is allowed to be blank.
 
 For more details about configuration action of Referer, please visit the access permission setting.
 
@@ -61,4 +61,4 @@ The access results are as follows:
 |http://jd.com/ |Request from origin server|Successful access|
 |http://jd-steal.com/ |Request from hotlinking|Return 403|
 
-3. Set the Referer white list to be blank. If the HTTP request contains the Referer, OSS will refuse requests from all website, including the trusted website. Thus, the configuration is not recommended for use. If you want to realize the Anti-Leech, please adopt the first two configuration schemes.
+3. Set the Referer white list to be blank. If the HTTP request contains the Referer, OSS will refuse requests from all website, including the trusted website. Thus, the configuration is not recommended for use. If you want to realize the anti-leech, please adopt the first two configuration schemes.

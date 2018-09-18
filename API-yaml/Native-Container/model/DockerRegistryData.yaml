@@ -4,7 +4,7 @@ definitions:
     x-jdcloud-module: nc
     x-jdcloud-internal: false
     type: object
-    description: secret data
+    description: Secret Data
     required:
       - server
       - username
@@ -12,13 +12,13 @@ definitions:
     properties:
       server:
         type: string
-        description: registry server address
+        description: Registry Server Address
       username:
         type: string
-        description: User name
+        description: User Name
       password:
         type: string
         description: Password 
       email:
         type: string
-        description: Email address
+        description: Email Address

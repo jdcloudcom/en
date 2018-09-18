@@ -26,14 +26,14 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domain/{domainId}/
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|ID of this request|
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
 |**currentCount**|Integer|Resolution records of current page|
-|**dataList**|[RR[]](##RR)|List of the resolution record|
+|**dataList**|RR[]|List of the resolution record|
 |**totalCount**|Integer|Number of all resolution records|
 |**totalPage**|Integer|Pages of all resolution records|
 ### <a name="RR">RR</a>

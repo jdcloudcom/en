@@ -3,7 +3,7 @@
 ## Basic Description
 The JD Cloud C ++ signing tool provides the request signature function when C ++ language is used to access the JD Cloud OpenAPI.
 
-Before apply for JD Cloud open API, [AccessKey management page](https://uc.jdcloud.com/accesskey/index) shall be called out for application of accesskey and secretKey Key Pair (AK/SK). AK/ SK information shall be kept properly and if lost, it is likely to cause illegal users to use this information to operate your resources on the cloud, resulting data or property losses.
+Before apply for JD Cloud open API, [AccessKey Management Page](https://uc.jdcloud.com/accesskey/index) shall be called out for application of accesskey and secretKey Key Pair (AK/SK). AK/ SK information shall be kept properly and if lost, it is likely to cause illegal users to use this information to operate your resources on the cloud, resulting data or property losses.
 
 This signature tool is available in a static library using the C++11 standard. The approximate process used is:
 - Introducing the dependent header files and static libraries into your project through the cmake tool
@@ -13,7 +13,7 @@ This signature tool is available in a static library using the C++11 standard. T
 - Then initiate a call to JD Cloud OpenAPI gateway
 
 ## Linux（Ubuntu）
-### Installation method
+### Installation Method
 1) Installation and development dependency library
 ```
 sudo apt-get install g++ cmake libssl-dev uuid-dev
@@ -45,7 +45,7 @@ make
 ```
 
 ## macOS
-### Installation method
+### Installation Method
 1) Install the above version of cmake3.5
 ```
 brew install cmake
@@ -75,7 +75,7 @@ cmake .
 make
 ```
 ## Windows
-### Installation method
+### Installation Method
 1) The above version of Visual Studio 2015, the official address is: https://visualstudio.microsoft.com/
 2) The above version of CMake 3.5, the official address is: https://cmake.org/
 3) Download the Demo instance from the GitHub, the address is: https://github.com/jdcloud-api/jdcloud-sdk-cpp-signer
@@ -106,7 +106,7 @@ devenv Demo.sln /build
 
 Open the Demo.sln solution using Visual Studio, compile.
 
-## Call method
+## Call Method
 ```
 // Reference header files
 #include "Credential.h"

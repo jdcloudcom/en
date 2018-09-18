@@ -17,7 +17,7 @@ https://iam.jdcloud-api.com/v1/regions/{regionId}/subUser
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**createSubUserInfo**|[CreateSubUserInfo](##CreateSubUserInfo)|True||Sub-account information|
+|**createSubUserInfo**|CreateSubUserInfo|True||Sub-account information|
 
 ### <a name="CreateSubUserInfo">CreateSubUserInfo</a>
 |Name|Type|Required or not|Default value|Description|

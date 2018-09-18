@@ -20,7 +20,7 @@ If users need to reduce the impact on the service during the restart, the failov
 2. Restart the standby node (i.e., the original primary node).
 3. Perform the failover function again (this step can be skipped if both the primary and standby nodes are in the same availability zone).
 
-**Note: Both failover instances and rebooting instances will interrupt the ongoing backup, so users shall avoid to carry out these operation as far as possible when the backup is in progress. **
+**Note: Both failover instances and rebooting instances will interrupt the ongoing backup, so users shall avoid to carry out these operation as far as possible when the backup is in progress.**
 
 The start time of the backup can be viewed on the backup strategy page of the backup management. It is recommended to perform a full backup manually after the operation is completed, if it is necessary to operate while the backup is in progress.
 

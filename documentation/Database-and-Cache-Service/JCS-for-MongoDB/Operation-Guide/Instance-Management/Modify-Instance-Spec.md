@@ -19,7 +19,7 @@ MongoDB instances support configuration items for changes, including:
 ## Operation Steps
 
 1. Log into [MongoDB Console](https://mongodb-console.jdcloud.com/mongodb?dataCenter=bj_02).
-1. On the "Instance List" page, select the target instance, click "Alter Configuration" in the operation items to open the alter configuration popup.
+1. On the "Instance List" page, select the target instance, click **Alter Configuration** in the operation items to open the alter configuration popup.
    
    ![](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-011.png)
 
@@ -33,16 +33,16 @@ MongoDB instances support configuration items for changes, including:
 	
 	- Storage Space: The disk space occupied by the instance.
 		
-	- Network: The current instance is under VPC and subnet and cannot be altered.
+	- Networking: The current instance is under VPC and subnet and cannot be altered.
 	- Billing type: The billing type of the current instance, which cannot be modified.
 	- Cost
 		- For the instance with billing type pay by configuration, the fees are the hourly fee for the new configured instance.
 		- For the instance with billing type under monthly package, the expense is the price difference of new and old configurations within the valid period of instance.
 		
 1. After selecting the configuration, click **OK** to enter the "Order Confirmation" page.
-1. On the "Order Confirmation" page, confirm the instance information and read the Terms of Service for MongoDB.
+1. On the "Order Confirmation" page, confirm the instance information and read the Terms of Service for JCS for MongoDB.
 	- For the billing type pay by configuration, please click **Instant Account Setup**.
-	- For the billing type under monthly package, please click, please click ** Pay Now** to enter the "Order Payment" page to complete the payment process.
+	- For the billing type under monthly package, please click, please click **Pay Now** to enter the "Order Payment" page to complete the payment process.
 
 1. After the payment process is completed, the page will automatically jump to the MongoDB "Instance List" page, please wait for the instance alteration to complete. You can view the newly altered instance on the "Instance Details" page.  
 

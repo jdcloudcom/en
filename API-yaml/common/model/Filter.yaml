@@ -9,7 +9,7 @@ definitions:
     properties:
       name:
         type: string
-        description: Name of filter requirements
+        description: Name of Filter Requirements
       operator:
         type: string
         description: Operator of filter requirements is eq by default
@@ -24,7 +24,7 @@ definitions:
           - like
       values:
         type: array
-        description: Value of filter requirements
+        description: Value of Filter Requirements
         items:
           type: string
 

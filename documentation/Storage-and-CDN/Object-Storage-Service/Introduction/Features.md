@@ -1,4 +1,4 @@
-# Product Function
+# Features
 
 Before you use the object storage service product, it is recommended that you should read the basic concept of object storage. We here introduce in detail the creation and naming rules of Bucket, Object and definitions of Region, Endpoint and AccessKey, which can help you better understand the following function introduction and description.
 
@@ -19,7 +19,7 @@ The object storage service provides the following functions:
 |Obtain external link|Share and download files through obtaining external link address of the uploaded files. |
 |Delete Objcect|Delete a single file. |
 |Delete folder|Delete a single folder. |
-|Consumption monitoring|Be aware of usage of OSS service, including relevant data and consumption monitoring graph. |
+|Consumption Monitoring|Be aware of usage of OSS service, including relevant data and consumption monitoring graph. |
 |Picture service|Make format conversion, crop, scale, rotate, watermark, encapsulation to pictures saved in OSS. |
 |Video service|Provide transcoding services of multiple video formats. |
 |API|Provides RESTful API actions and relevant examples supported by OSS. |

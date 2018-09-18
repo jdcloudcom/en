@@ -1,6 +1,6 @@
 ﻿# Features
 
-## Product Functions
+## Features
 ### Data Persistence Storage
 - Redis keeps the data completely in memory, ensuring high efficiency and at the same time persisting data on the physical disk to ensure data security.
 

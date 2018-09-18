@@ -17,7 +17,7 @@ Click OK to start importing after the information is confirmed as correct.
          
 ## 4. View Importing Status
 - Click the refresh button and it can be seen that the files are "Importing", and the status of the instance is also changed to "Cloud on Single Database". 
-- View the status of the database. It can be seen that the status of the database changes in the following order: “Deleting”-->“Pending" --> "Running”.
+- View the status of the database. It can be seen that the status of the database changes in the following order: "Deleting"-->"Pending" --> "Running".
 
 ![Import Backup 4](../../../image/RDS/Import-Backup-4.png)
 

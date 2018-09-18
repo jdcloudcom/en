@@ -5,4 +5,4 @@ info:
   description: IAM APIs
 host: "iam.jdcloud-api.com"
 x-jdcloud-version: "v1"
-x-jdcloud-revision: "0.1.5"
+x-jdcloud-revision: "0.1.6"

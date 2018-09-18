@@ -17,7 +17,7 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/vpcs/
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**filters**|[Filter[]](##Filter)|False||vpcIds - vpc ID list, support multiple IDs<br>vpcNames - vpc name list, support multiple names<br>|
+|**filters**|Filter[]|False||vpcIds - vpc ID list, support multiple IDs<br>vpcNames - vpc name list, support multiple names<br>|
 |**pageNumber**|Integer|False|1|Page; it is 1 by default, the value range: [1,∞); when the pages exceed total pages, show the last page|
 |**pageSize**|Integer|False|20|Paging size; it is 20 by default; value range: [10, 100]|
 
@@ -32,14 +32,14 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/vpcs/
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
-|**result**|[Result](##Result)|Returned results|
+|**result**|Result|Returned results|
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
 |**totalCount**|Number|Total number|
-|**vpcs**|[Vpc[]](##Vpc)|Vpc resource information list|
+|**vpcs**|Vpc[]|Vpc resource information list|
 ### <a name="Vpc">Vpc</a>
 |Name|Type|Description|
 |---|---|---|
@@ -48,7 +48,7 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/vpcs/
 |**createdTime**|String|vpc creation time|
 |**description**|String|VPC description, value range: 1~120 characters|
 |**routeTableIds**|String[]||
-|**subnets**|[Subnet[]](##Subnet)|Subnet list included in virtual private cloud|
+|**subnets**|Subnet[]|Subnet list included in virtual private cloud|
 |**vpcId**|String|Vpc Id|
 |**vpcName**|String|Virtual private cloud name, value range: 1-60 Chinese, English capital and lowercase letters, numbers and underline delimiter|
 ### <a name="Subnet">Subnet</a>

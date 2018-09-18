@@ -24,19 +24,19 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances
 ## Return parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**dbInstances**|[DBInstance[]](##DBInstance)||
+|**dbInstances**|DBInstance[]||
 |**totalCount**|Integer||
 ### <a name="DBInstance">DBInstance</a>
 |Name|Type|Description|
 |---|---|---|
 |**azId**|String[]|AZ ID, the first is AZ for the primary instance, which is detailed in [Regions and Availability Zone Comparison Table](../Enum-Definitions/Regions-AZ.md)|
-|**charge**|[Charge](##Charge)|Billing Configuration|
+|**charge**|Charge|Billing Configuration|
 |**createTime**|String|Instance Creation Time|
 |**engine**|String|Instance engine type, such as MySQL or SQL Server, etc., detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)|
 |**engineVersion**|String|Instance engine version, detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)|

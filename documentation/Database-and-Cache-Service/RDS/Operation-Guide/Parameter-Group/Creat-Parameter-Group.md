@@ -8,7 +8,7 @@ A parameter set is required to be specified for launch configuration of the data
 
 ## Operation Steps
 1. Login [Parameter Set Console](https://rds-console.jdcloud.com/paramgroup/list)
-2. On the list page of parameter set, click t***Create *** and a pop-up box of ***Create Parameter Set*** will appear.
+2. On the list page of parameter set, click ***Create*** and a pop-up box of ***Create Parameter Set*** will appear.
 3. The pop-up box parameters are as follows
     * Database Type: Select the database type to which the parameter set belongs. The parameter set cannot be applied to database instances with different database types.
     * Database Version: Select the database version to which the parameter set belongs. The parameter set cannot be applied to database instances with different database versions.

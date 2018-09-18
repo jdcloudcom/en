@@ -5,7 +5,7 @@ definitions:
     properties:
       networkInterfaceName:
         type: string
-        description: "Elastic network interface name, only allowed to enter Chinese, numbers, capital and lowercase letters, English underline “_” and line-through “-”, must provide a name which cannot exceed 32 characters"
+        description: "Elastic Network Interface name, only allowed to enter Chinese, numbers, capital and lowercase letters, English underline “_” and line-through “-”, must provide a name which cannot exceed 32 characters"
       description:
         type: string
         description: "Description, all characters allowed to enter under UTF-8 coding, which is not exceed 256 characters"
@@ -13,5 +13,5 @@ definitions:
         type: array
         items:
           type: string
-        description: "To replace the security group with mode update of the original security group. If the security group ID list is updated, a maximum of 5 security groups can be done"
+        description: "To replace the Security Group with mode update of the original Security Group. If the Security Group ID list is updated, a maximum of 5 Security Groups can be done"
 

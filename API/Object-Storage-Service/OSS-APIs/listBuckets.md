@@ -23,14 +23,14 @@ None
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**buckets**|[Bucket[]](##Bucket)||
-|**owner**|[User](##User)||
+|**buckets**|Bucket[]||
+|**owner**|User||
 ### <a name="Bucket">Bucket</a>
 |Name|Type|Description|
 |---|---|---|

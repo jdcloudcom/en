@@ -27,17 +27,17 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domain/{domainId}/
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|ID of this request|
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**data**|[ViewTree[]](##ViewTree)|Tree of the resolution line|
+|**data**|ViewTree[]|Tree of the resolution line|
 ### <a name="ViewTree">ViewTree</a>
 |Name|Type|Description|
 |---|---|---|
-|**children**|[ViewTree[]](##ViewTree)||
+|**children**|ViewTree[]||
 |**disabled**|Boolean|Whether this resolution line is disabled|
 |**label**|String|Name of the resolution line|
 |**leaf**|Boolean|Whether the data is a leaf node|

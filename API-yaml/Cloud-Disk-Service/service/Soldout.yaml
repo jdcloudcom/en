@@ -2,7 +2,7 @@ swagger: "2.0"
 info:
   version: "v1"
   title: Sold-out APIs
-  description: Check the sold-out information 
+  description: Check the Sold-out Information 
 
 basePath: /regions/{regionId}
 
@@ -14,8 +14,8 @@ paths:
    ###################### API for Sold-out Information Query  ######################
     get:
       operationId: describeSoldout
-      summary: "Query cloud disk service sold-out list"
-      description: "Query cloud disk service sold-out list"
+      summary: "Query Cloud Disk Sold-out List"
+      description: "Query Cloud Disk Sold-out List"
       x-jdcloud-internal: true
       responses:
         200:
@@ -29,12 +29,12 @@ paths:
                 properties:
                   soldout:
                     type: array
-                    description: "List of sold-out details queried"
+                    description: "List of Sold-out Details Queried"
                     items:
                       $ref: "../model/Soldout.yaml#/definitions/soldout"
                   totalCount:
                     type: integer
-                    description: "Number of sold-out information queried in the availability zones"
+                    description: "Number of Sold-out Information Queried in the Availability Zones"
               requestId:
                 type: string
                 description: "Request ID"

@@ -4,7 +4,7 @@
 
 **Problem Phenomenon:**
 
-After the virtual machine in the ubuntu system modifying the DNS information in the resolv.conf and restarting, the information in resolv.conf will revert to the pre-modified information;
+After the Virtual Machines in the ubuntu system modifying the DNS information in the resolv.conf and restarting, the information in resolv.conf will revert to the pre-modified information;
 
 
 
