@@ -13,11 +13,11 @@ API gateway offers the domain name association based on API group. The API gatew
 ### Operation Steps:
 #### STEP1: enter the page of API group details, click customize domain name **Tab**.
 
-![Domain list](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/zdyym-list.png)
+![Domain list](https://github.com/jdcloudcom/en/blob/edit/image/Internet-Middleware/API-Gateway/zdyym-list.png)
 
 #### STEP2: Click **Add New Domain name** to add a new one. Currently each group supports to associate 5 customized domain names at most.
 
-![Domain list](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/zdyym-add.png)
+![Domain list](https://github.com/jdcloudcom/en/blob/edit/image/Internet-Middleware/API-Gateway/zdyym-add.png)
 
 
 
