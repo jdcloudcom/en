@@ -11,11 +11,11 @@ JD Cloud object storage service provides flexible permission control mechanism. 
 |Public Read/Write|Public-Read-Write|Bucket Owner obtains all executable action permissions, others obtain READ and WRITE permissions; all the costs incurred by these actions are borne by the Owner of the Bucket, please use the permission carefully. |
 Customized permissions|User-Defined|The permissions of GetObject, PutObject, DeleteObject, ListObjects, DeleteBucket for the assigned users can be set, the resources that the permissions can access can be assigned, and the IP addresses and Referer white list with the permissions can be assigned.|
 
-1. When creating a Bucket on the console, you need to assign an ACL for the Bucket. The effect is as follows:
+1.When creating a Bucket on the console, you need to assign an ACL for the Bucket. The effect is as follows:
 
 ![创建Bucket-访问权限](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-030.png)
 
-2. You can also modify and configure advanced permissions (i.e. customized permissions) in the created Bucket. After entering the space management page of a space, click Space Settings->Permission Settings. The effect is as follows:
+2.You can also modify and configure advanced permissions (i.e. customized permissions) in the created Bucket. After entering the space management page of a space, click Space Settings->Permission Settings. The effect is as follows:
 
 ![权限设置](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-031.png)
 
