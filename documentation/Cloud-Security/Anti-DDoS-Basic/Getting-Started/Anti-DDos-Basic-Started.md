@@ -20,4 +20,4 @@
 - [What is Anti-DDoS Basic](../Introduction/Product-Overview.md)
 - [Functional Properties](../Introduction/Features.md)
 - [Application Scenarios](../Introduction/Application-Scenarios.md)
-- [Basic Architecture](../Introduction/Basic-Architecture.md)
+- [Basic Architecture](../Introduction/Basic-Infrastructure.md)
