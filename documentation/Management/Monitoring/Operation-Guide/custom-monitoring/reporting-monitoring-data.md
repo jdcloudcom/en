@@ -1,5 +1,5 @@
 ## Report Monitoring Data
-The feature of Customized Metric Monitoring provides you with an interface for reporting monitoring data, so that you can report the time series data collected by yourself to the Monitoring. Currently, the method of OpenAPI is supported to report, and the original data and the aggregated statistics can be reported.
+The function of Customized Metric Monitoring provides you with an interface for reporting monitoring data, so that you can report the time series data collected by yourself to the Monitoring. Currently, the method of OpenAPI is supported to report, and the original data and the aggregated statistics can be reported.
 
 ### Reporting Interface Description
 
@@ -16,7 +16,7 @@ cn-east-2 |monitor.cn-east-2.jdcloud-api.com
 
 3. Support batch reporting mode. A single request can contain up to 50 data points; the data size shall not exceed 256k.
 
-Note: For Getting Started on OpenAPI, please see the <a href="www.jdcloud.com">public description</a>
+Note: For Getting Started Guide on OpenAPI, please see the <a href="https://github.com/jdcloudcom/en/blob/translationUse/API/Common-Declaration/Introduction.md">public description</a>
 
 ### Request Method
 
@@ -34,32 +34,32 @@ metricDataList|	MetricDataCm[] |	False |	Data Parameter
 
 Name | Type | Required or Not | Description
 ---|---|---|---
-dimensions|Object |True|Data Dimension, the data type is in a map type, supporting at least one, with up to five tags, and a total length no more than 255 bytes, only supporting English text, figures, underline _, dot.[0-9][a-z] [A-Z] [. _ ], the others will return err
-metric|	String |True |	The name of the monitoring indicator, with a length no more than 255 bytes, only supporting English text, figures, underline _, dot., [0-9][a-z] [A-Z] [. _ ], the others will return err               
-namespace|	String |True |	Namespace, with a length no more than255 bytes, only supporting English text, figures, underline _, dot., [0-9][a-z] [A-Z] [. _ ], the others will return err               
-timestamp|Integer|True|Timestamp for reporting data points, only supporting 10 digits, with a second-level timestamp, unable to write in the time of the past 30 days                              
-type |Integer|True |The data reporting type, with 1 standing for original value, and 2 for aggregated data. When reporting aggregated data, it is recommended to report the line for 60s, otherwise it cannot be queried normally                           
-values |	Object |	True |The set of indicator values, the data type must be map type, the key is the data type, and the value is the data value. When type=1, the key can only be "value", the reported value is the original value, when type=2, the value of K Can be "avg", "sum", "last", "max", "min", "count", and it only supports the above types, otherwise it will report an error, the value content is an integer or floating point number, the maximum value is 9223372036854775807, count only supports>=0 value  
+dimensions|Object |True|Data dimension, data type is map type, support at least one, up to five tags, no more than 255 bytes in total length, only English, numbers, underlines_, dot., [0-9][a-z] [A-Z] [. _ ] are allowed, others will return err
+metric|	String |True |Metric name, no more than 255 bytes in length, only English, numbers, underlines_, dot., [0-9][a-z] [A-Z] [. _ ] are allowed, others will return err
+namespace|	String |True |Naming space,  no more than 255 bytes in length, only English, numbers, underlines_, dot., [0-9][a-z] [A-Z] [. _ ] are allowed, others will return er
+timestamp|Integer|True|Timestamp for reporting data points only supports 10-bit, second timestamp, the time of the past 30 days cannot be written in                             
+type |Integer|True | Data reporting type, 1 is the original value, 2 is aggregated data. When the aggregated data is reported, it is suggested that it shall be reported during the period of 60s, otherwise, it cannot be queried normally.                       
+values |	Object |	True | Metric value collection, the data type must be the map type, key is the data type, value is the data value, when type=1, key only can be “value”, the reported is the original value, when type=2, key can be "avg”, "sum”, "last”, "max”, "min”, “count”, which only support the above types, otherwise it will report an error, value contents are integers or floating point numbers, the largest value is 9223372036854775807, count only supports numbers >=0
 
 ### Return Parameter  
 
 Name | Type | Required or not 
 ---|---|---
-error |Object| Error Message.     
-requestId|String |Requested id                        
+error |Object| Error information.     
+requestId|String |Request ID                       
 result |Result |                
                       
 ### Result
 Name | Type | Required or not 
 ---|---|---
 errMetricDataList|MetricDataList[]|
-success|Boolean  |All successful writes are represented as true, otherwise false   
+success|Boolean  |All successful write-ins are true, otherwise are false   
 
 ### MetricDataList
 Name | Type | Required or not 
 ---|---|---
-errDetail|string	| Error Data Description
-errMetricData |string |Error Data              
+errDetail|string	| Error data Description
+errMetricData |string |Error data              
 
 ### Return Code  
 Name | Type 
