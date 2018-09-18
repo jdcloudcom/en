@@ -45,7 +45,7 @@ After you have successfully registered an account and completed real-name verifi
    * SSD Cloud Disk as Data Disk: 20G~1,000G. 
  
 * Networking:
-    * Virtual Private Cloud and Subnet: You can plan and create a private Virtual Private Cloud and subnet first. If not, it supports using the default VPC and subnet created automatically by the system. Please see [Virtual Private Cloud](../../../) Networking/Virtual-Private-Cloud/Introduction/Functions/VPC.md) and [Subnet](../../..//Networking/Virtual-Private-Cloud/Introduction/Functions/Subnet.md) for details.
+    * Virtual Private Cloud and Subnet: You can plan and create a private Virtual Private Cloud and subnet first. If not, it supports using the default VPC and subnet created automatically by the system. Please see [Virtual Private Cloud](../../../) Networking/Virtual-Private-Cloud/Introduction/Functions/VPC.md) and [Subnet](../../../Networking/Virtual-Private-Cloud/Introduction/Functions/Subnet.md) for details.
     * Private IP: It is the specified private IP address of main network card of the Virtual Machines, which can be specified in the number of available IPs in the selected subnet. If there is no special requirement, it can be allocated automatically by the system. Once the intranet IP is allocated to the Virtual Machines, it cannot be changed.
     * Security Group: You can create a security group that meets the identity and access management under each Virtual Private Cloud. If not, it supports to associate one from the three security group modules created automatically by the system. Please see [Security Group Overview](../../../Networking/Virtual-Private-Cloud/Introduction/Functions/Security-Group.md) for details.
  
