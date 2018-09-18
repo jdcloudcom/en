@@ -102,7 +102,7 @@ paths:
   "/instances/{instanceId}:resetPassword":
     ###################### Reset Password ######################
     post:
-      Description: "Reset Password"
+      description: "Reset Password"
       operationId: resetPassword 
       parameters:
         - name: resetPassword
