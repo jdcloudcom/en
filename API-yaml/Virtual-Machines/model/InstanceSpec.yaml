@@ -44,7 +44,7 @@ definitions:
         type: array
         items:
           $ref: "./InstanceDiskAttachmentSpec.yaml#/definitions/instanceDiskAttachmentSpec"
-        description: The instance type information of the data disk. The VM of local disk as the system disk can attach 8 data disks, and the VM of the cloud disk service as the system disk can attach 7 data disks.
+        description: The instance type information of the data disk. The VM of local disk as the system disk can attach 8 data disks, and the VM of the Cloud Disk Service as the system disk can attach 7 data disks.
       charge:
         $ref: "../../charge/model/ChargeSpec.yaml#/definitions/chargeSpec"
         description: |

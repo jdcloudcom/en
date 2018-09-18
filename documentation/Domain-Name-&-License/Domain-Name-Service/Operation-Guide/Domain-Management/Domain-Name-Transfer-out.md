@@ -1,8 +1,8 @@
 # Domain Name Transfer-out
 
-![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Domain-Name-and-Website/Image-Domain/zhuanchu1.png)
+![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Domain-Name-&-License/Image-Domain/zhuanchu1.png)
 
-Users click Domain Name Transfer-out on the domain name management interface and apply for the domain name transfer-out after ticking the service agreement, then the system will send the domain name transfer password to the relevant mailbox.
+Users click **Domain Name Transfer-out** on the domain name management interface and apply for the domain name transfer-out after ticking the service agreement, then the system will send the domain name transfer password to the relevant mailbox.
 
 Restriction rules for IDN transfer (domain transfer is prohibited in the following cases):
 - The domain name registered/transferred for less than 60 days

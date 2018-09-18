@@ -16,7 +16,7 @@ The tool features are as follows:
 
 Tool download: [osstransfer](http://downloads.oss.cn-north-1.jcloudcs.com/tools/osstransfer.zip)
 
-## Operating environment
+## Operating Environment
 
 Linux and Window
 
@@ -46,7 +46,7 @@ Directly run worker.py under the catalog osstransfer/src/worker after configurat
 ```
 nohup python worker.py &
 ```
-After starting worker, it will wait for the call of master. For operation records of worker, please view log-worker.txt file (catalog: osstransfer/logs).
+After starting worker, it will wait for the call of master. For operation record of worker, please view log-worker.txt file (catalog: osstransfer/logs).
 
 Note: Worker only supports the call by one master at present. Please ensure that your worker will not serve several masters at the same time.
 
@@ -58,7 +58,7 @@ The configuration file of Master is config-master (Path: osstransfer/src/master/
 
 Configuration parameters are as follows:
 
-|Configuration item|Description|
+|Configuration Item|Description|
 |-|-|
 |master|Specify ip of machine where master is located and port used; it is compulsory|
 |worker|Specify available worker and you need to specify the worker’s ip and port configured to such worker; it is compulsory|
@@ -83,12 +83,12 @@ Configuration parameters are as follows:
 |task-filenumbers|Specify the maximum file number for migration of each task is 5w by default (as recommended, can’t exceed 20w), which will be used in the check process; it is optional|
 |round|Specify round number; the default round number is 2; the round will be used in the check process; it is optional|
 |transfer-is-continue|True/False, whether to continue the last unfinished job; the default is True; it is optional|
-|transfer-error-output|Specify a file name to keep files failed in migration (you can view the failure reason via this file) and the default file name is: “[job-ID]-transfer-error-list.txt”; it is optional|
+|transfer-error-output|Specify a file name to keep files failed in migration (you can view the failure reason via this file) and the default file name is: "[job-ID]-transfer-error-list.txt"; it is optional|
 |check-time|Specify the check time, the optional parameters include now (check immediately after completion of migration), future (do not check after completion of migration and we will keep information necessary for check in the target bucket) and never (never check) and the default value is future; it is optional|
 |check-mode|Specify check mode, the options include head (only view if the file exists) and md5 (compare md5 of the source data with that of the target data), and the default value is head; it is optional|
 |check-is-continue|Whether to continue the check, True/False; the default value is True; it is optional|
-|check-error-output|Specify a file name to keep the problematic files in the check process and the default name is: “[job-ID]-check-error-list.txt”; it is optional|
-|check-md5-output|After verification, we will save md5 of all files. Please assign a file to keep md5 and the default file name is “[job-ID]-check-md5-list.txt”; it is optional|
+|check-error-output|Specify a file name to keep the problematic files in the check process and the default name is: "[job-ID]-check-error-list.txt"; it is optional|
+|check-md5-output|After verification, we will save md5 of all files. Please assign a file to keep md5 and the default file name is "[job-ID]-check-md5-list.txt"; it is optional|
 
 ## Operation Master
 

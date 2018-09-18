@@ -2,7 +2,7 @@
 
 You can use object storage service console picture processing style to quickly use the OSS picture service.
 
-## Create image style
+## Create Image Style
 
 1. Enter OSS Management Console-Space Management
 
@@ -27,7 +27,7 @@ Rules Description:
 
    * If center crop within the given width and height is selected, please enter width/height size
 
-(3) If long-side precedence within the given width and height is selected, please enter width/height size (“long side” means the side with higher ratio of original size to target size)
+(3) If long-side precedence within the given width and height is selected, please enter width/height size ("long side" means the side with higher ratio of original size to target size)
 
    * Output format: format consistent with the artwork, jpg, png, gif are optional formats
 

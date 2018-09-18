@@ -16,7 +16,7 @@ Before using CloudBerry, you need to register an account in JD Cloud in advance 
 
 Specific steps for accessing OSS via CloudBerry are as follows:
 
-Step 1: Click “New Storage Account” in the Source drop-down list on the right and select S3 Compatible in the pop-up.
+Step 1: Click **New Storage Account**in the Source drop-down list on the right and select S3 Compatible in the pop-up.
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-079.jpg)
 
@@ -36,7 +36,7 @@ Use native multipart upload (recommended): Use native multipart upload or not
 
 Signature version: Select 4
 
-Step 3: Click “Test Connection” to test if the connection is successful or click “OK” for connection.
+Step 3: Click **Test Connection** to test if the connection is successful or click **OK** for connection.
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-081.jpg)
 

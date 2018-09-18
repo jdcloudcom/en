@@ -7,10 +7,10 @@ definitions:
     properties:
       name:
         type: string
-        description: Adopted software name, such as hadoop/spark
+        description: Adopted Software Name, such as hadoop/spark
       version:
         type: string
-        description: Software current revision
+        description: Software Current Version
       flag:
         type: boolean
         description: It means whether the obtained information is normal

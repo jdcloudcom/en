@@ -16,48 +16,48 @@ definitions:
         description: ISP Line, i.e. UNICOM and TELECOM
       elasticTriggerCount:
         type: integer
-        description: Times of triggering elastic bandwidth
+        description: Times of Triggering Elastic Bandwidth
       abovePeakCount:
         type: integer
-        description: Frequency of over peak value
+        description: Frequency of Over Peak Value
       inBitslimit:
         type: integer
-        description: Minimum bandwidth
+        description: Minimum Bandwidth
       resilientBitslimit:
         type: integer
-        description: Elastic bandwidth
+        description: Elastic Bandwidth
       businessBitslimit:
         type: integer
-        description: Business bandwidth
+        description: Business Bandwidth
       ccThreshold:
         type: integer
-        description: CC threshold
+        description: CC Threshold
       ruleCount:
         type: integer
-        description: Non-web service rules
+        description: Non-web Service Rules
       webRuleCount:
         type: integer
-        description: Web service rules
+        description: Web Service Rules
       chargeStatus:
         type: string
-        description: Billing status, PAID->normal  ARREARS->overdue  EXPIRED->expired
+        description: PAID|ARREARS|EXPIRED
       securityStatus:
         type: string
-        description: Security status, SAFE->security  CLEANING->cleaning  BLOCKING-blocking
+        description: SAFE|CLEANING|BLOCKING
       createTime:
         type: integer
         format: int64
-        description: Instance creation time
+        description: Instance Creation Time
       expireTime:
         type: integer
         format: int64
-        description: Instance expiration time
+        description: Instance Expiration Time
       resourceId:
         type: string
         description: Resource ID, used during upgrade and renewal
       ccProtectMode:
         type: integer
-        description: cc defense mode, 0->normal  1->critical  2->relaxed  3->customized
+        description: cc Defense Mode, 0->normal  1->critical  2->relaxed  3->customized
       ccProtectStatus:
         type: integer
         description: cc enabling status, 0->disabled  1->enabled
@@ -71,29 +71,29 @@ definitions:
         type: array
         items:
           type: string
-        description: IP blacklist
+        description: IP Blacklist
       ipBlackStatus:
         type: integer
-        description: IP blacklist status, 0->disabled  1->enabled
+        description: IP Blacklist Status, 0->disabled  1->enabled
       ipWhiteList:
         type: array
         items:
           type: string
-        description: IP white list
+        description: IP White List
       ipWhiteStatus:
         type: integer
-        description: IP white list status, 0->disabled  1->enabled
+        description: IP White List Status, 0->disabled  1->enabled
       pin:
         type: string
-        description: User pin
+        description: User Pin
       urlWhitelist:
         type: array
         items:
           type: string
-        description: url white list
+        description: url White List
       urlWhitelistStatus:
         type: integer
-        description: url white list status, 0->disabled  1->enabled
+        description: url White List Status, 0->disabled  1->enabled
       hostQps:
         type: integer
         description: The protection threshold of each Host when ccProtectMode is a customized mode

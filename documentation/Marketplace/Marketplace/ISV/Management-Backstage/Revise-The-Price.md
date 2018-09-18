@@ -10,7 +10,7 @@ A: please select the left menu in the service releasing platform, charge managem
 
 Q: First time to release the service, a lot of places were set incorrectly, and the rereleased display name was occupied, how to deal with it?
 
-A: Submit the application to be removed from the Cloud Marketplace operation and modify the service name to save. Then the service provider can rerelease a new service.
+A: Submit the application to be removed from the Marketplace operation and modify the service name to save. Then the service provider can rerelease a new service.
 
 
 

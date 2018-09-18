@@ -12,13 +12,13 @@ If you no longer need these instances due to business changes, you can delete in
 		* When an instance is deleted, the attached cloud disk will be executed according to the configured delete attributes. The associated elastic IP will continue to be retained. If you do not need to keep it, please go to the corresponding page to delete it in void of extra cost.
 
 ## Operation Steps
-1. Access [Virtual Machine Console](https://cns-console.jdcloud.com/host/compute/list) and enter the instance list page. Or access [JD Cloud Console](https://console.jdcloud.com) Click navigation bar on the left [Elastic Compute] - [Virtual Machine] to enter the instance list page.
+1. Access [Virtual Machines Console](https://cns-console.jdcloud.com/host/compute/list) and enter the instance list page. Or access [JD Cloud Console](https://console.jdcloud.com) Click navigation bar on the left **Elastic Compute** - **Virtual Machines** to enter the instance list page.
 2. Select Regions.
 3. Select the instance you want to delete from the instance list and confirm that its status is "Stopped". If you need to operate multiple instances at the same time, you can complete through multiple selection.
-4. Single Operation: Click [Operate] - [More] - [Delete], or click instance name to enter the details page and then click [Operate] - [Delete]
-<br>Batch Operation: Click [More] - [Delete] below the list
+4. Single Operation: Click **Operate** - **More** - **Delete**, or click instance name to enter the details page and then click **Operate** - **Delete**.
+<br>Batch Operation: Click **More** - **Delete** below the list
 ![](../../../../../image/vm/deleteinstance1.png)
-5. In the "Delete Instance" pop-up window, confirm the information and click [Confirm] to submit the deletion. ![](../../../../../image/vm/deleteinstance2.png)
+5. In the "Delete Instance" pop-up window, confirm the information and click **OK** to submit the deletion. ![](../../../../../image/vm/deleteinstance2.png)
 
 After that, the instance will enter the deleting status, please wait patiently for the deletion.
 

@@ -7,11 +7,11 @@ definitions:
     properties:
       version:
         type: string
-        description: JMR current revision
+        description: JD MapReduce Current Version
       software:
         type: string
         description: |
-           "Adopted software and revision, such as"
+           "Adopted Software and Version, such as"
            "HADOOP-2.6.0|HIVE-1.2.1|SPARK-2.0.0|ALLUXIO-1.0.1|ZOOKEEPER-3.4.5|ZEPPELIN-0.6.1"
 
 

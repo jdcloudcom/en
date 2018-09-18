@@ -14,7 +14,7 @@ For example: if the order start time is 15:00:00 on January 1, 2018, and the pur
 ### Instructions for Service Stop Due to Expiration
 
 * When the expiration time of your instance under monthly package is earlier than or equal to the current time, your instance billing state will be changed to expired. After the expiration, the instance services will be stopped and you cannot continue to use the instance;
-* 30 days, 15 days, 7 days, 3 days and 1 day before the expiration of your virtual machine under monthly package, JD Cloud will respectively send you a notice reminding you that the resource is about to expire. Please pay attention to check and promptly [Renew](Renew-Process.md);
+* 30 days, 15 days, 7 days, 3 days and 1 day before the expiration of your Virtual Machines under monthly package, JD Cloud will respectively send you a notice reminding you that the resource is about to expire. Please pay attention to check and promptly [Renew](Renew-Process.md);
 * After the expiration of your instance under monthly package, JD Cloud will send you a notice reminding you that the resource has expired. Please pay attention to the notice and promptly [Renew](Renew-Process.md) to avoid unnecessary losses caused by resource recovery made seven days after the instance expiration. For details, please refer to the expiration & arrears reminder;
 * Your instance and the data in the instance will be retained for 7 days from the time when the services are stopped. 7 days later, a resource release notice will be sent to you. After the resource is recovered, the data cannot be retrieved;
 * Within the 7 days when the resource is deactivated, that is, before the resource recovery is triggered, you can renew it. After the renewal, the resource will be automatically activated for use. If the instance is not restored to the running state after the renewal, please manually [Start Instance](../Operation-Guide/Instance/Start-Instance.md).
@@ -32,8 +32,8 @@ In the pay-as-you-go mode, the bill for the previous hour will be generated acco
 
 ### Instructions for Service Stop Due to Arrears
 * If the available balance of your account (including cash balance, available coupons) cannot settle the issued bill of the instance, the system will determine the instance in arrears and your instance billing state will become in arrears;
-* When your virtual machine become in arrears, the services will be stopped 24 hours after the arrears, and you will not be billed after the services are stopped;
-* When your virtual machine become in arrears, a resource arrears notice will be sent to you. Please pay attention to check the notice and recharge it in time to avoid unnecessary losses. Please refer to the expiration & arrears reminder for details.
+* When your Virtual Machines become in arrears, the services will be stopped 24 hours after the arrears, and you will not be billed after the services are stopped;
+* When your Virtual Machines become in arrears, a resource arrears notice will be sent to you. Please pay attention to check the notice and recharge it in time to avoid unnecessary losses. Please refer to the expiration & arrears reminder for details.
 * Your instance and the data in the instance will be retained for 7 days from the time when the services are stopped. 7 days later, a resource release notice will be sent to you. After the resource is recovered, the data cannot be retrieved;
 * When you make up the arrears, the resources will be automatically restored and the billing will be restarted. If the instance is not restored to the running state after the recharge, please manually [Start Instance](../Operation-Guide/Instance/Start-Instance.md);
 * If you do not want to continue to use the instance billed by configuration, please duly [Delete Instance](../Operation-Guide/Instance/Stop-Instance.md).
@@ -52,7 +52,7 @@ Attach cloud disk|Support|Support
 Expand cloud disk|Support. For details, please refer to cloud disk expansion|Support. For details, please refer to cloud disk expansion.        
 Convert billing method|Support conversion of billing by instances configuration to monthly package billing|Not Supported  
 Create all types of instances|Support|Support   
-Free use of cloud monitor and load balancer|Support|Support
+Free use of cloud monitor and Load Balancer|Support|Support
 
 ## Billing Method Conversion
 * An instance billed by configuration can be changed into an instance billed under monthly package through [Renew][Renew-Process.md]

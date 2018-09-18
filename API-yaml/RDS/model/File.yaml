@@ -10,4 +10,4 @@ definitions:
         description: File Name
       sizeByte:
         type: integer
-        description: File Size, in Byte
+        description: File Size, Unit: Byte

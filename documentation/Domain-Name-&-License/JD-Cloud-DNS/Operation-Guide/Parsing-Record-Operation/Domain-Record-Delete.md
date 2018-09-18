@@ -1,15 +1,15 @@
 - ## **Delete Resolution Record**
 
-  Record deleting is a high-risk operation. After this record is deleted, the record will not be valid in the JD Clod DNS, which will directly affect the user's inaccessibility to the address directed to by the record.
+  Record deleting is a high-risk operation. After this record is deleted, the record will not be valid in the JD Cloud DNS, which will directly affect the user's inaccessibility to the address directed to by the record.
 
   If you want to delete resolution record, it is recommended that you keep a resolution record of the default line to avoid unavailability of your visitors.
 
-  1. Log in to the DNS console and select Domain Name Resolution List.
+  1. Log in to the DNS console and select **Domain Name Resolution List**.
 
-  2. Select the domain name you want to operate, click on Resolution, and enter the Domain Name Resolution Console.
+  2. Select the **Domain Name** you want to operate, click on **Resolution**, and enter the Domain Name Resolution Console.
 
-  3. Click the Delete button under the operation
+  3. Click the **Delete** under the operation
 
   ![img](file:///C:\Users\ZHANGJ~1\AppData\Local\Temp\msohtmlclip1\01\clip_image002.png)
 
-  4. After clicking Confirm, the resolution record will be deleted.
+  4. After clicking **Confirm**, the resolution record will be deleted.

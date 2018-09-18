@@ -3,7 +3,7 @@ Dear respected users:
 
 Thank you for choosing the domain name online registration service provided by Beijing JD Century Trading Co., Ltd. (hereinafter referred to as "The Company").
 
-Please carefully read the following terms of online domain registration service of the company. You can only formally enter the domain name online registration process after you agree to the following terms of service. If you are willing to accept our services and agree to the terms, please click "I Agree" to proceed with the registration; otherwise, please click "I Do Not Agree" and quit.
+Please carefully read the following terms of online domain registration service of the company. You can only formally enter the domain name online registration process after you agree to the following terms of service. If you are willing to accept our services and agree to the terms, please click **I Agree** to proceed with the registration; otherwise, please click **I Do Not Agree** and quit.
 
 Terms of Service for Domain Name Online Registration
 

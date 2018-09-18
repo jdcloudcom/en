@@ -4,7 +4,7 @@ definitions:
     x-jdcloud-module: nc
     x-jdcloud-internal: false
     type: object
-    description: Create network interface request template
+    description: Create Network Interface Request Template
     required:
       - subnetId
       - az
@@ -14,23 +14,23 @@ definitions:
         description: Subnet ID
       az:
         type: string  
-        description: Availability zone, user’s default availability zone
+        description: Availability Zone, User’s Default Availability Zone
       primaryIpAddress:
         type: string  
-        description: Primary IP of network interface
+        description: Primary IP of Network Interface
       secondaryIpAddresses:
         type: array
         items: 
           type: string
-        description: SecondaryIp list
+        description: SecondaryIp List
       secondaryIpCount:
         type: integer     
-        description: Amount of SecondaryIp assigned automatically
+        description: Amount of SecondaryIp Assigned Automatically
       securityGroups:
         type: array
         items:
           type: string
-        description: Security group ID list 
+        description: Security Group ID List 
       sanityCheck:
         type: boolean    
         description: PortSecurity, with value 0 or 1 and default value 1

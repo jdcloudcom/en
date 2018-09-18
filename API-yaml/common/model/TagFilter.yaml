@@ -9,10 +9,10 @@ definitions:
     properties:
       key:
         type: string
-        description: Name of filter requirements
+        description: Name of Filter Requirements
       values:
         type: array
-        description: Value of filter requirements
+        description: Value of Filter Requirements
         items:
           type: string
 

@@ -7,4 +7,4 @@ definitions:
         type: array
         items:
           type: string
-        description: Assign deleted secondaryIp address
+        description: Assign Deleted Secondary IP Address

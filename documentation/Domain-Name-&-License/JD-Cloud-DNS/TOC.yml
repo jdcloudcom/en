@@ -9,13 +9,13 @@
         href: Introduction/Benefits.md
       - name: Features
         href: Introduction/Features.md
-      - name: Application Scenarios
+      - name: Application Scenarios 
         href: Introduction/Application-Scenarios.md    
   - name: Pricing
     items:
       - name: Billing Overview
         href: Pricing/Billing-Overview.md
-      - name: Billing Rule
+      - name: Billing Rules
         href: Pricing/Billing-Rules.md
       - name: Price Overview
         href: Pricing/Price-Overview.md

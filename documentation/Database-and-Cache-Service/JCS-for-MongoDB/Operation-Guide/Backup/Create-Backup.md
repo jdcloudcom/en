@@ -10,14 +10,14 @@ Up to 3 backups can be created manually for each MongoDB instance. The backup fi
 ## Operation Steps
 
 1. Login [MongoDB Console](https://mongodb-console.jdcloud.com/mongodb?dataCenter=bj_02).
-1. On the "Instance List" page, select the target instance, then click ** Instance Name ** to enter the "Instance Details" page.
+1. On the "Instance List" page, select the target instance, then click **Instance Name** to enter the "Instance Details" page.
 1. On the "Instance Details" page, click **Backup and Recovery** > **Backup Data** to enter the "Backup Data" page.
 
    ![](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-019.png)
 
-1. On the “Backup Data” page, click **Create Backup** to open the “Create Backup Confirmation Popup”.
+1. On the "Backup Data" page, click **Create Backup** to open the "Create Backup Confirmation Popup".
 1. Click **OK** to confirm the execution of the backup.
-1. You can view the backup status in the “Backup List”. If the backup status changes to “Completed”, the backup is created successfully.
+1. You can view the backup status in the "Backup List". If the backup status changes to "Completed", the backup is created successfully.
 
 ## Related Reference
 

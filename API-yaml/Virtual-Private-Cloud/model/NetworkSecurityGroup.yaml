@@ -6,24 +6,24 @@ definitions:
     properties:
       networkSecurityGroupId:
         type: string
-        description: Security group ID
+        description: Security Group ID
       networkSecurityGroupName:
         type: string
-        description: Security group name
+        description: Security Group Name
       description:
         type: string
-        description: Security group description information
+        description: Security Group Description Information
       vpcId:
         type: string
-        description: vpc Id of security group
+        description: VPC ID of Security Group
 
       securityGroupRules:
         type: array
         items:
          $ref: "./SecurityGroupRule.yaml#/definitions/securityGroupRule"
-        description: Security group rule information
+        description: Security Group Rule Information
 
       createdTime:
         type: string
-        description: Creation time of security group
+        description: Creation Time of Security Group
 

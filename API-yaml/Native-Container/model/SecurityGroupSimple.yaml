@@ -8,7 +8,7 @@ definitions:
     properties:
       groupId:
         type: string
-        description: Security group ID
+        description: Security Group ID
       groupName:
         type: string
-        description: Security group name
+        description: Security Group Name

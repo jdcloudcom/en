@@ -16,13 +16,13 @@ definitions:
         description: Backup Instance ID
       backupStatus:
         type: string
-        description: Backup status, detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)
+        description: Backup Status, detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)
       backupStartTime:
         type: string
-        description: "Backup start time, format: YYYY-MM-DD HH:mm:ss"
+        description: "Backup Start Time, Format: YYYY-MM-DD HH:mm:ss"
       backupEndTime:
         type: string
-        description: "Backup end time, format: YYYY-MM-DD HH:mm:ss"
+        description: "Backup End Time, Format: YYYY-MM-DD HH:mm:ss"
       backupType:
         type: string
         description: Backup type, full backup or incremental backup, detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)<br>- **SQL Server supports****<br>- **MySQL does not support**
@@ -31,7 +31,7 @@ definitions:
         description: Backup mode, automatic system backup or manual backup, detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)
       backupUnit:
         type: string
-        description: Backup granularity, instance backup or multi-database backup,  detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)<br>- **SQL Server supports**<br>- **MySQL does not support**
+        description: Backup granularity, instance backup or multi-database backup, detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)<br>- **SQL Server supports**<br>- **MySQL does not support**
       backupFiles:
         type: array
         items:
@@ -40,4 +40,4 @@ definitions:
         description: "Backup File List<br>- **SQL Server supports**, there can be multiple backup files and the naming rules for file name are:<br>(1) Full: Database name +.bak<br>(2) Incremental: Database name +.diff<br>- **MySQL does not support**"
       backupSizeByte:
         type: integer
-        description: Size of Whole Backup Set, in Byte
+        description: Size of Whole Backup Set, Unit: Byte

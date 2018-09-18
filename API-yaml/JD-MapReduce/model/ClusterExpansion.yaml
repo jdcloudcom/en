@@ -10,4 +10,4 @@ definitions:
         description: Cluster Id
       expansionNum:
         type: integer
-        description: Expansion number
+        description: Expansion Number

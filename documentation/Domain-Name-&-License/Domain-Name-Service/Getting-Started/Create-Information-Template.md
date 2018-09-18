@@ -12,12 +12,12 @@
 
 ![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Domain-Name-&-License/Image-Domain/moban3.png)
  
-4. When the existing information template needs to be modified, select the existing information template and click Edit to modify it.
+4. When the existing information template needs to be modified, select the existing information template and click **Edit** to modify it.
 
 ![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Domain-Name-&-License/Image-Domain/moban4.png)
 
 
-Warm prompt:
+Warm Prompt:
 
 1. If your domain name needs to be recorded, please be sure to complete the real-name verification of the information template, and the real-name verification information must be consistent with the information provided to the recording unit.
 

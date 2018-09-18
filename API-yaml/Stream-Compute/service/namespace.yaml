@@ -2,13 +2,13 @@ swagger: '2.0'
 info:
   version: v1
   title: Name Space APIs
-  description: Information APIs related to stream computing NameSpace
+  description: Information APIs Related to Stream Compute NameSpace
 basePath: '/regions/{regionId}'
 paths:
-#######Query the application list under the tenant################
+#######Query the Application List Under the Tenant################
   /namespaces:
     get:
-      description: Query the application list under the tenant
+      description: Query the Application List Under the Tenant
       operationId: queryNamespaces
       parameters:
         - name: keyword
@@ -25,7 +25,7 @@ paths:
                 properties:
                   namespaces:
                     type: array
-                    description: namespaces information
+                    description: Namespaces Information
                     items:
                       type: object
                       $ref: "../model/namespacesInfo.yaml#/definitions/namespace"
@@ -33,10 +33,10 @@ paths:
                 type: string
         '500':
           description: INTERNAL_ERROR
- #######Query the details of a certain application################ 
+ #######Query the Details of A Certain Application################ 
   /namespaceDetail:
     get:
-      description: Query the details of a certain application
+      description: Query the Details of A Certain Application
       operationId: queryNamespaceDetail
       parameters:
         - name: namespaceId
@@ -53,16 +53,16 @@ paths:
                 properties:
                   namespace:
                     type: object
-                    description: namespace objects queried out
+                    description: Namespace Objects Queried Out
                     $ref: "../model/namespacesInfo.yaml#/definitions/namespace"
               requestId:
                 type: string
         '500':
           description: INTERNAL_ERROR 
- #######Update namespace################ 
+ #######Update Namespace################ 
   /namespace:
     put:
-      description: Update namespace
+      description: Update Namespace
       operationId: updateNamespace
       parameters:
         - name: namespaceStr
@@ -80,14 +80,14 @@ paths:
                 properties:
                   status:
                     type: boolean
-                    description: Update the successful marker
+                    description: Update the Successful Marker
               requestId:
                 type: string
         '500':
           description: INTERNAL_ERROR  
- #######Create namespace################ 
+ #######Create Namespace################ 
     post:
-      description: Create namespace
+      description: Create Namespace
       operationId: createNamespace
       parameters:
         - name: namespaceStr
@@ -105,15 +105,15 @@ paths:
                 properties:
                   status:
                     type: boolean
-                    description: Create the successful marker
+                    description: Create the Successful Marker
               requestId:
                 type: string
         '500':
           description: INTERNAL_ERROR   
 
- #######Delete namespace################ 
+ #######Delete Namespace################ 
     delete:
-      description: Delete namespace; if there are other subordinate resources associated with it, it is not allowed to delete it
+      description: Delete Namespace; if there are other subordinate resources associated with it, it is not allowed to delete it
       operationId: deleteNamespace
       parameters:
         - name: namespaceId
@@ -130,7 +130,7 @@ paths:
                 properties:
                   status:
                     type: boolean
-                    description: Delete the namespace successful marker
+                    description: Delete the Namespace Successful Marker
               requestId:
                 type: string
         '500':

@@ -21,17 +21,17 @@ paths:
           in: query
           type: integer
           required: false
-          description: "Page size; it is 10 by default; value range [10, 100]"
+          description: "Paging size; it is 20 by default; value range [10, 100]"
         - name: startTime
           in: query
           type: string
           required: true
-          description: "Start time, up to the latest 30 days, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ"
+          description: Start time, up to the latest 30 days, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ
         - name: endTime
           in: query
           type: string
           required: true
-          description: "Search end time, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ"
+          description: Search end time, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ
         - name: instanceId
           in: query
           type: array
@@ -50,8 +50,15 @@ paths:
                     type: array
                     items:
                       $ref: "../model/DDosAttackLog.yaml#/definitions/DDosAttackLog"
+                  currentCount:
+                    type: integer
+                    description: "当前页数量"
                   totalCount:
                     type: integer
+                    description: "实例总数"
+                  totalPage:
+                    type: integer
+                    description: "总页数"
               requestId:
                 type: string
   /attacklog:cc:
@@ -68,17 +75,17 @@ paths:
           in: query
           type: integer
           required: false
-          description: "Page size; it is 10 by default; value range [10, 100]"
+          description: "Paging size; it is 20 by default; value range [10, 100]"
         - name: startTime
           in: query
           type: string
           required: true
-          description: "Start time, up to the latest 30 days, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ"
+          description: Start time, up to the latest 30 days, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ
         - name: endTime
           in: query
           type: string
           required: true
-          description: "Search end time, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ"
+          description: Search end time, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ
         - name: instanceId
           in: query
           type: array
@@ -97,8 +104,15 @@ paths:
                     type: array
                     items:
                       $ref: "../model/DDosAttackLog.yaml#/definitions/DDosAttackLog"
+                  currentCount:
+                    type: integer
+                    description: "当前页数量"
                   totalCount:
                     type: integer
+                    description: "实例总数"
+                  totalPage:
+                    type: integer
+                    description: "总页数"
               requestId:
                 type: string
 
@@ -116,17 +130,17 @@ paths:
           in: query
           type: integer
           required: false
-          description: "Page size; it is 10 by default; value range [10, 100]"
+          description: "Paging size; it is 20 by default; value range [10, 100]"
         - name: startTime
           in: query
           type: string
           required: true
-          description: "Start time, up to the latest 30 days, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ"
+          description: Start time, up to the latest 30 days, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ
         - name: endTime
           in: query
           type: string
           required: true
-          description: "Search end time, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ"
+          description: Search end time, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ
         - name: instanceId
           in: query
           type: string
@@ -150,11 +164,181 @@ paths:
                     type: array
                     items:
                       $ref: "../model/CCAttackLogDetail.yaml#/definitions/CCAttackLogDetail"
+                  currentCount:
+                    type: integer
+                    description: "当前页数量"
                   totalCount:
                     type: integer
+                    description: "实例总数"
+                  totalPage:
+                    type: integer
+                    description: "总页数"
               requestId:
                 type: string
 
+  /attacklog:ddos/download:
+    get:
+      description: "下载 DDos 攻击日志"
+      operationId: downloadDDosAttackLogs
+      parameters:
+        - name: startTime
+          in: query
+          type: string
+          required: true
+          description: "开始时间, 只能下载最近 60 天以内的数据, UTC 时间, 格式：yyyy-MM-dd'T'HH:mm:ssZ"
+        - name: endTime
+          in: query
+          type: string
+          required: true
+          description: Search end time, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ
+        - name: instanceId
+          in: query
+          type: array
+          items:
+            type: string
+          description: Advanced Anti-DDoS instance ID
+          required: false
+      responses:
+        200:
+          description: OK
+
+  /attacklog:cc/download:
+    get:
+      description: "下载 CC 攻击日志"
+      operationId: downloadCcAttackLogs
+      parameters:
+        - name: startTime
+          in: query
+          type: string
+          required: true
+          description: "开始时间, 只能下载最近 60 天以内的数据, UTC 时间, 格式：yyyy-MM-dd'T'HH:mm:ssZ"
+        - name: endTime
+          in: query
+          type: string
+          required: true
+          description: Search end time, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ
+        - name: instanceId
+          in: query
+          type: array
+          items:
+            type: string
+          description: Advanced Anti-DDoS instance ID
+          required: false
+      responses:
+        200:
+          description: OK
+
+  /attacklog:ccDetail/download:
+    get:
+      description: "下载 CC 攻击日志详情"
+      operationId: downloadCcAttackLogDetails
+      parameters:
+        - name: startTime
+          in: query
+          type: string
+          required: true
+          description: "开始时间, 只能下载最近 60 天以内的数据, UTC 时间, 格式：yyyy-MM-dd'T'HH:mm:ssZ"
+        - name: endTime
+          in: query
+          type: string
+          required: true
+          description: Search end time, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ
+        - name: instanceId
+          in: query
+          type: string
+          description: Advanced Anti-DDoS instance ID
+          required: true
+        - name: subDomain
+          in: query
+          type: array
+          items:
+            type: string
+          description: Subdomain name
+          required: false
+      responses:
+        200:
+          description: OK
+
+  /attacklog/describeAttackStatistics:
+    get:
+      description: "查询攻击次数及流量峰值"
+      operationId: describeAttackStatistics
+      parameters:
+        - name: startTime
+          in: query
+          type: string
+          required: true
+          description: Start time, up to the latest 30 days, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ
+        - name: endTime
+          in: query
+          type: string
+          required: true
+          description: Search end time, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ
+        - name: instanceId
+          in: query
+          type: array
+          items:
+            type: string
+          description: Advanced Anti-DDoS instance ID
+          required: false
+        - name: type
+          in: query
+          type: integer
+          required: true
+          description: "攻击类型, 0 为 DDos, 1 为 CC"
+      responses:
+        200:
+          description: OK
+          schema:
+            properties:
+              result:
+                properties:
+                  flow:
+                    type: number
+                    format: float
+                    description: "攻击流量峰值"
+                  count:
+                    type: integer
+                    description: "攻击次数"
+                  unit:
+                    type: string
+                    description: "流量单位, bps、Kbps、Mbps、Gbps"
+              requestId:
+                type: string
+
+  /attacklog/describeAttackTypeCount:
+    get:
+      description: "查询各类型攻击次数"
+      operationId: describeAttackTypeCount
+      parameters:
+        - name: startTime
+          in: query
+          type: string
+          required: true
+          description: Start time, up to the latest 30 days, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ
+        - name: endTime
+          in: query
+          type: string
+          required: true
+          description: Search end time, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ
+        - name: instanceId
+          in: query
+          type: array
+          items:
+            type: string
+          description: Advanced Anti-DDoS instance ID
+          required: false
+      responses:
+        200:
+          description: OK
+          schema:
+            properties:
+              result:
+                type: array
+                items:
+                  $ref: "../model/AttackTypeCount.yaml#/definitions/AttackTypeCount"
+              requestId:
+                type: string
 # General parameters of path
 parameters:
   regionId:
@@ -162,4 +346,4 @@ parameters:
     in: path
     required: true
     type: string
-    description: Belonging region ID
+    description: Belonging Region ID

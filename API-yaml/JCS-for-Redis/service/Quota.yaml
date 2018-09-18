@@ -1,14 +1,14 @@
 swagger: "2.0"
 info:
   version: "v1"
-  title: Redis Quota APIs
-  description: Redis Quota Related Interface
+  title: JCS for Redis Quota APIs
+  description: JCS for Redis Quota Related APIs
 
 basePath: /regions/{regionId}
 
 paths:
   "/quota":
-    ###################### Query quota information ######################
+    ###################### Query Quota Information ######################
     get:
       description: "Query Account Quota Information"
       operationId: describeUserQuota
@@ -55,4 +55,4 @@ parameters:
     in: path
     required: true
     type: string
-    description: The Region ID of the region where the Redis instance is located. At present, the Redis has North China, South China, and East China regions, and the corresponding Region IDs are cn-north-1, cn-south-1, and cn-east-2
+    description: The Region ID of the region where the JCS for Redis instance is located. At present, the JCS for Redis has North China, South China, and East China regions, and the corresponding Region IDs are cn-north-1, cn-south-1, and cn-east-2

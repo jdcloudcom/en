@@ -7,13 +7,13 @@ definitions:
     properties:
       id:
         type: integer
-        description: User pass id
+        description: User Pass ID
       pin:
         type: string
-        description: User name
+        description: User Name
       account:
         type: string
-        description: User account
+        description: User Account
       accessKey:
         type: string
         description: Access key, AccessKey is used for calling cloud service API with program method
@@ -23,18 +23,18 @@ definitions:
       expire:
         type: string
         format: date
-        description: Expiration time
+        description: Expiration Time
       created:
         type: string
         format: date-time
-        description: Creation time
+        description: Creation Time
       modified:
         type: string
         format: date-time
-        description: Update time
+        description: Update Time
       modifier:
         type: string
-        description: Update operator
+        description: Update Operator
       state:
         type: integer
         description: Status

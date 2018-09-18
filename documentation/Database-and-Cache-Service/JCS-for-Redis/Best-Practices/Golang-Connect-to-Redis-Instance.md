@@ -1,4 +1,4 @@
-# Golang connection
+# Golang Connection
 - step1: download redis client of golang
 <pre><code>go get github.com/garyburd/redigo/redis
 </code></pre>

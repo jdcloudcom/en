@@ -4,7 +4,7 @@ Object storage service of JD Cloud supports for searching for files or folders i
 
 Action steps for search are as follows:
 
-1. Log in the object storage service console of JD Cloud and enter the bucket management->Object management page; enter what to search in the search box on the right, and click enter key or search button when the input is complete:
+1. Log in the object storage service console of JD Cloud and enter the space management->Object management page; enter what to search in the search box on the right, and click enter key or search button when the input is complete:
 
 ![搜索](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-045.png)
 

@@ -5,7 +5,7 @@ The disk will be recognized as a device of the instance by the system after it i
 To manage the disks attached to the instance more conveniently, JD Cloud provides the display of the device name in multiple operations involving the disk at the console, but since different operating system kernels correspond to different storage device drivers, the disk will be recognized by the system in different device names after it is attached to the instance. Linux system and Windows system have different ways of naming for devices, but they have an indexing rule of the same order (see the table below). Therefore, during the operations at the console, the device names are uniformly displayed in the form of a Linux system and the display form of a Windows system can be calculated according to the mapping rules.
 
 
-||Console display|Linux System Display|Windows System Display
+|Console display|Linux System Display|Windows System Display
 |:---|:---|:---|:---|
 **Device Name of System Disk**|/dev/vda|/dev/vda|Disk 0
 **Device Name of System Disk**|/dev/vdb - /dev/vdi	|/dev/vdb - /dev/vdi|Disk 1-8
@@ -18,7 +18,7 @@ The device name that you see on the console is the name assigned by the platform
 
 In Linux systems, since all attached need to be configured separately, the device name is the primary concern in disk operations. Each time when the internal Linux system is started, it will identify the device and assign the device name continuously according to the order in which the disk is attached. In case of a vacancy among device names in the system caused by disk detachment, the system will follow the relative order of original disks and cover the vacancy by forwarding to reassign a device name for it after the instance is restarted, which will cause the original attaching information to be invalid. If the original attaching configuration needs to remain unchanged, the attaching operation needs to be performed again in the system.
 
-In Windows systems, the device name (disks 0- 8) is only used as the index before the system attaching. The drive (C-Z) is the real identifier of the disk in the system, and after the detachment is completed, the drive will not be changed during system restart. Therefore, for Windows systems, the drive assignment is the primary concern in disk operations. Windows system will add relevant records to the registry for completely attached disks (initialized, partitioned, and assigned drives), and relevant records and information for the process of instance image creation and cloud disk service snapshots will be kept. Therefore, when the disk is attached to an instance, if the information of the instance registry matches the disk information, the system will try to assign the original drive; if the original drive is occupied, the system will remain offline and wait for the user to manually get online and assign the drive; if the information in the instance registry does not match the disk information, the system will directly assign an available drive according to the order. For all new disks or disks that are not completely attached, manual online operation and drive assignment are required.
+In Windows systems, the device name (disks 0- 8) is only used as the index before the system attaching. The drive (C-Z) is the real identifier of the disk in the system, and after the detachment is completed, the drive will not be changed during system restart. Therefore, for Windows systems, the drive assignment is the primary concern in disk operations. Windows system will add relevant records to the registry for completely attached disks (initialized, partitioned, and assigned drives), and relevant records and information for the process of instance image creation and Cloud Disk Service snapshots will be kept. Therefore, when the disk is attached to an instance, if the information of the instance registry matches the disk information, the system will try to assign the original drive; if the original drive is occupied, the system will remain offline and wait for the user to manually get online and assign the drive; if the information in the instance registry does not match the disk information, the system will directly assign an available drive according to the order. For all new disks or disks that are not completely attached, manual online operation and drive assignment are required.
 
 ## Detailed Description
 
@@ -26,7 +26,7 @@ In Windows systems, the device name (disks 0- 8) is only used as the index befor
 * In Windows system, if the disk is completely attached (or the source disk for snapshots used to create the disk is completely attached), including initialized, partitioned, and assigned drives, this type of disk is referred to as **Disk with Records** in the following description. Otherwise, it is called **Disk without Records**.
 * Device Name "/dev/vdx" (x:ai) is hereinafter abbreviated as "vdx".
 
-## Detailed Explanation of Rules
+## Rules Details
 
 ### Linux System	
 

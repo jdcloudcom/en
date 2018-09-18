@@ -2,7 +2,7 @@ swagger: "2.0"
 definitions:
   instanceClass:
     x-jdcloud-module: redis
-    description: The information of a Redis instance type
+    description: The information of a JCS for Redis instance type
     type: object
     properties:
       instanceClass:
@@ -19,7 +19,7 @@ definitions:
         description: Disk
       maxConnetction:
         type: integer
-        description: The Maximum Number of Links
+        description: Maximum Number of Links
       bandwidthMbps:
         type: integer
         description: Bandwidth

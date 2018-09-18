@@ -10,11 +10,11 @@ Use the cloud disk snapshot to purchase the created cloud disk. If the created d
 
 The new disk needs to be expanded into the space of created space. Take the new disk /dev/vdd as an example.
 
-1. Detach the new cloud disk
+1. Detach New Cloud Disk
 
 *umount /dev/vdd*
 
-2. Repartition the disk.
+2. Repartition the Disk.
 
 *fdisk /dev/vdd*
 

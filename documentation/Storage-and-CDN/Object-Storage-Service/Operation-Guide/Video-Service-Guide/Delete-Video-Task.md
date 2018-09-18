@@ -2,7 +2,7 @@
 
 Description: delete task through video task id
 
-Request grammar:
+Request Grammar：
 ```
 DELETE deleteVideoTask&taskId= taskId
 Host: oss.cn-north-1.jcloudcs.com
@@ -21,7 +21,7 @@ Connection: Keep-Alive
 User-Agent: JFS-JCLOUD-SDK-JAVA/1.0.0 (Java 1.8.0_45; Vendor Oracle Corporation; Windows 7 6.1; HttpClient 4.2.1)
 ```
 
-Response example:
+Response Sample:
 ```
 HTTP/1.1 200 OK
 x-jss-request-id: BBDC82A4C4B61A5F

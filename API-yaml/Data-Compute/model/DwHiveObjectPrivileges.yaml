@@ -10,28 +10,28 @@ definitions:
         description: Status
       message:
         type: string
-        description: Return information
+        description: Return Information
       select:
         type: boolean
-        description: select permission
+        description: Select Permission
       insert:
         type: boolean
-        description: insert permission
+        description: Insert Permission
       update:
         type: boolean
-        description: update permission
+        description: Update Permission
       delete:
         type: boolean
-        description: delete permission
+        description: Delete Permission
       drop:
         type: boolean
-        description: drop permission
+        description: Drop Permission
       create:
         type: boolean
-        description: create permission
+        description: Create Permission
       alter:
         type: boolean
-        description: alter permission
+        description: Alter Permission
       owner:
         type: boolean
         description: Is it the owner or not

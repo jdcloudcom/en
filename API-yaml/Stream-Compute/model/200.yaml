@@ -9,4 +9,4 @@ definitions:
         type: boolean
       message: 
         type: string
-        description: "Status information"
+        description: "Status Information"

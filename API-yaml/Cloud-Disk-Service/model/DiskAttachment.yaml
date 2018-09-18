@@ -9,19 +9,19 @@ definitions:
         description: Attach ID
       diskId:
         type: string
-        description: Cloud Disk Service ID
+        description: Cloud Disk ID
       instanceType:
         type: string
         enum:
           - "vm"
           - "nc"
-        description: Type of the instance  attached, vm or nc
+        description: Type of the Instance Attached, vm or nc
       instanceId:
         type: string
-        description: ID of instance attached
+        description: ID of Instance Attached
       status:
         type: string
-        description: Attaching state, "attaching", "attached", "detaching" or "detached"
+        description: Attaching Status, "attaching", "attached", "detaching" or "detached"
       attachTime:
         type: string
         format: date-time

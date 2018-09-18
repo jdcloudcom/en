@@ -35,7 +35,7 @@ macOS
 	brew install python@2
 
 
-## Installation of pip ##
+## Installation of Pip ##
 
 For installation, refer to: https://pip.pypa.io/
 
@@ -88,11 +88,11 @@ The AutoComplete feature greatly improves the efficiency of CLI use and recommen
 	--output  -h          add      show-all      use
 
 
-### Windows installation ###
+### Windows Installation ###
 
 JD Cloud CLI is running on Windows relying on Git 2.9. 0 and above version. It is recommended to use the latest version. The download address is: https://git-scm.com/download/win
 
-Note: When installed, the analog terminal option selects the “Use MinTTY (the default terminal of MSYS2)”.
+Note: When installed, the analog terminal option selects the **Use MinTTY (the default terminal of MSYS2)**.
 
                                                
 

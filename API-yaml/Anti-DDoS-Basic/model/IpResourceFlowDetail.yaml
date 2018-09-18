@@ -6,12 +6,12 @@ definitions:
     properties:
       used:
         type: array
-        description: Use value of corresponding time point
+        description: Use Value of Corresponding Time Point
         items:
           type: integer
           format: int64
       times:
         type: array
-        description: Time point
+        description: Time Point
         items:
           type: string

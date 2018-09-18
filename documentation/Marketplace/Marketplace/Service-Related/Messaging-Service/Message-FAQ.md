@@ -6,9 +6,9 @@ What is signature?
 
 ·    Moved-in enterprise: JD Technologies Co., Ltd.
 
-·    Signature submitted: 【JD】
+·    Signature submitted: **JD**
 
-·    Or the product signature under own company: 【JD Mall】
+·    Or the product signature under own company: **JD Mall**
 
 What makes that the SMS is successfully sent but not actually received?
 ·     Has the mobile been running for a long time without shutdown? Please shut it down and reboot.

@@ -5,7 +5,7 @@ definitions:
     properties:
       errorCode:
         type: string
-        description: Wrong encoding
+        description: Wrong Encoding
       errorMsg:
         type: string
-        description: Wrong information
+        description: Wrong Information

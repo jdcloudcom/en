@@ -1,10 +1,10 @@
-**This Service Terms is a valid agreement between the owner of the JD Cloud website (referred to in this Agreement as "JD Cloud" website: www.jdcloud.com) and you on matters relating to the virtual machine service. By stamping, clicking to confirm on the web page, or other ways to accept the Service Terms, including but not limited to the actual use of virtual machine service of JD Cloud without clicking to confirm the Service Terms, you have reached an agreement with JD Cloud and agreed to accept all agreed contents of the Service Terms. In case of any inconsistency between the text stamped by both parties and the text of Service Terms accepted and confirmed by clicking the web page or other ways, the text stamped by both parties shall prevail.**
+**This Service Terms is a valid agreement between the owner of the JD Cloud website (referred to in this Agreement as "JD Cloud" website: www.jdcloud.com) and you on matters relating to the Virtual Machines service. By stamping, clicking to confirm on the web page, or other ways to accept the Service Terms, including but not limited to the actual use of Virtual Machines service of JD Cloud without clicking to confirm the Service Terms, you have reached an agreement with JD Cloud and agreed to accept all agreed contents of the Service Terms. In case of any inconsistency between the text stamped by both parties and the text of Service Terms accepted and confirmed by clicking the web page or other ways, the text stamped by both parties shall prevail.**
 
-**For the Service Terms, you are reminded to pay special attention to the restriction and exemption terms, determination and handling terms of JD Cloud on your violations and breach of contract, and the selection terms of jurisdictional courts. Restriction and exemption terms may be indicated in bold or by underline for your attention. You should carefully read the entire contents of the Service Terms before accepting the Service Terms. If you have any questions about the Service Terms, please contact the relevant business department of JD Cloud and JD Cloud will explain the terms to you. If you do not agree on any of the contents of the Service Terms, or cannot accurately understand the interpretation of these terms made by JD Cloud, please do not continue the operation. **
+**For the Service Terms, you are reminded to pay special attention to the restriction and exemption terms, determination and handling terms of JD Cloud on your violations and breach of contract, and the selection terms of jurisdictional courts. Restriction and exemption terms may be indicated in bold or by underline for your attention. You should carefully read the entire contents of the Service Terms before accepting the Service Terms. If you have any questions about the Service Terms, please contact the relevant business department of JD Cloud and JD Cloud will explain the terms to you. If you do not agree on any of the contents of the Service Terms, or cannot accurately understand the interpretation of these terms made by JD Cloud, please do not continue the operation.**
 
 ## 1. Service Content
 
-1.1 "Services" in the Terms means JD Cloud provides you with the virtual machine services and related technical and network support services displayed on the website [www.jdcloud.com](https://www.jdcloud.com/).
+1.1 "Services" in the Terms means JD Cloud provides you with the Virtual Machines services and related technical and network support services displayed on the website [www.jdcloud.com](https://www.jdcloud.com/).
 
 ​1.2. The service provided by JD Cloud must comply with the provisions of the Service Terms.
 
@@ -42,7 +42,7 @@ You can select the pay-as-you-go mode. Please refer to the announcement on [www.
 
 ​3.1.3.1 If you use the services provided by JD Cloud to conduct operating or non-operating activities that require the license or approval of the relevant national authorities, you shall obtain the relevant license or approval, including but not limited to the following:
 
-If you set up multiple websites on the virtual machine service, you must ensure that all websites started have been licensed or approved by the relevant national authorities;
+If you set up multiple websites on the Virtual Machines service, you must ensure that all websites started have been licensed or approved by the relevant national authorities;
 
 If your website provides non-operating Internet information services, you must fill the non-operating website on the record, and ensure that all the filling information submitted is true and effective, and submit the updated information in the filing system in a timely manner when the filing information changes;
 
@@ -62,9 +62,9 @@ You understand and acknowledge that the above list does not cover all types of l
 
 3.1.3.3 If the services of JD Cloud involve the license of third-party software, you agree to abide by the relevant license agreement;
 
-3.1.3.4. If you enable the server endpoint security service while using the JD Cloud services, you acknowledge and agree to abide by the terms of the Endpoint Security Service Agreement.
+3.1.3.4. If you enable the server Endpoint Security service while using the JD Cloud services, you acknowledge and agree to abide by the terms of the Endpoint Security Service Agreement.
 
-3.1.3.5 Do Not Intersperse Email Ads or SPAMs: Do not use the services provided by JD Cloud to intersperse a large number of undesired or uncalled emails, electronic advertising or emails containing reactionary information, pornographic information or other harmful information;
+3.1.3.5 Do not intersperse Email Ads or SPAMs: Do not use the services provided by JD Cloud to intersperse a large number of undesired or uncalled emails, electronic advertising or emails containing reactionary information, pornographic information or other harmful information;
 
 3.1.3.6 The cloud server provided by JD Cloud shall not be used as a virtual server, or used as a disk space for renting, or used as an illegal proxy or spam server;
 
@@ -112,7 +112,7 @@ You understand and acknowledge that the above list does not cover all types of l
 
 3.1.9 In view of limitation of the existing technology development level in this industry, you understand that JD Cloud cannot guarantee that the services it provides are flawless (for example, security products of JD Cloud cannot guarantee the absolute security of your hardware or software), but it promises to improve the service quality and service levels continuously. Therefore, you agree even if the services provided by JD Cloud have defects, the above-mentioned defects are unavoidable due to the technical level in the industry at the time, and it will not be regarded as JD Cloud's default. You agree to cooperate with JD Cloud to solve the above problems.
 
-3.1.10 Data backup is your obligation and responsibility. The virtual machine of JD Cloud may be configured with the necessary tools with daily data backup function, which does not mean that data backup is an obligation of JD Cloud. JD Cloud does not guarantee full backup of user data, nor does it assume any responsibility for user data backup work or results.
+3.1.10 Data backup is your obligation and responsibility. The Virtual Machines of JD Cloud may be configured with the necessary tools with daily data backup function, which does not mean that data backup is an obligation of JD Cloud. JD Cloud does not guarantee full backup of user data, nor does it assume any responsibility for user data backup work or results.
 
 3.2 Rights and Obligations of JD Cloud
 
@@ -124,13 +124,13 @@ You understand and acknowledge that the above list does not cover all types of l
 
 3.2.2.2 JD Cloud provides a 7×24h online open ticket service system to answer customer questions.
 
-3.2.3 Where the service involves virtual machine, JD Cloud is responsible only for the operation maintenance at the bottom part of operating system and of the software provided by JD Cloud, that is, the related technical architecture and operating system of the virtual machine service. You will be responsible for the upper part of the operating system (such as the applications you install on your system). Besides, if you upgrade your operating system yourself, it may cause adverse effects such as downtime. Please consider the risks and operation with caution.
+3.2.3 Where the service involves Virtual Machines, JD Cloud is responsible only for the operation maintenance at the bottom part of operating system and of the software provided by JD Cloud, that is, the related technical architecture and operating system of the Virtual Machines service. You will be responsible for the upper part of the operating system (such as the applications you install on your system). Besides, if you upgrade your operating system yourself, it may cause adverse effects such as downtime. Please consider the risks and operation with caution.
 
 3.2.4 JD Cloud will clear the faults caused by non-human factors, except for your reasons and/or force majeure as well as matters excluded in the control scope of JD Cloud.
 
 3.2.5 JD Cloud shall strictly abide by the obligation of confidentiality.
 
-3.2.6 You understand and agree that JD Cloud will perform a computer room migration of the virtual machine you use when necessary. JD Cloud will inform you of the above operations 7 natural days in advance. Above operations may require modification of the DNS of your related domain name. Therefore, you need to modify the DNS to IP designated by JD Cloud as per the time required by JD Cloud after receiving the notification from JD Cloud. Otherwise, you will be responsible for the inability to access the website application thus caused.
+3.2.6 You understand and agree that JD Cloud will perform a computer room migration of the Virtual Machines you use when necessary. JD Cloud will inform you of the above operations 7 natural days in advance. Above operations may require modification of the DNS of your related domain name. Therefore, you need to modify the DNS to IP designated by JD Cloud as per the time required by JD Cloud after receiving the notification from JD Cloud. Otherwise, you will be responsible for the inability to access the website application thus caused.
 
 ## 4. Saving, Destruction and Download of User's Data
 
@@ -168,7 +168,7 @@ You understand and acknowledge that the above list does not cover all types of l
 
 ## 7. Term and Termination
 
-7.1 The service term is calculated from the day that you created (refers to the services shown and provided to you at [jdcloud.com](https://jdcloud.com/)) any virtual machine service, not based on the administrator identity you obtained from the virtual machine server (including the administrator login number and password). The specific service term will be calculated based on your actual usage. After the virtual machine service is created successfully, you should make preparations prior to the opening of the website (such as handling website license/website filing procedure, etc.), the preparation period shall be included in the service term.
+7.1 The service term is calculated from the day that you created (refers to the services shown and provided to you at [jdcloud.com](https://jdcloud.com/)) any Virtual Machines service, not based on the administrator identity you obtained from the Virtual Machines server (including the administrator login number and password). The specific service term will be calculated based on your actual usage. After the Virtual Machines service is created successfully, you should make preparations prior to the opening of the website (such as handling website license/website filing procedure, etc.), the preparation period shall be included in the service term.
 
 7.2 The service term shall be terminated in advance in the following circumstances:
 
@@ -198,7 +198,7 @@ You understand and acknowledge that the above list does not cover all types of l
 
 9.1 Due to force majeure or other accidents, the performance of this Service Terms becomes impossible, unnecessary or meaningless, and the party suffering from force majeure or accident is not liable.
 
-9.2. Force majeure or accidental events refer to unforeseeable, insurmountable and unavoidable objective events that have a significant impact on one or both parties, including but not limited to natural disasters such as floods, earthquakes, epidemics of plagues, and social events such as war, unrest, government actions, interruption of telecommunications trunk lines, hackers, network path blocking, technical adjustment of telecom department and government regulation.
+9.2. Force majeure or accidental events refer to unforeseeable, insurmountable and unavoidable objective events that have a significant impact on one or both parties, including but not limited to natural disasters such as floods, earthquakes, epidemics of plagues, and social events such as war, unrest, government actions, and interruption of telecommunications trunk lines, hackers, network path blocking, technical adjustment of telecom department and government regulation.
 
 ## 10. Governing Law and Dispute Resolution
 

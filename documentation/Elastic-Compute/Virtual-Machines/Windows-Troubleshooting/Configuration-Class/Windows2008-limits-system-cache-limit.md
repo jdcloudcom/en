@@ -1,4 +1,4 @@
-# Windows2008 Caps System Cache
+# Windows 2008 Caps System Cache
 MetaFile can be understood as system cache. In Windows server 2008 system, for example, there is a large number of file copy and other disk io operations, and the system will automatically cache it into memory. This part of the occupied memory is not reflected in the Task Manager, so the user will consider the memory usage of the system as abnormal. Meanwhile, by default, no limit is applied to MetaFile, so the system will take up the memory limitlessly. But after Windows 2012, the operating system automatically limits the upper limit of the system cache to avoid running out of physical memory.
 
 An article in Microsoft's official Blog introduces that MetaFile exhausts system physical resources, which can be solved through Dyncache service. Please note that this software is not applicable to systems after Windows 2012:
@@ -13,7 +13,7 @@ http://www.microsoft.com/en-us/download/details.aspx?id=9258
 
 The specific steps are as follows:
 
-1. After decompressing, copy the corresponding DynCache.exe file in different system versions to C:windowssystem32.
+1.解压后根据不同系统版本中对应的DynCache.exe文件复制到C:\windows\system32中。
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows2008%E9%99%90%E5%88%B6%E7%B3%BB%E7%BB%9F%E7%BC%93%E5%AD%98%E4%B8%8A%E9%99%9001.png)
 
 2. Open a command prompt as an administrator and execute the following command to add a service:

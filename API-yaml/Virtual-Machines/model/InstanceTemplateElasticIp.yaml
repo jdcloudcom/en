@@ -8,7 +8,7 @@ definitions:
     properties:
       bandwidthMbps:
         type: integer
-        description: "Speed limit for EIP (unit: MB)"
+        description: Speed limit for EIP (unit: MB)
       provider:
         type: string
         #todo: define common enums for referrence

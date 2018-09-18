@@ -5,7 +5,7 @@ When an instance is created, it can be associated with corresponding security gr
 
 To create a security group is to enforce an All drop rule for all inlet/ outlet traffic by default; you can add or delete rules for a security group at any time, and the new rules will be automatically applied to all instances associated with that security group.
 
-You can create 50 security groups under each virtual private cloud in each zone. At most 100 rules can be added for each security group in both directions to meet your requirement for network security isolation.
+You can create 50 security groups under each Virtual Private Cloud in each zone. At most 100 rules can be added for each security group in both directions to meet your requirement for network security isolation.
 
 Each network interface corresponding to each instance must be bound to at least one security group and it can be bound to up to 5 security groups to achieve precise control for instance access traffic.
  

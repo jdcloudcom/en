@@ -1,4 +1,4 @@
-﻿# Core Concept
+﻿# Core Concepts
 
 Terms|Descriptions
 :---|:---

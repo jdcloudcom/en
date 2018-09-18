@@ -5,28 +5,28 @@ definitions:
     properties:
       subnetId:
         type: string
-        description: Subnet Id
+        description: Subnet ID
       subnetName:
         type: string
-        description: Subnet name
+        description: Subnet Name
       vpcId:
         type: string
-        description: VPC Id of subnet
+        description: VPC ID of Subnet
       addressPrefix:
         type: string
-        description: "Subnet segment, subnet segment in vpc cannot overlap, value range of cidr: 10.0.0.0/8、172.16.0.0/12, 192.168.0.0/16 and their subnets included and the length of subnet mask is between 16 and 28. If VPC includes Cidr, it must be the Cidr subnet of VPC"
+        description: Subnet Segment, Subnet Segment in VPC Cannot Overlap. Value Range of cidr: 10.0.0.0/8、172.16.0.0/12, 192.168.0.0/16 and their subnets included and the length of subnet mask is between 16 and 28. If VPC includes Cidr, it must be the Cidr subnet of VPC
       availableIpCount:
         type: number
-        description: Number of available IPs in subnet
+        description: Number of Available IPs in Subnet
       description:
         type: string
-        description: Subnet description information
+        description: Subnet Description Information
       routeTableId:
         type: string
-        description: Subnet associated route table Id
+        description: Subnet Associated Route Table ID
       aclId:
         type: string
-        description: Subnet associated acl Id
+        description: Subnet Associated Acl ID
       startIp:
         type: string
         description: Subnet start address, the 1st subnet address is router gateway reservation, the 2nd subnet address is dhcp service reservation
@@ -35,5 +35,5 @@ definitions:
         description: Subnet end address, the 1st subnet address is router gateway reservation, the 2nd subnet address is dhcp service reservation
       createdTime:
         type: string
-        description: Subnet creation time
+        description: Subnet Creation Time
 

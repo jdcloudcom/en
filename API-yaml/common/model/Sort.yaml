@@ -6,10 +6,10 @@ definitions:
     properties:
       name:
         type: string
-        description: Name of sorting requirements
+        description: Name of Sorting Requirements
       direction:
         type: string
-        description: Direction of sorting requirements
+        description: Direction of Sorting Requirements
         enum:
           - asc
           - desc

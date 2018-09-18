@@ -1,6 +1,6 @@
 # Specifications
 
-The MongoDB currently supports the following instance specifications.
+The JCS for MongoDB currently supports the following instance specifications.
 
 ## Instance Specification List
 

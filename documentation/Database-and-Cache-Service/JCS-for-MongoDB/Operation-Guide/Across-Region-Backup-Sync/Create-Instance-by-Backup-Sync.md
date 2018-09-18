@@ -21,11 +21,11 @@ Based on full-size and incremental backups of cross-regional backup services, yo
    - Storage Space: not be less than the source instance, otherwise the creation may fail.
    - Other configuration information is the same as [Create Instance](../../Getting-Started/Create-Instance.md).
 
-1. Click **Buy Now** and enter into “Order Confirmation” page.
+1. Click **Buy Now** and enter into "Order Confirmation" page.
 1. On the "Order Confirmation" page, confirm the instance information and read the Terms of Service for MongoDB.
 	- If the billing type is pay by configuration, please click **Instant Account Setup**.
-	- If the billing type is monthly package, please click ** Pay Now** to enter the “Order Payment” page to complete the payment process.
-1. After the payment process is completed, the page will automatically jump to the MongoDB "Instance List" page, please wait for the instance creation to complete. You can view the newly created instance on the "Instance List" page.
+	- If the billing type is monthly package, please click ** Pay Now** to enter the "Order Payment" page to complete the payment process.
+1. After the payment process is completed, the page will automatically jump to the JCS for MongoDB "Instance List" page, please wait for the instance creation to complete. You can view the newly created instance on the "Instance List" page.
 
 # Relevant reference
 - [Create Cross-Region Backup Synchronization Service](Create-Backup-Sync.md)

@@ -1,6 +1,6 @@
 # Infrastructure
 
-MongoDB provides a 3-node replica set architecture by default, where the Primary and Secondary nodes are visible to the user and the Hidden node are invisible to users.
+JCS for MongoDB provides a 3-node replica set architecture by default, where the Primary and Secondary nodes are visible to the user and the Hidden node are invisible to users.
 
 ## Business Architecture
 The business structure is as follows:
@@ -9,7 +9,7 @@ The business structure is as follows:
 
 | Name | Description |
 | - | - | 
-|Control Services | Supports a variety of management control tasks for MongoDB instances, including creation, deletion, query, configuration altering, disaster tolerance switching, backup and recovery tasks, etc. |
+|Control Services | Supports a variety of management control tasks for MongoDB instances, including creation, deletion, query, configuration changes, disaster tolerance switching, backup and recovery tasks, etc. |
 |Monitoring Services|Collect MongoDB instance information (resource usage and database key statistics, etc.) and physical machine information (resource usage information and ratings, etc.), the former for users and consoles, and the latter for system management. |
 |Sentinel| Sentinel monitors whether MongoDB instances are alive. Multiple sentinels work at the same time. When a node is found to be unavailable, it sends a failover task, automatically creates a new node, and synchronizes the data. |
 |Backup Services | Automatic scheduled backups, and supporting for users to manually create backups. |
@@ -19,7 +19,7 @@ The business structure is as follows:
 ## Related Reference
 
 - [Product Benefit](../Product-Introduction/Benefits.md)
-- [Product Function](./ Introduction/ Functions.md
+- [Features](./ Introduction/ Functions.md)
 - [Price Overview](../Pricing/Price-Overview.md)
 - [Billing Rules](../Pricing/Billing-Rules.md)
 - [Create Instance](../Getting-Started/Create-Instance.md)

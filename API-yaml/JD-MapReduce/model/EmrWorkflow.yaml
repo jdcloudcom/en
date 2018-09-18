@@ -12,24 +12,24 @@ definitions:
         description: Workflow ID
       workflowName:
         type: string
-        description: Workflow name
+        description: Workflow Name
       status:
         type: string
-        description: Workflow status
+        description: Workflow Status
       userpin:
         type: string
-        description: User name
+        description: User Name
       createTime:
         type: string
         format: date-time
-        description: Workflow creation time
+        description: Workflow Creation Time
       dataCenter:
         type: string
-        description: Data center, i.e. regionId
+        description: Data Center, i.e. regionId
       modifyTime:
         type: string
         format: date-time
-        description: Last time of modification
+        description: Last Time of Modification
       isSelfDependence:
         type: boolean
         description: |

@@ -9,4 +9,4 @@ definitions:
         type: array
         items:
           $ref: "./ModifySecurityGroupRules.yaml#/definitions/modifySecurityGroupRules"
-        description: Security group rule information
+        description: Security Group Rule Information

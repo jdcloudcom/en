@@ -11,6 +11,11 @@
 				"funcName":"",
 				"funcTitle":"0Day Vulnerability Protection",
 				"funcP":"The professional attack-defense team carries out a 7*24 hours follow-up of 0day vulnerability, analyzes the vulnerability principle and develops a security protection strategy to provide protection in time."
+			},
+			{
+				"funcName":"",
+				"funcTitle":"CC Attack Protection",
+				"funcP":"Support global model and single IP protection mode, check CC attack protection based on multiple challenge check algorithms and protect DOS function of the application layer."
 			}
 		]
 	},
@@ -51,6 +56,16 @@
 				"funcName":"",
 				"funcTitle":"Access log record",
 				"funcP":"Carrying out log records to the established control rules, supporting real-time query and statistics"
+			},
+			{
+				"funcName":"",
+				"funcTitle":"Webpage Tamper-proofing",
+				"funcP":"The webpage tamper-proofing uses the mandatory static cache locking and update mechanism to protect specific webpages. Even though relevant webpage of origin server is tampered, it can be returned to the user cache page."
+			},
+			{
+				"funcName":"",
+				"funcTitle":"Administrator Operation Audit",
+				"funcP":"Provide audit logs for operation of all administrators and provide the same on demand when checking security compliance."
 			}
 		]
 	},
@@ -86,6 +101,11 @@
 				"funcName":"",
 				"funcTitle":"No DNS modification",
 				"funcP":"It doesn’t need to modify the DNS to achieve service protection and monitoring. Work jointly with load balancer to realize certificate autonomy management and SSL uninstall function."
+			},
+			{
+				"funcName":"",
+				"funcTitle":"HTTPS Support",
+				"funcP":"Upload ssl certificate on the Load Balancer and implement HTTPS detach management."
 			}
 		]
 	}

@@ -6,13 +6,13 @@ definitions:
     properties:
       id:
         type: integer
-        description: Unique ID of the domain name resolution
+        description: Unique ID of the Domain Name Resolution
       hostRecord:
         type: string
         description: Machine Record
       hostValue:
         type: string
-        description: Value of the resolution record
+        description: Value of Resolution Record
       jcloudRes:
         type: boolean
         description: JD Cloud Resource?
@@ -24,18 +24,18 @@ definitions:
         description: port, only exists in some resolution record types
       ttl:
         type: integer
-        description: Life time of the resolution record
+        description: Life Time of Resolution Record
       type:
         type: string
-        description: Type of the resolution record
+        description: Type of Resolution Record
       weight:
         type: integer
-        description: Weight of the resolution record              
+        description: Weight of Resolution Record              
       viewValue:
         type: array
         items:
             type: integer
-        description: ID of the resolution line
+        description: ID of Resolution Line
   updateRR:
     type: object
     x-jdcloud-module: clouddnsservice
@@ -47,7 +47,7 @@ definitions:
       id:
         type: integer
         required: true
-        description: Unique ID of the domain name resolution
+        description: Unique ID of the Domain Name Resolution
       hostRecord:
         type: string
         required: true
@@ -55,7 +55,7 @@ definitions:
       hostValue:
         type: string
         required: true
-        description: Value of the resolution record
+        description: Value of Resolution Record
       jcloudRes:
         type: boolean
         required: true
@@ -71,7 +71,7 @@ definitions:
       ttl:
         type: integer
         required: true
-        description: Life time of the resolution record
+        description: Life Time of Resolution Record
       type:
         type: string
         required: true
@@ -79,11 +79,11 @@ definitions:
       weight:
         type: integer
         required: true
-        description: Weight of the resolution record              
+        description: Weight of Resolution Record              
       viewValue:
         type: integer
         required: true
-        description: ID of the resolution line
+        description: ID of Resolution Line
   addRR:
     type: object
     x-jdcloud-module: clouddnsservice
@@ -94,7 +94,7 @@ definitions:
         required: true
       hostValue:
         type: string
-        description: Value of the resolution record
+        description: Value of Resolution Record
         required: true
       jcloudRes:
         type: boolean
@@ -110,7 +110,7 @@ definitions:
         required: true
       ttl:
         type: integer
-        description: Life time of the resolution record
+        description: Life Time of Resolution Record
         required: true
       type:
         type: string
@@ -118,11 +118,11 @@ definitions:
         required: true
       weight:
         type: integer
-        description: Weight of the resolution record
+        description: Weight of Resolution Record
         required: true        
       viewValue:
         type: integer
-        description: ID of the resolution line
+        description: ID of Resolution Line
         required: true        
   viewTree:
     type: object
@@ -130,10 +130,10 @@ definitions:
     properties:
       disabled:
         type: boolean
-        description: Whether this resolution line is disabled
+        description: Whether is this resolution line disabled
       label:
         type: string
-        description: Name of the resolution line
+        description: Name of Resolution Line
       leaf:
         type: boolean
         description: Whether the data is a leaf node

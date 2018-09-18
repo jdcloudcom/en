@@ -13,7 +13,7 @@ A: Sorry. The domain name is instant product, and refunding or modification is n
 
 If real-name verification is not completed after successful registration of domestic Chinese and English domain names, the domain name will not be deleted, and the registration fees will not be returned.
 
-Warm prompt:
+Warm Prompt:
 
 The domain name cannot be deleted after successful registration, and you can refuse renewing at the expiration date if you do not need the domain name anymore;
 

@@ -17,7 +17,7 @@ paths:
           description: Instance type parameter
           required: true
           schema:
-            $ref: "../model/InstanceSpec.yaml#/definitions/instanceSpec"
+            $ref: "../model/InstanceSpec.yaml#/definitions/InstanceSpec"
       responses:
         200:
           description: OK
@@ -58,11 +58,12 @@ paths:
                   dataList:
                     type: array
                     items:
-                      $ref: "../model/Instance.yaml#/definitions/instance"
+                      $ref: "../model/Instance.yaml#/definitions/Instance"
                   totalCount:
                     type: integer
               requestId:
                 type: string
+
   /instances/{instanceId}:
     get:
       description: "Search instances"
@@ -75,7 +76,7 @@ paths:
               result:
                 properties:
                   data:
-                    $ref: "../model/Instance.yaml#/definitions/instance"
+                    $ref: "../model/Instance.yaml#/definitions/Instance"
               requestId:
                 type: string
         404:
@@ -86,9 +87,9 @@ paths:
       description: "Set the instance CC defense"
       operationId: modifyInstanceCC
       parameters:
-        - name: CCSpec
+        - name: cCSpec
           in: body
-          description: cc parameter
+          description: cc Parameter
           required: true
           schema:
             $ref: "../model/CcSpec.yaml#/definitions/CCSpec"
@@ -188,7 +189,7 @@ paths:
       parameters:
         - name: name
           in: query
-          description: New instance name
+          description: New Instance Name
           required: true
           type: string
       responses:
@@ -206,9 +207,9 @@ paths:
       description: "Set the instance IP blacklist"
       operationId: modifyInstanceIpBlackList
       parameters:
-        - name: IpBlackList
+        - name: ipBlackList
           in: body
-          description: IP blacklist
+          description: IP Blacklist
           required: true
           schema:
             type: array
@@ -254,9 +255,9 @@ paths:
       description: "Set the instance IP white list"
       operationId: modifyInstanceIpWhiteList
       parameters:
-        - name: IpWhiteList
+        - name: ipWhiteList
           in: body
-          description: IP white list
+          description: IP White List
           required: true
           schema:
             type: array
@@ -359,9 +360,9 @@ paths:
       description: "Set the speed limit of each Ip of instance CC defense"
       operationId: setCcIpLimit
       parameters:
-        - name: CCSpec
+        - name: cCSpec
           in: body
-          description: cc parameter
+          description: cc Parameter
           required: true
           schema:
             $ref: "../model/CcIpLimitSpec.yaml#/definitions/CcIpLimitSpec"
@@ -374,6 +375,211 @@ paths:
                 type: string
         404:
           description: NOT_FOUND
+
+  /instances/{instanceId}:modifyEPB:
+    post:
+      description: "更新实例弹性防护带宽"
+      operationId: modifyEPB
+      parameters:
+        - name: ePBSpec
+          in: body
+          description: "更新弹性防护带宽请求参数"
+          required: true
+          schema:
+            $ref: "../model/EPBSpec.yaml#/definitions/EPBSpec"
+      responses:
+        200:
+          description: OK
+          schema:
+            properties:
+              requestId:
+                type: string
+        404:
+          description: NOT_FOUND
+
+  /instances/{instanceId}:describeAlarmConfig:
+    get:
+      description: "查询告警配置"
+      operationId: describeAlarmConfig
+      responses:
+        200:
+          description: OK
+          schema:
+            properties:
+              result:
+                properties:
+                  data:
+                    $ref: "../model/AlarmConfig.yaml#/definitions/AlarmConfig"
+              requestId:
+                type: string
+        404:
+          description: NOT_FOUND
+
+  /instances/{instanceId}:modifyAlarmConfig:
+    post:
+      description: "更新告警配置"
+      operationId: modifyAlarmConfig
+      parameters:
+        - name: alarmConfigSpec
+          in: body
+          description: "更新告警配置请求参数"
+          required: true
+          schema:
+            $ref: "../model/AlarmConfigSpec.yaml#/definitions/AlarmConfigSpec"
+      responses:
+        200:
+          description: OK
+          schema:
+            properties:
+              requestId:
+                type: string
+
+  /instance/describeNameList:
+    get:
+      description: "查询高防实例名称列表"
+      operationId: describeNameList
+      parameters:
+        - name: id
+          in: query
+          type: string
+          required: false
+          description: "高防实例 ID, 为空则查询所有实例名称"
+        - name: name
+          in: query
+          type: string
+          required: false
+          description: "实例名称, 可模糊匹配"
+        - name: pageNumber
+          in: query
+          type: integer
+          required: false
+          description: "Page number; 1 by default"
+        - name: pageSize
+          in: query
+          type: integer
+          required: false
+          description: "分页大小, 默认为 10, 取值范围 [0, 100]"
+      responses:
+        200:
+          description: OK
+          schema:
+            properties:
+              result:
+                properties:
+                  dataList:
+                    type: array
+                    items:
+                      $ref: "../model/InstanceIdName.yaml#/definitions/InstanceIdName"
+                  currentCount:
+                    type: integer
+                    description: "当前页数量"
+                  totalCount:
+                    type: integer
+                    description: "实例总数"
+                  totalPage:
+                    type: integer
+                    description: "总页数"
+              requestId:
+                type: string
+
+  /instance/describeProtectionStatistics:
+    get:
+      description: "查询高防实例防护统计信息"
+      operationId: describeProtectionStatistics
+      responses:
+        200:
+          description: OK
+          schema:
+            properties:
+              result:
+                properties:
+                  data:
+                    $ref: "../model/ProtectionStatistics.yaml#/definitions/ProtectionStatistics"
+              requestId:
+                type: string
+        404:
+          description: "NOT_FOUND"
+        500:
+          description: INTERNAL_SERVER_ERROR
+
+  /instance/checkName:
+    get:
+      description: "检测实例名称是否合法"
+      operationId: checkName
+      parameters:
+        - name: name
+          in: query
+          type: string
+          required: true
+          description: "待检测实例名称"
+      responses:
+        200:
+          description: OK
+          schema:
+            properties:
+              result:
+                properties:
+                  data:
+                    type: boolean
+                    description: "检测结果, true 表示合法, false 表示不合法"
+              requestId:
+                type: string
+
+  /instance/describeVpcIpList:
+    get:
+      description: "查询用户的京东云 IP 资源"
+      operationId: describeVpcIpList
+      parameters:
+        - name: pageNumber
+          in: query
+          type: integer
+          required: false
+          description: "Page number; 1 by default"
+        - name: pageSize
+          in: query
+          type: integer
+          required: false
+          description: "分页大小, 默认为 10, 取值范围 [0, 100], 0 表示全量"
+      responses:
+        200:
+          description: OK
+          schema:
+            properties:
+              result:
+                properties:
+                  dataList:
+                    type: array
+                    items:
+                      $ref: "../model/VpcIpResource.yaml#/definitions/VpcIpResource"
+                  currentCount:
+                    type: integer
+                    description: "当前页数量"
+                  totalCount:
+                    type: integer
+                    description: "实例总数"
+                  totalPage:
+                    type: integer
+                    description: "总页数"
+              requestId:
+                type: string
+
+  /instance/describeCCDefaultThresholds:
+    get:
+      description: "查询 CC 自定义默认阈值"
+      operationId: describeCCDefaultThresholds
+      responses:
+        200:
+          description: OK
+          schema:
+            properties:
+              result:
+                properties:
+                  data:
+                    $ref: "../model/CCDefaultThresholds.yaml#/definitions/CCDefaultThresholds"
+              requestId:
+                type: string
+
+
 # General parameters of path
 parameters:
   regionId:
@@ -381,7 +587,7 @@ parameters:
     in: path
     required: true
     type: string
-    description: Belonging region ID
+    description: Belonging Region ID
   instanceId:
     name: instanceId
     in: path

@@ -7,7 +7,7 @@ definitions:
     properties:
       totalNum:
         type: integer
-        description: Cluster job number
+        description: Cluster Job Number
       cronJobs:
         type: array
         items:

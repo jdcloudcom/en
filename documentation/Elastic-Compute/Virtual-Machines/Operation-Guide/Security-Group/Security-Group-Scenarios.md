@@ -29,10 +29,10 @@ Your EIP address can be obtained in following ways:
 1. Query through the IP database.
 2. If there is a deviation in the IP address queried by IP, you can configure the source IP range as 0.0.0.0/0 first. Use your current network access instance, obtain the source IP address through tcpdump on the instance, and then configure the source IP into the security group rule.
 
-## Scenario 3: Usage of load balancer to provide public network services
+## Scenario 3: Usage of Load Balancer to provide public network services
 ### Scenario Description
 Load balancer is a load balancing service that distributes traffic to multiple instances. It extends the external service capability of the application system through traffic distribution and improves the availability of the application system by eliminating single-point fault.
-An instance with no EIP address can receive access from the public network through public network load balancer, but cannot initiate access to the public network.
+An instance with no EIP address can receive access from the public network through public network Load Balancer, but cannot initiate access to the public network.
 ### Configuration Suggestions
 * Security group 1 provides Web services for the Internet and only opens port https/https to the Internet.
 * Security group 2 provides application services for security group 1, and opens application service ports to security group 1.

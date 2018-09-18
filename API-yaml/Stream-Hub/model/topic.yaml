@@ -7,22 +7,22 @@ definitions:
     properties:
       id: 
         type: integer
-        description: "Subject id"
+        description: "Subject ID"
       archived: 
         type: integer
-        description: "Whether to archive or not (0: not archived, 1: archived)"
+        description: "Whether to Archive or Not (0: not archived, 1: archived)"
       lifecycle:
         type: integer
-        description: "Reserve time after writing data"
+        description: "Reserve Time After Writing Data"
       partitionNum:
         type: integer
         description: "Partition"
       name:
         type: string
-        description: "topic name in the streaming data bus"
+        description: "Topic Name in the Stream Hub"
       shardNum:
         type: integer
-        description: "shard number in the streaming data bus"
+        description: "Shard Number in the Stream Hub"
       remark:
         type: string
         description: "Note"

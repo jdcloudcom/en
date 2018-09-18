@@ -1,5 +1,5 @@
 # Image Type Conversion
-Since the image formats required for creating a local system disk virtual machine and a cloud system disk virtual machine are different, if you want to create a cloud system disk virtual machine by using a private image made from a local system disk virtual machine, you should generate a new image based on the current image through [Image Type Conversion], and the two images are respectively "Local System Disk" and "Cloud System Disk".
+Since the image formats required for creating a local system disk Virtual Machines and a cloud system disk Virtual Machines are different, if you want to create a cloud system disk Virtual Machines by using a private image made from a local system disk Virtual Machines, you should generate a new image based on the current image through **Image Type Conversion**, and the two images are respectively "Local System Disk" and "Cloud System Disk".
 
 You can view the field "Image Type" in the image lists and details to learn the type of the image system disk, and you can convert the private image as required. The public image and the cloud marketplace image provide two types of images at the same time.
 
@@ -18,10 +18,10 @@ You must ensure that the private image and cloud disk snapshot quotas are suffic
 * A system disk snapshot generated through image operation can be used as a separate snapshot resource to create a cloud disk. But the snapshot can not be deleted until the image is deleted.
 
 ## Operation Steps
-1. Access [Image Console][1] to enter the image list page. Or access [JD Cloud Console][2] Click navigation bar on the left [Elastic Compute] - [Virtual Machine] - [Image] to enter the image list page.
-2. Select [Private Image] TAB, select the private image needs to be converted (the image type should be the local system disk), and click [Image Type Conversion] in the [More].>
+1. Access [Image Console][1] to enter the image list page. Or access [JD Cloud Console][2] Click navigation bar on the left **Elastic Compute** - **Virtual Machines** - **Image** to enter the image list page.
+2. Select [Private Image] TAB, select the private image needs to be converted (the image type should be the local system disk), and click **Image Type Conversion** in the **More**.>
 ![](../../../../../image/vm/Operation-Guide-Image-Convert1.png)
-3. Click [OK] in the confirmation pop-up window to   start the image conversion. The names of new image and system disk snapshot are the same as the original image by default, which can be modified after creation.
+3. Click **OK** in the confirmation pop-up window to start the image conversion. The names of new image and system disk snapshot are the same as the original image by default, which can be modified after creation.
 ![](../../../../../image/vm/Operation-Guide-Image-convert2.png)
 
   [1]: https://cns-console.jdcloud.com/host/image/list

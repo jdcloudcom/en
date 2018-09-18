@@ -1,4 +1,4 @@
-# Purchase Procedure
+# Purchase Process
 
 This article describes the purchase entrance for cloud resolution.
 
@@ -6,6 +6,6 @@ This article describes the purchase entrance for cloud resolution.
 
 2. Log in to the console.
 
-3. Enter the domain name resolution page and click to purchase the package.
+3. Enter the domain name resolution page and click to **Purchase the Package**.
 
-4. Select the package you want to purchase and click Buy Now.
+4. Select the **Package** you want to purchase and click Buy Now.

@@ -9,25 +9,25 @@ definitions:
         description: Instance Name
       buyType:
         type: integer
-        description: Purchase type, 1->newly purchased  3->upgraded
+        description: Purchase Type, 1->newly purchased  3->upgraded
       timeUnit:
         type: integer
-        description: Purchase duration unit, 3->month  4->year
+        description: Purchase Duration Unit, 3->month  4->year
       timeSpan:
         type: integer
-        description: Purchase duration
+        description: Purchase Duration
       carrier:
         type: string
-        description: "ISP Line: TELECOM->China Telecom's ISP line  UNICOM->Unicom's ISP line CMCC->CMCC's ISP line"
+        description: ISP Line: TELECOM->China Telecom's ISP line  UNICOM->Unicom's ISP line CMCC->CMCC's ISP line
       bp:
         type: integer
-        description: "Minimum bandwidth: unit: Gbps"
+        description: Minimum bandwidth: unit: Gbps
       ep:
         type: integer
-        description: "Elastic bandwidth: unit: Gbps"
+        description: Elastic bandwidth: unit: Gbps
       bw:
         type: integer
-        description: "Business bandwidth: unit: Mbps"
+        description: Business bandwidth: unit: Mbps
       returnUrl:
         type: string
         description: The page jumped to after the payment succeeds. The field is transferred in the console interaction mode

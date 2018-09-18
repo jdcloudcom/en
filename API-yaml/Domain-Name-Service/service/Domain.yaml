@@ -2,7 +2,7 @@ swagger: "2.0"
 info:
   version: "v1"
   title: Domain Name
-  description: Cloud resolution OpenAPI domain name API
+  description: Cloud Resolution OpenAPI Domain Name API
 
 basePath: /regions/{regionId}
 
@@ -26,7 +26,7 @@ paths:
         - name: domainName
           in: query
           type: string
-          description: Keyword, matching the main domain name name according to the "%domainName%" pattern
+          description: Keyword, matching the main domain name according to the "%domainName%" pattern
           required: false
       responses:
         200:
@@ -42,13 +42,13 @@ paths:
                     description: Domain Name List
                   currentCount:
                     type: integer
-                    description: Number of domain names in the domain name list of the current page
+                    description: Number of Domain Names in the Domain Name List of the Current Page
                   totalCount:
                     type: integer
-                    description: Number of all matched domain name lists
+                    description: Number of All Matched Domain Name Lists
                   totalPage:
                     type: integer
-                    description: Pages of all matched domain name lists in total according to the paging parameters                    
+                    description: Pages of All Matched Domain Name Lists in Total According to the Paging Parameters                    
               requestId:
                 type: string
                 description: ID of this request
@@ -63,37 +63,37 @@ paths:
         - name: packId
           in: query
           type: integer
-          description: Type of the domain name package,  0->free, 1->Enterprise Edition, 2->Advanced Edition
+          description: Type of the Domain Name Package,  0->Free, 1->Enterprise Edition, 2->Advanced Edition
           required: true
         - name: domainName
           in: query
           type: string
-          description: Domain name to be added
+          description: Domain Name to be Added
           required: true
         - name: domainId
           in: query
           type: integer
           required: false
-          description: Domain name ID, required for upgraded and advanced version       
+          description: Domain Name ID, required for upgraded and advanced version       
         - name: buyType
           in: query
           required: false 
           type: integer
-          description: 1->new purchase, 2->upgrade, domain name of the paid package is required
+          description: 1->New Purchase, 2->Upgrade, domain name of the paid package is required
         - name: timeSpan
           in: query
           type: integer
-          description: 1,2,3 , duration, domain name of the paid package is required
+          description: 1, 2, 3, Duration, domain name of the paid package is required
           required: false
         - name: timeUnit
           in: query
           type: integer
-          description: Time unit, domain name of the paid package is required
+          description: Time Unit, domain name of the paid package is required
           required: false
         - name: billingType
           in: query
           type: integer
-          description: Billing type, domain name of the paid package is required
+          description: Billing Type, domain name of the paid package is required
           required: false
       responses:
         200:
@@ -104,7 +104,7 @@ paths:
                 properties:
                   data:
                     $ref: "../model/Domain.yaml#/definitions/domain"
-                    description: Newly added domain name structure
+                    description: Newly Added Domain Name Structure
                   order:
                     type: string
                     description: Add the order number of the paid domain name
@@ -123,7 +123,7 @@ paths:
           in: query
           type: integer
           required: true
-          description: Domain name ID to be deleted
+          description: Domain Name ID to be Deleted
       responses:
         200:
           description: OK
@@ -143,12 +143,12 @@ paths:
         - name: domainName
           in: query
           type: string
-          description: Domain name to be modified
+          description: Domain Name to be Modified
           required: true  
         - name: id
           in: query
           type: integer
-          description: Domain name ID to be modified
+          description: Domain Name ID to be Modified
           required: true
       responses:
         200:
@@ -159,7 +159,7 @@ paths:
                 properties:
                   updateDomain:
                     $ref: "../model/Domain.yaml#/definitions/domain"
-                    description: Domain name structure after modification
+                    description: Domain Name Structure after Modification
               requestId:
                 type: string
                 description: ID of this request
@@ -169,24 +169,24 @@ paths:
   /domain/{domainId}/queryCount:
   ###################### View Domain Name Resolutions ######################
     get:
-      description: "View domain name resolutions"
+      description: "View Domain Name Resolutions"
       operationId: getDomainQueryCount
       parameters:
         - name: domainName
           in: query
           type: string
           required: true
-          description: Domain name to be queried
+          description: Domain Name to be Queried
         - name: start
           in: query
           type: string
           required: true
-          description: Start time, UTC time, for example, 2017-11-10T23:00:00Z
+          description: Start Time, UTC time, for example, 2017-11-10T23:00:00Z
         - name: end
           in: query
           type: string
           required: true
-          description: Termination time, UTC time, for example, 2017-11-10T23:00:00Z
+          description: Termination Time, UTC time, for example, 2017-11-10T23:00:00Z
       responses:
         200:
           description: OK
@@ -195,12 +195,12 @@ paths:
               result:
                 properties:
                   time:
-                    description: Time series
+                    description: Time Series
                     type: array
                     items:
                       type: integer
                   traffic:
-                    description: Data series
+                    description: Data Series
                     type: array
                     items:
                       type: integer
@@ -225,12 +225,12 @@ paths:
           in: query
           type: string
           required: true
-          description: Start time, UTC time, for example, 2017-11-10T23:00:00Z
+          description: Start Time, UTC time, for example, 2017-11-10T23:00:00Z
         - name: end
           in: query
           type: string
           required: true
-          description: Termination time, UTC time, for example, 2017-11-10T23:00:00Z
+          description: Termination Time, UTC time, for example, 2017-11-10T23:00:00Z
       responses:
         200:
           description: OK
@@ -239,15 +239,15 @@ paths:
               result:
                 properties:
                   time:
-                    description: Time series
+                    description: Time Series
                     type: array
                     items:
                       type: integer
                   unit:
-                    description: Unit of data
+                    description: Unit of Data
                     type: string
                   traffic:
-                    description: Data series
+                    description: Data Series
                     type: array
                     items:
                       type: number

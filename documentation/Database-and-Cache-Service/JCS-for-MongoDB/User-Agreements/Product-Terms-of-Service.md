@@ -1,1 +1,1 @@
-# Terms of Service for MongoDB
+# Terms of Service for JCS for MongoDB

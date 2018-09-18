@@ -4,7 +4,7 @@ If the EIP state of the Windows virtual machine is normal (no arrears, black hol
 
 **Note: When the "netsh winsock reset" command is running, programs that access or monitor the Internet (such as antivirus programs, firewall programs, and proxy clients) can be adversely affected. If one of your programs does not work normally after using this solution, reinstall the program to restore the functions.**
 
-**Since there is a certain risk in this operation, it is recommended that you make a private image (https://www.jdcloud.com/help/detail/312/isCatalog/1) of your virtual machine before the operation to prevent failure to restore your system in case of an exception caused by resetting.
+**Since there is a certain risk in this operation, it is recommended that you make a private image (https://www.jdcloud.com/help/detail/312/isCatalog/1) of your Virtual Machines before the operation to prevent failure to restore your system in case of an exception caused by resetting.
 
 The netsh winsock reset command is used to reset the winsock directory. If there is a problem in the winsock protocol configuration on one machine, it will cause problems such as network connection. In this case, you need to use netsh winsock reset command to reset the winsock directory to restore the network. This command can reinitialize the network environment to resolve parameter errors caused by software conflicts, viruses, and the like.
 
@@ -14,9 +14,9 @@ Press the windows logo key and key R at the same time to open the run dialog box
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows%E9%87%8D%E7%BD%AEwinsock%E9%85%8D%E7%BD%AE01.png)
 
-Enter netsh winsock reset in the CMD window and press Enter. After the execution is successful, you will be prompted that the Winsock directory is successfully reset and you need to restart the virtual machine to make the resetting take effect.
+Enter netsh winsock reset in the CMD window and press Enter. After the execution is successful, you will be prompted that the Winsock directory is successfully reset and you need to restart the Virtual Machines to make the resetting take effect.
 As shown in the figure:
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows%E9%87%8D%E7%BD%AEwinsock%E9%85%8D%E7%BD%AE02.png)
 
-After restarting the cloud host, verify if the virtual machine can connect to the external network. If the problem still remain unsolved, please submit an open ticket.
+After restarting the cloud host, verify if the Virtual Machines can connect to the external network. If the problem still remain unsolved, please submit an open ticket.

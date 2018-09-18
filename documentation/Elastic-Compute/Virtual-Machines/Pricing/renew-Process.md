@@ -2,7 +2,7 @@
 For instances with different billing types, the renewal operations are different:
 
 * Renewal of Instance Billed by Configuration: The billing method of the instance billed by configuration will be converted into the monthly package, and the renewal duration will be 1 month to 9 months, 1 year, 2 years or 3 years;
-* Renewal of Instance Billed under Monthly Package: extend the usage period of the virtual machine under monthly package. The renewal duration can be from 1 month to 9 months, 1 year, 2 years and 3 years. If you renew it before the instance expires, the start time of the new order is the expiration time of the original order; if you renew it after the resource expires, the start time of the new order is the renewal date.
+* Renewal of Instance Billed under Monthly Package: extend the usage period of the Virtual Machines under monthly package. The renewal duration can be from 1 month to 9 months, 1 year, 2 years and 3 years. If you renew it before the instance expires, the start time of the new order is the expiration time of the original order; if you renew it after the resource expires, the start time of the new order is the renewal date.
 
 In addition, the renewal operation also supports:
 
@@ -19,21 +19,21 @@ You want to know the specific cost of corresponding configuration with different
 ## Operation Steps
 You can renew the instance from the following two accesses:
 
-* Virtual Machine List Page/Detail Page
-	1. Access [Virtual Machine Console](https://cns-console.jdcloud.com/host/compute/list);
+* Virtual Machines List Page/Detail Page
+	1. Access [Virtual Machines Console](https://cns-console.jdcloud.com/host/compute/list);
 	2. Select the region, and you can find the instance that needs to be renewed by condition search;
-	3. Click [Operation] - [More] - [Renew] to jump to corresponding renewal page;>
+	3. Click **Operate** - **More** - **Renew** to jump to corresponding renewal page；<br>
 	![](https://github.com/jdcloudcom/cn/blob/edit/image/vm/renew.png)
-	4. For detailed operation and detailed procedure on the renewal page, please refer to [Renewal Management](../../../Finance/renewal%20management/Resource%20renewal.md).
+	4. For detailed operation and detailed procedure on the renewal page, please refer to [Renew Management](../../../Finance/renewal%20management/Resource%20renewal.md).
 
 
 ## Related Reference
 
 [Price Calculator](https://www.jdcloud.com/calculator/calHost)
 
-[Virtual Machine Console](https://cns-console.jdcloud.com/host/compute/list);
+[Virtual Machines Console](https://cns-console.jdcloud.com/host/compute/list);
 
-[Renewal Management](../../../Finance/renewal%20management/Resource%20renewal.md)
+[Renew Management](../../../Finance/renewal%20management/Resource%20renewal.md)
 
 
 

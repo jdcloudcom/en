@@ -19,18 +19,18 @@ paths:
       parameters:
       - type: string
         description: |
-          Product name: 
-          vm--> virtual machine
-          disk-->cloud disk
-          ip--> public IP
-          balance-->load balancer
-          database-->MySQL Service revision
+          Product Name: 
+          vm--> Virtual Machine
+          disk-->Cloud Disk Service
+          ip--> Public IP
+          balance-->Load Balancer
+          database-->MySQL Service Version
           cdn-->JD CDN
-          redis-->redis cloud cache
-          mongodb-->mongoDB cloud cache
-          storage-->cloud storage
-          sqlserver-->cloud database sqlserver revision 
-          nativecontainer-->container
+          redis-->JCS for Redis
+          mongodb-->MongoDB Cloud Cache
+          storage-->Cloud Storage
+          sqlserver-->cloud Database Sqlserver Version 
+          nativecontainer-->Container
         name: serviceCode
         in: query
         required: true
@@ -63,17 +63,17 @@ paths:
       - type: string
         description: |
           Type of resource, blank by default, displaying all items
-          vm--> virtual machine
-          disk-->cloud disk
-          ip--> public IP
-          balance-->load balancer
-          database-->MySQL Service revision
+          vm--> Virtual Machine
+          disk-->Cloud Disk Service
+          ip--> Public IP
+          balance-->Load Balancer
+          database-->MySQL Service Version
           cdn-->JD CDN
-          redis-->redis cloud cache
-          mongodb-->mongoDB cloud cache
-          storage-->cloud storage
-          sqlserver-->cloud database sqlserver revision 
-          nativecontainer-->container
+          redis-->JCS for Redis
+          mongodb-->MongoDB Cloud Cache
+          storage-->Cloud Storage
+          sqlserver-->cloud Database Sqlserver Version 
+          nativecontainer-->Container
         name: serviceCode
         in: query
       responses:
@@ -96,7 +96,7 @@ paths:
           description: 'internal server error'
           
   /regions/{regionId}/metrics/{metric}/metricData:
-    ######################Get statistics for the specified metric######################  
+    ######################Get Statistics for the Specified Metric######################  
     get:
       description: Get statistics for the specified metric. To get more precise data points, the user can narrow or increase the specified time range.
       summary: Get statistics for the specified metric
@@ -104,7 +104,7 @@ paths:
       x-jdcloud-internal: false      
       parameters:
       - type: string
-        description: Region Id
+        description: Region ID
         name: regionId
         in: path
         required: true
@@ -114,12 +114,12 @@ paths:
         in: path
         required: true
       - type: string
-        description: Type of resource, taking values such as vm, lb, ip, database
+        description: Type of resource, taking values such as vm, lb, ip, and database
         name: serviceCode
         in: query
         required: true
       - type: string
-        description: uuid of resource
+        description: Uuid of Resource
         name: resourceId
         in: query
         required: true
@@ -140,7 +140,7 @@ paths:
         type: array
         items:
           $ref: "../model/Tags.yaml#/definitions/tagFilter"
-        description: Customized tag
+        description: Customized Tag
       responses:
         200:
           description:  OK
@@ -167,7 +167,7 @@ paths:
       x-jdcloud-internal: true      
       parameters:
       - type: string
-        description: Region Id
+        description: Region ID
         name: regionId
         in: path
         required: true
@@ -177,19 +177,19 @@ paths:
         in: path
         required: true
       - type: string
-        description: Type of resource, taking values such as vm, lb, ip, database
+        description: Type of resource, taking values such as vm, lb, ip, and database
         name: serviceCode
         in: query
         required: true
       - type: string
-        description: uuid of resource
+        description: Uuid of Resource
         name: resourceId
         in: query
         required: true
       - name: tags
         in: query
         type: array
-        description: Customized tag
+        description: Customized Tag
         items:
           $ref: "../model/Tags.yaml#/definitions/tagFilter"
       - type: string

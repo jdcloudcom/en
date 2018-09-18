@@ -1,10 +1,10 @@
 # Specifications
 
-Column-Based Storage Now it supports the following instance type:
+Column-Based Storage Now it supports the following instance type.
 
-## Instance type list
+## Instance Type List
 
-Type code|type  
+Type Code|type  
 
 g.n2.xlarge|4-core 16g
 g.n2.2xlarge|8-core 32g
@@ -28,6 +28,6 @@ m.n1.14xlarge|56-core 448g
 ## Related References
 
 
-- [Price overview](../Pricing/Price-Overview.md)
-- [Billing rules](../Pricing/Billing-Rules.md)
-- [Create instance](../Getting-Started/Create-Instance.md)
+- [Price Overview](../Pricing/Price-Overview.md)
+- [Billing Rules](../Pricing/Billing-Rules.md)
+- [Create Instance](../Getting-Started/Create-Instance.md)

@@ -9,7 +9,7 @@ Note: The configuration and instructions of Linux in this article have been test
 
 **Problem Description:**
 
-When the Linux  virtual machine starts the SSH service using the service or systemctl command, the command line does not have any error message. However, the service is not actually run normally, and an error message as follows appears in the secure log:
+When the Linux  Virtual Machines starts the SSH service using the service or systemctl command, the command line does not have any error message. However, the service is not actually run normally, and an error message as follows appears in the secure log:
 
 *• sshd.service: main process exited, code=exited, status=203/EXEC.*
 

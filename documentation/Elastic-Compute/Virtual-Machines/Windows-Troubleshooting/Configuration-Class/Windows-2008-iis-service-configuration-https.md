@@ -1,29 +1,29 @@
-# Configure https for iis Service in Windows2008
-**Create a certificate:**
+# Configure https for iis Service in Windows 2008
+**Create Certificate:**
 
-1. Use the CA service of Windows Server 2008 R2 to create a certificate, and click "Add Role" in "Server Manager".
+1. Use the CA service of Windows Server 2008 R2 to create a certificate, and click **Add Role** in **Server Manager**.
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows2008%20iis%E6%9C%8D%E5%8A%A1%E9%85%8D%E7%BD%AEhttps01.png)
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows2008%20iis%E6%9C%8D%E5%8A%A1%E9%85%8D%E7%BD%AEhttps02.png)
 
-2. Select "Active Directory Certificate Service".
+2. Select **Active Directory Certificate Service**.
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows2008%20iis%E6%9C%8D%E5%8A%A1%E9%85%8D%E7%BD%AEhttps03.png)
 
-3. To add services, you need to select three services: "Certificate Authority", "Certificate Authority Web Registration" and "Online Response Program".
+3. To add services, you need to select three services: **Certificate Authority**, **Certificate Authority Web Registration** and **Online Response Program**.
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows2008%20iis%E6%9C%8D%E5%8A%A1%E9%85%8D%E7%BD%AEhttps04.png)
 
-4. Because it is not a domain control environment, you can simply choose "Independent (A)".
+4. Because it is not a domain control environment, you can simply select **Independent (A)**.
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows2008%20iis%E6%9C%8D%E5%8A%A1%E9%85%8D%E7%BD%AEhttps05.png)
 
-5. For the first CA installed, simply select "Root CA(R)".
+5. For the first CA installed, simply select **Root CA(R)**.
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows2008%20iis%E6%9C%8D%E5%8A%A1%E9%85%8D%E7%BD%AEhttps06.png)
 
-6. Simply select "Create Private Key (R)".
+6. Simply select **Create Private Key (R)**.
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows2008%20iis%E6%9C%8D%E5%8A%A1%E9%85%8D%E7%BD%AEhttps07.png)
 
@@ -49,7 +49,7 @@
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows2008%20iis%E6%9C%8D%E5%8A%A1%E9%85%8D%E7%BD%AEhttps12.png)
 
-2. In this case, you need to tick "ASPNETt" and ".NET Expansibility".
+2. In this case, you need to tick **ASPNETt** and **.NET Expansibility**.
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows2008%20iis%E6%9C%8D%E5%8A%A1%E9%85%8D%E7%BD%AEhttps13.png)
 
@@ -63,11 +63,11 @@
 
 **Create a self-signed certificate:**
 
-1. Select "Server Certificate" in the IIS Manager.
+1. Select **Server Certificate** in the IIS Manager.
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows2008%20iis%E6%9C%8D%E5%8A%A1%E9%85%8D%E7%BD%AEhttps16.png)
 
-2. Select the previously created certificate and select "Create Self-Signed Certificate".
+2. Select the previously created certificate and select **Create Self-Signed Certificate**.
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows2008%20iis%E6%9C%8D%E5%8A%A1%E9%85%8D%E7%BD%AEhttps17.png)
 
@@ -101,7 +101,7 @@
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows2008%20iis%E6%9C%8D%E5%8A%A1%E9%85%8D%E7%BD%AEhttps24.png)
 
-7. Select "Move on" and you will find that the website can be accessed normally.
+7. Select **Go on** and you will find that the website can be accessed normally.
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows2008%20iis%E6%9C%8D%E5%8A%A1%E9%85%8D%E7%BD%AEhttps25.png)
 

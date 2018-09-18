@@ -6,7 +6,7 @@ Note: The configuration and instructions of Linux in this article have been test
 
 **Problem Description:**
 
-When logging in to the Linux virtual machine using SSH, if the password is entered incorrectly for multiple times, the server returns an error message as follows, and then the connection is interrupted. The login failure prompts:
+When logging in to the Linux Virtual Machines using SSH, if the password is entered incorrectly for multiple times, the server returns an error message as follows, and then the connection is interrupted. The login failure prompts:
 
 *Too many authentication failures for root*
 
@@ -22,7 +22,7 @@ Note: This configuration will not cause the related account to be locked, and on
 
 **Solution:**
 
-1. Enter the system through the virtual machine console vnc.
+1. Enter the system through the Virtual Machines console vnc.
 
 2. Check whether */etc/ssh/sshd_config* contains the following configurations through cat:
 

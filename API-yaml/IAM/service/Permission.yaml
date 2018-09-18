@@ -8,15 +8,15 @@ basePath: /regions/{regionId}
 
 paths:
   "/permission":
-    ###################### Create policy ######################
+    ###################### Create Policy ######################
     post:
-      description: "Create policy"
+      description: "Create Policy"
       operationId: createPermission
       x-jdcloud-internal: false
       parameters:
         - name: createPermissionInfo
           in: body
-          description: Permission information
+          description: Permission Information
           required: true
           schema:
             $ref: "../model/CreatePermissionInfo.yaml#/definitions/createPermissionInfo"
@@ -30,15 +30,15 @@ paths:
                 type: string
 
   "/permission/{permissionId}":
-   ###################### Modify strategies######################
+   ###################### Modify Policy######################
     put:
-      description: "Modify strategies"
+      description: "Modify Policy"
       operationId: updatePermission
       x-jdcloud-internal: false
       parameters:
         - name: updatePermissionInfo
           in: body
-          description: Permission information
+          description: Permission Information
           required: true
           schema:
             $ref: "../model/UpdatePermissionInfo.yaml#/definitions/updatePermissionInfo"
@@ -51,9 +51,9 @@ paths:
               requestId:
                 type: string
 
-   ###################### Search policy details ######################
+   ###################### Search Policy Details ######################
     get:
-      description: "Policy details query"
+      description: "Search Policy Details"
       operationId: describePermissionDetail
       x-jdcloud-internal: false
       responses:
@@ -66,15 +66,15 @@ paths:
                 properties:
                   permission:
                     $ref: "../model/Permission.yaml#/definitions/permission"
-                    description: Permission information
+                    description: Permission Information
               requestId:
                 type: string
 
 
   "/permissions":
-   ###################### Search policy list ######################
+   ###################### Search Policy List ######################
     get:
-      description: "Search policy list"
+      description: "Search Policy List"
       operationId: describePermissions
       x-jdcloud-internal: false
       parameters:
@@ -86,7 +86,7 @@ paths:
         - name: pageSize
           in: query
           type: integer
-          description: Number displayed per page
+          description: Number Displayed Per Page
           required: true
         - name: keyword
           in: query
@@ -96,7 +96,7 @@ paths:
         - name: queryType
           in: query
           type: integer
-          description: Permission type, 0-All, 1- System Permissions, 2-Customized permission
+          description: Permission Type, 0-All, 1- System Permission, 2-Customized Permission
           required: true
       responses:
         200:
@@ -108,25 +108,25 @@ paths:
                 properties:
                   total:
                     type: integer
-                    description: Total amount
+                    description: Total Amount
                   permissions:
                     type: array
                     items:
                       $ref: "../model/Permission.yaml#/definitions/permission"
-                    description: Authority list information
+                    description: Authority List Information
               requestId:
                 type: string
 
   "/subUser/{subUser}/permisssions":
-   ###################### Associate policies for sub-users ######################
+   ###################### Associate Policies for Sub-users ######################
     post:
-      description: "Associate policies for sub-users"
+      description: "Associate Policies for Sub-users"
       operationId: addPermissionsToSubUser
       x-jdcloud-internal: false
       parameters:
         - name: addPermissionsInfo
           in: body
-          description: Permission information
+          description: Permission Information
           required: true
           schema:
             $ref: "../model/AddPermissionsInfo.yaml#/definitions/addPermissionsInfo"
@@ -139,9 +139,9 @@ paths:
               requestId:
                 type: string
 
-   ###################### Search sub-user’s policy list ######################
+   ###################### Search Sub-user’s Policy List ######################
     get:
-      description: "Search sub-user’s policy list"
+      description: "Search Sub-user’s Policy List"
       operationId: describeSubUserPermissions
       x-jdcloud-internal: false
       parameters:
@@ -153,7 +153,7 @@ paths:
         - name: pageSize
           type: integer
           in: query
-          description: Number displayed per page
+          description: Number Displayed Per Page
           required: true
       responses:
         200:
@@ -165,20 +165,20 @@ paths:
                 properties:
                   total:
                     type: integer
-                    description: Total amount
+                    description: Total Amount
                   permissions:
                     type: array
                     items:
                       $ref: "../model/Permission.yaml#/definitions/permission"
-                    description: Authority list information
+                    description: Authority List Information
               requestId:
                 type: string
 
 
   "/subUser/{subUser}/permissions/{permissionId}":
-   ###################### Disassociate policies for sub-users ######################
+   ###################### Disassociate Policies for Sub-users######################
     delete:
-      description: "Disassociate policies for sub-users"
+      description: "Disassociate Policies for Sub-users"
       operationId: removePermissionOfSubUser
       x-jdcloud-internal: false
       responses:
@@ -192,7 +192,7 @@ paths:
 
 
 
-# Path general parameter
+# Path General Parameter
 parameters:
   regionId:
     name: regionId
@@ -205,10 +205,10 @@ parameters:
     in: path
     required: true
     type: integer
-    description: Permission id error
+    description: Permission id
   subUser:
     name: subUser
     in: path
     required: true
     type: string
-    description: Sub-user name
+    description: Sub-user Name

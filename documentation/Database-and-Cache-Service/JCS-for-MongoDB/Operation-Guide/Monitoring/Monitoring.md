@@ -4,7 +4,7 @@ The MongoDB console provides a wealth of performance monitoring data so you can 
 
 ## Operation Steps
 1. Login [MongoDB Console](https://mongodb-console.jdcloud.com/mongodb?dataCenter=bj_02).
-1. On the "Instance List" page, select the target instance, then click ** Instance Name ** to enter the "Instance Details" page.
+1. On the "Instance List" page, select the target instance, then click **Instance Name** to enter the "Instance Details" page.
 1. On the "Instance Details" page, click **Monitor** to view the monitoring information.
 
    ![](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-024.png)

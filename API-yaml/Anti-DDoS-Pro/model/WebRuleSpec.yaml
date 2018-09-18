@@ -6,10 +6,10 @@ definitions:
     properties:
       domain:
         type: string
-        description: Subdomain name
+        description: Subdomain Name
       protocol:
         type: string
-        description: "Protocol: HTTP, HTTPS and HTTP_HTTPS"
+        description: Protocol: HTTP, HTTPS and HTTP_HTTPS
       port:
         type: string
         description: HTTP protocol port number, such as 80 and 81, and multiple port numbers are separated by commas
@@ -38,7 +38,7 @@ definitions:
         description: Certificate private key
       algorithm:
         type: string
-        description: "Forwarding rules: wrr->Round Robin with weight  rr->Round Robin without weight"
+        description: Forwarding rules: wrr->Round Robin with weight  rr->Round Robin without weight
       forceJump:
         type: integer
         description: Confirm to enable https forced jump? The attribute may be configured when the protocol is HTTP_HTTPS  0->no  1->yes
@@ -48,3 +48,6 @@ definitions:
       httpOrigin:
         type: integer
         description: Confirm to enable http back-to-origin, 0->no  1->yes. The attribute may be configured when HTTPS is checked
+      websocketStatus:
+        type: integer
+        description: "是否开启 WebSocket, 0 为不开启, 1 为开启"

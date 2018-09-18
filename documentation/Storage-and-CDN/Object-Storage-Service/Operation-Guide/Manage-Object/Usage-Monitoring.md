@@ -1,4 +1,4 @@
-# Consumption monitoring
+# Consumption Monitoring
 
 You can understand the consumption data of the object storage service over a certain period of time through consumption monitoring. In addition to providing the users with specific data information, consumption monitoring data statistics page also display graphically the usage of the service in the form of trend chart.
 

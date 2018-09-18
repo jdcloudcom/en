@@ -8,4 +8,4 @@ API Version 1.0. 3
 |2018-07-23|1.0.1|Domain Name Statistical API|* Add getDomainResolveNum API<br>* Add getDomainResolveFlow API|
 |2018-07-18|1.0.0|Revision and deployment|* Change version number online|
 |2018-05-23|0.1.1|Website Monitoring Update|* Add getTargets API<br>* Add monitorAddTarget API|
-|2018-05-23|0.1.0|Initial Version|* API and basic APIs for group definition|
+|2018-05-23|0.1.0|Initial Version|* API and Basic APIs for Group Definition|

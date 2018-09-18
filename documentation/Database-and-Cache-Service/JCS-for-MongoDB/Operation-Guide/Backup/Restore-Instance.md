@@ -1,7 +1,7 @@
 # Data Recovery
 
 
-The MongoDB supports one-click recovery of backup data to the original instance, and also the data recovery to minimize data loss.
+The JCS for MongoDB supports one-click recovery of backup data to the original instance, and also the data recovery to minimize data loss.
 
 ## Precautions
 
@@ -16,7 +16,7 @@ The MongoDB supports one-click recovery of backup data to the original instance,
 ## Operation Steps
 
 1. Login [MongoDB Console](https://mongodb-console.jdcloud.com/mongodb?dataCenter=bj_02).
-1. On the "Instance List" page, select the target instance, then click ** Instance Name ** to enter the "Instance Details" page.
+1. On the "Instance List" page, select the target instance, then click **Instance Name** to enter the "Instance Details" page.
 1. On the Instance Details page, click **Backup and Recovery** to view the backup data.
 1. Select the backup you want to use and click **Data Recovery** in the operation items to open the "Confirm Popup".
 

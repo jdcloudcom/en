@@ -1,6 +1,6 @@
-﻿  name: Redis
-  href: 
-  items:
+name: JCS for Redis
+href: 
+items:
   - name: Interface Preview
     href: overview.md
   - name: Update History

@@ -13,7 +13,7 @@ The figure above shows the implementation of the tag. For both instance 1 and in
 
 ## Usage Restrictions
 
-* 10 tags can be bound at most for each virtual machine.
+* 10 tags can be bound at most for each Virtual Machines.
 * The maximum length of the tag key (Key) is 127 characters.
 * The maximum length of the tag value (Value) is 255 characters.
 * The tag key/value cannot be used with the prefix "jrn: ". it only supports Chinese, numbers, capital and lowercase letters, spaces and special symbols, such as _.:/=+-@, and it is case sensitive and cannot begin with a space.

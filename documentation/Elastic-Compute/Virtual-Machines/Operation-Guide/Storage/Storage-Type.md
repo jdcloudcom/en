@@ -4,7 +4,7 @@
 
 The system disk supports local disk and cloud disk.
 
-For local disk, you can't select the capacity and a capacity of 40GB is given as a present; it is created along with the virtual machine and its life cycle is the same as that of the instance, that is, it starts or ends with the instance life cycle.
+For local disk, you can't select the capacity and a capacity of 40GB is given as a present; it is created along with the Virtual Machines and its life cycle is the same as that of the instance, that is, it starts or ends with the instance life cycle.
 
 For the cloud disk, SSD cloud disk and premium Hdd cloud disk are available and the capacity can be specified within the range of 40GB~500GB. A non-multi-point attaching cloud disk that is billed by configuration can be set to be deleted on instance termination. If it is set to be deleted on instance termination, the disk will be deleted when the instance is deleted. The attribute of the disk under monthly package or multi-point attached disk does not take effect, and the disk will remain when the instance is deleted.
 

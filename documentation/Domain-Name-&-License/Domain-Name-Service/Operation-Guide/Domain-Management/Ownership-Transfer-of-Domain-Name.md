@@ -10,29 +10,29 @@ Step 1: Create a template
 
 Login to JD Cloud Member Account - Domain Name Service - Information Template
 
-![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Domain-Name-and-Website/Image-Domain/guohu1.jpg)
+![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Domain-Name-&-License/Image-Domain/guohu1.jpg)
 
 Fill in the new template information:
 
-![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Domain-Name-and-Website/Image-Domain/guohu2.jpg)
+![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Domain-Name-&-License/Image-Domain/guohu2.jpg)
 
 Step 2: Choose a domain name for transfer
 
 Domain Name Service - Domain Name Management - Management
 
-![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Domain-Name-and-Website/Image-Domain/guohu3.jpg)
+![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Domain-Name-&-License/Image-Domain/guohu3.jpg)
 
-After selecting, click "Manage" to enter the page and select "Ownership Transfer"
+After selecting, click **Manage** to enter the page and select "Ownership Transfer"
 
-![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Domain-Name-and-Website/Image-Domain/guohu4.jpg)
+![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Domain-Name-&-License/Image-Domain/guohu4.jpg)
 
-Click "Use Template", select the template you want to transfer and click "Next"
+Click **Use Template**, select the template you want to transfer and click **Next**
 
-![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Domain-Name-and-Website/Image-Domain/guohu5.jpg)
+![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Domain-Name-&-License/Image-Domain/guohu5.jpg)
  
 Upload certification data - wait for review, review time (within 2-3 working days)
 
-![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Domain-Name-and-Website/Image-Domain/guohu6.jpg)
+![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Domain-Name-&-License/Image-Domain/guohu6.jpg)
  
 After the approval is passed, the ownership transfer operation is completed.
 

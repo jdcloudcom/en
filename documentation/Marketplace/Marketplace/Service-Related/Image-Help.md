@@ -1,4 +1,4 @@
-# Image help document
+# Image Help Documentation
 1, Image 
 Image refers to the operating environment template that can be selected by the ECS instance, and generally includes the operating system and pre-installed software. Images can include only the basic operating system, based on this, it can integrate a specific software environment. 
 
@@ -12,15 +12,15 @@ All image service providers have rich experience in cloud server system maintena
 
 All images are made in accordance with JD Cloud's Image-making Specification and Image Security Specification and passed the security review;
 
-Avoid the vulnerability of the machine, and ensure the availability of the cloud server.
+Avoid the vulnerability of Endpoint Security, and ensure the availability of the cloud server.
 
 4. How to create instance via image?
 
 Image can be used in two types:
 
-a) Through the cloud server purchase page, select the image from the cloud marketplace and the ECS configuration, and then purchase and open the ECS instance.
+a) Through the cloud server purchase page, select the image from the marketplace and the ECS configuration, and then purchase and open the ECS instance.
 
-b) Through the cloud marketplace, select the required image, view the image details, click the option “use the image immediately”, then jump to the cloud server purchase page to select the ECS configuration, and complete the purchase and open process for the ECS instances.
+b) Through the marketplace, select the required image, view the image details, click the option "use the image immediately", then jump to the cloud server purchase page to select the ECS configuration, and complete the purchase and open process for the ECS instances.
 
 Is manual service provided for the image?
 The image service provider provides online Dongdong/ phone/ email support. For the use of the image, you can directly consult online or call for service, or send an email to the service provider's email address. For the contact information of the service provider, see Service Details.
@@ -38,12 +38,12 @@ The action steps are as follows:
 
 1. Go to the Rebuild page
 
-![image](https://github.com/jdcloudcom/cn/blob/zhaowenbo8-patch-1/documentation/Cloud-Marketplace/MarketPlace-Image/%E9%95%9C%E5%83%8F%E5%B8%AE%E5%8A%A91.png)
+![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Marketplace/Marketplace/MarketPlace-Image/%E9%95%9C%E5%83%8F%E5%B8%AE%E5%8A%A91.png)
 
 
-2. Select the corresponding image from the image marketplace
+2. Select the corresponding image from the Marketplace Image
 
-![image](https://github.com/jdcloudcom/cn/blob/zhaowenbo8-patch-1/documentation/Cloud-Marketplace/MarketPlace-Image/%E9%95%9C%E5%83%8F%E5%B8%AE%E5%8A%A92.png)
+![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Marketplace/Marketplace/MarketPlace-Image/%E9%95%9C%E5%83%8F%E5%B8%AE%E5%8A%A92.png)
 3. After corresponding image is selected, click to confirm the replacement.
 
 What is the relationship between the image and ECS instance?
@@ -64,7 +64,7 @@ b) Production process:
 
 All images are made in accordance with JD Cloud's Image-making Specification and Image Security Specification and passed the security review;
 
-Avoid the vulnerability of the machine, and ensure the availability of the cloud server.
+Avoid the vulnerability of Endpoint Security, and ensure the availability of the cloud server.
 
 How to use the image?
 For detailed help on image use, please refer to the product description and usage documentation of the image product page. And the image service provider will also provide technical support.
@@ -77,15 +77,15 @@ When using image, the default is to select the latest revision. In case of speci
 How to create instance via image?
 Image can be used in two types:
 
-1. Through the cloud server purchase page, select the image from the image marketplace and the ECS configuration, and then purchase and open the ECS instance.
+1. Through the cloud server purchase page, select the image from the Marketplace Image and the ECS configuration, and then purchase and open the ECS instance.
 
-2. Through the cloud marketplace, select the required image, view the image details, click the option “use the image immediately”, then jump to the cloud server purchase page to select the ECS configuration, and complete the purchase and open process for the ECS instances.
+2. Through the marketplace, select the required image, view the image details, click the option "use the image immediately", then jump to the cloud server purchase page to select the ECS configuration, and complete the purchase and open process for the ECS instances.
 
 What is the available region of the image?
 The available region refers to the region where ESC instances can be opened via the images.
 
 How to use the images for the users with ESC instances?
-If the users have already had ECS instances, the instances can be reset in the form of rebuilding.
+If the users have already had ECS instances, the instances can be rebuild in the form of rebuilding.
 
 What is the image service provider?
 Image service provider: refers to the partner who provides its image and service on the platform of JD Cloud Marketplace．

@@ -20,7 +20,7 @@ definitions:
         description: Instance type code, which can be obtained through [describeInstanceClasses](../instance/describeInstanceClasses.md) interface
       instanceStorageGB:
         type: integer
-        description: Disk Size, in GB
+        description: Disk Size, Unit: GB
       azId:
         type: array
         items:

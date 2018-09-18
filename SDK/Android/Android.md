@@ -14,7 +14,7 @@ To conveniently understand the meaning of some of the concepts and parameters in
 
 
 
-# SDK usage method #
+# SDK Usage Method #
 
 If you use Grader to manage the project, you only need to add a corresponding dependency in the build.gradle file of the project, as follows:
 
@@ -23,7 +23,7 @@ If you use Grader to manage the project, you only need to add a corresponding de
 
 You can also download the SDK source code yourself. The source code address is: [Java SDK](https://github.com/jdcloud-api/jdcloud-sdk-java).
 
-With any of the problems in the SDK use, you are welcomed to communicate with the Github project [SDK Use Problem Feedback page](https://github.com/jdcloud-api/jdcloud-sdk-java/issues).
+With any of the problems in the SDK use, you are welcomed to communicate with the Github project [SDK Usage Problem Feedback Page](https://github.com/jdcloud-api/jdcloud-sdk-java/issues).
 
 Note: JD Cloud does not provide other downloading ways, please be sure to use the above-mentioned official download method!
 

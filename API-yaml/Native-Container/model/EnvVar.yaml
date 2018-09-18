@@ -3,14 +3,14 @@ definitions:
   envVar:
     x-jdcloud-module: nc
     type: object
-    description: Environment variable
+    description: Environment Variable
     x-jdcloud-internal: false
     required:
       - name
     properties:
       name:
         type: string
-        description: Environment variable name
+        description: Environment Variable Name
       value:
         type: string
-        description: Value of environment variable
+        description: Value of Environment Variable

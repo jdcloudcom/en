@@ -1,5 +1,5 @@
-## Rules for Delay in Payment<br>
+## Arrears Rules<br>
 1.	 “Pay after use” will be adopted. At the end of each hour, the bill of the previous hour will be generated according to the resource allocation & actual usage time and the bill will be settled. <br>
 2.	 Billing by Volume: It is a Pay-As-You-Go mode, that is, “pay after use”. It is billed by seconds and the unit price of the resource will be displayed in the mode of yuan/hour. The lifecycle of billing shall start from the creation of the application to the deletion of the application. If the lifecycle is less than 0.01 yuan, it will be charged for 0.01 yuan. The ending time for billing shall be subject to the time of deleting the application (accurate to the second). <br>
-3.	 The stream computing service will be automatically stopped immediately after the delay in payment, and the charge will be stopped. <br>
-4.	 If you repay the amount owed within 15 days after the arrears, the service will be automatically opened and you can continue to use it; if the amount owed has not been repaid for more than 15 days, you will be deemed to have voluntarily given up the stream computing service<br>
+3.	 The Stream Compute service will be automatically stopped immediately after the arrears, and the charge will be stopped. <br>
+4.	 If you repay the amount owed within 15 days after the arrears, the service will be automatically opened and you can continue to use it; if the amount owed has not been repaid for more than 15 days, you will be deemed to have voluntarily given up the Stream Compute service<br>

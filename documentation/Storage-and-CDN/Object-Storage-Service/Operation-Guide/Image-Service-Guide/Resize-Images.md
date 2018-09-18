@@ -1,4 +1,4 @@
-# Scaling of images
+# Scaling of Images
 
 Generate a thumbnail of the image as required, or make a specific scaling.
 

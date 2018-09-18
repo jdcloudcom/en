@@ -5,32 +5,32 @@ definitions:
     properties:
       elasticIpId:
         type: string
-        description: Elastic IP Id
+        description: Elastic IP ID
       elasticIpAddress:
         type: string
-        description: Elastic IP address
+        description: Elastic IP Address
       bandwidthMbps:
         type: integer
-        description: "Elastic ip speed limit (unit: Mbps)"
+        description: Elastic IP Speed Limit (unit: Mbps)
       provider:
         type: string
-        description: IP service provider, values include bgp or no_bgp
+        description: IP Service Provider, Values include bgp or no_bgp
       privateIpAddress:
         type: string
-        description: IPV4 address of private IP
+        description: IPV4 Address of Private IP
       networkInterfaceId:
         type: string
-        description: Configure elastic network interface Id
+        description: Configure Elastic Network Interface ID
       instanceId:
         type: string
-        description: Instance Id
+        description: Instance ID
       instanceType:
         type: string
-        description: Instance type family
+        description: Instance Type
       charge:
         $ref: "../../charge/model/Charge.yaml#/definitions/charge"
-        description: Billing configuration
+        description: Billing Configuration
       createdTime:
         type: string
-        description: Creation Time of elastic ip
+        description: Creation Time of Elastic IP
 

@@ -1,13 +1,13 @@
 swagger: "2.0" # realized based on Swagger 2.0 version
 info:
   version: v1
-  title: Error Log
+  title: Error Logs
   description: Error Log Related Interface
 basePath: /regions/{regionId}
 paths:
-  "/instances/{instanceId}/errorLogs": #Error Log
+  "/instances/{instanceId}/errorLogs": #Error Logs
     get:
-      description: Obtain error log of SQL Server and download information<br>- only support SQL Server
+      description: Obtain error logs of SQL Server and download information<br>- only support SQL Server
       operationId: describeErrorLogs
       responses:
         200:

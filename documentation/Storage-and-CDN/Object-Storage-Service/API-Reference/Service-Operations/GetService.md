@@ -1,6 +1,6 @@
 # GetService(ListBuckets)
 
-For service address sending a Get request, you can return all Buckets owned by the requestor, where the “/” represents the root directory.
+For service address sending a Get request, you can return all Buckets owned by the requestor, where the "/" represents the root directory.
 
 ***Request Grammar***
 ```

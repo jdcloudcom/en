@@ -5,39 +5,39 @@ definitions:
     properties:
       pin:
         type: string
-        description: User pin
+        description: User Pin
       cscPhone:
         type: string
-        description: User’s mobile number
+        description: User’s Mobile Number
       cscEmail:
         type: string
         description: User’s Email
       createTime:
         type: string
         format: date-time
-        description: Creation time
+        description: Creation Time
       userType:
         type: integer
-        description: User type
+        description: User Type
       companyName:
         type: string
-        description: Company name
+        description: Company Name
       userType:
         type: integer
-        description: User type
+        description: User Type
       companyName:
         type: string
-        description: Company name
+        description: Company Name
       name:
         type: string
         description: Name
       arrearageTime:
         type: string
         format: date-time
-        description: Amount overdue time
+        description: Amount Overdue Time
       userTagObject:
         $ref: "./Flags.yaml#/definitions/flags"
-        description: User label:
+        description: User Label:
       attachment:
         $ref: "./UserAttachment.yaml#/definitions/userAttachment"
-        description: User label:
+        description: User Label:

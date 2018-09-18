@@ -7,19 +7,19 @@ definitions:
     properties:
       ruleId:
         type: string
-        description: Security group rule ID.
+        description: Security Group Rule ID.
       protocol:
         type: number
-        description: "Rule limits protocol. 300:All; 6:TCP; 17:UDP; 1:ICMP"
+        description: Rule Limits Protocol. 300:All; 6:TCP; 17:UDP; 1:ICMP
       fromPort:
         type: integer
-        description: "Start port of security group rule. Value range: 1-65535"
+        description: Start Port of Security Group Rule. Value Range: 1-65535
       toPort:
         type: integer
-        description: "End port of security group rule. Value range: 1-65535"
+        description: End Port of Security Group Rule. Value Range: 1-65535
       addressPrefix:
         type: string
-        description: "Prefix of security group rule, value range: correct CIDR  "      
+        description: Prefix of Security Group Rule. Value Range: correct CIDR        
       description:
         type: string
-        description: "Security group rule description, value range: 0-256 of all characters entered under UTF-8 coding"
+        description: Security Group Rule Description. Value Range: 0-256 of all characters entered under UTF-8 coding

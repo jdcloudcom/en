@@ -1,7 +1,7 @@
 # SQL Performance Statistics
 The analysis on SQL performance statistics for the SQL execution in the database covers the statistics of various maintenance, such as slow SQL and huge SQL of the return result set. Meanwhile, users can also define statistical standards based on the actual situation of their own services and systems to meet the needs of various applications and scenarios.
 
-**Note: Since performance statistics are only kept in memory, the system only retains relevant performance information since the last reboot. It is recommended to download historical data from the console or via OpenAPI on a  regular basis if needed. **
+**Note: Since performance statistics are only kept in memory, the system only retains relevant performance information since the last reboot. It is recommended to download historical data from the console or via OpenAPI on a regular basis if needed.**
 
 ## 2. 7 Statistical Dimensions Supported
 SQL performance statistics support seven statistical dimensions as follows

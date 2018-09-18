@@ -10,7 +10,7 @@ definitions:
         description: Number of CPU Cores
       memory:
         type: integer
-        description: Memory, in GB
+        description: Memory, Unit: GB
       iops:
         type: integer
         description: iops
@@ -19,10 +19,10 @@ definitions:
         description: Maximum Connections
       maxDisk:
         type: integer
-        description: Maximum Number of Disks, in GB
+        description: Maximum Number of Disks, Unit: GB
       minDisk:
         type: integer
-        description: Minimum Number of Disks, in GB
+        description: Minimum Number of Disks, Unit: GB
       diskStep:
         type: integer
         description: Disk Step Size

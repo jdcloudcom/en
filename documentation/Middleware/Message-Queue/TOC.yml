@@ -13,9 +13,6 @@
         href: Introduction/Benefits.md
       - name: Features
         href: Introduction/Features.md
-      - name: Specifications
-        href: Introduction/Specifications.md
-        status: 0
       - name: Restrictions
         href: Introduction/Restrictions.md
       - name: Application Scenarios 
@@ -37,7 +34,9 @@
       - name: Create Resources
         href: Getting-Started/Create-Resource.md
       - name: Produce And Consumer Message
-        href: Getting-Started/Produce-And-Consumer-Message.md
+        href: Getting-Started/Produce-And-Consume-Message.md
+      - name: Public Internet Access
+        href: Getting-Started/Public-Internet-Access.md
   - name: Operation Guide
     items:
       - name: Topic Management
@@ -54,14 +53,14 @@
             href: Operation-Guide/Message-Management/Send-Message.md      
           - name: Query Message
             href: Operation-Guide/Message-Management/Query-Message.md    
-          - name: Redrive Message
+          - name: Resend Message
             href: Operation-Guide/Message-Management/Redrive-Message.md   
       - name: Monitoring and Alarms
         items:
           - name: View Monitoring Information
-            href: Operation-Guide/Monitoring/View-Monitoring-Information.md
+            href: Operation-Guide/Monitoring/Monitoring.md
           - name: Set Alarm Rules
-            href: Operation-Guide/Monitoring/Set-Alarm-Rules.md              
+            href: Operation-Guide/Monitoring/Alarm-Rules.md              
   - name: Best Practices
     items:
     status: 0
@@ -75,11 +74,9 @@
     href: FAQ/FAQ.md
   - name: API Reference
     href:
-    status: 0
   - name: SDK Reference
     href:
-    status: 0
-  - name: User Agreement
+  - name: User Agreements
     status: 0
     items:
     - name: Product Terms of Service
@@ -93,8 +90,8 @@
     - name: Document History
       href: Related-Resources/Document-History.md   
     - name: ICP Filing
-      href:            
+      href: Related-Resources/Filing.md           
       status: 0        
     - name: Glossary
-      href:           
+      href: Related-Resources/Glossary.md           
       status: 0

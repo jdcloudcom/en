@@ -9,5 +9,5 @@ As the requirements change, some parameter sets are no longer used, and those us
 2. On the Parameter Group List page, select the source parameter set to be copied and click [Delete] in column of [Operation].
 3. Popup box for deletion confirmation is shown in the figure.
     * Click ***OK*** to delete parameter set.
-    * Click ***Cancel *** to cancel the parameter set deletion.
+    * Click ***Cancel*** to cancel the parameter set deletion.
     ![Screenshot](to be added)

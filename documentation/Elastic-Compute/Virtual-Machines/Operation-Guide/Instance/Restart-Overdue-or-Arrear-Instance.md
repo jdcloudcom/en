@@ -11,11 +11,11 @@ Within 7 day after the expiration of the monthly package instance, you need the 
 
 Within 7 days after the billing paid by configuration instance arrears, you need to recharge the account. When the balance is automatically settled with the balance left, your instance will be automatically started. After the start is completed, the instance will enter the "Running" status.
 
-**Please Note That:**
+**Note:**
 
 If the instance fails to start automatically, please manually [Start Instance](Start-Instance.md).
 
-The expiration/arrears of instance will affect your business continuity, so please renew/recharge in advance. You can also set the automatic renewal for the monthly package resources. Please refer to [Renewal Management]() for details.
+The expiration/arrears of instance will affect your business continuity, so please renew/recharge in advance. You can also set the automatic renewal for the monthly package resources. Please refer to [Renew Management]() for details.
 
 In addition, it is recommended to set the relevant software to automatically start up at boot to ensure the continuity of the service. If there is a database to which the application service is connected, it needs to be setted to an automatic reconnection mechanism in the program.
 
@@ -23,4 +23,4 @@ In addition, it is recommended to set the relevant software to automatically sta
 
 [Start Instance](Start-Instance.md)
 
-[Renewal Management]()
+[Renew Management]()

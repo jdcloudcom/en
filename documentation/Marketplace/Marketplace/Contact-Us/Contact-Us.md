@@ -13,8 +13,8 @@ Email: yunshichang@jd.com
 
 
 Service provider business support and cooperation:
-Consultation on Cloud Marketplace service provider cooperation: https://uc.jdcloud.com/myorder/form?cateId=313&questionId=326
+Consultation on Marketplace service provider cooperation: https://uc.jdcloud.com/myorder/form?cateId=313&questionId=326
 
-QQ number for the operation of Cloud Marketplace service providers: 644219629 
+QQ number for the operation of Marketplace service providers: 644219629 
 
 Email: yunshichang@jd.com

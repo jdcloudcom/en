@@ -11,9 +11,9 @@ definitions:
         description: Region
       visible:
         type: integer
-        description: Visible or not (1-Yes, 0-No)
+        description: Visible or Not (1-Yes, 0-No)
       azStatusList:
         type: array
         items:
           $ref: "./AzSaleStatusVo.yaml#/definitions/azSaleStatusVo"
-        description: az status information
+        description: Az Status Information

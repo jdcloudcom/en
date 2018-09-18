@@ -1,12 +1,12 @@
-# Managing OSS via S3cmd
+# Managing JD Cloud OSS via S3cmd
 
 ## Introduction
 
 S3cmd is a free command line tool client, used for uploading, retrieving and managing data on Amazon S3 and other cloud storage service providers (as JD Cloud OSS) using the S3 protocol. It is suitable to the senior users familiar with the command line program. It is also the ideal choice for batch processing of scripts and S3 automatic backup, and is triggered by cron, etc.
 
-Customer scenario: API-level development and debugging
+Customer Scenario: API-level development and debugging
 
-## Environment requirements
+## Environment Requirements
 
 S3cmd environment requirement: S3cmd can run on Linux (Fedora, RedHat, SuSe, Ubuntu, Debian, etc.) and Apple MAC. Python 2.6 or higher revision is required. S3cmd version 2 also is compatible to Python 3.x.
 
@@ -19,13 +19,13 @@ Type "help", "copyright", "credits" or "license" for more information.
 ```
 The python is successfully installed when the above indications are given. If the Python is not installed, it may obtain the Python installation package from the [official website of python](https://www.python.org/?spm=a2c4g.11186623.2.4.YmMQuB). Specific installation instructions on how to install and use Python are provided by the web service.
 
-## Installation and usage
+## Installation and Usage
 
-** Download S3cmd**
+**Download S3cmd**
 ```
 git clone https://github.com/s3tools/s3cmd.git
 ```
-**Source code modification**
+**Source Code Modification**
 
 Use V4 signature rather than V2 signature, and log in the catalog below after downloading from https://github.com/s3tools/s3cmd.git.
 
@@ -33,13 +33,13 @@ File catalog: s3cmd/S3/S3.py, the 254th line is modified to be: self.endpoint_re
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-091.png)
 
-**S3cmd installation**
+**S3cmd Installation**
 ```
 sudo cp -rf s3cmd/ /usr/local/
 sudo ln -s /usr/local/s3cmd/s3cmd /usr/bin/s3cmd
 ```
 
-**Configuration file**
+**Configuration File**
 
 The configuration file is ~/.s3cfg and the content of used configuration file is as follows:
 ```
@@ -130,7 +130,7 @@ Taking Make bucket as example, test whether S3cmd is available:
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-093.png)
 
-## Supported functions
+## Supported Functions
 
 Commands supported by S3cmd to JD Cloud OSS are listed as follows:
 
@@ -214,3 +214,5 @@ Commands：
     <td>Sign an S3 URL to provide limited public access with expiry s3cmd signurl<br>s3://BUCKET/OBJECT <expiry_epoch|+expiry_offset></td>
 </tr>
 </table>
+
+

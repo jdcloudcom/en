@@ -10,4 +10,4 @@ definitions:
         description: VPC id
       vpcName:
         type: string
-        description: VPC name
+        description: VPC Name

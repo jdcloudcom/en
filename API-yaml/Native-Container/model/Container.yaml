@@ -11,34 +11,34 @@ definitions:
         description: Container ID 
       status:
         type: string  
-        description: Container status 
+        description: Container Status 
       instanceType:
         type: string  
-        description: Instance type family 
+        description: Instance Type Family 
       az:
         type: string  
-        description: Availability zone 
+        description: Availability Zone 
       name:
         type: string  
-        description: Container name 
+        description: Container Name 
       hostAliases:
         type: array
         items:
           $ref: "./HostAlias.yaml#/definitions/hostAlias"  
-        description: Domain and IP mapping information 
+        description: Domain and IP Mapping Information 
       hostname:
         type: string  
-        description: Machine name 
+        description: Machine Name 
       command:
         type: array
         items: 
           type: string 
-        description:  Container execution command 
+        description:  Container Execution Command 
       args:
         type: array
         items: 
           type: string
-        description: Parameters for command execution by container 
+        description: Parameters for Command Execution by Container 
       envs:
         type: array
         items:
@@ -46,59 +46,59 @@ definitions:
         description: Environment variable for execution by dynamically-assigned container 
       image:
         type: string  
-        description: Image name 
+        description: Image Name 
       secret:
         type: string  
-        description: Name cited by secret 
+        description: Name Cited by Secret 
       tty:
         type: boolean  
         description: If a container is assigned with tty 
       workingDir:
         type: string  
-        description: Container’s working catalog 
+        description: Container’s Working Catalog 
       rootVolume:
         $ref: "./VolumeMount.yaml#/definitions/volumeMount"
-        description: Root Volume information 
+        description: Root Volume Information 
       dataVolumes:
         type: array
         items:
           $ref: "./VolumeMount.yaml#/definitions/volumeMount"  
-        description: Mounted data Volume information 
+        description: Mounted Data Volume Information 
       vpcId:
         type: string  
-        description: ID of primary network interface’s VPC 
+        description: ID of Primary Network Interface’s VPC 
       subnetId:
         type: string  
-        description: ID of primary network interface’s subnet 
+        description: ID of Primary Network Interface’s Subnet 
       privateIpAddress:
         type: string  
-        description: Primary IP address of primary network interface 
+        description: Primary IP Address of Primary Network Interface 
       elasticIpId:
         type: string  
-        description: Elastic IP ID associated to primary IP of primary network interface 
+        description: Elastic IP ID Associated to Primary IP of Primary Network Interface 
       elasticIpAddress:
         type: string  
-        description: Elastic IP address associated to primary IP of primary network interface 
+        description: Elastic IP Associated to Primary IP of Primary Network Interface 
       primaryNetworkInterface:
         $ref: "./InstanceNetworkInterfaceAttachment.yaml#/definitions/instanceNetworkInterfaceAttachment"
-        description: Primary network interface information 
+        description: Primary Network Interface Information 
       secondaryNetworkInterfaces:
         type: array
         items:
           $ref: "./InstanceNetworkInterfaceAttachment.yaml#/definitions/instanceNetworkInterfaceAttachment"
-        description: Elastic network interface information 
+        description: Elastic Network Interface Information 
       logConfiguration:
         $ref: "./LogConfiguration.yaml#/definitions/logConfiguration" 
-        description: Container log configuration information 
+        description: Container Log Configuration Information 
       charge:
         $ref: "../../charge/model/Charge.yaml#/definitions/charge"
-        description: Billing configuration information 
+        description: Billing Configuration Information 
       launchTime:
         type: string  
-        description: Creation time 
+        description: Creation Time 
       reason:
         type: string  
-        description: Container termination reason 
+        description: Container Termination Reason 
       description:
         type: string  
-        description: Container description 
+        description: Container Description 

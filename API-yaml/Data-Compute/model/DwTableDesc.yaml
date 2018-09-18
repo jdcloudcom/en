@@ -7,34 +7,34 @@ definitions:
     properties:
       dbName:
         type: string
-        description: Database name
+        description: Database Name
       tableName:
         type: string
-        description: Table name
+        description: Table Name
       hiveFileFormat:
         type: string
-        description: Storage format
+        description: Storage Format
       fieldsDelimit:
         type: string
-        description: Field delimiter
+        description: Field Delimiter
       linesDelimit:
         type: string
-        description: Row delimiter
+        description: Row Delimiter
       otherSerdeProperties:
         type: object
-        description: Other serde attributes
+        description: Other Serde Attributes
       createTime:
         type: string
-        description: Creation time (automatically generated)
+        description: Creation Time (automatically generated)
       owner:
         type: string
         description: Owner (automatically generated)
       comments:
         type: string
-        description: Description information
+        description: Description  Information
       externalLocation:
         type: string
-        description: External table location
+        description: External Table Location
       parameters:
         type: object
         description: Parameter
@@ -42,4 +42,4 @@ definitions:
         type: array
         items:
           $ref: "../model/DwTableRow.yaml#/definitions/dwTableRow"
-        description: List information
+        description: List Information

@@ -10,15 +10,15 @@ By default, a highly available architecture with a three-node replica set is pro
 
 ## Data lasting
 
-It has a complete data backup mechanism, supportting automatic backup and manual backup. Each instance is automatically backed up once every day by default. You can also create backups at any time according to business conditions. The backup files are saved in the form of three copies in JD Cloud object storage. Don't worry about data loss.
+It has a complete data backup mechanism, supportting automatic backup and manual backup. Each instance is automatically backed up once every day by default. You can also create backups at any time according to business conditions. The backup files are saved in the form of three copies in JD Cloud Object Storage Service. Don't worry about data loss.
 
 ## Safety
 
-The instance is deployed in the user-defined VPC private network by default. Network isolation protection is performed directly at the TCP layer to ensure data security. At the same time, you can limit the IP of the connectable instance through the white list function, and accurately control the security from the access source.
+The instance is deployed in the user-defined VPC by default. Network isolation protection is performed directly at the TCP layer to ensure data security. At the same time, you can limit the IP of the connectable instance through the white list function, and accurately control the security from the access source.
 
 ## Scalable
 
-Supports flexible capacity expansion and capacity reduction. You can adjust the instance configuration as needed according to the business situation, improve resource utilization and reduce the cost of use. The configuration change process does not affect service operations.
+Supports flexible capacity expansion and capacity reduction. You can adjust the instance configuration as needed according to the business situation, improve resource utilization and reduce the cost of use. The configuration changes process does not affect service operations.
 
 ## Easy to operate and maintain
 The console provides a wealth of visual monitoring data indicators, and the data is clear at a glance. You can also set up automatic alarm rules to keep track of the running of your instances anytime, anywhere.
@@ -26,7 +26,7 @@ The console provides a wealth of visual monitoring data indicators, and the data
 ## Related Reference
 
 - [Product Overview](../Introduction/What-Is-MongoDB.md)
-- [Product Specification](../Product-Introduction/Specification.md)
+- [Specifications](../Product-Introduction/Specification.md)
 - [Price Overview](../Pricing/Price-Overview.md)
 - [Create Instance](../Getting-Started/Create-Instance.md)
 - [Alter Configuration](../Operation-Guide/Instance-Management/Modify-Instance-Spec.md)

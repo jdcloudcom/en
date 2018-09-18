@@ -1,4 +1,4 @@
-# Restraint Instructions
+# Restrictions
 ## Max. Limit of Connections
 ### MySQL
 |Instance Type|Max. Connections|

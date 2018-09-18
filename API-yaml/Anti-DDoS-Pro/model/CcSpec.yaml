@@ -6,10 +6,10 @@ definitions:
     properties:
       ccProtectMode:
         type: integer
-        description: cc defense mode, 0->normal  1->loose  2->critical  3->customized
+        description: cc Defense Mode, 0->normal  1->loose  2->critical  3->customized
       ccThreshold:
         type: integer
-        description: Threshold of CC defense
+        description: CC Threshold
       hostQps:
         type: integer
         description: When ccProtectMode is a customized mode, specify the protection threshold of each Host

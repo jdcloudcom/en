@@ -1,5 +1,5 @@
-## Flow Computation and Batch Computation Comparison<br>
-| Comparative indicators | Batch computing | Streaming computing |
+## Stream Compute and Batch Compute Comparison<br>
+| Comparative indicators | Batch computing | Stream Compute |
 |---|---|---|
 Data integration method | Preloaded data | Real-time loading data and real-time computing
 Usage mode | Business logic can be modified, data can be recalculated | Once the business logic is modified, the previous data cannot be recalculated (streaming data perish ability).

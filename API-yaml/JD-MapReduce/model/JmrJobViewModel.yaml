@@ -13,25 +13,25 @@ definitions:
         description: Job ID
       jobName:
         type: string
-        description: Job name
+        description: Job Name
       jobType:
         type: string
-        description: Job type
+        description: Job Type
       jobStatus:
         type: string
-        description: Job status
+        description: Job Status
       jobGroup:
         type: string
-        description: Job group
+        description: Job Group
       jobTrigger:
         type: string
-        description: Job trigger
+        description: Job Trigger
       cronExpression:
         type: string
-        description: Regular task time
+        description: Regular Task Time
       orderBy:
         type: string
-        description: Extra field, optional
+        description: Extra Field, optional
       isSelfDependence:
         type: integer
       isVirtualTask:
@@ -40,33 +40,33 @@ definitions:
         type: integer
       retryTimes:
         type: integer
-        description: Number of job retry
+        description: Number of Job Retry
       isSendMsg:
         type: boolean
         description: Whether to send a SMS notice after job is failed
       userpin:
         type: string
-        description: User name
+        description: User Name
       createTime:
         type: string
         format: date
-        description: Creation time
+        description: Creation Time
       location:
         type: string
         description: Location
       params:
         type: string
-        description: Required parameter
+        description: Required Parameter
       dataCenter:
         type: string
-        description: Date center
+        description: Data Center
       clusterId:
         type: string
         description: Cluster ID
       clusterName:
         type: string
-        description: Cluster name
+        description: Cluster Name
       clusterStatus:
         type: string
-        description: Extra field
+        description: Extra Field
 

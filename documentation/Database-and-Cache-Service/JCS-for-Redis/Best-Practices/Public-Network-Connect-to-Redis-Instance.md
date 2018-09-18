@@ -6,23 +6,23 @@ Prerequisite: a JD Virtual Machine with Linux system, Associate EIP which is in 
 
 ## Action Steps
 
-1.  Install Xshell on local computer and remote connect to the virtual machine with Public IP by SSH protocol.
+1.  Install Xshell on local computer and remote connect to the virtual machines with Public IP by SSH protocol.
 
-- Select “connect”, enter name, and select protocol as SSH;
+- Select "connect", enter name, and select protocol as SSH;
 
-- Machine IP: fill in the public IP of JD Cloud Virtual Machine
+- Machine IP: fill in the public IP of JD Cloud Virtual Machines
 
 2. User identification login
 
 - Method: Password;
 
-- User Name: fill in the login user name of JD Cloud Virtual Machine, and it is “root” by default;
+- User Name: fill in the login user name of JD Cloud Virtual Machines, and it is "root" by default;
 
-- Password: password used to log in to JD Cloud Virtual Machine.
+- Password: password used to log in to JD Cloud Virtual Machines.
 
 3. Set port forwarding rules
 
-- Select “tunnel” under “SSH” and click “add”
+- Select **Tunnel** under **SSH** and click **Add**
 
 4. Fill in the transferring rules
 
@@ -30,8 +30,8 @@ Prerequisite: a JD Virtual Machine with Linux system, Associate EIP which is in 
 
 - Listen port: fill in local listen port when forwarding Xshell setting port;
 
-- Target machine: fill in the domain of Redis; see JD Cloud cache Redis console for details; click the instance name to enter the instance details, resource information –> access domain;
+- Target machine: fill in the domain of Redis; see JD Cloud cache Redis console for details; click the instance name to enter the instance details, **Resource Information** –> **Access Domain**;
 
-- Target port: fill in the port of Redis; see JD Cloud cache Redis console for details; click the instance name to enter the instance details, resource information –> port, and it is 6379 by default.
+- Target port: fill in the port of Redis; see JD Cloud cache Redis console for details; click **Instance Name** to enter the details of the instance page, **Resource Information** –> **Port**, and it is 6379 by default.
 
 5. Connection test (window client)

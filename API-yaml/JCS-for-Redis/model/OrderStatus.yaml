@@ -7,7 +7,7 @@ definitions:
     properties:
       total:
         type: integer
-        description: The Total Number of Orders
+        description: Total Number of Orders
       success:
         type: integer
         description: Number of Successes
@@ -16,7 +16,7 @@ definitions:
         description: Number of Failures
       inProcess:
         type: integer
-        description: The Number Being Processed
+        description: Number Being Processed
       resourceIds:
         type: array
         description: Successful Resource Id

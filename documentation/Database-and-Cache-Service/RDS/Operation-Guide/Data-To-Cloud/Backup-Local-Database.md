@@ -12,7 +12,7 @@ where name not   in ('master','tempdb','model','msdb');
 go
 ```
 
-**Remark: The restoring mode of the database must be Full.**
+**Note: The restoring mode of the database must be Full.**
 - Move to step 2 if the model value is not Full.
 - Move to step 3 if the model value is Full.
 
@@ -25,7 +25,7 @@ alter database [dbname] set recovery full;
 go
 ```
 
-Repeat step 1 to confirm that the database restoring mode has been successfully modified.
+Repeat Step 1 to confirm that the database restoring mode has been successfully modified.
 
 ## 3. Backing Database
 Taking a backup file named testdb.bak as an example:

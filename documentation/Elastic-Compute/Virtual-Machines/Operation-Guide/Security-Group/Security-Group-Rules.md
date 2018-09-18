@@ -23,6 +23,6 @@ Security group rules can control the inbound traffic of instances allowed to rea
 The security group has no priority. When an instance is associated with multiple security groups, the rules of each security group will be aggregated to take effect, and whether the access is allowed is determined according to the aggregated rules.
 
 ## Security Group Service Limits
-* Security groups are applicable to instances in a virtual private cloud environment; 　　
-* You can create 50 security groups under each virtual private cloud in each zone. At most 100 rules can be added for each security group in both directions;
+* Security groups are applicable to instances in a Virtual Private Cloud environment; 　　
+* You can create 50 security groups under each Virtual Private Cloud in each zone. At most 100 rules can be added for each security group in both directions;
 * A single network interface of each instance can be associated with 5 security groups at the same time;

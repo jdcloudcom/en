@@ -23,10 +23,10 @@ definitions:
         description: Database Version, 3.2
       instanceClass:
         type: string
-        description: "Instance type code. Mongo.s1.small: 1-core 2G; mongo.s1.medium: 2-core 4G; mongo.s1.large: 4-core 8G; mongo.s1.xlarge: 8-core 16G; mongo.s2.2xlarge: 8-core 32G; Mongo.s2.4xlarge: 16-core 64G;"
+        description: "Instance Type Code. Mongo.s1.small: 1-core 2G; mongo.s1.medium: 2-core 4G; mongo.s1.large: 4-core 8G; mongo.s1.xlarge: 8-core 16G; mongo.s2.2xlarge: 8-core 32G; Mongo.s2.4xlarge: 16-core 64G;"
       instanceStorageGB:
         type: integer
-        description: Storage space, in GB, value within 10-1000, a multiple of 10.
+        description: Storage Space, Unit: GB, value: 10-1000, a multiple of 10.
       multiAZ:
         type: boolean
         description: Whether to Select Multiple Availability Zone Deployment

@@ -17,7 +17,7 @@ paths:
               in: query
               type: string
               required: true
-              description: "Instance name"
+              description: "Instance Name"
           responses:
             200:
               description: OK
@@ -39,7 +39,7 @@ paths:
               description: "Internal server error"
 
   "/dwDatabase/{databaseName}":
-    ###################### Create a DW database ######################
+    ###################### Create a DW Database ######################
         post:
           description: "Create a user instance database"
           operationId: createDatabase
@@ -48,12 +48,12 @@ paths:
               in: query
               type: string
               required: true
-              description: "Instance name"
+              description: "Instance Name"
             - name: description
               in: query
               type: string
               required: false
-              description: "Database description information"
+              description: "Database Description Information"
           responses:
             200:
               description: OK
@@ -79,7 +79,7 @@ paths:
               in: query
               type: string
               required: true
-              description: "Instance name"
+              description: "Instance Name"
           responses:
             200:
               description: OK
@@ -107,7 +107,7 @@ paths:
               in: query
               type: string
               required: true
-              description: "Instance name"
+              description: "Instance Name"
           responses:
             200:
               description: OK
@@ -124,7 +124,7 @@ paths:
             500:
               description: "Internal server error"
 
-# Path general parameter
+# Path General Parameter
 parameters:
   regionId:
     name: regionId
@@ -137,4 +137,4 @@ parameters:
     in: path
     required: true
     type: string
-    description: Database name
+    description: Database Name

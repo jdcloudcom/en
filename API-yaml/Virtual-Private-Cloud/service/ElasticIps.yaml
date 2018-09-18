@@ -13,15 +13,15 @@ paths:
   "/elasticIps/":
     get:
       operationId: describeElasticIps
-      summary: "Query elastic ip list"
-      description: "Query elastic ip list"
+      summary: "Query Elastic IP List"
+      description: "Query Elastic IP List"
       parameters:
         - name: pageNumber
           in: query
           type: integer
           default: 1
           minimum: 1
-          description: "Page; it is 1 by default, the value range: [1,∞); when the pages exceed total pages, show the last page"
+          description: "Page; it is 1 by default. Value Range: [1,∞); when the pages exceed total pages, show the last page"
           
         - name: pageSize
           in: query
@@ -29,7 +29,7 @@ paths:
           default: 20
           minimum: 10
           maximum: 100
-          description: "Paging size; it is 20 by default; value range: [10, 100]"
+          description: "Paging size; it is 20 by default. Value Range: [10, 100]"
           
         - name: filters
           in: query
@@ -38,9 +38,9 @@ paths:
             #$ref: "/jcloud-open-api/common/model/Filter.yaml#/definitions/filter"
             $ref: "../../common/model/Filter.yaml#/definitions/filter"
           description: |
-            elasticIpIds - elasticip id array conditions, support multiple Ids
-            elasticIpAddress - eip IP address, support single address
-            chargeStatus	- eip payment status, normal(normal status) or overdue(Pay-In-Advance expired) or arrear(arrear status), support single status
+            elasticIpIds - ElasticIP ID Array Conditions, Support Multiple IDs
+            elasticIpAddress - EIP IP Address, Support Single Address
+            chargeStatus	- EIP Payment Status, Normal(normal status) or Overdue(Pay-In-Advance expired) or Arrear(arrear status), Support Single Status
 
       responses:
         200:
@@ -49,17 +49,17 @@ paths:
             type: object
             properties:
               result:
-                description: "Returned results"
+                description: "Returned Results"
                 type: object
                 properties:
                   elasticIps:
-                    description: "elasticIp resource information list"
+                    description: "ElasticIp Resource Information List"
                     type: array
                     items:
                       #$ref: "/jcloud-open-api/vpc/model/ElasticIp.yaml#/definitions/elasticIp"
                       $ref: "../model/ElasticIp.yaml#/definitions/elasticIp"
                   totalCount:
-                    description: "Total number"
+                    description: "Total Number"
                     type: integer
               requestId:
                 description: "Request ID"
@@ -70,14 +70,14 @@ paths:
           description: "Authentication failed"
     
     post:
-      summary: "Create one or more elastic Ips"
-      description: "Create one or more elastic Ips"
+      summary: "Create One or More Elastic IPs"
+      description: "Create One or More Elastic IPs"
       operationId: createElasticIps
       parameters:
         - name: createElasticIpSpec
           in: body
           required: true
-          description: "Apply for creating elastic ip request parameter"
+          description: "Apply for Creating Elastic IP Request Parameter"
           x-jdcloud-tiered: false
           schema:
             $ref: "../model/CreateElasticIpSpec.yaml#/definitions/createElasticIpSpec"
@@ -88,10 +88,10 @@ paths:
             type: object
             properties:
               result:
-                description: "Returned results"
+                description: "Returned Results"
                 properties:
                   elasticIpIds:
-                    description: "Elastic IP ID list"
+                    description: "Elastic IP ID List"
                     type: array
                     items:
                       type: string
@@ -112,8 +112,8 @@ paths:
   "/elasticIps/{elasticIpId}":
       #describe ElasticIp
       get:
-        summary: "ElasticIp resource information details"
-        description: "ElasticIp resource information details"
+        summary: "ElasticIp Resource Information Details"
+        description: "ElasticIp Resource Information Details"
         operationId: describeElasticIp
         responses:
           200:
@@ -121,10 +121,10 @@ paths:
             schema:
               properties:
                 result:
-                  description: "Returned results"
+                  description: "Returned Results"
                   properties:
                     elasticIp:
-                      description: "elasticIp resource information"
+                      description: "ElasticIp Resource Information"
                       $ref: "../model/ElasticIp.yaml#/definitions/elasticIp"
                 requestId:
                   description: "Request ID"
@@ -136,8 +136,8 @@ paths:
       
       #delete ElasticIp
       delete:
-        summary: "Delete elastic Ip"
-        description: "Delete elastic Ip"
+        summary: "Delete Elastic IP"
+        description: "Delete Elastic IP"
         operationId: deleteElasticIp
         responses:
           200:
@@ -157,15 +157,15 @@ paths:
             description: "Service unavailable"
 
       patch:
-        summary: "Modify elastic IP"
-        description: "Modify elastic IP"
+        summary: "Modify Elastic IP"
+        description: "Modify Elastic IP"
         x-jdcloud-internal: true
         operationId: modifyElasticIp
         parameters:
           - name: modifyElasticIpSpec
             in: body
             required: true
-            description: "Modify elastic IP"
+            description: "Modify Elastic IP"
             x-jdcloud-tiered: false
             schema:
               $ref: "../model/ModifyElasticIpSpec.yaml#/definitions/modifyElasticIpSpec"

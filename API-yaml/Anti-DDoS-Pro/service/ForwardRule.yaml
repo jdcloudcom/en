@@ -1,8 +1,8 @@
 swagger: "2.0"
 info:
   version: "v1"
-  title:  Non-web Forwarding Configuration APIs
-  description: Non-web forwarding configuration APIs
+  title:  Non Web Forwarding Configuration APIs
+  description: Non Web Forwarding Configuration APIs
 
 basePath: /regions/{regionId}
 
@@ -153,7 +153,7 @@ parameters:
     in: path
     required: true
     type: string
-    description: Belonging region ID
+    description: Belonging Region ID
   instanceId:
     name: instanceId
     in: path

@@ -3,7 +3,7 @@ The instance of JD Cloud provides different types of combinable data storage dev
 <table>
    <tr>
       <td> Dimension  </td>
-      <td>Classification  </td>
+      <td> Classification  </td>
       <td> Description  </td>
    </tr>
    <tr>
@@ -35,7 +35,7 @@ The instance of JD Cloud provides different types of combinable data storage dev
    </tr> 
 </table>
 
-##Classification according to Architectural Pattern
+## Classification according to Architectural Pattern
 
 ### Local Disk
 The local disk is in the same physical machine as the instance. A smaller data access delay can be obtained by using the instance of the local disk. The life cycle of the local disk is the same as that of the instance, and the stored data will be lost as the instance is deleted.

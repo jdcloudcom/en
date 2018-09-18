@@ -4,7 +4,7 @@ definitions:
     x-jdcloud-module: nc
     x-jdcloud-internal: false
     type: object
-    description: Specify mounted Volume
+    description: Specify Mounted Volume
     required:
       - instanceType
       - az
@@ -14,18 +14,18 @@ definitions:
     properties:
       instanceType:
         type: string   
-        description: Instance type family; refer to [Document](https://www.jdcloud.com/help/detail/1992/isCatalog/1)
+        description: Instance Type Family; Refer to [Document](https://www.jdcloud.com/help/detail/1992/isCatalog/1)
       az:
         type: string   
-        description: Availability zone of container 
+        description: Availability Zone of Container 
       name:
         type: string   
-        description: Container name
+        description: Container Name
       hostAliases:
         type: array
         items:
           $ref: "./HostAlias.yaml#/definitions/hostAlias"
-        description: Domain and IP mapping information; </br> at most 10 alias 
+        description: Domain and IP Mapping Information; </br> at most 10 alias 
       hostname:
         type: string   
         description: For machine name and specification, please refer to the instruction document; default container ID 
@@ -55,27 +55,27 @@ definitions:
         description: If a container is assigned with tty. It is not assigned by default 
       workingDir:
         type: string   
-        description: Container’s working catalog. If not specified, it is root catalog (/) by default; and the working catalog must be the absolute path. 
+        description: Container’s Working Catalog. If not specified, it is root catalog (/) by default; and the working catalog must be the absolute path. 
       rootVolume:
         $ref: "./VolumeMountSpec.yaml#/definitions/volumeMountSpec"
-        description: Root Volume information 
+        description: Root Volume Information 
       dataVolumes:
         type: array
         items:
           $ref: "./VolumeMountSpec.yaml#/definitions/volumeMountSpec"  
-        description: Mounted data Volume information; at most 7 
+        description: Mounted Data Volume Information; at most 7 
       elasticIp:
         $ref: "./ElasticIpSpec.yaml#/definitions/elasticIpSpec"  
-        description: Elastic IP specification related to primary IP of primary network interface 
+        description: Elastic IP Specification Related to Primary IP of Primary Network Interface 
       primaryNetworkInterface:
         $ref: "./ContainerNetworkInterfaceAttachmentSpec.yaml#/definitions/containerNetworkInterfaceAttachmentSpec"  
-        description: Primary network interface configuration information 
+        description: Primary Network Interface Configuration Information 
       logConfiguration:
         $ref: "./LogConfiguration.yaml#/definitions/logConfiguration"  
         description: Container log configuration information; 10MB storage space will be assigned to the local by default 
       description:
         type: string   
-        description: Container description
+        description: Container Description
       charge:
         $ref: "../../charge/model/ChargeSpec.yaml#/definitions/chargeSpec"
         description: Billing configuration; if no specification is made, the billing type is Pay-As-You-Go - Pay as the service time by default 
