@@ -33,6 +33,6 @@ If the above cannot solve your problem, consult the after-sales of the product: 
 
 # Related Documents
 
-- [What is Anti-DDoS Basic? ](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Basic-Anti-DDoS/Introduction/Overview.md)
-- [Anti-DDoS Basic Architecture](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Basic-Anti-DDoS/Introduction/Basic-Infrastructure.md)
-- [Quick Start](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Basic-Anti-DDoS/Getting-Started/Basic-Anti-DDos-Started.md)
+- [What is Anti-DDoS Basic? ](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Anti-DDoS-Basic/Introduction/Overview.md)
+- [Anti-DDoS Basic Architecture](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Anti-DDoS-Basic/Introduction/Basic-Infrastructure.md)
+- [Quick Start](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Anti-DDoS-Basic/Getting-Started/Anti-DDoS-Basic-Started.md)
