@@ -2,7 +2,7 @@ swagger: "2.0"
 info:
   version: "v1"
   title: Instance Type
-  description: APIs related to instance type operation
+  description: "APIs related to instance type operation"
 
 basePath: /regions/{regionId}
 
@@ -10,7 +10,7 @@ paths:
   "/instanceTypes":
     ###################### Instance Type List API ######################
     get:
-      description: |
+      description: "|"
         Query instance type information list
       operationId: describeInstanceTypes
       parameters:
@@ -19,30 +19,30 @@ paths:
           type: array
           items:
             $ref: "../../common/model/Filter.yaml#/definitions/filter"
-          description: | 
+          description: "| "
             instanceTypes - Instance type, exact match, multiple support
             az-AZ,  exact match,  multiple supported
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             type: object
             properties:
               result:
                 properties:
                   instanceTypes:
-                    description: Generic instance type
+                    description: "Generic instance type"
                     type: array
                     items:
                       $ref: "../model/InstanceType.yaml#/definitions/instanceType"
                   specificInstanceTypes:
-                    description: User-specific instance type; ticket application required
+                    description: "User-specific instance type; ticket application required"
                     type: array
                     items:
                       $ref: "../model/InstanceType.yaml#/definitions/instanceType"
                   totalCount:
                     type: integer
-                    description: Quantity
+                    description: "Quantity"
               requestId:
                 type: string
         400:
@@ -63,4 +63,4 @@ parameters:
     in: path
     required: true
     type: string
-    description: Region ID
+    description: "Region ID"

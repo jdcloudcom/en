@@ -2,7 +2,7 @@ swagger: "2.0"
 info:
   version: "v1"
   title: Security Token
-  description: Security Token Management APIs for Operation Protection
+  description: "Security Token Management APIs for Operation Protection"
 
 basePath: /regions/{regionId}
 
@@ -16,13 +16,13 @@ paths:
       parameters:
         - name: getSecurityTokenInfo
           in: body
-          description: Obtain SecurityToken parameters
+          description: "Obtain SecurityToken parameters"
           required: true
           schema:
             $ref: "../model/GetSecurityTokenInfo.yaml#/definitions/getSecurityTokenInfo"
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             type: object
             properties:
@@ -30,7 +30,7 @@ paths:
                 properties:
                   securityToken:
                     type: string
-                    description: Security Token
+                    description: "Security Token"
               requestId:
                 type: string
 
@@ -43,13 +43,13 @@ paths:
       parameters:
         - name: verifySecurityTokenInfo
           in: body
-          description: Verify securityToken parameters
+          description: "Verify securityToken parameters"
           required: true
           schema:
             $ref: "../model/VerifySecurityTokenInfo.yaml#/definitions/verifySecurityTokenInfo"
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             type: object
             properties:
@@ -65,13 +65,13 @@ paths:
       parameters:
         - name: verificationCodeInfo
           in: body
-          description: Send verification code parameters
+          description: "Send verification code parameters"
           required: true
           schema:
             $ref: "../model/VerificationCodeInfo.yaml#/definitions/verificationCodeInfo"
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             type: object
             properties:
@@ -85,4 +85,4 @@ parameters:
     in: path
     required: true
     type: string
-    description: Region ID
+    description: "Region ID"

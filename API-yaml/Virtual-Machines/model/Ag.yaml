@@ -5,10 +5,10 @@ definitions:
     properties:
       name:
         type: string
-        description: AG name
+        description: "AG name"
       id:
         type: string
-        description: AG id
+        description: "AG id"
 #      description:
 #        type: string
 # description: AG id

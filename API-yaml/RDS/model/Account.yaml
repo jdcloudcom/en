@@ -15,5 +15,5 @@ definitions:
         type: array
         items:
           $ref: "../model/AccountPrivilege.yaml#/definitions/AccountPrivilege"
-          description: Account Privilege
-        description: Specific Privilege
+          description: "Account Privilege"
+        description: "Specific Privilege"

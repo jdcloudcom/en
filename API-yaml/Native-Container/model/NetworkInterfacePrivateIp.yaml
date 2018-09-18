@@ -4,14 +4,14 @@ definitions:
     x-jdcloud-module: nc
     x-jdcloud-internal: false
     type: object
-    description: Describe Information of Network Interface Ip Resource
+    description: "Describe Information of Network Interface Ip Resource"
     properties:
       privateIpAddress:
         type: string
-        description: IPV4 Address of Private IP
+        description: "IPV4 Address of Private IP"
       elasticIpId:
         type: string
-        description: IPV4 Address of Private IP
+        description: "IPV4 Address of Private IP"
       elasticIpAddress:
         type: string
-        description: Elastic IP Instance Address
+        description: "Elastic IP Instance Address"

@@ -5,7 +5,7 @@ definitions:
     properties:
       instanceId:
         type: string
-        description: VM ID
+        description: "VM ID"
       privateIpAddress:
         type: string
-        description: The primary IP address in the primary network interface
+        description: "The primary IP address in the primary network interface"

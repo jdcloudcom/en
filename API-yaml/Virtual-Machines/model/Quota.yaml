@@ -5,10 +5,10 @@ definitions:
     properties:
       resourceType:
         type: string
-        description: Source type [instance, keypair, image, instanceTemplate]
+        description: "Source type [instance, keypair, image, instanceTemplate]"
       limit:
         type: integer
-        description: Upper quota limit
+        description: "Upper quota limit"
       used:
         type: integer
-        description: Used quota
+        description: "Used quota"

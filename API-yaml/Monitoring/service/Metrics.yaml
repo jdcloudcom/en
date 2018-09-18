@@ -1,6 +1,6 @@
 swagger: "2.0"
 info:
-  description: Monitoring Items APIs, providing functions such as available monitoring item list query and monitoring data query
+  description: "Monitoring Items APIs, providing functions such as available monitoring item list query and monitoring data query"
   title: Monitoring Items APIs
   version: "v1"
 consumes:
@@ -12,13 +12,13 @@ paths:
   /metrics:
     ###################### Query available monitoring item list based on the product line ######################    
     get:
-      description: Query metric list to get monitoring data list based on product type
+      description: "Query metric list to get monitoring data list based on product type"
       summary: Query available monitoring item list based on the product line
       operationId: describeMetrics
       x-jdcloud-internal: false
       parameters:
       - type: string
-        description: |
+        description: "|"
           Product Name: 
           vm--> Virtual Machine
           disk-->Cloud Disk Service
@@ -36,12 +36,12 @@ paths:
         required: true
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               requestId:
                 type: string
-                description: Request ID
+                description: "Request ID"
               result:
                 properties:
                   metrics:
@@ -55,13 +55,13 @@ paths:
 
   /metricsForCreateAlarm:
     get:
-      description: Query metric list available to create monitoring rules based on resource type
+      description: "Query metric list available to create monitoring rules based on resource type"
       summary: Query metric list to create monitoring rules available
       operationId: describeMetricsForCreateAlarm
       x-jdcloud-internal: false      
       parameters:
       - type: string
-        description: |
+        description: "|"
           Type of resource, blank by default, displaying all items
           vm--> Virtual Machine
           disk-->Cloud Disk Service
@@ -78,12 +78,12 @@ paths:
         in: query
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               requestId:
                 type: string
-                description: Request ID
+                description: "Request ID"
               result:
                 properties:
                   serviceCodeList:
@@ -91,35 +91,35 @@ paths:
                     items:
                       $ref: '../model/MetricDatail.yaml#/definitions/ServiceCodeMetrics'
         400:
-          description: 'invalid parameter'
+          description: "'invalid parameter'"
         500:
-          description: 'internal server error'
+          description: "'internal server error'"
           
   /regions/{regionId}/metrics/{metric}/metricData:
     ######################Get Statistics for the Specified Metric######################  
     get:
-      description: Get statistics for the specified metric. To get more precise data points, the user can narrow or increase the specified time range.
+      description: "Get statistics for the specified metric. To get more precise data points, the user can narrow or increase the specified time range."
       summary: Get statistics for the specified metric
       operationId: describeMetricData
       x-jdcloud-internal: false      
       parameters:
       - type: string
-        description: Region ID
+        description: "Region ID"
         name: regionId
         in: path
         required: true
       - type: string
-        description: Metric
+        description: "Metric"
         name: metric
         in: path
         required: true
       - type: string
-        description: Type of resource, taking values such as vm, lb, ip, and database
+        description: "Type of resource, taking values such as vm, lb, ip, and database"
         name: serviceCode
         in: query
         required: true
       - type: string
-        description: Uuid of Resource
+        description: "Uuid of Resource"
         name: resourceId
         in: query
         required: true
@@ -140,15 +140,15 @@ paths:
         type: array
         items:
           $ref: "../model/Tags.yaml#/definitions/tagFilter"
-        description: Customized Tag
+        description: "Customized Tag"
       responses:
         200:
-          description:  OK
+          description: "OK"
           schema:
             properties:
               requestId:
                 type: string
-                description: Request ID
+                description: "Request ID"
               result:
                 properties:
                   metricDatas:
@@ -161,35 +161,35 @@ paths:
           description: "internal server error"
   /regions/{regionId}/metrics/{metric}/lastDownsample:
     get:
-      description: View the last point at certain resource
+      description: "View the last point at certain resource"
       summary: View the last point at certain resource
       operationId: lastDownsample
       x-jdcloud-internal: true      
       parameters:
       - type: string
-        description: Region ID
+        description: "Region ID"
         name: regionId
         in: path
         required: true
       - type: string
-        description: Metric
+        description: "Metric"
         name: metric
         in: path
         required: true
       - type: string
-        description: Type of resource, taking values such as vm, lb, ip, and database
+        description: "Type of resource, taking values such as vm, lb, ip, and database"
         name: serviceCode
         in: query
         required: true
       - type: string
-        description: Uuid of Resource
+        description: "Uuid of Resource"
         name: resourceId
         in: query
         required: true
       - name: tags
         in: query
         type: array
-        description: Customized Tag
+        description: "Customized Tag"
         items:
           $ref: "../model/Tags.yaml#/definitions/tagFilter"
       - type: string
@@ -210,14 +210,14 @@ paths:
         in: query
       responses:
         200:
-          description: View the last point at certain resource
+          description: "View the last point at certain resource"
           schema:
             type: object
             required:
             - requestId
             properties:
               requestId:
-                description: Request ID
+                description: "Request ID"
                 type: string
               result:
                 properties:

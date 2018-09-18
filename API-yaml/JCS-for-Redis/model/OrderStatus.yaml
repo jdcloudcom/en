@@ -2,24 +2,24 @@ swagger: "2.0"
 definitions:
   orderStatus:
     x-jdcloud-module: redis
-    description: Order Status
+    description: "Order Status"
     type: object
     properties:
       total:
         type: integer
-        description: Total Number of Orders
+        description: "Total Number of Orders"
       success:
         type: integer
-        description: Number of Successes
+        description: "Number of Successes"
       fail:
         type: integer
-        description: Number of Failures
+        description: "Number of Failures"
       inProcess:
         type: integer
-        description: Number Being Processed
+        description: "Number Being Processed"
       resourceIds:
         type: array
-        description: Successful Resource Id
+        description: "Successful Resource Id"
         items:
           type: string
             

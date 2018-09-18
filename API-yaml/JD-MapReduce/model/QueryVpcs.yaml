@@ -7,7 +7,7 @@ definitions:
     properties:
       vpcId:
         type: string
-        description: VPC id
+        description: "VPC id"
       vpcName:
         type: string
-        description: VPC Name
+        description: "VPC Name"

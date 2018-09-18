@@ -5,7 +5,7 @@ definitions:
     properties:
       keyName:
         type: string
-        description: Key pair name
+        description: "Key pair name"
       keyFingerprint:
         type: string
-        description: The fingerprint of the key pair, based on the public key fingerprint format defined in RFC4716, the MD5 information digest algorithm is adopted.
+        description: "The fingerprint of the key pair, based on the public key fingerprint format defined in RFC4716, the MD5 information digest algorithm is adopted."

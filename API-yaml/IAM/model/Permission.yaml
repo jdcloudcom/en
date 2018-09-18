@@ -5,27 +5,26 @@ definitions:
     properties:
       id:
         type: integer
-        description: Permission id
+        description: "Permission id"
       account:
         type: string
-        description: Primary Account Pin
+        description: "Primary Account Pin"
       name:
         type: string
-        description: Permission Name
-      description:
-        type: string
-        description: Description
+        description: "Permission Name"
+      description: "type: string"
+        description: "Description"
       permissionType:
         type: string
-        description: Permission Type
+        description: "Permission Type"
       version:
         type: string
-        description: Permission Version Number
+        description: "Permission Version Number"
       content:
         type: string
-        description: Permission Content
+        description: "Permission Content"
       permissionDetailList:
         type: array
         items:
           $ref: "./PermissionDetail.yaml#/definitions/permissionDetail"
-        description: Permission Details
+        description: "Permission Details"

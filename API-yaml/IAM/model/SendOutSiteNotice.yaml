@@ -11,24 +11,24 @@ definitions:
     properties:
       pin:
         type: string
-        description: User Pin
+        description: "User Pin"
       emailSubject:
         type: string
-        description: Email Subject
+        description: "Email Subject"
       emailContent:
         type: string
-        description: Email Content
+        description: "Email Content"
       notifyBusinessTypeEnum:
         type: string
-        description: Message Type
+        description: "Message Type"
       templateId:
         type: integer
-        description: Template Code
+        description: "Template Code"
       templateParam:
         type: array
         items:
           type: string
-        description: Template Parameter
+        description: "Template Parameter"
       smsMessageSource:
         type: string
-        description: Business Code (and Product Application)
+        description: "Business Code (and Product Application)"

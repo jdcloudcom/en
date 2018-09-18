@@ -9,4 +9,4 @@ definitions:
         type: array
         items: 
           type: string
-        description: Subnet ID list to be associated by route table, when subnet has been associated by other route tables, automatically disassociate.
+        description: "Subnet ID list to be associated by route table, when subnet has been associated by other route tables, automatically disassociate."

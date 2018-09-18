@@ -2,7 +2,7 @@ swagger: "2.0"
 info:
   version: "v1"
   title: Sold-out APIs
-  description: Check the Sold-out Information 
+  description: "Check the Sold-out Information "
 
 basePath: /regions/{regionId}
 
@@ -19,7 +19,7 @@ paths:
       x-jdcloud-internal: true
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             type: object
             properties:
@@ -53,5 +53,5 @@ parameters:
     in: path
     required: true
     type: string
-    description: Region ID
+    description: "Region ID"
 

@@ -7,5 +7,5 @@ definitions:
     properties:
       permissionId:
         type: integer
-        description: Permission id
+        description: "Permission id"
 

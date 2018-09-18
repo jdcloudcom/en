@@ -2,13 +2,13 @@ swagger: '2.0'
 info:
   version: v1
   title: Name Space APIs
-  description: Information APIs Related to Stream Compute NameSpace
+  description: "Information APIs Related to Stream Compute NameSpace"
 basePath: '/regions/{regionId}'
 paths:
 #######Query the Application List Under the Tenant################
   /namespaces:
     get:
-      description: Query the Application List Under the Tenant
+      description: "Query the Application List Under the Tenant"
       operationId: queryNamespaces
       parameters:
         - name: keyword
@@ -17,7 +17,7 @@ paths:
           required: false
       responses:
         '200':
-          description: OK
+          description: "OK"
           schema:
             type: object
             properties:
@@ -25,18 +25,18 @@ paths:
                 properties:
                   namespaces:
                     type: array
-                    description: Namespaces Information
+                    description: "Namespaces Information"
                     items:
                       type: object
                       $ref: "../model/namespacesInfo.yaml#/definitions/namespace"
               requestId:
                 type: string
         '500':
-          description: INTERNAL_ERROR
+          description: "INTERNAL_ERROR"
  #######Query the Details of A Certain Application################ 
   /namespaceDetail:
     get:
-      description: Query the Details of A Certain Application
+      description: "Query the Details of A Certain Application"
       operationId: queryNamespaceDetail
       parameters:
         - name: namespaceId
@@ -45,7 +45,7 @@ paths:
           required: true
       responses:
         '200':
-          description: OK
+          description: "OK"
           schema:
             type: object
             properties:
@@ -53,16 +53,16 @@ paths:
                 properties:
                   namespace:
                     type: object
-                    description: Namespace Objects Queried Out
+                    description: "Namespace Objects Queried Out"
                     $ref: "../model/namespacesInfo.yaml#/definitions/namespace"
               requestId:
                 type: string
         '500':
-          description: INTERNAL_ERROR 
+          description: "INTERNAL_ERROR "
  #######Update Namespace################ 
   /namespace:
     put:
-      description: Update Namespace
+      description: "Update Namespace"
       operationId: updateNamespace
       parameters:
         - name: namespaceStr
@@ -72,7 +72,7 @@ paths:
             $ref: "../model/namespacesInfo.yaml#/definitions/namespace"
       responses:
         '200':
-          description: OK
+          description: "OK"
           schema:
             type: object
             properties:
@@ -80,14 +80,14 @@ paths:
                 properties:
                   status:
                     type: boolean
-                    description: Update the Successful Marker
+                    description: "Update the Successful Marker"
               requestId:
                 type: string
         '500':
-          description: INTERNAL_ERROR  
+          description: "INTERNAL_ERROR  "
  #######Create Namespace################ 
     post:
-      description: Create Namespace
+      description: "Create Namespace"
       operationId: createNamespace
       parameters:
         - name: namespaceStr
@@ -97,7 +97,7 @@ paths:
             $ref: "../model/namespacesInfo.yaml#/definitions/namespace"
       responses:
         '200':
-          description: OK
+          description: "OK"
           schema:
             type: object
             properties:
@@ -105,15 +105,15 @@ paths:
                 properties:
                   status:
                     type: boolean
-                    description: Create the Successful Marker
+                    description: "Create the Successful Marker"
               requestId:
                 type: string
         '500':
-          description: INTERNAL_ERROR   
+          description: "INTERNAL_ERROR   "
 
  #######Delete Namespace################ 
     delete:
-      description: Delete Namespace; if there are other subordinate resources associated with it, it is not allowed to delete it
+      description: "Delete Namespace; if there are other subordinate resources associated with it, it is not allowed to delete it"
       operationId: deleteNamespace
       parameters:
         - name: namespaceId
@@ -122,7 +122,7 @@ paths:
           type: integer
       responses:
         '200':
-          description: OK
+          description: "OK"
           schema:
             type: object
             properties:
@@ -130,13 +130,13 @@ paths:
                 properties:
                   status:
                     type: boolean
-                    description: Delete the Namespace Successful Marker
+                    description: "Delete the Namespace Successful Marker"
               requestId:
                 type: string
         '500':
-          description: INTERNAL_ERROR  
+          description: "INTERNAL_ERROR  "
         '400':
-          description: INTERNAL_ERROR   
+          description: "INTERNAL_ERROR   "
   
  
  
@@ -147,4 +147,4 @@ parameters:
     in: path
     required: true
     type: string
-    description: Region ID
+    description: "Region ID"

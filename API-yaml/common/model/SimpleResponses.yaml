@@ -6,5 +6,5 @@ definitions:
     properties:
       requestId:
         type: string
-        description: Request ID
+        description: "Request ID"
 

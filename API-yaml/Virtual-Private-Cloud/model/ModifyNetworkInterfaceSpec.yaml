@@ -6,8 +6,7 @@ definitions:
       networkInterfaceName:
         type: string
         description: "Elastic Network Interface name, only allowed to enter Chinese, numbers, capital and lowercase letters, English underline “_” and line-through “-”, must provide a name which cannot exceed 32 characters"
-      description:
-        type: string
+      description: "type: string"
         description: "Description, all characters allowed to enter under UTF-8 coding, which is not exceed 256 characters"
       securityGroups:
         type: array

@@ -7,7 +7,7 @@ definitions:
     properties:
       name:
         type: string
-        description: White List Name
+        description: "White List Name"
       ips:
         type: string
-        description: For IP or IP segment, different IP/IP segments shall be separated by commas, for example 0.0.0.0/0,192.168.0.10
+        description: "For IP or IP segment, different IP/IP segments shall be separated by commas, for example 0.0.0.0/0,192.168.0.10"

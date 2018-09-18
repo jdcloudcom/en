@@ -5,29 +5,28 @@ definitions:
     properties:
       ruleId:
         type: string
-        description: Security Group Rule ID
+        description: "Security Group Rule ID"
       direction:
         type: number
-        description: Security Group Rule Direction. 0: Inbound Rule; 1: Outbound Rule
+        description: "Security Group Rule Direction. 0: Inbound Rule; 1: Outbound Rule"
       protocol:
         type: number
-        description: Rule Limits Protocol. 300:All; 6:TCP; 17:UDP; 1:ICMP
+        description: "Rule Limits Protocol. 300:All; 6:TCP; 17:UDP; 1:ICMP"
       addressPrefix:
         type: string
-        description: Prefix of Matching Address
+        description: "Prefix of Matching Address"
       ipVersion:
         type: number
-        description: Matching Address Protocol Revision 4：IPv4
+        description: "Matching Address Protocol Revision 4：IPv4"
       fromPort:
         type: number
-        description: The start transport layer port of rule limit, the default value is 1, if protocol is not a transport layer protocol, the value is constantly 0
+        description: "The start transport layer port of rule limit, the default value is 1, if protocol is not a transport layer protocol, the value is constantly 0"
       toPort:
          type: number
-         description: The end transport layer port of rule limit, the default value is 1, if protocol is not a transport layer protocol, the value is constantly 0
+         description: "The end transport layer port of rule limit, the default value is 1, if protocol is not a transport layer protocol, the value is constantly 0"
       createdTime:
          type: string
-         description: Creation Time of Security Group Rule
-      description:
-         type: string
-         description: Description, all characters allowed to enter under UTF-8 coding, which is not exceed 256 characters
+         description: "Creation Time of Security Group Rule"
+      description: "type: string"
+         description: "Description, all characters allowed to enter under UTF-8 coding, which is not exceed 256 characters"
 

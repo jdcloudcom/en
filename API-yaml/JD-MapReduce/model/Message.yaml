@@ -7,13 +7,13 @@ definitions:
     properties:
       code:
         type: string
-        description: Code
+        description: "Code"
       result:
         type: string
-        description: Result
+        description: "Result"
       data:
         type: object
-        description: Data
+        description: "Data"
       rect:
         type: array
         items:
@@ -24,7 +24,7 @@ definitions:
           $ref: "../model/Path.yaml#/definitions/path"
       jobId:
         type: string
-        description: Job ID
+        description: "Job ID"
       instanceId:
         type: string
       pipeline:

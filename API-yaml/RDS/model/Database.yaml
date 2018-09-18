@@ -13,10 +13,10 @@ definitions:
         description: "Database status, detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)- **MySQL: Not support, not return this field**- **SQL Server: return this field**"
       characterSetName:
         type: string
-        description: Character set, detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)
+        description: "Character set, detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)"
       accessPrivilege:
         type: array
         items:
           $ref: "../model/DBAccessPrivilege.yaml#/definitions/DBAccessPrivilege"
-          description: Account Privilege
-        description: List of Database Related Account Privilege
+          description: "Account Privilege"
+        description: "List of Database Related Account Privilege"

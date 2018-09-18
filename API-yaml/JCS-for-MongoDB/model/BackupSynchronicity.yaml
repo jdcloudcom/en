@@ -7,32 +7,32 @@ definitions:
     properties:
       serviceId:
         type: string
-        description: Cross-region Backup Synchronization Service ID
+        description: "Cross-region Backup Synchronization Service ID"
       instanceId:
         type: string
-        description: MongoDB Instance ID
+        description: "MongoDB Instance ID"
       instanceName:
         type: string
-        description: MongoDB Instance Name
+        description: "MongoDB Instance Name"
       serviceStatus:
         type: string
-        description: Cross-region Backup Synchronization Service Status, Normal: running; Error: error
+        description: "Cross-region Backup Synchronization Service Status, Normal: running; Error: error"
       srcRegion:
         type: string
-        description: Source Instance Location
+        description: "Source Instance Location"
       dstRegion:
         type: string
-        description: Destination Domain of Cross-region Backup Synchronization Service
+        description: "Destination Domain of Cross-region Backup Synchronization Service"
       engine:
         type: string
-        description: Database Type
+        description: "Database Type"
       engineVersion:
         type: string
-        description: Database Version
+        description: "Database Version"
       createTime:
         type: string
-        description: Creation Time
+        description: "Creation Time"
       newestDataTime:
         type: string
-        description: Latest Data Time Point of Cross-region Backup
+        description: "Latest Data Time Point of Cross-region Backup"
 

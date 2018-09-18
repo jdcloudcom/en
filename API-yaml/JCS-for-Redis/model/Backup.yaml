@@ -30,7 +30,7 @@ definitions:
       backupEndTime:
         type: string
         format: date-time
-        description: "Backup End Time"             
+        description: "Backup End Time             "
       backupType:
         type: integer
         description: "For backup type, 1 means manual backup, 0 means automatic backup"

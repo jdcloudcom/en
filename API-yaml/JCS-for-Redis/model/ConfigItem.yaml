@@ -10,7 +10,7 @@ definitions:
     properties:
       configName:
         type: string
-        description: |
+        description: "|"
           configName only supports the following parameters currently:
           maxmemory-policy: the maximum limit of memory usage for memory culling strategies
           Hash-max-ziplist-entries: A hash object implemented with ziplist encoding. The maximum number of entries can be stored in the ziplist
@@ -24,7 +24,7 @@ definitions:
           Notify-keyspace-events: Event Notification
       configValue:
         type: string
-        description: |
+        description: "|"
           The configuration values ​​of the parameters are as follows:
           maxmemory-policy：[volatile-lru , allkeys-lru , volatile-random , allkeys-random , volatile-ttl , noeviction]
           hash-max-ziplist-entries：[1-10000]

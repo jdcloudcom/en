@@ -5,7 +5,7 @@ definitions:
     properties:
       key:
         type: string
-        description: Tag Key
+        description: "Tag Key"
       value:
         type: string
-        description: Tag Value
+        description: "Tag Value"

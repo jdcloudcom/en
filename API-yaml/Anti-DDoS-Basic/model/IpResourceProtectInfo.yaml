@@ -6,14 +6,14 @@ definitions:
     properties:
       startTime:
         type: string
-        description: Start Time of Attack
+        description: "Start Time of Attack"
       endTime:
         type: string
-        description: End Time of Attack
+        description: "End Time of Attack"
       status:
         type: integer
-        description: Status, 0->Completed  1->Clean  2->Black Hole
+        description: "Status, 0->Completed  1->Clean  2->Black Hole"
       cause:
         type: integer
-        description: Trigger Cause, 0->Unknown  1->Four-layer  2->Seven-layer  3->Four-layer and Seven-Layer
+        description: "Trigger Cause, 0->Unknown  1->Four-layer  2->Seven-layer  3->Four-layer and Seven-Layer"
 

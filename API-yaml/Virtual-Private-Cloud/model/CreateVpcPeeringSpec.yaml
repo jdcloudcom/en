@@ -9,13 +9,12 @@ definitions:
     properties:
       vpcPeeringName:
         type: string
-        description: VPCPeering Name, Must Provide A nName. Value Range of Name: 1-32 Chinese, English capital and lowercase letters, numbers and underline delimiter
+        description: "VPCPeering Name, Must Provide A nName. Value Range of Name: 1-32 Chinese, English capital and lowercase letters, numbers and underline delimiter"
       vpcId:
         type: string
-        description: VPCPeering Home Terminal VPC ID
+        description: "VPCPeering Home Terminal VPC ID"
       remoteVpcId:
         type: string
-        description: VPCPeering Opposite Terminal VPC ID
-      description:
-        type: string
-        description: VPCPeering Description. Value Range: 0-256 Chinese, English capital and lowercase letters, numbers and underline delimiter
+        description: "VPCPeering Opposite Terminal VPC ID"
+      description: "type: string"
+        description: "VPCPeering Description. Value Range: 0-256 Chinese, English capital and lowercase letters, numbers and underline delimiter"

@@ -9,5 +9,5 @@ definitions:
         type: array
         items:
           $ref: "./AddRouteTableRules.yaml#/definitions/addRouteTableRules"
-        description: Security Group Rule Information
+        description: "Security Group Rule Information"
         

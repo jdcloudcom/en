@@ -2,23 +2,23 @@ swagger: "2.0" # realized based on Swagger 2.0 version
 info:
   version: v1
   title: Error Logs
-  description: Error Log Related Interface
+  description: "Error Log Related Interface"
 basePath: /regions/{regionId}
 paths:
   "/instances/{instanceId}/errorLogs": #Error Logs
     get:
-      description: Obtain error logs of SQL Server and download information<br>- only support SQL Server
+      description: "Obtain error logs of SQL Server and download information<br>- only support SQL Server"
       operationId: describeErrorLogs
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               result:
                 properties:
                   errorLogs:
                     type: array
-                    description: Collection of Error Log Files
+                    description: "Collection of Error Log Files"
                     items:
                       $ref: ../model/ErrorLog.yaml#/definitions/ErrorLog
 # General Parameters for Path
@@ -28,10 +28,10 @@ parameters:
     in: path
     required: true
     type: string
-    description: Region code, with range detailed in [Regions and Availability Zone Comparison Table](../Enum-Definitions/Regions-AZ.md)
+    description: "Region code, with range detailed in [Regions and Availability Zone Comparison Table](../Enum-Definitions/Regions-AZ.md)"
   instanceId:
     name: instanceId
     in: path
     required: true
     type: string
-    description: RDS instance ID, which uniquely identifies an RDS instance
+    description: "RDS instance ID, which uniquely identifies an RDS instance"

@@ -17,10 +17,10 @@ definitions:
         type: string
       retryTimes:
         type: integer
-        description: Retry times after the task is failed
+        description: "Retry times after the task is failed"
       intervalTimes:
         type: integer
-        description: Re-running Interval of the Failed Task
+        description: "Re-running Interval of the Failed Task"
       x:
         type: number
         format: double

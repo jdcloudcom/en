@@ -2,7 +2,7 @@ swagger: "2.0"
 info:
   version: "v1"
   title: Advanced Anti-DDoS Instance APIs
-  description: Advanced Anti-DDoS Instance APIs, instance level interface in forwarding configuration, etc.
+  description: "Advanced Anti-DDoS Instance APIs, instance level interface in forwarding configuration, etc."
 
 basePath: /regions/{regionId}
 
@@ -14,13 +14,13 @@ paths:
       parameters:
         - name: instanceSpec
           in: body
-          description: Instance type parameter
+          description: "Instance type parameter"
           required: true
           schema:
             $ref: "../model/InstanceSpec.yaml#/definitions/InstanceSpec"
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               result:
@@ -50,7 +50,7 @@ paths:
           description: "Instance name, fuzzy matching available"
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               result:
@@ -70,7 +70,7 @@ paths:
       operationId: describeInstance
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               result:
@@ -80,7 +80,7 @@ paths:
               requestId:
                 type: string
         404:
-          description: NOT_FOUND
+          description: "NOT_FOUND"
 
   /instances/{instanceId}:setCC:
     post:
@@ -89,19 +89,19 @@ paths:
       parameters:
         - name: cCSpec
           in: body
-          description: cc Parameter
+          description: "cc Parameter"
           required: true
           schema:
             $ref: "../model/CcSpec.yaml#/definitions/CCSpec"
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               requestId:
                 type: string
         404:
-          description: NOT_FOUND
+          description: "NOT_FOUND"
 
   /instances/{instanceId}:enableCC:
     post:
@@ -109,13 +109,13 @@ paths:
       operationId: enableInstanceCC
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               requestId:
                 type: string
         404:
-          description: NOT_FOUND
+          description: "NOT_FOUND"
 
   /instances/{instanceId}:disableCC:
     post:
@@ -123,13 +123,13 @@ paths:
       operationId: disableInstanceCC
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               requestId:
                 type: string
         404:
-          description: NOT_FOUND
+          description: "NOT_FOUND"
 
   /instances/{instanceId}:setUrlWhiteList:
     post:
@@ -138,7 +138,7 @@ paths:
       parameters:
         - name: urlWhiteList
           in: body
-          description: Web service rule parameter
+          description: "Web service rule parameter"
           required: true
           schema:
             type: array
@@ -146,13 +146,13 @@ paths:
               type: string
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               requestId:
                 type: string
         404:
-          description: NOT_FOUND
+          description: "NOT_FOUND"
 
   /instances/{instanceId}:enableUrlWhiteList:
     post:
@@ -160,13 +160,13 @@ paths:
       operationId: enableInstanceUrlWhiteList
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               requestId:
                 type: string
         404:
-          description: NOT_FOUND
+          description: "NOT_FOUND"
 
   /instances/{instanceId}:disableUrlWhiteList:
     post:
@@ -174,13 +174,13 @@ paths:
       operationId: disableInstanceUrlWhiteList
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               requestId:
                 type: string
         404:
-          description: NOT_FOUND
+          description: "NOT_FOUND"
 
   /instances/{instanceId}:rename:
     post:
@@ -189,18 +189,18 @@ paths:
       parameters:
         - name: name
           in: query
-          description: New Instance Name
+          description: "New Instance Name"
           required: true
           type: string
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               requestId:
                 type: string
         404:
-          description: NOT_FOUND
+          description: "NOT_FOUND"
 
   /instances/{instanceId}:setIpBlackList:
     post:
@@ -209,7 +209,7 @@ paths:
       parameters:
         - name: ipBlackList
           in: body
-          description: IP Blacklist
+          description: "IP Blacklist"
           required: true
           schema:
             type: array
@@ -217,39 +217,39 @@ paths:
               type: string
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               requestId:
                 type: string
         404:
-          description: NOT_FOUND
+          description: "NOT_FOUND"
   /instances/{instanceId}:enableIpBlackList:
     post:
       description: "Enable the instance IP blacklist"
       operationId: enableInstanceIpBlackList
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               requestId:
                 type: string
         404:
-          description: NOT_FOUND
+          description: "NOT_FOUND"
   /instances/{instanceId}:disableIpBlackList:
     post:
       description: "Disable the instance IP blacklist"
       operationId: disableInstanceIpBlackList
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               requestId:
                 type: string
         404:
-          description: NOT_FOUND
+          description: "NOT_FOUND"
   /instances/{instanceId}:setIpWhiteList:
     post:
       description: "Set the instance IP white list"
@@ -257,7 +257,7 @@ paths:
       parameters:
         - name: ipWhiteList
           in: body
-          description: IP White List
+          description: "IP White List"
           required: true
           schema:
             type: array
@@ -265,39 +265,39 @@ paths:
               type: string
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               requestId:
                 type: string
         404:
-          description: NOT_FOUND
+          description: "NOT_FOUND"
   /instances/{instanceId}:enableIpWhiteList:
     post:
       description: "Enable the instance IP white list"
       operationId: enableInstanceIpWhiteList
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               requestId:
                 type: string
         404:
-          description: NOT_FOUND
+          description: "NOT_FOUND"
   /instances/{instanceId}:disableIpWhiteList:
     post:
       description: "Disable the instance IP white list"
       operationId: disableInstanceIpWhiteList
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               requestId:
                 type: string
         404:
-          description: NOT_FOUND
+          description: "NOT_FOUND"
 
   /instances/{instanceId}:enableCcObserverMode:
     post:
@@ -305,13 +305,13 @@ paths:
       operationId: enableCcObserverMode
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               requestId:
                 type: string
         404:
-          description: NOT_FOUND
+          description: "NOT_FOUND"
 
   /instances/{instanceId}:disableCcObserverMode:
     post:
@@ -319,13 +319,13 @@ paths:
       operationId: disableCcObserverMode
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               requestId:
                 type: string
         404:
-          description: NOT_FOUND
+          description: "NOT_FOUND"
 
   /instances/{instanceId}:enableCcIpLimit:
     post:
@@ -333,13 +333,13 @@ paths:
       operationId: enableCcIpLimit
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               requestId:
                 type: string
         404:
-          description: NOT_FOUND
+          description: "NOT_FOUND"
 
   /instances/{instanceId}:disableCcIpLimit:
     post:
@@ -347,13 +347,13 @@ paths:
       operationId: disableCcIpLimit
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               requestId:
                 type: string
         404:
-          description: NOT_FOUND
+          description: "NOT_FOUND"
 
   /instances/{instanceId}:setCcIpLimit:
     post:
@@ -362,19 +362,19 @@ paths:
       parameters:
         - name: cCSpec
           in: body
-          description: cc Parameter
+          description: "cc Parameter"
           required: true
           schema:
             $ref: "../model/CcIpLimitSpec.yaml#/definitions/CcIpLimitSpec"
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               requestId:
                 type: string
         404:
-          description: NOT_FOUND
+          description: "NOT_FOUND"
 
   /instances/{instanceId}:modifyEPB:
     post:
@@ -389,13 +389,13 @@ paths:
             $ref: "../model/EPBSpec.yaml#/definitions/EPBSpec"
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               requestId:
                 type: string
         404:
-          description: NOT_FOUND
+          description: "NOT_FOUND"
 
   /instances/{instanceId}:describeAlarmConfig:
     get:
@@ -403,7 +403,7 @@ paths:
       operationId: describeAlarmConfig
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               result:
@@ -413,7 +413,7 @@ paths:
               requestId:
                 type: string
         404:
-          description: NOT_FOUND
+          description: "NOT_FOUND"
 
   /instances/{instanceId}:modifyAlarmConfig:
     post:
@@ -428,7 +428,7 @@ paths:
             $ref: "../model/AlarmConfigSpec.yaml#/definitions/AlarmConfigSpec"
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               requestId:
@@ -461,7 +461,7 @@ paths:
           description: "分页大小, 默认为 10, 取值范围 [0, 100]"
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               result:
@@ -488,7 +488,7 @@ paths:
       operationId: describeProtectionStatistics
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               result:
@@ -500,7 +500,7 @@ paths:
         404:
           description: "NOT_FOUND"
         500:
-          description: INTERNAL_SERVER_ERROR
+          description: "INTERNAL_SERVER_ERROR"
 
   /instance/checkName:
     get:
@@ -514,7 +514,7 @@ paths:
           description: "待检测实例名称"
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               result:
@@ -542,7 +542,7 @@ paths:
           description: "分页大小, 默认为 10, 取值范围 [0, 100], 0 表示全量"
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               result:
@@ -569,7 +569,7 @@ paths:
       operationId: describeCCDefaultThresholds
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               result:
@@ -587,10 +587,10 @@ parameters:
     in: path
     required: true
     type: string
-    description: Belonging Region ID
+    description: "Belonging Region ID"
   instanceId:
     name: instanceId
     in: path
     required: true
     type: string
-    description: Instance ID
+    description: "Instance ID"

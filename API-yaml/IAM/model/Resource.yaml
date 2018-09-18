@@ -10,8 +10,8 @@ definitions:
         type: array
         items:
           type: string
-        description: Resource id Set, transmission * means that it is valid for all ids
+        description: "Resource id Set, transmission * means that it is valid for all ids"
       type:
         type: string
-        description: Resource Type, Virtual Machine-server, Image-image, Cloud Disk-volume, vpc-vpc, Public Ip-floatingIP, Load Balancer-loadbalance, Cloud Database (mysql)-database, Cloud Cache-cache
+        description: "Resource Type, Virtual Machine-server, Image-image, Cloud Disk-volume, vpc-vpc, Public Ip-floatingIP, Load Balancer-loadbalance, Cloud Database (mysql)-database, Cloud Cache-cache"
 

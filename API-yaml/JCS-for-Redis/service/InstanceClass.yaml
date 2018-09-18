@@ -2,7 +2,7 @@ swagger: "2.0"
 info:
   version: "v1"
   title: JCS for Redis Instance Type APIs
-  description: JCS for Redis Instance Type Related APIs
+  description: "JCS for Redis Instance Type Related APIs"
 
 basePath: /regions/{regionId}
 
@@ -14,7 +14,7 @@ paths:
       operationId: describeInstanceClass
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               result:
@@ -38,15 +38,15 @@ paths:
           in: query
           required: true
           type: string
-          description: Specification Code
+          description: "Specification Code"
         - name: actionType
           in: query
           required: true
           type: integer
-          description: Operation, 1 means visible, 0 means invalid, -1 means not visible
+          description: "Operation, 1 means visible, 0 means invalid, -1 means not visible"
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               requestId:
@@ -59,4 +59,4 @@ parameters:
     in: path
     required: true
     type: string
-    description: Region ID
+    description: "Region ID"

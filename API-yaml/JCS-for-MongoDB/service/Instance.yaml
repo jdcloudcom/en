@@ -2,7 +2,7 @@ swagger: "2.0"
 info:
   version: "v1"
   title: Instance Management
-  description: API related to MONGODB instances
+  description: "API related to MONGODB instances"
 
 basePath: /regions/{regionId}
 
@@ -16,17 +16,17 @@ paths:
         - name: instanceSpec
           required: true
           in: body
-          description: Instance Type
+          description: "Instance Type"
           schema:
             $ref: ../model/DBInstanceSpec.yaml#/definitions/DBInstanceSpec
         - name: chargeSpec
           in: body
-          description: Payment Method
+          description: "Payment Method"
           schema:
             $ref: "../../charge/model/ChargeSpec.yaml#/definitions/chargeSpec"
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               result:
@@ -56,7 +56,7 @@ paths:
           type: array
           items:
             $ref: "../../common/model/Filter.yaml#/definitions/filter"
-          description: | 
+          description: "| "
             instanceId - Instance ID, Accurate Matching
             instanceName - Instance Name, Fuzzy Matching
             instanceStatus - mongodb status, accurate matching, support multiple RUNNING: Running, ERROR: Error, BUILDING: Creating, DELETING: Deleting, RESTORING: Restoring, RESIZING: under Configuration Change
@@ -66,11 +66,11 @@ paths:
           type: array
           items:
             $ref: "../../common/model/Sort.yaml#/definitions/sort"
-          description: |
+          description: "|"
             createTime - Creation Time, asc (Positive Order), desc (Reverse Order)
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               result:
@@ -93,7 +93,7 @@ paths:
       operationId: deleteInstance
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               requestId:
@@ -107,18 +107,17 @@ paths:
       parameters:
         - name: resetPassword
           in: body
-          description:
-          schema:
+          description: "schema:"
             type: object
             required:
               - accountPassword
             properties:
               accountPassword:
                 type: string
-                description: The new password must contain and only support letters and numbers with length no less than 8 characters and no more than 16 characters.
+                description: "The new password must contain and only support letters and numbers with length no less than 8 characters and no more than 16 characters."
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               requestId:
@@ -132,8 +131,7 @@ paths:
       parameters:
         - name: modifyInstanceSpec
           in: body
-          description:
-          schema:
+          description: "schema:"
             type: object
             required:
               - instanceClass
@@ -141,13 +139,13 @@ paths:
             properties:
               instanceClass:
                 type: string
-                description: The instance type under monthly package shall not be smaller than the current type.
+                description: "The instance type under monthly package shall not be smaller than the current type."
               instanceStorageGB:
                 type: integer
-                description: The storage space under monthly package shall not be smaller than the current type.
+                description: "The storage space under monthly package shall not be smaller than the current type."
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               result:
@@ -167,18 +165,17 @@ paths:
       parameters:
         - name: modifyInstanceName
           in: body
-          description:
-          schema:
+          description: "schema:"
             type: object
             required:
               - instanceName
             properties:
               instanceName:
                 type: string
-                description: The new instance name only supports numbers, letters, underlines, Chinese, with length no less than 2 characters and no more than 32 characters.
+                description: "The new instance name only supports numbers, letters, underlines, Chinese, with length no less than 2 characters and no more than 32 characters."
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               requestId:
@@ -186,11 +183,11 @@ paths:
 
   "/instances/{instanceId}/backupPolicy":
     get:
-      description: Get Backup Policy
+      description: "Get Backup Policy"
       operationId: describeBackupPolicy
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               result:
@@ -205,13 +202,12 @@ paths:
                 type: string   
 
     post:
-      description: Modify Backup Policy
+      description: "Modify Backup Policy"
       operationId: modifyBackupPolicy
       parameters:
         - name: modifyBackupPolicy
           in: body
-          description:
-          schema:
+          description: "schema:"
             type: object
             required:
               - preferredBackupTime
@@ -221,7 +217,7 @@ paths:
                 description: "Backup Time, Format: HH:mmZ- HH:mmZ, only integral point allowed with interval of 1 hour."
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               result:
@@ -237,23 +233,22 @@ paths:
 
   "/instances/{instanceId}/restoreInstance":
     post:
-      description: Data Recovery
+      description: "Data Recovery"
       operationId: restoreInstance
       parameters:
         - name: restoreInstance
           in: body
-          description:
-          schema:
+          description: "schema:"
             type: object
             required:
               - backupId
             properties:
               backupId:
                 type: string
-                description: Backup ID
+                description: "Backup ID"
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               requestId:
@@ -261,11 +256,11 @@ paths:
 
   "/flavors":
     get:
-      description: Get Type
+      description: "Get Type"
       operationId: describeFlavors
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               result:
@@ -279,11 +274,11 @@ paths:
   
   "/availableZones":
     get:
-      description: Get AZ
+      description: "Get AZ"
       operationId: describeAvailableZones
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               result:
@@ -297,14 +292,13 @@ paths:
 
   "/instances/deleteInstances":
     delete:
-      description: Batch Deletion
+      description: "Batch Deletion"
       operationId: deleteMongoDbs
       x-jdcloud-internal: true
       parameters:
         - name: deleteMongoDbs
           in: body
-          description:
-          schema:
+          description: "schema:"
             type: object
             required:
               - instanceIds
@@ -313,10 +307,10 @@ paths:
                 type: array
                 items:
                   type: string
-                description: Instance ID
+                description: "Instance ID"
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               result:
@@ -330,12 +324,12 @@ paths:
                 
   "/instances/{instanceId}/topology":
     get:
-      description: Get topology Structure
+      description: "Get topology Structure"
       operationId: describeTopology
       x-jdcloud-internal: true
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               result:
@@ -345,12 +339,12 @@ paths:
 
   "/quota":
     get:
-      description: Get Quota
+      description: "Get Quota"
       operationId: describeUserQuota
       x-jdcloud-internal: true
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               result:
@@ -361,24 +355,23 @@ paths:
 
   "/instances/{instanceId}:restartInstance":    #Restart Instance
     post:
-      description: Restart Instance
+      description: "Restart Instance"
       operationId: restartInstance
       x-jdcloud-internal: true
       parameters:
         - name: restartInstance
           in: body
-          description:
-          schema:
+          description: "schema:"
             type: object
             required:
               - instanceId
             properties:
               instanceId:
                 type: string
-                description: Instance ID
+                description: "Instance ID"
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               result:
@@ -395,10 +388,10 @@ parameters:
     in: path
     required: true
     type: string
-    description: Region ID
+    description: "Region ID"
   instance:
     name: instanceId
     in: path
     required: true
     type: string
-    description: Instance ID
+    description: "Instance ID"

@@ -2,7 +2,7 @@ swagger: "2.0"
 info:
   version: "v1"
   title: Security Management
-  description: API related to MONGODB security
+  description: "API related to MONGODB security"
 
 basePath: /regions/{regionId}
 
@@ -15,8 +15,7 @@ paths:
       parameters:
         - name: modifySecurityIps
           in: body
-          description:
-          schema:
+          description: "schema:"
             type: object
             required:
               - modifyMode
@@ -24,24 +23,24 @@ paths:
             properties:
               modifyMode:
                 type: string
-                description: Modification Method, Add adds White List, Delete deletes White List.
+                description: "Modification Method, Add adds White List, Delete deletes White List."
               securityIps:
                 type: string
                 description: "IP list under the IP White List group, up to 45 separated by commas, in the following format: 0.0.0.0/0, 10.23.12.24 (IP), or 10.23.12.24/24 (CIDR mode, classless inter-domain routing, /24 indicates the length of the prefix in the address; range [1, 32])."
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               requestId:
                 type: string
 
     get:
-      description: Query Instance Access White List
+      description: "Query Instance Access White List"
       operationId: describeSecurityIps 
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               result:
@@ -58,10 +57,10 @@ parameters:
     in: path
     required: true
     type: string
-    description: Region ID
+    description: "Region ID"
   instance:
     name: instanceId
     in: path
     required: true
     type: string
-    description: Instance ID
+    description: "Instance ID"

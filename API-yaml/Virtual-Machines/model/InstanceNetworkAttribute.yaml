@@ -5,7 +5,7 @@ definitions:
     properties:
       networkInterfaceId:
         type: string
-        description: ENI ID
+        description: "ENI ID"
       autoDelete:
         type: boolean
-        description: Auto-delete with the machine, False by default.
+        description: "Auto-delete with the machine, False by default."

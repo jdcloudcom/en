@@ -9,5 +9,5 @@ definitions:
         type: array
         items:
           $ref: "./AddSecurityGroupRules.yaml#/definitions/addSecurityGroupRules"
-        description: Security Group Rule Information
+        description: "Security Group Rule Information"
         

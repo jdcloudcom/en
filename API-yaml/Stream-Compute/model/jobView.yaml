@@ -9,8 +9,7 @@ definitions:
         type: string
       name:
         type: string
-      description:
-        type: string
+      description: "type: string"
       resourceConsume:
         type: integer
       id: 
