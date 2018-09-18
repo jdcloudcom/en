@@ -49,7 +49,7 @@ Authorization: jingdong   qbS5QXpLORrvdrmb:Nd8NwDDzyj28M1jfGrTC7DGc1cg=
 Host: oss-test.s-bj.jcloud.com
 ```
 
-**Responds Example** 
+**Response Example** 
 
 ```
 HTTP/1.1 200 OK
