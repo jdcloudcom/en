@@ -65,7 +65,7 @@ Date: Tue, 11 Jul 2017   07:54:41 GMT
 Authorization: jingdong   qbS5QXpLORrvdrmb:3xo8IxIXSkA280C0Z5+lkowaAA8=
 ```
 
-**Return Example**
+**Response Example**
 
 ```
 HTTP/1.1 200 OK
@@ -131,7 +131,7 @@ Date: Tue, 11 Jul 2017   08:01:09 GMT
 Authorization: jingdong   qbS5QXpLORrvdrmb:FQZNWlNAraOLgreEflrurbNojJE= 
 ```
 
-**Return Example (inclusive of Prefix parameter)**
+**Response Example (inclusive of Prefix parameter)**
 
 ```
 HTTP/1.1 200 OK
@@ -190,7 +190,7 @@ Date: Tue, 11 Jul 2017   08:05:13 GMT
 Authorization: jingdong   qbS5QXpLORrvdrmb:jXw8QQvs6IS+JJ2EpiFMUGtgNEM=
 ```
 
-**Return Example (inclusive of prefix and parameter)**
+**Response Example (inclusive of prefix and parameter)**
 
 ```
 HTTP/1.1 200 OK
