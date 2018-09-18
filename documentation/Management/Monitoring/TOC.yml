@@ -1,4 +1,4 @@
-name: Monitoring
+name:Monitoring
 href: 
 items:
 - name: Introduction
@@ -11,12 +11,11 @@ items:
       href: Introduction/Basic-Infrastructure.md
     - name: Benefits
       href: Introduction/Benefits.md
-    - name: Monitoring Metric
+    - name: Monitoring metric
       href: Introduction/Metrics.md
     - name: Specifications
       href: Introduction/Specifications.md
-      status: 0
-    - name: Restrictions
+    - name: Restraint Instructions
       href: Introduction/Restrictions.md
     - name: Application Scenarios 
       href: Introduction/Application-Scenarios.md    
@@ -24,10 +23,10 @@ items:
   items:
     - name: Billing Overview
       href: Pricing/Billing-Overview.md
-- name: Getting Started
+- name: Getting Started Guide
   items:
     - name: Getting Started Overview
-      href: Getting-Started/Getting-Started.md
+      href: Getting-Started/getting-started-overview.md
     - name: View Resource Monitoring Chart
       href: Getting-Started/view-resource-monitoring-chart.md
     - name: Set Alarm Rules
@@ -45,7 +44,7 @@ items:
           href: Operation-Guide/dashboard/terms-and-conditions.md
         - name: My Favorite Dashboards
           href: Operation-Guide/dashboard/focus-page.md
-        - name: Dashboard Management
+        - name: Manage Dashboard
           href: Operation-Guide/dashboard/dashboard-management.md      
         - name: Manage Monitoring Chart
           href: Operation-Guide/dashboard/monitoring-chart-management.md
@@ -55,9 +54,9 @@ items:
         - name: Resource Monitoring
           href: Operation-Guide/resource-monitoring/resource-monitoring-overview.md
         - name: View Resource Monitoring Chart
-          href: Operation-Guide/resource-monitoring/view-resource-monitoring-chart.md
+          href: Operation-Guide/resource-monitoring/view-resource-monitoring-chart-details.md
         - name: Set Monitoring Alarm to the Resources
-          href: Operation-Guide/resource-monitoring/set-alarm-rules.md     
+          href: Operation-Guide/resource-monitoring/set-alarm-rules-details.md     
     - name: Customized Metric Monitoring
       href: Getting-Started/custom-monitoring.md  
       items:
@@ -68,73 +67,36 @@ items:
         - name: Delete Monitoring Data
           href: Operation-Guide/custom-monitoring/delete-monitoring-data.md      
         - name: Set Alarm Rules
-          href: Getting-Started/Set Alarm Rules.md
-        - name: Use Dashboard
-          href: Getting-Started/Use Dashboard.md
-        - name: Use Customized Metric Monitoring
-          href: Getting-Started/Use Customized Metric Monitoring
-    - name: Operation Guide
-      items:
-        - name: Dashboard
-          href: Getting-Started/Dashboard.md
-          items:
-            - name: Instructions for Use
-              href: Operation-Guide/dashboard/terms-and-conditions.md
-            - name: My Favorite Dashboards
-              href: Operation-Guide/dashboard/focus-page.md
-            - name: Dashboard Management
-              href: Operation-Guide/dashboard/dashboard-management.md      
-            - name: Monitoring Graph Management
-              href: Operation-Guide/dashboard/monitoring-chart-management.md
-        - name: Cloud Resource Monitoring
-          href: Getting-Started/Cloud Resource Monitoring.md
-          items:
-            - name: Resource Monitoring
-              href: Operation-Guide/resource-monitoring/resource-monitoring-overview.md
-            - name: View Resource Monitoring Graph
-              href: Operation-Guide/resource-monitoring/view-resource-monitoring-chart.md
-            - name: Set Monitoring Alarm to the Resources
-              href: Operation-Guide/resource-monitoring/set-alarm-rules.md     
-        - name: Customized Metric Monitoring
-          href: Getting-Started/Customized Metric Monitoring.md  
-          items:
-            - name: Customized Metric Monitoring Overview
-              href: Operation-Guide/custom-monitoring/custom-monitoring-overview.md
-            - name: View Monitoring Data
-              href: Operation-Guide/custom-monitoring/view-monitoring-data.md
-            - name: Delete Monitoring Data
-              href: Operation-Guide/custom-monitoring/delete-monitoring-data.md      
-            - name: Set Alarm Rules
-              href: Operation-Guide/custom-monitoring/set-alarm-rules.md
-            - name: View Historical Alarms
-              href: Operation-Guide/custom-monitoring/view-alarm-history.md
-    - name: Best Practices
-      items:
-        - name: Batch Resource Monitoring 
-          href: Best-Practices/bulk-resource-monitoring.md
-        - name: Daily Workload Monitoring
-          href: Best-Practices/business-monitoring.md
-    - name: Tutorial
-      items:
-      status: 0
-    - name: Troubleshooting
-      items:
-      status: 0       
-    - name: FAQ
-      href: FAQ/FAQ.md
-    - name: API Reference
-      href:
-    - name: SDK Reference
-      href:
-    - name: Related Resources
-      items:
-      - name: Document History
-        href: Related-Resources/Document-History.md     
-      - name: Service Terms         
-        status: 0      
-      - name: SLA         
-        status: 0       
-      - name: IPC Filing         
-        status: 0        
-      - name: Glossary          
-        status: 0
+          href: Operation-Guide/custom-monitoring/set-alarm-rules-CustomMetric.md
+        - name: View Historical Alarms
+          href: Operation-Guide/custom-monitoring/view-alarm-history-CustomMetric.md
+- name: Best Practice
+  items:
+    - name: Batch Resource Monitoring 
+      href: Best-Practices/bulk-resource-monitoring.md
+    - name: Daily Workload Monitoring
+      href: Best-Practices/business-monitoring.md
+- name: Tutorial
+  items:
+  status: 0
+- name: Troubleshooting
+  items:
+   status: 0       
+- name: FAQ
+  href: FAQ/FAQ.md
+- name: API Reference
+  href:
+- name: SDK Reference
+  href:
+- name: Related Resources
+  items:
+- name: Document History
+  href: Related-Resources/Document-History.md     
+- name: Service Terms         
+  status: 0      
+- name: SLA         
+  status: 0       
+- name: IPC Filing         
+  status: 0        
+- name: Glossary          
+  status: 0
