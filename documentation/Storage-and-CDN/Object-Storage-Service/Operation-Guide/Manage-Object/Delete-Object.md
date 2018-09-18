@@ -8,4 +8,4 @@ You can at any time delete files you do not need in storage space to avoid costs
 
 ![删除Object](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-051.png)
 
-3.click **Delete** button and then a notification asking confirmation to delete pops up; click **OK** to delete; files is unrecoverable after deletion.
+3.Click **Delete** button and then a notification asking confirmation to delete pops up; click **OK** to delete; files is unrecoverable after deletion.
