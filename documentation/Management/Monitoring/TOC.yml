@@ -15,7 +15,7 @@ items:
       href: Introduction/Metrics.md
     - name: Specifications
       href: Introduction/Specifications.md
-    - name: Restraint Instructions
+    - name: Restrictions
       href: Introduction/Restrictions.md
     - name: Application Scenarios 
       href: Introduction/Application-Scenarios.md    
@@ -23,7 +23,7 @@ items:
   items:
     - name: Billing Overview
       href: Pricing/Billing-Overview.md
-- name: Getting Started Guide
+- name: Getting Started 
   items:
     - name: Getting Started Overview
       href: Getting-Started/getting-started-overview.md
