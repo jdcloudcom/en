@@ -1,4 +1,4 @@
-name:Monitoring
+name: Monitoring
 href: 
 items:
 - name: Introduction
@@ -11,7 +11,7 @@ items:
       href: Introduction/Basic-Infrastructure.md
     - name: Benefits
       href: Introduction/Benefits.md
-    - name: Monitoring metric
+    - name: Monitoring Metric
       href: Introduction/Metrics.md
     - name: Specifications
       href: Introduction/Specifications.md
