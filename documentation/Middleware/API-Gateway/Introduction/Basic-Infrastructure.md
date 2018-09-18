@@ -3,7 +3,7 @@ API gateway offers API definer service and API caller service. API definer offer
 
 ## Business Structure
 The business structure is shown below:
-![](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/%E4%BA%A7%E5%93%81%E6%9E%B6%E6%9E%84.png)
+![](https://github.com/jdcloudcom/en/blob/edit/image/Internet-Middleware/API-Gateway/%E4%BA%A7%E5%93%81%E6%9E%B6%E6%9E%84.png)
 
 | Concept | Explanation |
 | :- | :- |
