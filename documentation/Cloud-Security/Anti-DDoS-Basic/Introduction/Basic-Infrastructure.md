@@ -21,8 +21,8 @@ Note: 1. The image flow to the detection device 2. The detection device detects 
 
 ## Related Reference
 
-- [What is Anti-DDoS Basic](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Basic-Anti-DDoS/Introduction/Overview.md)
-- [Core Concepts](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Basic-Anti-DDoS/Introduction/Core-Concepts.md)
-- [Application Scenarios](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Basic-Anti-DDoS/Introduction/Application-Scenarios.md)
-- [Basic Function](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Basic-Anti-DDoS/Introduction/Functions.md)
-- [Use limit](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Basic-Anti-DDoS/Introduction/Restrictions.md)
+- [What is Anti-DDoS Basic](Overview.md)
+- [Core Concepts](Core-Concepts.md)
+- [Application Scenarios](Application-Scenarios.md)
+- [Basic Function](Functions.md)
+- [Use limit](Restrictions.md)
