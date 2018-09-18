@@ -13,8 +13,8 @@ items:
         href: Introduction/Benefits.md
       - name: Features
         href: Introduction/Features.md
-      - name: Specifications
-        href: Introduction/Specifications.md
+      - name: Instance Type Family
+        href: Introduction/Instance-Type-Family.md
       - name: Restrictions
         href: Introduction/Restrictions.md
       - name: Application Scenarios
