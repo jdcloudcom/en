@@ -15,9 +15,9 @@ Note: 1. The image flow to the detection device 2. The detection device detects 
 
 | Name | Description |
 | - | - |
-| Management Center | is mainly responsible for receiving attack information and sending a cleaning strategy to guide the cleaner equipment to carry out flow cleaning.
-| Cleaner Device | Mainly based on the cleaning strategy issued by the management center, wash the iffish flow, and re-inject the cleaned flow.
-| Detection Device | Mainly analyzes the flow to judge whether there exist attacks. If so, send attack information to the management center.
+| Management Center | An entity mainly responsible for receiving attack information and sending a cleaning strategy to guide the cleaner equipment to carry out flow cleaning.
+| Cleaner Device | A device mainly responsible for washing the iffish flow according to the cleaning strategy issued by the management center, and re-injecting the cleaned flow.
+| Detection Device | A device mainly responsible for analyzing the flow to judge whether there exist attacks, and reporting attack information to the management center if so.
 
 ## Related Reference
 
