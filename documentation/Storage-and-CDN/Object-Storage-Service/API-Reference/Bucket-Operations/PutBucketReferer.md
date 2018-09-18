@@ -3,6 +3,7 @@
 PutBucketReferer Action can set an anti-theft chain of a Bucket, referer accesses white list and request access whether allows referer field is null.
 
 **Request Grammar**
+
 ```
 PUT /  ?bucketReferer
 & Effect=
@@ -12,6 +13,7 @@ Date: GMT Date
 Authorization: SignatureValue
 Host: BucketName.s-bj.jcloud.com
 ```
+
 **Request Parameter**
 
 |Name|Description|If Compulsory|
@@ -29,13 +31,16 @@ Detail Analysis:
 3.This action will use the White List to replace the previously configured White List, when the RefererList uploaded by the user is blank (not inclusive of Referer request parameter), the action will replace the configured White List, which means deleting the previously configured RefererList.
 
 **Not inclusive of request example of Referer**
+
 ```
 PUT   /?bucketReferer&Effect=ALLOW&RefererList=%5B%5D&IsAllowNull=false   HTTP/1.1
 Date: Tue, 11 Jul 2017   13:39:32 GMT
 Authorization: jingdong qbS5QXpLORrvdrmb:AcXz2BHxhfC/z5T5YX/rvdS/2z4=
 Host: oss-test.s-bj.jcloud.com
 ```
+
 **Inclusive of request example of Referer**
+
 ```
 PUT   /?bucketReferer&Effect=ALLOW&RefererList=%5B%22+www.baidu.com%22%2C%22+www.google.com%22%5D& 
 IsAllowNull=false  HTTP/1.1
@@ -44,7 +49,8 @@ Authorization: jingdong   qbS5QXpLORrvdrmb:Nd8NwDDzyj28M1jfGrTC7DGc1cg=
 Host: oss-test.s-bj.jcloud.com
 ```
 
-**Return Example** 
+**Responds Example** 
+
 ```
 HTTP/1.1 200 OK
 Server: nginx
