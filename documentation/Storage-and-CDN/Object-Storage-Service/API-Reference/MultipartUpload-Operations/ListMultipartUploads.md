@@ -44,7 +44,7 @@ Host: oss-test.s-bj.jcloud.com
 Connection:   Keep-Alive
 ```
 
-**Return Example**
+**Response Example**
 
 ```
 HTTP/1.1 200 OK
