@@ -66,7 +66,7 @@ Date: Wed, 12 Jul 2017 07:45:27   GMT
 Authorization: jingdong qbS5QXpLORrvdrmb:wYoTTKpqU1mZu4Dy3IlTRbCUx0w=   
 ```
 
-**Return Example**
+**Response Example**
 
 ```
 HTTP/1.1 200 OK
