@@ -18,7 +18,7 @@ A: Anti-DDoS Basic can only defend the domain name that has been filed. If the d
 
 **5, Q: How Long Will It Take to Trigger A Black Hole State?**
 
-A: The residence time of the public network IP triggering a black hole state in a black hole is at least 60 minutes, during which the IP of the public network is still monitored. Once more than the machine room foundation is monitored again protects flow attacks, and the black hole time is extended by 60 minutes at the last time the attack was monitored.
+A: The residence time of the public network IP triggering a black hole state in a black hole is at least 60 minutes, during which the IP of the public network is still monitored. Once attack flow exceeding the machine room capability is monitored again, the black hole time is extended by 60 minutes at the last time the attack was monitored.
   
 **6, Q: How Does the Attack Flow Exceed 2G?**
 
