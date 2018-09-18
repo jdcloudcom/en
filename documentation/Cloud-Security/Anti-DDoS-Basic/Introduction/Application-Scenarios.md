@@ -12,5 +12,5 @@ Purchase "Anti-DDoS Pro" if you need more attack protection, or if you need more
 
 ## Related Reference
 
-- [Anti-DDoS Pro](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Anti-DDoS-Pro/Introduction/What-Is-Advanced-Anti-DDoS.md)
-- [Anti-DDoS Pro Pricing](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Anti-DDoS-Pro/Pricing/Billing-Rules.md)
+- [Anti-DDoS Pro](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Anti-DDoS-Pro/Introduction/Product-Overview.md)
+- [Anti-DDoS Pro Pricing](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Anti-DDoS-Pro/Pricing/Billing-Overview.md)
