@@ -32,11 +32,11 @@ Note: Currently "REDUCED_REDUNDANCY" (low frequency access type) is only support
 
 Detail Analysis:
 
-1. The action must specify UploadId, the maximum number of returned Parts is 10000.
+1.The action must specify UploadId, the maximum number of returned Parts is 10000.
 
-2. The returned results of OSS are arranged in the ascending order of Part number.
+2.The returned results of OSS are arranged in the ascending order of Part number.
 
-3. As errors may occur during the network transmission, the results (Part Number and ETag value) from List Part are not recommended to be used to generate the final Part list of Complete Multipart.
+3.As errors may occur during the network transmission, the results (Part Number and ETag value) from List Part are not recommended to be used to generate the final Part list of Complete Multipart.
 
 **Request Instance**
 ```
