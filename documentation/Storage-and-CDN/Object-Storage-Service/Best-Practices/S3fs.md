@@ -58,8 +58,8 @@ df -h
 
 When mounting JD Cloud object storage service with the s3fs-fuse tool and copying files with cp commands, the following solutions can be taken when the file mime-type is modified:
 
-1. Use the cp command to copy files; the actions carried by the s3fs-fuse tool on the bottom are dependent on the file /etc/mime.types and the file determines the mime-type attribute of the cp command target file.
+1.Use the cp command to copy files; the actions carried by the s3fs-fuse tool on the bottom are dependent on the file /etc/mime.types and the file determines the mime-type attribute of the cp command target file.
 
-2. By default, the centos7 revision of JD Cloud does not contain the /etc/mime.types file. Thus, it needs to obtain such file by copying or installing httpd and the installation command is yum install httpd.
+2.By default, the centos7 revision of JD Cloud does not contain the /etc/mime.types file. Thus, it needs to obtain such file by copying or installing httpd and the installation command is yum install httpd.
 
-3. For catalogs mounted by the s3fs command, it needs to be unmounted at first and the command will take effect once the s3fs command is executed once again.
+3.For catalogs mounted by the s3fs command, it needs to be unmounted at first and the command will take effect once the s3fs command is executed once again.
