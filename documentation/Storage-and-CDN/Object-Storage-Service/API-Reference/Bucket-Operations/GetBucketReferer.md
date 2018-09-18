@@ -12,6 +12,7 @@ Authorization: signatureValue
 **Response Elements**
 
 |Name|Description|
+|-|-|
 |Effect|Blacklist and White List set <br>Type: Enumerated character string<br>Effective value: DENIED or ALLOW<br>ALLOW: White List, DENIED: Blacklist|
 |Value|Save Namelist Container<br>Type: List<String>Container
 |AllowNull|Assign request access whether allows referer field is null. <br>Effective value: TRUE (maybe null), FALSE(cannot be null)<br>Type: Enumerated character string
