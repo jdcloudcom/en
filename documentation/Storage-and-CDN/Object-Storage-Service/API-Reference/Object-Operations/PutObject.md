@@ -3,6 +3,7 @@
 The action is used to upload a new Object to the specified Bucket
 
 **Request Grammar**
+
 ```
 PUT /ObjectName HTTP/1.1
 Content-Length:ContentLength
@@ -14,6 +15,7 @@ x-jss-storage-class: STANDARD   or REDUCED_REDUNDANCY
 Date: GMT  Date     
 Authorization:   signatureValue#Please refer to "Identity and Access Management"
 ```
+
 **Request Header**
 
 |Name|Description|
@@ -42,6 +44,7 @@ Detail Analysis:
 8.If the length of incoming Object key is longer than 1022 bytes, 400 Bad Request will be returned. Error code: InvalidArgument
 
 **Request Example**
+
 ```
 PUT /example.jpg HTTP/1.1
 Host: oss-example.s-bj.jcloud.com
@@ -52,7 +55,9 @@ x-jss-server-side-encryption:   false
 Date: Tue, 11 Jul 2017   07:13:32 GMT    
 Authorization: jingdong   qbS5QXpLORrvdrmb:cQ63NndHAoEBmjZHehSuNWG/Jns=
 ```
+
 **Return Example**
+
 ```
 HTTP/1.1 200 OK
 Server: nginx
@@ -63,7 +68,9 @@ x-jss-request-id:   8E4FC95C05EC1A4C
 ETag:   "6457646542258052f767868fd686d74d"
 X-Trace:   200-1499757212162-0-0-20-50-50
 ```
+
 **Request Example (Content-Type and Content-MD5 are not set):**
+
 ```
 PUT /example.jpg HTTP/1.1
 Host:   oss-example.s-bj.jcloud.com
@@ -71,7 +78,9 @@ x-jss-server-side-encryption:   true
 Date: Thu, 13 Jul 2017   02:12:02 GMT    
 Authorization: jingdong     qbS5QXpLORrvdrmb:S2ZHyLfdZml/bRjD/TEQ+ftJXBA=
 ```
+
 **Return Example (Content-Type and Content-MD5 are not set):**
+
 ```
 HTTP/1.1 200 OK
 Server: nginx
