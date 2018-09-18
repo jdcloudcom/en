@@ -5,6 +5,7 @@ The action is used to list all Object information in assigned Bucket.
 Note: Even if the access permission of Bucket is public, this action is also not allowed to be used anonymously, which requires to assign Authorization.
 
 **Request Grammar**
+
 ```
 GET / HTTP/1.1
 Host: BucketName. s.jcloud.com
@@ -45,24 +46,27 @@ Key<br> Type of |Key|Object: Character string|
 
 Detail Analysis:
 
-1. If accessed Bucket does not exist, including trying to access Bucket that cannot be created due to nonconventional naming, return 404 Not Found Error, error code: NoSuchBucket.
+1.If accessed Bucket does not exist, including trying to access Bucket that cannot be created due to nonconventional naming, return 404 Not Found Error, error code: NoSuchBucket.
 
-2. If there is no permission to access the Bucket, return 403 Forbidden Error, error code: AccessDenied.
+2.If there is no permission to access the Bucket, return 403 Forbidden Error, error code: AccessDenied.
 
-3. When performing a conditional query, even if marker does not actually exist in the list, the return is also printed from the next one that conforms to the marker alphabetical order. If the max-keys are smaller than 0 or greater than 1000, the max-keys are automatically set to the default value of 1000.
+3.When performing a conditional query, even if marker does not actually exist in the list, the return is also printed from the next one that conforms to the marker alphabetical order. If the max-keys are smaller than 0 or greater than 1000, the max-keys are automatically set to the default value of 1000.
 
-4. If prefix is set as some folder name, the files that begin with this prefix can be listed, namely, all file folders and subfolders recursive under the folder. If the delimiter is also set to /, only the files in that folder will be listed under Contents in return, and the subfolder name of that folder will be listed under CommonPrefixes, files and folders recursive under the subfolder will not be displayed. When three objects exist under one bucket: jingdong/test.jpg, jingdong/dir/file, jingdong/dir/file2, if prefix is set to "jingdong/", three objects are returned; if delimiter is additionally set to "/", files "jingdong/test.jpg" will be returned in Contents and folders "jingdong/dir" will be returned in CommonPrefixes; namely, the logic of folder is implemented.
+4.If prefix is set as some folder name, the files that begin with this prefix can be listed, namely, all file folders and subfolders recursive under the folder. If the delimiter is also set to /, only the files in that folder will be listed under Contents in return, and the subfolder name of that folder will be listed under CommonPrefixes, files and folders recursive under the subfolder will not be displayed. When three objects exist under one bucket: jingdong/test.jpg, jingdong/dir/file, jingdong/dir/file2, if prefix is set to "jingdong/", three objects are returned; if delimiter is additionally set to "/", files "jingdong/test.jpg" will be returned in Contents and folders "jingdong/dir" will be returned in CommonPrefixes; namely, the logic of folder is implemented.
 
-5. marker is the start marker of Object information sorted in dictionary order, the result does not include marker, marker can be set as the last Key in this list to get other Object information unreturned in this action, which is Usually used with maxKeys to implement paging. 
+5.marker is the start marker of Object information sorted in dictionary order, the result does not include marker, marker can be set as the last Key in this list to get other Object information unreturned in this action, which is Usually used with maxKeys to implement paging. 
 
 **Request Example**
+
 ```
 GET / HTTP/1.1
 Host:   oss-example.s-bj.jcloud.com
 Date: Tue, 11 Jul 2017   07:54:41 GMT    
 Authorization: jingdong   qbS5QXpLORrvdrmb:3xo8IxIXSkA280C0Z5+lkowaAA8=
 ```
+
 **Return Example**
+
 ```
 HTTP/1.1 200 OK
 Server: nginx
@@ -119,13 +123,16 @@ X-Trace: 200-1499759681772-0-0-19-42-42
 ```
 
 **Request Example (inclusive of Prefix parameter)**
+
 ```
 GET   /?prefix=jingdong%2F HTTP/1.1
 Host:   oss-example.s-bj.jcloud.com
 Date: Tue, 11 Jul 2017   08:01:09 GMT    
 Authorization: jingdong   qbS5QXpLORrvdrmb:FQZNWlNAraOLgreEflrurbNojJE= 
 ```
+
 **Return Example (inclusive of Prefix parameter)**
+
 ```
 HTTP/1.1 200 OK
 Server: nginx
@@ -173,7 +180,9 @@ X-Trace:   200-1499760069435-0-0-20-45-45
       "CommonPrefixes": [ ]
 }
 ```
+
 ***Request Example (inclusive of prefix and parameter)*** 
+
 ```
 GET   /?prefix=jingdong%2F&delimiter=%2F HTTP/1.1
 Host: oss-example.s-bj.jcloud.com
@@ -182,6 +191,7 @@ Authorization: jingdong   qbS5QXpLORrvdrmb:jXw8QQvs6IS+JJ2EpiFMUGtgNEM=
 ```
 
 **Return Example (inclusive of prefix and parameter)**
+
 ```
 HTTP/1.1 200 OK
 Server: nginx
