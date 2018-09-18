@@ -13,6 +13,7 @@ Authorization: signatureValue
 **Request Parameter**
 
 |Name|Description|
+|-|-|
 |prefix|Limit that the returned object key must use a prefix as prefix. It is noted that when using prefix for query, the returned key will still include prefix. <br>Type: Character string|
 
 **Response Elements**
