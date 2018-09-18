@@ -30,7 +30,7 @@ Authorization: signatureValue
 Host: BucketName.s-bj.jcloud.com 
 ```
 
-Responds example 
+Response example 
 
 ```
 HTTP/1.1 201   Created
