@@ -23,17 +23,17 @@ https://monitor.jdcloud-api.com/v1/metricsForCreateAlarm
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**serviceCodeList**|[ServiceCodeMetrics[]](##ServiceCodeMetrics)||
+|**serviceCodeList**|ServiceCodeMetrics[]||
 ### <a name="ServiceCodeMetrics">ServiceCodeMetrics</a>
 |Name|Type|Description|
 |---|---|---|
-|**metrics**|[MetricDetail[]](##MetricDetail)||
+|**metrics**|MetricDetail[]||
 |**serviceCode**|String||
 ### <a name="MetricDetail">MetricDetail</a>
 |Name|Type|Description|

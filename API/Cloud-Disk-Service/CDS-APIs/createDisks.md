@@ -25,14 +25,14 @@ https://disk.jdcloud-api.com/v1/regions/{regionId}/disks
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**clientToken**|String|True|| Idempotence check parameter|
-|**diskSpec**|[DiskSpec](##DiskSpec)|True||Create specification of the cloud disk service|
+|**diskSpec**|DiskSpec|True||Create specification of the cloud disk service|
 |**maxCount**|Integer|True||Instance purchase quantity; value range: [1,100]|
 
 ### <a name="DiskSpec">DiskSpec</a>
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**az**|String|True||Availability zone, to which the cloud disk service belongs|
-|**charge**|[ChargeSpec](##ChargeSpec)|False||Billing configuration. If not specified, the default billing type is pay-as-you-go - pay by service time by default.|
+|**charge**|ChargeSpec|False||Billing configuration. If not specified, the default billing type is pay-as-you-go - pay by service time by default.|
 |**description**|String|False||Description of the cloud disk service|
 |**diskSizeGB**|Integer|True||Size of the cloud disk service, in GiB; ssd value range of [20,1000]GB and step size of 10G; premium-hdd value range of [20,3000]GB and step size of 10G|
 |**diskType**|String|True||Type of the cloud disk service, value ssd or premium-hdd|
@@ -50,7 +50,7 @@ https://disk.jdcloud-api.com/v1/regions/{regionId}/disks
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
-|**result**|[Result](##Result)|Result Set|
+|**result**|Result|Result Set|
 
 
 ### <a name="Result">Result</a>

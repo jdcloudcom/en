@@ -22,13 +22,13 @@ None
 ## Return parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**errorLogs**|[ErrorLog[]](##ErrorLog)|Collection of Error Log Files|
+|**errorLogs**|ErrorLog[]|Collection of Error Log Files|
 ### <a name="ErrorLog">ErrorLog</a>
 |Name|Type|Description|
 |---|---|---|

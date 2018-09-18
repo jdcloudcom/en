@@ -22,20 +22,20 @@ None
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**data**|[HardWareStackData](##HardWareStackData)|Hardware information queried|
+|**data**|HardWareStackData|Hardware information queried|
 |**message**|String||
 |**status**|String||
 ### <a name="HardWareStackData">HardWareStackData</a>
 |Name|Type|Description|
 |---|---|---|
-|**disk**|[Disk[]](##Disk)||
-|**scale**|[Scale[]](##Scale)||
+|**disk**|Disk[]||
+|**scale**|Scale[]||
 ### <a name="Disk">Disk</a>
 |Name|Type|Description|
 |---|---|---|

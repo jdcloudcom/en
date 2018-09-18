@@ -25,13 +25,13 @@ https://baseanti.jdcloud-api.com/v1/regions/{regionId}/ipResources
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**dataList**|[IpResource[]](##IpResource)||
+|**dataList**|IpResource[]||
 |**totalCount**|Integer||
 ### <a name="IpResource">IpResource</a>
 |Name|Type|Description|

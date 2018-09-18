@@ -23,19 +23,19 @@ None
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
-|**result**|[Result](##Result)|Query cloud disk service information details|
+|**result**|Result|Query cloud disk service information details|
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**disk**|[Disk](##Disk)||
+|**disk**|Disk||
 ### <a name="Disk">Disk</a>
 |Name|Type|Description|
 |---|---|---|
-|**attachments**|[DiskAttachment[]](##DiskAttachment)|Attach Information|
+|**attachments**|DiskAttachment[]|Attach Information|
 |**az**|String|AZ, to which the cloud disk service belongs|
-|**charge**|[Charge](##Charge)|Configuration information for cloud disk service billing|
+|**charge**|Charge|Configuration information for cloud disk service billing|
 |**createTime**|String|Cloud disk service creating time|
 |**description**|String|Description of the cloud disk service. It allows you to enter all characters under UTF-8 encoding, but no more than 256 characters.|
 |**diskId**|String|Cloud Disk Service ID|
@@ -45,7 +45,7 @@ None
 |**name**|String|Name of the cloud disk service. Only Chinese, numbers, uppercase and lowercase letters, English underline "_" and line-through "-" are allowed. It is not allowed to be blank and shall not exceed 32 characters.|
 |**snapshotId**|String|Snapshot ID used to create the cloud disk service|
 |**status**|String|Status of the cloud disk service, creating, available, in-use, extending, restoring, deleting, deleted, error_create, error_delete, error_restore or error_extend|
-|**tags**|[Tag[]](##Tag)|Tag information|
+|**tags**|Tag[]|Tag information|
 ### <a name="DiskAttachment">DiskAttachment</a>
 |Name|Type|Description|
 |---|---|---|

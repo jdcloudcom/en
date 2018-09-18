@@ -20,10 +20,10 @@ https://mps.jdcloud-api.com/v1/regions/{regionId}/thumbnail
 |**createdTime**|String|False||Task creation time, format (GMT): yyyy-MM-dd’T’HH:mm:ss.SSS’Z’  (readonly)|
 |**errorCode**|Integer|False||Error Code (readonly)|
 |**lastUpdatedTime**|String|False||Task creation time, format (GMT): yyyy-MM-dd’T’HH:mm:ss.SSS’Z’  (readonly)|
-|**rule**|[ThumbnailTaskRule](##ThumbnailTaskRule)|False|||
-|**source**|[ThumbnailTaskSource](##ThumbnailTaskSource)|True|||
+|**rule**|ThumbnailTaskRule|False|||
+|**source**|ThumbnailTaskSource|True|||
 |**status**|String|False||Status (SUCCESS, ERROR, PENDDING, RUNNING) (readonly)|
-|**target**|[ThumbnailTaskTarget](##ThumbnailTaskTarget)|True|||
+|**target**|ThumbnailTaskTarget|True|||
 |**taskID**|String|False||Task ID (readonly)|
 
 ### <a name="ThumbnailTaskRule">ThumbnailTaskRule</a>
@@ -53,13 +53,13 @@ https://mps.jdcloud-api.com/v1/regions/{regionId}/thumbnail
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**thumbnailTaskID**|[ThumbnailTaskID](##ThumbnailTaskID)||
+|**thumbnailTaskID**|ThumbnailTaskID||
 ### <a name="ThumbnailTaskID">ThumbnailTaskID</a>
 |Name|Type|Description|
 |---|---|---|

@@ -22,13 +22,13 @@ None
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**data**|[SoftStack](##SoftStack)|Software configuration information|
+|**data**|SoftStack|Software configuration information|
 |**message**|String||
 |**status**|String||
 ### <a name="SoftStack">SoftStack</a>

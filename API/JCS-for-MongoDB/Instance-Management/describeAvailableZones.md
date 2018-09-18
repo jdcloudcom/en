@@ -21,13 +21,13 @@ None
 ## Return parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**availableZones**|[AvailableZones[]](##AvailableZones)||
+|**availableZones**|AvailableZones[]||
 ### <a name="AvailableZones">AvailableZones</a>
 |Name|Type|Description|
 |---|---|---|

@@ -17,7 +17,7 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/vpcPeerings/
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**filters**|[Filter[]](##Filter)|False||vpcPeeringIds - vpcPeering ID, support multiple IDs<br>vpcPeeringNames - vpcPeering name list, support multiple names<br>vpcId	- vpcPeering home terminal Vpc Id, support single Id<br>remoteVpcId - vpcPeering opposite terminal Vpc Id, support single Id<br>|
+|**filters**|Filter[]|False||vpcPeeringIds - vpcPeering ID, support multiple IDs<br>vpcPeeringNames - vpcPeering name list, support multiple names<br>vpcId	- vpcPeering home terminal Vpc Id, support single Id<br>remoteVpcId - vpcPeering opposite terminal Vpc Id, support single Id<br>|
 |**pageNumber**|Integer|False|1|Page; it is 1 by default, the value range: [1,∞); when the pages exceed total pages, show the last page|
 |**pageSize**|Integer|False|20|Paging size; it is 20 by default; value range[10, 100]|
 
@@ -32,21 +32,21 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/vpcPeerings/
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
-|**result**|[Result](##Result)|Returned results|
+|**result**|Result|Returned results|
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
 |**totalCount**|Number|Total number|
-|**vpcPeerings**|[VpcPeering[]](##VpcPeering)|VpcPeering resource information list|
+|**vpcPeerings**|VpcPeering[]|VpcPeering resource information list|
 ### <a name="VpcPeering">VpcPeering</a>
 |Name|Type|Description|
 |---|---|---|
 |**createdTime**|String|VpcPeering creation time|
 |**description**|String|VpcPeering description, can be null value, value range: 0-256 Chinese, English capital and lowercase letters, numbers and underline delimiter|
-|**remoteVpcInfo**|[VpcPeeringVpcInfo](##VpcPeeringVpcInfo)|Opposite terminal Vpc information|
-|**vpcInfo**|[VpcPeeringVpcInfo](##VpcPeeringVpcInfo)|Vpc information launching VpcPeering|
+|**remoteVpcInfo**|VpcPeeringVpcInfo|Opposite terminal Vpc information|
+|**vpcInfo**|VpcPeeringVpcInfo|Vpc information launching VpcPeering|
 |**vpcPeeringId**|String|VpcPeering Id|
 |**vpcPeeringName**|String|VpcPeering name, a name cannot be duplicate under the same account, value range: 1-32 Chinese, English capital and lowercase letters, numbers and underline delimiter|
 |**vpcPeeringState**|String|Status, values include Connected, Disconnected, Initiated|

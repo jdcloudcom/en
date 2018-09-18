@@ -18,7 +18,7 @@ https://monitor.jdcloud-api.com/v1/regions/{regionId}/alarms
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**clientToken**|String|True||Idempotent validation parameter, 32-bit at the longest, the return value will not change if the value does not change|
-|**createAlarmSpec**|[CreateAlarmSpec](##CreateAlarmSpec)|True|||
+|**createAlarmSpec**|CreateAlarmSpec|True|||
 
 ### <a name="CreateAlarmSpec">CreateAlarmSpec</a>
 |Name|Type|Required or not|Default value|Description|
@@ -40,7 +40,7 @@ https://monitor.jdcloud-api.com/v1/regions/{regionId}/alarms
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>

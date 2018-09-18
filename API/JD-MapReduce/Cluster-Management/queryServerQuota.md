@@ -22,13 +22,13 @@ None
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**data**|[AvailableNumData](##AvailableNumData)|Remaining service quota|
+|**data**|AvailableNumData|Remaining service quota|
 |**message**|String||
 |**status**|String||
 ### <a name="AvailableNumData">AvailableNumData</a>

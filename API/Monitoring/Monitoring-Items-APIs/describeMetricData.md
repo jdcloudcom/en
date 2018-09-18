@@ -22,7 +22,7 @@ https://monitor.jdcloud-api.com/v1/regions/{regionId}/metrics/{metric}/metricDat
 |**resourceId**|String|True||uuid of resource|
 |**serviceCode**|String|True||Type of resource, taking values such as vm, lb, ip, database|
 |**startTime**|String|False||Query start time of time range, UTC time, format: yyyy-MM-dd'T’HH:mm:ssZ (current time by default, if it is earlier than 30d, it will be reset to 30d)|
-|**tags**|[TagFilter[]](##TagFilter)|False||Customized tag|
+|**tags**|TagFilter[]|False||Customized tag|
 |**timeInterval**|String|False||Time interval: 1h, 6h, 12h, 1d, 3d, 7d, 14d, fixed time interval, fill in at least one of timeInterval and endTime|
 
 ### <a name="TagFilter">TagFilter</a>
@@ -35,18 +35,18 @@ https://monitor.jdcloud-api.com/v1/regions/{regionId}/metrics/{metric}/metricDat
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**metricDatas**|[MetricData[]](##MetricData)||
+|**metricDatas**|MetricData[]||
 ### <a name="MetricData">MetricData</a>
 |Name|Type|Description|
 |---|---|---|
-|**data**|[DataPoint[]](##DataPoint)||
-|**metric**|[Metric](##Metric)||
+|**data**|DataPoint[]||
+|**metric**|Metric||
 ### <a name="DataPoint">DataPoint</a>
 |Name|Type|Description|
 |---|---|---|

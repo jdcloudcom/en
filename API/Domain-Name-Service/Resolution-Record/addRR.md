@@ -18,7 +18,7 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domain/{domainId}/
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**req**|[AddRR](##AddRR)|True||RR Parameter|
+|**req**|AddRR|True||RR Parameter|
 
 ### <a name="AddRR">AddRR</a>
 |Name|Type|Required or not|Default value|Description|
@@ -37,13 +37,13 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domain/{domainId}/
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|ID of this request|
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**dataList**|[RR](##RR)|Resolution record result after successful addition|
+|**dataList**|RR|Resolution record result after successful addition|
 ### <a name="RR">RR</a>
 |Name|Type|Description|
 |---|---|---|

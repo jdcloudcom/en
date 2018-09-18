@@ -17,7 +17,7 @@ https://xdata.jdcloud-api.com/v1/regions/{regionId}/dwTable
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**dbModelDBTable**|[DwTableDesc](##DwTableDesc)|True||Datasheet description information|
+|**dbModelDBTable**|DwTableDesc|True||Datasheet description information|
 |**instanceName**|String|True||Instance name|
 
 ### <a name="DwTableDesc">DwTableDesc</a>
@@ -33,7 +33,7 @@ https://xdata.jdcloud-api.com/v1/regions/{regionId}/dwTable
 |**otherSerdeProperties**|Object|False||Other serde attributes|
 |**owner**|String|False||Owner (automatically generated)|
 |**parameters**|Object|False||Parameter|
-|**rows**|[DwTableRow[]](##DwTableRow)|False||List information|
+|**rows**|DwTableRow[]|False||List information|
 |**tableName**|String|False||Table name|
 ### <a name="DwTableRow">DwTableRow</a>
 |Name|Type|Required or not|Default value|Description|
@@ -47,7 +47,7 @@ https://xdata.jdcloud-api.com/v1/regions/{regionId}/dwTable
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>

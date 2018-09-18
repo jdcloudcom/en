@@ -17,7 +17,7 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/cluster:create
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**clusterModel**|[ClusterModel](##ClusterModel)|True|||
+|**clusterModel**|ClusterModel|True|||
 
 ### <a name="ClusterModel">ClusterModel</a>
 |Name|Type|Required or not|Default value|Description|
@@ -46,7 +46,7 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/cluster:create
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>

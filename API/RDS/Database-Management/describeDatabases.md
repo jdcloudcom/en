@@ -24,17 +24,17 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/databas
 ## Return parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**databases**|[Database[]](##Database)||
+|**databases**|Database[]||
 ### <a name="Database">Database</a>
 |Name|Type|Description|
 |---|---|---|
-|**accessPrivilege**|[DBAccessPrivilege[]](##DBAccessPrivilege)|List of Database Related Account Privilege|
+|**accessPrivilege**|DBAccessPrivilege[]|List of Database Related Account Privilege|
 |**characterSetName**|String|Character set, detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)|
 |**dbName**|String|Database name with specific rules detailed in the Help Center Documentation: [Name and Password Restrictions](../../../documentation/Cloud-Database-and-Cache/RDS/Introduction/Restrictions/SQLServer-Restrictions.md)|
 |**dbStatus**|String|Database status, detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)- **MySQL: Not support, not return this field**- **SQL Server: return this field**|

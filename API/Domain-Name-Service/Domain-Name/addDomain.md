@@ -30,13 +30,13 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domainAdd
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|ID of this request|
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**data**|[Domain](##Domain)|Newly added domain name structure|
+|**data**|Domain|Newly added domain name structure|
 |**order**|String|Add the order number of the paid domain name|
 ### <a name="Domain">Domain</a>
 |Name|Type|Description|

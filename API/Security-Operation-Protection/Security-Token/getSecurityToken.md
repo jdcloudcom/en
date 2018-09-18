@@ -17,7 +17,7 @@ https://sop.jdcloud-api.com/v1/regions/{regionId}/securityToken:getSecurityToken
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**getSecurityTokenInfo**|[GetSecurityTokenInfo](##GetSecurityTokenInfo)|True||Obtain SecurityToken parameters|
+|**getSecurityTokenInfo**|GetSecurityTokenInfo|True||Obtain SecurityToken parameters|
 
 ### <a name="GetSecurityTokenInfo">GetSecurityTokenInfo</a>
 |Name|Type|Required or not|Default value|Description|
@@ -31,7 +31,7 @@ https://sop.jdcloud-api.com/v1/regions/{regionId}/securityToken:getSecurityToken
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>

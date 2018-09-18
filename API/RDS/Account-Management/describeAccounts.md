@@ -22,18 +22,18 @@ None
 ## Return parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**accounts**|[Account[]](##Account)||
+|**accounts**|Account[]||
 ### <a name="Account">Account</a>
 |Name|Type|Description|
 |---|---|---|
 |**accountName**|String|Account name with specific rules detailed in the Help Center Documentation: [Name and Password Restrictions](../../../documentation/Cloud-Database-and-Cache/RDS/Introduction/Restrictions/SQLServer-Restrictions.md)|
-|**accountPrivileges**|[AccountPrivilege[]](##AccountPrivilege)|Specific Privilege|
+|**accountPrivileges**|AccountPrivilege[]|Specific Privilege|
 |**accountStatus**|String|Account status, detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)<br>- **MySQL: Not support, not return this field**<br>- **SQL Server: return this field**|
 ### <a name="AccountPrivilege">AccountPrivilege</a>
 |Name|Type|Description|

@@ -17,7 +17,7 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/cluster:calculate
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**clusterListViewModel**|[ClusterListViewModel](##ClusterListViewModel)|True||Cluster information views need to be transferred in except for userName and data Center|
+|**clusterListViewModel**|ClusterListViewModel|True||Cluster information views need to be transferred in except for userName and data Center|
 
 ### <a name="ClusterListViewModel">ClusterListViewModel</a>
 |Name|Type|Required or not|Default value|Description|
@@ -40,7 +40,7 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/cluster:calculate
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>

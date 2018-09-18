@@ -23,13 +23,13 @@ None
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**permission**|[Permission](##Permission)|Permission information|
+|**permission**|Permission|Permission information|
 ### <a name="Permission">Permission</a>
 |Name|Type|Description|
 |---|---|---|
@@ -38,14 +38,14 @@ None
 |**description**|String|Description|
 |**id**|Integer|Permission id error|
 |**name**|String|Permission name|
-|**permissionDetailList**|[PermissionDetail[]](##PermissionDetail)|Permission details|
+|**permissionDetailList**|PermissionDetail[]|Permission details|
 |**permissionType**|String|Permission type|
 |**version**|String|Permission revision number|
 ### <a name="PermissionDetail">PermissionDetail</a>
 |Name|Type|Description|
 |---|---|---|
 |**permission**|String|Permission type: Read-only-R, Delete-D, Modification-M|
-|**resource**|[Resource[]](##Resource)|Resource information|
+|**resource**|Resource[]|Resource information|
 ### <a name="Resource">Resource</a>
 |Name|Type|Description|
 |---|---|---|

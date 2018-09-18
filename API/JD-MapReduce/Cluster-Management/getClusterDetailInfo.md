@@ -24,13 +24,13 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/clusterInfo/{clusterId}:d
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**data**|[ClusterDetailInfo](##ClusterDetailInfo)||
+|**data**|ClusterDetailInfo||
 |**message**|String||
 |**status**|String||
 ### <a name="ClusterDetailInfo">ClusterDetailInfo</a>

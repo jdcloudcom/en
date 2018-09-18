@@ -22,13 +22,13 @@ None
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**userAccessKeys**|[UserAccessKey[]](##UserAccessKey)|userAccessKey list|
+|**userAccessKeys**|UserAccessKey[]|userAccessKey list|
 ### <a name="UserAccessKey">UserAccessKey</a>
 |Name|Type|Description|
 |---|---|---|

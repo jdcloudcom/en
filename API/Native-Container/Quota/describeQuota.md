@@ -25,13 +25,13 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/quotas
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**quota**|[Quota](##Quota)||
+|**quota**|Quota||
 ### <a name="Quota">Quota</a>
 |Name|Type|Description|
 |---|---|---|

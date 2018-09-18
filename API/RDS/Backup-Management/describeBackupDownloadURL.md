@@ -25,7 +25,7 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/backups/{backupId}/downloadURL
 ## Return parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>

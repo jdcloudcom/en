@@ -23,13 +23,13 @@ https://monitor.jdcloud-api.com/v1/metrics
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**metrics**|[MetricDetail[]](##MetricDetail)||
+|**metrics**|MetricDetail[]||
 ### <a name="MetricDetail">MetricDetail</a>
 |Name|Type|Description|
 |---|---|---|

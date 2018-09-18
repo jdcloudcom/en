@@ -23,13 +23,13 @@ None
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
-|**result**|[Result](##Result)|Returned results|
+|**result**|Result|Returned results|
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**networkInterface**|[NetworkInterface](##NetworkInterface)|networkInterface resource information|
+|**networkInterface**|NetworkInterface|networkInterface resource information|
 ### <a name="NetworkInterface">NetworkInterface</a>
 |Name|Type|Description|
 |---|---|---|
@@ -44,10 +44,10 @@ None
 |**networkInterfaceId**|String|Elastic network interface ID|
 |**networkInterfaceName**|String|Elastic network interface name|
 |**networkSecurityGroupIds**|String[]|Security group ID list|
-|**primaryIp**|[NetworkInterfacePrivateIp](##NetworkInterfacePrivateIp)|Primary IP of network interface|
+|**primaryIp**|NetworkInterfacePrivateIp|Primary IP of network interface|
 |**role**|String|Network interface role, value range: Primary (primary network interface), Secondary (secondary network interface)|
 |**sanityCheck**|Integer|Source and target IP address verification, with value 0 or 1|
-|**secondaryIps**|[NetworkInterfacePrivateIp[]](##NetworkInterfacePrivateIp)|Network interface auxiliary IP list|
+|**secondaryIps**|NetworkInterfacePrivateIp[]|Network interface auxiliary IP list|
 |**subnetId**|String|Subnet ID|
 |**vpcId**|String|Virtual network ID|
 ### <a name="NetworkInterfacePrivateIp">NetworkInterfacePrivateIp</a>

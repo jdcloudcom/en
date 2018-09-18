@@ -24,18 +24,18 @@ None
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**secret**|[Secret](##Secret)||
+|**secret**|Secret||
 ### <a name="Secret">Secret</a>
 |Name|Type|Description|
 |---|---|---|
 |**createdAt**|String|Creation time|
-|**data**|[DockerRegistryData](##DockerRegistryData)|Confidential data|
+|**data**|DockerRegistryData|Confidential data|
 |**name**|String|Confidential data name|
 |**type**|String|Now, only the following private data type is supported: docker-registry, which is the docker registry verification type.|
 ### <a name="DockerRegistryData">DockerRegistryData</a>

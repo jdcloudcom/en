@@ -18,14 +18,14 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/forw
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**forwardRuleSpec**|[ForwardRuleSpec](##ForwardRuleSpec)|True||Non-web service rule parameter|
+|**forwardRuleSpec**|ForwardRuleSpec|True||Non-web service rule parameter|
 
 ### <a name="ForwardRuleSpec">ForwardRuleSpec</a>
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**algorithm**|String|False||Forwarding rules: wrr->Round Robin with weight  wlc->minimum weighted connection  rr->Round Robin without weight  sh->source address hash|
 |**onlineAddr**|String[]|False|||
-|**originAddr**|[OriginAddrItem[]](##OriginAddrItem)|False|||
+|**originAddr**|OriginAddrItem[]|False|||
 |**originDomain**|String|False||Back-to-origin domain name|
 |**originPort**|Integer|False||Back-to-origin port number|
 |**originType**|String|False||Back-to-origin type, ip or domain|

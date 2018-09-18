@@ -25,13 +25,13 @@ https://oss.jdcloud-api.com/v1/regions/{regionId}/buckets/{bucketname}:imgProtec
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**imgProtectedResult**|[Result](##Result)||
+|**imgProtectedResult**|Result||
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|

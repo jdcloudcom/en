@@ -17,8 +17,8 @@ https://mongodb.jdcloud-api.com/v1/regions/{regionId}/instances
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**chargeSpec**|[ChargeSpec](##ChargeSpec)|False||Payment Method|
-|**instanceSpec**|[DBInstanceSpec](##DBInstanceSpec)|True||Instance Type|
+|**chargeSpec**|ChargeSpec|False||Payment Method|
+|**instanceSpec**|DBInstanceSpec|True||Instance Type|
 
 ### <a name="DBInstanceSpec">DBInstanceSpec</a>
 |Name|Type|Required or not|Default value|Description|
@@ -47,7 +47,7 @@ https://mongodb.jdcloud-api.com/v1/regions/{regionId}/instances
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>

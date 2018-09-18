@@ -25,13 +25,13 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domainUpdate
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|ID of this request|
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**updateDomain**|[Domain](##Domain)|Domain name structure after modification|
+|**updateDomain**|Domain|Domain name structure after modification|
 ### <a name="Domain">Domain</a>
 |Name|Type|Description|
 |---|---|---|

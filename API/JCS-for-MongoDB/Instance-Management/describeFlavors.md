@@ -21,13 +21,13 @@ None
 ## Return parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**flavors**|[Flavor[]](##Flavor)||
+|**flavors**|Flavor[]||
 ### <a name="Flavor">Flavor</a>
 |Name|Type|Description|
 |---|---|---|

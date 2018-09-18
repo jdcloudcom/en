@@ -18,7 +18,7 @@ https://iam.jdcloud-api.com/v1/regions/{regionId}/subUser/{subUser}/permisssions
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**addPermissionsInfo**|[AddPermissionsInfo](##AddPermissionsInfo)|True||Permission information|
+|**addPermissionsInfo**|AddPermissionsInfo|True||Permission information|
 
 ### <a name="AddPermissionsInfo">AddPermissionsInfo</a>
 |Name|Type|Required or not|Default value|Description|

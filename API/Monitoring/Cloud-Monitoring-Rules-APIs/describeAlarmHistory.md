@@ -30,13 +30,13 @@ https://monitor.jdcloud-api.com/v1/regions/{regionId}/alarmHistory
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**alarmHistoryList**|[AlarmHistory[]](##AlarmHistory)|Alarm history list|
+|**alarmHistoryList**|AlarmHistory[]|Alarm history list|
 |**numberPages**|Number|Number of total pages|
 |**numberRecords**|Number|Number of total records|
 |**pageNumber**|Number|Page|

@@ -22,13 +22,13 @@ https://redis.jdcloud-api.com/v1/regions/{regionId}/cacheInstance
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**cacheInstance**|[CacheInstanceSpec](##CacheInstanceSpec)|True||Creates a specific attribute of the cache instance, including the virtual private cloud ID (vpcId), subnet ID (subnetId), cache instance name, cache instance type, cache instance password, the description of ID information of the availability zone where the cache instance is located and cache instance.|
-|**charge**|[ChargeSpec](##ChargeSpec)|False||Billing Information Related Configuration.|
+|**cacheInstance**|CacheInstanceSpec|True||Creates a specific attribute of the cache instance, including the virtual private cloud ID (vpcId), subnet ID (subnetId), cache instance name, cache instance type, cache instance password, the description of ID information of the availability zone where the cache instance is located and cache instance.|
+|**charge**|ChargeSpec|False||Billing Information Related Configuration.|
 
 ### <a name="CacheInstanceSpec">CacheInstanceSpec</a>
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**azId**|[AzIdSpec](##AzIdSpec)|True||The ID information of the availability zone of the region where the Redis instance is located|
+|**azId**|AzIdSpec|True||The ID information of the availability zone of the region where the Redis instance is located|
 |**cacheInstanceClass**|String|True||For redis instance type code, see code table of instance type<a href="https://www.jdcloud.com/help/detail/411/isCatalog/1">instance type code</a>.|
 |**cacheInstanceDescription**|String|False||The description of the Redis instance can not be more than 256 characters|
 |**cacheInstanceName**|String|True||The name of the redis instance only supports numbers, letters, underlines, Chinese, no less than 2 characters and no more than 32 characters|
@@ -51,7 +51,7 @@ https://redis.jdcloud-api.com/v1/regions/{regionId}/cacheInstance
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|ID of This Query Request.|
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>

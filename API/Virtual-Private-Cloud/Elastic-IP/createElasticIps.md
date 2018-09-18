@@ -18,14 +18,14 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/elasticIps/
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**elasticIpAddress**|String|False||Create by assigning elastic ip address, when multiple elastic ips are applied for creation, it must be blank|
-|**elasticIpSpec**|[ElasticIpSpec](##ElasticIpSpec)|True||Elastic ip specification|
+|**elasticIpSpec**|ElasticIpSpec|True||Elastic ip specification|
 |**maxCount**|Integer|True||Purchase number of elastic ip; value range: [1,100]|
 
 ### <a name="ElasticIpSpec">ElasticIpSpec</a>
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**bandwidthMbps**|Integer|True||Elastic IP speed limit (unit: Mbps), value range is [1-200]|
-|**chargeSpec**|[ChargeSpec](##ChargeSpec)|False||Billing configuration|
+|**chargeSpec**|ChargeSpec|False||Billing configuration|
 |**provider**|String|True||IP service provider, values include bgp or no_bgp, cn-north-1: bgp; cn-south-1: [bgp, no_bgp]; cn-east-1: [bgp, no_bgp]; cn-east-2: bgp|
 ### <a name="ChargeSpec">ChargeSpec</a>
 |Name|Type|Required or not|Default value|Description|
@@ -37,7 +37,7 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/elasticIps/
 ## Return parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|[Result](##Result)|Returned results|
+|**result**|Result|Returned results|
 
 
 ### <a name="Result">Result</a>

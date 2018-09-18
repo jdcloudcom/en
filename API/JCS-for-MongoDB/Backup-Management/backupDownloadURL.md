@@ -23,13 +23,13 @@ None
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**backupDownloadURL**|[BackupDownloadURL](##BackupDownloadURL)||
+|**backupDownloadURL**|BackupDownloadURL||
 ### <a name="BackupDownloadURL">BackupDownloadURL</a>
 |Name|Type|Description|
 |---|---|---|

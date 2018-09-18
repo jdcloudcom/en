@@ -17,7 +17,7 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/backups
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**backupSpec**|[BackupSpec](##BackupSpec)|False||Backup Specification|
+|**backupSpec**|BackupSpec|False||Backup Specification|
 |**instanceId**|String|False||RDS instance ID can identify an instance uniquely|
 
 ### <a name="BackupSpec">BackupSpec</a>
@@ -29,7 +29,7 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/backups
 ## Return parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>

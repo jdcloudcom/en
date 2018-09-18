@@ -17,10 +17,10 @@ https://mongodb.jdcloud-api.com/v1/regions/{regionId}/instances
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**filters**|[Filter[]](##Filter)|False||instanceId - Instance ID, Accurate Matching<br>instanceName - Instance Name, Fuzzy Matching<br>instanceStatus - mongodb status, accurate matching, support multiple RUNNING: Running, ERROR: Error, BUILDING: Creating, DELETING: Deleting, RESTORING: Restoring, RESIZING: under Configuration Change<br>chargeMode - Billing Type, Accurate Matching<br>|
+|**filters**|Filter[]|False||instanceId - Instance ID, Accurate Matching<br>instanceName - Instance Name, Fuzzy Matching<br>instanceStatus - mongodb status, accurate matching, support multiple RUNNING: Running, ERROR: Error, BUILDING: Creating, DELETING: Deleting, RESTORING: Restoring, RESIZING: under Configuration Change<br>chargeMode - Billing Type, Accurate Matching<br>|
 |**pageNumber**|Integer|False||Page number; default: 1; value range: [1, ∞)|
 |**pageSize**|Integer|False||Page size; default: 10; value range: [10,100]|
-|**sorts**|[Sort[]](##Sort)|False||createTime - Creation Time, asc (Positive Order), desc (Reverse Order)<br>|
+|**sorts**|Sort[]|False||createTime - Creation Time, asc (Positive Order), desc (Reverse Order)<br>|
 
 ### <a name="Filter">Filter</a>
 |Name|Type|Required or not|Default value|Description|
@@ -38,13 +38,13 @@ https://mongodb.jdcloud-api.com/v1/regions/{regionId}/instances
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**dbInstances**|[DBInstance[]](##DBInstance)||
+|**dbInstances**|DBInstance[]||
 |**pageNumber**|Integer||
 |**totalCount**|Integer||
 ### <a name="DBInstance">DBInstance</a>
@@ -53,7 +53,7 @@ https://mongodb.jdcloud-api.com/v1/regions/{regionId}/instances
 |**accountName**|String|Default User Name|
 |**azId**|String[]|AZ ID, AZs at primary, secondary and hidden nodes in turn.|
 |**backupRetentionPeriod**|Integer|Automatic Backup Retention Time|
-|**charge**|[Charge](##Charge)|Billing Information|
+|**charge**|Charge|Billing Information|
 |**createTime**|String|Creation Time|
 |**dBName**|String|Default Database Name|
 |**engine**|String|Database Type|

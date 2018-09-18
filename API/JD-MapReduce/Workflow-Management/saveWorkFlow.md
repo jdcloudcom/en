@@ -17,7 +17,7 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/workflow:save
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**workflow**|[EmrWorkflow](##EmrWorkflow)|True|||
+|**workflow**|EmrWorkflow|True|||
 
 ### <a name="EmrWorkflow">EmrWorkflow</a>
 |Name|Type|Required or not|Default value|Description|
@@ -38,13 +38,13 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/workflow:save
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**data**|[Message](##Message)||
+|**data**|Message||
 |**message**|String||
 |**status**|String||
 ### <a name="Message">Message</a>
@@ -54,9 +54,9 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/workflow:save
 |**data**|Object|Data|
 |**instanceId**|String||
 |**jobId**|String|Job ID|
-|**path**|[Path[]](##Path)||
+|**path**|Path[]||
 |**pipeline**|String||
-|**rect**|[Rect[]](##Rect)||
+|**rect**|Rect[]||
 |**result**|String|Result|
 |**source**|String||
 |**sourceParameterList**|String[]||

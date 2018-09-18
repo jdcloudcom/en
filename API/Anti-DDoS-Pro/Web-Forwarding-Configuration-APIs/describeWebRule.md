@@ -24,13 +24,13 @@ None
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**data**|[WebRule](##WebRule)||
+|**data**|WebRule||
 ### <a name="WebRule">WebRule</a>
 |Name|Type|Description|
 |---|---|---|
@@ -48,7 +48,7 @@ None
 |**id**|Integer|Rule ID|
 |**instanceId**|Integer|Instance ID|
 |**onlineAddr**|String[]||
-|**originAddr**|[OriginAddrItem[]](##OriginAddrItem)||
+|**originAddr**|OriginAddrItem[]||
 |**originDomain**|String|Back-to-origin domain name, and the field is returned when originType is CNAME|
 |**originType**|String|Back-to-origin type, A or CNAME|
 |**port**|String|HTTP protocol port number, such as 80 and 81, and multiple port numbers are separated by commas|

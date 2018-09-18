@@ -27,14 +27,14 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domain/{domainId}/
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|ID of this request|
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
 |**currentCount**|Integer|Number of monitoring items of current website page|
-|**dataList**|[Monitor[]](##Monitor)|list of website monitoring items of the current page|
+|**dataList**|Monitor[]|list of website monitoring items of the current page|
 |**totalCount**|Integer|Number of monitoring items of all websites|
 |**totalPage**|Integer|Pages for all website monitoring items|
 ### <a name="Monitor">Monitor</a>
