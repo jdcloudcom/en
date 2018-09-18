@@ -31,7 +31,7 @@ Host: oss-test.s-bj.jcloud.com
 Connection: Keep-Alive
 ```
 
-**Responds Example** 
+**Response Example** 
 
 ```
 HTTP/1.1 204 No   Content
