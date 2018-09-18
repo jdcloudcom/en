@@ -4,20 +4,18 @@ API group is the fundamental management unit of API. SDK is generated based on t
 - The group has Region attribute. Determine the Region before create API groups, and no alternation is allowed once API group created.
 - Perform traffic control, access authorization, backend signature and custom domain based on API group.
 
-![API group creation process](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/flow-createApiGroup.png)
-
 
 ## Operational Steps
 ### STEP1: Click the **API Group Management** at left menu to enter the group list page
 Login [API gateway console](https://apigateway-console.jdcloud.com/apiGroupList).
 
- ![API Group Management](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/apigroup-1.png)
+ ![API Group Management](https://github.com/jdcloudcom/en/blob/edit/image/Internet-Middleware/API-Gateway/apigroup-1.png)
  
  
  ### STEP2: Create API Groups
  On the “API Group Management page”, click **Create New API Group** and go to the “Create” page.
 
-![Create group](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/apigroup-addgroup.png)
+![Create group](https://github.com/jdcloudcom/en/blob/edit/image/Internet-Middleware/API-Gateway/apigroup-addgroup.png)
     
  ### STEP3: Save information, create group   
 After filling the group information, click the “Save”, then the new group is created.
