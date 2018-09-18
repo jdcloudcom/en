@@ -67,7 +67,7 @@ Free use of cloud monitor and Load Balancer|Support|Support
 
 [Start Instance](../Operation-Guide/Instance/Start-Instance.md)
 
-* [Delete Instance](../Operation-Guide/Instance/Stop-Instance.md)
+[Delete Instance](../Operation-Guide/Instance/Stop-Instance.md)
 
 
 
