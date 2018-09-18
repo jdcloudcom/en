@@ -1,6 +1,6 @@
 # Benefits
 
-# # Quality Protective Route
+## Quality Protective Route
 
 - High quality BGP routes with low latency and guaranteed traffic stability and availability.
 - The speed of access will not be affected by DDoS attacks.
