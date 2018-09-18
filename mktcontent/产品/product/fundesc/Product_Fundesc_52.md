@@ -1,6 +1,6 @@
 [
 	{
-		"funcName":"Simple and Easy-to-use Visual Modeling",
+		"funcName":"Simple and Easy Operation",
 		"funcContent":[
 			{
 				"funcName":"",
@@ -25,7 +25,7 @@
 			{
 				"funcName":"",
 				"funcTitle":"",
-				"funcP":"A modeling experiment supports the construction of multiple topological model structures to run at the same time; the nodes that are running successfully do not need to be executed repeatedly, and support to start the running from the intermediate nodes of the task flow; support the re-execution of any running version that is called."
+				"funcP":"A modelling experiment supports the construction of multiple topological model structures to run at the same time; the nodes that are running successfully do not need to be executed repeatedly, and running from the intermediate nodes of the task flow is supported; any running version that is called can be re-executed. "
 			}
 		]
 	}

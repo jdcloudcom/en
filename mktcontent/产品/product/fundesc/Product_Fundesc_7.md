@@ -4,13 +4,13 @@
 		"funcContent":[
 			{
 				"funcName":"",
-				"funcTitle":"Rapid deployment",
-				"funcP":"When an order is placed after the specifications are confirmed, a highly available MySQL instance can be created in minutes. With perfect monitoring and alarm functions, it can be put into use immediately and create value immediately."
+				"funcTitle":"Quick Deployment",
+				"funcP":"After an instance type is selected, an order will be placed and the highly available MySQL instance can be created in several minutes. The well-established monitoring and alarm features are in place, ready to be in operation without delay and create values instantly."
 			},
 			{
 				"funcName":"",
-				"funcTitle":"Convenient operation and maintenance",
-				"funcP":"Provide real-time monitoring and automatic alarm function of indicators of database instance, to understand instance dynamics at any time and any place; reduce the operation and maintenance costs of user database and server network."
+				"funcTitle":"Easy Operation and Maintenance",
+				"funcP":"Real-time monitoring and automatic alarm features of the indicators of database instances help learn the instance updates at any time and in any place; it reduces the operation and maintenance costs of user database and server network."
 			}
 		]
 	},
@@ -19,13 +19,13 @@
 		"funcContent":[
 			{
 				"funcName":"",
-				"funcTitle":"Elastic expansion",
-				"funcP":"The memory and disk space of the instance can be upgraded as demand to improve the service processing capability. The upgrade process does not affect the normal access and use of the service, realizing fast and smooth capacity expansion. And it could quickly meet business development demands."
+				"funcTitle":"Elastic Expansion",
+				"funcP":"The memory and disk space of the instances can be upgraded based on demand to improve the service processing capability. The upgrade process will not affect the normal access and use of the service, enabling fast and smooth capacity expansion that could rapidly meet the business development needs."
 			},
 			{
 				"funcName":"",
-				"funcTitle":"Read-only instance",
-				"funcP":"Support read-only instances, and horizontally scale the read capability of database. Each read-only instance has an independent link address, and the pressure distribution can be controlled by the application side. Help users easily achieve a read/write splitting architecture to cope with the massive demands of services."
+				"funcTitle":"Read-only Instance",
+				"funcP":"Read-only instances are supported with read capability of database horizontally scaled. Each read-only instance has an independent link address, with pressure distribution controlled by the application side, which help users easily have a read/write separation architecture to cope with massive service demands."
 			}
 		]
 	},
@@ -34,18 +34,18 @@
 		"funcContent":[
 			{
 				"funcName":"",
-				"funcTitle":"Full backup",
-				"funcP":"It is possible to automatically back up the MySQL database in full for 7 days each day at the time you specify; in addition, it supports instant manual backups. The storage used by the backup is completely free of charge."
+				"funcTitle":"Full Backup",
+				"funcP":"The MySQL database is automatically backed up in full for 7 days each day at specified time; instant manual backups are also supported, and the storage used by the backup is all free of charge."
 			},
 			{
 				"funcName":"",
-				"funcTitle":"Incremental backup",
-				"funcP":"Cloud Database MySQL can automatically back up the incremental portion of database of the past 7 days to achieve rollback based on any point in time."
+				"funcTitle":"Incremental Backup",
+				"funcP":"JCS for MySQL can automatically back up the incremental part of database during the past 7 days to have rollback based on any time point."
 			},
 			{
 				"funcName":"",
-				"funcTitle":"Data recovery",
-				"funcP":"Support one-click recovery of backing up the data to the current instance; in addition, based on incremental backup, it supports the creation of a new database instance based on the data at any point in time within seven days."
+				"funcTitle":"Data Recovery",
+				"funcP":"It supports one-click recovery of backing up data to current instance; in addition, based on incremental backup, it supports creation of a new database instance based on the data at any time point within 7 days."
 			}
 		]
 	},
@@ -54,8 +54,8 @@
 		"funcContent":[
 			{
 				"funcName":"",
-				"funcTitle":"Security mode",
-				"funcP":"The default Cloud Database MySQL instance uses the standard mode, supports switching to high security mode. It owns certain SQL interception capabilities, and also provides SQL auditing function."
+				"funcTitle":"Security Mode",
+				"funcP":"The default JCS for MySQL instance adopts the standard mode and supports switching to high security mode, with both SQL interception capability and SQL auditing feature offered."
 			}
 		]
 	}

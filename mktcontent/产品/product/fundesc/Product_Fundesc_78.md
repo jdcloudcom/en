@@ -1,6 +1,6 @@
 [
 	{
-		"funcName":"Analysis of transaction. Make the best of both worlds",
+		"funcName":"Transaction Analysis and Win-win Goals",
 		"funcContent":[
 			{
 				"funcName":"",
@@ -10,7 +10,7 @@
 		]
 	},
 	{
-		"funcName":"Deployment is convenient and rapid",
+		"funcName":"Convenient and Rapid Deployment",
 		"funcContent":[
 			{
 				"funcName":"",
@@ -20,12 +20,12 @@
 		]
 	},
 	{
-		"funcName":"High Available Service",
+		"funcName":"High-availability Service",
 		"funcContent":[
 			{
 				"funcName":"",
 				"funcTitle":"",
-				"funcP":"The computing layer, storage layer, and management layer both are redundant architectures of multiple nodes, which can realize automatically recover of the fault and ensure service availability."
+				"funcP":"The computing layer, storage layer and management layer are redundant architectures of multiple nodes, which can automatically realize recovery and ensure service availability."
 			}
 		]
 	},

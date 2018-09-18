@@ -4,18 +4,18 @@
 		"funcContent":[
 			{
 				"funcName":"",
-				"funcTitle":"Second generation VM",
-				"funcP":"JD Cloud's second generation VM applies the latest generation of Intel®Xeon® Gold processor. Compared with the previous generation product, the processor's comprehensive performance is significantly improved, and the floating-point calculation performance per clock cycle is doubled. Significantly increased workload speed. The latest VM will provide higher vCPU and memory specification configuration. JD Cloud carried out deeply optimization in virtualization, network and scheduling and other aspects, and its business performance has been greatly improved, which can better support computationally intensive scenarios, such as scientific modeling, gene computing, data mining and analysis, high performance computing etc. \n"
+				"funcTitle":"Second generation Virtual Machines",
+				"funcP":"JD Cloud’s Second-generation Virtual Machines applies the new-generation of Intel® Xeon® scalable CPU, which is featured by remarkably improved comprehensive performance compared with the previous generation, and the floating-point calculation performance per clock cycle is doubled, thus significantly accelerated the workload speed. With higher vCPU and memory specification and configuration of the latest Virtual Machines, JD Cloud has made in-depth optimization in virtualization, network and scheduling and others, which greatly improved its service performance and better supported the computationally intensive scenarios, such as scientific modeling, gene computing, data mining and analysis, high performance computing, etc. \n"
 			},
 			{
 				"funcName":"",
-				"funcTitle":"Rich configuration types and specifications",
-				"funcP":"JD Cloud provides four types of specifications: general-purpose, compute optimized, memory optimized, and high frequency computing. Users can select VM specification types and corresponding specifications according to different application levels, and allocate CPU, memory, storage, and EIP as demanded. It supports flexible adjustment of CPU and memory, expands storage and adjusts network bandwidth without shutting down to ensure continuous application service."
+				"funcTitle":"Diversified Configuration Types and Instance Types",
+				"funcP":"JD Cloud provides four VM instance types: general-purpose, compute-optimized, memory-optimized and high-frequency computing, which can be selected based on different application levels to allocate CPU, memory, storage and EIP as needed. It supports flexible adjustment of CPU and memory, capacity expansion storage and adjustment of network bandwidth without shutting down, so as to ensure continuous application of service."
 			},
 			{
 				"funcName":"",
-				"funcTitle":"Extra-large memory instance",
-				"funcP":"JD Cloud provides the largest memory VM in domestic, exclusive enjoys 1464GB DDR4 memory, which meets the requirements of large-scale service deployment with extremely high data exchange speed and memory capacity."
+				"funcTitle":"Extra-large Memory Instance",
+				"funcP":"JD Cloud provides the largest memory Virtual Machines in China that carry the Intel® Xeon® E5-2698 v4 CPU with an exclusive memory of 1464GB DDR4, suitable for large-scale service deployment requiring extremely high data exchange speed and memory capacity."
 			}
 		]
 	},
@@ -24,8 +24,8 @@
 		"funcContent":[
 			{
 				"funcName":"",
-				"funcTitle":"Scalable Cloud Disk Service",
-				"funcP":"The cloud disk is a low-latency, high-reliability block-level storage provided by JD Cloud for users. Users have three options for cloud disks which include Premium Hdd Cloud Disk, SSD cloud disk and ultra-high performance cloud disk. Support the setting of the capacity of cloud disk on demand and the scaling thereof to meet the rapid growth of the business. In addition, the cloud disk provides the snapshot function. The snapshot of the cloud disk data can further meet the requirements of batch deployment and fast recovery."
+				"funcTitle":"Scalable Cloud Disk",
+				"funcP":"The Cloud Disk is a low-latency and highly reliable block-level storage provided by JD Cloud, which includes three types, namely, Premium Hdd Cloud Disk, SSD Cloud Disk and Ultra-high Performance Cloud Disk. It supports setting the capacity of cloud disk on demand and scaling at any time, so as to follow the rapid growth of service. Moreover, the snapshot feature of the cloud disk can further meet the demand of such scenarios as batch deployment and fast recovery by making snapshots for the cloud disk data."
 			}
 		]
 	},
@@ -34,13 +34,13 @@
 		"funcContent":[
 			{
 				"funcName":"",
-				"funcTitle":"Network isolation",
-				"funcP":"VPC divides a separate and secure private space for users. VPCs are isolated independently. VMs can be deployed under different VPCs to achieve network isolation. Users can fully control network management, support independent sub-netting, EIP configuration, etc. In addition, the user’s local server can be connected to the JD VM through a VPN or a direct connect service to expand the existing network deployment."
+				"funcTitle":"Network Isolation",
+				"funcP":"The Virtual Private Cloud allocates an isolated and secure private space for users. With independently isolated Virtual Private Clouds, the Virtual Machines can be deployed under different Virtual Private Clouds to enable network isolation. The users can have full control of network management, with independent sub-netting and EIP configuration supported. Moreover, the user’s local server can be connected to the JD Virtual Machines through a VPN or direct connection service to expand the existing network deployment."
 			},
 			{
 				"funcName":"",
 				"funcTitle":"Elastic IP",
-				"funcP":"The EIP is associated with the JD Cloud account. The user can associate any VM in the same area to implement external network access of the VM. At the same time, you can adjust the bandwidth and change the binding VM according to the actual network usage. JD Cloud provides up to 2Gbps of free DDoS protection for EIP, without interruption defense against cyber attacks."
+				"funcP":"The Elastic IP is associated with the JD Cloud account, and any Virtual Machine in the same region can be associated to enable external network access of the Virtual Machines. At the same time, the users can adjust the bandwidth and change the bound Virtual Machines based on the actual network usage. JD Cloud provides up to 2Gbps of free DDoS protection for EIP, which can defend against cyber-attacks without interruption."
 			}
 		]
 	},
@@ -50,17 +50,17 @@
 			{
 				"funcName":"",
 				"funcTitle":"SSH Key Pair",
-				"funcP":"JD Cloud allows the use of secret key encryption to decrypt the machine login information based on Linux system, providing users with a more secure key login method than password login, so that your machine rights management is simplified while enjoying a higher level of security."
+				"funcP":"JD Cloud allows the use of secret key encryption to decrypt the Virtual Machines login information based on the Linux system, providing a more secure key login method than password login, so as to simplify the Virtual Machines authority management with a higher level of security."
 			},
 			{
 				"funcName":"",
 				"funcTitle":"Security Group",
-				"funcP":"Security group is a distributed and stateful virtual firewall with the function of detecting and filtering the data packets coming in and out of the VM. Network groups can be used to control network access for single or multiple VM(s), including east-west traffic between VMs and north-south traffic between VM and EIP’s communication. Network security isolation between VMs can be realized by using the function of security group."
+				"funcP":"Security Group is a distributed and stateful virtual firewall featured by detecting and filtering the data packets coming in and out of the Virtual Machines. Safety Group can be used for IAM of single or multiple Virtual Machines, including east-west flow between Virtual Machines and north-south flow between Virtual Machines and EIP’s communications. Network security isolation between Virtual Machines can be achieved by employing Security Group."
 			},
 			{
 				"funcName":"",
 				"funcTitle":"Resource Monitoring",
-				"funcP":"Monitoring VMs based on multi-dimensionality, which is convenient for users to grasp VM resource usage, performance and running status in real time. Support customized alarm rules for different monitoring indicators, and send alarm notifications via SMS, email and etc., to meet the demands of different user scenarios and ensure the continuous and stable operation of the application."
+				"funcP":"Monitoring Virtual Machines based on multi-dimensionality can facilitate keeping users informed of the Virtual Machines resource usage, performance and running status in real time. Customized alarm rules for different monitoring indicators are supported and alarm notices are sent via SMS and email, etc., to meet the needs of different user scenarios and ensure the continuous and stable operation of the application."
 			}
 		]
 	},
@@ -70,17 +70,17 @@
 			{
 				"funcName":"",
 				"funcTitle":"Public Image",
-				"funcP":"The public base mirror image provided by JD Cloud contains multiple distribution editions of Linux and Windows. The Public Image contains the initial system environment or basic software, and the user can configure the application environment and related software configuration according to actual application demands."
+				"funcP":"The Public Base Impage provided by JD Cloud include multiple distribution editions of Linux and Windows. The Public Image is comprised of the initial system environment or basic software, which can be configured independently according to the actual application demands."
 			},
 			{
 				"funcName":"",
 				"funcTitle":"Private Image",
-				"funcP":"Based on custom mirror image created by own VM, it could use for deploying VM with consistent environment quickly in batch. In addition, it also supports users share their Private Images with other JD Cloud users to use."
+				"funcP":"Based on custom image created by own Virtual Machines, it can be used to rapidly deploy the Virtual Machines with consistent environment in batch. Moreover, users can also share their Private Images with other JD Cloud users."
 			},
 			{
 				"funcName":"",
-				"funcTitle":"Image Marketplace",
-				"funcP":"The image provided by the service providers (including the official team of JD Cloud) in JD Cloud-Cloud Marketplace integrates the running environment or software of different service scenarios which is convenient for users to quickly deploy services."
+				"funcTitle":"Marketplace Image",
+				"funcP":"TThe image provided by the service providers (including the JD Cloud team) in JD Cloud-Marketplace integrates the running environments or software for different service scenarios, which facilitate fast deployment of services."
 			}
 		]
 	}

@@ -1,20 +1,20 @@
 [
 	{
-		"proGoodTitle":"Product advantages",
+		"proGoodTitle":"Benefits",
 		"proNameTitle":"Availability Group",
 		"proDiffTitle":"",
-		"proGood":"Auto operation and maintenance",
-		"proName":"The real-time manual intervention is not required, and the number of VMs can be adjusted dynamically and the availability group can support the dynamic addition and deletion of VMs based on the alarms/timing policies preset by you, so that you can easily deal with the fluctuation of workloads, ensure the service capability at the peak of workloads and save the workload costs at the trough of workloads.",
+		"proGood":"Auto Operation and Maintenance",
+		"proName":"Real-time manual intervention is not required, and the number of Virtual Machines can be adjusted dynamically. The Availability Group supports dynamic addition and deletion of Virtual Machines based on the preset alarm/schedule policies, so that the fluctuations of workloads can be easily handled and service capability during peak workloads can be guaranteed, thus saving the operation costs during trough of workloads.",
 		"proDiff":""
 	},
 	{
-		"proGood":"High business availability",
-		"proName":"The high-availability group supports crossing availability zones. When you choose to deploy VMs within a high-availability group, JD Cloud will ensure that your VMs are dispersed on different physical fault domains of multiple availability zones, and the fault domains are isolated from each other. When hardware fault or timing maintenance occurs in a fault domain, only the VMs deployed on the fault domain are affected. The VMs on other fault domains are still available to ensure the normal operation of your business.",
+		"proGood":"Business High Availability",
+		"proName":"The Availability Group supports crossing Availability Zones. When the user chooses to deploy Virtual Machines within an Availability Group, JD Cloud will ensure that the Virtual Machines are dispersed on different physical fault domains of Availability Zones with the fault domains isolating from each other. Only the Virtual Machines deployed on a fault domain are affected in the case of hardware failure or scheduled maintenance in the fault domain. The Virtual Machines on other fault domains are still available to ensure normal operation of your service.",
 		"proDiff":""
 	},
 	{
-		"proGood":"Auto operation and maintenance",
-		"proName":"The real-time manual intervention is not required, and the number of VMs can be adjusted dynamically and the availability group can support the dynamic addition and deletion of VMs based on the alarms/timing policies preset by you, so that you can easily deal with the fluctuation of workloads, ensure the service capability at the peak of workloads and save the workload costs at the trough of workloads.",
+		"proGood":"Auto Operation and Maintenance",
+		"proName":"Real-time manual intervention is not required, and the number of Virtual Machines can be adjusted dynamically. The Availability Group supports dynamic addition and deletion of Virtual Machines based on the preset alarm/schedule policies, so that the fluctuations of workloads can be easily handled and service capability during peak workloads can be guaranteed, thus saving the operation costs during trough of workloads.",
 		"proDiff":""
 	}
 ]

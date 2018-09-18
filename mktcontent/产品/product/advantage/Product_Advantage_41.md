@@ -1,35 +1,35 @@
 [
 	{
-		"proGoodTitle":"Product advantages",
+		"proGoodTitle":"Benefits",
 		"proNameTitle":"Description",
 		"proDiffTitle":"",
-		"proGood":"Enterprise operation and maintenance",
-		"proName":"The functions, e.g. job running monitoring, exception handling, warning notice and job log search, are provided to support the self-help O&M by enterprises.",
+		"proGood":"Enterprise Operation and Maintenance",
+		"proName":"Job running monitoring, exception handling, alarm warning, job log search and other features are provided to support the self-help O&M by enterprises.",
 		"proDiff":""
 	},
 	{
-		"proGood":"Support rich data sources",
-		"proName":"Native Container can support different kinds of data sources for connection and data acquisition from the services on the cloud and different data sources in the local environment of users and acceleration of the process of data integration.",
+		"proGood":"Support Diversified Data Sources",
+		"proName":"It originally supports multiple data sources for connection and data collection from the services on the cloud and different data sources in the user local enviornment, which can accelerate the process of data integration.",
 		"proDiff":""
 	},
 	{
-		"proGood":"Reliable data synchronization capacity",
-		"proName":"The built-in efficient data allocation capacity allocates resources according to allocation tasks and provides high-quality and reliable synchronous services.",
+		"proGood":"Reliable Data Synchronization",
+		"proName":"The built-in efficient data transport capability allocates resources according to the allocation tasks with high-quality and reliable synchronization services.",
 		"proDiff":""
 	},
 	{
-		"proGood":"Seamless integration",
-		"proName":"It is seamlessly integrated with the services on the cloud to quickly connect the services of users, including data computing service, JMR, streaming data bus and streaming computing, etc. and carry out the data-driven service programming.",
+		"proGood":"Seamless Integration",
+		"proName":"Seamlessly integrated with services on the cloud, it can quickly connect to the Data Compute, JMR, Stream Hub, Stream Compute and other services of the users, and perform the data-driven service orchestration.",
 		"proDiff":""
 	},
 	{
-		"proGood":"Simple and easy to use",
-		"proName":"The wizard configuration, graphical service programming and flexible job scheduling mechanism are provided, so that users can quickly build the data pipeline for data acquisition and ETL processing analysis.",
+		"proGood":"Simple and User-friendly",
+		"proName":"Wizard configuration, graphical service orchestration and flexible job scheduling are provided, so that the users can quickly build the data pipeline for data collection and ETL processing and analysis.",
 		"proDiff":""
 	},
 	{
-		"proGood":"Enterprise operation and maintenance",
-		"proName":"The functions, e.g. job running monitoring, exception handling, warning notice and job log search, are provided to support the self-help O&M by enterprises.",
+		"proGood":"Enterprise Operation and Maintenance",
+		"proName":"Job running monitoring, exception handling, alarm warning, job log search and other features are provided to support the self-help O&M by enterprises.",
 		"proDiff":""
 	}
 ]

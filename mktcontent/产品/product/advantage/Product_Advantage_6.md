@@ -1,35 +1,35 @@
 [
 	{
-		"proGoodTitle":"Product advantages",
+		"proGoodTitle":"Benefits",
 		"proNameTitle":"Load Balancer",
-		"proDiffTitle":"Traditional hardware LB",
+		"proDiffTitle":"Traditional hardware Load Balancer",
 		"proGood":"High availability",
 		"proName":"Resources are subject to automatic redundancy configuration and resources are deployed in the multiple availability zone so as to ensure high availability of services.",
-		"proDiff":"Traditional dual-computer hot standby is adopted, needing manual configuration, with ordinary availability."
+		"proDiff":"Traditional dual-computer hot standby is adopted, which requires manual configuration and provides ordinary availability. "
 	},
 	{
-		"proGood":"Convenient expansion",
-		"proName":"It can add or delete the back-end VM to realize seamless migration of services and adjust the VM quantity freely according to business scale and load. The user will not be aware of such operations.",
-		"proDiff":"When the business growth reaches the bottleneck of hardware, it needs to re-purchase the devices with higher performance, with tedious installation. More seriously, it even needs to interrupt the business."
+		"proGood":"Convenient Expansion",
+		"proName":"It can add or delete the back-end Virtual Machines to realize seamless migration of services and adjust the Virtual Machines quantity freely according to business scale and load. The user will not be aware of such operations.",
+		"proDiff":"When business growth reaches a bottleneck of hardware, devices with higher performance need to be purchased, the installation of which is tedious and even interrupts business. "
 	},
 	{
-		"proGood":"Low cost",
-		"proName":"It is not required to purchase hardware devices, and the billing method may be flexibly selected according to the workloads so as to significantly lower the costs for hardware devices, without O&M.",
-		"proDiff":"Need expensive hardware devices and professional operation and maintenance personnel, with high material and manpower costs."
+		"proGood":"Low Cost",
+		"proName":"No hardware needs to be purchased and the billing method can be selected based on workloads, thus significantly reducing the costs for hardware with free O&M.",
+		"proDiff":"Expensive hardware and professional O&M personnel are essential, causing high material and human costs."
 	},
 	{
 		"proGood":"High security",
-		"proName":"Under DDoS protection, which is based on public IP, services are secure.",
-		"proDiff":"The security protection module needs to be separately purchased and deployed, with complex operation and not high cost performance."
+		"proName":"EIP-based DDoS protection for Business Security. ",
+		"proDiff":"Security protection modules need to be separately purchased and deployed, bringing complex operation and low cost performance. "
 	},
 	{
-		"proGood":"Easy maintenance",
-		"proName":"The simple setting is made to achieve the strong and stable services of the load balancer, improve the capabilities of external services of workloads and realize easy operation, safety and reliability.",
+		"proGood":"Easy Maintenance",
+		"proName":"The simple setting is made to achieve the strong and stable services of the Load Balancer, improve the capabilities of external services of workloads and realize easy operation, safety and reliability.",
 		"proDiff":"Need professional operation and maintenance personnel, increasing the human costs."
 	},
 	{
 		"proGood":"High availability",
 		"proName":"Resources are subject to automatic redundancy configuration and resources are deployed in the multiple availability zone so as to ensure high availability of services.",
-		"proDiff":"Traditional dual-computer hot standby is adopted, needing manual configuration, with ordinary availability."
+		"proDiff":"Traditional dual-computer hot standby is adopted, which requires manual configuration and provides ordinary availability. "
 	}
 ]

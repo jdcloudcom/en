@@ -1,31 +1,31 @@
 [
 	{
-		"funcName":"Alarm Scaling mode",
+		"funcName":"Alarm Scaling Mode",
 		"funcContent":[
 			{
 				"funcName":"",
 				"funcTitle":"Alarm Scaling Mode",
-				"funcP":"Based on the performance of the VM monitoring performance indicators (such as CPU, memory usage, and network inbound and outbound traffic) to adjust business deployment, and it could customize alarm trigger strategy. When the business load makes indicator reaches the threshold value, the VM instance is automatically added or decreased according to the set strategy, so that the business load changes can be flexibly responded to improve resource utilization rate."
+				"funcP":"It adjusts service deployment based on the VM monitoring performance indicators (such as CPU, memory usage rate, inbound and outbound network flow, etc), which can customize the alarm trigger policy. When the workloads drive the indicators to the threshold value, the VM instances will be automatically added or decreased based on the set policy, so as to flexibly respond to workload changes and improve the resource utilization rate."
 			}
 		]
 	},
 	{
-		"funcName":"Timed Scaling Mode",
+		"funcName":"Scheduled Scaling Mode",
 		"funcContent":[
 			{
 				"funcName":"",
-				"funcTitle":"Timed Scaling Mode",
-				"funcP":"If you are predictable of changes in load, you can set up a scheduled task to plan ahead for your resource expansion/reduction activities. You can configure periodic tasks to automatically increase or decrease VM instances periodically, so as to flexibly respond to business load changes and improve resource utilization rate. When the periodic demand fluctuates, the alarm scaling mode can be configured to cope with unpredictable changes."
+				"funcTitle":"Scheduled Scaling Mode",
+				"funcP":"In the case of predictable workload changes, a scheduled task can be set up to plan for the resources increase/decrease in advance. Periodic tasks can be configured to automatically increase or decrease the VM instances on a scheduled basis, so as to flexible respond to workload changes and improve the resource utilization rate. When periodic demand fluctuates, the alarm scaling mode can also be configured to deal with unpredicable changes."
 			}
 		]
 	},
 	{
-		"funcName":"Automatically Load Balancer",
+		"funcName":"Automatic Adding Load Balancer",
 		"funcContent":[
 			{
 				"funcName":"",
-				"funcTitle":"Automatically Load Balancer",
-				"funcP":"The VM instances added by alarms and timing policies can directly associate with existing load balancer to share service traffic and improve service availability."
+				"funcTitle":"Automatic Adding Load Balancer",
+				"funcP":"The VM instances added by alarm and scheduled policies can directly associate with the existing Load Balancer to share the service flow and improve service availability."
 			}
 		]
 	},
@@ -35,7 +35,7 @@
 			{
 				"funcName":"",
 				"funcTitle":"Scaling Activity Record",
-				"funcP":"If you want to know all the scaling activities that have been performed by the scaling strategy (automatically/manually increase or decrease the machine), you can use this function to view, including the scaling cause, status, result details, time, and supporting query history record by time."
+				"funcP":"This feature enables the users to view all the scaling activities that have been performed by the Scaling Policy (automatically/manually increase or decrease the Virtual Machines), including the cause, status and result details of scaling, with query history by time supported"
 			}
 		]
 	}

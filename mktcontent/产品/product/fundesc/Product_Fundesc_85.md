@@ -1,16 +1,16 @@
 [
 	{
-		"funcName":"Core Function",
+		"funcName":"Core Features",
 		"funcContent":[
 			{
 				"funcName":"",
-				"funcTitle":"Publish subscription",
+				"funcTitle":"Publish Subscription",
 				"funcP":"Producers can create Topic to publish multiple types of messages, and consumers can subscribe to Topic for consumption on demand."
 			},
 			{
 				"funcName":"",
-				"funcTitle":"Message view",
-				"funcP":"Users can view message status and content through TopicID and MessageID."
+				"funcTitle":"Message View",
+				"funcP":"The users can view message status and content through TopicID and MessageID."
 			},
 			{
 				"funcName":"",
@@ -19,7 +19,7 @@
 			},
 			{
 				"funcName":"",
-				"funcTitle":"Reset consumption point",
+				"funcTitle":"Reset Consumption Point",
 				"funcP":"Reset the message consumption progress within the time of persistent storage (3 days by default)."
 			}
 		]
@@ -29,17 +29,17 @@
 		"funcContent":[
 			{
 				"funcName":"",
-				"funcTitle":"Ordinary message",
+				"funcTitle":"Ordinary Message",
 				"funcP":"Solve asynchronous decoupling between businesses, peaking and filling of traffic, message communication, etc."
 			},
 			{
 				"funcName":"",
-				"funcTitle":"Sequential message",
-				"funcP":"Sequential consumption (FIFO) shall be performed in the order of messages’ release."
+				"funcTitle":"Sequential Message",
+				"funcP":"Sequential consumption (FIFO) shall be performed in the release order of messages."
 			},
 			{
 				"funcName":"",
-				"funcTitle":"Delay message",
+				"funcTitle":"Delay Message",
 				"funcP":"The delivery is performed at a specified delay time point after the message-sending time (current time), for example, the delivery is performed 5 minutes after the sending time of the specified message."
 			}
 		]
@@ -49,12 +49,12 @@
 		"funcContent":[
 			{
 				"funcName":"",
-				"funcTitle":"Support HTTP protocol access",
+				"funcTitle":"Support HTTP Protocol Access",
 				"funcP":"Support Restful API, easy and convenient to access."
 			},
 			{
 				"funcName":"",
-				"funcTitle":"Support TCP protocol access",
+				"funcTitle":"Support TCP Protocol Access",
 				"funcP":"Provide SDK access of a more professional, reliable and stable SDK protocol. \t"
 			}
 		]
@@ -64,12 +64,12 @@
 		"funcContent":[
 			{
 				"funcName":"",
-				"funcTitle":"Smooth extension",
+				"funcTitle":"Smooth Extension",
 				"funcP":"Support elastic expansion which can increase or decrease resources as needed according to service conditions, to improve resource utilization rate and reduce the cost of consumption."
 			},
 			{
 				"funcName":"",
-				"funcTitle":"Development convenience",
+				"funcTitle":"Development Facilitation",
 				"funcP":"Provide a web console, API access interface and java SDK, easy to develop. It is also convenient for service support and service migration."
 			}
 		]
@@ -79,13 +79,13 @@
 		"funcContent":[
 			{
 				"funcName":"",
-				"funcTitle":"Comprehensive monitoring ",
-				"funcP":"Provide functions such as multi-dimensional monitoring for the running status and performance of resources, stability maintenance and so on. It also provides early warning notification to reduce daily maintenance workload"
+				"funcTitle":"Comprehensive Monitoring ",
+				"funcP":"Provide features such as multi-dimensional monitoring for the running status and performance of resources, stability maintenance and so on. It also provides early warning notification to reduce daily maintenance workload"
 			},
 			{
 				"funcName":"",
-				"funcTitle":"VPC",
-				"funcP":"Instances run in Virtual Private Cloud (VPC), enhancing security and isolation. Provide access restrictions such as subnets and Identity and Access Management policies to protect against network attacks and safeguard your service privacy"
+				"funcTitle":"Virtual Private Cloud",
+				"funcP":"Instances run in Virtual Private Cloud, enhancing security and isolation. Provide access restrictions such as subnets and IAM policies to protect against network attacks and safeguard your service privacy"
 			}
 		]
 	}

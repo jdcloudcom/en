@@ -1,36 +1,36 @@
 [
 	{
-		"funcName":"Multiple-network Interface & Multiple IP",
+		"funcName":"Multiple Network Interfaces & Multiple IPs",
 		"funcContent":[
 			{
 				"funcName":"",
-				"funcTitle":"Multiple network card",
-				"funcP":"According to the VM instance type, a single VM can support to bind up to eight Elastic Network Interfaces which can respectively belong to different subnets under the same VPC."
+				"funcTitle":"Multiple Network Interfaces",
+				"funcP":"According to the VM instance type, a single Virtual Machine can support association with up to eight Elastic Network Interfaces which can respectively belong to different subnets under the same Virtual Private Cloud."
 			},
 			{
 				"funcName":"",
-				"funcTitle":"Multi-Private IP",
-				"funcP":"According to the VM instance type, each Elastic Network Interface of the VM supports up to 21 intranet IP addresses, and all Private IP addresses on the same Elastic Network Interface belong to the same subnet."
+				"funcTitle":"Multiple Private IPs",
+				"funcP":"According to the VM instance type, each elastic network interface of the Virtual Machines supports up to 21 private IP addresses, and all private IP address on the same Elastic Network Interface belong to the same subnet."
 			},
 			{
 				"funcName":"",
 				"funcTitle":"Multi EIP",
-				"funcP":"Each Private IP address is assigned to an Elastic Network Interface. The Private IP address can be associated with an EIP address."
+				"funcP":"Each internal network IP address allocated to one Elastic Network Interface can be associated with one Elastic IP address."
 			}
 		]
 	},
 	{
-		"funcName":"Migration of Network Interface Card",
+		"funcName":"Migration of Network Interface",
 		"funcContent":[
 			{
 				"funcName":"",
-				"funcTitle":"Territory-level network card",
-				"funcP":"Support Elastic Network Interface of region class attribute, breaking through the limitations of available zones of traditional Elastic Network Interfaces. An Elastic Network Interface can be migrated elastically between VMs in different available zones in VPC."
+				"funcTitle":"Territory-level Network Interface",
+				"funcP":"Support Elastic Network Interfaces of region-level attribute, breaking through the limitation of availability zones of traditional elastic network interfaces. The elastic network interfaces can be migrated elastically between Virtual Machines in different availability zones in the Virtual Private Cloud."
 			},
 			{
 				"funcName":"",
 				"funcTitle":"Flexible migration",
-				"funcP":"The Elastic Network Interface can be flexibly migrated between the VMs in the VPC. When the Elastic Network Interface is migrated, the assigned Private IP address, EIP address, and security group are retained."
+				"funcP":"The Elastic Network Interface can be flexibly migrated between the Virtual Machines in the Virtual Private Cloud. When the Elastic Network Interface is migrated, the assigned private IP address, Elastic IP address and security group remain unchanged."
 			}
 		]
 	},
@@ -44,8 +44,8 @@
 			},
 			{
 				"funcName":"",
-				"funcTitle":"Business traffic separation",
-				"funcP":"A VM can be mounted with multiple Elastic Network Interfaces. The traffic of a specific service can be carried by a specific Elastic Network Interface. Different Elastic Network Interfaces use security group policies respectively, to accurately separate service traffic and security policies."
+				"funcTitle":"Business Traffic Separation",
+				"funcP":"Multiple Elastic Network Interfaces may be attached to a Virtual Machine. The traffic of a specific business can be carried by a specific Elastic Network Interface. The Security Group Policy is applied for different Elastic Network Interfaces respectively to accurately separate business traffic and security policies."
 			}
 		]
 	},
@@ -54,13 +54,13 @@
 		"funcContent":[
 			{
 				"funcName":"",
-				"funcTitle":"Subnet routing",
-				"funcP":"A VM can attach multiple Elastic Network Interfaces that belong to different subnets. Each subnet can independently set up an identity and access management policy and a route forwarding policy to achieve security isolation between user services and the network."
+				"funcTitle":"Subnet Routing",
+				"funcP":"Multiple Elastic Network Interfaces that belong to different subnets may be attached to a Virtual Machine. Each subnet can independently set up an IAM policy and a route forwarding policy to achieve security isolation between user business and the network"
 			},
 			{
 				"funcName":"",
-				"funcTitle":"Machine routing",
-				"funcP":"A fine routing policy can be set up inside the VM. The specific service traffic can be forwarded by a specific Elastic Network Interface or a specific IP address."
+				"funcTitle":"Machine Routing",
+				"funcP":"A fine routing policy can be set up inside the Virtual Machines. The specific business traffic can be forwarded by a specific Elastic Network Interface or a specific IP address."
 			}
 		]
 	}

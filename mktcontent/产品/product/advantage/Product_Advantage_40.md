@@ -1,25 +1,25 @@
 [
 	{
-		"proGoodTitle":"Product advantages",
+		"proGoodTitle":"Benefits",
 		"proNameTitle":"Description",
 		"proDiffTitle":"",
-		"proGood":"Rich visualization effect",
-		"proName":"The additional effects of visual diagrams of data are supported and the personalized report demonstration scheme is recommended intelligently.",
+		"proGood":"Diversified Visualization Effect",
+		"proName":"Diversified effects of visual data diagrams are supported with intelligent recommendation of personalized report demonstration solutions.",
 		"proDiff":""
 	},
 	{
-		"proGood":" Simple and convenient operation",
-		"proName":"The automatic and manual drag-and-drop modes are used for the WYSIWYG visualization of data and data analysis is completed due to the low barrier, so as to easily master the data analysis tool.",
+		"proGood":" Simple and Convenient Operation",
+		"proName":"WYSIWYG visualization of data is performed with the automatic and manual drag-and-drop modes, enabling data analysis with low threshold, so as to easily utilize the data analysis tool.",
 		"proDiff":""
 	},
 	{
-		"proGood":"Top-speed mass data analysis",
-		"proName":"The multidimensional data model is configured to support the ultra-low-latency processing of data, realize the sub-second response to most of inquiries and adapt to the high-concurrency interactive analysis scenario.",
+		"proGood":"Top-speed Mass Data Analysis",
+		"proName":"The multidimensional data model is configured to support ulta-low-latency processing of ten-million-level data, and realize sub-second response to most of inqueries and adapt to the high-concurrency interactive anaysis scenario.",
 		"proDiff":""
 	},
 	{
-		"proGood":"Rich visualization effect",
-		"proName":"The additional effects of visual diagrams of data are supported and the personalized report demonstration scheme is recommended intelligently.",
+		"proGood":"Diversified Visualization Effect",
+		"proName":"Diversified effects of visual data diagrams are supported with intelligent recommendation of personalized report demonstration solutions.",
 		"proDiff":""
 	}
 ]

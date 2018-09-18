@@ -1,11 +1,11 @@
 [
 	{
-		"funcName":"Multi-regional Storage",
+		"funcName":"Multi-region Storage",
 		"funcContent":[
 			{
 				"funcName":"",
-				"funcTitle":"Selecting storage areas nearby to reduce resource acquisition delays that can achieve remote disaster tolerence.",
-				"funcP":"You can select storage areas nearby based on business hotspots to reduce resource acquisition delays. At the same time, multi-site storage can help customers achieve remote disaster tolerance."
+				"funcTitle":"Nearby storage region is selected to reduce resource acquisition delay and enable remote disaster tolerance.",
+				"funcP":"You can select the storage region nearby based on the service hotspots to reduce resource acquisition delays, and such multi-region storage can help achieve remote disaster tolerance."
 			}
 		]
 	},
@@ -14,8 +14,8 @@
 		"funcContent":[
 			{
 				"funcName":"",
-				"funcTitle":"Use JD's self-built CDN acceleration node to provide you with two-way acceleration for uploading and downloading.",
-				"funcP":"With JD's self-created CDN acceleration nodes, you can use JD Cloud's object storage service and CDN services together to achieve full network coverage and fast, efficient content distribution."
+				"funcTitle":"JD's self-built CDN acceleration nodes enable both uploading and downloading acceleration.",
+				"funcP":"JD’s self-built CDN acceleration nodes enable a combined usage of JD Cloud’s Object Storage Service and CDN service, achieving full network coverage and fast, efficient content distribution."
 			}
 		]
 	},
@@ -24,18 +24,18 @@
 		"funcContent":[
 			{
 				"funcName":"",
-				"funcTitle":"Provide picture processing, audio & video trans-coding, porn identification and other value-added services, which is constantly enriched.",
-				"funcP":"The data processing service provided by JD Cloud can realize image cutting, format conversion and watermarking, rich data processing functions such as audio and video transcoding, porn identification and face recognition, and supports mainstream pictures and video formats. Currently, it has supported JD’s hundreds of millions of picture services."
+				"funcTitle":"A number of value-added services are avaiable including picture processing, audio & video transcoding, pron identification and others, with a lot more to come.",
+				"funcP":"The Data Processing Service provided by JD Cloud is featured by image cutting, format conversion and watermarking, as well as a range of diversified data processing features such as audio and video transcoding, porn identification and face recognigion, with mainstream pictures and video formats supported. Currently, it has supported services for JD’s hundreds of millions of pictures. "
 			}
 		]
 	},
 	{
-		"funcName":"Anti-theft Chain",
+		"funcName":"Anti-Leech",
 		"funcContent":[
 			{
 				"funcName":"",
-				"funcTitle":"Support a variety of anti-theft chain settings to protect users from the problem of misappropriation of resources.",
-				"funcP":"Establish the black and white list of Bucket anti-leech. When there is external request for resources in the storage space, judge whether the referer of the HTTP request header is in the black and white list or not, then decide to prohibit or permit the said external request, to prevent the stealing of resources and additional network traffic cost generated once resources are stolen."
+				"funcTitle":"A variety of anti-leech settings are supported to protect users from resources misappropriation.",
+				"funcP":"The balck list and white list of Bucket anti-leech are set in place so that the stealing of resources and additional network flow charges generated can be prevented by judging whether the referer of the header requested by HTTP is in the black or white list and then deciding to forbid or permit the said request when there is an external request for resources in the storage space."
 			}
 		]
 	}

@@ -4,28 +4,28 @@
 		"funcContent":[
 			{
 				"funcName":"",
-				"funcTitle":"WYSIWYG operations to support in-depth customized reports",
-				"funcP":"Provide users with a drag-and-drop operation mode, and you can get the reports you need very quickly and directly. It also supports in-depth customization. At the same time, it can provide quick sharing function to meet your needs of sharing the reports. \n Customize the data processing logic, process big data quickly and obtain visual charts by drag-and-drop \n"
+				"funcTitle":"WYSIWYG Operations to Support In-depth Customized Reports",
+				"funcP":"It provides users with a drag-and-drop operation mode, which enables fast and direct acquisition of the reports needed, with in-depth customization supported. Moreover, it offers quick sharing to meet the needs of reports sharing. The visual charts can be obtained with the drag-and-drop mode by cusomizing the data processing logic and processing big data quickly. \n"
 			}
 		]
 	},
 	{
-		"funcName":"Abundant Chart Forms",
+		"funcName":"Diversified Chart Forms",
 		"funcContent":[
 			{
 				"funcName":"",
-				"funcTitle":"Multi-chart format, flexible arrangement of multiple combinations of plug-ins to meet users’ needs",
-				"funcP":"Support line graphs, column maps, scatter plots, pie charts, radar charts, heat maps, dashboards, funnels, Wayne charts, and other visual chart formats, to meet the needs of different customer scenarios."
+				"funcTitle":"Multi-charts, Flexible Layout of Plug-in Combinations to Meet Your Needs",
+				"funcP":"It supports a wide range of visual chart formats, including line graphs, column maps, scatter plots, pie charts, radar charts, heat maps, dashboards, funnels and Wayne charts, to meet the needs of different customer senarios."
 			}
 		]
 	},
 	{
-		"funcName":"Real-time Analysis regarding Massive Data",
+		"funcName":"Real-time Analysis of Mass Data",
 		"funcContent":[
 			{
 				"funcName":"",
 				"funcTitle":"Fast data computing",
-				"funcP":"Support online analysis of massive data, not needing to preprocess a large amount of data in advance, and greatly improve the efficiency of analysis."
+				"funcP":"It supports online analysis of mass data without preprocessing a large amount of data in advance, thus greatly improving the efficiency of analysis."
 			}
 		]
 	}

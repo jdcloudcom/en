@@ -4,18 +4,18 @@
 		"funcContent":[
 			{
 				"funcName":"",
-				"funcTitle":"Flexible creation of cluster",
-				"funcP":"According to the hardware configuration, storage, and software of the user specified node, the cluster is automatically created in one-click mode, and the firewall settings and EIP associating are automatically completed."
+				"funcTitle":"Flexible Creation of Cluster",
+				"funcP":"According to the hardware configuration, storage, and software of the user specified node, the cluster is automatically created in one-click mode, and the firewall settings and EIP association are automatically completed."
 			},
 			{
 				"funcName":"",
-				"funcTitle":"Flexible expansion of cluster",
+				"funcTitle":"Flexible Expansion of Cluster",
 				"funcP":"As the business volume increases, the cluster can be expanded at any time. \n"
 			},
 			{
 				"funcName":"",
-				"funcTitle":"Flexible release of cluster",
-				"funcP":"If you are temporarily calculating massive amounts of data, you can release the associated cluster at any time."
+				"funcTitle":"Flexible Release of Cluster",
+				"funcP":"If you are temporarily computing a mass amount of data, you can release the associated cluster at any time."
 			}
 		]
 	},
@@ -24,23 +24,23 @@
 		"funcContent":[
 			{
 				"funcName":"",
-				"funcTitle":"Main indicators of cluster",
+				"funcTitle":"Main Indicators of Cluster",
 				"funcP":"Provide monitoring for the availability and performance of cluster, to help users discover problems and solve such problems. It also meets user’s management requirements such as adjustment and release of cluster resources."
 			},
 			{
 				"funcName":"",
-				"funcTitle":"Cluster node indicator",
-				"funcP":"Monitoring the network status, hard disk status, etc. of each node in the cluster."
+				"funcTitle":"Cluster Node Indicator",
+				"funcP":"Monitor the network status, hard disk status, etc. of each node in the cluster."
 			},
 			{
 				"funcName":"",
-				"funcTitle":"Cluster service process",
-				"funcP":"Carrying out monitor based on the relevant components in your cluster. \n whether monitoring service node is working normally."
+				"funcTitle":"Cluster Service Process",
+				"funcP":"Monitor based on the relevant components in your cluster, whether monitoring service nodes are working normally or not."
 			}
 		]
 	},
 	{
-		"funcName":"Management of the work",
+		"funcName":"Job Management",
 		"funcContent":[
 			{
 				"funcName":"",
@@ -50,7 +50,7 @@
 			{
 				"funcName":"",
 				"funcTitle":"Deploy Job",
-				"funcP":"The scheduling strategy is divided into single scheduling and periodic scheduling during deployment. \n It is possible to give the customer the flexibility to choose the time at which the job will be implemented automatically."
+				"funcP":"The scheduling policy is divided into single scheduling and periodic scheduling during deployment. \n It can give the customer the flexibility to choose the time at which the job will be implemented automatically."
 			}
 		]
 	}

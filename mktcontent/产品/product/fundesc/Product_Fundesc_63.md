@@ -24,7 +24,7 @@
 		"funcContent":[
 			{
 				"funcName":"",
-				"funcTitle":"Attack chain analysis",
+				"funcTitle":"Attack Chain Analysis",
 				"funcP":"Provide queries based on account assets, details time segments and threat models, levels and processing status, event details lists, and event handling status in more detail. It also provides specific event details. \n"
 			}
 		]
@@ -34,7 +34,7 @@
 		"funcContent":[
 			{
 				"funcName":"",
-				"funcTitle":"Machine vulnerability",
+				"funcTitle":"Machine Vulnerability",
 				"funcP":"Currently, based on the details of the machine vulnerability, the vulnerability should be used as a statistical dimension to show the host weaknesses. Urging users to fix related vulnerabilities. \n"
 			}
 		]
@@ -45,7 +45,7 @@
 			{
 				"funcName":"",
 				"funcTitle":"Provide cloud network and machine asset associations",
-				"funcP":"In current issue, due to the introduction of host-related threat events, the concept of Situation Awareness assets is also extended to the combination of external network IP and internal network IP. Query based on internal and external network is provided. and opening and closing functions of the network detection engine."
+				"funcP":"In current issue, due to the introduction of host-related threat events, the concept of Situation Awareness assets is also extended to the combination of external network IP and internal network IP. Query based on internal and external network is provided. and opening and closing features of the network detection engine."
 			}
 		]
 	},
@@ -55,7 +55,7 @@
 			{
 				"funcName":"",
 				"funcTitle":"Event Alarm",
-				"funcP":"In order to enable users to obtain threat alarms quickly, the function of alarming by email and SMS is designed."
+				"funcP":"In order to enable users to obtain threat alarms quickly, the feature of alarming by email and SMS is designed."
 			}
 		]
 	}

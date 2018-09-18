@@ -4,12 +4,12 @@
 		"funcContent":[
 			{
 				"funcName":"",
-				"funcTitle":"ID card identification",
+				"funcTitle":"ID Identification",
 				"funcP":"Upload the picture of ID card and extract the information such as ID number, address, name, gender and so on from the picture."
 			},
 			{
 				"funcName":"",
-				"funcTitle":"Driving license identification",
+				"funcTitle":"Driving License Identification",
 				"funcP":"Uploading the driving license picture and extracting the owner, license plate number, vehicle types, addresses and other information from the picture."
 			},
 			{
@@ -19,7 +19,7 @@
 			},
 			{
 				"funcName":"",
-				"funcTitle":"Passport identification",
+				"funcTitle":"Passport Identification",
 				"funcP":"Uploading a passport picture and extracting the name, passport number, nationality, license date, and other information from the picture."
 			}
 		]
@@ -29,12 +29,12 @@
 		"funcContent":[
 			{
 				"funcName":"",
-				"funcTitle":"Bank card identification",
+				"funcTitle":"Bank Card Identification",
 				"funcP":"Upload the picture of bank card and extract the information such as bank card number, bank name and so on from the picture."
 			},
 			{
 				"funcName":"",
-				"funcTitle":"Business card recognition",
+				"funcTitle":"Business Card Recognition",
 				"funcP":"Upload the picture of business card and extract the information such as name, company name, mobile phone number, address and so on from the picture."
 			}
 		]
@@ -44,12 +44,12 @@
 		"funcContent":[
 			{
 				"funcName":"",
-				"funcTitle":"Business license identification",
+				"funcTitle":"Business License Identification",
 				"funcP":"Upload the picture of business license and extract the information such as company name, type, business scope and so on from the picture."
 			},
 			{
 				"funcName":"",
-				"funcTitle":"Universal text recognition",
+				"funcTitle":"Universal Text Recognition",
 				"funcP":"Upload the picture, locate the text area in the picture and extract the text information."
 			}
 		]

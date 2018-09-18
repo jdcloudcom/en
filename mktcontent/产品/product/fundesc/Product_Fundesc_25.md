@@ -14,7 +14,7 @@
 		"funcContent":[
 			{
 				"funcName":"",
-				"funcTitle":"Support SQL, Python, R and other multi-language analysis queries",
+				"funcTitle":"Support SQL, Python Multi-language Analysis and Query",
 				"funcP":"In the process of data mining, a large number of analytical languages are needed to meet the needs of multiple scenarios. Digivoice Platform integrates abundant computing engines, allowing users to flexibly switch between SQL, Python and R language for data analysis."
 			}
 		]
@@ -24,8 +24,8 @@
 		"funcContent":[
 			{
 				"funcName":"",
-				"funcTitle":"WYSIWYG operations to support in-depth customized reports",
-				"funcP":"Digivoice Big Data Development Kit provides users with a drag-and-drop type operation mode that allows you to get the reports you need very quickly and directly, and supports in-depth customization. At the same time, it can provide quick sharing function to meet your need of sharing the reports."
+				"funcTitle":"WYSIWYG Operations to Support In-depth Customized Reports",
+				"funcP":"Digivoice Big Data Development Kit provides users with a drag-and-drop type operation mode that allows you to get the reports you need very quickly and directly, and supports in-depth customization. At the same time, it can provide quick sharing feature to meet your need of sharing the reports."
 			}
 		]
 	},
@@ -44,8 +44,8 @@
 		"funcContent":[
 			{
 				"funcName":"",
-				"funcTitle":"All functions of Digivoice Big Data are opened in API package, which is convenient for users to call and provide users with interfaced data services",
-				"funcP":"All the function points of Digivoice will be packaged into API for users to call conveniently, providing users with interfaced data services. It is convenient for users to customize their own service systems to create an open ecosystem jointly."
+				"funcTitle":"All features of Digivoice Big Data are opened in API package, which is convenient for users to call and provide users with interfaced data services",
+				"funcP":"All the feature points of Digivoice will be packaged into API for users to call conveniently, providing users with interfaced data services. It is convenient for users to customize their own service systems to create an open ecosystem jointly."
 			}
 		]
 	}
