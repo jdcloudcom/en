@@ -13,6 +13,7 @@ Authorization: SignatureValue
 Host: BucketName.s-bj.jcloud.com
 ```
 **Request Parameter**
+
 |Name|Description|If Compulsory|
 |-|-|-|
 |Effect|BlackList and White List set <br>Type: Enumerated character string<br>Effective value: DENIED or ALLOW<br>ALLOW: White List, DENIED: Blacklist|Yes|
@@ -20,11 +21,11 @@ Host: BucketName.s-bj.jcloud.com
 |IsAllowNull|Assign request access whether allows referer field is null. <br>Type: Enumerated character string<br>Effective value: true or false Default value: true|Yes|
 
 Detail Analysis:
-1. Only the owner of Bucket can initiate Put Bucket Referer request, or return 403 Forbidden Message. Error code: AccessDenied.
+1.Only the owner of Bucket can initiate Put Bucket Referer request, or return 403 Forbidden Message. Error code: AccessDenied.
 
-2. Configurations assigned in IsAllowNull will replace previous IsAllowNull configurations, the field is a compulsory item, IsAllowNull configurations in the system by default are true.
+2.Configurations assigned in IsAllowNull will replace previous IsAllowNull configurations, the field is a compulsory item, IsAllowNull configurations in the system by default are true.
 
-3. This action will use the White List to replace the previously configured White List, when the RefererList uploaded by the user is blank (not inclusive of Referer request parameter), the action will replace the configured White List, which means deleting the previously configured RefererList.
+3.This action will use the White List to replace the previously configured White List, when the RefererList uploaded by the user is blank (not inclusive of Referer request parameter), the action will replace the configured White List, which means deleting the previously configured RefererList.
 
 **Not inclusive of request example of Referer**
 ```
