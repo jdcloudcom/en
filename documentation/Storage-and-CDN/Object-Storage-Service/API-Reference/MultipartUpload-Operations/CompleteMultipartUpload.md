@@ -83,7 +83,7 @@ Authorization: jingdong qbS5QXpLORrvdrmb:/Qq9QFSIEzaPPL5YgAkbHoXkTKc=
 }       
 ```
 
-**Return Example**
+**Response Example**
 
 ```
 HTTP/1.1 200 OK
