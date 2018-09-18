@@ -1,0 +1,76 @@
+name: Cloud Cabinet Service
+href: 
+items:
+- name: Introduction
+  items:
+      - name: Product Overview
+        href: Introduction/Product-Overview.md
+      - name: Core Concepts
+        href: Introduction/Core-Concepts.md
+      - name: Infrastructure
+        href: 
+        status: 0
+      - name: Benefits
+        href: Introduction/Benefits.md
+      - name: Features
+        href: Introduction/Features.md
+      - name: Specifications
+        href: Introduction/Specifications.md
+      - name: Restrictions
+        href: 
+        status: 0
+      - name: Application Scenarios 
+        href: Introduction/Application-Scenarios.md    
+- name: Pricing
+  items:
+      - name: Billing Overview
+        href: Pricing/Billing-Overview.md
+      - name: Billing Rules
+        href: 
+        status: 0
+      - name: Price Overview
+        href: 
+        status: 0
+      - name: Purchase Process
+        href:
+        status: 0
+      - name: Renew Process
+        href: 
+        status: 0
+- name: Getting Started
+  items:
+      - name: Overview of Getting Started
+        href: Getting-Started/Overview.md
+- name: Operation Guide
+  items:
+      - name: Use Notes
+        href: Operation-Guide/Operation-Instruction/Operation-Instruction.md
+      - name: Resource Management
+        items:
+          - name: View the Cabinet List
+            href: Operation-Guide/Resources-Management/View-Cabinet-List.md
+          - name: View the Equipment List
+            href: Operation-Guide/Instance-Management/View-Device-List.md
+          - name: View the Public IP List
+            href: Operation-Guide/Instance-Management/View-ipAddress-List.md
+          - name: View the Bandwidth List
+            href: Operation-Guide/Instance-Management/View-Bandwidth-List.md
+      - name: Ticket Management
+        items:
+          - name: Open Ticket
+            href: Operation-Guide/Tickets-Management/submitTicket.md
+          - name: View the Ticket List
+            href: Operation-Guide/Tickets-Management/View-Tickets-List.md
+- name: Best Practices
+  items:
+  status: 0
+- name: Tutorial
+  status: 0
+- name: Troubleshooting
+  status: 0    
+- name: FAQ
+  href: FAQ/FAQ.md
+- name: Related Resources
+  items:
+    - name: Document History
+      href: Related-Resources/Document-History.md

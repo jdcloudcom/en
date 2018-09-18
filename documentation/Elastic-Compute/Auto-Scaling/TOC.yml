@@ -1,0 +1,28 @@
+name: Auto Scaling
+href: 
+items:
+- name: Introduction
+  items:
+    - name: Product Overview
+      href: Introduction/Product-Overview.md
+    - name: Benefits
+      href: Introduction/Benefits.md
+    - name: Restrictions
+      href: Introduction/Limits.md
+    - name: Application Scenarios 
+      href: Introduction/Scenarios.md    
+- name: Pricing
+  items:
+    - name: Billing Overview
+      href: Pricing/Billing-Overview.md
+- name: Operation Guide
+  items:
+    - name: Create Launch Configuration
+      href: Operation-Guide/Create-Startup-Configuration.md
+    - name: Create Auto Scaling Group
+      href: Operation-Guide/Create-Scalable-Group.md
+    - name: Add Auto Scaling Strategy
+      href: Operation-Guide/Create-AS-Policy.md  
+- name: FAQ
+  href: FAQ/FAQ.md
+          
