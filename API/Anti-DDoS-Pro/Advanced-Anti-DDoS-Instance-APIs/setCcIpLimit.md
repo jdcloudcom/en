@@ -18,7 +18,7 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:setC
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**cCSpec**|[CcIpLimitSpec](##CcIpLimitSpec)|True||cc parameter|
+|**cCSpec**|CcIpLimitSpec|True||cc parameter|
 
 ### <a name="CcIpLimitSpec">CcIpLimitSpec</a>
 |Name|Type|Required or not|Default value|Description|

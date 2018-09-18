@@ -26,20 +26,20 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/vpcPeerings/{vpcPeeringId}
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
-|**vpcPeering**|[VpcPeering](##VpcPeering)|VpcPeering resource information|
+|**vpcPeering**|VpcPeering|VpcPeering resource information|
 
 
 ### <a name="VpcPeering">VpcPeering</a>
 |Name|Type|Description|
 |---|---|---|
-|**vpcPeering**|[VpcPeering](##VpcPeering)||
+|**vpcPeering**|VpcPeering||
 ### <a name="VpcPeering">VpcPeering</a>
 |Name|Type|Description|
 |---|---|---|
 |**createdTime**|String|VpcPeering creation time|
 |**description**|String|VpcPeering description, can be null value, value range: 0-256 Chinese, English capital and lowercase letters, numbers and underline delimiter|
-|**remoteVpcInfo**|[VpcPeeringVpcInfo](##VpcPeeringVpcInfo)|Opposite terminal Vpc information|
-|**vpcInfo**|[VpcPeeringVpcInfo](##VpcPeeringVpcInfo)|Vpc information launching VpcPeering|
+|**remoteVpcInfo**|VpcPeeringVpcInfo|Opposite terminal Vpc information|
+|**vpcInfo**|VpcPeeringVpcInfo|Vpc information launching VpcPeering|
 |**vpcPeeringId**|String|VpcPeering Id|
 |**vpcPeeringName**|String|VpcPeering name, a name cannot be duplicate under the same account, value range: 1-32 Chinese, English capital and lowercase letters, numbers and underline delimiter|
 |**vpcPeeringState**|String|Status, values include Connected, Disconnected, Initiated|

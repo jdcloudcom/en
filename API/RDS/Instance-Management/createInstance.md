@@ -17,13 +17,13 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**instanceSpec**|[DBInstanceSpec](##DBInstanceSpec)|True||New Instance Type Created|
+|**instanceSpec**|DBInstanceSpec|True||New Instance Type Created|
 
 ### <a name="DBInstanceSpec">DBInstanceSpec</a>
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**azId**|String[]|True||AZ ID, the first ID must be AZ where the primary instance is located. If the two AZs are the same, you also need to enter two azIds.|
-|**chargeSpec**|[ChargeSpec](##ChargeSpec)|True||Billing specification, including billing type, billing period, etc.|
+|**chargeSpec**|ChargeSpec|True||Billing specification, including billing type, billing period, etc.|
 |**engine**|String|True||Instance engine type, detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)|
 |**engineVersion**|String|True||Instance engine version, detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)|
 |**instanceClass**|String|True||Instance type code, which can be obtained through [describeInstanceClasses](../instance/describeInstanceClasses.md) interface|
@@ -41,7 +41,7 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances
 ## Return parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>

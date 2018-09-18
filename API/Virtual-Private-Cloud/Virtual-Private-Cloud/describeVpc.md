@@ -23,13 +23,13 @@ None
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
-|**result**|[Result](##Result)|Returned results|
+|**result**|Result|Returned results|
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**vpc**|[Vpc](##Vpc)|Vpc resource information|
+|**vpc**|Vpc|Vpc resource information|
 ### <a name="Vpc">Vpc</a>
 |Name|Type|Description|
 |---|---|---|
@@ -38,7 +38,7 @@ None
 |**createdTime**|String|vpc creation time|
 |**description**|String|VPC description, value range: 1~120 characters|
 |**routeTableIds**|String[]||
-|**subnets**|[Subnet[]](##Subnet)|Subnet list included in virtual private cloud|
+|**subnets**|Subnet[]|Subnet list included in virtual private cloud|
 |**vpcId**|String|Vpc Id|
 |**vpcName**|String|Virtual private cloud name, value range: 1-60 Chinese, English capital and lowercase letters, numbers and underline delimiter|
 ### <a name="Subnet">Subnet</a>

@@ -22,13 +22,13 @@ None
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**data**|[AppModel](##AppModel)|AK/SK queried|
+|**data**|AppModel|AK/SK queried|
 |**message**|String||
 |**status**|String||
 ### <a name="AppModel">AppModel</a>

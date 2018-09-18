@@ -27,7 +27,7 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/perform
 ## Return parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
@@ -35,7 +35,7 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/perform
 |---|---|---|
 |**pageNumber**|Integer|The Page Number of the Current Data|
 |**pageSize**|Integer|The Number of Data Displayed Per Page|
-|**queryPerformanceResult**|[QueryPerformanceResult[]](##QueryPerformanceResult)|The Result Set of Query Performance Statistics|
+|**queryPerformanceResult**|QueryPerformanceResult[]|The Result Set of Query Performance Statistics|
 |**totalCount**|Integer|Total Number of Records|
 ### <a name="QueryPerformanceResult">QueryPerformanceResult</a>
 |Name|Type|Description|

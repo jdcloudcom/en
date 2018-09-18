@@ -26,13 +26,13 @@ https://baseanti.jdcloud-api.com/v1/regions/{regionId}/ipResources/{ip}/protectI
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**dataList**|[IpResourceProtectInfo[]](##IpResourceProtectInfo)||
+|**dataList**|IpResourceProtectInfo[]||
 ### <a name="IpResourceProtectInfo">IpResourceProtectInfo</a>
 |Name|Type|Description|
 |---|---|---|

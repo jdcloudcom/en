@@ -17,7 +17,7 @@ https://mongodb.jdcloud-api.com/v1/regions/{regionId}/backups
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**filters**|[Filter[]](##Filter)|False||instanceId - Instance ID, Accurate Matching<br>backupId - Backup ID, Accurate Matching<br>|
+|**filters**|Filter[]|False||instanceId - Instance ID, Accurate Matching<br>backupId - Backup ID, Accurate Matching<br>|
 |**pageNumber**|Integer|False||Page number; default: 1; value range: [1, ∞)|
 |**pageSize**|Integer|False||Page size; default: 10; value range: [10,100]|
 
@@ -32,13 +32,13 @@ https://mongodb.jdcloud-api.com/v1/regions/{regionId}/backups
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**backups**|[Backup[]](##Backup)||
+|**backups**|Backup[]||
 |**pageNumber**|Integer||
 |**totalCount**|Integer||
 ### <a name="Backup">Backup</a>

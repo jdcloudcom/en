@@ -23,13 +23,13 @@ None
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
-|**result**|[Result](##Result)|Returned results|
+|**result**|Result|Returned results|
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**subnet**|[Subnet](##Subnet)|Subnet resource information|
+|**subnet**|Subnet|Subnet resource information|
 ### <a name="Subnet">Subnet</a>
 |Name|Type|Description|
 |---|---|---|

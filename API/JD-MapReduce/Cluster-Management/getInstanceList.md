@@ -22,20 +22,20 @@ None
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**data**|[InstanceList[]](##InstanceList)|Machine specification list|
+|**data**|InstanceList[]|Machine specification list|
 |**message**|String||
 |**status**|String||
 ### <a name="InstanceList">InstanceList</a>
 |Name|Type|Description|
 |---|---|---|
 |**label**|String|Classification of machine models|
-|**options**|[Options[]](##Options)||
+|**options**|Options[]||
 ### <a name="Options">Options</a>
 |Name|Type|Description|
 |---|---|---|

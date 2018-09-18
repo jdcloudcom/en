@@ -24,19 +24,19 @@ None
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**image**|[Image](##Image)|image details|
+|**image**|Image|image details|
 ### <a name="Image">Image</a>
 |Name|Type|Description|
 |---|---|---|
 |**architecture**|String|Image architecture. i386, x86_64|
 |**createTime**|String|Creation time|
-|**dataDisks**|[InstanceDiskAttachment[]](##InstanceDiskAttachment)|Package image data disk mapping information|
+|**dataDisks**|InstanceDiskAttachment[]|Package image data disk mapping information|
 |**desc**|String|Image description|
 |**imageId**|String|Image ID|
 |**imageSource**|String|image source,  jcloud: public image,  marketplace: image marketplace,  image self: user's own image share: image shared by other users|
@@ -49,22 +49,22 @@ None
 |**sizeMB**|Integer|Image document size|
 |**snapshotId**|String|The snapshot ID of the cloud disk for creating the system disk of the cloud disk, when the system disk type is image of the local disk, this parameter is blank.|
 |**status**|String|<a href="https://www.jdcloud.com/help/detail/3871/isCatalog/1">参考镜像状态</a>|
-|**systemDisk**|[InstanceDiskAttachment](##InstanceDiskAttachment)|System disk configuration|
+|**systemDisk**|InstanceDiskAttachment|System disk configuration|
 |**systemDiskSizeGB**|Integer|Image system disk size|
 ### <a name="InstanceDiskAttachment">InstanceDiskAttachment</a>
 |Name|Type|Description|
 |---|---|---|
 |**autoDelete**|Boolean|Deleting this disk with the VM automatically when the machine is deleted. The default value is true, which cannot be changed by local.<br>This parameter does not take effect if the data disk in the VM is a monthly package.<br>This parameter does not take effect if the data disk in the VM is a shared data disk.<br>|
-|**cloudDisk**|[Disk](##Disk)|Cloud disk service instance type|
+|**cloudDisk**|Disk|Cloud disk service instance type|
 |**deviceName**|String|Data disk logical attach point, value range: vda, vdb, vdc, vdd, vde, vdb, vdg, vdh, vdi|
 |**diskCategory**|String|Disk classification, the local disk or data disk is taken.<br>The system disk supports local disk or cloud disk. The system disk selects local Type, and the user must use the image localDisk type; If the system disk selects the cloud type, the user must use the image of the cloudDisk type.<br>The data disk supports cloud disk only.<br>|
-|**localDisk**|[LocalDisk](##LocalDisk)|Local disk instance type|
+|**localDisk**|LocalDisk|Local disk instance type|
 ### <a name="Disk">Disk</a>
 |Name|Type|Description|
 |---|---|---|
-|**attachments**|[DiskAttachment[]](##DiskAttachment)|Attach Information|
+|**attachments**|DiskAttachment[]|Attach Information|
 |**az**|String|AZ, to which the cloud disk service belongs|
-|**charge**|[Charge](##Charge)|Configuration information for cloud disk service billing|
+|**charge**|Charge|Configuration information for cloud disk service billing|
 |**createTime**|String|Cloud disk service creating time|
 |**description**|String|Description of the cloud disk service. It allows you to enter all characters under UTF-8 encoding, but no more than 256 characters.|
 |**diskId**|String|Cloud Disk Service ID|
@@ -74,7 +74,7 @@ None
 |**name**|String|Name of the cloud disk service. Only Chinese, numbers, uppercase and lowercase letters, English underline "_" and line-through "-" are allowed. It is not allowed to be blank and shall not exceed 32 characters.|
 |**snapshotId**|String|Snapshot ID used to create the cloud disk service|
 |**status**|String|Status of the cloud disk service, creating, available, in-use, extending, restoring, deleting, deleted, error_create, error_delete, error_restore or error_extend|
-|**tags**|[Tag[]](##Tag)|Tag information|
+|**tags**|Tag[]|Tag information|
 ### <a name="DiskAttachment">DiskAttachment</a>
 |Name|Type|Description|
 |---|---|---|

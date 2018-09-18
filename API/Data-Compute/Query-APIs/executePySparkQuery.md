@@ -28,7 +28,7 @@ https://xdata.jdcloud-api.com/v1/regions/{regionId}/dwQuery:executePySparkQuery
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>

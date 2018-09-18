@@ -22,13 +22,13 @@ None
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**data**|[DwInstance[]](##DwInstance)||
+|**data**|DwInstance[]||
 |**message**|String||
 |**status**|Boolean||
 ### <a name="DwInstance">DwInstance</a>

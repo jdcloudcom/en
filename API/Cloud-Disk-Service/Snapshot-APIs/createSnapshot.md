@@ -24,7 +24,7 @@ https://disk.jdcloud-api.com/v1/regions/{regionId}/snapshots
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**clientToken**|String|True|| Idempotence check parameter|
-|**snapshotSpec**|[SnapshotSpec](##SnapshotSpec)|True||Create Snapshot Specification|
+|**snapshotSpec**|SnapshotSpec|True||Create Snapshot Specification|
 
 ### <a name="SnapshotSpec">SnapshotSpec</a>
 |Name|Type|Required or not|Default value|Description|
@@ -37,7 +37,7 @@ https://disk.jdcloud-api.com/v1/regions/{regionId}/snapshots
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
-|**result**|[Result](##Result)|Result Set|
+|**result**|Result|Result Set|
 
 
 ### <a name="Result">Result</a>

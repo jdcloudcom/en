@@ -18,7 +18,7 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/job:execute
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**clusterId**|String|True||Cluster ID|
-|**jmrTaskViewModel**|[JmrTaskViewModel](##JmrTaskViewModel)|True||"Required parameters: jobId, planId, workflowId and workflowInstanceId"<br>|
+|**jmrTaskViewModel**|JmrTaskViewModel|True||"Required parameters: jobId, planId, workflowId and workflowInstanceId"<br>|
 
 ### <a name="JmrTaskViewModel">JmrTaskViewModel</a>
 |Name|Type|Required or not|Default value|Description|
@@ -42,7 +42,7 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/job:execute
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>

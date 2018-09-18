@@ -18,7 +18,7 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domain/{domainId}/
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**updateMonitor**|[UpdateMonitor](##UpdateMonitor)|True||Monitoring Item Information Setting|
+|**updateMonitor**|UpdateMonitor|True||Monitoring Item Information Setting|
 
 ### <a name="UpdateMonitor">UpdateMonitor</a>
 |Name|Type|Required or not|Default value|Description|

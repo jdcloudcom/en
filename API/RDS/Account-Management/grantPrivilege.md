@@ -19,7 +19,7 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/account
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**accountPrivileges**|[AccountPrivilege[]](##AccountPrivilege)|True||Access Right to the Account|
+|**accountPrivileges**|AccountPrivilege[]|True||Access Right to the Account|
 
 ### <a name="AccountPrivilege">AccountPrivilege</a>
 |Name|Type|Required or not|Default value|Description|

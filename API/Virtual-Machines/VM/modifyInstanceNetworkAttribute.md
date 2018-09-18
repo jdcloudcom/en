@@ -20,7 +20,7 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:modifyIn
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**networks**|[InstanceNetworkAttribute[]](##InstanceNetworkAttribute)|False||List of ENIs|
+|**networks**|InstanceNetworkAttribute[]|False||List of ENIs|
 
 ### <a name="InstanceNetworkAttribute">InstanceNetworkAttribute</a>
 |Name|Type|Required or not|Default value|Description|

@@ -27,13 +27,13 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/images:copyImages
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**copyImages**|[CopyImage[]](##CopyImage)|source image and target image mapping relationships|
+|**copyImages**|CopyImage[]|source image and target image mapping relationships|
 ### <a name="CopyImage">CopyImage</a>
 |Name|Type|Description|
 |---|---|---|

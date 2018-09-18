@@ -17,8 +17,8 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/jobView:list
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**jmrJobViewModel**|[JmrJobViewModel](##JmrJobViewModel)|True||"Required fields: clusterId and az"<br>"Optional fields: jobName, jobType and clusterName"<br>|
-|**selectParams**|[SelectParams](##SelectParams)|False|||
+|**jmrJobViewModel**|JmrJobViewModel|True||"Required fields: clusterId and az"<br>"Optional fields: jobName, jobType and clusterName"<br>|
+|**selectParams**|SelectParams|False|||
 
 ### <a name="JmrJobViewModel">JmrJobViewModel</a>
 |Name|Type|Required or not|Default value|Description|
@@ -57,7 +57,7 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/jobView:list
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>

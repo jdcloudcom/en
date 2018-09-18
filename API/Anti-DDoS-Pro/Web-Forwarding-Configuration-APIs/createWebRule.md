@@ -18,7 +18,7 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/webR
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**webRuleSpec**|[WebRuleSpec](##WebRuleSpec)|True||Web service rule parameter|
+|**webRuleSpec**|WebRuleSpec|True||Web service rule parameter|
 
 ### <a name="WebRuleSpec">WebRuleSpec</a>
 |Name|Type|Required or not|Default value|Description|
@@ -32,7 +32,7 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/webR
 |**httpsPort**|String|False||HTTPS protocol port number, such as 443 and 8443, and multiple port numbers are separated by commas|
 |**httpsRsaKey**|String|False||Certificate private key|
 |**onlineAddr**|String[]|False|||
-|**originAddr**|[OriginAddrItem[]](##OriginAddrItem)|False|||
+|**originAddr**|OriginAddrItem[]|False|||
 |**originDomain**|String|False||Back-to-origin domain name, and the field needs to be specified when originType is CNAME|
 |**originType**|String|False||Back-to-origin type, A or CNAME|
 |**port**|String|False||HTTP protocol port number, such as 80 and 81, and multiple port numbers are separated by commas|

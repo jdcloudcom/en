@@ -23,24 +23,24 @@ None
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|ID of This Query Request|
-|**result**|[Result](##Result)|The information result of querying the cache instance list|
+|**result**|Result|The information result of querying the cache instance list|
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**cacheInstance**|[CacheInstance](##CacheInstance)|The information to query the object cache instance|
+|**cacheInstance**|CacheInstance|The information to query the object cache instance|
 ### <a name="CacheInstance">CacheInstance</a>
 |Name|Type|Description|
 |---|---|---|
-|**azId**|[AzId](##AzId)|az Information|
+|**azId**|AzId|az Information|
 |**cacheInstanceClass**|String|实例规格代码，参见<a href="https://www.jdcloud.com/help/detail/411/isCatalog/1">实例规格代码</a>|
 |**cacheInstanceDescription**|String|Instance Description|
 |**cacheInstanceId**|String|Instance ID|
 |**cacheInstanceMemoryMB**|Integer|Capacity, in MB|
 |**cacheInstanceName**|String|Instance Name|
 |**cacheInstanceStatus**|String|Instance status, running: running, error: error, creating: pending, changing: changing, deleting: deleting|
-|**charge**|[Charge](##Charge)|Billing Information|
+|**charge**|Charge|Billing Information|
 |**connectionDomain**|String|Access to the domain name|
 |**createTime**|String|Creation Time|
 |**instanceVersion**|String|Instance Version|

@@ -17,7 +17,7 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/job:modify
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**jmrJobViewModel**|[JmrJobViewModel](##JmrJobViewModel)|True||clusterId, jobName, jobType, location, jobArgs, retryTimes and isSendMsg are required|
+|**jmrJobViewModel**|JmrJobViewModel|True||clusterId, jobName, jobType, location, jobArgs, retryTimes and isSendMsg are required|
 
 ### <a name="JmrJobViewModel">JmrJobViewModel</a>
 |Name|Type|Required or not|Default value|Description|
@@ -49,7 +49,7 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/job:modify
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>

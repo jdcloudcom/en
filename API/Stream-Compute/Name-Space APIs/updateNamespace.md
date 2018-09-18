@@ -17,7 +17,7 @@ https://streamcompute.jdcloud-api.com/v1/regions/{regionId}/namespace
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**namespaceStr**|[Namespace](##Namespace)|True|||
+|**namespaceStr**|Namespace|True|||
 
 ### <a name="Namespace">Namespace</a>
 |Name|Type|Required or not|Default value|Description|
@@ -40,7 +40,7 @@ https://streamcompute.jdcloud-api.com/v1/regions/{regionId}/namespace
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>

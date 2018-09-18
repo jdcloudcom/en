@@ -25,13 +25,13 @@ https://xdata.jdcloud-api.com/v1/regions/{regionId}/dwTable
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**data**|[DwTable[]](##DwTable)||
+|**data**|DwTable[]||
 |**message**|String||
 |**status**|Boolean||
 ### <a name="DwTable">DwTable</a>
@@ -43,7 +43,7 @@ https://xdata.jdcloud-api.com/v1/regions/{regionId}/dwTable
 |**dbName**|String|Database name|
 |**encryption**|String|Is it encrypted or not|
 |**hiveFileFormat**|String|File storage type|
-|**hiveObjectPrivileges**|[DwHiveObjectPrivileges](##DwHiveObjectPrivileges)|hive table permission information|
+|**hiveObjectPrivileges**|DwHiveObjectPrivileges|hive table permission information|
 |**id**|Integer|Database id|
 |**lastUpdateTime**|String|Last update time|
 |**location**|String|Location|

@@ -18,7 +18,7 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/quotas
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**filters**|[Filter[]](##Filter)|False||resourceTypes - Resource types, multiple support [instance, keyair, image, instanceTemplate]<br>|
+|**filters**|Filter[]|False||resourceTypes - Resource types, multiple support [instance, keyair, image, instanceTemplate]<br>|
 
 ### <a name="Filter">Filter</a>
 |Name|Type|Required or not|Default value|Description|
@@ -31,13 +31,13 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/quotas
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**quotas**|[Quota[]](##Quota)|Quota list|
+|**quotas**|Quota[]|Quota list|
 ### <a name="Quota">Quota</a>
 |Name|Type|Description|
 |---|---|---|

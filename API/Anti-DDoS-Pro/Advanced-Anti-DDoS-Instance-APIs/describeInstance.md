@@ -23,13 +23,13 @@ None
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**data**|[Instance](##Instance)||
+|**data**|Instance||
 ### <a name="Instance">Instance</a>
 |Name|Type|Description|
 |---|---|---|

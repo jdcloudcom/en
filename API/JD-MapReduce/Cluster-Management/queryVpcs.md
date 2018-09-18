@@ -22,13 +22,13 @@ None
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**data**|[QueryVpcs[]](##QueryVpcs)|VPC collection|
+|**data**|QueryVpcs[]|VPC collection|
 |**message**|String||
 |**status**|String||
 ### <a name="QueryVpcs">QueryVpcs</a>

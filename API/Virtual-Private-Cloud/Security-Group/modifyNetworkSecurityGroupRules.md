@@ -18,7 +18,7 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkSecurityGroups/{network
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**modifySecurityGroupRuleSpecs**|[ModifySecurityGroupRules[]](##ModifySecurityGroupRules)|True||Security group rule information|
+|**modifySecurityGroupRuleSpecs**|ModifySecurityGroupRules[]|True||Security group rule information|
 
 ### <a name="ModifySecurityGroupRules">ModifySecurityGroupRules</a>
 |Name|Type|Required or not|Default value|Description|

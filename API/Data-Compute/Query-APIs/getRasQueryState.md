@@ -25,7 +25,7 @@ https://xdata.jdcloud-api.com/v1/regions/{regionId}/dwQuery:getRasQueryState
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>

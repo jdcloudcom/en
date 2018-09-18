@@ -16,7 +16,7 @@ https://monitor.{regionId}.jdcloud-api.com/v1/customMetrics
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**metricDataList**|[MetricDataCm[]](##MetricDataCm)|False||Data parameter|
+|**metricDataList**|MetricDataCm[]|False||Data parameter|
 
 ### <a name="MetricDataCm">MetricDataCm</a>
 |Name|Type|Required or not|Default value|Description|
@@ -33,13 +33,13 @@ https://monitor.{regionId}.jdcloud-api.com/v1/customMetrics
 |---|---|---|
 |**error**|Object|Error information|
 |**requestId**|String|Request ID|
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**errMetricDataList**|[MetricDataList[]](##MetricDataList)||
+|**errMetricDataList**|MetricDataList[]||
 |**success**|Boolean|All successful write-ins are true, otherwise are false|
 ### <a name="MetricDataList">MetricDataList</a>
 |Name|Type|Description|

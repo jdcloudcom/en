@@ -24,7 +24,7 @@ https://streambus.jdcloud-api.com/v1/regions/{regionId}/consumerGroupList
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>

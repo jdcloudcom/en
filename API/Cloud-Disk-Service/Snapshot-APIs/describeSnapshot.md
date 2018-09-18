@@ -23,13 +23,13 @@ None
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
-|**result**|[Result](##Result)|Cloud disk snapshot information details queried|
+|**result**|Result|Cloud disk snapshot information details queried|
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**snapshot**|[Snapshot](##Snapshot)||
+|**snapshot**|Snapshot||
 ### <a name="Snapshot">Snapshot</a>
 |Name|Type|Description|
 |---|---|---|

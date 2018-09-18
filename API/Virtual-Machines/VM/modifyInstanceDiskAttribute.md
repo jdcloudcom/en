@@ -19,7 +19,7 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:modifyIn
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**dataDisks**|[InstanceDiskAttribute[]](##InstanceDiskAttribute)|False||Cloud Disk Service List|
+|**dataDisks**|InstanceDiskAttribute[]|False||Cloud Disk Service List|
 
 ### <a name="InstanceDiskAttribute">InstanceDiskAttribute</a>
 |Name|Type|Required or not|Default value|Description|

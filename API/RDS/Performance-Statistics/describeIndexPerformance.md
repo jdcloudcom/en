@@ -27,14 +27,14 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/perform
 ## Return parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**indexPerformanceResult**|[IndexPerformanceResult[]](##IndexPerformanceResult)|When the queryType is Missing, the field is empty <br>when the queryType is other values, return IndexPerformanceResult|
-|**missingIndexResult**|[MissingIndexResult[]](##MissingIndexResult)|When queryType is Missing, the result set is MissingIndexResult<br>when queryType is other values, the field is null.|
+|**indexPerformanceResult**|IndexPerformanceResult[]|When the queryType is Missing, the field is empty <br>when the queryType is other values, return IndexPerformanceResult|
+|**missingIndexResult**|MissingIndexResult[]|When queryType is Missing, the result set is MissingIndexResult<br>when queryType is other values, the field is null.|
 |**pageNumber**|Integer|The Page Number of the Current Data|
 |**pageSize**|Integer|The Number of Data Displayed Per Page|
 |**totalCount**|Integer|Total Number of Records|

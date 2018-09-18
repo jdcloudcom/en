@@ -23,23 +23,23 @@ None
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**thumbnailTask**|[ThumbnailTask](##ThumbnailTask)||
+|**thumbnailTask**|ThumbnailTask||
 ### <a name="ThumbnailTask">ThumbnailTask</a>
 |Name|Type|Description|
 |---|---|---|
 |**createdTime**|String|Task creation time, format (GMT): yyyy-MM-dd’T’HH:mm:ss.SSS’Z’  (readonly)|
 |**errorCode**|Integer|Error Code (readonly)|
 |**lastUpdatedTime**|String|Task creation time, format (GMT): yyyy-MM-dd’T’HH:mm:ss.SSS’Z’  (readonly)|
-|**rule**|[ThumbnailTaskRule](##ThumbnailTaskRule)||
-|**source**|[ThumbnailTaskSource](##ThumbnailTaskSource)||
+|**rule**|ThumbnailTaskRule||
+|**source**|ThumbnailTaskSource||
 |**status**|String|Status (SUCCESS, ERROR, PENDDING, RUNNING) (readonly)|
-|**target**|[ThumbnailTaskTarget](##ThumbnailTaskTarget)||
+|**target**|ThumbnailTaskTarget||
 |**taskID**|String|Task ID (readonly)|
 ### <a name="ThumbnailTaskRule">ThumbnailTaskRule</a>
 |Name|Type|Description|

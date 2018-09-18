@@ -27,13 +27,13 @@ https://oss.jdcloud-api.com/v1/regions/{regionId}/buckets/{bucketname}/objectkey
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
-|**result**|[Result](##Result)||
+|**result**|Result||
 
 
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**moveObjectResult**|[Result](##Result)||
+|**moveObjectResult**|Result||
 ### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
