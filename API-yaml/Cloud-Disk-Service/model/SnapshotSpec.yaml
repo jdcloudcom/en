@@ -9,7 +9,8 @@ definitions:
       name:
         type: string
         description: "Snapshot Name"
-      description: "type: string"
+      description: 
+        type: string
         description: "Snapshot Description"
       diskId:
         type: string

@@ -11,7 +11,8 @@ definitions:
       addressPrefix:
         type: string
         description: "If it is blank, segment is not limited; if it is not blank, it is 10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16 and their subnets included and the length of subnet mask is between 16 and 28"
-      description: "type: string"
+      description:
+        type: string
         description: "VPC description, all characters allowed to enter under UTF-8 coding, which is not exceed 256 characters."
 
 

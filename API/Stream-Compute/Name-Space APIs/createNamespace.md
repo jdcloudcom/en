@@ -2,7 +2,7 @@
 
 
 ## Description
-Create namespace
+Create Namespace
 
 ## Request method
 POST
@@ -19,7 +19,7 @@ https://streamcompute.jdcloud-api.com/v1/regions/{regionId}/namespace
 |---|---|---|---|---|
 |**namespaceStr**|Namespace|True|||
 
-### <a name="Namespace">Namespace</a>
+### Namespace
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**createTime**|String|False|||
@@ -43,13 +43,13 @@ https://streamcompute.jdcloud-api.com/v1/regions/{regionId}/namespace
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
-|**status**|Boolean|Create the successful marker|
+|**status**|Boolean|Create the Successful Marker|
 
 ## Return code
 |Return code|Description|
 |---|---|
 |**200**|OK|
-|**500**|INTERNAL_ERROR|
+|**500**|INTERNAL_ERROR   |

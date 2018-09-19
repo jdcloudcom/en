@@ -37,7 +37,7 @@ paths:
           items:
             #$ref: "/jcloud-open-api/common/model/Filter.yaml#/definitions/filter"
             $ref: "../../common/model/Filter.yaml#/definitions/filter"
-          description: "|"
+          description: |
                  VPCIds - VPC ID list, support multiple IDs
                  VPCNames - VPC name list, support multiple names
     

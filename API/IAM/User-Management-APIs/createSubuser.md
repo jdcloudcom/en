@@ -2,7 +2,7 @@
 
 
 ## Description
-Create sub-accounts
+Create Sub-accounts
 
 ## Request method
 POST
@@ -17,18 +17,18 @@ https://iam.jdcloud-api.com/v1/regions/{regionId}/subUser
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**createSubUserInfo**|CreateSubUserInfo|True||Sub-account information|
+|**createSubUserInfo**|CreateSubUserInfo|True||Sub-account Information|
 
-### <a name="CreateSubUserInfo">CreateSubUserInfo</a>
+### CreateSubUserInfo
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**createAk**|Boolean|True||Create accessKey or not|
+|**createAk**|Boolean|True||Create accessKey or Not|
 |**description**|String|False||Description, 0~256 characters|
 |**email**|String|True||Email|
-|**name**|String|True||Sub-account user name, 4-20 numbers, letters, Chinese characters, underlines and line-throughs|
+|**name**|String|True||Sub-account User Name, 4-20 numbers, letters, Chinese characters, underlines and line-throughs|
 |**password**|String|True||Password, 6-20 bits, containing at least one letters and at least one number or half-width character|
-|**passwordConfirm**|String|True||Confirm password|
-|**phone**|String|True||Mobile number, area code-mobile number, at present only support 0086-Chinese mobile number|
+|**passwordConfirm**|String|True||Confirm Password|
+|**phone**|String|True||Mobile Number, Area Code-Mobile Number, at present only support 0086-Chinese mobile number|
 
 ## Return parameter
 |Name|Type|Description|

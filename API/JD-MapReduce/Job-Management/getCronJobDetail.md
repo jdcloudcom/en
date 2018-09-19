@@ -12,7 +12,7 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/cronJob/{planId}:detail
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**planId**|String|True||Execution plan Id|
+|**planId**|String|True||Execution Plan Id|
 |**regionId**|String|True||Region ID|
 
 ## Request parameter
@@ -20,12 +20,12 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/cronJob/{planId}:detail
 |---|---|---|---|---|
 |**selectParams**|SelectParams|False|||
 
-### <a name="SelectParams">SelectParams</a>
+### SelectParams
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**orderBy**|String|False||Ranking condition, optional|
-|**pageNum**|Integer|False||Search paging number, optional condition|
-|**pageSize**|Integer|False||Search paging size, optional condition|
+|**orderBy**|String|False||Ranking Condition, optional|
+|**pageNum**|Integer|False||Search Paging Number, optional condition|
+|**pageSize**|Integer|False||Search Paging Size, optional condition|
 |**status**|String|False|||
 
 ## Return parameter
@@ -35,7 +35,7 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/cronJob/{planId}:detail
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
 |**data**|Object|"Include JmrJobViewModel list - jobList"<br>"And returned list size - totalNum"<br>|

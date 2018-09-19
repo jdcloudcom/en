@@ -10,7 +10,7 @@ paths:
   "/containers":
     ###################### Create container interface ######################
     post:
-      description: "|"
+      description: |
         Create configuration containers for one or more sets
         - Real-name verification is required for creating containers
         - Image
@@ -103,7 +103,7 @@ paths:
 
     ###################### Container List Interface ######################
     get:
-      description: "|"
+      description: |
         Search Native Container details in batches <br>
         This interface supports query in pages, with 20 entries per page by default.
       operationId: describeContainers
@@ -121,7 +121,7 @@ paths:
           type: array
           items:
             $ref: "../../common/model/Filter.yaml#/definitions/filter"
-          description: "| "
+          description: |
             containerId - Instance ID, exact match, support many IDs
             privateIpAddress - Primary network interface IP address, fuzzy matching and supporting many IP addresses
             az - Availability zone, exact matching, supporting many availability zones
@@ -158,7 +158,7 @@ paths:
   "/containers/{containerId}":
     ###################### Container Detail Interface ######################
     get:
-      description: "|"
+      description: |
         Search details of one Native Container
       operationId: describeContainer
       responses:
@@ -184,7 +184,7 @@ paths:
     
     ###################### Delete Container Interface ######################
     delete:
-      description: "|"
+      description: |
         The container must have the status of stopped, running or error. <br>
         The instance paid by volume will keep running until it is deleted. The instance not used anymore can be passively stopped through this interface. <br>
         Only the instance with the billing type by volume can be passively deleted. The container with monthly package expired can also be deleted. Please report to the ticket system for other situations. The container with billing status exception can’t be deleted.
@@ -211,7 +211,7 @@ paths:
   "/containers/{containerId}:startContainer":
     ###################### Start Container Interface ######################
     post:
-      description: "|"
+      description: |
         Start a single container in the off status and the container involved a job can’t be started. <br>
         When the container instance or a cloud disk associated is defaulting, the container will not be normally started. <br>
       operationId: startContainer
@@ -237,7 +237,7 @@ paths:
   "/containers/{containerId}:stopContainer":
     ###################### Stop Container Interface ######################
     post:
-      description: "|"
+      description: |
         Stop a single instance in the operating status and the container involved in a job can’t be started.
       operationId: stopContainer
       responses:
@@ -262,7 +262,7 @@ paths:
   "/containers/{containerId}:modifyContainerAttribute":
     ###################### Modify Container Attribute ######################
     patch:
-      description: "|"
+      description: |
         Modify the container name and description.
       operationId: modifyContainerAttribute
       parameters:
@@ -296,7 +296,7 @@ paths:
   "/containers/{containerId}:associateElasticIp":
     ###################### Associate EIP to a Container ######################
     post:
-      description: "|"
+      description: |
         The elastic IP associated with the container is the elastic IP corresponding to the primary network interface and primary private IP.
         One virtual machine only can be associated with one elastic IP (primary network interface). If the primary network interface has the elastic IP, the error will be returned. <br>
         If the user is in the blacklist, the error will be returned.
@@ -329,7 +329,7 @@ paths:
   "/containers/{containerId}:disassociateElasticIp":
     ###################### Disassociate EIP from Container ######################
     post:
-      description: "|"
+      description: |
         The EIP disassociated with the container is the elastic IP corresponding to the primary network interface and primary private IP.
       operationId: disassociateElasticIp
       parameters:
@@ -360,24 +360,24 @@ paths:
   "/containers/{containerId}:getLogs":
     ###################### Search Container Logs ######################
     get:
-      description: "|"
+      description: |
         Search a container log
       operationId: getLogs
       parameters:
         - name: tailLines
           in: query
           type: integer
-          description: "|"
+          description: |
             Return the tailLines in log file. If no tail line is specified, the log file will be read from the container starting time or the time specified by sinceSeconds by default.
         - name: sinceSeconds
           in: query
           type: integer
-          description: "|"
+          description: |
             Return logs in sinceSeconds relatively before current time.
         - name: limitBytes
           in: query
           type: integer
-          description: "|"
+          description: |
            Restrict byte number in returned log file within [1-4]KB, with 4KB at most.
       responses:
         200:

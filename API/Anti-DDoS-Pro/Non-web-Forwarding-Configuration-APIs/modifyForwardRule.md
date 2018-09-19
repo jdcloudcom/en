@@ -14,25 +14,25 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/forw
 |---|---|---|---|---|
 |**forwardRuleId**|String|True||Forwarding rule ID|
 |**instanceId**|String|True||Instance ID|
-|**regionId**|String|True||Belonging region ID|
+|**regionId**|String|True||Belonging Region ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**forwardRuleSpec**|ForwardRuleSpec|True||Non-web service rule parameter|
 
-### <a name="ForwardRuleSpec">ForwardRuleSpec</a>
+### ForwardRuleSpec
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**algorithm**|String|False||Forwarding rules: wrr->Round Robin with weight  wlc->minimum weighted connection  rr->Round Robin without weight  sh->source address hash|
+|**algorithm**|String|False||Forwarding Rules: wrr->round Robin with weight  wlc->minimum weighted connection  rr->round Robin without weight  sh->source address hash|
 |**onlineAddr**|String[]|False|||
 |**originAddr**|OriginAddrItem[]|False|||
-|**originDomain**|String|False||Back-to-origin domain name|
-|**originPort**|Integer|False||Back-to-origin port number|
-|**originType**|String|False||Back-to-origin type, ip or domain|
-|**port**|Integer|False||Port number|
+|**originDomain**|String|False||Back-to-origin Domain Name|
+|**originPort**|Integer|False||Back-to-origin Port Number|
+|**originType**|String|False||Back-to-origin Type, ip or domain|
+|**port**|Integer|False||Port Number|
 |**protocol**|String|False||Protocol: TCP or UDP|
-### <a name="OriginAddrItem">OriginAddrItem</a>
+### OriginAddrItem
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**inJdCloud**|Boolean|False||Confirm whether it is the Private IP/EIP address of JD Cloud?|

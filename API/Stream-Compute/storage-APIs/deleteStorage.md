@@ -2,7 +2,7 @@
 
 
 ## Description
-Delete the assigned input
+Delete the Assigned Input
 
 ## Request method
 DELETE
@@ -27,7 +27,7 @@ https://streamcompute.jdcloud-api.com/v1/regions/{regionId}/storage
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
 |**message**|String||

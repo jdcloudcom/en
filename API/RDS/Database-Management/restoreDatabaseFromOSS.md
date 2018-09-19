@@ -8,7 +8,7 @@ Restore a single database from the backup file uploaded to OSS<br> - only suppor
 POST
 
 ## Request address
-https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/databases/{dbName}:restoreDatabaseFromOSS
+https://rds.jdcloud-api.com/0.2.9/regions/{regionId}/instances/{instanceId}/databases/{dbName}:restoreDatabaseFromOSS
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
@@ -19,7 +19,7 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/databas
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**ossURL**|String|True||The inner link of the backup file uploaded by the user to object storage service, OSS|
+|**ossURL**|String|True||The inner link of the backup file uploaded by the user to Object Storage Service, OSS|
 
 
 ## Return parameter

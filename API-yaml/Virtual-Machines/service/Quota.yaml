@@ -10,7 +10,7 @@ paths:
   "/quotas":
     ###################### Query Quota ######################
     get:
-      description: "|"
+      description: |
         Query quota, support: VM, image, key pair, template
       operationId: describeQuotas
       parameters:
@@ -19,7 +19,7 @@ paths:
           type: array
           items:
             $ref: "../../common/model/Filter.yaml#/definitions/filter"
-          description: "| "
+          description: |
             resourceTypes - Resource types, multiple support [instance, keyair, image, instanceTemplate]
       responses:
         200:
@@ -48,7 +48,7 @@ paths:
 
     ###################### Modify Quota ######################
     patch:
-      description: "|"
+      description: |
         Modify quotas; an internal API;  support: VM, image, key pair, template
       operationId: modifyQuota
       x-jdcloud-internal: true

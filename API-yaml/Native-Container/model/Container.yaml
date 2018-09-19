@@ -94,10 +94,11 @@ definitions:
         $ref: "../../charge/model/Charge.yaml#/definitions/charge"
         description: "Billing Configuration Information "
       launchTime:
-        type: string  
+        type: string
         description: "Creation Time "
       reason:
-        type: string  
+        type: string
         description: "Container Termination Reason "
-      description: "type: string  "
+      description:
+        type: string
         description: "Container Description "

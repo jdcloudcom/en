@@ -2,7 +2,7 @@
 
 
 ## Description
-Disassociate elastic Ip interface from network interface
+Disassociate Elastic IP Interface from Network Interface
 
 ## Request method
 POST
@@ -18,8 +18,8 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkInterfaces/{networkInte
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**elasticIpAddress**|String|False||Assign disassociated elastic Ip address|
-|**elasticIpId**|String|False||Assign disassociated elastic Ip Id|
+|**elasticIpAddress**|String|False||Assign Disassociated Elastic IP Address|
+|**elasticIpId**|String|False||Assign Disassociated Elastic IP ID|
 
 
 ## Return parameter

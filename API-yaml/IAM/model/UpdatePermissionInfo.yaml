@@ -10,7 +10,8 @@ definitions:
       name:
         type: string
         description: "Permission Name, 1~32 numbers, characters, Chinese characters, line-throughs and underlines"
-      description: "type: string"
+      description: 
+        type: string
         description: "Description, 0~256 characters"
       content:
         type: array

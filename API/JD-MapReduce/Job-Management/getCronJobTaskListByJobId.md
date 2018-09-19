@@ -18,15 +18,15 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/cronJobTask/job/{jobId}:l
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**planId**|String|True||Regular task ID|
+|**planId**|String|True||Regular Task ID|
 |**selectParams**|SelectParams|False||Search conditions, optional parameters|
 
-### <a name="SelectParams">SelectParams</a>
+### SelectParams
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**orderBy**|String|False||Ranking condition, optional|
-|**pageNum**|Integer|False||Search paging number, optional condition|
-|**pageSize**|Integer|False||Search paging size, optional condition|
+|**orderBy**|String|False||Ranking Condition, optional|
+|**pageNum**|Integer|False||Search Paging Number, optional condition|
+|**pageSize**|Integer|False||Search Paging Size, optional condition|
 |**status**|String|False|||
 
 ## Return parameter
@@ -36,7 +36,7 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/cronJobTask/job/{jobId}:l
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
 |**data**|Object|"Include the searched JmrTaskViewModel list - taskList"<br>"And returned list size - totalNum"<br>|

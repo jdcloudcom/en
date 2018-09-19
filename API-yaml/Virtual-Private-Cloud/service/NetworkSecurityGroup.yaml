@@ -36,7 +36,7 @@ paths:
            items:
              #$ref: "/jcloud-open-api/common/model/Filter.yaml#/definitions/filter"
              $ref: "../../common/model/Filter.yaml#/definitions/filter"
-           description: "|"
+           description: |
                   networkSecurityGroupIds - Security Group ID list, support multiple IDs
                   networkSecurityGroupNames - Security Group name list, support multiple names
                   VPCId	- VPC ID of Security Group, support single Id

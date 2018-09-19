@@ -13,7 +13,7 @@ definitions:
         description: "Instance Name"
       cacheInstanceClass:
         type: string
-        description: "Instance specification code, refer to<a href="https://www.jdcloud.com/help/detail/411/isCatalog/1">Instance Specification Code</a>"
+        description: "Instance specification code, refer to<a href='https://www.jdcloud.com/help/detail/411/isCatalog/1'>Instance Specification Code</a>"
       cacheInstanceMemoryMB:
         type: integer
         description: "Capacity, Unit: MB"

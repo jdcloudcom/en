@@ -2,7 +2,7 @@
 
 
 ## Description
-Add a resolution record of the domain name
+Add a Resolution Record of the Domain Name
 
 ## Request method
 POST
@@ -20,18 +20,18 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domain/{domainId}/
 |---|---|---|---|---|
 |**req**|AddRR|True||RR Parameter|
 
-### <a name="AddRR">AddRR</a>
+### AddRR
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**hostRecord**|String|False||Machine Record|
-|**hostValue**|String|False||Value of the resolution record|
+|**hostValue**|String|False||Value of Resolution Record|
 |**jcloudRes**|Boolean|False||JD Cloud Resource?|
 |**mxPriority**|Integer|False||Priority, only exists in some resolution record types|
 |**port**|Integer|False||port, only exists in some resolution record types|
-|**ttl**|Integer|False||Life time of the resolution record|
+|**ttl**|Integer|False||Life Time of Resolution Record|
 |**type**|String|False||Resolution Type|
-|**viewValue**|Integer|False||ID of the resolution line|
-|**weight**|Integer|False||Weight of the resolution record|
+|**viewValue**|Integer|False||ID of Resolution Line|
+|**weight**|Integer|False||Weight of Resolution Record|
 
 ## Return parameter
 |Name|Type|Description|
@@ -40,23 +40,23 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domain/{domainId}/
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
-|**dataList**|RR|Resolution record result after successful addition|
-### <a name="RR">RR</a>
+|**dataList**|RR|Resolution Record Result after Successful Addition|
+### RR
 |Name|Type|Description|
 |---|---|---|
 |**hostRecord**|String|Machine Record|
-|**hostValue**|String|Value of the resolution record|
-|**id**|Integer|Unique ID of the domain name resolution|
+|**hostValue**|String|Value of Resolution Record|
+|**id**|Integer|Unique ID of the Domain Name Resolution|
 |**jcloudRes**|Boolean|JD Cloud Resource?|
 |**mxPriority**|Integer|Priority, only exists in some resolution record types|
 |**port**|Integer|port, only exists in some resolution record types|
-|**ttl**|Integer|Life time of the resolution record|
-|**type**|String|Type of the resolution record|
-|**viewValue**|Integer[]|ID of the resolution line|
-|**weight**|Integer|Weight of the resolution record|
+|**ttl**|Integer|Life Time of Resolution Record|
+|**type**|String|Type of Resolution Record|
+|**viewValue**|Integer[]|ID of Resolution Line|
+|**weight**|Integer|Weight of Resolution Record              |
 
 ## Return code
 |Return code|Description|

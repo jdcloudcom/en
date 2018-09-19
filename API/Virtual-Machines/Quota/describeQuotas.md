@@ -20,12 +20,12 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/quotas
 |---|---|---|---|---|
 |**filters**|Filter[]|False||resourceTypes - Resource types, multiple support [instance, keyair, image, instanceTemplate]<br>|
 
-### <a name="Filter">Filter</a>
+### Filter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**name**|String|True||Name of filter requirements|
+|**name**|String|True||Name of Filter Requirements|
 |**operator**|String|False||Operator of filter requirements is eq by default|
-|**values**|String[]|True||Value of filter requirements|
+|**values**|String[]|True||Value of Filter Requirements|
 
 ## Return parameter
 |Name|Type|Description|
@@ -34,11 +34,11 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/quotas
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
 |**quotas**|Quota[]|Quota list|
-### <a name="Quota">Quota</a>
+### Quota
 |Name|Type|Description|
 |---|---|---|
 |**limit**|Integer|Upper quota limit|

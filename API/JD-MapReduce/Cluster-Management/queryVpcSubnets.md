@@ -27,17 +27,17 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/vpcSubnets/{vpcId}:query
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
-|**data**|QueryVpcSubnets[]|VPC subnet information collection|
+|**data**|QueryVpcSubnets[]|VPC Subnet Information Collection|
 |**message**|String||
 |**status**|String||
-### <a name="QueryVpcSubnets">QueryVpcSubnets</a>
+### QueryVpcSubnets
 |Name|Type|Description|
 |---|---|---|
-|**vpcSubnetId**|String|VPC subnet id|
-|**vpcSubnetName**|String|VPC subnet name|
+|**vpcSubnetId**|String|VPC Subnet ID|
+|**vpcSubnetName**|String|VPC Subnet Name|
 
 ## Return code
 |Return code|Description|

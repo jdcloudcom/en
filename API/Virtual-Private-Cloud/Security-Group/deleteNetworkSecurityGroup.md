@@ -2,7 +2,7 @@
 
 
 ## Description
-Delete security group
+Delete Security Group
 
 ## Request method
 DELETE

@@ -17,7 +17,7 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domainDel
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**domainId**|Integer|True||Domain name ID to be deleted|
+|**domainId**|Integer|True||Domain Name ID to be Deleted|
 
 
 ## Return parameter

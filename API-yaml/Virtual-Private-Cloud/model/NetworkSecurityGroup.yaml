@@ -10,7 +10,8 @@ definitions:
       networkSecurityGroupName:
         type: string
         description: "Security Group Name"
-      description: "type: string"
+      description:
+        type: string
         description: "Security Group Description Information"
       vpcId:
         type: string

@@ -12,8 +12,8 @@ https://baseanti.jdcloud-api.com/v1/regions/{regionId}/ipResources/{ip}
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**ip**|String|True||EIP address|
-|**regionId**|String|True||Belonging region ID|
+|**ip**|String|True||EIP Address|
+|**regionId**|String|True||Belonging Region ID|
 
 ## Request parameter
 None
@@ -26,19 +26,19 @@ None
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
 |**data**|IpResourceInfo||
-### <a name="IpResourceInfo">IpResourceInfo</a>
+### IpResourceInfo
 |Name|Type|Description|
 |---|---|---|
-|**blackHoleThreshold**|Integer|Black hole threshold, unit: bps|
-|**cleanThresholdBps**|Integer|Traffic rate of trigger cleaning, unit: bps|
-|**cleanThresholdPps**|Integer|Package rate of trigger cleaning, unit: pps|
-|**ip**|String|EIP address|
+|**blackHoleThreshold**|Integer|Black Hole Threshold, Unit: bps|
+|**cleanThresholdBps**|Integer|Traffic Rate of Trigger Cleaning, Unit: bps|
+|**cleanThresholdPps**|Integer|Package Rate of Trigger Cleaning, Unit: pps|
+|**ip**|String|EIP Address|
 |**region**|String|Region, i.e. cn-north-1, cn-south-1, cn-east-1 and cn-east-2|
-|**safeStatus**|Integer|Security status, 0->safe  1->clean  2->black hole|
+|**safeStatus**|Integer|Security Status, 0->Safe  1->Clean  2-Black Hole|
 
 ## Return code
 |Return code|Description|

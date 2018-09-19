@@ -18,7 +18,7 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/lastCronJobTask/{jobId}
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**planId**|String|True||Regular task ID, required|
+|**planId**|String|True||Regular Task ID, required|
 
 
 ## Return parameter
@@ -28,7 +28,7 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/lastCronJobTask/{jobId}
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
 |**data**|String||

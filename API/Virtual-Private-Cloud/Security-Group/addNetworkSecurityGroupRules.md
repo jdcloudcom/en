@@ -2,7 +2,7 @@
 
 
 ## Description
-Add security group rule
+Add Security Group Rule
 
 ## Request method
 POST
@@ -18,17 +18,17 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkSecurityGroups/{network
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**networkSecurityGroupRuleSpecs**|AddSecurityGroupRules[]|True||Security group rule information|
+|**networkSecurityGroupRuleSpecs**|AddSecurityGroupRules[]|True||Security Group Rule Information|
 
-### <a name="AddSecurityGroupRules">AddSecurityGroupRules</a>
+### AddSecurityGroupRules
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**addressPrefix**|String|True||Prefix of matching address|
+|**addressPrefix**|String|True||Prefix of Matching Address|
 |**description**|String|False||Description, all characters allowed to enter under UTF-8 coding, which is not exceed 256 characters|
-|**direction**|Number|True||Security group rule direction. 0: inbound rule; 1: outbound rule|
-|**fromPort**|Number|False||The start transport layer port of rule limit, value range:1-65535; if the protocol is a transport layer protocol, the default value is 1; if the protocol is not a transport layer protocol, the value is constantly 0. If the rule is limited to one port, a same value is filled in the fromPort and toPort|
-|**protocol**|Number|True||Rule limits protocol. 300:All; 6:TCP; 17:UDP; 1:ICMP|
-|**toPort**|Number|False||The end transport layer port of rule limit, value range:1-65535; if the protocol is a transport layer protocol, the default value is 65535; if the protocol is not a transport layer protocol, the value is constantly 0. If the rule is limited to one port, a same value is filled in the fromPort and toPort|
+|**direction**|Number|True||Security Group Rule Direction. 0: Inbound Rule; 1: Outbound Rule|
+|**fromPort**|Number|False||The Start Transport Layer Port of Rule Limit. Value Range: 1-65535; if the protocol is a transport layer protocol, the default value is 1; if the protocol is not a transport layer protocol, the value is constantly 0. If the rule is limited to one port, a same value is filled in the fromPort and toPort|
+|**protocol**|Number|True||Rule Limits Protocol. 300:All; 6:TCP; 17:UDP; 1:ICMP|
+|**toPort**|Number|False||The End Transport Layer Port of Rule Limit. Value Range: 1-65535; if the protocol is a transport layer protocol, the default value is 65535; if the protocol is not a transport layer protocol, the value is constantly 0. If the rule is limited to one port, a same value is filled in the fromPort and toPort|
 
 ## Return parameter
 |Name|Type|Description|

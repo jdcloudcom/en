@@ -23,7 +23,7 @@ paths:
                   in: query
                   required: true
                   type: string
-                  description: data type, only one type can be queried, support type: mobile, idfa, imei, md5_idfa, md5_imei
+                  description: "data type, only one type can be queried, support type: mobile, idfa, imei, md5_idfa, md5_imei"
                 - name: labelCode
                   in: query
                   required: true

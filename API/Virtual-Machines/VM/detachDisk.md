@@ -2,7 +2,7 @@
 
 
 ## Description
-For virtual machine uninstalling data disk,  a virtual machine,  and a cloud disk service are not loaded until they are in progress. <br>
+For virtual machine uninstalling data disk,  a virtual machine,  and a Cloud Disk Service are not loaded until they are in progress. <br>
 
 
 ## Request method
@@ -19,7 +19,7 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:detachDi
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**diskId**|String|True||Cloud disk service ID|
+|**diskId**|String|True||Cloud Disk Service ID|
 |**force**|Boolean|False|False|Forced detachment, False by default. If this parameter is True, it represents the IO of the data disk is forcibly broken.|
 
 
@@ -34,7 +34,7 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:detachDi
 |---|---|
 |**400**|Invalid parameter|
 |**401**|Authentication failed|
-|**404**|Not found|
+|**404**|Not found  |
 |**503**|Service unavailable|
 |**200**|OK|
 |**500**|Internal server error|

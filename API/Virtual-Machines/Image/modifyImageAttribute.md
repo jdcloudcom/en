@@ -19,8 +19,8 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/images/{imageId}:modifyImageAtt
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**description**|String|False||Description, <a href="https://www.jdcloud.com/help/detail/3870/isCatalog/1 ">Refer to the public parameter specification</a>.|
-|**name**|String|False||Name, <a href="https://www.jdcloud.com/help/detail/3870/isCatalog/1">Refer to the public parameter specification </a>.|
+|**description**|String|False||Description, <a href='https://www.jdcloud.com/help/detail/3870/isCatalog/1'>Refer to the public parameter specification</a>.|
+|**name**|String|False||Name, <a href='https://www.jdcloud.com/help/detail/3870/isCatalog/1'>Refer to the public parameter specification </a>.|
 
 
 ## Return parameter

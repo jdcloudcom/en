@@ -19,6 +19,7 @@ definitions:
       routeTableId:
         type: string
         description: "Subnet associated route table Id, it is default route table of VPC by default"
-      description: "type: string"
+      description: 
+        type: string
         description: "Subnet description information, all characters allowed to enter under UTF-8 coding, which is not exceed 256 characters."
 

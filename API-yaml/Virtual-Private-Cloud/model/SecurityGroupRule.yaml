@@ -22,11 +22,12 @@ definitions:
         type: number
         description: "The start transport layer port of rule limit, the default value is 1, if protocol is not a transport layer protocol, the value is constantly 0"
       toPort:
-         type: number
-         description: "The end transport layer port of rule limit, the default value is 1, if protocol is not a transport layer protocol, the value is constantly 0"
+        type: number
+        description: "The end transport layer port of rule limit, the default value is 1, if protocol is not a transport layer protocol, the value is constantly 0"
       createdTime:
-         type: string
-         description: "Creation Time of Security Group Rule"
-      description: "type: string"
-         description: "Description, all characters allowed to enter under UTF-8 coding, which is not exceed 256 characters"
+        type: string
+        description: "Creation Time of Security Group Rule"
+      description:
+        type: string
+        description: "Description, all characters allowed to enter under UTF-8 coding, which is not exceed 256 characters"
 

@@ -12,5 +12,6 @@ definitions:
       networkAclName:
         type: string
         description: "NetworkAcl Name"
-      description: "type: string"
+      description:
+        type: string
         description: "Description, all characters allowed to enter under UTF-8 coding, which is not exceed 256 characters"

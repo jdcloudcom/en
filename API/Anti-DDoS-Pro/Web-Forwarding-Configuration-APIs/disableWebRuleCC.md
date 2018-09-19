@@ -2,7 +2,7 @@
 
 
 ## Description
-“Web service rules disable CC"
+Web service rules disable CC
 
 ## Request method
 POST
@@ -13,8 +13,8 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/webR
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**instanceId**|String|True||Instance ID|
-|**regionId**|String|True||Belonging region ID|
-|**webRuleId**|String|True||Web service rule ID|
+|**regionId**|String|True||Belonging Region ID|
+|**webRuleId**|String|True||Web Service Rule ID|
 
 ## Request parameter
 None

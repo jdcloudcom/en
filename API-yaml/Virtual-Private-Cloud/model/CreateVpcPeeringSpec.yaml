@@ -16,5 +16,6 @@ definitions:
       remoteVpcId:
         type: string
         description: "VPCPeering Opposite Terminal VPC ID"
-      description: "type: string"
+      description:
+        type: string
         description: "VPCPeering Description. Value Range: 0-256 Chinese, English capital and lowercase letters, numbers and underline delimiter"

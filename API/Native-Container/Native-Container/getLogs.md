@@ -31,7 +31,7 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/containers/{containerId}:getLog
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
 |**logs**|Object||

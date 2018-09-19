@@ -2,7 +2,7 @@
 
 
 ## Description
-Query all the jobs under the assigned applications
+Query All the Jobs Under the Assigned Applications
 
 ## Request method
 GET
@@ -27,13 +27,13 @@ https://streamcompute.jdcloud-api.com/v1/regions/{regionId}/jobList
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
-|**data**|Object[]|job objects queried out|
+|**data**|Object[]|Job Objects Queried out|
 
 ## Return code
 |Return code|Description|
 |---|---|
 |**200**|OK|
-|**500**|INTERNAL_ERROR|
+|**500**|INTERNAL_ERROR                                |

@@ -20,12 +20,12 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instanceTypes
 |---|---|---|---|---|
 |**filters**|Filter[]|False||instanceTypes - Instance type, exact match, multiple support<br>az-AZ,  exact match,  multiple supported<br>|
 
-### <a name="Filter">Filter</a>
+### Filter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**name**|String|True||Name of filter requirements|
+|**name**|String|True||Name of Filter Requirements|
 |**operator**|String|False||Operator of filter requirements is eq by default|
-|**values**|String[]|True||Value of filter requirements|
+|**values**|String[]|True||Value of Filter Requirements|
 
 ## Return parameter
 |Name|Type|Description|
@@ -34,13 +34,13 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instanceTypes
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
 |**instanceTypes**|InstanceType[]|Generic instance type|
 |**specificInstanceTypes**|InstanceType[]|User-specific instance type; ticket application required|
 |**totalCount**|Integer|Quantity|
-### <a name="InstanceType">InstanceType</a>
+### InstanceType
 |Name|Type|Description|
 |---|---|---|
 |**cpu**|Integer|CPU number|
@@ -50,7 +50,7 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instanceTypes
 |**memoryMB**|Integer|Memory size|
 |**nicLimit**|Integer|Number of ENI supported|
 |**state**|InstanceTypeState[]|Instance type status|
-### <a name="InstanceTypeState">InstanceTypeState</a>
+### InstanceTypeState
 |Name|Type|Description|
 |---|---|---|
 |**az**|String|AZ|

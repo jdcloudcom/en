@@ -2,7 +2,7 @@
 
 
 ## Description
-Obtain software list information of the corresponding revision
+Obtain software list information of the corresponding Version
 
 ## Request method
 POST
@@ -17,7 +17,7 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/softwareInfo
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**ver**|String|True||JMR software revision number|
+|**ver**|String|True||JMR Software Version Number|
 
 
 ## Return parameter
@@ -27,10 +27,10 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/softwareInfo
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
-|**data**|String|Corresponding software list information|
+|**data**|String|Corresponding Software List Information|
 |**message**|String||
 |**status**|String||
 

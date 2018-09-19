@@ -38,7 +38,7 @@ paths:
             items:
               #$ref: "/jcloud-open-api/common/model/Filter.yaml#/definitions/filter"
               $ref: "../../common/model/Filter.yaml#/definitions/filter"
-            description: "|"
+            description: |
                    subnetIds - subnet ID list, support multiple IDs
                    subnetNames - subnet name list, support multiple names
                    routeTableId	- subnet associated route table Id, support single Id

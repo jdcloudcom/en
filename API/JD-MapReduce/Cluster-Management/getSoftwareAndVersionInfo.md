@@ -2,7 +2,7 @@
 
 
 ## Description
-Obtain the software list corresponding to the assigned JMR revision and the revision information
+Obtain the software list corresponding to the assigned JD MapReduce Version and the Version information
 
 ## Request method
 POST
@@ -17,7 +17,7 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/softwareInfo/v2
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**ver**|String|True||JMR software revision number|
+|**ver**|String|True||JMR Software Version Number|
 
 
 ## Return parameter
@@ -27,18 +27,18 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/softwareInfo/v2
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
 |**data**|SoftwareInfoAndVersion[]||
 |**message**|String||
 |**status**|String||
-### <a name="SoftwareInfoAndVersion">SoftwareInfoAndVersion</a>
+### SoftwareInfoAndVersion
 |Name|Type|Description|
 |---|---|---|
 |**flag**|Boolean|It means whether the obtained information is normal|
-|**name**|String|Adopted software name, such as hadoop/spark|
-|**version**|String|Software current revision|
+|**name**|String|Adopted Software Name, such as hadoop/spark|
+|**version**|String|Software Current Version|
 
 ## Return code
 |Return code|Description|

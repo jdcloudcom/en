@@ -25,7 +25,6 @@ definitions:
         type: array
         items:
           type: string
-          description: "AZ ID"
         description: "AZ ID, the first ID must be AZ where the primary instance is located. If the two AZs are the same, you also need to enter two azIds."
       vpcId:
         type: string

@@ -12,8 +12,8 @@ https://baseanti.jdcloud-api.com/v1/regions/{regionId}/ipResources/{ip}/monitorF
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**ip**|String|True||EIP address|
-|**regionId**|String|True||Belonging region ID|
+|**ip**|String|True||EIP Address|
+|**regionId**|String|True||Belonging Region ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
@@ -28,20 +28,20 @@ https://baseanti.jdcloud-api.com/v1/regions/{regionId}/ipResources/{ip}/monitorF
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
 |**data**|IpResourceFlow||
-### <a name="IpResourceFlow">IpResourceFlow</a>
+### IpResourceFlow
 |Name|Type|Description|
 |---|---|---|
 |**bps**|IpResourceFlowDetail||
 |**pps**|IpResourceFlowDetail||
-### <a name="IpResourceFlowDetail">IpResourceFlowDetail</a>
+### IpResourceFlowDetail
 |Name|Type|Description|
 |---|---|---|
-|**times**|String[]|Time point|
-|**used**|Integer[]|Use value of corresponding time point|
+|**times**|String[]|Time Point|
+|**used**|Integer[]|Use Value of Corresponding Time Point|
 
 ## Return code
 |Return code|Description|

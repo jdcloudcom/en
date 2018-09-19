@@ -25,16 +25,16 @@ None
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
 |**data**|AvailableNumData|The number of remaining resources that can be created|
 |**message**|String||
 |**status**|String||
-### <a name="AvailableNumData">AvailableNumData</a>
+### AvailableNumData
 |Name|Type|Description|
 |---|---|---|
-|**serverNum**|Integer|Number of available services|
+|**serverNum**|Integer|Number of Available Services|
 
 ## Return code
 |Return code|Description|

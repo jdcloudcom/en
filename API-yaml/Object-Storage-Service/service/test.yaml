@@ -14,7 +14,7 @@ paths:
       summary: create imgProtected
       operationId: putImgProtected
       x-jdcloud-internal: true
-      description: "|"
+      description: |
         Create original image protection
       produces:
       - application/json
@@ -51,7 +51,7 @@ paths:
       summary: get imgProtected Condition
       operationId: getimgProtectedCondition
       x-jdcloud-internal: true
-      description: "|"
+      description: |
         Obtain original image protection configuration of current bucket
       produces:
       - application/json
@@ -87,7 +87,7 @@ paths:
       summary: delete imgProtected
       operationId: deleteImgProtected
       x-jdcloud-internal: true
-      description: "|"
+      description: |
         Disable Original Image Protection
       produces:
       - application/json

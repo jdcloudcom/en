@@ -2,7 +2,7 @@
 
 
 ## Description
-Query the details of a certain application
+Query the Details of A Certain Application
 
 ## Request method
 GET
@@ -27,11 +27,11 @@ https://streamcompute.jdcloud-api.com/v1/regions/{regionId}/namespaceDetail
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
-|**namespace**|Namespace|namespace objects queried out|
-### <a name="Namespace">Namespace</a>
+|**namespace**|Namespace|Namespace Objects Queried Out|
+### Namespace
 |Name|Type|Description|
 |---|---|---|
 |**createTime**|String||
@@ -52,4 +52,4 @@ https://streamcompute.jdcloud-api.com/v1/regions/{regionId}/namespaceDetail
 |Return code|Description|
 |---|---|
 |**200**|OK|
-|**500**|INTERNAL_ERROR|
+|**500**|INTERNAL_ERROR |

@@ -2,7 +2,7 @@
 
 
 ## Description
-
+Reset Password
 
 ## Request method
 POST

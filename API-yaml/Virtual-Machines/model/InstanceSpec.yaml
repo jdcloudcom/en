@@ -16,16 +16,16 @@ definitions:
         description: "The AZ to which the VM belongs."
       instanceType:
         type: string
-        description: "Specification type. Can query <a href = "https://www.jdcloud.com/help/detail/2901/isCatalog/1"> DescribeInstanceTypes</a> API for instance type information of the specified zone or AZ."
+        description: "Specification type. Can query <a href = 'https://www.jdcloud.com/help/detail/2901/isCatalog/1'> DescribeInstanceTypes</a> API for instance type information of the specified zone or AZ."
       imageId:
         type: string
-        description: "Image ID. Can query <a href = "https://www.jdcloud.com/help/detail/2874/isCatalog/1"> DescribeImages</a> API for the image information of the specified zone."
+        description: "Image ID. Can query <a href = 'https://www.jdcloud.com/help/detail/2874/isCatalog/1'> DescribeImages</a> API for the image information of the specified zone."
       name:
         type: string
-        description: "VM name,  <a href ="https://www.jdcloud.com/help/detail/3870/isCatalog/1">Refer to the public parameter specification</a>."
+        description: "VM name,  <a href ='https://www.jdcloud.com/help/detail/3870/isCatalog/1'>Refer to the public parameter specification</a>."
       password:
         type: string
-        description: "Password,  <a href = "https://www.jdcloud.com/help/detail/3870/isCatalog/1 ">Refer to the public parameter specification</a>."
+        description: "Password,  <a href = 'https://www.jdcloud.com/help/detail/3870/isCatalog/1 '>Refer to the public parameter specification</a>."
       keyNames:
         type: array
         items:
@@ -47,10 +47,11 @@ definitions:
         description: "The instance type information of the data disk. The VM of local disk as the system disk can attach 8 data disks, and the VM of the Cloud Disk Service as the system disk can attach 7 data disks."
       charge:
         $ref: "../../charge/model/ChargeSpec.yaml#/definitions/chargeSpec"
-        description: "|"
+        description: |
           Billing configuration
           The VM does not support paying by consumption. The default is to pay by configuration.
           In the case of packaging a data disk, the billing method of the data disk can only be consistent with the VM.
           In the case of packaging EIP, if the public IP is not specified to be paid by consumption, the IP billing mode of the public network can only be consistent with the VM.
-      description: "type: string"
-        description: "Machine description,  <a href = "https://www.jdcloud.com/help/detail/3870/isCatalog/1 "> Refer to the public parameter specification</a>."
+      description: 
+        type: string
+        description: "Machine description,  <a href = 'https://www.jdcloud.com/help/detail/3870/isCatalog/1 '> Refer to the public parameter specification</a>."

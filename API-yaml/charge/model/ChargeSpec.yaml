@@ -9,7 +9,7 @@ definitions:
           - prepaid_by_duration
           - postpaid_by_usage
           - postpaid_by_duration
-        default: postpaid_by_duration
+        default: "postpaid_by_duration"
         description: "Billing model value is prepaid_by_duration, postpaid_by_usage or postpaid_by_duration; prepaid_by_duration means Pay-In-Advance, postpaid_by_usage means Pay-As-You-Go By Consumption and postpaid_by_duration means pay by configuration; is postpaid_by_duration by default. Please refer to the Help Documentation of specific product line to confirm the billing type supported by the production line"
       chargeUnit:
         type: string

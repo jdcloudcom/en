@@ -18,7 +18,7 @@ definitions:
         description: "Master Node Memory (At least 8G memory is recommended; otherwise the service may fail to deploy)"
       masterDiskType:
         type: string
-        description: "|"
+        description: |
                   "Master node cloud disk type, the optional types are (the following types are separated with "/")"
                   "NBD/NBD_SATA"
                   "Respectively Stand for: Performance Type/Capacity Type"
@@ -46,7 +46,7 @@ definitions:
         description: "Slave Node Memory (At least 4G memory is recommended; otherwise the service may fail to deploy)"
       slaveDiskType:
         type: string
-        description: "|"
+        description: |
             "Slave node cloud disk type, the optional types are (the following types are separated with "/")"
             "NBD/NBD_SATA"
             "Respectively Stand for: Performance Type/Capacity Type"

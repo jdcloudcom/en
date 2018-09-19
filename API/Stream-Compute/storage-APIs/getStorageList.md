@@ -2,7 +2,7 @@
 
 
 ## Description
-Create or update storage
+Create or Update Storage
 
 ## Request method
 GET
@@ -18,7 +18,7 @@ https://streamcompute.jdcloud-api.com/v1/regions/{regionId}/storageList
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**namespaceId**|String|True||namespaceId|
-|**storageType**|String|True||storage type|
+|**storageType**|String|True||Storage Type|
 
 
 ## Return parameter
@@ -28,7 +28,7 @@ https://streamcompute.jdcloud-api.com/v1/regions/{regionId}/storageList
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
 |**storageList**|Object[]||

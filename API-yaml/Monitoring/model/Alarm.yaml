@@ -41,10 +41,10 @@ definitions:
         items:
           type: string
       downSample:
-        description: "Sampling frequency, some metrics support setting downSample, through <a href="https://www.jdcloud.com/help/detail/2791/isCatalog/1">[Query metric list to create monitoring rules available]</a>API is available for viewing."
+        description: "Sampling frequency, some metrics support setting downSample, through <a href='https://www.jdcloud.com/help/detail/2791/isCatalog/1'>[Query metric list to create monitoring rules available]</a>API is available for viewing."
         type: string
       metric:
-        description: "For values, please view <a href="https://www.jdcloud.com/help/detail/2791/isCatalog/1"> [Query metric list to create monitoring rules available]</a> metric field of API"
+        description: "For values, please view <a href='https://www.jdcloud.com/help/detail/2791/isCatalog/1'> [Query metric list to create monitoring rules available]</a> metric field of API"
         type: string
       noticePeriod:
         description: "Notification Period Unit: Hour"
@@ -56,12 +56,12 @@ definitions:
         description: "Statistical period, unit: minutes, currently supported value: 2, 5, 15, 30, 60"
         type: integer
       resourceIds:
-        description: "Alarm rules shall correspond to the Instance List, 100 pieces at most each time, for example"['resourceId1','resourceId2']""
+        description: "Alarm rules shall correspond to the Instance List, 100 pieces at most each time, for example ['resourceId1','resourceId2'] "
         type: array
         items:
           type: string
       serviceCode:
-        description: "For values of product name, please view <a href="https://www.jdcloud.com/help/detail/2791/isCatalog/1">[Query metric list to create monitoring rules available ]</a> serviceCode field of API"
+        description: "For values of product name, please view <a href='https://www.jdcloud.com/help/detail/2791/isCatalog/1'>[Query metric list to create monitoring rules available ]</a> serviceCode field of API"
         type: string
       threshold:
         description: "Alarm threshold, currently, only numeric type is available"

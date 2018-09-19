@@ -52,7 +52,7 @@ paths:
                properties:
                  jmrJobViewModel:
                    $ref: "../model/JmrJobViewModel.yaml#/definitions/jmrJobViewModel"
-                   description: "|"
+                   description: |
                              "Required Fields: clusterId and az"
                              "Optional Fields: jobName, jobType and clusterName"
                  selectParams:
@@ -78,7 +78,7 @@ paths:
                                $ref: "../model/JmrJobViewModel.yaml#/definitions/jmrJobViewModel"
                            totalNum:
                              type: integer
-                       description: "|"
+                       description: |
                                    "Include the JmrJobViewModel list - jmrJobViewModelList"
                                    "And returned list size - totalNum"
                  requestId:
@@ -247,7 +247,7 @@ paths:
                properties:
                  jmrTaskViewModel:
                    $ref: "../model/JmrTaskViewModel.yaml#/definitions/jmrTaskViewModel"
-                   description: "|"
+                   description: |
                                "Required parameters: jobId, planId, workflowId and workflowInstanceId"
                  clusterId:
                    type: string
@@ -340,7 +340,7 @@ paths:
                              type: array
                              items:
                                $ref: "../model/JmrTaskViewModel.yaml#/definitions/jmrTaskViewModel"
-                       description: "|"
+                       description: |
                                      "Include the searched JmrTaskViewModel list - taskList"
                                      "And returned list size - totalNum"
                  requestId:
@@ -442,7 +442,7 @@ paths:
                              type: array
                              items:
                                $ref: "../model/JmrPlanViewModel.yaml#/definitions/jmrPlanViewModel"
-                       description: "|"
+                       description: |
                                      "Include JmrPlanViewModel list - cronJobs"
                                      "And return list size - totalNum"
                  requestId:
@@ -492,7 +492,7 @@ paths:
                              type: array
                              items:
                                $ref: "../model/JmrPlanViewModel.yaml#/definitions/jmrPlanViewModel"
-                       description: "|"
+                       description: |
                                      "Include JmrPlanViewModel list - cronJobs"
                                      "And return list size - totalNum"
                  requestId:
@@ -635,7 +635,7 @@ paths:
                              type: array
                              items:
                                $ref: "../model/JmrJobViewModel.yaml#/definitions/jmrJobViewModel"
-                       description: "|"
+                       description: |
                                      "Include JmrJobViewModel list - jobList"
                                      "And returned list size - totalNum"
                  requestId:
@@ -665,7 +665,7 @@ paths:
                properties:
                  jmrPlanViewModel:
                    $ref: "../model/JmrPlanViewModel.yaml#/definitions/jmrPlanViewModel"
-                   description: "|"
+                   description: |
                              "Required fields: planId, jobIds, planName, planType and failurePolicy"
                  time:
                    type: string
@@ -823,7 +823,7 @@ paths:
                            type: array
                            items:
                              $ref: "../model/JmrTaskViewModel.yaml#/definitions/jmrTaskViewModel"
-                       description: "|"
+                       description: |
                                      "Include JmrTaskViewModel list - taskList"
                                      "And returned list size - totalNum"
                  requestId:
@@ -875,7 +875,7 @@ paths:
                              type: array
                              items:
                                $ref: "../model/JmrTaskViewModel.yaml#/definitions/jmrTaskViewModel"
-                       description: "|"
+                       description: |
                                      "Include the searched JmrTaskViewModel list - taskList"
                                      "And returned list size - totalNum"
                  requestId:

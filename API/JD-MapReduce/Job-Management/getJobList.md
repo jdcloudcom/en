@@ -17,40 +17,39 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/jobView:list
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**jmrJobViewModel**|JmrJobViewModel|True||"Required fields: clusterId and az"<br>"Optional fields: jobName, jobType and clusterName"<br>|
+|**jmrJobViewModel**|JmrJobViewModel|True||"Required Fields: clusterId and az"<br>"Optional Fields: jobName, jobType and clusterName"<br>|
 |**selectParams**|SelectParams|False|||
 
-### <a name="JmrJobViewModel">JmrJobViewModel</a>
+### JmrJobViewModel
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**clusterId**|String|False||Cluster ID|
-|**clusterName**|String|False||Cluster name|
-|**clusterStatus**|String|False||Extra field|
-|**createTime**|String|False||Creation time|
-|**cronExpression**|String|False||Regular task time|
-|**dataCenter**|String|False||Date center|
-|**id**|Integer|False|||
+|**clusterName**|String|False||Cluster Name|
+|**clusterStatus**|String|False||Extra Field|
+|**createTime**|String|False||Creation Time|
+|**cronExpression**|String|False||Regular Task Time|
+|**dataCenter**|String|False||Data Center|
+|**id**|String|False||Job ID|
 |**isSelfDependence**|Integer|False|||
 |**isSendMsg**|Boolean|False||Whether to send a SMS notice after job is failed|
 |**isVirtualTask**|Integer|False|||
-|**jobGroup**|String|False||Job group|
-|**jobId**|String|False||Job ID|
-|**jobName**|String|False||Job name|
-|**jobStatus**|String|False||Job status|
-|**jobTrigger**|String|False||Job trigger|
-|**jobType**|String|False||Job type|
+|**jobGroup**|String|False||Job Group|
+|**jobName**|String|False||Job Name|
+|**jobStatus**|String|False||Job Status|
+|**jobTrigger**|String|False||Job Trigger|
+|**jobType**|String|False||Job Type|
 |**location**|String|False||Location|
-|**orderBy**|String|False||Extra field, optional|
-|**params**|String|False||Required parameter|
-|**retryTimes**|Integer|False||Number of job retry|
+|**orderBy**|String|False||Extra Field, optional|
+|**params**|String|False||Required Parameter|
+|**retryTimes**|Integer|False||Number of Job Retry|
 |**taskScheduleType**|Integer|False|||
-|**userpin**|String|False||User name|
-### <a name="SelectParams">SelectParams</a>
+|**userpin**|String|False||User Name|
+### SelectParams
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**orderBy**|String|False||Ranking condition, optional|
-|**pageNum**|Integer|False||Search paging number, optional condition|
-|**pageSize**|Integer|False||Search paging size, optional condition|
+|**orderBy**|String|False||Ranking Condition, optional|
+|**pageNum**|Integer|False||Search Paging Number, optional condition|
+|**pageSize**|Integer|False||Search Paging Size, optional condition|
 |**status**|String|False|||
 
 ## Return parameter
@@ -60,7 +59,7 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/jobView:list
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
 |**data**|Object|"Include the JmrJobViewModel list - jmrJobViewModelList"<br>"And returned list size - totalNum"<br>|

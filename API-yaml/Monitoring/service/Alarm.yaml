@@ -121,7 +121,7 @@ paths:
       x-jdcloud-internal: false
       parameters:
         - type: string
-          description: "For rule id to be deleted, use "|" to separate multiple rules"
+          description: "For rule id to be deleted, use '|' to separate multiple rules"
           name: ids
           in: query
           required: true
@@ -172,7 +172,7 @@ paths:
       parameters:
         - name: Body
           in: body
-          description: "Rule Parameter""
+          description: "Rule Parameter"
           x-jdcloud-tiered: false
           schema:
             $ref: "../model/Alarm.yaml#/definitions/updateAlarmBody"

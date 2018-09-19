@@ -2,7 +2,7 @@
 
 
 ## Description
-Create policy
+Create Policy
 
 ## Request method
 POST
@@ -17,24 +17,24 @@ https://iam.jdcloud-api.com/v1/regions/{regionId}/permission
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**createPermissionInfo**|CreatePermissionInfo|True||Permission information|
+|**createPermissionInfo**|CreatePermissionInfo|True||Permission Information|
 
-### <a name="CreatePermissionInfo">CreatePermissionInfo</a>
+### CreatePermissionInfo
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**content**|PermissionDetail[]|True||Permission details|
+|**content**|PermissionDetail[]|True||Permission Details|
 |**description**|String|False||Description, 0~256 characters|
-|**name**|String|True||Permission name, 1~32 numbers, letters, Chinese characters, underlines, underlines and line-throughs|
-### <a name="PermissionDetail">PermissionDetail</a>
+|**name**|String|True||Permission Name, 1~32 numbers, letters, Chinese characters, underlines, underlines and line-throughs|
+### PermissionDetail
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**permission**|String|True||Permission type: Read-only-R, Delete-D, Modification-M|
-|**resource**|Resource[]|True||Resource information|
-### <a name="Resource">Resource</a>
+|**permission**|String|True||Permission Type: Read-only-R, Delete-D, Modification-M|
+|**resource**|Resource[]|True||Resource Information|
+### Resource
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**ids**|String[]|True||Resource id set, transmission * means that it is valid for all ids|
-|**type**|String|True||Resource type, virtual machine-server, Image-image, cloud disk-volume, vpc-vpc, public Ip-floatingIP, load balancer-loadbalance, cloud database (mysql)-database, cloud cache-cache|
+|**ids**|String[]|True||Resource id Set, transmission * means that it is valid for all ids|
+|**type**|String|True||Resource Type, Virtual Machine-server, Image-image, Cloud Disk-volume, vpc-vpc, Public Ip-floatingIP, Load Balancer-loadbalance, Cloud Database (mysql)-database, Cloud Cache-cache|
 
 ## Return parameter
 |Name|Type|Description|

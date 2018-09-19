@@ -15,7 +15,8 @@ paths:
       parameters:
         - name: createBackupSynchronicity
           in: body
-          description: "schema:"
+          description: 
+          schema:
             type: object
             required:
               - instanceId
@@ -61,7 +62,8 @@ paths:
           type: array
           items:
             $ref: "../../common/model/Filter.yaml#/definitions/filter"
-          description: "responses:"
+          description:
+      responses:
         200:
           description: "OK"
           schema:

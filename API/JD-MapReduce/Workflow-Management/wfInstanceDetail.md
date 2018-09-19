@@ -28,11 +28,11 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/wfInstance:detail
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
 |**message**|Message||
-### <a name="Message">Message</a>
+### Message
 |Name|Type|Description|
 |---|---|---|
 |**code**|String|Code|
@@ -49,17 +49,17 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/wfInstance:detail
 |**targetParameterList**|String[]||
 |**taskId**|String||
 |**total**|Integer||
-### <a name="Path">Path</a>
+### Path
 |Name|Type|Description|
 |---|---|---|
 |**child**|Integer||
 |**father**|Integer||
-### <a name="Rect">Rect</a>
+### Rect
 |Name|Type|Description|
 |---|---|---|
 |**instanceId**|Integer||
 |**instanceStatus**|Integer||
-|**intervalTimes**|Integer|Re-running interval of the failed task|
+|**intervalTimes**|Integer|Re-running Interval of the Failed Task|
 |**jobId**|Integer||
 |**retryTimes**|Integer|Retry times after the task is failed|
 |**taskDesc**|String||

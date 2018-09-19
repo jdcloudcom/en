@@ -40,7 +40,8 @@ definitions:
         description: "Time After Formatt"
       isSync:
         type: boolean
-      description: "type: string"
+      description: 
+        type: string
       jobIds:
         type: string
       clusterId:

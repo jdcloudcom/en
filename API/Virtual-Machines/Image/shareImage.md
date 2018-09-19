@@ -2,7 +2,7 @@
 
 
 ## Description
-Shared Image allows you to operate only your private image,  and a single image can be shared for up to 20 JD cloud accounts. <br>
+Shared Image allows you to operate only your private image,  and a single image can be shared for up to 20 JD Cloud accounts. <br>
 The packaging image does not currently support sharing.
 
 
@@ -34,7 +34,7 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/images/{imageId}:share
 |---|---|
 |**400**|Invalid parameter|
 |**401**|Authentication failed|
-|**404**|Not found|
+|**404**|Not found  |
 |**503**|Service unavailable|
 |**200**|OK|
 |**500**|Internal server error|

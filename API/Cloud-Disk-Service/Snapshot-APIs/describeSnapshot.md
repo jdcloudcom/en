@@ -2,7 +2,7 @@
 
 
 ## Description
-Query cloud disk snapshot information details
+Query Cloud Disk Snapshot Details
 
 ## Request method
 GET
@@ -23,23 +23,23 @@ None
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
-|**result**|Result|Cloud disk snapshot information details queried|
+|**result**|Result|Cloud Disk Snapshot Details Queried|
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
 |**snapshot**|Snapshot||
-### <a name="Snapshot">Snapshot</a>
+### Snapshot
 |Name|Type|Description|
 |---|---|---|
 |**createTime**|String|Creation Time|
 |**description**|String|Snapshot Description|
-|**diskId**|String|Cloud disk service ID used to create the snapshot|
+|**diskId**|String|Cloud Disk ID used to create the snapshot|
 |**name**|String|Snapshot Name|
 |**snapshotId**|String|Cloud Disk Snapshot ID|
 |**snapshotSizeGB**|Integer|Snapshot Size, in GiB|
-|**status**|String|Snapshot state, creating, available, in-use, deleting, error_create or error_delete|
+|**status**|String|Snapshot Status, creating, available, in-use, deleting, error_create or error_delete|
 
 ## Return code
 |Return code|Description|

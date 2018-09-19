@@ -6,7 +6,8 @@ definitions:
       roleName:
         type: string
         description: "Role Name"
-      description: "type: string"
+      description:
+        type: string
         description: "Description, 0~1,000 characters"
       createTime:
         type: string

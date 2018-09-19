@@ -31,8 +31,9 @@ definitions:
         description: "The address of the primary network interface of primary IP associating EIP"
       status:
         type: string
-        description: "Virtual machine status,<a href="https://www.jdcloud.com/help/detail/3869/isCatalog/1">refer to virtual machine status</a>"
-      description: "type: string"
+        description: "Virtual machine status,<a href='https://www.jdcloud.com/help/detail/3869/isCatalog/1'>refer to virtual machine status</a>"
+      description: 
+        type: string
         description: "VM description"
       imageId:
         type: string

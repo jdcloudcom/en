@@ -19,20 +19,20 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/workflow:save
 |---|---|---|---|---|
 |**workflow**|EmrWorkflow|True|||
 
-### <a name="EmrWorkflow">EmrWorkflow</a>
+### EmrWorkflow
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**createTime**|String|False||Workflow creation time|
-|**dataCenter**|String|False||Data center, i.e. regionId|
+|**createTime**|String|False||Workflow Creation Time|
+|**dataCenter**|String|False||Data Center, i.e. regionId|
 |**id**|Number|False|||
 |**isSelfDependence**|Boolean|False||"Whether it is self-dependent"<br>"1: Self-dependent (default), 0: Non-dependent"<br>|
 |**isSendMsg**|Boolean|False||Whether to send a notice after failed|
-|**modifyTime**|String|False||Last time of modification|
-|**status**|String|False||Workflow status|
+|**modifyTime**|String|False||Last Time of Modification|
+|**status**|String|False||Workflow Status|
 |**taskScheduleType**|Integer|False||"0: Real-time Task (default)"<br>"1: Periodic Task"<br>"2: Regular Task"<br>|
-|**userpin**|String|False||User name|
+|**userpin**|String|False||User Name|
 |**workflowId**|String|False||Workflow ID|
-|**workflowName**|String|False||Workflow name|
+|**workflowName**|String|False||Workflow Name|
 
 ## Return parameter
 |Name|Type|Description|
@@ -41,13 +41,13 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/workflow:save
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
 |**data**|Message||
 |**message**|String||
 |**status**|String||
-### <a name="Message">Message</a>
+### Message
 |Name|Type|Description|
 |---|---|---|
 |**code**|String|Code|
@@ -64,17 +64,17 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/workflow:save
 |**targetParameterList**|String[]||
 |**taskId**|String||
 |**total**|Integer||
-### <a name="Path">Path</a>
+### Path
 |Name|Type|Description|
 |---|---|---|
 |**child**|Integer||
 |**father**|Integer||
-### <a name="Rect">Rect</a>
+### Rect
 |Name|Type|Description|
 |---|---|---|
 |**instanceId**|Integer||
 |**instanceStatus**|Integer||
-|**intervalTimes**|Integer|Re-running interval of the failed task|
+|**intervalTimes**|Integer|Re-running Interval of the Failed Task|
 |**jobId**|Integer||
 |**retryTimes**|Integer|Retry times after the task is failed|
 |**taskDesc**|String||

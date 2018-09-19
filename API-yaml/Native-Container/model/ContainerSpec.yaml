@@ -73,7 +73,8 @@ definitions:
       logConfiguration:
         $ref: "./LogConfiguration.yaml#/definitions/logConfiguration"  
         description: "Container log configuration information; 10MB storage space will be assigned to the local by default "
-      description: "type: string   "
+      description: 
+        type: string
         description: "Container Description"
       charge:
         $ref: "../../charge/model/ChargeSpec.yaml#/definitions/chargeSpec"

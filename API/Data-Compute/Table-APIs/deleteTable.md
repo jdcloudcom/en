@@ -13,13 +13,13 @@ https://xdata.jdcloud-api.com/v1/regions/{regionId}/dwTable/{tableName}
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**regionId**|String|True||Region ID|
-|**tableName**|String|True||Datasheet name|
+|**tableName**|String|True||Datasheet Name|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**databaseName**|String|True||Database name|
-|**instanceName**|String|True||Instance name|
+|**databaseName**|String|True||Database Name|
+|**instanceName**|String|True||Instance Name|
 
 
 ## Return parameter
@@ -29,7 +29,7 @@ https://xdata.jdcloud-api.com/v1/regions/{regionId}/dwTable/{tableName}
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
 |**data**|Object||

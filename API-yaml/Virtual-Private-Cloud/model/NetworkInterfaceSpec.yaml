@@ -33,5 +33,6 @@ definitions:
       sanityCheck:
         type: integer
         description: "Source and target IP address verification, with value 0 or 1, default value is 1"
-      description: "type: string"
+      description: 
+        type: string
         description: "Description, all characters allowed to enter under UTF-8 coding, which is not exceed 256 characters"

@@ -2,7 +2,7 @@
 
 
 ## Description
-Enable, disable, delete the resolution records under the main domain name
+Enable, disable, or delete the resolution records under the main domain name
 
 ## Request method
 POST
@@ -18,8 +18,8 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domain/{domainId}/
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**action**|String|True||Operation type, on->enable, off->disable, del->delete|
-|**ids**|Integer[]|True||Resolution record ID of the operation demanded|
+|**action**|String|True||Operation Type, On->Enable, Off->Disable, Del->Delete|
+|**ids**|Integer[]|True||Resolution Record ID of the Operation Required|
 
 
 ## Return parameter
@@ -33,4 +33,4 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domain/{domainId}/
 |Return code|Description|
 |---|---|
 |**200**|OK|
-|**400**|BAD_REQUEST|
+|**400**|BAD_REQUEST |

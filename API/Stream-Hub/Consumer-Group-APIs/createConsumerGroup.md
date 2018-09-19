@@ -17,9 +17,9 @@ https://streambus.jdcloud-api.com/v1/regions/{regionId}/consumerGroup
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**consumerGroupStr**|ConsumerGroup|False||Consumer group object|
+|**consumerGroupStr**|ConsumerGroup|False||Consumer Group Object|
 
-### <a name="ConsumerGroup">ConsumerGroup</a>
+### ConsumerGroup
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**createdTime**|String|False|||
@@ -35,7 +35,7 @@ https://streambus.jdcloud-api.com/v1/regions/{regionId}/consumerGroup
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
 |**message**|String||

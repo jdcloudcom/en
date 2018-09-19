@@ -17,16 +17,16 @@ https://mps.jdcloud-api.com/v1/regions/{regionId}/thumbnail
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**createdTime**|String|False||Task creation time, format (GMT): yyyy-MM-dd’T’HH:mm:ss.SSS’Z’  (readonly)|
+|**createdTime**|String|False||Task Creation Time, Format (GMT): yyyy-MM-dd’T’HH:mm:ss.SSS’Z’  (readonly)|
 |**errorCode**|Integer|False||Error Code (readonly)|
-|**lastUpdatedTime**|String|False||Task creation time, format (GMT): yyyy-MM-dd’T’HH:mm:ss.SSS’Z’  (readonly)|
+|**lastUpdatedTime**|String|False||Task Creation Time, Format (GMT): yyyy-MM-dd’T’HH:mm:ss.SSS’Z’  (readonly)|
 |**rule**|ThumbnailTaskRule|False|||
 |**source**|ThumbnailTaskSource|True|||
 |**status**|String|False||Status (SUCCESS, ERROR, PENDDING, RUNNING) (readonly)|
 |**target**|ThumbnailTaskTarget|True|||
 |**taskID**|String|False||Task ID (readonly)|
 
-### <a name="ThumbnailTaskRule">ThumbnailTaskRule</a>
+### ThumbnailTaskRule
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**count**|Integer|False||Number of screenshots, unavailable when mode=single. default:1|
@@ -34,12 +34,12 @@ https://mps.jdcloud-api.com/v1/regions/{regionId}/thumbnail
 |**keyFrame**|Boolean|False||Whether to enable keyframe screenshots. default: true|
 |**mode**|String|False||Screenshot mode, single screenshot: single, multiple screenshots: multi, average: average, default: single|
 |**startTimeInSecond**|Integer|False||Start time of generated screenshot, unavailable when mode=average. default:0|
-### <a name="ThumbnailTaskSource">ThumbnailTaskSource</a>
+### ThumbnailTaskSource
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**bucket**|String|True||Enter the bucket of Video Information|
+|**bucket**|String|True||Enter the Bucket of Video Information|
 |**key**|String|True||Enter the Key of Video Information|
-### <a name="ThumbnailTaskTarget">ThumbnailTaskTarget</a>
+### ThumbnailTaskTarget
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**destBucket**|String|True||Enter the bucket that saves target file|
@@ -56,11 +56,11 @@ https://mps.jdcloud-api.com/v1/regions/{regionId}/thumbnail
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
 |**thumbnailTaskID**|ThumbnailTaskID||
-### <a name="ThumbnailTaskID">ThumbnailTaskID</a>
+### ThumbnailTaskID
 |Name|Type|Description|
 |---|---|---|
 |**taskID**|String||

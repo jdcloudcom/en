@@ -9,7 +9,7 @@ definitions:
         - prepaid_by_duration
         - postpaid_by_usage
         - postpaid_by_duration
-        default: postpaid_by_duration
+        default: "postpaid_by_duration"
         description: "Payment Model, the value shall be prepaid_by_duration, postpaid_by_usage or postpaid_by_duration; prepaid_by_duration refers to Pay-In-Advance; postpaid_by_usage refers to Pay By Consumption and Pay-As-You-Go; postpaid_by_duration refers to Pay By Configuration and Pay-As-You-Go, and is postpaid_by_duration by default"
       chargeStatus:
         type: string

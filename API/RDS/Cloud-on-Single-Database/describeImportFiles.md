@@ -2,13 +2,13 @@
 
 
 ## Description
-Obtain the list of files uploaded by the user to the instance through cloud on single database<br>- only support SQL Server
+Obtain the list of files uploaded by the user to the instance through Cloud on Single Database<br>- only support SQL Server
 
 ## Request method
 GET
 
 ## Request address
-https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/importFiles
+https://rds.jdcloud-api.com/0.2.9/regions/{regionId}/instances/{instanceId}/importFiles
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
@@ -25,17 +25,17 @@ None
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
 |**importFiles**|ImportFile[]|Collection of Imported Files|
-### <a name="ImportFile">ImportFile</a>
+### ImportFile
 |Name|Type|Description|
 |---|---|---|
 |**isLocal**|String|Whether it belongs to the current instance. <br> 1: Current instance; <br>0: It does not belong to current instance, and is a shared file|
 |**name**|String|File Name|
 |**sharedFileGid**|String|If the file is a shared file, it has a global ID, and it is empty if it is not a shared file. This global ID is needed when the file is deleted.|
-|**sizeByte**|Integer|File Size, in Byte|
+|**sizeByte**|Integer|File Size, Unit: Byte|
 |**uploadTime**|String|File upload completion time, format: YYYY-MM-DD HH:mm:ss|
 
 ## Return code

@@ -14,7 +14,7 @@ paths:
       summary: update bucket max count
       operationId: updateBucketMaxCount
       x-jdcloud-internal: true
-      description: "|"
+      description: |
         Update bucket maximum
       produces:
       - application/json

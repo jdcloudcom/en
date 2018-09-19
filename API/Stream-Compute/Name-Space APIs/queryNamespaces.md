@@ -2,7 +2,7 @@
 
 
 ## Description
-Query the application list under the tenant
+Query the Application List Under the Tenant
 
 ## Request method
 GET
@@ -27,10 +27,10 @@ https://streamcompute.jdcloud-api.com/v1/regions/{regionId}/namespaces
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
-|**namespaces**|Object[]|namespaces information|
+|**namespaces**|Object[]|Namespaces Information|
 
 ## Return code
 |Return code|Description|

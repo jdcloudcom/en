@@ -19,7 +19,7 @@ definitions:
         description: "A comma-separated list of the covered columns for the query, i.e., the fields following Include in the SQL statement that created the index"
       includedColumns:
         type: string
-        description: "A comma-separated list of columns that make up the unequal predicate. The predicate may take the following form:<br>table.column > constant_value<br> Any comparison operator other than "=" indicates they are unequal."
+        description: "A comma-separated list of columns that make up the unequal predicate. The predicate may take the following form:<br>table.column > constant_value<br> Any comparison operator other than '=' indicates they are unequal."
       avgUserImpact:
         type: number
         format: float

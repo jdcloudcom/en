@@ -2,7 +2,7 @@
 
 
 ## Description
-Create one or more elastic Ips
+Create One or More Elastic IPs
 
 ## Request method
 POST
@@ -17,17 +17,17 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/elasticIps/
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**elasticIpAddress**|String|False||Create by assigning elastic ip address, when multiple elastic ips are applied for creation, it must be blank|
-|**elasticIpSpec**|ElasticIpSpec|True||Elastic ip specification|
-|**maxCount**|Integer|True||Purchase number of elastic ip; value range: [1,100]|
+|**elasticIpAddress**|String|False||Create by assigning Elastic IP address, when multiple Elastic IPs are applied for creation, it must be blank|
+|**elasticIpSpec**|ElasticIpSpec|True||Elastic IP Specification|
+|**maxCount**|Integer|True||Purchase Number of Elastic IP. Value Range: [1,100]|
 
-### <a name="ElasticIpSpec">ElasticIpSpec</a>
+### ElasticIpSpec
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**bandwidthMbps**|Integer|True||Elastic IP speed limit (unit: Mbps), value range is [1-200]|
-|**chargeSpec**|ChargeSpec|False||Billing configuration|
+|**bandwidthMbps**|Integer|True||Elastic IP Speed lLimit (unit: Mbps). Value Range: [1-200]|
+|**chargeSpec**|ChargeSpec|False||Billing Configuration|
 |**provider**|String|True||IP service provider, values include bgp or no_bgp, cn-north-1: bgp; cn-south-1: [bgp, no_bgp]; cn-east-1: [bgp, no_bgp]; cn-east-2: bgp|
-### <a name="ChargeSpec">ChargeSpec</a>
+### ChargeSpec
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**chargeDuration**|Integer|False||Pay-In-Advance billing duration, the Pay-In-Advance is compulsory and valid only when the value of chargeMode is prepaid_by_duration. When chargeUnit is month, the value shall be 1~9; when chargeUnit is year, the value shall be 1, 2 or 3|
@@ -37,13 +37,13 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/elasticIps/
 ## Return parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result|Returned results|
+|**result**|Result|Returned Results|
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
-|**elasticIpIds**|String[]|Elastic IP ID list|
+|**elasticIpIds**|String[]|Elastic IP ID List|
 |**requestId**|String|Request ID|
 
 ## Return code

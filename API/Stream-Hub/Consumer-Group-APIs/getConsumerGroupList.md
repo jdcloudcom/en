@@ -17,7 +17,7 @@ https://streambus.jdcloud-api.com/v1/regions/{regionId}/consumerGroupList
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**topicId**|Integer|True||Subject id|
+|**topicId**|Integer|True||Subject ID|
 
 
 ## Return parameter
@@ -27,7 +27,7 @@ https://streambus.jdcloud-api.com/v1/regions/{regionId}/consumerGroupList
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
 |**consumerGroup**|Object[]||
@@ -36,4 +36,4 @@ https://streambus.jdcloud-api.com/v1/regions/{regionId}/consumerGroupList
 |Return code|Description|
 |---|---|
 |**200**|OK|
-|**400**|UNAUTHENTICATED|
+|**400**|UNAUTHENTICATED   |

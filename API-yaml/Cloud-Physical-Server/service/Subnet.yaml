@@ -17,7 +17,7 @@ paths:
           in: query
           required: true
           type: string
-          description: "Availability Zone, as cn-east-1a; the Availability Zones Supported by the Cloud Physical Servers in the Region can be called by Calling APIs (describeRegions)
+          description: "Availability Zone, as cn-east-1a; the Availability Zones Supported by the Cloud Physical Servers in the Region can be called by Calling APIs (describeRegions)"
       responses:
         200:
           description: OK

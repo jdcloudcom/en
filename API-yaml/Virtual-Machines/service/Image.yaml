@@ -10,7 +10,7 @@ paths:
   "/images/{imageId}":
     ###################### The details interface of the image ######################
     get:
-      description: "|"
+      description: |
         Query image details.
       operationId: describeImage
       responses:
@@ -39,7 +39,7 @@ paths:
 
     ###################### Delete image interface ######################
     delete:
-      description: "|"
+      description: |
         Delete a private image that only allows you to operate your personal private image.
         If the image is shared to other users, the image can be deleted only when the sharing is released.
       operationId: deleteImage
@@ -60,7 +60,7 @@ paths:
   "/images":
     ###################### The image list interface ######################
     get:
-      description: "|"
+      description: |
         Query the image information list. <br>
         This interface allows you to query an public image of JD Cloud,  a third-party image,  a private image,  or an image that other users share to you. <br>
         This API supports paging query with 20 items per page by default.
@@ -87,7 +87,7 @@ paths:
         - name: status
           in: query
           type: string
-          description: "<a href="https://www.jdcloud.com/help/detail/3871/isCatalog/1">refer to image status</a>"
+          description: "<a href='https://www.jdcloud.com/help/detail/3871/isCatalog/1'>refer to image status</a>"
         - name: pageNumber
           in: query
           type: integer
@@ -130,7 +130,7 @@ paths:
   "/images/{imageId}/constraints":
     ###################### Query Image Restriction Interface ######################
     get:
-      description: "|"
+      description: |
         Query the instance type limit of the image. <br>
         This interface allows you to view the type of specifications that are not supported by the image. Only the public image,  the third-party image has a specification type restriction,  and the private image of the individual does not have this limit.
       operationId: describeImageConstraints
@@ -162,7 +162,7 @@ paths:
   "/imageConstraints":
     ###################### Batch Query Image Limits ######################
     get:
-      description: "|"
+      description: |
         Batch query image specification type constraints. <br>
         This interface allows you to view the type of specifications that are not supported by the image. Only the public image,  the third-party image has a specification type restriction,  and the private image of the individual does not have this limit.
       operationId: describeImageConstraintsBatch
@@ -202,7 +202,7 @@ paths:
   "/images/{imageId}:share":
     ###################### Shared Image ######################
     post:
-      description: "|"
+      description: |
         Shared Image allows you to operate only your private image,  and a single image can be shared for up to 20 JD Cloud accounts. <br>
         The packaging image does not currently support sharing.
       operationId: shareImage
@@ -230,7 +230,7 @@ paths:
   "/images/{imageId}:unshare":
     ###################### Cancel  Shared Image ######################
     post:
-      description: "|"
+      description: |
         Unshared images only allow you to operate your personal private image.
       operationId: unShareImage
       parameters:
@@ -257,7 +257,7 @@ paths:
   "/images/{imageId}/members":
     ###################### Query Image Shared Account List ######################
     get:
-      description: "|"
+      description: |
         Query the image-shared account list,  allowing you to operate your personal private image only.
       operationId: describeImageMembers
       responses:
@@ -288,7 +288,7 @@ paths:
   "/images/{imageId}:convertImage":
     ###################### Image Transition ######################
     post:
-      description: "|"
+      description: |
         Internal APIs. <br>
         Image conversion,  only the conversion of the image from the LocalDisk to the cloudDisk type is supported,  allowing only your personal private image to be operated.
       operationId: convertImage
@@ -319,7 +319,7 @@ paths:
   "/images:copyImages":
     ###################### The inter-zone image replication ######################
     post:
-      description: "|"
+      description: |
         Image inter-domain replication,  copy private images to other regions,  allowing you to operate your private image only. <br>
         Only images of the Cloud Disk Service of system disk are supported.
       operationId: copyImages
@@ -364,18 +364,18 @@ paths:
   "/images/{imageId}:modifyImageAttribute":
     ###################### Modify Image Information ######################
     post:
-      description: "|"
+      description: |
         Modify the image information,  including name and description; Only allow your personal private image to be operated.
       operationId: modifyImageAttribute
       parameters:
         - name: name
           in: query
           type: string
-          description: "Name, <a href="https://www.jdcloud.com/help/detail/3870/isCatalog/1">Refer to the public parameter specification </a>."
+          description: "Name, <a href='https://www.jdcloud.com/help/detail/3870/isCatalog/1'>Refer to the public parameter specification </a>."
         - name: description
           in: query
           type: string
-          description: "Description, <a href="https://www.jdcloud.com/help/detail/3870/isCatalog/1 ">Refer to the public parameter specification</a>."
+          description: "Description, <a href='https://www.jdcloud.com/help/detail/3870/isCatalog/1'>Refer to the public parameter specification</a>."
       responses:
         200:
           description: "OK"

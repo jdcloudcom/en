@@ -27,10 +27,10 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/clusterJob/{clusterId}:co
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
-|**data**|Integer|Cluster job number|
+|**data**|Integer|Cluster Job Number|
 |**message**|String||
 |**status**|String||
 

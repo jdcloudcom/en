@@ -2,7 +2,7 @@
 
 
 ## Description
-Query security group information details
+Query Security Group Information Details
 
 ## Request method
 GET
@@ -23,33 +23,33 @@ None
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
-|**result**|Result|Returned results|
+|**result**|Result|Returned Results|
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
-|**networkSecurityGroup**|NetworkSecurityGroup|Security group resource information|
-### <a name="NetworkSecurityGroup">NetworkSecurityGroup</a>
+|**networkSecurityGroup**|NetworkSecurityGroup|Security Group Resource Information|
+### NetworkSecurityGroup
 |Name|Type|Description|
 |---|---|---|
-|**createdTime**|String|Creation time of security group|
-|**description**|String|Security group description information|
-|**networkSecurityGroupId**|String|Security group ID|
-|**networkSecurityGroupName**|String|Security group name|
-|**securityGroupRules**|SecurityGroupRule[]|Security group rule information|
-|**vpcId**|String|vpc Id of security group|
-### <a name="SecurityGroupRule">SecurityGroupRule</a>
+|**createdTime**|String|Creation Time of Security Group|
+|**description**|String|Security Group Description Information|
+|**networkSecurityGroupId**|String|Security Group ID|
+|**networkSecurityGroupName**|String|Security Group Name|
+|**securityGroupRules**|SecurityGroupRule[]|Security Group Rule Information|
+|**vpcId**|String|VPC ID of Security Group|
+### SecurityGroupRule
 |Name|Type|Description|
 |---|---|---|
-|**addressPrefix**|String|Prefix of matching address|
-|**createdTime**|String|Creation time of security group rule|
+|**addressPrefix**|String|Prefix of Matching Address|
+|**createdTime**|String|Creation Time of Security Group Rule|
 |**description**|String|Description, all characters allowed to enter under UTF-8 coding, which is not exceed 256 characters|
-|**direction**|Number|Security group rule direction. 0: inbound rule; 1: outbound rule|
+|**direction**|Number|Security Group Rule Direction. 0: Inbound Rule; 1: Outbound Rule|
 |**fromPort**|Number|The start transport layer port of rule limit, the default value is 1, if protocol is not a transport layer protocol, the value is constantly 0|
-|**ipVersion**|Number|Matching address protocol revision 4：IPv4|
-|**protocol**|Number|Rule limits protocol. 300:All; 6:TCP; 17:UDP; 1:ICMP|
-|**ruleId**|String|Security group rule ID|
+|**ipVersion**|Number|Matching Address Protocol Revision 4：IPv4|
+|**protocol**|Number|Rule Limits Protocol. 300:All; 6:TCP; 17:UDP; 1:ICMP|
+|**ruleId**|String|Security Group Rule ID|
 |**toPort**|Number|The end transport layer port of rule limit, the default value is 1, if protocol is not a transport layer protocol, the value is constantly 0|
 
 ## Return code

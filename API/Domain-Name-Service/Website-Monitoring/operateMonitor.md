@@ -2,7 +2,7 @@
 
 
 ## Description
-Operation collection for monitoring items, including: delete, pause, start, manual recovery and manual switch
+Operation Collection for Monitoring Items, including delete, pause, start, manual recovery and manual switch
 
 ## Request method
 POST
@@ -18,9 +18,9 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domain/{domainId}/
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**action**|String|True||Delete - del, pause - stop, start - start, manually recover - recover, manually switch - switch|
+|**action**|String|True||Delete - del, Pause - stop, Start - start, Manually Recover - recover, Manually Switch - switch|
 |**ids**|Integer[]|True||Monitor Item ID|
-|**switchTarget**|String|False||Machine value of the monitoring items, required for manual switch|
+|**switchTarget**|String|False||Machine Value of the Monitoring Items, required for manual switch|
 
 
 ## Return parameter

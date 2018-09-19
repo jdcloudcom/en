@@ -13,7 +13,7 @@ paths:
   "/disks":
     ###################### API for Cloud Disk Creation ######################
     post:
-      description: "|"
+      description: |
         -   Create one or more Cloud Disks that are paid by configuration or by service time.
         -   Disk type includes Premium Hdd Cloud Disk and SSD Cloud Disk.
         -   The billing method defaults to paying by configuration.
@@ -73,7 +73,7 @@ paths:
     get:
       operationId: describeDisks
       summary: "Query Cloud Disk list"
-      description: "|"
+      description: |
         -   filters, between multiple filter conditions is logic AND, and multiple values ​​inside each condition is logic OR
       parameters:
         - name: pageNumber
@@ -103,7 +103,7 @@ paths:
           type: array
           items:
             $ref: "../../common/model/Filter.yaml#/definitions/filter"
-          description: "|"
+          description: |
             diskId - Cloud Disk ID, Accurate Match, Support Multiple
             diskType - Type of Cloud Disk, Accurate Match, Support Multiple, ssd or premium-hdd
             instanceId - ID of the Machine, to which the Cloud Disk is Attached, Accurate Match, Support Multiple
@@ -175,7 +175,7 @@ paths:
     ###################### API for Single Cloud Disk Deletion ######################
       delete:
         summary: "Delete a Single Cloud Disk"
-        description: "|"
+        description: |
           -   Delete a Cloud Disk billed by configuration. The disk types include the Premium Hdd Cloud Disk and the SSD Cloud Disk.
           -   After the hard disk is deleted, the Cloud Disk snapshot can be retained.
           -   When the disk is released, the status of the Cloud Disk is to-be-attached (Available).
@@ -227,7 +227,7 @@ paths:
   "/disks/{diskId}:restore":
       post:
         summary: "Recovering a Cloud Disk from a snapshot"
-        description: "|"
+        description: |
           -   Data recovery operations can only be executed on the source hard disk, from which the snapshot was taken.
           -   Snapshots can be used for data recovery operations only if the source hard disk is available.
           -   After the Cloud Disk is restored, the current data will be cleared. Please be cautious.
@@ -256,7 +256,7 @@ paths:
   "/disks/{diskId}:extend":
       post:
         summary: "Cloud disk capacity can only be expanded, and cannot be reduced."
-        description: "|"
+        description: |
           -   Expansion of the Cloud Disk requires it in available status.
           -   Capacity expansion is not allowed while the disk is creating a snapshot.
         operationId: extendDisk

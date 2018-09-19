@@ -26,5 +26,6 @@ definitions:
       priority:
         type: integer
         description: "Rule Matching Priority. Value Range: [1,32768]; the smaller the priority number is, the higher priority it is"
-      description: "type: string"
+      description: 
+        type: string
         description: "Description, all characters allowed to enter under UTF-8 coding, which is not exceed 256 characters"

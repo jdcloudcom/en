@@ -37,7 +37,7 @@ paths:
             items:
               #$ref: "/jcloud-open-api/common/model/Filter.yaml#/definitions/filter"
               $ref: "../../common/model/Filter.yaml#/definitions/filter"
-            description: "|"
+            description: |
                    networkInterfaceIds - Elastic Network Interface ID List, Support Multiple IDs
                    networkInterfaceNames - Elastic Network Interface Name List, Support Multiple Names
                    VPCId - VPC ID of Elastic Network Interface, Support Single ID

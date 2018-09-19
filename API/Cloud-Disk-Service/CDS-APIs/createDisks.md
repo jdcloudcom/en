@@ -2,12 +2,12 @@
 
 
 ## Description
--   Create one or more cloud disk services that are paid by configuration or by service time.
+-   Create one or more Cloud Disks that are paid by configuration or by service time.
 -   Disk type includes Premium Hdd Cloud Disk and SSD Cloud Disk.
 -   The billing method defaults to paying by configuration.
--   After creation is completed, the cloud disk service is in available status.
+-   After creation is completed, the status of the Cloud Disk is available.
 -   The optional parameter snapshot ID is used to create a new disk.
--   When creating in batches, the name of the cloud disk service is: hard disk name -number, such as myDisk-1 and myDisk-2.
+-   In batch creation, the name of the Cloud Disk is: hard disk name -number, such as myDisk-1 and myDisk-2.
 -   maxCount is the maximum effort, and it is not guaranteed that maxCount can be reached.
 
 
@@ -24,22 +24,22 @@ https://disk.jdcloud-api.com/v1/regions/{regionId}/disks
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**clientToken**|String|True|| Idempotence check parameter|
-|**diskSpec**|DiskSpec|True||Create specification of the cloud disk service|
-|**maxCount**|Integer|True||Instance purchase quantity; value range: [1,100]|
+|**clientToken**|String|True||Idempotence Check Parameter|
+|**diskSpec**|DiskSpec|True||Create Specification of the Cloud Disk|
+|**maxCount**|Integer|True||Instance Purchase Quantity; Value Range: [1,100]|
 
-### <a name="DiskSpec">DiskSpec</a>
+### DiskSpec
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**az**|String|True||Availability zone, to which the cloud disk service belongs|
+|**az**|String|True||Availability Zone, to which the Cloud Disk belongs|
 |**charge**|ChargeSpec|False||Billing configuration. If not specified, the default billing type is pay-as-you-go - pay by service time by default.|
-|**description**|String|False||Description of the cloud disk service|
-|**diskSizeGB**|Integer|True||Size of the cloud disk service, in GiB; ssd value range of [20,1000]GB and step size of 10G; premium-hdd value range of [20,3000]GB and step size of 10G|
-|**diskType**|String|True||Type of the cloud disk service, value ssd or premium-hdd|
-|**multiAttachable**|Boolean|False||Whether the cloud disk service supports the mode that one disk is attached to multiple machines. It is set as false by default (not supported).|
-|**name**|String|True||Name of the cloud disk service|
-|**snapshotId**|String|False||Snapshot ID used to create cloud disk service|
-### <a name="ChargeSpec">ChargeSpec</a>
+|**description**|String|False||Description of the Cloud Disk|
+|**diskSizeGB**|Integer|True||Size of the Cloud Disk, in GiB; ssd value range of [20,1000]GB and step size of 10G; premium-hdd value range of [20,3000]GB and step size of 10G|
+|**diskType**|String|True||Type of the Cloud Disk, value ssd or premium-hdd|
+|**multiAttachable**|Boolean|False||Whether the Cloud Disk service supports the mode that one disk is attached to multiple machines. It is set as false by default (not supported).|
+|**name**|String|True||Name of the Cloud Disk|
+|**snapshotId**|String|False||Snapshot ID used to create the Cloud Disk|
+### ChargeSpec
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**chargeDuration**|Integer|False||Pay-In-Advance billing duration, the Pay-In-Advance is compulsory and valid only when the value of chargeMode is prepaid_by_duration. When chargeUnit is month, the value shall be 1~9; when chargeUnit is year, the value shall be 1, 2 or 3|
@@ -53,10 +53,10 @@ https://disk.jdcloud-api.com/v1/regions/{regionId}/disks
 |**result**|Result|Result Set|
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
-|**diskIds**|String[]|List of cloud disk service IDs created|
+|**diskIds**|String[]|List of Cloud Disk IDs created|
 
 ## Return code
 |Return code|Description|

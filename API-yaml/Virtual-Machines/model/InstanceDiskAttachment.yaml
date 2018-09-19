@@ -6,13 +6,13 @@ definitions:
     properties:
       diskCategory:
         type: string
-        description: "|"
+        description: |
           Disk classification, the local disk or data disk is taken.
           The system disk supports local disk or Cloud Disk Service. The system disk selects local Type, and the user must use the image localDisk type; If the system disk selects the cloud type, the user must use the image of the cloudDisk type.
           The data disk supports Cloud Disk Service only.
       autoDelete:
         type: boolean
-        description: "|"
+        description: |
           Deleting this disk with the VM automatically when the machine is deleted. The default value is true, which cannot be changed by local.
           This parameter does not take effect if the data disk in the VM is a monthly package.
           This parameter does not take effect if the data disk in the VM is a shared data disk.

@@ -8,7 +8,7 @@ Grant the database access privilege to the account, i.e., the privilege the acco
 POST
 
 ## Request address
-https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/accounts/{accountName}:grantPrivilege
+https://rds.jdcloud-api.com/0.2.9/regions/{regionId}/instances/{instanceId}/accounts/{accountName}:grantPrivilege
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
@@ -21,7 +21,7 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/account
 |---|---|---|---|---|
 |**accountPrivileges**|AccountPrivilege[]|True||Access Right to the Account|
 
-### <a name="AccountPrivilege">AccountPrivilege</a>
+### AccountPrivilege
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**dbName**|String|False||Database name with specific rules detailed in the Help Center Documentation: [Name and Password Restrictions](../../../documentation/Cloud-Database-and-Cache/RDS/Introduction/Restrictions/SQLServer-Restrictions.md)|

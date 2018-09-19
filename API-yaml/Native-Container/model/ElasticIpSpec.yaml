@@ -4,7 +4,8 @@ definitions:
     x-jdcloud-module: nc
     x-jdcloud-internal: false
     type: object
-    description: "required:"
+    description: 
+    required:
       - bandwidth
     properties:
       bandwidthMbps:

@@ -2,7 +2,7 @@
 
 
 ## Description
-Query the remaining server quota
+Query the Remaining Server Quota
 
 ## Request method
 GET
@@ -25,16 +25,16 @@ None
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
-|**data**|AvailableNumData|Remaining service quota|
+|**data**|AvailableNumData|Remaining Server Quota|
 |**message**|String||
 |**status**|String||
-### <a name="AvailableNumData">AvailableNumData</a>
+### AvailableNumData
 |Name|Type|Description|
 |---|---|---|
-|**serverNum**|Integer|Number of available services|
+|**serverNum**|Integer|Number of Available Services|
 
 ## Return code
 |Return code|Description|

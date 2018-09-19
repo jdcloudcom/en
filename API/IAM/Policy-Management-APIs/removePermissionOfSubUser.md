@@ -2,7 +2,7 @@
 
 
 ## Description
-Disassociate policies for sub-users
+Disassociate Policies for Sub-users
 
 ## Request method
 DELETE
@@ -12,9 +12,9 @@ https://iam.jdcloud-api.com/v1/regions/{regionId}/subUser/{subUser}/permissions/
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**permissionId**|Integer|True||Permission id error|
+|**permissionId**|Integer|True||Permission id|
 |**regionId**|String|True||Region ID|
-|**subUser**|String|True||Sub-user name|
+|**subUser**|String|True||Sub-user Name|
 
 ## Request parameter
 None

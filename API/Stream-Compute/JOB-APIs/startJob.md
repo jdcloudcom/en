@@ -2,7 +2,7 @@
 
 
 ## Description
-Running job
+Running Job
 
 ## Request method
 GET
@@ -28,13 +28,13 @@ https://streamcompute.jdcloud-api.com/v1/regions/{regionId}/job:start
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
-|**message**|String|Whether the job is successfully submitted or not|
+|**message**|String|Whether the Job is Successfully Submitted or Not|
 
 ## Return code
 |Return code|Description|
 |---|---|
 |**200**|OK|
-|**500**|INTERNAL_ERROR|
+|**500**|INTERNAL_ERROR                       |

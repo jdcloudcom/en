@@ -29,7 +29,7 @@ definitions:
         description: "OS type. Value: [windows, linux]"
       status:
         type: string
-        description: "<a href="https://www.jdcloud.com/help/detail/3871/isCatalog/1">refer to image status</a>"
+        description: "<a href='https://www.jdcloud.com/help/detail/3871/isCatalog/1'>refer to image status</a>"
       createTime:
         type: string
         format: date-time

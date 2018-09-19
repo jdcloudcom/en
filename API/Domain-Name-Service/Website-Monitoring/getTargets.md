@@ -28,13 +28,13 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domain/{domainId}/
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
-|**data**|String[]|Array of available monitoring objects returned|
+|**data**|String[]|Array of Available Monitoring Objects Returned|
 
 ## Return code
 |Return code|Description|
 |---|---|
 |**200**|OK|
-|**400**|BAD_REQUEST|
+|**400**|BAD_REQUEST  |

@@ -12,7 +12,7 @@ definitions:
       password:
         type: string
         required: true
-        description: "|"
+        description: |
           "Cluster Password"
           "1. It must include three types of the capital letters, lowercase letters, numbers and special characters, and cannot be less than 8 characters nor exceed 30 characters"
           "2. Special characters are as follows!@#$%^*"
@@ -23,7 +23,7 @@ definitions:
       version:
         type: string
         required: true
-        description: "|"
+        description: |
           "Software service Version, please fill in one of the following lists:"
           "JMR1.0.0"
           "JMR1.0.1"
@@ -33,7 +33,7 @@ definitions:
       payType:
         type: string
         required: true
-        description: "|"
+        description: |
           "Payment type, please fill in one of the following lists:"
           "By Amount"
       #payPrice:
@@ -54,7 +54,7 @@ definitions:
         #description: Master Node Memory (At least 8G memory is recommended; otherwise the service may fail to deploy)
       masterNodeDiskType:
         type: string
-        description: "|"
+        description: |
           "Master node cloud disk type, the optional types are (the following types are separated with "/")"
           "NBD/NBD_SATA"
           "Respectively Stand for: Performance Type/Capacity Type"
@@ -79,7 +79,7 @@ definitions:
         #description: Slave Node Memory (At least 4G memory is recommended; otherwise the service may fail to deploy)
       slaveNodeDiskType:
         type: string
-        description: "|"
+        description: |
           "Slave node cloud disk type, the optional types are (the following types are separated with "/")"
           "NBD/NBD_SATA"
           "Respectively Stand for: Performance Type/Capacity Type"

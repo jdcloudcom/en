@@ -18,7 +18,8 @@ definitions:
       availableIpCount:
         type: number
         description: "Number of Available IPs in Subnet"
-      description: "type: string"
+      description:
+        type: string
         description: "Subnet Description Information"
       routeTableId:
         type: string

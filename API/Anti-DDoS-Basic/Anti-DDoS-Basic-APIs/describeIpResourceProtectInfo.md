@@ -12,13 +12,13 @@ https://baseanti.jdcloud-api.com/v1/regions/{regionId}/ipResources/{ip}/protectI
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**ip**|String|True||EIP address|
-|**regionId**|String|True||Belonging region ID|
+|**ip**|String|True||EIP Address|
+|**regionId**|String|True||Belonging Region ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**limit**|Integer|False||Records of limited search|
+|**limit**|Integer|False||Records of Limited Search|
 |**start**|Integer|False||Start range of limited search|
 
 
@@ -29,17 +29,17 @@ https://baseanti.jdcloud-api.com/v1/regions/{regionId}/ipResources/{ip}/protectI
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
 |**dataList**|IpResourceProtectInfo[]||
-### <a name="IpResourceProtectInfo">IpResourceProtectInfo</a>
+### IpResourceProtectInfo
 |Name|Type|Description|
 |---|---|---|
-|**cause**|Integer|Trigger cause, 0->unknown  1->four-layer  2->seven-layer  3->four-layer and seven-layer|
-|**endTime**|String|End time of attack|
-|**startTime**|String|Start time of attack|
-|**status**|Integer|Status, 0->completed  1->clean  2->black hole|
+|**cause**|Integer|Trigger Cause, 0->Unknown  1->Four-layer  2->Seven-layer  3->Four-layer and Seven-Layer|
+|**endTime**|String|End Time of Attack|
+|**startTime**|String|Start Time of Attack|
+|**status**|Integer|Status, 0->Completed  1->Clean  2->Black Hole|
 
 ## Return code
 |Return code|Description|

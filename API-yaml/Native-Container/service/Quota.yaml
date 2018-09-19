@@ -10,7 +10,7 @@ paths:
   "/quotas":
     ###################### Search Quota ######################
     get:
-      description: "|"
+      description: |
         Search resource quota and support Native Container and secret.
       operationId: describeQuota
       parameters:
@@ -18,7 +18,7 @@ paths:
           in: query
           type: string
           required: true
-          description: "|"
+          description: |
             resourceType - Resource type, support many [container, secret]
       responses:
         200:
@@ -44,7 +44,7 @@ paths:
           description: "Service unavailable"
     ###################### Modify Quota ######################
     patch:
-      description: "|"
+      description: |
         Modify resource quota and support Native Container and secret.
       operationId: modifyQuota
       x-jdcloud-internal: true
@@ -53,7 +53,7 @@ paths:
           in: query
           type: string
           required: true
-          description: "|"
+          description: |
             resourceType - Resource type, support many [container, secret]
         - name: limit
           in: query

@@ -8,7 +8,7 @@ View the detailed information of all backups in the RDS instance. The returned b
 GET
 
 ## Request address
-https://rds.jdcloud-api.com/v1/regions/{regionId}/backups
+https://rds.jdcloud-api.com/0.2.9/regions/{regionId}/backups
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
@@ -33,24 +33,24 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/backups
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
 |**backup**|Backup[]|Backup Collection|
 |**totalCount**|Integer|Total Number of Records|
-### <a name="Backup">Backup</a>
+### Backup
 |Name|Type|Description|
 |---|---|---|
-|**backupEndTime**|String|Backup end time, format: YYYY-MM-DD HH:mm:ss|
+|**backupEndTime**|String|Backup End Time, Format: YYYY-MM-DD HH:mm:ss|
 |**backupFiles**|String[]|Backup File List<br>- **SQL Server supports**, there can be multiple backup files and the naming rules for file name are:<br>(1) Full: Database name +.bak<br>(2) Incremental: Database name +.diff<br>- **MySQL does not support**|
 |**backupId**|String|Backup ID|
 |**backupMode**|String|Backup mode, automatic system backup or manual backup, detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)|
 |**backupName**|String|Backup name with length up to 64 English characters or Chinese characters of equal length|
-|**backupSizeByte**|Integer|Size of Whole Backup Set, in Byte|
-|**backupStartTime**|String|Backup start time, format: YYYY-MM-DD HH:mm:ss|
-|**backupStatus**|String|Backup status, detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)|
+|**backupSizeByte**|Integer|Size of Whole Backup Set, Unit: Byte|
+|**backupStartTime**|String|Backup Start Time, Format: YYYY-MM-DD HH:mm:ss|
+|**backupStatus**|String|Backup Status, detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)|
 |**backupType**|String|Backup type, full backup or incremental backup, detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)<br>- **SQL Server supports****<br>- **MySQL does not support**|
-|**backupUnit**|String|Backup granularity, instance backup or multi-database backup,  detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)<br>- **SQL Server supports**<br>- **MySQL does not support**|
+|**backupUnit**|String|Backup granularity, instance backup or multi-database backup, detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)<br>- **SQL Server supports**<br>- **MySQL does not support**|
 |**instanceId**|String|Backup Instance ID|
 
 ## Return code

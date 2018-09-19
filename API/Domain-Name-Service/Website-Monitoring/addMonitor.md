@@ -32,4 +32,4 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domain/{domainId}/
 |Return code|Description|
 |---|---|
 |**200**|OK|
-|**400**|BAD_REQUEST|
+|**400**|BAD_REQUEST  |

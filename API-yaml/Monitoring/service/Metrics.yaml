@@ -18,7 +18,7 @@ paths:
       x-jdcloud-internal: false
       parameters:
       - type: string
-        description: "|"
+        description: |
           Product Name: 
           vm--> Virtual Machine
           disk-->Cloud Disk Service
@@ -61,7 +61,7 @@ paths:
       x-jdcloud-internal: false      
       parameters:
       - type: string
-        description: "|"
+        description: |
           Type of resource, blank by default, displaying all items
           vm--> Virtual Machine
           disk-->Cloud Disk Service

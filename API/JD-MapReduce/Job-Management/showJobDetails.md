@@ -12,7 +12,7 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/{jobId}:detail
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**jobId**|String|True||Job Id to be viewed|
+|**jobId**|String|True||Job Id to be Viewed|
 |**regionId**|String|True||Region ID|
 
 ## Request parameter
@@ -27,37 +27,36 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/{jobId}:detail
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
 |**data**|JmrJobViewModel||
 |**message**|String||
 |**status**|String||
-### <a name="JmrJobViewModel">JmrJobViewModel</a>
+### JmrJobViewModel
 |Name|Type|Description|
 |---|---|---|
 |**clusterId**|String|Cluster ID|
-|**clusterName**|String|Cluster name|
-|**clusterStatus**|String|Extra field|
-|**createTime**|String|Creation time|
-|**cronExpression**|String|Regular task time|
-|**dataCenter**|String|Date center|
-|**id**|Integer||
+|**clusterName**|String|Cluster Name|
+|**clusterStatus**|String|Extra Field|
+|**createTime**|String|Creation Time|
+|**cronExpression**|String|Regular Task Time|
+|**dataCenter**|String|Data Center|
+|**id**|String|Job ID|
 |**isSelfDependence**|Integer||
 |**isSendMsg**|Boolean|Whether to send a SMS notice after job is failed|
 |**isVirtualTask**|Integer||
-|**jobGroup**|String|Job group|
-|**jobId**|String|Job ID|
-|**jobName**|String|Job name|
-|**jobStatus**|String|Job status|
-|**jobTrigger**|String|Job trigger|
-|**jobType**|String|Job type|
+|**jobGroup**|String|Job Group|
+|**jobName**|String|Job Name|
+|**jobStatus**|String|Job Status|
+|**jobTrigger**|String|Job Trigger|
+|**jobType**|String|Job Type|
 |**location**|String|Location|
-|**orderBy**|String|Extra field, optional|
-|**params**|String|Required parameter|
-|**retryTimes**|Integer|Number of job retry|
+|**orderBy**|String|Extra Field, optional|
+|**params**|String|Required Parameter|
+|**retryTimes**|Integer|Number of Job Retry|
 |**taskScheduleType**|Integer||
-|**userpin**|String|User name|
+|**userpin**|String|User Name|
 
 ## Return code
 |Return code|Description|

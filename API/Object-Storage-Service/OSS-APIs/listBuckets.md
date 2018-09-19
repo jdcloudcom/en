@@ -26,17 +26,17 @@ None
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
 |**buckets**|Bucket[]||
 |**owner**|User||
-### <a name="Bucket">Bucket</a>
+### Bucket
 |Name|Type|Description|
 |---|---|---|
 |**creationDate**|String||
 |**name**|String||
-### <a name="User">User</a>
+### User
 |Name|Type|Description|
 |---|---|---|
 |**displayName**|String||

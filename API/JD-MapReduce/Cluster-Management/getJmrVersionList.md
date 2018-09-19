@@ -2,7 +2,7 @@
 
 
 ## Description
-Return to the current jmr revision list
+Return to the current JD MapReduce Version List
 
 ## Request method
 GET
@@ -25,10 +25,10 @@ None
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
-|**data**|String[]|Current jmr revision list|
+|**data**|String[]|Current JD MapReduce Version List|
 |**message**|String||
 |**status**|String||
 

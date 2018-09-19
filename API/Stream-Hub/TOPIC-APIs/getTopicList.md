@@ -27,7 +27,7 @@ https://streambus.jdcloud-api.com/v1/regions/{regionId}/topicList
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
 |**topic**|Object[]||

@@ -2,7 +2,7 @@
 
 
 ## Description
-Alarm information for monitoring items of the main domain
+Alarm Information for Monitoring Items of the Main Domain
 
 ## Request method
 GET
@@ -18,8 +18,8 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domain/{domainId}/
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**pageIndex**|Integer|False||Current page, starting value of 1, default value of 1|
-|**pageSize**|Integer|False||Number of rows per page set during paged query|
+|**pageIndex**|Integer|False||Current page, starting value is 1, default value is 1|
+|**pageSize**|Integer|False||Number of Rows Per Page Set During the Page Query|
 |**searchValue**|String|False||Keyword|
 
 
@@ -30,20 +30,19 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domain/{domainId}/
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
-|**currentCount**|Integer|Number of alarm information of current page|
-|**dataList**|MonitorAlarmInfo[]|Array of alarm information of the current page|
-|**totalCount**|Integer|Number of all alarm information|
-|**totalPage**|Integer|Pages of all alarm information|
-### <a name="MonitorAlarmInfo">MonitorAlarmInfo</a>
+|**currentCount**|Integer|Number of Alarm Information of the Current Page|
+|**dataList**|MonitorAlarmInfo[]|Array of Alarm Information of the Current Page|
+|**totalCount**|Integer|Number of All Alarm Information|
+|**totalPage**|Integer|Pages of All Alarm Information|
+### MonitorAlarmInfo
 |Name|Type|Description|
 |---|---|---|
 |**domainId**|Integer|Domain Name ID|
 |**host**|String|Fault IP/Domain Name|
-|**id**|Integer||
-|**startTime**|Integer|Fault Start Time|
+|**id**|Integer|Fault Start Time|
 |**subDomainName**|String|Subdomain|
 
 ## Return code

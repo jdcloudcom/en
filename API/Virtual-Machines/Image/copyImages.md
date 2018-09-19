@@ -3,7 +3,7 @@
 
 ## Description
 Image inter-domain replication,  copy private images to other regions,  allowing you to operate your private image only. <br>
-Only images of the cloudDisk cloud of system disk are supported.
+Only images of the Cloud Disk Service of system disk are supported.
 
 
 ## Request method
@@ -30,11 +30,11 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/images:copyImages
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
 |**copyImages**|CopyImage[]|source image and target image mapping relationships|
-### <a name="CopyImage">CopyImage</a>
+### CopyImage
 |Name|Type|Description|
 |---|---|---|
 |**destinationImageId**|String|Target image ID after replication|

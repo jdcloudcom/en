@@ -12,7 +12,7 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/cluster/{id}:release
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**id**|String|True||Cluster ID: composed of eight characters|
+|**id**|String|True||Cluster ID: Composed of eight characters|
 |**regionId**|String|True||Region ID|
 
 ## Request parameter
@@ -27,7 +27,7 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/cluster/{id}:release
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
 |**message**|String||

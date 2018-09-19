@@ -1,8 +1,8 @@
-# JDCLOUD streaming data bus API
+# JD Cloud Stream Hub API
 
 
 ## Introduction
-Provide related APIs for streaming data bus topic.
+Provide related APIs for Stream Hub topic.
 
 
 ### Version
@@ -14,8 +14,8 @@ v1
 |---|---|---|
 |**addTopic**|POST|When creating topic, only the topic parameter in the topicModel needs to be transmitted, and the other two parameters can be blank|
 |**createConsumerGroup**|POST|Create consumerGroupName|
-|**deleteConsumerGroup**|DELETE|Delete consumerGroupName|
-|**deleteTopic**|DELETE|Delete topic|
+|**deleteConsumerGroup**|DELETE|Delete ConsumerGroupName|
+|**deleteTopic**|DELETE|Delete Topic|
 |**describeTopic**|GET|Query the assigned subject, the archiving information will be returned if it has been archived|
 |**getConsumerGroupList**|GET|View all the consumer groups of the assigned subject|
 |**getTopicList**|GET|Query the topic list, return to the topic collection|

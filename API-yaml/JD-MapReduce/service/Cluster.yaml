@@ -216,7 +216,7 @@ paths:
                              type: array
                              items:
                                $ref: "../model/idataCluster.yaml#/definitions/idataCluster"
-                       description: "|"
+                       description: |
                                      "Include cluster information list - clusters"
                                      "Cluster Machine Total Number - Total"
                  requestId:
@@ -531,7 +531,7 @@ paths:
                    description: "Renew the cluster clusterId"
                  type:
                    type: integer
-                   description: "|"
+                   description: |
                         "Required Parameters, Billing Type"
                               "* 1: Pay By Configuration"
                               "* 601-609: Monthly package for 1 month to 9 months"

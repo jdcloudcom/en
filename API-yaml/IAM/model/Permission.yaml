@@ -12,7 +12,8 @@ definitions:
       name:
         type: string
         description: "Permission Name"
-      description: "type: string"
+      description: 
+        type: string
         description: "Description"
       permissionType:
         type: string

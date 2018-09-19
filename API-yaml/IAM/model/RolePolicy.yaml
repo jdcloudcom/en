@@ -6,7 +6,8 @@ definitions:
       policyName:
         type: string
         description: "Permission Name"
-      description: "type: string"
+      description: 
+        type: string
         description: "Description"
       type:
         type: string

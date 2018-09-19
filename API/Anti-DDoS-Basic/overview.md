@@ -1,8 +1,8 @@
-# JD Cloud Basic Anti-DDoS APIs
+# JD Cloud Anti-DDoS Basic APIs
 
 
 ## Introduction
-JD Cloud Basic Anti-DDoS APIs
+JD Cloud Anti-DDoS Basic APIs
 
 
 ### Version

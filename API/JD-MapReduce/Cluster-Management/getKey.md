@@ -25,13 +25,13 @@ None
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
-|**data**|AppModel|AK/SK queried|
+|**data**|AppModel|AK/SK Queried|
 |**message**|String||
 |**status**|String||
-### <a name="AppModel">AppModel</a>
+### AppModel
 |Name|Type|Description|
 |---|---|---|
 |**appKey**|String|AK|

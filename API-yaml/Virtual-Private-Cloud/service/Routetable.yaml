@@ -34,7 +34,7 @@ paths:
            type: array
            items:
              $ref: "../../common/model/Filter.yaml#/definitions/filter"
-           description: "|"
+           description: |
                   routeTableIds - Route table ID list, support multiple IDs
                   routeTableNames - Route table name list, support multiple names
                   VPCId	- VPC ID of route table, support single Id

@@ -2,7 +2,7 @@
 
 
 ## Description
-Obtain the settings information of operation protection
+Obtain the settings information of Operation Protection
 
 ## Request method
 GET
@@ -17,7 +17,7 @@ https://sop.jdcloud-api.com/v1/regions/{regionId}/sensitiveOpSetting
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**action**|String|True||Action action serviceName:actionName|
+|**action**|String|True||Operate action serviceName:actionName|
 
 
 ## Return parameter
@@ -27,12 +27,12 @@ https://sop.jdcloud-api.com/v1/regions/{regionId}/sensitiveOpSetting
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
 |**extInfo**|String|Expansion information is the mobile number after the mask when type=1, and is the email address after the mask when type=2|
-|**status**|Integer|Enabling status of operation protection: 0-not enabled, 1-enabled|
-|**type**|Integer|Verification methods of operation protection: 0-none, 1-SMS, 2-email, 3-MFA|
+|**status**|Integer|Enabling status of Operation Protection: 0-not enabled, 1-enabled|
+|**type**|Integer|Verification methods of Operation Protection: 0-none, 1-SMS, 2-email, 3-MFA|
 
 ## Return code
 |Return code|Description|

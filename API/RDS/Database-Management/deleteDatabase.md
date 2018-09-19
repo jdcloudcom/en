@@ -2,13 +2,13 @@
 
 
 ## Description
-Delete the database from the RDS instance. For management and data restoration, RDS controls user permissions. Users can only delete databases through the console or this interface.</br>Sensitive operation, enable <a href="https://www.jdcloud.com/help/detail/3786/isCatalog/1">MFA operation protection</a>
+Delete the database from the RDS instance. For management and data restoration, RDS controls user permissions. Users can only delete databases through the console or this interface.</br>Sensitive operation, enable<a href="https://docs.jdcloud.com/IAM/Operation-Protection">MFA operation protection</a>
 
 ## Request method
 DELETE
 
 ## Request address
-https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/databases/{dbName}
+https://rds.jdcloud-api.com/0.2.9/regions/{regionId}/instances/{instanceId}/databases/{dbName}
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|

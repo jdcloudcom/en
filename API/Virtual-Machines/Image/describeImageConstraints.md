@@ -28,16 +28,16 @@ None
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
 |**imageConstraints**|ImageConstraint|image restriction|
-### <a name="ImageConstraint">ImageConstraint</a>
+### ImageConstraint
 |Name|Type|Description|
 |---|---|---|
 |**imageId**|String|Image ID|
 |**imageInstanceTypeConstraint**|ImageInstanceTypeConstraint|Specification limit for instance type created by image|
-### <a name="ImageInstanceTypeConstraint">ImageInstanceTypeConstraint</a>
+### ImageInstanceTypeConstraint
 |Name|Type|Description|
 |---|---|---|
 |**constraintsType**|String|Restricted specification type. excludes: exclude specified instance types; includes: only the specified instance type is included,  which is not supported temporarily|
@@ -48,7 +48,7 @@ None
 |---|---|
 |**400**|Invalid parameter|
 |**401**|Authentication failed|
-|**404**|Not found|
+|**404**|Not found  |
 |**503**|Service unavailable|
 |**200**|OK|
 |**500**|Internal server error|

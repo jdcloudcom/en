@@ -2,7 +2,7 @@
 
 
 ## Description
-Modify elastic network interface APIs
+Modify Elastic Network Interface APIs
 
 ## Request method
 PATCH
@@ -19,8 +19,8 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkInterfaces/{networkInte
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**description**|String|False||Description, all characters allowed to enter under UTF-8 coding, which is not exceed 256 characters|
-|**networkInterfaceName**|String|False||Elastic network interface name, only allowed to enter Chinese, numbers, capital and lowercase letters, English underline “_” and line-through “-”, must provide a name which cannot exceed 32 characters|
-|**securityGroups**|String[]|False||To replace the security group with mode update of the original security group. If the security group ID list is updated, a maximum of 5 security groups can be done|
+|**networkInterfaceName**|String|False||Elastic Network Interface name, only allowed to enter Chinese, numbers, capital and lowercase letters, English underline “_” and line-through “-”, must provide a name which cannot exceed 32 characters|
+|**securityGroups**|String[]|False||To replace the Security Group with mode update of the original Security Group. If the Security Group ID list is updated, a maximum of 5 Security Groups can be done|
 
 
 ## Return parameter

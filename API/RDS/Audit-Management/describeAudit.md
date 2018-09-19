@@ -8,7 +8,7 @@ View the audit options of the current instance that have been enabled. If no aud
 GET
 
 ## Request address
-https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/audit
+https://rds.jdcloud-api.com/0.2.9/regions/{regionId}/instances/{instanceId}/audit
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
@@ -25,7 +25,7 @@ None
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
 |**enabled**|String[]||

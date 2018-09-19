@@ -34,7 +34,7 @@ paths:
           type: array
           items:
             $ref: "../../common/model/Filter.yaml#/definitions/filter"
-            description: "|"
+            description: |
                    networkAclIds - Elastic Network Interface ID List, Support Multiple IDs
                    networkAclNames - Elastic Network Interface Name List, Support Multiple Names
                    VPCId - VPC ID of Elastic Network Interface, Support Single ID
