@@ -1,6 +1,6 @@
 # **Advanced Configuration**
 
-Click【Domain Name List】--Select Accelerated Domain Name--【Advanced Configuration】
+Click**Domain Name List**--Select Accelerated Domain Name--**Advanced Configuration**
 
 **Filter Parameter**
 

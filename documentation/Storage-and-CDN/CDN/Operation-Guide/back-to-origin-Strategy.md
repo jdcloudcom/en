@@ -1,6 +1,6 @@
 # Back-to-source Policy
 
-After adding a domain name, click 【Accelerated Domain Name】 to enter the basic information of domain name configuration. You can enter the 【Back-to-source Configuration】 information. The back-to-source modes fall into IP back-to-source, domain name back-to-source, and oss back-to-source.
+After adding a domain name, click **Accelerated Domain Name** to enter the basic information of domain name configuration. You can enter the **Back-to-source Configuration** information. The back-to-source modes fall into IP back-to-source, domain name back-to-source, and oss back-to-source.
 
 ![image.png](https://img1.jcloudcs.com/cms/cf317c03-b662-4a37-a564-cee61f253fa220180118102313.png)                                               
 
@@ -34,7 +34,7 @@ For example, the back-to-source host is www.a.com, the corresponding server afte
 
 **Origin Server Monitoring**
 
-After turning on the origin server monitoring, the CDN distribution node will detect the availability of the origin server and the network delay according to the detection cycle. You may go to 【Management】 - 【Cloud Monitoring】 to configure and query the exception alarm information of the origin server.
+After turning on the origin server monitoring, the CDN distribution node will detect the availability of the origin server and the network delay according to the detection cycle. You may go to **Management** - **Cloud Monitoring** to configure and query the exception alarm information of the origin server.
 
 ![image.png](https://img1.jcloudcs.com/cms/ce478878-87ee-49a0-a29b-f72e6b61606f20180118102744.png)
 

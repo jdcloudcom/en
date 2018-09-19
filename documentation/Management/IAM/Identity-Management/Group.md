@@ -11,7 +11,7 @@ Log in JD Cloud Console, and enter Identity and Access Management > User Group M
  - Manage the group member
  - Delete the group (Note: If you want to delete a group, please move all the members out of the group first.)
 
-Click the【Create】button to create a group.
+Click the**Create**button to create a group.
 ![Create1](https://github.com/jdcloudcom/cn/blob/edit/image/IAM/Group/%E5%88%9B%E5%BB%BA1.jpg)
 ![Create2](https://github.com/jdcloudcom/cn/blob/edit/image/IAM/Group/%E5%88%9B%E5%BB%BA2.jpg)
 # Manage the group member

@@ -93,7 +93,7 @@ Description: Not mandatory filed, you may setup as required and the description 
 Purchase quantity is limited by the quantity of your containers, Cloud Disk Service, public IP quota and the quantity of IP remained in the subnet you select in the region; if there are not enough quotas, you may open ticket to increase quota.
 
 If you purchase yearly package or monthly package, you shall set the purchase duration which is minimally 1 month and maximally 3 years. Open ticket if longer service time is needed.
-  14. After completing relevant settings for the container, click 【Buy Now】 and pay, then you can go to Console>>Elastic Compute>>Container service>>Container instance to check the container created.
+  14. After completing relevant settings for the container, click **Buy Now** and pay, then you can go to Console>>Elastic Compute>>Container service>>Container instance to check the container created.
 
 
  

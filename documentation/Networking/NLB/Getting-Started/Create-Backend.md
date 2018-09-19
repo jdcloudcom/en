@@ -18,7 +18,7 @@
 
 - Session persistence: Session persistence enabling and disabling; the duration is 1440s after it is enabled;
 	
-- Connection draining: set the duration of connection draining in the range of 【0, 3600】s, and the default is 300s.
+- Connection draining: set the duration of connection draining in the range of **0, 3600**s, and the default is 300s.
 
 ![NLB后端服务设置](../../../../image/Networking/NLB/NLB-028.png)
 
@@ -47,10 +47,10 @@
 - Select server group type: virtual server, availability group, or it cannot be added currently.
 
 - Virtual server group: The system will automatically filter out the list of server groups that can be associated now, if there is no available server group, it may click **Create a new virtual server group** to create;
-【Note: The backend instances in the optional availability group must be in the same region and virtual private cloud as the load balancer, which is not applicable to availability zone】;
+**Note: The backend instances in the optional availability group must be in the same region and virtual private cloud as the load balancer, which is not applicable to availability zone**;
 
 - Availability Group: The system will automatically filter out the availability groups that can be associated now, if there is no availability group, please go to the Availability Group page to create;
-【Note: The backend instances in the optional availability group must be in the same region and virtual private cloud as the load balancer, which is not applicable to availability zone】;
+**Note: The backend instances in the optional availability group must be in the same region and virtual private cloud as the load balancer, which is not applicable to availability zone**;
 
 ![NLB添加服务器组](../../../../image/Networking/NLB/NLB-BackVS.png)
 
