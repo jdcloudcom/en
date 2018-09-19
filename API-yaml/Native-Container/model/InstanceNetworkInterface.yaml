@@ -15,7 +15,8 @@ definitions:
       vpcId:
         type: string
         description: "Virtual network ID"
-      description: "type: string"
+      description:
+        type: string
         description: "Description"
       securityGroups:
         type: array

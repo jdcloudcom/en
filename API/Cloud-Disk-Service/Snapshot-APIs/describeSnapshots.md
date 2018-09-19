@@ -2,7 +2,7 @@
 
 
 ## Description
-Query the list of cloud disk snapshots. Filters, between multiple filter conditions is logic AND, and multiple values ​​inside each condition is logic OR
+Query the List of Cloud Disk Snapshots. Filters, between multiple filter conditions is logic AND, and multiple values ​​inside each condition is logic OR
 
 ## Request method
 GET
@@ -17,16 +17,16 @@ https://disk.jdcloud-api.com/v1/regions/{regionId}/snapshots
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**filters**|Filter[]|False||snapshotId - cloud disk snapshot ID, support multiple<br>diskId - the cloud disk service ID of the snapshot to be generated, support multiple<br>Status - snapshot status, accurate match, support multiple, creating, available, in-use, deleting, error_create or error_delete<br>name - snapshot name, fuzzy match, support single<br>|
-|**pageNumber**|Integer|False|1|Page number, defaults is 1; value range: [1, ∞)|
-|**pageSize**|Integer|False|20|Page size, default is 20; value range: [10,100]|
+|**filters**|Filter[]|False||snapshotId - Cloud Disk Snapshot ID, Support Multiple<br>diskId - the Cloud Disk ID of the Snapshot to be Generated, Support Multiple<br>status - snapshot status, accurate match, support multiple, creating, available, in-use, deleting, error_create or error_delete<br>name - snapshot name, fuzzy match, support single<br>|
+|**pageNumber**|Integer|False|1|Page Number, Defaults is 1; Value Range: [1, ∞)|
+|**pageSize**|Integer|False|20|Page Size, Default is 20; Value Range: [10,100]|
 
-### <a name="Filter">Filter</a>
+### Filter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**name**|String|True||Name of filter requirements|
+|**name**|String|True||Name of Filter Requirements|
 |**operator**|String|False||Operator of filter requirements is eq by default|
-|**values**|String[]|True||Value of filter requirements|
+|**values**|String[]|True||Value of Filter Requirements|
 
 ## Return parameter
 |Name|Type|Description|
@@ -35,21 +35,21 @@ https://disk.jdcloud-api.com/v1/regions/{regionId}/snapshots
 |**result**|Result|Query Result Set|
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
-|**snapshots**|Snapshot[]|List of snapshot information details queried|
-|**totalCount**|Integer|Number of snapshots queried|
-### <a name="Snapshot">Snapshot</a>
+|**snapshots**|Snapshot[]|List of Snapshot Details Queried|
+|**totalCount**|Integer|Number of Snapshots Queried|
+### Snapshot
 |Name|Type|Description|
 |---|---|---|
 |**createTime**|String|Creation Time|
 |**description**|String|Snapshot Description|
-|**diskId**|String|Cloud disk service ID used to create the snapshot|
+|**diskId**|String|Cloud Disk ID used to create the snapshot|
 |**name**|String|Snapshot Name|
 |**snapshotId**|String|Cloud Disk Snapshot ID|
 |**snapshotSizeGB**|Integer|Snapshot Size, in GiB|
-|**status**|String|Snapshot state, creating, available, in-use, deleting, error_create or error_delete|
+|**status**|String|Snapshot Status, creating, available, in-use, deleting, error_create or error_delete|
 
 ## Return code
 |Return code|Description|

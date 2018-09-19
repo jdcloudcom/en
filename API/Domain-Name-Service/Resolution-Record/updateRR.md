@@ -2,7 +2,7 @@
 
 
 ## Description
-Modify a resolution record of the main domain name
+Modify a Resolution Record of the Main Domain Name
 
 ## Request method
 POST
@@ -20,20 +20,20 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domain/{domainId}/
 |---|---|---|---|---|
 |**req**|UpdateRR|True||UpdateRR Parameter|
 
-### <a name="UpdateRR">UpdateRR</a>
+### UpdateRR
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**domainName**|String|False||Main Domain Name|
 |**hostRecord**|String|False||Machine Record|
-|**hostValue**|String|False||Value of the resolution record|
-|**id**|Integer|False||Unique ID of the domain name resolution|
-|**jcloudRes**|Boolean|False||JD Cloud Resource?|
+|**hostValue**|String|False||Value of Resolution Record|
+|**id**|Integer|False||Unique ID of the Domain Name Resolution|
+|**jcloudRes**|Boolean|False||JD Cloud Resource?  |
 |**mxPriority**|Integer|False||Priority, only exists in some resolution record types|
 |**port**|Integer|False||port, only exists in some resolution record types|
-|**ttl**|Integer|False||Life time of the resolution record|
+|**ttl**|Integer|False||Life Time of Resolution Record|
 |**type**|String|False||Resolution Type|
-|**viewValue**|Integer|False||ID of the resolution line|
-|**weight**|Integer|False||Weight of the resolution record|
+|**viewValue**|Integer|False||ID of Resolution Line|
+|**weight**|Integer|False||Weight of Resolution Record              |
 
 ## Return parameter
 |Name|Type|Description|

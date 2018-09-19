@@ -2,7 +2,7 @@
 
 
 ## Description
-Obtaining Token
+Obtain Token
 
 ## Request method
 POST
@@ -19,13 +19,13 @@ https://sop.jdcloud-api.com/v1/regions/{regionId}/securityToken:getSecurityToken
 |---|---|---|---|---|
 |**getSecurityTokenInfo**|GetSecurityTokenInfo|True||Obtain SecurityToken parameters|
 
-### <a name="GetSecurityTokenInfo">GetSecurityTokenInfo</a>
+### GetSecurityTokenInfo
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**action**|String|True||Action action serviceName:actionName|
-|**code**|String|True||Verification code|
+|**action**|String|True||Operate action serviceName:actionName|
+|**code**|String|True||Verification Code|
 |**durationSeconds**|Integer|False||The unit of token validity period is second; verification in OpenAPI third-party MFA method is valid; the default token validity period of SMS and email is 300 seconds, and the validity period of MFA is 30 seconds|
-|**type**|Integer|True||Verification methods of operation protection: 1-SMS, 2-email, 3-MFA|
+|**type**|Integer|True||Verification Methods of Operation Protection: 1-SMS, 2-Email, 3-MFA|
 
 ## Return parameter
 |Name|Type|Description|
@@ -34,10 +34,10 @@ https://sop.jdcloud-api.com/v1/regions/{regionId}/securityToken:getSecurityToken
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
-|**securityToken**|String|Security token|
+|**securityToken**|String|Security Token|
 
 ## Return code
 |Return code|Description|

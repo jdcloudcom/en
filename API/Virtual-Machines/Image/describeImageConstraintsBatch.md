@@ -29,16 +29,16 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/imageConstraints
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
 |**imageConstraints**|ImageConstraint[]|image restriction|
-### <a name="ImageConstraint">ImageConstraint</a>
+### ImageConstraint
 |Name|Type|Description|
 |---|---|---|
 |**imageId**|String|Image ID|
 |**imageInstanceTypeConstraint**|ImageInstanceTypeConstraint|Specification limit for instance type created by image|
-### <a name="ImageInstanceTypeConstraint">ImageInstanceTypeConstraint</a>
+### ImageInstanceTypeConstraint
 |Name|Type|Description|
 |---|---|---|
 |**constraintsType**|String|Restricted specification type. excludes: exclude specified instance types; includes: only the specified instance type is included,  which is not supported temporarily|

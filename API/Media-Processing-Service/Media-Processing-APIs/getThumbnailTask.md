@@ -26,22 +26,22 @@ None
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
 |**thumbnailTask**|ThumbnailTask||
-### <a name="ThumbnailTask">ThumbnailTask</a>
+### ThumbnailTask
 |Name|Type|Description|
 |---|---|---|
-|**createdTime**|String|Task creation time, format (GMT): yyyy-MM-dd’T’HH:mm:ss.SSS’Z’  (readonly)|
+|**createdTime**|String|Task Creation Time, Format (GMT): yyyy-MM-dd’T’HH:mm:ss.SSS’Z’  (readonly)|
 |**errorCode**|Integer|Error Code (readonly)|
-|**lastUpdatedTime**|String|Task creation time, format (GMT): yyyy-MM-dd’T’HH:mm:ss.SSS’Z’  (readonly)|
+|**lastUpdatedTime**|String|Task Creation Time, Format (GMT): yyyy-MM-dd’T’HH:mm:ss.SSS’Z’  (readonly)|
 |**rule**|ThumbnailTaskRule||
 |**source**|ThumbnailTaskSource||
 |**status**|String|Status (SUCCESS, ERROR, PENDDING, RUNNING) (readonly)|
 |**target**|ThumbnailTaskTarget||
 |**taskID**|String|Task ID (readonly)|
-### <a name="ThumbnailTaskRule">ThumbnailTaskRule</a>
+### ThumbnailTaskRule
 |Name|Type|Description|
 |---|---|---|
 |**count**|Integer|Number of screenshots, unavailable when mode=single. default:1|
@@ -49,12 +49,12 @@ None
 |**keyFrame**|Boolean|Whether to enable keyframe screenshots. default: true|
 |**mode**|String|Screenshot mode, single screenshot: single, multiple screenshots: multi, average: average, default: single|
 |**startTimeInSecond**|Integer|Start time of generated screenshot, unavailable when mode=average. default:0|
-### <a name="ThumbnailTaskSource">ThumbnailTaskSource</a>
+### ThumbnailTaskSource
 |Name|Type|Description|
 |---|---|---|
-|**bucket**|String|Enter the bucket of Video Information|
+|**bucket**|String|Enter the Bucket of Video Information|
 |**key**|String|Enter the Key of Video Information|
-### <a name="ThumbnailTaskTarget">ThumbnailTaskTarget</a>
+### ThumbnailTaskTarget
 |Name|Type|Description|
 |---|---|---|
 |**destBucket**|String|Enter the bucket that saves target file|

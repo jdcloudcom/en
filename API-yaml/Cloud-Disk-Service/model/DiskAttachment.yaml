@@ -21,7 +21,7 @@ definitions:
         description: "ID of Instance Attached"
       status:
         type: string
-        description: "Attaching Status, "attaching", "attached", "detaching" or "detached""
+        description: "Attaching Status, 'attaching', 'attached', 'detaching' or 'detached'"
       attachTime:
         type: string
         format: date-time

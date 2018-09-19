@@ -2,7 +2,7 @@
 
 
 ## Description
-Delete job
+Delete Job
 
 ## Request method
 DELETE
@@ -28,14 +28,14 @@ https://streamcompute.jdcloud-api.com/v1/regions/{regionId}/job
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
-|**message**|String|Returned information of deleting job|
+|**message**|String|Returned Information of Deleting Job|
 |**status**|Boolean||
 
 ## Return code
 |Return code|Description|
 |---|---|
 |**200**|OK|
-|**500**|INTERNAL_ERROR|
+|**500**|INTERNAL_ERROR                   |

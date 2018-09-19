@@ -8,7 +8,7 @@ Get the audit options and corresponding recommended options for the various data
 POST
 
 ## Request address
-https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/audit:getOptions
+https://rds.jdcloud-api.com/0.2.9/regions/{regionId}/instances/{instanceId}/audit:getOptions
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
@@ -27,7 +27,7 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/audit:g
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
 |**disabled**|String[]||

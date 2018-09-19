@@ -27,10 +27,10 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/floatingIp:query
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
-|**data**|String|8-digit random code of the cluster|
+|**data**|String|8-digit Random Code of the Cluster|
 |**message**|String||
 |**status**|String||
 

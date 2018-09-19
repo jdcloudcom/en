@@ -2,7 +2,7 @@
 
 
 ## Description
-Delete topic
+Delete Topic
 
 ## Request method
 DELETE
@@ -27,10 +27,10 @@ https://streambus.jdcloud-api.com/v1/regions/{regionId}/topic
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
-|**message**|String|Status information|
+|**message**|String|Status Information|
 |**status**|Boolean||
 
 ## Return code

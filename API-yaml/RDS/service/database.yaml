@@ -14,7 +14,8 @@ paths:
       parameters:
         - name: createDatabase
           in: body
-          description: "schema:"
+          description: 
+          schema:
             type: object
             required:
               - dbName
@@ -64,7 +65,8 @@ paths:
       parameters:
         - name: restoreDatabaseFromBackup
           in: body
-          description: "schema:"
+          description: 
+          schema:
             type: object
             required:
               - backupId
@@ -86,7 +88,8 @@ paths:
       parameters:
         - name: restoreDatabaseFromFile
           in: body
-          description: "schema:"
+          description:
+          schema:
             type: object
             required:
               - fileName
@@ -107,7 +110,8 @@ paths:
       parameters:
         - name: restoreDatabaseFromOSS
           in: body
-          description: "schema:"
+          description: 
+          schema:
             type: object
             required:
               - ossURL

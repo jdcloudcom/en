@@ -2,7 +2,7 @@
 
 
 ## Description
-Search resource quota and support native container and secret.
+Search resource quota and support Native Container and secret.
 
 
 ## Request method
@@ -28,15 +28,15 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/quotas
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
 |**quota**|Quota||
-### <a name="Quota">Quota</a>
+### Quota
 |Name|Type|Description|
 |---|---|---|
 |**limit**|Integer|Quota|
-|**used**|Integer|Used number|
+|**used**|Integer|Used Number|
 
 ## Return code
 |Return code|Description|

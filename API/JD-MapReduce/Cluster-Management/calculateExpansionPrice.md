@@ -28,7 +28,7 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/cluster/expansionPrice:ca
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
 |**data**|Number||

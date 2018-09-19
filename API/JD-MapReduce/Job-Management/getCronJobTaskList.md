@@ -12,7 +12,7 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/cronJobTask/plan/{planId}
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**planId**|Number|True||long type, task ID|
+|**planId**|Number|True||Long Type, Task ID|
 |**regionId**|String|True||Region ID|
 
 ## Request parameter
@@ -20,12 +20,12 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/cronJobTask/plan/{planId}
 |---|---|---|---|---|
 |**selectParams**|SelectParams|False|||
 
-### <a name="SelectParams">SelectParams</a>
+### SelectParams
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**orderBy**|String|False||Ranking condition, optional|
-|**pageNum**|Integer|False||Search paging number, optional condition|
-|**pageSize**|Integer|False||Search paging size, optional condition|
+|**orderBy**|String|False||Ranking Condition, optional|
+|**pageNum**|Integer|False||Search Paging Number, optional condition|
+|**pageSize**|Integer|False||Search Paging Size, optional condition|
 |**status**|String|False|||
 
 ## Return parameter
@@ -35,7 +35,7 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/cronJobTask/plan/{planId}
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
 |**data**|Object|"Include JmrTaskViewModel list - taskList"<br>"And returned list size - totalNum"<br>|

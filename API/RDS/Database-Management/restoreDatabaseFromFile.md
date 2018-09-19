@@ -2,13 +2,13 @@
 
 
 ## Description
-Restore a single database from the backup file uploaded by the user to the cloud through the cloud on single database<br>- only support SQL Server
+Restore a single database from the backup file uploaded by the user to the cloud through the Cloud on Single Database<br>- only support SQL Server
 
 ## Request method
 POST
 
 ## Request address
-https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/databases/{dbName}:restoreDatabaseFromFile
+https://rds.jdcloud-api.com/0.2.9/regions/{regionId}/instances/{instanceId}/databases/{dbName}:restoreDatabaseFromFile
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|

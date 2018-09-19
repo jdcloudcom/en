@@ -16,7 +16,7 @@ https://monitor.jdcloud-api.com/v1/metricsForCreateAlarm
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**serviceCode**|String|False||Type of resource, blank by default, displaying all items<br>vm--> virtual machine<br>disk-->cloud disk<br>ip--> public IP<br>balance-->load balancer<br>database-->MySQL Service revision<br>cdn-->JD CDN<br>redis-->redis cloud cache<br>mongodb-->mongoDB cloud cache<br>storage-->cloud storage<br>sqlserver-->cloud database sqlserver revision <br>nativecontainer-->container<br>|
+|**serviceCode**|String|False||Type of resource, blank by default, displaying all items<br>vm--> Virtual Machine<br>disk-->Cloud Disk Service<br>ip--> Public IP<br>balance-->Load Balancer<br>database-->MySQL Service Version<br>cdn-->JD CDN<br>redis-->JCS for Redis<br>mongodb-->MongoDB Cloud Cache<br>storage-->Cloud Storage<br>sqlserver-->cloud Database Sqlserver Version <br>nativecontainer-->Container<br>|
 
 
 ## Return parameter
@@ -26,27 +26,27 @@ https://monitor.jdcloud-api.com/v1/metricsForCreateAlarm
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
 |**serviceCodeList**|ServiceCodeMetrics[]||
-### <a name="ServiceCodeMetrics">ServiceCodeMetrics</a>
+### ServiceCodeMetrics
 |Name|Type|Description|
 |---|---|---|
 |**metrics**|MetricDetail[]||
 |**serviceCode**|String||
-### <a name="MetricDetail">MetricDetail</a>
+### MetricDetail
 |Name|Type|Description|
 |---|---|---|
-|**calculateUnit**|String|Computing unit of metric, such as bit/s, %, byte|
-|**downSample**|String|Sampling frequency|
+|**calculateUnit**|String|Computing unit of metric, such as bit/s, %, and byte|
+|**downSample**|String|Sampling Frequency|
 |**metric**|String|Metric|
-|**metricName**|String|Metric name|
-|**serviceCode**|String|Identifier of resource type|
+|**metricName**|String|Metric Name|
+|**serviceCode**|String|Identifier of Resource Type|
 
 ## Return code
 |Return code|Description|
 |---|---|
 |**200**|OK|
-|**400**|invalid parameter|
-|**500**|internal server error|
+|**400**|'invalid parameter'|
+|**500**|'internal server error'|

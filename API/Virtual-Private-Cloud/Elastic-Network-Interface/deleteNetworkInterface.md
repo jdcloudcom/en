@@ -2,7 +2,7 @@
 
 
 ## Description
-Delete elastic network interface APIs
+Delete Elastic Network Interface APIs
 
 ## Request method
 DELETE

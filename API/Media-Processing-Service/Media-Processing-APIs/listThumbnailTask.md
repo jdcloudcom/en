@@ -19,7 +19,7 @@ https://mps.jdcloud-api.com/v1/regions/{regionId}/thumbnail
 |---|---|---|---|---|
 |**begin**|String|False||Start Time, Time Format(GMT): yyyy-MM-dd'T'HH:mm:ss.SSS'Z'|
 |**end**|String|False||End Time, Time Format(GMT): yyyy-MM-dd'T'HH:mm:ss.SSS'Z'|
-|**limit**|Integer|False|1000|Number of query records [1, 1000]|
+|**limit**|Integer|False|1000|Number of Query Records [1, 1000]|
 |**marker**|String|False||Query Tag|
 |**status**|String|False||Task Status (PENDING, RUNNING, SUCCESS, FAILED)|
 
@@ -31,33 +31,33 @@ https://mps.jdcloud-api.com/v1/regions/{regionId}/thumbnail
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
 |**thumbnailQuery**|ThumbnailQuery||
-### <a name="ThumbnailQuery">ThumbnailQuery</a>
+### ThumbnailQuery
 |Name|Type|Description|
 |---|---|---|
 |**begin**|String|Query start time, format (GMT): yyyy-MM-dd’T’HH:mm:ss.SSS’Z’|
 |**end**|String|Query End Time, Time Format (GMT): yyyy-MM-dd’T’HH:mm:ss.SSS’Z’|
 |**limit**|Integer|The maximum number of elements in the task list returned by this request, valid value: [1-1000], default: 1000|
-|**marker**|String|marker of this request, starting position of tag query, taskID here|
+|**marker**|String|Marker of this request, starting position of tag query, taskID here|
 |**nextMarker**|String|Get the marker value to be passed on the next page (taskID here), only when isTruncated is true (data not all returned), it appears (readonly)|
 |**status**|String|Status (SUCCESS, ERROR, PENDDING, RUNNING)|
-|**taskList**|ThumbnailTask[]|Returned task List (readonly)|
+|**taskList**|ThumbnailTask[]|Returned Task List (readonly)|
 |**truncated**|Boolean|Indicate whether the returned data is truncated. true means there is data behind the page, that is, the data is not all returned; false means that this is the last page, that is, the data has all been returned (readonly)|
-### <a name="ThumbnailTask">ThumbnailTask</a>
+### ThumbnailTask
 |Name|Type|Description|
 |---|---|---|
-|**createdTime**|String|Task creation time, format (GMT): yyyy-MM-dd’T’HH:mm:ss.SSS’Z’  (readonly)|
+|**createdTime**|String|Task Creation Time, Format (GMT): yyyy-MM-dd’T’HH:mm:ss.SSS’Z’  (readonly)|
 |**errorCode**|Integer|Error Code (readonly)|
-|**lastUpdatedTime**|String|Task creation time, format (GMT): yyyy-MM-dd’T’HH:mm:ss.SSS’Z’  (readonly)|
+|**lastUpdatedTime**|String|Task Creation Time, Format (GMT): yyyy-MM-dd’T’HH:mm:ss.SSS’Z’  (readonly)|
 |**rule**|ThumbnailTaskRule||
 |**source**|ThumbnailTaskSource||
 |**status**|String|Status (SUCCESS, ERROR, PENDDING, RUNNING) (readonly)|
 |**target**|ThumbnailTaskTarget||
 |**taskID**|String|Task ID (readonly)|
-### <a name="ThumbnailTaskRule">ThumbnailTaskRule</a>
+### ThumbnailTaskRule
 |Name|Type|Description|
 |---|---|---|
 |**count**|Integer|Number of screenshots, unavailable when mode=single. default:1|
@@ -65,12 +65,12 @@ https://mps.jdcloud-api.com/v1/regions/{regionId}/thumbnail
 |**keyFrame**|Boolean|Whether to enable keyframe screenshots. default: true|
 |**mode**|String|Screenshot mode, single screenshot: single, multiple screenshots: multi, average: average, default: single|
 |**startTimeInSecond**|Integer|Start time of generated screenshot, unavailable when mode=average. default:0|
-### <a name="ThumbnailTaskSource">ThumbnailTaskSource</a>
+### ThumbnailTaskSource
 |Name|Type|Description|
 |---|---|---|
-|**bucket**|String|Enter the bucket of Video Information|
+|**bucket**|String|Enter the Bucket of Video Information|
 |**key**|String|Enter the Key of Video Information|
-### <a name="ThumbnailTaskTarget">ThumbnailTaskTarget</a>
+### ThumbnailTaskTarget
 |Name|Type|Description|
 |---|---|---|
 |**destBucket**|String|Enter the bucket that saves target file|

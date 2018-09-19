@@ -17,30 +17,30 @@ https://xdata.jdcloud-api.com/v1/regions/{regionId}/dwTable
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**dbModelDBTable**|DwTableDesc|True||Datasheet description information|
-|**instanceName**|String|True||Instance name|
+|**dbModelDBTable**|DwTableDesc|True||Datasheet Description Information|
+|**instanceName**|String|True||Instance Name|
 
-### <a name="DwTableDesc">DwTableDesc</a>
+### DwTableDesc
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**comments**|String|False||Description information|
-|**createTime**|String|False||Creation time (automatically generated)|
-|**dbName**|String|False||Database name|
-|**externalLocation**|String|False||External table location|
-|**fieldsDelimit**|String|False||Field delimiter|
-|**hiveFileFormat**|String|False||Storage format|
-|**linesDelimit**|String|False||Row delimiter|
-|**otherSerdeProperties**|Object|False||Other serde attributes|
+|**comments**|String|False||Description  Information|
+|**createTime**|String|False||Creation Time (automatically generated)|
+|**dbName**|String|False||Database Name|
+|**externalLocation**|String|False||External Table Location|
+|**fieldsDelimit**|String|False||Field Delimiter|
+|**hiveFileFormat**|String|False||Storage Format|
+|**linesDelimit**|String|False||Row Delimiter|
+|**otherSerdeProperties**|Object|False||Other Serde Attributes|
 |**owner**|String|False||Owner (automatically generated)|
 |**parameters**|Object|False||Parameter|
-|**rows**|DwTableRow[]|False||List information|
-|**tableName**|String|False||Table name|
-### <a name="DwTableRow">DwTableRow</a>
+|**rows**|DwTableRow[]|False||List Information|
+|**tableName**|String|False||Table Name|
+### DwTableRow
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**columnName**|String|False||Field name|
-|**columnType**|String|False||Field type|
-|**comments**|String|False||Description information|
+|**columnName**|String|False||Field Name|
+|**columnType**|String|False||Field Type|
+|**comments**|String|False||Description  Information|
 |**isPartition**|Boolean|False||Is the field partitioned|
 
 ## Return parameter
@@ -50,7 +50,7 @@ https://xdata.jdcloud-api.com/v1/regions/{regionId}/dwTable
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
 |**message**|String||

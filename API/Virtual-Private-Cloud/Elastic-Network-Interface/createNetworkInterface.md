@@ -17,14 +17,14 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkInterfaces/
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**az**|String|False||Availability zone, user’s default availability zone|
+|**az**|String|False||Availability Zone, User’s Default Availability Zone|
 |**description**|String|False||Description, all characters allowed to enter under UTF-8 coding, which is not exceed 256 characters|
 |**networkInterfaceName**|String|False||Network interface name, only allowed to enter Chinese, numbers, capital and lowercase letters, English underline “_” and line-through “-”, must provide a name which cannot exceed 32 characters.|
 |**primaryIpAddress**|String|False||Network interface primary IP, if it has not been assigned, it will be allocated automatically from the subnet|
 |**sanityCheck**|Integer|False||Source and target IP address verification, with value 0 or 1, default value is 1|
-|**secondaryIpAddresses**|String[]|False||SecondaryIp list|
-|**secondaryIpCount**|Integer|False||Amount of SecondaryIp assigned automatically|
-|**securityGroups**|String[]|False||Security group ID list to be associated, a maximum of 5 security groups can be done|
+|**secondaryIpAddresses**|String[]|False||Secondary IP List|
+|**secondaryIpCount**|Integer|False||Amount of Secondary IP Assigned Automatically|
+|**securityGroups**|String[]|False||Security Group ID list to be associated, a maximum of 5 Security Groups can be done|
 |**subnetId**|String|True||Subnet ID|
 
 
@@ -32,13 +32,13 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkInterfaces/
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
-|**result**|Result|Returned results|
+|**result**|Result|Returned Results|
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
-|**networkInterfaceId**|String|Elastic network interface Id|
+|**networkInterfaceId**|String|Elastic Network Interface ID|
 
 ## Return code
 |Return code|Description|

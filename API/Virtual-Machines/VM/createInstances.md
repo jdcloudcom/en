@@ -11,7 +11,7 @@ Create a virtual machine with one or more specified configurations,  which is di
     - Windows Server 2012 R2 Standard Edition 64-bit Chinese version SQL Server 2014 Standard SP2 memory needs more than 1 GB;
     - Windows Server all image CPUs must not be selected to exceed 64 cores CPU.
     - Can query <a href="https://www.jdcloud.com/help/detail/2874/isCatalog/1">DescribeImages</a> Interface derives image information for the specified zone.
-    - The selected image must support the selected specification type. Can query <a href="https://www.jdcloud.com/help/detail/2872/isCatalog/1">DescribeImageConstraints</a> Interface obtains specification type limit information for the specified image.<br> 
+    - The selected image must support the selected specification type. Can query <a href="https://www.jdcloud.com/help/detail/2872/isCatalog/1">DescribeImageConstraints</a> Interface obtains specification type limit information for the specified image.<br>
 - Network Instance Type
     - Specify primary network card configuration information
         - SubnetId must be specified
@@ -28,25 +28,25 @@ Create a virtual machine with one or more specified configurations,  which is di
             - cloud: value range: 40-500GB,  and cannot be smaller than the minimum system disk size of image; if not specified,  the default is the system disk size in the image
         - Auto-delete
             - If local,  default auto-deletion,  this property cannot be modified
-            - True if cloud type-based cloud disk service are configured
+            - True if cloud type-based Cloud Disk Service are configured
     - Data disk
         - Disk classification,  data disks only support cloud
-        - The type of cloud disk service drive can select ssd,  premium-hdd
+        - The type of Cloud Disk Service drive can select ssd,  premium-hdd
         - Disk Size
             - premium-hdd: range[20, 3000] GB,  step size: 10G
             - ssd: range[20, 1000] GB,  step size: 10G
         - Auto-delete
             - Auto-deletion by default, for the data disk or shared data disk of the monthly package, this parameter does not take effect
-            - SnapshotId can be specified to create a cloud disk service
+            - SnapshotId can be specified to create a Cloud Disk Service
         - You can create a disk from a snapshot
-    - The VM of local type system can attach 8 cloud disks services
-    - The VM of cloud type system can attach 7 cloud disk services
+    - The VM of local type system can attach 8 Cloud Disk Services
+    - The VM of cloud type system can attach 7 Cloud Disk Services
 - Billing
     - Billing mode of EIP. If you choose to set separately by consumption,  the other billing modes are subject to the machine.
-    - The billing mode of the cloud disk service is subject to the machine
+    - The billing mode of the Cloud Disk Service is subject to the machine
 - Others
     - After the creation is complete,  the machine status is running
-    - Only the Linux system virtual machine can specify key pair
+    - Only the Linux system Virtual Machines can specify key pair
     - maxCount is the maximum effort,  and it is not guaranteed that maxCount can be reached
     - The VM's az replaces the az attribute of the disk
 - Password
@@ -70,70 +70,70 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instances
 |**instanceSpec**|InstanceSpec|True||Describe VM instance type<br>|
 |**maxCount**|Integer|False|1|The number of VMs purchased;Value range:[1, 100],  1 by default.<br>|
 
-### <a name="InstanceSpec">InstanceSpec</a>
+### InstanceSpec
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**agId**|String|False||AG Id. Once this parameter is specified, the VM can only be created by the instance template associated with the AG, and the parameters in the instance template cannot be replaced. Parameters other than the instance template can be specified.|
 |**az**|String|False||The AZ to which the VM belongs.|
 |**charge**|ChargeSpec|False||Billing configuration<br>The VM does not support paying by consumption. The default is to pay by configuration.<br>In the case of packaging a data disk, the billing method of the data disk can only be consistent with the VM.<br>In the case of packaging EIP, if the public IP is not specified to be paid by consumption, the IP billing mode of the public network can only be consistent with the VM.<br>|
-|**dataDisks**|InstanceDiskAttachmentSpec[]|False||The instance type information of the data disk. The VM of local disk as the system disk can attach 8 data disks, and the VM of the cloud disk service as the system disk can attach 7 data disks.|
-|**description**|String|False||Machine description,  <a href = "https://www.jdcloud.com/help/detail/3870/isCatalog/1 "> Refer to the public parameter specification</a>.|
+|**dataDisks**|InstanceDiskAttachmentSpec[]|False||The instance type information of the data disk. The VM of local disk as the system disk can attach 8 data disks, and the VM of the Cloud Disk Service as the system disk can attach 7 data disks.|
+|**description**|String|False||Machine description,  <a href = 'https://www.jdcloud.com/help/detail/3870/isCatalog/1 '> Refer to the public parameter specification</a>.|
 |**elasticIp**|ElasticIpSpec|False||EIP specification associated with the primary IP of the primary network interface|
-|**imageId**|String|False||Image ID. Can query <a href = "https://www.jdcloud.com/help/detail/2874/isCatalog/1"> DescribeImages</a> API for the image information of the specified zone.|
+|**imageId**|String|False||Image ID. Can query <a href = 'https://www.jdcloud.com/help/detail/2874/isCatalog/1'> DescribeImages</a> API for the image information of the specified zone.|
 |**instanceTemplateId**|String|False||Instance template id. If the users do not use an AG, the unavailable information in the instance template needs to be added by the parameters that create the VM, or choose to replace the parameters in the start template.|
-|**instanceType**|String|False||Specification type. Can query <a href = "https://www.jdcloud.com/help/detail/2901/isCatalog/1"> DescribeInstanceTypes</a> API for instance type information of the specified zone or AZ.|
+|**instanceType**|String|False||Specification type. Can query <a href = 'https://www.jdcloud.com/help/detail/2901/isCatalog/1'> DescribeInstanceTypes</a> API for instance type information of the specified zone or AZ.|
 |**keyNames**|String[]|False||The key pair name currently only supports incoming one.|
-|**name**|String|True||VM name,  <a href ="https://www.jdcloud.com/help/detail/3870/isCatalog/1">Refer to the public parameter specification</a>.|
-|**password**|String|False||Password,  <a href = "https://www.jdcloud.com/help/detail/3870/isCatalog/1 ">Refer to the public parameter specification</a>.|
+|**name**|String|True||VM name,  <a href ='https://www.jdcloud.com/help/detail/3870/isCatalog/1'>Refer to the public parameter specification</a>.|
+|**password**|String|False||Password,  <a href = 'https://www.jdcloud.com/help/detail/3870/isCatalog/1 '>Refer to the public parameter specification</a>.|
 |**primaryNetworkInterface**|InstanceNetworkInterfaceAttachmentSpec|False||Primary network interface instance type information|
 |**systemDisk**|InstanceDiskAttachmentSpec|False||System disk instance type information|
-### <a name="ChargeSpec">ChargeSpec</a>
+### ChargeSpec
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**chargeDuration**|Integer|False||Pay-In-Advance billing duration, the Pay-In-Advance is compulsory and valid only when the value of chargeMode is prepaid_by_duration. When chargeUnit is month, the value shall be 1~9; when chargeUnit is year, the value shall be 1, 2 or 3|
 |**chargeMode**|String|False|postpaid_by_duration|Billing model value is prepaid_by_duration, postpaid_by_usage or postpaid_by_duration; prepaid_by_duration means Pay-In-Advance, postpaid_by_usage means Pay-As-You-Go By Consumption and postpaid_by_duration means pay by configuration; is postpaid_by_duration by default. Please refer to the Help Documentation of specific product line to confirm the billing type supported by the production line|
 |**chargeUnit**|String|False||Billing unit of Pay-In-Advance, the Pay-In-Advance is compulsory, and valid only when chargeMode is prepaid_by_duration, and the value is month or year and month by default|
-### <a name="InstanceDiskAttachmentSpec">InstanceDiskAttachmentSpec</a>
+### InstanceDiskAttachmentSpec
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**autoDelete**|Boolean|False||Deleting this disk with the VM automatically when the machine is deleted. The default value is true, which cannot be changed.<br>This parameter does not take effect if the data disk in the VM is a monthly package.<br>This parameter does not take effect if the data disk in the VM is a shared data disk.<br>|
 |**cloudDiskSpec**|DiskSpec|False||Data disk configuration|
 |**deviceName**|String|False||Data disk logical attach point, value range: vda, vdb, vdc, vdd, vde, vdb, vdg, vdh, vdi|
-|**diskCategory**|String|False||Disk classification, the local or cloud data disk is taken.<br>The system disk supports local disk or cloud disk. The system disk selects local Type, and the user must use the image localDisk type; If the system disk selects the cloud type, the user must use the image of the cloudDisk type.<br>The data disk supports cloud disk only.<br>|
-|**noDevice**|Boolean|False||Excludes the device and parameter noDevice is used with deviceName.<br>Create a package image: deviceName: vdb, noDevice: true, the data disk vdb in the VM is not involved in creating an image.<br>Create a template: deviceName: vdb, noDevice: true, the data disk vdb in the image is not involved in creating the machine.<br>Create a machine: deviceName: vdb, noDevice: true, the data disk vdb in the image or the data disk vdb in the template (create machine by using the template) is not involved in creating the machine.|
-### <a name="DiskSpec">DiskSpec</a>
+|**diskCategory**|String|False||Disk classification, the local or Cloud Disk Service is taken.<br>The system disk supports local disk or Cloud Disk Service. The system disk selects local Type, and the user must use the image localDisk type; If the system disk selects the cloud type, the user must use the image of the cloudDisk type.<br>The data disk supports Cloud Disk Service only.<br>|
+|**noDevice**|Boolean|False||Excludes the device and parameter noDevice is used with deviceName.<br>Create a package image: deviceName: vdb, noDevice: true, the data disk vdb in the VM is not involved in creating an image.<br>Create a template: deviceName: vdb, noDevice: true, the data disk vdb in the image is not involved in creating the machine.<br>Create a machine: deviceName: vdb, noDevice: true, the data disk vdb in the image or the data disk vdb in the template (create machine by using the template) is not involved in creating the machine.<br>|
+### DiskSpec
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**az**|String|True||Availability zone, to which the cloud disk service belongs|
+|**az**|String|True||Availability Zone, to which the Cloud Disk belongs|
 |**charge**|ChargeSpec|False||Billing configuration. If not specified, the default billing type is pay-as-you-go - pay by service time by default.|
-|**description**|String|False||Description of the cloud disk service|
-|**diskSizeGB**|Integer|True||Size of the cloud disk service, in GiB; ssd value range of [20,1000]GB and step size of 10G; premium-hdd value range of [20,3000]GB and step size of 10G|
-|**diskType**|String|True||Type of the cloud disk service, value ssd or premium-hdd|
-|**multiAttachable**|Boolean|False||Whether the cloud disk service supports the mode that one disk is attached to multiple machines. It is set as false by default (not supported).|
-|**name**|String|True||Name of the cloud disk service|
-|**snapshotId**|String|False||Snapshot ID used to create cloud disk service|
-### <a name="ElasticIpSpec">ElasticIpSpec</a>
+|**description**|String|False||Description of the Cloud Disk|
+|**diskSizeGB**|Integer|True||Size of the Cloud Disk, in GiB; ssd value range of [20,1000]GB and step size of 10G; premium-hdd value range of [20,3000]GB and step size of 10G|
+|**diskType**|String|True||Type of the Cloud Disk, value ssd or premium-hdd|
+|**multiAttachable**|Boolean|False||Whether the Cloud Disk service supports the mode that one disk is attached to multiple machines. It is set as false by default (not supported).|
+|**name**|String|True||Name of the Cloud Disk|
+|**snapshotId**|String|False||Snapshot ID used to create the Cloud Disk|
+### ElasticIpSpec
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**bandwidthMbps**|Integer|True||Elastic IP speed limit (unit: Mbps), value range is [1-200]|
-|**chargeSpec**|ChargeSpec|False||Billing configuration|
+|**bandwidthMbps**|Integer|True||Elastic IP Speed lLimit (unit: Mbps). Value Range: [1-200]|
+|**chargeSpec**|ChargeSpec|False||Billing Configuration|
 |**provider**|String|True||IP service provider, values include bgp or no_bgp, cn-north-1: bgp; cn-south-1: [bgp, no_bgp]; cn-east-1: [bgp, no_bgp]; cn-east-2: bgp|
-### <a name="InstanceNetworkInterfaceAttachmentSpec">InstanceNetworkInterfaceAttachmentSpec</a>
+### InstanceNetworkInterfaceAttachmentSpec
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**deviceIndex**|Integer|False||Network device Index,  and the primary network interface can only be 1|
 |**networkInterface**|NetworkInterfaceSpec|False||Network interface API instance type|
-### <a name="NetworkInterfaceSpec">NetworkInterfaceSpec</a>
+### NetworkInterfaceSpec
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**az**|String|False||Availability zone, user’s default availability zone|
+|**az**|String|False||Availability Zone, User’s Default Availability Zone|
 |**description**|String|False||Description, all characters allowed to enter under UTF-8 coding, which is not exceed 256 characters|
 |**networkInterfaceName**|String|False||Network interface name, only allowed to enter Chinese, numbers, capital and lowercase letters, English underline “_” and line-through “-”, must provide a name which cannot exceed 32 characters.|
 |**primaryIpAddress**|String|False||Network interface primary IP, if it has not been assigned, it will be allocated automatically from the subnet|
 |**sanityCheck**|Integer|False||Source and target IP address verification, with value 0 or 1, default value is 1|
-|**secondaryIpAddresses**|String[]|False||SecondaryIp list|
-|**secondaryIpCount**|Integer|False||Amount of SecondaryIp assigned automatically|
-|**securityGroups**|String[]|False||Security group ID list to be associated, a maximum of 5 security groups can be done|
+|**secondaryIpAddresses**|String[]|False||Secondary IP List|
+|**secondaryIpCount**|Integer|False||Amount of Secondary IP Assigned Automatically|
+|**securityGroups**|String[]|False||Security Group ID list to be associated, a maximum of 5 Security Groups can be done|
 |**subnetId**|String|True||Subnet ID|
 
 ## Return parameter
@@ -143,7 +143,7 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instances
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
 |**instanceIds**|String[]||

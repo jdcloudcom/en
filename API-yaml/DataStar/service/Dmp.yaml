@@ -18,7 +18,7 @@ paths:
                   in: query
                   required: true
                   type: string
-                  description: MD5 (deviceId), multiple MD5 (deviceId) separated by English commas, note: MD5 result is in lowercase.
+                  description: "MD5 (deviceId), multiple MD5 (deviceId) separated by English commas, note: MD5 result is in lowercase."
               responses:
                 200:
                   description: OK

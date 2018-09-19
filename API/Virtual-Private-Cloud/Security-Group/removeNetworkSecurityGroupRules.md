@@ -2,7 +2,7 @@
 
 
 ## Description
-Remove security group rule
+Remove Security Group Rule
 
 ## Request method
 POST
@@ -18,7 +18,7 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkSecurityGroups/{network
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**ruleIds**|String[]|True||Security group rule Id list|
+|**ruleIds**|String[]|True||Security Group Rule ID List|
 
 
 ## Return parameter

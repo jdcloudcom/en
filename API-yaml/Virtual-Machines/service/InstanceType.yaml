@@ -10,7 +10,7 @@ paths:
   "/instanceTypes":
     ###################### Instance Type List API ######################
     get:
-      description: "|"
+      description: |
         Query instance type information list
       operationId: describeInstanceTypes
       parameters:
@@ -19,7 +19,7 @@ paths:
           type: array
           items:
             $ref: "../../common/model/Filter.yaml#/definitions/filter"
-          description: "| "
+          description: |
             instanceTypes - Instance type, exact match, multiple support
             az-AZ,  exact match,  multiple supported
       responses:

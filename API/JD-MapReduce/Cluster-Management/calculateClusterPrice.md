@@ -19,22 +19,22 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/cluster:calculate
 |---|---|---|---|---|
 |**clusterListViewModel**|ClusterListViewModel|True||Cluster information views need to be transferred in except for userName and data Center|
 
-### <a name="ClusterListViewModel">ClusterListViewModel</a>
+### ClusterListViewModel
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**bandwidthOut**|Integer|False||Network bandwidth|
-|**coreInstanceType**|String|False||Core instance type|
-|**dataCenter**|String|False||Data center location|
-|**masterInstanceType**|String|False||Master node instance type family|
-|**masterNodeDiskType**|String|False||Master node disk type|
-|**masterNodeDiskVolume**|Integer|False||Master node disk capacity|
+|**bandwidthOut**|Integer|False||Network Bandwidth|
+|**coreInstanceType**|String|False||Core Instance Type|
+|**dataCenter**|String|False||Data Center Location|
+|**masterInstanceType**|String|False||Master Node Instance Type|
+|**masterNodeDiskType**|String|False||Master Node Disk Type|
+|**masterNodeDiskVolume**|Integer|False||Master Node Disk Capacity|
 |**masterNodeInfo**|String|False||Master Node Information|
-|**masterNodeNumber**|Integer|False||Master node number|
-|**slaveNodeDiskType**|String|False||Slave node disk type|
-|**slaveNodeDiskVolume**|Integer|False||Slave node disk capacity|
-|**slaveNodeInfo**|String|False||Slave node information|
-|**slaveNodeNumber**|Integer|False||Slave node number|
-|**userName**|String|False||User name|
+|**masterNodeNumber**|Integer|False||Master Node Number|
+|**slaveNodeDiskType**|String|False||Slave Node Disk Type|
+|**slaveNodeDiskVolume**|Integer|False||Slave Node Disk Capacity|
+|**slaveNodeInfo**|String|False||Slave Node Information|
+|**slaveNodeNumber**|Integer|False||Slave Node Number|
+|**userName**|String|False||User Name|
 
 ## Return parameter
 |Name|Type|Description|
@@ -43,7 +43,7 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/cluster:calculate
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
 |**data**|Integer||

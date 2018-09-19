@@ -2,7 +2,7 @@
 
 
 ## Description
-Associate policies for sub-users
+Associate Policies for Sub-users
 
 ## Request method
 POST
@@ -13,17 +13,17 @@ https://iam.jdcloud-api.com/v1/regions/{regionId}/subUser/{subUser}/permisssions
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**regionId**|String|True||Region ID|
-|**subUser**|String|True||Sub-user name|
+|**subUser**|String|True||Sub-user Name|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**addPermissionsInfo**|AddPermissionsInfo|True||Permission information|
+|**addPermissionsInfo**|AddPermissionsInfo|True||Permission Information|
 
-### <a name="AddPermissionsInfo">AddPermissionsInfo</a>
+### AddPermissionsInfo
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**permissionIds**|Integer[]|True||Permissions id set|
+|**permissionIds**|Integer[]|True||Permissions id Set|
 
 ## Return parameter
 |Name|Type|Description|

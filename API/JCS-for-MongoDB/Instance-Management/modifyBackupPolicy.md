@@ -18,7 +18,7 @@ https://mongodb.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/bac
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**preferredBackupTime**|String|True||Backup time, format: HH:mmZ- HH:mmZ, only integral point allowed with interval of 1 hour.|
+|**preferredBackupTime**|String|True||Backup Time, Format: HH:mmZ- HH:mmZ, only integral point allowed with interval of 1 hour.|
 
 
 ## Return parameter
@@ -28,7 +28,7 @@ https://mongodb.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/bac
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
 |**backupRetentionPeriod**|String||

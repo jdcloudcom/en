@@ -26,7 +26,7 @@ paths:
         - name: domainName
           in: query
           type: string
-          description: "Keyword, matching the main domain name according to the "%domainName%" pattern"
+          description: "Keyword, matching the main domain name according to the '%domainName%' pattern"
           required: false
       responses:
         200:

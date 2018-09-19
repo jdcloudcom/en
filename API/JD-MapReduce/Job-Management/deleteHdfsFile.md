@@ -18,7 +18,7 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/hdfsFile:delete
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**clusterId**|String|True||Cluster ID|
-|**filePath**|String|True||Path of the file to be deleted|
+|**filePath**|String|True||Path of the File to be Deleted|
 
 
 ## Return parameter

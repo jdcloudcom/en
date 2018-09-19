@@ -18,7 +18,7 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/BillingOrder:renew
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**clusterId**|String|True||Renew the cluster clusterId|
-|**type**|Integer|True||"Required parameters, billing type"<br>      "* 1: Pay By Configuration"<br>      "* 601-609: Monthly package for 1 month to 9 months"<br>      "* 610: Monthly package for 1 year"<br>      "* 620: Monthly package for 2 years"<br>|
+|**type**|Integer|True||"Required Parameters, Billing Type"<br>      "* 1: Pay By Configuration"<br>      "* 601-609: Monthly package for 1 month to 9 months"<br>      "* 610: Monthly package for 1 year"<br>      "* 620: Monthly package for 2 years"<br>|
 
 
 ## Return parameter
@@ -28,7 +28,7 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/BillingOrder:renew
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
 |**message**|String||

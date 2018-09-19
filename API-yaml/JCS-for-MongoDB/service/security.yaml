@@ -15,7 +15,8 @@ paths:
       parameters:
         - name: modifySecurityIps
           in: body
-          description: "schema:"
+          description: 
+          schema:
             type: object
             required:
               - modifyMode

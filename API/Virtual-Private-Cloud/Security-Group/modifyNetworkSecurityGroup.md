@@ -2,7 +2,7 @@
 
 
 ## Description
-Modify security group attribute
+Modify Security Group Attribute
 
 ## Request method
 PATCH
@@ -18,8 +18,8 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkSecurityGroups/{network
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**description**|String|False||Security group description, value range: 0-256 of all characters entered under UTF-8 coding|
-|**networkSecurityGroupName**|String|False||Security group name. Value range of name: 1-32 Chinese, English capital and lowercase letters, numbers and underline delimiter|
+|**description**|String|False||Security Group Description. Value Range: 0-256 of all characters entered under UTF-8 coding|
+|**networkSecurityGroupName**|String|False||Security Group Name. Value Range of Name: 1-32 Chinese, English capital and lowercase letters, numbers and underline delimiter|
 
 
 ## Return parameter

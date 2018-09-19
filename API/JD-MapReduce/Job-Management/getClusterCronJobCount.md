@@ -27,7 +27,7 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/clusterCronJob/{clusterId
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
 |**data**|Object|"Include JmrPlanViewModel list - cronJobs"<br>"And return list size - totalNum"<br>|

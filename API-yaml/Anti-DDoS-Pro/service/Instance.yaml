@@ -17,7 +17,7 @@ paths:
           description: "Instance type parameter"
           required: true
           schema:
-            $ref: "../model/InstanceSpec.yaml#/definitions/InstanceSpec"
+            $ref: "../model/InstanceSpec.yaml#/definitions/instanceSpec"
       responses:
         200:
           description: "OK"
@@ -58,7 +58,7 @@ paths:
                   dataList:
                     type: array
                     items:
-                      $ref: "../model/Instance.yaml#/definitions/Instance"
+                      $ref: "../model/Instance.yaml#/definitions/instance"
                   totalCount:
                     type: integer
               requestId:
@@ -76,7 +76,7 @@ paths:
               result:
                 properties:
                   data:
-                    $ref: "../model/Instance.yaml#/definitions/Instance"
+                    $ref: "../model/Instance.yaml#/definitions/instance"
               requestId:
                 type: string
         404:

@@ -19,7 +19,7 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domain/{domainId}/
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**subDomainName**|String|True||Subdomain|
-|**targets**|String[]|True||Array of available monitoring objects of subdomain|
+|**targets**|String[]|True||Array of Available Monitoring Objects of Subdomain         |
 
 
 ## Return parameter
@@ -33,4 +33,4 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domain/{domainId}/
 |Return code|Description|
 |---|---|
 |**200**|OK|
-|**400**|BAD_REQUEST|
+|**400**|BAD_REQUEST |

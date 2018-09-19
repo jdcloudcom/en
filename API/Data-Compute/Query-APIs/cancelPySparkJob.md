@@ -18,7 +18,7 @@ https://xdata.jdcloud-api.com/v1/regions/{regionId}/dwQuery:cancelPySparkQuery
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**queryId**|String|True||Search an id|
-|**userName**|String|True||User name|
+|**userName**|String|True||User Name|
 
 
 ## Return parameter
@@ -28,7 +28,7 @@ https://xdata.jdcloud-api.com/v1/regions/{regionId}/dwQuery:cancelPySparkQuery
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
 |**message**|String||

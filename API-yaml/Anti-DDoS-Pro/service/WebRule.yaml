@@ -148,7 +148,7 @@ paths:
 
   /instances/{instanceId}/webRules/{webRuleId}:enableCC:
     post:
-      description: "“Web service rules enable CC""
+      description: "Web service rules enable CC"
       operationId: enableWebRuleCC
       responses:
         200:
@@ -164,7 +164,7 @@ paths:
 
   /instances/{instanceId}/webRules/{webRuleId}:disableCC:
     post:
-      description: "“Web service rules disable CC""
+      description: "Web service rules disable CC"
       operationId: disableWebRuleCC
       responses:
         200:

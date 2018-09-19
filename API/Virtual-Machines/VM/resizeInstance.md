@@ -2,9 +2,9 @@
 
 
 ## Description
-virtual machine Change Specification Type 
-The status of the virtual machine must be stopped status. <br>
-The cloud disk service created in 16 years is the machine of the system disk,  and the generation and the second generation specification type are not allowed to be adjusted to each other. <br>
+Virtual Machines Change Specification Type
+The status of the Virtual Machines must be stopped status. <br>
+The Cloud Disk Service created in 16 years is the machine of the system disk,  and the generation and the second generation specification type are not allowed to be adjusted to each other. <br>
 Local disk (type) is the machine of the system disk,  and the first generation and the second generation specification type are not allowed to be adjusted to each other. <br>
 Machine,  generation,  and second-generation specification types created using availability group (Ag) do not allow mutual adjustment. <br>
 The cloud disk service (cloud type) is the machine of the system disk,  and the generation and the second generation specification type are allowed to adjust to each other. <br>
@@ -27,7 +27,7 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:resizeIn
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**instanceType**|String|True||Instance type, query<a href="https://www.jdcloud.com/help/detail/2901/isCatalog/1">DescribeInstanceTypes</a> API for the instance type information of the specified zone or AZ.|
+|**instanceType**|String|True||Instance type, query<a href='https://www.jdcloud.com/help/detail/2901/isCatalog/1'>DescribeInstanceTypes</a> API for the instance type information of the specified zone or AZ.|
 
 
 ## Return parameter

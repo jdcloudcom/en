@@ -37,7 +37,7 @@ paths:
           items:
             #$ref: "/jcloud-open-api/common/model/Filter.yaml#/definitions/filter"
             $ref: "../../common/model/Filter.yaml#/definitions/filter"
-          description: "|"
+          description: |
             elasticIpIds - ElasticIP ID Array Conditions, Support Multiple IDs
             elasticIpAddress - EIP IP Address, Support Single Address
             chargeStatus	- EIP Payment Status, Normal(normal status) or Overdue(Pay-In-Advance expired) or Arrear(arrear status), Support Single Status

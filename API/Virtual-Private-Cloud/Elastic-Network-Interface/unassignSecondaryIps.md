@@ -2,7 +2,7 @@
 
 
 ## Description
-Delete secondaryIp interface from network interface
+Delete Secondary IP Interface from Network Interface
 
 ## Request method
 POST
@@ -18,7 +18,7 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkInterfaces/{networkInte
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**secondaryIps**|String[]|False||Assign deleted secondaryIp address|
+|**secondaryIps**|String[]|False||Assign Deleted Secondary IP Address|
 
 
 ## Return parameter

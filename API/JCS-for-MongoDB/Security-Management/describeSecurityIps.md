@@ -2,7 +2,7 @@
 
 
 ## Description
-Query Instance Access Whitelist
+Query Instance Access White List
 
 ## Request method
 GET
@@ -25,7 +25,7 @@ None
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
 |**securityIps**|String||

@@ -20,8 +20,9 @@ definitions:
         type: number
         description: "The Start Transport Layer Port of Rule Limit. Value Range: 1-65535; if the protocol is a transport layer protocol, the default value is 1; if the protocol is not a transport layer protocol, the value is constantly 0. If the rule is limited to one port, a same value is filled in the fromPort and toPort"
       toPort:
-         type: number
-         description: "The End Transport Layer Port of Rule Limit. Value Range: 1-65535; if the protocol is a transport layer protocol, the default value is 65535; if the protocol is not a transport layer protocol, the value is constantly 0. If the rule is limited to one port, a same value is filled in the fromPort and toPort"
-      description: "type: string"
-         description: "Description, all characters allowed to enter under UTF-8 coding, which is not exceed 256 characters"
+        type: number
+        description: "The End Transport Layer Port of Rule Limit. Value Range: 1-65535; if the protocol is a transport layer protocol, the default value is 65535; if the protocol is not a transport layer protocol, the value is constantly 0. If the rule is limited to one port, a same value is filled in the fromPort and toPort"
+      description:
+        type: string
+        description: "Description, all characters allowed to enter under UTF-8 coding, which is not exceed 256 characters"
 

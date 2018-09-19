@@ -2,7 +2,7 @@
 
 
 ## Description
-Hardware configuration information list
+Hardware Configuration Information List
 
 ## Request method
 GET
@@ -25,27 +25,27 @@ None
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
-|**data**|HardWareStackData|Hardware information queried|
+|**data**|HardWareStackData|Hardware Information Queried|
 |**message**|String||
 |**status**|String||
-### <a name="HardWareStackData">HardWareStackData</a>
+### HardWareStackData
 |Name|Type|Description|
 |---|---|---|
 |**disk**|Disk[]||
 |**scale**|Scale[]||
-### <a name="Disk">Disk</a>
+### Disk
 |Name|Type|Description|
 |---|---|---|
-|**limit**|String|Maximum disk capacity|
-|**volumeType**|String|Disk capacity type|
-### <a name="Scale">Scale</a>
+|**limit**|String|Maximum Disk Capacity|
+|**volumeType**|String|Disk Capacity Type|
+### Scale
 |Name|Type|Description|
 |---|---|---|
-|**core**|Integer|CPU core number|
-|**memory**|Integer|Memory size, with the unit of G|
+|**core**|Integer|CPU Core Number|
+|**memory**|Integer|Memory Size, Unit: G|
 
 ## Return code
 |Return code|Description|

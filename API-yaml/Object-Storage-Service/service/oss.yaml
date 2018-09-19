@@ -13,7 +13,7 @@ paths:
       - developers
       summary: listbuckets
       operationId: listBuckets
-      description: "|"
+      description: |
         List all bucket of current user
       produces:
       - application/json
@@ -47,7 +47,7 @@ paths:
       - developers
       summary: head bucket
       operationId: headBucket
-      description: "|"
+      description: |
         Query whether bucket exists or not
       produces:
       - application/json
@@ -71,7 +71,7 @@ paths:
       - developers
       summary: create bucket
       operationId: putBucket
-      description: "|"
+      description: |
         Create a bucket
       produces:
       - application/json
@@ -101,7 +101,7 @@ paths:
       - developers
       summary: delete bucket
       operationId: deleteBucket
-      description: "|"
+      description: |
         Delete a bucket
       produces:
       - application/json
@@ -133,7 +133,7 @@ paths:
       summary: moveObject
       operationId: moveObject
       x-jdcloud-internal: true
-      description: "|"
+      description: |
         moveobject
       produces:
       - application/json

@@ -12,7 +12,8 @@ paths:
       parameters:
         - name: createAudit
           in: body
-          description: "schema:"
+          description: 
+          schema:
             type: object
             required:
               - enabled
@@ -51,7 +52,8 @@ paths:
       parameters:
         - name: name
           in: body
-          description: "schema:"
+          description: 
+          schema:
             type: object
             required:
               - name
@@ -83,7 +85,8 @@ paths:
       parameters:
         - name: modifyAudit
           in: body
-          description: "schema:"
+          description: 
+          schema:
             type: object
             properties:
               add:
@@ -117,7 +120,8 @@ paths:
       parameters:
         - name: name
           in: body
-          description: "schema:"
+          description: 
+          schema:
             type: object
             required:
               - fileName

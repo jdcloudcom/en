@@ -37,7 +37,7 @@ paths:
            items:
              #$ref: "/jcloud-open-api/common/model/Filter.yaml#/definitions/filter"
              $ref: "../../common/model/Filter.yaml#/definitions/filter"
-           description: "|"
+           description: |
                   VPCPeeringIds - VPCPeering ID, support multiple IDs
                   VPCPeeringNames - VPCPeering name list, support multiple names
                   VPCId	- VPCPeering home terminal VPC ID, support single Id

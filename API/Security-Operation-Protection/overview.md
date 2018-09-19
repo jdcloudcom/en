@@ -2,7 +2,7 @@
 
 
 ## Introduction
-Related interfaces of sensitive operation protection (SOP)
+Related Interfaces of Sensitive Operation Protection (SOP)
 
 
 ### Version
@@ -12,5 +12,5 @@ v1
 ## API
 |Interface name|Request mehod|Function description|
 |---|---|---|
-|**getSecurityToken**|POST|Obtaining Token|
-|**getSensitiveOpSetting**|GET|Obtain the settings information of operation protection|
+|**getSecurityToken**|POST|Obtain Token|
+|**getSensitiveOpSetting**|GET|Obtain the settings information of Operation Protection|

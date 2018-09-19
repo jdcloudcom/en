@@ -2,7 +2,7 @@
 
 
 ## Description
-Associate elastic Ip interface to network interface
+Associate Elastic IP Interface to Network Interface
 
 ## Request method
 POST
@@ -18,9 +18,9 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkInterfaces/{networkInte
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**elasticIpAddress**|String|False||Associated elastic Ip address|
-|**elasticIpId**|String|False||Associated elastic Ip Id|
-|**privateIpAddress**|String|False||Associate elastic Ip to assigned privateIp|
+|**elasticIpAddress**|String|False||Associated Elastic IP Address|
+|**elasticIpId**|String|False||Associated Elastic IP ID|
+|**privateIpAddress**|String|False||Associate Elastic IP to Assigned Private IP|
 
 
 ## Return parameter

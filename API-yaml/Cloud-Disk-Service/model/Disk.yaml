@@ -13,8 +13,9 @@ definitions:
         description: "AZ, to which the Cloud Disk belongs"
       name:
         type: string
-        description: "Name of the Cloud Disk. Only Chinese characters, numbers, uppercase and lowercase letters, English underscores "_" or hyphens "-" are allowed. It is not allowed to be blank and shall not exceed 32 characters."
-      description: "type: string"
+        description: "Name of the Cloud Disk. Only Chinese characters, numbers, uppercase and lowercase letters, English underscores '_' or hyphens '-' are allowed. It is not allowed to be blank and shall not exceed 32 characters."
+      description: 
+        type: string
         description: "Description of the Cloud Disk. It allows you to enter all characters under UTF-8 encoding, but no more than 256 characters."
       diskType:
         type: string

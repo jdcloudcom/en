@@ -25,30 +25,30 @@ None
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
-|**data**|JmrPlanViewModel[]|Execution plan list|
+|**data**|JmrPlanViewModel[]|Execution Plan List|
 |**message**|String||
 |**status**|String||
-### <a name="JmrPlanViewModel">JmrPlanViewModel</a>
+### JmrPlanViewModel
 |Name|Type|Description|
 |---|---|---|
 |**az**|String||
 |**clusterId**|String||
 |**clusterName**|String||
-|**createTime**|String|Creation time|
-|**cronExpression**|String|Time after formatt|
-|**dataCenter**|String|Data center, i.e. regionId|
+|**createTime**|String|Creation Time|
+|**cronExpression**|String|Time After Formatt|
+|**dataCenter**|String|Data Center, i.e. regionId|
 |**description**|String||
 |**failurePolicy**|String|Policy adopted when task scheduling is failed|
 |**isSync**|Boolean||
 |**jobGroup**|String||
 |**jobIds**|String||
 |**jobTrigger**|String|Trigger|
-|**modifyTime**|String|Modification time|
+|**modifyTime**|String|Modification Time|
 |**orderBy**|String||
-|**planId**|Number|Task scheduling id|
+|**planId**|Number|Task Scheduling id|
 |**planName**|String||
 |**planStatus**|String||
 |**planType**|String||

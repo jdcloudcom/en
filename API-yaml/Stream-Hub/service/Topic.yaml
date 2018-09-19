@@ -44,7 +44,8 @@ paths:
         - name: topicModel
           in: body
           required: true
-          description: "Example: {"topicModel":{"topic":{"archived":0,"id":"","name":"create","remark":"note","shardNum":1,"partitionNum":2,"lifecycle":3}}}"
+          description: |
+            Example: {"topicModel":{"topic":{"archived":0,"id":"","name":"create","remark":"note","shardNum":1,"partitionNum":2,"lifecycle":3}}}
           schema:
             $ref: "../model/addOrUpdateTopic.yaml#/definitions/topicModel"
       responses:

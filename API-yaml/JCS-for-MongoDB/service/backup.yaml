@@ -14,7 +14,8 @@ paths:
       parameters:
         - name: createBackup
           in: body
-          description: "schema:"
+          description: 
+          schema:
             type: object
             required:
               - instanceId
@@ -54,7 +55,7 @@ paths:
           type: array
           items:
             $ref: "../../common/model/Filter.yaml#/definitions/filter"
-          description: "| "
+          description: |
             instanceId - Instance ID, Accurate Matching
             backupId - Backup ID, Accurate Matching
       responses:

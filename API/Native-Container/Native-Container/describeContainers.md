@@ -2,7 +2,7 @@
 
 
 ## Description
-Search native container details in batches <br>
+Search Native Container details in batches <br>
 This interface supports query in pages, with 20 entries per page by default.
 
 
@@ -19,16 +19,16 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/containers
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**filters**|Filter[]|False||containerId - Instance ID, exact match, support many IDs<br>privateIpAddress - Primary network interface IP address, fuzzy matching and supporting many IP addresses<br>az - Availability zone, exact matching, supporting many availability zones<br>vpcId - Virtual private cloud ID, exact match, support many IDs<br>status - Container status, exact match, support many statuses<br>name - Instance name, fuzzy matching and supporting many names<br>subnetId - Instance ID, fuzzy matching and supporting many IDs<br>|
+|**filters**|Filter[]|False||containerId - Instance ID, exact match, support many IDs<br>privateIpAddress - Primary network interface IP address, fuzzy matching and supporting many IP addresses<br>az - Availability zone, exact matching, supporting many availability zones<br>vpcId - Virtual Private Cloud ID, exact match, support many IDs<br>status - Container status, exact match, support many statuses<br>name - Instance name, fuzzy matching and supporting many names<br>subnetId - Instance ID, fuzzy matching and supporting many IDs<br>|
 |**pageNumber**|Integer|False||Page number; 1 by default|
 |**pageSize**|Integer|False||Page size; it is 20 by default; value range[10, 100]|
 
-### <a name="Filter">Filter</a>
+### Filter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**name**|String|True||Name of filter requirements|
+|**name**|String|True||Name of Filter Requirements|
 |**operator**|String|False||Operator of filter requirements is eq by default|
-|**values**|String[]|True||Value of filter requirements|
+|**values**|String[]|True||Value of Filter Requirements|
 
 ## Return parameter
 |Name|Type|Description|
@@ -37,120 +37,120 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/containers
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
 |**containers**|Container[]||
 |**totalCount**|Number||
-### <a name="Container">Container</a>
+### Container
 |Name|Type|Description|
 |---|---|---|
-|**args**|String[]|Parameters for command execution by container|
-|**az**|String|Availability zone|
-|**charge**|Charge|Billing configuration information|
-|**command**|String[]|Container execution command|
-|**containerId**|String|Container ID|
-|**dataVolumes**|VolumeMount[]|Mounted data Volume information|
-|**description**|String|Container description|
-|**elasticIpAddress**|String|Elastic IP address associated to primary IP of primary network interface|
-|**elasticIpId**|String|Elastic IP ID associated to primary IP of primary network interface|
-|**envs**|EnvVar[]|Environment variable for execution by dynamically-assigned container|
-|**hostAliases**|HostAlias[]|Domain and IP mapping information|
-|**hostname**|String|Machine name|
-|**image**|String|Image name|
-|**instanceType**|String|Instance type family|
-|**launchTime**|String|Creation time|
-|**logConfiguration**|LogConfiguration|Container log configuration information|
-|**name**|String|Container name|
-|**primaryNetworkInterface**|InstanceNetworkInterfaceAttachment|Primary network interface information|
-|**privateIpAddress**|String|Primary IP address of primary network interface|
-|**reason**|String|Container termination reason|
-|**rootVolume**|VolumeMount|Root Volume information|
-|**secondaryNetworkInterfaces**|InstanceNetworkInterfaceAttachment[]|Elastic network interface information|
-|**secret**|String|Name cited by secret|
-|**status**|String|Container status|
-|**subnetId**|String|ID of primary network interface’s subnet|
-|**tty**|Boolean|If a container is assigned with tty|
-|**vpcId**|String|ID of primary network interface’s VPC|
-|**workingDir**|String|Container’s working catalog|
-### <a name="Charge">Charge</a>
+|**args**|String[]|Parameters for Command Execution by Container |
+|**az**|String|Availability Zone |
+|**charge**|Charge|Billing Configuration Information |
+|**command**|String[]|Container Execution Command |
+|**containerId**|String|Container ID |
+|**dataVolumes**|VolumeMount[]|Mounted Data Volume Information |
+|**description**|String|Container Description |
+|**elasticIpAddress**|String|Elastic IP Associated to Primary IP of Primary Network Interface |
+|**elasticIpId**|String|Elastic IP ID Associated to Primary IP of Primary Network Interface |
+|**envs**|EnvVar[]|Environment variable for execution by dynamically-assigned container |
+|**hostAliases**|HostAlias[]|Domain and IP Mapping Information |
+|**hostname**|String|Machine Name |
+|**image**|String|Image Name |
+|**instanceType**|String|Instance Type Family |
+|**launchTime**|String|Creation Time |
+|**logConfiguration**|LogConfiguration|Container Log Configuration Information |
+|**name**|String|Container Name |
+|**primaryNetworkInterface**|InstanceNetworkInterfaceAttachment|Primary Network Interface Information |
+|**privateIpAddress**|String|Primary IP Address of Primary Network Interface |
+|**reason**|String|Container Termination Reason |
+|**rootVolume**|VolumeMount|Root Volume Information |
+|**secondaryNetworkInterfaces**|InstanceNetworkInterfaceAttachment[]|Elastic Network Interface Information |
+|**secret**|String|Name Cited by Secret |
+|**status**|String|Container Status |
+|**subnetId**|String|ID of Primary Network Interface’s Subnet |
+|**tty**|Boolean|If a container is assigned with tty |
+|**vpcId**|String|ID of Primary Network Interface’s VPC |
+|**workingDir**|String|Container’s Working Catalog |
+### Charge
 |Name|Type|Description|
 |---|---|---|
-|**chargeExpiredTime**|String|Expiration time, i.e. the expiration time of Pay-In-Advance resource, which shall be subject to ISO8601, with the UTC time used in the format of YYYY-MM-DDTHH:mm:ssZ. Pay-As-You-Go resource field is blank.|
-|**chargeMode**|String|Payment model, the value shall be prepaid_by_duration, postpaid_by_usage or postpaid_by_duration; prepaid_by_duration refers to Pay-In-Advance; postpaid_by_usage refers to Pay By Consumption and Pay-As-You-Go; postpaid_by_duration refers to Pay By Configuration and Pay-As-You-Go, and is postpaid_by_duration by default|
-|**chargeRetireTime**|String|The expected release time refers to the expected release time of resources. This value is both available for the Pay-In-Advance/Pay-As-You-Go resources, conforming to the ISO8601 standard, with the UTC time used in the format of YYYY-MM-DDTHH:mm:ssZ|
+|**chargeExpiredTime**|String|Expiration Time, i.e. the expiration time of Pay-In-Advance resource, which shall be subject to ISO8601, with the UTC time used in the format of YYYY-MM-DDTHH:mm:ssZ. Pay-As-You-Go resource field is blank.|
+|**chargeMode**|String|Payment Model, the value shall be prepaid_by_duration, postpaid_by_usage or postpaid_by_duration; prepaid_by_duration refers to Pay-In-Advance; postpaid_by_usage refers to Pay By Consumption and Pay-As-You-Go; postpaid_by_duration refers to Pay By Configuration and Pay-As-You-Go, and is postpaid_by_duration by default|
+|**chargeRetireTime**|String|The Expected Release Time refers to the expected release time of resources. This value is both available for the Pay-In-Advance/Pay-As-You-Go resources, conforming to the ISO8601 standard, with the UTC time used in the format of YYYY-MM-DDTHH:mm:ssZ|
 |**chargeStartTime**|String|The start time of the billing shall be subject to ISO8601, with the UTC time used in the format of YYYY-MM-DDTHH:mm:ssZ|
-|**chargeStatus**|String|Cost payment status, the value is respectively normal, overdue and arrear.|
-### <a name="VolumeMount">VolumeMount</a>
+|**chargeStatus**|String|Cost Payment Status, the value is respectively normal, overdue and arrear.|
+### VolumeMount
 |Name|Type|Description|
 |---|---|---|
 |**autoDelete**|Boolean|Automatic deletion, the volume is automatically deleted at the time the container is deleted.|
-|**category**|String|Environment variable name|
-|**cloudDisk**|InstanceCloudDisk|Cloud disk service specification|
+|**category**|String|Environment Variable Name|
+|**cloudDisk**|InstanceCloudDisk|Cloud Disk Service Specification|
 |**fsType**|String|Specify volume file system type and support [xfs, ext4] now.|
-|**mountPath**|String|Catalog mounted into the container|
+|**mountPath**|String|Catalog Mounted into the Container|
 |**readOnly**|Boolean|Read-only, false by default; only valid to data volume; when root volume is false.|
-### <a name="InstanceCloudDisk">InstanceCloudDisk</a>
+### InstanceCloudDisk
 |Name|Type|Description|
 |---|---|---|
 |**az**|String|Corresponding AZ|
-|**createTime**|String|Creation time|
-|**description**|String|Disk description|
-|**diskId**|String|Cloud disk service ID|
-|**diskSize**|Integer|Disk size (GiB)|
-|**diskType**|String|Disk type, value ssd or premium-hdd|
-|**name**|String|Disk name|
-|**status**|String|Cloud disk service type, value: creating, available, in-use, extending, restoring, deleting, deleted, error_creating, error_deleting, error_restoring or error_extending|
-### <a name="EnvVar">EnvVar</a>
+|**createTime**|String|Creation Time|
+|**description**|String|Disk Description|
+|**diskId**|String|Cloud Disk Service ID|
+|**diskSize**|Integer|Disk Size (GiB)|
+|**diskType**|String|Disk Type, Value: ssd or premium-hdd|
+|**name**|String|Disk Name|
+|**status**|String|Cloud Disk Service type, value: creating, available, in-use, extending, restoring, deleting, deleted, error_creating, error_deleting, error_restoring or error_extending|
+### EnvVar
 |Name|Type|Description|
 |---|---|---|
-|**name**|String|Environment variable name|
-|**value**|String|Value of environment variable|
-### <a name="HostAlias">HostAlias</a>
+|**name**|String|Environment Variable Name|
+|**value**|String|Value of Environment Variable|
+### HostAlias
 |Name|Type|Description|
 |---|---|---|
-|**hostnames**|String[]|Domain list|
-|**ip**|String|IP address|
-### <a name="LogConfiguration">LogConfiguration</a>
+|**hostnames**|String[]|Domain List|
+|**ip**|String|IP Address|
+### LogConfiguration
 |Name|Type|Description|
 |---|---|---|
 |**logDriver**|String|Name log configuration information; a 10MB storage space will be assigned to the local by default and is automatically rotated.|
-|**options**|LogOption|Configuration options of log Driver|
-### <a name="LogOption">LogOption</a>
+|**options**|LogOption|Configuration Options of Log Driver|
+### LogOption
 |Name|Type|Description|
 |---|---|---|
 |**key**|String||
 |**value**|String||
-### <a name="InstanceNetworkInterfaceAttachment">InstanceNetworkInterfaceAttachment</a>
+### InstanceNetworkInterfaceAttachment
 |Name|Type|Description|
 |---|---|---|
-|**attachStatus**|String|Associating status|
-|**attachTime**|String|Associating time|
+|**attachStatus**|String|Associating Status|
+|**attachTime**|String|Associating Time|
 |**autoDelete**|Boolean|Indicate that if the network interface is deleted when deleting an instance|
 |**deviceIndex**|Integer|Device Index|
-|**networkInterface**|InstanceNetworkInterface|Elastic network interface information|
-### <a name="InstanceNetworkInterface">InstanceNetworkInterface</a>
+|**networkInterface**|InstanceNetworkInterface|Elastic Network Interface Information|
+### InstanceNetworkInterface
 |Name|Type|Description|
 |---|---|---|
 |**description**|String|Description|
-|**macAddress**|String|Ethernet address|
-|**networkInterfaceId**|String|Elastic network interface ID|
-|**primaryIp**|NetworkInterfacePrivateIp|Primary IP of network interface|
-|**sanityCheck**|Boolean|Source and target IP address verification, with value 0 or 1|
+|**macAddress**|String|Ethernet Address|
+|**networkInterfaceId**|String|Elastic Network Interface ID|
+|**primaryIp**|NetworkInterfacePrivateIp|Primary IP of Network Interface|
+|**sanityCheck**|Boolean|Source and Target IP Address Verification, with value 0 or 1|
 |**secondaryIps**|NetworkInterfacePrivateIp[]||
-|**securityGroups**|SecurityGroupSimple[]|Security group list|
+|**securityGroups**|SecurityGroupSimple[]|Security Group List|
 |**vpcId**|String|Virtual network ID|
-### <a name="NetworkInterfacePrivateIp">NetworkInterfacePrivateIp</a>
+### NetworkInterfacePrivateIp
 |Name|Type|Description|
 |---|---|---|
-|**elasticIpAddress**|String|Elastic IP instance address|
-|**elasticIpId**|String|IPV4 address of private IP|
-|**privateIpAddress**|String|IPV4 address of private IP|
-### <a name="SecurityGroupSimple">SecurityGroupSimple</a>
+|**elasticIpAddress**|String|Elastic IP Instance Address|
+|**elasticIpId**|String|IPV4 Address of Private IP|
+|**privateIpAddress**|String|IPV4 Address of Private IP|
+### SecurityGroupSimple
 |Name|Type|Description|
 |---|---|---|
-|**groupId**|String|Security group ID|
-|**groupName**|String|Security group name|
+|**groupId**|String|Security Group ID|
+|**groupName**|String|Security Group Name|
 
 ## Return code
 |Return code|Description|

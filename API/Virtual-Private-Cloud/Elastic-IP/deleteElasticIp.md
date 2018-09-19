@@ -2,7 +2,7 @@
 
 
 ## Description
-Delete elastic Ip
+Delete Elastic IP
 
 ## Request method
 DELETE

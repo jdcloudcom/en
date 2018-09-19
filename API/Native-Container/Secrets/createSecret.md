@@ -22,13 +22,13 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/secrets
 |**name**|String|True||Names of confidential data can’t be the same<br>|
 |**secretType**|String|True||Now, only the following confidential data type is supported: docker-registry, which is the docker registry verification type.<br>|
 
-### <a name="DockerRegistryData">DockerRegistryData</a>
+### DockerRegistryData
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**email**|String|False||Email address|
-|**password**|String|True||Password|
-|**server**|String|True||registry server address|
-|**username**|String|True||User name|
+|**email**|String|False||Email Address|
+|**password**|String|True||Password |
+|**server**|String|True||Registry Server Address|
+|**username**|String|True||User Name|
 
 ## Return parameter
 |Name|Type|Description|
@@ -37,7 +37,7 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/secrets
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
 |**secretName**|String||

@@ -25,22 +25,22 @@ None
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
-|**data**|InstanceList[]|Machine specification list|
+|**data**|InstanceList[]|Machine Specification List|
 |**message**|String||
 |**status**|String||
-### <a name="InstanceList">InstanceList</a>
+### InstanceList
 |Name|Type|Description|
 |---|---|---|
-|**label**|String|Classification of machine models|
+|**label**|String|Classification of Machine Models|
 |**options**|Options[]||
-### <a name="Options">Options</a>
+### Options
 |Name|Type|Description|
 |---|---|---|
-|**label**|String|CPU and memory size of the machine|
-|**value**|String|Specification description of the corresponding machine|
+|**label**|String|CPU and Memory Size of the Machine|
+|**value**|String|Specification Description of the Corresponding Machine|
 
 ## Return code
 |Return code|Description|

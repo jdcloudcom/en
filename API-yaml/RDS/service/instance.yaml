@@ -110,18 +110,19 @@ paths:
       parameters:
         - name: setBackupPolicy
           in: body
-          description: "schema:"
+          description: 
+          schema:
             type: object
             properties:
               startWindow:
                 type: string
-                description: "The range of start time window to automatically backup is 00:00-23:59, and the time range difference must not be less than 30 minutes. <br>For example: 00:00-01:00, it means that the database is automatically backed up from 0:00 to 01:00, and the time of backup completion is related to the size of the instance, not necessarily within this time range.""
+                description: "The range of start time window to automatically backup is 00:00-23:59, and the time range difference must not be less than 30 minutes. <br>For example: 00:00-01:00, it means that the database is automatically backed up from 0:00 to 01:00, and the time of backup completion is related to the size of the instance, not necessarily within this time range."
       responses:
         200:
           description: "OK"
   "/instances/{instanceId}:setInstanceName": #Modify the instance name
     post:
-      description: "Modify the instance name to support Chinese. The specific rules for the instance name can be found in the Help Center document: [Name and Password Restrictions] (../../../documentation/Cloud-Database-and-Cache/RDS/Introduction /Restrictions/SQLServer-Restrictions.md)<br>-  Support SQL Server Only""
+      description: "Modify the instance name to support Chinese. The specific rules for the instance name can be found in the Help Center document: [Name and Password Restrictions] (../../../documentation/Cloud-Database-and-Cache/RDS/Introduction /Restrictions/SQLServer-Restrictions.md)<br>-  Support SQL Server Only"
       operationId: setInstanceName
       x-jdcloud-internal: true
       parameters:
@@ -134,13 +135,13 @@ paths:
             properties:
               instanceName:
                 type: string
-                description: "The instance name, which supports Chinese, and the specific rules for the instance name can be found in the Help Center documentation: [Name and Password Restrictions] (../../../documentation/Cloud-Database-and-Cache/RDS/Introduction/ Restrictions/SQLServer-Restrictions.md)""
+                description: "The instance name, which supports Chinese, and the specific rules for the instance name can be found in the Help Center documentation: [Name and Password Restrictions] (../../../documentation/Cloud-Database-and-Cache/RDS/Introduction/ Restrictions/SQLServer-Restrictions.md)"
       responses:
         200:
           description: "OK"
   "/instances/{instanceId}:failoverInstance": #RDS Instance Failover
     post:
-      description: "Perform a RDS Instance Failover. <br>Note: If the instance is being backed up, the failover will terminate the backup operation. You can view the start time of backup in the backup policy to see whether a backup is running. If you need to perform the failover during the instance backup, you are advised to perform a full instance backup manually<br>for SQL Server, within 30 minutes of failover, restore/create by time point is not supported. For example, the user performs the failover at 10:05, then the time period from 10:05 to 10:35 cannot be restored/created. <br>- Support SQL Server Only""
+      description: "Perform a RDS Instance Failover. <br>Note: If the instance is being backed up, the failover will terminate the backup operation. You can view the start time of backup in the backup policy to see whether a backup is running. If you need to perform the failover during the instance backup, you are advised to perform a full instance backup manually<br>for SQL Server, within 30 minutes of failover, restore/create by time point is not supported. For example, the user performs the failover at 10:05, then the time period from 10:05 to 10:35 cannot be restored/created. <br>- Support SQL Server Only"
       operationId: failoverInstance
       x-jdcloud-internal: true
       responses:
@@ -148,7 +149,7 @@ paths:
           description: "OK"
   "/instances/{instanceId}:rebootInstance": #Reboot RDS Instance
     post:
-      description: "Reboot the RDS instance. For example, after modifying some configuration parameters, you need to reboot the instance to take effect. You can combine the failover function to reboot the standby machine to reduce the impact on the service<br>**Note: If the instance is being backed up, rebooting the primary instance will terminate the backup operation. ** You can view the start time of backup in the backup policy to see whether a backup is running. If you need to reboot the primary instance during the instance backup, you are advised to perform a full instance backup manually after rebooting.""
+      description: "Reboot the RDS instance. For example, after modifying some configuration parameters, you need to reboot the instance to take effect. You can combine the failover function to reboot the standby machine to reduce the impact on the service<br>**Note: If the instance is being backed up, rebooting the primary instance will terminate the backup operation. ** You can view the start time of backup in the backup policy to see whether a backup is running. If you need to reboot the primary instance during the instance backup, you are advised to perform a full instance backup manually after rebooting."
       operationId: rebootInstance
       x-jdcloud-internal: true
       parameters:
@@ -198,7 +199,7 @@ paths:
           description: "OK"
   "/instances:createInstanceFromBackup": #Create a new instance based on the full backup of the source instance
     post:
-      description: "Creates a new instance based on the full backup of the source instance. The data of the new instance is the same as the data status of the source instance when the backup is created. <br>For example, create a new instance B according to a full backup "mybak" of source instance A. The backup is created in "2018-8-18 03:23:54". Then the data status of the new instance B is consistent with the status of the instance A'2018-8-18 03:23:54'<br>- only support MySQL"
+      description: "Creates a new instance based on the full backup of the source instance. The data of the new instance is the same as the data status of the source instance when the backup is created. <br>For example, create a new instance B according to a full backup 'mybak' of source instance A. The backup is created in '2018-8-18 03:23:54'. Then the data status of the new instance B is consistent with the status of the instance A'2018-8-18 03:23:54'<br>- only support MySQL"
       operationId: createInstanceFromBackup
       parameters:
         - name: backupId
@@ -216,7 +217,7 @@ paths:
           in: body
           description: "New Instance Type Created"
           schema:
-            $ref: ../model/RestoredNewDBInstanceSpec.yaml#/definitions/RestoredNewDBInstanceSpec"
+            $ref: "../model/RestoredNewDBInstanceSpec.yaml#/definitions/RestoredNewDBInstanceSpec"
       responses:
         200:
           description: "OK"
@@ -253,7 +254,7 @@ paths:
                     description: "Generated Order Number"
   "/instances/{instanceId}:createInstanceByTime":    #Create Instance Based on Time Points
     post:
-       description: "Create a new instance based on the source instance backup, and recover the data of the new instance to the same status as the data at the specified time point of the source instance by adding new logs. <br>For example, creating an instance B at the time point "2018-06-18 23:00:00" based on instance A means creating an instance B, of which the data is exactly the same as the data of instance A at the time point \"2018-06-18 23:00:00\". <br>For the SQL Server, recovery/creation by time point is not supported within 30 minutes after the primary/backup switchover. For example, if the user performs the primary/backup switchover at 10:05, recovery/creation by time point is unavailable during the time period from 10:05 to 10:35. <br>- only support MySQL"
+      description: "Create a new instance based on the source instance backup, and recover the data of the new instance to the same status as the data at the specified time point of the source instance by adding new logs. <br>For example, creating an instance B at the time point '2018-06-18 23:00:00' based on instance A means creating an instance B, of which the data is exactly the same as the data of instance A at the time point '2018-06-18 23:00:00'. <br>For the SQL Server, recovery/creation by time point is not supported within 30 minutes after the primary/backup switchover. For example, if the user performs the primary/backup switchover at 10:05, recovery/creation by time point is unavailable during the time period from 10:05 to 10:35. <br>- only support MySQL"
       operationId: createInstanceByTime
       parameters:
         - name: restoreTime
@@ -266,7 +267,7 @@ paths:
           in: body
           description: "New Instance Type Created"
           schema:
-            $ref: ../model/RestoredNewDBInstanceSpec.yaml#/definitions/RestoredNewDBInstanceSpec"
+            $ref: "../model/RestoredNewDBInstanceSpec.yaml#/definitions/RestoredNewDBInstanceSpec"
       responses:
         200:
           description: "OK"

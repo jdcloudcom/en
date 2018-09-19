@@ -2,7 +2,7 @@
 
 
 ## Description
-View domain name resolutions
+View Domain Name Resolutions
 
 ## Request method
 GET
@@ -18,9 +18,9 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domain/{domainId}/
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**domainName**|String|True||Domain name to be queried|
-|**end**|String|True||Termination time, UTC time, for example, 2017-11-10T23:00:00Z|
-|**start**|String|True||Start time, UTC time, for example, 2017-11-10T23:00:00Z|
+|**domainName**|String|True||Domain Name to be Queried|
+|**end**|String|True||Termination Time, UTC time, for example, 2017-11-10T23:00:00Z|
+|**start**|String|True||Start Time, UTC time, for example, 2017-11-10T23:00:00Z|
 
 
 ## Return parameter
@@ -30,11 +30,11 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domain/{domainId}/
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
-|**time**|Integer[]|Time series|
-|**traffic**|Integer[]|Data series|
+|**time**|Integer[]|Time Series|
+|**traffic**|Integer[]|Data Series|
 
 ## Return code
 |Return code|Description|

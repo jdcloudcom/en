@@ -2,7 +2,7 @@
 
 
 ## Description
-Policy details query
+Search Policy Details
 
 ## Request method
 GET
@@ -12,7 +12,7 @@ https://iam.jdcloud-api.com/v1/regions/{regionId}/permission/{permissionId}
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**permissionId**|Integer|True||Permission id error|
+|**permissionId**|Integer|True||Permission id|
 |**regionId**|String|True||Region ID|
 
 ## Request parameter
@@ -26,31 +26,31 @@ None
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
-|**permission**|Permission|Permission information|
-### <a name="Permission">Permission</a>
+|**permission**|Permission|Permission Information|
+### Permission
 |Name|Type|Description|
 |---|---|---|
-|**account**|String|Primary account pin|
-|**content**|String|Permission content|
+|**account**|String|Primary Account Pin|
+|**content**|String|Permission Content|
 |**description**|String|Description|
-|**id**|Integer|Permission id error|
-|**name**|String|Permission name|
-|**permissionDetailList**|PermissionDetail[]|Permission details|
-|**permissionType**|String|Permission type|
-|**version**|String|Permission revision number|
-### <a name="PermissionDetail">PermissionDetail</a>
+|**id**|Integer|Permission id|
+|**name**|String|Permission Name|
+|**permissionDetailList**|PermissionDetail[]|Permission Details|
+|**permissionType**|String|Permission Type|
+|**version**|String|Permission Version Number|
+### PermissionDetail
 |Name|Type|Description|
 |---|---|---|
-|**permission**|String|Permission type: Read-only-R, Delete-D, Modification-M|
-|**resource**|Resource[]|Resource information|
-### <a name="Resource">Resource</a>
+|**permission**|String|Permission Type: Read-only-R, Delete-D, Modification-M|
+|**resource**|Resource[]|Resource Information|
+### Resource
 |Name|Type|Description|
 |---|---|---|
-|**ids**|String[]|Resource id set, transmission * means that it is valid for all ids|
-|**type**|String|Resource type, virtual machine-server, Image-image, cloud disk-volume, vpc-vpc, public Ip-floatingIP, load balancer-loadbalance, cloud database (mysql)-database, cloud cache-cache|
+|**ids**|String[]|Resource id Set, transmission * means that it is valid for all ids|
+|**type**|String|Resource Type, Virtual Machine-server, Image-image, Cloud Disk-volume, vpc-vpc, Public Ip-floatingIP, Load Balancer-loadbalance, Cloud Database (mysql)-database, Cloud Cache-cache|
 
 ## Return code
 |Return code|Description|

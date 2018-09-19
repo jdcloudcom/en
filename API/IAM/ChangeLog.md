@@ -1,7 +1,7 @@
 # Update History #
-API revision: 0.1.0
+API Version: 0.1.0
 
-|Release Time|Revision Number| Update |Instructions|
+|Release Time|Version Number| Update |Instructions|
 |---|---|---|---|
-|2018-04-23|0.1.0|Initial version* IAM basic interface|
+|2018-04-23|0.1.0|Initial Version* IAM basic interface|
 

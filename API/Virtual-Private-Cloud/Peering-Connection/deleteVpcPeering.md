@@ -2,7 +2,7 @@
 
 
 ## Description
-Delete VpcPeering interface
+Delete VPCPeering Interface
 
 ## Request method
 DELETE

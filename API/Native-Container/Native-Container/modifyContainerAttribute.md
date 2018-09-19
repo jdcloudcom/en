@@ -20,7 +20,7 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/containers/{containerId}:modify
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**description**|String|False||Container description; the description must be specified|
-|**name**|String|False||Container name|
+|**name**|String|False||Container Name|
 
 
 ## Return parameter

@@ -25,11 +25,11 @@ None
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
 |**notification**|Notification||
-### <a name="Notification">Notification</a>
+### Notification
 |Name|Type|Description|
 |---|---|---|
 |**enabled**|Boolean|Whether to enable notifications|

@@ -28,7 +28,7 @@ None
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
 |**vncUrl**|String||
@@ -38,7 +38,7 @@ None
 |---|---|
 |**400**|Invalid parameter|
 |**401**|Authentication failed|
-|**404**|Not found|
+|**404**|Not found  |
 |**503**|Service unavailable|
 |**200**|OK|
 |**500**|Internal server error|

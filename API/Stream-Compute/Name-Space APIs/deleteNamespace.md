@@ -2,7 +2,7 @@
 
 
 ## Description
-Delete namespace; if there are other subordinate resources associated with it, it is not allowed to delete it
+Delete Namespace; if there are other subordinate resources associated with it, it is not allowed to delete it
 
 ## Request method
 DELETE
@@ -27,14 +27,14 @@ https://streamcompute.jdcloud-api.com/v1/regions/{regionId}/namespace
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
-|**status**|Boolean|Delete the namespace successful marker|
+|**status**|Boolean|Delete the Namespace Successful Marker|
 
 ## Return code
 |Return code|Description|
 |---|---|
 |**200**|OK|
-|**500**|INTERNAL_ERROR|
-|**400**|INTERNAL_ERROR|
+|**500**|INTERNAL_ERROR  |
+|**400**|INTERNAL_ERROR   |

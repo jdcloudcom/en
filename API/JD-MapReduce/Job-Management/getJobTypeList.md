@@ -27,10 +27,10 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/jobType:list
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
-|**data**|String[]|Returned job type list|
+|**data**|String[]|Returned Job Type List|
 |**message**|String||
 |**status**|String||
 

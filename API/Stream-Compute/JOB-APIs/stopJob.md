@@ -2,7 +2,7 @@
 
 
 ## Description
-Stop job running
+Stop Job Running
 
 ## Request method
 GET
@@ -28,13 +28,13 @@ https://streamcompute.jdcloud-api.com/v1/regions/{regionId}/job:stop
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
-|**message**|String|Returned information upon successfully enabling job|
+|**message**|String|Returned Information Upon Successfully Enabling Job|
 
 ## Return code
 |Return code|Description|
 |---|---|
 |**200**|OK|
-|**500**|INTERNAL_ERROR|
+|**500**|INTERNAL_ERROR      |

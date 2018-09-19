@@ -2,7 +2,7 @@
 
 
 ## Description
-Add or update job
+Add or Update Job
 
 ## Request method
 POST
@@ -17,9 +17,9 @@ https://streamcompute.jdcloud-api.com/v1/regions/{regionId}/job
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**jobStr**|JobStr|True||Details of creating job|
+|**jobStr**|JobStr|True||Details of Creating jJob|
 
-### <a name="JobStr">JobStr</a>
+### JobStr
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**appName**|String|False|||
@@ -45,14 +45,14 @@ https://streamcompute.jdcloud-api.com/v1/regions/{regionId}/job
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
-|**okInfo**|OkInfo|Successful result object|
-### <a name="OkInfo">OkInfo</a>
+|**okInfo**|OkInfo|Successful Result Object|
+### OkInfo
 |Name|Type|Description|
 |---|---|---|
-|**message**|String|Status information|
+|**message**|String|Status Information|
 |**status**|Boolean||
 
 ## Return code

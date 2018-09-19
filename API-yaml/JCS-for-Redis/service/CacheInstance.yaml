@@ -10,7 +10,7 @@ paths:
   "/cacheInstance":
     ###################### Create JCS for Redis APIs ######################
     post:
-      description: "|"
+      description: |
         Create JCS for Redis Instance of the Specified Configuration
         Specification Performance: The specifications for creating the JCS for Redis instance are divided into two versions: principal-subordinate version and cluster version. Each specification has the maximum number of connections, the internal network bandwidth cap, CPU processing capacity, specification code and other information, please see: <a href="https://www.jdcloud.com/help/detail/411/ isCatalog/1">instance type code</a>
         Availability Zone: Available zone is a physical zone in which the infrastructure such as power and network are independent of each other in the same region. A zone contains one or more availability zones, and multiple availability zones in the same region can be connected to each other. Detailed information on the geographical availability zone can be found: <a href="https://www.jdcloud.com/help/detail/2222/isCatalog/1">Regional availability zone details</a>
@@ -64,7 +64,7 @@ paths:
           type: array
           items:
             $ref: "../../common/model/Filter.yaml#/definitions/filter"
-          description: "|"
+          description: |
             cacheInstanceId -cache instance Id can be matched exactly and support multiple
             cacheInstanceName -cache instance name is matched fuzzily and support for a single
             cacheInstanceStatus -the status of cache instance is matched exactly, and support multiple (running: run, error: error, creating: pending, changing: changing, deleting: deleting)
@@ -73,7 +73,7 @@ paths:
           type: array
           items:
             $ref: "../../common/model/Sort.yaml#/definitions/sort"
-          description: "|"
+          description: |
             createTime - Create Time (asc: Positive Order, desc: Inverted Order)
       responses:
         200:
@@ -142,7 +142,7 @@ paths:
     
     ###################### Delete JCS for Redis APIs######################
     delete:
-      description: "|"
+      description: |
         Delete a single JCS for Redis instance that is paid by configuration billing or the monthly package has expired and the monthly package that has not expired cannot be deleted
         Only in the running<b>running</b>or error<b>error</b>status can be deleted, but other status cannot be deleted
         The user in the White List cannot delete the virtual machine that the monthly package has expired
@@ -159,7 +159,7 @@ paths:
   "/cacheInstance/{cacheInstanceId}:modifyCacheInstanceClass":
     ###################### Change JCS for Redis Configuration ######################
     post:
-      description: "|"
+      description: |
         Changing the configuration of the JCS for Redis instance can only change the instance configuration in the running status and the specification of the changed configuration cannot be the same as the previous one
         Pay-in-advance users, from the cluster version to the principal/subordinate version, the memory size of the new specification is larger than the old size of the memory size, from the principal/subordinate version to the cluster version, the memory size of the new specification is no less than the memory size of the old specification
       operationId: modifyCacheInstanceClass
@@ -168,7 +168,7 @@ paths:
           in: query
           required: true
           type: string
-          description: "'The modified JCS for Redis type after the change, see: <a href="https://www.jdcloud.com/help/detail/411/isCatalog/1">instance type code</a>"
+          description: "The modified JCS for Redis type after the change, see: <a href='https://www.jdcloud.com/help/detail/411/isCatalog/1'>instance type code</a>"
       responses:
         200:
           description: "OK"
@@ -365,7 +365,7 @@ paths:
           in: query
           required: true
           type: string
-          description: "|"
+          description: |
             Backup Period: Including
             Monday，Tuesday，Wednesday，Thursday，Friday，Saturday，Sunday
       responses:

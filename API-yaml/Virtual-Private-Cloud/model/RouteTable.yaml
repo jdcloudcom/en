@@ -13,7 +13,8 @@ definitions:
       routeTableType:
         type: string
         description: "Route Table Type, Default: default route table, Custom: customized route table"
-      description: "type: string"
+      description:
+        type: string
         description: "Route table description information, all characters allowed to enter under UTF-8 coding, which is not exceed 256 characters."
       vpcId:
         type: string

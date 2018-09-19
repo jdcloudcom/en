@@ -1,11 +1,11 @@
 # Update History #
-API revision: 1.1.1
+API Version: 1.1.1
 
-|Release Time|Revision Number| Update |Instructions|
+|Release Time|Version Number| Update |Instructions|
 |---|---|---|---|
-|2018-07-29|1.1.1 |Modify API document|| 
+|2018-07-29|1.1.1 |Modify API Document|| 
 |2018-07-29|1.1.0|Add customized metric monitoring|* putMetricData Add report API for customized metric monitoring|
-|2018-05-09|0.4.1|Modify API|* lastDownsample Add tags fields at the API, customized tag|
+|2018-05-09|0.4.1|Modify API|* lastDownsample adds tags fields at the API, customized tag|
 |2018-05-09|0.4.0|Add API|* View the last point API at certain resource|
 |2018-05-08|0.3.2|Modify API document|* Perfect serviceCode parameter instructions|
 |2018-05-02|0.3.1|Modify API|*View monitoring data of certain resource Add tags fields at the API|

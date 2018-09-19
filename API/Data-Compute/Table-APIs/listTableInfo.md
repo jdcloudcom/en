@@ -17,8 +17,8 @@ https://xdata.jdcloud-api.com/v1/regions/{regionId}/dwTable
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**databaseName**|String|True||Database name|
-|**instanceName**|String|True||Instance name|
+|**databaseName**|String|True||Database Name|
+|**instanceName**|String|True||Instance Name|
 
 
 ## Return parameter
@@ -28,44 +28,44 @@ https://xdata.jdcloud-api.com/v1/regions/{regionId}/dwTable
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
 |**data**|DwTable[]||
 |**message**|String||
 |**status**|Boolean||
-### <a name="DwTable">DwTable</a>
+### DwTable
 |Name|Type|Description|
 |---|---|---|
 |**category**|String|Category|
-|**comments**|String|Description information|
-|**createTime**|String|Creation time|
-|**dbName**|String|Database name|
+|**comments**|String|Description  Information|
+|**createTime**|String|Creation Time|
+|**dbName**|String|Database Name|
 |**encryption**|String|Is it encrypted or not|
-|**hiveFileFormat**|String|File storage type|
-|**hiveObjectPrivileges**|DwHiveObjectPrivileges|hive table permission information|
+|**hiveFileFormat**|String|File Storage Type|
+|**hiveObjectPrivileges**|DwHiveObjectPrivileges|Hive Table Permission Information|
 |**id**|Integer|Database id|
-|**lastUpdateTime**|String|Last update time|
+|**lastUpdateTime**|String|Last Update Time|
 |**location**|String|Location|
 |**owner**|String|Owner|
 |**parameters**|Object|Parameter|
-|**physicalStorageCapacity**|String|Physical storage|
+|**physicalStorageCapacity**|String|Physical Storage|
 |**source**|String|Source|
-|**tableName**|String|Table name|
-|**userName**|String|User name|
-### <a name="DwHiveObjectPrivileges">DwHiveObjectPrivileges</a>
+|**tableName**|String|Table Name|
+|**userName**|String|User Name|
+### DwHiveObjectPrivileges
 |Name|Type|Description|
 |---|---|---|
-|**alter**|Boolean|alter permission|
-|**create**|Boolean|create permission|
-|**delete**|Boolean|delete permission|
-|**drop**|Boolean|drop permission|
-|**insert**|Boolean|insert permission|
-|**message**|String|Return information|
+|**alter**|Boolean|Alter Permission|
+|**create**|Boolean|Create Permission|
+|**delete**|Boolean|Delete Permission|
+|**drop**|Boolean|Drop Permission|
+|**insert**|Boolean|Insert Permission|
+|**message**|String|Return Information|
 |**owner**|Boolean|Is it the owner or not|
-|**select**|Boolean|select permission|
+|**select**|Boolean|Select Permission|
 |**status**|Boolean|Status|
-|**update**|Boolean|update permission|
+|**update**|Boolean|Update Permission|
 
 ## Return code
 |Return code|Description|

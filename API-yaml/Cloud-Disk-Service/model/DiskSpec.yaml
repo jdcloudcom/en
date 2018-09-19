@@ -14,7 +14,8 @@ definitions:
       name:
         type: string
         description: "Name of the Cloud Disk"
-      description: "type: string"
+      description: 
+        type: string
         description: "Description of the Cloud Disk"
       diskType:
         type: string

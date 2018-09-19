@@ -12,13 +12,13 @@ https://baseanti.jdcloud-api.com/v1/regions/{regionId}/ipResources
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**ip**|String|True||EIP address|
-|**regionId**|String|True||Belonging region ID|
+|**ip**|String|True||EIP Address|
+|**regionId**|String|True||Belonging Region ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**ip**|String|False||IP fuzzy matching|
+|**ip**|String|False||IP Fuzzy Matching|
 
 
 ## Return parameter
@@ -28,17 +28,17 @@ https://baseanti.jdcloud-api.com/v1/regions/{regionId}/ipResources
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
 |**dataList**|IpResource[]||
 |**totalCount**|Integer||
-### <a name="IpResource">IpResource</a>
+### IpResource
 |Name|Type|Description|
 |---|---|---|
-|**bandwidth**|Integer|Bandwidth cap, unit: Mbps|
-|**ip**|String|EIP address|
-|**safeStatus**|Integer|Security status, 0->safe  1->clean  2->black hole|
+|**bandwidth**|Integer|Bandwidth Cap, Unit: Mbps|
+|**ip**|String|EIP Address|
+|**safeStatus**|Integer|Security Status, 0->Safe  1->Clean  2-Black Hole|
 
 ## Return code
 |Return code|Description|

@@ -52,7 +52,8 @@ definitions:
       deviceIndex:
         type: integer
         description: "Device Reference Number of Network Interface on the Instance. Value Range: [0,8], 0: secondary network interface doesn't associate device, 1: primary network interface, 2-8: secondary network interface has associated device"
-      description: "type: string"
+      description: 
+        type: string
         description: "Network Interface Description Information"
       createdTime:
         type: string

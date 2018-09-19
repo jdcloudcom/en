@@ -2,7 +2,7 @@
 
 
 ## Description
-Detailed data of service survival status monitoring
+Detailed Data of Service Survival Status Monitoring
 
 ## Request method
 POST
@@ -18,7 +18,7 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/monitorDetails
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**clusterId**|String|True||Cluster ID|
-|**service**|String|True||Service name, such as HADOOP|
+|**service**|String|True||Service Name, such as HADOOP|
 
 
 ## Return parameter
@@ -28,7 +28,7 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/monitorDetails
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
 |**data**|String[]||

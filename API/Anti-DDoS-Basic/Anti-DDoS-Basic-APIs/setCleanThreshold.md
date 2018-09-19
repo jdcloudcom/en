@@ -12,19 +12,19 @@ https://baseanti.jdcloud-api.com/v1/regions/{regionId}/ipResources/{ip}:setClean
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**ip**|String|True||EIP address|
-|**regionId**|String|True||Belonging region ID|
+|**ip**|String|True||EIP Address|
+|**regionId**|String|True||Belonging Region ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**cleanThresholdSpec**|CleanThresholdSpec|True||cc parameter|
+|**cleanThresholdSpec**|CleanThresholdSpec|True||cc Parameter|
 
-### <a name="CleanThresholdSpec">CleanThresholdSpec</a>
+### CleanThresholdSpec
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**cleanThresholdBps**|Integer|False||Traffic rate of trigger cleaning, unit: bps, with the range from 10000000 to 300000000|
-|**cleanThresholdPps**|Integer|False||Package rate of trigger cleaning, unit: pps, with the range from 2000 to 70000|
+|**cleanThresholdBps**|Integer|False||Traffic Rate of Trigger Cleaning, Unit: bps, Ranging from 10000000 to 300000000|
+|**cleanThresholdPps**|Integer|False||Package Rate of Trigger Cleaning, Unit: pps, Ranging from 2000 to 70000|
 
 ## Return parameter
 |Name|Type|Description|

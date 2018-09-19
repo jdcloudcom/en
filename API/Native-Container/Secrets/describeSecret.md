@@ -27,24 +27,24 @@ None
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
 |**secret**|Secret||
-### <a name="Secret">Secret</a>
+### Secret
 |Name|Type|Description|
 |---|---|---|
-|**createdAt**|String|Creation time|
-|**data**|DockerRegistryData|Confidential data|
-|**name**|String|Confidential data name|
+|**createdAt**|String|Creation Time|
+|**data**|DockerRegistryData|Confidential Data|
+|**name**|String|Confidential Data Name|
 |**type**|String|Now, only the following private data type is supported: docker-registry, which is the docker registry verification type.|
-### <a name="DockerRegistryData">DockerRegistryData</a>
+### DockerRegistryData
 |Name|Type|Description|
 |---|---|---|
-|**email**|String|Email address|
-|**password**|String|Password|
-|**server**|String|registry server address|
-|**username**|String|User name|
+|**email**|String|Email Address|
+|**password**|String|Password |
+|**server**|String|Registry Server Address|
+|**username**|String|User Name|
 
 ## Return code
 |Return code|Description|

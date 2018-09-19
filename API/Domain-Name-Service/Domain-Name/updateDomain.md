@@ -17,8 +17,8 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domainUpdate
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**domainName**|String|True||Domain name to be modified|
-|**id**|Integer|True||Domain name ID to be modified|
+|**domainName**|String|True||Domain Name to be Modified|
+|**id**|Integer|True||Domain Name ID to be Modified|
 
 
 ## Return parameter
@@ -28,18 +28,18 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domainUpdate
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
-|**updateDomain**|Domain|Domain name structure after modification|
-### <a name="Domain">Domain</a>
+|**updateDomain**|Domain|Domain Name Structure after Modification|
+### Domain
 |Name|Type|Description|
 |---|---|---|
-|**createTime**|Integer|Creation time, format Unix timestamp|
+|**createTime**|Integer|Creation Time, Format Unix Timestamp |
 |**domainName**|String|Domain Name String|
-|**expirationDate**|Integer|Expiration time, format Unix timestamp|
-|**id**|Integer|Unique ID of the domain name|
-|**packId**|Integer|Package type, 0->free 1->Enterprise Edition 2->Advanced Edition|
+|**expirationDate**|Integer|Expiration Time, Format Unix Timestamp|
+|**id**|Integer|Unique ID of the Domain Name|
+|**packId**|Integer|Package Type, 0->Free 1->Enterprise Edition 2->Advanced Edition|
 
 ## Return code
 |Return code|Description|

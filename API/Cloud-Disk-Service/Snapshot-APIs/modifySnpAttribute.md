@@ -2,7 +2,7 @@
 
 
 ## Description
-Modify the name or description of the snapshot
+Modify the Name or Description of the Snapshot
 
 ## Request method
 PATCH
@@ -18,7 +18,7 @@ https://disk.jdcloud-api.com/v1/regions/{regionId}/snapshots/{snapshotId}
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**description**|String|False||Snapshot description. Name or description must be specified|
+|**description**|String|False||Snapshot Description. Name or description must be specified|
 |**name**|String|False||Snapshot Name|
 
 

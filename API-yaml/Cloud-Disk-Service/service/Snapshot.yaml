@@ -37,7 +37,7 @@ paths:
           type: array
           items:
             $ref: "../../common/model/Filter.yaml#/definitions/filter"
-          description: "|"
+          description: |
             snapshotId - Cloud Disk Snapshot ID, Support Multiple
             diskId - the Cloud Disk ID of the Snapshot to be Generated, Support Multiple
             status - snapshot status, accurate match, support multiple, creating, available, in-use, deleting, error_create or error_delete
@@ -75,7 +75,7 @@ paths:
    ###################### API for Cloud Disk Snapshot Creation ######################
     post:
       summary: "Create a Cloud Disk Snapshot"
-      description: "|"
+      description: |
         -   Create a snapshot for the specified Cloud Disk, and the status of the newly generated snapshot is creating.
         -   The quota for single-user snapshots in the same region is 15.
         -   To ensure data integrity, please stop writing to the Cloud Disk before creating a snapshot to ensure the integrity of snapshot data.
@@ -156,7 +156,7 @@ paths:
    ###################### API for Cloud Disk Snapshot Deletion ######################
       delete:
         summary: "Delete a Cloud Disk snapshot"
-        description: "|"
+        description: |
           -   Delete a single Cloud Disk snapshot: The snapshot status must be available or error status.
           -   The snapshot is independent from life cycle of the Cloud Disk. Deleting a snapshot does not have any effect on the Cloud Disk that created the snapshot.
           -   After the snapshot is deleted, it cannot be recovered. Please be cautious.

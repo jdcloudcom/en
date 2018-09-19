@@ -20,23 +20,23 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/job:execute
 |**clusterId**|String|True||Cluster ID|
 |**jmrTaskViewModel**|JmrTaskViewModel|True||"Required parameters: jobId, planId, workflowId and workflowInstanceId"<br>|
 
-### <a name="JmrTaskViewModel">JmrTaskViewModel</a>
+### JmrTaskViewModel
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**dataCenter**|String|False||Data center, i.e. regionId|
-|**duration**|String|False||Time of duration|
-|**endTime**|String|False||End time|
+|**dataCenter**|String|False||Data Center, i.e. regionId|
+|**duration**|String|False||Time of Duration|
+|**endTime**|String|False||End Time|
 |**id**|Integer|False|||
 |**jobId**|String|False|||
 |**planId**|String|False|||
-|**startTime**|String|False||Start time|
+|**startTime**|String|False||Start Time|
 |**status**|String|False||Status|
-|**taskId**|String|False||Job Id|
-|**taskName**|String|False||Job name|
-|**taskType**|String|False||Job type|
-|**userpin**|String|False||User name|
+|**taskId**|String|False||Job ID|
+|**taskName**|String|False||Job Name|
+|**taskType**|String|False||Job Type|
+|**userpin**|String|False||User Name|
 |**workflowId**|String|False||Workflow Id|
-|**workflowInstanceId**|String|False||Workflow instance Id|
+|**workflowInstanceId**|String|False||Workflow Instance ID|
 
 ## Return parameter
 |Name|Type|Description|
@@ -45,7 +45,7 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/job:execute
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
 |**data**|String||

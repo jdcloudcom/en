@@ -2,7 +2,7 @@
 
 
 ## Description
-Delete consumerGroupName
+Delete ConsumerGroupName
 
 ## Request method
 DELETE
@@ -17,7 +17,7 @@ https://streambus.jdcloud-api.com/v1/regions/{regionId}/consumerGroup
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**consumerGroupId**|Integer|True||Consumer group ID|
+|**consumerGroupId**|Integer|True||Consumer Group ID|
 |**topicId**|Integer|True||Subject ID|
 
 
@@ -28,7 +28,7 @@ https://streambus.jdcloud-api.com/v1/regions/{regionId}/consumerGroup
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
 |**message**|String||

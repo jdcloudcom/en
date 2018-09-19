@@ -191,7 +191,7 @@ paths:
                            type: array
                            items:
                              $ref: "../model/SchedulerWorkflowTracker.yaml#/definitions/schedulerWorkflowTracker"
-                       description: "|"
+                       description: |
                                     "Include workflow list - workFlowTrackerList"
                                     "And list size - totalNum"
                  requestId:

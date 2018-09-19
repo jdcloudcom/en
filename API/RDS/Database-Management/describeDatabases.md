@@ -8,7 +8,7 @@ Obtain a list of all database details for the current instance
 GET
 
 ## Request address
-https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/databases
+https://rds.jdcloud-api.com/0.2.9/regions/{regionId}/instances/{instanceId}/databases
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
@@ -27,18 +27,18 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/databas
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
 |**databases**|Database[]||
-### <a name="Database">Database</a>
+### Database
 |Name|Type|Description|
 |---|---|---|
 |**accessPrivilege**|DBAccessPrivilege[]|List of Database Related Account Privilege|
 |**characterSetName**|String|Character set, detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)|
 |**dbName**|String|Database name with specific rules detailed in the Help Center Documentation: [Name and Password Restrictions](../../../documentation/Cloud-Database-and-Cache/RDS/Introduction/Restrictions/SQLServer-Restrictions.md)|
 |**dbStatus**|String|Database status, detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)- **MySQL: Not support, not return this field**- **SQL Server: return this field**|
-### <a name="DBAccessPrivilege">DBAccessPrivilege</a>
+### DBAccessPrivilege
 |Name|Type|Description|
 |---|---|---|
 |**accountName**|String|Account Name|

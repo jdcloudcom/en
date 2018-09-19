@@ -2,7 +2,7 @@
 
 
 ## Description
-Modify Instance Access Whitelist
+Modify Instance Access White List
 
 ## Request method
 POST
@@ -18,8 +18,8 @@ https://mongodb.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/sec
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**modifyMode**|String|True||Modification method, Add adds whitelist, Delete deletes whitelist.|
-|**securityIps**|String|True||IP list under the IP whitelist group, up to 45 separated by commas, in the following format: 0.0.0.0/0, 10.23.12.24 (IP), or 10.23.12.24/24 (CIDR mode, classless inter-domain routing, /24 indicates the length of the prefix in the address; range [1, 32]).|
+|**modifyMode**|String|True||Modification Method, Add adds White List, Delete deletes White List.|
+|**securityIps**|String|True||IP list under the IP White List group, up to 45 separated by commas, in the following format: 0.0.0.0/0, 10.23.12.24 (IP), or 10.23.12.24/24 (CIDR mode, classless inter-domain routing, /24 indicates the length of the prefix in the address; range [1, 32]).|
 
 
 ## Return parameter

@@ -12,7 +12,7 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/job/{jobId}:delete
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**jobId**|String|True||Job Id to be deleted|
+|**jobId**|String|True||Job Id to be Deleted|
 |**regionId**|String|True||Region ID|
 
 ## Request parameter
@@ -27,7 +27,7 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/job/{jobId}:delete
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
 |**message**|String||

@@ -20,5 +20,6 @@ definitions:
       addressPrefix:
         type: string
         description: "Prefix of Security Group Rule. Value Range: correct CIDR        "
-      description: "type: string"
+      description:
+        type: string
         description: "Security Group Rule Description. Value Range: 0-256 of all characters entered under UTF-8 coding"

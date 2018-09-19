@@ -1,8 +1,8 @@
-# Data Computing Service API
+# Data Compute Service API
 
 
 ## Introduction
-Data computing service APIs
+Data Compute service APIs
 
 
 ### Version

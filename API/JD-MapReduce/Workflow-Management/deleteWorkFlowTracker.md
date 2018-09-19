@@ -27,7 +27,7 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/tracker/{trackerId}:delet
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
 |**message**|String||

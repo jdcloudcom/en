@@ -2,7 +2,7 @@
 
 
 ## Description
-Query the details of assigned job
+Query the Details of Assigned Job
 
 ## Request method
 GET
@@ -28,11 +28,11 @@ https://streamcompute.jdcloud-api.com/v1/regions/{regionId}/job
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
 |**jobStr**|JobStr||
-### <a name="JobStr">JobStr</a>
+### JobStr
 |Name|Type|Description|
 |---|---|---|
 |**appName**|String||

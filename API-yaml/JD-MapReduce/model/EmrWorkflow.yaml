@@ -32,12 +32,12 @@ definitions:
         description: "Last Time of Modification"
       isSelfDependence:
         type: boolean
-        description: "|"
+        description: |
                 "Whether it is self-dependent"
                 "1: Self-dependent (default), 0: Non-dependent"
       taskScheduleType:
         type: integer
-        description: "|"
+        description: |
                 "0: Real-time Task (default)"
                 "1: Periodic Task"
                 "2: Regular Task"

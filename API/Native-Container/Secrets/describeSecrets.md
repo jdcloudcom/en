@@ -2,7 +2,7 @@
 
 
 ## Description
-Search secret lists. <br>
+Search secret list. <br> 
 This interface supports query in pages, with 20 entries per page by default.
 
 
@@ -23,12 +23,12 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/secrets
 |**pageNumber**|Integer|False||Page number; 1 by default|
 |**pageSize**|Integer|False||Page size; it is 20 by default; value range[10, 100]|
 
-### <a name="Filter">Filter</a>
+### Filter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**name**|String|True||Name of filter requirements|
+|**name**|String|True||Name of Filter Requirements|
 |**operator**|String|False||Operator of filter requirements is eq by default|
-|**values**|String[]|True||Value of filter requirements|
+|**values**|String[]|True||Value of Filter Requirements|
 
 ## Return parameter
 |Name|Type|Description|
@@ -37,25 +37,25 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/secrets
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
 |**secrets**|Secret[]||
 |**totalCount**|Number||
-### <a name="Secret">Secret</a>
+### Secret
 |Name|Type|Description|
 |---|---|---|
-|**createdAt**|String|Creation time|
-|**data**|DockerRegistryData|Confidential data|
-|**name**|String|Confidential data name|
+|**createdAt**|String|Creation Time|
+|**data**|DockerRegistryData|Confidential Data|
+|**name**|String|Confidential Data Name|
 |**type**|String|Now, only the following private data type is supported: docker-registry, which is the docker registry verification type.|
-### <a name="DockerRegistryData">DockerRegistryData</a>
+### DockerRegistryData
 |Name|Type|Description|
 |---|---|---|
-|**email**|String|Email address|
-|**password**|String|Password|
-|**server**|String|registry server address|
-|**username**|String|User name|
+|**email**|String|Email Address|
+|**password**|String|Password |
+|**server**|String|Registry Server Address|
+|**username**|String|User Name|
 
 ## Return code
 |Return code|Description|

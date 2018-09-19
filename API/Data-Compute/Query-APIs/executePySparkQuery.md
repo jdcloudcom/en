@@ -17,11 +17,11 @@ https://xdata.jdcloud-api.com/v1/regions/{regionId}/dwQuery:executePySparkQuery
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**instanceName**|String|True||Instance name|
-|**instanceOwnerName**|String|False||Instance owner name|
-|**script**|String|True||PySpark script|
-|**scriptType**|String|False||Script type name|
-|**userName**|String|True||User name|
+|**instanceName**|String|True||Instance Name|
+|**instanceOwnerName**|String|False||Instance Owner Name|
+|**script**|String|True||PySpark Script|
+|**scriptType**|String|False||Script Type Name|
+|**userName**|String|True||User Name|
 
 
 ## Return parameter
@@ -31,7 +31,7 @@ https://xdata.jdcloud-api.com/v1/regions/{regionId}/dwQuery:executePySparkQuery
 |**result**|Result||
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
 |**data**|Integer||

@@ -22,10 +22,10 @@ v1
 |**describeBackups**|GET|View Backup|
 |**describeFlavors**|GET|Get Type|
 |**describeInstances**|GET|Query Instance Information|
-|**describeSecurityIps**|GET|Query Instance Access Whitelist|
+|**describeSecurityIps**|GET|Query Instance Access White List|
 |**modifyBackupPolicy**|POST|Modify Backup Policy|
 |**modifyInstanceName**|POST|Modify Instance Name|
 |**modifyInstanceSpec**|POST|Change Instance Type|
-|**modifySecurityIps**|POST|Modify Instance Access Whitelist|
-|**resetPassword**|POST||
+|**modifySecurityIps**|POST|Modify Instance Access White List|
+|**resetPassword**|POST|Reset Password|
 |**restoreInstance**|POST|Data Recovery|
