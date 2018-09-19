@@ -1,5 +1,5 @@
 JD Cloud Console
 Console-Overview Page
 Console-Browser Upgrade Notification
-Console-No Permission Notification
-Console-System under maintenance
+Console-No-access Notification
+Console-System Maintaining
