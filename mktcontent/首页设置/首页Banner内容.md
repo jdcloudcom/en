@@ -623,22 +623,22 @@
 		"main_title":"JCS for MariaDB"
 	},
 	{
-		"sub_title":"Hosted Service based on Reliable Power and Network with T3+ Quality Server Room",
+		"sub_title":"Hosted Service based on Reliable Power-supply and Network with T3+ Quality Server Room. Cloud Cabinet Service Announce Public Preview",
 		"image_Url":"//img1.jcloudcs.com/cms/4ebeffae-a1b0-40f6-b54f-01576a83db2720180830190526.png",
 		"dynamic_image":"//img1.jcloudcs.com/cms/cdd9c18a-d258-4814-b03c-9d08240281d220180830190530.png",
-		"name":"Cloud Cabinet Service in Beta",
+		"name":"Cloud Cabinet Service",
 		"id":"107",
 		"button_title":"More",
-		"main_title":"Cloud Cabinet Service in Beta"
+		"main_title":"Cloud Cabinet Service"
 	},
 	{
 		"sub_title":"Provides Compliant Protection for VPC Boundary and Internal Web Security with High Performance Resources and Exclusive WAF",
 		"image_Url":"//img1.jcloudcs.com/cms/52d0f88c-9469-4813-a56b-fdf44ef6ed6720180830191256.png",
 		"dynamic_image":"//img1.jcloudcs.com/cms/adb81821-34a8-4187-a9cb-0bcf67839b0520180830191301.png",
-		"name":"Application Security Gateway Goes Online",
+		"name":"App Security Gateway",
 		"id":"108",
 		"button_title":"More",
-		"main_title":"Application Security Gateway Goes Online"
+		"main_title":"App Security Gateway"
 	},
 	{
 		"dynamic_image":"//img1.jcloudcs.com/cms/b2446640-69c6-42eb-b66c-8dde8e9d237020180831153207.png",
