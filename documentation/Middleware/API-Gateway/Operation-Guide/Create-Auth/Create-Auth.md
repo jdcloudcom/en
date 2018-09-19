@@ -27,7 +27,7 @@ Below, it will be explained in two parts:
 
 ### API provider authorizes the API group to API caller
 
-#### STEP1: API provider obtains the Access Key ID of API caller or the Access Key of JD Cloud account.
+#### STEP1: API provider obtains the Access Key ID of API caller .
 
 API caller can find the access key ID in the access key details page and tell this ID to API provider.
 
@@ -35,9 +35,6 @@ API caller can find the access key ID in the access key details page and tell th
 ![Access Key details page](../../../../../image/Internet-Middleware/API-Gateway/fwmy-xqy.png)
  
  
- API caller can request the authorized calling through AK (Access Key) method of JD Cloud. Specifically, the caller can redefine or select an AK in the Access Key management page and tell this AK to API provider.
-
-![AK List](../../../../../image/Internet-Middleware/API-Gateway/AK-list.png)
  
 
  
