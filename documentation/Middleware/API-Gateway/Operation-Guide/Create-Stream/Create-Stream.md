@@ -20,17 +20,17 @@ You need to select Region which can not be changed once selected and can only be
 
 1. Click the **Traffic Control Policy** at left menu to enter the page of traffic control policy list to configure and associate the policy.
 
-![Traffic control policy list page](https://github.com/jdcloudcom/en/blob/edit/image/Internet-Middleware/API-Gateway/lkcl-list.png)
+![Traffic control policy list page](../../../../../image/Internet-Middleware/API-Gateway/lkcl-list.png)
 
 
 2. Add new traffic control policy
 
-![Add new policy](https://github.com/jdcloudcom/en/blob/edit/image/Internet-Middleware/API-Gateway/lkcl-add.png)
+![Add new policy](../../../../../image/Internet-Middleware/API-Gateway/lkcl-add.png)
 
 
 3. Associate the policy to group
 
-![Associate policy](https://github.com/jdcloudcom/en/blob/edit/image/Internet-Middleware/API-Gateway/lkcl-bd.png)
+![Associate policy](../../../../../image/Internet-Middleware/API-Gateway/lkcl-bd.png)
 
 
 
