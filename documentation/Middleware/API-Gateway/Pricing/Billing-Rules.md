@@ -4,15 +4,9 @@
 
 For more information refer to:
 
-- [Pay-In-Advance billing instructions](https://www.jdcloud.com/help/detail/1392/isCatalog/1).
+- [Pay-As-You-Go billing instructions](../../../Finance/Billing/Billing-method/Postpay.md)。
 
-- [Pay-As-You-Go billing instructions](https://www.jdcloud.com/help/detail/1393/isCatalog/1).
-
-- [Bill explanation](https://www.jdcloud.com/help/detail/1397/isCatalog/1).	
-
-
-	
-
+- [Bill explanation](../../../Finance/Billing/Bill/Purchases-overview.md)。	
 
 	
 
