@@ -16,9 +16,9 @@ Instance template defines the configuration information of VM instances of Avail
 
 ### Creation Steps
 
-1. Access to [Instance Template Console](https://cns-console.jdcloud.com/host/launchtemplate/list) to go to the Instance Listing page. Or visit [JD Cloud Console](https://console.jdcloud.com) and click 【Elastic Compute】-【Virtual Machine】-【Instance Template】 in left guide bar to go to the Instance Template Listing page.
+1. Access to [Instance Template Console](https://cns-console.jdcloud.com/host/launchtemplate/list) to go to the Instance Listing page. Or visit [JD Cloud Console](https://console.jdcloud.com) and click **Elastic Compute**-**Virtual Machine**-**Instance Template** in left guide bar to go to the Instance Template Listing page.
 2. Choose region
-3. Click 【Create】 to go to the Instance Template Creation page
+3. Click **Create** to go to the Instance Template Creation page
 4. Select Regions: This step allows you to choose the responding region for new instance template. Please note that cross-region use of instance template is not allowed. For instance, cn-south-1 instance template cannot be used to create cn-north-1 VM. If the number of the selected region has reached its quota limit, you can open ticket to increase the quota.
 5. Set up the name and description of instance template
 6. Choose image:
@@ -108,27 +108,27 @@ Instance template is provided for free. On the right page you will see the confi
 
 Availability Group is a highly available service deployment solution provided by JD Cloud, which integrates the logic set of computation resources. It provides a mechanism where units in central data can be evenly allocated across the multiple fault domains and instances are scattered over the isolated physical devices. When there is a hardware fault or at the period of time-bound maintenance, only part of instances will be affected and your service remains in available state.
 
-1. Access[High Availability Groups Console](https://cns-console.jdcloud.com/availabilitygroup/list) to enter the Availability Groups List page. Or access[JD Cloud Console](https://console.jdcloud.com) and then click on the left navigation bar 【Elastic Compute】-【High Availability Groups】 to enter the Availability Groups List page.
+1. Access[High Availability Groups Console](https://cns-console.jdcloud.com/availabilitygroup/list) to enter the Availability Groups List page. Or access[JD Cloud Console](https://console.jdcloud.com) and then click on the left navigation bar **Elastic Compute**-**High Availability Groups** to enter the Availability Groups List page.
 2. Choose region
-3. Click 【Create】 to go to the Availability Group Creation page.
+3. Click **Create** to go to the Availability Group Creation page.
 4. Select Regions: At this step, you are able to choose the corresponding region for new Availability Group. If the number of the selected region has reached its quota limit, you can open ticket to increase the quota.
 5. Set up the attribute of the Availability Zone of the Availability Group. In order to ensure the best service availability, we recommend you choose multiple Availability Zones. VMs in the Availability Group will be allocated evenly, so as to reduce the influence to your service in case of a single failure in the Availability Zone.
 6. Set up a name and description for Availability Group, e.g.: High Availability Group for Web Services.
 7. Select instance template. A drop down box will show a list of satisfied instance templates. Please remember to choose the instance template configured with second generation VM specification. Please choose herein the “Instance Template of Web service” created in previous step.
-8. Click the 【OK】 to trigger the creation of Availability Group. You can see the Availability Group created successfully on the Availability Group Listing page.
+8. Click the **OK** to trigger the creation of Availability Group. You can see the Availability Group created successfully on the Availability Group Listing page.
 
 ## Step 3: Add new VM
 
 When you choose to use Availability Group to deploy service, new VM Instance shall be added to the Availability Group. As Availability Group does not support the adding of established instances, all added instances are newly created instances. Real-name Verification is required at the time of instance creation. If VM you created is Pay By Configuration, you must ensure that the Account Balance plus Coupon exceeds CNY 50.
 
-1. Access[High Availability Groups Console](https://cns-console.jdcloud.com/availabilitygroup/list) to enter the Availability Groups List page. Or access[JD Cloud Console](https://console.jdcloud.com) and then click on the left navigation bar 【Elastic Compute】-【High Availability Groups】 to enter the Availability Groups List page.
+1. Access[High Availability Groups Console](https://cns-console.jdcloud.com/availabilitygroup/list) to enter the Availability Groups List page. Or access[JD Cloud Console](https://console.jdcloud.com) and then click on the left navigation bar **Elastic Compute**-**High Availability Groups** to enter the Availability Groups List page.
 2. Choose region.
 3. Find the Availability Group in need of adding new instance.
-4. Click 【Add New Instance】 to skip to the VM instance Creation page. Select “Create instance in Availability Group” as the Creation Method and choose the corresponding Availability Group, e.g.: High Availability Group for Web Services. Match the configured information of instance templates (the one the Availability Group associated) to the current page. It is necessary to note, however, that such configuration information is not allowed to be modified.
+4. Click **Add New Instance** to skip to the VM instance Creation page. Select “Create instance in Availability Group” as the Creation Method and choose the corresponding Availability Group, e.g.: High Availability Group for Web Services. Match the configured information of instance templates (the one the Availability Group associated) to the current page. It is necessary to note, however, that such configuration information is not allowed to be modified.
 5. You can choose billing type and purchasing quantity. You can choose monthly package or Pay By Configuration. If you choose monthly package Virtual Machine, Purchase Duration shall be specified.
 6. If you only add one VM at a time, you can specify its Private IP, and it should be noted that the Intranet IP should be within the scope of the corresponding subnet CIDR;
 7. Set up VM name and description;
-8. Click 【Buy Now】 after completing the above configuration. VMs under Monthly Package can be viewed from the detail page of Availability Group after creation. For VMs Pay By Configuration, the creation process is directly triggered therein. There will be several minutes’ gap before the running of the created VM. Please be patient.
+8. Click **Buy Now** after completing the above configuration. VMs under Monthly Package can be viewed from the detail page of Availability Group after creation. For VMs Pay By Configuration, the creation process is directly triggered therein. There will be several minutes’ gap before the running of the created VM. Please be patient.
 
 If instance templates the Availability Group associated have already deployed services and configured with self-start private image, it is considered that you have obtained a group of high availability VMs of outbound service after adding the new instances.
 
@@ -138,20 +138,20 @@ After starting the auto-scaling mode of the Availability Group, you can set up a
 
 ### Enable Auto-scaling
 
-1. Access[High Availability Groups Console](https://cns-console.jdcloud.com/availabilitygroup/list) to enter the Availability Groups List page. Or access[JD Cloud Console](https://console.jdcloud.com) and then click on the left navigation bar 【Elastic Compute】-【High Availability Groups】 to enter the Availability Groups List page. 
+1. Access[High Availability Groups Console](https://cns-console.jdcloud.com/availabilitygroup/list) to enter the Availability Groups List page. Or access[JD Cloud Console](https://console.jdcloud.com) and then click on the left navigation bar **Elastic Compute**-**High Availability Groups** to enter the Availability Groups List page. 
 2. Find the name of the corresponding Availability Group.
-3. Click 【Operation】-【Enable Auto-Scaling】.
+3. Click **Operation**-**Enable Auto-Scaling**.
 4. In the pop-out window, please specify the minimum and maximum instance number as well as the remove strategy of the Availability Group.
 		
 		The number of instances in the Availability Group will remain between the minimum and maximum number of scaling. If the current instance number of Availability Group is lower than the minimum instance number, new instances will be automatically added to meet the minimum limit. Please note that the automatically added VMs will be Pay By Configuration; if the current instance number of Availability Group is higher than the maximum instance number, instances will be removed to meet the maximum limit. Note: the automatically removed VMs will be directly deleted (different from those removed manually) and VMs under monthly package will not be automatically removed.
 
-5. Click 【OK】 to trigger the Enable Auto-Scaling.
+5. Click **OK** to trigger the Enable Auto-Scaling.
 
 You can also configure alarm strategy and timing strategy after enabling the auto-scaling.
 
 ### Create Alarm Task
 
-* Go to the auto-scaling tab page under detail page of Availability Group , select 【Alarm Strategy】 option and click 【Add】 button;
+* Go to the auto-scaling tab page under detail page of Availability Group , select **Alarm Strategy** option and click **Add** button;
 * Set up in the pop-up window the alarm strategy (based on monitoring indexes such as CPU, memory etc.) to automatically add or remove the instances of high availability group.
 ![](../../../image/ag/gettingstart2.png)
 
@@ -160,9 +160,9 @@ At the end of setting, the alarm strategy will be shown on the listing page. Exa
 
 ### Create Timing Task
 
-* Go to the auto-scaling tab page under detail page of Availability Group , select 【Alarm Strategy】 option and click 【Add】 button;
+* Go to the auto-scaling tab page under detail page of Availability Group , select **Alarm Strategy** option and click **Add** button;
 
-* Specify in the Add pop-up window the timing information such as name, time of execution and scaling rules etc. You can also tick 【Repeat Tasks】 to perform tasks at a defined interval.
+* Specify in the Add pop-up window the timing information such as name, time of execution and scaling rules etc. You can also tick **Repeat Tasks** to perform tasks at a defined interval.
 
 ![](../../../image/ag/gettingstart4.png)
 

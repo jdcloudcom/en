@@ -2,7 +2,7 @@
 
 **1. Console—Location Description**
 
-Log in to the CDN console and select 【Refresh Cache】 on the left menu bar.                                              
+Log in to the CDN console and select **Refresh Cache** on the left menu bar.                                              
 
  ![image.png](https://img1.jcloudcs.com/cms/b4021e8c-827e-4331-9617-301ea758423020180117163325.png)
 

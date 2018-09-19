@@ -66,7 +66,7 @@
 
 ## Connection Draining
 
-  Connection draining is a way for backend server to gracefully exit the service. When a server is removed from the "virtual server group" or the availability group (AG), the connection draining timer is started. After that, only the established TCP connection packet will continue to be forwarded to the server until the connection draining time expires. So far, the newly established TCP connection will not be forwarded to the server. - The range of the connection draining time of network load balancer is 【0, 3600】 seconds, and the default is 300 seconds.
+  Connection draining is a way for backend server to gracefully exit the service. When a server is removed from the "virtual server group" or the availability group (AG), the connection draining timer is started. After that, only the established TCP connection packet will continue to be forwarded to the server until the connection draining time expires. So far, the newly established TCP connection will not be forwarded to the server. - The range of the connection draining time of network load balancer is **0, 3600** seconds, and the default is 300 seconds.
 
 ### Health Check:
 

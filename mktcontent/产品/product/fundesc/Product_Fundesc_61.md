@@ -10,7 +10,7 @@
 		]
 	},
 	{
-		"funcName":"Hiding of Source Station",
+		"funcName":"Hiding of Origin Server",
 		"funcContent":[
 			{
 				"funcName":"",
