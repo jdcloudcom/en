@@ -6,7 +6,7 @@ For more information refer to:
 
 - [Pay-As-You-Go billing instructions](../../../Finance/Billing/Billing-method/Postpay.md)。
 
-- [Bill explanation](../../../Finance/Billing/Bill/Purchases-overview.md)。	
+- [Consumption Overview](../../../Finance/Billing/Bill/Purchases-overview.md)。	
 
 	
 
