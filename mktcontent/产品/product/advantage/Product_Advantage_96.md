@@ -1,0 +1,30 @@
+[
+	{
+		"proGoodTitle":"产品优势",
+		"proNameTitle":"容器镜像仓库",
+		"proDiffTitle":"",
+		"proGood":"安全可靠",
+		"proName":"冗余、高可用的架构，99.999999999%数据持久性，支持全链路数据加密，保障数据安全。",
+		"proDiff":""
+	},
+	{
+		"proGood":"全托管服务",
+		"proName":"无需搭建、管理、运维镜像仓库，拥有海量的存储能力，随时随地可以实现对容器镜像的下载、管理。",
+		"proDiff":""
+	},
+	{
+		"proGood":"开放兼容",
+		"proName":"支持Docker Registry v2标准协议，支持兼容Docker标准工具和Docker镜像。冗余、",
+		"proDiff":""
+	},
+	{
+		"proGood":"无缝集成容器服务",
+		"proName":"与原生容器、Kubernetes集群服务整合，实现高速镜像下载，极速部署容器化应用。",
+		"proDiff":""
+	},
+	{
+		"proGood":"安全可靠",
+		"proName":"冗余、高可用的架构，99.999999999%数据持久性，支持全链路数据加密，保障数据安全。",
+		"proDiff":""
+	}
+]
