@@ -2,33 +2,32 @@ swagger: "2.0"
 info:
   version: v1
   title: Backup Management
-  description: API related to Relational MONGODB Service
+  description: "API related to Relational MONGODB Service"
 
 basePath: /regions/{regionId}
 
 paths:
   "/backups": #Create Backup
     post:
-      description: Create Backup
+      description: "Create Backup"
       operationId: createBackup
       parameters:
         - name: createBackup
           in: body
-          description:
-          schema:
+          description: "schema:"
             type: object
             required:
               - instanceId
             properties:
               instanceId:
                 type: string
-                description: Instance ID
+                description: "Instance ID"
               backupName:
                 type: string
-                description: Backup Name
+                description: "Backup Name"
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               result:
@@ -39,7 +38,7 @@ paths:
                 type: string
 
     get:
-      description: View Backup
+      description: "View Backup"
       operationId: describeBackups
       parameters:
         - name: pageNumber
@@ -55,12 +54,12 @@ paths:
           type: array
           items:
             $ref: "../../common/model/Filter.yaml#/definitions/filter"
-          description: | 
+          description: "| "
             instanceId - Instance ID, Accurate Matching
             backupId - Backup ID, Accurate Matching
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               result:
@@ -78,11 +77,11 @@ paths:
 
   "/backups/{backupId}":
     delete:
-      description: Delete Backup
+      description: "Delete Backup"
       operationId: deleteBackup
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               requestId:
@@ -90,11 +89,11 @@ paths:
   
   "/backups/{backupId}/downloadURL":
     get:
-      description: Get Backup Download Link
+      description: "Get Backup Download Link"
       operationId: backupDownloadURL
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               result:
@@ -109,13 +108,13 @@ parameters:
     in: path
     required: true
     type: string
-    description: Region ID
+    description: "Region ID"
   backupId:
     name: backupId
     in: path
     required: true
     type: string
-    description: backup ID
+    description: "backup ID"
 
 
 

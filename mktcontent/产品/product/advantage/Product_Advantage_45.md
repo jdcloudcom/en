@@ -3,28 +3,28 @@
 		"proGoodTitle":"",
 		"proNameTitle":"",
 		"proDiffTitle":"",
-		"proGood":"Auto operation and maintenance",
-		"proName":"With the quality detection service, the lightweight cloud experience is supplied. The cloud issues the detection policies and the status of the nodes to be detected is updated in real time. The flexible API interfaces can be customized so as to facilitate connection with the third-party Domain Name Resolution products and realize the intelligent scheduling. The functions of intelligent resolution and HTTP DNS resolution are provided to flexibly face up to the tests of sophisticated user scenarios.",
+		"proGood":"Auto Operation and Maintenance",
+		"proName":"The Endpoint Security protection process is built in the Virtual Machines operating system. The Endpoint Security protection is automatically loaded when the Virtual Machine is started, to enable VM security risk warning and real-time interception of malicious attacks. The one-click loading saves user installation and deployment, with automatic unattended operation and lowered operation and maintenance cost.",
 		"proDiff":""
 	},
 	{
-		"proGood":"VM risk visualization",
-		"proName":"The automatic scanning and recognition system has security risks, the potential security threats are timely found, and the multi-dimensional visual security analysis report is generated to comprehensively master the overall security conditions of the machine, timely optimize and reinforce security risks and improve endpoint security and defense capability of the machine.",
+		"proGood":"Virtual Machines Risk Visualization",
+		"proName":"With automatic scanning and recognition of security risks in the business system, the potential security threats are timely found, and the multi-dimensional visual security analysis report is generated to comprehensively master the overall endpoint security conditions, timely optimize and reinforce the security risks and improve endpoint security and defense capability of the Virual Machines.",
 		"proDiff":""
 	},
 	{
-		"proGood":"Accurate real-time defense",
-		"proName":"Based on the multi-engine detection technology, the detection and recognition of abnormal user behaviors can be realized, and real-time and accurate intrusion behaviors such as violent cracking and abnormal login can be found. It can quickly respond to intercept malicious intrusions and attack behaviors and reports security incidents in real time.",
+		"proGood":"Accurate Real-time Defense",
+		"proName":"Based on the multi-engine detection technology, the detection and recognition of abnormal user behaviors can be realized, and real-time and accurate intrusion behaviors such as brute force cracking and abnormal login can be found. It can quickly respond to intercept malicious intrusions and attack behaviors and can report security accidents in time.",
 		"proDiff":""
 	},
 	{
-		"proGood":"Centralized security management",
-		"proName":"JD Cloud users can perform the machine security test, defense configuration, security reinforce, and display and warn security events intensively via JD console. There is no operation interface displayed by the VM system.",
+		"proGood":"Centralized Security Management",
+		"proName":"JD Cloud users can implement the machine security test, defense configurations, security reinforcement, centralized display and alarm of security incidents through the JD Cloud Console. The Virtual Machines system has no operation interface.",
 		"proDiff":""
 	},
 	{
-		"proGood":"Auto operation and maintenance",
-		"proName":"With the quality detection service, the lightweight cloud experience is supplied. The cloud issues the detection policies and the status of the nodes to be detected is updated in real time. The flexible API interfaces can be customized so as to facilitate connection with the third-party Domain Name Resolution products and realize the intelligent scheduling. The functions of intelligent resolution and HTTP DNS resolution are provided to flexibly face up to the tests of sophisticated user scenarios.",
+		"proGood":"Auto Operation and Maintenance",
+		"proName":"The Endpoint Security protection process is built in the Virtual Machines operating system. The Endpoint Security protection is automatically loaded when the Virtual Machine is started, to enable VM security risk warning and real-time interception of malicious attacks. The one-click loading saves user installation and deployment, with automatic unattended operation and lowered operation and maintenance cost.",
 		"proDiff":""
 	}
 ]

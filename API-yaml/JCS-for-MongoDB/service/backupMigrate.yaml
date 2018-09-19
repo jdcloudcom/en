@@ -2,21 +2,20 @@ swagger: "2.0"
 info:
   version: "v1"
   title: Cross-region Backup Management
-  description: API related to Relational MONGODB Service
+  description: "API related to Relational MONGODB Service"
 
 basePath: /regions/{regionId}
 
 paths:
   "/backupSynchronicities": #Cross-region Backup Synchronization Service
     post:
-      description: Create Cross-region Backup Synchronization Service
+      description: "Create Cross-region Backup Synchronization Service"
       operationId: createBackupSynchronicity
       x-jdcloud-internal: true
       parameters:
         - name: createBackupSynchronicity
           in: body
-          description:
-          schema:
+          description: "schema:"
             type: object
             required:
               - instanceId
@@ -25,16 +24,16 @@ paths:
             properties:
               instanceId:
                 type: string
-                description: Source Instance ID
+                description: "Source Instance ID"
               srcRegion:
                 type: string
-                description: Source Instance Location
+                description: "Source Instance Location"
               dstRegion:
                 type: string
-                description: Target Zone for Backup Synchronization
+                description: "Target Zone for Backup Synchronization"
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               result:
@@ -45,7 +44,7 @@ paths:
                 type: string
 
     get:
-      description: Query Cross-region Backup Synchronization Service
+      description: "Query Cross-region Backup Synchronization Service"
       operationId: describeBackupSynchronicities
       x-jdcloud-internal: true
       parameters:
@@ -62,10 +61,9 @@ paths:
           type: array
           items:
             $ref: "../../common/model/Filter.yaml#/definitions/filter"
-          description:
-      responses:
+          description: "responses:"
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               result:
@@ -83,12 +81,12 @@ paths:
 
   "/backupSynchronicities/{serviceId}": #Delete a Cross-region Backup Synchronization Service
     delete:
-      description: Delete Cross-region Backup Synchronization Service
+      description: "Delete Cross-region Backup Synchronization Service"
       operationId: deleteBackupSynchronicities
       x-jdcloud-internal: true
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               result:
@@ -105,12 +103,12 @@ parameters:
     in: path
     required: true
     type: string
-    description: Region ID
+    description: "Region ID"
   serviceId:
     name: serviceId
     in: path
     required: true
     type: string
-    description: service ID
+    description: "service ID"
 
 

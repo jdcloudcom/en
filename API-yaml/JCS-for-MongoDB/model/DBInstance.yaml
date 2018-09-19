@@ -7,63 +7,63 @@ definitions:
     properties:
       instanceId:
         type: string
-        description: Instance ID
+        description: "Instance ID"
       instanceName:
         type: string
-        description: Instance Name
+        description: "Instance Name"
       engine:
         type: string
-        description: Database Type
+        description: "Database Type"
       engineVersion:
         type: string
-        description: Database Version
+        description: "Database Version"
       instanceClass:
         type: string
-        description: Instance Type Code
+        description: "Instance Type Code"
       instanceStorageGB:
         type: integer
-        description: Storage Space
+        description: "Storage Space"
       instanceCPU:
         type: integer
-        description: Number of CPU Cores
+        description: "Number of CPU Cores"
       instanceMemoryGB:
         type: integer
-        description: Memory, Unit: GB
+        description: "Memory, Unit: GB"
       azId:
         type: array
         items:
           type: string
-        description: AZ ID, AZs at primary, secondary and hidden nodes in turn.
+        description: "AZ ID, AZs at primary, secondary and hidden nodes in turn."
       vpcId:
         type: string
-        description: VPCID
+        description: "VPCID"
       subnetId:
         type: string
-        description: Subnet ID
+        description: "Subnet ID"
       replicaSetName:
         type: string
-        description: Name of Replica Set
+        description: "Name of Replica Set"
       instanceDomain:
         type: string
-        description: Domain Name
+        description: "Domain Name"
       DBName:
         type: string
-        description: Default Database Name
+        description: "Default Database Name"
       accountName:
         type: string
-        description: Default User Name
+        description: "Default User Name"
       instancePort:
         type: string
-        description: Application Access Port
+        description: "Application Access Port"
       instanceStatus:
         type: string
         description: "Instance Status. RUNNING: Running, ERROR: Error, BUILDING: Creating, DELETING: Deleting, RESTORING: Restoring, RESIZING: under Configuration Change"
       backupRetentionPeriod:
         type: integer
-        description: Automatic Backup Retention Time
+        description: "Automatic Backup Retention Time"
       createTime:
         type: string
-        description: Creation Time
+        description: "Creation Time"
       preferredBackupWindow:
         type: string
         description: "Automatic Backup Time, for example: 00:00-02:00, indicating automatic backup of the database from 0 to 2"
@@ -72,7 +72,7 @@ definitions:
         description: "System Maintenance Time, for example: 00:00-02:00, indicating system maintenance from 0 to 2"
       charge:
         $ref: "../../charge/model/Charge.yaml#/definitions/charge"
-        description: Billing Information
+        description: "Billing Information"
       isSetSecurityIps:
         type: boolean
         description: "Whether to Set White List, true: set, false: not set"

@@ -7,8 +7,8 @@ definitions:
     properties:
       spaceId:
         type: string
-        description: Instance ID
+        description: "Instance ID"
       status:
         type: string
-        description: Status Description
+        description: "Status Description"
       

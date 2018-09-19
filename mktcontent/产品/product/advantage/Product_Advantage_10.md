@@ -1,15 +1,15 @@
 [
 	{
-		"proGoodTitle":"Product advantages",
-		"proNameTitle":"Basic Anti-DDoS",
+		"proGoodTitle":"Benefits",
+		"proNameTitle":"Anti-DDoS Basic",
 		"proDiffTitle":"",
-		"proGood":"Free security",
-		"proName":"By purchasing the public IP product of JD Cloud, basic Anti-DDoS functions are started automatically. If you use DDoS service, common large traffic attacks such as SYNFlood and ICMPFlood will not threaten your business.",
+		"proGood":"Safe and free",
+		"proName":"By purchasing the EIP product of JD Cloud, the Anti-DDoS Basic service feature is enabled automatically. After you use the Anti-DDoS Basic service, common heavy traffic attacks such as SYNFlood and ICMPFlood cannot threaten your business.",
 		"proDiff":""
 	},
 	{
 		"proGood":"Quick protection",
-		"proName":"Basic Anti-DDoS will carry out real-time detection of all traffic, find the attack traffic in the first time, deal with the attack in a second, and rapidly clear the attack, guaranteeing the normal operation of the business.",
+		"proName":"Anti-DDoS Basic will carry out real-time detection of all traffic, find the attack traffic in the first time, deal with the attack in a second, and rapidly clear the attack, guaranteeing the normal operation of the business.",
 		"proDiff":""
 	},
 	{
@@ -19,12 +19,12 @@
 	},
 	{
 		"proGood":"Real-time monitoring",
-		"proName":"It can recover services in the fastest way by monitoring and displaying the real-time DDoS attack data, positioning the attack source quickly, monitoring the attack state, and shortening blackhole duration.",
+		"proName":"It can recover the business in the fastest way by monitoring and displaying the real-time DDoS attack data, positioning the attack source quickly, monitoring the attack state, and shortening the black hole duration.",
 		"proDiff":""
 	},
 	{
-		"proGood":"Free security",
-		"proName":"By purchasing the public IP product of JD Cloud, basic Anti-DDoS functions are started automatically. If you use DDoS service, common large traffic attacks such as SYNFlood and ICMPFlood will not threaten your business.",
+		"proGood":"Safe and free",
+		"proName":"By purchasing the EIP product of JD Cloud, the Anti-DDoS Basic service feature is enabled automatically. After you use the Anti-DDoS Basic service, common heavy traffic attacks such as SYNFlood and ICMPFlood cannot threaten your business.",
 		"proDiff":""
 	}
 ]

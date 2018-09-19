@@ -8,11 +8,11 @@ definitions:
       name:
         type: string
         required: true
-        description: Cluster name supports Chinese, numbers, capital and lowercase letters, English underline “_” and line-through “-”, with the length of 6-32 characters.
+        description: "Cluster name supports Chinese, numbers, capital and lowercase letters, English underline “_” and line-through “-”, with the length of 6-32 characters."
       password:
         type: string
         required: true
-        description: |
+        description: "|"
           "Cluster Password"
           "1. It must include three types of the capital letters, lowercase letters, numbers and special characters, and cannot be less than 8 characters nor exceed 30 characters"
           "2. Special characters are as follows!@#$%^*"
@@ -23,7 +23,7 @@ definitions:
       version:
         type: string
         required: true
-        description: |
+        description: "|"
           "Software service Version, please fill in one of the following lists:"
           "JMR1.0.0"
           "JMR1.0.1"
@@ -33,7 +33,7 @@ definitions:
       payType:
         type: string
         required: true
-        description: |
+        description: "|"
           "Payment type, please fill in one of the following lists:"
           "By Amount"
       #payPrice:
@@ -43,7 +43,7 @@ definitions:
       masterNodeNumber:
         type: integer
         required: true
-        description: Master Node Number
+        description: "Master Node Number"
       #masterCore:
         #type: integer
         #required: true
@@ -54,13 +54,13 @@ definitions:
         #description: Master Node Memory (At least 8G memory is recommended; otherwise the service may fail to deploy)
       masterNodeDiskType:
         type: string
-        description: |
+        description: "|"
           "Master node cloud disk type, the optional types are (the following types are separated with "/")"
           "NBD/NBD_SATA"
           "Respectively Stand for: Performance Type/Capacity Type"
       masterNodeDiskVolume:
         type: integer
-        description: Master node cloud disk capacity must be the integral multiples of 10, but greater than 20 and less than 3000GB
+        description: "Master node cloud disk capacity must be the integral multiples of 10, but greater than 20 and less than 3000GB"
       masterInstanceType:
         type: string
         required: true
@@ -68,7 +68,7 @@ definitions:
       slaveNodeNumber:
         type: integer
         required: true
-        description: Slave Node Number
+        description: "Slave Node Number"
       #slaveCore:
         #type: integer
         #required: true
@@ -79,13 +79,13 @@ definitions:
         #description: Slave Node Memory (At least 4G memory is recommended; otherwise the service may fail to deploy)
       slaveNodeDiskType:
         type: string
-        description: |
+        description: "|"
           "Slave node cloud disk type, the optional types are (the following types are separated with "/")"
           "NBD/NBD_SATA"
           "Respectively Stand for: Performance Type/Capacity Type"
       slaveNodeDiskVolume:
         type: integer
-        description: Slave node cloud disk capacity must be the integral multiples of 10, but greater than 20 and less than 3000GB
+        description: "Slave node cloud disk capacity must be the integral multiples of 10, but greater than 20 and less than 3000GB"
       coreInstanceType:
         type: string
         required: true
@@ -93,28 +93,28 @@ definitions:
       dataCenter:
         type: string
         default: cn-north-1
-        description: Region, the same as regionID
+        description: "Region, the same as regionID"
       softwareList:
         type: string
         default: HADOOP,ZOOKEEPER
-        description: Software list, different software shall be separated with English comma (,); refer to [document](https://www.jdcloud.com/help/detail/1323/isCatalog/1)
+        description: "Software list, different software shall be separated with English comma (,); refer to [document](https://www.jdcloud.com/help/detail/1323/isCatalog/1)"
       jssFlag:
         type: boolean
         default: false
-        description: Whether to associate the Object Storage Service or not
+        description: "Whether to associate the Object Storage Service or not"
       haFlag:
         type: boolean
         default: true
-        description: Whether the cluster is in high availability mode or not
+        description: "Whether the cluster is in high availability mode or not"
       vpcId:
         type: string
         default: new
-        description: Virtual Private Cloud ID
+        description: "Virtual Private Cloud ID"
       vpcSubnetId:
         type: string
         default: new
-        description: Subnet UUID can be obtained by querying the subnet list
+        description: "Subnet UUID can be obtained by querying the subnet list"
       bandwidth:
         type: integer
         default: 5
-        description: Network Bandwidth Cap
+        description: "Network Bandwidth Cap"

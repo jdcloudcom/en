@@ -8,16 +8,15 @@ definitions:
     properties:
       path:
         type: string
-        description: Role Path
+        description: "Role Path"
       roleName:
         type: string
-        description: Role Name
+        description: "Role Name"
       assumeRolePolicyDocument:
         type: string
-        description: Role Assumption Policy
-      description:
-        type: string
-        description: Description, 0~256 characters
+        description: "Role Assumption Policy"
+      description: "type: string"
+        description: "Description, 0~256 characters"
       maxSessionDuration:
         type: integer
-        description: Maximum session duration is 3,600~43,200 seconds, 3,600 seconds by default
+        description: "Maximum session duration is 3,600~43,200 seconds, 3,600 seconds by default"

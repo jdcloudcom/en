@@ -2,7 +2,7 @@
 
 
 ## Description
-Delete the database from the RDS instance. For management and data restoration, RDS controls user permissions. Users can only delete databases through the console or this interface.</br>敏感操作，可开启<a href="https://www.jdcloud.com/help/detail/3786/isCatalog/1">MFA操作保护</a>
+Delete the database from the RDS instance. For management and data restoration, RDS controls user permissions. Users can only delete databases through the console or this interface.</br>Sensitive operation, enable <a href="https://www.jdcloud.com/help/detail/3786/isCatalog/1">MFA operation protection</a>
 
 ## Request method
 DELETE

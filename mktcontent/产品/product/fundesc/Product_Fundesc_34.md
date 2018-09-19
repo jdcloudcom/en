@@ -45,7 +45,7 @@
 			{
 				"funcName":"",
 				"funcTitle":"Seamlessly docking JD Cloud product line to provide complete security protection",
-				"funcP":"Networks between users are isolated. The GPU Service enjoys the same level of security as the VM of JD Cloud, ensuring the security of service."
+				"funcP":"Networks between users are isolated. The GPU Service enjoys the same level of security as the Virtual Machines of JD Cloud, ensuring the security of service."
 			}
 		]
 	}

@@ -6,6 +6,6 @@
 
 2. Click **Modify** of the purge trigger value to change the trigger threshold for cleaning. When the attack exceeds this threshold, the cleaning is triggered.
 
-![Create Object](https://github.com/jdcloudcom/cn/blob/edit/image/Basic%20Anti-DDos/threshold02.png)
+![Create Object](https://github.com/jdcloudcom/en/blob/anti-ddos/image/Basic%20Anti-DDos/threshold02.png)
 
 **Note**: The setting of the purge threshold should be slightly higher than the traffic flow in the normal case.

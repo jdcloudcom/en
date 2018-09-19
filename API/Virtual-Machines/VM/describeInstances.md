@@ -62,7 +62,7 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instances
 |**primaryNetworkInterface**|InstanceNetworkInterfaceAttachment|Primary network interface instance type|
 |**privateIpAddress**|String|IP address of primary network interface|
 |**secondaryNetworkInterfaces**|InstanceNetworkInterfaceAttachment[]|Secondary network interface instance type|
-|**status**|String|云主机状态，<a href="https://www.jdcloud.com/help/detail/3869/isCatalog/1">参考云主机状态</a>|
+|**status**|String|Virtual machine status, <a href="https://www.jdcloud.com/help/detail/3869/isCatalog/1">refer to virtual machine status</a>|
 |**subnetId**|String|ID of the subnet to which the primary network interface belongs|
 |**systemDisk**|InstanceDiskAttachment|System disk configuration|
 |**tags**|Tag[]|Tag information|

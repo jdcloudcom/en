@@ -5,5 +5,5 @@ definitions:
     properties:
       assumeRolePolicyDocument:
         type: string
-        description: Role Assumption Policy
+        description: "Role Assumption Policy"
 

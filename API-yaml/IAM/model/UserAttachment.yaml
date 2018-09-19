@@ -5,34 +5,34 @@ definitions:
     properties:
       remark:
         type: string
-        description: Company Name
+        description: "Company Name"
       industry:
         type: string
-        description: Industry of Main Business
+        description: "Industry of Main Business"
       subIndustry:
         type: string
-        description: Sub-option of Main Business
+        description: "Sub-option of Main Business"
       business:
         type: string
-        description: Main Business
+        description: "Main Business"
       website:
         type: string
-        description: Website
+        description: "Website"
       cpState:
         type: string
-        description: Country
+        description: "Country"
       cpProvince:
         type: string
-        description: Province
+        description: "Province"
       cpCity:
         type: string
-        description: City
+        description: "City"
       cpCountry:
         type: string
-        description: District and County
+        description: "District and County"
       cpAddress:
         type: string
-        description: Detailed Address
+        description: "Detailed Address"
       cpTelphone:
         type: string
-        description: Contact Mobile Number
+        description: "Contact Mobile Number"

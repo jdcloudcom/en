@@ -2,7 +2,7 @@ swagger: "2.0"
 info:
   version: "v1"
   title: Image
-  description: related interfaces on machine image operations
+  description: "related interfaces on machine image operations"
 
 basePath: /regions/{regionId}
 
@@ -10,19 +10,19 @@ paths:
   "/images/{imageId}":
     ###################### The details interface of the image ######################
     get:
-      description: |
+      description: "|"
         Query image details.
       operationId: describeImage
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             type: object
             properties:
               result:
                 properties:
                   image:
-                    description: image details
+                    description: "image details"
                     $ref: "../model/Image.yaml#/definitions/image"
               requestId:
                 type: string
@@ -31,7 +31,7 @@ paths:
         401:
           description: "Authentication failed"
         404:
-          description: "Not found"  
+          description: "Not found  "
         500:
           description: "Internal server error"
         503:
@@ -39,19 +39,19 @@ paths:
 
     ###################### Delete image interface ######################
     delete:
-      description: |
+      description: "|"
         Delete a private image that only allows you to operate your personal private image.
-        若镜像已共享给其他用户，需先取消共享才可删除。
+        If the image is shared to other users, the image can be deleted only when the sharing is released.
       operationId: deleteImage
       responses:
         200:
-          description: OK
+          description: "OK"
         400:
           description: "Invalid parameter"
         401:
           description: "Authentication failed"
         404:
-          description: "Not found"  
+          description: "Not found  "
         500:
           description: "Internal server error"
         503:
@@ -60,7 +60,7 @@ paths:
   "/images":
     ###################### The image list interface ######################
     get:
-      description: |
+      description: "|"
         Query the image information list. <br>
         This interface allows you to query an public image of JD Cloud,  a third-party image,  a private image,  or an image that other users share to you. <br>
         This API supports paging query with 20 items per page by default.
@@ -87,7 +87,7 @@ paths:
         - name: status
           in: query
           type: string
-          description: <a href="https://www.jdcloud.com/help/detail/3871/isCatalog/1">参考镜像状态</a>
+          description: "<a href="https://www.jdcloud.com/help/detail/3871/isCatalog/1">refer to image status</a>"
         - name: pageNumber
           in: query
           type: integer
@@ -100,7 +100,7 @@ paths:
           description: "Paging size; 20 by default;Value range[10, 100] "
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             type: object
             properties:
@@ -108,12 +108,12 @@ paths:
                 properties:
                   images:
                     type: array
-                    description: image details
+                    description: "image details"
                     items:
                       $ref: "../model/Image.yaml#/definitions/image"
                   totalCount:
                     type: integer
-                    description: Quantity
+                    description: "Quantity"
               requestId:
                 type: string
         400:
@@ -121,7 +121,7 @@ paths:
         401:
           description: "Authentication failed"
         404:
-          description: "Not found"  
+          description: "Not found  "
         500:
           description: "Internal server error"
         503:
@@ -130,13 +130,13 @@ paths:
   "/images/{imageId}/constraints":
     ###################### Query Image Restriction Interface ######################
     get:
-      description: |
-        查询镜像的实例规格限制。<br>
+      description: "|"
+        Query the instance type limit of the image. <br>
         This interface allows you to view the type of specifications that are not supported by the image. Only the public image,  the third-party image has a specification type restriction,  and the private image of the individual does not have this limit.
       operationId: describeImageConstraints
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             type: object
             properties:
@@ -144,7 +144,7 @@ paths:
                 properties:
                   imageConstraints:
                     type: object
-                    description: image restriction
+                    description: "image restriction"
                     $ref: "../model/ImageConstraint.yaml#/definitions/imageConstraint"
               requestId:
                 type: string
@@ -153,7 +153,7 @@ paths:
         401:
           description: "Authentication failed"
         404:
-          description: "Not found"  
+          description: "Not found  "
         500:
           description: "Internal server error"
         503:
@@ -162,7 +162,7 @@ paths:
   "/imageConstraints":
     ###################### Batch Query Image Limits ######################
     get:
-      description: |
+      description: "|"
         Batch query image specification type constraints. <br>
         This interface allows you to view the type of specifications that are not supported by the image. Only the public image,  the third-party image has a specification type restriction,  and the private image of the individual does not have this limit.
       operationId: describeImageConstraintsBatch
@@ -175,7 +175,7 @@ paths:
           description: "Image ID list"
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             type: object
             properties:
@@ -185,7 +185,7 @@ paths:
                     type: array
                     items:
                       $ref: "../model/ImageConstraint.yaml#/definitions/imageConstraint"
-                    description: image restriction
+                    description: "image restriction"
               requestId:
                 type: string
         400:
@@ -202,7 +202,7 @@ paths:
   "/images/{imageId}:share":
     ###################### Shared Image ######################
     post:
-      description: |
+      description: "|"
         Shared Image allows you to operate only your private image,  and a single image can be shared for up to 20 JD Cloud accounts. <br>
         The packaging image does not currently support sharing.
       operationId: shareImage
@@ -212,16 +212,16 @@ paths:
           type: array
           items:
             type: string
-          description: the account that needs to be shared
+          description: "the account that needs to be shared"
       responses:
         200:
-          description: OK
+          description: "OK"
         400:
           description: "Invalid parameter"
         401:
           description: "Authentication failed"
         404:
-          description: "Not found"  
+          description: "Not found  "
         500:
           description: "Internal server error"
         503:
@@ -230,7 +230,7 @@ paths:
   "/images/{imageId}:unshare":
     ###################### Cancel  Shared Image ######################
     post:
-      description: |
+      description: "|"
         Unshared images only allow you to operate your personal private image.
       operationId: unShareImage
       parameters:
@@ -239,16 +239,16 @@ paths:
           type: array
           items:
             type: string
-          description: account that needs to be cancelled
+          description: "account that needs to be cancelled"
       responses:
         200:
-          description: OK
+          description: "OK"
         400:
           description: "Invalid parameter"
         401:
           description: "Authentication failed"
         404:
-          description: "Not found"  
+          description: "Not found  "
         500:
           description: "Internal server error"
         503:
@@ -257,19 +257,19 @@ paths:
   "/images/{imageId}/members":
     ###################### Query Image Shared Account List ######################
     get:
-      description: |
+      description: "|"
         Query the image-shared account list,  allowing you to operate your personal private image only.
       operationId: describeImageMembers
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               result:
                 properties:
                   pins:
                     type: array
-                    description: user Pin list
+                    description: "user Pin list"
                     items:
                       type: string
               requestId:
@@ -279,7 +279,7 @@ paths:
         401:
           description: "Authentication failed"
         404:
-          description: "Not found"  
+          description: "Not found  "
         500:
           description: "Internal server error"
         503:
@@ -288,21 +288,21 @@ paths:
   "/images/{imageId}:convertImage":
     ###################### Image Transition ######################
     post:
-      description: |
-        内部接口。<br>
+      description: "|"
+        Internal APIs. <br>
         Image conversion,  only the conversion of the image from the LocalDisk to the cloudDisk type is supported,  allowing only your personal private image to be operated.
       operationId: convertImage
       x-jdcloud-internal: true
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               result:
                 properties:
                   imageId:
                     type: string
-                    description: ID of the new image after conversion
+                    description: "ID of the new image after conversion"
               requestId:
                 type: string
         400:
@@ -319,7 +319,7 @@ paths:
   "/images:copyImages":
     ###################### The inter-zone image replication ######################
     post:
-      description: |
+      description: "|"
         Image inter-domain replication,  copy private images to other regions,  allowing you to operate your private image only. <br>
         Only images of the Cloud Disk Service of system disk are supported.
       operationId: copyImages
@@ -330,22 +330,22 @@ paths:
           items:
             type: string
           required: true
-          description: Source image ID
+          description: "Source image ID"
         - name: destinationRegion
           in: query
           type: string
           required: true
-          description: target area
+          description: "target area"
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               result:
                 properties:
                   copyImages:
                     type: array
-                    description: source image and target image mapping relationships
+                    description: "source image and target image mapping relationships"
                     items:
                       $ref: "../model/CopyImage.yaml#/definitions/copyImage"
               requestId:
@@ -364,21 +364,21 @@ paths:
   "/images/{imageId}:modifyImageAttribute":
     ###################### Modify Image Information ######################
     post:
-      description: |
+      description: "|"
         Modify the image information,  including name and description; Only allow your personal private image to be operated.
       operationId: modifyImageAttribute
       parameters:
         - name: name
           in: query
           type: string
-          description: Name, <a href="https://www.jdcloud.com/help/detail/3870/isCatalog/1">Refer to the public parameter specification </a>.
+          description: "Name, <a href="https://www.jdcloud.com/help/detail/3870/isCatalog/1">Refer to the public parameter specification </a>."
         - name: description
           in: query
           type: string
-          description: Description, <a href="https://www.jdcloud.com/help/detail/3870/isCatalog/1 ">Refer to the public parameter specification</a>.
+          description: "Description, <a href="https://www.jdcloud.com/help/detail/3870/isCatalog/1 ">Refer to the public parameter specification</a>."
       responses:
         200:
-          description: OK
+          description: "OK"
         400:
           description: "Invalid parameter"
         401:
@@ -397,10 +397,10 @@ parameters:
     in: path
     required: true
     type: string
-    description: Region ID
+    description: "Region ID"
   imageId:
     name: imageId
     in: path
     required: true
     type: string
-    description: Image ID
+    description: "Image ID"

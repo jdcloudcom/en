@@ -9,13 +9,12 @@ definitions:
         type: number
       eventId:
         type: string
-        description: Event ID
+        description: "Event ID"
       eventType:
         type: string
-        description: Event Type
-      description:
-        type: string
-        description: Description
+        description: "Event Type"
+      description: "type: string"
+        description: "Description"
       objectType:
         type: string
       objectId:

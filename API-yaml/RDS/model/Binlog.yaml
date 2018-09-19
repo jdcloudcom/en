@@ -7,16 +7,16 @@ definitions:
     properties:
       binlogBackupId:
         type: string
-        description: binlog Log Backup ID
+        description: "binlog Log Backup ID"
       binlogName:
         type: string
-        description: binlog Log Name
+        description: "binlog Log Name"
       binlogSizeKB:
         type: integer
-        description: binlog Log Size in KB
+        description: "binlog Log Size in KB"
       binlogStartTime:
         type: string
-        description: binlog Start Time, Format: YYYY-MM-DD HH:mm:ss
+        description: "binlog Start Time, Format: YYYY-MM-DD HH:mm:ss"
       binlogEndTime:
         type: string
-        description: binlog End Time, Format: YYYY-MM-DD HH:mm:ss
+        description: "binlog End Time, Format: YYYY-MM-DD HH:mm:ss"

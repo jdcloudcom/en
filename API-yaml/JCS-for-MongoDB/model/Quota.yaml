@@ -7,8 +7,8 @@ definitions:
     properties:
       total:
         type: integer
-        description: Total Quota
+        description: "Total Quota"
       use:
         type: integer
-        description: Used
+        description: "Used"
       

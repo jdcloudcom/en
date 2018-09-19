@@ -2,7 +2,7 @@ swagger: "2.0"
 info:
   version: "v1"
   title: Advanced Anti-DDoS Attack Record APIs
-  description: Advanced Anti-DDoS Attack Record APIs
+  description: "Advanced Anti-DDoS Attack Record APIs"
 
 basePath: /regions/{regionId}
 
@@ -26,22 +26,22 @@ paths:
           in: query
           type: string
           required: true
-          description: Start time, up to the latest 30 days, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ
+          description: "Start time, up to the latest 30 days, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ"
         - name: endTime
           in: query
           type: string
           required: true
-          description: Search end time, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ
+          description: "Search end time, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ"
         - name: instanceId
           in: query
           type: array
           items:
             type: string
-          description: Advanced Anti-DDoS instance ID
+          description: "Advanced Anti-DDoS instance ID"
           required: false
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               result:
@@ -52,13 +52,13 @@ paths:
                       $ref: "../model/DDosAttackLog.yaml#/definitions/DDosAttackLog"
                   currentCount:
                     type: integer
-                    description: "当前页数量"
+                    description: "Current page counts"
                   totalCount:
                     type: integer
-                    description: "实例总数"
+                    description: "Total number of instances"
                   totalPage:
                     type: integer
-                    description: "总页数"
+                    description: "Total number of pages"
               requestId:
                 type: string
   /attacklog:cc:
@@ -80,22 +80,22 @@ paths:
           in: query
           type: string
           required: true
-          description: Start time, up to the latest 30 days, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ
+          description: "Start time, up to the latest 30 days, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ"
         - name: endTime
           in: query
           type: string
           required: true
-          description: Search end time, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ
+          description: "Search end time, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ"
         - name: instanceId
           in: query
           type: array
           items:
             type: string
-          description: Advanced Anti-DDoS instance ID
+          description: "Advanced Anti-DDoS instance ID"
           required: false
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               result:
@@ -106,13 +106,13 @@ paths:
                       $ref: "../model/DDosAttackLog.yaml#/definitions/DDosAttackLog"
                   currentCount:
                     type: integer
-                    description: "当前页数量"
+                    description: "Current page counts"
                   totalCount:
                     type: integer
-                    description: "实例总数"
+                    description: "Total number of instances"
                   totalPage:
                     type: integer
-                    description: "总页数"
+                    description: "Total number of pages"
               requestId:
                 type: string
 
@@ -135,27 +135,27 @@ paths:
           in: query
           type: string
           required: true
-          description: Start time, up to the latest 30 days, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ
+          description: "Start time, up to the latest 30 days, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ"
         - name: endTime
           in: query
           type: string
           required: true
-          description: Search end time, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ
+          description: "Search end time, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ"
         - name: instanceId
           in: query
           type: string
-          description: Advanced Anti-DDoS instance ID
+          description: "Advanced Anti-DDoS instance ID"
           required: true
         - name: subDomain
           in: query
           type: array
           items:
             type: string
-          description: Subdomain name
+          description: "Subdomain name"
           required: false
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               result:
@@ -166,129 +166,129 @@ paths:
                       $ref: "../model/CCAttackLogDetail.yaml#/definitions/CCAttackLogDetail"
                   currentCount:
                     type: integer
-                    description: "当前页数量"
+                    description: "Current page counts"
                   totalCount:
                     type: integer
-                    description: "实例总数"
+                    description: "Total number of instances"
                   totalPage:
                     type: integer
-                    description: "总页数"
+                    description: "Total number of pages"
               requestId:
                 type: string
 
   /attacklog:ddos/download:
     get:
-      description: "下载 DDos 攻击日志"
+      description: "Download the DDos attack log"
       operationId: downloadDDosAttackLogs
       parameters:
         - name: startTime
           in: query
           type: string
           required: true
-          description: "开始时间, 只能下载最近 60 天以内的数据, UTC 时间, 格式：yyyy-MM-dd'T'HH:mm:ssZ"
+          description: "Start time, only data within the latest 60 days can be downloaded, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ"
         - name: endTime
           in: query
           type: string
           required: true
-          description: Search end time, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ
+          description: "Search end time, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ"
         - name: instanceId
           in: query
           type: array
           items:
             type: string
-          description: Advanced Anti-DDoS instance ID
+          description: "Advanced Anti-DDoS instance ID"
           required: false
       responses:
         200:
-          description: OK
+          description: "OK"
 
   /attacklog:cc/download:
     get:
-      description: "下载 CC 攻击日志"
+      description: "Download the CC attack log"
       operationId: downloadCcAttackLogs
       parameters:
         - name: startTime
           in: query
           type: string
           required: true
-          description: "开始时间, 只能下载最近 60 天以内的数据, UTC 时间, 格式：yyyy-MM-dd'T'HH:mm:ssZ"
+          description: "Start time, only data within the latest 60 days can be downloaded, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ"
         - name: endTime
           in: query
           type: string
           required: true
-          description: Search end time, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ
+          description: "Search end time, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ"
         - name: instanceId
           in: query
           type: array
           items:
             type: string
-          description: Advanced Anti-DDoS instance ID
+          description: "Advanced Anti-DDoS instance ID"
           required: false
       responses:
         200:
-          description: OK
+          description: "OK"
 
   /attacklog:ccDetail/download:
     get:
-      description: "下载 CC 攻击日志详情"
+      description: "Download the CC attack log details"
       operationId: downloadCcAttackLogDetails
       parameters:
         - name: startTime
           in: query
           type: string
           required: true
-          description: "开始时间, 只能下载最近 60 天以内的数据, UTC 时间, 格式：yyyy-MM-dd'T'HH:mm:ssZ"
+          description: "Start time, only data within the latest 60 days can be downloaded, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ"
         - name: endTime
           in: query
           type: string
           required: true
-          description: Search end time, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ
+          description: "Search end time, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ"
         - name: instanceId
           in: query
           type: string
-          description: Advanced Anti-DDoS instance ID
+          description: "Advanced Anti-DDoS instance ID"
           required: true
         - name: subDomain
           in: query
           type: array
           items:
             type: string
-          description: Subdomain name
+          description: "Subdomain name"
           required: false
       responses:
         200:
-          description: OK
+          description: "OK"
 
   /attacklog/describeAttackStatistics:
     get:
-      description: "查询攻击次数及流量峰值"
+      description: "Query the attack counts and traffic peak value"
       operationId: describeAttackStatistics
       parameters:
         - name: startTime
           in: query
           type: string
           required: true
-          description: Start time, up to the latest 30 days, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ
+          description: "Start time, up to the latest 30 days, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ"
         - name: endTime
           in: query
           type: string
           required: true
-          description: Search end time, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ
+          description: "Search end time, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ"
         - name: instanceId
           in: query
           type: array
           items:
             type: string
-          description: Advanced Anti-DDoS instance ID
+          description: "Advanced Anti-DDoS instance ID"
           required: false
         - name: type
           in: query
           type: integer
           required: true
-          description: "攻击类型, 0 为 DDos, 1 为 CC"
+          description: "Attack type, 0 is DDos, and 1 is CC"
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               result:
@@ -296,41 +296,41 @@ paths:
                   flow:
                     type: number
                     format: float
-                    description: "攻击流量峰值"
+                    description: "Attack traffic peak value"
                   count:
                     type: integer
-                    description: "攻击次数"
+                    description: "Attack counts"
                   unit:
                     type: string
-                    description: "流量单位, bps、Kbps、Mbps、Gbps"
+                    description: "Traffic Unit, bps, Kbps, Mbps, Gbps"
               requestId:
                 type: string
 
   /attacklog/describeAttackTypeCount:
     get:
-      description: "查询各类型攻击次数"
+      description: "Query the Attack Counts of Various Types"
       operationId: describeAttackTypeCount
       parameters:
         - name: startTime
           in: query
           type: string
           required: true
-          description: Start time, up to the latest 30 days, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ
+          description: "Start time, up to the latest 30 days, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ"
         - name: endTime
           in: query
           type: string
           required: true
-          description: Search end time, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ
+          description: "Search end time, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ"
         - name: instanceId
           in: query
           type: array
           items:
             type: string
-          description: Advanced Anti-DDoS instance ID
+          description: "Advanced Anti-DDoS instance ID"
           required: false
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               result:
@@ -346,4 +346,4 @@ parameters:
     in: path
     required: true
     type: string
-    description: Belonging Region ID
+    description: "Belonging Region ID"

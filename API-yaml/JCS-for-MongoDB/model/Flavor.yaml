@@ -7,23 +7,23 @@ definitions:
     properties:
       cpu:
         type: integer
-        description: Number of CPU Cores
+        description: "Number of CPU Cores"
       memory:
         type: integer
-        description: Memory, Unit: GB
+        description: "Memory, Unit: GB"
       iops:
         type: integer
-        description: iops
+        description: "iops"
       maxLink:
         type: integer
-        description: Maximum Connections
+        description: "Maximum Connections"
       maxDisk:
         type: integer
-        description: Maximum Number of Disks, Unit: GB
+        description: "Maximum Number of Disks, Unit: GB"
       minDisk:
         type: integer
-        description: Minimum Number of Disks, Unit: GB
+        description: "Minimum Number of Disks, Unit: GB"
       diskStep:
         type: integer
-        description: Disk Step Size
+        description: "Disk Step Size"
       

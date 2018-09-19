@@ -1,6 +1,6 @@
 swagger: "2.0"
 info:
-  description: Monitoring Rules APIs, providing functions such as Create, Query, Modify, Delete Monitoring Rules
+  description: "Monitoring Rules APIs, providing functions such as Create, Query, Modify, Delete Monitoring Rules"
   title: Monitoring Rules APIs
   version: "v1"
 consumes:
@@ -14,17 +14,17 @@ paths:
   /alarms:
     ###################### Query Monitoring Rules######################
     get:
-      description: Query monitoring rules, supporting query based on rule status, alarm status, resource ID and product name.
+      description: "Query monitoring rules, supporting query based on rule status, alarm status, resource ID and product name."
       summary: Query Monitoring Rules
       operationId: describeAlarms
       x-jdcloud-internal: false
       parameters:
         - type: string
-          description: Product Name
+          description: "Product Name"
           name: serviceCode
           in: query
         - type: string
-          description: Resource Id
+          description: "Resource Id"
           name: resourceId
           in: query
         - type: integer
@@ -32,7 +32,7 @@ paths:
           name: status
           in: query
         - type: integer
-          description: Whether it is the rule that is alarming, 0 is neglect, 1 is yes, only one can take effect at the same time as status, isAlarming takes priority to take effect
+          description: "Whether it is the rule that is alarming, 0 is neglect, 1 is yes, only one can take effect at the same time as status, isAlarming takes priority to take effect"
           name: isAlarming
           in: query
         - type: integer
@@ -44,36 +44,36 @@ paths:
           name: pageNumber
           in: query
         - type: integer
-          description: Paging size; it is 20 by default; value range[10, 100]
+          description: "Paging size; it is 20 by default; value range[10, 100]"
           name: pageSize
           in: query
       responses:
         200:
-          description:  OK
+          description: "OK"
           schema:
             properties:
               result:
                 properties:
                   alarmList:
-                    description: List of rules
+                    description: "List of rules"
                     type: array
                     items:
                       $ref: "../model/Alarm.yaml#/definitions/alarm"
                   pageNumber:
                     type: number
-                    description: Page
+                    description: "Page"
                   numberPages:
                     type: number
-                    description: Number of Total Pages
+                    description: "Number of Total Pages"
                   numberRecords:
                     type: number
-                    description: Number of Total Records
+                    description: "Number of Total Records"
                   pageSize:
                     type: number
-                    description: Paging Size
+                    description: "Paging Size"
               requestId:
                 type: string
-                description: Request ID
+                description: "Request ID"
         400:
           description: "invalid parameter"
         500:
@@ -81,7 +81,7 @@ paths:
 
     ###################### Create Rules######################
     post:
-      description: Create alarm rules, it can create alarm rules for a certain instance, or it also can create alarm rules for multiple instances at the same time.
+      description: "Create alarm rules, it can create alarm rules for a certain instance, or it also can create alarm rules for multiple instances at the same time."
       summary: Create Rules
       operationId: createAlarm
       x-jdcloud-internal: false
@@ -94,7 +94,7 @@ paths:
             $ref: "../model/Alarm.yaml#/definitions/createAlarmBody"
       responses:
         200:
-          description:  OK
+          description: "OK"
           schema:
             properties:
               result:
@@ -102,12 +102,12 @@ paths:
                 properties:
                   alarmIdList:
                     type: array
-                    description: Rule ID List Created                    
+                    description: "Rule ID List Created                    "
                     items:
                       type: string 
               requestId:
                 type: string
-                description: Request ID
+                description: "Request ID"
         400:
           description: "invalid parameter"
         500:
@@ -115,24 +115,24 @@ paths:
           
     ###################### Delete Rules in Batches ######################
     delete:
-      description: Delete alarm rules already created in batches
+      description: "Delete alarm rules already created in batches"
       summary: Delete alarm rules already created in batches
       operationId: deleteAlarms
       x-jdcloud-internal: false
       parameters:
         - type: string
-          description: For rule id to be deleted, use "|" to separate multiple rules
+          description: "For rule id to be deleted, use "|" to separate multiple rules"
           name: ids
           in: query
           required: true
       responses:
         200:
-          description:  OK
+          description: "OK"
           schema:
             properties:
               requestId:
                 type: string
-                description: Request ID
+                description: "Request ID"
         400:
           description: "invalid parameter"
         500:
@@ -141,13 +141,13 @@ paths:
   /alarms/{alarmId}:
     ###################### Query Rule Details ######################
     get:
-      description: Query Rule Details
+      description: "Query Rule Details"
       summary: Query Rule Details
       operationId: describeAlarmsByID
       x-jdcloud-internal: false
       responses:
         200:
-          description:  OK
+          description: "OK"
           schema:
             properties:
               result:
@@ -157,7 +157,7 @@ paths:
                     $ref: "../model/Alarm.yaml#/definitions/alarm"    
               requestId:
                 type: string
-                description: Request ID
+                description: "Request ID"
         400:
           description: "invalid parameter"
         500:
@@ -165,30 +165,30 @@ paths:
           
     ###################### Modify Rules ######################
     patch:
-      description: Modify alarm rules already created, support to modify alarm rules and notified contact information When the alarm rule is in the status of “Enabled” the alarm rule is allowed to be modified.
+      description: "Modify alarm rules already created, support to modify alarm rules and notified contact information When the alarm rule is in the status of “Enabled” the alarm rule is allowed to be modified."
       summary: Modify Rules
       operationId: updateAlarm
       x-jdcloud-internal: false
       parameters:
         - name: Body
           in: body
-          description: Rule Parameter"
+          description: "Rule Parameter""
           x-jdcloud-tiered: false
           schema:
             $ref: "../model/Alarm.yaml#/definitions/updateAlarmBody"
       responses:
         200:
-          description:  OK
+          description: "OK"
           schema:
             properties:
               requestId:
                 type: string
-                description: Request ID
+                description: "Request ID"
               result:
                 type: object
                 properties:
                   alarmId:
-                    description: Rule ID
+                    description: "Rule ID"
                     type: string
         400:
           description: "invalid parameter"
@@ -198,18 +198,18 @@ paths:
   "/alarms/{alarmId}:enable":
     ###################### Enable Rules ######################
     post:
-      description: Enable the alarm rule, when the alarm rule is in the status of “Disabled”, the alarm rule can be enabled by using the API.
+      description: "Enable the alarm rule, when the alarm rule is in the status of “Disabled”, the alarm rule can be enabled by using the API."
       summary: Enable rules
       operationId: enableAlarm
       x-jdcloud-internal: false
       responses:
         200:
-          description:  OK
+          description: "OK"
           schema:
             properties:
               requestId:
                 type: string
-                description: Request ID
+                description: "Request ID"
         400:
           description: "invalid parameter"
         500:
@@ -218,18 +218,18 @@ paths:
   "/alarms/{alarmId}:disable":
     ###################### Disable Rules ######################
     post:
-      description: Disable the alarm rule. After the alarm rule is disabled, the detection of monitoring item data of the instance will be stopped.
+      description: "Disable the alarm rule. After the alarm rule is disabled, the detection of monitoring item data of the instance will be stopped."
       summary: Disable Rules
       operationId: disableAlarm
       x-jdcloud-internal: false
       responses:
         200:
-          description:  OK
+          description: "OK"
           schema:
             properties:
               requestId:
                 type: string
-                description: Request ID
+                description: "Request ID"
         400:
           description: "invalid parameter"
         500:
@@ -238,21 +238,21 @@ paths:
   /alarmHistory:
     ###################### Query Alarm History ######################
     get:
-      description: Query alarm history, supporting query based on alarm rule ID, resource ID and product name.
+      description: "Query alarm history, supporting query based on alarm rule ID, resource ID and product name."
       summary: Query Alarm History
       operationId: describeAlarmHistory
       x-jdcloud-internal: false      
       parameters:
       - type: string
-        description: ID of Alarm Rule
+        description: "ID of Alarm Rule"
         name: id
         in: query
       - type: string
-        description: Product Name
+        description: "Product Name"
         name: serviceCode
         in: query
       - type: string
-        description: Resource Id
+        description: "Resource Id"
         name: resourceId
         in: query
       - type: string
@@ -270,36 +270,36 @@ paths:
         name: pageNumber
         in: query
       - type: integer
-        description: Paging size; it is 20 by default; value range[10, 100]
+        description: "Paging size; it is 20 by default; value range[10, 100]"
         name: pageSize
         in: query
       responses:
         200:
-          description:  OK
+          description: "OK"
           schema:
             properties:
               result:
                 properties:
                   alarmHistoryList:
-                    description: Alarm History List
+                    description: "Alarm History List"
                     type: array
                     items:
                       $ref: "../model/Alarm.yaml#/definitions/alarmHistory"
                   pageNumber:
                     type: number
-                    description: Page
+                    description: "Page"
                   numberPages:
                     type: number
-                    description: Number of Total Pages
+                    description: "Number of Total Pages"
                   numberRecords:
                     type: number
-                    description: Number of Total Records
+                    description: "Number of Total Records"
                   pageSize:
                     type: number
-                    description: Paging Size
+                    description: "Paging Size"
               requestId:
                 type: string
-                description: Request ID
+                description: "Request ID"
         400:
           description: "invalid parameter"
         500:
@@ -309,13 +309,13 @@ paths:
 parameters:
   regionId:
     type: string
-    description: Region ID
+    description: "Region ID"
     name: regionId
     in: path
     required: true
   alarmId:
     type: string
-    description: Rule ID
+    description: "Rule ID"
     name: alarmId
     in: path
     required: true

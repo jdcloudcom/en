@@ -5,10 +5,10 @@ definitions:
     properties:
       deviceIndex:
         type: integer
-        description: Device Index
+        description: "Device Index"
       autoDelete:
         type: boolean
-        description: Indicates whether the network interface is deleted when deleting an instance, and the default is true, which cannot be changed currently
+        description: "Indicates whether the network interface is deleted when deleting an instance, and the default is true, which cannot be changed currently"
       networkInterface:
         $ref: "./InstanceNetworkInterface.yaml#/definitions/instanceNetworkInterface"
-        description: Network interface API instance type
+        description: "Network interface API instance type"

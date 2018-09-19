@@ -1,0 +1,8 @@
+swagger: "2.0"
+info:
+  version: "v1"
+  title: jke
+  description: K8S Cluster Service APIs
+host: "openapi.jks.jcloud.com"
+x-jdcloud-version: "v1"
+x-jdcloud-revision: "0.1.0"

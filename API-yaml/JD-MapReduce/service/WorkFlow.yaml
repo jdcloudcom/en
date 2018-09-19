@@ -2,7 +2,7 @@ swagger: "2.0"
 info:
   version: "v1"
   title: Workflow Management
-  description: JMR workflow management
+  description: "JMR workflow management"
 
 basePath: /regions/{regionId}
 paths:
@@ -24,7 +24,7 @@ paths:
                $ref: "../model/SelectParams.yaml#/definitions/selectParams"
          responses:
            200:
-             description: OK
+             description: "OK"
              schema:
                properties:
                  result:
@@ -44,8 +44,7 @@ paths:
                              $ref: "../model/EmrWorkflow.yaml#/definitions/emrWorkflow"
                          workflowName:
                            type: string
-                         description:
-                 requestId:
+                         description: "requestId:"
                    type: string
            500:
              description: "Internal server error"
@@ -63,7 +62,7 @@ paths:
                $ref: "../model/EmrWorkflow.yaml#/definitions/emrWorkflow"
          responses:
            200:
-             description: OK
+             description: "OK"
              schema:
                properties:
                  result:
@@ -88,10 +87,10 @@ paths:
              in: path
              required: true
              type: string
-             description: Workflow ID
+             description: "Workflow ID"
          responses:
            200:
-             description: OK
+             description: "OK"
              schema:
                properties:
                  result:
@@ -114,10 +113,10 @@ paths:
              in: path
              required: true
              type: string
-             description: Workflow ID
+             description: "Workflow ID"
          responses:
            200:
-             description: OK
+             description: "OK"
              schema:
                properties:
                  result:
@@ -148,10 +147,10 @@ paths:
                    type: string
                  wfId:
                    type: string
-             description: Workflow ID
+             description: "Workflow ID"
          responses:
            200:
-             description: OK
+             description: "OK"
              schema:
                properties:
                  result:
@@ -174,7 +173,7 @@ paths:
                $ref: "../model/SelectParams.yaml#/definitions/selectParams"
          responses:
            200:
-             description: OK
+             description: "OK"
              schema:
                properties:
                  result:
@@ -192,7 +191,7 @@ paths:
                            type: array
                            items:
                              $ref: "../model/SchedulerWorkflowTracker.yaml#/definitions/schedulerWorkflowTracker"
-                       description: |
+                       description: "|"
                                     "Include workflow list - workFlowTrackerList"
                                     "And list size - totalNum"
                  requestId:
@@ -211,7 +210,7 @@ paths:
              type: string
          responses:
            200:
-             description: OK
+             description: "OK"
              schema:
                properties:
                  result:
@@ -231,4 +230,4 @@ parameters:
    in: path
    required: true
    type: string
-   description: Region ID
+   description: "Region ID"

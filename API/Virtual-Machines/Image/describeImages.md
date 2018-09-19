@@ -26,7 +26,7 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/images
 |**pageSize**|Integer|False|20|Paging size; 20 by default;Value range[10, 100] |
 |**platform**|String|False||Operating system platform,  range of values: Windows Server,  CentOS,  Ubuntu|
 |**rootDeviceType**|String|False||image-supported system disk types, [ScanDisk,  click Disk]|
-|**status**|String|False||<a href="https://www.jdcloud.com/help/detail/3871/isCatalog/1">参考镜像状态</a>|
+|**status**|String|False||<a href="https://www.jdcloud.com/help/detail/3871/isCatalog/1">Refer to image status</a>|
 
 
 ## Return parameter
@@ -58,7 +58,7 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/images
 |**rootDeviceType**|String||
 |**sizeMB**|Integer|Image document size|
 |**snapshotId**|String|The snapshot ID of the cloud disk for creating the system disk of the cloud disk, when the system disk type is image of the local disk, this parameter is blank.|
-|**status**|String|<a href="https://www.jdcloud.com/help/detail/3871/isCatalog/1">参考镜像状态</a>|
+|**status**|String|<a href="https://www.jdcloud.com/help/detail/3871/isCatalog/1">Refer to image status</a>|
 |**systemDisk**|InstanceDiskAttachment|System disk configuration|
 |**systemDiskSizeGB**|Integer|Image system disk size|
 ### <a name="InstanceDiskAttachment">InstanceDiskAttachment</a>

@@ -2,7 +2,7 @@ swagger: "2.0"
 info:
   version: "v1"
   title: database
-  description: API related to XDATA-DW database
+  description: "API related to XDATA-DW database"
 
 basePath: /regions/{regionId}
 
@@ -20,7 +20,7 @@ paths:
               description: "Instance Name"
           responses:
             200:
-              description: OK
+              description: "OK"
               schema:
                 properties:
                   result:
@@ -56,7 +56,7 @@ paths:
               description: "Database Description Information"
           responses:
             200:
-              description: OK
+              description: "OK"
               schema:
                 properties:
                   result:
@@ -82,7 +82,7 @@ paths:
               description: "Instance Name"
           responses:
             200:
-              description: OK
+              description: "OK"
               schema:
                 properties:
                   result:
@@ -110,7 +110,7 @@ paths:
               description: "Instance Name"
           responses:
             200:
-              description: OK
+              description: "OK"
               schema:
                 properties:
                   result:
@@ -131,10 +131,10 @@ parameters:
     in: path
     required: true
     type: string
-    description: Region ID
+    description: "Region ID"
   databaseName:
     name: databaseName
     in: path
     required: true
     type: string
-    description: Database Name
+    description: "Database Name"

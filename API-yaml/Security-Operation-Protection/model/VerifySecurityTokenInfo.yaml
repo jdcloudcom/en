@@ -7,4 +7,4 @@ definitions:
     properties:
       action:
         type: string
-        description: Operate action serviceName:actionName
+        description: "Operate action serviceName:actionName"

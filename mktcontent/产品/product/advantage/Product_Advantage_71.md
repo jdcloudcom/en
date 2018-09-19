@@ -1,25 +1,25 @@
 [
 	{
-		"proGoodTitle":"Product advantages",
+		"proGoodTitle":"Benefits",
 		"proNameTitle":"NAT Gateway",
 		"proDiffTitle":"",
-		"proGood":"Cost saving",
-		"proName":"When you create a NAT Gateway via the VM, you need to pay for only the VM and public IP because the NAT Gateway is free of charge.",
+		"proGood":"Cost Saving",
+		"proName":"Currently, when creating a NAT Gateway via a Virtual Machine, the users only need to pay for the Virtual Machines and EIP cost; the NAT Gateway is free of charge.",
 		"proDiff":""
 	},
 	{
-		"proGood":"Resource saving",
-		"proName":"Multiple intranet instances have access to the public network via a public IP to jointly enjoy the public network bandwidth.",
+		"proGood":"Resource Saving",
+		"proName":"Multiple intranet instances can access to the Internet via a public IP, sharing the public network bandwidth.",
 		"proDiff":""
 	},
 	{
-		"proGood":"Simple and easy to use",
-		"proName":"You can create a NAT Gateway freely via the VM to configure rules easily and flexibly.",
+		"proGood":"Simple and User-friendly",
+		"proName":"The users can create a NAT Gateway by themselves via a Virtual Machine and configure rules flexibly. It is easy to operate..",
 		"proDiff":""
 	},
 	{
-		"proGood":"Cost saving",
-		"proName":"When you create a NAT Gateway via the VM, you need to pay for only the VM and public IP because the NAT Gateway is free of charge.",
+		"proGood":"Cost Saving",
+		"proName":"Currently, when creating a NAT Gateway via a Virtual Machine, the users only need to pay for the Virtual Machines and EIP cost; the NAT Gateway is free of charge.",
 		"proDiff":""
 	}
 ]

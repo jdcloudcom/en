@@ -9,10 +9,10 @@ definitions:
     properties:
       name:
         type: string
-        description: Name of Filter Requirements
+        description: "Name of Filter Requirements"
       operator:
         type: string
-        description: Operator of filter requirements is eq by default
+        description: "Operator of filter requirements is eq by default"
         enum:
           - eq
           - lt
@@ -24,7 +24,7 @@ definitions:
           - like
       values:
         type: array
-        description: Value of Filter Requirements
+        description: "Value of Filter Requirements"
         items:
           type: string
 

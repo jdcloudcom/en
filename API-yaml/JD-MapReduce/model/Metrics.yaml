@@ -13,7 +13,7 @@ definitions:
         type: string
       unit:
         type: string
-        description: Measurement Unit
+        description: "Measurement Unit"
       aggrType:
         type: string
       dps:

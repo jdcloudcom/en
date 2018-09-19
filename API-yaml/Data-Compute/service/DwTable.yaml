@@ -2,7 +2,7 @@ swagger: "2.0"
 info:
   version: "v1"
   title: table
-  description: API related to XDATA-DW table
+  description: "API related to XDATA-DW table"
 
 basePath: /regions/{regionId}
 
@@ -25,7 +25,7 @@ paths:
               description: "Database Name"
           responses:
             200:
-              description: OK
+              description: "OK"
               schema:
                 properties:
                   result:
@@ -61,7 +61,7 @@ paths:
                 $ref: "../model/DwTableDesc.yaml#/definitions/dwTableDesc"
           responses:
             200:
-              description: OK
+              description: "OK"
               schema:
                 properties:
                   result:
@@ -91,7 +91,7 @@ paths:
               description: "Database Name"
           responses:
             200:
-              description: OK
+              description: "OK"
               schema:
                 properties:
                   result:
@@ -124,7 +124,7 @@ paths:
               description: "Database Name"
           responses:
             200:
-              description: OK
+              description: "OK"
               schema:
                 properties:
                   result:
@@ -147,10 +147,10 @@ parameters:
     in: path
     required: true
     type: string
-    description: Region ID
+    description: "Region ID"
   tableName:
     name: tableName
     in: path
     required: true
     type: string
-    description: Datasheet Name
+    description: "Datasheet Name"

@@ -13,8 +13,8 @@ items:
         href: Introduction/Benefits.md
       - name: Features
         href: Introduction/Features.md
-      - name: Specifications
-        href: Introduction/Specifications.md
+      - name: Instance Type Family
+        href: Introduction/Instance-Type-Family.md
       - name: Restrictions
         href: Introduction/Restrictions.md
       - name: Application Scenarios
@@ -294,7 +294,7 @@ items:
                     href: Linux-Troubleshooting/Fault-Class/How-to-view-the-time-when-the-server-was-last-restarted-from-the-system.md
                   - name: Delete File in Linux and Prompt Operation not permitted
                     href: Linux-Troubleshooting/Fault-Class/Linux-delete-file-prompt-Operation-not-permitted.md
-                  - name: Linux系统cpu，内存高负载排查
+                  - name: CPU of Linux System, High Memory Load Check
                     href: Linux-Troubleshooting/Fault-Class/Linux-system-cpu-memory-high-load-troubleshooting.md
                   - name: Problems When Linux System Creates Cloud Disk with Snapshot
                     href: Linux-Troubleshooting/Fault-Class/Linux-system-creates-a-cloud-disk-problem-through-snapshots.md
@@ -326,7 +326,7 @@ items:
                     href: Linux-Troubleshooting/Fault-Class/SSH-login-time-report-User-root-not-allowed-because-not-listed-in.md
                   - name: Following Error Occurs during SSH Connection: error Could not get shadow infromation for root
                     href: Linux-Troubleshooting/Fault-Class/The-following-error-occurred-during-SSH-connection-error-Could-not-get-shadow-infromation-for-root.md
-                  - name: SSH 连接时出现如下错误：pam_limits(sshd：session)：could not sent limit for 'nofile'
+                  - name: Errors Below Arising during SSH Connection: pam_limits(sshd: session): could not sent limit for 'nofile'
                     href: Linux-Troubleshooting/Fault-Class/The-following-error-occurred-during-SSH-connection-pam-limits-sshd-session-could-not-sent-limit-for-nofile.md
                   - name: Following Error Occurs during SSH Connection: pam_unix(sshdsession) session closed for user
                     href: Linux-Troubleshooting/Fault-Class/The-following-error-occurred-during-SSH-connection-pam-unix-sshdsession-session-closed-for-user.md
@@ -434,7 +434,7 @@ items:
                         href: Windows-Troubleshooting/Fault-Class/Too-many-Windows-Time-Wait-failed-to-access-the-external-network.md
                       - name: What if the VM Auto Reboots in Early Morning
                         href: Windows-Troubleshooting/Fault-Class/What-should-I-do-if-the-cloud-host-automatically-restarts-in-the-early-morning.md
-                      - name: Windows2008 更新补丁报"8000FFFFwindows update 遇到未知错误"
+                      - name: Give "8000FFFFwindows update Unknown Error" Message When Updating Patches in Windows2008
                         href: Windows-Troubleshooting/Fault-Class/Windows-2008-update-patch-reported-8000FFFF-windows-update-encountered-an-unknown-error.md
                       - name: Error Occurs and Source Files Not Found during .NET Framework 3.5.1 Installation in Windows 2012
                         href: Windows-Troubleshooting/Fault-Class/Windows-2012-installation-NET-Framework-3-5-1-error-can-not-find-the-source-file.md
@@ -446,7 +446,7 @@ items:
                         href: Windows-Troubleshooting/Fault-Class/Windows-remote-prompts-an-authentication-error-and-the-requested-function-is-not-supported.md
                       - name: High Memery Usage by TrustedInstaller.exe in Windows System
                         href: Windows-Troubleshooting/Fault-Class/Windows-system-TrustedInstaller-exe-takes-up-memory.md
-                      - name: Windows系统svchost.exe进程占用cpu，内存资源高的处理办法
+                      - name: Processing Method for High Memory Resources Caused by the Reason that cpu is Occupied by the svchost.exe Process of the Windows
                         href: Windows-Troubleshooting/Fault-Class/Windows-system-svchost-exe-process-occupies-cpu-high-memory-resources.md
                       - name: FTP Error 451 Processing Method
                         href: Windows-Troubleshooting/Fault-Class/FTP-report-Error-code-451-processing-method.md
@@ -460,7 +460,7 @@ items:
                         href: Windows-Troubleshooting/Fault-Class/Windows-Remote-Connection-Prompt-does-not-have-a-license.md
                       - name: Windows Remote Desktop Credential Not Work
                         href: Windows-Troubleshooting/Fault-Class/Windows-Telegram-credentials-do-not-work.md
-                      - name: Windows自动更新消耗cpu内存过高
+                      - name: High cpu Memory Consumption by Automatic Windows Update
                         href: Windows-Troubleshooting/Fault-Class/Windows-automatic-update-consumes-too-much-CPU-memory.md
                       - name: Windows High Bandwidth Usage Processing
                         href: Windows-Troubleshooting/Fault-Class/Windows-bandwidth-consumption-is-high.md
@@ -470,11 +470,11 @@ items:
                         href: Windows-Troubleshooting/Fault-Class/Windows-installation-running-application-prompts-msvcr100-dll-missing.md
                       - name: External or Offline Status of Windows System Cloud Disk
                         href: Windows-Troubleshooting/Fault-Class/Windows-system-cloud-drive-status-external-or-offline.md
-                      - name: Windows系统cpu占用高排查
+                      - name: High cpu Occupation Check for Windows System
                         href: Windows-Troubleshooting/Fault-Class/Windows-system-cpu-occupancy-high-troubleshooting.md
                       - name: Analysis on Windows System Memory Usage
                         href: Windows-Troubleshooting/Fault-Class/Windows-system-memory-footprint-analysis.md
-                      - name: Windows系统tasking.exe进程占用大量cpu资源
+                      - name: Lots of cpu resources occupied by the tasking.exe Process of the Windows
                         href: Windows-Troubleshooting/Fault-Class/Windows-system-tasking-exe-process-occupies-a-lot-of-cpu-resources.md
                       - name: Windows update Error 80070008 or 8007000e
                         href: Windows-Troubleshooting/Fault-Class/Windows-update-error-80070008-or-8007000e.md

@@ -1,16 +1,16 @@
 [
 	{
-		"funcName":"Analysis of Text Data",
+		"funcName":"Text Data Analysis",
 		"funcContent":[
 			{
 				"funcName":"",
-				"funcTitle":"Text search",
+				"funcTitle":"TText Search",
 				"funcP":"Extracting text search tags based on text content to improve text search accuracy and review quality"
 			},
 			{
 				"funcName":"",
-				"funcTitle":"Text proofreading",
-				"funcP":"According to the word segmentation results, syntactic analysis and part-of-speech tagging of the text to carry out screening, the text can be quickly corrected"
+				"funcTitle":"Text Proofreading",
+				"funcP":"Correct errors in the text quickly by screening based on word segmentation results, syntactic analysis and part-of-speech tagging. "
 			}
 		]
 	},
@@ -19,18 +19,18 @@
 		"funcContent":[
 			{
 				"funcName":"",
-				"funcTitle":"Entity database setup",
-				"funcP":"Carrying out Domain classification to text information, extracting valid data information, and constructing relevant knowledge maps"
+				"funcTitle":"Entity Database Setup",
+				"funcP":"Classify text information according to Domains, extract valid data information, and build relevant knowledge graphs."
 			},
 			{
 				"funcName":"",
-				"funcTitle":"Classification management",
-				"funcP":"Based on large-scale text corpus data, keywords in text information are extracted into data labels to quickly and effectively achieve classification"
+				"funcTitle":"Classification Management",
+				"funcP":"Based on large-scale text language data, keywords in text are extracted as data labels to achieve quick and effective classification. "
 			},
 			{
 				"funcName":"",
-				"funcTitle":"Instruction parsing",
-				"funcP":"According to the user scenario, intelligently optimizing classification and matching related algorithms, so that the machine can understand the instruction content more accurately."
+				"funcTitle":"Instruction Parsing",
+				"funcP":"Classifications can be intelligently optimized and algorithms can be matched according to users' scenarios so that the Virtual Machine can understand the instructions more accurately. "
 			}
 		]
 	}

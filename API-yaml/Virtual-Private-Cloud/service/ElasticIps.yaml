@@ -2,7 +2,7 @@ swagger: "2.0"
 info:
   version: "v1"
   title: Elastic IP
-  description: Elastic IP APIs
+  description: "Elastic IP APIs"
 
 basePath: /regions/{regionId}
 
@@ -37,14 +37,14 @@ paths:
           items:
             #$ref: "/jcloud-open-api/common/model/Filter.yaml#/definitions/filter"
             $ref: "../../common/model/Filter.yaml#/definitions/filter"
-          description: |
+          description: "|"
             elasticIpIds - ElasticIP ID Array Conditions, Support Multiple IDs
             elasticIpAddress - EIP IP Address, Support Single Address
             chargeStatus	- EIP Payment Status, Normal(normal status) or Overdue(Pay-In-Advance expired) or Arrear(arrear status), Support Single Status
 
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             type: object
             properties:
@@ -83,7 +83,7 @@ paths:
             $ref: "../model/CreateElasticIpSpec.yaml#/definitions/createElasticIpSpec"
       responses:
         200:
-          description: Successful operation
+          description: "Successful operation"
           schema:
             type: object
             properties:
@@ -95,7 +95,7 @@ paths:
                     type: array
                     items:
                       type: string
-                      description: Elastic IP ID
+                      description: "Elastic IP ID"
                   requestId:
                     description: "Request ID"
                     type: string
@@ -117,7 +117,7 @@ paths:
         operationId: describeElasticIp
         responses:
           200:
-            description: OK
+            description: "OK"
             schema:
               properties:
                 result:
@@ -141,7 +141,7 @@ paths:
         operationId: deleteElasticIp
         responses:
           200:
-            description: OK
+            description: "OK"
             schema:
               properties:
                 requestId:
@@ -172,7 +172,7 @@ paths:
 
         responses:
          200:
-            description: Successful operation
+            description: "Successful operation"
             schema:
               type: object
               properties:
@@ -182,7 +182,7 @@ paths:
          400:
             description: "Invalid param 'xxx'"
          404:
-            description: Resource not found
+            description: "Resource not found"
           
 parameters:
   regionId:
@@ -190,13 +190,13 @@ parameters:
     in: path
     required: true
     type: string
-    description: Region ID
+    description: "Region ID"
   elasticIpId:
     name: elasticIpId
     in: path
     required: true
     type: string
-    description: ElasticIp ID
+    description: "ElasticIp ID"
         
 
     

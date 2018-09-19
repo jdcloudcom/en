@@ -7,7 +7,7 @@ definitions:
     properties:
       subnetId:
         type: string
-        description: Subnet ID to be disassociated by route table, subnet associates the default route table upon disassociation
+        description: "Subnet ID to be disassociated by route table, subnet associates the default route table upon disassociation"
 
 
 

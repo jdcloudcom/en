@@ -7,46 +7,46 @@ definitions:
     properties:
       nodeName:
         type: string
-        description: Node Name
+        description: "Node Name"
       nodeType:
         type: string
-        description: Node Type
+        description: "Node Type"
       nodeStatus:
         type: string
-        description: Node Status
+        description: "Node Status"
       innerIp:
         type: string
-        description: Private IP
+        description: "Private IP"
       outerIp:
         type: string
-        description: Internet IP
+        description: "Internet IP"
       firewall:
         type: string
-        description: Firewall
+        description: "Firewall"
       nodeCoreNum:
         type: integer
-        description: Node Core Number
+        description: "Node Core Number"
       nodeMemoryNum:
         type: integer
-        description: Node Memory
+        description: "Node Memory"
       nodeSystemInfo:
         type: string
-        description: Node System Information
+        description: "Node System Information"
       nodeDiskType:
         type: string
-        description: Node Hard Disk Type
+        description: "Node Hard Disk Type"
       nodeDiskVolume:
         type: integer
-        description: Node Hard Disk Capacity
+        description: "Node Hard Disk Capacity"
       serverId:
         type: string
-        description: Node Instance ID
+        description: "Node Instance ID"
       msg:
         type: string
-        description: Message
+        description: "Message"
       instanceType:
         type: string
-        description: Node Hardware Configuration
+        description: "Node Hardware Configuration"
       instanceInfo:
         type: string
-        description: Node Hardware Type
+        description: "Node Hardware Type"

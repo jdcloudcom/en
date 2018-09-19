@@ -7,31 +7,31 @@ definitions:
     properties:
       status:
         type: boolean
-        description: Status
+        description: "Status"
       message:
         type: string
-        description: Return Information
+        description: "Return Information"
       select:
         type: boolean
-        description: Select Permission
+        description: "Select Permission"
       insert:
         type: boolean
-        description: Insert Permission
+        description: "Insert Permission"
       update:
         type: boolean
-        description: Update Permission
+        description: "Update Permission"
       delete:
         type: boolean
-        description: Delete Permission
+        description: "Delete Permission"
       drop:
         type: boolean
-        description: Drop Permission
+        description: "Drop Permission"
       create:
         type: boolean
-        description: Create Permission
+        description: "Create Permission"
       alter:
         type: boolean
-        description: Alter Permission
+        description: "Alter Permission"
       owner:
         type: boolean
-        description: Is it the owner or not
+        description: "Is it the owner or not"

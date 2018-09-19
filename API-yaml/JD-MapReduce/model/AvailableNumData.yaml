@@ -7,4 +7,4 @@ definitions:
     properties:
       serverNum:
         type: integer
-        description: Number of Available Services
+        description: "Number of Available Services"

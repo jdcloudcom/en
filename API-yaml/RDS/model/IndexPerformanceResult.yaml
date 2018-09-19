@@ -7,25 +7,25 @@ definitions:
     properties:
       db:
         type: string
-        description: Database Name
+        description: "Database Name"
       table:
         type: string
-        description: Table Name
+        description: "Table Name"
       index:
         type: string
-        description: Index Name
+        description: "Index Name"
       sizeKB:
         type: integer
-        description: Index Size, Unit: KB
+        description: "Index Size, Unit: KB"
       userSeeks:
         type: integer
-        description: Cumulative index search times since the server was started
+        description: "Cumulative index search times since the server was started"
       userScans:
         type: integer
-        description: Cumulative number of table scans since the server was started
+        description: "Cumulative number of table scans since the server was started"
       userUpdates:
         type: integer
-        description: Cumulative number of index updates since the server was started
+        description: "Cumulative number of index updates since the server was started"
       lastUserSeek:
         type: string
         description: "Last index search time, format YYYY-MM-DD hh:mm:ss"

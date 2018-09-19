@@ -2,7 +2,7 @@ swagger: "2.0"
 info:
   version: "v1"
   title: Monitor
-  description: JMR Monitor
+  description: "JMR Monitor"
 
 basePath: /regions/{regionId}
 paths:
@@ -17,15 +17,15 @@ paths:
              in: path
              required: true
              type: string
-             description: Cluster ID
+             description: "Cluster ID"
            - name: timeInterval
              in: query
              required: true
              type: string
-             description: Search interval duration, such as 1h
+             description: "Search interval duration, such as 1h"
          responses:
            200:
-             description: OK
+             description: "OK"
              schema:
                properties:
                  result:
@@ -53,10 +53,10 @@ paths:
              in: path
              required: true
              type: string
-             description: Cluster ID
+             description: "Cluster ID"
          responses:
            200:
-             description: OK
+             description: "OK"
              schema:
                properties:
                  result:
@@ -80,4 +80,4 @@ parameters:
    in: path
    required: true
    type: string
-   description: Region ID
+   description: "Region ID"

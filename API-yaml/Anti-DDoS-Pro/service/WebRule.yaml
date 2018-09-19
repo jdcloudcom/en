@@ -2,7 +2,7 @@ swagger: "2.0"
 info:
   version: "v1"
   title: Web Forwarding Configuration APIs
-  description: Web Forwarding Configuration APIs
+  description: "Web Forwarding Configuration APIs"
 
 basePath: /regions/{regionId}
 
@@ -24,7 +24,7 @@ paths:
           description: "Paging size; it is 20 by default; value range [10, 100]"
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               result:
@@ -38,38 +38,38 @@ paths:
               requestId:
                 type: string
         404:
-          description: NOT_FOUND
+          description: "NOT_FOUND"
     post:
       description: "Add a web service rule"
       operationId: createWebRule
       parameters:
         - name: WebRuleSpec
           in: body
-          description: Web service rule parameter
+          description: "Web service rule parameter"
           required: true
           schema:
             $ref: "../model/WebRuleSpec.yaml#/definitions/webRuleSpec"
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               requestId:
                 type: string
         400:
-          description: BAD_REQUEST
+          description: "BAD_REQUEST"
         404:
-          description: NOT_FOUND
+          description: "NOT_FOUND"
         500:
-          description: INTERNAL_SERVER_ERROR
+          description: "INTERNAL_SERVER_ERROR"
 
   /instances/{instanceId}/webRules/{webRuleId}:
     get:
-      description: Search a web service rule
+      description: "Search a web service rule"
       operationId: describeWebRule
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               result:
@@ -79,36 +79,36 @@ paths:
               requestId:
                 type: string
         404:
-          description: NOT_FOUND
+          description: "NOT_FOUND"
     patch:
-      description: Update a web service rule
+      description: "Update a web service rule"
       operationId: modifyWebRule
       parameters:
         - name: WebRuleSpec
           in: body
-          description: Web service rule parameter
+          description: "Web service rule parameter"
           required: true
           schema:
             $ref: "../model/WebRuleSpec.yaml#/definitions/webRuleSpec"
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               requestId:
                 type: string
         400:
-          description: BAD_REQUEST
+          description: "BAD_REQUEST"
         404:
-          description: NOT_FOUND
+          description: "NOT_FOUND"
         500:
-          description: INTERNAL_SERVER_ERROR
+          description: "INTERNAL_SERVER_ERROR"
     delete:
-      description: Delete a web service rule
+      description: "Delete a web service rule"
       operationId: deleteWebRule
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               requestId:
@@ -120,15 +120,15 @@ paths:
       operationId: switchWebRuleProtect
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               requestId:
                 type: string
         404:
-          description: NOT_FOUND
+          description: "NOT_FOUND"
         500:
-          description: INTERNAL_SERVER_ERROR
+          description: "INTERNAL_SERVER_ERROR"
 
   /instances/{instanceId}/webRules/{webRuleId}:origin:
     post:
@@ -136,62 +136,62 @@ paths:
       operationId: switchWebRuleOrigin
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               requestId:
                 type: string
         404:
-          description: NOT_FOUND
+          description: "NOT_FOUND"
         500:
-          description: INTERNAL_SERVER_ERROR
+          description: "INTERNAL_SERVER_ERROR"
 
   /instances/{instanceId}/webRules/{webRuleId}:enableCC:
     post:
-      description: “Web service rules enable CC"
+      description: "“Web service rules enable CC""
       operationId: enableWebRuleCC
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               requestId:
                 type: string
         404:
-          description: NOT_FOUND
+          description: "NOT_FOUND"
         500:
-          description: INTERNAL_SERVER_ERROR
+          description: "INTERNAL_SERVER_ERROR"
 
   /instances/{instanceId}/webRules/{webRuleId}:disableCC:
     post:
-      description: “Web service rules disable CC"
+      description: "“Web service rules disable CC""
       operationId: disableWebRuleCC
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               requestId:
                 type: string
         404:
-          description: NOT_FOUND
+          description: "NOT_FOUND"
         500:
-          description: INTERNAL_SERVER_ERROR
+          description: "INTERNAL_SERVER_ERROR"
 
   /instances/{instanceId}/webRules/{webRuleId}:modifyCertInfo:
     post:
-      description: "编辑证书"
+      description: "Edit Certificate"
       operationId: modifyCertInfo
       parameters:
         - name: certInfoModifySpec
           in: body
-          description: "编辑证书请求参数"
+          description: "Request Parameter of Editing Certificate"
           required: true
           schema:
             $ref: "../model/CertInfoModifySpec.yaml#/definitions/CertInfoModifySpec"
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               requestId:
@@ -199,18 +199,18 @@ paths:
 
   /instances/{instanceId}/webRule:describeCertInfo:
     post:
-      description: "查询证书预览信息"
+      description: "Query the Certificate Preview Information"
       operationId: describeCertInfo
       parameters:
         - name: certInfoDescribeSpec
           in: body
-          description: "查询证书预览请求参数"
+          description: "Query the Request Parameter of Certificate Preview"
           required: true
           schema:
             $ref: "../model/CertInfoDescribeSpec.yaml#/definitions/CertInfoDescribeSpec"
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               result:
@@ -226,16 +226,16 @@ parameters:
     in: path
     required: true
     type: string
-    description: Belonging Region ID
+    description: "Belonging Region ID"
   instanceId:
     name: instanceId
     in: path
     required: true
     type: string
-    description: Instance ID
+    description: "Instance ID"
   webRuleId:
     name: webRuleId
     in: path
     required: true
     type: string
-    description: Web Service Rule ID
+    description: "Web Service Rule ID"

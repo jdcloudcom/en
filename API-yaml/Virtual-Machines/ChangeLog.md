@@ -3,7 +3,7 @@ API Version 1.0. 3
 
 |Release Time|Version Number|Update|Description|
 |---|---|---|---|
-|2018-09-06   |1.0.4   |文档完善       |* 完善文档描述，针对逻辑不清楚的地方补充描述 |
+|2018-09-06   |1.0.4   |Documentation Completion       |* Complete Document Description and Make Up Description for Unclear Logics |
 | 2018-08-20 | 1.0. 3 | Android Support | * Java SDK New Support for Android System |
 | 2018-08-06 | 1.0. 2 | API change | * Add API: Batch query the private IP address of the VM primary network interface <br> * Change API: query the VM list, batch query the VM status, add filtering conditions[subnet ID] |
 | 2018-07-24 | 1.0. 1 | Add API | * Add API: Create ssh key pair <br> * Add API: Import ssh key pair <br>* Add API: query ssh key pair <br> * Add API: Delete ssh key pair |

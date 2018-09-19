@@ -9,6 +9,6 @@ definitions:
         type: array
         items:
           type: integer
-        description: Permissions id Set
+        description: "Permissions id Set"
 
 

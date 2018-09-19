@@ -7,45 +7,44 @@ definitions:
     properties:
       diskId:
         type: string
-        description: Cloud Disk ID
+        description: "Cloud Disk ID"
       az:
         type: string
-        description: AZ, to which the Cloud Disk belongs
+        description: "AZ, to which the Cloud Disk belongs"
       name:
         type: string
-        description: Name of the Cloud Disk. Only Chinese characters, numbers, uppercase and lowercase letters, English underscores "_" or hyphens "-" are allowed. It is not allowed to be blank and shall not exceed 32 characters.
-      description:
-        type: string
-        description: Description of the Cloud Disk. It allows you to enter all characters under UTF-8 encoding, but no more than 256 characters.
+        description: "Name of the Cloud Disk. Only Chinese characters, numbers, uppercase and lowercase letters, English underscores "_" or hyphens "-" are allowed. It is not allowed to be blank and shall not exceed 32 characters."
+      description: "type: string"
+        description: "Description of the Cloud Disk. It allows you to enter all characters under UTF-8 encoding, but no more than 256 characters."
       diskType:
         type: string
-        description: Disk Type, ssd or premium-hdd
+        description: "Disk Type, ssd or premium-hdd"
       diskSizeGB:
         type: integer
-        description: Disk Size, in GiB
+        description: "Disk Size, in GiB"
       status:
         type: string
-        description: Status of the Cloud Disk, creating, available, in-use, extending, restoring, deleting, deleted, error_create, error_delete, error_restore or error_extend
+        description: "Status of the Cloud Disk, creating, available, in-use, extending, restoring, deleting, deleted, error_create, error_delete, error_restore or error_extend"
       attachments:
         type: array
         items:
           $ref: "./DiskAttachment.yaml#/definitions/diskAttachment"
-        description: Attach Information
+        description: "Attach Information"
       snapshotId:
         type: string
-        description: Snapshot ID used to create the Cloud Disk
+        description: "Snapshot ID used to create the Cloud Disk"
       multiAttachable:
         type: boolean
-        description: Does the Cloud Disk service support multiple attachments?
+        description: "Does the Cloud Disk service support multiple attachments?"
       createTime:
         type: string
         format: date-time
-        description: Cloud Disk Creating Time
+        description: "Cloud Disk Creating Time"
       charge:
         $ref: "../../charge/model/Charge.yaml#/definitions/charge"
-        description: Configuration Information for Cloud Disk Service Billing
+        description: "Configuration Information for Cloud Disk Service Billing"
       tags:
         type: array
         items:
           $ref: "./Tag.yaml#/definitions/tag"
-        description: Tag Information
+        description: "Tag Information"

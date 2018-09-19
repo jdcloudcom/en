@@ -9,38 +9,38 @@ definitions:
         type: number
       workflowId:
         type: string
-        description: Workflow ID
+        description: "Workflow ID"
       workflowName:
         type: string
-        description: Workflow Name
+        description: "Workflow Name"
       status:
         type: string
-        description: Workflow Status
+        description: "Workflow Status"
       userpin:
         type: string
-        description: User Name
+        description: "User Name"
       createTime:
         type: string
         format: date-time
-        description: Workflow Creation Time
+        description: "Workflow Creation Time"
       dataCenter:
         type: string
-        description: Data Center, i.e. regionId
+        description: "Data Center, i.e. regionId"
       modifyTime:
         type: string
         format: date-time
-        description: Last Time of Modification
+        description: "Last Time of Modification"
       isSelfDependence:
         type: boolean
-        description: |
+        description: "|"
                 "Whether it is self-dependent"
                 "1: Self-dependent (default), 0: Non-dependent"
       taskScheduleType:
         type: integer
-        description: |
+        description: "|"
                 "0: Real-time Task (default)"
                 "1: Periodic Task"
                 "2: Regular Task"
       isSendMsg:
         type: boolean
-        description: Whether to send a notice after failed
+        description: "Whether to send a notice after failed"

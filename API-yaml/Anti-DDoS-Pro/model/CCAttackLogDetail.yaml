@@ -6,7 +6,7 @@ definitions:
     properties:
       key:
         type: string
-        description: Feature Key
+        description: "Feature Key"
       num:
         type: integer
-        description: Attack Counts
+        description: "Attack Counts"

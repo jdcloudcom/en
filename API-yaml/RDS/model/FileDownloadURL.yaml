@@ -7,8 +7,8 @@ definitions:
     properties:
       publicURL:
         type: string
-        description: Public network download link, if download is not available currently, it is an empty string
+        description: "Public network download link, if download is not available currently, it is an empty string"
       internalURL:
         type: string
-        description: Intranet download link, if download is not available currently, it is an empty string
+        description: "Intranet download link, if download is not available currently, it is an empty string"
       

@@ -5,12 +5,12 @@ definitions:
     properties:
       alias:
         type: string
-        description: Alias
+        description: "Alias"
       region:
         type: string
-        description: Region
+        description: "Region"
       mapping:
         type: array
         items:
           $ref: "./AzMappingVo.yaml#/definitions/azMappingVo"
-        description: Az Mapping
+        description: "Az Mapping"

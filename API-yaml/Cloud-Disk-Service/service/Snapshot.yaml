@@ -2,7 +2,7 @@ swagger: "2.0"
 info:
   version: "v1"
   title: Snapshot APIs
-  description: Snapshot APIs provides functions such as creating snapshots, querying snapshot information, deleting snapshots, and modifying snapshot information.
+  description: "Snapshot APIs provides functions such as creating snapshots, querying snapshot information, deleting snapshots, and modifying snapshot information."
 
 basePath: /regions/{regionId}
 
@@ -37,14 +37,14 @@ paths:
           type: array
           items:
             $ref: "../../common/model/Filter.yaml#/definitions/filter"
-          description: |
+          description: "|"
             snapshotId - Cloud Disk Snapshot ID, Support Multiple
             diskId - the Cloud Disk ID of the Snapshot to be Generated, Support Multiple
             status - snapshot status, accurate match, support multiple, creating, available, in-use, deleting, error_create or error_delete
             name - snapshot name, fuzzy match, support single
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             type: object
             properties:
@@ -75,7 +75,7 @@ paths:
    ###################### API for Cloud Disk Snapshot Creation ######################
     post:
       summary: "Create a Cloud Disk Snapshot"
-      description: |
+      description: "|"
         -   Create a snapshot for the specified Cloud Disk, and the status of the newly generated snapshot is creating.
         -   The quota for single-user snapshots in the same region is 15.
         -   To ensure data integrity, please stop writing to the Cloud Disk before creating a snapshot to ensure the integrity of snapshot data.
@@ -94,10 +94,10 @@ paths:
           in: query
           required: true
           type: string
-          description: " Idempotence Check Parameter"
+          description: "Idempotence Check Parameter"
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               result:
@@ -130,7 +130,7 @@ paths:
         operationId: describeSnapshot
         responses:
           200:
-            description: OK
+            description: "OK"
             schema:
               properties:
                 result:
@@ -156,14 +156,14 @@ paths:
    ###################### API for Cloud Disk Snapshot Deletion ######################
       delete:
         summary: "Delete a Cloud Disk snapshot"
-        description: |
+        description: "|"
           -   Delete a single Cloud Disk snapshot: The snapshot status must be available or error status.
           -   The snapshot is independent from life cycle of the Cloud Disk. Deleting a snapshot does not have any effect on the Cloud Disk that created the snapshot.
           -   After the snapshot is deleted, it cannot be recovered. Please be cautious.
         operationId: deleteSnapshot
         responses:
           200:
-            description: OK
+            description: "OK"
           400:
             description: "Invalid parameter"
           401:
@@ -191,7 +191,7 @@ paths:
             description: "Snapshot Description. Name or description must be specified"
         responses:
           200:
-            description: OK
+            description: "OK"
           400:
             description: "Invalid parameter"
           401:
@@ -209,13 +209,13 @@ parameters:
     in: path
     required: true
     type: string
-    description: Region ID
+    description: "Region ID"
   snapshotId:
     name: snapshotId
     in: path
     required: true
     type: string
-    description: Snapshot ID
+    description: "Snapshot ID"
         
 
     

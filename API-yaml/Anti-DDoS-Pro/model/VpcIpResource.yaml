@@ -1,0 +1,12 @@
+swagger: "2.0"
+definitions:
+  VpcIpResource:
+    type: object
+    x-jdcloud-module: ipanti
+    properties:
+      ip:
+        type: string
+        description: "In-cloud IP Address"
+      binded:
+        type: boolean
+        description: "Associate or Not"

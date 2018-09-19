@@ -7,15 +7,15 @@ definitions:
     properties:
       primary:
         $ref: "./TopologyPair.yaml#/definitions/TopologyPair"
-        description: Primary
+        description: "Primary"
       secondary:
         type: array
-        description: Backup
+        description: "Backup"
         items:
           $ref: "./TopologyPair.yaml#/definitions/TopologyPair"
       hidden:
         type: array
-        description: Hide
+        description: "Hide"
         items:
           $ref: "./TopologyPair.yaml#/definitions/TopologyPair"
       

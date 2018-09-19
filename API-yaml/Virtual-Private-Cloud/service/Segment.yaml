@@ -2,7 +2,7 @@ swagger: "2.0"
 info:
   version: "v1"
   title: Segment
-  description: Segment APIs
+  description: "Segment APIs"
 
 basePath: /regions/{regionId}
 
@@ -36,14 +36,14 @@ paths:
           type: array
           items:
             $ref: "../../common/model/Filter.yaml#/definitions/filter"
-          description: |
+          description: "|"
                  segmentIds - segment ID list, support multiple IDs
                  segmentNames - segment name list, support multiple names
                  provider - IP service provider, values include bgp or no_bgp, cn-north-1: bgp; cn-south-1: [bgp, no_bgp]; cn-east-1: [bgp, no_bgp]; cn-east-2: bgp, support single provider
     
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               result:
@@ -70,7 +70,7 @@ paths:
         x-jdcloud-internal: true
         responses:
           200:
-            description: OK
+            description: "OK"
             schema:
               properties:
                 result:
@@ -93,10 +93,10 @@ parameters:
     in: path
     required: true
     type: string
-    description: Region ID
+    description: "Region ID"
   segmentId:
     name: segmentId
     in: path
     required: true
     type: string
-    description: Segment ID
+    description: "Segment ID"

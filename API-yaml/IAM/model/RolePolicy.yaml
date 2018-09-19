@@ -5,16 +5,15 @@ definitions:
     properties:
       policyName:
         type: string
-        description: Permission Name
-      description:
-        type: string
-        description: Description
+        description: "Permission Name"
+      description: "type: string"
+        description: "Description"
       type:
         type: string
-        description: Permission Type
+        description: "Permission Type"
       policyJrn:
         type: string
-        description: Permission Resource Description
+        description: "Permission Resource Description"
 
 
 

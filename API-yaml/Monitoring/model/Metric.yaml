@@ -6,10 +6,10 @@ definitions:
     properties:
       calculateUnit:
         type: string
-        description: Computing Unit of Metric, such as bit/s, %, and k
+        description: "Computing Unit of Metric, such as bit/s, %, and k"
       metric:
         type: string
-        description: English Identifier of Monitoring Item
+        description: "English Identifier of Monitoring Item"
       metricName:
         type: string
-        description: Name of Monitoring Item
+        description: "Name of Monitoring Item"

@@ -2,7 +2,7 @@ swagger: "2.0"
 info:
   version: "v1"
   title: query
-  description: API related to XDATA-DW query
+  description: "API related to XDATA-DW query"
 
 basePath: /regions/{regionId}
 
@@ -60,7 +60,7 @@ paths:
               description: "Is interpretation required or not"
           responses:
             200:
-              description: OK
+              description: "OK"
               schema:
                 properties:
                   result:
@@ -109,7 +109,7 @@ paths:
               description: "Script Type Name"
           responses:
             200:
-              description: OK
+              description: "OK"
               schema:
                 properties:
                   result:
@@ -141,7 +141,7 @@ paths:
               description: "Search an id name"
           responses:
             200:
-              description: OK
+              description: "OK"
               schema:
                 properties:
                   result:
@@ -175,7 +175,7 @@ paths:
               description: "Search an id"
           responses:
             200:
-              description: OK
+              description: "OK"
               schema:
                 properties:
                   result:
@@ -209,7 +209,7 @@ paths:
               description: "Search an id"
           responses:
             200:
-              description: OK
+              description: "OK"
               schema:
                 properties:
                   result:
@@ -241,7 +241,7 @@ paths:
               description: "Search an id"
           responses:
             200:
-              description: OK
+              description: "OK"
               schema:
                 properties:
                   result:
@@ -273,7 +273,7 @@ paths:
               description: "Search an id"
           responses:
             200:
-              description: OK
+              description: "OK"
               schema:
                 properties:
                   result:
@@ -305,7 +305,7 @@ paths:
               description: "Search an id"
           responses:
             200:
-              description: OK
+              description: "OK"
               schema:
                 properties:
                   result:
@@ -337,7 +337,7 @@ paths:
               description: "Search an id"
           responses:
             200:
-              description: OK
+              description: "OK"
               schema:
                 properties:
                   result:
@@ -358,4 +358,4 @@ parameters:
     in: path
     required: true
     type: string
-    description: Region ID
+    description: "Region ID"

@@ -1,6 +1,6 @@
 [
 	{
-		"funcName":"Management of Source Data",
+		"funcName":"Source Data Management",
 		"funcContent":[
 			{
 				"funcName":"",
@@ -15,7 +15,7 @@
 			{
 				"funcName":"",
 				"funcTitle":"User Indicator Management",
-				"funcP":"User indicator refers to the characteristic statistics of user behaviors according to certain service attribute dimensions, such as user clicks, purchase volume and purchase amount. \n Create a modeling based on service rules and machine learning and carry out data analysis of these behavior characteristics statistics, to generate user portrait label. \n"
+				"funcP":"The user indicator refers to the characteristic statistics of user behaviors according to certain service attribute dimensions, such as user clicks, purchase volume and purchase amount. \n Create a modeling based on service rules and machine learning and carry out data analysis of these behavior characteristics statistics, to generate user profiling label. \n"
 			},
 			{
 				"funcName":"",

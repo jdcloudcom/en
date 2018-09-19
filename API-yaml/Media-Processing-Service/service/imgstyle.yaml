@@ -1,6 +1,6 @@
 swagger: '2.0'
 info:
-  description: Image Style APIs
+  description: "Image Style APIs"
   version: v1
   title: ImageStyle OpenAPI
 basePath: '/regions/{regionId}/buckets/{bucketName}'
@@ -10,41 +10,41 @@ parameters:
     in: path
     required: true
     type: string
-    description: Zone ID
+    description: "Zone ID"
   bucketName:
     name: bucketName
     in: path
     required: true
     type: string
-    description: Bucket Name
+    description: "Bucket Name"
 tags:
   - name: ImageStyle
-    description: Image Style
+    description: "Image Style"
 paths:
   '/imageStyles':
     get:
       tags:
         - ImageStyle
-      description: Image Style List
+      description: "Image Style List"
       operationId: listImageStyle
       parameters:
         - name: styleName
           in: query
-          description: Query by Style Name
+          description: "Query by Style Name"
           type: string
         - name: pageNumber
           in: query
-          description: Data Page
+          description: "Data Page"
           type: integer
           default: 1
         - name: pageSize
           in: query
-          description: Number of Data Per Page
+          description: "Number of Data Per Page"
           type: integer
           default: 10
       responses:
         '200':
-          description: success
+          description: "success"
           x-jdcloud-tiered: false
           schema:
             properties:
@@ -55,18 +55,18 @@ paths:
     post:
       tags:
         - ImageStyle
-      description: Add Image Style
+      description: "Add Image Style"
       operationId: createImageStyle
       parameters:
         - name: imageStyle
           in: body
-          description: Style Parameter
+          description: "Style Parameter"
           x-jdcloud-tiered: false
           schema:
             $ref: '#/definitions/ImageStyle'
       responses:
         '200':
-          description: success
+          description: "success"
           x-jdcloud-tiered: false
           schema:
             properties:
@@ -82,15 +82,15 @@ paths:
         type: integer
         format: int64
         required: true
-        description: Image Style ID
+        description: "Image Style ID"
     get:
       tags:
         - ImageStyle
-      description: Image Style Details
+      description: "Image Style Details"
       operationId: getImageStyle
       responses:
         '200':
-          description: successful operation
+          description: "successful operation"
           x-jdcloud-tiered: false
           schema:
             properties:
@@ -101,11 +101,11 @@ paths:
     delete:
       tags:
         - ImageStyle
-      description: Delete Image Style
+      description: "Delete Image Style"
       operationId: deleteImageStyle
       responses:
         '200':
-          description: successful operation
+          description: "successful operation"
           x-jdcloud-tiered: false
           schema:
             properties:
@@ -114,18 +114,18 @@ paths:
     put:
       tags:
         - ImageStyle
-      description: Modify Image Style
+      description: "Modify Image Style"
       operationId: updateImageStyle
       parameters:
         - name: imageStyle
           in: body
-          description: Style Parameter Needing Modification
+          description: "Style Parameter Needing Modification"
           x-jdcloud-tiered: false
           schema:
             $ref: '#/definitions/ImageStyle'
       responses:
         '200':
-          description: successful operation
+          description: "successful operation"
           x-jdcloud-tiered: false
           schema:
             properties:
@@ -136,16 +136,16 @@ paths:
     get:
       tags:
         - ImageStyle
-      description: Total Number of Image Styles
+      description: "Total Number of Image Styles"
       operationId: countImageStyle
       parameters:
         - name: styleName
           in: query
-          description: Query by Style Name
+          description: "Query by Style Name"
           type: string
       responses:
         '200':
-          description: success
+          description: "success"
           x-jdcloud-tiered: false
           schema:
             properties:
@@ -161,43 +161,43 @@ definitions:
       id:
         type: integer
         format: int64
-        description: Image Style ID
+        description: "Image Style ID"
         readOnly: true
       ucUserId:
         type: string
-        description: User ID
+        description: "User ID"
         readOnly: true
       styleName:
         type: string
-        description: Image Style Name
+        description: "Image Style Name"
       params:
         type: string
-        description: Image Style Parameter
+        description: "Image Style Parameter"
       paramAlias:
         type: string
-        description: Image Style Parameter Alias
+        description: "Image Style Parameter Alias"
       regionId:
         type: string
-        description: Zone
+        description: "Zone"
         readOnly: true
       bucketName:
         type: string
-        description: Bucket
+        description: "Bucket"
         readOnly: true
       status:
         type: integer
         format: byte
-        description: Image Style Status
+        description: "Image Style Status"
         default: 1
       modifyTime:
         type: string
         format: date
-        description: Modification Time
+        description: "Modification Time"
         readOnly: true
       createdTime:
         type: string
         format: date
-        description: Create Time
+        description: "Create Time"
         readOnly: true
         
   ImageStyleQueryResult:
@@ -205,19 +205,19 @@ definitions:
     type: object
     properties:
       styleName:
-        description: Query by Style Name
+        description: "Query by Style Name"
         type: string
       pageNumber:
-        description: Data Page
+        description: "Data Page"
         type: integer
         default: 1
       pageSize:
-        description: Number of Data Per Page
+        description: "Number of Data Per Page"
         type: integer
         default: 10
       imageStyleList:
         type: array
-        description: Image Style List
+        description: "Image Style List"
         items:
           $ref: '#/definitions/ImageStyle'
           
@@ -228,7 +228,7 @@ definitions:
       id:
         type: integer
         format: int64
-        description: Image Style ID
+        description: "Image Style ID"
         
   ImageStyleCount:
     x-jdcloud-module: mps
@@ -236,6 +236,6 @@ definitions:
     properties:
       styleCount:
         type: integer
-        description: Total Number of Image Styles
+        description: "Total Number of Image Styles"
 schemes:
   - http

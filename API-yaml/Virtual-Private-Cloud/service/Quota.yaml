@@ -2,7 +2,7 @@ swagger: "2.0"
 info:
   version: "v1"
   title: Quota
-  description: Quota APIs
+  description: "Quota APIs"
 
 basePath: /regions/{regionId}
 
@@ -21,15 +21,15 @@ paths:
             in: query
             required: true
             type: string
-            description: Resource Type. Value Range: VPC, elastic_ip, subnet, security_group, VPCpeering, network_interface (quota only sums up secondary network interface)
+            description: "Resource Type. Value Range: VPC, elastic_ip, subnet, security_group, VPCpeering, network_interface (quota only sums up secondary network interface)"
           - name: parentResourceId
             in: query
             type: string
-            description: If the type is VPC, elastic_ip, network_interface, do not set; if the type is subnet, security_group, VPCpeering, set as VPCId
+            description: "If the type is VPC, elastic_ip, network_interface, do not set; if the type is subnet, security_group, VPCpeering, set as VPCId"
 
        responses:
          200:
-           description: Successful operation
+           description: "Successful operation"
            schema:
              type:  object
              properties:
@@ -65,7 +65,7 @@ paths:
 
        responses:
          200:
-           description: Successful operation
+           description: "Successful operation"
            schema:
              type:  object
              properties:
@@ -86,4 +86,4 @@ parameters:
     in: path
     required: true
     type: string
-    description: Region ID
+    description: "Region ID"

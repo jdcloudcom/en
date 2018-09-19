@@ -7,36 +7,36 @@ definitions:
     properties:
       id:
         type: integer
-        description: User Pass ID
+        description: "User Pass ID"
       pin:
         type: string
-        description: User Name
+        description: "User Name"
       account:
         type: string
-        description: User Account
+        description: "User Account"
       accessKey:
         type: string
-        description: Access key, AccessKey is used for calling cloud service API with program method
+        description: "Access key, AccessKey is used for calling cloud service API with program method"
       accessKeySecret:
         type: string
-        description: AccessKeySecret is the key pair used to verify the user
+        description: "AccessKeySecret is the key pair used to verify the user"
       expire:
         type: string
         format: date
-        description: Expiration Time
+        description: "Expiration Time"
       created:
         type: string
         format: date-time
-        description: Creation Time
+        description: "Creation Time"
       modified:
         type: string
         format: date-time
-        description: Update Time
+        description: "Update Time"
       modifier:
         type: string
-        description: Update Operator
+        description: "Update Operator"
       state:
         type: integer
-        description: Status
+        description: "Status"
       yn:
         type: integer

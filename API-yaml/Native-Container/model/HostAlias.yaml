@@ -3,7 +3,7 @@ definitions:
   hostAlias:
     x-jdcloud-module: nc
     type: object
-    description: Domain and IP Mapping Information
+    description: "Domain and IP Mapping Information"
     x-jdcloud-internal: false
     required:
       - hostnames
@@ -13,7 +13,7 @@ definitions:
         type: array
         items:
           type: string
-        description: Domain List
+        description: "Domain List"
       ip:
         type: string
-        description: IP Address
+        description: "IP Address"

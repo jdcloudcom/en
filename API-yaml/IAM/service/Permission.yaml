@@ -2,7 +2,7 @@ swagger: "2.0"
 info:
   version: "v1"
   title: Policy Management APIs
-  description: Policy Management APIs
+  description: "Policy Management APIs"
 
 basePath: /regions/{regionId}
 
@@ -16,13 +16,13 @@ paths:
       parameters:
         - name: createPermissionInfo
           in: body
-          description: Permission Information
+          description: "Permission Information"
           required: true
           schema:
             $ref: "../model/CreatePermissionInfo.yaml#/definitions/createPermissionInfo"
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             type: object
             properties:
@@ -38,13 +38,13 @@ paths:
       parameters:
         - name: updatePermissionInfo
           in: body
-          description: Permission Information
+          description: "Permission Information"
           required: true
           schema:
             $ref: "../model/UpdatePermissionInfo.yaml#/definitions/updatePermissionInfo"
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             type: object
             properties:
@@ -58,7 +58,7 @@ paths:
       x-jdcloud-internal: false
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             type: object
             properties:
@@ -66,7 +66,7 @@ paths:
                 properties:
                   permission:
                     $ref: "../model/Permission.yaml#/definitions/permission"
-                    description: Permission Information
+                    description: "Permission Information"
               requestId:
                 type: string
 
@@ -81,26 +81,26 @@ paths:
         - name: pageNumber
           in: query
           type: integer
-          description: Page
+          description: "Page"
           required: true
         - name: pageSize
           in: query
           type: integer
-          description: Number Displayed Per Page
+          description: "Number Displayed Per Page"
           required: true
         - name: keyword
           in: query
           type: string
-          description: Keyword
+          description: "Keyword"
           required: false
         - name: queryType
           in: query
           type: integer
-          description: Permission Type, 0-All, 1- System Permission, 2-Customized Permission
+          description: "Permission Type, 0-All, 1- System Permission, 2-Customized Permission"
           required: true
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             type: object
             properties:
@@ -108,12 +108,12 @@ paths:
                 properties:
                   total:
                     type: integer
-                    description: Total Amount
+                    description: "Total Amount"
                   permissions:
                     type: array
                     items:
                       $ref: "../model/Permission.yaml#/definitions/permission"
-                    description: Authority List Information
+                    description: "Authority List Information"
               requestId:
                 type: string
 
@@ -126,13 +126,13 @@ paths:
       parameters:
         - name: addPermissionsInfo
           in: body
-          description: Permission Information
+          description: "Permission Information"
           required: true
           schema:
             $ref: "../model/AddPermissionsInfo.yaml#/definitions/addPermissionsInfo"
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             type: object
             properties:
@@ -148,16 +148,16 @@ paths:
         - name: pageNumber
           type: integer
           in: query
-          description: Page
+          description: "Page"
           required: true
         - name: pageSize
           type: integer
           in: query
-          description: Number Displayed Per Page
+          description: "Number Displayed Per Page"
           required: true
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             type: object
             properties:
@@ -165,12 +165,12 @@ paths:
                 properties:
                   total:
                     type: integer
-                    description: Total Amount
+                    description: "Total Amount"
                   permissions:
                     type: array
                     items:
                       $ref: "../model/Permission.yaml#/definitions/permission"
-                    description: Authority List Information
+                    description: "Authority List Information"
               requestId:
                 type: string
 
@@ -183,7 +183,7 @@ paths:
       x-jdcloud-internal: false
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             type: object
             properties:
@@ -199,16 +199,16 @@ parameters:
     in: path
     required: true
     type: string
-    description: Region ID
+    description: "Region ID"
   permissionId:
     name: permissionId
     in: path
     required: true
     type: integer
-    description: Permission id
+    description: "Permission id"
   subUser:
     name: subUser
     in: path
     required: true
     type: string
-    description: Sub-user Name
+    description: "Sub-user Name"

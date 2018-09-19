@@ -2,7 +2,7 @@ Swagger: "2.0"                                  # Implemented based on Swagger V
 info:
   version: "v1"                                 # OpenApi Version Number
   title: OSS APIs
-  description: OSS APIs
+  description: "OSS APIs"
 
 basePath: /regions/{regionId}
 
@@ -14,7 +14,7 @@ paths:
       summary: create imgProtected
       operationId: putImgProtected
       x-jdcloud-internal: true
-      description: |
+      description: "|"
         Create original image protection
       produces:
       - application/json
@@ -23,26 +23,26 @@ paths:
         name: bucketname
         required: true
         type: string
-        description: Bucket Name, e.g.: test
+        description: "Bucket Name, e.g.: test"
       - in: query
         name: condition
-        description: Include xml of image suffix to be protected
+        description: "Include xml of image suffix to be protected"
         required: true
         type: string
-        description: Original Image Protection Configuration
+        description: "Original Image Protection Configuration"
       responses:
         200:
-          description: OK
+          description: "OK"
         400:
-          description: Invalid Argument
+          description: "Invalid Argument"
 #          schema:
 #            $ref: '../model/oss.yaml#/definitions/ErrorResponse'
         403:
-          description: Access Denied
+          description: "Access Denied"
 #          schema:
 #            $ref: '../model/oss.yaml#/definitions/ErrorResponse'
         409:
-          description: The requested bucket name is not available. The bucket namespace is shared by all users of the system. Please select a different name and try again.
+          description: "The requested bucket name is not available. The bucket namespace is shared by all users of the system. Please select a different name and try again."
 #          schema:
 #            $ref: '../model/oss.yaml#/definitions/ErrorResponse'
     get:
@@ -51,7 +51,7 @@ paths:
       summary: get imgProtected Condition
       operationId: getimgProtectedCondition
       x-jdcloud-internal: true
-      description: |
+      description: "|"
         Obtain original image protection configuration of current bucket
       produces:
       - application/json
@@ -60,10 +60,10 @@ paths:
         name: bucketname
         required: true
         type: string
-        description: Bucket Name, e.g.: test
+        description: "Bucket Name, e.g.: test"
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               result:
@@ -74,11 +74,11 @@ paths:
                 type: string
 #            properties:
         400:
-          description: Invalid Argument
+          description: "Invalid Argument"
 #          schema:
 #            $ref: '../model/oss.yaml#/definitions/ErrorResponse'
         403:
-          description: Access Denied
+          description: "Access Denied"
 #          schema:
 #            $ref: '../model/oss.yaml#/definitions/ErrorResponse'
     delete:
@@ -87,7 +87,7 @@ paths:
       summary: delete imgProtected
       operationId: deleteImgProtected
       x-jdcloud-internal: true
-      description: |
+      description: "|"
         Disable Original Image Protection
       produces:
       - application/json
@@ -96,20 +96,20 @@ paths:
         name: bucketname
         required: true
         type: string
-        description: Bucket Name, e.g.: test
+        description: "Bucket Name, e.g.: test"
       responses:
         200:
-          description: OK
+          description: "OK"
         400:
-          description: Invalid Argument
+          description: "Invalid Argument"
 #          schema:
 #            $ref: '../model/oss.yaml#/definitions/ErrorResponse'
         403:
-          description: Access Denied
+          description: "Access Denied"
 #          schema:
 #            $ref: '../model/oss.yaml#/definitions/ErrorResponse'
         404:
-          description: The specified bucket does not exist.
+          description: "The specified bucket does not exist."
 #          schema:
 #            $ref: '../model/oss.yaml#/definitions/ErrorResponse'
 # Path General Parameter
@@ -119,5 +119,5 @@ parameters:
     in: path
     required: true
     type: string
-    description: Region ID, e.g.: cn-north-1
+    description: "Region ID, e.g.: cn-north-1"
 

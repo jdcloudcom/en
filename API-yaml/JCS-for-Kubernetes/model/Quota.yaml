@@ -1,0 +1,14 @@
+swagger: "2.0"
+definitions:
+  quota:
+    x-jdcloud-module: jke
+    properties:
+      resourceType:
+        type: string
+        description: Resource Type[kubernetes]
+      limit:
+        type: integer
+        description: Available Resource Cap
+      used:
+        type: integer
+        description: Number of Used Resources

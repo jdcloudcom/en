@@ -2,7 +2,7 @@ swagger: "2.0"
 info:
   version: "v1"
   title: Job Management
-  description: JMR job management
+  description: "JMR job management"
 
 basePath: /regions/{regionId}
 paths:
@@ -19,7 +19,7 @@ paths:
              description: "Cluster Id"
          responses:
            200:
-             description: OK
+             description: "OK"
              schema:
                properties:
                  result:
@@ -32,7 +32,7 @@ paths:
                        type: array
                        items:
                          type: string
-                       description: Returned Job Type List
+                       description: "Returned Job Type List"
                  requestId:
                    type: string
            500:
@@ -52,14 +52,14 @@ paths:
                properties:
                  jmrJobViewModel:
                    $ref: "../model/JmrJobViewModel.yaml#/definitions/jmrJobViewModel"
-                   description: |
+                   description: "|"
                              "Required Fields: clusterId and az"
                              "Optional Fields: jobName, jobType and clusterName"
                  selectParams:
                    $ref: "../model/SelectParams.yaml#/definitions/selectParams"
          responses:
            200:
-             description: OK
+             description: "OK"
              schema:
                properties:
                  result:
@@ -78,7 +78,7 @@ paths:
                                $ref: "../model/JmrJobViewModel.yaml#/definitions/jmrJobViewModel"
                            totalNum:
                              type: integer
-                       description: |
+                       description: "|"
                                    "Include the JmrJobViewModel list - jmrJobViewModelList"
                                    "And returned list size - totalNum"
                  requestId:
@@ -102,13 +102,13 @@ paths:
                properties:
                  jobId:
                    type: string
-                   description: It is considered as the job name verification basis
+                   description: "It is considered as the job name verification basis"
                  jobName:
                    type: string
-                   description: Job Name to be Verified
+                   description: "Job Name to be Verified"
          responses:
            200:
-             description: OK
+             description: "OK"
              schema:
                properties:
                  result:
@@ -132,10 +132,10 @@ paths:
              required: true
              schema:
                $ref: "../model/JmrJobViewModel.yaml#/definitions/jmrJobViewModel"
-             description: clusterId, jobName, jobType, location, jobArgs, retryTimes and isSendMsg are required
+             description: "clusterId, jobName, jobType, location, jobArgs, retryTimes and isSendMsg are required"
          responses:
            200:
-             description: OK
+             description: "OK"
              schema:
                properties:
                  result:
@@ -159,10 +159,10 @@ paths:
              required: true
              schema:
                $ref: "../model/JmrJobViewModel.yaml#/definitions/jmrJobViewModel"
-             description: clusterId, jobName, jobType, location, jobArgs, retryTimes and isSendMsg are required
+             description: "clusterId, jobName, jobType, location, jobArgs, retryTimes and isSendMsg are required"
          responses:
            200:
-             description: OK
+             description: "OK"
              schema:
                properties:
                  result:
@@ -186,10 +186,10 @@ paths:
              in: path
              type: string
              required: true
-             description: Job Id to be Deleted
+             description: "Job Id to be Deleted"
          responses:
            200:
-             description: OK
+             description: "OK"
              schema:
                properties:
                  result:
@@ -214,10 +214,10 @@ paths:
              required: true
              schema:
                $ref: "../model/JmrJobViewModel.yaml#/definitions/jmrJobViewModel"
-             description: clusterId, jobName, jobType, location, jobArgs, retryTimes and isSendMsg are required
+             description: "clusterId, jobName, jobType, location, jobArgs, retryTimes and isSendMsg are required"
          responses:
            200:
-             description: OK
+             description: "OK"
              schema:
                properties:
                  result:
@@ -247,14 +247,14 @@ paths:
                properties:
                  jmrTaskViewModel:
                    $ref: "../model/JmrTaskViewModel.yaml#/definitions/jmrTaskViewModel"
-                   description: |
+                   description: "|"
                                "Required parameters: jobId, planId, workflowId and workflowInstanceId"
                  clusterId:
                    type: string
-                   description: Cluster ID
+                   description: "Cluster ID"
          responses:
            200:
-             description: OK
+             description: "OK"
              schema:
                properties:
                  result:
@@ -280,10 +280,10 @@ paths:
              in: path
              type: string
              required: true
-             description: Job Id to be Viewed
+             description: "Job Id to be Viewed"
          responses:
            200:
-             description: OK
+             description: "OK"
              schema:
                properties:
                  result:
@@ -309,18 +309,18 @@ paths:
              in: path
              type: string
              required: true
-             description: Job Id to be Searched
+             description: "Job Id to be Searched"
            - name: selectParams
              in: body
              required: false
-             description: Search Conditions, optional
+             description: "Search Conditions, optional"
              schema:
                properties:
                  selectParams:
                    $ref: "../model/SelectParams.yaml#/definitions/selectParams"
          responses:
            200:
-             description: OK
+             description: "OK"
              schema:
                properties:
                  result:
@@ -335,12 +335,12 @@ paths:
                          properties:
                            totalNum:
                              type: integer
-                             description: Query List Size
+                             description: "Query List Size"
                            taskList:
                              type: array
                              items:
                                $ref: "../model/JmrTaskViewModel.yaml#/definitions/jmrTaskViewModel"
-                       description: |
+                       description: "|"
                                      "Include the searched JmrTaskViewModel list - taskList"
                                      "And returned list size - totalNum"
                  requestId:
@@ -365,13 +365,13 @@ paths:
                properties:
                  clusterId:
                    type: string
-                   description: Cluster ID
+                   description: "Cluster ID"
                  filePath:
                    type: string
-                   description: Path of the File to be Deleted
+                   description: "Path of the File to be Deleted"
          responses:
            200:
-             description: OK
+             description: "OK"
              schema:
                properties:
                  requestId:
@@ -389,10 +389,10 @@ paths:
              in: path
              type: string
              required: true
-             description: Cluster ID
+             description: "Cluster ID"
          responses:
            200:
-             description: OK
+             description: "OK"
              schema:
                properties:
                  result:
@@ -403,7 +403,7 @@ paths:
                        type: string
                      data:
                        type: integer
-                       description: Cluster Job Number
+                       description: "Cluster Job Number"
                  requestId:
                    type: string
            500:
@@ -419,10 +419,10 @@ paths:
              in: path
              type: string
              required: true
-             description: Cluster Id
+             description: "Cluster Id"
          responses:
            200:
-             description: OK
+             description: "OK"
              schema:
                properties:
                  result:
@@ -437,12 +437,12 @@ paths:
                          properties:
                            totalNum:
                              type: integer
-                             description: Cluster Job Number
+                             description: "Cluster Job Number"
                            cronJobs:
                              type: array
                              items:
                                $ref: "../model/JmrPlanViewModel.yaml#/definitions/jmrPlanViewModel"
-                       description: |
+                       description: "|"
                                      "Include JmrPlanViewModel list - cronJobs"
                                      "And return list size - totalNum"
                  requestId:
@@ -469,10 +469,10 @@ paths:
                    description: "Required Fields: az, planName, planType and planStatus"
                  selectParams:
                    $ref: "../model/SelectParams.yaml#/definitions/selectParams"
-                   description: Optional Parameters of Search Conditions
+                   description: "Optional Parameters of Search Conditions"
          responses:
            200:
-             description: OK
+             description: "OK"
              schema:
                properties:
                  result:
@@ -487,12 +487,12 @@ paths:
                          properties:
                            totalNum:
                              type: integer
-                             description: Cluster Job Number
+                             description: "Cluster Job Number"
                            cronJobs:
                              type: array
                              items:
                                $ref: "../model/JmrPlanViewModel.yaml#/definitions/jmrPlanViewModel"
-                       description: |
+                       description: "|"
                                      "Include JmrPlanViewModel list - cronJobs"
                                      "And return list size - totalNum"
                  requestId:
@@ -517,13 +517,13 @@ paths:
                properties:
                  planId:
                    type: string
-                   description: It is considered as the verification basis
+                   description: "It is considered as the verification basis"
                  planName:
                    type: string
-                   description: Verified Plan Name
+                   description: "Verified Plan Name"
          responses:
            200:
-             description: OK
+             description: "OK"
              schema:
                properties:
                  result:
@@ -558,30 +558,30 @@ paths:
                properties:
                  jmrPlanViewModel:
                    $ref: "../model/JmrPlanViewModel.yaml#/definitions/jmrPlanViewModel"
-                   description: Scheduling Configuration to be Created or Updated
+                   description: "Scheduling Configuration to be Created or Updated"
                  time:
                    type: string
-                   description: Occupy time according to the time parameter in Cron format
+                   description: "Occupy time according to the time parameter in Cron format"
                  month:
                    type: string
-                   description: Occupy month according to the time parameter in Cron format
+                   description: "Occupy month according to the time parameter in Cron format"
                  week:
                    type: string
-                   description: Occupy week according to the time parameter in Cron format
+                   description: "Occupy week according to the time parameter in Cron format"
                  day:
                    type: string
-                   description: Occupy day according to the time parameter in Cron format
+                   description: "Occupy day according to the time parameter in Cron format"
                  hour:
                    type: string
                    default: 0
-                   description: Occupy hour according to the time parameter in Cron format
+                   description: "Occupy hour according to the time parameter in Cron format"
                  minute:
                    type: string
                    default: 0
-                   description: Occupy minute according to the time parameter in Cron format
+                   description: "Occupy minute according to the time parameter in Cron format"
          responses:
            200:
-             description: OK
+             description: "OK"
              schema:
                properties:
                  result:
@@ -605,7 +605,7 @@ paths:
              in: path
              type: string
              required: true
-             description: Execution Plan Id
+             description: "Execution Plan Id"
            - name: body
              in: body
              required: false
@@ -615,7 +615,7 @@ paths:
                    $ref: "../model/SelectParams.yaml#/definitions/selectParams"
          responses:
            200:
-             description: OK
+             description: "OK"
              schema:
                properties:
                  result:
@@ -630,12 +630,12 @@ paths:
                          properties:
                            totalNum:
                              type: integer
-                             description: Query List Size
+                             description: "Query List Size"
                            jobList:
                              type: array
                              items:
                                $ref: "../model/JmrJobViewModel.yaml#/definitions/jmrJobViewModel"
-                       description: |
+                       description: "|"
                                      "Include JmrJobViewModel list - jobList"
                                      "And returned list size - totalNum"
                  requestId:
@@ -665,31 +665,31 @@ paths:
                properties:
                  jmrPlanViewModel:
                    $ref: "../model/JmrPlanViewModel.yaml#/definitions/jmrPlanViewModel"
-                   description: |
+                   description: "|"
                              "Required fields: planId, jobIds, planName, planType and failurePolicy"
                  time:
                    type: string
-                   description: Occupy time according to the time parameter in Cron format
+                   description: "Occupy time according to the time parameter in Cron format"
                  month:
                    type: string
-                   description: Occupy month according to the time parameter in Cron format
+                   description: "Occupy month according to the time parameter in Cron format"
                  week:
                    type: string
-                   description: Occupy week according to the time parameter in Cron format
+                   description: "Occupy week according to the time parameter in Cron format"
                  day:
                    type: string
-                   description: Occupy day according to the time parameter in Cron format
+                   description: "Occupy day according to the time parameter in Cron format"
                  hour:
                    type: string
                    default: 0
-                   description: Occupy hour according to the time parameter in Cron format
+                   description: "Occupy hour according to the time parameter in Cron format"
                  minute:
                    type: string
                    default: 0
-                   description: Occupy minute according to the time parameter in Cron format
+                   description: "Occupy minute according to the time parameter in Cron format"
          responses:
            200:
-             description: OK
+             description: "OK"
              schema:
                properties:
                  result:
@@ -713,10 +713,10 @@ paths:
              in: path
              type: string
              required: true
-             description: Suspended Task ID
+             description: "Suspended Task ID"
          responses:
            200:
-             description: OK
+             description: "OK"
              schema:
                properties:
                  result:
@@ -740,10 +740,10 @@ paths:
              in: path
              type: string
              required: true
-             description: Task ID to be Recovered
+             description: "Task ID to be Recovered"
          responses:
            200:
-             description: OK
+             description: "OK"
              schema:
                properties:
                  result:
@@ -767,10 +767,10 @@ paths:
              in: path
              type: string
              required: true
-             description: Task ID to be Deleted
+             description: "Task ID to be Deleted"
          responses:
            200:
-             description: OK
+             description: "OK"
              schema:
                properties:
                  result:
@@ -795,7 +795,7 @@ paths:
              type: number
              format: int64
              required: true
-             description: Long Type, Task ID
+             description: "Long Type, Task ID"
            - name: body
              in: body
              required: false
@@ -805,7 +805,7 @@ paths:
                    $ref: "../model/SelectParams.yaml#/definitions/selectParams"
          responses:
            200:
-             description: OK
+             description: "OK"
              schema:
                properties:
                  result:
@@ -823,7 +823,7 @@ paths:
                            type: array
                            items:
                              $ref: "../model/JmrTaskViewModel.yaml#/definitions/jmrTaskViewModel"
-                       description: |
+                       description: "|"
                                      "Include JmrTaskViewModel list - taskList"
                                      "And returned list size - totalNum"
                  requestId:
@@ -840,7 +840,7 @@ paths:
            - name: jobId
              in: path
              type: string
-             description: Job ID
+             description: "Job ID"
            - name: body
              in: body
              schema:
@@ -849,13 +849,13 @@ paths:
                properties:
                  planId:
                    type: string
-                   description: Regular Task ID
+                   description: "Regular Task ID"
                  selectParams:
                    $ref: "../model/SelectParams.yaml#/definitions/selectParams"
-                   description: Search conditions, optional parameters
+                   description: "Search conditions, optional parameters"
          responses:
            200:
-             description: OK
+             description: "OK"
              schema:
                properties:
                  result:
@@ -870,12 +870,12 @@ paths:
                          properties:
                            totalNum:
                              type: integer
-                             description: Query List Size
+                             description: "Query List Size"
                            taskList:
                              type: array
                              items:
                                $ref: "../model/JmrTaskViewModel.yaml#/definitions/jmrTaskViewModel"
-                       description: |
+                       description: "|"
                                      "Include the searched JmrTaskViewModel list - taskList"
                                      "And returned list size - totalNum"
                  requestId:
@@ -896,7 +896,7 @@ paths:
              required: true
          responses:
            200:
-             description: OK
+             description: "OK"
              schema:
                properties:
                  result:
@@ -920,15 +920,15 @@ paths:
              in: query
              required: true
              type: string
-             description: Regular Task ID, required
+             description: "Regular Task ID, required"
            - name: jobId
              in: path
              type: string
              required: true
-             description: Job ID
+             description: "Job ID"
          responses:
            200:
-             description: OK
+             description: "OK"
              schema:
                properties:
                  result:
@@ -951,7 +951,7 @@ paths:
          operationId: queryExecutingJobList
          responses:
            200:
-             description: OK
+             description: "OK"
              schema:
                properties:
                  result:
@@ -964,7 +964,7 @@ paths:
                        type: array
                        items:
                          $ref: "../model/JmrPlanViewModel.yaml#/definitions/jmrPlanViewModel"
-                       description: Execution Plan List
+                       description: "Execution Plan List"
                  requestId:
                    type: string
            500:
@@ -976,4 +976,4 @@ parameters:
    in: path
    required: true
    type: string
-   description: Region ID
+   description: "Region ID"

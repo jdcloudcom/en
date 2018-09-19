@@ -2,7 +2,7 @@ swagger: "2.0"
 info:
   version: "v1"
   title: JCS for Redis Order APIs
-  description: JCS for Redis Order Related APIs
+  description: "JCS for Redis Order Related APIs"
 
 basePath: /regions/{regionId}
 
@@ -15,7 +15,7 @@ paths:
       x-jdcloud-internal: true
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               result:
@@ -34,10 +34,10 @@ parameters:
     in: path
     required: true
     type: string
-    description: The Region ID of the region where the JCS for Redis instance is located. At present, the JCS for Redis has North China, South China, and East China regions, and the corresponding Region IDs are cn-north-1, cn-south-1, and cn-east-2
+    description: "The Region ID of the region where the JCS for Redis instance is located. At present, the JCS for Redis has North China, South China, and East China regions, and the corresponding Region IDs are cn-north-1, cn-south-1, and cn-east-2"
   orderRequest:
     name: orderRequest
     in: path
     required: true
     type: string
-    description: Request requestId
+    description: "Request requestId"

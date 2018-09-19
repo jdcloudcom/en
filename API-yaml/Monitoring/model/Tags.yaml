@@ -8,10 +8,10 @@ definitions:
       - values
     properties:
       key:
-        description: Tag Key
+        description: "Tag Key"
         type: string
       values:
-        description: Tag Value
+        description: "Tag Value"
         type: array
         items:
           type: string

@@ -55,7 +55,7 @@
 			{
 				"funcName":"",
 				"funcTitle":"",
-				"funcP":"Support self-defined alarms. Users can flexibly formulate various alarm rules, to grasp various situations immediately."
+				"funcP":"Support self-defined alarms. The users can flexibly formulate various alarm rules, to grasp various situations immediately."
 			}
 		]
 	}

@@ -2,7 +2,7 @@ swagger: "2.0"
 info:
   version: "v1"
   title: AuditLog Request
-  description: JMR audit log,including cluster executing history etc. Fron end request interface
+  description: "JMR audit log,including cluster executing history etc. Fron end request interface"
 
 basePath: /regions/{regionId}
 paths:
@@ -17,7 +17,7 @@ paths:
              in: path
              required: true
              type: string
-             description: Cluster ID
+             description: "Cluster ID"
            - name: selectParams
              in: body
              required: false
@@ -25,7 +25,7 @@ paths:
                $ref: "../model/SelectParams.yaml#/definitions/selectParams"
          responses:
            200:
-             description: OK
+             description: "OK"
              schema:
                properties:
                  result:
@@ -40,12 +40,12 @@ paths:
                          properties:
                            totalNum:
                              type: integer
-                             description: Number of Audit Log Lists Returned
+                             description: "Number of Audit Log Lists Returned"
                            auditLogList:
                              type: array
                              items:
                                $ref: "../model/AuditLog.yaml#/definitions/auditLog"
-                       description: |
+                       description: "|"
                                     "Include log list - auditLogList"
                                     "And returned list size - totalNum"
                  requestId:
@@ -59,4 +59,4 @@ parameters:
    in: path
    required: true
    type: string
-   description: Region ID
+   description: "Region ID"

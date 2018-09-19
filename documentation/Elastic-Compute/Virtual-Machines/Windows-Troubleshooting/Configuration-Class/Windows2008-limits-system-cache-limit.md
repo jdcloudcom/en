@@ -13,7 +13,7 @@ http://www.microsoft.com/en-us/download/details.aspx?id=9258
 
 The specific steps are as follows:
 
-1.解压后根据不同系统版本中对应的DynCache.exe文件复制到C:\windows\system32中。
+1. After decompressing, copy the corresponding DynCache.exe file in different system versions to C:\windows\system32.
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows2008%E9%99%90%E5%88%B6%E7%B3%BB%E7%BB%9F%E7%BC%93%E5%AD%98%E4%B8%8A%E9%99%9001.png)
 
 2. Open a command prompt as an administrator and execute the following command to add a service:

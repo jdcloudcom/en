@@ -8,10 +8,9 @@ definitions:
     properties:
       name:
         type: string
-        description: Snapshot Name
-      description:
-        type: string
-        description: Snapshot Description
+        description: "Snapshot Name"
+      description: "type: string"
+        description: "Snapshot Description"
       diskId:
         type: string
-        description: Cloud Disk ID used to create the Snapshot
+        description: "Cloud Disk ID used to create the Snapshot"

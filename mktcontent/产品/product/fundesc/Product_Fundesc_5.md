@@ -1,11 +1,11 @@
 [
 	{
-		"funcName":"Products form is abundant",
+		"funcName":"Diversified Product Forms",
 		"funcContent":[
 			{
 				"funcName":"",
-				"funcTitle":"Provides two storage options of SSD cloud disk and Premium Hdd Cloud Disk to meet different performance requirements for business scenarios",
-				"funcP":"SSD Cloud Disk: </br>Single disk capacity: 20-1,000G; maximum IOPS for single disk: 20,000; maximum handling capacity for single disk: 100MBps; typical application scenarios: Big data analytics, I/O intensive business, middle-large size database applications </br> high-efficient cloud disk: </br>Single disk capacity: 20-3,000G; maximum IOPS for single disk: 3,000; maximum handling capacity for single disk: 80MBps; typical application scenarios: Small and medium-sized databases, large-scale development tests, web servers"
+				"funcTitle":"SSD Cloud Disk and Premium Hdd Cloud Disk for Business Scenarios with Different Performance Requirements.",
+				"funcP":"SSD Cloud Disk: </br>Single disk capacity: 20-1,000G; maximum IOPS for single disk: 20,000; maximum handling capacity for single disk: 100MBps; typical application scenarios: big data analysis, I/O intensive business, large and medium-sized database application </br> Premium Hdd Cloud Disk: </br>Single disk capacity: 20-3,000G; maximum IOPS for single disk: 3,000; maximum handling capacity for single disk: 80MBps; typical application scenarios: Small and medium-sized databases, large-scale development tests, web servers"
 			}
 		]
 	},
@@ -14,8 +14,8 @@
 		"funcContent":[
 			{
 				"funcName":"",
-				"funcTitle":"Cloud Disk Service provide highly reliable, highly available and high-performance data storage services",
-				"funcP":"Cloud Disk Service provides high-reliability, high-availability and high-performance data storage service</br>1) Cloud disk data is independent of the VM status, and supports mounting and unmounting operations at any time. A single VM can be mounted with up to 4 cloud disks, to meet the higher storage needs of users;</br> 2) You only need to pay according to the current capacity and type of the cloud disk, and you can expand the capacity of the cloud disk according to service development at any time;</br> 3) Provide real-time monitoring of cloud disk IOPS and the throughput, to keep abreast of the health status of the cloud disk."
+				"funcTitle":"Cloud Disk provides Data Storage Service with High Reliability, Availability and Performance",
+				"funcP":"Cloud Disk provides Data Storage Service with High Reliability, Availability and Performance</br>1) 1.The cloud disk data is independent of the Virtual Machines status, it supports attaching and deattaching operations at any time. A single Virtual Machines can be attached with up to 4 cloud disks to meet the higher storage needs of users;</br> 2) 2.	The payment is made based on the current capacity and type of the cloud disk, and the capacity of the cloud disk can be expanded at any time according to the service development;</br> 3) 3.	The IOPS and throughput of the cloud disk is monitored in a real-time manner to keep informed of the performance status of the cloud disk."
 			}
 		]
 	},
@@ -24,8 +24,8 @@
 		"funcContent":[
 			{
 				"funcName":"",
-				"funcTitle":"Cloud Disk Service provides snapshot function to enable data backups at specified points in time",
-				"funcP":"1) Snapshot is the complete copy of the cloud disk. It includes all the data image from the creation time of the disk until the time of backup. It is stored in the manner of redundancy. </br>\n2) If you find that the data is lost or inconsistent due to mis-operation or attack, etc., you can use the snapshot to perform the operation of rollback in order to restore your business to the time of snapshot. </br>\n3) Image can be made to the VM. At the same time, snapshot can be made to the cloud disk attached to the VM. Based on the image of VM, the VM with the same configuration can be quickly replicated, which can realize business’s quick deployment in batch. </br>"
+				"funcTitle":"The Cloud Disk Snapshop Feature Enables Data Backups at Specified Time Points",
+				"funcP":"1) 1.Snapshot is a complete replica of the cloud disk, including the data of time points from creation to backup of the disk, which are stored as redundancy. </br>\n2) 2.If data lost or inconsistency is found due to misoperation or attaact, rollback can be operated with snapshot, so as to restore the business to the time point of snapshot. </br>\n3) 3.	When creating an image to the Virtual Machines, snapshot can also be created to the cloud disk attached to the Virtual Machines, then the Virtual Machines with the same configureation can be rapidly replicated based on the image of Virtual Machines, thus achieving fast deployment of business in batch. </br>"
 			}
 		]
 	},
@@ -34,8 +34,8 @@
 		"funcContent":[
 			{
 				"funcName":"",
-				"funcTitle":"Elastic expansion ensures that you can expand the capacity of your Cloud Disk Service as needed",
-				"funcP":"1) You can expand the capacity of the cloud disk as required in order to satisfy the storage requirements of different businesses. </br>\n2) When creating the cloud disk based on snapshot, storage space, which is larger than or equal to the capacity of snapshot, can be configured to the cloud disk to meet your requirements regarding the operation of the business based on snapshot’s data. At the same time, bigger storage space can be provided to you."
+				"funcTitle":"Elastic Scalability Gurantees Capacity Scalability of Cloud Disk as Needed",
+				"funcP":"1)The capacity of cloud disk can be expanded as needed, so as to meet the storage needs of different businesses. </br>\n2) 2.	When a cloud disk is created based on snapshot, storage space that is larger than or equal to the capacity of snapshot can be configured to the cloud disk, to meet the needs for operation of business based on snapshot data, and provide larger storage space."
 			}
 		]
 	}

@@ -11,7 +11,7 @@ definitions:
       createdTime:
         type: string
         format: date
-        description: "Time Stamp of Creating Topic" 
+        description: "Time Stamp of Creating Topic "
       deleted:
         type: integer
         description: "Whether the Topic has been Deleted (0: not deleted, 1: deleted)"
@@ -45,7 +45,7 @@ definitions:
       updatedTime:
         type: string
         format: date
-        description: "Time Stamp of Updating Topic" 
+        description: "Time Stamp of Updating Topic "
       userPin:
         type: string
         description: "UserPin of the User"

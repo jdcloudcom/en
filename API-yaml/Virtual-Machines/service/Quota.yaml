@@ -2,7 +2,7 @@ swagger: "2.0"
 info:
   version: "v1"
   title: Quota
-  description: Quota APIs
+  description: "Quota APIs"
 
 basePath: /regions/{regionId}
 
@@ -10,7 +10,7 @@ paths:
   "/quotas":
     ###################### Query Quota ######################
     get:
-      description: |
+      description: "|"
         Query quota, support: VM, image, key pair, template
       operationId: describeQuotas
       parameters:
@@ -19,18 +19,18 @@ paths:
           type: array
           items:
             $ref: "../../common/model/Filter.yaml#/definitions/filter"
-          description: | 
+          description: "| "
             resourceTypes - Resource types, multiple support [instance, keyair, image, instanceTemplate]
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               result:
                 properties:
                   quotas:
                     type: array
-                    description: Quota list
+                    description: "Quota list"
                     items:
                       $ref: "../model/Quota.yaml#/definitions/quota"
               requestId:
@@ -48,7 +48,7 @@ paths:
 
     ###################### Modify Quota ######################
     patch:
-      description: |
+      description: "|"
         Modify quotas; an internal API;  support: VM, image, key pair, template
       operationId: modifyQuota
       x-jdcloud-internal: true
@@ -56,14 +56,14 @@ paths:
         - name: resourceType
           in: query
           type: string
-          description: Source type [instance, keypair, image, instanceTemplate]
+          description: "Source type [instance, keypair, image, instanceTemplate]"
         - name: limit
           in: query
           type: integer
-          description: Upper quota limit
+          description: "Upper quota limit"
       responses:
         200:
-          description: OK
+          description: "OK"
         400:
           description: "Invalid parameter"
         401:
@@ -82,4 +82,4 @@ parameters:
     in: path
     required: true
     type: string
-    description: Region ID
+    description: "Region ID"

@@ -6,19 +6,19 @@ definitions:
     properties:
       ccProtectMode:
         type: integer
-        description: cc Defense Mode, 0->normal  1->loose  2->critical  3->customized
+        description: "cc Defense Mode, 0->normal  1->loose  2->critical  3->customized"
       ccThreshold:
         type: integer
-        description: CC Threshold
+        description: "CC Threshold"
       hostQps:
         type: integer
-        description: When ccProtectMode is a customized mode, specify the protection threshold of each Host
+        description: "When ccProtectMode is a customized mode, specify the protection threshold of each Host"
       hostUrlQps:
         type: integer
-        description: When ccProtectMode is a customized mode, specify the protection threshold of each Host+URI
+        description: "When ccProtectMode is a customized mode, specify the protection threshold of each Host+URI"
       ipHostQps:
         type: integer
-        description: When ccProtectMode is a customized mode, specify the protection threshold of each source IP to Host
+        description: "When ccProtectMode is a customized mode, specify the protection threshold of each source IP to Host"
       ipHostUrlQps:
         type: integer
-        description: When ccProtectMode is a customized mode, specify the protection threshold of each source IP to Host+URI
+        description: "When ccProtectMode is a customized mode, specify the protection threshold of each source IP to Host+URI"

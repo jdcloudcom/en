@@ -4,16 +4,15 @@ definitions:
     x-jdcloud-module: nc
     x-jdcloud-internal: false
     type: object
-    description: 
-    required:
+    description: "required:"
       - bandwidth
     properties:
       bandwidthMbps:
         type: integer
-        description: Elastic IP Speed Limit   Unit: MB  
+        description: "Elastic IP Speed Limit   Unit: MB  "
       provider:
         type: string    
-        description: IP Service Provider, value: bgp or no_bg    
+        description: "IP Service Provider, value: bgp or no_bg    "
       chargeSpec:
         $ref: "../../charge/model/ChargeSpec.yaml#/definitions/chargeSpec"
-        description: Billing Configuration 
+        description: "Billing Configuration "

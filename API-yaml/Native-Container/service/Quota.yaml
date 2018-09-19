@@ -2,7 +2,7 @@ swagger: "2.0"
 info:
   version: "v1"
   title: Quota
-  description: Container Quota
+  description: "Container Quota"
 
 basePath: /regions/{regionId}
 
@@ -10,7 +10,7 @@ paths:
   "/quotas":
     ###################### Search Quota ######################
     get:
-      description: |
+      description: "|"
         Search resource quota and support Native Container and secret.
       operationId: describeQuota
       parameters:
@@ -18,11 +18,11 @@ paths:
           in: query
           type: string
           required: true
-          description: |
+          description: "|"
             resourceType - Resource type, support many [container, secret]
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             type: object
             properties:
@@ -44,7 +44,7 @@ paths:
           description: "Service unavailable"
     ###################### Modify Quota ######################
     patch:
-      description: |
+      description: "|"
         Modify resource quota and support Native Container and secret.
       operationId: modifyQuota
       x-jdcloud-internal: true
@@ -53,16 +53,16 @@ paths:
           in: query
           type: string
           required: true
-          description: |
+          description: "|"
             resourceType - Resource type, support many [container, secret]
         - name: limit
           in: query
           type: integer
           required: true
-          description: Cap
+          description: "Cap"
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             type: object
             properties:
@@ -86,4 +86,4 @@ parameters:
     in: path
     required: true
     type: string
-    description: Region ID
+    description: "Region ID"

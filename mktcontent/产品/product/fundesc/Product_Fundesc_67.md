@@ -4,22 +4,22 @@
 		"funcContent":[
 			{
 				"funcName":"",
-				"funcTitle":"Real-time trans-coding",
-				"funcP":"High-performance distributed transcoding cluster, which can convert source streams into live streams of different resolutions and code rates in real time, which are suitable for watching by PC, PAD, mobiles and other different terminal devices"
+				"funcTitle":"Real-time Transcoding",
+				"funcP":"High-performance distributed transcoding cluster can convert source streams into live streams of different resolutions and code rates in real time, suitable for PC, PAD, mobiles and other terminal devices."
 			},
 			{
 				"funcName":"",
-				"funcTitle":"Live recording",
-				"funcP":"Seamlessly dock JD Cloud storage, and live contents can be recorded in real-time for archival and review"
+				"funcTitle":"Live Recording",
+				"funcP":"Seamlessly docked with JD Cloud storage, and live contents can be recorded in real time for archival and replay. "
 			},
 			{
 				"funcName":"",
-				"funcTitle":"Live screenshot",
+				"funcTitle":"Live Screenshot",
 				"funcP":"Generate video images periodically, convenient for users to review content and dynamically update live cover"
 			},
 			{
 				"funcName":"",
-				"funcTitle":"Edge pushing streaming",
+				"funcTitle":"Edge Pushing Streaming",
 				"funcP":"Abundant node quantity and leading distribution technology, which can effectively reduce live broadcast delay through edge pushing streaming"
 			}
 		]
@@ -29,28 +29,28 @@
 		"funcContent":[
 			{
 				"funcName":"",
-				"funcTitle":"Anti-theft Chain",
+				"funcTitle":"Anti-leech",
 				"funcP":"Provide the black and white lists of referers to prevent video resources from being stolen"
 			},
 			{
 				"funcName":"",
-				"funcTitle":"Identification of live permission",
+				"funcTitle":"Live Authentication",
 				"funcP":"Support live authentication, to effectively guarantee the security of pushing streaming and broadcast"
 			},
 			{
 				"funcName":"",
 				"funcTitle":"One-click Cutoff",
-				"funcP":"Rich Streaming Management console interface could carry out real-time interrupted operation to ensure broadcasting safety"
+				"funcP":"Rich Streaming Management console interfaces can cut off operation in real time to ensure broadcasting safety"
 			}
 		]
 	},
 	{
-		"funcName":"Statistical & Analysis",
+		"funcName":"Statistics & Analysis",
 		"funcContent":[
 			{
 				"funcName":"",
 				"funcTitle":"Rich Statistics & Analysis",
-				"funcP":"Statistics and viewing can be viewed on bandwidth, traffic, and the number of online users to help customers effectively analyzing business direction"
+				"funcP":"Statistics on bandwidth, traffic, and the number of users can be viewed to help customers effectively analyze the direction of business development"
 			}
 		]
 	}

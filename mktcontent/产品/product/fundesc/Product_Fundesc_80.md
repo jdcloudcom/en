@@ -14,17 +14,17 @@
         "funcContent":[
             {
                 "funcName":"",
-                "funcTitle":"Support remote disaster recovery",
+                "funcTitle":"Support Remote Disaster Recovery",
                 "funcP":"Provide remote disaster recovery and guarantees service availability. Multiple partitions and multiple copies are provided by default to ensure the efficiency and stability of data indexing, to ensure the stable monitoring in the background and the continuous cluster monitoring and alarming capabilities"
             }
         ]
     },
     {
-        "funcName":"Security Assurance for Data",
+        "funcName":"Data Security Assurance",
         "funcContent":[
             {
                 "funcName":"",
-                "funcTitle":"Support users to have independent clusters",
+                "funcTitle":"Support Users to Have Independent Clusters",
                 "funcP":"User-proprietary network: access within such proprietary network, eliminating the risk of direct connection to external networks and ensuring data privacy"
             }
         ]

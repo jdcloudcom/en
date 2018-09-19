@@ -1,19 +1,19 @@
 [
 	{
-		"proGoodTitle":"Product advantages",
-		"proNameTitle":"Cloud resolution",
+		"proGoodTitle":"Benefits",
+		"proNameTitle":"Cloud Resolution",
 		"proDiffTitle":"",
-		"proGood":"Take effect in real time",
-		"proName":"The domain name management and operation (e.g. addition of a domain name and resolution change) can be valid in seconds via the cloud resolution management platform, and at the same time, it supports the minimum TTL value in one second to assist you in realizing the validity of traffic scheduling as soon as possible and reduce losses.",
+		"proGood":"Take Effect in Real Time",
+		"proName":"The domain name management and operation (e.g. addition of a domain name and resolution change) can be valid in seconds via the cloud resolution management platform, and at the same time, It supports the minimum TTL value in one second to assist you in implementing quick validity of traffic scheduling as well as reducing losses.",
 		"proDiff":""
 	},
 	{
-		"proGood":"High availability",
-		"proName":"The service core of cloud resolution adopts the self-developed high-performance resolution server, and the industry-leading cluster technology scheme is used in nodes to avoid the impact of a single-machine fault on services and is distributed in the core nodes of operator through the multi-node deployment to realize remote disaster recovery, and simultaneously, based on the network defense platform of JD Cloud and years of experience of JD Mall in the operation guarantee of domain name service, users are provided with the availability (99.9999%) service.",
+		"proGood":"High Availability",
+		"proName":"The core of cloud resolution service adopts the self-developed high-performance resolution server, and the industry-leading cluster technology scheme is used in the nodes to avoid the impact of a single-machine fault on services, which is distributed at core backbone nodes of the operator to implement remote disaster tolerance; at the same time, based on the network protection platform of JD Cloud, and years of domain name service operation guarantee experience of JD Mall, it provides the user with services of high availability (99.9999%).",
 		"proDiff":""
 	},
 	{
-		"proGood":"High performance and fast speed",
+		"proGood":"High Performance and Fast Speed",
 		"proName":"It has a high-performance DNS core; the resolution speed and processing capability are increased dramatically, one hundred times higher than open source bind. It relies on multi-node BGP IP providers and multi-node advantages to achieve lower resolution delay and help optimizing your website service experience.",
 		"proDiff":""
 	},
@@ -23,8 +23,8 @@
 		"proDiff":""
 	},
 	{
-		"proGood":"Take effect in real time",
-		"proName":"The domain name management and operation (e.g. addition of a domain name and resolution change) can be valid in seconds via the cloud resolution management platform, and at the same time, it supports the minimum TTL value in one second to assist you in realizing the validity of traffic scheduling as soon as possible and reduce losses.",
+		"proGood":"Take Effect in Real Time",
+		"proName":"The domain name management and operation (e.g. addition of a domain name and resolution change) can be valid in seconds via the cloud resolution management platform, and at the same time, It supports the minimum TTL value in one second to assist you in implementing quick validity of traffic scheduling as well as reducing losses.",
 		"proDiff":""
 	}
 ]
