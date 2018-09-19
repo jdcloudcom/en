@@ -5,10 +5,10 @@ definitions:
     properties:
       privateIpAddress:
         type: string
-        description: IPV4 Address of Private IP
+        description: "IPV4 Address of Private IP"
       elasticIpId:
         type: string
-        description: Elastic IP Instance ID
+        description: "Elastic IP Instance ID"
       elasticIpAddress:
         type: string
-        description: Elastic IP Instance Address
+        description: "Elastic IP Instance Address"

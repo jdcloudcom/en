@@ -10,28 +10,27 @@ definitions:
     properties:
       az:
         type: string
-        description: Availability Zone, to which the Cloud Disk belongs
+        description: "Availability Zone, to which the Cloud Disk belongs"
       name:
         type: string
-        description: Name of the Cloud Disk
-      description:
-        type: string
-        description: Description of the Cloud Disk
+        description: "Name of the Cloud Disk"
+      description: "type: string"
+        description: "Description of the Cloud Disk"
       diskType:
         type: string
         enum:
           - "ssd"
           - "premium-hdd"
-        description: Type of the Cloud Disk, value ssd or premium-hdd
+        description: "Type of the Cloud Disk, value ssd or premium-hdd"
       diskSizeGB:
         type: integer
-        description: Size of the Cloud Disk, in GiB; ssd value range of [20,1000]GB and step size of 10G; premium-hdd value range of [20,3000]GB and step size of 10G
+        description: "Size of the Cloud Disk, in GiB; ssd value range of [20,1000]GB and step size of 10G; premium-hdd value range of [20,3000]GB and step size of 10G"
       snapshotId:
         type: string
-        description: Snapshot ID used to create the Cloud Disk
+        description: "Snapshot ID used to create the Cloud Disk"
       charge:
         $ref: "../../charge/model/ChargeSpec.yaml#/definitions/chargeSpec"
-        description: Billing configuration. If not specified, the default billing type is pay-as-you-go - pay by service time by default.
+        description: "Billing configuration. If not specified, the default billing type is pay-as-you-go - pay by service time by default."
       multiAttachable:
         type: boolean
-        description: Whether the Cloud Disk service supports the mode that one disk is attached to multiple machines. It is set as false by default (not supported).
+        description: "Whether the Cloud Disk service supports the mode that one disk is attached to multiple machines. It is set as false by default (not supported)."

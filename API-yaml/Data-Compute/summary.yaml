@@ -2,7 +2,7 @@ swagger: "2.0"                                  # Realized based on Swagger 2.0 
 info:
   version: "v1"                                 # OpenApi Version number
   title: Data Compute Service API
-  description: Data Compute service APIs
+  description: "Data Compute service APIs"
 host: "xdata.jdcloud-api.com"                   # Use business line name as the secondary domain name
 x-jdcloud-version: "v1"
 x-jdcloud-revision: 1.0.0  #It is required to be consistent with ChangeLog

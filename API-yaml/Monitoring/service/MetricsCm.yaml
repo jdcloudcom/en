@@ -1,6 +1,6 @@
 swagger: "2.0"
 info:
-  description: Customized metric monitoring items APIs, providing customized monitoring data reporting function
+  description: "Customized metric monitoring items APIs, providing customized monitoring data reporting function"
   title: Monitor Item Customized Monitoring APIs
   version: "v1"
 consumes:
@@ -16,7 +16,7 @@ paths:
   /customMetrics:
     ###################### Report Customized Metric Monitoring Data of Users ######################
     post:
-      description: The API is for reporting the customized metric monitoring data, facilitating the user to report the collected time series data to the Monitoring. Original data and aggregated statistical data can be reported in batches. A single request contains up to 50 data points; the data size does not exceed 256k.
+      description: "The API is for reporting the customized metric monitoring data, facilitating the user to report the collected time series data to the Monitoring. Original data and aggregated statistical data can be reported in batches. A single request contains up to 50 data points; the data size does not exceed 256k."
       summary: Report Monitoring Data of Users
       operationId: putMetricData
       x-jdcloud-internal: false
@@ -30,22 +30,22 @@ paths:
             $ref: "../model/MetricDataCm.yaml#/definitions/metricDataCm"
       responses:
         200:
-          description:  OK
+          description: "OK"
           schema:
             properties:
               requestId:
                 type: string
-                description: Request ID
+                description: "Request ID"
               error:
                 type: object
-                description: Error Information
+                description: "Error Information"
                 items:
                   $ref: '../model/ErrorCm.yaml#/definitions/error'
               result:
                 properties:
                   success:
                     type: boolean
-                    description: All successful write-ins are true, otherwise are false
+                    description: "All successful write-ins are true, otherwise are false"
                   errMetricDataList:
                     type: array
                     items:

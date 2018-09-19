@@ -2,7 +2,7 @@ swagger: "2.0"
 info:
   version: "v1"
   title: Role Management APIs
-  description: Role Management APIs
+  description: "Role Management APIs"
 
 paths:
   "/role":
@@ -14,13 +14,13 @@ paths:
       parameters:
         - name: createRoleInfo
           in: body
-          description: Role Information
+          description: "Role Information"
           required: true
           schema:
             $ref: "../model/CreateRoleInfo.yaml#/definitions/createRoleInfo"
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             type: object
             properties:
@@ -28,7 +28,7 @@ paths:
                 type: string
               roleInfo:
                  $ref: "../model/RoleInfo.yaml#/definitions/roleInfo"
-                 description: Role Information
+                 description: "Role Information"
 
   "/role/{roleName}":
    ###################### Modify Role ######################
@@ -39,13 +39,13 @@ paths:
       parameters:
         - name: updateRoleInfo
           in: body
-          description: Role Information
+          description: "Role Information"
           required: true
           schema:
             $ref: "../model/UpdateRoleInfo.yaml#/definitions/updateRoleInfo"
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             type: object
             properties:
@@ -59,7 +59,7 @@ paths:
       x-jdcloud-internal: false
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             type: object
             properties:
@@ -67,7 +67,7 @@ paths:
                 properties:
                   roleInfo:
                     $ref: "../model/RoleInfo.yaml#/definitions/roleInfo"
-                    description: Role Information
+                    description: "Role Information"
               requestId:
                 type: string
 
@@ -78,7 +78,7 @@ paths:
       x-jdcloud-internal: false
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             type: object
             properties:
@@ -94,13 +94,13 @@ paths:
       parameters:
         - name: updateAssumeRolePolicyInfo
           in: body
-          description: Role Permission Information
+          description: "Role Permission Information"
           required: true
           schema:
             $ref: "../model/UpdateAssumeRolePolicyInfo.yaml#/definitions/updateAssumeRolePolicyInfo"
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             type: object
             properties:
@@ -117,31 +117,31 @@ paths:
         - name: pageNumber
           in: query
           type: integer
-          description: Page
+          description: "Page"
           required: true
         - name: pageSize
           in: query
           type: integer
-          description: Number of Roles Displayed on Each Page
+          description: "Number of Roles Displayed on Each Page"
           required: true
         - name: pathPrefix
           in: query
           type: string
-          description: Path Prefix
+          description: "Path Prefix"
           required: false
         - name: roleNamePrefix
           in: query
           type: string
-          description: Role Name Prefix
+          description: "Role Name Prefix"
           required: false
         - name: sort
           in: query
           type: integer
-          description: Ranking Policy, 0-rank in sequential order by create time  1-rank in inverted order by create time
+          description: "Ranking Policy, 0-rank in sequential order by create time  1-rank in inverted order by create time"
           required: true
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             type: object
             properties:
@@ -149,12 +149,12 @@ paths:
                 properties:
                   total:
                     type: integer
-                    description: Total Number
+                    description: "Total Number"
                   roles:
                     type: array
                     items:
                       $ref: "../model/ListRoleInfo.yaml#/definitions/listRoleInfo"
-                    description: Role List
+                    description: "Role List"
               requestId:
                 type: string
 
@@ -167,16 +167,16 @@ paths:
       parameters:
         - name: attachRolePolicyInfo
           in: body
-          description: Role Association Policy Information
+          description: "Role Association Policy Information"
           required: true
           schema:
             properties:
               policyJrn:
                 type: string
-                description: Policy jrn
+                description: "Policy jrn"
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             type: object
             properties:
@@ -193,26 +193,26 @@ paths:
         - name: pageNumber
           type: integer
           in: query
-          description: Page
+          description: "Page"
           required: true
         - name: pageSize
           type: integer
           in: query
-          description: Number of Roles Displayed on Each Page
+          description: "Number of Roles Displayed on Each Page"
           required: true
         - name: keyword
           type: string
           in: query
-          description: Keyword
+          description: "Keyword"
           required: false
         - name: sort
           type: integer
           in: query
-          description: Ranking Policy, 0-rank in sequential order by create time  1-rank in inverted order by create time
+          description: "Ranking Policy, 0-rank in sequential order by create time  1-rank in inverted order by create time"
           required: true
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             type: object
             properties:
@@ -220,12 +220,12 @@ paths:
                 properties:
                   total:
                     type: integer
-                    description: Total Number
+                    description: "Total Number"
                   policies:
                     type: array
                     items:
                       $ref: "../model/RolePolicy.yaml#/definitions/rolePolicy"
-                    description: Role Authorization List
+                    description: "Role Authorization List"
 
               requestId:
                 type: string
@@ -240,16 +240,16 @@ paths:
       parameters:
         - name: detachRolePolicyInfo
           in: body
-          description: Role Association Policy Information
+          description: "Role Association Policy Information"
           required: true
           schema:
             properties:
               policyJrn:
                 type: string
-                description: Policy jrn
+                description: "Policy jrn"
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             type: object
             properties:
@@ -265,10 +265,10 @@ parameters:
     in: path
     required: true
     type: string
-    description: Region ID
+    description: "Region ID"
   roleName:
     name: roleName
     in: path
     required: true
     type: string
-    description: Role Name
+    description: "Role Name"

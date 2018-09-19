@@ -7,7 +7,7 @@ definitions:
     properties:
       backupName:
         type: string
-        description: Backup name with length up to 64 English characters or Chinese characters of equal length
+        description: "Backup name with length up to 64 English characters or Chinese characters of equal length"
       dbNames:
         type: array
         items:

@@ -5,15 +5,15 @@ definitions:
     properties:
       alias:
         type: string
-        description: Alias
+        description: "Alias"
       region:
         type: string
-        description: Region
+        description: "Region"
       visible:
         type: integer
-        description: Visible or Not (1-Yes, 0-No)
+        description: "Visible or Not (1-Yes, 0-No)"
       azStatusList:
         type: array
         items:
           $ref: "./AzSaleStatusVo.yaml#/definitions/azSaleStatusVo"
-        description: Az Status Information
+        description: "Az Status Information"

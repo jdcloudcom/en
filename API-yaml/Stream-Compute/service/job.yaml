@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   version: v1
   title: JOB APIs
-  description: Information APIs related to Stream Compute
+  description: "Information APIs related to Stream Compute"
 basePath: '/regions/{regionId}'
 paths:
   ###########Add or Update job#################
@@ -13,13 +13,13 @@ paths:
       parameters:
         - name: jobStr
           in: body
-          description: Details of Creating jJob
+          description: "Details of Creating jJob"
           required: true
           schema:
             $ref: "../model/jobView.yaml#/definitions/jobStr"
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             type: object
             properties:
@@ -27,7 +27,7 @@ paths:
                 properties:
                   okInfo:
                     type: object
-                    description: Successful Result Object
+                    description: "Successful Result Object"
                     $ref: "../model/200.yaml#/definitions/okInfo"
               requestId:
                 type: string
@@ -48,7 +48,7 @@ paths:
               required: true
         responses: 
             '200':
-              description: OK
+              description: "OK"
               schema:
                 properties: 
                    result:
@@ -62,7 +62,7 @@ paths:
 
 ###############Delete Job####################
     delete:
-        description: Delete Job
+        description: "Delete Job"
         operationId: deleteJob
         parameters:
             - name: namespaceId
@@ -75,7 +75,7 @@ paths:
               required: true
         responses: 
             200:
-              description: OK
+              description: "OK"
               schema:
                 type: object
                 properties: 
@@ -85,17 +85,17 @@ paths:
                       properties:
                           message: 
                              type: string
-                             description: Returned Information of Deleting Job
+                             description: "Returned Information of Deleting Job"
                           status:
                             type: boolean
             500:
-              description: "INTERNAL_ERROR"                   
+              description: "INTERNAL_ERROR                   "
                                                           
  
 ###############Query All the Jobs Under the Assigned Applications#################################### 
   /jobList:
     get:
-        description: Query All the Jobs Under the Assigned Applications
+        description: "Query All the Jobs Under the Assigned Applications"
         operationId: getJobList
         parameters:
             - name: namespaceId
@@ -104,7 +104,7 @@ paths:
               required: true
         responses: 
             200:
-              description: OK
+              description: "OK"
               schema:
                 type: object
                 properties: 
@@ -114,16 +114,16 @@ paths:
                       properties:
                           data: 
                              type: array
-                             description: Job Objects Queried out
+                             description: "Job Objects Queried out"
                              items:
                                 type: object
                                 $ref: "../model/jobView.yaml#/definitions/jobStr" 
             500:
-              description: "INTERNAL_ERROR"                                
+              description: "INTERNAL_ERROR                                "
 ################Running job####################
   /job:start: 
     get:
-        description: Running Job
+        description: "Running Job"
         operationId: startJob
         parameters:
             - name: namespaceId
@@ -136,7 +136,7 @@ paths:
               required: true
         responses: 
             200:
-              description: OK
+              description: "OK"
               schema:
                 type: object
                 properties: 
@@ -146,15 +146,15 @@ paths:
                       properties:
                           message: 
                              type: string
-                             description: Whether the Job is Successfully Submitted or Not
+                             description: "Whether the Job is Successfully Submitted or Not"
                           
             500:
-              description: "INTERNAL_ERROR"                       
+              description: "INTERNAL_ERROR                       "
             
 ###############Stop Job Running####################
   /job:stop:
     get:
-        description: Stop Job Running
+        description: "Stop Job Running"
         operationId: stopJob
         parameters:
             - name: namespaceId
@@ -167,7 +167,7 @@ paths:
               required: true
         responses: 
             200:
-              description: OK
+              description: "OK"
               schema:
                 type: object
                 properties: 
@@ -177,10 +177,10 @@ paths:
                       properties:
                           message: 
                              type: string
-                             description: Returned Information Upon Successfully Enabling Job
+                             description: "Returned Information Upon Successfully Enabling Job"
                           
             500:
-              description: "INTERNAL_ERROR"      
+              description: "INTERNAL_ERROR      "
 
 parameters:
   regionId:
@@ -188,4 +188,4 @@ parameters:
     in: path
     required: true
     type: string
-    description: Region ID
+    description: "Region ID"

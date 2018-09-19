@@ -9,4 +9,4 @@ definitions:
         type: array
         items:
           $ref: "./AddNetworkAclRuleSpec.yaml#/definitions/addNetworkAclRuleSpec"
-        description: NetworkAcl Rule List
+        description: "NetworkAcl Rule List"

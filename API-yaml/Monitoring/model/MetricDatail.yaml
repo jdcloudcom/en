@@ -7,18 +7,18 @@ definitions:
     properties:
       calculateUnit:
         type: string
-        description: Computing unit of metric, such as bit/s, %, and byte
+        description: "Computing unit of metric, such as bit/s, %, and byte"
       metric:
         type: string
-        description: Metric
+        description: "Metric"
       metricName:
         type: string
-        description: Metric Name
+        description: "Metric Name"
       serviceCode:
         type: string
-        description: Identifier of Resource Type
+        description: "Identifier of Resource Type"
       downSample:
-        description: Sampling Frequency
+        description: "Sampling Frequency"
         type: string
 
   ServiceCodeMetrics:

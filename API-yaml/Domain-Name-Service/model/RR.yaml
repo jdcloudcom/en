@@ -6,36 +6,36 @@ definitions:
     properties:
       id:
         type: integer
-        description: Unique ID of the Domain Name Resolution
+        description: "Unique ID of the Domain Name Resolution"
       hostRecord:
         type: string
-        description: Machine Record
+        description: "Machine Record"
       hostValue:
         type: string
-        description: Value of Resolution Record
+        description: "Value of Resolution Record"
       jcloudRes:
         type: boolean
-        description: JD Cloud Resource?
+        description: "JD Cloud Resource?"
       mxPriority:
         type: integer
-        description: Priority, only exists in some resolution record types
+        description: "Priority, only exists in some resolution record types"
       port:
         type: integer
-        description: port, only exists in some resolution record types
+        description: "port, only exists in some resolution record types"
       ttl:
         type: integer
-        description: Life Time of Resolution Record
+        description: "Life Time of Resolution Record"
       type:
         type: string
-        description: Type of Resolution Record
+        description: "Type of Resolution Record"
       weight:
         type: integer
-        description: Weight of Resolution Record              
+        description: "Weight of Resolution Record              "
       viewValue:
         type: array
         items:
             type: integer
-        description: ID of Resolution Line
+        description: "ID of Resolution Line"
   updateRR:
     type: object
     x-jdcloud-module: clouddnsservice
@@ -43,86 +43,86 @@ definitions:
       domainName:
         type: string
         required: true
-        description: Main Domain Name
+        description: "Main Domain Name"
       id:
         type: integer
         required: true
-        description: Unique ID of the Domain Name Resolution
+        description: "Unique ID of the Domain Name Resolution"
       hostRecord:
         type: string
         required: true
-        description: Machine Record
+        description: "Machine Record"
       hostValue:
         type: string
         required: true
-        description: Value of Resolution Record
+        description: "Value of Resolution Record"
       jcloudRes:
         type: boolean
         required: true
-        description: JD Cloud Resource?  
+        description: "JD Cloud Resource?  "
       mxPriority:
         type: integer
         required: true
-        description: Priority, only exists in some resolution record types
+        description: "Priority, only exists in some resolution record types"
       port:
         type: integer
         required: true
-        description: port, only exists in some resolution record types
+        description: "port, only exists in some resolution record types"
       ttl:
         type: integer
         required: true
-        description: Life Time of Resolution Record
+        description: "Life Time of Resolution Record"
       type:
         type: string
         required: true
-        description: Resolution Type
+        description: "Resolution Type"
       weight:
         type: integer
         required: true
-        description: Weight of Resolution Record              
+        description: "Weight of Resolution Record              "
       viewValue:
         type: integer
         required: true
-        description: ID of Resolution Line
+        description: "ID of Resolution Line"
   addRR:
     type: object
     x-jdcloud-module: clouddnsservice
     properties:
       hostRecord:
         type: string
-        description: Machine Record
+        description: "Machine Record"
         required: true
       hostValue:
         type: string
-        description: Value of Resolution Record
+        description: "Value of Resolution Record"
         required: true
       jcloudRes:
         type: boolean
-        description: JD Cloud Resource?
+        description: "JD Cloud Resource?"
         required: true        
       mxPriority:
         type: integer
-        description: Priority, only exists in some resolution record types
+        description: "Priority, only exists in some resolution record types"
         required: true
       port:
         type: integer
-        description: port, only exists in some resolution record types
+        description: "port, only exists in some resolution record types"
         required: true
       ttl:
         type: integer
-        description: Life Time of Resolution Record
+        description: "Life Time of Resolution Record"
         required: true
       type:
         type: string
-        description: Resolution Type
+        description: "Resolution Type"
         required: true
       weight:
         type: integer
-        description: Weight of Resolution Record
+        description: "Weight of Resolution Record"
         required: true        
       viewValue:
         type: integer
-        description: ID of Resolution Line
+        description: "ID of Resolution Line"
         required: true        
   viewTree:
     type: object
@@ -130,16 +130,16 @@ definitions:
     properties:
       disabled:
         type: boolean
-        description: Whether is this resolution line disabled
+        description: "Whether is this resolution line disabled"
       label:
         type: string
-        description: Name of Resolution Line
+        description: "Name of Resolution Line"
       leaf:
         type: boolean
-        description: Whether the data is a leaf node
+        description: "Whether the data is a leaf node"
       value:
         type: integer
-        description: Resolution Line ID
+        description: "Resolution Line ID"
       children:
         type: array
         required: false

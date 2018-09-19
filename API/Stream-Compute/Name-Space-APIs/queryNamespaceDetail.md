@@ -1,38 +1,38 @@
 # queryNamespaceDetail
 
 
-## 描述
+## Description
 Query the details of a certain application
 
-## 请求方式
+## Request Method
 GET
 
-## 请求地址
+## Request Address
 https://streamcompute.jdcloud-api.com/v1/regions/{regionId}/namespaceDetail
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**regionId**|String|True||Region ID|
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request Parameter
+|Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**namespaceId**|Integer|True|||
 
 
-## 返回参数
-|名称|类型|描述|
+## Return Parameter
+|Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
 |**result**|[Result](##Result)||
 
 
 ### <a name="Result">Result</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**namespace**|[Namespace](##Namespace)|namespace objects queried out|
 ### <a name="Namespace">Namespace</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**createTime**|String||
 |**deleted**|Integer||
@@ -48,8 +48,8 @@ https://streamcompute.jdcloud-api.com/v1/regions/{regionId}/namespaceDetail
 |**updateTime**|String||
 |**userName**|String||
 
-## 返回码
-|返回码|描述|
+## Return Code
+|Return Code|Description|
 |---|---|
 |**200**|OK|
 |**500**|INTERNAL_ERROR|

@@ -23,7 +23,7 @@ items:
         href: Pricing/Price-Overview.md
       - name: View Bills
         href: Pricing/Check-Bill.md
- ’- name: Getting Started
+  - name: Getting Started
    items:
       - name: Sign Up Service
         href: Getting-Started/Sign-Up-Service-1.md
@@ -45,7 +45,7 @@ items:
         href: Operation-Guide/Overview-Pag-2.md
       - name: Space Management
         items:
-           ’- name: Space Overview
+           - name: Space Overview
              href: Operation-Guide/Manage-Bucket/Bucket-Overview-2.md
            - name: Create Bucket
              href: Operation-Guide/Manage-Bucket/Create-Bucket-2.md
@@ -74,7 +74,7 @@ items:
           - name: Delete Files
             href: Operation-Guide/Manage-Object/Delete-Object.md
           - name: Post-Object
-            href: Operation-Guide/Manage-Object/Post-Object-1.md                  
+            href: Operation-Guide/Manage-Object/Post-Object-1.md                              
           - name: Consumption Monitoring
             href: Operation-Guide/Manage-Object/Usage-Monitoring.md
       - name: Image Processing Guide

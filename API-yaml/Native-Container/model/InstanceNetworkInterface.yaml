@@ -4,33 +4,32 @@ definitions:
     x-jdcloud-module: nc
     x-jdcloud-internal: false
     type: object
-    description: Describe instance’s network interface information
+    description: "Describe instance’s network interface information"
     properties:
       networkInterfaceId:
         type: string
-        description: Elastic Network Interface ID
+        description: "Elastic Network Interface ID"
       macAddress:
         type: string
-        description: Ethernet Address
+        description: "Ethernet Address"
       vpcId:
         type: string
-        description: Virtual network ID
-      description:
-        type: string
-        description: Description
+        description: "Virtual network ID"
+      description: "type: string"
+        description: "Description"
       securityGroups:
         type: array
         items:
           $ref: "./SecurityGroupSimple.yaml#/definitions/securityGroupSimple"
-        description: Security Group List
+        description: "Security Group List"
       sanityCheck:
         type: boolean
-        description: Source and Target IP Address Verification, with value 0 or 1
+        description: "Source and Target IP Address Verification, with value 0 or 1"
       primaryIp:
         $ref: "./NetworkInterfacePrivateIp.yaml#/definitions/networkInterfacePrivateIp"
-        description: Primary IP of Network Interface
+        description: "Primary IP of Network Interface"
       secondaryIps:
         type: array
         items:
           $ref: "./NetworkInterfacePrivateIp.yaml#/definitions/networkInterfacePrivateIp"
-        description: 
+        description: ""

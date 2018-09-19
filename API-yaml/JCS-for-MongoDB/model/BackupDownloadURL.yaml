@@ -7,14 +7,14 @@ definitions:
     properties:
       backupName:
         type: string
-        description: Backup Name
+        description: "Backup Name"
       backupInternetDownloadURL:
         type: string
-        description: Address of Public Network Download Link
+        description: "Address of Public Network Download Link"
       backupIntranetDownloadURL:
         type: string
-        description: Address of Intranet Download Link
+        description: "Address of Intranet Download Link"
       linkExpiredTime:
         type: string
-        description: Expiration Time of Public Network and Intranet Download Link
+        description: "Expiration Time of Public Network and Intranet Download Link"
       

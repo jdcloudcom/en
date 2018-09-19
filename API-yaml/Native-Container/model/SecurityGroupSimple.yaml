@@ -4,11 +4,11 @@ definitions:
     x-jdcloud-module: nc
     x-jdcloud-internal: false
     type: object
-    description: Describe basic information of network interface security group
+    description: "Describe basic information of network interface security group"
     properties:
       groupId:
         type: string
-        description: Security Group ID
+        description: "Security Group ID"
       groupName:
         type: string
-        description: Security Group Name
+        description: "Security Group Name"

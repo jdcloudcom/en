@@ -1,0 +1,18 @@
+swagger: "2.0"
+definitions:
+  CCDefaultThresholds:
+    type: object
+    x-jdcloud-module: ipanti
+    properties:
+      hostQps:
+        type: integer
+        description: "Protection Threshold for Each Host"
+      hostUrlQps:
+        type: integer
+        description: "Protection Threshold for Each Host + URL"
+      ipHostQps:
+        type: integer
+        description: "Protection Threshold for Host of Each Source IP"
+      ipHostUrlQps:
+        type: integer
+        description: "Protection Threshold for Host + URL of Each Source IP"

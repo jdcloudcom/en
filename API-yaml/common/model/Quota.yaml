@@ -6,10 +6,10 @@ definitions:
     properties:
       name:
         type: string
-        description: Name of the Quota Item
+        description: "Name of the Quota Item"
       max:
         type: integer
-        description: Quota
+        description: "Quota"
       used:
         type: integer
-        description: Number Used
+        description: "Number Used"

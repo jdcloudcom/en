@@ -7,8 +7,8 @@ definitions:
     properties:
       az:
         type: string
-        description: Availability Zone
+        description: "Availability Zone"
       canSale:
         type: boolean
-        description: Is it available for sale
+        description: "Is it available for sale"
       

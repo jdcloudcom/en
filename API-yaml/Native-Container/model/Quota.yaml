@@ -7,7 +7,7 @@ definitions:
     properties:
       limit:
         type: integer
-        description: Quota
+        description: "Quota"
       used:
         type: integer
-        description: Used Number
+        description: "Used Number"

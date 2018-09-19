@@ -2,7 +2,7 @@ swagger: "2.0"
 info:
   version: "v1"
   title:  Non Web Forwarding Configuration APIs
-  description: Non Web Forwarding Configuration APIs
+  description: "Non Web Forwarding Configuration APIs"
 
 basePath: /regions/{regionId}
 
@@ -24,7 +24,7 @@ paths:
           description: "Paging size; it is 20 by default; value range [10, 100]"
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               result:
@@ -38,38 +38,38 @@ paths:
               requestId:
                 type: string
         404:
-          description: NOT_FOUND
+          description: "NOT_FOUND"
     post:
       description: "Add a non-web service rule"
       operationId: createForwardRule
       parameters:
         - name: forwardRuleSpec
           in: body
-          description: Non-web service rule parameter
+          description: "Non-web service rule parameter"
           required: true
           schema:
             $ref: "../model/ForwardRuleSpec.yaml#/definitions/forwardRuleSpec"
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               requestId:
                 type: string
         400:
-          description: BAD_REQUEST
+          description: "BAD_REQUEST"
         404:
-          description: NOT_FOUND
+          description: "NOT_FOUND"
         500:
-          description: INTERNAL_SERVER_ERROR
+          description: "INTERNAL_SERVER_ERROR"
 
   /instances/{instanceId}/forwardRules/{forwardRuleId}:
     get:
-      description: Search a non-web service rule
+      description: "Search a non-web service rule"
       operationId: describeForwardRule
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               result:
@@ -79,36 +79,36 @@ paths:
               requestId:
                 type: string
         404:
-          description: NOT_FOUND
+          description: "NOT_FOUND"
     patch:
-      description: Update a non-web service rule
+      description: "Update a non-web service rule"
       operationId: modifyForwardRule
       parameters:
         - name: forwardRuleSpec
           in: body
-          description: Non-web service rule parameter
+          description: "Non-web service rule parameter"
           required: true
           schema:
             $ref: "../model/ForwardRuleSpec.yaml#/definitions/forwardRuleSpec"
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               requestId:
                 type: string
         400:
-          description: BAD_REQUEST
+          description: "BAD_REQUEST"
         404:
-          description: NOT_FOUND
+          description: "NOT_FOUND"
         500:
-          description: INTERNAL_SERVER_ERROR
+          description: "INTERNAL_SERVER_ERROR"
     delete:
-      description: Delete a non-web service rule
+      description: "Delete a non-web service rule"
       operationId: deleteForwardRule
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               requestId:
@@ -120,15 +120,15 @@ paths:
       operationId: switchForwardRuleProtect
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               requestId:
                 type: string
         404:
-          description: NOT_FOUND
+          description: "NOT_FOUND"
         500:
-          description: INTERNAL_SERVER_ERROR
+          description: "INTERNAL_SERVER_ERROR"
 
   /instances/{instanceId}/forwardRules/{forwardRuleId}:origin:
     post:
@@ -136,15 +136,15 @@ paths:
       operationId: switchForwardRuleOrigin
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               requestId:
                 type: string
         404:
-          description: NOT_FOUND
+          description: "NOT_FOUND"
         500:
-          description: INTERNAL_SERVER_ERROR
+          description: "INTERNAL_SERVER_ERROR"
 
 # General parameters of path
 parameters:
@@ -153,16 +153,16 @@ parameters:
     in: path
     required: true
     type: string
-    description: Belonging Region ID
+    description: "Belonging Region ID"
   instanceId:
     name: instanceId
     in: path
     required: true
     type: string
-    description: Instance ID
+    description: "Instance ID"
   forwardRuleId:
     name: forwardRuleId
     in: path
     required: true
     type: string
-    description: Forwarding rule ID
+    description: "Forwarding rule ID"

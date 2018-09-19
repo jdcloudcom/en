@@ -2,7 +2,7 @@ swagger: "2.0"
 info:
   version: "v1"
   title: User Management APIs
-  description: User Management APIs
+  description: "User Management APIs"
 
 basePath: /regions/{regionId}
 
@@ -16,13 +16,13 @@ paths:
       parameters:
         - name: createSubUserInfo
           in: body
-          description: Sub-account Information
+          description: "Sub-account Information"
           required: true
           schema:
             $ref: "../model/CreateSubUserInfo.yaml#/definitions/createSubUserInfo"
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             type: object
             properties:
@@ -37,7 +37,7 @@ paths:
       x-jdcloud-internal: false
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             type: object
             properties:
@@ -45,7 +45,7 @@ paths:
                 properties:
                   userAccessKeys:
                    type: array
-                   description: UserAccessKey list
+                   description: "UserAccessKey list"
                    items:
                      $ref: "../model/UserAccessKey.yaml#/definitions/userAccessKey"
               requestId:
@@ -59,7 +59,7 @@ paths:
       x-jdcloud-internal: false
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             type: object
             properties:
@@ -75,7 +75,7 @@ paths:
       x-jdcloud-internal: false
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             type: object
             properties:
@@ -91,7 +91,7 @@ paths:
       x-jdcloud-internal: false
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             type: object
             properties:
@@ -106,7 +106,7 @@ paths:
       x-jdcloud-internal: false
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             type: object
             properties:
@@ -124,16 +124,16 @@ paths:
         - name: accessKey
           in: query
           type: string
-          description: User AccessKey
+          description: "User AccessKey"
           required: false
         - name: accountId
           in: query
           type: string
-          description: User’s Unique id
+          description: "User’s Unique id"
           required: false
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             type: object
             properties:
@@ -141,29 +141,29 @@ paths:
                 properties:
                   pin:
                     type: string
-                    description: User Pin, if there is a sub-account, its format is primary account pin @ sub-account pin
+                    description: "User Pin, if there is a sub-account, its format is primary account pin @ sub-account pin"
                   enabled:
                     type: boolean
-                    description: If the user is available; true means that the user available, while false means that the user is unavailable and the user is in the blacklist
+                    description: "If the user is available; true means that the user available, while false means that the user is unavailable and the user is in the blacklist"
                   authStatus:
                     type: integer
-                    description: 0-Unverfied, 1-Verified (personal), 2-Verified (enterprise), 3-Verified (personal and enterprise)
+                    description: "0-Unverfied, 1-Verified (personal), 2-Verified (enterprise), 3-Verified (personal and enterprise)"
                   accountId:
                     type: integer
                     format: int64
-                    description: User’s Unique id
+                    description: "User’s Unique id"
                   accessKey:
                     type: string
-                    description: AccessKey, blank when inputting a parameter as accountId
+                    description: "AccessKey, blank when inputting a parameter as accountId"
                   accessKeySecret:
                     type: string
-                    description: AccessKeySecret, blank when inputting parameter as accountId
+                    description: "AccessKeySecret, blank when inputting parameter as accountId"
                   state:
                     type: integer
-                    description: AccessKey status, 0-Disabled, 1-Enabled, blank when inputting a parameter as accountId
+                    description: "AccessKey status, 0-Disabled, 1-Enabled, blank when inputting a parameter as accountId"
                   yn:
                     type: integer
-                    description: Deleted or not, 0-Deleted, 1-Valid, blank when inputting a parameter as accountId
+                    description: "Deleted or not, 0-Deleted, 1-Valid, blank when inputting a parameter as accountId"
               requestId:
                 type: string
 
@@ -177,11 +177,11 @@ paths:
         - name: pin
           in: query
           type: string
-          description: User Pin
+          description: "User Pin"
           required: true
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             type: object
             properties:
@@ -189,38 +189,38 @@ paths:
                 properties:
                   pin:
                     type: string
-                    description: User Pin
+                    description: "User Pin"
                   enabled:
                     type: integer
-                    description: If the user is available; 1 means that the user available, while 0 means that the user is unavailable and the user is in the blacklist
+                    description: "If the user is available; 1 means that the user available, while 0 means that the user is unavailable and the user is in the blacklist"
                   userType:
                     type: integer
                     description: "User Type 1: Person, 2: Enterprise, 3: Upgraded individual enterprise"
                   personAuthStatus:
                     type: integer
-                    description: -1-Unverified (personal), 1-Verified (personal)
+                    description: "-1-Unverified (personal), 1-Verified (personal)"
                   companyaAuthStatus:
                     type: integer
-                    description: 0-Reviewing (Enterprise), 1-Verified (Enterprise), 2-Failed (Enterprise)
+                    description: "0-Reviewing (Enterprise), 1-Verified (Enterprise), 2-Failed (Enterprise)"
                   accountBalance:
                     type: number
-                    description: Account Balance
+                    description: "Account Balance"
                   accountId:
                     type: integer
                     format: int64
-                    description: User’s Unique id
+                    description: "User’s Unique id"
                   meta:
                     type: string
-                    description: User’s Extended Information
+                    description: "User’s Extended Information"
                   activeStatus:
                     type: integer
-                    description: User’s Activation Status
+                    description: "User’s Activation Status"
                   cscPhone:
                     type: string
-                    description: User’s Mobile Phone Number
+                    description: "User’s Mobile Phone Number"
                   cscEmail:
                     type: string
-                    description: User’s Email
+                    description: "User’s Email"
               requestId:
                 type: string
 
@@ -234,11 +234,11 @@ paths:
         - name: pin
           in: query
           type: string
-          description: User Pin
+          description: "User Pin"
           required: true
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             type: object
             properties:
@@ -246,10 +246,10 @@ paths:
                 properties:
                   pin:
                     type: string
-                    description: User Pin
+                    description: "User Pin"
                   threshold:
                     type: number
-                    description: Threshold Value
+                    description: "Threshold Value"
               requestId:
                 type: string
 
@@ -261,7 +261,7 @@ paths:
         x-jdcloud-internal: true
         responses:
           200:
-            description: OK
+            description: "OK"
             schema:
               type: object
               properties:
@@ -285,11 +285,11 @@ paths:
          - name: pin
            in: query
            type: string
-           description: User Pin
+           description: "User Pin"
            required: true
         responses:
           200:
-            description: OK
+            description: "OK"
             schema:
               type: object
               properties:
@@ -310,10 +310,10 @@ parameters:
     in: path
     required: true
     type: string
-    description: Region ID
+    description: "Region ID"
   accessKey:
     name: accessKey
     in: path
     required: true
     type: string
-    description: accessKey
+    description: "accessKey"

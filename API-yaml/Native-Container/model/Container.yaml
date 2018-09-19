@@ -4,101 +4,100 @@ definitions:
     x-jdcloud-module: nc
     x-jdcloud-internal: false
     type: object
-    description: container
+    description: "container"
     properties:
       containerId:
         type: string  
-        description: Container ID 
+        description: "Container ID "
       status:
         type: string  
-        description: Container Status 
+        description: "Container Status "
       instanceType:
         type: string  
-        description: Instance Type Family 
+        description: "Instance Type Family "
       az:
         type: string  
-        description: Availability Zone 
+        description: "Availability Zone "
       name:
         type: string  
-        description: Container Name 
+        description: "Container Name "
       hostAliases:
         type: array
         items:
           $ref: "./HostAlias.yaml#/definitions/hostAlias"  
-        description: Domain and IP Mapping Information 
+        description: "Domain and IP Mapping Information "
       hostname:
         type: string  
-        description: Machine Name 
+        description: "Machine Name "
       command:
         type: array
         items: 
           type: string 
-        description:  Container Execution Command 
+        description: "Container Execution Command "
       args:
         type: array
         items: 
           type: string
-        description: Parameters for Command Execution by Container 
+        description: "Parameters for Command Execution by Container "
       envs:
         type: array
         items:
           $ref: "./EnvVar.yaml#/definitions/envVar"
-        description: Environment variable for execution by dynamically-assigned container 
+        description: "Environment variable for execution by dynamically-assigned container "
       image:
         type: string  
-        description: Image Name 
+        description: "Image Name "
       secret:
         type: string  
-        description: Name Cited by Secret 
+        description: "Name Cited by Secret "
       tty:
         type: boolean  
-        description: If a container is assigned with tty 
+        description: "If a container is assigned with tty "
       workingDir:
         type: string  
-        description: Container’s Working Catalog 
+        description: "Container’s Working Catalog "
       rootVolume:
         $ref: "./VolumeMount.yaml#/definitions/volumeMount"
-        description: Root Volume Information 
+        description: "Root Volume Information "
       dataVolumes:
         type: array
         items:
           $ref: "./VolumeMount.yaml#/definitions/volumeMount"  
-        description: Mounted Data Volume Information 
+        description: "Mounted Data Volume Information "
       vpcId:
         type: string  
-        description: ID of Primary Network Interface’s VPC 
+        description: "ID of Primary Network Interface’s VPC "
       subnetId:
         type: string  
-        description: ID of Primary Network Interface’s Subnet 
+        description: "ID of Primary Network Interface’s Subnet "
       privateIpAddress:
         type: string  
-        description: Primary IP Address of Primary Network Interface 
+        description: "Primary IP Address of Primary Network Interface "
       elasticIpId:
         type: string  
-        description: Elastic IP ID Associated to Primary IP of Primary Network Interface 
+        description: "Elastic IP ID Associated to Primary IP of Primary Network Interface "
       elasticIpAddress:
         type: string  
-        description: Elastic IP Associated to Primary IP of Primary Network Interface 
+        description: "Elastic IP Associated to Primary IP of Primary Network Interface "
       primaryNetworkInterface:
         $ref: "./InstanceNetworkInterfaceAttachment.yaml#/definitions/instanceNetworkInterfaceAttachment"
-        description: Primary Network Interface Information 
+        description: "Primary Network Interface Information "
       secondaryNetworkInterfaces:
         type: array
         items:
           $ref: "./InstanceNetworkInterfaceAttachment.yaml#/definitions/instanceNetworkInterfaceAttachment"
-        description: Elastic Network Interface Information 
+        description: "Elastic Network Interface Information "
       logConfiguration:
         $ref: "./LogConfiguration.yaml#/definitions/logConfiguration" 
-        description: Container Log Configuration Information 
+        description: "Container Log Configuration Information "
       charge:
         $ref: "../../charge/model/Charge.yaml#/definitions/charge"
-        description: Billing Configuration Information 
+        description: "Billing Configuration Information "
       launchTime:
         type: string  
-        description: Creation Time 
+        description: "Creation Time "
       reason:
         type: string  
-        description: Container Termination Reason 
-      description:
-        type: string  
-        description: Container Description 
+        description: "Container Termination Reason "
+      description: "type: string  "
+        description: "Container Description "

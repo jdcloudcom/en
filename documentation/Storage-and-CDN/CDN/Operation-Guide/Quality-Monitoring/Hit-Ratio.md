@@ -2,7 +2,7 @@
 
 Hit ratio = (total requests - back-to-source requests) / total requests 
 
-Log in to [CDN Console](https://cdn-console.jdcloud.com/hitratio), click 【Quality Monitoring】--【Hit Ratio】 on the left menu bar to enter the status code page. The details are as follows:
+Log in to [CDN Console](https://cdn-console.jdcloud.com/hitratio), click **Quality Monitoring**--**Hit Ratio** on the left menu bar to enter the status code page. The details are as follows:
 
 ![image.png](https://img1.jcloudcs.com/cms/dd0a6a42-fdae-4730-9a22-db4396b45cfe20180119143336.png)
 

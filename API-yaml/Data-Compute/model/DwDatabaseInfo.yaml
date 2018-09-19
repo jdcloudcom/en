@@ -7,10 +7,10 @@ definitions:
     properties:
       owner:
         type: string
-        description: Owner
+        description: "Owner"
       comments:
         type: string
-        description: Description  Information
+        description: "Description  Information"
       databaseName:
         type: string
-        description: Database Name
+        description: "Database Name"

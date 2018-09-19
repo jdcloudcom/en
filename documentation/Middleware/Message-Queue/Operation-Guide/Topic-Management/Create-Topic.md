@@ -11,12 +11,12 @@
 
 
 ## Procedure
-### 1.Topic管理页面点击"新建"按钮
-从控制台左侧菜单中，找到互联网中间件-消息队列 JCQ-Topic管理页面，点击新建
+### 1. Click [Create** in the Topic Management page
+In the left menu of the console, click [Middleware] - [Message Queue] - Management interface of [JCQ-Topic] - **Create**.
  ![创建topic步骤1](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/Message-Queue/创建topic-01.PNG)
 
-### 2.填写完Topic信息，点击"创建"按钮
-页面刷新，完成新topic的创建
+### 2. Complete Topic Information and Click **Create**.
+Refresh pages to finish new topic creation
  ![创建topic步骤2](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/Message-Queue/创建topic-02.png)  
 I. The topic name can be entered according to the prompt information, and cannot be modified.  
 II. Message types are divided into unordered messages and global ordered messages：  

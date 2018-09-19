@@ -169,8 +169,8 @@ Promote enterprise to lower cost and improve efficiency and yield the following 
 Under Open Beta Test  
 Please Wait! 
 Under Close Beta Test 
-Save by long pressing or screenshot. Follow us on 【JD Cloud】 WeChat official account/ applet 
-Log in 【JD Cloud Weibo】 to learn more.
+Save by long pressing or screenshot. Follow us on **JD Cloud** WeChat official account/ applet 
+Log in **JD Cloud Weibo** to learn more.
 Go to computer terminal for registration.
 ```
 

@@ -15,11 +15,11 @@ Below, it will be explained in two parts:
 ### API caller creates and provides **Access Key** 
 #### STEP1: Click the **Access Key** at left menu to enter the page of access key list
 
-![Access key list page ](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/fwmy-list.png)
+![Access key list page ](https://github.com/jdcloudcom/en/blob/edit/image/Internet-Middleware/API-Gateway/fwmy-list.png)
 
 #### STEP2: Click **Create Access Key**
 
-![Create access key](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/fwmy-add.png)
+![Create access key](https://github.com/jdcloudcom/en/blob/edit/image/Internet-Middleware/API-Gateway/fwmy-add.png)
 
 - After creation of key pair, the system will automatically generate access key ID, API key and API Secret.
 - API caller needs to send **APIKey** to API provider, and then the API provider perform the authorized access to APIKey.
@@ -32,12 +32,12 @@ Below, it will be explained in two parts:
 API caller can find the access key ID in the access key details page and tell this ID to API provider.
 
 
-![Access Key details page](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/fwmy-xqy.png)
+![Access Key details page](https://github.com/jdcloudcom/en/blob/edit/image/Internet-Middleware/API-Gateway/fwmy-xqy.png)
  
  
  API caller can request the authorized calling through AK (Access Key) method of JD Cloud. Specifically, the caller can redefine or select an AK in the Access Key management page and tell this AK to API provider.
 
-![AK List](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/AK-list.png)
+![AK List](https://github.com/jdcloudcom/en/blob/edit/image/Internet-Middleware/API-Gateway/AK-list.png)
  
 
  

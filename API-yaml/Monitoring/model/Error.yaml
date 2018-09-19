@@ -9,7 +9,7 @@ definitions:
         description: "Error Code"
       message:
           type: string
-          description: "Error Information" 
+          description: "Error Information "
       status:
           type: string
-          description: "Error Status"   
+          description: "Error Status   "

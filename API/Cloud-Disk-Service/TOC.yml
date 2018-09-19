@@ -3,10 +3,8 @@
   items:
   - name:  Interface Overview
     href: summary.yaml
-
   - name: Update History
     herf: ChangeLog.md
-
   - name: CDS APIs
     items:
       - name: createDisks
@@ -34,7 +32,8 @@
         href: Snapshot-APIs/modifySnpAttribute.md
       - name: modifySnapshotAttribute
         href: Snapshot-APIs/modifySnapshotAttribute.md
+        status: 0
       - name: describeSnapshot
         href: Snapshot-APIs/describeSnapshot.md
       - name: describeSnapshots
-        href: Snapshot-APIs/describeSnapshot.md
+        href: Snapshot-APIs/describeSnapshots.md

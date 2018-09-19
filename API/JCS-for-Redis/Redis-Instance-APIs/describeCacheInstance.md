@@ -34,7 +34,7 @@ None
 |Name|Type|Description|
 |---|---|---|
 |**azId**|AzId|az Information|
-|**cacheInstanceClass**|String|实例规格代码，参见<a href="https://www.jdcloud.com/help/detail/411/isCatalog/1">实例规格代码</a>|
+|**cacheInstanceClass**|String|For instance type code, see <a href="https://www.jdcloud.com/help/detail/411/isCatalog/1">instance type code</a>|
 |**cacheInstanceDescription**|String|Instance Description|
 |**cacheInstanceId**|String|Instance ID|
 |**cacheInstanceMemoryMB**|Integer|Capacity, in MB|

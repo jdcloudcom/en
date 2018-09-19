@@ -6,7 +6,7 @@
 
 - Network Preparation
 
-  Plan for load balancer and region, availability zone, virtual private cloud, etc. of VM, containers as backend server in advance, according to business deployment needs 【Note: VM, containers as backend server need to be in the same region, virtual private cloud with load balancer】.	
+  Plan for load balancer and region, availability zone, virtual private cloud, etc. of VM, containers as backend server in advance, according to business deployment needs **Note: VM, containers as backend server need to be in the same region, virtual private cloud with load balancer**.	
  
 - Server Preparation
 
@@ -82,7 +82,7 @@
 
 #### 2. Backend service forwarding;
 
-- Select the use of existing backend service: testback 【Note: Use relevant information of the already existed backend directly and reuse the same backend service configuration, health check, and server group same as the previous TCP listener】.
+- Select the use of existing backend service: testback **Note: Use relevant information of the already existed backend directly and reuse the same backend service configuration, health check, and server group same as the previous TCP listener**.
 
 ![NLB监听器列表页](../../../../image/Networking/NLB/NLB-ML-Backend2.png)
 

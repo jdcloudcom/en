@@ -18,7 +18,7 @@ In case that the settlement of the Pay-As-You-Go resources is delayed, the time 
 >- Assume that the hour-settled resources after 22:00, August 31st is delayed to be settled in September, then, in the resources bill of August, it shows the hour-settled Pay-As-You-Go resources between 23:00, July 31st-22:00, August 31st.
 
 ## How to view resources bill?
-In JD cloud console, click on 【expense】-【consumption records】-【resources bill】 to view;
+In JD cloud console, click on **expense**-**consumption records**-**resources bill** to view;
 ![file-list](https://github.com/jdcloudcom/cn/blob/edit/image/billing/%E8%B5%84%E6%BA%90%E8%B4%A6%E5%8D%951.png)
 ![file-list](https://github.com/jdcloudcom/cn/blob/edit/image/billing/%E8%B5%84%E6%BA%90%E8%B4%A6%E5%8D%956.png)
 

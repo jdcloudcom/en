@@ -2,7 +2,7 @@ swagger: "2.0"
 info:
   version: "v1"
   title: SMS Outgoing APIs
-  description: SMS Outgoing APIs
+  description: "SMS Outgoing APIs"
 
 
 paths:
@@ -15,13 +15,13 @@ paths:
       parameters:
         - name: sendSingleMsgReqVo
           in: body
-          description: Information of a Single SMS
+          description: "Information of a Single SMS"
           required: true
           schema:
             $ref: "../model/SendSingleMsg.yaml#/definitions/sendSingleMsg"
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             type: object
             properties:
@@ -37,13 +37,13 @@ paths:
       parameters:
         - name: sendBatchMsgReqVo
           in: body
-          description: SMS Information in Batches
+          description: "SMS Information in Batches"
           required: true
           schema:
             $ref: "../model/SendBatchMsg.yaml#/definitions/sendBatchMsg"
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             type: object
             properties:
@@ -51,10 +51,10 @@ paths:
                 properties:
                   successMap:
                     type: object
-                    description: Successful Result
+                    description: "Successful Result"
                   failedMap:
                     type: object
-                    description: Failure Result
+                    description: "Failure Result"
               requestId:
                 type: string
 
@@ -67,13 +67,13 @@ paths:
         parameters:
           - name: sendOutSiteNoticeReqVo
             in: body
-            description: Off-site Message APIs
+            description: "Off-site Message APIs"
             required: true
             schema:
               $ref: "../model/SendOutSiteNotice.yaml#/definitions/sendOutSiteNotice"
         responses:
           200:
-            description: OK
+            description: "OK"
             schema:
               type: object
               properties:
@@ -81,7 +81,7 @@ paths:
                   properties:
                     data:
                       type: boolean
-                      description: Send Result Information
+                      description: "Send Result Information"
                 requestId:
                   type: string
                 
@@ -94,13 +94,13 @@ paths:
        parameters:
          - name: emailSmsInfoReqVo
            in: body
-           description: Asynchronous Transmission of Assigned Message Recipient
+           description: "Asynchronous Transmission of Assigned Message Recipient"
            required: true
            schema:
              $ref: "../model/EmailSmsInfo.yaml#/definitions/emailSmsInfo"
        responses:
          200:
-           description: OK
+           description: "OK"
            schema:
              type: object
              properties:
@@ -108,7 +108,7 @@ paths:
                  properties:
                    data:
                      type: boolean
-                     description: Send Result Information
+                     description: "Send Result Information"
                requestId:
                  type: string
 
@@ -121,13 +121,13 @@ paths:
        parameters:
          - name: emailSmsInfoReqVo
            in: body
-           description: Synchronous Transmission Interface of Assigned Message Recipient
+           description: "Synchronous Transmission Interface of Assigned Message Recipient"
            required: true
            schema:
              $ref: "../model/EmailSmsInfo.yaml#/definitions/emailSmsInfo"
        responses:
          200:
-           description: OK
+           description: "OK"
            schema:
              type: object
              properties:
@@ -135,7 +135,7 @@ paths:
                  properties:
                    data:
                      type: boolean
-                     description: Send Result Information
+                     description: "Send Result Information"
                requestId:
                  type: string
 
@@ -146,4 +146,4 @@ parameters:
     in: path
     required: true
     type: string
-    description: accessKey
+    description: "accessKey"

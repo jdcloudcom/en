@@ -2,12 +2,12 @@ swagger: "2.0"
 definitions:
   localDisk:
     x-jdcloud-module: vm
-    description: Describe the local disk of an instance
+    description: "Describe the local disk of an instance"
     type: object
     properties:
       diskType:
         type: string
-        description: Disk type, value range {premium-hdd,  ssd}
+        description: "Disk type, value range {premium-hdd,  ssd}"
       diskSizeGB:
         type: integer
-        description: Disk size
+        description: "Disk size"

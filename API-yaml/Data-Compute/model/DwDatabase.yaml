@@ -9,37 +9,37 @@ definitions:
     properties:
       id:
         type: integer
-        description: Database id
+        description: "Database id"
       userName:
         type: string
-        description: User Name
+        description: "User Name"
       databaseName:
         type: string
-        description: Database Name
+        description: "Database Name"
       totalTableQuantity:
         type: integer
-        description: Number of Summary Lists
+        description: "Number of Summary Lists"
       createTime:
         type: string
-        description: Creation Time
+        description: "Creation Time"
       lastUpdateTime:
         type: string
-        description: Last Update Time
+        description: "Last Update Time"
       physicalStorageCapacity:
         type: string
-        description: Last Update Time
+        description: "Last Update Time"
       category:
         type: string
-        description: Category
+        description: "Category"
       source:
         type: string
-        description: Source
+        description: "Source"
       owner:
         type: string
-        description: Owner
+        description: "Owner"
       location:
         type: string
-        description: Location
+        description: "Location"
       comments:
         type: string
-        description: Description  Information
+        description: "Description  Information"

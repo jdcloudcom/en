@@ -7,34 +7,34 @@ definitions:
     properties:
       id:
         type: string
-        description: Cluster ID
+        description: "Cluster ID"
       name:
         type: string
-        description: Cluster Name
+        description: "Cluster Name"
       status:
         type: string
-        description: Cluster Status
+        description: "Cluster Status"
       createTime:
         type: string
         format: date
-        description: Cluster Creation Time
+        description: "Cluster Creation Time"
       duration:
         type: string
-        description: Cluster Operating Hours
+        description: "Cluster Operating Hours"
       ip:
         type: string
-        description: Cluster IP
+        description: "Cluster IP"
       port:
         type: string
-        description: No. of Port Providing Service
+        description: "No. of Port Providing Service"
       jdbcUrl:
         type: string
-        description: Url of Jdbc Database
+        description: "Url of Jdbc Database"
       jdbcSpark:
         type: string
-        description: Corresponding Spark of Database
+        description: "Corresponding Spark of Database"
       zepplinUrl:
         type: string
-        description: Url of Zepplin
+        description: "Url of Zepplin"
 
 

@@ -2,7 +2,7 @@ swagger: "2.0"
 info:
   version: "v1"
   title: Cluster Management
-  description: JMR cluster management
+  description: "JMR cluster management"
 
 basePath: /regions/{regionId}
 paths:
@@ -19,7 +19,7 @@ paths:
                $ref: "../model/ClusterModel.yaml#/definitions/clusterModel"
          responses:
            200:
-             description: OK
+             description: "OK"
              schema:
                properties:
                  result:
@@ -46,7 +46,7 @@ paths:
              description: "Cluster ID: Composed of eight characters"
          responses:
            200:
-             description: OK
+             description: "OK"
              schema:
                properties:
                  result:
@@ -57,7 +57,7 @@ paths:
                        type: string
                      data:
                        $ref: "../model/ClusterDetailModel.yaml#/definitions/clusterDetailModel"
-                       description: Corresponding Cluster Details
+                       description: "Corresponding Cluster Details"
                  requestId:
                    type: string
            500:
@@ -76,7 +76,7 @@ paths:
              description: "Cluster ID: Composed of eight characters"
          responses:
            200:
-             description: OK
+             description: "OK"
              schema:
                properties:
                  result:
@@ -96,7 +96,7 @@ paths:
          operationId: getKey
          responses:
            200:
-             description: OK
+             description: "OK"
              schema:
                properties:
                  result:
@@ -107,7 +107,7 @@ paths:
                        type: string
                      data:
                        $ref: "../model/AppModel.yaml#/definitions/appModel"
-                       description: AK/SK Queried
+                       description: "AK/SK Queried"
                  requestId:
                    type: string
            500:
@@ -119,7 +119,7 @@ paths:
          operationId: getPropertyValue
          responses:
            200:
-             description: OK
+             description: "OK"
              schema:
                properties:
                  result:
@@ -130,7 +130,7 @@ paths:
                        type: string
                      data:
                        $ref: "../model/SoftStack.yaml#/definitions/softStack"
-                       description: Software Configuration Information
+                       description: "Software Configuration Information"
                  requestId:
                    type: string
            500:
@@ -142,7 +142,7 @@ paths:
          operationId: getHardwareStack
          responses:
            200:
-             description: OK
+             description: "OK"
              schema:
                properties:
                  result:
@@ -153,7 +153,7 @@ paths:
                        type: string
                      data:
                        $ref: "../model/HardWareStackData.yaml#/definitions/hardWareStackData"
-                       description: Hardware Information Queried
+                       description: "Hardware Information Queried"
                  requestId:
                    type: string
            500:
@@ -165,7 +165,7 @@ paths:
          operationId: getInstanceList
          responses:
            200:
-             description: OK
+             description: "OK"
              schema:
                properties:
                  result:
@@ -178,7 +178,7 @@ paths:
                        type: array
                        items:
                          $ref: "../model/InstanceList.yaml#/definitions/instanceList"
-                       description: Machine Specification List
+                       description: "Machine Specification List"
                  requestId:
                    type: string
            500:
@@ -196,7 +196,7 @@ paths:
              description: "Cluster ID: Composed of eight characters"
          responses:
            200:
-             description: OK
+             description: "OK"
              schema:
                properties:
                  result:
@@ -211,12 +211,12 @@ paths:
                          properties:
                            total:
                              type: integer
-                             description: Cluster Machine Total Number
+                             description: "Cluster Machine Total Number"
                            clusters:
                              type: array
                              items:
                                $ref: "../model/idataCluster.yaml#/definitions/idataCluster"
-                       description: |
+                       description: "|"
                                      "Include cluster information list - clusters"
                                      "Cluster Machine Total Number - Total"
                  requestId:
@@ -236,7 +236,7 @@ paths:
              description: "JMR Software Version Number"
          responses:
            200:
-             description: OK
+             description: "OK"
              schema:
                properties:
                  result:
@@ -247,7 +247,7 @@ paths:
                        type: string
                      data:
                        type: string
-                       description: Corresponding Software List Information
+                       description: "Corresponding Software List Information"
                  requestId:
                    type: string
            500:
@@ -265,7 +265,7 @@ paths:
              description: "JMR Software Version Number"
          responses:
            200:
-             description: OK
+             description: "OK"
              schema:
                properties:
                  result:
@@ -289,7 +289,7 @@ paths:
           operationId: getJmrVersionList
           responses:
             200:
-              description: OK
+              description: "OK"
               schema:
                 properties:
                   result:
@@ -302,7 +302,7 @@ paths:
                        type: array
                        items:
                          type: string
-                       description: Current JD MapReduce Version List
+                       description: "Current JD MapReduce Version List"
                   requestId:
                     type: string
             500:
@@ -321,7 +321,7 @@ paths:
                $ref: "../model/ClusterListViewModel.yaml#/definitions/clusterListViewModel"
          responses:
            200:
-             description: OK
+             description: "OK"
              schema:
                properties:
                  result:
@@ -343,7 +343,7 @@ paths:
          operationId: getAvaliableNum
          responses:
            200:
-             description: OK
+             description: "OK"
              schema:
                properties:
                  result:
@@ -354,7 +354,7 @@ paths:
                        type: string
                      data:
                        $ref: "../model/AvailableNumData.yaml#/definitions/availableNumData"
-                       description: The number of remaining resources that can be created
+                       description: "The number of remaining resources that can be created"
                  requestId:
                    type: string
            500:
@@ -366,7 +366,7 @@ paths:
          operationId: queryServerQuota
          responses:
            200:
-             description: OK
+             description: "OK"
              schema:
                properties:
                  result:
@@ -377,7 +377,7 @@ paths:
                        type: string
                      data:
                        $ref: "../model/AvailableNumData.yaml#/definitions/availableNumData"
-                       description: Remaining Server Quota
+                       description: "Remaining Server Quota"
                  requestId:
                    type: string
            500:
@@ -389,7 +389,7 @@ paths:
          operationId: queryVpcs
          responses:
            200:
-             description: OK
+             description: "OK"
              schema:
                properties:
                  result:
@@ -402,7 +402,7 @@ paths:
                        type: array
                        items:
                          $ref: "../model/QueryVpcs.yaml#/definitions/queryVpcs"
-                       description: VPC Collection
+                       description: "VPC Collection"
                  requestId:
                    type: string
            500:
@@ -419,7 +419,7 @@ paths:
              required: true
          responses:
            200:
-             description: OK
+             description: "OK"
              schema:
                properties:
                  result:
@@ -432,7 +432,7 @@ paths:
                        type: array
                        items:
                          $ref: "../model/QueryVpcSubnets.yaml#/definitions/queryVpcSubnets"
-                       description: VPC Subnet Information Collection
+                       description: "VPC Subnet Information Collection"
                  requestId:
                    type: string
            500:
@@ -447,10 +447,10 @@ paths:
              in: path
              type: string
              required: true
-             description: Delete the primary key ID of the cluster in the database
+             description: "Delete the primary key ID of the cluster in the database"
          responses:
            200:
-             description: OK
+             description: "OK"
              schema:
                properties:
                  result:
@@ -473,10 +473,10 @@ paths:
              in: query
              required: true
              type: string
-             description: Namely, the clusterId of cluster
+             description: "Namely, the clusterId of cluster"
          responses:
            200:
-             description: OK
+             description: "OK"
              schema:
                properties:
                  result:
@@ -499,7 +499,7 @@ paths:
          operationId: validateUser
          responses:
            200:
-             description: OK
+             description: "OK"
              schema:
                properties:
                  result:
@@ -528,10 +528,10 @@ paths:
                properties:
                  clusterId:
                    type: string
-                   description: Renew the cluster clusterId
+                   description: "Renew the cluster clusterId"
                  type:
                    type: integer
-                   description: |
+                   description: "|"
                         "Required Parameters, Billing Type"
                               "* 1: Pay By Configuration"
                               "* 601-609: Monthly package for 1 month to 9 months"
@@ -539,7 +539,7 @@ paths:
                               "* 620: Monthly package for 2 years"
          responses:
            200:
-             description: OK
+             description: "OK"
              schema:
                properties:
                  result:
@@ -564,7 +564,7 @@ paths:
              required: true
          responses:
            200:
-             description: OK
+             description: "OK"
              schema:
                properties:
                  result:
@@ -584,7 +584,7 @@ paths:
          operationId: getAccessKeys
          responses:
            200:
-             description: OK
+             description: "OK"
              schema:
                properties:
                  result:
@@ -595,7 +595,7 @@ paths:
                        type: string
                      data:
                        $ref: "../model/UserAccessKey.yaml#/definitions/userAccessKey"
-                       description: User’s AK/SK
+                       description: "User’s AK/SK"
                  requestId:
                    type: string
            500:
@@ -615,13 +615,13 @@ paths:
                properties:
                  clusterId:
                    type: string
-                   description: Cluster ID to be expanded
+                   description: "Cluster ID to be expanded"
                  expansionNum:
                    type: integer
-                   description: Expansion Number
+                   description: "Expansion Number"
          responses:
            200:
-             description: OK
+             description: "OK"
              schema:
                properties:
                  result:
@@ -652,10 +652,10 @@ paths:
                    type: string
                  expansionNum:
                    type: integer
-             description: Include the expanded cluster Id-clusterId and expansion number-expansionNum
+             description: "Include the expanded cluster Id-clusterId and expansion number-expansionNum"
          responses:
            200:
-             description: OK
+             description: "OK"
              schema:
                properties:
                  result:
@@ -681,10 +681,10 @@ paths:
              in: path
              required: true
              type: string
-             description: Cluster ID to be expanded
+             description: "Cluster ID to be expanded"
          responses:
            200:
-             description: OK
+             description: "OK"
              schema:
                properties:
                  result:
@@ -709,10 +709,10 @@ paths:
              in: query
              required: true
              type: string
-             description: Cluster Id
+             description: "Cluster Id"
          responses:
            200:
-             description: OK
+             description: "OK"
              schema:
                properties:
                  result:
@@ -725,7 +725,7 @@ paths:
                        type: array
                        items:
                          type: string
-                       description: Service lists under the corresponding cluster
+                       description: "Service lists under the corresponding cluster"
                  requestId:
                    type: string
            500:
@@ -752,7 +752,7 @@ paths:
                    description: "Service Name, such as HADOOP"
          responses:
            200:
-             description: OK
+             description: "OK"
              schema:
                properties:
                  result:
@@ -779,10 +779,10 @@ paths:
              in: query
              required: true
              type: string
-             description: Cluster Id
+             description: "Cluster Id"
          responses:
            200:
-             description: OK
+             description: "OK"
              schema:
                properties:
                  result:
@@ -806,4 +806,4 @@ parameters:
    in: path
    required: true
    type: string
-   description: Region ID
+   description: "Region ID"

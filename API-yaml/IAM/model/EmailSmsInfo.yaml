@@ -12,29 +12,29 @@ definitions:
     properties:
       createPin:
         type: string
-        description: User Pin
+        description: "User Pin"
       title:
         type: string
-        description: Email Subject
+        description: "Email Subject"
       sendType:
         type: integer
-        description: Sending Type, 1-Sending Email, 2-Sending SMS
+        description: "Sending Type, 1-Sending Email, 2-Sending SMS"
       content:
         type: string
-        description: Email Content
+        description: "Email Content"
       receives:
         type: array
         items:
           type: string
-        description: Recipient
+        description: "Recipient"
       templateId:
         type: integer
-        description: Template Code
+        description: "Template Code"
       templateParam:
         type: array
         items:
           type: string
-        description: Template Parameter
+        description: "Template Parameter"
       smsMessageSource:
         type: string
-        description: Business Code (and Product Application)
+        description: "Business Code (and Product Application)"

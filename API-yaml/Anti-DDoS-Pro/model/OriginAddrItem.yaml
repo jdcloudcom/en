@@ -6,10 +6,10 @@ definitions:
     properties:
       ip:
         type: string
-        description: Back-to-origin IP address
+        description: "Back-to-origin IP address"
       weight:
         type: integer
-        description: Weight
+        description: "Weight"
       inJdCloud:
         type: boolean
-        description: Confirm whether it is the Private IP/EIP address of JD Cloud?
+        description: "Confirm whether it is the Private IP/EIP address of JD Cloud?"

@@ -4,7 +4,7 @@
 
 - Network Preparation
 
-  Plan for load balancer and region, availability zone, virtual private cloud, etc. of VM, containers as backend server in advance, according to business deployment needs 【Note: VM, containers as backend server need to be in the same region, virtual private cloud with load balancer】.
+  Plan for load balancer and region, availability zone, virtual private cloud, etc. of VM, containers as backend server in advance, according to business deployment needs **Note: VM, containers as backend server need to be in the same region, virtual private cloud with load balancer**.
 
 - Server Preparation
 
@@ -37,7 +37,7 @@
    Select virtual server group, availability group according to business needs;
   ![NLB服务器组设置](../../../../image/Networking/NLB/NLB-030.png)
 
-- If there is no available virtual server group, click **Create New Virtual Server Group** to create a new virtual server group. VM and containers can be selected to define the port and weight of the instance 【Note: only VM, container resources in the same virtual private cloud with load balancer can be selected】.
+- If there is no available virtual server group, click **Create New Virtual Server Group** to create a new virtual server group. VM and containers can be selected to define the port and weight of the instance **Note: only VM, container resources in the same virtual private cloud with load balancer can be selected**.
   
    ![NLB虚拟服务器组设置](../../../../image/Networking/NLB/NLB-079.png)
 

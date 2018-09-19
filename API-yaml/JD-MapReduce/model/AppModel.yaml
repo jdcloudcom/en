@@ -7,7 +7,7 @@ definitions:
     properties:
       appKey:
         type: string
-        description: AK
+        description: "AK"
       appSecret:
         type: string
-        description: SK
+        description: "SK"

@@ -2,7 +2,7 @@ swagger: "2.0"
 info:
   version: "v1"
   title: Start Template
-  description: APIs related to start template
+  description: "APIs related to start template"
 
 basePath: /regions/{regionId}
 
@@ -10,7 +10,7 @@ paths:
   "/instanceTemplates":
     ###################### Create Start Template API ######################
     post:
-      description: |
+      description: "|"
         Create a start-up template for a specified parameter. The starting template contains most of the configuration parameters when creating a virtual machine,  avoiding repetitive work when creating a virtual machine each time. <br>
         If you create a virtual machine using the starting template,  if you specify that certain parameters conflict with the parameters in the template,  then the newly specified parameters replace the parameters in the template. <br>
         If you create a virtual machine using the starting template,  the database Disks parameter in the template will fail if it is specified that the image ID is not consistent with the image ID in the template. <br>
@@ -21,21 +21,21 @@ paths:
         - name: instanceTemplateData
           in: body
           required: true
-          description: Start template data
+          description: "Start template data"
           schema:
             $ref: "../model/InstanceTemplateSpec.yaml#/definitions/instanceTemplateSpec"
         - name: name
           in: query
           type: string
           required: true
-          description: Name of the start template,  <a href="https://www.jdcloud.com/help/detail/3870/isCatalog/1">Refer to the public parameter specification </a>.
+          description: "Name of the start template,  <a href="https://www.jdcloud.com/help/detail/3870/isCatalog/1">Refer to the public parameter specification </a>."
         - name: description
           in: query
           type: string
-          description: Description of the start template,  <a href="https://www.jdcloud.com/help/detail/3870/isCatalog/1">Refer to the public parameter specification </a>.
+          description: "Description of the start template,  <a href="https://www.jdcloud.com/help/detail/3870/isCatalog/1">Refer to the public parameter specification </a>."
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               result:
@@ -59,7 +59,7 @@ paths:
 
     ###################### Start Template List API ######################
     get:
-      description: |
+      description: "|"
         Query start template list
       operationId: describeInstanceTemplates
       x-jdcloud-internal: true
@@ -79,12 +79,12 @@ paths:
           type: array
           items:
             $ref: "../../common/model/Filter.yaml#/definitions/filter"
-          description: |
+          description: "|"
             name-Start template name, fuzzy match, multiple support
             instanceTemplateId-Start template ID, exact match, multiple support
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             properties:
               result:
@@ -111,13 +111,13 @@ paths:
   "/instanceTemplates/{instanceTemplateId}":
     ######################Start Template Detail API ######################
     get:
-      description: |
+      description: "|"
         Query start template details
       operationId: describeInstanceTemplate
       x-jdcloud-internal: true
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             type: object
             properties:
@@ -138,13 +138,13 @@ paths:
 
     ######################Delete Start Template API ######################
     delete:
-      description: |
+      description: "|"
         Delete a Start Template
       operationId: deleteInstanceTemplate
       x-jdcloud-internal: true
       responses:
         200:
-          description: OK
+          description: "OK"
         400:
           description: "Invalid parameter"
         401:
@@ -158,7 +158,7 @@ paths:
 
     ######################Modify Start Template Information API ######################
     patch:
-      description: |
+      description: "|"
         Modify the information about a start template,  including name and  description
       operationId: updateInstanceTemplate
       x-jdcloud-internal: true
@@ -166,14 +166,14 @@ paths:
         - name: description
           in: query
           type: string
-          description: Template description, <a href="https://www.jdcloud.com/help/detail/3870/isCatalog/1">Refer to the public parameter specification</a>.
+          description: "Template description, <a href="https://www.jdcloud.com/help/detail/3870/isCatalog/1">Refer to the public parameter specification</a>."
         - name: name
           in: query
           type: string
-          description: Template name, <a href="https://www.jdcloud.com/help/detail/3870/isCatalog/1">Refer to the public parameter specification</a>.
+          description: "Template name, <a href="https://www.jdcloud.com/help/detail/3870/isCatalog/1">Refer to the public parameter specification</a>."
       responses:
         200:
-          description: OK
+          description: "OK"
         400:
           description: "Invalid parameter"
         401:
@@ -189,13 +189,13 @@ paths:
   "/instanceTemplates/{instanceTemplateId}:verify":
     ###################### API for Verifing the Availability of a Start Template ######################
     get:
-      description: |
+      description: "|"
         Verify the availability of a start template
       operationId: verifyInstanceTemplate
       x-jdcloud-internal: true
       responses:
         200:
-          description: OK
+          description: "OK"
         400:
           description: "Invalid parameter"
         401:
@@ -215,10 +215,10 @@ parameters:
     in: path
     required: true
     type: string
-    description: Region ID
+    description: "Region ID"
   instanceTemplate:
     name: instanceTemplateId
     in: path
     required: true
     type: string
-    description: Start template ID
+    description: "Start template ID"

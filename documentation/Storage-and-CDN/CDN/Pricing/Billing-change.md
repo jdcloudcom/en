@@ -1,6 +1,6 @@
 # **Billing Change**
 
-1. Enter the 【domain name list】 page in the CDN customer console;
+1. Enter the **domain name list** page in the CDN customer console;
 
 2. Click the “Traffic Billing” or the “Bandwidth Peak Billing” on the top right corner of the page;
 

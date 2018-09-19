@@ -1,6 +1,6 @@
 # Billing Rules
 
-The following description is only for instances. If you need to check the instance association resource billing rules, please refer to [Cloud Disk Billing Documentation]() and [Elastic IP Billing Documentation](../../../Networking/Elastic-IP/Pricing/Billing-Overview.md). The instance of JD Cloud provides two billing methods for different business scenario requirements, namely, monthly package billing and billing by configuration.
+The following description is only for instances. If you need to check the instance association resource billing rules, please refer to [Cloud Disk Billing Documentation](http://docs.jdcloud.com/cn/cloud-disk-service/price-overview) and [Elastic IP Billing Documentation](../../../Networking/Elastic-IP/Pricing/Billing-Overview.md). The instance of JD Cloud provides two billing methods for different business scenario requirements, namely, monthly package billing and billing by configuration.
 
 ## Monthly Package Billing
 
@@ -59,15 +59,15 @@ Free use of cloud monitor and Load Balancer|Support|Support
 * An instance billed under monthly package cannot be converted into the one billed by configuration
 
 ## Related Reference
-[Cloud Disk Billing Documentation]()
+[Cloud Disk Billing Documentation](http://docs.jdcloud.com/cn/cloud-disk-service/price-overview)
 
-[Elastic IP Billing Documentation](../../../Networking/Elastic-IP/Pricing/Renew-Process.md)
+[Elastic IP Billing Documentation](../../../Networking/Elastic-IP/Pricing/Billing-Overview.md)
 
 [Renew](Renew-Process.md)
 
 [Start Instance](../Operation-Guide/Instance/Start-Instance.md)
 
-* [Delete Instance](../Operation-Guide/Instance/Stop-Instance.md)
+[Delete Instance](../Operation-Guide/Instance/Stop-Instance.md)
 
 
 

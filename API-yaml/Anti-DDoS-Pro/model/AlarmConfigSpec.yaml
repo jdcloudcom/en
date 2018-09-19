@@ -1,0 +1,32 @@
+swagger: "2.0"
+definitions:
+  AlarmConfigSpec:
+    type: object
+    x-jdcloud-module: ipanti
+    properties:
+      blackHoleAlarmEmailStatus:
+        type: integer
+        description: "Black Hole Alarm Message Switch 0 Off 1 On"
+      blackHoleAlarmSmsStatus:
+        type: integer
+        description: "Black Hole Alarm SMS Switch 0 Off 1 On"
+      blackHoleAlarmStatus:
+        type: integer
+        description: "Black Hole Alarm Main Switch 0 Off 1 On"
+      ddosAlarmEmailStatus:
+        type: integer
+        description: "DDos Attack Alarm Message Switch 0 Off 1 On"
+      ddosAlarmSmsStatus:
+        type: integer
+        description: "DDos Attack Alarm SMS Switch 0 Off 1 On"
+      ddosAlarmStatus:
+        type: integer
+        description: "DDos Attack Alarm Main Switch 0 Off 1 On"
+      errorCodeAlarmStatus:
+        type: integer
+        description: "Error Code Alarm Main Switch"
+      errorCodeDomain:
+        type: array
+        items:
+          type: string
+        description: "Error Code Alarm Domain Name List"

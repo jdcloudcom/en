@@ -14,7 +14,7 @@
 
 6. Description to VPC Setup: The description can be blank, only supports Chinese, numbers, uppercase and lowercase letters, English underscore "_", and cannot exceed 256 characters;
 
-7. Click 【OK】 to enter the "Console" to view the created VPC;
+7. Click **OK** to enter the "Console" to view the created VPC;
 
 ![](/image/Networking/Virtual-Private-Cloud/Operation-Guide/VPC-Configuration/Step1.png)
 

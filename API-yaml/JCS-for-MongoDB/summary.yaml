@@ -2,7 +2,7 @@ swagger: "2.0"
 info:
   version: "v1"
   title: JMongoDB Service Interface
-  description: MongoDB Related Interface
+  description: "MongoDB Related Interface"
 host: "mongodb.jdcloud-api.com"
 x-jdcloud-version: "v1"
 x-jdcloud-revision: "1.0.2"

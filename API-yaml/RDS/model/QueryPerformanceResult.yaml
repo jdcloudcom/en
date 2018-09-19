@@ -7,28 +7,28 @@ definitions:
     properties:
       sql:
         type: string
-        description: Sql Statement
+        description: "Sql Statement"
       lastExecutionTime:
         type: string
         description: "Last execution time, format: YYYY-MM-DD hh:mm:ss"
       elapsedTime:
         type: integer
-        description: Average Execution Time, Unit: Milliseconds (ms)
+        description: "Average Execution Time, Unit: Milliseconds (ms)"
       executionCount:
         type: integer
-        description: Number of Executions
+        description: "Number of Executions"
       workerTime:
         type: integer
-        description: Average CPU Usage Time, Unit: Milliseconds (ms)
+        description: "Average CPU Usage Time, Unit: Milliseconds (ms)"
       logicalReads:
         type: integer
-        description: Average Logical Reads
+        description: "Average Logical Reads"
       logicalWrites:
         type: integer
-        description: Average Logical Writes
+        description: "Average Logical Writes"
       physicalReads:
         type: integer
-        description: Average Physical Reads
+        description: "Average Physical Reads"
       lastRows:
         type: integer
-        description: Number of Records in Last Return
+        description: "Number of Records in Last Return"

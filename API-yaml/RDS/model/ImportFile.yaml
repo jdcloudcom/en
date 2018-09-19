@@ -7,13 +7,13 @@ definitions:
     properties:
       name:
         type: string
-        description: File Name
+        description: "File Name"
       sharedFileGid:
         type: string
-        description: If the file is a shared file, it has a global ID, and it is empty if it is not a shared file. This global ID is needed when the file is deleted.
+        description: "If the file is a shared file, it has a global ID, and it is empty if it is not a shared file. This global ID is needed when the file is deleted."
       sizeByte:
         type: integer
-        description: File Size, Unit: Byte
+        description: "File Size, Unit: Byte"
       uploadTime:
         type: string
         description: "File upload completion time, format: YYYY-MM-DD HH:mm:ss"

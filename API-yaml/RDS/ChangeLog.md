@@ -3,7 +3,7 @@ API Version: 0.2.9
 
 |Release Time|Version Number|Update|Description|
 |---|---|---|---|
-|2018-08-30|0.3.0|新增MySQL相关接口|* 新增升级实例配置接口<br>* 新增根据时间点、备份创建实例接口<br>* 新增账号授权与取消授权接口<br>* 创建备份与查询备份列表接口支持MySQL<br>* 修改与获取备份策略接口支持MySQL<br>* 开放修改白名单功能|
+|2018-08-30|0.3.0|MySQL APIs added|* Upgrade instance configuration APIs added<br>* Creating instance APIs according to time points and backup added<br>* Account authorization and account authorization cancellation added<br>* Creating backup and querying backup list APIs support MySQL<br>* Modifying and acquiring backup policy APIs support MySQL<br>* Open the white list modification function|
 |2018-08-24|0.2.9|Official Website Internationalization|* Optimized Interface Description|
 |2018-08-20|0.2.8|Support Android System|* Java SDK newly added the support for Android system|
 |2018-08-08|0.2.7|White List|* White List modification function temporarily not supported|

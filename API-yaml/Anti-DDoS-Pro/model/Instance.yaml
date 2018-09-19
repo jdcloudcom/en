@@ -7,102 +7,102 @@ definitions:
       instanceId:
         type: integer
         format: int64
-        description: Instance ID
+        description: "Instance ID"
       name:
         type: string
-        description: Instance Name
+        description: "Instance Name"
       carrier:
         type: string
-        description: ISP Line, i.e. UNICOM and TELECOM
+        description: "ISP Line, i.e. UNICOM and TELECOM"
       elasticTriggerCount:
         type: integer
-        description: Times of Triggering Elastic Bandwidth
+        description: "Times of Triggering Elastic Bandwidth"
       abovePeakCount:
         type: integer
-        description: Frequency of Over Peak Value
+        description: "Frequency of Over Peak Value"
       inBitslimit:
         type: integer
-        description: Minimum Bandwidth
+        description: "Minimum Bandwidth"
       resilientBitslimit:
         type: integer
-        description: Elastic Bandwidth
+        description: "Elastic Bandwidth"
       businessBitslimit:
         type: integer
-        description: Business Bandwidth
+        description: "Business Bandwidth"
       ccThreshold:
         type: integer
-        description: CC Threshold
+        description: "CC Threshold"
       ruleCount:
         type: integer
-        description: Non-web Service Rules
+        description: "Non-web Service Rules"
       webRuleCount:
         type: integer
-        description: Web Service Rules
+        description: "Web Service Rules"
       chargeStatus:
         type: string
-        description: PAID|ARREARS|EXPIRED
+        description: "PAID|ARREARS|EXPIRED"
       securityStatus:
         type: string
-        description: SAFE|CLEANING|BLOCKING
+        description: "SAFE|CLEANING|BLOCKING"
       createTime:
         type: integer
         format: int64
-        description: Instance Creation Time
+        description: "Instance Creation Time"
       expireTime:
         type: integer
         format: int64
-        description: Instance Expiration Time
+        description: "Instance Expiration Time"
       resourceId:
         type: string
-        description: Resource ID, used during upgrade and renewal
+        description: "Resource ID, used during upgrade and renewal"
       ccProtectMode:
         type: integer
-        description: cc Defense Mode, 0->normal  1->critical  2->relaxed  3->customized
+        description: "cc Defense Mode, 0->normal  1->critical  2->relaxed  3->customized"
       ccProtectStatus:
         type: integer
-        description: cc enabling status, 0->disabled  1->enabled
+        description: "cc enabling status, 0->disabled  1->enabled"
       ccSpeedLimit:
         type: integer
-        description: cc defense mode has the same speed limit as customized mode
+        description: "cc defense mode has the same speed limit as customized mode"
       ccSpeedPeriod:
         type: integer
-        description: cc defense mode has the same speed limit period as customized mode
+        description: "cc defense mode has the same speed limit period as customized mode"
       ipBlackList:
         type: array
         items:
           type: string
-        description: IP Blacklist
+        description: "IP Blacklist"
       ipBlackStatus:
         type: integer
-        description: IP Blacklist Status, 0->disabled  1->enabled
+        description: "IP Blacklist Status, 0->disabled  1->enabled"
       ipWhiteList:
         type: array
         items:
           type: string
-        description: IP White List
+        description: "IP White List"
       ipWhiteStatus:
         type: integer
-        description: IP White List Status, 0->disabled  1->enabled
+        description: "IP White List Status, 0->disabled  1->enabled"
       pin:
         type: string
-        description: User Pin
+        description: "User Pin"
       urlWhitelist:
         type: array
         items:
           type: string
-        description: url White List
+        description: "url White List"
       urlWhitelistStatus:
         type: integer
-        description: url White List Status, 0->disabled  1->enabled
+        description: "url White List Status, 0->disabled  1->enabled"
       hostQps:
         type: integer
-        description: The protection threshold of each Host when ccProtectMode is a customized mode
+        description: "The protection threshold of each Host when ccProtectMode is a customized mode"
       hostUrlQps:
         type: integer
-        description: The protection threshold of each Host+URI when ccProtectMode is a customized mode
+        description: "The protection threshold of each Host+URI when ccProtectMode is a customized mode"
       ipHostQps:
         type: integer
-        description: The protection threshold of each source IP to Host when ccProtectMode is a customized mode
+        description: "The protection threshold of each source IP to Host when ccProtectMode is a customized mode"
       ipHostUrlQps:
         type: integer
-        description: The protection threshold of each source IP to Host+URI when ccProtectMode is a customized mode
+        description: "The protection threshold of each source IP to Host+URI when ccProtectMode is a customized mode"

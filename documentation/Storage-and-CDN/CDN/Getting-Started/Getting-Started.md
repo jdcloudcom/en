@@ -8,11 +8,11 @@
 
   1. Dial the number: 4006151212, the customer service personnel will enable CDN service for you.
 
-  2. Enter [CDN Ticket System](https://uc.jdcloud.com/myorder/form?cateId=3&questionId=20), fill in and submit the 【Permission Usage Application】 ticket, and the customer service personnel will contact you to handle the CDN service enabling matters.
+  2. Enter [CDN Ticket System](https://uc.jdcloud.com/myorder/form?cateId=3&questionId=20), fill in and submit the **Permission Usage Application** ticket, and the customer service personnel will contact you to handle the CDN service enabling matters.
 
    **Step 2: Add CDN accelerated domain name**
 
-  1. Enter the 【domain name list】 page in the CDN customer console;
+  1. Enter the **domain name list** page in the CDN customer console;
 
   2. Click “Add Domain Name”           
 
@@ -60,7 +60,7 @@
 
   **Step 4: Bind CNAME**
 
-  1. Enter the 【domain name list】 page in the CDN customer console, and replicate the CNAME of the approved domain name;
+  1. Enter the **domain name list** page in the CDN customer console, and replicate the CNAME of the approved domain name;
 
   ![image.png](https://img1.jcloudcs.com/cms/3eb6b1f9-f6d3-49c1-a068-00e76009c93f20180423141523.png)
 
@@ -68,7 +68,7 @@
 
   Take your JD Cloud resolution domain name as an example, the CNAME binding method is as follows:
 
-  1) Log in to [JD Cloud Console](https://www.jdcloud.com/index) and enter the [【Domain Name Service--JD Cloud Resolution】](https://dns-console.jdcloud.com/list) page, click the domain name to be bound
+  1) Log in to [JD Cloud Console](https://www.jdcloud.com/index) and enter the [**Domain Name Service--JD Cloud Resolution**](https://dns-console.jdcloud.com/list) page, click the domain name to be bound
 
   ![image.png](https://img1.jcloudcs.com/cms/ae21571d-831b-49e2-bea1-be9661afa2d720180423141627.png)
 

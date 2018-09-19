@@ -1,39 +1,39 @@
 # deleteNamespace
 
 
-## 描述
+## Description
 Delete namespace; if there are other subordinate resources associated with it, it is not allowed to delete it
 
-## 请求方式
+## Request Method
 DELETE
 
-## 请求地址
+## Request Address
 https://streamcompute.jdcloud-api.com/v1/regions/{regionId}/namespace
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**regionId**|String|True||Region ID|
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request Parameter
+|Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**namespaceId**|Integer|True|||
 
 
-## 返回参数
-|名称|类型|描述|
+## Return Parameter
+|Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
 |**result**|[Result](##Result)||
 
 
 ### <a name="Result">Result</a>
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**status**|Boolean|Delete the namespace successful marker|
 
-## 返回码
-|返回码|描述|
+## Return Code
+|Return Code|Description|
 |---|---|
 |**200**|OK|
 |**500**|INTERNAL_ERROR|

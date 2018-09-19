@@ -2,23 +2,23 @@ swagger: "2.0"
 info:
   version: "v1"
   title: Consumer Group APIs
-  description: Information APIs related to Stream Hub ConsumerGroup
+  description: "Information APIs related to Stream Hub ConsumerGroup"
 basePath: '/regions/{regionId}'
 paths:
 #######View all the consumer groups of the assigned subject################
   /consumerGroupList:
     get:
-      description: View all the consumer groups of the assigned subject
+      description: "View all the consumer groups of the assigned subject"
       operationId: getConsumerGroupList
       parameters:
         - name: topicId
           type: integer
           in: query
-          description: Subject ID
+          description: "Subject ID"
           required: true
       responses:
         200:
-          description: OK
+          description: "OK"
           schema:
             type: object
             properties:
@@ -32,21 +32,21 @@ paths:
                       type: object
                       $ref: "../model/consumerGroupList.yaml#/definitions/consumerGroup"
         400:
-            description: UNAUTHENTICATED   
+            description: "UNAUTHENTICATED   "
 ###################Create ConsumerGroupName##############################
   /consumerGroup:
     post:
-      description: Create consumerGroupName
+      description: "Create consumerGroupName"
       operationId: createConsumerGroup
       parameters:
         - name: consumerGroupStr
           in: body
-          description: Consumer Group Object
+          description: "Consumer Group Object"
           schema:
             $ref: "../model/consumerGroupList.yaml#/definitions/consumerGroup"
       responses:
         '200':
-          description: OK
+          description: "OK"
           schema:
             type: object
             properties:
@@ -59,29 +59,29 @@ paths:
               requestId:
                 type: string
         '400':
-          description: UNAUTHENTICATED
+          description: "UNAUTHENTICATED"
         '401':
-          description: STREAMHUB_UNAUTHENTICATED
+          description: "STREAMHUB_UNAUTHENTICATED"
 ###################Delete ConsumerGroupName##############################
     delete:
-      description: Delete ConsumerGroupName
+      description: "Delete ConsumerGroupName"
       operationId: deleteConsumerGroup
       parameters:
         - name: topicId
           type: integer
           format: int64
           in: query
-          description: Subject ID
+          description: "Subject ID"
           required: true
         - name: consumerGroupId
           in: query
           type: integer
           format: int64
-          description: Consumer Group ID
+          description: "Consumer Group ID"
           required: true
       responses:
         '200':
-          description: OK
+          description: "OK"
           schema:
             type: object
             properties:
@@ -94,9 +94,9 @@ paths:
               requestId:
                 type: string
         '400':
-          description: UNAUTHENTICATED
+          description: "UNAUTHENTICATED"
         '401':
-          description: STREAMHUB_UNAUTHENTICATED
+          description: "STREAMHUB_UNAUTHENTICATED"
 
 parameters:
   regionId:
@@ -104,6 +104,6 @@ parameters:
     in: path
     required: true
     type: string
-    description: Region ID
+    description: "Region ID"
 
 

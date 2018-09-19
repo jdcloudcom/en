@@ -7,11 +7,11 @@ definitions:
     properties:
       domain:
         type: string
-        description: Domain Name
+        description: "Domain Name"
       ip:
         type: string
-        description: ip Address
+        description: "ip Address"
       port:
         type: string
-        description: Port
+        description: "Port"
       

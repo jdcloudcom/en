@@ -7,12 +7,12 @@ definitions:
     properties:
       subnetId:
         type: string
-        description: Subnet ID
+        description: "Subnet ID"
       securityGroups:
         type: array
         items:
           type: string
-        description: List of ID Security Group
+        description: "List of ID Security Group"
       sanityCheck:
         type: integer
-        description: PortSecurity, the value is 0 or 1, 1 by default
+        description: "PortSecurity, the value is 0 or 1, 1 by default"

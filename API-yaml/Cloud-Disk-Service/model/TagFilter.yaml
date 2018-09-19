@@ -9,9 +9,9 @@ definitions:
     properties:
       key:
         type: string
-        description: Tag Key
+        description: "Tag Key"
       values:
         type: array
         items:
           type: string
-        description: Tag Value
+        description: "Tag Value"
