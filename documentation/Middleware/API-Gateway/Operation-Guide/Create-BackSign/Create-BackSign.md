@@ -15,17 +15,17 @@ Click **Backend Signature** at left side to perform the configure and associate
 
 1. Enter the page of backend signature list
 
-![Backend signature list](https://github.com/jdcloudcom/en/blob/edit/image/Internet-Middleware/API-Gateway/hdqm-list.png)
+![Backend signature list](../../../../../image/Internet-Middleware/API-Gateway/hdqm-list.png)
 
 
 2. Add backend signature
 
-![Add backend signature](https://github.com/jdcloudcom/en/blob/edit/image/Internet-Middleware/API-Gateway/hdqm-add.png)
+![Add backend signature](../../../../../image/Internet-Middleware/API-Gateway/hdqm-add.png)
 
 
 3. Bind the signature to group
 
-![Associate signature](https://github.com/jdcloudcom/en/blob/edit/image/Internet-Middleware/API-Gateway/hdqm-bd.png)
+![Associate signature](../../../../../image/Internet-Middleware/API-Gateway/hdqm-bd.png)
 
 
 
