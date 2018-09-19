@@ -19,11 +19,11 @@ Note: VM, containers as backend server need to be in the same region, virtual pr
 
 - Create instance template
    
-   Enable the console, select elastic compute >> VM>> instance template, set the parameters required by  instance templates, and finally click 【Create】 to generate the instance template required by availability group
+   Enable the console, select elastic compute >> VM>> instance template, set the parameters required by  instance templates, and finally click **Create** to generate the instance template required by availability group
    
 - Create availability group
 
-   Enable the console, select elastic compute >> availability group, set the parameters such as region, availability zone, and instance template and finally click 【OK】 to create availability group
+   Enable the console, select elastic compute >> availability group, set the parameters such as region, availability zone, and instance template and finally click **OK** to create availability group
 
 ## Create a listener policy of TCP Protocol
 

@@ -29,4 +29,4 @@ Relevant data can be searched via public IP and private IP in the account asset.
 To quickly obtain threat event alarm by the user, the alarm is sent to the user via emails and SMSs.
 
 #### Action steps
-By 【Configuration Changes】->【Alarm Setting】, the single event, alarm level of oriented attack event, notification method, notification time and notifier can be set. Alarm setting and sending statement: In order to improve user experience, a single virtual machine per day at most sends one SMS and a single account sends five SMSs per day. Email notification: up to 20 emails per day for a single account
+By **Configuration Changes**->**Alarm Setting**, the single event, alarm level of oriented attack event, notification method, notification time and notifier can be set. Alarm setting and sending statement: In order to improve user experience, a single virtual machine per day at most sends one SMS and a single account sends five SMSs per day. Email notification: up to 20 emails per day for a single account

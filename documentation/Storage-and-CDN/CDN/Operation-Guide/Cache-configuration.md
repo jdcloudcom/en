@@ -2,7 +2,7 @@
 
 It refers to that the user can set the cache time and cache priority level for different resource types such as images, page files, etc.
 
-Click 【Domain Name List】--Select Accelerated Domain Name--【Cache Configuration】
+Click **Domain Name List**--Select Accelerated Domain Name--**Cache Configuration**
 
 ![image.png](https://img1.jcloudcs.com/cms/ce3b1a47-fe29-4d91-affc-01580f6dc87f20180205095621.png)
 

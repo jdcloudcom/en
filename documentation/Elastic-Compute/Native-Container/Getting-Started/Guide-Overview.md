@@ -27,7 +27,7 @@ Go to the real-name verification page to select the individual or corporate auth
 
 6. Set VPC description: The description can be blank, only supports Chinese, numbers, uppercase and lowercase letters, English underscore “_”, and cannot exceed 256 characters;
 
-7. Click 【OK】 and then you can go to “Console” to check the VPC you created;
+7. Click **OK** and then you can go to “Console” to check the VPC you created;
 
 
 **Create Subnet (mandatory)**
@@ -52,14 +52,14 @@ Go to the real-name verification page to select the individual or corporate auth
 
 10. Set subnet description: Description can not be blank, and only supports Chinese, numbers, capital and lowercase letters and English underline “_” and line-through “-”, and can not exceed 256 characters;
 
-11. Click 【OK】to go to “Console” and view the subnet created;
+11. Click **OK**to go to “Console” and view the subnet created;
 
 
 **Create security group (optional)**
 
 Security group provide instance-level network Identity and Access management. You are required to add rules to security group so that they can be used to realize some access; for example, allow SSH to be connected to instance from your local IP address. To facilitate your use, JD Cloud provide three defaulted security groups for each VPC, including defaulted full open security group, defaulted open Linux 22 port and defaulted open Windows 3389 port to facilitate your fast selecting;
 
-1. Enter JD Cloud console and select Elastic Compute>>Container service>>Security Group page; click 【Create】 to pop up the Create box;
+1. Enter JD Cloud console and select Elastic Compute>>Container service>>Security Group page; click **Create** to pop up the Create box;
 
 TimLine Screenshot 20171228152929.png
 

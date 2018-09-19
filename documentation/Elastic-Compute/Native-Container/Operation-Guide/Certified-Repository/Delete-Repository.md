@@ -9,9 +9,9 @@ After delete, JD Cloud can not use this registry authentication information to d
 
 **Operation Guide**
 
-1. Open JD Cloud console and select 【Elastic compute】-【Container services】-【Secrets】 to go to the Registry Authentication Information List page;
+1. Open JD Cloud console and select **Elastic compute**-**Container services**-**Secrets** to go to the Registry Authentication Information List page;
 
-2. Click 【Delete】 button on the List page to pop up registry Authentication Information Delete page;
+2. Click **Delete** button on the List page to pop up registry Authentication Information Delete page;
 
 
 3. Click OK to delete the corresponding registry authentication information.

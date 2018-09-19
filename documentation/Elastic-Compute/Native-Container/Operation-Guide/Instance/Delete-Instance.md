@@ -17,13 +17,13 @@ Operation Guide
 
 Method 1: Delete container in the Container List page
 
-1. Open JD Cloud Console and select 【Elastic Compute】-【Container Service】-【Container Instance】 to enter into the Containers List page;
+1. Open JD Cloud Console and select **Elastic Compute**-**Container Service**-**Container Instance** to enter into the Containers List page;
 
-2. Select container you want to delete and click 【Delete】button in the operation column to pop up 【Delete container】confirmation window;
+2. Select container you want to delete and click **Delete**button in the operation column to pop up **Delete container**confirmation window;
 
-3. You can also check multiple containers needed to be deleted, click the Delete in batch button at the bottom of the page to pop up 【Delete container】confirmation window;
+3. You can also check multiple containers needed to be deleted, click the Delete in batch button at the bottom of the page to pop up **Delete container**confirmation window;
 
-4. The public IP associated to container and cloud disk service which is not set to be deleted automatically shall disassociate instance and continue to be preserved and generating costs; check “I have known the cost problem and I shall delete relevant resources by myself if i don’t need them anymore”, then click【OK】 button to confirm deleting container;
+4. The public IP associated to container and cloud disk service which is not set to be deleted automatically shall disassociate instance and continue to be preserved and generating costs; check “I have known the cost problem and I shall delete relevant resources by myself if i don’t need them anymore”, then click**OK** button to confirm deleting container;
 
 5. If the deletion succeeds, the relevant information will be updated; if the deletion fails, a prompt box will appear; if the deletion failed repeatedly, please contact the Customer Service or open a ticket.
 
@@ -31,12 +31,12 @@ Method 1: Delete container in the Container List page
 
 Method 2: Delete container in the Container Details page
 
-1. Open JD Cloud Console and select 【Elastic Compute】-【Container Service】-【Container Instance】 to enter into the Containers List page;
+1. Open JD Cloud Console and select **Elastic Compute**-**Container Service**-**Container Instance** to enter into the Containers List page;
 
 2. Click the name of the container which shall be deleted to go to Container Details page;
 
-3. Click 【Operation】icon at the upper right corner and more operation option lists appear; click【Delete】 button to pop up 【Delete container】confirmation window;
+3. Click **Operation**icon at the upper right corner and more operation option lists appear; click**Delete** button to pop up **Delete container**confirmation window;
 
-4. The public IP associated to container and cloud disk service which is not set to be deleted automatically shall disassociate instance and continue to be preserved and generating costs; check “I have known the cost problem and I shall delete relevant resources by myself if i don’t need them anymore”, then click【OK】 button to confirm deleting container;
+4. The public IP associated to container and cloud disk service which is not set to be deleted automatically shall disassociate instance and continue to be preserved and generating costs; check “I have known the cost problem and I shall delete relevant resources by myself if i don’t need them anymore”, then click**OK** button to confirm deleting container;
 
 5. If the deletion succeeds, the relevant information will be updated; if the deletion fails, a prompt box will appear; if the deletion failed repeatedly, please contact the Customer Service or open a ticket.

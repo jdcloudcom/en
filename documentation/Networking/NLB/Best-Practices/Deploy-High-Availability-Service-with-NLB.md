@@ -8,7 +8,7 @@
 
 - Server Preparation
 
-  It is necessary to create VM and containers for carrying business traffic in advance, and ensure that the ports needed for listening are opened, and that security groups and ACL policies are properly configured. 【Note: Only when the available zone of the load balancer instance is created, VM and containers under the availability zone can be configured as the backend service. For example, when the load balancer is in Availability Zone A, Availability Zone B, VM and containers in Availability Zone A, Availability Zone B can be configured to conduct traffic forwarding.】
+  It is necessary to create VM and containers for carrying business traffic in advance, and ensure that the ports needed for listening are opened, and that security groups and ACL policies are properly configured. **Note: Only when the available zone of the load balancer instance is created, VM and containers under the availability zone can be configured as the backend service. For example, when the load balancer is in Availability Zone A, Availability Zone B, VM and containers in Availability Zone A, Availability Zone B can be configured to conduct traffic forwarding.**
 
 	
 ## Create load balancer instance
@@ -92,7 +92,7 @@
 
 - Add server to the virtual server group;
 
-- If there is no available virtual server group, click “Create New Virtual Server Group” to create a new virtual server group. VM and containers can be selected to define the port and weight of the instance 【Note: only VM and container resources with the same availability zone as that of the load balancer and in the virtual private cloud with may be selected】.
+- If there is no available virtual server group, click “Create New Virtual Server Group” to create a new virtual server group. VM and containers can be selected to define the port and weight of the instance **Note: only VM and container resources with the same availability zone as that of the load balancer and in the virtual private cloud with may be selected**.
 
 ![NLB虚拟服务器组添加成员设置](../../../../image/Networking/NLB/NLB-079.png)
 
