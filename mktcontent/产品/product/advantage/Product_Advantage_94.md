@@ -1,0 +1,30 @@
+[
+	{
+		"proGoodTitle":"产品优势",
+		"proNameTitle":"云编译",
+		"proDiffTitle":"",
+		"proGood":"快速编译",
+		"proName":"多核CPU运行编译作业，SSD缓存源代码及其他依赖项，以加快编译速度。",
+		"proDiff":""
+	},
+	{
+		"proGood":"支持多种编译语言",
+		"proName":"无需配置或维护编译环境。使用多种语言创建快速、一致且可靠的版本。提供 Java、Golang、NodeJs、Python等多种编译环境，将源代码打包到对象存储或容器中。",
+		"proDiff":""
+	},
+	{
+		"proGood":"构建脚本支持参数化",
+		"proName":"系统支持默认构建参数，允许自定义配置构建参数及构建脚本，满足个性化构建需求。\n",
+		"proDiff":""
+	},
+	{
+		"proGood":"构建日志查看",
+		"proName":"提供历史构建日志查看功能，方便定位问题。\n",
+		"proDiff":""
+	},
+	{
+		"proGood":"快速编译",
+		"proName":"多核CPU运行编译作业，SSD缓存源代码及其他依赖项，以加快编译速度。",
+		"proDiff":""
+	}
+]
