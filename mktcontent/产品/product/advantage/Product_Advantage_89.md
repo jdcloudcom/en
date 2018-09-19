@@ -1,0 +1,25 @@
+[
+	{
+		"proGoodTitle":"产品优势",
+		"proNameTitle":"区块链数据服务",
+		"proDiffTitle":"",
+		"proGood":"易维护",
+		"proName":"多维监控、自定义警告，降低运维成本；",
+		"proDiff":""
+	},
+	{
+		"proGood":"高易用",
+		"proName":"全量BTC、ETH等公有链数据，一键同步；",
+		"proDiff":""
+	},
+	{
+		"proGood":"易分析",
+		"proName":"公有链数据结构化存储，易分析；",
+		"proDiff":""
+	},
+	{
+		"proGood":"易维护",
+		"proName":"多维监控、自定义警告，降低运维成本；",
+		"proDiff":""
+	}
+]
