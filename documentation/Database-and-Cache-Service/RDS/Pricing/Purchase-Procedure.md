@@ -21,7 +21,7 @@ It is recommended to choose the region closest to the regions of users to reduce
 - Type: CPU and memory of the instance in different types corresponding to relevant max. connections and max. IOPS. Please refer to the price overview for a detailed description of the types.
 - Storage Space: The space includes data space, system file space, and log file space.
 
-![Create Instance 1](../../../image/RDS/Create-Instance-1.png)
+![Create Instance 1](../../../../image/RDS/Create-Instance-1.png)
 
 - Virtual Private Cloud: Instances can only be created in the Virtual Private Cloud. If not having a Virtual Private Cloud and subnet, users can create a Virtual Private Cloud and subnet through the link of [New Virtual Private Cloud] and [Create New Subnet]. After the creation is complete, click [Refresh] to see the newly created Virtual Private Cloud and subnet.
    - Please make sure that database instance and VM that needs to connect to the database instance are in the same Virtual Private Cloud when choosing Virtual Private Cloud.
@@ -49,18 +49,18 @@ It is recommended to choose the region closest to the regions of users to reduce
 ## 3. Purchase Confirmation
 After the information is input, the price information will be displayed at the right side of the page and click [Buy Now].
 
-![Create Instance 5](../../../image/RDS/Client-Connect-5.png)
+![Create Instance 5](../../../../image/RDS/Client-Connect-5.png)
 
 ## 4. Payment Order
 Then enter the order confirmation page, and click [Pay Now] after confirming the purchase information is correct.
 
-![Create Instance 6](../../../image/RDS/Create-Instance-6.png)
+![Create Instance 6](../../../../image/RDS/Create-Instance-6.png)
 
 ## 5. Instance Pending
 - The page will return to the instance list page automatically after successful payment, and users can see the instance status as "pending".
 - Then enter the order confirmation page, and click [Pay Now] after confirming the purchase information is correct.
 
-![Create Instance 7](../../../image/RDS/Create-Instance-7.png)
+![Create Instance 7](../../../../image/RDS/Create-Instance-7.png)
 
 ## 6. Creation Completed
 After a while, click the refresh button to manually refresh the page, the page will display that the instance is created in normal running condition.
