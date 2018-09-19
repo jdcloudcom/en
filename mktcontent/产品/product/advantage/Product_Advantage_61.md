@@ -9,7 +9,7 @@
 	},
 	{
 		"proGood":"Mass DDoS Cleaning",
-		"proName":"The Telecom + Unicom + Mobile IP providers are supported, the cluster of the machine room has the cleansing capacity of up to 1000G+, with the maximum cleansing capacity of 400G per line, and a variety of a large amount of traffic DDoS attacks can be solved in stride, ensuring that your workloads can operate stably and safely.",
+		"proName":"The Telecom + Unicom + Mobile IP Lines are supported, the cluster of the machine room has the cleaning capacity of up to 1000G+, with the maximum cleansing capacity of 400G per line, and a variety of a large amount of traffic DDoS attacks can be solved in stride, ensuring that your workloads can operate stably and safely.",
 		"proDiff":""
 	},
 	{
@@ -19,7 +19,7 @@
 	},
 	{
 		"proGood":"Support All Businesses",
-		"proName":"It fully covers non-web service + web service scenarios, supports TCP/UDP/HTTP/HTTPS protocol, and covers various business scenarios such as finance, E-commerce, government and mobile APP. \n",
+		"proName":"It covers non-web service and web service scenarios, supports TCP/UDP/HTTP/HTTPS protocol, and covers various business scenarios such as finance, E-commerce, government and mobile APP. \n",
 		"proDiff":""
 	},
 	{
