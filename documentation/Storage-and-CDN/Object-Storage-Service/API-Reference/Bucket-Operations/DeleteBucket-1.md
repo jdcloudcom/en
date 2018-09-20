@@ -6,7 +6,7 @@ Delete Bucket is used to delete some Bucket.
 
 ```
 DELETE / HTTP/1.1
-Host: BucketName. s-bj.jcloud.com
+Host: <bucket>.oss.cn-north-1.jcloudcs.com
 Date: GMT Date
 Authorization: signatureValue
 ```
@@ -27,7 +27,7 @@ Detail Analysis:
 DELETE / HTTP/1.1
 Date: Tue, 11 Jul 2017   07:01:25 GMT
 Authorization: jingdong   qbS5QXpLORrvdrmb:he65YAWaAh7cV1D2RmaKABAu9dk=
-Host: oss-test.s-bj.jcloud.com
+Host: oss-test.oss.cn-north-1.jcloudcs.com
 Connection: Keep-Alive
 ```
 
