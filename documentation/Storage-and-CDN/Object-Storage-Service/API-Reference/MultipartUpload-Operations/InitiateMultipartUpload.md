@@ -20,7 +20,7 @@ Description: Before data transmission in the Multipart Upload mode, the interfac
 
 ```
 POST  /ObjectName?uploads HTTP/1.1
-Host: BucketName.s.jcloud.com
+Host: <bucket>.oss.cn-north-1.jcloudcs.com
 x-jss-storage-class: STANDARD or REDUCED_REDUNDANCY       
 Date: GMT  Date     
 Authorization:   signatureValue#Please refer to "Identity and Access Management"     
@@ -60,7 +60,7 @@ Detail Analysis:
 
 ```
 POST /multipart.data?uploads   HTTP/1.1
-Host: oss-example.s-bj.jcloud.com
+Host: oss-test.oss.cn-north-1.jcloudcs.com
 x-jss-storage-class:   STANDARD      
 Date: Wed, 12 Jul 2017 07:45:27   GMT  
 Authorization: jingdong qbS5QXpLORrvdrmb:wYoTTKpqU1mZu4Dy3IlTRbCUx0w=   
