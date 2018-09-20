@@ -11,20 +11,24 @@ Customer Scenario: API-level development and debugging
 S3cmd environment requirement: S3cmd can run on Linux (Fedora, RedHat, SuSe, Ubuntu, Debian, etc.) and Apple MAC. Python 2.6 or higher revision is required. S3cmd version 2 also is compatible to Python 3.x.
 
 Python revision view: Input python in the Linux shell environment and enter to view the Python version. The version is shown as follows:
+
 ```
 Python 2.7.12 (default, Dec  4 2017, 14:50:18) 
 [GCC 5.4.0 20160609] on linux2
 Type "help", "copyright", "credits" or "license" for more information.
 >>>
 ```
+
 The python is successfully installed when the above indications are given. If the Python is not installed, it may obtain the Python installation package from the [official website of python](https://www.python.org/?spm=a2c4g.11186623.2.4.YmMQuB). Specific installation instructions on how to install and use Python are provided by the web service.
 
 ## Installation and Usage
 
 **Download S3cmd**
+
 ```
 git clone https://github.com/s3tools/s3cmd.git
 ```
+
 **Source Code Modification**
 
 Use V4 signature rather than V2 signature, and log in the catalog below after downloading from https://github.com/s3tools/s3cmd.git.
@@ -34,6 +38,7 @@ File catalog: s3cmd/S3/S3.py, the 254th line is modified to be: self.endpoint_re
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-091.png)
 
 **S3cmd Installation**
+
 ```
 sudo cp -rf s3cmd/ /usr/local/
 sudo ln -s /usr/local/s3cmd/s3cmd /usr/bin/s3cmd
@@ -42,6 +47,7 @@ sudo ln -s /usr/local/s3cmd/s3cmd /usr/bin/s3cmd
 **Configuration File**
 
 The configuration file is ~/.s3cfg and the content of used configuration file is as follows:
+
 ```
 [default]
 access_key = [you access key]
