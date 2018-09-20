@@ -43,9 +43,9 @@ items:
         href: Operation-Guide/Sign-Up-Service-2.md
       - name: Overview Page
         href: Operation-Guide/Overview-Pag-2.md
-      - name: Space Management
+      - name: Bucket Management
         items:
-           - name: Space Overview
+           - name: Bucket Overview
              href: Operation-Guide/Manage-Bucket/Bucket-Overview-2.md
            - name: Create Bucket
              href: Operation-Guide/Manage-Bucket/Create-Bucket-2.md
@@ -63,7 +63,7 @@ items:
              href: Operation-Guide/Manage-Bucket/Set-Custom-Domain-Name-2.md
            - name: Callback Notification
              href: Operation-Guide/Manage-Bucket/Callback-Notification-2.md
-      - name: Document Management
+      - name: Object Management
         items:
           - name: Create Folder
             href: Operation-Guide/Manage-Object/Create-Folder.md
