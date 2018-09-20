@@ -6,7 +6,7 @@ This document specifies the request syntax, request example, and return example 
 
 ## Basic concept
 
-***Storage space (Bucket)***
+**Bucket**
 
 Storage space is the container you use to store Object, and all objects must belong to a certain storage space. You may set and modify the storage space attribute to control the access permission, and these attribute setting directly apply to all objectives in the storage space, so you may complete different management function by flexibly creating different storage spaces.
 
@@ -26,7 +26,7 @@ The naming specifications of storage spaces are as follows:
 
 3. The name must start and end with a lowercase letter or number without containing continuous line-throughs.
 
-***Object/file (Object)***
+**Object/file (Object)**
 
 Object is the basic unit of OSS storage data, also called as OSS file. Object consists of user data (Data) and file name (Key). Object is identified with the unique Key in the storage space. Object element information is a key-value pair, representing some attributes of the object, such as last modification time, size and other information.
 
@@ -61,11 +61,11 @@ Endpoint represents the access domain name for external service of OSS. OSS prov
 |cn-east-2|oss.cn-east-2.jcloudcs.com|oss-internal.cn-east-2.jcloudcs.com|
 |cn-south-1|oss.cn-south-1.jcloudcs.com|oss-internal.cn-south-1.jcloudcs.com|
 
-***Access Domain Name- BucketName.Endpoint***
+**Access Domain Name- BucketName.Endpoint**
 
 For the network requests of OSS, except for API GetService, all the other domains requested are aiming at level-3 domain names of specific Bucket, consisting of BucketName and Endpoint: BucketName.Endpoint.
 
-***Access Key (AccessKey)***
+**Access Key (AccessKey)**
 
 AccessKey, AK in short, refers to AccessKey and AccessKeySecret used in access identity authentication. OSS verifies the identity of a request sender by the method of AccessKey and AccessKeySecret symmetrical encryption.
 
