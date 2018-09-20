@@ -8,7 +8,7 @@ PutBucket is used to create Bucket (it does not support anonymous access). Regio
 PUT / HTTP/1.1
 Date: GMT Date
 Authorization: signatureValue
-Host: BucketName.s-bj.jcloud.com 
+Host: <bucket>.oss.cn-north-1.jcloudcs.com
 ```
 
 Detail Analysis:
@@ -27,7 +27,7 @@ Detail Analysis:
 PUT / HTTP/1.1
 Date: GMT Date
 Authorization: signatureValue
-Host: BucketName.s-bj.jcloud.com 
+Host: oss-test.oss.cn-north-1.jcloudcs.com
 ```
 
 **Response example** 
