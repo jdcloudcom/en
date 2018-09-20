@@ -3,6 +3,7 @@
 PutBucket is used to create Bucket (it does not support anonymous access). Region where the created Bucket is located is identical to the Region corresponded to Endpoint sending the request. After confirming data center where Bucket is located, all Objects under the Bucket will be always stored in corresponding regions.
 
 Request Grammar
+
 ```
 PUT / HTTP/1.1
 Date: GMT Date
@@ -12,22 +13,25 @@ Host: BucketName.s-bj.jcloud.com
 
 Detail Analysis:
 
-1. If requested Bucket already exists, and the requester is the owner, return 409 Conflict, error code: BucketAlreadyOwnedByYou
+1.If requested Bucket already exists, and the requester is the owner, return 409 Conflict, error code: BucketAlreadyOwnedByYou
 
-2. If requested Bucket already exists, but is not owned by the requester, return 409 Conflict. Error code: BucketAlreadyExists.
+2.If requested Bucket already exists, but is not owned by the requester, return 409 Conflict. Error code: BucketAlreadyExists.
 
-3. If Bucket wanted to create does not conform to the naming convention, return 400 Bad Request Message. Error code: InvalidBucketName.
+3.If Bucket wanted to create does not conform to the naming convention, return 400 Bad Request Message. Error code: InvalidBucketName.
 
-4. If it finds that it has exceeded the maximum number of buckets created during PutBucket, each Region has 10 by default, return 400 Bad Request Message. Error code: TooManyBuckets.
+4.If it finds that it has exceeded the maximum number of buckets created during PutBucket, each Region has 10 by default, return 400 Bad Request Message. Error code: TooManyBuckets.
 
 Request example
+
 ```
 PUT / HTTP/1.1
 Date: GMT Date
 Authorization: signatureValue
 Host: BucketName.s-bj.jcloud.com 
 ```
-Return example 
+
+Response example 
+
 ```
 HTTP/1.1 201   Created
 Server: nginx

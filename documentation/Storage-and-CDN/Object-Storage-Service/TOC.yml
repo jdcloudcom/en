@@ -23,7 +23,7 @@ items:
         href: Pricing/Price-Overview.md
       - name: View Bills
         href: Pricing/Check-Bill.md
- ’- name: Getting Started
+  - name: Getting Started
    items:
       - name: Sign Up Service
         href: Getting-Started/Sign-Up-Service-1.md
@@ -45,7 +45,7 @@ items:
         href: Operation-Guide/Overview-Pag-2.md
       - name: Space Management
         items:
-           ’- name: Space Overview
+           - name: Space Overview
              href: Operation-Guide/Manage-Bucket/Bucket-Overview-2.md
            - name: Create Bucket
              href: Operation-Guide/Manage-Bucket/Create-Bucket-2.md
@@ -73,18 +73,18 @@ items:
             href: Operation-Guide/Manage-Object/Get-Object-URL.md
           - name: Delete Files
             href: Operation-Guide/Manage-Object/Delete-Object.md
-          - name: Form Upload
-            href: Operation-Guide/Manage-Object/Post-Object.md                  
+          - name: Post-Object
+            href: Operation-Guide/Manage-Object/Post-Object-1.md                              
           - name: Consumption Monitoring
             href: Operation-Guide/Manage-Object/Usage-Monitoring.md
       - name: Image Processing Guide
         items:            
           - name: Introduction
-            href: Operation-Guide/Image-Service-Guide/Introduction.md
+            href: Operation-Guide/Image-Service-Guide/Introduction-1.md
           - name: Access Rules of Image Processing
             href: Operation-Guide/Image-Service-Guide/Image-Access-Rules.md
           - name: Quick Use Picture Service
-            href: Operation-Guide/Image-Service-Guide/Getting-Started.md  
+            href: Operation-Guide/Image-Service-Guide/Getting-Started-1.md
           - name: Image Zooming
             href: peration-Guide/Image-Service-Guide/Resize-Images.md
           - name: Image Rotation
@@ -112,7 +112,7 @@ items:
           - name: Overview
             href: Operation-Guide/Video-Service-Guide/Video-Service-Guide-Overview.md
           - name: Access Rules of Image Processing
-            href: Operation-Guide/Video-Service-Guide/Getting-Started.md
+            href: Operation-Guide/Video-Service-Guide/Getting-Started-2.md
           - name: Video Processing Signature Verification
             href: Operation-Guide/Video-Service-Guide/User-Signature-Authentication.md   
           - name: Create Video Transcoding
@@ -126,7 +126,7 @@ items:
  - name: API Reference(S3 Compatible)
    items:
       - name: Overview
-        href: API-Reference-S3-Compatible/Introduction.md
+        href: API-Reference-S3-Compatible/Introduction-2.md
       - name: Regions And Endpoints
         href: API-Reference-S3-Compatible/Regions-And-Endpoints.md
       - name: Compatible Signature Verification
@@ -138,7 +138,7 @@ items:
            - name: Compatible Interface Overview
              href: API-Reference-S3-Compatible/Compatibility-API/Compatibility-API-overview.md
            - name: Post Object
-             href: API-Reference-S3-Compatible/Compatibility-API/Post-Object.md        
+             href: API-Reference-S3-Compatible/Compatibility-API/Post-Object-2.md        
       - name: Expansion Interface
         items:
            - name: Compress Object
@@ -148,7 +148,7 @@ items:
       - name: Compatible Tool
         items:
            - name: Overview
-             href: API-Reference-S3-Compatible/Compatibility-Tools/Introduction.md
+             href: API-Reference-S3-Compatible/Compatibility-Tools/Introduction-3.md
            - name: SDK-Python
              href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-Python.md
            - name: SDK-Java
@@ -160,7 +160,7 @@ items:
            - name: SDK-iOS
              href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-iOS.md
            - name: CloudBerry
-             href: API-Reference-S3-Compatible/Compatibility-Tools/CloudBerry.md                
+             href: API-Reference-S3-Compatible/Compatibility-Tools/CloudBerry-1.md                
  - name: API Reference(Previous Version)
    items:
       - name: OSS API Introduction
@@ -246,7 +246,7 @@ items:
            - name: List Bucket
              href: SDK-Reference/Java-SDK/List-Buckets-3.md  
            - name: Delete Bucket
-             href:  SDK-Reference/Java-SDK/Delete-Bucket-3.md 
+             href: SDK-Reference/Java-SDK/Delete-Bucket-3.md 
            - name: Simple Upload
              href: SDK-Reference/Java-SDK/Simple-Upload-3.md 
            - name: Multipart Upload
@@ -256,7 +256,7 @@ items:
            - name: Range Download
              href: SDK-Reference/Java-SDK/Range-Download-3.md
            - name: Management File
-             href:  SDK-Reference/Java-SDK/Manage-Objects-3.md
+             href: SDK-Reference/Java-SDK/Manage-Objects-3.md
            - name: Delete Files
              href: SDK-Reference/Java-SDK/Delete-Object-3.md
            - name: Move File
@@ -272,9 +272,9 @@ items:
       - name: Anti-leech
         href: Best-Practices/Anti-leech.md         
       - name: Use CloudBerry to Manage OSS
-        href: Best-Practices/CloudBerry.md 
+        href: Best-Practices/CloudBerry-2.md 
       - name: Generate Presigned-URL
-        href: Best-Practices/Signature-In-URL.md
+        href: Best-Practices/Signature-In-URL-1.md
       - name: Cross-origin Access
         href: Best-Practices/CORS.md
       - name: Data Migration Tool 

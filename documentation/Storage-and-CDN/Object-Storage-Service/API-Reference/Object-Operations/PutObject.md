@@ -3,6 +3,7 @@
 The action is used to upload a new Object to the specified Bucket
 
 **Request Grammar**
+
 ```
 PUT /ObjectName HTTP/1.1
 Content-Length:ContentLength
@@ -14,6 +15,7 @@ x-jss-storage-class: STANDARD   or REDUCED_REDUNDANCY
 Date: GMT  Date     
 Authorization:   signatureValue#Please refer to "Identity and Access Management"
 ```
+
 **Request Header**
 
 |Name|Description|
@@ -25,23 +27,24 @@ Authorization:   signatureValue#Please refer to "Identity and Access Management"
 
 Detail Analysis:
 
-1. The maximum length of uploading data with put object is suggested not to exceed 5GB. Uploading by parts is suggested for larger files.
+1.The maximum length of uploading data with put object is suggested not to exceed 5GB. Uploading by parts is suggested for larger files.
 
-2. The action is atomic, the action either succeeds or fails, and only updating partial data will never occur.
+2.The action is atomic, the action either succeeds or fails, and only updating partial data will never occur.
 
-3. In case that keys are the same, the original files will be directly replaced.
+3.In case that keys are the same, the original files will be directly replaced.
 
-4. End-to-end verification may be carried out by client through HTTP header Content-MD5 to guarantee the completeness of the uploaded data. Before uploading, the client will compute the Content-MD5 value of uploaded data, and upload the value together with data to cloud storage. After the cloud storage receives the data, it will compute the Content-MD5 value of the received data again, compare it with the Content-MD5 provided by the client, and save the data to the cloud storage only when the Content-MD5 values match with each other, or the server will return error and the uploading fails.
+4.End-to-end verification may be carried out by client through HTTP header Content-MD5 to guarantee the completeness of the uploaded data. Before uploading, the client will compute the Content-MD5 value of uploaded data, and upload the value together with data to cloud storage. After the cloud storage receives the data, it will compute the Content-MD5 value of the received data again, compare it with the Content-MD5 provided by the client, and save the data to the cloud storage only when the Content-MD5 values match with each other, or the server will return error and the uploading fails.
 
-5. If the "Content-Length" value in request header is shorter than the data length transmitted in actual request body (body), OSS will fail to upload files, and the uploaded data will be discarded.
+5.If the "Content-Length" value in request header is shorter than the data length transmitted in actual request body (body), OSS will fail to upload files, and the uploaded data will be discarded.
 
-6. If Content length parameter is not added to Head, 400 Length Required error will be returned. Error code: MissingContentLength
+6.If Content length parameter is not added to Head, 400 Length Required error will be returned. Error code: MissingContentLength
 
-7. If the Bucket where the Object to be added does not exist, 404 Not Found error will be returned. Error code: NoSuchBucket.
+7.If the Bucket where the Object to be added does not exist, 404 Not Found error will be returned. Error code: NoSuchBucket.
 
-8. If the length of incoming Object key is longer than 1022 bytes, 400 Bad Request will be returned. Error code: InvalidArgument
+8.If the length of incoming Object key is longer than 1022 bytes, 400 Bad Request will be returned. Error code: InvalidArgument
 
 **Request Example**
+
 ```
 PUT /example.jpg HTTP/1.1
 Host: oss-example.s-bj.jcloud.com
@@ -52,7 +55,9 @@ x-jss-server-side-encryption:   false
 Date: Tue, 11 Jul 2017   07:13:32 GMT    
 Authorization: jingdong   qbS5QXpLORrvdrmb:cQ63NndHAoEBmjZHehSuNWG/Jns=
 ```
+
 **Return Example**
+
 ```
 HTTP/1.1 200 OK
 Server: nginx
@@ -63,7 +68,9 @@ x-jss-request-id:   8E4FC95C05EC1A4C
 ETag:   "6457646542258052f767868fd686d74d"
 X-Trace:   200-1499757212162-0-0-20-50-50
 ```
+
 **Request Example (Content-Type and Content-MD5 are not set):**
+
 ```
 PUT /example.jpg HTTP/1.1
 Host:   oss-example.s-bj.jcloud.com
@@ -71,7 +78,9 @@ x-jss-server-side-encryption:   true
 Date: Thu, 13 Jul 2017   02:12:02 GMT    
 Authorization: jingdong     qbS5QXpLORrvdrmb:S2ZHyLfdZml/bRjD/TEQ+ftJXBA=
 ```
+
 **Return Example (Content-Type and Content-MD5 are not set):**
+
 ```
 HTTP/1.1 200 OK
 Server: nginx

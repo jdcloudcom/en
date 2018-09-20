@@ -6,13 +6,13 @@ The data migration tool of JD Cloud object storage service supports the file mig
 
 The tool features are as follows:
 
-1. Support a variety of data sources, including local data and data from a third party
+1.Support a variety of data sources, including local data and data from a third party
 
-2. Support breakpoint upload.
+2.Support breakpoint upload.
 
-3. Support incremental migration and support file migration after the assigned time.
+3.Support incremental migration and support file migration after the assigned time.
 
-4. Support parallel data transmission.
+4.Support parallel data transmission.
 
 Tool download: [osstransfer](http://downloads.oss.cn-north-1.jcloudcs.com/tools/osstransfer.zip)
 

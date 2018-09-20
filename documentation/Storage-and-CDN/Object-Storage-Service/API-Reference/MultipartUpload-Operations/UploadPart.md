@@ -2,7 +2,7 @@
 
 Upload a Part to the specified Multipart Upload.
 
-**Request Grammar**
+**Request Syntax**
 ```
 PUT   /ObjectName?uploadId=UploadId&partNumber=PartNumber HTTP/1.1
 Date: GMT Date
@@ -31,7 +31,7 @@ Content-Length: 3
 Host: oss-test.s-bj.jcloud.com
 Connection: Keep-Alive
 ```
-**Return Example** 
+**Response Example** 
 ```
 HTTP/1.1 200 OK
 Server: nginx

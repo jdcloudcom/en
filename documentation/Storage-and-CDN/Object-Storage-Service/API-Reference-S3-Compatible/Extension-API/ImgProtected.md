@@ -6,7 +6,8 @@ For image files, to avoid the risk of stolen images in the business, it is requi
 
 Set access rules for original image protection, if original rules exist, replace the original rules, when it is configured with access rules for original image protection, it shall be viewed as turning on original image protection function.
 
-Request Grammar
+Request Syntax
+
 ```
 PUT /?imgProtected HTTP/1.1
 Host: bucket.s3.region.jcloudcs.com
@@ -57,7 +58,8 @@ Content-Length: 113
 <?xml version="1.0" encoding="UTF-8"?><Condition><Extension>jpg</Extension><Extension>png</Extension></Condition>
 ```
 
-Return example:
+Response example:
+
 ```
 HTTP/1.1 200 OK
 Server: nginx
@@ -72,7 +74,8 @@ Cache-Control: no-cache
 
 Get configuration of bucket original image protection
 
-Request Grammar
+Request Syntax
+
 ```
 GET /?imgProtected HTTP/1.1
 Host: bucket.s3.region.jcloudcs.com
@@ -102,7 +105,7 @@ X-Amz-Date: 20180117T122144Z
 Authorization: signatureValue
 ```
 
-Return example
+Response example
 ```
 HTTP/1.1 200 OK
 Server: nginx
@@ -120,7 +123,7 @@ Cache-Control: no-cache
 
 Delete original image protection configuration, namely, turn off original image protection function.
 
-Request Grammar
+Request Syntax
 ```
 DELETE /?imgProtected HTTP/1.1
 Host: bucket.s3.region.jcloudcs.com
@@ -143,7 +146,7 @@ X-Amz-Date: 20180117T122640Z
 Authorization: signatureValue
 ```
 
-Return example
+Response example
 ```
 HTTP/1.1 204 No Content
 Server: nginx
