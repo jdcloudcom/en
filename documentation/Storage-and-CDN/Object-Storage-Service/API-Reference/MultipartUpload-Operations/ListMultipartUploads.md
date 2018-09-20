@@ -6,7 +6,7 @@ List Multipart Uploads may list the MultipartUpload not completed under the spec
 
 ```
 GET /BucketName?uploads HTTP/1.1
-Host: BucketName.s-bj.jcloud.com
+Host: <bucket>.oss.cn-north-1.jcloudcs.com
 Date: GMT Date
 Authorization: signatureValue
 ```
@@ -40,7 +40,7 @@ Detail Analysis:
 GET   /?uploads HTTP/1.1
 Date:   Wed, 12 Jul 2017 13:58:14 GMT
 Authorization:   jingdong   298718BEDE59FF1B2E96A3152937D37B:YVbn+CqITQzQNRWzVKcxPq3V0PY=
-Host: oss-test.s-bj.jcloud.com
+Host: oss-test.oss.cn-north-1.jcloudcs.com
 Connection:   Keep-Alive
 ```
 
