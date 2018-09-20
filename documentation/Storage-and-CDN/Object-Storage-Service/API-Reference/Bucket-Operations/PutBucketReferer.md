@@ -2,7 +2,7 @@
 
 PutBucketReferer Action can set an anti-theft chain of a Bucket, referer accesses white list and request access whether allows referer field is null.
 
-**Request Grammar**
+**Request Syntax**
 ```
 PUT /  ?bucketReferer
 & Effect=
@@ -42,7 +42,7 @@ Authorization: jingdong   qbS5QXpLORrvdrmb:Nd8NwDDzyj28M1jfGrTC7DGc1cg=
 Host: oss-test.s-bj.jcloud.com
 ```
 
-**Return Example** 
+**Response Example** 
 ```
 HTTP/1.1 200 OK
 Server: nginx

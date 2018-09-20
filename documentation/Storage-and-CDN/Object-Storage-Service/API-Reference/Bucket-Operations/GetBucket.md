@@ -4,7 +4,7 @@ The action is used to list all Object information in assigned Bucket.
 
 Note: Even if the access permission of Bucket is public, this action is also not allowed to be used anonymously, which requires to assign Authorization.
 
-**Request Grammar**
+**Request Syntax**
 ```
 GET / HTTP/1.1
 Host: BucketName. s.jcloud.com
@@ -62,7 +62,7 @@ Host:   oss-example.s-bj.jcloud.com
 Date: Tue, 11 Jul 2017   07:54:41 GMT    
 Authorization: jingdong   qbS5QXpLORrvdrmb:3xo8IxIXSkA280C0Z5+lkowaAA8=
 ```
-**Return Example**
+**Response Example**
 ```
 HTTP/1.1 200 OK
 Server: nginx
@@ -125,7 +125,7 @@ Host:   oss-example.s-bj.jcloud.com
 Date: Tue, 11 Jul 2017   08:01:09 GMT    
 Authorization: jingdong   qbS5QXpLORrvdrmb:FQZNWlNAraOLgreEflrurbNojJE= 
 ```
-**Return Example (inclusive of Prefix parameter)**
+**Response Example (inclusive of Prefix parameter)**
 ```
 HTTP/1.1 200 OK
 Server: nginx
@@ -181,7 +181,8 @@ Date: Tue, 11 Jul 2017   08:05:13 GMT
 Authorization: jingdong   qbS5QXpLORrvdrmb:jXw8QQvs6IS+JJ2EpiFMUGtgNEM=
 ```
 
-**Return Example (inclusive of prefix and parameter)**
+**Response Example (inclusive of prefix and parameter)**
+
 ```
 HTTP/1.1 200 OK
 Server: nginx

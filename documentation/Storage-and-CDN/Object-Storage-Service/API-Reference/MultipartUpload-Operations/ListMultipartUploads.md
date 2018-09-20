@@ -2,7 +2,7 @@
 
 List Multipart Uploads may list the MultipartUpload not completed under the specified Bucket, and some query conditions may be used to limit return results during request. The action may return up to 10000 Multipart Uploads. If the results meeting query conditions exceeds 10000. For more than 10000 Multipart Upload, 400 error will be returned, and error code TooManyMultipartUploads will be returned.
 
-**Request Grammar**
+**Request Syntax**
 ```
 GET /BucketName?uploads HTTP/1.1
 Host: BucketName.s-bj.jcloud.com
@@ -40,7 +40,7 @@ Authorization:   jingdong   298718BEDE59FF1B2E96A3152937D37B:YVbn+CqITQzQNRWzVKc
 Host: oss-test.s-bj.jcloud.com
 Connection:   Keep-Alive
 ```
-**Return Example**
+**Response Example**
 ```
 HTTP/1.1 200 OK
 Server: nginx

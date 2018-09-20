@@ -2,7 +2,7 @@
 
 Delete Bucket is used to delete some Bucket. 
 
-**Request Grammar**
+**Request Syntax**
 ```
 DELETE / HTTP/1.1
 Host: BucketName. s-bj.jcloud.com
@@ -28,7 +28,7 @@ Host: oss-test.s-bj.jcloud.com
 Connection: Keep-Alive
 ```
 
-**Return Example** 
+**Response Example** 
 ```
 HTTP/1.1 204 No   Content
 Server: nginx

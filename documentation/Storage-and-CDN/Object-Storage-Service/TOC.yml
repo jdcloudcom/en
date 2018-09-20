@@ -23,7 +23,7 @@ items:
         href: Pricing/Price-Overview.md
       - name: View Bills
         href: Pricing/Check-Bill.md
- ’- name: Getting Started
+ - name: Getting Started
    items:
       - name: Sign Up Service
         href: Getting-Started/Sign-Up-Service-1.md
@@ -137,8 +137,6 @@ items:
         items:
            - name: Compatible Interface Overview
              href: API-Reference-S3-Compatible/Compatibility-API/Compatibility-API-overview.md
-           - name: Post Object
-             href: API-Reference-S3-Compatible/Compatibility-API/Post-Object.md        
       - name: Expansion Interface
         items:
            - name: Compress Object
@@ -246,7 +244,7 @@ items:
            - name: List Bucket
              href: SDK-Reference/Java-SDK/List-Buckets-3.md  
            - name: Delete Bucket
-             href:  SDK-Reference/Java-SDK/Delete-Bucket-3.md 
+             href: SDK-Reference/Java-SDK/Delete-Bucket-3.md 
            - name: Simple Upload
              href: SDK-Reference/Java-SDK/Simple-Upload-3.md 
            - name: Multipart Upload
@@ -256,7 +254,7 @@ items:
            - name: Range Download
              href: SDK-Reference/Java-SDK/Range-Download-3.md
            - name: Management File
-             href:  SDK-Reference/Java-SDK/Manage-Objects-3.md
+             href: SDK-Reference/Java-SDK/Manage-Objects-3.md
            - name: Delete Files
              href: SDK-Reference/Java-SDK/Delete-Object-3.md
            - name: Move File

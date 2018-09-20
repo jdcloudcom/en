@@ -2,7 +2,7 @@
 
 The action is used to obtain the specified Object content
 
-**Request Grammar**
+**Request Syntax**
 ```
 GET /ObjectName   HTTP/1.1
 Host: BucketName. s.jcloud.com
@@ -30,7 +30,7 @@ Host: oss-example.s-bj.jcloud.com
 Date: Tue, 11 Jul 2017   07:28:01 GMT    
 Authorization: jingdong qbS5QXpLORrvdrmb:Ctm+uA40JmY3T3LvCZ6CkKkANXs=
 ```
-**Return Example**
+**Response Example**
 ```
 HTTP/1.1 200 OK
 Server: nginx
@@ -55,7 +55,7 @@ Range: bytes=0-9
 Date: Tue, 11 Jul 2017 07:34:11   GMT    
 Authorization: jingdong qbS5QXpLORrvdrmb:/Aaawoo0xVq4XVMei/yK1UqhoFc=
 ```
-**Range Return Example**
+**Range Response Example**
 ```
 HTTP/1.1 206   Partial Content
 Server: nginx
