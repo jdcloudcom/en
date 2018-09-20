@@ -2,7 +2,7 @@
 
 The action is used to list Parts uploaded in Multipart Upload.
 
-**Request Grammar**
+**Request Syntax**
 
 ```
 GET   /ObjectName?uploadId=UploadId HTTP/1.1
