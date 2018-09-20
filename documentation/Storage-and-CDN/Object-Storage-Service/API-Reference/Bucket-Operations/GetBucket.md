@@ -4,7 +4,7 @@ The action is used to list all Object information in assigned Bucket.
 
 Note: Even if the access permission of Bucket is public, this action is also not allowed to be used anonymously, which requires to assign Authorization.
 
-**Request Grammar**
+**Request Syntax**
 
 ```
 GET / HTTP/1.1
@@ -181,7 +181,7 @@ X-Trace:   200-1499760069435-0-0-20-45-45
 }
 ```
 
-***Request Example (inclusive of prefix and parameter)*** 
+**Request Example (inclusive of prefix and parameter)** 
 
 ```
 GET   /?prefix=jingdong%2F&delimiter=%2F HTTP/1.1
