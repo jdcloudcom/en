@@ -2,7 +2,7 @@
 
 The interface may terminate its corresponding Multipart Upload event based on the Upload ID provided by user. When a Multipart Upload event is terminated, its UploadId will also be canceled, and the storage space occupied by all the uploaded Parts in Multipart Upload will be released. 
 
-**Request Grammar**
+**Request Syntax**
 ```
 DELETE /BucketName/ObjectName?uploadId=UploadIdHTTP/1.1
 Host: BucketName. s-bj.jcloud.com
