@@ -2,7 +2,7 @@
 
 The action is used to upload a new Object to the specified Bucket
 
-**Request Grammar**
+**Request Syntax**
 
 ```
 PUT /ObjectName HTTP/1.1
@@ -56,7 +56,7 @@ Date: Tue, 11 Jul 2017   07:13:32 GMT
 Authorization: jingdong   qbS5QXpLORrvdrmb:cQ63NndHAoEBmjZHehSuNWG/Jns=
 ```
 
-**Return Example**
+**Response Example**
 
 ```
 HTTP/1.1 200 OK
@@ -79,7 +79,7 @@ Date: Thu, 13 Jul 2017   02:12:02 GMT
 Authorization: jingdong     qbS5QXpLORrvdrmb:S2ZHyLfdZml/bRjD/TEQ+ftJXBA=
 ```
 
-**Return Example (Content-Type and Content-MD5 are not set):**
+**Response Example (Content-Type and Content-MD5 are not set):**
 
 ```
 HTTP/1.1 200 OK
