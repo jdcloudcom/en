@@ -2,7 +2,7 @@
 
 Get Bucket Referer Action is used to view Referer relevant configuration of Bucket anti-leech chain. 
 
-**Request Grammar**
+**Request Syntax**
 ```
 GET   /?bucketReferer HTTP/1.1
 Host: BucketName.s-bj.jcloud.com
@@ -32,7 +32,7 @@ Host: oss-test.s-bj.jcloud.com
 Connection: Keep-Alive
 ```
 
-**Already set return example of Referer rules**
+**Already set Response example of Referer rules**
 ```
 HTTP/1.1 200 OK
 Server: nginx
@@ -44,7 +44,7 @@ x-jss-request-id:   A84C875C916A1E24
 {"AllowNull":false,"Effect":"ALLOW","Value":["www.abc.com","www.*.com"]}
 ```
 
-**Return example of Referer rules is not set**
+**Response example of Referer rules is not set**
 ```
 HTTP/1.1 204 No   Content
 Server: nginx
