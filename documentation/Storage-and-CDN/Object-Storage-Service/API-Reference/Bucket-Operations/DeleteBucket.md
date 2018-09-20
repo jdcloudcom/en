@@ -2,7 +2,7 @@
 
 Delete Bucket is used to delete some Bucket. 
 
-**Request Grammar**
+**Request Syntax**
 
 ```
 DELETE / HTTP/1.1
