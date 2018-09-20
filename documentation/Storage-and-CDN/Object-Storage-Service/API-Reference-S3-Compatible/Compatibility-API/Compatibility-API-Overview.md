@@ -1,8 +1,6 @@
 # Compatible Interface
  Current supported APIs are listed in the below table. Please access  [OSS compatible S3 API documents](https://github.com/jdcloud-cmw/oss/tree/master/S3-API-Document).
 
-# 兼容接口
-
 |API supported by OSS|API introduction|Description|
 |-|-|-|
 |GET Service（List Bucket）|Obtain all Buckets under a User|Compatible [GET Service](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/RESTServiceGET.html)|
