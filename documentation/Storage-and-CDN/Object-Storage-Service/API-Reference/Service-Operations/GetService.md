@@ -8,7 +8,7 @@ For service address sending a Get request, you can return all Buckets owned by t
 GET / HTTP/1.1
 Date: GMT Date
 Authorization: SignatureValue
-Host:s-bj.jcloud.com
+Host:<bucket>.oss.cn-north-1.jcloudcs.com
 ``` 
 
 **Response Element**
@@ -34,7 +34,7 @@ Detail Analysis:
 GET / HTTP/1.1
 Date: Wed, 12 Jul 2017 10:38:35 GMT
 Authorization: jingdong   298718BEDE59FF1B2E96A3152937D37B:mIdihnpi2ZtWTHaji555S0BBEBA=
-Host: s-bj.jcloud.com
+Host: oss-test.oss.cn-north-1.jcloudcs.com
 Connection: Keep-Alive
 ```
 
