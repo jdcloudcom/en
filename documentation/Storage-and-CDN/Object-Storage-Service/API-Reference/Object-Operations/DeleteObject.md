@@ -2,7 +2,7 @@
 
 The action is used to delete an Object.
 
-**Request Grammar**
+**Request Syntax**
 
 ```
 DELETE  /ObjectName HTTP/1.1
@@ -26,7 +26,7 @@ Date: Tue, 11 Jul 2017 07:37:23   GMT
 Authorization: jingdong   qbS5QXpLORrvdrmb:Qt+ThnjyLwBb9xMZ8PZG3wsj3qU=
 ```
 
-**Return Example**
+**Response Example**
 
 ```
 HTTP/1.1 204 No   Content
