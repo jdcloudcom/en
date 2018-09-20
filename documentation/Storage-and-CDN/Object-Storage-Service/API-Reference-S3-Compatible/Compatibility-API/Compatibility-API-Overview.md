@@ -10,7 +10,7 @@
 |HEAD Bucket|Confirm whether a Bucket exists or not and has right to access.<br>If a Bucket exists and has right to access, return 200 OK If the assigned bucket does not exist, return 404 Not Found|兼容 [HEAD Bucket](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/RESTBucketHEAD.html)|
 |GET Bucket（List Object）|Obtain the Object information under a Bucket (Compatible Version2)|兼容 [GET Bucket](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/v2-RESTBucketGET.html)|
 |DELETE Bucket|Delete the assigned Bucket|兼容 [DELETE Bucket](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/RESTBucketDELETE.html)|
-|PUT Object|Upload an Object to OSS|兼容 [PUT Object]|(https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/RESTObjectPUT.html)
+|PUT Object|Upload an Object to OSS|兼容 [PUT Object](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/RESTObjectPUT.html)
 |GET Object|Obtain the Meta and data of an Object to obtain all data or use Range to assign to obtain part of the data|兼容 [GET Object](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/RESTObjectGET.html)|
 |HEAD Object|Obtain the Meta of an Object|兼容 [HEAD Object](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/RESTObjectHEAD.html)|
 |DELETE Object|Delete an Object|兼容 [DELETE Object](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/RESTObjectDELETE.html)|
