@@ -2,7 +2,7 @@
 
 Get Bucket Referer Action is used to view Referer relevant configuration of Bucket anti-leech chain. 
 
-**Request Grammar**
+**Request Syntax**
 
 ```
 GET   /?bucketReferer HTTP/1.1
