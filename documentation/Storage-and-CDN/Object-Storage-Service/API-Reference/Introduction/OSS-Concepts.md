@@ -13,4 +13,4 @@
 |Object Meta|File Element Information. Used to describe file information, such as length, type, etc.|
 |Data|File Data|
 |Key|File Name|
-|ACL (Access Control List)|Storage Space Permission|
+|ACL (Access Control List)|Bucket Permission|
