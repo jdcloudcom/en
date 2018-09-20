@@ -17,11 +17,9 @@ Obtain all Buckets under a User|Compatible [GET Service](https://docs.aws.amazon
 |DELETE Object|Delete an Object|兼容 [DELETE Object](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/RESTObjectDELETE.html)|
 |Initiate MultiPart Upload|Initialize a MultiPart upload task|兼容 [Initiate MultiPart Upload](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/mpUploadInitiate.html)|
 |Upload Part|Upload a Part to OSS|兼容 [Upload Part](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/mpUploadUploadPart.html)|
-|Complete MultiPart Upload|	
-Combine multiple parts uploaded into an Object|兼容 [Complete MultiPart Upload](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/mpUploadComplete.html)|
+|Complete MultiPart Upload|Combine multiple parts uploaded into an Object|兼容 [Complete MultiPart Upload](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/mpUploadComplete.html)|
 |Abort MultiPart Upload|Abort a MultiPart upload task|兼容 [Abort MultiPart Upload](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/mpUploadAbort.html)|
-|List Parts|	
-Obtain information of the part already uploaded by the assigned uploadid|兼容 [List Parts](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/mpUploadListParts.html)|
+|List Parts|Obtain information of the part already uploaded by the assigned uploadid|兼容 [List Parts](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/mpUploadListParts.html)|
 |List MultiPart Uploads|Obtain the MultiPart task uploaded under a Bucket|兼容 [List MultiPart Uploads](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/mpUploadListMPUpload.html)|
 |GET Bucket policy|Obtain policy on the assigned Bucket|兼容 [GET Bucket policy](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/RESTBucketGETpolicy.html)|
 |PUT Bucket policy|Add or edit policy on the assigned Buckety|兼容 [PUT Bucket policy](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/RESTBucketPUTpolicy.html)|
