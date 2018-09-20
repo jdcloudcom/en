@@ -54,7 +54,7 @@ Region is specified when creating Bucket, and cannot be changed once specified. 
 
 Endpoint represents the access domain name for external service of OSS. OSS provides service externally in the form of HTTP RESTful API, and different domain names are required when accessing different Regions. Accessing the same Region from intranet and Internet requires different Endpoints, where the extranet refers to the Internet; intranet refers to the domain name used by the JD Cloud virtual machines to access cloud storage service. Access from intranet may achieve better performance and lower network delay. For example, the Internet Endpoint of North China Region is oss.cn-north-1.jcloudcs.com, and the intranet Endpoint is oss-internal.cn-north-1.jcloudcs.com. Endpoints corresponding to each Region are as follows.
 
-|Data Center|Public Network Endpoint|Intranet Endpoint|
+|Data Center|Internet Endpoint|Intranet Endpoint|
 |-|-|-|
 |cn-north-1|oss.cn-north-1.jcloudcs.com|oss-internal.cn-north-1.jcloudcs.com|
 |cn-east-1|oss.cn-east-1.jcloudcs.com|oss-internal.cn-east-1.jcloudcs.com|
