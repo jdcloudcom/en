@@ -5,8 +5,7 @@
 
 |API supported by OSS|API introduction|Description|
 |-|-|-|
-|GET Service（List Bucket）|	
-Obtain all Buckets under a User|Compatible [GET Service](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/RESTServiceGET.html)|
+|GET Service（List Bucket）|Obtain all Buckets under a User|Compatible [GET Service](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/RESTServiceGET.html)|
 |PUT Bucket|Create a Bucket, default permission is Private|Compatible  [PUT Bucket](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/RESTBucketPUT.html)|
 |HEAD Bucket|Confirm whether a Bucket exists or not and has right to access.<br>If a Bucket exists and has right to access, return 200 OK If the assigned bucket does not exist, return 404 Not Found|兼容 [HEAD Bucket](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/RESTBucketHEAD.html)|
 |GET Bucket（List Object）|Obtain the Object information under a Bucket (Compatible Version2)|兼容 [GET Bucket](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/v2-RESTBucketGET.html)|
