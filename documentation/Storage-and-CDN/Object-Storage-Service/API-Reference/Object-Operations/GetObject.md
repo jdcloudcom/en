@@ -2,7 +2,7 @@
 
 The action is used to obtain the specified Object content
 
-**Request Grammar**
+**Request Syntax**
 
 ```
 GET /ObjectName   HTTP/1.1
@@ -63,7 +63,7 @@ Date: Tue, 11 Jul 2017 07:34:11   GMT
 Authorization: jingdong qbS5QXpLORrvdrmb:/Aaawoo0xVq4XVMei/yK1UqhoFc=
 ```
 
-**Range Return Example**
+**Range Response Example**
 
 ```
 HTTP/1.1 206   Partial Content
