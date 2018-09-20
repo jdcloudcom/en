@@ -8,9 +8,9 @@ Note: Even if the access permission of Bucket is public, this action is also not
 
 ```
 GET / HTTP/1.1
-Host: BucketName. s.jcloud.com
-Date: GMT   Date     
-Authorization:   signatureValue#Please refer to "Identity and Access Management"
+Host: <bucket>.oss.cn-north-1.jcloudcs.com
+Date: GMT Date     
+Authorization: signatureValue#Please refer to "Identity and Access Management"
 ```
 
 **Request Parameter**
@@ -60,9 +60,9 @@ Detail Analysis:
 
 ```
 GET / HTTP/1.1
-Host:   oss-example.s-bj.jcloud.com
+Host: oss-test.oss.cn-north-1.jcloudcs.com
 Date: Tue, 11 Jul 2017   07:54:41 GMT    
-Authorization: jingdong   qbS5QXpLORrvdrmb:3xo8IxIXSkA280C0Z5+lkowaAA8=
+Authorization: jingdon qbS5QXpLORrvdrmb:3xo8IxIXSkA280C0Z5+lkowaAA8=
 ```
 
 **Response Example**
@@ -185,7 +185,7 @@ X-Trace:   200-1499760069435-0-0-20-45-45
 
 ```
 GET   /?prefix=jingdong%2F&delimiter=%2F HTTP/1.1
-Host: oss-example.s-bj.jcloud.com
+Host: oss-test.oss.cn-north-1.jcloudcs.com
 Date: Tue, 11 Jul 2017   08:05:13 GMT    
 Authorization: jingdong   qbS5QXpLORrvdrmb:jXw8QQvs6IS+JJ2EpiFMUGtgNEM=
 ```
