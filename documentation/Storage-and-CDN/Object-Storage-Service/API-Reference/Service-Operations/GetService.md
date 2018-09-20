@@ -2,14 +2,14 @@
 
 For service address sending a Get request, you can return all Buckets owned by the requestor, where the "/" represents the root directory.
 
-***Request Grammar***
+**Request Grammar**
 ```
 GET / HTTP/1.1
 Date: GMT Date
 Authorization: SignatureValue
 Host:s-bj.jcloud.com
 ``` 
-***Response Element***
+**Response Element**
 
 |Name|Description|
 |-|-|
@@ -34,7 +34,7 @@ Authorization: jingdong   298718BEDE59FF1B2E96A3152937D37B:mIdihnpi2ZtWTHaji555S
 Host: s-bj.jcloud.com
 Connection: Keep-Alive
 ```
-Return example
+Response example
 ```
 HTTP/1.1 200 OK
 Server: nginx
