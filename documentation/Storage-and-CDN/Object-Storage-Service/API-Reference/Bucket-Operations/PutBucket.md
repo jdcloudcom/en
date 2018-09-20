@@ -2,7 +2,7 @@
 
 PutBucket is used to create Bucket (it does not support anonymous access). Region where the created Bucket is located is identical to the Region corresponded to Endpoint sending the request. After confirming data center where Bucket is located, all Objects under the Bucket will be always stored in corresponding regions.
 
-Request Grammar
+Request Syntax
 
 ```
 PUT / HTTP/1.1
