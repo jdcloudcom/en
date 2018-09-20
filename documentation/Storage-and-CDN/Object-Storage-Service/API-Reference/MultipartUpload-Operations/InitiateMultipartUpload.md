@@ -16,7 +16,7 @@ Before uploading files, the size of files to be uploaded cannot be determined.
 
 Description: Before data transmission in the Multipart Upload mode, the interface must be called to initialize a new Multipart Upload event. User carries out actions related to Multipart Upload via the UploadId, including uploading the Part belonging to Multipart Upload, combining all Parts, terminating Multipart Upload, and listing out all the uploaded Parts, etc.
 
-**Request Grammar**
+**Request Syntax**
 
 ```
 POST  /ObjectName?uploads HTTP/1.1
