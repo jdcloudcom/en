@@ -26,7 +26,7 @@ Step 2: Fill in corresponding parameters in the pop-up dialog box:
 
 Display name: Display name and fill in your own user name generally.
 
-Service point: Fill in service domain name of S3 compatible to JD Cloud. (For service domain name of compatible S3, please refer to https: //www.jdcloud.com/help/detail/1902/isCatalog/1 )
+Service point: Fill in [service endpoint of S3 compatible](../../API-Reference-S3-Compatible/Regions-And-Endpoints.md) to JD Cloud.
 
 Access key, Secret key: AK and SK access to OSS service
 
