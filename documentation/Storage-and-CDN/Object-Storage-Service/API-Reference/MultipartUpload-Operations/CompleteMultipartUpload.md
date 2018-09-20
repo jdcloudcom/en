@@ -4,7 +4,7 @@ The action is used to complete Multipart Upload, combining all Parts it contains
 
 When user initializes Multipart Upload and upload all relevant Parts, you may complete the whole Multipart Upload through the action. Upon receiving the request, the cloud storage will combine all uploaded Parts into one Object based on the order of each Part Number. You must guarantee that you provide the complete and effective Part list: all Parts are arranged in the ascending order of PartNumber, there shall be no unidentifiable Part, and there shall be no missing Part. Currently, the client and server shall interact in http body in json format. 
 
-**Request Grammar**
+**Request Syntax**
 
 ```
 POST   /ObjectName?uploadId= UploadId HTTP/1.1
