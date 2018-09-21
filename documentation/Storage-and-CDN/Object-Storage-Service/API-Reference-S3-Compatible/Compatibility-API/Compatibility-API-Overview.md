@@ -35,6 +35,6 @@
 |PUT Bucket Replication|Create and modify cross-region replication configuration|Not support:Account，Role，Owner AccessControlTranslation SourceSelectionCriteria<br>Compatible：[PUT Bucket Replication](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/RESTBucketPUTreplication.html)|
 |GET Bucket Replication|Return cross-region replication configuration set on Bucket|Compatible：[GET Bucket replication](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/RESTBucketGETreplication.html)|
 |Delete Bucket Replication|Delete the enabled cross-region replication configuration, the target Bucket and object remain exist after deletion|Compatible：[Delete Bucket replication](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/RESTBucketDELETEreplication.html)|
-|PUT Bucket notification|Assign a Bucket to add NotificationConfiguration|Not support:CloudFunction，Queue<br>Only support: Topic (for details, see callback notification)<br>Refer to:[PUT Bucket notification](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/RESTBucketPUTnotification.html)|
-|GET Bucket notification|Return NotificationConfiguration set on Bucket|Refer to:[GET Bucket notification](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/RESTBucketGETnotification.html)
+|PUT Bucket notification|Assign a Bucket to add NotificationConfiguration|Not support:CloudFunction，Queue<br>Only support: Topic (for details, see callback notification)<br>Compatible:[PUT Bucket notification](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/RESTBucketPUTnotification.html)|
+|GET Bucket notification|Return NotificationConfiguration set on Bucket|Compatible:[GET Bucket notification](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/RESTBucketGETnotification.html)
 
