@@ -665,9 +665,9 @@
 		"sub_title":"Fully-hosted Private Image Registry, One-stop Depoyment Service, 90% Off Now",
 		"image_Url":"//img1.jcloudcs.com/cms/05502018-8106-4b8d-bb05-55a18c50da6320180915180235.png",
 		"dynamic_image":"//img1.jcloudcs.com/cms/c3be633c-40a3-4a3b-b4a3-99dd27a6a27620180915180241.png",
-		"name":"Open Beta Test of Container Registry",
+		"name":"Container Registry",
 		"id":"623",
 		"button_title":"More",
-		"main_title":"Container Registry in Beta"
+		"main_title":"Container Registry"
 	}
 ]
