@@ -37,9 +37,11 @@ Configuration steps for obtaining data from OSS by AJAX are introduced by the fo
 1. Confirm if the file is addressable
 
 Access cors.html via curl, display the file content "Request Successful" and ensure that the object is able to be accessed normally.
+
 ```
 curl http://test-cors.oss.cn-east-1.jcloudcs.com/cors.html
 ```
+
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-084.jpg)
 
 2. Use AJAX access file
@@ -47,6 +49,7 @@ curl http://test-cors.oss.cn-east-1.jcloudcs.com/cors.html
 Directly access the cors.html file with the AJAX technique
 
 Write a simple HTML file at first, copy the following codes into the local, save the same as the HTML file, host the webpage in the virtual machines with the IP address of 47.104.98.151. Therefore the address of the webpage is http://47.104.98.151/cors-test.html (The test address does not support the access. If you need access the test address, please configure such address by yourself).
+
 ```
 <!DOCTYPE html>
 <html>
@@ -81,6 +84,7 @@ function loadXMLDoc() {
 </body>
 </html>
 ```
+
 3. Page access
 
 Enter "http://47.104.98.151/cors-test.html" in the Chrome browser to log into the test page, click **Data Request** button and the following error is shown. Error notification: You have no access permission and the reason is the Header, Access-Control-Allow-Origin, is not found.

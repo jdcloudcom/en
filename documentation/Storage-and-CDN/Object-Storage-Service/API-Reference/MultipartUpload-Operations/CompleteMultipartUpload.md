@@ -4,11 +4,11 @@ The action is used to complete Multipart Upload, combining all Parts it contains
 
 When user initializes Multipart Upload and upload all relevant Parts, you may complete the whole Multipart Upload through the action. Upon receiving the request, the cloud storage will combine all uploaded Parts into one Object based on the order of each Part Number. You must guarantee that you provide the complete and effective Part list: all Parts are arranged in the ascending order of PartNumber, there shall be no unidentifiable Part, and there shall be no missing Part. Currently, the client and server shall interact in http body in json format. 
 
-**Request Grammar**
+**Request Syntax**
 
 ```
 POST   /ObjectName?uploadId= UploadId HTTP/1.1
-Host: BucketName. s.jcloud.com
+Host: <bucket>.oss.cn-north-1.jcloudcs.com
 Content-Length: Size
 Date: GMT   Date     
 Authorization:   signatureValue#Please refer to "Identity and Access Management"
@@ -60,7 +60,7 @@ Detail Analysis:
 
 ```
 POST   /multipart.data?uploadId=9FFFFF35C1535F7B HTTP/1.1
-Host: oss-example.s-bj.jcloud.com
+Host: oss-test.oss.cn-north-1.jcloudcs.com
 Content-Length: 187
 Date: Wed, 12 Jul 2017   12:47:57 GMT  
 Authorization: jingdong qbS5QXpLORrvdrmb:/Qq9QFSIEzaPPL5YgAkbHoXkTKc=

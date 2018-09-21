@@ -2,11 +2,11 @@
 
 Get Bucket Referer Action is used to view Referer relevant configuration of Bucket anti-leech chain. 
 
-**Request Grammar**
+**Request Syntax**
 
 ```
 GET   /?bucketReferer HTTP/1.1
-Host: BucketName.s-bj.jcloud.com
+Host: <bucket>.oss.cn-north-1.jcloudcs.com
 Date: GMT Date
 Authorization: signatureValue
 ```
@@ -32,7 +32,7 @@ Detail Analysis:
 GET   /?bucketReferer HTTP/1.1
 Date: Tue, 11 Jul 2017   09:12:11 GMT
 Authorization: jingdong   qbS5QXpLORrvdrmb:x7J06zQT3CJ5qF3CXKTKWjVBLvc=
-Host: oss-test.s-bj.jcloud.com
+Host: oss-test.oss.cn-north-1.jcloudcs.com
 Connection: Keep-Alive
 ```
 

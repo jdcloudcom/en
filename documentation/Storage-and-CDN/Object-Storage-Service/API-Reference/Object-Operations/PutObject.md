@@ -2,14 +2,14 @@
 
 The action is used to upload a new Object to the specified Bucket
 
-**Request Grammar**
+**Request Syntax**
 
 ```
 PUT /ObjectName HTTP/1.1
 Content-Length:ContentLength
 Content-Type: ContentType
 Content-MD5: Content-MD5
-Host: BucketName. s.jcloud.com
+Host: <bucket>.oss.cn-north-1.jcloudcs.com
 x-jss-server-side-encryption:   true or false      
 x-jss-storage-class: STANDARD   or REDUCED_REDUNDANCY
 Date: GMT  Date     
@@ -47,7 +47,7 @@ Detail Analysis:
 
 ```
 PUT /example.jpg HTTP/1.1
-Host: oss-example.s-bj.jcloud.com
+Host: oss-test.oss.cn-north-1.jcloudcs.com
 Content-Length: 13
 Content-Type: text/plain
 Content-MD5: 6457646542258052f767868fd686d74d 
@@ -56,7 +56,7 @@ Date: Tue, 11 Jul 2017   07:13:32 GMT
 Authorization: jingdong   qbS5QXpLORrvdrmb:cQ63NndHAoEBmjZHehSuNWG/Jns=
 ```
 
-**Return Example**
+**Response Example**
 
 ```
 HTTP/1.1 200 OK
@@ -73,13 +73,13 @@ X-Trace:   200-1499757212162-0-0-20-50-50
 
 ```
 PUT /example.jpg HTTP/1.1
-Host:   oss-example.s-bj.jcloud.com
-x-jss-server-side-encryption:   true  
+Host: oss-test.oss.cn-north-1.jcloudcs.com
+x-jss-server-side-encryption: true  
 Date: Thu, 13 Jul 2017   02:12:02 GMT    
-Authorization: jingdong     qbS5QXpLORrvdrmb:S2ZHyLfdZml/bRjD/TEQ+ftJXBA=
+Authorization: jingdong qbS5QXpLORrvdrmb:S2ZHyLfdZml/bRjD/TEQ+ftJXBA=
 ```
 
-**Return Example (Content-Type and Content-MD5 are not set):**
+**Response Example (Content-Type and Content-MD5 are not set):**
 
 ```
 HTTP/1.1 200 OK

@@ -2,11 +2,11 @@
 
 The action is used to list Parts uploaded in Multipart Upload.
 
-**Request Grammar**
+**Request Syntax**
 
 ```
 GET   /ObjectName?uploadId=UploadId HTTP/1.1
-Host: BucketName. s.jcloud.com
+Host: <bucket>.oss.cn-north-1.jcloudcs.com
 Date: GMT   Date     
 Authorization:   signatureValue#Please refer to "Identity and Access Management"
 ```
@@ -44,7 +44,7 @@ Detail Analysis:
 
 ```
 GET   /multipart.data?uploadId=9E417328F6B89F0B HTTP/1.1
-Host: oss-example.s-bj.jcloud.com
+Host: oss-test.oss.cn-north-1.jcloudcs.com
 Date: Tue, 11 Jul 2017   12:40:40 GMT    
 Authorization: jingdong   qbS5QXpLORrvdrmb:Ihjb1BaIk2pNGk11OCqBogLLL4c= 
 ```

@@ -2,14 +2,16 @@
 
 For service address sending a Get request, you can return all Buckets owned by the requestor, where the "/" represents the root directory.
 
-***Request Grammar***
+**Request Syntax**
+
 ```
 GET / HTTP/1.1
 Date: GMT Date
 Authorization: SignatureValue
-Host:s-bj.jcloud.com
+Host:<bucket>.oss.cn-north-1.jcloudcs.com
 ``` 
-***Response Element***
+
+**Response Element**
 
 |Name|Description|
 |-|-|
@@ -26,15 +28,18 @@ Detail Analysis:
 
 2. If there is no user check information (i.e. anonymous access) in the request, return 403 Forbidden. Error code: AccessDenied.
 
-Request example
+**Request example**
+
 ```
 GET / HTTP/1.1
 Date: Wed, 12 Jul 2017 10:38:35 GMT
 Authorization: jingdong   298718BEDE59FF1B2E96A3152937D37B:mIdihnpi2ZtWTHaji555S0BBEBA=
-Host: s-bj.jcloud.com
+Host: oss-test.oss.cn-north-1.jcloudcs.com
 Connection: Keep-Alive
 ```
-Return example
+
+**Response example**
+
 ```
 HTTP/1.1 200 OK
 Server: nginx

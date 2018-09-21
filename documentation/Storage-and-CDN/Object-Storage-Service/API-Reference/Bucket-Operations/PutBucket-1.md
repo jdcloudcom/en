@@ -2,13 +2,13 @@
 
 PutBucket is used to create Bucket (it does not support anonymous access). Region where the created Bucket is located is identical to the Region corresponded to Endpoint sending the request. After confirming data center where Bucket is located, all Objects under the Bucket will be always stored in corresponding regions.
 
-Request Grammar
+**Request Syntax**
 
 ```
 PUT / HTTP/1.1
 Date: GMT Date
 Authorization: signatureValue
-Host: BucketName.s-bj.jcloud.com 
+Host: <bucket>.oss.cn-north-1.jcloudcs.com
 ```
 
 Detail Analysis:
@@ -21,16 +21,16 @@ Detail Analysis:
 
 4.If it finds that it has exceeded the maximum number of buckets created during PutBucket, each Region has 10 by default, return 400 Bad Request Message. Error code: TooManyBuckets.
 
-Request example
+**Request example**
 
 ```
 PUT / HTTP/1.1
 Date: GMT Date
 Authorization: signatureValue
-Host: BucketName.s-bj.jcloud.com 
+Host: oss-test.oss.cn-north-1.jcloudcs.com
 ```
 
-Response example 
+**Response example** 
 
 ```
 HTTP/1.1 201   Created

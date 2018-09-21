@@ -2,13 +2,13 @@
 
 The action is used to delete an Object.
 
-**Request Grammar**
+**Request Syntax**
 
 ```
 DELETE  /ObjectName HTTP/1.1
-Host: BucketName. s.jcloud.com
-Date: GMT  Date     
-Authorization:   signatureValue#Please refer to "Identity and Access Management"
+Host: <bucket>.oss.cn-north-1.jcloudcs.com
+Date: GMT Date     
+Authorization: signatureValue#Please refer to "Identity and Access Management"
 ```
 
 Detail Analysis:
@@ -21,18 +21,18 @@ Detail Analysis:
 
 ```
 DELETE /example.jpg HTTP/1.1
-Host: oss-example.s-bj.jcloud.com
+Host: oss-test.oss.cn-north-1.jcloudcs.com
 Date: Tue, 11 Jul 2017 07:37:23   GMT    
 Authorization: jingdong   qbS5QXpLORrvdrmb:Qt+ThnjyLwBb9xMZ8PZG3wsj3qU=
 ```
 
-**Return Example**
+**Response Example**
 
 ```
-HTTP/1.1 204 No   Content
+HTTP/1.1 204 No Content
 Server: nginx
 Date: Tue, 11 Jul 2017   07:37:23 GMT
 Connection: keep-alive
-x-jss-request-id:   80EC9E2F4D29D732
-X-Trace:   204-1499758643347-0-0-19-50-5
+x-jss-request-id: 80EC9E2F4D29D732
+X-Trace: 204-1499758643347-0-0-19-50-5
 ```

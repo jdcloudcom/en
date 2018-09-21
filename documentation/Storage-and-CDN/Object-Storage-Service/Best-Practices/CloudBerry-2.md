@@ -6,7 +6,7 @@ CloudBerry Explorer is a file browser developed by the industry, used for direct
 
 Main functions of CloudBerry include: supporting AK/SK login, managing bucket, managing object, upload, download, external link, synchronization, etc.
 
-For more details of actions, please download [User Manual for JD Cloud Object Storage Service Cloudberry](https://oss.cn-north-1.jcloudcs.com/downloads/%E4%BA%AC%E4%B8%9C%E4%BA%91%E5%AF%B9%E8%B1%A1%E5%AD%98%E5%82%A8CloudBerry%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C.pdf)
+For more details of actions, please download [User Manual for JD Cloud Object Storage Service Cloudberry](http://downloads.oss.cn-north-1.jcloudcs.com/%25E4%25BA%25AC%25E4%25B8%259C%25E4%25BA%2591%25E5%25AF%25B9%25E8%25B1%25A1%25E5%25AD%2598%25E5%2582%25A8CloudBerry%25E4%25BD%25BF%25E7%2594%25A8%25E6%2589%258B%25E5%2586%258C.pdf)
 
 ## Use CloudBerry to access OSS
 
@@ -26,7 +26,7 @@ Step 2: Fill in corresponding parameters in the pop-up dialog box:
 
 Display name: Display name and fill in your own user name generally.
 
-Service point: Fill in service domain name of S3 compatible to JD Cloud. (For service domain name of compatible S3, please refer to https: //www.jdcloud.com/help/detail/1902/isCatalog/1 )
+Service point: Fill in [service endpoint of S3 compatible](../../API-Reference-S3-Compatible/Regions-And-Endpoints.md) to JD Cloud.
 
 Access key, Secret key: AK and SK access to OSS service
 

@@ -43,9 +43,9 @@ items:
         href: Operation-Guide/Sign-Up-Service-2.md
       - name: Overview Page
         href: Operation-Guide/Overview-Pag-2.md
-      - name: Space Management
+      - name: Bucket Management
         items:
-           - name: Space Overview
+           - name: Bucket Overview
              href: Operation-Guide/Manage-Bucket/Bucket-Overview-2.md
            - name: Create Bucket
              href: Operation-Guide/Manage-Bucket/Create-Bucket-2.md
@@ -63,7 +63,7 @@ items:
              href: Operation-Guide/Manage-Bucket/Set-Custom-Domain-Name-2.md
            - name: Callback Notification
              href: Operation-Guide/Manage-Bucket/Callback-Notification-2.md
-      - name: Document Management
+      - name: Object Management
         items:
           - name: Create Folder
             href: Operation-Guide/Manage-Object/Create-Folder.md
@@ -71,9 +71,9 @@ items:
             href: Operation-Guide/Manage-Object/Search-Object.md	
           - name: Get Object URL
             href: Operation-Guide/Manage-Object/Get-Object-URL.md
-          - name: Delete Files
+          - name: Delete Object
             href: Operation-Guide/Manage-Object/Delete-Object.md
-          - name: Post-Object
+          - name: Post Object
             href: Operation-Guide/Manage-Object/Post-Object-1.md                              
           - name: Consumption Monitoring
             href: Operation-Guide/Manage-Object/Usage-Monitoring.md
@@ -83,7 +83,7 @@ items:
             href: Operation-Guide/Image-Service-Guide/Introduction-1.md
           - name: Access Rules of Image Processing
             href: Operation-Guide/Image-Service-Guide/Image-Access-Rules.md
-          - name: Quick Use Picture Service
+          - name: Quick Use Image Service
             href: Operation-Guide/Image-Service-Guide/Getting-Started-1.md
           - name: Image Zooming
             href: peration-Guide/Image-Service-Guide/Resize-Images.md
@@ -191,10 +191,10 @@ items:
         items:
            - name: GetService
              href: API-Reference/Service-Operations/GetService.md
-      - name: About Bucket Actions
+      - name: Bucket Operations
         items:
            - name: PutBucket
-             href: API-Reference/Bucket-Operations/PutBucket.md
+             href: API-Reference/Bucket-Operations/PutBucket-1.md
            - name: GetBucket
              href: API-Reference/Bucket-Operations/GetBucket.md             
            - name: PutBucketReferer
@@ -202,8 +202,8 @@ items:
            - name: GetBucketReferer
              href: API-Reference/Bucket-Operations/GetBucketReferer.md 
            - name: DeleteBucket
-             href: API-Reference/Bucket-Operations/DeleteBucket.md             
-      - name: About Object Actions
+             href: API-Reference/Bucket-Operations/DeleteBucket-1.md             
+      - name: Object Operations
         items:
            - name: PutObject
              href: API-Reference/Object-Operations/PutObject.md
@@ -211,7 +211,7 @@ items:
              href: API-Reference/Object-Operations/GetObject.md
            - name: DeleteObject
              href: API-Reference/Object-Operations/DeleteObject.md
-      - name: About MultipartUpload Actions
+      - name: MultipartUpload Operations
         items:
           - name: InitiateMultipartUpload
             href: API-Reference/MultipartUpload-Operations/InitiateMultipartUpload.md
@@ -231,7 +231,7 @@ items:
             href: API-Reference/Response-To-Errors/Error-List.md
           - name: Error Response Structure
             href: API-Reference/Response-To-Errors/Response-Structure.md
- - name: Previous Version SDK
+ - name: SDK Reference(Previous Version)
    items:
       - name: Java SDK
         items:
@@ -255,13 +255,13 @@ items:
              href: SDK-Reference/Java-SDK/Simple-Download-3.md
            - name: Range Download
              href: SDK-Reference/Java-SDK/Range-Download-3.md
-           - name: Management File
+           - name: Management Object
              href: SDK-Reference/Java-SDK/Manage-Objects-3.md
-           - name: Delete Files
+           - name: Delete Object
              href: SDK-Reference/Java-SDK/Delete-Object-3.md
-           - name: Move File
+           - name: Move Object
              href: SDK-Reference/Java-SDK/Move-Object-3.md
-           - name: Grant Access Privilege
+           - name: Generate presigned URL
              href: SDK-Reference/Java-SDK/User-Signature-Authentication-3.md                          
  - name: Best Practices
    items:

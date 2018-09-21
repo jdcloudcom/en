@@ -8,7 +8,7 @@ PUT   /ObjectName?uploadId=UploadId&partNumber=PartNumber HTTP/1.1
 Date: GMT Date
 Authorization: jingdong   qbS5QXpLORrvdrmb:AdBNNN+uUP+qRcPJn5m4ezrbRwI=
 Content-Length: size
-Host: BucketName.s-bj.jcloud.com
+Host: <bucket>.oss.cn-north-1.jcloudcs.com
 ```
 Detail Analysis:
 
@@ -28,7 +28,7 @@ PUT  /multiSS?uploadId=9B2BF313C3E998E9&partNumber=1 HTTP/1.1
 Date: Wed, 12 Jul 2017   09:22:16 GMT
 Authorization: jingdong   qbS5QXpLORrvdrmb:AdBNNN+uUP+qRcPJn5m4ezrbRwI=
 Content-Length: 3
-Host: oss-test.s-bj.jcloud.com
+Host: oss-test.oss.cn-north-1.jcloudcs.com
 Connection: Keep-Alive
 ```
 **Response Example** 

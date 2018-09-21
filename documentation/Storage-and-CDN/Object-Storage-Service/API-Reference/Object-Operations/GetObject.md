@@ -2,13 +2,13 @@
 
 The action is used to obtain the specified Object content
 
-**Request Grammar**
+**Request Syntax**
 
 ```
 GET /ObjectName   HTTP/1.1
-Host: BucketName. s.jcloud.com
-Date: GMT   Date     
-Authorization:   signatureValue#Please refer to "Identity and Access Management"
+Host: <bucket>.oss.cn-north-1.jcloudcs.com
+Date: GMT Date     
+Authorization: signatureValue#Please refer to "Identity and Access Management"
 Range: bytes=ByteRange(optional)
 ```
 
@@ -29,7 +29,7 @@ Detail Analysis:
 
 ```
 GET /example.jpg HTTP/1.1
-Host: oss-example.s-bj.jcloud.com
+Host: oss-test.oss.cn-north-1.jcloudcs.com
 Date: Tue, 11 Jul 2017   07:28:01 GMT    
 Authorization: jingdong qbS5QXpLORrvdrmb:Ctm+uA40JmY3T3LvCZ6CkKkANXs=
 ```
@@ -57,13 +57,13 @@ X-Trace: 200-1499758081049-0-0-19-45-45
 
 ```
 GET example.jpg HTTP/1.1
-Host: oss-example.s-bj.jcloud.com
+Host: oss-test.oss.cn-north-1.jcloudcs.com
 Range: bytes=0-9   
 Date: Tue, 11 Jul 2017 07:34:11   GMT    
 Authorization: jingdong qbS5QXpLORrvdrmb:/Aaawoo0xVq4XVMei/yK1UqhoFc=
 ```
 
-**Range Return Example**
+**Range Response Example**
 
 ```
 HTTP/1.1 206   Partial Content
@@ -80,5 +80,5 @@ Accept-Ranges: bytes
 ETag:   "6457646542258052f767868fd686d74d"
 Last-Modified: Tue, 11 Jul   2017 07:27:15 GMT
 x-jss-storage-class: STANDARD
-X-Trace:   206-1499758451594-0-0-20-44-44
+X-Trace: 206-1499758451594-0-0-20-44-44
 ```

@@ -16,11 +16,11 @@ Before uploading files, the size of files to be uploaded cannot be determined.
 
 Description: Before data transmission in the Multipart Upload mode, the interface must be called to initialize a new Multipart Upload event. User carries out actions related to Multipart Upload via the UploadId, including uploading the Part belonging to Multipart Upload, combining all Parts, terminating Multipart Upload, and listing out all the uploaded Parts, etc.
 
-**Request Grammar**
+**Request Syntax**
 
 ```
 POST  /ObjectName?uploads HTTP/1.1
-Host: BucketName.s.jcloud.com
+Host: <bucket>.oss.cn-north-1.jcloudcs.com
 x-jss-storage-class: STANDARD or REDUCED_REDUNDANCY       
 Date: GMT  Date     
 Authorization:   signatureValue#Please refer to "Identity and Access Management"     
@@ -60,7 +60,7 @@ Detail Analysis:
 
 ```
 POST /multipart.data?uploads   HTTP/1.1
-Host: oss-example.s-bj.jcloud.com
+Host: oss-test.oss.cn-north-1.jcloudcs.com
 x-jss-storage-class:   STANDARD      
 Date: Wed, 12 Jul 2017 07:45:27   GMT  
 Authorization: jingdong qbS5QXpLORrvdrmb:wYoTTKpqU1mZu4Dy3IlTRbCUx0w=   
