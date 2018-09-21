@@ -18,7 +18,7 @@
 |Abort MultiPart Upload|Abort a MultiPart upload task|Compatible [Abort MultiPart Upload](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/mpUploadAbort.html)|
 |List Parts|Obtain information of the part already uploaded by the assigned uploadid|Compatible [List Parts](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/mpUploadListParts.html)|
 |List MultiPart Uploads|Obtain the MultiPart task uploaded under a Bucket|Compatible [List MultiPart Uploads](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/mpUploadListMPUpload.html)|
-|POST Object|Upload an Object to OSS by 表单上传文件到OSS|Refer to: [POST Object](./Post-Object-2.md)|
+|POST Object|Upload an Object by POST Object|Refer to: [POST Object](./Post-Object-2.md)|
 |GET Bucket policy|Obtain policy on the assigned Bucket|Compatible [GET Bucket policy](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/RESTBucketGETpolicy.html)|
 |PUT Bucket policy|Add or edit policy on the assigned Buckety|Compatible [PUT Bucket policy](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/RESTBucketPUTpolicy.html)|
 |DELETE Bucket policy|Delete policy on the assigned Bucket|Compatible [DELETE Bucket policy](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/RESTBucketDELETEpolicy.html)|
