@@ -103,7 +103,7 @@ Special tips for Header:
 
 9.If Content-MD5 is specified in user form field (MD5 in request header will not be verified), OSS will compute the Content-MD5 of the body and check the consistency; if there is inconsistency, it will return BadDigest error code.
 
-10. If the form includes success_action_redirect, the jumped target address is url + ?bucket=<yourBucket>&key=<yourKey>&ETag=etag. This query part will conduct urlencode.
+10.If the form includes success_action_redirect, the jumped target address is url + ?bucket=<yourBucket>&key=<yourKey>&ETag=etag. This query part will conduct urlencode.
  
 11.The form and policy must use UTF-8 to encode. The policy is a piece of JSON encoded by using UTF-8 and Base-64.
  
@@ -182,14 +182,12 @@ Conditions are a list, which can be used to specify the legal value of form fiel
 |-|-|
 |bucket|Bucket Names Uploaded by the Object<br>Support the matching types of exact matching|
 |content-length-range|The maximum length and minimum length limits of the uploaded content<br>Support the matching types of content-length-range|
-|Cache-Control<br>Content-Type<br>Content-Disposition<br>Content-Encoding<br>Expires|Standard http header, refer to the PutObject
-Support the matching types of exact matching and starts-with|
+|Cache-Control<br>Content-Type<br>Content-Disposition<br>Content-Encoding<br>Expires|Standard http header, refer to the PutObject.<br>Support the matching types of exact matching and starts-with|
 |key|Name of the Uploaded Object<br>Support the matching types of exact matching and starts-with|
 |success_action_redirect|Url jump address when upload succeeds<br>Support the matching types of exact matching and starts-with|
 |success_action_status|The status code returned when the file upload succeeds but the success_action_redirect is not specified<br>Support the matching types of exact matching|
 |x-amz-algorithm|Signature algorithm, the value is AWS4-HMAC-SHA256 code<br>Support the matching types of exact matching|
-|x-amz-credential|If S3 API is used, then the format is <your-access-key-id>/<date>/<region>/s3/aws4_request
-Example: AKIAIOSFODNN7EXAMPLEYYYYYYYYYYYY/20180601/cn-north-1/s3/aws4_request<br>Support the matching types of exact matching|
+|x-amz-credential|If S3 API is used, then the format is <your-access-key-id>/<date>/<region>/s3/aws4_requestExample: AKIAIOSFODNN7EXAMPLEYYYYYYYYYYYY/20180601/cn-north-1/s3/aws4_request<br>Support the matching types of exact matching|
 |x-amz-date|ISO8601 time format, such as: 20180601T000000Z<br>Note that the time of computing signature at this moment is 20180601,<br>Support the matching types of exact matching|
 |x-amz-storage-class|The storage type of Object, the default value is “STANDARD” (standard storage).Support two storage types,"STANDARD" (standard storage) and "REDUCED_REDUNDANCY" (reduced redundancy storage)<br>Support the matching types of exact matching|
  
