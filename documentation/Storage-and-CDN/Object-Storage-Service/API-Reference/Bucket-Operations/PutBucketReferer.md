@@ -6,8 +6,8 @@ PutBucketReferer Action can set an anti-theft chain of a Bucket, referer accesse
 
 ```
 PUT /  ?bucketReferer
-& Effect=
-& RefererList =
+&Effect=
+&RefererList =
 &IsAllowNull=
 Date: GMT Date
 Authorization: SignatureValue
