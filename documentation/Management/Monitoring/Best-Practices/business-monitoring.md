@@ -5,12 +5,12 @@ If users need to monitor their own business, they are allowed to monitor the run
 **View Monitoring Table**
 
 1. Enter JD Cloud Console - Monitoring - Resource Monitoring menu, the monitoring list of each resource will be seen.
-![](https://raw.githubusercontent.com/jdcloudcom/cn/edit/image/Cloud-Monitor/yunziyuan/1.%E8%B5%84%E6%BA%90%E7%9B%91%E6%8E%A7.png)
+<img src="https://raw.githubusercontent.com/jdcloudcom/en/Monitoring/image/Cloud-Monitor/Best-Practices/Best-Practices-04.png" width="100" hegiht="30" align=center />
 2. Click on the “View” in the operation column of each instance, the monitoring data of each Metric of the instance will be seen.
-![](https://raw.githubusercontent.com/jdcloudcom/cn/edit/image/Cloud-Monitor/yunziyuan/2.%E8%B5%84%E6%BA%90%E7%9B%91%E6%8E%A7.png)
+<img src="https://raw.githubusercontent.com/jdcloudcom/en/Monitoring/image/Cloud-Monitor/Best-Practices/Best-Practices-05.png" width="100" hegiht="30" align=center />
 **Set Alarm Rules**
 
 1. Enter JD Cloud Console -Monitoring menu, the monitoring list of each resource will be seen, click on the “Alarm Rules” in the operation column of each instance. Click on “Add Alarm Rules” to create alarm rules.
-![](https://raw.githubusercontent.com/jdcloudcom/cn/edit/image/Cloud-Monitor/yunziyuan/4.%E8%B5%84%E6%BA%90%E7%9B%91%E6%8E%A7.png)
+<img src="https://raw.githubusercontent.com/jdcloudcom/en/Monitoring/image/Cloud-Monitor/Best-Practices/Best-Practices-06.png" width="100" hegiht="30" align=center />
 2. Enter the monitoring item, statistical period, statistical method, calculation method, threshold, duration, add alarm rules and contacts, and click on “OK”.
-![](https://raw.githubusercontent.com/jdcloudcom/cn/edit/image/Cloud-Monitor/yunziyuan/5.%E8%B5%84%E6%BA%90%E7%9B%91%E6%8E%A7.png)
+<img src="https://raw.githubusercontent.com/jdcloudcom/en/Monitoring/image/Cloud-Monitor/Best-Practices/Best-Practices-07.png" width="100" hegiht="30" align=center />
