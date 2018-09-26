@@ -6,6 +6,7 @@ Due to the needs of business, the users need to place batches of similar resourc
 2. Click on **Create Dashboard** in the top left corner.
 3. Fill in the name of the Dashboard and click on **OK** to finish creating the Dashboard.
 ![](https://raw.githubusercontent.com/jdcloudcom/en/Monitoring/image/Cloud-Monitor/Best-Practices/Best-Practices-01.png)
+<img src="https://raw.githubusercontent.com/jdcloudcom/en/Monitoring/image/Cloud-Monitor/Best-Practices/Best-Practices-01.png" width="600" align=center />  
 4. Enter the Dashboard details page and click on **Add Graph** in the top right corner.
 5. Select the graph type.
 6. Select the monitoring resource type.
