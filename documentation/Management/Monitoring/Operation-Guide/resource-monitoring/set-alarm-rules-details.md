@@ -28,7 +28,7 @@
 ### Manage Alarm Contacts/Groups
 After logging in to the JD Cloud Account, click the Account Information drop-down box on the upper right side of the page and click Account Management - Contact Management. You can view and manage contacts and contact groups on this page.
 
-<img src="http://7xqoji.com1.z0.glb.clouddn.com/mytest.jpg" width="600" align=center />
+<img src="" width="600" align=center />
 
 ### Add/Use Alarm Template
 1. On the Set Alarm Rule page, set the monitoring metric, statistics period, statistics method, calculation mode, threshold, and duration as required. After saving, select Save As New Alarm Rule Template to save the rule as a template.
