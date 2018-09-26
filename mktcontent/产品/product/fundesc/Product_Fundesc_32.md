@@ -10,7 +10,7 @@
 			{
 				"funcName":"",
 				"funcTitle":"Flexible Billing",
-				"funcP":"'"funcP":"JD Cloud native container granularity is as low as the second grade calculated as flow accounting, and it is no charge when the resource is stopped. The minimum billing period is 5 minutes. At the same time, it supports the monthly package, which effectively reduces the resource input cost."
+				"funcP":"JD Cloud native container granularity is as low as the second grade calculated as flow accounting, and it is no charge when the resource is stopped. The minimum billing period is 5 minutes. At the same time, it supports the monthly package, which effectively reduces the resource input cost."
 			}
 		]
 	},
