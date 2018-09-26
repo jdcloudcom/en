@@ -1,4 +1,4 @@
-## Daily Workload Monitoring		
+## Daily Business Monitoring	
  ### Applicable Scenarios:		
  If users need to monitor their own business, they are allowed to monitor the running status and usage of resources through the monitoring pages of the purchased Cloud Service details pages and the monitoring pages of the Monitoring module. At the same time, users are allowed to set alarm rules according to the characteristics of cloud resources. When the monitoring metrics of the resource reaches the alarm threshold set by the users, an alarm is triggered, and a short message and an email alarm are sent to alarm the user according to the contact information selected by the user.
  
