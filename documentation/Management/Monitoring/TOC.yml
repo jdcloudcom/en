@@ -38,7 +38,6 @@ items:
 - name: Operation Guide
   items:
     - name: Dashboard
-      href: Getting-Started/Dashboard.md
       items:
         - name: Instructions for Use
           href: Operation-Guide/dashboard/terms-and-conditions.md
@@ -49,7 +48,6 @@ items:
         - name: Manage Monitoring Chart
           href: Operation-Guide/dashboard/monitoring-chart-management.md
     - name: Cloud Resource Monitoring
-      href: Getting-Started/resource-monitoring.md
       items:
         - name: Resource Monitoring
           href: Operation-Guide/resource-monitoring/resource-monitoring-overview.md
@@ -58,7 +56,6 @@ items:
         - name: Set Monitoring Alarm to the Resources
           href: Operation-Guide/resource-monitoring/set-alarm-rules-details.md     
     - name: Customized Metric Monitoring
-      href: Getting-Started/custom-monitoring.md  
       items:
         - name: Customized Metric Monitoring Overview
           href: Operation-Guide/custom-monitoring/custom-monitoring-overview.md
@@ -76,27 +73,27 @@ items:
       href: Best-Practices/bulk-resource-monitoring.md
     - name: Daily Workload Monitoring
       href: Best-Practices/business-monitoring.md
-    - name: Tutorial
-      items:
-      status: 0
-    - name: Troubleshooting
-      items:
-      status: 0       
-    - name: FAQ
-      href: FAQ/FAQ.md
-    - name: API Reference
-      href:
-    - name: SDK Reference
-      href:
-    - name: Related Resources
-      items:
-      - name: Document History
-        href: Related-Resources/Document-History.md     
-      - name: Service Terms         
-        status: 0      
-      - name: SLA         
-        status: 0       
-      - name: IPC Filing         
-        status: 0        
-      - name: Glossary          
-        status: 0
+- name: Tutorial
+  items:
+  status: 0
+- name: Troubleshooting
+  items:
+  status: 0       
+- name: FAQ
+  href: FAQ/FAQ.md
+- name: API Reference
+  href:
+- name: SDK Reference
+  href:
+- name: Related Resources
+  items:
+  - name: Document History
+    href: Related-Resources/Document-History.md     
+  - name: Service Terms         
+    status: 0      
+  - name: SLA         
+    status: 0       
+  - name: IPC Filing         
+    status: 0        
+  - name: Glossary          
+    status: 0
