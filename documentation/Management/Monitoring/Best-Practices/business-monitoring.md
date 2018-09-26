@@ -5,12 +5,12 @@ If users need to monitor their own business, they are allowed to monitor the run
 **View Monitoring Table**
 
 1. Enter JD Cloud Console - Monitoring - Resource Monitoring menu, the monitoring list of each resource will be seen.
-<img src="https://raw.githubusercontent.com/jdcloudcom/en/Monitoring/image/Cloud-Monitor/Best-Practices/Best-Practices-04.png" width="100" hegiht="30" align=center />
+<img src="https://raw.githubusercontent.com/jdcloudcom/en/Monitoring/image/Cloud-Monitor/Best-Practices/Best-Practices-04.png" width="600" align=center />
 2. Click on the “View” in the operation column of each instance, the monitoring data of each Metric of the instance will be seen.
-<img src="https://raw.githubusercontent.com/jdcloudcom/en/Monitoring/image/Cloud-Monitor/Best-Practices/Best-Practices-05.png" width="100" hegiht="30" align=center />
+<img src="https://raw.githubusercontent.com/jdcloudcom/en/Monitoring/image/Cloud-Monitor/Best-Practices/Best-Practices-05.png" width="600" align=center />
 **Set Alarm Rules**
 
 1. Enter JD Cloud Console -Monitoring menu, the monitoring list of each resource will be seen, click on the “Alarm Rules” in the operation column of each instance. Click on “Add Alarm Rules” to create alarm rules.
-<img src="https://raw.githubusercontent.com/jdcloudcom/en/Monitoring/image/Cloud-Monitor/Best-Practices/Best-Practices-06.png" width="100" hegiht="30" align=center />
+<img src="https://raw.githubusercontent.com/jdcloudcom/en/Monitoring/image/Cloud-Monitor/Best-Practices/Best-Practices-06.png" width="600" align=center />
 2. Enter the monitoring item, statistical period, statistical method, calculation method, threshold, duration, add alarm rules and contacts, and click on “OK”.
-<img src="https://raw.githubusercontent.com/jdcloudcom/en/Monitoring/image/Cloud-Monitor/Best-Practices/Best-Practices-07.png" width="100" hegiht="30" align=center />
+<img src="https://raw.githubusercontent.com/jdcloudcom/en/Monitoring/image/Cloud-Monitor/Best-Practices/Best-Practices-07.png" width="600" align=center />
