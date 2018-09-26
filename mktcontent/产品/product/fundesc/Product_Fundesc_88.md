@@ -10,7 +10,7 @@
 			{
 				"funcName":"",
 				"funcTitle":"Monitoring",
-				"funcP":"With the Kubernetes management cluster, it is possbile to carry out the monotoring from physical machine, block chain bottom and other multiple dimensions, presetting the threshold value, and automatically giving alarms"
+				"funcP":"With the Kubernetes management cluster, it is possible to carry out the monitoring from physical machine, block chain bottom and other multiple dimensions, presetting the threshold value, and automatically giving alarms"
 			}
 		]
 	},
@@ -20,7 +20,7 @@
 			{
 				"funcName":"",
 				"funcTitle":"Enterprise Networking",
-				"funcP":"Enterprise-level block chain network deployment relys on identity chain to provide trusted identity, and it is easy to implement multiple organizations to build block chain network across domains, which is easy to use, secure and trustworthy"
+				"funcP":"Enterprise-level block chain network deployment relies on identity chain to provide trusted identity, and it is easy to implement multiple organizations to build block chain network across domains, which is easy to use, secure and trustworthy"
 			},
 			{
 				"funcName":"",

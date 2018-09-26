@@ -5,7 +5,7 @@
 			{
 				"funcName":"",
 				"funcTitle":"Content Distribution",
-				"funcP":"Complete Internet content distribution management and network acceleration solutions for static web pages, files, video on demand and live video, etc"
+				"funcP":"Complete Internet content distribution management and network acceleration solutions for static web pages, files, video on demand, live video, etc."
 			}
 		]
 	},
@@ -35,7 +35,7 @@
 			{
 				"funcName":"",
 				"funcTitle":"Quality Monitoring",
-				"funcP":"Visual delivery of CDN service quality monitoring such as availability, hit ratio and back-to-source rate, etc."
+				"funcP":"Visual delivery of CDN service quality monitoring such as availability, hit ratio and back-to-source rate."
 			}
 		]
 	},

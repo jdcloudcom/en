@@ -34,7 +34,7 @@
 		"funcContent":[
 			{
 				"funcName":"",
-				"funcTitle":"Flexible protection, flexible billing",
+				"funcTitle":"Flexible Protection, Flexible Billing",
 				"funcP":"When you start up elastic protection, your business can continue to receive protection from JD Cloud when the attack you received more than the peak of the purchased package. Using elastic protection feature, you no longer have to worry about service disruptions caused by attacks that exceed the peak of the package."
 			}
 		]

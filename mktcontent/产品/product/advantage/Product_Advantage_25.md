@@ -1,14 +1,14 @@
 [
 	{
 		"proGoodTitle":"Benefits",
-		"proNameTitle":"Big data analysis platform",
+		"proNameTitle":"Big Data Analysis Platform",
 		"proDiffTitle":"",
-		"proGood":"High reliability",
+		"proGood":"High Reliability",
 		"proName":"It adopts different technologies, such as multi-node HA, data multi-backup, failure retry and speculative execution, to guarantee the stable operation of computing and service.",
 		"proDiff":""
 	},
 	{
-		"proGood":"High security",
+		"proGood":"High Security",
 		"proName":"The identity authentication is performed by the famous CA certificate manufacturer that enjoys the reputation in the United Nations. Working together with the third-party manufacturer for data encryption, Digivoice offers perfect and multi-layered data security protection schemes to customers to thoroughly eliminate data security hazards. It provides security audit logs to help the users with fast positioning.",
 		"proDiff":""
 	},
@@ -23,7 +23,7 @@
 		"proDiff":""
 	},
 	{
-		"proGood":"High reliability",
+		"proGood":"High Reliability",
 		"proName":"It adopts different technologies, such as multi-node HA, data multi-backup, failure retry and speculative execution, to guarantee the stable operation of computing and service.",
 		"proDiff":""
 	}

@@ -4,7 +4,7 @@
 		"proNameTitle":"Application Security Gateway",
 		"proDiffTitle":"Cloud WAF",
 		"proGood":"Fast and Convenient Deployment",
-		"proName":"It is not required to carry out the switching setup for DNS and only the load balancer is associated, so that the certificate self-management can be realized, the bypass detection mode is supported and the effect of customized policy is validated in real time.",
+		"proName":"It is not required to carry out the switching setup for DNS and only the Load Balancer is associated, so that the certificate self-management can be realized, the bypass detection mode is supported and the effect of customized policy is validated in real time.",
 		"proDiff":"Based on the reverse proxy deployment mode, it needs to modify the resolution records of DNS. \n"
 	},
 	{
@@ -24,7 +24,7 @@
 	},
 	{
 		"proGood":"Fast and Convenient Deployment",
-		"proName":"It is not required to carry out the switching setup for DNS and only the load balancer is associated, so that the certificate self-management can be realized, the bypass detection mode is supported and the effect of customized policy is validated in real time.",
+		"proName":"It is not required to carry out the switching setup for DNS and only the Load Balancer is associated, so that the certificate self-management can be realized, the bypass detection mode is supported and the effect of customized policy is validated in real time.",
 		"proDiff":"Based on the reverse proxy deployment mode, it needs to modify the resolution records of DNS. \n"
 	}
 ]

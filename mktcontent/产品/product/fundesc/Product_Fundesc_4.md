@@ -70,7 +70,7 @@
 			{
 				"funcName":"",
 				"funcTitle":"Public Image",
-				"funcP":"The Public Base Impage provided by JD Cloud include multiple distribution editions of Linux and Windows. The Public Image is comprised of the initial system environment or basic software, which can be configured independently according to the actual application demands."
+				"funcP":"The Public Base Image provided by JD Cloud include multiple distribution editions of Linux and Windows. The Public Image is comprised of the initial system environment or basic software, which can be configured independently according to the actual application demands."
 			},
 			{
 				"funcName":"",
@@ -80,7 +80,7 @@
 			{
 				"funcName":"",
 				"funcTitle":"Marketplace Image",
-				"funcP":"TThe image provided by the service providers (including the JD Cloud team) in JD Cloud-Marketplace integrates the running environments or software for different service scenarios, which facilitate fast deployment of services."
+				"funcP":"The image provided by the service providers (including the JD Cloud team) in JD Cloud-Marketplace integrates the running environments or software for different service scenarios, which facilitate fast deployment of services."
 			}
 		]
 	}

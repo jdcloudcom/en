@@ -13,7 +13,7 @@
 		"proDiff":""
 	},
 	{
-		"proGood":"Flexible Light Weight",
+		"proGood":"Flexible and Light Weight",
 		"proName":"Quality Detection Service provides a lightweight cloud experience. By issuing a detection policy from the cloud, status of the detected node can be updated in real time. Flexible and customizable API facilitates interfacing with third-party domain name resolution products for intelligent scheduling. Intelligent resolution, HTTP DNS resolution are provided to flexibly respond to complex customer scenarios.",
 		"proDiff":""
 	},
@@ -24,7 +24,7 @@
 	},
 	{
 		"proGood":"Elastic Scalability",
-		"proName":"The Load Balancer for privatized deployment adopts the overall hardware delivery method. The cluster deployment can be subject to elastic expansion according to user’s practical demands. It is applicable to demands of scenarios where the workload capacity increases rapidly and services expand quickly. Compared to traditional load balancer manufactures, it is more flexible and more expansive.",
+		"proName":"The Load Balancer for privatized deployment adopts the overall hardware delivery method. The cluster deployment can be subject to elastic expansion according to user’s practical demands. It is applicable to demands of scenarios where the workload capacity increases rapidly and services expand quickly. Compared to traditional Load Balancer manufactures, it is more flexible and more expansive.",
 		"proDiff":""
 	},
 	{

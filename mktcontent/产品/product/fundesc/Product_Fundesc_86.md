@@ -25,7 +25,7 @@
 			{
 				"funcName":"",
 				"funcTitle":"",
-				"funcP":"Providing CNI network plug-in based on JD Cloud SDN network, it can easily adapt to the network demands of different scale production environment; integrating CSI storage plug-in and JD Cloud Disk to provide secure and reliable persistent storage for stateful services; integrating JD Cloud Load Balancer service to provide secure, reliable network access."
+				"funcP":"Providing CNI network plug-in based on JD Cloud SDN network, it can easily adapt to the network demands of different scale production environment; integrating CSI storage plug-in and Cloud Disk Service to provide secure and reliable persistent storage for stateful services; integrating JD Cloud Load Balancer service to provide secure, reliable network access."
 			}
 		]
 	},

@@ -15,7 +15,7 @@
 			{
 				"funcName":"",
 				"funcTitle":"",
-				"funcP":"Support main frameworks such as TensorFlow, BigDL, Caffe, Xgboost and so on. Various built-in mature deep learning algorithms such as CNN, DNN can be applied to image operation and natural language processing."
+				"funcP":"Support main frameworks such as TensorFlow, BigDL, Caffe, and Xgboost. Various built-in mature deep learning algorithms such as CNN, DNN can be applied to image operation and natural language processing."
 			}
 		]
 	},

@@ -14,7 +14,7 @@
 	},
 	{
 		"proGood":"Convenient and Easy to Use",
-		"proName":"With the complete API and fully-featureal console, the users can quickly and efficiently complete the data access.",
+		"proName":"With the complete API and fully-featured console, the users can quickly and efficiently complete the data access.",
 		"proDiff":""
 	},
 	{

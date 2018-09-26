@@ -4,7 +4,7 @@
 		"funcContent":[
 			{
 				"funcName":"",
-				"funcTitle":"TText Search",
+				"funcTitle":"Text Search",
 				"funcP":"Extracting text search tags based on text content to improve text search accuracy and review quality"
 			},
 			{

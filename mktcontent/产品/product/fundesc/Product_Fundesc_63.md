@@ -45,7 +45,7 @@
 			{
 				"funcName":"",
 				"funcTitle":"Provide cloud network and machine asset associations",
-				"funcP":"In current issue, due to the introduction of host-related threat events, the concept of Situation Awareness assets is also extended to the combination of external network IP and internal network IP. Query based on internal and external network is provided. and opening and closing features of the network detection engine."
+				"funcP":"In current issue, due to the introduction of host-related threat events, the concept of Situation Awareness assets is also extended to the combination of external network IP and internal network IP. Query based on internal and external network is provided. And opening and closing features of the network detection engine."
 			}
 		]
 	},

@@ -20,7 +20,7 @@
 		]
 	},
 	{
-		"funcName":"Server Managment",
+		"funcName":"Server Management",
 		"funcContent":[
 			{
 				"funcName":"",
@@ -39,7 +39,7 @@
 		"funcContent":[
 			{
 				"funcName":"",
-				"funcTitle":"High speed, isolated, flexible network configuration",
+				"funcTitle":"High-speed, Isolated, and Flexible Network Configuration",
 				"funcP":"A high-quality BGP network brings a top-speed public network experience. The users can upgrade the public network bandwidth up to 200Mbps and dynamically expand the capacity of public network. Supported by the high-speed network equipment of JD Cloud Data Center, the interconnection of Intranet is realized with high-quality, high-speed and low-latency intranet environment. The internal networks among users are isolated from each other, which are safe and reliable. The users can select the private CIDR network segment based on their preferences."
 			}
 		]
@@ -55,7 +55,7 @@
 			{
 				"funcName":"",
 				"funcTitle":"Security Group",
-				"funcP":"By default, there are only 22 ports opened for public network to maximumly ensure the server security. The users can configure the security group policy after logging in the operating system."
+				"funcP":"By default, there are only 22 ports opened for public network to maximally ensure the server security. The users can configure the security group policy after logging in the operating system."
 			}
 		]
 	},

@@ -30,7 +30,7 @@
 		]
 	},
 	{
-		"funcName":"Management of operation & maintenance and data monitoring",
+		"funcName":"Management of Operation & Maintenance and Data Monitoring",
 		"funcContent":[
 			{
 				"funcName":"",

@@ -14,7 +14,7 @@
 	},
 	{
 		"proGood":"Accurate Real-time Defense",
-		"proName":"Based on the multi-engine detection technology, the detection and recognition of abnormal user behaviors can be realized, and real-time and accurate intrusion behaviors such as brute force cracking and abnormal login can be found. It can quickly respond to intercept malicious intrusions and attack behaviors and can report security accidents in time.",
+		"proName":"Based on the multi-engine detection technology, the detection and recognition of abnormal user behaviors can be realized, and real-time and accurate intrusion behaviors such as brute force cracking and abnormal login can be found. It can quickly respond to intercept malicious intrusions and attack behaviors and can report security incidents in time.",
 		"proDiff":""
 	},
 	{

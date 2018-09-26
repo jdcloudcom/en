@@ -2,7 +2,7 @@
 	{
 		"proGoodTitle":"Benefits",
 		"proNameTitle":"Network Load Balancer",
-		"proDiffTitle":"Traditional hardware Load Balancer",
+		"proDiffTitle":"Traditional Hardware Load Balancer",
 		"proGood":"Easy Maintenance",
 		"proName":"NLB is JD Cloud Cabinet Service, and JD Cloud is responsible for all faults. The console provides rich visual monitoring data indexes; each data is clear at a glance; automatic alarm rules can be set anytime and anywhere to master the operation of the instances.",
 		"proDiff":"Fault needs to be treated by the user. Professional operation and maintenance personnel need to finish complex troubleshooting."

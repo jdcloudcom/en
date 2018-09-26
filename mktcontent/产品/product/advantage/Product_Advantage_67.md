@@ -24,7 +24,7 @@
 	},
 	{
 		"proGood":"Comprehensive Security Protection",
-		"proName":"features, including anti-leech, authentication, content approval, etc. are provided to safeguard live broadcast services.",
+		"proName":"Features, including anti-leech, authentication, content approval, etc. are provided to safeguard live broadcast services.",
 		"proDiff":""
 	},
 	{

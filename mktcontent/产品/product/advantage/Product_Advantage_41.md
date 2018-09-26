@@ -9,7 +9,7 @@
 	},
 	{
 		"proGood":"Support Diversified Data Sources",
-		"proName":"It originally supports multiple data sources for connection and data collection from the services on the cloud and different data sources in the user local enviornment, which can accelerate the process of data integration.",
+		"proName":"It originally supports multiple data sources for connection and data collection from the services on the cloud and different data sources in the user local environment, which can accelerate the process of data integration.",
 		"proDiff":""
 	},
 	{
