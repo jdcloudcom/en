@@ -8,11 +8,11 @@
 
 1. Log in to[Anti-DDoS Basic Console](https://console.jdcloud.com/host/vpc/list), and under->Virtual Private Cloud, find the IP menu of public network. Please apply for purchasing the required public network IP as needed.
 
-![Create Instance](../../../../image/Basic%20Anti-DDos/Instance01.png)
+![Create Instance](https://github.com/jdcloudcom/en/blob/translationUse/image/Basic%20Anti-DDos/Instance01.png)
 
 2. Switch to Anti-DDoS Basic under the cloud security menu, and the public network IP you purchased has been automatically added to the Anti-DDoS Basic.
 
-![Create Instance](https://github.com/jdcloudcom/cn/blob/edit/image/Basic%20Anti-DDos/Instance02.png)
+![Create Instance](https://github.com/jdcloudcom/en/blob/translationUse/image/Basic%20Anti-DDos/Instance02.png)
 
 **Note**: Anti-DDoS Basic is open by default and cannot be closed.
 
