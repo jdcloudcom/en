@@ -14,7 +14,7 @@
 		"funcContent":[
 			{
 				"funcName":"",
-				"funcTitle":Focus on Data Value Mining without Worrying about Underlying Platform Operation",
+				"funcTitle":"Focus on Data Value Mining without Worrying about Underlying Platform Operation",
 				"funcP":"Simple setup can quickly carry out data analysis work, and underlying construction and operation and maintenance of the cluster are fully managed."
 			}
 		]

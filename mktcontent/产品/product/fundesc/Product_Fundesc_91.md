@@ -10,7 +10,7 @@
 			{
 				"funcName":"",
 				"funcTitle":"Flexible Management",
-				"funcP":"The system adopts a flexible system structure, provides the function of online upgrade of mailbox capacity and number of accounts, and provides a management mode of "system-organization-department-sub-department-user" combination architecture. The enterprise system administrator can customize the management permissions of all levels according to management and business demands to meet the autonomy of government units of different levels and enterprises of different scales."
+				"funcP":"The system adopts a flexible system structure, provides the function of online upgrade of mailbox capacity and number of accounts, and provides a management mode of \"system-organization-department-sub-department-user\" combination architecture. The enterprise system administrator can customize the management permissions of all levels according to management and business demands to meet the autonomy of government units of different levels and enterprises of different scales."
 			}
 		]
 	},
