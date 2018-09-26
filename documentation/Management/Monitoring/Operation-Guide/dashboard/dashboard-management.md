@@ -1,21 +1,24 @@
-## Manage Dashboard
+## Dashboard Management
 ### Add Dashboard
 1. Log in to the JD Cloud Cloud Monitor Console and click on "Manage -> Monitoring -> Dashboard -> Dashboard" to go to the Dashboard List page. Click the "Create Dashboard" button in the top left corner.
 
-![](https://github.com/jdcloudcom/cn/blob/edit/image/Cloud-Monitor/dashboard/%E5%88%9B%E5%BB%BA%E7%9B%91%E6%8E%A7%E9%9D%A2%E6%9D%BF3.png)
+<img src="https://raw.githubusercontent.com/jdcloudcom/en/Monitoring/image/Cloud-Monitor/Introduction/Operation-Guide/dashboard/dashboard-01.png" width="600" align=center />
 
 2. On the Create Dashboard page that has been opened, fill in the name of the dashboard and click OK to complete the creation.
 
-![](https://github.com/jdcloudcom/cn/blob/edit/image/Cloud-Monitor/dashboard/%E5%88%9B%E5%BB%BA%E7%9B%91%E6%8E%A7%E9%9D%A2%E6%9D%BF4.png)
+<img src="https://raw.githubusercontent.com/jdcloudcom/en/Monitoring/image/Cloud-Monitor/Introduction/Operation-Guide/dashboard/dashboard-02.png" width="600" align=center />
 
 ## Delete Dashboard
 1. Click "More" in the operation bar of the dashboard list and select "Delete".
-![](https://github.com/jdcloudcom/cn/blob/edit/image/Cloud-Monitor/dashboard/%E5%88%A0%E9%99%A4%E7%9B%91%E6%8E%A7%E9%9D%A2%E6%9D%BF1.png)
+
+<img src="https://raw.githubusercontent.com/jdcloudcom/en/Monitoring/image/Cloud-Monitor/Introduction/Operation-Guide/dashboard/dashboard-03.png" width="600" align=center />
 
 2. According to the prompts in the pop-up box, select "OK" to successfully delete the Dashboard.
-![](https://github.com/jdcloudcom/cn/blob/edit/image/Cloud-Monitor/dashboard/%E5%88%A0%E9%99%A4%E7%9B%91%E6%8E%A7%E9%9D%A2%E6%9D%BF2.png)
+
+<img src="https://raw.githubusercontent.com/jdcloudcom/en/Monitoring/image/Cloud-Monitor/Introduction/Operation-Guide/dashboard/dashboard-04.png" width="600" align=center />
 
 ## My Favorite Dashboard
 Click on "Subscribe" in the operation bar of the dashboard list to follow the currently selected dashboard.  
 Note: The current version only supports setting one My Favorite Dashboard. If other dashboards have been set to "Subscribe", they will be automatically unfollowed.
-![](https://github.com/jdcloudcom/cn/blob/edit/image/Cloud-Monitor/dashboard/My Favorite Dashboards 2.png)
+
+<img src="https://raw.githubusercontent.com/jdcloudcom/en/Monitoring/image/Cloud-Monitor/Introduction/Operation-Guide/dashboard/dashboard-05.png" width="600" align=center />
