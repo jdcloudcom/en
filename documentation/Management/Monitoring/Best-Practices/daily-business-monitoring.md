@@ -1,7 +1,7 @@
 ## Daily Workload Monitoring		
  ### Applicable Scenarios:		
- If users need to monitor their own business, they are allowed to monitor the running status and usage of resources through the monitoring pages of the purchased Cloud Service details pages and the monitoring pages of the Monitoring module. At the same time, users are allowed to set alarm rules according to the characteristics of cloud resources. When the monitoring metrics of the resource reaches the alarm threshold set by the users, an alarm is triggered, and a short message and an email alarm are sent to alarm the user according to the contact information selected by the user.		
- ![](https://raw.githubusercontent.com/jdcloudcom/cn/edit/image/Cloud-Monitor/1.%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5.png)		
+ If users need to monitor their own business, they are allowed to monitor the running status and usage of resources through the monitoring pages of the purchased Cloud Service details pages and the monitoring pages of the Monitoring module. At the same time, users are allowed to set alarm rules according to the characteristics of cloud resources. When the monitoring metrics of the resource reaches the alarm threshold set by the users, an alarm is triggered, and a short message and an email alarm are sent to alarm the user according to the contact information selected by the user.
+ <img src="https://raw.githubusercontent.com/jdcloudcom/en/Monitoring/image/Cloud-Monitor/Appli_Scenarios_1.png" width="600" align=center />	
  ### Operation Steps		
  **View Monitoring Table**		
 		
