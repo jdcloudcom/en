@@ -13,12 +13,12 @@ Login [API gateway console](https://apigateway-console.jdcloud.com/apiGroupList)
  
  
  ### STEP2: Create API Groups
- On the “API Group Management page”, click **Create New API Group** and go to the “Create” page.
+ On the “API Group Management page”, click **Create Group** and go to the “Create” page.
 
 ![Create group](../../../../../image/Internet-Middleware/API-Gateway/apigroup-addgroup.png)
     
  ### STEP3: Save information, create group   
-After filling the group information, click the “Save”, then the new group is created.
+After filling the group information, click the “OK”, then the new group is created.
 
 When it is first created, the system will automatically save it as version 0.0.1. Thereafter, maintenance of multiple versions can be performed in Version Management.
 

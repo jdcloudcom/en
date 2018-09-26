@@ -46,7 +46,7 @@ Enter the list page of **Access Authorization** at left menu firstly
 
 Then click **Create Authorization**, and fill the Access Key or AK offered by API caller in the authorization information.
 
-![Create authorization](../../../../../Internet-Middleware/API-Gateway/fwsq-add.png)
+![Create authorization](../../../../../image/Internet-Middleware/API-Gateway/fwsq-add.png)
 
 
 #### STEP3: API provider binds the authorization and API group

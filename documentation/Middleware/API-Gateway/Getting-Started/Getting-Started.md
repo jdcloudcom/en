@@ -17,7 +17,7 @@ You can open the API service successfully only by completion of the following pr
 ## Operational Steps
 ### STEP1: Create API groups
 
-1. Login\[API gateway console](https://apigateway-console.jdcloud.com/apiGroupList).
+1. Login [API gateway console](https://apigateway-console.jdcloud.com/apiGroupList).
 
 2. On the “API Group Management page”, click **Create New API Group** and go to the “Create” page.
 
