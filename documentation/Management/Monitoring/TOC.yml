@@ -71,7 +71,7 @@ items:
     - name: Batch Resource Monitoring 
       href: Best-Practices/bulk-resource-monitoring.md
     - name: Daily Workload Monitoring
-      href: Best-Practices/business-monitoring.md
+      href: Best-Practices/daily-business-monitoring.md
 - name: Tutorial
   items:
   status: 0
