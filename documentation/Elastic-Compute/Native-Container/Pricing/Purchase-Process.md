@@ -26,11 +26,11 @@ Support to purchase with instance
 
 Please refer to Create Container Instance
 
-Purchase without instance
+Purchase without Instance
 
 The container instance supports only the data disks associated at the time of creation
 
-Support only the existing Cloud Disk Services in the xfs or ext4 format as the data disks of containers, and adding Cloud Disk Services in other file system formats will cause creation failure
+Support only the existing cloud disk services in the xfs or ext4 format as the data disks of containers, and adding cloud disk services in other file system formats will cause creation failure
 
 Please refer to Creating Cloud Disk Services
 
@@ -54,7 +54,7 @@ Support to purchase with instance
 
 Please refer to Create Container Instance
 
-Purchase without instance
+Purchase without Instance
 
 Please refer to Create EIP
 

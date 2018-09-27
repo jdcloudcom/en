@@ -1,10 +1,10 @@
-#  Upload SSL certificate
+#  Upload SSL Certificate
 
-1. Enter the console and click the cloud security icon at the left interface to enter the SSL digital certificate
+1. Enter the console and click the Cloud Security icon at the left interface to enter the SSL Certificate
 
 ![image.png](https://github.com/jdcloudcom/cn/blob/edit/image/SSL-Certification/1.png)
 
-2. Click “Upload certificate” to pop up the certificate upload interface
+2. Click “Upload Certificate” to pop up the certificate upload interface
 
 ![image.png](https://github.com/jdcloudcom/cn/blob/edit/image/SSL-Certification/2.png)
 

@@ -22,9 +22,9 @@
   - name: Operation Guide
     items:
     - name: To Add Web Site
-      href: Operation-Guide/Capped-Collections.md
+      href: Operation-Guide/Add-Web.md
     - name: To Access Domain Name
-      href: Operation-Guide/MongoDB-Profile.md
+      href: Operation-Guide/Access-Domain-Name.md
     - name: To Modify Domain Name
       href: Operation-Guide/Modify-Domainname.md
     - name: Protection Configuration

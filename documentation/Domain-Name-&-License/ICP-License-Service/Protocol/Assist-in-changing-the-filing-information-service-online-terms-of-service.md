@@ -14,4 +14,4 @@ Third, after choosing this service, users should follow up and verify the state 
 
 Fourth, with users’ understanding and agreements, this service doesn’t guarantee that it would get approval by the local communications authority. To save the filing time, it is advised that users should try to make sure that the information is real, effective and complete when submitting.
 
-Users guarantee again here that they have already read and understood the above agreement on Assistance in Changing Online Service terms on Filing Information Service;and voluntarily and formally enter the procedure of application for assisting in changing the filing information, abiding by all the above terms and conditions.
+Users guarantee again here that they have already read and understood the above agreement on Assistance in Changing Online Service terms on Filing Information Service; and voluntarily and formally enter the procedure of application for assisting in changing the filing information, abiding by all the above terms and conditions.

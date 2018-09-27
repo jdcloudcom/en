@@ -1,6 +1,6 @@
 # Built-in Function
 
-Data computing service provides the following built-in UDF:
+Data Compute provides the following built-in UDF:
 
 Mathematical Function</br>
 Set Function</br>

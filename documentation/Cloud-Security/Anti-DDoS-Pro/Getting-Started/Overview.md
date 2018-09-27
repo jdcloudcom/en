@@ -1,6 +1,6 @@
 # Getting Started Overview
 
-Advanced anti-DDoS. Follow the simple steps below to configure to use Advanced Anti-DDoS services.
+Advanced Anti-DDoS. Follow the simple steps below to configure to use Advanced Anti-DDoS Pro services.
 
 ## 1. Non-web Service
 

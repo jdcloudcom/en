@@ -8,6 +8,6 @@
 
 **Steps of Deleting Cluster:**
 
- 1. Open the Console and Select Elastic Compute >>Kubernetes Service>>Cluster Service>>Cluster;
- 2. Select the Custer Required to be Deleted and Click the Button of [Delete] on the right.
- 3. In the pop-up window of deleting the Kubernetes Service, click [OK] to trigger the deletion of Kubernetes Service.
+ 1. Open the Console and Select Elastic Compute >>JCS for Kubernetes>>Cluster Service>>Cluster;
+ 2. Select the custer required to be deleted and click the button of [Delete] on the right.
+ 3. In the pop-up window of deleting the JCS for Kubernetes, click [OK] to trigger the deletion of JCS for Kubernetes.

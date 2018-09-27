@@ -1,7 +1,7 @@
 
 # Visit Dashboard
 
-JD Cloud Kubernetes Service has been preset with Dashboard plug-ins.
+JD Cloud JCS for Kubernetes Service has been preset with Dashboard plug-ins.
 
 I. Check dashboard plug-ins
 
@@ -71,9 +71,9 @@ kubectl create -f dashboard-lb.yaml --namespace=kube-system
 3) Query the EIP of the newly created service in the kube-system namespace
 
 kubectl get services -n kube-system
-4) In the browser, input https://****:port/api/v1/namespaces/kube-system/services/https:kubernetes-dashboard:/proxy/ in the browser, where**** should be replaced with the EIP associated with the Load Balance service, and port should be replaced with the port in the service spec, which is 8443 in this example, to visit dashboard.
+4) In the browser, input https://****:port/api/v1/namespaces/kube-system/services/https:kubernetes-dashboard:/proxy/ in the browser, where**** should be replaced with the EIP associated with the load balance service, and port should be replaced with the port in the service spec, which is 8443 in this example, to visit dashboard.
 
-III. dashboard identity authentication
+III. dashboard Identity Authentication
 
 User identity authentication is required for viewing the resource information of cluster in dashboad:
 

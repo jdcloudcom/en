@@ -6,7 +6,7 @@ If a hard disk has not been executed partition action, you can refer to the belo
 
 1. Complete cloud disk [Upgrade Capacity](https://www.jdcloud.com/help/detail/508/isCatalog/1) action on console;
 
-2. Execute [Attach Cloud Disk](https://www.jdcloud.com/help/detail/505/isCatalog/1) and ensure cloud disk is in "attached” status;
+2. Execute [Attach Cloud Disk](https://www.jdcloud.com/help/detail/505/isCatalog/1) and ensure  Cloud Disk Service is in "attached” status;
 
 3. Use fdisk -l to view the hard disk partition information;
 

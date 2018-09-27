@@ -1,8 +1,8 @@
-# CDS Monitoring
+# Cloud Disk Service Monitoring
 
 <br>
 
-JD Cloud has provided monitoring data up to 30 days for cloud disk attached to a VM to offer you real-time running conditions and performance monitoring metrics of cloud disk. Cloud disk currently provides the below monitoring metrics:
+JD Cloud has provided monitoring data up to 30 days for Cloud Disk Service attached to a Virtual Machines to offer you real-time running conditions and performance monitoring metrics of Cloud Disk Service. Cloud Disk Service currently provides the below monitoring metrics:
 
 <table class="confluenceTable tablesorter tablesorter-default">
     <thead>
@@ -73,19 +73,19 @@ JD Cloud has provided monitoring data up to 30 days for cloud disk attached to a
 </table>
 
 
-Please refer to the below procedures for viewing a certain cloud disk monitoring:
+Please refer to the below procedures for viewing a certain Cloud Disk Service monitoring:
 
-1. Open [JD Cloud Console](https://console.jdcloud.com/), select [Elastic Compute]-[Virtual Machine]-[Cloud Disk];
+1. Open [JD Cloud Console](https://console.jdcloud.com/), select [Elastic Compute]-[Virtual Machines]-[Cloud Disk Service];
 
-2. Find the cloud disk to be viewed after access to the cloud disk list page and click the corresponding name of the cloud disk in the cloud disk list to jump to its details;
+2. Find the Cloud Disk Service to be viewed after access to the Cloud Disk Service list page and click the corresponding name of the Cloud Disk Service in the Cloud Disk Service list to jump to its details;
 
-3. Select "Monitoring” Tab page to view the monitoring item of the cloud disk;
+3. Select **Monitoring** Tab page to view the monitoring item of the Cloud Disk Service;
 
 **Note**:
 
-1) Only cloud disk in "associated” status has monitoring data;
+1) Only Cloud Disk Service in **associated** status has monitoring data;
 
-2) Name and status of a cloud disk can be viewed at top left corner of cloud disk details;
+2) Name and status of a Cloud Disk Service can be viewed at top left corner of cloud disk details;
 
 
 <br>
@@ -97,4 +97,4 @@ Please refer to the below procedures for viewing a certain cloud disk monitoring
 
 4. Monitoring chart: a line chart display is provided currently for monitoring data within latest 30 days. The minimum cycle for sampled data is 1 minute.
 
-For more details, please refer to [Cloud Monitor](https://www.jdcloud.com/help/detail/94/isCatalog/1)Help Center.
+For more details, please refer to [Monitoring](https://www.jdcloud.com/help/detail/94/isCatalog/1)Help Center.

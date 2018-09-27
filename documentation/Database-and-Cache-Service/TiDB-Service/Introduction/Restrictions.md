@@ -1,4 +1,4 @@
-# Restriction Statement
+# Restrictions
 TiDB currently does not support triggers, stored procedures, customized functions and foreign keys. In addition, TiDB supports most syntax of MySQL 5.7.
 
 ## Unsupported Features

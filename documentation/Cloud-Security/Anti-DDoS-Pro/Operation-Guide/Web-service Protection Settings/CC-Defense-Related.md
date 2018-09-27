@@ -1,13 +1,13 @@
 # Related Configurations of CC defense Rules
 CC defense rules are of Web Service protection, so you need to switch to the Web Service Forwarding Setting first. </BR>
 The steps are as follows:
-- First, you need to log in to [Advanced Anti-DDoS Console](https://ip-anti-console.jdcloud.com/instancelist).
-- Find the instance that needs to be configured. Click the instance name to enter the ** Instance Details ** page.
-- Switch to ** Website Forwarding Setting **
+- First, you need to log in to [Advanced Anti-DDoS Pro Console](https://ip-anti-console.jdcloud.com/instancelist).
+- Find the instance that needs to be configured. Click the instance name to enter the **Instance Details** page.
+- Switch to **Website Forwarding Setting**
    ![Website Forwarding Rules](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/web-rule%2002.png)
    
 ### Operation Steps
-1. Click ** Protection Rules ** to expand the configuration of protection rules.
+1. Click **Protection Rules** to expand the configuration of protection rules.
  ![Website Forwarding Rules](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/web-rule%2004.png)
 2. Configure global CC defense policy.
  ![Website Forwarding Rules](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/CC%20rules%2001.png)
@@ -24,9 +24,9 @@ The following is the interpretation of the rules:
 3. Configure CC defense policies for single domain name. </BR>
  - If the global CC defense is on, the CC defense of a separate domain name can be closed.
  - If global CC defense is off, the CC defense of certain single domain name cannot be turned on.
-4. CC observation mode</BR>
+4. CC Observation Mode</BR>
 If CC observation mode is turned on, CC defense only sends alarm and does not activate protection.
-5. Configure speed limit
+5. Configure Speed Limit
 - Advanced protection supports limiting the visit speed of source IP. Click the "Edit" button in the speed limit rule for settings. The minimum time can be set to seconds.
 
 

@@ -3,7 +3,7 @@ At console of TiDB Service, you can view multiple database indicators. Through t
 
 ## Operation Steps
 1. Log on management console of TiDB Service.
-2. Select the target instance whose monitoring information is required to be viewed; click the target instance; go to the Instance Details page.
+2. Select the target instance whose monitoring information is required to be viewed; click the **target instance**; go to the Instance Details page.
 3. Select the tag of “Monitoring” to view the monitoring items of TIDB Service.
 4. By default, the monitoring data for the dimension of 1 hour will be displayed. You can also select the dimension of 1 day, 7 days and 30 days.
 ![Infrastructure Architecture](../../../../image/TiDB/Monitor-1.png)

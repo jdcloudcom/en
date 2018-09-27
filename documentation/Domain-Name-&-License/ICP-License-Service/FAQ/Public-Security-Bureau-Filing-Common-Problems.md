@@ -1,8 +1,8 @@
-According to relevant provisions of the Measures for the Administration of the Computer Information Network and Internet Security and Protection, after the filing is finished successfully on the Ministry of Industry and Information Technology of the PRC, within 30 days from the date of opening the website, each website needs to log in [National Security and Management Service Platform for the Internet Website of Public Security Organs](http://www.beian.gov.cn/) and submit the filing application of public security.
+According to relevant provisions of the *Measures for the Administration of the Computer Information Network and Internet Security and Protection*, after the filing is finished successfully on the Ministry of Industry and Information Technology of the PRC, within 30 days from the date of opening the website, each website needs to log in [National Security and Management Service Platform for the Internet Website of Public Security Organs](https://www.beian.gov.cn/) and submit the filing application of public security.
 
-Please download [Operation Guide of Security Service Platform of Internet Website](http://www.beian.gov.cn/portal/downloadcenter?token=389a313f-53c9-4eb7-8a10-5eeae2f50a73) to understand the operation procedure of public security filing.
+Please download [Operation Guide of Security Service Platform of Internet Website](https://www.beian.gov.cn/portal/downloadcenter?token=389a313f-53c9-4eb7-8a10-5eeae2f50a73) to understand the operation procedure of public security filing.
 
-For the sample table mentioning the filing method of 33 items regarding the website filing at public security, please check ![img](http://cms.jcloud.com/ueditor/dialogs/attachment/fileTypeImages/icon_xls.gif)[EXCEL template - 33 Items.xls](https://img1.jcloudcs.com/cms/9062610c -a7f6-49fd-b320-fdb93792762720180110170854.xls)
+For the sample table mentioning the filing method of 33 items regarding the website filing at public security, please check [EXCEL template - 33 Items.xls](https://img1.jcloudcs.com/cms/9062610c -a7f6-49fd-b320-fdb93792762720180110170854.xls)
 
 ## **FAQ**
 
@@ -10,8 +10,8 @@ For the sample table mentioning the filing method of 33 items regarding the webs
 
 Information services on the Internet are divided into business-related type and non-business-related type.
 
-- Business-related information services: Provide service activities such as information or webpage making to users with charges through the Internet (paid service-website, such as online stores and online transactions). For business-related Internet information service, the country implements the licensing system.
-- Non-business-related information services: Provide service activities with open and shared information to the users for free through the Internet (such as personal websites and promotional websites of enterprise type). For non-business-related Internet information service, the country implements the filing system.
+- Business-related Information Services: Provide service activities such as information or webpage making to users with charges through the Internet (paid service-website, such as online stores and online transactions). For business-related Internet information service, the country implements the licensing system.
+- Non-business-related Information Services: Provide service activities with open and shared information to the users for free through the Internet (such as personal websites and promotional websites of enterprise type). For non-business-related Internet information service, the country implements the filing system.
 
 ### How to Choose the Level of the Website?
 

@@ -4,9 +4,9 @@ The DB2 relational database data-source provides the ability of reading DB2. You
 
 **Operation Steps:**
 
-1.        Enter the data factory; click ‘Connection Management’; select ‘Add Connection’;
+1.        Enter the Data Factory; click **Connection Management**; select **Add Connection**;
 
-2.        Select the type of data source ‘DB2’;
+2.        Select the type of data source **DB2**;
 
 ![db2 Data Source Connection](../../../../../image/Data-Integration/db2-connection.png)
 
@@ -22,10 +22,10 @@ Configuration Item Description:
 
 ​    **Port Number**: Fill in the connection information;
 
-​    **Database name**: Name Information;
+​    **Database Name**: Name Information;
 
 ​    **User Name/Password**: The username and password corresponding to the database.
 
-3.        Click ‘Connection Test’;
+3.        Click **Connection Test**;
 
-4.        After the connection test is passed, click ‘OK’.
+4.        After the connection test is passed, click **OK**.

@@ -1,8 +1,8 @@
 # JDBC Connection FAQ
 
-**Q: How to connect data computing service through JDBC?**
+**Q: How to connect Data Compute through JDBC?**
 
-A: The data computing service JDBC drive is based on presto-jdbc development.
+A: The Data Compute JDBC drive is based on presto-jdbc development.
 JDBC connection information configuration, for example:</br>
 String url = "jdbc:xdata://gateway.jcloud.com/instance_name"；</br>
 String accessId = "xxxxxx"；</br>
@@ -14,4 +14,4 @@ properties.setProperty("instance", "instance_name")；</br>
 Currently we only support South China and North China. You need to add setting of region in properties, that is, South China is HN_GZ, North China is HB_BJ</br>
 properties.setProperty("region", "HB_BJ")；。</br>
 
-Click here to download new JDBC client</br>
+Click here to download new **JDBC Client**</br>

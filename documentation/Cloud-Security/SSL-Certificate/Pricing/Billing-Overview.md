@@ -1,3 +1,3 @@
-# Billing overview
+# Billing Overview
 
-  The SSL certificate is currently free.
+  The SSL Certificate is currently free.

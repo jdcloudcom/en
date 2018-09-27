@@ -1,5 +1,5 @@
 
-# Delete Working Node Group
+# Delete working node group
 
 Operation Instructions:
 
@@ -7,9 +7,9 @@ The quantity of working node group in a single cluster should at least be 1. If 
 
 When the deletion is successful, the status will become deleted and the message will be displayed on the console for 15 minutes.
 
-Steps of Deleting the Working Node Group:
+Steps of deleting the working node group:
 
-Open the console and Select the Elastic Compute>>Kubernetes Service>>Cluster Service>>Work Node Group; Select the Working Node Group Required Scaling and Click the Button of Delete;
+Open the console and select the Elastic Compute>>JCS for Kubernetes >>Cluster Service>>Work Node Group; select the working node group required scaling and click the button of delete;
 
 In the pop-up window, enter the number of expected target node, VM of the current region and the number limit for the intranet IP that the working node CIDR can allocate;
 

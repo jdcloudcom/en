@@ -10,7 +10,7 @@ A2: Endpoint Security is provided by JD Cloud for the JD Cloud users freely and 
 
 **Q3: Does Endpoint Security need to be deployed and installed? **
 
-A3: Endpoint Security agent is built in the JD Cloud public system image, Endpoint Security function can be loaded automatically by directly selecting public image; users of existing virtual machine need to download installation package form official website for separate deployment.
+A3: Endpoint Security agent is built in the JD Cloud public system image, Endpoint Security function can be loaded automatically by directly selecting public image; users of existing virtual machines need to download installation package form official website for separate deployment.
 
 **Q4: Do the clients of Endpoint Security collect user information? What kind of data will the clients upload to the servers? **
 
@@ -30,7 +30,7 @@ A7: For anti-brute force crack function, it implements IP ban at the kernel laye
 
 **Q8: Why there is no warning reminder for remote login? **
 
-A8: You need to configure preferred login location on the console interface.
+A8: You need to conFigure preferred login location on the console interface.
 
 **Q9: Which revisions are supported by system vulnerability patch **
 

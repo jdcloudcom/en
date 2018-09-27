@@ -4,7 +4,7 @@
 **Charges Collectable**
 
  1. Container instances are charged according to specifications, that is, the number of processor cores allocated and the amount of memory.
- 2. The cloud disk service and the Elastic IP are subject to their respective billing rules.
+ 2. The cloud disk and the Elastic IP are subject to their respective billing rules.
 
 **Region and Availability Zone**
 

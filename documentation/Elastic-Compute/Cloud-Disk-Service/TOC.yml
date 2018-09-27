@@ -12,7 +12,7 @@
         href: Introduction/Features.md
       - name: Benefits
         href: Introduction/Benefits.md
-      - name: Application Scenario
+      - name: Application Scenarios
         href: Introduction/Application-Scenarios.md
       - name: Specifications
         href: Introduction/Specifications.md
@@ -35,31 +35,31 @@
             href: Pricing/Description-Of-Billing-Method/Owe-Remind.md
     - name: Price Overview
       href: Pricing/Price-Overview.md
-    - name: Purchase Channel
+    - name:  Purchase Channel
       items:
           - name: Purchase from Official Website
             href: Pricing/Purchase-Channel/Buy-On-Website.md      
         
-  - name: Getting-Started
+  - name: Operation Guide
     items:
-       - name: create cloud disk
+       - name: Create Cloud Disk
          href: Getting-Started/Cloud-Disk/Create-Cloud-Disk.md
-       - name: create disk from snapshot
+       - name: Create Disk from Snapshot
          href: Getting-Started/Cloud-Disk/Create-Disk-From-Snapshot.md
-       - name: attach cloud disk
+       - name: Attach Cloud Disk Service
          href: Getting-Started/Cloud-Disk/Attach-Cloud-Disk.md
-       - name: cloud disk partitioning, formatting, online and creating file system
+       - name: Cloud Disk Service partitioning, formatting, online and creating file system
          items:
             - name: Linux partitioning, formatting and creating file system
               href: Getting-Started/Cloud-Disk/Parted-Format/Linux-Partitioning.md
             - name: Windows partitioning, formatting and creating file system
               href: Getting-Started/Cloud-Disk/Parted-Format/Windows-Partitioning.md
          
-       - name: cloud disk capacity upgrading
+       - name: Cloud Disk Service capacity upgrading
          href: Getting-Started/Cloud-Disk/Cloud-Disk-Capacity-Upgrading.md
        - name: file system expansion
          items:
-            - name: cloud disk expansion overview
+            - name: Cloud Disk Service expansion overview
               href: Getting-Started/Cloud-Disk/Expand-Filesystem/Cloud-Disk-Expansion-Overview.md
 
             - name: file system expansion (Windows)
@@ -71,44 +71,20 @@
             - name: file system expansion (multi partition)
               href: Getting-Started/Cloud-Disk/Expand-Filesystem/File-System-Expansion-Multi-Partition.md
 
-       - name: detach cloud disk
+       - name: Detach Cloud Disk Service
          href: Getting-Started/Cloud-Disk/Detach-Cloud-Disk.md
-       - name: delete cloud disk
+       - name: Delete Cloud Disk Service
          href: Getting-Started/Cloud-Disk/Delete-Cloud-Disk.md
-       - name: cloud disk monitoring
+       - name: Cloud Disk Service Monitoring
          href: Getting-Started/Cloud-Disk/Cloud-Disk-Monitoring.md
           
   - name: Operation Guide
     items:
-       - name: create cloud disk snapshot
+       - name: Create Cloud Disk Snapshot
          href: Operation-Guide/Cloud-Disk-Snapshot/Create-CloudDisk-SnapShot.md
-       - name: recover cloud disk
+       - name: Recover Cloud Disk
          href: Operation-Guide/Cloud-Disk-Snapshot/Recover-CloudDisk.md
-       - name: delete snapshot
+       - name: Delete Snapshot
          href: Operation-Guide/Cloud-Disk-Snapshot/Deletion-Snapshot.md
-
-
-  - name: Best Practice
-    items:
-    status: 0
-  - name: Troubleshoot
-    items:
-    status: 0
   - name: FAQ
     href: FAQ/FAQ.md
-  - name: API Reference
-    href:
-    status: 0
-  - name: SDK Reference
-    href:
-    status: 0
-  - name: User Agreement
-    items:
-    - name: Service Terms
-      href:
-      status: 0
-  - name: Relevant Resources
-    items:
-    - name: Document Historical Records
-      href:
-      status: 0

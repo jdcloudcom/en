@@ -1,19 +1,19 @@
 # Billing Rules
 
-Data computing service currently supports one billing type:
+Data Compute currently supports one billing type:
  * Billing by Usage
 
 ## Storage Billing
 
-Users will enjoy first 500GB data storage service for free each month in data computing service. Datasheet and other data exceeding will be billed according to its size of data capacity on basis of billing period: hour(s).
+Users will enjoy first 500GB data storage service for free each month in Data Compute. Datasheet and other data exceeding will be billed according to its size of data capacity on basis of billing period: hour(s).
 Formula for billing: storage costs per hour = storage capacity * storage price as below:
 
 <table>
   <tr>
-    <th width=10%, bgcolor=yellow >Billing Type</th>
-    <th width=35%, bgcolor=yellow>Price</th>
-    <th width="30%", bgcolor=yellow>Instructions</th>
-    <th width="25%", bgcolor=yellow>Auxiliary Example</th>
+    <th width=10%>计费类型</th>
+    <th width=35%>价格</th>
+    <th width="30%">说明</th>
+    <th width="25%">辅助举例</th>
   </tr>
   <tr>
     <td bgcolor=#eeeeee> Pay by actual memory space and time period </td>
@@ -42,7 +42,7 @@ The billing period is once per hour in general. For example, the bill for 00:00-
 The specific billing time of the system shall prevail. Costs will be automatically deducted from your account balance to settle the bill.
 
 For example:
-If a user successfully uploads 1000GB data on the data computing service at 00:00, the bill amounting to 1000GB*1H*RMB 0.0008/GB/H=RMB 8 will be billed at 01:00.
+If a user successfully uploads 1000GB data on the Data Compute at 00:00, the bill amounting to 1000GB*1H*RMB 0.0008/GB/H=RMB 8 will be billed at 01:00.
 If data is deleted, costs will be calculated accurately to hour according to specific storage duration. Detail bill can be viewed in the User Center.
 
 
@@ -77,7 +77,7 @@ After successfully finishing the computing task, the system will sum up the read
 
 ### Reserved computing resource (please contact customer service to turn on)
 
-When user steadily runs business on the data computing service, it is recommended to adopt use mode of reserved computing resource to save more costs.
+When user steadily runs business on the Data Compute, it is recommended to adopt use mode of reserved computing resource to save more costs.
 Formula for billing: cost of reserved computing resource=lease duration*number of configuration nodes*unit price. The price is as below:
 
 | Node configuration | CPU (core) |  Memory (GB) | Unit price (RMB/node/day) |  
@@ -85,14 +85,14 @@ Formula for billing: cost of reserved computing resource=lease duration*number o
 | General Type | 1 | 4 | 5 |
 | Large Memory Type | 1 | 8 | 8 |
 
-Computing resource of data computing service can be purchased by daily/monthly package and you can contact customer service to enjoy higher discount if purchase by quarterly/yearly package.
+Computing resource of Data Compute can be purchased by daily/monthly package and you can contact customer service to enjoy higher discount if purchase by quarterly/yearly package.
 
 Users need to select lease duration, type and number of node configuration according to actual use demand. Costs will be deducted immediately upon purchase.
 Instructions: daily package is divided on basis of 24H, namely it takes effect at the purchase time and expires upon 24H.
 Monthly package is divided on basis of natural month, namely, if the effective date is January 15 for purchase of one month, then its period of validity is till February 15;
           Under special circumstance, if the effective date is January 31, then it will expire on February 28 or 29.
 
-The computing resource of data computing service in use can be renewed and expanded.
+The computing resource of Data Compute in use can be renewed and expanded.
 
 Renew means extend the period of validity as per the same specifications. Expansion means add number of nodes of same configuration within the period of validity
 

@@ -19,16 +19,16 @@ If you need to use security group to Identity and Access management of instance,
  1. Open console and select Elastic Compute>>Container service>>Container instance;
  2. Select the region that the container instance created belongs to and click “Create” button to go to the Container Instance Purchase page; you are suggested to select the region that instance located in and availability zone according to business condition.
  Remark: At present support cn-north-1, cn-east-2 and provide two availability zones including availability zone A and availability zone B; please look forward to the online time of other regions.
- 3. Select Billing Mode: Monthly package and pay by configuration; yearly package and monthly package pay by month to purchase resources and charge according to configuration charge according to time period of actual use(exact to second). Please refer to charge rules for differences between the two billing method. 
+ 3. Select Billing Mode: Monthly package and pay by configuration; monthly package pay by month to purchase resources and charge according to configuration charge according to time period of actual use(exact to second). Please refer to charge rules for differences between the two billing method. 
  4. Selection of region and availability zone: In this step, you can still select the region (cn-north-1) that the container is corresponding to and availability zone; pay attention that “ Resource intranets in different regions are not interconnected and it shall not be changed after creation”, if quota in region you selected is filled, then you may increase quota by open ticket.
  5. Choose Image:
- Container Registry: docker.io or the Container Registry address that Registry authentication information is corresponding to. Default to docker.io, if docker.io is selected, it shall create container based on the public image that Docker Hub provides; after Registry authentication information has been selected, it shall create container based on the public or private image that corresponding Container Registry provides. If no Registry authentication information is added, then JD Cloud shall use Docker Hub to get container image by default; if you need to use third party private image Container Registry, you need to add secrets to JD Cloud firstly and select adding third party Container Registry authentication information to JD Cloud. When using a private image created in the Docker Hub to add a third-party warehouse certification, it is recommended that the warehouse domain name should be based on this address: https://index.docker.io     
+ Container Registry: docker.io or the container registry address that registry authentication information is corresponding to. Default to docker.io, if docker.io is selected, it shall create container based on the public image that Docker Hub provides; after registry authentication information has been selected, it shall create container based on the public or private image that corresponding container registry provides. If no registry authentication information is added, then JD Cloud shall use Docker Hub to get docker image by default; if you need to use third party private image container registry, you need to add secrets to JD Cloud firstly and select adding third party container registry authentication information to JD Cloud. When using a private image created in the Docker Hub to add a third-party warehouse certification, it is recommended that the warehouse domain name should be based on this address: https://index.docker.io     
  Image name: Enter image name that is required for creating container, for example: library/nginx
  Image version: If there is no enter, default version is latest; if you need other versions, please enter version name.
  6. Select specification
 The configuration of JD Cloud VM support user-defined selection: Provide from 1 core 1G to 56 cores 448G(At present 32 cores 256G, 54 cores 112G, 54 cores 224 G, 54 cores 448G are currently not opened); provide three types including universal type, computer optimized type and memory optimized type and user can select instance type and corresponding settings according to different business scenarios; refer to instance settings recommendation for details
 As for selecting other instances, please select to change instance rules to select:
- 7. Storage: JD Cloud provide cloud disk service as the system disk and data disk for container; cloud disk service adopt distributed storage method of multiple backups for one disk which has a high reliability              
+ 7. Storage: JD Cloud provide cloud disk as the system disk and data disk for container; cloud disk service adopt distributed storage method of multiple backups for one disk which has a high reliability              
 
 System Disk: At present only support SSD cloud disk, with range of capacity of 10-100G; the file system of system disk support xfs or ext4 format and we shall format the system disk of the container according to file system format selected when creating a container; the attach directory of system disk is the root directory “/” and can not be changed; at present the system disk must be deleted following the container delete.    
 
@@ -40,7 +40,7 @@ Using SSD Cloud Disk as Data Disk: Support a range of 20G~1000G
 
 The cost of cloud disk service is independent from that of instance and please refer to price of cloud disk for details of price.        
 
- 8. Select network
+ 8. Select Network
 
 Select “VPC” and “Subnet”, after that you may determine the quantity of VM allowed to be created under this subnet; if there is no subnet currently, you may create a new subnet according to fast entry and then select in “VM network”; please refer to VPC and subnet for details.                                               
 
@@ -58,14 +58,14 @@ Bandwidth Range: 1Mbps~200Mbps, you may not purchase public IP for the moment du
 
  
 
-Billing method of instance 	Public network billing by bandwidth     	Cost estimate                                        
+Billing method of instance 	public network billing by bandwidth     	Cost Estimate                                        
 Pay by configuration                  	by fixed bandwidth                  	Cost of settings, include: The prices of instance types (configuration of CPU and memory), data disks (if any), and EIP bandwidth.                    
 By Traffic                    	 EIP Traffic Costs + Configuration Costs. Where, the configuration costs include: The costs of instance types (configuration of CPU and memory) and data disks (if any) and EIP configuration costs.          
 Monthly package            	by fixed bandwidth                  	Cost of settings, include: The prices of instance types (configuration of CPU and memory), data disks (if any), and EIP bandwidth.                    
 By Traffic                    	 EIP Traffic Costs + Configuration Costs. Where, the configuration costs include: The costs of instance types (configuration of CPU and memory) and data disks (if any) and EIP configuration costs.                   
 
         
- 10. Advanced setup
+ 10. Advanced Setup
 
 Is not required item and provide advanced option for your creating container. You may selectively define options of advanced setup as required;
 

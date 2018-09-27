@@ -1,4 +1,5 @@
-
+---
+title:Limits
 
 # Restrictions
 
@@ -23,6 +24,6 @@
 |  The quantity of pubic IP which are allowed to be associated to a single container   |  1  |   Unchangeable  |
 |  The maximum save capacity of container log |  10M  |   Unchangeable  |
 |  The maximum number of bytes of a single container log   |  4k  |   Unchangeable  |
-|Restriction on use of container image   |  Support Dockerfile based on Linux operation system only  |   Unchangeable  |
+|Restriction on use of docker image   |  Support Dockerfile based on Linux operation system only  |   Unchangeable  |
 |  Container use region and region restrictions   | cn-north-1 Availability Zone A, cn-north-1  Availability Zone B, cn-east-2 Availability Zone A, cn-east-2 Availability Zone B     | Unchangeable      |
 

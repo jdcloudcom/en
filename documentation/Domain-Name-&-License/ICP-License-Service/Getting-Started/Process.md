@@ -10,7 +10,7 @@ Filing refers to that when a domain name points to a domestic IP, the domain nam
 
 **Step 1: Log in to the Filing System to Verify the Filing Type**
 
-(1) Open the official website of JD Cloud [www.jdcloud.com](http://www.jdcloud.com/), and then click “Filing” in the upper right
+(1) Open the official website of JD Cloud [www.jdcloud.com](http://www.jdcloud.com/), and then click **Filing** in the upper right
 
 ![TimLine image 20180423102311.jpg](https://img1.jcloudcs.com/cms/19fad790-8375-483f-9780-1c480039730c20180423102433.jpg)
 
@@ -18,11 +18,11 @@ Filing refers to that when a domain name points to a domestic IP, the domain nam
 
 ![TimLine image 20180423103739.jpg](https://img1.jcloudcs.com/cms/52574957-4a41-42a3-ab59-f786e271a3e720180423103736.jpg)
 
-(3) Click the New Filing
+(3) Click **New Filing**
 
 ![TimLine image 20180206153644.jpg](https://img1.jcloudcs.com/cms/c062d7fc-fa91-4484-b035-67847f43242e20180206153718.jpg)
 
-(4) Fill in the filing information to be verified according to the actual information, then click “Verify” to proceed to the next step
+(4) Fill in the filing information to be verified according to the actual information, then click **Verify** to proceed to the next step
 
 ![4.jpg](https://img1.jcloudcs.com/cms/e6a28892-0455-4cd8-ae11-57e600fb50d220170921191932.jpg)
 
@@ -34,17 +34,17 @@ Fill in the information of the subject
 
 ![6.jpg](https://img1.jcloudcs.com/cms/9d869432-8622-4773-8522-8884addcf78220170921192029.jpg)
 
-(2) Fill in the information for the responsible person of the subject as required, and then click the “Next” button
+(2) Fill in the information for the responsible person of the subject as required, and then click **Next**
 
 ![7.jpg](https://img1.jcloudcs.com/cms/d0d2c56a-5b5e-4ff3-9106-48af7372c1bb20170921192109.jpg)
 
 Fill in Website Information
 
-(1) Fill in the website information as required, and click the key "Add Domain" at the domain name of the website in case of multiple domains, which may also be “deleted” after filled in
+(1) Fill in the website information as required, and click **Add Domain** at the domain name of the website in case of multiple domains, which may also be “deleted” after filled in
 
 ![TimLine image 20180112143207.jpg](https://img1.jcloudcs.com/cms/c9cf54e3-bb83-4cab-a5bf-89bc66913e4220180112143251.jpg)
 
-(2) Fill in the information of the responsible person of the website, who needs complete the subsequent procedure for the filing such as taking picture etc. Please fill in the information based on the actual circumstances. If the responsible person of the website and the responsible of the subject are the same person, it is acceptable to tick “The responsible person of the same subject” and then click “Next”; if the application is submitted for multiple websites, click “Continue Add Website” after completing the website information.
+(2) Fill in the information of the responsible person of the website, who needs complete the subsequent procedure for the filing such as taking picture etc. Please fill in the information based on the actual circumstances. If the responsible person of the website and the responsible of the subject are the same person, it is acceptable to tick “The responsible person of the same subject” and then click “Next”; if the application is submitted for multiple websites, click **Continue Add Website** after completing the website information.
 
 ![TimLine image 20180423102319.jpg](https://img1.jcloudcs.com/cms/5992ebae-a72f-4bfb-9530-0dd935f3ca0a20180423102534.jpg)
 
@@ -56,7 +56,7 @@ Fill in Website Information
 
 ![123.jpg](https://img1.jcloudcs.com/cms/58aaaa3c-a855-4ec0-9f05-144e39011fa220180627143345.jpg)
 
-(2) Look through the Filing Information page to check for any errors in the filing information. Click “Edit” to revise if needed. If there are no errors, tick “I have read and agreed to Assist in Revising Online Service Terms for Filling Information” and then submit the filing information
+(2) Look through the Filing Information page to check for any errors in the filing information. Click **Edit** to revise if needed. If there are no errors, tick “I have read and agreed to Assist in Revising Online Service Terms for Filling Information” and then submit the filing information
 
 ![1.jpg](https://img1.jcloudcs.com/cms/9907c06b-55c6-4812-98ea-8839be6f470820171130151124.jpg)
 
@@ -70,7 +70,7 @@ For the subsequent operations, the filing specialist from JD Cloud will contact 
 
 **(1)** Log in to the  JD Cloud Filing System when you have passed the preliminary review, then the responsible person of the website needs to take photos for verification.
 
-ü  If there is no JD Cloud curtain, please click the “Apply for Mailing Curtain” button. Fill in the delivery address and JD Cloud will send a curtain to that address (The address must be within the territory of Mainland China). After receiving the curtain, take a photo and then get it uploaded for review (please read the photo instructions and avoid wearing red or blue upper outer garment when taking the photo).
+ü  If there is no JD Cloud curtain, please click **Apply for Mailing Curtain**. Fill in the delivery address and JD Cloud will send a curtain to that address (The address must be within the territory of Mainland China). After receiving the curtain, take a photo and then get it uploaded for review (please read the photo instructions and avoid wearing red or blue upper outer garment when taking the photo).
 
 ü  If you have the JD Cloud curtain and have taken a photo, you can directly **Upload Photo**.
 

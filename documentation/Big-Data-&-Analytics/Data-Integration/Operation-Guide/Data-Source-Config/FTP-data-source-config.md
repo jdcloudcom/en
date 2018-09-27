@@ -4,26 +4,26 @@ FTP data source provides the ability of reading FTP. You can configure the synch
 
 **Operation Steps:**
 
-1.        Enter the data factory; click ‘Connection Management’; select ‘Add Connection’;
+#### 1. 进入数据工厂，单击‘连接管理’，选择‘添加连接’；
 
-2.        Select the type of data source ‘FTP;
+#### 2. 选择数据源类型‘FTP；
 
 ![ftp Data Source Connection](../../../../../image/Data-Integration/ftp-connection.png)
 
 Configuration Item Description:
 
-**Connection Name**: Consisting of Chinese text, English text, numbers and underline, with no more than 30 characters in length;
+* **连接名称**：由中英文、数字、下划线组成，长度不超过30个字符；
 
-**Description**: A simple description of the data source, with no more than 50 characters;
+* **描述**：对数据源进行简单描述，不得超过50个字符；
 
-**IP/****Domain Name**: Fill in the connection information;
+* **IP/****域名**：填写连接信息；
 
-**Port Number**: Fill in the connection information;
+* **端口号**：填写连接信息；
 
-**File Agreement**: Currently, FTP, SFTP and FTPS are supported;
+* **文件协议**：目前支持FTP、SFTP、FTPS；
 
-**User Name/Password**: The username and password corresponding to the database.
+* **用户名/密码**：数据库对应的用户名和密码。
 
-3.        Click ‘Connection Test’;
+#### 3. 单击‘连接测试’；
 
-4.        After the connection test is passed, click ‘OK’.
+#### 4. 连接测试通过后，单击‘确定’。

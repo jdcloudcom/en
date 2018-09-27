@@ -5,7 +5,7 @@
     items:
       - name: Product Overview
         href: Introduction/Product-Overview.md
-      - name: Core Concepta
+      - name: Core Concepts
         href: Introduction/Core-Concepts.md
       - name: Benefits
         href: Introduction/Benefits.md
@@ -13,7 +13,7 @@
         href: Introduction/Features.md
       - name: Restrictions
         href: Introduction/Restrictions.md
-      - name: Application Scenarios
+      - name: Application Scenarios 
         href: Introduction/Application-Scenarios.md
       - name: Compare with VM
         href: Introduction/Comparison.md
@@ -29,11 +29,11 @@
         href: Pricing/Purchase-Process.md
       - name: Renew Process
         href: Pricing/Renew-Proces.md
-  - name: Getting-started
+  - name: Getting Started
     items:
       - name: Guide Overview
         href: Getting-Started/Guide-Overview.md
-      - name: Create Container Image
+      - name: Create Docker Image
         href: Getting-Started/Create-Images.md
       - name: Create Container Instance
         href: Getting-Started/Create-Instance.md
@@ -88,11 +88,7 @@
     - name: Container Instance Creation Failed
       href: Troubleshoot/Fault-Problem.md  
   - name: FAQ
-    href: Common-Problem.md
-  - name: API Reference
-    href: API.md      
-  - name: SDK Reference
-    href: SDK.md          
+    href: Common-Problem.md       
   - name: Related Resources
     items:
     - name: Document History

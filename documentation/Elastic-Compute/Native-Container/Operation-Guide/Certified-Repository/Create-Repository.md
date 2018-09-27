@@ -13,10 +13,10 @@ Please add any updates of third party Container Registry to JD Cloud to avoid fa
 
 **Operation Guide**
 
-1. Open JD Cloud console and select **Elastic compute**-**Container services**-**Secrets** to go to the Registry Authentication Information List page;
+1. Open JD Cloud console and select **Elastic compute** -**Container services**-**Secrets** to go to the Registry Authentication Information List page;
 
-2. Click **Create Registry authentication information** button to open the Registry Authentication Information page.
+2. Click **Create Registry authentication information** to open the registry authentication information page.
 
-3. Enter name, third party Container Registry server address, registry user name and password and email is optional; check the authorization instructions in the page and click OK to add relevant information of third party Container Registry to Registry Authentication Information. When using a private image created in the Docker Hub to add a third-party warehouse certification, it is recommended that the warehouse domain name should be based on this address: https://index.docker.io      
+3. Enter name, third party container registry server address, registry user name and password and email is optional; check the authorization instructions in the page and click OK to add relevant information of third party container registry to registry authentication information. When using a private image created in the Docker Hub to add a third-party warehouse certification, it is recommended that the warehouse domain name should be based on this address: https://index.docker.io      
 
 Please note that: JD Cloud use https protocol to encrypt and transmit relevant information of Container Registry, therefor, add prefix https:\\ before registry domain name;

@@ -1,7 +1,7 @@
 
-# Product Benefits
+# Benefits
 
-## Easy to use
+## Easy to Use
 
 With the JD Cloud console or simple API calls, you can create JD MapReduce instances in minutes, quickly investing in business applications and reducing business wait times.
 
@@ -9,9 +9,9 @@ With the JD Cloud console or simple API calls, you can create JD MapReduce insta
 
 By default, a highly available architecture with a three-node replica set is provided, supporting high availability and ensuring business availability.
 
-## Data lasting
+## Data Lasting
 
-With a complete data backup mechanism, the cluster supports three copies by default. You can also create backups at any time according to business conditions. Backup files can be saved in JD Cloud object storage service without worrying about data loss.
+With a complete data backup mechanism, the cluster supports three copies by default. You can also create backups at any time according to business conditions. Backup files can be saved in JD Cloud Object Storage without worrying about data loss.
 
 ## Safety
 

@@ -65,7 +65,7 @@
             href: Management-specification/Yunnan.md
           - name: Zhejiang
             href: Management-specification/Zhejiang.md
-  - name: Common Problems
+  - name: FAQ
     items:
       - name: Basic Problem of Filing
         href: FAQ/Problem-summary.md
@@ -79,7 +79,7 @@
         href: FAQ/Operational-ICP-Filing.md
       - name: Note on Access Cancellation
         href: FAQ/Cancel-Access.md
-  - name: Users Agreement
+  - name: Users Agreements
     items:
        - name: Assistance in Changing Online Service Terms of Fling Information Service
          href: Protocol/Assist-in-changing-the-filing-information-service-online-terms-of-service.md
@@ -102,7 +102,7 @@
         - name: Guangdong Province Corporate Verification Form Download
           href: Common-data/Guangdong-Province-Unit-verification-form-download.md
         - name: Beijing Multi-Domain Verification Form
-          href: Common-data/ Beijing-multi-domain-verification-form.md  
+          href: Common-data/Beijing-multi-domain-verification-form.md  
   - name: Process Help
     items:
        - name: Notes on SMS Verification of MIIT

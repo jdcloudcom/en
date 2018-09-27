@@ -15,12 +15,12 @@ For the passing or rejecting regarding the filing, there will be SMS and E-mail 
 Note: It is not limited to the form. However, the domain name of such type shall all be filed without exception.
 (2) For the content body displayed to the public by Internet traffic, document information of the subject shall be submitted for filing.
 For example: If the content displayed by a website is the company., it is required to submit company's documents and information to local authority for review and filing, however, it is irrelevant to website’s technical Party or resource provider.
-**Note: It is not recommended to perform the filing operations vicariously by the units unrelated to the above-mentioned main body (such as website’s producer and server provider, etc.). Instead of saving time, it will affect the audit schedule for filing.**
+**Note: It is not recommended to perform the filing operations vicariously by the units unrelated to the above-mentioned main body (such as website’s producer and server provider). Instead of saving time, it will affect the audit schedule for filing.**
 
 4. Documents Required for Filing
 Description: The following items shall all be the colored scanned copy; if it is the copy, it shall be subject to the regulations of local authority;
 For Persons: Chinese citizens – ID card; Foreigners - passport;
-For Unita:
+For Units:
 (1) First valid certificate of the unit (priority: certificate of credit code, license, organization code certificate, others);
 (2) Legal person’s ID card, ID card of the person in charge of the website;
 (3) Official seal;
@@ -52,6 +52,6 @@ At present, JD Cloud server has no limitation regarding the quantity of the fili
 
 (1) The actual IP pointing of the domain name in filing is inconsistent with the reporting IP in filing
 
-(2) If there occurs situation, such as that the owner of the domain name is changed through the manner of buying and selling in stead of cancelling the filing initiatively
+(2) If there occurs situation, such as that the owner of the domain name is changed through the manner of buying and selling instead of cancelling the filing initiatively
 
 (3) If the filing’s domain name stops using JD Cloud server AND if the initiative cancellation regarding the access is not performed

@@ -1,5 +1,3 @@
-
-
 # Features
 
 JD Cloud native container mainly provide following functions and experience JD Cloud console for more functions:
@@ -20,7 +18,7 @@ Support VPC, VPC, security group, public IP.
 
 They are instance resources in VPC together with VM, database, etc.; assign private IP in subnets and it can realize accurate Identity and Access management based on security group; it can intercommunicate with Redis cache and object storage service.
 
-Container Image:
+Docker Image:
 
 Support Docker standard image and you may select to download image from Docker Hub or Private Image Container Registry.
 
@@ -35,6 +33,6 @@ Log
 
 Log check: Provide check function for standard logs of the container and the log has a maximum volume of 10M.
 
-Flexible billing
+Flexible Billing
 
 Support monthly package and pay by configuration. You may select instance of pay by configuration in the preliminary checkout stage and checkout according to business volume to find the most suitable instance type and then purchase the instance of yearly package or monthly package.

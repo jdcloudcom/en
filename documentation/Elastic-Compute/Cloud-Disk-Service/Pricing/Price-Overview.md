@@ -1,6 +1,6 @@
-# Price overview
+# Price Overview
 
-For cloud disk price, refer to the following table, with specific price subject to the charge made by the console:
+For Cloud Disk Service price, refer to the following table, with specific price subject to the charge made by the console:
 
 <table style="margin: 10px 0px 0px; color: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 14px; overflow-x: auto;" class="confluenceTable" width="-152">
     <tbody>

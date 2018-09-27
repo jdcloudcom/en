@@ -2,7 +2,7 @@
 
 Operation Steps:
 
-1.        Task list page of data synchronization; click ‘create’ button:
+1.        Task List page of Data Synchronization; click **Create**:
 
 ![New Synchronization Task](../../../../../image/Data-Integration/create-task.png)
 
@@ -28,4 +28,4 @@ As shown in the table below
 | NoSQL | Redis (Coming Soon) | | |
 | MongoDB (Coming Soon) | | | |
 | Hbase (Coming Soon) | | | |
-| File Search | Elasticsearch | | ✓ |
+| File Search | JCS for Elasticsearch | | ✓ |

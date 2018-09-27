@@ -1,12 +1,12 @@
 # Features
 
-## Easy to analyze
+## Easy to Analyze
 
-### Data synchronization
+### Data Synchronization
 Full BTC and ETH main chain data which is synchronized in real time to the available relational database instance;
 
-## High usability
+## High Usability
 
-### Convenient operation and maintenance
+### Convenient Operation and Maintenance
 Provide real-time monitoring and automatic warning functions for all indicators of instances to reduce operation and maintenance costs;
 

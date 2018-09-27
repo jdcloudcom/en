@@ -1,10 +1,10 @@
 
-# Create container image
+# Create Docker Image
 
-**Create container image**
-Docker Hub is the Public Image Container Registry of Docker, owning a large amount of high quality images which can be downloaded for use directly. If the requirement can not be met, you may create container images; below we introduce the method for creating container images with Dockerfile.
+**Create Docker Image**
+Docker Hub is the Public Image Container Registry of Docker, owning a large amount of high quality images which can be downloaded for use directly. If the requirement can not be met, you may create container images; below we introduce the method for creating docker images with Dockerfile.
     1. To install Docker, you may refer to docker installation.
-    2. Create Dockerfile file
+    2. Create Dockerfile File
 
 Create a new directory, in which create a new dockerfile file.
 
@@ -14,9 +14,11 @@ Create a new directory, in which create a new dockerfile file.
 [root@docker nginx-dockerfile]# vi Dockerfile
 Dockerfile with contents as follows:
 FROM nginx
-RUN echo '<h1>Hello, Docker!</h1>' > /usr/share/nginx/html/index.html
+RUN echo ' <h1> Hello, Docker! </h1> ' > /usr/share/nginx/html/index.html
+
 Remark:
-       The Dockerfile includes two instructions:
+       
+   The Dockerfile includes two instructions:
 
 　　FROM: Essential command, take certain image as base image; take centos for example. For example FROM <image_name>, or FROM <image_name>: <tag>. If not added tag, is latest by default. Seek for base image in local Container Registry at first, if there is none, query in docker registry online.
 
@@ -34,13 +36,13 @@ Remark:
 
 [root@docker nginx-dockerfile]# docker build -t newnginx .
    -t option is used to docker build new images to facilitate marking images created, show current directory and can also indicate the directory that dockerfile file is located in.
-    4. Check image list
+    4. Check Image List
 [root@docker nginx-dockerfile]# docker images
 REPOSITORY              TAG                 IMAGE ID            CREATED             SIZE
 newnginx                latest              c9038ef5f829        3 minutes ago       108.5 MB
 docker.io/nginx         latest              3f8a4339aadd        2 weeks ago         108.5 MB
     5. Store images in Container Registry
-    Image repositories are divided into private image Container Registry and public Container Registry and please refer to deploy private Container Registry for details. Below we take the public Container Registry DockerHub for example.
+    Image repositories are divided into private image Container Registry and public Container Registry and please refer to deploy private Container Registry for details. Below we take the public container registry DockerHub for example.
     i.  Create account https://hub.docker.com/ in DockerHub and remember the user name (For example myname) and password
 
    ii.    Play Tag for Image
@@ -56,5 +58,3 @@ Enter username and password
 [root@docker nginx-dockerfile]# docker push myname/newnginx
     6. Use this image when creating container instance
     When creating a container instance, enter myname/newnginx to image name.
-
-blob.png

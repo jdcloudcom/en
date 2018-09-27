@@ -1,4 +1,4 @@
-#  Manage SSL certificate
+#  Manage SSL Certificate
 
 1. Click the certificate name, then you can view the details of the certificate
 

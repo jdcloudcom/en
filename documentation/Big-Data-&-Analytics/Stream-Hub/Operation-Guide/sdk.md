@@ -1,5 +1,5 @@
 ## SDK Description<br>
-The streaming data bus allows users to write and read data through SDK. For the time being, only the JAVA language SDK is supported, with the specific method for use as follows: <br><br>
+The Stream Hub allows users to write and read data through SDK. For the time being, only the JAVA language SDK is supported, with the specific method for use as follows: <br><br>
 1. **Download SDK**<br>
 https://xdata.jdcloud.com/map/spsdownload/downLoadJavaSDK.action<br><br>
 2. **Install SDK**<br>
@@ -100,7 +100,7 @@ Sample Code: <br>
     <br>
     (2) Call the Read Method<br>
     Parameter Description: <br>
-    partition : Partition value, used to indicate reading data from the specified partition<br>
+    partition: Partition value, used to indicate reading data from the specified partition<br>
     offset: Offset, used to indicate the starting position of the reading<br>
     Data reading method: fetchStreamRecord( partition, offset)<br>
         

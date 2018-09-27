@@ -17,13 +17,13 @@
       herf: Introduction/Specifications.md
     - name: Restrictions
       herf: Introduction/Restrictions.md
-    - name: Application Scenario
+    - name: Application Scenarios
       herf: Introduction/Application-Scenarios.md
 
-  - name: Getting-started
+  - name: Getting Started
     items:
     - name: Create Instance
-      herf: Getting-Started/Product-Introduction/
+      herf: Getting-Started/Create-Instance.md
     - name: Connect Instance
       herf: Getting-Started/Connect-Instance.md
     - name: Monitor Instance
@@ -62,7 +62,7 @@
 
   - name: Best Practices
     items:
-    - name: High-volume Data Processing
+    - name: Big Data Volume Processing
       herf: Best-Practices/Data-Operation.md
     - name: Parameter Optimization
       herf: Best-Practices/Parameters-Optimization.md
@@ -74,23 +74,5 @@
 
   - name: API Reference
     herf:
-    status：0
   - name: SDK Reference
     herf:
-    status：0
-  - name: Related Resources
-    items:
-    - name: Document History
-      herf: Related-Resources/Document-History.md
-    - name: Service Provision
-      herf: Related-Resources/Service-Terms.md
-      status: 0
-    - name: SLA
-      herf: Related-Resources/SLA.md
-      status: 0
-    - name: Filing
-      herf: Related-Resources/Filing.md
-      status: 0
-    - name: Glossary
-      herf: Related-Resources/Glossary.md
-      status: 0

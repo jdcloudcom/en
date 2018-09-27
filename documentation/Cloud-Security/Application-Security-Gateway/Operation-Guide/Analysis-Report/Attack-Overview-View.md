@@ -2,7 +2,7 @@
 
 **Function Description**
 
-​    Application security gateway provides attack overview trend diagram on Home Page, which can display current business access trends, general attack trends, CC defense trends, and customized identity and access management trends. It can filter based on region, protection instance and name.
+​    Application Security Gateway provides attack overview trend diagram on Home Page, which can display current business access trends, general attack trends, CC defense trends, and customized identity and access management trends. It can filter based on region, protection instance and name.
 
 ​    **Access security trend**: Statistics of current business access number and threat protection number, QPS change trend.
 
@@ -12,7 +12,7 @@
 
 ​    **CC attack trend diagram**: Predefined and customized CC attack cumulative trends
 
-**Action steps**
+**Action Steps**
 
 ​    Enter Console-Cloud Security-Application Security Gateway-Risk Overview page to view corresponding attack trend information.
 
