@@ -16,13 +16,13 @@ The process is as follows:
 # Console: customized domain name 
 After OSS Bucket uploads the object, the address of the object is available, including two parts: OSS domain name + object file name and the format is: <BucketName>. <Endpoint>. In addition to fewer code changes in migrating to OSS, it can also avoid cross-domain or security issues that may be involved in the business; it is recommended that you associate the customized domain name access to your own Bucket. After domain name is associated successfully, in order to use domain name to access OSS normally, it is necessary to add CNAME record pointing to the Internet domain name corresponding to the storage space.
  Description
-+ Each storage space can associate a maximum of 20 domain names.
-+ The domain name you associate must be filed in the Ministry of Industry and Information Technology; otherwise, domain access will be affected.
+* The same domain can only be bound to a unique Bucket in the same region, and each Bucket can be bound to 20 domains at most.
+* The domain name you associate must be filed in the Ministry of Industry and Information Technology; otherwise, domain access will be affected.
 
 Customized domain name is available as access address to the storage file in OSS after the customized domain name is associated successfully. For example, your storage space example is located in cn-north-1, the object file name is test.jpg, and the customized domain name associated is hello-world.com, then the object access address is:
 
-+ Before association: example.oss.cn-north-1.jcloudcs.com /test.jpg
-+ After successful association: hello-world.com/test.jpg
+*  Before association: example.oss.cn-north-1.jcloudcs.com /test.jpg
+*  After successful association: hello-world.com/test.jpg
   You can associate the customized domain name to the OSS Internet domain name through the console to realize the customized domain name access to the file under the storage space, or you can configure JD Cloud CDN to realize the acceleration function at the same time. Refer to [Internet domain name- endpoint ](../../API-Reference-S3-Compatible/Regions-And-Endpoints.md)
 
 ## Action steps for associating domain name
@@ -39,13 +39,13 @@ Customized domain name is available as access address to the storage file in OSS
 
 Description
 
-+ The user is required to manually add CNAME records to the domain name resolver after the submission of setting is completed.
+* The user is required to manually add CNAME records to the domain name resolver after the submission of setting is completed.
 
-+ If your user domain name needs to access the OSS service via the mode of HTTPS, you must purchase the corresponding digital certificate. And submit your certificate through the ticket and host your certificate through JD Cloud OSS.
+* If your user domain name needs to access the OSS service via the mode of HTTPS, you must purchase the corresponding digital certificate. And submit your certificate through the ticket and host your certificate through JD Cloud OSS.
 
-+ If the domain name you input has been maliciously associated by other users, the system prompts that the domain name has been associated. You can complete the validation of domain name ownership in accordance with the OSS verification scheme by clicking the Open Ticket; the domain name can be associated if domain name ownership is verified, and the association between the domain name and the previous storage space is removed at the same time.
+* If the domain name you input has been maliciously associated by other users, the system prompts that the domain name has been associated. You can complete the validation of domain name ownership in accordance with the OSS verification scheme by clicking the Open Ticket; the domain name can be associated if domain name ownership is verified, and the association between the domain name and the previous storage space is removed at the same time.
 
-+ Currently, only customized domain name are supported to be used to download files. If you need to upload files or make various actions on Bucket, please use JD Cloud object storage service domain name.
+* Currently, only customized domain name are supported to be used to download files. If you need to upload files or make various actions on Bucket, please use JD Cloud object storage service domain name.
 
 ## Action steps for domain name resolution (take JD Cloud resolution as an example)
 1.Login JD Cloud DNS console and enter the domain name resolution list page.
