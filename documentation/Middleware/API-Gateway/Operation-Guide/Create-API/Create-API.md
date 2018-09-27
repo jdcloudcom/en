@@ -22,4 +22,4 @@ Click the operations on this group row **Manage API**, enter the page of “API 
 3. After filling the API information, click the “Save”, then the new creation is completed.
 
 4. At present, the system supports API import, click **Import API** in the API list page and select API files, then the importing is completed. Please note that the imported API files should comply with the Code swagger 2.0 Specific code refers to:
-![Code swagger 2.0](http://editor.swagger.io/)  
+[Code swagger 2.0](http://editor.swagger.io/)  
