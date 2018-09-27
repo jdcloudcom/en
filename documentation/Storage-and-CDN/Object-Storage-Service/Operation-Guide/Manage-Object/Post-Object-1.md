@@ -112,3 +112,10 @@ Function Usage Reference
 
 API：[PostObject](../../API-Reference-S3-Compatible/Compatibility-API/Post-Object.md)
 
+Sample Demo
+
+For the demo about direct posting object to OSS, please refer to  [PostObject-S3-SDK-Demo](https://downloads.s3.cn-north-1.jcloudcs.com/Demo/postObject_S3_SDK_JAVA_Demo.zip)
+
+
+
+
