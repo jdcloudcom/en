@@ -183,6 +183,7 @@ definitions:
         description: "Fault IP/Domain Name"
       id:
         type: integer
-        description: "startTime:"
+        description: 
+      startTime:
         type: integer
         description: "Fault Start Time"

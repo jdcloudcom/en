@@ -44,7 +44,8 @@ paths:
                              $ref: "../model/EmrWorkflow.yaml#/definitions/emrWorkflow"
                          workflowName:
                            type: string
-                         description: "requestId:"
+                         description:
+                 requestId:
                    type: string
            500:
              description: "Internal server error"
