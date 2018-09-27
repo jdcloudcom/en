@@ -1,13 +1,13 @@
   name: JD Cloud DNS
   href: 
   items:
-  - name:  Interface Overview
+  - name: API Overview
     href: overview.md
   - name: Update History
     href: ChangeLog.md
-  - name: Interface Information
+  - name: API Information
     items:
-      - name:  Domain Name Related Interface
+      - name:  Domain Name APIs
         items:
           - name: getDomains
             href:  Domain-Name/getDomains.md
@@ -21,7 +21,7 @@
             href:  Domain-Name/getDomainQueryCount.md
           - name: getDomainQueryTraffic
             href:  Domain-Name/getDomainQueryTraffic.md
-      - name: Resolution Record Related Interface  
+      - name: Resolution Record APIs  
         items:
           - name: addRR
             href: Resolution-Record/addRR.md
@@ -33,7 +33,7 @@
             href: Resolution-Record/searchRR.md
           - name: updateRR
             href: Resolution-Record/updateRR.md
-      - name:  Website Monitoring Related Interface
+      - name:  Website Monitoring APIs
         items:
           - name: addMonitor
             href: Website-Monitoring/addMonitor.md        

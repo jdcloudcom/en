@@ -1,15 +1,11 @@
 name: Common Declaration
 href: 
 items:
-- name: Public Instruction
-  items:
-    - name: Description
-      herf: Introduction.md
-    - name: Common Errors
-      herf: Error-Codes.md
-    - name: Call Algorithm
-      herf: Call-Methods.md
-    - name: Signature Algorithm
-      herf: Authorization-Rules.md
-      
-          
+  - name: Introduction
+    href: Introduction.md
+  - name: Common Errors
+    href: Error-Codes.md
+  - name: Call Method
+    href: Call-Methods.md
+  - name: Signature Algorithm
+    href: Authorization-Rules.md    

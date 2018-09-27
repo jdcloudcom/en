@@ -1,11 +1,11 @@
 name: IAM
-  href: 
-  items:
-  - name: Overview
+href: 
+items:
+  - name: API Overview
     href: overview.md
-  - name: Change Log
+  - name: Update History
     href: ChangeLog.md
-  - name: Interface List
+  - name: API Information
     items:
       - name:  Policy Management APIs
         items:
@@ -23,7 +23,7 @@ name: IAM
             href: Policy-Management-APIs/removePermissionOfSubUser.md
           - name: updatePermission
             href: Policy-Management-APIs/updatePermission.md
-      - name:  User Management APIs
+      - name: User Management APIs
         items:
           - name: createSubuser
             href: User-Management-APIs/createSubuser.md

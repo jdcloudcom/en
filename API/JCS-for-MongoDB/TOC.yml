@@ -1,7 +1,7 @@
   name: JCS for MongoDB
   href: 
   items:
-  - name:  Interface Overview
+  - name: API Overview
     href: overview.md
   - name: Update History
     href: ChangeLog.md
@@ -29,6 +29,7 @@
         href: Instance-Management/resetPassword.md
       - name: restartInstance.md
         href: Instance-Management/restartInstance.md
+        status: 0
       - name: restoreInstance
         status: 0
         href: Instance-Management/restoreInstance.md

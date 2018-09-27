@@ -1,11 +1,11 @@
-name: RDS
-href: 
-items:
-  - name: Interface Preview
+  name: RDS
+  href: 
+  items:
+  - name: API Overview
     href: overview.md
   - name: Update History
     href: ChangeLog.md
-  - name: Interface Information
+  - name: API Information
     items:
       - name: Account Management
         items:
@@ -18,7 +18,8 @@ items:
           - name: grantPrivilege
             herf: Account-Management/grantPrivilege.md
           - name: resetPassword
-            herf: Account-Management/resetPassword.md            
+            herf: Account-Management/resetPassword.md
+            
       - name: Audit Management
         items:
           - name: createAudit
@@ -34,7 +35,8 @@ items:
           - name: getAuditOptions
             herf: Audit-Management/getAuditOptions.md
           - name: modifyAudit
-            herf: Audit-Management/modifyAudit.md            
+            herf: Audit-Management/modifyAudit.md
+            
       - name: Backup Management
         items:
           - name: createBackup
@@ -45,6 +47,7 @@ items:
             herf: Backup-Management/describeBackupDownloadURL.md
           - name: describeBackups
             herf: Backup-Management/describeBackups.md
+
       - name: Cloud on Single Database
         items:
           - name: describeImportFiles
@@ -53,6 +56,7 @@ items:
             herf: Cloud-on-Single-Database/getUploadKey.md
           - name: setImportFileShared
             herf: Cloud-on-Single-Database/setImportFileShared.md
+
       - name: Database Management
         items:
           - name: createDatabase
@@ -66,11 +70,13 @@ items:
           - name: restoreDatabaseFromFile
             herf: Database-Management/restoreDatabaseFromFile.md
           - name: restoreDatabaseFromOSS
-            herf: Database-Management/restoreDatabaseFromOSS.md            
+            herf: Database-Management/restoreDatabaseFromOSS.md
+            
       - name: Error Logs
         items:
           - name: describeErrorLogs
             herf: Error-Logs/describeErrorLogs.md 
+
       - name: Instance Management
         items:
           - name: createInstance
@@ -94,28 +100,32 @@ items:
           - name: restoreInstance
             herf: Instance-Management/restoreInstance.md
           - name: setInstanceName
-            herf: Instance-Management/setInstanceName.md     
+            herf: Instance-Management/setInstanceName.md
+     
       - name: Performance Statistics
         items:
           - name: describeIndexPerformance
             herf: Performance-Statistics/describeIndexPerformance.md
           - name: describeQueryPerformance
-            herf: Performance-Statistics/describeQueryPerformance.md            
+            herf: Performance-Statistics/describeQueryPerformance.md
+            
       - name: White List
         items:
           - name: describeWhiteList
-            herf: White-List/describeWhiteList.md            
+            herf: White-List/describeWhiteList.md
+            
   - name: Instance Type
     items:
       - name: MySQL Instance Specifications
         href: Instance-Specifications/Instance-Specifications-MySQL.md
-      - name: Instance Specifications
+      - name: SQL Server Instance Specifications
         href: Instance-Specifications/Instance-Specifications-MySQL.md
+
   - name: Enum Instructions
     items:
       - name: Enum Definitions
         href: Enum-Definitions/Enum-Definitions.md
-      - name: Region And Availability Zone List
+      - name: Region and Availability Zone List
         href: Enum-Definitions/Regions-AZ.md
-      - name: Version
+      - name: Version Number
         href: Enum-Definitions/apiVersion.md
