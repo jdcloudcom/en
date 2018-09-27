@@ -112,7 +112,7 @@
 		"name":".top Domain Name Promotion",
 		"id":"28",
 		"button_title":"More",
-		"main_title":"Cooperate with TOP Registration Authority for Preempting "Peaked” Domain Name” with ¥7"
+		"main_title":"Cooperate with TOP Registration Authority for Preempting \"Peaked\" Domain Name” with ¥7"
 	},
 	{
 		"dynamic_image":"//img1.jcloudcs.com/cms/66e2668c-0434-4274-9156-55f1fe1924c220170613104010.png",
