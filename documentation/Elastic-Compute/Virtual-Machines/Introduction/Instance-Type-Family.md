@@ -1,13 +1,13 @@
 # Instance Specifications Type
 
-An instance is the smallest unit that JD Cloud provides computing services for your business. Different instances identify their corresponding computing, memory, storage, and networking capabilities by their types and specific specifications. Meanwhile, the instance type family you specified when you create an instance determines the hardware configuration of this instance. You can select the appropriate instance type family and specific specification based on the type and size of the application you need to deploy.
+An instance is the smallest unit for the computing services provided by JD Cloud for your business. Different instances identify their corresponding computing, memory, storage, and networking capabilities by their instance type familes and specific instance types. Meanwhile, the instance type family you specified when you create an instance determines the hardware configuration of this instance. You can select the appropriate instance type family and instance types based on the type and size of the application you need to deploy.
 
-The following is the example specification type information of the current JD Cloud. The types and specifications of the saleable instances in different regions are not identical. Please refer to the example creation page. The specific Instance Type specifications can be classified according to different application scenarios:
+The following is the information on the instance type family currently sold on JD Cloud. The instance type families and instance types of the saleable instances in different regions are not identical, please refer to the information shown on the instance creation page. The specific Instance Type specifications can be classified according to different application scenarios:
 
 * General: [General Shared Type]((./specifications#g.s)、[General Standard Type](./specifications#g.n)
 * Compute-Optimized Standard type: [Compute Optimized Standard Type](./specifications#c.n)
 * Memory-Optimized type: [Memory Optimized Standard Type](./specifications#m.n)
-* High-frequency calculation type: [High-frequency calculation optimization type](./specifications#h.g)
+* High-frequency compute type: High-frequency compute optimization type: [High-frequency calculation optimization type](./specifications#h.g)
 
 ## General
 The General currently provides General Shared and General Standard types, providing you with balanced computing and memory resources to meet the needs of most business scenarios. Each of the vCPUs in the common standard type corresponds to an Intel Xeon processor hyper-threaded core with a vCPU to memory ratio of 1:4.
@@ -21,7 +21,7 @@ The General currently provides General Shared and General Standard types, provid
 	*Premium Hdd Cloud Disk
 	* SSD Cloud Disk
 * Applicable Scenario:
-	* Primary stage of personal website with small visit flows
+	* Primary stage of personal website with small visits
 	* Microservices
 	* Test Environment
 
@@ -75,7 +75,7 @@ g.n1.2xlarge|8|32|4
 g.n1.4xlarge|16|64|4	
 g.n1.8xlarge|32|128|4	
 
-The standard * indicates that the Virtual Machines is not supported by this specification, and you are not allowed to adjust the current Virtual Machines to this specification, but it does not affect the use of your existing Virtual Machines.
+The mark * indicates that the VM is not supported by this instance type, and you are not allowed to adjust the current Virtual Machines to this specification, but it does not affect the use of your existing Virtual Machines.
 
 ## Compute Optimized Type
 Compute Optimized Type currently offer Compute-Optimized Standard that provide you with high-performance computing resources that can be met. Each vCPU corresponds to a hyper-threaded core of an Intel Xeon processor.
