@@ -16,4 +16,4 @@ Due to the needs of business, the users need to place batches of similar resourc
 11. Click on **OK** to complete the creation of the monitoring graph.
 <img src="https://raw.githubusercontent.com/jdcloudcom/en/Monitoring/image/Cloud-Monitor/Best-Practices/Best-Practices-02.png" width="600" align=center />  
 12. Enter the Dashboard details page and view Monitoring Graph.
-<img src="" width="600" align=center />  
+<img src="https://raw.githubusercontent.com/jdcloudcom/en/Monitoring/image/Cloud-Monitor/Best-Practices/Best-Practices-03.png" width="600" align=center />  
