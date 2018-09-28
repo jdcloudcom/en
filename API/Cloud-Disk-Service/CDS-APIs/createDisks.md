@@ -25,7 +25,7 @@ https://disk.jdcloud-api.com/v1/regions/{regionId}/disks
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**clientToken**|String|True||Idempotence Verification Parameter|
-|**diskSpec**|DiskSpec|True||Create Disk Specification|
+|**diskSpec**|DiskSpec|True||Disk Specification|
 |**maxCount**|Integer|True||Instance Purchase Quantity; Value Range: [1,100]|
 
 ### DiskSpec
