@@ -8,7 +8,7 @@ TiDB Server is responsible for receiving SQL requests and processing SQL-related
 TiKV Server is responsible for storing data. From the outside, TiKV is a distributed Key-Value storage engine which can provide transactions.
 
 - **PD Server**
-Placement Driver (PD) is the management module for the entire cluster. It is responsible for storing the meta information of the cluster, performing scheduling and load balancer for TiKV cluster AND assigning the globally unique and incremental transaction ID.
+Placement Driver (PD) is the management module for the entire cluster. It is responsible for storing the meta information of the cluster, performing scheduling and Load Balancer for TiKV cluster AND assigning the globally unique and incremental transaction ID.
 
 **Architectural Diagram**
 ![Infrastructure Architecture](../../../../image/TiDB/Basic-Infrastructure.png)

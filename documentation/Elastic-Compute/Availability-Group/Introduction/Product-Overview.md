@@ -12,7 +12,7 @@ See [Core-Concepts] for concepts that are often involved in understanding the JD
 ## Main Operation
 
 * New Availability Group
-* Flexibly manage the resources in the Availability Group, add and remove VMs as required.
+* Flexibly manage the resources in the Availability Group, add and remove Virtual Machines as required.
 * Open/close auto scaling
 * Flexible configuration of auto scaling strategy, add/delete auto scaling strategy
 * Custom notification of contact group of auto scaling

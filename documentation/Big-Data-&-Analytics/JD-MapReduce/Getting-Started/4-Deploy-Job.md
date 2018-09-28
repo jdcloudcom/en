@@ -1,6 +1,6 @@
 #Deploy job
 
-You can log in to the JD MapReduce console by clicking on the "Job Management" menu.
+You can log in to the JD MapReduce console by clicking **Job Management** menu.
 This article describes how to deploy job.
 
 ## Operation Steps
@@ -11,19 +11,19 @@ This article describes how to deploy job.
  -  Select the scheduling time.
  -  Check the jobs you want to deploy.
  
-3. Related operation instructions
- -  Immediate execution
+3. Related Operation Instructions
+ -  Immediate Execution
     -  Click to perform the deployed job immediately.
  -  Modify
     -  Similar or reconfigured the deployment of the job.
- -  Time out
+ -  Pause
     -  Pause the deployed job.
  -  Delete
     -  Delete deleted jobs directly.
- -  Mission details
-    -  Click on the task name to jump to the task details page and view the execution history.
- -  Executive history
-    -  Click on the task name to jump to the task details page and view the execution history.
+ -  Mission Details
+    -  Click the task name to jump to the task details page and view the execution history.
+ -  Executive History
+    -  Click the task name to jump to the task details page and view the execution history.
 
 
 

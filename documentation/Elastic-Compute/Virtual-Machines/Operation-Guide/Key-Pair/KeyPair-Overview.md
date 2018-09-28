@@ -6,7 +6,7 @@ Key pair login refers to the use of key pair technology to encrypt and decrypt t
 For key pair login, you need to create a pair of unique matching key pair: "Public Key Pair" and "Private Key Pair":
 
 * The public key pair needs to be stored on JD Cloud to encrypt the data. The public key pair is public and can be configured to the target server as needed to associate with the username you use.
-* The private key pair needs to be stored in a secure location. The private key pair can only decrypt the data encrypted by the matching public key pair. The SSH client uses the private key pair to prove your legal identity to the server.
+* The private key pair needs to be stored in a secure location. The private key pair can only decrypt the data encrypted by the matching public key pair. The SSH client uses the private key pair to certify your legal identity to the server.
 
 ## Principle Process
 The process of logging in to an instance using key pair is as follows:

@@ -10,7 +10,7 @@
 			{
 				"funcName":"",
 				"funcTitle":"Flexible Billing",
-				"funcP":"'"funcP":"JD Cloud native container granularity is as low as the second grade calculated as flow accounting, and it is no charge when the resource is stopped. The minimum billing period is 5 minutes. At the same time, it supports the monthly package, which effectively reduces the resource input cost."
+				"funcP":"JD Cloud native container granularity is as low as the second grade calculated as flow accounting, and it is no charge when the resource is stopped. The minimum billing period is 5 minutes. At the same time, it supports the monthly package, which effectively reduces the resource input cost."
 			}
 		]
 	},
@@ -50,7 +50,7 @@
 			{
 				"funcName":"",
 				"funcTitle":"Monitoring",
-				"funcP":"Based on multi-dimensional monitoring container, it is convenient for users to grasp the container resource usage, performance and running status in real time. Support customized alarm rules for different monitoring indicators, and send alarm notifications via SMS, email and etc., to meet the demands of different user scenarios and ensure the continuous and stable operation of the application."
+				"funcP":"Based on multi-dimensional monitoring container, it is convenient for users to grasp the container resource usage, performance and running status in real time. Support customized alarm rules for different monitoring indicators, and send alarm notifications via SMS, email, etc., to meet the demands of different user scenarios and ensure the continuous and stable operation of the application."
 			}
 		]
 	},

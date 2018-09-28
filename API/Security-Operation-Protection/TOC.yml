@@ -1,9 +1,9 @@
 name: Operation Protection
 href: 
 items:
-  - name: Overview
+  - name: API Overview
     href: overview.md
-  - name: Change Log
+  - name: Update History
     href: ChangeLog.md
   - name: Interface List
     items:

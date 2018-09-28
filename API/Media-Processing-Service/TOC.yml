@@ -1,6 +1,6 @@
 name: Media Processing Service
 items:
-  - name:  Interface Overview
+  - name: API Overview
     href: overview.md
   - name: Update History
     href: ChangeLog.md

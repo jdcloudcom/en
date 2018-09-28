@@ -43,7 +43,7 @@ SHOW CREATE table person;
 ## View Columns of the Table
 ```
 SHOW FULL COLUMNS table_name;
-For example:
+E.g:
 SHOW FULL COLUMNS FROM person;
 ```
 ## Delete Table

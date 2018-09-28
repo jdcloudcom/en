@@ -12,7 +12,7 @@
       - name: Restrictions
         href: Introduction/Restrictions.md
         name: Specifications
-        href: Specification.md  
+        href: Introduction/Specifications.md  
   - name: Pricing
     items:
       - name: Billing Overview
@@ -20,15 +20,13 @@
       - name: Price Overview
         href: Pricing/Price-Overview.md
       - name: Purchase Process
-        href: Pricing/Purchase-Process.md 
-
+        href: Pricing/Purchase-Process.md
   - name: Getting Started
     items:
       - name: Create Instance
         href: Getting-Started/Create-free-trial-instance.md
       - name: Set White List
-        href: Getting-Started/Protective-configuration-entry.md
-    
+        href: Getting-Started/Protective-configuration-entry.md    
   - name: Operation Guide
     items:
       - name: Instance Management
@@ -60,13 +58,11 @@
           - name: BOT Management
             href: Operation-Guide/Protection-Configuration/BOT-Management.md      
           - name: Webpage Tamper-proofing          
-            href: Operation-Guide/Protection-Configuration/Webpage-Tampering.md     
-      -             
+            href: Operation-Guide/Protection-Configuration/Webpage-Tampering.md
   - name: Best Practices
     items:
-    - name: Advanced Anti-DDoSB-Best Application Security Gateway Practice
-      href: Best-Practices/Best-Practices.md
-   
+    - name: Advanced Anti-DDoS-Best Application Security Gateway Practice
+      href: Best-Practices/Best-Practices.md   
   - name: Tutorial
     items:
     status: 0
@@ -87,7 +83,7 @@
   - name: User Agreements
     status: 0
     items:      
-  - name: Relevant Resources
+  - name: Related Resources
     items:
     - name: Document History
       href: Related-Resources/Document-History.md   

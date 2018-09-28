@@ -105,8 +105,8 @@ Log in harbor website and select New Item with test as item name; do not choose 
 image.png
 
 image.png
-    Create image
-    Create directory
+    Create Image
+    Create Directory
 
 mkdir -p /etc/docker/certs.d/harbortest.jdpoc.com
     It is required to copy the key pair of the domain name /root/cert/server.crt to the created directory /etc/docker/certs.d/harbortest.jdpoc.com
@@ -157,7 +157,7 @@ docker tag newnginx harbortest.jdpoc.com/test/newnginx:latest
     push image to private image Container Registry
 
 docker push harbortest.jdpoc.com/test/newnginx:latest
-9. Deploy container
+9. Deploy Container
     Add secrets to secrets of container service
 
 Create Container

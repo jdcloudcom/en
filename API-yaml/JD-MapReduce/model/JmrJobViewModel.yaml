@@ -7,7 +7,8 @@ definitions:
     properties:
       id:
         type: integer
-        description: "jobId:"
+        description:
+      jobId:
         type: string
         description: "Job ID"
       jobName:

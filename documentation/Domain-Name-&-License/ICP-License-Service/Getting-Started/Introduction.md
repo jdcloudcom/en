@@ -4,7 +4,7 @@ Website filing is the record of reporting events pointing to competent authoriti
 
 ### **Common Filing Type:**
 
-Initial Filing: New subject and website filing - filing number whose domain name and sponsor’s document number are all falied;
+Initial Filing: New subject and website filing - filing number whose domain name and sponsor’s document number are all failed;
 
 New Access Filing: The domain name has already obtained the filing number elsewhere, and it is required to transfer the filing information of domain name to JD Cloud;
 

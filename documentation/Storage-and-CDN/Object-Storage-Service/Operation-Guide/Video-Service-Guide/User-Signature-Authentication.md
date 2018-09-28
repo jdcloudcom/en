@@ -3,6 +3,7 @@
 User can add Header of Authorization in HTTP request to contain information on Signature, to state that this message has been authorized.
 
 ## Methods of Authorization field calculation
+
 ```
 Authorization ="jingdong" + " " + AccessKey + ":" + Signature;
 Signature =base64(HMAC-SHA1(AccessKeySecret, UTF-8-Encoding-Of( StringToSign ) ) )
@@ -93,7 +94,7 @@ AccessKey is "qbS5QXpLORrvdrmb",
 
 AccessKeySecret is "1MYaiNh3NeN9SuxaqFjSrc7I49rWKkQCxpl9eLNZ"
 
-| |Sample|
+|-|Sample|
 |-|-|
 |Request|PUT /sign.txt   HTTP/1.1<br>Content-Type: text/plain<br>Content-MD5: 0c791a8c18017c7ad1675936d12bae5d<br>x-jss-server-side-encryption: false<br>Date: Thu, 13 Jul 2017 02:37:31 GMT<br>Authorization: jingdong qbS5QXpLORrvdrmb: xvj2Iv7WcSwnN26XYnTq/c2YBQs=<br>Content-Length: 20<br>Host: s-bj.jcloud.com|
 |The signature character string calculation formula|Signature =   base64(hmac-sha1(AccessKeySecret,<br>HTTP-Verb + "\n" <br>+ Content-MD5 + "\n"<br>+ Content-Type + "\n" <br>+ Date + "\n"<br>+ CanonicalizedHeaders<br>+ CanonicalizedResource))
@@ -128,6 +129,7 @@ String signature =  new String(Base64.encodeBase64(rawHmac), "UTF-8");
 
 The Signature calculation result shall be xvj2Iv7WcSwnN26XYnTq/c2YBQs=, because
 Authorization ="jingdong” + AccessKey + ":" + Signature. Therefore, Authorization is “jingdong qbS5QXpLORrvdrmb: xvj2Iv7WcSwnN26XYnTq/c2YBQs=", and add Authorization header to compose the final message that needs to be sent:
+
 ```
 PUT /sign.txt   HTTP/1.1
   Content-Type: text/plain
@@ -138,6 +140,7 @@ PUT /sign.txt   HTTP/1.1
   Content-Length: 20
   Host: s-bj.jcloud.com
 ```
+
 Detailed analysis:
 
 1. If the incoming AccessKey is absent or inactive, return 403 Forbidden. Error code: InvalidAccessKey.

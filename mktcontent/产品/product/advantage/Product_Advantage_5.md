@@ -4,7 +4,7 @@
 		"proNameTitle":"Cloud Disk Service",
 		"proDiffTitle":"Traditional SAN Storage",
 		"proGood":"Usability",
-		"proName":"The cloud disk can be used and managed with simple operations such as creating, attaching, detaching and deleting, which save the labor management and deployment costs.",
+		"proName":"The Cloud Disk Service can be used and managed with simple operations such as creating, attaching, detaching and deleting, which save the labor management and deployment costs.",
 		"proDiff":"The resources and services of numerous concepts, such as manual management disk/storage pool/LUN/target/starter/CHAP are complex to be operated with block storage, which easily cause error and need to be operated by the operation and maintenance professionals."
 	},
 	{
@@ -24,7 +24,7 @@
 	},
 	{
 		"proGood":"Usability",
-		"proName":"The cloud disk can be used and managed with simple operations such as creating, attaching, detaching and deleting, which save the labor management and deployment costs.",
+		"proName":"The Cloud Disk Service can be used and managed with simple operations such as creating, attaching, detaching and deleting, which save the labor management and deployment costs.",
 		"proDiff":"The resources and services of numerous concepts, such as manual management disk/storage pool/LUN/target/starter/CHAP are complex to be operated with block storage, which easily cause error and need to be operated by the operation and maintenance professionals."
 	}
 ]

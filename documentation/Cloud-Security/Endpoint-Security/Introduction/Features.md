@@ -1,10 +1,10 @@
  
 
-###  Features
+### Endpoint Security
 
-![img](file:///C:\Users\ZHANGZ~1\AppData\Local\Temp\msohtmlclip1\01\clip_image002.jpg)
+![01-intr-functions.png](https://github.com/jdcloudcom/cn/blob/endpion/image/Endpoint-Security/01-intr-functions.png?raw=true)
 
-#### Anti-brute force crack
+#### Anti-brute Force Crack
 
 It includes remote login anti-brute force crack, database anti-brute force crack, FTP anti-brute force crack. It obtains the IP of brute force crack by system logs, network data package protocol analysis and other methods. It also determines whether the results meet the protection rules and it will block the IP and report to the cloud platform if the rules are met, with the users to be informed with the password crack event suffering the them and the crack results.
 
@@ -14,7 +14,7 @@ The account password will be detected by the rules of the weak password dictiona
 
 #### Login Exception Reminder
 
-Exception login behavior can be automatically identified according to the rules set by system, followed by early warning. The user can set preferred login location, when the login address is not the preferred login  location, warning record will generate and report to the cloud platform to remind the user that there is remote login risk.
+Exception login behavior can be automatically identified according to the rules set by system, followed by early warning. The user can set preferred login location, when the login address is not the preferred login location, warning record will generate and report to the cloud platform to remind the user that there is remote login risk.
 
 #### High Risk Vulnerability Detection
 

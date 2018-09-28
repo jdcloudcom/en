@@ -7,13 +7,12 @@
 
 In Linux system, you can use the script provided by JD Cloud to detect whether there is any data disk that has not yet been partitioned and then to automatically format and attach the data disk so as to spare you of entering complex commands and going through procedures.
 
-<p>
-<img src="http://cms.jcloud.com/ueditor/dialogs/attachment/fileTypeImages/icon_rar.gif"/><a title="attach script.zip" href="http://img1.jcloudcs.com/cms/6bbc4a45-02ce-460d-9696-c31f3fa18c6f20170728174252.zip" target="_self"><span style="color: rgb(0, 0, 0); font-family: Microsoft YaHei, &quot;Microsoft YaHei&quot;; font-size: 14px;">attach script.zip</span></a>
+<p><a title="Attach Script.zip" href="http://img1.jcloudcs.com/cms/6bbc4a45-02ce-460d-9696-c31f3fa18c6f20170728174252.zip" target="_self"><span style="color: rgb(0, 0, 0); font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 14px;">Attach Script.zip</span></a>
 </p>
 <br>
 You can use this script in the following two manners:
 
-1. Without any parameter: this script will automatically partition, format and attach (default attach points include jddata1, jddata2……jddatan) all of your non-partitioned devices and realize automatic attach of cloud disk by UUID in /etc/fstab file
+1. Without any parameter: this script will automatically partition, format and attach (default attach points include jddata1, jddata2……jddatan) all of your non-partitioned devices and realize automatic attach of  Cloud Disk Service by UUID in /etc/fstab file
 
 </p>
 <pre class="brush:as3;toolbar:false;">sh
@@ -31,18 +30,18 @@ sh auto_fdisk.sh /dev/vdb jddata1 ext4</pre>
 
 1. Because related actions may lead to loss of data, before executing the actions, please ensure a valid backup of data has been done by snapshot and other means or that there is no impact of loss of relevant data;
 
-2. This script is only applicable to non-partitioned and unattached cloud disk and will not take effect to hard disk partitioned or attached;
+2. This script is only applicable to non-partitioned and unattached  Cloud Disk Service and will not take effect to hard disk partitioned or attached;
 
 3. This script will create one partition for the hard disk by default and it is non-modifiable;
 
-4. This script will write the disk UUID and attach information to /etc/fstab file in order to realize automatic attach of cloud disk. If you need to detach cloud disk, please delete corresponding /etc/fstab information, or it may result in failure to normal start by virtual machine.
+4. This script will write the disk UUID and attach information to /etc/fstab file in order to realize automatic attach of  Cloud Disk Service. If you need to detach cloud disk, please delete corresponding /etc/fstab information, or it may result in failure to normal start by Virtual Machines.
 Manually complete partitioning, formatting and attaching of data disk
 
 ## Manually complete partitioning, formatting and attaching of data disk
 
 If you need to manually partition, format and create file system, we take Centos operating system for example as an instruction as below:
 
-1. After attaching on the console, you can see a non-partitioned, formatted disk in VM. You can view the disk partition information by the following command:
+1. After attaching on the console, you can see a non-partitioned, formatted disk in Virtual Machines. You can view the disk partition information by the following command:
 
 ```
 fdisk -l
@@ -105,5 +104,5 @@ blkid /dev/vdb1
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/CloudDisk/cloud-disk/parted-format/parted_007.png)
 
 
-**Note: If the system is Centos 7 or higher, you must use nofail parameter when writing fstab; if a private image is produced for current virtual machine, the new virtual machine created based on this private image will be unable to normally start.**
+**Note: If the system is Centos 7 or higher, you must use nofail parameter when writing fstab; if a private image is produced for current Virtual Machines, the new virtual machine created based on this private image will be unable to normally start.**
 

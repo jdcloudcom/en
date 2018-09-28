@@ -7,7 +7,7 @@
 -   The billing method defaults to paying by configuration.
 -   After creation is completed, the status of the Cloud Disk is available.
 -   The optional parameter snapshot ID is used to create a new disk.
--   In batch creation, the name of the Cloud Disk is: hard disk name -number, such as myDisk-1 and myDisk-2.
+-   In batch creation, the name of the Cloud Disk is:  disk name-number, such as myDisk-1 and myDisk-2.
 -   maxCount is the maximum effort, and it is not guaranteed that maxCount can be reached.
 
 

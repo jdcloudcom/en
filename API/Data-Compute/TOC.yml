@@ -1,11 +1,11 @@
   name: Data Compute
   href: 
   items:
-  - name: Interface Overview
+  - name: API Overview
     href: overview.md
   - name: Update History
     href: ChangeLog.md
-  - name: Interface Information
+  - name: API Information
     items:
       - name: Database APIs
         items:

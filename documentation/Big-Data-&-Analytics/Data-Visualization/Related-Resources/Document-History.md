@@ -1,10 +1,10 @@
-# Document Historical Records
+# Document History
 
-This document will introduce the important update history of the Basic Anti-DDoS product document, including the major characters of the newly added products and the content updates according to user feedback.
+This document will introduce the important update history of the Anti-DDoS Basic documentation, including the major characters of the newly added products and the content updates according to user feedback.
 
 |Release Date|Characteristics|Description|
 |-|-|-|
-|July 2018|Revision|First formal release. |
+|July 2018|Revision|First Formal Release. |
 
 
 

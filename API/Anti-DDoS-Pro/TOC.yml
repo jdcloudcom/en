@@ -1,11 +1,11 @@
   name: Anti-DDoS Pro
   href: 
   items:
-  - name: Interface Overview
+  - name: API Overview
     href: overview.md
   - name: Update History
     href: ChangeLog.md
-  - name: Interface Information
+  - name: API Information
     items:
       - name: Anti-DDoS Pro Attack Record APIs
         items:
@@ -67,7 +67,7 @@
             href: Anti-DDoS-Pro-Report-APIs/ddosGraph.md
           - name: fwdGraph
             href: Anti-DDoS-Pro-Report-APIs/fwdGraph.md
-      - name:  Non Web Forwarding Configuration APIs
+      - name:  Non-website Forwarding Configuration APIs
         items:
           - name: createForwardRule
             href: Non-Web-Forwarding-Configuration-APIs/createForwardRule.md

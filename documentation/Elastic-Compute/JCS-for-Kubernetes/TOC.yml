@@ -1,5 +1,5 @@
 ﻿
-  name: JCS for Kubernetes
+  name: JCS For Kubernetes
   href: 
   items:
   - name: Introduction
@@ -16,7 +16,7 @@
         href: Introduction/Specifications.md
       - name: Restrictions
         href: Introduction/Restrictions.md
-      - name: Application Scenarios
+      - name: Application Scenarios 
         href: Introduction/Application-Scenarios.md    
   - name: Pricing
     items:
@@ -24,7 +24,7 @@
         href: Pricing/Billing-Overview.md
       - name: Purchase Process
         href: Pricing/Purchase-Process.md
-  - name: Getting-started
+  - name: Getting Started
     items:
       - name: Create Clusters
         href: Getting-Started/Create-Cluster.md

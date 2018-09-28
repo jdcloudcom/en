@@ -1,5 +1,5 @@
 
-# Instance life cycle
+# Instance Life Cycle
 
 The life cycle of instance starts at creating (purchasing) and end at releasing (monthly package instances are due; service is suspended due to insufficient balance or user take initiative to get it deleted for pay by configuration instance).
 

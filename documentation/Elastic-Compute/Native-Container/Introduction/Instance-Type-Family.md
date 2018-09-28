@@ -94,7 +94,7 @@ The second generation specification: cn-north-1, cn-east-2
    </tr>
    <tr> 
       <td rowspan="4">Memory Optimized</td>
-      <td rowspan="7">Standard</td>
+      <td rowspan="4">Standard</td>
       <td>m.n2.large</td>
       <td>2</td>
       <td>16</td>
@@ -226,7 +226,7 @@ Instance type and price of first generation container instance: cn-north-1
    </tr>
    <tr>
       <td rowspan="4">Memory Optimized</td>
-      <td rowspan="7">Standard</td>
+      <td rowspan="4">Standard</td>
       <td>m.n1.large</td>
       <td>2</td>
       <td>16</td>

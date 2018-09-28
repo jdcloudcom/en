@@ -1,29 +1,29 @@
-## Product deployment
+## Product Deployment
 
-#### What shall be done before creating an application security gateway?
+#### What shall be done before creating an Application Security Gateway?
 
-Before creating an application security gateway, it is recommended to create a load balancer, and forward Web server traffic through load balancer.
+Before creating an Application Security Gateway, it is recommended to create a Load Balancer, and forward Web server traffic through Load Balancer.
 
-Application security gateway needs to associate with the load balancer so as to protect traffic of HTTP/HTTPS.
+Application Security Gateway needs to associate with the Load Balancer so as to protect traffic of HTTP/HTTPS.
 
-#### How to manage after the original site is accessed into the load balancer?
+#### How to manage after the original site is accessed into the Load Balancer?
 
-New listening ports can be added at the load balancer to map SSH or remote desktop.
+New listening ports can be added at the Load Balancer to map SSH or remote desktop.
 
 At the same time, you can purchase an EIP to manage the server. You can only open specific management ports through setting up security groups to ensure the security of the web server.
 
-#### To enable the application security gateway, does it need to modify CNAME? And how to modify?
+#### To enable the Application Security Gateway, does it need to modify CNAME? And how to modify?
 
-#### To access the application security gateway, it does not need to modify CNAME. Application security belongs to JD Cloud VPC network, so that only traffic can reach JD application security gateway, it can be protected.
+#### To access the Application Security Gateway, it does not need to modify CNAME. Application security belongs to JD Cloud VPC network, so that only traffic can reach JD Application Security Gateway, it can be protected.
 
-#### When HTTP Service is not set with domain name, whether application security gateway can support protection?
+#### When HTTP Service is not set with domain name, whether can Application Security Gateway support protection?
 
-It supports. The application security gateway supports protection to IP, and it can be done by associating the corresponding IP on load balancer.
+It supports. The Application Security Gateway supports protection to IP, and it can be done by associating the corresponding IP on Load Balancer.
 
-#### I only have one Virtual Machine and one EIP, can I use the application security gateway without use of the load balancer?
+#### I only have one Virtual Machine and one EIP, can I use the Application Security Gateway without use of the Load Balancer?
 
-No, it cannot. The application security gateway can be used through associating with the load balancer. Currently, the load balancer is provided free, it is suggested that the application security gateway is used after creating the load balancer and associating with it.
+No, you cannot. The Application Security Gateway can be used through associating with the Load Balancer. Currently, the Load Balancer is provided free, it is suggested that the Application Security Gateway is used after creating the Load Balancer and associating with it.
 
-#### What is the amount of protection traffic supported in an application security gateway instance?
+#### What is the amount of protection traffic supported in an Application Security Gateway instance?
 
-The maximum protection traffic supported by default in an application security gateway instance is 100M, if the traffic exceeds 100M, the application security gateway will expand its capacity, which will not influence business traffic and do not require users’ actions.
+The maximum protection traffic supported by default in an Application Security Gateway instance is 100M, if the traffic exceeds 100M, the Application Security Gateway will expand its capacity, which will not influence business traffic and do not require users’ operations.

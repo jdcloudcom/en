@@ -81,9 +81,9 @@ Unzip the downloaded Agent zip packages into the/home/flumedir path and add prop
     `streaming.sources.tailDirSrc.fileHeader=true`<br><br>
     **header eventkey**<br>
     `streaming.sources.tailDirSrc.fileHeaderKey=file`<br><br>
-4. **Define channel**<br>
+4. **Define Channel**<br>
 The configuration example is as follows: <br>
-**Define channel Name**<br>
+**Define Channel Name**<br>
 `streaming.channels=memoryChannel`<br><br>
 **Define the channel type, with the channel type that can be configured as memory and file, which is defined as memory here**<br>
 `streaming.channels.memoryChannel.type=memory`<br><br>
@@ -91,8 +91,8 @@ The configuration example is as follows: <br>
 `streaming.channels.memoryChannel.capacity=1000`<br><br>
 **Define the size of the transactionCapacity, the maximum number of event that the source ChannelProcessor can write to the channel at a time. This component is responsible for moving the event in the source to the channel in a transaction.<br>
 `streaming.channels.memoryChannel.transactionCapacity =1000`<br><br>
-5. **Defining sink**<br>
-StreamingSink parameter description: <br>
+5. **Define Sink**<br>
+StreamingSink Parameter Description: <br>
     <table>
         <tr>
             <th width="150">Attribute Name</th>
@@ -102,7 +102,7 @@ StreamingSink parameter description: <br>
          <tr>
             <td>Type</td>
             <td>Yes</td>
-            <td>sinktype name: com.jcloud.flume.plugin.sink.streaming.StreamingSink</td>
+            <td>Sinktype Name: com.jcloud.flume.plugin.sink.streaming.StreamingSink</td>
         </tr>
         <tr>
             <td>uploadType</td>
@@ -138,7 +138,7 @@ StreamingSink parameter description: <br>
                                 
     **Name Corresponding to sink**<br>
     `streaming.sinks=streamingSink`<br><br>
-    **Define the sink Type**<br>
+    **Define the Sink Type**<br>
     `streaming.sinks.streamingSink.type=com.jcloud.flume.plugin.sink.streaming.StreamingSink`<br><br>
     **Define whether scheam the uploaded exists in stream**<br>
     `streaming.sinks.streamingSink.uploadType=false`<br><br>

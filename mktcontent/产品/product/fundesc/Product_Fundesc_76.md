@@ -10,7 +10,7 @@
 			{
 				"funcName":"",
 				"funcTitle":"Multiple Fault Domains of Single Availability Group",
-				"funcP":"The fault domain refers to the physical resource pools that are isolated from each other. At least 5 fault domains are allocated in a single Availability Zone by the same Availability Group, and hardware faults or scheduled maintenance in one fault domain would not affect other fault domains, thus the risk of simutaneous unavailability of all Virtual Machines in the service can be lowered. When a business is deployed, it is recommended that an Availability Group is deployed for each type of service, and there shall be at least two Virtual Machines in the Availability Group."
+				"funcP":"The fault domain refers to the physical resource pools that are isolated from each other. At least 5 fault domains are allocated in a single Availability Zone by the same Availability Group, and hardware faults or scheduled maintenance in one fault domain would not affect other fault domains, thus the risk of simultaneous unavailability of all Virtual Machines in the service can be lowered. When a business is deployed, it is recommended that an Availability Group is deployed for each type of service, and there shall be at least two Virtual Machines in the Availability Group."
 			}
 		]
 	},
@@ -30,12 +30,12 @@
 			{
 				"funcName":"",
 				"funcTitle":"Alarm Scaling Policy",
-				"funcP":"In the case of service fluctuations, it supports deploying Alarm Scaling Polity based on monitoring indicators (e.g.CPU, memory usage rate). The Virtual Machines is automatically triggered to be added or deleted when the scaling condition is met, so as to flexibly handle workload changes, guarantee service capability and save deployment cost."
+				"funcP":"In the case of service fluctuations, it supports deploying Alarm Scaling Polity based on monitoring indicators (e.g. CPU, memory usage rate). The Virtual Machines is automatically triggered to be added or deleted when the scaling condition is met, so as to flexibly handle workload changes, guarantee service capability and save deployment cost."
 			},
 			{
 				"funcName":"",
 				"funcTitle":"Timing Scaling Policy",
-				"funcP":"In the case of predicatable business fluctuations, the number of Virtual Machines in the Availability Group can be configured with Scheduled Scaling Polity to trigger scheduled adding or deleting of Virtual Machines. In the case of periodic fluctuations, repetition cycle by day/week/month is also supported."
+				"funcP":"In the case of predictable business fluctuations, the number of Virtual Machines in the Availability Group can be configured with Scheduled Scaling Polity to trigger scheduled adding or deleting of Virtual Machines. In the case of periodic fluctuations, repetition cycle by day/week/month is also supported."
 			},
 			{
 				"funcName":"",

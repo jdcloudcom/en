@@ -2,19 +2,19 @@
 # Introduction #
   Welcome to the JD Cloud Developer Php Tool Kit (Php SDK). With the JD Cloud Php SDK, you can access the services provided by JD Cloud without complex programming. 
 
-  To help you understand the meaning of some of the concepts and parameters in the SDK, we recommend that you first review [JD Cloud OpenAPI Use Getting Started](http://www.jdcloud.com/help/detail/355/isCatalog/0) before using the SDK. To understand the specific parameters and meanings of each API, refer to the program comments or the API documentation for specific product lines under the OpenAPI & SDK.
+  To facilitate the understanding of some concepts and parameters in the SDK, it's recommended to first review [JD Cloud OpenAPI Use Getting Started](http://www.jdcloud.com/help/detail/355/isCatalog/0) before using the SDK. To understand the specific parameters and meanings of each API, refer to the program comments or the API documentation for specific product lines under the OpenAPI & SDK.
 
 
 
 # Environment Preparation #
  1. The JD Cloud Php SDK is suitable for Php 5.5 and above.
 
- 2. Before apply for JD Cloud open API, [AccessKey management page](https://uc.jdcloud.com/accesskey/index) shall be called out for application of accesskey and secretKey Key Pair (AK/SK). AK/ SK information shall be kept properly and if lost, it is likely to cause illegal users to use this information to operate your resources on the cloud, resulting data or property losses.
+ 2. Before calling JD Cloud open API, it's necessary to apply for accesskey and secretKey Key Pair (AK/SK) in advance in Account Management of JD Cloud User Center[AccessKey Management Page](https://uc.jdcloud.com/accesskey/index). AK/ SK information shall be kept properly and if lost, it is likely to allow illegal users to use this information to operate your resources on the cloud, resulting in data or property losses.
 
 
 
 # SDK Usage Method #
-It is recommended to install the JD Cloud Php SDK using Composer: 
+It is recommended to install the JD Cloud Php SDK with Composer: 
 
 First add in composer.json
 
@@ -33,19 +33,19 @@ or
     composer install 
 
 
-You can also download the SDK source code yourself. The source code address is: [PhpSDK](https://github.com/jdcloud-api/jdcloud-sdk-php).
+You can also download the SDK source code yourself. The source code address is [PhpSDK](https://github.com/jdcloud-api/jdcloud-sdk-php).
 
  
 
-With any of the problems in the SDK use, you are welcomed to communicate with the Github project [SDK Use Problem Feedback page](https://github.com/jdcloud-api/jdcloud-sdk-php/issues).
+With any problems in the use of SDK, welcome to communicate at the[SDK Use Problem Feedback page](https://github.com/jdcloud-api/jdcloud-sdk-php/issues) for the Github project.
 
 
-Note: JD Cloud does not provide other downloading ways, please be sure to use the above-mentioned official download method!
+Note: JD Cloud does not provide other downloading ways, please be sure to use the above-mentioned official download method.
 
  
 
-## Call sample ##
-The following is an example of a call to creat details for individual VM Instance
+## Call Example ##
+The following is an example of a call to creat an individual VM Instance in details
 
 	use Jdcloud\Credentials\Credentials;
     use Jdcloud\Result;
@@ -93,7 +93,7 @@ The following is an example of a call to creat details for individual VM Instanc
         }
     }
 
-If you need to set up an additional header, for example to call an interface that opens the MFA operation protection, you need to pass x-jdcloud-security-token, as follows:
+If you need to set up an additional header, for example, call an interface that opens the MFA operation protection, you need to pass x-jdcloud-security-token, as follows:
 
         $res = $vm->deleteInstances([
             'regionId'  => 'cn-north-1',

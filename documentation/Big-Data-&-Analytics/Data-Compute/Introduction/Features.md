@@ -19,7 +19,7 @@ Stipulate security mechanism for data storage and access; provide the multi-dime
 ## Relevant References
 
 - [Product Overview](../Product-Introduction/Overview.md)
-- [Product Specification](../Product-Introduction/Specification.md)
+- [Specifications](../Product-Introduction/Specification.md)
 - [Price Overview](../Pricing/Price-Overview.md)
 - [Create Instance](../Getting-Started/Create-Instance.md)
 - [Modify Configuration](../Operation-Guide/Instance-Management/Modify-Instance-Spec.md)

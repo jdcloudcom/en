@@ -38,7 +38,7 @@ items:
     - name: Introduction
       herf: Getting-Started/Getting-Started.md
     - name: Create API Groups
-      herf: Getting-Started/STEP1-Create -APIGroup.md
+      herf: Getting-Started/STEP1-Create-APIGroup.md
     - name: Create APIs
       herf: Getting-Started/STEP2-Create-API.md
     - name: Customize Domain Names

@@ -13,11 +13,11 @@ The verification request based on query character string do not require any spec
 
 The URL signature must at least include three parameters of Signature, Expires, AccessKey.
 
-1. The value of the parameter Expires is a UNIX time (seconds started from UTC time 00:00 January 1, 1970), which is used to identify timeout time of such URL. The request exceeding that time will be denied. For example: the current time is 1141889060, the developer wishes to create a URL automatically invalid after 60 seconds, the Expires time can be set as 1141889120.
+1.The value of the parameter Expires is a UNIX time (seconds started from UTC time 00:00 January 1, 1970), which is used to identify timeout time of such URL. The request exceeding that time will be denied. For example: the current time is 1141889060, the developer wishes to create a URL automatically invalid after 60 seconds, the Expires time can be set as 1141889120.
 
-2. AccessKey, namely, is AccessKey in key.
+2.AccessKey, namely, is AccessKey in key.
 
-3. Signature represents signature information. The algorithm for all requests supported by JD Cloud and various Header parameters making signature in URL is basically same as the algorithm including signature in Header.
+3.Signature represents signature information. The algorithm for all requests supported by JD Cloud and various Header parameters making signature in URL is basically same as the algorithm including signature in Header.
 ```
 Signature=URL-Encode(Base64(HMAC-SHA1(UTF-8-Encoding-Of(SecretKey,StringToSign))));
 
@@ -36,11 +36,11 @@ StringToSign =HTTP-Verb + "\n"
 
 In which, compared with the algorithm including signature in the header, the main differences are as follows:
 
-1. It is required to encode the calculated signature in URL-Encode
+1.It is required to encode the calculated signature in URL-Encode
 
-2. Exchange Date in StringToSign to Expires
+2.Exchange Date in StringToSign to Expires
 
-3. Simultaneous inclusion of signature in URL and Head is not supported.
+3.Simultaneous inclusion of signature in URL and Head is not supported.
 
 Example code:
 
@@ -80,10 +80,10 @@ http://mybucket.s.jcloud.com/index.html?Expires=1369191796&AccessKey=9c379f07921
 
 Detailed analysis:
 
-1. When using a signature method in URL, it will expose your authorized data to the Internet within the expiration time, please evaluate use risks in advance.
+1.When using a signature method in URL, it will expose your authorized data to the Internet within the expiration time, please evaluate use risks in advance.
 
-2. When adding signature in URL, the order of Signature, Expires and AccessKey can be exchanged. But if one or more of Signature and AccessKey is/are missing, return 400 error. Error code: InvalidURI.
+2.When adding signature in URL, the order of Signature, Expires and AccessKey can be exchanged. But if one or more of Signature and AccessKey is/are missing, return 400 error. Error code: InvalidURI.
 
-3. If the current time of access is later than the Expires time set in the request, return 400 Forbidden. Error code: ExpiredToken.
+3.If the current time of access is later than the Expires time set in the request, return 400 Forbidden. Error code: ExpiredToken.
 
 When generating the signature character string, except that Date is replaced to Expires parameter, it still includes Headers such as Content-Type, Content-MD5.

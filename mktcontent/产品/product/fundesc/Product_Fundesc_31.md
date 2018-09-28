@@ -5,7 +5,7 @@
 			{
 				"funcName":"",
 				"funcTitle":"Quick Deployment",
-				"funcP":"Through the console, a full-featured Cloud Database MongoDB instance can be created in minutes, which can be put into use quickly to create value."
+				"funcP":"Through the console, a full-featured JCS for MongoDB instance can be created in minutes, which can be put into use quickly to create value."
 			},
 			{
 				"funcName":"",

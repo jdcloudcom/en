@@ -30,43 +30,43 @@
 
   1. Get software:
 
-  Please confirm that the Endpoint Security software package has been downloaded on the virtual machines, shown as in figure 1:
+  Please confirm that the Endpoint Security software package has been downloaded on the virtual machines, shown as in Figure 1:
 
   ![img](https://img1.jcloudcs.com/cms/52a493d5-3005-41e0-92ae-a7ad111529ad20170626123325.png)
 
   Figure 1
 
-  2. Double click the downloaded software. Shown as in figure 2
+  2. Double click the downloaded software. Shown as in Figure 2
 
   ![img](https://img1.jcloudcs.com/cms/c9183ecf-3b5b-4f5e-a73c-409335a2c4f820170626123537.png)
 
   Figure 2
 
-  3. Click “Running” button. Follow the notification to click “Next” button, shown as in figure 3:
+  3. Click “Running” button. Follow the notification to click “Next” button, shown as in Figure 3:
 
   ![img](https://img1.jcloudcs.com/cms/a3de1bf9-06a9-49c9-b2a1-5e2c5001fd9620170626123726.png)
 
   Figure 3
 
-  4.   Click “I accept” button, shown as in figure 4:
+  4.   Click “I accept” button, shown as in Figure 4:
 
   ![img](https://img1.jcloudcs.com/cms/88deb22d-1655-4ffd-b773-5f3b479dcd3020170626123833.png)
 
   Figure 4
 
-  5. You may choose the installation path, then click “Next” button, shown as in figure 5:
+  5. You may choose the installation path, then click “Next” button, shown as in Figure 5:
 
   ![img](https://img1.jcloudcs.com/cms/b701a89a-e0fb-4972-bed5-74b4b11b18d020170626123916.png)
 
   Figure 5
 
-  6.    Select “Start Menu” folder, click “Install” button, shown as in figure 6:
+  6.    Select “Start Menu” folder, click “Install” button, shown as in Figure 6:
 
   ![img](https://img1.jcloudcs.com/cms/f7cbee27-3029-4c6c-9bc3-999c22f6b70620170626124000.png)
 
   Figure 6
 
-  7.    The program begin to be installing, shown as in figure 7:
+  7.    The program begin to be installing, shown as in Figure 7:
 
   ![img](https://img1.jcloudcs.com/cms/d969ef9b-53b1-479f-8293-9f5574366e8e20170626124146.png)
 
@@ -91,7 +91,7 @@
       $ cd jcloudhids_linux64_v1.0/
   \4. The user need sudo privilege to install the program:
       $ sudo ./install.py
-  \5. Installation finished, shown as in figure 9:
+  \5. Installation finished, shown as in Figure 9:
       $ sudo ./install.py
 
   ![img](https://img1.jcloudcs.com/cms/8c4ba2d2-4f35-40b4-aa31-29d698e2c21820170626124803.png)

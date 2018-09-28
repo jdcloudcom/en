@@ -1,33 +1,33 @@
 name: JCS for Redis
 href: 
 items:
-  - name: Interface Preview
+  - name: API Preview
     href: overview.md
   - name: Update History
-    href: Changlog.md
-  - name: Interface Information
+    href: ChangeLog.md
+  - name: API Information
     items:
       - name: Redis Instance API
         items:
           - name: createCacheInstance
-            href: Redis-Instance-APIs/createCacheInstance.md
+            href: JCS-for-Redis-Instance-APIs/createCacheInstance.md
           - name: deleteCacheInstance
-            href: Redis-Instance-APIs/deleteCacheInstance.md
+            href: JCS-for-Redis-Instance-APIs/deleteCacheInstance.md
           - name: describeCacheInstance
-            href: Redis-Instance-APIs/describeCacheInstance.md
+            href: JCS-for-Redis-Instance-APIs/describeCacheInstance.md
           - name: describeCacheInstances
-            href: Redis-Instance-APIs/describeCacheInstances.md
+            href: JCS-for-Redis-Instance-APIs/describeCacheInstances.md
           - name: modifyCacheInstanceAttribute
-            href: Redis-Instance-APIs/modifyCacheInstanceAttribute.md
+            href: JCS-for-Redis-Instance-APIs/modifyCacheInstanceAttribute.md
           - name: modifyCacheInstanceClass
-            href: Redis-Instance-APIs/modifyCacheInstanceClass.md
+            href: JCS-for-Redis-Instance-APIs/modifyCacheInstanceClass.md
           - name: resetCacheInstancePassword
-            href: Redis-Instance-APIs/resetCacheInstancePassword.md
+            href: JCS-for-Redis-Instance-APIs/resetCacheInstancePassword.md
       - name: Redis Instance Type API
         items:
           - name: describeInstanceClass
-            href: Redis-Instance-type-APIs/describeInstanceClass.md
+            href: JCS-for-Redis-Instance-type-APIs/describeInstanceClass.md
       - name: Redis Quota APIs
         items:
           - name: describeUserQuota
-            href: Redis-Instance-APIs/describeUserQuota.md
+            href: JCS-for-Redis-Quota-APIs/describeUserQuota.md

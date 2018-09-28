@@ -1,4 +1,4 @@
-## Description of method of purchase
+## Description of Method of Purchase
 
 **1. Purchase from official website**
 

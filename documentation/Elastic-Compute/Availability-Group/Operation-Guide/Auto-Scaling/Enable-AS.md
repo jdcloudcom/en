@@ -1,6 +1,6 @@
 # Enable Auto-Scaling
 
-After starting the auto-scaling mode of the Availability Group, you can set up an alarm strategy based on monitoring index (such as CPU, memory utility efficiency) and pre-set time. The timing strategy of the auto-scaling will help to add or delete the quantity of VMs upon pre-set time and handle the load fluctuation condition.
+After starting the auto-scaling mode of the Availability Group, you can set up an alarm strategy based on monitoring index (such as CPU, memory utility efficiency) and pre-set time. The timing strategy of the auto-scaling will help to add or delete the quantity of Virtual Machines upon pre-set time and handle the load fluctuation condition.
 
 ## Preconditions
 The Availability Group does not currently enable auto-scaling.
@@ -21,4 +21,4 @@ You can also configure alarm strategy and timing strategy after enabling the aut
 
 ## Related References
 
-[Create Instance Template](../../Virtual-Machine/Operation-Guide/Instance-Template/Create-Instance-Template.md)
+[Create Instance Template](../../Virtual-Machines/Operation-Guide/Instance-Template/Create-Instance-Template.md)

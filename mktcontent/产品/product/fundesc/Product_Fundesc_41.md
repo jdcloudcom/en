@@ -5,7 +5,7 @@
 			{
 				"funcName":"",
 				"funcTitle":"Data Source Connection",
-				"funcP":"The Data Factory originally supports multiple common data sources, enabling connection and data collection from the services on the cloud and different data sources in the user local enviornment, which can accelerate the process of data integration. Currently, it supports cloud storage, cloud database, Data Compute, SQL Server, Oracle, MySQL, DB2 and FTP, etc."
+				"funcP":"The Data Factory originally supports multiple common data sources, enabling connection and data collection from the services on the cloud and different data sources in the user local enviornment, which can accelerate the process of data integration. Currently, it supports cloud storage, cloud database, Data Compute, SQL Server, Oracle, MySQL, DB2, FTP, etc."
 			},
 			{
 				"funcName":"",

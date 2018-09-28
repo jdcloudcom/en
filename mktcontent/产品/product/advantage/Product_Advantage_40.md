@@ -14,7 +14,7 @@
 	},
 	{
 		"proGood":"Top-speed Mass Data Analysis",
-		"proName":"The multidimensional data model is configured to support ulta-low-latency processing of ten-million-level data, and realize sub-second response to most of inqueries and adapt to the high-concurrency interactive anaysis scenario.",
+		"proName":"The multidimensional data model is configured to support ultra-low-latency processing of ten-million-level data, and realize sub-second response to most of inquiries and adapt to the high-concurrency interactive analysis scenario.",
 		"proDiff":""
 	},
 	{

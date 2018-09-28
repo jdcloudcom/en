@@ -4,7 +4,7 @@
 		"funcContent":[
 			{
 				"funcName":"",
-				"funcTitle":"Stable & efficient",
+				"funcTitle":"Stable & Efficient",
 				"funcP":"Multi-Resolution Record type, second-level TTL, high-extension sub-domain level, multi-A record Load Balancer, Chinese domain name, addition of unlimited number of resolution records, pan-parsing, URL forwarding."
 			}
 		]
@@ -35,7 +35,7 @@
 			{
 				"funcName":"",
 				"funcTitle":"Distributed monitoring services for websites",
-				"funcP":"Support self-defined ports and provide fault alarms. \n Precise traffic scheduling and smooth switching provide continuous, un interrupted services to the maximum extent. \n Support pause in case of abnormal downtime, manual-automatic switching and manual-automatic switching back. \n Meet various disaster tolerence scenarios. It is the best disaster tolerence solution."
+				"funcP":"Support self-defined ports and provide fault alarms. \n Precise traffic scheduling and smooth switching provide continuous, un interrupted services to the maximum extent. \n Support pause in case of abnormal downtime, manual-automatic switching and manual-automatic switching back. \n Meet various disaster tolerance scenarios. It is the best disaster tolerance solution."
 			}
 		]
 	}

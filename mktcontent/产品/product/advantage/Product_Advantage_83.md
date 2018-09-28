@@ -3,8 +3,8 @@
 		"proGoodTitle":"Benefits",
 		"proNameTitle":"Web Application Firewall",
 		"proDiffTitle":"",
-		"proGood":"High Reliability and High Availability",
-		"proName":"The fully automatic detection, featureing together with the attack policy, performs a real-time protection.",
+		"proGood":"Service with High Reliability and High Availability",
+		"proName":"The fully automatic detection, featuring together with the attack policy, performs a real-time protection.",
 		"proDiff":""
 	},
 	{
@@ -28,8 +28,8 @@
 		"proDiff":""
 	},
 	{
-		"proGood":"High Reliability and High Availability",
-		"proName":"The fully automatic detection, featureing together with the attack policy, performs a real-time protection.",
+		"proGood":"Service with High Reliability and High Availability",
+		"proName":"The fully automatic detection, featuring together with the attack policy, performs a real-time protection.",
 		"proDiff":""
 	}
 ]

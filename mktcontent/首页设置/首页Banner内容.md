@@ -15,13 +15,13 @@
 		"sub_title":"Build your E-commerce website in seconds",
 		"image_Url":"//img1.jcloudcs.com/cms/09b413a0-b7b1-4b16-867a-ff0efc2098b920170109152213.png",
 		"dynamic_image":"//img1.jcloudcs.com/cms/24310dd5-5372-4ab3-aa8d-29f563662d7c20170109152220.png",
-		"name":"Free Trial of JDMall E-commerce B2B system",
+		"name":"Free Trial of JDMall E-commerce B2B System",
 		"id":"11",
 		"button_title":"Try Now",
 		"main_title":"Free Trial of JDMall E-commerce B2B System"
 	},
 	{
-		"sub_title":"Purchase 2 months get 1 month free",
+		"sub_title":"Purchase 2 months and Get 1 Month Free",
 		"image_Url":"//img1.jcloudcs.com/cms/7c6485ec-78e4-4688-944c-cefcd29113f120170221104611.png",
 		"dynamic_image":"//img1.jcloudcs.com/cms/5ee04cf0-839d-4158-a602-a32abc466a5a20170221104618.png",
 		"name":"JD Cloud New Year Gift",
@@ -36,13 +36,13 @@
 		"id":"16"
 	},
 	{
-		"sub_title":"Get Virtual Machines free trial by real-name verification",
+		"sub_title":"Get Virtual Machines Free Trial by Real-name Verification",
 		"image_Url":"//img1.jcloudcs.com/cms/2741e57c-a878-4faa-870c-57b84a48bc9d20170308155348.png",
 		"dynamic_image":"//img1.jcloudcs.com/cms/3b76aa14-d1f6-4909-ba27-a3d87312732f20170308155343.png",
 		"name":"JD Cloud Experience",
 		"id":"17",
 		"button_title":"Try Now",
-		"main_title":"Exclusive for new users, wish you use cloud without any troubles"
+		"main_title":"Trouble-free Cloud Service, Exclusive for New Users"
 	},
 	{
 		"sub_title":"Lottery draw ¥500 Ecard freely, win full product category coupons be worth ¥ one million with quantity limit",
@@ -50,11 +50,11 @@
 		"dynamic_image":"//img1.jcloudcs.com/cms/42646faf-e6c0-484f-ae71-978e4670cda820170315183105.png",
 		"name":"JD Enterprise Purchase",
 		"id":"19",
-		"button_title":"Details",
+		"button_title":"More",
 		"main_title":"Enterprise Procurement Festival"
 	},
 	{
-		"sub_title":"Up to 20% off",
+		"sub_title":"Up to 20% Off",
 		"image_Url":"//img1.jcloudcs.com/cms/3ec88eb3-a4c1-4aa7-893b-48800882ecec20170320185717.png",
 		"dynamic_image":"//img1.jcloudcs.com/cms/bc3904cc-6488-46b8-829c-bbbc191856da20170320185722.png",
 		"name":"Virtual Machines Sales",
@@ -106,27 +106,27 @@
 		"backgroud_image":"//img1.jcloudcs.com/cms/a37082e5-d311-4ed9-bf3c-afa31005085620170516100205.jpg"
 	},
 	{
-		"sub_title":"Campaign time: June 1, 2017 - June 30, 2017",
+		"sub_title":"Campaign Time: June 1  - June 30, 2017",
 		"image_Url":"//img1.jcloudcs.com/cms/e6e2cd10-1cfe-4649-9c6b-91c116b2c1a920170601165731.png",
 		"dynamic_image":"//img1.jcloudcs.com/cms/93dd0edb-1126-4f1e-b1be-b59ff781775420170601165735.png",
-		"name":".top domain name promotion",
+		"name":".top Domain Name Promotion",
 		"id":"28",
-		"button_title":"Details",
-		"main_title":"Cooperate with TOP Registration Authority for Preempting”Peaked”Domain Name” with ¥7"
+		"button_title":"More",
+		"main_title":"Cooperate with TOP Registration Authority for Preempting \"Peaked\" Domain Name” with ¥7"
 	},
 	{
 		"dynamic_image":"//img1.jcloudcs.com/cms/66e2668c-0434-4274-9156-55f1fe1924c220170613104010.png",
-		"name":"618 promotion",
+		"name":"618 Promotion",
 		"id":"29",
 		"backgroud_image":"//img1.jcloudcs.com/cms/05fa6e75-cdf2-4a3b-b95e-c08ad73d6e2820170612090851.jpg"
 	},
 	{
-		"sub_title":"Powerful, highly efficient and stable commercial level cloud database",
+		"sub_title":"Powerful, Highly Efficient and Stable Commercial Level Cloud Database",
 		"image_Url":"//img1.jcloudcs.com/cms/a066a131-2c1a-4d68-aace-9029bf1a971720180416100937.png",
 		"dynamic_image":"//img1.jcloudcs.com/cms/5e53c4d1-032e-418e-a84b-8d9539e1bf9a20180416100833.png",
 		"name":"JCS for SQL Server Published Officially",
 		"id":"32",
-		"button_title":"Details",
+		"button_title":"More",
 		"main_title":"JCS for SQL Server Published Officially",
 		"backgroud_image":"//img1.jcloudcs.com/cms/abde51f8-4017-4a13-b16c-a6cfdccb38da20171107182143.png"
 	},
@@ -134,9 +134,9 @@
 		"sub_title":"Based on latest Intel Skylake processor, the performances of computing, memory have improved significantly",
 		"image_Url":"//img1.jcloudcs.com/cms/033d19b6-bdf3-4d95-816d-68e43781c89f20170714020436.png",
 		"dynamic_image":"//img1.jcloudcs.com/cms/80ed0236-3d48-4500-a2c5-1c9a4fc2b59a20170714020440.png",
-		"name":"sky Virtual Machines",
+		"name":"Sky Virtual Machines",
 		"id":"33",
-		"button_title":"Details",
+		"button_title":"More",
 		"main_title":"Next Skylake Virtual Machines"
 	},
 	{
@@ -145,7 +145,7 @@
 		"dynamic_image":"//img1.jcloudcs.com/cms/965bf0be-0192-493c-9bcf-14971248340f20171221210629.png",
 		"name":"Free Trial",
 		"id":"34",
-		"button_title":"Experience Now",
+		"button_title":"Try Now",
 		"main_title":"Free Package"
 	},
 	{
@@ -155,7 +155,7 @@
 	},
 	{
 		"dynamic_image":"//img1.jcloudcs.com/cms/c4444ec2-8066-40dc-ab09-4cdcb9331f2420170828095225.png",
-		"name":"Student Machine",
+		"name":"For Students",
 		"id":"39",
 		"backgroud_image":"//img1.jcloudcs.com/cms/d67f76ba-0cec-4583-8926-77cd07e622e220170828095231.jpg"
 	},
@@ -185,7 +185,7 @@
 		"name":"Free Public Test for JCS for SQL Server",
 		"id":"42",
 		"button_title":"Apply Now",
-		"main_title":"Use JCS for SQL Server without limit, with the cost only being ¥0.01 per day"
+		"main_title":"Use JCS for SQL Server without limit, with the cost only being one cent per day"
 	},
 	{
 		"sub_title":"Apply now, you will have chance to obtain Advanced Anti-DDoS of network free trial qualification for one month, with the amount of 20Gbps at most",
@@ -218,13 +218,13 @@
 		"backgroud_image":"//img1.jcloudcs.com/cms/745da271-2d45-4052-b717-0e759e26fcdd20171205172501.jpg"
 	},
 	{
-		"sub_title":"Interconnection at Intranet level, integration of security, agility and one-stop service",
+		"sub_title":"Interconnection at Intranet level, Integration of Security, Agility and One-stop Service",
 		"image_Url":"//img1.jcloudcs.com/cms/931e3364-5eaf-4002-b92b-bb297aaff91f20171124103518.png",
 		"dynamic_image":"//img1.jcloudcs.com/cms/e98f93ee-69a6-4f68-9360-81d614fae45020171124103403.png",
-		"name":"Mixed cloud solution published",
+		"name":"Hybrid Cloud Solution Published",
 		"id":"51",
-		"button_title":"View now",
-		"main_title":"Hybrid cloud solution published"
+		"button_title":"View Now",
+		"main_title":"Hybrid Cloud Solution Published"
 	},
 	{
 		"sub_title":"Purchase in cloud online store, enjoy JD exclusive operation secret",
@@ -237,12 +237,12 @@
 		"backgroud_image":"//img1.jcloudcs.com/cms/5ddb8a8c-baff-4074-aabc-58307638200320171215161419.png"
 	},
 	{
-		"sub_title":"New release AZ in North China will be provided with high availability service assurance with cross-AZ level",
+		"sub_title":"New release AZ in North China will be provided with high availability SLA with cross-AZ level",
 		"image_Url":"//img1.jcloudcs.com/cms/7a99ffad-77c6-4072-ae6f-11dfd79c23c220171221204757.png",
 		"dynamic_image":"//img1.jcloudcs.com/cms/dce2250a-20e0-4e26-a045-91dea263b0ca20171221204746.png",
 		"name":"North China Availability Zones",
 		"id":"58",
-		"button_title":"Experience Now",
+		"button_title":"Try Now",
 		"main_title":"North China new availability zones is formally put into service",
 		"backgroud_image":"//img1.jcloudcs.com/cms/2dfea5ca-04d2-41b6-8429-3d17e001344920171207201022.png"
 	},
@@ -262,7 +262,7 @@
 		"dynamic_image":"//img1.jcloudcs.com/cms/2b57c800-62bc-42bd-a7a4-1beedfde5e4920180102160901.png",
 		"name":"JD Cloud Matrix Business",
 		"id":"61",
-		"button_title":"Learn Details",
+		"button_title":"Learn More",
 		"main_title":"JD Cloud Matrix Business",
 		"backgroud_image":"//img1.jcloudcs.com/cms/f2278bca-2b64-40f9-ad63-8d2e9b7ef70f20180102144630.png"
 	},
@@ -272,17 +272,17 @@
 		"dynamic_image":"//img1.jcloudcs.com/cms/f0bd0f09-00e5-42bd-9d79-7dff0f1f06ab20180321104723.png",
 		"name":"New Retail Solution",
 		"id":"62",
-		"button_title":"Experience Now",
-		"main_title":"Solutions of New Retail"
+		"button_title":"Try Now",
+		"main_title":"New Retail Solution"
 	},
 	{
 		"sub_title":"JD Cloud PLUS Enterprise Email & JD Cloud PLUS Enterprise Cloud BOX",
 		"image_Url":"//img1.jcloudcs.com/cms/2d26c300-7b10-4650-aaf8-c9232145ca4c20180424170952.png",
 		"dynamic_image":"//img1.jcloudcs.com/cms/119c6f40-9908-41c2-8df9-7c923fa8b93b20180424170459.png",
-		"name":"Cloud Office new choice",
+		"name":"Cloud Office New Choice",
 		"id":"63",
-		"button_title":"Free trial",
-		"main_title":"Cloud office new choice",
+		"button_title":"Free Trial",
+		"main_title":"Cloud Office New Choice",
 		"backgroud_image":"//img1.jcloudcs.com/cms/5e35d8b3-e9fe-4ad5-8464-2d78d0c7355f20171222152221.png"
 	},
 	{
@@ -291,7 +291,7 @@
 		"dynamic_image":"//img1.jcloudcs.com/cms/a910fbe4-773b-40a7-ad57-a4f97d49d17520180417120109.png",
 		"name":"JD Cloud PLUS Enterprise Cloud Box",
 		"id":"64",
-		"button_title":"Free trial",
+		"button_title":"Free Trial",
 		"main_title":"JD Cloud PLUS Enterprise Cloud Box",
 		"backgroud_image":"//img1.jcloudcs.com/cms/742cde11-90c5-49a2-8c35-e79a116290ad20180103162428.png"
 	},
@@ -301,8 +301,8 @@
 		"dynamic_image":"//img1.jcloudcs.com/cms/a812673e-336b-455a-9121-fdf7107439ac20180404175831.png",
 		"name":"Website Solution",
 		"id":"65",
-		"button_title":"Experience Now",
-		"main_title":"Website solutions",
+		"button_title":"Try Now",
+		"main_title":"Website Solution",
 		"backgroud_image":"//img1.jcloudcs.com/cms/733708a9-b0a0-486f-aca6-938a789a45d520180404175828.png"
 	},
 	{
@@ -311,7 +311,7 @@
 		"dynamic_image":"//img1.jcloudcs.com/cms/4a509718-fe0f-4cc1-aca4-4662793f497620180208103113.png",
 		"name":"Object Storage Service 2.0 Upgrade",
 		"id":"66",
-		"button_title":"Learn Details",
+		"button_title":"Learn More",
 		"main_title":"Highlight Release of Object Storage Service 2.0",
 		"backgroud_image":"//img1.jcloudcs.com/cms/b0761253-4bc2-4b44-ab3f-21cccad924de20180208103120.png"
 	},
@@ -322,17 +322,17 @@
 		"name":"Wanxiang",
 		"id":"67",
 		"button_title":"Apply Now",
-		"main_title":"Data express only needs ¥0.01",
+		"main_title":"One-cent Data Queue",
 		"backgroud_image":"//img1.jcloudcs.com/cms/0312bf76-35fa-4ad8-ab40-d1c7aae5154420180228110700.png"
 	},
 	{
-		"sub_title":"Provide stable, secure, fast resolution experience",
+		"sub_title":"Provide stable, secure, and fast resolution experience",
 		"image_Url":"//img1.jcloudcs.com/cms/542d4487-129f-41c3-9aad-859b69e4717c20180309151741.png",
 		"dynamic_image":"//img1.jcloudcs.com/cms/71661e34-6847-4357-b43c-8bcc1ad6350520180309150706.png",
 		"name":"JD Cloud DNS",
 		"id":"68",
-		"button_title":"Hot public beta",
-		"main_title":"Brand new release for JD Cloud DNS"
+		"button_title":"Hot Public Beta",
+		"main_title":"Brand New Release for JD Cloud DNS"
 	},
 	{
 		"sub_title":"Buy hot API data with quantity limit",
@@ -350,8 +350,8 @@
 		"dynamic_image":"//img1.jcloudcs.com/cms/85b7563d-110f-45cb-ae1e-04bbf4e70f7020180328112031.png",
 		"name":"Anti-DDoS Pro",
 		"id":"70",
-		"button_title":"Learn Details",
-		"main_title":"Anti-DDoS Pro V2.0 release",
+		"button_title":"Learn More",
+		"main_title":"Anti-DDoS Pro V2.0 Released",
 		"backgroud_image":"//img1.jcloudcs.com/cms/4dd2b489-1dea-4f8d-9afa-ee7883d26c0020180328112035.png"
 	},
 	{
@@ -360,16 +360,16 @@
 		"dynamic_image":"//img1.jcloudcs.com/cms/51414841-36e3-4966-93ca-60d9de59e59c20180410095754.png",
 		"name":"Cloud Database Official Version of JCS for MongoDB published",
 		"id":"74",
-		"button_title":"Details",
-		"main_title":"Official version of JCS for MongoDB published"
+		"button_title":"More",
+		"main_title":"Official Version of JCS for MongoDB Published"
 	},
 	{
-		"sub_title":"Provide stable, secure, fast resolution experience",
+		"sub_title":"Provide stable, secure, and fast resolution experience",
 		"image_Url":"//img1.jcloudcs.com/cms/711175e8-6b34-47dd-9d74-3f5b2f57a96720180412022600.png",
 		"dynamic_image":"//img1.jcloudcs.com/cms/1980f255-91f4-4883-b3ea-efee0428b12f20180412022608.png",
 		"name":"1JD Cloud DNS 1",
 		"id":"75",
-		"button_title":"1 hot public beta 1",
+		"button_title":"1 Hot Public Beta 1",
 		"main_title":"JD Cloud DNS"
 	},
 	{
@@ -384,7 +384,7 @@
 		"dynamic_image":"//img1.jcloudcs.com/cms/9176b156-07a3-4cd1-9924-f367cb266e5220180420124359.png",
 		"name":"openApi",
 		"id":"77",
-		"button_title":"Learn Details",
+		"button_title":"Learn More",
 		"main_title":"OpenAPI is formally opened",
 		"backgroud_image":"//img1.jcloudcs.com/cms/02b233e2-b6b9-4680-ac11-89a3463699b420180419112656.jpg"
 	},
@@ -418,7 +418,7 @@
 		"dynamic_image":"//img1.jcloudcs.com/cms/89731e25-8c2c-4fad-8fcf-b23b2c52308a20180425190211.png",
 		"name":"JD Cloud Matrix Insight",
 		"id":"81",
-		"button_title":"Learn Details",
+		"button_title":"Learn More",
 		"main_title":"JD Cloud Matrix Insight"
 	},
 	{
@@ -436,8 +436,8 @@
 		"dynamic_image":"//img1.jcloudcs.com/cms/00ef8cd0-bece-4a18-b00a-02389878436720180510171008.png",
 		"name":"JCS for MongoDB New",
 		"id":"83",
-		"button_title":"Details",
-		"main_title":"JCS for MongoDB official version"
+		"button_title":"More",
+		"main_title":"Official Version of JCS for MongoDB"
 	},
 	{
 		"sub_title":"Easy to use, security isolation, start within several seconds, billing by seconds",
@@ -445,11 +445,11 @@
 		"dynamic_image":"//img1.jcloudcs.com/cms/c6e999c3-4780-4b1f-a1bf-13f9676c8b1f20180510174015.png",
 		"name":"Container Service New",
 		"id":"84",
-		"button_title":"Experience Now",
+		"button_title":"Try Now",
 		"main_title":"Container Service, 50% Off"
 	},
 	{
-		"sub_title":"Registration enterprise purchase users will obtain 1088 JD bean",
+		"sub_title":"Registration enterprise purchase users will obtain 1,088 JD beans",
 		"image_Url":"//img1.jcloudcs.com/cms/4d9a3011-b706-448b-90cb-cfda93edbfef20180515163659.png",
 		"dynamic_image":"//img1.jcloudcs.com/cms/6294a5b2-f2e7-48be-b36c-4bf3bcfab1b220180515163636.png",
 		"name":"JD Cloud Empowers Enterprise Purchase",
@@ -482,7 +482,7 @@
 		"name":"Availability Group",
 		"id":"89",
 		"button_title":"Apply Now",
-		"main_title":"Availability group Available Now"
+		"main_title":"Availability Group Available Now"
 	},
 	{
 		"sub_title":"http/https real-time detection, fault alarm, disaster tolerance failover",
@@ -503,10 +503,10 @@
 		"sub_title":"AI, financial credit, business information, life services, traffic geography",
 		"image_Url":"//img1.jcloudcs.com/cms/04cacf08-8a70-48b4-a019-6a7431549cb120180601182518.png",
 		"dynamic_image":"//img1.jcloudcs.com/cms/56b4480b-7535-450f-bdda-d39dc0b31d9220180601182522.png",
-		"name":"Penny Data API Queue",
+		"name":"One-cent Data API Queue",
 		"id":"92",
-		"button_title":"Experience Now",
-		"main_title":"Penny data API queue"
+		"button_title":"Try Now",
+		"main_title":"One-cent Data API Queue"
 	},
 	{
 		"dynamic_image":"//img1.jcloudcs.com/cms/cb4ee587-50bb-4a9a-8a50-af5f808ff7c520180607114942.png",
@@ -522,7 +522,7 @@
 	},
 	{
 		"dynamic_image":"//img1.jcloudcs.com/cms/f9e75230-2b41-4636-819b-0bbb7df67a7a20180628194434.png",
-		"name":"Big data JD XI Session",
+		"name":"Big Data JD XI Session",
 		"id":"95",
 		"backgroud_image":"//img1.jcloudcs.com/cms/13978ff8-8190-4987-86f1-f72a581b824820180621150658.png"
 	},
@@ -532,7 +532,7 @@
 		"dynamic_image":"//img1.jcloudcs.com/cms/1119fa6b-42a2-4015-9874-1f8b2dab945620180622182508.png",
 		"name":"Web Application Firewall Released",
 		"id":"96",
-		"button_title":"Learn Details",
+		"button_title":"Learn More",
 		"main_title":"Web Application Firewall Released"
 	},
 	{
@@ -541,26 +541,26 @@
 		"dynamic_image":"//img1.jcloudcs.com/cms/413deccb-8e09-4534-a139-09c042d8891e20180625171551.png",
 		"name":"JCS for Percona Launched",
 		"id":"97",
-		"button_title":"Details",
+		"button_title":"More",
 		"main_title":"JCS for Percona Launched"
 	},
 	{
 		"sub_title":"Be horizontally scalable, high performance database supporting on-line transaction and real-time analysis",
 		"image_Url":"//img1.jcloudcs.com/cms/6e36dcfd-0e11-425d-84ea-7985f054b72620180702113601.png",
 		"dynamic_image":"//img1.jcloudcs.com/cms/330897ae-2b70-415d-8f70-13ffb48657b020180702113606.png",
-		"name":"Distributed Database TiDB Open Test",
+		"name":"TiDB Service Open Beta",
 		"id":"98",
-		"button_title":"Details",
-		"main_title":"Distributed Database TiDB Service Open Test"
+		"button_title":"More",
+		"main_title":"Distributed Database TiDB Service Open Beta"
 	},
 	{
 		"sub_title":"Construct elastic network architecture with scalability and high availability",
 		"image_Url":"//img1.jcloudcs.com/cms/971b5540-61cd-443b-8b54-1b32a644ee2e20180705180128.png",
 		"dynamic_image":"//img1.jcloudcs.com/cms/cd297e85-03ac-4263-93c2-aad66f09558220180705175728.png",
-		"name":"Elastic Network Interface open test",
+		"name":"Elastic Network Interface Open Beta",
 		"id":"99",
 		"button_title":"Apply Now",
-		"main_title":"Elastic Network Interface open test"
+		"main_title":"Elastic Network Interface Open Beta"
 	},
 	{
 		"sub_title":"Provide free big data correlation analysis, multiple sources log access and threat model correlation",
@@ -575,22 +575,22 @@
 		"sub_title":"Message middle-ware with high reliability, high availability and high processing performance ",
 		"image_Url":"//img1.jcloudcs.com/cms/dc193b6b-03a8-4a05-ac94-cc60891a750320180717161453.png",
 		"dynamic_image":"//img1.jcloudcs.com/cms/860035b1-44b6-4985-8adc-86d3314cac8720180717161456.png",
-		"name":"Message Queue Open Test",
+		"name":"Message Queue Open Beta",
 		"id":"101",
-		"button_title":"Details",
-		"main_title":"Message Queue Open Test"
+		"button_title":"More",
+		"main_title":"Message Queue Open Beta"
 	},
 	{
 		"sub_title":"Manage node full hosting, rapidly create high reliable JCS for Kubernetes with powerful functions",
 		"image_Url":"//img1.jcloudcs.com/cms/4edbfe6f-8611-4f9b-b291-7f1d4c4571ee20180719111838.png",
 		"dynamic_image":"//img1.jcloudcs.com/cms/bf1b1c38-3503-47dd-baf0-6ae29542c4f320180719111858.png",
-		"name":"JCS for Kubernetes Open Test",
+		"name":"JCS for Kubernetes Open Beta",
 		"id":"102",
-		"button_title":"Details",
-		"main_title":"JCS for Kubernetes Open Test"
+		"button_title":"More",
+		"main_title":"JCS for Kubernetes Open Beta"
 	},
 	{
-		"sub_title":"Exclusive, isolated, high performance physical server leasing service",
+		"sub_title":"Exclusive, isolated, and high performance physical server leasing service",
 		"image_Url":"//img1.jcloudcs.com/cms/796457d4-3e84-4122-abdb-0b76f0de866720180719201716.png",
 		"dynamic_image":"//img1.jcloudcs.com/cms/e7d16e62-a51d-4559-b809-a2c70fc5c8cb20180719201722.png",
 		"name":"Cloud Physical Server Available - 90% Off",
@@ -605,7 +605,7 @@
 		"backgroud_image":"//img1.jcloudcs.com/cms/3cceae31-882e-4ed1-b3a2-0230a3fcdc3120180720095600.png"
 	},
 	{
-		"sub_title":"Support associating container,  Availability Group, support elastic expansion, the product architecture is more flexible",
+		"sub_title":"Support associating container, Availability Group, support elastic expansion, the product architecture is more flexible",
 		"image_Url":"//img1.jcloudcs.com/cms/1a624d07-2b7a-4363-8917-38cba70c4f8020180809112853.png",
 		"dynamic_image":"//img1.jcloudcs.com/cms/e35e61dd-f467-48c8-b8ed-bc21a91bc09c20180809112857.png",
 		"name":"Load Balancer Product Up-Gradation and Revision",
@@ -623,7 +623,7 @@
 		"main_title":"JCS for MariaDB"
 	},
 	{
-		"sub_title":"Hosted Service based on Reliable Power and Network with T3+ Quality Server Room",
+		"sub_title":"Hosted Service based on Reliable Power-supply and Network with T3+ Quality Server Room. Cloud Cabinet Service Announce Public Preview",
 		"image_Url":"//img1.jcloudcs.com/cms/4ebeffae-a1b0-40f6-b54f-01576a83db2720180830190526.png",
 		"dynamic_image":"//img1.jcloudcs.com/cms/cdd9c18a-d258-4814-b03c-9d08240281d220180830190530.png",
 		"name":"Cloud Cabinet Service in Beta",
@@ -635,10 +635,10 @@
 		"sub_title":"Provides Compliant Protection for VPC Boundary and Internal Web Security with High Performance Resources and Exclusive WAF",
 		"image_Url":"//img1.jcloudcs.com/cms/52d0f88c-9469-4813-a56b-fdf44ef6ed6720180830191256.png",
 		"dynamic_image":"//img1.jcloudcs.com/cms/adb81821-34a8-4187-a9cb-0bcf67839b0520180830191301.png",
-		"name":"Application Security Gateway Goes Online",
+		"name":"App Security Gateway Newly Released",
 		"id":"108",
 		"button_title":"More",
-		"main_title":"Application Security Gateway Goes Online"
+		"main_title":"App Security Gateway Newly Released"
 	},
 	{
 		"dynamic_image":"//img1.jcloudcs.com/cms/b2446640-69c6-42eb-b66c-8dde8e9d237020180831153207.png",
@@ -662,10 +662,10 @@
 		"main_title":" JD Cloud Industry Chain Ecosystem Empowerment"
 	},
 	{
-		"sub_title":"Fully-hosted Private Image Registry, One-stop Depoyment Service, 90% Off Now",
+		"sub_title":"Fully-hosted Private Image Registry, One-stop Deployment Service, 90% Off Now",
 		"image_Url":"//img1.jcloudcs.com/cms/05502018-8106-4b8d-bb05-55a18c50da6320180915180235.png",
 		"dynamic_image":"//img1.jcloudcs.com/cms/c3be633c-40a3-4a3b-b4a3-99dd27a6a27620180915180241.png",
-		"name":"Open Beta Test of Container Registry",
+		"name":"Open Beta of Container Registry",
 		"id":"623",
 		"button_title":"More",
 		"main_title":"Container Registry in Beta"

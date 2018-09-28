@@ -5,7 +5,7 @@
 			{
 				"funcName":"",
 				"funcTitle":"Alarm Scaling Mode",
-				"funcP":"It adjusts service deployment based on the VM monitoring performance indicators (such as CPU, memory usage rate, inbound and outbound network flow, etc), which can customize the alarm trigger policy. When the workloads drive the indicators to the threshold value, the VM instances will be automatically added or decreased based on the set policy, so as to flexibly respond to workload changes and improve the resource utilization rate."
+				"funcP":"It adjusts service deployment based on the VM monitoring performance indicators (such as CPU, memory usage rate, inbound and outbound network flow), which can customize the alarm trigger policy. When the workloads drive the indicators to the threshold value, the VM instances will be automatically added or decreased based on the set policy, so as to flexibly respond to workload changes and improve the resource utilization rate."
 			}
 		]
 	},
@@ -15,7 +15,7 @@
 			{
 				"funcName":"",
 				"funcTitle":"Scheduled Scaling Mode",
-				"funcP":"In the case of predictable workload changes, a scheduled task can be set up to plan for the resources increase/decrease in advance. Periodic tasks can be configured to automatically increase or decrease the VM instances on a scheduled basis, so as to flexible respond to workload changes and improve the resource utilization rate. When periodic demand fluctuates, the alarm scaling mode can also be configured to deal with unpredicable changes."
+				"funcP":"In the case of predictable workload changes, a scheduled task can be set up to plan for the resources increase/decrease in advance. Periodic tasks can be configured to automatically increase or decrease the VM instances on a scheduled basis, so as to flexible respond to workload changes and improve the resource utilization rate. When periodic demand fluctuates, the alarm scaling mode can also be configured to deal with unpredictable changes."
 			}
 		]
 	},

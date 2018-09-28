@@ -5,7 +5,7 @@
 			{
 				"funcName":"",
 				"funcTitle":"Configuration Management Database (CMDB)",
-				"funcP":"CMDB is the basis for enabling other features by DevOps. With a visual topology tree, the relationship among nodes is clear at a glance. permission management based on the service tree, supports resource pool management and allocation for the host and provides diversified API interfaces. \n"
+				"funcP":"CMDB is the basis for enabling other features by DevOps. With a visual topology tree, the relationship among nodes is clear at a glance. Permission management based on the service tree, supports resource pool management and allocation for the host and provides diversified API interfaces. \n"
 			}
 		]
 	},
@@ -15,7 +15,7 @@
 			{
 				"funcName":"",
 				"funcTitle":"One-stop Management",
-				"funcP":"DevOps supports elastic buiding and can be extended to the constomerized building enviroment of different languages, with the built enviroment self-isolated. It realizes the rapid expansion and reduciton to cope with explosive growth of business and provides the one-stop management from code creation, deployment and application service lifetime."
+				"funcP":"DevOps supports elastic building and can be extended to the customized building environment of different languages, with the built environment self-isolated. It realizes the rapid expansion and reduction to cope with explosive growth of business and provides the one-stop management from code creation, deployment and application service lifetime."
 			}
 		]
 	},

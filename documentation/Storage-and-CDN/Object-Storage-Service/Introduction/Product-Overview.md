@@ -17,13 +17,13 @@ Reduced Redundancy Storage: reduced redundancy storage provides users with objec
 
 [Billing Rules](../Pricing/Billing-Rules.md) 
 
-[Basic actions of OSS](../Operation-Guide/Sign-Up-Service.md)
+[Basic actions of OSS](../Operation-Guide/Sign-Up-Service-2.md)
 
-[Picture processing](../Operation-Guide/Image-Service-Guide/Introduction.md)
+[Picture processing](../Operation-Guide/Image-Service-Guide/Introduction-1.md)
 
 [Video Processing](../Operation-Guide/Video-Service-Guide/Video-Service-Guide-Overview.md)
 
-[Compatible S3 APIs](../API-Reference-S3-Compatible/Introduction.md)
+[Compatible S3 APIs](../API-Reference-S3-Compatible/Introduction-2.md)
 
 [JAVA SDK](../API-Reference-S3-Compatible/Compatibility-Tools/SDK-Java.md)
 

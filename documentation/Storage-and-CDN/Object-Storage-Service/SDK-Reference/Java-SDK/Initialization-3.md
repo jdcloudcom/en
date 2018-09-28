@@ -4,7 +4,7 @@ JingdongStorageService (JSS) is the core class of JD Cloud object storage servic
 
 ## Determine Endpoint
 
-Please read the part of “[basic concepts](http://www.jdcloud.com/help/detail/1177/isCateLog/1)-access domain name” to understand the concepts relevant to Endpoint.
+Please read the part of “[basic concepts](../../API-Reference/Introduction/Basic-Concepts.md)-access domain name” to understand the concepts relevant to Endpoint.
 
 ## Configure key
 

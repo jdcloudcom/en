@@ -1,11 +1,11 @@
-# Billing overview
+# Billing Overview
 ## Rates
-The rates of block chain data service are based on the specifications and storage space of instances. Please view [Price Overview](to be supplemented) for details
+The rates of Block Chain data service are based on the specifications and storage space of instances. Please view [Price Overview](to be supplemented) for details
 
 ## Expiration description
-See the following for the retention policy for expired block chain data service.
+See the following for the retention policy for expired Block Chain data service.
 
-|Billing type|Expiration/arrears processing logic|
+|Billing type|Expiration/Arrears processing logic|
 |---|---|
 |Monthly package|When the instance is overdue, the billing status will be marked as the overdue status and service will be unavailable. If there is no renewal within 7 days, instance data will be deleted after 7 days and cannot be recovered. |
 

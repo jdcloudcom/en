@@ -12,4 +12,4 @@ JDK1.7 and the above
 
 **How to configure it?**
 
-When using the command line, you need to configure the xdata_config.ini. After downloading the client file of xDatacmd, please decompress it. Enter the conf file; find the file of xdata_config.ini and perform configuration; add user’s default database and user’s verification information.
+When using the command line, you need to configure the xdata_config.ini. After downloading the client file of xDatacmd, please decompress it. Enter the conf file, find the file of xdata_config.ini and perform configuration, and add user’s default database and user’s verification information.

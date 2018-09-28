@@ -1,6 +1,6 @@
-# Document Historical Records
+# Document History
 
-This document will introduce the important update history of the data computing service product document, including the major characters of the newly added products and the content updates according to user feedback.
+This document will introduce the important update history of the Data Compute Documentation, including the major characters of the newly added products and the content updates according to user feedback.
 
 |Release Date|Character|Description|
 |-|-|-|
@@ -10,5 +10,5 @@ This document will introduce the important update history of the data computing 
 
 ## Relevant References
 
-- [Product overview](../Introduction/What-Is-Advanced-Anti-DDoS.md)
+- [Product Overview](../Introduction/What-Is-Advanced-Anti-DDoS.md)
 

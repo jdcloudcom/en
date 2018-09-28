@@ -1,21 +1,31 @@
 
 # Produce image with SSH
 
-As for producing container images, please refer to the part for container image production; below we introduce the production of images with SSH based on centos; Dockerfile shall be modified.
+As for producing container images, please refer to the part for docker image production; below we introduce the production of images with SSH based on centos; Dockerfile shall be modified.
 
 Dockerfile with contents as follows:
 
 
 FROM centos:latest
+
 MAINTAINER jcloud www.jdcloud.com
+
 RUN yum install openssh-server net-tools -y
+
 RUN mkdir /var/run/sshd
+
 RUN echo 'root:jcloudA#699' | chpasswd
+
 RUN sed -i 's/PermitRootLogin prohibit-password/PermitRootLogin yes/' /etc/ssh/sshd_config
+
 RUN sed -i '/Port 22/a\Port 4011' /etc/ssh/sshd_config
+
 RUN ssh-keygen -A
+
 EXPOSE 4011
+
 CMD ["/usr/sbin/sshd","-D"]
+
 Description:
 
 　　FROM: Essential command, take certain image as base image; take centos for example. For example FROM <image_name>, or FROM <image_name>: <tag>. If not added tag, is latest by default. Seek for base image in local Container Registry at first, if there is none, query in docker registry online.

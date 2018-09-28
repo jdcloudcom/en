@@ -1,6 +1,6 @@
-# Instance type
+# Instance Type
 
-| Type      | Storage space (GB) |
+| Type      | Storage Space (GB) |
 | --------- | -------------- |
 | 56 core 224GB | 6000           |
 

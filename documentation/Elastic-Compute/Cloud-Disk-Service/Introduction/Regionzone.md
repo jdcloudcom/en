@@ -1,7 +1,7 @@
 # **Region and availability zone**
 JD Cloud supports users to deploy cloud business at different locations, and to prevent simple point risk possibly brought by single region deployment, multiple availability zone deployment is suggested to be considered at the deployment scheme design stage.
 
-Note: After creation of cloud disk, its region or availability zone cannot be changed.
+Note: After creation of Cloud Disk Service, its region or availability zone cannot be changed.
 
 **JD Cloud region and availability zone distribution**
 
@@ -185,7 +185,7 @@ Different products of JD Cloud belong to different locations, and some are globa
     <tbody style="margin: 0px; padding: 0px;">
         <tr style="margin: 0px; padding: 0px;">
             <td class="confluenceTd" style="margin: 0px; padding: 7px 8px; border-color: rgb(237, 237, 237); vertical-align: top;" width="58">
-                <span style="font-family: Microsoft YaHei, &quot;Microsoft YaHei&quot;; color: rgb(0, 0, 0);">cloud disk&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+                <span style="font-family: Microsoft YaHei, &quot;Microsoft YaHei&quot;; color: rgb(0, 0, 0);">Cloud Disk Service&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
             </td>
             <td class="confluenceTd" style="margin: 0px; padding: 7px 8px; border-color: rgb(237, 237, 237); vertical-align: top;" width="41">
                 <span style="font-family: Microsoft YaHei, &quot;Microsoft YaHei&quot;; color: rgb(0, 0, 0);">available in a single availability zone in the single region&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>

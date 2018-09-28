@@ -1,4 +1,3 @@
-
 #  Benefits
 
 Security isolation: Adopt independent kernel technology and base on the isolation of VM to avoid safety loophole of shared kernel among containers; realize complete isolation between different lessees basing on SDN technology.

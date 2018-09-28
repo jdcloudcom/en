@@ -23,7 +23,7 @@ https://oss.jdcloud-api.com/v1/regions/{regionId}/buckets/{bucketname}/objectkey
 |**x-jss-move-source**|String|True||source Information|
 
 
-## Return parameter
+## Response   parameter
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
@@ -40,7 +40,7 @@ https://oss.jdcloud-api.com/v1/regions/{regionId}/buckets/{bucketname}/objectkey
 |**etag**|String||
 |**lastModified**|String||
 
-## Return code
+## Response   code
 |Return code|Description|
 |---|---|
 |**200**|OK|

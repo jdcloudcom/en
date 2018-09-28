@@ -15,7 +15,6 @@ Query Log Download Link (downloadUrlInterval)
 | end_time   | String   | No           | Not a compulsory parameter; if no parameter is uploaded, it is current time by default                            |
 | interval   | String   | No           |HOUR (download by hour), DAY (download by day), if there is no uploading or the uploading is wrong, it will download by hour. Notes: HOUR (download by hour) is .log file, DAY (download by day) is .zip file. |
 
-## 
 
 ## **3. Description of Returned Parameter Data**
 
@@ -31,11 +30,11 @@ Query Log Download Link (downloadUrlInterval)
 
 ## **4. Call Example**
 
-- ### **Request Address**
+ **Request Address**
 
 http://opencdn.jcloud.com/api/downloadUrlInterval
 
-- ### **Request Example**
+ **Request Example**
 
 - Curl Format
 
@@ -43,7 +42,7 @@ http://opencdn.jcloud.com/api/downloadUrlInterval
 curl -H "Content-type:application/json" -X POST -d '{"username":"test_user","signature":"d847267fc702273abf394dd0c3128d64","domain":"www.a.com,www.b.com","start_time":"2017-10-19 00:00","end_time":"2017-10-19 23:59","interval":"DAY"}' http://opencdn.jcloud.com/api/downloadUrlInterval
 ```
 
-- Json Format
+* Json Format
 
 ```
 http://opencdn.jcloud.com/api/downloadUrlInterval
@@ -57,9 +56,9 @@ http://opencdn.jcloud.com/api/downloadUrlInterval
  }
 ```
 
-- ### **Return Instructions**
+ **Return Instructions**
 
-•        Json Format
+ **Json Format**
 
 ```
 {
@@ -77,7 +76,7 @@ http://opencdn.jcloud.com/api/downloadUrlInterval
 }
 ```
 
-- ### **Return Example**
+**Return Example**
 
 ```
 {

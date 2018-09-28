@@ -5,7 +5,7 @@ Kubernetes Service defines such a kind of abstraction: Logical grouping of Pod, 
 
 Service is REST object in Kubernetes, similar to Pod. Like all REST objects, Service definitions can request apiserver to create new instances based on POST mode.
 
-JD Cloud Kubernetes integrates Load Balancer services, supports the creation of LoadBalance-type Services, and provides the secure and reliable network for applications.
+JD Cloud Kubernetes integrates load balancer services, supports the creation of LoadBalance-type Services, and provides the secure and reliable network for applications.
 
 1. Create service that supports LoadBalance type. The yaml file is defined as follows:
 

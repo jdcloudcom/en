@@ -1,6 +1,7 @@
 # Create Bucket
 
 You can use JingdongStorageService.createBucket to create Bucket. The following codes demonstrate the method of creating a Bucket:
+
 ```
 // Take cn-north-1 as an example for endpoint, and fill in according to actual situation for other regions  
 String endpoint = "oss.cn-north-1.jcloudcs.com";  
@@ -22,6 +23,7 @@ jss.createBucket(bucketName);
 //Close jss  
 jss.destroy();
 ```
+
 Notification:
 
 * See naming specification in “Basic Concepts” for the naming specification of Bucket.

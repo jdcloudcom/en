@@ -1,5 +1,5 @@
 # Efficient Usage of Secondary Index
-TiDB supports for full secondary indexing and global indexing, and many of queris can be optimized by index. It is important for the business to utilize the secondary index well. Many MySQL experiences are still applicable for TiDB, but TiDB has its own characteristics. Note, this section is mainly discussing the best practice of secondary index used in TiDB.
+TiDB supports for full secondary indexing and global indexing, and many of queris can be optimized by index. It is important for the business to utilize the secondary index well. Many MySQL experiences are still applicable for TiDB, but TiDB has its own characteristics. Note, this section is mainly discussing the best practices of secondary index used in TiDB.
 
 - Number of Secondary indexes
 Secondary index can accelerate queries while there is a side-effect when increasing a new index. In the previous section, we introduced the storage model of index. Every index is added, a new Key-Value is needed. The more indexes, the slower the writes and the lager the space needed. Besides, too many index may affect the optimizers’ runtime, and the improper index may mislead the optimizer. So the index is not as much as possible.

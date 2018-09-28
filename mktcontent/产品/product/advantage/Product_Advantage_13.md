@@ -3,7 +3,7 @@
 		"proGoodTitle":"Benefits",
 		"proNameTitle":"CDN",
 		"proDiffTitle":"",
-		"proGood":"Private butler, stable and reliable",
+		"proGood":"Private Butler, Stable and Reliable",
 		"proName":"The professional operation and maintenance team of JD has years of experience in providing technical support for big sales promotion activities, it treats every customer as VIP and provides them with all-weather SLA. ",
 		"proDiff":""
 	},
@@ -18,17 +18,17 @@
 		"proDiff":""
 	},
 	{
-		"proGood":"Accurate dispatching, top-speed experience",
-		"proName":"Based on JD’s own IP address library and intelligently integrated cloud scheduling technology, over 95% hit ratio and topspeed user experience can be achieved.",
+		"proGood":"Accurate Dispatching, Top-speed Experience",
+		"proName":"Based on JD’s own IP address library and intelligently integrated cloud scheduling technology, over 95% hit ratio and top speed user experience can be achieved.",
 		"proDiff":""
 	},
 	{
-		"proGood":"Elastic service, back-to-source reduction",
+		"proGood":"Elastic Service, Back-to-source Reduction",
 		"proName":"Elastic deployment of massive redundant resources and CDN cloud architecture enable low load, high hit ratio, elastic catche and minimum back-to-source. ",
 		"proDiff":""
 	},
 	{
-		"proGood":"Private butler, stable and reliable",
+		"proGood":"Private Butler, Stable and Reliable",
 		"proName":"The professional operation and maintenance team of JD has years of experience in providing technical support for big sales promotion activities, it treats every customer as VIP and provides them with all-weather SLA. ",
 		"proDiff":""
 	}

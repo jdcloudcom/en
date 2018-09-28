@@ -12,7 +12,7 @@
 
 6. Data to be prepared prior to filing:
 
-   ① Clear color pictures of theBusiness License (Unified Social Credit Code)
+   ① Clear color pictures of the Business License (Unified Social Credit Code)
 
    ② Clear color pictures of the front and back of legal person’s ID card
 

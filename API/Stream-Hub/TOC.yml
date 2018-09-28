@@ -1,11 +1,11 @@
   name: Stream Hub
   href: 
   items:
-  - name: Interface Overview
+  - name: API Overview
     href: overview.md
   - name: Update History
     href: changelog.md
-  - name: Interface Information
+  - name: API Information
     items:
       - name: TOPIC APIs
         items:

@@ -19,7 +19,7 @@ https://oss.jdcloud-api.com/v1/regions/{regionId}/buckets
 None
 
 
-## Return parameter
+## Response   parameter
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String||
@@ -42,7 +42,7 @@ None
 |**displayName**|String||
 |**id**|String||
 
-## Return code
+## Response   code
 |Return code|Description|
 |---|---|
 |**200**|OK|

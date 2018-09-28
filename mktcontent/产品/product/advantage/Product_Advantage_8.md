@@ -2,7 +2,7 @@
 	{
 		"proGoodTitle":"Benefits",
 		"proNameTitle":"JCS for Redis",
-		"proDiffTitle":"Traditional Self-built Database",
+		"proDiffTitle":"Self-built Redis",
 		"proGood":"Low Cost",
 		"proName":"It configures, runs, extends JCS for Redis without operations such as machine installation, and deployment, operation and maintenance of the database. It has features like resource monitoring and stability maintenance so as to reduce daily maintenance workloads.",
 		"proDiff":"Need to set up corresponding services by special personnel; it is time-consuming and labor-consuming, with high manpower costs."

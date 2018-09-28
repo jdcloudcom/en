@@ -12,12 +12,12 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/subnet
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID, the Region and Availability Zone Supported by the Cloud Physical Servers can be Called by Calling APIs (describeRegions)|
+|**regionId**|String|True||Region ID, the Region and Availability Zone supported by the Cloud Physical Servers can be obtained by calling APIs (describeRegions)|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**az**|String|True||Availability Zone, as cn-east-1a; the Availability Zones Supported by the Cloud Physical Servers in the Region can be called by Calling APIs (describeRegions)|
+|**az**|String|True||Availability Zone, as cn-east-1a; the Availability Zones Supported by the Cloud Physical Servers in the Region can be obtained by Calling APIs (describeRegions)|
 
 
 ## Return parameter

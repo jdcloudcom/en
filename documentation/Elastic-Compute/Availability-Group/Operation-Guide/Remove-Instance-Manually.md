@@ -1,4 +1,4 @@
-# Manually Remove VMs
+# Manually Remove Virtual Machines
 
 For Availability Groups, you can control new instances and remove instances. Corresponding to the new instances, there are two ways to remove instances: manual and automatic. If you need to manually remove instances, you need to follow these steps:
 
@@ -8,7 +8,7 @@ For Availability Groups, you can control new instances and remove instances. Cor
 1. Access[High Availability Groups Console](https://cns-console.jdcloud.com/availabilitygroup/list) to enter the Availability Groups List page. Or access[JD Cloud Console](https://console.jdcloud.com) and then click on the left navigation bar **Elastic Compute**-**High Availability Groups** to enter the Availability Groups List page.
 2. Choose region.
 3. Find the Availability Group and click the name to enter the details page.
-4. Click **Instance Tab** to find the VM that needs to be removed, and click the **Remove** button.
+4. Click **Instance Tab** to find the Virtual Machines that needs to be removed, and click the **Remove** button.
 5. The window for secondary confirmation will pop up, and click **OK** to trigger the removal operation.
 
 		Please note that:

@@ -4,28 +4,28 @@
 Confirm region and instance configuration
 **Confirm the region of the Instance**
 
-The complete isolation between different regions of JD Cloud ensures the greatest degree of stability and fault tolerance across different regions. It currently covers four regions: cn-north 1, cn-south-1, cn-east 1 and cn-east 2. At present, Kubernetes Service is opened in cn-north 1, cn-south-1, cn-east 2. In the future, we will gradually increase more service areas to meet your business needs.
+The complete isolation between different regions of JD Cloud ensures the greatest degree of stability and fault tolerance across different regions. It currently covers four regions: cn-north-1, cn-south-1, cn-east-1 and cn-east-2. At present, Kubernetes Service is opened in cn-north-1, cn-south-1, cn-east-2. In the future, we will gradually increase more service areas to meet your business needs.
 
 When choosing a region, you had better consider the following points:
 
  - The deployment relationship between clusters and other JD Cloud products. 
  - Cloud products from different regions are not allowed to communicate through intranet by default.
  Cluster by default is not allowed to communicate Cross-region, and can not access cloud databases and cloud caches across regions
-   When the VM instance associates the public network IP and the security group, it can only associate the EIP and security groups in the same area; when the Virtual Machine instance associates the disk, it can only associate the disk in the same availability zone      
+   When the VM instance associates EIP and the security group, it can only associate EIP and security groups in the same area; when the virtual machine instance associates the disk, it can only associate the disk in the same availability zone      
  - The above-mentioned intranet interconnection refers to the interconnection of resources under the same account, and the intranet of resources under different accounts is completely isolated.
 
 Select VM instance configuration
 
-It is recommended that you use Pay by Configuration billing instances for performance testing to find instance type and other resource configurations that match your business volume before deploying the business formally. It only supports the second generation of instance type, and can be referred to instance specification types.
+It is recommended that you use pay by configuration billing instances for performance testing to find instance type and other resource configurations that match your business volume before deploying the business formally. It only supports the second generation of instance type, and can be referred to instance specification types.
 
 **Create Cluster**
 
- 1. Open the console and select Elastic Compute>>Kubernetes Service>>cluster service>>cluster
- 2. Choose the creation region, click the “Create” button, it is suggested that you choose the cluster location and available area according to the business situation; by default, it is recommended that you select all available areas under the specified area in the default mode; you can also cancel an Availability Zone that has been selected and ensure that at least one available area is selected.
+ 1. Open the console and select Elastic Compute>>JCS for Kubernetes>>cluster service>>cluster
+ 2. Choose the creation region, click the “Create” button, it is suggested that you choose the cluster location and available area according to the business situation; by default, it is recommended that you select all available areas under the specified area in the default mode; you can also cancel an availability zone that has been selected and ensure that at least one available area is selected.
  3. Set the name and description: Name should not be null, which only supports Chinese text, figures, uppercase and lowercase letters, English text, underline “ _ ” and line-through “ - ”, with a length no more than 32 characters; description is an optional item, with a length no more than 256 characters.
  4. Cluster version: Currently, it only supports 1.8.12 version.
  5. Management node CIDR: It can not be overlapped with CIDR of other VPCs, and the CIDR mask range is 24~27. You can refer to the rules of VPC CIDR for rules of CIDR settings.
- 6. Client certificate and basic authentication: By default, they are all open and it is recommended that they should be reserved; at least one should be reserved as open; client certificate: Certificate based on base64 encoding is used for authentication from client to cluster service endpoint; basic authentication: After opening, the client is allowed to use the user name and password to be authenticated at the cluster service endpoint.
+ 6. Client Certificate and Basic Authentication: By default, they are all open and it is recommended that they should be reserved; at least one should be reserved as open; Client Certificate: Certificate based on base64 encoding is used for authentication from client to cluster service endpoint; Basic Authentication: After opening, the client is allowed to use the user name and password to be authenticated at the cluster service endpoint.
  7. Add Accesskey: Select AccessKey at startup; if no Access Key is available, go to the Access Key management page to create a new Access Key and start it. Refer to Accesskey management.
 New working node group:
 8. VPC: Select the VPC to create. You can refer to the VPC configuration.
@@ -48,4 +48,4 @@ System disk: The default capacity of the local disk is 100G, which can not be mo
 
 Tags: Set tags to work nodes; the key is composed of prefix and name. The prefix does not exceed 253 characters, and the name and value do not exceed 63 characters; the prefix is made up of DNS subdomains, and the key values must start with letters and numbers, supporting “-”“ _ ”“. ”, uppercase letters, lowercase letters and numbers; up to 5 sets of tags.
 
-15. After completing the relevant settings, click OK to enter Elastic Compute>>Kubernetes Service>>Cluster Services>>Cluster and view the created Kubernetes Service. It usually takes a few minutes to create, and please be patient.
+15. After completing the relevant settings, click OK to enter Elastic Compute>>JCS for Kubernetes>>Cluster Services>>Cluster and view the created JCS for Kubernetes. It usually takes a few minutes to create, and please be patient.

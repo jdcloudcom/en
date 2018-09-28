@@ -1,7 +1,7 @@
 
-# Guide Overview
+# Getting Started Overview
 
-**Initial setup**
+**Initial Setup**
 **Register JD Cloud account**
 If you have already got a JD Cloud account, skip this step to continue.
 If you don’t have a JD Cloud account, you may register in official website of JD Cloud; please refer to register JD Cloud. If you have finished registering, you are required to activate the account, which is as follows. image.png
@@ -52,7 +52,7 @@ Go to the real-name verification page to select the individual or corporate auth
 
 10. Set subnet description: Description can not be blank, and only supports Chinese, numbers, capital and lowercase letters and English underline “_” and line-through “-”, and can not exceed 256 characters;
 
-11. Click **OK**to go to “Console” and view the subnet created;
+11. Click **OK** to go to “Console” and view the subnet created;
 
 
 **Create security group (optional)**

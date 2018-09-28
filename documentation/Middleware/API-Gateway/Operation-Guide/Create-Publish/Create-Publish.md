@@ -15,14 +15,14 @@ Please note that:
 
 Firstly, enter the **API Group Management** page and find the group to be published
 
-![APIgroup list](https://github.com/jdcloudcom/en/blob/edit/image/Internet-Middleware/API-Gateway/apigroup-rp-apigroup-list.png)
+![APIgroup list](../../../../../image/Internet-Middleware/API-Gateway/apigroup-rp-apigroup-list.png)
 
 
 
 
 ### STEP2: click the **Publish**:
 
-![Publish](https://github.com/jdcloudcom/en/blob/edit/image/Internet-Middleware/API-Gateway/apigroup-fb.png)
+![Publish](../../../../../image/Internet-Middleware/API-Gateway/apigroup-fb.png)
 
 
 Description:
@@ -38,14 +38,14 @@ Description:
 
 ### STEP3: Manage the versions published in different environments in the deployment management:
 The deployment of different environments can be seen in the page of deployment management after publishing.
-![Deployment list](https://github.com/jdcloudcom/en/blob/edit/image/Internet-Middleware/API-Gateway/bslb-list.png)
+![Deployment list](../../../../../image/Internet-Middleware/API-Gateway/bslb-list.png)
 
 API gateway supports to manage the API version used for test/online, so you can publish or off-line the API and switch the version will take effect immediately.
-![Switch Version](https://github.com/jdcloudcom/en/blob/edit/image/Internet-Middleware/API-Gateway/bslb-qhbb.png)
+![Switch Version](../../../../../image/Internet-Middleware/API-Gateway/bslb-qhbb.png)
 
 ### STEP4: logoff
 Directly click the “Off-line” if required, it will take effect in real time.
 
-![Logoff](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/API-Gateway/bslb-xx.png)
+![Logoff](../../../../../image/Internet-Middleware/API-Gateway/bslb-xx.png)
 
 

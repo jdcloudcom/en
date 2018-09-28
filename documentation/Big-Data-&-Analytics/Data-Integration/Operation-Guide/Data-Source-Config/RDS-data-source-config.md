@@ -4,9 +4,9 @@ Cloud database data source provides the ability of read RDS and can configure th
 
 Operation Steps:
 
-1.        Enter the data factory; click ‘Connection Management’; select ‘Add Connection’;
+1.        Enter the Data Factory; click **Connection Management**; select **Add Connection**;
 
-2.        Select the type of data source 'Cloud Database';
+2.        Select the type of data source **Cloud Database**;
 
 ![Cloud Database Data Source Connection](../../../../../image/Data-Integration/yun-connection.png)
 
@@ -22,6 +22,6 @@ Configuration Item Description:
 
 ​    **User Name/****Password**: The username and password corresponding to the database.
 
-3.        Click ‘Connection Test’;
+3.        Click **Connection Test**;
 
-4.        After the connection test is passed, click ‘OK’.
+4.        After the connection test is passed, click **OK**.

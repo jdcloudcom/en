@@ -1,8 +1,8 @@
-# Product advantages
+# Benefits
 
 ## Easy-to-expand
 
-You can freely allocate and expand the storage capacity of the cloud disk as needed. The capacity of a single disk ranges from 20GB to 3000GB.
+You can freely allocate and expand the storage capacity of the Cloud Disk Service as needed. The capacity of a single disk ranges from 20GB to 3000GB.
 
 
 ## Ultra-high performance
@@ -17,5 +17,5 @@ Based on the multi-real-time copies of data, it ensures the data reliability up 
 
 ## Easy to use and flexible
 
-The simple operation, e.g. creation, attaching, detaching and deletion, is made to manage and use the cloud disk, so that the labor management and deployment costs can be saved.
+The simple operation, e.g. creation, attaching, detaching and deletion, is made to manage and use the Cloud Disk Service, so that the labor management and deployment costs can be saved.
 

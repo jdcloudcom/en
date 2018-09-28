@@ -13,7 +13,7 @@
 		"proDiff":"Single machine or simple primary-secondary architecture, high availability cannot be guaranteed."
 	},
 	{
-		"proGood":"High reliability",
+		"proGood":"High Reliability",
 		"proName":"Raft is introduced to realize the high reliability of data, the data are synchronously written and the data in 3 copies are backed up, with the data reliability of up to 99.999999%, and the default messages can be persistently stored for 3 days and the message at any time point consumed by a consumer ID in 3 days can be reset.",
 		"proDiff":"The issue of single-point exists for data. Once it is lost, the data cannot be recalled. The data reliability cannot be guaranteed."
 	},

@@ -1,4 +1,4 @@
-## Product Advantages<br>
+## Benefits<br>
 **Auto Scaling:**<br>
 The message service processing capability can be flexibly and quickly adjusted according to the scale of the business. <br>
 <br>
@@ -14,7 +14,7 @@ By integrating with streaming computing products, users can quickly build real-t
 <br>
 Provide data archiving function capable to persist storage data to cloud storage and data warehousing. <br>
 <br>
-**Ease of use and user experience:**<br>
+**Ease of Use and User Experience:**<br>
 <br>
 The main functions of the system provide visual interface maintenance, with friendly interface, clear function, and convenience for users to use and maintain.<br>
 <br>

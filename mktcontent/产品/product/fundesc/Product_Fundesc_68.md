@@ -25,12 +25,12 @@
 			{
 				"funcName":"",
 				"funcTitle":"Attack Classification Report",
-				"funcP":"Five security analysis reports, including Web Security, CC Attack, Custom IAM Rules, User Access, and Operation Monitoring, are provided for insight into the business monitoring status, security protection status and effect."
+				"funcP":"Five security analysis reports, including Web Security, CC Attack, Custom IAM Rules, User Access, and Operation Monitoring, are provided for insight into the workload monitoring status, security protection status and effect."
 			},
 			{
 				"funcName":"",
 				"funcTitle":"Attack Trend Graph",
-				"funcP":"By viewing the attacking trend graph, it can know hacker’s concern to business.."
+				"funcP":"By viewing the attacking trend graph, it can know hacker’s concern to business."
 			},
 			{
 				"funcName":"",
@@ -55,7 +55,7 @@
 			{
 				"funcName":"",
 				"funcTitle":"Access Log Record",
-				"funcP":"Record the access logs of all users on the business website, provide trend analysis and log download feature as needed."
+				"funcP":"Record the access logs of all users on the business website, provide trend analysis and Log Download feature as needed."
 			},
 			{
 				"funcName":"",
@@ -70,7 +70,7 @@
 		]
 	},
 	{
-		"funcName":"Business Security Protection",
+		"funcName":"BOT Management",
 		"funcContent":[
 			{
 				"funcName":"",

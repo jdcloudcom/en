@@ -14,7 +14,7 @@
 			},
 			{
 				"funcName":"",
-				"funcTitle":"Driver's license identification",
+				"funcTitle":"Driver's License Identification",
 				"funcP":"Upload the picture of driver's license and extract the information such as name, address, ID number, date of birth and so on from the picture."
 			},
 			{

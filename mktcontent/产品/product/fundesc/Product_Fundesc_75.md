@@ -14,8 +14,8 @@
 		"funcContent":[
 			{
 				"funcName":"",
-				"funcTitle":"Batch, full/incremental synchronization",
-				"funcP":"Data synchronization of the data integration supports synchronization of data from multiple local and cloud data sources, supporting the users with different synchronization strategies such as full-scale synchronization, incremental synchronization and so on, and it can be used for data access to enterprise data warehouse to collect multi-source data"
+				"funcTitle":"Batch, Full/Incremental Synchronization",
+				"funcP":"Data synchronization of the data integration supports data synchronization from multiple local and cloud data sources, supporting the users with different synchronization strategies such as full-scale synchronization, incremental synchronization and so on, and it can be used for data access to enterprise data warehouse to collect multi-source data"
 			},
 			{
 				"funcName":"",

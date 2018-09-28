@@ -1,4 +1,4 @@
-# Customized identity and access management rule
+# Customized Identity and Access Management Rule
 
 **Function Description**
 
@@ -12,7 +12,7 @@
 
 ​    Logic symbol: includes or excludes
 
-**Action steps**
+**Action Steps**
 
 ​    1. Enter the console instance management page, and click protection configuration to enter the configuration page of protection tabs and then click Customized Identity and Access Management for setting.
 
@@ -22,21 +22,21 @@
 
 ![image.png](https://img1.jcloudcs.com/cms/5e093e9f-47e5-431b-94eb-4f4c5c39d39520180817103804.png)
 
-Field description:
+Field Description:
 
 ​    **Priority**: priority of current rules should be manually designated and the matching order should be matched according to the priority.
 
-​    **Name configuration**: name of the rule
+​    **Name Configuration**: name of the rule
 
 ​    **Action**: select action of rules based on needs.
 
-​    **Switching setting**: set if enable current customized rules or not.
+​    **Switching Setting**: set if enable current customized rules or not.
 
-​    **Matching field**: Set fields need to be filtered.
+​    **Matching Field**: Set fields need to be filtered.
 
-​    **Logic symbol**: select judging conditions.
+​    **Logic Symbol**: select judging conditions.
 
-​    **Matching content**: select matching key fields.
+​    **Matching Content**: select matching key fields.
 
 3. After completing relevant information, enter Instance Management page to view the created rule.
 

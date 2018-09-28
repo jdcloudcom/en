@@ -24,8 +24,8 @@ Timing strategy will increase or delete the number of instances in the Availabil
 
 1. Access[High Availability Groups Console](https://cns-console.jdcloud.com/availabilitygroup/list) to enter the Availability Groups List page. Or access[JD Cloud Console](https://console.jdcloud.com) and then click on the left navigation bar **Elastic Compute**-**High Availability Groups** to enter the Availability Groups List page. 
 2. Find the corresponding Availability Group and click the name to enter the details page.
-3. Click on **Automatic Scaling Tab**-**Timing Strategy**-**Add** button.
+3. Click on **Automatic Scaling Tab**-**Timing Strategy**-**Add** .
 4. Set up the name, execution time and scaling rules for timing strategy in pop-up windows. You can also tick **Repeat Tasks** to perform tasks at a defined interval.	
-5. You need to specify the execution time of the timed task and the specific execution operations, such as increasing the number of new VM or removing the number of instances. In addition, you can set the repetition cycle and the end time of repetition for the strategy. Currently, you can repeat the timing operation between the execution time and the end time of day, week and month.
+5. You need to specify the execution time of the timed task and the specific execution operations, such as increasing the number of new Virtual Machines or removing the number of instances. In addition, you can set the repetition cycle and the end time of repetition for the strategy. Currently, you can repeat the timing operation between the execution time and the end time of day, week and month.
 ![](../../../../../image/ag/addstrategy2.png)
 

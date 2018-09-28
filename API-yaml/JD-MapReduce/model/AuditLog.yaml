@@ -13,7 +13,8 @@ definitions:
       eventType:
         type: string
         description: "Event Type"
-      description: "type: string"
+      description:
+        type: string
         description: "Description"
       objectType:
         type: string

@@ -29,7 +29,7 @@
 			},
 			{
 				"funcName":"",
-				"funcTitle":"Flexible migration",
+				"funcTitle":"Flexible Migration",
 				"funcP":"The Elastic Network Interface can be flexibly migrated between the Virtual Machines in the Virtual Private Cloud. When the Elastic Network Interface is migrated, the assigned private IP address, Elastic IP address and security group remain unchanged."
 			}
 		]
@@ -39,7 +39,7 @@
 		"funcContent":[
 			{
 				"funcName":"",
-				"funcTitle":"Independent security policy",
+				"funcTitle":"Independent Security Policy",
 				"funcP":"Support security policy control of network interface level. An Elastic Network Interface can associate to 5 security groups, to achieve precise control of service traffic"
 			},
 			{

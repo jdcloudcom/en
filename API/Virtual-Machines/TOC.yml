@@ -1,11 +1,11 @@
   name: Virtual Machines
   href: 
   items:
-  - name:  Interface Overview
+  - name: API Overview
     href: overview.md
   - name: Update History
     href: ChangeLog.md
-  - name: Interface Information
+  - name: API Information
     items:
       - name: Virtual Machine
         items:
@@ -85,9 +85,9 @@
             href: Quota/describeQuotas.md
   - name: Use Help
     items:
-      - name: VM instance Creation
+      - name: VM Instance Creation
         href: Help/Create_Vm_Sample.md
-      - name: The Description of Public Parameter Specification
+      - name: Description of Public Parameter Specification
         href: Help/General_Parameters.md
       - name: Image Status Description
         href: Help/Image_Status.md

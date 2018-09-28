@@ -5,6 +5,7 @@ Instance monitoring and alarms provide you with real-time instance monitoring ma
 Monitoring Items
 
 JD Cloud provides the following monitoring items for the Instance:
+
 | Monitoring Items | Definitions | Description |
 | --- | --- | --- |
 | CPU Use Rate | Percentage of Current Non-Idle CPUs | The higher the value is, the higher the current instance load will be |

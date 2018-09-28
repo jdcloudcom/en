@@ -34,7 +34,7 @@
 		"funcContent":[
 			{
 				"funcName":"",
-				"funcTitle":"Smooth expansion and on-demand selection",
+				"funcTitle":"Smooth Expansion and On-demand Selection",
 				"funcP":"The users can easily deploy, run and extend JCS for Redis, not needing the operation and maintenance work of machine installation and database deployment. \n Redis master-slave version instance types support 1G, 2G, 4G, 8G, 16G, 32 and 64G memory < \n Cluster version supports 16G, 32G, 64G, 128G, 256G, and an open ticket can apply for 512G memory. Users can make choice according to their actual use and upgrade on demand in order to improve resource utilization rate and reduce redundancy costs"
 			}
 		]

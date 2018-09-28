@@ -1,16 +1,17 @@
 - name: Data Visualization
-  href: 
+href: 
+items:
 - name: Introduction
   items:
     - name: Product Overview
       href: Introduction/Product-Overview.md
-    - name: Basic Infrastructure
+    - name: Basic Architecture
       href: Introduction/Basic-Infrastructure.md
     - name: Benefits
       href: Introduction/Benefits.md
     - name: Features
       href: Introduction/Features.md
-    - name: Application Scenario 
+    - name: Application Scenarios 
       href: Introduction/Application-Scenarios.md    
 - name: Pricing
   items:

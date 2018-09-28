@@ -1,3 +1,3 @@
-# Restraint Instructions
+# Restrictions
 
-No limit
+No Limit

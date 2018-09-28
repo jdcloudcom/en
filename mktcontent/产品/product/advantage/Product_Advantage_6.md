@@ -2,8 +2,8 @@
 	{
 		"proGoodTitle":"Benefits",
 		"proNameTitle":"Load Balancer",
-		"proDiffTitle":"Traditional hardware Load Balancer",
-		"proGood":"High availability",
+		"proDiffTitle":"Traditional Hardware Load Balancer",
+		"proGood":"High Availability",
 		"proName":"Resources are subject to automatic redundancy configuration and resources are deployed in the multiple availability zone so as to ensure high availability of services.",
 		"proDiff":"Traditional dual-computer hot standby is adopted, which requires manual configuration and provides ordinary availability. "
 	},
@@ -18,7 +18,7 @@
 		"proDiff":"Expensive hardware and professional O&M personnel are essential, causing high material and human costs."
 	},
 	{
-		"proGood":"High security",
+		"proGood":"High Security",
 		"proName":"EIP-based DDoS protection for Business Security. ",
 		"proDiff":"Security protection modules need to be separately purchased and deployed, bringing complex operation and low cost performance. "
 	},
@@ -28,7 +28,7 @@
 		"proDiff":"Need professional operation and maintenance personnel, increasing the human costs."
 	},
 	{
-		"proGood":"High availability",
+		"proGood":"High Availability",
 		"proName":"Resources are subject to automatic redundancy configuration and resources are deployed in the multiple availability zone so as to ensure high availability of services.",
 		"proDiff":"Traditional dual-computer hot standby is adopted, which requires manual configuration and provides ordinary availability. "
 	}
