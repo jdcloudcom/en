@@ -33,10 +33,10 @@ None
 ### Disk
 |Name|Type|Description|
 |---|---|---|
-|**attachments**|DiskAttachment[]|Attach Information|
+|**attachments**|DiskAttachment[]|Attachment Information|
 |**az**|String|Available Zone, to which the Cloud Disk belongs|
-|**charge**|Charge|Configuration Information for Cloud Disk Service Billing|
-|**createTime**|String|Cloud Disk Creating Time|
+|**charge**|Charge|Cloud Disk Billing Configuration|
+|**createTime**|String|Cloud Disk Creation Time|
 |**description**|String|Description of the Cloud Disk. It allows you to enter all characters under UTF-8 encoding, but no more than 256 characters.|
 |**diskId**|String|Cloud Disk ID|
 |**diskSizeGB**|Integer|Disk Size, in GiB|
