@@ -21,13 +21,13 @@ https://oss.jdcloud-api.com/v1/regions/{regionId}/buckets/{bucketname}
 |---|---|---|---|---|
 
 
-## Return parameter
+## Response   parameter
 |Name|Type|Description|
 |---|---|---|
 
 
 
-## Return code
+## Response   code
 |Return code|Description|
 |---|---|
 |**200**|OK|
