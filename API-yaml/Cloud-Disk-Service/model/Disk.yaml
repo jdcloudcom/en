@@ -3,20 +3,20 @@ definitions:
   disk:
     x-jdcloud-module: disk
     type: object
-    description: "Cloud Disk Details"
+    description: "Cloud Disk Service Details"
     properties:
       diskId:
         type: string
         description: "Cloud Disk ID"
       az:
         type: string
-        description: "AZ, to which the Cloud Disk belongs"
+        description: "AZ, to which the cloud disk belongs"
       name:
         type: string
-        description: "Name of the Cloud Disk. Only Chinese characters, numbers, uppercase and lowercase letters, English underscores '_' or hyphens '-' are allowed. It is not allowed to be blank and shall not exceed 32 characters."
-      description: 
+        description: "Name of the cloud disk only allows Chinese characters, numbers, uppercase and lowercase letters, English underscores '_' or hyphens '-'. It is not allowed to be blank and shall not exceed 32 characters."
+      description:
         type: string
-        description: "Description of the Cloud Disk. It allows you to enter all characters under UTF-8 encoding, but no more than 256 characters."
+        description: "Description of the cloud disk. It allows you to enter all characters under UTF-8 encoding, but no more than 256 characters."
       diskType:
         type: string
         description: "Disk Type, ssd or premium-hdd"
@@ -33,10 +33,10 @@ definitions:
         description: "Attach Information"
       snapshotId:
         type: string
-        description: "Snapshot ID used to create the Cloud Disk"
+        description: "Snapshot ID used to create a cloud disk"
       multiAttachable:
         type: boolean
-        description: "Does the Cloud Disk service support multiple attachments?"
+        description: "Does the Cloud Disk Service support multiple attachments?"
       createTime:
         type: string
         format: date-time

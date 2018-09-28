@@ -21,7 +21,7 @@ definitions:
         description: "Priority, only exists in some resolution record types"
       port:
         type: integer
-        description: "port, only exists in some resolution record types"
+        description: "Port, only exists in some resolution record types"
       ttl:
         type: integer
         description: "Life Time of Resolution Record"
@@ -30,7 +30,7 @@ definitions:
         description: "Type of Resolution Record"
       weight:
         type: integer
-        description: "Weight of Resolution Record              "
+        description: "Weight of Resolution Record"              
       viewValue:
         type: array
         items:
@@ -59,7 +59,7 @@ definitions:
       jcloudRes:
         type: boolean
         required: true
-        description: "JD Cloud Resource?  "
+        description: "JD Cloud Resource?"  
       mxPriority:
         type: integer
         required: true
@@ -67,7 +67,7 @@ definitions:
       port:
         type: integer
         required: true
-        description: "port, only exists in some resolution record types"
+        description: "Port, only exists in some resolution record types"
       ttl:
         type: integer
         required: true
@@ -79,7 +79,7 @@ definitions:
       weight:
         type: integer
         required: true
-        description: "Weight of Resolution Record              "
+        description: "Weight of Resolution Record"              
       viewValue:
         type: integer
         required: true
@@ -106,7 +106,7 @@ definitions:
         required: true
       port:
         type: integer
-        description: "port, only exists in some resolution record types"
+        description: "Port, only exists in some resolution record types"
         required: true
       ttl:
         type: integer

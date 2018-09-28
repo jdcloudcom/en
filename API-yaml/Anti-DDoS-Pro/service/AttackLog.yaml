@@ -16,12 +16,12 @@ paths:
           in: query
           type: integer
           required: false
-          description: "Page number; 1 by default"
+          description: "Page Number: 1 by default"
         - name: pageSize
           in: query
           type: integer
           required: false
-          description: "Paging size; it is 20 by default; value range [10, 100]"
+          description: "Paging Size: 20 by default; value range [10, 100]"
         - name: startTime
           in: query
           type: string
@@ -37,7 +37,7 @@ paths:
           type: array
           items:
             type: string
-          description: "Advanced Anti-DDoS instance ID"
+          description: "Advanced Anti-DDoS Instance ID"
           required: false
       responses:
         200:
@@ -52,13 +52,13 @@ paths:
                       $ref: "../model/DDosAttackLog.yaml#/definitions/DDosAttackLog"
                   currentCount:
                     type: integer
-                    description: "Current page counts"
+                    description: "Current Page Counts"
                   totalCount:
                     type: integer
-                    description: "Total number of instances"
+                    description: "Total Number of Instances"
                   totalPage:
                     type: integer
-                    description: "Total number of pages"
+                    description: "Total Number of Pages"
               requestId:
                 type: string
   /attacklog:cc:
@@ -70,12 +70,12 @@ paths:
           in: query
           type: integer
           required: false
-          description: "Page number; 1 by default"
+          description: "Page Number: 1 by default"
         - name: pageSize
           in: query
           type: integer
           required: false
-          description: "Paging size; it is 20 by default; value range [10, 100]"
+          description: "Paging Size: 20 by default; value range [10, 100]"
         - name: startTime
           in: query
           type: string
@@ -91,7 +91,7 @@ paths:
           type: array
           items:
             type: string
-          description: "Advanced Anti-DDoS instance ID"
+          description: "Advanced Anti-DDoS Instance ID"
           required: false
       responses:
         200:
@@ -106,13 +106,13 @@ paths:
                       $ref: "../model/DDosAttackLog.yaml#/definitions/DDosAttackLog"
                   currentCount:
                     type: integer
-                    description: "Current page counts"
+                    description: "Current Page Counts"
                   totalCount:
                     type: integer
-                    description: "Total number of instances"
+                    description: "Total Number of Instances"
                   totalPage:
                     type: integer
-                    description: "Total number of pages"
+                    description: "Total Number of Pages"
               requestId:
                 type: string
 
@@ -125,12 +125,12 @@ paths:
           in: query
           type: integer
           required: false
-          description: "Page number; 1 by default"
+          description: "Page Number: 1 by default"
         - name: pageSize
           in: query
           type: integer
           required: false
-          description: "Paging size; it is 20 by default; value range [10, 100]"
+          description: "Paging Size: 20 by default; value range [10, 100]"
         - name: startTime
           in: query
           type: string
@@ -144,14 +144,14 @@ paths:
         - name: instanceId
           in: query
           type: string
-          description: "Advanced Anti-DDoS instance ID"
+          description: "Advanced Anti-DDoS Instance ID"
           required: true
         - name: subDomain
           in: query
           type: array
           items:
             type: string
-          description: "Subdomain name"
+          description: "Subdomain Name"
           required: false
       responses:
         200:
@@ -166,13 +166,13 @@ paths:
                       $ref: "../model/CCAttackLogDetail.yaml#/definitions/CCAttackLogDetail"
                   currentCount:
                     type: integer
-                    description: "Current page counts"
+                    description: "Current Page Counts"
                   totalCount:
                     type: integer
-                    description: "Total number of instances"
+                    description: "Total Number of Instances"
                   totalPage:
                     type: integer
-                    description: "Total number of pages"
+                    description: "Total Number of Pages"
               requestId:
                 type: string
 
@@ -196,7 +196,7 @@ paths:
           type: array
           items:
             type: string
-          description: "Advanced Anti-DDoS instance ID"
+          description: "Advanced Anti-DDoS Instance ID"
           required: false
       responses:
         200:
@@ -222,7 +222,7 @@ paths:
           type: array
           items:
             type: string
-          description: "Advanced Anti-DDoS instance ID"
+          description: "Advanced Anti-DDoS Instance ID"
           required: false
       responses:
         200:
@@ -246,14 +246,14 @@ paths:
         - name: instanceId
           in: query
           type: string
-          description: "Advanced Anti-DDoS instance ID"
+          description: "Advanced Anti-DDoS Instance ID"
           required: true
         - name: subDomain
           in: query
           type: array
           items:
             type: string
-          description: "Subdomain name"
+          description: "Subdomain Name"
           required: false
       responses:
         200:
@@ -279,13 +279,13 @@ paths:
           type: array
           items:
             type: string
-          description: "Advanced Anti-DDoS instance ID"
+          description: "Advanced Anti-DDoS Instance ID"
           required: false
         - name: type
           in: query
           type: integer
           required: true
-          description: "Attack type, 0 is DDos, and 1 is CC"
+          description: "Attack Type, 0 is DDos, and 1 is CC"
       responses:
         200:
           description: "OK"
@@ -296,13 +296,13 @@ paths:
                   flow:
                     type: number
                     format: float
-                    description: "Attack traffic peak value"
+                    description: "Attack Traffic Peak Value"
                   count:
                     type: integer
-                    description: "Attack counts"
+                    description: "Attack Counts"
                   unit:
                     type: string
-                    description: "Traffic Unit, bps, Kbps, Mbps, Gbps"
+                    description: "Traffic Unit: bps, Kbps, Mbps, Gbps"
               requestId:
                 type: string
 
@@ -326,7 +326,7 @@ paths:
           type: array
           items:
             type: string
-          description: "Advanced Anti-DDoS instance ID"
+          description: "Advanced Anti-DDoS Instance ID"
           required: false
       responses:
         200:
@@ -339,7 +339,7 @@ paths:
                   $ref: "../model/AttackTypeCount.yaml#/definitions/AttackTypeCount"
               requestId:
                 type: string
-# General parameters of path
+# General Parameters of Path
 parameters:
   regionId:
     name: regionId

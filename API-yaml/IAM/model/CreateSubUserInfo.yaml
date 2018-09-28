@@ -13,7 +13,7 @@ definitions:
       name:
         type: string
         description: "Sub-account User Name, 4-20 numbers, letters, Chinese characters, underlines and line-throughs"
-      description: 
+      description:
         type: string
         description: "Description, 0~256 characters"
       password:

@@ -16,12 +16,12 @@ paths:
           in: query
           type: integer
           required: false
-          description: "Page number; 1 by default"
+          description: "Page Number: 1 by default"
         - name: pageSize
           in: query
           type: integer
           required: false
-          description: "Paging size; it is 20 by default; value range [10, 100]"
+          description: "Paging Size: 20 by default; value range [10, 100]"
       responses:
         200:
           description: "OK"
@@ -45,7 +45,7 @@ paths:
       parameters:
         - name: forwardRuleSpec
           in: body
-          description: "Non-web service rule parameter"
+          description: "Add non-web service rule request parameters"
           required: true
           schema:
             $ref: "../model/ForwardRuleSpec.yaml#/definitions/forwardRuleSpec"
@@ -86,7 +86,7 @@ paths:
       parameters:
         - name: forwardRuleSpec
           in: body
-          description: "Non-web service rule parameter"
+          description: "Update non-web service rule parameters"
           required: true
           schema:
             $ref: "../model/ForwardRuleSpec.yaml#/definitions/forwardRuleSpec"
@@ -146,7 +146,7 @@ paths:
         500:
           description: "INTERNAL_SERVER_ERROR"
 
-# General parameters of path
+# General Parameters of Path
 parameters:
   regionId:
     name: regionId
@@ -165,4 +165,4 @@ parameters:
     in: path
     required: true
     type: string
-    description: "Forwarding rule ID"
+    description: "Forwarding Rule ID"

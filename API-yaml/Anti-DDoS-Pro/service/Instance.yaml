@@ -14,7 +14,7 @@ paths:
       parameters:
         - name: instanceSpec
           in: body
-          description: "Instance type parameter"
+          description: "Create instance request parameters"
           required: true
           schema:
             $ref: "../model/InstanceSpec.yaml#/definitions/instanceSpec"
@@ -37,17 +37,17 @@ paths:
           in: query
           type: integer
           required: false
-          description: "Page number; 1 by default"
+          description: "Page Number: 1 by default"
         - name: pageSize
           in: query
           type: integer
           required: false
-          description: "Paging size; it is 20 by default; value range [10, 100]"
+          description: "Paging Size: 20 by default; value range [10, 100]"
         - name: name
           in: query
           type: string
           required: false
-          description: "Instance name, fuzzy matching available"
+          description: "Instance Name, Fuzzy Matching Available"
       responses:
         200:
           description: "OK"
@@ -138,7 +138,7 @@ paths:
       parameters:
         - name: urlWhiteList
           in: body
-          description: "Web service rule parameter"
+          description: "Web Service Rule Parameter"
           required: true
           schema:
             type: array
@@ -453,7 +453,7 @@ paths:
           in: query
           type: integer
           required: false
-          description: "Page number; 1 by default"
+          description: "Page Number: 1 by default"
         - name: pageSize
           in: query
           type: integer
@@ -472,13 +472,13 @@ paths:
                       $ref: "../model/InstanceIdName.yaml#/definitions/InstanceIdName"
                   currentCount:
                     type: integer
-                    description: "Current page counts"
+                    description: "Current Page Counts"
                   totalCount:
                     type: integer
-                    description: "Total number of instances"
+                    description: "Total Number of Instances"
                   totalPage:
                     type: integer
-                    description: "Total number of pages"
+                    description: "Total Number of Pages"
               requestId:
                 type: string
 
@@ -534,7 +534,7 @@ paths:
           in: query
           type: integer
           required: false
-          description: "Page number; 1 by default"
+          description: "Page Number: 1 by default"
         - name: pageSize
           in: query
           type: integer
@@ -553,13 +553,13 @@ paths:
                       $ref: "../model/VpcIpResource.yaml#/definitions/VpcIpResource"
                   currentCount:
                     type: integer
-                    description: "Current page counts"
+                    description: "Current Page Counts"
                   totalCount:
                     type: integer
-                    description: "Total number of instances"
+                    description: "Total Number of Instances"
                   totalPage:
                     type: integer
-                    description: "Total number of pages"
+                    description: "Total Number of Pages"
               requestId:
                 type: string
 
@@ -580,7 +580,7 @@ paths:
                 type: string
 
 
-# General parameters of path
+# General Parameters of Path
 parameters:
   regionId:
     name: regionId

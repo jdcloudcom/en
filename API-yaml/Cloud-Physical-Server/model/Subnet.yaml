@@ -13,7 +13,7 @@ definitions:
         description: Availability Zone, such as cn-east-1a
       cidr:
         type: string
-        description: CIDR
+        description: Subnet CIDR
       subnetId:
         type: string
         description: Subnet ID

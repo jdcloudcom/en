@@ -23,7 +23,7 @@ paths:
         name: bucketname
         required: true
         type: string
-        description: "Bucket Name, e.g.: test"
+        description: "Bucket name, e.g.: test"
       - in: query
         name: condition
         description: "Include xml of image suffix to be protected"
@@ -60,7 +60,7 @@ paths:
         name: bucketname
         required: true
         type: string
-        description: "Bucket Name, e.g.: test"
+        description: "Bucket name, e.g.: test"
       responses:
         200:
           description: "OK"
@@ -88,7 +88,7 @@ paths:
       operationId: deleteImgProtected
       x-jdcloud-internal: true
       description: |
-        Disable Original Image Protection
+        Disable original image protection
       produces:
       - application/json
       parameters:
@@ -96,7 +96,7 @@ paths:
         name: bucketname
         required: true
         type: string
-        description: "Bucket Name, e.g.: test"
+        description: "Bucket name, e.g.: test"
       responses:
         200:
           description: "OK"

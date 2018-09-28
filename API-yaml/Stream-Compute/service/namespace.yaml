@@ -8,7 +8,7 @@ paths:
 #######Query the Application List Under the Tenant################
   /namespaces:
     get:
-      description: "Query the Application List Under the Tenant"
+      description: "Query the application list under the tenant"
       operationId: queryNamespaces
       parameters:
         - name: keyword
@@ -36,7 +36,7 @@ paths:
  #######Query the Details of A Certain Application################ 
   /namespaceDetail:
     get:
-      description: "Query the Details of A Certain Application"
+      description: "Query the details of a certain application"
       operationId: queryNamespaceDetail
       parameters:
         - name: namespaceId
@@ -58,11 +58,11 @@ paths:
               requestId:
                 type: string
         '500':
-          description: "INTERNAL_ERROR "
+          description: "INTERNAL_ERROR" 
  #######Update Namespace################ 
   /namespace:
     put:
-      description: "Update Namespace"
+      description: "Update namespace"
       operationId: updateNamespace
       parameters:
         - name: namespaceStr
@@ -80,14 +80,14 @@ paths:
                 properties:
                   status:
                     type: boolean
-                    description: "Update the Successful Marker"
+                    description: "Update the successful marker"
               requestId:
                 type: string
         '500':
-          description: "INTERNAL_ERROR  "
+          description: "INTERNAL_ERROR"  
  #######Create Namespace################ 
     post:
-      description: "Create Namespace"
+      description: "Create namespace"
       operationId: createNamespace
       parameters:
         - name: namespaceStr
@@ -109,11 +109,11 @@ paths:
               requestId:
                 type: string
         '500':
-          description: "INTERNAL_ERROR   "
+          description: "INTERNAL_ERROR"   
 
  #######Delete Namespace################ 
     delete:
-      description: "Delete Namespace; if there are other subordinate resources associated with it, it is not allowed to delete it"
+      description: "Delete namespace; if there are other subordinate resources associated with it, it is not allowed to delete it"
       operationId: deleteNamespace
       parameters:
         - name: namespaceId
@@ -130,13 +130,13 @@ paths:
                 properties:
                   status:
                     type: boolean
-                    description: "Delete the Namespace Successful Marker"
+                    description: "Delete the namespace successful marker"
               requestId:
                 type: string
         '500':
-          description: "INTERNAL_ERROR  "
+          description: "INTERNAL_ERROR"  
         '400':
-          description: "INTERNAL_ERROR   "
+          description: "INTERNAL_ERROR"   
   
  
  

@@ -10,7 +10,7 @@ paths:
   "/quota":
     ###################### Query Quota Information ######################
     get:
-      description: "Query Account Quota Information"
+      description: "Query account quota information"
       operationId: describeUserQuota
       responses:
         200:
@@ -26,7 +26,7 @@ paths:
 
     ###################### Modify Quota ######################
     patch:
-      description: "Modify Account Quota"
+      description: "Modify account quota"
       operationId: modifyUserQuota
       x-jdcloud-internal: true
       parameters:

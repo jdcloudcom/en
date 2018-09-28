@@ -15,7 +15,7 @@ paths:
       parameters:
         - name: createBackupSynchronicity
           in: body
-          description: 
+          description:
           schema:
             type: object
             required:
@@ -111,6 +111,6 @@ parameters:
     in: path
     required: true
     type: string
-    description: "service ID"
+    description: "Service ID"
 
 

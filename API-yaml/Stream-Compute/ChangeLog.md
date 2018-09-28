@@ -1,7 +1,7 @@
 # Update History #
-API revision: 1.0.1
+API Version: 1.0.1
 
-|Release Time|Revision Number| Update |Instructions|
+|Release Time|Version Number| Update |Instructions|
 |---|---|---|---|
 |2018-07-25|1.0.1|Modify description|Modify description|
 |2018-06-26|1.0.0|Improve configuration|Improve configuration|

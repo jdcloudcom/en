@@ -17,7 +17,7 @@ paths:
           in: query
           required: true
           type: string
-          description: "Instance Type Family, the APIs (describeDeviceTypes) May Be Called to Obtain the Instance Type Family of the Specific Region, such as: cps.c.normal"
+          description: "Instance Type Family, the APIs (describeDeviceTypes) may be called to obtain the instance type family of a specific region, such as: cps.c.normal"
       responses:
         200:
           description: OK
@@ -42,10 +42,10 @@ paths:
           description: "Service unavailable"  
   
   "/os/{osTypeId}/softwares":
-    ###################### Query the Software List That Can Be Pre-Installed on the Physical Server ######################
+    ###################### Query the List of Software to be Pre-installed on the Physical Server ######################
     get:
       description: |
-        Query the Software List That Can Be Pre-Installed on the Physical Server<br/>
+        Query the list of software to be pre-installed on the physical server<br/>
         The APIs (describeOS) may be called to obtain the operating system list supported by the Cloud Physical Server, and acquire the software list that supports to be pre-installed by different operating system types<br/>
       operationId: "describeSoftware"
       responses:
@@ -73,7 +73,7 @@ paths:
   "/instances/{instanceId}:describeInstanceName":
     ###################### Query the Name of Cloud Physical Server ######################
     get:
-      description: "Query the Name of Cloud Physical Server"
+      description: "Query the name of Cloud Physical Server"
       operationId: "describeInstanceName"
       responses:
         200:
@@ -99,7 +99,7 @@ paths:
   "/instances/{instanceId}:modifyInstance":
     ###################### Modify the Information of Cloud Physical Server ######################
     post:
-      description: "Modify Par of the Information of Cloud Physical Server, Including Name, Description"
+      description: "Modify some information of Cloud Physical Server, including name, description"
       operationId: "modifyInstance"
       parameters:
         - name: name
@@ -137,7 +137,7 @@ paths:
   "/deviceTypes":
     ###################### Query the Instance Type Family of Cloud Physical Server ######################
     get:
-      description: "Query the Instance Type Family of Cloud Physical Server"
+      description: "Query the instance type family of Cloud Physical Server"
       operationId: "describeDeviceTypes"
       responses:
         200:
@@ -165,18 +165,18 @@ paths:
   "/raids":
     ###################### Query the RAID Types Supported by the Cloud Physical Server ######################
     get:
-      description: "Query the RAID Types Supported by the Cloud Physical Server of a Certain Instance Type Family, May Query the System Disk RAID Type and Data Disk RAID Type"
+      description: "Query the RAID types supported by the Cloud Physical Server of a certain instance type family, may query the system disk RAID type and data disk RAID type"
       operationId: "describeDeviceRaids"
       parameters:
         - name: deviceType
           in: query
           required: true
           type: string
-          description: "Instance Type Family, the (describeDeviceTypes) APIs May Be Called to Obtain the Instance Type Family of the Specific Region, such as: cps.c.normal"
+          description: "Instance Type Family, the (describeDeviceTypes) APIs may be called to obtain the instance type family of a specific region, such as: cps.c.normal"
         - name: volumeType
           in: query
           type: string
-          description: "Disk Type, Value Range: System, Data"
+          description: "Disk Type, value range: system, data"
       responses:
         200:
           description: OK
@@ -203,7 +203,7 @@ paths:
   "/instances/{instanceId}:describeInstanceRaid":
     ###################### Query the RAID Information of Cloud Physical Server ######################
     get:
-      description: "Query the Installed RAID Information of a Single Cloud Physical Server, Including the System Disk RAID Information and Data Disk RAID Information"
+      description: "Query the installed RAID information of a single Cloud Physical Server, including the system disk RAID information and data disk RAID information"
       operationId: "describeInstanceRaid"
       responses:
         200:
@@ -238,7 +238,7 @@ paths:
   "/instances/{instanceId}:describeInstanceStatus":
     ###################### Query the Hardware Monitoring Information of a Single Cloud Physical Server ######################
     get:
-      description: "Query the Hardware Monitoring Information of a Single Cloud Physical Server"
+      description: "Query the hardware monitoring information of a single Cloud Physical Server"
       operationId: "describeInstanceStatus"
       responses:
         200:
@@ -249,16 +249,16 @@ paths:
                 properties:
                   cpus:
                     type: boolean
-                    description: "Whether the CPU Status is Normal"
+                    description: "Whether the CPU status is normal"
                   mems:
                     type: boolean
-                    description: "Whether the Memory Status is Normal"
+                    description: "Whether the memory status is normal"
                   disks:
                     type: boolean
-                    description: "Whether the Hard Disk Status is Normal"
+                    description: "Whether the hard disk status is normal"
                   nics:
                     type: boolean
-                    description: "Whether the Network Interface Status is Normal"
+                    description: "Whether the network interface status is normal"
               requestId:
                 type: string
         400:
@@ -273,7 +273,7 @@ paths:
   "/instances/{instanceId}:restartInstance":
     ###################### Reboot Cloud Physical Server ######################
     put:
-      description: "To reboot a Single Cloud Physical Server, Only the Running Servers Can Be Rebooted"
+      description: "To reboot a single Cloud Physical Server, only the running servers can be rebooted"
       operationId: "restartInstance"
       parameters:
         - name: clientToken
@@ -291,7 +291,7 @@ paths:
                 properties:
                   success:
                     type: boolean
-                    description: "Whether the Rebooting Operation Succeeded"
+                    description: "Whether is the rebooting operation successful"
               requestId:
                 type: string
         400:
@@ -306,7 +306,7 @@ paths:
   "/instances/{instanceId}:stopInstance":
     ###################### Shutdown of Cloud Physical Server ######################
     put:
-      description: "To Execute the Shutdown Operation to a Single Cloud Physical Servers, Only the Running Server Can Be Stopped"
+      description: "To execute the shutdown operation to a single Cloud Physical Server, only the running server can be stopped"
       operationId: "stopInstance"
       parameters:
         - name: clientToken
@@ -324,7 +324,7 @@ paths:
                 properties:
                   success:
                     type: boolean
-                    description: "Whether the Shutdown Operation Succeeded"
+                    description: "Whether is the shutdown operation successful"
               requestId:
                 type: string
         400:
@@ -339,7 +339,7 @@ paths:
   "/instances/{instanceId}:startInstance":
     ###################### Startup of Cloud Physical Server ######################
     put:
-      description: "To Execute the Startup Operation to a Single Cloud Physical Servers, Only the Stopped Server Can Be Started Up"
+      description: "To execute the startup operation to a single Cloud Physical Server, only the stopped server can be started"
       operationId: "startInstance"
       parameters:
         - name: clientToken
@@ -357,7 +357,7 @@ paths:
                 properties:
                   success:
                     type: boolean
-                    description: "Whether the Startup Operation Succeeded"
+                    description: "Whether is the startup operation is successful"
               requestId:
                 type: string
         400:
@@ -399,7 +399,7 @@ paths:
                 properties:
                   success:
                     type: boolean
-                    description: "Whether the Reinstallation Operation Succeeded"
+                    description: "Whether is the reinstallation operation is successful"
               requestId:
                 type: string
         400:
@@ -440,7 +440,7 @@ paths:
                 properties:
                   success:
                     type: boolean
-                    description: "Whether the Bandwidth Upgrade Succeeded"
+                    description: "Whether is the bandwidth upgrade sucessful"
               requestId:
                 type: string
         400:
@@ -455,7 +455,7 @@ paths:
   "/instances/{instanceId}":
     ###################### Query the Details of Cloud Physical Server ######################
     get:
-      description: "Query the Details of a Single Cloud Physical Server"
+      description: "Query the details of a single Cloud Physical Server"
       operationId: "describeInstance"
       responses:
         200:
@@ -502,7 +502,7 @@ paths:
                 properties:
                   success:
                     type: boolean
-                    description: "Whether the Deletion Operation Succeeded"
+                    description: "Whether is the deletion operation is sucessful"
               requestId:
                 type: string
         400:
@@ -526,12 +526,12 @@ paths:
           in: query
           type: integer
           default: 1
-          description: "Page Number; 1 by Default"
+          description: "Page Number; 1 by default"
         - name: pageSize
           in: query
           type: integer
           default: 10
-          description: "Paging Size; 10 by Default; Value Range [10, 100]"
+          description: "Paging Size; 10 by default; value range [10, 100]"
         - name: az
           in: query
           type: string
@@ -539,26 +539,26 @@ paths:
         - name: name
           in: query
           type: string
-          description: "Name of Cloud Physical Server, Support Fuzzy Matching"
+          description: "Name of the Cloud Physical Server, support fuzzy matching"
         - name: networkType
           in: query
           type: string
-          description: "Network Type, Exact Matching, Currently Only Support Basic"
+          description: "Network Type, exact matching, currently only support basic"
         - name: deviceType
           in: query
           type: string
-          description: "Instance Type, Exact Matching, the Instance Type Family can be Obtained by Calling APIs (describeDeviceType)"
+          description: "Instance Type, exact matching, the instance type family can be obtained by calling APIs (describeDeviceType)"
         - name: status
           in: query
           type: string
-          description: "Cloud Physical Server Status, Referring to Cloud Physical Server Status"
+          description: "Cloud Physical Server Status, feferring to Cloud Physical Server status"
         - name: filters
           in: query
           type: array
           items:
             $ref: "../../common/model/Filter.yaml#/definitions/filter"
           description: | 
-            containerId - Cloud Physical Server ID, Exact Match, Support Many IDs
+            containerId - Cloud Physical Server ID, exact match, support multiple IDs
       responses:
         200:
           description: OK
@@ -573,10 +573,10 @@ paths:
                       $ref: "../model/Instance.yaml#/definitions/instance"
                   pageNumber:
                     type: integer
-                    description: "Page Number; 1 by Default"
+                    description: "Page Number; 1 by default"
                   pageSize:
                     type: integer
-                    description: "Paging Size; 10 by Default; Value Range [10, 100]"
+                    description: "Paging Size; 10 by default; value range [10, 100]"
                   totalCount:
                     type: integer
                     description: "Total Query Result Amount"
@@ -607,7 +607,7 @@ paths:
           - Multiple RAIDs are available for the data disk and the RAID list supported by the server can be obtained by calling APIs (describeDeviceRaids)<br/>
         - Network<br/>
           - Network type currently only supports basic<br/>
-          -ISP Line only supports bgp currently<br/>
+          - ISP Line only supports bgp currently<br/>
           - Disabled Internet is supported. If the Internet is enabled, the bandwidth range is [1,200], in unit Mbps<br/>
         - Miscellaneous<br/>
           - Purchase duration, the annual purchase or monthly purchase is available, with the minimum purchase duration of 1 month and the maximum purchase duration of 36 months (3 years)<br/>
@@ -668,5 +668,5 @@ parameters:
     in: path
     required: true
     type: string
-    description: "Operating System Type ID, the Operating Systems Supported by the Cloud Physical Server can be Obtained by Calling APIs (describeOS)"
+    description: "Operating System Type ID, the operating systems supported by the Cloud Physical Server can be obtained by calling APIs (describeOS)"
 

@@ -48,10 +48,10 @@ paths:
                     description: "Number of All Matched Domain Name Lists"
                   totalPage:
                     type: integer
-                    description: "Pages of All Matched Domain Name Lists in Total According to the Paging Parameters                    "
+                    description: "Pages of All Matched Domain Name Lists in Total According to the Paging Parameters                    "                    
               requestId:
                 type: string
-                description: "ID of this request"
+                description: "ID of This Request"
         400:
           description: "BAD_REQUEST"
   /domainAdd:
@@ -74,7 +74,7 @@ paths:
           in: query
           type: integer
           required: false
-          description: "Domain Name ID, required for upgraded and advanced version       "
+          description: "Domain Name ID, required for upgraded and advanced version       "       
         - name: buyType
           in: query
           required: false 
@@ -110,7 +110,7 @@ paths:
                     description: "Add the order number of the paid domain name"
               requestId:
                 type: string
-                description: "ID of this request"
+                description: "ID of This Request"
         400:
           description: "BAD_REQUEST"
   /domainDel:
@@ -131,7 +131,7 @@ paths:
             properties:
               requestId:
                 type: string
-                description: "ID of this request"
+                description: "ID of This Request"
         400:
           description: "BAD_REQUEST"
   /domainUpdate:
@@ -162,7 +162,7 @@ paths:
                     description: "Domain Name Structure after Modification"
               requestId:
                 type: string
-                description: "ID of this request"
+                description: "ID of This Request"
         400:
           description: "BAD_REQUEST"
           
@@ -206,7 +206,7 @@ paths:
                       type: integer
               requestId:
                 type: string
-                description: "ID of this request"
+                description: "ID of This Request"
         400:
           description: "NOT_FOUND"
 

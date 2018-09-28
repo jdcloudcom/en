@@ -18,7 +18,7 @@ definitions:
         description: "User Name"
       password:
         type: string
-        description: "Password "
+        description: "Password " 
       email:
         type: string
         description: "Email Address"

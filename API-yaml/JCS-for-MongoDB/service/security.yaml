@@ -10,12 +10,12 @@ paths:
   "/instances/{instanceId}/securityIps":
     ###################### Modify Instance Access White List ######################
     post:
-      description: "Modify Instance Access White List"
+      description: "Modify instance access White List"
       operationId: modifySecurityIps 
       parameters:
         - name: modifySecurityIps
           in: body
-          description: 
+          description:
           schema:
             type: object
             required:

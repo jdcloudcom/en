@@ -44,7 +44,7 @@ paths:
           name: pageNumber
           in: query
         - type: integer
-          description: "Paging size; it is 20 by default; value range[10, 100]"
+          description: "Paging size; 20 by default; value range[10, 100]"
           name: pageSize
           in: query
       responses:
@@ -102,7 +102,7 @@ paths:
                 properties:
                   alarmIdList:
                     type: array
-                    description: "Rule ID List Created                    "
+                    description: "Rule ID List Created"                    
                     items:
                       type: string 
               requestId:
@@ -270,7 +270,7 @@ paths:
         name: pageNumber
         in: query
       - type: integer
-        description: "Paging size; it is 20 by default; value range[10, 100]"
+        description: "Paging size; 20 by default; value range[10, 100]"
         name: pageSize
         in: query
       responses:

@@ -10,7 +10,7 @@ definitions:
         description: "Cluster ID"
       name:
         type: string
-        description: "Cluster name supports Chinese, numbers, capital and lowercase letters, English underline “_” and line-through “-”, with the length of 6-32 characters."
+        description: "Cluster name allows Chinese, numbers, capital and lowercase letters, English underline “_” and line-through “-”, with the length of 6-32 characters."
       clusterPrimaryId:
         type: integer
         format: int64

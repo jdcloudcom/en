@@ -74,7 +74,7 @@ paths:
           items:
             $ref: "../../common/model/Sort.yaml#/definitions/sort"
           description: |
-            createTime - Create Time (asc: Positive Order, desc: Inverted Order)
+            createTime - Creation Time (asc: Positive Order, desc: Inverted Order)
       responses:
         200:
           description: "OK"

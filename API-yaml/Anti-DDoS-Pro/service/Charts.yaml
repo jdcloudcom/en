@@ -2,14 +2,14 @@ swagger: "2.0"
 info:
   version: "v1"
   title: Advanced Anti-DDoS Report APIs
-  description: "Advanced Anti-DDoS Report APIs, including CC defense, ddos protection, and forwarding traffic"
+  description: "Advanced Anti-DDoS Report APIs, including CC defense, DDos protection, and forwarding traffic"
 
 basePath: /regions/{regionId}
 
 paths:
   /charts:ddosGraph:
     get:
-      description: "ddos protection report"
+      description: "DDos Protection Report"
       operationId: ddosGraph
       parameters:
         - name: startTime
@@ -27,7 +27,7 @@ paths:
           type: array
           items:
             type: string
-          description: "Advanced Anti-DDoS instance ID, 0 or more can be transferred"
+          description: "Advanced Anti-DDoS Instance ID, 0 or more can be transferred"
           required: false
       responses:
         200:
@@ -53,12 +53,12 @@ paths:
                       format: int64
                   unit:
                     type: string
-                    description: "Unit"
+                    description: "Traffic Unit"
               requestId:
                 type: string
   /charts:fwdGraph:
     get:
-      description: "Forwarding traffic report"
+      description: "Forwarding Traffic Report"
       operationId: fwdGraph
       parameters:
         - name: startTime
@@ -76,7 +76,7 @@ paths:
           type: array
           items:
             type: string
-          description: "Advanced Anti-DDoS instance ID, 0 or more can be transferred"
+          description: "Advanced Anti-DDoS Instance ID, 0 or more can be transferred"
           required: false
       responses:
         200:
@@ -97,12 +97,12 @@ paths:
                       format: int64
                   unit:
                     type: string
-                    description: "Unit"
+                    description: "Traffic Unit"
               requestId:
                 type: string
   /charts:ccGraph:
     get:
-      description: "Forwarding traffic report"
+      description: "Forwarding Traffic Report"
       operationId: ccGraph
       parameters:
         - name: startTime
@@ -120,14 +120,14 @@ paths:
           type: array
           items:
             type: string
-          description: "Advanced Anti-DDoS instance ID, 0 or more can be transferred"
+          description: "Advanced Anti-DDoS Instance ID, 0 or more can be transferred"
           required: false
         - name: subDomain
           in: query
           type: array
           items:
             type: string
-          description: "Rule domain name, 0 or more can be transferred"
+          description: "Rule Domain Name, 0 or more can be transferred"
           required: false
       responses:
         200:
@@ -153,10 +153,10 @@ paths:
                       format: int64
                   unit:
                     type: string
-                    description: "Unit"
+                    description: "Traffic Unit"
               requestId:
                 type: string
-# General parameters of path
+# General Parameters of Path
 parameters:
   regionId:
     name: regionId
