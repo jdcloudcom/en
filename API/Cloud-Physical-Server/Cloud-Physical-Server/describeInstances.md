@@ -14,7 +14,7 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/instances
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID, the Region and Availability Zone Supported by the Cloud Physical Servers can be Called by Calling APIs (describeRegions)|
+|**regionId**|String|True||Region ID, the Region and Availability Zone supported by the Cloud Physical Servers can be obtained by calling APIs (describeRegions)|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
