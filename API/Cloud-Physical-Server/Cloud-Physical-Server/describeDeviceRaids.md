@@ -2,7 +2,7 @@
 
 
 ## Description
-Query the RAID Types Supported by the Cloud Physical Server of a Certain Instance Type Family, May Query the System Disk RAID Type and Data Disk RAID Type
+Query the RAID types supported by the Cloud Physical Server of a certain instance type family, able to query the system disk RAID type and data disk RAID type
 
 ## Request method
 GET
