@@ -41,10 +41,10 @@ definitions:
         items:
           type: string
       downSample:
-        description: "Sampling frequency, some metrics support setting downSample, through <a href='https://www.jdcloud.com/help/detail/2791/isCatalog/1'>[Query metric list to create monitoring rules available]</a>API is available for viewing."
+        description: "Sampling frequency, some metrics support setting downSample, through <a href='http://docs.jdcloud.com/monitoring/api/describemetricsforcreatealarm'>[Query metric list to create monitoring rules available]</a>API is available for viewing."
         type: string
       metric:
-        description: "For values, please view <a href='https://www.jdcloud.com/help/detail/2791/isCatalog/1'> [Query metric list to create monitoring rules available]</a> metric field of API"
+        description: "For values, please view <a href='http://docs.jdcloud.com/monitoring/api/describemetricsforcreatealarm'> [Query metric list to create monitoring rules available]</a> metric field of API"
         type: string
       noticePeriod:
         description: "Notification Period Unit: Hour"
@@ -61,7 +61,7 @@ definitions:
         items:
           type: string
       serviceCode:
-        description: "For values of product name, please view <a href='https://www.jdcloud.com/help/detail/2791/isCatalog/1'>[Query metric list to create monitoring rules available ]</a> serviceCode field of API"
+        description: "For values of product name, please view <a href='http://docs.jdcloud.com/monitoring/api/describemetricsforcreatealarm'>[Query metric list to create monitoring rules available ]</a> serviceCode field of API"
         type: string
       threshold:
         description: "Alarm threshold, currently, only numeric type is available"
