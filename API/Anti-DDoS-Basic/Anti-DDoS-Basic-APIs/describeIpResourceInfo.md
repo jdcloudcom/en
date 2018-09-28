@@ -38,7 +38,7 @@ None
 |**cleanThresholdPps**|Integer|Package Rate of Trigger Cleaning, Unit: pps|
 |**ip**|String|EIP Address|
 |**region**|String|Region, i.e. cn-north-1, cn-south-1, cn-east-1 and cn-east-2|
-|**safeStatus**|Integer|Security Status, 0->Safe  1->Clean  2-Black Hole|
+|**safeStatus**|Integer|Security Status, 0->Safe  1->Clean  2->Black Hole|
 
 ## Return code
 |Return code|Description|
