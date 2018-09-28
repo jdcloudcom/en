@@ -2,8 +2,8 @@
 
 
 ## Description
--   Data recovery operations can only be executed on the source hard disk, from which the snapshot was taken.
--   Snapshots can be used for data recovery operations only if the source hard disk is available.
+-   Data recovery operations can only be executed on the source Cloud Disk, from which the snapshot was taken.
+-   Snapshots can be used for data recovery operations only if the source Cloud Disk is available.
 -   After the Cloud Disk is restored, the current data will be cleared. Please be cautious.
 
 

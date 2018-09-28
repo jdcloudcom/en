@@ -23,7 +23,7 @@ None
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
-|**result**|Result|Query Cloud Disk details|
+|**result**|Result|Cloud Disk details|
 
 
 ### Result
@@ -34,26 +34,26 @@ None
 |Name|Type|Description|
 |---|---|---|
 |**attachments**|DiskAttachment[]|Attach Information|
-|**az**|String|AZ, to which the Cloud Disk belongs|
+|**az**|String|Available Zone, to which the Cloud Disk belongs|
 |**charge**|Charge|Configuration Information for Cloud Disk Service Billing|
 |**createTime**|String|Cloud Disk Creating Time|
 |**description**|String|Description of the Cloud Disk. It allows you to enter all characters under UTF-8 encoding, but no more than 256 characters.|
 |**diskId**|String|Cloud Disk ID|
 |**diskSizeGB**|Integer|Disk Size, in GiB|
 |**diskType**|String|Disk Type, ssd or premium-hdd|
-|**multiAttachable**|Boolean|Does the Cloud Disk service support multiple attachments?|
-|**name**|String|Name of the Cloud Disk. Only Chinese characters, numbers, uppercase and lowercase letters, English underscores '_' or hyphens '-' are allowed. It is not allowed to be blank and shall not exceed 32 characters.|
+|**multiAttachable**|Boolean|Is multiple attachment True or False|
+|**name**|String|Name of the Cloud Disk. Only Chinese characters, numbers, uppercase and lowercase letters, English underscores '_' and hyphens '-' are allowed. It is not allowed to be blank and shall not exceed 32 characters.|
 |**snapshotId**|String|Snapshot ID used to create the Cloud Disk|
 |**status**|String|Status of the Cloud Disk, creating, available, in-use, extending, restoring, deleting, deleted, error_create, error_delete, error_restore or error_extend|
 |**tags**|Tag[]|Tag Information|
 ### DiskAttachment
 |Name|Type|Description|
 |---|---|---|
-|**attachTime**|String|Attaching Time|
+|**attachTime**|String|Attach Time|
 |**attachmentId**|String|Attach ID|
 |**diskId**|String|Cloud Disk ID|
-|**instanceId**|String|ID of Instance Attached|
-|**instanceType**|String|Type of the Instance Attached, vm or nc|
+|**instanceId**|String|Instance ID|
+|**instanceType**|String|Instance Type, vm or nc|
 |**status**|String|Attaching Status, 'attaching', 'attached', 'detaching' or 'detached'|
 ### Charge
 |Name|Type|Description|

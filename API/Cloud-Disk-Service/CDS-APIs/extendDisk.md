@@ -3,7 +3,7 @@
 
 ## Description
 -   Expansion of the Cloud Disk requires it in available status.
--   Capacity expansion is not allowed while the disk is creating a snapshot.
+-   Capacity expansion is not allowed while the Cloud Disk is creating a snapshot.
 
 
 ## Request method
