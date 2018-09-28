@@ -7,7 +7,7 @@ Based on full-size and incremental backups of cross-regional backup services, yo
 - The creation completion time is related to the amount of data of the source instance, usually within minutes to hours.
 
 ## Operation Steps
-1. Login [MongoDB Console](https://mongodb-console.jdcloud.com/mongodb?dataCenter=bj_02).
+1. Login [MongoDB Console](https://mongodb-console.jdcloud.com/mongodb).
 1. Enter the "Cross-Region Backup Synchronization Service" page, select the target service, click **Create Instance based on Backup Data**, and open the "Create Instance" page.
 
    ![Create Synchronization Service](../../../../../image/mongodb/mongo-045.png)

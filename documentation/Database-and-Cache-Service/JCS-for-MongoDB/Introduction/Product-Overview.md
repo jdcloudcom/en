@@ -30,4 +30,4 @@ The JCS for MongoDB has the following features:
 	- [Set Alarm Rules](../Operation-Guide/Monitoring/Alarm-Rules.md)
 
 ## Billing
-The JCS for MongoDB supports two billing types including monthly package and pay by configuration. For more information, please see "[Billing Rules](./ Pricing/ Billing-Rules.md) ".
+The JCS for MongoDB supports two billing types including monthly package and pay by configuration. For more information, please see "[Billing Rules](../Pricing/Billing-Rules.md) ".

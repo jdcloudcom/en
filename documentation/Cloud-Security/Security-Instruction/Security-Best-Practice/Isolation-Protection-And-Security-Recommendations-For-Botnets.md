@@ -1,6 +1,6 @@
 # Isolation Protection and Security Advice for Zombie Machine
 
-**Zombie Machine Concept**: Due to the potential security vulnerabilities of the Virtual Machine's open service to the public network, the hacker may eavesdrop the control of the machine or implant a Trojan horse to further exploit the machine to launch a network attack. Zombie machine is also known as "puppet machine”.
+**Zombie Machine Concept**: Due to the potential security vulnerabilities of the Virtual Machine's open service to the public network, the hacker may eavesdrop the control of the machine or implant a Trojan horse to further exploit the machine to launch a network attack. Zombie machine is also known as "puppet machine".
 
 **JD Cloud Isolation Mechanism**: If the machine is found to continuously conduct external network attacks, JD Cloud security protection system will perform network isolation on the machine, which will lead to network exceptions such as users cannot access the virtual machine through the EIP and the machine cannot communicate with DHCP, so that the private IP addresses cannot be obtained. After the user achieves the object of clearing the attack behavior by rebuilding (operable on the console) or clearing Trojan horse, the user needs to contact JD Cloud customer service personnel to help cancel the network isolation.
 
@@ -44,7 +44,7 @@ In order to completely clear malicious programs, users can consider rebuilding a
 
 8. Web Application Security: Web applications shall be ensured that there are no security vulnerabilities such as file upload, SQL injection, and code execution; the above vulnerabilities may cause the system intrusion;
 
-9. If you need further and more targeted security services, you can contact customer service personnel or purchase “JD Cloud Security Consulting Service".
+9. If you need further and more targeted security services, you can contact customer service personnel or purchase "JD Cloud Security Consulting Service".
 
 **Best Practices of JD Cloud Security Group**
 

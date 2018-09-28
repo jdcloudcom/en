@@ -13,8 +13,8 @@ paths:
   "/segments/":
      #describe segments
     get:
-      summary: "Query Segment List"
-      description: "Query Segment List"
+      summary: "Query segment list"
+      description: "Query segment list"
       operationId: describeSegments
       x-jdcloud-internal: true
       parameters:
@@ -30,15 +30,15 @@ paths:
           default: 20
           minimum: 10
           maximum: 100
-          description: "Paging size; it is 20 by default. Value Range: [10, 100]"
+          description: "Paging Size: 20 by default. Value Range: [10, 100]"
         - name: filters
           in: query
           type: array
           items:
             $ref: "../../common/model/Filter.yaml#/definitions/filter"
           description: |
-                 segmentIds - segment ID list, support multiple IDs
-                 segmentNames - segment name list, support multiple names
+                 segmentIds - Segment ID list, support multiple IDs
+                 segmentNames - Segment name list, support multiple names
                  provider - IP service provider, values include bgp or no_bgp, cn-north-1: bgp; cn-south-1: [bgp, no_bgp]; cn-east-1: [bgp, no_bgp]; cn-east-2: bgp, support single provider
     
       responses:
@@ -64,8 +64,8 @@ paths:
   "/segments/{segmentId}":
       #describe segment
       get:
-        summary: "Query Segment Information Details"
-        description: "Query Segment Information Details"
+        summary: "Query segment information details"
+        description: "Query segment information details"
         operationId: describeSegment
         x-jdcloud-internal: true
         responses:

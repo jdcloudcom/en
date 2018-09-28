@@ -3,7 +3,7 @@
 Download of backup files for the MongoDB instances is supported, and you can download the backup files yourself as needed.
 
 ## Operation Steps:
-1. Login [MongoDB Console](https://mongodb-console.jdcloud.com/mongodb?dataCenter=bj_02).
+1. Login [MongoDB Console](https://mongodb-console.jdcloud.com/mongodb).
 1. On the "Instance List" page, select the **target instance**, then click **Instance Name** to enter the "Instance Details" page.
 1. On the "Instance Details" page, click **Backup and Recovery** to view the backup data.
 1. Select the backup you want to download. In the operation items, click **Download** to open "Download Popup".

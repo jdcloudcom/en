@@ -13,7 +13,7 @@ The possible reason is that the link between the Virtual Machines and the MongoD
 
 1. Verify if the connection address of the MongoDB instance is correct.
 
-   Locate the MongoDB instance on the MongoDB console and view the MongoDB connection address on the instance details page. Refer to: [Connection Instance](./ Getting-Started/ Connect-Instance.md)
+   Locate the MongoDB instance on the MongoDB console and view the MongoDB connection address on the instance details page. Refer to: [Connection Instance](../Getting-Started/Connect-Instance.md)
 
 1. Verify if the Virtual Machines for connection is in the same VPC of the MongoDB instance.
 
@@ -40,6 +40,6 @@ The possible reason is that the link between the Virtual Machines and the MongoD
    ![](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-029.png)
 
   ## Follow-up Processing
-  If the problem is still not solved through the above operation, please [Open ticket](https://ticket.jdcloud.com/myorder/form?cateId=166&questionId=238) or call the customer hotline 400-615-1212 。
+  If the problem is still not solved through the above operation, please [Open ticket](https://ticket.jdcloud.com/myorder/form?cateId=166&questionId=238) or call the customer hotline 400-615-1212 .
 
 

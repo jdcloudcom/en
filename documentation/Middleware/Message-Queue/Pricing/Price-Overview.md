@@ -5,23 +5,23 @@ Message Queue Cost = API Call Fee + Topic Resource Occupancy Fee
 ## API Call Fee
 Number of requests: Calling number of sending messages + API calling number of subscription messages, the unit is in millions, accurate to three decimal places.
 
-| Billing by Ladder	| Total Amount of Calling/Month	| Cost of Million Times |
+|Billing by Ladder	| Total Amount of Calling/Month	| Cost of Million Times|
 |:--|:-- |--: |
-| First Ladder	| 0-1 billion times	| 2 RMB |
-| Second Ladder	| 1-5 billion times	| 1.8 RMB |
-| Third Ladder	| 5-10 billion times	| 1.5 RMB |
-| Forth Ladder	| 10-50 billion times	| 1.3 RMB |
-| Fifth Ladder	| 50 billion above	| 1.2 RMB |
+| First Ladder | 0-1 billion times | 2 RMB |
+| Second Ladder | 1-5 billion times	| 1.8 RMB |
+| Third Ladder | 5-10 billion times | 1.5 RMB |
+| Forth Ladder | 10-50 billion times	| 1.3 RMB |
+| Fifth Ladder | 50 billion above	| 1.2 RMB |
 
 
 ## Topic Resource Occupancy Fee
 
-| Billing by Ladder |	Number of Calling/Day/Topic	| Cost/Day/Topic |
+|Billing by Ladder| Number of Calling/Day/Topic	| Cost/Day/Topic |
 |:--|:-- |--: |
-| First Ladder	| 0-1 million times	| 2 RMB |
-| Second Ladder |	1-5 million times	| 1.5 RMB |
-| Third Ladder |	5-10 million times	| 0.5 RMB |
-| Forth Ladder	| 10 million times above	| 0 RMB |
+| First Ladder | 0-1 million times	| 2 RMB |
+| Second Ladder | 1-5 million times	| 1.5 RMB |
+| Third Ladder | 5-10 million times | 0.5 RMB |
+| Forth Ladder | 10 million times above |  0 RMB |
 
 
 ### Billing Notes

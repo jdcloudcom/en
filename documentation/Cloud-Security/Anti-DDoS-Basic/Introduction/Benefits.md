@@ -26,7 +26,7 @@
 ## Related Reference
 
 - [Features](./Introduction/Functions.md)
-- [Price Overview](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Basic-Anti-DDoS/Pricing/Billing-Overview.md)
+- [Price Overview](../Pricing/Billing-Overview.md)
 - [Billing Rules](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Basic-Anti-DDoS/Pricing/Billing-Overview.md)
 - [Create instance](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Basic-Anti-DDoS/Getting-Started/Basic-Anti-DDos-Started.md)
-- [Application Scenarios](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Basic-Anti-DDoS/Introduction/Application-Scenarios.md)
+- [Application Scenarios](../Introduction/Application-Scenarios.md)

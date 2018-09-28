@@ -8,7 +8,7 @@ The JCS for MongoDB supports automatic backup. After the instance is created, a 
 - If automatic backup has been performed that day and the time to modify the automatic backup is post to the current time, the backup will still be created.
 
 ## Operation Steps
-1. Login [MongoDB Console](https://mongodb-console.jdcloud.com/mongodb?dataCenter=bj_02).
+1. Login [MongoDB Console](https://mongodb-console.jdcloud.com/mongodb).
 1. On the "Instance List" page, select the target instance, then click **Instance Name** to enter the "Instance Details" page.
 1. On the  "Instance Details" page, click **Backup and Recovery** > **Backup Strategy** to go to the "Backup Strategies" page.
    

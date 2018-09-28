@@ -1,6 +1,6 @@
 # Features
-#### Core Functions
-## Publishing and Subscription
+## Core Functions
+### Publishing and Subscription
 Producers can create Topic to publish multiple types of messages, and consumers can subscribe Topic for on-demand consumption.
 
 ### Query Messages

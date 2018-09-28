@@ -22,7 +22,7 @@ A: The residence time of the public network IP triggering a black hole state in 
   
 **6, Q: How Does the Attack Flow Exceed 2G?**
 
-A: The black hole is triggered when the attack exceeds 2G, and the access to the IP is shielded for a period of time. It is recommended that you purchase JD Cloud [Anti-DDoS Pro](https://www.jdcloud.com/products/ipanti) services from JD Cloud for greater defense.
+A: The black hole is triggered when the attack exceeds 2G, and the access to the IP is shielded for a period of time. It is recommended that you purchase JD Cloud [Anti-DDoS Pro](http://www.jdcloud.com/cn/products/anti-ddos-pro) services from JD Cloud for greater defense.
 
 **7, Q: What Attack Types are Supported for Underlying Protection**
 
@@ -32,6 +32,6 @@ If the above cannot solve your problem, consult the after-sales of the product: 
 
 # Related Documents
 
-- [What is Anti-DDoS Basic? ](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Anti-DDoS-Basic/Introduction/Product-Overview.md)
-- [Anti-DDoS Basic Architecture](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Anti-DDoS-Basic/Introduction/Basic-Infrastructure.md)
-- [Quick Start](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Anti-DDoS-Basic/Getting-Started/Anti-DDos-Basic-Started.md)
+- [What is Anti-DDoS Basic? ](../Introduction/Product-Overview.md)
+- [Anti-DDoS Basic Architecture](../Introduction/Basic-Infrastructure.md)
+- [Quick Start](../Getting-Started/Anti-DDos-Basic-Started.md)

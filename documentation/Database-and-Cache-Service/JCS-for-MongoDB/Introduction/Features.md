@@ -14,7 +14,7 @@ Support capacity expansion and capacity reduction. You can upgrade or downgrade 
 
 The three-node replica set is automatically set up. The default Primary and Secondary nodes provide services. When the Primey node fails, the system automatically elects a new Primary node. When the Secondary node is unavailable, the standby node takes over the service and multiple guarantee mechanisms ensure service availability.
 
-## Single Availability Zone Deployment
+### Single Availability Zone Deployment
 
 Support for single availability deployment, three nodes are automatically deployed to physical machines in different racks, providing high availability across racks.
 
@@ -52,8 +52,8 @@ You can set alarm rules based on the monitoring items. When the monitoring items
 
 ## Related Reference
 
-- [Product Overview](../Introduction/What-Is-MongoDB.md)
-- [Specifications](../Product-Introduction/Specification.md)
+- [Product Overview](../Introduction/Product-Overview.md)
+- [Specifications](../Introduction/Specifications.md)
 - [Price Overview](../Pricing/Price-Overview.md)
 - [Create Instance](../Getting-Started/Create-Instance.md)
 - [Alter Configuration](../Operation-Guide/Instance-Management/Modify-Instance-Spec.md)

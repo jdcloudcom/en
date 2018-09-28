@@ -13,7 +13,7 @@ definitions:
         description: "Availability Zone, User’s Default Availability Zone"
       networkInterfaceName:
         type: string
-        description: "Network interface name, only allowed to enter Chinese, numbers, capital and lowercase letters, English underline “_” and line-through “-”, must provide a name which cannot exceed 32 characters."
+        description: "Network interface name, only allow Chinese, numbers, capital and lowercase letters, English underline “_” and line-through “-”, must provide a name which cannot exceed 32 characters."
       primaryIpAddress:
         type: string
         description: "Network interface primary IP, if it has not been assigned, it will be allocated automatically from the subnet"
@@ -33,6 +33,6 @@ definitions:
       sanityCheck:
         type: integer
         description: "Source and target IP address verification, with value 0 or 1, default value is 1"
-      description: 
+      description:
         type: string
-        description: "Description, all characters allowed to enter under UTF-8 coding, which is not exceed 256 characters"
+        description: "Description, allow all characters under UTF-8 coding, which cannot exceed 256 characters"

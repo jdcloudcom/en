@@ -19,7 +19,7 @@ The following table gives some suggestions for your reference:
 | IP Change Frequently | Dynamic IP | Downtime Detection | Server Architecture         | Recommended TTL Value (seconds) |
 | ---------- | ------ | -------- | ------------------ | --------------- |
 | No         | No     | Not used   | Single Server           | 600             |
-| No        | No     | Use     | Multiple Servers           | 180             |
+| No         | No     | Use     | Multiple Servers           | 180             |
 | Yes         | No     | Not used   | Single Server           | 300             |
 | Yes         | Yes     | Not Limited     | Not Limited               | 120             |
 | No         | No     | Yes       | Large Website           | 60              |

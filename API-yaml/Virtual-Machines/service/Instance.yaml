@@ -2,7 +2,7 @@ swagger: "2.0"
 info:
   version: "v1"
   title: VM
-  description: "Machine operation-rrelated APIs"
+  description: "Machine Operation APIs"
 
 basePath: /regions/{regionId}
 
@@ -11,11 +11,11 @@ paths:
     ###################### Create Machine API ######################
     post:
       description: |
-        Create a virtual machine with one or more specified configurations,  which is divided into three types: 1. general mode,  2. availability group,  3,  use of the starting template. The required transfer of parameters when creating a virtual machine in three ways is different. Please refer to details</a><br>
+        Create a virtual machine with one or more specified configurations, which is divided into three types: 1. general mode, 2. availability group, 3. use of the starting template. The required transfer of parameters when creating a virtual machine in three ways is different. Please refer to details</a><br>
         - Creating a VM requires real-name verification
         - Specification Type
             - Can query <a href="https://www.jdcloud.com/help/detail/2901/isCatalog/1">DescribeInstanceTypes</a> Interface gets specification information for a specified domain or availability zone
-            - It is not possible to use for off-line,  or a specification ID of the carnation already sold
+            - It is not possible to use for off-line, or a specification ID of the carnation already sold
         - image
             - Windows Server 2012 R2 Standard Edition 64-bit Chinese version SQL Server 2014 Standard SP2 memory needs more than 1 GB;
             - Windows Server all image CPUs must not be selected to exceed 64 cores CPU.
@@ -24,26 +24,26 @@ paths:
         - Network Instance Type
             - Specify primary network card configuration information
                 - SubnetId must be specified
-                - You can specify the elastrological specification to constrain the created EIP,  the bandwidth value range[1-100] Mbps,  step 1 Mbps
-                - The primary intranet IP (priority IpAddress) of the master network card can be specified,  at which time maxCount can only be 1
+                - You can specify the elastrological specification to constrain the created EIP, the bandwidth value range[1-100] Mbps, step 1 Mbps
+                - The primary intranet IP (priority IpAddress) of the master network card can be specified, at  which time maxCount can only be 1
                 - The security group securityGroup needs to be within the same virtual private cloud VPC as the subnet Subnet
-                - A security group must be specified when a virtual machine is created,  and at most 5 security groups are specified. If no security group is specified,  the default security group is used by default
+                - A security group must be specified when a virtual machine is created, and  at most 5 security groups are specified. If no security group is specified, the default security group is used by default
                 - The main network card deveIndex is set to 1
         - Storage
-            - System disk
-                - Disk classification,  system disk support,  or cloud
+            - System Disk
+                - Disk classification, system disk support, or cloud
                 - Disk Size
-                    - ERROR: Unable to specify size,  default 40GB
-                    - cloud: value range: 40-500GB,  and cannot be smaller than the minimum system disk size of image; if not specified,  the default is the system disk size in the image
+                    - ERROR: Unable to specify size, default 40GB
+                    - cloud: Value range: 40-500GB, and cannot be smaller than the minimum system disk size of image; if not specified, the default is the system disk size in the image
                 - Auto-delete
-                    - If local,  default auto-deletion,  this property cannot be modified
+                    - If local, default auto-deletion, this property cannot be modified
                     - True if cloud type-based Cloud Disk Service are configured
-            - Data disk
-                - Disk classification,  data disks only support cloud
-                - The type of Cloud Disk Service drive can select ssd,  premium-hdd
+            - Data Disk
+                - Disk classification, data disks only support cloud
+                - The type of Cloud Disk Service drive can select ssd, premium-hdd
                 - Disk Size
-                    - premium-hdd: range[20, 3000] GB,  step size: 10G
-                    - ssd: range[20, 1000] GB,  step size: 10G
+                    - premium-hdd: Range[20, 3000] GB, Step Size: 10G
+                    - ssd: Range[20, 1000] GB, Step Size: 10G
                 - Auto-delete
                     - Auto-deletion by default, for the data disk or shared data disk of the monthly package, this parameter does not take effect
                     - SnapshotId can be specified to create a Cloud Disk Service
@@ -51,12 +51,12 @@ paths:
             - The VM of local type system can attach 8 Cloud Disk Services
             - The VM of cloud type system can attach 7 Cloud Disk Services
         - Billing
-            - Billing mode of EIP. If you choose to set separately by consumption,  the other billing modes are subject to the machine.
+            - Billing mode of EIP. If you choose to set separately by consumption, the other billing modes are subject to the machine.
             - The billing mode of the Cloud Disk Service is subject to the machine
         - Others
-            - After the creation is complete,  the machine status is running
+            - After the creation is complete, the machine status is running
             - Only the Linux system Virtual Machines can specify key pair
-            - maxCount is the maximum effort,  and it is not guaranteed that maxCount can be reached
+            - maxCount is the maximum effort, and it is not guaranteed that maxCount can be reached
             - The VM's az replaces the az attribute of the disk
         - Password
             - <a href="https://www.jdcloud.com/help/detail/3870/isCatalog/1">Refer to the public parameter specification</a>
@@ -74,7 +74,7 @@ paths:
           type: integer
           default: 1
           description: |
-            The number of VMs purchased;Value range:[1, 100],  1 by default.
+            The number of VMs purchased; Value range: [1, 100], 1 by default.
         - name: clientToken
           in: query
           type: string
@@ -98,7 +98,7 @@ paths:
         401:
           description: "Authentication failed"
         404:
-          description: "Not found"
+          description: "Not Found  "
         429:
           description: "Quota exceeded"
         500:
@@ -109,7 +109,7 @@ paths:
     ###################### Machine List API ######################
     get:
       description: |
-        Batch query of Virtual Machines details<br>
+        Batch Query of Virtual Machines Details<br>
         This API supports paging query with 20 items per page by default.
       operationId: describeInstances
       parameters:
@@ -122,22 +122,22 @@ paths:
           in: query
           type: integer
           default: 20
-          description: "Paging size;20 by default;Value range[10, 100]"
+          description: "Paging size; 20 by default; Value range[10, 100]"
         - name: filters
           in: query
           type: array
           items:
             $ref: "../../common/model/Filter.yaml#/definitions/filter"
-          description: |
+          description: | 
             instanceId-VM ID, exact match, multiple supported
             PrivateIpAddress-primary private IP address of primary network interface, fuzzy match, multiple supported
-            az-AZ,  exact match,  multiple supported
+            az-AZ, exact match, multiple supported
             vpcId-Virtual Private Cloud ID, exact match, multiple supported
-            status-virtual machine status,  match exactly,  support multiple,  <a href="https://www.jdcloud.com/help/detail/3869/isCatalog/1">refer to virtual machine status</a>
+            status-Virtual machine status, exact match, multiple supported <a href="https://www.jdcloud.com/help/detail/3869/isCatalog/1">refer to virtual machine status</a>
             name-VM name, fuzzy match, single supported
             imageId-Image ID, exact match, multiple supported
             networkInterfaceId-ENI ID, exact match, multiple supported
-            subnetId-subnet ID, exact match, multiple supported
+            subnetId-Subnet ID, exact match, multiple supported
             agId-Use the AG id, single supported
             faultDomain-Error domain, multiple supported
       responses:
@@ -160,7 +160,7 @@ paths:
         401:
           description: "Authentication failed"
         404:
-          description: "Not found  "
+          description: "Not Found  "  
         500:
           description: "Internal server error"
         503:
@@ -187,7 +187,7 @@ paths:
         401:
           description: "Authentication failed"
         404:
-          description: "Not found  "
+          description: "Not Found  "  
         500:
           description: "Internal server error"
         503:
@@ -196,8 +196,8 @@ paths:
     ###################### Delete Machine API ######################
     delete:
       description: |
-        Delete a single virtual machine that is paid by configuration,  or expires in a monthly package. You cannot delete a virtual machine without billing information. <br>
-        The virtual machine status must be <b>running<b>,  <b>stopped<b>,  <b>error<b>,  and the virtual machine is not in progress to delete. <br>
+        Delete a single virtual machine that is paid by configuration, or expires in a monthly package. You cannot delete a virtual machine without billing information. <br>
+        The virtual machine status must be <b>running<b>, <b>stopped<b>, <b>error<b>, and the virtual machine is not in progress to delete. <br>
         The virtual machine that has not expired in monthly package cannot be deleted. The white list user cannot delete the virtual machine that has expired in monthly package. <br>
         If the data disk attached in the machine is the cloud disk billed by instance type and is not a shared Cloud Disk Service, and the AutoDelete property is true, then the data disk is deleted along with the machine.
       operationId: deleteInstance
@@ -210,16 +210,16 @@ paths:
         401:
           description: "Authentication failed"
         404:
-          description: "Not found  "
+          description: "Not Found  "  
         500:
           description: "Internal server error"
         503:
           description: "Service unavailable"
 
   "/instanceStatus":
-    ###################### Batch Query VM status ######################
+    ###################### Batch Query of VM Status ######################
     get:
-      description: "Batch Query VM Status"
+      description: "Batch Query of VM Status"
       operationId: describeInstanceStatus
       parameters:
         - name: pageNumber
@@ -231,7 +231,7 @@ paths:
           in: query
           type: integer
           default: 20
-          description: "Paging size; 20 by default;Value range[10, 100] "
+          description: "Paging Size; 20 by default; Value range[10, 100] "
         - name: filters
           in: query
           type: array
@@ -241,11 +241,11 @@ paths:
             instanceId-VM ID, exact match, multiple supported
             PrivateIpAddress-primary private IP address of primary network interface, fuzzy match, multiple supported
             vpcId-Virtual Private Cloud ID, exact match, multiple supported
-            status-virtual machine status,  match exactly,  support multiple,  <a href="https://www.jdcloud.com/help/detail/3869/isCatalog/1">refer to virtual machine status</a>
+            status-Virtual machine status, exact match, multiple supported <a href="https://www.jdcloud.com/help/detail/3869/isCatalog/1">refer to virtual machine status</a>
             name-VM name, fuzzy match, single supported
             imageId-Image ID, exact match, multiple supported
             networkInterfaceId-ENI ID, exact match, multiple supported
-            subnetId-subnet ID, exact match, multiple supported
+            subnetId-Subnet ID, exact match, multiple supported
       responses:
         200:
           description: "OK"
@@ -266,7 +266,7 @@ paths:
         401:
           description: "Authentication failed"
         404:
-          description: "Not found"
+          description: "Not Found  "
         500:
           description: "Internal server error"
         503:
@@ -275,7 +275,7 @@ paths:
   "/instancePrivateIpAddress":
     ###################### Batch query primary private IP address of VM primary network interface ######################
     get:
-      description: "Batch query the private IP address of the VM, and query the primary private IP address in the primary network interface."
+      description: "Query the private IP address of the VM in batches, and query the primary private IP address in the primary network interface."
       operationId: describeInstancePrivateIpAddress
       parameters:
         - name: pageNumber
@@ -287,7 +287,7 @@ paths:
           in: query
           type: integer
           default: 20
-          description: "Paging size; 20 by default;Value range[10, 100] "
+          description: "Paging Size; 20 by default; Value range[10, 100] "
         - name: filters
           in: query
           type: array
@@ -297,11 +297,11 @@ paths:
             instanceId-VM ID, exact match, multiple supported
             PrivateIpAddress-primary private IP address of primary network interface, fuzzy match, multiple supported
             vpcId-Virtual Private Cloud ID, exact match, multiple supported
-            status-virtual machine status,  match exactly,  support multiple,  <a href="https://www.jdcloud.com/help/detail/3869/isCatalog/1">refer to virtual machine status</a>
+            status-Virtual machine status, exact match, multiple supported <a href="https://www.jdcloud.com/help/detail/3869/isCatalog/1">refer to virtual machine status</a>
             name-VM name, fuzzy match, single supported
             imageId-Image ID, exact match, multiple supported
             networkInterfaceId-ENI ID, exact match, multiple supported
-            subnetId-subnet ID, exact match, multiple supported
+            subnetId-Subnet ID, exact match, multiple supported
       responses:
         200:
           description: "OK"
@@ -322,7 +322,7 @@ paths:
         401:
           description: "Authentication failed"
         404:
-          description: "Not found"
+          description: "Not Found  "
         500:
           description: "Internal server error"
         503:
@@ -342,7 +342,7 @@ paths:
         401:
           description: "Authentication failed"
         404:
-          description: "Not found  "
+          description: "Not Found  "  
         500:
           description: "Internal server error"
         503:
@@ -352,7 +352,7 @@ paths:
     ###################### Start Machine API ######################
     post:
       description: |
-        Starting a single virtual machine,  only the virtual machine with stopped status can be started,  and the virtual machine does not have a task in progress to start. <br>
+        Starting a single virtual machine, only the virtual machine with stopped status can be started, and the virtual machine does not have a task in progress to start. <br>
         Only the VM with normal billing status can be started.
       operationId: startInstance
       responses:
@@ -363,7 +363,7 @@ paths:
         401:
           description: "Authentication failed"
         404:
-          description: "Not found  "
+          description: "Not Found  "  
         500:
           description: "Internal server error"
         503:
@@ -383,7 +383,7 @@ paths:
         401:
           description: "Authentication failed"
         404:
-          description: "Not found  "
+          description: "Not Found  "  
         500:
           description: "Internal server error"
         503:
@@ -394,8 +394,8 @@ paths:
     post:
       description: |
           A virtual machine attaches an elastic network interface <br>
-          The virtual machine status must be running or stopped status without being operated,  the task is available. <br>
-          If the public IP is associated with the elastic network interface,  the az of the public IP needs to be consistent with the az of the Virtual Machines,  or the public network IP belongs to the full available zone to be attached. <br>
+          The virtual machine status must be running or stopped status without being operated, the task is available. <br>
+          If the public IP is associated with the elastic network interface, the az of the public IP needs to be consistent with the az of the Virtual Machines, or the public network IP belongs to the full available zone to be attached. <br>
           The number of the Virtual Machines to attach the elastic network interface cannot exceed the limit of the instance type. Can query <a href = "https://www.jdcloud.com/help/detail/2901/isCatalog/1"> DescribeInstanceTypes</a> interface gives specification information for the specified zone or availability zone. <br>
           The elastic network interface and the Virtual Machines must be under the same vpc.
       operationId: attachNetworkInterface
@@ -419,7 +419,7 @@ paths:
         401:
           description: "Authentication failed"
         404:
-          description: "Not found"
+          description: "Not Found  "
         500:
           description: "Internal server error"
         503:
@@ -430,7 +430,7 @@ paths:
     post:
       description: |
           The virtual machine will load an elastic network interface. <br>
-          The virtual machine status must be running or stopped status without being operated,  the task is available. <br>
+          The virtual machine status must be running or stopped status without being operated, the task is available. <br>
           The primary network interface cannot be detached.
       operationId: detachNetworkInterface
       parameters:
@@ -447,7 +447,7 @@ paths:
         401:
           description: "Authentication failed"
         404:
-          description: "Not found"
+          description: "Not Found  "
         500:
           description: "Internal server error"
         503:
@@ -457,7 +457,7 @@ paths:
     ###################### Modify VM's ENI Attributes ######################
     post:
       description: |
-        Modify the virtual machine's elastic network interface properties,  including whether to delete with the virtual machine. <br>
+        Modify the virtual machine's elastic network interface properties, including whether to delete with the virtual machine. <br>
         The primary network interface cannot be modified.
       operationId: modifyInstanceNetworkAttribute
       parameters:
@@ -475,7 +475,7 @@ paths:
         401:
           description: "Authentication failed"
         404:
-          description: "Not found"
+          description: "Not Found  "
         500:
           description: "Internal server error"
         503:
@@ -485,8 +485,8 @@ paths:
     ###################### Associate VM with EIP ######################
     post:
       description: |
-        The Virtual Machines associates the elastic public IP,  and the associating is the IP of the elastic public network corresponding to the primary IP and the intranet primary IP.
-        A virtual machine can only associate with an EIP (master network card). If the main network card already exists EIP,  the error will be returned.
+        The Virtual Machines associates the elastic public IP, and the associating is the IP of the elastic public network corresponding to the primary IP and the intranet primary IP.
+        A virtual machine can only associate with an EIP (master network card). If the main network card already exists EIP, the error will be returned.
       operationId: associateElasticIp
       parameters:
         - name: elasticIpId
@@ -502,7 +502,7 @@ paths:
         401:
           description: "Authentication failed"
         404:
-          description: "Not found  "
+          description: "Not Found  "  
         500:
           description: "Internal server error"
         503:
@@ -528,7 +528,7 @@ paths:
         401:
           description: "Authentication failed"
         404:
-          description: "Not found  "
+          description: "Not Found  "  
         500:
           description: "Internal server error"
         503:
@@ -540,7 +540,7 @@ paths:
       description: |
         Create a private image for the virtual machine. The virtual machine status must be stopped. <br>
         A virtual machine can create an image with no task in progress. <br>
-        If a data disk is attached in the Virtual Machines,  the snapshot of data disk is created by default to generate a packaged image. <br>
+        If a data disk is attached in the Virtual Machines, the snapshot of data disk is created by default to generate a packaged image. <br>
         After calling the API, the user can not use the image normally until the image status becomes <b>ready</b>.
       operationId: createImage
       parameters:
@@ -548,12 +548,12 @@ paths:
           in: query
           type: string
           required: true
-          description: "Image name, <a href='https://www.jdcloud.com/help/detail/3870/isCatalog/1'>Refer to the public parameter specification </a>."
+          description: "Image Name, <a href='https://www.jdcloud.com/help/detail/3870/isCatalog/1'>Refer to the public parameter specification </a>."
         - name: description
           in: query
           type: string
           required: true
-          description: "Image description, <a href='https://www.jdcloud.com/help/detail/3870/isCatalog/1'>refer to public parameter specification</a>."
+          description: "Image Description, <a href='https://www.jdcloud.com/help/detail/3870/isCatalog/1'>refer to public parameter specification</a>."
         - name: dataDisks
           in: query
           type: array
@@ -577,7 +577,7 @@ paths:
         401:
           description: "Authentication failed"
         404:
-          description: "Not found"
+          description: "Not Found  "
         429:
           description: "Quota exceeded"
         500:
@@ -586,10 +586,10 @@ paths:
           description: "Service unavailable"
 
   "/instances/{instanceId}:attachDisk":
-    ###################### Attaching a VM with a Hard Disk ######################
+    ###################### Attach a VM with a Hard Disk ######################
     post:
       description: |
-        Attach a data disk (cloud hard disk) for a virtual machine,  and the Virtual Machines and the Cloud Disk Service are not attached when they are in progress. <br>
+        Attach a data disk (cloud hard disk) for a virtual machine, and the Virtual Machines and the Cloud Disk Service are not attached when they are in progress. <br>
         The virtual machine status must be running or stopped status. <br>
         The VM of the local disk as system disk can be attached with eight data disks, and the VM of Cloud Disk Service can be attached with seven data disks.
       operationId: attachDisk
@@ -616,7 +616,7 @@ paths:
         401:
           description: "Authentication failed"
         404:
-          description: "Not found  "
+          description: "Not Found  "  
         500:
           description: "Internal server error"
         503:
@@ -626,7 +626,7 @@ paths:
     ###################### Detach a Hard Disk from a VM ######################
     post:
       description: |
-        For virtual machine uninstalling data disk,  a virtual machine,  and a Cloud Disk Service are not loaded until they are in progress. <br>
+        For virtual machine uninstalling data disk, a virtual machine, and a Cloud Disk Service are not loaded until they are in progress. <br>
       operationId: detachDisk
       parameters:
         - name: diskId
@@ -647,7 +647,7 @@ paths:
         401:
           description: "Authentication failed"
         404:
-          description: "Not found  "
+          description: "Not Found  "  
         500:
           description: "Internal server error"
         503:
@@ -674,7 +674,7 @@ paths:
         401:
           description: "Authentication failed"
         404:
-          description: "Not found"
+          description: "Not Found  "
         500:
           description: "Internal server error"
         503:
@@ -703,7 +703,7 @@ paths:
         401:
           description: "Authentication failed"
         404:
-          description: "Not found  "
+          description: "Not Found  "  
         500:
           description: "Internal server error"
         503:
@@ -721,7 +721,7 @@ paths:
           in: query
           type: string
           required: true
-          description: "Password,  <a href = 'https://www.jdcloud.com/help/detail/3870/isCatalog/1'>Refer to the public parameter specification</a>."
+          description: "Password, <a href = 'https://www.jdcloud.com/help/detail/3870/isCatalog/1'>Refer to the public parameter specification</a>."
       responses:
         200:
           description: "OK"
@@ -730,7 +730,7 @@ paths:
         401:
           description: "Authentication failed"
         404:
-          description: "Not found  "
+          description: "Not Found  "  
         500:
           description: "Internal server error"
         503:
@@ -740,7 +740,7 @@ paths:
     ###################### Query Machine vnc ######################
     get:
       description: |
-        Gets the virtual machine vShield for connection to the management virtual machine. <br>
+        Get the virtual machine vnc for connection management of virtual machine. <br>
         The vnc address is valid for 1 hour. If the vnc address is not used within 1 hour after being obtained, it will become invalid automatically and need to be re-acquired again.
       operationId: describeInstanceVncUrl
       responses:
@@ -759,7 +759,7 @@ paths:
         401:
           description: "Authentication failed"
         404:
-          description: "Not found  "
+          description: "Not Found  "  
         500:
           description: "Internal server error"
         503:
@@ -771,12 +771,12 @@ paths:
       description: |
           Virtual Machines Change Specification Type
           The status of the Virtual Machines must be stopped status. <br>
-          The Cloud Disk Service created in 16 years is the machine of the system disk,  and the generation and the second generation specification type are not allowed to be adjusted to each other. <br>
-          Local disk (type) is the machine of the system disk,  and the first generation and the second generation specification type are not allowed to be adjusted to each other. <br>
-          Machine,  generation,  and second-generation specification types created using availability group (Ag) do not allow mutual adjustment. <br>
-          The cloud disk service (cloud type) is the machine of the system disk,  and the generation and the second generation specification type are allowed to adjust to each other. <br>
-          If the number of elastic network interfaces in the current machine is greater than the number of elastic network interfaces allowed by the specification type,  an error is returned. Can query <a href = "https://www.jdcloud.com/help/detail/2901/isCatalog/1"> DescribeInstanceTypes</a> interface gives specification information for the specified zone or availability zone. <br>
-          The image used by the current machine needs to support the target specification type to be changed,  otherwise the error is returned. Can query <a href="https://www.jdcloud.com/help/detail/2872/isCatalog/1">DescribeImageConstraints</a> Interface obtains specification type limit information for the specified image <br>
+          The Cloud Disk Service created in 16 years is the machine of the system disk, and the generation and the second generation specification type are not allowed to be adjusted to each other. <br>
+          Local disk (type) is the machine of the system disk, and the first generation and the second generation specification type are not allowed to be adjusted to each other. <br>
+          Machine, generation, and second-generation specification types created using availability group (Ag) do not allow mutual adjustment. <br>
+          The cloud disk service (cloud type) is the machine of the system disk, and the generation and the second generation specification type are allowed to adjust to each other. <br>
+          If the number of elastic network interfaces in the current machine is greater than the number of elastic network interfaces allowed by the specification type, an error is returned. Can query <a href = "https://www.jdcloud.com/help/detail/2901/isCatalog/1"> DescribeInstanceTypes</a> interface gives specification information for the specified zone or availability zone. <br>
+          The image used by the current machine needs to support the target specification type to be changed, otherwise the error is returned. Can query <a href="https://www.jdcloud.com/help/detail/2872/isCatalog/1">DescribeImageConstraints</a> Interface obtains specification type limit information for the specified image <br>
           The instance type cannot be changed when the user is in arrears with the VM fees.
       operationId: resizeInstance
       parameters:
@@ -793,7 +793,7 @@ paths:
         401:
           description: "Authentication failed"
         404:
-          description: "Not found"
+          description: "Not Found  "
         500:
           description: "Internal server error"
         503:
@@ -805,8 +805,8 @@ paths:
       description: |
         Virtual machine uses the specified image to reset the virtual machine image<br>
         The status of the Virtual Machines must be stopped status. <br>
-        If the system disk type of the current virtual machine is a WORM type,  the replacement image must be an image of the current Disk type;Similarly,  if the system disk of the current virtual machine is cloud type,  the replacement image must be an image of the clyDisk type. Can query <a href = "https://www.jdcloud.com/help/detail/2874/isCatalog/1"> DescribeImages</a> interface gets the image information for the specified zone. <br>
-        If you do not specify the image ID,  the current machine's original image rebuild system is used by default. <br>
+        If the system disk type of the current virtual machine is a WORM type, the replacement image must be an image of the current Disk type;Similarly, if the system disk of the current virtual machine is cloud type, the replacement image must be an image of the clyDisk type. Can query <a href = "https://www.jdcloud.com/help/detail/2874/isCatalog/1"> DescribeImages</a> interface gets the image information for the specified zone. <br>
+        If you do not specify the image ID, the current machine's original image rebuild system is used by default. <br>
         The specified image must be able to support the instanceType of the current machine, otherwise an error will occur. Query <a href="https://www.jdcloud.com/help/detail/2872/isCatalog/1">DescribeImageConstraints</a> API for instance type limit information about the specified image.
       operationId: rebuildInstance
       parameters:
@@ -833,13 +833,13 @@ paths:
         401:
           description: "Authentication failed"
         404:
-          description: "Not found"
+          description: "Not Found  "
         500:
           description: "Internal server error"
         503:
           description: "Service unavailable"
 
-# path general parameters
+# Path General Parameters
 parameters:
   regionId:
     name: regionId

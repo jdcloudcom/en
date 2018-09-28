@@ -9,7 +9,7 @@ This article describes how to create a MongoDB instance via console.
 - If the billing type is selected and paid by configuration, please confirm that your account balance (including coupon) is not less than RMB 50.
 
 ## Operation Steps
-1. Login [MongoDB Console](https://mongodb-console.jdcloud.com/mongodb?dataCenter=bj_02).
+1. Login [MongoDB Console](https://mongodb-console.jdcloud.com/mongodb).
 2. On the "Instance List" page, click **Create** to enter the "Create Instance" page.
 
     ![Restart Instance](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-003.png)

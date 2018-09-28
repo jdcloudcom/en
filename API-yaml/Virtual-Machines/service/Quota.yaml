@@ -19,7 +19,7 @@ paths:
           type: array
           items:
             $ref: "../../common/model/Filter.yaml#/definitions/filter"
-          description: |
+          description: | 
             resourceTypes - Resource types, multiple support [instance, keyair, image, instanceTemplate]
       responses:
         200:
@@ -40,7 +40,7 @@ paths:
         401:
           description: "Authentication failed"
         404:
-          description: "Not found"
+          description: "Not Found  "
         500:
           description: "Internal server error"
         503:
@@ -49,18 +49,18 @@ paths:
     ###################### Modify Quota ######################
     patch:
       description: |
-        Modify quotas; an internal API;  support: VM, image, key pair, template
+        Modify quotas; an internal API; support: VM, image, key pair, template
       operationId: modifyQuota
       x-jdcloud-internal: true
       parameters:
         - name: resourceType
           in: query
           type: string
-          description: "Source type [instance, keypair, image, instanceTemplate]"
+          description: "Source Type [instance, keypair, image, instanceTemplate]"
         - name: limit
           in: query
           type: integer
-          description: "Upper quota limit"
+          description: "Upper Quota Limit"
       responses:
         200:
           description: "OK"
@@ -69,13 +69,13 @@ paths:
         401:
           description: "Authentication failed"
         404:
-          description: "Not found"
+          description: "Not Found  "
         500:
           description: "Internal server error"
         503:
           description: "Service unavailable"
 
-# path general parameters
+# Path General Parameters
 parameters:
   regionId:
     name: regionId

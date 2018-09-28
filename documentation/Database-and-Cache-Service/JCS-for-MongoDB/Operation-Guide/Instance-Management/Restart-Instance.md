@@ -12,7 +12,7 @@ If your MongoDB instance is running abnormally but can not confirm the cause, yo
 - The instance status is Running and the billing status is normal.
 
 ## Operation Steps
-1.  Login [MongoDB Console](http://mongodb-console.jdcloud.com/mongodb)。
+1.  Login [MongoDB Console](http://mongodb-console.jdcloud.com/mongodb).
 1. On the "Instance List" page, select the target instance, click "Reboot" in the operation items to open the configuration popup.
 
    ![Reboot Instance](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-013.png)
