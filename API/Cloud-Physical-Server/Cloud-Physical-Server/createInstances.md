@@ -10,7 +10,7 @@ Create one or more Cloud Physical Servers with specified configuration<br/>
   - Instance type family which is off line or sold out is not available for use<br/>
 - Operating System and Pre-installed Software<br/>
   - The operating system list supported by the Cloud Physical Server can be obtained by calling APIs (describeOS)<br/>
-  - The APIs (describeSoftware) may be called to obtain the software list supported by the Cloud Physical Server, or the software may not be pre-installed<br/>
+  - The software list supported by the Cloud Physical Server can be obtained by calling APIs (describeSoftware); or the software may not be pre-installed<br/>
 - Storage<br/>
   - Multiple RAIDs are available for the data disk and the RAID list supported by the server can be obtained by calling APIs (describeDeviceRaids)<br/>
 - Network<br/>
