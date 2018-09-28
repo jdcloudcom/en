@@ -16,7 +16,7 @@ Create one or more Cloud Physical Servers with specified configuration<br/>
 - Network<br/>
   - Network type currently only supports basic<br/>
   - ISP Line currently only supports bgp <br/>
-  - Disabled public network is supported. If the public network is enabled, the bandwidth range is [1,200], unit: Mbps<br/>
+  - Disabled Internet is supported. If the Internet is enabled, the bandwidth range is [1,200], unit: Mbps<br/>
 - Others<br/>
   - Purchase duration, the annual purchase or monthly purchase is available, with the minimum purchase duration of 1 month and the maximum purchase duration of 36 months (3 years)<br/>
   - Refer to the Public Parameter Specification for password setting<br/>
