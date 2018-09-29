@@ -1,6 +1,6 @@
 swagger: "2.0"
 definitions:
-  instance:
+  Instance:
     type: object
     x-jdcloud-module: ipanti
     properties:
@@ -40,10 +40,10 @@ definitions:
         description: "Web Service Rules"
       chargeStatus:
         type: string
-        description: "PAID|ARREARS|EXPIRED"
+        description: PAID|ARREARS|EXPIRED
       securityStatus:
         type: string
-        description: "SAFE|CLEANING|BLOCKING"
+        description: SAFE|CLEANING|BLOCKING
       createTime:
         type: integer
         format: int64

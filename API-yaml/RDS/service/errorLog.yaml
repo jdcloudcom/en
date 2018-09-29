@@ -11,7 +11,7 @@ paths:
       operationId: describeErrorLogs
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               result:
@@ -21,7 +21,7 @@ paths:
                     description: "Collection of Error Log Files"
                     items:
                       $ref: ../model/ErrorLog.yaml#/definitions/ErrorLog
-# General Parameters for Path
+# Path General Parameters
 parameters:
   regionId:
     name: regionId

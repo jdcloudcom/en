@@ -24,7 +24,7 @@ paths:
           description: "Paging Size: 20 by default; value range [10, 100]"
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               result:
@@ -38,7 +38,7 @@ paths:
               requestId:
                 type: string
         404:
-          description: "NOT_FOUND"
+          description: NOT_FOUND
     post:
       description: "Add a web service rule"
       operationId: createWebRule
@@ -51,17 +51,17 @@ paths:
             $ref: "../model/WebRuleSpec.yaml#/definitions/webRuleSpec"
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               requestId:
                 type: string
         400:
-          description: "BAD_REQUEST"
+          description: BAD_REQUEST
         404:
-          description: "NOT_FOUND"
+          description: NOT_FOUND
         500:
-          description: "INTERNAL_SERVER_ERROR"
+          description: INTERNAL_SERVER_ERROR
 
   /instances/{instanceId}/webRules/{webRuleId}:
     get:
@@ -69,7 +69,7 @@ paths:
       operationId: describeWebRule
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               result:
@@ -79,7 +79,7 @@ paths:
               requestId:
                 type: string
         404:
-          description: "NOT_FOUND"
+          description: NOT_FOUND
     patch:
       description: "Update a web service rule"
       operationId: modifyWebRule
@@ -92,23 +92,23 @@ paths:
             $ref: "../model/WebRuleSpec.yaml#/definitions/webRuleSpec"
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               requestId:
                 type: string
         400:
-          description: "BAD_REQUEST"
+          description: BAD_REQUEST
         404:
-          description: "NOT_FOUND"
+          description: NOT_FOUND
         500:
-          description: "INTERNAL_SERVER_ERROR"
+          description: INTERNAL_SERVER_ERROR
     delete:
       description: "Delete a web service rule"
       operationId: deleteWebRule
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               requestId:
@@ -120,15 +120,15 @@ paths:
       operationId: switchWebRuleProtect
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               requestId:
                 type: string
         404:
-          description: "NOT_FOUND"
+          description: NOT_FOUND
         500:
-          description: "INTERNAL_SERVER_ERROR"
+          description: INTERNAL_SERVER_ERROR
 
   /instances/{instanceId}/webRules/{webRuleId}:origin:
     post:
@@ -136,15 +136,15 @@ paths:
       operationId: switchWebRuleOrigin
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               requestId:
                 type: string
         404:
-          description: "NOT_FOUND"
+          description: NOT_FOUND
         500:
-          description: "INTERNAL_SERVER_ERROR"
+          description: INTERNAL_SERVER_ERROR
 
   /instances/{instanceId}/webRules/{webRuleId}:enableCC:
     post:
@@ -152,15 +152,15 @@ paths:
       operationId: enableWebRuleCC
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               requestId:
                 type: string
         404:
-          description: "NOT_FOUND"
+          description: NOT_FOUND
         500:
-          description: "INTERNAL_SERVER_ERROR"
+          description: INTERNAL_SERVER_ERROR
 
   /instances/{instanceId}/webRules/{webRuleId}:disableCC:
     post:
@@ -168,15 +168,15 @@ paths:
       operationId: disableWebRuleCC
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               requestId:
                 type: string
         404:
-          description: "NOT_FOUND"
+          description: NOT_FOUND
         500:
-          description: "INTERNAL_SERVER_ERROR"
+          description: INTERNAL_SERVER_ERROR
 
   /instances/{instanceId}/webRules/{webRuleId}:modifyCertInfo:
     post:
@@ -191,7 +191,7 @@ paths:
             $ref: "../model/CertInfoModifySpec.yaml#/definitions/CertInfoModifySpec"
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               requestId:
@@ -210,7 +210,7 @@ paths:
             $ref: "../model/CertInfoDescribeSpec.yaml#/definitions/CertInfoDescribeSpec"
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               result:
@@ -219,14 +219,14 @@ paths:
                     $ref: "../model/CertInfo.yaml#/definitions/CertInfo"
               requestId:
                 type: string
-# General Parameters of Path
+# Path General Parameters
 parameters:
   regionId:
     name: regionId
     in: path
     required: true
     type: string
-    description: "Belonging Region ID"
+    description: "Region ID"
   instanceId:
     name: instanceId
     in: path

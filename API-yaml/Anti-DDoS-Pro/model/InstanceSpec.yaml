@@ -1,6 +1,6 @@
 swagger: "2.0"
 definitions:
-  instanceSpec:
+  InstanceSpec:
     type: object
     x-jdcloud-module: ipanti
     properties:

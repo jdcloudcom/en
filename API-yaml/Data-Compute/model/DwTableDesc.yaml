@@ -31,7 +31,7 @@ definitions:
         description: "Owner (automatically generated)"
       comments:
         type: string
-        description: "Description  Information"
+        description: Description Information
       externalLocation:
         type: string
         description: "External Table Location"

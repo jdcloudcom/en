@@ -2,7 +2,7 @@ swagger: "2.0"
 info:
   version: "v1"
   title: Cluster Management
-  description: "JMR cluster management"
+  description: JMR cluster management
 
 basePath: /regions/{regionId}
 paths:
@@ -19,7 +19,7 @@ paths:
                $ref: "../model/ClusterModel.yaml#/definitions/clusterModel"
          responses:
            200:
-             description: "OK"
+             description: OK
              schema:
                properties:
                  result:
@@ -46,7 +46,7 @@ paths:
              description: "Cluster ID: Composed of eight characters"
          responses:
            200:
-             description: "OK"
+             description: OK
              schema:
                properties:
                  result:
@@ -76,7 +76,7 @@ paths:
              description: "Cluster ID: Composed of eight characters"
          responses:
            200:
-             description: "OK"
+             description: OK
              schema:
                properties:
                  result:
@@ -96,7 +96,7 @@ paths:
          operationId: getKey
          responses:
            200:
-             description: "OK"
+             description: OK
              schema:
                properties:
                  result:
@@ -119,7 +119,7 @@ paths:
          operationId: getPropertyValue
          responses:
            200:
-             description: "OK"
+             description: OK
              schema:
                properties:
                  result:
@@ -142,7 +142,7 @@ paths:
          operationId: getHardwareStack
          responses:
            200:
-             description: "OK"
+             description: OK
              schema:
                properties:
                  result:
@@ -165,7 +165,7 @@ paths:
          operationId: getInstanceList
          responses:
            200:
-             description: "OK"
+             description: OK
              schema:
                properties:
                  result:
@@ -196,7 +196,7 @@ paths:
              description: "Cluster ID: Composed of eight characters"
          responses:
            200:
-             description: "OK"
+             description: OK
              schema:
                properties:
                  result:
@@ -236,7 +236,7 @@ paths:
              description: "JMR Software Version Number"
          responses:
            200:
-             description: "OK"
+             description: OK
              schema:
                properties:
                  result:
@@ -265,7 +265,7 @@ paths:
              description: "JMR Software Version Number"
          responses:
            200:
-             description: "OK"
+             description: OK
              schema:
                properties:
                  result:
@@ -289,7 +289,7 @@ paths:
           operationId: getJmrVersionList
           responses:
             200:
-              description: "OK"
+              description: OK
               schema:
                 properties:
                   result:
@@ -321,7 +321,7 @@ paths:
                $ref: "../model/ClusterListViewModel.yaml#/definitions/clusterListViewModel"
          responses:
            200:
-             description: "OK"
+             description: OK
              schema:
                properties:
                  result:
@@ -343,7 +343,7 @@ paths:
          operationId: getAvaliableNum
          responses:
            200:
-             description: "OK"
+             description: OK
              schema:
                properties:
                  result:
@@ -366,7 +366,7 @@ paths:
          operationId: queryServerQuota
          responses:
            200:
-             description: "OK"
+             description: OK
              schema:
                properties:
                  result:
@@ -389,7 +389,7 @@ paths:
          operationId: queryVpcs
          responses:
            200:
-             description: "OK"
+             description: OK
              schema:
                properties:
                  result:
@@ -419,7 +419,7 @@ paths:
              required: true
          responses:
            200:
-             description: "OK"
+             description: OK
              schema:
                properties:
                  result:
@@ -450,7 +450,7 @@ paths:
              description: "Delete the primary key ID of the cluster in the database"
          responses:
            200:
-             description: "OK"
+             description: OK
              schema:
                properties:
                  result:
@@ -476,7 +476,7 @@ paths:
              description: "Namely, the clusterId of cluster"
          responses:
            200:
-             description: "OK"
+             description: OK
              schema:
                properties:
                  result:
@@ -499,7 +499,7 @@ paths:
          operationId: validateUser
          responses:
            200:
-             description: "OK"
+             description: OK
              schema:
                properties:
                  result:
@@ -539,7 +539,7 @@ paths:
                               "* 620: Monthly package for 2 years"
          responses:
            200:
-             description: "OK"
+             description: OK
              schema:
                properties:
                  result:
@@ -564,7 +564,7 @@ paths:
              required: true
          responses:
            200:
-             description: "OK"
+             description: OK
              schema:
                properties:
                  result:
@@ -584,7 +584,7 @@ paths:
          operationId: getAccessKeys
          responses:
            200:
-             description: "OK"
+             description: OK
              schema:
                properties:
                  result:
@@ -621,7 +621,7 @@ paths:
                    description: "Expansion Number"
          responses:
            200:
-             description: "OK"
+             description: OK
              schema:
                properties:
                  result:
@@ -655,7 +655,7 @@ paths:
              description: "Include the expanded cluster Id-clusterId and expansion number-expansionNum"
          responses:
            200:
-             description: "OK"
+             description: OK
              schema:
                properties:
                  result:
@@ -684,7 +684,7 @@ paths:
              description: "Cluster ID to be expanded"
          responses:
            200:
-             description: "OK"
+             description: OK
              schema:
                properties:
                  result:
@@ -712,7 +712,7 @@ paths:
              description: "Cluster Id"
          responses:
            200:
-             description: "OK"
+             description: OK
              schema:
                properties:
                  result:
@@ -752,7 +752,7 @@ paths:
                    description: "Service Name, such as HADOOP"
          responses:
            200:
-             description: "OK"
+             description: OK
              schema:
                properties:
                  result:
@@ -782,7 +782,7 @@ paths:
              description: "Cluster Id"
          responses:
            200:
-             description: "OK"
+             description: OK
              schema:
                properties:
                  result:
@@ -799,7 +799,7 @@ paths:
              description: "Internal server error"
 
 
-# Path General Parameter
+# Path General Parameters
 parameters:
  regionId:
    name: regionId

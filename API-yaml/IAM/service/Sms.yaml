@@ -21,7 +21,7 @@ paths:
             $ref: "../model/SendSingleMsg.yaml#/definitions/sendSingleMsg"
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             type: object
             properties:
@@ -43,7 +43,7 @@ paths:
             $ref: "../model/SendBatchMsg.yaml#/definitions/sendBatchMsg"
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             type: object
             properties:
@@ -73,7 +73,7 @@ paths:
               $ref: "../model/SendOutSiteNotice.yaml#/definitions/sendOutSiteNotice"
         responses:
           200:
-            description: "OK"
+            description: OK
             schema:
               type: object
               properties:
@@ -100,7 +100,7 @@ paths:
              $ref: "../model/EmailSmsInfo.yaml#/definitions/emailSmsInfo"
        responses:
          200:
-           description: "OK"
+           description: OK
            schema:
              type: object
              properties:
@@ -127,7 +127,7 @@ paths:
              $ref: "../model/EmailSmsInfo.yaml#/definitions/emailSmsInfo"
        responses:
          200:
-           description: "OK"
+           description: OK
            schema:
              type: object
              properties:
@@ -139,11 +139,11 @@ paths:
                requestId:
                  type: string
 
-# Path General Parameter
+# Path General Parameters
 parameters:
   accessKey:
     name: accessKey
     in: path
     required: true
     type: string
-    description: "accessKey"
+    description: accessKey

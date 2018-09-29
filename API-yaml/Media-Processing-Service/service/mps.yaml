@@ -163,7 +163,7 @@ paths:
       tags:
       - "notification"
       summary: "Get MPS Notification"
-      description: "Acquire the media processing notification"
+      description: "Acquire Screenshot Notification"
       operationId: "getNotification"
       responses:
         200:

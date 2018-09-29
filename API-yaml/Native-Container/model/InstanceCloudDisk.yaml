@@ -15,7 +15,7 @@ definitions:
         name:
           type: string
           description: "Disk Name"
-        description: 
+        description:
           type: string
           description: "Disk Description"
         diskType:

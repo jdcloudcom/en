@@ -12,7 +12,7 @@ definitions:
         type: array
         items:
           type: string
-        description: "List of ID Security Group"
+        description: "Security Group ID List"
       sanityCheck:
         type: integer
         description: "PortSecurity, the value is 0 or 1, 1 by default"

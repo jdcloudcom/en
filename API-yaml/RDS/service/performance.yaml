@@ -32,7 +32,7 @@ paths:
           description: "The default of the number of data displayed per page is 50 and the value range is [1,100]. It can only be a multiple of 10 used for the API to query the list."
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               result:
@@ -83,7 +83,7 @@ paths:
           description: "The default of the number of data displayed per page is 50 and the value range is [1,100]. It can only be a multiple of 10 used for the API to query the list."
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               result:
@@ -102,7 +102,7 @@ paths:
                   pageSize:
                     type: integer
                     description: "The Number of Data Displayed Per Page"
-# General Parameters for Path
+# Path General Parameters
 parameters:
   regionId:
     name: regionId

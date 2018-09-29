@@ -13,7 +13,7 @@ paths:
       operationId: describeImportFiles
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               result:
@@ -29,7 +29,7 @@ paths:
       operationId: getUploadKey
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               result:
@@ -55,9 +55,9 @@ paths:
                 description: "Whether the file is shared<br>true: shared<br>false: not shared"
       responses:
         200:
-          description: "OK"
+          description: OK
 
-# General Parameters for Path
+# Path General Parameters
 parameters:
   regionId:
     name: regionId

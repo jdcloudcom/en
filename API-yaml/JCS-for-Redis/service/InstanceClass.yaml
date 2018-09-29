@@ -14,7 +14,7 @@ paths:
       operationId: describeInstanceClass
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               result:
@@ -46,17 +46,17 @@ paths:
           description: "Operation, 1 means visible, 0 means invalid, -1 means not visible"
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               requestId:
                 type: string
 
-# General Parameters for Path
+# Path General Parameters
 parameters:
   regionId:
     name: regionId
     in: path
     required: true
     type: string
-    description: "Region ID"
+    description: Region ID

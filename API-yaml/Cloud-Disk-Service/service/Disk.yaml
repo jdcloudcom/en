@@ -18,23 +18,23 @@ paths:
         -   Disk type includes Premium Hdd Cloud Disk and SSD Cloud Disk.
         -   The billing method defaults to paying by configuration.
         -   After creation is completed, the status of the Cloud Disk is available.
-        -   The optional parameter snapshot ID is used to create a new disk from a snapshot.
+        -   The optional parameter snapshot ID is used to create a new disk.
         -   In batch creation, the name of the Cloud Disk is: hard disk name -number, such as myDisk-1 and myDisk-2.
-        -   maxCount is the based on best effort, and it is not guaranteed that maxCount can be reached.
+        -   maxCount is the maximum effort, and it is not guaranteed that maxCount can be reached.
       summary: "Create a cloud disk"
       operationId: createDisks
       parameters:
         - name: DiskSpec
           in: body
           required: true
-          description: "Disk Specification"
+          description: "Create the specification of the cloud disk"
           schema:
             $ref: "../model/DiskSpec.yaml#/definitions/diskSpec"
         - name: maxCount
           in: query
           type: integer
           required: true
-          description: "Instance Purchase Quantity; Value Range: [1,100]"
+          description: "Purchase number of instances; value range: [1,100]"
         - name: clientToken
           in: query
           type: string
@@ -42,7 +42,7 @@ paths:
           description: "Idempotence Check Parameter"
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               result:
@@ -74,7 +74,7 @@ paths:
       operationId: describeDisks
       summary: "Query cloud disk list"
       description: |
-        -   Query detals of Cloud Disks
+        -   filters, between multiple filter conditions is logic AND, and multiple values ​​inside each condition is logic OR
       parameters:
         - name: pageNumber
           in: query
@@ -89,7 +89,7 @@ paths:
           default: 20
           minimum: 10
           maximum: 100
-          description: "Paging Size: 20 by default; value range: [10,100]"
+          description: "Paging Size: 20 by default. Value Range: [10, 100]"
           
         - name: tags
           in: query
@@ -112,16 +112,15 @@ paths:
             az - Status of the cloud disk, accurate match, support multiple
             name - Name of the cloud disk, fuzzy match, support single
             multiAttach - Whether the cloud disk is multi-point attached, accurate match, support multiple
-            filters, between multiple filter conditions is logic AND, and multiple values inside each condition is logic OR
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             type: object
             properties:
               result:
                 type: object
-                description: "Result Set"
+                description: "Query Result Set"
                 properties:
                   disks:
                     type: array
@@ -151,11 +150,11 @@ paths:
         operationId: describeDisk
         responses:
           200:
-            description: "OK"
+            description: OK
             schema:
               properties:
                 result:
-                  description: "Cloud Disk details"
+                  description: "Query cloud disk details"
                   properties:
                     disk:
                       $ref: "../model/Disk.yaml#/definitions/disk"
@@ -180,10 +179,11 @@ paths:
           -   Delete a cloud disk billed by configuration. The disk types include the Premium Hdd Cloud Disk and the SSD Cloud Disk.
           -   After the hard disk is deleted, the cloud disk snapshot can be retained.
           -   When the disk is released, the status of the cloud disk is to-be-attached (Available).
+          -   If the disk of the specified ID does not exist, the request will be ignored.
         operationId: deleteDisk
         responses:
           200:
-            description: "OK"
+            description: OK
           400:
             description: "Invalid parameter"
           401:
@@ -211,7 +211,7 @@ paths:
             description: "Description of the cloud disk: It allows you to enter all characters under UTF-8 encoding, but no more than 256 characters."
         responses:
           200:
-            description: "OK"
+            description: OK
           400:
             description: "Invalid parameter"
           401:
@@ -229,7 +229,7 @@ paths:
         summary: "Recovering a cloud disk from a snapshot"
         description: |
           -   Data recovery operations can only be executed on the source hard disk, from which the snapshot was taken.
-          -   Snapshots can be used for data recovery operations only if the source hard disk is in available status.
+          -   Snapshots can be used for data recovery operations only if the source hard disk is available.
           -   After the cloud disk is restored, the current data will be cleared. Please be cautious.
         operationId: restoreDisk
         parameters:
@@ -237,10 +237,10 @@ paths:
             in: query
             type: string
             required: true
-            description: "Snapshot ID used to restore the cloud disk"
+            description: "Snapshot ID used to recover the cloud disk"
         responses:
           200:
-            description: "OK"
+            description: OK
           400:
             description: "Invalid parameter"
           401:
@@ -265,10 +265,10 @@ paths:
             in: query
             type: integer
             required: true
-            description: "The size of the cloud disk after expansion in GiB"
+            description: "The size of the cloud disk after expansion is in GiB"
         responses:
           200:
-            description: "OK"
+            description: OK
           400:
             description: "Invalid parameter"
           401:
@@ -292,4 +292,4 @@ parameters:
     in: path
     required: true
     type: string
-    description: "Cloud Disk ID"
+    description: "Cloud Disk Service ID"

@@ -30,7 +30,7 @@ paths:
             $ref: "../model/MetricDataCm.yaml#/definitions/metricDataCm"
       responses:
         200:
-          description: "OK"
+          description:  OK
           schema:
             properties:
               requestId:

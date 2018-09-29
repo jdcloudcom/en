@@ -19,7 +19,7 @@ paths:
           description: "IP Fuzzy Matching"
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               result:
@@ -38,7 +38,7 @@ paths:
       operationId: describeIpResourceInfo
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               result:
@@ -48,7 +48,7 @@ paths:
               requestId:
                 type: string
         404:
-          description: "NOT_FOUND"
+          description: NOT_FOUND
 
   /ipResources/{ip}:setCleanThreshold:
     post:
@@ -63,13 +63,13 @@ paths:
             $ref: "../model/CleanThresholdSpec.yaml#/definitions/cleanThresholdSpec"
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               requestId:
                 type: string
         404:
-          description: "NOT_FOUND"
+          description: NOT_FOUND
 
   /ipResources/{ip}/protectInfo:
     get:
@@ -88,7 +88,7 @@ paths:
           description: "Records of Limited Search"
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               result:
@@ -100,7 +100,7 @@ paths:
               requestId:
                 type: string
         404:
-          description: "NOT_FOUND"
+          description: NOT_FOUND
 
   /ipResources/{ip}/monitorFlow:
     get:
@@ -114,7 +114,7 @@ paths:
           description: "Search end time, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ"
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               result:
@@ -124,9 +124,9 @@ paths:
               requestId:
                 type: string
         404:
-          description: "NOT_FOUND"
+          description: NOT_FOUND
 
-# General Parameters of Path
+# Path General Parameters
 parameters:
   regionId:
     name: regionId

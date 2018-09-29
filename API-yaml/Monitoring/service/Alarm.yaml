@@ -44,12 +44,12 @@ paths:
           name: pageNumber
           in: query
         - type: integer
-          description: "Paging size; 20 by default; value range[10, 100]"
+          description: "Paging Size; 20 by default. Value Range: [10, 100]"
           name: pageSize
           in: query
       responses:
         200:
-          description: "OK"
+          description:  OK
           schema:
             properties:
               result:
@@ -67,7 +67,7 @@ paths:
                     description: "Number of Total Pages"
                   numberRecords:
                     type: number
-                    description: "Number of Total Records"
+                    description: "Total Number of Records"
                   pageSize:
                     type: number
                     description: "Paging Size"
@@ -94,7 +94,7 @@ paths:
             $ref: "../model/Alarm.yaml#/definitions/createAlarmBody"
       responses:
         200:
-          description: "OK"
+          description:  OK
           schema:
             properties:
               result:
@@ -127,7 +127,7 @@ paths:
           required: true
       responses:
         200:
-          description: "OK"
+          description:  OK
           schema:
             properties:
               requestId:
@@ -147,7 +147,7 @@ paths:
       x-jdcloud-internal: false
       responses:
         200:
-          description: "OK"
+          description:  OK
           schema:
             properties:
               result:
@@ -178,7 +178,7 @@ paths:
             $ref: "../model/Alarm.yaml#/definitions/updateAlarmBody"
       responses:
         200:
-          description: "OK"
+          description:  OK
           schema:
             properties:
               requestId:
@@ -204,7 +204,7 @@ paths:
       x-jdcloud-internal: false
       responses:
         200:
-          description: "OK"
+          description:  OK
           schema:
             properties:
               requestId:
@@ -224,7 +224,7 @@ paths:
       x-jdcloud-internal: false
       responses:
         200:
-          description: "OK"
+          description:  OK
           schema:
             properties:
               requestId:
@@ -270,12 +270,12 @@ paths:
         name: pageNumber
         in: query
       - type: integer
-        description: "Paging size; 20 by default; value range[10, 100]"
+        description: "Paging Size; 20 by default. Value Range: [10, 100]"
         name: pageSize
         in: query
       responses:
         200:
-          description: "OK"
+          description:  OK
           schema:
             properties:
               result:
@@ -293,7 +293,7 @@ paths:
                     description: "Number of Total Pages"
                   numberRecords:
                     type: number
-                    description: "Number of Total Records"
+                    description: "Total Number of Records"
                   pageSize:
                     type: number
                     description: "Paging Size"
@@ -305,7 +305,7 @@ paths:
         500:
           description: "internal server error"
           
-# Path General Parameter
+# Path General Parameters
 parameters:
   regionId:
     type: string

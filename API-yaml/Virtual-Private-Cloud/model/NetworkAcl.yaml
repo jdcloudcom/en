@@ -5,7 +5,7 @@ definitions:
     properties:
       networkAclId:
         type: string
-        description: "networkAcl ID"
+        description: networkAcl ID
       networkAclName:
         type: string
         description: "NetworkAcl Name"

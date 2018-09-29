@@ -13,7 +13,7 @@ definitions:
         description: "Memory, Unit: GB"
       iops:
         type: integer
-        description: "iops"
+        description: iops
       maxLink:
         type: integer
         description: "Maximum Connections"

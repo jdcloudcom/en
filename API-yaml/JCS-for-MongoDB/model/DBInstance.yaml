@@ -36,7 +36,7 @@ definitions:
         description: "AZ ID, AZs at primary, secondary and hidden nodes in turn."
       vpcId:
         type: string
-        description: "VPCID"
+        description: VPCID
       subnetId:
         type: string
         description: "Subnet ID"

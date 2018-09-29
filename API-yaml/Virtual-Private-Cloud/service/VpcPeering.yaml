@@ -44,7 +44,7 @@ paths:
                   remoteVPCId - VPCPeering opposite terminal VPC ID, support single Id
        responses:
          200:
-           description: "OK"
+           description: OK
            schema:
              properties:
                result:
@@ -75,7 +75,7 @@ paths:
              $ref: "../model/CreateVpcPeeringSpec.yaml#/definitions/createVpcPeeringSpec"
        responses:
          200:
-           description: "Successful Operation"
+           description: Successful operation
            schema:
              type: object
              properties:
@@ -105,7 +105,7 @@ paths:
 
        responses:
          200:
-           description: "OK"
+           description: OK
            schema:
              properties:
                result:
@@ -125,14 +125,14 @@ paths:
        operationId: deleteVpcPeering
        responses:
          200:
-           description: "OK"
+           description: OK
            schema:
              properties:
                requestId:
                  description: "Request ID"
                  type: string
          404:
-           description: "NOT_FOUND"
+           description: NOT_FOUND
 
      put:
        summary: "Modify VPCPeering API"
@@ -147,7 +147,7 @@ paths:
              $ref: "../model/ModifyVpcPeeringSpec.yaml#/definitions/modifyVpcPeeringSpec"
        responses:
         200:
-           description: "Successful Operation"
+           description: Successful operation
            schema:
              type: object
              properties:
@@ -158,11 +158,11 @@ paths:
                    description: "Request ID"
                    type: string
         429:
-           description: "VpcPeering quota limit exceeded."
+           description: VpcPeering quota limit exceeded.
         404:
-           description: "Resource Not Found"
+           description: Resource not found
         409:
-           description: "Already has VpcPeering with param"
+           description: Already has VpcPeering with param
 
 parameters:
   regionId:
@@ -170,10 +170,10 @@ parameters:
     in: path
     required: true
     type: string
-    description: "Region ID"
+    description: Region ID
   vpcPeeringId:
     name: vpcPeeringId
     in: path
     required: true
     type: string
-    description: "vpcPeeringId ID"
+    description: vpcPeeringId ID

@@ -13,7 +13,7 @@ paths:
       description: |
         Create configuration containers for one or more sets
         - Real-name verification is required for creating containers
-        - Image
+        - image
             - Determine the container image via the image name
             - Images named as nginx:tag or mysql/mysql-server:tag are the public images of docker hub
             - Images named as container-registry/image:tag are the images of private registry
@@ -50,8 +50,8 @@ paths:
             - Data Disk
                 - The available Cloud Disk Service types include ssd and premium-hdd.
                 - Disk Size
-                    - SSD: Range [20, 1000]GB, Step Size: 10G
-                    - Premium-hdd: Range [20, 3000]GB, Step Size: 10G
+                    - ssd: Range[20, 1000] GB, Step Size: 10G
+                    - premium-hdd: Range[20, 3000] GB, Step Size: 10G
                 - Automatic Deletion
                     - Automatic Deletion by Default
                 - The existing Cloud Disk Service can be selected.
@@ -121,7 +121,7 @@ paths:
           type: array
           items:
             $ref: "../../common/model/Filter.yaml#/definitions/filter"
-          description: |
+          description: | 
             containerId - Instance ID, exact match, support many IDs
             privateIpAddress - Primary network interface IP address, fuzzy matching and supporting many IP addresses
             az - Availability zone, exact matching, supporting many availability zones
@@ -131,7 +131,7 @@ paths:
             subnetId - Instance ID, fuzzy matching and supporting many IDs
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               result:
@@ -163,7 +163,7 @@ paths:
       operationId: describeContainer
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             type: object
             properties:
@@ -191,7 +191,7 @@ paths:
       operationId: deleteContainer
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             type: object
             properties:
@@ -217,7 +217,7 @@ paths:
       operationId: startContainer
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             type: object
             properties:
@@ -242,7 +242,7 @@ paths:
       operationId: stopContainer
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             type: object
             properties:
@@ -276,7 +276,7 @@ paths:
           description: "Container description; the description must be specified"
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             type: object
             properties:
@@ -309,7 +309,7 @@ paths:
           description: "Elastic IP ID"
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             type: object
             properties:
@@ -340,7 +340,7 @@ paths:
           description: "Elastic IP ID"
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             type: object
             properties:
@@ -381,7 +381,7 @@ paths:
            Restrict byte number in returned log file within [1-4]KB, with 4KB at most.
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             type: object
             properties:
@@ -407,17 +407,17 @@ paths:
 
 
 
-# Path General Parameter
+# Path General Parameters
 parameters:
   regionId:
     name: regionId
     in: path
     required: true
     type: string
-    description: "Region ID"
+    description: Region ID
   container:
     name: containerId
     in: path
     required: true
     type: string
-    description: "Container ID"
+    description: Container ID

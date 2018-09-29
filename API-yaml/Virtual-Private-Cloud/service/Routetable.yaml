@@ -41,7 +41,7 @@ paths:
 
        responses:
          200:
-           description: "OK"
+           description: OK
            schema:
              properties:
                result:
@@ -79,7 +79,7 @@ paths:
 
        responses:
          200:
-           description: "OK"
+           description: OK
            schema:
              properties:
                result:
@@ -107,7 +107,7 @@ paths:
        operationId: describeRouteTable
        responses:
          200:
-           description: "OK"
+           description: OK
            schema:
              properties:
                result:
@@ -139,16 +139,16 @@ paths:
              $ref: "../model/ModifyRouteTableSpec.yaml#/definitions/modifyRouteTableSpec"
        responses:
          200:
-           description: "OK"
+           description: OK
            schema:
              properties:
                requestId:
                  description: "Request ID"
                  type: string
          400:
-           description: "Request parameter x.y.z is 'xxx', expected one of [yyy,zzz]"
+           description: Request parameter x.y.z is 'xxx', expected one of [yyy,zzz]
          404:
-           description: "Resource Not Found"
+           description: Resource not found
 
      #delete routeTable
      delete:
@@ -157,18 +157,18 @@ paths:
          operationId: deleteRouteTable
          responses:
            200:
-             description: "OK"
+             description: OK
              schema:
                properties:
                  requestId:
                    description: "Request ID"
                    type: string
            400:
-             description: "invalid parameter"
+             description: invalid parameter
            404:
-             description: "Resource Not Found"
+             description: Resource not found
            500:
-             description: "Internal server error"
+             description: Internal server error
 
   #add routeTable rules
   "/routeTables/{routeTableId}:addRouteTableRules":
@@ -193,13 +193,13 @@ paths:
                  description: "Request ID"
                  type: string
         400:
-           description: "Request parameter x.y.z is 'xxx', expected one of [yyy,zzz]"
+           description: Request parameter x.y.z is 'xxx', expected one of [yyy,zzz]
         404:
-           description: "Resource Not Found"
+           description: Resource not found
         409:
-           description: "RouteTable rules not in the same vpc"
+           description: RouteTable rules not in the same vpc
         500:
-           description: "Internal server error"
+           description: Internal server error
 
   #remove routeTable rules
   "/routeTables/{routeTableId}:removeRouteTableRules":
@@ -260,7 +260,7 @@ paths:
         404:
            description: "RouteTable or RouteTableRule not found"
         500:
-           description: "Internal server error"
+           description: Internal server error
            
   "/routeTables/{routeTableId}:associateRouteTable":
      post:
@@ -275,7 +275,7 @@ paths:
              $ref: "../model/AssociateRouteTableSpec.yaml#/definitions/associateRouteTableSpec"
        responses:
          200:
-           description: "Successful Operation"
+           description: Successful operation
            schema:
              type: object
              properties:
@@ -283,9 +283,9 @@ paths:
                  description: "Request ID"
                  type: string
          400:
-           description: "Request parameter x.y.z is 'xxx', expected one of [yyy,zzz]"
+           description: Request parameter x.y.z is 'xxx', expected one of [yyy,zzz]
          404:
-           description: "Resource Not Found"
+           description: Resource not found
 
   "/routeTables/{routeTableId}:disassociateRouteTable":
      post:
@@ -308,9 +308,9 @@ paths:
                  description: "Request ID"
                  type: string
          400:
-           description: "Request parameter x.y.z is 'xxx', expected one of [yyy,zzz]"
+           description: Request parameter x.y.z is 'xxx', expected one of [yyy,zzz]
          404:
-           description: "Resource Not Found"
+           description: Resource not found
 
 parameters:
   regionId:
@@ -318,10 +318,10 @@ parameters:
     in: path
     required: true
     type: string
-    description: "Region ID"
+    description: Region ID
   routeTableId:
     name: routeTableId
     in: path
     required: true
     type: string
-    description: "RouteTable ID"
+    description: RouteTable ID

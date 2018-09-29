@@ -37,7 +37,7 @@ definitions:
         description: "AZ ID, required, the first ID is AZ ID of primary, the second is that of secondary, and the third is that of hidden. If Yes is chosen for multiAZ, then AZ IDs of primary and secondary shall be the same and different from that of hidden; if No is chosen for multiAZ, AZ IDs of the three nodes shall be the same."
       vpcId:
         type: string
-        description: "VPCID"
+        description: VPCID
       subnetId:
         type: string
         description: "Subnet ID"

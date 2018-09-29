@@ -9,7 +9,7 @@ basePath: /regions/{regionId}
 paths:
   /instances:
     post:
-      description: "Create an instance"
+      description: "Create Instance"
       operationId: createInstance
       parameters:
         - name: instanceSpec
@@ -17,10 +17,10 @@ paths:
           description: "Create instance request parameters"
           required: true
           schema:
-            $ref: "../model/InstanceSpec.yaml#/definitions/instanceSpec"
+            $ref: "../model/InstanceSpec.yaml#/definitions/InstanceSpec"
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               result:
@@ -50,7 +50,7 @@ paths:
           description: "Instance Name, Fuzzy Matching Available"
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               result:
@@ -58,7 +58,7 @@ paths:
                   dataList:
                     type: array
                     items:
-                      $ref: "../model/Instance.yaml#/definitions/instance"
+                      $ref: "../model/Instance.yaml#/definitions/Instance"
                   totalCount:
                     type: integer
               requestId:
@@ -70,17 +70,17 @@ paths:
       operationId: describeInstance
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               result:
                 properties:
                   data:
-                    $ref: "../model/Instance.yaml#/definitions/instance"
+                    $ref: "../model/Instance.yaml#/definitions/Instance"
               requestId:
                 type: string
         404:
-          description: "NOT_FOUND"
+          description: NOT_FOUND
 
   /instances/{instanceId}:setCC:
     post:
@@ -95,13 +95,13 @@ paths:
             $ref: "../model/CcSpec.yaml#/definitions/CCSpec"
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               requestId:
                 type: string
         404:
-          description: "NOT_FOUND"
+          description: NOT_FOUND
 
   /instances/{instanceId}:enableCC:
     post:
@@ -109,13 +109,13 @@ paths:
       operationId: enableInstanceCC
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               requestId:
                 type: string
         404:
-          description: "NOT_FOUND"
+          description: NOT_FOUND
 
   /instances/{instanceId}:disableCC:
     post:
@@ -123,13 +123,13 @@ paths:
       operationId: disableInstanceCC
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               requestId:
                 type: string
         404:
-          description: "NOT_FOUND"
+          description: NOT_FOUND
 
   /instances/{instanceId}:setUrlWhiteList:
     post:
@@ -146,13 +146,13 @@ paths:
               type: string
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               requestId:
                 type: string
         404:
-          description: "NOT_FOUND"
+          description: NOT_FOUND
 
   /instances/{instanceId}:enableUrlWhiteList:
     post:
@@ -160,13 +160,13 @@ paths:
       operationId: enableInstanceUrlWhiteList
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               requestId:
                 type: string
         404:
-          description: "NOT_FOUND"
+          description: NOT_FOUND
 
   /instances/{instanceId}:disableUrlWhiteList:
     post:
@@ -174,13 +174,13 @@ paths:
       operationId: disableInstanceUrlWhiteList
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               requestId:
                 type: string
         404:
-          description: "NOT_FOUND"
+          description: NOT_FOUND
 
   /instances/{instanceId}:rename:
     post:
@@ -194,13 +194,13 @@ paths:
           type: string
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               requestId:
                 type: string
         404:
-          description: "NOT_FOUND"
+          description: NOT_FOUND
 
   /instances/{instanceId}:setIpBlackList:
     post:
@@ -217,39 +217,39 @@ paths:
               type: string
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               requestId:
                 type: string
         404:
-          description: "NOT_FOUND"
+          description: NOT_FOUND
   /instances/{instanceId}:enableIpBlackList:
     post:
       description: "Enable the instance IP blacklist"
       operationId: enableInstanceIpBlackList
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               requestId:
                 type: string
         404:
-          description: "NOT_FOUND"
+          description: NOT_FOUND
   /instances/{instanceId}:disableIpBlackList:
     post:
       description: "Disable the instance IP blacklist"
       operationId: disableInstanceIpBlackList
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               requestId:
                 type: string
         404:
-          description: "NOT_FOUND"
+          description: NOT_FOUND
   /instances/{instanceId}:setIpWhiteList:
     post:
       description: "Set the instance IP white list"
@@ -265,39 +265,39 @@ paths:
               type: string
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               requestId:
                 type: string
         404:
-          description: "NOT_FOUND"
+          description: NOT_FOUND
   /instances/{instanceId}:enableIpWhiteList:
     post:
       description: "Enable the instance IP white list"
       operationId: enableInstanceIpWhiteList
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               requestId:
                 type: string
         404:
-          description: "NOT_FOUND"
+          description: NOT_FOUND
   /instances/{instanceId}:disableIpWhiteList:
     post:
       description: "Disable the instance IP white list"
       operationId: disableInstanceIpWhiteList
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               requestId:
                 type: string
         404:
-          description: "NOT_FOUND"
+          description: NOT_FOUND
 
   /instances/{instanceId}:enableCcObserverMode:
     post:
@@ -305,13 +305,13 @@ paths:
       operationId: enableCcObserverMode
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               requestId:
                 type: string
         404:
-          description: "NOT_FOUND"
+          description: NOT_FOUND
 
   /instances/{instanceId}:disableCcObserverMode:
     post:
@@ -319,13 +319,13 @@ paths:
       operationId: disableCcObserverMode
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               requestId:
                 type: string
         404:
-          description: "NOT_FOUND"
+          description: NOT_FOUND
 
   /instances/{instanceId}:enableCcIpLimit:
     post:
@@ -333,13 +333,13 @@ paths:
       operationId: enableCcIpLimit
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               requestId:
                 type: string
         404:
-          description: "NOT_FOUND"
+          description: NOT_FOUND
 
   /instances/{instanceId}:disableCcIpLimit:
     post:
@@ -347,13 +347,13 @@ paths:
       operationId: disableCcIpLimit
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               requestId:
                 type: string
         404:
-          description: "NOT_FOUND"
+          description: NOT_FOUND
 
   /instances/{instanceId}:setCcIpLimit:
     post:
@@ -368,13 +368,13 @@ paths:
             $ref: "../model/CcIpLimitSpec.yaml#/definitions/CcIpLimitSpec"
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               requestId:
                 type: string
         404:
-          description: "NOT_FOUND"
+          description: NOT_FOUND
 
   /instances/{instanceId}:modifyEPB:
     post:
@@ -389,13 +389,13 @@ paths:
             $ref: "../model/EPBSpec.yaml#/definitions/EPBSpec"
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               requestId:
                 type: string
         404:
-          description: "NOT_FOUND"
+          description: NOT_FOUND
 
   /instances/{instanceId}:describeAlarmConfig:
     get:
@@ -403,7 +403,7 @@ paths:
       operationId: describeAlarmConfig
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               result:
@@ -413,7 +413,7 @@ paths:
               requestId:
                 type: string
         404:
-          description: "NOT_FOUND"
+          description: NOT_FOUND
 
   /instances/{instanceId}:modifyAlarmConfig:
     post:
@@ -428,7 +428,7 @@ paths:
             $ref: "../model/AlarmConfigSpec.yaml#/definitions/AlarmConfigSpec"
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               requestId:
@@ -461,7 +461,7 @@ paths:
           description: "Paging Size, 10 by Default; Value Range [0, 100]"
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               result:
@@ -488,7 +488,7 @@ paths:
       operationId: describeProtectionStatistics
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               result:
@@ -500,7 +500,7 @@ paths:
         404:
           description: "NOT_FOUND"
         500:
-          description: "INTERNAL_SERVER_ERROR"
+          description: INTERNAL_SERVER_ERROR
 
   /instance/checkName:
     get:
@@ -514,7 +514,7 @@ paths:
           description: "Instance Name to be Detected"
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               result:
@@ -542,7 +542,7 @@ paths:
           description: "Paging Size, 10 by Default; Value Range [0, 100], 0 Means Full"
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               result:
@@ -569,7 +569,7 @@ paths:
       operationId: describeCCDefaultThresholds
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               result:
@@ -580,14 +580,14 @@ paths:
                 type: string
 
 
-# General Parameters of Path
+# Path General Parameters
 parameters:
   regionId:
     name: regionId
     in: path
     required: true
     type: string
-    description: "Belonging Region ID"
+    description: "Region ID"
   instanceId:
     name: instanceId
     in: path

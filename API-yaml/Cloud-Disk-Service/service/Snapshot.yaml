@@ -30,7 +30,7 @@ paths:
           default: 20
           minimum: 10
           maximum: 100
-          description: "Paging Size: 20 by default; value range: [10,100]"
+          description: "Paging Size: 20 by default. Value Range: [10, 100]"
 
         - name: filters
           in: query
@@ -44,7 +44,7 @@ paths:
             name - Snapshot Name, fuzzy match, support single
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             type: object
             properties:
@@ -97,7 +97,7 @@ paths:
           description: "Idempotence Check Parameter"
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               result:
@@ -130,7 +130,7 @@ paths:
         operationId: describeSnapshot
         responses:
           200:
-            description: "OK"
+            description: OK
             schema:
               properties:
                 result:
@@ -163,7 +163,7 @@ paths:
         operationId: deleteSnapshot
         responses:
           200:
-            description: "OK"
+            description: OK
           400:
             description: "Invalid parameter"
           401:
@@ -191,7 +191,7 @@ paths:
             description: "Snapshot Description. Name or description must be specified"
         responses:
           200:
-            description: "OK"
+            description: OK
           400:
             description: "Invalid parameter"
           401:

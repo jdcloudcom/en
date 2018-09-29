@@ -7,7 +7,7 @@ definitions:
     properties:
       core:
         type: integer
-        description: "CPU Core Number"
+        description: "Number of CPU Cores"
       memory:
         type: integer
         description: "Memory Size, Unit: G"

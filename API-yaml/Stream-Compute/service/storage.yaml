@@ -19,7 +19,7 @@ paths:
             $ref: "../model/storageInfo.yaml#/definitions/storage"
       responses:
         '200':
-          description: "OK"
+          description: OK
           schema:
             type: object
             properties:
@@ -32,11 +32,11 @@ paths:
               requestId:
                 type: string
         '400':
-          description: "UNAUTHENTICATED"
+          description: UNAUTHENTICATED
         '404':
-          description: "NOT_FOUND"
+          description: NOT_FOUND
         '500':
-          description: "INTERNAL_ERROR"
+          description: INTERNAL_ERROR
 #######Delete the assigned input################
     delete:
       description: "Delete the assigned input"
@@ -44,12 +44,12 @@ paths:
       parameters:
         - name: storageId
           in: query
-          description: "storageId"
+          description: storageId
           required: true
           type: integer  
       responses:
         '200':
-          description: "OK"
+          description: OK
           schema:
             type: object
             properties:
@@ -60,9 +60,9 @@ paths:
               requestId:
                 type: string
         '401':
-          description: "UNAUTHENTICATED"
+          description: UNAUTHENTICATED
         '500':
-          description: "internal error"
+          description: internal error
 #######Delete the assigned input################
     get:
       description: "Query the assigned input"
@@ -70,12 +70,12 @@ paths:
       parameters:
         - name: storageId
           in: query
-          description: "storageId"
+          description: storageId
           required: true
           type: integer  
       responses:
         '200':
-          description: "OK"
+          description: OK
           schema:
             type: object
             properties:
@@ -87,9 +87,9 @@ paths:
               requestId:
                 type: string
         '401':
-          description: "UNAUTHENTICATED"
+          description: UNAUTHENTICATED
         '500':
-          description: "internal error"
+          description: internal error
 #######View All the Input Under the Assigned Applications################
   /storageList:
     get:
@@ -103,12 +103,12 @@ paths:
           type: string
         - name: namespaceId
           in: query
-          description: "namespaceId"
+          description: namespaceId
           required: true
           type: string  
       responses:
         '200':
-          description: "OK"
+          description: OK
           schema:
             type: object
             properties:
@@ -122,11 +122,11 @@ paths:
               requestId:
                 type: string
         '401':
-          description: "UNAUTHENTICATED"
+          description: UNAUTHENTICATED
 parameters:
   regionId:
     name: regionId
     in: path
     required: true
     type: string
-    description: "Region ID"
+    description: Region ID

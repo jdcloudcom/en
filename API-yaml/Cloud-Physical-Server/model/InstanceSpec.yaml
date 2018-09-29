@@ -68,7 +68,7 @@ definitions:
         description: "Purchase Count"
       charge:
         $ref: "../../charge/model/ChargeSpec.yaml#/definitions/chargeSpec"
-        description: Billing Configuration
+        description: "Billing Configuration"
       softwares:
         type: array
         items:

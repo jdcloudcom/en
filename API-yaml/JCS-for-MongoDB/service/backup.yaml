@@ -2,7 +2,7 @@ swagger: "2.0"
 info:
   version: v1
   title: Backup Management
-  description: "API related to Relational MONGODB Service"
+  description: API related to Relational MONGODB Service
 
 basePath: /regions/{regionId}
 
@@ -28,7 +28,7 @@ paths:
                 description: "Backup Name"
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               result:
@@ -60,7 +60,7 @@ paths:
             backupId - Backup ID, Accurate Matching
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               result:
@@ -82,7 +82,7 @@ paths:
       operationId: deleteBackup
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               requestId:
@@ -94,7 +94,7 @@ paths:
       operationId: backupDownloadURL
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               result:
@@ -102,20 +102,20 @@ paths:
               requestId:
                 type: string
 
-# General Parameters for Path
+# Path General Parameters
 parameters:
   regionId:
     name: regionId
     in: path
     required: true
     type: string
-    description: "Region ID"
+    description: Region ID
   backupId:
     name: backupId
     in: path
     required: true
     type: string
-    description: "Backup ID"
+    description: backup ID
 
 
 

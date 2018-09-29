@@ -44,7 +44,7 @@ paths:
 
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             type: object
             properties:
@@ -83,7 +83,7 @@ paths:
             $ref: "../model/CreateElasticIpSpec.yaml#/definitions/createElasticIpSpec"
       responses:
         200:
-          description: "Successful Operation"
+          description: Successful operation
           schema:
             type: object
             properties:
@@ -117,7 +117,7 @@ paths:
         operationId: describeElasticIp
         responses:
           200:
-            description: "OK"
+            description: OK
             schema:
               properties:
                 result:
@@ -141,7 +141,7 @@ paths:
         operationId: deleteElasticIp
         responses:
           200:
-            description: "OK"
+            description: OK
             schema:
               properties:
                 requestId:
@@ -172,7 +172,7 @@ paths:
 
         responses:
          200:
-            description: "Successful Operation"
+            description: Successful operation
             schema:
               type: object
               properties:
@@ -182,7 +182,7 @@ paths:
          400:
             description: "Invalid param 'xxx'"
          404:
-            description: "Resource Not Found"
+            description: Resource not found
           
 parameters:
   regionId:
@@ -190,13 +190,13 @@ parameters:
     in: path
     required: true
     type: string
-    description: "Region ID"
+    description: Region ID
   elasticIpId:
     name: elasticIpId
     in: path
     required: true
     type: string
-    description: "ElasticIp ID"
+    description: ElasticIp ID
         
 
     

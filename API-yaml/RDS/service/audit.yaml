@@ -23,13 +23,13 @@ paths:
                 description: "The audit options to be enable shall be separated from each other by a comma or a space, for example: DATABASE_OBJECT_ACCESS_GROUP,ACKUP_RESTORE_GROU, etc. <br>The audit options supported by each database version can be obtained via the API [getAuditOptions](./getAuditOptions.md), and the specific meaning of each audit option can be found in the official document of Microsoft."
       responses:
         200:
-          description: "OK"
+          description: OK
     get:
       description: "View the audit options of the current instance that have been enabled. If no audit option is enabled for the current instance, it returns an empty array<br>- Support SQL Server Only"
       operationId: describeAudit
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               result:
@@ -44,7 +44,7 @@ paths:
       operationId: deleteAudit
       responses:
         200:
-          description: "OK"
+          description: OK
   "/instances/{instanceId}/audit:getOptions": #Audit Options
     post:
       description: "Get the audit options and corresponding recommended options for the various database versions supported by the current system<br>- Support SQL Server Only"
@@ -63,7 +63,7 @@ paths:
                 description: "Audit option category, **Case Sensitivity**. It currently supports two types: <br>(1) AuditOptions at the beginning: It returns all options supported by each version of SQL Server in the disalbed parameter with supported name of <br>AuditOptions2008R2<br>AuditOptions2012<br>AuditOptions2014<br>AuditOptions2016<br>For example, if the input parameter is 'AuditOptions2016', then it returns all the audit options supported by the SQL Server 2016 version in the disabled field<br>(2)AuditDefault at the beginning: The default option suggested by JD Cloud, which returns the recommended options to be enabled in the enabled parameter, and returns the options not to be enabled in the disabled parameter, with supported name of: <br>AuditDefault2008R2<br>AuditDefault2012<br>AuditDefault2014<br>AuditDefault2016<br>For example, if the input parameter is 'AuditDefault2016', then it returns the audit options recommended by JD Cloud to be enabled in the SQL Server 2016 version in the enabled field, and the options recommended not to be enabled in the disabled field"
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               result:
@@ -97,14 +97,14 @@ paths:
                 description: "Delete audit items. Multiple audit items are separated by commas, semicolons or spaces, for example, DATABASE_OBJECT_ACCESS_GROUP,ACKUP_RESTORE_GROUP<br>If all audit items are deleted, the audit is automatically disabled."
       responses:
         200:
-          description: "OK"
+          description: OK
   "/instances/{instanceId}/audit:getAuditFiles": #Check Audit File List
     post:
       description: "Obtain the list of all audit result files under current instance<br>- Support SQL Server Only"
       operationId: getAuditFiles
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               result:
@@ -134,7 +134,7 @@ paths:
                 #description: Specify the expiration time of the download link in seconds. The default is 86400 seconds, which is 24 hours.
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               result:
@@ -145,7 +145,7 @@ paths:
                   internalURL:
                     type: string
                     description: "Intranet download link, if download is not available currently, it is an empty string"
-# General Parameters for Path
+# Path General Parameters
 parameters:
   regionId:
     name: regionId

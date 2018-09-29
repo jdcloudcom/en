@@ -16,7 +16,7 @@ definitions:
         description: Subnet CIDR
       subnetId:
         type: string
-        description: Subnet ID
+        description: "Subnet ID"
       networkType:
         type: string
         description: Network Type

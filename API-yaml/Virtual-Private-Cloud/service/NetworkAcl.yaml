@@ -41,7 +41,7 @@ paths:
                  
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               result:
@@ -83,7 +83,7 @@ paths:
             $ref: "../model/NetworkAclSpec.yaml#/definitions/networkAclSpec"
       responses:
         200:
-          description: "Successful Operation"
+          description: Successful operation
           schema:
             type: object
             properties:
@@ -114,7 +114,7 @@ paths:
     
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               result:
@@ -143,16 +143,16 @@ paths:
       operationId: deleteNetworkAcl
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               requestId:
                 description: "Request ID"
                 type: string
         404:
-          description: "NOT_FOUND"
+          description: NOT_FOUND
         500:
-          description: "Internal Error"
+          description: Internal error
         
     
     patch:
@@ -170,7 +170,7 @@ paths:
     
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               requestId:
@@ -200,7 +200,7 @@ paths:
           
       responses:
         200:
-          description: "Successful Operation"
+          description: Successful operation
           schema:
             type: object
             properties:
@@ -257,7 +257,7 @@ paths:
       
       responses:
         200:
-          description: "Successful Operation"
+          description: Successful operation
           schema:
             type: object
             properties:
@@ -340,10 +340,10 @@ parameters:
     in: path
     required: true
     type: string
-    description: "Region ID"
+    description: Region ID
   networkAclId:
     name: networkAclId
     in: path
     required: true
     type: string
-    description: "networkAclId ID"
+    description: networkAclId ID

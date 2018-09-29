@@ -14,7 +14,7 @@ definitions:
         description: "Instance ID"
       domain:
         type: string
-        description: "Subdomain Name"
+        description: "Subdomain"
       cname:
         type: string
         description: "cname of Rules"

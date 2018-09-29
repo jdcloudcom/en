@@ -31,7 +31,7 @@ paths:
           description: "Billing Information Related Configuration."
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               result:
@@ -77,7 +77,7 @@ paths:
             createTime - Creation Time (asc: Positive Order, desc: Inverted Order)
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               result:
@@ -102,7 +102,7 @@ paths:
       operationId: describeCacheInstance
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             type: object
             properties:
@@ -116,7 +116,7 @@ paths:
                 type: string
                 description: "ID of This Query Request"
         404:
-          description: "NOT_FOUND"
+          description: NOT_FOUND
 
     ###################### Modify the Resource Name and Description of JCS for Redis#################### #
     patch:
@@ -133,7 +133,7 @@ paths:
           description: "The description of the JCS for Redis instance resource cannot be more than 256 characters"
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               requestId:
@@ -149,7 +149,7 @@ paths:
       operationId: deleteCacheInstance
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               requestId:
@@ -171,7 +171,7 @@ paths:
           description: "The modified JCS for Redis type after the change, see: <a href='https://www.jdcloud.com/help/detail/411/isCatalog/1'>instance type code</a>"
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               result:
@@ -196,7 +196,7 @@ paths:
           description: "Password contains and only supports letters and numbers with no less than 8 characters and no more than 16 characters. If the password is null, it means password-free."
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               requestId:
@@ -220,7 +220,7 @@ paths:
               $ref: "../model/ConfigItem.yaml#/definitions/configItem"
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               requestId:
@@ -234,7 +234,7 @@ paths:
       x-jdcloud-internal: true
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             type: object
             properties:
@@ -248,7 +248,7 @@ paths:
                 type: string
                 description: "ID of the Current Request"
         404:
-          description: "NOT_FOUND"
+          description: NOT_FOUND
 
   "/cacheInstance/{cacheInstanceId}/backup":
     ###################### Creat JCS for Redis Backup ######################
@@ -269,7 +269,7 @@ paths:
           description: "Backup type, manual backup is 1"
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               result:
@@ -291,12 +291,12 @@ paths:
           in: query
           required: true
           type: integer
-          description: "Page; the default is 1"
+          description: "Page; 1 by default"
         - name: pageSize
           in: query
           required: true
           type: integer
-          description: "Page size; the default is 20; range of value is [10,100]"
+          description: "Paging Size; 20 by default; Value range[10, 100] "
         - name: baseId
           in: query
           required: false
@@ -304,7 +304,7 @@ paths:
           description: "Backup operation ID, you can query the list information of a manual backup"
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               result:
@@ -321,7 +321,7 @@ paths:
                 type: string
                 description: "ID of This Query Request"
         404:
-          description: "NOT_FOUND"
+          description: NOT_FOUND
 
   "/cacheInstance/{cacheInstanceId}/backupPolicy":
     ###################### Query JCS for Redis Backup Policy ######################  
@@ -331,7 +331,7 @@ paths:
       x-jdcloud-internal: true
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               backupPeriod:
@@ -348,7 +348,7 @@ paths:
                 type: string
                 description: "ID of This Query Request"
         404:
-          description: "NOT_FOUND"
+          description: NOT_FOUND
 
     ###################### Modify JCS for Redis Backup Policy ######################
     patch:
@@ -370,7 +370,7 @@ paths:
             Monday，Tuesday，Wednesday，Thursday，Friday，Saturday，Sunday
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               requestId:
@@ -391,7 +391,7 @@ paths:
           description: "Backup operation ID is to restore JCS for Redis instance according to this backup operation"
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               requestId:
@@ -399,7 +399,7 @@ paths:
                 description: "ID of This Request"
 
 
-# General Parameters for Path
+# Path General Parameters
 parameters:
   regionId:
     name: regionId

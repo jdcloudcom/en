@@ -43,7 +43,7 @@ paths:
 
        responses:
          200:
-           description: "OK"
+           description: OK
            schema:
              properties:
                result:
@@ -81,7 +81,7 @@ paths:
 
        responses:
          200:
-           description: "OK"
+           description: OK
            schema:
              properties:
                result:
@@ -110,7 +110,7 @@ paths:
 
        responses:
          200:
-           description: "OK"
+           description: OK
            schema:
              properties:
                result:
@@ -143,16 +143,16 @@ paths:
              $ref: "../model/ModifyNetworkSecurityGroupSpec.yaml#/definitions/modifyNetworkSecurityGroupSpec"
        responses:
          200:
-           description: "OK"
+           description: OK
            schema:
              properties:
                requestId:
                  description: "Request ID"
                  type: string
          400:
-           description: "Request parameter x.y.z is 'xxx', expected one of [yyy,zzz]"
+           description: Request parameter x.y.z is 'xxx', expected one of [yyy,zzz]
          404:
-           description: "Resource Not Found"
+           description: Resource not found
 
      #delete networkSecurityGroup
      delete:
@@ -162,18 +162,18 @@ paths:
 
          responses:
            200:
-             description: "OK"
+             description: OK
              schema:
                properties:
                  requestId:
                    description: "Request ID"
                    type: string
            400:
-             description: "invalid parameter"
+             description: invalid parameter
            404:
-             description: "Resource Not Found"
+             description: Resource not found
            500:
-             description: "Internal server error"
+             description: Internal server error
 
   #add security group rules
   "/networkSecurityGroups/{networkSecurityGroupId}:addNetworkSecurityGroupRules":
@@ -198,13 +198,13 @@ paths:
                  description: "Request ID"
                  type: string
         400:
-           description: "Request parameter x.y.z is 'xxx', expected one of [yyy,zzz]"
+           description: Request parameter x.y.z is 'xxx', expected one of [yyy,zzz]
         404:
-           description: "Resource Not Found"
+           description: Resource not found
         409:
-           description: "SecurityGroup rules not in the same vpc"
+           description: SecurityGroup rules not in the same vpc
         500:
-           description: "Internal server error"
+           description: Internal server error
 
   #remove security group rules
   "/networkSecurityGroups/{networkSecurityGroupId}:removeNetworkSecurityGroupRules":
@@ -265,7 +265,7 @@ paths:
         404:
            description: "SecurityGroup or SecurityGroupRule not found"
         500:
-           description: "Internal server error"
+           description: Internal server error
 
 parameters:
   regionId:
@@ -273,10 +273,10 @@ parameters:
     in: path
     required: true
     type: string
-    description: "Region ID"
+    description: Region ID
   networkSecurityGroupId:
     name: networkSecurityGroupId
     in: path
     required: true
     type: string
-    description: "NetworkSecurityGroup ID"
+    description: NetworkSecurityGroup ID

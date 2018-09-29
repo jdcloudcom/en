@@ -16,4 +16,4 @@ definitions:
         description: "IP Service Provider, value: bgp or no_bg    "    
       chargeSpec:
         $ref: "../../charge/model/ChargeSpec.yaml#/definitions/chargeSpec"
-        description: "Billing Configuration " 
+        description: "Billing Configuration" 

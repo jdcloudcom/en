@@ -25,7 +25,7 @@ paths:
           required: false
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               result:
@@ -48,7 +48,7 @@ paths:
                 type: string
                 description: "ID of This Request"
         400:
-          description: "BAD_REQUEST"
+          description: BAD_REQUEST
           
   /domain/{domainId}/viewTree:
   ###################### Query All DNS Resolution Lines ######################
@@ -73,7 +73,7 @@ paths:
           description: "View ID, 0 by default"
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               result:
@@ -87,7 +87,7 @@ paths:
                 type: string
                 description: "ID of This Request"
         400:
-          description: "BAD_REQUEST"
+          description: BAD_REQUEST
           
   /domain/{domainId}/RRAdd:
   ###################### Add Resolution Record of Domain Name ######################
@@ -103,7 +103,7 @@ paths:
             $ref: "../model/RR.yaml#/definitions/addRR"
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               result:
@@ -115,7 +115,7 @@ paths:
                 type: string
                 description: "ID of This Request"
         400:
-          description: "BAD_REQUEST"
+          description: BAD_REQUEST
           
   /domain/{domainId}/RRUpdate:
   ###################### Modify Resolution Record of Domain Name ######################
@@ -131,14 +131,14 @@ paths:
           description: "UpdateRR Parameter"
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               requestId:
                 description: "ID of This Request"
                 type: string
         400:
-          description: "BAD_REQUEST"
+          description: BAD_REQUEST
           
   /domain/{domainId}/RROperate:
   ###################### Operation Set of Domain Name Resolution Record ######################
@@ -160,16 +160,16 @@ paths:
           description: "Operation Type, On->Enable, Off->Disable, Del->Delete"
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               requestId:
                 type: string
                 description: "ID of This Request"
         400:
-          description: "BAD_REQUEST" 
+          description: BAD_REQUEST 
          
-# General Parameters for Path
+# Path General Parameters
 parameters:
   regionId:
     name: regionId

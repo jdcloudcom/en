@@ -22,7 +22,7 @@ paths:
             $ref: "../model/CreatePermissionInfo.yaml#/definitions/createPermissionInfo"
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             type: object
             properties:
@@ -44,7 +44,7 @@ paths:
             $ref: "../model/UpdatePermissionInfo.yaml#/definitions/updatePermissionInfo"
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             type: object
             properties:
@@ -58,7 +58,7 @@ paths:
       x-jdcloud-internal: false
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             type: object
             properties:
@@ -100,7 +100,7 @@ paths:
           required: true
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             type: object
             properties:
@@ -132,7 +132,7 @@ paths:
             $ref: "../model/AddPermissionsInfo.yaml#/definitions/addPermissionsInfo"
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             type: object
             properties:
@@ -157,7 +157,7 @@ paths:
           required: true
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             type: object
             properties:
@@ -183,7 +183,7 @@ paths:
       x-jdcloud-internal: false
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             type: object
             properties:
@@ -192,14 +192,14 @@ paths:
 
 
 
-# Path General Parameter
+# Path General Parameters
 parameters:
   regionId:
     name: regionId
     in: path
     required: true
     type: string
-    description: "Region ID"
+    description: Region ID
   permissionId:
     name: permissionId
     in: path

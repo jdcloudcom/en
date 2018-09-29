@@ -2,7 +2,7 @@ swagger: "2.0"
 info:
   version: "v1"
   title: Instance Management
-  description: "API related to MONGODB instances"
+  description: API related to MONGODB instances
 
 basePath: /regions/{regionId}
 
@@ -26,7 +26,7 @@ paths:
             $ref: "../../charge/model/ChargeSpec.yaml#/definitions/chargeSpec"
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               result:
@@ -70,7 +70,7 @@ paths:
             createTime - Creation Time, asc (Positive Order), desc (Reverse Order)
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               result:
@@ -93,7 +93,7 @@ paths:
       operationId: deleteInstance
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               requestId:
@@ -118,7 +118,7 @@ paths:
                 description: "The new password must contain and only support letters and numbers with length no less than 8 characters and no more than 16 characters."
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               requestId:
@@ -147,7 +147,7 @@ paths:
                 description: "The storage space under monthly package shall not be smaller than the current type."
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               result:
@@ -178,7 +178,7 @@ paths:
                 description: "The new instance name only supports numbers, letters, underlines, Chinese, with length no less than 2 characters and no more than 32 characters."
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               requestId:
@@ -190,7 +190,7 @@ paths:
       operationId: describeBackupPolicy
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               result:
@@ -221,7 +221,7 @@ paths:
                 description: "Backup Time, Format: HH:mmZ- HH:mmZ, only integral point allowed with interval of 1 hour."
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               result:
@@ -253,7 +253,7 @@ paths:
                 description: "Backup ID"
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               requestId:
@@ -265,7 +265,7 @@ paths:
       operationId: describeFlavors
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               result:
@@ -283,7 +283,7 @@ paths:
       operationId: describeAvailableZones
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               result:
@@ -316,7 +316,7 @@ paths:
                 description: "Instance ID"
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               result:
@@ -335,7 +335,7 @@ paths:
       x-jdcloud-internal: true
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               result:
@@ -350,7 +350,7 @@ paths:
       x-jdcloud-internal: true
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               result:
@@ -378,7 +378,7 @@ paths:
                 description: "Instance ID"
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               result:
@@ -388,17 +388,17 @@ paths:
               requestId:
                 type: string
 
-# General Parameters for Path
+# Path General Parameters
 parameters:
   regionId:
     name: regionId
     in: path
     required: true
     type: string
-    description: "Region ID"
+    description: Region ID
   instance:
     name: instanceId
     in: path
     required: true
     type: string
-    description: "Instance ID"
+    description: Instance ID

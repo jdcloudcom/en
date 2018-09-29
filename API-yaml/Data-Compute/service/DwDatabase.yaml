@@ -2,7 +2,7 @@ swagger: "2.0"
 info:
   version: "v1"
   title: database
-  description: "API related to XDATA-DW database"
+  description: API related to XDATA-DW database
 
 basePath: /regions/{regionId}
 
@@ -20,7 +20,7 @@ paths:
               description: "Instance Name"
           responses:
             200:
-              description: "OK"
+              description: OK
               schema:
                 properties:
                   result:
@@ -56,7 +56,7 @@ paths:
               description: "Database Description Information"
           responses:
             200:
-              description: "OK"
+              description: OK
               schema:
                 properties:
                   result:
@@ -82,7 +82,7 @@ paths:
               description: "Instance Name"
           responses:
             200:
-              description: "OK"
+              description: OK
               schema:
                 properties:
                   result:
@@ -110,7 +110,7 @@ paths:
               description: "Instance Name"
           responses:
             200:
-              description: "OK"
+              description: OK
               schema:
                 properties:
                   result:
@@ -124,7 +124,7 @@ paths:
             500:
               description: "Internal server error"
 
-# Path General Parameter
+# Path General Parameters
 parameters:
   regionId:
     name: regionId

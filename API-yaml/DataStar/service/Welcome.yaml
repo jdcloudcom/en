@@ -38,11 +38,11 @@ paths:
                 500:
                   description: "Internal server error"
 
-# Path General Parameter
+# Path General Parameters
 parameters:
   regionId:
     name: regionId
     in: path
     required: true
     type: string
-    description: Region ID
+    description: "Region ID"

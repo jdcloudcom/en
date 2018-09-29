@@ -20,7 +20,7 @@ paths:
             $ref: "../model/CreateRoleInfo.yaml#/definitions/createRoleInfo"
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             type: object
             properties:
@@ -45,7 +45,7 @@ paths:
             $ref: "../model/UpdateRoleInfo.yaml#/definitions/updateRoleInfo"
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             type: object
             properties:
@@ -59,7 +59,7 @@ paths:
       x-jdcloud-internal: false
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             type: object
             properties:
@@ -78,7 +78,7 @@ paths:
       x-jdcloud-internal: false
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             type: object
             properties:
@@ -100,7 +100,7 @@ paths:
             $ref: "../model/UpdateAssumeRolePolicyInfo.yaml#/definitions/updateAssumeRolePolicyInfo"
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             type: object
             properties:
@@ -141,7 +141,7 @@ paths:
           required: true
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             type: object
             properties:
@@ -176,7 +176,7 @@ paths:
                 description: "Policy jrn"
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             type: object
             properties:
@@ -212,7 +212,7 @@ paths:
           required: true
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             type: object
             properties:
@@ -249,7 +249,7 @@ paths:
                 description: "Policy jrn"
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             type: object
             properties:
@@ -258,14 +258,14 @@ paths:
 
 
 
-# Path General Parameter
+# Path General Parameters
 parameters:
   regionId:
     name: regionId
     in: path
     required: true
     type: string
-    description: "Region ID"
+    description: Region ID
   roleName:
     name: roleName
     in: path

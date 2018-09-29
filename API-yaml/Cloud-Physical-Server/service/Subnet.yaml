@@ -41,7 +41,7 @@ paths:
         503:
           description: "Service unavailable"
 
-# Path General Parameter
+# Path General Parameters
 parameters:
   regionId:
     name: regionId
@@ -54,4 +54,4 @@ parameters:
     in: path
     required: true
     type: string
-    description: Subnet ID
+    description: "Subnet ID"

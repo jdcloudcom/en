@@ -33,7 +33,7 @@ paths:
           description: "The format of query end time is: YYYY-MM-DD HH:mm:ss"
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               result:
@@ -53,7 +53,7 @@ paths:
       x-jdcloud-internal: true
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               result:
@@ -71,8 +71,8 @@ paths:
       x-jdcloud-internal: true
       responses:
         200:
-          description: "OK"
-# General Parameters for Path
+          description: OK
+# Path General Parameters
 parameters:
   regionId:
     name: regionId

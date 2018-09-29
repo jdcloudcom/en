@@ -109,7 +109,7 @@ definitions:
       vpcId:
         type: string
         default: new
-        description: "Virtual Private Cloud ID"
+        description: "VPC ID"
       vpcSubnetId:
         type: string
         default: new

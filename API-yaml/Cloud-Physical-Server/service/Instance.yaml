@@ -649,7 +649,7 @@ paths:
         503:
           description: "Service unavailable"
 
-# Path General Parameter
+# Path General Parameters
 parameters:
   regionId:
     name: regionId

@@ -2,7 +2,7 @@ swagger: "2.0"
 info:
   version: "v1"
   title: Job Management
-  description: "JMR job management"
+  description: JMR job management
 
 basePath: /regions/{regionId}
 paths:
@@ -19,7 +19,7 @@ paths:
              description: "Cluster Id"
          responses:
            200:
-             description: "OK"
+             description: OK
              schema:
                properties:
                  result:
@@ -59,7 +59,7 @@ paths:
                    $ref: "../model/SelectParams.yaml#/definitions/selectParams"
          responses:
            200:
-             description: "OK"
+             description: OK
              schema:
                properties:
                  result:
@@ -108,7 +108,7 @@ paths:
                    description: "Job Name to be Verified"
          responses:
            200:
-             description: "OK"
+             description: OK
              schema:
                properties:
                  result:
@@ -135,7 +135,7 @@ paths:
              description: "clusterId, jobName, jobType, location, jobArgs, retryTimes and isSendMsg are required"
          responses:
            200:
-             description: "OK"
+             description: OK
              schema:
                properties:
                  result:
@@ -162,7 +162,7 @@ paths:
              description: "clusterId, jobName, jobType, location, jobArgs, retryTimes and isSendMsg are required"
          responses:
            200:
-             description: "OK"
+             description: OK
              schema:
                properties:
                  result:
@@ -189,7 +189,7 @@ paths:
              description: "Job Id to be Deleted"
          responses:
            200:
-             description: "OK"
+             description: OK
              schema:
                properties:
                  result:
@@ -217,7 +217,7 @@ paths:
              description: "clusterId, jobName, jobType, location, jobArgs, retryTimes and isSendMsg are required"
          responses:
            200:
-             description: "OK"
+             description: OK
              schema:
                properties:
                  result:
@@ -254,7 +254,7 @@ paths:
                    description: "Cluster ID"
          responses:
            200:
-             description: "OK"
+             description: OK
              schema:
                properties:
                  result:
@@ -283,7 +283,7 @@ paths:
              description: "Job Id to be Viewed"
          responses:
            200:
-             description: "OK"
+             description: OK
              schema:
                properties:
                  result:
@@ -320,7 +320,7 @@ paths:
                    $ref: "../model/SelectParams.yaml#/definitions/selectParams"
          responses:
            200:
-             description: "OK"
+             description: OK
              schema:
                properties:
                  result:
@@ -371,7 +371,7 @@ paths:
                    description: "Path of the File to be Deleted"
          responses:
            200:
-             description: "OK"
+             description: OK
              schema:
                properties:
                  requestId:
@@ -392,7 +392,7 @@ paths:
              description: "Cluster ID"
          responses:
            200:
-             description: "OK"
+             description: OK
              schema:
                properties:
                  result:
@@ -422,7 +422,7 @@ paths:
              description: "Cluster Id"
          responses:
            200:
-             description: "OK"
+             description: OK
              schema:
                properties:
                  result:
@@ -472,7 +472,7 @@ paths:
                    description: "Optional Parameters of Search Conditions"
          responses:
            200:
-             description: "OK"
+             description: OK
              schema:
                properties:
                  result:
@@ -523,7 +523,7 @@ paths:
                    description: "Verified Plan Name"
          responses:
            200:
-             description: "OK"
+             description: OK
              schema:
                properties:
                  result:
@@ -581,7 +581,7 @@ paths:
                    description: "Occupy minute according to the time parameter in Cron format"
          responses:
            200:
-             description: "OK"
+             description: OK
              schema:
                properties:
                  result:
@@ -615,7 +615,7 @@ paths:
                    $ref: "../model/SelectParams.yaml#/definitions/selectParams"
          responses:
            200:
-             description: "OK"
+             description: OK
              schema:
                properties:
                  result:
@@ -689,7 +689,7 @@ paths:
                    description: "Occupy minute according to the time parameter in Cron format"
          responses:
            200:
-             description: "OK"
+             description: OK
              schema:
                properties:
                  result:
@@ -716,7 +716,7 @@ paths:
              description: "Suspended Task ID"
          responses:
            200:
-             description: "OK"
+             description: OK
              schema:
                properties:
                  result:
@@ -743,7 +743,7 @@ paths:
              description: "Task ID to be Recovered"
          responses:
            200:
-             description: "OK"
+             description: OK
              schema:
                properties:
                  result:
@@ -770,7 +770,7 @@ paths:
              description: "Task ID to be Deleted"
          responses:
            200:
-             description: "OK"
+             description: OK
              schema:
                properties:
                  result:
@@ -805,7 +805,7 @@ paths:
                    $ref: "../model/SelectParams.yaml#/definitions/selectParams"
          responses:
            200:
-             description: "OK"
+             description: OK
              schema:
                properties:
                  result:
@@ -855,7 +855,7 @@ paths:
                    description: "Search conditions, optional parameters"
          responses:
            200:
-             description: "OK"
+             description: OK
              schema:
                properties:
                  result:
@@ -896,7 +896,7 @@ paths:
              required: true
          responses:
            200:
-             description: "OK"
+             description: OK
              schema:
                properties:
                  result:
@@ -928,7 +928,7 @@ paths:
              description: "Job ID"
          responses:
            200:
-             description: "OK"
+             description: OK
              schema:
                properties:
                  result:
@@ -951,7 +951,7 @@ paths:
          operationId: queryExecutingJobList
          responses:
            200:
-             description: "OK"
+             description: OK
              schema:
                properties:
                  result:
@@ -969,7 +969,7 @@ paths:
                    type: string
            500:
              description: "Internal server error"
-# Path General Parameter
+# Path General Parameters
 parameters:
  regionId:
    name: regionId

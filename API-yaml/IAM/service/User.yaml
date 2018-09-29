@@ -22,7 +22,7 @@ paths:
             $ref: "../model/CreateSubUserInfo.yaml#/definitions/createSubUserInfo"
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             type: object
             properties:
@@ -37,7 +37,7 @@ paths:
       x-jdcloud-internal: false
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             type: object
             properties:
@@ -59,7 +59,7 @@ paths:
       x-jdcloud-internal: false
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             type: object
             properties:
@@ -75,7 +75,7 @@ paths:
       x-jdcloud-internal: false
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             type: object
             properties:
@@ -91,7 +91,7 @@ paths:
       x-jdcloud-internal: false
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             type: object
             properties:
@@ -106,7 +106,7 @@ paths:
       x-jdcloud-internal: false
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             type: object
             properties:
@@ -133,7 +133,7 @@ paths:
           required: false
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             type: object
             properties:
@@ -181,7 +181,7 @@ paths:
           required: true
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             type: object
             properties:
@@ -238,7 +238,7 @@ paths:
           required: true
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             type: object
             properties:
@@ -261,7 +261,7 @@ paths:
         x-jdcloud-internal: true
         responses:
           200:
-            description: "OK"
+            description: OK
             schema:
               type: object
               properties:
@@ -289,7 +289,7 @@ paths:
            required: true
         responses:
           200:
-            description: "OK"
+            description: OK
             schema:
               type: object
               properties:
@@ -303,17 +303,17 @@ paths:
                   type: string
 
 
-# Path General Parameter
+# Path General Parameters
 parameters:
   regionId:
     name: regionId
     in: path
     required: true
     type: string
-    description: "Region ID"
+    description: Region ID
   accessKey:
     name: accessKey
     in: path
     required: true
     type: string
-    description: "accessKey"
+    description: accessKey

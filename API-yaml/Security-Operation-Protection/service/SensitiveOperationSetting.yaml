@@ -21,7 +21,7 @@ paths:
          description: "Operate action serviceName:actionName"
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             type: object
             properties:
@@ -39,11 +39,11 @@ paths:
               requestId:
                 type: string
 
-# Path General Parameter
+# Path General Parameters
 parameters:
   regionId:
     name: regionId
     in: path
     required: true
     type: string
-    description: "Region ID"
+    description: Region ID

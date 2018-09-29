@@ -19,7 +19,7 @@ paths:
             $ref: "../model/jobView.yaml#/definitions/jobStr"
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             type: object
             properties:
@@ -32,7 +32,7 @@ paths:
               requestId:
                 type: string
         500:
-          description: "INTERNAL_ERROR      "
+          description: "INTERNAL_ERROR"
   #########Query the Details of Assigned Job#################
     get:
         description: "Query the details of Assigned Job"
@@ -48,7 +48,7 @@ paths:
               required: true
         responses: 
             '200':
-              description: "OK"
+              description: OK
               schema:
                 properties: 
                    result:
@@ -58,7 +58,7 @@ paths:
                    requestId:
                       type: string
             500:
-              description: "INTERNAL_ERROR      "
+              description: "INTERNAL_ERROR"
 
 ###############Delete Job####################
     delete:
@@ -75,7 +75,7 @@ paths:
               required: true
         responses: 
             200:
-              description: "OK"
+              description: OK
               schema:
                 type: object
                 properties: 
@@ -89,7 +89,7 @@ paths:
                           status:
                             type: boolean
             500:
-              description: "INTERNAL_ERROR      "                   
+              description: "INTERNAL_ERROR"                   
                                                           
  
 ###############Query All the Jobs Under the Assigned Applications#################################### 
@@ -104,7 +104,7 @@ paths:
               required: true
         responses: 
             200:
-              description: "OK"
+              description: OK
               schema:
                 type: object
                 properties: 
@@ -119,7 +119,7 @@ paths:
                                 type: object
                                 $ref: "../model/jobView.yaml#/definitions/jobStr" 
             500:
-              description: "INTERNAL_ERROR      "                                
+              description: "INTERNAL_ERROR"                                
 ################Running job####################
   /job:start: 
     get:
@@ -136,7 +136,7 @@ paths:
               required: true
         responses: 
             200:
-              description: "OK"
+              description: OK
               schema:
                 type: object
                 properties: 
@@ -149,7 +149,7 @@ paths:
                              description: "Whether the job is submitted or not"
                           
             500:
-              description: "INTERNAL_ERROR      "                       
+              description: "INTERNAL_ERROR"                       
             
 ###############Stop Job Running####################
   /job:stop:
@@ -167,7 +167,7 @@ paths:
               required: true
         responses: 
             200:
-              description: "OK"
+              description: OK
               schema:
                 type: object
                 properties: 
@@ -180,7 +180,7 @@ paths:
                              description: "Returned Information Upon Successfully Enabling Job"
                           
             500:
-              description: "INTERNAL_ERROR      "      
+              description: "INTERNAL_ERROR"      
 
 parameters:
   regionId:
@@ -188,4 +188,4 @@ parameters:
     in: path
     required: true
     type: string
-    description: "Region ID"
+    description: Region ID

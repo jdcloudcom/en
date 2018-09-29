@@ -17,7 +17,7 @@ definitions:
         description: "Virtual Network ID"
       description:
         type: string
-        description: "Description "
+        description: "Description"
       securityGroups:
         type: array
         items:
@@ -25,7 +25,7 @@ definitions:
         description: "Security Group List"
       sanityCheck:
         type: boolean
-        description: "Source and Target IP Address Verification, with value 0 or 1"
+        description: "Source and target IP address verification, with value 0 or 1"
       primaryIp:
         $ref: "./NetworkInterfacePrivateIp.yaml#/definitions/networkInterfacePrivateIp"
         description: "Primary IP of Network Interface"

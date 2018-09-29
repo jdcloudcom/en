@@ -5,4 +5,4 @@ info:
   description: "JD Cloud Anti-DDoS Pro APIs"
 host: "ipanti.jdcloud-api.com"
 x-jdcloud-version: "v1"
-x-jdcloud-revision: "1.0.1"
+x-jdcloud-revision: "1.1.0"

@@ -2,7 +2,7 @@ swagger: "2.0"
 info:
   version: "v1"
   title: Workflow Management
-  description: "JMR workflow management"
+  description: JMR workflow management
 
 basePath: /regions/{regionId}
 paths:
@@ -24,7 +24,7 @@ paths:
                $ref: "../model/SelectParams.yaml#/definitions/selectParams"
          responses:
            200:
-             description: "OK"
+             description: OK
              schema:
                properties:
                  result:
@@ -63,7 +63,7 @@ paths:
                $ref: "../model/EmrWorkflow.yaml#/definitions/emrWorkflow"
          responses:
            200:
-             description: "OK"
+             description: OK
              schema:
                properties:
                  result:
@@ -91,7 +91,7 @@ paths:
              description: "Workflow ID"
          responses:
            200:
-             description: "OK"
+             description: OK
              schema:
                properties:
                  result:
@@ -117,7 +117,7 @@ paths:
              description: "Workflow ID"
          responses:
            200:
-             description: "OK"
+             description: OK
              schema:
                properties:
                  result:
@@ -151,7 +151,7 @@ paths:
              description: "Workflow ID"
          responses:
            200:
-             description: "OK"
+             description: OK
              schema:
                properties:
                  result:
@@ -174,7 +174,7 @@ paths:
                $ref: "../model/SelectParams.yaml#/definitions/selectParams"
          responses:
            200:
-             description: "OK"
+             description: OK
              schema:
                properties:
                  result:
@@ -211,7 +211,7 @@ paths:
              type: string
          responses:
            200:
-             description: "OK"
+             description: OK
              schema:
                properties:
                  result:
@@ -224,7 +224,7 @@ paths:
                    type: string
            500:
              description: "Internal server error"
-# Path General Parameter
+# Path General Parameters
 parameters:
  regionId:
    name: regionId

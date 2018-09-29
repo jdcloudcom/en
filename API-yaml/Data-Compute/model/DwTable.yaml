@@ -46,7 +46,7 @@ definitions:
         description: "Location"
       comments:
         type: string
-        description: "Description  Information"
+        description: Description Information
       hiveObjectPrivileges:
         $ref: "../model/DwHiveObjectPrivileges.yaml#/definitions/dwHiveObjectPrivileges"
         description: "Hive Table Permission Information"

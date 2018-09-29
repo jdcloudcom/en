@@ -15,7 +15,7 @@ paths:
       x-jdcloud-internal: true
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               result:
@@ -27,7 +27,7 @@ paths:
 
     
 
-# General Parameters for Path
+# Path General Parameters
 parameters:
   regionId:
     name: regionId

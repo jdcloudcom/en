@@ -24,7 +24,7 @@ paths:
           description: "Paging Size: 20 by default; value range [10, 100]"
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               result:
@@ -38,7 +38,7 @@ paths:
               requestId:
                 type: string
         404:
-          description: "NOT_FOUND"
+          description: NOT_FOUND
     post:
       description: "Add a non-web service rule"
       operationId: createForwardRule
@@ -51,17 +51,17 @@ paths:
             $ref: "../model/ForwardRuleSpec.yaml#/definitions/forwardRuleSpec"
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               requestId:
                 type: string
         400:
-          description: "BAD_REQUEST"
+          description: BAD_REQUEST
         404:
-          description: "NOT_FOUND"
+          description: NOT_FOUND
         500:
-          description: "INTERNAL_SERVER_ERROR"
+          description: INTERNAL_SERVER_ERROR
 
   /instances/{instanceId}/forwardRules/{forwardRuleId}:
     get:
@@ -69,7 +69,7 @@ paths:
       operationId: describeForwardRule
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               result:
@@ -79,7 +79,7 @@ paths:
               requestId:
                 type: string
         404:
-          description: "NOT_FOUND"
+          description: NOT_FOUND
     patch:
       description: "Update a non-web service rule"
       operationId: modifyForwardRule
@@ -92,23 +92,23 @@ paths:
             $ref: "../model/ForwardRuleSpec.yaml#/definitions/forwardRuleSpec"
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               requestId:
                 type: string
         400:
-          description: "BAD_REQUEST"
+          description: BAD_REQUEST
         404:
-          description: "NOT_FOUND"
+          description: NOT_FOUND
         500:
-          description: "INTERNAL_SERVER_ERROR"
+          description: INTERNAL_SERVER_ERROR
     delete:
       description: "Delete a non-web service rule"
       operationId: deleteForwardRule
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               requestId:
@@ -120,15 +120,15 @@ paths:
       operationId: switchForwardRuleProtect
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               requestId:
                 type: string
         404:
-          description: "NOT_FOUND"
+          description: NOT_FOUND
         500:
-          description: "INTERNAL_SERVER_ERROR"
+          description: INTERNAL_SERVER_ERROR
 
   /instances/{instanceId}/forwardRules/{forwardRuleId}:origin:
     post:
@@ -136,24 +136,24 @@ paths:
       operationId: switchForwardRuleOrigin
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               requestId:
                 type: string
         404:
-          description: "NOT_FOUND"
+          description: NOT_FOUND
         500:
-          description: "INTERNAL_SERVER_ERROR"
+          description: INTERNAL_SERVER_ERROR
 
-# General Parameters of Path
+# Path General Parameters
 parameters:
   regionId:
     name: regionId
     in: path
     required: true
     type: string
-    description: "Belonging Region ID"
+    description: "Region ID"
   instanceId:
     name: instanceId
     in: path

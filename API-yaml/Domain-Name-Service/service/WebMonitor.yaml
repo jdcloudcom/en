@@ -30,7 +30,7 @@ paths:
           description: "Query Value"
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               result:
@@ -53,7 +53,7 @@ paths:
                 type: string
                 description: "ID of This Request"
         400:
-          description: "BAD_REQUEST"
+          description: BAD_REQUEST
   /domain/{domainId}/monitorAdd:
   ###################### Add Domain Name Monitoring Items (set by default) ######################
     post:
@@ -67,14 +67,14 @@ paths:
           description: "Subdomain"
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               requestId:
                 type: string
                 description: "ID of This Request"
         400:
-          description: "BAD_REQUEST"  
+          description: BAD_REQUEST  
           
   /domain/{domainId}/getTargets:
   ###################### Query Available Monitoring Objects of Subdomain ######################
@@ -89,7 +89,7 @@ paths:
           description: "Subdomain"
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               result:
@@ -103,7 +103,7 @@ paths:
                 type: string
                 description: "ID of This Request"
         400:
-          description: "BAD_REQUEST"  
+          description: BAD_REQUEST  
   
   /domain/{domainId}/monitorAddTarget:
   ###################### Add Monitoring Items of Subdomain ######################
@@ -125,14 +125,14 @@ paths:
             type: string
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               requestId:
                 type: string
                 description: "ID of This Request"
         400:
-          description: "BAD_REQUEST" 
+          description: BAD_REQUEST 
           
   /domain/{domainId}/monitorOperate:
   ###################### Monitoring Items Operation (including delete, pause, start, manual recovery, and manual switch) ######################
@@ -159,14 +159,14 @@ paths:
           description: "Machine Value of the Monitoring Items, required for manual switch"
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               requestId:
                 type: string
                 description: "ID of This Request"
         400:
-          description: "BAD_REQUEST"
+          description: BAD_REQUEST
   /domain/{domainId}/monitorUpdate:
   ###################### Modification of Domain Monitoring Items  ######################
     post:
@@ -181,14 +181,14 @@ paths:
             $ref: "../model/Monitor.yaml#/definitions/updateMonitor"       
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               requestId:
                 type: string
                 description: "ID of This Request"
         400:
-          description: "BAD_REQUEST"
+          description: BAD_REQUEST
                  
   /domain/{domainId}/monitor/alarminfo:
   ###################### Alarm Information for Monitoring Items of Main Domain ######################
@@ -213,7 +213,7 @@ paths:
           description: "Keyword"
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               result:
@@ -236,8 +236,8 @@ paths:
                 type: string
                 description: "ID of This Request"
         400:
-          description: "BAD_REQUEST"
-# General Parameters for Path
+          description: BAD_REQUEST
+# Path General Parameters
 parameters:
   regionId:
     name: regionId

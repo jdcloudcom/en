@@ -4,11 +4,11 @@ definitions:
     x-jdcloud-module: nc
     x-jdcloud-internal: false
     type: object
-    description: 
+    description:
     properties:
       key:
         type: string
         description: 
       value:
         type: string
-        description: ""
+        description:

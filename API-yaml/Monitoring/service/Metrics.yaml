@@ -36,7 +36,7 @@ paths:
         required: true
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               requestId:
@@ -78,7 +78,7 @@ paths:
         in: query
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               requestId:
@@ -143,7 +143,7 @@ paths:
         description: "Custom Tag"
       responses:
         200:
-          description: "OK"
+          description:  OK
           schema:
             properties:
               requestId:

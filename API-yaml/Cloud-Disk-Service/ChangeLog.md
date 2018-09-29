@@ -1,7 +1,7 @@
 # Update History #
 API Version: 0.7.0
 
-|Release Time|Version Number|Update|Description|
+|Release Time|Version Number| Update |Instructions|
 |---|---|---|---|
 |2018-08-14|0.7.0|Add Fields to APIs|* Add multiAttach as a filter condition when querying the Cloud Disk list<br>* Add multiAttachable information to Cloud Disk Service details<br>* Add multiAttachable as an option when creating a cloud disk|
 |2018-06-25|0.6.0|Add Fields to APIs|* Add Tags as a filter condition when querying the cloud disk list<br>* Add Tags to Cloud Disk Service details|

@@ -42,4 +42,4 @@ definitions:
         description: "Location"
       comments:
         type: string
-        description: "Description  Information"
+        description: Description Information

@@ -15,7 +15,7 @@ paths:
       operationId: describeImage
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             type: object
             properties:
@@ -31,7 +31,7 @@ paths:
         401:
           description: "Authentication failed"
         404:
-          description: "Not Found  "  
+          description: "Not found"  
         500:
           description: "Internal server error"
         503:
@@ -45,13 +45,13 @@ paths:
       operationId: deleteImage
       responses:
         200:
-          description: "OK"
+          description: OK
         400:
           description: "Invalid parameter"
         401:
           description: "Authentication failed"
         404:
-          description: "Not Found  "  
+          description: "Not found"  
         500:
           description: "Internal server error"
         503:
@@ -100,7 +100,7 @@ paths:
           description: "Paging Size; 20 by default; Value range[10, 100] "
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             type: object
             properties:
@@ -121,7 +121,7 @@ paths:
         401:
           description: "Authentication failed"
         404:
-          description: "Not Found  "  
+          description: "Not found"  
         500:
           description: "Internal server error"
         503:
@@ -136,7 +136,7 @@ paths:
       operationId: describeImageConstraints
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             type: object
             properties:
@@ -153,7 +153,7 @@ paths:
         401:
           description: "Authentication failed"
         404:
-          description: "Not Found  "  
+          description: "Not found"  
         500:
           description: "Internal server error"
         503:
@@ -175,7 +175,7 @@ paths:
           description: "Image ID List"
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             type: object
             properties:
@@ -193,7 +193,7 @@ paths:
         401:
           description: "Authentication failed"
         404:
-          description: "Not Found  "
+          description: "Not found"
         500:
           description: "Internal server error"
         503:
@@ -215,13 +215,13 @@ paths:
           description: "The account that needs to be shared"
       responses:
         200:
-          description: "OK"
+          description: OK
         400:
           description: "Invalid parameter"
         401:
           description: "Authentication failed"
         404:
-          description: "Not Found  "  
+          description: "Not found"  
         500:
           description: "Internal server error"
         503:
@@ -242,13 +242,13 @@ paths:
           description: "The account that needs to be cancelled"
       responses:
         200:
-          description: "OK"
+          description: OK
         400:
           description: "Invalid parameter"
         401:
           description: "Authentication failed"
         404:
-          description: "Not Found  "  
+          description: "Not found"  
         500:
           description: "Internal server error"
         503:
@@ -262,7 +262,7 @@ paths:
       operationId: describeImageMembers
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               result:
@@ -279,7 +279,7 @@ paths:
         401:
           description: "Authentication failed"
         404:
-          description: "Not Found  "  
+          description: "Not found"  
         500:
           description: "Internal server error"
         503:
@@ -295,7 +295,7 @@ paths:
       x-jdcloud-internal: true
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               result:
@@ -310,7 +310,7 @@ paths:
         401:
           description: "Authentication failed"
         404:
-          description: "Not Found  "
+          description: "Not found"
         500:
           description: "Internal server error"
         503:
@@ -338,7 +338,7 @@ paths:
           description: "Target Area"
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               result:
@@ -355,7 +355,7 @@ paths:
         401:
           description: "Authentication failed"
         404:
-          description: "Not Found  "
+          description: "Not found"
         500:
           description: "Internal server error"
         503:
@@ -378,13 +378,13 @@ paths:
           description: "Description, <a href='https://www.jdcloud.com/help/detail/3870/isCatalog/1'>Refer to the public parameter specification</a>."
       responses:
         200:
-          description: "OK"
+          description: OK
         400:
           description: "Invalid parameter"
         401:
           description: "Authentication failed"
         404:
-          description: "Not Found  "
+          description: "Not found"
         500:
           description: "Internal server error"
         503:

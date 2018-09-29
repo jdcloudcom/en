@@ -5,10 +5,10 @@ definitions:
     properties:
       accessKey:
         type: string
-        description: "accessKey"
+        description: accessKey
       accessKeySecret:
         type: string
-        description: "accessKeySecret"
+        description: accessKeySecret
       createTime:
         type: string
         description: "Creation Time"

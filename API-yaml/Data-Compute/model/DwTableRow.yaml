@@ -16,4 +16,4 @@ definitions:
         description: "Is the field partitioned"
       comments:
         type: string
-        description: "Description  Information"
+        description: "Description Information"

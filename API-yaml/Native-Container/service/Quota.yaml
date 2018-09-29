@@ -22,7 +22,7 @@ paths:
             resourceType - Resource type, support many [container, secret]
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             type: object
             properties:
@@ -62,7 +62,7 @@ paths:
           description: "Cap"
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             type: object
             properties:
@@ -79,11 +79,11 @@ paths:
         503:
           description: "Service unavailable"
 
-# Path General Parameter
+# Path General Parameters
 parameters:
   regionId:
     name: regionId
     in: path
     required: true
     type: string
-    description: "Region ID"
+    description: Region ID

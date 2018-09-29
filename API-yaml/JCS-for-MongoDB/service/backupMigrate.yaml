@@ -2,7 +2,7 @@ swagger: "2.0"
 info:
   version: "v1"
   title: Cross-region Backup Management
-  description: "API related to Relational MONGODB Service"
+  description: API related to Relational MONGODB Service
 
 basePath: /regions/{regionId}
 
@@ -34,7 +34,7 @@ paths:
                 description: "Target Zone for Backup Synchronization"
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               result:
@@ -65,7 +65,7 @@ paths:
           description:
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               result:
@@ -88,7 +88,7 @@ paths:
       x-jdcloud-internal: true
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               result:
@@ -98,19 +98,19 @@ paths:
               requestId:
                 type: string
 
-# General Parameters for Path
+# Path General Parameters
 parameters:
   regionId:
     name: regionId
     in: path
     required: true
     type: string
-    description: "Region ID"
+    description: Region ID
   serviceId:
     name: serviceId
     in: path
     required: true
     type: string
-    description: "Service ID"
+    description: service ID
 
 

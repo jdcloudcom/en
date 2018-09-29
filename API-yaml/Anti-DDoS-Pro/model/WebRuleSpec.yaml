@@ -6,7 +6,7 @@ definitions:
     properties:
       domain:
         type: string
-        description: "Subdomain Name"
+        description: "Subdomain"
       protocol:
         type: string
         description: "Protocol: HTTP, HTTPS and HTTP_HTTPS"

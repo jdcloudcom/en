@@ -22,7 +22,7 @@ paths:
             $ref: "../model/GetSecurityTokenInfo.yaml#/definitions/getSecurityTokenInfo"
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             type: object
             properties:
@@ -49,7 +49,7 @@ paths:
             $ref: "../model/VerifySecurityTokenInfo.yaml#/definitions/verifySecurityTokenInfo"
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             type: object
             properties:
@@ -71,18 +71,18 @@ paths:
             $ref: "../model/VerificationCodeInfo.yaml#/definitions/verificationCodeInfo"
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             type: object
             properties:
               requestId:
                 type: string
 
-# Path General Parameter
+# Path General Parameters
 parameters:
   regionId:
     name: regionId
     in: path
     required: true
     type: string
-    description: "Region ID"
+    description: Region ID

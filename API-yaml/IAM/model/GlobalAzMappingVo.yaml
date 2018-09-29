@@ -13,4 +13,4 @@ definitions:
         type: array
         items:
           $ref: "./AzMappingVo.yaml#/definitions/azMappingVo"
-        description: "Az Mapping"
+        description: Az Mapping

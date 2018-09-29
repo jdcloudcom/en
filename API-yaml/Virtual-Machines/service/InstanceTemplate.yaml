@@ -35,7 +35,7 @@ paths:
           description: "Description of the Start Template, <a href='https://www.jdcloud.com/help/detail/3870/isCatalog/1'>Refer to the public parameter specification </a>."
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               result:
@@ -49,7 +49,7 @@ paths:
         401:
           description: "Authentication failed"
         404:
-          description: "Not Found  "
+          description: "Not found"
         429:
           description: "Quota exceeded"
         500:
@@ -84,7 +84,7 @@ paths:
             instanceTemplateId-Start template ID, exact match, multiple support
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               result:
@@ -102,7 +102,7 @@ paths:
         401:
           description: "Authentication failed"
         404:
-          description: "Not Found  "
+          description: "Not found"
         500:
           description: "Internal server error"
         503:
@@ -117,7 +117,7 @@ paths:
       x-jdcloud-internal: true
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             type: object
             properties:
@@ -130,7 +130,7 @@ paths:
         401:
           description: "Authentication failed"
         404:
-          description: "Not Found  "
+          description: "Not found"
         500:
           description: "Internal server error"
         503:
@@ -144,13 +144,13 @@ paths:
       x-jdcloud-internal: true
       responses:
         200:
-          description: "OK"
+          description: OK
         400:
           description: "Invalid parameter"
         401:
           description: "Authentication failed"
         404:
-          description: "Not Found  "
+          description: "Not found"
         500:
           description: "Internal server error"
         503:
@@ -173,13 +173,13 @@ paths:
           description: "Template name, <a href='https://www.jdcloud.com/help/detail/3870/isCatalog/1'>Refer to the public parameter specification</a>."
       responses:
         200:
-          description: "OK"
+          description: OK
         400:
           description: "Invalid parameter"
         401:
           description: "Authentication failed"
         404:
-          description: "Not Found  "
+          description: "Not found"
         500:
           description: "Internal server error"
         503:
@@ -195,13 +195,13 @@ paths:
       x-jdcloud-internal: true
       responses:
         200:
-          description: "OK"
+          description: OK
         400:
           description: "Invalid parameter"
         401:
           description: "Authentication failed"
         404:
-          description: "Not Found  "
+          description: "Not found"
         500:
           description: "Internal server error"
         503:

@@ -41,7 +41,7 @@ paths:
           required: false
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               result:
@@ -95,7 +95,7 @@ paths:
           required: false
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               result:
@@ -155,7 +155,7 @@ paths:
           required: false
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               result:
@@ -200,7 +200,7 @@ paths:
           required: false
       responses:
         200:
-          description: "OK"
+          description: OK
 
   /attacklog:cc/download:
     get:
@@ -226,7 +226,7 @@ paths:
           required: false
       responses:
         200:
-          description: "OK"
+          description: OK
 
   /attacklog:ccDetail/download:
     get:
@@ -257,7 +257,7 @@ paths:
           required: false
       responses:
         200:
-          description: "OK"
+          description: OK
 
   /attacklog/describeAttackStatistics:
     get:
@@ -288,7 +288,7 @@ paths:
           description: "Attack Type, 0 is DDos, and 1 is CC"
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               result:
@@ -330,7 +330,7 @@ paths:
           required: false
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               result:
@@ -339,11 +339,11 @@ paths:
                   $ref: "../model/AttackTypeCount.yaml#/definitions/AttackTypeCount"
               requestId:
                 type: string
-# General Parameters of Path
+# Path General Parameters
 parameters:
   regionId:
     name: regionId
     in: path
     required: true
     type: string
-    description: "Belonging Region ID"
+    description: "Region ID"

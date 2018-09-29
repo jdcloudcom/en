@@ -10,7 +10,7 @@ definitions:
         description: "For instance type code, see instance type code table"
       cpu:
         type: integer
-        description: "cpu"
+        description: cpu
       memoryMB:
         type: integer
         description: "Memory"

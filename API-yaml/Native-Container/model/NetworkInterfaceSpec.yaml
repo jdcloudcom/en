@@ -22,18 +22,18 @@ definitions:
         type: array
         items: 
           type: string
-        description: "SecondaryIp List"
+        description: "Secondary IP List"
       secondaryIpCount:
         type: integer     
-        description: "Amount of SecondaryIp Assigned Automatically"
+        description: "Amount of Secondary IP Assigned Automatically"
       securityGroups:
         type: array
         items:
           type: string
-        description: "Security Group ID List " 
+        description: "Security Group ID List" 
       sanityCheck:
         type: boolean    
-        description: "PortSecurity, with value 0 or 1 and default value 1"
-      description: 
+        description: "PortSecurity, the value is 0 or 1, 1 by default"
+      description:
         type: string   
-        description: "Description " 
+        description: "Description" 

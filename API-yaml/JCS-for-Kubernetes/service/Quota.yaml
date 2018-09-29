@@ -30,7 +30,7 @@ paths:
                 properties:
                   quotas:
                     type: array
-                    description: Quota List
+                    description: "Quota list"
                     items:
                       $ref: "../model/Quota.yaml#/definitions/quota"
               requestId:
@@ -54,7 +54,7 @@ paths:
         200:
           description: OK
 
-# Path General Parameter
+# Path General Parameters
 parameters:
   regionId:
     name: regionId

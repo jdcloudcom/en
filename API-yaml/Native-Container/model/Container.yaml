@@ -46,7 +46,7 @@ definitions:
         description: "Environment Variable for Execution by Dynamically-assigned Container " 
       image:
         type: string  
-        description: "Image Name " 
+        description: "Image Name" 
       secret:
         type: string  
         description: "Name Cited by Secret " 
@@ -81,7 +81,7 @@ definitions:
         description: "Elastic IP Associated to Primary IP of Primary Network Interface " 
       primaryNetworkInterface:
         $ref: "./InstanceNetworkInterfaceAttachment.yaml#/definitions/instanceNetworkInterfaceAttachment"
-        description: "Primary Network Interface Information " 
+        description: "Primary Network Interface Information" 
       secondaryNetworkInterfaces:
         type: array
         items:
@@ -100,5 +100,5 @@ definitions:
         type: string  
         description: "Container Termination Reason " 
       description:
-        type: string
-        description: "Container Description "
+        type: string  
+        description: "Container Description" 

@@ -14,7 +14,7 @@ paths:
       operationId: describeUserQuota
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               result:
@@ -42,13 +42,13 @@ paths:
           description: "Upper Limit of Account Quota"
       responses:
         200:
-          description: "OK"
+          description: OK
           schema:
             properties:
               requestId:
                 type: string
 
-# General Parameters for Path
+# Path General Parameters
 parameters:
   regionId:
     name: regionId
