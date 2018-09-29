@@ -1,37 +1,36 @@
 # modifyContainerAttribute
 
 
-## Description
+## 描述
 Modify the container name and description.
 
 
-## Request method
+## 请求方式
 PATCH
 
-## Request address
+## 请求地址
 https://nc.jdcloud-api.com/v1/regions/{regionId}/containers/{containerId}:modifyContainerAttribute
 
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**containerId**|String|True||Container ID|
-|**regionId**|String|True||Region ID|
+|**containerId**|String|True| |Container ID|
+|**regionId**|String|True| |Region ID|
 
-## Request parameter
-|Name|Type|Required or not|Default value|Description|
+## 请求参数
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**description**|String|False||Container description; the description must be specified|
-|**name**|String|False||Container Name|
+|**description**|String|False| |Container description; the description must be specified|
+|**name**|String|False| |Container Name|
 
 
-## Return parameter
-|Name|Type|Description|
+## 返回参数
+|名称|类型|描述|
 |---|---|---|
-|**requestId**|String||
+|**requestId**|String| |
 
 
-
-## Return code
-|Return code|Description|
+## 返回码
+|返回码|描述|
 |---|---|
 |**400**|Invalid parameter|
 |**401**|Authentication failed|

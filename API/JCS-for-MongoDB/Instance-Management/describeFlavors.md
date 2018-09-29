@@ -1,35 +1,34 @@
 # describeFlavors
 
 
-## Description
-Get Type
+## 描述
+Get type
 
-## Request method
+## 请求方式
 GET
 
-## Request address
+## 请求地址
 https://mongodb.jdcloud-api.com/v1/regions/{regionId}/flavors
 
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
+|**regionId**|String|True| |Region ID|
 
-## Request parameter
-None
+## 请求参数
+无
 
 
-## Return parameter
-|Name|Type|Description|
+## 返回参数
+|名称|类型|描述|
 |---|---|---|
-|**result**|Result||
-
+|**result**|Result| |
 
 ### Result
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
-|**flavors**|Flavor[]||
+|**flavors**|Flavor[]| |
 ### Flavor
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
 |**cpu**|Integer|Number of CPU Cores|
 |**diskStep**|Integer|Disk Step Size|
@@ -39,7 +38,7 @@ None
 |**memory**|Integer|Memory, Unit: GB|
 |**minDisk**|Integer|Minimum Number of Disks, Unit: GB|
 
-## Return code
-|Return code|Description|
+## 返回码
+|返回码|描述|
 |---|---|
 |**200**|OK|

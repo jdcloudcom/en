@@ -1,41 +1,40 @@
 # getPackageId
 
 
-## Description
+## 描述
 Query Crowd Package ID according to device ID
 
-## Request method
+## 请求方式
 GET
 
-## Request address
+## 请求地址
 https://datastar.cn-south-1.jdcloud-api.com/v1/regions/{regionId}/dmp/getPackageId
 
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
+|**regionId**|String|True| |Region ID|
 
-## Request parameter
-|Name|Type|Required or not|Default value|Description|
+## 请求参数
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**deviceIds**|String|True||MD5 (deviceId), multiple MD5 (deviceId) separated by English commas, note: MD5 result is in lowercase.|
+|**deviceIds**|String|True| |MD5 (deviceId), multiple MD5 (deviceId) separated by English commas. Note: MD5 result is in lowercase.|
 
 
-## Return parameter
-|Name|Type|Description|
+## 返回参数
+|名称|类型|描述|
 |---|---|---|
 |**requestId**|String|Request ID, requests are different at each time|
-|**result**|Result||
-
+|**result**|Result| |
 
 ### Result
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
 |**data**|String|Map<String,String>>, the serialized character string needs to be reconverted before use. Key is deviceId, value is crowd package Id|
 |**message**|String|Description Information|
-|**status**|Boolean|true is success, false is failure|
+|**status**|Boolean|True is success, false is failure|
 
-## Return code
-|Return code|Description|
+## 返回码
+|返回码|描述|
 |---|---|
 |**200**|OK|
 |**500**|Internal server error|

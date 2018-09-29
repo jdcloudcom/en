@@ -1,35 +1,33 @@
 # downloadCcAttackLogDetails
 
 
-## Description
+## 描述
 Download the CC attack log details
 
-## Request method
+## 请求方式
 GET
 
-## Request address
+## 请求地址
 https://ipanti.jdcloud-api.com/v1/regions/{regionId}/attacklog:ccDetail/download
 
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**regionId**|String|True||Belonging Region ID|
+|**regionId**|String|True| |Belonging Region ID|
 
-## Request parameter
-|Name|Type|Required or not|Default value|Description|
+## 请求参数
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**endTime**|String|True||Search end time, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ|
-|**instanceId**|String|True||Advanced Anti-DDoS instance ID|
-|**startTime**|String|True||Start time, only data within the latest 60 days can be downloaded, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ|
-|**subDomain**|String[]|False||Subdomain name|
+|**endTime**|String|True| |Search end time, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ|
+|**instanceId**|String|True| |Advanced Anti-DDoS Instance ID|
+|**startTime**|String|True| |Start time, only data within the latest 60 days can be downloaded, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ|
+|**subDomain**|String[]|False| |Subdomain Name|
 
 
-## Return parameter
-|Name|Type|Description|
-|---|---|---|
+## 返回参数
+无
 
 
-
-## Return code
-|Return code|Description|
+## 返回码
+|返回码|描述|
 |---|---|
 |**200**|OK|

@@ -1,43 +1,42 @@
 # describeProtectionStatistics
 
 
-## Description
+## 描述
 Query the Statistic Information of Advanced Anti-DDoS Instance Protection
 
-## Request method
+## 请求方式
 GET
 
-## Request address
+## 请求地址
 https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instance/describeProtectionStatistics
 
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**regionId**|String|True||Belonging Region ID|
+|**regionId**|String|True| |Belonging Region ID|
 
-## Request parameter
-None
+## 请求参数
+无
 
 
-## Return parameter
-|Name|Type|Description|
+## 返回参数
+|名称|类型|描述|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
-
+|**requestId**|String| |
+|**result**|Result| |
 
 ### Result
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
-|**data**|ProtectionStatistics||
+|**data**|ProtectionStatistics| |
 ### ProtectionStatistics
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
-|**instancesCount**|Integer|Instance Count|
+|**instancesCount**|Integer|Instance Counts|
 |**protectedCount**|Integer|Count of Protected Instances|
 |**protectedDay**|Integer|Days of Protection|
 
-## Return code
-|Return code|Description|
+## 返回码
+|返回码|描述|
 |---|---|
 |**200**|OK|
 |**404**|NOT_FOUND|

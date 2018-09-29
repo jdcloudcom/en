@@ -1,59 +1,58 @@
 # executeJob
 
 
-## Description
+## 描述
 Execute a specified job
 
-## Request method
+## 请求方式
 POST
 
-## Request address
+## 请求地址
 https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/job:execute
 
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
+|**regionId**|String|True| |Region ID|
 
-## Request parameter
-|Name|Type|Required or not|Default value|Description|
+## 请求参数
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**clusterId**|String|True||Cluster ID|
-|**jmrTaskViewModel**|JmrTaskViewModel|True||"Required parameters: jobId, planId, workflowId and workflowInstanceId"<br>|
+|**clusterId**|String|True| |Cluster ID|
+|**jmrTaskViewModel**|JmrTaskViewModel|True| |"Required parameters: jobId, planId, workflowId and workflowInstanceId"<br>|
 
 ### JmrTaskViewModel
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**dataCenter**|String|False||Data Center, i.e. regionId|
-|**duration**|String|False||Time of Duration|
-|**endTime**|String|False||End Time|
-|**id**|Integer|False|||
-|**jobId**|String|False|||
-|**planId**|String|False|||
-|**startTime**|String|False||Start Time|
-|**status**|String|False||Status|
-|**taskId**|String|False||Job ID|
-|**taskName**|String|False||Job Name|
-|**taskType**|String|False||Job Type|
-|**userpin**|String|False||User Name|
-|**workflowId**|String|False||Workflow Id|
-|**workflowInstanceId**|String|False||Workflow Instance ID|
+|**dataCenter**|String|False| |Data Center, i.e. regionId|
+|**duration**|String|False| |Time of Duration|
+|**endTime**|String|False| |End Time|
+|**id**|Integer|False| | |
+|**jobId**|String|False| | |
+|**planId**|String|False| | |
+|**startTime**|String|False| |Start Time|
+|**status**|String|False| |Status|
+|**taskId**|String|False| |Job ID|
+|**taskName**|String|False| |Job Name|
+|**taskType**|String|False| |Job Type|
+|**userpin**|String|False| |User Name|
+|**workflowId**|String|False| |Workflow Id|
+|**workflowInstanceId**|String|False| |Workflow Instance ID|
 
-## Return parameter
-|Name|Type|Description|
+## 返回参数
+|名称|类型|描述|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
-
+|**requestId**|String| |
+|**result**|Result| |
 
 ### Result
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
-|**data**|String||
-|**message**|String||
-|**status**|String||
+|**data**|String| |
+|**message**|String| |
+|**status**|String| |
 
-## Return code
-|Return code|Description|
+## 返回码
+|返回码|描述|
 |---|---|
 |**200**|OK|
 |**500**|Internal server error|

@@ -1,48 +1,47 @@
 # describeIpResourceProtectInfo
 
 
-## Description
+## 描述
 Search EIP protection details
 
-## Request method
+## 请求方式
 GET
 
-## Request address
+## 请求地址
 https://baseanti.jdcloud-api.com/v1/regions/{regionId}/ipResources/{ip}/protectInfo
 
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**ip**|String|True||EIP Address|
-|**regionId**|String|True||Belonging Region ID|
+|**ip**|String|True| |EIP Address|
+|**regionId**|String|True| |Belonging Region ID|
 
-## Request parameter
-|Name|Type|Required or not|Default value|Description|
+## 请求参数
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**limit**|Integer|False||Records of Limited Search|
-|**start**|Integer|False||Start range of limited search|
+|**limit**|Integer|False| |Records of Limited Search|
+|**start**|Integer|False| |Start range of limited search|
 
 
-## Return parameter
-|Name|Type|Description|
+## 返回参数
+|名称|类型|描述|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
-
+|**requestId**|String| |
+|**result**|Result| |
 
 ### Result
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
-|**dataList**|IpResourceProtectInfo[]||
+|**dataList**|IpResourceProtectInfo[]| |
 ### IpResourceProtectInfo
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
 |**cause**|Integer|Trigger Cause, 0->Unknown  1->Four-layer  2->Seven-layer  3->Four-layer and Seven-Layer|
 |**endTime**|String|End Time of Attack|
 |**startTime**|String|Start Time of Attack|
 |**status**|Integer|Status, 0->Completed  1->Clean  2->Black Hole|
 
-## Return code
-|Return code|Description|
+## 返回码
+|返回码|描述|
 |---|---|
 |**200**|OK|
 |**404**|NOT_FOUND|

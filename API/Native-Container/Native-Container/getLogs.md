@@ -1,43 +1,42 @@
 # getLogs
 
 
-## Description
+## 描述
 Search a container log
 
 
-## Request method
+## 请求方式
 GET
 
-## Request address
+## 请求地址
 https://nc.jdcloud-api.com/v1/regions/{regionId}/containers/{containerId}:getLogs
 
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**containerId**|String|True||Container ID|
-|**regionId**|String|True||Region ID|
+|**containerId**|String|True| |Container ID|
+|**regionId**|String|True| |Region ID|
 
-## Request parameter
-|Name|Type|Required or not|Default value|Description|
+## 请求参数
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**limitBytes**|Integer|False||Restrict byte number in returned log file within [1-4]KB, with 4KB at most.<br>|
-|**sinceSeconds**|Integer|False||Return logs in sinceSeconds relatively before current time.<br>|
-|**tailLines**|Integer|False||Return the tailLines in log file. If no tail line is specified, the log file will be read from the container starting time or the time specified by sinceSeconds by default.<br>|
+|**limitBytes**|Integer|False| |Restrict byte number in returned log file within [1-4]KB, with 4KB at most.<br>|
+|**sinceSeconds**|Integer|False| |Return logs in sinceSeconds relatively before current time.<br>|
+|**tailLines**|Integer|False| |Return the tailLines in log file. If no tail line is specified, the log file will be read from the container starting time or the time specified by sinceSeconds by default.<br>|
 
 
-## Return parameter
-|Name|Type|Description|
+## 返回参数
+|名称|类型|描述|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
-
+|**requestId**|String| |
+|**result**|Result| |
 
 ### Result
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
-|**logs**|Object||
+|**logs**|Object| |
 
-## Return code
-|Return code|Description|
+## 返回码
+|返回码|描述|
 |---|---|
 |**400**|Invalid parameter|
 |**401**|Authentication failed|

@@ -1,36 +1,35 @@
 # describeDeviceTypes
 
 
-## Description
-Query the Instance Type Family of Cloud Physical Server
+## 描述
+Query the instance type family of Cloud Physical Server
 
-## Request method
+## 请求方式
 GET
 
-## Request address
+## 请求地址
 https://cps.jdcloud-api.com/v1/regions/{regionId}/deviceTypes
 
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID, the Region and Availability Zone supported by the Cloud Physical Servers can be obtained by Calling APIs (describeRegions)|
+|**regionId**|String|True| |Region ID, the Region and Availability Zone Supported by the Cloud Physical Servers can be Called by Calling APIs (describeRegions)|
 
-## Request parameter
-None
+## 请求参数
+无
 
 
-## Return parameter
-|Name|Type|Description|
+## 返回参数
+|名称|类型|描述|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
-
+|**requestId**|String| |
+|**result**|Result| |
 
 ### Result
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
-|**deviceTypes**|DeviceType[]||
+|**deviceTypes**|DeviceType[]| |
 ### DeviceType
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
 |**cpuConcise**|String|CPU Summary Description|
 |**cpuDetail**|String|CPU Details|
@@ -50,8 +49,8 @@ None
 |**useTypeEN**|String|English Description of Image Type, such as Standard|
 |**useTypeZH**|String|Chinese Description of Image Type, such as 标准型|
 
-## Return code
-|Return code|Description|
+## 返回码
+|返回码|描述|
 |---|---|
 |**200**|OK|
 |**400**|Bad request|

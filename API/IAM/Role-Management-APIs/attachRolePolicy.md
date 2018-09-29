@@ -1,33 +1,32 @@
 # attachRolePolicy
 
 
-## Description
-Associate Policy for Role
+## 描述
+Associate policy for pole
 
-## Request method
+## 请求方式
 POST
 
-## Request address
+## 请求地址
 https://iam.jdcloud-api.com/v1/role/{roleName}/policy:attachRolePolicy
 
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**roleName**|String|True||Role Name|
+|**roleName**|String|True| |Role Name|
 
-## Request parameter
-|Name|Type|Required or not|Default value|Description|
+## 请求参数
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**policyJrn**|String|False||Policy jrn|
+|**policyJrn**|String|False| |Policy jrn|
 
 
-## Return parameter
-|Name|Type|Description|
+## 返回参数
+|名称|类型|描述|
 |---|---|---|
-|**requestId**|String||
+|**requestId**|String| |
 
 
-
-## Return code
-|Return code|Description|
+## 返回码
+|返回码|描述|
 |---|---|
 |**200**|OK|

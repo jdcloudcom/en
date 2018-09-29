@@ -1,50 +1,49 @@
 # updateAlarm
 
 
-## Description
+## 描述
 Modify alarm rules already created, support to modify alarm rules and notified contact information When the alarm rule is in the status of “Enabled” the alarm rule is allowed to be modified.
 
-## Request method
+## 请求方式
 PATCH
 
-## Request address
+## 请求地址
 https://monitor.jdcloud-api.com/v1/regions/{regionId}/alarms/{alarmId}
 
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**alarmId**|String|True||Rule ID|
-|**regionId**|String|True||Region ID|
+|**alarmId**|String|True| |Rule ID|
+|**regionId**|String|True| |Region ID|
 
-## Request parameter
-|Name|Type|Required or not|Default value|Description|
+## 请求参数
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**calculation**|String|True||Statistical method: average value=avg, maximum value=max, minimum value=min, summation=sum|
-|**contactGroups**|String[]|False||Notify contact group, for example [“contact group 1”, “contact group 2”]|
-|**contactPersons**|String[]|False||Notify contact, for example“[‘contact 1’, ‘contact 2’]”|
-|**downSample**|String|False||Sampling Frequency|
-|**metric**|String|True||Query Metric field returned by list API of available monitoring item based on the product line|
-|**noticePeriod**|Integer|False||Notification Period Unit: Hour|
-|**operation**|String|True||'>=、>、<、<=、==、!='|
-|**period**|Integer|True||Statistical Period (Unit: Minute), optional value: 2, 5, 15, 30, 60|
-|**serviceCode**|String|True||Product Name|
-|**threshold**|Number|True||Threshold|
-|**times**|Integer|True||Alarm after how many times, optional value: 1, 2, 3, 5|
+|**calculation**|String|True| |Statistical method: average value=avg, maximum value=max, minimum value=min, summation=sum|
+|**contactGroups**|String[]|False| |Notify contact group, for example [“contact group 1”, “contact group 2”]|
+|**contactPersons**|String[]|False| |Notify contact, for example“[‘contact 1’, ‘contact 2’]”|
+|**downSample**|String|False| |Sampling Frequency|
+|**metric**|String|True| |Query Metric field returned by list API of available monitoring item based on the product line|
+|**noticePeriod**|Integer|False| |Notification Period Unit: Hour|
+|**operation**|String|True| |>=, >, <, <=, ==, !=|
+|**period**|Integer|True| |Statistical Period (Unit: Minute), optional value: 2, 5, 15, 30, 60|
+|**serviceCode**|String|True| |Product Name|
+|**threshold**|Number|True| |Threshold|
+|**times**|Integer|True| |Alarm after how many times, optional value: 1, 2, 3, 5|
 
 
-## Return parameter
-|Name|Type|Description|
+## 返回参数
+|名称|类型|描述|
 |---|---|---|
 |**requestId**|String|Request ID|
-|**result**|Result||
-
+|**result**|Result| |
 
 ### Result
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
 |**alarmId**|String|Rule ID|
 
-## Return code
-|Return code|Description|
+## 返回码
+|返回码|描述|
 |---|---|
 |**200**|OK|
 |**400**|invalid parameter|

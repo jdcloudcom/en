@@ -1,40 +1,38 @@
 # deleteInstance
 
 
-## Description
-Delete a single virtual machine that is paid by configuration,  or expires in a monthly package. You cannot delete a virtual machine without billing information. <br>
-The virtual machine status must be <b>running<b>,  <b>stopped<b>,  <b>error<b>,  and the virtual machine is not in progress to delete. <br>
+## 描述
+Delete a single virtual machine that is paid by configuration, or expires in a monthly package. You cannot delete a virtual machine without billing information. <br>
+The virtual machine status must be </b>running</b>, </b>stopped<b>, <b>error<b>, and the virtual machine is not in progress to delete. <br>
 The virtual machine that has not expired in monthly package cannot be deleted. The white list user cannot delete the virtual machine that has expired in monthly package. <br>
 If the data disk attached in the machine is the cloud disk billed by instance type and is not a shared Cloud Disk Service, and the AutoDelete property is true, then the data disk is deleted along with the machine.
-</br>Sensitive operation, enable<a href="https://docs.jdcloud.com/IAM/Operation-Protection">MFA operation protection</a>
+</br>敏感操作，可开启<a href="https://docs.jdcloud.com/IAM/Operation-Protection">MFA操作保护</a>
 
-## Request method
+## 请求方式
 DELETE
 
-## Request address
-https://vm.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}
+## 请求地址
+https://vm.jdcloud-api.com/1.0.3/regions/{regionId}/instances/{instanceId}
 
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**instanceId**|String|True||VM ID|
-|**regionId**|String|True||Region ID|
+|**instanceId**|String|True| |VM ID|
+|**regionId**|String|True| |Region ID|
 
-## Request parameter
-None
-
-
-## Return parameter
-|Name|Type|Description|
-|---|---|---|
+## 请求参数
+无
 
 
+## 返回参数
+无
 
-## Return code
-|Return code|Description|
+
+## 返回码
+|返回码|描述|
 |---|---|
 |**400**|Invalid parameter|
 |**401**|Authentication failed|
-|**404**|Not found  |
+|**404**|Not Found  |
 |**503**|Service unavailable|
 |**200**|OK|
 |**500**|Internal server error|

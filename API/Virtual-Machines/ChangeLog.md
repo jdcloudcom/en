@@ -11,7 +11,7 @@ API Version 1.0. 3
 | 2018-07-11 | 0.7. 5 | Add API | * Add batch query VM status API <br> * Add batch query image limit API |
 | 2018-04-08 | 0.7. 4 | Document Supplementary | *Modify some required attributes |
 | 2018-04-08 | 0.7. 2 | API change | * Instance type list API change, add AZ selling status |
-| 2018-04-08 | 0.7. 1 | API change | * Add variable API <br> * Add rebuild  API <br> * Query the machine list to add Tag filtering conditions |
+| 2018-04-08 | 0.7. 1 | API change | * Add variable API <br> * Add rebuild API <br> * Query the machine list to add Tag filtering conditions |
 | 2018-04-08 | 0.6. 1 | Document improvement | * Improve document description, supplement description of unclear logic
 | 2018-04-08 | 0.5. 0 | API change | * The deviceName is modified to a required parameter when the machine attaches Cloud Disk Service
 | 2018-04-03 | 0.4. 0 | API change | * Query Quota Add Type (template) <br> * Modify Quota Add Type (Template)

@@ -1,42 +1,41 @@
 # modifyInstance
 
 
-## Description
-Modify Par of the Information of Cloud Physical Server, Including Name, Description
+## 描述
+Modify some information of Cloud Physical Server, including name, description
 
-## Request method
+## 请求方式
 POST
 
-## Request address
+## 请求地址
 https://cps.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:modifyInstance
 
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**instanceId**|String|True||Cloud Physical Server ID|
-|**regionId**|String|True||Region ID, the Region and Availability Zone supported by the Cloud Physical Servers can be obtained by calling APIs (describeRegions)|
+|**instanceId**|String|True| |Cloud Physical Server ID|
+|**regionId**|String|True| |Region ID, the Region and Availability Zone Supported by the Cloud Physical Servers can be Called by Calling APIs (describeRegions)|
 
-## Request parameter
-|Name|Type|Required or not|Default value|Description|
+## 请求参数
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**description**|String|False||Description of Cloud Physical Server|
-|**name**|String|False||Name of Cloud Physical Server|
+|**description**|String|False| |Description of Cloud Physical Server|
+|**name**|String|False| |Name of Cloud Physical Server|
 
 
-## Return parameter
-|Name|Type|Description|
+## 返回参数
+|名称|类型|描述|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
-
+|**requestId**|String| |
+|**result**|Result| |
 
 ### Result
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
 |**description**|String|Description of Cloud Physical Server|
 |**name**|String|Name of Cloud Physical Server|
 
-## Return code
-|Return code|Description|
+## 返回码
+|返回码|描述|
 |---|---|
 |**200**|OK|
 |**400**|Bad request|

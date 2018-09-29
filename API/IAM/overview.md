@@ -1,36 +1,36 @@
 # IAM API
 
 
-## Introduction
+## 简介
 IAM APIs
 
 
-### Version
+### 版本
 v1
 
 
 ## API
-|Interface name|Request mehod|Function description|
+|接口名称|请求方式|功能描述|
 |---|---|---|
-|**addPermissionsToSubUser**|POST|Associate Policies for Sub\-users|
-|**attachRolePolicy**|POST|Associate Policy for Role|
-|**createPermission**|POST|Create Policy|
-|**createRole**|POST|Create Role|
-|**createSubuser**|POST|Create Sub\-accounts|
+|**addPermissionsToSubUser**|POST|Associate policies for sub\-users|
+|**attachRolePolicy**|POST|Associate policy for pole|
+|**createPermission**|POST|Create policy|
+|**createRole**|POST|Create role|
+|**createSubuser**|POST|Create sub\-accounts|
 |**createUserAccessKey**|POST|Create AccessKey|
-|**deleteRole**|DELETE|Delete Role|
+|**deleteRole**|DELETE|Delete role|
 |**deleteUserAccessKey**|DELETE|Delete AccessKey|
-|**describePermissionDetail**|GET|Search Policy Details|
-|**describePermissions**|GET|Search Policy List|
-|**describeRole**|GET|Query Role Details|
+|**describePermissionDetail**|GET|Search policy details|
+|**describePermissions**|GET|Search policy list|
+|**describeRole**|GET|Query role details|
 |**describeRolePolicies**|GET|Query Role Authorization Policy List|
-|**describeRoles**|GET|Query Role List|
-|**describeSubUserPermissions**|GET|Search Sub\-user’s Policy List|
+|**describeRoles**|GET|Query role list|
+|**describeSubUserPermissions**|GET|Search sub\-user’s policy list|
 |**describeUserAccessKeys**|GET|Search AccessKey list|
-|**detachRolePolicy**|POST|Associate Policy for Role|
+|**detachRolePolicy**|POST|Associate policy for pole|
 |**disabledUserAccessKey**|PUT|Disable AccessKey|
 |**enabledUserAccessKey**|PUT|Enable AccessKey|
-|**removePermissionOfSubUser**|DELETE|Disassociate Policies for Sub\-users|
-|**updateAssumeRolePolicy**|PUT|Modify Role Built\-in Policy|
-|**updatePermission**|PUT|Modify Policy|
-|**updateRole**|PUT|Modify Basic Information of Role|
+|**removePermissionOfSubUser**|DELETE|Disassociate policies for sub\-users|
+|**updateAssumeRolePolicy**|PUT|Modify role built\-in policy|
+|**updatePermission**|PUT|Modify policy|
+|**updateRole**|PUT|Modify basic information of the role|

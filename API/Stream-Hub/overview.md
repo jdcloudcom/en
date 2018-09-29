@@ -1,16 +1,16 @@
 # JD Cloud Stream Hub API
 
 
-## Introduction
+## 简介
 Provide related APIs for Stream Hub topic.
 
 
-### Version
+### 版本
 v1
 
 
 ## API
-|Interface name|Request mehod|Function description|
+|接口名称|请求方式|功能描述|
 |---|---|---|
 |**addTopic**|POST|When creating topic, only the topic parameter in the topicModel needs to be transmitted, and the other two parameters can be blank|
 |**createConsumerGroup**|POST|Create consumerGroupName|

@@ -1,37 +1,36 @@
 # describeNetworkInterface
 
 
-## Description
-Query Elastic Network Interface Information Details
+## 描述
+Query elastic network interface information details
 
-## Request method
+## 请求方式
 GET
 
-## Request address
+## 请求地址
 https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkInterfaces/{networkInterfaceId}
 
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**networkInterfaceId**|String|True||networkInterface ID|
-|**regionId**|String|True||Region ID|
+|**networkInterfaceId**|String|True| |networkInterface ID|
+|**regionId**|String|True| |Region ID|
 
-## Request parameter
-None
+## 请求参数
+无
 
 
-## Return parameter
-|Name|Type|Description|
+## 返回参数
+|名称|类型|描述|
 |---|---|---|
 |**requestId**|String|Request ID|
 |**result**|Result|Returned Results|
 
-
 ### Result
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
 |**networkInterface**|NetworkInterface|networkInterface Resource Information|
 ### NetworkInterface
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
 |**az**|String|Availability Zone Name|
 |**createdTime**|String|Creation Time of Elastic Network Interface|
@@ -51,14 +50,14 @@ None
 |**subnetId**|String|Subnet ID|
 |**vpcId**|String|Virtual Network ID|
 ### NetworkInterfacePrivateIp
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
 |**elasticIpAddress**|String|Elastic IP Instance Address|
 |**elasticIpId**|String|Elastic IP Instance ID|
 |**privateIpAddress**|String|IPV4 Address of Private IP|
 
-## Return code
-|Return code|Description|
+## 返回码
+|返回码|描述|
 |---|---|
 |**200**|OK|
 |**400**|invalid parameter|

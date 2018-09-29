@@ -1,42 +1,41 @@
 # describePermissions
 
 
-## Description
-Search Policy List
+## 描述
+Search policy list
 
-## Request method
+## 请求方式
 GET
 
-## Request address
+## 请求地址
 https://iam.jdcloud-api.com/v1/regions/{regionId}/permissions
 
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
+|**regionId**|String|True| |Region ID|
 
-## Request parameter
-|Name|Type|Required or not|Default value|Description|
+## 请求参数
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**keyword**|String|False||Keyword|
-|**pageNumber**|Integer|True||Page|
-|**pageSize**|Integer|True||Number Displayed Per Page|
-|**queryType**|Integer|True||Permission Type, 0-All, 1- System Permission, 2-Customized Permission|
+|**keyword**|String|False| |Keyword|
+|**pageNumber**|Integer|True| |Page|
+|**pageSize**|Integer|True| |Number of Roles Displayed on Each Page|
+|**queryType**|Integer|True| |Permission Type, 0-All, 1- System Permission, 2-Customized Permission|
 
 
-## Return parameter
-|Name|Type|Description|
+## 返回参数
+|名称|类型|描述|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
-
+|**requestId**|String| |
+|**result**|Result| |
 
 ### Result
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
 |**permissions**|Permission[]|Authority List Information|
-|**total**|Integer|Total Amount|
+|**total**|Integer|Total Number|
 ### Permission
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
 |**account**|String|Primary Account Pin|
 |**content**|String|Permission Content|
@@ -47,17 +46,17 @@ https://iam.jdcloud-api.com/v1/regions/{regionId}/permissions
 |**permissionType**|String|Permission Type|
 |**version**|String|Permission Version Number|
 ### PermissionDetail
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
 |**permission**|String|Permission Type: Read-only-R, Delete-D, Modification-M|
 |**resource**|Resource[]|Resource Information|
 ### Resource
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
 |**ids**|String[]|Resource id Set, transmission * means that it is valid for all ids|
 |**type**|String|Resource Type, Virtual Machine-server, Image-image, Cloud Disk-volume, vpc-vpc, Public Ip-floatingIP, Load Balancer-loadbalance, Cloud Database (mysql)-database, Cloud Cache-cache|
 
-## Return code
-|Return code|Description|
+## 返回码
+|返回码|描述|
 |---|---|
 |**200**|OK|

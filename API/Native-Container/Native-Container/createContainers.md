@@ -1,7 +1,7 @@
 # createContainers
 
 
-## Description
+## 描述
 Create configuration containers for one or more sets
 - Real-name verification is required for creating containers
 - Image
@@ -57,130 +57,129 @@ Create configuration containers for one or more sets
     - maxCount refers to the maximum effort and the maxCount is not guaranteed.
 
 
-## Request method
+## 请求方式
 POST
 
-## Request address
+## 请求地址
 https://nc.jdcloud-api.com/v1/regions/{regionId}/containers
 
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
+|**regionId**|String|True| |Region ID|
 
-## Request parameter
-|Name|Type|Required or not|Default value|Description|
+## 请求参数
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**containerSpec**|ContainerSpec|False||Create container specification|
-|**maxCount**|Integer|False||Purchase number of instances; value range: [1,100]|
+|**containerSpec**|ContainerSpec|False| |Create container specification|
+|**maxCount**|Integer|False| |Purchase number of instances; value range: [1,100]|
 
 ### ContainerSpec
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**args**|String[]|False||The container will carry out the parameter of the command. It is CMD of docker image by default if none is specified. |
-|**az**|String|True||Availability Zone of Container |
-|**charge**|ChargeSpec|False||Billing configuration; if no specification is made, the billing type is Pay-As-You-Go - Pay as the service time by default |
-|**command**|String[]|False||The container will carry out the command. It is ENTRYPOINT of docker image by default if none is specified. |
-|**dataVolumes**|VolumeMountSpec[]|False||Mounted Data Volume Information; at most 7 |
-|**description**|String|False||Container Description|
-|**elasticIp**|ElasticIpSpec|False||Elastic IP Specification Related to Primary IP of Primary Network Interface |
-|**envs**|EnvVar[]|False||Environment variables executed by containers; if the environmental variable Key is the same in the image, values in the image will be replaced; </br> 10 pairs at most |
-|**hostAliases**|HostAlias[]|False||Domain and IP Mapping Information; </br> at most 10 alias |
-|**hostname**|String|False||For machine name and specification, please refer to the instruction document; default container ID |
-|**image**|String|False||Image name </br> 1. Docker Hub public image is specified via names as nginx, mysql/mysql-server </br> </br> repository contains at most 256 characters, tag contains at most 128 characters, and registry contains as most 255 characters </br> the image download overtime is 10min|
-|**instanceType**|String|True||Instance Type Family; Refer to [Document](https://www.jdcloud.com/help/detail/1992/isCatalog/1)|
-|**logConfiguration**|LogConfiguration|False||Container log configuration information; 10MB storage space will be assigned to the local by default |
-|**name**|String|True||Container Name|
-|**primaryNetworkInterface**|ContainerNetworkInterfaceAttachmentSpec|True||Primary Network Interface Configuration Information |
-|**rootVolume**|VolumeMountSpec|True||Root Volume Information |
-|**secret**|String|False||Name cited by secrete; secret is not required when using images of Docker Hub and JD Cloud CR |
-|**tty**|Boolean|False||If a container is assigned with tty. It is not assigned by default |
-|**workingDir**|String|False||Container’s Working Catalog. If not specified, it is root catalog (/) by default; and the working catalog must be the absolute path. |
+|**args**|String[]|False| |The container will carry out the parameter of the command. It is CMD of docker image by default if none is specified. |
+|**az**|String|True| |Availability Zone of Container |
+|**charge**|ChargeSpec|False| |Billing configuration; if no specification is made, the billing type is Pay-As-You-Go - Pay as the service time by default|
+|**command**|String[]|False| |The container will carry out the command. It is ENTRYPOINT of docker image by default if none is specified. |
+|**dataVolumes**|VolumeMountSpec[]|False| |Mounted Data Volume Information; at most 7 |
+|**description**|String|False| |Container Description|
+|**elasticIp**|ElasticIpSpec|False| |Elastic IP Specification Related to Primary IP of Primary Network Interface |
+|**envs**|EnvVar[]|False| |Environment variables executed by containers; if the environmental variable Key is the same in the image, values in the image will be replaced; </br> 10 pairs at most |
+|**hostAliases**|HostAlias[]|False| |Domain and IP Mapping Information; </br> at most 10 alias |
+|**hostname**|String|False| |For machine name and specification, please refer to the instruction document; default container ID |
+|**image**|String|False| |Image name </br> 1. Docker Hub public image is specified via names as nginx, mysql/mysql-server </br> </br> repository contains at most 256 characters, tag contains at most 128 characters, and registry contains as most 255 characters </br> the image download overtime is 10min|
+|**instanceType**|String|True| |Instance Type Family; Refer to [Document](https://www.jdcloud.com/help/detail/1992/isCatalog/1)|
+|**logConfiguration**|LogConfiguration|False| |Container log configuration information; 10MB storage space will be assigned to the local by default|
+|**name**|String|True| |Container Name|
+|**primaryNetworkInterface**|ContainerNetworkInterfaceAttachmentSpec|True| |Primary Network Interface Configuration Information |
+|**rootVolume**|VolumeMountSpec|True| |Root Volume Information |
+|**secret**|String|False| |Name cited by secrete; secret is not required when using images of Docker Hub and JD Cloud CR |
+|**tty**|Boolean|False| |If a container is assigned with tty. It is not assigned by default|
+|**workingDir**|String|False| |Container’s Working Catalog. If not specified, it is root catalog (/) by default; and the working catalog must be the absolute path. |
 ### ChargeSpec
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**chargeDuration**|Integer|False||Pay-In-Advance billing duration, the Pay-In-Advance is compulsory and valid only when the value of chargeMode is prepaid_by_duration. When chargeUnit is month, the value shall be 1~9; when chargeUnit is year, the value shall be 1, 2 or 3|
+|**chargeDuration**|Integer|False| |Pay-In-Advance billing duration, the Pay-In-Advance is compulsory and valid only when the value of chargeMode is prepaid_by_duration. When chargeUnit is month, the value shall be 1~9; when chargeUnit is year, the value shall be 1, 2 or 3|
 |**chargeMode**|String|False|postpaid_by_duration|Billing model value is prepaid_by_duration, postpaid_by_usage or postpaid_by_duration; prepaid_by_duration means Pay-In-Advance, postpaid_by_usage means Pay-As-You-Go By Consumption and postpaid_by_duration means pay by configuration; is postpaid_by_duration by default. Please refer to the Help Documentation of specific product line to confirm the billing type supported by the production line|
-|**chargeUnit**|String|False||Billing unit of Pay-In-Advance, the Pay-In-Advance is compulsory, and valid only when chargeMode is prepaid_by_duration, and the value is month or year and month by default|
+|**chargeUnit**|String|False| |Billing unit of Pay-In-Advance, the Pay-In-Advance is compulsory, and valid only when chargeMode is prepaid_by_duration, and the value is month or year and month by default|
 ### VolumeMountSpec
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**autoDelete**|Boolean|False||Automatic deletion, the volume is automatically deleted at the time the container is deleted; the value is True by default; and only the scenario of Cloud Disk Service is supported.|
-|**category**|String|True||Disk Classification Cloud: According to Cloud Disk Service volume, root volume can only be the cloud type. |
-|**cloudDiskId**|String|False||Cloud Disk Service ID; if the existing cloud disk is used, be sure to specify partion and fsType. |
-|**cloudDiskSpec**|DiskSpec|False||Cloud Disk Service specification; the Cloud Disk Service automatically created with the container will not divide the disk and will only format the file system. |
-|**formatVolume**|Boolean|False||A new disk automatically created with the container will be automatically formatted to the specified file system type; the existing disk mounted will not be formatted by default and only will be mounted as per specified fsType; and if you intend to format the mounted disk, be sure to set the field as true. |
-|**fsType**|String|False||Specify volume file system type and support [xfs, ext4] now; if the file system type is not specified for the newly-created disk, such disk will be formatted to xfs by default. |
-|**mountPath**|String|False||Catalog mounted into the container; it is not required to specify catalog for the root volume and the mounted catalog is (/); a catalog must be specified for the data volume, which must be the absolute path without any (:). |
-|**readOnly**|Boolean|False||Read-only, false by default; only valid to data volume; when root volume is false, both write and read are available. |
+|**autoDelete**|Boolean|False| |Automatic deletion, the volume is automatically deleted at the time the container is deleted; the value is True by default; and only the scenario of Cloud Disk Service is supported.|
+|**category**|String|True| |Disk Classification Cloud: According to Cloud Disk Service volume, root volume can only be the cloud type. |
+|**cloudDiskId**|String|False| |Cloud Disk Service ID; if the existing cloud disk is used, be sure to specify partion and fsType. |
+|**cloudDiskSpec**|DiskSpec|False| |Cloud Disk Service specification; the Cloud Disk Service automatically created with the container will not divide the disk and will only format the file system. |
+|**formatVolume**|Boolean|False| |A new disk automatically created with the container will be automatically formatted to the specified file system type; the existing disk mounted will not be formatted by default and only will be mounted as per specified fsType; and if you intend to format the mounted disk, be sure to set the field as true. |
+|**fsType**|String|False| |Specify volume file system type and support [xfs, ext4] now; if the file system type is not specified for the newly-created disk, such disk will be formatted to xfs by default. |
+|**mountPath**|String|False| |Catalog mounted into the container; it is not required to specify catalog for the root volume and the mounted catalog is (/); a catalog must be specified for the data volume, which must be the absolute path without any (:). |
+|**readOnly**|Boolean|False| |Read-only, false by default; only valid to data volume; when root volume is false, both write and read are available. |
 ### DiskSpec
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**az**|String|True||Availability Zone, to which the Cloud Disk belongs|
-|**charge**|ChargeSpec|False||Billing configuration. If not specified, the default billing type is pay-as-you-go - pay by service time by default.|
-|**description**|String|False||Description of the Cloud Disk|
-|**diskSizeGB**|Integer|True||Size of the Cloud Disk, in GiB; ssd value range of [20,1000]GB and step size of 10G; premium-hdd value range of [20,3000]GB and step size of 10G|
-|**diskType**|String|True||Type of the Cloud Disk, value ssd or premium-hdd|
-|**multiAttachable**|Boolean|False||Whether the Cloud Disk service supports the mode that one disk is attached to multiple machines. It is set as false by default (not supported).|
-|**name**|String|True||Name of the Cloud Disk|
-|**snapshotId**|String|False||Snapshot ID used to create the Cloud Disk|
+|**az**|String|True| |Availability Zone, to which the cloud disk belongs|
+|**charge**|ChargeSpec|False| |Billing configuration. If not specified, the default billing type is pay-as-you-go - pay by service time by default.|
+|**description**|String|False| |Description of the cloud disk|
+|**diskSizeGB**|Integer|True| |Size of the cloud disk, unit: GiB; ssd value range of [20,1000]GB and step size of 10G; premium-hdd value range of [20,3000]GB and step size of 10G|
+|**diskType**|String|True| |Type of the cloud disk, value ssd or premium-hdd|
+|**multiAttachable**|Boolean|False| |Whether the Cloud Disk Service supports the mode that one disk is attached to multiple machines. It is set as false by default (not supported).|
+|**name**|String|True| |Name of the cloud disk|
+|**snapshotId**|String|False| |Snapshot ID used to create a cloud disk|
 ### ElasticIpSpec
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**bandwidthMbps**|Integer|False||Elastic IP Speed Limit   Unit: MB  |
-|**chargeSpec**|ChargeSpec|False||Billing Configuration |
-|**provider**|String|False||IP Service Provider, value: bgp or no_bg    |
+|**bandwidthMbps**|Integer|False| |Elastic IP Speed Limit   Unit: MB  |
+|**chargeSpec**|ChargeSpec|False| |Billing Configuration |
+|**provider**|String|False| |IP Service Provider, value: bgp or no_bg    |
 ### EnvVar
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**name**|String|True||Environment Variable Name|
-|**value**|String|False||Value of Environment Variable|
+|**name**|String|True| |Environment Variable Name|
+|**value**|String|False| |Value of Environment Variable|
 ### HostAlias
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**hostnames**|String[]|True||Domain List|
-|**ip**|String|True||IP Address|
+|**hostnames**|String[]|True| |Domain List|
+|**ip**|String|True| |IP Address|
 ### LogConfiguration
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**logDriver**|String|False||Name log configuration information; a 10MB storage space will be assigned to the local by default and is automatically rotated.|
-|**options**|LogOption|False||Configuration Options of Log Driver|
+|**logDriver**|String|False| |Name log configuration information; a 10MB storage space will be assigned to the local by default and is automatically rotated.|
+|**options**|LogOption|False| |Configuration Options of Log Driver|
 ### LogOption
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**key**|String|False|||
-|**value**|String|False|||
+|**key**|String|False| | |
+|**value**|String|False| | |
 ### ContainerNetworkInterfaceAttachmentSpec
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**autoDelete**|Boolean|False||Indicate if the network interface is deleted when deleting the container, it is True by default; only True is supported now|
-|**deviceIndex**|Integer|False||Device Index|
-|**networkInterface**|NetworkInterfaceSpec|True||Network Interface Specification|
+|**autoDelete**|Boolean|False| |Indicate if the network interface is deleted when deleting the container, it is True by default; only True is supported now|
+|**deviceIndex**|Integer|False| |Device Index|
+|**networkInterface**|NetworkInterfaceSpec|True| |Network Interface Specification|
 ### NetworkInterfaceSpec
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**az**|String|True||Availability Zone, User’s Default Availability Zone|
-|**description**|String|False||Description |
-|**primaryIpAddress**|String|False||Primary IP of Network Interface|
-|**sanityCheck**|Boolean|False||PortSecurity, with value 0 or 1 and default value 1|
-|**secondaryIpAddresses**|String[]|False||SecondaryIp List|
-|**secondaryIpCount**|Integer|False||Amount of SecondaryIp Assigned Automatically|
-|**securityGroups**|String[]|False||Security Group ID List |
-|**subnetId**|String|True||Subnet ID|
+|**az**|String|True| |Availability Zone, User’s Default Availability Zone|
+|**description**|String|False| |Description |
+|**primaryIpAddress**|String|False| |Primary IP of Network Interface|
+|**sanityCheck**|Boolean|False| |PortSecurity, with value 0 or 1 and default value 1|
+|**secondaryIpAddresses**|String[]|False| |SecondaryIp List|
+|**secondaryIpCount**|Integer|False| |Amount of SecondaryIp Assigned Automatically|
+|**securityGroups**|String[]|False| |Security Group ID List |
+|**subnetId**|String|True| |Subnet ID|
 
-## Return parameter
-|Name|Type|Description|
+## 返回参数
+|名称|类型|描述|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
-
+|**requestId**|String| |
+|**result**|Result| |
 
 ### Result
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
-|**containerIds**|String[]||
+|**containerIds**|String[]| |
 
-## Return code
-|Return code|Description|
+## 返回码
+|返回码|描述|
 |---|---|
 |**400**|Invalid parameter|
 |**401**|Authentication failed|

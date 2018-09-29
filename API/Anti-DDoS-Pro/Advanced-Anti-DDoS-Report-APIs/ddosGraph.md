@@ -1,43 +1,42 @@
 # ddosGraph
 
 
-## Description
-ddos protection report
+## 描述
+DDos Protection Report
 
-## Request method
+## 请求方式
 GET
 
-## Request address
+## 请求地址
 https://ipanti.jdcloud-api.com/v1/regions/{regionId}/charts:ddosGraph
 
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**regionId**|String|True||Belonging Region ID|
+|**regionId**|String|True| |Belonging Region ID|
 
-## Request parameter
-|Name|Type|Required or not|Default value|Description|
+## 请求参数
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**endTime**|String|True||Search end time, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ|
-|**instanceId**|String[]|False||Advanced Anti-DDoS instance ID, 0 or more can be transferred|
-|**startTime**|String|True||Start time, up to the latest 30 days, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ|
+|**endTime**|String|True| |Search end time, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ|
+|**instanceId**|String[]|False| |Advanced Anti-DDoS Instance ID, 0 or more can be transferred|
+|**startTime**|String|True| |Start time, up to the latest 30 days, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ|
 
 
-## Return parameter
-|Name|Type|Description|
+## 返回参数
+|名称|类型|描述|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
-
+|**requestId**|String| |
+|**result**|Result| |
 
 ### Result
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
-|**postProtect**|Number[]||
-|**preProtect**|Number[]||
-|**time**|Integer[]||
-|**unit**|String|Unit|
+|**postProtect**|Number[]| |
+|**preProtect**|Number[]| |
+|**time**|Integer[]| |
+|**unit**|String|Traffic Unit|
 
-## Return code
-|Return code|Description|
+## 返回码
+|返回码|描述|
 |---|---|
 |**200**|OK|

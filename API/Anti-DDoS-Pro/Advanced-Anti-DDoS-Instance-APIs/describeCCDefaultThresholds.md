@@ -1,43 +1,42 @@
 # describeCCDefaultThresholds
 
 
-## Description
+## 描述
 Query the CC Customized Default Threshold
 
-## Request method
+## 请求方式
 GET
 
-## Request address
+## 请求地址
 https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instance/describeCCDefaultThresholds
 
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**regionId**|String|True||Belonging Region ID|
+|**regionId**|String|True| |Belonging Region ID|
 
-## Request parameter
-None
+## 请求参数
+无
 
 
-## Return parameter
-|Name|Type|Description|
+## 返回参数
+|名称|类型|描述|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
-
+|**requestId**|String| |
+|**result**|Result| |
 
 ### Result
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
-|**data**|CCDefaultThresholds||
+|**data**|CCDefaultThresholds| |
 ### CCDefaultThresholds
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
 |**hostQps**|Integer|Protection Threshold for Each Host|
 |**hostUrlQps**|Integer|Protection Threshold for Each Host + URL|
 |**ipHostQps**|Integer|Protection Threshold for Host of Each Source IP|
 |**ipHostUrlQps**|Integer|Protection Threshold for Host + URL of Each Source IP|
 
-## Return code
-|Return code|Description|
+## 返回码
+|返回码|描述|
 |---|---|
 |**200**|OK|

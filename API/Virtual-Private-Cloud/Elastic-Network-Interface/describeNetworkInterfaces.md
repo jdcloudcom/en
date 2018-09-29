@@ -1,47 +1,46 @@
 # describeNetworkInterfaces
 
 
-## Description
-Query Elastic Network Interface List
+## 描述
+Query elastic network interface list
 
-## Request method
+## 请求方式
 GET
 
-## Request address
+## 请求地址
 https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkInterfaces/
 
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
+|**regionId**|String|True| |Region ID|
 
-## Request parameter
-|Name|Type|Required or not|Default value|Description|
+## 请求参数
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**filters**|Filter[]|False||networkInterfaceIds - Elastic Network Interface ID List, Support Multiple IDs<br>networkInterfaceNames - Elastic Network Interface Name List, Support Multiple Names<br>VPCId - VPC ID of Elastic Network Interface, Support Single ID<br>subnetId	- subnet Id of Elastic Network Interface, support single Id<br>role - Network Interface Role. Value Range: Primary (primary network interface), Secondary (secondary network interface), support single role<br>|
-|**pageNumber**|Integer|False|1|Page; it is 1 by default. Value Range: [1,∞); when the pages exceed total pages, show the last page|
-|**pageSize**|Integer|False|20|Paging size; it is 20 by default. Value Range: [10, 100]|
+|**filters**|Filter[]|False| |networkInterfaceIds - Elastic Network Interface ID List, support multiple IDs<br>networkInterfaceNames - Elastic Network Interface Name List, support multiple names<br>VPCId - VPC ID of Elastic Network Interface, support single ID<br>subnetId	- Subnet Id of Elastic Network Interface, support single Id<br>role - Network Interface Role. Value Range: Primary (primary network interface), Secondary (secondary network interface), support single role<br>|
+|**pageNumber**|Integer|False|1|Page: 1 by default. Value Range: [1,∞); when the pages exceed total pages, show the last page|
+|**pageSize**|Integer|False|20|Paging Size; 20 by default. Value Range: [10, 100]|
 
 ### Filter
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**name**|String|True||Name of Filter Requirements|
-|**operator**|String|False||Operator of filter requirements is eq by default|
-|**values**|String[]|True||Value of Filter Requirements|
+|**name**|String|True| |Name of Filter Requirements|
+|**operator**|String|False| |Operator of filter requirements is eq by default|
+|**values**|String[]|True| |Value of Filter Requirements|
 
-## Return parameter
-|Name|Type|Description|
+## 返回参数
+|名称|类型|描述|
 |---|---|---|
 |**requestId**|String|Request ID|
 |**result**|Result|Returned Results|
 
-
 ### Result
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
 |**networkInterfaces**|NetworkInterface[]|NetworkInterface Resource Information List|
 |**totalCount**|Number|Total Number|
 ### NetworkInterface
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
 |**az**|String|Availability Zone Name|
 |**createdTime**|String|Creation Time of Elastic Network Interface|
@@ -61,14 +60,14 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkInterfaces/
 |**subnetId**|String|Subnet ID|
 |**vpcId**|String|Virtual Network ID|
 ### NetworkInterfacePrivateIp
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
 |**elasticIpAddress**|String|Elastic IP Instance Address|
 |**elasticIpId**|String|Elastic IP Instance ID|
 |**privateIpAddress**|String|IPV4 Address of Private IP|
 
-## Return code
-|Return code|Description|
+## 返回码
+|返回码|描述|
 |---|---|
 |**200**|OK|
 |**400**|invalid parameter|

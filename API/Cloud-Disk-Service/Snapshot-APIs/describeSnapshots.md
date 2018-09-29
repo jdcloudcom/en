@@ -1,58 +1,57 @@
 # describeSnapshots
 
 
-## Description
-Query the List of Cloud Disk Snapshots. Filters, between multiple filter conditions is logic AND, and multiple values ​​inside each condition is logic OR
+## 描述
+Query the list of cloud disk snapshots. Filters, between multiple filter conditions is logic AND, and multiple values ​​inside each condition is logic OR
 
-## Request method
+## 请求方式
 GET
 
-## Request address
+## 请求地址
 https://disk.jdcloud-api.com/v1/regions/{regionId}/snapshots
 
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
+|**regionId**|String|True| |Region ID|
 
-## Request parameter
-|Name|Type|Required or not|Default value|Description|
+## 请求参数
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**filters**|Filter[]|False||snapshotId - Cloud Disk Snapshot ID, Support Multiple<br>diskId - the Cloud Disk ID of the Snapshot to be Generated, Support Multiple<br>status - snapshot status, accurate match, support multiple, creating, available, in-use, deleting, error_create or error_delete<br>name - snapshot name, fuzzy match, support single<br>|
-|**pageNumber**|Integer|False|1|Page Number, Defaults is 1; Value Range: [1, ∞)|
-|**pageSize**|Integer|False|20|Page Size, Default is 20; Value Range: [10,100]|
+|**filters**|Filter[]|False| |snapshotId - Cloud Disk Snapshot ID, support multiple<br>diskId - the Cloud Disk ID of the snapshot to be generated, support multiple<br>status - Snapshot status, accurate match, support multiple, value: creating, available, in-use, deleting, error_create or error_delete<br>name - Snapshot Name, fuzzy match, support single<br>|
+|**pageNumber**|Integer|False|1|Page Number: 1 by default; value range: [1, ∞)|
+|**pageSize**|Integer|False|20|Paging Size: 20 by default; value range: [10,100]|
 
 ### Filter
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**name**|String|True||Name of Filter Requirements|
-|**operator**|String|False||Operator of filter requirements is eq by default|
-|**values**|String[]|True||Value of Filter Requirements|
+|**name**|String|True| |Name of Filter Requirements|
+|**operator**|String|False| |Operator of filter requirements is eq by default|
+|**values**|String[]|True| |Value of Filter Requirements|
 
-## Return parameter
-|Name|Type|Description|
+## 返回参数
+|名称|类型|描述|
 |---|---|---|
 |**requestId**|String|Request ID|
 |**result**|Result|Query Result Set|
 
-
 ### Result
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
 |**snapshots**|Snapshot[]|List of Snapshot Details Queried|
 |**totalCount**|Integer|Number of Snapshots Queried|
 ### Snapshot
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
 |**createTime**|String|Creation Time|
 |**description**|String|Snapshot Description|
 |**diskId**|String|Cloud Disk ID used to create the snapshot|
 |**name**|String|Snapshot Name|
 |**snapshotId**|String|Cloud Disk Snapshot ID|
-|**snapshotSizeGB**|Integer|Snapshot Size, in GiB|
-|**status**|String|Snapshot Status, creating, available, in-use, deleting, error_create or error_delete|
+|**snapshotSizeGB**|Integer|Snapshot Size, Unit: GiB|
+|**status**|String|Snapshot Status, Value: creating, available, in-use, deleting, error_create or error_delete|
 
-## Return code
-|Return code|Description|
+## 返回码
+|返回码|描述|
 |---|---|
 |**200**|OK|
 |**400**|Invalid parameter|

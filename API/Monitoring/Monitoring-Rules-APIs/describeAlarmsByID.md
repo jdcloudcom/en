@@ -1,37 +1,36 @@
 # describeAlarmsByID
 
 
-## Description
+## 描述
 Query Rule Details
 
-## Request method
+## 请求方式
 GET
 
-## Request address
+## 请求地址
 https://monitor.jdcloud-api.com/v1/regions/{regionId}/alarms/{alarmId}
 
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**alarmId**|String|True||Rule ID|
-|**regionId**|String|True||Region ID|
+|**alarmId**|String|True| |Rule ID|
+|**regionId**|String|True| |Region ID|
 
-## Request parameter
-None
+## 请求参数
+无
 
 
-## Return parameter
-|Name|Type|Description|
+## 返回参数
+|名称|类型|描述|
 |---|---|---|
 |**requestId**|String|Request ID|
-|**result**|Result||
-
+|**result**|Result| |
 
 ### Result
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
-|**alarm**|Alarm||
+|**alarm**|Alarm| |
 ### Alarm
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
 |**calculation**|String|Statistical method: average value=avg, maximum value=max, minimum value=min,|
 |**contactGroups**|String[]|Notify contact group, for example [“contact group 1”, “contact group 2”]|
@@ -43,7 +42,7 @@ None
 |**metricName**|String|Name of Rule ID Monitoring Item|
 |**noticePeriod**|Integer|Notification Period Unit: Hour|
 |**noticeTime**|String|Alarm time, this field is valid when querying the alarming rule|
-|**operation**|String|'>=、>、<、<=、==、！='|
+|**operation**|String|>=, >, <, <=, ==, !=|
 |**period**|Integer|Statistical Period (Unit: Minute)|
 |**region**|String|Region Information|
 |**resourceId**|String|Resource ID Applied by This Rule|
@@ -54,8 +53,8 @@ None
 |**times**|Integer|Alarm after how many times|
 |**value**|Number|Alarm value, this field is valid when querying the alarming rule|
 
-## Return code
-|Return code|Description|
+## 返回码
+|返回码|描述|
 |---|---|
 |**200**|OK|
 |**400**|invalid parameter|

@@ -1,60 +1,59 @@
 # createVpcPeering
 
 
-## Description
-Create VPCPeering Interface
+## 描述
+Create VPCPeering API
 
-## Request method
+## 请求方式
 POST
 
-## Request address
+## 请求地址
 https://vpc.jdcloud-api.com/v1/regions/{regionId}/vpcPeerings/
 
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
+|**regionId**|String|True| |Region ID|
 
-## Request parameter
-|Name|Type|Required or not|Default value|Description|
+## 请求参数
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**description**|String|False||VPCPeering Description. Value Range: 0-256 Chinese, English capital and lowercase letters, numbers and underline delimiter|
-|**remoteVpcId**|String|True||VPCPeering Opposite Terminal VPC ID|
-|**vpcId**|String|True||VPCPeering Home Terminal VPC ID|
-|**vpcPeeringName**|String|True||VPCPeering Name, Must Provide A nName. Value Range of Name: 1-32 Chinese, English capital and lowercase letters, numbers and underline delimiter|
+|**description**|String|False| |VPCPeering Description. Value Range: 0-256 Chinese, English capital and lowercase letters, numbers and underline delimiter|
+|**remoteVpcId**|String|True| |VPCPeering Opposite Terminal VPC ID|
+|**vpcId**|String|True| |VPCPeering Home Terminal VPC ID|
+|**vpcPeeringName**|String|True| |VPCPeering Name, Must Provide A nName. Value Range of Name: 1-32 Chinese, English capital and lowercase letters, numbers and underline delimiter|
 
 
-## Return parameter
-|Name|Type|Description|
+## 返回参数
+|名称|类型|描述|
 |---|---|---|
 |**requestId**|String|Request ID|
 |**result**|Result|Returned Results|
 
-
 ### Result
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
 |**vpcPeering**|VpcPeering|VPCPeering Resource Information|
 ### VpcPeering
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
 |**createdTime**|String|VPCPeering Creation Time|
-|**description**|String|VPCPeering Description, Can be Null Value. Value Range: 0-256 Chinese, English capital and lowercase letters, numbers and underline delimiter|
+|**description**|String|VPCPeering description, can be null. Value Range: 0-256 Chinese, English capital and lowercase letters, numbers and underline delimiter|
 |**remoteVpcInfo**|VpcPeeringVpcInfo|Opposite Terminal VPC information|
 |**vpcInfo**|VpcPeeringVpcInfo|VPC Information Launching VPCPeering|
 |**vpcPeeringId**|String|VPCPeering ID|
-|**vpcPeeringName**|String|VPCPeering Name, A Name Cannot be Duplicate Under the Same Account. Value Range: 1-32 Chinese, English capital and lowercase letters, numbers and underline delimiter|
+|**vpcPeeringName**|String|VPCPeering name, no duplicate under the same account is allowed. Value Range: 1-32 Chinese, English capital and lowercase letters, numbers and underline delimiter|
 |**vpcPeeringState**|String|Status, values include Connected, Disconnected, Initiated|
 ### VpcPeeringVpcInfo
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
 |**addressPrefix**|String[]|If it is blank, segment is not limited; if it is not blank, it is 10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16 and their subnets included and the length of subnet mask is between 16 and 28|
 |**vpcId**|String|VPC ID of Subnet|
 |**vpcName**|String|VPC Name. Value Range: 1-60 Chinese, English capital and lowercase letters, numbers and underline delimiter|
 
-## Return code
-|Return code|Description|
+## 返回码
+|返回码|描述|
 |---|---|
-|**200**|Successful operation|
+|**200**|Successful Operation|
 |**409**|Already has VpcPeering with param|
 |**400**|Request parameter x.y.z is 'xxx', expected one of [yyy,zzz]|
 |**404**|Resource not found|

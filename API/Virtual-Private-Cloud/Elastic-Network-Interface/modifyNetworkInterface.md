@@ -1,38 +1,37 @@
 # modifyNetworkInterface
 
 
-## Description
-Modify Elastic Network Interface APIs
+## 描述
+Modify elastic network interface APIs
 
-## Request method
+## 请求方式
 PATCH
 
-## Request address
+## 请求地址
 https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkInterfaces/{networkInterfaceId}
 
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**networkInterfaceId**|String|True||networkInterface ID|
-|**regionId**|String|True||Region ID|
+|**networkInterfaceId**|String|True| |networkInterface ID|
+|**regionId**|String|True| |Region ID|
 
-## Request parameter
-|Name|Type|Required or not|Default value|Description|
+## 请求参数
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**description**|String|False||Description, all characters allowed to enter under UTF-8 coding, which is not exceed 256 characters|
-|**networkInterfaceName**|String|False||Elastic Network Interface name, only allowed to enter Chinese, numbers, capital and lowercase letters, English underline “_” and line-through “-”, must provide a name which cannot exceed 32 characters|
-|**securityGroups**|String[]|False||To replace the Security Group with mode update of the original Security Group. If the Security Group ID list is updated, a maximum of 5 Security Groups can be done|
+|**description**|String|False| |Description, allow all characters under UTF-8 coding, not exceeding 256 characters|
+|**networkInterfaceName**|String|False| |Elastic Network Interface name, only allows Chinese, numbers, capital and lowercase letters, English underline “_” and line-through “-”, must provide a name which cannot exceed 32 characters|
+|**securityGroups**|String[]|False| |To replace the Security Group with mode update of the original Security Group. If the Security Group ID list is updated, a maximum of 5 Security Groups can be done|
 
 
-## Return parameter
-|Name|Type|Description|
+## 返回参数
+|名称|类型|描述|
 |---|---|---|
 |**requestId**|String|Request ID|
 
 
-
-## Return code
-|Return code|Description|
+## 返回码
+|返回码|描述|
 |---|---|
 |**200**|OK|
 |**400**|Request parameter x.y.z is 'xxx', expected one of [yyy,zzz]|
-|**404**|Resource not found|
+|**404**|Resource Not Found|

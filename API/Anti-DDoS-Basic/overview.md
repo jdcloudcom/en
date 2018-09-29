@@ -1,16 +1,16 @@
 # JD Cloud Anti-DDoS Basic APIs
 
 
-## Introduction
+## 简介
 JD Cloud Anti-DDoS Basic APIs
 
 
-### Version
+### 版本
 v1
 
 
 ## API
-|Interface name|Request mehod|Function description|
+|接口名称|请求方式|功能描述|
 |---|---|---|
 |**describeIpResourceFlow**|GET|Search the EIP monitoring traffic|
 |**describeIpResourceInfo**|GET|Search the EIP basic information|

@@ -1,34 +1,31 @@
 # putBucket
 
 
-## Description
+## 描述
 Create a bucket
 
 
-## Request method
+## 请求方式
 PUT
 
-## Request address
+## 请求地址
 https://oss.jdcloud-api.com/v1/regions/{regionId}/buckets/{bucketname}
 
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**bucketname**|String|True||bucket name, e.g.: test-bucket|
-|**regionId**|String|True||Region ID, e.g.: cn-north-1|
+|**bucketname**|String|True| |bucket name, e.g.: test-bucket|
+|**regionId**|String|True| |Region ID, e.g.: cn-north-1|
 
-## Request parameter
-|Name|Type|Required or not|Default value|Description|
-|---|---|---|---|---|
-
-
-## Response   parameter
-|Name|Type|Description|
-|---|---|---|
+## 请求参数
+无
 
 
+## 返回参数
+无
 
-## Response   code
-|Return code|Description|
+
+## 返回码
+|返回码|描述|
 |---|---|
 |**200**|OK|
 |**400**|Invalid Argument|

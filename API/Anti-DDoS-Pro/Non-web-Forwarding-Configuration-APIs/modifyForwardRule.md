@@ -1,53 +1,52 @@
 # modifyForwardRule
 
 
-## Description
+## 描述
 Update a non-web service rule
 
-## Request method
+## 请求方式
 PATCH
 
-## Request address
+## 请求地址
 https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/forwardRules/{forwardRuleId}
 
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**forwardRuleId**|String|True||Forwarding rule ID|
-|**instanceId**|String|True||Instance ID|
-|**regionId**|String|True||Belonging Region ID|
+|**forwardRuleId**|String|True| |Forwarding Rule ID|
+|**instanceId**|String|True| |Instance ID|
+|**regionId**|String|True| |Belonging Region ID|
 
-## Request parameter
-|Name|Type|Required or not|Default value|Description|
+## 请求参数
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**forwardRuleSpec**|ForwardRuleSpec|True||Non-web service rule parameter|
+|**forwardRuleSpec**|ForwardRuleSpec|True| |Update non-web service rule parameters|
 
 ### ForwardRuleSpec
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**algorithm**|String|False||Forwarding Rules: wrr->round Robin with weight  wlc->minimum weighted connection  rr->round Robin without weight  sh->source address hash|
-|**onlineAddr**|String[]|False|||
-|**originAddr**|OriginAddrItem[]|False|||
-|**originDomain**|String|False||Back-to-origin Domain Name|
-|**originPort**|Integer|False||Back-to-origin Port Number|
-|**originType**|String|False||Back-to-origin Type, ip or domain|
-|**port**|Integer|False||Port Number|
-|**protocol**|String|False||Protocol: TCP or UDP|
+|**algorithm**|String|False| |Forwarding Rules: wrr->round Robin with weight,  wlc->minimum weighted connection,  rr->round Robin without weight,  sh->source address hash|
+|**onlineAddr**|String[]|False| | |
+|**originAddr**|OriginAddrItem[]|False| | |
+|**originDomain**|String|False| |Back-to-origin Domain Name|
+|**originPort**|Integer|False| |Back-to-origin Port Number|
+|**originType**|String|False| |Back-to-origin Type, ip or domain|
+|**port**|Integer|False| |Port Number|
+|**protocol**|String|False| |Protocol: TCP or UDP|
 ### OriginAddrItem
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**inJdCloud**|Boolean|False||Confirm whether it is the Private IP/EIP address of JD Cloud?|
-|**ip**|String|False||Back-to-origin IP address|
-|**weight**|Integer|False||Weight|
+|**inJdCloud**|Boolean|False| |Confirm whether it is the Private IP/EIP address of JD Cloud?|
+|**ip**|String|False| |Back-to-origin IP address|
+|**weight**|Integer|False| |Weight|
 
-## Return parameter
-|Name|Type|Description|
+## 返回参数
+|名称|类型|描述|
 |---|---|---|
-|**requestId**|String||
+|**requestId**|String| |
 
 
-
-## Return code
-|Return code|Description|
+## 返回码
+|返回码|描述|
 |---|---|
 |**200**|OK|
 |**400**|BAD_REQUEST|

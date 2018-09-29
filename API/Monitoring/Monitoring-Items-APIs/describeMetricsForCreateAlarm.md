@@ -1,42 +1,40 @@
 # describeMetricsForCreateAlarm
 
 
-## Description
+## 描述
 Query metric list available to create monitoring rules based on resource type
 
-## Request method
+## 请求方式
 GET
 
-## Request address
+## 请求地址
 https://monitor.jdcloud-api.com/v1/metricsForCreateAlarm
 
-|Name|Type|Required or not|Default value|Description|
+无
+
+## 请求参数
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-
-## Request parameter
-|Name|Type|Required or not|Default value|Description|
-|---|---|---|---|---|
-|**serviceCode**|String|False||Type of resource, blank by default, displaying all items<br>vm--> Virtual Machine<br>disk-->Cloud Disk Service<br>ip--> Public IP<br>balance-->Load Balancer<br>database-->MySQL Service Version<br>cdn-->JD CDN<br>redis-->JCS for Redis<br>mongodb-->MongoDB Cloud Cache<br>storage-->Cloud Storage<br>sqlserver-->cloud Database Sqlserver Version <br>nativecontainer-->Container<br>|
+|**serviceCode**|String|False| |Type of resource, blank by default, displaying all items<br>vm--> Virtual Machine<br>disk-->Cloud Disk Service<br>ip--> Public IP<br>balance-->Load Balancer<br>database-->MySQL Service Version<br>cdn-->JD CDN<br>redis-->JCS for Redis<br>mongodb-->MongoDB Cloud Cache<br>storage-->Cloud Storage<br>sqlserver-->cloud Database Sqlserver Version <br>nativecontainer-->Container<br>|
 
 
-## Return parameter
-|Name|Type|Description|
+## 返回参数
+|名称|类型|描述|
 |---|---|---|
 |**requestId**|String|Request ID|
-|**result**|Result||
-
+|**result**|Result| |
 
 ### Result
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
-|**serviceCodeList**|ServiceCodeMetrics[]||
+|**serviceCodeList**|ServiceCodeMetrics[]| |
 ### ServiceCodeMetrics
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
-|**metrics**|MetricDetail[]||
-|**serviceCode**|String||
+|**metrics**|MetricDetail[]| |
+|**serviceCode**|String| |
 ### MetricDetail
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
 |**calculateUnit**|String|Computing unit of metric, such as bit/s, %, and byte|
 |**downSample**|String|Sampling Frequency|
@@ -44,9 +42,9 @@ https://monitor.jdcloud-api.com/v1/metricsForCreateAlarm
 |**metricName**|String|Metric Name|
 |**serviceCode**|String|Identifier of Resource Type|
 
-## Return code
-|Return code|Description|
+## 返回码
+|返回码|描述|
 |---|---|
 |**200**|OK|
-|**400**|'invalid parameter'|
-|**500**|'internal server error'|
+|**400**|invalid parameter|
+|**500**|internal server error|

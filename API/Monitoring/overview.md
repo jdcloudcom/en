@@ -1,16 +1,16 @@
 # Monitoring
 
 
-## Introduction
+## 简介
 Monitoring APIs, mainly comprising creation, deletion, change and review of monitoring rules and query of monitoring item data
 
 
-### Version
+### 版本
 v1
 
 
 ## API
-|Interface name|Request mehod|Function description|
+|接口名称|请求方式|功能描述|
 |---|---|---|
 |**createAlarm**|POST|Create alarm rules, it can create alarm rules for a certain instance, or it also can create alarm rules for multiple instances at the same time.|
 |**deleteAlarms**|DELETE|Delete alarm rules already created in batches|
@@ -22,5 +22,5 @@ v1
 |**describeMetricsForCreateAlarm**|GET|Query metric list available to create monitoring rules based on resource type|
 |**disableAlarm**|POST|Disable the alarm rule. After the alarm rule is disabled, the detection of monitoring item data of the instance will be stopped.|
 |**enableAlarm**|POST|Enable the alarm rule, when the alarm rule is in the status of “Disabled”, the alarm rule can be enabled by using the API.|
-|**putMetricData**|POST|The API is for reporting the customized metric monitoring data, facilitating the user to report the collected time series data to the Monitoring. Original data and aggregated statistical data can be reported in batches. A single request contains up to 50 data points; the data size does not exceed 256k.|
+|**putMetricData**|POST|The API is for reporting the custom metric monitoring data, facilitating the user to report the collected time series data to the Monitoring. Original data and aggregated statistical data can be reported in batches. A single request contains up to 50 data points; the data size does not exceed 256k.|
 |**updateAlarm**|PATCH|Modify alarm rules already created, support to modify alarm rules and notified contact information When the alarm rule is in the status of “Enabled” the alarm rule is allowed to be modified.|

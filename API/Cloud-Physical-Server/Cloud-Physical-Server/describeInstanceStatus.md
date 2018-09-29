@@ -1,41 +1,40 @@
 # describeInstanceStatus
 
 
-## Description
-Query the Hardware Monitoring Information of a Single Cloud Physical Server
+## 描述
+Query the hardware monitoring information of a single Cloud Physical Server
 
-## Request method
+## 请求方式
 GET
 
-## Request address
+## 请求地址
 https://cps.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:describeInstanceStatus
 
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**instanceId**|String|True||Cloud Physical Server ID|
-|**regionId**|String|True||Region ID, the Region and Availability Zone supported by the Cloud Physical Servers can be obtained by calling APIs (describeRegions)|
+|**instanceId**|String|True| |Cloud Physical Server ID|
+|**regionId**|String|True| |Region ID, the Region and Availability Zone Supported by the Cloud Physical Servers can be Called by Calling APIs (describeRegions)|
 
-## Request parameter
-None
+## 请求参数
+无
 
 
-## Return parameter
-|Name|Type|Description|
+## 返回参数
+|名称|类型|描述|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
-
+|**requestId**|String| |
+|**result**|Result| |
 
 ### Result
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
-|**cpus**|Boolean|Whether the CPU Status is Normal|
-|**disks**|Boolean|Whether the Hard Disk Status is Normal|
-|**mems**|Boolean|Whether the Memory Status is Normal|
-|**nics**|Boolean|Whether the Network Interface Status is Normal|
+|**cpus**|Boolean|Whether the CPU status is normal|
+|**disks**|Boolean|Whether the hard disk status is normal|
+|**mems**|Boolean|Whether the memory status is normal|
+|**nics**|Boolean|Whether the network interface status is normal|
 
-## Return code
-|Return code|Description|
+## 返回码
+|返回码|描述|
 |---|---|
 |**200**|OK|
 |**400**|Bad request|

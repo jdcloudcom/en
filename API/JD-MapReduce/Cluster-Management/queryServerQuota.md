@@ -1,43 +1,42 @@
 # queryServerQuota
 
 
-## Description
+## 描述
 Query the Remaining Server Quota
 
-## Request method
+## 请求方式
 GET
 
-## Request address
+## 请求地址
 https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/serverQuota:query
 
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
+|**regionId**|String|True| |Region ID|
 
-## Request parameter
-None
+## 请求参数
+无
 
 
-## Return parameter
-|Name|Type|Description|
+## 返回参数
+|名称|类型|描述|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
-
+|**requestId**|String| |
+|**result**|Result| |
 
 ### Result
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
 |**data**|AvailableNumData|Remaining Server Quota|
-|**message**|String||
-|**status**|String||
+|**message**|String| |
+|**status**|String| |
 ### AvailableNumData
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
 |**serverNum**|Integer|Number of Available Services|
 
-## Return code
-|Return code|Description|
+## 返回码
+|返回码|描述|
 |---|---|
 |**200**|OK|
 |**500**|Internal server error|

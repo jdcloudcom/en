@@ -1,71 +1,71 @@
 # JD Cloud VPC
 
 
-## Introduction
+## 简介
 VPC APIs
 
 
-### Version
+### 版本
 v1
 
 
 ## API
-|Interface name|Request mehod|Function description|
+|接口名称|请求方式|功能描述|
 |---|---|---|
-|**addNetworkAclRules**|POST|Add NetworkAcl Rule Interface|
-|**addNetworkSecurityGroupRules**|POST|Add Security Group Rule|
-|**addRouteTableRules**|POST|Add Route Table Rule|
-|**assignSecondaryIps**|POST|Assign Secondary IP Interface to Network Interface|
-|**associateElasticIp**|POST|Associate Elastic IP Interface to Network Interface|
-|**associateNetworkAcl**|POST|Associate networkAcl Interface to Subnet|
-|**associateRouteTable**|POST|Associate Subnet Interface to Route Table|
+|**addNetworkAclRules**|POST|Add NetworkAcl rule API|
+|**addNetworkSecurityGroupRules**|POST|Add security group rule|
+|**addRouteTableRules**|POST|Add route table rule|
+|**assignSecondaryIps**|POST|Assign secondary IP API to network interface|
+|**associateElasticIp**|POST|Associate elastic IP API to network interface|
+|**associateNetworkAcl**|POST|Associate networkAcl API to subnet|
+|**associateRouteTable**|POST|Associate subnet API from route table|
 |**createElasticIps**|POST|Create One or More Elastic IPs|
-|**createNetworkAcl**|POST|Create NetworkAcl Interface|
-|**createNetworkInterface**|POST|Create network interface, can only create secondary network interface|
-|**createNetworkSecurityGroup**|POST|Create Security Group|
-|**createRouteTable**|POST|Create Route Table|
-|**createSubnet**|POST|Create Subnet|
+|**createNetworkAcl**|POST|Create NetworkAcl API|
+|**createNetworkInterface**|POST|Create network interface API, can only create secondary network interface|
+|**createNetworkSecurityGroup**|POST|Create security group|
+|**createRouteTable**|POST|Create route table|
+|**createSubnet**|POST|Create subnet|
 |**createVpc**|POST|Create VPC|
-|**createVpcPeering**|POST|Create VPCPeering Interface|
+|**createVpcPeering**|POST|Create VPCPeering API|
 |**deleteElasticIp**|DELETE|Delete Elastic IP|
-|**deleteNetworkAcl**|DELETE|Delete NetworkAcl Interface|
-|**deleteNetworkInterface**|DELETE|Delete Elastic Network Interface APIs|
-|**deleteNetworkSecurityGroup**|DELETE|Delete Security Group|
-|**deleteRouteTable**|DELETE|Delete Route Table|
-|**deleteSubnet**|DELETE|Delete Subnet|
+|**deleteNetworkAcl**|DELETE|Delete NetworkAcl API|
+|**deleteNetworkInterface**|DELETE|Delete elastic network interface APIs|
+|**deleteNetworkSecurityGroup**|DELETE|Delete security group|
+|**deleteRouteTable**|DELETE|Delete route table|
+|**deleteSubnet**|DELETE|Delete subnet|
 |**deleteVpc**|DELETE|Delete VPC|
-|**deleteVpcPeering**|DELETE|Delete VPCPeering Interface|
+|**deleteVpcPeering**|DELETE|Delete VPCPeering API|
 |**describeElasticIp**|GET|ElasticIp Resource Information Details|
 |**describeElasticIps**|GET|Query Elastic IP List|
-|**describeNetworkAcl**|GET|Query NetworkAcl Resource Details|
+|**describeNetworkAcl**|GET|Query NetworkAcl resource details|
 |**describeNetworkAcls**|GET|Query Acl List|
-|**describeNetworkInterface**|GET|Query Elastic Network Interface Information Details|
-|**describeNetworkInterfaces**|GET|Query Elastic Network Interface List|
-|**describeNetworkSecurityGroup**|GET|Query Security Group Information Details|
-|**describeNetworkSecurityGroups**|GET|Query Security Group List|
-|**describeQuota**|GET|Query Quota Information|
-|**describeRouteTable**|GET|Query Route Table Information Details|
-|**describeRouteTables**|GET|Query Route Table Information|
-|**describeSubnet**|GET|Query Subnet Information Details|
-|**describeSubnets**|GET|Query Subnet List|
-|**describeVpc**|GET|Query VPC Information Details|
-|**describeVpcPeering**|GET|Query VPCPeering Resource Details|
-|**describeVpcPeerings**|GET|Query VPCPeering Resource List|
-|**describeVpcs**|GET|Query VPC List|
-|**disassociateElasticIp**|POST|Disassociate Elastic IP Interface from Network Interface|
-|**disassociateNetworkAcl**|POST|Disassociate NetworkAcl Interface from Subnet|
-|**disassociateRouteTable**|POST|Disassociate Subnet Interface from Route Table|
-|**modifyNetworkAcl**|PATCH|Modify NetworkAcl Interface|
-|**modifyNetworkAclRules**|POST|Modify NetworkAcl Interface|
-|**modifyNetworkInterface**|PATCH|Modify Elastic Network Interface APIs|
-|**modifyNetworkSecurityGroup**|PATCH|Modify Security Group Attribute|
-|**modifyNetworkSecurityGroupRules**|POST|Modify Security Group Rule|
-|**modifyRouteTable**|PATCH|Modify Route Table Attribute|
-|**modifyRouteTableRules**|POST|Modify Route Table Rule|
-|**modifySubnet**|PATCH|Modify Subnet Interface|
-|**modifyVpc**|PATCH|Modify VPC interface|
-|**modifyVpcPeering**|PUT|Modify VPCPeering Interface|
-|**removeNetworkAclRules**|POST|Remove NetworkAcl Rule|
-|**removeNetworkSecurityGroupRules**|POST|Remove Security Group Rule|
-|**removeRouteTableRules**|POST|Remove Route Table Rule|
-|**unassignSecondaryIps**|POST|Delete Secondary IP Interface from Network Interface|
+|**describeNetworkInterface**|GET|Query elastic network interface information details|
+|**describeNetworkInterfaces**|GET|Query elastic network interface list|
+|**describeNetworkSecurityGroup**|GET|Query security group information details|
+|**describeNetworkSecurityGroups**|GET|Query security group list|
+|**describeQuota**|GET|Query quota information|
+|**describeRouteTable**|GET|Query route table information details|
+|**describeRouteTables**|GET|Query route table information|
+|**describeSubnet**|GET|Query subnet information details|
+|**describeSubnets**|GET|Query subnet list|
+|**describeVpc**|GET|Query VPC information details|
+|**describeVpcPeering**|GET|Query VPCPeering resource details|
+|**describeVpcPeerings**|GET|Query VPCPeering resource list|
+|**describeVpcs**|GET|Query VPC list|
+|**disassociateElasticIp**|POST|Disassociate elastic IP API from network interface|
+|**disassociateNetworkAcl**|POST|Disassociate NetworkAcl API from subnet|
+|**disassociateRouteTable**|POST|Disassociate subnet API from route table|
+|**modifyNetworkAcl**|PATCH|Modify NetworkAcl API|
+|**modifyNetworkAclRules**|POST|Modify NetworkAcl API|
+|**modifyNetworkInterface**|PATCH|Modify elastic network interface APIs|
+|**modifyNetworkSecurityGroup**|PATCH|Modify security group attribute|
+|**modifyNetworkSecurityGroupRules**|POST|Modify security group rule|
+|**modifyRouteTable**|PATCH|Modify route table attribute|
+|**modifyRouteTableRules**|POST|Modify route table rule|
+|**modifySubnet**|PATCH|Modify subnet API|
+|**modifyVpc**|PATCH|Modify VPC API|
+|**modifyVpcPeering**|PUT|Modify VPCPeering API|
+|**removeNetworkAclRules**|POST|Remove NetworkAcl rule|
+|**removeNetworkSecurityGroupRules**|POST|Remove security group rule|
+|**removeRouteTableRules**|POST|Remove route table rule|
+|**unassignSecondaryIps**|POST|Delete secondary IP API from network interface|

@@ -1,39 +1,38 @@
 # modifyInstanceSpec
 
 
-## Description
+## 描述
 Instance Expansion, Supports Upgrading the Instance CPU, Memory and Disk. Instance configuration downgrade not supported currently<br>- only support MySQL
 
-## Request method
+## 请求方式
 POST
 
-## Request address
+## 请求地址
 https://rds.jdcloud-api.com/0.2.9/regions/{regionId}/instances/{instanceId}:modifyInstanceSpec
 
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**instanceId**|String|True||RDS instance ID, which uniquely identifies an RDS instance|
-|**regionId**|String|True||Region code, with range detailed in [Regions and Availability Zone Comparison Table](../Enum-Definitions/Regions-AZ.md)|
+|**instanceId**|String|True| |RDS instance ID, which uniquely identifies an RDS instance|
+|**regionId**|String|True| |Region code, with range detailed in [Regions and Availability Zone Comparison Table](../Enum-Definitions/Regions-AZ.md)|
 
-## Request parameter
-|Name|Type|Required or not|Default value|Description|
+## 请求参数
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**newInstanceClass**|String|True||Instance Type after Expansion|
-|**newInstanceStorageGB**|Integer|True||Instance Disk Size after Expansion|
+|**newInstanceClass**|String|True| |Instance Type after Expansion|
+|**newInstanceStorageGB**|Integer|True| |Instance Disk Size after Expansion|
 
 
-## Return parameter
-|Name|Type|Description|
+## 返回参数
+|名称|类型|描述|
 |---|---|---|
-|**result**|Result||
-
+|**result**|Result| |
 
 ### Result
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
 |**orderId**|String|Generated Order Number|
 
-## Return code
-|Return code|Description|
+## 返回码
+|返回码|描述|
 |---|---|
 |**200**|OK|

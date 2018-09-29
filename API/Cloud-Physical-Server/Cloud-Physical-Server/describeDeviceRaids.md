@@ -1,39 +1,38 @@
 # describeDeviceRaids
 
 
-## Description
-Query the RAID types supported by the Cloud Physical Server of a certain instance type family, able to query the system disk RAID type and data disk RAID type
+## 描述
+Query the RAID types supported by the Cloud Physical Server of a certain instance type family, may query the system disk RAID type and data disk RAID type
 
-## Request method
+## 请求方式
 GET
 
-## Request address
+## 请求地址
 https://cps.jdcloud-api.com/v1/regions/{regionId}/raids
 
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID, the Region and Availability Zone Supported by the Cloud Physical Servers can be Called by Calling APIs (describeRegions)|
+|**regionId**|String|True| |Region ID, the Region and Availability Zone Supported by the Cloud Physical Servers can be Called by Calling APIs (describeRegions)|
 
-## Request parameter
-|Name|Type|Required or not|Default value|Description|
+## 请求参数
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**deviceType**|String|True||Instance Type Family, the (describeDeviceTypes) APIs May Be Called to Obtain the Instance Type Family of the Specific Region, such as: cps.c.normal|
-|**volumeType**|String|False||Disk Type, Value Range: System, Data|
+|**deviceType**|String|True| |Instance Type Family, the (describeDeviceTypes) APIs may be called to obtain the instance type family of a specific region, such as: cps.c.normal|
+|**volumeType**|String|False| |Disk Type, value range: system, data|
 
 
-## Return parameter
-|Name|Type|Description|
+## 返回参数
+|名称|类型|描述|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
-
+|**requestId**|String| |
+|**result**|Result| |
 
 ### Result
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
-|**raids**|Raid[]||
+|**raids**|Raid[]| |
 ### Raid
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
 |**description**|String|RAID Type Description|
 |**deviceType**|String|Type of Cloud Physical Server, such as cps.c.normal|
@@ -42,8 +41,8 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/raids
 |**volumeDetail**|String|Device Details|
 |**volumeType**|String|Disk Type, such as System/Data|
 
-## Return code
-|Return code|Description|
+## 返回码
+|返回码|描述|
 |---|---|
 |**200**|OK|
 |**400**|Bad request|

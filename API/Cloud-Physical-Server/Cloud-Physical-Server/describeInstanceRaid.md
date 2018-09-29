@@ -1,41 +1,40 @@
 # describeInstanceRaid
 
 
-## Description
-Query the Installed RAID Information of a Single Cloud Physical Server, Including the System Disk RAID Information and Data Disk RAID Information
+## 描述
+Query the installed RAID information of a single Cloud Physical Server, including the system disk RAID information and data disk RAID information
 
-## Request method
+## 请求方式
 GET
 
-## Request address
+## 请求地址
 https://cps.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:describeInstanceRaid
 
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**instanceId**|String|True||Cloud Physical Server ID|
-|**regionId**|String|True||Region ID, the Region and Availability Zone supported by the Cloud Physical Servers can be obtained by calling APIs (describeRegions)|
+|**instanceId**|String|True| |Cloud Physical Server ID|
+|**regionId**|String|True| |Region ID, the Region and Availability Zone Supported by the Cloud Physical Servers can be Called by Calling APIs (describeRegions)|
 
-## Request parameter
-None
+## 请求参数
+无
 
 
-## Return parameter
-|Name|Type|Description|
+## 返回参数
+|名称|类型|描述|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
-
+|**requestId**|String| |
+|**result**|Result| |
 
 ### Result
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
 |**dataRaidType**|String|Data Disk RAID Type ID|
 |**dataRaidTypeId**|String|Data Disk RAID Type ID|
 |**sysRaidType**|String|System Disk RAID Type|
 |**sysRaidTypeId**|String|System Disk RAID Type ID|
 
-## Return code
-|Return code|Description|
+## 返回码
+|返回码|描述|
 |---|---|
 |**200**|OK|
 |**400**|Bad request|

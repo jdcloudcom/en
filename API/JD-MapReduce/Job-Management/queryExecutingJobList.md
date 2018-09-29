@@ -1,60 +1,59 @@
 # queryExecutingJobList
 
 
-## Description
+## 描述
 Obtain the tasks in the plan (tasks already added to the quartz scheduler)
 
-## Request method
+## 请求方式
 GET
 
-## Request address
+## 请求地址
 https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/executingJob:list
 
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
+|**regionId**|String|True| |Region ID|
 
-## Request parameter
-None
+## 请求参数
+无
 
 
-## Return parameter
-|Name|Type|Description|
+## 返回参数
+|名称|类型|描述|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
-
+|**requestId**|String| |
+|**result**|Result| |
 
 ### Result
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
 |**data**|JmrPlanViewModel[]|Execution Plan List|
-|**message**|String||
-|**status**|String||
+|**message**|String| |
+|**status**|String| |
 ### JmrPlanViewModel
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
-|**az**|String||
-|**clusterId**|String||
-|**clusterName**|String||
+|**az**|String| |
+|**clusterId**|String| |
+|**clusterName**|String| |
 |**createTime**|String|Creation Time|
 |**cronExpression**|String|Time After Formatt|
 |**dataCenter**|String|Data Center, i.e. regionId|
-|**description**|String||
+|**description**|String| |
 |**failurePolicy**|String|Policy adopted when task scheduling is failed|
-|**isSync**|Boolean||
-|**jobGroup**|String||
-|**jobIds**|String||
+|**isSync**|Boolean| |
+|**jobGroup**|String| |
+|**jobIds**|String| |
 |**jobTrigger**|String|Trigger|
 |**modifyTime**|String|Modification Time|
-|**orderBy**|String||
+|**orderBy**|String| |
 |**planId**|Number|Task Scheduling id|
-|**planName**|String||
-|**planStatus**|String||
-|**planType**|String||
+|**planName**|String| |
+|**planStatus**|String| |
+|**planType**|String| |
 
-## Return code
-|Return code|Description|
+## 返回码
+|返回码|描述|
 |---|---|
 |**200**|OK|
 |**500**|Internal server error|

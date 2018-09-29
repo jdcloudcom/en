@@ -1,40 +1,39 @@
 # deleteTopic
 
 
-## Description
+## 描述
 Delete Topic
 
-## Request method
+## 请求方式
 DELETE
 
-## Request address
+## 请求地址
 https://streambus.jdcloud-api.com/v1/regions/{regionId}/topic
 
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
+|**regionId**|String|True| |Region ID|
 
-## Request parameter
-|Name|Type|Required or not|Default value|Description|
+## 请求参数
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**name**|String|True|||
+|**name**|String|True| | |
 
 
-## Return parameter
-|Name|Type|Description|
+## 返回参数
+|名称|类型|描述|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
-
+|**requestId**|String| |
+|**result**|Result| |
 
 ### Result
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
 |**message**|String|Status Information|
-|**status**|Boolean||
+|**status**|Boolean| |
 
-## Return code
-|Return code|Description|
+## 返回码
+|返回码|描述|
 |---|---|
 |**200**|OK|
 |**404**|NOT FOUND|

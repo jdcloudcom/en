@@ -1,43 +1,42 @@
 # createSubuser
 
 
-## Description
-Create Sub-accounts
+## 描述
+Create sub-accounts
 
-## Request method
+## 请求方式
 POST
 
-## Request address
+## 请求地址
 https://iam.jdcloud-api.com/v1/regions/{regionId}/subUser
 
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
+|**regionId**|String|True| |Region ID|
 
-## Request parameter
-|Name|Type|Required or not|Default value|Description|
+## 请求参数
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**createSubUserInfo**|CreateSubUserInfo|True||Sub-account Information|
+|**createSubUserInfo**|CreateSubUserInfo|True| |Sub-account Information|
 
 ### CreateSubUserInfo
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**createAk**|Boolean|True||Create accessKey or Not|
-|**description**|String|False||Description, 0~256 characters|
-|**email**|String|True||Email|
-|**name**|String|True||Sub-account User Name, 4-20 numbers, letters, Chinese characters, underlines and line-throughs|
-|**password**|String|True||Password, 6-20 bits, containing at least one letters and at least one number or half-width character|
-|**passwordConfirm**|String|True||Confirm Password|
-|**phone**|String|True||Mobile Number, Area Code-Mobile Number, at present only support 0086-Chinese mobile number|
+|**createAk**|Boolean|True| |Create accessKey or Not|
+|**description**|String|False| |Description, 0~256 characters|
+|**email**|String|True| |Email|
+|**name**|String|True| |Sub-account User Name, 4-20 numbers, letters, Chinese characters, underlines and line-throughs|
+|**password**|String|True| |Password, 6-20 bits, containing at least one letters and at least one number or half-width character|
+|**passwordConfirm**|String|True| |Confirm Password|
+|**phone**|String|True| |Mobile Number, Area Code-Mobile Number, at present only support 0086-Chinese mobile number|
 
-## Return parameter
-|Name|Type|Description|
+## 返回参数
+|名称|类型|描述|
 |---|---|---|
-|**requestId**|String||
+|**requestId**|String| |
 
 
-
-## Return code
-|Return code|Description|
+## 返回码
+|返回码|描述|
 |---|---|
 |**200**|OK|

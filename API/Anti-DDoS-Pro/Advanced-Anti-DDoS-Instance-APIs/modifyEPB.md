@@ -1,39 +1,38 @@
 # modifyEPB
 
 
-## Description
+## 描述
 Update the Instance Elastic Protection Bandwidth
 
-## Request method
+## 请求方式
 POST
 
-## Request address
+## 请求地址
 https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:modifyEPB
 
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**instanceId**|String|True||Instance ID|
-|**regionId**|String|True||Belonging Region ID|
+|**instanceId**|String|True| |Instance ID|
+|**regionId**|String|True| |Belonging Region ID|
 
-## Request parameter
-|Name|Type|Required or not|Default value|Description|
+## 请求参数
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**ePBSpec**|EPBSpec|True||Update the Request Parameter of Elastic Protection Bandwidth|
+|**ePBSpec**|EPBSpec|True| |Update the Request Parameter of Elastic Protection Bandwidth|
 
 ### EPBSpec
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**ePB**|Integer|False||Elastic Protective Bandwidth|
+|**ePB**|Integer|False| |Elastic Protective Bandwidth|
 
-## Return parameter
-|Name|Type|Description|
+## 返回参数
+|名称|类型|描述|
 |---|---|---|
-|**requestId**|String||
+|**requestId**|String| |
 
 
-
-## Return code
-|Return code|Description|
+## 返回码
+|返回码|描述|
 |---|---|
 |**200**|OK|
 |**404**|NOT_FOUND|

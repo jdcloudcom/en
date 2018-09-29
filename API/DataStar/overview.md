@@ -1,16 +1,16 @@
 # Zhike Related APIs
 
 
-## Introduction
+## 简介
 Zhike Related APIs
 
 
-### Version
+### 版本
 v1
 
 
 ## API
-|Interface name|Request mehod|Function description|
+|接口名称|请求方式|功能描述|
 |---|---|---|
 |**getPackageId**|GET|Query Crowd Package ID according to device ID|
 |**getProfile**|GET|Query profile information of the corresponding user according to deviceId|

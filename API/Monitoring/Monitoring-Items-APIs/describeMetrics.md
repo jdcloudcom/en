@@ -1,37 +1,35 @@
 # describeMetrics
 
 
-## Description
+## 描述
 Query metric list to get monitoring data list based on product type
 
-## Request method
+## 请求方式
 GET
 
-## Request address
+## 请求地址
 https://monitor.jdcloud-api.com/v1/metrics
 
-|Name|Type|Required or not|Default value|Description|
+无
+
+## 请求参数
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-
-## Request parameter
-|Name|Type|Required or not|Default value|Description|
-|---|---|---|---|---|
-|**serviceCode**|String|True||Product Name: <br>vm--> Virtual Machine<br>disk-->Cloud Disk Service<br>ip--> Public IP<br>balance-->Load Balancer<br>database-->MySQL Service Version<br>cdn-->JD CDN<br>redis-->JCS for Redis<br>mongodb-->MongoDB Cloud Cache<br>storage-->Cloud Storage<br>sqlserver-->cloud Database Sqlserver Version <br>nativecontainer-->Container<br>|
+|**serviceCode**|String|True| |Product Name: <br>vm--> Virtual Machine<br>disk-->Cloud Disk Service<br>ip--> Public IP<br>balance-->Load Balancer<br>database-->MySQL Service Version<br>cdn-->JD CDN<br>redis-->JCS for Redis<br>mongodb-->MongoDB Cloud Cache<br>storage-->Cloud Storage<br>sqlserver-->cloud Database Sqlserver Version <br>nativecontainer-->Container<br>|
 
 
-## Return parameter
-|Name|Type|Description|
+## 返回参数
+|名称|类型|描述|
 |---|---|---|
 |**requestId**|String|Request ID|
-|**result**|Result||
-
+|**result**|Result| |
 
 ### Result
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
-|**metrics**|MetricDetail[]||
+|**metrics**|MetricDetail[]| |
 ### MetricDetail
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
 |**calculateUnit**|String|Computing unit of metric, such as bit/s, %, and byte|
 |**downSample**|String|Sampling Frequency|
@@ -39,8 +37,8 @@ https://monitor.jdcloud-api.com/v1/metrics
 |**metricName**|String|Metric Name|
 |**serviceCode**|String|Identifier of Resource Type|
 
-## Return code
-|Return code|Description|
+## 返回码
+|返回码|描述|
 |---|---|
 |**200**|OK|
 |**400**|invalid parameter|

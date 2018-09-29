@@ -1,65 +1,64 @@
 # createDisks
 
 
-## Description
+## 描述
 -   Create one or more Cloud Disks that are paid by configuration or by service time.
 -   Disk type includes Premium Hdd Cloud Disk and SSD Cloud Disk.
 -   The billing method defaults to paying by configuration.
 -   After creation is completed, the status of the Cloud Disk is available.
 -   The optional parameter snapshot ID is used to create a new disk.
--   In batch creation, the name of the Cloud Disk is:  disk name-number, such as myDisk-1 and myDisk-2.
+-   In batch creation, the name of the Cloud Disk is: hard disk name -number, such as myDisk-1 and myDisk-2.
 -   maxCount is the maximum effort, and it is not guaranteed that maxCount can be reached.
 
 
-## Request method
+## 请求方式
 POST
 
-## Request address
+## 请求地址
 https://disk.jdcloud-api.com/v1/regions/{regionId}/disks
 
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
+|**regionId**|String|True| |Region ID|
 
-## Request parameter
-|Name|Type|Required or not|Default value|Description|
+## 请求参数
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**clientToken**|String|True||Idempotence Check Parameter|
-|**diskSpec**|DiskSpec|True||Create Specification of the Cloud Disk|
-|**maxCount**|Integer|True||Instance Purchase Quantity; Value Range: [1,100]|
+|**clientToken**|String|True| |Idempotence Check Parameter|
+|**diskSpec**|DiskSpec|True| |Create the specification of the cloud disk|
+|**maxCount**|Integer|True| |Instance Purchase Quantity; Value Range: [1,100]|
 
 ### DiskSpec
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**az**|String|True||Availability Zone, to which the Cloud Disk belongs|
-|**charge**|ChargeSpec|False||Billing configuration. If not specified, the default billing type is pay-as-you-go - pay by service time by default.|
-|**description**|String|False||Description of the Cloud Disk|
-|**diskSizeGB**|Integer|True||Size of the Cloud Disk, in GiB; ssd value range of [20,1000]GB and step size of 10G; premium-hdd value range of [20,3000]GB and step size of 10G|
-|**diskType**|String|True||Type of the Cloud Disk, value ssd or premium-hdd|
-|**multiAttachable**|Boolean|False||Whether the Cloud Disk service supports the mode that one disk is attached to multiple machines. It is set as false by default (not supported).|
-|**name**|String|True||Name of the Cloud Disk|
-|**snapshotId**|String|False||Snapshot ID used to create the Cloud Disk|
+|**az**|String|True| |Availability Zone, to which the cloud disk belongs|
+|**charge**|ChargeSpec|False| |Billing configuration. If not specified, the default billing type is pay-as-you-go - pay by service time by default.|
+|**description**|String|False| |Description of the cloud disk|
+|**diskSizeGB**|Integer|True| |Size of the cloud disk, unit: GiB; ssd value range of [20,1000]GB and step size of 10G; premium-hdd value range of [20,3000]GB and step size of 10G|
+|**diskType**|String|True| |Type of the cloud disk, value ssd or premium-hdd|
+|**multiAttachable**|Boolean|False| |Whether the Cloud Disk Service supports the mode that one disk is attached to multiple machines. It is set as false by default (not supported).|
+|**name**|String|True| |Name of the cloud disk|
+|**snapshotId**|String|False| |Snapshot ID used to create a cloud disk|
 ### ChargeSpec
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**chargeDuration**|Integer|False||Pay-In-Advance billing duration, the Pay-In-Advance is compulsory and valid only when the value of chargeMode is prepaid_by_duration. When chargeUnit is month, the value shall be 1~9; when chargeUnit is year, the value shall be 1, 2 or 3|
+|**chargeDuration**|Integer|False| |Pay-In-Advance billing duration, the Pay-In-Advance is compulsory and valid only when the value of chargeMode is prepaid_by_duration. When chargeUnit is month, the value shall be 1~9; when chargeUnit is year, the value shall be 1, 2 or 3|
 |**chargeMode**|String|False|postpaid_by_duration|Billing model value is prepaid_by_duration, postpaid_by_usage or postpaid_by_duration; prepaid_by_duration means Pay-In-Advance, postpaid_by_usage means Pay-As-You-Go By Consumption and postpaid_by_duration means pay by configuration; is postpaid_by_duration by default. Please refer to the Help Documentation of specific product line to confirm the billing type supported by the production line|
-|**chargeUnit**|String|False||Billing unit of Pay-In-Advance, the Pay-In-Advance is compulsory, and valid only when chargeMode is prepaid_by_duration, and the value is month or year and month by default|
+|**chargeUnit**|String|False| |Billing unit of Pay-In-Advance, the Pay-In-Advance is compulsory, and valid only when chargeMode is prepaid_by_duration, and the value is month or year and month by default|
 
-## Return parameter
-|Name|Type|Description|
+## 返回参数
+|名称|类型|描述|
 |---|---|---|
 |**requestId**|String|Request ID|
 |**result**|Result|Result Set|
 
-
 ### Result
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
 |**diskIds**|String[]|List of Cloud Disk IDs created|
 
-## Return code
-|Return code|Description|
+## 返回码
+|返回码|描述|
 |---|---|
 |**400**|Invalid parameter|
 |**401**|Authentication failed|

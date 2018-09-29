@@ -1,50 +1,49 @@
 # createInstance
 
 
-## Description
+## 描述
 Create an instance
 
-## Request method
+## 请求方式
 POST
 
-## Request address
+## 请求地址
 https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances
 
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**regionId**|String|True||Belonging Region ID|
+|**regionId**|String|True| |Belonging Region ID|
 
-## Request parameter
-|Name|Type|Required or not|Default value|Description|
+## 请求参数
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**instanceSpec**|InstanceSpec|True||Instance type parameter|
+|**instanceSpec**|InstanceSpec|True| |Create instance request parameters|
 
 ### InstanceSpec
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**bp**|Integer|False||Minimum bandwidth: unit: Gbps|
-|**buyType**|Integer|False||Purchase Type, 1->newly purchased  3->upgraded|
-|**bw**|Integer|False||Business bandwidth: unit: Mbps|
-|**carrier**|String|False||ISP Line: TELECOM->China Telecom's ISP line  UNICOM->Unicom's ISP line CMCC->CMCC's ISP line|
-|**ep**|Integer|False||Elastic bandwidth: unit: Gbps|
-|**name**|String|False||Instance Name|
-|**returnUrl**|String|False||The page jumped to after the payment succeeds. The field is transferred in the console interaction mode|
-|**timeSpan**|Integer|False||Purchase Duration|
-|**timeUnit**|Integer|False||Purchase Duration Unit, 3->month  4->year|
+|**bp**|Integer|False| |Minimum Bandwidth: Unit: Gbps|
+|**buyType**|Integer|False| |Purchase Type: 1->newly purchased  3->upgraded|
+|**bw**|Integer|False| |Business Bandwidth: Unit: Mbps|
+|**carrier**|String|False| |ISP Line: TELECOM->China Telecom's ISP Line  UNICOM->Unicom's ISP Line CMCC->CMCC's ISP Line|
+|**ep**|Integer|False| |Elastic Bandwidth: Unit: Gbps|
+|**name**|String|False| |Instance Name|
+|**returnUrl**|String|False| |The page jumped to after the payment succeeds. The field is transferred in the console interaction mode|
+|**timeSpan**|Integer|False| |Purchase Duration|
+|**timeUnit**|Integer|False| |Purchase Duration Unit: 3->month  4->year|
 
-## Return parameter
-|Name|Type|Description|
+## 返回参数
+|名称|类型|描述|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
-
+|**requestId**|String| |
+|**result**|Result| |
 
 ### Result
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
-|**orderId**|String||
+|**orderId**|String| |
 
-## Return code
-|Return code|Description|
+## 返回码
+|返回码|描述|
 |---|---|
 |**200**|OK|

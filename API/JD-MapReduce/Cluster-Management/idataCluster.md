@@ -1,41 +1,39 @@
 # idataCluster
 
 
-## Description
-Query the cluster list corresponding to the user-assigned clusterId and related sevice information
+## 描述
+Query the cluster list corresponding to the user-assigned clusterId and related service information
 
-## Request method
+## 请求方式
 GET
 
-## Request address
+## 请求地址
 https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/idata
 
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**id**|String|True||Cluster ID: Composed of eight characters|
-|**regionId**|String|True||Region ID|
+|**id**|String|True| |Cluster ID: Composed of eight characters|
+|**regionId**|String|True| |Region ID|
 
-## Request parameter
-|Name|Type|Required or not|Default value|Description|
-|---|---|---|---|---|
+## 请求参数
+无
 
 
-## Return parameter
-|Name|Type|Description|
+## 返回参数
+|名称|类型|描述|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
-
+|**requestId**|String| |
+|**result**|Result| |
 
 ### Result
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
 |**data**|Object|"Include cluster information list - clusters"<br>"Cluster Machine Total Number - Total"<br>|
-|**message**|String||
-|**status**|String||
+|**message**|String| |
+|**status**|String| |
 
-## Return code
-|Return code|Description|
+## 返回码
+|返回码|描述|
 |---|---|
 |**200**|OK|
 |**500**|Internal server error|

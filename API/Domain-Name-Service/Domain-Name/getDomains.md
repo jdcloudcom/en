@@ -1,43 +1,42 @@
 # getDomains
 
 
-## Description
+## 描述
 Query the list of the main domain names under the username
 
-## Request method
+## 请求方式
 GET
 
-## Request address
+## 请求地址
 https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domain
 
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID to which the instance belongs|
+|**regionId**|String|True| |Region ID to which the instance belongs|
 
-## Request parameter
-|Name|Type|Required or not|Default value|Description|
+## 请求参数
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**domainName**|String|False||Keyword, matching the main domain name according to the '%domainName%' pattern|
-|**pageNumber**|Integer|True||Serial number of each page that is queried during the page query. The starting value is 1, and the default is 1.|
-|**pageSize**|Integer|True||Number of rows per page set during the page query, the default is 10.|
+|**domainName**|String|False| |Keyword, matching the main domain name according to the '%domainName%' pattern|
+|**pageNumber**|Integer|True| |Serial number of each page that is queried during the page query. The starting value is 1, and the default is 1.|
+|**pageSize**|Integer|True| |Number of rows per page set during the page query, the default is 10.|
 
 
-## Return parameter
-|Name|Type|Description|
+## 返回参数
+|名称|类型|描述|
 |---|---|---|
-|**requestId**|String|ID of this request|
-|**result**|Result||
-
+|**requestId**|String|ID of This Request|
+|**result**|Result| |
 
 ### Result
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
 |**currentCount**|Integer|Number of Domain Names in the Domain Name List of the Current Page|
 |**dataList**|Domain[]|Domain Name List|
 |**totalCount**|Integer|Number of All Matched Domain Name Lists|
 |**totalPage**|Integer|Pages of All Matched Domain Name Lists in Total According to the Paging Parameters                    |
 ### Domain
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
 |**createTime**|Integer|Creation Time, Format Unix Timestamp |
 |**domainName**|String|Domain Name String|
@@ -45,8 +44,8 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domain
 |**id**|Integer|Unique ID of the Domain Name|
 |**packId**|Integer|Package Type, 0->Free 1->Enterprise Edition 2->Advanced Edition|
 
-## Return code
-|Return code|Description|
+## 返回码
+|返回码|描述|
 |---|---|
 |**200**|OK|
 |**400**|BAD_REQUEST|

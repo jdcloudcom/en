@@ -1,37 +1,36 @@
 # updateAssumeRolePolicy
 
 
-## Description
-Modify Role Built-in Policy
+## 描述
+Modify role built-in policy
 
-## Request method
+## 请求方式
 PUT
 
-## Request address
+## 请求地址
 https://iam.jdcloud-api.com/v1/role/{roleName}/assumeRolePolicy
 
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**roleName**|String|True||Role Name|
+|**roleName**|String|True| |Role Name|
 
-## Request parameter
-|Name|Type|Required or not|Default value|Description|
+## 请求参数
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**updateAssumeRolePolicyInfo**|UpdateAssumeRolePolicyInfo|True||Role Permission Information|
+|**updateAssumeRolePolicyInfo**|UpdateAssumeRolePolicyInfo|True| |Role Permission Information|
 
 ### UpdateAssumeRolePolicyInfo
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**assumeRolePolicyDocument**|String|False||Role Assumption Policy|
+|**assumeRolePolicyDocument**|String|False| |Role Assumption Policy|
 
-## Return parameter
-|Name|Type|Description|
+## 返回参数
+|名称|类型|描述|
 |---|---|---|
-|**requestId**|String||
+|**requestId**|String| |
 
 
-
-## Return code
-|Return code|Description|
+## 返回码
+|返回码|描述|
 |---|---|
 |**200**|OK|

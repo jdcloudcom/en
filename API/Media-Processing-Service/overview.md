@@ -1,16 +1,16 @@
 # Media Processing API
 
 
-## Introduction
+## 简介
 Media Processing API
 
 
-### Version
+### 版本
 v1
 
 
 ## API
-|Interface name|Request mehod|Function description|
+|接口名称|请求方式|功能描述|
 |---|---|---|
 |**countImageStyle**|GET|Total Number of Image Styles|
 |**createImageStyle**|POST|Add Image Style|

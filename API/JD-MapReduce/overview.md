@@ -1,16 +1,16 @@
 # JMR API
 
 
-## Introduction
+## 简介
 Provide APIs for JD MapReduce operation in big data infrastructure services
 
 
-### Version
+### 版本
 v1
 
 
 ## API
-|Interface name|Request mehod|Function description|
+|接口名称|请求方式|功能描述|
 |---|---|---|
 |**calculateClusterPrice**|POST|Calculate the cluster price of the corresponding specification attribute|
 |**calculateExpansionPrice**|POST|Compute the price of cluster expansion|
@@ -49,7 +49,7 @@ v1
 |**getTaskList**|POST|Obtain the operation record of a job|
 |**getWorkFlowList**|POST|Obtain the workflow list|
 |**getWorkFlowTrackerList**|POST|Obtain the workflow operation record list|
-|**idataCluster**|GET|Query the cluster list corresponding to the user\-assigned clusterId and related sevice information|
+|**idataCluster**|GET|Query the cluster list corresponding to the user\-assigned clusterId and related service information|
 |**isValidJobName**|POST|Verify whether the job name is valid|
 |**isValidPlanName**|POST|Verify whether the execution plan name is available|
 |**modifyCronJob**|POST|Modify the execution plan of deployment job|

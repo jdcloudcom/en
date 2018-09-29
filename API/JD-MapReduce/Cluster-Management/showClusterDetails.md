@@ -1,40 +1,39 @@
 # showClusterDetails
 
 
-## Description
+## 描述
 Query the corresponding cluster details according to clusterId
 
-## Request method
+## 请求方式
 GET
 
-## Request address
+## 请求地址
 https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/detail
 
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
+|**regionId**|String|True| |Region ID|
 
-## Request parameter
-|Name|Type|Required or not|Default value|Description|
+## 请求参数
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**id**|String|True||Cluster ID: Composed of eight characters|
+|**id**|String|True| |Cluster ID: Composed of eight characters|
 
 
-## Return parameter
-|Name|Type|Description|
+## 返回参数
+|名称|类型|描述|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
-
+|**requestId**|String| |
+|**result**|Result| |
 
 ### Result
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
 |**data**|ClusterDetailModel|Corresponding Cluster Details|
-|**message**|String||
-|**status**|String||
+|**message**|String| |
+|**status**|String| |
 ### ClusterDetailModel
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
 |**bandwidthOut**|Integer|Network Bandwidth|
 |**clusterPrimaryId**|Integer|Cluster Primary Key ID|
@@ -42,10 +41,10 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/detail
 |**dataCenter**|String|Region, the same as regionID|
 |**duration**|String|Operating Hours|
 |**haFlag**|Boolean|Whether it is high availability mode or not|
-|**hardware**|HardwareInfo[]||
+|**hardware**|HardwareInfo[]| |
 |**id**|String|Cluster ID|
 |**jssFlag**|Boolean|Whether to associate the Object Storage Service or not|
-|**name**|String|Cluster name supports Chinese, numbers, capital and lowercase letters, English underline “_” and line-through “-”, with the length of 6-32 characters.|
+|**name**|String|Cluster name allows Chinese, numbers, capital and lowercase letters, English underline “_” and line-through “-”, with the length of 6-32 characters.|
 |**nodeCount**|Integer|Node Number|
 |**payPrice**|String|Payment Price|
 |**payType**|String|Payment Type|
@@ -54,7 +53,7 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/detail
 |**vpcName**|String|Name of Virtual Private Cloud|
 |**vpcSubnetName**|String|Subnet Name|
 ### HardwareInfo
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
 |**firewall**|String|Firewall|
 |**innerIp**|String|Private IP|
@@ -72,8 +71,8 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/detail
 |**outerIp**|String|Internet IP|
 |**serverId**|String|Node Instance ID|
 
-## Return code
-|Return code|Description|
+## 返回码
+|返回码|描述|
 |---|---|
 |**200**|OK|
 |**500**|Internal server error|

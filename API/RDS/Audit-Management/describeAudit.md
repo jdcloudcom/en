@@ -1,36 +1,35 @@
 # describeAudit
 
 
-## Description
+## 描述
 View the audit options of the current instance that have been enabled. If no audit option is enabled for the current instance, it returns an empty array<br>- Support SQL Server Only
 
-## Request method
+## 请求方式
 GET
 
-## Request address
+## 请求地址
 https://rds.jdcloud-api.com/0.2.9/regions/{regionId}/instances/{instanceId}/audit
 
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**instanceId**|String|True||RDS instance ID, which uniquely identifies an RDS instance|
-|**regionId**|String|True||Region code, with range detailed in [Regions and Availability Zone Comparison Table](../Enum-Definitions/Regions-AZ.md)|
+|**instanceId**|String|True| |RDS instance ID, which uniquely identifies an RDS instance|
+|**regionId**|String|True| |Region code, with range detailed in [Regions and Availability Zone Comparison Table](../Enum-Definitions/Regions-AZ.md)|
 
-## Request parameter
-None
+## 请求参数
+无
 
 
-## Return parameter
-|Name|Type|Description|
+## 返回参数
+|名称|类型|描述|
 |---|---|---|
-|**result**|Result||
-
+|**result**|Result| |
 
 ### Result
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
-|**enabled**|String[]||
+|**enabled**|String[]| |
 
-## Return code
-|Return code|Description|
+## 返回码
+|返回码|描述|
 |---|---|
 |**200**|OK|

@@ -1,40 +1,38 @@
 # showJobDetails
 
 
-## Description
+## 描述
 View the job details corresponding to the specified jobId
 
-## Request method
+## 请求方式
 POST
 
-## Request address
+## 请求地址
 https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/{jobId}:detail
 
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**jobId**|String|True||Job Id to be Viewed|
-|**regionId**|String|True||Region ID|
+|**jobId**|String|True| |Job Id to be Viewed|
+|**regionId**|String|True| |Region ID|
 
-## Request parameter
-|Name|Type|Required or not|Default value|Description|
-|---|---|---|---|---|
+## 请求参数
+无
 
 
-## Return parameter
-|Name|Type|Description|
+## 返回参数
+|名称|类型|描述|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
-
+|**requestId**|String| |
+|**result**|Result| |
 
 ### Result
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
-|**data**|JmrJobViewModel||
-|**message**|String||
-|**status**|String||
+|**data**|JmrJobViewModel| |
+|**message**|String| |
+|**status**|String| |
 ### JmrJobViewModel
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
 |**clusterId**|String|Cluster ID|
 |**clusterName**|String|Cluster Name|
@@ -42,11 +40,12 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/{jobId}:detail
 |**createTime**|String|Creation Time|
 |**cronExpression**|String|Regular Task Time|
 |**dataCenter**|String|Data Center|
-|**id**|String|Job ID|
-|**isSelfDependence**|Integer||
+|**id**|Integer| |
+|**isSelfDependence**|Integer| |
 |**isSendMsg**|Boolean|Whether to send a SMS notice after job is failed|
-|**isVirtualTask**|Integer||
+|**isVirtualTask**|Integer| |
 |**jobGroup**|String|Job Group|
+|**jobId**|String|Job ID|
 |**jobName**|String|Job Name|
 |**jobStatus**|String|Job Status|
 |**jobTrigger**|String|Job Trigger|
@@ -55,11 +54,11 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/{jobId}:detail
 |**orderBy**|String|Extra Field, optional|
 |**params**|String|Required Parameter|
 |**retryTimes**|Integer|Number of Job Retry|
-|**taskScheduleType**|Integer||
+|**taskScheduleType**|Integer| |
 |**userpin**|String|User Name|
 
-## Return code
-|Return code|Description|
+## 返回码
+|返回码|描述|
 |---|---|
 |**200**|OK|
 |**500**|Internal server error|

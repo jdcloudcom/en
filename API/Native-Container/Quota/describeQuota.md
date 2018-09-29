@@ -1,45 +1,44 @@
 # describeQuota
 
 
-## Description
+## 描述
 Search resource quota and support Native Container and secret.
 
 
-## Request method
+## 请求方式
 GET
 
-## Request address
+## 请求地址
 https://nc.jdcloud-api.com/v1/regions/{regionId}/quotas
 
-|Name|Type|Required or not|Default value|Description|
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
+|**regionId**|String|True| |Region ID|
 
-## Request parameter
-|Name|Type|Required or not|Default value|Description|
+## 请求参数
+|名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**resourceType**|String|True||resourceType - Resource type, support many [container, secret]<br>|
+|**resourceType**|String|True| |resourceType - Resource type, support many [container, secret]<br>|
 
 
-## Return parameter
-|Name|Type|Description|
+## 返回参数
+|名称|类型|描述|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
-
+|**requestId**|String| |
+|**result**|Result| |
 
 ### Result
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
-|**quota**|Quota||
+|**quota**|Quota| |
 ### Quota
-|Name|Type|Description|
+|名称|类型|描述|
 |---|---|---|
 |**limit**|Integer|Quota|
 |**used**|Integer|Used Number|
 
-## Return code
-|Return code|Description|
+## 返回码
+|返回码|描述|
 |---|---|
 |**400**|Invalid parameter|
 |**401**|Authentication failed|
