@@ -10,7 +10,7 @@ definitions:
         description: "Destination of Archiving"
       recordSize: 
         type: integer
-        description: "It Starts to Archive When Achieving the Data Bulk"
+        description: "It starts to archive when achieving the data bulk"
       cycle:
         type: integer
         description: "Time Period of Performing Archiving Task"

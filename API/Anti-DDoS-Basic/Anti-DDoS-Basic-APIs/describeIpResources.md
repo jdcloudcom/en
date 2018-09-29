@@ -38,7 +38,7 @@ https://baseanti.jdcloud-api.com/v1/regions/{regionId}/ipResources
 |---|---|---|
 |**bandwidth**|Integer|Bandwidth Cap, Unit: Mbps|
 |**ip**|String|EIP Address|
-|**safeStatus**|Integer|Security Status, 0->Safe  1->Clean  2-Black Hole|
+|**safeStatus**|Integer|Security Status, 0->Safe  1->Clean  2->Black Hole|
 
 ## Return code
 |Return code|Description|

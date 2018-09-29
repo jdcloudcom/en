@@ -36,12 +36,8 @@ items:
       href: Operation-Guide/View-Report-log.md            
 - name: Best Practices
   items:
-    - name: Anti-DDoS Basic + Anti-DDoS Pro Linkage Scheme
+    - name: Anti-DDoS Basic + Advanced Anti-DDoS Linkage Scheme
       href: Best-Practices/Linkage-Scheme.md	
-- name: Tutorial
-  status: 0
-- name: Troubleshooting
-  href:
 - name: FAQ
   href: FAQ/FAQ.md
 - name: API Reference

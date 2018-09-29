@@ -7,7 +7,7 @@
         href: Introduction/Product-Overview.md
       - name: Core Concepts
         href: Introduction/Core-Concepts.md
-      - name: Basic Infrastructure
+      - name: Basic Architecture
         href: Introduction/Basic-Infrastructure.md
       - name: Benefits
         href: Introduction/Benefits.md
@@ -53,7 +53,7 @@
             href: Operation-Guide/Instance-Management/Restart-Instance.md
           - name: Renew Instance
             href: Operation-Guide/Instance-Management/Renewal-Instructions.md      
-          - name: Delete instance
+          - name: Delete Instance
             href: Operation-Guide/Instance-Management/Delete-Instance.md
       - name: Account Management
         items:
@@ -100,7 +100,7 @@
     status: 0
   - name: Troubleshooting
     items:
-    - name: Can not Connect the MongoDB Instance with Virtual Machines?
+    - name: Cannot Connect the MongoDB Instance with Virtual Machines?
       href: Troubleshooting/Connect-Failed.md
     - name: Which Commands Are Not Supported by the JCS for MongoDB?
       href: Troubleshooting/Command.md
@@ -108,10 +108,6 @@
       href: Troubleshooting/Authentication.md        
   - name: FAQ
     href: FAQ/FAQ.md
-  - name: API Reference
-    href:
-  - name: SDK Reference
-    href:
   - name: User Agreements
     status: 0
     items:

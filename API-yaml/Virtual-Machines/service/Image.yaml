@@ -22,7 +22,7 @@ paths:
               result:
                 properties:
                   image:
-                    description: "image details"
+                    description: "Image Details"
                     $ref: "../model/Image.yaml#/definitions/image"
               requestId:
                 type: string
@@ -31,13 +31,13 @@ paths:
         401:
           description: "Authentication failed"
         404:
-          description: "Not found  "
+          description: "Not Found  "  
         500:
           description: "Internal server error"
         503:
           description: "Service unavailable"
 
-    ###################### Delete image interface ######################
+    ###################### Delete image API ######################
     delete:
       description: |
         Delete a private image that only allows you to operate your personal private image.
@@ -51,39 +51,39 @@ paths:
         401:
           description: "Authentication failed"
         404:
-          description: "Not found  "
+          description: "Not Found  "  
         500:
           description: "Internal server error"
         503:
           description: "Service unavailable"
 
   "/images":
-    ###################### The image list interface ######################
+    ###################### Image List API ######################
     get:
       description: |
         Query the image information list. <br>
-        This interface allows you to query an public image of JD Cloud,  a third-party image,  a private image,  or an image that other users share to you. <br>
+        This API allows you to query an public image of JD Cloud, a third-party image, a private image, or an image that other users share to you. <br>
         This API supports paging query with 20 items per page by default.
       operationId: describeImages
       parameters:
         - name: imageSource
           in: query
           type: string
-          description: "image source,  if no ids parameter is specified,  this parameter is required to pass; value range: public、shared、thirdparty、private"
+          description: "Image source, if no ids parameter is specified, this parameter is required to pass; value range: public, shared, thirdparty, private"
         - name: platform
           in: query
           type: string
-          description: "Operating system platform,  range of values: Windows Server,  CentOS,  Ubuntu"
+          description: "Operating system platform, range of values: Windows Server, CentOS, Ubuntu"
         - name: ids
           in: query
           type: array
           items:
             type: string
-          description: "image ID list,  if this parameter is specified,  other parameters can be null"
+          description: "Image ID list, if this parameter is specified, other parameters can be null"
         - name: rootDeviceType
           in: query
           type: string
-          description: "image-supported system disk types, [ScanDisk,  click Disk]"
+          description: "Image-supported system disk types, [ScanDisk, click Disk]"
         - name: status
           in: query
           type: string
@@ -97,7 +97,7 @@ paths:
           in: query
           type: integer
           default: 20
-          description: "Paging size; 20 by default;Value range[10, 100] "
+          description: "Paging Size; 20 by default; Value range[10, 100] "
       responses:
         200:
           description: "OK"
@@ -108,7 +108,7 @@ paths:
                 properties:
                   images:
                     type: array
-                    description: "image details"
+                    description: "Image Details"
                     items:
                       $ref: "../model/Image.yaml#/definitions/image"
                   totalCount:
@@ -121,18 +121,18 @@ paths:
         401:
           description: "Authentication failed"
         404:
-          description: "Not found  "
+          description: "Not Found  "  
         500:
           description: "Internal server error"
         503:
           description: "Service unavailable"
 
   "/images/{imageId}/constraints":
-    ###################### Query Image Restriction Interface ######################
+    ###################### Query Image Restriction API ######################
     get:
       description: |
         Query the instance type limit of the image. <br>
-        This interface allows you to view the type of specifications that are not supported by the image. Only the public image,  the third-party image has a specification type restriction,  and the private image of the individual does not have this limit.
+        This API allows you to view the type of specifications that are not supported by the image. Only the public image, the third-party image has a specification type restriction, and the private image of the individual does not have this limit.
       operationId: describeImageConstraints
       responses:
         200:
@@ -144,7 +144,7 @@ paths:
                 properties:
                   imageConstraints:
                     type: object
-                    description: "image restriction"
+                    description: "Image Restriction"
                     $ref: "../model/ImageConstraint.yaml#/definitions/imageConstraint"
               requestId:
                 type: string
@@ -153,7 +153,7 @@ paths:
         401:
           description: "Authentication failed"
         404:
-          description: "Not found  "
+          description: "Not Found  "  
         500:
           description: "Internal server error"
         503:
@@ -164,7 +164,7 @@ paths:
     get:
       description: |
         Batch query image specification type constraints. <br>
-        This interface allows you to view the type of specifications that are not supported by the image. Only the public image,  the third-party image has a specification type restriction,  and the private image of the individual does not have this limit.
+        This API allows you to view the type of specifications that are not supported by the image. Only the public image, the third-party image has a specification type restriction, and the private image of the individual does not have this limit.
       operationId: describeImageConstraintsBatch
       parameters:
         - name: ids
@@ -172,7 +172,7 @@ paths:
           type: array
           items:
             type: string
-          description: "Image ID list"
+          description: "Image ID List"
       responses:
         200:
           description: "OK"
@@ -185,7 +185,7 @@ paths:
                     type: array
                     items:
                       $ref: "../model/ImageConstraint.yaml#/definitions/imageConstraint"
-                    description: "image restriction"
+                    description: "Image Restriction"
               requestId:
                 type: string
         400:
@@ -193,7 +193,7 @@ paths:
         401:
           description: "Authentication failed"
         404:
-          description: "Not found"
+          description: "Not Found  "
         500:
           description: "Internal server error"
         503:
@@ -203,7 +203,7 @@ paths:
     ###################### Shared Image ######################
     post:
       description: |
-        Shared Image allows you to operate only your private image,  and a single image can be shared for up to 20 JD Cloud accounts. <br>
+        Shared Image allows you to operate only your private image, and a single image can be shared for up to 20 JD Cloud accounts. <br>
         The packaging image does not currently support sharing.
       operationId: shareImage
       parameters:
@@ -212,7 +212,7 @@ paths:
           type: array
           items:
             type: string
-          description: "the account that needs to be shared"
+          description: "The account that needs to be shared"
       responses:
         200:
           description: "OK"
@@ -221,14 +221,14 @@ paths:
         401:
           description: "Authentication failed"
         404:
-          description: "Not found  "
+          description: "Not Found  "  
         500:
           description: "Internal server error"
         503:
           description: "Service unavailable"
 
   "/images/{imageId}:unshare":
-    ###################### Cancel  Shared Image ######################
+    ###################### Cancel Shared Image ######################
     post:
       description: |
         Unshared images only allow you to operate your personal private image.
@@ -239,7 +239,7 @@ paths:
           type: array
           items:
             type: string
-          description: "account that needs to be cancelled"
+          description: "The account that needs to be cancelled"
       responses:
         200:
           description: "OK"
@@ -248,7 +248,7 @@ paths:
         401:
           description: "Authentication failed"
         404:
-          description: "Not found  "
+          description: "Not Found  "  
         500:
           description: "Internal server error"
         503:
@@ -258,7 +258,7 @@ paths:
     ###################### Query Image Shared Account List ######################
     get:
       description: |
-        Query the image-shared account list,  allowing you to operate your personal private image only.
+        Query the image-shared account list, allowing  you to operate your personal private image only.
       operationId: describeImageMembers
       responses:
         200:
@@ -279,7 +279,7 @@ paths:
         401:
           description: "Authentication failed"
         404:
-          description: "Not found  "
+          description: "Not Found  "  
         500:
           description: "Internal server error"
         503:
@@ -290,7 +290,7 @@ paths:
     post:
       description: |
         Internal APIs. <br>
-        Image conversion,  only the conversion of the image from the LocalDisk to the cloudDisk type is supported,  allowing only your personal private image to be operated.
+        Image conversion, only the conversion of the image from the LocalDisk to the cloudDisk type is supported, allowing  only your personal private image to be operated.
       operationId: convertImage
       x-jdcloud-internal: true
       responses:
@@ -302,7 +302,7 @@ paths:
                 properties:
                   imageId:
                     type: string
-                    description: "ID of the new image after conversion"
+                    description: "ID of the New Image after Conversion"
               requestId:
                 type: string
         400:
@@ -310,7 +310,7 @@ paths:
         401:
           description: "Authentication failed"
         404:
-          description: "Not found"
+          description: "Not Found  "
         500:
           description: "Internal server error"
         503:
@@ -320,7 +320,7 @@ paths:
     ###################### The inter-zone image replication ######################
     post:
       description: |
-        Image inter-domain replication,  copy private images to other regions,  allowing you to operate your private image only. <br>
+        Image inter-domain replication, copy private images to other regions, allowing  you to operate your private image only. <br>
         Only images of the Cloud Disk Service of system disk are supported.
       operationId: copyImages
       parameters:
@@ -330,12 +330,12 @@ paths:
           items:
             type: string
           required: true
-          description: "Source image ID"
+          description: "Source Image ID"
         - name: destinationRegion
           in: query
           type: string
           required: true
-          description: "target area"
+          description: "Target Area"
       responses:
         200:
           description: "OK"
@@ -355,7 +355,7 @@ paths:
         401:
           description: "Authentication failed"
         404:
-          description: "Not found"
+          description: "Not Found  "
         500:
           description: "Internal server error"
         503:
@@ -365,7 +365,7 @@ paths:
     ###################### Modify Image Information ######################
     post:
       description: |
-        Modify the image information,  including name and description; Only allow your personal private image to be operated.
+        Modify the image information, including name and description; Only allow your personal private image to be operated.
       operationId: modifyImageAttribute
       parameters:
         - name: name
@@ -384,13 +384,13 @@ paths:
         401:
           description: "Authentication failed"
         404:
-          description: "Not found"
+          description: "Not Found  "
         500:
           description: "Internal server error"
         503:
           description: "Service unavailable"
 
-# path general parameters
+# Path General Parameters
 parameters:
   regionId:
     name: regionId

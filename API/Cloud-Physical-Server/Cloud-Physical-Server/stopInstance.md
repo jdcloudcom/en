@@ -2,7 +2,7 @@
 
 
 ## Description
-To Execute the Shutdown Operation to a Single Cloud Physical Servers, Only the Running Server Can Be Stopped
+To execute the shutdown operation to a single Cloud Physical Server, only the running Server can be stopped
 
 ## Request method
 PUT
@@ -13,7 +13,7 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:stopIns
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**instanceId**|String|True||Cloud Physical Server ID|
-|**regionId**|String|True||Region ID, the Region and Availability Zone Supported by the Cloud Physical Servers can be Called by Calling APIs (describeRegions)|
+|**regionId**|String|True||Region ID, the Region and Availability Zone supported by the Cloud Physical Servers can be obtained by calling APIs (describeRegions)|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|

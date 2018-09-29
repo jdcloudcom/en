@@ -107,7 +107,7 @@ definitions:
         description: "Notification Period Unit: Hour"
         type: integer
       operation:
-        description: "'>=、>、<、<=、==、!='"
+        description: '>=, >, <, <=, ==, !='
         type: string
       period:
         description: "Statistical Period (Unit: Minute), optional value: 2, 5, 15, 30, 60"
@@ -164,7 +164,7 @@ definitions:
         type: string
         format: date-time
       operation:
-        description: "'>=、>、<、<=、==、！='"
+        description: '>=, >, <, <=, ==, !='
         type: string
       period:
         description: "Statistical Period (Unit: Minute)"
@@ -235,7 +235,7 @@ definitions:
         type: string
         format: date-time
       operation:
-        description: "'>=、>、<、<=、==、！='"
+        description: '>=, >, <, <=, ==, !='
         type: string
       period:
         description: "Statistical Period (Unit: Minute)"

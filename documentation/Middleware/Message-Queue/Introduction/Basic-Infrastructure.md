@@ -11,8 +11,8 @@ The business structure is as follows:
 | Meta Manager Cluster | The core components of Message Queue are responsible for message route, authorization, and control events. |
 | Control Service | Deal with the request tasks from users and back-ends, the tasks include creating, deleting, searching, modifying configuration, and resetting consumer offset. |
 | Monitoring Service | Gather the information of Message Queue Topic and Consumer Group for users and console display. |
-| Log Service | Gather the log information of Message Queue.  |
-| Billing Service | Responsible for calculating user's request amount.  |
+| Log Service | Gather the log information of Message Queue. |
+| Billing Service | Responsible for calculating user's request amount. |
 
 
 ## Related References

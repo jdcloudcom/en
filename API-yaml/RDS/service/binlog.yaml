@@ -2,7 +2,7 @@ swagger: "2.0" # realized based on Swagger 2.0 version
 info:
   version: v1
   title: binlog Log
-  description: "binlog Log Related Interface"
+  description: "binlog Log Related API"
 basePath: /regions/{regionId}
 paths:
   "/instances/{instanceId}/binlogs": #binlog Log

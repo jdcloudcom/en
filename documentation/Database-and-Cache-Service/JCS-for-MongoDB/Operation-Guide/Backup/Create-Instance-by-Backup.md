@@ -9,7 +9,7 @@ The MongoDB console provides the function to create instance based on backup, al
 
 ## Operation Steps
 
-1. Login [MongoDB Console](https://mongodb-console.jdcloud.com/mongodb?dataCenter=bj_02).
+1. Login [MongoDB Console](https://mongodb-console.jdcloud.com/mongodb).
 1. On the "Instance List" page, select the target instance, then click **Instance Name** to enter the "Instance Details" page.
 1. On the "Instance Details" page, click **Backup and Recovery** to view the backup data.
 1. Select the backup you want to use. In the operation items, click **Create based on Backup** to enter the page for creating instance based on backup.
@@ -19,7 +19,7 @@ The MongoDB console provides the function to create instance based on backup, al
 	
 1. On the page for creating instance based on backup, select the billing type and instance type configuration to complete the instance creation. The creation process is the same as [Create Instance](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Getting-Started/CreateInstance.md).
 
-   Note: The region is the same as the that of the source instance and cannot be modified.
+   Note: The region is the same as that of the source instance and cannot be modified.
 
    ![](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-023.png)
 

@@ -13,4 +13,4 @@ definitions:
         description: "Indicates whether the network interface is deleted when deleting an instance, and the default is true, which cannot be changed currently"
       networkInterface:
         $ref: "./InstanceTemplateNetworkInterfaceSpec.yaml#/definitions/instanceTemplateNetworkInterfaceSpec"
-        description: "Network interface API instance type;This field is currently required"
+        description: "Network interface API instance type; this field is currently required"

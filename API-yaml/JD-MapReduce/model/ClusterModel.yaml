@@ -8,7 +8,7 @@ definitions:
       name:
         type: string
         required: true
-        description: "Cluster name supports Chinese, numbers, capital and lowercase letters, English underline “_” and line-through “-”, with the length of 6-32 characters."
+        description: "Cluster name allows Chinese, numbers, capital and lowercase letters, English underline “_” and line-through “-”, with the length of 6-32 characters."
       password:
         type: string
         required: true

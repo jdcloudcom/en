@@ -2,7 +2,7 @@ swagger: "2.0" # realized based on Swagger 2.0 version
 info:
   version: v1
   title: Backup Management
-  description: "Backup Management Related Interface"
+  description: "Backup Management Related API"
 
 basePath: /regions/{regionId}
 
@@ -99,7 +99,7 @@ paths:
           description: "OK"
   "/backups/{backupId}/downloadURLs":
     get:
-      description: "Obtain the download link of the entire backups or  a single file in the backup. <br>- When there is a file name in the input parameter, obtain the download link of the file. <br>- When there is no file name in the input parameter, obtain the download link of the entire backups. <br>Due to the difference of backup mechanism, when using this interface to download backups, SQL Server must input the file name, and each file is downloaded one by one. It does not support downloading the entire backup. The file name (excluding the suffix) in the SQL Server backup is the database name of the backup. For example, the file name is my_test_db.bak, indicating that the file is a backup of the my_test_db database. <br>MySQL can download the entire backup set, but does not support the download of a single file. <br>- Support SQL Server Only"
+      description: "Obtain the download link of the entire backups or  a single file in the backup. <br>- When there is a file name in the input parameter, obtain the download link of the file. <br>- When there is no file name in the input parameter, obtain the download link of the entire backups. <br>Due to the difference of backup mechanism, when using this API to download backups, SQL Server must input the file name, and each file is downloaded one by one. It does not support downloading the entire backup. The file name (excluding the suffix) in the SQL Server backup is the database name of the backup. For example, the file name is my_test_db.bak, indicating that the file is a backup of the my_test_db database. <br>MySQL can download the entire backup set, but does not support the download of a single file. <br>- Support SQL Server Only"
       operationId: describeBackupDownloadURL
       parameters:
         - name: fileName

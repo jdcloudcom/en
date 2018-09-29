@@ -46,7 +46,7 @@ paths:
                     type: integer
               requestId:
                 type: string
-                description: "ID of this request"
+                description: "ID of This Request"
         400:
           description: "BAD_REQUEST"
           
@@ -85,7 +85,7 @@ paths:
                       $ref: "../model/RR.yaml#/definitions/viewTree"
               requestId:
                 type: string
-                description: "ID of this request"
+                description: "ID of This Request"
         400:
           description: "BAD_REQUEST"
           
@@ -113,7 +113,7 @@ paths:
                     $ref: "../model/RR.yaml#/definitions/RR"
               requestId:
                 type: string
-                description: "ID of this request"
+                description: "ID of This Request"
         400:
           description: "BAD_REQUEST"
           
@@ -135,7 +135,7 @@ paths:
           schema:
             properties:
               requestId:
-                description: "ID of this request"
+                description: "ID of This Request"
                 type: string
         400:
           description: "BAD_REQUEST"
@@ -165,9 +165,9 @@ paths:
             properties:
               requestId:
                 type: string
-                description: "ID of this request"
+                description: "ID of This Request"
         400:
-          description: "BAD_REQUEST "
+          description: "BAD_REQUEST" 
          
 # General Parameters for Path
 parameters:

@@ -3,7 +3,7 @@
 JCS for MongoDB provides automatic backup and manual backup. To export the data, you can download the backup file and export it to your local database.
 
 ## Operation Steps
-1. Login [MongoDB Console](https://mongodb-console.jdcloud.com/mongodb?dataCenter=bj_02).
+1. Login [MongoDB Console](https://mongodb-console.jdcloud.com/mongodb).
 2. On the "Instance List" page, select the target instance, then click **Instance Name** to enter the "Instance Details" page.
 3. On the "Instance Details" page, click **Backup & Restore** to view the backup data.
 

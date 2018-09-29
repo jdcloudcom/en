@@ -75,4 +75,4 @@ definitions:
         description: "Billing Information"
       isSetSecurityIps:
         type: boolean
-        description: "Whether to Set White List, true: set, false: not set"
+        description: "Whether to set White List, true: set, false: not set"

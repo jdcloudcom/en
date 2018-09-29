@@ -9,13 +9,13 @@ definitions:
     properties:
       AzName:
         type: string
-        description: "Availability Zone, to which the Cloud Disk belongs"
+        description: "Availability Zone, to which the cloud disk belongs"
       MediaType:
         type: string
         enum:
           - "ssd"
           - "premium-hdd"
-        description: "Type of the Cloud Disk, value ssd or premium-hdd"
+        description: "Type of the cloud disk, value ssd or premium-hdd"
       IsSoldOut:
         type: boolean 
-        description: "Is it sold out?
+        description: "Is it sold out?"

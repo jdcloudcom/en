@@ -7,7 +7,7 @@ definitions:
     properties:
       id:
         type: integer
-        description: "Database id"
+        description: "Database ID"
       userName:
         type: string
         description: "User Name"

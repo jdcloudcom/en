@@ -12,8 +12,8 @@ schemes:
 paths:
   "/quotas/":
      get:
-       summary: "Query Quota Information"
-       description: "Query Quota Information"
+       summary: "Query quota information"
+       description: "Query quota information"
        operationId: DescribeQuota
 
        parameters:
@@ -29,7 +29,7 @@ paths:
 
        responses:
          200:
-           description: "Successful operation"
+           description: "Successful Operation"
            schema:
              type:  object
              properties:
@@ -49,8 +49,8 @@ paths:
            description: "Internal server error"
 
      patch:
-       summary: "Modify Quota Information"
-       description: "Modify Quota Information"
+       summary: "Modify quota information"
+       description: "Modify quota information"
        x-jdcloud-internal: true
        operationId: ModifyQuota
 
@@ -58,14 +58,14 @@ paths:
           - name: modifyQuotaSpec
             in: body
             required: true
-            description: "Modify Quota"
+            description: "Modify quota"
             x-jdcloud-tiered: false
             schema:
               $ref: "../model/ModifyQuotaSpec.yaml#/definitions/modifyQuotaSpec"
 
        responses:
          200:
-           description: "Successful operation"
+           description: "Successful Operation"
            schema:
              type:  object
              properties:

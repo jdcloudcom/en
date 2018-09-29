@@ -30,7 +30,7 @@ paths:
 
     ###################### Modify Specification ######################
     patch:
-      description: "Modify Specification"
+      description: "Modify specification"
       operationId: modifyInstanceClass
       x-jdcloud-internal: true
       parameters:

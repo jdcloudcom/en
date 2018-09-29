@@ -11,9 +11,9 @@ After the MongoDB instance is created, 0.0.0.0/0 will be added to the white list
 - The MongoDB instance status is up and the billing status is normal.
 
 ## Operation Steps
-1. Login [MongoDB Console](https://mongodb-console.jdcloud.com/mongodb?dataCenter=bj_02).
-2. On the "Instance List" page, select the **target instance**, then click **Instance Name** to enter the  instance details page.
-3. On the "Instance Details" page, click **Data Security** to enter the White list settings page.
+1. Login [MongoDB Console](https://mongodb-console.jdcloud.com/mongodb).
+2. On the "Instance List" page, select **target instance**, then click **Instance Name** to enter the instance details page.
+3. On the "Instance Details" page, click **Data Security** to enter the white list settings page.
 
    ![White List](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-008.png)
 4. Click **Set White List** to open the settings popup.	

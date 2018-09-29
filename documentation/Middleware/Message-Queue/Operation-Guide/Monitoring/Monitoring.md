@@ -3,7 +3,7 @@
 The Message Queue console provides rich performance monitoring data; you can always view the running status of subscription relationships.
 
 ## Procedure
-1. Sign in to [the Message Queue console]().
+1. Sign in to [the Message Queue console](https://jcq-console.jdcloud.com/topics).
 2. On "Topic Management" page, choose the related topic, and enter the "Topic Details" page.
 3. On "Topic Details" page, click **Monitoring**, and view the monitoring information.
 

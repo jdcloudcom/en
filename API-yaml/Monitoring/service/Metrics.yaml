@@ -91,9 +91,9 @@ paths:
                     items:
                       $ref: '../model/MetricDatail.yaml#/definitions/ServiceCodeMetrics'
         400:
-          description: "'invalid parameter'"
+          description: 'invalid parameter'
         500:
-          description: "'internal server error'"
+          description: 'internal server error'
           
   /regions/{regionId}/metrics/{metric}/metricData:
     ######################Get Statistics for the Specified Metric######################  
@@ -140,7 +140,7 @@ paths:
         type: array
         items:
           $ref: "../model/Tags.yaml#/definitions/tagFilter"
-        description: "Customized Tag"
+        description: "Custom Tag"
       responses:
         200:
           description: "OK"
@@ -189,7 +189,7 @@ paths:
       - name: tags
         in: query
         type: array
-        description: "Customized Tag"
+        description: "Custom Tag"
         items:
           $ref: "../model/Tags.yaml#/definitions/tagFilter"
       - type: string

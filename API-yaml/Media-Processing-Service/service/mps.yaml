@@ -310,10 +310,10 @@ definitions:
         - "webp"
       widthInPixel:
         type: "integer"
-        description: "The width of the target screenshot shall be output according to the actual resolution if the actual resolution of the video is less than the target resolution. default: 0 means the height of source video. Others [8, 4096]"
+        description: "The width of the target screenshot shall be output according to the actual resolution if the actual resolution of the video is less than the target resolution. Default: 0 means the height of source video. Others [8, 4096]"
       heightInPixel:
         type: "integer"
-        description: "The height of the target screenshot shall be output according to the actual resolution if the actual resolution of the video is less than the target resolution. default:  0 means the height of source video. Others [8, 4096]"
+        description: "The height of the target screenshot shall be output according to the actual resolution if the actual resolution of the video is less than the target resolution. Default:  0 means the height of source video. Others [8, 4096]"
       keys:
         type: "array"
         description: "Set of Key of Target Screenshot (readonly)"
@@ -334,16 +334,16 @@ definitions:
         - "average"
       keyFrame:
         type: "boolean"
-        description: "Whether to enable keyframe screenshots. default: true"
+        description: "Whether to enable keyframe screenshots. Default: true"
       startTimeInSecond:
         type: "integer"
-        description: "Start time of generated screenshot, unavailable when mode=average. default:0"
+        description: "Start time of generated screenshot, unavailable when mode=average. Default:0"
       endTimeInSecond:
         type: "integer"
-        description: "End time of generated screenshot, unavailable when mode=single/average, and it shall not be less than startTimeInSecond. default: -1 (representing video duration)"
+        description: "End time of generated screenshot, unavailable when mode=single/average, and it shall not be less than startTimeInSecond. Default: -1 (representing video duration)"
       count:
         type: "integer"
-        description: "Number of screenshots, unavailable when mode=single. default:1"
+        description: "Number of screenshots, unavailable when mode=single. Default:1"
   ThumbnailTaskID:
     x-jdcloud-module: mps
     type: "object"

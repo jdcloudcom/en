@@ -2,7 +2,7 @@ swagger: "2.0"
 info:
   version: "v1"
   title: Instance Type
-  description: "APIs related to instance type operation"
+  description: "Instance Type Operation APIs"
 
 basePath: /regions/{regionId}
 
@@ -19,9 +19,9 @@ paths:
           type: array
           items:
             $ref: "../../common/model/Filter.yaml#/definitions/filter"
-          description: |
+          description: | 
             instanceTypes - Instance type, exact match, multiple support
-            az-AZ,  exact match,  multiple supported
+            az-AZ, exact match, multiple supported
       responses:
         200:
           description: "OK"
@@ -31,7 +31,7 @@ paths:
               result:
                 properties:
                   instanceTypes:
-                    description: "Generic instance type"
+                    description: "Generic Instance Type"
                     type: array
                     items:
                       $ref: "../model/InstanceType.yaml#/definitions/instanceType"
@@ -50,13 +50,13 @@ paths:
         401:
           description: "Authentication failed"
         404:
-          description: "Not found"
+          description: "Not Found  "
         500:
           description: "Internal server error"
         503:
           description: "Service unavailable"
 
-# path general parameters
+# Path General Parameters
 parameters:
   regionId:
     name: regionId

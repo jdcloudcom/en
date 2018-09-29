@@ -10,14 +10,14 @@ Create one or more Cloud Physical Servers with specified configuration<br/>
   - Instance type family which is off line or sold out is not available for use<br/>
 - Operating System and Pre-installed Software<br/>
   - The operating system list supported by the Cloud Physical Server can be obtained by calling APIs (describeOS)<br/>
-  - The APIs (describeSoftware) may be called to obtain the software list supported by the Cloud Physical Server, or the software may not be pre-installed<br/>
+  - The software list supported by the Cloud Physical Server can be obtained by calling APIs (describeSoftware); or the software may not be pre-installed<br/>
 - Storage<br/>
   - Multiple RAIDs are available for the data disk and the RAID list supported by the server can be obtained by calling APIs (describeDeviceRaids)<br/>
 - Network<br/>
   - Network type currently only supports basic<br/>
-  -ISP Line only supports bgp currently<br/>
-  - Disabled Internet is supported. If the Internet is enabled, the bandwidth range is [1,200], in unit Mbps<br/>
-- Miscellaneous<br/>
+  - ISP Line currently only supports bgp <br/>
+  - Disabled Internet is supported. If the Internet is enabled, the bandwidth range is [1,200], unit: Mbps<br/>
+- Others<br/>
   - Purchase duration, the annual purchase or monthly purchase is available, with the minimum purchase duration of 1 month and the maximum purchase duration of 36 months (3 years)<br/>
   - Refer to the Public Parameter Specification for password setting<br/>
 
@@ -30,7 +30,7 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/instances
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID, the Region and Availability Zone Supported by the Cloud Physical Servers can be Called by Calling APIs (describeRegions)|
+|**regionId**|String|True||Region ID, the Region and Availability Zone Supported by the Cloud Physical Servers can be obtained by Calling APIs (describeRegions)|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
@@ -42,14 +42,14 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/instances
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**az**|String|True||Availability Zone, such as cn-east-1|
-|**bandwidth**|Integer|False||Internet bandwidth, Range [1,200] Unit: Mbps|
+|**bandwidth**|Integer|False||Internet Bandwidth, Range [1,200] Unit: Mbps|
 |**charge**|ChargeSpec|True||Billing Configuration|
 |**cidr**|String|False||Network CIDR|
 |**count**|Integer|True||Purchase Count|
 |**dataRaidTypeId**|String|True||Data Disk RAID Type ID|
 |**description**|String|False||Description of Cloud Physical Server|
 |**deviceType**|String|True||Instance Type Family, such as cps.c.normal|
-|**enableInternet**|String|False|yes|Whether to Enable Internet, Value Range: yes/no|
+|**enableInternet**|String|False|yes|Whether to Enable Public Network, Value Range: yes/no|
 |**imageType**|String|True||Image Type, Value Range: Standard, Standard_app|
 |**lineType**|String|False||Internet Link Type, Currently Only Support Bgp|
 |**name**|String|True||Name of Cloud Physical Server|
@@ -63,8 +63,8 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/instances
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**chargeDuration**|Integer|False||Pay-In-Advance billing duration, the Pay-In-Advance is compulsory and valid only when the value of chargeMode is prepaid_by_duration. When chargeUnit is month, the value shall be 1~9; when chargeUnit is year, the value shall be 1, 2 or 3|
-|**chargeMode**|String|False|postpaid_by_duration|Billing model value is prepaid_by_duration, postpaid_by_usage or postpaid_by_duration; prepaid_by_duration means Pay-In-Advance, postpaid_by_usage means Pay-As-You-Go By Consumption and postpaid_by_duration means pay by configuration; is postpaid_by_duration by default. Please refer to the Help Documentation of specific product line to confirm the billing type supported by the production line|
-|**chargeUnit**|String|False||Billing unit of Pay-In-Advance, the Pay-In-Advance is compulsory, and valid only when chargeMode is prepaid_by_duration, and the value is month or year and month by default|
+|**chargeMode**|String|False|postpaid_by_duration|Billing model value is prepaid_by_duration, postpaid_by_usage or postpaid_by_duration; prepaid_by_duration means Pay-In-Advance, postpaid_by_usage means Pay-As-You-Go By Consumption and postpaid_by_duration means pay by configuration; default value is postpaid_by_duration. Please refer to the Help Documentation of specific product line to confirm the billing type supported by the production line|
+|**chargeUnit**|String|False||Billing unit of Pay-In-Advance, the Pay-In-Advance is compulsory, and valid only when chargeMode is prepaid_by_duration, and the value is month or year, and month by default|
 ### Software
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|

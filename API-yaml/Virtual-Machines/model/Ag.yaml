@@ -5,7 +5,7 @@ definitions:
     properties:
       name:
         type: string
-        description: "AG name"
+        description: "AG Name"
       id:
         type: string
         description: "AG id"
@@ -14,10 +14,10 @@ definitions:
 # description: AG id
 #      agType:
 #        type: string
-# description: AZ type, support compute/container
+# description: AZ Type, support compute/container
 #      instanceTemplateId:
 #        type: string
-# description: Id of start template
+# description: Id of Start Template
 #      azs:
 #        type: array
 #        items:
@@ -25,7 +25,7 @@ definitions:
 # description: AZ
 #      count:
 #        type: integer
-# description: Number of instances
+# description: Number of Instances
 #      autoScaling:
 #        type: boolean
 # description: Open automatic scaling or not

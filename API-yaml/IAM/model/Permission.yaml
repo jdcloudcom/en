@@ -12,7 +12,7 @@ definitions:
       name:
         type: string
         description: "Permission Name"
-      description: 
+      description:
         type: string
         description: "Description"
       permissionType:

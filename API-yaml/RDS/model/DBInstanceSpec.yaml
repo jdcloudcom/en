@@ -25,7 +25,7 @@ definitions:
         description: "Instance engine version, detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)"
       instanceClass:
         type: string
-        description: "Instance type code, which can be obtained through [describeInstanceClasses](../instance/describeInstanceClasses.md) interface"
+        description: "Instance type code, which can be obtained through [describeInstanceClasses](../instance/describeInstanceClasses.md) API"
       instanceStorageGB:
         type: integer
         description: "Disk Size, Unit: GB"

@@ -13,8 +13,8 @@ paths:
   "/vpcs/":
      #describe vpcs
     get:
-      summary: "Query VPC List"
-      description: "Query VPC List"
+      summary: "Query VPC list"
+      description: "Query VPC list"
       operationId: describeVpcs
     
       parameters:
@@ -30,7 +30,7 @@ paths:
           default: 20
           minimum: 10
           maximum: 100
-          description: "Paging size; it is 20 by default. Value Range: [10, 100]"
+          description: "Paging Size: 20 by default. Value Range: [10, 100]"
         - name: filters
           in: query
           type: array
@@ -69,13 +69,13 @@ paths:
         - name: vpcSpec
           in: body
           required: true
-          description: "Apply for Creating VPC Request Parameter"
+          description: "Apply for creating VPC request parameters"
           x-jdcloud-tiered: false
           schema:
             $ref: "../model/VpcSpec.yaml#/definitions/vpcSpec"
       responses:
         200:
-          description: "Successful operation"
+          description: "Successful Operation"
           schema:
             type: object
             properties:
@@ -95,7 +95,7 @@ paths:
         404:
           description: "Not found"
         409:
-          description: "Parameter conflict"
+          description: "Parameter conflict "
         429:
           description: "Quota exceeded"
         500:
@@ -107,8 +107,8 @@ paths:
   "/vpcs/{vpcId}":
       #describe vpc
       get:
-        summary: "Query VPC Information Details"
-        description: "Query VPC Information Details"
+        summary: "Query VPC information details"
+        description: "Query VPC information details"
         operationId: describeVpc
         responses:
           200:
@@ -119,7 +119,7 @@ paths:
                   description: "Returned Results"
                   properties:
                     vpc:
-                      description: "VPC Resource Information"
+                      description: "VPC resource information"
                       $ref: "../model/Vpc.yaml#/definitions/vpc"
                 requestId:
                   description: "Request ID"
@@ -131,7 +131,7 @@ paths:
 
       patch:
         summary: "Modify VPC"
-        description: "Modify VPC interface"
+        description: "Modify VPC API"
         operationId: modifyVpc
         parameters:
           - name: modifyVpcSpec
@@ -155,7 +155,7 @@ paths:
           404:
             description: "Not found"
           409:
-            description: "Parameter conflict "
+            description: "Parameter conflict " 
           500:
             description: "Internal server error"
           503:
@@ -181,7 +181,7 @@ paths:
           404:
             description: "Not found"
           409:
-            description: "Parameter conflict "
+            description: "Parameter conflict " 
           500:
             description: "Internal server error"
           503:

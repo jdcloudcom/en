@@ -2,7 +2,7 @@ swagger: "2.0" # realized based on Swagger 2.0 version
 info:
   version: v1
   title: Audit Management
-  description: "Audit Management Related Interface"
+  description: "Audit Management Related API"
 basePath: /regions/{regionId}
 paths:
   "/instances/{instanceId}/audit": #Audit
@@ -12,7 +12,7 @@ paths:
       parameters:
         - name: createAudit
           in: body
-          description: 
+          description:
           schema:
             type: object
             required:
@@ -20,7 +20,7 @@ paths:
             properties:
               enabled:
                 type: string
-                description: "The audit options to be enable shall be separated from each other by a comma or a space, for example: DATABASE_OBJECT_ACCESS_GROUP,ACKUP_RESTORE_GROU, etc. <br>The audit options supported by each database version can be obtained via the interface [getAuditOptions](./getAuditOptions.md), and the specific meaning of each audit option can be found in the official document of Microsoft."
+                description: "The audit options to be enable shall be separated from each other by a comma or a space, for example: DATABASE_OBJECT_ACCESS_GROUP,ACKUP_RESTORE_GROU, etc. <br>The audit options supported by each database version can be obtained via the API [getAuditOptions](./getAuditOptions.md), and the specific meaning of each audit option can be found in the official document of Microsoft."
       responses:
         200:
           description: "OK"

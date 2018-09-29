@@ -29,7 +29,7 @@ definitions:
         description: "HTTPS protocol port number, such as 443 and 8443, and multiple port numbers are separated by commas"
       originType:
         type: string
-        description: "Back-to-origin type, A or CNAME"
+        description: "Back-to-origin Type: A or CNAME"
       originAddr:
         type: array
         items:
@@ -43,13 +43,13 @@ definitions:
         description: "Back-to-origin domain name, and the field is returned when originType is CNAME"
       httpsCertContent:
         type: string
-        description: "Certificate content"
+        description: "Certificate Content"
       httpsRsaKey:
         type: string
-        description: "Certificate private key"
+        description: "Certificate Private Key"
       httpCertStatus:
         type: integer
-        description: "Certificate status: 0->exceptional  1->normal"
+        description: "Certificate Status: 0->exceptional  1->normal"
       status:
         type: integer
         description: "0->defense Status  1->back-to-origin Status"
@@ -58,7 +58,7 @@ definitions:
         description: "0->CC disabled  1->CC enabled"
       algorithm:
         type: string
-        description: "Forwarding rules: wrr->Round Robin with weight  rr->Round Robin without weight"
+        description: "Forwarding Rules: wrr->Round Robin with weight  rr->Round Robin without weight"
       forceJump:
         type: integer
         description: "Confirm to enable https forced jump? The attribute may be configured when the protocol is HTTP_HTTPS  0->no  1->yes"

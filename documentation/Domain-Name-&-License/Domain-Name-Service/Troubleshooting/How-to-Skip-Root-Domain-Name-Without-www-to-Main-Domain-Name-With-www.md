@@ -88,7 +88,7 @@ ASP：
 
 Response.Status="301 MovedPermanently"
 
-Response.AddHeader”Location”,”http://www.jdcloud.com/”
+Response.AddHeader"Location","http://www.jdcloud.com/"
 
 Response.End
 

@@ -2,7 +2,7 @@ swagger: "2.0" # realized based on Swagger 2.0 version
 info:
   version: v1
   title: Cloud on Single Database
-  description: "Cloud on Single Database Related Interface"
+  description: "Cloud on Single Database Related API"
 
 basePath: /regions/{regionId}
 

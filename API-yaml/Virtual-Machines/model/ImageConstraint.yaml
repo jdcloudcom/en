@@ -13,10 +13,10 @@ definitions:
     x-jdcloud-module: vm
     properties:
       constraintsType:
-        description: "Restricted specification type. excludes: exclude specified instance types; includes: only the specified instance type is included,  which is not supported temporarily"
+        description: "Restricted specification type. Value: excludes: exclude specified instance types; includes: only the specified instance type is included, which is not supported temporarily"
         type: string
       instanceTypes:
-        description: "Instance type list"
+        description: "Instance Type List"
         type: array
         items:
           type: string

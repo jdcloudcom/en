@@ -9,8 +9,8 @@ The MongoDB console provides the function to create instance based on time point
 
 ## Operation Steps
 
-1. Login [MongoDB Console](https://mongodb-console.jdcloud.com/mongodb?dataCenter=bj_02).
-2. On the "Instance List" page, select the **target instance**, then click **Instance Name** to enter the "Instance Details" page.
+1. Login [MongoDB Console](https://mongodb-console.jdcloud.com/mongodb).
+2. On the "Instance List" page, select **target instance**, then click **Instance Name** to enter the "Instance Details" page.
 3. On the "Instance Details" page, click **Create based on Time Point** of operation items on the right side to open the "Create Instance" page.
 
    ![](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-036.png)

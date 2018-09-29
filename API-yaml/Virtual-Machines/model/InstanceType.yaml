@@ -5,19 +5,19 @@ definitions:
     properties:
       family:
         type: string
-        description: "Instance type"
+        description: "Instance Type"
       instanceType:
         type: string
         description: "Instance type, such as g.b1.2xlarge"
       cpu:
         type: integer
-        description: "CPU number"
+        description: "CPU Number"
       memoryMB:
         type: integer
-        description: "Memory size"
+        description: "Memory Size"
       nicLimit:
         type: integer
-        description: "Number of ENI supported"
+        description: "Number of ENI Supported"
       desc:
         type: string
         description: "Description"
@@ -25,4 +25,4 @@ definitions:
         type: array
         items:
           $ref: "./InstanceTypeState.yaml#/definitions/instanceTypeState"
-        description: "Instance type status"
+        description: "Instance Type Status"

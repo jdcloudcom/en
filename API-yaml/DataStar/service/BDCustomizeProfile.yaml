@@ -38,7 +38,7 @@ paths:
                         properties:
                           status:
                             type: boolean
-                            description: true is success, false is failure
+                            description: True is success, false is failure
                           message:
                             type: string
                             description: Description Information
