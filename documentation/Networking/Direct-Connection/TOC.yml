@@ -4,10 +4,10 @@
   - name: Introduction
     items:
       - name: Product Overview
-        href: Introduction/Product-Overvie.md
+        href: Introduction/Product-Overview.md
       - name: Basic Infrastructure
         href: Introduction/Basic-Infrastructure.md
-      - name: Core Concepts
+      - name: Core Concept
         href: Introduction/Core-Concepts.md
       - name: Benefits
         href: Introduction/Benefits.md
@@ -31,8 +31,8 @@
             href: Introduction/Application-Scenarios/Hybrid-Cloud-Deployments-Under-Regulatory-Requirements.md
   - name: Pricing
     items:
-      - name: Billing Overview
-        href: Pricing/Billing-Overview.md
+      - name: Billing Rules
+        href: Pricing/Pricing.md
   - name: Getting Started
     items:
        - name: Direct Connection of the Same Account in the Same Region
@@ -45,28 +45,30 @@
          href: Operation-Guide/Direct-Connect.md
        - name: Hosted Connect
          href: Operation-Guide/Hosted-Connect.md
-  - name: Best Practice
+  - name: Best Practices
     items:
-    status: 0
-  - name: Troubleshoot
+    status:0
+  - name: Troubleshooting
     items:
-    status: 0
+    status:0
   - name: FAQ
     href: FAQ/FAQ.md
   - name: API Reference
     href:
-    status: 0
+    status:0
   - name: SDK Reference
     href:
-    status: 0
+    status:0
   - name: User Agreement
+    status:0
     items:
-    - name: Service Terms
+    - name: Terms of Service
       href:
-      status: 0
+      status:0
   - name: Related Resources
+    status:0
     items:
     - name: Document History
       href:
-      status: 0
+      status:0
 

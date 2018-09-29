@@ -19,7 +19,7 @@
         href: Withdrawal/Withdrawal-Record.md
   - name: Coupon
     items:
-      - name: The Use of Coupon
+      - name: Use Coupon
         href: Coupon-Manage/Management-coupon.md
       - name: View Coupon
         href: Coupon-Manage/View-coupons.md

@@ -1,6 +1,6 @@
 name: Live Video
 href:
-items: 
+items:
 - name: Introduction
   items:
     - name: Product Overview
@@ -15,12 +15,12 @@ items:
       href: Introduction/Features.md
     - name: Restrictions
       href: Introduction/Restrictions.md
-    - name: Application Scenarios
+    - name: Application Scenarios 
       href: Introduction/Application-Scenarios.md    
 - name: Pricing
   items:
     - name: Billing Overview
-      href: Pricing/Billing-Overview.md
+      href: Pricing/Pricing.md
     - name: Billing Rules
       href: Pricing/Billing-Rules.md
     - name: Price Overview
@@ -29,7 +29,7 @@ items:
       href: Pricing/Purchase-Process.md 
 - name: Getting Started
   items:
-    - name: Service Provisioning
+    - name: Sign up Service
       href: Getting-Started/Service-Provisioning.md
     - name: Create Domain
       href: Getting-Started/Create-Domain.md
@@ -65,23 +65,19 @@ items:
   items:
     - name: Push with the FMLE tool
       href: Best-Practices/Push-with-the-FMLE-tool.md
-    - name: Push with the OBS tool
-      href: Best-Practices/ Push-with-the-OBS-tool.md
     - name: Push with the Xsplit tool
       href: Best-Practices/Push-with-the-Xsplit-tool.md
+    - name: Push with the OBS tool
+      href: Best-Practices/Push-with-the-OBS-tool.md
 - name: Tutorial
   items:
-  status: 0
+  status:0
 - name: Troubleshooting
   items:
     - name: Push connection failed
       href: Troubleshooting/Push-connection-failed.md  
 - name: FAQ
   href: FAQ/FAQ.md
-- name: API Reference
-  href:
-- name: SDK Reference
-  href:
 - name: Related Resources
   items:
     - name: Document History

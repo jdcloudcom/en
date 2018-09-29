@@ -15,7 +15,7 @@ definitions:
       assumeRolePolicyDocument:
         type: string
         description: "Role Assumption Policy"
-      description: 
+      description:
         type: string
         description: "Description, 0~256 characters"
       maxSessionDuration:

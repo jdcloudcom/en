@@ -40,7 +40,7 @@ definitions:
         description: "Time After Formatt"
       isSync:
         type: boolean
-      description: 
+      description:
         type: string
       jobIds:
         type: string

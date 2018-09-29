@@ -12,8 +12,8 @@ schemes:
 paths:
   "/vpcPeerings/":
      get:
-       summary: "Query VPCPeering Resource List"
-       description: "Query VPCPeering Resource List"
+       summary: "Query VPCPeering resource list"
+       description: "Query VPCPeering resource list"
        operationId: describeVpcPeerings
 
        parameters:
@@ -22,14 +22,14 @@ paths:
            type: integer
            default: 1
            minimum: 1
-           description: "Page; it is 1 by default. Value Range: [1,∞); when the pages exceed total pages, show the last page"
+           description: "Page: 1 by default. Value Range: [1,∞); when the pages exceed total pages, show the last page"
          - name: pageSize
            in: query
            type: integer
            default: 20
            minimum: 10
            maximum: 100
-           description: "Paging size; it is 20 by default. Value Range: [10, 100]"
+           description: "Paging Size; 20 by default. Value Range: [10, 100]"
 
          - name: filters
            in: query
@@ -63,19 +63,19 @@ paths:
                  type: string
 
      post:
-       description: "Create VPCPeering Interface"
+       description: "Create VPCPeering API"
        operationId: createVpcPeering
        parameters:
          - name: createVpcPeeringSpec
            in: body
            required: true
-           description: "Create VPCPeering Parameter"
+           description: "Create VPCPeering parameters"
            x-jdcloud-tiered: false
            schema:
              $ref: "../model/CreateVpcPeeringSpec.yaml#/definitions/createVpcPeeringSpec"
        responses:
          200:
-           description: "Successful operation"
+           description: "Successful Operation"
            schema:
              type: object
              properties:
@@ -99,8 +99,8 @@ paths:
 
   "/vpcPeerings/{vpcPeeringId}":
      get:
-       summary: "Query VPCPeering Resource Details"
-       description: "Query VPCPeering Resource Details"
+       summary: "Query VPCPeering resource details"
+       description: "Query VPCPeering resource details"
        operationId: describeVpcPeering
 
        responses:
@@ -120,8 +120,8 @@ paths:
 
      #delete VpcPeering
      delete:
-       summary: "Delete VPCPeering Interface"
-       description: "Delete VPCPeering Interface"
+       summary: "Delete VPCPeering API"
+       description: "Delete VPCPeering API"
        operationId: deleteVpcPeering
        responses:
          200:
@@ -135,8 +135,8 @@ paths:
            description: "NOT_FOUND"
 
      put:
-       summary: "Modify VPCPeering Interface"
-       description: "Modify VPCPeering Interface"
+       summary: "Modify VPCPeering API"
+       description: "Modify VPCPeering API"
        operationId: modifyVpcPeering
        parameters:
          - name: modifyVpcPeeringSpec
@@ -147,7 +147,7 @@ paths:
              $ref: "../model/ModifyVpcPeeringSpec.yaml#/definitions/modifyVpcPeeringSpec"
        responses:
         200:
-           description: "Successful operation"
+           description: "Successful Operation"
            schema:
              type: object
              properties:
@@ -160,7 +160,7 @@ paths:
         429:
            description: "VpcPeering quota limit exceeded."
         404:
-           description: "Resource not found"
+           description: "Resource Not Found"
         409:
            description: "Already has VpcPeering with param"
 

@@ -183,10 +183,10 @@ paths:
                    type: string
            500:
              description: "Internal server error"
-##########Query the cluster list corresponding to the user-assigned clusterId and related sevice information######
+##########Query the cluster list corresponding to the user-assigned clusterId and related service information######
   "/idata":
        get:
-         description: "Query the cluster list corresponding to the user-assigned clusterId and related sevice information"
+         description: "Query the cluster list corresponding to the user-assigned clusterId and related service information"
          operationId: idataCluster
          parameters:
            - name: id

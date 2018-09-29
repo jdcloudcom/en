@@ -1,6 +1,6 @@
 Swagger: "2.0"                                  # Implemented based on Swagger Version 2.0
 info:
-  version: "v1"                                 # OpenApi version number
+  version: "v1"                                 # OpenApi Version Number
   title: OSS APIs
   description: "OSS APIs"
 

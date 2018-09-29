@@ -15,7 +15,7 @@ definitions:
         enum:
           - "vm"
           - "nc"
-        description: "Type of the Instance Attached, vm or nc"
+        description: "Type of the Instance Attached, value: vm or nc"
       instanceId:
         type: string
         description: "ID of Instance Attached"

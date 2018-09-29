@@ -2,7 +2,7 @@ swagger: "2.0"
 definitions:
   instanceClass:
     x-jdcloud-module: redis
-    description: "The information of a JCS for Redis instance type"
+    description: "Information of a JCS for Redis Instance Type"
     type: object
     properties:
       instanceClass:

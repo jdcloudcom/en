@@ -4,7 +4,7 @@ On Message Queue console, you can set the alarm rules according to the monitorin
 
 ## Procedure
 
-1. Sign in to [the Message Queue console]().
+1. Sign in to [the Message Queue console](https://jcq-console.jdcloud.com/topics).
 2.	On "Topic Management" page, choose the related topic, click topic name, and enter the "Topic Details" page.
 3.	On "Topic Details" page, click "Monitoring" tab, and enter the "Monitoring Information" page.
 4.	Click **Set Alarm Rules** on the right side, and enter the "Alarm Rules" page.

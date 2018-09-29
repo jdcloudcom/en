@@ -2,7 +2,7 @@ swagger: "2.0" # realized based on Swagger 2.0 version
 info:
   version: v1
   title: Performance Statistics
-  description: "Performance Statistics Related Interface"
+  description: "Performance Statistics Related API"
 basePath: /regions/{regionId}
 paths:
   "/instances/{instanceId}/performance:describeIndexPerformance": #Index Performance Statistics
@@ -29,7 +29,7 @@ paths:
           required: false
           in: query
           type: integer
-          description: "The default of the number of data displayed per page is 50 and the value range is [1,100]. It can only be a multiple of 10 used for the interface to query the list."
+          description: "The default of the number of data displayed per page is 50 and the value range is [1,100]. It can only be a multiple of 10 used for the API to query the list."
       responses:
         200:
           description: "OK"
@@ -80,7 +80,7 @@ paths:
           required: false
           in: query
           type: integer
-          description: "The default of the number of data displayed per page is 50 and the value range is [1,100]. It can only be a multiple of 10 used for the interface to query the list."
+          description: "The default of the number of data displayed per page is 50 and the value range is [1,100]. It can only be a multiple of 10 used for the API to query the list."
       responses:
         200:
           description: "OK"

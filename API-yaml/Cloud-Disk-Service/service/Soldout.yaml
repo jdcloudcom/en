@@ -2,7 +2,7 @@ swagger: "2.0"
 info:
   version: "v1"
   title: Sold-out APIs
-  description: "Check the Sold-out Information "
+  description: "Check the sold-out information " 
 
 basePath: /regions/{regionId}
 

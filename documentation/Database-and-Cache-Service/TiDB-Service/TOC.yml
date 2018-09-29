@@ -5,7 +5,7 @@
     items:
     - name: Product Overview
       herf: Introduction/Product-Overview.md
-    - name: Core Concepts
+    - name: Core Concept
       herf: Introduction/Core-Concepts.md
     - name: Basic Infrastructure
       herf: Introduction/Basic-Infrastructure.md

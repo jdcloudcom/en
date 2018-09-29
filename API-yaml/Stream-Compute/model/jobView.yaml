@@ -9,7 +9,7 @@ definitions:
         type: string
       name:
         type: string
-      description: 
+      description:
         type: string
       resourceConsume:
         type: integer

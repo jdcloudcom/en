@@ -5,7 +5,7 @@
     items:
       - name: Product Overview
         href: Introduction/Product-Overview.md
-      - name: Core Concepts
+      - name: Core Concept
         href: Introduction/Core-Concepts.md
       - name: Benefits
         href: Introduction/Benefits.md
@@ -20,18 +20,18 @@
   - name: Pricing
     items:
       - name: Billing Overview
-        href: Pricing/Billing-Overview.md
+        href: Pricing/Pricing.md
       - name: Billing Rules
         href: Pricing/Billing-Rules.md
       - name: Price Overview
         href: Pricing/Price-Overview.md
       - name: Purchase Process
         href: Pricing/Purchase-Process.md
-      - name: Renew Process
+      - name: Renew-Process
         href: Pricing/Renew-Proces.md
   - name: Getting Started
     items:
-      - name: Guide Overview
+      - name: Getting Started Guide
         href: Getting-Started/Guide-Overview.md
       - name: Create Docker Image
         href: Getting-Started/Create-Images.md
@@ -49,9 +49,9 @@
             href: Operation-Guide/Instance/Life-Cycle.md
           - name: Create Instance
             href: Operation-Guide/Instance/Create-Instance.md
-          - name: Login Instance
+          - name: Log in Instance
             href: Operation-Guide/Instance/Login-Instance.md
-          - name: Launch Instance
+          - name: Start Instance
             href: Operation-Guide/Instance/Start-Instance.md
           - name: Stop Instance
             href: Operation-Guide/Instance/Stop-Instance.md

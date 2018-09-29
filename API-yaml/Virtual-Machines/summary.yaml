@@ -5,4 +5,4 @@ info:
   description: "VM instance, image, instance type, instance template, quota-related APIs"
 host: "vm.jdcloud-api.com"
 x-jdcloud-version: "v1"
-x-jdcloud-revision: "1.0.3"
+x-jdcloud-version: "1.0.3"

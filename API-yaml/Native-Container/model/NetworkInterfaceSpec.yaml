@@ -30,10 +30,10 @@ definitions:
         type: array
         items:
           type: string
-        description: "Security Group ID List "
+        description: "Security Group ID List " 
       sanityCheck:
         type: boolean    
         description: "PortSecurity, with value 0 or 1 and default value 1"
       description: 
-        type: string
-        description: "Description "
+        type: string   
+        description: "Description " 

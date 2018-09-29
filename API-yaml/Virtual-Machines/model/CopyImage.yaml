@@ -5,7 +5,7 @@ definitions:
     properties:
       destinationImageId:
         type: string
-        description: "Target image ID after replication"
+        description: "Target Image ID after Replication"
       sourceImageId:
         type: string
-        description: "Source image ID"
+        description: "Source Image ID"

@@ -16,12 +16,12 @@ paths:
           in: query
           type: integer
           required: false
-          description: "Page number; 1 by default"
+          description: "Page Number: 1 by default"
         - name: pageSize
           in: query
           type: integer
           required: false
-          description: "Paging size; it is 20 by default; value range [10, 100]"
+          description: "Paging Size: 20 by default; value range [10, 100]"
       responses:
         200:
           description: "OK"
@@ -45,7 +45,7 @@ paths:
       parameters:
         - name: WebRuleSpec
           in: body
-          description: "Web service rule parameter"
+          description: "Add web service rule request parameters"
           required: true
           schema:
             $ref: "../model/WebRuleSpec.yaml#/definitions/webRuleSpec"
@@ -86,7 +86,7 @@ paths:
       parameters:
         - name: WebRuleSpec
           in: body
-          description: "Web service rule parameter"
+          description: "Update web service rule parameters"
           required: true
           schema:
             $ref: "../model/WebRuleSpec.yaml#/definitions/webRuleSpec"
@@ -185,7 +185,7 @@ paths:
       parameters:
         - name: certInfoModifySpec
           in: body
-          description: "Request Parameter of Editing Certificate"
+          description: "Request Parameters of Editing Certificate"
           required: true
           schema:
             $ref: "../model/CertInfoModifySpec.yaml#/definitions/CertInfoModifySpec"
@@ -219,7 +219,7 @@ paths:
                     $ref: "../model/CertInfo.yaml#/definitions/CertInfo"
               requestId:
                 type: string
-# General parameters of path
+# General Parameters of Path
 parameters:
   regionId:
     name: regionId

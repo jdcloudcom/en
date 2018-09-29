@@ -14,10 +14,10 @@ definitions:
         description: "Ethernet Address"
       vpcId:
         type: string
-        description: "Virtual network ID"
+        description: "Virtual Network ID"
       description:
         type: string
-        description: "Description"
+        description: "Description "
       securityGroups:
         type: array
         items:
@@ -33,4 +33,4 @@ definitions:
         type: array
         items:
           $ref: "./NetworkInterfacePrivateIp.yaml#/definitions/networkInterfacePrivateIp"
-        description: ""
+        description: 

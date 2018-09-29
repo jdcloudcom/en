@@ -27,7 +27,7 @@ definitions:
         description: "System Disk RAID Type ID"
       keepData:
         type: string
-        description: "Whether to Reserve Data on the Data Disk, Values are: yes, no"
+        description: "Whether to reserve data on the data disk, value: yes or no"
       dataRaidTypeId:
         type: string
         description: "Data Disk RAID Type ID"

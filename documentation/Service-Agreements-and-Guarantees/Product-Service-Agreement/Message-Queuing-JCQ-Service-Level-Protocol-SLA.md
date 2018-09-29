@@ -106,9 +106,9 @@ According to the monthly service availability of the message queue, compensation
 
 | **Service Availability**                  | **Compensation Coupons Amount**  |
 | ------------------------------- | ------------------- |
-| Below 99.95% but equal to or higher than 99.00% | 15% of Monthly Service Fee |
-| Below 99.00% but equal to or higher than 95.00% | 30% of Monthly Service Fee |
-| Below 95.00% | 100% of Monthly Service Fee |
+| Below 99.95% but equal to or higher than 99.00%  | 15% of Monthly Service Fee |
+| Below 99.00% but equal to or higher than 95.00%  | 30% of Monthly Service Fee |
+| Below 95.00%                     | 100% of Monthly Service Fee |
 
  Instructions:
 

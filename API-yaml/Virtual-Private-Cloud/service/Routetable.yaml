@@ -12,8 +12,8 @@ schemes:
 paths:
   "/routeTables/":
      get:
-       summary: "Query Route Table Information"
-       description: "Query Route Table Information"
+       summary: "Query route table information"
+       description: "Query route table information"
        operationId: describeRouteTables
        parameters:
          - name: pageNumber
@@ -21,14 +21,14 @@ paths:
            type: integer
            default: 1
            minimum: 1
-           description: "Page; it is 1 by default. Value Range: [1,∞); when the pages exceed total pages, show the last page"
+           description: "Page: 1 by default. Value Range: [1,∞); when the pages exceed total pages, show the last page"
          - name: pageSize
            in: query
            type: integer
            default: 20
            minimum: 10
            maximum: 100
-           description: "Paging size; it is 20 by default. Value Range: [10, 100]"
+           description: "Paging Size; 20 by default. Value Range: [10, 100]"
          - name: filters
            in: query
            type: array
@@ -65,14 +65,14 @@ paths:
 
      #create routeTable
      post:
-       summary: "Create Route Table"
-       description: "Create Route Table"
+       summary: "Create route table"
+       description: "Create route table"
        operationId: createRouteTable
        parameters:
          - name: routeTableSpec
            in: body
            required: true
-           description: "Create Route Table Request Parameter"
+           description: "Create route table request parameter"
            x-jdcloud-tiered: false
            schema:
              $ref: "../model/RouteTableSpec.yaml#/definitions/routeTableSpec"
@@ -102,8 +102,8 @@ paths:
   "/routeTables/{routeTableId}":
      #describe routeTable
      get:
-       summary: Query Route Table Information Details
-       description: "Query Route Table Information Details"
+       summary: Query route table information details
+       description: "Query route table information details"
        operationId: describeRouteTable
        responses:
          200:
@@ -114,7 +114,7 @@ paths:
                  description: "Returned Results"
                  properties:
                    routeTable:
-                      description: "Route Table Resource Information"
+                      description: "Route table resource information"
                       $ref: "../model/RouteTable.yaml#/definitions/routeTable"
                requestId:
                  description: "Request ID"
@@ -126,14 +126,14 @@ paths:
 
      #modify routeTable
      patch:
-       summary: Modify Route Table Attribute
-       description: "Modify Route Table Attribute"
+       summary: Modify route table attribute
+       description: "Modify route table attribute"
        operationId: modifyRouteTable
        parameters:
          - name: modifyRouteTableSpec
            in: body
            required: true
-           description: "Modify Route Table"
+           description: "Modify route table"
            x-jdcloud-tiered: false
            schema:
              $ref: "../model/ModifyRouteTableSpec.yaml#/definitions/modifyRouteTableSpec"
@@ -148,12 +148,12 @@ paths:
          400:
            description: "Request parameter x.y.z is 'xxx', expected one of [yyy,zzz]"
          404:
-           description: "Resource not found"
+           description: "Resource Not Found"
 
      #delete routeTable
      delete:
-         summary: Delete Route Table
-         description: "Delete Route Table"
+         summary: Delete route table
+         description: "Delete route table"
          operationId: deleteRouteTable
          responses:
            200:
@@ -166,15 +166,15 @@ paths:
            400:
              description: "invalid parameter"
            404:
-             description: "Resource not found"
+             description: "Resource Not Found"
            500:
              description: "Internal server error"
 
   #add routeTable rules
   "/routeTables/{routeTableId}:addRouteTableRules":
     post:
-      summary: "Add Route Table Rule"
-      description: "Add Route Table Rule"
+      summary: "Add route table rule"
+      description: "Add route table rule"
       operationId: addRouteTableRules
       parameters:
         - name: addRouteTableRulesSpec
@@ -195,7 +195,7 @@ paths:
         400:
            description: "Request parameter x.y.z is 'xxx', expected one of [yyy,zzz]"
         404:
-           description: "Resource not found"
+           description: "Resource Not Found"
         409:
            description: "RouteTable rules not in the same vpc"
         500:
@@ -204,8 +204,8 @@ paths:
   #remove routeTable rules
   "/routeTables/{routeTableId}:removeRouteTableRules":
     post:
-      summary: "Remove Route Table Rule"
-      description: "Remove Route Table Rule"
+      summary: "Remove route table rule"
+      description: "Remove route table rule"
       operationId: removeRouteTableRules
       parameters:
         - in: body
@@ -236,8 +236,8 @@ paths:
   #modify routeTable rules         
   "/routeTables/{routeTableId}:modifyRouteTableRules":
     post:
-      summary: "Modify Route Table Rule"
-      description: "Modify Route Table Rule"
+      summary: "Modify route table rule"
+      description: "Modify route table rule"
       operationId: modifyRouteTableRules
       parameters:
         - name: modifyRouteTableRulesSpec
@@ -264,7 +264,7 @@ paths:
            
   "/routeTables/{routeTableId}:associateRouteTable":
      post:
-       description: "Associate Subnet Interface to Route Table"
+       description: "Associate subnet API from route table"
        operationId: associateRouteTable
        parameters:
          - name: associateRouteTableSpec
@@ -275,7 +275,7 @@ paths:
              $ref: "../model/AssociateRouteTableSpec.yaml#/definitions/associateRouteTableSpec"
        responses:
          200:
-           description: "Successful operation"
+           description: "Successful Operation"
            schema:
              type: object
              properties:
@@ -285,11 +285,11 @@ paths:
          400:
            description: "Request parameter x.y.z is 'xxx', expected one of [yyy,zzz]"
          404:
-           description: "Resource not found"
+           description: "Resource Not Found"
 
   "/routeTables/{routeTableId}:disassociateRouteTable":
      post:
-       description: "Disassociate Subnet Interface from Route Table"
+       description: "Disassociate subnet API from route table"
        operationId: disassociateRouteTable
        parameters:
          - name: disassociateRouteTableSpec
@@ -310,7 +310,7 @@ paths:
          400:
            description: "Request parameter x.y.z is 'xxx', expected one of [yyy,zzz]"
          404:
-           description: "Resource not found"
+           description: "Resource Not Found"
 
 parameters:
   regionId:

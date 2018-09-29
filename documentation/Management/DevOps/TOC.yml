@@ -5,7 +5,7 @@
     items:
       - name: Product Overview
         href: Introduction/Product-Overview.md
-      - name: Core Concepts
+      - name: Core Concept
         href: Introduction/Core-Concepts.md
       - name: Basic Infrastructure
         href: Introduction/Basic-Infrastructure.md
@@ -14,7 +14,7 @@
       - name: Features
         href: Introduction/Features.md
       - name: Specifications
-        href: Introduction/Specifications.md
+        href: Introduction/Specification.md
       - name: Restrictions
         href: Introduction/Restrictions.md
       - name: Application Scenarios 
@@ -22,18 +22,18 @@
   - name: Pricing
     items:
       - name: Billing Overview
-        href: Pricing/Billing-Overview.md
+        href: Pricing/Pricing.md
       - name: Billing Rules
         href: Pricing/Billing-Rules.md
       - name: Price Overview
         href: Pricing/Price-Overview.md
       - name: Purchase Process
         href: Pricing/Purchase-Process.md 
-      - name: Renew Process
+      - name: Renew-Process
         href: Pricing/Renew-Process.md
-  - name: Getting-started
+  - name: Getting Started
     items:
-      - name: Introduction
+      - name: Getting Started Guide
         href: Getting-Started/Getting-started.md
       - name: Install Super Agents in the Virtual Machines
         href: Getting-Started/Install-Agent.md
@@ -49,7 +49,7 @@
         href: Getting-Started/Base-Monitor.md
   - name: Operation Guide
     items:
-      - name: Instructions for Use
+      - name: Introduction
         href: Operation-Guide/Operation-Instruction.md
       - name: Get to Know the Main interface of DevOps
         href: Operation-Guide/Introduction-index.md
@@ -63,15 +63,15 @@
         href: Operation-Guide/Operation-Task.md
       - name: Account Management
         href: Operation-Guide/Account-management.md
-  - name: Best Practice
+  - name: Best Practices
     items:
     - name: Continuous Delivery
       href: Best-Practices/CICD.md
     - name: Intelligent Monitoring
       href: Best-Practices/Monitoring.md
-  - name: Course
+  - name: Tutorial
+    status:0
     items:
-    status：0
   - name: Troubleshooting
     items:
     - name: Problems of Fault Class
@@ -81,12 +81,12 @@
   - name: FAQ
     href: FAQ/FAQ.md
   - name: API Reference
-    href:
+    href: API/API-Reference.md
   - name: SDK Reference
-    href:
+    href: SDK/SDK-Reference.md
   - name: User Agreement
     items:
-    - name: Service Terms
+    - name: Terms of Service
       href: User-Agreements/Product-Terms-of-Service.md                 
     - name: SLA
       href: User-Agreements/SLA.md               
@@ -94,7 +94,7 @@
     items:
     - name: Document History
       href: Related-Resources/Document-History.md   
-    - name: Filing
+    - name: ICP Filing
       href: Related-Resources/Filing.md                 
     - name: Glossary
       href: Related-Resources/Glossary.md           

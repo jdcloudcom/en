@@ -51,7 +51,7 @@ paths:
                       $ref: "../model/Monitor.yaml#/definitions/monitor"
               requestId:
                 type: string
-                description: "ID of this request"
+                description: "ID of This Request"
         400:
           description: "BAD_REQUEST"
   /domain/{domainId}/monitorAdd:
@@ -72,9 +72,9 @@ paths:
             properties:
               requestId:
                 type: string
-                description: "ID of this request"
+                description: "ID of This Request"
         400:
-          description: "BAD_REQUEST  "
+          description: "BAD_REQUEST"  
           
   /domain/{domainId}/getTargets:
   ###################### Query Available Monitoring Objects of Subdomain ######################
@@ -101,9 +101,9 @@ paths:
                       type: string  
               requestId:
                 type: string
-                description: "ID of this request"
+                description: "ID of This Request"
         400:
-          description: "BAD_REQUEST  "
+          description: "BAD_REQUEST"  
   
   /domain/{domainId}/monitorAddTarget:
   ###################### Add Monitoring Items of Subdomain ######################
@@ -117,7 +117,7 @@ paths:
           required: true
           description: "Subdomain"
         - name: targets
-          description: "Array of Available Monitoring Objects of Subdomain         "
+          description: "Array of Available Monitoring Objects of Subdomain"         
           in: query
           required: true 
           type: array
@@ -130,9 +130,9 @@ paths:
             properties:
               requestId:
                 type: string
-                description: "ID of this request"
+                description: "ID of This Request"
         400:
-          description: "BAD_REQUEST "
+          description: "BAD_REQUEST" 
           
   /domain/{domainId}/monitorOperate:
   ###################### Monitoring Items Operation (including delete, pause, start, manual recovery, and manual switch) ######################
@@ -164,7 +164,7 @@ paths:
             properties:
               requestId:
                 type: string
-                description: "ID of this request"
+                description: "ID of This Request"
         400:
           description: "BAD_REQUEST"
   /domain/{domainId}/monitorUpdate:
@@ -186,7 +186,7 @@ paths:
             properties:
               requestId:
                 type: string
-                description: "ID of this request"
+                description: "ID of This Request"
         400:
           description: "BAD_REQUEST"
                  
@@ -234,7 +234,7 @@ paths:
                       $ref: "../model/Monitor.yaml#/definitions/monitorAlarmInfo"
               requestId:
                 type: string
-                description: "ID of this request"
+                description: "ID of This Request"
         400:
           description: "BAD_REQUEST"
 # General Parameters for Path

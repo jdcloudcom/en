@@ -56,7 +56,7 @@ paths:
           type: array
           items:
             $ref: "../../common/model/Filter.yaml#/definitions/filter"
-          description: |
+          description: | 
             instanceId - Instance ID, Accurate Matching
             instanceName - Instance Name, Fuzzy Matching
             instanceStatus - mongodb status, accurate matching, support multiple RUNNING: Running, ERROR: Error, BUILDING: Creating, DELETING: Deleting, RESTORING: Restoring, RESIZING: under Configuration Change
@@ -89,7 +89,7 @@ paths:
   "/instances/{instanceId}":
     ###################### Delete Instance ######################
     delete:
-      description: "Delete Instance"
+      description: "Delete instance"
       operationId: deleteInstance
       responses:
         200:
@@ -102,12 +102,12 @@ paths:
   "/instances/{instanceId}:resetPassword":
     ###################### Reset Password ######################
     post:
-      description: "Reset Password"
+      description: "Reset password"
       operationId: resetPassword 
       parameters:
         - name: resetPassword
           in: body
-          description: 
+          description:
           schema:
             type: object
             required:
@@ -127,12 +127,12 @@ paths:
   "/instances/{instanceId}:modifyInstanceSpec":
     ###################### Change Instance Type  ######################
     post:
-      description: "Change Instance Type"
+      description: "Change instance type"
       operationId: modifyInstanceSpec 
       parameters:
         - name: modifyInstanceSpec
           in: body
-          description: 
+          description:
           schema:
             type: object
             required:
@@ -162,12 +162,12 @@ paths:
   "/instances/{instanceId}:modifyInstanceName":
     ###################### Modify Instance Name  ######################
     post:
-      description: "Modify Instance Name"
+      description: "Modify instance name"
       operationId: modifyInstanceName 
       parameters:
         - name: modifyInstanceName
           in: body
-          description: 
+          description:
           schema:
             type: object
             required:
@@ -186,7 +186,7 @@ paths:
 
   "/instances/{instanceId}/backupPolicy":
     get:
-      description: "Get Backup Policy"
+      description: "Get backup policy"
       operationId: describeBackupPolicy
       responses:
         200:
@@ -205,12 +205,12 @@ paths:
                 type: string   
 
     post:
-      description: "Modify Backup Policy"
+      description: "Modify backup policy"
       operationId: modifyBackupPolicy
       parameters:
         - name: modifyBackupPolicy
           in: body
-          description: 
+          description:
           schema:
             type: object
             required:
@@ -242,7 +242,7 @@ paths:
       parameters:
         - name: restoreInstance
           in: body
-          description: 
+          description:
           schema:
             type: object
             required:
@@ -261,7 +261,7 @@ paths:
 
   "/flavors":
     get:
-      description: "Get Type"
+      description: "Get type"
       operationId: describeFlavors
       responses:
         200:
@@ -297,13 +297,13 @@ paths:
 
   "/instances/deleteInstances":
     delete:
-      description: "Batch Deletion"
+      description: "Delete by batchs"
       operationId: deleteMongoDbs
       x-jdcloud-internal: true
       parameters:
         - name: deleteMongoDbs
           in: body
-          description: 
+          description:
           schema:
             type: object
             required:
@@ -330,7 +330,7 @@ paths:
                 
   "/instances/{instanceId}/topology":
     get:
-      description: "Get topology Structure"
+      description: "Get topology structure"
       operationId: describeTopology
       x-jdcloud-internal: true
       responses:
@@ -345,7 +345,7 @@ paths:
 
   "/quota":
     get:
-      description: "Get Quota"
+      description: "Get quota"
       operationId: describeUserQuota
       x-jdcloud-internal: true
       responses:
@@ -359,15 +359,15 @@ paths:
                 type: string    
 
 
-  "/instances/{instanceId}:restartInstance":    #Restart Instance
+  "/instances/{instanceId}:restartInstance":    #Restart instance
     post:
-      description: "Restart Instance"
+      description: "Restart instance"
       operationId: restartInstance
       x-jdcloud-internal: true
       parameters:
         - name: restartInstance
           in: body
-          description: 
+          description:
           schema:
             type: object
             required:

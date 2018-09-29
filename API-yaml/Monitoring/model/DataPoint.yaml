@@ -10,4 +10,4 @@ definitions:
         description: "Time Stamp"
       value:
         type: string
-        description: "Value        "
+        description: "Value"        

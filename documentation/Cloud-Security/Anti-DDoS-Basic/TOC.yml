@@ -5,9 +5,9 @@ items:
   items:
     - name: Product Overview
       href: Introduction/Product-Overview.md
-    - name: Core Concepts
+    - name: Core Concept
       href: Introduction/Core-Concepts.md
-    - name: Basic Architecture
+    - name: Basic Infrastructure
       href: Introduction/Basic-Infrastructure.md
     - name: Benefits
       href: Introduction/Benefits.md
@@ -15,7 +15,7 @@ items:
       href: Introduction/Features.md
     - name: Specifications
       href: Introduction/Specification.md
-      status: 0
+      status:0
     - name: Restrictions
       href: Introduction/Restrictions.md
     - name: Application Scenarios 
@@ -23,7 +23,7 @@ items:
 - name: Pricing
   items:
     - name: Billing Overview
-      href: Pricing/Billing-Overview.md
+      href: Pricing/Pricing.md
 - name: Getting Started
   items:
     - name: Capture Anti-DDoS Basic Capabilities
@@ -36,14 +36,10 @@ items:
       href: Operation-Guide/View-Report-log.md            
 - name: Best Practices
   items:
-    - name: Anti-DDoS Basic + Anti-DDoS Pro Linkage Scheme
+    - name: Anti-DDoS Basic + Advanced Anti-DDoS Linkage Scheme
       href: Best-Practices/Linkage-Scheme.md	
-- name: Tutorial
-  status: 0
-- name: Troubleshooting
-  href:
 - name: FAQ
   href: FAQ/FAQ.md
 - name: API Reference
   href: 
-  status: 0     
+  status:0     

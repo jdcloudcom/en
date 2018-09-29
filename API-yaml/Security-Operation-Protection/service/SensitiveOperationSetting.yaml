@@ -2,7 +2,7 @@ swagger: "2.0"
 info:
   version: "v1"
   title: Sensitive Operation Configuration
-  description: "Operate the interfaces of sensitive operation configuration"
+  description: "Operate the APIs of sensitive operation configuration"
 
 basePath: /regions/{regionId}
 

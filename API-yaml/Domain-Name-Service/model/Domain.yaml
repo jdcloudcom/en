@@ -12,7 +12,7 @@ definitions:
         description: "Domain Name String"
       createTime:
         type: integer
-        description: "Creation Time, Format Unix Timestamp "
+        description: "Creation Time, Format Unix Timestamp " 
       expirationDate:
         type: integer
         description: "Expiration Time, Format Unix Timestamp"

@@ -8,10 +8,10 @@ definitions:
         description: "Segment ID"
       segmentName:
         type: string
-        description: "Segment name, only allowed to enter Chinese, numbers, capital and lowercase letters, English underline “_” and line-through “-”, must provide a name which cannot exceed 32 characters."
+        description: "Segment name, only allow Chinese, numbers, capital and lowercase letters, English underline “_” and line-through “-”, must provide a name which cannot exceed 32 characters."
       description:
         type: string
-        description: "Segment description, all characters allowed to enter under UTF-8 coding, which is not exceed 256 characters."
+        description: "Segment description, allow all characters under UTF-8 coding, which cannot exceed 256 characters."
       addressPrefix:
         type: string
         description: "Network Address Field"

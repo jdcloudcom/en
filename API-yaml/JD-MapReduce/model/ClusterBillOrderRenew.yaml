@@ -10,7 +10,7 @@ definitions:
         description: "Cluster Id"
       type:
         type: integer
-        description: "|"
+        description: |
                   "Required Parameters, Billing Type:"
                   "Pay by configuration<br/>"
                        "601-609: Monthly package for 1 month to 9 months"

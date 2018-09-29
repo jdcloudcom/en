@@ -7,14 +7,14 @@ definitions:
     properties:
       archived: 
         type: integer
-        description: "Whether to Archive or Not (0: not archived, 1: archived)"
+        description: "Whether to archive or not (0: not archived, 1: archived)"
       createdTime:
         type: string
         format: date
-        description: "Time Stamp of Creating Topic "
+        description: "Time Stamp of Creating Topic " 
       deleted:
         type: integer
-        description: "Whether the Topic has been Deleted (0: not deleted, 1: deleted)"
+        description: "Whether has the topic been deleted (0: not deleted, 1: deleted)"
       id:
         type: integer
         description: "ID Value of Topic"
@@ -45,7 +45,7 @@ definitions:
       updatedTime:
         type: string
         format: date
-        description: "Time Stamp of Updating Topic "
+        description: "Time Stamp of Updating Topic " 
       userPin:
         type: string
         description: "UserPin of the User"

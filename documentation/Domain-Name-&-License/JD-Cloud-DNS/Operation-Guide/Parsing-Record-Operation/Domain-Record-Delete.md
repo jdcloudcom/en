@@ -10,6 +10,6 @@
 
   3. Click the **Delete** under the operation
 
-  ![img](file:///C:\Users\ZHANGJ~1\AppData\Local\Temp\msohtmlclip1\01\clip_image002.png)
+  ![img](https://github.com/jdcloudcom/cn/blob/edit/image/dns-img/modify-record1.png)
 
   4. After clicking **Confirm**, the resolution record will be deleted.
