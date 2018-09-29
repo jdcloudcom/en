@@ -5,29 +5,29 @@ items:
   items:
     - name: Product Overview
       href: Introduction/Product-Overview.md 
-    - name: Core Concepts
+    - name: Core Concept
       href: Introduction/Core-Concepts.md 
-    - name: Basic Architecture
+    - name: Basic Infrastructure
       href: Introduction/Basic-Infrastructure.md 
     - name: Benefits
       href: Introduction/Benefits.md 
     - name: Features
       href: Introduction/Features.md 
     - name: Specifications
-      href: Introduction/Specifications.md 
+      href: Introduction/Specification.md 
     - name: Restrictions
       href: Introduction/Restrictions.md 
 - name: Pricing
   items:
     - name: Billing Overview
-      href: Pricing/Billing-Overview.md
+      href: Pricing/Pricing.md
     - name: Billing Rules
       href: Pricing/Billing-Rules.md
     - name: Price Overview
       href: Pricing/Price-Overview.md
     - name: Purchase Process 
       href: Pricing/Purchase-Process.md
-    - name: Renew Process
+    - name: Renew-Process
       href: Pricing/Renew-Process.md
 - name: Getting Started 
   items:
@@ -49,12 +49,12 @@ items:
         href: Operation-Guide/Account-Management/Modify-Account-Permissions.md 
       - name: Reset Password
         href: Operation-Guide/Account-Management/Reset-Passwords.md
-    - name: Monitoring Alarm 
+    - name: Monitoring and Alarms 
       items:
       - name: View Monitoring Information
-        href: Operation-Guide/Monitoring-Alarm/View-Monitoring-Information.md
-      - name: Set Alarm Rule
-        href: Operation-Guide/Monitoring-Alarm/Setting-Alarm-Rules.md
+        href: Operation-Guide/Monitor-Alarm/View-Monitor-Information.md
+      - name: Set Alarm Rules
+        href: Operation-Guide/Monitor-Alarm/Set-Alarm-Rules.md
     - name: Data Synchronization 
       items:
       - name: Enable Data Synchronization
@@ -64,6 +64,6 @@ items:
     - name: Database Management 
       items:
       - name: Create Database 
-        href: Operation-Guide/Database-Management/Create-Database
-      - name: Disable Data Synchronization 
-        href: Operation-Guide/Database-Management/Delete-Database
+        href: Operation-Guide/Database-Management/Create-Database.md
+      - name: Delete Database 
+        href: Operation-Guide/Database-Management/Delete-Database.md

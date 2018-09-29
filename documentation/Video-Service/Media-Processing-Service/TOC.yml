@@ -42,8 +42,8 @@ items:
       - name: Delete Video Task
         href: Video-Transcoding-API/Delete-Video-Task.md   
  - name: Best Practices
-   status: 0
+   status:0
  - name: FAQ
-   status: 0
+   status:0
  - name: Glossary         
-   status: 0
+   status:0

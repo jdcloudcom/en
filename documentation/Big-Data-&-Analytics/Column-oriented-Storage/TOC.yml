@@ -5,9 +5,9 @@
     items:
     - name: Product Overview
       herf: Introduction/Product-Overview.md
-    - name: Core Concepts
+    - name: Core Concept
       herf: Introduction/Core-Concepts.md
-    - name: Basic Architecture
+    - name: Basic Infrastructure
       herf: Introduction/Basic-Infrastructure.md
     - name: Benefits
       herf: Introduction/Benefits.md
@@ -21,25 +21,25 @@
       herf: Introduction/Application-Scenarios.md        
   - name: API Reference
     href: 
-    status: 0
+    status:0
   - name: SDK Reference
     href:
-  - name: User Agreements
-    status: 0
+  - name: User Agreement
+    status:0
     items:
-    - name: Service Terms
+    - name: Terms of Service
       href:            
-      status: 0      
+      status:0      
     - name: SLA
       href:            
-      status: 0       
+      status:0       
   - name: Related Resources
     items:
     - name: Document History
       href: Related-Resources/Document-History.md   
-    - name: IPC Filing
+    - name: ICP Filing
       href:           
-      status: 0        
+      status:0        
     - name: Glossary
       href:          
-      status: 0
+      status:0

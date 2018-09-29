@@ -24,20 +24,20 @@ Fault statistical point:
 
 | **Statistical Point**                                              | **Included in Availability or Not**                                           |                            |      |
 | ------------------------------------------------------- | ------------------------------------------------------------ | -------------------------- | ---- |
-| Instance Running Status                                           | Network                                                         | User Network                   | No   |
-| ISP Network                                                      | No                                                           |                            |      |
+| Instance Running Status                                            | Network                                                         | User Network                   | No   |
+| ISP Network                                                 | No                                                           |                            |      |
 | Basic Network IDC (Fault caused by force majeure will not be deemed as service unavailability) | Yes                                                          |                            |      |
-| Intranet and Internet ACL                                   | Yes                                                          |                            |      |
+| Intranet and Internet ACL                                             | Yes                                                          |                            |      |
 | Security                                                    | Network Attack (Attacks against individual user are not included, and attacks against JD Cloud are included)       | Yes                        |      |
-| Product                                                    | Service unavailability The unavailability caused by the configuration of users' application servers (such as the user's firewall rule restrictions, failure of health check caused by false configuration of the user's health check, etc.), capacity bottlenecks of the backend server, fault of backend server itself is not included.  | Hardware Faults Such as Servers and Storage Devices | Yes  |
+| Product                                                   | Service unavailability The unavailability caused by the configuration of users' application servers (such as the user's firewall rule restrictions, failure of health check caused by false configuration of the user's health check, etc.), capacity bottlenecks of the backend server, fault of backend server itself is not included.  | Hardware Faults Such as Servers and Storage Devices | Yes  |
 | JD Cloud System Software Fault                                      | Yes                                                          |                            |      |
 | Service Unavailability Caused by Changes in System                                | Yes                                                          |                            |      |
 | Management Console                                              | Create Instance                                                     | No                         |      |
 | Configuration Management (e.g. Health Check, Session Persistence, etc.)                    | No                                                           |                            |      |
-| Display Exception (e.g. Health Check Results, etc.)                           | No                                                           |                            |      |
+| Display Exception (e.g. Health Check Results, etc.)                          | No                                                           |                            |      |
 | OpenAPI                                                 | Create Instance                                                     | No                         |      |
 | Configuration Management (e.g. Health Check, Session Persistence, etc.)                    | No                                                           |                            |      |
-| Display Exception (e.g. Health Check Results, etc.)                           | No                                                           |                            |      |
+| Display Exception (e.g. Health Check Results, etc.)                          | No                                                           |                            |      |
 
 ### **2.3 Service Resource Allocation Capability**
 

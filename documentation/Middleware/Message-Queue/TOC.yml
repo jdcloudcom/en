@@ -5,7 +5,7 @@
     items:
       - name: Product Overview
         href: Introduction/Product-Overview.md
-      - name: Core Concepts
+      - name: Core Concept
         href: Introduction/Core-Concepts.md
       - name: Basic Infrastructure
         href: Introduction/Basic-Infrastructure.md
@@ -20,7 +20,7 @@
   - name: Pricing
     items:
       - name: Billing Overview
-        href: Pricing/Billing-Overview.md
+        href: Pricing/Pricing.md
       - name: Billing Rules
         href: Pricing/Billing-Rules.md
       - name: Price Overview
@@ -63,35 +63,37 @@
             href: Operation-Guide/Monitoring/Alarm-Rules.md              
   - name: Best Practices
     items:
-    status: 0
+    status:0
   - name: Tutorial
     items:
-    status: 0
+    status:0
   - name: Troubleshooting
     items:
-    status: 0     
+    status:0     
   - name: FAQ
-    href: FAQ/FAQ.md
+    items:
+      - name: Billing Overview
+        href: FAQ/FAQ.md
   - name: API Reference
     href:
   - name: SDK Reference
     href:
-  - name: User Agreements
-    status: 0
+  - name: User Agreement
+    status:0
     items:
-    - name: Product Terms of Service
+    - name: Terms of Service
       href: User-Agreements/Product-Terms-of-Service.md           
-      status: 0      
+      status:0      
     - name: SLA
       href: User-Agreements/SLA.md           
-      status: 0       
+      status:0       
   - name: Related Resources
     items:
     - name: Document History
       href: Related-Resources/Document-History.md   
     - name: ICP Filing
       href: Related-Resources/Filing.md           
-      status: 0        
+      status:0        
     - name: Glossary
       href: Related-Resources/Glossary.md           
-      status: 0
+      status:0

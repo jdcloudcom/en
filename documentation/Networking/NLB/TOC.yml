@@ -1,28 +1,28 @@
   name: Network Load Balancer
   href: 
   items:
-  - name: Product Introduction
+  - name: Introduction
     items:
       - name: Product Overview
         href: Introduction/Product-Overview.md
       - name: Core Concept
         href: Introduction/Core-Concepts.md
-      - name: Basic Architecture
+      - name: Basic Infrastructure
         href: Introduction/Basic-Infrastructure.md
-      - name: Product Advantage
+      - name: Benefits
         href: Introduction/Benefits.md
-      - name: Product Function
+      - name: Features
         href: Introduction/Features.md
-      - name: Product Specifications
-        href: Introduction/Specifications.md
+      - name: Specifications
+        href: Introduction/Specification.md
       - name: Restrictions
         href: Introduction/Restrictions.md
       - name: Application Scenarios 
         href: Introduction/Application-Scenarios.md    
-  - name: Product Pricing
+  - name: Pricing
     items:
       - name: Billing Overview
-        href: Pricing/Billing-Overview.md
+        href: Pricing/Pricing.md
       - name: Billing Rules
         href: Pricing/Billing-Rules.md
       - name: Price Overview
@@ -31,7 +31,7 @@
         href: Pricing/Purchase-Process.md 
       - name: Renew-Process
         href: Pricing/Renew-Process.md
-  - name: Start Guide
+  - name: Getting Started
     items:
       - name: Create network load balancer instance
         href: Getting-Started/Create-Instance.md
@@ -63,7 +63,7 @@
         href: Operation-Guide/TargetGroup-Management.md
       - name: Monitoring Service
         href: Operation-Guide/Monitoring.md             
-  - name: Best Practice
+  - name: Best Practices
     items:
     - name: Pass-through of TCP Service by Network Load Balancer Deployment
       href: Best-Practices/Deploy-TCP-Service-with-Original-Client-IP-Passthrough.md
@@ -79,23 +79,23 @@
       href: Best-Practices/Distribute-service-to-vm-and-container-with-NLB.md
     - name: Deploy Auto Scaling Business on the Server by Network Load Balancer
       href: Best-Practices/AG-as-backend-server.md
-  - name: Troubleshoot
+  - name: Troubleshooting
     items:
     - name: Network Load Balancer Business Access Failed?
       href: Troubleshooting/Access-NLB-Service-Failed.md
   - name: FAQ
     href: FAQ/FAQ.md
   - name: API Reference
-    status: 0      
+    status:0      
   - name: SDK Reference
-    status: 0      
+    status:0      
   - name: User Agreement
     items:
-    - name: Service Terms
+    - name: Terms of Service
       href: User-Agreements/Product-Terms-of-Service.md               
     - name: SLA
       href: User-Agreements/SLA.md           
-  - name: Relevant Resources
+  - name: Related Resources
     items:
     - name: Document History
       href: Related-Resources/Document-History.md   

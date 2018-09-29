@@ -12,7 +12,7 @@
   - name: Pricing
     items:
       - name: Billing Overview
-        href: Pricing/Billing-Overview.md
+        href: Pricing/Pricing.md
       - name: Billing Rules
         href: Pricing/Billing-Rules.md
   - name: Operation Guide
@@ -21,7 +21,7 @@
         href: Operation-Guide/Data-Load.md
       - name: Library List Management
         href: Operation-Guide/DW-Management.md
-      - name: Management File
+      - name: Management Object
         href: Operation-Guide/File-Management.md
       - name: Task Development
         href: Operation-Guide/Task-Development.md 
@@ -43,15 +43,15 @@
         href: FAQ/JDBC-Connection-FAQ.md
   - name: Document History
     href: Related-Resources/Document-History.md     
-  - name: Service Terms
+  - name: Terms of Service
     href: Related-Resources/Service-Terms.md           
-    status: 0      
+    status:0      
   - name: SLA
     href: Related-Resources/SLA.md           
-    status: 0       
-  - name: Filing
+    status:0       
+  - name: ICP Filing
     href: Related-Resources/Filing.md           
-    status: 0        
+    status:0        
   - name: Glossary
     href: Related-Resources/Glossary.md           
-    status: 0  
+    status:0  

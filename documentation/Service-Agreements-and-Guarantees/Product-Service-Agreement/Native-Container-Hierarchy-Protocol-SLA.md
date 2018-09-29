@@ -42,7 +42,7 @@ Data Persistence: Not less than 99.9999999%
 
 Data persistence is counted by service period. One service period is a natural month. If it is less than one month, it is not counted as one service period.
 
-Data Persistence Calculation Formula: container disk with good data per service period/(container disk with good data per service cycle + container disk with data loss per service cycle). That is, for every 10,000 container disks, the probability that the data is not lost is 99.9999999% per month, or only one container disk may have data loss per month.
+Data Persistence Calculation Formula: container disk with good data per service period/(container disk with good data per service cycle+container disk with data loss per service cycle). That is, for every 10,000 container disks, the probability that the data is not lost is 99.9999999% per month, or only one container disk may have data loss per month.
 
 **2.8. Data Destructibility**
 

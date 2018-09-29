@@ -5,45 +5,45 @@ items:
   items:
       - name: Product Overview
         href: Introduction/Product-Overview.md
-      - name: Core Concepts
+      - name: Core Concept
         href: Introduction/Core-Concepts.md
-      - name: Infrastructure
+      - name: Basic Infrastructure
         href: 
-        status: 0
+        status:0
       - name: Benefits
         href: Introduction/Benefits.md
       - name: Features
         href: Introduction/Features.md
       - name: Specifications
-        href: Introduction/Specifications.md
+        href: Introduction/Specification.md
       - name: Restrictions
         href: 
-        status: 0
+        status:0
       - name: Application Scenarios 
         href: Introduction/Application-Scenarios.md    
 - name: Pricing
   items:
       - name: Billing Overview
-        href: Pricing/Billing-Overview.md
+        href: Pricing/Pricing.md
       - name: Billing Rules
         href: 
-        status: 0
+        status:0
       - name: Price Overview
         href: 
-        status: 0
+        status:0
       - name: Purchase Process
         href:
-        status: 0
-      - name: Renew Process
+        status:0
+      - name: Renew-Process
         href: 
-        status: 0
+        status:0
 - name: Getting Started
   items:
-      - name: Getting Started Overview
+      - name: Getting Started Guide
         href: Getting-Started/Overview.md
 - name: Operation Guide
   items:
-      - name: Use Notes
+      - name: Introduction
         href: Operation-Guide/Operation-Instruction/Operation-Instruction.md
       - name: Resource Management
         items:
@@ -63,13 +63,14 @@ items:
             href: Operation-Guide/Tickets-Management/View-Tickets-List.md
 - name: Best Practices
   items:
-  status: 0
+  status:0
 - name: Tutorial
-  status: 0
+  status:0
 - name: Troubleshooting
-  status: 0    
+  status:0    
 - name: FAQ
   href: FAQ/FAQ.md
+  status:0 
 - name: Related Resources
   items:
     - name: Document History
