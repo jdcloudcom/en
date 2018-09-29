@@ -14,7 +14,7 @@
       - name: Features
         href: Introduction/Features.md
       - name: Specifications
-        href: Introduction/Specification.md
+        href: Introduction/Specifications.md
       - name: Restrictions
         href: Introduction/Restrictions.md
       - name: Application Scenarios 
