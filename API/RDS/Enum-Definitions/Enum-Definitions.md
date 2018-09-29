@@ -9,7 +9,7 @@
 - [characterSetName Database Character Set](#characterSetName-Database-Character-Set)
 - [sqlAuditStatus Data Audit Status](#sqlAuditStatus-Data-Audit-Status)
 - [connectionMode Access Mode](#connectionMode-Access-Mode)
-- [backupStatus Backup Status](#backupstatus-Backup Status)
+- [backupStatus Backup Status](#backupstatus-Backup-Status)
 - [backupType Backup Type](#backupStatus-Backup-Status)
 - [backupMode Backup Mode](#backupMode-Backup-Mode)
 - [backupUnit Backup Granularity](#backupUnit-Backup-Granularity)
