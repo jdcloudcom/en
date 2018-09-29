@@ -22,7 +22,6 @@ https://disk.jdcloud-api.com/v1/regions/{regionId}/disks/{diskId}:extend
 |---|---|---|---|---|
 |**diskSizeGB**|Integer|True| |The size of the cloud disk after expansion is in GiB|
 
-
 ## Response parameter
 None
 

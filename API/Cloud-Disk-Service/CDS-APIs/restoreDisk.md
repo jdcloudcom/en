@@ -6,7 +6,6 @@
 -   Snapshots can be used for data recovery operations only if the source hard disk is available.
 -   After the cloud disk is restored, the current data will be cleared. Please be cautious.
 
-
 ## Request method
 POST
 
@@ -22,7 +21,6 @@ https://disk.jdcloud-api.com/v1/regions/{regionId}/disks/{diskId}:restore
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**snapshotId**|String|True| |Snapshot ID used to recover the cloud disk|
-
 
 ## Response parameter
 None

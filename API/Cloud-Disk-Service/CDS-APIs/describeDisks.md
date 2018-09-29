@@ -2,7 +2,7 @@
 
 
 ## Description
--   filters, between multiple filter conditions is logic AND, and multiple values ​​inside each condition is logic OR
+-   Query details of Cloud Disks
 
 
 ## Request method
@@ -39,7 +39,7 @@ https://disk.jdcloud-api.com/v1/regions/{regionId}/disks
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
-|**result**|Result|Query Result Set|
+|**result**|Result|Result Set|
 
 
 ### Result

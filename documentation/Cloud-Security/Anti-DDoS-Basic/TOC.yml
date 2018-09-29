@@ -15,7 +15,7 @@ items:
       href: Introduction/Features.md
     - name: Specifications
       href: Introduction/Specification.md
-      status:0
+      status: 0
     - name: Restrictions
       href: Introduction/Restrictions.md
     - name: Application Scenarios 
@@ -42,4 +42,4 @@ items:
   href: FAQ/FAQ.md
 - name: API Reference
   href: 
-  status:0     
+  status: 0   

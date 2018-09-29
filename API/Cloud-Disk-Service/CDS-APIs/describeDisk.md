@@ -25,7 +25,6 @@ None
 |**requestId**|String|Request ID|
 |**result**|Result|Query cloud disk details|
 
-
 ### Result
 |Name|Type|Description|
 |---|---|---|
@@ -49,7 +48,7 @@ None
 ### DiskAttachment
 |Name|Type|Description|
 |---|---|---|
-|**attachTime**|String|Attaching Time|
+|**attachTime**|String|Attach Time|
 |**attachmentId**|String|Attach ID|
 |**diskId**|String|Cloud Disk ID|
 |**instanceId**|String|ID of Instance Attached|
