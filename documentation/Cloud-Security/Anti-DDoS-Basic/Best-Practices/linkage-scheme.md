@@ -15,4 +15,4 @@ Anti-DDoS Basic is a free service that JD Cloud provides to counter common cloud
 ## Access Anti-DDoS Pro
 
 Anti-DDoS Basic is a protection service provided by JD Cloud for the users free of charge. If you need Anti-DDoS Pro provided by JD Cloud, please buy JD Cloud Anti-DDoS Pro as needed. The purchase page of Anti-DDoS Pro is as follows:
-[Anti-DDoS Pro](http://www.jdcloud.com/cn/products/anti-ddos-pro)
+[Anti-DDoS Pro](http://www.jdcloud.com/products/anti-ddos-pro)
