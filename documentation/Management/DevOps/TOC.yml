@@ -72,29 +72,29 @@ items:
   - name: Tutorial
     status: 0
     items:
-      - name: Troubleshooting
-        items:
-          - name: Problems of Fault Class
-            href: Troubleshooting/Troubleshooting.md
-          - name: Problems of Configuration Class
-            href: Troubleshooting/Configuration.md
-      - name: FAQ
-        href: FAQ/FAQ.md
-      - name: API Reference
-        href: API/API-Reference.md
-      - name: SDK Reference
-        href: SDK/SDK-Reference.md
-      - name: User Agreement
-        items:
-          - name: Terms of Service
-            href: User-Agreements/Product-Terms-of-Service.md
-          - name: SLA
-            href: User-Agreements/SLA.md
-      - name: Related Resources
-        items:
-          - name: Document History
-            href: Related-Resources/Document-History.md
-          - name: ICP Filing
-            href: Related-Resources/Filing.md
-          - name: Glossary
-            href: Related-Resources/Glossary.md
+  - name: Troubleshooting
+    items:
+      - name: Problems of Fault Class
+        href: Troubleshooting/Troubleshooting.md
+      - name: Problems of Configuration Class
+        href: Troubleshooting/Configuration.md
+  - name: FAQ
+    href: FAQ/FAQ.md
+  - name: API Reference
+    href: API/API-Reference.md
+  - name: SDK Reference
+    href: SDK/SDK-Reference.md
+  - name: User Agreement
+    items:
+      - name: Terms of Service
+        href: User-Agreements/Product-Terms-of-Service.md
+      - name: SLA
+        href: User-Agreements/SLA.md
+  - name: Related Resources
+    items:
+      - name: Document History
+        href: Related-Resources/Document-History.md
+      - name: ICP Filing
+        href: Related-Resources/Filing.md
+      - name: Glossary
+        href: Related-Resources/Glossary.md
