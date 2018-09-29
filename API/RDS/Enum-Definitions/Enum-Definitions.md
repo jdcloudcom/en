@@ -1,20 +1,21 @@
 # Enumeration Type Definition
 
-- [engine RDS Engine Type](#engine-rds-engine-type)
-- [engineVersion RDS Engine Version](#engineversion-rds-engine-version)
-- [instanceStatus Instance Status](#instancestatus-instance-status)
-- [dbStatus Database Status](#dbstatus-database-status)
-- [accountStatus Account Status](#accountstatus-account-status)
-- [privilege Database Access](#privilege-database-access)
-- [characterSetName Database Character Set](#charactersetname-database-character-set)
-- [sqlAuditStatus Data Audit Status](#sqlauditstatus-data-audit-status)
-- [connectionMode Access Mode](#connectionmode-access-mode)
-- [backupStatus Backup Status](#backupstatus-backup-status)
-- [backupType Backup Type](#backupstatus-backup-status)
-- [backupMode Backup Mode](#backupmode-backup-mode)
-- [backupUnit Backup Granularity](#backupunit-backup-granularity)
+- [engine RDS Engine Type](engine#engine-rds-engine-type)
+- [engineVersion RDS Engine Version](engineversion#engineversion-rds-engine-version)
+- [instanceStatus Instance Status](instancestatus#instancestatus-instance-status)
+- [dbStatus Database Status](dbstatus#dbstatus-database-status)
+- [accountStatus Account Status](accountstatus#accountstatus-account-status)
+- [privilege Database Access](privilege#privilege-database-access)
+- [characterSetName Database Character Set](charactersetname#charactersetname-database-character-set)
+- [sqlAuditStatus Data Audit Status](sqlauditstatus#sqlauditstatus-data-audit-status)
+- [connectionMode Access Mode](connectionmode#connectionmode-access-mode)
+- [backupStatus Backup Status](backupstatus#backupstatus-backup-status)
+- [backupType Backup Type](backuptype#backuptype-backup-type)
+- [backupMode Backup Mode](backupmode#backupmode-backup-mode)
+- [backupUnit Backup Granularity](backupunit#backupunit-backup-granularity)
 
 ## engine RDS Engine Type
+<div id="engine-rds-engine-type"></div>
 
 |Value|Description|
 |-|-|
@@ -24,6 +25,7 @@
 |SQL Server|SQL Server Database Engine, note that there are spaces in the middle|
 
 ## engineVersion RDS Engine Version
+<div id="engineversion-rds-engine-version"></div>
 
 |Value|Description|
 |-|-|
@@ -41,6 +43,7 @@
 |2016 Web|SQL Server 2016 Web Version|
 
 ## instanceStatus Instance Status
+<div id="instancestatus-instance-status"></div>
 
 |Value|Description|
 |-|-|
@@ -64,6 +67,7 @@
 |REBOOT_ERROR|Reboot Error|
 
 ## dbStatus Database Status
+<div id="dbstatus-database-statu"></div>
 
 |Value|Description|
 |-|-|
@@ -74,6 +78,7 @@
 |ERROR|Exception|
 
 ## accountStatus Account Status
+<div id="accountstatus-account-status"></div>
 
 |Value|Description|
 |-|-|
@@ -83,7 +88,8 @@
 |DELETE_ERROR|Delete Error|
 |ERROR|Exception|
 
-## privilege Database Access
+## privilege Database Access Privilege
+<div id="privilege-database-access"></div>
 
 |Value|Description|
 |-|-|
@@ -91,6 +97,7 @@
 |rw|Read-Write|
 
 ## characterSetName Database Character Set
+<div id="charactersetname-database-character-set"></div>
 
 |Value|Description|
 |-|-|
@@ -102,6 +109,7 @@
 |Chinese_PRC_BIN|SQL Server Character Set|
 
 ## sqlAuditStatus Data Audit Status
+<div id="sqlauditstatus-data-audit-status"></div>
 
 |Value|Description|
 |-|-|
@@ -109,6 +117,7 @@
 |on|On|
 
 ## connectionMode Access Mode
+<div id="connectionmode-access-mode"></div>
 
 |Value|Description|
 |-|-|
@@ -116,6 +125,7 @@
 |security|High Security Access Mode|
 
 ## backupStatus Backup Status
+<div id="backupstatus-backup-status"></div>
 
 |Value|Description|
 |-|-|
@@ -127,6 +137,7 @@
 |RETAINED|Instance is deleted, and backup is reserved|
 
 ## backupType Backup Type
+<div id="backuptype-backup-type"></div>
 
 |Value|Description|
 |-|-|
@@ -134,6 +145,7 @@
 |diff|Incremental Backup|
 
 ## backupMode Backup Mode
+<div id="backupmode-backup-mode"></div>
 
 |Value|Description|
 |-|-|
@@ -141,6 +153,7 @@
 |manual|Manual Backup|
 
 ## backupUnit Backup Granularity
+<div id="backupunit-backup-granularity"></div>
 
 |Value|Description|
 |-|-|
