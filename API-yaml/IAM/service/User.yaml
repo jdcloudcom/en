@@ -10,7 +10,7 @@ paths:
   "/subUser":
     ###################### Create Sub-accounts######################
     post:
-      description: "Create Sub-accounts"
+      description: "Create sub-accounts"
       operationId: createSubuser
       x-jdcloud-internal: false
       parameters:
@@ -117,7 +117,7 @@ paths:
   "/user:describeUserInfo":
     ###################### Obtain User’s Information Based on AccessKey or AccountId ######################
     get:
-      description: "Obtain User’s Information Based on AccessKey or AccountId"
+      description: "Obtain user’s information based on AccessKey or AccountId"
       operationId: describeUserInfo
       x-jdcloud-internal: true
       parameters:

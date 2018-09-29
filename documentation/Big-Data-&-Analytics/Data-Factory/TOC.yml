@@ -1,21 +1,21 @@
-- name: Data Factory
+name: Data Factory
 href: 
 items:
 - name: Introduction
   items:
     - name: Product Overview
       href: Introduction/Product-Overview.md
-    - name: Core Concepts
+    - name: Core Concept
       href: Introduction/Core-Concepts.md
     - name: Features
       href: Introduction/Features.md
 - name: Pricing
   items:
     - name: Billing Overview
-      href: Pricing/Billing-Overview.md
+      href: Pricing/Pricing.md
 - name: Getting Started
   items:
-    - name: Summary
+    - name: Overview
       href: Getting-Started/Guide-description.md
     - name: Create Workflow Task
       href: Getting-Started/Create-a-Workflow-task.md
@@ -36,8 +36,8 @@ items:
 - name: Tools for Uploading Data to Cloud
   items:
     - name: xDatacmd
-      href: SDK-Reference/xDatacmd.md
+      href: SDK-Reference/DBUS-SDK.md
     - name: DBUS SDK
-      href: SDK-Reference/xDatacmd.md
+      href: SDK-Reference/DBUS-SDK.md
 - name: FAQ
   href: FAQ/FAQ.md

@@ -8,12 +8,12 @@ paths:
 #######Create or Update Storage################
   /storage:
     post:
-      description: "Create or Update Storage"
+      description: "Create or update storage"
       operationId: addOrUpdateStorage
       parameters:
         - name: storageStr
           in: body
-          description: "Details of Creating or Updating Storage"
+          description: "Details of creating or updating storage"
           required: true
           schema:
             $ref: "../model/storageInfo.yaml#/definitions/storage"
@@ -37,9 +37,9 @@ paths:
           description: "NOT_FOUND"
         '500':
           description: "INTERNAL_ERROR"
-#######Delete the Assigned Input################
+#######Delete the assigned input################
     delete:
-      description: "Delete the Assigned Input"
+      description: "Delete the assigned input"
       operationId: deleteStorage
       parameters:
         - name: storageId
@@ -63,9 +63,9 @@ paths:
           description: "UNAUTHENTICATED"
         '500':
           description: "internal error"
-#######Delete the Assigned Input################
+#######Delete the assigned input################
     get:
-      description: "Query the Assigned Input"
+      description: "Query the assigned input"
       operationId: describeStorage
       parameters:
         - name: storageId
@@ -93,7 +93,7 @@ paths:
 #######View All the Input Under the Assigned Applications################
   /storageList:
     get:
-      description: "Create or Update Storage"
+      description: "Create or update storage"
       operationId: getStorageList
       parameters:
         - name: storageType

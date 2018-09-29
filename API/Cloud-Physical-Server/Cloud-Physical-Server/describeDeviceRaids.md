@@ -2,7 +2,7 @@
 
 
 ## Description
-Query the RAID types supported by the Cloud Physical Server of a certain instance type family, able to query the system disk RAID type and data disk RAID type
+Query the RAID types supported by the Cloud Physical Server of a certain instance type family, may query the system disk RAID type and data disk RAID type
 
 ## Request method
 GET
@@ -12,26 +12,26 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/raids
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID, the Region and Availability Zone Supported by the Cloud Physical Servers can be Called by Calling APIs (describeRegions)|
+|**regionId**|String|True| |Region ID, the Region and Availability Zone Supported by the Cloud Physical Servers can be Called by Calling APIs (describeRegions)|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**deviceType**|String|True||Instance Type Family, the (describeDeviceTypes) APIs May Be Called to Obtain the Instance Type Family of the Specific Region, such as: cps.c.normal|
-|**volumeType**|String|False||Disk Type, Value Range: System, Data|
+|**deviceType**|String|True| |Instance Type Family, the (describeDeviceTypes) APIs may be called to obtain the instance type family of a specific region, such as: cps.c.normal|
+|**volumeType**|String|False| |Disk Type, value range: system, data|
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
+|**requestId**|String| |
+|**result**|Result| |
 
 
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**raids**|Raid[]||
+|**raids**|Raid[]| |
 ### Raid
 |Name|Type|Description|
 |---|---|---|
@@ -42,7 +42,7 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/raids
 |**volumeDetail**|String|Device Details|
 |**volumeType**|String|Disk Type, such as System/Data|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

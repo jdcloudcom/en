@@ -12,25 +12,25 @@ https://xdata.jdcloud-api.com/v1/regions/{regionId}/dwInstance
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
+|**regionId**|String|True| |Region ID|
 
 ## Request parameter
 None
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
+|**requestId**|String| |
+|**result**|Result| |
 
 
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**data**|DwInstance[]||
-|**message**|String||
-|**status**|Boolean||
+|**data**|DwInstance[]| |
+|**message**|String| |
+|**status**|Boolean| |
 ### DwInstance
 |Name|Type|Description|
 |---|---|---|
@@ -41,7 +41,7 @@ None
 |**instanceOwnerName**|String|Instance Owner|
 |**uname**|String|Instance Alias (shown on the page)|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

@@ -12,23 +12,23 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkAcls/
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
+|**regionId**|String|True| |Region ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**filters**|Filter[]|False|||
-|**pageNumber**|Integer|False|1|Page; it is 1 by default. Value Range: [1,∞); when the pages exceed total pages, show the last page|
-|**pageSize**|Integer|False|20|Paging size; it is 20 by default. Value Range: [10, 100]|
+|**filters**|Filter[]|False| | |
+|**pageNumber**|Integer|False|1|Page: 1 by default. Value Range: [1,∞); when the pages exceed total pages, show the last page|
+|**pageSize**|Integer|False|20|Paging Size; 20 by default. Value Range: [10, 100]|
 
 ### Filter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**name**|String|True||Name of Filter Requirements|
-|**operator**|String|False||Operator of filter requirements is eq by default|
-|**values**|String[]|True||Value of Filter Requirements|
+|**name**|String|True| |Name of Filter Requirements|
+|**operator**|String|False| |Operator of filter requirements is eq by default|
+|**values**|String[]|True| |Value of Filter Requirements|
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
@@ -44,7 +44,7 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkAcls/
 |Name|Type|Description|
 |---|---|---|
 |**createdTime**|String|NetworkAcl Creation Time|
-|**description**|String|Description, all characters allowed to enter under UTF-8 coding, which is not exceed 256 characters|
+|**description**|String|Description, allow all characters under UTF-8 coding, not exceeding 256 characters|
 |**networkAclId**|String|networkAcl ID|
 |**networkAclName**|String|NetworkAcl Name|
 |**networkAclRules**|NetworkAclRule[]|NetworkAcl Rule List|
@@ -55,7 +55,7 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkAcls/
 |---|---|---|
 |**addressPrefix**|String|Prefix of Matching Address|
 |**createdTime**|String|NetworkAclRule Creation Time|
-|**description**|String|Description, all characters allowed to enter under UTF-8 coding, which is not exceed 256 characters|
+|**description**|String|Description, allow all characters under UTF-8 coding, not exceeding 256 characters|
 |**direction**|String|NetworkAcl Rule Direction. ingress: Inbound Rule; egress: Outbound Rule|
 |**fromPort**|Integer|The Start Transport Layer Port of Rule Limit. Value Range: 1-65535; if the protocol is a transport layer protocol, the default value is 1; if the protocol is not a transport layer protocol, the setting becomes invalid and the value is constantly 0. If the rule is limited to one port, a same value is filled in the fromPort and toPort|
 |**priority**|Integer|Rule Matching Priority. Value Range: [1,32768]; the smaller the priority number is, the higher priority it is|
@@ -64,7 +64,7 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkAcls/
 |**ruleId**|String|NetworkAcl Rule ID|
 |**toPort**|Integer|The End Transport Layer Port of Rule Limit. Value Range: 1-65535; if the protocol is a transport layer protocol, the default value is 65535; if the protocol is not a transport layer protocol, the setting becomes invalid and the value is constantly 0. If the rule is limited to one port, a same value is filled in the fromPort and toPort|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**400**|Invalid parameter|

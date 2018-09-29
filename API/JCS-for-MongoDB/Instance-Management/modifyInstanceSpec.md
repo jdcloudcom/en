@@ -2,7 +2,7 @@
 
 
 ## Description
-Change Instance Type
+Change instance type
 
 ## Request method
 POST
@@ -12,30 +12,30 @@ https://mongodb.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:mod
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**instanceId**|String|True||Instance ID|
-|**regionId**|String|True||Region ID|
+|**instanceId**|String|True| |Instance ID|
+|**regionId**|String|True| |Region ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**instanceClass**|String|True||The instance type under monthly package shall not be smaller than the current type.|
-|**instanceStorageGB**|Integer|True||The storage space under monthly package shall not be smaller than the current type.|
+|**instanceClass**|String|True| |The instance type under monthly package shall not be smaller than the current type.|
+|**instanceStorageGB**|Integer|True| |The storage space under monthly package shall not be smaller than the current type.|
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
+|**requestId**|String| |
+|**result**|Result| |
 
 
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**instanceId**|String||
-|**orderId**|String||
+|**instanceId**|String| |
+|**orderId**|String| |
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

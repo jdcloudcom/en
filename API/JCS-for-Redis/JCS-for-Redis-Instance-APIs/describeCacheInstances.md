@@ -12,29 +12,29 @@ https://redis.jdcloud-api.com/v1/regions/{regionId}/cacheInstance
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||The Region ID of the region where the JCS for Redis instance is located. At present, the JCS for Redis has North China, South China, and East China regions, and the corresponding Region IDs are cn-north-1, cn-south-1, and cn-east-2|
+|**regionId**|String|True| |The Region ID of the region where the JCS for Redis instance is located. At present, the JCS for Redis has North China, South China, and East China regions, and the corresponding Region IDs are cn-north-1, cn-south-1, and cn-east-2|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**filters**|Filter[]|False||cacheInstanceId -cache instance Id can be matched exactly and support multiple<br>cacheInstanceName -cache instance name is matched fuzzily and support for a single<br>cacheInstanceStatus -the status of cache instance is matched exactly, and support multiple (running: run, error: error, creating: pending, changing: changing, deleting: deleting)<br>|
-|**pageNumber**|Integer|False||The page number of the query cache instance is 1 by default|
-|**pageSize**|Integer|False||The size of the page to query the cache instance is 20 by default and the value range is [10, 100]|
-|**sorts**|Sort[]|False||createTime - Create Time (asc: Positive Order, desc: Inverted Order)<br>|
+|**filters**|Filter[]|False| |cacheInstanceId -cache instance Id can be matched exactly and support multiple<br>cacheInstanceName -cache instance name is matched fuzzily and support for a single<br>cacheInstanceStatus -the status of cache instance is matched exactly, and support multiple (running: run, error: error, creating: pending, changing: changing, deleting: deleting)<br>|
+|**pageNumber**|Integer|False| |The page number of the query cache instance is 1 by default|
+|**pageSize**|Integer|False| |The size of the page to query the cache instance is 20 by default and the value range is [10, 100]|
+|**sorts**|Sort[]|False| |createTime - Creation Time (asc: Positive Order, desc: Inverted Order)<br>|
 
 ### Sort
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**direction**|String|False||Direction of Sorting Requirements|
-|**name**|String|False||Name of Sorting Requirements|
+|**direction**|String|False| |Direction of Sorting Requirements|
+|**name**|String|False| |Name of Sorting Requirements|
 ### Filter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**name**|String|True||Name of Filter Requirements|
-|**operator**|String|False||Operator of filter requirements is eq by default|
-|**values**|String[]|True||Value of Filter Requirements|
+|**name**|String|True| |Name of Filter Requirements|
+|**operator**|String|False| |Operator of filter requirements is eq by default|
+|**values**|String[]|True| |Value of Filter Requirements|
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|ID of This Query Request|
@@ -49,7 +49,7 @@ https://redis.jdcloud-api.com/v1/regions/{regionId}/cacheInstance
 ### CacheInstance
 |Name|Type|Description|
 |---|---|---|
-|**azId**|AzId|az Information|
+|**azId**|AzId|Az Information|
 |**cacheInstanceClass**|String|Instance specification code, refer to<a href='https://www.jdcloud.com/help/detail/411/isCatalog/1'>Instance Specification Code</a>|
 |**cacheInstanceDescription**|String|Instance Description|
 |**cacheInstanceId**|String|Instance ID|
@@ -77,7 +77,7 @@ https://redis.jdcloud-api.com/v1/regions/{regionId}/cacheInstance
 |**chargeStartTime**|String|The start time of the billing shall be subject to ISO8601, with the UTC time used in the format of YYYY-MM-DDTHH:mm:ssZ|
 |**chargeStatus**|String|Cost Payment Status, the value is respectively normal, overdue and arrear.|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

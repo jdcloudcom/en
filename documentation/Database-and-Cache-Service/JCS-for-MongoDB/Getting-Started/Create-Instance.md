@@ -1,6 +1,6 @@
 # Create Instance
 
-You can quickly create a MongoDB instance via MongoDB console or API. For billing instructions of instance, see "[Price Overview](../Pricing/Billing-Overview.md)" and "[Billing Rules](../Pricing/Billing-Rules.md)".
+You can quickly create a MongoDB instance via MongoDB console or API. For billing instructions of instance, pelase see "[Price Overview](../Pricing/Billing-Overview.md)" and "[Billing Rules](../Pricing/Billing-Rules.md)".
 
 This article describes how to create a MongoDB instance via console.
 
@@ -9,7 +9,7 @@ This article describes how to create a MongoDB instance via console.
 - If the billing type is selected and paid by configuration, please confirm that your account balance (including coupon) is not less than RMB 50.
 
 ## Operation Steps
-1. Login [MongoDB Console](https://mongodb-console.jdcloud.com/mongodb?dataCenter=bj_02).
+1. Login [MongoDB Console](https://mongodb-console.jdcloud.com/mongodb).
 2. On the "Instance List" page, click **Create** to enter the "Create Instance" page.
 
     ![Restart Instance](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-003.png)
@@ -36,7 +36,7 @@ This article describes how to create a MongoDB instance via console.
 	   
 	3. Networking
 	
-	   MongoDB supports Virtual Private Cloud deployment. If you have not completed your network planning yet, please create a virtual private cloud and subnet first.
+	   MongoDB supports Virtual Private Cloud deployment. If you have not completed your network planning yet, please create a Virtual Private Cloud and subnet first.
 
 	   Instructions:
 	   
@@ -52,12 +52,12 @@ This article describes how to create a MongoDB instance via console.
 
 	6. Purchase Duration
 	
-	   When selecting monthly package as billing type, the purchase duration shall be specified. JCS for MongoDB supports a choice of 1 month to 3 years. Generally, the longer the purchase duration, the cheaper the unit price, and the specific promotional information can be viewed at the time of the creation of the instance page.
+	   When selecting monthly package as billing type, the purchase duration shall be specified. JCS for MongoDB supports a choice of 1 month to 3 years. Generally, the longer the purchase duration, the cheaper the unit price, and the specific promotional information can be viewed at the time of instance page creation.
 	
 5. Click **Buy Now** to go to the "Order Confirmation" page.
 6. On the "Order Confirmation" page, confirm the instance information and read the Terms of Service for JCS for MongoDB.
 	- If the billing type is pay by configuration, please click **Instant Account Setup**.
-	- If the billing type is monthly package, please click ** Pay Now** to enter the "Order Payment" page to complete the payment process.
+	- If the billing type is monthly package, please click **Pay Now** to enter the "Order Payment" page to complete the payment process.
 7. After the payment process is completed, the page will automatically jump to the MongoDB "Instance List" page, please wait for the instance creation to complete. You can view the newly created MongoDB instance on the "Instance List" page.
 
 ## Related Reference

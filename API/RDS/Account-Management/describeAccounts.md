@@ -12,23 +12,23 @@ https://rds.jdcloud-api.com/0.2.9/regions/{regionId}/instances/{instanceId}/acco
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**instanceId**|String|True||RDS instance ID, which uniquely identifies an RDS instance|
-|**regionId**|String|True||Region code, with range detailed in [Regions and Availability Zone Comparison Table](../Enum-Definitions/Regions-AZ.md)|
+|**instanceId**|String|True| |RDS instance ID, which uniquely identifies an RDS instance|
+|**regionId**|String|True| |Region code, with range detailed in [Regions and Availability Zone Comparison Table](../Enum-Definitions/Regions-AZ.md)|
 
 ## Request parameter
 None
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result||
+|**result**|Result| |
 
 
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**accounts**|Account[]||
+|**accounts**|Account[]| |
 ### Account
 |Name|Type|Description|
 |---|---|---|
@@ -41,7 +41,7 @@ None
 |**dbName**|String|Database name with specific rules detailed in the Help Center Documentation: [Name and Password Restrictions](../../../documentation/Cloud-Database-and-Cache/RDS/Introduction/Restrictions/SQLServer-Restrictions.md)|
 |**privilege**|String|Privilege of account to the database with the specific definition detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

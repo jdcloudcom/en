@@ -19,7 +19,7 @@ definitions:
         description: "End Time of Attack"
       unit:
         type: string
-        description: "Traffic Unit, i.e. bps, Kbps, Mbps and Gbps"
+        description: "Traffic Unit: bps, Kbps, Mbps and Gbps"
       instanceId:
         type: integer
         format: int64

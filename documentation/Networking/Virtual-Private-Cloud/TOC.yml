@@ -5,11 +5,11 @@
     items:
       - name: Product Overview
         href: Introduction/Product-Overview.md
-      - name: Infrastructure Architecture
+      - name: Basic Infrastructure
         href: Introduction/Basic-Infrastructure.md
-      - name: Core Idea
+      - name: Core Concept
         href: Introduction/Core-Concepts.md
-      - name: Product Benefits
+      - name: Benefits
         href: Introduction/Benefits.md
       - name: Features
         items:
@@ -41,9 +41,9 @@
             href: Introduction/Application-Scenarios/Multiple-Virtual-Machines-Use-Shared-IpAddress-To-Access-Internet.md
   - name: Pricing
     items:
-      - name: Billing Overview
-        href: Pricing/Billing-Overview.md
-  - name: Getting-started Guide
+      - name: Billing Rules
+        href: Pricing/Pricing.md
+  - name: Getting Started
     items:
        - name: Create a VM instance In a VPC
          href: Getting-Started/Create-Virtual-Machine-Instance-In-VPC.md
@@ -82,33 +82,35 @@
        - name: NFV Configuration
          items:
           - name: NAT Instance Gateway Configuration
-            href: Operation-Guide/NFV-Configuration/NAT-Mirror-Gateway-Configuration.md
+            href: Operation-Guide/NFV-Configuration/NAT-Instance-Gateway-Configuration.md
           - name: VPN Imaging Gateway Configuration
             href: Operation-Guide/NFV-Configuration/VPN-Mirror-Gateway-Configuration.md
        - name: VPC Peering Connection
          href: Operation-Guide/VPC-Peering-Configuration.md
   - name: Best Practices
     items:
-    status: 0
-  - name: Troubleshoot
+    status:0
+  - name: Troubleshooting
     items:
-    status: 0
-  - name: Common Problems
+    status:0
+  - name: FAQ
     href: FAQ/FAQ.md
   - name: API Reference
     href:
-    status: 0
+    status:0
   - name: SDK Reference
     href:
-    status: 0
+    status:0
   - name: User Agreement
+    status:0
     items:
     - name: Terms of Service
       href:
-      status: 0
+      status:0
   - name: Related Resources
+    status:0
     items:
     - name: Document History
       href:
-      status: 0
+      status:0
 

@@ -12,25 +12,25 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domainAdd
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID to which the instance belongs|
+|**regionId**|String|True| |Region ID to which the instance belongs|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**billingType**|Integer|False||Billing Type, domain name of the paid package is required|
-|**buyType**|Integer|False||1->New Purchase, 2->Upgrade, domain name of the paid package is required|
-|**domainId**|Integer|False||Domain Name ID, required for upgraded and advanced version       |
-|**domainName**|String|True||Domain Name to be Added|
-|**packId**|Integer|True||Type of the Domain Name Package,  0->Free, 1->Enterprise Edition, 2->Advanced Edition|
-|**timeSpan**|Integer|False||1, 2, 3, Duration, domain name of the paid package is required|
-|**timeUnit**|Integer|False||Time Unit, domain name of the paid package is required|
+|**billingType**|Integer|False| |Billing Type, domain name of the paid package is required|
+|**buyType**|Integer|False| |1->New Purchase, 2->Upgrade, domain name of the paid package is required|
+|**domainId**|Integer|False| |Domain Name ID, required for upgraded and advanced version       |
+|**domainName**|String|True| |Domain Name to be Added|
+|**packId**|Integer|True| |Type of the Domain Name Package,  0->Free, 1->Enterprise Edition, 2->Advanced Edition|
+|**timeSpan**|Integer|False| |1, 2, 3, Duration, domain name of the paid package is required|
+|**timeUnit**|Integer|False| |Time Unit, domain name of the paid package is required|
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String|ID of this request|
-|**result**|Result||
+|**requestId**|String|ID of This Request|
+|**result**|Result| |
 
 
 ### Result
@@ -47,7 +47,7 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domainAdd
 |**id**|Integer|Unique ID of the Domain Name|
 |**packId**|Integer|Package Type, 0->Free 1->Enterprise Edition 2->Advanced Edition|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

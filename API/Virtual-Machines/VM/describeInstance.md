@@ -9,58 +9,58 @@ Query details for a VM
 GET
 
 ## Request address
-https://vm.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}
+https://vm.jdcloud-api.com/1.0.3/regions/{regionId}/instances/{instanceId}
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**instanceId**|String|True||VM ID|
-|**regionId**|String|True||Region ID|
+|**instanceId**|String|True| |VM ID|
+|**regionId**|String|True| |Region ID|
 
 ## Request parameter
 None
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
+|**requestId**|String| |
+|**result**|Result| |
 
 
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**instance**|Instance||
+|**instance**|Instance| |
 ### Instance
 |Name|Type|Description|
 |---|---|---|
 |**ag**|Ag|AG, where an AG is used to create a VM, an AG name can be displayed here|
-|**az**|String|The AZ of the VM|
-|**charge**|Charge|Billing information|
-|**dataDisks**|InstanceDiskAttachment[]|Data disk configuration|
-|**description**|String|VM description|
+|**az**|String|AZ of the VM|
+|**charge**|Charge|Billing Information|
+|**dataDisks**|InstanceDiskAttachment[]|Data Disk Configuration|
+|**description**|String|VM Description|
 |**elasticIpAddress**|String|The address of the primary network interface of primary IP associating EIP|
 |**elasticIpId**|String|The ID of the primary network interface of primary IP associating EIP|
-|**faultDomain**|String|Error domains in AGs|
+|**faultDomain**|String|Error Domains in AGs|
 |**imageId**|String|Image ID|
 |**instanceId**|String|VM ID|
-|**instanceName**|String|VM name|
-|**instanceType**|String|Instance type|
-|**keyNames**|String[]|Key pair name|
+|**instanceName**|String|VM Name|
+|**instanceType**|String|Instance Type|
+|**keyNames**|String[]|Key Pair Name|
 |**launchTime**|String|Creation Time|
-|**primaryNetworkInterface**|InstanceNetworkInterfaceAttachment|Primary network interface instance type|
+|**primaryNetworkInterface**|InstanceNetworkInterfaceAttachment|Primary Network Interface Instance Type|
 |**privateIpAddress**|String|IP address of primary network interface|
-|**secondaryNetworkInterfaces**|InstanceNetworkInterfaceAttachment[]|Secondary network interface instance type|
+|**secondaryNetworkInterfaces**|InstanceNetworkInterfaceAttachment[]|Secondary Network Interface Instance Type|
 |**status**|String|Virtual machine status,<a href='https://www.jdcloud.com/help/detail/3869/isCatalog/1'>refer to virtual machine status</a>|
 |**subnetId**|String|ID of the subnet to which the primary network interface belongs|
-|**systemDisk**|InstanceDiskAttachment|System disk configuration|
-|**tags**|Tag[]|Tag information|
+|**systemDisk**|InstanceDiskAttachment|System Disk Configuration|
+|**tags**|Tag[]|Tag Information|
 |**vpcId**|String|ID of the VPC to which the primary network interface belongs|
 ### Ag
 |Name|Type|Description|
 |---|---|---|
 |**id**|String|AG id|
-|**name**|String|AG name|
+|**name**|String|AG Name|
 ### Charge
 |Name|Type|Description|
 |---|---|---|
@@ -73,34 +73,34 @@ None
 |Name|Type|Description|
 |---|---|---|
 |**autoDelete**|Boolean|Deleting this disk with the VM automatically when the machine is deleted. The default value is true, which cannot be changed by local.<br>This parameter does not take effect if the data disk in the VM is a monthly package.<br>This parameter does not take effect if the data disk in the VM is a shared data disk.<br>|
-|**cloudDisk**|Disk|Cloud Disk Service instance type|
+|**cloudDisk**|Disk|Cloud Disk Service Instance Type|
 |**deviceName**|String|Data disk logical attach point, value range: vda, vdb, vdc, vdd, vde, vdb, vdg, vdh, vdi|
-|**diskCategory**|String|Disk classification, the local disk or data disk is taken.<br>The system disk supports local disk or Cloud Disk Service. The system disk selects local Type, and the user must use the image localDisk type; If the system disk selects the cloud type, the user must use the image of the cloudDisk type.<br>The data disk supports Cloud Disk Service only.<br>|
-|**localDisk**|LocalDisk|Local disk instance type|
+|**diskCategory**|String|Disk classification, the local disk or data disk is taken.<br>The system disk supports local disk or Cloud Disk Service. The system disk selects local Type, and the user must use the image localDisk type; if the system disk selects the cloud type, the user must use the image of the cloudDisk type.<br>The data disk supports Cloud Disk Service only.<br>|
+|**localDisk**|LocalDisk|Local Disk Instance Type|
 ### Disk
 |Name|Type|Description|
 |---|---|---|
-|**attachments**|DiskAttachment[]|Attach Information|
-|**az**|String|AZ, to which the Cloud Disk belongs|
-|**charge**|Charge|Configuration Information for Cloud Disk Service Billing|
-|**createTime**|String|Cloud Disk Creating Time|
-|**description**|String|Description of the Cloud Disk. It allows you to enter all characters under UTF-8 encoding, but no more than 256 characters.|
+|**attachments**|DiskAttachment[]|Attachment Information|
+|**az**|String|Available Zone, to which the cloud disk belongs|
+|**charge**|Charge|Cloud Disk Billing Configuration|
+|**createTime**|String|Cloud Disk Creation Time|
+|**description**|String|Description of the cloud disk. It allows you to enter all characters under UTF-8 encoding, but no more than 256 characters.|
 |**diskId**|String|Cloud Disk ID|
 |**diskSizeGB**|Integer|Disk Size, in GiB|
 |**diskType**|String|Disk Type, ssd or premium-hdd|
-|**multiAttachable**|Boolean|Does the Cloud Disk service support multiple attachments?|
-|**name**|String|Name of the Cloud Disk. Only Chinese characters, numbers, uppercase and lowercase letters, English underscores '_' or hyphens '-' are allowed. It is not allowed to be blank and shall not exceed 32 characters.|
-|**snapshotId**|String|Snapshot ID used to create the Cloud Disk|
+|**multiAttachable**|Boolean|Is multiple attachment True or False|
+|**name**|String|Name of the cloud disk only allows Chinese characters, numbers, uppercase and lowercase letters, English underscores '_' and hyphens '-'. It is not allowed to be blank and shall not exceed 32 characters.|
+|**snapshotId**|String|Snapshot ID used to create a cloud disk|
 |**status**|String|Status of the Cloud Disk, creating, available, in-use, extending, restoring, deleting, deleted, error_create, error_delete, error_restore or error_extend|
 |**tags**|Tag[]|Tag Information|
 ### DiskAttachment
 |Name|Type|Description|
 |---|---|---|
-|**attachTime**|String|Attaching Time|
+|**attachTime**|String|Attachment Time|
 |**attachmentId**|String|Attach ID|
 |**diskId**|String|Cloud Disk ID|
-|**instanceId**|String|ID of Instance Attached|
-|**instanceType**|String|Type of the Instance Attached, vm or nc|
+|**instanceId**|String|Instance ID|
+|**instanceType**|String|Instance Type, value: vm or nc|
 |**status**|String|Attaching Status, 'attaching', 'attached', 'detaching' or 'detached'|
 ### Tag
 |Name|Type|Description|
@@ -110,23 +110,23 @@ None
 ### LocalDisk
 |Name|Type|Description|
 |---|---|---|
-|**diskSizeGB**|Integer|Disk size|
-|**diskType**|String|Disk type, value range {premium-hdd,  ssd}|
+|**diskSizeGB**|Integer|Disk Size|
+|**diskType**|String|Disk Type, value range {premium-hdd, ssd}|
 ### InstanceNetworkInterfaceAttachment
 |Name|Type|Description|
 |---|---|---|
 |**autoDelete**|Boolean|Indicates whether the network interface is deleted when deleting an instance, and the default is true, which cannot be changed currently|
 |**deviceIndex**|Integer|Device Index|
-|**networkInterface**|InstanceNetworkInterface|Network interface API instance type|
+|**networkInterface**|InstanceNetworkInterface|Network Interface API Instance Type|
 ### InstanceNetworkInterface
 |Name|Type|Description|
 |---|---|---|
-|**macAddress**|String|Ethernet address|
+|**macAddress**|String|Ethernet Address|
 |**networkInterfaceId**|String|ENI ID|
-|**primaryIp**|NetworkInterfacePrivateIp|Network interface primary IP|
+|**primaryIp**|NetworkInterfacePrivateIp|Network Interface Primary IP|
 |**sanityCheck**|Integer|Source and destination IP address verification with a value of 0 or 1|
-|**secondaryIps**|NetworkInterfacePrivateIp[]|Network interface secondary IP|
-|**securityGroups**|SecurityGroupSimple[]||
+|**secondaryIps**|NetworkInterfacePrivateIp[]|Network Interface Secondary IP|
+|**securityGroups**|SecurityGroupSimple[]| |
 |**subnetId**|String|Subnet ID|
 |**vpcId**|String|Virtual Network ID|
 ### NetworkInterfacePrivateIp
@@ -138,20 +138,15 @@ None
 ### SecurityGroupSimple
 |Name|Type|Description|
 |---|---|---|
-|**groupId**|String|Security groupID|
-|**groupName**|String|Security group name|
-### Tag
-|Name|Type|Description|
-|---|---|---|
-|**key**|String|Tag key|
-|**value**|String|Tag value|
+|**groupId**|String|Security Group ID|
+|**groupName**|String|Security Group Name|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**400**|Invalid parameter|
 |**401**|Authentication failed|
-|**404**|Not found  |
+|**404**|Not Found  |
 |**503**|Service unavailable|
 |**200**|OK|
 |**500**|Internal server error|

@@ -13,23 +13,23 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/containers/{containerId}:disass
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**containerId**|String|True||Container ID|
-|**regionId**|String|True||Region ID|
+|**containerId**|String|True| |Container ID|
+|**regionId**|String|True| |Region ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**elasticIpId**|String|True||Elastic IP ID|
+|**elasticIpId**|String|True| |Elastic IP ID|
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
+|**requestId**|String| |
 
 
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**400**|Invalid parameter|

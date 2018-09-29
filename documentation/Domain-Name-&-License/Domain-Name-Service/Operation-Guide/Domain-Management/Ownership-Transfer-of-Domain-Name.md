@@ -30,7 +30,7 @@ Click **Use Template**, select the template you want to transfer and click **Nex
 
 ![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Domain-Name-&-License/Image-Domain/guohu5.jpg)
  
-Upload certification data - wait for review, review time (within 2-3 working days)
+Upload certification data-wait for review, review time (within 2-3 working days)
 
 ![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Domain-Name-&-License/Image-Domain/guohu6.jpg)
  

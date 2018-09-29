@@ -12,22 +12,22 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/forw
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**forwardRuleId**|String|True||Forwarding rule ID|
-|**instanceId**|String|True||Instance ID|
-|**regionId**|String|True||Belonging Region ID|
+|**forwardRuleId**|String|True| |Forwarding Rule ID|
+|**instanceId**|String|True| |Instance ID|
+|**regionId**|String|True| |Belonging Region ID|
 
 ## Request parameter
 None
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
+|**requestId**|String| |
 
 
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

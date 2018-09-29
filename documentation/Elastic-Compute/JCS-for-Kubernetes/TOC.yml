@@ -1,19 +1,18 @@
-﻿
-  name: JCS For Kubernetes
+  ﻿name: JCS For Kubernetes
   href: 
   items:
   - name: Introduction
     items:
       - name: Product Overview
         href: Introduction/Product-Overview.md
-      - name: Core Concepts
+      - name: Core Concept
         href: Introduction/Core-Concepts.md
-      - name:  Benefits
+      - name: Benefits
         href: Introduction/Benefits.md
       - name: Features
         href: Introduction/Features.md
       - name: Specifications
-        href: Introduction/Specifications.md
+        href: Introduction/Specification.md
       - name: Restrictions
         href: Introduction/Restrictions.md
       - name: Application Scenarios 
@@ -21,7 +20,7 @@
   - name: Pricing
     items:
       - name: Billing Overview
-        href: Pricing/Billing-Overview.md
+        href: Pricing/Pricing.md
       - name: Purchase Process
         href: Pricing/Purchase-Process.md
   - name: Getting Started
@@ -54,6 +53,8 @@
             href: Operation-Guide/NodeGroup/Delete-NodeGroup.md
   - name: Best Practices
     items:
+     - name: Access Dashboard
+       href: Best-Practices/Connect-Dashboard.md
      - name: Deploy Applications
        items:
          -  name: Deploy Deployment
@@ -64,7 +65,7 @@
             href: Best-Practices/Deploy-Applications/Deploy-PV.md
          -  name: Deploy Service
             href: Best-Practices/Deploy-Applications/Deploy-Service.md
-  - name: Common Problems  
+  - name: FAQ  
     href: Common-Problem.md    
   - name: Related Resources
     items:

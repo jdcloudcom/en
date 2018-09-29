@@ -12,7 +12,7 @@ definitions:
         description: "Port Number"
       algorithm:
         type: string
-        description: "Forwarding Rules: wrr->round Robin with weight  wlc->minimum weighted connection  rr->round Robin without weight  sh->source address hash"
+        description: "Forwarding Rules: wrr->round Robin with weight,  wlc->minimum weighted connection,  rr->round Robin without weight,  sh->source address hash"
       originType:
         type: string
         description: "Back-to-origin Type, ip or domain"

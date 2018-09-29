@@ -2,7 +2,7 @@
 
 
 ## Description
-Query Elastic Network Interface Information Details
+Query elastic network interface information details
 
 ## Request method
 GET
@@ -12,14 +12,14 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkInterfaces/{networkInte
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**networkInterfaceId**|String|True||networkInterface ID|
-|**regionId**|String|True||Region ID|
+|**networkInterfaceId**|String|True| |networkInterface ID|
+|**regionId**|String|True| |Region ID|
 
 ## Request parameter
 None
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
@@ -57,7 +57,7 @@ None
 |**elasticIpId**|String|Elastic IP Instance ID|
 |**privateIpAddress**|String|IPV4 Address of Private IP|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

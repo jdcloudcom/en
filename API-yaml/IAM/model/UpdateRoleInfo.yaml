@@ -3,7 +3,7 @@ definitions:
   updateRoleInfo:
     x-jdcloud-module: iam
     properties:
-      description: 
+      description:
         type: string
         description: "Description, 0~256 characters"
       maxSessionDuration:

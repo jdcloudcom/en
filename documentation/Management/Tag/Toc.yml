@@ -5,7 +5,7 @@
     items:
       - name: Product Overview
         href: Introduction/Product-Overview.md
-      - name: Core Concepts
+      - name: Core Concept
         href: Introduction/Core-Concepts.md
       - name: Benefits
         href: Introduction/Benefits.md
@@ -18,7 +18,7 @@
   - name: Pricing
     items:
       - name: Billing Overview
-        href: Pricing/Billing-Overview.md
+        href: Pricing/Pricing.md
   - name: Operation Guide
     items:
       - name: Tag List

@@ -2,7 +2,7 @@
 
 
 ## Description
-Query the Application List Under the Tenant
+Query the application list under the tenant
 
 ## Request method
 GET
@@ -12,19 +12,19 @@ https://streamcompute.jdcloud-api.com/v1/regions/{regionId}/namespaces
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
+|**regionId**|String|True| |Region ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**keyword**|String|False|||
+|**keyword**|String|False| | |
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
+|**requestId**|String| |
+|**result**|Result| |
 
 
 ### Result
@@ -32,7 +32,7 @@ https://streamcompute.jdcloud-api.com/v1/regions/{regionId}/namespaces
 |---|---|---|
 |**namespaces**|Object[]|Namespaces Information|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

@@ -2,7 +2,7 @@
 
 
 ## Description
-Reset Password
+Reset password
 
 ## Request method
 POST
@@ -12,23 +12,23 @@ https://mongodb.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:res
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**instanceId**|String|True||Instance ID|
-|**regionId**|String|True||Region ID|
+|**instanceId**|String|True| |Instance ID|
+|**regionId**|String|True| |Region ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**accountPassword**|String|True||The new password must contain and only support letters and numbers with length no less than 8 characters and no more than 16 characters.|
+|**accountPassword**|String|True| |The new password must contain and only support letters and numbers with length no less than 8 characters and no more than 16 characters.|
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
+|**requestId**|String| |
 
 
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

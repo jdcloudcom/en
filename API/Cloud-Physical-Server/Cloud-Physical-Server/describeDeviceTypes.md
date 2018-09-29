@@ -2,7 +2,7 @@
 
 
 ## Description
-Query the Instance Type Family of Cloud Physical Server
+Query the instance type family of Cloud Physical Server
 
 ## Request method
 GET
@@ -12,23 +12,23 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/deviceTypes
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID, the Region and Availability Zone supported by the Cloud Physical Servers can be obtained by Calling APIs (describeRegions)|
+|**regionId**|String|True| |Region ID, the Region and Availability Zone Supported by the Cloud Physical Servers can be Called by Calling APIs (describeRegions)|
 
 ## Request parameter
 None
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
+|**requestId**|String| |
+|**result**|Result| |
 
 
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**deviceTypes**|DeviceType[]||
+|**deviceTypes**|DeviceType[]| |
 ### DeviceType
 |Name|Type|Description|
 |---|---|---|
@@ -50,7 +50,7 @@ None
 |**useTypeEN**|String|English Description of Image Type, such as Standard|
 |**useTypeZH**|String|Chinese Description of Image Type, such as 标准型|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

@@ -12,21 +12,20 @@ https://rds.jdcloud-api.com/0.2.9/regions/{regionId}/instances/{instanceId}/acco
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**accountName**|String|True||Account name; in the same instance, the account name cannot be duplicated.|
-|**instanceId**|String|True||RDS instance ID, which uniquely identifies an RDS instance|
-|**regionId**|String|True||Region code, with range detailed in [Regions and Availability Zone Comparison Table](../Enum-Definitions/Regions-AZ.md)|
+|**accountName**|String|True| |Account name; in the same instance, the account name cannot be duplicated.|
+|**instanceId**|String|True| |RDS instance ID, which uniquely identifies an RDS instance|
+|**regionId**|String|True| |Region code, with range detailed in [Regions and Availability Zone Comparison Table](../Enum-Definitions/Regions-AZ.md)|
 
 ## Request parameter
 None
 
 
-## Return parameter
-|Name|Type|Description|
-|---|---|---|
+## Response parameter
+None
 
 
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

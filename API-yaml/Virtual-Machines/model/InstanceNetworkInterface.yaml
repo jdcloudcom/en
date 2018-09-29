@@ -8,7 +8,7 @@ definitions:
         description: "ENI ID"
       macAddress:
         type: string
-        description: "Ethernet address"
+        description: "Ethernet Address"
       vpcId:
         type: string
         description: "Virtual Network ID"
@@ -19,15 +19,15 @@ definitions:
         type: array
         items:
           $ref: "./SecurityGroupSimple.yaml#/definitions/securityGroupSimple"
-          description: "List of security groups"
+          description: "List of Security Groups"
       sanityCheck:
         type: integer
         description: "Source and destination IP address verification with a value of 0 or 1"
       primaryIp:
         $ref: "../../vpc/model/NetworkInterfacePrivateIp.yaml#/definitions/networkInterfacePrivateIp"
-        description: "Network interface primary IP"
+        description: "Network Interface Primary IP"
       secondaryIps:
         type: array
-        description: "Network interface secondary IP"
+        description: "Network Interface Secondary IP"
         items:
           $ref: "../../vpc/model/NetworkInterfacePrivateIp.yaml#/definitions/networkInterfacePrivateIp"

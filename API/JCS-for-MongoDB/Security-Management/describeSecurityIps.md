@@ -12,25 +12,25 @@ https://mongodb.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/sec
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**instanceId**|String|True||Instance ID|
-|**regionId**|String|True||Region ID|
+|**instanceId**|String|True| |Instance ID|
+|**regionId**|String|True| |Region ID|
 
 ## Request parameter
 None
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result||
+|**result**|Result| |
 
 
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**securityIps**|String||
+|**securityIps**|String| |
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

@@ -38,4 +38,4 @@ Using capped collections requires to pay attention to the following:
 
 
 
-For more information, please see the "[MongoDB Official Document](https://docs.mongodb.com/v3.2/core/capped-collections/)".
+For more information, please refer to the "[MongoDB Official Document](https://docs.mongodb.com/v3.2/core/capped-collections/)".

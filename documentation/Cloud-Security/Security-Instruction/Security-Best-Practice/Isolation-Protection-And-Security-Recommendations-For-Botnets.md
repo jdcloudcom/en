@@ -1,6 +1,6 @@
 # Isolation Protection and Security Advice for Zombie Machine
 
-**Zombie Machine Concept**: Due to the potential security vulnerabilities of the Virtual Machine's open service to the public network, the hacker may eavesdrop the control of the machine or implant a Trojan horse to further exploit the machine to launch a network attack. Zombie machine is also known as "puppet machine”.
+**Zombie Machine Concept**: Due to the potential security vulnerability of the Virtual Machine's open service to the public network, the hacker may eavesdrop the control of the machine or implant a Trojan horse to further exploit the machine to launch a network attack. Zombie machine is also known as "puppet machine”.
 
 **JD Cloud Isolation Mechanism**: If the machine is found to continuously conduct external network attacks, JD Cloud security protection system will perform network isolation on the machine, which will lead to network exceptions such as users cannot access the virtual machine through the EIP and the machine cannot communicate with DHCP, so that the private IP addresses cannot be obtained. After the user achieves the object of clearing the attack behavior by rebuilding (operable on the console) or clearing Trojan horse, the user needs to contact JD Cloud customer service personnel to help cancel the network isolation.
 
@@ -30,7 +30,7 @@ In order to completely clear malicious programs, users can consider rebuilding a
 
 1. System Patch Management: The system shall update the security patches regularly. When there are new high-risk and severe vulnerability being exposed, the security patches shall be updated immediately;
 
-2. System Service Configuration: Disable unnecessary services, and configure necessary identity and access management policies for non-public network services (such as SSH, MYSQL, etc.);
+2. System Service Configuration: Disable unnecessary services, and configure necessary identity and access management policies for non-public network services (such as SSH and MYSQL);
 
 3. File Permission Configuration: File permissions shall be applied to the minimum permission reason; the system configuration files shall be locked after the configuration is completed;
 

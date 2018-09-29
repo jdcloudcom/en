@@ -9,31 +9,30 @@ Unshared images only allow you to operate your personal private image.
 POST
 
 ## Request address
-https://vm.jdcloud-api.com/v1/regions/{regionId}/images/{imageId}:unshare
+https://vm.jdcloud-api.com/1.0.3/regions/{regionId}/images/{imageId}:unshare
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**imageId**|String|True||Image ID|
-|**regionId**|String|True||Region ID|
+|**imageId**|String|True| |Image ID|
+|**regionId**|String|True| |Region ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**pins**|String[]|False||account that needs to be cancelled|
+|**pins**|String[]|False| |The account that needs to be cancelled|
 
 
-## Return parameter
-|Name|Type|Description|
-|---|---|---|
+## Response parameter
+None
 
 
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**400**|Invalid parameter|
 |**401**|Authentication failed|
-|**404**|Not found  |
+|**404**|Not Found  |
 |**503**|Service unavailable|
 |**200**|OK|
 |**500**|Internal server error|

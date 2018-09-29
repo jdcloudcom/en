@@ -2,7 +2,7 @@ swagger: "2.0" # realized based on Swagger 2.0 version
 info:
   version: v1
   title: Instance Management
-  description: "Instance Management Related Interface"
+  description: "Instance Management Related API"
 
 basePath: /regions/{regionId}
 
@@ -42,7 +42,7 @@ paths:
           required: false
           in: query
           type: integer
-          description: "The number of data displayed per page is 100 by default and the value range is [10,100], which is used for the interface to query the list"
+          description: "The number of data displayed per page is 100 by default and the value range is [10,100], which is used for the API to query the list"
       responses:
         200:
           description: "OK"
@@ -110,7 +110,7 @@ paths:
       parameters:
         - name: setBackupPolicy
           in: body
-          description: 
+          description:
           schema:
             type: object
             properties:

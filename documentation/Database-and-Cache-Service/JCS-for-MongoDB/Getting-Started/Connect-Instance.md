@@ -2,7 +2,7 @@
 
 For security reasons, the JCS for MongoDB currently only provides intranet connections and does not provide public network connections.
 
-If you need to directly connect to the JCS for MongoDB instance, you can use the Virtual Machines proxy forwarding method. For the operation mode, please refer to [Public Network Connection MongoDB Instance](../Best-Practices/Public-Network-Connect-to-MongoDB- Instance.md).
+If you need to directly connect to the JCS for MongoDB instance, you can use the Virtual Machines proxy forwarding method. For the operation mode, please refer to [Public Network Connection MongoDB Instance](../Best-Practices/Public-Network-Connect-to-MongoDB-Instance.md).
 
 
 
@@ -12,11 +12,11 @@ If you need to directly connect to the JCS for MongoDB instance, you can use the
 
 ## Operation Steps
 1. Get the connection information for the MongoDB instance.
-   1. Login [MongoDB Console](https://mongodb-console.jdcloud.com/mongodb?dataCenter=bj_02).
+   1. Login [MongoDB Console](https://mongodb-console.jdcloud.com/mongodb).
    1. On the "Instance List" page, select the target instance, and click the **Instance Name** to enter the "Instance Details" page.
    1. On the "Instance Details" page, view the resource information and get the connection information for the MongoDB instance.
    
-		![View Connection](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-016.png)
+		![View Connection](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-006.png)
 
 		- Database name, default is admin.
 		- User name, default is root.

@@ -2,7 +2,7 @@
 
 
 ## Description
-Create Namespace
+Create namespace
 
 ## Request method
 POST
@@ -12,35 +12,35 @@ https://streamcompute.jdcloud-api.com/v1/regions/{regionId}/namespace
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
+|**regionId**|String|True| |Region ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**namespaceStr**|Namespace|True|||
+|**namespaceStr**|Namespace|True| | |
 
 ### Namespace
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**createTime**|String|False|||
-|**deleted**|Integer|False|||
-|**id**|Integer|False|||
-|**name**|String|False|||
-|**pods**|String|False|||
-|**podsUpdateTime**|String|False|||
-|**resourceId**|String|False|||
-|**sourceId**|String|False|||
-|**status**|String|False|||
-|**type**|String|False|||
-|**typeValue**|String|False|||
-|**updateTime**|String|False|||
-|**userName**|String|False|||
+|**createTime**|String|False| | |
+|**deleted**|Integer|False| | |
+|**id**|Integer|False| | |
+|**name**|String|False| | |
+|**pods**|String|False| | |
+|**podsUpdateTime**|String|False| | |
+|**resourceId**|String|False| | |
+|**sourceId**|String|False| | |
+|**status**|String|False| | |
+|**type**|String|False| | |
+|**typeValue**|String|False| | |
+|**updateTime**|String|False| | |
+|**userName**|String|False| | |
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
+|**requestId**|String| |
+|**result**|Result| |
 
 
 ### Result
@@ -48,8 +48,8 @@ https://streamcompute.jdcloud-api.com/v1/regions/{regionId}/namespace
 |---|---|---|
 |**status**|Boolean|Create the Successful Marker|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|
-|**500**|INTERNAL_ERROR   |
+|**500**|INTERNAL_ERROR|

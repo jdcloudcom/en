@@ -12,27 +12,27 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:modi
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**instanceId**|String|True||Instance ID|
-|**regionId**|String|True||Belonging Region ID|
+|**instanceId**|String|True| |Instance ID|
+|**regionId**|String|True| |Belonging Region ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**ePBSpec**|EPBSpec|True||Update the Request Parameter of Elastic Protection Bandwidth|
+|**ePBSpec**|EPBSpec|True| |Update the Request Parameter of Elastic Protection Bandwidth|
 
 ### EPBSpec
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**ePB**|Integer|False||Elastic Protective Bandwidth|
+|**ePB**|Integer|False| |Elastic Protective Bandwidth|
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
+|**requestId**|String| |
 
 
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

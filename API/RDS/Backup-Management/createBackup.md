@@ -12,24 +12,24 @@ https://rds.jdcloud-api.com/0.2.9/regions/{regionId}/backups
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Region code, with range detailed in [Regions and Availability Zone Comparison Table](../Enum-Definitions/Regions-AZ.md)|
+|**regionId**|String|True| |Region code, with range detailed in [Regions and Availability Zone Comparison Table](../Enum-Definitions/Regions-AZ.md)|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**backupSpec**|BackupSpec|False||Backup Specification|
-|**instanceId**|String|False||RDS instance ID can identify an instance uniquely|
+|**backupSpec**|BackupSpec|False| |Backup Specification|
+|**instanceId**|String|False| |RDS instance ID can identify an instance uniquely|
 
 ### BackupSpec
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**backupName**|String|False||Backup name with length up to 64 English characters or Chinese characters of equal length|
-|**dbNames**|String[]|False||List of Database Names to Be Backed up. If it is not filled, the whole instance will be backed up<br>- **MySQL: not support the parameter**<br>- **SQL Server: support**|
+|**backupName**|String|False| |Backup name with length up to 64 English characters or Chinese characters of equal length|
+|**dbNames**|String[]|False| |List of Database Names to Be Backed up. If it is not filled, the whole instance will be backed up<br>- **MySQL: not support the parameter**<br>- **SQL Server: support**|
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result||
+|**result**|Result| |
 
 
 ### Result
@@ -37,7 +37,7 @@ https://rds.jdcloud-api.com/0.2.9/regions/{regionId}/backups
 |---|---|---|
 |**backupId**|String|Backup Id|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

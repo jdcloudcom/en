@@ -12,28 +12,28 @@ https://mongodb.jdcloud-api.com/v1/regions/{regionId}/backups
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
+|**regionId**|String|True| |Region ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**backupName**|String|False||Backup Name|
-|**instanceId**|String|True||Instance ID|
+|**backupName**|String|False| |Backup Name|
+|**instanceId**|String|True| |Instance ID|
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
+|**requestId**|String| |
+|**result**|Result| |
 
 
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**backupId**|String||
+|**backupId**|String| |
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

@@ -21,7 +21,7 @@ This article describes how to create a geography backup synchronization service 
 
 ## Operation Steps
 
-1. Login [MongoDB Console](https://mongodb-console.jdcloud.com/mongodb?dataCenter=bj_02).
+1. Login [MongoDB Console](https://mongodb-console.jdcloud.com/mongodb).
 1. Enter the "Cross-Region Backup Synchronization Service" page and click the button **Create Synchronization Service** to open the Creation Popup.
 
    ![Create Synchronization Service](../../../../../image/mongodb/mongo-043.png)

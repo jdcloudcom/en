@@ -12,29 +12,28 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/clusterCronJob/{clusterId
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**clusterId**|String|True||Cluster Id|
-|**regionId**|String|True||Region ID|
+|**clusterId**|String|True| |Cluster Id|
+|**regionId**|String|True| |Region ID|
 
 ## Request parameter
-|Name|Type|Required or not|Default value|Description|
-|---|---|---|---|---|
+None
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
+|**requestId**|String| |
+|**result**|Result| |
 
 
 ### Result
 |Name|Type|Description|
 |---|---|---|
 |**data**|Object|"Include JmrPlanViewModel list - cronJobs"<br>"And return list size - totalNum"<br>|
-|**message**|String||
-|**status**|String||
+|**message**|String| |
+|**status**|String| |
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

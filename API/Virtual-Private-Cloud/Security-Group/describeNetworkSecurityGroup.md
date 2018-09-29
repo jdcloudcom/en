@@ -2,7 +2,7 @@
 
 
 ## Description
-Query Security Group Information Details
+Query security group information details
 
 ## Request method
 GET
@@ -12,14 +12,14 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkSecurityGroups/{network
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**networkSecurityGroupId**|String|True||NetworkSecurityGroup ID|
-|**regionId**|String|True||Region ID|
+|**networkSecurityGroupId**|String|True| |NetworkSecurityGroup ID|
+|**regionId**|String|True| |Region ID|
 
 ## Request parameter
 None
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
@@ -29,7 +29,7 @@ None
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**networkSecurityGroup**|NetworkSecurityGroup|Security Group Resource Information|
+|**networkSecurityGroup**|NetworkSecurityGroup|Security group resource information|
 ### NetworkSecurityGroup
 |Name|Type|Description|
 |---|---|---|
@@ -44,15 +44,15 @@ None
 |---|---|---|
 |**addressPrefix**|String|Prefix of Matching Address|
 |**createdTime**|String|Creation Time of Security Group Rule|
-|**description**|String|Description, all characters allowed to enter under UTF-8 coding, which is not exceed 256 characters|
+|**description**|String|Description, allow all characters under UTF-8 coding, which cannot exceed 256 characters|
 |**direction**|Number|Security Group Rule Direction. 0: Inbound Rule; 1: Outbound Rule|
 |**fromPort**|Number|The start transport layer port of rule limit, the default value is 1, if protocol is not a transport layer protocol, the value is constantly 0|
-|**ipVersion**|Number|Matching Address Protocol Revision 4：IPv4|
+|**ipVersion**|Number|Matching Address Protocol Revision 4: IPv4|
 |**protocol**|Number|Rule Limits Protocol. 300:All; 6:TCP; 17:UDP; 1:ICMP|
 |**ruleId**|String|Security Group Rule ID|
 |**toPort**|Number|The end transport layer port of rule limit, the default value is 1, if protocol is not a transport layer protocol, the value is constantly 0|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

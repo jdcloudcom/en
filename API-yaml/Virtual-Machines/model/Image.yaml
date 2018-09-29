@@ -8,22 +8,22 @@ definitions:
         description: "Image ID"
       name:
         type: string
-        description: "Image name"
+        description: "Image Name"
       platform:
         type: string
-        description: "OS Release version. Ubuntu, CentOS, Windows Server"
+        description: "OS Release Version. Ubuntu, CentOS, Windows Server"
       osVersion:
         type: string
-        description: "OS version."
+        description: "OS Version."
       architecture:
         type: string
-        description: "Image architecture. i386, x86_64"
+        description: "Image Architecture. Value: i386, x86_64"
       systemDiskSizeGB:
         type: integer
-        description: "Image system disk size"
+        description: "Image System Disk Size"
       imageSource:
         type: string
-        description: "image source,  jcloud: public image,  marketplace: image marketplace,  image self: user's own image share: image shared by other users"
+        description: "Image source, jcloud: public image, marketplace: image marketplace, image self: user's own image share: image shared by other users"
       osType:
         type: string
         description: "OS type. Value: [windows, linux]"
@@ -36,18 +36,18 @@ definitions:
         description: "Creation Time"
       sizeMB:
         type: integer
-        description: "Image document size"
+        description: "Image Document Size"
       desc:
         type: string
-        description: "Image description"
+        description: "Image Description"
       systemDisk:
         $ref: "./InstanceDiskAttachment.yaml#/definitions/instanceDiskAttachment"
-        description: "System disk configuration"
+        description: "System Disk Configuration"
       dataDisks:
         type: array
         items:
           $ref: "./InstanceDiskAttachment.yaml#/definitions/instanceDiskAttachment"
-        description: "Package image data disk mapping information"
+        description: "Package Image Data Disk Mapping Information"
       snapshotId:
         type: string
         description: "The snapshot ID of the Cloud Disk Service for creating the system disk of the cloud disk, when the system disk type is image of the local disk, this parameter is blank."
@@ -56,4 +56,4 @@ definitions:
         description: "The system disk type supported by the image. localDisk: Support system disk for this site.cloudDisk: Support cloud disk system disk"
       progress:
         type: string
-        description: "progress in image replication,  in percentage,  for example: 80"
+        description: "Progress in image replication, in percentage, for example: 80"

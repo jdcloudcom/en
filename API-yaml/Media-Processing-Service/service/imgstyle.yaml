@@ -44,7 +44,7 @@ paths:
           default: 10
       responses:
         '200':
-          description: "success"
+          description: "Success"
           x-jdcloud-tiered: false
           schema:
             properties:
@@ -66,7 +66,7 @@ paths:
             $ref: '#/definitions/ImageStyle'
       responses:
         '200':
-          description: "success"
+          description: "Success"
           x-jdcloud-tiered: false
           schema:
             properties:
@@ -90,7 +90,7 @@ paths:
       operationId: getImageStyle
       responses:
         '200':
-          description: "successful operation"
+          description: "Successful operation"
           x-jdcloud-tiered: false
           schema:
             properties:
@@ -105,7 +105,7 @@ paths:
       operationId: deleteImageStyle
       responses:
         '200':
-          description: "successful operation"
+          description: "Successful operation"
           x-jdcloud-tiered: false
           schema:
             properties:
@@ -125,7 +125,7 @@ paths:
             $ref: '#/definitions/ImageStyle'
       responses:
         '200':
-          description: "successful operation"
+          description: "Successful operation"
           x-jdcloud-tiered: false
           schema:
             properties:
@@ -145,7 +145,7 @@ paths:
           type: string
       responses:
         '200':
-          description: "success"
+          description: "Success"
           x-jdcloud-tiered: false
           schema:
             properties:
@@ -197,7 +197,7 @@ definitions:
       createdTime:
         type: string
         format: date
-        description: "Create Time"
+        description: "Creation Time"
         readOnly: true
         
   ImageStyleQueryResult:

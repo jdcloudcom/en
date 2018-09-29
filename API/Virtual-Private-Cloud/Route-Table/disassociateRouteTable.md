@@ -2,7 +2,7 @@
 
 
 ## Description
-Disassociate Subnet Interface from Route Table
+Disassociate subnet API from route table
 
 ## Request method
 POST
@@ -12,25 +12,25 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/routeTables/{routeTableId}:dis
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
-|**routeTableId**|String|True||RouteTable ID|
+|**regionId**|String|True| |Region ID|
+|**routeTableId**|String|True| |RouteTable ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**subnetId**|String|True||Subnet ID to be disassociated by route table, subnet associates the default route table upon disassociation|
+|**subnetId**|String|True| |Subnet ID to be disassociated by route table, subnet associates the default route table upon disassociation|
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
 
 
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|Successful operation|
 |**400**|Request parameter x.y.z is 'xxx', expected one of [yyy,zzz]|
-|**404**|Resource not found|
+|**404**|Resource Not Found|

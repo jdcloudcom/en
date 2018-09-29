@@ -29,7 +29,7 @@
       herf: Pricing/Price-Overview.md
     - name: Purchase Process
       herf: Pricing/Purchase-Process.md 
-    - name: Renew Process
+    - name: Renew-Process
       herf: Pricing/Renew-Process.md
   - name: Getting Started
     items:
@@ -67,12 +67,12 @@
     items:
     - name: Scheme Instructions of Advanced Anti-DDoS Pro Combining Web Application Firewall
       herf: Best-Practices/Anti-DDoS-Pro-and-WAF.md
-    - name: Scheme Instructions of Local Protection + Advanced Protection
+    - name: Scheme Instructions of Local Protection+Advanced Protection
       herf: Best-Practices/Local-Anti-Basic-DDoS-and-Anti-DDoS.md
     - name: Scheme Instructions of Advanced Anti-DDoS Pro Combining Application Security Gateway
       herf: Best-Practices/Scheme-Instructions.md 
   - name: Tutorial
-    status: 0    
+    status:0    
   - name: FAQ
     herf: FAQ/FAQ.md
   - name: Document History

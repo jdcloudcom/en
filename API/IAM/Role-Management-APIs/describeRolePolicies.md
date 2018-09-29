@@ -12,22 +12,22 @@ https://iam.jdcloud-api.com/v1/role/{roleName}/policies
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**roleName**|String|True||Role Name|
+|**roleName**|String|True| |Role Name|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**keyword**|String|False||Keyword|
-|**pageNumber**|Integer|True||Page|
-|**pageSize**|Integer|True||Number of Roles Displayed on Each Page|
-|**sort**|Integer|True||Ranking Policy, 0-rank in sequential order by create time  1-rank in inverted order by create time|
+|**keyword**|String|False| |Keyword|
+|**pageNumber**|Integer|True| |Page|
+|**pageSize**|Integer|True| |Number of Roles Displayed on Each Page|
+|**sort**|Integer|True| |Ranking Policy, 0-rank in sequential order by create time  1-rank in inverted order by create time|
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
+|**requestId**|String| |
+|**result**|Result| |
 
 
 ### Result
@@ -43,7 +43,7 @@ https://iam.jdcloud-api.com/v1/role/{roleName}/policies
 |**policyName**|String|Permission Name|
 |**type**|String|Permission Type|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

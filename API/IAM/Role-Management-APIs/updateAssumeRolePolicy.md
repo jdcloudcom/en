@@ -2,7 +2,7 @@
 
 
 ## Description
-Modify Role Built-in Policy
+Modify role built-in policy
 
 ## Request method
 PUT
@@ -12,26 +12,26 @@ https://iam.jdcloud-api.com/v1/role/{roleName}/assumeRolePolicy
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**roleName**|String|True||Role Name|
+|**roleName**|String|True| |Role Name|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**updateAssumeRolePolicyInfo**|UpdateAssumeRolePolicyInfo|True||Role Permission Information|
+|**updateAssumeRolePolicyInfo**|UpdateAssumeRolePolicyInfo|True| |Role Permission Information|
 
 ### UpdateAssumeRolePolicyInfo
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**assumeRolePolicyDocument**|String|False||Role Assumption Policy|
+|**assumeRolePolicyDocument**|String|False| |Role Assumption Policy|
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
+|**requestId**|String| |
 
 
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

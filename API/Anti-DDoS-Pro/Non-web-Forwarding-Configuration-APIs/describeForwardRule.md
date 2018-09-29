@@ -12,37 +12,37 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/forw
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**forwardRuleId**|String|True||Forwarding rule ID|
-|**instanceId**|String|True||Instance ID|
-|**regionId**|String|True||Belonging Region ID|
+|**forwardRuleId**|String|True| |Forwarding Rule ID|
+|**instanceId**|String|True| |Instance ID|
+|**regionId**|String|True| |Belonging Region ID|
 
 ## Request parameter
 None
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
+|**requestId**|String| |
+|**result**|Result| |
 
 
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**data**|ForwardRule||
+|**data**|ForwardRule| |
 ### ForwardRule
 |Name|Type|Description|
 |---|---|---|
-|**algorithm**|String|Forwarding Rules: wrr->round Robin with weight  wlc->minimum weighted connection  rr->round Robin without weight  sh->source address hash|
+|**algorithm**|String|Forwarding Rules: wrr->round Robin with weight,  wlc->minimum weighted connection,  rr->round Robin without weight,  sh->source address hash|
 |**cname**|String|cname of Rules|
 |**id**|Integer|Rule ID|
 |**instanceId**|Integer|Instance ID|
-|**onlineAddr**|String[]||
-|**originAddr**|OriginAddrItem[]||
+|**onlineAddr**|String[]| |
+|**originAddr**|OriginAddrItem[]| |
 |**originDomain**|String|Back-to-origin Domain Name|
 |**originPort**|Integer|Back-to-origin Port Number|
-|**originType**|String|Back-to-origin Type, ip or domain|
+|**originType**|String|Back-to-origin Type: ip or domain|
 |**port**|Integer|Port Number|
 |**protocol**|String|TCP or UDP|
 |**status**|Integer|0->defense Status  1->back-to-origin Status|
@@ -53,7 +53,7 @@ None
 |**ip**|String|Back-to-origin IP address|
 |**weight**|Integer|Weight|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

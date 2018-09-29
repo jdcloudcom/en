@@ -12,20 +12,20 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domainUpdate
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID to which the instance belongs|
+|**regionId**|String|True| |Region ID to which the instance belongs|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**domainName**|String|True||Domain Name to be Modified|
-|**id**|Integer|True||Domain Name ID to be Modified|
+|**domainName**|String|True| |Domain Name to be Modified|
+|**id**|Integer|True| |Domain Name ID to be Modified|
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String|ID of this request|
-|**result**|Result||
+|**requestId**|String|ID of This Request|
+|**result**|Result| |
 
 
 ### Result
@@ -41,7 +41,7 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domainUpdate
 |**id**|Integer|Unique ID of the Domain Name|
 |**packId**|Integer|Package Type, 0->Free 1->Enterprise Edition 2->Advanced Edition|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

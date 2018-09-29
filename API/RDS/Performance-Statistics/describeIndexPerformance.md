@@ -12,22 +12,22 @@ https://rds.jdcloud-api.com/0.2.9/regions/{regionId}/instances/{instanceId}/perf
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**instanceId**|String|True||RDS instance ID, which uniquely identifies an RDS instance|
-|**regionId**|String|True||Region code, with range detailed in [Regions and Availability Zone Comparison Table](../Enum-Definitions/Regions-AZ.md)|
+|**instanceId**|String|True| |RDS instance ID, which uniquely identifies an RDS instance|
+|**regionId**|String|True| |Region code, with range detailed in [Regions and Availability Zone Comparison Table](../Enum-Definitions/Regions-AZ.md)|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**db**|String|False||Multiple names of the database to be queried are separated by commas and all databases are by default.|
-|**pageNumber**|Integer|False||The default of the page number of the data displayed is 1 and the value range is [-1,1000). When pageNumber is -1, return all data page numbers; when the total number of pages is exceeded, display the last page.|
-|**pageSize**|Integer|False||The default of the number of data displayed per page is 50 and the value range is [1,100]. It can only be a multiple of 10 used for the interface to query the list.|
-|**queryType**|String|True||Query Type, Return Results of Fields From High to Low for Different Query Types. <br>The following types are supported:<br>Missing: Index missing<br>Size: Index size, unit KB<br>Updates: Index updates<br>Scans: Table scan times<br>Used: Least used|<br>|
+|**db**|String|False| |Multiple names of the database to be queried are separated by commas and all databases are by default.|
+|**pageNumber**|Integer|False| |The default of the page number of the data displayed is 1 and the value range is [-1,1000). When pageNumber is -1, return all data page numbers; when the total number of pages is exceeded, display the last page.|
+|**pageSize**|Integer|False| |The default of the number of data displayed per page is 50 and the value range is [1,100]. It can only be a multiple of 10 used for the API to query the list.|
+|**queryType**|String|True| |Query Type, Return Results of Fields From High to Low for Different Query Types. <br>The following types are supported:<br>Missing: Index missing<br>Size: Index size, unit KB<br>Updates: Index updates<br>Scans: Table scan times<br>Used: Least used|<br>|
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result||
+|**result**|Result| |
 
 
 ### Result
@@ -63,7 +63,7 @@ https://rds.jdcloud-api.com/0.2.9/regions/{regionId}/instances/{instanceId}/perf
 |**userScans**|Integer|Number of scans caused by the query of a user that might have used the suggested index in the group.|
 |**userSeeks**|Integer|The number of searches caused by a user query that might have used the suggested index in the group.|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

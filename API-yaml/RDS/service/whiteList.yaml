@@ -2,7 +2,7 @@ swagger: "2.0" # realized based on Swagger 2.0 version
 info:
   version: v1
   title: White List
-  description: "White List Related Interface"
+  description: "White List Related API"
 basePath: /regions/{regionId}
 paths:
   "/instances/{instanceId}/whiteList": #Instance IP white list

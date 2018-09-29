@@ -4,7 +4,7 @@
   - name: Security Vulnerability Instruction
     items:
       - name: Suggested Fix Solution for Intel Processor Meltdown and Spectre Security Vulnerability
-        href: Security-Vulnerability-Instruction/Meltdown-and-Spectre-Security-Vulnerability-Restore-Solution-of-Intel-Processor.md
+        href: Security-Vulnerability-Instruction/Intel-Meltdown-Spectre-Solution.md
       - name: NTP Service and Monlist Vulnerability
         href: Security-Vulnerability-Instruction/NTP-Monlist-Vulnerability.md
   - name: Best Security Practices

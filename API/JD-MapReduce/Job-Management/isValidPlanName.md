@@ -12,29 +12,29 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/planName:valid
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
+|**regionId**|String|True| |Region ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**planId**|String|True||It is considered as the verification basis|
-|**planName**|String|True||Verified Plan Name|
+|**planId**|String|True| |It is considered as the verification basis|
+|**planName**|String|True| |Verified Plan Name|
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
+|**requestId**|String| |
+|**result**|Result| |
 
 
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**message**|String||
-|**status**|String||
+|**message**|String| |
+|**status**|String| |
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

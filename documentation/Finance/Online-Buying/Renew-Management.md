@@ -18,7 +18,7 @@ The resource renew actions can be made to the selected resources in the [Renew M
 
 ![file-list](https://github.com/jdcloudcom/cn/blob/edit/image/Charge/%E7%BB%AD%E8%B4%B92.jpg)
 
-## Automatic Renewal
+## Setting of Automatic Renewal
  The renewal setting function is provided to the user for the purchased monthly package resource intended to be used for a long period.
 
 You can implement the automatic renewal setting for the monthly package resources in the [Renew Management](https://renewal-console.jdcloud.com/renew) page.

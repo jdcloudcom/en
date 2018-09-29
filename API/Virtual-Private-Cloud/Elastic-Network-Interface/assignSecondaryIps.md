@@ -2,7 +2,7 @@
 
 
 ## Description
-Assign Secondary IP Interface to Network Interface
+Assign secondary IP API to network interface
 
 ## Request method
 POST
@@ -12,27 +12,27 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkInterfaces/{networkInte
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**networkInterfaceId**|String|True||networkInterface ID|
-|**regionId**|String|True||Region ID|
+|**networkInterfaceId**|String|True| |networkInterface ID|
+|**regionId**|String|True| |Region ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**force**|Boolean|False|True|When secondary ip is occupied by other interfaces, whether to preempt it or not. false: non-preemption for reallocation, true: preemption for reallocation, default preemption for reallocation. Default value: true|
-|**secondaryIpCount**|Number|False||Assign Automatically Allocated Number of Secondary IP|
-|**secondaryIps**|String[]|False||Assign Allocated Secondary IP Address|
+|**secondaryIpCount**|Number|False| |Assign Automatically Allocated Number of Secondary IP|
+|**secondaryIps**|String[]|False| |Assign Allocated Secondary IP Address|
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
 
 
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
-|**200**|Successful operation|
+|**200**|Successful Operation|
 |**400**|Request parameter x.y.z is 'xxx', expected one of [yyy,zzz]|
-|**404**|Resource not found|
+|**404**|Resource Not Found|

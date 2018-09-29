@@ -8,7 +8,7 @@ paths:
   "/role":
     ###################### Create Role ######################
     post:
-      description: "Create Role"
+      description: "Create role"
       operationId: createRole
       x-jdcloud-internal: false
       parameters:
@@ -33,7 +33,7 @@ paths:
   "/role/{roleName}":
    ###################### Modify Role ######################
     put:
-      description: "Modify Basic Information of Role"
+      description: "Modify basic information of the role"
       operationId: updateRole
       x-jdcloud-internal: false
       parameters:
@@ -54,7 +54,7 @@ paths:
 
    ###################### Query Role Details ######################
     get:
-      description: "Query Role Details"
+      description: "Query role details"
       operationId: describeRole
       x-jdcloud-internal: false
       responses:
@@ -73,7 +73,7 @@ paths:
 
     ###################### Delete Role ######################
     delete:
-      description: "Delete Role"
+      description: "Delete role"
       operationId: deleteRole
       x-jdcloud-internal: false
       responses:
@@ -88,7 +88,7 @@ paths:
   "/role/{roleName}/assumeRolePolicy":
    ###################### Modify Role Built-in Policy ######################
     put:
-      description: "Modify Role Built-in Policy"
+      description: "Modify role built-in policy"
       operationId: updateAssumeRolePolicy
       x-jdcloud-internal: false
       parameters:
@@ -110,7 +110,7 @@ paths:
   "/roles":
    ###################### Query Role List ######################
     get:
-      description: "Query Role List"
+      description: "Query role list"
       operationId: describeRoles
       x-jdcloud-internal: false
       parameters:
@@ -161,7 +161,7 @@ paths:
   "/role/{roleName}/policy:attachRolePolicy":
    ###################### Associate Policy for Role ######################
     post:
-      description: "Associate Policy for Role"
+      description: "Associate policy for pole"
       operationId: attachRolePolicy
       x-jdcloud-internal: false
       parameters:
@@ -234,7 +234,7 @@ paths:
   "/role/{roleName}/policy:detachRolePolicy":
    ###################### Disassociate Policy for Role ######################
     post:
-      description: "Associate Policy for Role"
+      description: "Associate policy for pole"
       operationId: detachRolePolicy
       x-jdcloud-internal: false
       parameters:

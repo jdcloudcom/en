@@ -2,7 +2,7 @@
 
 
 ## Description
--   filters, between multiple filter conditions is logic AND, and multiple values ​​inside each condition is logic OR
+-   Query detals of Cloud Disks
 
 
 ## Request method
@@ -13,64 +13,64 @@ https://disk.jdcloud-api.com/v1/regions/{regionId}/disks
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
+|**regionId**|String|True| |Region ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**filters**|Filter[]|False||diskId - Cloud Disk ID, Accurate Match, Support Multiple<br>diskType - Type of Cloud Disk, Accurate Match, Support Multiple, ssd or premium-hdd<br>instanceId - ID of the Machine, to which the Cloud Disk is Attached, Accurate Match, Support Multiple<br>instanceType - Type of the Machine, to which the Cloud Disk is Attached, Accurate Match, Support Multiple<br>status - Availability Zone, Accurate Match, Support Multiple<br>az - Status of Cloud Disk, Accurate Match, Support Multiple<br>name - Name of Cloud Disk, Fuzzy Match, Support Single<br>multiAttach - Whether the Cloud Disk is multi-point attached, Accurate Match, Support Single<br>|
-|**pageNumber**|Integer|False|1|Page Number, Defaults is 1; Value Range: [1, ∞)|
-|**pageSize**|Integer|False|20|Page Size, Default is 20; Value Range: [10,100]|
-|**tags**|TagFilter[]|False||Tag Filter Condition|
+|**filters**|Filter[]|False| |diskId - Cloud Disk ID, accurate match, support multiple<br>diskType - Type of Cloud Disk, accurate match, support multiple, value: ssd or premium-hdd<br>instanceId - ID of the Machine, to which the cloud disk is attached, accurate match, support multiple<br>instanceType - Type of the Machine, to which the cloud disk is attached, accurate match, support multiple<br>status - Availability Zone, accurate match, support multiple<br>az - Status of the cloud disk, accurate match, support multiple<br>name - Name of the cloud disk, fuzzy match, support single<br>multiAttach - Whether the cloud disk is multi-point attached, accurate match, support multiple<br>filters, between multiple filter conditions is logic AND, and multiple values inside each condition is logic OR<br>|
+|**pageNumber**|Integer|False|1|Page Number: 1 by default; value range: [1, ∞)|
+|**pageSize**|Integer|False|20|Paging Size: 20 by default; value range: [10,100]|
+|**tags**|TagFilter[]|False| |Tag Filter Condition|
 
 ### Filter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**name**|String|True||Name of Filter Requirements|
-|**operator**|String|False||Operator of filter requirements is eq by default|
-|**values**|String[]|True||Value of Filter Requirements|
+|**name**|String|True| |Name of Filter Requirements|
+|**operator**|String|False| |Operator of filter requirements is eq by default|
+|**values**|String[]|True| |Value of Filter Requirements|
 ### TagFilter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**key**|String|True||Tag Key|
-|**values**|String[]|True||Tag Value|
+|**key**|String|True| |Tag Key|
+|**values**|String[]|True| |Tag Value|
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
-|**result**|Result|Query Result Set|
+|**result**|Result|Result Set|
 
 
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**disks**|Disk[]|List of Cloud Disk Details queried|
-|**totalCount**|Integer|Number of Cloud Disks queried|
+|**disks**|Disk[]|List of cloud disk details queried|
+|**totalCount**|Integer|Number of cloud disks queried|
 ### Disk
 |Name|Type|Description|
 |---|---|---|
-|**attachments**|DiskAttachment[]|Attach Information|
-|**az**|String|AZ, to which the Cloud Disk belongs|
-|**charge**|Charge|Configuration Information for Cloud Disk Service Billing|
-|**createTime**|String|Cloud Disk Creating Time|
-|**description**|String|Description of the Cloud Disk. It allows you to enter all characters under UTF-8 encoding, but no more than 256 characters.|
+|**attachments**|DiskAttachment[]|Attachment Information|
+|**az**|String|Available Zone, to which the cloud disk belongs|
+|**charge**|Charge|Cloud Disk Billing Configuration|
+|**createTime**|String|Cloud Disk Creation Time|
+|**description**|String|Description of the cloud disk. It allows you to enter all characters under UTF-8 encoding, but no more than 256 characters.|
 |**diskId**|String|Cloud Disk ID|
 |**diskSizeGB**|Integer|Disk Size, in GiB|
 |**diskType**|String|Disk Type, ssd or premium-hdd|
-|**multiAttachable**|Boolean|Does the Cloud Disk service support multiple attachments?|
-|**name**|String|Name of the Cloud Disk. Only Chinese characters, numbers, uppercase and lowercase letters, English underscores '_' or hyphens '-' are allowed. It is not allowed to be blank and shall not exceed 32 characters.|
-|**snapshotId**|String|Snapshot ID used to create the Cloud Disk|
+|**multiAttachable**|Boolean|Is multiple attachment True or False|
+|**name**|String|Name of the cloud disk only allows Chinese characters, numbers, uppercase and lowercase letters, English underscores '_' and hyphens '-'. It is not allowed to be blank and shall not exceed 32 characters.|
+|**snapshotId**|String|Snapshot ID used to create a cloud disk|
 |**status**|String|Status of the Cloud Disk, creating, available, in-use, extending, restoring, deleting, deleted, error_create, error_delete, error_restore or error_extend|
 |**tags**|Tag[]|Tag Information|
 ### DiskAttachment
 |Name|Type|Description|
 |---|---|---|
-|**attachTime**|String|Attaching Time|
+|**attachTime**|String|Attachment Time|
 |**attachmentId**|String|Attach ID|
 |**diskId**|String|Cloud Disk ID|
-|**instanceId**|String|ID of Instance Attached|
-|**instanceType**|String|Type of the Instance Attached, vm or nc|
+|**instanceId**|String|Instance ID|
+|**instanceType**|String|Instance Type, value: vm or nc|
 |**status**|String|Attaching Status, 'attaching', 'attached', 'detaching' or 'detached'|
 ### Charge
 |Name|Type|Description|
@@ -86,7 +86,7 @@ https://disk.jdcloud-api.com/v1/regions/{regionId}/disks
 |**key**|String|Tag Key|
 |**value**|String|Tag Value|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

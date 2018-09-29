@@ -12,22 +12,22 @@ https://mps.jdcloud-api.com/v1/regions/{regionId}/buckets/{bucketName}/imageStyl
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**bucketName**|String|True||Bucket Name|
-|**id**|Integer|True||Image Style ID|
-|**regionId**|String|True||Zone ID|
+|**bucketName**|String|True| |Bucket Name|
+|**id**|Integer|True| |Image Style ID|
+|**regionId**|String|True| |Zone ID|
 
 ## Request parameter
 None
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
+|**requestId**|String| |
 
 
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
-|**200**|successful operation|
+|**200**|Successful operation|

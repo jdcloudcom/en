@@ -7,7 +7,7 @@ definitions:
     properties:
       diskType:
         type: string
-        description: "Disk type, value range {premium-hdd,  ssd}"
+        description: "Disk Type, value range {premium-hdd, ssd}"
       diskSizeGB:
         type: integer
-        description: "Disk size"
+        description: "Disk Size"

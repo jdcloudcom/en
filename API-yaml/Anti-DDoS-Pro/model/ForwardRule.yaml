@@ -20,13 +20,13 @@ definitions:
         description: "cname of Rules"
       originType:
         type: string
-        description: "Back-to-origin Type, ip or domain"
+        description: "Back-to-origin Type: ip or domain"
       port:
         type: integer
         description: "Port Number"
       algorithm:
         type: string
-        description: "Forwarding Rules: wrr->round Robin with weight  wlc->minimum weighted connection  rr->round Robin without weight  sh->source address hash"
+        description: "Forwarding Rules: wrr->round Robin with weight,  wlc->minimum weighted connection,  rr->round Robin without weight,  sh->source address hash"
       originAddr:
         type: array
         items:

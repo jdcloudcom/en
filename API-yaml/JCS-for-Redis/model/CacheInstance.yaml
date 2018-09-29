@@ -29,7 +29,7 @@ definitions:
         description: "Creation Time"
       azId:
         $ref: "./AzId.yaml#/definitions/azId"
-        description: "az Information"
+        description: "Az Information"
       vpcId:
         type: string
         description: "ID of VPC"

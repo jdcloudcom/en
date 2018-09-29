@@ -12,31 +12,31 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/webR
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**instanceId**|String|True||Instance ID|
-|**regionId**|String|True||Belonging Region ID|
+|**instanceId**|String|True| |Instance ID|
+|**regionId**|String|True| |Belonging Region ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**certInfoDescribeSpec**|CertInfoDescribeSpec|True||Query the Request Parameter of Certificate Preview|
+|**certInfoDescribeSpec**|CertInfoDescribeSpec|True| |Query the Request Parameter of Certificate Preview|
 
 ### CertInfoDescribeSpec
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**domain**|String|False||Domain Name|
-|**httpsCertContent**|String|False||Certificate Content|
+|**domain**|String|False| |Domain Name|
+|**httpsCertContent**|String|False| |Certificate Content|
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
+|**requestId**|String| |
+|**result**|Result| |
 
 
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**data**|CertInfo||
+|**data**|CertInfo| |
 ### CertInfo
 |Name|Type|Description|
 |---|---|---|
@@ -47,7 +47,7 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/webR
 |**to**|String|Certificate Expiration Time|
 |**user**|String|Certificate Organization|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

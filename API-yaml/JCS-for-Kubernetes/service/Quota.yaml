@@ -20,7 +20,7 @@ paths:
           items:
             $ref: "../../common/model/Filter.yaml#/definitions/filter"
           description: | 
-            resourceTypes - Resource type, and currently only supports [kubernetes]
+            resourceTypes - Resource type, currently only support [kubernetes]
       responses:
         200:
           description: OK
@@ -38,7 +38,7 @@ paths:
 
     ###################### Modify Quota ######################
     patch:
-      description: "Modify the (k8s cluster) quota, internal interface"
+      description: "Modify the (k8s cluster) quota, internal API"
       operationId: modifyQuota
       x-jdcloud-internal: true
       parameters:

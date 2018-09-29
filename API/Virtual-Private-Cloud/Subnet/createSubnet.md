@@ -2,7 +2,7 @@
 
 
 ## Description
-Create Subnet
+Create subnet
 
 ## Request method
 POST
@@ -12,19 +12,19 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/subnets/
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
+|**regionId**|String|True| |Region ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**addressPrefix**|String|True||Subnet Segment, Subnet Segment in VPC Cannot Overlap. Value Range of cidr: 10.0.0.0/8、172.16.0.0/12, 192.168.0.0/16 and their subnets included and the length of subnet mask is between 16 and 28. If VPC includes cidr, it must be the cidr subnet of VPC|
-|**description**|String|False||Subnet description information, all characters allowed to enter under UTF-8 coding, which is not exceed 256 characters.|
-|**routeTableId**|String|False||Subnet associated route table Id, it is default route table of VPC by default|
-|**subnetName**|String|True||Subnet name, only allowed to enter Chinese, numbers, capital and lowercase letters, English underline “_” and line-through “-”, must provide a name which cannot exceed 32 characters.|
-|**vpcId**|String|True||VPC ID of Subnet|
+|**addressPrefix**|String|True| |Subnet Segment, Subnet Segment in VPC Cannot Overlap. Value Range of cidr: 10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16 and their subnets included and the length of subnet mask is between 16 and 28. If VPC includes cidr, it must be the cidr subnet of VPC|
+|**description**|String|False| |Subnet description information, allow all characters under UTF-8 coding, which cannot exceed 256 characters.|
+|**routeTableId**|String|False| |Subnet associated route table Id, it is default route table of VPC by default|
+|**subnetName**|String|True| |Subnet name, only allow Chinese, numbers, capital and lowercase letters, English underline “_” and line-through “-”, must provide a name which cannot exceed 32 characters.|
+|**vpcId**|String|True| |VPC ID of Subnet|
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
@@ -36,11 +36,11 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/subnets/
 |---|---|---|
 |**subnetId**|String|Subnet ID|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
-|**409**|Parameter conflict|
-|**200**|Successful operation|
+|**409**|Parameter conflict |
+|**200**|Successful Operation|
 |**429**|Quota exceeded|
 |**400**|Invalid parameter|
 |**401**|Authentication failed|

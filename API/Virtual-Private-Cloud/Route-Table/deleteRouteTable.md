@@ -2,7 +2,7 @@
 
 
 ## Description
-Delete Route Table
+Delete route table
 
 ## Request method
 DELETE
@@ -12,24 +12,24 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/routeTables/{routeTableId}
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
-|**routeTableId**|String|True||RouteTable ID|
+|**regionId**|String|True| |Region ID|
+|**routeTableId**|String|True| |RouteTable ID|
 
 ## Request parameter
 None
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
 
 
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|
 |**400**|invalid parameter|
-|**404**|Resource not found|
+|**404**|Resource Not Found|
 |**500**|Internal server error|

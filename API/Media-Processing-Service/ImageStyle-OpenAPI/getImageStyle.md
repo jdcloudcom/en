@@ -12,30 +12,30 @@ https://mps.jdcloud-api.com/v1/regions/{regionId}/buckets/{bucketName}/imageStyl
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**bucketName**|String|True||Bucket Name|
-|**id**|Integer|True||Image Style ID|
-|**regionId**|String|True||Zone ID|
+|**bucketName**|String|True| |Bucket Name|
+|**id**|Integer|True| |Image Style ID|
+|**regionId**|String|True| |Zone ID|
 
 ## Request parameter
 None
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
+|**requestId**|String| |
+|**result**|Result| |
 
 
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**imageStyle**|ImageStyle||
+|**imageStyle**|ImageStyle| |
 ### ImageStyle
 |Name|Type|Description|
 |---|---|---|
 |**bucketName**|String|Bucket|
-|**createdTime**|String|Create Time|
+|**createdTime**|String|Creation Time|
 |**id**|Integer|Image Style ID|
 |**modifyTime**|String|Modification Time|
 |**paramAlias**|String|Image Style Parameter Alias|
@@ -45,7 +45,7 @@ None
 |**styleName**|String|Image Style Name|
 |**ucUserId**|String|User ID|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
-|**200**|successful operation|
+|**200**|Successful operation|

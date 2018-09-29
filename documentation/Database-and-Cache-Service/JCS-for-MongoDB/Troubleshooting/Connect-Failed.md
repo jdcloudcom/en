@@ -13,7 +13,7 @@ The possible reason is that the link between the Virtual Machines and the MongoD
 
 1. Verify if the connection address of the MongoDB instance is correct.
 
-   Locate the MongoDB instance on the MongoDB console and view the MongoDB connection address on the instance details page. Refer to: [Connection Instance](./ Getting-Started/ Connect-Instance.md)
+   Locate the MongoDB instance on the MongoDB console and view the MongoDB connection address on the instance details page. Refer to: [Connection Instance](../Getting-Started/Connect-Instance.md)
 
 1. Verify if the Virtual Machines for connection is in the same VPC of the MongoDB instance.
 

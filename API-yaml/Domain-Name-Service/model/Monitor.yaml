@@ -55,7 +55,7 @@ definitions:
       protocol:
         type: integer
         required: true
-        description: "https 0，https 1"
+        description: "https 0, https 1"
       stopRecoverRule:
         type: integer
         required: true
@@ -136,7 +136,7 @@ definitions:
         description: "Monitoring Path"
       notifyEmail:
         type: string
-        description: "Email Address "
+        description: "Email Address " 
       notifyEmailEnable:
         type: integer
         description: "Do not send mail 0, send mail 1"
@@ -151,7 +151,7 @@ definitions:
         description: "Do not send SMS 0, send SMS 1"
       protocol:
         type: integer
-        description: "https 0，https 1"
+        description: "https 0, https 1"
       stopRecoverRule:
         type: integer
         description: "0 Automatic Recovery, 1 Manual Recovery"

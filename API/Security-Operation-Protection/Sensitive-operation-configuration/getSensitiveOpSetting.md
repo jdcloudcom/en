@@ -12,19 +12,19 @@ https://sop.jdcloud-api.com/v1/regions/{regionId}/sensitiveOpSetting
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
+|**regionId**|String|True| |Region ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**action**|String|True||Operate action serviceName:actionName|
+|**action**|String|True| |Operate action serviceName:actionName|
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
+|**requestId**|String| |
+|**result**|Result| |
 
 
 ### Result
@@ -34,7 +34,7 @@ https://sop.jdcloud-api.com/v1/regions/{regionId}/sensitiveOpSetting
 |**status**|Integer|Enabling status of Operation Protection: 0-not enabled, 1-enabled|
 |**type**|Integer|Verification methods of Operation Protection: 0-none, 1-SMS, 2-email, 3-MFA|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

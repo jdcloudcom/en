@@ -2,7 +2,7 @@
 
 
 ## Description
-Query the Details of a Single Cloud Physical Server
+Query the details of a single Cloud Physical Server
 
 ## Request method
 GET
@@ -12,24 +12,24 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**instanceId**|String|True||Cloud Physical Server ID|
-|**regionId**|String|True||Region ID, the Region and Availability Zone Supported by the Cloud Physical Servers can be Called by Calling APIs (describeRegions)|
+|**instanceId**|String|True| |Cloud Physical Server ID|
+|**regionId**|String|True| |Region ID, the Region and Availability Zone Supported by the Cloud Physical Servers can be Called by Calling APIs (describeRegions)|
 
 ## Request parameter
 None
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
+|**requestId**|String| |
+|**result**|Result| |
 
 
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**instance**|Instance||
+|**instance**|Instance| |
 ### Instance
 |Name|Type|Description|
 |---|---|---|
@@ -66,7 +66,7 @@ None
 |**chargeStartTime**|String|The start time of the billing shall be subject to ISO8601, with the UTC time used in the format of YYYY-MM-DDTHH:mm:ssZ|
 |**chargeStatus**|String|Cost Payment Status, the value is respectively normal, overdue and arrear.|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

@@ -1,11 +1,11 @@
-- name: Data Visualization
+name: Data Visualization
 href: 
 items:
 - name: Introduction
   items:
     - name: Product Overview
       href: Introduction/Product-Overview.md
-    - name: Basic Architecture
+    - name: Basic Infrastructure
       href: Introduction/Basic-Infrastructure.md
     - name: Benefits
       href: Introduction/Benefits.md
@@ -16,7 +16,7 @@ items:
 - name: Pricing
   items:
     - name: Billing Overview
-      href: Pricing/Billing-Overview.md
+      href: Pricing/Pricing.md
 - name: Operation Guide
   href: Operation-Guide/guide.md
           

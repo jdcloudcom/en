@@ -12,27 +12,26 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/{jobId}:detail
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**jobId**|String|True||Job Id to be Viewed|
-|**regionId**|String|True||Region ID|
+|**jobId**|String|True| |Job Id to be Viewed|
+|**regionId**|String|True| |Region ID|
 
 ## Request parameter
-|Name|Type|Required or not|Default value|Description|
-|---|---|---|---|---|
+None
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
+|**requestId**|String| |
+|**result**|Result| |
 
 
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**data**|JmrJobViewModel||
-|**message**|String||
-|**status**|String||
+|**data**|JmrJobViewModel| |
+|**message**|String| |
+|**status**|String| |
 ### JmrJobViewModel
 |Name|Type|Description|
 |---|---|---|
@@ -42,11 +41,12 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/{jobId}:detail
 |**createTime**|String|Creation Time|
 |**cronExpression**|String|Regular Task Time|
 |**dataCenter**|String|Data Center|
-|**id**|String|Job ID|
-|**isSelfDependence**|Integer||
+|**id**|Integer| |
+|**isSelfDependence**|Integer| |
 |**isSendMsg**|Boolean|Whether to send a SMS notice after job is failed|
-|**isVirtualTask**|Integer||
+|**isVirtualTask**|Integer| |
 |**jobGroup**|String|Job Group|
+|**jobId**|String|Job ID|
 |**jobName**|String|Job Name|
 |**jobStatus**|String|Job Status|
 |**jobTrigger**|String|Job Trigger|
@@ -55,10 +55,10 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/{jobId}:detail
 |**orderBy**|String|Extra Field, optional|
 |**params**|String|Required Parameter|
 |**retryTimes**|Integer|Number of Job Retry|
-|**taskScheduleType**|Integer||
+|**taskScheduleType**|Integer| |
 |**userpin**|String|User Name|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

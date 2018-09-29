@@ -10,24 +10,23 @@ GET
 ## Request address
 https://cps.jdcloud-api.com/v1/regions
 
-|Name|Type|Required or not|Default value|Description|
-|---|---|---|---|---|
+None
 
 ## Request parameter
 None
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
+|**requestId**|String| |
+|**result**|Result| |
 
 
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**regions**|Region[]||
+|**regions**|Region[]| |
 ### Region
 |Name|Type|Description|
 |---|---|---|
@@ -41,7 +40,7 @@ None
 |**azName**|String|Availability Zone Name|
 |**region**|String|Region Code, such as cn-east-1|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

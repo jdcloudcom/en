@@ -2,12 +2,12 @@
 
 | Type    | Description                                          | Record Value Format     |
 | ------- | --------------------------------------------- | -------------- |
-| A record | Point the domain name to an IPv4 address | IPv4 address |
-| CNAME | Point the domain name to another domain | Domain |
-| MX | Point domain name to mail server address | Domain name or IPV4 address|
+| A record                                | Point the domain name to an IPv4 address | IPv4 address |
+| CNAME                                      | Point the domain name to another domain | Domain |
+| MX                           | Point domain name to mail server address | Domain name or IPV4 address|
 TXT | can be filled in at any time, length limit 255, usually do SPF record | string |
 | NS      | Domain Name Server Record, Specify Subdomain Name to Other DNS Server to Resolve | Domain Name | Domain Name           |
-| AAAA    | Point the Domain Name to an IPV6 Address | IPv6 Address       |
+| AAAA                           | Point the Domain Name to an IPV6 Address | IPv6 Address       |
 | SRV     | Record Servers that Provide Specific Services                      | Domain Name           |
 | CAA     | Certification Authority Authorization                              | Domain Name           |
 | Explicit URL | Redirect Domain Name 301 to Another Address                   | Domain Name or URL Address  |

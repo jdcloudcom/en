@@ -12,25 +12,25 @@ https://rds.jdcloud-api.com/0.2.9/regions/{regionId}/instances/{instanceId}/data
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**instanceId**|String|True||RDS instance ID, which uniquely identifies an RDS instance|
-|**regionId**|String|True||Region code, with range detailed in [Regions and Availability Zone Comparison Table](../Enum-Definitions/Regions-AZ.md)|
+|**instanceId**|String|True| |RDS instance ID, which uniquely identifies an RDS instance|
+|**regionId**|String|True| |Region code, with range detailed in [Regions and Availability Zone Comparison Table](../Enum-Definitions/Regions-AZ.md)|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**dbName**|String|False||Database Name If you do not specify a database name, return all database lists <br> -**MySQL: This field is not supported **<br>- **SQL Server: This field is supported**|
+|**dbName**|String|False| |Database Name If you do not specify a database name, return all database lists <br> -**MySQL: This field is not supported **<br>- **SQL Server: This field is supported**|
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result||
+|**result**|Result| |
 
 
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**databases**|Database[]||
+|**databases**|Database[]| |
 ### Database
 |Name|Type|Description|
 |---|---|---|
@@ -44,7 +44,7 @@ https://rds.jdcloud-api.com/0.2.9/regions/{regionId}/instances/{instanceId}/data
 |**accountName**|String|Account Name|
 |**privilege**|String|Privilege of account to the database with the specific definition detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

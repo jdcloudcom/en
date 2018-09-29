@@ -12,23 +12,22 @@ https://rds.jdcloud-api.com/0.2.9/regions/{regionId}/instances/{instanceId}/data
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**dbName**|String|True||Database name|
-|**instanceId**|String|True||RDS instance ID, which uniquely identifies an RDS instance|
-|**regionId**|String|True||Region code, with range detailed in [Regions and Availability Zone Comparison Table](../Enum-Definitions/Regions-AZ.md)|
+|**dbName**|String|True| |Database name|
+|**instanceId**|String|True| |RDS instance ID, which uniquely identifies an RDS instance|
+|**regionId**|String|True| |Region code, with range detailed in [Regions and Availability Zone Comparison Table](../Enum-Definitions/Regions-AZ.md)|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**ossURL**|String|True||The inner link of the backup file uploaded by the user to Object Storage Service, OSS|
+|**ossURL**|String|True| |The inner link of the backup file uploaded by the user to Object Storage Service, OSS|
 
 
-## Return parameter
-|Name|Type|Description|
-|---|---|---|
+## Response parameter
+None
 
 
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

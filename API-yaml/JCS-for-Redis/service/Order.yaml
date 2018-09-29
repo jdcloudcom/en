@@ -10,7 +10,7 @@ paths:
   "/orderStatus/{orderRequest}":
     ###################### Query Order Status ######################
     get:
-      description: "Query Order Status"
+      description: "Query order status"
       operationId: describeOrderStatus
       x-jdcloud-internal: true
       responses:

@@ -2,7 +2,7 @@
 
 
 ## Description
-Query VPCPeering Resource Details
+Query VPCPeering resource details
 
 ## Request method
 GET
@@ -12,14 +12,14 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/vpcPeerings/{vpcPeeringId}
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
-|**vpcPeeringId**|String|True||vpcPeeringId ID|
+|**regionId**|String|True| |Region ID|
+|**vpcPeeringId**|String|True| |vpcPeeringId ID|
 
 ## Request parameter
 None
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
@@ -34,11 +34,11 @@ None
 |Name|Type|Description|
 |---|---|---|
 |**createdTime**|String|VPCPeering Creation Time|
-|**description**|String|VPCPeering Description, Can be Null Value. Value Range: 0-256 Chinese, English capital and lowercase letters, numbers and underline delimiter|
+|**description**|String|VPCPeering description, can be null. Value Range: 0-256 Chinese, English capital and lowercase letters, numbers and underline delimiter|
 |**remoteVpcInfo**|VpcPeeringVpcInfo|Opposite Terminal VPC information|
 |**vpcInfo**|VpcPeeringVpcInfo|VPC Information Launching VPCPeering|
 |**vpcPeeringId**|String|VPCPeering ID|
-|**vpcPeeringName**|String|VPCPeering Name, A Name Cannot be Duplicate Under the Same Account. Value Range: 1-32 Chinese, English capital and lowercase letters, numbers and underline delimiter|
+|**vpcPeeringName**|String|VPCPeering name, no duplicate under the same account is allowed. Value Range: 1-32 Chinese, English capital and lowercase letters, numbers and underline delimiter|
 |**vpcPeeringState**|String|Status, values include Connected, Disconnected, Initiated|
 ### VpcPeeringVpcInfo
 |Name|Type|Description|
@@ -47,7 +47,7 @@ None
 |**vpcId**|String|VPC ID of Subnet|
 |**vpcName**|String|VPC Name. Value Range: 1-60 Chinese, English capital and lowercase letters, numbers and underline delimiter|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

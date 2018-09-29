@@ -2,7 +2,7 @@
 
 
 ## Description
-Associate Policy for Role
+Associate policy for pole
 
 ## Request method
 POST
@@ -12,22 +12,22 @@ https://iam.jdcloud-api.com/v1/role/{roleName}/policy:detachRolePolicy
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**roleName**|String|True||Role Name|
+|**roleName**|String|True| |Role Name|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**policyJrn**|String|False||Policy jrn|
+|**policyJrn**|String|False| |Policy jrn|
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
+|**requestId**|String| |
 
 
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

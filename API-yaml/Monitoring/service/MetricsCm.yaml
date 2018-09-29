@@ -1,22 +1,22 @@
 swagger: "2.0"
 info:
-  description: "Customized metric monitoring items APIs, providing customized monitoring data reporting function"
-  title: Monitor Item Customized Monitoring APIs
+  description: "Custom metric monitoring items APIs, providing custom metric monitoring data reporting function"
+  title: Monitor Item Custom Metric Monitoring APIs
   version: "v1"
 consumes:
 - application/json
 produces:
 - application/json
-############################Customized metric monitoring API, reporting service corresponding to cm-put data##############################
+############################Custom metric monitoring API, reporting service corresponding to cm-put data##############################
 ###########################Internal Domain Name: cm-put.openapi.cn-north-1.jdcloud.com Gateway Address: monitor.cn-north-1.jdcloud-api.com##############################
 ###########################Internal Domain Name: cm-put.openapi.cn-south-1.jdcloud.com Gateway Address: monitor.cn-south-1.jdcloud-api.com##############################
-###########################Internal Domain Name: cm-put.openapi.cn-east-1.jdcloud.com Gateway Address: monitor.cn-east-1.jdcloud-api.com##############################
-###########################Internal Domain Name: cm-put.openapi.cn-east-2.jdcloud.com Gateway Address: monitor.cn-east-2.jdcloud-api.com##############################
+########################## Internal Domain Name: cm-put.openapi.cn-east-1.jdcloud.com Gateway Address: monitor.cn-east-1.jdcloud-api.com##############################
+########################## Internal Domain Name: cm-put.openapi.cn-east-2.jdcloud.com Gateway Address: monitor.cn-east-2.jdcloud-api.com##############################
 paths:
   /customMetrics:
-    ###################### Report Customized Metric Monitoring Data of Users ######################
+    ###################### Report Custom metric monitoring Data of Users ######################
     post:
-      description: "The API is for reporting the customized metric monitoring data, facilitating the user to report the collected time series data to the Monitoring. Original data and aggregated statistical data can be reported in batches. A single request contains up to 50 data points; the data size does not exceed 256k."
+      description: "The API is for reporting the custom metric monitoring data, facilitating the user to report the collected time series data to the Monitoring. Original data and aggregated statistical data can be reported in batches. A single request contains up to 50 data points; the data size does not exceed 256k."
       summary: Report Monitoring Data of Users
       operationId: putMetricData
       x-jdcloud-internal: false

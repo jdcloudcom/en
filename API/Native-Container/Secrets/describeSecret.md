@@ -13,24 +13,24 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/secrets/{name}
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**name**|String|True||Secret Name|
-|**regionId**|String|True||Region ID|
+|**name**|String|True| |Secret Name|
+|**regionId**|String|True| |Region ID|
 
 ## Request parameter
 None
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
+|**requestId**|String| |
+|**result**|Result| |
 
 
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**secret**|Secret||
+|**secret**|Secret| |
 ### Secret
 |Name|Type|Description|
 |---|---|---|
@@ -46,7 +46,7 @@ None
 |**server**|String|Registry Server Address|
 |**username**|String|User Name|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**400**|Invalid parameter|

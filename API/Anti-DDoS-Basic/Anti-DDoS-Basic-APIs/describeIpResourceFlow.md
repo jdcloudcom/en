@@ -12,38 +12,38 @@ https://baseanti.jdcloud-api.com/v1/regions/{regionId}/ipResources/{ip}/monitorF
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**ip**|String|True||EIP Address|
-|**regionId**|String|True||Belonging Region ID|
+|**ip**|String|True| |EIP Address|
+|**regionId**|String|True| |Belonging Region ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**endTime**|String|False||Search end time, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ|
+|**endTime**|String|False| |Search end time, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ|
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
+|**requestId**|String| |
+|**result**|Result| |
 
 
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**data**|IpResourceFlow||
+|**data**|IpResourceFlow| |
 ### IpResourceFlow
 |Name|Type|Description|
 |---|---|---|
-|**bps**|IpResourceFlowDetail||
-|**pps**|IpResourceFlowDetail||
+|**bps**|IpResourceFlowDetail| |
+|**pps**|IpResourceFlowDetail| |
 ### IpResourceFlowDetail
 |Name|Type|Description|
 |---|---|---|
 |**times**|String[]|Time Point|
 |**used**|Integer[]|Use Value of Corresponding Time Point|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

@@ -1,43 +1,43 @@
-- name: SSL Certificate
+name: SSL Certificate
 href: 
 items:
 - name: Introduction
   items:
     - name: Product Overview
       href: Introduction/Product-Overview.md
-    - name: Core Concepts
+    - name: Core Concept
       href: Introduction/Core-Concepts.md
-    - name: Basic Architecture
+    - name: Basic Infrastructure
       href: 
-      status: 0
+      status:0
     - name: Benefits
       href: Introduction/Benefits.md
     - name: Features
       href: Introduction/Features.md
     - name: Specifications
       href: 
-      status: 0
+      status:0
     - name: Restrictions
       href: 
-      status: 0
+      status:0
     - name: Application Scenarios
       href: Introduction/Application-Scenarios.md
 - name: Pricing
   items:
     - name: Billing Overview
-      href: Pricing/Billing-Overview.md
+      href: Pricing/Pricing.md
     - name: Billing Rules
       href: 
-      status: 0
+      status:0
     - name: Price Overview
       href: 
-      status: 0
+      status:0
     - name: Purchase Process
       href: 
-      status: 0
-    - name: Renew Process
+      status:0
+    - name: Renew-Process
       href: 
-      status: 0
+      status:0
 - name: Getting Started
   items:
     - name: Quickstart Guide

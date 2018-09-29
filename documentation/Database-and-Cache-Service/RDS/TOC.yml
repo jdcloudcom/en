@@ -5,20 +5,22 @@
     items:
       - name: Product Overview
         href: Introduction/Product-Overview.md
-      - name: Core Concepts
+      - name: Core Concept
         href: Introduction/Core-Concepts.md
       - name: Basic Infrastructure
         href: Introduction/Basic-Infrastructure.md
       - name: Benefits
         href: Introduction/Benefits.md
       - name: Specifications
-        href: Introduction/Specifications.md
+        href: Introduction/Specification.md
       - name: Restrictions
         items:
         - name: MySQL Restrictions
           href: Introduction/Restrictions/MySQL-Restrictions.md
         - name: Percona Restrictions
           href: Introduction/Restrictions/Percona-Restrictions.md
+        - name: MariaDB Restrictions
+          href: Introduction/Restrictions/MariaDB-Restrictions.md
         - name: SQL Server Restrictions
           href: Introduction/Restrictions/SQLServer-Restrictions.md
       - name: Application Scenarios
@@ -26,14 +28,14 @@
   - name: Pricing
     items:
       - name: Billing Overview
-        href: Pricing/Billing-Overview.md
+        href: Pricing/Pricing.md
       - name: Billing Rules
         href: Pricing/Billing-Rules.md
       - name: Price Overview
         href: Pricing/Price-Overview.md
       - name: Purchase Process
         href: Pricing/Purchase-Procedure.md
-      - name: Renew Process
+      - name: Renew-Process
         href: Pricing/Renewal-Procedure.md
         
   - name: Getting Started
@@ -57,12 +59,14 @@
             href: Operation-Guide/Instance/Internet-Access.md
           - name:  Failover Instance
             href: Operation-Guide/Instance/Failover-Instance.md
-          - name: Reboot Instance
+          - name: Restart Instance
             items:
             - name: Reboot MySQL
               href: Operation-Guide/Instance/Reboot-Instance/MySQL-Restart-Instance.md
             - name: Reboot Percona
               href: Operation-Guide/Instance/Reboot-Instance/Percona-Restart-Instance.md
+            - name: Reboot MariaDB 
+              href: Operation-Guide/Instance/Reboot-Instance/MariaDB-Restart-Instance.md
             - name: Reboot SQL Server
               href: Operation-Guide/Instance/Reboot-Instance/SQLServer-Restart-Instance.md
   
@@ -99,6 +103,8 @@
               href: Operation-Guide/Backup/Create-Backup/MySQL-Create-Backup.md
             - name: Percona Create Backup
               href: Operation-Guide/Backup/Create-Backup/Percona-Create-Backup.md
+            - name: MariaDB Create Backup
+              href: Operation-Guide/Backup/Create-Backup/MariaDB-Create-Backup.md
             - name: Create SQL Server Backup
               href: Operation-Guide/Backup/Create-Backup/SQLServer-Create-Backup.md
           - name: Backup Strategy
@@ -107,6 +113,8 @@
               href: Operation-Guide/Backup/Backup-Policy/MySQL-Backup-Policy.md
             - name: Percona Backup Strategy
               href: Operation-Guide/Backup/Backup-Policy/Percona-Backup-Policy.md
+            - name: MariaDB Backup Strategy
+              href: Operation-Guide/Backup/Backup-Policy/MariaDB-Backup-Policy.md
             - name: SQL Server Backup Strategy
               href: Operation-Guide/Backup/Backup-Policy/SQLServer-Backup-Policy.md
           - name: Backup Download
@@ -115,22 +123,27 @@
               href: Operation-Guide/Backup/Backup-Download/MySQL-Backup-Download.md
             - name: Percona Backup Download
               href: Operation-Guide/Backup/Backup-Download/Percona-Backup-Download.md
+            - name: MariaDB Backup Download
+              href: Operation-Guide/Backup/Backup-Download/MariaDB-Backup-Download.md
+              status:0
             - name: SQL Server Backup Download
               href: Operation-Guide/Backup/Backup-Download/SQLServer-Backup-Download.md
-            - name: Backup Replace and Recovery
-              items:
-              - name: MySQL Backup Recovery
-                href: Operation-Guide/Backup/Restore-Instance/MySQL-Backup-Restore.md
-              - name: Percona Backup Recovery
-                href: Operation-Guide/Backup/Restore-Instance/Percona-Backup-Restore.md
-              - name: SQL Server Backup Recovery
-                herf: Operation-Guide/Backup/Restore-Instance/SQLServer-Backup-Restore.md
+          - name: Backup Replace and Recovery
+            items:
+            - name: MySQL Backup Recovery
+              href: Operation-Guide/Backup/Restore-Instance/MySQL-Backup-Restore.md
+            - name: Percona Backup Recovery
+              href: Operation-Guide/Backup/Restore-Instance/Percona-Backup-Restore.md
+            - name: MariaDB Backup Recovery
+              href: Operation-Guide/Backup/Restore-Instance/MariaDB-Backup-Restore.md
+            - name: SQL Server Backup Recovery
+              herf: Operation-Guide/Backup/Restore-Instance/SQLServer-Backup-Restore.md
           - name: Delete Backup
             href: Operation-Guide/Backup/Delete-Backup.md
             
       - name: Binlog Management
         items:
-        - name: File Management
+        - name: Object Management
           href: Operation-Guide/Binlog-Management/Binlog-File-Management.md
         - name: File Download
           href: Operation-Guide/Binlog-Management/Binlog-File-Download.md
@@ -163,6 +176,8 @@
            href: Operation-Guide/Parameter-Group/Copy-Parameter-Group.md
          - name: Delete Parameter Set
            href: Operation-Guide/Parameter-Group/Delete-Parameter-Group.md
+         - name: Change History 
+           href: Operation-Guide/Parameter-Group/Parameter-Group-History.md
           
       - name: Audit
         items:
@@ -170,6 +185,8 @@
           href: Operation-Guide/Audit/MySQL-Audit-Service.md
         - name: Percona Audit Service
           href: Operation-Guide/Audit/Percona-Audit-Service.md
+        - name: MariaDB Audit Service
+          href: Operation-Guide/Audit/MariaDB-Audit-Service.md
         - name: SQL Server Audit Service
           items:
           - name: Introduction to SQL Server Audit
@@ -205,7 +222,7 @@
         - name: Management Tag
           herf: Operation-Guide/Tag/Manage-Tag.md       
           
-      - name: Monitoring Alarm
+      - name: Monitoring and Alarms
         items:
         - name: View Monitoring Information
           href: Operation-Guide/Monitor-Alarm/View-Monitor-Information.md          
@@ -236,21 +253,29 @@
       - name: Import MySQL
         items:
         - name: Import from Local MySQL
-          href: Best-Practices/Data-Migration/Import-Data-Into-MySQL-Database-Instance/Migrate-From-Local-MySQL-Database-to-JDCloud-MySQL-Database-Instance.md
+          href: Best-Practices/Data-Migration/Import-Data-Into-MySQL-Instance/VM-to-MySQL.md
         - name: Import from VM MySQL
-          href: Best-Practices/Data-Migration/Import-Data-Into-MySQL-Database-Instance/Migrate-From-JDCloud-VM-MySQL-Database-to-JDCloud-MySQL-Database-Instance.md
+          href: Best-Practices/Data-Migration/Import-Data-Into-MySQL-Instance/Local-to-MySQL.md
       - name: Import Percona
         items:
         - name: Import from Local Percona
-          href: Best-Practices/Data-Migration/Import-Data-Into-Percona-Database-Instance/Migrate-From-Local-Percona-Database-to-JDCloud-Percona-Database-Instance.md
+          href: Best-Practices/Data-Migration/Import-Data-Into-Percona-Instance/VM-to-Percona.md
         - name: Import from VM Percona
-          href: Best-Practices/Data-Migration/Import-Data-Into-Percona-Database-Instance/Migrate-From-JDCloud-VM-Percona-Database-to-JDCloud-Percona-Database-Instance.md
+          href: Best-Practices/Data-Migration/Import-Data-Into-Percona-Instance/Local-to-Percona.md
+      - name: Import MariaDB 
+        items:
+        - name: Import from Local  MariaDB
+          href: Best-Practices/Data-Migration/Import-Data-Into-Percona-Instance/VM-to-MariaDB.md
+        - name: Import from VM Percona
+          href: Best-Practices/Data-Migration/Import-Data-Into-Percona-Instance/Local-to-MariaDB.md
     - name: Restore Backup Files to the Self-built Database
       items:
       - name: Restore Backup Files to the Self-built MySQL
         href: Best-Practices/Restore-Backup-To-Self-Built-Database/Restore-Backup-To-Self-Built-MySQL-Database.md
       - name: Restore the Backup Files to the Self-built Percona
         href: Best-Practices/Restore-Backup-To-Self-Built-Percona-Database.md
+      - name: Restore the Backup Files to the Self-built MariaDB 
+        href: Best-Practices/Restore-Backup-To-Self-Built-MariaDB-Database.md
     - name: Connect to Database Instance
       items:
       - name: Connect Instance
@@ -258,8 +283,7 @@
       - name: Connect SQL Server from Client
         href: Best-Practices/Connect-Database-Instance/Client-Connect-SQLServer.md
       - name: Connect SQL Server from Virtual Machine
-        href: Best-Practices/Connect-Database-Instance/Host-Connect-SQLServer.md
-  
+        href: Best-Practices/Connect-Database-Instance/Host-Connect-SQLServer.md  
   - name: FAQ
     items:
     - name: FAQ
@@ -268,29 +292,23 @@
       href: FAQ/Storage-Engine.md
     - name: Storage Space
       href: FAQ/Storage-Space.md
-
   - name: Troubleshooting
     items:
     - name: Memory Usage Rate
-      href: Troubleshooting/Memory-Use-Rate.md
-          
-  - name: API Reference
-    href:
-  - name: SDK Reference
-    href:
+      href: Troubleshooting/Memory-Use-Rate.md          
   - name: Related Resources
     items:
     - name: Document History
       href: Related-Resources/Document-History.md
     - name: Terms of Service
       href: Related-Resources/Service-Terms.md
-      status: 0
+      status:0
     - name: SLA
       href: Related-Resources/SLA.md
-      status: 0
-    - name: Filing
+      status:0
+    - name: ICP Filing
       href: Related-Resources/Filing.md
-      status: 0
+      status:0
     - name: Glossary
       href: Related-Resources/Glossary.md
-      status: 0
+      status:0

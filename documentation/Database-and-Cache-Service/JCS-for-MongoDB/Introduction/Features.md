@@ -14,11 +14,11 @@ Support capacity expansion and capacity reduction. You can upgrade or downgrade 
 
 The three-node replica set is automatically set up. The default Primary and Secondary nodes provide services. When the Primey node fails, the system automatically elects a new Primary node. When the Secondary node is unavailable, the standby node takes over the service and multiple guarantee mechanisms ensure service availability.
 
-## Single Availability Zone Deployment
+### Single Availability Zone Deployment
 
 Support for single availability deployment, three nodes are automatically deployed to physical machines in different racks, providing high availability across racks.
 
-### Multiple Avialability Zone Deployment
+### Multiple Availability Zone Deployment
 
 Support for multiple availability zone deployment, you can specify the available zones for primary, secondary and hidden node deployments, and provide high availability across the machine rooms.
 
@@ -27,7 +27,7 @@ Support for multiple availability zone deployment, you can specify the available
 ### VPC Virtual Private Cloud
 The instance is deployed in a user-defined VPC, and network isolation protection is performed directly at the TCP layer to ensure data security.
 
-### White list
+### White List
 Support user-defined IP white list and security control from access source.
 
 
@@ -52,8 +52,8 @@ You can set alarm rules based on the monitoring items. When the monitoring items
 
 ## Related Reference
 
-- [Product Overview](../Introduction/What-Is-MongoDB.md)
-- [Specifications](../Product-Introduction/Specification.md)
+- [Product Overview](../Introduction/Product-Overview.md)
+- [Specifications](../Introduction/Specifications.md)
 - [Price Overview](../Pricing/Price-Overview.md)
 - [Create Instance](../Getting-Started/Create-Instance.md)
 - [Alter Configuration](../Operation-Guide/Instance-Management/Modify-Instance-Spec.md)

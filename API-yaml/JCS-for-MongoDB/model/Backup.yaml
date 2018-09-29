@@ -28,5 +28,5 @@ definitions:
         description: "Backup Mode, Automated (System Automatic Backup), Manual (Manual Backup)"
       backupSizeByte:
         type: integer
-        description: "Size of Whole Backup Set, in Byte"
+        description: "Size of Whole Backup Set, Unit: Byte"
       

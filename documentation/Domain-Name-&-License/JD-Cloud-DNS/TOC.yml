@@ -14,7 +14,7 @@
   - name: Pricing
     items:
       - name: Billing Overview
-        href: Pricing/Billing-Overview.md
+        href: Pricing/Pricing.md
       - name: Billing Rules
         href: Pricing/Billing-Rules.md
       - name: Price Overview
@@ -56,9 +56,9 @@
     - name: Method to Test Domain Name Resolution Validation
       href: FAQ/Solution-Effect.md
     - name: Extensive Resolution
-      href: FAQ/Domai-Overflowing.md       
+      href: FAQ/Domain-Overflowing.md       
     - name: Principle of Domain Name Validation
-      href: FAQ/Authentication.md    
+      href: FAQ/Domain-Effect.md   
     - name: Explicit URL and Implicit URL
       href: FAQ/Dominance.md    
     - name: Reverse Resolution

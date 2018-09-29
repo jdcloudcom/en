@@ -1,8 +1,8 @@
-# JMongoDB Service Interface
+# JCS for MongoDB API
 
 
 ## Introduction
-MongoDB Related Interface
+JCS for MongoDB Related API
 
 
 ### Version
@@ -16,16 +16,16 @@ v1
 |**createBackup**|POST|Create Backup|
 |**createInstance**|POST|Create Instance|
 |**deleteBackup**|DELETE|Delete Backup|
-|**deleteInstance**|DELETE|Delete Instance|
+|**deleteInstance**|DELETE|Delete instance|
 |**describeAvailableZones**|GET|Get AZ|
-|**describeBackupPolicy**|GET|Get Backup Policy|
+|**describeBackupPolicy**|GET|Get backup policy|
 |**describeBackups**|GET|View Backup|
-|**describeFlavors**|GET|Get Type|
+|**describeFlavors**|GET|Get type|
 |**describeInstances**|GET|Query Instance Information|
 |**describeSecurityIps**|GET|Query Instance Access White List|
-|**modifyBackupPolicy**|POST|Modify Backup Policy|
-|**modifyInstanceName**|POST|Modify Instance Name|
-|**modifyInstanceSpec**|POST|Change Instance Type|
-|**modifySecurityIps**|POST|Modify Instance Access White List|
-|**resetPassword**|POST|Reset Password|
+|**modifyBackupPolicy**|POST|Modify backup policy|
+|**modifyInstanceName**|POST|Modify instance name|
+|**modifyInstanceSpec**|POST|Change instance type|
+|**modifySecurityIps**|POST|Modify instance access White List|
+|**resetPassword**|POST|Reset password|
 |**restoreInstance**|POST|Data Recovery|

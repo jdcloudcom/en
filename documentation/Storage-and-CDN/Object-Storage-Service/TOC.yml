@@ -5,7 +5,7 @@ items:
    items:
       - name: Product Overview
         href: Introduction/Product-Overview.md
-      - name: Core Concepts
+      - name: Core Concept
         href: Introduction/Core-Concepts.md
       - name: Features
         href: Introduction/Features.md
@@ -16,16 +16,16 @@ items:
  - name: Pricing
    items:
       - name: Billing Overview
-        href: Pricing/Billing-Overview.md 
+        href: Pricing/Pricing.md 
       - name: Billing Rules
         href: Pricing/Billing-Rules.md
       - name: Price Overview
         href: Pricing/Price-Overview.md
       - name: View Bills
         href: Pricing/Check-Bill.md
-  - name: Getting Started
+ - name: Getting Started
    items:
-      - name: Sign Up Service
+      - name: Sign up Service
         href: Getting-Started/Sign-Up-Service-1.md
       - name: Create Bucket
         href: Getting-Started/Create-Bucket-1.md
@@ -33,16 +33,16 @@ items:
         href: Getting-Started/Upload-Object-1.md
       - name: Share and Download Object
         href: Getting-Started/Share-And-Download-Object-1.md
-      - name: Delete Files
+      - name: Delete Object
         href: Getting-Started/Delete-Object-1.md
       - name: Delete Bucket
         href: Getting-Started/Delete-Bucket-1.md
  - name: Operation Guide
    items:
-      - name: Sign Up Service
+      - name: Sign up Service
         href: Operation-Guide/Sign-Up-Service-2.md
       - name: Overview Page
-        href: Operation-Guide/Overview-Pag-2.md
+        href: Operation-Guide/Overview-Page-2.md
       - name: Bucket Management
         items:
            - name: Bucket Overview
@@ -74,7 +74,7 @@ items:
           - name: Delete Object
             href: Operation-Guide/Manage-Object/Delete-Object.md
           - name: Post Object
-            href: Operation-Guide/Manage-Object/Post-Object-1.md                              
+            href: Operation-Guide/Manage-Object/Post-Object-1.md                  
           - name: Consumption Monitoring
             href: Operation-Guide/Manage-Object/Usage-Monitoring.md
       - name: Image Processing Guide
@@ -84,7 +84,7 @@ items:
           - name: Access Rules of Image Processing
             href: Operation-Guide/Image-Service-Guide/Image-Access-Rules.md
           - name: Quick Use Image Service
-            href: Operation-Guide/Image-Service-Guide/Getting-Started-1.md
+            href: Operation-Guide/Image-Service-Guide/Getting-Started-1.md  
           - name: Image Zooming
             href: peration-Guide/Image-Service-Guide/Resize-Images.md
           - name: Image Rotation
@@ -113,13 +113,13 @@ items:
             href: Operation-Guide/Video-Service-Guide/Video-Service-Guide-Overview.md
           - name: Access Rules of Image Processing
             href: Operation-Guide/Video-Service-Guide/Getting-Started-2.md
-          - name: Video Processing Signature Verification
+          - name: User Signature Verification
             href: Operation-Guide/Video-Service-Guide/User-Signature-Authentication.md   
           - name: Create Video Transcoding
             href: Operation-Guide/Video-Service-Guide/Create-Video-Transcoding.md 
-          - name: Acquire Video Task List
+          - name: Get Video Task List
             href: Operation-Guide/Video-Service-Guide/Get-Video-Task.md 
-          - name: Search Video Task
+          - name: Query Video Task
             href: Operation-Guide/Video-Service-Guide/Query-Video-Task.md
           - name: Delete Video Task
             href: Operation-Guide/Video-Service-Guide/Delete-Video-Task.md	
@@ -181,7 +181,7 @@ items:
              href: API-Reference/HTTP-Header/Request-Headers.md
            - name: Public Response Header
              href: API-Reference/Introduction/Response-Headers.md
-      - name: Identity and Access Management
+      - name: IAM
         items:             
            - name: Contain Signature in the Header
              href: API-Reference/Access-Control/Signature-In-Header.md
@@ -239,7 +239,7 @@ items:
              href: SDK-Reference/Java-SDK/Installation-3.md
            - name: Initialization
              href: SDK-Reference/Java-SDK/Initialization-3.md
-           - name: Quickstart
+           - name: Getting-Started
              href: SDK-Reference/Java-SDK/Quick-Start-3.md 
            - name: Create Bucket
              href: SDK-Reference/Java-SDK/Create-Bucket-3.md 
@@ -256,7 +256,7 @@ items:
            - name: Range Download
              href: SDK-Reference/Java-SDK/Range-Download-3.md
            - name: Management Object
-             href: SDK-Reference/Java-SDK/Manage-Objects-3.md
+             href:  SDK-Reference/Java-SDK/Manage-Objects-3.md
            - name: Delete Object
              href: SDK-Reference/Java-SDK/Delete-Object-3.md
            - name: Move Object
@@ -284,4 +284,4 @@ items:
       - name: Set Signature Authentication For Callback Server
         href: Best-Practices/Setting-Signature-Authentication-For-Callback-Server.md        
  - name: FAQ
-   status: 0
+   status:0

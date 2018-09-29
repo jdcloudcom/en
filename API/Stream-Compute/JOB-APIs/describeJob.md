@@ -2,7 +2,7 @@
 
 
 ## Description
-Query the Details of Assigned Job
+Query the details of Assigned Job
 
 ## Request method
 GET
@@ -12,47 +12,47 @@ https://streamcompute.jdcloud-api.com/v1/regions/{regionId}/job
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
+|**regionId**|String|True| |Region ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**jobId**|Integer|True|||
-|**namespaceId**|Integer|True|||
+|**jobId**|Integer|True| | |
+|**namespaceId**|Integer|True| | |
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
+|**requestId**|String| |
+|**result**|Result| |
 
 
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**jobStr**|JobStr||
+|**jobStr**|JobStr| |
 ### JobStr
 |Name|Type|Description|
 |---|---|---|
-|**appName**|String||
-|**createTime**|String||
-|**deleted**|String||
-|**description**|String||
-|**duration**|Integer||
-|**id**|Integer||
-|**jobType**|String||
-|**name**|String||
-|**namespaceId**|String||
-|**resourceConsume**|Integer||
-|**sqlStatement**|String||
-|**status**|String||
-|**uid**|String||
-|**updateTime**|String||
-|**userName**|String||
+|**appName**|String| |
+|**createTime**|String| |
+|**deleted**|String| |
+|**description**|String| |
+|**duration**|Integer| |
+|**id**|Integer| |
+|**jobType**|String| |
+|**name**|String| |
+|**namespaceId**|String| |
+|**resourceConsume**|Integer| |
+|**sqlStatement**|String| |
+|**status**|String| |
+|**uid**|String| |
+|**updateTime**|String| |
+|**userName**|String| |
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|
-|**500**|INTERNAL_ERROR|
+|**500**|INTERNAL_ERROR      |

@@ -12,29 +12,29 @@ https://mongodb.jdcloud-api.com/v1/regions/{regionId}/availableZones
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
+|**regionId**|String|True| |Region ID|
 
 ## Request parameter
 None
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result||
+|**result**|Result| |
 
 
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**availableZones**|AvailableZones[]||
+|**availableZones**|AvailableZones[]| |
 ### AvailableZones
 |Name|Type|Description|
 |---|---|---|
 |**az**|String|Availability Zone|
 |**canSale**|Boolean|Is it available for sale|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

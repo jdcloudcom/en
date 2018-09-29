@@ -12,19 +12,19 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/subnet
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID, the Region and Availability Zone Supported by the Cloud Physical Servers can be Called by Calling APIs (describeRegions)|
+|**regionId**|String|True| |Region ID, the Region and Availability Zone Supported by the Cloud Physical Servers can be Called by Calling APIs (describeRegions)|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**az**|String|True||Availability Zone, as cn-east-1a; the Availability Zones Supported by the Cloud Physical Servers in the Region can be called by Calling APIs (describeRegions)|
+|**az**|String|True| |Availability Zone, as cn-east-1a; the availability zones supported by the Cloud Physical Servers in the region can be called by calling APIs (describeRegions)|
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
+|**requestId**|String| |
+|**result**|Result| |
 
 
 ### Result
@@ -35,12 +35,12 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/subnet
 |Name|Type|Description|
 |---|---|---|
 |**az**|String|Availability Zone, such as cn-east-1a|
-|**cidr**|String|CIDR|
+|**cidr**|String|Subnet CIDR|
 |**networkType**|String|Network Type|
 |**region**|String|Region Code, such as cn-east-1|
 |**subnetId**|String|Subnet ID|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

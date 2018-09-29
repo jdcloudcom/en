@@ -2,7 +2,7 @@
 
 
 ## Description
-Query Subnet List
+Query subnet list
 
 ## Request method
 GET
@@ -12,23 +12,23 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/subnets/
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
+|**regionId**|String|True| |Region ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**filters**|Filter[]|False||subnetIds - subnet ID list, support multiple IDs<br>subnetNames - subnet name list, support multiple names<br>routeTableId	- subnet associated route table Id, support single Id<br>aclId - subnet associated acl Id, support single Id<br>VPCId- VPC ID of subnet, support single Id<br>|
-|**pageNumber**|Integer|False|1|Page; it is 1 by default. Value Range: [1,∞); when the pages exceed total pages, show the last page|
-|**pageSize**|Integer|False|20|Paging size; it is 20 by default. Value Range: [10, 100]|
+|**filters**|Filter[]|False| |subnetIds - Subnet ID list, support multiple IDs<br>subnetNames - Subnet name list, support multiple names<br>routeTableId	- Subnet associated route table Id, support single Id<br>aclId - Subnet associated acl Id, support single Id<br>VPCId- VPC ID of subnet, support single Id<br>|
+|**pageNumber**|Integer|False|1|Page: 1 by default. Value Range: [1,∞); when the pages exceed total pages, show the last page|
+|**pageSize**|Integer|False|20|Paging Size; 20 by default. Value Range: [10, 100]|
 
 ### Filter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**name**|String|True||Name of Filter Requirements|
-|**operator**|String|False||Operator of filter requirements is eq by default|
-|**values**|String[]|True||Value of Filter Requirements|
+|**name**|String|True| |Name of Filter Requirements|
+|**operator**|String|False| |Operator of filter requirements is eq by default|
+|**values**|String[]|True| |Value of Filter Requirements|
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
@@ -44,7 +44,7 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/subnets/
 |Name|Type|Description|
 |---|---|---|
 |**aclId**|String|Subnet Associated Acl ID|
-|**addressPrefix**|String|Subnet Segment, Subnet Segment in VPC Cannot Overlap. Value Range of cidr: 10.0.0.0/8、172.16.0.0/12, 192.168.0.0/16 and their subnets included and the length of subnet mask is between 16 and 28. If VPC includes Cidr, it must be the Cidr subnet of VPC|
+|**addressPrefix**|String|Subnet Segment, Subnet Segment in VPC Cannot Overlap. Value Range of cidr: 10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16 and their subnets included and the length of subnet mask is between 16 and 28. If VPC includes Cidr, it must be the Cidr subnet of VPC|
 |**availableIpCount**|Number|Number of Available IPs in Subnet|
 |**createdTime**|String|Subnet Creation Time|
 |**description**|String|Subnet Description Information|
@@ -55,7 +55,7 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/subnets/
 |**subnetName**|String|Subnet Name|
 |**vpcId**|String|VPC ID of Subnet|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

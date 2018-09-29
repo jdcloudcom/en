@@ -15,14 +15,14 @@ definitions:
         enum:
           - "vm"
           - "nc"
-        description: "Type of the Instance Attached, vm or nc"
+        description: "Instance Type, value: vm or nc"
       instanceId:
         type: string
-        description: "ID of Instance Attached"
+        description: "Instance ID"
       status:
         type: string
         description: "Attaching Status, 'attaching', 'attached', 'detaching' or 'detached'"
       attachTime:
         type: string
         format: date-time
-        description: "Attaching Time"
+        description: "Attachment Time"

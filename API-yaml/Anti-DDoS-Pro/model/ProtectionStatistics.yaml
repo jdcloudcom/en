@@ -6,7 +6,7 @@ definitions:
     properties:
       instancesCount:
         type: integer
-        description: "Instance Count"
+        description: "Instance Counts"
       protectedCount:
         type: integer
         description: "Count of Protected Instances"

@@ -12,30 +12,30 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/cluster/expansionPrice:ca
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
+|**regionId**|String|True| |Region ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**clusterId**|String|True|||
-|**expansionNum**|Integer|True|||
+|**clusterId**|String|True| | |
+|**expansionNum**|Integer|True| | |
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
+|**requestId**|String| |
+|**result**|Result| |
 
 
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**data**|Number||
-|**message**|String||
-|**status**|String||
+|**data**|Number| |
+|**message**|String| |
+|**status**|String| |
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

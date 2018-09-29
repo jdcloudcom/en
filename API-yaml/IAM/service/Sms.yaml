@@ -9,7 +9,7 @@ paths:
   "/sms:sendSingleSmsMessage":
     ###################### Send a Single SMS ######################
     post:
-      description: "Send a Single SMS"
+      description: "Send a single SMS"
       operationId: sendSingleSmsMessage
       x-jdcloud-internal: true
       parameters:
@@ -31,7 +31,7 @@ paths:
   "/sms:sendBatchSmsMessage":
     ###################### Send SMSs in Batches ######################
     post:
-      description: "Send SMSs in Batches"
+      description: "Send SMSs in batches"
       operationId: sendBatchSmsMessage
       x-jdcloud-internal: true
       parameters:

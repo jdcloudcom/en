@@ -2,7 +2,7 @@
 
 
 ## Description
-Remove Route Table Rule
+Remove route table rule
 
 ## Request method
 POST
@@ -12,23 +12,23 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/routeTables/{routeTableId}:rem
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
-|**routeTableId**|String|True||RouteTable ID|
+|**regionId**|String|True| |Region ID|
+|**routeTableId**|String|True| |RouteTable ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**ruleIds**|String[]|True||Route Table Rule ID List|
+|**ruleIds**|String[]|True| |Route Table Rule ID List|
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
 
 
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|Successful operation|

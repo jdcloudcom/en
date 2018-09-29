@@ -2,7 +2,7 @@
 
 
 ## Description
-Disassociate NetworkAcl Interface from Subnet
+Disassociate NetworkAcl API from subnet
 
 ## Request method
 POST
@@ -12,23 +12,23 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkAcls/{networkAclId}:dis
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**networkAclId**|String|True||networkAclId ID|
-|**regionId**|String|True||Region ID|
+|**networkAclId**|String|True| |networkAclId ID|
+|**regionId**|String|True| |Region ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**subnetId**|String|True||Subnet ID Disassociated from NetworkAcl|
+|**subnetId**|String|True| |Subnet ID Disassociated from NetworkAcl|
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
 
 
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|Successful operation|

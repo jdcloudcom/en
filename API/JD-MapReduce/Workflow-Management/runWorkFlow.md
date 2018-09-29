@@ -12,28 +12,27 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/{workflowId}:run
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
-|**workflowId**|String|True||Workflow ID|
+|**regionId**|String|True| |Region ID|
+|**workflowId**|String|True| |Workflow ID|
 
 ## Request parameter
-|Name|Type|Required or not|Default value|Description|
-|---|---|---|---|---|
+None
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
+|**requestId**|String| |
+|**result**|Result| |
 
 
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**message**|String||
-|**status**|String||
+|**message**|String| |
+|**status**|String| |
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

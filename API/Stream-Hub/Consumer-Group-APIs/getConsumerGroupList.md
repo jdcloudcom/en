@@ -12,28 +12,28 @@ https://streambus.jdcloud-api.com/v1/regions/{regionId}/consumerGroupList
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
+|**regionId**|String|True| |Region ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**topicId**|Integer|True||Subject ID|
+|**topicId**|Integer|True| |Subject ID|
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
+|**requestId**|String| |
+|**result**|Result| |
 
 
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**consumerGroup**|Object[]||
+|**consumerGroup**|Object[]| |
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|
-|**400**|UNAUTHENTICATED   |
+|**400**|UNAUTHENTICATED|

@@ -5,7 +5,7 @@
     items:
       - name: Product Overview
         href: Introduction/Product-Overview.md
-      - name: Core Concepts
+      - name: Core Concept
         href: Introduction/Core-Concepts.md
       - name: Basic Infrastructure
         href: Introduction/Basic-Infrastructure.md
@@ -14,26 +14,26 @@
       - name: Features
         href: Introduction/Features.md
       - name: Specifications
-        href: Introduction/Specifications.md
+        href: Introduction/Specification.md
       - name: Restrictions
         href: Introduction/Restrictions.md
-      - name: Application Scenarios
+      - name: Application Scenarios 
         href: Introduction/Application-Scenarios.md    
   - name: Pricing
     items:
       - name: Billing Overview
-        href: Pricing/Billing-Overview.md
+        href: Pricing/Pricing.md
       - name: Billing Rules
         href: Pricing/Billing-Rules.md
       - name: Price Overview
         href: Pricing/Price-Overview.md
       - name: Purchase Process
         href: Pricing/Purchase-Process.md 
-      - name: Renew Process
+      - name: Renew-Process
         href: Pricing/Renew-Process.md
-  - name:Getting Started
+  - name: Getting Started
     items:
-      - name: Getting Started Overview
+      - name: Getting Started Guide
         href: Getting-Started/Getting-Started.md
       - name: Create Cloud Physical Server
         href: Getting-Started/Create-Cloud-Physical-Server.md
@@ -45,7 +45,7 @@
         href: Getting-Started/Delete-Cloud-Physical-Server.md
   - name: Operation Guide
     items:
-      - name: Instructions for Use
+      - name: Introduction
         href: Operation-Guide/Terms-and-Conditions.md
       - name: Network and Security
         items:
@@ -89,13 +89,13 @@
             href: Operation-Guide/Adjust-Public-Network-Bandwidth/Description-Adjust-Public-Network-Bandwidth.md
           - name: Action Steps
             href: Operation-Guide/Adjust-Public-Network-Bandwidth/Steps-Adjust-Public-Network-Bandwidth.md
-  - name: Best Practice
+  - name: Best Practices
     items:
     - name: Create and Configure Cloud Physical Server
       href: Best-Practices/Create-And-Configure-Cloud-Physical-Server.md
-  - name: Course
+  - name: Tutorial
     items:
-    status: 0
+    status:0
   - name: Troubleshooting
     items:
     - name: Failure to Create Cloud Physical Server
@@ -105,22 +105,22 @@
   - name: FAQ
     href: FAQ/FAQ.md
   - name: API Reference
-    status: 0
+    status:0
   - name: SDK Reference
-    status: 0
+    status:0
   - name: User Agreement
     items:
-    - name: Service Terms
+    - name: Terms of Service
       href: User-Agreements/Product-Terms-of-Service.md              
     - name: SLA
       href: User-Agreements/SLA.md               
-  - name: Relevant Resources
+  - name: Related Resources
     items:
     - name: Document History
       href: Related-Resources/Document-History.md   
-    - name: Filing
+    - name: ICP Filing
       href: Related-Resources/Filing.md           
-      status: 0        
-    - name: Vocabulary
+      status:0        
+    - name: Glossary
       href: Related-Resources/Glossary.md           
-      status: 0
+      status:0

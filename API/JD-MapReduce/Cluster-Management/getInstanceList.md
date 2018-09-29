@@ -12,37 +12,37 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/instances
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
+|**regionId**|String|True| |Region ID|
 
 ## Request parameter
 None
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
+|**requestId**|String| |
+|**result**|Result| |
 
 
 ### Result
 |Name|Type|Description|
 |---|---|---|
 |**data**|InstanceList[]|Machine Specification List|
-|**message**|String||
-|**status**|String||
+|**message**|String| |
+|**status**|String| |
 ### InstanceList
 |Name|Type|Description|
 |---|---|---|
 |**label**|String|Classification of Machine Models|
-|**options**|Options[]||
+|**options**|Options[]| |
 ### Options
 |Name|Type|Description|
 |---|---|---|
 |**label**|String|CPU and Memory Size of the Machine|
 |**value**|String|Specification Description of the Corresponding Machine|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

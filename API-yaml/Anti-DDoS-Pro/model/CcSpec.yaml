@@ -6,7 +6,7 @@ definitions:
     properties:
       ccProtectMode:
         type: integer
-        description: "cc Defense Mode, 0->normal  1->loose  2->critical  3->customized"
+        description: "cc Defense Mode, 0->normal  1->relaxed  2->critical  3->customized"
       ccThreshold:
         type: integer
         description: "CC Threshold"
