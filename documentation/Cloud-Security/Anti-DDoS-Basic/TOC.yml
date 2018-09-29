@@ -23,7 +23,7 @@ items:
 - name: Pricing
   items:
     - name: Billing Overview
-      href: Pricing/Pricing.md
+      href: Pricing/Billing-Overview.md
 - name: Getting Started
   items:
     - name: Capture Anti-DDoS Basic Capabilities
@@ -42,4 +42,4 @@ items:
   href: FAQ/FAQ.md
 - name: API Reference
   href: 
-  status: 0   
+  status: 0     
