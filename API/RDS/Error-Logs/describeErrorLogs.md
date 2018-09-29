@@ -1,35 +1,36 @@
 # describeErrorLogs
 
 
-## 描述
+## Description
 Obtain error logs of SQL Server and download information<br>- only support SQL Server
 
-## 请求方式
+## Request method
 GET
 
-## 请求地址
+## Request address
 https://rds.jdcloud-api.com/0.2.9/regions/{regionId}/instances/{instanceId}/errorLogs
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**instanceId**|String|True| |RDS instance ID, which uniquely identifies an RDS instance|
 |**regionId**|String|True| |Region code, with range detailed in [Regions and Availability Zone Comparison Table](../Enum-Definitions/Regions-AZ.md)|
 
-## 请求参数
-无
+## Request parameter
+None
 
 
-## 返回参数
-|名称|类型|描述|
+## Response parameter
+|Name|Type|Description|
 |---|---|---|
 |**result**|Result| |
 
+
 ### Result
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**errorLogs**|ErrorLog[]|Collection of Error Log Files|
 ### ErrorLog
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**internalURL**|String|Download Link of Intranet|
 |**lastUpdateTime**|String|Last Update Time of the Error Log, Format: YYYY-MM-DD HH:mm:ss|
@@ -38,7 +39,7 @@ https://rds.jdcloud-api.com/0.2.9/regions/{regionId}/instances/{instanceId}/erro
 |**sizeByte**|Integer|Error Log File Size in Bytes|
 |**uploadTime**|String|Error Log Upload Time, Format: YYYY-MM-DD HH:mm:ss|
 
-## 返回码
-|返回码|描述|
+## Response code
+|Return code|Description|
 |---|---|
 |**200**|OK|

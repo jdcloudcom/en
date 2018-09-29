@@ -1,36 +1,37 @@
 # describeInstance
 
 
-## 描述
+## Description
 Search instances
 
-## 请求方式
+## Request method
 GET
 
-## 请求地址
+## Request address
 https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**instanceId**|String|True| |Instance ID|
 |**regionId**|String|True| |Belonging Region ID|
 
-## 请求参数
-无
+## Request parameter
+None
 
 
-## 返回参数
-|名称|类型|描述|
+## Response parameter
+|Name|Type|Description|
 |---|---|---|
 |**requestId**|String| |
 |**result**|Result| |
 
+
 ### Result
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**data**|Instance| |
 ### Instance
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**abovePeakCount**|Integer|Frequency of Over Peak Value|
 |**businessBitslimit**|Integer|Business Bandwidth|
@@ -64,8 +65,8 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}
 |**urlWhitelistStatus**|Integer|url White List Status, 0->disabled  1->enabled|
 |**webRuleCount**|Integer|Web Service Rules|
 
-## 返回码
-|返回码|描述|
+## Response code
+|Return code|Description|
 |---|---|
 |**200**|OK|
 |**404**|NOT_FOUND|

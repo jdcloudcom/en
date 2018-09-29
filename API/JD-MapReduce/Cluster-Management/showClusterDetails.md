@@ -1,39 +1,40 @@
 # showClusterDetails
 
 
-## 描述
+## Description
 Query the corresponding cluster details according to clusterId
 
-## 请求方式
+## Request method
 GET
 
-## 请求地址
+## Request address
 https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/detail
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**regionId**|String|True| |Region ID|
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**id**|String|True| |Cluster ID: Composed of eight characters|
 
 
-## 返回参数
-|名称|类型|描述|
+## Response parameter
+|Name|Type|Description|
 |---|---|---|
 |**requestId**|String| |
 |**result**|Result| |
 
+
 ### Result
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**data**|ClusterDetailModel|Corresponding Cluster Details|
 |**message**|String| |
 |**status**|String| |
 ### ClusterDetailModel
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**bandwidthOut**|Integer|Network Bandwidth|
 |**clusterPrimaryId**|Integer|Cluster Primary Key ID|
@@ -53,7 +54,7 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/detail
 |**vpcName**|String|Name of Virtual Private Cloud|
 |**vpcSubnetName**|String|Subnet Name|
 ### HardwareInfo
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**firewall**|String|Firewall|
 |**innerIp**|String|Private IP|
@@ -71,8 +72,8 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/detail
 |**outerIp**|String|Internet IP|
 |**serverId**|String|Node Instance ID|
 
-## 返回码
-|返回码|描述|
+## Response code
+|Return code|Description|
 |---|---|
 |**200**|OK|
 |**500**|Internal server error|

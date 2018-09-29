@@ -1,21 +1,21 @@
 # describeAlarms
 
 
-## 描述
+## Description
 Query monitoring rules, supporting query based on rule status, alarm status, resource ID and product name.
 
-## 请求方式
+## Request method
 GET
 
-## 请求地址
+## Request address
 https://monitor.jdcloud-api.com/v1/regions/{regionId}/alarms
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**regionId**|String|True| |Region ID|
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**enabled**|Integer|False| |Rule Status: 1 is Enable, 0 is Disable|
 |**isAlarming**|Integer|False| |Whether it is the rule that is alarming, 0 is neglect, 1 is yes, only one can take effect at the same time as status, isAlarming takes priority to take effect|
@@ -26,14 +26,15 @@ https://monitor.jdcloud-api.com/v1/regions/{regionId}/alarms
 |**status**|Integer|False| |Rule Alarm Status, 1: Normal, 2: Alarm, 4: Insufficient Data|
 
 
-## 返回参数
-|名称|类型|描述|
+## Response parameter
+|Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
 |**result**|Result| |
 
+
 ### Result
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**alarmList**|Alarm[]|List of rules|
 |**numberPages**|Number|Number of Total Pages|
@@ -41,7 +42,7 @@ https://monitor.jdcloud-api.com/v1/regions/{regionId}/alarms
 |**pageNumber**|Number|Page|
 |**pageSize**|Number|Paging Size|
 ### Alarm
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**calculation**|String|Statistical method: average value=avg, maximum value=max, minimum value=min,|
 |**contactGroups**|String[]|Notify contact group, for example [“contact group 1”, “contact group 2”]|
@@ -64,8 +65,8 @@ https://monitor.jdcloud-api.com/v1/regions/{regionId}/alarms
 |**times**|Integer|Alarm after how many times|
 |**value**|Number|Alarm value, this field is valid when querying the alarming rule|
 
-## 返回码
-|返回码|描述|
+## Response code
+|Return code|Description|
 |---|---|
 |**200**|OK|
 |**400**|invalid parameter|

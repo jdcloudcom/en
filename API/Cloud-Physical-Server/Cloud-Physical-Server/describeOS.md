@@ -1,37 +1,38 @@
 # describeOS
 
 
-## 描述
+## Description
 Query the Operating Systems Supported by the Cloud Physical Server
 
-## 请求方式
+## Request method
 GET
 
-## 请求地址
+## Request address
 https://cps.jdcloud-api.com/v1/regions/{regionId}/os
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**regionId**|String|True| |Region ID, the Region and Availability Zone Supported by the Cloud Physical Servers can be Called by Calling APIs (describeRegions)|
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**deviceType**|String|True| |Instance Type Family, the APIs (describeDeviceTypes) may be called to obtain the instance type family of a specific region, such as: cps.c.normal|
 
 
-## 返回参数
-|名称|类型|描述|
+## Response parameter
+|Name|Type|Description|
 |---|---|---|
 |**requestId**|String| |
 |**result**|Result| |
 
+
 ### Result
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**oss**|Os[]| |
 ### Os
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**deviceType**|String|Instance Type Family, such as cps.c.normal,|
 |**osName**|String|Operating System Name, such as Ubuntu 16.04(x86_64)|
@@ -39,8 +40,8 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/os
 |**osTypeId**|String|Operating System Type ID|
 |**osVersion**|String|Operating System Version, such as 14.04/16.04|
 
-## 返回码
-|返回码|描述|
+## Response code
+|Return code|Description|
 |---|---|
 |**200**|OK|
 |**400**|Bad request|

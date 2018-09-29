@@ -1,21 +1,21 @@
 # createSubnet
 
 
-## 描述
+## Description
 Create subnet
 
-## 请求方式
+## Request method
 POST
 
-## 请求地址
+## Request address
 https://vpc.jdcloud-api.com/v1/regions/{regionId}/subnets/
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**regionId**|String|True| |Region ID|
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**addressPrefix**|String|True| |Subnet Segment, Subnet Segment in VPC Cannot Overlap. Value Range of cidr: 10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16 and their subnets included and the length of subnet mask is between 16 and 28. If VPC includes cidr, it must be the cidr subnet of VPC|
 |**description**|String|False| |Subnet description information, allow all characters under UTF-8 coding, which cannot exceed 256 characters.|
@@ -24,19 +24,20 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/subnets/
 |**vpcId**|String|True| |VPC ID of Subnet|
 
 
-## 返回参数
-|名称|类型|描述|
+## Response parameter
+|Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
 |**result**|Result|Returned Results|
 
+
 ### Result
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**subnetId**|String|Subnet ID|
 
-## 返回码
-|返回码|描述|
+## Response code
+|Return code|Description|
 |---|---|
 |**409**|Parameter conflict |
 |**200**|Successful Operation|

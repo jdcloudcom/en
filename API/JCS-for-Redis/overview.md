@@ -1,16 +1,16 @@
 # JCS for Redis APIs
 
 
-## 简介
+## Introduction
 JCS for Redis Related APIs
 
 
-### 版本
+### Version
 v1
 
 
 ## API
-|接口名称|请求方式|功能描述|
+|Interface name|Request mehod|Function description|
 |---|---|---|
 |**createCacheInstance**|POST|Create JCS for Redis Instance of the Specified Configuration</br>Specification Performance: The specifications for creating the JCS for Redis instance are divided into two versions: principal\-subordinate version and cluster version. Each specification has the maximum number of connections, the internal network bandwidth cap, CPU processing capacity, specification code and other information, please see: <a href='https://www.jdcloud.com/help/detail/411/isCatalog/1'>instance type code</a></br>Availability Zone: Available zone is a physical zone in which the infrastructure such as power and network are independent of each other in the same region. A zone contains one or more availability zones, and multiple availability zones in the same region can be connected to each other. Detailed information on the geographical availability zone can be found: <a href="https://www.jdcloud.com/help/detail/2222/isCatalog/1">Regional availability zone details</a></br>Virtual Private Cloud: referred to as VPC, which means the isolation network space with customized logic and supports for customized network segment, rout policy, etc. Specific information can be found: <a href="https://www.jdcloud.com/help/detail/1509/isCatalog/1">Virtual Private Cloud</a></br>Subnet: The subnet is the IP address block in the range of the VPC IP address, which is subnet for short. The subnet is created under the VPC. The segment in the same VPC cannot overlap and the segments of different VPCs can overlap. Specific information can be found: <a href="https://www.jdcloud.com/help/detail/1510/isCatalog/1">subnet details</a></br>|
 |**deleteCacheInstance**|DELETE|Delete a single JCS for Redis instance that is paid by configuration billing or the monthly package has expired and the monthly package that has not expired cannot be deleted</br>Only in the running<b>running</b>or error<b>error</b>status can be deleted, but other status cannot be deleted</br>The user in the White List cannot delete the virtual machine that the monthly package has expired</br>|

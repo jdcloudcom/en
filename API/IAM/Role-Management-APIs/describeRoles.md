@@ -1,19 +1,19 @@
 # describeRoles
 
 
-## 描述
+## Description
 Query role list
 
-## 请求方式
+## Request method
 GET
 
-## 请求地址
+## Request address
 https://iam.jdcloud-api.com/v1/roles
 
-无
+None
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**pageNumber**|Integer|True| |Page|
 |**pageSize**|Integer|True| |Number of Roles Displayed on Each Page|
@@ -22,25 +22,26 @@ https://iam.jdcloud-api.com/v1/roles
 |**sort**|Integer|True| |Ranking Policy, 0-rank in sequential order by create time  1-rank in inverted order by create time|
 
 
-## 返回参数
-|名称|类型|描述|
+## Response parameter
+|Name|Type|Description|
 |---|---|---|
 |**requestId**|String| |
 |**result**|Result| |
 
+
 ### Result
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**roles**|ListRoleInfo[]|Role List|
 |**total**|Integer|Total Number|
 ### ListRoleInfo
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**createTime**|String|Role Creation Time|
 |**description**|String|Description, 0~1,000 characters|
 |**roleName**|String|Role Name|
 
-## 返回码
-|返回码|描述|
+## Response code
+|Return code|Description|
 |---|---|
 |**200**|OK|

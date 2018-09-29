@@ -1,46 +1,47 @@
 # describeRegiones
 
 
-## 描述
+## Description
 Cloud Physical Server Region List Query
 
-## 请求方式
+## Request method
 GET
 
-## 请求地址
+## Request address
 https://cps.jdcloud-api.com/v1/regions
 
-无
+None
 
-## 请求参数
-无
+## Request parameter
+None
 
 
-## 返回参数
-|名称|类型|描述|
+## Response parameter
+|Name|Type|Description|
 |---|---|---|
 |**requestId**|String| |
 |**result**|Result| |
 
+
 ### Result
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**regions**|Region[]| |
 ### Region
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**azs**|Az[]|Availability Zone List|
 |**region**|String|Region Code, such as cn-east-1|
 |**regionName**|String|Region Name, such as East China Region 1|
 ### Az
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**az**|String|Availability Zone Code, such as cn-east-1a|
 |**azName**|String|Availability Zone Name|
 |**region**|String|Region Code, such as cn-east-1|
 
-## 返回码
-|返回码|描述|
+## Response code
+|Return code|Description|
 |---|---|
 |**200**|OK|
 |**400**|Bad request|

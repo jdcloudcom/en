@@ -1,48 +1,49 @@
 # listBuckets
 
 
-## 描述
+## Description
 List all bucket of current user
 
 
-## 请求方式
+## Request method
 GET
 
-## 请求地址
+## Request address
 https://oss.jdcloud-api.com/v1/regions/{regionId}/buckets
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**regionId**|String|True| |Region ID, e.g.: cn-north-1|
 
-## 请求参数
-无
+## Request parameter
+None
 
 
-## 返回参数
-|名称|类型|描述|
+## Response parameter
+|Name|Type|Description|
 |---|---|---|
 |**requestId**|String| |
 |**result**|Result| |
 
+
 ### Result
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**buckets**|Bucket[]| |
 |**owner**|User| |
 ### Bucket
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**creationDate**|String| |
 |**name**|String| |
 ### User
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**displayName**|String| |
 |**id**|String| |
 
-## 返回码
-|返回码|描述|
+## Response code
+|Return code|Description|
 |---|---|
 |**200**|OK|
 |**400**|Invalid Argument|

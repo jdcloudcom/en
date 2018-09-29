@@ -1,21 +1,21 @@
 # createVpcPeering
 
 
-## 描述
+## Description
 Create VPCPeering API
 
-## 请求方式
+## Request method
 POST
 
-## 请求地址
+## Request address
 https://vpc.jdcloud-api.com/v1/regions/{regionId}/vpcPeerings/
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**regionId**|String|True| |Region ID|
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**description**|String|False| |VPCPeering Description. Value Range: 0-256 Chinese, English capital and lowercase letters, numbers and underline delimiter|
 |**remoteVpcId**|String|True| |VPCPeering Opposite Terminal VPC ID|
@@ -23,18 +23,19 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/vpcPeerings/
 |**vpcPeeringName**|String|True| |VPCPeering Name, Must Provide A nName. Value Range of Name: 1-32 Chinese, English capital and lowercase letters, numbers and underline delimiter|
 
 
-## 返回参数
-|名称|类型|描述|
+## Response parameter
+|Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
 |**result**|Result|Returned Results|
 
+
 ### Result
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**vpcPeering**|VpcPeering|VPCPeering Resource Information|
 ### VpcPeering
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**createdTime**|String|VPCPeering Creation Time|
 |**description**|String|VPCPeering description, can be null. Value Range: 0-256 Chinese, English capital and lowercase letters, numbers and underline delimiter|
@@ -44,14 +45,14 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/vpcPeerings/
 |**vpcPeeringName**|String|VPCPeering name, no duplicate under the same account is allowed. Value Range: 1-32 Chinese, English capital and lowercase letters, numbers and underline delimiter|
 |**vpcPeeringState**|String|Status, values include Connected, Disconnected, Initiated|
 ### VpcPeeringVpcInfo
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**addressPrefix**|String[]|If it is blank, segment is not limited; if it is not blank, it is 10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16 and their subnets included and the length of subnet mask is between 16 and 28|
 |**vpcId**|String|VPC ID of Subnet|
 |**vpcName**|String|VPC Name. Value Range: 1-60 Chinese, English capital and lowercase letters, numbers and underline delimiter|
 
-## 返回码
-|返回码|描述|
+## Response code
+|Return code|Description|
 |---|---|
 |**200**|Successful Operation|
 |**409**|Already has VpcPeering with param|

@@ -1,40 +1,41 @@
 # describeMetricsForCreateAlarm
 
 
-## 描述
+## Description
 Query metric list available to create monitoring rules based on resource type
 
-## 请求方式
+## Request method
 GET
 
-## 请求地址
+## Request address
 https://monitor.jdcloud-api.com/v1/metricsForCreateAlarm
 
-无
+None
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**serviceCode**|String|False| |Type of resource, blank by default, displaying all items<br>vm--> Virtual Machine<br>disk-->Cloud Disk Service<br>ip--> Public IP<br>balance-->Load Balancer<br>database-->MySQL Service Version<br>cdn-->JD CDN<br>redis-->JCS for Redis<br>mongodb-->MongoDB Cloud Cache<br>storage-->Cloud Storage<br>sqlserver-->cloud Database Sqlserver Version <br>nativecontainer-->Container<br>|
 
 
-## 返回参数
-|名称|类型|描述|
+## Response parameter
+|Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
 |**result**|Result| |
 
+
 ### Result
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**serviceCodeList**|ServiceCodeMetrics[]| |
 ### ServiceCodeMetrics
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**metrics**|MetricDetail[]| |
 |**serviceCode**|String| |
 ### MetricDetail
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**calculateUnit**|String|Computing unit of metric, such as bit/s, %, and byte|
 |**downSample**|String|Sampling Frequency|
@@ -42,8 +43,8 @@ https://monitor.jdcloud-api.com/v1/metricsForCreateAlarm
 |**metricName**|String|Metric Name|
 |**serviceCode**|String|Identifier of Resource Type|
 
-## 返回码
-|返回码|描述|
+## Response code
+|Return code|Description|
 |---|---|
 |**200**|OK|
 |**400**|invalid parameter|

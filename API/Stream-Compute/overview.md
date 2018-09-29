@@ -1,16 +1,16 @@
 # JD Cloud Stream Compute APIs
 
 
-## 简介
+## Introduction
 Provide Stream Compute Operation APIs.
 
 
-### 版本
+### Version
 v1
 
 
 ## API
-|接口名称|请求方式|功能描述|
+|Interface name|Request mehod|Function description|
 |---|---|---|
 |**addOrUpdateJob**|POST|Add or update iob|
 |**addOrUpdateStorage**|POST|Create or update storage|

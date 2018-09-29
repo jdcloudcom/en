@@ -1,23 +1,23 @@
 # describeInstances
 
 
-## 描述
+## Description
 Batch query the details of Cloud Physical Server<br/>
 Support query in pages, with 10 entries per page by default<br/>
 
 
-## 请求方式
+## Request method
 GET
 
-## 请求地址
+## Request address
 https://cps.jdcloud-api.com/v1/regions/{regionId}/instances
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**regionId**|String|True| |Region ID, the Region and Availability Zone Supported by the Cloud Physical Servers can be Called by Calling APIs (describeRegions)|
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**az**|String|False| |Availability Zone, Exact Matching|
 |**deviceType**|String|False| |Instance Type, exact matching, the instance type family can be obtained by calling APIs (describeDeviceType)|
@@ -29,27 +29,28 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/instances
 |**status**|String|False| |Cloud Physical Server Status, feferring to Cloud Physical Server status|
 
 ### Filter
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**name**|String|True| |Name of Filter Requirements|
 |**operator**|String|False| |Operator of filter requirements is eq by default|
 |**values**|String[]|True| |Value of Filter Requirements|
 
-## 返回参数
-|名称|类型|描述|
+## Response parameter
+|Name|Type|Description|
 |---|---|---|
 |**requestId**|String| |
 |**result**|Result| |
 
+
 ### Result
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**instances**|Instance[]| |
 |**pageNumber**|Integer|Page Number; 1 by default|
 |**pageSize**|Integer|Paging Size; 10 by default; value range [10, 100]|
 |**totalCount**|Integer|Total Query Result Amount|
 ### Instance
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**az**|String|Availability Zone, such as cn-east-1a|
 |**bandwidth**|Integer|Bandwidth, Unit: Mbps|
@@ -76,7 +77,7 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/instances
 |**sysRaidType**|String|System Disk RAID Type ID, such as NORAID, RAID0, and RAID1|
 |**sysRaidTypeId**|String|System Disk RAID Type ID|
 ### Charge
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**chargeExpiredTime**|String|Expiration Time, i.e. the expiration time of Pay-In-Advance resource, which shall be subject to ISO8601, with the UTC time used in the format of YYYY-MM-DDTHH:mm:ssZ. Pay-As-You-Go resource field is blank.|
 |**chargeMode**|String|Payment Model, the value shall be prepaid_by_duration, postpaid_by_usage or postpaid_by_duration; prepaid_by_duration refers to Pay-In-Advance; postpaid_by_usage refers to Pay By Consumption and Pay-As-You-Go; postpaid_by_duration refers to Pay By Configuration and Pay-As-You-Go, and is postpaid_by_duration by default|
@@ -84,8 +85,8 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/instances
 |**chargeStartTime**|String|The start time of the billing shall be subject to ISO8601, with the UTC time used in the format of YYYY-MM-DDTHH:mm:ssZ|
 |**chargeStatus**|String|Cost Payment Status, the value is respectively normal, overdue and arrear.|
 
-## 返回码
-|返回码|描述|
+## Response code
+|Return code|Description|
 |---|---|
 |**200**|OK|
 |**400**|Bad request|

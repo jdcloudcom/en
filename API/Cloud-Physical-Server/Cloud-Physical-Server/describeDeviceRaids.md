@@ -1,38 +1,39 @@
 # describeDeviceRaids
 
 
-## 描述
+## Description
 Query the RAID types supported by the Cloud Physical Server of a certain instance type family, may query the system disk RAID type and data disk RAID type
 
-## 请求方式
+## Request method
 GET
 
-## 请求地址
+## Request address
 https://cps.jdcloud-api.com/v1/regions/{regionId}/raids
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**regionId**|String|True| |Region ID, the Region and Availability Zone Supported by the Cloud Physical Servers can be Called by Calling APIs (describeRegions)|
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**deviceType**|String|True| |Instance Type Family, the (describeDeviceTypes) APIs may be called to obtain the instance type family of a specific region, such as: cps.c.normal|
 |**volumeType**|String|False| |Disk Type, value range: system, data|
 
 
-## 返回参数
-|名称|类型|描述|
+## Response parameter
+|Name|Type|Description|
 |---|---|---|
 |**requestId**|String| |
 |**result**|Result| |
 
+
 ### Result
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**raids**|Raid[]| |
 ### Raid
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**description**|String|RAID Type Description|
 |**deviceType**|String|Type of Cloud Physical Server, such as cps.c.normal|
@@ -41,8 +42,8 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/raids
 |**volumeDetail**|String|Device Details|
 |**volumeType**|String|Disk Type, such as System/Data|
 
-## 返回码
-|返回码|描述|
+## Response code
+|Return code|Description|
 |---|---|
 |**200**|OK|
 |**400**|Bad request|

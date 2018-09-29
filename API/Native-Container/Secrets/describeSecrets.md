@@ -1,63 +1,64 @@
 # describeSecrets
 
 
-## 描述
+## Description
 Search secret list. <br> 
 This interface supports query in pages, with 20 entries per page by default.
 
 
-## 请求方式
+## Request method
 GET
 
-## 请求地址
+## Request address
 https://nc.jdcloud-api.com/v1/regions/{regionId}/secrets
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**regionId**|String|True| |Region ID|
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**filters**|Filter[]|False| |The name - secret is the name, supporting fuzzy search.<br>|
 |**pageNumber**|Integer|False| |Page number; 1 by default|
 |**pageSize**|Integer|False| |Page size; it is 20 by default; value range[10, 100]|
 
 ### Filter
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**name**|String|True| |Name of Filter Requirements|
 |**operator**|String|False| |Operator of filter requirements is eq by default|
 |**values**|String[]|True| |Value of Filter Requirements|
 
-## 返回参数
-|名称|类型|描述|
+## Response parameter
+|Name|Type|Description|
 |---|---|---|
 |**requestId**|String| |
 |**result**|Result| |
 
+
 ### Result
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**secrets**|Secret[]| |
 |**totalCount**|Number| |
 ### Secret
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**createdAt**|String|Creation Time|
 |**data**|DockerRegistryData|Confidential Data|
 |**name**|String|Confidential Data Name|
 |**type**|String|Now, only the following private data type is supported: docker-registry, which is the docker registry verification type.|
 ### DockerRegistryData
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**email**|String|Email Address|
 |**password**|String|Password |
 |**server**|String|Registry Server Address|
 |**username**|String|User Name|
 
-## 返回码
-|返回码|描述|
+## Response code
+|Return code|Description|
 |---|---|
 |**400**|Invalid parameter|
 |**401**|Authentication failed|

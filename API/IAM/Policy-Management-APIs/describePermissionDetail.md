@@ -1,36 +1,37 @@
 # describePermissionDetail
 
 
-## 描述
+## Description
 Search policy details
 
-## 请求方式
+## Request method
 GET
 
-## 请求地址
+## Request address
 https://iam.jdcloud-api.com/v1/regions/{regionId}/permission/{permissionId}
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**permissionId**|Integer|True| |Permission id|
 |**regionId**|String|True| |Region ID|
 
-## 请求参数
-无
+## Request parameter
+None
 
 
-## 返回参数
-|名称|类型|描述|
+## Response parameter
+|Name|Type|Description|
 |---|---|---|
 |**requestId**|String| |
 |**result**|Result| |
 
+
 ### Result
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**permission**|Permission|Permission Information|
 ### Permission
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**account**|String|Primary Account Pin|
 |**content**|String|Permission Content|
@@ -41,17 +42,17 @@ https://iam.jdcloud-api.com/v1/regions/{regionId}/permission/{permissionId}
 |**permissionType**|String|Permission Type|
 |**version**|String|Permission Version Number|
 ### PermissionDetail
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**permission**|String|Permission Type: Read-only-R, Delete-D, Modification-M|
 |**resource**|Resource[]|Resource Information|
 ### Resource
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**ids**|String[]|Resource id Set, transmission * means that it is valid for all ids|
 |**type**|String|Resource Type, Virtual Machine-server, Image-image, Cloud Disk-volume, vpc-vpc, Public Ip-floatingIP, Load Balancer-loadbalance, Cloud Database (mysql)-database, Cloud Cache-cache|
 
-## 返回码
-|返回码|描述|
+## Response code
+|Return code|Description|
 |---|---|
 |**200**|OK|

@@ -1,16 +1,16 @@
 # JD Cloud Anti-DDoS Pro APIs
 
 
-## 简介
+## Introduction
 JD Cloud Anti-DDoS Pro APIs
 
 
-### 版本
+### Version
 v1
 
 
 ## API
-|接口名称|请求方式|功能描述|
+|Interface name|Request mehod|Function description|
 |---|---|---|
 |**ccGraph**|GET|Forwarding Traffic Report|
 |**checkName**|GET|Detect Whether the Instance Name is Legal|

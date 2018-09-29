@@ -1,36 +1,37 @@
 # describeNetworkAcl
 
 
-## 描述
+## Description
 Query NetworkAcl resource details
 
-## 请求方式
+## Request method
 GET
 
-## 请求地址
+## Request address
 https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkAcls/{networkAclId}
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**networkAclId**|String|True| |networkAclId ID|
 |**regionId**|String|True| |Region ID|
 
-## 请求参数
-无
+## Request parameter
+None
 
 
-## 返回参数
-|名称|类型|描述|
+## Response parameter
+|Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
 |**result**|Result|Returned Results|
 
+
 ### Result
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**networkAcl**|NetworkAcl|NetworkAcl Resource Information|
 ### NetworkAcl
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**createdTime**|String|NetworkAcl Creation Time|
 |**description**|String|Description, allow all characters under UTF-8 coding, not exceeding 256 characters|
@@ -40,7 +41,7 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkAcls/{networkAclId}
 |**subnetIds**|String[]|NetworkAcl Associated Subnet List|
 |**vpcId**|String|VPC ID|
 ### NetworkAclRule
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**addressPrefix**|String|Prefix of Matching Address|
 |**createdTime**|String|NetworkAclRule Creation Time|
@@ -53,8 +54,8 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkAcls/{networkAclId}
 |**ruleId**|String|NetworkAcl Rule ID|
 |**toPort**|Integer|The End Transport Layer Port of Rule Limit. Value Range: 1-65535; if the protocol is a transport layer protocol, the default value is 65535; if the protocol is not a transport layer protocol, the setting becomes invalid and the value is constantly 0. If the rule is limited to one port, a same value is filled in the fromPort and toPort|
 
-## 返回码
-|返回码|描述|
+## Response code
+|Return code|Description|
 |---|---|
 |**200**|OK|
 |**400**|Invalid parameter|

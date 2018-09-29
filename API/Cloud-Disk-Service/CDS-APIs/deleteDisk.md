@@ -1,34 +1,35 @@
 # deleteDisk
 
 
-## 描述
+## Description
 -   Delete a cloud disk billed by configuration. The disk types include the Premium Hdd Cloud Disk and the SSD Cloud Disk.
 -   After the hard disk is deleted, the cloud disk snapshot can be retained.
 -   When the disk is released, the status of the cloud disk is to-be-attached (Available).
 -   If the disk of the specified ID does not exist, the request will be ignored.
 
 
-## 请求方式
+## Request method
 DELETE
 
-## 请求地址
+## Request address
 https://disk.jdcloud-api.com/v1/regions/{regionId}/disks/{diskId}
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**diskId**|String|True| |Cloud Disk ID|
 |**regionId**|String|True| |Region ID|
 
-## 请求参数
-无
+## Request parameter
+None
 
 
-## 返回参数
-无
+## Response parameter
+None
 
 
-## 返回码
-|返回码|描述|
+
+## Response code
+|Return code|Description|
 |---|---|
 |**400**|Invalid parameter|
 |**401**|Authentication failed|

@@ -1,26 +1,26 @@
 # addOrUpdateStorage
 
 
-## 描述
+## Description
 Create or update storage
 
-## 请求方式
+## Request method
 POST
 
-## 请求地址
+## Request address
 https://streamcompute.jdcloud-api.com/v1/regions/{regionId}/storage
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**regionId**|String|True| |Region ID|
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**storageStr**|Storage|True| |Details of creating or updating storage|
 
 ### Storage
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**createTime**|String|False| | |
 |**deleted**|String|False| | |
@@ -34,7 +34,7 @@ https://streamcompute.jdcloud-api.com/v1/regions/{regionId}/storage
 |**updateTime**|String|False| | |
 |**userName**|String|False| | |
 ### StorageParameter
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**createTime**|String|False| | |
 |**deleted**|String|False| | |
@@ -45,20 +45,21 @@ https://streamcompute.jdcloud-api.com/v1/regions/{regionId}/storage
 |**uid**|String|False| | |
 |**updateTime**|String|False| | |
 
-## 返回参数
-|名称|类型|描述|
+## Response parameter
+|Name|Type|Description|
 |---|---|---|
 |**requestId**|String| |
 |**result**|Result| |
 
+
 ### Result
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**message**|String| |
 |**status**|Boolean| |
 
-## 返回码
-|返回码|描述|
+## Response code
+|Return code|Description|
 |---|---|
 |**200**|OK|
 |**404**|NOT_FOUND|

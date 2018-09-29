@@ -1,21 +1,21 @@
 # describeNameList
 
 
-## 描述
+## Description
 Query the List of Advanced Anti-DDoS Instance Names
 
-## 请求方式
+## Request method
 GET
 
-## 请求地址
+## Request address
 https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instance/describeNameList
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**regionId**|String|True| |Belonging Region ID|
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**id**|String|False| |Advanced Anti-DDoS Instance ID; If Blank, Query All the Instance Names|
 |**name**|String|False| |Instance Name, Fuzzy Matching Available|
@@ -23,26 +23,27 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instance/describeNameList
 |**pageSize**|Integer|False| |Paging Size, 10 by Default; Value Range [0, 100]|
 
 
-## 返回参数
-|名称|类型|描述|
+## Response parameter
+|Name|Type|Description|
 |---|---|---|
 |**requestId**|String| |
 |**result**|Result| |
 
+
 ### Result
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**currentCount**|Integer|Current Page Counts|
 |**dataList**|InstanceIdName[]| |
 |**totalCount**|Integer|Total Number of Instances|
 |**totalPage**|Integer|Total Number of Pages|
 ### InstanceIdName
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**id**|String|Instance ID|
 |**name**|String|Instance Name|
 
-## 返回码
-|返回码|描述|
+## Response code
+|Return code|Description|
 |---|---|
 |**200**|OK|

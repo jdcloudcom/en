@@ -1,7 +1,7 @@
 # resizeInstance
 
 
-## 描述
+## Description
 Virtual Machines Change Specification Type
 The status of the Virtual Machines must be stopped status. <br>
 The Cloud Disk Service created in 16 years is the machine of the system disk, and the generation and the second generation specification type are not allowed to be adjusted to each other. <br>
@@ -13,29 +13,30 @@ The image used by the current machine needs to support the target specification 
 The instance type cannot be changed when the user is in arrears with the VM fees.
 
 
-## 请求方式
+## Request method
 POST
 
-## 请求地址
+## Request address
 https://vm.jdcloud-api.com/1.0.3/regions/{regionId}/instances/{instanceId}:resizeInstance
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**instanceId**|String|True| |VM ID|
 |**regionId**|String|True| |Region ID|
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**instanceType**|String|True| |Instance type, query<a href='https://www.jdcloud.com/help/detail/2901/isCatalog/1'>DescribeInstanceTypes</a> API for the instance type information of the specified zone or AZ.|
 
 
-## 返回参数
-无
+## Response parameter
+None
 
 
-## 返回码
-|返回码|描述|
+
+## Response code
+|Return code|Description|
 |---|---|
 |**400**|Invalid parameter|
 |**401**|Authentication failed|

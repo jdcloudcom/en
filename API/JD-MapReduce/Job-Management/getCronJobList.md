@@ -1,27 +1,27 @@
 # getCronJobList
 
 
-## 描述
+## Description
 Obtain the execution plan list
 
-## 请求方式
+## Request method
 POST
 
-## 请求地址
+## Request address
 https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/cronJob:list
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**regionId**|String|True| |Region ID|
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**jmrPlanViewModel**|JmrPlanViewModel|True| |Required Fields: az, planName, planType and planStatus|
 |**selectParams**|SelectParams|False| |Optional Parameters of Search Conditions|
 
 ### JmrPlanViewModel
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**az**|String|False| | |
 |**clusterId**|String|False| | |
@@ -42,28 +42,29 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/cronJob:list
 |**planStatus**|String|False| | |
 |**planType**|String|False| | |
 ### SelectParams
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**orderBy**|String|False| |Ranking Condition, optional|
 |**pageNum**|Integer|False| |Search Paging Number, optional condition|
 |**pageSize**|Integer|False| |Search Paging Size, optional condition|
 |**status**|String|False| | |
 
-## 返回参数
-|名称|类型|描述|
+## Response parameter
+|Name|Type|Description|
 |---|---|---|
 |**requestId**|String| |
 |**result**|Result| |
 
+
 ### Result
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**data**|Object|"Include JmrPlanViewModel list - cronJobs"<br>"And return list size - totalNum"<br>|
 |**message**|String| |
 |**status**|String| |
 
-## 返回码
-|返回码|描述|
+## Response code
+|Return code|Description|
 |---|---|
 |**200**|OK|
 |**500**|Internal server error|

@@ -1,37 +1,38 @@
 # addPermissionsToSubUser
 
 
-## 描述
+## Description
 Associate policies for sub-users
 
-## 请求方式
+## Request method
 POST
 
-## 请求地址
+## Request address
 https://iam.jdcloud-api.com/v1/regions/{regionId}/subUser/{subUser}/permisssions
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**regionId**|String|True| |Region ID|
 |**subUser**|String|True| |Sub-user Name|
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**addPermissionsInfo**|AddPermissionsInfo|True| |Permission Information|
 
 ### AddPermissionsInfo
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**permissionIds**|Integer[]|True| |Permissions id Set|
 
-## 返回参数
-|名称|类型|描述|
+## Response parameter
+|Name|Type|Description|
 |---|---|---|
 |**requestId**|String| |
 
 
-## 返回码
-|返回码|描述|
+
+## Response code
+|Return code|Description|
 |---|---|
 |**200**|OK|

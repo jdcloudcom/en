@@ -1,43 +1,44 @@
 # queryVpcs
 
 
-## 描述
+## Description
 Obtain vpc collection
 
-## 请求方式
+## Request method
 POST
 
-## 请求地址
+## Request address
 https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/vpcs:query
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**regionId**|String|True| |Region ID|
 
-## 请求参数
-无
+## Request parameter
+None
 
 
-## 返回参数
-|名称|类型|描述|
+## Response parameter
+|Name|Type|Description|
 |---|---|---|
 |**requestId**|String| |
 |**result**|Result| |
 
+
 ### Result
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**data**|QueryVpcs[]|VPC Collection|
 |**message**|String| |
 |**status**|String| |
 ### QueryVpcs
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**vpcId**|String|VPC id|
 |**vpcName**|String|VPC Name|
 
-## 返回码
-|返回码|描述|
+## Response code
+|Return code|Description|
 |---|---|
 |**200**|OK|
 |**500**|Internal server error|

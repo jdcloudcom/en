@@ -1,37 +1,38 @@
 # describeWebRule
 
 
-## 描述
+## Description
 Search a web service rule
 
-## 请求方式
+## Request method
 GET
 
-## 请求地址
+## Request address
 https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/webRules/{webRuleId}
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**instanceId**|String|True| |Instance ID|
 |**regionId**|String|True| |Belonging Region ID|
 |**webRuleId**|String|True| |Web Service Rule ID|
 
-## 请求参数
-无
+## Request parameter
+None
 
 
-## 返回参数
-|名称|类型|描述|
+## Response parameter
+|Name|Type|Description|
 |---|---|---|
 |**requestId**|String| |
 |**result**|Result| |
 
+
 ### Result
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**data**|WebRule| |
 ### WebRule
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**algorithm**|String|Forwarding Rules: wrr->Round Robin with weight  rr->Round Robin without weight|
 |**ccStatus**|Integer|0->CC disabled  1->CC enabled|
@@ -54,14 +55,14 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/webR
 |**protocol**|String|Protocol: HTTP, HTTPS and HTTP_HTTPS|
 |**status**|Integer|0->defense Status  1->back-to-origin Status|
 ### OriginAddrItem
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**inJdCloud**|Boolean|Confirm whether it is the Private IP/EIP address of JD Cloud?|
 |**ip**|String|Back-to-origin IP address|
 |**weight**|Integer|Weight|
 
-## 返回码
-|返回码|描述|
+## Response code
+|Return code|Description|
 |---|---|
 |**200**|OK|
 |**404**|NOT_FOUND|

@@ -1,26 +1,26 @@
 # createInstance
 
 
-## 描述
+## Description
 Create an instance
 
-## 请求方式
+## Request method
 POST
 
-## 请求地址
+## Request address
 https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**regionId**|String|True| |Belonging Region ID|
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**instanceSpec**|InstanceSpec|True| |Create instance request parameters|
 
 ### InstanceSpec
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**bp**|Integer|False| |Minimum Bandwidth: Unit: Gbps|
 |**buyType**|Integer|False| |Purchase Type: 1->newly purchased  3->upgraded|
@@ -32,18 +32,19 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances
 |**timeSpan**|Integer|False| |Purchase Duration|
 |**timeUnit**|Integer|False| |Purchase Duration Unit: 3->month  4->year|
 
-## 返回参数
-|名称|类型|描述|
+## Response parameter
+|Name|Type|Description|
 |---|---|---|
 |**requestId**|String| |
 |**result**|Result| |
 
+
 ### Result
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**orderId**|String| |
 
-## 返回码
-|返回码|描述|
+## Response code
+|Return code|Description|
 |---|---|
 |**200**|OK|

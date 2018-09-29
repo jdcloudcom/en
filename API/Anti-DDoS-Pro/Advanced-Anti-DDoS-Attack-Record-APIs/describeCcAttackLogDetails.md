@@ -1,21 +1,21 @@
 # describeCcAttackLogDetails
 
 
-## 描述
+## Description
 Search the cc attack log details
 
-## 请求方式
+## Request method
 GET
 
-## 请求地址
+## Request address
 https://ipanti.jdcloud-api.com/v1/regions/{regionId}/attacklog:ccDetail
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**regionId**|String|True| |Belonging Region ID|
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**endTime**|String|True| |Search end time, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ|
 |**instanceId**|String|True| |Advanced Anti-DDoS Instance ID|
@@ -25,26 +25,27 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/attacklog:ccDetail
 |**subDomain**|String[]|False| |Subdomain Name|
 
 
-## 返回参数
-|名称|类型|描述|
+## Response parameter
+|Name|Type|Description|
 |---|---|---|
 |**requestId**|String| |
 |**result**|Result| |
 
+
 ### Result
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**currentCount**|Integer|Current Page Counts|
 |**dataList**|CCAttackLogDetail[]| |
 |**totalCount**|Integer|Total Number of Instances|
 |**totalPage**|Integer|Total Number of Pages|
 ### CCAttackLogDetail
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**key**|String|Feature Key|
 |**num**|Integer|Attack Counts|
 
-## 返回码
-|返回码|描述|
+## Response code
+|Return code|Description|
 |---|---|
 |**200**|OK|

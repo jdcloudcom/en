@@ -1,16 +1,16 @@
 # Object Storage Service APIs
 
 
-## 简介
+## Introduction
 Object Storage Service APIs, mainly include query Bucket list, create Bucket, delete Bucket and query whether Bucket exists or not. For more APIs, see: https://www.jdcloud.com/help/detail/1901/isCatalog/1
 
 
-### 版本
+### Version
 v1
 
 
 ## API
-|接口名称|请求方式|功能描述|
+|Interface name|Request mehod|Function description|
 |---|---|---|
 |**deleteBucket**|DELETE|Delete a bucket</br>|
 |**headBucket**|HEAD|Query whether bucket exists or not</br>|

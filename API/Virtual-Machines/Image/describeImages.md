@@ -1,24 +1,24 @@
 # describeImages
 
 
-## 描述
+## Description
 Query the image information list. <br>
 This API allows you to query an public image of JD Cloud, a third-party image, a private image, or an image that other users share to you. <br>
 This API supports paging query with 20 items per page by default.
 
 
-## 请求方式
+## Request method
 GET
 
-## 请求地址
+## Request address
 https://vm.jdcloud-api.com/1.0.3/regions/{regionId}/images
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**regionId**|String|True| |Region ID|
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**ids**|String[]|False| |Image ID list, if this parameter is specified, other parameters can be null|
 |**imageSource**|String|False| |Image source, if no ids parameter is specified, this parameter is required to pass; value range: public, shared, thirdparty, private|
@@ -29,19 +29,20 @@ https://vm.jdcloud-api.com/1.0.3/regions/{regionId}/images
 |**status**|String|False| |<a href='https://www.jdcloud.com/help/detail/3871/isCatalog/1'>refer to image status</a>|
 
 
-## 返回参数
-|名称|类型|描述|
+## Response parameter
+|Name|Type|Description|
 |---|---|---|
 |**requestId**|String| |
 |**result**|Result| |
 
+
 ### Result
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**images**|Image[]|Image Details|
 |**totalCount**|Integer|Quantity|
 ### Image
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**architecture**|String|Image Architecture. Value: i386, x86_64|
 |**createTime**|String|Creation Time|
@@ -61,7 +62,7 @@ https://vm.jdcloud-api.com/1.0.3/regions/{regionId}/images
 |**systemDisk**|InstanceDiskAttachment|System Disk Configuration|
 |**systemDiskSizeGB**|Integer|Image System Disk Size|
 ### InstanceDiskAttachment
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**autoDelete**|Boolean|Deleting this disk with the VM automatically when the machine is deleted. The default value is true, which cannot be changed by local.<br>This parameter does not take effect if the data disk in the VM is a monthly package.<br>This parameter does not take effect if the data disk in the VM is a shared data disk.<br>|
 |**cloudDisk**|Disk|Cloud Disk Service Instance Type|
@@ -69,7 +70,7 @@ https://vm.jdcloud-api.com/1.0.3/regions/{regionId}/images
 |**diskCategory**|String|Disk classification, the local disk or data disk is taken.<br>The system disk supports local disk or Cloud Disk Service. The system disk selects local Type, and the user must use the image localDisk type; if the system disk selects the cloud type, the user must use the image of the cloudDisk type.<br>The data disk supports Cloud Disk Service only.<br>|
 |**localDisk**|LocalDisk|Local Disk Instance Type|
 ### Disk
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**attachments**|DiskAttachment[]|Attach Information|
 |**az**|String|AZ, to which the cloud disk belongs|
@@ -85,7 +86,7 @@ https://vm.jdcloud-api.com/1.0.3/regions/{regionId}/images
 |**status**|String|Status of the Cloud Disk, creating, available, in-use, extending, restoring, deleting, deleted, error_create, error_delete, error_restore or error_extend|
 |**tags**|Tag[]|Tag Information|
 ### DiskAttachment
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**attachTime**|String|Attaching Time|
 |**attachmentId**|String|Attach ID|
@@ -94,7 +95,7 @@ https://vm.jdcloud-api.com/1.0.3/regions/{regionId}/images
 |**instanceType**|String|Type of the Instance Attached, value: vm or nc|
 |**status**|String|Attaching Status, 'attaching', 'attached', 'detaching' or 'detached'|
 ### Charge
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**chargeExpiredTime**|String|Expiration Time, i.e. the expiration time of Pay-In-Advance resource, which shall be subject to ISO8601, with the UTC time used in the format of YYYY-MM-DDTHH:mm:ssZ. Pay-As-You-Go resource field is blank.|
 |**chargeMode**|String|Payment Model, the value shall be prepaid_by_duration, postpaid_by_usage or postpaid_by_duration; prepaid_by_duration refers to Pay-In-Advance; postpaid_by_usage refers to Pay By Consumption and Pay-As-You-Go; postpaid_by_duration refers to Pay By Configuration and Pay-As-You-Go, and is postpaid_by_duration by default|
@@ -102,18 +103,18 @@ https://vm.jdcloud-api.com/1.0.3/regions/{regionId}/images
 |**chargeStartTime**|String|The start time of the billing shall be subject to ISO8601, with the UTC time used in the format of YYYY-MM-DDTHH:mm:ssZ|
 |**chargeStatus**|String|Cost Payment Status, the value is respectively normal, overdue and arrear.|
 ### Tag
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**key**|String|Tag Key|
 |**value**|String|Tag Value|
 ### LocalDisk
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**diskSizeGB**|Integer|Disk Size|
 |**diskType**|String|Disk Type, value range {premium-hdd, ssd}|
 
-## 返回码
-|返回码|描述|
+## Response code
+|Return code|Description|
 |---|---|
 |**400**|Invalid parameter|
 |**401**|Authentication failed|

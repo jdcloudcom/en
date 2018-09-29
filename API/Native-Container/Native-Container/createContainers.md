@@ -1,7 +1,7 @@
 # createContainers
 
 
-## 描述
+## Description
 Create configuration containers for one or more sets
 - Real-name verification is required for creating containers
 - Image
@@ -57,24 +57,24 @@ Create configuration containers for one or more sets
     - maxCount refers to the maximum effort and the maxCount is not guaranteed.
 
 
-## 请求方式
+## Request method
 POST
 
-## 请求地址
+## Request address
 https://nc.jdcloud-api.com/v1/regions/{regionId}/containers
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**regionId**|String|True| |Region ID|
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**containerSpec**|ContainerSpec|False| |Create container specification|
 |**maxCount**|Integer|False| |Purchase number of instances; value range: [1,100]|
 
 ### ContainerSpec
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**args**|String[]|False| |The container will carry out the parameter of the command. It is CMD of docker image by default if none is specified. |
 |**az**|String|True| |Availability Zone of Container |
@@ -96,13 +96,13 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/containers
 |**tty**|Boolean|False| |If a container is assigned with tty. It is not assigned by default|
 |**workingDir**|String|False| |Container’s Working Catalog. If not specified, it is root catalog (/) by default; and the working catalog must be the absolute path. |
 ### ChargeSpec
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**chargeDuration**|Integer|False| |Pay-In-Advance billing duration, the Pay-In-Advance is compulsory and valid only when the value of chargeMode is prepaid_by_duration. When chargeUnit is month, the value shall be 1~9; when chargeUnit is year, the value shall be 1, 2 or 3|
 |**chargeMode**|String|False|postpaid_by_duration|Billing model value is prepaid_by_duration, postpaid_by_usage or postpaid_by_duration; prepaid_by_duration means Pay-In-Advance, postpaid_by_usage means Pay-As-You-Go By Consumption and postpaid_by_duration means pay by configuration; is postpaid_by_duration by default. Please refer to the Help Documentation of specific product line to confirm the billing type supported by the production line|
 |**chargeUnit**|String|False| |Billing unit of Pay-In-Advance, the Pay-In-Advance is compulsory, and valid only when chargeMode is prepaid_by_duration, and the value is month or year and month by default|
 ### VolumeMountSpec
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**autoDelete**|Boolean|False| |Automatic deletion, the volume is automatically deleted at the time the container is deleted; the value is True by default; and only the scenario of Cloud Disk Service is supported.|
 |**category**|String|True| |Disk Classification Cloud: According to Cloud Disk Service volume, root volume can only be the cloud type. |
@@ -113,7 +113,7 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/containers
 |**mountPath**|String|False| |Catalog mounted into the container; it is not required to specify catalog for the root volume and the mounted catalog is (/); a catalog must be specified for the data volume, which must be the absolute path without any (:). |
 |**readOnly**|Boolean|False| |Read-only, false by default; only valid to data volume; when root volume is false, both write and read are available. |
 ### DiskSpec
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**az**|String|True| |Availability Zone, to which the cloud disk belongs|
 |**charge**|ChargeSpec|False| |Billing configuration. If not specified, the default billing type is pay-as-you-go - pay by service time by default.|
@@ -124,39 +124,39 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/containers
 |**name**|String|True| |Name of the cloud disk|
 |**snapshotId**|String|False| |Snapshot ID used to create a cloud disk|
 ### ElasticIpSpec
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**bandwidthMbps**|Integer|False| |Elastic IP Speed Limit   Unit: MB  |
 |**chargeSpec**|ChargeSpec|False| |Billing Configuration |
 |**provider**|String|False| |IP Service Provider, value: bgp or no_bg    |
 ### EnvVar
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**name**|String|True| |Environment Variable Name|
 |**value**|String|False| |Value of Environment Variable|
 ### HostAlias
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**hostnames**|String[]|True| |Domain List|
 |**ip**|String|True| |IP Address|
 ### LogConfiguration
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**logDriver**|String|False| |Name log configuration information; a 10MB storage space will be assigned to the local by default and is automatically rotated.|
 |**options**|LogOption|False| |Configuration Options of Log Driver|
 ### LogOption
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**key**|String|False| | |
 |**value**|String|False| | |
 ### ContainerNetworkInterfaceAttachmentSpec
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**autoDelete**|Boolean|False| |Indicate if the network interface is deleted when deleting the container, it is True by default; only True is supported now|
 |**deviceIndex**|Integer|False| |Device Index|
 |**networkInterface**|NetworkInterfaceSpec|True| |Network Interface Specification|
 ### NetworkInterfaceSpec
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**az**|String|True| |Availability Zone, User’s Default Availability Zone|
 |**description**|String|False| |Description |
@@ -167,19 +167,20 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/containers
 |**securityGroups**|String[]|False| |Security Group ID List |
 |**subnetId**|String|True| |Subnet ID|
 
-## 返回参数
-|名称|类型|描述|
+## Response parameter
+|Name|Type|Description|
 |---|---|---|
 |**requestId**|String| |
 |**result**|Result| |
 
+
 ### Result
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**containerIds**|String[]| |
 
-## 返回码
-|返回码|描述|
+## Response code
+|Return code|Description|
 |---|---|
 |**400**|Invalid parameter|
 |**401**|Authentication failed|

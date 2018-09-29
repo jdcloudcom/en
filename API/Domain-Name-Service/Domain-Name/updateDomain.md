@@ -1,38 +1,39 @@
 # updateDomain
 
 
-## 描述
+## Description
 Modify Main Domain Name
 
-## 请求方式
+## Request method
 POST
 
-## 请求地址
+## Request address
 https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domainUpdate
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**regionId**|String|True| |Region ID to which the instance belongs|
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**domainName**|String|True| |Domain Name to be Modified|
 |**id**|Integer|True| |Domain Name ID to be Modified|
 
 
-## 返回参数
-|名称|类型|描述|
+## Response parameter
+|Name|Type|Description|
 |---|---|---|
 |**requestId**|String|ID of This Request|
 |**result**|Result| |
 
+
 ### Result
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**updateDomain**|Domain|Domain Name Structure after Modification|
 ### Domain
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**createTime**|Integer|Creation Time, Format Unix Timestamp |
 |**domainName**|String|Domain Name String|
@@ -40,8 +41,8 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domainUpdate
 |**id**|Integer|Unique ID of the Domain Name|
 |**packId**|Integer|Package Type, 0->Free 1->Enterprise Edition 2->Advanced Edition|
 
-## 返回码
-|返回码|描述|
+## Response code
+|Return code|Description|
 |---|---|
 |**200**|OK|
 |**400**|BAD_REQUEST|

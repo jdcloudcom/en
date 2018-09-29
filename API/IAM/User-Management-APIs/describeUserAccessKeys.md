@@ -1,35 +1,36 @@
 # describeUserAccessKeys
 
 
-## 描述
+## Description
 Search AccessKey list
 
-## 请求方式
+## Request method
 GET
 
-## 请求地址
+## Request address
 https://iam.jdcloud-api.com/v1/regions/{regionId}/userAccessKeys
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**regionId**|String|True| |Region ID|
 
-## 请求参数
-无
+## Request parameter
+None
 
 
-## 返回参数
-|名称|类型|描述|
+## Response parameter
+|Name|Type|Description|
 |---|---|---|
 |**requestId**|String| |
 |**result**|Result| |
 
+
 ### Result
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**userAccessKeys**|UserAccessKey[]|UserAccessKey list|
 ### UserAccessKey
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**accessKey**|String|accessKey|
 |**accessKeySecret**|String|accessKeySecret|
@@ -37,7 +38,7 @@ https://iam.jdcloud-api.com/v1/regions/{regionId}/userAccessKeys
 |**state**|Integer|Disabled/Enabled Status [0-Disabled, 1-Enabled]|
 |**yn**|Integer|Deleted/Valid Status [0-Deleted, 1-Valid]|
 
-## 返回码
-|返回码|描述|
+## Response code
+|Return code|Description|
 |---|---|
 |**200**|OK|

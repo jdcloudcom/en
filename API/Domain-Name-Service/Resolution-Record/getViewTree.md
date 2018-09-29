@@ -1,40 +1,41 @@
 # getViewTree
 
 
-## 描述
+## Description
 Query all basic cloud resolution lines
 
-## 请求方式
+## Request method
 GET
 
-## 请求地址
+## Request address
 https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domain/{domainId}/viewTree
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**domainId**|String|True| |Domain Name ID|
 |**regionId**|String|True| |Region ID to which the instance belongs|
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**loadMode**|Integer|False| |Display Mode|
 |**packId**|Integer|True| |Package ID|
 |**viewId**|Integer|True| |View ID, 0 by default|
 
 
-## 返回参数
-|名称|类型|描述|
+## Response parameter
+|Name|Type|Description|
 |---|---|---|
 |**requestId**|String|ID of This Request|
 |**result**|Result| |
 
+
 ### Result
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**data**|ViewTree[]|Tree of Resolution Line|
 ### ViewTree
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**children**|ViewTree[]| |
 |**disabled**|Boolean|Whether is this resolution line disabled|
@@ -42,8 +43,8 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domain/{domainId}/
 |**leaf**|Boolean|Whether the data is a leaf node|
 |**value**|Integer|Resolution Line ID|
 
-## 返回码
-|返回码|描述|
+## Response code
+|Return code|Description|
 |---|---|
 |**200**|OK|
 |**400**|BAD_REQUEST|

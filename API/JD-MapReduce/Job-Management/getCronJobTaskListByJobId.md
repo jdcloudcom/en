@@ -1,49 +1,50 @@
 # getCronJobTaskListByJobId
 
 
-## 描述
+## Description
 Search the operation record of a job of an execution plan
 
-## 请求方式
+## Request method
 POST
 
-## 请求地址
+## Request address
 https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/cronJobTask/job/{jobId}:list
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**jobId**|String|False| |Job ID|
 |**regionId**|String|True| |Region ID|
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**planId**|String|True| |Regular Task ID|
 |**selectParams**|SelectParams|False| |Search conditions, optional parameters|
 
 ### SelectParams
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**orderBy**|String|False| |Ranking Condition, optional|
 |**pageNum**|Integer|False| |Search Paging Number, optional condition|
 |**pageSize**|Integer|False| |Search Paging Size, optional condition|
 |**status**|String|False| | |
 
-## 返回参数
-|名称|类型|描述|
+## Response parameter
+|Name|Type|Description|
 |---|---|---|
 |**requestId**|String| |
 |**result**|Result| |
 
+
 ### Result
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**data**|Object|"Include the searched JmrTaskViewModel list - taskList"<br>"And returned list size - totalNum"<br>|
 |**message**|String| |
 |**status**|String| |
 
-## 返回码
-|返回码|描述|
+## Response code
+|Return code|Description|
 |---|---|
 |**200**|OK|
 |**500**|Internal server error|

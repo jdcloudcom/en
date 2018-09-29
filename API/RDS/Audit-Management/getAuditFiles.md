@@ -1,42 +1,43 @@
 # getAuditFiles
 
 
-## 描述
+## Description
 Obtain the list of all audit result files under current instance<br>- Support SQL Server Only
 
-## 请求方式
+## Request method
 POST
 
-## 请求地址
+## Request address
 https://rds.jdcloud-api.com/0.2.9/regions/{regionId}/instances/{instanceId}/audit:getAuditFiles
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**instanceId**|String|True| |RDS instance ID, which uniquely identifies an RDS instance|
 |**regionId**|String|True| |Region code, with range detailed in [Regions and Availability Zone Comparison Table](../Enum-Definitions/Regions-AZ.md)|
 
-## 请求参数
-无
+## Request parameter
+None
 
 
-## 返回参数
-|名称|类型|描述|
+## Response parameter
+|Name|Type|Description|
 |---|---|---|
 |**result**|Result| |
 
+
 ### Result
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**auditFiles**|AuditFile[]| |
 ### AuditFile
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**lastUpdateTime**|String|Audit Log File Last Update Time|
 |**name**|String|Audit Log File Name|
 |**sizeByte**|Integer|Audit Log File Size, in Bytes|
 |**uploadTime**|String|Audit Log File Update Time|
 
-## 返回码
-|返回码|描述|
+## Response code
+|Return code|Description|
 |---|---|
 |**200**|OK|

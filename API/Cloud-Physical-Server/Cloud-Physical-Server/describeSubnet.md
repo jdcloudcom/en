@@ -1,37 +1,38 @@
 # describeSubnet
 
 
-## 描述
+## Description
 Query Subnet 
 
-## 请求方式
+## Request method
 GET
 
-## 请求地址
+## Request address
 https://cps.jdcloud-api.com/v1/regions/{regionId}/subnet
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**regionId**|String|True| |Region ID, the Region and Availability Zone Supported by the Cloud Physical Servers can be Called by Calling APIs (describeRegions)|
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**az**|String|True| |Availability Zone, as cn-east-1a; the availability zones supported by the Cloud Physical Servers in the region can be called by calling APIs (describeRegions)|
 
 
-## 返回参数
-|名称|类型|描述|
+## Response parameter
+|Name|Type|Description|
 |---|---|---|
 |**requestId**|String| |
 |**result**|Result| |
 
+
 ### Result
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**subnet**|Subnet|Subnet Details|
 ### Subnet
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**az**|String|Availability Zone, such as cn-east-1a|
 |**cidr**|String|Subnet CIDR|
@@ -39,8 +40,8 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/subnet
 |**region**|String|Region Code, such as cn-east-1|
 |**subnetId**|String|Subnet ID|
 
-## 返回码
-|返回码|描述|
+## Response code
+|Return code|Description|
 |---|---|
 |**200**|OK|
 |**400**|Bad request|

@@ -1,27 +1,27 @@
 # createWebRule
 
 
-## 描述
+## Description
 Add a web service rule
 
-## 请求方式
+## Request method
 POST
 
-## 请求地址
+## Request address
 https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/webRules
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**instanceId**|String|True| |Instance ID|
 |**regionId**|String|True| |Belonging Region ID|
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**webRuleSpec**|WebRuleSpec|True| |Add web service rule request parameters|
 
 ### WebRuleSpec
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**algorithm**|String|False| |Forwarding Rules: wrr->Round Robin with weight  rr->Round Robin without weight|
 |**customPortStatus**|Integer|False| |Confirm whether it is customized port number or not? 0->default  1->customized|
@@ -39,20 +39,21 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/webR
 |**protocol**|String|False| |Protocol: HTTP, HTTPS and HTTP_HTTPS|
 |**websocketStatus**|Integer|False| |Confirm to enable WebSocket or not, 0 is no, and 1 is yes|
 ### OriginAddrItem
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**inJdCloud**|Boolean|False| |Confirm whether it is the Private IP/EIP address of JD Cloud?|
 |**ip**|String|False| |Back-to-origin IP address|
 |**weight**|Integer|False| |Weight|
 
-## 返回参数
-|名称|类型|描述|
+## Response parameter
+|Name|Type|Description|
 |---|---|---|
 |**requestId**|String| |
 
 
-## 返回码
-|返回码|描述|
+
+## Response code
+|Return code|Description|
 |---|---|
 |**200**|OK|
 |**400**|BAD_REQUEST|

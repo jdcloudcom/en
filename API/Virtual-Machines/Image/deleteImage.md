@@ -1,32 +1,33 @@
 # deleteImage
 
 
-## 描述
+## Description
 Delete a private image that only allows you to operate your personal private image.
 If the image is shared to other users, the image can be deleted only when the sharing is released.
 
 
-## 请求方式
+## Request method
 DELETE
 
-## 请求地址
+## Request address
 https://vm.jdcloud-api.com/1.0.3/regions/{regionId}/images/{imageId}
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**imageId**|String|True| |Image ID|
 |**regionId**|String|True| |Region ID|
 
-## 请求参数
-无
+## Request parameter
+None
 
 
-## 返回参数
-无
+## Response parameter
+None
 
 
-## 返回码
-|返回码|描述|
+
+## Response code
+|Return code|Description|
 |---|---|
 |**400**|Invalid parameter|
 |**401**|Authentication failed|

@@ -1,35 +1,36 @@
 # describeRole
 
 
-## 描述
+## Description
 Query role details
 
-## 请求方式
+## Request method
 GET
 
-## 请求地址
+## Request address
 https://iam.jdcloud-api.com/v1/role/{roleName}
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**roleName**|String|True| |Role Name|
 
-## 请求参数
-无
+## Request parameter
+None
 
 
-## 返回参数
-|名称|类型|描述|
+## Response parameter
+|Name|Type|Description|
 |---|---|---|
 |**requestId**|String| |
 |**result**|Result| |
 
+
 ### Result
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**roleInfo**|RoleInfo|Role Information|
 ### RoleInfo
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**account**|String|Primary Account of Owner|
 |**assumeRolePolicyDocument**|String|Role Assumption Policy|
@@ -41,7 +42,7 @@ https://iam.jdcloud-api.com/v1/role/{roleName}
 |**roleId**|String|Role ID|
 |**roleName**|String|Role Name|
 
-## 返回码
-|返回码|描述|
+## Response code
+|Return code|Description|
 |---|---|
 |**200**|OK|

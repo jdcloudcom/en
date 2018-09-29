@@ -1,22 +1,22 @@
 # describeMetricData
 
 
-## 描述
+## Description
 Get statistics for the specified metric. To get more precise data points, the user can narrow or increase the specified time range.
 
-## 请求方式
+## Request method
 GET
 
-## 请求地址
+## Request address
 https://monitor.jdcloud-api.com/v1/regions/{regionId}/metrics/{metric}/metricData
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**metric**|String|True| |Metric|
 |**regionId**|String|True| |Region ID|
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**endTime**|String|False| |Query end time of time range, UTC time, format: 2016-12- yyyy-MM-dd'T’HH:mm:ssZ (if it is blank, which shall be obtained by computing startTime and timeInterval)|
 |**resourceId**|String|True| |Uuid of Resource|
@@ -26,40 +26,41 @@ https://monitor.jdcloud-api.com/v1/regions/{regionId}/metrics/{metric}/metricDat
 |**timeInterval**|String|False| |Time interval: 1h, 6h, 12h, 1d, 3d, 7d, 14d, fixed time interval, fill in at least one of timeInterval and endTime|
 
 ### TagFilter
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**key**|String|True| |Tag Key|
 |**values**|String[]|True| |Tag Value|
 
-## 返回参数
-|名称|类型|描述|
+## Response parameter
+|Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
 |**result**|Result| |
 
+
 ### Result
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**metricDatas**|MetricData[]| |
 ### MetricData
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**data**|DataPoint[]| |
 |**metric**|Metric| |
 ### DataPoint
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**timestamp**|Integer|Time Stamp|
 |**value**|String|Value|
 ### Metric
-|名称|类型|描述|
+|Name|Type|Description|
 |---|---|---|
 |**calculateUnit**|String|Computing Unit of Metric, such as bit/s, %, and k|
 |**metric**|String|English Identifier of Monitoring Item|
 |**metricName**|String|Name of Monitoring Item|
 
-## 返回码
-|返回码|描述|
+## Response code
+|Return code|Description|
 |---|---|
 |**200**|OK|
 |**400**|invalid parameter|

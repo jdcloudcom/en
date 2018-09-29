@@ -1,16 +1,16 @@
 # Cloud Physical Server
 
 
-## 简介
+## Introduction
 Cloud Physical Server APIs
 
 
-### 版本
+### Version
 v1
 
 
 ## API
-|接口名称|请求方式|功能描述|
+|Interface name|Request mehod|Function description|
 |---|---|---|
 |**createInstances**|PUT|Create one or more Cloud Physical Servers with specified configuration<br/></br>\- Region and Availability Zone<br/></br>  \- The region and availability zone supported by the Cloud Physical Servers can be obtained by calling APIs (describeRegions)<br/></br>\- Instance Type Family<br/></br>  \- The physical instance type family list can be obtained by calling APIs<br/></br>  \- Instance type family which is off line or sold out is not available for use<br/></br>\- Operating System and Pre\-installed Software<br/></br>  \- The operating system list supported by the Cloud Physical Server can be obtained by calling APIs (describeOS)<br/></br>  \- The APIs (describeSoftware) may be called to obtain the software list supported by the Cloud Physical Server, or the software may not be pre\-installed<br/></br>\- Storage<br/></br>  \- Multiple RAIDs are available for the data disk and the RAID list supported by the server can be obtained by calling APIs (describeDeviceRaids)<br/></br>\- Network<br/></br>  \- Network type currently only supports basic<br/></br>  \- ISP Line only supports bgp currently<br/></br>  \- Disabled Internet is supported. If the Internet is enabled, the bandwidth range is [1,200], in unit Mbps<br/></br>\- Miscellaneous<br/></br>  \- Purchase duration, the annual purchase or monthly purchase is available, with the minimum purchase duration of 1 month and the maximum purchase duration of 36 months (3 years)<br/></br>  \- Refer to the Public Parameter Specification for password setting<br/></br>|
 |**describeDeviceRaids**|GET|Query the RAID types supported by the Cloud Physical Server of a certain instance type family, may query the system disk RAID type and data disk RAID type|
