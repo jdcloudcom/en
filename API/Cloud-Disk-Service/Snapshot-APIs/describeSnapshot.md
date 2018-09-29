@@ -23,7 +23,7 @@ None
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
-|**result**|Result|Cloud Disk Snapshot Details Queried|
+|**result**|Result|Cloud Disk Snapshot Details|
 
 
 ### Result

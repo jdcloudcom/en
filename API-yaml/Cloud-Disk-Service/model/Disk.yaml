@@ -10,10 +10,10 @@ definitions:
         description: "Cloud Disk ID"
       az:
         type: string
-        description: "AZ, to which the cloud disk belongs"
+        description: "Available Zone, to which the cloud disk belongs"
       name:
         type: string
-        description: "Name of the cloud disk only allows Chinese characters, numbers, uppercase and lowercase letters, English underscores '_' or hyphens '-'. It is not allowed to be blank and shall not exceed 32 characters."
+        description: "Name of the cloud disk only allows Chinese characters, numbers, uppercase and lowercase letters, English underscores '_' and hyphens '-'. It is not allowed to be blank and shall not exceed 32 characters."
       description:
         type: string
         description: "Description of the cloud disk. It allows you to enter all characters under UTF-8 encoding, but no more than 256 characters."
@@ -30,20 +30,20 @@ definitions:
         type: array
         items:
           $ref: "./DiskAttachment.yaml#/definitions/diskAttachment"
-        description: "Attach Information"
+        description: "Attachment Information"
       snapshotId:
         type: string
         description: "Snapshot ID used to create a cloud disk"
       multiAttachable:
         type: boolean
-        description: "Does the Cloud Disk Service support multiple attachments?"
+        description: "Is multiple attachment True or False"
       createTime:
         type: string
         format: date-time
-        description: "Cloud Disk Creating Time"
+        description: "Cloud Disk Creation Time"
       charge:
         $ref: "../../charge/model/Charge.yaml#/definitions/charge"
-        description: "Configuration Information for Cloud Disk Service Billing"
+        description: "Cloud Disk Billing Configuration"
       tags:
         type: array
         items:

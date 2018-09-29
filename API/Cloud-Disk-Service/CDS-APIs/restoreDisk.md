@@ -2,8 +2,8 @@
 
 
 ## Description
--   Data recovery operations can only be executed on the source hard disk, from which the snapshot was taken.
--   Snapshots can be used for data recovery operations only if the source hard disk is available.
+-   Data recovery operations can only be executed on the source Cloud Disk, from which the snapshot was taken.
+-   Snapshots can be used for data recovery operations only if the source Cloud Disk is in available status.
 -   After the Cloud Disk is restored, the current data will be cleared. Please be cautious.
 
 
@@ -21,7 +21,7 @@ https://disk.jdcloud-api.com/v1/regions/{regionId}/disks/{diskId}:restore
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**snapshotId**|String|True||Snapshot ID used to recover the Cloud Disk|
+|**snapshotId**|String|True||Snapshot ID used to restore the Cloud Disk|
 
 
 ## Return parameter

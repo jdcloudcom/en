@@ -3,9 +3,9 @@
 
 ## Description
 -   Create a snapshot for the specified Cloud Disk, and the status of the newly generated snapshot is creating.
--   The quota for single-user snapshots in the same region is 15.
+-   The quota of snapshots for a single user in the same region is 15.
 -   To ensure data integrity, please stop writing to the Cloud Disk before creating a snapshot to ensure the integrity of snapshot data.
--   Before creating a snapshot, we suggest you uninstall the Cloud Disk and reattach the disk to the virtual machine after the snapshot is created.
+-   Before creating a snapshot, we suggest you detach the Cloud Disk and reattach the disk to the virtual machine after the snapshot is created.
 -   The life cycle of manual snapshots is independent from the Cloud Disk. Please delete unnecessary snapshots in time.
 -   The time demanded to create a snapshot depends on the capacity of the Cloud Disk. The larger the capacity is, the longer it will take.
 
@@ -24,7 +24,7 @@ https://disk.jdcloud-api.com/v1/regions/{regionId}/snapshots
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**clientToken**|String|True||Idempotence Check Parameter|
-|**snapshotSpec**|SnapshotSpec|True||Create Snapshot Specification|
+|**snapshotSpec**|SnapshotSpec|True||Snapshot Specification|
 
 ### SnapshotSpec
 |Name|Type|Required or not|Default value|Description|

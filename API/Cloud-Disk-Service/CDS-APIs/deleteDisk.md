@@ -3,9 +3,8 @@
 
 ## Description
 -   Delete a Cloud Disk billed by configuration. The disk types include the Premium Hdd Cloud Disk and the SSD Cloud Disk.
--   After the hard disk is deleted, the Cloud Disk snapshot can be retained.
--   When the disk is released, the status of the Cloud Disk is to-be-attached (Available).
--   If the disk of the specified ID does not exist, the request will be ignored.
+-   After the Cloud Disk is deleted, the Cloud Disk snapshot can be retained.
+-   When the Cloud Disk is deleted, the status of the Cloud Disk is to-be-attached (Available).
 
 
 ## Request method
