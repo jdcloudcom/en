@@ -3,6 +3,7 @@
 User can add Header of Authorization in HTTP request to contain information on Signature, to indicate that this message has been authorized.
 
 ## Methods of Authorization field calculation
+
 ```
 Authorization ="jingdong" + " " + AccessKey + ":" + Signature;
 Signature =base64(HMAC-SHA1(AccessKeySecret, UTF-8-Encoding-Of( StringToSign ) ) )
