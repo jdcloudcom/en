@@ -18,16 +18,16 @@ paths:
         -   Disk type includes Premium Hdd Cloud Disk and SSD Cloud Disk.
         -   The billing method defaults to paying by configuration.
         -   After creation is completed, the status of the Cloud Disk is available.
-        -   The optional parameter snapshot ID is used to create a new disk.
+        -   The optional parameter snapshot ID is used to create a new disk from a snapshot.
         -   In batch creation, the name of the Cloud Disk is: hard disk name -number, such as myDisk-1 and myDisk-2.
-        -   maxCount is the maximum effort, and it is not guaranteed that maxCount can be reached.
+        -   maxCount is the based on best effort, and it is not guaranteed that maxCount can be reached.
       summary: "Create a cloud disk"
       operationId: createDisks
       parameters:
         - name: DiskSpec
           in: body
           required: true
-          description: "Create the specification of the cloud disk"
+          description: "Disk Specification"
           schema:
             $ref: "../model/DiskSpec.yaml#/definitions/diskSpec"
         - name: maxCount
@@ -74,7 +74,7 @@ paths:
       operationId: describeDisks
       summary: "Query cloud disk list"
       description: |
-        -   filters, between multiple filter conditions is logic AND, and multiple values ​​inside each condition is logic OR
+        -   Query detals of Cloud Disks
       parameters:
         - name: pageNumber
           in: query
@@ -112,6 +112,7 @@ paths:
             az - Status of the cloud disk, accurate match, support multiple
             name - Name of the cloud disk, fuzzy match, support single
             multiAttach - Whether the cloud disk is multi-point attached, accurate match, support multiple
+            filters, between multiple filter conditions is logic AND, and multiple values inside each condition is logic OR
       responses:
         200:
           description: "OK"
@@ -120,7 +121,7 @@ paths:
             properties:
               result:
                 type: object
-                description: "Query Result Set"
+                description: "Result Set"
                 properties:
                   disks:
                     type: array
@@ -154,7 +155,7 @@ paths:
             schema:
               properties:
                 result:
-                  description: "Query cloud disk details"
+                  description: "Cloud Disk details"
                   properties:
                     disk:
                       $ref: "../model/Disk.yaml#/definitions/disk"
@@ -179,7 +180,6 @@ paths:
           -   Delete a cloud disk billed by configuration. The disk types include the Premium Hdd Cloud Disk and the SSD Cloud Disk.
           -   After the hard disk is deleted, the cloud disk snapshot can be retained.
           -   When the disk is released, the status of the cloud disk is to-be-attached (Available).
-          -   If the disk of the specified ID does not exist, the request will be ignored.
         operationId: deleteDisk
         responses:
           200:
@@ -229,7 +229,7 @@ paths:
         summary: "Recovering a cloud disk from a snapshot"
         description: |
           -   Data recovery operations can only be executed on the source hard disk, from which the snapshot was taken.
-          -   Snapshots can be used for data recovery operations only if the source hard disk is available.
+          -   Snapshots can be used for data recovery operations only if the source hard disk is in available status.
           -   After the cloud disk is restored, the current data will be cleared. Please be cautious.
         operationId: restoreDisk
         parameters:
@@ -237,7 +237,7 @@ paths:
             in: query
             type: string
             required: true
-            description: "Snapshot ID used to recover the cloud disk"
+            description: "Snapshot ID used to restore the cloud disk"
         responses:
           200:
             description: "OK"
@@ -265,7 +265,7 @@ paths:
             in: query
             type: integer
             required: true
-            description: "The size of the cloud disk after expansion is in GiB"
+            description: "The size of the cloud disk after expansion in GiB"
         responses:
           200:
             description: "OK"
