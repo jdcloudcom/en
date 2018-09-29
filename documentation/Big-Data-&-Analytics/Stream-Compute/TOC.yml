@@ -20,7 +20,7 @@ items:
 - name: Pricing
   items:
   - name: Purchase Notes
-    href: Pricing/Pricing.md
+    href: Billing-Overview.md
   - name: Arrears Rules
     href: Pricing/Billing-Rules.md
   - name: Price Overview

@@ -18,9 +18,9 @@
   - name: Getting Started
     items:
       - name: Create Information Template
-        herf: Getting-Started/Create Information Template.md
+        herf: Getting-Started/Create-Information-Template.md
       - name: Register Domain Name
-        herf: Getting-Started/Register Domain Name.md
+        herf: Getting-Started/Register-Domain-Name.md
       - name: Information Template
         herf: Getting-Started/Information-Template.md
         
@@ -59,7 +59,4 @@
     - name: Online Terms of Service of Domain Name
       herf: User-Agreements/Donline-Terms-of-Service-of-Domain-Name.md      
     - name: IDN Online Transfer Agreement
-      herf: User-Agreements/IDN-Online-Transfer-Agreement.md      
-
-          
-          
+      herf: User-Agreements/IDN-Online-Transfer-Agreement.md         
