@@ -1,19 +1,18 @@
 # Enumeration Type Definition
 
-- [engine RDS Engine Type](#engine-rds Engine Type)
-- [engineVersion RDS Engine Version](#engineversion-rds Engine Version)
-- [instanceStatus Instance Status](#instancestatus-Instance Status)
-- [dbStatus Database Status](#dbstatus-Database Status)
-- [accountStatus Account Status](#accountstatus-Account Status)
-- [privilege Database Access](#privilege-Database Access)
-- [characterSetName Database Character Set](#charactersetnam-Database Character Set)
-- [sqlAuditStatus Data Audit Status](#sqlauditstatus-Data Audit Status)
-- [connectionMode Access Mode](#connectionmode-Access Mode)
+- [engine RDS Engine Type](#engine-RDS-Engine-Type)
+- [engineVersion RDS Engine Version](#engineVersion-RDS-Engine-Version)
+- [instanceStatus Instance Status](#instanceStatus-Instance-Status)
+- [dbStatus Database Status](#dbStatus-Database-Status)
+- [accountStatus Account Status](#accountStatus-Account-Status)
+- [privilege Database Access](#privilege-Database-Access)
+- [characterSetName Database Character Set](#characterSetName-Database-Character-Set)
+- [sqlAuditStatus Data Audit Status](#sqlAuditStatus-Data-Audit-Status)
+- [connectionMode Access Mode](#connectionMode-Access-Mode)
 - [backupStatus Backup Status](#backupstatus-Backup Status)
-- [backupType Backup Type](#backuptype-Backup Type)
-- [backupMode Backup Mode](#backupmode-Backup Mode)
-- [backupUnit Backup Granularity](#backupunit-Backup Granularity)
-- [instanceClass Instance Type](#instanceclass-Instance Type)
+- [backupType Backup Type](#backupStatus-Backup-Status)
+- [backupMode Backup Mode](#backupMode-Backup-Mode)
+- [backupUnit Backup Granularity](#backupUnit-Backup-Granularity)
 
 ## engine RDS Engine Type
 
