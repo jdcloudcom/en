@@ -6,9 +6,9 @@
 -   Disk type includes Premium Hdd Cloud Disk and SSD Cloud Disk.
 -   The billing method defaults to paying by configuration.
 -   After creation is completed, the status of the Cloud Disk is available.
--   The optional parameter snapshot ID is used to create a new disk.
+-   The optional parameter snapshot ID is used to create a new disk from a snapshot.
 -   In batch creation, the name of the Cloud Disk is: hard disk name -number, such as myDisk-1 and myDisk-2.
--   maxCount is the maximum effort, and it is not guaranteed that maxCount can be reached.
+-   maxCount is the based on best effort, and it is not guaranteed that maxCount can be reached.
 
 
 ## Request method
@@ -25,7 +25,7 @@ https://disk.jdcloud-api.com/v1/regions/{regionId}/disks
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**clientToken**|String|True| |Idempotence Check Parameter|
-|**diskSpec**|DiskSpec|True| |Create the specification of the cloud disk|
+|**diskSpec**|DiskSpec|True| |Disk Specification|
 |**maxCount**|Integer|True| |Instance Purchase Quantity; Value Range: [1,100]|
 
 ### DiskSpec

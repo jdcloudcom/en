@@ -2,7 +2,7 @@
 
 
 ## Description
--   Delete a single cloud disk snapshot: The snapshot status must be available or error status.
+-   Delete a single cloud disk snapshot: The snapshot status must be in available or error status.
 -   The snapshot is independent from life cycle of the cloud disk. Deleting a snapshot does not have any effect on the cloud disk that created the snapshot.
 -   After the snapshot is deleted, it cannot be recovered. Please be cautious.
 
