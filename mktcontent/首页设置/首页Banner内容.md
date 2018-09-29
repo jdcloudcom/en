@@ -663,11 +663,38 @@
 	},
 	{
 		"sub_title":"全托管的私有镜像仓库，一站式部署服务，一折促销中",
-		"image_Url":"//img1.jcloudcs.com/cms/05502018-8106-4b8d-bb05-55a18c50da6320180915180235.png",
-		"dynamic_image":"//img1.jcloudcs.com/cms/c3be633c-40a3-4a3b-b4a3-99dd27a6a27620180915180241.png",
+		"image_Url":"//img1.jcloudcs.com/cms/16d048e9-99f6-4b2d-973d-4c26a9b0b7b320180927172745.png",
+		"dynamic_image":"//img1.jcloudcs.com/cms/13639a0e-6802-4416-8052-21dfd7afde0620180927172749.png",
 		"name":"容器镜像仓库开放公测",
-		"id":"623",
+		"id":"1016",
 		"button_title":"查看详情",
 		"main_title":"容器镜像仓库开放公测"
+	},
+	{
+		"sub_title":"致力于海量数据搜索与分析",
+		"image_Url":"//img1.jcloudcs.com/cms/7e888d9c-7c05-4a32-928f-728f69ddf1e620180927175412.png",
+		"dynamic_image":"//img1.jcloudcs.com/cms/3427bed1-2416-4972-b08f-2bbd11f606c720180927175416.png",
+		"name":"云搜索Elasticsearch",
+		"id":"1017",
+		"button_title":"免费试用",
+		"main_title":"云搜索Elasticsearch"
+	},
+	{
+		"sub_title":"云上的裸金属GPU服务器重磅发布",
+		"image_Url":"//img1.jcloudcs.com/cms/7c82a3aa-65f9-4484-b9c0-46f9efe54be020180928182834.png",
+		"dynamic_image":"//img1.jcloudcs.com/cms/088434b8-fe8d-4de1-901d-480cd15163be20180928182838.png",
+		"name":"GPU云物理服务器重磅发布",
+		"id":"1018",
+		"button_title":"查看详情",
+		"main_title":"GPU云物理服务器"
+	},
+	{
+		"sub_title":"海量数据下的高性能自动分库分表数据库",
+		"image_Url":"//img1.jcloudcs.com/cms/b48e155d-2e8f-4214-ad3a-c26a7b14de4320180929141939.png",
+		"dynamic_image":"//img1.jcloudcs.com/cms/37cf0bf3-979c-4b40-a925-60c126e57f0120180929141943.png",
+		"name":"分布式关系型数据库DRDS开放公测",
+		"id":"1020",
+		"button_title":"查看详情",
+		"main_title":"数据库DRDS开放公测"
 	}
 ]
