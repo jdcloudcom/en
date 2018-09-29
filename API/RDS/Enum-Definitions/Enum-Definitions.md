@@ -1,18 +1,18 @@
 # Enumeration Type Definition
 
-- [engine RDS Engine Type](engine#engine-rds-engine-type)
-- [engineVersion RDS Engine Version](engineversion#engineversion-rds-engine-version)
-- [instanceStatus Instance Status](instancestatus#instancestatus-instance-status)
-- [dbStatus Database Status](dbstatus#dbstatus-database-status)
-- [accountStatus Account Status](accountstatus#accountstatus-account-status)
-- [privilege Database Access](privilege#privilege-database-access)
-- [characterSetName Database Character Set](charactersetname#charactersetname-database-character-set)
-- [sqlAuditStatus Data Audit Status](sqlauditstatus#sqlauditstatus-data-audit-status)
-- [connectionMode Access Mode](connectionmode#connectionmode-access-mode)
-- [backupStatus Backup Status](backupstatus#backupstatus-backup-status)
-- [backupType Backup Type](backuptype#backuptype-backup-type)
-- [backupMode Backup Mode](backupmode#backupmode-backup-mode)
-- [backupUnit Backup Granularity](backupunit#backupunit-backup-granularity)
+- [engine RDS Engine Type](Enum-Definitions#engine-rds-engine-type)
+- [engineVersion RDS Engine Version](Enum-Definitions#engineversion-rds-engine-version)
+- [instanceStatus Instance Status](Enum-Definitions#instancestatus-instance-status)
+- [dbStatus Database Status](Enum-Definitions#dbstatus-database-status)
+- [accountStatus Account Status](Enum-Definitions#accountstatus-account-status)
+- [privilege Database Access](Enum-Definitions#privilege-database-access)
+- [characterSetName Database Character Set](Enum-Definitions#charactersetname-database-character-set)
+- [sqlAuditStatus Data Audit Status](Enum-Definitions#sqlauditstatus-data-audit-status)
+- [connectionMode Access Mode](Enum-Definitions#connectionmode-access-mode)
+- [backupStatus Backup Status](Enum-Definitions#backupstatus-backup-status)
+- [backupType Backup Type](Enum-Definitions#backuptype-backup-type)
+- [backupMode Backup Mode](Enum-Definitions#backupmode-backup-mode)
+- [backupUnit Backup Granularity](Enum-Definitions#backupunit-backup-granularity)
 
 ## engine RDS Engine Type
 <div id="engine-rds-engine-type"></div>
