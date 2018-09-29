@@ -70,7 +70,7 @@
     - name: Intelligent Monitoring
       href: Best-Practices/Monitoring.md
   - name: Tutorial
-    status:0
+    status: 0
     items:
   - name: Troubleshooting
     items:
