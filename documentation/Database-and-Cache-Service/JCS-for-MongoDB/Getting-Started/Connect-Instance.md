@@ -62,7 +62,7 @@ If you need to directly connect to the JCS for MongoDB instance, you can use the
 		
 ## Related Reference
 
-- Public Network Connection MongoDB Instance](../Best-Practices/Public-Network-Connect-to-MongoDB-Instance.md)
+- [Public Network Connection MongoDB Instance](../Best-Practices/Public-Network-Connect-to-MongoDB-Instance.md)
 - [Problem Processing: Virtual Machines Unable to Connect MongoDB Instance](../Troubleshooting/Connect-Failed.md)
 - [Problem Processing: Login Database Prompt No Permission](../Troubleshooting/Authentication.md)
 		
