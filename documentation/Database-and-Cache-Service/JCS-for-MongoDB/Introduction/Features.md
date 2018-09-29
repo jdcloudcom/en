@@ -18,7 +18,7 @@ The three-node replica set is automatically set up. The default Primary and Seco
 
 Support for single availability deployment, three nodes are automatically deployed to physical machines in different racks, providing high availability across racks.
 
-### Multiple Avialability Zone Deployment
+### Multiple Availability Zone Deployment
 
 Support for multiple availability zone deployment, you can specify the available zones for primary, secondary and hidden node deployments, and provide high availability across the machine rooms.
 
@@ -27,7 +27,7 @@ Support for multiple availability zone deployment, you can specify the available
 ### VPC Virtual Private Cloud
 The instance is deployed in a user-defined VPC, and network isolation protection is performed directly at the TCP layer to ensure data security.
 
-### White list
+### White List
 Support user-defined IP white list and security control from access source.
 
 

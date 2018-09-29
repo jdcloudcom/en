@@ -20,4 +20,4 @@ This document introduces the important updating history of the MongoDB documenta
 - [Core Concepts](../Introduction/Core-Concepts.md)
 - [Features](./ Introduction/ Functions.md
 - [Create Instance](../Getting-Started/Create-Instance.md)
-- [Set White list](..//Getting-Started/Set-Whitelist.md)
+- [Set White List](..//Getting-Started/Set-Whitelist.md)

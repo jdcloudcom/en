@@ -1,4 +1,4 @@
-# Which commands are limited by the MongoDB?
+# Which commands are limited by the JCS for MongoDB?
 
 ## Problem Description
 

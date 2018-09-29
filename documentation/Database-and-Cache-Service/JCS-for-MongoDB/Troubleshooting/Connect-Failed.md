@@ -40,6 +40,6 @@ The possible reason is that the link between the Virtual Machines and the MongoD
    ![](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-029.png)
 
   ## Follow-up Processing
-  If the problem is still not solved through the above operation, please [Open ticket](https://ticket.jdcloud.com/myorder/form?cateId=166&questionId=238) or call the customer hotline 400-615-1212 .
+  If the problem is still not solved through the above operation, please [Open ticket](https://ticket.jdcloud.com/myorder/form?cateId=166&questionId=238) or call the customer hotline 400-615-1212 。
 
 

@@ -17,4 +17,4 @@ or
 > mongodb://<username>:<password>@xxxx1.jdcloud.com:27017,xxxx2.jdcloud.com:27017/test?replicaSet=mgset-3937681456 
 
 ## Follow-up Processing
-  If the problem is still not solved through the above operation, please [Open ticket](https://ticket.jdcloud.com/myorder/form?cateId=166&questionId=238) or call the customer hotline 400-615-1212 .
+  If the problem is still not solved through the above operation, please [Open ticket](https://ticket.jdcloud.com/myorder/form?cateId=166&questionId=238) or call the customer hotline 400-615-1212 。

@@ -10,7 +10,7 @@ This paper introduces the renewal entries of MongoDB.
    ![](../../../../image/mongodb/mongo-039.png)
 
 
-3. Click **Renew ** in the operation items to enter the "Renew Page". For the renewal steps, please refer to "[Renew Instance](../Operation-Guide/Instance-Management/Renewal-Instructions.md)"
+3. Click **Renew** in the operation items to enter the "Renew Page". For the renewal steps, please refer to "[Renew Instance](../Operation-Guide/Instance-Management/Renewal-Instructions.md)"
 
    ![](../../../../image/mongodb/mongo-040.png)
 
@@ -22,6 +22,6 @@ This paper introduces the renewal entries of MongoDB.
    ![](../../../../image/mongodb/mongo-041.png)
 
 3. On the "Renew Management" page, click **MongoDB** to view the MongoDB instance.
-4. Click **Renew ** in the operation items to enter the "Renew Page". For the renewal steps, please refer to "[Renew Instance](../Operation-Guide/Instance-Management/Renewal-Instructions.md)"
+4. Click **Renew** in the operation items to enter the "Renew Page". For the renewal steps, please refer to "[Renew Instance](../Operation-Guide/Instance-Management/Renewal-Instructions.md)"
 
    ![](../../../../image/mongodb/mongo-042.png)

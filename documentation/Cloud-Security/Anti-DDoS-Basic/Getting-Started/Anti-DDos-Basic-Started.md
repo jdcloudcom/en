@@ -1,6 +1,6 @@
 # Open Anti-DDoS Basic
 
-**Precondition**
+**Preconditions**
 
 - Have a JD Cloud account and have completed the real-name verification. If you do not have an account number, please[register](https://accounts.jdcloud.com/p/regPage?source=jdcloud%26ReturnUrl=%2f%2fuc.jdcloud.com%2fpassport%2fcomplete%3freturnUrl%3dhttp%3A%2F%2Fuc.jdcloud.com%2Fredirect%2FloginRouter%3FreturnUrl%3Dhttps%253A%252F%252Fwww.jdcloud.com%252Fhelp%252Fdetail%252F734%252FisCatalog%252F1), or[real name authentication](https://uc.jdcloud.com/account/certify).
 
@@ -18,6 +18,6 @@
 
 # Relevant Reference
 - [What is Anti-DDoS Basic](../Introduction/Product-Overview.md)
-- [Functional Properties](../Introduction/Features.md)
+- [Features](../Introduction/Features.md)
 - [Application Scenarios](../Introduction/Application-Scenarios.md)
 - [Basic Architecture](../Introduction/Basic-Infrastructure.md)

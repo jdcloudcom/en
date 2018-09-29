@@ -1,6 +1,6 @@
 # Billing Rules
 
-The JCS for MongoDB supports two types of billing:
+The JCS for MongoDB supports two billing types:
 - Monthly Package
 - Pay By Configuration
  

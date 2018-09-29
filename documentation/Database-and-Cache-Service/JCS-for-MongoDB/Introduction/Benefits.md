@@ -10,7 +10,7 @@ By default, a highly available architecture with a three-node replica set is pro
 
 ## Data lasting
 
-It has a complete data backup mechanism, supportting automatic backup and manual backup. Each instance is automatically backed up once every day by default. You can also create backups at any time according to business conditions. The backup files are saved in the form of three copies in JD Cloud Object Storage Service. Don't worry about data loss.
+It has a complete data backup mechanism, supporting automatic backup and manual backup. Each instance is automatically backed up once every day by default. You can also create backups at any time according to business conditions. The backup files are saved in the form of three copies in JD Cloud Object Storage Service. Don't worry about data loss.
 
 ## Safety
 

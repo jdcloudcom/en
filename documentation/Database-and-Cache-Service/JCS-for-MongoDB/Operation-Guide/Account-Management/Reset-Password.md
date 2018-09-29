@@ -4,12 +4,12 @@ If you forget your password, or you need to reset password, or if you didn't set
 
 ## Instructions for Use
 
-The modified password provided by the MongoDB console is to  modified as the password of root account.
+The modified password provided by the MongoDB console is to be modified as the password of root account.
 
 ## Operation Steps
 
 1. Log into [MongoDB Console](https://mongodb-console.jdcloud.com/mongodb?dataCenter=bj_02).
-1. On the instance list page, select the **Target Instance**, and click the **Instance Name** to enter the "Instance Details" page.
+1. On the instance list page, select **Target Instance**, and click **Instance Name** to enter the "Instance Details" page.
 1. At the upper right corner of the "Instance Details" page, click **Modify Password** to open the "Modify Password" pop-up window.
 
 	![Reboot Instance](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-015.png)
