@@ -88,17 +88,17 @@ The call frequency to OpenAPI is limited per minute. For most services, the call
 
 Recommend direct use of JD Cloud SDK for access to JD Cloud OpenAPI. Please refer to the use method of SDK.
 
-[Java](../SDK/Java/Java.md)
+[Java](/SDK/Java/Java.md)
 
-[Python](../SDK/Python/Python.md)
+[Python](/SDK/Python/Python.md)
 
-[Go](../SDK/Go/Go.md)
+[Go](/SDK/Go/Go.md)
 
-[Node.js](../SDK/Nodejs/Node.js.md)
+[Node.js](/SDK/Nodejs/Node.js.md)
 
-[PHP](../SDK/PHP/PHP.md)
+[PHP](/SDK/PHP/PHP.md)
 
-[.Net](../SDK/dotnet/.Net.md)
+[.Net](/SDK/dotnet/.Net.md)
 
-[C++](../SDK/cplusplus/cplusplus.md)
+[C++](/SDK/cplusplus/cplusplus.md)
 
