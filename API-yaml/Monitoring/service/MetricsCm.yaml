@@ -10,8 +10,8 @@ produces:
 ############################Custom metric monitoring API, reporting service corresponding to cm-put data##############################
 ###########################Internal Domain Name: cm-put.openapi.cn-north-1.jdcloud.com Gateway Address: monitor.cn-north-1.jdcloud-api.com##############################
 ###########################Internal Domain Name: cm-put.openapi.cn-south-1.jdcloud.com Gateway Address: monitor.cn-south-1.jdcloud-api.com##############################
-###########################Internal Domain Name: cm-put.openapi.cn-east-1.jdcloud.com Gateway Address: monitor.cn-east-1.jdcloud-api.com##############################
-###########################Internal Domain Name: cm-put.openapi.cn-east-2.jdcloud.com Gateway Address: monitor.cn-east-2.jdcloud-api.com##############################
+########################## Internal Domain Name: cm-put.openapi.cn-east-1.jdcloud.com Gateway Address: monitor.cn-east-1.jdcloud-api.com##############################
+########################## Internal Domain Name: cm-put.openapi.cn-east-2.jdcloud.com Gateway Address: monitor.cn-east-2.jdcloud-api.com##############################
 paths:
   /customMetrics:
     ###################### Report Custom metric monitoring Data of Users ######################

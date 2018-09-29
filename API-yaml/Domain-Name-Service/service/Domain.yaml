@@ -211,7 +211,7 @@ paths:
           description: "NOT_FOUND"
 
   /domain/{domainId}/queryTraffic:
-  ###################### View Statistical Information of Domain Name #####################
+  ###################### View Statistical Information of Domain Name ######################
     get:
       description: "View query traffic of domain names"
       operationId: getDomainQueryTraffic

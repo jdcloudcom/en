@@ -133,7 +133,7 @@ paths:
             PrivateIpAddress-primary private IP address of primary network interface, fuzzy match, multiple supported
             az-AZ, exact match, multiple supported
             vpcId-Virtual Private Cloud ID, exact match, multiple supported
-            status-Virtual machine status, exact match, multiple supported <a href="https://www.jdcloud.com/help/detail/3869/isCatalog/1">refer to virtual machine status</a>
+            status - Virtual machine status, exact match, multiple supported <a href='https://www.jdcloud.com/help/detail/3869/isCatalog/1'>refer to virtual machine status</a>
             name-VM name, fuzzy match, single supported
             imageId-Image ID, exact match, multiple supported
             networkInterfaceId-ENI ID, exact match, multiple supported
@@ -197,7 +197,7 @@ paths:
     delete:
       description: |
         Delete a single virtual machine that is paid by configuration, or expires in a monthly package. You cannot delete a virtual machine without billing information. <br>
-        The virtual machine status must be <b>running<b>, <b>stopped<b>, <b>error<b>, and the virtual machine is not in progress to delete. <br>
+        The virtual machine status must be </b>running</b>, </b>stopped<b>, <b>error<b>, and the virtual machine is not in progress to delete. <br>
         The virtual machine that has not expired in monthly package cannot be deleted. The white list user cannot delete the virtual machine that has expired in monthly package. <br>
         If the data disk attached in the machine is the cloud disk billed by instance type and is not a shared Cloud Disk Service, and the AutoDelete property is true, then the data disk is deleted along with the machine.
       operationId: deleteInstance
@@ -241,7 +241,7 @@ paths:
             instanceId-VM ID, exact match, multiple supported
             PrivateIpAddress-primary private IP address of primary network interface, fuzzy match, multiple supported
             vpcId-Virtual Private Cloud ID, exact match, multiple supported
-            status-Virtual machine status, exact match, multiple supported <a href="https://www.jdcloud.com/help/detail/3869/isCatalog/1">refer to virtual machine status</a>
+            status - Virtual machine status, exact match, multiple supported <a href='https://www.jdcloud.com/help/detail/3869/isCatalog/1'>refer to virtual machine status</a>
             name-VM name, fuzzy match, single supported
             imageId-Image ID, exact match, multiple supported
             networkInterfaceId-ENI ID, exact match, multiple supported
@@ -297,7 +297,7 @@ paths:
             instanceId-VM ID, exact match, multiple supported
             PrivateIpAddress-primary private IP address of primary network interface, fuzzy match, multiple supported
             vpcId-Virtual Private Cloud ID, exact match, multiple supported
-            status-Virtual machine status, exact match, multiple supported <a href="https://www.jdcloud.com/help/detail/3869/isCatalog/1">refer to virtual machine status</a>
+            status - Virtual machine status, exact match, multiple supported <a href='https://www.jdcloud.com/help/detail/3869/isCatalog/1'>refer to virtual machine status</a>
             name-VM name, fuzzy match, single supported
             imageId-Image ID, exact match, multiple supported
             networkInterfaceId-ENI ID, exact match, multiple supported
@@ -396,7 +396,7 @@ paths:
           A virtual machine attaches an elastic network interface <br>
           The virtual machine status must be running or stopped status without being operated, the task is available. <br>
           If the public IP is associated with the elastic network interface, the az of the public IP needs to be consistent with the az of the Virtual Machines, or the public network IP belongs to the full available zone to be attached. <br>
-          The number of the Virtual Machines to attach the elastic network interface cannot exceed the limit of the instance type. Can query <a href = "https://www.jdcloud.com/help/detail/2901/isCatalog/1"> DescribeInstanceTypes</a> interface gives specification information for the specified zone or availability zone. <br>
+          The number of the Virtual Machines to attach the elastic network interface cannot exceed the limit of the instance type. Can query <a href='https://www.jdcloud.com/help/detail/2901/isCatalog/1'> DescribeInstanceTypes</a> interface gives specification information for the specified zone or availability zone. <br>
           The elastic network interface and the Virtual Machines must be under the same vpc.
       operationId: attachNetworkInterface
       parameters:
@@ -775,7 +775,7 @@ paths:
           Local disk (type) is the machine of the system disk, and the first generation and the second generation specification type are not allowed to be adjusted to each other. <br>
           Machine, generation, and second-generation specification types created using availability group (Ag) do not allow mutual adjustment. <br>
           The cloud disk service (cloud type) is the machine of the system disk, and the generation and the second generation specification type are allowed to adjust to each other. <br>
-          If the number of elastic network interfaces in the current machine is greater than the number of elastic network interfaces allowed by the specification type, an error is returned. Can query <a href = "https://www.jdcloud.com/help/detail/2901/isCatalog/1"> DescribeInstanceTypes</a> interface gives specification information for the specified zone or availability zone. <br>
+          If the number of elastic network interfaces in the current machine is greater than the number of elastic network interfaces allowed by the specification type, an error is returned. Can query <a href='https://www.jdcloud.com/help/detail/2901/isCatalog/1'> DescribeInstanceTypes</a> interface gives specification information for the specified zone or availability zone. <br>
           The image used by the current machine needs to support the target specification type to be changed, otherwise the error is returned. Can query <a href="https://www.jdcloud.com/help/detail/2872/isCatalog/1">DescribeImageConstraints</a> Interface obtains specification type limit information for the specified image <br>
           The instance type cannot be changed when the user is in arrears with the VM fees.
       operationId: resizeInstance
@@ -805,7 +805,7 @@ paths:
       description: |
         Virtual machine uses the specified image to reset the virtual machine image<br>
         The status of the Virtual Machines must be stopped status. <br>
-        If the system disk type of the current virtual machine is a WORM type, the replacement image must be an image of the current Disk type;Similarly, if the system disk of the current virtual machine is cloud type, the replacement image must be an image of the clyDisk type. Can query <a href = "https://www.jdcloud.com/help/detail/2874/isCatalog/1"> DescribeImages</a> interface gets the image information for the specified zone. <br>
+        If the system disk type of the current virtual machine is a WORM type, the replacement image must be an image of the current Disk type;Similarly, if the system disk of the current virtual machine is cloud type, the replacement image must be an image of the clyDisk type. Can query <a href='https://www.jdcloud.com/help/detail/2874/isCatalog/1'> DescribeImages</a> interface gets the image information for the specified zone. <br>
         If you do not specify the image ID, the current machine's original image rebuild system is used by default. <br>
         The specified image must be able to support the instanceType of the current machine, otherwise an error will occur. Query <a href="https://www.jdcloud.com/help/detail/2872/isCatalog/1">DescribeImageConstraints</a> API for instance type limit information about the specified image.
       operationId: rebuildInstance

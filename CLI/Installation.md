@@ -53,7 +53,7 @@ https://packaging.python.org/guides/installing-using-linux-tools/#installing-pip
 
 ## CLI Installation ##
 
-## Linux & macOS Installation ##
+### Linux & macOS Installation ###
 
 - pip Installation (Recommended)
 
