@@ -12,21 +12,21 @@ https://monitor.jdcloud-api.com/v1/regions/{regionId}/alarms/{alarmId}:disable
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**alarmId**|String|True||Rule ID|
-|**regionId**|String|True||Region ID|
+|**alarmId**|String|True| |Rule ID|
+|**regionId**|String|True| |Region ID|
 
 ## Request parameter
 None
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
 
 
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

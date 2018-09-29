@@ -14,40 +14,40 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/instances
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID, the Region and Availability Zone supported by the Cloud Physical Servers can be obtained by calling APIs (describeRegions)|
+|**regionId**|String|True| |Region ID, the Region and Availability Zone Supported by the Cloud Physical Servers can be Called by Calling APIs (describeRegions)|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**az**|String|False||Availability Zone, Exact Matching|
-|**deviceType**|String|False||Instance Type, Exact Matching, the Instance Type Family can be Obtained by Calling APIs (describeDeviceType)|
-|**filters**|Filter[]|False||containerId - Cloud Physical Server ID, Exact Match, Support Many IDs<br>|
-|**name**|String|False||Name of Cloud Physical Server, Support Fuzzy Matching|
-|**networkType**|String|False||Network Type, Exact Matching, Currently Only Support Basic|
-|**pageNumber**|Integer|False|1|Page Number; 1 by Default|
-|**pageSize**|Integer|False|10|Paging Size; 10 by Default; Value Range [10, 100]|
-|**status**|String|False||Cloud Physical Server Status, Referring to Cloud Physical Server Status|
+|**az**|String|False| |Availability Zone, Exact Matching|
+|**deviceType**|String|False| |Instance Type, exact matching, the instance type family can be obtained by calling APIs (describeDeviceType)|
+|**filters**|Filter[]|False| |containerId - Cloud Physical Server ID, exact match, support multiple IDs<br>|
+|**name**|String|False| |Name of the Cloud Physical Server, support fuzzy matching|
+|**networkType**|String|False| |Network Type, exact matching, currently only support basic|
+|**pageNumber**|Integer|False|1|Page Number; 1 by default|
+|**pageSize**|Integer|False|10|Paging Size; 10 by default; value range [10, 100]|
+|**status**|String|False| |Cloud Physical Server Status, feferring to Cloud Physical Server status|
 
 ### Filter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**name**|String|True||Name of Filter Requirements|
-|**operator**|String|False||Operator of filter requirements is eq by default|
-|**values**|String[]|True||Value of Filter Requirements|
+|**name**|String|True| |Name of Filter Requirements|
+|**operator**|String|False| |Operator of filter requirements is eq by default|
+|**values**|String[]|True| |Value of Filter Requirements|
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
+|**requestId**|String| |
+|**result**|Result| |
 
 
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**instances**|Instance[]||
-|**pageNumber**|Integer|Page Number; 1 by Default|
-|**pageSize**|Integer|Paging Size; 10 by Default; Value Range [10, 100]|
+|**instances**|Instance[]| |
+|**pageNumber**|Integer|Page Number; 1 by default|
+|**pageSize**|Integer|Paging Size; 10 by default; value range [10, 100]|
 |**totalCount**|Integer|Total Query Result Amount|
 ### Instance
 |Name|Type|Description|
@@ -80,12 +80,12 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/instances
 |Name|Type|Description|
 |---|---|---|
 |**chargeExpiredTime**|String|Expiration Time, i.e. the expiration time of Pay-In-Advance resource, which shall be subject to ISO8601, with the UTC time used in the format of YYYY-MM-DDTHH:mm:ssZ. Pay-As-You-Go resource field is blank.|
-|**chargeMode**|String|Billing model value is prepaid_by_duration, postpaid_by_usage or postpaid_by_duration; prepaid_by_duration means Pay-In-Advance, postpaid_by_usage means Pay-As-You-Go By Consumption and postpaid_by_duration means pay by configuration; default value is postpaid_by_duration. |
+|**chargeMode**|String|Payment Model, the value shall be prepaid_by_duration, postpaid_by_usage or postpaid_by_duration; prepaid_by_duration refers to Pay-In-Advance; postpaid_by_usage refers to Pay By Consumption and Pay-As-You-Go; postpaid_by_duration refers to Pay By Configuration and Pay-As-You-Go, and is postpaid_by_duration by default|
 |**chargeRetireTime**|String|The Expected Release Time refers to the expected release time of resources. This value is both available for the Pay-In-Advance/Pay-As-You-Go resources, conforming to the ISO8601 standard, with the UTC time used in the format of YYYY-MM-DDTHH:mm:ssZ|
 |**chargeStartTime**|String|The start time of the billing shall be subject to ISO8601, with the UTC time used in the format of YYYY-MM-DDTHH:mm:ssZ|
 |**chargeStatus**|String|Cost Payment Status, the value is respectively normal, overdue and arrear.|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

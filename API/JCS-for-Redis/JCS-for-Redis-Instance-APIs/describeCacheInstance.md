@@ -12,14 +12,14 @@ https://redis.jdcloud-api.com/v1/regions/{regionId}/cacheInstance/{cacheInstance
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**cacheInstanceId**|String|True||The ID of the JCS for Redis instance is the unique identifier to access to instance.|
-|**regionId**|String|True||The Region ID of the region where the JCS for Redis instance is located. At present, the JCS for Redis has North China, South China, and East China regions, and the corresponding Region IDs are cn-north-1, cn-south-1, and cn-east-2|
+|**cacheInstanceId**|String|True| |The ID of the JCS for Redis instance is the unique identifier to access to instance.|
+|**regionId**|String|True| |The Region ID of the region where the JCS for Redis instance is located. At present, the JCS for Redis has North China, South China, and East China regions, and the corresponding Region IDs are cn-north-1, cn-south-1, and cn-east-2|
 
 ## Request parameter
 None
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|ID of This Query Request|
@@ -33,7 +33,7 @@ None
 ### CacheInstance
 |Name|Type|Description|
 |---|---|---|
-|**azId**|AzId|az Information|
+|**azId**|AzId|Az Information|
 |**cacheInstanceClass**|String|Instance specification code, refer to<a href='https://www.jdcloud.com/help/detail/411/isCatalog/1'>Instance Specification Code</a>|
 |**cacheInstanceDescription**|String|Instance Description|
 |**cacheInstanceId**|String|Instance ID|
@@ -61,7 +61,7 @@ None
 |**chargeStartTime**|String|The start time of the billing shall be subject to ISO8601, with the UTC time used in the format of YYYY-MM-DDTHH:mm:ssZ|
 |**chargeStatus**|String|Cost Payment Status, the value is respectively normal, overdue and arrear.|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

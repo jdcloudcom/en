@@ -12,17 +12,17 @@ https://iam.jdcloud-api.com/v1/regions/{regionId}/userAccessKeys
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
+|**regionId**|String|True| |Region ID|
 
 ## Request parameter
 None
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
+|**requestId**|String| |
+|**result**|Result| |
 
 
 ### Result
@@ -38,7 +38,7 @@ None
 |**state**|Integer|Disabled/Enabled Status [0-Disabled, 1-Enabled]|
 |**yn**|Integer|Deleted/Valid Status [0-Deleted, 1-Valid]|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

@@ -2,7 +2,7 @@
 
 
 ## Introduction
-Related Interfaces of Sensitive Operation Protection (SOP)
+Related APIs of Sensitive Operation Protection (SOP)
 
 
 ### Version

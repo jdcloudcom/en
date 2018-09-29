@@ -12,23 +12,23 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/elasticIps/
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
+|**regionId**|String|True| |Region ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**filters**|Filter[]|False||elasticIpIds - ElasticIP ID Array Conditions, Support Multiple IDs<br>elasticIpAddress - EIP IP Address, Support Single Address<br>chargeStatus	- EIP Payment Status, Normal(normal status) or Overdue(Pay-In-Advance expired) or Arrear(arrear status), Support Single Status<br>|
+|**filters**|Filter[]|False| |elasticIpIds - ElasticIP ID Array Conditions, Support Multiple IDs<br>elasticIpAddress - EIP IP Address, Support Single Address<br>chargeStatus	- EIP Payment Status, Normal (normal status) or Overdue (Pay-In-Advance expired) or Arrear(arrear status), Support Single Status<br>|
 |**pageNumber**|Integer|False|1|Page; it is 1 by default. Value Range: [1,∞); when the pages exceed total pages, show the last page|
-|**pageSize**|Integer|False|20|Paging size; it is 20 by default. Value Range: [10, 100]|
+|**pageSize**|Integer|False|20|Paging Size: 20 by default. Value Range: [10, 100]|
 
 ### Filter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**name**|String|True||Name of Filter Requirements|
-|**operator**|String|False||Operator of filter requirements is eq by default|
-|**values**|String[]|True||Value of Filter Requirements|
+|**name**|String|True| |Name of Filter Requirements|
+|**operator**|String|False| |Operator of filter requirements is eq by default|
+|**values**|String[]|True| |Value of Filter Requirements|
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
@@ -62,7 +62,7 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/elasticIps/
 |**chargeStartTime**|String|The start time of the billing shall be subject to ISO8601, with the UTC time used in the format of YYYY-MM-DDTHH:mm:ssZ|
 |**chargeStatus**|String|Cost Payment Status, the value is respectively normal, overdue and arrear.|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

@@ -12,48 +12,48 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/executingJob:list
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
+|**regionId**|String|True| |Region ID|
 
 ## Request parameter
 None
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
+|**requestId**|String| |
+|**result**|Result| |
 
 
 ### Result
 |Name|Type|Description|
 |---|---|---|
 |**data**|JmrPlanViewModel[]|Execution Plan List|
-|**message**|String||
-|**status**|String||
+|**message**|String| |
+|**status**|String| |
 ### JmrPlanViewModel
 |Name|Type|Description|
 |---|---|---|
-|**az**|String||
-|**clusterId**|String||
-|**clusterName**|String||
+|**az**|String| |
+|**clusterId**|String| |
+|**clusterName**|String| |
 |**createTime**|String|Creation Time|
 |**cronExpression**|String|Time After Formatt|
 |**dataCenter**|String|Data Center, i.e. regionId|
-|**description**|String||
+|**description**|String| |
 |**failurePolicy**|String|Policy adopted when task scheduling is failed|
-|**isSync**|Boolean||
-|**jobGroup**|String||
-|**jobIds**|String||
+|**isSync**|Boolean| |
+|**jobGroup**|String| |
+|**jobIds**|String| |
 |**jobTrigger**|String|Trigger|
 |**modifyTime**|String|Modification Time|
-|**orderBy**|String||
+|**orderBy**|String| |
 |**planId**|Number|Task Scheduling id|
-|**planName**|String||
-|**planStatus**|String||
-|**planType**|String||
+|**planName**|String| |
+|**planStatus**|String| |
+|**planType**|String| |
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

@@ -49,7 +49,7 @@ v1
 |**getTaskList**|POST|Obtain the operation record of a job|
 |**getWorkFlowList**|POST|Obtain the workflow list|
 |**getWorkFlowTrackerList**|POST|Obtain the workflow operation record list|
-|**idataCluster**|GET|Query the cluster list corresponding to the user\-assigned clusterId and related sevice information|
+|**idataCluster**|GET|Query the cluster list corresponding to the user\-assigned clusterId and related service information|
 |**isValidJobName**|POST|Verify whether the job name is valid|
 |**isValidPlanName**|POST|Verify whether the execution plan name is available|
 |**modifyCronJob**|POST|Modify the execution plan of deployment job|

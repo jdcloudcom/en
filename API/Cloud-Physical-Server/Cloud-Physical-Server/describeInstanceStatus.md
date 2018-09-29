@@ -2,7 +2,7 @@
 
 
 ## Description
-Query the Hardware Monitoring Information of a Single Cloud Physical Server
+Query the hardware monitoring information of a single Cloud Physical Server
 
 ## Request method
 GET
@@ -12,29 +12,29 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:describ
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**instanceId**|String|True||Cloud Physical Server ID|
-|**regionId**|String|True||Region ID, the Region and Availability Zone supported by the Cloud Physical Servers can be obtained by calling APIs (describeRegions)|
+|**instanceId**|String|True| |Cloud Physical Server ID|
+|**regionId**|String|True| |Region ID, the Region and Availability Zone Supported by the Cloud Physical Servers can be Called by Calling APIs (describeRegions)|
 
 ## Request parameter
 None
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
+|**requestId**|String| |
+|**result**|Result| |
 
 
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**cpus**|Boolean|Whether the CPU Status is Normal|
-|**disks**|Boolean|Whether the Hard Disk Status is Normal|
-|**mems**|Boolean|Whether the Memory Status is Normal|
-|**nics**|Boolean|Whether the Network Interface Status is Normal|
+|**cpus**|Boolean|Whether the CPU status is normal|
+|**disks**|Boolean|Whether the hard disk status is normal|
+|**mems**|Boolean|Whether the memory status is normal|
+|**nics**|Boolean|Whether the network interface status is normal|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

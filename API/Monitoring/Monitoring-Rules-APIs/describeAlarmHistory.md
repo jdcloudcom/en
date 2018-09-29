@@ -12,25 +12,25 @@ https://monitor.jdcloud-api.com/v1/regions/{regionId}/alarmHistory
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
+|**regionId**|String|True| |Region ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**endTime**|String|True||Query end time of data, current time by default, it can enter long-type time, and it also can enter yyyy-MM-dd'T’HH:mm:ssZ type time|
-|**id**|String|False||ID of Alarm Rule|
-|**pageNumber**|Integer|False||Page; 1 by default, the value range: [1,∞)|
-|**pageSize**|Integer|False||Paging size; it is 20 by default; value range[10, 100]|
-|**resourceId**|String|False||Resource Id|
-|**serviceCode**|String|False||Product Name|
-|**startTime**|String|True||Query start time of data, 24 hours ago by default, it can enter long-type time, and it also can enter yyyy-MM-dd'T’HH:mm:ssZ type time|
+|**endTime**|String|True| |Query end time of data, current time by default, it can enter long-type time, and it also can enter yyyy-MM-dd'T’HH:mm:ssZ type time|
+|**id**|String|False| |ID of Alarm Rule|
+|**pageNumber**|Integer|False| |Page; 1 by default, the value range: [1,∞)|
+|**pageSize**|Integer|False| |Paging size; 20 by default; value range[10, 100]|
+|**resourceId**|String|False| |Resource Id|
+|**serviceCode**|String|False| |Product Name|
+|**startTime**|String|True| |Query start time of data, 24 hours ago by default, it can enter long-type time, and it also can enter yyyy-MM-dd'T’HH:mm:ssZ type time|
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
-|**result**|Result||
+|**result**|Result| |
 
 
 ### Result
@@ -54,7 +54,7 @@ https://monitor.jdcloud-api.com/v1/regions/{regionId}/alarmHistory
 |**metricName**|String|Name of Rule ID Monitoring Item|
 |**noticePeriod**|Integer|Notification Period Unit: Hour|
 |**noticeTime**|String|Alarm Time|
-|**operation**|String|'>=、>、<、<=、==、！='|
+|**operation**|String|>=, >, <, <=, ==, !=|
 |**period**|Integer|Statistical Period (Unit: Minute)|
 |**region**|String|Region Information|
 |**resourceId**|String|Resource ID Applied by This Rule|
@@ -64,7 +64,7 @@ https://monitor.jdcloud-api.com/v1/regions/{regionId}/alarmHistory
 |**times**|Integer|Alarm after how many times|
 |**value**|Number|Alarm Value|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

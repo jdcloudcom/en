@@ -2,7 +2,7 @@
 
 
 ## Description
-Query Role Details
+Query role details
 
 ## Request method
 GET
@@ -12,17 +12,17 @@ https://iam.jdcloud-api.com/v1/role/{roleName}
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**roleName**|String|True||Role Name|
+|**roleName**|String|True| |Role Name|
 
 ## Request parameter
 None
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
+|**requestId**|String| |
+|**result**|Result| |
 
 
 ### Result
@@ -42,7 +42,7 @@ None
 |**roleId**|String|Role ID|
 |**roleName**|String|Role Name|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

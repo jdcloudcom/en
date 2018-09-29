@@ -2,7 +2,7 @@
 
 
 ## Description
-Modify Backup Policy
+Modify backup policy
 
 ## Request method
 POST
@@ -12,30 +12,30 @@ https://mongodb.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/bac
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**instanceId**|String|True||Instance ID|
-|**regionId**|String|True||Region ID|
+|**instanceId**|String|True| |Instance ID|
+|**regionId**|String|True| |Region ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**preferredBackupTime**|String|True||Backup Time, Format: HH:mmZ- HH:mmZ, only integral point allowed with interval of 1 hour.|
+|**preferredBackupTime**|String|True| |Backup Time, Format: HH:mmZ- HH:mmZ, only integral point allowed with interval of 1 hour.|
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
+|**requestId**|String| |
+|**result**|Result| |
 
 
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**backupRetentionPeriod**|String||
-|**preferredBackupPeriod**|String||
-|**preferredBackupWindow**|String||
+|**backupRetentionPeriod**|String| |
+|**preferredBackupPeriod**|String| |
+|**preferredBackupWindow**|String| |
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

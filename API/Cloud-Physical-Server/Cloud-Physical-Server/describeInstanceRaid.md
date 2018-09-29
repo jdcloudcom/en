@@ -2,7 +2,7 @@
 
 
 ## Description
-Query the Installed RAID Information of a Single Cloud Physical Server, Including the System Disk RAID Information and Data Disk RAID Information
+Query the installed RAID information of a single Cloud Physical Server, including the system disk RAID information and data disk RAID information
 
 ## Request method
 GET
@@ -12,18 +12,18 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:describ
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**instanceId**|String|True||Cloud Physical Server ID|
-|**regionId**|String|True||Region ID, the Region and Availability Zone supported by the Cloud Physical Servers can be obtained by calling APIs (describeRegions)|
+|**instanceId**|String|True| |Cloud Physical Server ID|
+|**regionId**|String|True| |Region ID, the Region and Availability Zone Supported by the Cloud Physical Servers can be Called by Calling APIs (describeRegions)|
 
 ## Request parameter
 None
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
+|**requestId**|String| |
+|**result**|Result| |
 
 
 ### Result
@@ -34,7 +34,7 @@ None
 |**sysRaidType**|String|System Disk RAID Type|
 |**sysRaidTypeId**|String|System Disk RAID Type ID|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

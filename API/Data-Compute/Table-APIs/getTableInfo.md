@@ -12,29 +12,29 @@ https://xdata.jdcloud-api.com/v1/regions/{regionId}/dwTable/{tableName}
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
-|**tableName**|String|True||Datasheet Name|
+|**regionId**|String|True| |Region ID|
+|**tableName**|String|True| |Datasheet Name|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**databaseName**|String|True||Database Name|
-|**instanceName**|String|True||Instance Name|
+|**databaseName**|String|True| |Database Name|
+|**instanceName**|String|True| |Instance Name|
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
+|**requestId**|String| |
+|**result**|Result| |
 
 
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**data**|DwTable||
-|**message**|String||
-|**status**|Boolean||
+|**data**|DwTable| |
+|**message**|String| |
+|**status**|Boolean| |
 ### DwTable
 |Name|Type|Description|
 |---|---|---|
@@ -45,7 +45,7 @@ https://xdata.jdcloud-api.com/v1/regions/{regionId}/dwTable/{tableName}
 |**encryption**|String|Is it encrypted or not|
 |**hiveFileFormat**|String|File Storage Type|
 |**hiveObjectPrivileges**|DwHiveObjectPrivileges|Hive Table Permission Information|
-|**id**|Integer|Database id|
+|**id**|Integer|Database ID|
 |**lastUpdateTime**|String|Last Update Time|
 |**location**|String|Location|
 |**owner**|String|Owner|
@@ -68,7 +68,7 @@ https://xdata.jdcloud-api.com/v1/regions/{regionId}/dwTable/{tableName}
 |**status**|Boolean|Status|
 |**update**|Boolean|Update Permission|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

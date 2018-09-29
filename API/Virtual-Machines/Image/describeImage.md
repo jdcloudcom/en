@@ -9,70 +9,70 @@ Query image details.
 GET
 
 ## Request address
-https://vm.jdcloud-api.com/v1/regions/{regionId}/images/{imageId}
+https://vm.jdcloud-api.com/1.0.3/regions/{regionId}/images/{imageId}
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**imageId**|String|True||Image ID|
-|**regionId**|String|True||Region ID|
+|**imageId**|String|True| |Image ID|
+|**regionId**|String|True| |Region ID|
 
 ## Request parameter
 None
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
+|**requestId**|String| |
+|**result**|Result| |
 
 
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**image**|Image|image details|
+|**image**|Image|Image Details|
 ### Image
 |Name|Type|Description|
 |---|---|---|
-|**architecture**|String|Image architecture. i386, x86_64|
+|**architecture**|String|Image Architecture. Value: i386, x86_64|
 |**createTime**|String|Creation Time|
-|**dataDisks**|InstanceDiskAttachment[]|Package image data disk mapping information|
-|**desc**|String|Image description|
+|**dataDisks**|InstanceDiskAttachment[]|Package Image Data Disk Mapping Information|
+|**desc**|String|Image Description|
 |**imageId**|String|Image ID|
-|**imageSource**|String|image source,  jcloud: public image,  marketplace: image marketplace,  image self: user's own image share: image shared by other users|
-|**name**|String|Image name|
+|**imageSource**|String|Image source, jcloud: public image, marketplace: image marketplace, image self: user's own image share: image shared by other users|
+|**name**|String|Image Name|
 |**osType**|String|OS type. Value: [windows, linux]|
-|**osVersion**|String|OS version.|
-|**platform**|String|OS Release version. Ubuntu, CentOS, Windows Server|
-|**progress**|String|progress in image replication,  in percentage,  for example: 80|
+|**osVersion**|String|OS Version.|
+|**platform**|String|OS Release Version. Ubuntu, CentOS, Windows Server|
+|**progress**|String|Progress in image replication, in percentage, for example: 80|
 |**rootDeviceType**|String|The system disk type supported by the image. localDisk: Support system disk for this site.cloudDisk: Support cloud disk system disk|
-|**sizeMB**|Integer|Image document size|
+|**sizeMB**|Integer|Image Document Size|
 |**snapshotId**|String|The snapshot ID of the Cloud Disk Service for creating the system disk of the cloud disk, when the system disk type is image of the local disk, this parameter is blank.|
 |**status**|String|<a href='https://www.jdcloud.com/help/detail/3871/isCatalog/1'>refer to image status</a>|
-|**systemDisk**|InstanceDiskAttachment|System disk configuration|
-|**systemDiskSizeGB**|Integer|Image system disk size|
+|**systemDisk**|InstanceDiskAttachment|System Disk Configuration|
+|**systemDiskSizeGB**|Integer|Image System Disk Size|
 ### InstanceDiskAttachment
 |Name|Type|Description|
 |---|---|---|
 |**autoDelete**|Boolean|Deleting this disk with the VM automatically when the machine is deleted. The default value is true, which cannot be changed by local.<br>This parameter does not take effect if the data disk in the VM is a monthly package.<br>This parameter does not take effect if the data disk in the VM is a shared data disk.<br>|
-|**cloudDisk**|Disk|Cloud Disk Service instance type|
+|**cloudDisk**|Disk|Cloud Disk Service Instance Type|
 |**deviceName**|String|Data disk logical attach point, value range: vda, vdb, vdc, vdd, vde, vdb, vdg, vdh, vdi|
-|**diskCategory**|String|Disk classification, the local disk or data disk is taken.<br>The system disk supports local disk or Cloud Disk Service. The system disk selects local Type, and the user must use the image localDisk type; If the system disk selects the cloud type, the user must use the image of the cloudDisk type.<br>The data disk supports Cloud Disk Service only.<br>|
-|**localDisk**|LocalDisk|Local disk instance type|
+|**diskCategory**|String|Disk classification, the local disk or data disk is taken.<br>The system disk supports local disk or Cloud Disk Service. The system disk selects local Type, and the user must use the image localDisk type; if the system disk selects the cloud type, the user must use the image of the cloudDisk type.<br>The data disk supports Cloud Disk Service only.<br>|
+|**localDisk**|LocalDisk|Local Disk Instance Type|
 ### Disk
 |Name|Type|Description|
 |---|---|---|
 |**attachments**|DiskAttachment[]|Attach Information|
-|**az**|String|AZ, to which the Cloud Disk belongs|
+|**az**|String|AZ, to which the cloud disk belongs|
 |**charge**|Charge|Configuration Information for Cloud Disk Service Billing|
 |**createTime**|String|Cloud Disk Creating Time|
-|**description**|String|Description of the Cloud Disk. It allows you to enter all characters under UTF-8 encoding, but no more than 256 characters.|
+|**description**|String|Description of the cloud disk. It allows you to enter all characters under UTF-8 encoding, but no more than 256 characters.|
 |**diskId**|String|Cloud Disk ID|
 |**diskSizeGB**|Integer|Disk Size, in GiB|
 |**diskType**|String|Disk Type, ssd or premium-hdd|
-|**multiAttachable**|Boolean|Does the Cloud Disk service support multiple attachments?|
-|**name**|String|Name of the Cloud Disk. Only Chinese characters, numbers, uppercase and lowercase letters, English underscores '_' or hyphens '-' are allowed. It is not allowed to be blank and shall not exceed 32 characters.|
-|**snapshotId**|String|Snapshot ID used to create the Cloud Disk|
+|**multiAttachable**|Boolean|Does the Cloud Disk Service support multiple attachments?|
+|**name**|String|Name of the cloud disk only allows Chinese characters, numbers, uppercase and lowercase letters, English underscores '_' or hyphens '-'. It is not allowed to be blank and shall not exceed 32 characters.|
+|**snapshotId**|String|Snapshot ID used to create a cloud disk|
 |**status**|String|Status of the Cloud Disk, creating, available, in-use, extending, restoring, deleting, deleted, error_create, error_delete, error_restore or error_extend|
 |**tags**|Tag[]|Tag Information|
 ### DiskAttachment
@@ -82,7 +82,7 @@ None
 |**attachmentId**|String|Attach ID|
 |**diskId**|String|Cloud Disk ID|
 |**instanceId**|String|ID of Instance Attached|
-|**instanceType**|String|Type of the Instance Attached, vm or nc|
+|**instanceType**|String|Type of the Instance Attached, value: vm or nc|
 |**status**|String|Attaching Status, 'attaching', 'attached', 'detaching' or 'detached'|
 ### Charge
 |Name|Type|Description|
@@ -100,15 +100,15 @@ None
 ### LocalDisk
 |Name|Type|Description|
 |---|---|---|
-|**diskSizeGB**|Integer|Disk size|
-|**diskType**|String|Disk type, value range {premium-hdd,  ssd}|
+|**diskSizeGB**|Integer|Disk Size|
+|**diskType**|String|Disk Type, value range {premium-hdd, ssd}|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**400**|Invalid parameter|
 |**401**|Authentication failed|
-|**404**|Not found  |
+|**404**|Not Found  |
 |**503**|Service unavailable|
 |**200**|OK|
 |**500**|Internal server error|

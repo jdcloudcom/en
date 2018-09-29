@@ -2,7 +2,8 @@
 
 
 ## Introduction
-Object Storage Service APIs, mainly include query Bucket list, create Bucket, delete Bucket and query whether Bucket exists or not. For more APIs, see: https://docs.jdcloud.com/cn/object-storage-service/compatibility-api-overview
+Object Storage Service APIs, mainly include query Bucket list, create Bucket, delete Bucket and query whether Bucket exists or not. For more APIs, see: https://www.jdcloud.com/help/detail/1901/isCatalog/1
+
 
 ### Version
 v1

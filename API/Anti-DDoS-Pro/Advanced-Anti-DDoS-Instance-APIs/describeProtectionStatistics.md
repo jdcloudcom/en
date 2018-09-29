@@ -12,31 +12,31 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instance/describeProtection
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Belonging Region ID|
+|**regionId**|String|True| |Belonging Region ID|
 
 ## Request parameter
 None
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
+|**requestId**|String| |
+|**result**|Result| |
 
 
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**data**|ProtectionStatistics||
+|**data**|ProtectionStatistics| |
 ### ProtectionStatistics
 |Name|Type|Description|
 |---|---|---|
-|**instancesCount**|Integer|Instance Count|
+|**instancesCount**|Integer|Instance Counts|
 |**protectedCount**|Integer|Count of Protected Instances|
 |**protectedDay**|Integer|Days of Protection|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

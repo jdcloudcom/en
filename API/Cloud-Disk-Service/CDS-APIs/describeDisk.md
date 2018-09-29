@@ -2,7 +2,7 @@
 
 
 ## Description
-Query details of a Cloud Disk
+Query details of a cloud disk
 
 ## Request method
 GET
@@ -12,38 +12,37 @@ https://disk.jdcloud-api.com/v1/regions/{regionId}/disks/{diskId}
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**diskId**|String|True||Cloud Disk ID|
-|**regionId**|String|True||Region ID|
+|**diskId**|String|True| |Cloud Disk ID|
+|**regionId**|String|True| |Region ID|
 
 ## Request parameter
 None
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
-|**result**|Result|Cloud Disk details|
-
+|**result**|Result|Query cloud disk details|
 
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**disk**|Disk||
+|**disk**|Disk| |
 ### Disk
 |Name|Type|Description|
 |---|---|---|
-|**attachments**|DiskAttachment[]|Attachment Information|
-|**az**|String|Available Zone, to which the Cloud Disk belongs|
-|**charge**|Charge|Cloud Disk Billing Configuration|
-|**createTime**|String|Cloud Disk Creation Time|
-|**description**|String|Description of the Cloud Disk. It allows you to enter all characters under UTF-8 encoding, but no more than 256 characters.|
+|**attachments**|DiskAttachment[]|Attach Information|
+|**az**|String|AZ, to which the cloud disk belongs|
+|**charge**|Charge|Configuration Information for Cloud Disk Service Billing|
+|**createTime**|String|Cloud Disk Creating Time|
+|**description**|String|Description of the cloud disk. It allows you to enter all characters under UTF-8 encoding, but no more than 256 characters.|
 |**diskId**|String|Cloud Disk ID|
 |**diskSizeGB**|Integer|Disk Size, in GiB|
 |**diskType**|String|Disk Type, ssd or premium-hdd|
-|**multiAttachable**|Boolean|Is multiple attachment True or False|
-|**name**|String|Name of the Cloud Disk. Only Chinese characters, numbers, uppercase and lowercase letters, English underscores '_' and hyphens '-' are allowed. It is not allowed to be blank and shall not exceed 32 characters.|
-|**snapshotId**|String|Snapshot ID used to create the Cloud Disk|
+|**multiAttachable**|Boolean|Does the Cloud Disk Service support multiple attachments?|
+|**name**|String|Name of the cloud disk only allows Chinese characters, numbers, uppercase and lowercase letters, English underscores '_' or hyphens '-'. It is not allowed to be blank and shall not exceed 32 characters.|
+|**snapshotId**|String|Snapshot ID used to create a cloud disk|
 |**status**|String|Status of the Cloud Disk, creating, available, in-use, extending, restoring, deleting, deleted, error_create, error_delete, error_restore or error_extend|
 |**tags**|Tag[]|Tag Information|
 ### DiskAttachment
@@ -52,8 +51,8 @@ None
 |**attachTime**|String|Attach Time|
 |**attachmentId**|String|Attach ID|
 |**diskId**|String|Cloud Disk ID|
-|**instanceId**|String|Instance ID|
-|**instanceType**|String|Instance Type, vm or nc|
+|**instanceId**|String|ID of Instance Attached|
+|**instanceType**|String|Type of the Instance Attached, value: vm or nc|
 |**status**|String|Attaching Status, 'attaching', 'attached', 'detaching' or 'detached'|
 ### Charge
 |Name|Type|Description|
@@ -69,7 +68,7 @@ None
 |**key**|String|Tag Key|
 |**value**|String|Tag Value|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**400**|Invalid parameter|

@@ -12,22 +12,22 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domain/{domainId}/
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**domainId**|String|True||Domain Name ID|
-|**regionId**|String|True||Region ID to which the instance belongs|
+|**domainId**|String|True| |Domain Name ID|
+|**regionId**|String|True| |Region ID to which the instance belongs|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**loadMode**|Integer|False||Display Mode|
-|**packId**|Integer|True||Package ID|
-|**viewId**|Integer|True||View ID, 0 by default|
+|**loadMode**|Integer|False| |Display Mode|
+|**packId**|Integer|True| |Package ID|
+|**viewId**|Integer|True| |View ID, 0 by default|
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String|ID of this request|
-|**result**|Result||
+|**requestId**|String|ID of This Request|
+|**result**|Result| |
 
 
 ### Result
@@ -37,13 +37,13 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domain/{domainId}/
 ### ViewTree
 |Name|Type|Description|
 |---|---|---|
-|**children**|ViewTree[]||
+|**children**|ViewTree[]| |
 |**disabled**|Boolean|Whether is this resolution line disabled|
 |**label**|String|Name of Resolution Line|
 |**leaf**|Boolean|Whether the data is a leaf node|
 |**value**|Integer|Resolution Line ID|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

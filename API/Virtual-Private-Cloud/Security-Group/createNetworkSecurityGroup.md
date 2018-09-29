@@ -2,7 +2,7 @@
 
 
 ## Description
-Create Security Group
+Create security group
 
 ## Request method
 POST
@@ -12,17 +12,17 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkSecurityGroups/
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
+|**regionId**|String|True| |Region ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**description**|String|False||Description, all characters allowed to enter under UTF-8 coding, which is not exceed 256 characters|
-|**networkSecurityGroupName**|String|True||Security Group name, only allowed to enter Chinese, numbers, capital and lowercase letters, English underline “_” and line-through “-”, must provide a name which cannot exceed 32 characters.|
-|**vpcId**|String|True||VPC ID|
+|**description**|String|False| |Description, allow all characters under UTF-8 coding, which cannot exceed 256 characters|
+|**networkSecurityGroupName**|String|True| |Security Group name, only allows Chinese, numbers, capital and lowercase letters, English underline '_' and line-through '-', must provide a name which cannot exceed 32 characters.|
+|**vpcId**|String|True| |VPC ID|
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
@@ -32,9 +32,9 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkSecurityGroups/
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**networkSecurityGroupId**|String|Security Group ID|
+|**networkSecurityGroupId**|String|Security group ID|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

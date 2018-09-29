@@ -13,24 +13,24 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/containers/{containerId}
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**containerId**|String|True||Container ID|
-|**regionId**|String|True||Region ID|
+|**containerId**|String|True| |Container ID|
+|**regionId**|String|True| |Region ID|
 
 ## Request parameter
 None
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
+|**requestId**|String| |
+|**result**|Result| |
 
 
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**container**|Container||
+|**container**|Container| |
 ### Container
 |Name|Type|Description|
 |---|---|---|
@@ -43,19 +43,19 @@ None
 |**description**|String|Container Description |
 |**elasticIpAddress**|String|Elastic IP Associated to Primary IP of Primary Network Interface |
 |**elasticIpId**|String|Elastic IP ID Associated to Primary IP of Primary Network Interface |
-|**envs**|EnvVar[]|Environment variable for execution by dynamically-assigned container |
-|**hostAliases**|HostAlias[]|Domain and IP Mapping Information |
+|**envs**|EnvVar[]|Environment Variable for Execution by Dynamically-assigned Container |
+|**hostAliases**|HostAlias[]|Domain and IP Mapping Information|
 |**hostname**|String|Machine Name |
 |**image**|String|Image Name |
 |**instanceType**|String|Instance Type Family |
-|**launchTime**|String|Creation Time |
-|**logConfiguration**|LogConfiguration|Container Log Configuration Information |
-|**name**|String|Container Name |
+|**launchTime**|String|Creation Time|
+|**logConfiguration**|LogConfiguration|Container Log Configuration Information|
+|**name**|String|Container Name|
 |**primaryNetworkInterface**|InstanceNetworkInterfaceAttachment|Primary Network Interface Information |
 |**privateIpAddress**|String|Primary IP Address of Primary Network Interface |
 |**reason**|String|Container Termination Reason |
 |**rootVolume**|VolumeMount|Root Volume Information |
-|**secondaryNetworkInterfaces**|InstanceNetworkInterfaceAttachment[]|Elastic Network Interface Information |
+|**secondaryNetworkInterfaces**|InstanceNetworkInterfaceAttachment[]|Elastic Network Interface Information|
 |**secret**|String|Name Cited by Secret |
 |**status**|String|Container Status |
 |**subnetId**|String|ID of Primary Network Interface’s Subnet |
@@ -108,8 +108,8 @@ None
 ### LogOption
 |Name|Type|Description|
 |---|---|---|
-|**key**|String||
-|**value**|String||
+|**key**|String| |
+|**value**|String| |
 ### InstanceNetworkInterfaceAttachment
 |Name|Type|Description|
 |---|---|---|
@@ -121,14 +121,14 @@ None
 ### InstanceNetworkInterface
 |Name|Type|Description|
 |---|---|---|
-|**description**|String|Description|
+|**description**|String|Description |
 |**macAddress**|String|Ethernet Address|
 |**networkInterfaceId**|String|Elastic Network Interface ID|
 |**primaryIp**|NetworkInterfacePrivateIp|Primary IP of Network Interface|
 |**sanityCheck**|Boolean|Source and Target IP Address Verification, with value 0 or 1|
-|**secondaryIps**|NetworkInterfacePrivateIp[]||
+|**secondaryIps**|NetworkInterfacePrivateIp[]| |
 |**securityGroups**|SecurityGroupSimple[]|Security Group List|
-|**vpcId**|String|Virtual network ID|
+|**vpcId**|String|Virtual Network ID|
 ### NetworkInterfacePrivateIp
 |Name|Type|Description|
 |---|---|---|
@@ -141,7 +141,7 @@ None
 |**groupId**|String|Security Group ID|
 |**groupName**|String|Security Group Name|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**400**|Invalid parameter|

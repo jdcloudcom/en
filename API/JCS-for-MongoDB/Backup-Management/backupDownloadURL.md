@@ -12,24 +12,24 @@ https://mongodb.jdcloud-api.com/v1/regions/{regionId}/backups/{backupId}/downloa
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**backupId**|String|True||backup ID|
-|**regionId**|String|True||Region ID|
+|**backupId**|String|True| |Backup ID|
+|**regionId**|String|True| |Region ID|
 
 ## Request parameter
 None
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
+|**requestId**|String| |
+|**result**|Result| |
 
 
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**backupDownloadURL**|BackupDownloadURL||
+|**backupDownloadURL**|BackupDownloadURL| |
 ### BackupDownloadURL
 |Name|Type|Description|
 |---|---|---|
@@ -38,7 +38,7 @@ None
 |**backupName**|String|Backup Name|
 |**linkExpiredTime**|String|Expiration Time of Public Network and Intranet Download Link|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

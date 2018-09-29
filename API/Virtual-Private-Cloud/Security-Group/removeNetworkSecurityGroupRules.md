@@ -2,7 +2,7 @@
 
 
 ## Description
-Remove Security Group Rule
+Remove security group rule
 
 ## Request method
 POST
@@ -12,23 +12,23 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkSecurityGroups/{network
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**networkSecurityGroupId**|String|True||NetworkSecurityGroup ID|
-|**regionId**|String|True||Region ID|
+|**networkSecurityGroupId**|String|True| |NetworkSecurityGroup ID|
+|**regionId**|String|True| |Region ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**ruleIds**|String[]|True||Security Group Rule ID List|
+|**ruleIds**|String[]|True| |Security Group Rule ID List|
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
 
 
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|Successful operation|

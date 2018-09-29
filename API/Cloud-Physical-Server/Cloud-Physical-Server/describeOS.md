@@ -12,25 +12,25 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/os
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID, the Region and Availability Zone supported by the Cloud Physical Servers can be obtained by calling APIs (describeRegions)|
+|**regionId**|String|True| |Region ID, the Region and Availability Zone Supported by the Cloud Physical Servers can be Called by Calling APIs (describeRegions)|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**deviceType**|String|True||Instance Type Family, the APIs (describeDeviceTypes) May Be Called to Obtain the Instance Type Family of the Specific Region, such as: cps.c.normal|
+|**deviceType**|String|True| |Instance Type Family, the APIs (describeDeviceTypes) may be called to obtain the instance type family of a specific region, such as: cps.c.normal|
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
+|**requestId**|String| |
+|**result**|Result| |
 
 
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**oss**|Os[]||
+|**oss**|Os[]| |
 ### Os
 |Name|Type|Description|
 |---|---|---|
@@ -40,7 +40,7 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/os
 |**osTypeId**|String|Operating System Type ID|
 |**osVersion**|String|Operating System Version, such as 14.04/16.04|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

@@ -12,19 +12,19 @@ https://rds.jdcloud-api.com/0.2.9/regions/{regionId}/instances/{instanceId}/audi
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**instanceId**|String|True||RDS instance ID, which uniquely identifies an RDS instance|
-|**regionId**|String|True||Region code, with range detailed in [Regions and Availability Zone Comparison Table](../Enum-Definitions/Regions-AZ.md)|
+|**instanceId**|String|True| |RDS instance ID, which uniquely identifies an RDS instance|
+|**regionId**|String|True| |Region code, with range detailed in [Regions and Availability Zone Comparison Table](../Enum-Definitions/Regions-AZ.md)|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**fileName**|String|True||Audit File Name|
+|**fileName**|String|True| |Audit File Name|
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result||
+|**result**|Result| |
 
 
 ### Result
@@ -33,7 +33,7 @@ https://rds.jdcloud-api.com/0.2.9/regions/{regionId}/instances/{instanceId}/audi
 |**internalURL**|String|Intranet download link, if download is not available currently, it is an empty string|
 |**publicURL**|String|Public network download link, if download is not available currently, it is an empty string|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

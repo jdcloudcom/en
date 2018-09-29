@@ -12,25 +12,25 @@ https://monitor.jdcloud-api.com/v1/regions/{regionId}/alarms
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
+|**regionId**|String|True| |Region ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**enabled**|Integer|False||Rule Status: 1 is Enable, 0 is Disable|
-|**isAlarming**|Integer|False||Whether it is the rule that is alarming, 0 is neglect, 1 is yes, only one can take effect at the same time as status, isAlarming takes priority to take effect|
-|**pageNumber**|Integer|False||Page; 1 by default, the value range: [1,∞)|
-|**pageSize**|Integer|False||Paging size; it is 20 by default; value range[10, 100]|
-|**resourceId**|String|False||Resource Id|
-|**serviceCode**|String|False||Product Name|
-|**status**|Integer|False||Rule Alarm Status, 1: Normal, 2: Alarm, 4: Insufficient Data|
+|**enabled**|Integer|False| |Rule Status: 1 is Enable, 0 is Disable|
+|**isAlarming**|Integer|False| |Whether it is the rule that is alarming, 0 is neglect, 1 is yes, only one can take effect at the same time as status, isAlarming takes priority to take effect|
+|**pageNumber**|Integer|False| |Page; 1 by default, the value range: [1,∞)|
+|**pageSize**|Integer|False| |Paging size; 20 by default; value range[10, 100]|
+|**resourceId**|String|False| |Resource Id|
+|**serviceCode**|String|False| |Product Name|
+|**status**|Integer|False| |Rule Alarm Status, 1: Normal, 2: Alarm, 4: Insufficient Data|
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
-|**result**|Result||
+|**result**|Result| |
 
 
 ### Result
@@ -54,7 +54,7 @@ https://monitor.jdcloud-api.com/v1/regions/{regionId}/alarms
 |**metricName**|String|Name of Rule ID Monitoring Item|
 |**noticePeriod**|Integer|Notification Period Unit: Hour|
 |**noticeTime**|String|Alarm time, this field is valid when querying the alarming rule|
-|**operation**|String|'>=、>、<、<=、==、！='|
+|**operation**|String|>=, >, <, <=, ==, !=|
 |**period**|Integer|Statistical Period (Unit: Minute)|
 |**region**|String|Region Information|
 |**resourceId**|String|Resource ID Applied by This Rule|
@@ -65,7 +65,7 @@ https://monitor.jdcloud-api.com/v1/regions/{regionId}/alarms
 |**times**|Integer|Alarm after how many times|
 |**value**|Number|Alarm value, this field is valid when querying the alarming rule|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

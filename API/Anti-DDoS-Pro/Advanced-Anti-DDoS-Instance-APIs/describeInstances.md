@@ -12,28 +12,28 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Belonging Region ID|
+|**regionId**|String|True| |Belonging Region ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**name**|String|False||Instance name, fuzzy matching available|
-|**pageNumber**|Integer|False||Page number; 1 by default|
-|**pageSize**|Integer|False||Paging size; it is 20 by default; value range [10, 100]|
+|**name**|String|False| |Instance Name, Fuzzy Matching Available|
+|**pageNumber**|Integer|False| |Page Number: 1 by default|
+|**pageSize**|Integer|False| |Paging Size: 20 by default; value range [10, 100]|
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
+|**requestId**|String| |
+|**result**|Result| |
 
 
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**dataList**|Instance[]||
-|**totalCount**|Integer||
+|**dataList**|Instance[]| |
+|**totalCount**|Integer| |
 ### Instance
 |Name|Type|Description|
 |---|---|---|
@@ -69,7 +69,7 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances
 |**urlWhitelistStatus**|Integer|url White List Status, 0->disabled  1->enabled|
 |**webRuleCount**|Integer|Web Service Rules|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

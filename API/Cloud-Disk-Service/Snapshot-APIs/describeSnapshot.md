@@ -2,7 +2,7 @@
 
 
 ## Description
-Query Cloud Disk Snapshot Details
+Query cloud disk snapshot details
 
 ## Request method
 GET
@@ -12,14 +12,14 @@ https://disk.jdcloud-api.com/v1/regions/{regionId}/snapshots/{snapshotId}
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
-|**snapshotId**|String|True||Snapshot ID|
+|**regionId**|String|True| |Region ID|
+|**snapshotId**|String|True| |Snapshot ID|
 
 ## Request parameter
 None
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
@@ -29,7 +29,7 @@ None
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**snapshot**|Snapshot||
+|**snapshot**|Snapshot| |
 ### Snapshot
 |Name|Type|Description|
 |---|---|---|
@@ -38,10 +38,10 @@ None
 |**diskId**|String|Cloud Disk ID used to create the snapshot|
 |**name**|String|Snapshot Name|
 |**snapshotId**|String|Cloud Disk Snapshot ID|
-|**snapshotSizeGB**|Integer|Snapshot Size, in GiB|
-|**status**|String|Snapshot Status, creating, available, in-use, deleting, error_create or error_delete|
+|**snapshotSizeGB**|Integer|Snapshot Size, Unit: GiB|
+|**status**|String|Snapshot Status, Value: creating, available, in-use, deleting, error_create or error_delete|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**400**|Invalid parameter|

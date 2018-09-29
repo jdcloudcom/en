@@ -12,32 +12,32 @@ https://mps.jdcloud-api.com/v1/regions/{regionId}/buckets/{bucketName}/imageStyl
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**bucketName**|String|True||Bucket Name|
-|**regionId**|String|True||Zone ID|
+|**bucketName**|String|True| |Bucket Name|
+|**regionId**|String|True| |Zone ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**styleName**|String|False||Query by Style Name|
+|**styleName**|String|False| |Query by Style Name|
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
+|**requestId**|String| |
+|**result**|Result| |
 
 
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**imageStyleCount**|ImageStyleCount||
+|**imageStyleCount**|ImageStyleCount| |
 ### ImageStyleCount
 |Name|Type|Description|
 |---|---|---|
 |**styleCount**|Integer|Total Number of Image Styles|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
-|**200**|success|
+|**200**|Success|

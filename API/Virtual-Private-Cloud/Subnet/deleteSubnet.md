@@ -2,7 +2,7 @@
 
 
 ## Description
-Delete Subnet
+Delete subnet
 
 ## Request method
 DELETE
@@ -12,21 +12,21 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/subnets/{subnetId}
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
-|**subnetId**|String|True||Subnet ID|
+|**regionId**|String|True| |Region ID|
+|**subnetId**|String|True| |Subnet ID|
 
 ## Request parameter
 None
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
 
 
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**400**|Invalid parameter|

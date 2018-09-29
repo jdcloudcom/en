@@ -12,22 +12,22 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domainDel
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID to which the instance belongs|
+|**regionId**|String|True| |Region ID to which the instance belongs|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**domainId**|Integer|True||Domain Name ID to be Deleted|
+|**domainId**|Integer|True| |Domain Name ID to be Deleted|
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String|ID of this request|
+|**requestId**|String|ID of This Request|
 
 
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

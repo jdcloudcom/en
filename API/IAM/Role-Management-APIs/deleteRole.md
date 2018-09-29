@@ -2,7 +2,7 @@
 
 
 ## Description
-Delete Role
+Delete role
 
 ## Request method
 DELETE
@@ -12,20 +12,20 @@ https://iam.jdcloud-api.com/v1/role/{roleName}
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**roleName**|String|True||Role Name|
+|**roleName**|String|True| |Role Name|
 
 ## Request parameter
 None
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
+|**requestId**|String| |
 
 
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

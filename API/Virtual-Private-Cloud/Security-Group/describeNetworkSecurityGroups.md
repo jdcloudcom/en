@@ -2,7 +2,7 @@
 
 
 ## Description
-Query Security Group List
+Query security group list
 
 ## Request method
 GET
@@ -12,23 +12,23 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkSecurityGroups/
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
+|**regionId**|String|True| |Region ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**filters**|Filter[]|False||networkSecurityGroupIds - Security Group ID list, support multiple IDs<br>networkSecurityGroupNames - Security Group name list, support multiple names<br>VPCId	- VPC ID of Security Group, support single Id<br>|
-|**pageNumber**|Integer|False|1|Page; it is 1 by default. Value Range: [1,∞); when the pages exceed total pages, show the last page|
-|**pageSize**|Integer|False|20|Paging size; it is 20 by default. Value Range: [10, 100]|
+|**filters**|Filter[]|False| |networkSecurityGroupIds - Security group ID list, support multiple IDs<br>networkSecurityGroupNames - Security Group name list, support multiple names<br>VPCId	- VPC ID of Security Group, support single Id<br>|
+|**pageNumber**|Integer|False|1|Page: 1 by default. Value Range: [1,∞); when the pages exceed total pages, show the last page|
+|**pageSize**|Integer|False|20|Paging Size; 20 by default. Value Range: [10, 100]|
 
 ### Filter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**name**|String|True||Name of Filter Requirements|
-|**operator**|String|False||Operator of filter requirements is eq by default|
-|**values**|String[]|True||Value of Filter Requirements|
+|**name**|String|True| |Name of Filter Requirements|
+|**operator**|String|False| |Operator of filter requirements is eq by default|
+|**values**|String[]|True| |Value of Filter Requirements|
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
@@ -38,7 +38,7 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkSecurityGroups/
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**networkSecurityGroups**|NetworkSecurityGroup[]|Security Group Resource Information List|
+|**networkSecurityGroups**|NetworkSecurityGroup[]|Security group resource information list|
 |**totalCount**|Number|Total Number|
 ### NetworkSecurityGroup
 |Name|Type|Description|
@@ -54,15 +54,15 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkSecurityGroups/
 |---|---|---|
 |**addressPrefix**|String|Prefix of Matching Address|
 |**createdTime**|String|Creation Time of Security Group Rule|
-|**description**|String|Description, all characters allowed to enter under UTF-8 coding, which is not exceed 256 characters|
+|**description**|String|Description, allow all characters under UTF-8 coding, which cannot exceed 256 characters|
 |**direction**|Number|Security Group Rule Direction. 0: Inbound Rule; 1: Outbound Rule|
 |**fromPort**|Number|The start transport layer port of rule limit, the default value is 1, if protocol is not a transport layer protocol, the value is constantly 0|
-|**ipVersion**|Number|Matching Address Protocol Revision 4：IPv4|
+|**ipVersion**|Number|Matching Address Protocol Revision 4: IPv4|
 |**protocol**|Number|Rule Limits Protocol. 300:All; 6:TCP; 17:UDP; 1:ICMP|
 |**ruleId**|String|Security Group Rule ID|
 |**toPort**|Number|The end transport layer port of rule limit, the default value is 1, if protocol is not a transport layer protocol, the value is constantly 0|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

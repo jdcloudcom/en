@@ -12,24 +12,24 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domain/{domainId}/
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**domainId**|String|True||Domain Name ID|
-|**regionId**|String|True||Region ID to which the instance belongs|
+|**domainId**|String|True| |Domain Name ID|
+|**regionId**|String|True| |Region ID to which the instance belongs|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**subDomainName**|String|True||Subdomain|
+|**subDomainName**|String|True| |Subdomain|
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String|ID of this request|
+|**requestId**|String|ID of This Request|
 
 
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|
-|**400**|BAD_REQUEST  |
+|**400**|BAD_REQUEST|

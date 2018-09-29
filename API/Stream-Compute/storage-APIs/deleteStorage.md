@@ -2,7 +2,7 @@
 
 
 ## Description
-Delete the Assigned Input
+Delete the assigned input
 
 ## Request method
 DELETE
@@ -12,27 +12,27 @@ https://streamcompute.jdcloud-api.com/v1/regions/{regionId}/storage
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
+|**regionId**|String|True| |Region ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**storageId**|Integer|True||storageId|
+|**storageId**|Integer|True| |storageId|
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
+|**requestId**|String| |
+|**result**|Result| |
 
 
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**message**|String||
+|**message**|String| |
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

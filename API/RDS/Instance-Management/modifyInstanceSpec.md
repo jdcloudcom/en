@@ -12,20 +12,20 @@ https://rds.jdcloud-api.com/0.2.9/regions/{regionId}/instances/{instanceId}:modi
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**instanceId**|String|True||RDS instance ID, which uniquely identifies an RDS instance|
-|**regionId**|String|True||Region code, with range detailed in [Regions and Availability Zone Comparison Table](../Enum-Definitions/Regions-AZ.md)|
+|**instanceId**|String|True| |RDS instance ID, which uniquely identifies an RDS instance|
+|**regionId**|String|True| |Region code, with range detailed in [Regions and Availability Zone Comparison Table](../Enum-Definitions/Regions-AZ.md)|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**newInstanceClass**|String|True||Instance Type after Expansion|
-|**newInstanceStorageGB**|Integer|True||Instance Disk Size after Expansion|
+|**newInstanceClass**|String|True| |Instance Type after Expansion|
+|**newInstanceStorageGB**|Integer|True| |Instance Disk Size after Expansion|
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result||
+|**result**|Result| |
 
 
 ### Result
@@ -33,7 +33,7 @@ https://rds.jdcloud-api.com/0.2.9/regions/{regionId}/instances/{instanceId}:modi
 |---|---|---|
 |**orderId**|String|Generated Order Number|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

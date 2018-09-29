@@ -12,19 +12,19 @@ https://datastar.cn-south-1.jdcloud-api.com/v1/regions/{regionId}/dmp/getPackage
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
+|**regionId**|String|True| |Region ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**deviceIds**|String|True||MD5 (deviceId), multiple MD5 (deviceId) separated by English commas, note: MD5 result is in lowercase.|
+|**deviceIds**|String|True| |MD5 (deviceId), multiple MD5 (deviceId) separated by English commas. Note: MD5 result is in lowercase.|
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID, requests are different at each time|
-|**result**|Result||
+|**result**|Result| |
 
 
 ### Result
@@ -32,9 +32,9 @@ https://datastar.cn-south-1.jdcloud-api.com/v1/regions/{regionId}/dmp/getPackage
 |---|---|---|
 |**data**|String|Map<String,String>>, the serialized character string needs to be reconverted before use. Key is deviceId, value is crowd package Id|
 |**message**|String|Description Information|
-|**status**|Boolean|true is success, false is failure|
+|**status**|Boolean|True is success, false is failure|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

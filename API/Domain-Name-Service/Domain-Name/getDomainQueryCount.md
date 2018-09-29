@@ -12,22 +12,22 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domain/{domainId}/
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**domainId**|String|True||Domain Name ID|
-|**regionId**|String|True||Region ID to which the instance belongs|
+|**domainId**|String|True| |Domain Name ID|
+|**regionId**|String|True| |Region ID to which the instance belongs|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**domainName**|String|True||Domain Name to be Queried|
-|**end**|String|True||Termination Time, UTC time, for example, 2017-11-10T23:00:00Z|
-|**start**|String|True||Start Time, UTC time, for example, 2017-11-10T23:00:00Z|
+|**domainName**|String|True| |Domain Name to be Queried|
+|**end**|String|True| |Termination Time, UTC time, for example, 2017-11-10T23:00:00Z|
+|**start**|String|True| |Start Time, UTC time, for example, 2017-11-10T23:00:00Z|
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String|ID of this request|
-|**result**|Result||
+|**requestId**|String|ID of This Request|
+|**result**|Result| |
 
 
 ### Result
@@ -36,7 +36,7 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domain/{domainId}/
 |**time**|Integer[]|Time Series|
 |**traffic**|Integer[]|Data Series|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

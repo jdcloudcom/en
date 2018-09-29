@@ -3,7 +3,7 @@
 
 ## Description
 The virtual machine will load an elastic network interface. <br>
-The virtual machine status must be running or stopped status without being operated,  the task is available. <br>
+The virtual machine status must be running or stopped status without being operated, the task is available. <br>
 The primary network interface cannot be detached.
 
 
@@ -11,31 +11,30 @@ The primary network interface cannot be detached.
 POST
 
 ## Request address
-https://vm.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:detachNetworkInterface
+https://vm.jdcloud-api.com/1.0.3/regions/{regionId}/instances/{instanceId}:detachNetworkInterface
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**instanceId**|String|True||VM ID|
-|**regionId**|String|True||Region ID|
+|**instanceId**|String|True| |VM ID|
+|**regionId**|String|True| |Region ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**networkInterfaceId**|String|True||ENI ID|
+|**networkInterfaceId**|String|True| |ENI ID|
 
 
-## Return parameter
-|Name|Type|Description|
-|---|---|---|
+## Response parameter
+None
 
 
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**400**|Invalid parameter|
 |**401**|Authentication failed|
-|**404**|Not found|
+|**404**|Not Found  |
 |**503**|Service unavailable|
 |**200**|OK|
 |**500**|Internal server error|

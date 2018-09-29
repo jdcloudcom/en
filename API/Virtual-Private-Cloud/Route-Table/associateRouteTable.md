@@ -2,7 +2,7 @@
 
 
 ## Description
-Associate Subnet Interface to Route Table
+Associate subnet API from route table
 
 ## Request method
 POST
@@ -12,25 +12,25 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/routeTables/{routeTableId}:ass
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
-|**routeTableId**|String|True||RouteTable ID|
+|**regionId**|String|True| |Region ID|
+|**routeTableId**|String|True| |RouteTable ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**subnetIds**|String[]|True||Subnet ID list to be associated by route table, when subnet has been associated by other route tables, automatically disassociate.|
+|**subnetIds**|String[]|True| |Subnet ID list to be associated by route table, when subnet has been associated by other route tables, automatically disassociate.|
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
 
 
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
-|**200**|Successful operation|
+|**200**|Successful Operation|
 |**400**|Request parameter x.y.z is 'xxx', expected one of [yyy,zzz]|
-|**404**|Resource not found|
+|**404**|Resource Not Found|

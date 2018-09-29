@@ -12,27 +12,27 @@ https://xdata.jdcloud-api.com/v1/regions/{regionId}/dwDatabase
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
+|**regionId**|String|True| |Region ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**instanceName**|String|True||Instance Name|
+|**instanceName**|String|True| |Instance Name|
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
+|**requestId**|String| |
+|**result**|Result| |
 
 
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**data**|DwDatabaseInfo[]||
-|**message**|String||
-|**status**|Boolean||
+|**data**|DwDatabaseInfo[]| |
+|**message**|String| |
+|**status**|Boolean| |
 ### DwDatabaseInfo
 |Name|Type|Description|
 |---|---|---|
@@ -40,7 +40,7 @@ https://xdata.jdcloud-api.com/v1/regions/{regionId}/dwDatabase
 |**databaseName**|String|Database Name|
 |**owner**|String|Owner|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

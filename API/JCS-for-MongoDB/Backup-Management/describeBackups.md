@@ -12,35 +12,35 @@ https://mongodb.jdcloud-api.com/v1/regions/{regionId}/backups
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
+|**regionId**|String|True| |Region ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**filters**|Filter[]|False||instanceId - Instance ID, Accurate Matching<br>backupId - Backup ID, Accurate Matching<br>|
-|**pageNumber**|Integer|False||Page Number; Default: 1; Value range: [1, ∞)|
-|**pageSize**|Integer|False||Page Size; Default: 10; Value range: [1,100]|
+|**filters**|Filter[]|False| |instanceId - Instance ID, Accurate Matching<br>backupId - Backup ID, Accurate Matching<br>|
+|**pageNumber**|Integer|False| |Page Number; Default: 1; Value range: [1, ∞)|
+|**pageSize**|Integer|False| |Page Size; Default: 10; Value range: [1,100]|
 
 ### Filter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**name**|String|True||Name of Filter Requirements|
-|**operator**|String|False||Operator of filter requirements is eq by default|
-|**values**|String[]|True||Value of Filter Requirements|
+|**name**|String|True| |Name of Filter Requirements|
+|**operator**|String|False| |Operator of filter requirements is eq by default|
+|**values**|String[]|True| |Value of Filter Requirements|
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
+|**requestId**|String| |
+|**result**|Result| |
 
 
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**backups**|Backup[]||
-|**pageNumber**|Integer||
-|**totalCount**|Integer||
+|**backups**|Backup[]| |
+|**pageNumber**|Integer| |
+|**totalCount**|Integer| |
 ### Backup
 |Name|Type|Description|
 |---|---|---|
@@ -48,12 +48,12 @@ https://mongodb.jdcloud-api.com/v1/regions/{regionId}/backups
 |**backupId**|String|Backup ID|
 |**backupMode**|String|Backup Mode, Automated (System Automatic Backup), Manual (Manual Backup)|
 |**backupName**|String|Backup Name|
-|**backupSizeByte**|Integer|Size of Whole Backup Set, in Byte|
+|**backupSizeByte**|Integer|Size of Whole Backup Set, Unit: Byte|
 |**backupStartTime**|String|Backup Start Time|
 |**backupStatus**|String|Backup Status, Waiting (Waiting), Running (Backing-up), Finished (Finished), Failed (Error)|
 |**instanceId**|String|Backup Instance ID|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

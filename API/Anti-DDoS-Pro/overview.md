@@ -12,12 +12,12 @@ v1
 ## API
 |Interface name|Request mehod|Function description|
 |---|---|---|
-|**ccGraph**|GET|Forwarding traffic report|
+|**ccGraph**|GET|Forwarding Traffic Report|
 |**checkName**|GET|Detect Whether the Instance Name is Legal|
 |**createForwardRule**|POST|Add a non\-web service rule|
 |**createInstance**|POST|Create an instance|
 |**createWebRule**|POST|Add a web service rule|
-|**ddosGraph**|GET|ddos protection report|
+|**ddosGraph**|GET|DDos Protection Report|
 |**deleteForwardRule**|DELETE|Delete a non\-web service rule|
 |**deleteWebRule**|DELETE|Delete a web service rule|
 |**describeAlarmConfig**|GET|Query Alarm Configuration|
@@ -54,7 +54,7 @@ v1
 |**enableInstanceIpWhiteList**|POST|Enable the instance IP white list|
 |**enableInstanceUrlWhiteList**|POST|Enable the instance url white list|
 |**enableWebRuleCC**|POST|Web service rules enable CC|
-|**fwdGraph**|GET|Forwarding traffic report|
+|**fwdGraph**|GET|Forwarding Traffic Report|
 |**modifyAlarmConfig**|POST|Update Alarm Configuration|
 |**modifyCertInfo**|POST|Edit Certificate|
 |**modifyEPB**|POST|Update the Instance Elastic Protection Bandwidth|

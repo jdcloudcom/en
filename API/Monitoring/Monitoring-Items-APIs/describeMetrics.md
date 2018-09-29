@@ -10,26 +10,25 @@ GET
 ## Request address
 https://monitor.jdcloud-api.com/v1/metrics
 
-|Name|Type|Required or not|Default value|Description|
-|---|---|---|---|---|
+None
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**serviceCode**|String|True||Product Name: <br>vm--> Virtual Machine<br>disk-->Cloud Disk Service<br>ip--> Public IP<br>balance-->Load Balancer<br>database-->MySQL Service Version<br>cdn-->JD CDN<br>redis-->JCS for Redis<br>mongodb-->MongoDB Cloud Cache<br>storage-->Cloud Storage<br>sqlserver-->cloud Database Sqlserver Version <br>nativecontainer-->Container<br>|
+|**serviceCode**|String|True| |Product Name: <br>vm--> Virtual Machine<br>disk-->Cloud Disk Service<br>ip--> Public IP<br>balance-->Load Balancer<br>database-->MySQL Service Version<br>cdn-->JD CDN<br>redis-->JCS for Redis<br>mongodb-->MongoDB Cloud Cache<br>storage-->Cloud Storage<br>sqlserver-->cloud Database Sqlserver Version <br>nativecontainer-->Container<br>|
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
-|**result**|Result||
+|**result**|Result| |
 
 
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**metrics**|MetricDetail[]||
+|**metrics**|MetricDetail[]| |
 ### MetricDetail
 |Name|Type|Description|
 |---|---|---|
@@ -39,7 +38,7 @@ https://monitor.jdcloud-api.com/v1/metrics
 |**metricName**|String|Metric Name|
 |**serviceCode**|String|Identifier of Resource Type|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

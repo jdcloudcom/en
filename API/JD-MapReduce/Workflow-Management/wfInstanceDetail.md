@@ -12,64 +12,64 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/wfInstance:detail
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
+|**regionId**|String|True| |Region ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**wfId**|String|True|||
-|**wfInstanceId**|String|True|||
+|**wfId**|String|True| | |
+|**wfInstanceId**|String|True| | |
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
+|**requestId**|String| |
+|**result**|Result| |
 
 
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**message**|Message||
+|**message**|Message| |
 ### Message
 |Name|Type|Description|
 |---|---|---|
 |**code**|String|Code|
 |**data**|Object|Data|
-|**instanceId**|String||
+|**instanceId**|String| |
 |**jobId**|String|Job ID|
-|**path**|Path[]||
-|**pipeline**|String||
-|**rect**|Rect[]||
+|**path**|Path[]| |
+|**pipeline**|String| |
+|**rect**|Rect[]| |
 |**result**|String|Result|
-|**source**|String||
-|**sourceParameterList**|String[]||
-|**target**|String||
-|**targetParameterList**|String[]||
-|**taskId**|String||
-|**total**|Integer||
+|**source**|String| |
+|**sourceParameterList**|String[]| |
+|**target**|String| |
+|**targetParameterList**|String[]| |
+|**taskId**|String| |
+|**total**|Integer| |
 ### Path
 |Name|Type|Description|
 |---|---|---|
-|**child**|Integer||
-|**father**|Integer||
+|**child**|Integer| |
+|**father**|Integer| |
 ### Rect
 |Name|Type|Description|
 |---|---|---|
-|**instanceId**|Integer||
-|**instanceStatus**|Integer||
+|**instanceId**|Integer| |
+|**instanceStatus**|Integer| |
 |**intervalTimes**|Integer|Re-running Interval of the Failed Task|
-|**jobId**|Integer||
+|**jobId**|Integer| |
 |**retryTimes**|Integer|Retry times after the task is failed|
-|**taskDesc**|String||
-|**taskId**|String||
-|**taskName**|String||
-|**taskType**|String||
-|**x**|Number||
-|**y**|Number||
+|**taskDesc**|String| |
+|**taskId**|String| |
+|**taskName**|String| |
+|**taskType**|String| |
+|**x**|Number| |
+|**y**|Number| |
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

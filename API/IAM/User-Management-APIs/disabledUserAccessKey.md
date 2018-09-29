@@ -12,21 +12,21 @@ https://iam.jdcloud-api.com/v1/regions/{regionId}/userAccessKey/{accessKey}:disa
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**accessKey**|String|True||accessKey|
-|**regionId**|String|True||Region ID|
+|**accessKey**|String|True| |accessKey|
+|**regionId**|String|True| |Region ID|
 
 ## Request parameter
 None
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
+|**requestId**|String| |
 
 
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

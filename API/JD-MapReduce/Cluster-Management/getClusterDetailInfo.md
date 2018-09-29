@@ -12,27 +12,26 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/clusterInfo/{clusterId}:d
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**clusterId**|String|True||Cluster ID to be expanded|
-|**regionId**|String|True||Region ID|
+|**clusterId**|String|True| |Cluster ID to be expanded|
+|**regionId**|String|True| |Region ID|
 
 ## Request parameter
-|Name|Type|Required or not|Default value|Description|
-|---|---|---|---|---|
+None
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
+|**requestId**|String| |
+|**result**|Result| |
 
 
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**data**|ClusterDetailInfo||
-|**message**|String||
-|**status**|String||
+|**data**|ClusterDetailInfo| |
+|**message**|String| |
+|**status**|String| |
 ### ClusterDetailInfo
 |Name|Type|Description|
 |---|---|---|
@@ -51,7 +50,7 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/clusterInfo/{clusterId}:d
 |**slaveMemory**|Integer|Slave Node Memory (At least 4G memory is recommended; otherwise the service may fail to deploy)|
 |**slaveNum**|Integer|Slave Node Number|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

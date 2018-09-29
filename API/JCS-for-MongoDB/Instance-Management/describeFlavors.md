@@ -2,7 +2,7 @@
 
 
 ## Description
-Get Type
+Get type
 
 ## Request method
 GET
@@ -12,22 +12,22 @@ https://mongodb.jdcloud-api.com/v1/regions/{regionId}/flavors
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
+|**regionId**|String|True| |Region ID|
 
 ## Request parameter
 None
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result||
+|**result**|Result| |
 
 
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**flavors**|Flavor[]||
+|**flavors**|Flavor[]| |
 ### Flavor
 |Name|Type|Description|
 |---|---|---|
@@ -39,7 +39,7 @@ None
 |**memory**|Integer|Memory, Unit: GB|
 |**minDisk**|Integer|Minimum Number of Disks, Unit: GB|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

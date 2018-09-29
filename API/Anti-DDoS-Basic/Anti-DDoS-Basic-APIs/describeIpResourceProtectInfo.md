@@ -12,27 +12,27 @@ https://baseanti.jdcloud-api.com/v1/regions/{regionId}/ipResources/{ip}/protectI
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**ip**|String|True||EIP Address|
-|**regionId**|String|True||Belonging Region ID|
+|**ip**|String|True| |EIP Address|
+|**regionId**|String|True| |Belonging Region ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**limit**|Integer|False||Records of Limited Search|
-|**start**|Integer|False||Start range of limited search|
+|**limit**|Integer|False| |Records of Limited Search|
+|**start**|Integer|False| |Start range of limited search|
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
+|**requestId**|String| |
+|**result**|Result| |
 
 
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**dataList**|IpResourceProtectInfo[]||
+|**dataList**|IpResourceProtectInfo[]| |
 ### IpResourceProtectInfo
 |Name|Type|Description|
 |---|---|---|
@@ -41,7 +41,7 @@ https://baseanti.jdcloud-api.com/v1/regions/{regionId}/ipResources/{ip}/protectI
 |**startTime**|String|Start Time of Attack|
 |**status**|Integer|Status, 0->Completed  1->Clean  2->Black Hole|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

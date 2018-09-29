@@ -12,23 +12,23 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instance/describeCCDefaultT
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Belonging Region ID|
+|**regionId**|String|True| |Belonging Region ID|
 
 ## Request parameter
 None
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
+|**requestId**|String| |
+|**result**|Result| |
 
 
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**data**|CCDefaultThresholds||
+|**data**|CCDefaultThresholds| |
 ### CCDefaultThresholds
 |Name|Type|Description|
 |---|---|---|
@@ -37,7 +37,7 @@ None
 |**ipHostQps**|Integer|Protection Threshold for Host of Each Source IP|
 |**ipHostUrlQps**|Integer|Protection Threshold for Host + URL of Each Source IP|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

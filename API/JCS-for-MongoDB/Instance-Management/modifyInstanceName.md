@@ -2,7 +2,7 @@
 
 
 ## Description
-Modify Instance Name
+Modify instance name
 
 ## Request method
 POST
@@ -12,23 +12,23 @@ https://mongodb.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:mod
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**instanceId**|String|True||Instance ID|
-|**regionId**|String|True||Region ID|
+|**instanceId**|String|True| |Instance ID|
+|**regionId**|String|True| |Region ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**instanceName**|String|True||The new instance name only supports numbers, letters, underlines, Chinese, with length no less than 2 characters and no more than 32 characters.|
+|**instanceName**|String|True| |The new instance name only supports numbers, letters, underlines, Chinese, with length no less than 2 characters and no more than 32 characters.|
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
+|**requestId**|String| |
 
 
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

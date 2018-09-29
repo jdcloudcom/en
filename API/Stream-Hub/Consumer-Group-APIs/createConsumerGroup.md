@@ -12,36 +12,36 @@ https://streambus.jdcloud-api.com/v1/regions/{regionId}/consumerGroup
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
+|**regionId**|String|True| |Region ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**consumerGroupStr**|ConsumerGroup|False||Consumer Group Object|
+|**consumerGroupStr**|ConsumerGroup|False| |Consumer Group Object|
 
 ### ConsumerGroup
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**createdTime**|String|False|||
-|**delete**|String|False|||
-|**id**|Integer|False|||
-|**name**|String|False|||
-|**topicId**|Integer|False|||
+|**createdTime**|String|False| | |
+|**delete**|String|False| | |
+|**id**|Integer|False| | |
+|**name**|String|False| | |
+|**topicId**|Integer|False| | |
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
+|**requestId**|String| |
+|**result**|Result| |
 
 
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**message**|String||
-|**status**|Boolean||
+|**message**|String| |
+|**status**|Boolean| |
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

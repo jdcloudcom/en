@@ -12,34 +12,33 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/vpcSubnets/{vpcId}:query
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
-|**vpcId**|String|True|||
+|**regionId**|String|True| |Region ID|
+|**vpcId**|String|True| | |
 
 ## Request parameter
-|Name|Type|Required or not|Default value|Description|
-|---|---|---|---|---|
+None
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
+|**requestId**|String| |
+|**result**|Result| |
 
 
 ### Result
 |Name|Type|Description|
 |---|---|---|
 |**data**|QueryVpcSubnets[]|VPC Subnet Information Collection|
-|**message**|String||
-|**status**|String||
+|**message**|String| |
+|**status**|String| |
 ### QueryVpcSubnets
 |Name|Type|Description|
 |---|---|---|
 |**vpcSubnetId**|String|VPC Subnet ID|
 |**vpcSubnetName**|String|VPC Subnet Name|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

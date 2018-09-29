@@ -12,28 +12,28 @@ https://xdata.jdcloud-api.com/v1/regions/{regionId}/dwDatabase/{databaseName}
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**databaseName**|String|True||Database Name|
-|**regionId**|String|True||Region ID|
+|**databaseName**|String|True| |Database Name|
+|**regionId**|String|True| |Region ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**instanceName**|String|True||Instance Name|
+|**instanceName**|String|True| |Instance Name|
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
+|**requestId**|String| |
+|**result**|Result| |
 
 
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**data**|DwDatabase||
-|**message**|String||
-|**status**|Boolean||
+|**data**|DwDatabase| |
+|**message**|String| |
+|**status**|Boolean| |
 ### DwDatabase
 |Name|Type|Description|
 |---|---|---|
@@ -41,7 +41,7 @@ https://xdata.jdcloud-api.com/v1/regions/{regionId}/dwDatabase/{databaseName}
 |**comments**|String|Description  Information|
 |**createTime**|String|Creation Time|
 |**databaseName**|String|Database Name|
-|**id**|Integer|Database id|
+|**id**|Integer|Database ID|
 |**lastUpdateTime**|String|Last Update Time|
 |**location**|String|Location|
 |**owner**|String|Owner|
@@ -50,7 +50,7 @@ https://xdata.jdcloud-api.com/v1/regions/{regionId}/dwDatabase/{databaseName}
 |**totalTableQuantity**|Integer|Number of Summary Lists|
 |**userName**|String|User Name|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

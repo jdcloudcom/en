@@ -12,29 +12,28 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/clusterJob/{clusterId}:co
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**clusterId**|String|True||Cluster ID|
-|**regionId**|String|True||Region ID|
+|**clusterId**|String|True| |Cluster ID|
+|**regionId**|String|True| |Region ID|
 
 ## Request parameter
-|Name|Type|Required or not|Default value|Description|
-|---|---|---|---|---|
+None
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
+|**requestId**|String| |
+|**result**|Result| |
 
 
 ### Result
 |Name|Type|Description|
 |---|---|---|
 |**data**|Integer|Cluster Job Number|
-|**message**|String||
-|**status**|String||
+|**message**|String| |
+|**status**|String| |
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

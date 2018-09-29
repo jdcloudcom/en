@@ -14,34 +14,34 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/secrets
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
+|**regionId**|String|True| |Region ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**filters**|Filter[]|False||The name - secret is the name, supporting fuzzy search.<br>|
-|**pageNumber**|Integer|False||Page number; 1 by default|
-|**pageSize**|Integer|False||Page size; it is 20 by default; value range[10, 100]|
+|**filters**|Filter[]|False| |The name - secret is the name, supporting fuzzy search.<br>|
+|**pageNumber**|Integer|False| |Page number; 1 by default|
+|**pageSize**|Integer|False| |Page size; it is 20 by default; value range[10, 100]|
 
 ### Filter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**name**|String|True||Name of Filter Requirements|
-|**operator**|String|False||Operator of filter requirements is eq by default|
-|**values**|String[]|True||Value of Filter Requirements|
+|**name**|String|True| |Name of Filter Requirements|
+|**operator**|String|False| |Operator of filter requirements is eq by default|
+|**values**|String[]|True| |Value of Filter Requirements|
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
+|**requestId**|String| |
+|**result**|Result| |
 
 
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**secrets**|Secret[]||
-|**totalCount**|Number||
+|**secrets**|Secret[]| |
+|**totalCount**|Number| |
 ### Secret
 |Name|Type|Description|
 |---|---|---|
@@ -57,7 +57,7 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/secrets
 |**server**|String|Registry Server Address|
 |**username**|String|User Name|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**400**|Invalid parameter|

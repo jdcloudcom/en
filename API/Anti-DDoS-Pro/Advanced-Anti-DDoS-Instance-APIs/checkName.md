@@ -12,19 +12,19 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instance/checkName
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Belonging Region ID|
+|**regionId**|String|True| |Belonging Region ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**name**|String|True||Instance Name to be Detected|
+|**name**|String|True| |Instance Name to be Detected|
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
+|**requestId**|String| |
+|**result**|Result| |
 
 
 ### Result
@@ -32,7 +32,7 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instance/checkName
 |---|---|---|
 |**data**|Boolean|Detection Result, True Means Legal, False Means Illegal|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

@@ -2,7 +2,7 @@
 
 
 ## Description
-Create Role
+Create role
 
 ## Request method
 POST
@@ -10,34 +10,33 @@ POST
 ## Request address
 https://iam.jdcloud-api.com/v1/role
 
-|Name|Type|Required or not|Default value|Description|
-|---|---|---|---|---|
+None
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**createRoleInfo**|CreateRoleInfo|True||Role Information|
+|**createRoleInfo**|CreateRoleInfo|True| |Role Information|
 
 ### CreateRoleInfo
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**assumeRolePolicyDocument**|String|True||Role Assumption Policy|
-|**description**|String|False||Description, 0~256 characters|
-|**maxSessionDuration**|Integer|False||Maximum session duration is 3,600~43,200 seconds, 3,600 seconds by default|
-|**path**|String|False||Role Path|
-|**roleName**|String|True||Role Name|
+|**assumeRolePolicyDocument**|String|True| |Role Assumption Policy|
+|**description**|String|False| |Description, 0~256 characters|
+|**maxSessionDuration**|Integer|False| |Maximum session duration is 3,600~43,200 seconds, 3,600 seconds by default|
+|**path**|String|False| |Role Path|
+|**roleName**|String|True| |Role Name|
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
+|**requestId**|String| |
 |**roleInfo**|RoleInfo|Role Information|
 
 
 ### RoleInfo
 |Name|Type|Description|
 |---|---|---|
-|**roleInfo**|RoleInfo||
+|**roleInfo**|RoleInfo| |
 ### RoleInfo
 |Name|Type|Description|
 |---|---|---|
@@ -51,7 +50,7 @@ https://iam.jdcloud-api.com/v1/role
 |**roleId**|String|Role ID|
 |**roleName**|String|Role Name|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

@@ -2,7 +2,7 @@
 
 
 ## Description
-Remove NetworkAcl Rule
+Remove NetworkAcl rule
 
 ## Request method
 POST
@@ -12,23 +12,23 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkAcls/{networkAclId}:rem
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**networkAclId**|String|True||networkAclId ID|
-|**regionId**|String|True||Region ID|
+|**networkAclId**|String|True| |networkAclId ID|
+|**regionId**|String|True| |Region ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**ruleIds**|String[]|True||Modify NetworkAcl Attribute|
+|**ruleIds**|String[]|True| |Modify NetworkAcl attribute|
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
 
 
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|Successful operation|

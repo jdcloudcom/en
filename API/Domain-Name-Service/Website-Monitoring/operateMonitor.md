@@ -12,25 +12,25 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domain/{domainId}/
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**domainId**|String|True||Domain Name ID|
-|**regionId**|String|True||Region ID to which the instance belongs|
+|**domainId**|String|True| |Domain Name ID|
+|**regionId**|String|True| |Region ID to which the instance belongs|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**action**|String|True||Delete - del, Pause - stop, Start - start, Manually Recover - recover, Manually Switch - switch|
-|**ids**|Integer[]|True||Monitor Item ID|
-|**switchTarget**|String|False||Machine Value of the Monitoring Items, required for manual switch|
+|**action**|String|True| |Delete - del, Pause - stop, Start - start, Manually Recover - recover, Manually Switch - switch|
+|**ids**|Integer[]|True| |Monitor Item ID|
+|**switchTarget**|String|False| |Machine Value of the Monitoring Items, required for manual switch|
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String|ID of this request|
+|**requestId**|String|ID of This Request|
 
 
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

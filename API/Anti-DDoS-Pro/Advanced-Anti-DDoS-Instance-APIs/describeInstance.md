@@ -12,24 +12,24 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**instanceId**|String|True||Instance ID|
-|**regionId**|String|True||Belonging Region ID|
+|**instanceId**|String|True| |Instance ID|
+|**regionId**|String|True| |Belonging Region ID|
 
 ## Request parameter
 None
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
+|**requestId**|String| |
+|**result**|Result| |
 
 
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**data**|Instance||
+|**data**|Instance| |
 ### Instance
 |Name|Type|Description|
 |---|---|---|
@@ -65,7 +65,7 @@ None
 |**urlWhitelistStatus**|Integer|url White List Status, 0->disabled  1->enabled|
 |**webRuleCount**|Integer|Web Service Rules|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

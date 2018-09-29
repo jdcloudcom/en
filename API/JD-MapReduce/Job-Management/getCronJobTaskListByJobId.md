@@ -12,38 +12,38 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/cronJobTask/job/{jobId}:l
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**jobId**|String|False||Job ID|
-|**regionId**|String|True||Region ID|
+|**jobId**|String|False| |Job ID|
+|**regionId**|String|True| |Region ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**planId**|String|True||Regular Task ID|
-|**selectParams**|SelectParams|False||Search conditions, optional parameters|
+|**planId**|String|True| |Regular Task ID|
+|**selectParams**|SelectParams|False| |Search conditions, optional parameters|
 
 ### SelectParams
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**orderBy**|String|False||Ranking Condition, optional|
-|**pageNum**|Integer|False||Search Paging Number, optional condition|
-|**pageSize**|Integer|False||Search Paging Size, optional condition|
-|**status**|String|False|||
+|**orderBy**|String|False| |Ranking Condition, optional|
+|**pageNum**|Integer|False| |Search Paging Number, optional condition|
+|**pageSize**|Integer|False| |Search Paging Size, optional condition|
+|**status**|String|False| | |
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
+|**requestId**|String| |
+|**result**|Result| |
 
 
 ### Result
 |Name|Type|Description|
 |---|---|---|
 |**data**|Object|"Include the searched JmrTaskViewModel list - taskList"<br>"And returned list size - totalNum"<br>|
-|**message**|String||
-|**status**|String||
+|**message**|String| |
+|**status**|String| |
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

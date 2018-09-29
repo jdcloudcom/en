@@ -12,32 +12,32 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/key
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
+|**regionId**|String|True| |Region ID|
 
 ## Request parameter
 None
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
+|**requestId**|String| |
+|**result**|Result| |
 
 
 ### Result
 |Name|Type|Description|
 |---|---|---|
 |**data**|AppModel|AK/SK Queried|
-|**message**|String||
-|**status**|String||
+|**message**|String| |
+|**status**|String| |
 ### AppModel
 |Name|Type|Description|
 |---|---|---|
 |**appKey**|String|AK|
 |**appSecret**|String|SK|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

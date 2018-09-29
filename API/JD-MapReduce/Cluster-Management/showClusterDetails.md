@@ -12,27 +12,27 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/detail
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
+|**regionId**|String|True| |Region ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**id**|String|True||Cluster ID: Composed of eight characters|
+|**id**|String|True| |Cluster ID: Composed of eight characters|
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
+|**requestId**|String| |
+|**result**|Result| |
 
 
 ### Result
 |Name|Type|Description|
 |---|---|---|
 |**data**|ClusterDetailModel|Corresponding Cluster Details|
-|**message**|String||
-|**status**|String||
+|**message**|String| |
+|**status**|String| |
 ### ClusterDetailModel
 |Name|Type|Description|
 |---|---|---|
@@ -42,10 +42,10 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/detail
 |**dataCenter**|String|Region, the same as regionID|
 |**duration**|String|Operating Hours|
 |**haFlag**|Boolean|Whether it is high availability mode or not|
-|**hardware**|HardwareInfo[]||
+|**hardware**|HardwareInfo[]| |
 |**id**|String|Cluster ID|
 |**jssFlag**|Boolean|Whether to associate the Object Storage Service or not|
-|**name**|String|Cluster name supports Chinese, numbers, capital and lowercase letters, English underline “_” and line-through “-”, with the length of 6-32 characters.|
+|**name**|String|Cluster name allows Chinese, numbers, capital and lowercase letters, English underline “_” and line-through “-”, with the length of 6-32 characters.|
 |**nodeCount**|Integer|Node Number|
 |**payPrice**|String|Payment Price|
 |**payType**|String|Payment Type|
@@ -72,7 +72,7 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/detail
 |**outerIp**|String|Internet IP|
 |**serverId**|String|Node Instance ID|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

@@ -2,8 +2,8 @@
 
 
 ## Description
--   Delete a single Cloud Disk snapshot: The snapshot status must be in available or error status.
--   The snapshot is independent from life cycle of the Cloud Disk. Deleting a snapshot does not have any effect on the Cloud Disk that created the snapshot.
+-   Delete a single cloud disk snapshot: The snapshot status must be available or error status.
+-   The snapshot is independent from life cycle of the cloud disk. Deleting a snapshot does not have any effect on the cloud disk that created the snapshot.
 -   After the snapshot is deleted, it cannot be recovered. Please be cautious.
 
 
@@ -15,20 +15,19 @@ https://disk.jdcloud-api.com/v1/regions/{regionId}/snapshots/{snapshotId}
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
-|**snapshotId**|String|True||Snapshot ID|
+|**regionId**|String|True| |Region ID|
+|**snapshotId**|String|True| |Snapshot ID|
 
 ## Request parameter
 None
 
 
-## Return parameter
-|Name|Type|Description|
-|---|---|---|
+## Response parameter
+None
 
 
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**400**|Invalid parameter|

@@ -12,17 +12,17 @@ https://rds.jdcloud-api.com/0.2.9/regions/{regionId}/instances/{instanceId}/impo
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**instanceId**|String|True||RDS instance ID, which uniquely identifies an RDS instance|
-|**regionId**|String|True||Region code, with range detailed in [Regions and Availability Zone Comparison Table](../Enum-Definitions/Regions-AZ.md)|
+|**instanceId**|String|True| |RDS instance ID, which uniquely identifies an RDS instance|
+|**regionId**|String|True| |Region code, with range detailed in [Regions and Availability Zone Comparison Table](../Enum-Definitions/Regions-AZ.md)|
 
 ## Request parameter
 None
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result||
+|**result**|Result| |
 
 
 ### Result
@@ -30,7 +30,7 @@ None
 |---|---|---|
 |**key**|String|The Key to be used to upload the file|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

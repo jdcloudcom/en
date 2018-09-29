@@ -12,23 +12,22 @@ https://rds.jdcloud-api.com/0.2.9/regions/{regionId}/instances/{instanceId}/impo
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**fileName**|String|True||The File Name of Cloud on Single Database|
-|**instanceId**|String|True||RDS instance ID, which uniquely identifies an RDS instance|
-|**regionId**|String|True||Region code, with range detailed in [Regions and Availability Zone Comparison Table](../Enum-Definitions/Regions-AZ.md)|
+|**fileName**|String|True| |The File Name of Cloud on Single Database|
+|**instanceId**|String|True| |RDS instance ID, which uniquely identifies an RDS instance|
+|**regionId**|String|True| |Region code, with range detailed in [Regions and Availability Zone Comparison Table](../Enum-Definitions/Regions-AZ.md)|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**shared**|String|True||Whether the file is shared<br>true: shared<br>false: not shared|
+|**shared**|String|True| |Whether the file is shared<br>true: shared<br>false: not shared|
 
 
-## Return parameter
-|Name|Type|Description|
-|---|---|---|
+## Response parameter
+None
 
 
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

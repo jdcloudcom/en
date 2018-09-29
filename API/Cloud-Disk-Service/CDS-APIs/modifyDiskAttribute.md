@@ -2,7 +2,7 @@
 
 
 ## Description
-Modify the name or description of the Cloud Disk, specify either
+Modify the name or description of the cloud disk, specify either
 
 ## Request method
 PATCH
@@ -12,23 +12,22 @@ https://disk.jdcloud-api.com/v1/regions/{regionId}/disks/{diskId}
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**diskId**|String|True||Cloud Disk ID|
-|**regionId**|String|True||Region ID|
+|**diskId**|String|True| |Cloud Disk ID|
+|**regionId**|String|True| |Region ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**description**|String|False||Description of the Cloud Disk. It allows you to enter all characters under UTF-8 encoding, but no more than 256 characters.|
-|**name**|String|False||Name of the Cloud Disk. Only Chinese characters, numbers, uppercase and lowercase letters, English underscores '_' and hyphens '-' are allowed. It is not allowed to be blank and shall not exceed 32 characters.|
+|**description**|String|False| |Description of the cloud disk: It allows you to enter all characters under UTF-8 encoding, but no more than 256 characters.|
+|**name**|String|False| |Name of the cloud disk: Only Chinese characters, numbers, uppercase and lowercase letters, English underscores '_' and hyphens '-' are allowed. It is not allowed to be blank and shall not exceed 32 characters.|
 
 
-## Return parameter
-|Name|Type|Description|
-|---|---|---|
+## Response parameter
+None
 
 
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**400**|Invalid parameter|

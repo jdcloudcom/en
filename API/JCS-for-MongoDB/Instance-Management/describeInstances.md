@@ -12,41 +12,41 @@ https://mongodb.jdcloud-api.com/v1/regions/{regionId}/instances
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
+|**regionId**|String|True| |Region ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**filters**|Filter[]|False||instanceId - Instance ID, Accurate Matching<br>instanceName - Instance Name, Fuzzy Matching<br>instanceStatus - mongodb status, accurate matching, support multiple RUNNING: Running, ERROR: Error, BUILDING: Creating, DELETING: Deleting, RESTORING: Restoring, RESIZING: under Configuration Change<br>chargeMode - Billing Type, Accurate Matching<br>|
-|**pageNumber**|Integer|False||Page Number; Default: 1; Value range: [1, ∞)|
-|**pageSize**|Integer|False||Page Size; Default: 10; Value range: [1,100]|
-|**sorts**|Sort[]|False||createTime - Creation Time, asc (Positive Order), desc (Reverse Order)<br>|
+|**filters**|Filter[]|False| |instanceId - Instance ID, Accurate Matching<br>instanceName - Instance Name, Fuzzy Matching<br>instanceStatus - mongodb status, accurate matching, support multiple RUNNING: Running, ERROR: Error, BUILDING: Creating, DELETING: Deleting, RESTORING: Restoring, RESIZING: under Configuration Change<br>chargeMode - Billing Type, Accurate Matching<br>|
+|**pageNumber**|Integer|False| |Page Number; Default: 1; Value range: [1, ∞)|
+|**pageSize**|Integer|False| |Page Size; Default: 10; Value range: [1,100]|
+|**sorts**|Sort[]|False| |createTime - Creation Time, asc (Positive Order), desc (Reverse Order)<br>|
 
 ### Filter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**name**|String|True||Name of Filter Requirements|
-|**operator**|String|False||Operator of filter requirements is eq by default|
-|**values**|String[]|True||Value of Filter Requirements|
+|**name**|String|True| |Name of Filter Requirements|
+|**operator**|String|False| |Operator of filter requirements is eq by default|
+|**values**|String[]|True| |Value of Filter Requirements|
 ### Sort
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**direction**|String|False||Direction of Sorting Requirements|
-|**name**|String|False||Name of Sorting Requirements|
+|**direction**|String|False| |Direction of Sorting Requirements|
+|**name**|String|False| |Name of Sorting Requirements|
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
+|**requestId**|String| |
+|**result**|Result| |
 
 
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**dbInstances**|DBInstance[]||
-|**pageNumber**|Integer||
-|**totalCount**|Integer||
+|**dbInstances**|DBInstance[]| |
+|**pageNumber**|Integer| |
+|**totalCount**|Integer| |
 ### DBInstance
 |Name|Type|Description|
 |---|---|---|
@@ -67,7 +67,7 @@ https://mongodb.jdcloud-api.com/v1/regions/{regionId}/instances
 |**instancePort**|String|Application Access Port|
 |**instanceStatus**|String|Instance Status. RUNNING: Running, ERROR: Error, BUILDING: Creating, DELETING: Deleting, RESTORING: Restoring, RESIZING: under Configuration Change|
 |**instanceStorageGB**|Integer|Storage Space|
-|**isSetSecurityIps**|Boolean|Whether to Set White List, true: set, false: not set|
+|**isSetSecurityIps**|Boolean|Whether to set White List, true: set, false: not set|
 |**preferredBackupWindow**|String|Automatic Backup Time, for example: 00:00-02:00, indicating automatic backup of the database from 0 to 2|
 |**preferredmaintenanceWindow**|String|System Maintenance Time, for example: 00:00-02:00, indicating system maintenance from 0 to 2|
 |**replicaSetName**|String|Name of Replica Set|
@@ -82,7 +82,7 @@ https://mongodb.jdcloud-api.com/v1/regions/{regionId}/instances
 |**chargeStartTime**|String|The start time of the billing shall be subject to ISO8601, with the UTC time used in the format of YYYY-MM-DDTHH:mm:ssZ|
 |**chargeStatus**|String|Cost Payment Status, the value is respectively normal, overdue and arrear.|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

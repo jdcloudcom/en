@@ -2,12 +2,12 @@
 
 
 ## Description
--   Create a snapshot for the specified Cloud Disk, and the status of the newly generated snapshot is creating.
--   The quota of snapshots for a single user in the same region is 15.
--   To ensure data integrity, please stop writing to the Cloud Disk before creating a snapshot to ensure the integrity of snapshot data.
--   Before creating a snapshot, we suggest you detach the Cloud Disk and reattach the disk to the virtual machine after the snapshot is created.
--   The life cycle of manual snapshots is independent from the Cloud Disk. Please delete unnecessary snapshots in time.
--   The time demanded to create a snapshot depends on the capacity of the Cloud Disk. The larger the capacity is, the longer it will take.
+-   Create a snapshot for the specified cloud disk, and the status of the newly generated snapshot is creating.
+-   The quota for single-user snapshots in the same region is 15.
+-   To ensure data integrity, please stop writing to the cloud disk before creating a snapshot to ensure the integrity of snapshot data.
+-   Before creating a snapshot, we suggest you uninstall the cloud disk and reattach the disk to the virtual machine after the snapshot is created.
+-   The life cycle of manual snapshots is independent from the cloud disk. Please delete unnecessary snapshots in time.
+-   The time demanded to create a snapshot depends on the capacity of the cloud disk. The larger the capacity is, the longer it will take.
 
 
 ## Request method
@@ -18,22 +18,22 @@ https://disk.jdcloud-api.com/v1/regions/{regionId}/snapshots
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
+|**regionId**|String|True| |Region ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**clientToken**|String|True||Idempotence Check Parameter|
-|**snapshotSpec**|SnapshotSpec|True||Snapshot Specification|
+|**clientToken**|String|True| |Idempotence Check Parameter|
+|**snapshotSpec**|SnapshotSpec|True| |Create snapshot specification|
 
 ### SnapshotSpec
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**description**|String|False||Snapshot Description|
-|**diskId**|String|True||Cloud Disk ID used to create the Snapshot|
-|**name**|String|True||Snapshot Name|
+|**description**|String|False| |Snapshot Description|
+|**diskId**|String|True| |Cloud Disk ID used to create the Snapshot|
+|**name**|String|True| |Snapshot Name|
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
@@ -43,9 +43,9 @@ https://disk.jdcloud-api.com/v1/regions/{regionId}/snapshots
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**snapshotId**|String|Snapshot ID Created|
+|**snapshotId**|String|ID of the Created Snapshot|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**400**|Invalid parameter|

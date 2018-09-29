@@ -13,21 +13,19 @@ https://oss.jdcloud-api.com/v1/regions/{regionId}/buckets/{bucketname}
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**bucketname**|String|True||bucket name, e.g.: test-bucket|
-|**regionId**|String|True||Region ID, e.g.: cn-north-1|
+|**bucketname**|String|True| |bucket name, e.g.: test-bucket|
+|**regionId**|String|True| |Region ID, e.g.: cn-north-1|
 
 ## Request parameter
-|Name|Type|Required or not|Default value|Description|
-|---|---|---|---|---|
+None
 
 
-## Response   parameter
-|Name|Type|Description|
-|---|---|---|
+## Response parameter
+None
 
 
 
-## Response   code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|
