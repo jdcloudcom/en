@@ -21,41 +21,42 @@ Currently, the advanced configuration only has labels. The label only supports "
 ### Add Monitoring Chart
 1. Go to the Dashboard details page and click on "Add View" in the top right corner.
 
-<img src="https://raw.githubusercontent.com/jdcloudcom/en/Monitoring/image/Cloud-Monitor/Introduction/Operation-Guide/dashboard/dashboard-06.png" width="600" align=center />
+![](https://raw.githubusercontent.com/jdcloudcom/en/Monitoring/image/Cloud-Monitor/Introduction/Operation-Guide/dashboard/dashboard-06.png)
 
 2. Select chart type, product type, view dimension, monitoring metric (support to add multiple monitoring metrics), chart name, select monitoring resources, click “OK” button to complete the creation of monitoring chart.
 
-<img src="https://raw.githubusercontent.com/jdcloudcom/en/Monitoring/image/Cloud-Monitor/Introduction/Operation-Guide/dashboard/Best-Practices-02.png" width="600" align=center />
+
+![](https://raw.githubusercontent.com/jdcloudcom/en/Monitoring/image/Cloud-Monitor/Introduction/Operation-Guide/dashboard/Best-Practices-02.png)
 
 ## Delete Monitoring Chart
 1. Click on "Delete" in the chart.
 
-<img src="https://raw.githubusercontent.com/jdcloudcom/en/Monitoring/image/Cloud-Monitor/Introduction/Operation-Guide/dashboard/dashboard-07.png" width="600" align=center />
+![](https://raw.githubusercontent.com/jdcloudcom/en/Monitoring/image/Cloud-Monitor/Introduction/Operation-Guide/dashboard/dashboard-07.png)
 
 2. The pop-up box prompts whether to delete the monitoring chart, click “OK”, delete the monitoring chart to complete.
 
-<img src="https://raw.githubusercontent.com/jdcloudcom/en/Monitoring/image/Cloud-Monitor/Introduction/Operation-Guide/dashboard/dashboard-08.png" width="600" align=center />
+![](https://raw.githubusercontent.com/jdcloudcom/en/Monitoring/image/Cloud-Monitor/Introduction/Operation-Guide/dashboard/dashboard-08.png)
 
 ## Copy Monitoring Chart
 You can quickly open the Add Monitor page by clicking the “Copy” option in the chart. Copy the open monitoring chart page and the monitoring chart of the original monitoring chart configuration and monitoring resources, you can adjust the chart configuration and monitoring resources, click OK to generate a new monitoring chart.
 
-<img src="https://raw.githubusercontent.com/jdcloudcom/en/Monitoring/image/Cloud-Monitor/Introduction/Operation-Guide/dashboard/dashboard-09.png" width="600" align=center />
+![](https://raw.githubusercontent.com/jdcloudcom/en/Monitoring/image/Cloud-Monitor/Introduction/Operation-Guide/dashboard/dashboard-09.png)
 
 ### Time Filter
 1. Click the time icon in the chart.
 
-<img src="https://raw.githubusercontent.com/jdcloudcom/en/Monitoring/image/Cloud-Monitor/Introduction/Operation-Guide/dashboard/dashboard-10.png" width="600" align=center />
+![](https://raw.githubusercontent.com/jdcloudcom/en/Monitoring/image/Cloud-Monitor/Introduction/Operation-Guide/dashboard/dashboard-10.png)
 
 2. Select the time range you want to view, and you can also customize the time range you want to view.
 
-<img src="https://raw.githubusercontent.com/jdcloudcom/en/Monitoring/image/Cloud-Monitor/Introduction/Operation-Guide/dashboard/dashboard-11.png" width="600" align=center />
+![](https://raw.githubusercontent.com/jdcloudcom/en/Monitoring/image/Cloud-Monitor/Introduction/Operation-Guide/dashboard/dashboard-11.png)
 
 
 ### Export Data
 1. Click the“Export” Data option in the thumbnail or click the “Export” icon in the enlarged view.
 
-<img src="https://raw.githubusercontent.com/jdcloudcom/en/Monitoring/image/Cloud-Monitor/Introduction/Operation-Guide/dashboard/dashboard-12.png" width="600" align=center />
+![](https://raw.githubusercontent.com/jdcloudcom/en/Monitoring/image/Cloud-Monitor/Introduction/Operation-Guide/dashboard/dashboard-12.png)
 
 2. If the graph type is a line chart, the exported data can be selected from the time period selected by the chart or the time point currently viewed. If the icon type is TopN graph, the time period set by the monitoring graph is directly exported.
 
-<img src="https://raw.githubusercontent.com/jdcloudcom/en/Monitoring/image/Cloud-Monitor/Introduction/Operation-Guide/dashboard/dashboard-13.png" width="600" align=center />
+![](https://raw.githubusercontent.com/jdcloudcom/en/Monitoring/image/Cloud-Monitor/Introduction/Operation-Guide/dashboard/dashboard-13.png)
