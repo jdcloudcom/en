@@ -647,7 +647,7 @@
 		"backgroud_image":"//img1.jcloudcs.com/cms/15a13e84-3647-43e2-89cc-f6b6eef704ac20180831153212.jpg"
 	},
 	{
-		"image_Url":"//img1.jcloudcs.com/cms/59dc6c66-5bbc-4638-9c24-febafd3c111b20180831162003.png",
+        "image_Url": "//img1.jcloudcs.com/cms/2e84c456-fdbb-4c92-975c-b0a011da984420180927102159.png",
 		"name":" Partners of JD Cloud Conference in 2018",
 		"id":"110",
 		"backgroud_image":"//img1.jcloudcs.com/cms/514a40a6-c993-46cd-81fb-82514cb4a12720180831162024.jpg"
