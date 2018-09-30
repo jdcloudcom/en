@@ -2,41 +2,40 @@
 
 
 ## Description
-Attach a data disk (cloud hard disk) for a virtual machine, and the Virtual Machines and the Cloud Disk Service are not attached when they are in progress. <br>
-The virtual machine status must be running or stopped status. <br>
-The VM of the local disk as system disk can be attached with eight data disks, and the VM of Cloud Disk Service can be attached with seven data disks.
+Attach a data disk (cloud disk) for a virtual machine, and the attachment is only available when there is no task in progress for virtual machine and cloud disk.<br>
+The virtual machine status must be <b>running</b> or <b>stopped</b> <br>
+The virtual machine with local disk as system disk can be attached with 8 data disks, and 7 data disks for the virtual machine with cloud disk as system disk.
 
 
-## Request method
+## Request Method
 POST
 
-## Request address
-https://vm.jdcloud-api.com/1.0.3/regions/{regionId}/instances/{instanceId}:attachDisk
+## Request Address
+https://vm.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:attachDisk
 
-|Name|Type|Required or not|Default value|Description|
+|Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**instanceId**|String|True| |VM ID|
+|**instanceId**|String|True| |Virtual Machine ID|
 |**regionId**|String|True| |Region ID|
 
-## Request parameter
-|Name|Type|Required or not|Default value|Description|
+## Request Parameter
+|Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**autoDelete**|Boolean|False| |Automatically delete this Cloud Disk Service with the machine, False by default. It supports only the cloud disk service that is paid by instance types. This parameter is not valid for a shared type cloud disk service.|
-|**deviceName**|String|False| |The data disk logical attach point [vda, vdb, vdc, vdd, vde, vdb, vdg, vdh, vdi], vda required when the system disk is attached.|
-|**diskId**|String|True| |Cloud Disk Service ID|
+|**autoDelete**|Boolean|False| |Automatically delete this cloud disk with the virtual machine, False by default. The parameter can only be modified for the cloud disks that pay by configuaration, while for the cloud disk with monthly package, the parameter is set as False by default and not to be modified. The parameter is invalid for shared cloud disk.|
+|**deviceName**|String|False| |Data disk logical attaching point [vda, vdb, vdc, vdd, vde, vdb, vdg, vdh, vdi], vda is required when attached to system disk.|
+|**diskId**|String|True| |Cloud Disk ID|
 
 
-## Response parameter
+## Response Parameter
 None
 
 
-
-## Response code
-|Return code|Description|
+## Response Code
+|Response Code|Description|
 |---|---|
 |**400**|Invalid parameter|
 |**401**|Authentication failed|
-|**404**|Not Found  |
+|**404**|Not found|
 |**503**|Service unavailable|
 |**200**|OK|
 |**500**|Internal server error|
