@@ -1,8 +1,0 @@
-swagger: "2.0"
-info:
-  version: "v1"
-  title: Native Container
-  description: "Native Container APIs"
-host: "nc.jdcloud-api.com"
-x-jdcloud-version: "v1"
-x-jdcloud-revision: "0.2.4"
