@@ -1,8 +1,0 @@
-swagger: "2.0"
-info:
-  version: "v1"
-  title: Sensitive Operation Protection
-  description: "Related Interfaces of Sensitive Operation Protection (SOP)"
-host: "sop.jdcloud-api.com"
-x-jdcloud-version: "v1"
-x-jdcloud-revision: "0.1.0"
