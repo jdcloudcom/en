@@ -1,8 +1,0 @@
-swagger: "2.0"
-info:
-  version: "v1"
-  title: JD Cloud Anti-DDoS Basic APIs
-  description: "JD Cloud Anti-DDoS Basic APIs"
-host: "baseanti.jdcloud-api.com"
-x-jdcloud-version: "v1"
-x-jdcloud-revision: "1.0.1"
