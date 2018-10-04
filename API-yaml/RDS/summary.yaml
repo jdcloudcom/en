@@ -1,8 +1,0 @@
-swagger: "2.0"
-info:
-  version: "v1"
-  title: Cloud Database RDS
-  description: "At present, RDS OpenAPI supports SQL Server service, which can realize database management, account management, backup management, Cloud on Single Database and other functions through OpenAPI, and will support cloud MySQL sevice later."
-host: "rds.jdcloud-api.com"
-x-jdcloud-version: "v1"
-x-jdcloud-version: "0.2.9"
