@@ -1,8 +1,0 @@
-swagger: "2.0"
-info:
-  version: "v1"
-  title: VM
-  description: "VM instance, image, instance type, instance template, quota-related APIs"
-host: "vm.jdcloud-api.com"
-x-jdcloud-version: "v1"
-x-jdcloud-version: "1.0.3"
