@@ -1,0 +1,52 @@
+swagger: "2.0"
+definitions:
+  userReqVo:
+    x-jdcloud-module: iam
+    properties:
+      pin:
+        type: string
+        description: "User Pin"
+      cscPhone:
+        type: string
+        description: "User’s Mobile Number"
+      cscEmail:
+        type: string
+        description: "User’s Email"
+      name:
+        type: string
+        description: "User Name"
+      userType:
+        type: integer
+        description: "User Type"
+      companyName:
+        type: string
+        description: "Company Name"
+      createTimeStart:
+        type: string
+        format: date-time
+        description: "Start Ttime"
+      createTimeEnd:
+        type: string
+        format: date-time
+        description: "End Time"
+      arrearageStatus:
+        type: integer
+        description: "Arrearage Status"
+      groups:
+        type: string
+        description: "User Groups, separated with commas: 1-Natural Traffic, 2-Internal Test, 3-Internal key points, 4-Channel users"
+      group:
+        type: integer
+        description: "User Groups: 1-Natural Traffic, 2-Internal Test, 3-Internal key points, 4-Channel users"
+      billingWhite:
+        type: integer
+        description: "Billing White List: 1. In the White List, 2. Not in the White List"
+      tag:
+        type: integer
+        description: "Channel Grade: 1-Normal user, 2-Test user, 4-VIP, 8-Other VIP user, 16boss-Migrated account"
+      pageSize:
+        type: integer
+        description: "Page Size"
+      currentPage:
+        type: integer
+        description: "Current Page"

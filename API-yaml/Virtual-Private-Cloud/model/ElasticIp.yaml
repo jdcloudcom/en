@@ -1,0 +1,36 @@
+swagger: "2.0"
+definitions:
+  elasticIp:
+    x-jdcloud-module: vpc
+    properties:
+      elasticIpId:
+        type: string
+        description: "Elastic IP ID"
+      elasticIpAddress:
+        type: string
+        description: "Elastic IP Address"
+      bandwidthMbps:
+        type: integer
+        description: "Elastic IP Speed Limit (unit: Mbps)"
+      provider:
+        type: string
+        description: "IP Service Provider, Values include bgp or no_bgp"
+      privateIpAddress:
+        type: string
+        description: "IPV4 Address of Private IP"
+      networkInterfaceId:
+        type: string
+        description: "Configure Elastic Network Interface ID"
+      instanceId:
+        type: string
+        description: "Instance ID"
+      instanceType:
+        type: string
+        description: "Instance Type"
+      charge:
+        $ref: "../../charge/model/Charge.yaml#/definitions/charge"
+        description: "Billing Configuration"
+      createdTime:
+        type: string
+        description: "Creation Time of Elastic IP"
+

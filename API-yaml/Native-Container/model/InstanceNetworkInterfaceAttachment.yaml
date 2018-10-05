@@ -1,0 +1,23 @@
+swagger: "2.0"
+definitions:
+  instanceNetworkInterfaceAttachment:
+    x-jdcloud-module: nc
+    x-jdcloud-internal: false
+    type: object
+    description: "Describe association information of container network interface"
+    properties:
+      autoDelete:
+        type: boolean
+        description: "Indicate that if the network interface is deleted when deleting an instance"
+      deviceIndex:
+        type: integer
+        description: "Device Index"
+      attachStatus:
+        type: string
+        description: "Associating Status"
+      attachTime:
+        type: string
+        description: "Associating Time"
+      networkInterface:
+        $ref: "./InstanceNetworkInterface.yaml#/definitions/instanceNetworkInterface"
+        description: "Elastic Network Interface Information"

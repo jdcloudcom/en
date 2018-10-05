@@ -1,0 +1,149 @@
+swagger: "2.0"
+info:
+  version: "v1"
+  title: SMS Outgoing APIs
+  description: "SMS Outgoing APIs"
+
+
+paths:
+  "/sms:sendSingleSmsMessage":
+    ###################### Send a Single SMS ######################
+    post:
+      description: "Send a single SMS"
+      operationId: sendSingleSmsMessage
+      x-jdcloud-internal: true
+      parameters:
+        - name: sendSingleMsgReqVo
+          in: body
+          description: "Information of a Single SMS"
+          required: true
+          schema:
+            $ref: "../model/SendSingleMsg.yaml#/definitions/sendSingleMsg"
+      responses:
+        200:
+          description: OK
+          schema:
+            type: object
+            properties:
+              requestId:
+                type: string
+
+  "/sms:sendBatchSmsMessage":
+    ###################### Send SMSs in Batches ######################
+    post:
+      description: "Send SMSs in batches"
+      operationId: sendBatchSmsMessage
+      x-jdcloud-internal: true
+      parameters:
+        - name: sendBatchMsgReqVo
+          in: body
+          description: "SMS Information in Batches"
+          required: true
+          schema:
+            $ref: "../model/SendBatchMsg.yaml#/definitions/sendBatchMsg"
+      responses:
+        200:
+          description: OK
+          schema:
+            type: object
+            properties:
+              result:
+                properties:
+                  successMap:
+                    type: object
+                    description: "Successful Result"
+                  failedMap:
+                    type: object
+                    description: "Failure Result"
+              requestId:
+                type: string
+
+  "/sms:sendOutSiteNotice":
+      ###################### Off-site Message APIs ######################
+      post:
+        description: "Off-site Message APIs"
+        operationId: sendOutSiteNotice
+        x-jdcloud-internal: true
+        parameters:
+          - name: sendOutSiteNoticeReqVo
+            in: body
+            description: "Off-site Message APIs"
+            required: true
+            schema:
+              $ref: "../model/SendOutSiteNotice.yaml#/definitions/sendOutSiteNotice"
+        responses:
+          200:
+            description: OK
+            schema:
+              type: object
+              properties:
+                result:
+                  properties:
+                    data:
+                      type: boolean
+                      description: "Send Result Information"
+                requestId:
+                  type: string
+                
+  "/sms:asyncSendEmailSms":
+     ###################### Asynchronous Transmission of Assigned Message Recipient ######################
+     post:
+       description: "Asynchronous Transmission of Assigned Message Recipient"
+       operationId: asyncSendEmailSms
+       x-jdcloud-internal: true
+       parameters:
+         - name: emailSmsInfoReqVo
+           in: body
+           description: "Asynchronous Transmission of Assigned Message Recipient"
+           required: true
+           schema:
+             $ref: "../model/EmailSmsInfo.yaml#/definitions/emailSmsInfo"
+       responses:
+         200:
+           description: OK
+           schema:
+             type: object
+             properties:
+               result:
+                 properties:
+                   data:
+                     type: boolean
+                     description: "Send Result Information"
+               requestId:
+                 type: string
+
+  "/sms:sendWithoutLimit":
+     ###################### Synchronous Transmission Interface of Assigned Message Recipient ######################
+     post:
+       description: "Synchronous Transmission Interface of Assigned Message Recipient"
+       operationId: sendWithoutLimit
+       x-jdcloud-internal: true
+       parameters:
+         - name: emailSmsInfoReqVo
+           in: body
+           description: "Synchronous Transmission Interface of Assigned Message Recipient"
+           required: true
+           schema:
+             $ref: "../model/EmailSmsInfo.yaml#/definitions/emailSmsInfo"
+       responses:
+         200:
+           description: OK
+           schema:
+             type: object
+             properties:
+               result:
+                 properties:
+                   data:
+                     type: boolean
+                     description: "Send Result Information"
+               requestId:
+                 type: string
+
+# Path General Parameters
+parameters:
+  accessKey:
+    name: accessKey
+    in: path
+    required: true
+    type: string
+    description: accessKey

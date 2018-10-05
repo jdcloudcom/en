@@ -1,0 +1,72 @@
+swagger: "2.0"
+definitions:
+  jmrJobViewModel:
+    x-jdcloud-module: jmr
+    title: jmrJobViewModel
+    type: object
+    properties:
+      id:
+        type: integer
+        description:
+      jobId:
+        type: string
+        description: "Job ID"
+      jobName:
+        type: string
+        description: "Job Name"
+      jobType:
+        type: string
+        description: "Job Type"
+      jobStatus:
+        type: string
+        description: "Job Status"
+      jobGroup:
+        type: string
+        description: "Job Group"
+      jobTrigger:
+        type: string
+        description: "Job Trigger"
+      cronExpression:
+        type: string
+        description: "Regular Task Time"
+      orderBy:
+        type: string
+        description: "Extra Field, optional"
+      isSelfDependence:
+        type: integer
+      isVirtualTask:
+        type: integer
+      taskScheduleType:
+        type: integer
+      retryTimes:
+        type: integer
+        description: "Number of Job Retry"
+      isSendMsg:
+        type: boolean
+        description: "Whether to send a SMS notice after job is failed"
+      userpin:
+        type: string
+        description: "User Name"
+      createTime:
+        type: string
+        format: date
+        description: "Creation Time"
+      location:
+        type: string
+        description: "Location"
+      params:
+        type: string
+        description: "Required Parameter"
+      dataCenter:
+        type: string
+        description: "Data Center"
+      clusterId:
+        type: string
+        description: "Cluster ID"
+      clusterName:
+        type: string
+        description: "Cluster Name"
+      clusterStatus:
+        type: string
+        description: "Extra Field"
+

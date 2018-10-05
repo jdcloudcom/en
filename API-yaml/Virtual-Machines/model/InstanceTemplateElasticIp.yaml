@@ -1,0 +1,24 @@
+swagger: "2.0"
+definitions:
+  instanceTemplateElasticIp:
+    x-jdcloud-module: vm
+    required:
+      - bandwidthMbps
+      - chargeMode
+    properties:
+      bandwidthMbps:
+        type: integer
+        description: "Speed Limit for EIP (unit: MB)"
+      provider:
+        type: string
+        #todo: define common enums for referrence
+        enum:
+          - "BGP"
+          - "nonBGP"
+        description: "IP service provider takes the value of BGP, nonBGP"
+      chargeMode:
+        type: string
+        enum:
+          - "bandwith"
+          - "flow"
+        description: "Billing type, billing by bandwidth and billing by flow are supported"

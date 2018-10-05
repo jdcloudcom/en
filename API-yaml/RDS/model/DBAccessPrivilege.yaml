@@ -1,0 +1,13 @@
+swagger: "2.0"
+definitions:
+  DBAccessPrivilege:
+    x-jdcloud-module: rds
+    title: DBAccessPrivilege
+    type: object
+    properties:
+      accountName:
+        type: string
+        description: "Account Name"
+      privilege:
+        type: string
+        description: "Privilege of account to the database with the specific definition detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)"

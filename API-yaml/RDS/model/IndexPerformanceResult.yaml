@@ -1,0 +1,37 @@
+swagger: "2.0"
+definitions:
+  IndexPerformanceResult:
+    x-jdcloud-module: rds
+    title: IndexPerformanceResult
+    type: object
+    properties:
+      db:
+        type: string
+        description: "Database Name"
+      table:
+        type: string
+        description: "Table Name"
+      index:
+        type: string
+        description: "Index Name"
+      sizeKB:
+        type: integer
+        description: "Index Size, Unit: KB"
+      userSeeks:
+        type: integer
+        description: "Cumulative index search times since the server was started"
+      userScans:
+        type: integer
+        description: "Cumulative number of table scans since the server was started"
+      userUpdates:
+        type: integer
+        description: "Cumulative number of index updates since the server was started"
+      lastUserSeek:
+        type: string
+        description: "Last index search time, format YYYY-MM-DD hh:mm:ss"
+      lastUserScan:
+        type: string
+        description: "The most recent table scan time, format: YYYY-MM-DD hh:mm:ss"
+      lastUserUpdate:
+        type: string
+        description: "The most recent index update time, format: YYYY-MM-DD hh:mm:ss"

@@ -1,0 +1,54 @@
+swagger: "2.0"
+definitions:
+  topicListInfo:
+    x-jdcloud-module: streambus
+    title: topicListInfo
+    type: object
+    properties:
+      archived: 
+        type: integer
+        description: "Whether to archive or not (0: not archived, 1: archived)"
+      createdTime:
+        type: string
+        format: date
+        description: "Time Stamp of Creating Topic " 
+      deleted:
+        type: integer
+        description: "Whether has the topic been deleted (0: not deleted, 1: deleted)"
+      id:
+        type: integer
+        description: "ID Value of Topic"
+      lifecycle:
+        type: integer
+        description: "Reserve Time After Writing Data"
+      name:
+        type: string
+        description: "Topic Name in the Stream Hub"
+      partitionNum:
+        type: string
+        description: "Partition Number in the Corresponding Kafka"
+      remark:
+        type: string
+        description: "Note"
+      shardNum:
+        type: string
+        description: "Shard Number in the Stream Hub"
+      status:
+        type: integer
+        description: "0: created, 1: pending"
+      topicName:
+        type: string
+        description: "Topic Name in the Corresponding Kafka"
+      uid:
+        type: string
+        description: "UID in the Corresponding Kafka"
+      updatedTime:
+        type: string
+        format: date
+        description: "Time Stamp of Updating Topic " 
+      userPin:
+        type: string
+        description: "UserPin of the User"
+      dataSize:
+        type: string
+      

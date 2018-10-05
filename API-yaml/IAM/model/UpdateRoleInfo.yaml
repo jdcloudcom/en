@@ -1,0 +1,12 @@
+swagger: "2.0"
+definitions:
+  updateRoleInfo:
+    x-jdcloud-module: iam
+    properties:
+      description:
+        type: string
+        description: "Description, 0~256 characters"
+      maxSessionDuration:
+        type: integer
+        description: "Maximum session duration is 3,600~43,200 seconds, 3,600 seconds by default"
+

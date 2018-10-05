@@ -1,0 +1,14 @@
+swagger: "2.0"
+definitions:
+  AvailableZones:
+    x-jdcloud-module: mongodb
+    title: AvailableZones
+    type: object
+    properties:
+      az:
+        type: string
+        description: "Availability Zone"
+      canSale:
+        type: boolean
+        description: "Is it available for sale"
+      

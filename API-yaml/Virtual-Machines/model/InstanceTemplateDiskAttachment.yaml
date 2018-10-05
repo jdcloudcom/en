@@ -1,0 +1,30 @@
+swagger: "2.0"
+definitions:
+  instanceTemplateDiskAttachment:
+    x-jdcloud-module: vm
+    properties:
+      diskCategory:
+        type: string
+        description: |
+          Disk classification, the local disk or data disk is taken.
+          The system disk supports local disk or Cloud Disk Service. The system disk selects local Type, and the user must use the image localDisk type; if the system disk selects the cloud type, the user must use the image of the cloudDisk type.
+          The data disk supports Cloud Disk Service only.
+      autoDelete:
+        type: boolean
+        description: |
+          Deleting this disk with the VM automatically when the machine is deleted. The default value is true, which cannot be changed by local.
+          This parameter does not take effect if the data disk in the VM is a monthly package.
+          This parameter does not take effect if the data disk in the VM is a shared data disk.
+      instanceTemplateDisk:
+        $ref: "./InstanceTemplateDisk.yaml#/definitions/instanceTemplateDisk"
+        description: "Data Disk Configuration"
+      deviceName:
+        type: string
+        description: "Data disk logical attach point, value range: vda, vdb, vdc, vdd, vde, vdf, vdg, vdh, vdi. It is not used in the system disk, and can only be used for the data disk."
+      noDevice:
+        type: boolean
+        description: |
+          Excludes the device and parameter noDevice is used with deviceName.
+          Create a package image: deviceName: vdb, noDevice: true, the data disk vdb in the VM is not involved in creating an image.
+          Create a template: deviceName: vdb, noDevice: true, the data disk vdb in the image is not involved in creating the machine.
+          Create a machine: deviceName: vdb, noDevice: true, the data disk vdb in the image or the data disk vdb in the template (create machine by using the template) is not involved in creating the machine.

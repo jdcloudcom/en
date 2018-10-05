@@ -1,0 +1,14 @@
+swagger: "2.0"
+definitions:
+  networkInterfacePrivateIp:
+    x-jdcloud-module: vpc
+    properties:
+      privateIpAddress:
+        type: string
+        description: "IPV4 Address of Private IP"
+      elasticIpId:
+        type: string
+        description: "Elastic IP Instance ID"
+      elasticIpAddress:
+        type: string
+        description: "Elastic IP Instance Address"

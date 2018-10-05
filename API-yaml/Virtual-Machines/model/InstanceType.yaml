@@ -1,0 +1,28 @@
+swagger: "2.0"
+definitions:
+  instanceType:
+    x-jdcloud-module: vm
+    properties:
+      family:
+        type: string
+        description: "Instance Type"
+      instanceType:
+        type: string
+        description: "Instance type, such as g.b1.2xlarge"
+      cpu:
+        type: integer
+        description: "CPU Number"
+      memoryMB:
+        type: integer
+        description: "Memory Size"
+      nicLimit:
+        type: integer
+        description: "Number of ENI Supported"
+      desc:
+        type: string
+        description: "Description"
+      state:
+        type: array
+        items:
+          $ref: "./InstanceTypeState.yaml#/definitions/instanceTypeState"
+        description: "Instance Type Status"

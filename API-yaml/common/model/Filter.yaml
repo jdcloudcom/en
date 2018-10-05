@@ -1,0 +1,30 @@
+swagger: "2.0"
+definitions:
+  filter:
+    x-jdcloud-module: common
+    type: object
+    required:
+      - name
+      - values
+    properties:
+      name:
+        type: string
+        description: "Name of Filter Requirements"
+      operator:
+        type: string
+        description: "Operator of filter requirements is eq by default"
+        enum:
+          - eq
+          - lt
+          - le
+          - gt
+          - ge
+          - ne
+          - in
+          - like
+      values:
+        type: array
+        description: "Value of Filter Requirements"
+        items:
+          type: string
+

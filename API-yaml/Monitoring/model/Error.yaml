@@ -1,0 +1,15 @@
+swagger: "2.0"
+definitions:
+  errorBody:
+    x-jdcloud-module: monitor
+    type: object
+    properties:
+      code:
+        type: integer
+        description: "Error Code"
+      message:
+          type: string
+          description: "Error Information " 
+      status:
+          type: string
+          description: "Error Status   "   

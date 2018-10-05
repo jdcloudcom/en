@@ -1,0 +1,29 @@
+swagger: "2.0"
+definitions:
+  snapshot:
+    x-jdcloud-module: disk
+    type: object
+    description: "Snapshot Information Details"
+    properties:
+      snapshotId:
+        type: string
+        description: "Cloud Disk Snapshot ID"
+      diskId:
+        type: string
+        description: "Cloud Disk ID used to create the snapshot"
+      snapshotSizeGB:
+        type: integer
+        description: "Snapshot Size, Unit: GiB"
+      name:
+        type: string
+        description: "Snapshot Name"
+      description:
+        type: string
+        description: "Snapshot Description"
+      status:
+        type: string
+        description: "Snapshot Status, Value: creating, available, in-use, deleting, error_create or error_delete"
+      createTime:
+        type: string
+        format: date-time
+        description: "Creation Time"

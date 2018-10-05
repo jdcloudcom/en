@@ -1,0 +1,13 @@
+swagger: "2.0"
+definitions:
+  securityGroupSimple:
+    x-jdcloud-module: vm
+    description: "Describe the security group for instance associated"
+    type: object
+    properties:
+      groupId:
+        type: string
+        description: "Security Group ID"
+      groupName:
+        type: string
+        description: "Security Group Name"

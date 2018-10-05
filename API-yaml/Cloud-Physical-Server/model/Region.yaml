@@ -1,0 +1,18 @@
+swagger: "2.0"
+definitions:
+  region:
+    x-jdcloud-module: cps
+    title: region
+    type: object
+    properties:
+      region:
+        type: string
+        description: Region Code, such as cn-east-1
+      regionName:
+        type: string
+        description: Region Name, such as East China Region 1
+      azs:
+        type: array
+        items:
+          $ref: "./AZ.yaml#/definitions/az"
+        description: Availability Zone List

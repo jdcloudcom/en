@@ -1,0 +1,20 @@
+swagger: "2.0"
+definitions:
+  AuditFile:
+    x-jdcloud-module: rds
+    title: AuditFile
+    type: object
+    properties:
+      name:
+        type: string
+        description: "Audit Log File Name"
+      sizeByte:
+        type: integer
+        format: int64
+        description: "Audit Log File Size, in Bytes"
+      lastUpdateTime:
+        type: string
+        description: "Audit Log File Last Update Time"
+      uploadTime:
+        type: string
+        description: "Audit Log File Update Time"

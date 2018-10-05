@@ -1,0 +1,25 @@
+swagger: "2.0"
+definitions:
+  modifySecurityGroupRules:
+    x-jdcloud-module: vpc
+    required:
+      - ruleId
+    properties:
+      ruleId:
+        type: string
+        description: "Security Group Rule ID."
+      protocol:
+        type: number
+        description: "Rule Limits Protocol. 300:All; 6:TCP; 17:UDP; 1:ICMP"
+      fromPort:
+        type: integer
+        description: "Start Port of Security Group Rule. Value Range: 1-65535"
+      toPort:
+        type: integer
+        description: "End Port of Security Group Rule. Value Range: 1-65535"
+      addressPrefix:
+        type: string
+        description: "Prefix of Security Group Rule. Value Range: correct CIDR        "        
+      description:
+        type: string
+        description: "Security Group Rule Description. Value Range: 0-256 of all characters entered under UTF-8 coding"

@@ -1,0 +1,48 @@
+swagger: "2.0"
+info:
+  version: "v1"
+  title: welcome Test APIs
+  description: API related to datastar
+
+basePath: /regions/{regionId}
+
+paths:
+  "/welcome":
+    ###################### welcome APIs Test######################
+        post:
+              description: API Connectivity Test APIs
+              operationId: testWelcome
+              x-jdcloud-internal: true
+              parameters:
+                - name: testOpenApiInfo
+                  in: body
+                  required: true
+                  description: testOpenApi Enter Parameter
+                  schema:
+                      $ref: "../model/TestOpenApiReq.yaml#/definitions/testOpenApiReq"
+              responses:
+                200:
+                  description: OK
+                  schema:
+                    properties:
+                      result:
+                        properties:
+                          status:
+                            type: boolean
+                          message:
+                            type: string
+                          data:
+                            type: string
+                      requestId:
+                        type: string
+                500:
+                  description: "Internal server error"
+
+# Path General Parameters
+parameters:
+  regionId:
+    name: regionId
+    in: path
+    required: true
+    type: string
+    description: "Region ID"

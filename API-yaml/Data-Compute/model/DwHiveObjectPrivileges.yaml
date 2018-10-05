@@ -1,0 +1,37 @@
+swagger: "2.0"
+definitions:
+  dwHiveObjectPrivileges:
+    x-jdcloud-module: xdata
+    title: DwHiveObjectPrivileges
+    type: object
+    properties:
+      status:
+        type: boolean
+        description: "Status"
+      message:
+        type: string
+        description: "Return Information"
+      select:
+        type: boolean
+        description: "Select Permission"
+      insert:
+        type: boolean
+        description: "Insert Permission"
+      update:
+        type: boolean
+        description: "Update Permission"
+      delete:
+        type: boolean
+        description: "Delete Permission"
+      drop:
+        type: boolean
+        description: "Drop Permission"
+      create:
+        type: boolean
+        description: "Create Permission"
+      alter:
+        type: boolean
+        description: "Alter Permission"
+      owner:
+        type: boolean
+        description: "Is it the owner or not"

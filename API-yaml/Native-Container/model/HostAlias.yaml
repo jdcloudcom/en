@@ -1,0 +1,19 @@
+swagger: "2.0"
+definitions:
+  hostAlias:
+    x-jdcloud-module: nc
+    type: object
+    description: "Domain and IP Mapping Information"
+    x-jdcloud-internal: false
+    required:
+      - hostnames
+      - ip
+    properties:
+      hostnames:
+        type: array
+        items:
+          type: string
+        description: "Domain List"
+      ip:
+        type: string
+        description: "IP Address"

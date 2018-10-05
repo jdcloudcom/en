@@ -1,0 +1,231 @@
+swagger: "2.0"
+info:
+  description: "Monitoring Items APIs, providing functions such as available monitoring item list query and monitoring data query"
+  title: Monitoring Items APIs
+  version: "v1"
+consumes:
+- application/json
+produces:
+- application/json
+
+paths:
+  /metrics:
+    ###################### Query available monitoring item list based on the product line ######################    
+    get:
+      description: "Query metric list to get monitoring data list based on product type"
+      summary: Query available monitoring item list based on the product line
+      operationId: describeMetrics
+      x-jdcloud-internal: false
+      parameters:
+      - type: string
+        description: |
+          Product Name: 
+          vm--> Virtual Machine
+          disk-->Cloud Disk Service
+          ip--> Public IP
+          balance-->Load Balancer
+          database-->MySQL Service Version
+          cdn-->JD CDN
+          redis-->JCS for Redis
+          mongodb-->MongoDB Cloud Cache
+          storage-->Cloud Storage
+          sqlserver-->cloud Database Sqlserver Version 
+          nativecontainer-->Container
+        name: serviceCode
+        in: query
+        required: true
+      responses:
+        200:
+          description: OK
+          schema:
+            properties:
+              requestId:
+                type: string
+                description: "Request ID"
+              result:
+                properties:
+                  metrics:
+                    type: array
+                    items:
+                      $ref: '../model/MetricDatail.yaml#/definitions/metricDetail'
+        400:
+          description: "invalid parameter"
+        500:
+          description: "internal server error"
+
+  /metricsForCreateAlarm:
+    get:
+      description: "Query metric list available to create monitoring rules based on resource type"
+      summary: Query metric list to create monitoring rules available
+      operationId: describeMetricsForCreateAlarm
+      x-jdcloud-internal: false      
+      parameters:
+      - type: string
+        description: |
+          Type of resource, blank by default, displaying all items
+          vm--> Virtual Machine
+          disk-->Cloud Disk Service
+          ip--> Public IP
+          balance-->Load Balancer
+          database-->MySQL Service Version
+          cdn-->JD CDN
+          redis-->JCS for Redis
+          mongodb-->MongoDB Cloud Cache
+          storage-->Cloud Storage
+          sqlserver-->cloud Database Sqlserver Version 
+          nativecontainer-->Container
+        name: serviceCode
+        in: query
+      responses:
+        200:
+          description: OK
+          schema:
+            properties:
+              requestId:
+                type: string
+                description: "Request ID"
+              result:
+                properties:
+                  serviceCodeList:
+                    type: array
+                    items:
+                      $ref: '../model/MetricDatail.yaml#/definitions/ServiceCodeMetrics'
+        400:
+          description: 'invalid parameter'
+        500:
+          description: 'internal server error'
+          
+  /regions/{regionId}/metrics/{metric}/metricData:
+    ######################Get Statistics for the Specified Metric######################  
+    get:
+      description: "Get statistics for the specified metric. To get more precise data points, the user can narrow or increase the specified time range."
+      summary: Get statistics for the specified metric
+      operationId: describeMetricData
+      x-jdcloud-internal: false      
+      parameters:
+      - type: string
+        description: "Region ID"
+        name: regionId
+        in: path
+        required: true
+      - type: string
+        description: "Metric"
+        name: metric
+        in: path
+        required: true
+      - type: string
+        description: "Type of resource, taking values such as vm, lb, ip, and database"
+        name: serviceCode
+        in: query
+        required: true
+      - type: string
+        description: "Uuid of Resource"
+        name: resourceId
+        in: query
+        required: true
+      - type: string
+        description: "Query start time of time range, UTC time, format: yyyy-MM-dd'T’HH:mm:ssZ (current time by default, if it is earlier than 30d, it will be reset to 30d)"
+        name: startTime
+        in: query
+      - type: string
+        description: "Query end time of time range, UTC time, format: 2016-12- yyyy-MM-dd'T’HH:mm:ssZ (if it is blank, which shall be obtained by computing startTime and timeInterval)"
+        name: endTime
+        in: query
+      - type: string
+        description: "Time interval: 1h, 6h, 12h, 1d, 3d, 7d, 14d, fixed time interval, fill in at least one of timeInterval and endTime"
+        name: timeInterval
+        in: query
+      - name: tags
+        in: query
+        type: array
+        items:
+          $ref: "../model/Tags.yaml#/definitions/tagFilter"
+        description: "Custom Tag"
+      responses:
+        200:
+          description:  OK
+          schema:
+            properties:
+              requestId:
+                type: string
+                description: "Request ID"
+              result:
+                properties:
+                  metricDatas:
+                    type: array
+                    items:
+                      $ref: '../model/MetricData.yaml#/definitions/metricData'
+        400:
+          description: "invalid parameter"
+        500:
+          description: "internal server error"
+  /regions/{regionId}/metrics/{metric}/lastDownsample:
+    get:
+      description: "View the last point at certain resource"
+      summary: View the last point at certain resource
+      operationId: lastDownsample
+      x-jdcloud-internal: true      
+      parameters:
+      - type: string
+        description: "Region ID"
+        name: regionId
+        in: path
+        required: true
+      - type: string
+        description: "Metric"
+        name: metric
+        in: path
+        required: true
+      - type: string
+        description: "Type of resource, taking values such as vm, lb, ip, and database"
+        name: serviceCode
+        in: query
+        required: true
+      - type: string
+        description: "Uuid of Resource"
+        name: resourceId
+        in: query
+        required: true
+      - name: tags
+        in: query
+        type: array
+        description: "Custom Tag"
+        items:
+          $ref: "../model/Tags.yaml#/definitions/tagFilter"
+      - type: string
+        description: "Query start time of time range, UTC time, format: yyyy-MM-dd'T’HH:mm:ssZ (current time by default, if it is earlier than 30d, it will be reset to 30d)"
+        name: startTime
+        in: query
+      - type: string
+        description: "Query end time of time range, UTC time, format: 2016-12- yyyy-MM-dd'T’HH:mm:ssZ (if it is blank, which shall be obtained by computing startTime and timeInterval)"
+        name: endTime
+        in: query
+      - type: string
+        description: "Queried time interval, only supporting the minute-level, for example: 1m"
+        name: timeInterval
+        in: query
+      - type: string
+        description: "Aggregation method: max avg min and so on"
+        name: aggrType
+        in: query
+      responses:
+        200:
+          description: "View the last point at certain resource"
+          schema:
+            type: object
+            required:
+            - requestId
+            properties:
+              requestId:
+                description: "Request ID"
+                type: string
+              result:
+                properties:
+                  items:
+                    type: array
+                    items:
+                      $ref: '../model/LastDownsampleRespItem.yaml#/definitions/lastDownsampleRespItem'
+        400:
+          description: "invalid parameter"
+        500:
+          description: "internal server error"

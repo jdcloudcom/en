@@ -1,0 +1,28 @@
+swagger: "2.0"
+definitions:
+  diskAttachment:
+    x-jdcloud-module: disk
+    type: object
+    properties:
+      attachmentId:
+        type: string
+        description: "Attach ID"
+      diskId:
+        type: string
+        description: "Cloud Disk Service ID"
+      instanceType:
+        type: string
+        enum:
+          - "vm"
+          - "nc"
+        description: "Instance Type, value: vm or nc"
+      instanceId:
+        type: string
+        description: "Instance ID"
+      status:
+        type: string
+        description: "Attaching Status, 'attaching', 'attached', 'detaching' or 'detached'"
+      attachTime:
+        type: string
+        format: date-time
+        description: "Attachment Time"

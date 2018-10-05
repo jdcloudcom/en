@@ -1,0 +1,38 @@
+swagger: "2.0"
+definitions:
+  instanceTemplateSpec:
+    x-jdcloud-module: vm
+    required:
+      - instanceType
+      - imageId
+      - primaryNetworkInterface
+      - systemDisk
+    properties:
+      instanceType:
+        type: string
+        description: "Instance type, query<a href='https://www.jdcloud.com/help/detail/2901/isCatalog/1'>DescribeInstanceTypes</a> API for the instance type information of the specified zone or AZ."
+      imageId:
+        type: string
+        description: 'Image ID, query <a href="https://www.jdcloud.com/help/detail/2874/isCatalog/1">DescribeImages</a> API for the image information of the specified zone.'
+      password:
+        type: string
+        description: "Password, <a href = 'https://www.jdcloud.com/help/detail/3870/isCatalog/1'>Refer to the public parameter specification</a>."
+      keyNames:
+        type: array
+        items:
+          type: string
+        description: "The key pair name; only one is supported  currently"
+      elasticIp:
+        $ref: "./InstanceTemplateElasticIpSpec.yaml#/definitions/instanceTemplateElasticIpSpec"
+        description: "EIP specification associated with the primary IP of the primary network interface"
+      primaryNetworkInterface:
+        $ref: "./InstanceTemplateNetworkInterfaceAttachmentSpec.yaml#/definitions/instanceTemplateNetworkInterfaceAttachmentSpec"
+        description: "Primary Network Interface Instance Type Information"
+      systemDisk:
+        $ref: "./InstanceTemplateDiskAttachmentSpec.yaml#/definitions/instanceTemplateDiskAttachmentSpec"
+        description: "System Disk Instance Type Information"
+      dataDisks:
+        type: array
+        items:
+          $ref: "./InstanceTemplateDiskAttachmentSpec.yaml#/definitions/instanceTemplateDiskAttachmentSpec"
+        description: "Data Disk Instance Type Information"

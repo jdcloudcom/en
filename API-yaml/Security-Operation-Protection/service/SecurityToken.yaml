@@ -1,0 +1,88 @@
+swagger: "2.0"
+info:
+  version: "v1"
+  title: Security Token
+  description: "Security Token Management APIs for Operation Protection"
+
+basePath: /regions/{regionId}
+
+paths:
+  "/securityToken:getSecurityToken":
+    ###################### Obtain SecurityToken ######################
+    post:
+      description: "Obtain Token"
+      operationId: getSecurityToken
+      x-jdcloud-internal: false
+      parameters:
+        - name: getSecurityTokenInfo
+          in: body
+          description: "Obtain SecurityToken parameters"
+          required: true
+          schema:
+            $ref: "../model/GetSecurityTokenInfo.yaml#/definitions/getSecurityTokenInfo"
+      responses:
+        200:
+          description: OK
+          schema:
+            type: object
+            properties:
+              result:
+                properties:
+                  securityToken:
+                    type: string
+                    description: "Security Token"
+              requestId:
+                type: string
+
+  "/securityToken:verifySecurityToken":
+    ###################### Verify the validity of SecurityToken ######################
+    post:
+      description: "Verify the validity of SecurityToken"
+      operationId: verifySecurityToken
+      x-jdcloud-internal: true
+      parameters:
+        - name: verifySecurityTokenInfo
+          in: body
+          description: "Verify securityToken parameters"
+          required: true
+          schema:
+            $ref: "../model/VerifySecurityTokenInfo.yaml#/definitions/verifySecurityTokenInfo"
+      responses:
+        200:
+          description: OK
+          schema:
+            type: object
+            properties:
+              requestId:
+                type: string
+
+  "/securityToken:sendSopVerificationCode":
+    ###################### Send sop verification code ######################
+    post:
+      description: "Send sop verification code"
+      operationId: sendSopVerificationCode
+      x-jdcloud-internal: true
+      parameters:
+        - name: verificationCodeInfo
+          in: body
+          description: "Send verification code parameters"
+          required: true
+          schema:
+            $ref: "../model/VerificationCodeInfo.yaml#/definitions/verificationCodeInfo"
+      responses:
+        200:
+          description: OK
+          schema:
+            type: object
+            properties:
+              requestId:
+                type: string
+
+# Path General Parameters
+parameters:
+  regionId:
+    name: regionId
+    in: path
+    required: true
+    type: string
+    description: Region ID

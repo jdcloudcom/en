@@ -1,0 +1,161 @@
+swagger: "2.0" # realized based on Swagger 2.0 version
+info:
+  version: v1
+  title: Audit Management
+  description: "Audit Management Related API"
+basePath: /regions/{regionId}
+paths:
+  "/instances/{instanceId}/audit": #Audit
+    post:
+      description: "It enables the database audit function of SQL Server and currently supports instance-level database audit. Users can enable and disable the audit function, customize audit policies, and download audit files as needed. The audit file is a native SQL Server audit file and is saved for 6 months by default. <br>- Support SQL Server Only"
+      operationId: createAudit
+      parameters:
+        - name: createAudit
+          in: body
+          description:
+          schema:
+            type: object
+            required:
+              - enabled
+            properties:
+              enabled:
+                type: string
+                description: "The audit options to be enable shall be separated from each other by a comma or a space, for example: DATABASE_OBJECT_ACCESS_GROUP,ACKUP_RESTORE_GROU, etc. <br>The audit options supported by each database version can be obtained via the API [getAuditOptions](./getAuditOptions.md), and the specific meaning of each audit option can be found in the official document of Microsoft."
+      responses:
+        200:
+          description: OK
+    get:
+      description: "View the audit options of the current instance that have been enabled. If no audit option is enabled for the current instance, it returns an empty array<br>- Support SQL Server Only"
+      operationId: describeAudit
+      responses:
+        200:
+          description: OK
+          schema:
+            properties:
+              result:
+                properties:
+                  enabled:
+                    type: array
+                    items:
+                      type: string
+                      description: "Audit Options Currently Enabled. If no audit option is enabled for the current instance, it returns an empty array"
+    delete:
+      description: "Disable Database Audit. After the database audit is disabled, the previously generated audit result files are not deleted immediately. The audit result files will be automatically deleted by the system after the expiration date. The default expiration time is 6 months<br>- Support SQL Server Only"
+      operationId: deleteAudit
+      responses:
+        200:
+          description: OK
+  "/instances/{instanceId}/audit:getOptions": #Audit Options
+    post:
+      description: "Get the audit options and corresponding recommended options for the various database versions supported by the current system<br>- Support SQL Server Only"
+      operationId: getAuditOptions
+      parameters:
+        - name: name
+          in: body
+          description: 
+          schema:
+            type: object
+            required:
+              - name
+            properties:
+              name:
+                type: string
+                description: "Audit option category, **Case Sensitivity**. It currently supports two types: <br>(1) AuditOptions at the beginning: It returns all options supported by each version of SQL Server in the disalbed parameter with supported name of <br>AuditOptions2008R2<br>AuditOptions2012<br>AuditOptions2014<br>AuditOptions2016<br>For example, if the input parameter is 'AuditOptions2016', then it returns all the audit options supported by the SQL Server 2016 version in the disabled field<br>(2)AuditDefault at the beginning: The default option suggested by JD Cloud, which returns the recommended options to be enabled in the enabled parameter, and returns the options not to be enabled in the disabled parameter, with supported name of: <br>AuditDefault2008R2<br>AuditDefault2012<br>AuditDefault2014<br>AuditDefault2016<br>For example, if the input parameter is 'AuditDefault2016', then it returns the audit options recommended by JD Cloud to be enabled in the SQL Server 2016 version in the enabled field, and the options recommended not to be enabled in the disabled field"
+      responses:
+        200:
+          description: OK
+          schema:
+            properties:
+              result:
+                properties:
+                  enabled:
+                    type: array
+                    items:
+                      type: string
+                      description: "AuditDefault Template: It returns the audit options recommended to be enabled. <br> AuditOptions Template: It does not return this parameter"
+                  disabled:
+                    type: array
+                    items:
+                      type: string
+                      description: "AuditDefault Template: It returns disabled audit options<br>AuditOptions Template: It returns all audit options"
+  "/instances/{instanceId}/audit:modifyAudit": #Modify Audit
+    post:
+      description: "Modify Current Audit Options. Currently available audit options are available through describeAudit, and all supported options are available through getAuditOptions. <br>- Support SQL Server Only"
+      operationId: modifyAudit
+      parameters:
+        - name: modifyAudit
+          in: body
+          description: 
+          schema:
+            type: object
+            properties:
+              add:
+                type: string
+                description: "Add new audit items based on the original audit items. Multiple audit items are separated by commas, semicolons or spaces, for example, DATABASE_OBJECT_ACCESS_GROUP, ACKUP_RESTORE_GROUP"
+              drop:
+                type: string
+                description: "Delete audit items. Multiple audit items are separated by commas, semicolons or spaces, for example, DATABASE_OBJECT_ACCESS_GROUP,ACKUP_RESTORE_GROUP<br>If all audit items are deleted, the audit is automatically disabled."
+      responses:
+        200:
+          description: OK
+  "/instances/{instanceId}/audit:getAuditFiles": #Check Audit File List
+    post:
+      description: "Obtain the list of all audit result files under current instance<br>- Support SQL Server Only"
+      operationId: getAuditFiles
+      responses:
+        200:
+          description: OK
+          schema:
+            properties:
+              result:
+                properties:
+                  auditFiles:
+                    type: array
+                    items:
+                      $ref: ../model/AuditFile.yaml#/definitions/AuditFile
+  "/instances/{instanceId}/audit:getAuditDownloadURL": #Obtain the Download Link of A Certain Audit File
+    post:
+      description: "Obtain the download link of a certain audit file, support both the internal and external links which are valid for 24 hours <br>- Support SQL Server Only"
+      operationId: getAuditDownloadURL
+      parameters:
+        - name: name
+          in: body
+          description: 
+          schema:
+            type: object
+            required:
+              - fileName
+            properties:
+              fileName:
+                type: string
+                description: "Audit File Name"
+              #urlExpirationSecond:
+                #type: integer
+                #description: Specify the expiration time of the download link in seconds. The default is 86400 seconds, which is 24 hours.
+      responses:
+        200:
+          description: OK
+          schema:
+            properties:
+              result:
+                properties:
+                  publicURL:
+                    type: string
+                    description: "Public network download link, if download is not available currently, it is an empty string"
+                  internalURL:
+                    type: string
+                    description: "Intranet download link, if download is not available currently, it is an empty string"
+# Path General Parameters
+parameters:
+  regionId:
+    name: regionId
+    in: path
+    required: true
+    type: string
+    description: "Region code, with range detailed in [Regions and Availability Zone Comparison Table](../Enum-Definitions/Regions-AZ.md)"
+  instanceId:
+    name: instanceId
+    in: path
+    required: true
+    type: string
+    description: "RDS instance ID, which uniquely identifies an RDS instance"

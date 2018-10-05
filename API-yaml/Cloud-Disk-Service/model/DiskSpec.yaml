@@ -1,0 +1,37 @@
+swagger: "2.0"
+definitions:
+  diskSpec:
+    x-jdcloud-module: disk
+    required:
+      - az
+      - name
+      - diskType
+      - diskSizeGB
+    properties:
+      az:
+        type: string
+        description: "Availability Zone, to which the cloud disk belongs"
+      name:
+        type: string
+        description: "Name of the cloud disk"
+      description:
+        type: string
+        description: "Description of the cloud disk"
+      diskType:
+        type: string
+        enum:
+          - "ssd"
+          - "premium-hdd"
+        description: "Type of the cloud disk, value ssd or premium-hdd"
+      diskSizeGB:
+        type: integer
+        description: "Size of the cloud disk, unit: GiB; ssd value range of [20,1000]GB and step size of 10G; premium-hdd value range of [20,3000]GB and step size of 10G"
+      snapshotId:
+        type: string
+        description: "Snapshot ID used to create Cloud Disk Service"
+      charge:
+        $ref: "../../charge/model/ChargeSpec.yaml#/definitions/chargeSpec"
+        description: "Billing configuration; if no specification is made, the billing type is Pay-As-You-Go - Pay as the service time by default"
+      multiAttachable:
+        type: boolean
+        description: "Whether the Cloud Disk Service supports the mode that one disk is attached to multiple machines. It is set as false by default (not supported)."

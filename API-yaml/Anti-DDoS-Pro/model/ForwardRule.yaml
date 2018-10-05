@@ -1,0 +1,46 @@
+swagger: "2.0"
+definitions:
+  forwardRule:
+    type: object
+    x-jdcloud-module: ipanti
+    properties:
+      id:
+        type: integer
+        format: int64
+        description: "Rule ID"
+      instanceId:
+        type: integer
+        format: int64
+        description: "Instance ID"
+      protocol:
+        type: string
+        description: "TCP or UDP"
+      cname:
+        type: string
+        description: "cname of Rules"
+      originType:
+        type: string
+        description: "Back-to-origin Type: ip or domain"
+      port:
+        type: integer
+        description: "Port Number"
+      algorithm:
+        type: string
+        description: "Forwarding Rules: wrr->round Robin with weight,  wlc->minimum weighted connection,  rr->round Robin without weight,  sh->source address hash"
+      originAddr:
+        type: array
+        items:
+          $ref: "../model/OriginAddrItem.yaml#/definitions/OriginAddrItem"
+      onlineAddr:
+        type: array
+        items:
+          type: string
+      originDomain:
+        type: string
+        description: "Back-to-origin Domain Name"
+      originPort:
+        type: integer
+        description: "Back-to-origin Port Number"
+      status:
+        type: integer
+        description: "0->defense Status  1->back-to-origin Status"

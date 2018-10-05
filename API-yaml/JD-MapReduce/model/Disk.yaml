@@ -1,0 +1,13 @@
+swagger: "2.0"
+definitions:
+  disk:
+    x-jdcloud-module: jmr
+    title: disk
+    type: object
+    properties:
+      volumeType:
+        type: string
+        description: "Disk Capacity Type"
+      limit:
+        type: string
+        description: "Maximum Disk Capacity"

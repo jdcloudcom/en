@@ -1,0 +1,140 @@
+swagger: "2.0"
+info:
+  version: "v1"
+  title: database
+  description: API related to XDATA-DW database
+
+basePath: /regions/{regionId}
+
+paths:
+  "/dwDatabase":
+    ###################### Obtain a DW database list ######################
+        get:
+          description: "Search all the database information of user instance"
+          operationId: listDatabaseInfo
+          parameters:
+            - name: instanceName
+              in: query
+              type: string
+              required: true
+              description: "Instance Name"
+          responses:
+            200:
+              description: OK
+              schema:
+                properties:
+                  result:
+                    properties:
+                      status:
+                        type: boolean
+                      message:
+                        type: string
+                      data:
+                        type: array
+                        items:
+                          $ref: "../model/DwDatabaseInfo.yaml#/definitions/dwDatabaseInfo"
+                  requestId:
+                    type: string
+            500:
+              description: "Internal server error"
+
+  "/dwDatabase/{databaseName}":
+    ###################### Create a DW Database ######################
+        post:
+          description: "Create a user instance database"
+          operationId: createDatabase
+          parameters:
+            - name: instanceName
+              in: query
+              type: string
+              required: true
+              description: "Instance Name"
+            - name: description
+              in: query
+              type: string
+              required: false
+              description: "Database Description Information"
+          responses:
+            200:
+              description: OK
+              schema:
+                properties:
+                  result:
+                    properties:
+                      status:
+                        type: boolean
+                      message:
+                        type: string
+                  requestId:
+                    type: string
+            500:
+              description: "Internal server error"
+
+    ###################### Obtain DW database details ######################
+        get:
+          description: "Search the specified database information of user instance"
+          operationId: getDatabaseInfo
+          parameters:
+            - name: instanceName
+              in: query
+              type: string
+              required: true
+              description: "Instance Name"
+          responses:
+            200:
+              description: OK
+              schema:
+                properties:
+                  result:
+                    properties:
+                      status:
+                        type: boolean
+                      message:
+                        type: string
+                      data:
+                        $ref: "../model/DwDatabase.yaml#/definitions/dwDatabase"
+                  requestId:
+                    type: string
+            500:
+              description: "Internal server error"
+
+    ###################### Delete a DW database ######################
+        delete:
+          description: "Delete a specified database of user instance"
+          operationId: deleteDatabase
+          parameters:
+            - name: instanceName
+              in: query
+              type: string
+              required: true
+              description: "Instance Name"
+          responses:
+            200:
+              description: OK
+              schema:
+                properties:
+                  result:
+                    properties:
+                      status:
+                        type: boolean
+                      message:
+                        type: string
+                  requestId:
+                    type: string
+            500:
+              description: "Internal server error"
+
+# Path General Parameters
+parameters:
+  regionId:
+    name: regionId
+    in: path
+    required: true
+    type: string
+    description: "Region ID"
+  databaseName:
+    name: databaseName
+    in: path
+    required: true
+    type: string
+    description: "Database Name"

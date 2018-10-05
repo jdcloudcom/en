@@ -1,0 +1,11 @@
+swagger: "2.0"
+definitions:
+  disassociateElasticIpSpec:
+    x-jdcloud-module: vpc
+    properties:
+      elasticIpId:
+        type: string
+        description: "Assign Disassociated Elastic IP ID"
+      elasticIpAddress:
+        type: string
+        description: "Assign Disassociated Elastic IP Address"

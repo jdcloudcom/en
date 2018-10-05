@@ -1,0 +1,14 @@
+swagger: "2.0"
+definitions:
+  quota:
+    x-jdcloud-module: vm
+    properties:
+      resourceType:
+        type: string
+        description: "Source Type [instance, keypair, image, instanceTemplate]"
+      limit:
+        type: integer
+        description: "Upper Quota Limit"
+      used:
+        type: integer
+        description: "Used Quota"

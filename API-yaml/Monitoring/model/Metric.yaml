@@ -1,0 +1,15 @@
+swagger: "2.0"
+definitions:
+  metric:
+    x-jdcloud-module: monitor
+    type: object
+    properties:
+      calculateUnit:
+        type: string
+        description: "Computing Unit of Metric, such as bit/s, %, and k"
+      metric:
+        type: string
+        description: "English Identifier of Monitoring Item"
+      metricName:
+        type: string
+        description: "Name of Monitoring Item"

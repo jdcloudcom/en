@@ -1,0 +1,14 @@
+swagger: "2.0"
+definitions:
+  azIdSpec:
+    x-jdcloud-module: redis
+    description: "The ID information of the availability zone of the region where the JCS for Redis instance is located"
+    type: object
+    properties:
+      master:
+        type: string
+        description: "The availability zone ID of the region where the primary instance of the JCS for Redis is located"
+      slave:
+        type: string
+        description: "The availability zone ID of the region where the secondary instance of the JCS for Redis is located"
+      

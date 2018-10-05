@@ -1,0 +1,349 @@
+swagger: "2.0"
+info:
+  version: "v1"
+  title: Advanced Anti-DDoS Attack Record APIs
+  description: "Advanced Anti-DDoS Attack Record APIs"
+
+basePath: /regions/{regionId}
+
+paths:
+  /attacklog:ddos:
+    get:
+      description: "Search the DDos attack log"
+      operationId: describeDDosAttackLogs
+      parameters:
+        - name: pageNumber
+          in: query
+          type: integer
+          required: false
+          description: "Page Number: 1 by default"
+        - name: pageSize
+          in: query
+          type: integer
+          required: false
+          description: "Paging Size: 20 by default; value range [10, 100]"
+        - name: startTime
+          in: query
+          type: string
+          required: true
+          description: "Start time, up to the latest 30 days, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ"
+        - name: endTime
+          in: query
+          type: string
+          required: true
+          description: "Search end time, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ"
+        - name: instanceId
+          in: query
+          type: array
+          items:
+            type: string
+          description: "Advanced Anti-DDoS Instance ID"
+          required: false
+      responses:
+        200:
+          description: OK
+          schema:
+            properties:
+              result:
+                properties:
+                  dataList:
+                    type: array
+                    items:
+                      $ref: "../model/DDosAttackLog.yaml#/definitions/DDosAttackLog"
+                  currentCount:
+                    type: integer
+                    description: "Current Page Counts"
+                  totalCount:
+                    type: integer
+                    description: "Total Number of Instances"
+                  totalPage:
+                    type: integer
+                    description: "Total Number of Pages"
+              requestId:
+                type: string
+  /attacklog:cc:
+    get:
+      description: "Search the cc attack log"
+      operationId: describeCcAttackLogs
+      parameters:
+        - name: pageNumber
+          in: query
+          type: integer
+          required: false
+          description: "Page Number: 1 by default"
+        - name: pageSize
+          in: query
+          type: integer
+          required: false
+          description: "Paging Size: 20 by default; value range [10, 100]"
+        - name: startTime
+          in: query
+          type: string
+          required: true
+          description: "Start time, up to the latest 30 days, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ"
+        - name: endTime
+          in: query
+          type: string
+          required: true
+          description: "Search end time, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ"
+        - name: instanceId
+          in: query
+          type: array
+          items:
+            type: string
+          description: "Advanced Anti-DDoS Instance ID"
+          required: false
+      responses:
+        200:
+          description: OK
+          schema:
+            properties:
+              result:
+                properties:
+                  dataList:
+                    type: array
+                    items:
+                      $ref: "../model/DDosAttackLog.yaml#/definitions/DDosAttackLog"
+                  currentCount:
+                    type: integer
+                    description: "Current Page Counts"
+                  totalCount:
+                    type: integer
+                    description: "Total Number of Instances"
+                  totalPage:
+                    type: integer
+                    description: "Total Number of Pages"
+              requestId:
+                type: string
+
+  /attacklog:ccDetail:
+    get:
+      description: "Search the cc attack log details"
+      operationId: describeCcAttackLogDetails
+      parameters:
+        - name: pageNumber
+          in: query
+          type: integer
+          required: false
+          description: "Page Number: 1 by default"
+        - name: pageSize
+          in: query
+          type: integer
+          required: false
+          description: "Paging Size: 20 by default; value range [10, 100]"
+        - name: startTime
+          in: query
+          type: string
+          required: true
+          description: "Start time, up to the latest 30 days, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ"
+        - name: endTime
+          in: query
+          type: string
+          required: true
+          description: "Search end time, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ"
+        - name: instanceId
+          in: query
+          type: string
+          description: "Advanced Anti-DDoS Instance ID"
+          required: true
+        - name: subDomain
+          in: query
+          type: array
+          items:
+            type: string
+          description: "Subdomain Name"
+          required: false
+      responses:
+        200:
+          description: OK
+          schema:
+            properties:
+              result:
+                properties:
+                  dataList:
+                    type: array
+                    items:
+                      $ref: "../model/CCAttackLogDetail.yaml#/definitions/CCAttackLogDetail"
+                  currentCount:
+                    type: integer
+                    description: "Current Page Counts"
+                  totalCount:
+                    type: integer
+                    description: "Total Number of Instances"
+                  totalPage:
+                    type: integer
+                    description: "Total Number of Pages"
+              requestId:
+                type: string
+
+  /attacklog:ddos/download:
+    get:
+      description: "Download the DDos attack log"
+      operationId: downloadDDosAttackLogs
+      parameters:
+        - name: startTime
+          in: query
+          type: string
+          required: true
+          description: "Start time, only data within the latest 60 days can be downloaded, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ"
+        - name: endTime
+          in: query
+          type: string
+          required: true
+          description: "Search end time, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ"
+        - name: instanceId
+          in: query
+          type: array
+          items:
+            type: string
+          description: "Advanced Anti-DDoS Instance ID"
+          required: false
+      responses:
+        200:
+          description: OK
+
+  /attacklog:cc/download:
+    get:
+      description: "Download the CC attack log"
+      operationId: downloadCcAttackLogs
+      parameters:
+        - name: startTime
+          in: query
+          type: string
+          required: true
+          description: "Start time, only data within the latest 60 days can be downloaded, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ"
+        - name: endTime
+          in: query
+          type: string
+          required: true
+          description: "Search end time, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ"
+        - name: instanceId
+          in: query
+          type: array
+          items:
+            type: string
+          description: "Advanced Anti-DDoS Instance ID"
+          required: false
+      responses:
+        200:
+          description: OK
+
+  /attacklog:ccDetail/download:
+    get:
+      description: "Download the CC attack log details"
+      operationId: downloadCcAttackLogDetails
+      parameters:
+        - name: startTime
+          in: query
+          type: string
+          required: true
+          description: "Start time, only data within the latest 60 days can be downloaded, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ"
+        - name: endTime
+          in: query
+          type: string
+          required: true
+          description: "Search end time, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ"
+        - name: instanceId
+          in: query
+          type: string
+          description: "Advanced Anti-DDoS Instance ID"
+          required: true
+        - name: subDomain
+          in: query
+          type: array
+          items:
+            type: string
+          description: "Subdomain Name"
+          required: false
+      responses:
+        200:
+          description: OK
+
+  /attacklog/describeAttackStatistics:
+    get:
+      description: "Query the attack counts and traffic peak value"
+      operationId: describeAttackStatistics
+      parameters:
+        - name: startTime
+          in: query
+          type: string
+          required: true
+          description: "Start time, up to the latest 30 days, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ"
+        - name: endTime
+          in: query
+          type: string
+          required: true
+          description: "Search end time, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ"
+        - name: instanceId
+          in: query
+          type: array
+          items:
+            type: string
+          description: "Advanced Anti-DDoS Instance ID"
+          required: false
+        - name: type
+          in: query
+          type: integer
+          required: true
+          description: "Attack Type, 0 is DDos, and 1 is CC"
+      responses:
+        200:
+          description: OK
+          schema:
+            properties:
+              result:
+                properties:
+                  flow:
+                    type: number
+                    format: float
+                    description: "Attack Traffic Peak Value"
+                  count:
+                    type: integer
+                    description: "Attack Counts"
+                  unit:
+                    type: string
+                    description: "Traffic Unit: bps, Kbps, Mbps, Gbps"
+              requestId:
+                type: string
+
+  /attacklog/describeAttackTypeCount:
+    get:
+      description: "Query the Attack Counts of Various Types"
+      operationId: describeAttackTypeCount
+      parameters:
+        - name: startTime
+          in: query
+          type: string
+          required: true
+          description: "Start time, up to the latest 30 days, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ"
+        - name: endTime
+          in: query
+          type: string
+          required: true
+          description: "Search end time, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ"
+        - name: instanceId
+          in: query
+          type: array
+          items:
+            type: string
+          description: "Advanced Anti-DDoS Instance ID"
+          required: false
+      responses:
+        200:
+          description: OK
+          schema:
+            properties:
+              result:
+                type: array
+                items:
+                  $ref: "../model/AttackTypeCount.yaml#/definitions/AttackTypeCount"
+              requestId:
+                type: string
+# Path General Parameters
+parameters:
+  regionId:
+    name: regionId
+    in: path
+    required: true
+    type: string
+    description: "Region ID"

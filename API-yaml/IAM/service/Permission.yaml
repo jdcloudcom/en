@@ -1,0 +1,214 @@
+swagger: "2.0"
+info:
+  version: "v1"
+  title: Policy Management APIs
+  description: "Policy Management APIs"
+
+basePath: /regions/{regionId}
+
+paths:
+  "/permission":
+    ###################### Create Policy ######################
+    post:
+      description: "Create policy"
+      operationId: createPermission
+      x-jdcloud-internal: false
+      parameters:
+        - name: createPermissionInfo
+          in: body
+          description: "Permission Information"
+          required: true
+          schema:
+            $ref: "../model/CreatePermissionInfo.yaml#/definitions/createPermissionInfo"
+      responses:
+        200:
+          description: OK
+          schema:
+            type: object
+            properties:
+              requestId:
+                type: string
+
+  "/permission/{permissionId}":
+   ###################### Modify Policy######################
+    put:
+      description: "Modify policy"
+      operationId: updatePermission
+      x-jdcloud-internal: false
+      parameters:
+        - name: updatePermissionInfo
+          in: body
+          description: "Permission Information"
+          required: true
+          schema:
+            $ref: "../model/UpdatePermissionInfo.yaml#/definitions/updatePermissionInfo"
+      responses:
+        200:
+          description: OK
+          schema:
+            type: object
+            properties:
+              requestId:
+                type: string
+
+   ###################### Search Policy Details ######################
+    get:
+      description: "Search policy details"
+      operationId: describePermissionDetail
+      x-jdcloud-internal: false
+      responses:
+        200:
+          description: OK
+          schema:
+            type: object
+            properties:
+              result:
+                properties:
+                  permission:
+                    $ref: "../model/Permission.yaml#/definitions/permission"
+                    description: "Permission Information"
+              requestId:
+                type: string
+
+
+  "/permissions":
+   ###################### Search Policy List ######################
+    get:
+      description: "Search policy list"
+      operationId: describePermissions
+      x-jdcloud-internal: false
+      parameters:
+        - name: pageNumber
+          in: query
+          type: integer
+          description: "Page"
+          required: true
+        - name: pageSize
+          in: query
+          type: integer
+          description: "Number of Roles Displayed on Each Page"
+          required: true
+        - name: keyword
+          in: query
+          type: string
+          description: "Keyword"
+          required: false
+        - name: queryType
+          in: query
+          type: integer
+          description: "Permission Type, 0-All, 1- System Permission, 2-Customized Permission"
+          required: true
+      responses:
+        200:
+          description: OK
+          schema:
+            type: object
+            properties:
+              result:
+                properties:
+                  total:
+                    type: integer
+                    description: "Total Number"
+                  permissions:
+                    type: array
+                    items:
+                      $ref: "../model/Permission.yaml#/definitions/permission"
+                    description: "Authority List Information"
+              requestId:
+                type: string
+
+  "/subUser/{subUser}/permisssions":
+   ###################### Associate Policies for Sub-users ######################
+    post:
+      description: "Associate policies for sub-users"
+      operationId: addPermissionsToSubUser
+      x-jdcloud-internal: false
+      parameters:
+        - name: addPermissionsInfo
+          in: body
+          description: "Permission Information"
+          required: true
+          schema:
+            $ref: "../model/AddPermissionsInfo.yaml#/definitions/addPermissionsInfo"
+      responses:
+        200:
+          description: OK
+          schema:
+            type: object
+            properties:
+              requestId:
+                type: string
+
+   ###################### Search Sub-user’s Policy List ######################
+    get:
+      description: "Search sub-user’s policy list"
+      operationId: describeSubUserPermissions
+      x-jdcloud-internal: false
+      parameters:
+        - name: pageNumber
+          type: integer
+          in: query
+          description: "Page"
+          required: true
+        - name: pageSize
+          type: integer
+          in: query
+          description: "Number of Roles Displayed on Each Page"
+          required: true
+      responses:
+        200:
+          description: OK
+          schema:
+            type: object
+            properties:
+              result:
+                properties:
+                  total:
+                    type: integer
+                    description: "Total Number"
+                  permissions:
+                    type: array
+                    items:
+                      $ref: "../model/Permission.yaml#/definitions/permission"
+                    description: "Authority List Information"
+              requestId:
+                type: string
+
+
+  "/subUser/{subUser}/permissions/{permissionId}":
+   ###################### Disassociate Policies for Sub-users######################
+    delete:
+      description: "Disassociate policies for sub-users"
+      operationId: removePermissionOfSubUser
+      x-jdcloud-internal: false
+      responses:
+        200:
+          description: OK
+          schema:
+            type: object
+            properties:
+              requestId:
+                type: string
+
+
+
+# Path General Parameters
+parameters:
+  regionId:
+    name: regionId
+    in: path
+    required: true
+    type: string
+    description: Region ID
+  permissionId:
+    name: permissionId
+    in: path
+    required: true
+    type: integer
+    description: "Permission id"
+  subUser:
+    name: subUser
+    in: path
+    required: true
+    type: string
+    description: "Sub-user Name"

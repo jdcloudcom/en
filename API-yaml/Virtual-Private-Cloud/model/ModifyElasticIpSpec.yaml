@@ -1,0 +1,11 @@
+swagger: "2.0"
+definitions:
+  modifyElasticIpSpec:
+    x-jdcloud-module: vpc
+    required:
+      - bandwidthMbps
+    properties:
+      bandwidthMbps:
+        type: integer
+        description: "Elastic IP Speed Limit (unit: Mbps). Value Range: [1-200]"
+

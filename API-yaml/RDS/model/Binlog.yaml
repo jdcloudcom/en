@@ -1,0 +1,22 @@
+swagger: "2.0"
+definitions:
+  Binlog:
+    x-jdcloud-module: rds
+    title: Binlog
+    type: object
+    properties:
+      binlogBackupId:
+        type: string
+        description: "binlog Log Backup ID"
+      binlogName:
+        type: string
+        description: "binlog Log Name"
+      binlogSizeKB:
+        type: integer
+        description: "binlog Log Size in KB"
+      binlogStartTime:
+        type: string
+        description: "binlog Start Time, Format: YYYY-MM-DD HH:mm:ss"
+      binlogEndTime:
+        type: string
+        description: "binlog End Time, Format: YYYY-MM-DD HH:mm:ss"

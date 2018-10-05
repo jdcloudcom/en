@@ -1,0 +1,11 @@
+swagger: "2.0"
+definitions:
+  modifyNetworkSecurityGroupSpec:
+    x-jdcloud-module: vpc
+    properties:
+      networkSecurityGroupName:
+        type: string
+        description: "Security Group Name. Value Range of Name: 1-32 Chinese, English capital and lowercase letters, numbers and underline delimiter"
+      description:
+        type: string
+        description: "Security Group Description. Value Range: 0-256 of all characters entered under UTF-8 coding"

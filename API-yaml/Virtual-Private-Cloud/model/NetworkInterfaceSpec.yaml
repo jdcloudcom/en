@@ -1,0 +1,38 @@
+swagger: "2.0"
+definitions:
+  networkInterfaceSpec:
+    x-jdcloud-module: vpc
+    required:
+      - subnetId
+    properties:
+      subnetId:
+        type: string
+        description: "Subnet ID"
+      az:
+        type: string
+        description: "Availability Zone, User’s Default Availability Zone"
+      networkInterfaceName:
+        type: string
+        description: "Network interface name, only allow Chinese, numbers, capital and lowercase letters, English underline “_” and line-through “-”, must provide a name which cannot exceed 32 characters."
+      primaryIpAddress:
+        type: string
+        description: "Network interface primary IP, if it has not been assigned, it will be allocated automatically from the subnet"
+      secondaryIpAddresses:
+        type: array
+        items:
+          type: string
+        description: "Secondary IP List"
+      secondaryIpCount:
+        type: integer
+        description: "Amount of Secondary IP Assigned Automatically"
+      securityGroups:
+        type: array
+        items:
+          type: string
+        description: "Security Group ID list to be associated, a maximum of 5 Security Groups can be done"
+      sanityCheck:
+        type: integer
+        description: "Source and target IP address verification, with value 0 or 1, default value is 1"
+      description:
+        type: string
+        description: "Description, allow all characters under UTF-8 coding, which cannot exceed 256 characters"

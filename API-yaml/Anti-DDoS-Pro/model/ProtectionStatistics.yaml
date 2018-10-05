@@ -1,0 +1,15 @@
+swagger: "2.0"
+definitions:
+  ProtectionStatistics:
+    type: object
+    x-jdcloud-module: ipanti
+    properties:
+      instancesCount:
+        type: integer
+        description: "Instance Counts"
+      protectedCount:
+        type: integer
+        description: "Count of Protected Instances"
+      protectedDay:
+        type: integer
+        description: "Days of Protection"

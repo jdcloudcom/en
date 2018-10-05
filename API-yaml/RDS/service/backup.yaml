@@ -1,0 +1,145 @@
+swagger: "2.0" # realized based on Swagger 2.0 version
+info:
+  version: v1
+  title: Backup Management
+  description: "Backup Management Related API"
+
+basePath: /regions/{regionId}
+
+paths:
+  "/backups": #Create Backup
+    post:
+      description: "Creating a full backup of the RDS instance can be fully backed up for the entire instance or part of the database (SQL Server supports only). At the same time, there is only be one running backup task can work<br>- Support SQL Server only"
+      operationId: createBackup
+      parameters:
+        - name: instanceId
+          in: query
+          type: string
+          description: "RDS instance ID can identify an instance uniquely"
+        - name: backupSpec
+          in: body
+          description: "Backup Specification"
+          schema:
+            $ref: "../model/BackupSpec.yaml#/definitions/backupSpec"
+      responses:
+        200:
+          description: OK
+          schema:
+            properties:
+              result:
+                properties:
+                  backupId:
+                    type: string
+                    description: "Backup Id"
+    get:
+      description: "View the detailed information of all backups in the RDS instance. The returned backup list is sorted in descending order from start time of backup (backupStartTime). <br>- Support SQL Server Only"
+      operationId: describeBackups
+      parameters:
+        - name: instanceId
+          required: true
+          in: query
+          type: string
+          description: "RDS instance ID can identify an instance uniquely"
+        - name: auto
+          required: false
+          in: query
+          type: integer
+          description: "Query the backup type, 0 for manual backup, 1 for automatic backup, not for all.<br>**- Test parameters, only support SQL Server, and may be replaced by other parameters later**"
+        - name: backupTypeFilter
+          required: false
+          in: query
+          type: string
+          description: "Return a list of backups with backupType equal to the specified value. Full is a full backup, and diff is an incremental backup<br>**- Test parameters, only support SQL Server, and may be replaced by other parameters later**"
+        - name: dbNameFilter
+          required: false
+          in: query
+          type: string
+          description: "Return a list of backups whose dbName is equal to the specified value. Return all if  not for all or empty<br>**- Test parameters, only support SQL Server, and may be replaced by other parameters later**"
+        - name: backupTimeRangeStartFilter
+          required: false
+          in: query
+          type: string
+          description: "Return the backup list whose start time of backup is longer than this time<br>**- Test parameters, only support SQL Server, and may be replaced by other parameters later**"
+        - name: backupTimeRangeEndFilter
+          required: false
+          in: query
+          type: string
+          description: "Return the backup list whose backup start time is shorter than or equal to this time<br>**-Test parameters, only support SQL Server, and may be replaced by other parameters later**"
+        - name: pageNumber
+          required: true
+          in: query
+          type: integer
+          description: "Display the page number of the data. The default is 1, and the value range is [-1, ∞). When pageNumber is -1, return all data page numbers; when the total number of pages is exceeded, display the last page."
+        - name: pageSize
+          required: true
+          in: query
+          type: integer
+          description: "The default of the number of data displayed per page is 10, and the value range is [1,100], which can only be a multiple of 10."
+      responses:
+        200:
+          description: OK
+          schema:
+            properties:
+              result:
+                properties:
+                  backup:
+                    type: array
+                    description: "Backup Collection"
+                    items:
+                      $ref: ../model/Backup.yaml#/definitions/Backup
+                  totalCount:
+                    type: integer
+                    description: "Total Number of Records"
+  "/backups/{backupId}":
+    delete:
+      description: "Deletes the RDS instance backup. Only the user-generated backups are allowed to be deleted and the system automatic backups are not allow to be deleted."
+      operationId: deleteBackup
+      responses:
+        200:
+          description: OK
+  "/backups/{backupId}/downloadURLs":
+    get:
+      description: "Obtain the download link of the entire backups or  a single file in the backup. <br>- When there is a file name in the input parameter, obtain the download link of the file. <br>- When there is no file name in the input parameter, obtain the download link of the entire backups. <br>Due to the difference of backup mechanism, when using this API to download backups, SQL Server must input the file name, and each file is downloaded one by one. It does not support downloading the entire backup. The file name (excluding the suffix) in the SQL Server backup is the database name of the backup. For example, the file name is my_test_db.bak, indicating that the file is a backup of the my_test_db database. <br>MySQL can download the entire backup set, but does not support the download of a single file. <br>- Support SQL Server Only"
+      operationId: describeBackupDownloadURL
+      parameters:
+        - name: fileName
+          required: false
+          type: string
+          in: query
+          description: "File name <br>]- MySQL: This parameter is not supported<br>- SQL Server: This parameter must be entered to specify the name of the file in the backup that needs to obtain the download link. The file name in the backup (excluding the suffix) is the database name of the backup. For example, the file name is my_test_db.bak, indicating that the file is a backup of the my_test_db database."
+        - name: urlExpirationSecond
+          required: false
+          type: string
+          in: query
+          description: "Specify the expiration time of the download link in seconds. The default is 86400 seconds, which is 24 hours. <br>- MySQL: This parameter is not supported, and it can only be the default value	<br>- SQL Server: Support"
+      responses:
+        200:
+          description: OK
+          schema:
+            properties:
+              result:
+                properties:
+                  publicURL:
+                    type: string
+                    description: "Public network download link, if download is not available currently, it is an empty string"
+                  internalURL:
+                    type: string
+                    description: "Intranet download link, if download is not available currently, it is an empty string"
+
+# Path General Parameters
+parameters:
+  regionId:
+    name: regionId
+    in: path
+    required: true
+    type: string
+    description: "Region code, with range detailed in [Regions and Availability Zone Comparison Table](../Enum-Definitions/Regions-AZ.md)"
+  backupId:
+    name: backupId
+    in: path
+    required: true
+    type: string
+    description: "Backup ID"
+
+
+

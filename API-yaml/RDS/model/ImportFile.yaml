@@ -1,0 +1,22 @@
+swagger: "2.0"
+definitions:
+  ImportFile:
+    x-jdcloud-module: rds
+    title: ImportFile
+    type: object
+    properties:
+      name:
+        type: string
+        description: "File Name"
+      sharedFileGid:
+        type: string
+        description: "If the file is a shared file, it has a global ID, and it is empty if it is not a shared file. This global ID is needed when the file is deleted."
+      sizeByte:
+        type: integer
+        description: "File Size, Unit: Byte"
+      uploadTime:
+        type: string
+        description: "File upload completion time, format: YYYY-MM-DD HH:mm:ss"
+      isLocal:
+        type: string
+        description: "Whether it belongs to the current instance. <br> 1: Current instance; <br>0: It does not belong to current instance, and is a shared file"

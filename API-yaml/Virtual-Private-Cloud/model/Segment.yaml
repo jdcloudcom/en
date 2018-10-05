@@ -1,0 +1,31 @@
+swagger: "2.0"
+definitions:
+  segment:
+    x-jdcloud-module: vpc
+    properties:
+      segmentId:
+        type: string
+        description: "Segment ID"
+      segmentName:
+        type: string
+        description: "Segment name, only allow Chinese, numbers, capital and lowercase letters, English underline “_” and line-through “-”, must provide a name which cannot exceed 32 characters."
+      description:
+        type: string
+        description: "Segment description, allow all characters under UTF-8 coding, which cannot exceed 256 characters."
+      addressPrefix:
+        type: string
+        description: "Network Address Field"
+      availableIpCount:
+        type: integer
+        description: "Number of Available IPs in Segment"
+      provider:
+        type: string
+        description: "IP service provider, values include bgp or no_bgp, cn-north-1: bgp; cn-south-1: [bgp, no_bgp]; cn-east-1: [bgp, no_bgp]; cn-east-2: bgp"
+      startIp:
+        type: string
+        description: "Segment Start Address"
+      endIp:
+        type: string
+        description: "Segment End Address"
+
+

@@ -1,0 +1,14 @@
+swagger: "2.0"
+definitions:
+  azSaleStatusVo:
+    x-jdcloud-module: iam
+    properties:
+      az:
+        type: string
+        description:
+      canSale:
+        type: integer
+        description: "Sold Out or Not (0-No, 1-Yes)"
+      visible:
+        type: integer
+        description: "Visible or Not (1-Yes, 0-No)"

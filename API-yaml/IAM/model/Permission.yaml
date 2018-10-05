@@ -1,0 +1,31 @@
+swagger: "2.0"
+definitions:
+  permission:
+    x-jdcloud-module: iam
+    properties:
+      id:
+        type: integer
+        description: "Permission id"
+      account:
+        type: string
+        description: "Primary Account Pin"
+      name:
+        type: string
+        description: "Permission Name"
+      description:
+        type: string
+        description: "Description"
+      permissionType:
+        type: string
+        description: "Permission Type"
+      version:
+        type: string
+        description: "Permission Version Number"
+      content:
+        type: string
+        description: "Permission Content"
+      permissionDetailList:
+        type: array
+        items:
+          $ref: "./PermissionDetail.yaml#/definitions/permissionDetail"
+        description: "Permission Details"

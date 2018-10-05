@@ -1,0 +1,22 @@
+swagger: "2.0"
+definitions:
+  os:
+    x-jdcloud-module: cps
+    title: os
+    type: object
+    properties:
+      osTypeId:
+        type: string
+        description: Operating System Type ID
+      osName:
+        type: string
+        description: Operating System Name, such as Ubuntu 16.04(x86_64)
+      osType:
+        type: string
+        description: Operating System Type Id, such as Ubuntu/Centos
+      osVersion:
+        type: string
+        description: Operating System Version, such as 14.04/16.04
+      deviceType:
+        type: string
+        description: Instance Type Family, such as cps.c.normal, 

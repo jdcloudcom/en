@@ -1,0 +1,79 @@
+swagger: "2.0"
+definitions:
+  instance:
+    x-jdcloud-module: cps
+    title: instance
+    type: object
+    properties:
+      instanceId:
+        type: string
+        description: "Cloud Physical Server Instance ID"
+      region:
+        type: string
+        description: "Region Code, such as cn-east-1"
+      az:
+        type: string
+        description: "Availability Zone, such as cn-east-1a"
+      deviceType:
+        type: string
+        description: "Instance Type Family, such as cps.c.normal"
+      name:
+        type: string
+        description: "Name of Cloud Physical Server"
+      description:
+        type: string
+        description: "Description of Cloud Physical Server"
+      status:
+        type: string
+        description: "Life Cycle Status of Cloud Physical Server"
+      enableInternet:
+        type: string
+        description: "Whether to Enable Internet, such as yes/no"
+      bandwidth:
+        type: integer
+        description: "Bandwidth, Unit: Mbps"
+      imageType:
+        type: string
+        description: "Image Type, such as Standard/Standard_app"
+      osTypeId:
+        type: string
+        description: "Operating System Type ID"
+      osName:
+        type: string
+        description: "Operating System Name"
+      osType:
+        type: string
+        description: "Operating System Type Id, such as Ubuntu/Centos"
+      osVersion:
+        type: string
+        description: "Operating System Version, such as 16.04"
+      sysRaidTypeId:
+        type: string
+        description: "System Disk RAID Type ID"
+      sysRaidType:
+        type: string
+        description: "System Disk RAID Type ID, such as NORAID, RAID0, and RAID1"
+      dataRaidTypeId:
+        type: string
+        description: "Data Disk RAID Type ID"
+      dataRaidType:
+        type: string
+        description: "Data Disk RAID Type ID, such as NORAID, RAID0, and RAID1"
+      networkType:
+        type: string
+        description: "Network Type, such as Basic"
+      lineType:
+        type: string
+        description: "Internet Link Type, such as bgp"
+      subnetId:
+        type: string
+        description: "Subnet Number"
+      privateIp:
+        type: string
+        description: "Private IP"
+      publicIp:
+        type: string
+        description: "Public IP"
+      charge:
+        $ref: "../../charge/model/Charge.yaml#/definitions/charge"
+        description: "Billing Information"

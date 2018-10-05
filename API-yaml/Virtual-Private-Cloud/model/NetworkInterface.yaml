@@ -1,0 +1,60 @@
+swagger: "2.0"
+definitions:
+  networkInterface:
+    x-jdcloud-module: vpc
+    properties:
+      networkInterfaceName:
+        type: string
+        description: "Elastic Network Interface Name"
+      networkInterfaceId:
+        type: string
+        description: "Elastic Network Interface ID"
+      az:
+        type: string
+        description: "Availability Zone Name"
+      role:
+        type: string
+        description: "Network Interface Role. Value Range: Primary (primary network interface), Secondary (secondary network interface)"
+      macAddress:
+        type: string
+        description: "Ethernet Address"
+      vpcId:
+        type: string
+        description: "Virtual Network ID"
+      subnetId:
+        type: string
+        description: "Subnet ID"
+      networkSecurityGroupIds:
+        type: array
+        items:
+          type: string
+        description: "Security Group ID List"
+      sanityCheck:
+        type: integer
+        description: "Source and target IP address verification, with value 0 or 1"
+      primaryIp:
+        $ref: "./NetworkInterfacePrivateIp.yaml#/definitions/networkInterfacePrivateIp"
+        description: "Primary IP of Network Interface"
+      secondaryIps:
+        type: array
+        items:
+          $ref: "./NetworkInterfacePrivateIp.yaml#/definitions/networkInterfacePrivateIp"
+        description: "Network Interface Auxiliary IP List"
+      instanceType:
+        type: string
+        description: "Associated Instance Type. Value Range: vm"
+      instanceId:
+        type: string
+        description: "Associated Instance ID"
+      instanceOwnerId:
+        type: string
+        description: "Account of Instance"
+      deviceIndex:
+        type: integer
+        description: "Device Reference Number of Network Interface on the Instance. Value Range: [0,8], 0: secondary network interface doesn't associate device, 1: primary network interface, 2-8: secondary network interface has associated device"
+      description:
+        type: string
+        description: "Network Interface Description Information"
+      createdTime:
+        type: string
+        description: "Creation Time of Elastic Network Interface"

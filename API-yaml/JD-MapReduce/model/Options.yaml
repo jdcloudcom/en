@@ -1,0 +1,13 @@
+swagger: "2.0"
+definitions:
+  options:
+    x-jdcloud-module: jmr
+    title: options
+    type: object
+    properties:
+      value:
+        type: string
+        description: "Specification Description of the Corresponding Machine"
+      label:
+        type: string
+        description: "CPU and Memory Size of the Machine"

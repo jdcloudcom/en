@@ -1,0 +1,21 @@
+swagger: "2.0"
+definitions:
+  Topology:
+    x-jdcloud-module: mongodb
+    title: Topology
+    type: object
+    properties:
+      primary:
+        $ref: "./TopologyPair.yaml#/definitions/TopologyPair"
+        description: "Primary"
+      secondary:
+        type: array
+        description: "Backup"
+        items:
+          $ref: "./TopologyPair.yaml#/definitions/TopologyPair"
+      hidden:
+        type: array
+        description: "Hide"
+        items:
+          $ref: "./TopologyPair.yaml#/definitions/TopologyPair"
+      

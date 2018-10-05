@@ -1,0 +1,52 @@
+swagger: "2.0"
+definitions:
+  jmrPlanViewModel:
+    x-jdcloud-module: jmr
+    title: jmrPlanViewModel
+    type: object
+    properties:
+      planId:
+        type: number
+        description: "Task Scheduling id"
+      planName:
+        type: string
+      planType:
+        type: string
+      planStatus:
+        type: string
+      failurePolicy:
+        type: string
+        description: "Policy adopted when task scheduling is failed"
+      createTime:
+        type: string
+        format: date
+        description: "Creation Time"
+      modifyTime:
+        type: string
+        format: date
+        description: "Modification Time"
+      dataCenter:
+        type: string
+        description: "Data Center, i.e. regionId"
+      az:
+        type: string
+      jobGroup:
+        type: string
+      jobTrigger:
+        type: string
+        description: "Trigger"
+      cronExpression:
+        type: string
+        description: "Time After Formatt"
+      isSync:
+        type: boolean
+      description:
+        type: string
+      jobIds:
+        type: string
+      clusterId:
+        type: string
+      clusterName:
+        type: string
+      orderBy:
+        type: string

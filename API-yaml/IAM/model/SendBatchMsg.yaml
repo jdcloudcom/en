@@ -1,0 +1,30 @@
+swagger: "2.0"
+definitions:
+  sendBatchMsg:
+    x-jdcloud-module: iam
+    required:
+      - templateId
+      - templateParam
+      - smsMessageSource
+      - pin
+      - mobileNumSet
+    properties:
+      templateId:
+        type: integer
+        description: "Template Code"
+      templateParam:
+        type: array
+        items:
+          type: string
+        description: "Template Parameter"
+      smsMessageSource:
+        type: string
+        description: "Business Code (and Product Application)"
+      pin:
+        type: string
+        description: "User Pin"
+      mobileNumSet:
+        type: array
+        items:
+          type: string
+        description: "Mobile Number"

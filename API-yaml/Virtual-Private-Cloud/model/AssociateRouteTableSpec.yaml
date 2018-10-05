@@ -1,0 +1,12 @@
+swagger: "2.0"
+definitions:
+  associateRouteTableSpec:
+    x-jdcloud-module: vpc
+    required:
+      - subnetIds
+    properties:
+      subnetIds:
+        type: array
+        items: 
+          type: string
+        description: "Subnet ID list to be associated by route table, when subnet has been associated by other route tables, automatically disassociate."

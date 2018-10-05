@@ -1,0 +1,27 @@
+swagger: "2.0"
+definitions:
+  dwInstance:
+    x-jdcloud-module: xdata
+    title: DwInstance
+    type: object
+    required:
+      - instanceName
+    properties:
+      instanceName:
+        type: string
+        description: "Instance Name"
+      comments:
+        type: string
+        description: "Instance Description"
+      instanceOwnerName:
+        type: string
+        description: "Instance Owner"
+      area:
+        type: string
+        description: "Instance Zone"
+      uname:
+        type: string
+        description: "Instance Alias (shown on the page)"
+      createTime:
+        type: string
+        description: "Instance Creation Time"

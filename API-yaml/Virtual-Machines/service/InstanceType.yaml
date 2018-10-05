@@ -1,0 +1,66 @@
+swagger: "2.0"
+info:
+  version: "v1"
+  title: Instance Type
+  description: "Instance Type Operation APIs"
+
+basePath: /regions/{regionId}
+
+paths:
+  "/instanceTypes":
+    ###################### Instance Type List API ######################
+    get:
+      description: |
+        Query instance type information list
+      operationId: describeInstanceTypes
+      parameters:
+        - name: filters
+          in: query
+          type: array
+          items:
+            $ref: "../../common/model/Filter.yaml#/definitions/filter"
+          description: | 
+            instanceTypes - Instance type, exact match, multiple support
+            az-AZ, exact match, multiple supported
+      responses:
+        200:
+          description: OK
+          schema:
+            type: object
+            properties:
+              result:
+                properties:
+                  instanceTypes:
+                    description: "Generic Instance Type"
+                    type: array
+                    items:
+                      $ref: "../model/InstanceType.yaml#/definitions/instanceType"
+                  specificInstanceTypes:
+                    description: "User-specific instance type; ticket application required"
+                    type: array
+                    items:
+                      $ref: "../model/InstanceType.yaml#/definitions/instanceType"
+                  totalCount:
+                    type: integer
+                    description: "Quantity"
+              requestId:
+                type: string
+        400:
+          description: "Invalid parameter"
+        401:
+          description: "Authentication failed"
+        404:
+          description: "Not found"
+        500:
+          description: "Internal server error"
+        503:
+          description: "Service unavailable"
+
+# Path General Parameters
+parameters:
+  regionId:
+    name: regionId
+    in: path
+    required: true
+    type: string
+    description: "Region ID"

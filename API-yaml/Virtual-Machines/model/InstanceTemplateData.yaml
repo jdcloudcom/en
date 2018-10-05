@@ -1,0 +1,37 @@
+swagger: "2.0"
+definitions:
+  instanceTemplateData:
+    x-jdcloud-module: vm
+    properties:
+      instanceType:
+        type: string
+        description: "Instance Type"
+      vpcId:
+        type: string
+        description: "ID of the VPC to which the primary network interface belongs"
+      imageId:
+        type: string
+        description: "Image ID"
+      includePassword:
+        type: boolean
+        description: "Whether a custom password is contained in the start template, true: password contained, false: password not contained"
+      systemDisk:
+        $ref: "./InstanceTemplateDiskAttachment.yaml#/definitions/instanceTemplateDiskAttachment"
+        description: "System Disk Information"
+      dataDisks:
+        type: array
+        items:
+          $ref: "./InstanceTemplateDiskAttachment.yaml#/definitions/instanceTemplateDiskAttachment"
+        description: "The data disk information. The VM of the local disk as system disk can be attached with 8 data disks. The VM of the Cloud Disk Service can be attached with 7 data disks."
+      primaryNetworkInterface:
+        $ref: "./InstanceTemplateNetworkInterfaceAttachmentSpec.yaml#/definitions/instanceTemplateNetworkInterfaceAttachmentSpec"
+        description: "Primary Network Interface Information"
+      elasticIp:
+        $ref: "./InstanceTemplateElasticIp.yaml#/definitions/instanceTemplateElasticIp"
+        description: "EIP specification associated with the primary IP of the primary network interface"
+      keyNames:
+        type: array
+        items:
+          type: string
+        minItems: 1
+        description: "The key pair name; only one is supported  currently"

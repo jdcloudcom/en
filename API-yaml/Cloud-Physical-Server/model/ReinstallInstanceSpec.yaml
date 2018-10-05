@@ -1,0 +1,41 @@
+swagger: "2.0"
+definitions:
+  reinstallInstanceSpec:
+    x-jdcloud-module: cps
+    title: reinstallInstanceSpec
+    type: object
+    required:
+      - az
+      - imageType
+      - osTypeId
+      - keepData
+      - sysRaidTypeId
+      - dataRaidTypeId
+      - password
+    properties:
+      az:
+        type: string
+        description: "Availability Zone, such as cn-east-1a"
+      imageType:
+        type: string
+        description: "Image Type, Value Range: Standard, Standard_app"
+      osTypeId:
+        type: string
+        description: "Operating System Type ID"
+      sysRaidTypeId:
+        type: string
+        description: "System Disk RAID Type ID"
+      keepData:
+        type: string
+        description: "Whether to reserve data on the data disk, value: yes or no"
+      dataRaidTypeId:
+        type: string
+        description: "Data Disk RAID Type ID"
+      password:
+        type: string
+        description: "Password"
+      softwares:
+        type: array
+        items:
+          $ref: "../model/Software.yaml#/definitions/software"
+

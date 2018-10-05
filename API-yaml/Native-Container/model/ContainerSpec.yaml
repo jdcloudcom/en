@@ -1,0 +1,81 @@
+swagger: "2.0"
+definitions:
+  containerSpec:
+    x-jdcloud-module: nc
+    x-jdcloud-internal: false
+    type: object
+    description: "Specify Mounted Volume"
+    required:
+      - instanceType
+      - az
+      - name
+      - rootVolume
+      - primaryNetworkInterface
+    properties:
+      instanceType:
+        type: string   
+        description: "Instance Type Family; Refer to [Document](https://www.jdcloud.com/help/detail/1992/isCatalog/1)"
+      az:
+        type: string   
+        description: "Availability Zone of Container " 
+      name:
+        type: string   
+        description: "Container Name"
+      hostAliases:
+        type: array
+        items:
+          $ref: "./HostAlias.yaml#/definitions/hostAlias"
+        description: "Domain and IP Mapping Information; </br> at most 10 alias " 
+      hostname:
+        type: string   
+        description: "For machine name and specification, please refer to the instruction document; default container ID " 
+      command:
+        type: array
+        items:
+          type: string   
+        description: "The container will carry out the command. It is ENTRYPOINT of docker image by default if none is specified. " 
+      args:
+        type: array
+        items:
+          type: string    
+        description: "The container will carry out the parameter of the command. It is CMD of docker image by default if none is specified. " 
+      envs:
+        type: array
+        items:
+          $ref: "./EnvVar.yaml#/definitions/envVar"  
+        description: "Environment variables executed by containers; if the environmental variable Key is the same in the image, values in the image will be replaced; </br> 10 pairs at most " 
+      image:
+        type: string   
+        description: "Image name </br> 1. Docker Hub public image is specified via names as nginx, mysql/mysql-server </br> </br> repository contains at most 256 characters, tag contains at most 128 characters, and registry contains as most 255 characters </br> the image download overtime is 10min"
+      secret:
+        type: string   
+        description: "Name cited by secrete; secret is not required when using images of Docker Hub and JD Cloud CR " 
+      tty:
+        type: boolean   
+        description: "If a container is assigned with tty. It is not assigned by default" 
+      workingDir:
+        type: string   
+        description: "Container’s Working Catalog. If not specified, it is root catalog (/) by default; and the working catalog must be the absolute path. " 
+      rootVolume:
+        $ref: "./VolumeMountSpec.yaml#/definitions/volumeMountSpec"
+        description: "Root Volume Information " 
+      dataVolumes:
+        type: array
+        items:
+          $ref: "./VolumeMountSpec.yaml#/definitions/volumeMountSpec"  
+        description: "Mounted Data Volume Information; at most 7 " 
+      elasticIp:
+        $ref: "./ElasticIpSpec.yaml#/definitions/elasticIpSpec"  
+        description: "Elastic IP Specification Related to Primary IP of Primary Network Interface " 
+      primaryNetworkInterface:
+        $ref: "./ContainerNetworkInterfaceAttachmentSpec.yaml#/definitions/containerNetworkInterfaceAttachmentSpec"  
+        description: "Primary Network Interface Configuration Information " 
+      logConfiguration:
+        $ref: "./LogConfiguration.yaml#/definitions/logConfiguration"  
+        description: "Container log configuration information; 10MB storage space will be assigned to the local by default" 
+      description:
+        type: string   
+        description: "Container Description"
+      charge:
+        $ref: "../../charge/model/ChargeSpec.yaml#/definitions/chargeSpec"
+        description: "Billing configuration; if no specification is made, the billing type is Pay-As-You-Go - Pay as the service time by default" 

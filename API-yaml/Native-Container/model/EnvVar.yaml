@@ -1,0 +1,16 @@
+swagger: "2.0"
+definitions:
+  envVar:
+    x-jdcloud-module: nc
+    type: object
+    description: "Environment Variable"
+    x-jdcloud-internal: false
+    required:
+      - name
+    properties:
+      name:
+        type: string
+        description: "Environment Variable Name"
+      value:
+        type: string
+        description: "Value of Environment Variable"

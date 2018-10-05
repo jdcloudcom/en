@@ -1,0 +1,11 @@
+swagger: "2.0"
+definitions:
+  copyImage:
+    x-jdcloud-module: vm
+    properties:
+      destinationImageId:
+        type: string
+        description: "Target Image ID after Replication"
+      sourceImageId:
+        type: string
+        description: "Source Image ID"

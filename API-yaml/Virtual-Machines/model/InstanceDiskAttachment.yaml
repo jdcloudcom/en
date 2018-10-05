@@ -1,0 +1,27 @@
+swagger: "2.0"
+definitions:
+  instanceDiskAttachment:
+    x-jdcloud-module: vm
+    type: object
+    properties:
+      diskCategory:
+        type: string
+        description: |
+          Disk classification, the local disk or data disk is taken.
+          The system disk supports local disk or Cloud Disk Service. The system disk selects local Type, and the user must use the image localDisk type; if the system disk selects the cloud type, the user must use the image of the cloudDisk type.
+          The data disk supports Cloud Disk Service only.
+      autoDelete:
+        type: boolean
+        description: |
+          Deleting this disk with the VM automatically when the machine is deleted. The default value is true, which cannot be changed by local.
+          This parameter does not take effect if the data disk in the VM is a monthly package.
+          This parameter does not take effect if the data disk in the VM is a shared data disk.
+      localDisk:
+        $ref: "./LocalDisk.yaml#/definitions/localDisk"
+        description: "Local Disk Instance Type"
+      cloudDisk:
+        $ref: "../../disk/model/Disk.yaml#/definitions/disk"
+        description: "Cloud Disk Service Instance Type"
+      deviceName:
+        type: string
+        description: "Data disk logical attach point, value range: vda, vdb, vdc, vdd, vde, vdb, vdg, vdh, vdi"

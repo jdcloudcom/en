@@ -1,0 +1,234 @@
+swagger: "2.0"
+info:
+  version: "v1"
+  title: Workflow Management
+  description: JMR workflow management
+
+basePath: /regions/{regionId}
+paths:
+###################### Obtain the Workflow List ###########################
+  "/{workflowName}:list":
+       post:
+         description: "Obtain the workflow list"
+         operationId: getWorkFlowList
+         parameters:
+           - name: workflowName
+             in: path
+             required: true
+             type: string
+             description: "Workflow Name"
+           - name: selectParams
+             in: body
+             required: false
+             schema:
+               $ref: "../model/SelectParams.yaml#/definitions/selectParams"
+         responses:
+           200:
+             description: OK
+             schema:
+               properties:
+                 result:
+                   properties:
+                     status:
+                       type: string
+                     message:
+                       type: string
+                     data:
+                       type: object
+                       properties:
+                         totalNum:
+                           type: integer
+                         workFlowList:
+                           type: array
+                           items:
+                             $ref: "../model/EmrWorkflow.yaml#/definitions/emrWorkflow"
+                         workflowName:
+                           type: string
+                         description:
+                 requestId:
+                   type: string
+           500:
+             description: "Internal server error"
+
+###################### Save the Workflow ###########################
+  "/workflow:save":
+       post:
+         description: "Save the workflow information"
+         operationId: saveWorkFlow
+         parameters:
+           - name: workflow
+             in: body
+             required: true
+             schema:
+               $ref: "../model/EmrWorkflow.yaml#/definitions/emrWorkflow"
+         responses:
+           200:
+             description: OK
+             schema:
+               properties:
+                 result:
+                   properties:
+                     status:
+                       type: string
+                     message:
+                       type: string
+                     data:
+                       $ref: "../model/Message.yaml#/definitions/message"
+                 requestId:
+                   type: string
+           500:
+             description: "Internal server error"
+###################### Delete the Workflow ###########################
+  "/{workflowId}:delete":
+       post:
+         description: "Delete the specified workflow"
+         operationId: deleteWorkFlow
+         parameters:
+           - name: workflowId
+             in: path
+             required: true
+             type: string
+             description: "Workflow ID"
+         responses:
+           200:
+             description: OK
+             schema:
+               properties:
+                 result:
+                   properties:
+                     status:
+                       type: string
+                     message:
+                       type: string
+                 requestId:
+                   type: string
+           500:
+             description: "Internal server error"
+###################### Run the Workflow ###########################
+  "/{workflowId}:run":
+       post:
+         description: "Run the specified workflow"
+         operationId: runWorkFlow
+         parameters:
+           - name: workflowId
+             in: path
+             required: true
+             type: string
+             description: "Workflow ID"
+         responses:
+           200:
+             description: OK
+             schema:
+               properties:
+                 result:
+                   properties:
+                     status:
+                       type: string
+                     message:
+                       type: string
+                 requestId:
+                   type: string
+           500:
+             description: "Internal server error"
+###################### View the Workflow Details ###########################
+  "/wfInstance:detail":
+       post:
+         description: "View the detailed information of the specified workflow"
+         operationId: wfInstanceDetail
+         parameters:
+           - name: body
+             in: body
+             schema:
+               type: object
+               required:
+                 - wfInstanceId
+                 - wfId
+               properties:
+                 wfInstanceId:
+                   type: string
+                 wfId:
+                   type: string
+             description: "Workflow ID"
+         responses:
+           200:
+             description: OK
+             schema:
+               properties:
+                 result:
+                   $ref: "../model/Message.yaml#/definitions/message"
+                 requestId:
+                   type: string
+           500:
+             description: "Internal server error"
+
+###################### Obtain the Workflow Operation Record List ###########################
+  "/workFlowTracker:list":
+       post:
+         description: "Obtain the workflow operation record list"
+         operationId: getWorkFlowTrackerList
+         parameters:
+           - name: selectParams
+             in: body
+             required: false
+             schema:
+               $ref: "../model/SelectParams.yaml#/definitions/selectParams"
+         responses:
+           200:
+             description: OK
+             schema:
+               properties:
+                 result:
+                   properties:
+                     status:
+                       type: string
+                     message:
+                       type: string
+                     data:
+                       type: object
+                       properties:
+                         totalNum:
+                           type: integer
+                         workFlowTrackerList:
+                           type: array
+                           items:
+                             $ref: "../model/SchedulerWorkflowTracker.yaml#/definitions/schedulerWorkflowTracker"
+                       description: |
+                                    "Include workflow list - workFlowTrackerList"
+                                    "And list size - totalNum"
+                 requestId:
+                   type: string
+           500:
+             description: "Internal server error"
+###################### Delete the Operation Record ###########################
+  "/tracker/{trackerId}:delete":
+       post:
+         description: "Delete the operation record corresponding to the specified workflow"
+         operationId: deleteWorkFlowTracker
+         parameters:
+           - name: trackerId
+             in: path
+             required: true
+             type: string
+         responses:
+           200:
+             description: OK
+             schema:
+               properties:
+                 result:
+                   properties:
+                     status:
+                       type: string
+                     message:
+                       type: string
+                 requestId:
+                   type: string
+           500:
+             description: "Internal server error"
+# Path General Parameters
+parameters:
+ regionId:
+   name: regionId
+   in: path
+   required: true
+   type: string
+   description: "Region ID"

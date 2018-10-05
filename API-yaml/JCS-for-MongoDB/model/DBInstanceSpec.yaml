@@ -1,0 +1,56 @@
+swagger: "2.0"
+definitions:
+  DBInstanceSpec:
+    x-jdcloud-module: mongodb
+    title: DBInstanceSpec
+    type: object
+    required:
+      - instanceClass
+      - instanceStorageGB
+      - multiAZ
+      - azId
+      - vpcId
+      - subnetId
+    properties:
+      instanceName:
+        type: string
+        description: "The instance name only supports numbers, letters, underlines, Chinese, with length no less than 2 characters and no more than 32 characters."
+      engine:
+        type: string
+        description: "Database Type, MongoDB"
+      engineVersion:
+        type: string
+        description: "Database Version, 3.2"
+      instanceClass:
+        type: string
+        description: "Instance Type Code. Mongo.s1.small: 1-core 2G; mongo.s1.medium: 2-core 4G; mongo.s1.large: 4-core 8G; mongo.s1.xlarge: 8-core 16G; mongo.s2.2xlarge: 8-core 32G; Mongo.s2.4xlarge: 16-core 64G;"
+      instanceStorageGB:
+        type: integer
+        description: "Storage Space, Unit: GB; Value: 10-1000, a multiple of 10."
+      multiAZ:
+        type: boolean
+        description: "Whether to Select Multiple Availability Zone Deployment"
+      azId:
+        type: array
+        items:
+          type: string
+        description: "AZ ID, required, the first ID is AZ ID of primary, the second is that of secondary, and the third is that of hidden. If Yes is chosen for multiAZ, then AZ IDs of primary and secondary shall be the same and different from that of hidden; if No is chosen for multiAZ, AZ IDs of the three nodes shall be the same."
+      vpcId:
+        type: string
+        description: VPCID
+      subnetId:
+        type: string
+        description: "Subnet ID"
+      password:
+        type: string
+        description: "The password must contain and only support letters and numbers with length no less than 8 characters and no more than 16 characters."
+      backupId:
+        type: string
+        description: "Create specific backup ID for use according to backup"
+      originDBInstanceId:
+        type: string
+        description: "Create new instance based on backup of an instance. If you fill in, restoreTime also needs to be filled."
+      restoreTime:
+        type: string
+        description: "The user specifies any time point in the backup retention period, such as 2011-06-11T16:00:00Z. It is not required and is mutually exclusive with backupId."
+      

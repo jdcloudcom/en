@@ -1,0 +1,83 @@
+swagger: "2.0"
+definitions:
+  instance:
+    x-jdcloud-module: vm
+    title: Instance
+    type: object
+    properties:
+      instanceId:
+        type: string
+        description: "VM ID"
+      instanceName:
+        type: string
+        description: "VM Name"
+      instanceType:
+        type: string
+        description: "Instance Type"
+      vpcId:
+        type: string
+        description: "ID of the VPC to which the primary network interface belongs"
+      subnetId:
+        type: string
+        description: "ID of the subnet to which the primary network interface belongs"
+      privateIpAddress:
+        type: string
+        description: "IP address of primary network interface"
+      elasticIpId:
+        type: string
+        description: "The ID of the primary network interface of primary IP associating EIP"
+      elasticIpAddress:
+        type: string
+        description: "The address of the primary network interface of primary IP associating EIP"
+      status:
+        type: string
+        description: "Virtual machine status,<a href='https://www.jdcloud.com/help/detail/3869/isCatalog/1'>refer to virtual machine status</a>"
+      description:
+        type: string
+        description: "VM Description"
+      imageId:
+        type: string
+        description: "Image ID"
+      systemDisk:
+        $ref: "./InstanceDiskAttachment.yaml#/definitions/instanceDiskAttachment"
+        description: "System Disk Configuration"
+      dataDisks:
+        type: array
+        items:
+          $ref: "./InstanceDiskAttachment.yaml#/definitions/instanceDiskAttachment"
+        description: "Data Disk Configuration"
+      primaryNetworkInterface:
+        $ref: "./InstanceNetworkInterfaceAttachment.yaml#/definitions/instanceNetworkInterfaceAttachment"
+        description: "Primary Network Interface Instance Type"
+      secondaryNetworkInterfaces:
+        type: array
+        items:
+          $ref: "./InstanceNetworkInterfaceAttachment.yaml#/definitions/instanceNetworkInterfaceAttachment"
+        description: "Secondary Network Interface Instance Type"
+      launchTime:
+        type: string
+        format: date-time
+        description: "Creation Time"
+      az:
+        type: string
+        description: "AZ of the VM"
+      keyNames:
+        type: array
+        items:
+          type: string
+        minItems: 1
+        description: "Key Pair Name"
+      charge:
+        $ref: "../../charge/model/Charge.yaml#/definitions/charge"
+        description: "Billing Information"
+      ag:
+        $ref: "./Ag.yaml#/definitions/ag"
+        description: "AG, where an AG is used to create a VM, an AG name can be displayed here"
+      faultDomain:
+        type: string
+        description: "Error Domains in AGs"
+      tags:
+        type: array
+        items:
+          $ref: "./Tag.yaml#/definitions/tag"
+        description: "Tag Information"

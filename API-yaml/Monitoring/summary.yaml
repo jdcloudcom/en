@@ -1,0 +1,8 @@
+swagger: "2.0"
+info:
+  description: "Monitoring APIs, mainly comprising creation, deletion, change and review of monitoring rules and query of monitoring item data"
+  title: Monitoring
+  version: "v1"
+host: monitor.jdcloud-api.com
+x-jdcloud-version: v1
+x-jdcloud-revision: "1.1.1"

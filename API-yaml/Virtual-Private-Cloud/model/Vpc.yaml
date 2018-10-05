@@ -1,0 +1,37 @@
+swagger: "2.0"
+definitions:
+  vpc:
+    x-jdcloud-module: vpc
+    properties:
+      vpcId:
+        type: string
+        description: "VPC ID"
+      addressPrefix:
+        type: string
+        description: "If it is blank, segment is not limited; if it is not blank, it is 10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16 and their subnets included and the length of subnet mask is between 16 and 28"
+      description:
+        type: string
+        description: "VPC Description. Value Range: 1~120 characters"
+      vpcName:
+        type: string
+        description: "VPC Name. Value Range: 1-60 Chinese, English capital and lowercase letters, numbers and underline delimiter"
+      aclIds:
+        type: array
+        items:
+          type: string
+          description: "Acl ID List Under the Same VPC"
+      routeTableIds:
+        type: array
+        items:
+          type: string
+          description: "Route Table ID List Under the Same VPC"
+      subnets:
+        type: array
+        items:
+          $ref: "./Subnet.yaml#/definitions/subnet"
+        description: "Subnet List Included in VPC"
+      createdTime:
+        type: string
+        description: "VPC Creation Time"
+
+

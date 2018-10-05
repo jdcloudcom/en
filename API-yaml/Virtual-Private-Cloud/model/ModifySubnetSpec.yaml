@@ -1,0 +1,13 @@
+swagger: "2.0"
+definitions:
+  modifySubnetSpec:
+    x-jdcloud-module: vpc
+    properties:
+      subnetName:
+        type: string
+        description: "Subnet name, only allow Chinese, numbers, capital and lowercase letters, English underline “_” and line-through “-”, must provide a name which cannot exceed 32 characters."
+      description:
+        type: string
+        description: "Subnet description information, allow all characters under UTF-8 coding, which cannot exceed 256 characters."
+
+

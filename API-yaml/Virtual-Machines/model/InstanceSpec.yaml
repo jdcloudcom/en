@@ -1,0 +1,57 @@
+swagger: "2.0"
+definitions:
+  instanceSpec:
+    x-jdcloud-module: vm
+    required:
+      - name
+    properties:
+      agId:
+        type: string
+        description: "AG Id. Once this parameter is specified, the VM can only be created by the instance template associated with the AG, and the parameters in the instance template cannot be replaced. Parameters other than the instance template can be specified."
+      instanceTemplateId:
+        type: string
+        description: "Instance template id. If the users do not use an AG, the unavailable information in the instance template needs to be added by the parameters that create the VM, or choose to replace the parameters in the start template."
+      az:
+        type: string
+        description: "The AZ to which the VM belongs."
+      instanceType:
+        type: string
+        description: "Specification Type. Can query <a href = 'https://www.jdcloud.com/help/detail/2901/isCatalog/1'> DescribeInstanceTypes</a> API for instance type information of the specified zone or AZ."
+      imageId:
+        type: string
+        description: "Image ID. Can query <a href = 'https://www.jdcloud.com/help/detail/2874/isCatalog/1'> DescribeImages</a> API for the image information of the specified zone."
+      name:
+        type: string
+        description: "VM name, <a href ='https://www.jdcloud.com/help/detail/3870/isCatalog/1'>Refer to the public parameter specification</a>."
+      password:
+        type: string
+        description: "Password, <a href = 'https://www.jdcloud.com/help/detail/3870/isCatalog/1'>Refer to the public parameter specification</a>."
+      keyNames:
+        type: array
+        items:
+          type: string
+        description: "The key pair name currently only supports incoming one."
+      elasticIp:
+        $ref: "../../vpc/model/ElasticIpSpec.yaml#/definitions/elasticIpSpec"
+        description: "EIP specification associated with the primary IP of the primary network interface"
+      primaryNetworkInterface:
+        $ref: "./InstanceNetworkInterfaceAttachmentSpec.yaml#/definitions/instanceNetworkInterfaceAttachmentSpec"
+        description: "Primary Network Interface Instance Type Information"
+      systemDisk:
+        $ref: "./InstanceDiskAttachmentSpec.yaml#/definitions/instanceDiskAttachmentSpec"
+        description: "System Disk Instance Type Information"
+      dataDisks:
+        type: array
+        items:
+          $ref: "./InstanceDiskAttachmentSpec.yaml#/definitions/instanceDiskAttachmentSpec"
+        description: "The instance type information of the data disk. The VM of local disk as the system disk can attach 8 data disks, and the VM of the Cloud Disk Service as the system disk can attach 7 data disks."
+      charge:
+        $ref: "../../charge/model/ChargeSpec.yaml#/definitions/chargeSpec"
+        description: |
+          Billing Configuration
+          The VM does not support paying by consumption. The default is to pay by configuration.
+          In the case of packaging a data disk, the billing method of the data disk can only be consistent with the VM.
+          In the case of packaging EIP, if the public IP is not specified to be paid by consumption, the IP billing mode of the public network can only be consistent with the VM.
+      description:
+        type: string
+        description: "Machine Description, <a href = 'https://www.jdcloud.com/help/detail/3870/isCatalog/1 '> Refer to the public parameter specification</a>."

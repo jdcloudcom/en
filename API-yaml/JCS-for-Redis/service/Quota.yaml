@@ -1,0 +1,58 @@
+swagger: "2.0"
+info:
+  version: "v1"
+  title: JCS for Redis Quota APIs
+  description: "JCS for Redis Quota Related APIs"
+
+basePath: /regions/{regionId}
+
+paths:
+  "/quota":
+    ###################### Query Quota Information ######################
+    get:
+      description: "Query account quota information"
+      operationId: describeUserQuota
+      responses:
+        200:
+          description: OK
+          schema:
+            properties:
+              result:
+                properties:
+                  quota:
+                    $ref: "../../common/model/Quota.yaml#/definitions/quota"
+              requestId:
+                type: string
+
+    ###################### Modify Quota ######################
+    patch:
+      description: "Modify account quota"
+      operationId: modifyUserQuota
+      x-jdcloud-internal: true
+      parameters:
+        - name: used
+          in: query
+          required: true
+          type: integer
+          description: "Used Quota of Account"
+        - name: quota
+          in: query
+          required: true
+          type: integer
+          description: "Upper Limit of Account Quota"
+      responses:
+        200:
+          description: OK
+          schema:
+            properties:
+              requestId:
+                type: string
+
+# Path General Parameters
+parameters:
+  regionId:
+    name: regionId
+    in: path
+    required: true
+    type: string
+    description: "The Region ID of the region where the JCS for Redis instance is located. At present, the JCS for Redis has North China, South China, and East China regions, and the corresponding Region IDs are cn-north-1, cn-south-1, and cn-east-2"

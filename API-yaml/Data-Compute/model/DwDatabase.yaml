@@ -1,0 +1,45 @@
+swagger: "2.0"
+definitions:
+  dwDatabase:
+    x-jdcloud-module: xdata
+    title: DwDatabase
+    type: object
+    required:
+      - databaseName
+    properties:
+      id:
+        type: integer
+        description: "Database ID"
+      userName:
+        type: string
+        description: "User Name"
+      databaseName:
+        type: string
+        description: "Database Name"
+      totalTableQuantity:
+        type: integer
+        description: "Number of Summary Lists"
+      createTime:
+        type: string
+        description: "Creation Time"
+      lastUpdateTime:
+        type: string
+        description: "Last Update Time"
+      physicalStorageCapacity:
+        type: string
+        description: "Last Update Time"
+      category:
+        type: string
+        description: "Category"
+      source:
+        type: string
+        description: "Source"
+      owner:
+        type: string
+        description: "Owner"
+      location:
+        type: string
+        description: "Location"
+      comments:
+        type: string
+        description: Description Information

@@ -1,0 +1,33 @@
+swagger: "2.0"
+definitions:
+  cacheInstanceSpec:
+    x-jdcloud-module: redis
+    required:
+      - vpcId
+      - subnetId
+      - cacheInstanceClass
+      - cacheInstanceName
+      - azId
+    properties:
+      vpcId:
+        type: string
+        description: "The Virtual Private Cloud ID to which the JCS for Redis instance belongs"
+      subnetId:
+        type: string
+        description: "The subnet ID of the JCS for Redis instance under the Virtual Private Cloud"
+      cacheInstanceName:
+        type: string
+        description: "The name of the JCS for Redis instance only supports numbers, letters, underlines, Chinese, no less than 2 characters and no more than 32 characters"
+      cacheInstanceClass:
+        type: string
+        description: "For JCS for Redis instance type code, see code table of instance type<a href='https://www.jdcloud.com/help/detail/411/isCatalog/1'>instance type code</a>."
+      password:
+        type: string
+        description: "Password contains and only supports letters and numbers with no less than 8 characters and no more than 16 characters. If the password is null, it means password-free."
+      azId:
+        $ref: "./AzIdSpec.yaml#/definitions/azIdSpec"
+        description: "The ID information of the availability zone of the region where the JCS for Redis instance is located"
+      cacheInstanceDescription:
+        type: string
+        description: "The description of the JCS for Redis instance cannot be more than 256 characters"
+      

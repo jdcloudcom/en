@@ -1,0 +1,14 @@
+swagger: "2.0"
+definitions:
+  verificationCodeInfo:
+    x-jdcloud-module: sop
+    required:
+      - action
+      - type
+    properties:
+      action:
+        type: string
+        description: "Operate action serviceName:actionName"
+      type:
+        type: integer
+        description: "Dcd Verification Methods: Mobile-1  Email-2"

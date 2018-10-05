@@ -1,0 +1,19 @@
+swagger: "2.0"
+definitions:
+  topicModel:
+    x-jdcloud-module: streambus
+    title: topicModel
+    type: object
+    properties:
+      topic:
+        type: object
+        $ref: "../model/topic.yaml#/definitions/topic"
+      target:
+        type: object
+        $ref: "../model/target.yaml#/definitions/target"
+      parameterList:
+        type: array
+        description: "For archiving-related specific parameters, the archive needs to be created, updated and deleted, and the corresponding parameter values shall be modified. <br> The four parameter values, ossFlag, bucketName, directory and objectName, are related to ossFlag. If ossFlag is false, the latter three can be blank; if it is true, the last three are the abnormal data storage locations, just fill in as needed. <br> 1) If it needs to be archived to the Data Compute, it needs to be transmitted to database, table, type, example, delimiter, targetColumn, analysisColumn, partsTargetColumn and partsAnalysisColumn. <br> 2) If it needs to be archived to JFS, it needs to be transmitted to bucket, prefix, and infix. <br>3) If it needs to be archived to JCS for Elasticsearch, it needs to be transmitted to host, port, indexType, idType, indexName, indexReferField, timestampFieldFormat, timestampIndexFormat, typeName, idReferField, noResolve, username and password. <br> 4) If it needs to be archived to mysql, it needs to be transmitted to host, database, table, username, password, type, example and delimiter. <br>5) If it needs to be archived to JD Cloud database, it needs to be transmitted to rdsId, database, table, username, password, type, example and delimiter. "
+        items:
+          type: object
+          $ref: "../model/parameterList.yaml#/definitions/parameterList"

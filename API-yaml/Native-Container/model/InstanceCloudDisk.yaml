@@ -1,0 +1,32 @@
+swagger: "2.0"
+definitions:
+  instanceCloudDisk:
+    x-jdcloud-module: nc
+    x-jdcloud-internal: false
+    type: object
+    description: "Describe a disk"
+    properties:
+        diskId:
+          type: string
+          description: "Cloud Disk Service ID"
+        az:
+          type: string
+          description: "Corresponding AZ"
+        name:
+          type: string
+          description: "Disk Name"
+        description:
+          type: string
+          description: "Disk Description"
+        diskType:
+          type: string
+          description: "Disk Type, Value: ssd or premium-hdd"
+        diskSize:
+          type: integer
+          description: "Disk Size (GiB)"
+        status:
+          type: string
+          description: "Cloud Disk Service type, value: creating, available, in-use, extending, restoring, deleting, deleted, error_creating, error_deleting, error_restoring or error_extending"
+        createTime:
+          type: string
+          description: "Creation Time"

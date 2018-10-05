@@ -1,0 +1,20 @@
+swagger: "2.0"
+definitions:
+  rolePolicy:
+    x-jdcloud-module: iam
+    properties:
+      policyName:
+        type: string
+        description: "Permission Name"
+      description:
+        type: string
+        description: "Description"
+      type:
+        type: string
+        description: "Permission Type"
+      policyJrn:
+        type: string
+        description: "Permission Resource Description"
+
+
+

@@ -1,0 +1,14 @@
+swagger: "2.0"
+definitions:
+  logConfiguration:
+    x-jdcloud-module: nc
+    x-jdcloud-internal: false
+    type: object
+    description: "Container Log Configuration Information"
+    properties:
+      logDriver:
+        type: string
+        description: "Name log configuration information; a 10MB storage space will be assigned to the local by default and is automatically rotated."
+      options:
+        $ref: "./LogOption.yaml#/definitions/logOption"
+        description: "Configuration Options of Log Driver"

@@ -1,0 +1,40 @@
+swagger: "2.0"
+definitions:
+  idataCluster:
+    x-jdcloud-module: jmr
+    title: idataCluster
+    type: object
+    properties:
+      id:
+        type: string
+        description: "Cluster ID"
+      name:
+        type: string
+        description: "Cluster Name"
+      status:
+        type: string
+        description: "Cluster Status"
+      createTime:
+        type: string
+        format: date
+        description: "Cluster Creation Time"
+      duration:
+        type: string
+        description: "Cluster Operating Hours"
+      ip:
+        type: string
+        description: "Cluster IP"
+      port:
+        type: string
+        description: "No. of Port Providing Service"
+      jdbcUrl:
+        type: string
+        description: "Url of Jdbc Database"
+      jdbcSpark:
+        type: string
+        description: "Corresponding Spark of Database"
+      zepplinUrl:
+        type: string
+        description: "Url of Zepplin"
+
+

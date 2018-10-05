@@ -1,0 +1,22 @@
+swagger: "2.0"
+definitions:
+  containerNetworkInterfaceAttachmentSpec:
+    x-jdcloud-module: nc
+    x-jdcloud-internal: false
+    type: object
+    description: "Network interface information specified when creating container"
+    required:
+      - networkInterface
+    properties:
+      autoDelete:
+        type: boolean
+        description: "Indicate if the network interface is deleted when deleting the container, it is True by default; only True is supported now"
+      deviceIndex:
+        type: integer
+        description: "Device Index"
+      networkInterface:
+        $ref: "./NetworkInterfaceSpec.yaml#/definitions/networkInterfaceSpec"
+        description: "Network Interface Specification"
+      # networkInterfaceId:
+      #   type: stirng
+      #   description: Network Interface ID

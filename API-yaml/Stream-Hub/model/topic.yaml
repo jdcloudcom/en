@@ -1,0 +1,28 @@
+swagger: "2.0"
+definitions:
+  topic:
+    x-jdcloud-module: streambus
+    title: topic
+    type: object
+    properties:
+      id: 
+        type: integer
+        description: "Subject ID"
+      archived: 
+        type: integer
+        description: "Whether to archive or not (0: not archived, 1: archived)"
+      lifecycle:
+        type: integer
+        description: "Reserve Time After Writing Data"
+      partitionNum:
+        type: integer
+        description: "Partition"
+      name:
+        type: string
+        description: "Topic Name in the Stream Hub"
+      shardNum:
+        type: integer
+        description: "Shard Number in the Stream Hub"
+      remark:
+        type: string
+        description: "Note"

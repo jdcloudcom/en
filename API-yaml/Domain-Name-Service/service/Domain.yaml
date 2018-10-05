@@ -1,0 +1,273 @@
+swagger: "2.0"
+info:
+  version: "v1"
+  title: Domain Name
+  description: "Cloud Resolution OpenAPI Domain Name API"
+
+basePath: /regions/{regionId}
+
+paths:
+  /domain:
+  ###################### Query Main Domain Name ######################
+    get:
+      description: "Query the list of the main domain names under the username"
+      operationId: getDomains
+      parameters:
+        - name: pageNumber
+          in: query
+          type: integer
+          description: "Serial number of each page that is queried during the page query. The starting value is 1, and the default is 1."
+          required: true
+        - name: pageSize
+          in: query
+          type: integer
+          description: "Number of rows per page set during the page query, the default is 10."
+          required: true
+        - name: domainName
+          in: query
+          type: string
+          description: "Keyword, matching the main domain name according to the '%domainName%' pattern"
+          required: false
+      responses:
+        200:
+          description: OK
+          schema:
+            properties:
+              result:
+                properties:
+                  dataList:
+                    type: array
+                    items:
+                      $ref: "../model/Domain.yaml#/definitions/domain"
+                    description: "Domain List"
+                  currentCount:
+                    type: integer
+                    description: "Number of Domain Names in the Domain Name List of the Current Page"
+                  totalCount:
+                    type: integer
+                    description: "Number of All Matched Domain Name Lists"
+                  totalPage:
+                    type: integer
+                    description: "Pages of All Matched Domain Name Lists in Total According to the Paging Parameters                    "                    
+              requestId:
+                type: string
+                description: "ID of This Request"
+        400:
+          description: BAD_REQUEST
+  /domainAdd:
+  ###################### Add Main Domain Name ######################
+    post:
+      description: "Add Main Domain Name"
+      operationId: addDomain
+      parameters:
+        - name: packId
+          in: query
+          type: integer
+          description: "Type of the Domain Name Package,  0->Free, 1->Enterprise Edition, 2->Advanced Edition"
+          required: true
+        - name: domainName
+          in: query
+          type: string
+          description: "Domain Name to be Added"
+          required: true
+        - name: domainId
+          in: query
+          type: integer
+          required: false
+          description: "Domain Name ID, required for upgraded and advanced version       "       
+        - name: buyType
+          in: query
+          required: false 
+          type: integer
+          description: "1->New Purchase, 2->Upgrade, domain name of the paid package is required"
+        - name: timeSpan
+          in: query
+          type: integer
+          description: "1, 2, 3, Duration, domain name of the paid package is required"
+          required: false
+        - name: timeUnit
+          in: query
+          type: integer
+          description: "Time Unit, domain name of the paid package is required"
+          required: false
+        - name: billingType
+          in: query
+          type: integer
+          description: "Billing Type, domain name of the paid package is required"
+          required: false
+      responses:
+        200:
+          description: OK
+          schema:
+            properties:
+              result:
+                properties:
+                  data:
+                    $ref: "../model/Domain.yaml#/definitions/domain"
+                    description: "Newly Added Domain Name Structure"
+                  order:
+                    type: string
+                    description: "Add the order number of the paid domain name"
+              requestId:
+                type: string
+                description: "ID of This Request"
+        400:
+          description: BAD_REQUEST
+  /domainDel:
+  ###################### Delete Main Domain Name ######################
+    delete:
+      description: "Delete Main Domain Name"
+      operationId: delDomain
+      parameters:
+        - name: domainId
+          in: query
+          type: integer
+          required: true
+          description: "Domain Name ID to be Deleted"
+      responses:
+        200:
+          description: OK
+          schema:
+            properties:
+              requestId:
+                type: string
+                description: "ID of This Request"
+        400:
+          description: BAD_REQUEST
+  /domainUpdate:
+  ###################### Modify Main Domain Name ######################
+    post:
+      description: "Modify Main Domain Name"
+      operationId: updateDomain
+      parameters:
+        - name: domainName
+          in: query
+          type: string
+          description: "Domain Name to be Modified"
+          required: true  
+        - name: id
+          in: query
+          type: integer
+          description: "Domain Name ID to be Modified"
+          required: true
+      responses:
+        200:
+          description: OK
+          schema:
+            properties:
+              result:
+                properties:
+                  updateDomain:
+                    $ref: "../model/Domain.yaml#/definitions/domain"
+                    description: "Domain Name Structure after Modification"
+              requestId:
+                type: string
+                description: "ID of This Request"
+        400:
+          description: BAD_REQUEST
+          
+  /domain/{domainId}/queryCount:
+  ###################### View Domain Name Resolutions ######################
+    get:
+      description: "View Domain Name Resolutions"
+      operationId: getDomainQueryCount
+      parameters:
+        - name: domainName
+          in: query
+          type: string
+          required: true
+          description: "Domain Name to be Queried"
+        - name: start
+          in: query
+          type: string
+          required: true
+          description: "Start Time, UTC time, for example, 2017-11-10T23:00:00Z"
+        - name: end
+          in: query
+          type: string
+          required: true
+          description: "Termination Time, UTC time, for example, 2017-11-10T23:00:00Z"
+      responses:
+        200:
+          description: OK
+          schema:
+            properties:
+              result:
+                properties:
+                  time:
+                    description: "Time Series"
+                    type: array
+                    items:
+                      type: integer
+                  traffic:
+                    description: "Data Series"
+                    type: array
+                    items:
+                      type: integer
+              requestId:
+                type: string
+                description: "ID of This Request"
+        400:
+          description: NOT_FOUND
+
+  /domain/{domainId}/queryTraffic:
+  ###################### View Statistical Information of Domain Name ######################
+    get:
+      description: "View query traffic of domain names"
+      operationId: getDomainQueryTraffic
+      parameters:
+        - name: domainName
+          in: query
+          type: string
+          required: true
+          description: "Domain Name"
+        - name: start
+          in: query
+          type: string
+          required: true
+          description: "Start Time, UTC time, for example, 2017-11-10T23:00:00Z"
+        - name: end
+          in: query
+          type: string
+          required: true
+          description: "Termination Time, UTC time, for example, 2017-11-10T23:00:00Z"
+      responses:
+        200:
+          description: OK
+          schema:
+            properties:
+              result:
+                properties:
+                  time:
+                    description: "Time Series"
+                    type: array
+                    items:
+                      type: integer
+                  unit:
+                    description: "Unit of Data"
+                    type: string
+                  traffic:
+                    description: "Data Series"
+                    type: array
+                    items:
+                      type: number
+                      format: double                   
+              requestId:
+                type: string
+        400:
+          description: NOT_FOUND
+
+# Path General Parameters
+parameters:
+  regionId:
+    name: regionId
+    in: path
+    required: true
+    type: string
+    description: "Region ID to which the instance belongs"
+  domainId:
+    name: domainId
+    in: path
+    required: true
+    type: string
+    description: "Domain Name ID"

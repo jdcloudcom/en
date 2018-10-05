@@ -1,0 +1,241 @@
+swagger: "2.0"
+info:
+  version: "v1"
+  title: Web Forwarding Configuration APIs
+  description: "Web Forwarding Configuration APIs"
+
+basePath: /regions/{regionId}
+
+paths:
+  /instances/{instanceId}/webRules:
+    get:
+      description: "Search web service rules under an instance"
+      operationId: describeWebRules
+      parameters:
+        - name: pageNumber
+          in: query
+          type: integer
+          required: false
+          description: "Page Number: 1 by default"
+        - name: pageSize
+          in: query
+          type: integer
+          required: false
+          description: "Paging Size: 20 by default; value range [10, 100]"
+      responses:
+        200:
+          description: OK
+          schema:
+            properties:
+              result:
+                properties:
+                  dataList:
+                    type: array
+                    items:
+                      $ref: "../model/WebRule.yaml#/definitions/webRule"
+                  totalCount:
+                    type: integer
+              requestId:
+                type: string
+        404:
+          description: NOT_FOUND
+    post:
+      description: "Add a web service rule"
+      operationId: createWebRule
+      parameters:
+        - name: WebRuleSpec
+          in: body
+          description: "Add web service rule request parameters"
+          required: true
+          schema:
+            $ref: "../model/WebRuleSpec.yaml#/definitions/webRuleSpec"
+      responses:
+        200:
+          description: OK
+          schema:
+            properties:
+              requestId:
+                type: string
+        400:
+          description: BAD_REQUEST
+        404:
+          description: NOT_FOUND
+        500:
+          description: INTERNAL_SERVER_ERROR
+
+  /instances/{instanceId}/webRules/{webRuleId}:
+    get:
+      description: "Search a web service rule"
+      operationId: describeWebRule
+      responses:
+        200:
+          description: OK
+          schema:
+            properties:
+              result:
+                properties:
+                  data:
+                    $ref: "../model/WebRule.yaml#/definitions/webRule"
+              requestId:
+                type: string
+        404:
+          description: NOT_FOUND
+    patch:
+      description: "Update a web service rule"
+      operationId: modifyWebRule
+      parameters:
+        - name: WebRuleSpec
+          in: body
+          description: "Update web service rule parameters"
+          required: true
+          schema:
+            $ref: "../model/WebRuleSpec.yaml#/definitions/webRuleSpec"
+      responses:
+        200:
+          description: OK
+          schema:
+            properties:
+              requestId:
+                type: string
+        400:
+          description: BAD_REQUEST
+        404:
+          description: NOT_FOUND
+        500:
+          description: INTERNAL_SERVER_ERROR
+    delete:
+      description: "Delete a web service rule"
+      operationId: deleteWebRule
+      responses:
+        200:
+          description: OK
+          schema:
+            properties:
+              requestId:
+                type: string
+
+  /instances/{instanceId}/webRules/{webRuleId}:protect:
+    post:
+      description: "Switch web service rules into defense status"
+      operationId: switchWebRuleProtect
+      responses:
+        200:
+          description: OK
+          schema:
+            properties:
+              requestId:
+                type: string
+        404:
+          description: NOT_FOUND
+        500:
+          description: INTERNAL_SERVER_ERROR
+
+  /instances/{instanceId}/webRules/{webRuleId}:origin:
+    post:
+      description: "Switch web service rules into back-to-origin status"
+      operationId: switchWebRuleOrigin
+      responses:
+        200:
+          description: OK
+          schema:
+            properties:
+              requestId:
+                type: string
+        404:
+          description: NOT_FOUND
+        500:
+          description: INTERNAL_SERVER_ERROR
+
+  /instances/{instanceId}/webRules/{webRuleId}:enableCC:
+    post:
+      description: "Web service rules enable CC"
+      operationId: enableWebRuleCC
+      responses:
+        200:
+          description: OK
+          schema:
+            properties:
+              requestId:
+                type: string
+        404:
+          description: NOT_FOUND
+        500:
+          description: INTERNAL_SERVER_ERROR
+
+  /instances/{instanceId}/webRules/{webRuleId}:disableCC:
+    post:
+      description: "Web service rules disable CC"
+      operationId: disableWebRuleCC
+      responses:
+        200:
+          description: OK
+          schema:
+            properties:
+              requestId:
+                type: string
+        404:
+          description: NOT_FOUND
+        500:
+          description: INTERNAL_SERVER_ERROR
+
+  /instances/{instanceId}/webRules/{webRuleId}:modifyCertInfo:
+    post:
+      description: "Edit Certificate"
+      operationId: modifyCertInfo
+      parameters:
+        - name: certInfoModifySpec
+          in: body
+          description: "Request Parameters of Editing Certificate"
+          required: true
+          schema:
+            $ref: "../model/CertInfoModifySpec.yaml#/definitions/CertInfoModifySpec"
+      responses:
+        200:
+          description: OK
+          schema:
+            properties:
+              requestId:
+                type: string
+
+  /instances/{instanceId}/webRule:describeCertInfo:
+    post:
+      description: "Query the Certificate Preview Information"
+      operationId: describeCertInfo
+      parameters:
+        - name: certInfoDescribeSpec
+          in: body
+          description: "Query the Request Parameter of Certificate Preview"
+          required: true
+          schema:
+            $ref: "../model/CertInfoDescribeSpec.yaml#/definitions/CertInfoDescribeSpec"
+      responses:
+        200:
+          description: OK
+          schema:
+            properties:
+              result:
+                properties:
+                  data:
+                    $ref: "../model/CertInfo.yaml#/definitions/CertInfo"
+              requestId:
+                type: string
+# Path General Parameters
+parameters:
+  regionId:
+    name: regionId
+    in: path
+    required: true
+    type: string
+    description: "Region ID"
+  instanceId:
+    name: instanceId
+    in: path
+    required: true
+    type: string
+    description: "Instance ID"
+  webRuleId:
+    name: webRuleId
+    in: path
+    required: true
+    type: string
+    description: "Web Service Rule ID"

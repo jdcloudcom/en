@@ -1,0 +1,22 @@
+swagger: "2.0"
+definitions:
+  subnet:
+    x-jdcloud-module: cps
+    title: subnet
+    type: object
+    properties:
+      region:
+        type: string
+        description: Region Code, such as cn-east-1
+      az:
+        type: string
+        description: Availability Zone, such as cn-east-1a
+      cidr:
+        type: string
+        description: Subnet CIDR
+      subnetId:
+        type: string
+        description: "Subnet ID"
+      networkType:
+        type: string
+        description: Network Type

@@ -1,0 +1,24 @@
+swagger: "2.0"
+definitions:
+  CertInfo:
+    type: object
+    x-jdcloud-module: ipanti
+    properties:
+      domain:
+        type: string
+        description: "General Name"
+      from:
+        type: string
+        description: "Certificate Effective Time"
+      to:
+        type: string
+        description: "Certificate Expiration Time"
+      user:
+        type: string
+        description: "Certificate Organization"
+      sigAlgName:
+        type: string
+        description: "Encryption Algorithm"
+      issuer:
+        type: string
+        description: "Issued By"

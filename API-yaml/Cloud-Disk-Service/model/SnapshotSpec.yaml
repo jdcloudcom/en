@@ -1,0 +1,17 @@
+swagger: "2.0"
+definitions:
+  snapshotSpec:
+    x-jdcloud-module: disk
+    required:
+      - name
+      - diskId
+    properties:
+      name:
+        type: string
+        description: "Snapshot Name"
+      description:
+        type: string
+        description: "Snapshot Description"
+      diskId:
+        type: string
+        description: "Cloud Disk ID used to create the Snapshot"

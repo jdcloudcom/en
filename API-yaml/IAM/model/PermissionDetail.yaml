@@ -1,0 +1,16 @@
+swagger: "2.0"
+definitions:
+  permissionDetail:
+    x-jdcloud-module: iam
+    required:
+      - permission
+      - resource
+    properties:
+      permission:
+        type: string
+        description: "Permission Type: Read-only-R, Delete-D, Modification-M"
+      resource:
+        type: array
+        items:
+          $ref: "./Resource.yaml#/definitions/resource"
+        description: "Resource Information"

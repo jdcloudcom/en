@@ -1,0 +1,14 @@
+swagger: "2.0"
+definitions:
+  Quota:
+    x-jdcloud-module: mongodb
+    title: Quota
+    type: object
+    properties:
+      total:
+        type: integer
+        description: "Total Quota"
+      use:
+        type: integer
+        description: "Used"
+      

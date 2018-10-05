@@ -1,0 +1,48 @@
+swagger: "2.0"
+definitions:
+  jmrTaskViewModel:
+    x-jdcloud-module: jmr
+    title: jmrTaskViewModel
+    type: object
+    properties:
+      id:
+        type: integer
+      taskId:
+        type: string
+        description: "Job ID"
+      taskName:
+        type: string
+        description: "Job Name"
+      taskType:
+        type: string
+        description: "Job Type"
+      status:
+        type: string
+        description: "Status"
+      startTime:
+        type: string
+        format: date
+        description: "Start Time"
+      endTime:
+        type: string
+        format: date
+        description: "End Time"
+      duration:
+        type: string
+        description: "Time of Duration"
+      userpin:
+        type: string
+        description: "User Name"
+      dataCenter:
+        type: string
+        description: "Data Center, i.e. regionId"
+      jobId:
+        type: string
+      planId:
+        type: string
+      workflowId:
+        type: string
+        description: "Workflow Id"
+      workflowInstanceId:
+        type: string
+        description: "Workflow Instance ID"

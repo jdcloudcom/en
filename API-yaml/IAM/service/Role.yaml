@@ -1,0 +1,274 @@
+swagger: "2.0"
+info:
+  version: "v1"
+  title: Role Management APIs
+  description: "Role Management APIs"
+
+paths:
+  "/role":
+    ###################### Create Role ######################
+    post:
+      description: "Create role"
+      operationId: createRole
+      x-jdcloud-internal: false
+      parameters:
+        - name: createRoleInfo
+          in: body
+          description: "Role Information"
+          required: true
+          schema:
+            $ref: "../model/CreateRoleInfo.yaml#/definitions/createRoleInfo"
+      responses:
+        200:
+          description: OK
+          schema:
+            type: object
+            properties:
+              requestId:
+                type: string
+              roleInfo:
+                 $ref: "../model/RoleInfo.yaml#/definitions/roleInfo"
+                 description: "Role Information"
+
+  "/role/{roleName}":
+   ###################### Modify Role ######################
+    put:
+      description: "Modify basic information of the role"
+      operationId: updateRole
+      x-jdcloud-internal: false
+      parameters:
+        - name: updateRoleInfo
+          in: body
+          description: "Role Information"
+          required: true
+          schema:
+            $ref: "../model/UpdateRoleInfo.yaml#/definitions/updateRoleInfo"
+      responses:
+        200:
+          description: OK
+          schema:
+            type: object
+            properties:
+              requestId:
+                type: string
+
+   ###################### Query Role Details ######################
+    get:
+      description: "Query role details"
+      operationId: describeRole
+      x-jdcloud-internal: false
+      responses:
+        200:
+          description: OK
+          schema:
+            type: object
+            properties:
+              result:
+                properties:
+                  roleInfo:
+                    $ref: "../model/RoleInfo.yaml#/definitions/roleInfo"
+                    description: "Role Information"
+              requestId:
+                type: string
+
+    ###################### Delete Role ######################
+    delete:
+      description: "Delete role"
+      operationId: deleteRole
+      x-jdcloud-internal: false
+      responses:
+        200:
+          description: OK
+          schema:
+            type: object
+            properties:
+              requestId:
+                type: string
+
+  "/role/{roleName}/assumeRolePolicy":
+   ###################### Modify Role Built-in Policy ######################
+    put:
+      description: "Modify role built-in policy"
+      operationId: updateAssumeRolePolicy
+      x-jdcloud-internal: false
+      parameters:
+        - name: updateAssumeRolePolicyInfo
+          in: body
+          description: "Role Permission Information"
+          required: true
+          schema:
+            $ref: "../model/UpdateAssumeRolePolicyInfo.yaml#/definitions/updateAssumeRolePolicyInfo"
+      responses:
+        200:
+          description: OK
+          schema:
+            type: object
+            properties:
+              requestId:
+                type: string
+
+  "/roles":
+   ###################### Query Role List ######################
+    get:
+      description: "Query role list"
+      operationId: describeRoles
+      x-jdcloud-internal: false
+      parameters:
+        - name: pageNumber
+          in: query
+          type: integer
+          description: "Page"
+          required: true
+        - name: pageSize
+          in: query
+          type: integer
+          description: "Number of Roles Displayed on Each Page"
+          required: true
+        - name: pathPrefix
+          in: query
+          type: string
+          description: "Path Prefix"
+          required: false
+        - name: roleNamePrefix
+          in: query
+          type: string
+          description: "Role Name Prefix"
+          required: false
+        - name: sort
+          in: query
+          type: integer
+          description: "Ranking Policy, 0-rank in sequential order by create time  1-rank in inverted order by create time"
+          required: true
+      responses:
+        200:
+          description: OK
+          schema:
+            type: object
+            properties:
+              result:
+                properties:
+                  total:
+                    type: integer
+                    description: "Total Number"
+                  roles:
+                    type: array
+                    items:
+                      $ref: "../model/ListRoleInfo.yaml#/definitions/listRoleInfo"
+                    description: "Role List"
+              requestId:
+                type: string
+
+  "/role/{roleName}/policy:attachRolePolicy":
+   ###################### Associate Policy for Role ######################
+    post:
+      description: "Associate policy for pole"
+      operationId: attachRolePolicy
+      x-jdcloud-internal: false
+      parameters:
+        - name: attachRolePolicyInfo
+          in: body
+          description: "Role Association Policy Information"
+          required: true
+          schema:
+            properties:
+              policyJrn:
+                type: string
+                description: "Policy jrn"
+      responses:
+        200:
+          description: OK
+          schema:
+            type: object
+            properties:
+              requestId:
+                type: string
+
+  "/role/{roleName}/policies":
+   ###################### Query Role Authorization Policy List ######################
+    get:
+      description: "Query Role Authorization Policy List"
+      operationId: describeRolePolicies
+      x-jdcloud-internal: false
+      parameters:
+        - name: pageNumber
+          type: integer
+          in: query
+          description: "Page"
+          required: true
+        - name: pageSize
+          type: integer
+          in: query
+          description: "Number of Roles Displayed on Each Page"
+          required: true
+        - name: keyword
+          type: string
+          in: query
+          description: "Keyword"
+          required: false
+        - name: sort
+          type: integer
+          in: query
+          description: "Ranking Policy, 0-rank in sequential order by create time  1-rank in inverted order by create time"
+          required: true
+      responses:
+        200:
+          description: OK
+          schema:
+            type: object
+            properties:
+              result:
+                properties:
+                  total:
+                    type: integer
+                    description: "Total Number"
+                  policies:
+                    type: array
+                    items:
+                      $ref: "../model/RolePolicy.yaml#/definitions/rolePolicy"
+                    description: "Role Authorization List"
+
+              requestId:
+                type: string
+
+
+  "/role/{roleName}/policy:detachRolePolicy":
+   ###################### Disassociate Policy for Role ######################
+    post:
+      description: "Associate policy for pole"
+      operationId: detachRolePolicy
+      x-jdcloud-internal: false
+      parameters:
+        - name: detachRolePolicyInfo
+          in: body
+          description: "Role Association Policy Information"
+          required: true
+          schema:
+            properties:
+              policyJrn:
+                type: string
+                description: "Policy jrn"
+      responses:
+        200:
+          description: OK
+          schema:
+            type: object
+            properties:
+              requestId:
+                type: string
+
+
+
+# Path General Parameters
+parameters:
+  regionId:
+    name: regionId
+    in: path
+    required: true
+    type: string
+    description: Region ID
+  roleName:
+    name: roleName
+    in: path
+    required: true
+    type: string
+    description: "Role Name"

@@ -1,0 +1,33 @@
+swagger: "2.0"
+definitions:
+  auditLog:
+    x-jdcloud-module: jmr
+    title: auditLog
+    type: object
+    properties:
+      id:
+        type: number
+      eventId:
+        type: string
+        description: "Event ID"
+      eventType:
+        type: string
+        description: "Event Type"
+      description:
+        type: string
+        description: "Description"
+      objectType:
+        type: string
+      objectId:
+        type: number
+      user:
+        type: string
+      eventTime:
+        type: string
+        format: data-time
+      createTime:
+        type: string
+        format: data-time
+      modifyTime:
+        type: string
+        format: date-time

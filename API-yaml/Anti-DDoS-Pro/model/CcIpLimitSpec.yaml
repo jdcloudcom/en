@@ -1,0 +1,12 @@
+swagger: "2.0"
+definitions:
+  CcIpLimitSpec:
+    type: object
+    x-jdcloud-module: ipanti
+    properties:
+      ccSpeedLimit:
+        type: integer
+        description: "Speed Limit of Each CC Defense IP"
+      ccSpeedPeriod:
+        type: integer
+        description: "Speed Limit Statistic Period of Each CC Defense IP"

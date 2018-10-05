@@ -1,0 +1,16 @@
+swagger: "2.0"
+definitions:
+  softwareInfoAndVersion:
+    x-jdcloud-module: jmr
+    title: softwareInfoAndVersion
+    type: object
+    properties:
+      name:
+        type: string
+        description: "Adopted Software Name, such as hadoop/spark"
+      version:
+        type: string
+        description: "Software Current Version"
+      flag:
+        type: boolean
+        description: "It means whether the obtained information is normal"

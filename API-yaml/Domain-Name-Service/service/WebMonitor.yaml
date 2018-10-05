@@ -1,0 +1,253 @@
+swagger: "2.0"
+info:
+  version: "v1"
+  title: Website Monitoring
+  description: "Cloud resolution OpenAPI Website Monitoring API"
+
+basePath: /regions/{regionId}
+
+paths:
+  /domain/{domainId}/monitor:
+  ###################### View Monitoring Items of the Main Domain ######################
+    get:
+      description: "View the configuration and status of the monitoring items of the main domain"
+      operationId: getMonitor
+      parameters:
+        - name: pageIndex
+          in: query
+          type: integer
+          required: false
+          description: "Current page, starting value is 1, default value is 1"
+        - name: pageSize
+          in: query
+          type: integer
+          required: false
+          description: "Number of Rows Per Page Set During the Page Query"
+        - name: searchValue
+          in: query
+          type: string
+          required: false
+          description: "Query Value"
+      responses:
+        200:
+          description: OK
+          schema:
+            properties:
+              result:
+                properties:
+                  currentCount:
+                    type: integer
+                    description: "Number of Monitoring Items of Current Website Page"
+                  totalCount:
+                    type: integer
+                    description: "Number of Monitoring Items of All Websites"
+                  totalPage:
+                    type: integer
+                    description: "Pages for All Website Monitoring Items"
+                  dataList:
+                    description: "List of Website Monitoring Items of the Current Page"
+                    type: array
+                    items:
+                      $ref: "../model/Monitor.yaml#/definitions/monitor"
+              requestId:
+                type: string
+                description: "ID of This Request"
+        400:
+          description: BAD_REQUEST
+  /domain/{domainId}/monitorAdd:
+  ###################### Add Domain Name Monitoring Items (set by default) ######################
+    post:
+      description: "Add monitoring items for subdomains, by default, all monitoring items of subdomains are added to the monitoring"
+      operationId: addMonitor
+      parameters:
+        - name: subDomainName
+          in: query
+          type: string
+          required: true
+          description: "Subdomain"
+      responses:
+        200:
+          description: OK
+          schema:
+            properties:
+              requestId:
+                type: string
+                description: "ID of This Request"
+        400:
+          description: BAD_REQUEST  
+          
+  /domain/{domainId}/getTargets:
+  ###################### Query Available Monitoring Objects of Subdomain ######################
+    get:
+      description: "Query available monitor objects of subdomains"
+      operationId: getTargets
+      parameters:
+        - name: subDomainName
+          in: query
+          type: string
+          required: true
+          description: "Subdomain"
+      responses:
+        200:
+          description: OK
+          schema:
+            properties:
+              result:
+                properties:
+                  data:
+                    description: "Array of Available Monitoring Objects Returned"
+                    type: array
+                    items:
+                      type: string  
+              requestId:
+                type: string
+                description: "ID of This Request"
+        400:
+          description: BAD_REQUEST  
+  
+  /domain/{domainId}/monitorAddTarget:
+  ###################### Add Monitoring Items of Subdomain ######################
+    post:
+      description: "Add certain monitoring objects as the monitoring items for the subdomains"
+      operationId: addMonitorTarget
+      parameters:
+        - name: subDomainName
+          in: query
+          type: string
+          required: true
+          description: "Subdomain"
+        - name: targets
+          description: "Array of Available Monitoring Objects of Subdomain"         
+          in: query
+          required: true 
+          type: array
+          items:
+            type: string
+      responses:
+        200:
+          description: OK
+          schema:
+            properties:
+              requestId:
+                type: string
+                description: "ID of This Request"
+        400:
+          description: BAD_REQUEST 
+          
+  /domain/{domainId}/monitorOperate:
+  ###################### Monitoring Items Operation (including delete, pause, start, manual recovery, and manual switch) ######################
+    post:
+      description: "Operation Collection for Monitoring Items, including delete, pause, start, manual recovery and manual switch"
+      operationId: operateMonitor
+      parameters:
+        - name: action
+          in: query
+          type: string
+          required: true
+          description: "Delete - del, Pause - stop, Start - start, Manually Recover - recover, Manually Switch - switch"
+        - name: ids
+          in: query
+          type: array
+          items:
+            type: integer
+          required: true
+          description: "Monitor Item ID"
+        - name: switchTarget
+          in: query
+          type: string
+          required: false
+          description: "Machine Value of the Monitoring Items, required for manual switch"
+      responses:
+        200:
+          description: OK
+          schema:
+            properties:
+              requestId:
+                type: string
+                description: "ID of This Request"
+        400:
+          description: BAD_REQUEST
+  /domain/{domainId}/monitorUpdate:
+  ###################### Modification of Domain Monitoring Items  ######################
+    post:
+      description: "Modification of Domain Name Monitoring Items"
+      operationId: updateMonitor
+      parameters:
+        - name: updateMonitor
+          description: "Monitoring Item Information Setting"
+          in: body
+          required: true
+          schema:
+            $ref: "../model/Monitor.yaml#/definitions/updateMonitor"       
+      responses:
+        200:
+          description: OK
+          schema:
+            properties:
+              requestId:
+                type: string
+                description: "ID of This Request"
+        400:
+          description: BAD_REQUEST
+                 
+  /domain/{domainId}/monitor/alarminfo:
+  ###################### Alarm Information for Monitoring Items of Main Domain ######################
+    get:
+      description: "Alarm Information for Monitoring Items of the Main Domain"
+      operationId: getMonitorAlarmInfo
+      parameters:
+        - name: pageIndex
+          in: query
+          type: integer
+          required: false
+          description: "Current page, starting value is 1, default value is 1"
+        - name: pageSize
+          in: query
+          type: integer
+          required: false
+          description: "Number of Rows Per Page Set During the Page Query"
+        - name: searchValue
+          in: query
+          type: string
+          required: false
+          description: "Keyword"
+      responses:
+        200:
+          description: OK
+          schema:
+            properties:
+              result:
+                properties:
+                  currentCount:
+                    type: integer
+                    description: "Number of Alarm Information of the Current Page"
+                  totalCount:
+                    type: integer
+                    description: "Number of All Alarm Information"
+                  totalPage:
+                    type: integer
+                    description: "Pages of All Alarm Information"
+                  dataList:
+                    type: array
+                    description: "Array of Alarm Information of the Current Page"
+                    items:
+                      $ref: "../model/Monitor.yaml#/definitions/monitorAlarmInfo"
+              requestId:
+                type: string
+                description: "ID of This Request"
+        400:
+          description: BAD_REQUEST
+# Path General Parameters
+parameters:
+  regionId:
+    name: regionId
+    in: path
+    required: true
+    type: string
+    description: "Region ID to which the instance belongs"
+  domainId:
+    name: domainId
+    in: path
+    required: true
+    type: string
+    description: "Domain Name ID"

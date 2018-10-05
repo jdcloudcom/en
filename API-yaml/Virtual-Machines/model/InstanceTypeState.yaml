@@ -1,0 +1,11 @@
+swagger: "2.0"
+definitions:
+  instanceTypeState:
+    x-jdcloud-module: vm
+    properties:
+      az:
+        type: string
+        description: "AZ"
+      inStock:
+        type: boolean
+        description: "Tradable details, true: available, false: sold out, unavailable"

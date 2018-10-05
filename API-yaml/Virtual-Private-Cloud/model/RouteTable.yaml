@@ -1,0 +1,35 @@
+swagger: "2.0"
+definitions:
+  routeTable:
+    x-jdcloud-module: vpc
+
+    properties:
+      routeTableId:
+        type: string
+        description: "Route Table ID"
+      routeTableName:
+        type: string
+        description: "Route table name, only allow Chinese, numbers, capital and lowercase letters, English underline “_” and line-through “-”, must provide a name which cannot exceed 32 characters."
+      routeTableType:
+        type: string
+        description: "Route Table Type, Default: default route table, Custom: customized route table"
+      description:
+        type: string
+        description: "Route table description information, allow all characters under UTF-8 coding, which cannot exceed 256 characters."
+      vpcId:
+        type: string
+        description: "VPC ID"
+      routeTableRules:
+        type: array
+        items:
+         $ref: "./RouteTableRule.yaml#/definitions/routeTableRule"
+        description: "Route Table Rule Information"
+      subnetIds:
+        type: array
+        items:
+          type: string
+        description: "Route Table Associated Subnet List"
+      createdTime:
+        type: string
+        description: "Creation Time of Route Table"
+

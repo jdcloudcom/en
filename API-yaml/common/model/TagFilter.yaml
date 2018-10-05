@@ -1,0 +1,18 @@
+swagger: "2.0"
+definitions:
+  filter:
+    x-jdcloud-module: common
+    type: object
+    required:
+      - key
+      - values
+    properties:
+      key:
+        type: string
+        description: "Name of Filter Requirements"
+      values:
+        type: array
+        description: "Value of Filter Requirements"
+        items:
+          type: string
+

@@ -1,0 +1,32 @@
+swagger: "2.0"
+definitions:
+  MissingIndexResult:
+    x-jdcloud-module: rds
+    title: MissingIndexResult
+    type: object
+    properties:
+      db:
+        type: string
+        description: "Database Name"
+      table:
+        type: string
+        description: "Table Name"
+      equalityColumns:
+        type: string
+        description: "A comma-separated list of columns that make up the equality predicate. The form of the predicate is as follows: <br>table.column =constant_value"
+      inequalityColumns:
+        type: string
+        description: "A comma-separated list of the covered columns for the query, i.e., the fields following Include in the SQL statement that created the index"
+      includedColumns:
+        type: string
+        description: "A comma-separated list of columns that make up the unequal predicate. The predicate may take the following form:<br>table.column > constant_value<br> Any comparison operator other than '=' indicates they are unequal."
+      avgUserImpact:
+        type: number
+        format: float
+        description: "The average percentage gain that the user may get during query after implementing this missing index. This value indicates that if this missing index is implemented, the query cost will decrease by this percentage on average."
+      userScans:
+        type: integer
+        description: "Number of scans caused by the query of a user that might have used the suggested index in the group."
+      userSeeks:
+        type: integer
+        description: "The number of searches caused by a user query that might have used the suggested index in the group."

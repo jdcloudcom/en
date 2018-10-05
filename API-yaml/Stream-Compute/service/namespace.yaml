@@ -1,0 +1,150 @@
+swagger: '2.0'
+info:
+  version: v1
+  title: Name Space APIs
+  description: "Information APIs Related to Stream Compute NameSpace"
+basePath: '/regions/{regionId}'
+paths:
+#######Query the Application List Under the Tenant################
+  /namespaces:
+    get:
+      description: "Query the application list under the tenant"
+      operationId: queryNamespaces
+      parameters:
+        - name: keyword
+          in: query
+          type: string
+          required: false
+      responses:
+        '200':
+          description: OK
+          schema:
+            type: object
+            properties:
+              result:
+                properties:
+                  namespaces:
+                    type: array
+                    description: "Namespaces Information"
+                    items:
+                      type: object
+                      $ref: "../model/namespacesInfo.yaml#/definitions/namespace"
+              requestId:
+                type: string
+        '500':
+          description: INTERNAL_ERROR
+ #######Query the Details of A Certain Application################ 
+  /namespaceDetail:
+    get:
+      description: "Query the details of a certain application"
+      operationId: queryNamespaceDetail
+      parameters:
+        - name: namespaceId
+          in: query
+          type: integer
+          required: true
+      responses:
+        '200':
+          description: OK
+          schema:
+            type: object
+            properties:
+              result:
+                properties:
+                  namespace:
+                    type: object
+                    description: "Namespace Objects Queried Out"
+                    $ref: "../model/namespacesInfo.yaml#/definitions/namespace"
+              requestId:
+                type: string
+        '500':
+          description: INTERNAL_ERROR 
+ #######Update Namespace################ 
+  /namespace:
+    put:
+      description: "Update namespace"
+      operationId: updateNamespace
+      parameters:
+        - name: namespaceStr
+          in: body
+          required: true
+          schema:
+            $ref: "../model/namespacesInfo.yaml#/definitions/namespace"
+      responses:
+        '200':
+          description: OK
+          schema:
+            type: object
+            properties:
+              result:
+                properties:
+                  status:
+                    type: boolean
+                    description: "Update the successful marker"
+              requestId:
+                type: string
+        '500':
+          description: INTERNAL_ERROR  
+ #######Create Namespace################ 
+    post:
+      description: "Create namespace"
+      operationId: createNamespace
+      parameters:
+        - name: namespaceStr
+          in: body
+          required: true
+          schema:
+            $ref: "../model/namespacesInfo.yaml#/definitions/namespace"
+      responses:
+        '200':
+          description: OK
+          schema:
+            type: object
+            properties:
+              result:
+                properties:
+                  status:
+                    type: boolean
+                    description: "Create the Successful Marker"
+              requestId:
+                type: string
+        '500':
+          description: INTERNAL_ERROR   
+
+ #######Delete Namespace################ 
+    delete:
+      description: "Delete namespace; if there are other subordinate resources associated with it, it is not allowed to delete it"
+      operationId: deleteNamespace
+      parameters:
+        - name: namespaceId
+          in: query
+          required: true
+          type: integer
+      responses:
+        '200':
+          description: OK
+          schema:
+            type: object
+            properties:
+              result:
+                properties:
+                  status:
+                    type: boolean
+                    description: "Delete the namespace successful marker"
+              requestId:
+                type: string
+        '500':
+          description: INTERNAL_ERROR  
+        '400':
+          description: INTERNAL_ERROR   
+  
+ 
+ 
+ 
+parameters:
+  regionId:
+    name: regionId
+    in: path
+    required: true
+    type: string
+    description: Region ID

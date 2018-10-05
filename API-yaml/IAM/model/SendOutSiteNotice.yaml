@@ -1,0 +1,34 @@
+swagger: "2.0"
+definitions:
+  sendOutSiteNotice:
+    x-jdcloud-module: iam
+    required:
+      - pin
+      - notifyBusinessTypeEnum
+      - templateId
+      - templateParam
+      - smsMessageSource
+    properties:
+      pin:
+        type: string
+        description: "User Pin"
+      emailSubject:
+        type: string
+        description: "Email Subject"
+      emailContent:
+        type: string
+        description: "Email Content"
+      notifyBusinessTypeEnum:
+        type: string
+        description: "Message Type"
+      templateId:
+        type: integer
+        description: "Template Code"
+      templateParam:
+        type: array
+        items:
+          type: string
+        description: "Template Parameter"
+      smsMessageSource:
+        type: string
+        description: "Business Code (and Product Application)"

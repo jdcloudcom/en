@@ -1,0 +1,18 @@
+swagger: "2.0"
+definitions:
+  cluster:
+    x-jdcloud-module: jmr
+    title: cluster
+    type: object
+    properties:
+      clusterId:
+        type: string
+        description: "Cluster Id"
+      type:
+        type: integer
+        description: |
+                  "Required Parameters, Billing Type:"
+                  "Pay by configuration<br/>"
+                       "601-609: Monthly package for 1 month to 9 months"
+                       "610: Monthly Package for 1 Year"
+                       "620: Monthly Package for 2 Years"

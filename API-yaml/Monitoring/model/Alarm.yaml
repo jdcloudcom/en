@@ -1,0 +1,268 @@
+swagger: "2.0"
+definitions:
+  createAlarmBody:
+    ###################### Create Alarm ######################
+    x-jdcloud-module: monitor
+    type: object
+    required:
+    - clientToken
+    - createAlarmSpec
+    properties:
+      clientToken:
+        description: "Idempotent validation parameter, 32-bit at the longest, the return value will not change if the value does not change"
+        type: string
+      createAlarmSpec:
+          $ref: '#/definitions/CreateAlarmSpec'
+  CreateAlarmSpec:
+    x-jdcloud-module: monitor
+    description: "Create monitoring rules"
+    type: object
+    required:
+      - serviceCode
+      - metric
+      - resourceIds
+      - period
+      - calculation
+      - operation
+      - threshold
+      - times
+    properties:
+      calculation:
+        description: "Statistical method must be consistent with the defined metric, with an optional list of values: avg, max, sum, min"
+        type: string
+      contactGroups:
+        description: "Contact group notified by alarm rules must be already created on the console, for example“[‘contact group 1’, ‘contact group 2’]”"
+        type: array
+        items:
+          type: string
+      contactPersons:
+        description: "Contacts notified by alarm rules must be already created on the console, for example“[‘contact 1’, ‘contact 2’]”"
+        type: array
+        items:
+          type: string
+      downSample:
+        description: "Sampling frequency, some metrics support setting downSample, through <a href='http://docs.jdcloud.com/monitoring/api/describemetricsforcreatealarm'>[Query metric list to create monitoring rules available]</a>API is available for viewing."
+        type: string
+      metric:
+        description: "For values, please view <a href='http://docs.jdcloud.com/monitoring/api/describemetricsforcreatealarm'> [Query metric list to create monitoring rules available]</a> metric field of API"
+        type: string
+      noticePeriod:
+        description: "Notification Period Unit: Hour"
+        type: integer
+      operation:
+        description: "Alarm comparison is limited to <=,<,>,>=,==,!="
+        type: string
+      period:
+        description: "Statistical period, unit: minutes, currently supported value: 2, 5, 15, 30, 60"
+        type: integer
+      resourceIds:
+        description: "Alarm rules shall correspond to the Instance List, 100 pieces at most each time, for example ['resourceId1','resourceId2'] "
+        type: array
+        items:
+          type: string
+      serviceCode:
+        description: "For values of product name, please view <a href='http://docs.jdcloud.com/monitoring/api/describemetricsforcreatealarm'>[Query metric list to create monitoring rules available ]</a> serviceCode field of API"
+        type: string
+      threshold:
+        description: "Alarm threshold, currently, only numeric type is available"
+        type: number
+        format: double
+      times:
+        description: "Continuous periods, alarms are made when several statistical periods meet threshold value conditions through continuous detections, optional values: 1, 2, 3, 5"
+        type: integer
+
+  updateAlarmBody:
+    ###################### Modify Alarm######################  
+    x-jdcloud-module: monitor
+    type: object
+    required:
+      - serviceCode
+      - metric
+      - period
+      - calculation
+      - operation
+      - threshold
+      - times
+    properties:
+      calculation:
+        description: "Statistical method: average value=avg, maximum value=max, minimum value=min, summation=sum"
+        type: string
+      contactGroups:
+        description: "Notify contact group, for example [“contact group 1”, “contact group 2”]"
+        type: array
+        items:
+          type: string
+      contactPersons:
+        description: "Notify contact, for example“[‘contact 1’, ‘contact 2’]”"
+        type: array
+        items:
+          type: string
+      downSample:
+        description: "Sampling Frequency"
+        type: string
+      metric:
+        description: "Query Metric field returned by list API of available monitoring item based on the product line"
+        type: string
+      noticePeriod:
+        description: "Notification Period Unit: Hour"
+        type: integer
+      operation:
+        description: '>=, >, <, <=, ==, !='
+        type: string
+      period:
+        description: "Statistical Period (Unit: Minute), optional value: 2, 5, 15, 30, 60"
+        type: integer
+      serviceCode:
+        description: "Product Name"
+        type: string
+      threshold:
+        description: "Threshold"
+        type: number
+        format: double
+      times:
+        description: "Alarm after how many times, optional value: 1, 2, 3, 5"
+        type: integer
+
+  alarmHistory:
+    ###################### Alarm History######################  
+    x-jdcloud-module: monitor
+    type: object
+    properties:
+      calculation:
+        description: "Statistical method: average value=avg, maximum value=max, minimum value=min,"
+        type: string
+      contactGroups:
+        description: "Notify contact group, for example [“contact group 1”, “contact group 2”]"
+        type: array
+        items:
+          type: string
+      contactPersons:
+        description: "Notify contact, for example“[‘contact 1’, ‘contact 2’]”"
+        type: array
+        items:
+          type: string
+      deleted:
+        description: "Whether the rule has been deleted, 1 represents it has been deleted, 0 represents it has not been deleted, the deleted rules will not be retrieved when using the API for querying rules"
+        type: integer
+      enabled:
+        description: "Enable & Disable 1 Enable, 0 Disable"
+        type: integer
+      id:
+        description: "Rule ID"
+        type: string
+      metric:
+        description: "Monitoring Item"
+        type: string
+      metricName:
+        description: "Name of Rule ID Monitoring Item"
+        type: string
+      noticePeriod:
+        description: "Notification Period Unit: Hour"
+        type: integer
+      noticeTime:
+        description: "Alarm Time"
+        type: string
+        format: date-time
+      operation:
+        description: '>=, >, <, <=, ==, !='
+        type: string
+      period:
+        description: "Statistical Period (Unit: Minute)"
+        type: integer
+      region:
+        description: "Region Information"
+        type: string
+      resourceId:
+        description: "Resource ID Applied by This Rule"
+        type: string
+      serviceCode:
+        description: "Product Corresponded to the Alarm Rule"
+        type: string
+      tag:
+        description: "Auxiliary Information of Monitoring Item"
+        type: string
+      threshold:
+        description: "Threshold"
+        type: number
+        format: double
+      times:
+        description: "Alarm after how many times"
+        type: integer
+      value:
+        description: "Alarm Value"
+        type: number
+        format: double
+  
+  alarm:
+    ###################### Alarm Information######################  
+    x-jdcloud-module: monitor
+    type: object
+    properties:
+      calculation:
+        description: "Statistical method: average value=avg, maximum value=max, minimum value=min,"
+        type: string
+      contactGroups:
+        description: "Notify contact group, for example [“contact group 1”, “contact group 2”]"
+        type: array
+        items:
+          type: string
+      contactPersons:
+        description: "Notify contact, for example“[‘contact 1’, ‘contact 2’]”"
+        type: array
+        items:
+          type: string
+      createTime:
+        description: "Creation Time"
+        type: string
+        format: date-time
+      enabled:
+        description: "Enable & Disable 1 Enable, 0 Disable"
+        type: integer
+      id:
+        description: "Rule ID"
+        type: string
+      metric:
+        description: "Monitoring Item"
+        type: string
+      metricName:
+        description: "Name of Rule ID Monitoring Item"
+        type: string
+      noticePeriod:
+        description: "Notification Period Unit: Hour"
+        type: integer
+      noticeTime:
+        description: "Alarm time, this field is valid when querying the alarming rule"
+        type: string
+        format: date-time
+      operation:
+        description: '>=, >, <, <=, ==, !='
+        type: string
+      period:
+        description: "Statistical Period (Unit: Minute)"
+        type: integer
+      region:
+        description: "Region Information"
+        type: string
+      resourceId:
+        description: "Resource ID Applied by This Rule"
+        type: string
+      serviceCode:
+        description: "Product Corresponded to the Alarm Rule"
+        type: string
+      status:
+        description: "Monitoring Item Status: 1 Normal, 2 Alarm, 4 Insufficient data"
+        type: integer
+      tag:
+        description: "Auxiliary Information of Monitoring Item"
+        type: string
+      threshold:
+        description: "Threshold"
+        type: number
+        format: double
+      times:
+        description: "Alarm after how many times"
+        type: integer
+      value:
+        description: "Alarm value, this field is valid when querying the alarming rule"
+        type: number
+        format: double

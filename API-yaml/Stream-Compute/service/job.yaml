@@ -1,0 +1,191 @@
+swagger: '2.0'
+info:
+  version: v1
+  title: JOB APIs
+  description: "Information APIs Related to Stream Compute"
+basePath: '/regions/{regionId}'
+paths:
+  ###########Add or Update job#################
+  /job:
+    post:
+      description: "Add or update iob"
+      operationId: addOrUpdateJob
+      parameters:
+        - name: jobStr
+          in: body
+          description: "Details of creating job"
+          required: true
+          schema:
+            $ref: "../model/jobView.yaml#/definitions/jobStr"
+      responses:
+        200:
+          description: OK
+          schema:
+            type: object
+            properties:
+              result:
+                properties:
+                  okInfo:
+                    type: object
+                    description: "Successful Result Object"
+                    $ref: "../model/200.yaml#/definitions/okInfo"
+              requestId:
+                type: string
+        500:
+          description: "INTERNAL_ERROR"
+  #########Query the Details of Assigned Job#################
+    get:
+        description: "Query the details of Assigned Job"
+        operationId: describeJob
+        parameters:
+            - name: jobId
+              in: query
+              type: integer
+              required: true
+            - name: namespaceId
+              in: query
+              type: integer
+              required: true
+        responses: 
+            '200':
+              description: OK
+              schema:
+                properties: 
+                   result:
+                      properties:
+                        jobStr:
+                          $ref: "../model/jobView.yaml#/definitions/jobStr"        
+                   requestId:
+                      type: string
+            500:
+              description: "INTERNAL_ERROR"
+
+###############Delete Job####################
+    delete:
+        description: "Delete Job"
+        operationId: deleteJob
+        parameters:
+            - name: namespaceId
+              in: query
+              type: string
+              required: true    
+            - name: jobId
+              in: query
+              type: integer
+              required: true
+        responses: 
+            200:
+              description: OK
+              schema:
+                type: object
+                properties: 
+                   regionId:
+                      type: string
+                   result:
+                      properties:
+                          message: 
+                             type: string
+                             description: "Returned Information of Deleting Job"
+                          status:
+                            type: boolean
+            500:
+              description: "INTERNAL_ERROR"                   
+                                                          
+ 
+###############Query All the Jobs Under the Assigned Applications#################################### 
+  /jobList:
+    get:
+        description: "Query all the jobs under the assigned applications"
+        operationId: getJobList
+        parameters:
+            - name: namespaceId
+              in: query
+              type: string
+              required: true
+        responses: 
+            200:
+              description: OK
+              schema:
+                type: object
+                properties: 
+                   requestId:
+                      type: string
+                   result:
+                      properties:
+                          data: 
+                             type: array
+                             description: "Job Objects Queried out"
+                             items:
+                                type: object
+                                $ref: "../model/jobView.yaml#/definitions/jobStr" 
+            500:
+              description: "INTERNAL_ERROR"                                
+################Running job####################
+  /job:start: 
+    get:
+        description: "Running Job"
+        operationId: startJob
+        parameters:
+            - name: namespaceId
+              in: query
+              type: string
+              required: true    
+            - name: jobId
+              in: query
+              type: integer
+              required: true
+        responses: 
+            200:
+              description: OK
+              schema:
+                type: object
+                properties: 
+                   regionId:
+                      type: string
+                   result:
+                      properties:
+                          message: 
+                             type: string
+                             description: "Whether the job is submitted or not"
+                          
+            500:
+              description: "INTERNAL_ERROR"                       
+            
+###############Stop Job Running####################
+  /job:stop:
+    get:
+        description: "Stop job running"
+        operationId: stopJob
+        parameters:
+            - name: namespaceId
+              in: query
+              type: string
+              required: true    
+            - name: jobId
+              in: query
+              type: integer
+              required: true
+        responses: 
+            200:
+              description: OK
+              schema:
+                type: object
+                properties: 
+                   regionId:
+                      type: string
+                   result:
+                      properties:
+                          message: 
+                             type: string
+                             description: "Returned Information Upon Successfully Enabling Job"
+                          
+            500:
+              description: "INTERNAL_ERROR"      
+
+parameters:
+  regionId:
+    name: regionId
+    in: path
+    required: true
+    type: string
+    description: Region ID

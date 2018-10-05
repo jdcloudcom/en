@@ -1,0 +1,28 @@
+swagger: "2.0"
+definitions:
+  addSecurityGroupRules:
+    x-jdcloud-module: vpc
+    required:
+      - protocol
+      - direction
+      - addressPrefix
+    properties:
+      protocol:
+        type: number
+        description: "Rule Limits Protocol. 300:All; 6:TCP; 17:UDP; 1:ICMP"
+      direction:
+        type: number
+        description: "Security Group Rule Direction. 0: Inbound Rule; 1: Outbound Rule"
+      addressPrefix:
+        type: string
+        description: "Prefix of Matching Address"
+      fromPort:
+        type: number
+        description: "The Start Transport Layer Port of Rule Limit. Value Range: 1-65535; if the protocol is a transport layer protocol, the default value is 1; if the protocol is not a transport layer protocol, the value is constantly 0. If the rule is limited to one port, a same value is filled in the fromPort and toPort"
+      toPort:
+         type: number
+         description: "The End Transport Layer Port of Rule Limit. Value Range: 1-65535; if the protocol is a transport layer protocol, the default value is 65535; if the protocol is not a transport layer protocol, the value is constantly 0. If the rule is limited to one port, a same value is filled in the fromPort and toPort"
+      description:
+         type: string
+         description: "Description, allow all characters under UTF-8 coding, which cannot exceed 256 characters"
+

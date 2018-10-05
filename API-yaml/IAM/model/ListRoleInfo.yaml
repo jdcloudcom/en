@@ -1,0 +1,17 @@
+swagger: "2.0"
+definitions:
+  listRoleInfo:
+    x-jdcloud-module: iam
+    properties:
+      roleName:
+        type: string
+        description: "Role Name"
+      description:
+        type: string
+        description: "Description, 0~1,000 characters"
+      createTime:
+        type: string
+        description: "Role Creation Time"
+
+
+
