@@ -1,8 +1,0 @@
-swagger: "2.0"
-info:
-  version: "v1"
-  title: Cloud Disk Service APIs
-  description: "The Cloud Disk Service APIs contain the CDS APIs and Snapshot APIs. It can provide functions such as creating cloud disks in batches, deleting a cloud disk, and making a cloud disk snapshot."
-host: "disk.jdcloud-api.com"
-x-jdcloud-version: "v1"
-x-jdcloud-revision: "0.7.1"
