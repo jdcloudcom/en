@@ -1,8 +1,0 @@
-swagger: "2.0"
-info:
-  version: "v1"
-  title: Virtual Machine
-  description: virtual machine instance,  image,  specification type,  instance template,  quota-related interface
-host: "vm.jdcloud-api.com"
-x-jdcloud-version: "v1"
-x-jdcloud-revision: "1.0.3"
