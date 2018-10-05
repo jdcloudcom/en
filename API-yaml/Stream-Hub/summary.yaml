@@ -1,8 +1,0 @@
-swagger: "2.0"
-info:
-  version: "v1"
-  title: JD Cloud Stream Hub API
-  description: "Provide related APIs for Stream Hub topic."
-host: "streambus.jdcloud-api.com"
-x-jdcloud-version: "v1"
-x-jdcloud-revision: "1.0.1"
