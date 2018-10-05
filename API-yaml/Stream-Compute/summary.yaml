@@ -1,8 +1,0 @@
-swagger: "2.0"
-info:
-  version: "v1"
-  title: JD Cloud Stream Compute APIs
-  description: "Provide Related APIs for Stream Compute Operation."
-host: "streamcompute.jdcloud-api.com"
-x-jdcloud-version: "v1"
-x-jdcloud-revision: "1.0.1"
