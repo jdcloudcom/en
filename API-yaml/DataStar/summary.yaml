@@ -1,8 +1,0 @@
-swagger: "2.0"                                  # Implementation Based on Swagger Version 2.0
-info:
-  version: "v1"                                 # OpenApi Version Number
-  title: Zhike Related APIs
-  description: Zhike Related APIs
-host: "datastar.cn-south-1.jdcloud-api.com"     # Use business line name as the secondary domain name
-x-jdcloud-version: "v1"
-x-jdcloud-revision: 1.0.1  #Need to be consistent with ChangeLog
