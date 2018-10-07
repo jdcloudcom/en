@@ -1,6 +1,6 @@
 # Application Scenarios
 
-The applicable scenarios for Column-Based Storage are described as below.
+The applicable scenarios for Column-oriented Storage are described as below.
  
 ## IoT Big Data
 	Scenarios are naturally applicable to the IoT for HBase, such as bicycle class and logistics track class.

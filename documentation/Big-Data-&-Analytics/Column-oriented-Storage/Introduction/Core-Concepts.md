@@ -11,7 +11,7 @@ See the following for the concepts and their interpretations used in the Anti-DD
 
 
 # Core Concepts
-See the following for the concepts and their interpretations used in the Column-Based Storage Help Documentation.
+See the following for the concepts and their interpretations used in the Column-oriented Storage Help Documentation.
 
 - **Row Key**: row key is the same as nosql database, row key is the primary key used to represent a single row of records, data of HBase is globally ordered according to lexicographic order of RowKey, and all queries only can depend on this order dimension. There are only three methods to access rows in HBASE table.
  

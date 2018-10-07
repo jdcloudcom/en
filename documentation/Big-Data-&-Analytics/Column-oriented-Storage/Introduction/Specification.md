@@ -1,6 +1,6 @@
 # Specifications
 
-Column-Based Storage Now it supports the following instance type.
+Column-oriented Storage Now it supports the following instance type.
 
 ## Instance Type List
 
