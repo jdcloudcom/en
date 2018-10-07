@@ -21,7 +21,7 @@ You can restore the backup data of the Percona service to the self-built databas
 3. Download backup files.
 
     ```
-    wget -c ‘<Data backup download link>' -O <Customized backup file name>.xbstream.gz.enc
+    wget -c '<Data backup download link>' -O <Customized backup file name>.xbstream.gz.enc
 
     -c: Start breakpoint upload
     -O: Save downloaded results as the assigned files and note that the suffix of files must be .xbstream.gz.enc
@@ -72,7 +72,7 @@ You can restore the backup data of the Percona service to the self-built databas
     mysqld --defaults-file=$HOME/tmp_snapshot/backup-my.cnf --user=mysql --datadir=$HOME/tmp_snapshot --socket=$HOME/tmp_snapshot/mysql.sock &
     ```
 
-9. Login the MySQL service.
+9. Login the Percona service.
 
     ```
     mysql -uroot -p --socket=$HOME/tmp_snapshot/mysql.sock

@@ -32,10 +32,14 @@ The following is the regions and availability zones where the data centers with 
 		<td ><B>Open Status</B></td>		
     </tr>
     <tr>   
-        <td rowspan="4"><B>Mainland China</B></td>
+        <td rowspan="5"><B>Mainland China</B></td>
 		<td >cn-north-1</td>
-		<td >Availability Zone A and Availability Zone B</td>
+		<td >Availability Zone A</td>
 		<td >In Preparation</td>
+    </tr>
+    <tr>  
+	<td >Availability Zone B</td>
+	<td >Open</td>
     </tr>
     <tr>   
         <td >cn-east-2</td>
@@ -44,17 +48,17 @@ The following is the regions and availability zones where the data centers with 
     </tr>
 	<tr>   
         <td >cn-east-1</td>
-		<td >Availability Zone</td>
+		<td >Availability Zone A</td>
 		<td >Open</td>
     </tr>
 	<tr>   
         <td >cn-south-1</td>
-		<td >Availability Zone</td>
+		<td >Availability Zone A</td>
 		<td >In Preparation</td>
     </tr>
 </table>
 
-Note: cn-north-1 corresponds to the cn-north-1 under renew column, cn-east-1 corresponds to cn-east-1 under renew column, cn-east-2 corresponds to cn-east-2 under renew column, and cn-south-1 corresponds to cn-south-1 under renew column.
+
 
 ### Private IP
 Under the basic network mode, the private IP address under the subnet specified by the user is allocated uniformly by the system. If you change the private IP in the operating system, the intranet communication will be cut off. Communication traffic via private IP between Cloud Physical Servers in the same data center is free. Private IP is used for accessing each other of intranets between Cloud Physical Servers.

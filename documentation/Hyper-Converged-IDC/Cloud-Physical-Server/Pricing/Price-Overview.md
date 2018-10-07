@@ -4,11 +4,12 @@ The instance prices of the Cloud Physical Server mainly include the Cloud Physic
 
 ## Cloud Physical Server Price
 
+
 <table>
     <tr>
         <td colspan="2"><B>Instance Type</B></td> 
-        <td><B>Instance Type</B></td> 
-		<td><B>Monthly Package Price (RMB)</B></td>	
+        <td ><B>Instance Type</B></td> 
+		<td ><B>Monthly Package Price (RMB)</B></td>	
     </tr>
     <tr>   
         <td rowspan="3">Computing Type</td>
@@ -18,12 +19,12 @@ The instance prices of the Cloud Physical Server mainly include the Cloud Physic
     </tr>
 	<tr>   
 		<td >Computing Performance Type Ⅰ</td>
-		<td >cps.c.perfⅠ</td>
+		<td >cps.c.perf1</td>
 		<td >7000</td>
     </tr>
 	<tr>   
 		<td >Computing Performance Type Ⅱ</td>
-		<td >cps.c.perfⅡ</td>
+		<td >cps.c.perf2</td>
 		<td >9000</td>
     </tr>
 	<tr>   
@@ -32,7 +33,20 @@ The instance prices of the Cloud Physical Server mainly include the Cloud Physic
 		<td >cps.s.normal</td>
 		<td >4500</td>
     </tr>
+	<tr>   
+		<td rowspan="2">GPU Type</td>
+		<td >GPUⅠ</td>
+		<td >cps.gpu.1</td>
+		<td >23000</td>
+    </tr>
+	<tr>   
+		<td >GPUⅡ</td>
+		<td >cps.gpu.2</td>
+		<td >19900</td>
+    </tr>
 </table>
+
+
 
 ## EIP Price
 

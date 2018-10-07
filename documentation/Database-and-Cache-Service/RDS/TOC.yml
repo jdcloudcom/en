@@ -12,7 +12,7 @@
       - name: Benefits
         href: Introduction/Benefits.md
       - name: Specifications
-        href: Introduction/Specification.md
+        href: Introduction/Specifications.md
       - name: Restrictions
         items:
         - name: MySQL Restrictions
@@ -28,7 +28,7 @@
   - name: Pricing
     items:
       - name: Billing Overview
-        href: Pricing/Pricing.md
+        href: Pricing/Billing-Overview.md
       - name: Billing Rules
         href: Pricing/Billing-Rules.md
       - name: Price Overview
@@ -125,7 +125,7 @@
               href: Operation-Guide/Backup/Backup-Download/Percona-Backup-Download.md
             - name: MariaDB Backup Download
               href: Operation-Guide/Backup/Backup-Download/MariaDB-Backup-Download.md
-              status:0
+              status: 0
             - name: SQL Server Backup Download
               href: Operation-Guide/Backup/Backup-Download/SQLServer-Backup-Download.md
           - name: Backup Replace and Recovery
@@ -302,13 +302,13 @@
       href: Related-Resources/Document-History.md
     - name: Terms of Service
       href: Related-Resources/Service-Terms.md
-      status:0
+      status: 0
     - name: SLA
       href: Related-Resources/SLA.md
-      status:0
+      status: 0
     - name: ICP Filing
       href: Related-Resources/Filing.md
-      status:0
+      status: 0
     - name: Glossary
       href: Related-Resources/Glossary.md
-      status:0
+      status: 0

@@ -19,8 +19,8 @@ After you have successfully registered an account and completed real-name verifi
    
    There are three methods to create: **Create Customized Instance**, **Create Instance by Instance Template**, **Create Instance in Availability Group**.
     * Create Customized Instance: customize all instance configuration items.
-    * Create Instance by Instance Template: quickly create an instance based on the preset configuration of the established instance template. Please see [Instance Template](../Operation-Guide/Instance-Template/Overview.md) for details.
-    * Create Instance in Availability Group: quickly create an instance based on the available zone and instance template specified by the established Availability Group. Please see [Availability Group](../../Availability-Group/Introduction/Overview.md) for details.
+    * Create Instance by Instance Template: quickly create an instance based on the preset configuration of the established instance template. Please see [Instance Template](../Operation-Guide/Instance-Template/Instance-Template-Overview.md) for details.
+    * Create Instance in Availability Group: quickly create an instance based on the available zone and instance template specified by the established Availability Group. Please see [Availability Group](../../Availability-Group/Introduction/Product-Overview.md) for details.
 * Image:
    
    It provides **Public Image**, **Private Image**, **Shared Image** and **Marketplace Image**.
@@ -45,9 +45,9 @@ After you have successfully registered an account and completed real-name verifi
    * SSD Cloud Disk as Data Disk: 20G~1,000G. 
  
 * Networking:
-    * Virtual Private Cloud and Subnet: You can plan and create a private Virtual Private Cloud and subnet first. If not, it supports using the default VPC and subnet created automatically by the system. Please see [Virtual Private Cloud](../../../Networking/Virtual-Private-Cloud/Introduction/Functions/VPC.md) and [Subnet](../../../Networking/Virtual-Private-Cloud/Introduction/Functions/Subnet.md) for details.
+    * Virtual Private Cloud and Subnet: You can plan and create a private Virtual Private Cloud and subnet first. If not, it supports using the default VPC and subnet created automatically by the system. Please see [Virtual Private Cloud](http://docs.jdcloud.com/cn/virtual-private-cloud/product-overview) and [Subnet](http://docs.jdcloud.com/cn/virtual-private-cloud/subnet-features) for details.
     * Private IP: It is the specified private IP address of main network card of the Virtual Machines, which can be specified in the number of available IPs in the selected subnet. If there is no special requirement, it can be allocated automatically by the system. Once the intranet IP is allocated to the Virtual Machines, it cannot be changed.
-    * Security Group: You can create a security group that meets the identity and access management under each Virtual Private Cloud. If not, it supports to associate one from the three security group modules created automatically by the system. Please see [Security Group Overview](../../../Networking/Virtual-Private-Cloud/Introduction/Functions/Security-Group.md) for details.
+    * Security Group: You can create a security group that meets the identity and access management under each Virtual Private Cloud. If not, it supports to associate one from the three security group modules created automatically by the system. Please see [Security Group Overview](http://docs.jdcloud.com/cn/virtual-private-cloud/security-group-features) for details.
  
  * Bandwidth:
    
@@ -78,21 +78,23 @@ After knowing how to set the above configuration items, you can create a Windows
 
 [Region and Availability Zone]
 
-[Instance Template](../Operation-Guide/Instance-Template/Overview.md)
+[Instance Template](../Operation-Guide/Instance-Template/Instance-Template-Overview.md)
 
-[Availability Group](../../Availability-Group/Introduction/Overview.md)
+[Availability Group](../../Availability-Group/Introduction/Product-Overview.md)
 
 [Instance Type](../Introduction/Instance-Type-Family.md)
 
-[Cloud Disk Service Type]
+[Cloud Disk Service Type](http://docs.jdcloud.com/cn/cloud-disk-service/specifications)
 
-[Virtual Private Cloud](../../../Networking/Virtual-Private-Cloud/Introduction/Functions/VPC.md)
+[Virtual Private Cloud](http://docs.jdcloud.com/cn/virtual-private-cloud/product-overview)
 
-[Subnet](../../../Networking/Virtual-Private-Cloud/Introduction/Functions/Subnet.md)
+[Subnet](http://docs.jdcloud.com/cn/virtual-private-cloud/subnet-features)
 
-[Security Group Overview](../../../Networking/Virtual-Private-Cloud/Introduction/Functions/Security-Group.md)
+[Security Group Overview](http://docs.jdcloud.com/cn/virtual-private-cloud/security-group-features)
+
 
 [Elastic IP Billing Rules](../../../Networking/Elastic-IP/Pricing/Billing-Rules.md)
+
 
 
 

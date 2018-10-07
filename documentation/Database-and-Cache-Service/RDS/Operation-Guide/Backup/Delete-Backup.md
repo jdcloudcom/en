@@ -8,5 +8,4 @@ Since the number of manual backups supported by a single instance is limited, yo
 1. Login [RDS Management Console](https://rds-console.jdcloud.com/database).
 2. Select the domain of the target instance.
 3. Click the target instance, enter the instance detailed page, switch to the tab page - ***Backup Management*** and find the database to be deleted, and click ***Delete***.
-    ![Delete Backup](https://img1.jcloudcs.com/cms/57bb11cf-8538-4421-a443-f7f98c8a1ea620180211153725.JPG)
-4. In the confirmation pop-up window, click **OK** to delete the backup.
+4. In the confirmation pop-up window, click ***OK*** to delete the backup.

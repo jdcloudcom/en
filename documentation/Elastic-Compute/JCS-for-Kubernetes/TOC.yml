@@ -12,7 +12,7 @@
       - name: Features
         href: Introduction/Features.md
       - name: Specifications
-        href: Introduction/Specification.md
+        href: Introduction/Specifications.md
       - name: Restrictions
         href: Introduction/Restrictions.md
       - name: Application Scenarios 
@@ -20,7 +20,7 @@
   - name: Pricing
     items:
       - name: Billing Overview
-        href: Pricing/Pricing.md
+        href: Pricing/Billing-Overview.md
       - name: Purchase Process
         href: Pricing/Purchase-Process.md
   - name: Getting Started

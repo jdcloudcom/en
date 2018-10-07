@@ -1,6 +1,6 @@
 # Core Concepts
 Terms|Descriptions
----|---:
+---|:---
 Memcached|Memcached is a high-performance distributed memory object storage cache system. The JCS for Memcached is compatible to the Memcached binary protocol and the text protocol.
 Instance ID	|An instance corresponds to a user space and is the only identifier of JCS for Memcached instance.
 Connection address	|The host address is used to connect to JCS for Memcached, displayed as a domain name, and can be searched in Instance Information> Basic Information > Connection Information.

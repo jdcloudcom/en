@@ -69,6 +69,7 @@ The Info field is an operation to customize the key-value field when appinfo can
 Request:
 http://www.isvwebsite.com?action=createInstance&email=&expiredOn=2017-01-08+00%3A00%3A00&jdPin=test_jdb22&mobile=&orderBizId=423499&orderId=519801&serviceCode=FW_GOODS-409717&skuId=FW_GOODS-409717-1&template=&token=7e8970385f7f263074a48852aeda12a5&extraInfo={"key1":"1","key1","2"}
 Return:
+```
 {
 
        "instanceId":   "1001",
@@ -94,7 +95,7 @@ Return:
        }
 
 }
-
+```
 4.2 Renew:
 4.2.1 Description
 
@@ -109,7 +110,7 @@ After the user renews and pays successfully, the Marketplace calls the renewal i
 l Request
 http://www.isvwebsite.com? action=renewInstance&expiredOn=2017-12-06+00%3A00%3A00&instanceId=1002&orderId=520801&token=475f28682b5d0d1af820ffd477c1188f
 2 Return
-{‘success’:true’, ‘authCode:’123456789’, ‘message’:’renew suecess’}       
+`{‘success’:true’, ‘authCode:’123456789’, ‘message’:’renew suecess’}` 
 
 4.3 Release
 4.3.1 Description
@@ -122,9 +123,9 @@ The Marketplace will call the interface after the order is cancelled and the ref
 4.3.4 Example
 l Request
 
-http://www.isvwebsite.com?   action=releaseInstance&instanceId=424499_520001_FW_GOODS-409717-1&token=cb0a8e6348de9d12e74a085a28bf00fe
+http://www.isvwebsite.com?action=releaseInstance&instanceId=424499_520001_FW_GOODS-409717-1&token=cb0a8e6348de9d12e74a085a28bf00fe
 2 Return
-{‘success’: true,’message’:’release success’}                
+`{‘success’: true,’message’:’release success’} `               
 
 4.4 Free login
 4.4.1 Description
@@ -136,7 +137,7 @@ After the customer purchases the product, he can log in to the service provider 
 
 4.4.3 Example
 l Request
-http://www.isvwebsite.com?token=9560d4d52cab35689fd5d472f28119ab&action= verify&instanceId=1001&timeStamp=2016-12-01+10%3A30%3A01              
+http://www.isvwebsite.com?token=9560d4d52cab35689fd5d472f28119ab&action=verify&instanceId=1001&timeStamp=2016-12-01+10%3A30%3A01              
 
 2 Return
 Login success page
@@ -158,7 +159,7 @@ l Request
 http://www.isvwebsite.com?action=upgradeInstance&skuId=FW-123-1instanceId=1002&orderId=520801&token=475f28682b5d0d1af820ffd477c1188f&extraInfo={"key1":"1","key1","2"} 
 
 2 Return
-{‘success’:true’, ‘authCode:’123456789’, ‘message’:’renew suecess’}
+`{‘success’:true’, ‘authCode:’123456789’, ‘message’:’renew suecess’}`
 
 4.6 Expansion
 4.6.1 Description
@@ -174,10 +175,12 @@ Description: extraInfo: Json format key-value dynamic field, used to pass some n
 
 4.6.4 Example
 l Request
-http://www.isvwebsite.com?action=dilateInstance&accountNum=1&instanceId=1002&orderId=520801&token=475f28682b5d0d1af820ffd477c1188f&extraInfo={"key1":"1","key1","2"}        
+```
+http://www.isvwebsite.com?action=dilateInstance&accountNum=1&instanceId=1002&orderId=520801&token=475f28682b5d0d1af820ffd477c1188f&extraInfo={"key1":"1","key1","2"}
+```
 
 2 Return
-{‘success’:true’, ‘authCode:’123456789’, ‘message’:’dilatesuccess’}
+`{‘success’:true’, ‘authCode:’123456789’, ‘message’:’dilatesuccess’}`
 
 4.7 Expiration
 4.7.1 Description
@@ -195,14 +198,14 @@ l Request
 http://www.isvwebsite.com? action=   expiredInstance &instanceId=424499_520001_FW_GOODS-409717-1&token=cb0a8e6348de9d12e74a085a28bf00fe
 
 2 Return
-{‘success’: true,’message’:’ expiredInstance success’}
+`{‘success’: true,’message’:’ expiredInstance success’}`
 
 5.1 Description
 
 In order to ensure the correctness of the automatic opening of the software service, the application access debugging interface is built on the service provider management platform. The service provider can debug the correctness of the above interfaces on this page.
 
 Note: the debugging data is informal, and JD Cloud Marketplace does not do business processing.
-
+```
 import java.io.UnsupportedEncodingException;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
@@ -250,7 +253,7 @@ public class Md5Util {
     public static void main(String[] args) {
         String md2 = Md5Util.md5Encode("accountNum=1&action=createInstance&email=bujiaban@jd.com&expi
 
-
+```
 
 
 
