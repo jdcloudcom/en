@@ -4,7 +4,7 @@ There is bottleneck for a single vCPU when handles the network interruption. You
 
 ## Support
 
-### Different Images Support Multi- Queue
+### Different Images Support Multi-Queue
 Currently, different images have different support for network interface multi-queue. The details are as follows:
 
 #### Public Image:

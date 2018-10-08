@@ -11,7 +11,7 @@ How to generate a kernel or full memory dump file in Windows Server 2008 and Win
 
 https://support.microsoft.com/zh-cn/kb/969028
 
-Troubleshoot "blue screen" or Stop error problems before you contact：
+Troubleshoot “blue screen” or Stop error problems before you contact：
 
 https://support.microsoft.com/kb/3106831
 

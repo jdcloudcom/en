@@ -10,7 +10,7 @@ Note: The configuration and instructions of Linux in this article have been test
 **Problem Phenomenon**
 
 
-When using SSH to connect to a Linux Virtual Machines, the following information that causing a abnormal login to the server may appear in the secure log of the customer or server (which can be viewed in the system through VNC):
+When using SSH to connect to a Linux VM, the following information that causing a abnormal login to the server may appear in the secure log of the customer or server (which can be viewed in the system through VNC):
 
 *• Permission denied, please try again.*
 
@@ -36,11 +36,11 @@ This problem is usually caused by SSH service enabling the user login control pa
 
 The related parameters of SSH can restrict the user or user's group logs in. Descriptions as follows:
 
-• AllowUsers: A White list of allowed users. Only the users marked with this parameter can log in.
+• AllowUsers: A white list of allowed users. Only the users marked with this parameter can log in.
 
 • DenyUsers: A blacklist of denied users. The users marked with this parameter are denied to log in.
 
-• AllowGroups: A White list of allowed user's groups. Only the user's groups marked with this parameter can log in.
+• AllowGroups: A white list of allowed user's groups. Only the user's groups marked with this parameter can log in.
 
 • DenyGroups: Blacklists of denied user's groups. The user's groups marked with this parameter are denied to log in.
 

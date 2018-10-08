@@ -1,4 +1,4 @@
-# Renewal Procedure
+# Renew Process
 For instances with different billing types, the renewal operations are different:
 
 * Renewal of Instance Billed by Configuration: The billing method of the instance billed by configuration will be converted into the monthly package, and the renewal duration will be 1 month to 9 months, 1 year, 2 years or 3 years;
@@ -7,7 +7,7 @@ For instances with different billing types, the renewal operations are different
 In addition, the renewal operation also supports:
 
 * Batch Renewal: Batch renewal for multiple resources will extend the usage duration of the selected resources according to the selected renewal duration by the user.
-* Associated Renewal: When the instance is renewed, the flexible public network IP and cloud hard disk bound to the instance are displayed. The user selects the associated resources that need to be renewed together for renewal.
+* Associated Renewal: When the instance is renewed, the elastic IP and cloud disk bound to the instance are displayed. The user selects the associated resources that need to be renewed together for renewal.
 
 
 ## Precondition
@@ -24,7 +24,7 @@ You can renew the instance from the following two accesses:
 	2. Select the region, and you can find the instance that needs to be renewed by condition search;
 	3. Click **Operate** - **More** - **Renew** to jump to corresponding renewal page；<br>
 	![](https://github.com/jdcloudcom/cn/blob/edit/image/vm/renew.png)
-	4. For detailed operation and detailed procedure on the renewal page, please refer to [Renew Management](../../../Finance/renewal%20management/Resource%20renewal.md).
+	4. For detailed operation and detailed procedure on the renewal page, please refer to [Renew Management](http://docs.jdcloud.com/cn/online-buying/renew-management).
 
 
 ## Related Reference
@@ -33,7 +33,7 @@ You can renew the instance from the following two accesses:
 
 [Virtual Machines Console](https://cns-console.jdcloud.com/host/compute/list);
 
-[Renew Management](../../../Finance/renewal%20management/Resource%20renewal.md)
+[Renew Management](http://docs.jdcloud.com/cn/online-buying/renew-management)
 
 
 

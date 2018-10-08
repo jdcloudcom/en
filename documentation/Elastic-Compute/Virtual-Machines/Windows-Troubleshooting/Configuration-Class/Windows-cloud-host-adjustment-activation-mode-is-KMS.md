@@ -1,4 +1,4 @@
-# Windows Virtual Machines  adjustment and activation mode is KMS
+# Windows VM adjustment and activation mode is KMS
 
 From June 2018, JD Cloud Virtual Machines has successively completed the adjustment of the Microsoft Genuine activation mode for the official Windows Server image in all regions. The original MAK activation is changed to KMS activation, which is an intranet activation where Virtual Machines's connection to the public network or manual phone activation is not required, convenient for initial activation of the intranet server.
 
@@ -41,9 +41,9 @@ Windows Server 2008 R2 Data Center Edition 64-bit Chinese Version
 
 *Slmgr /rearm*
 
-8. Restart the Virtual Machines
+8. Restart VM
 
-9. Activate the Virtual Machines
+9. Activate VM
 
 *slmgr /ato*
 

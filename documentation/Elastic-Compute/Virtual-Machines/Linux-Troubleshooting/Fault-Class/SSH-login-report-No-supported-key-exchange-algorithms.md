@@ -10,7 +10,7 @@ Note: The configuration and instructions of Linux in this article have been test
 **Problem Phenomenon**
 
 
-When using SSH to connect to a Linux Virtual Machines, the following information that causing a abnormal connection to the server may appear in the secure log of the customer or server (which can be viewed in the system through the management terminal):
+When using SSH to connect to a Linux VM, the following information that causing a abnormal connection to the server may appear in the secure log of the customer or server (which can be viewed in the system through the management terminal):
 
 *• Read from socket failed: Connection reset by peer.*
 

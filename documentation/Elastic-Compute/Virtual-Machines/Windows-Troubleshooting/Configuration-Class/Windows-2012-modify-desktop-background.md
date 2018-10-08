@@ -9,7 +9,7 @@ When you modify the desktop background in Windows 2012 system, you will be promp
 
 1. Close the current remote desktop connection.
 
-2. Reconnect and click **Options** instead of **Connect** after the IP address of the Virtual Machines is entered in the computer. 
+2. Reconnect and click **Options** instead of **Connect** after the IP address of the Virtual Machine is entered in the computer. 
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows%202012%E4%BF%AE%E6%94%B9%E6%A1%8C%E9%9D%A2%E8%83%8C%E6%99%AF02.png)
 

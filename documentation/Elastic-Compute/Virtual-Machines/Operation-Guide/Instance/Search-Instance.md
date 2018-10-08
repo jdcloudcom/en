@@ -1,6 +1,6 @@
 # Search Instance
 
-By default, the instance list shows all instances under the current region. To help you quickly search for specific instances in your current location, Tencent Cloud provides an instance search function that currently allows you to search based on the instance ID, name, and private IP. The resources ID supports accurate search, and the name and private IP support fuzzy search.
+By default, the instance list shows all instances under the current region. To help you quickly search for specific instances in current region, JD Cloud provides an instance search function that currently allows you to search based on the instance ID, name, and private IP. The resources ID supports accurate search, and the name and private IP support fuzzy search.
 
 ## Operation Steps
 

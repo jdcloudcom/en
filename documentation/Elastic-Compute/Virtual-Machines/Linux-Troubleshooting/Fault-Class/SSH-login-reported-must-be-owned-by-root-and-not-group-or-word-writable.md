@@ -9,7 +9,7 @@ Note: The configuration and instructions of Linux in this article have been test
 
 **Problem Phenomenon**
 
-When the Linux Virtual Machines starts the SSH service, an error message similar to the following appears:
+When the Linux VM starts the SSH service, an error message similar to the following appears:
 
 *• /var/empty/sshd must be owned by root and not group or word-writable.*
 

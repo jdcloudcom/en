@@ -9,7 +9,7 @@ Note: The configuration and instructions of Linux in this article have been test
 
 **Problem Description:**
 
-When logging in to Linux Virtual Machines, even if the correct password is entered, it can not be logged in properly. When the problem occurs, it can be logged in through the management terminal or SSH client, or can not be logged in through both modes. At the same time, the following error message appears in the secure log:
+When logging in to Linux VMs, even if the correct password is entered, it can not be logged in properly. When the problem occurs, it can be logged in through the management terminal or SSH client, or can not be logged in through both modes. At the same time, the following error message appears in the secure log:
 
 *Your account is Locked. Maximum amount of failed attempts was reached.*
 
@@ -60,7 +60,7 @@ Brief description of related parameters:
 
 5. If you need to modify the relevant policy configuration, it is recommended to perform a file backup before proceeding.
 
-6. Use the editor such as vi to modify the relevant parameter values ​​as needed, and confirm that the access release for relevant user has been made in the corresponding identity and access management file. Or the entirely delete or comment (add # at the beginning) the entire line configuration, eg.:
+6. Use the editor such as vi to modify the relevant parameter values as needed, and confirm that the access release for relevant user has been made in the corresponding identity and access management file. Or the entirely delete or comment (add # at the beginning) the entire line configuration, eg.:
 
 *#auth required pam_listfile.so item=user sense=allow file=/etc/ssh/whitelist onerr=fail*
 

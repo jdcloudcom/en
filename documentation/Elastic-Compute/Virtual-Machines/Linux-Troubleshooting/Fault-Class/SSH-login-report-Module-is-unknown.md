@@ -9,7 +9,7 @@ Note: The configuration and instructions of Linux in this article have been test
 
 **Problem Description:**
 
-When using vnc or SSH to connect remotely and log in to the Linux Virtual Machines, you fail to log in, and the following error messages appear in the secure log:
+When using vnc or SSH to connect remotely and log in to the Linux VMs, you fail to log in, and the following error messages appear in the secure log:
 
 *login: Module is unknown.*
 
@@ -35,7 +35,7 @@ When a remote connect is logged in, some PAM-enabled applications fail to load t
 
 When it fails to log in via the servers's administrator account and password
 
-1. Log in to the Linux Virtual Machines via vnc.
+1. Log in to the Linux VMs via vnc.
 
 2. Execute the cat filename command to view the PAM configuration files, such as cat /etc/pam.d/login and cat /etc/pam.d/system-auth.
 
@@ -51,7 +51,7 @@ In this step, it should check if pam_limits.so is incorrectly placed in /lib/sec
 
 *session required /lib64/security/pam_limits.so* # Modify to the correct path
 
-6. Re-login to the Linux Virtual Machines test.
+6. Re-login to the Linux VM test.
 
 
 

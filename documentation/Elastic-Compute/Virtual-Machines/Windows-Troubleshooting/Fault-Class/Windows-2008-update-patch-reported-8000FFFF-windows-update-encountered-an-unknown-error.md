@@ -1,7 +1,7 @@
 # Windows2008 Updated Patches "8000FFFF windows update Errors"
 **Problem Phenomenon:**
 
-"Code 8000FFFF Unknown Error" prompts during Windows 2008 R2 patches are updated:
+'"Code 8000FFFF Unknown Error" prompts during Windows 2008 R2 patches are updated:
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows2008%20%E6%9B%B4%E6%96%B0%E8%A1%A5%E4%B8%81%E6%8A%A5%E2%80%9C8000FFFFwindows%20update%20%E9%81%87%E5%88%B0%E6%9C%AA%E7%9F%A5%E9%94%99%E8%AF%AF%E2%80%9D01.png)
 

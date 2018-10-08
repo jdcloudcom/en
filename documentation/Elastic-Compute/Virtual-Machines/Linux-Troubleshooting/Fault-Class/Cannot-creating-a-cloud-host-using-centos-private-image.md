@@ -23,7 +23,7 @@ Modify the file, comment out the content of eth0, and change the device name in 
 
 ![](https://github.com/jdcloudcom/cn/blob/cn-VirtualMachine-Linux/image/Elastic-Compute/Virtual-Machine/Linux/%E4%BD%BF%E7%94%A8centos%E7%A7%81%E6%9C%89%E9%95%9C%E5%83%8F%E5%88%9B%E5%BB%BA%E4%BA%91%E4%B8%BB%E6%9C%BA%E5%90%8E%E6%97%A0%E6%B3%95%E8%8E%B7%E5%8F%96%E5%86%85%E7%BD%91IP%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%9503.png)
 
-Reboot the Virtual Machines. After rebooting, execute ifconfig -a and find that the previous eth1 device name retored to eth0 and the private IP can be obtained and can be accessed normally after binding the public IP.
+Reboot the Virtual Machines. After rebooting, execute ifconfig -a and find that the previous eth1 device name retored to eth0 and the private IP can be obtained and can be accessed normally after associating EIP.
 
 ![](https://github.com/jdcloudcom/cn/blob/cn-VirtualMachine-Linux/image/Elastic-Compute/Virtual-Machine/Linux/%E4%BD%BF%E7%94%A8centos%E7%A7%81%E6%9C%89%E9%95%9C%E5%83%8F%E5%88%9B%E5%BB%BA%E4%BA%91%E4%B8%BB%E6%9C%BA%E5%90%8E%E6%97%A0%E6%B3%95%E8%8E%B7%E5%8F%96%E5%86%85%E7%BD%91IP%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%9504.png)
 

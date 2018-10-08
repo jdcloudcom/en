@@ -9,7 +9,7 @@
 
 　　1. Change the password of the system administrator, and the password shall not be less than 8 digits and composed by capital or lowercase letters, numbers or special characters;
 
-　　2. Change the remote login port and enable the IP address that was blocked by the firewall. The firewall configuration is only accessible to specific service ports, and it performs source IP access control for services that are not required to be accessible to all users, such as FTP and database;
+　　2. Change the remote login port and enable the IP address that was blocked by the firewall. The firewall configuration is only accessible to specific service ports, and it performs source IP IAM for services that are not required to be accessible to all users, such as FTP and database;
 
 　　3. Check whether the unauthorized port is accessible.
 
