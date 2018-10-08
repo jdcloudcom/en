@@ -90,17 +90,7 @@ items:
 - name: Tutorial
   items:
   status: 0
-- name: Troubleshooting
-  items:
-  - name: Virtual machine is unable to connect to the MongoDB instances?
-    herf: Troubleshooting/Connect-Failed.md
-    status: 0 
-  - name: What commands are not supported by MongoDB Service?
-    herf: Troubleshooting/Command.md
-    status: 0 
-  - name: Connection hints no permission in case of correct account and password?
-    herf: Troubleshooting/Authentication.md    
-    status: 0 
+
 - name: FAQ
   herf: FAQ/faq.md
 - name: API Reference
