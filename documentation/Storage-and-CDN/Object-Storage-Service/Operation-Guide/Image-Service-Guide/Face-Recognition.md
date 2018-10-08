@@ -11,7 +11,7 @@ Parameters:
 |Face detection|Face|f/2|Required parameters|Return biggest crop image of face; the image format is same as that of input image|
 |Face detection|Face|f/3/str|3 required parameters<br>Str optional parameters, face frame color, _start with<br>value range[_000000,_FFFFFF], default_FFFFFF|Return all detected face image in which identified with rectangle of customized color _RRGGBB (or RGB)|
 
-Sample:
+Example:
 
 Detect the face in the image file and return the largest crop image of the face:
 

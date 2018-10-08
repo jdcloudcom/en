@@ -28,7 +28,7 @@ requestId: The only UUID used for identifying error request; the error ID can be
 |NoSuchKey|The specified key does not exist.|No existing resource|404|
 |AccessDenied|Access Denied|Access to server denied|403|
 |MethodNotAllowed|The specified method is not allowed against this resource.|MethodNotAllowed|405|
-|InternalError|We encountered an internal error. Please try again.|Server internal error|500|
+|Internal Error|We encountered an internal error. Please try again.|Server internal error|500|
 ||unknown error|Unknown error|400|
 ||wrong request para|request parameter error|400|
 ||wong processing mode|Wrong processing mode|400|

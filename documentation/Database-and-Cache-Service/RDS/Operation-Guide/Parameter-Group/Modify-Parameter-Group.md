@@ -16,7 +16,7 @@ The default value of all the parameters in the parameter list is the optimized v
     * Parameter Value Ranges: The ranges or lists where parameter can be modified.
     * Restart or Not: It indicates whether the parameters can come into effect with restart and parameter set associating after the parameter running value is modified.
 4. Click ***Edit Parameter ***, and the column of parameter run values in the parameter list becomes editable. At this time, the parameter run value can be modified into an ideal value within the modifiable range.
-5. Click [Save], and a pop-up box for parameter modification value will appear after all the parameter running values ​​have been modified. The parameter list containing the modified parameter running values will be list in the pop-up box.
+5. Click ***Save***, and a pop-up box for parameter modification value will appear after all the parameter running values ​​have been modified. The parameter list containing the modified parameter running values will be list in the pop-up box.
 
     ![Screen Shot](../../../image/RDS/modify-parameter.png)
 

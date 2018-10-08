@@ -1,10 +1,13 @@
 # Golang Connection
-- step1: download redis client of golang
-<pre><code>go get github.com/garyburd/redigo/redis
-</code></pre>
-- step2: write test case
+- step1: Download redis client of golang
 
-<pre><code>package main
+<code>go get github.com/garyburd/redigo/redis</code>
+
+
+- step2: Write test case
+
+```
+package main
  import (
      "fmt"
     "github.com/garyburd/redigo/redis"
@@ -35,4 +38,4 @@ func main() {
     }
     //do other command...
 }
-</code></pre>
+```

@@ -3,58 +3,9 @@
 
  Post object refers to the user using the Post Object request in the OSS API to complete the file upload. It is very suitable to be embedded in the HTML web page to upload files. The more common application scenario is the website application. Take the social network site as an example:
 
-
-
-<table>
-    <thead>
-        <tr class="firstRow">
-            <td valign="top" style="border:solid #DDDDDD 1px;background:#F0F0F0;padding:7px 15px 7px 10px"></td>
-            <td valign="top" style="border:solid #DDDDDD 1px;border-left:none;background:#F0F0F0;padding:7px 15px 7px 10px">
-                <p>
-                    <strong><span style="font-family:宋体;color:black">Non-Post object</span></strong>
-                </p>
-            </td>
-            <td valign="top" style="border:solid #DDDDDD 1px;border-left:none;background:#F0F0F0;padding:7px 15px 7px 10px">
-                <p>
-                    <strong><span style="font-family:宋体;color:black">Post object</span></strong>
-                </p>
-            </td>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td valign="top" style="border:solid #DDDDDD 1px;border-top:none;padding:7px 10px 7px 10px">
-                <p>
-                    <span style="font-family:宋体;color:#333333">Process Comparison</span>
-                </p>
-            </td>
-            <td valign="top" style="border-top: none; border-left: none; border-bottom: 1px solid rgb(221, 221, 221); border-right: 1px solid rgb(221, 221, 221); padding: 7px 10px; word-break: break-all;">
-                <p>
-                    1.&nbsp;The website user upload an image
-                </p>
-                <p>
-                    2.&nbsp;The web server responds to the upload page
-                </p>
-                <p>
-                    3.&nbsp;The image is uploaded to the web server
-                </p>
-                <p>
-                    4. The web server uploads the image to OSS
-                </p>
-            </td>
-            <td valign="top" style="border-top: none; border-left: none; border-bottom: 1px solid rgb(221, 221, 221); border-right: 1px solid rgb(221, 221, 221); padding: 7px 10px; word-break: break-all;">
-                <p>
-                    1.&nbsp;The website user upload an image
-                </p>
-                <p>
-                    2. The image is uploaded to OSS
-                </p>
-            </td>
-        </tr>
-    </tbody>
-</table>
-
- 
+|Non-Post object|Post object|
+|-|-|
+|1.The website user upload an image<br>2.The web server responds to the upload page<br>3.The image is uploaded to the web server<br>4. The web server uploads the image to OSS|
 
 Benefits of Using Post object
 
@@ -64,7 +15,7 @@ Benefits of Using Post object
 
 Upload Limit
 
-1. Size Limit: When using the Post object, object cannot exceed 5GB.
+1. Size Limit: When using the Post object, Object cannot exceed 5GB.
 
    Form data and boundaries (excluding the file content) must not exceed 20 KB.
 2. Naming Limit
@@ -89,7 +40,7 @@ Basic Steps of Using Form Upload
 
 1. Create a Post Policy.
 
-The Policy form field of the Post request is used to verify the validity of the request. For example, you can specify the prefix of the upload Object, specify the upload size, the URL that the client needs to jump to after the upload is successful, and the status code received by the client after the upload is successful. Policy is a character string in json format. For example, the following policy, the expiration time that a website user can upload is 2018-12-01T12:00:00.000Z, and the prefix of the file that can be uploaded must match "user/yuyu/", the name of the target bucket to be uploaded must be ” myBucketName”.
+The Policy form field of the Post request is used to verify the validity of the request. For example, you can specify the prefix of the upload Object, specify the upload size, the URL that the client needs to jump to after the upload is successful, and the status code received by the client after the upload is successful. Policy is a character string in json format. For example, the following policy, the expiration time that a website user can upload is 2018-12-01T12:00:00.000Z, and the prefix of the file that can be uploaded must match "user/yuyu/", the name of the target bucket to be uploaded must be "myBucketName”.
 ```
  { "expiration": "2018-12-01T12:00:00.000Z",
   "conditions": [
@@ -110,12 +61,9 @@ The Policy form field of the Post request is used to verify the validity of the 
 
 Function Usage Reference
 
-API：[PostObject](../../API-Reference-S3-Compatible/Compatibility-API/Post-Object.md)
+API：[PostObject](../../API-Reference-S3-Compatible/Compatibility-API/Post-Object-2.md)
 
 Sample Demo
 
 For the demo about direct posting object to OSS, please refer to  [PostObject-S3-SDK-Demo](https://downloads.s3.cn-north-1.jcloudcs.com/Demo/postObject_S3_SDK_JAVA_Demo.zip)
-
-
-
 

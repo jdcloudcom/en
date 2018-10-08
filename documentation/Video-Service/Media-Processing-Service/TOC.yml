@@ -7,13 +7,13 @@ items:
         href: Introduction/Product-Overview.md
       - name: Features
         href: Introduction/Features.md
-  - name: Getting-Started
+  - name: Getting Started
     items:
       - name: Restrictions
         href: Getting-Started/Restrictions.md
       - name: Sign up Service
         href: Getting-Started/Sign-Up-Service.md
-      - name: Create Viedo Transcoding
+      - name: Create Video Transcoding
         href: Getting-Started/Create-Video-Transcoding-1.md
       - name: Create Video Snapshot Workflow
         href: Getting-Started/Create-Video-Snapshot.md
@@ -23,7 +23,7 @@ items:
         items:
           - name: Transcoding Rules
             href: Operation-Guide/Video-Transcoding/Transcoding-Rules.md
-          - name: Create Viedo Transcoding
+           - name: Create Video Transcoding
             href: Operation-Guide/Video-Transcoding/Create-Video-Transcoding-2.md
       - name: Video Snapshot
         href: Operation-Guide/Video-Snapshot.md

@@ -1,6 +1,6 @@
 # OSS API introduction
 
-JD Cloud Object Storage Service (OSS) is a bulk, safe, low-cost, and highly reliable cloud storage service provided externally by JD Cloud. User may upload and download data through the simple RESTful interface provided by this document, at any time, at any place and on any Internet device. Based on OSS, user may build various websites, network disk, personal and enterprise data backup, and other large-scale data based services.
+Object Storage Service (OSS) is a bulk, safe, low-cost, and highly reliable cloud storage service provided externally by JD Cloud. User may upload and download data through the simple RESTful interface provided by this document, at any time, at any place and on any Internet device. Based on OSS, user may build various websites, network disk, personal and enterprise data backup, and other large-scale data based services.
 
 This document specifies the request syntax, response example, and response example of interfaces, as well as precautions when using interfaces, etc., to help you carry out secondary development quickly and be integrated with third party technologies.
 
@@ -26,7 +26,7 @@ The naming specifications of buckets are as follows:
 
 3. The name must start and end with a lowercase letter or number without containing continuous line-throughs.
 
-**Object/file (Object)**
+**Object/File (Object)**
 
 Object is the basic unit of OSS storage data, also called as OSS file. Object consists of user data (Data) and file name (Key). Object is identified with the unique Key in the bucket. Object element information is a key-value pair, representing some attributes of the object, such as last modification time, size and other information.
 

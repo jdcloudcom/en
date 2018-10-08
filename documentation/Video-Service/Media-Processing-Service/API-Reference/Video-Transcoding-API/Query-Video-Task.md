@@ -2,7 +2,7 @@
 
 Description: search video task through task id
 
-Request grammar:
+Request Grammar:
 ```
 GET getVideoTask&taskId= taskId
 Host: oss.cn-north-1.jcloudcs.com

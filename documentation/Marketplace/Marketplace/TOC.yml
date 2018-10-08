@@ -4,7 +4,7 @@ items:
     items:
       - name: Move-in of Service Provider
         items:
-        - name: Introduction to Marketplace
+        - name: Marketplace Introduction
           herf: ISV/ISV-Enter/MarketPlace-Introduction.md
         - name: Introduction to Move-in Conditions and Categories
           herf: ISV/ISV-Enter/Enter-condition.md
@@ -56,15 +56,15 @@ items:
         herf: Service-Related/PLUS-Enterprise-Email-Document.md
       - name: Help Documentation of JD Cloud PLUS Meeting
         herf: Service-Related/PLUS-Meeting-Document.md
-      - name: Help Documentation of JD Cloud PLUS Intelligent SMS
+      - name: Help Documentation of JD Cloud PLUS Smart SMS
         herf: Service-Related/PLUS-Smart-SMS-Document.md 
       - name: Guide for Service Provider Adding Dongdong
         herf: Service-Related/IM-Operation-Manual.md
       - name: SMS Service
         items:
-        - name: JD Cloud SMS Advantages
+        - name: JD Cloud SMS Benefits
           herf: Messaging-Service/Message-Advantage.md
-        - name: SMS Service FAQ
+        - name: SMS ServiceFAQ
           herf: Messaging-Service/Message-FAQ.md
         - name: Sending Process
           herf: Messaging-Service/Message-Send.md

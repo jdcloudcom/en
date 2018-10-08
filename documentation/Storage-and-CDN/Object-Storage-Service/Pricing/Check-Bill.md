@@ -1,6 +1,6 @@
 # View bill
 
-You can view detailed usage billing information of object storage service in the user center by login  console. The specific operation steps are shown as below:
+You can view detailed usage billing information of Object Storage Service in the user center by login console. The specific operation steps are shown as below:
 
 1.Login  console, click **Cost**->**Purchases Record**:
 

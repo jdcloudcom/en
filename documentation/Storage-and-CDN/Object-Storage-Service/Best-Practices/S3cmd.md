@@ -24,11 +24,9 @@ The python is successfully installed when the above indications are given. If th
 ## Installation and Usage
 
 **Download S3cmd**
-
 ```
 git clone https://github.com/s3tools/s3cmd.git
 ```
-
 **Source Code Modification**
 
 Use V4 signature rather than V2 signature, and log in the catalog below after downloading from https://github.com/s3tools/s3cmd.git.
@@ -217,7 +215,7 @@ Commands：
     <td>Synchronize a directory tree to S3 (checks files freshness using size and md5 checksum, unless overridden by options, see below)<br>s3cmd sync LOCAL_DIR s3://BUCKET[/PREFIX] or s3://BUCKET[/PREFIX] LOCAL_DIR<br>Note: The automatic synchronization will not be made and please input this command to synchronize a catalog.</td>
 </tr>
 <tr>
-    <td>Sign an S3 URL to provide limited public access with expiry s3cmd signurl<br>s3://BUCKET/OBJECT <expiry_epoch|+expiry_offset></td>
+    <td>Sign an S3 URL to provide limited public access with expiry <br>s3cmd signurl s3://BUCKET/OBJECT &lt expiry_epoch|+expiry_offset &gt </td>
 </tr>
 </table>
 

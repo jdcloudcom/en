@@ -5,7 +5,7 @@ If your callback server is maliciously attacked by others, as the malicious call
 
 Among the OSS callback notification and video callback, the notification message is sent to your callback server via the NS service. NS supports signature verification via the method below:
 
-### Checking callback signature
+### Check Callback Signature
 The user can obtain the signature certificate by pushing x-jdcloud-signing-cert-url in request Header, check if such request is sent by the NS system with corresponding method and protect the user against negative effects by malicious requests.verification
 
 Among the request headers pushed by NS, the value of Authorization field is used for producing signature by MNS with the SHA1-RSA signature algorithm according to the character string to be signed. Endpoint can verify the signature by using the public key and the specific verification method is as follows:

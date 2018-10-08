@@ -2,7 +2,7 @@
 
 Description: search video list through conditions
 
-Request grammar:
+Request Grammar:
 ```
 GET searchVideoList&videoTaskQuery=videoTaskQuery HTTP/1.1
 Host: oss.cn-north-1.jcloudcs.com

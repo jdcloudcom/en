@@ -2,7 +2,7 @@
 
 Add watermark of image format on the picture file.
 
-Use method: each wmi triggers actions of adding watermark and then set each parameter value with parameters begun with w in the following list; if the first one is not a control character of parameters in the list or there is no subsequent parameters, actual actions of adding watermark will be triggered; optional parameters not set will use a default value and each parameter will be initialized as the default value after watermarking.
+Use Method: each wmi triggers actions of adding watermark and then set each parameter value with parameters begun with w in the following list; if the first one is not a control character of parameters in the list or there is no subsequent parameters, actual actions of adding watermark will be triggered; optional parameters not set will use a default value and each parameter will be initialized as the default value after watermarking.
 
 |Actions mode|Instruction meaning|Parameter format|Parameter description|Result description|
 |-|-|-|-|-|
@@ -14,7 +14,7 @@ Use method: each wmi triggers actions of adding watermark and then set each para
 |Watermark image transparency|Watermark<br>dissolve|wd/n|Optional parameters<br>N watermark image transparency<br>value range[0, 100], default 100|0 is fully transparent watermark, meaning no watermark|
 |Watermark image zooming scale|Watermark<br>scale|ws/n|Optional parameters<br>N area ration of watermark image to original image<br>value range[0, 1000], default 30|Area ration of watermark image to original image (0.X%)|
 
-Sample:
+Example:
 
 Add logo.png as an image watermark file to example.png and set the zooming scale of watermark image as 100:
 

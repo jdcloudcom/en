@@ -39,7 +39,7 @@ See the price in the table below, and the specific price is subject to the conso
 |16-core 64GB|1600|7168|16.32|
 |16-core 64GB|2000|7488|17.04|
 
-## Read-only MySQL Instance
+## Read-only JCS for MySQL Instance
 |Instance Type|Storage Space (GB)|Pay by Configuration (RMB/Hour)|
 |---|---|---|
 |1-core 1GB|20|0.13|
@@ -115,7 +115,7 @@ See the price in the table below, and the specific price is subject to the conso
 |16-core 64GB|1600|6592|15.04|
 |16-core 64GB|2000|6912|15.76|
 
-## Read-only Percona Instance 
+## Read-only JCS for Percona Instance 
 |Instance Type|Storage Space (GB)|Pay by Configuration (RMB/Hour)|
 |---|---|---|
 |1-core 1GB|20|0.11|
@@ -191,7 +191,7 @@ See the price in the table below, and the specific price is subject to the conso
 |16-core 64GB|1600|7168|16.32|
 |16-core 64GB|2000|7488|17.04|
 
-## Read-only MariaDB Instance 
+## Read-only JCS for MariaDB Instance
 |Instance Type|Storage Space (GB)|Pay by Configuration (RMB/Hour)|
 |---|---|---|
 |1-core 1GB|20|0.13|

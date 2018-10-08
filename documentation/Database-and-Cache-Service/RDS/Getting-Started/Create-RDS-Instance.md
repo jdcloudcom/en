@@ -7,7 +7,7 @@ RDS instance can be purchased through the console.
 
 ## 1. Operation Entrance
 - Enter [List Page of RDS Instances](https://rds-console.jdcloud.com/database) to see the summary information of RDS instance in the current region, including billing information and expiration time.
-- Click the [Create] to create a new instance.
+- Click***Create*** to create a new instance.
 
 ![Instance List](../../image/RDS/Instance-List.png)
    
@@ -16,18 +16,18 @@ Select or enter the relevant configuration information of the instance. The para
 - Billing Method: "Monthly Package" or "Pay By Configuration" are available. Please refer to [Billing Rules](../../Billing-Rules.md) for the billing method selection.
 - Region: Select the region where the instance is located. **The intranets of resources in different regions are not interconnected and cannot be changed after creation**. Please refer to the region and availability zone for details of regions.
 It is recommended to choose the region closest to the regions of users to reduce access delay and increase download speed.
-- Database Type: Currently, it supports four database types, namely, MySQL, SQL Server, Percona and MariaDB, and different regions support different database types, which shall be subject to the console.
+- Database Type: Currently, it supports four database types, namely, JCS for MySQL, SQL Server, Percona and MariaDB, and different regions support different database types, which shall be subject to the console.
 - Version: It refers to the version of the database type. Different versions are supported in different regions, which shall be subject to the console.
 - Type: CPU and memory of the instance in different types corresponding to relevant max. connections and max. IOPS. Please refer to the price overview for a detailed description of the types.
 - Storage Space: The space includes data space, system file space, and log file space.
 
 ![Create Instance 1](../../image/RDS/Create-Instance-1.png)
 
-- Virtual Private Cloud: Instances can only be created in the Virtual Private Cloud. If not having a Virtual Private Cloud and subnet, users can create a Virtual Private Cloud and subnet through the link of [New Virtual Private Cloud] and [Create New Subnet]. After the creation is complete, click [Refresh] to see the newly created Virtual Private Cloud and subnet.
+- Virtual Private Cloud: Instances can only be created in the Virtual Private Cloud. If not having a Virtual Private Cloud and subnet, users can create a Virtual Private Cloud and subnet through the link of ***New Virtual Private Cloud*** and ***Create New Subnet***. After the creation is complete, click ***Refresh*** to see the newly created Virtual Private Cloud and subnet.
    - Please make sure that database instance and VM that needs to connect to the database instance are in the same Virtual Private Cloud when choosing Virtual Private Cloud.
    - Instance can be created in a selected subnet which retains a vast number of remaining IPs to allow creation of instances due to management demand.
-      - MySQL, Percona, MariaDB: More than 4 remaining IPs are required.
-      - SQL Server: More than 10 remaining IPs are required.
+      - JCS for MySQL,  JCS for Percona and JCS for MariaDB: More than 4 remaining IPs are required.
+      - JCS for SQL Server: More than 10 remaining IPs are required.
       
 ![Connection Instance 2](../../image/RDS/Create-Instance-2.png)
  
@@ -47,18 +47,18 @@ It is recommended to choose the region closest to the regions of users to reduce
 ![Create Instance 8](../../image/RDS/Create-Instance-4.png)
 
 ## 3. Purchase Confirmation
-After the information is input, the price information will be displayed at the right side of the page and click [Buy Now].
+After the information is input, the price information will be displayed at the right side of the page and click ***Buy Now***.
 
 ![Connection Instance 5](../../image/RDS/Create-Instance-5.png)
 
 ## 4. Payment Order
-Then enter the order confirmation page, and click [Pay Now] after confirming the purchase information is correct.
+Then enter the order confirmation page, and click ***Pay Now*** after confirming the purchase information is correct.
 
 ![Connection Instance 6](../../image/RDS/Create-Instance-6.png)
 
 ## 5. Instance Pending
 - The page will return to the instance list page automatically after successful payment, and users can see the instance status as "pending".
-- Then enter the order confirmation page, and click [Pay Now] after confirming the purchase information is correct.
+- Then enter the order confirmation page, and click ***Pay Now*** after confirming the purchase information is correct.
 
 ![Connection Instance 7](../../image/RDS/Create-Instance-7.png)
 

@@ -1,8 +1,8 @@
 # Set Access Mode
-The MySQL/Percona/MariaDB service support both standard mode and high security mode. The default mode is standard mode. Users can choose whether to enable high security mode according to service conditions.
+The JCS for MySQL/Percona/MariaDB service support both standard mode and high security mode. The default mode is standard mode. Users can choose whether to enable high security mode according to service conditions.
 
-* Standard Mode: Short response time, without capabilities of SQL audit and interception.
-* High Security Mode: It has certain SQL interception ability (by analyzing eternal expressions, key system functions, etc. to achieve defense against SQL injection attacks), and can enable SQL audit, but it will increase the response time.
+* Standard Mode: Short response time, without capabilities of JCS for SQL audit and interception.
+* High Security Mode: It has certain JCS for SQL interception ability (by analyzing eternal expressions, key system functions, etc. to achieve defense against JCS for SQL injection attacks), and can enable JCS for SQL audit, but it will increase the response time.
 
 ## Precautions
 * The database service may be flashed when access modes are switched. Please reduce the operation during the low peak or make sure your application has an automatic reconnection mechanism to avoid flashing affecting the services.

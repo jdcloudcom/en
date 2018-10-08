@@ -1,6 +1,6 @@
 # Price Overview
 
-The billing cycle of JD Cloud object storage service is based on day, which settles the bills of the previous day in a fixed time every day and the relevant charge standard within a billing cycle is shown as below:
+The billing cycle of Object Storage Service is based on day, which settles the bills of the previous day in a fixed time every day and the relevant charge standard within a billing cycle is shown as below:
 
 <body link="#0563C1" vlink="#954F72">
 
@@ -20,7 +20,7 @@ The billing cycle of JD Cloud object storage service is based on day, which sett
  <tr height=40 style='mso-height-source:userset;height:30.0pt'>
   <td rowspan=3 height=120 class=xl66 width=96 style='height:90.0pt;border-top:
   none;width:72pt'>Storage Capacity</td>
-  <td rowspan=2 class=xl66 width=160 style='border-top:none;width:120pt'>Actual Storage Space Usage</td>
+  <td rowspan=2 class=xl66 width=160 style='border-top:none;width:120pt'>Actual Bucket Usage</td>
   S<td class=xl66 width=219 style='border-top:none;border-left:none;width:164pt'>RMB0.00427/GB/day</td>
   <td class=xl66 width=198 style='border-top:none;border-left:none;width:149pt'>RMB0.00233/GB/day</td>
  </tr>

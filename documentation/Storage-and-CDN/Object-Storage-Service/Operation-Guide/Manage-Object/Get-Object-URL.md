@@ -1,18 +1,18 @@
 # Get object URL
 
-You have uploaded files to the storage space, and you can share and download the files through obtaining external link address of the uploaded files at any time according to the below action procedures:
+You have uploaded files to the Bucket, and you can share and download the files through obtaining external link address of the uploaded files at any time according to the below action procedures:
 
-1.Enter object storage service console and then space management; click the bucket you need to access in the space list; after that, click Object Management tab:
+1. Enter Object Storage Service console and then space management; click the bucket you need to access in the space list; after that, click **Object Management**:
 
 2.Find the file of which you need to obtain the external link and click **Get URL** button:
 
 ![获取外链](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-047.png)
 
-3.If the current storage space has an access permission of "Public Read and Private Write", the popup for obtaining external link is shown as follows; it can copy the file's external link address to the clipboard by clicking directly the replication button on the right side of the external link text; in addition, the external link address is ready to provide external services without a valid time limit:
+3.If the current Bucket has an access permission of "Public Read and Private Write", the popup for obtaining external link is shown as follows; it can copy the file's external link address to the clipboard by clicking directly the replication button on the right side of the external link text; in addition, the external link address is ready to provide external services without a valid time limit:
 
 ![复制外链](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-048.png)
 
-4.If the current storage space has an access permission of "Private Read/Write", the popup for obtaining external link is shown as follows; the external link address needs to set a valid time; the external link to the file may be obtained by clicking the **Obtain external link** button after inputting the valid time:
+4.If the current Bucket has an access permission of "Private Read/Write", the popup for obtaining external link is shown as follows; the external link address needs to set a valid time; the external link to the file may be obtained by clicking the **Obtain external link** button after inputting the valid time:
 
 ![外链有效期](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-049.png)
 

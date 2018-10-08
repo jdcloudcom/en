@@ -1,6 +1,6 @@
 # Restore Backup Files to the Self-built MySQL Service
 
-You can restore the backup data of the MySQL service to the self-built database.
+You can restore the backup data of the JCS for MySQL service to the self-built database.
 
 ## Precautions
 * The self-built database version shall be consistent with the source database version of backup files.
@@ -16,7 +16,7 @@ You can restore the backup data of the MySQL service to the self-built database.
     # View Help Manual
     ./percona_backup_extract.py -h
      
-     # Unzipping backup data of Percona service instance
+     # Unzipping backup data of the JCS for Percona service instance
      ./percona_backup_extract.py  -v 5.7 -f ./backup.xbstream.gz.enc
     ```
 3. Download backup files.
@@ -61,22 +61,22 @@ You can restore the backup data of the MySQL service to the self-built database.
     #redo_log_version=1
     ```
 
-7. Modify the file owner and confirm that files are owned by the MySQL user.
+7. Modify the file owner and confirm that files are owned by the JCS for MySQL user.
 
     ```
     chown -R mysql:mysql $HOME/tmp_snapshot
     ```
 
-8. Start the MySQL process.
+8. Start the JCS for MySQL process.
 
     ```
     mysqld_safe --defaults-file=$HOME/tmp_snapshot/backup-my.cnf --user=mysql --datadir=$HOME/tmp_snapshot &
     ```
 
-9. Login the MySQL service.
+9. Login the JCS for MySQL service.
 
     ```
     mysql -uroot -p
     ```
 
-* Click "Enter" directly due to the default blank password.
+* Click ***Enter*** directly due to the default blank password.

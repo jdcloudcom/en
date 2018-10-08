@@ -1,5 +1,5 @@
 # Reboot Read-only Instance
-When problems are found in connection or performance of the MySQL/Percona/MariaDB service read-only instance, the read-only instance can be manually rebooted to solve the problem.
+When problems are found in connection or performance of the JCS for MySQL/Percona/MariaDB service read-only instance, the read-only instance can be manually rebooted to solve the problem.
 
 ## Precautions
 * The instance can be rebooted only when the read-only instance is **running**.

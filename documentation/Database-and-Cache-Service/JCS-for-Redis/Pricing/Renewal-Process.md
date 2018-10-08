@@ -2,7 +2,7 @@
 
 ## After the resource purchased by the user pexpires, the renewal process is as follows:
 
-1. **Management** on the left side of JD Cloud Console - **Renew Management** - **Redis** - [Redis Renewal Page](https://renewal-console.jdcloud.com/renew/redis), find the instance;
+1. **Management** on the left side of JD Cloud Console - **Renew Management** - **JCS for Redis** - [JCS for Redis Renewal Page](https://renewal-console.jdcloud.com/renew/redis), find the instance;
 
 2. Click **Renew** on the right side to jump to the renewal interface;
 

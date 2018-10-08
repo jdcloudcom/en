@@ -22,7 +22,7 @@ c. The original image protection supports the old and new interfaces for image p
 
 ## Configuration rules
 
-1. Go to the object storage service console Bucket management page and click on the Bucket to be set the original image protection to enter the settings page.
+1. Go to the Object Storage Service console Bucket management page and click on the Bucket to be set the original image protection to enter the settings page.
 
 2. Enter the image processing page, on which the image style of the current Bucket can be viewed and set.
 

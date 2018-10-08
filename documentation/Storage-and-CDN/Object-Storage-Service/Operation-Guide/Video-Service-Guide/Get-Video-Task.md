@@ -2,7 +2,7 @@
 
 Description: search video list through conditions
 
-Request Grammar：
+Request Grammar:
 ```
 GET searchVideoList&videoTaskQuery=videoTaskQuery HTTP/1.1
 Host: oss.cn-north-1.jcloudcs.com
@@ -19,7 +19,7 @@ Description:
 
 * taskId: task uuid
 
-* status: task status, 1. represents unprocessed; 2.starting process and 3. successfully processed
+* status: task status, 1. represents unprocessed; 2. starting process and 3. successfully processed
 
 * page: displayed page
 
@@ -27,7 +27,7 @@ Description:
 
 * flag: 1 represents valid
 
-RequestSample:
+RequestExample:
 ```
 GET http://oss.cn-north-1.jcloudcs.com/?searchVideoList&videoTaskQuery=%7B%22flag%22%3A0%2C%22mysqlPage%22%3A0%2C%22orderCloumn%22%3A%22update_time%22%2C%22orderType%22%3A%22desc%22%2C%22page%22%3A1%2C%22pageSize%22%3A10%2C%22status%22%3A0%7DHTTP/1.1
 Date: Tue, 15 Dec 2015 12:59:11 GMT

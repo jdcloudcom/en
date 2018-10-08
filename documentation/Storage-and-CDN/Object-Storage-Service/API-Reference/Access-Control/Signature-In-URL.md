@@ -2,9 +2,9 @@
 
 Except for using Authorization Head, the user also can add signature information in URL, then the user can forward such URL to the third party to implement authorized access.
 
-Implementation method:
+Implementation Method:
 
-URL signature example:
+URL Signature Example:
 
 ```
 http://s.jcloud.com/mybucket/public/index.html?Expires=1369191796&AccessKey=9c379f079214447fad2959c4621cd6feVb797oH1&Sigature=tzEQUA%2Bj%2BUHcEp%2FBUMKeMd5bqGc%3D
@@ -78,7 +78,7 @@ The final URL shall be:
 http://mybucket.s.jcloud.com/index.html?Expires=1369191796&AccessKey=9c379f079214447fad2959c4621cd6feVb797oH1&Signature=mBb1uuC3y2GeyeqlW5+gN/tla6s=Host: s.jcloud.com
 ```
 
-Detailed analysis:
+Detailed Analysis:
 
 1.When using a signature method in URL, it will expose your authorized data to the Internet within the expiration time, please evaluate use risks in advance.
 

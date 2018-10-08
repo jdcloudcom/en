@@ -1,6 +1,6 @@
-# Quickly use image service
+# Quickly Use Image Service
 
-You can use object storage service console picture processing style to quickly use the OSS picture service.
+You can use Object Storage Service console picture processing style to quickly use the OSS picture service.
 
 ## Create Image Style
 
@@ -43,7 +43,7 @@ Rules Description:
 
    * If rotation at customized angle is selected, you need to enter the rotation angle; the image will be clockwise rotated
 
-5. After editing the image style, click OK to save the style.
+5. After editing the image style, click **OK** to save the style.
 
  
 
@@ -51,13 +51,13 @@ Rules Description:
 
 1. Enter OSS console and click bucket to enter the bucket overview page.
 
-2. Click Image Processing to view the saved style.
+2. Click **Image Processing** to view the saved style.
 
 3. The image style named Stylename can be accessed through the following URL:
 
 http://oss.cn-south-1.jcloudcs.com/bucket/object?x-oss-process=imgalias/Stylename
 
-Sample:
+Example:
 
 Use the style with the image processing style name of img-style-example to process the example.jpg image file
 

@@ -31,7 +31,7 @@ Log in to the backend of the service provider to release the software service: S
 
 2.9 Search engine optimization: Please fill in according to the actual situation.
 
-2.10 Hide or not? Yes 【No, the list of service platforms is displayed normally, visible to all users【 (If you do not want to be retrieved, select "Yes") check agree and sign the JD Cloud Marketplace Move-in and Service Agreement, please click on "Release Service".
+2.10 Hide or not? Yes **No, the list of service platforms is displayed normally, visible to all users** (If you do not want to be retrieved, select "Yes") check agree and sign the JD Cloud Marketplace Move-in and Service Agreement, please click on "Release Service".
 
 
 

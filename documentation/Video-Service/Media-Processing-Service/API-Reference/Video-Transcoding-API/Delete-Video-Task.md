@@ -2,7 +2,7 @@
 
 Description: Delete Task through Video Task id
 
-Request grammar:
+Request Grammar:
 ```
 DELETE deleteVideoTask&taskId= taskId
 Host: oss.cn-north-1.jcloudcs.com

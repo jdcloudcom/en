@@ -6,7 +6,7 @@ Article 1 **Purpose and Basis** In order to maintain the management order of the
 
 Article 2 **Scope of Application** The Code applies to all Service Provider who use the Marketplace.
 
-Article **Level of Effectiveness** The Code is a lower rule of the Agreement for the Move-in of JD Cloud Marketplace Service Provider. If the Agreement for the Move-in of JD Cloud Marketplace Service Provider, it shall follow the provisions. If there are no provisions in the Agreement or special provisions in this Code, it shall be implemented in accordance with this Code.
+Article 3 **Level of Effectiveness** The Code is a lower rule of the Agreement for the Move-in of JD Cloud Marketplace Service Provider. If the Agreement for the Move-in of JD Cloud Marketplace Service Provider, it shall follow the provisions. If there are no provisions in the Agreement or special provisions in this Code, it shall be implemented in accordance with this Code.
 
  
 
@@ -236,7 +236,7 @@ Article 18 **Code of Conduct** During the course of providing services on the pl
 
 (4) The service provider shall not arbitrarily modify the Security Configuration of the cloud product;
 
-(5) During the course of the service, there shall be no acts that endanger the security of the system, such as upgrade the authority of the account, and install backdoors, etc.;
+(5) During the course of the service, there shall be no acts that endanger the security of the system, such as upgrade the authority of the account, and install backdoors;
 
 (6) During the course of the service, the service provider shall not conceal or maliciously use any fault of the system, and shall inform the user in a timely manner;
 
@@ -268,7 +268,7 @@ Article 18 **Code of Conduct** During the course of providing services on the pl
 
 1. Pretend to be the customer and make a call to withdraw the complaint;
 
-2. Make up facts, conceal the truth, hinder the normal investigation of JD Cloud after the customer has complained;
+2. Make up facts, conceal the truth, and hinder the normal investigation of JD Cloud after the customer has complained;
 
 3. Including but not limited to the behavior listed above.
 

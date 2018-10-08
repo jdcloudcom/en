@@ -1,5 +1,5 @@
 # Connection Instance
-You can connect the instance through the JD Cloud DMS function and the local client can access the remote connection instance of the domain name through the internet if you purchased the instance of MySQL/Percona services. However, please provide right access control when the remote connection instance of the domain name is accessed via the internet, to ensure the database security.
+You can connect the instance through the JD Cloud DMS function and the local client can access the remote connection instance of the domain name through the internet if you purchased the instance of JCS for MySQL/Percona services. However, please provide right access control when the remote connection instance of the domain name is accessed via the internet, to ensure the database security.
 
 ## Connection Instances via DMS Function of Console
 1. Login [RDS Console](https://rds-console.jdcloud.com/database).
@@ -20,14 +20,14 @@ Users can access the database by entering the command line after the RDS client 
 5. Password: Password of the username.
 
 ## Connection Instances via Local Database Management Software
-If the local database management software is required to connect to the MySQL/Percona/MariaDB service, the MySQL/Percona/MariaDB service does not support internet access in default. See the specific operation of manual open in [Open Internet Access](../../Operation-Guide/Instance/Internet-Access.md).
-There are ways to access MySQL/Percona/MariaDB services, taking Sequel Pro software as an example.
+If the local database management software is required to connect to the JCS for  MySQL/Percona/MariaDB service, the MySQL/Percona/MariaDB service does not support internet access in default. See the specific operation of manual open in [Open Internet Access](../../Operation-Guide/Instance/Internet-Access.md).
+There are ways to access JCS for MySQL/Percona/MariaDB services, taking Sequel Pro software as an example.
 
 ### Operation Steps
 1. Open the local database management software, and the specific parameters are as follows:
-    * Host: Enter the full access domain name of MySQL/Percona/MariaDB services.
-    * Username: Enter the account number of MySQL/Percona/MariaDB service.
-    * Password: Enter the password for the account of MySQL/Percona/MariaDB service.
+    * Host: Enter the full access domain name of JCS for MySQL/Percona/MariaDB services.
+    * Username: Enter the account number of JCS for MySQL/Percona/MariaDB service.
+    * Password: Enter the password for the account of JCS for MySQL/Percona/MariaDB service.
     * Port: Port 3306 in default, changes not required.
 
     ![Screenshot](https://img1.jcloudcs.com/cms/94be7bf2-3a37-4d1d-9add-cb35d27cc7aa20180803100645.jpeg)

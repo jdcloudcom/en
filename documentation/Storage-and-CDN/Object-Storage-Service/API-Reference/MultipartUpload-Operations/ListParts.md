@@ -6,11 +6,10 @@ The action is used to list Parts uploaded in Multipart Upload.
 
 ```
 GET   /ObjectName?uploadId=UploadId HTTP/1.1
-Host: <bucket>.oss.cn-north-1.jcloudcs.com
+Host: BucketName. s.jcloud.com
 Date: GMT   Date     
-Authorization:   signatureValue#Please refer to "Identity and Access Management"
+Authorization: signatureValue#Please refer to "Identity and Access Management"
 ```
-
 **Request Parameter**
 
 |Name|Description|Required|
@@ -21,15 +20,14 @@ Authorization:   signatureValue#Please refer to "Identity and Access Management"
 
 |Name|Description|
 |-|-|
-|Bucket|Bucket Name<br>Type: Character string
-|Key|Object Name<br>Type: Character string
-|UploadId|ID of Upload event<br>Type: Character string|
+|Bucket|Bucket Name<br>Type: Character String
+|Key|Object Name<br>Type: Character String
+|UploadId|ID of Upload event<br>Type: Character String|
 |StorageClass|Object storage type, the default value is "STANDARD" (standard storage)。 <br>Support "STANDARD" (standard storage) and "REDUCED_REDUNDANCY" (low frequency access type) storage types
-Note: Currently "REDUCED_REDUNDANCY" (low frequency access type) is only supported by the machine room in North China<br>Type: Character string<br>Default Value: "STANDARD" (standard storage)|
 |Part|Save the Set of Part Information. <br>Type: List|
 |PartNumber|Number to indicate Part. <br>Type: Ingeter|
-|LastModified|Part Upload Time. <br>Type: Character string|
-|ETag|ETag of Uploaded Part Content. <br> Type: Character string|
+|LastModified|Part Upload Time. <br>Type: Character String|
+|ETag|ETag of Uploaded Part Content. <br> Type: Character String|
 |Size|Size of Uploaded Part. <br>Type: long|
 
 Detail Analysis:
@@ -44,7 +42,7 @@ Detail Analysis:
 
 ```
 GET   /multipart.data?uploadId=9E417328F6B89F0B HTTP/1.1
-Host: oss-test.oss.cn-north-1.jcloudcs.com
+Host: oss-example.s-bj.jcloud.com
 Date: Tue, 11 Jul 2017   12:40:40 GMT    
 Authorization: jingdong   qbS5QXpLORrvdrmb:Ihjb1BaIk2pNGk11OCqBogLLL4c= 
 ```

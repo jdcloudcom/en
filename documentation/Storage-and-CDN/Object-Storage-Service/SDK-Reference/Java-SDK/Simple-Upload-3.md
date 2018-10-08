@@ -47,7 +47,7 @@ jss.destroy();
 String accessKey =  "<yourAccessKeyId>";  
 String secreteKey = "<yourSecretKey>";       
 // Take cn-north-1 as an example for endpoint, and fill in according to actual situation for other regions  
-String endPoint = "s-bj.jcloud.com";  
+String endPoint = "oss.cn-north-1.jcloudcs.com";  
 File file = new File("<localFile>");   
 String bucketName = "<yourBucketName>";  
 String objectName = "<yourObjectName>";    

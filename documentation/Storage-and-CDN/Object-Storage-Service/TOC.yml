@@ -16,7 +16,7 @@ items:
  - name: Pricing
    items:
       - name: Billing Overview
-        href: Pricing/Pricing.md 
+        href: Pricing/Billing-Overview.md 
       - name: Billing Rules
         href: Pricing/Billing-Rules.md
       - name: Price Overview
@@ -284,4 +284,4 @@ items:
       - name: Set Signature Authentication For Callback Server
         href: Best-Practices/Setting-Signature-Authentication-For-Callback-Server.md        
  - name: FAQ
-   status:0
+   status: 0

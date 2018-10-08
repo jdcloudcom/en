@@ -9,7 +9,7 @@ PUT /ObjectName HTTP/1.1
 Content-Length:ContentLength
 Content-Type: ContentType
 Content-MD5: Content-MD5
-Host: <bucket>.oss.cn-north-1.jcloudcs.com
+Host: BucketName. s.jcloud.com
 x-jss-server-side-encryption:   true or false      
 x-jss-storage-class: STANDARD   or REDUCED_REDUNDANCY
 Date: GMT  Date     
@@ -21,7 +21,7 @@ Authorization:   signatureValue#Please refer to "Identity and Access Management"
 |Name|Description|
 |-|-|
 |Content-MD5|MD5 value of uploaded data used to verify whether the user’s data is modified during transmission<br>Type: Character string<br>Default Value: None|
-|x-jss-server-side-encryption|Encrypt or not at the server when specifying jss to create object<br>Type: boolean<br>Legal value: true,false|
+|x-jss-server-side-encryption|Encrypt or not at the server when specifying jss to create object<br>Type: boolean<br>Legal value: true, false|
 |x-jss-storage-class|Object storage type, the default value is "STANDARD" (standard storage). <br>Support "STANDARD" (standard storage) and "REDUCED_REDUNDANCY" (low frequency access type) storage types<br>Note: Currently "REDUCED_REDUNDANCY" (low frequency access type) is only supported by the machine room in North China<br>Type: Character string<br>Default Value: "STANDARD" (standard storage)|
 |Cache-Control|Specify the redis of webpage when the Object is downloaded; For detailed description, please refer to RFC2616.<br>Type: Character string<br>Default Value: 2592000|
 
@@ -47,7 +47,7 @@ Detail Analysis:
 
 ```
 PUT /example.jpg HTTP/1.1
-Host: oss-test.oss.cn-north-1.jcloudcs.com
+Host: oss-example.s-bj.jcloud.com
 Content-Length: 13
 Content-Type: text/plain
 Content-MD5: 6457646542258052f767868fd686d74d 
@@ -55,7 +55,6 @@ x-jss-server-side-encryption:   false
 Date: Tue, 11 Jul 2017   07:13:32 GMT    
 Authorization: jingdong   qbS5QXpLORrvdrmb:cQ63NndHAoEBmjZHehSuNWG/Jns=
 ```
-
 **Response Example**
 
 ```
@@ -68,17 +67,15 @@ x-jss-request-id:   8E4FC95C05EC1A4C
 ETag:   "6457646542258052f767868fd686d74d"
 X-Trace:   200-1499757212162-0-0-20-50-50
 ```
-
 **Request Example (Content-Type and Content-MD5 are not set):**
 
 ```
 PUT /example.jpg HTTP/1.1
-Host: oss-test.oss.cn-north-1.jcloudcs.com
-x-jss-server-side-encryption: true  
+Host:   oss-example.s-bj.jcloud.com
+x-jss-server-side-encryption:   true  
 Date: Thu, 13 Jul 2017   02:12:02 GMT    
-Authorization: jingdong qbS5QXpLORrvdrmb:S2ZHyLfdZml/bRjD/TEQ+ftJXBA=
+Authorization: jingdong     qbS5QXpLORrvdrmb:S2ZHyLfdZml/bRjD/TEQ+ftJXBA=
 ```
-
 **Response Example (Content-Type and Content-MD5 are not set):**
 
 ```

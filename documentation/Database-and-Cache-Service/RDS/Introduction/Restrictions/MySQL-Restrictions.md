@@ -11,7 +11,7 @@
 |8-core 32GB|8000|
 |16-core 64GB|16000|
 
-## Read-only MySQL Instance
+## Read-only JCS for MySQL Instance
 |Instance Type|Max. Connections|
 |---|---|
 |1-core 1GB|300|
@@ -27,7 +27,7 @@
 * The capacity reduction of the instance currently is not supported.
 
 ### Database Version Upgrade
-* Database version cannot be upgraded currently. For example, MySQL 5.6 is upgraded to MySQL 5.7.
+* Database version cannot be upgraded currently. For example, JCS for MySQL 5.6 is upgraded to JCS for MySQL 5.7.
 
 ### Instance Restore
 * Deleted instances cannot be recovered.

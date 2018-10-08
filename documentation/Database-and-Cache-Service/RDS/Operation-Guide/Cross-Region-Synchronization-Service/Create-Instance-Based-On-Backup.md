@@ -27,7 +27,7 @@ Creating a new instance based on backup data refers to create a new instance by 
     
     ![Screenshot](https://img1.jcloudcs.com/cms/75c646b0-0a12-433a-b9e6-f4cacc4e3a5120180725142347.png)
 
-5. Click [Buy Now] to enter the order confirmation page.
+5. Click ***Buy Now*** to enter the order confirmation page.
 6. Read the RDS Terms of Service and finish subsequent operations as per instructions.
-    * Instance of Monthly Package: Click [Pay Now] immediately, enter the payment confirmation page, there is a variety of payment methods, such as coupons, balances and bank cards.
-    * Instance Paid by Configuration: Click [Instant Account Setup] to start creating an instance and enter the instance list page.
+    * Instance of Monthly Package: Click ***Pay Now***, enter the payment confirmation page, there is a variety of payment methods, such as coupons, balances and bank cards.
+    * Instance Paid by Configuration: Click ***Instant Account Setup*** to start creating an instance and enter the instance list page.

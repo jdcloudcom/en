@@ -3,12 +3,13 @@
 Upload a Part to the specified Multipart Upload.
 
 **Request Syntax**
+
 ```
 PUT   /ObjectName?uploadId=UploadId&partNumber=PartNumber HTTP/1.1
 Date: GMT Date
 Authorization: jingdong   qbS5QXpLORrvdrmb:AdBNNN+uUP+qRcPJn5m4ezrbRwI=
 Content-Length: size
-Host: <bucket>.oss.cn-north-1.jcloudcs.com
+Host: BucketName.s-bj.jcloud.com
 ```
 Detail Analysis:
 
@@ -23,15 +24,18 @@ Detail Analysis:
 5. To guarantee the correctness of data transmission, server will return the actually stored MD5 value of the part after the Part is uploaded successfully, and put it in ETag field of response header for client verification.
 
 **Request Example**
+
 ```
 PUT  /multiSS?uploadId=9B2BF313C3E998E9&partNumber=1 HTTP/1.1
 Date: Wed, 12 Jul 2017   09:22:16 GMT
 Authorization: jingdong   qbS5QXpLORrvdrmb:AdBNNN+uUP+qRcPJn5m4ezrbRwI=
 Content-Length: 3
-Host: oss-test.oss.cn-north-1.jcloudcs.com
+Host: oss-test.s-bj.jcloud.com
 Connection: Keep-Alive
 ```
+
 **Response Example** 
+
 ```
 HTTP/1.1 200 OK
 Server: nginx

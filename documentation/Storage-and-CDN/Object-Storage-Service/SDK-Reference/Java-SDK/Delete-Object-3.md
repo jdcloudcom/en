@@ -2,11 +2,11 @@
 
 Delete an existing Object:
 ```
-//You can log in to the console of JD Cloud Storage with AccessKey and SecretKey to view it in [AccessKey Management].    
+//You can log in to the console of Object Storage Service with AccessKey and SecretKey to view it in [AccessKey Management].    
 String accessKey =  "<yourAccessKeyId>";    
 String secreteKey = "<yourSecretKey>";         
 // Take cn-north-1 as an example for endpoint, and fill in according to actual situation for other regions    
-String endPoint = "s-bj.jcloud.com";    
+String endPoint = "oss.cn-north-1.jcloudcs.com";    
 String bucketName = "<yourBucketName>";    
 String objectName = "<yourObjectName>";        
 //The configuration of ClientConfig is currently by default. If the user needs some other configurations, he/she may configure them by himself/herself, such as setting the time of connection time-out.    

@@ -15,7 +15,7 @@ Fill in the pin of the customer service that you want to add in the customer ser
 
 Dongdong workbench download link: http://im.jd.com/download/pcDownload.action
 
-4 Additional customer service process
+4 Additional Customer Service Process
 
 The service provider logs in to the kf system: service provider management - customer service general layout, click to add customer service
 

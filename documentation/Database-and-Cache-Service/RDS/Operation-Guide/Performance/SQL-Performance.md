@@ -1,5 +1,5 @@
-# SQL Performance Statistics
-The analysis on SQL performance statistics for the SQL execution in the database covers the statistics of various maintenance, such as slow SQL and huge SQL of the return result set. Meanwhile, users can also define statistical standards based on the actual situation of their own services and systems to meet the needs of various applications and scenarios.
+# JCS for SQL Performance Statistics
+The analysis on JCS for SQL performance statistics on the JCS for SQL execution in the database covers the statistics of various maintenance, such as slow SQL and huge SQL of the return result set. Meanwhile, users can also define statistical standards based on the actual situation of their own services and systems to meet the needs of various applications and scenarios.
 
 **Note: Since performance statistics are only kept in memory, the system only retains relevant performance information since the last reboot. It is recommended to download historical data from the console or via OpenAPI on a regular basis if needed.**
 
@@ -17,5 +17,5 @@ Users can customize the scope of the statistics in each statistical dimension (t
 ## 4. Export Statistics
 The statistical results can be exported in excel format, convenient for saving or sending to relevant personnel for analysis and optimization.
 
-![SQL Performance 3](../../../image/RDS/SQL-Performance-3.png)
+![JCS for SQL Performance 3](../../../image/RDS/SQL-Performance-3.png)
 

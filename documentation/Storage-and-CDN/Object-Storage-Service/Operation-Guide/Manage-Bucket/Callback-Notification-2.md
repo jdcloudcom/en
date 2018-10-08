@@ -1,4 +1,4 @@
-# Callback notification
+# Callback Notification
 
 OSS supports the callback notification function. You can make the callback notification in time while specifying relevant operation of some resources. The OSS event notification is carried out asynchronously, causing no influence to the OSS operation. The callback notification is often seen in the following application scenarios, for example:
 
@@ -14,8 +14,7 @@ OSS callback notification comprises the two parts, including the **configuration
 
 - Message notification: When the event notification is triggered in the Bucket, the notification content in specified format will be sent to the callback URL. The notification method is HTTP(S).
 
-Callback notification process:
-
+Callback Notification Process:
 1. Specify a Bucket to set the message notification rules.
 
 2. When the message notification rule is triggered by the event, the message notification will be sent to the callback URL.
@@ -30,7 +29,7 @@ Callback notification process:
 
 You can specify a Bucket to enable the callback notification. Once being enabled, OSS will send the message notification as per rules of NotificationConfiguration.
 
-### Configuration method
+### Configuration Method
 You can specify a Bucket to create or change the NotificationConfiguration via PUT Bucket notification. NotificationConfiguration is in the XML format:
 
 ```
@@ -70,7 +69,7 @@ Note:
 * Value: Specifying the prefix or suffix of object key name to be selected
 
 ### Support event type
-Event type|Description
+Event Type|Description
 ---|---
 s3:ObjectCreated:* |Create Object behavior, including Put Object, Post Object, Copy Object and Complete Multipart Upload
 s3:ObjectCreated:Put |Use Put Object to upload files
@@ -80,7 +79,7 @@ s3:ObjectCreated:CompleteMultipartUpload |Complete multipart upload
 s3:ObjectRemoved:* |Delete Object behaviors, including Delete Object
 s3:ObjectRemoved:Delete |Delete file
 
-### Customized Parameter
+### Customized Parameters
 
 OSS supports carrying customized parameters in the request URL. You can bring `x-oss-callback-var=[CallBackVar]` as a url parameter to the request and send it.
 

@@ -1,4 +1,4 @@
-# SMS sending procedure 
+# SMS Sending Procedure 
 I. Register Marketplace Account
 Register/ log in:
 

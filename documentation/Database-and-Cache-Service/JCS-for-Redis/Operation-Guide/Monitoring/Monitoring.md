@@ -2,7 +2,7 @@
 
 Currently, there are six types of monitoring: Memory Usage, Memory Utilization Rate, Intranet Inbound and Outbound Traffic, QPS, Hit Ratio, and the Number of Instance Keys:
 
-1. Log in to the [Redis Console](https://redis-console.jdcloud.com/redis) to locate the target instance.
+1. Log in to the [JCS for Redis Console](https://redis-console.jdcloud.com/redis) to locate the target instance.
 
 2. Click **Instance Name** to go to the details of the instance page.
 
@@ -25,7 +25,7 @@ Currently, there are six types of monitoring: Memory Usage, Memory Utilization R
 
 - Hit Ratio (%): The probability of requesting a hit cache;
 
-- Number of instance keys (piece): The current number of cloud cache instance keys.
+- Number of instance keys (piece): The current number of JCS for Redis instance keys.
 
 ## Monitoring Diagram
 
@@ -33,4 +33,4 @@ Currently, a line chart is displayed. The minimum period of sampling data is 1 m
 
 If you want to view more detailed monitoring indicator data, please visit the Monitoring menu.
 
-![监控图](https://github.com/jdcloudcom/cn/tree/edit/image/Redis/monitoring.png)
+![Monitoring](https://github.com/jdcloudcom/cn/tree/edit/image/Redis/monitoring.png)

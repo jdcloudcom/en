@@ -10,7 +10,7 @@ Date: date
 Authorization: signatureValue#Please refer to Security Verification
 ```
 
-RequestSample:
+RequestExample:
 ```
 GET getVideoTask&taskId=11311576e2ee46d3b11dd4672d8e13c4 HTTP/1.1
 Date: Tue, 15 Dec 2015 12:43:24 GMT

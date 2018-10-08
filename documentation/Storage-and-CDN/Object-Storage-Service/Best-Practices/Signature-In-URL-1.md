@@ -1,8 +1,8 @@
-# Generate presigned URL
+# Generate Presigned URL
 
-## Implementation method
+## Implementation Method
 
-1.Configuration dependency
+1. Configuration Dependency
 
 The dependent sdk configured in pom.xml is as follows:
 ```
@@ -13,7 +13,7 @@ The dependent sdk configured in pom.xml is as follows:
 </dependency>
 ```
 
-2.Example Code
+2. Example Code
 
 The following is an example presigned URL.
 ```

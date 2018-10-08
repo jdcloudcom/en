@@ -1,6 +1,6 @@
 # Website Building Help Documentation
 How to contact marketplace service provider?
-1. You can go to the Marketplace home page, search for the service provider’s "company name, product name" in the search box at the top of the marketplace website. in the search results, you can see the contact number, Dongdong, email of the service provider on the details page.
+1. You can go to the Marketplace home page, search for the service provider’s "company name, product name" in the search box at the top of the marketplace website. In the search results, you can see the contact number, Dongdong, email of the service provider on the details page.
 
 2. If you have successfully purchased a business, you may inquire the service purchased in "my service". Click "service name" to enter the details page to view the contact information of the corresponding service provider. It is recommended that you contact the service provider in time through Dongdong or calling the shop at 400 during working hours. And you may send an email to corresponding e-mail address during non-working hours. The service provider's working hours online time are generally 5 × 8 hours (9:00 - 18:00).
 

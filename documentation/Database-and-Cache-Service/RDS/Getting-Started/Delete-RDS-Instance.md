@@ -13,4 +13,5 @@ You can manually delete instance which is paid by configuration, according to wo
 3. Popup box for deletion confirmation is shown in the figure.
     * Click ***OK*** to delete the instance.
     * Click ***Cancel*** to cancel the instance deletion.
+    
     ![Screenshot](https://img1.jcloudcs.com/cms/7075a6a6-3752-4827-b492-8bb9623940e720180315164324.png)

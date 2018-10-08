@@ -1,6 +1,6 @@
 # Core Concepts
 The following are the terminologies and their definitions of Message Queue.
-## Message Related Terminologies 
+## 1. Message Related Terminologies 
 | Term | Definition |
 | :- | :- | :- |
 | Message | The carrier of data transmission in Message Queue. |
@@ -26,6 +26,7 @@ The following are the terminologies and their definitions of Message Queue.
 | Subscriber | The role of subscribing messages in the topic. |
 | Producer | The role of sending messages in the topic. |
 | Consumer Group | The role of consuming messages to subscribe in the topic. |
+| Consumer | The role of consuming messages to subscribe in the topic. |
 | Subscribe | Need to build subscription relationship when receiving messages in the topic. |
 
 

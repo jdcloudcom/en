@@ -1,5 +1,5 @@
 # I. Functional Limits
-In order to ensure the stability and security of instances, SQL Server has some functional limits as follows:
+In order to ensure the stability and security of instances, JCS for SQL Server has some functional limits as follows:
 
 1. Databases cannot be created or deleted through commands and accounts cannot be created, deleted or modified. Users can perform the related operations through the console if necessary.
 
@@ -12,7 +12,7 @@ In order to ensure the stability and security of instances, SQL Server has some 
 
 # II. Sub-account Limits
 
-1. SQL Server Service supports sub-accounts in most functions, and the authority of sub-accounts can be controlled by clicking [Management] --> [Identity and Access Management].
+1. JCS for SQL Server Service supports sub-accounts in most functions, and the authority of sub-accounts can be controlled by [Management] --> [Identity and Access Management].
 
 2. However, some functions do not support sub-accounts, for example:
 - SQL Server instance cannot be created.

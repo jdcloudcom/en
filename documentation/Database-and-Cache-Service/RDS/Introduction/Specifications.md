@@ -1,6 +1,6 @@
 # Specifications
 ## MySQL
-|Instance Type|Max. Connections|Max. IOPS|Storage Space(GB)|
+|Instance Type|Max. Connections|Max. IOPS| Storage Space(GB)|
 |---|---|---|---|
 |1-core 1GB|300|600|20|
 |1-core 1GB|300|600|40|
@@ -37,8 +37,8 @@
 |16-core 64GB|16000|14000|1600|
 |16-core 64GB|16000|14000|2000|
 
-## Read-only MySQL Instance
-|Instance Type|Max. Connections|Max. IOPS|Storage Space(GB)|
+## Read-only JCS for MySQL Instance
+|Instance Type|Max. Connections|Max. IOPS| Storage Space(GB)|
 |---|---|---|---|
 |1-core 1GB|300|600|20|
 |1-core 1GB|300|600|40|
@@ -76,7 +76,7 @@
 |16-core 64GB|16000|14000|2000|
 
 ## Percona
-|Instance Type|Max. Connections|Max. IOPS|Storage Space(GB)|
+|Instance Type|Max. Connections|Max. IOPS| Storage Space(GB)|
 |---|---|---|---|
 |1-core 1GB|300|600|20|
 |1-core 1GB|300|600|40|
@@ -113,8 +113,8 @@
 |16-core 64GB|16000|14000|1600|
 |16-core 64GB|16000|14000|2000|
 
-## Read-only Percona Instance
-|Instance Type|Max. Connections|Max. IOPS|Storage Space(GB)|
+## Read-only JCS for Percona Instance
+|Instance Type|Max. Connections|Max. IOPS| Storage Space(GB)|
 |---|---|---|---|
 |1-core 1GB|300|600|20|
 |1-core 1GB|300|600|40|
@@ -152,7 +152,7 @@
 |16-core 64GB|16000|14000|2000|
 
 ## MariaDB 
-|Instance Type|Max. Connections|Max. IOPS|Storage Space(GB)|
+|Instance Type|Max. Connections|Max. IOPS| Storage Space(GB)|
 |---|---|---|---|
 |1-core 1GB|300|600|20|
 |1-core 1GB|300|600|40|
@@ -189,8 +189,8 @@
 |16-core 64GB|16000|14000|1600|
 |16-core 64GB|16000|14000|2000|
 
-## Read-only MariaDB Instance
-|Instance Type|Max. Connections|Max. IOPS|Storage Space(GB)|
+## Read-only JCS for MariaDB Instance
+|Instance Type|Max. Connections|Max. IOPS| Storage Space(GB)|
 |---|---|---|---|
 |1-core 1GB|300|600|20|
 |1-core 1GB|300|600|40|

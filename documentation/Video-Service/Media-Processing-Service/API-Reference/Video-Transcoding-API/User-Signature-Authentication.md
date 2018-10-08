@@ -19,7 +19,7 @@ Notes:
 
 1. When Content-Type and Content-MD5 is absent, it shall be replaced by null character.
 
-2. You can login the console of JD Cloud with AccessKey and AccessKeySecret to view it in [AccessKey Management]. AccessKeySecret represents secret key needed for signature.
+2. You can login the console of JD Cloud with AccessKey and AccessKeySecret to view it in **AccessKey Management**. AccessKeySecret represents secret key needed for signature.
 
 3. HTTP-Verb represents Method of HTTP request, mainly including PUT, GET, POST, HEAD, DELETE, and so on.
 
@@ -33,7 +33,7 @@ Notes:
 
 8. CanonicalizedHeaders represents the arrangement in the dictionary order of HTTP header with prefix x-jss
 
-9. CanonicalizedResource represents OSS resource that users wants to access, of which Date and CanonicalizedResource can’t be null; if the Date time in the request is more than 15 minutes apart from the OSS server, OSS server will reject this service, and return an HTTP 403 error.
+9. CanonicalizedResource represents OSS resource that users want to access, of which Date and CanonicalizedResource can’t be null; if the Date time in the request is more than 15 minutes apart from the OSS server, OSS server will reject this service, and return an HTTP 403 error.
 
 ## Methods of Constructing CanonicalizedHeaders
 All HTTP Headers prefixed x-jss- are called CanonicalizedHeaders. Its construction methods are as follows:
@@ -44,7 +44,7 @@ All HTTP Headers prefixed x-jss- are called CanonicalizedHeaders. Its constructi
 
 3. Delete any spaces that appear at either end of the delimiter between the request header and the content.
 
-for example, convert x-jss-server-side-encryption:  false into x-jss-server-side-encryption:false
+For example, convert x-jss-server-side-encryption:  false into x-jss-server-side-encryption:false
 
 1. Separate each header and content with the \n delimiter and splice the final CanonicalizedHeaders.
 
@@ -65,7 +65,7 @@ Users send request to access OSS target resource, which is called CanonicalizedR
 
 2. Put in the OSS resource they want to access /BucketName/ObjectName(if there is no ObjectName, then CanonicalizedResource will be "/BucketName", and if there is no BucketName at the same time, it shall be "/").
 
-Sample:
+Example:
 
 Regarding API of ListParts in MultipartUpload operation, the CanonicalizedResource at this time is: /BucketName/ObjectName?uploadId=UploadId.
 
@@ -86,7 +86,7 @@ The signature character string must be in UTF-8 format. The signature string con
 
 2. Content-Type and Content-MD5 are not required in the request, but if the request requires signature verification, the null value shall be replaced by a null character string.
 
-Signature sample
+Signature example
 
 If:
 
@@ -94,7 +94,7 @@ AccessKey is "qbS5QXpLORrvdrmb",
 
 AccessKeySecret is "1MYaiNh3NeN9SuxaqFjSrc7I49rWKkQCxpl9eLNZ"
 
-| |Sample|
+| |Example|
 |-|-|
 |Request|PUT /sign.txt   HTTP/1.1<br>Content-Type: text/plain<br>Content-MD5: 0c791a8c18017c7ad1675936d12bae5d<br>x-jss-server-side-encryption: false<br>Date: Thu, 13 Jul 2017 02:37:31 GMT<br>Authorization: jingdong qbS5QXpLORrvdrmb: xvj2Iv7WcSwnN26XYnTq/c2YBQs=<br>Content-Length: 20<br>Host: oss.cn-north-1.jcloudcs.com|
 |The signature character string calculation formula|Signature =   base64(hmac-sha1(AccessKeySecret,<br>HTTP-Verb + "\n" <br>+ Content-MD5 + "\n"<br>+ Content-Type + "\n" <br>+ Date + "\n"<br>+ CanonicalizedHeaders<br>+ CanonicalizedResource))
@@ -102,7 +102,7 @@ AccessKeySecret is "1MYaiNh3NeN9SuxaqFjSrc7I49rWKkQCxpl9eLNZ"
 
 The following methods can be used to calculate signature (Signature):
 
-JAVA sample code:
+JAVA Example Code:
 
 ```
 import javax.crypto.Mac;

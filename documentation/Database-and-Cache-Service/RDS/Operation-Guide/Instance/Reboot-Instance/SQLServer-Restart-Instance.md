@@ -3,8 +3,8 @@
 ## 1. Operation Entrance
 There are three entries to reboot the instance:
 
-- [Reboot] under the [Operation] menu on the right side of each instance in the instance list page.
-- [Reboot] under the [Operation] menu at the top right of the instance detailed page
+- ***Reboot*** under the ***Operation*** menu on the right side of each instance in the instance list page.
+- ***Reboot*** under the ***Operation*** menu at the top right of the instance detailed page
 - The instance detailed page is shown below
 
 ![Reboot Instance 2](../../../../image/RDS/Reboot-Instance-SQLServer-1.png)

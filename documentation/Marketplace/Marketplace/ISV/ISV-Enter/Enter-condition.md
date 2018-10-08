@@ -1,4 +1,4 @@
-# Introduction to the conditions and categories of move-in
+# Introduction to the Conditions and Categories of Move-in
 Six categories are currently operated in Cloud Marketplace, including six markets, Basic Software, Website Construction, Enterprise Software, Data Intelligence, Operation and Maintenance Service, and Cloud Security. The following are introductions of move-in conditions and each category.
 
 Move-in Conditions of Marketplace

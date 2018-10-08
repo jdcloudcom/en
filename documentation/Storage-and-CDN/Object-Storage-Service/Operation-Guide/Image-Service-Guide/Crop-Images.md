@@ -1,4 +1,4 @@
-# Image cropping
+# Image Cropping
 
 Crop the image as required; one can crop in the center and crop into designated rectangle.
 

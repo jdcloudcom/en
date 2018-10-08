@@ -22,7 +22,7 @@ Where, the messages field of sending the message needs to be preprocessed and th
 
 First, take out the key-value pairs in its `properties` of each Message and sort them with the other fields of the Message, which are then be concatenated in the format of key1=value1&key2=value2&...&key100=value100,
 to generate the string message_signsource, and then, for message_signsource, evaluate the md5 value to generate message_str,
-and finally, all the Messages are concatenated using English commas in the order in which they appear in the list to form the final string message_value (in the format of `message_str1,message_str2,message_str3`) **Separated with Commas** as the value of the final messages field.
+and finally, all the Messages are concatenated using English commas in the order in which they appear in the list to form the final string message_value (in the format of `message_str1,message_str2,message_str3`) [Separated with Commas] as the value of the final messages field.
 
 ### Sample Code (Python3)
 
