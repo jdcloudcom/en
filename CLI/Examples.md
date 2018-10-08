@@ -152,6 +152,9 @@ Return:
     "request_id": "bcajk4jk2vh52d5u8tgejwpjubqhc68s"
 	}
    
+## Query containers by filters
+
+ 	jdc nc describe-containers --filters '[{"name":"name", "operator":"eq", "values":["container-name"]}]'
 
 ## Delete Container
 
