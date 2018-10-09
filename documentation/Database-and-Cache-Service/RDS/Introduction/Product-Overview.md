@@ -11,7 +11,7 @@ RDS is a stable and reliable cloud database service of JD Cloud based on the JCS
 ## List of RDS Region and Availability Zone
 |Region|Region Mark|Availability Zone| Availability Zone Mark|
 |---|---|---|---|
-|cn-north-1|cn-nnn-1|Availability Zone A|cn-north-1a|
+|cn-north-1|cn-north-1|Availability Zone A|cn-north-1a|
 |cn-north-1|cn-north-1|Availability Zone B|cn-north-1b|
 |cn-south-1|cn-south-1|Availability Zone A|cn-south-1a|
 |cn-east-2|cn-east-2|Availability Zone A|cn-east-2a|
