@@ -1,4 +1,4 @@
-# MariaDB 重启实例
+# MariaDB Reboot Instance
 When there are problems found in connections or performance in the instance, you can manually reboot the instance to try to solve the problem. In addition, please be cautious, since the instance rebooting will cause the connection interrupted.
 
 ## Precautions
