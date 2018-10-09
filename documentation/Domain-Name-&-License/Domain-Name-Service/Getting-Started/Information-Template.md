@@ -1,30 +1,30 @@
 # Information Template
 
-1. Open JD Cloud Homepage to enter the Domain Name Service interface.
+1. Open the JD Cloud homepage and enter the domain name service interface.
 
-![image](../../Image-Domain/moban1.png)
+![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Domain-Name-&-License/Image-Domain/moban1.png)
 
-2. Click here to create a new information template
+2. Click to create a new information template
 
-![image](../../Image-Domain/moban2.png)
+![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Domain-Name-&-License/Image-Domain/moban2.png)
 
-3. Fill in information as notification.
+3. Fill in the information as prompted.
 
-![image](../../Image-Domain/moban3.png)
+![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Domain-Name-&-License/Image-Domain/moban3.png)
  
-4. To modify existing information template, select the existing information template and click **Edit** to modify.
+4. When the existing information template needs to be modified, select the existing information template and click **Edit** to modify it.
 
-![image](../../Image-Domain/moban4.png)
+![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Domain-Name-&-License/Image-Domain/moban4.png)
 
 
-Warm Reminder:
+Warm Prompt:
 
-1. If your domain name needs to be filed, be sure to complete the real name verification of the information template, and the real name verification information shall be consistent with the recorded sponsor information.
+1. If your domain name needs to be recorded, please be sure to complete the real-name verification of the information template, and the real-name verification information must be consistent with the information provided to the recording unit.
 
-2. How to fill the domain name owner information in English?
+2. How to fill in the information of domain name English owner?
 
-As stipulated by the Registry, the owner information of international domain name and country domain name is subject to English information, so all owner information in English about the domain name you fill when registering shall be authentic and accurate.
+According to the requirements of registration bureau, the information of IDN and CCTLD is subject to the English information, so when you register such a domain name, you need ensure that the English information of the owner is authentic and accurate.
 
-If there is no English name for the company, please fill in the same complete Pinyin as the Chinese name. For example: 北京例子科技有限公司 can fill in as bei jing li zi ke ji you xian gong si for English information.
+If you do not have an English company name, you can fill in the same complete pinyin as the final version. For example: Beijing Lizi Technology Co., Ltd., English information can be filled in as bei jing li zi ke ji you xian gong si
 
 

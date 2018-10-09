@@ -35,8 +35,6 @@ Peak Bandwidth | Mbits/s|1 Minute
 Hit Rate|%|1 Minute
 Internet Outbound Traffic|Mbytes|1 Minute
 QPS |Count|1 Minute
-Source Station Availability|%|1 Minute
-Source Station Delay |ms|1 Minute
 
 ## MySQL/percona/MariaDB Monitoring Metric
 Monitoring Metrics | Units | Minimum Monitoring Granularity
@@ -58,12 +56,13 @@ Instance In Traffic |bps|	1 Minute
 Instance Out Traffic|bps|	1 Minute
 InnoDB BufferPool Hits	|%|	1 Minute
 InnoDB BufferPool Usage |%|	1 Minute
-InnoDBBufferPool-DirtyBlock |%|	1 Minute
+InnoDB BufferPool-DirtyBlock |%|	1 Minute
 InnoDB Read Throughput Per Second |B|	1 Minute
 InnoDB Write Throughput Per Second |B|	1 Minute
 InnoDB BufferPool Read |Count|	1 Minute
 InnoDB BufferPool Write |Count|	1 Minute
 InnoDB Log Physical Write |Count|	1 Minute
+InnoDB Log fsync Write |Count|	1 Minute
 MySQL_COMDML   Delete	|Count|	1 Minute
 MySQL_COMDML   Insert	|Count|	1 Minute
 MySQL_COMDML   Select	|Count|	1 Minute
@@ -116,7 +115,6 @@ Requests	|Count|	1 Minute
 Server Error	|Count|	1 Minute
 Client error	|Count|	1 Minute
 
-
 **Network Load Balancer**
 
 Monitoring Metrics | Units | Minimum Monitoring Granularity
@@ -125,8 +123,8 @@ New Connection Counts 	|Quantity|	1 Minute
 Active Connection Counts|Quantity|	1 Minute
 Requests	|Count|	1 Minute
 ProcessedIn_bps|bps|	1 Minute
-ProcessedOut_pps |pps|	1 Minute
-ProcessedIn_Bytes|Byte|	1 Minute
+ProcessedOut_pps |byte|	1 Minute
+ProcessedIn_Bytes|Bytes| 1 Minute
 
 
 ## Redis Monitoring Metric
@@ -243,6 +241,7 @@ Buildup Messages	|Count|	1 Minute
 Succed Received Messages  |Count|	1 Minute
 Received Messages	|Count|	1 Minute
 Received Message Requests |Count|	1 Minute
+Succed Received Messages  |Count|	1 Minute
 Received Message Size	|Byte|	1 Minute
 
 ## BDS Monitoring Metric

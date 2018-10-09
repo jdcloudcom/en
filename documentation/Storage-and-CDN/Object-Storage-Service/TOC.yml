@@ -239,7 +239,7 @@ items:
              href: SDK-Reference/Java-SDK/Installation-3.md
            - name: Initialization
              href: SDK-Reference/Java-SDK/Initialization-3.md
-           - name: Getting-Started
+           - name: Getting Started
              href: SDK-Reference/Java-SDK/Quick-Start-3.md 
            - name: Create Bucket
              href: SDK-Reference/Java-SDK/Create-Bucket-3.md 

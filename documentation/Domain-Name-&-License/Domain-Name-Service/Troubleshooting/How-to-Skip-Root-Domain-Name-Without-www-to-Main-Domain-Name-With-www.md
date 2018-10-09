@@ -32,7 +32,7 @@ If you use 301 redirect to transfer several other URLs such as jdcloud.com to ww
 
 Although in the google webmaster center, you can set preferred domain name on google, this setting is prepared for the problem that some people cannot set the 301. Setting the preferred domain name and setting 301 have the same effect, but this is only valid for google. The setting of 301 is necessary, after all, it is suitable for all search engines.
 
-The Difference Between Url Forwarding and 301 Redirect
+The Difference between Url Forwarding and 301 Redirect
 
 After testing, it was discovered that the concepts of URL forwarding, domain name binding, 301 permanent redirect, 302 temporary redirect and meta forwarding are different.
 
@@ -42,13 +42,13 @@ There is a saying that URL forwarding is not conducive to SEO, with no delivery 
 
 URL forwarding has redirected the new domain name for the existing URL. The 301 redirect is generally only valid for the home page via using code. Although htaccess can realize the target, it does not supported by win. The best way is to have redirect in the IIS console (the effect is not tested), or htaccess support (using a regular expression to achieve the corresponding redirect of each path, equivalent to replacement of the domain name)
 
-Difference Between 301 Direct and 302 Direct
+Difference between 301 Direct and 302 Direct
 
 After implementing 301, the new URL completely inherits the old URL, and the ranking of the old URL is completely cleared.
 
 After implementing 302, there is no impact on the old URL, but the new URL will not be ranked.
 
-For 302, Even the website is not spam objectively, it is easy to be punished by the search engine because it is misjudged as spam.
+For 302, even the website is not spam objectively, it is easy to be punished by the search engine because it is misjudged as spam.
 
 meta fresh: It is specifically to redirect to a new webpage after a certain time through the meta command in the webpage. If the delay time is too short (about 5 seconds), it will be judged as spam.
 
@@ -70,7 +70,7 @@ Note: URL-standardized 301 redirect (above code) need to be written before other
 
 2. Applicable to the users who use Unix system
 
-Use this command to notify the spider of search engine that your site file is not under this address. This is the a common method.
+Use this command to notify the spider of search engine that your site file is not under this address. This is  a common method.
 
 e.g.: Redirect 301 / http://www.jdcloud.com
 

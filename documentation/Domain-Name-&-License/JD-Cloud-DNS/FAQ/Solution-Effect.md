@@ -16,17 +16,17 @@ Operation Steps:
 
 2. In the CMD window, execute the command ping www.jddnstest.com
 
-![11.png](https://github.com/jdcloudcom/cn/blob/zhangjingfeng1-patch-3-1/image/dns-img/test1.png)
+![img](https://github.com/jdcloudcom/cn/blob/zhangjingfeng1-patch-3-1/image/dns-img/test1.png)
 
 You can see that www.jddnstest.com has obtained the correct resolution address
 
 3. If you cannot find a resolution address for the domain name, you will be prompted not to find it
 
-![22.png](https://github.com/jdcloudcom/cn/blob/zhangjingfeng1-patch-3-1/image/dns-img/test2.png)
+![img](https://github.com/jdcloudcom/cn/blob/zhangjingfeng1-patch-3-1/image/dns-img/test2.png)
 
 4. You can also use the nslookup command to test, execute nslookup www.jddnstest.com
 
-![33.png](https://github.com/jdcloudcom/cn/blob/zhangjingfeng1-patch-3-1/image/dns-img/test3.png)
+![img](https://github.com/jdcloudcom/cn/blob/zhangjingfeng1-patch-3-1/image/dns-img/test3.png)
 
 You can obtain the correct IP address of www.jddnstest.com on the customer
 
@@ -34,7 +34,7 @@ II. Test that whether the resolution record has taken effect on the cloud resolu
 
 Test whether the resolution record has taken effect on the cloud resolution server, you can only use the nslookup command in the CMD window to execute nslookup www.jddnstest.com ns1.jdgslb.com, where ns1.jdgslb.com is the cloud resolution address corresponding to the domain name of jddnstest.com.
 
-![44.png](https://github.com/jdcloudcom/cn/blob/zhangjingfeng1-patch-3-1/image/dns-img/test4.png)
+![img](https://github.com/jdcloudcom/cn/blob/zhangjingfeng1-patch-3-1/image/dns-img/test4.png)
 
 You can see that the address of www.jddnstest.com was successfully obtained on the customer, and the result is returned by the cloud resolution server.
 
@@ -42,21 +42,21 @@ You can see that the address of www.jddnstest.com was successfully obtained on t
 
 The Linux platform can take the ping and dig commands and test through command lines.
 
-I.Test whether the resolution record has taken effect in Local DNS/customer
+I. Test whether the resolution record has taken effect in Local DNS/customer
 
 1. Execute ping www.jddnstest.com in the command line inwindow
 
-![55.png](https://github.com/jdcloudcom/cn/blob/zhangjingfeng1-patch-3-1/image/dns-img/test5.png)
+![img](https://github.com/jdcloudcom/cn/blob/zhangjingfeng1-patch-3-1/image/dns-img/test5.png)
 
 You can see that www.jddnstest.com has obtained the correct resolution address
 
 2. If you cannot find a resolution address for the domain name, you will be prompted "unknown host"
 
-![66.png](https://github.com/jdcloudcom/cn/blob/zhangjingfeng1-patch-3-1/image/dns-img/test6.png)
+![img](https://github.com/jdcloudcom/cn/blob/zhangjingfeng1-patch-3-1/image/dns-img/test6.png)
 
 3. You can also use the dig command to test and execute dig www.jddnstest.com
 
-![77.png](https://github.com/jdcloudcom/cn/blob/zhangjingfeng1-patch-3-1/image/dns-img/test7.png)
+![img](https://github.com/jdcloudcom/cn/blob/zhangjingfeng1-patch-3-1/image/dns-img/test7.png)
 
 You can obtain the correct IP address of www.jddnstest.com on the customer
 
@@ -64,6 +64,6 @@ II. Test that whether the resolution record has taken effect on the cloud resolu
 
 Test whether the resolution record has taken effect on the cloud resolution server, you can only use the dig command in the command line window to execute dig www.jddnstest.com @ns1.jdgslb.com, where ns1.jdgslb.com is the cloud resolution address corresponding to the domain name of jddnstest.com.
 
-![88.png](https://github.com/jdcloudcom/cn/blob/zhangjingfeng1-patch-3-1/image/dns-img/test8.png)
+![img](https://github.com/jdcloudcom/cn/blob/zhangjingfeng1-patch-3-1/image/dns-img/test8.png)
 
 You can see that the address of www.jddnstest.com was successfully obtained on the customer, and the result is returned by the cloud resolution server.

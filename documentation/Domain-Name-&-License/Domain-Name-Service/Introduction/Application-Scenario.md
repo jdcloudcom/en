@@ -4,6 +4,6 @@ Registering a domain name allows you to build your own trusted system on the Int
 
 - Prove identity online.
 - Highlight the brand value.
-- Optimize search enginer results.
+- Optimize search engine results.
 - Create more business opportunities.
 - In addition, registering a domain name helps protect your customers from fraud, malicious attacks, and plagiarism by preventing competitors from registering domain names associated with your business.

@@ -6,10 +6,10 @@
 
   1. Log in to the DNS console and select **Domain Name Resolution List**.
 
-  2. Select the **Domain Name** you want to operate, click on **Resolution**, and enter the Domain Name Resolution Console.
+  2. Select the domain name you want to operate, click **Resolution**, and enter the Domain Name Resolution Console.
 
-  3. Click the **Delete** under the operation
+  3. Click **Delete** under the operation 
 
-  ![img](https://github.com/jdcloudcom/cn/blob/edit/image/dns-img/modify-record1.png)
+  ![img](https://github.com/jdcloudcom/cn/blob/edit/image/dns-img/delete-record.png)
 
   4. After clicking **Confirm**, the resolution record will be deleted.

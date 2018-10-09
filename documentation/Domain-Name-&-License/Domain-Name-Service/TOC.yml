@@ -5,7 +5,7 @@
     items:
       - name: Product Overview
         herf: Introduction/Product-Overview.md
-      - name: Core Concept
+      - name: Core Concepts
         herf: Introduction/Core-Concepts.md
       - name: Benefits
         herf: Introduction/Benefits.md
@@ -26,7 +26,7 @@
         
   - name: Operation Guide
     items:
-      - name: Domain Management
+      - name: Domain Name Management
         items:
           - name: Domain Name Status
             herf: Operation-Guide/Domain-Management/Domain-Name-Status.md
@@ -54,9 +54,12 @@
       herf: Troubleshooting/How-to-Skip-Root-Domain-Name-Without-www-to-Main-Domain-Name-With-www.md
   - name: FAQ
     herf: FAQ/FAQ.md
-  - name: User Agreement
+  - name: User Agreements
     items:
     - name: Online Terms of Service of Domain Name
       herf: User-Agreements/Donline-Terms-of-Service-of-Domain-Name.md      
     - name: IDN Online Transfer Agreement
-      herf: User-Agreements/IDN-Online-Transfer-Agreement.md         
+      herf: User-Agreements/IDN-Online-Transfer-Agreement.md      
+
+          
+          
