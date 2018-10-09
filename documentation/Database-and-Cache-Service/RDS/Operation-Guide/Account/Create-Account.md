@@ -1,7 +1,7 @@
 # Create Account
 
 ## 1. Operation Entrance
-Enter the instance list page, click the instance name, enter the instance page, select ***Account Management*** page, and click ***Create Account***.
+Enter the instance list page, click the instance name, enter the instance page, select ***Account Management*** page, and click ***Create Account***. 
 ![Create Account 1](../../../image/RDS/Create-Account-1.png)
 
 
