@@ -19,6 +19,9 @@ Currently, the CLI relies on the JD Cloud Python SDK, but it is automatically in
 
 Issue date|JD Cloud CLI|JD Cloud Python SDK
 :---|:---|:---
+2018.10.10 	|	0.7.1	|	1.2.16
+2018.09.06  	|	0.7.0   |	1.2.13
+2018.08.31  	|	0.6.0	|	1.2.12
 2018.07.19  	|	0.3.0	|	1.2.0
 2018.06.25	|	0.2.1	|	1.1.2
 2018.06.23	|	0.2.0	|	1.1.1
