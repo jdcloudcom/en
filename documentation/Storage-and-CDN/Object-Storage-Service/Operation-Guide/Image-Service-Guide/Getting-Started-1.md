@@ -10,11 +10,11 @@ You can use Object Storage Service console picture processing style to quickly u
 
 3. Click Image Processing on the bucket overview page to enter the image processing page
 
-![图片处理](../../../../../image/Object-Storage-Service/OSS-054.jpg)
+![图片处理](../../../../../image/Object-Storage-Service/OSS-054.png)
 
 4. Click Create Style; on this page, you can create the image style you need just as the figure shown below:
 
-![新建图片样式](../../../../../image/Object-Storage-Service/OSS-056.jpg)
+![新建图片样式](../../../../../image/Object-Storage-Service/OSS-056.png)
 
 
 Rules Description:
