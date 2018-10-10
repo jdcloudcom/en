@@ -40,7 +40,7 @@ Access cors.html via curl, display the file content "Request Successful" and ens
 ```
 curl http://test-cors.oss.cn-east-1.jcloudcs.com/cors.html
 ```
-![](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-084.jpg)
+![](../../../../image/Object-Storage-Service/OSS-084.jpg)
 
 2. Use AJAX access file
 
@@ -87,24 +87,24 @@ function loadXMLDoc() {
 
 Enter "http://47.104.98.151/cors-test.html" in the Chrome browser to log into the test page, click **Data Request** button and the following error is shown. Error notification: You have no access permission and the reason is the Header, Access-Control-Allow-Origin, is not found.
 
-![](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-085.jpg)
+![](../../../../image/Object-Storage-Service/OSS-085.jpg)
 
 When logging in the Header page to check request again, the Request with Origin, sent by the browser, is found. Thus, this is a cross-origin request. There, the error is due to the reason that the server is not configured with CORS.
 
-![](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-086.jpg)
+![](../../../../image/Object-Storage-Service/OSS-086.jpg)
 
 4. Setting CORS
 
 Log in console -> Object Storage Service -> Space Management -> Log in bucket test-cors -> Space Setting -> Cross-origin resource sharing setting.Clicking CORS statement configuration to log in the configuration page.
 
-![](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-087.jpg)
+![](../../../../image/Object-Storage-Service/OSS-087.jpg)
 
 Adopt the loosest configuration in the configuration page: the Origin is http://47.104.98.151, the operation method is GET, the Allow-Headers are * and the cache Max Age is 0, as shown in the figure below.
 
-![](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-088.jpg)
+![](../../../../image/Object-Storage-Service/OSS-088.jpg)
 
 5. Verification Result
 
 Please try to access the cors.html file again after completing configuration. Cross-origin access to success.
 
-![](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-089.jpg)
+![](../../../../image/Object-Storage-Service/OSS-089.jpg)
