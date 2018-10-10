@@ -57,13 +57,13 @@ s3fs: Manually mount commands, in which the bucketname is the bucket name, /new 
 df -h
 ```
 
-![查看挂载结果](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-072.png)
+![查看挂载结果](../../../../image/Object-Storage-Service/OSS-072.png)
 
 
 **6. Log in the catalog to view the object file**
 
 
-![查看object文件](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-073.png)
+![查看object文件](../../../../image/Object-Storage-Service/OSS-073.png)
 
 
 **Tips：**
