@@ -6,7 +6,7 @@ Once the Bucket Policy function is launched, the original Bucket ACL will be exp
 
 Once the function is upgraded, the original Referer in the console must be set in the Bucket Policy of the "Customized Permission". For specific details, please refer to the figure below:
 
-![Policy](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-074.png)
+![Policy](../../../../image/Object-Storage-Service/OSS-074.png)
 
 To ensure that the system acts consistently (with the semantic rules unchanged) before and after the Bucket with the Bucket ACL and  Referer setting is launched, please smoothly migrate the permission policy, if the Referer is set before. The authentication logics for different conditions are as follows:
 
