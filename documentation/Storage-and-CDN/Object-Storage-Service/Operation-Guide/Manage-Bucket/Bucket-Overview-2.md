@@ -6,7 +6,7 @@ The space inside the same bucket is flat, namely there is no concept of a direct
 
 To access and view a bucket, select Object Storage Service->Space Management after logging in to the JD Cloud console; after entering the bucket management page, click on the bucket to be accessed, and you will enter the overview page of the bucket with the following effects:
 
-![空间概览](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-026.png)
+![空间概览](../../../../../image/Object-Storage-Service/OSS-026.png)
 
 The description related to the contents shown on this page is as follows:
 
