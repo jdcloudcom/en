@@ -1,14 +1,14 @@
 ## Monitor Alarm for Resource Settings
 ### Add Alarm Rules
-1. Log in to the JD Cloud Console, click Manage -> Monitoring->Resource Monitoring Menu, then select the type of resource to be viewed, and enter the monitor list for the resource. Click on **Alarm Rules** in the Operation column.
+1. Log in to the JD Cloud Console, click Manage -> Monitoring->Resource Monitoring Menu, then select the type of resource to be viewed, and enter the monitor list for the resource. click **Alarm Rules** in the Operation column.
  
 ![image](https://raw.githubusercontent.com/jdcloudcom/cn/edit/image/Cloud-Monitor/yunziyuan/4.%E8%B5%84%E6%BA%90%E7%9B%91%E6%8E%A7.png)
    
 2. Go to the alarm rule page of the monitoring details and click **New Alarm Rule** to create alarm rules.
 
-![image](https://raw.githubusercontent.com/jdcloudcom/cn/zhangwenjie30-patch-4/image/Cloud-Monitor/yunziyuan/%E5%AE%9E%E4%BE%8B%E8%AF%A6%E6%83%85_%E6%8A%A5%E8%AD%A6%E8%A7%84%E5%88%99.png)
+![image](https://raw.githubusercontent.com/jdcloudcom/cn/Monitoring-cn/image/Cloud-Monitor/dashboard/AlarmRuleList_Resource.png)
 
-3. Input monitoring metircs, statistical periods, statistical methods, calculation methods, thresholds, and durations. According to business requirements, you can also set grading alarms (divided into moderate, severe, and critical). Click on **Next** to add alarm rules and contacts, and click on “Next” step, click on "Finish". 
+3. Input monitoring metircs, statistical periods, statistical methods, calculation methods, thresholds, and durations. According to business requirements, you can also set grading alarms (divided into moderate, severe, and critical). click **Next** to add alarm rules and contacts, and click “Next” step, click "Finish". 
 
 ![image](https://raw.githubusercontent.com/jdcloudcom/cn/cn-cloudmonitor/image/Cloud-Monitor/%E8%AE%BE%E7%BD%AE%E6%8A%A5%E8%AD%A6%E8%A7%84%E5%88%99.png)
 
@@ -17,10 +17,10 @@
 ### Modify/Delete/Disable Alarm Rules
 1. Log in to the JD Cloud Console, click Manage -> Monitoring -> Resource Monitoring menu, select the resource type to be viewed, click **Alarm Rule** in the resource list, go to the alarm rule page of the monitoring details, and go to the resource monitoring list.
 
-![image](https://raw.githubusercontent.com/jdcloudcom/cn/zhangwenjie30-patch-4/image/Cloud-Monitor/yunziyuan/%E5%AE%9E%E4%BE%8B%E8%AF%A6%E6%83%85_%E6%8A%A5%E8%AD%A6%E8%A7%84%E5%88%99.png)
+![image](https://raw.githubusercontent.com/jdcloudcom/cn/Monitoring-cn/image/Cloud-Monitor/dashboard/AlarmRuleList_Resource.png)
 
-2. Click the **Modify** button under the More Operations column to modify the monitoring metrics, statistics period, statistical methods, calculation methods, thresholds, duration, and alarm contact information as needed.
-3. Click the **Modify** button under More Operations in the Operation column to delete.
+2. Click the **Modify** button under the More Operations column to modify the monitoring metrics, statistics period, statistical methods, calculation methods, thresholds, duration, and alarm contact information as needed.  
+3. Click the **Modify** button under More Operations in the Operation column to delete.  
 3. Click the **Modify** button under More Operations in the Operation column to disable the rule.
 
 ![image](https://raw.githubusercontent.com/jdcloudcom/cn/edit/image/Cloud-Monitor/yunziyuan/6.%E8%B5%84%E6%BA%90%E7%9B%91%E6%8E%A7.png)

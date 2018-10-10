@@ -7,7 +7,7 @@ The Cloud Service Resource sends indicators to the Monitoring. You can retrieve 
 **Statistical Data**   
 Statistical Data is the Metric Data Aggregation over a specified time period. All statistical data are equipped with units of measure. Common units include seconds (time units), Bytes (bits), bits (bits), % (percentage), and secondary (counting units).
 
-**Time period**   
+**Time Period**   
 The time period is the interval length of the Monitoring Statistical Data, and each time stamp data represents the result of aggregating all the collected data within a specified time period. The minimum granularity of the time period is one Minute.
 
 **Time Stamp**  
@@ -23,7 +23,7 @@ Monitoring Cycle| Minimum Granularity
 6 Hours | 5 Minutes
 12 Hours | 10 Minutes
 1 Day | 20 Minutes
-3 Days | 1Hour
+3 Days | 1 Hour
 7 Days | 2 Hours
 1 Month | 3 Hours
 
