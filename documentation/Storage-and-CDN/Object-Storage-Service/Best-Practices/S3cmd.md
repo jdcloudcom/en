@@ -33,7 +33,7 @@ Use V4 signature rather than V2 signature, and log in the catalog below after do
 
 File catalog: s3cmd/S3/S3.py, the 254th line is modified to be: self.endpoint_requires_signature_v4 = True
 
-![](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-091.png)
+![](../../../../image/Object-Storage-Service/OSS-091.png)
 
 **S3cmd Installation**
 
@@ -128,11 +128,11 @@ website_index = index.html
 
 Input s3cmd and enter under the Linux shell environment and the use is available when the following indication is given:
 
-![](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-092.png)
+![](../../../../image/Object-Storage-Service/OSS-092.png)
 
 Taking Make bucket as example, test whether S3cmd is available:
 
-![](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-093.png)
+![](../../../../image/Object-Storage-Service/OSS-093.png)
 
 ## Supported Functions
 
