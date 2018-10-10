@@ -10,11 +10,11 @@ You can use Object Storage Service console picture processing style to quickly u
 
 3. Click Image Processing on the bucket overview page to enter the image processing page
 
-![图片处理](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-054.jpg)
+![图片处理](../../../../../image/Object-Storage-Service/OSS-054.jpg)
 
 4. Click Create Style; on this page, you can create the image style you need just as the figure shown below:
 
-![新建图片样式](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-056.jpg)
+![新建图片样式](../../../../../image/Object-Storage-Service/OSS-056.jpg)
 
 
 Rules Description:
@@ -65,4 +65,4 @@ img-style-example style: scale 80%, rotate 60°
 
 http://oss.cn-north-1.jcloudcs.com/downloads/example.jpg?x-oss-process=imgalias/img-style-example
 
-![](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-057.jpg)
+![](../../../../../image/Object-Storage-Service/OSS-057.jpg)
