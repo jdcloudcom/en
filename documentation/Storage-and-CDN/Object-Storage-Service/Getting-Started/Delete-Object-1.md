@@ -6,6 +6,6 @@ You can at any time delete objects you do not need in bucket to avoid costs of b
 
 2. Find the file to be deleted and click **Delete**:
 
-![Delete Object](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-051.png)
+![Delete Object](../../../../image/Object-Storage-Service/OSS-051.png)
 
 3. Click **Delete** and then a notification asking confirmation to delete pops up; click **OK** to delete; files is unrecoverable after deletion.
