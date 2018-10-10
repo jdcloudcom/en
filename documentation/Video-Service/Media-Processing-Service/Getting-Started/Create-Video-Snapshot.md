@@ -10,7 +10,7 @@
 
 4. Click **Create Task**.
 
-![](https://github.com/jdcloudcom/cn/blob/edit/image/Media-Processing-Service/MPS-007.png)
+![](../../../../image/Media-Processing-Service/MPS-007.png)
 
 5. In New Task popup, respectively click source **Bucket** and target **Bucket**, snapshot file format, and snapshot method. click source video file or input file name for retrieval. Input snapshot file prefix, file format, snapshot width, snapshot height, and snapshot number. Click OK to submit video snapshot task.
 
@@ -26,8 +26,8 @@ In [Media Processing Service]>>[Video Snapshot Workflow] task list Choose Region
 
   i. View Task List and snapshot status
 
-![](https://github.com/jdcloudcom/cn/blob/edit/image/Media-Processing-Service/MPS-008.png)
+![](../../../../image/Media-Processing-Service/MPS-008.png)
 
   ii. Click **TaskId** to view task details
 
-![](https://github.com/jdcloudcom/cn/blob/edit/image/Media-Processing-Service/MPS-009.png)
+![](../../../../image/Media-Processing-Service/MPS-009.png)
