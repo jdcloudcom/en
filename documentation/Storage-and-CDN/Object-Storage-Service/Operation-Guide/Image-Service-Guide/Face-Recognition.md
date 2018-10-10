@@ -17,4 +17,4 @@ Detect the face in the image file and return the largest crop image of the face:
 
 http://oss.cn-north-1.jcloudcs.com/downloads/face.jpg?x-oss-process=img/analyse/f/2
 
-![人脸识别](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-064.jpg)
+![人脸识别](../../../../../image/Object-Storage-Service/OSS-064.jpg)
