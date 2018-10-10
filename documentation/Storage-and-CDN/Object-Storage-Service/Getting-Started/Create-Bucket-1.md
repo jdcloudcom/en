@@ -4,10 +4,10 @@ Once the Object Storage Service is provided, you need to create a bucket to save
 
  1. Log in the JD Cloud console, select Object Storage Service -> bucket Management to log in the space management page and click the Create a new bucket:
 
-![Create Space](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-027.png)
+![Create Space](../../../../image/Object-Storage-Service/OSS-027.png)
 2. Click the new Bucket and the following popup will be shown,
 
-![Pop Up](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-028.png)
+![Pop Up](../../../../image/Object-Storage-Service/OSS-028.png)
 
 3. The Bucket can be created by choosing and switching different regions. At present, JD Cloud only supports four regions, including cn-north-1, cn-south-1, cn-east-1 and cn-east-2. The resource intranets of different regions can't be connected to each other, and the regions can't be changed after being created. If you need to access the Object Storage Service via the virtual machine intranet, please select the region as the same as that of your virtual machine.
 
