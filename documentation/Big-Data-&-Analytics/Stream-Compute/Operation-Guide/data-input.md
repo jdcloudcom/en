@@ -1,5 +1,5 @@
 ## Input Data<br>
-On the application list page, click on the created application name and go to the Job Development page, as shown in below: <br>
+On the application list page, click on the created application name and go to the Job Development page, as shown below <br>
 ![sc-015](https://github.com/jdcloudcom/cn/blob/edit/image/Streamcompute/SC-015.png?raw=true)<br><br>
 For a complete Stream Compute, it is required to define three parts. Firstly, it is required to define the "input" of the data, that is, where does the data in Stream Compute come from. <br>
 ![sc-016](https://github.com/jdcloudcom/cn/blob/edit/image/Streamcompute/SC-016.png?raw=true)<br><br>
