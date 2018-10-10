@@ -6,17 +6,17 @@ You have uploaded files to the Bucket, and you can share and download the files 
 
 2.Find the file of which you need to obtain the external link and click **Get URL** button:
 
-![获取外链](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-047.png)
+![获取外链](../../../../../image/Object-Storage-Service/OSS-047.png)
 
 3.If the current Bucket has an access permission of "Public Read and Private Write", the popup for obtaining external link is shown as follows; it can copy the file's external link address to the clipboard by clicking directly the replication button on the right side of the external link text; in addition, the external link address is ready to provide external services without a valid time limit:
 
-![复制外链](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-048.png)
+![复制外链](../../../../../image/Object-Storage-Service/OSS-048.png)
 
 4.If the current Bucket has an access permission of "Private Read/Write", the popup for obtaining external link is shown as follows; the external link address needs to set a valid time; the external link to the file may be obtained by clicking the **Obtain external link** button after inputting the valid time:
 
-![外链有效期](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-049.png)
+![外链有效期](../../../../../image/Object-Storage-Service/OSS-049.png)
 
-![获取外链](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-050.png)
+![获取外链](../../../../../image/Object-Storage-Service/OSS-050.png)
 
 Notes:
 
