@@ -26,8 +26,8 @@ In [Media Processing Service]>>[Video Snapshot Workflow] task list Choose Region
 
   i. View Task List and snapshot status
 
-![](../../../../image/Media-Processing-Service/MPS-008.png)
+  ![](../../../../image/Media-Processing-Service/MPS-008.png)
 
   ii. Click **TaskId** to view task details
 
-![](../../../../Media-Processing-Service/MPS-009.png)
+  ![](../../../../image/Media-Processing-Service/MPS-009.png)
