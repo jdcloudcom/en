@@ -51,3 +51,5 @@ public class S3SdkTest{
 }
 ```
 
+## Examples
+For more Java·SDK samples, see [Java SDK examples of compatibility of JD Cloud with S3 ](https://github.com/jdcloud-cmw/oss/tree/master/s3-java-sdk)
