@@ -36,7 +36,7 @@ Cross-Origin Resource Sharing (CORS) is a standard cross-origin solution provide
 
 1.Login to the console->Object Storage Service->Space Management->Login to a certain Bucket->Space Settings, name it as “Cross-origin Access Settings”:
 
-![跨域访问设置](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-037.png)
+![跨域访问设置](../../../../../image/Object-Storage-Service/OSS-037.png)
 
 2.Click **Cross-origin Access Settings** and the following is a list of CORS rules. Each bucket supports at most 10 rules by default. The description of each field of the rule list is as follows:
 
@@ -52,7 +52,7 @@ e. Cache Max Age: The cache time, in seconds, for the browser to return results 
 
 3.Add CORS rules: Above the list of cross-origin access CORS rules, CORS rules can be added by clicking on the “CORS Rules Settings” button. The effect is as follows:
 
-![添加CORS规则](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-038.png)
+![添加CORS规则](../../../../../image/Object-Storage-Service/OSS-038.png)
 
 Detail Specification:
 
@@ -66,7 +66,7 @@ d. The wildcard of the domain name format only supports http://*.example.com, an
 
 4.You can also customize the CORS rules by clicking on the “CORS Rules Editor”. The effect is as follows:
 
-![CORS规则编辑器](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-039.png)
+![CORS规则编辑器](../../../../../image/Object-Storage-Service/OSS-039.png)
 
 Detail Specification:
 
