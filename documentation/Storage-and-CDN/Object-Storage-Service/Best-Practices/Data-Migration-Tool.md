@@ -110,7 +110,7 @@ Use of crobtab under linux is as follows:
 
 Give crontab -e command, add timing job and carry out such action once per day:
 
-![](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-090.jpg)
+![](../../../../image/Object-Storage-Service/OSS-090.jpg)
 
 Note: If the last timing job is unfinished, the new migration task will not be started. This is to ensure that the data is kept consistent in the migration process.
 
