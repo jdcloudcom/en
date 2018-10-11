@@ -22,11 +22,11 @@ Quote OSS resources in a network A: The browser visits the page of the network h
 
 Log in the Object Storage Service page and enter the Setting-Permission Setting page under one Bucket, as shown in the figure below:
 
-![权限设置](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-075.jpg)
+![权限设置](../../../../image/Object-Storage-Service/OSS-075.jpg)
 
 Once the write-read permission of this Bucket is set as the customized permission, click to add the customized permission, as shown in the figure below:
 
-![自定义权限](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-076.jpg)
+![自定义权限](../../../../image/Object-Storage-Service/OSS-076.jpg)
 
 Check Referer White List in the "Setting" to set the Referer White List and set if the Referer is allowed to be blank.
 
@@ -39,7 +39,7 @@ If the origin server is http://jd.com/, the hotlinking is http://jd-steal.com/
 
 1. Set Referer White List and allow referer to be blank to realize the Anti-leech function
 
-![白名单](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-077.jpg)
+![白名单](../../../../image/Object-Storage-Service/OSS-077.jpg)
 
 The access results are as follows:
 
@@ -51,7 +51,7 @@ The access results are as follows:
 
 2. Set Referer White List and allow referer to be blank to realize the Anti-Leech function
 
-![白名单](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-078.jpg)
+![白名单](../../../../image/Object-Storage-Service/OSS-078.jpg)
 
 The access results are as follows:
 

@@ -30,7 +30,7 @@ Customized domain name is available as access address to the storage file in OSS
 
 2.Click the button of adding the domain name and open the page for associating user’s domain name, as shown in the following figure:
 
-![Image](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-094.jpg)
+![Image](../../../../../image/Object-Storage-Service/OSS-094.jpg)
  
 3.Associate domain name
     Input the domain name to be associated in the user’s domain name box.

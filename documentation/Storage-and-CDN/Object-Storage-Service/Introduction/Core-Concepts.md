@@ -1,7 +1,7 @@
 # Core Concepts
 
-|English|Chinese|Description|
-| - | - | - |
+|Name|Description|
+| - | - |
 |Bucket|Bucket is the fundamental organization unit of data in Object Storage Service and all data must be a Bucket. The name of Bucket is globally unique. If you create a Bucket of a certain name, then other users cannot create a Bucket with the same name|
 |Object|Object is the fundamental entity in JD Object Storage Service. In this help documentation, Object, Object and File represent the same meaning which is composed of Key, Data and Metadata|
 |Endpoint|Object Storage Service allocates an Internet access domain name and an intranet access domain name for each Bucket by default|

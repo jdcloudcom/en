@@ -6,14 +6,14 @@ When you successfully create the bucket, you can upload any type of files to the
 
 2.Click to enter the object management list page of this bucket; click **Upload**:
 
-![上传](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-012.png)
+![上传](../../../../image/Object-Storage-Service/OSS-012.png)
 
  3.Click and then the below popup shows; you can upload in batches.
 
-![批量上传](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-013.png)
+![批量上传](../../../../image/Object-Storage-Service/OSS-013.png)
 
  4.Click **Object upload** in the popup; select the file to be uploaded and then click **Confirm to upload** to begin uploading:
 
-![文件上传](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-014.png)
+![文件上传](../../../../image/Object-Storage-Service/OSS-014.png)
 
  5.After uploading, click **Close** to close the popup.

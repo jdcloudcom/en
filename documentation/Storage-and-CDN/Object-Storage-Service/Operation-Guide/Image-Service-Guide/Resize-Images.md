@@ -25,4 +25,4 @@ Example: Scale the image with fixed aspect ratio; the width and height after sca
 
 http://oss.cn-north-1.jcloudcs.com/downloads/example.jpg?x-oss-process=img/s/200/300
 
-![图片缩放](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-058.jpg)
+![图片缩放](../../../../../image/Object-Storage-Service/OSS-058.jpg)

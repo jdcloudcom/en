@@ -13,15 +13,15 @@ Customized permissions|User-Defined|The permissions of GetObject, PutObject, Del
 
 1.When creating a Bucket on the console, you need to assign an ACL for the Bucket. The effect is as follows:
 
-![创建Bucket-访问权限](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-030.png)
+![创建Bucket-访问权限](../../../../../image/Object-Storage-Service/OSS-030.png)
 
 2.You can also modify and configure advanced permissions (i.e. customized permissions) in the created Bucket. After entering the space management page of a space, click Space Settings->Permission Settings. The effect is as follows:
 
-![权限设置](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-031.png)
+![权限设置](../../../../../image/Object-Storage-Service/OSS-031.png)
 
 If you set the permissions of the current Bucket to be customized permissions, you can create a corresponding Bucket Policy for the Bucket. The Bucket Policy defines which users can perform which types of actions on which kinds of resources in the Bucket. The effect is as follows:
 
-![添加自定义权限](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-032.png)
+![添加自定义权限](../../../../../image/Object-Storage-Service/OSS-032.png)
 
 Detail Specification:
 
@@ -31,9 +31,9 @@ Detail Specification:
 
 a. User authorization: It defines the users affected by the Bucket Policy. The default value is *, and the semantics is valid for all users. If it shall only be valid for part of the users, please click **customized users" and enter the user ID of the corresponding users in the text box (Note: User ID is different from user Pin; your user ID can be queried in User Management and the effect is as the image below), one user ID per line, that is, multiple user IDs shall be separated by line feed character intervals.
 
-![用户授权1](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-033.png)
+![用户授权1](../../../../../image/Object-Storage-Service/OSS-033.png)
 
-![用户授权2](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-034.png)
+![用户授权2](../../../../../image/Object-Storage-Service/OSS-034.png)
 
 b. Involved action: It defines the actions that can be performed on the Bucket. Single-selection and full-selection are both okay, but at least one item shall be selected. Each action is defined as follows:
 
@@ -51,7 +51,7 @@ d. Referer White List: Since the Object Storage Service is charged by consumptio
 
 (3) In addition to creating a Bucket Policy through a form, you can also use the customized permission editor to set the Policy (Note: the editor will display all the Policies under the current Bucket, no comments can be added in the editor, and 16KB can be entered at most). The effect is as follows:
 
-![自定义权限编辑器](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-035.png)
+![自定义权限编辑器](../../../../../image/Object-Storage-Service/OSS-035.png)
 
 (4) If you are creating a Bucket through API or SDK, and you do not assign the Bucket permissions when creating, the system will give the Bucket the default Private permissions, that is, only the Bucket Owner can operate and access the resources under the Bucket, while all requests of all the other users will be denied. To allow certain users to access and operate the resources under the Bucket, please authorize them in the Bucket Policy or change the permissions of the Bucket to Public-Read or Public-Read-Write.
 
@@ -85,4 +85,4 @@ Semantics Explanation of Referer White List:
 
 The reference effect is as follows:
 
-![Referer白名单](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-036.png)
+![Referer白名单](../../../../../image/Object-Storage-Service/OSS-036.png)

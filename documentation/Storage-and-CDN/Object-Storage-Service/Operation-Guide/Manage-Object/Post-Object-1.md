@@ -5,7 +5,7 @@
 
 |Non-Post object|Post object|
 |-|-|
-|1.The website user upload an image<br>2.The web server responds to the upload page<br>3.The image is uploaded to the web server<br>4. The web server uploads the image to OSS|
+|1.The website user upload an image<br>2.The web server responds to the upload page<br>3.The image is uploaded to the web server<br>4. The web server uploads the image to OSS|1.The website user upload an image<br>2.Uploading the image to OSS
 
 Benefits of Using Post object
 

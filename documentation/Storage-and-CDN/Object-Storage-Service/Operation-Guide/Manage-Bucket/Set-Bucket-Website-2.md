@@ -22,7 +22,7 @@ After uploading resources such as pictures, videos, static pages and client scri
 
 1.Login to the Console->Object Storage Service->Space Management->Enter a Bucket->Space Settings, click **Static Website Hosting**:
 
-![静态网站托管](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-040.png)
+![静态网站托管](../../../../../image/Object-Storage-Service/OSS-040.png)
 
 2.After clicking **Static Website Hosting**, the following are relevant configuration items. The description of all configuration items is as follows:
 

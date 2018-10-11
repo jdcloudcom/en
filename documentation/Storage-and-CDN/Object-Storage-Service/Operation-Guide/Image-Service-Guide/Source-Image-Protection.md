@@ -26,10 +26,10 @@ c. The original image protection supports the old and new interfaces for image p
 
 2. Enter the image processing page, on which the image style of the current Bucket can be viewed and set.
 
-![原图1](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-066.jpg)
+![原图1](../../../../../image/Object-Storage-Service/OSS-066.jpg)
 
 3. Click **Original Image Protection Settings** to enter the settings page, you can choose to enable the original image protection and set the suffixes to be protected.
 
-![原图2](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-067.jpg)
+![原图2](../../../../../image/Object-Storage-Service/OSS-067.jpg)
 
 4. After setting the options you need, click OK to complete the current Bucket original image protection settings.
