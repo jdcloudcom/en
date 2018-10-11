@@ -328,7 +328,7 @@ items:
                 href: Linux-Troubleshooting/Fault-Class/SSH-login-time-report-User-root-not-allowed-because-not-listed-in.md
               - name: Following Error Occurs during SSH Connection: error Could not get shadow infromation for root
                 href: Linux-Troubleshooting/Fault-Class/SSH-connection-error.md
-              - name: SSH 连接时出现如下错误：pam_limits(sshd：session)：could not sent limit for 'nofile'
+              - name: Errors Below Arising during SSH Connection: pam_limits(sshd: session): could not sent limit for 'nofile''
                 href: Linux-Troubleshooting/Fault-Class/SSH-connection-Error.md
               - name: Following Error Occurs during SSH Connection: pam_unix(sshdsession) session closed for user
                 href: Linux-Troubleshooting/Fault-Class/SSH-connection-error-session-closed.md

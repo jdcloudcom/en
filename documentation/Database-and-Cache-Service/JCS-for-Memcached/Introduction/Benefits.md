@@ -1,7 +1,7 @@
 # Benefits of JCS for Memcached
 Benefits|JCS for Memcached 	|Self-built Memcached
 ---|:--|:---
-One-click deployment |	 One-click deployment, convenient and rapid The purchased JCS for Memcached is ready to use, realizing rapid deployment without cares for hardware and software	|Require machines and manually setup.
+One-click deployment |	 One-click deployment, convenient and rapid The purchased JCS for Memcached is ready to use, realizing rapid deployment without cares for hardware and software	| Installing machines by user self relies on the professional level of the technical staff to guarantee the operation of cache service
 Smooth dilatation	|The flexible expansion can be made depending on the use conditions, to make selection on demand, upgrade on demand, improve resource usage ratio and reduce redundancy expense|	However, the expansion period is long and the resource usage ratio is low.
 Monitoring alarms|	Various monitoring types are provided for users, including the monitoring of current connection amount, CPU use rate, total byte number of memory, command usage, etc. The visual data monitoring and display is enabled and the user can customize the monitoring options.	|Need to develop the monitoring system independently and the operation and maintenance personnel shall stand by at any time.
 Low Cost	|It configures, runs, and extends JCS for Memcached without operations such as machine installation and deployment, and operation and maintenance of the database; it has functions like resource monitoring and maintaining stability, which reduces daily maintenance workload.	|Need to build services by specific personnel, thus being time-consuming and labor-intensive and having high labor costs.

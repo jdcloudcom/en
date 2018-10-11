@@ -1,8 +1,8 @@
 # Compatible APIs
- Current supported APIs are listed in the below table. Please access  [OSS compatible S3 API documents](https://github.com/jdcloud-cmw/oss/tree/master/S3-API-Document).
 
+API of JD Cloud OSS that is compatible with S3 is listed in the following table, see [OSS compatible with S3 API document](https://github.com/jdcloud-cmw/oss/tree/master/S3-API-Document)
 
-|API Supported by OSS|API Introduction|OSS Compatible S3 API Reference|AWS S3 API Reference|
+|API supported by OSS|API introduction|API Reference of OSS is compatible with S3 |API Reference of AWS S3 |
 |-|-|-|-|
 |GET Service（List Bucket）|Obtain all Buckets under a User|Compatible [GET Service](https://github.com/jdcloud-cmw/oss/blob/master/S3-API-Document/Operations-on-the%20-Service/Get-Service.md)| [GET Service](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/RESTServiceGET.html)|
 |PUT Bucket|Create a Bucket, default permission is Private|Compatible [PUT Bucket](https://github.com/jdcloud-cmw/oss/blob/master/S3-API-Document/Operations-on-Bucket/Put-Bucket.md)| [PUT Bucket](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/RESTBucketPUT.html)|

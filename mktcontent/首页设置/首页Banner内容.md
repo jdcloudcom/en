@@ -647,7 +647,7 @@
 		"backgroud_image":"//img1.jcloudcs.com/cms/15a13e84-3647-43e2-89cc-f6b6eef704ac20180831153212.jpg"
 	},
 	{
-        "image_Url": "//img1.jcloudcs.com/cms/2e84c456-fdbb-4c92-975c-b0a011da984420180927102159.png",
+		"image_Url":"//img1.jcloudcs.com/cms/2e84c456-fdbb-4c92-975c-b0a011da984420180927102159.png",
 		"name":" Partners of JD Cloud Conference in 2018",
 		"id":"110",
 		"backgroud_image":"//img1.jcloudcs.com/cms/514a40a6-c993-46cd-81fb-82514cb4a12720180831162024.jpg"
@@ -663,11 +663,38 @@
 	},
 	{
 		"sub_title":"Fully-hosted Private Image Registry, One-stop Deployment Service, 90% Off Now",
-		"image_Url":"//img1.jcloudcs.com/cms/05502018-8106-4b8d-bb05-55a18c50da6320180915180235.png",
-		"dynamic_image":"//img1.jcloudcs.com/cms/c3be633c-40a3-4a3b-b4a3-99dd27a6a27620180915180241.png",
+		"image_Url":"//img1.jcloudcs.com/cms/16d048e9-99f6-4b2d-973d-4c26a9b0b7b320180927172745.png",
+		"dynamic_image":"//img1.jcloudcs.com/cms/13639a0e-6802-4416-8052-21dfd7afde0620180927172749.png",
 		"name":"Open Beta of Container Registry",
-		"id":"623",
+		"id":"1016",
 		"button_title":"More",
 		"main_title":"Container Registry in Beta"
+	},
+	{
+		"sub_title":"Devoted to Mass Data Search and Analysis",
+		"image_Url":"//img1.jcloudcs.com/cms/7e888d9c-7c05-4a32-928f-728f69ddf1e620180927175412.png",
+		"dynamic_image":"//img1.jcloudcs.com/cms/3427bed1-2416-4972-b08f-2bbd11f606c720180927175416.png",
+		"name":"JCS for Elasticsearch",
+		"id":"1017",
+		"button_title":"Free Trial",
+		"main_title":"JCS for Elasticsearch"
+	},
+	{
+		"sub_title":"Blockbuster-level Release of Bare Metal GPU Service on Cloud",
+		"image_Url":"//img1.jcloudcs.com/cms/7c82a3aa-65f9-4484-b9c0-46f9efe54be020180928182834.png",
+		"dynamic_image":"//img1.jcloudcs.com/cms/088434b8-fe8d-4de1-901d-480cd15163be20180928182838.png",
+		"name":"Blockbuster-level Launch of GPU Cloud Physical Server",
+		"id":"1018",
+		"button_title":"More",
+		"main_title":"GPU Cloud Physical Server"
+	},
+	{
+		"sub_title":"High-performance Automatic Sharding Database Under Mass Data",
+		"image_Url":"//img1.jcloudcs.com/cms/b48e155d-2e8f-4214-ad3a-c26a7b14de4320180929141939.png",
+		"dynamic_image":"//img1.jcloudcs.com/cms/37cf0bf3-979c-4b40-a925-60c126e57f0120180929141943.png",
+		"name":"Open Beta Test of Distributed Relational Database Service (DRDS)",
+		"id":"1020",
+		"button_title":"More",
+		"main_title":"Database DRDS Open Beta Test"
 	}
 ]

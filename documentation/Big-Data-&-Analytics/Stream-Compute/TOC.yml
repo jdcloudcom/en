@@ -5,11 +5,11 @@ items:
   items:
   - name: Product Overview
     href: Introduction/Product-Overview.md
-  - name: What is Stream Compute
+  - name: About Stream Compute
     href: Introduction/what-is-stream-compute.md
   - name: Comparison of Stream Compute and Batch Compute
     href: Introduction/compare.md
-  - name: Basic Infrastructure
+  - name: Basic Architecture
     href: Introduction/Basic-Infrastructure.md
   - name: Benefits
     href: Introduction/Benefits.md
@@ -20,7 +20,7 @@ items:
 - name: Pricing
   items:
   - name: Purchase Notes
-    href: Billing-Overview.md
+    href: Pricing/Billing-Overview.md
   - name: Arrears Rules
     href: Pricing/Billing-Rules.md
   - name: Price Overview
