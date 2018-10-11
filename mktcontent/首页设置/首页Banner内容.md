@@ -696,5 +696,23 @@
 		"id":"1020",
 		"button_title":"查看详情",
 		"main_title":"数据库DRDS开放公测"
+	},
+	{
+		"sub_title":"基于Memcached协议的高性能、内存级的Key-Value服务",
+		"image_Url":"//img1.jcloudcs.com/cms/8c70b8e9-b409-40ca-b68a-9b7e916c0e2b20181010160703.png",
+		"dynamic_image":"//img1.jcloudcs.com/cms/61e68fa2-8623-4f88-a7da-d4ddd522cede20181010160711.png",
+		"name":"缓存Memcached",
+		"id":"1021",
+		"button_title":"免费试用",
+		"main_title":"缓存Memcached"
+	},
+	{
+		"sub_title":"卓越计算能力，帮助快速构建异构计算应用",
+		"image_Url":"//img1.jcloudcs.com/cms/5e38cabc-0543-42d8-a48b-729dae9fb19120181011143534.png",
+		"dynamic_image":"//img1.jcloudcs.com/cms/3a6df293-f590-411a-a1c6-267ff6b5e81620181011143541.png",
+		"name":"GPU云主机震撼上线",
+		"id":"1022",
+		"button_title":"查看详情",
+		"main_title":"GPU云主机震撼上线"
 	}
 ]
