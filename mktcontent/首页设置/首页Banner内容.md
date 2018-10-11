@@ -680,21 +680,39 @@
 		"main_title":"JCS for Elasticsearch"
 	},
 	{
-		"sub_title":"Blockbuster-level Release of Bare Metal GPU Service on Cloud",
+		"sub_title":"Bare Metal GPU Server on Cloud is Released",
 		"image_Url":"//img1.jcloudcs.com/cms/7c82a3aa-65f9-4484-b9c0-46f9efe54be020180928182834.png",
 		"dynamic_image":"//img1.jcloudcs.com/cms/088434b8-fe8d-4de1-901d-480cd15163be20180928182838.png",
-		"name":"Blockbuster-level Launch of GPU Cloud Physical Server",
+		"name":"GPU Cloud Physical Server",
 		"id":"1018",
 		"button_title":"More",
 		"main_title":"GPU Cloud Physical Server"
 	},
 	{
-		"sub_title":"High-performance Automatic Sharding Database Under Mass Data",
+		"sub_title":"High Performance Database with Automatic Dadabase and Table Sharding Capacity for Massive Data",
 		"image_Url":"//img1.jcloudcs.com/cms/b48e155d-2e8f-4214-ad3a-c26a7b14de4320180929141939.png",
 		"dynamic_image":"//img1.jcloudcs.com/cms/37cf0bf3-979c-4b40-a925-60c126e57f0120180929141943.png",
-		"name":"Open Beta Test of Distributed Relational Database Service (DRDS)",
+		"name":"DRDS",
 		"id":"1020",
 		"button_title":"More",
-		"main_title":"Database DRDS Open Beta Test"
+		"main_title":"DRDS"
+	},
+	{
+		"sub_title":"Providing High-performance and Memory Level’s Key-Value Service based on Memcached Protocol",
+		"image_Url":"//img1.jcloudcs.com/cms/8c70b8e9-b409-40ca-b68a-9b7e916c0e2b20181010160703.png",
+		"dynamic_image":"//img1.jcloudcs.com/cms/61e68fa2-8623-4f88-a7da-d4ddd522cede20181010160711.png",
+		"name":"JCS for Memcached",
+		"id":"1021",
+		"button_title":"Start Free",
+		"main_title":"JCS for Memcached"
+	},
+	{
+		"sub_title":"Excellent Computing Capacity, Accelerate Development of Heterogeneous Computing Applications.",
+		"image_Url":"//img1.jcloudcs.com/cms/5e38cabc-0543-42d8-a48b-729dae9fb19120181011143534.png",
+		"dynamic_image":"//img1.jcloudcs.com/cms/3a6df293-f590-411a-a1c6-267ff6b5e81620181011143541.png",
+		"name":"GPU Virtual Machines",
+		"id":"1022",
+		"button_title":"More",
+		"main_title":"GPU Virtual Machines"
 	}
 ]
