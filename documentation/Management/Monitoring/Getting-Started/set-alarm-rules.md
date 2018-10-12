@@ -23,7 +23,7 @@ Modify the monitoring rules: According the needs, modify the metric, statistical
 ### Manage Alarm Contacts/Groups
 After logging in to the JD Cloud Account, click the Account Information drop-down box on the upper right side of the page and click Account Management - Contact Management. You can view and manage contacts and contact groups on this page.
 
-![image](https://raw.githubusercontent.com/jdcloudcom/cn/edit/image/Cloud-Monitor/yunziyuan/7.%E8%B5%84%E6%BA%90%E7%9B%91%E6%8E%A7.png)
+![image](https://raw.githubusercontent.com/jdcloudcom/en/Monitoring/image/Cloud-Monitor/getting-started/getting-practices-07.png)
 
 ### Add/Use Alarm Template
 1. Enter the JD Cloud Console - Monitoring menu, find the instance of the alarm rules that needs to be modified, click on the “Alarm Rules”. Click on the newly added alarm rules on this page, modify the metric, statistical period, statistical method, calculation method, threshold, duration according to the needs. When finished, check the “Save as New Alarm Rules Template” to save the rule as a template.
