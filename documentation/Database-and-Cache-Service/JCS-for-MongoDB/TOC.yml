@@ -96,8 +96,8 @@
     - name: Connect MongoDB Instance with Public Network
       href: Best-Practices/Public-Network-Connect-to-MongoDB-Instance.md
   - name: Tutorial
-    items:
     status:0
+    items:
   - name: Troubleshooting
     items:
     - name: Virtual machine is unable to connect to the MongoDB instances?
