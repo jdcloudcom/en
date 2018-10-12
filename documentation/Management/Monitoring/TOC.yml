@@ -14,7 +14,7 @@ items:
       href: Introduction/Metrics.md
     - name: Specifications
       href: Introduction/Specification.md
-      status:0
+      status: 0
     - name: Restrictions
       href: Introduction/Restrictions.md
     - name: Application Scenarios 
