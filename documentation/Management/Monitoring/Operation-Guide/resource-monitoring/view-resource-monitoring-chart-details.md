@@ -12,6 +12,6 @@ The Monitoring Graph of the resource can be viewed in two ways, one is viewed on
 ### Resource Inside View
 1. Log in to the JD Cloud Console and go to the Resource Monitoring under the Monitoring module, select a certain type of resource to go to the resource list of the resource, and view the details of a certain resource.
 
-![image](https://raw.githubusercontent.com/jdcloudcom/cn/edit/image/Cloud-Monitor/yunziyuan/3.%E8%B5%84%E6%BA%90%E7%9B%91%E6%8E%A7.png)
+![image](https://raw.githubusercontent.com/jdcloudcom/en/Monitoring/image/Cloud-Monitor/getting-started/use-RM-03.png)
 
 2. On the Cloud Resource details page, switch to the "Monitoring" tab page and you will see real-time data for each instance of the monitoring metrics for that instance.
