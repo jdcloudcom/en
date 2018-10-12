@@ -15,7 +15,7 @@ items:
       herf: Introduction/Features.md
     - name: Specifications
       herf: Introduction/Specifications.md
-      status:0
+      status: 0
     - name: Restrictions
       herf: Introduction/Restrictions.md
     - name: Application Scenarios 
@@ -32,7 +32,7 @@ items:
       herf: Pricing/Purchase-Process.md 
     - name: Renew-Process
       herf: Pricing/Renew-Process.md
-      status:0 
+      status: 0 
 - name: Getting Started
   items:
     - name: Overview
@@ -89,41 +89,41 @@ items:
  
 - name: Tutorial
   items:
-  status:0
+  status: 0
 - name: Troubleshooting
   items:
   - name: Virtual machine is unable to connect to the MongoDB instances?
     herf: Troubleshooting/Connect-Failed.md
-    status:0 
+    status: 0 
   - name: What commands are not supported by MongoDB Service?
     herf: Troubleshooting/Command.md
-    status:0 
+    status: 0 
   - name: Connection hints no permission in case of correct account and password?
     herf: Troubleshooting/Authentication.md    
-    status:0 
+    status: 0 
 - name: FAQ
   herf: FAQ/faq.md
 - name: API Reference
   herf:
-  status:0 
+  status: 0 
 - name: SDK Reference
   herf:
-  status:0 
+  status: 0 
 - name: Related Resources
   items:
   - name: Document History
     herf: Related-Resources/Document-History.md     
   - name: Terms of Service
     herf: Related-Resources/Service-Terms.md           
-    status:0      
+    status: 0      
   - name: SLA
     herf: Related-Resources/SLA.md           
-    status:0       
+    status: 0       
   - name: ICP Filing
     herf: Related-Resources/Filing.md           
-    status:0        
+    status: 0        
   - name: Glossary
     herf: Related-Resources/Glossary.md           
-    status:0          
+    status: 0          
           
           
