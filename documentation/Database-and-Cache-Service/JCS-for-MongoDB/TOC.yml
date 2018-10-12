@@ -96,7 +96,7 @@
     - name: Connect MongoDB Instance with Public Network
       href: Best-Practices/Public-Network-Connect-to-MongoDB-Instance.md
   - name: Tutorial
-    status:0
+    status: 0
     items:
   - name: Troubleshooting
     items:
