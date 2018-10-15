@@ -30,7 +30,7 @@ For windows virtual machine, a user needs to log in the Virtual Machines for off
 
 **Q: How is the IO performance of JD Cloud Disk? How to select?**
 
-A: JD Cloud Disk consists of SSD Cloud Disk and Premium Hdd Cloud Disk: the SSD Cloud Disk provides a maximum of 20000 random read-write IOPS and higher I/O performance and applies to application scenarios where high capacity and core and key business are required; the Premium Hdd Cloud Disk provides a maximum of 3000 random read-write IOPS and applies to application scenario where the data will not be frequently accessed or low I/O capacity is required.
+A: JD Cloud Disk consists of SSD Cloud Disk and Premium Hdd Cloud Disk: the SSD Cloud Disk provides a maximum of 20000 random read-write IOPS and higher I/O performance and applies to application scenarios where high capacity and core and key business are required; the Premium Hdd Cloud Disk provides a maximum of 500 random read-write IOPS and applies to application scenario where the data will not be frequently accessed or low I/O capacity is required.
 
 **Q: How to attach a Cloud Disk Service to a Virtual Machines?**
 

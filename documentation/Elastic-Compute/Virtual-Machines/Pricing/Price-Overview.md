@@ -495,6 +495,35 @@ The price of JD Cloud's VM instance mainly includes: instance price (vCPU and me
       <td>21</td>
       <td></td>
    </tr>
+   <tr>
+      <td rowspan="3">GPU</td>
+      <td rowspan="3">Standard</td>
+      <td>p.n1p40.3xlarge</td>
+      <td>12</td>
+      <td>48</td>
+      <td>4241.5</td>
+      <td>14.73</td>
+      <td></td>
+   </tr>
+   <tr>
+     <td>p.n1p40.7xlarge</td>
+      <td>28</td>
+      <td>110</td>
+      <td>8967.5</td>
+      <td>31.14</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>p.n1p40.14xlarge</td>
+      <td>56</td>
+      <td>220</td>
+      <td> 17935</td>
+      <td>62.27</td>
+      <td></td>
+   </tr>
+
+
+
 </table>
 
 Please note:
@@ -507,5 +536,5 @@ Please note:
 
 [Cloud Disk Price Overview](http://docs.jdcloud.com/cn/cloud-disk-service/price-overview)
 
-[Elastic IP Price Overview](../../../Networking/Elastic-IP/Pricing/Billing-Overview.md)
+[Elastic IP Price Overview](../../../Networking/Elastic-IP/Pricing/Price-Overview.md)
 

@@ -2,7 +2,7 @@
 
 ## Overview
 
-The data migration tool of Object Storage Service supports the file migration from services as AW S3, Alibaba Cloud, Tencent Cloud, Baidu Cloud, Qiniu Cloud, etc. to JD Cloud OSS and supports the migration of local file list at the same time. The migration tool is a smile distributed system, which adopts python rpc for implementation, has one Master and one or more Workers, and you may run such tool on one or more machines.
+The data migration tool of Object Storage Service supports the file migration from services as AWS S3, Alibaba Cloud, Tencent Cloud, Baidu Cloud, Qiniu Cloud, etc. to JD Cloud OSS and supports the migration of local file list at the same time. The migration tool is a smile distributed system, which adopts python rpc for implementation, has one Master and one or more Workers, and you may run such tool on one or more machines.
 
 The tool features are as follows:
 
@@ -110,7 +110,7 @@ Use of crobtab under linux is as follows:
 
 Give crontab -e command, add timing job and carry out such action once per day:
 
-![](../../../../image/Object-Storage-Service/OSS-090.jpg)
+![](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-090.jpg)
 
 Note: If the last timing job is unfinished, the new migration task will not be started. This is to ensure that the data is kept consistent in the migration process.
 

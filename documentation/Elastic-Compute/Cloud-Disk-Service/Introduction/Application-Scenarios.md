@@ -19,7 +19,7 @@ Application Scenarios:
 **Premium Hdd Cloud Disk**
 
 
-I/O performance: A maximum of 3000 random read-write IOPS and 80MBps throughput performance is provided;
+I/O performance: A maximum of 500 random read-write IOPS and 80MBps throughput performance is provided;
 
 Maximum capacity: Single Premium Hdd Cloud Disk provides a maximum of 3000GB storage space;
 

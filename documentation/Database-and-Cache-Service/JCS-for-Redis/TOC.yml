@@ -86,11 +86,12 @@
     items:
     status: 0      
   - name: FAQ
-    href: FAQ/FQA.md
+    href: FAQ/FAQ.md
   - name: API Reference
-    href:
+    href: https://docs.jdcloud.com/cn/jcs-for-redis/api/overview
   - name: SDK Reference
     href:
+    status: 0   
   - name: User Agreements
     status: 0
     items:
