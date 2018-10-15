@@ -48,7 +48,7 @@ Take Java SDK as an example, other ways and development languages please refer t
    <version>1.0.2</version>
 </dependency>
 ```
-2. For the sending code part, please refer to the demo sample: [jcq-sdk-demo.zip](https://github.com/jdcloudcom/cn/blob/MessageQueue/image/Internet-Middleware/Message-Queue/jcq-sdk-demo.zip)¡£
+2. For the sending code part, please refer to the demo sample: [jcq-sdk-demo.zip](http://jcq-inuse-important-cannotdelete.oss.cn-north-1.jcloudcs.com/jcq-sdk-demo.zip).
 
 ### Note:
 
@@ -56,5 +56,5 @@ Take Java SDK as an example, other ways and development languages please refer t
 
 2. After the server fails to push the message 16 times, the message will enter the dead letter queue. The lifetime of the dead-letter queue is 3 days, and the message cannot be restored and resent beyond the message lifecycle.
 
-3. Integrates MQ under the Spring framework, please refer to the demo sample: [jcq-spring-demo.zip](https://github.com/jdcloudcom/cn/blob/MessageQueue/image/Internet-Middleware/Message-Queue/jcq-spring-demo.zip)¡£
+3. Integrates MQ under the Spring framework, please refer to the demo sample: [jcq-spring-demo.zip](jcq-spring-demo.zip](http://jcq-inuse-important-cannotdelete.oss.cn-north-1.jcloudcs.com/jcq-spring-demo.zip).
 
