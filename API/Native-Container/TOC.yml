@@ -1,0 +1,45 @@
+  name: Native Container
+  href: 
+  items:
+  - name: API Overview
+    href: overview.md
+  - name: Update History
+    href: ChangeLog.md
+  - name: API Information
+    items:
+      - name: Native Container
+        items:
+          - name: Associate Native Container with Elastic IP
+            href: Native-Container/associateElasticIp.md
+          - name: Create Native Container
+            href: Native-Container/createContainers.md
+          - name: Delete Native-Container
+            href: Native-Container/deleteContainer.md
+          - name: Search Native-Container Details
+            href: Native-Container/describeContainer.md
+          - name: Search Native-Container List
+            href: Native-Container/describeContainers.md
+          - name: Disassociate Native-Container with Elastic IP
+            href: Native-Container/disassociateElasticIp.md
+          - name: Search Native-Container Log
+            href: Native-Container/getLogs.md
+          - name: Modify Native-Container Attribute
+            href: Native-Container/modifyContainerAttribute.md
+          - name: Start Native-Container
+            href: Native-Container/startContainer.md
+          - name: Stop Native-Container
+            href: Native-Container/stopContainer.md
+      - name: Quota
+        items:
+          - name: Search Native-Container Quota
+            href: Quota/describeQuota.md
+      - name: secret
+        items:
+          - name: Create Secret
+            href: Secrets/createSecret.md
+          - name: Delete Secret
+            href: Secrets/deleteSecret.md
+          - name: Search Secret Details
+            href: Secrets/describeSecret.md
+          - name: Search Secret List
+            href: Secrets/describeSecrets.md
