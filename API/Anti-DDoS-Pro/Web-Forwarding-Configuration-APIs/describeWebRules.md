@@ -13,7 +13,7 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/webR
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**instanceId**|String|True| |Instance ID|
-|**regionId**|String|True| |Belonging Region ID|
+|**regionId**|String|True| |Region ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
@@ -41,7 +41,7 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/webR
 |**ccStatus**|Integer|0->CC disabled  1->CC enabled|
 |**cname**|String|cname of Rules|
 |**customPortStatus**|Integer|Confirm whether it is customized port number or not? 0->default  1->customized|
-|**domain**|String|Subdomain Name|
+|**domain**|String|Subdomain|
 |**forceJump**|Integer|Confirm to enable https forced jump? The attribute may be configured when the protocol is HTTP_HTTPS  0->no  1->yes|
 |**httpCertStatus**|Integer|Certificate Status: 0->exceptional  1->normal|
 |**httpOrigin**|Integer|Confirm to enable http back-to-origin, 0->no  1->yes. The attribute may be configured when HTTPS is checked|

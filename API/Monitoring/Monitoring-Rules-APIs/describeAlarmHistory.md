@@ -20,7 +20,7 @@ https://monitor.jdcloud-api.com/v1/regions/{regionId}/alarmHistory
 |**endTime**|String|True| |Query end time of data, current time by default, it can enter long-type time, and it also can enter yyyy-MM-dd'T’HH:mm:ssZ type time|
 |**id**|String|False| |ID of Alarm Rule|
 |**pageNumber**|Integer|False| |Page; 1 by default, the value range: [1,∞)|
-|**pageSize**|Integer|False| |Paging size; 20 by default; value range[10, 100]|
+|**pageSize**|Integer|False| |Paging Size; 20 by default. Value Range: [10, 100]|
 |**resourceId**|String|False| |Resource Id|
 |**serviceCode**|String|False| |Product Name|
 |**startTime**|String|True| |Query start time of data, 24 hours ago by default, it can enter long-type time, and it also can enter yyyy-MM-dd'T’HH:mm:ssZ type time|
@@ -38,7 +38,7 @@ https://monitor.jdcloud-api.com/v1/regions/{regionId}/alarmHistory
 |---|---|---|
 |**alarmHistoryList**|AlarmHistory[]|Alarm History List|
 |**numberPages**|Number|Number of Total Pages|
-|**numberRecords**|Number|Number of Total Records|
+|**numberRecords**|Number|Total Number of Records|
 |**pageNumber**|Number|Page|
 |**pageSize**|Number|Paging Size|
 ### AlarmHistory

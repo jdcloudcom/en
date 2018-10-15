@@ -8,7 +8,7 @@ Delete the database from the RDS instance. For management and data restoration, 
 DELETE
 
 ## Request address
-https://rds.jdcloud-api.com/0.2.9/regions/{regionId}/instances/{instanceId}/databases/{dbName}
+https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/databases/{dbName}
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|

@@ -49,7 +49,7 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/elasticIps/
 ## Response code
 |Return code|Description|
 |---|---|
-|**200**|Successful Operation|
+|**200**|Successful operation|
 |**400**|Invalid param 'xxx'|
 |**500**|Unknown server error|
 |**401**|Unauthenticated user pin 'xxx'|

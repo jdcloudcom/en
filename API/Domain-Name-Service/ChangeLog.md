@@ -1,7 +1,7 @@
 # Update History #
 API Version 1.0. 3
 
-|Release Time|Version Number|Update|Description|
+|Release Time|Version Number| Update |Instructions|
 |---|---|---|---|
 |2018-08-21|1.0.3|Update Document|* Update API Document|
 |2018-08-05|1.0.2|Resolution Record API|* Add parameters to searchRR API|

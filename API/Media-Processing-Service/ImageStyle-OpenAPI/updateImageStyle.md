@@ -41,4 +41,4 @@ https://mps.jdcloud-api.com/v1/regions/{regionId}/buckets/{bucketName}/imageStyl
 ## Response code
 |Return code|Description|
 |---|---|
-|**200**|Successful operation|
+|**200**|successful operation|

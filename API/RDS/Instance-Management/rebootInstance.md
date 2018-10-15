@@ -12,23 +12,22 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:rebootI
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**instanceId**|String|True||RDS instance ID, which uniquely identifies an RDS instance|
-|**regionId**|String|True||Region code, with range detailed in [Regions and Availability Zone Comparison Table](../Enum-Definitions/Regions-AZ.md)|
+|**instanceId**|String|True| |RDS instance ID, which uniquely identifies an RDS instance|
+|**regionId**|String|True| |Region code, with range detailed in [Regions and Availability Zone Comparison Table](../Enum-Definitions/Regions-AZ.md)|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**rebootMaster**|Boolean|False||Whether to reboot the primary node. <br> -Only SQL Server supports this parameter|
-|**rebootSlave**|Boolean|False||Whether to reboot the standby node. <br>- Only SQL Server supports this parameter|
+|**rebootMaster**|Boolean|False| |Whether to reboot the primary node. <br> -Only SQL Server supports this parameter|
+|**rebootSlave**|Boolean|False| |Whether to reboot the standby node. <br>- Only SQL Server supports this parameter|
 
 
-## Return parameter
-|Name|Type|Description|
-|---|---|---|
+## Response parameter
+None
 
 
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

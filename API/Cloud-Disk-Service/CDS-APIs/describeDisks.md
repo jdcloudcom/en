@@ -2,7 +2,7 @@
 
 
 ## Description
--   Query detals of Cloud Disks
+-   filters, between multiple filter conditions is logic AND, and multiple values ​​inside each condition is logic OR
 
 
 ## Request method
@@ -18,9 +18,9 @@ https://disk.jdcloud-api.com/v1/regions/{regionId}/disks
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**filters**|Filter[]|False| |diskId - Cloud Disk ID, accurate match, support multiple<br>diskType - Type of Cloud Disk, accurate match, support multiple, value: ssd or premium-hdd<br>instanceId - ID of the Machine, to which the cloud disk is attached, accurate match, support multiple<br>instanceType - Type of the Machine, to which the cloud disk is attached, accurate match, support multiple<br>status - Availability Zone, accurate match, support multiple<br>az - Status of the cloud disk, accurate match, support multiple<br>name - Name of the cloud disk, fuzzy match, support single<br>multiAttach - Whether the cloud disk is multi-point attached, accurate match, support multiple<br>filters, between multiple filter conditions is logic AND, and multiple values inside each condition is logic OR<br>|
+|**filters**|Filter[]|False| |diskId - Cloud Disk ID, accurate match, support multiple<br>diskType - Type of Cloud Disk, accurate match, support multiple, value: ssd or premium-hdd<br>instanceId - ID of the Machine, to which the cloud disk is attached, accurate match, support multiple<br>instanceType - Type of the Machine, to which the cloud disk is attached, accurate match, support multiple<br>status - Availability Zone, accurate match, support multiple<br>az - Status of the cloud disk, accurate match, support multiple<br>name - Name of the cloud disk, fuzzy match, support single<br>multiAttach - Whether the cloud disk is multi-point attached, accurate match, support multiple<br>|
 |**pageNumber**|Integer|False|1|Page Number: 1 by default; value range: [1, ∞)|
-|**pageSize**|Integer|False|20|Paging Size: 20 by default; value range: [10,100]|
+|**pageSize**|Integer|False|20|Paging Size: 20 by default. Value Range: [10, 100]|
 |**tags**|TagFilter[]|False| |Tag Filter Condition|
 
 ### Filter
@@ -39,7 +39,7 @@ https://disk.jdcloud-api.com/v1/regions/{regionId}/disks
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
-|**result**|Result|Result Set|
+|**result**|Result|Query Result Set|
 
 
 ### Result
@@ -55,7 +55,7 @@ https://disk.jdcloud-api.com/v1/regions/{regionId}/disks
 |**charge**|Charge|Cloud Disk Billing Configuration|
 |**createTime**|String|Cloud Disk Creation Time|
 |**description**|String|Description of the cloud disk. It allows you to enter all characters under UTF-8 encoding, but no more than 256 characters.|
-|**diskId**|String|Cloud Disk ID|
+|**diskId**|String|Cloud Disk Service ID|
 |**diskSizeGB**|Integer|Disk Size, in GiB|
 |**diskType**|String|Disk Type, ssd or premium-hdd|
 |**multiAttachable**|Boolean|Is multiple attachment True or False|
@@ -68,7 +68,7 @@ https://disk.jdcloud-api.com/v1/regions/{regionId}/disks
 |---|---|---|
 |**attachTime**|String|Attachment Time|
 |**attachmentId**|String|Attach ID|
-|**diskId**|String|Cloud Disk ID|
+|**diskId**|String|Cloud Disk Service ID|
 |**instanceId**|String|Instance ID|
 |**instanceType**|String|Instance Type, value: vm or nc|
 |**status**|String|Attaching Status, 'attaching', 'attached', 'detaching' or 'detached'|

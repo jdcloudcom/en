@@ -4,7 +4,7 @@
 ## Description
 Create configuration containers for one or more sets
 - Real-name verification is required for creating containers
-- Image
+- image
     - Determine the container image via the image name
     - Images named as nginx:tag or mysql/mysql-server:tag are the public images of docker hub
     - Images named as container-registry/image:tag are the images of private registry
@@ -41,8 +41,8 @@ Create configuration containers for one or more sets
     - Data Disk
         - The available Cloud Disk Service types include ssd and premium-hdd.
         - Disk Size
-            - SSD: Range [20, 1000]GB, Step Size: 10G
-            - Premium-hdd: Range [20, 3000]GB, Step Size: 10G
+            - ssd: Range[20, 1000] GB, Step Size: 10G
+            - premium-hdd: Range[20, 3000] GB, Step Size: 10G
         - Automatic Deletion
             - Automatic Deletion by Default
         - The existing Cloud Disk Service can be selected.
@@ -116,18 +116,18 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/containers
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**az**|String|True| |Availability Zone, to which the cloud disk belongs|
-|**charge**|ChargeSpec|False| |Billing configuration. If not specified, the default billing type is pay-as-you-go - pay by service time by default.|
+|**charge**|ChargeSpec|False| |Billing configuration; if no specification is made, the billing type is Pay-As-You-Go - Pay as the service time by default|
 |**description**|String|False| |Description of the cloud disk|
 |**diskSizeGB**|Integer|True| |Size of the cloud disk, unit: GiB; ssd value range of [20,1000]GB and step size of 10G; premium-hdd value range of [20,3000]GB and step size of 10G|
 |**diskType**|String|True| |Type of the cloud disk, value ssd or premium-hdd|
 |**multiAttachable**|Boolean|False| |Whether the Cloud Disk Service supports the mode that one disk is attached to multiple machines. It is set as false by default (not supported).|
 |**name**|String|True| |Name of the cloud disk|
-|**snapshotId**|String|False| |Snapshot ID used to create a cloud disk|
+|**snapshotId**|String|False| |Snapshot ID used to create Cloud Disk Service|
 ### ElasticIpSpec
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**bandwidthMbps**|Integer|False| |Elastic IP Speed Limit   Unit: MB  |
-|**chargeSpec**|ChargeSpec|False| |Billing Configuration |
+|**chargeSpec**|ChargeSpec|False| |Billing Configuration|
 |**provider**|String|False| |IP Service Provider, value: bgp or no_bg    |
 ### EnvVar
 |Name|Type|Required or not|Default value|Description|
@@ -159,12 +159,12 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/containers
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**az**|String|True| |Availability Zone, User’s Default Availability Zone|
-|**description**|String|False| |Description |
+|**description**|String|False| |Description|
 |**primaryIpAddress**|String|False| |Primary IP of Network Interface|
-|**sanityCheck**|Boolean|False| |PortSecurity, with value 0 or 1 and default value 1|
-|**secondaryIpAddresses**|String[]|False| |SecondaryIp List|
-|**secondaryIpCount**|Integer|False| |Amount of SecondaryIp Assigned Automatically|
-|**securityGroups**|String[]|False| |Security Group ID List |
+|**sanityCheck**|Boolean|False| |PortSecurity, the value is 0 or 1, 1 by default|
+|**secondaryIpAddresses**|String[]|False| |Secondary IP List|
+|**secondaryIpCount**|Integer|False| |Amount of Secondary IP Assigned Automatically|
+|**securityGroups**|String[]|False| |Security Group ID List|
 |**subnetId**|String|True| |Subnet ID|
 
 ## Response parameter

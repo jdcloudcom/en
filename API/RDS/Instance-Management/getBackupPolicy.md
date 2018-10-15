@@ -12,20 +12,20 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:getBack
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**instanceId**|String|True||RDS instance ID, which uniquely identifies an RDS instance|
-|**regionId**|String|True||Region code, with range detailed in [Regions and Availability Zone Comparison Table](../Enum-Definitions/Regions-AZ.md)|
+|**instanceId**|String|True| |RDS instance ID, which uniquely identifies an RDS instance|
+|**regionId**|String|True| |Region code, with range detailed in [Regions and Availability Zone Comparison Table](../Enum-Definitions/Regions-AZ.md)|
 
 ## Request parameter
 None
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result||
+|**result**|Result| |
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
 |**backupBinlog**|String|Whether to back up binlog<br>true: indicates backup<br>false: indicates no backup- <br>**SQL Server does not support**<br>- **MySQL supports**|
@@ -33,7 +33,7 @@ None
 |**retentionPeriod**|Integer|The retention period of automatic backup, in days, defaults to 7 days, range is 7-730|
 |**startWindow**|String|The range of start time window to automatically backup is 00:00-23:59, and the time range difference must not be less than 30 minutes. <br>For example: 00:00-01:00, it means that the database is automatically backed up from 0:00 to 01:00, and the time of backup completion is related to the size of the instance, not necessarily within this time range.|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

@@ -8,7 +8,7 @@ Modify Current Audit Options. Currently available audit options are available th
 POST
 
 ## Request address
-https://rds.jdcloud-api.com/0.2.9/regions/{regionId}/instances/{instanceId}/audit:modifyAudit
+https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/audit:modifyAudit
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|

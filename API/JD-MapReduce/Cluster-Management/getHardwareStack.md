@@ -44,7 +44,7 @@ None
 ### Scale
 |Name|Type|Description|
 |---|---|---|
-|**core**|Integer|CPU Core Number|
+|**core**|Integer|Number of CPU Cores|
 |**memory**|Integer|Memory Size, Unit: G|
 
 ## Response code

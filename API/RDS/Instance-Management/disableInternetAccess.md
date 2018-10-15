@@ -8,7 +8,7 @@ Disable the internet access function of the RDS instance. After the disabling, u
 POST
 
 ## Request address
-https://rds.jdcloud-api.com/0.2.9/regions/{regionId}/instances/{instanceId}: disableInternetAccess
+https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}: disableInternetAccess
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|

@@ -14,13 +14,13 @@ https://disk.jdcloud-api.com/v1/regions/{regionId}/disks/{diskId}:extend
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**diskId**|String|True| |Cloud Disk ID|
+|**diskId**|String|True| |Cloud Disk Service ID|
 |**regionId**|String|True| |Region ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**diskSizeGB**|Integer|True| |The size of the cloud disk after expansion in GiB|
+|**diskSizeGB**|Integer|True| |The size of the cloud disk after expansion is in GiB|
 
 
 ## Response parameter

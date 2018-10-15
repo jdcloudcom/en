@@ -8,7 +8,7 @@ Enable the internet access function of the RDS instance. After enabling, users c
 POST
 
 ## Request address
-https://rds.jdcloud-api.com/0.2.9/regions/{regionId}/instances/{instanceId}:enableInternetAccess
+https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:enableInternetAccess
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|

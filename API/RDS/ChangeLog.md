@@ -1,7 +1,7 @@
 # Update History #
 API Version: 0.3.0
 
-|Release Time|Version Number|Update|Description|
+|Release Time|Version Number| Update |Instructions|
 |---|---|---|---|
 |2018-08-30|0.3.0|MySQL APIs added|* Upgrade instance configuration APIs added<br>* Creating instance APIs according to time points and backup added<br>* Account authorization and account authorization cancellation added<br>* Creating backup and querying backup list APIs support MySQL<br>* Modifying and acquiring backup policy APIs support MySQL<br>* Open the white list modification function|
 |2018-08-24|0.2.9|Official Website Internationalization|* Optimized API Description|

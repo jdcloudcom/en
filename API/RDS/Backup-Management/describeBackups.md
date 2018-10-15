@@ -8,7 +8,7 @@ View the detailed information of all backups in the RDS instance. The returned b
 GET
 
 ## Request address
-https://rds.jdcloud-api.com/0.2.9/regions/{regionId}/backups
+https://rds.jdcloud-api.com/v1/regions/{regionId}/backups
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|

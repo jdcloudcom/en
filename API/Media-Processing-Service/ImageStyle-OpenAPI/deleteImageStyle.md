@@ -30,4 +30,4 @@ None
 ## Response code
 |Return code|Description|
 |---|---|
-|**200**|Successful operation|
+|**200**|successful operation|

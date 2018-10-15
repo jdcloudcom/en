@@ -8,7 +8,7 @@ Obtain the download link of the entire backups or  a single file in the backup. 
 GET
 
 ## Request address
-https://rds.jdcloud-api.com/0.2.9/regions/{regionId}/backups/{backupId}/downloadURLs
+https://rds.jdcloud-api.com/v1/regions/{regionId}/backups/{backupId}/downloadURLs
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|

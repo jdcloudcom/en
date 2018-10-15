@@ -8,7 +8,7 @@ Set or cancel whether the uploaded file is shared to other instances under the s
 POST
 
 ## Request address
-https://rds.jdcloud-api.com/0.2.9/regions/{regionId}/instances/{instanceId}/importFiles/{fileName}:setShared
+https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/importFiles/{fileName}:setShared
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|

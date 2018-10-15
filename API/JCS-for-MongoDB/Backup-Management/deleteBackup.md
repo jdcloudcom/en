@@ -12,7 +12,7 @@ https://mongodb.jdcloud-api.com/v1/regions/{regionId}/backups/{backupId}
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**backupId**|String|True| |Backup ID|
+|**backupId**|String|True| |backup ID|
 |**regionId**|String|True| |Region ID|
 
 ## Request parameter
