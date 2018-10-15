@@ -9,7 +9,7 @@ Modify certain VM information, including name and description.
 POST
 
 ## Request address
-https://vm.jdcloud-api.com/1.0.3/regions/{regionId}/instances/{instanceId}:modifyInstanceAttribute
+https://vm.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:modifyInstanceAttribute
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
@@ -19,13 +19,12 @@ https://vm.jdcloud-api.com/1.0.3/regions/{regionId}/instances/{instanceId}:modif
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**description**|String|False| |Description, <a href='https://www.jdcloud.com/help/detail/3870/isCatalog/1'>Refer to the public parameter specification</a>.|
-|**name**|String|False| |Name, <a href='https://www.jdcloud.com/help/detail/3870/isCatalog/1'>Refer to the public parameter specification </a>.|
+|**description**|String|False| |Description, <a href="http://docs.jdcloud.com/virtual-machines/api/general_parameters">Refer to the public parameter specification</a>.|
+|**name**|String|False| |Name, <a href="http://docs.jdcloud.com/virtual-machines/api/general_parameters">Refer to the public parameter specification </a>.|
 
 
 ## Response parameter
 None
-
 
 
 ## Response code
@@ -33,7 +32,7 @@ None
 |---|---|
 |**400**|Invalid parameter|
 |**401**|Authentication failed|
-|**404**|Not Found  |
+|**404**|Not found|
 |**503**|Service unavailable|
 |**200**|OK|
 |**500**|Internal server error|

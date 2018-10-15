@@ -1,4 +1,4 @@
-  name: Virtual Machines
+  name: Virtual Machine
   href: 
   items:
   - name: API Overview
@@ -85,11 +85,11 @@
             href: Quota/describeQuotas.md
   - name: Use Help
     items:
-      - name: VM Instance Creation
+      - name: Creation VM Sample
         href: Help/Create_Vm_Sample.md
       - name: Description of Public Parameter Specification
         href: Help/General_Parameters.md
       - name: Image Status Description
         href: Help/Image_Status.md
-      - name: Description for Virtual Machine Status
+      - name: VM Status Description
         href: Help/Vm_Status.md

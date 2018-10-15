@@ -2,13 +2,13 @@
 
 
 ## Description
-Query the private IP address of the VM in batches, and query the primary private IP address in the primary network interface.
+Query the private IP address of the VM in batches is to query the primary intranet IP of primary network interface.
 
 ## Request method
 GET
 
 ## Request address
-https://vm.jdcloud-api.com/1.0.3/regions/{regionId}/instancePrivateIpAddress
+https://vm.jdcloud-api.com/v1/regions/{regionId}/instancePrivateIpAddress
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
@@ -17,7 +17,7 @@ https://vm.jdcloud-api.com/1.0.3/regions/{regionId}/instancePrivateIpAddress
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**filters**|Filter[]|False| |instanceId-VM ID, exact match, multiple supported<br>PrivateIpAddress-primary private IP address of primary network interface, fuzzy match, multiple supported<br>vpcId-Virtual Private Cloud ID, exact match, multiple supported<br>status - Virtual machine status, exact match, multiple supported <a href='https://www.jdcloud.com/help/detail/3869/isCatalog/1'>refer to virtual machine status</a><br>name-VM name, fuzzy match, single supported<br>imageId-Image ID, exact match, multiple supported<br>networkInterfaceId-ENI ID, exact match, multiple supported<br>subnetId-Subnet ID, exact match, multiple supported<br>|
+|**filters**|Filter[]|False| |instanceId-VM ID, exact match, multiple supported<br>PrivateIpAddress-primary intranet IP of primary network interface, fuzzy match, multiple supported<br>vpcId-VPC ID, exact match, multiple supported<br>status - Virtual machine status, exact match, multiple supported <a href="http://docs.jdcloud.com/virtual-machines/api/vm_status">refer to virtual machine status</a><br>name-VM name, fuzzy match, single supported<br>imageId-Image ID, exact match, multiple supported<br>networkInterfaceId-ENI ID, exact match, multiple supported<br>subnetId-Subnet ID, exact match, multiple supported<br>|
 |**pageNumber**|Integer|False|1|Page; 1 by default|
 |**pageSize**|Integer|False|20|Paging Size; 20 by default; Value range[10, 100] |
 
@@ -34,7 +34,6 @@ https://vm.jdcloud-api.com/1.0.3/regions/{regionId}/instancePrivateIpAddress
 |**requestId**|String| |
 |**result**|Result| |
 
-
 ### Result
 |Name|Type|Description|
 |---|---|---|
@@ -44,14 +43,14 @@ https://vm.jdcloud-api.com/1.0.3/regions/{regionId}/instancePrivateIpAddress
 |Name|Type|Description|
 |---|---|---|
 |**instanceId**|String|VM ID|
-|**privateIpAddress**|String|The primary IP address in the primary network interface|
+|**privateIpAddress**|String|Primary Intranet IP of Primary Network Interface|
 
 ## Response code
 |Return code|Description|
 |---|---|
 |**400**|Invalid parameter|
 |**401**|Authentication failed|
-|**404**|Not Found  |
+|**404**|Not found|
 |**503**|Service unavailable|
 |**200**|OK|
 |**500**|Internal server error|

@@ -3,32 +3,32 @@
 
 ## Description
 Associate Elastic IP for the primary intranet IP of primary network interface under virtual machine.<br>
-A virtual machine can only be associated with one Elastic IP for primary network interface, and error will occur if the primary network interfac already associated with Elastic IP.
+A virtual machine can only be associated with one Elastic IP for primary network interface, and error will occur if the primary network interface is already associated with Elastic IP.
 
 
-## Request Method
+## Request method
 POST
 
-## Request Address
+## Request address
 https://vm.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:associateElasticIp
 
-|Name|Type|Required or Not|Default Value|Description|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**instanceId**|String|True| |Virtual Machine ID|
+|**instanceId**|String|True| |VM ID|
 |**regionId**|String|True| |Region ID|
 
-## Request Parameter
-|Name|Type|Required or Not|Default Value|Description|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**elasticIpId**|String|True| |Elastic IP ID|
+|**elasticIpId**|String|True| |ID of Elastic IP|
 
 
-## Response Parameter
+## Response parameter
 None
 
 
-## Response Code
-|Response Code|Description|
+## Response code
+|Return code|Description|
 |---|---|
 |**400**|Invalid parameter|
 |**401**|Authentication failed|

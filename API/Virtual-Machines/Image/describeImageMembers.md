@@ -9,7 +9,7 @@ Query the image-shared account list, allowing  you to operate your personal priv
 GET
 
 ## Request address
-https://vm.jdcloud-api.com/1.0.3/regions/{regionId}/images/{imageId}/members
+https://vm.jdcloud-api.com/v1/regions/{regionId}/images/{imageId}/members
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
@@ -26,7 +26,6 @@ None
 |**requestId**|String| |
 |**result**|Result| |
 
-
 ### Result
 |Name|Type|Description|
 |---|---|---|
@@ -37,7 +36,7 @@ None
 |---|---|
 |**400**|Invalid parameter|
 |**401**|Authentication failed|
-|**404**|Not Found  |
+|**404**|Not found|
 |**503**|Service unavailable|
 |**200**|OK|
 |**500**|Internal server error|

@@ -1,5 +1,5 @@
 # Update History #
-API Version: 1.0.1
+API Version: 1.1.0
 
 |Release Time|Version Number| Update |Instructions|
 |---|---|---|---|

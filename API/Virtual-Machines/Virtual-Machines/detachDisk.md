@@ -2,14 +2,14 @@
 
 
 ## Description
-For virtual machine uninstalling data disk, a virtual machine, and a Cloud Disk Service are not loaded until they are in progress. <br>
+Detach a data disk for a virtual machine, and the detachment is only available when there is no task in progress for virtual machine and cloud disk. <br>
 
 
 ## Request method
 POST
 
 ## Request address
-https://vm.jdcloud-api.com/1.0.3/regions/{regionId}/instances/{instanceId}:detachDisk
+https://vm.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:detachDisk
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
@@ -19,7 +19,7 @@ https://vm.jdcloud-api.com/1.0.3/regions/{regionId}/instances/{instanceId}:detac
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**diskId**|String|True| |Cloud Disk Service ID|
+|**diskId**|String|True| |Cloud Disk ID|
 |**force**|Boolean|False| |Forced detachment, False by default. If this parameter is True, it represents the IO of the data disk is forcibly broken.|
 
 
@@ -27,13 +27,12 @@ https://vm.jdcloud-api.com/1.0.3/regions/{regionId}/instances/{instanceId}:detac
 None
 
 
-
 ## Response code
 |Return code|Description|
 |---|---|
 |**400**|Invalid parameter|
 |**401**|Authentication failed|
-|**404**|Not Found  |
+|**404**|Not found|
 |**503**|Service unavailable|
 |**200**|OK|
 |**500**|Internal server error|

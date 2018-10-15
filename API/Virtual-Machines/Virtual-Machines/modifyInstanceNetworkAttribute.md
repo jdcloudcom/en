@@ -2,7 +2,7 @@
 
 
 ## Description
-Modify the virtual machine's elastic network interface properties, including whether to delete with the virtual machine. <br>
+Modify the VM's elastic network interface attributes, including whether to delete with the virtual machine. <br>
 The primary network interface cannot be modified.
 
 
@@ -10,7 +10,7 @@ The primary network interface cannot be modified.
 POST
 
 ## Request address
-https://vm.jdcloud-api.com/1.0.3/regions/{regionId}/instances/{instanceId}:modifyInstanceNetworkAttribute
+https://vm.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:modifyInstanceNetworkAttribute
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
@@ -32,13 +32,12 @@ https://vm.jdcloud-api.com/1.0.3/regions/{regionId}/instances/{instanceId}:modif
 None
 
 
-
 ## Response code
 |Return code|Description|
 |---|---|
 |**400**|Invalid parameter|
 |**401**|Authentication failed|
-|**404**|Not Found  |
+|**404**|Not found|
 |**503**|Service unavailable|
 |**200**|OK|
 |**500**|Internal server error|

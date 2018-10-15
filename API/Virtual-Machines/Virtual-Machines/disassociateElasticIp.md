@@ -2,14 +2,14 @@
 
 
 ## Description
-The EIP disassociated from a VM is one that corresponds to the primary network interface and the primary private EIP.
+Disassociate VM from Elastic IP is to disassociate the Elastic IP for the primary intranet IP of primary network interface.
 
 
 ## Request method
 POST
 
 ## Request address
-https://vm.jdcloud-api.com/1.0.3/regions/{regionId}/instances/{instanceId}:disassociateElasticIp
+https://vm.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:disassociateElasticIp
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
@@ -19,12 +19,11 @@ https://vm.jdcloud-api.com/1.0.3/regions/{regionId}/instances/{instanceId}:disas
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**elasticIpId**|String|True| |ID of EIP|
+|**elasticIpId**|String|True| |ID of Elastic IP|
 
 
 ## Response parameter
 None
-
 
 
 ## Response code
@@ -32,7 +31,7 @@ None
 |---|---|
 |**400**|Invalid parameter|
 |**401**|Authentication failed|
-|**404**|Not Found  |
+|**404**|Not found|
 |**503**|Service unavailable|
 |**200**|OK|
 |**500**|Internal server error|
