@@ -1,23 +1,25 @@
-# describeForwardRule
+# describeForwardRules
 
 
 ## Description
-Search a non-web service rule
+Search the non-web forwarding configuration under an instance
 
 ## Request method
 GET
 
 ## Request address
-https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/forwardRules/{forwardRuleId}
+https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/forwardRules
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**forwardRuleId**|String|True| |Forwarding Rule ID|
 |**instanceId**|String|True| |Instance ID|
-|**regionId**|String|True| |Belonging Region ID|
+|**regionId**|String|True| |Region ID|
 
 ## Request parameter
-None
+|Name|Type|Required or not|Default value|Description|
+|---|---|---|---|---|
+|**pageNumber**|Integer|False| |Page Number: 1 by default|
+|**pageSize**|Integer|False| |Paging Size: 20 by default; value range [10, 100]|
 
 
 ## Response parameter
@@ -30,7 +32,8 @@ None
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**data**|ForwardRule| |
+|**dataList**|ForwardRule[]| |
+|**totalCount**|Integer| |
 ### ForwardRule
 |Name|Type|Description|
 |---|---|---|

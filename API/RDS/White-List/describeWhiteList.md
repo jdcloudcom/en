@@ -1,14 +1,14 @@
-# describeErrorLogs
+# describeWhiteList
 
 
 ## Description
-Obtain error logs of SQL Server and download information<br>- only support SQL Server
+View the current White List of RDS instances. The White List is a list of IP/IP segments that are allowed to access the current instance. By default, the White List is open to the VPC. If the user has enabled the internet access, you need to configure a White List for the IP of the internet.
 
 ## Request method
 GET
 
 ## Request address
-https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/errorLogs
+https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/whiteList
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
@@ -28,16 +28,12 @@ None
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**errorLogs**|ErrorLog[]|Collection of Error Log Files|
-### ErrorLog
+|**whiteLists**|WhiteList[]|White List|
+### WhiteList
 |Name|Type|Description|
 |---|---|---|
-|**internalURL**|String|Download Link of Intranet|
-|**lastUpdateTime**|String|Last Update Time of the Error Log, Format: YYYY-MM-DD HH:mm:ss|
-|**name**|String|Error Log File Name|
-|**publicURL**|String|Download Link of Public Network|
-|**sizeByte**|Integer|Error Log File Size in Bytes|
-|**uploadTime**|String|Error Log Upload Time, Format: YYYY-MM-DD HH:mm:ss|
+|**ips**|String|For IP or IP segment, different IP/IP segments shall be separated by commas, for example 0.0.0.0/0,192.168.0.10|
+|**name**|String|White List Name|
 
 ## Response code
 |Return code|Description|

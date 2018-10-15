@@ -55,4 +55,4 @@ https://streamcompute.jdcloud-api.com/v1/regions/{regionId}/job
 |Return code|Description|
 |---|---|
 |**200**|OK|
-|**500**|INTERNAL_ERROR      |
+|**500**|INTERNAL_ERROR|

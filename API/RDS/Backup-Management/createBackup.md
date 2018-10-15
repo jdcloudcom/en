@@ -8,7 +8,7 @@ Creating a full backup of the RDS instance can be fully backed up for the entire
 POST
 
 ## Request address
-https://rds.jdcloud-api.com/0.2.9/regions/{regionId}/backups
+https://rds.jdcloud-api.com/v1/regions/{regionId}/backups
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|

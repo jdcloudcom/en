@@ -6,9 +6,9 @@
 -   Disk type includes Premium Hdd Cloud Disk and SSD Cloud Disk.
 -   The billing method defaults to paying by configuration.
 -   After creation is completed, the status of the Cloud Disk is available.
--   The optional parameter snapshot ID is used to create a new disk from a snapshot.
+-   The optional parameter snapshot ID is used to create a new disk.
 -   In batch creation, the name of the Cloud Disk is: hard disk name -number, such as myDisk-1 and myDisk-2.
--   maxCount is the based on best effort, and it is not guaranteed that maxCount can be reached.
+-   maxCount is the maximum effort, and it is not guaranteed that maxCount can be reached.
 
 
 ## Request method
@@ -25,20 +25,20 @@ https://disk.jdcloud-api.com/v1/regions/{regionId}/disks
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**clientToken**|String|True| |Idempotence Check Parameter|
-|**diskSpec**|DiskSpec|True| |Disk Specification|
-|**maxCount**|Integer|True| |Instance Purchase Quantity; Value Range: [1,100]|
+|**diskSpec**|DiskSpec|True| |Create the specification of the cloud disk|
+|**maxCount**|Integer|True| |Purchase number of instances; value range: [1,100]|
 
 ### DiskSpec
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**az**|String|True| |Availability Zone, to which the cloud disk belongs|
-|**charge**|ChargeSpec|False| |Billing configuration. If not specified, the default billing type is pay-as-you-go - pay by service time by default.|
+|**charge**|ChargeSpec|False| |Billing configuration; if no specification is made, the billing type is Pay-As-You-Go - Pay as the service time by default|
 |**description**|String|False| |Description of the cloud disk|
 |**diskSizeGB**|Integer|True| |Size of the cloud disk, unit: GiB; ssd value range of [20,1000]GB and step size of 10G; premium-hdd value range of [20,3000]GB and step size of 10G|
 |**diskType**|String|True| |Type of the cloud disk, value ssd or premium-hdd|
 |**multiAttachable**|Boolean|False| |Whether the Cloud Disk Service supports the mode that one disk is attached to multiple machines. It is set as false by default (not supported).|
 |**name**|String|True| |Name of the cloud disk|
-|**snapshotId**|String|False| |Snapshot ID used to create a cloud disk|
+|**snapshotId**|String|False| |Snapshot ID used to create Cloud Disk Service|
 ### ChargeSpec
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|

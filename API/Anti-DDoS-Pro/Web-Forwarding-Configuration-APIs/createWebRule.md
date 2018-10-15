@@ -13,7 +13,7 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/webR
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**instanceId**|String|True| |Instance ID|
-|**regionId**|String|True| |Belonging Region ID|
+|**regionId**|String|True| |Region ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
@@ -25,7 +25,7 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/webR
 |---|---|---|---|---|
 |**algorithm**|String|False| |Forwarding Rules: wrr->Round Robin with weight  rr->Round Robin without weight|
 |**customPortStatus**|Integer|False| |Confirm whether it is customized port number or not? 0->default  1->customized|
-|**domain**|String|False| |Subdomain Name|
+|**domain**|String|False| |Subdomain|
 |**forceJump**|Integer|False| |Confirm to enable https forced jump? The attribute may be configured when the protocol is HTTP_HTTPS  0->no  1->yes|
 |**httpOrigin**|Integer|False| |Confirm to enable http back-to-origin, 0->no  1->yes. The attribute may be configured when HTTPS is checked|
 |**httpsCertContent**|String|False| |Certificate Content|

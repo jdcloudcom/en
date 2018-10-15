@@ -12,7 +12,7 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instance/describeCCDefaultT
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True| |Belonging Region ID|
+|**regionId**|String|True| |Region ID|
 
 ## Request parameter
 None

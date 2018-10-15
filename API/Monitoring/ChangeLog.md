@@ -3,6 +3,7 @@ API Version: 1.1.1
 
 |Release Time|Version Number| Update |Instructions|
 |---|---|---|---|
+|2018-09-06|1.2.0 |Modify API Document|Add report API for Monitoring| 
 |2018-07-29|1.1.1 |Modify API Document|| 
 |2018-07-29|1.1.0|Add Custom Metric Monitoring|* putMetricData Add report API for Custom Metric Monitoring|
 |2018-05-09|0.4.1|Modify API|* lastDownsample adds tags fields at the API, custom tag|

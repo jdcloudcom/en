@@ -14,7 +14,7 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/forw
 |---|---|---|---|---|
 |**forwardRuleId**|String|True| |Forwarding Rule ID|
 |**instanceId**|String|True| |Instance ID|
-|**regionId**|String|True| |Belonging Region ID|
+|**regionId**|String|True| |Region ID|
 
 ## Request parameter
 None

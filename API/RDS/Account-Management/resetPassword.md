@@ -8,7 +8,7 @@ Reset Database Account Password. If the user forgets the password of the account
 POST
 
 ## Request address
-https://rds.jdcloud-api.com/0.2.9/regions/{regionId}/instances/{instanceId}/accounts/{accountName}:resetPassword
+https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/accounts/{accountName}:resetPassword
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|

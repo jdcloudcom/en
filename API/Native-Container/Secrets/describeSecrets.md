@@ -3,7 +3,7 @@
 
 ## Description
 Search secret list. <br> 
-This interface supports query in pages, with 20 entries per page by default.
+This API supports paging query with 20 items per page by default.
 
 
 ## Request method
@@ -20,8 +20,8 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/secrets
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**filters**|Filter[]|False| |The name - secret is the name, supporting fuzzy search.<br>|
-|**pageNumber**|Integer|False| |Page number; 1 by default|
-|**pageSize**|Integer|False| |Page size; it is 20 by default; value range[10, 100]|
+|**pageNumber**|Integer|False| |Page; 1 by default|
+|**pageSize**|Integer|False| |Paging Size; 20 by default; Value range[10, 100] |
 
 ### Filter
 |Name|Type|Required or not|Default value|Description|

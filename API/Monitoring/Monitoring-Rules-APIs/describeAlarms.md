@@ -20,7 +20,7 @@ https://monitor.jdcloud-api.com/v1/regions/{regionId}/alarms
 |**enabled**|Integer|False| |Rule Status: 1 is Enable, 0 is Disable|
 |**isAlarming**|Integer|False| |Whether it is the rule that is alarming, 0 is neglect, 1 is yes, only one can take effect at the same time as status, isAlarming takes priority to take effect|
 |**pageNumber**|Integer|False| |Page; 1 by default, the value range: [1,∞)|
-|**pageSize**|Integer|False| |Paging size; 20 by default; value range[10, 100]|
+|**pageSize**|Integer|False| |Paging Size; 20 by default. Value Range: [10, 100]|
 |**resourceId**|String|False| |Resource Id|
 |**serviceCode**|String|False| |Product Name|
 |**status**|Integer|False| |Rule Alarm Status, 1: Normal, 2: Alarm, 4: Insufficient Data|
@@ -38,7 +38,7 @@ https://monitor.jdcloud-api.com/v1/regions/{regionId}/alarms
 |---|---|---|
 |**alarmList**|Alarm[]|List of rules|
 |**numberPages**|Number|Number of Total Pages|
-|**numberRecords**|Number|Number of Total Records|
+|**numberRecords**|Number|Total Number of Records|
 |**pageNumber**|Number|Page|
 |**pageSize**|Number|Paging Size|
 ### Alarm

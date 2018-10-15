@@ -2,7 +2,7 @@
 
 
 ## Description
-Create an instance
+Create Instance
 
 ## Request method
 POST
@@ -12,7 +12,7 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True| |Belonging Region ID|
+|**regionId**|String|True| |Region ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|

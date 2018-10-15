@@ -51,18 +51,18 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/containers
 |**command**|String[]|Container Execution Command |
 |**containerId**|String|Container ID |
 |**dataVolumes**|VolumeMount[]|Mounted Data Volume Information |
-|**description**|String|Container Description |
+|**description**|String|Container Description|
 |**elasticIpAddress**|String|Elastic IP Associated to Primary IP of Primary Network Interface |
 |**elasticIpId**|String|Elastic IP ID Associated to Primary IP of Primary Network Interface |
 |**envs**|EnvVar[]|Environment Variable for Execution by Dynamically-assigned Container |
 |**hostAliases**|HostAlias[]|Domain and IP Mapping Information|
 |**hostname**|String|Machine Name |
-|**image**|String|Image Name |
+|**image**|String|Image Name|
 |**instanceType**|String|Instance Type Family |
 |**launchTime**|String|Creation Time|
 |**logConfiguration**|LogConfiguration|Container Log Configuration Information|
 |**name**|String|Container Name|
-|**primaryNetworkInterface**|InstanceNetworkInterfaceAttachment|Primary Network Interface Information |
+|**primaryNetworkInterface**|InstanceNetworkInterfaceAttachment|Primary Network Interface Information|
 |**privateIpAddress**|String|Primary IP Address of Primary Network Interface |
 |**reason**|String|Container Termination Reason |
 |**rootVolume**|VolumeMount|Root Volume Information |
@@ -132,11 +132,11 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/containers
 ### InstanceNetworkInterface
 |Name|Type|Description|
 |---|---|---|
-|**description**|String|Description |
+|**description**|String|Description|
 |**macAddress**|String|Ethernet Address|
 |**networkInterfaceId**|String|Elastic Network Interface ID|
 |**primaryIp**|NetworkInterfacePrivateIp|Primary IP of Network Interface|
-|**sanityCheck**|Boolean|Source and Target IP Address Verification, with value 0 or 1|
+|**sanityCheck**|Boolean|Source and target IP address verification, with value 0 or 1|
 |**secondaryIps**|NetworkInterfacePrivateIp[]| |
 |**securityGroups**|SecurityGroupSimple[]|Security Group List|
 |**vpcId**|String|Virtual Network ID|

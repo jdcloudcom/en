@@ -8,7 +8,7 @@ Obtain a list of all database details for the current instance
 GET
 
 ## Request address
-https://rds.jdcloud-api.com/0.2.9/regions/{regionId}/instances/{instanceId}/databases
+https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/databases
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|

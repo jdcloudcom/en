@@ -34,4 +34,4 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkSecurityGroups/{network
 |---|---|
 |**200**|OK|
 |**400**|Request parameter x.y.z is 'xxx', expected one of [yyy,zzz]|
-|**404**|Resource Not Found|
+|**404**|Resource not found|

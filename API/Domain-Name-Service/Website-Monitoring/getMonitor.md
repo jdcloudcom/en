@@ -67,7 +67,7 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domain/{domainId}/
 |**notifyMsgBarEnable**|Integer|Do not send notification bar 0, send notification bar 1|
 |**notifySms**|String|Mobile Number|
 |**notifySmsEnable**|Integer|Do not send SMS 0, send SMS 1|
-|**protocol**|Integer|https 0, https 1|
+|**protocol**|Integer|https 0，https 1|
 |**stopRecoverRule**|Integer|0 Automatic Recovery, 1 Manual Recovery|
 |**subDomainName**|String|Subdomain|
 |**switchRecoverRule**|Integer|0 Restore to the main host automatically, 1 Restore to the main host manually|

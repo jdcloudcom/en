@@ -8,7 +8,7 @@ Instance Expansion, Supports Upgrading the Instance CPU, Memory and Disk. Instan
 POST
 
 ## Request address
-https://rds.jdcloud-api.com/0.2.9/regions/{regionId}/instances/{instanceId}:modifyInstanceSpec
+https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:modifyInstanceSpec
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|

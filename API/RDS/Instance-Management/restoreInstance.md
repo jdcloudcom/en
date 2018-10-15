@@ -8,7 +8,7 @@ Restore and replace the current instance by using the full backup of the instanc
 POST
 
 ## Request address
-https://rds.jdcloud-api.com/0.2.9/regions/{regionId}/instances/{instanceId}:restoreInstance
+https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:restoreInstance
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
