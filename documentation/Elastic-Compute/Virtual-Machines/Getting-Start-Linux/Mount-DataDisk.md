@@ -9,7 +9,7 @@ Attach Script: [MountDataDisk][1].
 
 You can use the script in the following two ways:
 
-1. Without Any Parameter: The script will automatically partition, format and mount all your un-partitioned devices (the default attaching points are jddata1, jddata2...jddatan) and realize automatic attaching of the Cloud Disk Service in /etc/fstab file via UUID.
+1. Without Any Parameter: The script will automatically partition, format and mount all your un-partitioned devices (the default attaching points are jddata1, jddata2...jddatan) and realize automatic attaching of the Cloud Disk in /etc/fstab file via UUID.
 ```
 sh
 sh auto_fdisk.sh
@@ -24,11 +24,11 @@ sh auto_fdisk.sh /dev/vdb jddata1 ext4
 
 1. Data loss may occur due to related operations. Therefore, before executing the operation, please make sure that the data has been effectively backed up by the means of snapshots, etc., or please confirm that no effect will be caused due to the data loss;
 
-2. This script is only applicable to the un-partitioned and un-attached Cloud Disk Service. Therefore, it will not operate on hard disks that have been partitioned or attached;
+2. This script is only applicable to the un-partitioned and un-attached Cloud Disk. Therefore, it will not operate on hard disks that have been partitioned or attached;
 
 3. This script creates a partition for the hard disk by default and cannot be modified;
 
-4. This script will automatically write the UUID and attaching information of the disk in the /etc/fstab file. If you need to detach the cloud disk, please delete the information corresponding this file. Otherwise, the Virtual Machines may be unable to start normally.
+4. This script will realize the automatic attaching of cloud disk by writing the UUID and attaching information of the disk in the /etc/fstab file. If you need to detach the cloud disk, please delete the information corresponding to this file. Otherwise, the Virtual Machines may be unable to start normally.
 
 ## Manually Complete Partitioning, Formatting and Attaching of Data Disk
 If you need to manually partition, format and create a file system, we take the Centos operating system as an example, as follows:
@@ -45,13 +45,13 @@ If you need to manually partition, format and create a file system, we take the 
 	```
 	fdisk /dev/vdb
 	```
-	After entering the command, enter n, p, 1, and then press Enter twice, then wq to complete saving. In this way, you can see the newly created partition /dev/vdb1。![](../../../../image/vm/Getting-Start-Linux-mount1.png) via fdisk -l.
+	After entering the command, enter n, p, 1, and then press Enter twice, then wq to complete saving. In this way, you can see the newly created partition /dev/vdb1. <br>![](../../../../image/vm/Getting-Start-Linux-mount1.png) via fdisk -l.
 	
 	Note: If the hard disk capacity you created is greater than 2T, please do not use the partition or refer to the following steps to use parted to partition:
 
 	1) Create a partition table and select GPT format: <br>![](../../../../image/vm/Getting-Start-Linux-mount2.png)
 	2) Create a partition <br>![](../../../../image/vm/Getting-Start-Linux-mount3.png)
-	Re-run the fdisk -l command and confirm the partition <br>![](../../../../image/vm/Getting-Start-Linux-mount4.png)
+	3) Re-run the fdisk -l command and confirm the partition <br>![](../../../../image/vm/Getting-Start-Linux-mount4.png)
 
 3. Then you need to format the hard disk after the partition, and the command is as follows:
 
@@ -74,12 +74,10 @@ If you need to manually partition, format and create a file system, we take the 
 	blkid /dev/vdb1
 	```
 
-6. Write in /etc/fstab file to realize attaching of the Cloud Disk Service.
-
+6. Write in /etc/fstab file to realize attaching of the Cloud Disk.
 	![](../../../../image/vm/Getting-Start-Linux-mount6.png)
 
-**Please note that if the system is Centos 7 or above, you must use the nofail parameter when writing in fstab. Otherwise, if you create a private image for the current Virtual Machines, the new Virtual Machines created based on this private image will not start normally.
-**
+ **Please note that if the system is Centos 7 or above, you must use the nofail parameter when writing in fstab. Otherwise, if you create a private image for the current Virtual Machines, the new Virtual Machines created based on this private image will not start normally.** 
 
   [1]: http://img1.jcloudcs.com/cms/6bbc4a45-02ce-460d-9696-c31f3fa18c6f20170728174252.zip
  

@@ -1,6 +1,6 @@
 # Reset winsock Configuration in Windows
 
-If the EIP state of the Windows virtual machine is normal (no arrears, black holes, puppet machine, blocking, etc.) and the virtual machine security group, ACL, and system firewall have no limit on the access, the virtual machine can obtain the private IP, but If EIP cannot be accessed or the public network cannot be accessed within the virtual machine, which may be caused by the abnormal configuration of the winsock socket. In this case, you can use netsh winsock reset command to fix the problem.
+If the EIP state of the Windows VM is normal (no arrears, black holes, puppet machine, blocking, etc.) and the virtual machine security group, ACL, and system firewall have no limit on the access, the virtual machine can obtain the private IP, but If EIP cannot be accessed or the public network cannot be accessed within the virtual machine, which may be caused by the abnormal configuration of the winsock socket. In this case, you can use netsh winsock reset command to fix the problem.
 
 **Note: When the "netsh winsock reset" command is running, programs that access or monitor the Internet (such as antivirus programs, firewall programs, and proxy clients) can be adversely affected. If one of your programs does not work normally after using this solution, reinstall the program to restore the functions.**
 
@@ -14,7 +14,7 @@ Press the windows logo key and key R at the same time to open the run dialog box
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows%E9%87%8D%E7%BD%AEwinsock%E9%85%8D%E7%BD%AE01.png)
 
-Enter netsh winsock reset in the CMD window and press Enter. After the execution is successful, you will be prompted that the Winsock directory is successfully reset and you need to restart the Virtual Machines to make the resetting take effect.
+Enter netsh winsock reset in the CMD window and press Enter. After the execution is successful, you will be prompted that the Winsock directory is successfully reset and you need to restart VM to make the resetting take effect.
 As shown in the figure:
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows%E9%87%8D%E7%BD%AEwinsock%E9%85%8D%E7%BD%AE02.png)

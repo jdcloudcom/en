@@ -21,4 +21,4 @@ Generally, the common reason for failure of turning on the payment page is the n
 ## What is the action if the same order is paid twice?
 If you made the payment twice for the same order due to misoperation, JD Cloud will automatically return your payment amount to the balance account;
 
-You may view recharging history and check capital account information by logging in [Console](https://console.jdcloud.com/)-Cost Management Login-[Capital Account](https://uc.jdcloud.com/cost/capital/capital-overview)
+You may view recharging history and check capital account information by logging in [**Console**](https://console.jdcloud.com/) - **Cost Management Login** - [**Capital Account**](https://uc.jdcloud.com/cost/capital/capital-overview)

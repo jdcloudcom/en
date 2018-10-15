@@ -1,6 +1,6 @@
-## Typical Application Scenario for Stream Compute<br>
+## Typical Application Scenarios for Stream Compute<br>
 1. **Fraud Monitoring**<br>
-Large financial organizations and insurance institutions suffer ten million-level loss in fraudulent transactions each year. Common situations include identity theft and credit card fraud, these scenarios are time-sensitive issues that spent time on identifying these fraudulent transactions and automatically cancel credit cards. may be directly touched company's bottom line. <br>
+Large financial organizations and insurance institutions suffer ten million-level loss in fraudulent transactions each year. Common situations include identity theft and credit card fraud, which are time-sensitive issues, and the time on identifying these fraudulent transactions and automatically cancel credit cards may directly touch company's bottom line. <br>
 Real-time data analysis and decision making at this time is particularly suitable for these scenarios, and it can be carried out analysis at the time of the transaction at each payment. For example, whether the transaction rate of a single credit card is abnormal, or whether the same credit card is consumed at the same time across a long distance, for example, a credit card that is consumed in Beijing or Shanghai at the same time will be an abnormal consumption. <br>
 In addition, based on the purchases record data, the machine learning model can be used to predict the likelihood of a seemingly normal transaction being fraudulent. <br><br>
 2. **Dynamic Pricing**<br>

@@ -1,6 +1,6 @@
 ## Job Development<br>
 Query: <br>
-To query the instant Stream Compute Job Development, firstly you need to create a task for Job Development, click **Creation** in the figure below. <br>
+To query the instant Stream Compute Job Development, firstly you need to create a task for Job Development, click **Create** in the figure below. <br>
 ![sc-022](https://github.com/jdcloudcom/cn/blob/edit/image/Streamcompute/SC-022.png?raw=true)<br><br>
 ![sc-023](https://github.com/jdcloudcom/cn/blob/edit/image/Streamcompute/SC-023.png?raw=true)<br>
 Allocate Computing Resources: <br>
@@ -12,7 +12,7 @@ In the development page, you can use the SQL way to develop streaming operations
 ![sc-025](https://github.com/jdcloudcom/cn/blob/edit/image/Streamcompute/SC-025.png?raw=true)<br>
 Statement Description: <br>
 `insert into table order_partition select id,order_date from order_partitions`<br><br>
-In the SQL statement into table [tablename] is the output target table you defined in the "output" interface. <br>
+In the SQL statement into table [tablename] is the output target table you defined in the "Output" interface. <br>
 From [tablename] is the input source you defined in the "Input" interface. <br><br>
 If the output-end uses the partition table, it is required to declare the information of partition table, such as: <br>
 `insert into table xyc_out1 partition(city)`<br><br>

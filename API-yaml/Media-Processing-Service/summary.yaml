@@ -1,8 +1,0 @@
-swagger: "2.0"
-info:
-  version: "v1"
-  title: Media Processing API
-  description: "Media Processing API"
-host: "mps.jdcloud-api.com"
-x-jdcloud-version: "v1"
-x-jdcloud-revision: "0.3.8"

@@ -5,7 +5,7 @@ Note: The Message Queue is currently in a public beta and is free during beta. F
 
 The Message Queue charges according to the combination of API call fee and the Topic resource occupancy fee.
 
-- API calls, that is, the number of providing API that user calling the Message Queue.
+- API calls, that's, the number of providing API that user calling the Message Queue.
 - Topic resource occupation, that is, the number of Topic created by users.
 
 ## Region and Availability Zone

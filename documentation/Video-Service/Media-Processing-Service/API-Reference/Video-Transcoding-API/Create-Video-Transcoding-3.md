@@ -2,7 +2,7 @@
 
 Description: Transcode the video file on JD Cloud Object Storage Service, and save the transcoded video as a new file.
 
-Request grammar:
+Request Grammar:
 ```
 PUT /bucket/object?pretreatmentStrategyV2&expires=<expires value>&policy=<policy string>  HTTP/1.1
 Content-MD5: 
@@ -65,7 +65,7 @@ ETag: "a0eb630d0cab1a1240b2bae67410cdb7"
 Content-Type: application/json;charset=UTF-8
 Content-Length: 34
 Date: Tue, 15 Dec 2015 13:10:50 GMT
-{"taskId": "0a354cca27994b398931b205bbf96985"}   
+{“taskId”: "0a354cca27994b398931b205bbf96985"}   
 Wrong Return Information:
 {"code":"NoSuchKey","message":" The specified file used for video transcoding does not exist, file name = Wildlifetest.wmv","resource":"/test-bucket13/Wildlifetest.wmv","requestId":"8764E879D8AEE8BF"}
 ```

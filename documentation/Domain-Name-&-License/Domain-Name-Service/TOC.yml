@@ -5,7 +5,7 @@
     items:
       - name: Product Overview
         herf: Introduction/Product-Overview.md
-      - name: Core Concept
+      - name: Core Concepts
         herf: Introduction/Core-Concepts.md
       - name: Benefits
         herf: Introduction/Benefits.md
@@ -18,15 +18,15 @@
   - name: Getting Started
     items:
       - name: Create Information Template
-        herf: Getting-Started/Create Information Template.md
+        herf: Getting-Started/Create-Information-Template.md
       - name: Register Domain Name
-        herf: Getting-Started/Register Domain Name.md
+        herf: Getting-Started/Register-Domain-Name.md
       - name: Information Template
         herf: Getting-Started/Information-Template.md
         
   - name: Operation Guide
     items:
-      - name: Domain Management
+      - name: Domain Name Management
         items:
           - name: Domain Name Status
             herf: Operation-Guide/Domain-Management/Domain-Name-Status.md
@@ -54,7 +54,7 @@
       herf: Troubleshooting/How-to-Skip-Root-Domain-Name-Without-www-to-Main-Domain-Name-With-www.md
   - name: FAQ
     herf: FAQ/FAQ.md
-  - name: User Agreement
+  - name: User Agreements
     items:
     - name: Online Terms of Service of Domain Name
       herf: User-Agreements/Donline-Terms-of-Service-of-Domain-Name.md      

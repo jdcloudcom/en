@@ -1,5 +1,5 @@
 
-# JD Cloud C ++ Signature Library
+# JD Cloud C++ Signature Library
 ## Basic Description
 The JD Cloud C ++ signature tool provides the request signature function when C ++ language is used to access the JD Cloud OpenAPI.
 
@@ -12,7 +12,7 @@ This signature tool is available in a static library using the C++11 standard. T
 - Put the returned Authorization, x-jdcloud-date, and x-jdcloud-nonce and their values into your real request Header
 - Then initiate a call to JD Cloud OpenAPI gateway
 
-## Linux（Ubuntu）
+## Linux(Ubuntu)
 ### Installation Method
 1) Installation of development dependency library
 ```

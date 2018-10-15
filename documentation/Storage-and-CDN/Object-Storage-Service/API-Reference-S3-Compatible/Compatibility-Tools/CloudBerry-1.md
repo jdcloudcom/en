@@ -6,7 +6,7 @@ CloudBerry is a tool used in Windows to manipulate cloud storage; the tool provi
 
 JD Cloud Storage is well compatible with CloudBerry, therefore, we recommend you to use it, which supports all important functions commonly used.
 
-The following part will introduce how to use CloudBerry, for more use methods, please view the CloudBerry Use Manual for JD Cloud Object Storage Service
+The following part will introduce how to use CloudBerry, for more use methods, please view the CloudBerry Use Manual for Object Storage Service
 
 2. Download link: https://www.cloudberrylab.com/explorer/amazon-s3.aspx
 

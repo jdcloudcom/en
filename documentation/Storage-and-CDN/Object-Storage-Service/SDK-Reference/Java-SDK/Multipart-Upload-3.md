@@ -31,7 +31,7 @@ String accessKey = "<yourAccessKey>";
 String SecretKey = "<yourSecretKey>";  
 String bucketName = "<yourBucketName>";  
 String key = "<yourObjcetkey>";  
-// Create JingdongStorageService instance
+// Create JingdongStorageService instance  
 Credential credential = new Credential(accessKey, secreteKey);  
 // Configure files by default. The user can configure by himself/herself if any other configuration is needed. Such as:config.setMaxConnections(20);  
 ClientConfig config = new ClientConfig();  
@@ -97,14 +97,14 @@ Notes:
 
 * uploadPartResults in the above codes is the list of saved uploadPartResult in the multipart upload, it shall be sorted ascendingly by the part number;
 
-* Parts may be not continuous.
+* Parts may not be continuous.
 
 ### Abort Multipart Upload Event
 
 You can terminate corresponding Multipart Upload event according to Upload ID. When a Multipart Upload event is terminated, this Upload ID cannot be used for any actions and the uploaded data will be deleted. Call jss.bucket(bucketName).object(key).abortMultipartUpload to abort multipart upload event:
 ```
 // Take cn-north-1 as an example for endpoint, and fill in according to actual situation for other regions  
-String endpoint = "oss.cn-north-1.jcloudcs.com";  
+String endpoint = "s-bj.jcloud.com";  
 //You can log in to the console of Object Storage Service with AccessKey and SecretKey to view it in [AccessKey Management].  
 String accessKey = "<yourAccessKey>";  
 String SecretKey = "<yourSecretKey>";  
@@ -134,7 +134,7 @@ String endpoint = "oss.cn-north-1.jcloudcs.com";
 String accessKey = "<your accessKey>";  
 String secretKey = "<your secretKey>";  
 String bucketName = "<your bucketName>";  
-String key ="<you objectKey>”;  
+String key = “<you objectKey>”;  
        
 // Create JingdongStorageService instance  
 Credential credential = new Credential(accessKey, secreteKey);  

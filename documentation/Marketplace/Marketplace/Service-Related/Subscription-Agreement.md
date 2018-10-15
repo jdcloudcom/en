@@ -109,7 +109,7 @@ IX. Modification to the Agreement
 
 9.1 In case of any change to the Agreement, the service provider shall prompt user to modify the content in an appropriate manner.
 
-9.2 If user does not agree the modifications to relevant terms of the Agreement made by the service provider, user has the right to stop using service provider application. In such cases, service provider shall refund the remaining licensing fees(if any) to user and provide user with a download service for their business data. If user continues to use service provider application, user is deemed as accepting the service provider's modifications to the terms of the Agreement.
+9.2 If user does not agree the modifications to relevant terms of the Agreement made by the service provider, user has the right to stop using service provider application. In such cases, service provider shall refund the remaining licensing fees (if any) to user and provide user with a download service for their business data. If user continues to use service provider application, user is deemed as accepting the service provider's modifications to the terms of the Agreement.
 
 X. Force Majeure
 

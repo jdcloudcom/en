@@ -3,7 +3,6 @@
 User can add Header of Authorization in HTTP request to contain information on Signature, to state that this message has been authorized.
 
 ## Methods of Authorization field calculation
-
 ```
 Authorization ="jingdong" + " " + AccessKey + ":" + Signature;
 Signature =base64(HMAC-SHA1(AccessKeySecret, UTF-8-Encoding-Of( StringToSign ) ) )
@@ -19,7 +18,7 @@ Notes:
 
 1. When Content-Type and Content-MD5 is absent, it shall be replaced by null character string.
 
-2. You can login the console of JD Cloud with AccessKey and AccessKeySecret to view it in [AccessKey Management]. AccessKeySecret represents secret key needed for signature.
+2. You can login the console of JD Cloud with AccessKey and AccessKeySecret to view it in **AccessKey Management**. AccessKeySecret represents secret key needed for signature.
 
 3. HTTP-Verb represents Method of HTTP request, mainly including PUT, GET, POST, HEAD, DELETE, and so on.
 
@@ -33,7 +32,7 @@ Notes:
 
 8. CanonicalizedHeaders represents the arrangement in the dictionary order of HTTP headers with prefix x-jss-.
 
-9. CanonicalizedResource represents OSS resource that users wants to access, of which Date and CanonicalizedResource can’t be null; if the Date time in the request is more than 15 minutes apart from the OSS server, OSS server will reject this service, and return an HTTP 403 error.
+9. CanonicalizedResource represents OSS resource that users want to access, of which Date and CanonicalizedResource can’t be null; if the Date time in the request is more than 15 minutes apart from the OSS server, OSS server will reject this service, and return an HTTP 403 error.
 
 ## Methods of Constructing CanonicalizedHeaders
 All HTTP Headers prefixed x-jss- are called CanonicalizedHeaders. Its construction methods are as follows:
@@ -63,9 +62,9 @@ Users send request to access OSS target resource, which is called CanonicalizedR
 
 1. Set CanonicalizedResource to a null character string "".
 
-2. Put in the OSS resource they want to access /BucketName/ObjectName(if there is no ObjectName, then CanonicalizedResource will be "/BucketName", and if there is no BucketName at the same time, it shall be "/").
+2. Put in the OSS resource they want to access /BucketName/ObjectName (if there is no ObjectName, then CanonicalizedResource will be "/BucketName", and if there is no BucketName at the same time, it shall be "/").
 
-Sample:
+Example:
 
 Regarding API of ListParts in MultipartUpload operation, the CanonicalizedResource at this time is: /BucketName/ObjectName?uploadId=UploadId.
 
@@ -129,7 +128,6 @@ String signature =  new String(Base64.encodeBase64(rawHmac), "UTF-8");
 
 The Signature calculation result shall be xvj2Iv7WcSwnN26XYnTq/c2YBQs=, because
 Authorization ="jingdong” + AccessKey + ":" + Signature. Therefore, Authorization is “jingdong qbS5QXpLORrvdrmb: xvj2Iv7WcSwnN26XYnTq/c2YBQs=", and add Authorization header to compose the final message that needs to be sent:
-
 ```
 PUT /sign.txt   HTTP/1.1
   Content-Type: text/plain
@@ -138,10 +136,9 @@ PUT /sign.txt   HTTP/1.1
   Date: Thu, 13 Jul 2017 02:37:31 GMT
   Authorization: jingdong qbS5QXpLORrvdrmb: xvj2Iv7WcSwnN26XYnTq/c2YBQs=
   Content-Length: 20
-  Host: s-bj.jcloud.com
+  Host: oss.cn-north-1.jcloudcs.com
 ```
-
-Detailed analysis:
+Detailed Analysis:
 
 1. If the incoming AccessKey is absent or inactive, return 403 Forbidden. Error code: InvalidAccessKey.
 

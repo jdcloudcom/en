@@ -4,7 +4,7 @@
 
 JD Cloud Anti-DDoS Basic is only applicable to the public network IP users in JD Cloud and attack protection scenarios with the highest flow rate not exceeding 2G.
 
-Purchase "Anti-DDoS Pro" if you need more attack protection, or if you need more protection from JD Cloud. Reference:[Anti-DDoS Pro](http://www.jdcloud.com/cn/products/anti-ddos-pro)
+Purchase "Anti-DDoS Pro" if you need more attack protection, or if you need more protection from JD Cloud. Reference: [Anti-DDoS Pro](http://www.jdcloud.com/products/anti-ddos-pro)
 
  
 

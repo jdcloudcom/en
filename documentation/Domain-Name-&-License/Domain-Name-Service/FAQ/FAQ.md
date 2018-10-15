@@ -1,4 +1,4 @@
-# FQA
+#  FAQ
 ## Q: How much is the price of the domain name?
 
 A: The price of the domain name with different suffix is different. Please refer to the official website for the detailed registration and price of the domain name.
@@ -73,7 +73,7 @@ You can log in to the member area to submit a renewal fee and verify the current
 
 A: Most products have a discount in case of renewal for many years!
 
-The prices of domain names are different, and extremely rich domain name service are provided. For the specific renewal price list, it is recommended that you query and compare directly in the renewal price.
+The prices of domain names are different, and extremely rich domain name service is provided. For the specific renewal price list, it is recommended that you query and compare directly in the renewal price.
 
 ## Q: Why can't a domain name be renewed for more than 10 years?
 

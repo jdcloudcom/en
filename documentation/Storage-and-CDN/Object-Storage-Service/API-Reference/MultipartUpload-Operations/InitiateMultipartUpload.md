@@ -1,14 +1,14 @@
 # InitiateMultipartUpload
 
-## MultipartUpload introduction
+## MultipartUpload Introduction
 
 In addition to uploading files to OSS through PUT Object interface, OSS also provides another upload mode: Multipart Upload. User may use Multipart Upload mode for uploading in the application scenarios including (but not limited to):
 
-1.Supporting breakpoint upload is needed.
+1. Supporting breakpoint upload is needed.
 
-2.Large files (such as files with the size of 500MB) are to be uploaded.
+2. Large files (such as files with the size of 500MB) are to be uploaded.
 
-3.The network conditions are poor, and the link with OSS server is often cut off.
+3. The network conditions are poor, and the link with OSS server is often cut off.
 
 Before uploading files, the size of files to be uploaded cannot be determined.
 
@@ -20,10 +20,10 @@ Description: Before data transmission in the Multipart Upload mode, the interfac
 
 ```
 POST  /ObjectName?uploads HTTP/1.1
-Host: <bucket>.oss.cn-north-1.jcloudcs.com
+Host: BucketName.s.jcloud.com
 x-jss-storage-class: STANDARD or REDUCED_REDUNDANCY       
 Date: GMT  Date     
-Authorization:   signatureValue#Please refer to "Identity and Access Management"     
+Authorization:  signatureValue#Please refer to "Identity and Access Management"     
 ```
 
 **Request Parameter**
@@ -36,7 +36,7 @@ Authorization:   signatureValue#Please refer to "Identity and Access Management"
 
 |Name|Description|
 |-|-|
-|x-jss-server-side-encryption|Is the server encrypted when uploading each part of the Object is assigned<br>Type: boolean<br>Legal value: true,false|
+|x-jss-server-side-encryption|Is the server encrypted when uploading each part of the Object is assigned<br>Type: boolean<br>Legal value: true, false|
 
 **Response Elements**
 
@@ -57,10 +57,9 @@ Detail Analysis:
 4.When initializing Multipart Upload requests, if x-jss-server-side-encryption Header is set, when uploading each part, the server will encrypted each part automatically for storage.
 
 **Request Example**
-
 ```
 POST /multipart.data?uploads   HTTP/1.1
-Host: oss-test.oss.cn-north-1.jcloudcs.com
+Host: oss-example.s-bj.jcloud.com
 x-jss-storage-class:   STANDARD      
 Date: Wed, 12 Jul 2017 07:45:27   GMT  
 Authorization: jingdong qbS5QXpLORrvdrmb:wYoTTKpqU1mZu4Dy3IlTRbCUx0w=   

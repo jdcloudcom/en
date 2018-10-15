@@ -1,5 +1,5 @@
-# MySQL Restored based on Backup
-You can perform a full backup before testing if to perform some destructive tests on MySQL service instance. After the test is completed, you can restore the current instance based on the previous full backup, so that the data in MySQL service instance can be returned to its original state.
+# JCS for MySQL Restored based on Backup
+You can perform a full backup before testing if to perform some destructive tests on JCS for MySQL service instance. After the test is completed, you can restore the current instance based on the previous full backup, so that the data in JCS for MySQL service instance can be returned to its original state.
 
 ## Precautions
 * The operation can only be performed when the instance is ***running***.

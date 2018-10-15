@@ -1,7 +1,7 @@
 # Create Backup
 
 ## 1. Operation Entrance
-Click the instance name, enter the instance page, select [Backup Management] page, click [Create Backup] and input the backup name.
+Click the instance name, enter the instance page, select ***Backup Management*** page, click ***Create Backup*** and input the backup name.<br/>
 ![Create Backup 1](../../../../image/RDS/Create-Backup-1.png)
 
 ## 2. Select Backup Granularity

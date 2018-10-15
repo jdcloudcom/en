@@ -36,7 +36,7 @@ In the pay-as-you-go mode, the bill for the previous hour will be generated acco
 * When your Virtual Machines become in arrears, a resource arrears notice will be sent to you. Please pay attention to check the notice and recharge it in time to avoid unnecessary losses. Please refer to the expiration & arrears reminder for details.
 * Your instance and the data in the instance will be retained for 7 days from the time when the services are stopped. 7 days later, a resource release notice will be sent to you. After the resource is recovered, the data cannot be retrieved;
 * When you make up the arrears, the resources will be automatically restored and the billing will be restarted. If the instance is not restored to the running state after the recharge, please manually [Start Instance](../Operation-Guide/Instance/Start-Instance.md);
-* If you do not want to continue to use the instance billed by configuration, please duly [Delete Instance](../Operation-Guide/Instance/Stop-Instance.md).
+* If you do not want to continue to use the instance billed by configuration, please duly [Delete Instance](../Operation-Guide/Instance/Delete-Instance.md).
 
 
 ## Functional Limits
@@ -52,7 +52,7 @@ Attach cloud disk|Support|Support
 Expand cloud disk|Support. For details, please refer to cloud disk expansion|Support. For details, please refer to cloud disk expansion.        
 Convert billing method|Support conversion of billing by instances configuration to monthly package billing|Not Supported  
 Create all types of instances|Support|Support   
-Free use of cloud monitor and Load Balancer|Support|Support
+Free use of monitoring and Load Balancer|Support|Support
 
 ## Billing Method Conversion
 * An instance billed by configuration can be changed into an instance billed under monthly package through [Renew][Renew-Process.md]

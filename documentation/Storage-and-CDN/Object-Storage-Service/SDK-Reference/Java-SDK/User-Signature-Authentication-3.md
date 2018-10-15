@@ -1,6 +1,6 @@
 # Generate presigned URL
 
-JD Cloud storage provides a kind of authentication method based on Query String, i.e., by perform Presigned action, generate a URL with authentication information for the Objects and send it to third party users to implement public access. When generating URL, you can designate URL expired time so as to restrict users from accessing with long time.
+Object Storage Service provides a kind of authentication method based on Query String, i.e., by perform Presigned action, generate a URL with authentication information for the Objects and send it to third party users to implement public access. When generating URL, you can designate URL expired time so as to restrict users from accessing with long time.
 
 Generated URL accesses with the method of GET by default, thus, users can directly access relevant contents via a browser, the codes are as follows:
 ```
@@ -10,7 +10,7 @@ String endpoint = "oss.cn-north-1.jcloudcs.com";
 String accessKey = "<your accessKey>";  
 String secretKey = "<your secretKey>";  
 String bucketName = "<your bucketName>";  
-String key ="<you objectKey>”;  
+String key = “<you objectKey>”;  
        
 // Create JingdongStorageService instance  
 Credential credential = new Credential(accessKey, secreteKey);  

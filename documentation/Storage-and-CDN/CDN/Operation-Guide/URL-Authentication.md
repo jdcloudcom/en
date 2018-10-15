@@ -1,14 +1,14 @@
-**URL authentication description**
+# URL authentication description
 
 JD Cloud CDN supports parameter authentication. The user can select appropriate authentication method depending on its own business situation to provide valid protection to origin server resources. (At present the live video only has parameter authentication)
 
-**1**.**Parameter Authentication Method**
+**1. Parameter Authentication Method**
 
 **1.1**   **Encrypted URL Composition**
 
-https://DomainName/Path/Filename? Parameter & auth_token=expire-uniqid-rand-signature
+http://DomainName/Path/Filename?Parameter&auth_token=expire-uniqid-rand-signature
 
-signature =md5sum("**uri-expire-uniqid-rand-private_key**")
+signature =md5sum("uri-expire-uniqid-rand-private_key")
 
 **1.2**   **Authentication Field Description**
 
@@ -23,35 +23,35 @@ signature =md5sum("**uri-expire-uniqid-rand-private_key**")
 
 **1.3**   **Theory Description**
 
-l  When the CDN server gets the request, it will judge if expire in the request is before the current time. If yes, it is deemed as expired and the HTTP 403 error will be returned. If expire is later than the current time, a same character string will be constituted (refer to the following signature constitution method). Then, work out the new_signature with the MD5 algorithm and compare the new_signature with the signature in the request. Authentication is passed if the comparison results are consistent and the file will be returned. Otherwise, authentication is failed and the HTTP 403 error will be returned.
+* When the CDN server gets the request, it will judge if expire in the request is before the current time. If yes, it is deemed as expired and the HTTP 403 error will be returned. If expire is later than the current time, a same character string will be constituted (refer to the following signature constitution method). Then, work out the new_signature with the MD5 algorithm and compare the new_signature with the signature in the request. Authentication is passed if the comparison results are consistent and the file will be returned. Otherwise, authentication is failed and the HTTP 403 error will be returned.
 
-l  new_signature  is worked by computing the following character strings:
+* new_signature  is worked by computing the following character strings:
 
-**origin_** **signature** = "**uri-expire-uniqid-rand-private_key** " (uri is the relative address of the user’s request object, excluding parameters)
+**origin_signature** = **"uri-expire-uniqid-rand-private_key"** (uri is the relative address of the user’s request object, excluding parameters)
 
 **new_signature = md5sum(origin_ signature)**
 
 **1.4**   ** Example Description**
 
-1.     Allow the request target:
+* Allow the request target:
 
-https://cdn.example.com/video/standard/1K.html?fa=121&jd=121
+http://cdn.example.com/video/standard/1K.html?fa=121&jd=121
 
-2. The key is set to be:jdcloud1234 **(set by the user by itself)**
+* he key is set to be:jdcloud1234 **(set by the user by itself)**
 
-3.     The authentication configuration file is expired on June 18, 2020, 00:00:00, equaling to 1592409600 seconds by computing.
+* The authentication configuration file is expired on June 18, 2020, 00:00:00, equaling to 1592409600 seconds by computing.
 
-4.     The CDN server will constitute a signature character used for computing signature.
+* The CDN server will constitute a signature character used for computing signature.
 
-/video/standard/1K.html-1592409600-0-0-jdcloud1234"
+/video/standard/1K.html-1592409600-0-0-jdcloud1234
 
-5.     The CDN server will compute the **signature** according to character strings of the signature:
+* The CDN server will compute the **signature** according to character strings of the signature:
 
 **signature** = md5sum("/video/standard/1K.html-1592409600-0-0-jdcloud1234") =06d97bc9e43ded48d991994006cfa127
 
-6.      url at the request is:
+* url at the request is:
 
-https://cdn.example.com/video/standard/1K.html ?fa=121&jd=121&auth_token=1592409600-0-0-06d97bc9e43ded48d991994006cfa127
+http://cdn.example.com/video/standard/1K.html ?fa=121&jd=121&auth_token=1592409600-0-0-06d97bc9e43ded48d991994006cfa127
 
 The **signature** worked out is consistent with the value of **signature** =06d97bc9e43ded48d991994006cfa127 in the user’s request, thus the authentication is passed.
 
@@ -59,7 +59,7 @@ The **signature** worked out is consistent with the value of **signature** =06d9
 
 **2.1**   **Encrypted URL Composition**
 
-https://DomainName/deadline/ md5sum("uri-deadline-password")/Path/Filename? Parameter
+http://DomainName/deadline/ md5sum("uri-deadline-password")/Path/Filename?Parameter
 
 **2.2**   **Authentication Field Description**
 
@@ -72,9 +72,9 @@ https://DomainName/deadline/ md5sum("uri-deadline-password")/Path/Filename? Para
 
 **2.3**   **Theory Description**
 
-l  When the CDN server gets the request, it will judge if deadline in the request is before the current time. If yes, it is deemed as expired and the HTTP 403 error will be returned. If deadline is later than the current time, a same character string will be constituted (refer to the following sstring constitution method). Then, work out the HashValue with the MD5 algorithm and compare it with the md5hash in the request. Authentication is passed if the comparison results are consistent and the file will be returned. Otherwise, authentication is failed and the HTTP 403 error will be returned.
+* When the CDN server gets the request, it will judge if deadline in the request is before the current time. If yes, it is deemed as expired and the HTTP 403 error will be returned. If deadline is later than the current time, a same character string will be constituted (refer to the following sstring constitution method). Then, work out the HashValue with the MD5 algorithm and compare it with the md5hash in the request. Authentication is passed if the comparison results are consistent and the file will be returned. Otherwise, authentication is failed and the HTTP 403 error will be returned.
 
-l  HashValue is worked by computing the following character strings:
+* HashValue is worked by computing the following character strings:
 
 sstring = "uri-deadline-Password" (uri is the relative address of the user’s request object, excluding parameters)
 
@@ -82,25 +82,25 @@ HashValue = md5sum(sstring)
 
 **2.4**   ** Example Description**
 
-1.     Allow the request target:
+* Allow the request target:
 
-https://cdn.example.com/video/standard/1K.html ?fa=121&cc=121
+http://cdn.example.com/video/standard/1K.html ?fa=121&cc=121
 
-2.     The key is set to be: jcloud1234 **(****set by the user by itself)**
+* The key is set to be: jcloud1234 **(set by the user by itself)**
 
-3.     The authentication configuration file is expired on June 18, 2020, 00:00:00, equaling to 1592409600 seconds by computing.
+* The authentication configuration file is expired on June 18, 2020, 00:00:00, equaling to 1592409600 seconds by computing.
 
-4.  The CDN server will constitute a signature character used for computing Hashvalue.
+* The CDN server will constitute a signature character used for computing Hashvalue.
 
 /video/standard/1K.html-1592409600-jcloud1234"
 
-5.  The CDN server will compute the Hashvalue according to character strings of the signature:
+* The CDN server will compute the Hashvalue according to character strings of the signature:
 
 HashValue = md5sum("/video/standard/1K.html-1592409600-jcloud1234") = 8afb0900782e14c35214ccda534a3679
 
-6. url at the request is:
+* url at the request is:
 
-https://cdn.example.com/1592409600/8afb0900782e14c35214ccda534a3679/video/standard/1K.html? fa=121&cc=121
+http://cdn.example.com/1592409600/8afb0900782e14c35214ccda534a3679/video/standard/1K.html? fa=121&cc=121
 
 The authentication is passed if the HashValue worked out is consistent with the value of md5hash = 8afb0900782e14c35214ccda534a3679 in the user’s request.
 

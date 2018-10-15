@@ -1,12 +1,12 @@
-# Quick Start
+# Quickstart
 
-Please confirm the OSS basic concepts that you are already familiar with, such as Bucket, Object, Endpoint, AccessKeyId , AccessKeySecret, etc.
+Please confirm the OSS basic concepts that you are already familiar with, such as Bucket, Object, Endpoint, AccessKeyId, AccessKeySecret, etc.
 
-In this section, you will see how to quickly use Java SDK to complete normal actions, such as create storage space, upload files, download files, etc.
+In this section, you will see how to quickly use Java SDK to complete normal actions, such as create Bucket, upload files, download files, etc.
 
 ##Initiate JingdongStorageService
 
-Before sending any a HTTP request to the object storage service, a JingdongStorageService instance must be created first:
+Before sending any a HTTP request to the Object Storage Service, a JingdongStorageService instance must be created first:
 ```
 //The accessKey to access JD Cloud  
 String accessKey = "<yourAccessKeyId>";  
@@ -18,7 +18,7 @@ String endpoint = "oss.cn-north-1.jcloudcs.com";
 JingdongStorageService jss= new JingdongStorageService(accessKey,secreteKey);  
 jss.setEndpoint(endpoint);  
  
-//Use object storage service  
+//Use Object Storage Service  
   
 //Destruct JingdongStorageService instance  
 jss.destroy();
@@ -29,7 +29,7 @@ Notification: see “Initialization” for more initialization contents of OSSCl
 
 Bucket is OSS global naming space, (being equivalent to the container of data), which can store several objects. The following codes demonstrate how to create a Bucket:
 ```
-// Create bucket  
+// Create Bucket  
 String bucketName = "<your-bucket-name>";  
 jss.createBucket(bucketName);
 ```

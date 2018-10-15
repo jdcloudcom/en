@@ -3,14 +3,14 @@
 
 ## Description
 Image inter-domain replication, copy private images to other regions, allowing  you to operate your private image only. <br>
-Only images of the Cloud Disk Service of system disk are supported.
+Only the image operations of cloud system disk with rootDeviceType as cloudDisk are supported.
 
 
 ## Request method
 POST
 
 ## Request address
-https://vm.jdcloud-api.com/1.0.3/regions/{regionId}/images:copyImages
+https://vm.jdcloud-api.com/v1/regions/{regionId}/images:copyImages
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
@@ -29,7 +29,6 @@ https://vm.jdcloud-api.com/1.0.3/regions/{regionId}/images:copyImages
 |**requestId**|String| |
 |**result**|Result| |
 
-
 ### Result
 |Name|Type|Description|
 |---|---|---|
@@ -45,7 +44,7 @@ https://vm.jdcloud-api.com/1.0.3/regions/{regionId}/images:copyImages
 |---|---|
 |**400**|Invalid parameter|
 |**401**|Authentication failed|
-|**404**|Not Found  |
+|**404**|Not found|
 |**503**|Service unavailable|
 |**200**|OK|
 |**500**|Internal server error|

@@ -6,7 +6,7 @@ You can see the backup strategy of the current instance by entering the page of 
 ![Backup Strategy 1](../../../../image/RDS/Backup-Strategy-1.png)
 
 ## 2. Modify Backup Strategy
-- Click Modify [Modify Strategy] to modify each backup strategy item in the pop-up dialog box.
+- Click ***Modify Strategy*** to modify each backup strategy item in the pop-up dialog box.
 - Currently it only supports the modification on "automatic backup time".
 
 ![Backup Strategy 2](../../../../image/RDS/Backup-Strategy-2.png)

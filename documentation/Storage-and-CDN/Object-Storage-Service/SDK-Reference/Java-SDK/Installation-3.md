@@ -1,10 +1,10 @@
 # Installation
 
-## Environment preparation
+## Environment Preparation
 
 Applicable to revision JDK 6 or above.
 
-## Installation method
+## Installation Method
 
 **Import JAR package into Eclipse project:**
 
@@ -23,7 +23,7 @@ Take revision 1.0.3 as an example, with the following steps:
 You can use OSS Java SDK in the Eclipse project through the above steps.
 
 
-## Example project
+## Example Project
 
 OSS Java SDK provides an example project that you can run on your local device. You can also develop your applications based on the example project.
 
@@ -33,7 +33,7 @@ OSS Java SDK provides an example project that you can run on your local device. 
 
 The example includes the following contents:
 
-|Example file|Example contents|
+|Example File|Example Contents|
 |-|-|
 |JcloudOSSDemo|Demonstrate quick start example for Object Storage Service|
 |InitOSSSample|Demonstrate the method of OSS initialization|
@@ -44,5 +44,5 @@ The example includes the following contents:
 |MoveObjectSample|Demonstrate the usage of moving object|
 |ListObjectSample|Demonstrate the usage of listing objects|
 |PresignedUrlSample|Demonstrate the usage of creating pre-signed URI|
-|BucketSample|Demonstrate the usage of configuring bucket, including basic actions (create, delete, display all buckets of the account) of the storage space, relevant actions of anti-theft chain, etc.|
+|BucketSample|Demonstrate the usage of configuring bucket, including basic actions (create, delete, display all buckets of the account) of the Bucket, relevant actions of anti-leech chain, etc.|
 |MultipartUploadSample|Demonstrate the usage of multipart upload of large files|

@@ -5,11 +5,10 @@ The action is used to list all Object information in assigned Bucket.
 Note: Even if the access permission of Bucket is public, this action is also not allowed to be used anonymously, which requires to assign Authorization.
 
 **Request Syntax**
-
 ```
 GET / HTTP/1.1
-Host: <bucket>.oss.cn-north-1.jcloudcs.com
-Date: GMT Date     
+Host: BucketName. s.jcloud.com
+Date: GMT   Date     
 Authorization: signatureValue#Please refer to "Identity and Access Management"
 ```
 
@@ -57,16 +56,13 @@ Detail Analysis:
 5.marker is the start marker of Object information sorted in dictionary order, the result does not include marker, marker can be set as the last Key in this list to get other Object information unreturned in this action, which is Usually used with maxKeys to implement paging. 
 
 **Request Example**
-
 ```
 GET / HTTP/1.1
-Host: oss-test.oss.cn-north-1.jcloudcs.com
+Host:   oss-example.s-bj.jcloud.com
 Date: Tue, 11 Jul 2017   07:54:41 GMT    
-Authorization: jingdon qbS5QXpLORrvdrmb:3xo8IxIXSkA280C0Z5+lkowaAA8=
+Authorization: jingdong   qbS5QXpLORrvdrmb:3xo8IxIXSkA280C0Z5+lkowaAA8=
 ```
-
 **Response Example**
-
 ```
 HTTP/1.1 200 OK
 Server: nginx
@@ -123,16 +119,13 @@ X-Trace: 200-1499759681772-0-0-19-42-42
 ```
 
 **Request Example (inclusive of Prefix parameter)**
-
 ```
 GET   /?prefix=jingdong%2F HTTP/1.1
 Host:   oss-example.s-bj.jcloud.com
 Date: Tue, 11 Jul 2017   08:01:09 GMT    
 Authorization: jingdong   qbS5QXpLORrvdrmb:FQZNWlNAraOLgreEflrurbNojJE= 
 ```
-
 **Response Example (inclusive of Prefix parameter)**
-
 ```
 HTTP/1.1 200 OK
 Server: nginx
@@ -180,18 +173,15 @@ X-Trace:   200-1499760069435-0-0-20-45-45
       "CommonPrefixes": [ ]
 }
 ```
-
 **Request Example (inclusive of prefix and parameter)** 
-
 ```
 GET   /?prefix=jingdong%2F&delimiter=%2F HTTP/1.1
-Host: oss-test.oss.cn-north-1.jcloudcs.com
+Host: oss-example.s-bj.jcloud.com
 Date: Tue, 11 Jul 2017   08:05:13 GMT    
 Authorization: jingdong   qbS5QXpLORrvdrmb:jXw8QQvs6IS+JJ2EpiFMUGtgNEM=
 ```
 
 **Response Example (inclusive of prefix and parameter)**
-
 ```
 HTTP/1.1 200 OK
 Server: nginx

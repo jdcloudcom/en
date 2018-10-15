@@ -7,7 +7,7 @@
 * A shared private image cannot be deleted before the sharing relationship is cancelled. If the private image is shared with other users, please cancel the sharing before delete it.
 
 ## Operation Steps
-1. Access [Image Console][1], or access [JD Cloud Console][2] Click navigation bar on the left **Elastic Compute** - **Virtual Machines** - **Image** to enter the image list page.
+1. Access [Image Console][1], or access [JD Cloud Console](https://console.jdcloud.com/overview) Click navigation bar on the left **Elastic Compute** - **Virtual Machines** - **Image** to enter the image list page.
 2. Select the "Private Image" TAB to find the private image needs to be deleted, then select **Delete** in the private image list.
 ![](../../../../../image/vm/Operation-Guide-Image-delete1.png)
 
@@ -16,7 +16,6 @@
 
 
 
-  [1]: ./images/Operation-Guide-Image-delete2.png "Operation-Guide-Image-delete2.png"
-  [2]: https://cns-console.jdcloud.com/host/compute/list
+  [1]: https://cns-console.jdcloud.com/host/image/list
   [3]: ./images/Operation-Guide-Image-delete1.png "Operation-Guide-Image-delete1.png"
   [4]: ./images/Operation-Guide-Image-delete2.png "Operation-Guide-Image-delete2.png"

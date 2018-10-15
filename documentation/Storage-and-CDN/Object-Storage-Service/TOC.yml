@@ -16,7 +16,7 @@ items:
  - name: Pricing
    items:
       - name: Billing Overview
-        href: Pricing/Pricing.md 
+        href: Pricing/Billing-Overview.md 
       - name: Billing Rules
         href: Pricing/Billing-Rules.md
       - name: Price Overview
@@ -239,7 +239,7 @@ items:
              href: SDK-Reference/Java-SDK/Installation-3.md
            - name: Initialization
              href: SDK-Reference/Java-SDK/Initialization-3.md
-           - name: Getting-Started
+           - name: Getting Started
              href: SDK-Reference/Java-SDK/Quick-Start-3.md 
            - name: Create Bucket
              href: SDK-Reference/Java-SDK/Create-Bucket-3.md 
@@ -283,5 +283,7 @@ items:
         href: Best-Practices/S3cmd.md
       - name: Set Signature Authentication For Callback Server
         href: Best-Practices/Setting-Signature-Authentication-For-Callback-Server.md        
+      - name: OSS Online Service Quick Verification Tools
+        href: Best-Practices/OSS-Verification-Tool.md
  - name: FAQ
-   status:0
+   status: 0

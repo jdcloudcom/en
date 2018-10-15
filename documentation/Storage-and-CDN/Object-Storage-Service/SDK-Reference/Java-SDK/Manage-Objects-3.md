@@ -1,8 +1,8 @@
 # Manage Objects
 
-In OSS, users can manage files (Objects) in the storage space (Bucket) through a series of interfaces, such as ListObjects, DeleteObject, MoveOb, etc. The name of Object is also called as key or object key.
+In OSS, users can manage files (Objects) in the Bucket (Bucket) through a series of interfaces, such as ListObjects, DeleteObject, MoveOb, etc. The name of Object is also called as key or object key.
 
-##List files in the storage space
+##List files in the Bucket
 
 Acquire object list under the bucket, perform dictionary sorting for the returned results based on key. The previous 1000 data will be returned by default. If there are more data, objectList hasNext() returns true, otherwise returns false.
 
@@ -173,9 +173,9 @@ If Delimiter is set as “/”, the return value only list the files and subfold
 
 Notification: if there 4 files in the Bucket: oss.jpg, jingdong/file, jingdong/dir/file1, jingdong/dir/file2, “/” is used as the delimiter of the folders. The following example demonstrates how to simulate folder function.
 
-**List all files in the storage space**
+**List all files in the Bucket**
 
-When we need to acquire all files under the storage space, we use the following codes:
+When we need to acquire all files under the Bucket, we use the following codes:
 
 ```
 //Create BucketService instance  

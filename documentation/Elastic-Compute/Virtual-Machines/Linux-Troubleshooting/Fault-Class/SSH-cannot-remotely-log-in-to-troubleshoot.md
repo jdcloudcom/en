@@ -34,7 +34,7 @@ First, you need to determine if SSH provides external services. The command is a
 
 
 
-Determine whether there is an SSH program running through above method. If it is not already running, start the command to enable the SSH service (the default startup command for CentOS 6.X is service sshd start). In addition, you need to check whether the listener port of ssh level has been modified. If it is modified, you need to determine whether the server's iptables and the console's firewall have been modified accordingly. 0.0.0.0 means that all addresses are monitored. If it is 127.0.0.1, it means that only ssh connections can be made on this machine. You need to modify /etc/ssh/sshd_config to adjust the configuration.
+Determine whether there is an SSH program running through above method. If it is not already running, start the command to enable the SSH service (the default startup command for CentOS 6.X is service sshd start). In addition, you need to check whether the listener port of ssh level has been modified. If it is modified, you need to determine whether the server's iptables and the console's firewall have been modified accordingly. 0.0.0.0 means that all addresses are monitored. If it is 127.0.0.1, it means that only ssh connections can be made on this machine. You need to modify /etc/ssh/sshd_config for resizing.
 
 It should be noted that the system may be stuck due to resource exhaustion. You can view the CPU from the console and check if it is unable to connect due to high occupation of memory. In this case, please close unnecessary services or reset the server and upgrade the configuration.
 
@@ -42,7 +42,7 @@ It should be noted that the system may be stuck due to resource exhaustion. You 
  
 Log in to the Virtual Machines through the remote login mode of the console and check /etc/hosts.deny;
 
- Is there any denyIP in cat /etc/hosts.deny? When the IP address is added to the file, the address will not be logged in (protection time is 30 minutes, and it will be automatically cleared after 30 minutes); delete the IP address in vim /etc/hosts.deny file;
+ Is there any denying of IP address in cat /etc/hosts.deny? When the IP address is added to the file, the address will not be logged in (protection time is 30 minutes, and it will be automatically cleared after 30 minutes); delete the IP address in vim /etc/hosts.deny file;
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Linux/SSH%E6%97%A0%E6%B3%95%E8%BF%9C%E7%A8%8B%E7%99%BB%E5%BD%95%E6%8E%92%E6%9F%A501.png)
 

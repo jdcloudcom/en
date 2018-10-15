@@ -9,7 +9,7 @@ Note: The configuration and instructions of Linux in this article have been test
 
 **Problem Phenomenon**
 
-When logging in to a Linux Virtual Machines using SSH, even if you log in or transfer data through the intranet, the speed is very slow.
+When logging in to a Linux VM using SSH, even if you log in or transfer data through the intranet, the speed is very slow.
 
 
 

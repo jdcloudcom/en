@@ -14,4 +14,4 @@ For example: Convert image format of example.jpg to png format
 
 http://oss.cn-north-1.jcloudcs.com/downloads/example.jpg?x-oss-process=img/fmt/png
 
-![格式转换](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-061.png)
+![格式转换](../../../../../image/Object-Storage-Service/OSS-061.png)

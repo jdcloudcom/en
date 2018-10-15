@@ -1,27 +1,27 @@
 # API Overview
 
-## Actions related to Service
+## Service Actions
 |API|Description|
 |-|-|
 |GetService|Get all Buckets under the account|
 
-## Actions related to Bucket
+## Bucket Operations
 |API|Description|
 |-|-|
 |Put Bucket|Create Bucket|
 |Put Bucket Referer|Set anti-leech rules of Referer|
 |Get Bucket Referer|View anti-leech chain rules of Referer|
 |Delete Bucket| Delete Bucket|
-|Get Bucket(List Object)|Get all information of Object in Bucket|
+|Get Bucket (List Object)|Get all information of Object in Bucket|
 
-## Actions related to Object
+## Object Operations
 |API|Description|
 |-|-|
 |PutObject|Upload object|
 |GetObject|Get Object|
 |DeleteObject|Delete Object|
 
-## Actions related to Multipart Upload
+## Multipart Upload Operations
 |API|Description|
 |-|-|
 |Initiate Multipart Uploade|Initiate MultipartUpload Event|

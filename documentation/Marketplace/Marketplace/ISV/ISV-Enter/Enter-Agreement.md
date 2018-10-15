@@ -85,7 +85,7 @@ To apply for and engage in the shop operation, the service provider shall meet c
 
 5) Other conditions that may be proposed by JD Cloud according to legal and regulatory requirements and business demands.
 
-4.2 Supportive documents
+4.2 Supportive Documents
 
 4.2.1 The service provider shall submit all necessary documents or certificates online as shown by the "Online Service Provider Move-in System", including but not limited to the business license, tax registration certificate, the certificate of bank of deposit, power of attorney, trademark registration certificate, quality inspection report, customs declaration, certificate of country of origin, the copies of the face and back of the legal representative's ID cards. In the event of complaints by customer, investigations by administrative agencies, and law suits, the service provider shall also submit to JD Cloud a paper copy which is checked to be consistent with the original and affixed with the common seal of the service provider.
 
@@ -229,7 +229,7 @@ If the sampling test of the service sold by the service provider is unqualified 
 
 8 Fees and Settlement
 
-8.1 Fee standards and types
+8.1 Fee Standards and Types
 
 8.1.1 The service provider agrees to pay the platform usage fee, deposit and technical service fee to "JD Cloud" according to the standards specified in the public link on JD Cloud Marketplace and the subsequently updated standards or supplementary agreements (if any).
 

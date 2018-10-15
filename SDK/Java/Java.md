@@ -17,7 +17,7 @@ To facilitate the understanding of some concepts and parameters in the SDK, it's
 # SDK Usage Method #
 
 If you use Apache Maven to manage a Java project, you only need to add a corresponding dependency item in the pom.xml file of the project, as follows:
-
+```
 <dependency>
     <groupId>com.jdcloud.sdk</groupId>
     <artifactId>core</artifactId>
@@ -29,6 +29,7 @@ If you use Apache Maven to manage a Java project, you only need to add a corresp
     <artifactId>vm</artifactId>
     <version>0.6.1</version>
 </dependency>
+```
 You can also download the SDK source code yourself. The source code address is [Java SDK](https://github.com/jdcloud-api/jdcloud-sdk-java).
 
 With any of the problems in the SDK use, you are welcomed to communicate at the [SDK Usage Problem Feedback Page] (https://github.com/jdcloud-api/jdcloud-sdk-java/issues) for the Github project.
@@ -51,6 +52,7 @@ The calling of the Java SDK is mainly divided into four steps:
 
 The following is an example of a call to query details for individual VM Instance
 
+```
 	import com.jdcloud.sdk.JdcloudSdkException;
 	import com.jdcloud.sdk.auth.CredentialsProvider;
 	import com.jdcloud.sdk.auth.StaticCredentialsProvider;
@@ -88,17 +90,15 @@ The following is an example of a call to query details for individual VM Instanc
 	                System.out.println(response.getRequestId() + " failed: " + response.getError().getMessage());
 	                return;
 	            }
-
 	            DescribeInstanceResult result = response.getResult();
 	            // 5. Normally return the result and carry out follow-up processing using the returned data
-            
  	       }catch (JdcloudSdkException jse) {
 	            // Calling API failed, error handling
  	       }
 	    }
 	}
-
+```
 
 If you need to set up an additional header, for example, call an interface that opens the MFA operation protection, you need to pass x-jdcloud-security-token, as follows:
 
-	vmClient.setCustomHeader("x-jdcloud-security-token", "xxxx");
+	 vmClient.setCustomHeader("x-jdcloud-security-token", "xxxx"); 

@@ -13,7 +13,7 @@ It is because that Windows update service is not running.
 
 **Solution:**
 
-Click [Start] and execute services.msc, and press [Enter] to find the windows update service. The status is disabled by default, and change it as [Manual] and enable it. Install the .net3.5 component online, and disable the windows update service as per demand after the installation is complete.
+In the Start menu, run services.msc, and press **Enter** to find the windows update service. The status is disabled by default; change it to Manual and enable it. Install the .net3.5 component online, and disable the windows update service as needed after the installation is complete.
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows2016%E5%AE%89%E8%A3%85.net3.5%E6%8A%A5%E9%94%9902.png)
 

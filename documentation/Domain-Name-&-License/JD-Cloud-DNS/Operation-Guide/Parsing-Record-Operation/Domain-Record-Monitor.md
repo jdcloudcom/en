@@ -16,7 +16,7 @@
 
   You can choose once, twice, or three times.
 
-  The default is twice. To avoid interference, it is recommended to set it to twice.
+  The default is twice. To avoid interference, it is recommended to set it to be twice.
 
    
 
@@ -52,7 +52,7 @@
 
   4.3.4 There are two alternate addresses, alternate 1 and alternate 2. If an exception occurs, it will first switch to the alternate address 1, and if the alternate 1 is also abnormal, it will switch to the alternate address 2.
 
-  4.3.5 If the alternate 1 is not filled in, only the alternate 2 is filled , it will promote the alternate 2 to the alternate 1 by default.
+  4.3.5 If the alternate 1 is not filled in, only the alternate 2 is filled, it will promote the alternate 2 to the alternate 1 by default.
 
    
 

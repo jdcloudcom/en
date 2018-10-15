@@ -1,5 +1,5 @@
-# Create Backup of Percona
-Percona service instance supports both automatic backup and manual backup. You can modify the backup strategy to set the time when the automatic backup is triggered. See details in [Backup Policy](./Backup Policy.md).
+# Create Backup of the JCS for Percona
+The JCS for Percona service instance supports both automatic backup and manual backup. You can modify the backup strategy to set the time when the automatic backup is triggered. See details in [Backup Policy](./Backup Policy.md).
 The backup instance will be stored in the cloud storage service of JD Cloud. At present, JD Cloud does not charge for the backup space.
 
 ## Precautions

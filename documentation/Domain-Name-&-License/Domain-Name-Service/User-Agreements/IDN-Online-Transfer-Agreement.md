@@ -11,7 +11,7 @@ In the following terms, "the user" refers to an individual or entity that has re
 
 The user hereby warrants that the user information filled in is true, accurate and complete, and there are not any misleading or false statements. All responsibilities arising from the violation of this regulation shall be assumed by the user, and the company has the right to force modification of domain name registration information, including other (hold domain name / deletion of domain name / transfer of domain name, etc.) operations. If there are any changes of such information, especially, the contact of the domain name management, technical contact or payment contact(such as, correspondence address, telephone, fax or email, etc.) change, the user should update the information change following the change method and process indicated on the relevant page of the company's website within 15 days.
 
-The company has the right to review the application of domain name registration provided by the user in accordance with the provisions of  Administrative Measures on Internet Domain Name Management in China, and delete the domain names that violate Administrative Measures on Internet Domain Name Management in China. And the company will not be responsible for the impact and consequences of this deletion. However, the above content cannot be interpreted as the company has the obligation to review the application for registration of the domain name of the user; meanwhile, the company does not assume any responsibility for the truthfulness, accuracy and completeness of the information filled in by the user.
+The company has the right to review the application of domain name registration provided by the user in accordance with the provisions of Administrative Measures on Internet Domain Name Management in China, and delete the domain names that violate Administrative Measures on Internet Domain Name Management in China. And the company will not be responsible for the impact and consequences of this deletion. However, the above content cannot be interpreted as the company has the obligation to review the application for registration of the domain name of the user; meanwhile, the company does not assume any responsibility for the truthfulness, accuracy and completeness of the information filled in by the user.
 
 The user agrees that the online registration service terms of this domain name are as legally binding as the written terms of the user's signature or stamp.
 
@@ -19,7 +19,7 @@ The user further agrees that the user's formal entry into the online domain name
 
 Article I Items and Terminology Interpretation
 
-1-1 The user registers and applies  the registered domain name on the Internet through the service provided by the company.
+1-1 The user registers and applies the registered domain name on the Internet through the service provided by the company.
 
 1-2 The term of domain name registration has the following meanings:
 
@@ -43,7 +43,7 @@ Article III Payment of Fees
 
 3-1 The user agrees to pay the relevant fees to the company in accordance with the billing standards and within the payment time announced by the company, and agrees that the renewal fees shall be applied to each renewal billing standards. The user agrees that, to any disputes arising from the adjustment of the billing standards agreed by the user, the company and CNNIC or ICANN have the right to be exempt from litigation. While accepting the terms, the user should pay the entire amount of fees of the domain name registration to the company. The user understands that the fees paid are not refundable once the domain name registration is successful.
 
-3-2 The company does not assume any responsibility for the "squat by others" of the domain name happens during the time the user accepts the terms and  the company receives the payment fees from the user and payment to the domain name management organization.
+3-2 The company does not assume any responsibility for the "squat by others" of the domain name happens during the time the user accepts the terms and the company receives the payment fees from the user and payment to the domain name management organization.
 
 3-3 "The company receives the payment fees from the user" refers to the company receives the original receipt of the user's postal money order or bank telegraphic transfer voucher; "payment to the domain name management organization" refers to that the domain name management organization receives the payment.
 
@@ -73,7 +73,7 @@ Article IV Service Period
 
 4-2-8 The user did not pay the fees on time.
 
-4-2-9 The subject qualification of one party does not exist or extincts.
+4-2-9 The subject qualification of one party does not exist or expires.
 
 4-3 If the user renews the fees in accordance with the provisions of 5-9 and the domain name management organization accepts the renewal of the user, the service period of the company is extended to the expiration date of the domain name approved by the domain name management organization.
 
@@ -87,7 +87,7 @@ Article V Rights and Obligations of Users
 
 5-4 Once a user applies for domain name registration, the user promises to abide by the current and future amendments to the domain name registration and dispute resolution policies, methods, regulations and national laws and regulations.
 
-5-5 The user guarantees that the domain name applied for registration does not infringe the legal rights of the company or any third party, including but not limited to the name rights, trademark rights and domain name rights of others. If the domain name this application registers infringes the rights of the company or any third party (including but not limited to domain name management organizations in various fields, such as ICANN, Verisign, CNNIC, etc.), the user assumes all responsibility. The user promises to assume the rights and obligations arising from the entire process of domain name registration and the consequences of violation of the provisions of this article. If the domain name is cancelled or transferred due to the user's registered domain name nuisance or infringement of the rights of others, the domain name fees paid by the user will not be refunded.
+5-5 The user guarantees that the domain name applied for registration does not infringe the legal rights of the company or any third party, including but not limited to the name rights, trademark rights and domain name rights of others. If the domain name this application registers infringes the rights of the company or any third party (including but not limited to domain name management organizations in various fields, such as ICANN, Verisign, and CNNIC.), the user assumes all responsibility. The user promises to assume the rights and obligations arising from the entire process of domain name registration and the consequences of violation of the provisions of this article. If the domain name is cancelled or transferred due to the user's registered domain name nuisance or infringement of the rights of others, the domain name fees paid by the user will not be refunded.
 
 5-6 The user understands that the success of the domain name registration application is determined by factors such as the application itself and the application time. The company only handles the relevant procedures as an agent, and does not provide any guarantee for the successful registration of the domain name. Before verifying with the company, the user may not claim the owner of the domain name, nor conclude that the domain name registration is successful or unsuccessful. After submitting the domain name registration application, the user shall take the initiative to check the legal status of the domain name on the website of the relevant registration authority.
 
@@ -151,7 +151,7 @@ Article VI Rights and Obligations of the Company
 
 6-9 The user understands and agrees that on the day the domain name expires, the company can choose to redirect the domain name to any IP address without restriction. This IP address can be a stoppage page for charging or a commercial search engine. The user accepts and agrees that the company will not and cannot verify whether such redirection infringes the legal rights and interests of any registrant, including the user, or any third party (including but not limited to intellectual property rights, privacy rights and trademark rights); The user accepts and agrees that the company will not and cannot verify that whether the redirected content is inappropriate or violates any national, regional, federal, state or local rules, regulations or laws, or damage users, third party or their reputation; The user accepts and agrees that the company's liability is limited to the timely termination of the redirection of the relevant domain name upon receipt of the decision of the relevant judicial authority. The company is not responsible for any direct or indirect losses caused by the redirection.
 
-Article 7 Dissolution, Termination and Liability of Breach of Contract
+Article VII Dissolution, Termination and Liability of Breach of Contract
 
 7-1 During the effective service period, if the user transfers the domain name to a domain name server other than the company, the company's service obligation will be terminated.
 
@@ -163,13 +163,13 @@ Article 7 Dissolution, Termination and Liability of Breach of Contract
 
 7-5 Users who fail to comply with this online registration terms or any regulations of CNNIC or ICANN may be considered as a severe breach of contract. At this time, the company can send an email notification to the user and explain the breach of contract. If the user does not provide or cannot provide reasonable evidence of no breach of contract within 3 days of receiving the notice, the company will delete the domain name registered by the user. The company has not previously taken measures against the breach of contract cannot be the reason and explanation for the user's breach of contract or defense.
 
-Article 8 Dispute Resolution
+Article VIII Dispute Resolution
 
 8-1 Due to all disputes relating to terms of this service, both parties shall resolve the matter through friendly negotiation.
 
 8-2 If the negotiation fails, both parties agree to sue to the people's court of the company's principle place of business.
 
-8-3 Terms of this service apply to domain name management practices, policies, and dispute resolution of relevant domain name management agencies (including but not limited to ICANN, Verisign, and CNNIC, etc.). For details, please refer to the websites of above agencies at www.icann.org; www.verisigninc.com; www.cnnic.cn, etc.
+8-3 Terms of this service apply to domain name management practices, policies, and dispute resolution of relevant domain name management agencies (including but not limited to ICANN, Verisign, and CNNIC). For details, please refer to the websites of above agencies at www.icann.org; www.verisigninc.com; www.cnnic.cn, etc.
 
 8-4 In the event of any conflict between the domain name registered by the third party and the user's prior rights, or the occurrence of a "squatting user domain name", the user and the third party shall negotiate to resolve the matter by themselves through legal or other means. The company shall not be responsible for this.
 
@@ -179,15 +179,15 @@ Article 8 Dispute Resolution
 
 8-7 The user agrees that after the domain name registration is successful, if the domain name registration management organization CNNIC causes damage to the user due to fault, the upper limit of the liability of the China Internet Network Information Center is the annual operation management fee of the domain name that the user paid to the company in the current year.
 
-Article 9 Force Majeure
+Article IX Force Majeure
 
 9-1 The party that is subject to force majeure or accident is not liable for the impossibility, unnecessary or meaningless performance of the service due to force majeure or other accidents.
 
-9-2 Force Majeure and accidents are objective events that cannot be foreseen, overcome, and avoided or have a significant impact on one or both parties, including but not limited to natural disasters such as floods, earthquakes, plague epidemics and storms, and social events such as war, turmoil, government actions, etc.
+9-2 Force Majeure and accidents are objective events that cannot be foreseen, overcome, and avoided or have a significant impact on one or both parties, including but not limited to natural disasters such as floods, earthquakes, plague epidemics and storms, and social events such as war, turmoil, and government actions.
 
 9-3 The user agrees that, in view of the particularity of the Internet, the company shall not be liable for any loss caused to the user or third party by hacker attacks, Internet connectivity interruptions or system failures, and connectivity interruptions caused by telecom departments, etc.
 
-Article 10 Other Agreements
+Article X Other Agreements
 
 10-1 If the relevant terms are invalidated by the authority, it will not affect the validity of other terms, nor will it affect the interpretation of this term, the liability for breach of contract and the validity of the relevant agreements on dispute resolution.
 

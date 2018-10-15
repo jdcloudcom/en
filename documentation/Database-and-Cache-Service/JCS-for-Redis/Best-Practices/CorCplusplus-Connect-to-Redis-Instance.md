@@ -1,17 +1,21 @@
-# C/C++connection
+# C/C++Connection
 
 Here's an example of c/c++ being connected to Jmiss-Redis:
 
-- step1: download and install c client used for connecting c/c++ to redis
+- step1: Download and install c client used for connecting c/c++ to JCS for Redis
 
- <pre><code>git clone https://github.com/redis/hiredis.git 
+```
+ git clone https://github.com/redis/hiredis.git 
  cd hiredis 
  make 
  sudo make install 
- ldconfig</code></pre>
-- step2: write test code
+ ldconfig
+```
 
- <pre><code>#include <stdio.h>
+- step2: Write test code
+
+```
+ #include <stdio.h>
  #include <stdlib.h>
  #include <string.h>
  #include <hiredis.h>
@@ -93,13 +97,17 @@ Here's an example of c/c++ being connected to Jmiss-Redis:
      /* Disconnects and frees the context */
      redisFree(c);
      return 0;
- }</code></pre>
-step3: compilation
+ }
+ ```
+ 
+step3: Compile
 
-<pre><code>gcc -o example -g example.c -I /usr/local/include/hiredis –lhiredis</code></pre>
-step4: run test case
+<code>gcc -o example -g example.c -I /usr/local/include/hiredis –lhiredis</code>
 
-<pre><code>./example jredis-hb1-prod-957e3a3d-0d76-45d4-a896-706173208db2.jmiss.jcloud.com 6379 B69B341E5C669082EFCF2E405C626379
+step4: Run test case
+
+```
+./example jredis-hb1-prod-957e3a3d-0d76-45d4-a896-706173208db2.jmiss.jcloud.com 6379 B69B341E5C669082EFCF2E405C626379
 AUTH: OK
 PING: PONG
 SET: OK
@@ -116,4 +124,5 @@ INCR counter: 4
 6) element-3
 7) element-2
 8) element-1
-9) element-0</code></pre>
+9) element-0
+```

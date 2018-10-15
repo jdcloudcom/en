@@ -10,7 +10,7 @@ Note: The configuration and instructions of Linux in this article have been test
 **Problem Phenomenon**
 
 
-When the Linux Virtual Machines starts the SSH service, the command line or secure log displays the error message as the follows:
+When the Linux VM starts the SSH service, the command line or secure log displays the error message as the follows:
 
 *• FAILED.*
 

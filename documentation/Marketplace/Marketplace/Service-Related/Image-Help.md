@@ -1,12 +1,12 @@
 # Image Help Documentation
-1, Image 
+1. Image 
 Image refers to the operating environment template that can be selected by the ECS instance, and generally includes the operating system and pre-installed software. Images can include only the basic operating system, based on this, it can integrate a specific software environment. 
 
 2. JD Cloud Marketplace Image
 JD Cloud Marketplace refers to the network platform established by JD Cloud to provide its image and related services to users by image service providers. These images integrate specific software environments and functions in the operating system, including PHP runtime environment, control panel, providing users with relevant requirements to open instances.
 
 3. Image Security
-Service provider qualification:
+Service Provider Qualification:
 
 All image service providers have rich experience in cloud server system maintenance and environment configuration, and are with professional operation and maintenance teams; b) Production process:
 

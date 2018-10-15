@@ -11,7 +11,7 @@
 |8-core 32GB|8000|
 |16-core 64GB|16000|
 
-## Read-only Percona Instance
+## Read-only JCS for Percona Instance
 |Instance Type|Max. Connections|
 |---|---|
 |1-core 1GB|300|

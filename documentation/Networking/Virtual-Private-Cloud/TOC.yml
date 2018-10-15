@@ -42,7 +42,7 @@
   - name: Pricing
     items:
       - name: Billing Rules
-        href: Pricing/Pricing.md
+        href: Pricing/Billing-Overview.md
   - name: Getting Started
     items:
        - name: Create a VM instance In a VPC
@@ -89,28 +89,28 @@
          href: Operation-Guide/VPC-Peering-Configuration.md
   - name: Best Practices
     items:
-    status:0
+    status: 0
   - name: Troubleshooting
     items:
-    status:0
+    status: 0
   - name: FAQ
     href: FAQ/FAQ.md
   - name: API Reference
     href:
-    status:0
+    status: 0
   - name: SDK Reference
     href:
-    status:0
+    status: 0
   - name: User Agreement
-    status:0
+    status: 0
     items:
     - name: Terms of Service
       href:
-      status:0
+      status: 0
   - name: Related Resources
-    status:0
+    status: 0
     items:
     - name: Document History
       href:
-      status:0
+      status: 0
 

@@ -10,7 +10,7 @@ Parameters:
 |Obtain basic image information|Image information|imginfo|Selectable parameters|Returned results of json format, including: <br>format format<br>width width<br>height height<br>fileSize file bytes number<br>imgType file type, value range[0 UndefinedType,<br>1 BilevelType,<br>2 GrayscaleType,<br>3 GrayscaleMatteType,<br>4 PaletteType,<br>5 PaletteMatteType,<br>6 TrueColorType,<br>7 TrueColorMatteType,<br>8 ColorSeparationType,<br>9 ColorSeparationMatteType,<br>10 OptimizeType]<br>orientation original EXIF orientation, value range[<br>0 UndefinedOrientation,<br>1 TopLeftOrientation,<br>2 TopRightOrientation,<br>3  BottomRightOrientation,<br>4 BottomLeftOrientation,<br>5 LeftTopOrientation,<br>6 RightTopOrientation,<br>7 RightBottomOrientation,<br>8 LeftBottomOrientation]|
 |Obtain image EXIF information|Image EXIF|Imgexif|Selectable parameters|Support jpg and tiff format images| 
 
-Sample:
+Example:
 
 Obtain basic image information:
 
@@ -18,7 +18,9 @@ http://oss.cn-north-1.jcloudcs.com/downloads/example.jpg?x-oss-process=imginfo/n
 
 Returned results:
 
+```
 {"format":"JPEG","width":350,"height":236,"fileSize":38539,"imgType":6,"orientation":1}
+```
 
 Obtain image EXIF information:
 

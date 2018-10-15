@@ -2,19 +2,19 @@
 
 1. Open the JD Cloud homepage and enter the domain name service interface.
 
-![image](../../Image-Domain/moban1.png)
+![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Domain-Name-&-License/Image-Domain/moban1.png)
 
 2. Click to create a new information template
 
-![image](../../Image-Domain/moban2.png)
+![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Domain-Name-&-License/Image-Domain/moban2.png)
 
 3. Fill in the information as prompted.
 
-![image](../../Image-Domain/moban3.png)
+![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Domain-Name-&-License/Image-Domain/moban3.png)
  
 4. When the existing information template needs to be modified, select the existing information template and click **Edit** to modify it.
 
-![image](../../Image-Domain/moban4.png)
+![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Domain-Name-&-License/Image-Domain/moban4.png)
 
 
 Warm Prompt:

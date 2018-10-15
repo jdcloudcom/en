@@ -2,7 +2,7 @@
 
 **Problem Phenomenon:**
 
-When the Linux Virtual Machines views the log by tail, it prompts insufficient space. The error message is as follows:
+When the Linux VM views the log by tail, it prompts insufficient space. The error message is as follows:
 
 ![](https://github.com/jdcloudcom/cn/blob/cn-VirtualMachine-Linux/image/Elastic-Compute/Virtual-Machine/Linux/Linux%E7%B3%BB%E7%BB%9Ftail%E6%9F%A5%E7%9C%8B%E6%97%A5%E5%BF%97%E6%8F%90%E7%A4%BA%E7%A9%BA%E9%97%B4%E4%B8%8D%E8%B6%B301.png)
 

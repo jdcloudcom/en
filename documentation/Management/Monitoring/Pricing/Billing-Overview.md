@@ -1,2 +1,4 @@
 ## Billing Overview
-Monitoring is free as a infrastructure service.
+
+Monitoring is not charged as a basic service.
+

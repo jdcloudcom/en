@@ -8,10 +8,10 @@ Statistics of Detailed Data of Operators in Separated Areas (area_isp_stat)
 
 | **Name**   | **Type** | **Compulsory or Not** | **Description**                                                    |
 | ---------- | -------- | ------------ | ----------------------------------------------------------- |
-| username   | String   | Yes           | JD User Name pin                                               |
-| signature  | String   | Yes           | User Signature                                                     |
-| domain     | String   | Yes           | Domain name to be queried, support query of multiple domain names, parameter example "www.a.com,www.b.com" |
-| start_time | String   | Yes           | Time Format: yyyy-mm-dd hh:mi Reference Example 2016-12-14 07:00       |
+| username   | String   | Yes           | JD User Name pin                                                |
+| signature  | String   | Yes           | User Signature                                                    |
+| domain      | String   | Yes           | Domain name to be queried, support query of multiple domain names, parameter example "www.a.com,www.b.com" |
+| start_time | String   | Yes           | Time Format: yyyy-mm-dd hh:mi Reference Example 2016-12-14 07:00; the time span for query cannot be greater than 1 hour  |
 | end_time   | String   | No           | Not a compulsory parameter; if no parameter is uploaded, it is current time by default                             |
 
 ## **3. Description of Returned Parameter Data**
@@ -20,7 +20,7 @@ Statistics of Detailed Data of Operators in Separated Areas (area_isp_stat)
 | -------- | ------------------------------ |
 | status   | Result status 0, refresh successful, others failure|
 | msg      | Note Information                       |
-|  data      |  Return Data                        |
+| data     | Return Data                       |
 
 ## **4. Call Example**
 
@@ -60,7 +60,7 @@ HIT_RATIO, //Hit Ratio, type; float-point type, such as 0.5 means 50% Hit Ratio
 CODE1: CODE1_COUNT, //CODE1 is a specific status code, such as 206, CODE1_COUNT
 is count of 206,
 CODE2: CODE2_COUNT, //CODE2 is a specific status code, such as 200, CODE2_COUNT
-is count of 200,
+is count of 200
 },
 FST_PKG_TIME, //First Package Response Time, Unit: ms
 SVG_SPEED, //Average Download Speed, Unit: KB/s
@@ -71,12 +71,12 @@ SVG_SPEED, //Average Download Speed, Unit: KB/s
 
 - ### **Return Example**
 
-•        Json Format
+• Json Format
 
 ```
 {
     "status": 0,
-    "msg": “Successful",
+    "msg": "Successful",
     "data": [
         {
             "domain": "www.a.com",
@@ -145,8 +145,5 @@ SVG_SPEED, //Average Download Speed, Unit: KB/s
                 ]
     ]
 ]
-
 }
 ```
-
- 

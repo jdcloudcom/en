@@ -1,4 +1,4 @@
-# Windows Remote Connection without License
+# Windows Remote Connection without Authorization
 The Windows server provides a free remote desktop management license for two users by default. If there are requirements for higher connection, users need to purchase and configure the corresponding certificate on Microsoft's official website.
 
 **Problem Phenomenon:**

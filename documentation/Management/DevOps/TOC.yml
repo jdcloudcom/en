@@ -14,21 +14,21 @@
       - name: Features
         href: Introduction/Features.md
       - name: Specifications
-        href: Introduction/Specification.md
+        href: Introduction/Specifications.md
       - name: Restrictions
         href: Introduction/Restrictions.md
-      - name: Application Scenarios 
-        href: Introduction/Application-Scenarios.md    
+      - name: Application Scenarios
+        href: Introduction/Application-Scenarios.md
   - name: Pricing
     items:
       - name: Billing Overview
-        href: Pricing/Pricing.md
+        href: Pricing/Billing-Overview.md
       - name: Billing Rules
         href: Pricing/Billing-Rules.md
       - name: Price Overview
         href: Pricing/Price-Overview.md
       - name: Purchase Process
-        href: Pricing/Purchase-Process.md 
+        href: Pricing/Purchase-Process.md
       - name: Renew-Process
         href: Pricing/Renew-Process.md
   - name: Getting Started
@@ -65,19 +65,19 @@
         href: Operation-Guide/Account-management.md
   - name: Best Practices
     items:
-    - name: Continuous Delivery
-      href: Best-Practices/CICD.md
-    - name: Intelligent Monitoring
-      href: Best-Practices/Monitoring.md
+      - name: Continuous Delivery
+        href: Best-Practices/CICD.md
+      - name: Intelligent Monitoring
+        href: Best-Practices/Monitoring.md
   - name: Tutorial
-    status:0
+    status: 0
     items:
   - name: Troubleshooting
     items:
-    - name: Problems of Fault Class
-      href: Troubleshooting/Troubleshooting.md
-    - name: Problems of Configuration Class
-      href: Troubleshooting/Configuration.md
+      - name: Problems of Fault Class
+        href: Troubleshooting/Troubleshooting.md
+      - name: Problems of Configuration Class
+        href: Troubleshooting/Configuration.md
   - name: FAQ
     href: FAQ/FAQ.md
   - name: API Reference
@@ -86,15 +86,15 @@
     href: SDK/SDK-Reference.md
   - name: User Agreement
     items:
-    - name: Terms of Service
-      href: User-Agreements/Product-Terms-of-Service.md                 
-    - name: SLA
-      href: User-Agreements/SLA.md               
+      - name: Terms of Service
+        href: User-Agreements/Product-Terms-of-Service.md
+      - name: SLA
+        href: User-Agreements/SLA.md
   - name: Related Resources
     items:
-    - name: Document History
-      href: Related-Resources/Document-History.md   
-    - name: ICP Filing
-      href: Related-Resources/Filing.md                 
-    - name: Glossary
-      href: Related-Resources/Glossary.md           
+      - name: Document History
+        href: Related-Resources/Document-History.md
+      - name: ICP Filing
+        href: Related-Resources/Filing.md
+      - name: Glossary
+        href: Related-Resources/Glossary.md

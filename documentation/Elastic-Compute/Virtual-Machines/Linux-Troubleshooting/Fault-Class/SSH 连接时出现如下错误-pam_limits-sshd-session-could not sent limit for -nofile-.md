@@ -8,7 +8,7 @@ Note: The configuration and instructions in this article have been tested on the
 
 **Problem Description:**
 
-When the client connects to the Linux Virtual Machines, the command line or secure log displays an error message as follows:
+When the client connects to the Linux VMs, the command line or secure log displays an error message as follows:
 
 *-bash: fork: retry: Resource temporarily unavailable.*
 
@@ -39,7 +39,7 @@ For previous version operating system of Cent OS (including RHEL) 6.0, make glob
 contain settings as follows or not:
 
 
- # End of file* soft nofile 65535* hard nofile 65535
+ #End of file* soft nofile 65535* hard nofile 65535
 
 Instructions:
 

@@ -11,7 +11,7 @@ At present, the cross-region backup synchronization service is in the promotion 
 ## Operation Steps
 1. Login [Cross-region Backup Service Management Console](https://rds-console.jdcloud.com/acrossRegionList).
 2. Click ***Create Synchronization Service***, and the pop-up window box appears on the service list page. The pop-up box parameters are as follows
-    * Database Type: Select the RDS service instance type that requires to enable cross-region synchronization service. Currently, MySQL and SQL Server are supported.
+    * Database Type: Select the RDS service instance type that requires to enable cross-region synchronization service. Currently, JCS for MySQL and JCS for SQL Server are supported.
     * Source Database Location: Select the domain of the RDS service instance that requires to enable cross-region synchronization service. Currently, all regions are supported, and the specific optional regions is subject to the console.
     * Source Instance: Select the RDS service source instance ID that needs to enable the cross-region synchronization service. The instance of the cross-region backup synchronization service will not be displayed.
     * Target Region: Select the target region to be saved in the backup. It cannot be in the same region as the source instance.

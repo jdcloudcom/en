@@ -5,7 +5,7 @@ Since the SQL Server service is created in the VPC, it is required to **deploy t
 
 The specific setting method is as follows:
 1. Click the link below for security group creation: https://www.jdcloud.com/help/detail/1486/isCateLog/1
-2. Add "Outbound Rules" in the security group of the VM that requires the access to SQL Server, select [MSSQL] ** (Attention: Not MYSQL) **, and click [Accept] of the strategy.
+2. Add "Outbound Rules" in the security group of the VM that requires the access to SQL Server, select [MSSQL] ** (Attention: Not MYSQL) **, and click ***Accept*** the strategy.
 ![Connection 1 via VM](../../../image/RDS/Instance-Connection-SQLServer-1.png)
 
 

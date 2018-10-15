@@ -2,7 +2,7 @@
 PostObject uses an HTML form to upload files to a specified bucket.
 
 Based on the browser's use of HTTP POST to directly upload files to the Bucket of Object Storage Service, the latency can be reduced. The Post Object's message entity is encoded by multipart/form-data. In the Put Object operations
-, parameters are passed through the HTTP request header. In the Post operations, the parameters are passed as form fields in the message entity. This interface is compatible with S3, and only support the compatible S3 service domain name of OSS 
+, parameters are passed through the HTTP request header. In the Post operations, the parameters are passed as form fields in the message entity. This interface is compatible with S3, and only support the compatible S3 service domain name of OSS
 , [refer to the server domain name](../../API-Reference-S3-Compatible/Regions-And-Endpoints.md).
 
 Request Syntax
@@ -47,13 +47,12 @@ Content-Disposition: form-data; name="submit"
 Upload to OSS
 --your_boundary--
 ```
-
-Special tips for Header:
+Special Tips for Header:
 
 |Name|Description|Required|
 |-|-|-|
-|Content-Type|Standard http header; but the type must be multipart/form-data, and specify the boundary<br>For example: Content-Type: multipart/form-data;   boundary=your_boundary|Yes|
-#### Form field
+|Content-Type|Standard http header; but the type must be multipart/form-data, and specify the boundary<br>For example: Content-Type: multipart/form-data; boundary=your_boundary|Yes|
+#### Form Field
 |Name|Type|Description|Required|
 |-|-|-|-|
 |Cache-Control|String|Refer to PutObject for standard http header and it is recorded as the object metadata information,<br>Default Value: None|No|
@@ -64,16 +63,18 @@ Special tips for Header:
 |key|String|Uploaded Object Name.Support variable ${filename} (only support variable ${filename}); for example, specify the key as bucket/${filename}, at this moment you upload an image named test.jpg, then the key saved by oss is bucket/test.jpg<br>Default Value: None|Yes|
 |policy|String|Used to limit this request.t is JSON encoded by UTF-8 and Base64<br>Default Value: None|Required for requests requiring signatures|
 |success_action_redirect|String|Client jump address when upload succeedsIf the success_action_redirect is not specified, or it is specified but OSS does not resolve successfully, then OSS will return according to the success_action_status settings (return 204 by default)If the file upload fails, then OSS will return the error without jumping<br>Default Value: None|No|
-|success_action_status|String|The status code returned when the file upload succeeds is specified, provided that success_action_redirect is not specified.If the value is 200 or 204, the content that OSS returns will be blank.If the value is 201, the status code returned will be 201, and http body content will be relevant object information in xml format<br>Default Value: 204<br>有效值：Valid Value: 200, 201, 204 (by default)|No|
+|success_action_status|String|The status code returned when the file upload succeeds is specified, provided that success_action_redirect is not specified.If the value is 200 or 204, the content that OSS returns will be blank.If the value is 201, the status code returned will be 201, and http body content will be relevant object information in xml format<br>Default Value: 204<br>Valid Value: 200, 201, 204 (by default)|No|
 |x-amz-algorithm|String|Signature algorithm, the value is AWS4-HMAC-SHA256<br>Default Value: None|Required for requests requiring signatures|
 |x-amz-credential|String|If S3 API is used, then the format is <your-access-key-id>/<date>/<region>/s3/aws4_request<br>Example:AKIAIOSFODNN7EXAMPLEYYYYYYYYYYYY/20180601/cn-north-1/s3/aws4_request<br>Default Value: None|Required for requests requiring signatures|
 |x-amz-date|String|ISO8601 time format, such as: 20180601T000000Z.The value of x-amz-date attribute in the policy should be the same as it<br>Note that the time of computing signature at this moment is 20180601<br>Default Value: None|Required for requests requiring signatures|
 |x-amz-signature|String|String to signature <br>Default Value: None|Required for requests requiring signatures|
 |x-amz-storage-class|String|Object Storage Type<br> Default Value: STANDARD (Standard Storage)<br>Valid Value: STANDARD (Standard Storage) and REDUCED_REDUNDANCY Reduced Redundancy Storage)|No|
-|file|String|File or Text Content .The attribute must be placed at the end of the form, otherwise the attributes after the file will be ignored.Not support multiple files to be uploaded at the same time<br>Default Value: None|Yes|
+|file|String|File or Text Content .The attribute must be placed at the end of the form, otherwise the attributes after the file will be ignored. Don't support multiple files to be uploaded at the same time<br>Default Value: None|Yes|
  
- #### Response
- #### Response Elements
+#### Response
+ 
+#### Response Elements
+ 
  When and only when the return code is 201, the following will be returned.
  
 |Name|Type|Description|
@@ -93,7 +94,7 @@ Special tips for Header:
 
 4.Capital and lowercase letters not distinguished for form attributes, e.g.: x-amz-signature and X-Amz-Signature are of equal value, but the value of form field has case sensitivity.
 
-5.The form size limit is 20K (excluding file size), if not, return 400,MaxPostPreDataLengthExceeded.
+5.The form size limit is 20K (excluding file size), if not, return 400, MaxPostPreDataLengthExceeded.
 
 6.The total length of the body requested by Post is not allowed to exceed 5G. If the file length is too large, it will return an error code: EntityTooLarge.
 
@@ -104,11 +105,10 @@ Special tips for Header:
 9.If Content-MD5 is specified in user form field (MD5 in request header will not be verified), OSS will compute the Content-MD5 of the body and check the consistency; if there is inconsistency, it will return BadDigest error code.
 
 10.If the form includes success_action_redirect, the jumped target address is url + ?bucket=<yourBucket>&key=<yourKey>&ETag=etag. This query part will conduct urlencode.
- 
-11.The form and policy must use UTF-8 to encode. The policy is a piece of JSON encoded by using UTF-8 and Base-64.
- 
-12.Since there is no version management currently, if a user uploads a file with the same name, it will be replaced.
 
+11.The form and policy must use UTF-8 to encode. The policy is a piece of JSON encoded by using UTF-8 and Base-64.
+
+12.Since there is no version management currently, if a user uploads a file with the same name, it will be replaced.
 #### Example:
 #### Request:
 
@@ -146,7 +146,7 @@ Upload to OSS
 
 ```
 
-#### Response：
+#### Response:
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <PostResponse>
@@ -159,7 +159,6 @@ Upload to OSS
 
 #### Post Policy
 The Policy form field of the Post request is used to verify the validity of the request, which may control the post request permission. The policy is a piece of JSON format text encoded by using UTF-8 and Base-64, stating the conditions that Post request must meet. Although the post form field is an option when the public-read-write bucket is uploaded, it is strongly recommended that you should use this field to limit the Post request.
-
 Policy Example:
 
 ```
@@ -171,7 +170,9 @@ Policy Example:
 }
 
 ```
+
 Post policy must include expiration and conditions.
+
 ##### expiration
 The expiration time of policy requested by post, the time format is ISO8601 GMT. For example: “2018-06-01T12:00:00.000Z”, means the specified Post request must occur before June 1, 2018 12:00.
 
@@ -189,7 +190,7 @@ Conditions are a list, which can be used to specify the legal value of form fiel
 |x-amz-algorithm|Signature algorithm, the value is AWS4-HMAC-SHA256 code<br>Support the matching types of exact matching|
 |x-amz-credential|If S3 API is used, then the format is <your-access-key-id>/<date>/<region>/s3/aws4_requestExample: AKIAIOSFODNN7EXAMPLEYYYYYYYYYYYY/20180601/cn-north-1/s3/aws4_request<br>Support the matching types of exact matching|
 |x-amz-date|ISO8601 time format, such as: 20180601T000000Z<br>Note that the time of computing signature at this moment is 20180601,<br>Support the matching types of exact matching|
-|x-amz-storage-class|The storage type of Object, the default value is “STANDARD” (standard storage).Support two storage types,"STANDARD" (standard storage) and "REDUCED_REDUNDANCY" (reduced redundancy storage)<br>Support the matching types of exact matching|
+|x-amz-storage-class|The storage type of Object, the default value is “STANDARD” (standard storage). Support two storage types, "STANDARD" (standard storage) and "REDUCED_REDUNDANCY" (reduced redundancy storage)<br>Support the matching types of exact matching|
  
  ###### Conditions Matching Method
  
@@ -200,11 +201,10 @@ Conditions are a list, which can be used to specify the legal value of form fiel
 |Match An Arbitrary Value|Used to allow to specify the value of form attribute to be any content, use Starts With and assign it as empty ("")<br>For example: ["starts-with",   "$success_action_redirect", ""] allows the success_action_redirect in the form to be any value|
 |Specified File Size|Only support content-length, the maximum and minimum values can be separated by commas<br>For example, ["content-length-range",   1048579, 10485760], limits the uploaded content size to be 1M~10M|
 
-###### Escape character
+###### Escape Character
 Because $ represents variable in the Post policy, the escape character \$ needs to be used when describing $. Besides, JSON will escape some characters. The following form describes the characters that need to be escaped in the Post policy.
 
-
-|Escape character|Description|
+|Escape Character|Description|
 |:---|:-|
 |\\/|Slash|
 |\\|Backslash|
@@ -217,30 +217,27 @@ Because $ represents variable in the Post policy, the escape character \$ needs 
 |\\uxxxx|Unicode Character|
 
 ##### Detailed Analysis of Post Policy
-1.The expiration and condition elements in the policy are required. Otherwise, the policy verification will fail and be deemed as an anonymous request.
+1. The expiration and condition elements in the policy are required. Otherwise, the policy verification will fail and be deemed as an anonymous request.
 
-2.In addition to x-amz-signature, file, policy and x-ignore-*, other attributes in the uploaded form must be limited in the policy. Otherwise it will be deemed as anonymous access.
+2. In addition to x-amz-signature, file, policy and x-ignore-*, other attributes in the uploaded form must be limited in the policy. Otherwise it will be deemed as anonymous access.
 
-3.If the policy format does not conform to the specification, such as entering an invalid Condition Match Type, it will be processed as an anonymous request.
+3. If the policy format does not conform to the specification, such as entering an invalid Condition Match Type, it will be processed as an anonymous request.
 
-4.Policy conditions (except content-length-range) verification failing or the corresponding attributes not found in the form will be both deemed as anonymous access; and EntityTooLarge, EntityTooSmall will return if the content-length-range verification fails.
+4. Policy conditions (except content-length-range) verification failing or the corresponding attributes not found in the form will be both deemed as anonymous access; and EntityTooLarge, EntityTooSmall will return if the content-length-range verification fails.
 
 ###  Calculate Signature
-
 For Post requests that require verification, the HTML form must contain the policy and signature (X-Amz-Signature) information. The values in the policy control request are allowed. The specific processes of calculating signature:
 
-1.Create a policy encoded by UTF-8.
+1. Create a policy encoded by UTF-8.
 
-2.Encode the policy with base64, and use the value as the StringToSign field of signature calculation.
+2. Encode the policy with base64, and use the value as the StringToSign field of signature calculation.
 
-3.Use the HMAC-SHA256 algorithm to conduct signature calculation to the character strings and other signature-required information acquired in step 2, such as AccessKeySecret.
+3. Use the HMAC-SHA256 algorithm to conduct signature calculation to the character strings and other signature-required information acquired in step 2, such as AccessKeySecret.
 
-4.Encode the final result in hexadecimal.
+4. Encode the final result in hexadecimal.
 
 #### Form Upload Example:
-
 The following example provides how to use POST policy and the form to complete uploading a file to OSS.
-
 
 ##### Policy Example
 ```
@@ -286,10 +283,4 @@ The following example provides how to use POST policy and the form to complete u
 
 ``` 
 
-Note: You need to replace the valid bucket names; dates, credential, policy, and signature can successfully upload files to OSS. 
-
-
-
-
-
-
+Note: You need to replace the valid bucket names; dates, credential, policy, and signature can successfully upload files to OSS.

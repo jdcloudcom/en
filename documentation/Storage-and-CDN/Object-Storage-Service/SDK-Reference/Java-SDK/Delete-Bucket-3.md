@@ -27,4 +27,4 @@ Notification:
 
 * All the files in the Bucket must be deleted before the Bucket can be successfully deleted.
 
-* The Identity and Access Management permission must be deleted before the Bucket can be successfully deleted
+* The Identity and IAM permission must be deleted before the Bucket can be successfully deleted

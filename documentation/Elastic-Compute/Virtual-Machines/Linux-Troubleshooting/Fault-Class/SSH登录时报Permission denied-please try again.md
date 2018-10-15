@@ -9,7 +9,7 @@ Note: The configuration and instructions of Linux in this article have been test
 
 **Problem Phenomenon**
 
-When logging in to the Linux Virtual Machines by using SSH, an error message similar to the following will appear if it is the root user, even if the password is entered correctly.
+When logging in to the Linux VM by using SSH, an error message similar to the following will appear if it is the root user, even if the password is entered correctly.
 
 *• Permission denied, please try again.*
 

@@ -22,7 +22,7 @@ Then add a www record for aaa.com under the default line.
 
 At this time, China Unicom, Telecom, Mobile users will not resolve the 4.4.4.4 when visiting www.aaaa.com. According to the rules of line prioritized matching, it will first match the extensive domain name under the subdivision of the line, then resolves the corresponding extensive domain name.
 
-If you want to make the Unicom, Telecom, Mobile users access to www.aaa.com, and resolve 4.4.4.4, you should add a www fixed domain name record for aaa.com under three lines with a extensive domain name, as shown below.
+If you want to make the Unicom, Telecom, Mobile users access to www.aaa.com, and resolve 4.4.4.4, you should add a www fixed domain name record for aaa.com under three lines with an extensive domain name, as shown below.
 
 1.* Unicom A 1.1.1.1
 

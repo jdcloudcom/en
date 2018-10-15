@@ -1,6 +1,6 @@
-# Best Practices of Cross-origin resource sharing
+# Best Practices of Cross-region Resource Sharing
 
-## Same-origin policy
+## Same-origin Policy
 
 The same-origin policy is a method preventing a document or script loaded from one source from being interacted with resources of another source and is a key security mechanism isolating the potential malicious files. The same protocol, the same domain name (or IP) and the same port shall be deemed as the same domain; scripts within the same domain only have the permission of the domain, i.e. scripts in the same domain only can read resources of such domain and cannot access resources of other domains. The security limit is called as the same-origin policy.
 
@@ -14,35 +14,33 @@ Different ports: http://www.jd.com:80 and http://www.jd.com:81 are from differen
 
 Others: http://www.jd.com/a and http://www.jd.com/b are from the same origin, because they have the same domain name protocol and port.
 
-## Cross-origin resource sharing
+## Cross-origin Resource Sharing
 
 The cross-origin resource sharing (CORS) defines the interaction method between a client Web application program loaded in one domain and resources in another domain. When any one of the protocol, domain name and port requesting URL is different from the current page address, it is cross-origin.
 
 For example, the most common one is to call a resource in one domain name in the webpage under another domain name, such as a JavaScript script, Web fonts, etc. The browser limits cross-origin HTTP requests originating from scripts usually out of security reasons, and the default security limit is the same-origin policy. As a result, a cross-origin access check mechanism is recommended by W3C, i.e., CORS. With the mechanism, the Web application server is able to support the cross-station identity and access management, make the cross-station data transmission safer and relieve risk of cross-origin HTTP request.
 
-## CORS actual practice and case
+## CORS Practice and Cases
 
 Configuration steps for obtaining data from OSS by AJAX are introduced by the following simple examples. The storage bucket name used by the example is test-cors and the storage bucket access permission is public read and private write.
 
-**Preparation conditions**
+**Preparation Conditions**
 
 1. Upload the file cors.html with the content of "successful request" in the test-cors storage bucket. Click **Obtaining Address** and the access address of the object, cors.html, is displayed: http://test-cors.oss.cn-east-1.jcloudcs.com/cors.html.
 
-2. Disable the browser’s cache function, to prevent the mismatch to the CORS requirements due to the reason that the browser caches the heater content returned by the server last time and to prevent influence to request result. Taking chrome for example, open the "Developer  tool" and check "Disable cache".
+2. Disable the browser’s cache function, to prevent the mismatch to the CORS requirements due to the reason that the browser caches the heater content returned by the server last time and to prevent influence to request result. Taking chrome for example, open the "Developer Tools" and check "Disable cache".
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-083.jpg)
 
-**Cross-origin request practice**
+**Cross-origin Request Practice**
 
 1. Confirm if the file is addressable
 
 Access cors.html via curl, display the file content "Request Successful" and ensure that the object is able to be accessed normally.
-
 ```
 curl http://test-cors.oss.cn-east-1.jcloudcs.com/cors.html
 ```
-
-![](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-084.jpg)
+![](../../../../image/Object-Storage-Service/OSS-084.jpg)
 
 2. Use AJAX access file
 
@@ -79,34 +77,34 @@ function loadXMLDoc() {
 
 <body>
 <h2>Test CORS</h2>
-<button type="button" onclick="loadXMLDoc()">Request data</button>
+<button type="button" onclick="loadXMLDoc()">Request Data</button>
 <div id="myDiv"></div>
 </body>
 </html>
 ```
 
-3. Page access
+3. Page Access
 
 Enter "http://47.104.98.151/cors-test.html" in the Chrome browser to log into the test page, click **Data Request** button and the following error is shown. Error notification: You have no access permission and the reason is the Header, Access-Control-Allow-Origin, is not found.
 
-![](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-085.jpg)
+![](../../../../image/Object-Storage-Service/OSS-085.jpg)
 
 When logging in the Header page to check request again, the Request with Origin, sent by the browser, is found. Thus, this is a cross-origin request. There, the error is due to the reason that the server is not configured with CORS.
 
-![](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-086.jpg)
+![](../../../../image/Object-Storage-Service/OSS-086.jpg)
 
 4. Setting CORS
 
 Log in console -> Object Storage Service -> Space Management -> Log in bucket test-cors -> Space Setting -> Cross-origin resource sharing setting.Clicking CORS statement configuration to log in the configuration page.
 
-![](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-087.jpg)
+![](../../../../image/Object-Storage-Service/OSS-087.jpg)
 
 Adopt the loosest configuration in the configuration page: the Origin is http://47.104.98.151, the operation method is GET, the Allow-Headers are * and the cache Max Age is 0, as shown in the figure below.
 
-![](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-088.jpg)
+![](../../../../image/Object-Storage-Service/OSS-088.jpg)
 
-5. Verification result
+5. Verification Result
 
 Please try to access the cors.html file again after completing configuration. Cross-origin access to success.
 
-![](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-089.jpg)
+![](../../../../image/Object-Storage-Service/OSS-089.jpg)

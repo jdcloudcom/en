@@ -6,7 +6,7 @@ Domain name reverse resolution is the mapping from the IP address to the domain 
 
 **Application Scenarios of Reverse Resolution**
 
-Reverse resolution should be mainly in the mail server. You can refuse to receive all the infomation without registering the domain name when enabling reverse resolution. Because most SPAMs are sent by dynamic allocation or IP without registering domain name to avoid tracking, so it can refuse to receive information from an IP address that cannot be reversed and resolved to a domain name in the mail server, which could serve as a means for rejecting SPAMs.
+Reverse resolution should be mainly in the mail server. You can refuse to receive all the information without registering the domain name when enabling reverse resolution. Because most SPAMs are sent by dynamic allocation or IP without registering domain name to avoid tracking, so it can refuse to receive information from an IP address that cannot be reversed and resolved to a domain name in the mail server, which could serve as a means for rejecting SPAMs.
 
 **How does JD Cloud Achieve Reverse Resolution?**
 

@@ -16,7 +16,7 @@ Relying on the JCS for MongoDB's sophisticated backup mechanism and the ability 
 ## Related Reference
 
 - [Product Benefit](../Introduction/Benefits.md)
-- [Features](./ Introduction/ Functions.md
+- [Features](../Introduction/Features.md)
 - [Price Overview](../Pricing/Price-Overview.md)
 - [Billing Rules](../Pricing/Billing-Rules.md)
 - [Create Instance](../Getting-Started/Create-Instance.md)

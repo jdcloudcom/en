@@ -1,11 +1,11 @@
 # Price Overview
 
-You can directly use the [Virtual Machines Price Calculator] provided by JD Cloud (https://www.jdcloud.com/calculator/calHost) to check the price of the product portfolio you need, or you can check the price overview of relevant resources for the estimation of the input cost.
+You can directly use the [Virtual Machines Price Calculator] provided by JD Cloud (https://www.jdcloud.com/calculator/calHost) to check the price of the product portfolio you need, or you can check the price overview of related resources for the estimation of the input cost.
 
 Please note: The price in the price overview is the unified official price excluding the user's discounts. To ensure the price accuracy, it is recommended that you log in and use the Virtual Machines price calculator or log in the Virtual Machines creation page at the console to view the configuration price.
 
 
-The price of JD Cloud's VM instance mainly includes: instance price (vCPU and memory)/ cloud disk price/ EIP price. For the price of cloud disk, please refer to [Cloud Disk Service Price Overview](); for EIP price, please refer to [Elastic IP Price Overview](../../../Networking/Elastic-IP/Pricing/Billing-Overview.md).
+The price of JD Cloud's VM instance mainly includes: instance price (vCPU and memory)/ cloud disk price/ EIP price. For the price of cloud disk, please refer to [Cloud Disk Price Overview](http://docs.jdcloud.com/cn/cloud-disk-service/price-overview); for EIP price, please refer to [Elastic IP Price Overview](../../../Networking/Elastic-IP/Pricing/Billing-Overview.md).
 
 ## Instance Price:
 
@@ -495,17 +495,46 @@ The price of JD Cloud's VM instance mainly includes: instance price (vCPU and me
       <td>21</td>
       <td></td>
    </tr>
+   <tr>
+      <td rowspan="3">GPU</td>
+      <td rowspan="3">Standard</td>
+      <td>p.n1p40.3xlarge</td>
+      <td>12</td>
+      <td>48</td>
+      <td>4241.5</td>
+      <td>14.73</td>
+      <td></td>
+   </tr>
+   <tr>
+     <td>p.n1p40.7xlarge</td>
+      <td>28</td>
+      <td>110</td>
+      <td>8967.5</td>
+      <td>31.14</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>p.n1p40.14xlarge</td>
+      <td>56</td>
+      <td>220</td>
+      <td> 17935</td>
+      <td>62.27</td>
+      <td></td>
+   </tr>
+
+
+
 </table>
 
 Please note:
 
 * The standard * indicates that the Virtual Machines is not supported by this specification, and you are not allowed to adjust the current Virtual Machines to this specification, but it does not affect the use of your existing Virtual Machines;
-* High-frequency Computing is currently only available in cn-north-1 and cn-south-1.
+* High-frequency Computing is currently only available in cn-north-1, cn-south-1 and cn-east-2.
 
 ## Related Reference
 [Virtual Machines Price Calculator](https://www.jdcloud.com/calculator/calHost)
 
-[Cloud Disk Service Price Overview]()
+[Cloud Disk Price Overview](http://docs.jdcloud.com/cn/cloud-disk-service/price-overview)
 
-[Elastic IP Price Overview](../../../Networking/Elastic-IP/Pricing/Billing-Overview.md)
+[Elastic IP Price Overview](../../../Networking/Elastic-IP/Pricing/Price-Overview.md)
 

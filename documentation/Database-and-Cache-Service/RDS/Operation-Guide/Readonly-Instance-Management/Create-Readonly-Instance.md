@@ -1,7 +1,7 @@
 # Create Read-only Instances
 In an application scenario where there are a small number of write requests to the database, but there are a large number of read requests, a single instance may not be able to resist reading pressure or even may affect the main services. In order to achieve the flexible expansion of read capabilities and share the pressure of the database, one or more read-only instances can be created in a certain region, by which, a large number of database read requirements can be met, thereby increasing the throughput of the application.
 
-MySQL/Percona service read-only instance is a single-node architecture that synchronizing changes to the primary instance to all read-only instances through original replication.
+JCS for MySQL/Percona/MariaDB service read-only instance is a single-node architecture that synchronizing changes to the primary instance to all read-only instances through original replication.
 
 ## Limits
 * The number of read-only instances in a single instance cannot exceed 8.
@@ -23,4 +23,4 @@ MySQL/Percona service read-only instance is a single-node architecture that sync
     ![image2018-3-2 13_58_33.png](https://img1.jcloudcs.com/cms/e13a1926-043c-49e1-a94c-c27f1491f3bc20180302140739.png)
 
 5. Click ***Buy Now*** to enter the order confirmation page.
-6. Read the RDS Terms of Service and click [Instant Account Setup] to start creating read-only instances.
+6. Read the RDS Terms of Service and click ***Instant Account Setup*** to start creating read-only instances.

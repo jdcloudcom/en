@@ -1,12 +1,12 @@
-# Image from Third Party Production specifications
+# Image from Third Party Production Specifications
 
-Update on: July-24-2018
+Update on: July 24, 2018
 
 
 
-System requirement
+System Requirement
 
-Configuration self-test
+Configuration Self-test
 
 (The default configuration of the public image has met the following requirements, please do not modify it. To ensure the normal use of the image, please follow the following requirements for self-test)
 
@@ -28,7 +28,7 @@ l Linux platform:
 
 As soon as the network interface is started, the dhcp service is automatically started. After connecting to the network, the appropriate MTU value is automatically assigned. So there is no need for user to set the usage command.
 
-You can use the command: ifconfig |grep to view the MTU value. (currently official is 1450)
+You can use the command: ifconfig |grep to view the MTU value. (Currently, the official is 1450)
 
 l Windows platform:
 
@@ -36,7 +36,7 @@ You can use the command: netsh interface ipv4 show interface to view the MTU val
 
        To adjust, open the command line window and enter the following command to set the MTU (up to 1500):
 
-c:\> netsh interface ipv4 set subinterface ＂local connection＂ mtu=1500 store=persistent (network interface name: 2008 is "local connection" and 2012 is "Ethernet")
+c:\> netsh interface ipv4 set subinterface “local connection" mtu=1500 store=persistent (network interface name: 2008 is "local connection" and 2012 is "Ethernet")
 
 
 
@@ -130,7 +130,7 @@ No need to install
 
 
 
-Operations suggestion
+Operation Suggestion
 
 1. Check for updates and install updates of the Windows system.
 

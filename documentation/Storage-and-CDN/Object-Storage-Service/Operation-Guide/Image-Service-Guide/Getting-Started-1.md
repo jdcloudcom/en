@@ -1,6 +1,6 @@
-# Quickly use image service
+# Quickly Use Image Service
 
-You can use object storage service console picture processing style to quickly use the OSS picture service.
+You can use Object Storage Service console picture processing style to quickly use the OSS picture service.
 
 ## Create Image Style
 
@@ -10,11 +10,11 @@ You can use object storage service console picture processing style to quickly u
 
 3. Click Image Processing on the bucket overview page to enter the image processing page
 
-![图片处理](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-054.jpg)
+![图片处理](../../../../../image/Object-Storage-Service/OSS-054.png)
 
 4. Click Create Style; on this page, you can create the image style you need just as the figure shown below:
 
-![新建图片样式](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-056.jpg)
+![新建图片样式](../../../../../image/Object-Storage-Service/OSS-056.png)
 
 
 Rules Description:
@@ -43,7 +43,7 @@ Rules Description:
 
    * If rotation at customized angle is selected, you need to enter the rotation angle; the image will be clockwise rotated
 
-5. After editing the image style, click OK to save the style.
+5. After editing the image style, click **OK** to save the style.
 
  
 
@@ -51,13 +51,13 @@ Rules Description:
 
 1. Enter OSS console and click bucket to enter the bucket overview page.
 
-2. Click Image Processing to view the saved style.
+2. Click **Image Processing** to view the saved style.
 
 3. The image style named Stylename can be accessed through the following URL:
 
 http://oss.cn-south-1.jcloudcs.com/bucket/object?x-oss-process=imgalias/Stylename
 
-Sample:
+Example:
 
 Use the style with the image processing style name of img-style-example to process the example.jpg image file
 
@@ -65,4 +65,4 @@ img-style-example style: scale 80%, rotate 60°
 
 http://oss.cn-north-1.jcloudcs.com/downloads/example.jpg?x-oss-process=imgalias/img-style-example
 
-![](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-057.jpg)
+![](../../../../../image/Object-Storage-Service/OSS-057.jpg)

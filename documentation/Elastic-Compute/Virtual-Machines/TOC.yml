@@ -22,7 +22,7 @@ items:
   - name: Pricing
     items:
       - name: Billing Overview
-        href: Pricing/Pricing.md
+        href: Pricing/Billing-Overview.md
       - name: Billing Rules
         href: Pricing/Billing-Rules.md
       - name: Price Overview
@@ -93,6 +93,9 @@ items:
             href: Operation-Guide/Instance/Switch-from-Postpaid-to-Prepaid.md
           - name: Delete Instance
             href: Operation-Guide/Instance/Delete-Instance.md
+	  - name: GPU VM
+	    href: Operation-Guide/Instance/GPU-VM.md
+
       - name: Instance Template
         items:
           - name: Instance Template Overview
@@ -125,6 +128,8 @@ items:
             href: Operation-Guide/Storage/Strorage-Overview.md
           - name: Storage Type
             href: Operation-Guide/Storage/Storage-Type.md
+	  - name: Identify Local Data Disk
+            href: Operation-Guide/Storage/Identify-Local-Data-Disk.md
           - name: Create Cloud Disk
             href: Operation-Guide/Storage/Create-Cloud-Disk.md
           - name: Attach Cloud Disk
@@ -323,7 +328,7 @@ items:
                 href: Linux-Troubleshooting/Fault-Class/SSH-login-time-report-User-root-not-allowed-because-not-listed-in.md
               - name: Following Error Occurs during SSH Connection: error Could not get shadow infromation for root
                 href: Linux-Troubleshooting/Fault-Class/SSH-connection-error.md
-              - name: SSH 连接时出现如下错误：pam_limits(sshd：session)：could not sent limit for 'nofile'
+              - name: Errors Below Arising during SSH Connection: pam_limits(sshd: session): could not sent limit for 'nofile''
                 href: Linux-Troubleshooting/Fault-Class/SSH-connection-Error.md
               - name: Following Error Occurs during SSH Connection: pam_unix(sshdsession) session closed for user
                 href: Linux-Troubleshooting/Fault-Class/SSH-connection-error-session-closed.md

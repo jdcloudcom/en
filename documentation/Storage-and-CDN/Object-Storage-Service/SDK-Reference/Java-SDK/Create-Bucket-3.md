@@ -17,7 +17,7 @@ JingdongStorageService jss= new JingdongStorageService (credential, config);
 // Set Endpoint  
 jss.setEndpoint(endpoint);  
        
-// Create bucket  
+// Create Bucket  
 String bucketName = "<your-bucket-name>";  
 jss.createBucket(bucketName);  
 //Close jss  
@@ -30,4 +30,4 @@ Notification:
 
 * The name of Bucket is global unique, so you need to ensure the names of the Buckets are not duplicated with that of others.
 
-* The permissions of the bucket created by the above codes is Private (default permissions).
+* The permissions of the bucket created by the above codes is Private Read/Write (default permissions).

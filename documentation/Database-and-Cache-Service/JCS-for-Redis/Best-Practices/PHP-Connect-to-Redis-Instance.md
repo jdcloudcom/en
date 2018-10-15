@@ -1,8 +1,9 @@
-# PHP connection
-- step1: download php redis client, reference address: https://github.com/phpredis/phpredis
+# PHP Connection
+- step1: Download php redis client, reference address: https://github.com/phpredis/phpredis
 
-- step2: write test case
-```xml
+- step2: Write test case
+
+```
 <?php
   /* Here replaced as connection instance host and port */
   $host = "jredis-hb1-prod-957e3a3d-0d76-45d4-a896-706173208db2.jmiss.jcloud.com";

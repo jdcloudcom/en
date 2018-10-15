@@ -8,7 +8,7 @@ Note: The configuration and instructions of Linux in this article have been test
 
 **Problem Description:**
 
-When logging in to Linux Virtual Machines, even if the correct password is entered, it can not be logged in properly. When the problem occurs, it can be logged in through the management terminal or SSH client, or can not be logged in through both modes. At the same time, the following error message appears in the secure log:
+When logging in to Linux VMs, even if the correct password is entered, it can not be logged in properly. When the problem occurs, it can be logged in through the management terminal or SSH client, or can not be logged in through both modes. At the same time, the following error message appears in the secure log:
 
 *pam_succeed_if(sshd:auth): requirement "uid >= 1000" not met by user "root".*
 

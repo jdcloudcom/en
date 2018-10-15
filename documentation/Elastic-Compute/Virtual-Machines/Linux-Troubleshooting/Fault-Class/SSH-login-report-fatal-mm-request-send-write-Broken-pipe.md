@@ -9,7 +9,7 @@ Note: The configuration and instructions of Linux in this article have been test
 
 **Problem Description:**
 
-When the client connects to the Linux Virtual Machines, the command line or secure log displays an error message as follows:
+When the client connects to the Linux VMs, the command line or secure log displays an error message as follows:
 
 *• fatal: mm_request_send: write: Broken pipe.*
 

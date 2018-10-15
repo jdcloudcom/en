@@ -6,11 +6,11 @@ The image service is accessed by GET request of standard HTTP and all processing
 
 1.Users request for image processing interface
 
-(a) Old interface: connect "?img/processing parameters" after the original file address
+(a) Old API: connect "?img/processing parameters" after the original file address
 
 For example: http://downloads.oss.cn-north-1.jcloudcs.com/lena.jpg?img/s/200/300
 
-(b) New interface: connect "?x-oss-process=img/processing parameters" after the original file address
+(b) New API: connect "?x-oss-process=img/processing parameters" after the original file address
 
 For example: http://downloads.oss.cn-north-1.jcloudcs.com/lena.jpg?x-oss-process=img/s/200/300
 
@@ -56,11 +56,11 @@ The part of processing parameters includes img/s/200/300/cc/200/260
 
 Image processing can save user's image processing actions and parameters as another name (e.g. Stylename), namely style. After using the style function, a same effect can be archived only with a very short URL to replace the original series of actions.
 
-(a) Old Interface
+(a) Old API
 
 http://downloads.oss.cn-north-1.jcloudcs.com/lena.jpg?imgalias/stylename
 
-(b) New Interface
+(b) New API
 
 http://downloads.oss.cn-north-1.jcloudcs.com/lena.jpg?x-oss-process=imgalias/stylename
 

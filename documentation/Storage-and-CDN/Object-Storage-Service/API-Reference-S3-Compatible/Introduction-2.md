@@ -4,4 +4,4 @@ In order to use numerous applications developed by AWS S3, SDK/ and make third-p
 
 Currently, JD Cloud Storage is not fully compatible with S3 interfaces, but the commonly used important functions have been supported. We will further develop in the future and perfect it step by step.
 
-Note: API of older revision will not be development any more in the future, only API of new revision compatible with S3 will be developed, for better use experience, it is suggested that you use API of new revision.
+Note: API of the previous version will not be development any more in the future, only API of new revision compatible with S3 will be developed, for better use experience, it is suggested that you use API of new revision.

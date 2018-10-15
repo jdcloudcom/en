@@ -4,7 +4,7 @@
 
   1. Log in to the JD Cloud console, find the cloud resolution-domain name resolution, and click the **Add Domain Name** .
 
-    
+  ![img](https://github.com/jdcloudcom/cn/blob/edit/image/dns-img/add-domain-name.png)  
 
   Rule to add domain name :
 

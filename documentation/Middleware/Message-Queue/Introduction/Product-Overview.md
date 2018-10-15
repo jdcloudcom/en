@@ -2,7 +2,7 @@
 
 MQ(Message Queue) is a distributed message queue service developed by JD Cloud, which realizes asynchronous decoupling among services in the distributed architecture. The product can provide asynchronous communication mechanism for different applications of distributed deployment or the different components of the same application. JD Cloud Message Queue realizes the functions of publishing and subscription, Message Query, Dead Letter Queue, reset consumer offset, sequence message and delay message, has the characteristics of high availability, high reliability, high performance, smooth expansion and dynamic monitoring. Message Queue is an indispensable core product in the cloud architecture.
 
-## How Can I Get Started with Message Queue?
+## Common Operation
 
 - Quick Start
 	- [Create Resources](../Getting-Started/Create-Resource.md)

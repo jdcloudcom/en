@@ -1,5 +1,5 @@
-# Introduction of offline service commodities
-Offline service:
+# Introduction to Offline Service Commodities
+Offline Service:
 1. Select a Release Category
 
  Log in to the backend of the service provider to release the offline service: Select Service Management --> Release Service, select the delivery type of the offline service, and click "Next, Release Service" after the selection is completed.                                              

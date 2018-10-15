@@ -1,9 +1,9 @@
 # Searching by Tags
 
 ## 1. Tag Filter 
-Click the icon of [Tag Management] at the upper right of the instance list to display the filter interface.
+Click the icon of ***Tag Management*** at the upper right of the instance list to display the filter interface.
 
-Click the icon of [Tag Management] again to hide the filtering interface.
+Click the icon of ***Tag Management*** again to hide the filtering interface.
 
 ![Search Tag1](../../../image/RDS/Search-Tag-1.png)
 
@@ -21,4 +21,4 @@ Different keys are logical and relational. If the "Department: R&D Department" a
 ![Search Tag 3](../../../image/RDS/Search-Tag-3.png)
 
 ## 3. Confirmation
-Click [Query] to filter the database instance after the selection.
+Click ***Query*** to filter the database instance after the selection.

@@ -14,7 +14,7 @@ items:
       href: Introduction/Metrics.md
     - name: Specifications
       href: Introduction/Specification.md
-      status:0
+      status: 0
     - name: Restrictions
       href: Introduction/Restrictions.md
     - name: Application Scenarios 
@@ -25,7 +25,7 @@ items:
       href: Pricing/Pricing.md
 - name: Getting Started
   items:
-    - name: Getting Started Guide
+    - name: Getting Started Overview
       href: Getting-Started/getting-started-overview.md
     - name: View Resource Monitoring Chart
       href: Getting-Started/view-cloud-resource-monitoring-chart.md
@@ -56,18 +56,8 @@ items:
         - name: View Resource Monitoring Chart
           href: Operation-Guide/resource-monitoring/view-resource-monitoring-chart-details.md
         - name: Set Monitoring Alarm to the Resources
-          href: Operation-Guide/resource-monitoring/set-alarm-rules-details.md
-    - name: Site Monitoring
-      items:
-        - name: Site Monitoring Overview
-          href: Operation-Guide/site-monitoring/site-monitoring-overview.md
-        - name: Site Monitoring Restrictions And Quota
-          href: Operation-Guide/site-monitoring/quota-restrictions.md
-        - name: Site Monitoring Management
-          href: Operation-Guide/site-monitoring/site-monitoring-management.md    
-        - name: Set Alarm Rules
-          href: Operation-Guide/site-monitoring/site-monitoring-alarm.md
-    - name: Customized Metric Monitoring 
+          href: Operation-Guide/resource-monitoring/set-alarm-rules-details.md     
+    - name: Customized Metric Monitoring
       items:
         - name: Customized Metric Monitoring Overview
           href: Operation-Guide/custom-monitoring/custom-monitoring-overview.md
@@ -81,27 +71,33 @@ items:
           href: Operation-Guide/custom-monitoring/set-alarm-rules-CustomMetric.md
         - name: View Historical Alarms
           href: Operation-Guide/custom-monitoring/view-alarm-history-CustomMetric.md
-- name: Best Practices
+- name: Best Practice
   items:
-    - name: Batch Resource Monitoring
+    - name: Batch Resource Monitoring 
       href: Best-Practices/bulk-resource-monitoring.md
     - name: Daily Workload Monitoring
       href: Best-Practices/daily-business-monitoring.md
 - name: Tutorial
   items:
-  status:0
+  status: 0
 - name: Troubleshooting
   items:
-  status:0       
+  status: 0       
 - name: FAQ
   href: FAQ/FAQ.md
-- name: Document History
-  href: Related-Resources/Document-History.md     
-- name: Terms of Service         
-  status:0      
-- name: SLA         
-  status:0       
-- name: ICP Filing         
-  status:0        
-- name: Glossary          
-  status:0
+- name: API Reference
+  href:
+- name: SDK Reference
+  href:
+- name: Related Resources
+  items:
+  - name: Document History
+    href: Related-Resources/Document-History.md     
+  - name: Service Terms         
+    status: 0      
+  - name: SLA         
+    status: 0       
+  - name: IPC Filing         
+    status: 0        
+  - name: Glossary          
+    status: 0

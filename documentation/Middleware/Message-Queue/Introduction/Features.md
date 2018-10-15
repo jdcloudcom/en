@@ -41,4 +41,4 @@ Provide a Web console, API access interface and java SDK, easy to develop. It is
 Provide functions such as multi-dimensional monitoring for the running status and performance of resources, stability maintenance and so on. It also provides early warning notification to reduce daily maintenance workload.
 
 ### Virtual Private Cloud
-Instances run in Virtual Private Cloud (VPC), enhancing security and isolation. Provide access restrictions such as subnets and identity and access management policies to protect against network attacks and safeguard your service privacy.
+Instances run in Virtual Private Cloud (VPC), enhancing security and isolation. Provide IAM such as subnets and identity and access management policies to protect against network attacks and safeguard your service privacy.

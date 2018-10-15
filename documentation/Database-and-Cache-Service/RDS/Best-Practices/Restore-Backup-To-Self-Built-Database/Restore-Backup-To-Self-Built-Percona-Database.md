@@ -1,5 +1,5 @@
 # Restore Backup Files to the Self-built Percona Service 
-You can restore the backup data of the Percona service to the self-built database.
+You can restore the backup data of the JCS for Percona service to the self-built database.
 
 ## Precautions
 * The self-built database version shall be consistent with the source database version of backup files.
@@ -15,13 +15,13 @@ You can restore the backup data of the Percona service to the self-built databas
     # View Help Manual
     ./percona_backup_extract.py -h
      
-     # Unzipping backup data of Percona service instance
+     # Unzipping backup data of the JCS for Percona service instance
      ./percona_backup_extract.py  -v 5.7 -f ./backup.xbstream.gz.enc
     ```
 3. Download backup files.
 
     ```
-    wget -c ‘<Data backup download link>' -O <Customized backup file name>.xbstream.gz.enc
+    wget -c '<Data backup download link>' -O <Customized backup file name>.xbstream.gz.enc
 
     -c: Start breakpoint upload
     -O: Save downloaded results as the assigned files and note that the suffix of files must be .xbstream.gz.enc
@@ -60,22 +60,22 @@ You can restore the backup data of the Percona service to the self-built databas
     #redo_log_version=1
     ```
 
-7. Modify the file owner and confirm that files are owned by the MySQL user.
+7. Modify the file owner and confirm that files are owned by the JCS for MySQL user.
 
     ```
     chown -R mysql:mysql $HOME/tmp_snapshot
     ```
 
-8. Start the Percona process.
+8. Start the JCS for Percona process.
 
     ```
     mysqld --defaults-file=$HOME/tmp_snapshot/backup-my.cnf --user=mysql --datadir=$HOME/tmp_snapshot --socket=$HOME/tmp_snapshot/mysql.sock &
     ```
 
-9. Login the MySQL service.
+9. Login the JCS for MySQL service.
 
     ```
     mysql -uroot -p --socket=$HOME/tmp_snapshot/mysql.sock
     ```
 
-* Click "Enter" directly due to the default blank password.
+* Click ***Enter*** directly due to the default blank password.

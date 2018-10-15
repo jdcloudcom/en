@@ -14,7 +14,7 @@
       - name: Features
         href: Introduction/Features.md
       - name: Specifications
-        href: Introduction/Specification.md
+        href: Introduction/Specifications.md
       - name: Restrictions
         href: Introduction/Restrictions.md
       - name: Application Scenarios 
@@ -96,8 +96,8 @@
     - name: Connect MongoDB Instance with Public Network
       href: Best-Practices/Public-Network-Connect-to-MongoDB-Instance.md
   - name: Tutorial
+    status: 0
     items:
-    status:0
   - name: Troubleshooting
     items:
     - name: Virtual machine is unable to connect to the MongoDB instances?
@@ -109,21 +109,21 @@
   - name: FAQ
     href: FAQ/FAQ.md
   - name: User Agreement
-    status:0
+    status: 0
     items:
     - name: Terms of Service
       href: User-Agreements/Product-Terms-of-Service.md           
-      status:0      
+      status: 0      
     - name: SLA
       href: User-Agreements/SLA.md           
-      status:0       
+      status: 0       
   - name: Related Resources
     items:
     - name: Document History
       href: Related-Resources/Document-History.md   
     - name: ICP Filing
       href: Related-Resources/Filing.md           
-      status:0        
+      status: 0        
     - name: Glossary
       href: Related-Resources/Glossary.md           
-      status:0
+      status: 0

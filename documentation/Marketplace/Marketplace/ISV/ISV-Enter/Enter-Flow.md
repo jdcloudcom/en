@@ -1,8 +1,8 @@
-# Service provider move-in process
-Service provider move-in process overview:
+# Service Provider Move-in Process
+Service Provider Move-in Process Overview:
 ![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Marketplace/Marketplace/MarketPlace-Image/%E5%85%A5%E9%A9%BB%E6%B5%81%E7%A8%8B.png)
 
-Detailed steps for Service Provider Move-in:
+Detailed Steps for Service Provider Move-in:
 I. Register An Account
 
 Visit JD Cloud Marketplace official website, click on the registration to complete the user registration or activation.
@@ -65,14 +65,14 @@ Note: Please fill in the bank account information of the company. Bank account n
 
  
 
-V. So far you have moved in. For releasing service, please refer to the Cloud Marketplace help document: Service Provider - Management Backend - Product Release Introduction, and other common questions, etc. can refer to JD Cloud Marketplace Help Center Documentation.
+V. So far you have moved in. For releasing service, please refer to the Cloud Marketplace Help Documentation: Service Provider - Management Backend - Product Release Introduction, and other common questions, etc. can refer to JD Cloud Marketplace Help Center Documentation.
 
  
 
  
 
-Contact us:
+Contact Us:
 
-     Consultation on Marketplace service provider cooperation: https://uc.jdcloud.com/myorder/form?cateId=313&questionId=326
+     Consultation on Marketplace Service Provider Cooperation: https://uc.jdcloud.com/myorder/form?cateId=313&questionId=326
 
      Marketplace consulting email: yunshichang@jd.com

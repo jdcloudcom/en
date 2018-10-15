@@ -9,11 +9,11 @@ JD Cloud DevOps is a set of DevOps service that is constructed by the automatic 
 
 It can provide DevOps full process support, including CMDB, code management, CI/CD, intelligent monitoring, operation and maintenance tool, etc.
 
-See [Operation Guide](https://github.com/jdcloudcom/cn/tree/edit/documentation/Management-and-Monitoring/DevOps/Operation-Guide)
+See [Operation Guide](../Operation-Guide/Operation-Instruction.md)
 
 
 **Billing**
 
 JD Cloud DevOps supports enterprise version (SaaS version) billing type. See product pricing for detailed description
 
-See [Product Pricing](https://github.com/jdcloudcom/cn/tree/edit/documentation/Management-and-Monitoring/DevOps/Pricing)
+See [Product Pricing](../Pricing/Billing-Overview.md)

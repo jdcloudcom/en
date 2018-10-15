@@ -8,7 +8,7 @@ The figure above shows the tag implementation. Three tags are associated to the 
 - The department of the instance B is the R&D Department with the purpose of website development and of yy project.
 
 ## Remarks
-1. SQL Server supported only for temporary
+1. JCS for SQL Server supported only for temporary
 2. The function of the resource tag is in the close beta test period and only open to the invited customers.
 
 ## Function Supported

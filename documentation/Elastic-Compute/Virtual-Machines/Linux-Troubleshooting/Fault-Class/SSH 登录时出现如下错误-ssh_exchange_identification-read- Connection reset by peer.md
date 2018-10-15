@@ -9,7 +9,7 @@ Note: The configuration and instructions of Linux in this article have been test
 
 **Problem Description:**
 
-When logging in to the Linux Virtual Machines by using SSH, an error message as follows will appear, even if the password is entered correctly.
+When logging in to the Linux VMs by using SSH, an error message as follows will appear, even if the password is entered correctly.
 
 *ssh_exchange_identification: read: Connection reset by peer.*
 
@@ -19,7 +19,7 @@ When logging in to the Linux Virtual Machines by using SSH, an error message as 
 
 **Problem Causes:**
 
-This problem is usually caused by the Linux system enabling TCP Wrapper access control via /etc/hosts.allow or /etc/hosts.deny.
+This problem is usually caused by the Linux system enabling TCP Wrapper IAM via /etc/hosts.allow or /etc/hosts.deny.
 
 
 

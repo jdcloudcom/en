@@ -17,7 +17,7 @@ https://monitor.jdcloud-api.com/v1/regions/{regionId}/alarms
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**ids**|String|True| |For rule id to be deleted, use '|' to separate multiple rules|
+|**ids**|String|True| |For rule id to be deleted, use '\|' to separate multiple rules|
 
 
 ## Response parameter

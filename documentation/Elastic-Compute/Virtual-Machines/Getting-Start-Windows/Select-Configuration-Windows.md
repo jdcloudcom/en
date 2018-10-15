@@ -19,8 +19,8 @@ After you have successfully registered an account and completed real-name verifi
    
    There are three methods to create: **Create Customized Instance**, **Create Instance by Instance Template**, **Create Instance in Availability Group**.
     * Create Customized Instance: customize all instance configuration items.
-    * Create Instance by Instance Template: quickly create an instance based on the preset configuration of the established instance template. Please see [Instance Template](../Operation-Guide/Instance-Template/Overview.md) for details.
-    * Create Instance in Availability Group: quickly create an instance based on the available zone and instance template specified by the established Availability Group. Please see [Availability Group](../../Availability-Group/Introduction/Overview.md) for details.
+    * Create Instance by Instance Template: quickly create an instance based on the preset configuration of the established instance template. Please see [Instance Template](../Operation-Guide/Instance-Template/Instance-Template-Overview.md) for details.
+    * Create Instance in Availability Group: quickly create an instance based on the available zone and instance template specified by the established Availability Group. Please see [Availability Group](../../Availability-Group/Introduction/Product-Overview.md) for details.
 * Image:
    
    It provides **Public Image**, **Private Image**, **Shared Image** and **Marketplace Image**.
@@ -34,9 +34,9 @@ After you have successfully registered an account and completed real-name verifi
     It provides for instance types, i.e., **General**, **Compute**, **Memory Optimized**, **High Frequency Compute** from the minimum specification 1C1GB (such as g.s1.micro) to the maximum specification 72C576GB (such as M.n2.18xlarge). You can select the instance type of the optimal CPU memory ratio according to different application levels. Please see [Instance Type](../Introduction/Instance-Type-Family.md) for details.
 * Storage:
     
-    JD Cloud provides cloud disk and local disk. A local disk is a storage device on a physical machine where the cloud server is located. It can obtain a lower delay, but there is a risk of single point data loss. The Cloud Disk Service adopts a multi-backup and distributed storage mode with high data reliability. The Cloud Disk Service provides **SSD Cloud Disk** and **Premium Hdd Cloud Disk** to be used as the system disk and data disk for the instance. Please see [Cloud Disk Service Type] for details.
+    JD Cloud provides cloud disk and local disk. A local disk is a storage device on a physical machine where the cloud server is located. It can obtain a lower delay, but there is a risk of single point data loss. The Cloud Disk adopts a multi-backup and distributed storage mode with high data reliability. The Cloud Disk provides **SSD Cloud Disk** and **Premium Hdd Cloud Disk** to be used as the system disk and data disk for the instance. Please see [Cloud Disk Type] for details.
     
-    * System Disk: Support local disk, SSD Cloud Disk and Premium Hdd Cloud Disk, among which the local disk has a default capacity of 40G for free, and capacity of the Cloud Disk Service is set by yourself.
+    * System Disk: Support local disk, SSD Cloud Disk and Premium Hdd Cloud Disk, among which the local disk has a default capacity of 40G for free, and capacity of the Cloud Disk is set by yourself.
     Data Disk: It supports eight attachments for the most and supports SSD cloud disk and Premium Hdd cloud disk, and the capacity can be set by yourself.
     
    Different types of cloud  disk support different capacity ranges:
@@ -45,9 +45,9 @@ After you have successfully registered an account and completed real-name verifi
    * SSD Cloud Disk as Data Disk: 20G~1,000G. 
  
 * Networking:
-    * Virtual Private Cloud and Subnet: You can plan and create a private Virtual Private Cloud and subnet first. If not, it supports using the default VPC and subnet created automatically by the system. Please see [Virtual Private Cloud](../../../Networking/Virtual-Private-Cloud/Introduction/Functions/VPC.md) and [Subnet](../../../Networking/Virtual-Private-Cloud/Introduction/Functions/Subnet.md) for details.
-    * Private IP: It is the specified private IP address of main network card of the Virtual Machines, which can be specified in the number of available IPs in the selected subnet. If there is no special requirement, it can be allocated automatically by the system. Once the intranet IP is allocated to the Virtual Machines, it cannot be changed.
-    * Security Group: You can create a security group that meets the identity and access management under each Virtual Private Cloud. If not, it supports to associate one from the three security group modules created automatically by the system. Please see [Security Group Overview](../../../Networking/Virtual-Private-Cloud/Introduction/Functions/Security-Group.md) for details.
+    * VPC and Subnet: You can plan and create a VPC and a subnet first. If not, it supports using the default VPC and subnet created automatically by the system. Please see [VPC](http://docs.jdcloud.com/cn/virtual-private-cloud/product-overview) and [Subnet](http://docs.jdcloud.com/cn/virtual-private-cloud/subnet-features) for details.
+    * Private IP: It is the specified private IP address of main network card of the Virtual Machines, which can be specified from the available IP addresses in the selected subnet. If there is no special requirement, it can be allocated automatically by the system. Once the intranet IP is allocated to the Virtual Machines, it cannot be changed.
+    * Security Group: You can create a security group that meets the IAM requirement under each VPC. If not, it supports to associate one from the three security group modules created automatically by the system. Please see [Security Group Overview](http://docs.jdcloud.com/cn/virtual-private-cloud/security-group-features) for details.
  
  * Bandwidth:
    
@@ -55,7 +55,7 @@ After you have successfully registered an account and completed real-name verifi
     
     * Billing by Bandwidth: It supports billing **By Fixed Bandwidth** and **By Traffic**.  If to select billing by bandwidth, the EIP billing type is consistent with the instance billing type, and if to select billing by traffic, the elastic IP billing type is separate from the instance billing type. Please see [Elastic IP Billing Rules](../../../Networking/Elastic-IP/Pricing/Billing-Rules.md) for details.
     * IP Provider: **BGP** and **Non-BGP**. Currently, both IP providers are available in cn-east-1 and cn-south-1 regions, while in cn-north-1 and cn-east-2 regions, only BGP IP is available.  compared to non-BGP (single line) IP, BGP IP has a more stable access speed and can not be changed after the line is selected. It is recommended to choose BGP IP as a priority.
-    * Bandwidth Cap: As for public network **Output Traffic (instance to public network direction) Bandwidth Cap**, IP billing by fixed bandwidth will be charged and the rate will be limited according to the bandwidth cap you set, while only rate of IP billing by traffic will be limited according to band width cap you set. You can adjust the bandwidth cap at any time based on your traffic needs, and the new cap will take effect immediately.
+    * Bandwidth Cap: As for public network **Output Traffic (instance to public network direction) Bandwidth Cap**, IP billing by fixed bandwidth will be charged and the rate will be limited according to the bandwidth cap you set, while only rate of IP billing by traffic will be limited according to bandwidth cap you set. You can adjust the bandwidth cap at any time based on your traffic needs, and the new cap will take effect immediately.
 
 * Basic Information:
     * Name: Name of the instance shall be filled in according to the naming notations, which cannot be blank but can be modified after creation.
@@ -68,7 +68,7 @@ After you have successfully registered an account and completed real-name verifi
 
 * Purchase Quantity:
    
-   After selecting all the configuration parameters, user needs to determine the instance quantity to be purchased, which is limited to your Virtual Machines, Cloud Disk Service and EIP quota as well as the remaining IP quantity of the subnet you have selected. If the quota is not enough, you can increase it via [Open Ticket](https://ticket.jdcloud.com/myorder/submit). 
+   After selecting all the configuration parameters, user needs to determine the instance quantity to be purchased, which is limited to your Virtual Machines, Cloud Disk and EIP quota as well as the remaining IP quantity of the subnet you have selected. If the quota is not enough, you can increase it via [Open Ticket](https://ticket.jdcloud.com/myorder/submit). 
 
 After knowing how to set the above configuration items, you can create a Windows VM instance in the console by referring to the next document.
 
@@ -76,23 +76,25 @@ After knowing how to set the above configuration items, you can create a Windows
 
 [Billing Rules](../Pricing/Billing-Rules.md)
 
-[Region and Availability Zone]
+[Region and Availability Zone](http://docs.jdcloud.com/cn/virtual-machines/regions-and-availabilityzones)
 
-[Instance Template](../Operation-Guide/Instance-Template/Overview.md)
+[Instance Template](../Operation-Guide/Instance-Template/Instance-Template-Overview.md)
 
-[Availability Group](../../Availability-Group/Introduction/Overview.md)
+[Availability Group](../../Availability-Group/Introduction/Product-Overview.md)
 
 [Instance Type](../Introduction/Instance-Type-Family.md)
 
-[Cloud Disk Service Type]
+[Cloud Disk Type](http://docs.jdcloud.com/cn/cloud-disk-service/specifications)
 
-[Virtual Private Cloud](../../../Networking/Virtual-Private-Cloud/Introduction/Functions/VPC.md)
+[VPC](http://docs.jdcloud.com/cn/virtual-private-cloud/product-overview)
 
-[Subnet](../../../Networking/Virtual-Private-Cloud/Introduction/Functions/Subnet.md)
+[Subnet](http://docs.jdcloud.com/cn/virtual-private-cloud/subnet-features)
 
-[Security Group Overview](../../../Networking/Virtual-Private-Cloud/Introduction/Functions/Security-Group.md)
+[Security Group Overview](http://docs.jdcloud.com/cn/virtual-private-cloud/security-group-features)
+
 
 [Elastic IP Billing Rules](../../../Networking/Elastic-IP/Pricing/Billing-Rules.md)
+
 
 
 

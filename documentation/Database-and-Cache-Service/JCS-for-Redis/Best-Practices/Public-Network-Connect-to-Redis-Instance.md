@@ -1,8 +1,8 @@
-# Public connects Redis instance
+# Public connects JCS for Redis instance
 
-If you need a local computer to connect it to JD Cloud Redis, you can use SSH's port forwarding function. Here is an example of Xshell to explain how to set it up.
+If you need a local computer to connect it to JCS for Redis, you can use SSH's port forwarding function. Here is an example of Xshell to explain how to set it up.
 
-Prerequisite: a JD Virtual Machine with Linux system, Associate EIP which is in the same virtual private cloud as JD Cloud Redis.
+Prerequisite: A JD Virtual Machine with Linux system, associate EIP which is in the same virtual private cloud as JCS for Redis.
 
 ## Action Steps
 
@@ -12,7 +12,9 @@ Prerequisite: a JD Virtual Machine with Linux system, Associate EIP which is in 
 
 - Machine IP: fill in the public IP of JD Cloud Virtual Machines
 
-2. User identification login
+![1](../../../../image/Redis/1.png)
+
+2. User Identification Login
 
 - Method: Password;
 
@@ -20,9 +22,13 @@ Prerequisite: a JD Virtual Machine with Linux system, Associate EIP which is in 
 
 - Password: password used to log in to JD Cloud Virtual Machines.
 
+![2](../../../../image/Redis/2.png)
+
 3. Set port forwarding rules
 
 - Select **Tunnel** under **SSH** and click **Add**
+
+![3](../../../../image/Redis/3.png)
 
 4. Fill in the transferring rules
 
@@ -30,8 +36,13 @@ Prerequisite: a JD Virtual Machine with Linux system, Associate EIP which is in 
 
 - Listen port: fill in local listen port when forwarding Xshell setting port;
 
-- Target machine: fill in the domain of Redis; see JD Cloud cache Redis console for details; click the instance name to enter the instance details, **Resource Information** –> **Access Domain**;
+- Target machine: fill in the domain of Redis; see JCS for Redis console for details; click the instance name to enter the instance details, **Resource Information** –> **Access Domain**;
 
-- Target port: fill in the port of Redis; see JD Cloud cache Redis console for details; click **Instance Name** to enter the details of the instance page, **Resource Information** –> **Port**, and it is 6379 by default.
+- Target port: fill in the port of JCS for Redis; see JCS for Redis console for details; click **Instance Name** to enter the details of the instance page, **Resource Information** –> **Port**, and it is 6379 by default.
 
-5. Connection test (window client)
+![4](../../../../image/Redis/4.png)
+
+5. Connection Test (window client)
+
+![5](../../../../image/Redis/5.png)
+

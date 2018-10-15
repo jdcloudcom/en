@@ -2,7 +2,7 @@
 
 ## API Description
 
-You can perform package download and other actions through compressing multiple Objects in JD Cloud Object Storage Service into one Object.
+You can perform package download and other actions through compressing multiple Objects in Object Storage Service into one Object.
 
 **Request**
 
@@ -22,7 +22,7 @@ x-amz-compress-type:zip
 ```
 2.Header
 
-|Name|Must be|Description|
+|Name|Must|Description|
 |-|-|-|
 |Content-Type|Yes|Must be text/xml, representing that the format of configuration file is XML, the user cannot set Content-Type for generating compressed files, which can be set as application/zip, application/x-rar-compressed and so on based on the compression type|.
 |Content-Length|Yes|Standard header|
@@ -35,24 +35,24 @@ x-amz-compress-type:zip
 
 3.Query
 
-|Name|Type|Must be|Description|
+|Name|Type|Must|Description|
 |-|-|-|-|
 |compress|Empty|Yes|Represent that the request is CompressObject request|
 
 4.Elements(body)
 
-|Name|Type|Must be|Description|
+|Name|Type|Must|Description|
 |-|-|-|-|
 |CompressRequest|Object|Yes|Root of request|
-|+Component|Object array|Yes|Generate file information of the compressed file|
-|++Key|character string|Yes|Generate complete file Key of the compressed file|
-|++Alias|Character string|No|Name of the file in the compressed file is key by default, which may be used for modifying name or adjusting directory structure|
+|+Component|Object Array|Yes|Generate file information of the compressed file|
+|++Key|Character String|Yes|Generate complete file Key of the compressed file|
+|++Alias|Character String|No|Name of the file in the compressed file is key by default, which may be used for modifying name or adjusting directory structure|
 
 **Response**
 
 Header
 
-No special header
+No Special Header
 
 Elements
 
@@ -66,7 +66,7 @@ The function does not define special errors, and when there are errors during th
 
 After completion of compress object generation task, if the user sets the callback address for task completion in the request (namely, x-amz-notification-endpoint parameter in the above text), OSS will notify the user requests of task processing through the callback interface provided by the callback user through the POST method.
 
-Callback interface
+Callback API
 
 |Header|Description|
 |-|-|
@@ -74,7 +74,7 @@ Callback interface
 |x-amz-sns-raw-key|must be true|
 |RequestID|RequestID|
 
-**Successful callback**
+**Successful Callback**
 ```
 {
     "Records": [
@@ -95,7 +95,7 @@ Callback interface
     ]
 }
 ```
-Callback failed
+Callback Failed
 ```
 {
     "Records": [
@@ -121,7 +121,7 @@ Callback failed
     ]
 }
 ```
-**Callback assurance**
+**Callback Assurance**
 
 Each request, whether successful or unsuccessful, is called back, and will be called back at the first time when Object is generated and completed
 
@@ -129,7 +129,7 @@ The callback retries when the server is temporarily unavailable; the interval ti
 
 The order of the callbacks is not guaranteed, it is not related with the time initiating Compress request and the time of successful generation of CompressObject.
 
-**Callback security**
+**Callback Security**
 
 In phase I, the OSS callback mechanism does not include a validation mechanism; a malicious user may forge an OSS callback request to call back your callback service, it is suggested that you can add necessary validation information to the dynamically generated callback address to avoid from being maliciously call-backed.
 

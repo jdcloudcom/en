@@ -11,10 +11,10 @@ Parameters:
 |Face detection|Face|f/2|Required parameters|Return biggest crop image of face; the image format is same as that of input image|
 |Face detection|Face|f/3/str|3 required parameters<br>Str optional parameters, face frame color, _start with<br>value range[_000000,_FFFFFF], default_FFFFFF|Return all detected face image in which identified with rectangle of customized color _RRGGBB (or RGB)|
 
-Sample:
+Example:
 
 Detect the face in the image file and return the largest crop image of the face:
 
 http://oss.cn-north-1.jcloudcs.com/downloads/face.jpg?x-oss-process=img/analyse/f/2
 
-![人脸识别](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-064.jpg)
+![人脸识别](../../../../../image/Object-Storage-Service/OSS-064.jpg)

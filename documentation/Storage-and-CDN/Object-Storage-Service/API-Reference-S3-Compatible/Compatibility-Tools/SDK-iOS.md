@@ -2,7 +2,7 @@
 
 ## Overview
 
-You can use IOS SDK to manage JD Cloud Object Storage Service; IOS Source Code can be downloaded from https://github.com/aws/aws-sdk-ios.
+You can use IOS SDK to manage Object Storage Service; IOS Source Code can be downloaded from https://github.com/aws/aws-sdk-ios.
 
 ## Actions
 
@@ -20,6 +20,6 @@ target 'S3UploadDemo' do
 end
 ```
 
-## Demo download
+## Demo Download
 
 Download link: http://s3-sdk-demo.oss.cn-north-1.jcloudcs.com/ios-sdk/S3UploadDemo-v1.zip

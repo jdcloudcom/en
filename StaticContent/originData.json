@@ -1,14 +1,14 @@
 [
     {
-        "name": "Website Building",
+        "name": "Website",
         "url": "https://www.jdcloud.com/solution/website"
     },
     {
-        "name": "JD YI Mobile Office",
+        "name": "JD XiaoYI Mobile Office",
         "url": "https://www.jdcloud.com/solution/xiaoyi"
     },
     {
-        "name": "Small and Medium Business Office",
+        "name": "Small Enterprise Office",
         "url": "https://www.jdcloud.com/solution/enterprisecloud"
     },
     {
@@ -24,19 +24,19 @@
         "url": "https://www.jdcloud.com/solution/edu"
     },
     {
-        "name": "JD Cloud Intelligent Government-Industrial Cloud Solutions",
+        "name": "JD Huiyun – Industrial Cloud",
         "url": "https://www.jdcloud.com/solution/cyy"
     },
     {
-        "name": "JD Cloud Intelligent Government-Intelligent Cloud JD Micro Interconnection",
+        "name": "JD Huizheng – Intelligent Cloud  with JD Joylink",
         "url": "https://www.jdcloud.com/solution/zny"
     },
     {
-        "name": "Multi-deployment Scheme",
+        "name": "Hybrid Deployment",
         "url": "https://www.jdcloud.com/solution/hybridcloud"
     },
     {
-        "name": "Private Cloud Hosted Solutions",
+        "name": "Hosted Private Cloud",
         "url": "https://www.jdcloud.com/solution/tgy"
     },
     {
@@ -48,23 +48,23 @@
         "url": "https://www.jdcloud.com/solution/trench"
     },
     {
-        "name": "Enterprise Purchase E-commerce Solutions",
+        "name": "Enterprise Purchasing E-commerce Solution",
         "url": "https://www.jdcloud.com/solution/purchase"
     },
     {
-        "name": "Boundless Retail E-commerce Solutions",
+        "name": "Boundless Retail Shopping Mall E-commerce Solution",
         "url": "https://www.jdcloud.com/solution/unboundedRetail"
     },
     {
-        "name": "Retail Online Store E-commerce Solutions",
+        "name": "Retail Shopping Mall E-commerce Solution",
         "url": "https://www.jdcloud.com/solution/resale"
     },
     {
-        "name": "Cross-border E-commerce Solutions",
+        "name": "Cross-border E-commerce Solution",
         "url": "https://www.jdcloud.com/solution/cebc"
     },
     {
-        "name": "Point Mall E-commerce Solutions",
+        "name": "Mileage Mall E-commerce Solution",
         "url": "https://www.jdcloud.com/solution/integral"
     },
     {
@@ -72,7 +72,7 @@
         "url": "https://www.jdcloud.com/solution/retailTechForum"
     },
     {
-        "name": "Entrepreneurship Support",
+        "name": "Startups Support",
         "url": "https://www.jdcloud.com/activity/dreamPartner"
     },
     {
@@ -88,7 +88,7 @@
         "url": "https://www.jdcloud.com/service/experienceNew"
     },
     {
-        "name": "Trusted Center",
+        "name": "Trust Center",
         "url": "https://www.jdcloud.com/service/trustedCenter"
     },
     {
@@ -104,7 +104,7 @@
         "url": "https://www.jdcloud.com/products/jdstack"
     },
     {
-        "name": "Price Calculator-Virtual Machine",
+        "name": "Price Calculator-Virtual Machines",
         "url": "https://www.jdcloud.com/calculator/calHost"
     },
     {
@@ -152,23 +152,23 @@
         "url": "https://www.jdcloud.com/partner/reg"
     },
     {
-        "name": "JD Cloud Journal of June",
+        "name": "JDCloud Journal June",
         "url": "https://www.jdcloud.com/news/journalJun"
     },
     {
-        "name": "JD Cloud Journal of July",
+        "name": "JDCloud Journal July",
         "url": "https://www.jdcloud.com/news/journalJuly"
     },
     {
-        "name": "JD Cloud Journal Subscription Application",
+        "name": "JDCloud Journal Subscription Application",
         "url": "https://www.jdcloud.com/news/subscription"
     },
     {
-        "name": "JD Cloud Journal Subscription Application Success Page",
+        "name": "JDCloud Journal Subscription Successful Application Page",
         "url": "https://www.jdcloud.com/news/subscriptionSuccess"
     },
     {
-        "name": "Gold Service",
+        "name": "Prime Service",
         "url": "https://www.jdcloud.com/service/bestService"
     },
     {
@@ -176,11 +176,15 @@
         "url": "https://www.jdcloud.com/service/forrester"
     },
     {
-        "name": "JD Cloud Journal (August)",
+        "name": "JDCloud Journal August",
         "url": "https://www.jdcloud.com/news/journalAugust"
     },
     {
-        "name": "Discount page",
+        "name": "JDCloud Journal September",
+        "url": "https://www.jdcloud.com/news/journalSeptember"
+    },
+    {
+        "name": "Discount Page",
         "url": "https://www.jdcloud.com/news/treatmentSuccess"
     }
 ]

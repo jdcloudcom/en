@@ -16,7 +16,7 @@ go
 - Move to step 2 if the model value is not Full.
 - Move to step 3 if the model value is Full.
 
-Users can also use the SQL Server Management Studio client tool to make a full backup of the database, and, at the same time, ensure that the database recovery mode is "Complete".
+Users can also use the JCS for SQL Server Management Studio client tool to make a full backup of the database, and, at the same time, ensure that the database recovery mode is "Complete".
 ![Backup Local Database 1](../../../image/RDS/Backup-Local-Database-1.png)
 
 ## 2. Set Restoring Mode of Database as Full.
@@ -27,7 +27,7 @@ go
 
 Repeat Step 1 to confirm that the database restoring mode has been successfully modified.
 
-## 3. Backing Database
+## 3. Backup Database
 Taking a backup file named testdb.bak as an example:
 ```commandline
 use master;
@@ -59,4 +59,4 @@ go
 
 ## 6. Create An Empty Database
 Finally, create an empty database on the cloud database for importing backup files.
-Users can also use the SQL Server Management Studio client tool to make a full backup of the database, and, at the same time, ensure that the database recovery mode is "Complete".
+Users can also use the JCS for SQL Server Management Studio client tool to make a full backup of the database, and, at the same time, ensure that the database recovery mode is "Complete".

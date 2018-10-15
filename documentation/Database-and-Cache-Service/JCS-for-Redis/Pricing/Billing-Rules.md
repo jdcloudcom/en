@@ -1,6 +1,6 @@
 ﻿# Billing Rules
 
-Redis provides two Billing Methods according to configuration and Monthly Package. Please refer to the Billing Method. 
+JCS for Redis provides two Billing Methods according to configuration and Monthly Package. Please refer to the Billing Method. 
 
 ## Renewal Rules
 Pay by Configuration: Change the Billing Method of the Redis to Monthly Package, and the renewal period is 1-9 months, 1 year, 2 years, and 3 years.

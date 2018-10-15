@@ -1,6 +1,6 @@
 # Backup and Restoration
 
-* Back up your cloud disk regularly with cloud disk snapshot and create a Private Image from your instance to save the configuration as a template for launching future instances.
-* Deploy critical services across multiple availability zones to realize cross-region instance replication and backup through image replication.
-* You can manually associate the Elastic Network Interface or Elastic IP Address to replacement instance to achieve a quick response to fault and shield the impact of the fault.
-* Regularly test your instance and the restoration capability when the cloud disk has faults in a Test Environment.
+* Back up your cloud disks regularly with cloud disk snapshots and create private images from your instances to save the configuration as templates for launching future instances.
+* Cross-region instance replication and backup can be realized through image replication to deploy critical services across multiple AZs.
+* You can manually attach the ENI or EIP to the replacement instance to make a quick response to fault and shield the impact of the fault.
+* Regularly test your instances and the restoration capability in a test environment in the case that the cloud disks have faults.

@@ -9,7 +9,7 @@ Note: The configuration and instructions of Linux in this article have been test
 **Problem Description:**
 
 
-When logging in to Linux Virtual Machines, even if the correct password is entered, it can not be logged in properly. When the problem occurs, it can be logged in through the console vnc or SSH client, or can not be logged in through both modes. At the same time, the error message as follows appears in the /var/log/secure log:
+When logging in to Linux VMs, even if the correct password is entered, it can not be logged in properly. When the problem occurs, it can be logged in through the console vnc or SSH client, or can not be logged in through both modes. At the same time, the error message as follows appears in the /var/log/secure log:
 
 *sshd[1199]: pam_listfile(sshd:auth): Refused user root for service sshd*
 
@@ -21,13 +21,13 @@ When logging in to Linux Virtual Machines, even if the correct password is enter
 
 **Problem Causes:**
 
-The PAM module pam_listfile.so related access control policy caused the user login failure.
+The PAM module pam_listfile.so related IAM policy caused the user login failure.
 
 
 
 **Solution:**
 
-The pam_listfile.so module can be used for Linux access control. Prior to resolving this problem, please perform the following configuration checks:
+The pam_listfile.so module can be used for Linux IAM. Prior to resolving this problem, please perform the following configuration checks:
 
 1. Log in to the server through SSH client or vnc.
 
@@ -66,7 +66,7 @@ onerr: Define the default return value when the error occurs (eg. the configurat
 
 5. If you need to modify the relevant policy configuration, it is recommended to perform a file backup before proceeding.
 
-6. Use the editor such as vi to modify the relevant parameter values ​​as needed, and confirm that the access release for relevant user has been made in the corresponding identity and access management file. Or the entirely delete or comment (add # at the beginning) the entire line configuration:
+6. Use the editor such as vi to modify the relevant parameter values as needed, and confirm that the access release for relevant user has been made in the corresponding identity and access management file. Or the entirely delete or comment (add # at the beginning) the entire line configuration:
 
 
 *#auth required pam_listfile.so item=user sense=allow file=/etc/ssh/whitelist onerr=fail*

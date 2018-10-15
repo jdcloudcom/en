@@ -8,4 +8,4 @@ Each account of JD Cloud console (PIN value) is corresponding to a tenant in the
 
 Super Agent is needed to be installed for the deployment objects, see Operation Guide for specific methods.  
 
-See [Operation Guide](https://github.com/jdcloudcom/cn/tree/edit/documentation/Management-and-Monitoring/DevOps/Operation-Guide)
+See [Operation Guide](../Operation-Guide/Operation-Instruction.md)

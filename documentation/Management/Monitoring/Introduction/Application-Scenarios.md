@@ -3,7 +3,7 @@
 The Monitoring provides you with diversified customer scenarios:
 
 ## Daily Workload Monitoring Management
-If users need to monitor their own business, they are allowed to monitor the running status and usage of resources through the monitoring pages of the purchased Cloud Service details pages and the monitoring pages of the Cloud Monitor module. At the same time, users are allowed to set alarm rules according to the characteristics of cloud resources.When the monitoring metric of the resource reaches the alarm threshold set by the user, the alarm will be triggered, and the alarm will be sent by SMS and Email according to the contact set by the user.
+If users need to monitor their own business, they are allowed to monitor the running status and usage of resources through the monitoring pages of the purchased Cloud Service details pages and the monitoring pages of the Cloud Monitor module. At the same time, users are allowed to set alarm rules according to the characteristics of cloud resources. When the monitoring metric of the resource reaches the alarm threshold set by the user, the alarm will be triggered, and the alarm will be sent by SMS and Email according to the contact set by the user.
 ![](https://raw.githubusercontent.com/jdcloudcom/en/Monitoring/image/Cloud-Monitor/Appli_Scenarios_1.png)
 
 ### Handling Exception

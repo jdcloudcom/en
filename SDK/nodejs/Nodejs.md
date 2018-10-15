@@ -16,8 +16,7 @@
 # SDK Usage Method #
 It is recommended to install the JD Cloud Node.js SDK using npm as follows: 
 
-npm install jdcloud-sdk-js
-
+`npm install jdcloud-sdk-js`
  
 
 You can also download the sdk source code yourself. The source code address is [Node.js SDK](https://github.com/jdcloud-api/jdcloud-sdk-nodejs).
@@ -35,31 +34,33 @@ Note: JD Cloud does not provide other downloading ways, please be sure to use th
 # Call SDK #
 
 ## Two reference modes: ##
+```
 	var JDCloud = require('jdcloud-sdk-js');
-
+```
 This reference mode can load all available services
 
 
-
+```
 	var NC = require('jdcloud-sdk-js/services/nc');
-
+```
 This reference mode can only load the service to be used, and then you can still use var. Cloud = request ('jdcloud-sdk-js/.') to reference SourceCloud object
 ## 
 Configuration Method ##
 Configure the JDCloud as a common configuration with all services sharing configurations:
 
-
-	JDCloud.config.update ({/ * Configuration Item */});
-
+```
+	JDCloud.config.update({/*Configuration Item*/});
+```
 
 The configuration for a service overlaps the general configuration: 
 
-
+```
 	var NC = require('jdcloud-sdk-js/services/nc');
-	var nc = new NC ({/*Configuration Item*/});
-
+	var nc = new NC({/*Configuration Item*/});
+```
 
 ## Configuration Item ##
+```
 	let config = {
 	    credentials:{
 	        accessKeyId,
@@ -67,11 +68,11 @@ The configuration for a service overlaps the general configuration:
 	    },
 	    regionId,   //region information, an api call can be referred to as a single reference regionId, and if the call is not passed, the regionId in this configuration is used
 	}
-
+```
 
 ## Call Example ##
 The following is an example of a call to query details for individual VM Instance
-
+```
 	var VM = require('jdcloud-sdk-js/services/vm')
 	
 	var vm = new VM({
@@ -103,3 +104,4 @@ The following is an example of a call to query details for individual VM Instanc
 	    },
 	    maxCount: 1
 	  }, 'cn-north-1')
+```
