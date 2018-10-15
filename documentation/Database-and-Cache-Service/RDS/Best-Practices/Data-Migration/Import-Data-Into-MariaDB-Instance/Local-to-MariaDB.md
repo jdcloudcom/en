@@ -1,16 +1,16 @@
-# 从本地 MariaDB 迁移到云数据库 MariaDB
-这里主要讲下如何从本地自建 MariaDB 迁移到京东云云数据库 MariaDB，自建 MariaDB 需要您自己做 MariaDB 服务日常的运维，监控，备份等等其他操作，使用京东云云数据库 MariaDB 就省去了这些烦恼，只需要关注使用即可。
+# Migrate from local MariaDB to JCS for MariaDB
+We mainly discuss about how to migrate local self-created MariaDB to JCS for MariaDB. Instead of performing daily operation and maintenance, monitoring, backup and other operations by yourself in the case of using self-created local MariaDB, you can only concern use by using JCS for MariaDB.
 
 ## Precautions
-* 如果要将本地的 MariaDB 数据导入到云数据库 MariaDB，需要通过云主机作为传输媒介。
-* 新建的 MariaDB 实例，云主机需要在同一个 ***私有网络*** 内。
-* 新建的 MariaDB 实例的容量空间要确保不能小于在本地自建的 MariaDB 。
+* If you want to import data from local MariaDB into JCS for MariaDB, you need to take virtual machine as transmission medium.
+* New JCS for MariaDB instance and the virtual machine shall be in the same ***virtual private cloud***.
+* It shall ensure that the capacity space of new JCS for MariaDB instance is not less than that of local self-created JCS for MariaDB.
 
-## Operation Steps
-1. 创建云数据库 MariaDB，具体的创建步骤请参考 [创建云数据库 RDS 实例](../../../Operation-Guide/Instance/Create-Instance.md)。
-2. 通过控制台进行库的创建，确保本地自建的 MariaDB 中需要导出的库名在云数据库 MariaDB 中同样的创建了一遍，具体的创建步骤请参考 [创建库](../../../Operation-Guide/Database-Management/Create-Database.md)。
-3. 通过控制台进行数据库账号的创建，也可以使用创建云数据库 MariaDB 的时候的账号，然后赋予这个账号在第 2 步操作中新建的库的 ***读写*** 权限，具体的创建步骤请参考 [创建账号](../../../Operation-Guide/Account/Create-Account.md)。
-4. 完成云数据库 MariaDB 创建和初始化工作之后，开始从本地自建的 MariaDB 进行数据导出到本地的操作，执行命令
+## Action Steps
+1. Create JCS for MariaDB, the specific steps for creation see [Create Cloud Database RDS instance] (../../../Operation-Guide/Instance/Create-Instance.md).
+2. Create the database through the console. It shall ensure that the name of local self-created MariaDB to be exported has been created in JCS for MariaDB as well. The specific creation steps see [Create Database] (../../../Operation-Guide/Database-Management/Create-Database.md).
+3. Create database account through the console, which also can be the account used for creating JCS for MariaDB. Then grant ***read/write*** permission for the new database created in the step 2 of operation. Specific creation steps see [Create Account] (../../../Operation-Guide/Account/Create-Account.md).
+4. After completion of JCS for MariaDB creation and initialization, it should begin to export data from local self-created MariaDB to local by executing the command
 
     ```
     mysqldump -u User name -p Password --single-transaction --set-gtid-purged=OFF -B Database name > /Path/Outputted file name.sql
@@ -21,16 +21,16 @@
         Database Name: Fill in database names to be outputted and separate several database names with spaces.
     ```
     
-5. 完成本地自建的 MariaDB 数据导出到本地之后，接下来就开始创建云主机了。
-6. See specific steps of VM creation in [Create VM Instance](https://www.jdcloud.com/help/detail/303/isCatalog/1). Pay attention to following matters when creating VM instances.
-    * 请确保云主机和第 1 步创建的云数据库 MariaDB 在同一个 ***私有网络*** 内。
-    * A new VM needs a **Public IP*** for public network access, otherwise local data files cannot be uploaded to the VM.
-    * Make sure that ***Network ACL*** of the subnet where the VM exists, allows the local SSH to connect to the VM.
+5. After local self-created MariaDB data have been exported to local, it should begin to create VM instance next.
+6. Create VM instance, and for specific creation steps, see [Create VM instance] (https://www.jdcloud.com/help/detail/303/isCatalog/1), when creating VM instance, the following points need to be concerned
+    * Please ensure that the virtual machine and the JCS for MariaDB created in step 1 are in the same ***virtual private cloud***.
+    * New virtual machine needs a ***Public IP*** to enable public network access, otherwise it cannot upload local data file to the virtual machine.
+    * Please ensure that network ***ACL*** of subnet that the virtual machine is located allows local ssh to connect to virtual machine.
 
-7. Upload the local data to the VM and execute the command after VM instance creation.
+7. After completion of virtual machine creation, it can upload the data file of local to the virtual machine by executing the command
 
     ```
-    scp /Path/Outputted file name.sql User name of virtual machine@Virtual Machine EIP: /Virtual Machine Path
+    scp /Path/Outputted file name.sql User name of virtual machine@Virtual machine public IP: /Virtual machine path
 
     Parameter Description
         User name of virtual machine: User name at the time of creating a virtual machine instance.
@@ -38,14 +38,14 @@
         Virtual Machine path: Storage path in virtual machine of files uploaded locally.
     ```
 
-8. 如果没有任何错误提示，表示本地文件成功上传到云主机上了，接着就可以将数据导入到云数据库 MariaDB 中，执行命令
+8. If there is no error notification, it means that the local file has successfully uploaded on the virtual machine. Then, it can import the data into JCS for MariaDB by executing the command
 
     ```
-    mysql -u User name -p Password -h Cloud database domain < /Virtual machine path/Outputted file name.sql
+    mysql -u User name -p Password -h Cloud database domain name < /Virtual machine path/Outputted file name.sql
 
     Parameter Description
-        User Name: User name in actions of Step 3
-        Password: Corresponding password of the user in actions of Step 3
-        数据库域名：云数据库 MariaDB 的域名可以在实例的详情页查看。
+        User Name: User name in actions of step 3
+        Password: Corresponding password of the user in actions of step 3
+        Database domain name: the domain name of JCS for MariaDB can be viewed on Instance Details page.
     ```
-9. 如果没有任何错误提示，表示导入成功。您可以登录到云数据库 MariaDB 里面查看，是否数据真的已经导入进去了。
+9. If there is no error notification, it means the import is successful. You can login JCS for MariaDB to view whether the data has been imported actually.

@@ -1,0 +1,64 @@
+  name: Distributed Relational Database DRDS
+  href: 
+  items:
+  - name: Introduction
+    items:
+      - name: Product Overview
+        href: Introduction/Product-Overview.md
+      - name: Benefits
+        href: Introduction/Benifits.md        
+      - name: Application Scenarios
+        href: Introduction/Application-Scenarios.md
+      - name: Core Concepts
+        href: Introduction/Core-Concepts.md        
+      - name: Specifications
+        href: Introduction/Specifications.md       
+      - name: Open Beta Test Description 
+        href: Introduction/Public-Beta-Introduction.md
+  - name: Pricing
+    items:
+      - name: Billing Overview
+        href: Pricing/Billing-Overview.md
+      - name: Billing Rules
+        href: Pricing/Billing-Rules.md
+  - name: Operation Guide
+    items:
+      - name: Instance Management
+        items:
+          - name: Create Instance
+            href: Operation-Guide/Instance/Create-Instance.md
+          - name: View Instance
+            href: Operation-Guide/Instance/View-Instance.md
+          - name: Instance Connection
+            href: Operation-Guide/Instance/Connect-Instance.md
+          - name: Delete Instance
+            href: Operation-Guide/Instance/Delete-Instance.md
+      - name: Account Management
+        items:
+          - name: Create Account
+            href: Operation-Guide/Account/Create-Account.md
+          - name: Delete Account
+            href: Operation-Guide/Account/Delete-Account.md
+          - name: Set Permissions
+            href: Operation-Guide/Account/Grant-Privilege.md  
+      - name: Database Management
+        items:
+          - name: Create Database
+            href: Operation-Guide/Database/Create-Database.md        
+          - name: View Database
+            href: Operation-Guide/Database/View-Database.md        
+          - name: Delete Database
+            href: Operation-Guide/Database/Delete-Database.md        
+      - name: Table Management
+        items:
+          - name: Create Table
+            href: Operation-Guide/Table/Create-Table.md
+          - name: Delete Table
+            href: Operation-Guide/Table/Drop-Table.md              
+  - name: FAQ
+    items:
+    - name: FAQ
+      href: FAQ/FAQ.md
+    - name: Use Restrictions
+      href: FAQ/Restrictions.md   
+  

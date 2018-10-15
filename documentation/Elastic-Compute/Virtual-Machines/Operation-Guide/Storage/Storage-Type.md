@@ -17,7 +17,7 @@ The SSD cloud disk utilizes a distributed multi-copy mechanism to provide stable
 
 * Single Disk Capacity: 20-1000G
 * Maximum IOPS of A Single Disk: 20000
-* Maximum Throughput of A Single Disk: 100MBps
+* Maximum Throughput of A Single Disk: 300MBps
 * Data Reliability: 99.9999999%
 
 SSD cloud disk, with stable high random I/O performance and high data reliability, is applicable to the following scenarios:
@@ -29,7 +29,7 @@ SSD cloud disk, with stable high random I/O performance and high data reliabilit
 The Premium Hdd cloud disk uses a mechanical disk as a storage medium and has the following features:
 
 * Single Disk Capacity: 20-3000G
-* Maximum IOPS of A Single Disk: 3000
+* Maximum IOPS of A Single Disk: 500
 * Maximum Throughput of A Single Disk: 80MBps
 * Data Reliability: 99.9999999%
 

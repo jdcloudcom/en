@@ -1,8 +1,8 @@
-# Modification History
-The modification history page records the modification record of the parameters in the parameter set, facilitating to trace back when the modification is made and provide a memo.
+# Revision History
+The Revision History page records the parameter revision records of parameter set, for convenience of recalling the modification time and providing memorandum.
 
-## Operation Steps
-1. Login [Parameter Set Console](https://rds-console.jdcloud.com/paramgroup/list)
-2. Select the parameter set whose parameters requiring to be modified, click the target parameter set, and enter the detailed page of the parameter set.
-3. Select the Tab page of ***Modify History***, and the history modification record of parameters in the current parameter set can be seen.
-4. The view on the change record in a certain period can be achieved with controls by selection the time period.
+## Action Steps
+1. Log in [parameter set console](https://rds-console.jdcloud.com/paramgroup/list)
+2. Select the target parameter set requiring parameter modification and click the target parameter set to enter the Details Parameter Set.
+3. Select ***Revision History*** in the Tab page to view the parameter set revision history of the current parameter set.
+4. Select the time period control to view the revision history of a specified time period.

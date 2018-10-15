@@ -85,7 +85,7 @@ items:
             href: Operation-Guide/Instance/Modify-Instance-Name.md
           - name: Find Instance
             href: Operation-Guide/Instance/Search-Instance.md
-          - name: Restart Expiration/ Instance in Arrears
+          - name: Restart Expiration/Instance in Arrears
             href: Operation-Guide/Instance/Restart-Overdue-or-Arrear-Instance.md
           - name: Export Instance
             href: Operation-Guide/Instance/Export-Instance.md
@@ -94,7 +94,7 @@ items:
           - name: Delete Instance
             href: Operation-Guide/Instance/Delete-Instance.md
 	  - name: GPU VM
-            href: Operation-Guide/Instance/GPU-VM.md
+	    href: Operation-Guide/Instance/GPU-VM.md
 
       - name: Instance Template
         items:

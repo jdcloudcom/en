@@ -1,13 +1,13 @@
-# MariaDB 根据备份恢复
-如果你需要对云数据库 MariaDB 实例进行一些破坏性的测试，那么可以选择在进行测试前进行一次全量备份，在完成测试之后，可以根据之前的全量备份恢复当前实例，这样云数据库 MariaDB 实例内的数据就恢复到了原有的状态。
+# Restore Based on Backup of MariaDB
+If you needs to make destructive tests for instances of JCS for MariaDB, please make a full backup before such test and recover the current instances according to such full backup after the test. By doing so, data within instances of JCS for MariaDB can be recovered to the original status.
 
 ## Precautions
-* The operation can only be performed when the instance is ***running***.
+* The operation can be carried out only when the instance is in the ***Running*** status.
 
-## Operation Steps
-1. Login [RDS Console](https://rds-console.jdcloud.com/database).
-2. Select the instance to be restored based on backup, click the name of the instance, and enter the instance detailed page.
-3. Click the tag of ***Backup Management***, select the target backup file, click ***Restore Based on Backup***, and the parameters of the pop-up box are as follows:
-    * Click ***OK*** to complete the backup.
-    * Click ***Cancel*** to cancel the backup creation.
-    ![Screenshot](../../../../image/RDS/restore-rds-instance.png)
+## Action Steps
+1. Login [Cloud Database RDS console] (https://rds-console.jdcloud.com/database).
+2. Select the target instance to be recovered based on backup and click the target instance name to enter the details of the instance.
+3. Click ***Backup Management***, select the target backup file, and click ***Restore Based on Backup*** in the actions column and the parameter description in the pop-up box is as follows:
+    * Click **OK** to complete the backup creation operation.
+    * Click **Cancel** to call off the backup creation operation.
+    ! [Snapshot](../../../../image/RDS/restore-rds-instance.png)
