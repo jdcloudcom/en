@@ -18,6 +18,7 @@ Upload Limit
 1. Size Limit: When using the Post object, Object cannot exceed 5GB.
 
    Form data and boundaries (excluding the file content) must not exceed 20 KB.
+   
 2. Naming Limit
 
    + Use UTF-8 to encode
@@ -38,7 +39,7 @@ To authorize upload to a third party, you can use the PostPolicy method; see [Po
 
 Basic Steps of Using Form Upload
 
-1. Create a Post Policy.
+1.Create a Post Policy.
 
 The Policy form field of the Post request is used to verify the validity of the request. For example, you can specify the prefix of the upload Object, specify the upload size, the URL that the client needs to jump to after the upload is successful, and the status code received by the client after the upload is successful. Policy is a character string in json format. For example, the following policy, the expiration time that a website user can upload is 2018-12-01T12:00:00.000Z, and the prefix of the file that can be uploaded must match "user/yuyu/", the name of the target bucket to be uploaded must be "myBucketName”.
 ```
@@ -49,15 +50,13 @@ The Policy form field of the Post request is used to verify the validity of the 
   ]
 }
 ```
-2. Encode Policy character string by using base64.
+2.Encode Policy character string by using base64.
 
-3. Use the OSS AccessKeySecret to sign the Policy encoded by using base64.
+3.Use the OSS AccessKeySecret to sign the Policy encoded by using base64.
 
-4. Build the upload HTML page.
+4.Build the upload HTML page.
 
-5. Open the HTML page and select the file to upload.
-
-
+5.Open the HTML page and select the file to upload.
 
 Function Usage Reference
 

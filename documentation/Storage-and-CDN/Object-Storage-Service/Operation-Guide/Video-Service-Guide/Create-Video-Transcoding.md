@@ -2,7 +2,7 @@
 
 Description: transcode the video file on JD Cloud OSS, and save the transcoded video as a new file.
 
-Request Grammar:
+Request Syntax:
 ```
 PUT /bucket/object?pretreatmentStrategyV2&expires=<expires value>&policy=<policy string>  HTTP/1.1
 Content-MD5: 
@@ -45,7 +45,7 @@ The currently supported video transcoding rules are as follows:
 |video_hls_480x360_440kbps|
 |video_hls_320x240_240kbps|
 
-Request Example:
+Sample Request:
 ```
 PUT /bucket/object?pretreatmentStrategyV2&expires=3600&policy={"persistentOps":"video_mp4_480x360_440kbps","saveas":"kkk:aaaa.wmv","targetSaveas":"a2trOmFhYWEud212"} HTTP/1.1
    Date: Mon, 22 Feb 2016 03:35:32 GMT
@@ -56,7 +56,7 @@ PUT /bucket/object?pretreatmentStrategyV2&expires=3600&policy={"persistentOps":"
 User-Agent: JSS-SDK-JAVA/1.2.0 (Java 1.8.0_45; Vendor Oracle Corporation; Windows 7 6.1; HttpClient 4.2.1)
 ```
 
-Request response:
+Sample Response:
 ```
 HTTP/1.1 200 OK
 x-jss-request-id: 8CEF3204E1AD1C2D

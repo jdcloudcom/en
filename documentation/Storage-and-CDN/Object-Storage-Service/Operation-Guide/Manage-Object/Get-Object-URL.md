@@ -2,7 +2,7 @@
 
 You have uploaded files to the Bucket, and you can share and download the files through obtaining external link address of the uploaded files at any time according to the below action procedures:
 
-1. Enter Object Storage Service console and then space management; click the bucket you need to access in the space list; after that, click **Object Management**:
+1.Enter Object Storage Service console and then space management; click the bucket you need to access in the space list; after that, click **Object Management**:
 
 2.Find the file of which you need to obtain the external link and click **Get URL** button:
 
