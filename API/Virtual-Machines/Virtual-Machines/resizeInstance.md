@@ -2,15 +2,18 @@
 
 
 ## Description
-Change Instance Types for Virtual Machines<br>
-The status of the virtual machine must be <b>stopped</b>. <br>
+Change Instance Types for VM.
+The status of the VM must be <b>stopped</b>. 
 For the machines created in 2016 with cloud disk as system disk, the instance types of the first generation and the second generation are not allowed to be adjusted to each other. <br>
-For the machines with local disk as system disk, the instance types of the first generation and the second generation are not allowed to be adjusted to each other. <br>
-For the machines created using availability group (Ag), the instance types of the first generation and the second generation are not allowed to be adjusted to each other. <br>
-For the machines with cloud disk as system disk, the instance types of the first generation and the second generation are not allowed to be adjusted to each other. <br>
-If the number of elastic network interfaces in the current machine is greater than the number of elastic network interfaces allowed by the instance type, an error will occur. Can query <a href="http://docs.jdcloud.com/virtual-machines/api/describeinstancetypes">DescribeInstanceTypes</a>Interface obtains instance type information for the specified zone or availability zone. <br>
-The image used by the current machine needs to support the target instance type to be changed, otherwise an error will occur. Can query <a href="http://docs.jdcloud.com/virtual-machines/api/describeimageconstraints">DescribeImageConstraints</a>Interface obtains instance type limit information for the specified image <br>
-The instance type cannot be changed when the user is in arrears with the VM fees.
+The VM in the following situations is not allowed to resize between the different generations, such as resize between g.n1 and g.n2.
+1. The system disk of the VM is cloud disk and the VM is created at 2016; 
+2. The system disk of the VM is loacl disk;
+3. The VM is created using availability group (AG)
+
+If the ENI number of the VM is greater than the max number supported by the new instance type an error will occur. Can query the API <a href="http://docs.jdcloud.com/virtual-machines/api/describeinstancetypes">DescribeInstanceTypes</a> to obtain instance type information under the specified region or availability zone.
+If the image used by the current VM doesn't support the new instance type an error will occur. Can query the API <a href="http://docs.jdcloud.com/virtual-machines/api/describeimageconstraints">DescribeImageConstraints</a> to obtain instance type limit information for the specified image.
+The instance type cannot be changed when the VM in condition of arrearage or expiration.
+
 
 
 ## Request method

@@ -2,8 +2,8 @@
 
 
 ## Description
-Get the VM vnc for connection management of virtual machines. <br>
-The vnc address is valid for 1 hour. If the vnc address is not used within 1 hour after being obtained, it will become invalid automatically and need to be re-acquired again.
+Get the vnc address of a VM to connect and manage the VM.
+The vnc address is valid for one hour. If the vnc address is not used within one hour after being obtained, it will become invalid automatically and need to be request again.
 
 
 ## Request method

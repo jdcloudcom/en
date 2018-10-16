@@ -2,7 +2,7 @@
 
 
 ## Description
-Batch Query of Virtual Machines Details<br>
+Batch query detailed information of VMs. 
 This API supports paging query with 20 items per page by default.
 
 

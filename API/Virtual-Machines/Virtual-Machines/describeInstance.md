@@ -2,7 +2,7 @@
 
 
 ## Description
-Query details for a VM
+Query detailed information of a VM.
 
 
 ## Request method

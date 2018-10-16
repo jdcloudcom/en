@@ -2,8 +2,8 @@
 
 
 ## Description
-Modify the VM's elastic network interface attributes, including whether to delete with the virtual machine. <br>
-The primary network interface cannot be modified.
+Modify the ENI attributes of the VM, including whether to delete ENI with the VM. 
+The attributes of primary network interface cannot be modified.
 
 
 ## Request method

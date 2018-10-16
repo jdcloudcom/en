@@ -2,8 +2,9 @@
 
 
 ## Description
-Start a single VM, only the virtual machine in the status of <b>stopped</b> can be started, and the start is only available when there is no task in progress for virtual machine. <br>
-Only the virtual machine with normal billing status can be started.
+Start a single VM. 
+Only the VM in the status of <b>stopped</b> can be started, and the start operation is only available when there is no task in progress of the VM. 
+Only the VM with normal billing status can be started and if the VM in the status of stopped due to arrearage or expiration it can not be started.
 
 
 ## Request method

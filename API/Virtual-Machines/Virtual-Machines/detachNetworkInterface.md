@@ -2,8 +2,8 @@
 
 
 ## Description
-Detach an elastic network interface for a virtual machine. <br>
-The virtual machine status must be <b>running</b> or <b>stopped</b>, and the attachment is only available when there is no task in progress. <br>
+Detach an ENI for a VM. 
+The status of the VM must be <b>running</b> or <b>stopped</b>, and the attachment is only available when there is no task in progress. 
 The primary network interface cannot be detached.
 
 
