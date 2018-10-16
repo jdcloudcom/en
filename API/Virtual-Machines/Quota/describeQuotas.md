@@ -2,7 +2,9 @@
 
 
 ## Description
-Query quota, support: VM, image, key pair, template
+Query quota.
+
+Current support to query the quota of VM, image, key pair, launch template and image share operation.
 
 
 ## Request method

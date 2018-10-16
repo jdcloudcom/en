@@ -2,7 +2,9 @@
 
 
 ## Description
-Reboot a single VM, only the virtual machine in the status of <b>running</b> can be rebooted, and the reboot is only available when there is no task in progress for virtual machine.
+Reboot a VM.
+
+Only the VM in the status of <b>running</b> can be rebooted, and the reboot operation is only available when there is no task in progress of the VM.
 
 
 ## Request method
@@ -33,3 +35,4 @@ None
 |**503**|Service unavailable|
 |**200**|OK|
 |**500**|Internal server error|
+
