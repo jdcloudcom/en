@@ -10,7 +10,7 @@ Date: date
 Authorization: signatureValue#Please refer to Security Verification
 ```
 
-Request Example:
+Sample Request:
 ```
 GET getVideoTask&taskId=11311576e2ee46d3b11dd4672d8e13c4 HTTP/1.1
 Date: Tue, 15 Dec 2015 12:43:24 GMT
@@ -20,7 +20,7 @@ Connection: Keep-Alive
 User-Agent: JFS-JCLOUD-SDK-JAVA/1.0.0 (Java 1.8.0_45; Vendor Oracle Corporation; Windows 7 6.1; HttpClient 4.2.1)
 ```
 
-Response Example:
+Sample Responss:
 ```
 HTTP/1.1 200 OK
 x-jss-request-id: 99AC4715136F3038
