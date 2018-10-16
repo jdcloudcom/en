@@ -3,7 +3,7 @@ The cluster structure of Message Queue synchronizes writing three copies of back
 
 ## Business Structure
 The business structure is as follows:
-![](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/Message-Queue/basic-infrastructure.jpg)
+![](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/Message-Queue/basic-infrastructure-en.jpg)
 
 | Term | Description |
 | :- | :- |
