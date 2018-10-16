@@ -275,7 +275,7 @@ items:
         href: Best-Practices/CloudBerry-2.md 
       - name: Generate Presigned-URL
         href: Best-Practices/Signature-In-URL-1.md
-      - name: Cross-origin Access
+      - name: Cross-origin Resource Sharing
         href: Best-Practices/CORS.md
       - name: Data Migration Tool 
         href: Best-Practices/Data-Migration-Tool.md 
