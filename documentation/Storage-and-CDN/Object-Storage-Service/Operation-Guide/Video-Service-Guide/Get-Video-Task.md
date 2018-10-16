@@ -1,4 +1,4 @@
-# Acquire video task list
+# Get video task list
 
 Description: search video list through conditions
 
