@@ -111,7 +111,7 @@ items:
         items:                        
           - name: Overview
             href: Operation-Guide/Video-Service-Guide/Video-Service-Guide-Overview.md
-          - name: Access Rules of Image Processing
+          - name: Quick Use Video Service
             href: Operation-Guide/Video-Service-Guide/Getting-Started-2.md
           - name: User Signature Verification
             href: Operation-Guide/Video-Service-Guide/User-Signature-Authentication.md   
@@ -181,13 +181,13 @@ items:
              href: API-Reference/HTTP-Header/Request-Headers.md
            - name: Public Response Header
              href: API-Reference/Introduction/Response-Headers.md
-      - name: IAM
+      - name: Access Control
         items:             
            - name: Contain Signature in the Header
              href: API-Reference/Access-Control/Signature-In-Header.md
            - name: Contain Signature in the URL
              href: API-Reference/Access-Control/Signature-In-URL.md
-      - name: About Service Actions
+      - name: Service Operations
         items:
            - name: GetService
              href: API-Reference/Service-Operations/GetService.md
@@ -256,7 +256,7 @@ items:
            - name: Range Download
              href: SDK-Reference/Java-SDK/Range-Download-3.md
            - name: Management Object
-             href:  SDK-Reference/Java-SDK/Manage-Objects-3.md
+             href: SDK-Reference/Java-SDK/Manage-Objects-3.md
            - name: Delete Object
              href: SDK-Reference/Java-SDK/Delete-Object-3.md
            - name: Move Object
