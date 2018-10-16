@@ -27,7 +27,7 @@ Description:
 
 * flag: 1 represents valid
 
-RequestExample:
+Sample Request:
 ```
 GET http://oss.cn-north-1.jcloudcs.com/?searchVideoList&videoTaskQuery=%7B%22flag%22%3A0%2C%22mysqlPage%22%3A0%2C%22orderCloumn%22%3A%22update_time%22%2C%22orderType%22%3A%22desc%22%2C%22page%22%3A1%2C%22pageSize%22%3A10%2C%22status%22%3A0%7DHTTP/1.1
 Date: Tue, 15 Dec 2015 12:59:11 GMT
@@ -38,7 +38,7 @@ Connection: Keep-Alive
 User-Agent: JFS-JCLOUD-SDK-JAVA/1.0.0 (Java 1.8.0_45; Vendor Oracle Corporation; Windows 7 6.1; HttpClient 4.2.1)
 ```
 
-Response Sample:
+Sample Response:
 ```
 HTTP/1.1 200 OK
 x-jss-request-id: AF4C3B343F152E1A
