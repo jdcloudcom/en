@@ -2,11 +2,9 @@
 
 1. Open the JD Cloud homepage and enter the domain name service interface.
 
-![image](../../Image-Domain/moban1.png)
-
 2. Click to create a new information template
 
-![image](../../Image-Domain/moban2.png)
+![image](../../../../image/Domain-Name/xinximoban1.png)
 
 3. Fill in the information as prompted.
 
