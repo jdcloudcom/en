@@ -27,10 +27,10 @@ Currently, the advanced configuration only has labels. The label only supports "
 
 ### Delete Monitoring Chart
 1. Click on "Delete" in the chart.
-![](../../../../image/Cloud-Monitor/Introduction/Operation-Guide/dashboard/dashboard-07.png)
+![.](../../../../image/Cloud-Monitor/Introduction/Operation-Guide/dashboard/dashboard-07.png)
 
 2. The pop-up box prompts whether to delete the monitoring chart, click “OK”, delete the monitoring chart to complete.
-![](../../../../image/Cloud-Monitor/Introduction/Operation-Guide/dashboard/dashboard-08.png)
+![.](../../../../image/Cloud-Monitor/Introduction/Operation-Guide/dashboard/dashboard-08.png)
 
 ### Copy Monitoring Graph
 You can quickly open the Add Monitor page by clicking **Copy** option in the graph. Copy the open monitoring graph page and the monitoring graph of the original monitoring graph configuration and monitoring resources, you can adjust the graph configuration and monitoring resources, click **OK** to generate a new monitoring graph.
