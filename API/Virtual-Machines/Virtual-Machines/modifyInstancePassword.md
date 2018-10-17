@@ -2,7 +2,10 @@
 
 
 ## Description
-Modify the VM password, and the operation is only available when there is no task in progress for the machine. <br>
+Modify the VM password.
+
+This operation is only available when there is no task in progress for the VM.
+
 The new password will take effect after the VM is rebooted.
 
 
@@ -36,3 +39,4 @@ None
 |**503**|Service unavailable|
 |**200**|OK|
 |**500**|Internal server error|
+
