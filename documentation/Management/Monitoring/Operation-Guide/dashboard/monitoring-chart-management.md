@@ -35,21 +35,21 @@ Currently, the advanced configuration only has labels. The label only supports "
 ### Copy Monitoring Graph
 You can quickly open the Add Monitor page by clicking **Copy** option in the graph. Copy the open monitoring graph page and the monitoring graph of the original monitoring graph configuration and monitoring resources, you can adjust the graph configuration and monitoring resources, click **OK** to generate a new monitoring graph.
 
-![](../../../../image/Cloud-Monitor/Introduction/Operation-Guide/dashboard/dashboard-09.png)
+![](../../../../../image/Cloud-Monitor/Introduction/Operation-Guide/dashboard/dashboard-09.png)
 
 ### Time Filter
 1. Click the time icon in the chart.
-![](../../../../image/Cloud-Monitor/Introduction/Operation-Guide/dashboard/dashboard-10.png)
+![](../../../../../image/Cloud-Monitor/Introduction/Operation-Guide/dashboard/dashboard-10.png)
 
 2. Select the time range you want to view, and you can also customize the time range you want to view.
-![](../../../../image/Cloud-Monitor/Introduction/Operation-Guide/dashboard/dashboard-11.png)
+![](../../../../../image/Cloud-Monitor/Introduction/Operation-Guide/dashboard/dashboard-11.png)
 
 
 ### Export Data
 1. Click the “Export” Data option in the thumbnail or click the “Export” icon in the enlarged view.
 
-![](../../../../image/Cloud-Monitor/Introduction/Operation-Guide/dashboard/dashboard-12.png)
+![](../../../../../image/Cloud-Monitor/Introduction/Operation-Guide/dashboard/dashboard-12.png)
 
 2. If the graph type is a line chart, the exported data can be selected from the time period selected by the chart or the time point currently viewed. If the icon type is TopN graph, the time period set by the monitoring graph is directly exported.
 
-![](../../../../image/Cloud-Monitor/Introduction/Operation-Guide/dashboard/dashboard-13.png)
+![](../../../../../image/Cloud-Monitor/Introduction/Operation-Guide/dashboard/dashboard-13.png)
