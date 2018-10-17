@@ -8,11 +8,11 @@
 
 3. Fill in the information as prompted.
 
-![image](../../Image-Domain/moban3.png)
+![image](../../../../image/Domain-Name/xinximoban2.png)
  
 4. When the existing information template needs to be modified, select the existing information template and click **Edit** to modify it.
 
-![image](../../Image-Domain/moban4.png)
+![image](../../../../image/Domain-Name/xinximoban3.png)
 
 
 Warm Prompt:
