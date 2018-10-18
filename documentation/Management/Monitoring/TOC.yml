@@ -67,7 +67,7 @@ items:
           href: Operation-Guide/site-monitoring/site-monitoring-management.md    
         - name: Set Alarm Rules
           href: Operation-Guide/site-monitoring/site-monitoring-alarm.md
-    - name: Custom Metric Monitoring 
+    - name: Custom Metric Monitoring 
       items:
         - name: Customized Metric Monitoring Overview
           href: Operation-Guide/custom-monitoring/custom-monitoring-overview.md
@@ -95,13 +95,13 @@ items:
   status: 0       
 - name: FAQ
   href: FAQ/FAQ.md
-  - name: Document History
+- name: Document History
   href: Related-Resources/Document-History.md     
-  - name: Service Terms         
+- name: Service Terms         
   status: 0      
 - name: SLA         
   status: 0       
-  - name: IPC Filing         
+- name: IPC Filing         
   status: 0        
-  - name: Glossary          
+- name: Glossary          
   status: 0
