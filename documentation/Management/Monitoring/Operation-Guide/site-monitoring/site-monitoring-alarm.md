@@ -3,7 +3,7 @@ Site monitoring task can set alarm rules in respect with response time and avail
 
 At the time of setting alarm rules, the selected statistical period cannot be less than the detection period in the site monitoring tasks.
 
-![image](https://raw.githubusercontent.com/jdcloudcom/cn/Monitoring-cn/image/Cloud-Monitor/site-monitoring/site-alarm.png)
+![image](../../../../image/Cloud-Monitor/site-monitoring/site-alarm.png)
 
 1. Log in JD Cloud Monitoring Console, and Click **Management->Cloud Monitor->Site Monitoring” to enter the Dashboard list page.
 2. Select the task that is required to be modified, and click **More** in the operation, and select **Alarm Rule**.
