@@ -12,24 +12,26 @@
 
 Select **Database Management**->**Table Management** page, click **Create Table****
 
-! [Table List] (../../../../../image/DRDS/table-list.png)
+![Table List] (../../../../../image/DRDS/table-list.png)
 
 **2. Create Routing Information of the Table**
 
-**Table name: ** table name, the rule of name is prompted on the console
+**Table name:** table name, the rule of name is prompted on the console
 
-**Type: ** supports two types of “split” and “no split”
+**Type:** supports two types of "split" and "no split"
 
-- Split: i.e., the table will be corresponding to multiple tables of multiple JCS for MySQL instances
+- Split: the table will be corresponding to multiple tables of multiple JCS for MySQL instances
 
 - No split: do not split the table, it is corresponding to 1 table of the JCS for MySQL instance
 
-**Split field: ** split the data according to which field
+**Split field:** split the data according to which field
 
-**Field type: **select int or string, more types will be able to be selected later
+**Note: As data will be split into tables of several databases, if the Unique Index and the split fields are inconsistent with each other, the Unique restriction will not come into force.**
 
-! [Create Table] (../../../../../image/DRDS/create-table.png)
+**Field type:** select int or string, more types will be able to be selected later
 
-**3 Login DRDS to execute "CREATE TABLE” statement**
+![Create Table] (../../../../../image/DRDS/create-table.png)
+
+**3. Login DRDS to execute "CREATE TABLE" statement**
 
 Link into DRDS with client tool to execute "CREATE TABLE” statement to create database. DRDS will create actual table on multiple JCS for MySQL instances at backend according to the created routing information of the table

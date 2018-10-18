@@ -2,13 +2,11 @@
 
 The process of access authorization of API means that the API provider authorizes API caller to access the API group. The authorization process is divided into two parts:
 
-- API caller creates and provides **Access Key**. The access key (APIKey/APISecret) represents the identity of the requester.
+* API caller creates and provides **Access Key**. The access key (APIKey/APISecret) represents the identity of the requester.
 
-- API provider authorizes the API group to API caller.
+* API provider authorizes the API group to API caller.
 
 When the customer of API provider or himself needs to test the API calling, it is necessary to create the access key as the identity of requester, and then the API provider authorizes the API group to API caller via access key.
-
-Below, it will be explained in two parts:
 
 
 ## Operational Steps
@@ -21,8 +19,9 @@ Below, it will be explained in two parts:
 
 ![Create access key](../../../../../image/Internet-Middleware/API-Gateway/fwmy-add.png)
 
-- After creation of key pair, the system will automatically generate access key ID, API key and API Secret.
-- API caller needs to send **APIKey** to API provider, and then the API provider perform the authorized access to APIKey.
+* After creation of key pair, the system will automatically generate access key ID, API key and API Secret.
+
+* API caller needs to send **APIKey** to API provider, and then the API provider perform the authorized access to APIKey.
 
 
 ### API provider authorizes the API group to API caller
@@ -35,7 +34,6 @@ API caller can find the access key ID in the access key details page and tell th
 ![Access Key details page](../../../../../image/Internet-Middleware/API-Gateway/fwmy-xqy.png)
  
  
- 
 
  
 #### STEP2: API provider creates 1 authorization.
@@ -46,14 +44,12 @@ Enter the list page of **Access Authorization** at left menu firstly
 
 Then click **Create Authorization**, and fill the Access Key or AK offered by API caller in the authorization information.
 
-![Create authorization](../../../../../image/Internet-Middleware/API-Gateway/fwsq-add.png)
-
 
 #### STEP3: API provider binds the authorization and API group
 
 Click **Bind** to bind the authorization group after creation of key pair.
 
-![Associate authorization](../../../../../image/Internet-Middleware/API-Gateway/fwsq-bd.png)
+
 
 
 

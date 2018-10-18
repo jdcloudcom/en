@@ -2,7 +2,9 @@
 
 
 ## Description
-Detach a data disk for a virtual machine, and the detachment is only available when there is no task in progress for virtual machine and cloud disk. <br>
+Detach a cloud disk for a VM.
+
+The detachment is only available when there is no task in progress of the VM  and cloud disk. 
 
 
 ## Request method
@@ -36,3 +38,4 @@ None
 |**503**|Service unavailable|
 |**200**|OK|
 |**500**|Internal server error|
+

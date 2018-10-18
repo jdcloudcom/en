@@ -15,3 +15,7 @@ Now it only supports join and sub-query within the same database and it does not
 **4. It does not support mysqldump**
 
 DRDS itself does not support mysqldump. If users want to export data, they can directly login RDS·MySQL and execute mysqldump operation for each database one by one
+
+**5. Support of Unique Index**
+- If Unique Index and the split field are consistent with each other, the Unique restriction cannot be affected.
+- If Unique Index and the split field are inconsistent with each other, Unique restriction will not come into force, as the data will be split to tables of several databases. 

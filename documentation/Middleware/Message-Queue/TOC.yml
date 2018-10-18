@@ -35,8 +35,6 @@
         href: Getting-Started/Create-Resource.md
       - name: Produce and Consumer Message
         href: Getting-Started/Produce-And-Consume-Message.md
-      - name: Public Internet Access
-        href: Getting-Started/Public-Internet-Access.md
   - name: Operation Guide
     items:
       - name: Topic Management
@@ -60,7 +58,25 @@
           - name: View Monitoring Information
             href: Operation-Guide/Monitoring/Monitoring.md
           - name: Set Alarm Rules
-            href: Operation-Guide/Monitoring/Alarm-Rules.md              
+            href: Operation-Guide/Monitoring/Alarm-Rules.md
+      - name: API Reference
+        items:
+          - name: Invoke Method
+            items:
+            - name: Common Parameters
+              href: Operation-Guide/API-Reference/Call-Method/Common-parameters.md
+            - name: Response Result
+              href: Operation-Guide/API-Reference/Call-Method/Response-Result.md
+            - name: Signature Algorithm
+              href: Operation-Guide/API-Reference/Call-Method/Signature-Algorithm.md
+          - name: API Standard
+            items:
+            - name: Send Message
+              href: Operation-Guide/API-Reference/Interface-Specification/Send-Message.md
+            - name: Ack Message
+              href: Operation-Guide/API-Reference/Interface-Specification/Ack-Message.md
+            - name: Consume Message
+              href: Operation-Guide/API-Reference/Interface-Specification/Consume-Message.md
   - name: Best Practices
     items:
     status: 0
@@ -72,7 +88,7 @@
     status: 0     
   - name: FAQ
     items:
-      - name: Billing Overview
+      - name: FAQ
         href: FAQ/FAQ.md
   - name: API Reference
     href:
