@@ -5,7 +5,7 @@
 <p style="text-indent: 0em;"><span style="text-indent: 2em;"><br/></span></p>
 <p style="text-indent: 0em;"></p>
 
-** The edge tool to solve distributed system messaging **
+<strong>The edge tool to solve distributed system messaging</strong>
 
 <p style="text-indent: 2em;"><span style="text-indent: 2em;">The JCQ products have more diverse functions, more protocol compatibility, and better performance than other open source products.</span></p>
 <p style="text-indent: 2em;"><br/></p>
@@ -21,9 +21,7 @@
 
 <p style="text-indent: 2em;"><span style="text-indent: 2em;">Meanwhile, JCQ products support accumulation of mass messages, low-delay message consumption and throughput of messages at ten million-level.</span></p>
 
-**The application scene is widely applied to enterprise users**
-
-****
+<strong>The application scene is widely applied to enterprise users</strong>
 
 <p style="text-indent: 2em;"><span style="text-indent: 2em;">JCQ is an indispensable product for enterprise users with certain concurrent requests and complex business logic and demanding reliability of message delivery. It is mainly used in application scenarios such as system decoupling, peak clipping, broadcast transmission and reliable messaging. It is a key Middleware product in the enterprise-level Internet cloud architecture.</span></p>
 
