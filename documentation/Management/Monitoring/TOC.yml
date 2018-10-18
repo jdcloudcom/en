@@ -13,7 +13,7 @@ items:
     - name: Monitoring Metric
       href: Introduction/Metrics.md
     - name: Specifications
-      href: Introduction/Specification.md
+      href: Introduction/Specifications.md
       status: 0
     - name: Restrictions
       href: Introduction/Restrictions.md
@@ -22,7 +22,7 @@ items:
 - name: Pricing
   items:
     - name: Billing Overview
-      href: Pricing/Pricing.md
+      href: Pricing/Billing-Overview.md
 - name: Getting Started
   items:
     - name: Getting Started Overview
@@ -56,8 +56,18 @@ items:
         - name: View Resource Monitoring Chart
           href: Operation-Guide/resource-monitoring/view-resource-monitoring-chart-details.md
         - name: Set Monitoring Alarm to the Resources
-          href: Operation-Guide/resource-monitoring/set-alarm-rules-details.md     
-    - name: Customized Metric Monitoring
+          href: Operation-Guide/resource-monitoring/set-alarm-rules-details.md
+    - name: Site Monitoring
+      items:
+        - name: Site Monitoring Overview
+          href: Operation-Guide/site-monitoring/site-monitoring-overview.md
+        - name: Site Monitoring Restrictions and Quotas
+          href: Operation-Guide/site-monitoring/quota-restrictions.md
+        - name: Management of Site Monitoring Tasks
+          href: Operation-Guide/site-monitoring/site-monitoring-management.md    
+        - name: Set Alarm Rules
+          href: Operation-Guide/site-monitoring/site-monitoring-alarm.md
+    - name: Custom Metric Monitoring 
       items:
         - name: Customized Metric Monitoring Overview
           href: Operation-Guide/custom-monitoring/custom-monitoring-overview.md
@@ -85,19 +95,13 @@ items:
   status: 0       
 - name: FAQ
   href: FAQ/FAQ.md
-- name: API Reference
-  href:
-- name: SDK Reference
-  href:
-- name: Related Resources
-  items:
   - name: Document History
-    href: Related-Resources/Document-History.md     
+  href: Related-Resources/Document-History.md     
   - name: Service Terms         
-    status: 0      
-  - name: SLA         
-    status: 0       
+  status: 0      
+- name: SLA         
+  status: 0       
   - name: IPC Filing         
-    status: 0        
+  status: 0        
   - name: Glossary          
-    status: 0
+  status: 0

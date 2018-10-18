@@ -11,7 +11,8 @@ Provide a capacity from minimum 20G to maximum 1000G (with a step size of 10G)
 
 ### Performance
 - Maximum IOPS: 20000
-- Maximum throughput: 300MBps
+- Default Throughput: 100MBps
+- Maximum Throughput: 300MBps (please open ticket for application)
 ### Price
 
 Monthly package: RMB 1/GB/month
