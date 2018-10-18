@@ -5,7 +5,7 @@
 <p style="text-indent: 2em;"><span style="text-indent: 2em;">Hou Kaiwen (left), Vice President of JD Group and Head of JD Cloud Enterprise Cloud Business, and Zhang Tao (right), President of UnitedData, signed strategic cooperation agreement on Jul. 23 at Headquarters of JD Group on behalf of JD Cloud and UnitedData respectively. </span></p>
 
 
-<strong>New strategy, new development/strong>
+<strong>New strategy, new development</strong>
 
 
 <p style="text-indent: 2em;"><span style="text-indent: 2em;">JD Cloud is an integrated service provide for cloud computing under the JD Group, which has the world's leading cloud computing technology and complete service platform. Relying on the long-term business practices and technology accumulation of JD Cloud in cloud computing, big data, Internet of Things and mobile internet applications, we are committed to building a socialized cloud service platform to provide a safe, professional, stable, convenient and professional cloud service to the whole society.</span></p>
