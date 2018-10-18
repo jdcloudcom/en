@@ -14,19 +14,19 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/instances
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True| |Region ID, the Region and Availability Zone Supported by the Cloud Physical Servers can be Called by Calling APIs (describeRegions)|
+|**regionId**|String|True| |Region ID, the Region and Availability Zone Supported by the Cloud Physical Servers can be Obtained by Calling API (describeRegions)|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**az**|String|False| |Availability Zone, Exact Matching|
-|**deviceType**|String|False| |Instance Type, exact matching, the instance type family can be obtained by calling APIs (describeDeviceType)|
+|**deviceType**|String|False| |Instance Type, exact matching, the instance type family can be obtained by calling API (describeDeviceType)|
 |**filters**|Filter[]|False| |containerId - Cloud Physical Server ID, exact match, support multiple IDs<br>|
 |**name**|String|False| |Name of the Cloud Physical Server, support fuzzy matching|
 |**networkType**|String|False| |Network Type, exact matching, currently only support basic|
-|**pageNumber**|Integer|False|1|Page Number; 1 by default|
+|**pageNumber**|Integer|False|1|Page; 1 by default|
 |**pageSize**|Integer|False|10|Paging Size; 10 by default; value range [10, 100]|
-|**status**|String|False| |Cloud Physical Server Status, feferring to Cloud Physical Server status|
+|**status**|String|False| |Cloud Physical Server Status, referring to Cloud Physical Server status|
 
 ### Filter
 |Name|Type|Required or not|Default value|Description|
@@ -46,9 +46,9 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/instances
 |Name|Type|Description|
 |---|---|---|
 |**instances**|Instance[]| |
-|**pageNumber**|Integer|Page Number; 1 by default|
+|**pageNumber**|Integer|Page; 1 by default|
 |**pageSize**|Integer|Paging Size; 10 by default; value range [10, 100]|
-|**totalCount**|Integer|Total Query Result Amount|
+|**totalCount**|Integer|Query Result of Total Amount|
 ### Instance
 |Name|Type|Description|
 |---|---|---|

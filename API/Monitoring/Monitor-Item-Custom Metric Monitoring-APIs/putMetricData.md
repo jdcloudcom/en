@@ -10,7 +10,6 @@ POST
 ## Request address
 https://monitor.{regionId}.jdcloud-api.com/v1/customMetrics
 
-None
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|

@@ -21,7 +21,7 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/secrets
 |---|---|---|---|---|
 |**filters**|Filter[]|False| |The name - secret is the name, supporting fuzzy search.<br>|
 |**pageNumber**|Integer|False| |Page; 1 by default|
-|**pageSize**|Integer|False| |Paging Size; 20 by default; Value range[10, 100] |
+|**pageSize**|Integer|False| |Page size; it is 20 by default; value range[10, 100]|
 
 ### Filter
 |Name|Type|Required or not|Default value|Description|

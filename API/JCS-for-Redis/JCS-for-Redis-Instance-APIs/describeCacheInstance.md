@@ -33,6 +33,7 @@ None
 ### CacheInstance
 |Name|Type|Description|
 |---|---|---|
+|**auth**|Boolean|With or Without Password|
 |**azId**|AzId|Az Information|
 |**cacheInstanceClass**|String|Instance specification code, refer to<a href='https://www.jdcloud.com/help/detail/411/isCatalog/1'>Instance Specification Code</a>|
 |**cacheInstanceDescription**|String|Instance Description|

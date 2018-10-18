@@ -12,7 +12,6 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/idata
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**id**|String|True| |Cluster ID: Composed of eight characters|
 |**regionId**|String|True| |Region ID|
 
 ## Request parameter
