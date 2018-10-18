@@ -12,7 +12,7 @@ https://disk.jdcloud-api.com/v1/regions/{regionId}/disks/{diskId}
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**diskId**|String|True| |Cloud Disk Service ID|
+|**diskId**|String|True| |Cloud Disk ID|
 |**regionId**|String|True| |Region ID|
 
 ## Request parameter

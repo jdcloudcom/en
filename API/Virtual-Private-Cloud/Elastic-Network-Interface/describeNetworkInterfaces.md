@@ -51,10 +51,10 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkInterfaces/
 |**instanceOwnerId**|String|Account of Instance|
 |**instanceType**|String|Associated Instance Type. Value Range: vm|
 |**macAddress**|String|Ethernet Address|
-|**networkInterfaceId**|String|Elastic Network Interface ID|
+|**networkInterfaceId**|String|ENI ID|
 |**networkInterfaceName**|String|Elastic Network Interface Name|
 |**networkSecurityGroupIds**|String[]|Security Group ID List|
-|**primaryIp**|NetworkInterfacePrivateIp|Primary IP of Network Interface|
+|**primaryIp**|NetworkInterfacePrivateIp|Network Interface Primary IP|
 |**role**|String|Network Interface Role. Value Range: Primary (primary network interface), Secondary (secondary network interface)|
 |**sanityCheck**|Integer|Source and target IP address verification, with value 0 or 1|
 |**secondaryIps**|NetworkInterfacePrivateIp[]|Network Interface Auxiliary IP List|

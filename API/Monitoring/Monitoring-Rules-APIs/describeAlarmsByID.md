@@ -43,7 +43,7 @@ None
 |**metricName**|String|Name of Rule ID Monitoring Item|
 |**noticePeriod**|Integer|Notification Period Unit: Hour|
 |**noticeTime**|String|Alarm time, this field is valid when querying the alarming rule|
-|**operation**|String|>=, >, <, <=, ==, !=|
+|**operation**|String|>=、>、<、<=、==、！=|
 |**period**|Integer|Statistical Period (Unit: Minute)|
 |**region**|String|Region Information|
 |**resourceId**|String|Resource ID Applied by This Rule|

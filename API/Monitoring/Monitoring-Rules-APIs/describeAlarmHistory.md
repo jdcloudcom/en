@@ -54,7 +54,7 @@ https://monitor.jdcloud-api.com/v1/regions/{regionId}/alarmHistory
 |**metricName**|String|Name of Rule ID Monitoring Item|
 |**noticePeriod**|Integer|Notification Period Unit: Hour|
 |**noticeTime**|String|Alarm Time|
-|**operation**|String|>=, >, <, <=, ==, !=|
+|**operation**|String|>=、>、<、<=、==、！=|
 |**period**|Integer|Statistical Period (Unit: Minute)|
 |**region**|String|Region Information|
 |**resourceId**|String|Resource ID Applied by This Rule|

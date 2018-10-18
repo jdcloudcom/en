@@ -10,7 +10,6 @@ GET
 ## Request address
 https://monitor.jdcloud-api.com/v1/metricsForCreateAlarm
 
-None
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
