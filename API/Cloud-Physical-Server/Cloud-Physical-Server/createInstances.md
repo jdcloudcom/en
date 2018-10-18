@@ -4,15 +4,15 @@
 ## Description
 Create one or more Cloud Physical Servers with specified configuration<br/>
 - Region and Availability Zone<br/>
-  - The region and availability zone supported by the Cloud Physical Servers can be obtained by calling APIs (describeRegions)<br/>
+  - The region and availability zone supported by the Cloud Physical Servers can be obtained by calling API (describeRegions)<br/>
 - Instance Type Family<br/>
   - The physical instance type family list can be obtained by calling APIs<br/>
   - Instance type family which is off line or sold out is not available for use<br/>
 - Operating System and Pre-installed Software<br/>
-  - The operating system list supported by the Cloud Physical Server can be obtained by calling APIs (describeOS)<br/>
-  - The APIs (describeSoftware) may be called to obtain the software list supported by the Cloud Physical Server, or the software may not be pre-installed<br/>
+  - The operating system list supported by the Cloud Physical Server can be obtained by calling API (describeOS)<br/>
+  - The API (describeSoftware) may be called to obtain the software list supported by the Cloud Physical Server, or the software may not be pre-installed<br/>
 - Storage<br/>
-  - Multiple RAIDs are available for the data disk and the RAID list supported by the server can be obtained by calling APIs (describeDeviceRaids)<br/>
+  - Multiple RAIDs are available for the data disk and the RAID list supported by the server can be obtained by calling API (describeDeviceRaids)<br/>
 - Network<br/>
   - Network type currently only supports basic<br/>
   - ISP Line only supports bgp currently<br/>
@@ -30,7 +30,7 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/instances
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True| |Region ID, the Region and Availability Zone Supported by the Cloud Physical Servers can be Called by Calling APIs (describeRegions)|
+|**regionId**|String|True| |Region ID, the Region and Availability Zone Supported by the Cloud Physical Servers can be Obtained by Calling API (describeRegions)|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|

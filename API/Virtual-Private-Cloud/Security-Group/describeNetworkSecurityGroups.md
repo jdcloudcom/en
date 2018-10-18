@@ -17,7 +17,7 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkSecurityGroups/
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**filters**|Filter[]|False| |networkSecurityGroupIds - Security group ID list, support multiple IDs<br>networkSecurityGroupNames - Security Group name list, support multiple names<br>VPCId	- VPC ID of Security Group, support single Id<br>|
+|**filters**|Filter[]|False| |networkSecurityGroupIds - Security group ID list, support multiple IDs<br>networkSecurityGroupNames - Security Group name list, support multiple names<br>vpcId	- VPC ID of Security Group, support single Id<br>|
 |**pageNumber**|Integer|False|1|Page: 1 by default. Value Range: [1,∞); when the pages exceed total pages, show the last page|
 |**pageSize**|Integer|False|20|Paging Size; 20 by default. Value Range: [10, 100]|
 

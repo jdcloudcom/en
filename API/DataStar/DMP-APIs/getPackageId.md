@@ -23,14 +23,14 @@ https://datastar.cn-south-1.jdcloud-api.com/v1/regions/{regionId}/dmp/getPackage
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String|Request ID, requests are different at each time|
+|**requestId**|String|Request ID, it is different at each time|
 |**result**|Result| |
 
 
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**data**|String|Map<String,String>>, the serialized character string needs to be reconverted before use. Key is deviceId, value is crowd package Id|
+|**data**|String|The string is serialized by Map<String, String>, it needs to be reconverted before use. Key is deviceId, and value is crowd package Id|
 |**message**|String|Description Information|
 |**status**|Boolean|True is success, false is failure|
 

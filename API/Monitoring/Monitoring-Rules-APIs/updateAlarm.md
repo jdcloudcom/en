@@ -24,7 +24,7 @@ https://monitor.jdcloud-api.com/v1/regions/{regionId}/alarms/{alarmId}
 |**downSample**|String|False| |Sampling Frequency|
 |**metric**|String|True| |Query Metric field returned by list API of available monitoring item based on the product line|
 |**noticePeriod**|Integer|False| |Notification Period Unit: Hour|
-|**operation**|String|True| |>=, >, <, <=, ==, !=|
+|**operation**|String|True| |>=、>、<、<=、==、!=|
 |**period**|Integer|True| |Statistical Period (Unit: Minute), optional value: 2, 5, 15, 30, 60|
 |**serviceCode**|String|True| |Product Name|
 |**threshold**|Number|True| |Threshold|

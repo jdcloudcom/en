@@ -3,7 +3,7 @@
 
 ## Description
 Query the list of software to be pre-installed on the physical server<br/>
-The APIs (describeOS) may be called to obtain the operating system list supported by the Cloud Physical Server, and acquire the software list that supports to be pre-installed by different operating system types<br/>
+The API (describeOS) may be called to obtain the operating system list supported by the Cloud Physical Server, and acquire the software list that supports to be pre-installed by different operating system types<br/>
 
 
 ## Request method
@@ -14,8 +14,8 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/os/{osTypeId}/softwares
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**osTypeId**|String|True| |Operating System Type ID, the operating systems supported by the Cloud Physical Server can be obtained by calling APIs (describeOS)|
-|**regionId**|String|True| |Region ID, the Region and Availability Zone Supported by the Cloud Physical Servers can be Called by Calling APIs (describeRegions)|
+|**osTypeId**|String|True| |Operating System Type ID, the operating systems supported by the Cloud Physical Server can be obtained by calling API (describeOS)|
+|**regionId**|String|True| |Region ID, the Region and Availability Zone Supported by the Cloud Physical Servers can be Obtained by Calling API (describeRegions)|
 
 ## Request parameter
 None
