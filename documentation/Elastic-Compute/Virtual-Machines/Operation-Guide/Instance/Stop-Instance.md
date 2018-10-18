@@ -8,6 +8,7 @@ The instance must be in the "Running" status. If the instance is in the "Stopped
 	
 	Please note:
 	* Stop operation will cause your business to be interrupted, please be cautious;
+	* Data of local data disk will be cleared if the action is stopped;
 	* After the trigger of stop operation, the instance will enter the "Stopping" status and the instance will not be able to perform other operations. When the stop is complete, the instance will enter the "Stopped" status.
 
 

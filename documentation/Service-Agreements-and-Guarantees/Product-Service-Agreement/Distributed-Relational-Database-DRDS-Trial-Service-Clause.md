@@ -150,14 +150,6 @@ You understand and acknowledge that the above list does not cover all types of l
 
 7.2.3 If you choose a pay-as-you-go service, you should keep your account balance sufficient to ensure continued use of the service. If you fail to fulfill your payment obligations as agreed, JD Cloud will suspend or terminate the service as follows:
 
-7.2.3.1 You can continue to use the distributed relational database DRDS of JD Cloud for 24h from the first arrears; if, 24h later, you still fail to recharge it successfully and enough to pay the service fees owed, JD Cloud will suspend the service and freeze the operation of the distributed relational database DRDS under your account, but still store your data and continue to bill;
-
-7.2.3.2 If you have not recharged successfully and the account balance is insufficient to cover the service fees owed at the expiration time of the 7th day after the service from JD Cloud is suspended (from the time when the suspension of the service is suspended to the expiration of the same time on the 7th day), JD Cloud will terminate the Service Terms and stop providing services for you. Meanwhile, all the data you have saved in JD Cloud will be deleted and cleared and will never be recovered.
-
-7.2.4 You understand and fully accept that although JD Cloud has established necessary technical measures to protect against matters or behaviors (collectively referred to as such behaviors) endangering the network security including computer viruses, network intrusion and attack damage (including but not limited to DDOS) (and will continue to improve based on the development of technology), in consideration of the limitations and relativity of network security techniques and the unpredictability of such behaviors, if you encounter such behaviors and this causes harm to JD Cloud or other networks or servers (including but not limited to local, non-local and international networks, servers, etc.) of JD Cloud, or affects the smooth contact between JD Cloud and international Internet or JD Cloud and specific network/server or internal smooth contact of JD Cloud, JD Cloud may decide to suspend or terminate the service. If the service is terminated, the service fee will be calculated based on the actual service time provided, and you will still be responsible for the service fee (if any) that you have not paid.
-
-7.2.5 JD Cloud may terminate the Service Terms in advance by announcing at [www.jdcloud.com](https://www.jdcloud.com/) or notifying you through website or in writing. At that time, JD Cloud shall refund the amount you have paid but not spent to your JD Cloud account.
-
 #### **8.  Liability for Breach of Contract**
 
 8.1 Any party under this Service Terms shall be liable for breach of contract according to the law.

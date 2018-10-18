@@ -22,10 +22,9 @@ l  Traffic, bandwidth peak (and bandwidth peak time), request number, back-to-so
 
 |Function                                                         | Description                                                         |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [Domain Name List](https://www.jdcloud.com/help/detail/2129/isCatalog/1) | Query the CDN business running status of the domain name and add the domain name, start/change/stop/delete the existing accelerated domain name configuration |
-| [Refresh Cache](https://www.jdcloud.com/help/detail/2124/isCatalog/1) | Support URL and directory refresh as well as URL prewarm, and may query refresh prewarm list         |
-| [Workload Monitoring](https://www.jdcloud.com/help/detail/2134/isCatalog/1) | The customer to view the CDN business usage information in real time, including the bandwidth, traffic, and request number information of the domain name dimension, and the bandwidth, traffic, and request number information of the regional and operator dimension, and CDN back-to-source bandwidth, traffic and times |
-| [Quality Monitoring](https://www.jdcloud.com/help/detail/2136/isCatalog/1) | Monitor CDN business quality information in real time, query status code and hit ratio multi-dimensionally            |
-| Resource Monitoring                                                     | Collect customer access data and hot-spot analysis, including the visitor proportion and download speed of PV, sub-region and operator |
-| [Operating Analysis](https://www.jdcloud.com/help/detail/2139/isCatalog/1) | TOP URL information display of request number/traffic                               |
-| [Log Download](https://www.jdcloud.com/help/detail/2031/isCatalog/1) | Daily the log according to days/hours and download the log                               |
+| [Domain Name List](Create-domain.md) | Query the CDN business running status of the domain name and add the domain name, start/change/stop/delete the existing accelerated domain name configuration |
+| [Refresh Cache](Refresh-Preheat.md) | Support URL and directory refresh as well as URL prewarm, and may query refresh prewarm list         |
+| [Workload Monitoring](Business-Monitoring.md) | The customer to view the CDN business usage information in real time, including the bandwidth, traffic, and request number information of the domain name dimension, and the bandwidth, traffic, and request number information of the regional and operator dimension, and CDN back-to-source bandwidth, traffic and times |
+| [Quality Monitoring](Quality-Monitoring/Hit-Ratio.md) | Monitor CDN business quality information in real time, query status code and hit ratio multi-dimensionally            |
+| [Operating Analysis](Operating-Analysis/Hot-spot-Analysis.md) | TOP URL information display of request number/traffic                               |
+| [Log Download](Log-download.md) | Daily the log according to days/hours and download the log                               |

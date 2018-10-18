@@ -20,7 +20,7 @@ Through the task status, the success rate and failure rate of each refresh or pr
 
 **3. URL Refresh**
 
-* Each URL shall start with <https://> or <https://>. For the URL refresh, if it is webiste URL, then it is the website home page that get refreshed; if it is whole site refresh, please perform it under the directory refresh, and end with /
+* Each URL shall start with <http://> or <https://>. For the URL refresh, if it is webiste URL, then it is the website home page that get refreshed; if it is whole site refresh, please perform it under the directory refresh, and end with /
 * Multiple URLs shall be separated with carriage return
 * Up to 100 URLs can be refreshed for a single time; up to 2000 URLs can be refreshed per day (including prewarm)
 * It takes approximately 5 minutes for the refresh task to take effect.
@@ -29,16 +29,16 @@ Through the task status, the success rate and failure rate of each refresh or pr
 
 **4. Directory Refresh**
 
-* Each path shall start with <https://> or <https://>, and end with /
+* Each path shall start with <http://> or <https://>, and end with /
 * Multiple paths shall be separated with carriage return
 * Up to 5 directories can be refreshed for a single time; up to 50 directories can be refreshed per day
 * It takes approximately 5 minutes for the refresh task to take effect.
 
  
 
-**5. URL Prewarm **
+**5. URL Prewarm**
 
-* Each URL shall start with <https://> or <https://
+* Each URL shall start with <http://> or <https://
 * Multiple URLs shall be separated with carriage return
 * Up to 100 URLs can be refreshed for a single time; up to 2000 URLs can be refreshed per day (including prewarm)
 * It takes approximately 5 minutes for the refresh task to take effect.

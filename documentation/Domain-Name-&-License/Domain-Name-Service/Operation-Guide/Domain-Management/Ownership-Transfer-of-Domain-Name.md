@@ -10,28 +10,27 @@ Step 1: Create a template
 
 Login to JD Cloud Member Account - Domain Name Service - Information Template
 
-![image](https://github.com/jdcloudcom/en/blob/Domain-Name/image/Domain-Name/chuangjianmobanguohu1.png)
+![image](../../../../../image/Domain-Name/chuangjianmobanguohu1.png)
 
 Fill in the new template information:
 
-![image](https://github.com/jdcloudcom/en/blob/Domain-Name/image/Domain-Name/chuangjianmobanguohu2.png)
+![image](../../../../../image/Domain-Name/chuangjianmobanguohu2.png)
 
 Step 2: Choose a domain name for transfer
 
 Domain Name Service - Domain Name Management - Management
 
-![image](https://github.com/jdcloudcom/en/blob/Domain-Name/image/Domain-Name/chuangjianmobanguohu3.png)
+![image](../../../../../image/Domain-Name/chuangjianmobanguohu3.png)
 
 After selecting, click **Manage** to enter the page and select **Ownership Transfer**
 
-![image](https://github.com/jdcloudcom/en/blob/Domain-Name/image/Domain-Name/chuangjianmobanguohu4.png)
+![image](../../../../../image/Domain-Name/chuangjianmobanguohu4.png)
 
 Click **Use Template**, select the template you want to transfer and click **Next**
 
-![image](https://github.com/jdcloudcom/en/blob/Domain-Name/image/Domain-Name/chuangjianmobanguohu5.png)
+![image](../../../../../image/Domain-Name/chuangjianmobanguohu5.png)
  
-Upload certification data - wait for review, review time (within 2-3 working days)
-
+Upload certification data-wait for review, review time (within 2-3 working days)
 
  
 After the approval is passed, the ownership transfer operation is completed.

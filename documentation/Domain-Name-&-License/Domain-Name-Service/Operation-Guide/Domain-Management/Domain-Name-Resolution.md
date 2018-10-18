@@ -12,15 +12,16 @@ On JD Cloud [Console], enter the domain name management list, click **Resolution
 A. Enter the domain name resolution setting page
 
 - On JD Cloud [Console], enter the domain name management list, then select the domain name to be operated, click **Resolution Operation**, and directly enter the resolution operation page.
+
 ![image](https://github.com/jdcloudcom/en/blob/Domain-Name/image/Domain-Name/yumingjiexi.png)
 
 
 - Click **Add Resolution**, select the record type as A record; the machine record is empty, or fill in www; Fill in the machine IP address with record you obtained earlier; resolve the line, and wait for TTL default. Click **Save** to complete the domain name resolution setting.
 
+![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Domain-Name-&-License/Image-Domain/jiexi2.jpg)
 
 ![image](https://github.com/jdcloudcom/en/blob/Domain-Name/image/Domain-Name/yumingjiexi2.png)
 ![image](https://github.com/jdcloudcom/en/blob/Domain-Name/image/Domain-Name/yumingjiexi3.png
-
 
 B. DNS Check
 

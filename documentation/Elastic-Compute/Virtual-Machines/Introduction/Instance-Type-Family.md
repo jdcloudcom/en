@@ -4,21 +4,23 @@ An instance is the smallest unit for the computing services provided by JD Cloud
 
 The following is the information on the instance type family currently sold on JD Cloud. The instance type families and instance types of the saleable instances in different regions are not identical, please refer to the information shown on the instance creation page. The specific Instance Type specifications can be classified according to different application scenarios:
 
-* General: General Shared Type, General Standard Type
-* Compute-Optimized Standard type: Compute Optimized Standard Type
-* Memory-Optimized type: Memory Optimized Standard Type
-* High-frequency compute type: High-frequency compute optimization type: High-frequency calculation optimization type
+* General: General Shared Type(instance-type-family#user-content-1), General Standard Type(instance-type-family#user-content-2)
+* Compute-Optimized Standard type: Compute Optimized Standard Type(instance-type-family#user-content-3)
+* Memory-Optimized type: Memory Optimized Standard Type(instance-type-family#user-content-4)
+* High-frequency compute type: High-frequency compute optimization type: High-frequency calculation optimization type(instance-type-family#user-content-5)
+* GPU Type: [GPU Standard Type](instance-type-family#user-content-6)
 
 ## General
 The General currently provides General Shared and General Standard types, providing you with balanced computing and memory resources to meet the needs of most business scenarios. Each of the vCPUs in the common standard type corresponds to an Intel Xeon processor hyper-threaded core with a vCPU to memory ratio of 1:4.
 
-### General Shared<div id="g.s"></div>
+### General Shared
+<div id="user-content-1"></div>
 **Specification Type Features:**
 
 * vCPU to Memory Ratio is 1:1 or 1:2
 * Processor: 2.1 GHz Intel Xeon E5-2683 v4 (Broadwell) processor
 * Support for the following two types of Cloud Disk Services:
-	*Premium Hdd Cloud Disk
+	* Premium Hdd Cloud Disk
 	* SSD Cloud Disk
 * Applicable Scenario:
 	* Primary stage of personal website with small visits
@@ -32,7 +34,8 @@ Instance Type|vCPU (core)|Memory (GB)
 |g.s1.micro|1|1
 |g.s1.small|1|2
 
-### General Standard Type<div id="g.n"></div>
+### General Standard Type
+<div id="user-content-2"></div>
 **Specification type features:**
 
 * vCPU to memory ratio is 1:4 (except for g.n1.xlarge_m specification)
@@ -40,7 +43,7 @@ Instance Type|vCPU (core)|Memory (GB)
 	* Second generation: 2.4 GHz Intel Xeon Gold 6148 (Skylake) processor
 	* First generation: 2.1 GHz Intel Xeon E5-2683 v4 (Broadwell) processor
 * Support for the following two types of Cloud Disk Services:
-	*Premium Hdd Cloud Disk
+	* Premium Hdd Cloud Disk
 	* SSD Cloud Disk
 * Applicable Scenario:
 	* Enterprise applications of all types and sizes
@@ -53,7 +56,6 @@ Instance Type|vCPU (core)|Memory (GB)
 Second generation
 
 Instance Type|vCPU (core)|Memory (GB)|Network Interface Multi-Queue
-
 :---|:---|:---|:---
 |g.n2.medium|1|4|1
 |g.n2.large|2|8|2
@@ -81,7 +83,8 @@ The mark * indicates that the VM is not supported by this instance type, and you
 ## Compute Optimized Type
 Compute Optimized Type currently offer Compute-Optimized Standard that provide you with high-performance computing resources that can be met. Each vCPU corresponds to a hyper-threaded core of an Intel Xeon processor.
 
-### Compute-Optimized Standard<div id="c.n"></div>
+<div id="user-content-3"></div>
+### Compute-Optimized Standard
 **Specification Type Features:**
 
 * vCPU to Memory Ratio is 1:2 (except for c.n1.xlarge_m, c.n1.2xlarge_s, c.n1.2xlarge_m and c.n1.4xlarge_m specifications)
@@ -89,7 +92,7 @@ Compute Optimized Type currently offer Compute-Optimized Standard that provide y
 	* Second generation: 2.4 GHz Intel Xeon Gold 6148 (Skylake) processor
 	* First generation: 2.1 GHz Intel Xeon E5-2683 v4 (Broadwell) processor
 * Support for the following two types of Cloud Disk Services:
-	*Premium Hdd Cloud Disk
+	* Premium Hdd Cloud Disk
 	* SSD Cloud Disk
 * Applicable Scenario:
 	* Batch Workload
@@ -131,7 +134,9 @@ The standard * indicates that the Virtual Machines is not supported by this spec
 ## Memory Optimized
 Memory-Optimized Standard currently offer a Memory-Optimized Standard Type for applications with large memory operations, lookups, and calculations. Each vCPU corresponds to a hyper-threaded core of an Intel Xeon processor.
 
-### Memory-Optimized Standard<div id="m.n"></div>
+<div id="user-content-4"></div>
+### Memory-Optimized Standard
+
 **Specification Type Features:**
 
 * vCPU to memory ratio is 1:8 (except for m.n1.medium specification)
@@ -139,7 +144,7 @@ Memory-Optimized Standard currently offer a Memory-Optimized Standard Type for a
 	* Second generation: 2.4 GHz Intel Xeon Gold 6148 (Skylake) processor
 	* First generation: 2.1 GHz Intel Xeon E5-2683 v4 (Broadwell) processor
 * Support for the following two types of Cloud Disk Services:
-	*Premium Hdd Cloud Disk
+	* Premium Hdd Cloud Disk
 	* SSD Cloud Disk
 * Applicable Scenario:
 	* High performance database, in-memory database
@@ -177,7 +182,9 @@ The standard * indicates that the Virtual Machines is not supported by this spec
 
 High-frequency computing models currently offer high-frequency computing general-purpose models that provide you with high-performance computing resources. Each vCPU corresponds to a hyper-threaded core of an Intel Xeon processor.
 
-### High-Frequency-Compute General<div id="h.g"></div>
+<div id="user-content-5"></div>
+### High-Frequency-Compute General
+
 **Specification Type Features:**
 
 * vCPU to Memory Ratio is 1:4
@@ -186,7 +193,7 @@ High-frequency computing models currently offer high-frequency computing general
 	* Second Generation: 3.2 GHz Intel Xeon Gold 6146 (Skylake) processor
 	* First Generation: 3.2 GHz Intel Xeon E5-2667 v4 (Broadwell) processor
 * Support for the following two types of Cloud Disk Services:
-	*Premium Hdd Cloud Disk
+	* Premium Hdd Cloud Disk
 	* SSD Cloud Disk
 * Applicable Scenario:
 	* High-performance Web Front-end Server
@@ -215,12 +222,46 @@ Instance Type|vCPU (core)|Memory (GB)|Network Interface Multi-Queue
 |h.g1.4xlarge|16|64|4
 |h.g1.6xlarge|24|96|4
 
+## GPU Type
+
+GPU Type currently provides GPU Standard Type, providing you with a heterogeneous computing resource with high performance. Each vCPU is corresponded to hyper-threading core of on Intel Xeon processor.
+
+<div id="user-content-6"></div>
+### GPU Standard Type
+
+**Specifications and Type Characteristics:**
+
+* The ratio between vCPU and memory is nearly 1:4
+* Heterogeneous Computing
+* GPU：
+	* Nvidia Tesla P40 
+* Processor:
+	* Intel Xeon E5-2683 v4 (Broadwell) processor with 2.1 GHz dominant frequency
+* Support the local data disk (temporary storage), please note that, **local data disk data will be cleared when shutdown occurs**, and support the following two Cloud Disk Services:
+	* Premium Hdd Cloud Disk
+	* SSD Cloud Disk
+* Applicable Scenarios:
+	* Scientific Computing
+	* Machine Learning
+	* Graphics Rendering 
+
+**Instance Type**
+
+First Generation:
+
+Instance Type|vCPU(core)|Memory(GB)|GPU|Local Data Disk (Temporary Storage)|Network Interface Multi-queue
+:---|:---|:---|:---|:---|:---|:---
+|p.n1p40.3xlarge|12|48|1 x Nvidia Tesla P40|1 x 960GB SSD|4
+|p.n1p40.7xlarge|28|110|2 x Nvidia Tesla P40|2 x 960GB SSD|4
+|p.n1p40.14xlarge|56|220|4 x Nvidia Tesla P40|4 x 960GB SSD|4
+
 Please note:
 
-* The Second-generation Virtual Machines (except for high-frequency computing) is temporarily open only in cn-north-1, cn-east-2 and cn-south-1, and the high-frequency computing type is only available in cn-south-1;
+* High Frequency Compute Type only can be provided in cn-north-1, cn-east-2 and cn-south-1;
+* GPU Type only can be provided in Single Availability Zone Open Beta Test in cn-north-1;
 * The First generation of general, compute optimized, and memory optimized Virtual Machines in cn-north-1 and cn-east-2 regions may also run on 2.3 GHz Intel Xeon E5-2698 v3 (Haswell) processor;
 * After purchasing an instance, you can modify the configuration of the instance according to the change of business scale. For details, please refer to [Resize](../Operation-Guide/Instance/Resize-Instance.md).
 
 ## Related Reference
 
-[Resize]](../Operation-Guide/Instance/Resize-Instance.md)
+[Resize](../Operation-Guide/Instance/Resize-Instance.md)

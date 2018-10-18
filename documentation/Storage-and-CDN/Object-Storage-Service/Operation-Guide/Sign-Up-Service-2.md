@@ -2,15 +2,15 @@
 
 Functions provided by the Object Storage Service can be used only when the Object Storage Service is signed up. Procedures for signing up on are as below:
 
-1. Log in JD Cloud official website to enter the Object Storage Service product page and click Instant Account Setup:
+1.Log in JD Cloud official website to enter the Object Storage Service product page and click Instant Account Setup:
 
 ![Sign Up Now](../../../../image/Object-Storage-Service/OSS-021.png)
 
-2. If the user has completed real-name verification and signed up Object Storage Service currently, directly jump to the overview page of user console Object Storage Service; otherwise, the below real-name verification interface appears:
+2.If the user has completed real-name verification and signed up Object Storage Service currently, directly jump to the overview page of user console Object Storage Service; otherwise, the below real-name verification interface appears:
 
 ![Realname Verification](../../../../image/Object-Storage-Service/OSS-022.png)
 
-3. Click Go to real-name verification; the Sign Object Storage Service interface will appear after completing verification. It is shown in the figure below:
+3.Click Go to real-name verification; the Sign Object Storage Service interface will appear after completing verification. It is shown in the figure below:
 
 4.Check **I have read and agreed the Cloud Storage Service Terms** and click **Confirm** to sign up to successfully sign up the Object Storage Service; after that, directly go to the overview page of Object Storage Service console.
 

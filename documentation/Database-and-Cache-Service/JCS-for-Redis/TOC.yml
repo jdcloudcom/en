@@ -86,11 +86,13 @@
     items:
     status: 0      
   - name: FAQ
-    href: FAQ/FQA.md
+    href: FAQ/FAQ.md
   - name: API Reference
     href:
+    status: 0 
   - name: SDK Reference
     href:
+    status: 0   
   - name: User Agreements
     status: 0
     items:

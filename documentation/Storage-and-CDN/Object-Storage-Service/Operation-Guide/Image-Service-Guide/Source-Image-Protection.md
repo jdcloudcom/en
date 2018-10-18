@@ -22,14 +22,14 @@ c. The original image protection supports the old and new interfaces for image p
 
 ## Configuration rules
 
-1. Go to the Object Storage Service console Bucket management page and click on the Bucket to be set the original image protection to enter the settings page.
+1.Go to the Object Storage Service console Bucket management page and click on the Bucket to be set the original image protection to enter the settings page.
 
-2. Enter the image processing page, on which the image style of the current Bucket can be viewed and set.
+2.Enter the image processing page, on which the image style of the current Bucket can be viewed and set.
 
 ![原图1](../../../../../image/Object-Storage-Service/OSS-066.jpg)
 
-3. Click **Original Image Protection Settings** to enter the settings page, you can choose to enable the original image protection and set the suffixes to be protected.
+3.Click **Original Image Protection Settings** to enter the settings page, you can choose to enable the original image protection and set the suffixes to be protected.
 
 ![原图2](../../../../../image/Object-Storage-Service/OSS-067.jpg)
 
-4. After setting the options you need, click OK to complete the current Bucket original image protection settings.
+4.After setting the options you need, click OK to complete the current Bucket original image protection settings.

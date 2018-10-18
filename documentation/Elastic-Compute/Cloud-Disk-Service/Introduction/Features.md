@@ -8,7 +8,7 @@ Provide two storage operations, i.e. SSD cloud disk and Premium Hdd cloud disk, 
 | --- | --- | --- |
 | Single disk capacity | 20-1000G | 20-3000G |
 | Maximum single disk IOPS | 20000 | 500 |
-| Maximum single disk throughput | 300MBps | 100MBps |
+| Maximum single disk throughput | 300MBps | 80MBps |
 | Data availability | 99.999% | 99.999% |
 | Typical application scenarios | Big data analysis<br> I/O intensive business<br> medium and large-sized database application | Small and medium-sized database<br> large development test <br> web server |
 

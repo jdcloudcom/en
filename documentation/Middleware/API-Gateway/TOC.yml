@@ -4,126 +4,111 @@ items:
 - name: Introduction
   items:
     - name: Product Overview
-      herf: Introduction/Product-Overview.md
+      href: Introduction/Product-Overview.md
     - name: Core Concept
-      herf: Introduction/Core-Concepts.md
+      href: Introduction/Core-Concepts.md
     - name: Basic Infrastructure
-      herf: Introduction/Basic-Infrastructure.md
+      href: Introduction/Basic-Infrastructure.md
     - name: Benefits
-      herf: Introduction/Benefits.md
+      href: Introduction/Benefits.md
     - name: Features
-      herf: Introduction/Features.md
+      href: Introduction/Features.md
     - name: Specifications
-      herf: Introduction/Specifications.md
+      href: Introduction/Specifications.md
       status: 0
     - name: Restrictions
-      herf: Introduction/Restrictions.md
+      href: Introduction/Restrictions.md
     - name: Application Scenarios 
-      herf: Introduction/Application-Scenarios.md    
+      href: Introduction/Application-Scenarios.md    
 - name: Pricing
   items:
     - name: Billing Overview
-      herf: Pricing/Billing-Overview.md
+      href: Pricing/Billing-Overview.md
     - name: Billing Rules
-      herf: Pricing/Billing-Rules.md
+      href: Pricing/Billing-Rules.md
     - name: Price Overview
-      herf: Pricing/Price-Overview.md
+      href: Pricing/Price-Overview.md
     - name: Purchase Process
-      herf: Pricing/Purchase-Process.md 
+      href: Pricing/Purchase-Process.md 
     - name: Renew-Process
-      herf: Pricing/Renew-Process.md
+      href: Pricing/Renew-Process.md
       status: 0 
 - name: Getting Started
   items:
     - name: Overview
-      herf: Getting-Started/Getting-Started.md
+      href: Getting-Started/Getting-Started.md
     - name: Create API Groups
-      herf: Getting-Started/STEP1-Create-APIGroup.md
+      href: Getting-Started/STEP1-Create-APIGroup.md
     - name: Create APIs
-      herf: Getting-Started/STEP2-Create-API.md
+      href: Getting-Started/STEP2-Create-API.md
     - name: Customize Domain Names
-      herf: Getting-Started/STEP3-1-Create-Domain.md
+      href: Getting-Started/STEP3-1-Create-Domain.md
     - name: Backend Signature
-      herf: Getting-Started/STEP3-2-Create-BackSign.md
+      href: Getting-Started/STEP3-2-Create-BackSign.md
     - name: Traffic Control Policy
-      herf: Getting-Started/STEP3-3-Create-Stream.md
+      href: Getting-Started/STEP3-3-Create-Stream.md
     - name: Release API groups
-      herf: Getting-Started/STEP4-Create-Publish.md  
+      href: Getting-Started/STEP4-Create-Publish.md  
     - name: Access Authorization for API
-      herf: Getting-Started/STEP5-Create-Auth.md
+      href: Getting-Started/STEP5-Create-Auth.md
 - name: Operation Guide
   items:
-    - name: Create APIs
-      items:
-        - name: Create APIs
-          herf: Create-API/Create-API.md
     - name: Create API Groups
       items:
-        - name: Create API Groups
-          herf: Create-APIGroup/Create-APIGroup.md
+        - name: Create API Group
+          href: Create-APIGroup/Create-APIGroup.md
+    - name: Create A
+      items:
+        - name: Create API
+          href: Create-API/Create-API.md
     - name: Access Authorization for API
       items:
         - name: Access Authorization for API
-          herf: Create-Auth/Create-Auth.md  
+          href: Create-Auth/Create-Auth.md  
     - name: Backend Signature
       items:
         - name: Backend Signature
-          herf: Create-BackSign/Create-BackSign.md  
+          href: Create-BackSign/Create-BackSign.md  
     - name: Customize Domain Names
       items:
         - name: Customize Domain Names
-          herf: Create-Domain/Create-Domain.md  
+          href: Create-Domain/Create-Domain.md  
     - name: Release API groups
       items:
         - name: Release API groups
-          herf: Create-Publish/Create-Publish.md  
+          href: Create-Publish/Create-Publish.md  
     - name: Traffic Control Policy
       items:
         - name: Traffic Control Policy
-          herf: Create-Stream/Create-Stream.md  
-    
-- name: Best Practices
-  items:
-  - name: Best Practices
-    herf: Best-Practices/BestPractices.md
- 
-- name: Tutorial
-  items:
+          href: Create-Stream/Create-Stream.md  
+      - name: Best Practices
+        items:
+          - name: Best Practices
+            href: Best-Practices/BestPractices.md
+      - name: Tutorial
   status: 0
-- name: Troubleshooting
   items:
-  - name: Virtual machine is unable to connect to the MongoDB instances?
-    herf: Troubleshooting/Connect-Failed.md
-    status: 0 
-  - name: What commands are not supported by MongoDB Service?
-    herf: Troubleshooting/Command.md
-    status: 0 
-  - name: Connection hints no permission in case of correct account and password?
-    herf: Troubleshooting/Authentication.md    
-    status: 0 
 - name: FAQ
-  herf: FAQ/faq.md
+  href: FAQ/faq.md
 - name: API Reference
-  herf:
+  href:
   status: 0 
 - name: SDK Reference
-  herf:
+  href:
   status: 0 
 - name: Related Resources
   items:
   - name: Document History
-    herf: Related-Resources/Document-History.md     
+    href: Related-Resources/Document-History.md     
   - name: Terms of Service
-    herf: Related-Resources/Service-Terms.md           
+    href: Related-Resources/Service-Terms.md           
     status: 0      
   - name: SLA
-    herf: Related-Resources/SLA.md           
+    href: Related-Resources/SLA.md           
     status: 0       
   - name: ICP Filing
-    herf: Related-Resources/Filing.md           
+    href: Related-Resources/Filing.md           
     status: 0        
   - name: Glossary
-    herf: Related-Resources/Glossary.md           
+    href: Related-Resources/Glossary.md           
     status: 0          
-          
-          

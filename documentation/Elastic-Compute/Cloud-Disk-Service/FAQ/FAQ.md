@@ -28,9 +28,27 @@ A: For Linux virtual machine, a user needs to log in the virtual machine for umo
 
 For windows virtual machine, a user needs to log in the Virtual Machines for off-line action of corresponding volume and then detach the Cloud Disk Service on console.
 
+**Q: Can one Cloud Disk Service be mounted to several cloud instances?**
+
+If the multi-point mounted attribute is selected for the Cloud Disk Service, simultaneous mounting of at most 16 cloud instances is supported.
+
+**Q: Which business scenarios are suitable for the multi-point mounted disk?**
+
+Multi-point mounted cloud disk, i.e. the shared block storage. It is specially designed for high-availability architecture of core business of enterprise-level customer and suitable for shared access scenarios of block storage, such as high-availability architecture of the Oracle RAC database which are usually used by the government, enterprise and the financial industry as well as high-availability architecture of the server’s high-availability cluster.
+
+
+**Q: Can the multi-point mounted disk be used as the system disk?**
+
+No. The multi-point mounted disk can be used as the data disk only.
+
+**Q: How to use the multi-point mounted disk correctly?**
+
+The multi-point mounted disk refers to the same Cloud Disk Service mounted to several cloud instances for use. Each instance can be used for reading/writing data from/in any area of such hard disk. If a conventional file system is used for management, the distribution conflict of disk space and data file inconsistence will be caused.
+The correct usage of the shared block storage is to make central management to the block device via the cluster file system, such as GFS, GPFS and Linux RHCS cluster. In the Oracle RAC business scenario, ASM is used for central management of storage volume and file system.
+
 **Q: How is the IO performance of JD Cloud Disk? How to select?**
 
-A: JD Cloud Disk consists of SSD Cloud Disk and Premium Hdd Cloud Disk: the SSD Cloud Disk provides a maximum of 20000 random read-write IOPS and higher I/O performance and applies to application scenarios where high capacity and core and key business are required; the Premium Hdd Cloud Disk provides a maximum of 3000 random read-write IOPS and applies to application scenario where the data will not be frequently accessed or low I/O capacity is required.
+A: JD Cloud Disk consists of SSD Cloud Disk and Premium Hdd Cloud Disk: the SSD Cloud Disk provides a maximum of 20000 random read-write IOPS and higher I/O performance and applies to application scenarios where high capacity and core and key business are required; the Premium Hdd Cloud Disk provides a maximum of 500 read-write IOPS and applies to application scenario where the data will not be frequently accessed or low I/O capacity is required.
 
 **Q: How to attach a Cloud Disk Service to a Virtual Machines?**
 

@@ -29,12 +29,12 @@ requestId: The only UUID used for identifying error request; the error ID can be
 |AccessDenied|Access Denied|Access to server denied|403|
 |MethodNotAllowed|The specified method is not allowed against this resource.|MethodNotAllowed|405|
 |Internal Error|We encountered an internal error. Please try again.|Server internal error|500|
-||unknown error|Unknown error|400|
-||wrong request para|request parameter error|400|
-||wong processing mode|Wrong processing mode|400|
-||can't decode image|Can’t decode image|400|
-||processing error|Apprehending error|400|
-||can't get response json|Can’t get result json|400|
-||can't encode image|Can't encode image|400|
-||can't copy image|Can't copy image|400|
-||release error|Clear resource error|400|
+|-|unknown error|Unknown error|400|
+|-|wrong request para|request parameter error|400|
+|-|wong processing mode|Wrong processing mode|400|
+|-|can't decode image|Can’t decode image|400|
+|-|processing error|Apprehending error|400|
+|-|can't get response json|Can’t get result json|400|
+|-|can't encode image|Can't encode image|400|
+|-|can't copy image|Can't copy image|400|
+|-|release error|Clear resource error|400|

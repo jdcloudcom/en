@@ -15,6 +15,7 @@ OSS callback notification comprises the two parts, including the **configuration
 - Message notification: When the event notification is triggered in the Bucket, the notification content in specified format will be sent to the callback URL. The notification method is HTTP(S).
 
 Callback Notification Process:
+
 1. Specify a Bucket to set the message notification rules.
 
 2. When the message notification rule is triggered by the event, the message notification will be sent to the callback URL.
