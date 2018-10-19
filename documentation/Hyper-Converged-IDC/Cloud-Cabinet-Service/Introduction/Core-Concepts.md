@@ -2,15 +2,15 @@
 
 - Cloud Cabinet Service
 
-    Provide high quality IDC cabinet resources for customers to achieve hosted service for their own equipment. The console displays the customer's cabinet, equipment, IP and bandwidth information.
+    Provides high quality IDC resources for customers to achieve hosted service for their own devices. The Console displays the customer's cabinet, device, IP and bandwidth information.
   
-- Hoisted Computer Room
+- Colocation Center
 
-    According to the computer room standard of JD Cloud, IDC room resources in different locations are provided for customers. We use the concept of computer room to describe the location of the cabinet you rent. Different computer rooms are completely isolated. You can choose the nearest location. At present, computer room resources are available in cn-north, cn-east and cn-south.
+    Colocation Center is a type of data center where device, space, and bandwidth are available for rental to customers. According to the data center standard of JD Cloud, IDC  resources in different locations are provided for customers. We use the concept of data center to describe the location of the cabinet you rent. Different data centers are completely isolated. You can choose the nearest location. At present, data center resources are available in cn-north, cn-east and cn-south.
 
-- Hosted Equipment
+- Hosted Device
 
-    After customers rent the cabinets, they can have their own equipment hosted to the JD Cloud room, including but not limited to servers, switches, routers, firewalls, etc.
+    After customers rent the cabinets, they can have their own device hosted to the JD Cloud data center, including but not limited to servers, switches, routers, firewalls, etc.
   
 - Hosted Cabinet
  
