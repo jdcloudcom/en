@@ -1,7 +1,7 @@
 # Core concept
  **CNAME Record**
 
-It is a Canonical Name record; when the DNS system queries the name on the left side of CNAME, it will go to the name on the right side of CNAME and then query it until the last PTR or A name, and will respond after successful query; otherwise it fails.
+It is a CNAME record (Canonical Name), i.e. a domain name A is resolved to another domain name B and the service is provided by the IP address provided by the domain name B.
 
 **CNAME Domain Name**
 

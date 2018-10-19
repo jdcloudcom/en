@@ -28,7 +28,7 @@ None
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**userAccessKeys**|UserAccessKey[]|UserAccessKey list|
+|**userAccessKeys**|UserAccessKey[]|userAccessKey list|
 ### UserAccessKey
 |Name|Type|Description|
 |---|---|---|

@@ -6,10 +6,10 @@ Query the real-time (one-minute granularity) bit rate and frame rate information
 
 ## 2 Request Parameter
 
-| **Name**   | **Type** | **Compulsory or Not ** | **Description**                                                     |
+| **Name**   | **Type** | **Compulsory or Not** | **Description**                                                     |
 | ---------- | -------- | ------------ | ------------------------------------------------------------ |
-| username   | String   | Yes           | JD User Name pin                                               |
-| signature  | String   | Yes           | User Signature, verify user's identity information through md5 method to ensure information security.  md5=date+username+secret key SecretKey date: format is yyyymmddusername: JD user name pin secret key: example agreed between the Parties: such as current date 2016-10-23, user pin: jcloud_00, user secret key SecretKey: e7a31b1c5ea0efa9aa2f29c6559f7d61, then the signature is MD5(20161023jcloud_00e7a31b1c5ea0efa9aa2f29c6559f7d61) |
+| username   | String   | Yes           | JD User Name pin                                                |
+| signature | String   | Yes           | User Signature, verify user's identity information through md5 method to ensure information security.  md5=date+username+secret key SecretKey date: format is yyyymmddusername: JD user name pin secret key: example agreed between the Parties: such as current date 2016-10-23, user pin: jcloud_00, user secret key SecretKey: e7a31b1c5ea0efa9aa2f29c6559f7d61, then the signature is MD5(20161023jcloud_00e7a31b1c5ea0efa9aa2f29c6559f7d61) |
 | domain     | String   | Yes           | Currently only query on a single pushing streaming domain name is supported, parameter example: "publish.jcloud.com"     |
 | app        | String   | Yes           | Currently only query on a single app is supported, and query on multiple apps simultaneously is not supported               |
 | stream     | String   | Yes           | Currently only query on a single path stream is supported, and query on multiple streams simultaneously is not supported currently               |
@@ -20,11 +20,11 @@ Query the real-time (one-minute granularity) bit rate and frame rate information
 
 ## 3 Return Parameter
 
-| **Name**   | **Description**                                                  |
+| **Name** | **Description**                                        |
 | -------- | ----------------------------------------------- |
 | status   | It means whether the API request is successful or not, 0 means successful, others means failure|
-| msg      | Note information, e.g. the reasons why task sending fails, etc.                             |
-| data     | Domain Name Information Array                                                 |
+| msg      | Note information, e.g. the reasons why task sending fails, etc.                |
+| data     | Domain Name Information Array                                    |
 
  
 
@@ -39,6 +39,7 @@ http://opencdn.jcloud.com/api/live/queryStreamData
 •        Json Format
 
 http://opencdn.jcloud.com/api/live/queryStreamData
+```
 {
     "username" :"test_user",
     "signature" :"3a4eb9fc81c548bf6f2fea1b2b85f1df",
@@ -48,14 +49,15 @@ http://opencdn.jcloud.com/api/live/queryStreamData
     "app":"live",
     "stream":"test"
  }
+```
 
 - ### Return Parameter Description
 
 •        Json Format
-
+```
 {
     "status": 0,
-    "msg": “Successful",
+    "msg": "Successful",
     "data": {
         "domain": "DOMAIN",//Domain Name
         "app": "APP",//APP Name
@@ -81,14 +83,15 @@ http://opencdn.jcloud.com/api/live/queryStreamData
      ]
     }
    }
+```
 
 - ### Return Example
 
 •        Json Format
-
+```
 {
     "status": 0,
-    "msg": “Successful",
+    "msg": "Successful",
     "data": {
         "domain": " www.a.com ",
         "app": "live",
@@ -114,3 +117,4 @@ http://opencdn.jcloud.com/api/live/queryStreamData
         ]
     }
 }
+```

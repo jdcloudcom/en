@@ -3,7 +3,7 @@
 
 ## Description
 Search Native Container details in batches <br>
-This interface supports query in pages, with 20 entries per page by default.
+This API supports paging query with 20 items per page by default.
 
 
 ## Request method
@@ -19,8 +19,8 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/containers
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**filters**|Filter[]|False| |containerId - Instance ID, exact match, support many IDs<br>privateIpAddress - Primary network interface IP address, fuzzy matching and supporting many IP addresses<br>az - Availability zone, exact matching, supporting many availability zones<br>vpcId - Virtual Private Cloud ID, exact match, support many IDs<br>status - Container status, exact match, support many statuses<br>name - Instance name, fuzzy matching and supporting many names<br>subnetId - Instance ID, fuzzy matching and supporting many IDs<br>|
-|**pageNumber**|Integer|False| |Page number; 1 by default|
+|**filters**|Filter[]|False| |containerId - Instance ID, exact match, support many IDs<br>privateIpAddress - Primary network interface IP address, fuzzy matching and supporting many IP addresses<br>az-Availability Zone, exact match, multiple supported<br>vpcId-VPC ID, exact match, multiple supported<br>status - Container status, exact match, support many statuses<br>name - Instance name, fuzzy matching and supporting many names<br>subnetId - Instance ID, fuzzy matching and supporting many IDs<br>|
+|**pageNumber**|Integer|False| |Page; 1 by default|
 |**pageSize**|Integer|False| |Page size; it is 20 by default; value range[10, 100]|
 
 ### Filter
@@ -46,7 +46,7 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/containers
 |Name|Type|Description|
 |---|---|---|
 |**args**|String[]|Parameters for Command Execution by Container |
-|**az**|String|Availability Zone |
+|**az**|String|Availability Zone|
 |**charge**|Charge|Billing Configuration Information |
 |**command**|String[]|Container Execution Command |
 |**containerId**|String|Container ID |
@@ -58,12 +58,12 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/containers
 |**hostAliases**|HostAlias[]|Domain and IP Mapping Information|
 |**hostname**|String|Machine Name |
 |**image**|String|Image Name|
-|**instanceType**|String|Instance Type Family |
+|**instanceType**|String|Instance Type|
 |**launchTime**|String|Creation Time|
 |**logConfiguration**|LogConfiguration|Container Log Configuration Information|
 |**name**|String|Container Name|
 |**primaryNetworkInterface**|InstanceNetworkInterfaceAttachment|Primary Network Interface Information|
-|**privateIpAddress**|String|Primary IP Address of Primary Network Interface |
+|**privateIpAddress**|String|Primary IP address of primary network interface|
 |**reason**|String|Container Termination Reason |
 |**rootVolume**|VolumeMount|Root Volume Information |
 |**secondaryNetworkInterfaces**|InstanceNetworkInterfaceAttachment[]|Elastic Network Interface Information|
@@ -96,7 +96,7 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/containers
 |**az**|String|Corresponding AZ|
 |**createTime**|String|Creation Time|
 |**description**|String|Disk Description|
-|**diskId**|String|Cloud Disk Service ID|
+|**diskId**|String|Cloud Disk ID|
 |**diskSize**|Integer|Disk Size (GiB)|
 |**diskType**|String|Disk Type, Value: ssd or premium-hdd|
 |**name**|String|Disk Name|
@@ -134,8 +134,8 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/containers
 |---|---|---|
 |**description**|String|Description|
 |**macAddress**|String|Ethernet Address|
-|**networkInterfaceId**|String|Elastic Network Interface ID|
-|**primaryIp**|NetworkInterfacePrivateIp|Primary IP of Network Interface|
+|**networkInterfaceId**|String|ENI ID|
+|**primaryIp**|NetworkInterfacePrivateIp|Network Interface Primary IP|
 |**sanityCheck**|Boolean|Source and target IP address verification, with value 0 or 1|
 |**secondaryIps**|NetworkInterfacePrivateIp[]| |
 |**securityGroups**|SecurityGroupSimple[]|Security Group List|

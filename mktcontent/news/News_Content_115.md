@@ -30,7 +30,6 @@
 
 <p style="text-align: center;"><strong>Roadshow of the final round</strong></p>
 
-****
 <p><strong><br/></strong></p>
 <p style="text-align: center;"><strong><img src="//img1.jcloudcs.com/cms/23708762-5812-4198-be63-134cd48681b720180727155856.jpg" title="" alt="6gai.jpg"/></strong></p>
 

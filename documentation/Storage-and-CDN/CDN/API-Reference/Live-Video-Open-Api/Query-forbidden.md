@@ -6,7 +6,7 @@ Query list of blocked streams within a certain time (queryForbidden)
 
 ## 2 Request Parameter
 
-| Name          | Type   | Compulsory or Not | Description                                                         |
+| Name      | Type   | Compulsory or Not | Description                                                         |
 | ---------- | ------ | -------- | ------------------------------------------------------------ |
 | username   | String | Yes       | JD user name pin                                                |
 | signature  | String | Yes       | User signature, verify user's identity information through md5 method to ensure information security.  md5=Date+username+secret key SecretKey date: format is yyyymmddusername: JD user name pin secret key: example agreed between the Parties: such as current date 2016-10-23, user pin:   jcloud_00, user secret key SecretKey: e7a31b1c5ea0efa9aa2f29c6559f7d61, then the signature is MD5(20161023jcloud_00e7a31b1c5ea0efa9aa2f29c6559f7d61) |
@@ -16,7 +16,7 @@ Query list of blocked streams within a certain time (queryForbidden)
 | start_time | String | No       | Query start time, time format: yyyy-mm-dd hh:mi; it is today by default if no start time is entered; if there is a start time but no end time, it is from start time to current time by default; if there is no start time but an end time, take the 0 o’clock of the end time in a day unit as the start time, e.g. if the end time is 20180529 14:29, then the start time is 20180529 00:00 |
 | end_time   | String | No       | Query end time, time format: yyyy-mm-dd hh:mi;                   |
 | pageNumber | int    | No       | Query the paging page number, 1 by default if not uploaded                                    |
-| pageSize   | int      | No           | Query the paging number, 10 by default if not uploaded                                   |
+| pageSize   | int    | No       | Query the paging number, 10 by default if not uploaded                                   |
 
  
 
@@ -26,7 +26,7 @@ Query list of blocked streams within a certain time (queryForbidden)
 | --------- | ------------------------------------------------ |
 | status   | It means whether the API request is successful or not, 0 means successful, others means failure|
 | msg       | Notification Information                                         |
-| data     | Domain Name Information Array                                                 |
+| data     | Domain Name Information Array                                    |
 | total     | Total Number of Blocked Streams under the Domain Name                               |
 | streams   | List of Blocked Streams                                       |
 | app       | Blocked Apps                                          |
@@ -46,6 +46,7 @@ http://opencdn.jcloud.com/api/live/queryForbidden
 - ### Request Example
 
 http://opencdn.jcloud.com/api/live/queryForbidden
+```
 {
     "username" :"jd_cdntest",
     "signature" :"5fdd933ad652298f9f0fd4c87883e283",
@@ -57,14 +58,14 @@ http://opencdn.jcloud.com/api/live/queryForbidden
     "start_time" :"2018-05-31 00:05",
     "end_time" :"2018-06-01 21:49"
  }
-
+```
 - ### Return Example
 
-•        Json Format
-
+* json Format
+```
 {
     "status": 0,
-    "msg": “Successful",
+    "msg": "Successful",
     "data": {
         "total": 1,
         "streams": [
@@ -80,3 +81,4 @@ http://opencdn.jcloud.com/api/live/queryForbidden
         ]
     }
 }
+```

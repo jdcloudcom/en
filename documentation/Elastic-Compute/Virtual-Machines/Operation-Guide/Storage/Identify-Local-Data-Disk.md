@@ -18,10 +18,7 @@ Taking the CentOS 7.4 system for example for Linux, action steps are as follows:
 2. Select regions.
 3. Select instances for view of local data disk in the instance list, [Linux Instance Login](https://docs.jdcloud.com/cn/virtual-machines/connect-to-linux-instance).
 4. Enter:
-
-	```
-	ll /dev/disk/by-id
-	```
+```ll /dev/disk/by-id```
 	
 5. virtio-Ephemeral\_Disk\_1 to virtio-Ephemeral\_Disk\_4 are the four corresponding local data disks, as shown below <br>! [](../../../../../image/vm/localdatadisklinux.png)
 
@@ -33,11 +30,9 @@ Taking the standard edition of Windows, Windows 2008, for example, the action st
 2. Select regions.
 3. Select instances for view of local data disk in the instance list, [Windows Instance Login](https://docs.jdcloud.com/cn/virtual-machines/connect-to-windows-instance)。
 4. Enter:
-
-	```
-	wmic
-	diskdrive get PNPDeviceID,SerialNumber
-	```
+```wmic
+diskdrive get PNPDeviceID,SerialNumber
+```
 	
 5. Ephemeral\_Disk\_1 to Ephemeral\_Disk\_4 are the four corresponding local data disks, as shown below <br>! [](../../../../../image/vm/localdatadiskwin.png)
 

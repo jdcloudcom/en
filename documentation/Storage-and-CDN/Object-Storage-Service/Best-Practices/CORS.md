@@ -26,15 +26,15 @@ Configuration steps for obtaining data from OSS by AJAX are introduced by the fo
 
 **Preparation Conditions**
 
-1. Upload the file cors.html with the content of "successful request" in the test-cors storage bucket. Click **Obtaining Address** and the access address of the object, cors.html, is displayed: http://test-cors.oss.cn-east-1.jcloudcs.com/cors.html.
+1.Upload the file cors.html with the content of "successful request" in the test-cors storage bucket. Click **Obtaining Address** and the access address of the object, cors.html, is displayed: http://test-cors.oss.cn-east-1.jcloudcs.com/cors.html.
 
-2. Disable the browser’s cache function, to prevent the mismatch to the CORS requirements due to the reason that the browser caches the heater content returned by the server last time and to prevent influence to request result. Taking chrome for example, open the "Developer Tools" and check "Disable cache".
+2.Disable the browser’s cache function, to prevent the mismatch to the CORS requirements due to the reason that the browser caches the heater content returned by the server last time and to prevent influence to request result. Taking chrome for example, open the "Developer Tools" and check "Disable cache".
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-083.jpg)
 
 **Cross-origin Request Practice**
 
-1. Confirm if the file is addressable
+1.Confirm if the file is addressable
 
 Access cors.html via curl, display the file content "Request Successful" and ensure that the object is able to be accessed normally.
 ```
@@ -42,7 +42,7 @@ curl http://test-cors.oss.cn-east-1.jcloudcs.com/cors.html
 ```
 ![](../../../../image/Object-Storage-Service/OSS-084.jpg)
 
-2. Use AJAX access file
+2.Use AJAX access file
 
 Directly access the cors.html file with the AJAX technique
 
@@ -83,7 +83,7 @@ function loadXMLDoc() {
 </html>
 ```
 
-3. Page Access
+3.Page Access
 
 Enter "http://47.104.98.151/cors-test.html" in the Chrome browser to log into the test page, click **Data Request** button and the following error is shown. Error notification: You have no access permission and the reason is the Header, Access-Control-Allow-Origin, is not found.
 
@@ -93,7 +93,7 @@ When logging in the Header page to check request again, the Request with Origin,
 
 ![](../../../../image/Object-Storage-Service/OSS-086.jpg)
 
-4. Setting CORS
+4.Setting CORS
 
 Log in console -> Object Storage Service -> Space Management -> Log in bucket test-cors -> Space Setting -> Cross-origin resource sharing setting.Clicking CORS statement configuration to log in the configuration page.
 
@@ -103,7 +103,7 @@ Adopt the loosest configuration in the configuration page: the Origin is http://
 
 ![](../../../../image/Object-Storage-Service/OSS-088.jpg)
 
-5. Verification Result
+5.Verification Result
 
 Please try to access the cors.html file again after completing configuration. Cross-origin access to success.
 

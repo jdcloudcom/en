@@ -18,15 +18,15 @@ Setting up cross-region replication may be helpful when you have the following n
 ## The setup process in the console is as follows:
 
 
-1. Login to the Console->OSS->Object Storage Service->Enter a Bucket->Space Settings->Cross-Region Replication
+1.Login to the Console->OSS->Object Storage Service->Enter a Bucket->Space Settings->Cross-Region Replication
 
 ![跨区域复制](../../../../../image/Object-Storage-Service/OSS-041.png)
 
-2. Click the Enable button to open the dialog box of cross-region replication rules configuration.
+2.Click the Enable button to open the dialog box of cross-region replication rules configuration.
 
 ![配置跨区域复制](../../../../../image/Object-Storage-Service/OSS-042.png)
 
-3. Select the region the target Bucket is located and the Bucket name.
+3.Select the region the target Bucket is located and the Bucket name.
 
 Detail Specification:
 
@@ -34,7 +34,7 @@ Detail Specification:
 
 * The two Buckets that enable cross-region synchronization cannot be synchronized with any other Bucket at the same time.
 
-4. Select Synchronization Objects
+4.Select Synchronization Objects
 
 * Synchronize all files: Synchronize all files in the source Bucket to the target Bucket.
 
@@ -44,7 +44,7 @@ Detail Specification:
 
    b. File prefixes do not support overlapping prefixes, for example, text and test/01 are not allowed.
 
-5. Select Storage Type
+5.Select Storage Type
 
  * Same as source: The storage type will be consistent with that of the file in the source storage, which is the default setting if you do not assign it.
 
@@ -53,7 +53,7 @@ Detail Specification:
  * Low redundancy storage: Set the replicated file storage type as low redundancy storage.
 
 
-6. Click the Confirm button to save the settings.
+6.Click the Confirm button to save the settings.
 
 Detail Specification:
 

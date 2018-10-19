@@ -12,12 +12,12 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/raids
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True| |Region ID, the Region and Availability Zone Supported by the Cloud Physical Servers can be Called by Calling APIs (describeRegions)|
+|**regionId**|String|True| |Region ID, the Region and Availability Zone Supported by the Cloud Physical Servers can be Obtained by Calling API (describeRegions)|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**deviceType**|String|True| |Instance Type Family, the (describeDeviceTypes) APIs may be called to obtain the instance type family of a specific region, such as: cps.c.normal|
+|**deviceType**|String|True| |Instance Type Family, the API (describeDeviceTypes) may be called to obtain the instance type family of a specific region, such as: cps.c.normal|
 |**volumeType**|String|False| |Disk Type, value range: system, data|
 
 

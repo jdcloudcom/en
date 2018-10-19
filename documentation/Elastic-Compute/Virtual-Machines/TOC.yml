@@ -94,8 +94,7 @@ items:
           - name: Delete Instance
             href: Operation-Guide/Instance/Delete-Instance.md
 	  - name: GPU VM
-	    href: Operation-Guide/Instance/GPU-VM.md
-
+            href: Operation-Guide/Instance/GPU-VM.md
       - name: Instance Template
         items:
           - name: Instance Template Overview

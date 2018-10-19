@@ -3,8 +3,8 @@
 
 ## Description
 To reinstall the Cloud Physical Server, only the stopped servers can be reinstalled<br/>
-- The APIs (describeOS) may be called to obtain the operating system list supported by the Cloud Physical Server
-- The APIs (describeSoftware) may be called to obtain the software list supported by the Cloud Physical Server, or the software may not be pre-installed
+- The API (describeOS) may be called to obtain the operating system list supported by the Cloud Physical Server
+- The API (describeSoftware) may be called to obtain the software list supported by the Cloud Physical Server, or the software may not be pre-installed
 
 
 ## Request method
@@ -16,7 +16,7 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:reinsta
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**instanceId**|String|True| |Cloud Physical Server ID|
-|**regionId**|String|True| |Region ID, the Region and Availability Zone Supported by the Cloud Physical Servers can be Called by Calling APIs (describeRegions)|
+|**regionId**|String|True| |Region ID, the Region and Availability Zone Supported by the Cloud Physical Servers can be Obtained by Calling API (describeRegions)|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|

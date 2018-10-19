@@ -12,25 +12,15 @@ v1
 ## API
 |Interface name|Request mehod|Function description|
 |---|---|---|
-|**addPermissionsToSubUser**|POST|Associate policies for sub\-users|
-|**attachRolePolicy**|POST|Associate policy for pole|
+|**addPermissionsToSubUser**|POST|Associate policies for sub-users|
 |**createPermission**|POST|Create policy|
-|**createRole**|POST|Create role|
-|**createSubuser**|POST|Create sub\-accounts|
 |**createUserAccessKey**|POST|Create AccessKey|
-|**deleteRole**|DELETE|Delete role|
 |**deleteUserAccessKey**|DELETE|Delete AccessKey|
 |**describePermissionDetail**|GET|Search policy details|
 |**describePermissions**|GET|Search policy list|
-|**describeRole**|GET|Query role details|
-|**describeRolePolicies**|GET|Query Role Authorization Policy List|
-|**describeRoles**|GET|Query role list|
-|**describeSubUserPermissions**|GET|Search sub\-user’s policy list|
+|**describeSubUserPermissions**|GET|Search sub-user’s policy list|
 |**describeUserAccessKeys**|GET|Search AccessKey list|
-|**detachRolePolicy**|POST|Associate policy for pole|
 |**disabledUserAccessKey**|PUT|Disable AccessKey|
 |**enabledUserAccessKey**|PUT|Enable AccessKey|
-|**removePermissionOfSubUser**|DELETE|Disassociate policies for sub\-users|
-|**updateAssumeRolePolicy**|PUT|Modify role built\-in policy|
+|**removePermissionOfSubUser**|DELETE|Disassociate policies for sub-users|
 |**updatePermission**|PUT|Modify policy|
-|**updateRole**|PUT|Modify basic information of the role|

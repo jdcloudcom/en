@@ -42,5 +42,5 @@ In Message Queue, the production and consumption of messages need to be in the f
 ## Step 3: Create AccessKey and SecretKey
 When calling the SDK or openAPI of Message Queue to send, consume, and manage messages, you need to verify the user’s identity information, that is, you need to create AccessKey and SecretKey in the console.
 ### Create method:
-Apply for AccessKey and SecretKey key pairs (AK/SK for short) on AccessKey management pages under account management of JD Cloud User Center.
+Apply for AccessKey and SecretKey key pairs (AK/SK for short) on [AccessKey management pages](https://uc.jdcloud.com/account/accesskey) under account management of JD Cloud User Center.
 AK / SK information should be kept properly, if lost, it may lead illegal users to use this information to manipulate your resources in the cloud, cause your data and property losses. AK / SK key pairs are allowed to be enabled, disabled, and can be used to call the OpenAPI when enabled, but cannot be used to call the OpenAPI when disabled.

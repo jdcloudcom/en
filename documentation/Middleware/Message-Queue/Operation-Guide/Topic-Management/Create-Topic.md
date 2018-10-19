@@ -14,12 +14,12 @@
 ### 1. Click **Create** in the Topic Management page
 
 In the left menu of the console, click **Create** in [Middleware] - [Message Queue] - Management interface of [JCQ-Topic]
- ! [Create topic Step 1](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/Message-Queue/Create topic-01.PNG)
+ ![Create topic Step 1](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/Message-Queue/创建topic-01.PNG)
 
 ### 2. Complete Topic Information and click **Create**.
 
 Refresh pages to finish new topic creation
- ! [Create topic Step 2](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/Message-Queue/Create topic-02.png)  
+ ![Create topic Step 2](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/Message-Queue/创建topic-02.png)  
 I. The topic name can be entered according to the prompt information, and cannot be modified.  
 II. Message types are divided into unordered messages and global ordered messages：  
 
