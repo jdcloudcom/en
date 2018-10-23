@@ -2,11 +2,8 @@
 
 
 ## Description
-Start a VM. 
-
-Only the VM in the status of <b>stopped</b> can be started, and the start operation is only available when there is no task in progress of the VM. 
-
-Only the VM with normal billing status can be started and if the VM in the status of stopped due to arrearage or expiration it can not be started.
+Start a VM. Only the VM in the status of <b>stopped</b> can be started, and the start operation is only available when there is no task in progress of the VM.<br>
+Only the VM with normal billing status can be started.
 
 
 ## Request method
@@ -37,4 +34,3 @@ None
 |**503**|Service unavailable|
 |**200**|OK|
 |**500**|Internal server error|
-

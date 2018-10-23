@@ -1,24 +1,25 @@
 # createInstances
 
-## Description
-Create one or more VMs with specified configurations.  <a href="http://docs.jdcloud.com/virtual-machines/api/create_vm_sample">Please refer to details for the parameters.</a><br>
 
+## Description
+Create one or more virtual machines with the assigned configuration, with the creation divided into three modes: 1. common mode, 2. using high availability group, and 3. using startup template. In three modes, when the virtual machine instance is created, the required and optional parameters are different. See details in <a href=”http://docs.jdcloud.com/virtual-machines/api/create_vm_sample”>Detailed Instructions of Parameters</a><br>
 - Creating a VM requires real-name verification
 - Instance Type
     - Can query the API <a href="http://docs.jdcloud.com/virtual-machines/api/describeinstancetypes">DescribeInstanceTypes</a> to get specification information for a specified region or availability zone.
     - It is not possible to use an off-line, or a sold out instance type.
 - image
+    - Windows Server 2012 R2 Standard Version 64-bit Chinese Version SQL Server 2014 Standard Version SP2 memory shall be larger than 1GB;
     - All Windows Server all image cannot selecte an instance type that has exceeded 64 cores vCPU.
     - Can query the API <a href="http://docs.jdcloud.com/virtual-machines/api/describeimages">DescribeImages</a> to get image information for a specified region.
     - The selected image must support the seled instance type. Can query the API <a href="http://docs.jdcloud.com/virtual-machines/api/describeimageconstraints">DescribeImageConstraints</a>  to get instance type limit information for the specified image.<br>
 - Network Instance Type
     - Specify primary network interface configuration information
         - SubnetId must be specified
-        - You can specify the EIP specification to constrain the EIP to be created, the bandwidth value range is [1-200] Mbps, and the step size is 1 Mbps
+        - You can specify the EIP specification to constrain the EIP to be created, the bandwidth value range is [1-100] Mbps, and the step size is 1 Mbps
         - The primary private IP (primaryIpAddress) of primary network interface can be specified, and then the maxCount can only be 1
         - The security group (securityGroup) needs to be within the same VPC as the the subnet (Subnet)
         - At least one security group must be specified when a VM is created, and at most 5 security groups can be specified. If no security group is specified, the default security group is used by default.
-        - The primary network interface deveIndex will be set to 1
+        - The primary network interface deviceIndex will be set to 1
 - Storage
     - System Disk
         - Disk classification, system disk support local or cloud
@@ -27,8 +28,7 @@ Create one or more VMs with specified configurations.  <a href="http://docs.jdcl
             - cloud: Value range: 40-500GB, and cannot be smaller than the minimum system disk size of image; if not specified, the default is the system disk size in the image
         - Auto-delete
             - For a local disk, the default value is True, and this attribute cannot be modified
-            - For a cloud disk paid by configuration,  the default value is True, and this attribute can be modified
-            - For a cloud disk under monthly package, local disk, default value is False, and this attribute cannot be modified
+            - For a cloud disk paid by configuration,  the default value is True
     - Data Disk
         - Disk classification, data disks only support cloud
         - The type of cloud disk can be ssd or premium-hdd
@@ -73,13 +73,15 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instances
 ### InstanceSpec
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**az**|String|True| |The Availability Zone to which the VM belongs.|
+|**agId**|String|False| |High availability group Id. After the parameter is assigned, the virtual machine is created only through instance template associated with high availability group, and the parameters in instance template cannot be replaced. Parameters other than instance template may be also assigned.|
+|**az**|String|False| |The Availability Zone to which the VM belongs.|
 |**charge**|ChargeSpec|False| |Billing Configuration<br>The VM does not support pay by consumption. The default value is pay by configuration.<br>In the case of packaging cloud disks, the billing method of the cloud disks can only be consistent with the VM.<br>In the case of packaging an EIP, if the EIP is not specified to be paid by consumption, the EIP billing method can only be consistent with the VM.<br>|
 |**dataDisks**|InstanceDiskAttachmentSpec[]|False| |The configuration information of the data disk. The VM with a local disk as its system disk can be attach 8 cloud disks, and the VM with a cloud disk as its system disk can be attach another 7 cloud disks.|
 |**description**|String|False| |VM Description, <a href="http://docs.jdcloud.com/virtual-machines/api/general_parameters"> Refer to the public parameter specification</a>.|
 |**elasticIp**|ElasticIpSpec|False| |EIP specification associated with the primary IP of the primary network interface|
-|**imageId**|String|True| |Image ID. Can query the API <a href="http://docs.jdcloud.com/virtual-machines/api/describeimages">DescribeImages</a> for the image information of a specified zone.|
-|**instanceType**|String|True| |Instance Type. Can query <a href="http://docs.jdcloud.com/virtual-machines/api/describeinstancetypes"> DescribeInstanceTypes</a> API for instance type information of the specified zone or availability zone.|
+|**imageId**|String|False| |Image ID. Can query the API <a href="http://docs.jdcloud.com/virtual-machines/api/describeimages">DescribeImages</a> for the image information of a specified zone.|
+|**instanceTemplateId**|String|False| |Instance template id, if no high availability group is used, for the information not existing in the instance template, parameters for virtual machine are required for supplementation, or parameters in the replacement startup template are selected.|
+|**instanceType**|String|False| |Instance Type. Can query <a href="http://docs.jdcloud.com/virtual-machines/api/describeinstancetypes"> DescribeInstanceTypes</a> API for instance type information of the specified zone or availability zone.|
 |**keyNames**|String[]|False| |The key pair name currently only supports incoming one.|
 |**name**|String|True| |VM name, <a href="http://docs.jdcloud.com/virtual-machines/api/general_parameters">Refer to the public parameter specification</a>.|
 |**password**|String|False| |Password, <a href="http://docs.jdcloud.com/virtual-machines/api/general_parameters">Refer to the public parameter specification</a>.|
@@ -91,7 +93,6 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instances
 |**chargeDuration**|Integer|False| |Pay-In-Advance billing duration, the Pay-In-Advance is compulsory and valid only when the value of chargeMode is prepaid_by_duration. When the chargeUnit is month, the value shall be 1~9; when the chargeUnit is year, the value shall be 1, 2 or 3|
 |**chargeMode**|String|False|postpaid_by_duration|Billing model value is prepaid_by_duration, postpaid_by_usage or postpaid_by_duration; prepaid_by_duration means Pay-In-Advance; postpaid_by_usage means Pay-As-You-Go By Consumption; and postpaid_by_duration means Pay-As-You-Go by Configuration; postpaid_by_duration is the default value. Please refer to the Help Documentation to confirm the billing type supported|
 |**chargeUnit**|String|False| |Billing unit of Pay-In-Advance, the Pay-In-Advance is compulsory and valid only when chargeMode is prepaid_by_duration, and the value is month or year and the default value is month|
-
 ### InstanceDiskAttachmentSpec
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
@@ -100,7 +101,6 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instances
 |**deviceName**|String|False| |Device name, value range: vda, vdb, vdc, vdd, vde, vdf, vdg, vdh, vdi, vdj, vdk, vdl, vdm|
 |**diskCategory**|String|False| |Disk classification, the local or cloud disk is taken.<br>The system disk supports local disk or cloud disk. If select the local type for the system disk , and you must use a image of localDisk type; if select the cloud type for the system disk, you must use a image of the cloudDisk type.<br>The data disk supports cloud disk only.<br>|
 |**noDevice**|Boolean|False| |Exclude the device, and parameter noDevice is used with deviceName.<br>Create a entile image that contains all the system disk and attached cloud data disks: deviceName: vdb, noDevice: true, the cloud data disk whose device name is vdb that attached to the VM will not be involved in creating the  image.<br>Create a template: deviceName: vdb, noDevice: true, the data disk whose device name is vdb in the image will not be involved in creating the VM.<br>Create a VM: deviceName: vdb, noDevice: true, the data disk vdb in the image or the data disk whose device name is vdb in the template (create a VM using the template) will not be involved in creating the machine.<br>|
-
 ### DiskSpec
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|

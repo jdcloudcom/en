@@ -42,7 +42,6 @@ https://streamcompute.jdcloud-api.com/v1/regions/{regionId}/namespace
 |**requestId**|String| |
 |**result**|Result| |
 
-
 ### Result
 |Name|Type|Description|
 |---|---|---|

@@ -19,7 +19,9 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/webR
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**pageNumber**|Integer|False| |Page Number: 1 by default|
-|**pageSize**|Integer|False| |Paging Size: 20 by default; value range [10, 100]|
+|**pageSize**|Integer|False| |Paging Size: 10 by default; value range [10, 100]|
+|**searchType**|String|False| |Query Type Name, Domain: Origin Server Domain Name, ip: Origin Server IP, rawDomain: Domain Name|
+|**searchValue**|String|False| |Query Type Value|
 
 
 ## Response parameter
@@ -27,7 +29,6 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/webR
 |---|---|---|
 |**requestId**|String| |
 |**result**|Result| |
-
 
 ### Result
 |Name|Type|Description|
@@ -38,7 +39,7 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/webR
 |Name|Type|Description|
 |---|---|---|
 |**algorithm**|String|Forwarding Rules: wrr->Round Robin with weight  rr->Round Robin without weight|
-|**ccStatus**|Integer|0->CC disabled  1->CC enabled|
+|**ccStatus**|Integer|0 CC disabled  1 CC enabled|
 |**cname**|String|cname of Rules|
 |**customPortStatus**|Integer|Confirm whether it is customized port number or not? 0->default  1->customized|
 |**domain**|String|Subdomain|
@@ -56,7 +57,7 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/webR
 |**originType**|String|Back-to-origin Type: A or CNAME|
 |**port**|String|HTTP protocol port number, such as 80 and 81, and multiple port numbers are separated by commas|
 |**protocol**|String|Protocol: HTTP, HTTPS and HTTP_HTTPS|
-|**status**|Integer|0->defense Status  1->back-to-origin Status|
+|**status**|Integer|0 defense Status  1 back-to-origin Status|
 ### OriginAddrItem
 |Name|Type|Description|
 |---|---|---|

@@ -2,9 +2,7 @@
 
 
 ## Description
-Disassociate EIP from VM.
-
-The EIP which will be disassociated is the EIP corresponding to primary intranet IP of primary network interface.
+Disassociate EIP from VM. The EIP which will be disassociated is the EIP corresponding to primary intranet IP of primary network interface.
 
 
 ## Request method
@@ -37,4 +35,3 @@ None
 |**503**|Service unavailable|
 |**200**|OK|
 |**500**|Internal server error|
-

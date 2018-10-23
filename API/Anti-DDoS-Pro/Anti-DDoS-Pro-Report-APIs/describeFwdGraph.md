@@ -1,14 +1,14 @@
-# getJobList
+# fwdGraph
 
 
 ## Description
-Query all the jobs under the assigned applications
+Forwarding Traffic Report
 
 ## Request method
 GET
 
 ## Request address
-https://streamcompute.jdcloud-api.com/v1/regions/{regionId}/jobList
+https://ipanti.jdcloud-api.com/v1/regions/{regionId}/charts:fwdGraph
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
@@ -17,7 +17,9 @@ https://streamcompute.jdcloud-api.com/v1/regions/{regionId}/jobList
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**namespaceId**|String|True| | |
+|**endTime**|String|True| |Search end time, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ|
+|**instanceId**|String[]|False| |Advanced Anti-DDoS Instance ID, 0 or more can be transferred|
+|**startTime**|String|True| |Start time, up to the latest 60 days, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ|
 
 
 ## Response parameter
@@ -26,14 +28,14 @@ https://streamcompute.jdcloud-api.com/v1/regions/{regionId}/jobList
 |**requestId**|String| |
 |**result**|Result| |
 
-
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**data**|Object[]|Job Objects Queried out|
+|**forwardRecord**|Number[]| |
+|**time**|Integer[]| |
+|**unit**|String|Traffic Unit|
 
 ## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|
-|**500**|INTERNAL_ERROR|

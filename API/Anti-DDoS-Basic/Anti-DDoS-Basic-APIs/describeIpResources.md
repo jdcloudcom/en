@@ -12,6 +12,7 @@ https://baseanti.jdcloud-api.com/v1/regions/{regionId}/ipResources
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
+|**ip**|String|True| |EIP Address|
 |**regionId**|String|True| |Belonging Region ID|
 
 ## Request parameter
@@ -25,7 +26,6 @@ https://baseanti.jdcloud-api.com/v1/regions/{regionId}/ipResources
 |---|---|---|
 |**requestId**|String| |
 |**result**|Result| |
-
 
 ### Result
 |Name|Type|Description|

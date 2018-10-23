@@ -1,11 +1,11 @@
-# deleteJob
+# describeJob
 
 
 ## Description
-Delete Job
+Query the details of Assigned Job
 
 ## Request method
-DELETE
+GET
 
 ## Request address
 https://streamcompute.jdcloud-api.com/v1/regions/{regionId}/job
@@ -18,21 +18,37 @@ https://streamcompute.jdcloud-api.com/v1/regions/{regionId}/job
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**jobId**|Integer|True| | |
-|**namespaceId**|String|True| | |
+|**namespaceId**|Integer|True| | |
 
 
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**regionId**|String| |
+|**requestId**|String| |
 |**result**|Result| |
-
 
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**message**|String|Returned Information of Deleting Job|
-|**status**|Boolean| |
+|**jobStr**|JobStr| |
+### JobStr
+|Name|Type|Description|
+|---|---|---|
+|**appName**|String| |
+|**createTime**|String| |
+|**deleted**|String| |
+|**description**|String| |
+|**duration**|Integer| |
+|**id**|Integer| |
+|**jobType**|String| |
+|**name**|String| |
+|**namespaceId**|String| |
+|**resourceConsume**|Integer| |
+|**sqlStatement**|String| |
+|**status**|String| |
+|**uid**|String| |
+|**updateTime**|String| |
+|**userName**|String| |
 
 ## Response code
 |Return code|Description|

@@ -1,14 +1,14 @@
-# stopJob
+# deleteJob
 
 
 ## Description
-Stop job running
+Delete Job
 
 ## Request method
-GET
+DELETE
 
 ## Request address
-https://streamcompute.jdcloud-api.com/v1/regions/{regionId}/job:stop
+https://streamcompute.jdcloud-api.com/v1/regions/{regionId}/job
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
@@ -27,11 +27,11 @@ https://streamcompute.jdcloud-api.com/v1/regions/{regionId}/job:stop
 |**regionId**|String| |
 |**result**|Result| |
 
-
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**message**|String|Returned Information Upon Successfully Enabling Job|
+|**message**|String|Returned Information of Deleting Job|
+|**status**|Boolean| |
 
 ## Response code
 |Return code|Description|

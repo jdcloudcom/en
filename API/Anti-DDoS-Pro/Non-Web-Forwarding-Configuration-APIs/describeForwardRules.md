@@ -19,7 +19,9 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/forw
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**pageNumber**|Integer|False| |Page Number: 1 by default|
-|**pageSize**|Integer|False| |Paging Size: 20 by default; value range [10, 100]|
+|**pageSize**|Integer|False| |Paging Size: 10 by default; value range [10, 100]|
+|**searchType**|String|False| |Query type name, domain: origin server domain name, ip: origin server IP, port: forwarding port, originPort: origin server port|
+|**searchValue**|String|False| |Query Type Value|
 
 
 ## Response parameter
@@ -27,7 +29,6 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/forw
 |---|---|---|
 |**requestId**|String| |
 |**result**|Result| |
-
 
 ### Result
 |Name|Type|Description|

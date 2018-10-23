@@ -1,8 +1,11 @@
 # Update History #
-API Version: 0.3.0
+API Version: 0.3.3
 
 |Release Time|Version Number| Update |Instructions|
 |---|---|---|---|
+|2018-10-17|0.3.3|Data Type Change|* Bug Repair of Data Type Returned by Slow Log and Binlog Data Type|
+|2018-10-11|0.3.2|API Name Optimization|* getBackupPolicy is changed to describeBackupPolicy, and post request is changed to get request<br>* setBackupPolicy is changed to modifyBackupPolicy<br>* getAuditDownloadURL is changed to describeAuditDownloadURL, and post request is changed to get request<br>* getAuditFiles is changed to describeAuditFiles, and post request is changed to get request<br>* getOptions is changed to describeAuditOptions, and post request is changed to get request<br>* setInstanceName is changed to modifyInstanceName<br>* Post request of describeIndexPerformance method is changed to get request<br>* Post request of describeQueryPerformance is changed to get request|
+|2018-09-05|0.3.1|Add a new MySQL API* Add a new query backup download link API<br>* Add a new binglog API<br>* Add a new slow log analysis and slow slog breakdown API<br>* Add a new modification connection mode API|
 |2018-08-30|0.3.0|MySQL APIs added|* Upgrade instance configuration APIs added<br>* Creating instance APIs according to time points and backup added<br>* Account authorization and account authorization cancellation added<br>* Creating backup and querying backup list APIs support MySQL<br>* Modifying and acquiring backup policy APIs support MySQL<br>* Open the white list modification function|
 |2018-08-24|0.2.9|Official Website Internationalization|* Optimized API Description|
 |2018-08-20|0.2.8|Support Android System|* Java SDK newly added the support for Android system|

@@ -2,9 +2,7 @@
 
 
 ## Description
-Batch query the private IP address of the VMs.
-
-The IP address returned is the primary intranet IP of primary network interface. 
+Batch query the private IP address of the VMs. The IP address returned is the primary intranet IP of primary network interface. 
 
 ## Request method
 GET

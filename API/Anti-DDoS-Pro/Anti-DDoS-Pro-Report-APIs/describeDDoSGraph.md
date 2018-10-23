@@ -1,14 +1,14 @@
-# ccGraph
+# describeDDoSGraph
 
 
 ## Description
-Forwarding Traffic Report
+DDos Protection Report
 
 ## Request method
 GET
 
 ## Request address
-https://ipanti.jdcloud-api.com/v1/regions/{regionId}/charts:ccGraph
+https://ipanti.jdcloud-api.com/v1/regions/{regionId}/charts:DDoSGraph
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
@@ -20,7 +20,6 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/charts:ccGraph
 |**endTime**|String|True| |Search end time, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ|
 |**instanceId**|String[]|False| |Advanced Anti-DDoS Instance ID, 0 or more can be transferred|
 |**startTime**|String|True| |Start time, up to the latest 60 days, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ|
-|**subDomain**|String[]|False| |Rule Domain Name, 0 or more can be transferred|
 
 
 ## Response parameter
@@ -29,12 +28,11 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/charts:ccGraph
 |**requestId**|String| |
 |**result**|Result| |
 
-
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**postProtect**|Integer[]| |
-|**preProtect**|Integer[]| |
+|**postProtect**|Number[]| |
+|**preProtect**|Number[]| |
 |**time**|Integer[]| |
 |**unit**|String|Traffic Unit|
 

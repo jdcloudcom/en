@@ -2,9 +2,7 @@
 
 
 ## Description
-Stop a VM. 
-
-Only the VM in the status of <b>running</b> can be stopped, and the stop operation is only available when there is no task in progress of the VM.
+Stop a VM. Only the VM in the status of <b>running</b> can be stopped, and the stop operation is only available when there is no task in progress of the VM.
 
 
 ## Request method
