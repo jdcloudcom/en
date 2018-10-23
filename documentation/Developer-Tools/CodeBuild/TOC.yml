@@ -1,0 +1,34 @@
+  name: CodeBuild
+  href: 
+  items:
+  - name: Introduction
+    items:
+      - name: Product Overview
+        href: Introduction/Product-Overview.md
+      - name: Benefits
+        href: Introduction/Benefits.md
+      - name: Features
+        href: Introduction/Features.md
+      - name: Application Scenarios 
+        href: Introduction/Application-Scenarios.md    
+  - name: Getting Started
+    items:
+      - name: Create New Items
+        href: Getting-Started/Create-Project.md
+      - name: Execute and Create
+        href: Getting-Started/Build.md
+      - name: Creation History
+        href: Getting-Started/Build-History.md
+  - name: Operation Guide
+    items:
+          - name: Creation Type
+            href: Operation-Guide/Build-Environment.md
+          - name: Source Code Configuration
+            href: Operation-Guide/Source-Configuration.md
+          - name: Creation Specification
+            href: Operation-Guide/Build-Spec.md      
+          - name: Create Deposit
+            href: Operation-Guide/Build-Storage.md
+          - name: Advanced Settings
+            href: Operation-Guide/Advanced-Setting.md
+    
