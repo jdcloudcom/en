@@ -3,8 +3,8 @@
 		"proGoodTitle":"产品优势",
 		"proNameTitle":"DDoS防护包",
 		"proDiffTitle":"",
-		"proGood":"BGP线路，提供极速的访问体验",
-		"proName":"BGP线路，全面覆盖全国各地大小运营商，提供极速的访问体验。",
+		"proGood":"计费灵活",
+		"proName":"支持保底+弹性的计费方式。其中弹性部分按实际攻击峰值收费，无攻击不计费。",
 		"proDiff":""
 	},
 	{
@@ -14,7 +14,7 @@
 	},
 	{
 		"proGood":"强大的DDoS攻击防护能力",
-		"proName":"能够防御各种常见4层DDoS型攻击，包括但不限于SYN Flood、ACK Flood 、ICMP Flood、UDP Flood、TCP Flood",
+		"proName":"能够防御各种常见4层DDoS型攻击，包括但不限于SYN Flood、ACK Flood 、ICMP Flood、UDP Flood、TCP Flood。",
 		"proDiff":""
 	},
 	{
@@ -25,6 +25,11 @@
 	{
 		"proGood":"BGP线路，提供极速的访问体验",
 		"proName":"BGP线路，全面覆盖全国各地大小运营商，提供极速的访问体验。",
+		"proDiff":""
+	},
+	{
+		"proGood":"计费灵活",
+		"proName":"支持保底+弹性的计费方式。其中弹性部分按实际攻击峰值收费，无攻击不计费。",
 		"proDiff":""
 	}
 ]
