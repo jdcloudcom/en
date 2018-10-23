@@ -37,31 +37,29 @@
 
 **IV. Image Upload and Download**
 
- 
-
  1. Install the JD Cloud CLI or Docker of latest version.
  
  2. For example, the registry is myregistry, the repository is myrepo, the image version number is latest and the region is cn-north-1. Users can make the alternation depending on specific conditions.
  
     Obtain the token from a specified login registry by using JD Cloud CLI or obtain the token from the console.
-    
+    ```
     jdc cr get-authorization-token --region-id cn-north-1 --registry-name myregistry
- 
+    ```
  3. Log in JD Cloud registry with a token; if the token is obtained by using the JD Cloud CLI, please enter the Docker client login command returned:
-    
+    ```
     docker login -u jdcloud -p ********* myregistry-cn-north-1.jcr.service.jdcloud.com 
-    
+    ```
  4. Push images to JD Cloud repository, for example ubuntu:latest for the local images.
- 
+    
     Mark the local images to be pushed to the JD Cloud repository:
-    
+    ```
     docker tag ubuntu:latest myregistry-cn-north-1.jcr.service.jdcloud.com/myrepo:latest
-    
+    ```
     Push the marked images to the JD Cloud repository:
-    
+    ```
     docker push myregistry-cn-north-1.jcr.service.jdcloud.com/myrepo:latest
-    
+    ```
  5. Fetch images from the JD Cloud repository:
- 
+    ```
     docker pull myregistry-cn-north-1.jcr.service.jdcloud.com/myrepo:latest
-
+    ```

@@ -46,7 +46,7 @@ After installation, the indication is as shown below:
 	kernel-3.10.0-693.17.1.el7.x86_64
 ```
 
-	* gpu Driver Installed and Downloaded
+* gpu Driver Installed and Downloaded
 ```	
 	# Chmod +x NVIDIA-Linux-x86_64-396.44.run
 	# ./ NVIDIA-Linux-x86_64-396.44.run

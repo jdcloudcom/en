@@ -11,7 +11,7 @@ Query Top URL
 | username   | String   | Yes           | JD User Name pin                                               |
 | signature  | String   | Yes           | User Signature                                                     |
 | domain     | String   | Yes           | Domain name to be queried, support query of multiple domain names, parameter example "www.a.com,www.b.com" |
-| start_time | String   | Yes           | Time Format: yyyy-mm-dd hh:mi Reference Example 2016-12-14 07:00       |
+| start_time | String   | Yes           | Time Format: yyyy-mm-dd hh:mi Reference example: 2016-12-14 07:00; the time span for query cannot be greater than 30 days |
 | end_time   | String   | No           | Not a compulsory parameter; if no parameter is uploaded, it is current time by default                            |
 | topfield   | String   | Yes           | pv(requests),flow(traffic),bandwidth(bandwidth)                        |
 | params     | String   | No           | Whether with parameters or not, true or false, true means with parameters, false means without parameters, not uploading is equal to without parameters |
@@ -161,7 +161,6 @@ http://opencdn.jcloud.com/api/queryTopUrl
                 "bandwidth": 6121.59,
                 "url": "www.a.com/cdn-mon/monitor.jpg?Mon%20Dec%2018%202017%2000:08:48%20GMT+0800%20(CST)0.12802168394632263"
             }
-           
         ]
     }
 }

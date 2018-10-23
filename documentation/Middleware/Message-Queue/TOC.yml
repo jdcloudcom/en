@@ -72,7 +72,7 @@
           - name: API Standard
             items:
             - name: Send Message
-              href: Operation-Guide/API-Reference/Interface-Specification/Send-Message.md
+              href: Operation-Guide/API-Reference/Interface-Specification/Send-Message-Http.md
             - name: Ack Message
               href: Operation-Guide/API-Reference/Interface-Specification/Ack-Message.md
             - name: Consume Message
