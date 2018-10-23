@@ -10,7 +10,7 @@
 		]
 	},
 	{
-		"funcName":"证与限流",
+		"funcName":"认证与限流",
 		"funcContent":[
 			{
 				"funcName":"",
