@@ -27,7 +27,6 @@ https://baseanti.jdcloud-api.com/v1/regions/{regionId}/ipResources
 |**requestId**|String| |
 |**result**|Result| |
 
-
 ### Result
 |Name|Type|Description|
 |---|---|---|

@@ -12,7 +12,7 @@ https://disk.jdcloud-api.com/v1/regions/{regionId}/disks/{diskId}
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**diskId**|String|True| |Cloud Disk Service ID|
+|**diskId**|String|True| |Cloud Disk ID|
 |**regionId**|String|True| |Region ID|
 
 ## Request parameter
@@ -38,7 +38,7 @@ None
 |**charge**|Charge|Cloud Disk Billing Configuration|
 |**createTime**|String|Cloud Disk Creation Time|
 |**description**|String|Description of the cloud disk. It allows you to enter all characters under UTF-8 encoding, but no more than 256 characters.|
-|**diskId**|String|Cloud Disk Service ID|
+|**diskId**|String|Cloud Disk ID|
 |**diskSizeGB**|Integer|Disk Size, in GiB|
 |**diskType**|String|Disk Type, ssd or premium-hdd|
 |**multiAttachable**|Boolean|Is multiple attachment True or False|
@@ -51,7 +51,7 @@ None
 |---|---|---|
 |**attachTime**|String|Attachment Time|
 |**attachmentId**|String|Attach ID|
-|**diskId**|String|Cloud Disk Service ID|
+|**diskId**|String|Cloud Disk ID|
 |**instanceId**|String|Instance ID|
 |**instanceType**|String|Instance Type, value: vm or nc|
 |**status**|String|Attaching Status, 'attaching', 'attached', 'detaching' or 'detached'|

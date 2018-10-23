@@ -2,7 +2,7 @@
 
 
 ## Description
-Batch Query of VM Status
+Batch query status of VMs.
 
 ## Request method
 GET

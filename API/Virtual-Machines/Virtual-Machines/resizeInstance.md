@@ -2,15 +2,15 @@
 
 
 ## Description
-Change Instance Types for Virtual Machines<br>
-The status of the virtual machine must be <b>stopped</b>. <br>
-For the machines created in 2016 with cloud disk as system disk, the instance types of the first generation and the second generation are not allowed to be adjusted to each other. <br>
-For the machines with local disk as system disk, the instance types of the first generation and the second generation are not allowed to be adjusted to each other. <br>
-For the machines created using availability group (Ag), the instance types of the first generation and the second generation are not allowed to be adjusted to each other. <br>
-For the machines with cloud disk as system disk, the instance types of the first generation and the second generation are not allowed to be adjusted to each other. <br>
-If the number of elastic network interfaces in the current machine is greater than the number of elastic network interfaces allowed by the instance type, an error will occur. Can query <a href="http://docs.jdcloud.com/virtual-machines/api/describeinstancetypes">DescribeInstanceTypes</a>Interface obtains instance type information for the specified zone or availability zone. <br>
-The image used by the current machine needs to support the target instance type to be changed, otherwise an error will occur. Can query <a href="http://docs.jdcloud.com/virtual-machines/api/describeimageconstraints">DescribeImageConstraints</a>Interface obtains instance type limit information for the specified image <br>
-The instance type cannot be changed when the user is in arrears with the VM fees.
+Change instance type for VM.
+The status of the VM must be <b>stopped</b>. <br>
+For the machines created in 2016 with cloud disk as system disk, the instance types of the first generation and the second generation are not allowed to be adjusted to each other.<br>
+For the virtual machine of which the local disk (local type) serves as the system disk, no mutual adjustment is allowed for instance specifications of the first and second generations.<br>
+For the virtual machine created with high availability group (Ag), no mutual adjustment is allowed for instance specifications of the first and second generations.<br>
+For the virtual machine of which the cloud disk service (cloud type) serves as the system disk, mutual adjustment is allowed for instance specifications of the first and second generations.<br>
+If the number of elastic network interfaces in the current machine is greater than the number of elastic network interfaces allowed for new instance specification, error will be returned. Query <a href="http://docs.jdcloud.com/virtual-machines/api/describeinstancetypes”>DescribeInstanceTypes</a> API to obtain the instance specification information under the assigned region and availability zone.<br>
+The image used for the current machine is required to support the target instance specification to be changed, or error will be returned. Query <a href="http://docs.jdcloud.com/virtual-machines/api/describeimageconstraints”>DescribeImageConstraints</a> API to obtain the restriction information for instance specification of the assigned image.<br>
+When the virtual machine is overdue or expires, the instance specification cannot be changed.
 
 
 ## Request method

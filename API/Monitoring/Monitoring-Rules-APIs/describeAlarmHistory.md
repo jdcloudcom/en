@@ -2,13 +2,19 @@
 
 
 ## Description
-Query alarm history, supporting query based on alarm rule ID, resource ID and product name.
+Query alarm history
+Supporting query based on alarm rule ID, resource ID and product name.
+1. serviceCode
+1.1 serviceCode + resourceId
+1.2 serviceCode + resourceIds
+2. serviceCodes
+3. User's All Rules
 
 ## Request method
 GET
 
 ## Request address
-https://monitor.jdcloud-api.com/v1/regions/{regionId}/alarmHistory
+https://monitor.jcloud.com/v1/regions/{regionId}/alarmHistory
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
@@ -17,14 +23,21 @@ https://monitor.jdcloud-api.com/v1/regions/{regionId}/alarmHistory
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**endTime**|String|True| |Query end time of data, current time by default, it can enter long-type time, and it also can enter yyyy-MM-dd'T’HH:mm:ssZ type time|
-|**id**|String|False| |ID of Alarm Rule|
-|**pageNumber**|Integer|False| |Page; 1 by default, the value range: [1,∞)|
-|**pageSize**|Integer|False| |Paging Size; 20 by default. Value Range: [10, 100]|
+|**alarmId**|String|False| |RulesId|
+|**alarming**|Integer|False| |Alarming, value: 1|
+|**endTime**|String|False| |End Time|
+|**filters**|Filter[]|False| |Service code or resource Id list <br>filter name is serviceCodes, representing rules to query multiple product lines<br>filter name is resourceIds, representing rules to query multiple resources|
+|**pageNumber**|Integer|False| |Current Page, 1 by default|
+|**pageSize**|Integer|False| |Paging Size, 20 by default. Value Range: [1, 100]|
 |**resourceId**|String|False| |Resource Id|
-|**serviceCode**|String|False| |Product Name|
-|**startTime**|String|True| |Query start time of data, 24 hours ago by default, it can enter long-type time, and it also can enter yyyy-MM-dd'T’HH:mm:ssZ type time|
+|**serviceCode**|String|False| |Product Line|
+|**startTime**|String|False| |Start Time|
 
+### Filter
+|Name|Type|Required or Not|Default|Description|
+|---|---|---|---|---|
+|**name**|String|False| | |
+|**values**|String[]|False| | |
 
 ## Response parameter
 |Name|Type|Description|
@@ -32,41 +45,53 @@ https://monitor.jdcloud-api.com/v1/regions/{regionId}/alarmHistory
 |**requestId**|String|Request ID|
 |**result**|Result| |
 
-
 ### Result
 |Name|Type|Description|
 |---|---|---|
 |**alarmHistoryList**|AlarmHistory[]|Alarm History List|
-|**numberPages**|Number|Number of Total Pages|
-|**numberRecords**|Number|Total Number of Records|
-|**pageNumber**|Number|Page|
-|**pageSize**|Number|Paging Size|
-### AlarmHistory
+|**total**|Integer|Total Amount|
+### DescribedAlarmHistory
 |Name|Type|Description|
 |---|---|---|
-|**calculation**|String|Statistical method: average value=avg, maximum value=max, minimum value=min,|
-|**contactGroups**|String[]|Notify contact group, for example [“contact group 1”, “contact group 2”]|
-|**contactPersons**|String[]|Notify contact, for example“[‘contact 1’, ‘contact 2’]”|
-|**deleted**|Integer|Whether the rule has been deleted, 1 represents it has been deleted, 0 represents it has not been deleted, the deleted rules will not be retrieved when using the API for querying rules|
-|**enabled**|Integer|Enable & Disable 1 Enable, 0 Disable|
-|**id**|String|Rule ID|
-|**metric**|String|Monitoring Item|
-|**metricName**|String|Name of Rule ID Monitoring Item|
-|**noticePeriod**|Integer|Notification Period Unit: Hour|
+|**alarm**|DescribedAlarm| |
+|**contacts**|DescribedNoticeContacts[]|Alarm Contacts|
+|**noticeLevelTriggered**|String|Alarm level triggered. It shall be 'common', 'critical', 'fatal' respectively from low to high|
 |**noticeTime**|String|Alarm Time|
-|**operation**|String|>=, >, <, <=, ==, !=|
+|**value**|Number|Alarm Value|
+### DescribedAlarm
+|Name|Type|Description|
+|---|---|---|
+|**calculateUnit**|String|Calculation Unit|
+|**calculation**|String|Statistical method: average value=avg, maximum value=max, minimum value=min,|
+|**createTime**|String|Creation Time|
+|**downSample**|String|Downsampling Method|
+|**enabled**|Integer|Enable or not|
+|**id**|String|Alarm Rule ID|
+|**metric**|String|Monitoring Item|
+|**metricName**|String|Name of Monitoring Item|
+|**noticeLevel**|NoticeLevel| |
+|**noticePeriod**|Integer|Alarm Period|
+|**operation**|String|gt, gte, lt, lte, eq, ne|
 |**period**|Integer|Statistical Period (Unit: Minute)|
 |**region**|String|Region Information|
-|**resourceId**|String|Resource ID Applied by This Rule|
-|**serviceCode**|String|Product Corresponded to the Alarm Rule|
-|**tag**|String|Auxiliary Information of Monitoring Item|
-|**threshold**|Number|Threshold|
-|**times**|Integer|Alarm after how many times|
-|**value**|Number|Alarm Value|
+|**resourceId**|String|xx Resourcesid|
+|**serviceCode**|String|Product Line Code|
+|**status**|Integer|Monitoring Item Status: 1 Normal, 2 Alarm, 4 Insufficient data|
+|**tags**|Object|Tag|
+|**threshold**|Number|Alarm Threshold|
+|**times**|Integer|Alarm Frequency|
+### NoticeLevel
+|Name|Type|Description|
+|---|---|---|
+|**custom**|Boolean|Is it the class defined by the user, true or false|
+|**levels**|Object|Alarm class and corresponding indicator, common: moderate, critical: severe, fatal: emergency|
+### DescribedNoticeContacts
+|Name|Type|Description|
+|---|---|---|
+|**referenceId**|Integer|Contact ID|
+|**referenceType**|Integer|Contact type. 0 - contact grouping id, 1 - contact id|
 
 ## Response code
 |Return code|Description|
 |---|---|
-|**200**|OK|
-|**400**|invalid parameter|
-|**500**|internal server error|
+|**200**|Query Alarm History|

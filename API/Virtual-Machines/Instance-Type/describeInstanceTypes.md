@@ -2,7 +2,7 @@
 
 
 ## Description
-Query instance type information list
+Query instance type list.
 
 
 ## Request method

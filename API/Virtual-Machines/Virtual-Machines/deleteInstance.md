@@ -2,10 +2,12 @@
 
 
 ## Description
-Delete a single VM that is paid by configuration, or expires in monthly package. You cannot delete a VM without billing information. <br>
-The virtual machine status must be </b>running</b>, </b>stopped<b>, or <b>error<b>, and the deletion is only availabe when there is no task in progress for virtual machine. <br>
-The virtual machine that has not expired in monthly package cannot be deleted. The white list user cannot delete the virtual machine that has expired in monthly package. <br>
-If the data disk attached to the machine is the cloud disk billed by configuration and is not a shared cloud disk, and the AutoDelete attribute is true, then the data disk is deleted along with the machine.
+Delete a single VM that is paid by configuration, or monthly package but expired. You cannot delete a VM without billing information. 
+
+The VM status must be <b>running</b>, <b>stopped</b>, or <b>error</b>, and the deletion is only availabe when there is no task in progress of the VM. <br>
+The VM that has not expired in monthly package cannot be deleted. 
+
+If the cloud disks attached to the VM is billed by configuration and the AutoDelete attribute is true, then the data disk will be deleted along with the VM.
 </br>Sensitive operation, enable<a href="https://docs.jdcloud.com/IAM/Operation-Protection">MFA operation protection</a>
 
 ## Request method

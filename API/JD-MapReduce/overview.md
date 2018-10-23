@@ -37,7 +37,7 @@ v1
 |**getCronJobTaskListByJobId**|POST|Search the operation record of a job of an execution plan|
 |**getFirstServerVncUrl**|GET|Obtain the VNC URL for master nodes of remote connection cluster by clusterId|
 |**getHardwareStack**|GET|Hardware Configuration Information List|
-|**getInstanceList**|GET|Obtain the machine specification list (Filter out the low\-memory specifications; remove the ones inferior to quad\-core.)|
+|**getInstanceList**|GET|Obtain the machine specification list (Filter out the low-memory specifications; remove the ones inferior to quad-core.)|
 |**getJmrVersionList**|GET|Return to the current JD MapReduce Version List|
 |**getJobList**|POST|Obtain the job list under the specified cluster|
 |**getJobTypeList**|POST|Obtain job type list under the specified cluster|
@@ -49,7 +49,7 @@ v1
 |**getTaskList**|POST|Obtain the operation record of a job|
 |**getWorkFlowList**|POST|Obtain the workflow list|
 |**getWorkFlowTrackerList**|POST|Obtain the workflow operation record list|
-|**idataCluster**|GET|Query the cluster list corresponding to the user\-assigned clusterId and related service information|
+|**idataCluster**|GET|Query the cluster list corresponding to the user-assigned clusterId and related service information|
 |**isValidJobName**|POST|Verify whether the job name is valid|
 |**isValidPlanName**|POST|Verify whether the execution plan name is available|
 |**modifyCronJob**|POST|Modify the execution plan of deployment job|

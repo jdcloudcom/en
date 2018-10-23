@@ -15,8 +15,9 @@ Currently the standard image of Cloud Physical Server supports:
 |Ubuntu-16.04 64 bits|
 |Ubuntu-14.04 64 bits|
 
+
 ### Standard Image+Application
-Currently the “standard image+application” of Cloud Physical Server supports:
+Currently the "standard image+application" of Cloud Physical Server supports:
 
 |Operating system|Kernel Version|Application revision|
 |:--:|:--|:--|
@@ -28,3 +29,4 @@ Currently the “standard image+application” of Cloud Physical Server supports
 |Ubuntu-16.04 64 bits|4.4.0-62|N/A|
 
 [Remars] Cloud Physical Server only provides official image; the upgrade of kernel version is not supported. If the user upgrades the kernel version on its own, unavailability to log in to the system or data loss may be caused. The user shall assess the risks on his/her own and be cautious to operate.
+

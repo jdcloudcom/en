@@ -2,7 +2,7 @@
 
 
 ## Description
-Modify certain VM information, including name and description.
+Modify partial information of a VM, including name and description.
 
 
 ## Request method

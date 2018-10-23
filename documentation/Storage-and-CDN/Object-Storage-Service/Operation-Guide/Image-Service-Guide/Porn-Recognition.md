@@ -15,7 +15,7 @@ Images are as follows:
 
 http://oss.cn-north-1.jcloudcs.com/downloads/example.jpg
 
-![识别](../../../../../image/Object-Storage-Service/OSS-065.jpg)
+![识别](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-065.jpg)
 
 Porn identification processing:
 
@@ -23,6 +23,4 @@ http://oss.cn-north-1.jcloudcs.com/downloads/example.jpg?x-oss-process=img/analy
 
 Returned results:
 
-```
 {"label":2,"review":0,"confidence":1.000000}
-```

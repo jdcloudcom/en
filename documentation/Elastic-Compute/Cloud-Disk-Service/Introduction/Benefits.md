@@ -7,7 +7,7 @@ You can freely allocate and expand the storage capacity of the Cloud Disk Servic
 
 ## Ultra-high performance
 
-The single disk provides a maximum of 20,000 random IOPS and 100MB/s throughput, helping you easily cope with high throughput data access requirements on the service side.
+A single disk provides a maximum of 20,000 random IOPS and 300MB/s throughput (please open ticket and default value is 100MBps), helping you easily cope with high throughput data access requirements on the service side.
 
 
 ## Stable and reliable

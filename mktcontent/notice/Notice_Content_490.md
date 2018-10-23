@@ -7,28 +7,28 @@
 </p>
 <p><span style="font-size:16px;font-family:宋体">&nbsp;</span>
 </p>
-<p><span style="font-family: 微软雅黑,&#39;Microsoft YaHei&#39;;"><strong><span style="font-size: 16px;">**Vulnerability Details**</span>
+<p><span style="font-family: 微软雅黑,&#39;Microsoft YaHei&#39;;"><strong><span style="font-size: 16px;">Vulnerability Details</span>
 </strong></span>
 </p>
 <p><span style="font-size: 16px; font-family: 微软雅黑,&#39;Microsoft YaHei&#39;;">&nbsp;&nbsp;&nbsp; RPCBind is a general RPC port mapping feature, associated with Port 111 by default, by which the RPC service number can be mapped to the network port number. Malicious attackers can scan 111UDP port in batches, and perform DDoS attacks with UDP reflection amplification. </span>
 </p>
 <p><span style="font-size: 16px; font-family: 微软雅黑,&#39;Microsoft YaHei&#39;;">&nbsp;</span>
 </p>
-<p><span style="font-family: 微软雅黑,&#39;Microsoft YaHei&#39;;"><strong><span style="font-size: 16px; font-family: 宋体;">**Risk Grade**</span>
+<p><span style="font-family: 微软雅黑,&#39;Microsoft YaHei&#39;;"><strong><span style="font-size: 16px; font-family: 宋体;">Risk Grade</span>
 </strong></span>
 </p>
 <p><span style="font-size: 16px; font-family: 微软雅黑,&#39;Microsoft YaHei&#39;;">High Risk</span>
 </p>
 <p><span style="font-size: 16px; font-family: 微软雅黑,&#39;Microsoft YaHei&#39;;">&nbsp;</span>
 </p>
-<p><span style="font-family: 微软雅黑,&#39; Microsoft YaHei&#39;;"><strong><span style="font-size: 16px; font-family: 宋体;">**Vulnerability Damage**</span>
+<p><span style="font-family: 微软雅黑,&#39; Microsoft YaHei&#39;;"><strong><span style="font-size: 16px; font-family: 宋体;">Vulnerability Damage</span>
 </strong></span>
 </p>
 <p><span style="font-size: 16px; font-family: 微软雅黑,&#39;Microsoft YaHei&#39;;">&nbsp;&nbsp;&nbsp; If there is such vulnerability, the user’s machine may suffer reflection amplification attacks from remote malicious attackers, resulting in your bandwidth being maliciously utilized and attacking other machines, and possibly leading to unnecessary legal risks and economic losses. </span>
 </p>
 <p><span style="font-size: 16px; font-family: 微软雅黑,&#39;Microsoft YaHei&#39;;">&nbsp;</span>
 </p>
-<p><span style="font-family: 微软雅黑,&#39; Microsoft YaHei&#39;;"><strong><span style="font-size: 16px; font-family: 宋体;">**Repair Suggestion**</span>
+<p><span style="font-family: 微软雅黑,&#39; Microsoft YaHei&#39;;"><strong><span style="font-size: 16px; font-family: 宋体;">Repair Suggestion</span>
 </strong></span>
 </p>
 <p><span style="font-family: 微软雅黑,&#39;Microsoft YaHei&#39;;"><strong><span style="font-size: 16px; font-family: 宋体;">It is recommended to conduct data backup and verification evaluation in advance before the change to avoid unavailability of business by the change</span>
@@ -72,7 +72,7 @@
 </p>
 <p><span style="font-size: 16px; font-family: 微软雅黑,&#39;Microsoft YaHei&#39;;">&nbsp;</span>
 </p>
-<p><span style="font-family: 微软雅黑,&#39;Microsoft YaHei&#39;;"><strong><span style="font-size: 16px;">**Reference Information**</span>
+<p><span style="font-family: 微软雅黑,&#39;Microsoft YaHei&#39;;"><strong><span style="font-size: 16px;">Reference Information</span>
 </strong><strong><span style="font-size: 16px;"></span>
 </strong></span>
 </p>

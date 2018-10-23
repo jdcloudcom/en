@@ -3,7 +3,7 @@
 
 ## Description
 To upgrade the Internet bandwidth of Cloud Physical Server, only the running or stopped servers can be operated<br/>
-- Not support the bandwidth upgrade of the servers not enabling the Internet
+- Not support the bandwidth upgrade of the servers without enabling the Internet
 - Internet bandwidth does not support degrade
 
 
@@ -16,7 +16,7 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:modifyB
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**instanceId**|String|True| |Cloud Physical Server ID|
-|**regionId**|String|True| |Region ID, the Region and Availability Zone Supported by the Cloud Physical Servers can be Called by Calling APIs (describeRegions)|
+|**regionId**|String|True| |Region ID, the Region and Availability Zone Supported by the Cloud Physical Servers can be Obtained by Calling API (describeRegions)|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|

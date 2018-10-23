@@ -8,9 +8,8 @@ Query metric list to get monitoring data list based on product type
 GET
 
 ## Request address
-https://monitor.jdcloud-api.com/v1/metrics
+https://monitor.jcloud.com/v1/metrics
 
-None
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
@@ -21,9 +20,8 @@ None
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String|Request ID|
+|**requestId**|String| |
 |**result**|Result| |
-
 
 ### Result
 |Name|Type|Description|
@@ -41,6 +39,4 @@ None
 ## Response code
 |Return code|Description|
 |---|---|
-|**200**|OK|
-|**400**|invalid parameter|
-|**500**|internal server error|
+|**200**|get Metric list of serviceCode|

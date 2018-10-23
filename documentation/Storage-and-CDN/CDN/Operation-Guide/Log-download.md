@@ -16,7 +16,7 @@ Log in to [**CDN Console**](https://cdn-console.jdcloud.com/logmanage), select *
 | ------------------------------ | ------------------------------------------------------------ |
 | Access IP                         | 117.71.34.139                                                |
 | Agent IP                         | -                                                            |
-| Response Time (Unit: ms)             | 0.175                                                        |
+| Response Time (Unit: s)             | 0.175                                                        |
 | referer Information                    | -                                                            |
 | method                         | GET                                                          |
 | HTTP Protocol Identifier                   | HTTP/1.1                                                     |

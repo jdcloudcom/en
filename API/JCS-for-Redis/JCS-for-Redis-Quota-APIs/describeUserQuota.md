@@ -34,7 +34,7 @@ None
 |---|---|---|
 |**max**|Integer|Quota|
 |**name**|String|Name of the Quota Item|
-|**used**|Integer|Number Used|
+|**used**|Integer|Used Number|
 
 ## Response code
 |Return code|Description|

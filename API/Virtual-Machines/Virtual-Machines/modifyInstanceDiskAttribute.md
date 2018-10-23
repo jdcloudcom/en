@@ -2,7 +2,7 @@
 
 
 ## Description
-Modify the attributes of a data disk attached with a VM, including whether to delete with the machine.
+Modify the attributes of the data disks attached to the VM, including whether to delete data disk with the VM.
 
 
 ## Request method

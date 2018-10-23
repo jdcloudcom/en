@@ -88,7 +88,8 @@
   - name: FAQ
     href: FAQ/FAQ.md
   - name: API Reference
-    href: https://docs.jdcloud.com/cn/jcs-for-redis/api/overview
+    href:
+    status: 0 
   - name: SDK Reference
     href:
     status: 0   

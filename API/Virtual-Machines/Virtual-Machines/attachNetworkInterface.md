@@ -2,11 +2,15 @@
 
 
 ## Description
-Attach an elastic network interface for a virtual machine. <br>
-The virtual machine status must be <b>running</b> or <b>stopped</b>, and the attachment is only available when there is no task in progress. <br>
-If the public IP is associated with the elastic network interface, the az of the public IP needs to be consistent with the az of the Virtual Machines, or the public network IP belongs to the full availability zone to be attached. <br>
-The number of virtual machines attached with the elastic network interface cannot exceed the limit of the instance type. Can query <a href="http://docs.jdcloud.com/virtual-machines/api/describeinstancetypes">DescribeInstanceTypes</a>Interface gives specification information for the specified zone or availability zone. <br>
-The elastic network interface and the virtual machines must be under the same vpc.
+Attach an ENI to a VM. 
+
+The VM status must be <b>running</b> or <b>stopped</b>, and the attachment is only available when there is no task in progress of the VM. 
+
+If some EIPs have associated with the ENI that to be attached, the az of the EIPs needs to be consistent with the az of the VM, or be all-AZs. 
+
+The number of the ENIs attached to the VM cannot exceed the limit of its instance type. Can query <a href="http://docs.jdcloud.com/virtual-machines/api/describeinstancetypes">DescribeInstanceTypes</a>API to get the upper limit of a specified instance type. 
+
+The ENI and the VM must be in the same vpc.
 
 
 ## Request method
@@ -23,7 +27,7 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:attachNe
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**autoDelete**|Boolean|False| |Auto-delete with the machine, False by default.|
+|**autoDelete**|Boolean|False| |Auto-delete with the VM termination, False by default.|
 |**networkInterfaceId**|String|True| |ENI ID|
 
 
