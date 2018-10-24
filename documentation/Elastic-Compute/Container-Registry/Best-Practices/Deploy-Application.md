@@ -40,12 +40,9 @@ subjects:
 roleRef:
   kind: ClusterRole
   name: cluster-admin
-  apiGroup: rbac.authorization.k8s.io
-
-```
+  apiGroup: rbac.authorization.k8s.io`
 Create a jcr-credential-cron.yaml file and set to obtain Token every hour. Please add JDCLOUD_ACCESS_KEY and JDCLOUD_SECRET_KEY content when using it. The content of yaml is as follows:
-```
-apiVersion: batch/v1beta1
+`apiVersion: batch/v1beta1
 kind: CronJob
 metadata:
   name: jdcloud-jcr-credential-cron
@@ -96,7 +93,6 @@ spec:
               --docker-password=$DOCKER_PASSWORD \
               --docker-email=**@jd.com
               kubectl patch serviceaccount default  -p '{"imagePullSecrets":[{"name":"my-secret"}]}'
-
 ```
 ```
 kubectl apply  -f  jcr-credential-rbac.yaml
@@ -104,7 +100,7 @@ kubectl apply  -f  jcr-credential-cron.yaml
 ```
 2.   Create a yaml file with the file name of registrysecret
 ```
- apiVersion: v1
+apiVersion: v1
  kind: ReplicationController
  metadata:
     name: webapp
@@ -123,12 +119,8 @@ kubectl apply  -f  jcr-credential-cron.yaml
             imagePullPolicy: Always
         imagePullSecrets:
           - name: my-secret
-   ```
+```
 3. Create:  
- ```
- kubectl create -f registrysecret
- ```
+ `kubectl create -f registrysecret`
 4. View details:  
- ```
- kubectl describe rc webapp
- ```
+ `kubectl describe rc webapp`
