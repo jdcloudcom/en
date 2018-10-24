@@ -39,21 +39,21 @@ https://datastar.cn-south-1.jdcloud-api.com/v1/regions/{regionId}/largeScreen/ge
 ### RegionIndustryDataList
 |Name|Type|Description|
 |---|---|---|
-|**dataList**|RegionIndustryData[]|Zone|
+|**dataList**|RegionIndustryData[]| |
 ### RegionIndustryData
 |Name|Type|Description|
 |---|---|---|
-|**attrType**|String|Attribute Category|
-|**attrValue**|String|Attribute Value|
-|**attrValueExt**|String|Attribute Value Expansion Content|
-|**dateTime**|String|Date|
-|**dateType**|String|Date Category (Months, Days)|
-|**firstIndex**|String|Primary Indicator|
-|**indexValue**|String|Indicator Value|
+|**region**|String|Region|
 |**industry**|String|Industry|
-|**region**|String|Zone|
+|**firstIndex**|String|Primary Indicator|
 |**secondIndex**|String|Secondary indicator|
+|**dateTime**|String|Date|
+|**dateType**|String|Date Type (Month, Day)|
+|**indexValue**|String|the indicator Value|
 |**valueUnit**|String|Value Unit|
+|**attrType**|String|Attribute Type|
+|**attrValue**|String|Attribute Value|
+|**attrValueExt**|String|Expansion Content to the attribute Value |
 
 ## Return Code
 |Return Code|Description|
