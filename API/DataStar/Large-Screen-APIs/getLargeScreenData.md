@@ -49,7 +49,7 @@ https://datastar.cn-south-1.jdcloud-api.com/v1/regions/{regionId}/largeScreen/ge
 |**secondIndex**|String|Secondary indicator|
 |**dateTime**|String|Date|
 |**dateType**|String|Date Type (Month, Day)|
-|**indexValue**|String|the indicator Value|
+|**indexValue**|String|The indicator Value|
 |**valueUnit**|String|Value Unit|
 |**attrType**|String|Attribute Type|
 |**attrValue**|String|Attribute Value|
