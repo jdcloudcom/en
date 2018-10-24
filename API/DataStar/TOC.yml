@@ -11,7 +11,7 @@
         items:
           - name: getPackageId
             href: DMP-APIs/getPackageId.md
-      - name: Profile Single Label Output APIs
+      - name: Large Screen APIs
         items:
-          - name: getProfile
-            href: Profile-Single-Lable-Output-APIs/getProfile.md
+          - name: getLargeScreenData
+            href: Large-Screen-APIs/getLargeScreenData.md
