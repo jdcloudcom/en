@@ -2,7 +2,7 @@
 
 
 ## Description
-Query data based on zone, industry, primary indicator, secondary indicator, start time and other conditions
+Query data based on region, industry, firstIndex, secondIndex, startTime and endTime
 
 ## Request Method
 GET
@@ -17,24 +17,23 @@ https://datastar.cn-south-1.jdcloud-api.com/v1/regions/{regionId}/largeScreen/ge
 ## Request Parameter
 |Name|Type|Required or Not|Default|Description|
 |---|---|---|---|---|
-|**endDate**|String|True| |Query the end time, with the format as follows: yyyy-MM-dd|
-|**firstIndex**|String|True| |Primary analysis indicator corresponding to data (selectable primary indicator shall be subject to the final authorization)|
-|**industry**|String|True| |Query the industry, such as a certain fruit or crop (selectable industry shall be subject to the final authorization)|
-|**region**|String|True| |Query the zone, such as a certain province or city (selectable zone shall be subject to the final authorization)|
-|**secondIndex**|String|False| |Secondary analysis indicator corresponding to data, and if nothing is filled in, all the secondary indicators under the primary indicator corresponding to data will be queried by default (selectable secondary indicator shall be subject to the final authorization)|
-|**startDate**|String|True| |Query the start time, with the format as follow: yyyy-MM-dd|
-
+|**region**|String|True| |The query region, such as a certain province or city (selectable regions shall be subject to the final authorization)|
+|**industry**|String|True| |The query industry, such as a certain fruit or crop (selectable industries shall be subject to the final authorization)|
+|**firstIndex**|String|True| |Primary analysis indicator corresponding to data (selectable firstIndex shall be subject to the final authorization)|
+|**secondIndex**|String|False| |Secondary analysis indicator corresponding to data, and if nothing is filled in, all the secondIndex under the firstIndex corresponding to data will be queried by default (selectable secondIndex shall be subject to the final authorization)|
+|**startDate**|String|True| |The query start time, with the format as follow: yyyy-MM-dd|
+|**endDate**|String|True| |The query end time, with the format as follows: yyyy-MM-dd|
 
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String|Request ID, requests are different at each time|
+|**requestId**|String|Request ID, it is different at each time|
 |**result**|Result| |
 
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**data**|RegionIndustryDataList|Query Data Result|
+|**data**|RegionIndustryDataList|Query Result|
 |**message**|String|Description Information|
 |**status**|Boolean|true is success, false is failure|
 ### RegionIndustryDataList
