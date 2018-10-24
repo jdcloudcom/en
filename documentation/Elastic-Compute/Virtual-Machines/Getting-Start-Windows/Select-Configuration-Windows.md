@@ -7,11 +7,12 @@ After you have successfully registered an account and completed real-name verifi
 
 * Region and Availability Zone:
 
-	Currently, it covers domestic **cn-north-1 (both available), cn-south-1 (single available), cn-east-1 (single available), cn-east-2 (both available)**, the four multi-available zones. These zones are completed isolated from each other to ensure maximum stability and fault tolerance between them. Please refer to [Region and Availability Zone] for detailed regional information.
+	Currently, it covers domestic **cn-north-1 (multiple available zones), cn-south-1 (single available zone), cn-east-1 (single available zone), cn-east-2 (mutliple available zones)**, the four multi-available zones. These zones are completed isolated from each other to ensure maximum stability and fault tolerance between them. Please refer to [Region and Availability Zone] for detailed regional information.
 
 	The following points are recommended for reference when selecting a region:
 
 	* Choose the region that is close to your customers to the maximum, which can reduce the access delay and increase the download speed. At the same time, JD Cloud provides BGP EIP in cn-north-1, cn-south-1 and cn-east-2, which can ensure fast access in mainland China. For instance, if most of the users are located near the Pearl River Delta, the cn-south-1 region is a better choice;
+
 	* As for the deployment area of ​​other JD Cloud products and the communication requirements of the instance, by default, cross-region mutual intranet access of the instances cannot be realized and access to other cloud products, such as the cloud database and cloud cache, cannot be realized neither. The instance only supports associating the EIP and Load Balancer under the same region.
 (The above mutual intranet access refers to the resources access under the same account, and the resource intranets of different accounts are completely isolated).
 
@@ -45,7 +46,7 @@ After you have successfully registered an account and completed real-name verifi
    * SSD Cloud Disk as Data Disk: 20G~1,000G. 
  
 * Networking:
-    * VPC and Subnet: You can plan and create a VPC and a subnet first. If not, it supports using the default VPC and subnet created automatically by the system. Please see [VPC](http://docs.jdcloud.com/cn/virtual-private-cloud/product-overview) and [Subnet](http://docs.jdcloud.com/cn/virtual-private-cloud/subnet-features) for details.
+    * VPC and Subnet: You need to create a VPC and a subnet first. Please see [VPC](http://docs.jdcloud.com/cn/virtual-private-cloud/product-overview) and [Subnet](http://docs.jdcloud.com/cn/virtual-private-cloud/subnet-features) for details.
     * Private IP: It is the specified private IP address of main network card of the Virtual Machines, which can be specified from the available IP addresses in the selected subnet. If there is no special requirement, it can be allocated automatically by the system. Once the intranet IP is allocated to the Virtual Machines, it cannot be changed.
     * Security Group: You can create a security group that meets the IAM requirement under each VPC. If not, it supports to associate one from the three security group modules created automatically by the system. Please see [Security Group Overview](http://docs.jdcloud.com/cn/virtual-private-cloud/security-group-features) for details.
  
