@@ -32,6 +32,7 @@ Click **Use Template**, select the template you want to transfer and click **Nex
  
 Upload certification data-wait for review, review time (within 2-3 working days)
 
+![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Domain-Name-&-License/Image-Domain/guohu6.jpg)
  
 After the approval is passed, the ownership transfer operation is completed.
 
