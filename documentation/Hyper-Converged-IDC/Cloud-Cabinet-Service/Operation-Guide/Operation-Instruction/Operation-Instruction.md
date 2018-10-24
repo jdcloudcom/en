@@ -1,4 +1,4 @@
 # Use Notes
-When the customer enters the console and gives the permission, the page displays resource management and open ticket management. </br>
-Resource management includes display of the cabinets, equipment, public IP and bandwidth resource under the name of the customer. </br>
-Ticket management includes open ticket and my ticket.
+When the customer enters the Console and has the permission, the page displays resource management and ticket management.</br>
+Resource management displays the cabinets, devices, public IP and bandwidth resource of the customer.</br>
+Ticket management includes Open Ticket and My Tickets.

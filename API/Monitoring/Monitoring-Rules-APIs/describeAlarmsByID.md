@@ -8,7 +8,7 @@ Query Rule Details
 GET
 
 ## Request address
-https://monitor.jdcloud-api.com/v1/regions/{regionId}/alarms/{alarmId}
+https://monitor.jcloud.com/v1/regions/{regionId}/alarms/{alarmId}
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
@@ -25,7 +25,6 @@ None
 |**requestId**|String|Request ID|
 |**result**|Result| |
 
-
 ### Result
 |Name|Type|Description|
 |---|---|---|
@@ -33,10 +32,10 @@ None
 ### Alarm
 |Name|Type|Description|
 |---|---|---|
-|**calculation**|String|Statistical method: average value=avg, maximum value=max, minimum value=min,|
-|**contactGroups**|String[]|Notify contact group, for example [“contact group 1”, “contact group 2”]|
-|**contactPersons**|String[]|Notify contact, for example“[‘contact 1’, ‘contact 2’]”|
-|**createTime**|String|Creation Time|
+|**calculation**|String|Statistical method: average value=avg, maximum value=max, minimum value=min|
+|**contactGroups**|String[]| |
+|**contactPersons**|String[]| |
+|**createTime**|String| |
 |**enabled**|Integer|Enable & Disable 1 Enable, 0 Disable|
 |**id**|String|Rule ID|
 |**metric**|String|Monitoring Item|
@@ -52,11 +51,9 @@ None
 |**tag**|String|Auxiliary Information of Monitoring Item|
 |**threshold**|Number|Threshold|
 |**times**|Integer|Alarm after how many times|
-|**value**|Number|Alarm value, this field is valid when querying the alarming rule|
+|**value**|Number|Alarm Value|
 
 ## Response code
 |Return code|Description|
 |---|---|
-|**200**|OK|
-|**400**|invalid parameter|
-|**500**|internal server error|
+|**200**|Query monitoring rule results|

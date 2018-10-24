@@ -10,6 +10,7 @@ GET
 ## Request address
 https://cps.jdcloud-api.com/v1/regions
 
+None
 
 ## Request parameter
 None
@@ -20,7 +21,6 @@ None
 |---|---|---|
 |**requestId**|String| |
 |**result**|Result| |
-
 
 ### Result
 |Name|Type|Description|

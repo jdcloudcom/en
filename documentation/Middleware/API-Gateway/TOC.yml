@@ -1,5 +1,5 @@
 name: API Gateway
-href: 
+href:
 items:
 - name: Introduction
   items:
@@ -53,11 +53,11 @@ items:
       href: Getting-Started/STEP5-Create-Auth.md
 - name: Operation Guide
   items:
-    - name: Create API Groups
+    - name: Create API Group
       items:
         - name: Create API Group
           href: Create-APIGroup/Create-APIGroup.md
-    - name: Create A
+     - name: Create API
       items:
         - name: Create API
           href: Create-API/Create-API.md
@@ -81,13 +81,14 @@ items:
       items:
         - name: Traffic Control Policy
           href: Create-Stream/Create-Stream.md  
+    
       - name: Best Practices
         items:
           - name: Best Practices
             href: Best-Practices/BestPractices.md
       - name: Tutorial
-  status: 0
   items:
+  status: 0
 - name: FAQ
   href: FAQ/faq.md
 - name: API Reference
@@ -112,3 +113,5 @@ items:
   - name: Glossary
     href: Related-Resources/Glossary.md           
     status: 0          
+          
+ 

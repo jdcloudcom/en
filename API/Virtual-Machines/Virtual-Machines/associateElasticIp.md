@@ -2,10 +2,8 @@
 
 
 ## Description
-Associate an EIP with the primary private IP of the
-primary network interface of a VM.
-
-A VM can only be associated with one EIP for the primary private IP of the primary network interface, and an error will occur if associate an EIP with the primary private IP of the primary network interface while it has already associated with an EIP.
+Associate an EIP with the primary private IP of the primary network interface of a VM.<br>
+A VM can only be associated with one EIP for the primary private IP of the primary network interface, and an error will occur if associate an EIP with the primary private IP of the primary network interface while it has already associated with an EIP. <br>
 
 
 ## Request method

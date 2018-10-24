@@ -2,7 +2,7 @@
 
 - **High Level Computer Room Resources**
 
-  The Cloud Cabinet Service computer room resources with high-quality room environment all in conformity to the Tier3+ construction standard provide high-standard room infrastructure. The room resources cover three main regions of cn-north, cn-east and cn-south, based on guarantee of dual power supply and water-cooled air conditioning redundant refrigeration, achieving an availability in of running environment more than 99.99%.
+  The Cloud Cabinet Service data center resources with high-quality environment all in conformity to the Tier3+ construction standard, and provides high-standard building infrastructure. The data center resources cover three main regions of cn-north, cn-east and cn-south, based on guarantee of dual power supply and water-cooled air conditioning redundant refrigeration, achieving an availability in of running environment more than 99.99%
   
 - **Highly Stable Network Resources**  
 

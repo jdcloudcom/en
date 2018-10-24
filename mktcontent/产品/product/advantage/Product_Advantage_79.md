@@ -3,38 +3,33 @@
 		"proGoodTitle":"Benefits",
 		"proNameTitle":"Cloud Physical Server",
 		"proDiffTitle":"Self-built IDC with Hosted Mode",
-		"proGood":"Cost-saving",
-		"proName":"Purchase on demand and pay by consumption.",
-		"proDiff":"Need to invest considerable financial resources at one time"
+		"proGood":"Worry Saving",
+		"proName":"Provide 7*24 hours O&M, feel relieved to adopt hosting, exclusively own physical servers, provide ultra-high computational performance by CPS, without performance loss due to virtualization.",
+		"proDiff":"Need to purchase professional IT commission service, equipment over warranty need to be maintained by yourself, maintenance cost is relatively high."
 	},
 	{
 		"proGood":"Elastic",
-		"proName":"Multiple server configurations are provided with online purchasing and fast capacity expansion supported.",
-		"proDiff":"Fragmental type will increase the purchase costs, and the capacity expansion requires considerable stocks."
+		"proName":"Purchase on demand and pay by quantity, online delivery, no need to purchase in advance, provide multiple server configurations for selection, support online purchasing, carry out expansion rapidly.",
+		"proDiff":"Machine models cannot be unified, which increase the purchase cost because only a large number of stocks can meet the expansion requirement."
 	},
 	{
 		"proGood":"Easy to Use",
-		"proName":"Fast Deployment in Minutes, Diversified Console Features and APIs.",
-		"proDiff":"Long delivery cycle of purchase, transportation, racking and OS installation, IDC field service is required. \n"
+		"proName":"Provide rapid deployment, online computing resources, rich console functions and API interfaces, which make you really focus on core business.",
+		"proDiff":"The purchase process is complex, the delivery period is long, data center resource planning and network planning shall be carried out in advance."
 	},
 	{
 		"proGood":"Comprehensive",
-		"proName":"The basic networks (Intranet and Internet) are supported with dynamic adjustment of the bandwidth of public network.",
+		"proName":"Support interconnection with virtual machine VPC, no speed limit to traffic within Intranet, implement flexible networking and the bandwidth of public network can be dynamically adjusted, which can meet single line and BGP multi-line access requirements.",
 		"proDiff":"Independent Intranet direct connection is needed and network features require independent research and development, with high costs."
 	},
 	{
 		"proGood":"Security",
-		"proName":"It provides 2G Anti-DDoS Basic, which is free of charge, to monitor the hardware state via the independent out-of-band network.",
-		"proDiff":"The user needs to purchase extra security protection services and monitor the hardware status by himself."
+		"proName":"Isolate tenants, provide security protection, be connected to and be compatible with JD Cloud security products, provide 2G Anti-DDoS Basic for free, be able to monitor hardware status and device running status whenever and wherever via the independent out-of-band network.",
+		"proDiff":"It needs to make the network plan at first and set up a security protection platform on one’s own. Additional security measures are required for the data center infrastructure layer and the cost of capital is very high."
 	},
 	{
 		"proGood":"User-friendly",
-		"proName":"7*24h Operation and Maintenance.",
-		"proDiff":"Low efficiency of off-line communication, the user needs to maintain the devices which expire warranty."
-	},
-	{
-		"proGood":"Cost-saving",
-		"proName":"Purchase on demand and pay by consumption.",
-		"proDiff":"Need to invest considerable financial resources at one time"
+		"proName":"Provide 7*24 hours O&M, feel relieved to adopt hosting, exclusively own physical servers, provide ultra-high computational performance by CPS, without performance loss due to virtualization.",
+		"proDiff":"Need to purchase professional IT commission service, equipment over warranty need to be maintained by yourself, maintenance cost is relatively high."
 	}
 ]

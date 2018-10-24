@@ -8,7 +8,7 @@ Enable the alarm rule, when the alarm rule is in the status of “Disabled”, t
 POST
 
 ## Request address
-https://monitor.jdcloud-api.com/v1/regions/{regionId}/alarms/{alarmId}:enable
+https://monitor.jcloud.com/v1/regions/{regionId}/alarms/{alarmId}:enable
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
@@ -25,10 +25,7 @@ None
 |**requestId**|String|Request ID|
 
 
-
 ## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|
-|**400**|invalid parameter|
-|**500**|internal server error|

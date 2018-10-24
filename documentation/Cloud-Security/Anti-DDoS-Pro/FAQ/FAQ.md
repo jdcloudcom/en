@@ -81,7 +81,7 @@ A: Advanced protection sets up error code pages for the following special cases,
 An example of the error page style:
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/error%20page.png)
 
-** Q: What is backup IP? What's the benefit of configuring a backup IP?**
+**Q: What is backup IP? What's the benefit of configuring a backup IP?**
 
 A: The backup IP is the standby to the back-to-source IP. The definitions are as follows:
 
@@ -95,9 +95,18 @@ The benefits of configuring backup IP are:
 - The IP of normal use is separated from the back-to-source IP. This effectively improves the user's business availability.
 
 As an example of non-web service settings, the schematic diagram is as follows:
+
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/instruction%2001.png)
 
 You can expand the “Product Graphic Instructions” on the Instance Details page to view the diagram.
+
+Eg：
+
+The back-to-origin IP address is 100.10.10.1 and the backup IP address is 100.10.10.2. The back-to-origin/defense status bar can be switched according to the network status.
+
+- In the normal status, please select back-to-origin in the “Back-to-origin/Defense Status" bar, then the traffic will directly point to the backup IP address 100.10.10.2;
+- When an attack is found, switch to Defense in the “Back-to-origin/Defense Status" bar, and the traffic will go to the IP address 100.10.10.1 through back-to-origin after being cleaned by high defense.
+
 
 **Q: Does Advanced Anti-DDoS Pro support non-80-port website access?**
 

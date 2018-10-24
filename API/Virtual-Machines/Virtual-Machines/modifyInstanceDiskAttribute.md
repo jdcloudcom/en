@@ -4,7 +4,6 @@
 ## Description
 Modify the attributes of the data disks attached to the VM, including whether to delete data disk with the VM.
 
-Only a cloud disk which is billed by configuration can be set to deleted on instance termination. It will not take effect if the cloud disk under monthly package, and the disk will remain when the instance is deleted.
 
 ## Request method
 POST
@@ -41,4 +40,3 @@ None
 |**503**|Service unavailable|
 |**200**|OK|
 |**500**|Internal server error|
-

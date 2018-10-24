@@ -30,7 +30,7 @@
 			{
 				"funcName":"",
 				"funcTitle":"Machine Lifecycle Management",
-				"funcP":"Operations such as computer boot, shutdown, reboot, reinstallation of the operating system and so on can be carried out through the console or cloud API. \n The dedicated management network, which is independent of the data network, can remotely manage and maintain the faulty equipment through the out-of-band management system in the event of a data network failure or equipment downtime."
+				"funcP":"Operations such as computer boot, shutdown, reboot, reinstallation of the operating system and so on can be carried out through the console or cloud API. The dedicated management network, which is independent of the data network, can remotely manage and maintain the faulty equipment through the out-of-band management system in the event of a data network failure or equipment downtime."
 			}
 		]
 	},
@@ -55,7 +55,7 @@
 			{
 				"funcName":"",
 				"funcTitle":"Security Group",
-				"funcP":"By default, there are only 22 ports opened for public network to maximally ensure the server security. The users can configure the security group policy after logging in the operating system."
+				"funcP":"The public network only opens port 22 with input direction by default to maximize server security. Users can configure security group policies by themselves after they login the operating system."
 			}
 		]
 	},

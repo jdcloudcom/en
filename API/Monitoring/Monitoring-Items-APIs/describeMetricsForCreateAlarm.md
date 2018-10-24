@@ -8,7 +8,7 @@ Query metric list available to create monitoring rules based on resource type
 GET
 
 ## Request address
-https://monitor.jdcloud-api.com/v1/metricsForCreateAlarm
+https://monitor.jcloud.com/v1/metricsForCreateAlarm
 
 
 ## Request parameter
@@ -22,7 +22,6 @@ https://monitor.jdcloud-api.com/v1/metricsForCreateAlarm
 |---|---|---|
 |**requestId**|String|Request ID|
 |**result**|Result| |
-
 
 ### Result
 |Name|Type|Description|
@@ -45,6 +44,4 @@ https://monitor.jdcloud-api.com/v1/metricsForCreateAlarm
 ## Response code
 |Return code|Description|
 |---|---|
-|**200**|OK|
-|**400**|invalid parameter|
-|**500**|internal server error|
+|**200**|Query indicator list result of available creating monitoring rules|

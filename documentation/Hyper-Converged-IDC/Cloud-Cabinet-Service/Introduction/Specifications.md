@@ -1,9 +1,9 @@
 # Specifications
-## Specifications of Computer Room
+## Specifications of Data Center
 
-|Regions of Room|cn-north, cn-east, cn-south|
+|Region|cn-north, cn-east, cn-south|
 |:-|:-|
-|**Room Level**|**T3+**|
+|**Level**|**T3+**|
 |**Power**|**Dual commercial power, UPS power, diesel generator**|
 |**Building**|**Independent building for data center, withstanding an earthquake of 8 magnitude, fire resistant, waterproof, equipped with fire fighting system**|
 |**Refrigeration**|**Under normal circumstances, the room temperature is not less than 20℃, not higher than 25℃, the room humidity is maintained between 35%-70%, equipped with precision air conditioning, and water-cooling unit**|

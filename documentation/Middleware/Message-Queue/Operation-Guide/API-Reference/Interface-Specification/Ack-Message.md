@@ -23,11 +23,11 @@ POST {Http access point}/v1/ack HTTP/1.1
   |  Field Name   | Field Type | Description                                                         |
   | :-------: | :------: | :---------------------------------- |
   | requestId                          |  string  | requestId of this request is used to search the call chain |
-  |  result   |   null   | `null`                              |
+  |  result   |   null   | `null`|
 
   2. Request Failure
 
   |  Field Name   | Field Type | Description                                                         |
-  | :-------: | :------: | ------------------------------------------------------------ |
+  | :-------: | :------: | :------------------------------------------------------------ |
   | requestId                          |  string  | requestId of this request is used to search the call chain |
-  |   error   |   map    | Return format: `{"code":500,"message":" Ack message failure","status":" INTERNAL"}` |
+  |   error   |   map    | Return format:`{"code":500,"message":"Ack message failure","status":"INTERNAL"}`|

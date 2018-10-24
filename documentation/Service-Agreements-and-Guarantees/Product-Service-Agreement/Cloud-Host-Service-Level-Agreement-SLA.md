@@ -12,7 +12,7 @@ Data persistence is counted by service period. One service period is a natural m
 
 Data Persistence Calculation Formula: Virtual machine disk with good data per service term/(virtual machine disk with good data per service cycle + virtual machine disk with data loss per service cycle).
 
-That is, for every 10,000 virtual machine disks, the probability that the data is not lost is 99.9999999% per month, or only one virtual machine disk may have data loss per month.
+I.e. the no data loss probability per 1,000,000,000 cloud disks mounted to the Virtual Machine is 99.9999999% per month. This means that at most 1 cloud disk mounted to the Virtual Machine may have the data loss per month.
 
 **2.2 Data Destructibility**
 
@@ -60,25 +60,22 @@ Wherein:
 
 (2) Unavailable Time: The time when the service provided by virtual machine service is not available for 5 minutes or more, and if the service is unavailable for less than 5 minutes, it is not counted into unavailable time. The unavailable time of virtual machine service does not include daily system maintenance time, and the unavailable time due to user reasons, third-party causes, or force majeure.
 
-**2.9 Service Resource Allocation Capability**
 
-The virtual machine service provides multiple configurations and has elastic capacity expansion. Users can expand or reduce the virtual machine resources used online according to the JD Cloud's configuration plan. The user can enable or release 100 virtual machines in 10 minutes, or complete the shutdown to upgrade the CPU and memory within 5 minutes, and support online real-time upgrade of EIP bandwidth.
-
-**2.10 Fault Recovery Capability**
+**2.9 Fault Recovery Capability**
 
 JD Cloud provides 7×24h operation and maintenance for the cloud services of paying users, and provides technical support by means of phone reporting, and has a series of fault emergency response mechanisms such as fault monitoring, automatic alarm, rapid positioning and fast recovery.
 
-**2.11 Network Access Performance**
+**2.10 Network Access Performance**
 
 When setting up the virtual machine service of JD Cloud, the user can select the EIP outlet bandwidth required for each virtual machine. The EIP outlet bandwidth can be configured from 1Mbps to 200Mbps. JD Cloud provides BGP multi-line access to ensure the quality of network access for users.
 
-**2.12 Service Measurement Accuracy**
+**2.11 Service Measurement Accuracy**
 
 Virtual machine service has an accurate and transparent metering and billing system. JD Cloud settles and charges in real time according to the actual usage of the user's virtual machine, and the specific billing standard is subject to the effective billing mode and price announced on the official website of JD Cloud. The user's original billing log is reserved for a minimum of 3 years by default for future reference.
 
-**2.13 Service Compensation Terms**
+**2.12 Service Compensation Terms**
 
-2.13.1 Compensation Scope:
+2.12.1 Compensation Scope:
 
 For the inability of virtual machine to work properly caused by JD Cloud fault, and the inability of normal access to the website caused by JD Cloud fault, JD Cloud will compensate for the unavailable time. However, the service unavailable time caused by the following reasons is not included:
 
@@ -100,7 +97,7 @@ For the inability of virtual machine to work properly caused by JD Cloud fault, 
 
 (9) Unavailability caused by other reasons not related to JD Cloud.
 
-2.13.2 Compensation Plan
+2.12.2 Compensation Plan
 
 Fault time = unavailable time.
 
