@@ -46,14 +46,14 @@ https://datastar.cn-south-1.jdcloud-api.com/v1/regions/{regionId}/largeScreen/ge
 |**region**|String|Region|
 |**industry**|String|Industry|
 |**firstIndex**|String|Primary Indicator|
-|**secondIndex**|String|Secondary indicator|
+|**secondIndex**|String|Secondary Indicator|
 |**dateTime**|String|Date|
 |**dateType**|String|Date Type (Month, Day)|
-|**indexValue**|String|The indicator Value|
+|**indexValue**|String|The Indicator Value|
 |**valueUnit**|String|Value Unit|
 |**attrType**|String|Attribute Type|
 |**attrValue**|String|Attribute Value|
-|**attrValueExt**|String|Expansion Content to the attribute Value |
+|**attrValueExt**|String|Expansion Content to the Attribute Value |
 
 ## Return Code
 |Return Code|Description|
