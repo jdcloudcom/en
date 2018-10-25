@@ -1,0 +1,19 @@
+{
+    "ch": {
+        "aclRuleListItem_i18nKey_1": "Customized TCP",
+        "aclRuleListItem_i18nKey_2": "Customized UDP",
+        "aclRuleListItem_i18nKey_3": "Notification Information",
+        "aclRuleListItem_i18nKey_4": "'Deny' ",
+        "aclRuleListItem_i18nKey_5": "'Accept'",
+        "aclRuleListItem_i18nKey_6": "Accept",
+        "aclRuleListItem_i18nKey_7": "Deny",
+        "aclRuleListItem_i18nKey_8": "Delete",
+        "aclRuleListItem_i18nKey_9": "Please enter an integer from 1 to 32768.",
+        "aclRuleListItem_i18nKey_10": "Please enter the priority",
+        "aclRuleListItem_i18nKey_11": "'Please enter the port'",
+        "aclRuleListItem_i18nKey_12": "'Please enter the port in correct format, as 1-65535'",
+        "aclRuleListItem_i18nKey_13": "'Please enter the IP address'",
+        "aclRuleListItem_i18nKey_14": "'Please enter the IP address in correct format, such as 0.0.0.0'",
+        "aclRuleListItem_i18nKey_15": "Length of note shall not exceed 256 characters"
+    }
+}
