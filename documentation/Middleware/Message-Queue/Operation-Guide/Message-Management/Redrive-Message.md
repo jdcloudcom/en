@@ -14,12 +14,12 @@ We can keep and isolate these messages in the Dead Letter Queue to determine the
 ## Procedure
 ### 1. Enter the "Dead Letter Queue" page.
 
-![死信队列1](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/Message-Queue/死信队列-01.png)
+![死信队列1](https://github.com/jdcloudcom/en/blob/messagequeue/image/Internet-Middleware/Message-Queue/死信队列-01.png)
 Input "topic ID" or "ConsumerGroup ID" to search.
 
 ### 2. Resend or delete all the dead letters.
 
-![死信队列2](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/Message-Queue/死信队列-02.png)  
+![死信队列2](https://github.com/jdcloudcom/en/blob/messagequeue/image/Internet-Middleware/Message-Queue/死信队列-02.png)  
 You can choose to resend all the dead letters or delete all the dead letters.
 
 - Resend All: Dead letters will be reentered the topic and sent to the subscriber related to the subscription.
