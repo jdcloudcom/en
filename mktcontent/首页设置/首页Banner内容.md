@@ -714,5 +714,14 @@
 		"id":"1022",
 		"button_title":"查看详情",
 		"main_title":"GPU云主机震撼上线"
+	},
+	{
+		"sub_title":"致力于海量数据搜索与分析",
+		"image_Url":"//img1.jcloudcs.com/cms/498c3deb-f599-4e6a-b292-ade380ec3dc420181026165145.png",
+		"dynamic_image":"//img1.jcloudcs.com/cms/9a93cd67-f6e4-4c73-85da-dc0c3f9612bd20181026165149.png",
+		"name":"云搜索Elasticsearch",
+		"id":"1031",
+		"button_title":"免费试用",
+		"main_title":"云搜索Elasticsearch"
 	}
 ]
