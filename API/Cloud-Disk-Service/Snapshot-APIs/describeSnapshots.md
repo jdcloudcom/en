@@ -19,7 +19,7 @@ https://disk.jdcloud-api.com/v1/regions/{regionId}/snapshots
 |---|---|---|---|---|
 |**filters**|Filter[]|False| |snapshotId - Cloud Disk Snapshot ID, support multiple<br>diskId - the Cloud Disk ID of the snapshot to be generated, support multiple<br>status - Snapshot status, accurate match, support multiple, value: creating, available, in-use, deleting, error_create or error_delete<br>name - Snapshot Name, fuzzy match, support single<br>|
 |**pageNumber**|Integer|False|1|Page Number: 1 by default; value range: [1, ∞)|
-|**pageSize**|Integer|False|20|Paging Size: 20 by default; value range: [10,100]|
+|**pageSize**|Integer|False|20|Paging Size: 20 by default. Value Range: [10, 100]|
 
 ### Filter
 |Name|Type|Required or not|Default value|Description|

@@ -2,7 +2,7 @@
 
 
 ## Description
-Delete a private image that only allows you to operate your personal private image.
+Delete a private image that only allows you to operate your personal private image.<br>
 If the image is shared to other users, the image can be deleted only when the sharing is released.
 
 
@@ -10,7 +10,7 @@ If the image is shared to other users, the image can be deleted only when the sh
 DELETE
 
 ## Request address
-https://vm.jdcloud-api.com/1.0.3/regions/{regionId}/images/{imageId}
+https://vm.jdcloud-api.com/v1/regions/{regionId}/images/{imageId}
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
@@ -25,13 +25,12 @@ None
 None
 
 
-
 ## Response code
 |Return code|Description|
 |---|---|
 |**400**|Invalid parameter|
 |**401**|Authentication failed|
-|**404**|Not Found  |
+|**404**|Not found|
 |**503**|Service unavailable|
 |**200**|OK|
 |**500**|Internal server error|

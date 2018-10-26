@@ -8,7 +8,7 @@ Deletes the RDS instance backup. Only the user-generated backups are allowed to 
 DELETE
 
 ## Request address
-https://rds.jdcloud-api.com/0.2.9/regions/{regionId}/backups/{backupId}
+https://rds.jdcloud-api.com/v1/regions/{regionId}/backups/{backupId}
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|

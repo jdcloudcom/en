@@ -22,7 +22,7 @@ Wherein:
 
 **2.3 Service Resource Allocation Capability**
 
-The native container provides multiple configurations and has elastic scalability. Users can expand or reduce the container resources used online according to the JD Cloud's configuration plan. After the image download is completed, the user can enable or release 100 containers in 10 minutes, or complete the shutdown to upgrade the CPU and memory within 5 minutes, and support online real-time upgrade of EIP bandwidth.
+The native container provides multiple configurations and has elastic scalability. Users can expand or reduce the container resources used online according to the JD Cloud's configuration plan.
 
 **2.4 Fault Recovery Capability**
 
@@ -42,7 +42,7 @@ Data Persistence: Not less than 99.9999999%
 
 Data persistence is counted by service period. One service period is a natural month. If it is less than one month, it is not counted as one service period.
 
-Data Persistence Calculation Formula: container disk with good data per service period/(container disk with good data per service cycle+container disk with data loss per service cycle). That is, for every 10,000 container disks, the probability that the data is not lost is 99.9999999% per month, or only one container disk may have data loss per month.
+The data durability calculation formula is as follows: Container Cloud Disk Service of complete data per service period/(Container Cloud Disk Service of complete data per service period+container cloud disk of lost data per service period). I.e. the no data loss probability per 1,000,000,000 Container Cloud Disk Service is 99.9999999%. This means that at most 1 Container Cloud Disk Service may have the data loss per month.
 
 **2.8. Data Destructibility**
 
@@ -62,7 +62,7 @@ JD Cloud uses encryption, tenant isolation, security group isolation and other m
 
 2.11.1. The user has the right to know the data, the geographical location of the data center where the backup data is located, and the number of data backups, among which:
 
-2.11.1.1. At present, JD Cloud Data Center is located in cn-north-1, cn-east-1, cn-east-2 and cn-south-1. Currently, the container has been launched in cn-north-1. Users must select the corresponding data when registers the service. The user data will be stored in its designated data center.
+2.11.1.1 At present, JD Cloud data centers are distributed in North China (Beijing), East China (Suqian), East China (Shanghai) and South China (Guangzhou). At present, the Containers have been launched in North China (Beijing) and East China (Shanghai). Users must select the corresponding data center when enabling the service, and their data will be stored in the data center specified by themselves.
 
 2.11.1.2. JD Cloud Service has automatic data backup function. The backup data is stored in the same data center as the source data by default. The user does not need to specify the number of automatic backups and the location where the date backed up automatic is stored.
 

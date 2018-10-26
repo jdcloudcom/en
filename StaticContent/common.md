@@ -537,7 +537,7 @@ Tag content on the title page of 0911 new products
           bm: {
             title: 'Physical Server-JD Cloud',
             keywords: 'Physical Server, Virtual Machine, Cloud Server, Object Storage Service, Cloud Storage',
-            description: '物理服务器是京东云提供的一种按需购买的独享物理服务器租赁服务，适合对数据安全性、计算时效性、稳定性、实时性、以及行业监管等有较高要求的IT场景。'
+            description: 'Physical server is an exclusive physical server rental service provided by JD Cloud that is purchased by demand, suitable for IT scenarios with high requirements for data security, computing timeliness, stability, real-time, and industry supervision.'
           },
           nat: {
             title: 'Nat Gateway-JD Cloud',
@@ -564,10 +564,47 @@ Tag content on the title page of 0911 new products
 ```
 
 
-0914新增静态文字 
+0914 New Static Characters 
 * The page is under maintenance, please visit later!
 * Product Name:
 * Business Introduction
 * Application Scenarios
 * Application submitted, please wait patiently for review.
 * Application not approved, please join other products for review.
+
+1015 New Prime Service
+* Service Charge
+* Charge
+```
+
+Description:
+1. The service charge of a calendar month will be collected on the 5th day of a next month.
+2. Monthly Consumption (Pre-discount): Refer to the price of the official website (without discount).
+3. If the Monthly Package order of cloud product is made, the pre-discount price will be apportioned to each month and the service charge will be collected for the monthly apportioned expense. If the service is not provided for a complete month, the service charge will be collected on a day-to-day basis.
+4. The service charge will not be refunded once being collected.
+ 
+——————————————————————
+ 
+The minimum expense is RMB 25,000/month
+Monthly consumption of JD Cloud products (Pre-discount Price)
+RMB 0-RMB 250,000 × 10%
++
+RMB 250,000-RMB 900,000 × 7%
++
+RMB 900,000-RMB 1,650,000× 5%
++
+Above RMB 1,650,000× 3%
+ 
+——————————————————————
+ 
+The minimum expense is: RMB 50,000/month
+Monthly consumption of JD Cloud products (Pre-discount Price)
+RMB 0-RMB 500,000 × 10%
++
+RMB 500,000-RMB 1,800,000 × 7%
++
+RMB 1,800,000-RMB 3,300,000× 5%
++
+Above RMB 3,300,000× 3%
+
+```

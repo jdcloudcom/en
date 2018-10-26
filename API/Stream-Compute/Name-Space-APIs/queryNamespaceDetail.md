@@ -4,52 +4,52 @@
 ## Description
 Query the details of a certain application
 
-## Request Method
+## Request method
 GET
 
-## Request Address
+## Request address
 https://streamcompute.jdcloud-api.com/v1/regions/{regionId}/namespaceDetail
 
-|Name|Type|Required or Not|Default Value|Description|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
+|**regionId**|String|True| |Region ID|
 
-## Request Parameter
-|Name|Type|Required or Not|Default Value|Description|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**namespaceId**|Integer|True|||
+|**namespaceId**|Integer|True| | |
 
 
-## Return Parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
-|**result**|[Result](##Result)||
+|**requestId**|String| |
+|**result**|Result| |
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
-|**namespace**|[Namespace](##Namespace)|namespace objects queried out|
-### <a name="Namespace">Namespace</a>
+|**namespace**|Namespace|Namespace Objects Queried Out|
+### Namespace
 |Name|Type|Description|
 |---|---|---|
-|**createTime**|String||
-|**deleted**|Integer||
-|**id**|Integer||
-|**name**|String||
-|**pods**|String||
-|**podsUpdateTime**|String||
-|**resourceId**|String||
-|**sourceId**|String||
-|**status**|String||
-|**type**|String||
-|**typeValue**|String||
-|**updateTime**|String||
-|**userName**|String||
+|**createTime**|String| |
+|**deleted**|Integer| |
+|**id**|Integer| |
+|**name**|String| |
+|**pods**|String| |
+|**podsUpdateTime**|String| |
+|**resourceId**|String| |
+|**sourceId**|String| |
+|**status**|String| |
+|**type**|String| |
+|**typeValue**|String| |
+|**updateTime**|String| |
+|**userName**|String| |
 
-## Return Code
-|Return Code|Description|
+## Response code
+|Return code|Description|
 |---|---|
 |**200**|OK|
 |**500**|INTERNAL_ERROR|

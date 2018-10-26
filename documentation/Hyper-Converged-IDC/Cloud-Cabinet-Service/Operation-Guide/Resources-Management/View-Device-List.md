@@ -1,7 +1,7 @@
-# View the Equipment List
+# View the Device List
 
-Open the console and select Hyper-Converged IDC -> Cloud Cabinet Service -> Resource Management -> Equipment to view the equipment list, as shown bellow: </br>
-Click on the **Computer Room Name** at the top to switch the computer room and view the equipment list of different computer rooms.
+Open the Console and select Hyper-Converged IDC -> Cloud Cabinet Service -> Resource Management -> Device to view the Device List, as shown as below:</br>
+Click on the **Data Center** tab at the top to switch the Data Center and view the Device List separately.
 ![To view the equipment list, click the link](https://github.com/jdcloudcom/cn/blob/cn-Cloud-Cabinet-Service/image/Hyper-Converged-IDC/Cloud-Cabinet-Service/CCS011.png)
 
 # View the Equipment Details

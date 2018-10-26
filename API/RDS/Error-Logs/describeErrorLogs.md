@@ -8,7 +8,7 @@ Obtain error logs of SQL Server and download information<br>- only support SQL S
 GET
 
 ## Request address
-https://rds.jdcloud-api.com/0.2.9/regions/{regionId}/instances/{instanceId}/errorLogs
+https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/errorLogs
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|

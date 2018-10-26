@@ -36,7 +36,7 @@
       - name: Create Docker Image
         href: Getting-Started/Create-Images.md
       - name: Create Container Instance
-        href: Getting-Started/Create-Instance.md
+        href: Getting-Started/Create-to-Instance.md
   - name: Operation Guide
     items:
       - name: Container Instance
@@ -82,7 +82,7 @@
     - name: Create Image with SSH
       href: Best-Practices/Create-SSH-Image.md
     - name: Deploy Private Image registry
-      href: Best-Practices/Create-Repository.md
+      href: Best-Practices/Create-Repository1.md
   - name: Troubleshooting
     items:
     - name: Container Instance Creation Failed

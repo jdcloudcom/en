@@ -34,5 +34,5 @@ None
 |**404**|Not found|
 |**503**|Service unavailable|
 |**200**|OK|
-|**409**|Parameter conflict |
+|**409**|Parameter conflict|
 |**500**|Internal server error|

@@ -12,23 +12,34 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:rena
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**instanceId**|String|True||Instance ID|
-|**regionId**|String|True||Belonging region ID|
+|**instanceId**|String|True| |Instance ID|
+|**regionId**|String|True| |Region ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**name**|String|True||New instance name|
+|**instanceSpec**|InstanceSpec|True| |Modify instance name request parameters by providing name field of InstanceSpec only|
 
+### InstanceSpec
+|Name|Type|Required or not|Default value|Description|
+|---|---|---|---|---|
+|**bp**|Integer|False| |Minimum Bandwidth: Unit: Gbps|
+|**buyType**|Integer|False| |Purchase Type: 1->Newly Purchased 3->Upgraded|
+|**bw**|Integer|False| |Business Bandwidth: Unit: Mbps|
+|**carrier**|String|False| |ISP Line: TELECOM means China Telecom line, UNICOM means Unicom line, and CMCC means CMCC line|
+|**ep**|Integer|False| |Elastic Bandwidth: Unit: Gbps|
+|**name**|String|False| |Instance Name|
+|**returnUrl**|String|False| |The page jumped to after the payment succeeds. The field is transferred in the console interaction mode|
+|**timeSpan**|Integer|False| |Purchase Duration|
+|**timeUnit**|Integer|False| |Purchase Duration Unit: 3 Months 4 Years|
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
+|**requestId**|String| |
 
 
-
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

@@ -1,0 +1,44 @@
+  name: CodeCommit
+  href: 
+  items:
+  - name: Introduction
+    items:
+      - name: Product Overview
+        href: Introduction/Product-Overview.md
+      - name: Core Concepts
+        href: Introduction/Core-Concepts.md
+      - name: Benefits
+        href: Introduction/Benefits.md
+      - name: Features
+        href: Introduction/Features.md
+      - name: Restrictions 
+        href: Introduction/Restrictions.md
+  - name: Product Pricing
+    items:
+      - name: Billing Overview
+        href: Pricing/Billing-Overview.md
+  - name: Getting Started
+    items:
+      - name: Login JD Cloud-CodeCommit
+        href: Getting-Started/Getting-started.md
+      - name: Group Creation
+        href: Getting-Started/Create-Group.md
+      - name: Project Creation
+        href: Getting-Started/Create-Project.md
+  - name: Operation Guide
+    items:
+       - name: Group Management
+         href: Operation-Guide/Group-Management.md
+       - name: Project Management
+         href: Operation-Guide/Project-Management.md
+       - name: Permission Description
+         href: Operation-Guide/Auth.md      
+       - name: SSH Key Setting
+         href: Operation-Guide/SSH-Key.md
+       - name: User Information Setting
+         href: Operation-Guide/User-Management.md
+  - name: Related Resources
+    items:
+       - name: Document History Records
+         href: Related-Resources/Document-History.md  
+    

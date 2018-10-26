@@ -31,5 +31,5 @@ None
 |---|---|
 |**200**|OK|
 |**400**|invalid parameter|
-|**404**|Resource Not Found|
+|**404**|Resource not found|
 |**500**|Internal server error|

@@ -91,11 +91,11 @@
             href: Operation-Guide/Adjust-Public-Network-Bandwidth/Steps-Adjust-Public-Network-Bandwidth.md
   - name: Best Practices
     items:
-    - name: Create and Configure Cloud Physical Server
-      href: Best-Practices/Create-And-Configure-Cloud-Physical-Server.md
+    - name: Network Security Scheme for NAT Gateway
+      href: Best-Practices/NAT-Gateway-Network-Safety.md
   - name: Tutorial
     items:
-    status:0
+    status: 0
   - name: Troubleshooting
     items:
     - name: Failure to Create Cloud Physical Server
@@ -105,9 +105,9 @@
   - name: FAQ
     href: FAQ/FAQ.md
   - name: API Reference
-    status:0
+    status: 0
   - name: SDK Reference
-    status:0
+    status: 0
   - name: User Agreement
     items:
     - name: Terms of Service
@@ -120,7 +120,7 @@
       href: Related-Resources/Document-History.md   
     - name: ICP Filing
       href: Related-Resources/Filing.md           
-      status:0        
+      status: 0        
     - name: Glossary
       href: Related-Resources/Glossary.md           
-      status:0
+      status: 0

@@ -6,15 +6,15 @@
 
 2. Click to create a new information template
 
-![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Domain-Name-&-License/Image-Domain/moban2.png)
+![image](../../../../../image/Domain-Name/xinximoban1.png)
 
 3. Fill in the information as prompted.
 
-![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Domain-Name-&-License/Image-Domain/moban3.png)
+![image](../../../../../image/Domain-Name/xinximoban2.png)
  
 4. When the existing information template needs to be modified, select the existing information template and click **Edit** to modify it.
 
-![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Domain-Name-&-License/Image-Domain/moban4.png)
+![image](../../../../../image/Domain-Name/xinximoban3.png)
 
 
 Warm Prompt:

@@ -8,7 +8,7 @@ Obtain the list of all audit result files under current instance<br>- Support SQ
 POST
 
 ## Request address
-https://rds.jdcloud-api.com/0.2.9/regions/{regionId}/instances/{instanceId}/audit:getAuditFiles
+https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/audit:getAuditFiles
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|

@@ -2,14 +2,14 @@
 
 
 ## Description
-When stop a single VM, only the VM in <b>running</b> status can be stopped, and the VM can only be stopped without any ongoing task
+Stop a VM. Only the VM in the status of <b>running</b> can be stopped, and the stop operation is only available when there is no task in progress of the VM.
 
 
 ## Request method
 POST
 
 ## Request address
-https://vm.jdcloud-api.com/1.0.3/regions/{regionId}/instances/{instanceId}:stopInstance
+https://vm.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:stopInstance
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
@@ -24,13 +24,12 @@ None
 None
 
 
-
 ## Response code
 |Return code|Description|
 |---|---|
 |**400**|Invalid parameter|
 |**401**|Authentication failed|
-|**404**|Not Found  |
+|**404**|Not found|
 |**503**|Service unavailable|
 |**200**|OK|
 |**500**|Internal server error|

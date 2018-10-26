@@ -7,52 +7,52 @@
     href: ChangeLog.md
   - name: API Information
     items:
-      - name: Virtual Machine
+      - name: Virtual Machines
         items:
           - name: associateElasticIp
-            href: Virtual-Machine/associateElasticIp.md
+            href: Virtual-Machines/associateElasticIp.md
           - name: attachDisk
-            href: Virtual-Machine/attachDisk.md
+            href: Virtual-Machines/attachDisk.md
           - name: attachNetworkInterface
-            href: Virtual-Machine/attachNetworkInterface.md
+            href: Virtual-Machines/attachNetworkInterface.md
           - name: createImage
-            href: Virtual-Machine/createImage.md
+            href: Virtual-Machines/createImage.md
           - name: createInstances
-            href: Virtual-Machine/createInstances.md
+            href: Virtual-Machines/createInstances.md
           - name: deleteInstance
-            href: Virtual-Machine/deleteInstance.md
+            href: Virtual-Machines/deleteInstance.md
           - name: describeInstance
-            href: Virtual-Machine/describeInstance.md
+            href: Virtual-Machines/describeInstance.md
           - name: describeInstanceStatus
-            href: Virtual-Machine/describeInstanceStatus.md
+            href: Virtual-Machines/describeInstanceStatus.md
           - name: describeInstanceVncUrl
-            href: Virtual-Machine/describeInstanceVncUrl.md
+            href: Virtual-Machines/describeInstanceVncUrl.md
           - name: describeInstances
-            href: Virtual-Machine/describeInstances.md
+            href: Virtual-Machines/describeInstances.md
           - name: detachDisk
-            href: Virtual-Machine/detachDisk.md
+            href: Virtual-Machines/detachDisk.md
           - name: detachNetworkInterface
-            href: Virtual-Machine/detachNetworkInterface.md
+            href: Virtual-Machines/detachNetworkInterface.md
           - name: disassociateElasticIp
-            href: Virtual-Machine/disassociateElasticIp.md
+            href: Virtual-Machines/disassociateElasticIp.md
           - name: modifyInstanceAttribute
-            href: Virtual-Machine/modifyInstanceAttribute.md
+            href: Virtual-Machines/modifyInstanceAttribute.md
           - name: modifyInstanceDiskAttribute
-            href: Virtual-Machine/modifyInstanceDiskAttribute.md
+            href: Virtual-Machines/modifyInstanceDiskAttribute.md
           - name: modifyInstanceNetworkAttribute
-            href: Virtual-Machine/modifyInstanceNetworkAttribute.md
+            href: Virtual-Machines/modifyInstanceNetworkAttribute.md
           - name: modifyInstancePassword
-            href: Virtual-Machine/modifyInstancePassword.md
+            href: Virtual-Machines/modifyInstancePassword.md
           - name: rebootInstance
-            href: Virtual-Machine/rebootInstance.md
+            href: Virtual-Machines/rebootInstance.md
           - name: rebuildInstance
-            href: Virtual-Machine/rebuildInstance.md
+            href: Virtual-Machines/rebuildInstance.md
           - name: resizeInstance
-            href: Virtual-Machine/resizeInstance.md
+            href: Virtual-Machines/resizeInstance.md
           - name: startInstance
-            href: Virtual-Machine/startInstance.md
+            href: Virtual-Machines/startInstance.md
           - name: stopInstance
-            href: Virtual-Machine/stopInstance.md
+            href: Virtual-Machines/stopInstance.md
       - name: Image
         items:
           - name: copyImages
@@ -85,11 +85,11 @@
             href: Quota/describeQuotas.md
   - name: Use Help
     items:
-      - name: VM Instance Creation
+      - name: Creation VM Sample
         href: Help/Create_Vm_Sample.md
       - name: Description of Public Parameter Specification
         href: Help/General_Parameters.md
       - name: Image Status Description
         href: Help/Image_Status.md
-      - name: Description for Virtual Machine Status
+      - name: VM Status Description
         href: Help/Vm_Status.md

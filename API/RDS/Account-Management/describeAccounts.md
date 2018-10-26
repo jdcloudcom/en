@@ -8,7 +8,7 @@ View all account information in an RDS instance, including the account name, acc
 GET
 
 ## Request address
-https://rds.jdcloud-api.com/0.2.9/regions/{regionId}/instances/{instanceId}/accounts
+https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/accounts
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|

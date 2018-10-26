@@ -8,7 +8,7 @@ It enables the database audit function of SQL Server and currently supports inst
 POST
 
 ## Request address
-https://rds.jdcloud-api.com/0.2.9/regions/{regionId}/instances/{instanceId}/audit
+https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/audit
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|

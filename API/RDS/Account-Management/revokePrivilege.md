@@ -8,7 +8,7 @@ Cancel all permissions of the account to a certain database. After the permissio
 POST
 
 ## Request address
-https://rds.jdcloud-api.com/0.2.9/regions/{regionId}/instances/{instanceId}/accounts/{accountName}:revokePrivilege
+https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/accounts/{accountName}:revokePrivilege
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|

@@ -8,7 +8,7 @@ Restore the single database from backup, and support recovery from backups of ot
 POST
 
 ## Request address
-https://rds.jdcloud-api.com/0.2.9/regions/{regionId}/instances/{instanceId}/databases/{dbName}:restoreDatabaseFromBackup
+https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/databases/{dbName}:restoreDatabaseFromBackup
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|

@@ -4,36 +4,36 @@
 ## Description
 Query the application list under the tenant
 
-## Request Method
+## Request method
 GET
 
-## Request Address
+## Request address
 https://streamcompute.jdcloud-api.com/v1/regions/{regionId}/namespaces
 
-|Name|Type|Required or Not|Default Value|Description|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
+|**regionId**|String|True| |Region ID|
 
-## Request Parameter
-|Name|Type|Required or Not|Default Value|Description|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**keyword**|String|False|||
+|**keyword**|String|False| | |
 
 
-## Return Parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
-|**result**|[Result](##Result)||
+|**requestId**|String| |
+|**result**|Result| |
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
-|**namespaces**|Object[]|namespaces information|
+|**namespaces**|Object[]|Namespaces Information|
 
-## Return Code
-|Return Code|Description|
+## Response code
+|Return code|Description|
 |---|---|
 |**200**|OK|
 |**500**|INTERNAL_ERROR|

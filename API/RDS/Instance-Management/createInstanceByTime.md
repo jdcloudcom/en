@@ -8,7 +8,7 @@ Create a new instance based on the source instance backup, and recover the data 
 POST
 
 ## Request address
-https://rds.jdcloud-api.com/0.2.9/regions/{regionId}/instances/{instanceId}:createInstanceByTime
+https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:createInstanceByTime
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|

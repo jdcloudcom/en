@@ -53,7 +53,7 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/vpcPeerings/{vpcPeeringId}
 ## Response code
 |Return code|Description|
 |---|---|
-|**200**|Successful Operation|
+|**200**|Successful operation|
 |**409**|Already has VpcPeering with param|
-|**404**|Resource Not Found|
+|**404**|Resource not found|
 |**429**|VpcPeering quota limit exceeded.|

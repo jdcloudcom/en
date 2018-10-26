@@ -8,21 +8,21 @@ Statistics of Detailed Data of Operators in Separated Areas (area_isp_data)
 
 | **Name**   | **Type** | **Compulsory or Not** | **Description**                                                    |
 | ---------- | -------- | ------------ | ----------------------------------------------------------- |
-| username   | String   | Yes           | JD User Name pin                                               |
-| signature  | String   | Yes           | User Signature                                                     |
+| username   | String   | Yes           | JD User Name pin                                                |
+| signature  | String   | Yes           | User Signature                                                    |
 | domain     | String   | Yes           | Domain name to be queried, support query of multiple domain names, parameter example "www.a.com,www.b.com" |
 | start_time | String   | Yes           | Time Format: yyyy-mm-dd hh:mi Reference Example 2016-12-14 07:00       |
-| end_time   | String   | No           | Not a compulsory parameter; if no parameter is uploaded, it is current time by default                             |
+| end_time   | String   | No           | Not a compulsory parameter; if no parameter is uploaded, it is current time by default                            |
 
  
 
 ## 3 Description of Returned Parameter Data
 
-| **Name**   | **Description**                                                  |
+| **Name** | **Description**                                        |
 | -------- | ----------------------------------------------- |
 | status   | It means whether the API request is successful or not, 0 means successful, others means failure|
 | msg      | Note Information                                        |
-| data     | Return Data                                        |
+| data     | Return Data                                                   |
 
 ## 4  Call Example
 
@@ -33,6 +33,7 @@ http://opencdn.jcloud.com/api/live/ area_isp_data
 - ### Request Example
 
 http://opencdn.jcloud.com/api/live/ area_isp_data
+```
 {
     "username" :"test_user",
     "signature" :"d847267fc702273abf394dd0c3128d64",
@@ -40,11 +41,13 @@ http://opencdn.jcloud.com/api/live/ area_isp_data
     "start_time" :"2016-12-14 07:00",
     "end_time" :"2016-12-14 12:59"
  }
+```
 
 - ### Return Instructions
 
-•        Json Format
+* Json Format
 
+```
 {
 "status": 0,//0 means this request succeeded
 "data": [
@@ -57,14 +60,16 @@ flow,//traffic, unit: MB
 ],
 ]
 }
+```
 
 - ### Return Example
 
-•        Json Format
+* Json Format
 
+```
 {
     "status": 0,
-    "msg": “Successful",
+    "msg": "Successful",
     "data": [
         {
             "domain": "www.a.com",
@@ -87,3 +92,4 @@ flow,//traffic, unit: MB
 ]
 ]
 }
+```

@@ -39,8 +39,8 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/subnets/
 ## Response code
 |Return code|Description|
 |---|---|
-|**409**|Parameter conflict |
-|**200**|Successful Operation|
+|**409**|Parameter conflict|
+|**200**|Successful operation|
 |**429**|Quota exceeded|
 |**400**|Invalid parameter|
 |**401**|Authentication failed|

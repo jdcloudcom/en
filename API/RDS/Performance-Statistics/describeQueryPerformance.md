@@ -8,7 +8,7 @@ Obtain the information of performance statistics of SQL execution, such as slow 
 POST
 
 ## Request address
-https://rds.jdcloud-api.com/0.2.9/regions/{regionId}/instances/{instanceId}/performance:describeQueryPerformance
+https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/performance:describeQueryPerformance
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|

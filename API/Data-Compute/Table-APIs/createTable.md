@@ -23,7 +23,7 @@ https://xdata.jdcloud-api.com/v1/regions/{regionId}/dwTable
 ### DwTableDesc
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**comments**|String|False| |Description  Information|
+|**comments**|String|False| |Description Information|
 |**createTime**|String|False| |Creation Time (automatically generated)|
 |**dbName**|String|False| |Database Name|
 |**externalLocation**|String|False| |External Table Location|
@@ -40,7 +40,7 @@ https://xdata.jdcloud-api.com/v1/regions/{regionId}/dwTable
 |---|---|---|---|---|
 |**columnName**|String|False| |Field Name|
 |**columnType**|String|False| |Field Type|
-|**comments**|String|False| |Description  Information|
+|**comments**|String|False| |Description Information|
 |**isPartition**|Boolean|False| |Is the field partitioned|
 
 ## Response parameter

@@ -37,7 +37,7 @@ Results of different settings are listed as below:
 
 If the origin server is http://jd.com/, the hotlinking is http://jd-steal.com/
 
-1. Set Referer White List and allow referer to be blank to realize the Anti-leech function
+1.Set Referer White List and allow referer to be blank to realize the Anti-leech function
 
 ![白名单](../../../../image/Object-Storage-Service/OSS-077.jpg)
 
@@ -49,7 +49,7 @@ The access results are as follows:
 |http://jd.com/|Request from Origin Server|Successful Access|
 |http://jd-steal.com/ |Request from Anti-leech Website|Return 403|
 
-2. Set Referer White List and allow referer to be blank to realize the Anti-Leech function
+2.Set Referer White List and allow referer to be blank to realize the Anti-Leech function
 
 ![白名单](../../../../image/Object-Storage-Service/OSS-078.jpg)
 
@@ -60,4 +60,4 @@ The access results are as follows:
 |http://test-refer.oss.cn-east-1.jcloudcs.com/example.jpg |direct access, blank Referer|Allow blank Referer request, successful access|
 |http://jd.com/ |Request from Origin Server|Successful Access|
 |http://jd-steal.com/ |Request from Anti-leech Website|Return 403|
-3. Set the Referer White List to be blank. If the HTTP request contains the Referer, OSS will refuse requests from all website, including the trusted website. Thus, the configuration is not recommended for use. If you want to realize the anti-leech, please adopt the first two configuration schemes.
+3.Set the Referer White List to be blank. If the HTTP request contains the Referer, OSS will refuse requests from all website, including the trusted website. Thus, the configuration is not recommended for use. If you want to realize the anti-leech, please adopt the first two configuration schemes.

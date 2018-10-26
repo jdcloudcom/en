@@ -12,23 +12,23 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:setU
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**instanceId**|String|True||Instance ID|
-|**regionId**|String|True||Belonging region ID|
+|**instanceId**|String|True| |Instance ID|
+|**regionId**|String|True| |Region ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**urlWhiteList**|String[]|True||Web service rule parameter|
+|**urlWhiteList**|String[]|True| |Web Service Rule Parameter|
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
+|**requestId**|String| |
 
 
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

@@ -36,7 +36,7 @@ https://xdata.jdcloud-api.com/v1/regions/{regionId}/dwDatabase
 ### DwDatabaseInfo
 |Name|Type|Description|
 |---|---|---|
-|**comments**|String|Description  Information|
+|**comments**|String|Description Information|
 |**databaseName**|String|Database Name|
 |**owner**|String|Owner|
 

@@ -38,7 +38,7 @@ https://xdata.jdcloud-api.com/v1/regions/{regionId}/dwTable
 |Name|Type|Description|
 |---|---|---|
 |**category**|String|Category|
-|**comments**|String|Description  Information|
+|**comments**|String|Description Information|
 |**createTime**|String|Creation Time|
 |**dbName**|String|Database Name|
 |**encryption**|String|Is it encrypted or not|

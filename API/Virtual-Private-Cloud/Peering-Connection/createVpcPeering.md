@@ -54,7 +54,7 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/vpcPeerings/
 ## Response code
 |Return code|Description|
 |---|---|
-|**200**|Successful Operation|
+|**200**|Successful operation|
 |**409**|Already has VpcPeering with param|
 |**400**|Request parameter x.y.z is 'xxx', expected one of [yyy,zzz]|
 |**404**|Resource not found|

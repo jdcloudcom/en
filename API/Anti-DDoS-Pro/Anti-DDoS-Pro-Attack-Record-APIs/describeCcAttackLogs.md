@@ -12,42 +12,44 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/attacklog:cc
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Belonging region ID|
+|**regionId**|String|True| |Region ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**endTime**|String|True||Search end time, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ|
-|**instanceId**|String[]|False||Advanced Anti-DDoS instance ID|
-|**pageNumber**|Integer|False||Page number; 1 by default|
-|**pageSize**|Integer|False||Page size; it is 10 by default; value range [10, 100]|
-|**startTime**|String|True||Start time, up to the latest 30 days, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ|
+|**endTime**|String|True| |Search end time, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ|
+|**instanceId**|String[]|False| |Advanced Anti-DDoS Instance ID|
+|**pageNumber**|Integer|False| |Page Number: 1 by default|
+|**pageSize**|Integer|False| |Paging Size: 20 by default; value range [10, 100]|
+|**startTime**|String|True| |Start time, up to the latest 30 days, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ|
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
+|**requestId**|String| |
+|**result**|Result| |
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
-|**dataList**|DDosAttackLog[]||
-|**totalCount**|Integer||
-### <a name="DDosAttackLog">DDosAttackLog</a>
+|**currentCount**|Integer|Current Page Counts|
+|**dataList**|DDosAttackLog[]| |
+|**totalCount**|Integer|Total Number of Instances|
+|**totalPage**|Integer|Total Number of Pages|
+### DDosAttackLog
 |Name|Type|Description|
 |---|---|---|
-|**attackTraffic**|Number|Attack traffic|
+|**attackTraffic**|Number|Attack Traffic|
 |**blackHole**|Integer|Is black hole triggered, 0->no  1->yes|
-|**endTime**|String|End time of attack|
-|**instanceId**|Integer|Advanced Anti-DDoS instance ID|
-|**name**|String|Advanced Anti-DDoS instance name|
-|**startTime**|String|Start time of attack|
-|**unit**|String|Traffic unit, i.e. bps, Kbps, Mbps and Gbps|
+|**endTime**|String|End Time of Attack|
+|**instanceId**|Integer|Advanced Anti-DDoS Instance ID|
+|**name**|String|Advanced Anti-DDoS Instance Name|
+|**startTime**|String|Start Time of Attack|
+|**unit**|String|Traffic Unit: bps, Kbps, Mbps and Gbps|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

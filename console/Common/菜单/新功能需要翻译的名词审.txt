@@ -1,0 +1,21 @@
+﻿二级菜单开关
+Secondary menu switch
+展开或收起二级菜单
+Expand or collapse the secondary menu
+
+当前有效身份：
+Current valid identity:
+角色：
+Role:
+所属账户：
+Account:
+当前登录为：
+Current login as:
+子账号：
+Sub-account:
+所属企业：
+Enterprise:
+角色历史纪录：
+Record of role history:
+切换身份
+Switch identity

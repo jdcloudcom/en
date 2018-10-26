@@ -12,38 +12,40 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/attacklog:ccDetail
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Belonging region ID|
+|**regionId**|String|True| |Region ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**endTime**|String|True||Search end time, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ|
-|**instanceId**|String|True||Advanced Anti-DDoS instance ID|
-|**pageNumber**|Integer|False||Page number; 1 by default|
-|**pageSize**|Integer|False||Page size; it is 10 by default; value range [10, 100]|
-|**startTime**|String|True||Start time, up to the latest 30 days, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ|
-|**subDomain**|String[]|False||Subdomain name|
+|**endTime**|String|True| |Search end time, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ|
+|**instanceId**|String|True| |Advanced Anti-DDoS Instance ID|
+|**pageNumber**|Integer|False| |Page Number: 1 by default|
+|**pageSize**|Integer|False| |Paging Size: 20 by default; value range [10, 100]|
+|**startTime**|String|True| |Start time, up to the latest 30 days, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ|
+|**subDomain**|String[]|False| |Subdomain Name|
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
-|**result**|Result||
+|**requestId**|String| |
+|**result**|Result| |
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
-|**dataList**|CCAttackLogDetail[]||
-|**totalCount**|Integer||
-### <a name="CCAttackLogDetail">CCAttackLogDetail</a>
+|**currentCount**|Integer|Current Page Counts|
+|**dataList**|CCAttackLogDetail[]| |
+|**totalCount**|Integer|Total Number of Instances|
+|**totalPage**|Integer|Total Number of Pages|
+### CCAttackLogDetail
 |Name|Type|Description|
 |---|---|---|
-|**key**|String|Feature key|
-|**num**|Integer|Attacks|
+|**key**|String|Feature Key|
+|**num**|Integer|Attack Counts|
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|

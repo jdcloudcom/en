@@ -2,7 +2,7 @@
 
 
 ## Description
-Delete virtual private cloud
+Delete VPC
 
 ## Request method
 DELETE
@@ -12,21 +12,21 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/vpcs/{vpcId}
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
-|**vpcId**|String|True||Vpc ID|
+|**regionId**|String|True| |Region ID|
+|**vpcId**|String|True| |Vpc ID|
 
 ## Request parameter
 None
 
 
-## Return parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
 
 
 
-## Return code
+## Response code
 |Return code|Description|
 |---|---|
 |**400**|Invalid parameter|

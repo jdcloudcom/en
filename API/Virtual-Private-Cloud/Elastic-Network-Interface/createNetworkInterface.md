@@ -43,7 +43,7 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkInterfaces/
 ## Response code
 |Return code|Description|
 |---|---|
-|**200**|Successful Operation|
+|**200**|Successful operation|
 |**409**|Resource 'primaryIp' already be used|
 |**404**|Resource 'subnetId' not found|
 |**429**|NetworkInterface quota limit exceeded|

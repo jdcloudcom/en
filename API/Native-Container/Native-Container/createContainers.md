@@ -4,7 +4,7 @@
 ## Description
 Create configuration containers for one or more sets
 - Real-name verification is required for creating containers
-- Image
+- image
     - Determine the container image via the image name
     - Images named as nginx:tag or mysql/mysql-server:tag are the public images of docker hub
     - Images named as container-registry/image:tag are the images of private registry
@@ -35,21 +35,21 @@ Create configuration containers for one or more sets
         - Disk Size
             - SSD: Range [10, 100]GB, Step Size: 10G
             - Premium-hdd: Range [20, 1000]GB, Step Size: 10G
-        - Automatic Deletion
+        - Auto-delete
             - The cloud disk will be automatically deleted with the container by default. For the data disk or the shared type data disk with the monthly package, the parameter is invalid.
         - The existing Cloud Disk Service can be selected.
     - Data Disk
         - The available Cloud Disk Service types include ssd and premium-hdd.
         - Disk Size
-            - SSD: Range [20, 1000]GB, Step Size: 10G
-            - Premium-hdd: Range [20, 3000]GB, Step Size: 10G
-        - Automatic Deletion
+            - ssd: Range[20, 1000] GB, Step Size: 10G
+            - premium-hdd: Range[20, 3000] GB, Step Size: 10G
+        - Auto-delete
             - Automatic Deletion by Default
         - The existing Cloud Disk Service can be selected.
         - A single container can be mounted with 7 data volumes at most.
 - Billing
-  - Elastic IP billing mode: If the separate setting of Pay By Consumption is selected, other billing modes shall be subject to the machine.
-  - The billing mode of Cloud Disk Service is subject to the machine.
+  - Billing mode of EIP. You may choose pay by consumption separately, and the other billing modes are subject to the machine.
+  - The billing mode of the cloud disk is subject to the machine
 - Container Log
     - A 10MB storage space will be distributed to the local by default and is automatically rotated.
 - Others
@@ -82,7 +82,7 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/containers
 |**command**|String[]|False| |The container will carry out the command. It is ENTRYPOINT of docker image by default if none is specified. |
 |**dataVolumes**|VolumeMountSpec[]|False| |Mounted Data Volume Information; at most 7 |
 |**description**|String|False| |Container Description|
-|**elasticIp**|ElasticIpSpec|False| |Elastic IP Specification Related to Primary IP of Primary Network Interface |
+|**elasticIp**|ElasticIpSpec|False| |EIP specification associated with the primary IP of the primary network interface|
 |**envs**|EnvVar[]|False| |Environment variables executed by containers; if the environmental variable Key is the same in the image, values in the image will be replaced; </br> 10 pairs at most |
 |**hostAliases**|HostAlias[]|False| |Domain and IP Mapping Information; </br> at most 10 alias |
 |**hostname**|String|False| |For machine name and specification, please refer to the instruction document; default container ID |
@@ -90,7 +90,7 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/containers
 |**instanceType**|String|True| |Instance Type Family; Refer to [Document](https://www.jdcloud.com/help/detail/1992/isCatalog/1)|
 |**logConfiguration**|LogConfiguration|False| |Container log configuration information; 10MB storage space will be assigned to the local by default|
 |**name**|String|True| |Container Name|
-|**primaryNetworkInterface**|ContainerNetworkInterfaceAttachmentSpec|True| |Primary Network Interface Configuration Information |
+|**primaryNetworkInterface**|ContainerNetworkInterfaceAttachmentSpec|True| |Primary Network Interface Configuration Information|
 |**rootVolume**|VolumeMountSpec|True| |Root Volume Information |
 |**secret**|String|False| |Name cited by secrete; secret is not required when using images of Docker Hub and JD Cloud CR |
 |**tty**|Boolean|False| |If a container is assigned with tty. It is not assigned by default|
@@ -116,18 +116,18 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/containers
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**az**|String|True| |Availability Zone, to which the cloud disk belongs|
-|**charge**|ChargeSpec|False| |Billing configuration. If not specified, the default billing type is pay-as-you-go - pay by service time by default.|
+|**charge**|ChargeSpec|False| |Billing configuration; if no specification is made, the billing type is Pay-As-You-Go - Pay as the service time by default|
 |**description**|String|False| |Description of the cloud disk|
 |**diskSizeGB**|Integer|True| |Size of the cloud disk, unit: GiB; ssd value range of [20,1000]GB and step size of 10G; premium-hdd value range of [20,3000]GB and step size of 10G|
 |**diskType**|String|True| |Type of the cloud disk, value ssd or premium-hdd|
 |**multiAttachable**|Boolean|False| |Whether the Cloud Disk Service supports the mode that one disk is attached to multiple machines. It is set as false by default (not supported).|
 |**name**|String|True| |Name of the cloud disk|
-|**snapshotId**|String|False| |Snapshot ID used to create a cloud disk|
+|**snapshotId**|String|False| |Snapshot ID used to create Cloud Disk Service|
 ### ElasticIpSpec
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**bandwidthMbps**|Integer|False| |Elastic IP Speed Limit   Unit: MB  |
-|**chargeSpec**|ChargeSpec|False| |Billing Configuration |
+|**chargeSpec**|ChargeSpec|False| |Billing Configuration|
 |**provider**|String|False| |IP Service Provider, value: bgp or no_bg    |
 ### EnvVar
 |Name|Type|Required or not|Default value|Description|
@@ -159,12 +159,12 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/containers
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**az**|String|True| |Availability Zone, User’s Default Availability Zone|
-|**description**|String|False| |Description |
-|**primaryIpAddress**|String|False| |Primary IP of Network Interface|
-|**sanityCheck**|Boolean|False| |PortSecurity, with value 0 or 1 and default value 1|
-|**secondaryIpAddresses**|String[]|False| |SecondaryIp List|
-|**secondaryIpCount**|Integer|False| |Amount of SecondaryIp Assigned Automatically|
-|**securityGroups**|String[]|False| |Security Group ID List |
+|**description**|String|False| |Description|
+|**primaryIpAddress**|String|False| |Network Interface Primary IP|
+|**sanityCheck**|Boolean|False| |PortSecurity, the value is 0 or 1, 1 by default|
+|**secondaryIpAddresses**|String[]|False| |Secondary IP List|
+|**secondaryIpCount**|Integer|False| |Amount of Secondary IP Assigned Automatically|
+|**securityGroups**|String[]|False| |Security Group ID List|
 |**subnetId**|String|True| |Subnet ID|
 
 ## Response parameter

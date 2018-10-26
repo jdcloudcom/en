@@ -24,16 +24,10 @@ The python is successfully installed when the above indications are given. If th
 ## Installation and Usage
 
 **Download S3cmd**
+
 ```
-git clone https://github.com/s3tools/s3cmd.git
+git clone https://github.com/jdcloud-cmw/s3cmd.git
 ```
-**Source Code Modification**
-
-Use V4 signature rather than V2 signature, and log in the catalog below after downloading from https://github.com/s3tools/s3cmd.git.
-
-File catalog: s3cmd/S3/S3.py, the 254th line is modified to be: self.endpoint_requires_signature_v4 = True
-
-![](../../../../image/Object-Storage-Service/OSS-091.png)
 
 **S3cmd Installation**
 
@@ -49,6 +43,7 @@ The configuration file is ~/.s3cfg and the content of used configuration file is
 ```
 [default]
 access_key = [you access key]
+secret_key = [you secret key]
 access_token = 
 add_encoding_exts = 
 add_headers = 
@@ -104,7 +99,6 @@ reduced_redundancy = False
 requester_pays = False
 restore_days = 1
 restore_priority = Standard
-secret_key = [you secret key]
 send_chunk = 65536
 server_side_encryption = False
 signature_v2 = False
@@ -128,11 +122,11 @@ website_index = index.html
 
 Input s3cmd and enter under the Linux shell environment and the use is available when the following indication is given:
 
-![](../../../../image/Object-Storage-Service/OSS-092.png)
+![](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-092.png)
 
 Taking Make bucket as example, test whether S3cmd is available:
 
-![](../../../../image/Object-Storage-Service/OSS-093.png)
+![](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-093.png)
 
 ## Supported Functions
 

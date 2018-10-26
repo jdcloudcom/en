@@ -2,7 +2,7 @@
 
 
 ## Description
-Acquire Screenshot Notification
+Acquire the media processing notification.
 
 ## Request method
 GET

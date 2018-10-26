@@ -36,6 +36,6 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/quotas/
 ## Response code
 |Return code|Description|
 |---|---|
-|**200**|Successful Operation|
+|**200**|Successful operation|
 |**400**|invalid parameter|
 |**500**|Internal server error|

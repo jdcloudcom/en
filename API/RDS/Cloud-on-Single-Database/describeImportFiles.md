@@ -8,7 +8,7 @@ Obtain the list of files uploaded by the user to the instance through Cloud on S
 GET
 
 ## Request address
-https://rds.jdcloud-api.com/0.2.9/regions/{regionId}/instances/{instanceId}/importFiles
+https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/importFiles
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|

@@ -15,7 +15,7 @@ v1
 |**ccGraph**|GET|Forwarding Traffic Report|
 |**checkName**|GET|Detect Whether the Instance Name is Legal|
 |**createForwardRule**|POST|Add a non\-web service rule|
-|**createInstance**|POST|Create an instance|
+|**createInstance**|POST|Create Instance|
 |**createWebRule**|POST|Add a web service rule|
 |**ddosGraph**|GET|DDos Protection Report|
 |**deleteForwardRule**|DELETE|Delete a non\-web service rule|

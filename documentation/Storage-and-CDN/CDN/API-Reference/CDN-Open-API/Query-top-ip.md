@@ -11,7 +11,7 @@ Query Top IP
 | username   | String   | Yes           | JD User Name pin                                               |
 | signature  | String   | Yes           | User Signature                                                     |
 | domain     | String   | Yes           | Domain name to be queried, support query of multiple domain names, parameter example "www.a.com,www.b.com" |
-| start_time | String   | Yes           | Time Format: yyyy-mm-dd hh:mi Reference Example 2016-12-14 07:00       |
+| start_time | String   |  Yes           | Time Format: yyyy-mm-dd hh:mi Reference example: 2016-12-14 07:00; the time span for query cannot be greater than 30 days|
 | end_time   | String   | No           | Not a compulsory parameter; if no parameter is uploaded, it is current time by default                             |
 | topfield   | String   | Yes           | Fields of top query, only pv or flow can be uploaded. pv(requests),flow(traffic)     |
 | pageNumber | int      | No           | Query the paging page number, 1 by default if not uploaded                                    |

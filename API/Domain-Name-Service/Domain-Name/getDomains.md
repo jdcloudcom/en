@@ -33,7 +33,7 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domain
 |Name|Type|Description|
 |---|---|---|
 |**currentCount**|Integer|Number of Domain Names in the Domain Name List of the Current Page|
-|**dataList**|Domain[]|Domain Name List|
+|**dataList**|Domain[]|Domain List|
 |**totalCount**|Integer|Number of All Matched Domain Name Lists|
 |**totalPage**|Integer|Pages of All Matched Domain Name Lists in Total According to the Paging Parameters                    |
 ### Domain

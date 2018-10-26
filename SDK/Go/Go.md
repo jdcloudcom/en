@@ -51,9 +51,11 @@ func main() {
 }
 ```
 If you need to set up an additional header, for example, call an interface that opens the MFA operation protection, you need to pass x-jdcloud-security-token, as follows:
-```
+
+```go
 req := NewDeleteInstanceRequest("cn-north-1", "i-xxxxx")
 req.AddHeader("x-jdcloud-security-token", "xxx")
 resp, err := client.DeleteInstance(req)
 ```
+
 Refer to the test cases in demo and access each business line interface of JD Cloud.

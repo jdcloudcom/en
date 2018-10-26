@@ -33,4 +33,4 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/routeTables/{routeTableId}:dis
 |---|---|
 |**200**|Successful operation|
 |**400**|Request parameter x.y.z is 'xxx', expected one of [yyy,zzz]|
-|**404**|Resource Not Found|
+|**404**|Resource not found|

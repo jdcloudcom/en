@@ -2,15 +2,15 @@
 
 
 ## Description
-Batch query image specification type constraints. <br>
-This API allows you to view the type of specifications that are not supported by the image. Only the public image, the third-party image has a specification type restriction, and the private image of the individual does not have this limit.
+Batch query image instance type constraints. <br>
+This API allows you to view the instance types that are not supported by the image. Only the public image and the third-party image have restrictions for instance type, and the private image of the individual does not have this limit.
 
 
 ## Request method
 GET
 
 ## Request address
-https://vm.jdcloud-api.com/1.0.3/regions/{regionId}/imageConstraints
+https://vm.jdcloud-api.com/v1/regions/{regionId}/imageConstraints
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
@@ -28,7 +28,6 @@ https://vm.jdcloud-api.com/1.0.3/regions/{regionId}/imageConstraints
 |**requestId**|String| |
 |**result**|Result| |
 
-
 ### Result
 |Name|Type|Description|
 |---|---|---|
@@ -41,7 +40,7 @@ https://vm.jdcloud-api.com/1.0.3/regions/{regionId}/imageConstraints
 ### ImageInstanceTypeConstraint
 |Name|Type|Description|
 |---|---|---|
-|**constraintsType**|String|Restricted specification type. Value: excludes: exclude specified instance types; includes: only the specified instance type is included, which is not supported temporarily|
+|**constraintsType**|String|Restricted type family. Value: excludes: the instance type family that is not supported; includes: the instance type family that is supported. |
 |**instanceTypes**|String[]|Instance Type List|
 
 ## Response code
@@ -49,7 +48,7 @@ https://vm.jdcloud-api.com/1.0.3/regions/{regionId}/imageConstraints
 |---|---|
 |**400**|Invalid parameter|
 |**401**|Authentication failed|
-|**404**|Not Found  |
+|**404**|Not found|
 |**503**|Service unavailable|
 |**200**|OK|
 |**500**|Internal server error|

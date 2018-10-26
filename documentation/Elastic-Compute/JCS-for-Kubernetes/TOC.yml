@@ -26,7 +26,7 @@
   - name: Getting Started
     items:
       - name: Create Clusters
-        href: Getting-Started/Create-Cluster.md
+        href: Getting-Started/Create-to-Cluster.md
       - name: Connect Clusters
         href: Getting-Started/Connect-to-Cluster.md
   - name: Operation Guide

@@ -38,7 +38,7 @@ https://xdata.jdcloud-api.com/v1/regions/{regionId}/dwDatabase/{databaseName}
 |Name|Type|Description|
 |---|---|---|
 |**category**|String|Category|
-|**comments**|String|Description  Information|
+|**comments**|String|Description Information|
 |**createTime**|String|Creation Time|
 |**databaseName**|String|Database Name|
 |**id**|Integer|Database ID|

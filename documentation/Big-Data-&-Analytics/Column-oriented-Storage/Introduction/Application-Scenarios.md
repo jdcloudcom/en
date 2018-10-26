@@ -24,8 +24,5 @@ The applicable scenarios for Column-oriented Storage are described as below.
 
 ## Related References
 
-- [Benefits](../Introduction/Benefits.md)
-- [Features](../Introduction/Features.md)
-- [Price Overview](../Pricing/Price-Overview.md)
-- [Billing Rules](../Pricing/Billing-Rules.md)
-- [Create Instance](../Getting-Started/Create-Instance.md)
+- [Benefits](Benefits.md)
+- [Features](Features.md)

@@ -31,4 +31,4 @@ None
 |---|---|
 |**200**|OK|
 |**404**|NOT_FOUND|
-|**500**|Internal Error|
+|**500**|Internal error|

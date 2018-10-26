@@ -8,7 +8,7 @@ Obtain statistics on index performance based on user-defined query conditions, a
 POST
 
 ## Request address
-https://rds.jdcloud-api.com/0.2.9/regions/{regionId}/instances/{instanceId}/performance:describeIndexPerformance
+https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/performance:describeIndexPerformance
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|

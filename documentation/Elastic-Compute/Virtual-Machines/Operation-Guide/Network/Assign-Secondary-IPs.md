@@ -37,7 +37,7 @@ CentOS 7.2 is used as an example for the Linux system and the detailed operation
 
 		vim /etc/sysconfig/network-scripts/ifcfg-eth0
 
-	Example: If the private IPs queried by the current instance in the console are 192.168.0.4 and 192.168.0.5 respectively, where 192.168.0.4 is the primary IP, the file content is displayed:
+	Example: If the current Private IP that the instance queried on the console is 192.168.0.4 and 192.168.0.5, wherein 192.168.0.4 is the primary IP and the subnet mask is 255.255.255.0, the file content shows:
 
 	```
 	TYPE="ETHERNET"  
@@ -76,10 +76,10 @@ CentOS 7.2 is used as an example for the Linux system and the detailed operation
 	UUID="dd73a4ea-8f6b-409b-a271-5f7882a3ae53"
 	DEVICE="eth0"
 	ONBOOT="yes"
-	IPADDR0="192.168.0.4"
+	IPADDR="192.168.0.4"
 	IPADDR1="192.168.0.5"
+	NETMASK="255.255.255.0"
 	NETMASK1="255.255.255.0"
-	NETMASK2="255.255.255.0"
 	GATEWAY="192.168.0.1"
 	```
 	Please note that BOOTPROTO="dhcp" is to be annotated.

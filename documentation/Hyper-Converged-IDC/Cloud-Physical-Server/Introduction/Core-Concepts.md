@@ -1,4 +1,4 @@
-# Core concept
+# Core Concept
 
 Physical computing resources on the cloud, i.e. one Cloud Physical Server running in the data center, also **instance**.
 
@@ -34,7 +34,7 @@ The following is the regions and availability zones where the data centers with 
     <tr>   
         <td rowspan="5"><B>Mainland China</B></td>
 		<td >cn-north-1</td>
-		<td >Availability Zone A</td>
+		<td >Availability Zone A, Availability Zone C</td>
 		<td >In Preparation</td>
     </tr>
     <tr>  
@@ -64,4 +64,4 @@ The following is the regions and availability zones where the data centers with 
 Under the basic network mode, the private IP address under the subnet specified by the user is allocated uniformly by the system. If you change the private IP in the operating system, the intranet communication will be cut off. Communication traffic via private IP between Cloud Physical Servers in the same data center is free. Private IP is used for accessing each other of intranets between Cloud Physical Servers.
 
 ### Public IP
-Public IP address is the main method for users to access Cloud Physical Server and for Cloud Physical Server instance to provide service externally. Under the basic network mode, a Cloud Physical Server must and can only be associated with one public IP. You may adjust the bandwidth peak of public IP dynamically.
+EIP address is the main method for users to access Cloud Physical Server and for Cloud Physical Server instance to provide external service. Under the basic network mode, a cloud physical server can only be associated with one EIP. You may adjust the bandwidth peak of EIP dynamically. The user may choose not to purchase the EIP, but he cannot add EIP in the future.

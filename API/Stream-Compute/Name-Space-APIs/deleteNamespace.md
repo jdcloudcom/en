@@ -4,36 +4,36 @@
 ## Description
 Delete namespace; if there are other subordinate resources associated with it, it is not allowed to delete it
 
-## Request Method
+## Request method
 DELETE
 
-## Request Address
+## Request address
 https://streamcompute.jdcloud-api.com/v1/regions/{regionId}/namespace
 
-|Name|Type|Required or Not|Default Value|Description|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
+|**regionId**|String|True| |Region ID|
 
-## Request Parameter
-|Name|Type|Required or Not|Default Value|Description|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**namespaceId**|Integer|True|||
+|**namespaceId**|Integer|True| | |
 
 
-## Return Parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
-|**result**|[Result](##Result)||
+|**requestId**|String| |
+|**result**|Result| |
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
 |**status**|Boolean|Delete the namespace successful marker|
 
-## Return Code
-|Return Code|Description|
+## Response code
+|Return code|Description|
 |---|---|
 |**200**|OK|
 |**500**|INTERNAL_ERROR|

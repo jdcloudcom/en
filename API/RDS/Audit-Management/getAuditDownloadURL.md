@@ -8,7 +8,7 @@ Obtain the download link of a certain audit file, support both the internal and 
 POST
 
 ## Request address
-https://rds.jdcloud-api.com/0.2.9/regions/{regionId}/instances/{instanceId}/audit:getAuditDownloadURL
+https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/audit:getAuditDownloadURL
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|

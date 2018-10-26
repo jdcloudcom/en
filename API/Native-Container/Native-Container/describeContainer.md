@@ -35,24 +35,24 @@ None
 |Name|Type|Description|
 |---|---|---|
 |**args**|String[]|Parameters for Command Execution by Container |
-|**az**|String|Availability Zone |
+|**az**|String|Availability Zone|
 |**charge**|Charge|Billing Configuration Information |
 |**command**|String[]|Container Execution Command |
 |**containerId**|String|Container ID |
 |**dataVolumes**|VolumeMount[]|Mounted Data Volume Information |
-|**description**|String|Container Description |
+|**description**|String|Container Description|
 |**elasticIpAddress**|String|Elastic IP Associated to Primary IP of Primary Network Interface |
 |**elasticIpId**|String|Elastic IP ID Associated to Primary IP of Primary Network Interface |
 |**envs**|EnvVar[]|Environment Variable for Execution by Dynamically-assigned Container |
 |**hostAliases**|HostAlias[]|Domain and IP Mapping Information|
 |**hostname**|String|Machine Name |
-|**image**|String|Image Name |
-|**instanceType**|String|Instance Type Family |
+|**image**|String|Image Name|
+|**instanceType**|String|Instance Type|
 |**launchTime**|String|Creation Time|
 |**logConfiguration**|LogConfiguration|Container Log Configuration Information|
 |**name**|String|Container Name|
-|**primaryNetworkInterface**|InstanceNetworkInterfaceAttachment|Primary Network Interface Information |
-|**privateIpAddress**|String|Primary IP Address of Primary Network Interface |
+|**primaryNetworkInterface**|InstanceNetworkInterfaceAttachment|Primary Network Interface Information|
+|**privateIpAddress**|String|Primary IP address of primary network interface|
 |**reason**|String|Container Termination Reason |
 |**rootVolume**|VolumeMount|Root Volume Information |
 |**secondaryNetworkInterfaces**|InstanceNetworkInterfaceAttachment[]|Elastic Network Interface Information|
@@ -85,7 +85,7 @@ None
 |**az**|String|Corresponding AZ|
 |**createTime**|String|Creation Time|
 |**description**|String|Disk Description|
-|**diskId**|String|Cloud Disk Service ID|
+|**diskId**|String|Cloud Disk ID|
 |**diskSize**|Integer|Disk Size (GiB)|
 |**diskType**|String|Disk Type, Value: ssd or premium-hdd|
 |**name**|String|Disk Name|
@@ -121,11 +121,11 @@ None
 ### InstanceNetworkInterface
 |Name|Type|Description|
 |---|---|---|
-|**description**|String|Description |
+|**description**|String|Description|
 |**macAddress**|String|Ethernet Address|
-|**networkInterfaceId**|String|Elastic Network Interface ID|
-|**primaryIp**|NetworkInterfacePrivateIp|Primary IP of Network Interface|
-|**sanityCheck**|Boolean|Source and Target IP Address Verification, with value 0 or 1|
+|**networkInterfaceId**|String|ENI ID|
+|**primaryIp**|NetworkInterfacePrivateIp|Network Interface Primary IP|
+|**sanityCheck**|Boolean|Source and target IP address verification, with value 0 or 1|
 |**secondaryIps**|NetworkInterfacePrivateIp[]| |
 |**securityGroups**|SecurityGroupSimple[]|Security Group List|
 |**vpcId**|String|Virtual Network ID|

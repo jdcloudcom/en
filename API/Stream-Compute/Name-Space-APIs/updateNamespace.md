@@ -4,52 +4,52 @@
 ## Description
 Update namespace
 
-## Request Method
+## Request method
 PUT
 
-## Request Address
+## Request address
 https://streamcompute.jdcloud-api.com/v1/regions/{regionId}/namespace
 
-|Name|Type|Required or Not|Default Value|Description|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
+|**regionId**|String|True| |Region ID|
 
-## Request Parameter
-|Name|Type|Required or Not|Default Value|Description|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**namespaceStr**|[Namespace](##Namespace)|True|||
+|**namespaceStr**|Namespace|True| | |
 
-### <a name="Namespace">Namespace</a>
-|Name|Type|Required or Not|Default Value|Description|
+### Namespace
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**createTime**|String|False|||
-|**deleted**|Integer|False|||
-|**id**|Integer|False|||
-|**name**|String|False|||
-|**pods**|String|False|||
-|**podsUpdateTime**|String|False|||
-|**resourceId**|String|False|||
-|**sourceId**|String|False|||
-|**status**|String|False|||
-|**type**|String|False|||
-|**typeValue**|String|False|||
-|**updateTime**|String|False|||
-|**userName**|String|False|||
+|**createTime**|String|False| | |
+|**deleted**|Integer|False| | |
+|**id**|Integer|False| | |
+|**name**|String|False| | |
+|**pods**|String|False| | |
+|**podsUpdateTime**|String|False| | |
+|**resourceId**|String|False| | |
+|**sourceId**|String|False| | |
+|**status**|String|False| | |
+|**type**|String|False| | |
+|**typeValue**|String|False| | |
+|**updateTime**|String|False| | |
+|**userName**|String|False| | |
 
-## Return Parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
-|**result**|[Result](##Result)||
+|**requestId**|String| |
+|**result**|Result| |
 
 
-### <a name="Result">Result</a>
+### Result
 |Name|Type|Description|
 |---|---|---|
 |**status**|Boolean|Update the successful marker|
 
-## Return Code
-|Return Code|Description|
+## Response code
+|Return code|Description|
 |---|---|
 |**200**|OK|
 |**500**|INTERNAL_ERROR|

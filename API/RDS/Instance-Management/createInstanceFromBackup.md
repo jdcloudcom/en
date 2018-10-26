@@ -8,7 +8,7 @@ Creates a new instance based on the full backup of the source instance. The data
 POST
 
 ## Request address
-https://rds.jdcloud-api.com/0.2.9/regions/{regionId}/instances:createInstanceFromBackup
+https://rds.jdcloud-api.com/v1/regions/{regionId}/instances:createInstanceFromBackup
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|

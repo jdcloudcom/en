@@ -39,7 +39,7 @@ https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/cluster:create
 |**slaveNodeNumber**|Integer|False| |Slave Node Number|
 |**softwareList**|String|False|HADOOP,ZOOKEEPER|Software list, different software shall be separated with English comma (,); refer to [document](https://www.jdcloud.com/help/detail/1323/isCatalog/1)|
 |**version**|String|False| |"Software service Version, please fill in one of the following lists:"<br>"JMR1.0.0"<br>"JMR1.0.1"<br>"JMR1.0.2"<br>"JMR2.0.0"<br>"JMR_BD-OS-1.0"<br>|
-|**vpcId**|String|False|new|Virtual Private Cloud ID|
+|**vpcId**|String|False|new|VPC ID|
 |**vpcSubnetId**|String|False|new|Subnet UUID can be obtained by querying the subnet list|
 
 ## Response parameter

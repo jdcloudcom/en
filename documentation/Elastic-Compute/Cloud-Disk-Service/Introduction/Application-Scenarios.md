@@ -3,7 +3,7 @@
 
 **SSD cloud disk**
 
-I/O performance: A maximum of 20000 random read-write IOPS and 100MBps throughput performance is provided;
+I/O Performance: A maximum of 20,000 random read-write IOPS and 300MBps throughput performance are provided and the default throughput is 100MBps;
 
 Maximum capacity: Single Premium Hdd Cloud Disk provides a maximum of 1000GB storage space;
 

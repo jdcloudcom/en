@@ -8,7 +8,7 @@ Create a database account. The user can use the client, application, etc. to log
 POST
 
 ## Request address
-https://rds.jdcloud-api.com/0.2.9/regions/{regionId}/instances/{instanceId}/accounts
+https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/accounts
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|

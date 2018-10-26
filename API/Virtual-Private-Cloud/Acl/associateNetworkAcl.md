@@ -31,7 +31,7 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkAcls/{networkAclId}:ass
 ## Response code
 |Return code|Description|
 |---|---|
-|**200**|Successful Operation|
+|**200**|Successful operation|
 |**400**|Invalid parameter|
 |**404**|Not found|
 |**500**|Internal error|

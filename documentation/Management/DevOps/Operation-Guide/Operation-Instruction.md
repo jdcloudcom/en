@@ -6,7 +6,7 @@ When you first log in, the sample service tree node is created by default, shown
 
 **Login actions**
 
-Address: devops.jdcloud.com
+Address: devops.jdcloud.com Please submit the usage application first. After it is reviewed and approved, you will be notified of the domain name.
 
 ![image](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Operation-Guide2.png)
 

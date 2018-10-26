@@ -1,20 +1,20 @@
 # Enumeration Type Definition
 
-- [engine RDS Engine Type](Enum-Definitions#engine-rds-engine-type)
-- [engineVersion RDS Engine Version](Enum-Definitions#engineversion-rds-engine-version)
-- [instanceStatus Instance Status](Enum-Definitions#instancestatus-instance-status)
-- [dbStatus Database Status](Enum-Definitions#dbstatus-database-status)
-- [accountStatus Account Status](Enum-Definitions#accountstatus-account-status)
-- [privilege Database Access](Enum-Definitions#privilege-database-access)
-- [characterSetName Database Character Set](Enum-Definitions#charactersetname-database-character-set)
-- [sqlAuditStatus Data Audit Status](Enum-Definitions#sqlauditstatus-data-audit-status)
-- [connectionMode Access Mode](Enum-Definitions#connectionmode-access-mode)
-- [backupStatus Backup Status](Enum-Definitions#backupstatus-backup-status)
-- [backupType Backup Type](Enum-Definitions#backuptype-backup-type)
-- [backupMode Backup Mode](Enum-Definitions#backupmode-backup-mode)
-- [backupUnit Backup Granularity](Enum-Definitions#backupunit-backup-granularity)
+- engine RDS Engine Type
+- engineVersion RDS Engine Version
+- instanceStatus Instance Status
+- dbStatus Database Status
+- accountStatus Account Status
+- privilege Database Access
+- characterSetName Database Character Set
+- sqlAuditStatus Data Audit Status
+- connectionMode Access Mode
+- backupStatus Backup Status
+- backupType Backup Type
+- backupMode Backup Mode
+- backupUnit Backup Granularity
+- instanceClass instance type
 
-<div id="engine-rds-engine-type"></div>
 ## engine RDS Engine Type
 
 |Value|Description|
@@ -24,7 +24,6 @@
 |Percona|Percona Database Engine|
 |SQL Server|SQL Server Database Engine, note that there are spaces in the middle|
 
-<div id="engineversion-rds-engine-version"></div>
 ## engineVersion RDS Engine Version
 
 |Value|Description|
@@ -42,7 +41,6 @@
 |2014 Web|SQL Server 2014 Web Version|
 |2016 Web|SQL Server 2016 Web Version|
 
-<div id="instancestatus-instance-status"></div>
 ## instanceStatus Instance Status
 
 |Value|Description|
@@ -66,7 +64,6 @@
 |REBOOTING|Rebooting|
 |REBOOT_ERROR|Reboot Error|
 
-<div id="dbstatus-database-statu"></div>
 ## dbStatus Database Status
 
 |Value|Description|
@@ -77,7 +74,6 @@
 |DELETE_ERROR|Delete Error|
 |ERROR|Exception|
 
-<div id="accountstatus-account-status"></div>
 ## accountStatus Account Status
 
 |Value|Description|
@@ -88,7 +84,6 @@
 |DELETE_ERROR|Delete Error|
 |ERROR|Exception|
 
-<div id="privilege-database-access"></div>
 ## privilege Database Access Privilege
 
 |Value|Description|
@@ -96,7 +91,6 @@
 |ro|Read Only|
 |rw|Read-Write|
 
-<div id="charactersetname-database-character-set"></div>
 ## characterSetName Database Character Set
 
 |Value|Description|
@@ -108,7 +102,6 @@
 |SQL_Latin1_General_CP1_CS_AS|SQL Server Character Set|
 |Chinese_PRC_BIN|SQL Server Character Set|
 
-<div id="sqlauditstatus-data-audit-status"></div>
 ## sqlAuditStatus Data Audit Status
 
 |Value|Description|
@@ -116,7 +109,6 @@
 |off|Off (default)|
 |on|On|
 
-<div id="connectionmode-access-mode"></div>
 ## connectionMode Access Mode
 
 |Value|Description|
@@ -124,7 +116,6 @@
 |standard|Standard Access Mode (default)|
 |security|High Security Access Mode|
 
-<div id="backupstatus-backup-status"></div>
 ## backupStatus Backup Status
 
 |Value|Description|
@@ -136,7 +127,6 @@
 |DELETE_ERROR|Delete Error|
 |RETAINED|Instance is deleted, and backup is reserved|
 
-<div id="backuptype-backup-type"></div>
 ## backupType Backup Type
 
 |Value|Description|
@@ -144,7 +134,6 @@
 |full|Full Backup|
 |diff|Incremental Backup|
 
-<div id="backupmode-backup-mode"></div>
 ## backupMode Backup Mode
 
 |Value|Description|
@@ -152,7 +141,6 @@
 |auto|System Automatic Backup|
 |manual|Manual Backup|
 
-<div id="backupunit-backup-granularity"></div>
 ## backupUnit Backup Granularity
 
 |Value|Description|
