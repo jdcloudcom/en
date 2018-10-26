@@ -714,5 +714,14 @@
 		"id":"1022",
 		"button_title":"More",
 		"main_title":"GPU Virtual Machines"
+	},
+	{
+		"sub_title":"Committed to Massive Data Search and Analysis",
+		"image_Url":"//img1.jcloudcs.com/cms/498c3deb-f599-4e6a-b292-ade380ec3dc420181026165145.png",
+		"dynamic_image":"//img1.jcloudcs.com/cms/9a93cd67-f6e4-4c73-85da-dc0c3f9612bd20181026165149.png",
+		"name":"JCS for Elasticsearch",
+		"id":"1031",
+		"button_title":"Start Free",
+		"main_title":"JCS for Elasticsearch"
 	}
 ]
