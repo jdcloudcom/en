@@ -3,8 +3,8 @@
 		"proGoodTitle":"Benefits",
 		"proNameTitle":"Anti-DDoS Protection Package",
 		"proDiffTitle":"",
-		"proGood":"BGPISP Line, providing extremely rapid access experience ",
-		"proGood":"BGPISP Line, comprehensively cover large and small operators throughout the country, providing extremely rapid access experience." ,
+		"proGood":"Flexible Billing",
+		"proName":"Support minimum + flexible billing method. For the flexible part, billing is based on actual peak value of attack and is not required if there is no attack.",
 		"proDiff":""
 	},
 	{
@@ -14,7 +14,7 @@
 	},
 	{
 		"proGood":"StrongDDoS Attack Protection",
-		"proName":"Able to defend against a variety of common 4-tier DDoSattacks, including but not limited to SYN Flood, ACK Flood, ICMP Flood, UDP Flood and TCP Flood",
+		"proName":"Able to defend against a variety of common 4-tier DDoSattacks, including but not limited to SYN Flood, ACK Flood, ICMP Flood, UDP Flood and TCP Flood.",
 		"proDiff":""
 	},
 	{
@@ -24,7 +24,12 @@
 	},
 	{
 		"proGood":"BGPISP Line, providing extremely rapid access experience ",
-		"proGood":"BGPISP Line, comprehensively cover large and small operators throughout the country, providing extremely rapid access experience." ,
+		"proName":"BGPISP Line, comprehensively cover large and small operators throughout the country, providing extremely rapid access experience." ,
+		"proDiff":""
+	},
+	{
+		"proGood":"Flexible Billing",
+		"proName":"Support minimum + flexible billing method. For the flexible part, billing is based on actual peak value of attack and is not required if there is no attack.",
 		"proDiff":""
 	}
 ]

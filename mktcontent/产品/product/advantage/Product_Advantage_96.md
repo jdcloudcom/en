@@ -14,7 +14,7 @@
 	},
 	{
 		"proGood":"Open and Compatible",
-		"proName":" Support Docker Registry v2 standard protocol; support compatible Docker standard tool and Docker image. Redundancy ",
+		"proName":" Support Docker Registry v2 standard protocol; support compatible Docker standard tool and Docker image.",
 		"proDiff":""
 	},
 	{

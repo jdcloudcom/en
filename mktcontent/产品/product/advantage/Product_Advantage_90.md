@@ -9,7 +9,7 @@
 	},
 	{
 		"proGood":"Centralized Management ",
-		"proName":"Better manage enterprises’ data assets, form an enterprise knowledge base to provide comprehensive, reasonably classified inheritance useful for business experience; ",
+		"proName":"Better manage enterprises’ data assets, form an enterprise knowledge base to provide reasonably classified inheritance useful for business experience; ",
 		"proDiff":"Important technical and business documents are short of accumulation, leading to lack of continuity or data losses of business and making it difficult to pass on business experience"
 	},
 	{
