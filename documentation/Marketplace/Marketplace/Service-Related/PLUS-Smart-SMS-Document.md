@@ -32,7 +32,7 @@ The verification code, industry notification and marketing SMSes have different 
 SMSes with the same contents can only be sent to the same user for three times within ten minutes.
 ## 3.	 Development Guide
 ### 3.1 Instructions for Use
-For SMS senders based on business scenario triggers and number contents sensitivity, it is recommended to use the API for SMS sending. Before sending, you need to contact customer service to configure the IP white list, callback address, and uplink address, and refer to the following documents for joint debugging of related interfaces.
+For SMS senders based on business scenario triggers and number contents sensitivity, it is recommended to use the API for SMS sending. Before sending, you need to contact customer service to configure the IP white list, callback address, and uplink address.
 ## 4.	 FAQs
 ### 4.1 Reasons of Sending Failures
 Common reasons for sending failures are failure in review and abnormal phone status.

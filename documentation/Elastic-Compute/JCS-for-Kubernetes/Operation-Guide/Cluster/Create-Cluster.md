@@ -11,4 +11,4 @@
 
 **Steps of Creating Cluster**
 
-   For details, please refer to the creation of JCS for Kubernetes.
+   For details, please refer to the creation of [JCS for Kubernetes](https://docs.jdcloud.com/cn/jcs-for-kubernetes/create-to-cluster).

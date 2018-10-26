@@ -138,7 +138,9 @@ items:
            - name: Compatible Interface Overview
              href: API-Reference-S3-Compatible/Compatibility-API/Compatibility-API-overview.md
            - name: Post Object
-             href: API-Reference-S3-Compatible/Compatibility-API/Post-Object-2.md        
+             href: API-Reference-S3-Compatible/Compatibility-API/Post-Object-2.md
+      - name: Error Response
+        href: API-Reference-S3-Compatible/Error-Response-2.md                
       - name: Expansion Interface
         items:
            - name: Compress Object
@@ -256,7 +258,7 @@ items:
            - name: Range Download
              href: SDK-Reference/Java-SDK/Range-Download-3.md
            - name: Management Object
-             href: SDK-Reference/Java-SDK/Manage-Objects-3.md
+             href:  SDK-Reference/Java-SDK/Manage-Objects-3.md
            - name: Delete Object
              href: SDK-Reference/Java-SDK/Delete-Object-3.md
            - name: Move Object

@@ -17,6 +17,8 @@ items:
             href: Monitoring-Rules-APIs/createAlarm.md
           - name: deleteAlarms
             href: Monitoring-Rules-APIs/deleteAlarms.md
+          - name: describeAlarmContacts
+            href: Monitoring-Rules-APIs/describeAlarmContacts.md
           - name: describeAlarmHistory
             href: Monitoring-Rules-APIs/describeAlarmHistory.md
           - name: describeAlarms
@@ -37,3 +39,5 @@ items:
             href: Monitoring-Items-APIs/describeMetrics.md
           - name: describeMetricsForCreateAlarm
             href: Monitoring-Items-APIs/describeMetricsForCreateAlarm.md
+          - name: lastDownsample
+            href: Monitoring-Items-APIs/lastDownsample.md

@@ -148,10 +148,10 @@
         - name: File Download
           href: Operation-Guide/Binlog-Management/Binlog-File-Download.md
   
-        - name: Security Management
-          items:
-          - name: Set White List
-            href: Operation-Guide/Security/Set-Whitelist.md
+      - name: Security Management
+        items:
+        - name: Set White List
+          href: Operation-Guide/Security/Set-Whitelist.md
        
       - name: Cloud on Single Database
         items:
