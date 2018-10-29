@@ -723,5 +723,23 @@
 		"id":"1031",
 		"button_title":"免费试用",
 		"main_title":"云搜索Elasticsearch"
+	},
+	{
+		"sub_title":"融合威胁情报、动态行为检测、机器学习异常检测",
+		"image_Url":"//img1.jcloudcs.com/cms/2892fcda-60a0-4d64-9ebd-f39f96aec07020181029172004.png",
+		"dynamic_image":"//img1.jcloudcs.com/cms/db6f1930-9f4c-4228-920f-56d2a0206a5020181029172010.png",
+		"name":"态势感知企业版开放公测",
+		"id":"1033",
+		"button_title":"立即申请",
+		"main_title":"态势感知企业版开放公测"
+	},
+	{
+		"sub_title":"公网IP不用换，快速提升京东云内服务的抗D能力",
+		"image_Url":"//img1.jcloudcs.com/cms/bb5bd928-ae6f-494c-88bf-8b18b5cf2dc420181029174700.png",
+		"dynamic_image":"//img1.jcloudcs.com/cms/c724c17c-aee3-44f5-94a1-1f4223995f1e20181029174705.png",
+		"name":"DDoS防护包重磅上市",
+		"id":"1034",
+		"button_title":"查看详情",
+		"main_title":"DDoS防护包重磅上市"
 	}
 ]
