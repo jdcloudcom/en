@@ -1,4 +1,4 @@
-# Customer Scenario
+# Scenario
 
 ## Scenario 1: Intranets access between instances
 

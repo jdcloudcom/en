@@ -1,4 +1,4 @@
-# Configure Elastic Network Interface Deletion Attributes
+# Configure Elastic Network Interface Delete Attributes
 
 You can configure this attribute to delete the elastic network interface that are associated together when deleting an instance.
 

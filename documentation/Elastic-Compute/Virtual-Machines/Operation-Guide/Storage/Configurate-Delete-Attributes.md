@@ -1,4 +1,4 @@
-# Configure Cloud Disk Deletion Attribute
+# Configure Cloud Disk Delete Attribute
 
 By configuring the attribute, you can ensure the attached cloud disk is deleted when the instance is deleted.
 

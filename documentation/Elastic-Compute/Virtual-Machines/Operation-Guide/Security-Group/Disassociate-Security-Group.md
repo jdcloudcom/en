@@ -1,4 +1,4 @@
-# Security Group Unbinding
+# Disassociate Security Group from VM
 
 ## Operation Steps
 1. Access [Virtual Machines Console](https://cns-console.jdcloud.com/host/compute/list) and enter the instance list page. Or access [JD Cloud Console](https://console.jdcloud.com) Click navigation bar on the left **Elastic Compute** - **Virtual Machines** to enter the instance list page.

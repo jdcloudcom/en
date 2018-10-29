@@ -1,4 +1,4 @@
-# Disassociate Elastic Network Interface
+# Detach Elastic Network Interface
 
 ## Usage Restrictions
 

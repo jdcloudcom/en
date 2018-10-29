@@ -1,4 +1,4 @@
-# View Instance
+# View Instance Information
 
 You can view the instances you have through the console:
 
