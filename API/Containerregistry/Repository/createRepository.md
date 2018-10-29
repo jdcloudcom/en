@@ -21,7 +21,7 @@ https://openapi.cr.jdcloud.com/v1/regions/{regionId}/registries/{registryName}/r
 ## Request Parameter
 |Name|Type|Required or Not|Default|Description|
 |---|---|---|---|---|
-|**description**|String|False| |Registry Description, <a href=”https://www.jdcloud.com/help/detail/3870/isCatalog/1”>refer to the public parameter specification</a>. <br>|
+|**description**|String|False| |Registry Description, <a href="https://www.jdcloud.com/help/detail/3870/isCatalog/1">refer to the public parameter specification</a>. <br>|
 |**repositoryName**|String|True| |Repository name. <br>Proprietary mode is allowed, such as default naming space nginx-web-app; or multiple repositories are gathered together with the naming space, such as project-a/nginx-web-app. <br>|
 
 

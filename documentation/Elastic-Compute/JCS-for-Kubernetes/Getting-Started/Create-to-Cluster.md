@@ -20,6 +20,7 @@ It is recommended that you use pay by configuration billing instances for perfor
 ## Create Cluster
 
  1. Open the console and select Elastic Compute>>JCS for Kubernetes>>cluster service>>cluster
+ ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/JCS-for-Kubernetes/新建Kubernetes集群集群信息.png)  
  2. Choose the creation region, click the “Create” button, it is suggested that you choose the cluster location and available area according to the business situation; by default, it is recommended that you select all available areas under the specified area in the default mode; you can also cancel an availability zone that has been selected and ensure that at least one available area is selected.
  3. Set the name and description: Name should not be null, which only supports Chinese text, figures, uppercase and lowercase letters, English text, underline “ _ ” and line-through “ - ”, with a length no more than 32 characters; description is an optional item, with a length no more than 256 characters.
  4. Cluster version: Currently, it only supports 1.8.12 version.
@@ -27,6 +28,7 @@ It is recommended that you use pay by configuration billing instances for perfor
  6. Client Certificate and Basic Authentication: By default, they are all open and it is recommended that they should be reserved; at least one should be reserved as open; Client Certificate: Certificate based on base64 encoding is used for authentication from client to cluster service endpoint; Basic Authentication: After opening, the client is allowed to use the user name and password to be authenticated at the cluster service endpoint.
  7. Add Accesskey: Select AccessKey at startup; if no Access Key is available, go to the Access Key management page to create a new Access Key and start it. Refer to Accesskey management.
 New working node group:
+ ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/JCS-for-Kubernetes/新建Kubernetes集群工作节点组.png)   
 8. VPC: Select the VPC to create. You can refer to the VPC configuration.
 9. Working node CIDR: For setting rules, you can refer to the rules of VPC subnet CIDR, and the CIDR mask range is 16~24.
 10. Image: It only supports JD Cloud customized image.

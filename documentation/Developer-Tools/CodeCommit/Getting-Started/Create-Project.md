@@ -1,8 +1,12 @@
-Log in the Projects page, click **New Project** and complete the namespace and Project name, description and permission
+Log in the Projects page, click **New Project**
 
-![2.png](https://img1.jcloudcs.com/cms/80582ae9-a09c-43a6-85ab-b6b78312bb2e20180906113313.png)
+![1.png](https://github.com/jdcloudcom/cn/blob/edit/image/codecommit/Project1.png)
 
- - namespace: Select **User** or **Group
+Fill in the Namespace, project name and description, and set the permission
+
+![2.png](https://github.com/jdcloudcom/cn/blob/edit/image/codecommit/Project2.png)
+
+ - Namespace: Select **Users** or **Groups**
 
 - Permission:
 
@@ -10,7 +14,7 @@ Log in the Projects page, click **New Project** and complete the namespace and P
 
  - Internal: Be able to be downloaded by the login user
 
- - Public: Be able to be downloaded by every person
+
  
 
-Click **Create Project
+Click **Create Project**

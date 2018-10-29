@@ -5,15 +5,15 @@
 
  Log in the creation page of the native container through the 3 methods below:
 
-a. Turn on the console, log in Elastic Compute-Native Container-Container Instance and click **Create**.
+a. Turn on the console, log in [Elastic Compute-Native Container-Container Instance](https://cns-console.jdcloud.com/host/container/list) and click **Create**.
 
-b. Turn on the console, log in Elastic Compute-Container Registry-Repository and click **Create Container**.
+b. Turn on the console, log in [Elastic Compute-Container Registry-Repository](https://cns-console.jdcloud.com/host/containerrepository/list) and click **Create Container**.
 
-c. Turn on the console, log in Elastic Compute-Container Registry-Image List and click **Create Container**.
+c. Turn on the console, log in [Elastic Compute-Container Registry-Image List](https://cns-console.jdcloud.com/host/containerimage/list) and click **Create Container**.
 
 Check JD Cloud images in the image option and check the registry address and image name.
 
-Note: Select repositories under different regions as much as possible.
+**Note: Select repositories under different regions as much as possible.**
 
 II. Integration to JCS for Kubernetes
 

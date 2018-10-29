@@ -74,36 +74,38 @@ Name | Type
 
 Request Sample
 ```
-[
-        {
-            "namespace":"test",
-            "metric":"vm.mem.usage1",
-            "tags":{
-                "host":"1.2.3.23",
-                "datacenter":"cn-north-1 "
-            },
-             "timestamp":15305424971,
-             "type":1,
-             "values":{
-             "value":"12342213"        
-            }
-        },
+{
+	"metricDataList": [
+	  {
+			"namespace": "test",
+			"metric": "vm.mem.usage1",
+			"dimensions": {
+				"host": "1.2.3.23",
+				"datacenter": "cn-north-1 "
+			},
+			"timestamp": 15305424971,
+			"type": 1,
+			"values": {
+				"value": "12342213"
+			}
+		},
 
-        {
-            "namespace":"test1",
-            "metric":"vm.cpu.usage",
-            "dimensions":{
-                "host":"1.2.3.19",
-                "tag":"bj "
-            },
-             "timestamp":1530542497,
-             "type":2,
-             "values":{
-             "avg":"80",
-             "max":"32424244120"
-            }
-        }
-]
+		{
+			"namespace": "test1",
+			"metric": "vm.cpu.usage",
+			"dimensions": {
+				"host": "1.2.3.19",
+				"tag": "bj"
+			},
+			"timestamp": 1530542497,
+			"type": 2,
+			"values": {
+				"avg": "80",
+				"max": "32424244120"
+			}
+		}
+	]
+}
 ```
 
 Return Sample
@@ -115,38 +117,26 @@ success：
     "requestId": "1111",
     "result": {
         "success": true,
-        "metricDataList": []
+        "errMetricDataList": []
     }
 }
+
 fail：
 {
-   "requestId": "1111",
-    "result": {
-        "success": false,
-        "metricDataList": [
-            {
-                "data": {
-                    "namespace": "test",
-                    "metric": "vm.mem.usage1",
-                    "dimensions": {
-                        "host": "1.2.3.23",
-                        "tag": "cn-north-1"
-                    },
-                    "timestamp": 15305424971,
-                    "type": 1,
-                    "values": {
-                        "value": "12342213"
-                    }
-                },
-                "errDetail": "Time value only allowed Secondtimestamps,length is 10"
-            }
-        ]
-    },
-    "error": {
-        "code": 400,
-        "message": "INVALID_ARGUMENT",
-        "status": "INVALID_ARGUMENT",
-        "details": null
-    }
+	"requestId": "1111",
+	"result": {
+		"success": false,
+		"errMetricDataList": [{
+			"ErrMetricData": "{\"namespace\":\"test1\",\"metric\":\"vm.cpu.usage\",\"dimensions\":{\"host\":\"1.2.3.19\",\"region\":\"bj\",\"tag\":\"bj\",\"tag2\":\"bj\",\"tag3\":\"bj\",\"tag4\":\"bj\"},\"timestamp\":1540361379,\"type\":2,\"values\":{\"avg\":\"80\",\"max\":\"32424244120\"}}",
+			"errDetail": "Invalid dimensions,dimensions num limited in 1 to 5 and not null"
+		}]
+	},
+	"error": {
+		"code": 400,
+		"message": "INVALID_ARGUMENT",
+		"status": "INVALID_ARGUMENT",
+		"details": null
+	}
 }
+
 ```

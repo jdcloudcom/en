@@ -3,5 +3,5 @@ See the following for the concepts and their interpretations used in the CodeCom
 
 | Terminology      |   Interpretation | 
 | :--------: | :--------:| 
-| Group  | Specify namespace and support user management group | 
+| Group  | Specify Namespace and support user management Group | 
 | Project  | ProjectBelong to one Group or User | 

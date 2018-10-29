@@ -48,7 +48,7 @@ After you have successfully registered an account and completed real-name verifi
    * SSD Cloud Disk as data disk: 20G~1,000G.
 
 * Networking:
-    * VPC and Subnet: You can plan and create a VPC and a subnet first. If not, it supports using the default VPC and subnet created automatically by the system. Please see [VPC](http://docs.jdcloud.com/cn/virtual-private-cloud/product-overview) and [Subnet](http://docs.jdcloud.com/cn/virtual-private-cloud/subnet-features) for details.
+    *  Virtual Private Cloud and Subnet: You are required to plan and create a Virtual Private Cloud and Subnet first. Please refer to [Virtual Private Cloud] (http://docs.jdcloud.com/cn/virtual-private-cloud/product-overview) and [Subnet] for details(http://docs.jdcloud.com/cn/virtual-private-cloud/subnet-features)。
     * Private IP: It is the specified private IP address of main network card of the Virtual Machines, which can be specified from the available IP addresses in the selected subnet. If there is no special requirement, it can be allocated automatically by the system. Once the intranet IP is allocated to the Virtual Machines, it cannot be changed.
     * Security Group: You can create a security group that meets the IAM requirement under each VPC. If not, it supports to associate one from the three security group modules created automatically by the system. Please see [Security Group Overview](http://docs.jdcloud.com/cn/virtual-private-cloud/security-group-features) for details.
 

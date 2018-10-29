@@ -15,7 +15,7 @@ This chapter mainly describes the management of site monitoring tasks, including
  
  ### Site Monitoring Quotas
   Quota Items | Number of Quotas 
-  -- | --
-  Number of Site Monitoring Tasks | 20 site monitoring tasks
-  Number of Site Addresses in One Detection | 1 site address
-  Number of Custom Detection Points | 5 custom detection points
+ -- | --
+ Number of Site Monitoring Tasks | 20 site monitoring tasks
+ Number of Site Addresses in One Detection | 1 site address
+ Number of Custom Detection Points | 5 custom detection points

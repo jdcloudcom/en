@@ -217,10 +217,10 @@ HDFS Usage|HDFS Usage	|Byte|	Monitor hdfs usage of cluster; it is advised that t
 Total Number of NameNode Block|Total Number of NameNode Block	|Nr.|	1 Minute
 Total File Number Managed by NameNode	|Total File Number Managed by NameNode|Nr.|	Monitor and set early warnings on the total file number, by which whether there is task of large amount of write files and deleting large number of files can be viewed.
 Survival Number of datanode Node|Survival Number of datanode Node	|Nr.|	Too much loss of nodes may lead to block loss.
-Average rpc Calling Time|    -   	|Millisecond|	-
-Average rpc Running Time|    -   	|Millisecond|	Usually when hdfs meets an emergency of an exception task of large amount of access, the parameter will become very large, leading to slow running in the process of other users accessing hdfs, and thereby influence the task execution time.
+Average rpc Calling Time|－|Millisecond|	-
+Average rpc Running Time|－|Millisecond|Usually when hdfs meets an emergency of an exception task of large amount of access, the parameter will become very large, leading to slow running in the process of other users accessing hdfs, and thereby influence the task execution time.
 Current Open Number of rpc|Current Open Number of rpc|Nr.|	-
-Length of queue called by PRC currently|	|Nr.|	If the callqueue queue value always stays at a higher level, for example, the CallQueue length equals to handlerX100 to NN, then NN may have received a large number of requests or it takes long time for the server to process rpc request and leads to call heap, etc.
+Length of queue called by PRC currently|－|Nr.|If the callqueue queue value always stays at a higher level, for example, the CallQueue length equals to handlerX100 to NN, then NN may have received a large number of requests or it takes long time for the server to process rpc request and leads to call heap, etc.
 
 ## JCQ Monitoring Metrics
 **Topic**
