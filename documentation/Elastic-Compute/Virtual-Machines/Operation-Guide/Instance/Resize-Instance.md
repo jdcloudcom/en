@@ -1,4 +1,4 @@
-# Resize
+# Resize Instance
 
 At the beginning of the application, you can use small instance type when the request volume is smaller, and you can quickly resize the instance type when the application and the service request volume increases rapidly, thus enhancing the processing speed of the service and better meeting your needs.
 

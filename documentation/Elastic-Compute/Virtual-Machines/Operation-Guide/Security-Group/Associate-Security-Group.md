@@ -1,4 +1,4 @@
-# Security Group Associating Instance
+# Associate Security Group to VM
 You can associate a security group when creating instances, or you can select security group to associate to the specified instance on the security group page after instance is created.
 
 Each network interface of an instance must be associated to at least one security group.

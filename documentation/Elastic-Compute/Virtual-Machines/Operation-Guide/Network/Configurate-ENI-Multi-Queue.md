@@ -1,4 +1,4 @@
-# Configuring Network Interface Multi-Queue
+# Configure Network Interface Multi-Queue
 
 There is bottleneck for a single vCPU when handles the network interruption. You can configure the network interface multi-queue to distribute the network interface interruption in the instance to different vCPUs so as to improve network processing performance.
 

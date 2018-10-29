@@ -1,4 +1,4 @@
-# Bind Elastic Network Interface
+# Attach Elastic Network Interface
 
 Elastic network interface mainly has the following associated information:
 
