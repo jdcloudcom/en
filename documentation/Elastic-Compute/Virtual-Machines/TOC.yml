@@ -436,7 +436,7 @@ items:
                   - name: What if the VM Auto Reboots in Early Morning
                     href: Windows-Troubleshooting/Fault-Class/What-should-I-do-if-the-cloud-host-automatically-restarts-in-the-early-morning.md
                   - name: Give "8000FFFFwindows update Unknown Error" Message When Updating Patches in Windows2008
-                    href: Windows-Troubleshooting/Fault-Class/Windows-2008-update-patch-reported-8000FFFF-windows-update-encountered-an-unknown-error.md
+                    href: Windows-Troubleshooting/Fault-Class/windows-update-encountered-an-unknown-error.md
                   - name: Error Occurs and Source Files Not Found during .NET Framework 3.5.1 Installation in Windows 2012
                     href: Windows-Troubleshooting/Fault-Class/Windows-2012-installation-NET-Framework-3-5-1-error-can-not-find-the-source-file.md
                   - name: Windows Failed to Refresh Server Manager
