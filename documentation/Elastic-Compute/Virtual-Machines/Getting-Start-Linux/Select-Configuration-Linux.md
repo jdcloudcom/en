@@ -7,7 +7,7 @@ After you have successfully registered an account and completed real-name verifi
 
 * Region and Availability Zone:
    
-	Currently, it covers domestic **cn-north-1 (both available), cn-south-1 (single available), cn-east-1 (single available), cn-east-2 (both available)**, the four multi-available zones. These zones are completed isolated from each other to ensure maximum stability and fault tolerance between them. Please refer to [Region and Availability Zone] for detailed regional information.
+	Currently, it covers domestic **cn-north-1 (multiple available zones), cn-south-1 (single available zone), cn-east-1 (single available zone), cn-east-2 (mutliple available zones)**, the four multi-available zones. These zones are completed isolated from each other to ensure maximum stability and fault tolerance between them. Please refer to [Region and Availability Zone] for detailed regional information.
    
 	The following points are recommended for reference when selecting a region:
    
@@ -48,7 +48,7 @@ After you have successfully registered an account and completed real-name verifi
    * SSD Cloud Disk as data disk: 20G~1,000G.
 
 * Networking:
-    *  Virtual Private Cloud and Subnet: You are required to plan and create a Virtual Private Cloud and Subnet first. Please refer to [Virtual Private Cloud] (http://docs.jdcloud.com/cn/virtual-private-cloud/product-overview) and [Subnet] for details(http://docs.jdcloud.com/cn/virtual-private-cloud/subnet-features)。
+    * VPC and Subnet: Select VPC and Subnet: You need to create a VPC and a subnet in the VPC first. Please see [VPC](http://docs.jdcloud.com/virtual-private-cloud/product-overview) and [Subnet](http://docs.jdcloud.com/virtual-private-cloud/subnet-features) for details.
     * Private IP: It is the specified private IP address of main network card of the Virtual Machines, which can be specified from the available IP addresses in the selected subnet. If there is no special requirement, it can be allocated automatically by the system. Once the intranet IP is allocated to the Virtual Machines, it cannot be changed.
     * Security Group: You can create a security group that meets the IAM requirement under each VPC. If not, it supports to associate one from the three security group modules created automatically by the system. Please see [Security Group Overview](http://docs.jdcloud.com/cn/virtual-private-cloud/security-group-features) for details.
 
