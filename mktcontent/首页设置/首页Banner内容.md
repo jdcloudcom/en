@@ -723,5 +723,23 @@
 		"id":"1031",
 		"button_title":"Start Free",
 		"main_title":"JCS for Elasticsearch"
+	},
+	{
+		"sub_title":"Integrating Threat Intelligence, dynamic behavior detection and machine learning anomaly detection",
+		"image_Url":"//img1.jcloudcs.com/cms/2892fcda-60a0-4d64-9ebd-f39f96aec07020181029172004.png",
+		"dynamic_image":"//img1.jcloudcs.com/cms/db6f1930-9f4c-4228-920f-56d2a0206a5020181029172010.png",
+		"name":"Situational Awareness Enterprise Version",
+		"id":"1033",
+		"button_title":"Apply Now",
+		"main_title":"Situational Awareness Enterprise Version"
+	},
+	{
+		"sub_title":"Without changing public IP, rapidly improve the Anti-DDoS service capacity of JD Cloud.",
+		"image_Url":"//img1.jcloudcs.com/cms/bb5bd928-ae6f-494c-88bf-8b18b5cf2dc420181029174700.png",
+		"dynamic_image":"//img1.jcloudcs.com/cms/c724c17c-aee3-44f5-94a1-1f4223995f1e20181029174705.png",
+		"name":"Anti-DDoS Protection Package",
+		"id":"1034",
+		"button_title":"More",
+		"main_title":"Anti-DDoS Protection Package"
 	}
 ]
