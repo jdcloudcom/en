@@ -8,19 +8,20 @@ After you have successfully registered an account and completed real-name verifi
 * Region and Availability Zone:
 
 	Currently, it covers domestic **cn-north-1 (both available), cn-south-1 (single available), cn-east-1 (single available), cn-east-2 (both available)**, the four multi-available zones. These zones are completed isolated from each other to ensure maximum stability and fault tolerance between them. Please refer to [Region and Availability Zone] for detailed regional information.
-
 	The following points are recommended for reference when selecting a region:
-
+	
 	* Choose the region that is close to your customers to the maximum, which can reduce the access delay and increase the download speed. At the same time, JD Cloud provides BGP EIP in cn-north-1, cn-south-1 and cn-east-2, which can ensure fast access in mainland China. For instance, if most of the users are located near the Pearl River Delta, the cn-south-1 region is a better choice;
 	* As for the deployment area of ​​other JD Cloud products and the communication requirements of the instance, by default, cross-region mutual intranet access of the instances cannot be realized and access to other cloud products, such as the cloud database and cloud cache, cannot be realized neither. The instance only supports associating the EIP and Load Balancer under the same region.
 (The above mutual intranet access refers to the resources access under the same account, and the resource intranets of different accounts are completely isolated).
 
 * Creation Method:
-   
+
    There are three methods to create: **Create Customized Instance**, **Create Instance by Instance Template**, **Create Instance in Availability Group**.
+    
     * Create Customized Instance: customize all instance configuration items.
     * Create Instance by Instance Template: quickly create an instance based on the preset configuration of the established instance template. Please see [Instance Template](../Operation-Guide/Instance-Template/Instance-Template-Overview.md) for details.
     * Create Instance in Availability Group: quickly create an instance based on the available zone and instance template specified by the established Availability Group. Please see [Availability Group](../../Availability-Group/Introduction/Product-Overview.md) for details.
+
 * Image:
    
    It provides **Public Image**, **Private Image**, **Shared Image** and **Marketplace Image**.
@@ -29,9 +30,11 @@ After you have successfully registered an account and completed real-name verifi
    * Private Image: It is a customized image created based on the user's VM instance. You can create the image for a machine deployed with businesses and quickly create multiple machines with the same configuration and software environment based on this image. You can share the private image with other JD Cloud users, and the shared image will be displayed in the shared image list of the target user in the same region. The private image is only available to the owner and the specified shared accounts.
    * Shared Image: a user-defined image shared by other JD Cloud users through the image sharing feature. The shared image can only be used to create VM instance under the same region, while the basic information modification and deletion cannot be performed. If the shared user cancels the sharing, the image will be automatically deleted from the list.
    * Marketplace Image: It is provided by the service provider in the cloud marketplace, which integrates the running environment or software for different business scenarios, so that users can quickly deploy services and all users can use it. It is applicable to all users.       
+
 * Specifications:
     
     It provides for instance types, i.e., **General**, **Compute**, **Memory Optimized**, **High Frequency Compute** from the minimum specification 1C1GB (such as g.s1.micro) to the maximum specification 72C576GB (such as M.n2.18xlarge). You can select the instance type of the optimal CPU memory ratio according to different application levels. Please see [Instance Type](../Introduction/Instance-Type-Family.md) for details.
+
 * Storage:
     
     JD Cloud provides cloud disk and local disk. A local disk is a storage device on a physical machine where the cloud server is located. It can obtain a lower delay, but there is a risk of single point data loss. The Cloud Disk adopts a multi-backup and distributed storage mode with high data reliability. The Cloud Disk provides **SSD Cloud Disk** and **Premium Hdd Cloud Disk** to be used as the system disk and data disk for the instance. Please see [Cloud Disk Type] for details.
@@ -45,7 +48,7 @@ After you have successfully registered an account and completed real-name verifi
    * SSD Cloud Disk as Data Disk: 20G~1,000G. 
  
 * Networking:
-    * VPC and Subnet: You can plan and create a VPC and a subnet first. If not, it supports using the default VPC and subnet created automatically by the system. Please see [VPC](http://docs.jdcloud.com/cn/virtual-private-cloud/product-overview) and [Subnet](http://docs.jdcloud.com/cn/virtual-private-cloud/subnet-features) for details.
+    *  Virtual Private Cloud and Subnet: You are required to plan and create a Virtual Private Cloud and Subnet first. Please refer to [Virtual Private Cloud] (http://docs.jdcloud.com/cn/virtual-private-cloud/product-overview) and [Subnet] for details(http://docs.jdcloud.com/cn/virtual-private-cloud/subnet-features)。
     * Private IP: It is the specified private IP address of main network card of the Virtual Machines, which can be specified from the available IP addresses in the selected subnet. If there is no special requirement, it can be allocated automatically by the system. Once the intranet IP is allocated to the Virtual Machines, it cannot be changed.
     * Security Group: You can create a security group that meets the IAM requirement under each VPC. If not, it supports to associate one from the three security group modules created automatically by the system. Please see [Security Group Overview](http://docs.jdcloud.com/cn/virtual-private-cloud/security-group-features) for details.
  
