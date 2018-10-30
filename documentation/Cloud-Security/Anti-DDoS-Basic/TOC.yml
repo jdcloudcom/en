@@ -27,17 +27,13 @@ items:
 - name: Getting Started
   items:
     - name: Capture Anti-DDoS Basic Capabilities
-      href: Getting-Started/Anti-DDos-Basic-Started.md
+      href: Getting-Started/Anti-DDoS-Basic-Started.md
 - name: Operation Guide
   items:
     - name: Protection Threshold Setting
       href: Operation-Guide/Protection-Threshold-Set.md
     - name: View Monitoring Log
       href: Operation-Guide/View-Report-log.md            
-- name: Best Practices
-  items:
-    - name: Anti-DDoS Basic + Advanced Anti-DDoS Linkage Scheme
-      href: Best-Practices/Linkage-Scheme.md	
 - name: FAQ
   href: FAQ/FAQ.md
 - name: API Reference

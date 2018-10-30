@@ -13,9 +13,9 @@ This chapter mainly describes the management of site monitoring tasks, including
  Match Response Content | Response content is recommended to use English, with the length of no more than 1KB.
  Alarm Rules | The statistical period in the alarm rules cannot be less than the detection frequency in the monitoring tasks.
  
- ### Site Monitoring Quotas
-  Quota Items | Number of Quotas 
- -- | --
+### Site Monitoring Quotas
+ Quota Items | Number of Quotas 
+  -- | --
  Number of Site Monitoring Tasks | 20 site monitoring tasks
  Number of Site Addresses in One Detection | 1 site address
  Number of Custom Detection Points | 5 custom detection points

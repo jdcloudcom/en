@@ -19,6 +19,8 @@
       herf: Introduction/Restrictions.md
     - name: Application Scenarios
       herf: Introduction/Application-Scenarios.md
+    - name: Public Beta Introduction
+      herf: Introduction/Public-Beta-Introduction.md      
 
   - name: Getting Started
     items:

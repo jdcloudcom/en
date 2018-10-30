@@ -33,13 +33,9 @@ https://openapi.cr.jdcloud.com/v1/regions/{regionId}/registries/{registryName}:g
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**authorizationData**|AuthorizationData| |
-### AuthorizationData
-|Name|Type|Description|
-|---|---|---|
-|**authorizationToken**|String|A character string based on base64 code, including the authorization information of assigned JCR registry. After decoding, it may be used for docker login.|
-|**expiresAt**|String|Unix clock, which records the expiration time of authorization token. The default valid period of Authorization tokens is 12 hours.|
-|**loginCmdLine**|String|The docker login command line directly used by the user|
+|**authorizationToken**|String| |
+|**expiresAt**|String| |
+|**loginCmdLine**|String| |
 
 ## Return Code
 |Return Code|Description|

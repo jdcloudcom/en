@@ -39,7 +39,7 @@ https://openapi.cr.jdcloud.com/v1/regions/{regionId}/registries
 |**description**|String|Registry Description, <a href="https://www.jdcloud.com/help/detail/3870/isCatalog/1">refer to the public parameter specification</a>.|
 |**name**|String|Registry Name, <a href="https://www.jdcloud.com/help/detail/3870/isCatalog/1">refer to the public parameter specification</a>.|
 |**registryUri**|String|registry endporint url|
-|**totalSpaceUsedMB**|Integer|regsitry Total Bucket Unit Used by Registry (MB)|
+|**totalSpaceUsedMB**|Number|regsitry Total Bucket Unit Used by Registry (MB)|
 
 ## Return Code
 |Return Code|Description|

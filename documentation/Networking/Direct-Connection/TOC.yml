@@ -4,7 +4,7 @@
   - name: Introduction
     items:
       - name: Product Overview
-        href: Introduction/Product-Overview.md
+        href: Introduction/Direct-Connect-Service-Overview.md
       - name: Basic Infrastructure
         href: Introduction/Basic-Infrastructure.md
       - name: Core Concept
@@ -14,11 +14,11 @@
       - name: Features
         items:
           - name: Direct Connection
-            href: Introduction/Features/Direct-Connect-Features.md
+            href: Introduction/Functions/Direct-Connect.md
           - name: Hosted Connect
-            href: Introduction/Features/Hosted-Connect-Features.md
+            href: Introduction/Functions/Hosted-Connect.md
           - name: Border Gateway
-            href: Introduction/Features/Border-Gateway-Features.md
+            href: Introduction/Functions/Border-Gateway.md
       - name: Restrictions
         href: Introduction/Restrictions.md
       - name: Application Scenarios
@@ -60,13 +60,11 @@
     href:
     status: 0
   - name: User Agreement
-    status: 0
     items:
     - name: Terms of Service
       href:
       status: 0
   - name: Related Resources
-    status: 0
     items:
     - name: Document History
       href:
