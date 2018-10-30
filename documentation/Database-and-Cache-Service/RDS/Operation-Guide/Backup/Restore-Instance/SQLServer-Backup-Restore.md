@@ -22,6 +22,6 @@ For example:
 ![Restore Instance 6](../../../../image/RDS/Restore-Instance-5.png)
 
 ## 5. Instance Status
-The instance status is displayed as "Restoring" (Restore Instance)
-<br> or "Single database backup recovering" (SQL Server only)
+The instance status is displayed as "**Recovering**" (Restore Instance)
+<br> or "**Single database backup recovering" (SQL Server only)
 
