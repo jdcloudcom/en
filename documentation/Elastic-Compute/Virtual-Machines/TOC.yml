@@ -342,9 +342,9 @@ items:
               - name: Method to Automatically Restore Ubuntu System after DNS Modification and Restarting
                 href: Linux-Troubleshooting/Fault-Class/Ubuntu-system-recovery-method.md
          - name: Windows Operation and Maintenance Guide
-           items:
-              - name: Windows Environment Configuration
-                items:
+        items:
+           - name: Windows Environment Configuration
+             items:
               - name: Configure https for iis Service in Windows 2008
                 href: Windows-Troubleshooting/Configuration-Class/Windows-2008-iis-service-configuration-https.md
               - name: Modify Desktop Background in Windows 2012
@@ -423,8 +423,8 @@ items:
                 href: Windows-Troubleshooting/Configuration-Class/Windows2012-set-remote-desktop-does-not-disconnect.md
               - name: Windows 2012 NETFramework3.5 Installation Method
                 href: Windows-Troubleshooting/Configuration-Class/Windows2012-system-installation-NETFramework3.5-installation-method.md
-         - name: Windows Startup at Boot
-           items:
+      - name: Windows Startup at Boot
+        items:
               - name: Windows System
                 href: Windows-Troubleshooting/Configure-boot-automatically/Windows-system.md
               - name: Windows Faults
