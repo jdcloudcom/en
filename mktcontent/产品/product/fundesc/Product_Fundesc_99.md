@@ -5,7 +5,7 @@
 			{
 				"funcName":"",
 				"funcTitle":"Provide DDoS protection functions of network layers",
-				"funcP":"The Anti-DDoS Protection Package can protect you from various common DDoS attacks, e.g. traffic attacks, computing resource consumption attacks. \n"
+				"funcP":"The Anti-DDoS Protection Package can protect you from various common DDoS attacks, e.g. volume attack, computing resource consumption attacks. \n"
 			}
 		]
 	},
