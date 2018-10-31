@@ -728,10 +728,10 @@
 		"sub_title":"Integrating Threat Intelligence, dynamic behavior detection and machine learning anomaly detection",
 		"image_Url":"//img1.jcloudcs.com/cms/2892fcda-60a0-4d64-9ebd-f39f96aec07020181029172004.png",
 		"dynamic_image":"//img1.jcloudcs.com/cms/db6f1930-9f4c-4228-920f-56d2a0206a5020181029172010.png",
-		"name":"Situational Awareness Enterprise Version",
+		"name":"Situation Awareness Enterprise Version",
 		"id":"1033",
 		"button_title":"Apply Now",
-		"main_title":"Situational Awareness Enterprise Version"
+		"main_title":"Situation Awareness Enterprise Version"
 	},
 	{
 		"sub_title":"Without changing public IP, rapidly improve the Anti-DDoS service capacity of JD Cloud.",
