@@ -13,12 +13,12 @@
 		"proDiff":""
 	},
 	{
-		"proGood":"StrongDDoS Attack Protection",
+		"proGood":"Strong DDoS Attack Protection",
 		"proName":"Able to defend against a variety of common 4-tier DDoSattacks, including but not limited to SYN Flood, ACK Flood, ICMP Flood, UDP Flood and TCP Flood.",
 		"proDiff":""
 	},
 	{
-		"proGood":"Simple configuration, and IP address is not required to be changed",
+		"proGood":"Simple configuration, and Public IP is not required to be changed",
 		"proName":"Directly enhance protection capacity for Public IP within JD Cloud, with Simple configuration, and IP address is not required to be changed." ,
 		"proDiff":""
 	},
