@@ -21,4 +21,4 @@ Different keys are logical and relational. If the "Department: R&D Department" a
 ![Search Tag 3](../../../image/RDS/Search-Tag-3.png)
 
 ## 3. Confirmation
-Click ***Query*** to filter the database instance after the selection.
+Click ***Filter*** to filter the database instance after the selection.
