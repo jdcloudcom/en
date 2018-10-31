@@ -18,7 +18,6 @@ Internet access configured with database instances
 ![Internet Access 2](../../../image/RDS/Internet-Access-2.png)
 
 5. After the internet access is enabled, the system will automatically allocate an internet domain name address.
-![Internet Access 3](../../../image/RDS/Internet-Access-3.png)
 
 ## 2. Disable Internet Access
 1. Login the RDS console.
@@ -27,4 +26,4 @@ Internet access configured with database instances
 ![Internet Access 3](../../../image/RDS/Internet-Access-3.png)
 
 4. In the confirmation pop-up window, click ***OK*** and the internet access of the system will be disabled.
-![Internet Access 4](../../../image/RDS/Internet-Access-4.png)
+
