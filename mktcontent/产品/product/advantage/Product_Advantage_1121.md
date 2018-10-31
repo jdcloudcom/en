@@ -14,7 +14,7 @@
 	},
 	{
 		"proGood":"Simple and Easy to Use",
-		"proName":"Various graphic workstations, super-computing applications, deep-learning frames and computing clusters can be obtained by one click; resources can be created within several minutes; automatic deployment and perfect connection can be made; and 7X24h all-around operation and maintenance is applied, making you focus on core businesses.",
+		"proName":"Obtain GPU computing cluster on-line, make automatic deployment, perfectly connect to JD Cloud products and provide 7X24h all-around operation and maintenance, making you really focus on the core business.",
 		"proDiff":"It needs to purchase the device on one’s own and the purchase period is very long. The one-time CAPEX investment is too high and the resource utilization is unbalanced; the professional operation and maintenance team is equipped; the manual disaster tolerance is required; and both the time and effort are required."
 	},
 	{
