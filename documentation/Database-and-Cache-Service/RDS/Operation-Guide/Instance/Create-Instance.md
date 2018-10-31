@@ -7,7 +7,7 @@ Cloud database instance can be rapidly created through the console.
 
 ## 1. Operation Entrance
 - Enter the [List Page of RDS Instances] to see the summary information of cloud database instances in the current region, including billing information and expiration time.
-- Click***Create*** to create a new instance.
+- Click **Create** to create a new instance.
 
 ![Instance List](../../../image/RDS/Instance-List.png)
    
