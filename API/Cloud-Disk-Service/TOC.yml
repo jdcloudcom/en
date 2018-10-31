@@ -1,0 +1,39 @@
+  name: Cloud Disk Service
+  href:
+  items:
+  - name: API Overview
+    href: overview.md
+  - name: Update History
+    herf: ChangeLog.md
+  - name: CDS APIs
+    items:
+      - name: createDisks
+        href: CDS-APIs/createDisks.md
+      - name: deleteDisk
+        href: CDS-APIs/deleteDisk.md
+      - name: modifyDiskAttribute
+        href: CDS-APIs/modifyDiskAttribute.md
+      - name: extendDisk
+        href: CDS-APIs/extendDisk.md
+      - name: describeDisk
+        href: CDS-APIs/describeDisk.md
+      - name: describeDisks
+        href: CDS-APIs/describeDisks.md
+      - name: restoreDisk
+        href: CDS-APIs/restoreDisk.md
+
+  - name: Snapshot APIs
+    items:
+      - name: createSnapshot
+        href: Snapshot-APIs/createSnapshot.md
+      - name: deleteSnapshot 
+        href: Snapshot-APIs/deleteSnapshot.md
+      - name: modifySnpAttribute
+        href: Snapshot-APIs/modifySnpAttribute.md
+      - name: modifySnapshotAttribute
+        href: Snapshot-APIs/modifySnapshotAttribute.md
+        status: 0
+      - name: describeSnapshot
+        href: Snapshot-APIs/describeSnapshot.md
+      - name: describeSnapshots
+        href: Snapshot-APIs/describeSnapshots.md

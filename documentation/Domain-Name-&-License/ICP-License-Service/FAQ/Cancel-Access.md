@@ -1,0 +1,3 @@
+# About “Cancel the Access”
+
+Cancel the access regarding your filing information from JD Cloud. After canceling the access regarding your filing information from JD Cloud, JD Cloud will no longer be your access provider, and the domain name whose access has been cancelled will not be able to point to the server within JD Cloud and not be able to realize the access. However, your filing No. at the Ministry of Industry and Information Technology of the PRC still exists. Please contact the space provider in use as soon as possible to submit the application for the access of filing as soon as possible. Otherwise, the filing information has the risk of being written off by the authority.

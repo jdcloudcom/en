@@ -1,0 +1,19 @@
+name: Media Processing Service
+items:
+  - name: API Overview
+    href: overview.md
+  - name: Update History
+    href: ChangeLog.md
+  - name: Media Processing APIs
+    items:
+      - name: createThumbnailTask
+        href: Media-Processing-APIs/createThumbnailTask.md
+      - name: getNotification
+        href: Media-Processing-APIs/getNotification.md
+      - name: getThumbnailTask
+        href: Media-Processing-APIs/getThumbnailTask.md
+      - name: listThumbnailTask
+        href: Media-Processing-APIs/listThumbnailTask.md
+      - name: setNotification
+        href: Media-Processing-APIs/setNotification.md
+  

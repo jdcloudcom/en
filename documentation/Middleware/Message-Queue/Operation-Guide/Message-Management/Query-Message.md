@@ -1,17 +1,18 @@
-# 查询消息
+# Query Messages
 
-## 前提条件
-- 消息已经在所查询的topic中发送
-- 所查询的消息在消息生命周期内（3天）
+## Prerequisites
+- The message has been sent in the queried topic.
+- The queried message is in the message life cycle (3 days).
 
-## 操作步骤
-### 1. 按topic ID查询
+## Procedure
+### 1. Search by the topic ID.
 
-![查询1](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/Message-Queue/查询-01.png)
-选取想要查询的topic名称和时间范围，点击搜索，得到查询结果。  
-可以点击某条message，查看详情
-### 2. 按message ID查询
+![Search1](https://github.com/jdcloudcom/en/blob/messagequeue/image/Internet-Middleware/Message-Queue/查询-01.png)
 
-![查询1](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/Message-Queue/查询-02.png)
-选取想要查询的topic名称,输入message ID，选取时间范围，点击搜索。  
-可以点击某条message，查看详情
+Choose name and time duration of the topic. Click **Search** to view the results.  
+You can choose one message, and see the details.
+### 2. Search by the Message ID.
+
+![Search1](https://github.com/jdcloudcom/en/blob/messagequeue/image/Internet-Middleware/Message-Queue/查询-02.png)
+Choose topic name that you want to search. Input message ID. Choose time duration and click **Search**.  
+You can choose one message, and see the details.

@@ -1,0 +1,47 @@
+  name: Elasticsearch
+  href: 
+  items:
+  - name: Introduction
+    items:
+    - name: Product Overview
+      herf: Introduction/What-Is-ES.md
+    - name: Core Concepts
+      herf: Introduction/Core-Concepts.md
+    - name: Basic Architecture
+      herf: Introduction/Basic-Infrastructure.md
+    - name: Benefits
+      herf: Introduction/Benefits.md
+    - name: Features
+      herf: Introduction/Functions.md
+    - name: Specifications
+      herf: Introduction/Specification.md
+    - name: Restrictions
+      herf: Introduction/Restrictions.md
+    - name: Application Scenarios 
+      herf: Introduction/Application-Scenarios.md        
+  - name: FAQ
+    href: FAQ/FAQ.md
+  - name: API Reference
+    href: 
+    status: 0
+  - name: SDK Reference
+    href:
+  - name: User Agreements
+    status: 0
+    items:
+    - name: Service Terms
+      href: User-Agreements/Product-Terms-of-Service.md           
+      status: 0      
+    - name: SLA
+      href: User-Agreements/SLA.md           
+      status: 0       
+  - name: Related Resources
+    items:
+    - name: Document History
+      href: Related-Resources/Document-History.md   
+    - name: ICP Filing
+      href:           
+      status: 0        
+    - name: Glossary
+      href:          
+      status: 0

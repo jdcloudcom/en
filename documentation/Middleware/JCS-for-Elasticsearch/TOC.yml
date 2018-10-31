@@ -1,0 +1,63 @@
+  name: JCS for Elasticsearch
+  href: 
+  items:
+  - name: Introduction
+    items:
+      - name: Product Overview
+        href: Introduction/Product-Overview.md
+      - name: Core Concepts
+        href: Introduction/Core-Concepts.md
+      - name: Basic Architecture
+        href: Introduction/Basic-Infrastructure.md
+      - name: Benefits
+        href: Introduction/Benefits.md
+      - name: Features
+        href: Introduction/Features.md
+      - name: Specifications
+        href: Introduction/Specifications.md
+      - name: Restrictions
+        href: Introduction/Restrictions.md
+      - name: Application Scenarios 
+        href: Introduction/Applicaton-Scenarios.md    
+  - name: Pricing
+    items:
+      - name: Billing Overview
+        href: Pricing/Billing-Overview.md
+      - name: Billing Rules
+        href: Pricing/Billing-Rules.md
+      - name: Price Overview
+        href: Pricing/Price-Overview.md
+      - name: Purchase Process
+        href: Pricing/Purchase-Process.md 
+      - name: Renew Process
+        href: Pricing/Renewal-Process.md
+  - name: Getting Started
+    items:
+      - name: Getting Started Overview
+        href: Getting-Started/Overview.md
+      - name: Create ES
+        href: Getting-Started/Create-ES.md
+      - name: Configure ES
+        href: Getting-Started/Configure-ES.md
+      - name: View ES
+        href: Getting-Started/View-ES.md
+      - name: Change ES
+        href: Getting-Started/Change-ES.md
+      - name: Delete ES
+        href: Getting-Started/Delete-ES.md
+  - name: Operation Guide
+    items:
+      - name: Access Cluster
+        href: Operation-Guide/connect-ES.md
+      - name: Monitor Cluster
+        href: Operation-Guide/Monitoring.md
+      - name: Manage Cluster
+        href: Operation-Guide/manage-cluster.md        
+  - name: FAQ
+    href: FAQ/FAQ.md
+  - name: API Reference
+    href: API-Reference/API-Reference.md
+  - name: Related Resources
+    items:
+    - name: Document History
+      href: Related-Resources/Document-History.md 

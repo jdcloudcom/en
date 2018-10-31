@@ -1,0 +1,15 @@
+﻿Parameter set
+	Name, description, database type, creation time, operation, copy, edit, delete, cancel, OK
+
+	Create parameter set, database type, version, name, enter the name, with the length of not more than 32 characters; description, please enter the description, with the length of not more than 64 characters;
+	Parameter:
+		Edit the parameter, parameter name, parameter run value, parameter default value, parameter value ranges, whether to reboot, save, before change, after change, no parameter available at present, parameter acquisition failure, please retry later, parameter save failure, please retry later
+	Change history:
+		Time range, name, parameter before change, parameter after change, change time, no change history available at present, change history acquisition failure, please retry later, no data change 
+	Cloud database:
+		Name, database type, instance type family, status, parameter set takes effect, creation time, operation, no associated RDS instance available at present, reboot, in synchronization, effective, to be rebooted, regular instant, read-only instance, RDS acquisition failure, please retry later, confirm to reboot the could database,
+
+	Such operation will copy all parameter configuration under the parameter set, copy the parameter set, close,
+	Import parameter, select file, and please select *.cnf files with the size of not more than 1MB, 
+	Please select the database type, the maximum length of 64 characters, please select the database version, must provide a name, the name length needs to not exceed 32 characters, description length needs to not exceed 64 characters, not in the parameter range, must provide a parameter, the format is improper, the parameter value is the multiple of 4096, not in the parameter range, 
+	The parameter set quota of the current area has been full, parameter set list acquisition failure, please retry later! Confirm the deletion of parameter set; parameter set deletion failure, please retry later!

@@ -1,0 +1,102 @@
+  name: Network Load Balancer
+  href: 
+  items:
+  - name: Introduction
+    items:
+      - name: Product Overview
+        href: Introduction/Product-Overview.md
+      - name: Core Concept
+        href: Introduction/Core-Concepts.md
+      - name: Basic Infrastructure
+        href: Introduction/Basic-Infrastructure.md
+      - name: Benefits
+        href: Introduction/Benefits.md
+      - name: Features
+        href: Introduction/Features.md
+      - name: Specifications
+        href: Introduction/Specification.md
+      - name: Restrictions
+        href: Introduction/Restrictions.md
+      - name: Application Scenarios 
+        href: Introduction/Application-Scenarios.md    
+  - name: Pricing
+    items:
+      - name: Billing Overview
+        href: Pricing/Pricing.md
+      - name: Billing Rules
+        href: Pricing/Billing-Rules.md
+      - name: Price Overview
+        href: Pricing/Price-Overview.md
+      - name: Purchase Process
+        href: Pricing/Purchase-Process.md 
+      - name: Renew-Process
+        href: Pricing/Renew-Process.md
+  - name: Getting Started
+    items:
+      - name: Create network load balancer instance
+        href: Getting-Started/Create-Instance.md
+      - name: Create Listening Policy
+        href: Getting-Started/Create-ListenerPolicy.md
+      - name: Create Backend Service
+        href: Getting-Started/Create-Backend.md
+      - name: Create Virtual Server Group
+        href: Getting-Started/Create-TargetGroup.md
+      - name: Register Service Instance
+        href: Getting-Started/Register-Targets.md
+      - name: View instance health status
+        href: Getting-Started/Describe-TargetHealth.md
+      - name: Create Availability Group
+        href: Getting-Started/Create-AvailabilityGroup.md
+  - name: Operation Guide
+    items:
+      - name: Configuration Guide
+        href: Operation-Guide/Start-From-Here.md
+      - name: Create network load balancer instance
+        href: Operation-Guide/Create-NLB-Instance.md
+      - name: Network Load Balancer Management
+        href: Operation-Guide/NLB-Instance-Management.md
+      - name: Listener Management
+        href: Operation-Guide/Listener-Management.md
+      - name: Backend Service Management
+        href: Operation-Guide/Backend-Management.md
+      - name: Virtual Server Group Management
+        href: Operation-Guide/TargetGroup-Management.md
+      - name: Monitoring Service
+        href: Operation-Guide/Monitoring.md             
+  - name: Best Practices
+    items:
+    - name: Pass-through of TCP Service by Network Load Balancer Deployment
+      href: Best-Practices/Deploy-TCP-Service-with-Original-Client-IP-Passthrough.md
+    - name: Deploy Multiple-Port Business and Server Reuse Service by Network Load Balancer
+      href: Best-Practices/Deploy-Multiple-Listener-single-backend-NLB.md
+    - name: Deploy High-Availability Business by Network Load Balancer
+      href: Best-Practices/Deploy-High-Availability-Service-with-NLB.md
+    - name: Deploy Session Persistence Business by Network Load Balancer
+      href: Best-Practices/Session-Sticky-with-NLB.md
+    - name: Ensure the Graceful Exit of the Service Instance by Network Load Balancer Deployment
+      href: Best-Practices/Connection-Draining-with-NLB.md
+    - name: Deploy Service Base on VM and Container by Network Load Balancer
+      href: Best-Practices/Distribute-service-to-vm-and-container-with-NLB.md
+    - name: Deploy Auto Scaling Business on the Server by Network Load Balancer
+      href: Best-Practices/AG-as-backend-server.md
+  - name: Troubleshooting
+    items:
+    - name: Network Load Balancer Business Access Failed?
+      href: Troubleshooting/Access-NLB-Service-Failed.md
+  - name: FAQ
+    href: FAQ/FAQ.md
+  - name: API Reference
+    status:0      
+  - name: SDK Reference
+    status:0      
+  - name: User Agreement
+    items:
+    - name: Terms of Service
+      href: User-Agreements/Product-Terms-of-Service.md               
+    - name: SLA
+      href: User-Agreements/SLA.md           
+  - name: Related Resources
+    items:
+    - name: Document History
+      href: Related-Resources/Document-History.md   
+

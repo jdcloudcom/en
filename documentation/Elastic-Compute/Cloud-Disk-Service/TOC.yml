@@ -1,0 +1,90 @@
+
+  name: Cloud Disk Service
+  href:
+  items:
+  - name: Introduction
+    items:
+      - name: Product Overview
+        href: Introduction/Product-Overview.md
+      - name: Region and Availability Zone
+        href: Introduction/Regionzone.md       
+      - name: Features
+        href: Introduction/Features.md
+      - name: Benefits
+        href: Introduction/Benefits.md
+      - name: Application Scenarios
+        href: Introduction/Application-Scenarios.md
+      - name: Specifications
+        href: Introduction/Specification.md
+      - name: Performance Test
+        href: Introduction/Performance-Test.md
+      - name: Restrictions
+        href: Introduction/Restrictions.md
+        
+  - name: Pricing
+    items:
+    - name: Description of Billing Method
+      items:
+          - name: Billing Rules
+            href: Pricing/Billing-Mode-Instructions/Billing-Rules.md
+          - name: Renewal Rules
+            href: Pricing/Billing-Mode-Instructions/Renew-Rules.md
+          - name: Expiration & Overdue Rules
+            href: Pricing/Billing-Mode-Instructions/Owe-Rules.md
+          - name: Expiration & Overdue Remind
+            href: Pricing/Billing-Mode-Instructions/Owe-Remind.md
+    - name: Price Overview
+      href: Pricing/Price-Overview.md
+    - name:  Purchase Channel
+      items:
+          - name: Purchase from Official Website
+            href: Pricing/Purchase-Channel/Buy-on-Website.md      
+        
+  - name: Operation Guide
+    items:
+       - name: Create Cloud Disk
+         href: Getting-Started/Cloud-Disk/Create-Cloud-Disk.md
+       - name: Create Disk from Snapshot
+         href: Getting-Started/Cloud-Disk/Create-Disk-by-Snapshot.md
+       - name: Attach Cloud Disk
+         href: Getting-Started/Cloud-Disk/Attach-Cloud-Disk.md
+       - name: Cloud Disk Service partitioning, formatting, online and creating file system
+         items:
+            - name: Linux partitioning, formatting and creating file system
+              href: Getting-Started/Cloud-Disk/Parted-Format/Linux-Partition.md
+            - name: Windows partitioning, formatting and creating file system
+              href: Getting-Started/Cloud-Disk/Parted-Format/Windows-Partition.md
+         
+       - name: Cloud Disk Service capacity upgrading
+         href: Getting-Started/Cloud-Disk/Disk-Expand.md
+       - name: file system expansion
+         items:
+            - name: Cloud Disk Service expansion overview
+              href: Getting-Started/Cloud-Disk/Expand-Filesystem/Cloud-Disk-Expansion-Overview.md
+
+            - name: file system expansion (Windows)
+              href: Getting-Started/Cloud-Disk/Expand-Filesystem/Expand-File-System-Windows.md
+            - name: file system expansion (Linux)
+              href: Getting-Started/Cloud-Disk/Expand-Filesystem/Expand-File-System-Linux.md
+            - name: raw disk file system expansion (Linux)
+              href: Getting-Started/Cloud-Disk/Expand-Filesystem/Expand-Raw-Disk-File-System.md
+            - name: file system expansion (multi partition)
+              href: Getting-Started/Cloud-Disk/Expand-Filesystem/Expand-File-System-Multi-Partition.md
+
+       - name: Detach Cloud Disk
+         href: Getting-Started/Cloud-Disk/Detach-Cloud-Disk.md
+       - name: Delete Cloud Disk Service
+         href: Getting-Started/Cloud-Disk/Delete-Cloud-Disk.md
+       - name: Cloud Disk Service Monitoring
+         href: Getting-Started/Cloud-Disk/CDS-Monitoring.md
+          
+  - name: Operation Guide
+    items:
+       - name: Create Cloud Disk Snapshot
+         href: Operation-Guide/Cloud-Disk-Snapshot/Create-CloudDisk-SnapShot.md
+       - name: Restore Cloud Disk
+         href: Operation-Guide/Cloud-Disk-Snapshot/Recover-CloudDisk.md
+       - name: Delete Snapshot
+         href: Operation-Guide/Cloud-Disk-Snapshot/Deletion-Snapshot.md
+  - name: FAQ
+    href: FAQ/FAQ.md

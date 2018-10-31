@@ -1,0 +1,17 @@
+ name: Object Storage Service
+ href: 
+ items:
+ - name: API Overview
+   href: Overview.md
+ - name: Update History
+   href: ChangeLog.md
+ - name: Object Storage Service APIs
+   items:
+      - name: deleteBucket
+        href: OSS-APIs/deleteBucket.md
+      - name: headBucket
+        href: OSS-APIs/headBucket.md     
+      - name: listBuckets
+        href: OSS-APIs/listBuckets.md        
+      - name: putBucket
+        href: OSS-APIs/putBucket.md    

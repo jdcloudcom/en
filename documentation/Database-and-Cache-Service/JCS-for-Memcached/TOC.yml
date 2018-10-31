@@ -1,0 +1,98 @@
+  name: JCS for Memcached
+  href: 
+  items:
+  - name: Introduction
+    items:
+      - name: Product Overview
+        href: Introduction/Product-Overview.md
+      - name: Core Concepts
+        href: Introduction/Core-Concepts.md
+      - name: Basic Architecture
+        href: Introduction/Basic-Infrastructure.md
+      - name: Benefits
+        href: Introduction/Benefits.md
+      - name: Features
+        href: Introduction/Features.md
+      - name: Specifications
+        href: Introduction/Specifications.md
+      - name: Application Scenarios 
+        href: Introduction/Application-Scenarios.md    
+  - name: Pricing
+    items:
+      - name: Billing Overview
+        href: Pricing/Billing-Overview.md
+      - name: Billing Rules
+        href: Pricing/Billing-Rules.md
+      - name: Price Overview
+        href: Pricing/Price-Overview.md
+      - name: Purchase Process
+        href: Pricing/Purchase-Process.md 
+      - name: Renew Process
+        href: Pricing/Renewal-Process.md
+  - name: Getting Started
+    items:
+      - name: Create Instance
+        href: Getting-Started/Create-Instance.md
+      - name: Command Support
+        href: Getting-Started/Command-Supported.md
+  - name: Operation Guide
+    items:
+      - name: Instance Management
+        items:
+          - name: Change Configuration
+            href: Operation-Guide/Instance-Management/Change-Configuration.md
+          - name: Modify Password
+            href: Operation-Guide/Instance-Management/Change-Password.md
+          - name: Change Instance Name
+            href: Operation-Guide/Instance-Management/Modify-Instancename.md          
+          - name: Delete Instance
+            href: Operation-Guide/Instance-Management/Release-Instance.md
+      - name: Login
+        href: Operation-Guide/Login/Login.md
+      - name: Monitoring Alarm
+        href: Operation-Guide/Monitoring/Monitoring.md             
+  - name: Best Practices
+    items:
+    - name: C++ Client
+      href: Best-Practices/Cplusplus-libmemcached.md
+    - name: Go Client
+      href: Best-Practices/go-gomemcache.md
+    - name: Java Client
+      href: Best-Practices/java-spymemcached.md
+    - name: PHP Client
+      href: Best-Practices/php-PECL.md
+    - name: Python client
+      href: Best-Practices/Python-bmemcached.md
+
+  - name: Tutorial
+    items:
+    status: 0
+  - name: Troubleshooting
+    items:
+    status: 0      
+  - name: FAQ
+    href: FAQ/FAQ.md
+  - name: API Reference
+    status: 0
+  - name: SDK Reference
+    status: 0
+  - name: User Agreements
+    status: 0
+    items:
+    - name: Service Terms
+      href: User-Agreements/Product-Terms-of-Service.md           
+      status: 0      
+    - name: SLA
+      href: User-Agreements/SLA.md           
+      status: 0       
+  - name: Related Resources
+    status: 0       
+    items:
+    - name: Document History
+      href: Related-Resources/Document-History.md   
+    - name: ICP Filing
+      href: Related-Resources/Filing.md           
+      status: 0        
+    - name: Glossary
+      href: Related-Resources/Glossary.md           
+      status: 0

@@ -1,0 +1,1 @@
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dear customer, in order to describe the product in a more precise manner, the name of Container Service is changed to Native Container. Thank you for your support to JD Cloud Native Container. If any question during your use, please open ticket or contact JD Cloud customer service personnel by our customer service hotline 4006151212.</p>

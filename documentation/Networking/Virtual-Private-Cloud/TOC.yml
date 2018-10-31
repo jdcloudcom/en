@@ -1,0 +1,116 @@
+﻿  name: VPC
+  href:
+  items:
+  - name: Introduction
+    items:
+      - name: Product Overview
+        href: Introduction/Product-Overview.md
+      - name: Basic Infrastructure
+        href: Introduction/Basic-Infrastructure.md
+      - name: Core Concept
+        href: Introduction/Core-Concepts.md
+      - name: Benefits
+        href: Introduction/Benefits.md
+      - name: Features
+        items:
+          - name: VPC
+            href: Introduction/Features/VPC-Features.md
+          - name: Subnet
+            href: Introduction/Features/Subnet-Features.md
+          - name: ACL
+            href: Introduction/Features/Network-ACL-Features.md
+          - name: Security Group
+            href: Introduction/Features/Security-Group-Features.md
+          - name: NFV
+            href: Introduction/Features/NFV-Features.md
+          - name: Route Table
+            href: Introduction/Features/Route-Table-Features.md
+          - name: VPC Peering Connection
+            href: Introduction/Features/VPC-Peering-Features.md
+      - name: Restrictions
+        href: Introduction/Restrictions.md
+      - name: Application Scenarios
+        items:
+          - name: Basic Business on the Cloud
+            href: Introduction/Application-Scenarios/Basic-Business-Into-Cloud.md
+          - name: Hybrid Cloud Data High-speed Interworking
+            href: Introduction/Application-Scenarios/Hybrid-Cloud-Data-InterConnect-With-High-Speed.md
+          - name: Business Security Access Control
+            href: Introduction/Application-Scenarios/Business-Security-Access-Control.md
+          - name: Multi-VMs Shared EIP Access to External Networks
+            href: Introduction/Application-Scenarios/Multiple-Virtual-Machines-Use-Shared-IpAddress-To-Access-Internet.md
+  - name: Pricing
+    items:
+      - name: Billing Rules
+        href: Pricing/Billing-Overview.md
+  - name: Getting Started
+    items:
+       - name: Create a VM instance In a VPC
+         href: Getting-Started/Create-Virtual-Machine-Instance-In-VPC.md
+       - name: Standard WEB+APP+DB Architecture Service Deployment
+         href: Getting-Started/Standard-WEB-APP-DB-Architectural-Service-Deployment.md
+       - name: Intercommunication between VM and public network in VPC
+         href: Getting-Started/Virtual-Machine-In-VPC-InterConnect-With-Internet.md
+       - name: Subnet Service Security Access Control
+         href: Getting-Started/Subnet-Business-Security-Access-Control.md
+       - name: Machine Instance Security Group Rule Configuration
+         href: Getting-Started/Virtual-Machine-Instance-Security-Group-Rule-Configuration.md
+       - name: Security Group Rules Typical Configuration
+         href: Getting-Started/Security-Group-Rules-Typically-Configured.md
+       - name: Multi-machine Shared EIP
+         href: Getting-Started/Muitiple-Virtual-Machine-Use-Shared-IpAddress.md
+       - name: Subnet-based Policy Route Management
+         href: Getting-Started/Subnet-Based-Policy-Routing-Management.md
+       - name: VPC Peering Connection
+         href: Getting-Started/VPC-Peering.md
+       - name: NAT Instance Gateway
+         href: Getting-Started/NAT-Instance-Gateway.md
+       - name: VPN Image Gateway
+         href: Getting-Started/VPN-Mirror-Gateway.md
+  - name: Operation Guide
+    items:
+       - name: VPC Configuration
+         href: Operation-Guide/VPC-Configuration.md
+       - name: Subnet Configuration
+         href: Operation-Guide/Subnet-Configuration.md
+       - name: Route Table Configuration
+         href: Operation-Guide/Route-Table-Configuration.md
+       - name: ACL Configuration
+         href: Operation-Guide/Network-ACL-Configuration.md
+       - name: Security Group Configuration
+         href: Operation-Guide/Security-Group-Configuration.md
+       - name: NFV Configuration
+         items:
+          - name: NAT Instance Gateway Configuration
+            href: Operation-Guide/NFV-Configuration/NAT-Instance-Gateway-Configuration.md
+          - name: VPN Imaging Gateway Configuration
+            href: Operation-Guide/NFV-Configuration/VPN-Mirror-Gateway-Configuration.md
+       - name: VPC Peering Connection
+         href: Operation-Guide/VPC-Peering-Configuration.md
+  - name: Best Practices
+    items:
+    status: 0
+  - name: Troubleshooting
+    items:
+    status: 0
+  - name: FAQ
+    href: FAQ/FAQ.md
+  - name: API Reference
+    href:
+    status: 0
+  - name: SDK Reference
+    href:
+    status: 0
+  - name: User Agreement
+    status: 0
+    items:
+    - name: Terms of Service
+      href:
+      status: 0
+  - name: Related Resources
+    status: 0
+    items:
+    - name: Document History
+      href:
+      status: 0
+

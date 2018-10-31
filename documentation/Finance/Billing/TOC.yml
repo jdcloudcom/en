@@ -1,0 +1,24 @@
+  name: Billing
+  href: 
+  items:
+  - name: Billing Mode
+    items:
+       - name: Instruction on Pay-In-Advance Billing
+         herf: Billing-method/Prepay.md
+       - name: Instruction on the Pay-As-You-Go Billing
+         herf: Billing-method/Postpay.md
+  - name: Billing Rules
+    items:
+       - name: Subscription Billing
+         herf: Billing-rule/Subscription.md
+       - name: Billy by Demand
+         herf: Billing-rule/Pay-As-You-Go.md
+  - name: Bill
+    items:
+      - name: Consumption Overview
+        herf: Bill/Purchases-overview.md
+      - name: Resources Bill
+        herf: Bill/Resource-bill.md
+      - name: Consumption Records
+        herf: Bill/Purchases-record.md
+    

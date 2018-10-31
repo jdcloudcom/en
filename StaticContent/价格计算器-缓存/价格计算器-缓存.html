@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+  <title>
+  </title>
+ </head>
+ <body>
+  <div class="calculator">
+   <div class="w cl">
+    <div class="cal-item">
+     <div class="cal-scroll">
+      <div class="more-pro cl">
+       <div class="more-pro-left">
+        <div class="cur-pro">
+         <i class="icon-pro">
+          
+         </i>
+         <span>
+          Redis
+         </span>
+        </div>
+        <div class="pro-all">
+         <ul class="cl">
+          <li>
+           <h3>
+            Elastic Compute
+           </h3>
+           <a clstag="Calculator|keycount|MiddleContentSec|Calculator_Type_1" href="//www.jdcloud.com/calculator/calHost">
+            <dl>
+             <dt>
+              Virtual Machines
+             </dt>
+            </dl>
+           </a>
+           <a clstag="Calculator|keycount|MiddleContentSec|Calculator_Type_2" href="//www.jdcloud.com/calculator/calDisk">
+            <dl>
+             <dt>
+              Cloud Disk Service
+             </dt>
+            </dl>
+           </a>
+          </li>
+          <li>
+           <h3>
+            Networking
+           </h3>
+           <a clstag="Calculator|keycount|MiddleContentSec|Calculator_Type_3" href="//www.jdcloud.com/calculator/calLoad">
+            <dl>
+             <dt>
+              Load Balancer
+             </dt>
+            </dl>
+           </a>
+          </li>
+          <li>
+           <h3>
+            Database and Cache Service
+           </h3>
+           <a clstag="Calculator|keycount|MiddleContentSec|Calculator_Type_4" href="//www.jdcloud.com/calculator/calDataBase">
+            <dl>
+             <dt>
+              JCS for MySQL
+             </dt>
+            </dl>
+           </a>
+           <a clstag="Calculator|keycount|MiddleContentSec|Calculator_Type_5" href="//www.jdcloud.com/calculator/calSqlServer">
+            <dl>
+             <dt>
+              JCS for SQL Server
+             </dt>
+            </dl>
+           </a>
+           <a clstag="Calculator|keycount|MiddleContentSec|Calculator_Type_6" href="//www.jdcloud.com/calculator/calCache ">
+            <dl>
+             <dt>
+              Redis
+             </dt>
+            </dl>
+           </a>
+          </li>
+         </ul>
+        </div>
+       </div>
+       <div class="more-pro-right">
+        <a clstag="Calculator|keycount|MiddleCheckButtonSec|price_preview_1" href="/help/detail/1632/isCateLog/1" target="_blank">
+         Price Overview
+        </a>
+        <a clstag="Calculator|keycount|MiddleCheckButtonSec|product_detail_1" href="/products/redis" target="_blank">
+         Product Details
+        </a>
+       </div>
+      </div>
+      <div class="price-wrap cl">
+       <div class="total-price">
+        <dl class="cl">
+         <dt>
+          Total Price:
+         </dt>
+         <dd class="discount-price">
+          ￥60.00
+         </dd>
+         <dd class="origin-price" style="display: none;">
+          ￥60.00
+         </dd>
+        </dl>
+       </div>
+       <div class="btn-wrap">
+        <a class="btn-reset" clstag="Calculator|keycount|MiddleCheckButtonSec|Calculator_Buttons_reset" href="javascript:void 0;">
+         Reset
+        </a>
+        <a class="btn-buy" clstag="Calculator|keycount|MiddleCheckButtonSec|Calculator_Buttons_gobuy" href="//redis-console.jdcloud.com/create?dataCenter=cn-north-1&amp;hideSideMenu=1" target="_blank">
+         Buy Now
+        </a>
+        <a class="btn-join" clstag="Calculator|keycount|MiddleCheckButtonSec|Calculator_Buttons_addList" href="javascript:void 0;">
+         Add to List
+        </a>
+       </div>
+       <div class="btn-wrap" style="display: none;">
+        <a class="btn-reset" clstag="Calculator|keycount|MiddleCheckButtonSec|Calculator_Buttons_cancel" href="javascript:void 0;">
+         Cancel
+        </a>
+        <a class="btn-join" clstag="Calculator|keycount|MiddleCheckButtonSec|Calculator_Buttons_save" href="javascript:void 0;">
+         Save
+        </a>
+       </div>
+      </div>
+     </div>
+     <div class="cal-content">
+      <p class="calTips">
+       <b>
+        Tips:
+       </b>
+       After logging in, you can get a more accurate price. The products paid by configuration are only provided with price estimation function, and the specific price is subject to the actual use. Please visit the purchase page for real-time inventory and supply.
+      </p>
+      <div class="cal-pro" id="config-hook">
+       <div class="cal-tab">
+        <ul>
+         <li class="hover" clstag="Calculator|keycount|MiddleContentSec|Calculator_Cache_Tabs_0">
+          Monthly Package
+         </li>
+         <li class="" clstag="Calculator|keycount|MiddleContentSec|Calculator_Cache_Tabs_1">
+          Pay By Configuration
+         </li>
+        </ul>
+       </div>
+       <div class="item-config">
+        <div class="config-box">
+         <div class="group-title">
+          Region
+         </div>
+         <div class="group-detail">
+          <dl>
+           <dt>
+            Region:
+           </dt>
+           <div class="mod_wrap">
+            <label class="cal-btn selected" clstag="Calculator|keycount|MiddleContentSec|Calculator_Cache_cn-north-1">
+             <input class="radio-button" type="radio" value="cn-north-1"/>
+             <span class="radio-button-inner">
+              cn-north-1
+              <!-- -->
+             </span>
+            </label>
+            <label class="cal-btn" clstag="Calculator|keycount|MiddleContentSec|Calculator_Cache_cn-south-1">
+             <input class="radio-button" type="radio" value="cn-south-1"/>
+             <span class="radio-button-inner">
+              cn-south-1
+              <!-- -->
+             </span>
+            </label>
+            <label class="cal-btn" clstag="Calculator|keycount|MiddleContentSec|Calculator_Cache_cn-east-2">
+             <input class="radio-button" type="radio" value="cn-east-2"/>
+             <span class="radio-button-inner">
+              cn-east-2
+              <!-- -->
+             </span>
+            </label>
+           </div>
+          </dl>
+         </div>
+        </div>
+        <div class="config-box">
+         <div class="group-title">
+          Specification
+         </div>
+         <div class="group-detail">
+          <dl>
+           <dt>
+            Type:
+           </dt>
+           <dd>
+            <div class="mod_wrap">
+             <label class="cal-btn selected" clstag="Calculator|keycount|MiddleContentSec|Calculator_CacheType_0">
+              <input class="radio-button" type="radio" value="master"/>
+              <span class="radio-button-inner">
+               Primary-secondary Version
+               <!-- -->
+              </span>
+             </label>
+             <label class="cal-btn" clstag="Calculator|keycount|MiddleContentSec|Calculator_CacheType_1">
+              <input class="radio-button" type="radio" value="cluster"/>
+              <span class="radio-button-inner">
+               Cluster Version
+               <!-- -->
+              </span>
+             </label>
+            </div>
+           </dd>
+          </dl>
+          <dl>
+           <dt>
+            Memory:
+           </dt>
+           <dd class="cl">
+            <div class="con" id="memoryHook">
+             <div class="el-slider el-slider--with-input">
+              <div class="el-input-number el-slider__input el-input-number--small is-without-controls">
+               <!-- -->
+               <!-- -->
+               <div class="el-input el-input--small">
+                <!-- -->
+                <!-- -->
+                <input autocomplete="off" class="el-input__inner" max="64" min="1" rows="2" size="small" type="text" validateevent="true"/>
+                <!-- -->
+                <!-- -->
+               </div>
+              </div>
+              <div class="el-slider__runway show-input">
+               <div class="el-slider__bar" style="left: 0%; width: 0%;">
+               </div>
+               <div class="el-slider__button-wrapper" style="left: 0%;">
+                <div class="el-slider__button el-tooltip">
+                </div>
+               </div>
+               <!-- -->
+               <!-- -->
+               <!-- -->
+               <!-- -->
+               <!-- -->
+               <!-- -->
+               <!-- -->
+               <!-- -->
+               <!-- -->
+               <!-- -->
+               <!-- -->
+               <!-- -->
+               <!-- -->
+               <!-- -->
+               <!-- -->
+               <!-- -->
+               <!-- -->
+               <!-- -->
+               <!-- -->
+               <!-- -->
+               <!-- -->
+               <!-- -->
+               <!-- -->
+               <!-- -->
+               <!-- -->
+               <!-- -->
+               <!-- -->
+               <!-- -->
+               <!-- -->
+               <!-- -->
+               <!-- -->
+               <!-- -->
+               <!-- -->
+               <!-- -->
+               <!-- -->
+               <!-- -->
+               <!-- -->
+               <!-- -->
+               <!-- -->
+               <!-- -->
+               <!-- -->
+               <!-- -->
+               <!-- -->
+               <!-- -->
+               <!-- -->
+               <!-- -->
+               <!-- -->
+               <!-- -->
+               <!-- -->
+               <!-- -->
+               <!-- -->
+               <!-- -->
+               <!-- -->
+               <!-- -->
+               <!-- -->
+               <!-- -->
+               <!-- -->
+               <!-- -->
+               <!-- -->
+               <!-- -->
+               <!-- -->
+               <!-- -->
+               <!-- -->
+              </div>
+             </div>
+             <span class="unit">
+              GB
+             </span>
+             <div class="stepText">
+              <div class="fl">
+               1
+              </div>
+              <div class="fr">
+               64
+              </div>
+             </div>
+            </div>
+           </dd>
+           <dd style="display: none;">
+            <div class="mod_wrap">
+             <label class="cal-btn">
+              <input class="radio-button" type="radio" value="64"/>
+              <span class="radio-button-inner">
+               64GB
+               <!-- -->
+              </span>
+             </label>
+             <label class="cal-btn">
+              <input class="radio-button" type="radio" value="128"/>
+              <span class="radio-button-inner">
+               128GB
+               <!-- -->
+              </span>
+             </label>
+             <label class="cal-btn">
+              <input class="radio-button" type="radio" value="256"/>
+              <span class="radio-button-inner">
+               256GB
+               <!-- -->
+              </span>
+             </label>
+             <label class="cal-btn">
+              <input class="radio-button" type="radio" value="512"/>
+              <span class="radio-button-inner">
+               512GB
+               <!-- -->
+              </span>
+             </label>
+            </div>
+           </dd>
+          </dl>
+         </div>
+        </div>
+        <div class="config-box">
+         <div class="group-title">
+          Purchase
+         </div>
+         <div class="group-detail">
+          <dl>
+           <dt>
+            Purchase Duration:
+           </dt>
+           <dd>
+            <div class="mod_wrap mod_wrap_v2">
+             <label class="cal-btn selected selected" clstag="Calculator|keycount|MiddleContentSec|Calculator_CacheBuyTime_1">
+              <input class="radio-button" type="radio" value="601"/>
+              <span class="radio-button-inner">
+               <!-- -->
+               1
+               <!-- -->
+              </span>
+             </label>
+             <label class="cal-btn" clstag="Calculator|keycount|MiddleContentSec|Calculator_CacheBuyTime_2">
+              <input class="radio-button" type="radio" value="602"/>
+              <span class="radio-button-inner">
+               <!-- -->
+               2
+               <!-- -->
+              </span>
+             </label>
+             <label class="cal-btn" clstag="Calculator|keycount|MiddleContentSec|Calculator_CacheBuyTime_3">
+              <input class="radio-button" type="radio" value="603"/>
+              <span class="radio-button-inner">
+               <!-- -->
+               3
+               <!-- -->
+              </span>
+             </label>
+             <label class="cal-btn" clstag="Calculator|keycount|MiddleContentSec|Calculator_CacheBuyTime_4">
+              <input class="radio-button" type="radio" value="604"/>
+              <span class="radio-button-inner">
+               <!-- -->
+               4
+               <!-- -->
+              </span>
+             </label>
+             <label class="cal-btn" clstag="Calculator|keycount|MiddleContentSec|Calculator_CacheBuyTime_5">
+              <input class="radio-button" type="radio" value="605"/>
+              <span class="radio-button-inner">
+               <!-- -->
+               5
+               <!-- -->
+              </span>
+             </label>
+             <label class="cal-btn" clstag="Calculator|keycount|MiddleContentSec|Calculator_CacheBuyTime_6">
+              <input class="radio-button" type="radio" value="606"/>
+              <span class="radio-button-inner">
+               <!-- -->
+               6
+               <!-- -->
+              </span>
+             </label>
+             <label class="cal-btn" clstag="Calculator|keycount|MiddleContentSec|Calculator_CacheBuyTime_7">
+              <input class="radio-button" type="radio" value="607"/>
+              <span class="radio-button-inner">
+               <!-- -->
+               7
+               <!-- -->
+              </span>
+             </label>
+             <label class="cal-btn" clstag="Calculator|keycount|MiddleContentSec|Calculator_CacheBuyTime_8">
+              <input class="radio-button" type="radio" value="608"/>
+              <span class="radio-button-inner">
+               <!-- -->
+               8
+               <!-- -->
+              </span>
+             </label>
+             <label class="cal-btn" clstag="Calculator|keycount|MiddleContentSec|Calculator_CacheBuyTime_9">
+              <input class="radio-button" type="radio" value="609"/>
+              <span class="radio-button-inner">
+               <!-- -->
+               9
+               <!-- -->
+              </span>
+             </label>
+             <label class="cal-btn" clstag="Calculator|keycount|MiddleContentSec|Calculator_CacheBuyTime_10">
+              <input class="radio-button" type="radio" value="610"/>
+              <span class="radio-button-inner">
+               <i class="newfont">
+                
+               </i>
+               1 Year
+               <!-- -->
+              </span>
+             </label>
+             <label class="cal-btn" clstag="Calculator|keycount|MiddleContentSec|Calculator_CacheBuyTime_11">
+              <input class="radio-button" type="radio" value="620"/>
+              <span class="radio-button-inner">
+               <i class="newfont">
+                
+               </i>
+               2 Years
+               <!-- -->
+              </span>
+             </label>
+             <label class="cal-btn" clstag="Calculator|keycount|MiddleContentSec|Calculator_CacheBuyTime_12">
+              <input class="radio-button" type="radio" value="630"/>
+              <span class="radio-button-inner">
+               <i class="newfont">
+                
+               </i>
+               3 Years
+               <!-- -->
+              </span>
+             </label>
+             <div class="time-tip" style="left: 5px; top: 30px; display: none;">
+              <img src="/static/img/loading.gif" style="display: none;"/>
+              <div>
+              </div>
+             </div>
+            </div>
+           </dd>
+          </dl>
+          <dl style="display: none;">
+           <dt>
+            Estimated Duration:
+           </dt>
+           <dd>
+            <div class="count-num fl" clstag="Calculator|keycount|MiddleContentSec|Calculator_CacheComputeTime">
+             <a class="newfont btn-disabled">
+              
+             </a>
+             <div class="el-input">
+              <!-- -->
+              <!-- -->
+              <input autocomplete="off" class="el-input__inner" max="100" min="1" rows="2" type="text" validateevent="true"/>
+              <!-- -->
+              <!-- -->
+             </div>
+             <a class="newfont">
+              
+             </a>
+            </div>
+            <div class="el-select ml10">
+             <!-- -->
+             <div class="el-input">
+              <!-- -->
+              <i class="el-input__icon el-icon-caret-top">
+              </i>
+              <input autocomplete="off" class="el-input__inner" icon="caret-top" placeholder="Please Select" readonly="readonly" rows="2" type="text"/>
+              <!-- -->
+              <!-- -->
+             </div>
+             <div class="el-select-dropdown" style="display: none;">
+              <div class="el-scrollbar" style="">
+               <div class="el-select-dropdown__wrap el-scrollbar__wrap" style="margin-bottom: -15px; margin-right: -15px;">
+                <ul class="el-scrollbar__view el-select-dropdown__list" style="position: relative;">
+                 <!-- -->
+                 <li class="el-select-dropdown__item selected" clstag="Calculator|keycount|MiddleContentSec|Calculator_CacheComputeTimeType">
+                  <span>
+                   Hour
+                  </span>
+                 </li>
+                 <li class="el-select-dropdown__item" clstag="Calculator|keycount|MiddleContentSec|Calculator_CacheComputeTimeType">
+                  <span>
+                   Day
+                  </span>
+                 </li>
+                 <li class="el-select-dropdown__item" clstag="Calculator|keycount|MiddleContentSec|Calculator_CacheComputeTimeType">
+                  <span>
+                   Month
+                  </span>
+                 </li>
+                 <li class="el-select-dropdown__item" clstag="Calculator|keycount|MiddleContentSec|Calculator_CacheComputeTimeType">
+                  <span>
+                   Year
+                  </span>
+                 </li>
+                 <div class="resize-triggers">
+                  <div class="expand-trigger">
+                   <div style="width: 1px; height: 1px;">
+                   </div>
+                  </div>
+                  <div class="contract-trigger">
+                  </div>
+                 </div>
+                </ul>
+               </div>
+               <div class="el-scrollbar__bar is-horizontal">
+                <div class="el-scrollbar__thumb" style="transform: translateX(0%);">
+                </div>
+               </div>
+               <div class="el-scrollbar__bar is-vertical">
+                <div class="el-scrollbar__thumb" style="transform: translateY(0%);">
+                </div>
+               </div>
+              </div>
+              <!-- -->
+             </div>
+             <div class="resize-triggers">
+              <div class="expand-trigger">
+               <div style="width: 1px; height: 1px;">
+               </div>
+              </div>
+              <div class="contract-trigger">
+              </div>
+             </div>
+            </div>
+           </dd>
+          </dl>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="fix-bottom">
+      </div>
+     </div>
+    </div>
+    <div class="cal-right">
+     <div class="cal-order">
+      <div class="list-scroll">
+       <h3>
+        List
+       </h3>
+       <p class="price-total">
+        <span>
+         <b>
+          0.00
+         </b>
+        </span>
+        <a class="btn-export fr btn-export-disabled" clstag="Calculator|keycount|MiddleCheckButtonSec|Calculator_Buttons_export">
+         Export List
+        </a>
+       </p>
+      </div>
+      <div class="list-wrap">
+       <div class="account-item-wrap" style="max-height: 416px; height: 416px;">
+        <div id="js-list">
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

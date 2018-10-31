@@ -1,16 +1,16 @@
-# 常见问题
-**Q：消息队列 JCQ 支持外网访问吗？**
+# FAQ
+**Q: Is Message Queue accessible from the internet?**
 
-A：为保证数据的安全性，目前只支持内网云主机访问。
+A: To ensure the data security, it only supports intranet VM access now.
 
-**Q：目前消息队列 JCQ 支持哪些协议？**
+**Q: What protocols are supported by Message Queue?**
 
-A：京东云消息队列 JCQ支持HTTP、TCP协议。
+A: JD Cloud Message Queue supports HTTP and TCP protocols.
 
-**Q：JCQ 消息能服务器保存多长时间？**
+**Q: How long are Message Queue messages kept on server for?**
 
-A：存储的消息最多保存 3 天，超过 3 天未消费的消息会被删除。
+A: Message Queue messages are kept for up to three days, and unconsumed messages are to be deleted after three days.
 
-**Q：每个用户Topic支持的最大TPS限额是多少？**
+**Q: What is the maximum TPS limit per does a user Topic support?**
 
-A：目前每个Topic支持的TPS最大限额为5000，如不能满足您的业务需求，请联系客服。
+A: At present, each Topic can support a maximum of 5,000 TPS, if it cannot meet your business needs, please contact customer service.

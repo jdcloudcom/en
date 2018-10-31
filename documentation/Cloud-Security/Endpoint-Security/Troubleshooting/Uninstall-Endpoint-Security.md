@@ -1,0 +1,3 @@
+# How to uninstall Endpoint Security agent
+
+Endpoint Security product is a light weight agent built-in the public image by JD Cloud, which implements basic security protection for the virtual machines on the premise of ensuring the performance of virtual machine system. The system detects system account weak passwords, exception login behavior and high risk vulnerabilities in real time by built-in security rule. It also timely prevents brute force crack attack behavior and report security risks. It can effectively ensure the security of machines, improve business efficiency and reduce operation and maintenance cost. JD Cloud provides users with this function freely. If users do not hope to load this function, they need to contact JD Cloud customer service personnel. 

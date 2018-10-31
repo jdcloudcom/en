@@ -1,58 +1,58 @@
-# 公网访问方法
-*提醒：公网访问消息队列 JCQ的方式仅可用于测试，生产环境请勿使用。*  
+# Public Network Access Method
+*Tip: The way to access from the public network to Message Queue is only available for test. Do not use it in the Production Environment.*  
 
-## 前提
-要在公网使用jcq sdk收发消息，需满足如下前提条件：拥有一台 Linux 系统的京东云主机，并已绑定公网 IP。
+## Preconditions
+To receive and send messages by using jcq sdk on the public network, it is required to meet the following precondition: own a JD Cloud Virtual Machines with Linux system, and associated EIP.
 
-## 1. 代理设置
+## 1. Proxy Setting
 
- 本地安装一个proxy client, 如Proxifier、ProxyCap等，并配置代理规则，下面以Proxifier为例说明
+ Locally install a proxy client, for example, Proxifier and ProxyCap, and configure the proxy rules. Take Proxifier as an example for explanation.
 
-### 1.1 配置代理服务器
- 配置文件->代理服务器->添加  
- 地址：127.0.0.1  
- 端口：填写一个本地未使用端口，如19999  
- 协议： 选择SOCKS 版本 5  
- 验证：不启用  
+### 1.1 Configuration of Proxy Server
+ Configuration File->Proxy Server->Add  
+ Address: 127.0.0.1  
+ Port: Enter a locally unused port, such as 19999  
+ Protocol: Select SOCKS version 5  
+ Verification: Don't enable  
 
 ![公网访问-01](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/Message-Queue/公网访问-01.png)
  
 
-### 1.2 配置代理规则
+### 1.2 Configuration of Proxy Rules
 
-配置文件->代理规则->添加  
-名称：随意填（如jcq proxy rule）   
-应用程序：任意  
-目标主机：*.jvessel-open-hb.jdcloud.com  
-目标端口：任意  
-动作：选择刚刚创建的代理服务器  
+Configuration File->Proxy Rules->Add  
+Name: Enter Any Name (e.g. jcq proxy rule)   
+Application Program: Any program  
+Target Machine: *.jvessel-open-hb.jdcloud.com  
+Target Port: Any port  
+Action: Select the proxy server created just now  
 
 
 ![公网访问-02](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/Message-Queue/公网访问-02.png)
 
-注意Default规则的动作选择Direct, 这样jcq以外网络流量不走代理。  
+Note: Select Direct as the action of Default rules, so that the network traffic outside jcq does not use proxy.  
 
 
 ![公网访问-03](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/Message-Queue/公网访问-03.png)
 
 
 
-## 2. SSH端口转发配置
+## 2. SSH Port Forwarding Configuration
 
-本地安装SecureCRT、Xshell等ssh client， 下面以SecureCRT为例说明如何配置端口转发规则  
+Locally install ssh client such as SecureCRT and Xshell. Take SecureCRT as an example to explain how to configure port forwarding rules.  
 
-### 2.1 建立连接
-协议：SSH2  
- 主机名：填写用户自己的云主机公网ip  
-端口：22  
- 防火墙：无  
-用户名：root  
+### 2.1 Creation of Connection
+Protocol: SSH2  
+ Machine Name: Enter EIP of the User’s Virtual Machine  
+Port: 22  
+ Firewall: None  
+User Name: Root  
 
 ![公网访问-04](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/Message-Queue/公网访问-04.png)
 
-### 2.2 配置端口转发规则
+### 2.2 Configuration of Port Forwarding Rules
 
-选项->会话选项->连接->端口转发  
+Option->Session Option->Connection->Port Forwarding  
 
 
 ![公网访问-05](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/Message-Queue/公网访问-05.png)
@@ -60,27 +60,27 @@
 
 ![公网访问-06](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/Message-Queue/公网访问-06.png)
 
-添加端口转发规则  
+Add Port Forwarding Rules  
 
-名称：随意填（比如jcq forward rule）   
+Name: Enter Any Name (e.g. jcq forward rule)   
 
-手工选择允许连接的本地ip地址：勾选  
+Manually select a local ip address permitted to connect: check  
 
-IP地址： 127.0.0.1  
+IP Address: 127.0.0.1  
 
-端口：填写步骤1.1中代理中配置的本地端口， 本例是19999  
+Port: Enter the local port configured in proxy in step 1.1. In this instance, it is 19999.  
 
-远程：勾选‘使用SOCKS 4或5动态转发’  
+Remote: Check ‘use SOCKS 4 or 5 for dynamic forwarding’  
 
 
 ![公网访问-07](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/Message-Queue/公网访问-07.png)
 
 
 
-## 3. 使用sdk收发消息
+## 3. Use SDK to Receive and Send Messages
 
-满足下面前提条件，即可在本地使用sdk收发消息  
+After meeting the following preconditions, locally use sdk to receive and send messages.  
 
-前提条件：
-- 确保步骤1中的proxy client处于运行状态  
-- 确保步骤2中的配置的连接处于连接状态  
+Preconditions:
+- Ensure that the proxy client in step 1 is in running status  
+- Ensure that the connection configured in step 2 is in connecting status  

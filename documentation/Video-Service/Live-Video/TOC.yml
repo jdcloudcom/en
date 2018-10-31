@@ -1,0 +1,84 @@
+name: Live Video
+href:
+items:
+- name: Introduction
+  items:
+    - name: Product Overview
+      href: Introduction/Product-Overview.md
+    - name: Core Concept
+      href: Introduction/Core-Concepts.md
+    - name: Basic Infrastructure
+      href: Introduction/Basic-Infrastructure.md
+    - name: Benefits
+      href: Introduction/Benefits.md
+    - name: Features
+      href: Introduction/Features.md
+    - name: Restrictions
+      href: Introduction/Restrictions.md
+    - name: Application Scenarios 
+      href: Introduction/Application-Scenarios.md    
+- name: Pricing
+  items:
+    - name: Billing Overview
+      href: Pricing/Pricing.md
+    - name: Billing Rules
+      href: Pricing/Billing-Rules.md
+    - name: Price Overview
+      href: Pricing/Price-Overview.md
+    - name: Purchase Process
+      href: Pricing/Purchase-Process.md 
+- name: Getting Started
+  items:
+    - name: Sign up Service
+      href: Getting-Started/Service-Provisioning.md
+    - name: Create Domain
+      href: Getting-Started/Create-Domain.md
+    - name: Configuring CNAME
+      href: Getting-Started/Configuring-CNAME.md
+    - name: Start Pushing
+      href: Getting-Started/Start-Pushing.md
+    - name: Start Playing
+      href: Getting-Started/Start-Playing.md
+- name: Operation Guide
+  items:
+    - name: Domain Management
+      href: Operation-Guide/Domain-Management.md
+    - name: Live Streaming
+      href: Operation-Guide/Live-Streaming.md
+    - name: Live Broadcast
+      href: Operation-Guide/Live-Broadcast.md    
+    - name: Live Transcoding
+      href: Operation-Guide/Live-Transcoding.md
+    - name: Live Recording
+      href: Operation-Guide/Live-Recording.md  
+    - name: Live Snapshot
+      href: Operation-Guide/Live-Snapshot.md 
+    - name: Live Callback
+      href: Operation-Guide/Live-Callback.md  
+    - name: Live Authentication
+      href: Operation-Guide/Live-Authentication.md
+    - name: Streaming Management
+      href: Operation-Guide/Streaming-Management.md
+    - name: Statistics & Analysis
+      href: Operation-Guide/Statistical-Analysis.md
+- name: Best Practices
+  items:
+    - name: Push with the FMLE tool
+      href: Best-Practices/Push-with-the-FMLE-tool.md
+    - name: Push with the Xsplit tool
+      href: Best-Practices/Push-with-the-Xsplit-tool.md
+    - name: Push with the OBS tool
+      href: Best-Practices/Push-with-the-OBS-tool.md
+- name: Tutorial
+  items:
+  status:0
+- name: Troubleshooting
+  items:
+    - name: Push connection failed
+      href: Troubleshooting/Push-connection-failed.md  
+- name: FAQ
+  href: FAQ/FAQ.md
+- name: Related Resources
+  items:
+    - name: Document History
+      href: Related-Resources/Document-History.md

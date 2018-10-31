@@ -1,0 +1,35 @@
+**Rules of Unit Filing in Xinjiang:**
+
+1. Enterprises must use the new documents integrating the three certificates to perform filing
+
+2. Responsible person of the subject shall be the legal person
+
+3. **In case of prior filing with JD**, its filing information must be consistent with the actual information of the current unit. If there is any inconsistency, please go to the original filing provider to make change, and then apply for a new one
+
+4. Data to be prepared prior to filing:
+
+   ① Clear color pictures of the Business License (Unified Social Credit Code)
+
+   ② Clear color pictures of the front and back of legal person’s ID card
+
+   ③ Clear color pictures of the front and back of website responsible person’s ID card
+
+   ③ Official seal of the filing unit (the Verification Form shall be sealed during the process)
+
+   ⑤Certification of CCP construction should be issued at local Cyberspace Administration.
+
+**Rules for Personal Filing in Xinjiang:**
+
+1. Chinese citizens must use 2nd-generation ID card for filing
+
+2. Application for personal filing based on a non-Xinjiang ID card will be rejected
+
+3. **In case of prior filing with JD**, its filing information must be consistent with the actual information of the current unit. If there is any inconsistency, please go to the original filing provider to make change, and then apply for a new one
+
+4. Data to be prepared prior to filing:
+
+   ①The clear color picture of the front and back of the personal ID card
+
+   ②A certificate of party construction issued by the local CAC shall be required
+
+ 

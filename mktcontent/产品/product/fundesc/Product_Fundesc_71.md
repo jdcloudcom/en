@@ -1,1 +1,32 @@
-[{"funcName":"Shared Bandwidth","funcContent":[{"funcName":"","funcTitle":"Share EIP bandwidth through SNAT","funcP":"Multiple intranet instances can go out of the public network through an EIP address and share bandwidth."}]},{"funcName":"Security Assurance","funcContent":[{"funcName":"","funcTitle":"Hide Private IP through NAT address translation","funcP":"Converte the internal network address to a public network address, hiding the internal network structure, and with higher security."}]},{"funcName":"Flexible Configuration","funcContent":[{"funcName":"","funcTitle":"Support fine-grained CIDR to achieve flexible configuration of gateway policies","funcP":"You can configure CIDR of any network segment under the VPC (It is not the subnet where the NAT gateway is located)."}]}]
+[
+	{
+		"funcName":"Bandwidth Sharing",
+		"funcContent":[
+			{
+				"funcName":"",
+				"funcTitle":"Share Public Network Bandwidth through SNAT",
+				"funcP":"Multiple intranet instances can connect to the Internet through a public IP, sharing bandwidth."
+			}
+		]
+	},
+	{
+		"funcName":"Security Assurance",
+		"funcContent":[
+			{
+				"funcName":"",
+				"funcTitle":"Conceal Private IP through NAT Address Translation ",
+				"funcP":"Convert a private IP to a public IP to conceal the private network structure. Users can enjoy greater security."
+			}
+		]
+	},
+	{
+		"funcName":"Flexible Configuration",
+		"funcContent":[
+			{
+				"funcName":"",
+				"funcTitle":"Support Fine-grained CIDR to Achieve Flexible Configuration of Gateway Policies",
+				"funcP":"The users can configure CIDR of any network segment within the Virtual Private Cloud (not the subnet where the NAT Gateway is located)."
+			}
+		]
+	}
+]

@@ -1,0 +1,8 @@
+# Domain Name and Reverse Resolution
+Reverse domain name resolution refers to the mapping from IP address to domain name. Since in the domain name system, an IP address can correspond to multiple domain names, it is theoretically necessary to traverse the entire domain name tree from the IP address. However, this has a huge domain name structure on the Internet, and it is impossible to traverse the entire domain name tree.
+
+In order to complete the reverse domain name resolution, the system provides a special domain, which is called a reverse resolution domain. The IP address resolved by such a domain will be expressed as a displayable string like a domain name, with the suffix ending with the domain name of the reverse resolution domain name. The order of the IP addresses in the two expressions is reversed because the domain name structure is bottom-up (from subdomain to domain) and the IP address structure is top-down (from network to machine). Actually, reverse domain name resolution is a domain name space in which an IP address is expressed as a domain name and an address is used as an index, so that a large part of the reverse resolution can be included in the forward resolution.
+
+The reverse domain name resolution function of the mail server is designed to refuse to receive information from all addresses that do not have a registered domain name. Refusing to receive messages from sites without domain names on the mail server can greatly reduce the quantity of spam.
+
+In summary, the reverse resolution function has nothing to do with the domain name resolution service itself. For practice, please contact your IDC room or machine service provider.

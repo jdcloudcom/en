@@ -1,21 +1,26 @@
-# 发送消息
+# Send Messages
 
-## 前提条件
-- 已经创建topic及订阅关系，并且状态处于服务中。
+## Prerequisites
+- Topic and subscription relationships have been created, and the state is in service.
 
-## 注意事项
-- 对于单个topic的每秒事务处理数最大为5000TPS
-- 消息的生命周期为3天
-- 消息体大小为256KB
+## Considerations
+- For a single topic, the maximum number of transactions per second is 5000TPS.
+- The life cycle of the message is 3 days.
+- The message size is 256KB.
 
-## 操作步骤
-### 1. 在topic列表，选择想要发送消息topic所在行的“发送消息”按钮
-![发送消息步骤1](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/Message-Queue/发送消息-01.png)
-### 2.填写完发送消息的内容，点击“发送”按钮
-![发送消息步骤2](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/Message-Queue/发送消息-02.png)  
-I. 输入Message Body和tag，并且如果想要发送延时消息可以设置消息延迟时间。  
-II. 消息发送成功，会返回消息发送成功通知和消息的Message ID，点击消息详情可以进行查看。  
-III. 说明：
-- 消息的生命周期为3天，超过生命周期消息删除无法恢复，Message Body的最大支持256Kb。
-- 消息的延迟时间范围为：0~3600秒。
-- 订阅者tag的规则说明：tag是消息订阅者对于消息的筛选，当订阅者设置了tag时，有相同tag的消息才能被订阅者消费，如果没有设置tag，则订阅者对消息不做筛选。
+## Procedure
+### 1. In topic list, select **Send Message** button in the row of sending message topic.
+
+![发送消息步骤1](https://github.com/jdcloudcom/en/blob/messagequeue/image/Internet-Middleware/Message-Queue/发送消息-01.png)
+### 2. Complete filling in the content of sending message, and click **Send** button.
+
+![发送消息步骤2](https://github.com/jdcloudcom/en/blob/messagequeue/image/Internet-Middleware/Message-Queue/发送消息-02.png)  
+
+
+I. Enter Message Body and tag, and if you want to send the delay message, you can set the message delay time.  
+II. When the message is sent successfully, it returns the Message Sending Success Notice and Message ID, which can be viewed by clicking **Message Details**.  
+III. Note:  
+
+- Message life cycle is 3 days, message deletion beyond life cycle cannot be restored, and Message Body supports is up to 256 Kb.
+- The delay time of messages is 0~3600 seconds.
+- Subscriber tag rules specify that a tag is a message subscriber's filter for a message. When a subscriber sets a tag, the subscriber consumes messages with the same tag. If no tag is set, the subscriber does not filter the message.

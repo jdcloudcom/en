@@ -1,0 +1,81 @@
+  name: Product Service Agreement
+  href: 
+  items:
+  - name: Virtual Machines Service Agreement
+    href: Cloud-Hosting-Service-Terms.md
+  - name: Virtual Machines Service Level Agreement (SLA)
+    href: Cloud-Host-Service-Level-Agreement-SLA.md
+  - name: Native Container Service Agreement
+    href: Native-Container-Service-Clause.md
+  - name: Native Container Service Level Agreement (SLA)
+    href: Native-Container-Hierarchy-Protocol-SLA.md
+  - name: JCS for Kubernetes Service Agreement
+    href: Kubernetes-Cluster-Service-Provision.md
+  - name: Container Registry Service Agreement
+    href: Container-Registry-Service-Terms.md
+  - name: RDS Service Agreement
+    href: Cloud-Database-RDS-Service-Clause.md
+  - name: RDS Service Level Agreement (SLA)
+    href: Cloud-Database-RDS-Service-Level-Agreement-SLA.md
+  - name: Object Storage Service Agreement
+    href: Object-Storage-Service-Clause.md
+  - name: Object Storage Service Level Agreement (SLA)
+    href: Object-Storage-Service-Level-Agreement-SLA.md 
+  - name: Redis Service Agreement
+    href: Caching-Redis-Service-Clause.md
+  - name: Redis Service Level Agreement (SLA)
+    href: Caching-Redis-Service-Level-Agreement-SLA.md
+  - name: JCS for Memcached Service Agreement
+    href: JCS-for-Memcached-Service-Terms.md
+  - name: CDN Service Agreement
+    href: CDN-Terms-Of-Service.md
+  - name: CDN Service Level Agreement (SLA)
+    href: CDN-Service-Level-Agreement-SLA.md
+  - name: Load Balancer Service Agreement
+    href: Load-Balancing-Service-Clause.md
+  - name: Load Balancer Service Level Agreement (SLA)
+    href: Load-Balancing-Service-Level-Protocol-SLA.md
+  - name: Digivoice Service Agreement
+    href: Number-Of-Terms-Of-Service.md
+  - name: Digivoice Service Level Agreement (SLA)
+    href: Number-Aware-Service-Level-Agreement-SLA.md
+  - name: JCS for MongoDB Service Agreement
+    href: Cloud-Database-MongoDB-Service-Cause.md
+  - name: JCS for MongoDB Service Level Agreement (SLA)
+    href: Cloud-Database-MongoDB-Service-Level-Agreement-SLA.md
+  - name: Virtual Machines Security Service Agreement
+    href: Cloud-Host-Security-Service-Clause.md
+  - name: Cloud Disk Service Agreement
+    href: Cloud-Hard-Disk-Service-Clause.md
+  - name: Public IP Service Agreement
+    href: Public-Network-IP-Service-Clause.md
+  - name: Anti-DDoS Pro Service Agreement
+    href: IP-High-Protection-Clause.md
+  - name: Anti-DDoS Pro Service Level Agreement (SLA)
+    href: IP-High-Level-Of-Service-Agreement-SLA.md
+  - name: Auto Scaling Service Agreement
+    href: Flexible-Telescopic-Service-Clause.md
+  - name: Live Video Service Terms
+    href: Video-Live-Service-Clause.md
+  - name: SSL Digital Certificate Service Agreement
+    href: SSL-Digital-Certificate-Service-Clause.md
+  - name: Cloud Resolution Service Agreement
+    href: Cloud-Parsing-Service-Clause.md
+  - name: Trial TiDB Service Terms
+    href: Distributed-Database-TiDB-Trial-Service-Clause.md
+  - name: Application Security Gateway Service Agreement
+    href: Application-Of-Secure-Gateway-Service-Clause.md
+  - name: Application Security Gateway Service Level Agreement (SLA)
+    href: Application-Of-Secure-Gateway-Service-Level-Protocol-SLA.md
+  - name: Cloud Physical Server Service Agreement
+    href: Cloud-Physics-Server-Service-Clause.md
+  - name: Cloud Physical Server Service Level Agreement (SLA)
+    href: Cloud-Physics-Server-Service-Level-Protocol-SLA.md
+  - name: Message Queue Service Agreement
+    href: Message-Queue-JCQ-Service-Terms.md
+  - name: Message Queue Service Level Agreement (SLA)
+    href: Message-Queuing-JCQ-Service-Level-Protocol-SLA.md
+  - name: Distributed Relational Database DRDS Trial Service Agreement
+    href: Distributed-Relational-Database-DRDS-Trial-Service-Clause.md
+  - name: JCS for Elasticsearch Service Agreement
+    href: JCS-for-Elasticsearch-Service-Terms.md

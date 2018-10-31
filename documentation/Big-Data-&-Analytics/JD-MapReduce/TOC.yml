@@ -1,0 +1,73 @@
+name: JD MapReduce
+href: 
+items:
+- name: Introduction
+  items:
+  - name: Product Overview
+    href: Introduction/Product-Overview.md
+  - name: Core Concept
+    href: Introduction/Core-Concepts.md
+  - name: Basic Infrastructure
+    href: Introduction/Basic-Infrastructure.md
+  - name: Benefits
+    href: Introduction/Benefits.md
+  - name: Features
+    href: Introduction/Features.md
+  - name: Specifications
+    href: Introduction/Specification.md
+  - name: Restrictions
+    href: Introduction/Restrictions.md
+  - name: Application Scenarios 
+    href: Introduction/Application-Scenarios.md
+- name: Pricing
+  items:
+  - name: Billing Overview
+    href: Pricing/Pricing.md
+  - name: Billing Rules
+    href: Pricing/Billing-Rules.md
+  - name: Price Overview
+    href: Pricing/Price-Overview.md
+  - name: Purchase Process
+    href: Pricing/Purchase-Process.md 
+  - name: Renew-Process
+    href: Pricing/Renew-Process.md
+- name: Getting Started
+  items:
+  - name: Product Overview
+    href: Getting-Started/1-Overview.md
+  - name: Create Clusters
+    href: Getting-Started/2-Create-Cluster.md
+  - name: Configure Job
+    href: Getting-Started/3-Create-Job.md
+  - name: Deploy Job
+    href: Getting-Started/4-Deploy-Job.md
+  - name: Cluster Monitoring
+    href: Getting-Started/5-Monitor-Cluster.md
+- name: Operation Guide
+  items:
+  - name: Operation Guide
+    href: Operation-Guide/Guide.md
+- name: Best Practices
+  items:
+  - name: Offline Analysis
+    href: Best-Practices/JMR-Best-Practice-1.md
+  - name: Stream Compute
+    href: Best-Practices/JMR-Best-Practice-2.md
+  - name: One-stop Big Data Platform
+    href: Best-Practices/JMR-Best-Practice-3.md
+- name: Troubleshooting
+  items:
+  - name: JD MapReduce Troubleshooting Instructions
+    href: Troubleshooting/Troubleshooting-Instructions.md
+- name: FAQ
+  href: FAQ/FAQ.md
+- name: API Reference
+  href: API-Reference/API.md
+- name: SDK Reference
+  href: SDK-Reference/Overview.md
+- name: Related Resources
+  items:
+  - name: Document History
+    href: Related-Resources/Document-History.md     
+  - name: SLA
+    href: Related-Resources/SLA.md

@@ -1,0 +1,51 @@
+  name: Web Application Firewall
+  href: 
+  items:
+  - name: Introduction
+    items:
+      - name: Product Overview
+        href: Introduction/Product-Overview.md
+      - name: Benefits
+        href: Introduction/Benefits.md
+      - name: Features
+        href: Introduction/Features.md
+      - name: Application Scenarios 
+        href: Introduction/Application-Scenarios.md    
+  - name: Pricing
+    items:
+      - name: Purchase Method
+        href: Pricing/Purchase-Method.md
+      - name: Purchase Process
+        href: Pricing/Purchase-Process.md
+      - name: Price Overview
+        href: Pricing/Package-Details.md         
+  - name: Operation Guide
+    items:
+    - name: To Add Web Site
+      href: Operation-Guide/Add-Web.md
+    - name: To Access Domain Name
+      href: Operation-Guide/Access-Domain-Name.md
+    - name: Modify Domain Name
+      href: Operation-Guide/Modify-Domainname.md
+    - name: Protection Configuration
+      href: Operation-Guide/Introduction-Protection-Configuration.md
+    - name: Web Attack Protection
+      href: Operation-Guide/Web-Attack-Protection-Configuration.md
+    - name: CC Defense
+      href: Operation-Guide/CC-Attack-Protection-Configuration.md
+    - name: Precise Identity and Access Management
+      href: Operation-Guide/Precise-Access-Control.md
+  - name: FAQ
+    items:
+    - name: Add a detailed solution to the site parameters?
+      href: FAQ/Add-Website-Details.md
+    - name: Typical Questions?
+      href: FAQ/Typical-Problems.md
+    - name: The detailed solution for web attack protection?
+      href: FAQ/Web-Aattack-Protection-Detailed-Explanation.md        
+    - name: CC defense mode?
+      href: FAQ/CCprotection.md        
+  - name: Related Resources
+    items:
+    - name: Document History
+      href: Related-Resources/Document-History.md     

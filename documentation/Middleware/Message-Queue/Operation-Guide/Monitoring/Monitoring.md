@@ -1,31 +1,31 @@
-# 查看监控信息
+# View Monitoring Information
 
-消息队列 JCQ控制台提供了丰富的性能监控数据，您可以随时查看订阅关系的运行状态。
+The Message Queue console provides rich performance monitoring data; you can always view the running status of subscription relationships.
 
-## 操作步骤
-1. 登录 [消息队列 JCQ 控制台](https://jcq-console.jdcloud.com/topics)。
-1. 在“Topic管理”页面，选择目标topic，点击 **topic名称**，进入”topic详情“页面。
-1. 在”topic详情“页面，点击 **监控**，查看监控信息。
+## Procedure
+1. Sign in to [the Message Queue console](https://jcq-console.jdcloud.com/topics).
+2. On the Topic Management page, choose the related topic, click **topic name**, and enter the Topic Details page.
+3. On "Topic Details" page, click **Monitoring**, and view the monitoring information.
 
 
 
-   - 您可以快速选择查看1小时至14天的数据，也可以输入日期范围查看，时间范围最长可选择1个月。
-   - 支持查看Topic和topic下某个Consumer Group的监控信息
+   - You can quickly choose to view data of an hour to 14 days, or you can enter a date range to view data for up to one month.
+   - Support for checking the monitoring information of a Consumer Group under Topic and topic.
    
    
-![监控3](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/Message-Queue/监控-03.png)
-![监控4](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/Message-Queue/监控-04.png)
+![监控3](https://github.com/jdcloudcom/en/blob/messagequeue/image/Internet-Middleware/Message-Queue/监控-03.png)
+![监控4](https://github.com/jdcloudcom/en/blob/messagequeue/image/Internet-Middleware/Message-Queue/监控-04.png)
 
-## 监控项说明
-类型 | KPI | 说明
+## Description of Monitoring Items
+| Type	| KPI	| Description
 --- | --- | ---
-Topic | 生产的TPS（条/秒）| 每秒钟生产的消息数量|
-Topic| 已发布消息的数量(个)|生产者发送消息到主题的消息数量|
-Topic|已发布消息的请求量(次)|生产者发送消息到主题的API请求数量|
-Topic| 已发布消息的大小(byte)|生产者发送消息到主题的消息大小|
-Consumer Group| 消费的TPS（条/秒）|每秒钟消费的消息数|
-Consumer Group| 堆积消息数量（个）|订阅关系中堆积的消息数量
-Consumer Group| 接收消息请求量(次)|订阅关系中消费者拉取的请求数量
-Consumer Group|接收的消息数量（个）|订阅关系中消费者拉取的消息总数量|
-Consumer Group|成功接收消息数量（个）|订阅关系中消费者拉取成功的消息数量|
-Consumer Group|接收消息的大小（byte）|订阅关系中消费者消费的消息大小|
+| Topic	| Produced TPS (/second) |	Number of messages produced per second |
+| Topic |	Number of published messages	| The number of messages sent by a producer to a topic |
+| Topic	| The number of API requests that have been published (Times)	| Number of requests that producers sending messages to topic |
+| Topic	| The size of the published message (byte)	| The message size of topic that producers send messages to topic. |
+| Consumer Group| Consumed TPS (/sec) |	Number of messages that consumed per second |
+| Consumer Group| Number of accumulated messages	| The number of messages that are not consumed in the relationship of subscription. |
+| Consumer Group| The request quantity of receiving message (times)| The number of requests that received by consumers in the relationship of subscription. |
+| Consumer Group| The number of messages received| The number of messages that received by consumers in the relationship of subscription. |
+| Consumer Group| The number of messages that received successfully |	The number of messages that consumers successfully received messages in the relationship of subscription. |
+| Consumer Group| The size of received messages (byte)| Message size of consumers’ receiving messages in the relationship of subscription. |

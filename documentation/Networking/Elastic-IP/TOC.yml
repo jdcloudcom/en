@@ -1,0 +1,116 @@
+﻿ name: Elastic IP
+  href: 
+  items:
+  - name: Introduction
+    items:
+      - name: Product Overview
+        href: Introduction/Product-Overview.md
+      - name: Core Concept
+        href: Introduction/Core-Concepts.md
+      - name: Benefits
+        href: Introduction/Benefits.md
+      - name: Features
+        href: Introduction/Features.md
+      - name: Restrictions
+        href: Introduction/Restrictions.md
+      - name: Application Scenarios 
+        href: Introduction/Application-Scenarios.md    
+  - name: Pricing
+    items:
+      - name: Billing Overview
+        href: Pricing/Pricing.md
+      - name: Billing Rules
+        href: Pricing/Billing-Rules.md
+      - name: Price Overview
+        href: Pricing/Price-Overview.md
+      - name: Purchase Process
+        href: Pricing/Purchase-Process.md 
+      - name: Renew-Process
+        href: Pricing/Renew-Process.md
+  - name: Getting Started
+    items:
+      - name: Virtual Machine Use Elastic IP
+        items:
+          - name: Configuration Introduction
+            href: Getting-Started/Elastic-IP-with-VM/VM-Configuration-Introduction.md
+          - name: Create VM Instance
+            href: Getting-Started/Elastic-IP-with-VM/Create-VM-Instance.md
+          - name: Virtual Machine Associate Elastic IP
+            href: Getting-Started/Elastic-IP-with-VM/Associate-VM-to-Elastic-IP.md
+          - name: Elastic IP Associate Virtual Machine
+            href: Getting-Started/Elastic-IP-with-VM/Associate-Elastic-IP-to-VM.md
+      - name: Load Balancer Adopting Elastic IP
+        items:
+          - name: Configuration Introduction
+            href: Getting-Started/Elastic-IP-with-LB/LB-Configuration-Introduction.md
+          - name: Create Load Balancer
+            href: Getting-Started/Elastic-IP-with-LB/Create-LB-Instance.md
+          - name: Load Balancer Associate Elastic IP
+            href: Getting-Started/Elastic-IP-with-LB/Associate-LB-to-Elastic-IP.md
+          - name: Elastic IP Associate Load Balancer
+            href: Getting-Started/Elastic-IP-with-LB/Associate-Elastic-IP-to-LB.md
+      - name: Native Container Use Elastic IP
+        items:
+          - name: Configuration Introduction
+            href: Getting-Started/Elastic-IP-with-Container/Container-Configuration-Introduction.md
+          - name: Create Native Container
+            href: Getting-Started/Elastic-IP-with-Container/Create-Container-Instance.md
+          - name: Native Container Associate Elastic IP
+            href: Getting-Started/Elastic-IP-with-Container/Associate-Container-to-Elastic-IP.md
+          - name: Elastic IP Associating Native Container
+            href: Getting-Started/Elastic-IP-with-Container/Associate-Elastic-IP-to-Container.md
+  - name: Operation Guide
+    items:
+      - name: Elastic IP Management
+        items:
+          - name: Create Elastic IP
+            href: Operation-Guide/Elastic-IP-Management/Create-Elastic-IP.md
+          - name: Delete Elastic IP
+            href: Operation-Guide/Elastic-IP-Management/Delete-Elastic-IP.md
+          - name: Associate Elastic IP
+            href: Operation-Guide/Elastic-IP-Management/Associate-Elastic-IP.md
+          - name: Disassociate Elastic IP
+            href: Operation-Guide/Elastic-IP-Management/Disassociate-Elastic-IP.md
+          - name: Modify Elastic IP
+            href: Operation-Guide/Elastic-IP-Management/Modify-Elastic-IP.md
+          - name: Renew Elastic IP
+            href: Operation-Guide/Elastic-IP-Management/Renew-Elastic-IP.md
+      - name: View Elastic IP Resource
+        items:
+          - name: View Elastic IP Resource
+            href: Operation-Guide/View-Elastic-IP-Detail/View-Elastic-IP-Detail.md
+      - name: View Elastic IP Monitoring
+        items:
+          - name: View Elastic IP Monitoring
+            href: Operation-Guide/View-Elastic-IP-Monitoring/View-Elastic-IP-Monitoring.md
+      - name: View Elastic IP Billing
+        items:
+          - name: View Elastic IP Billing
+            href: Operation-Guide/View-Elastic-IP-Billing/View-Elastic-IP-Billing.md
+      - name: Export Elastic IP List
+        items:
+          - name: Export Elastic IP List
+            href: Operation-Guide/Export-Elastic-IP-List/Export-Elastic-IP-List.md      
+  - name: Best Practices
+    items:
+    status:0
+  - name: Troubleshooting
+    items:
+    status:0      
+  - name: FAQ
+    href: FAQ/FAQ.md
+  - name: API Reference
+    href:
+    status:0      
+  - name: SDK Reference
+    href:
+    status:0      
+  - name: User Agreement
+    items:
+    - name: Terms of Service
+      href: User-Agreements/Product-Terms-of-Service.md          
+  - name: Related Resources
+    items:
+    - name: Document History
+      href: Related-Resources/Document-History.md   
+

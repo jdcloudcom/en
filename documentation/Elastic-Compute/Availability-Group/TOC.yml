@@ -1,0 +1,73 @@
+  name: Availability Group
+  href: 
+  items:
+  - name: Introduction
+    items:
+    - name: Product Overview
+      href: Introduction/Product-Overview.md
+    - name: Core Concept
+      href: Introduction/Core-Concepts.md
+    - name: Benefits
+      href: Introduction/Benefits.md
+    - name: Features
+      href: Introduction/Features.md
+    - name: Restrictions 
+      href: Introduction/Restrictions.md
+    - name: Application Scenarios 
+      href: Introduction/Scenarios.md    
+  - name: Pricing
+    items:
+    - name: Billing Overview
+      href: Pricing/Pricing.md
+  - name: Getting Started
+    href: Getting-Start.md
+  - name: Operation Guide
+    items:
+    - name: Create Availability Group
+      href: /Operation-Guide/Create-AG.md
+    - name: Modify Instance Template
+      href: /Operation-Guide/Modify-Instance-Template.md
+    - name: Auto Scaling
+      items:
+      - name: Auto-Scaling Overview
+        href: /Operation-Guide/Auto-Scaling/Auto-Scaling-Overview.md
+      - name: Enable Auto-Scaling
+        href: /Operation-Guide/Auto-Scaling/Enable-AS.md
+      - name: Disable Auto-Scaling
+        href: /Operation-Guide/Auto-Scaling/Disable-AS.md
+      - name: Modify Auto-Scaling
+        href: /Operation-Guide/Auto-Scaling/Modify-AS-Attributes.md
+      - name: Create Auto-Scaling Strategy
+        href: /Operation-Guide/Auto-Scaling/Create-AS-Strategy.md
+      - name: Enable Auto-Scaling Strategy
+        href: /Operation-Guide/Auto-Scaling/Enable-AS-Strategy.md
+      - name: Disable Auto-Scaling Strategy
+        href: /Operation-Guide/Auto-Scaling/Disable-AS-Strategy.md
+      - name: Manually Add Instances
+        href: /Operation-Guide/Add-Instance-Manually.md
+      - name: Manually Remove Instances
+        href: /Operation-Guide/Remove-Instance-Manually.md
+      - name: Delete Availability Group
+        href: /Operation-Guide/Delete-AG.md
+  - name: Best Practices
+    items:
+    - name: Optimal Configuration
+      href: Best-Practices/Best-configuration-recommendation.md
+    - name: Configure self-starting
+      href: Best-Practices/Auto-Enable-Services-on-Startup.md
+    - name: Set fixed exit IP
+      href: Best-Practices/Set-Static-Outbound-IP.md
+  - name: Tutorial
+    status:0
+    items:     
+  - name: API Reference
+    status:0
+    href:
+  - name: SDK Reference
+    status:0
+    href:
+  - name: FAQ
+    status:0
+    href: 
+  - name: Related Resources
+    status:0

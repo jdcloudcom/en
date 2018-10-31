@@ -1,0 +1,314 @@
+  name: RDS
+  href: 
+  items:
+  - name: Introduction
+    items:
+      - name: Product Overview
+        href: Introduction/Product-Overview.md
+      - name: Core Concepts
+        href: Introduction/Core-Concepts.md
+      - name: Basic Architecture
+        href: Introduction/Basic-Infrastructure.md
+      - name: Benefits
+        href: Introduction/Benefits.md
+      - name: Specifications
+        href: Introduction/Specifications.md
+      - name: Restrictions
+        items:
+        - name: JCS for MySQL Restrictions
+          href: Introduction/Restrictions/MySQL-Restrictions.md
+        - name: JCS for Percona Restrictions
+          href: Introduction/Restrictions/Percona-Restrictions.md
+        - name: MariaDB Restrictions
+          href: Introduction/Restrictions/MariaDB-Restrictions.md
+        - name: JCS for SQL Server Restrictions
+          href: Introduction/Restrictions/SQLServer-Restrictions.md
+      - name: Application Scenarios
+        href: Introduction/Application-Scenarios.md
+  - name: Pricing
+    items:
+      - name: Billing Overview
+        href: Pricing/Billing-Overview.md
+      - name: Billing Rules
+        href: Pricing/Billing-Rules.md
+      - name: Price Overview
+        href: Pricing/Price-Overview.md
+      - name: Purchase Process
+        href: Pricing/Purchase-Procedure.md
+      - name: Renew Process
+        href: Pricing/Renewal-Procedure.md
+        
+  - name: Getting Started
+    items:
+      - name: Create Instance
+        href: Getting-Started/Create-RDS-Instance.md
+      - name: Delete Instance
+        href: Getting-Started/Delete-RDS-Instance.md
+  
+  - name: Operation Guide
+    items:
+      - name: Instance Management
+        items:
+          - name: Create Instance
+            href: Operation-Guide/Instance/Create-Instance.md
+          - name: View Instance
+            href: Operation-Guide/Instance/View-Instance.md
+          - name: Delete Instance
+            href: Operation-Guide/Instance/Delete-Instance.md
+          - name: Enable Internet Access
+            href: Operation-Guide/Instance/Internet-Access.md
+          - name:  Failover Instance
+            href: Operation-Guide/Instance/Failover-Instance.md
+          - name: Reboot Instance
+            items:
+            - name: Reboot JCS for MySQL
+              href: Operation-Guide/Instance/Reboot-Instance/MySQL-Restart-Instance.md
+            - name: Reboot JCS for Percona
+              href: Operation-Guide/Instance/Reboot-Instance/Percona-Restart-Instance.md
+            - name: Reboot JCS for MariaDB 
+              href: Operation-Guide/Instance/Reboot-Instance/MariaDB-Restart-Instance.md
+            - name: Reboot JCS for SQL Server
+              href: Operation-Guide/Instance/Reboot-Instance/SQLServer-Restart-Instance.md
+  
+      - name: Read-only Instance Management
+        items:
+        - name: Create Read-only Instance
+          herf: Operation-Guide/Readonly-Instance-Management/Create-Readonly-Instance.md
+        - name: Reboot Read-only Instance
+          herf: Operation-Guide/Readonly-Instance-Management/Restart-Readonly-Instance.md
+  
+      - name: Account Management
+        items:
+          - name: Create Account
+            herf: Operation-Guide/Account/Create-Account.md
+          - name: Modify Privilege
+            herf: Operation-Guide/Account/Modify-Privilege.md
+          - name: Reset Password
+            herf: Operation-Guide/Account/Reset-Password.md
+          - name: Delete Account
+            herf: Operation-Guide/Account/Delete-Account.md
+  
+      - name: Database Management
+        items:
+          - name: Create Database
+            href: Operation-Guide/Database-Management/Create-Database.md
+          - name: Delete Database
+            href: Operation-Guide/Database-Management/Delete-Database.md
+  
+      - name: Backup Management
+        items:
+          - name: Create Backup
+            items:
+            - name: JCS for MySQL Create Backup
+              href: Operation-Guide/Backup/Create-Backup/MySQL-Create-Backup.md
+            - name: JCS for Percona Create Backup
+              href: Operation-Guide/Backup/Create-Backup/Percona-Create-Backup.md
+            - name: JCS for MariaDB Create Backup
+              href: Operation-Guide/Backup/Create-Backup/MariaDB-Create-Backup.md
+            - name: Create JCS for SQL Server Backup
+              href: Operation-Guide/Backup/Create-Backup/SQLServer-Create-Backup.md
+          - name: Backup Strategy
+            items:
+            - name: JCS for MySQL Backup Strategy
+              href: Operation-Guide/Backup/Backup-Policy/MySQL-Backup-Policy.md
+            - name: JCS for Percona Backup Strategy
+              href: Operation-Guide/Backup/Backup-Policy/Percona-Backup-Policy.md
+            - name: JCS for MariaDB Backup Strategy
+              href: Operation-Guide/Backup/Backup-Policy/MariaDB-Backup-Policy.md
+            - name: JCS for SQL Server Backup Strategy
+              href: Operation-Guide/Backup/Backup-Policy/SQLServer-Backup-Policy.md
+          - name: Backup Download
+            items:
+            - name: JCS for MySQL Backup Download
+              href: Operation-Guide/Backup/Backup-Download/MySQL-Backup-Download.md
+            - name: JCS for Percona Backup Download
+              href: Operation-Guide/Backup/Backup-Download/Percona-Backup-Download.md
+            - name: JCS for MariaDB Backup Download
+              href: Operation-Guide/Backup/Backup-Download/MariaDB-Backup-Download.md
+              status: 0
+            - name: JCS for SQL Server Backup Download
+              href: Operation-Guide/Backup/Backup-Download/SQLServer-Backup-Download.md
+          - name: Backup Replace and Recovery
+            items:
+            - name: JCS for MySQL Backup Recovery
+              href: Operation-Guide/Backup/Restore-Instance/MySQL-Backup-Restore.md
+            - name: JCS for Percona Backup Recovery
+              href: Operation-Guide/Backup/Restore-Instance/Percona-Backup-Restore.md
+            - name: JCS for MariaDB Backup Recovery
+              href: Operation-Guide/Backup/Restore-Instance/MariaDB-Backup-Restore.md
+            - name: JCS for SQL Server Backup Recovery
+              herf: Operation-Guide/Backup/Restore-Instance/SQLServer-Backup-Restore.md
+          - name: Delete Backup
+            href: Operation-Guide/Backup/Delete-Backup.md
+            
+      - name: Binlog Management
+        items:
+        - name: File Management
+          href: Operation-Guide/Binlog-Management/Binlog-File-Management.md
+        - name: File Download
+          href: Operation-Guide/Binlog-Management/Binlog-File-Download.md
+  
+      - name: Security Management
+        items:
+        - name: Set White List
+          href: Operation-Guide/Security/Set-Whitelist.md
+       
+      - name: Cloud on Single Database
+        items:
+        - name: Cloud on Single Database Introduction
+          href: Operation-Guide/Data-To-Cloud/Data-To-Cloud-Introduction.md
+        - name: Step 1 Backup Local Database
+          href: Operation-Guide/Data-To-Cloud/Backup-Local-Database.md
+        - name: Step 2 Upload Backup
+          href: Operation-Guide/Data-To-Cloud/Upload-Backup.md
+        - name: Step 3 Backup Import
+          href: Operation-Guide/Data-To-Cloud/Import-Backup.md
+        - name: Delete Uploaded File
+          href: Operation-Guide/Data-To-Cloud/Delete-Import.md
+
+      - name: Parameter Set 
+        items:
+         - name: Create Parameter Set
+           href: Operation-Guide/Parameter-Group/Creat-Parameter-Group.md
+         - name: Modify Parameter Set
+           href: Operation-Guide/Parameter-Group/Modify-Parameter-Group.md
+         - name: Copy Parameter Set
+           href: Operation-Guide/Parameter-Group/Copy-Parameter-Group.md
+         - name: Delete Parameter Set
+           href: Operation-Guide/Parameter-Group/Delete-Parameter-Group.md
+         - name: Modify History 
+           href: Operation-Guide/Parameter-Group/Parameter-Group-History.md
+          
+      - name: Audit
+        items:
+        - name: JCS for MySQL Audit Service
+          href: Operation-Guide/Audit/MySQL-Audit-Service.md
+        - name: JCS for Percona Audit Service
+          href: Operation-Guide/Audit/Percona-Audit-Service.md
+        - name: JCS for MariaDB Audit Service
+          href: Operation-Guide/Audit/MariaDB-Audit-Service.md
+        - name: JCS for SQL Server Audit Service
+          items:
+          - name: Introduction to JCS for SQL Server Audit
+            href: Operation-Guide/Audit/SQL-Server-Audit/Audit-Introduction.md
+          - name: Open Audit
+            href: Operation-Guide/Audit/SQL-Server-Audit/Enable-Audit.md
+          - name: Edit Audit
+            href: Operation-Guide/Audit/SQL-Server-Audit/Edit-Audit.md
+          - name: Close Audit
+            href: Operation-Guide/Audit/SQL-Server-Audit/Disable-Audit.md  
+          - name: Download Audit Results
+            href: Operation-Guide/Audit/SQL-Server-Audit/Dowload-Audit.md
+          - name: View Audit Results
+            href: Operation-Guide/Audit/SQL-Server-Audit/View-Audit-Result.md    
+ 
+      - name: Performance Statistics & Analysis
+        items:
+        - name: Performance Statistics & Analysis Introduction
+          href: Operation-Guide/Performance/Performance-Statistics-Introduction.md
+        - name: JCS for SQL Performance Statistics
+          href: Operation-Guide/Performance/SQL-Performance.md
+        - name:  Index Performance Optimization
+          href: Operation-Guide/Performance/Index-Performance.md
+
+      - name: Resource Tag
+        items:
+        - name: Resource Tag Introduction
+          herf: Operation-Guide/Tag/Tag-Introduction.md
+        - name: Edit Tag
+          herf: Operation-Guide/Tag/Edit-Tag.md
+        - name: Filter by Resources
+          herf: Operation-Guide/Tag/Search-Tag.md
+        - name: Management Tag
+          herf: Operation-Guide/Tag/Manage-Tag.md       
+          
+      - name: Monitoring Alarm
+        items:
+        - name: View Monitoring Information
+          href: Operation-Guide/Monitor-Alarm/View-Monitor-Information.md          
+        - name: Set Alarm Rules
+          href: Operation-Guide/Monitor-Alarm/Set-Alarm-Rules.md
+          
+                      
+      - name: Cross-Region Backup Synchronization
+        items:
+        - name: New Backup Synchronization Service
+          href: Operation-Guide/Cross-Region-Synchronization-Service/Create-Cross-Region-Synchronization-Service.md
+        - name: Create an Instance Based on the Backup
+          href: Operation-Guide/Cross-Region-Synchronization-Service/Create-Instance-Based-On-Backup.md
+        - name: Delete Backup Synchronization Service
+          href: Operation-Guide/Cross-Region-Synchronization-Service/Delete-Cross-Region-Synchronization-Service.md
+           
+      - name: Log Management
+        href: Operation-Guide/Log-Management.md   
+      - name: Access Mode Setting
+        href: Operation-Guide/Set-Access-Mode.md     
+            
+  - name: Best Practices
+    items:
+    - name: Data Transferring
+      items:
+      - name: From JCS for MySQL to JCS for Percona
+        href: Best-Practices/Data-Migration/Migrate-From-MySQL-Database-to-Percona-Database.md
+      - name: Import JCS for MySQL
+        items:
+        - name: Import from Local JCS for MySQL
+          href: Best-Practices/Data-Migration/Import-Data-Into-MySQL-Instance/VM-to-MySQL.md
+        - name: Import from VM MySQL
+          href: Best-Practices/Data-Migration/Import-Data-Into-MySQL-Instance/Local-to-MySQL.md
+      - name: Import JCS for Percona
+        items:
+        - name: Import from Local Percona
+          href: Best-Practices/Data-Migration/Import-Data-Into-Percona-Instance/VM-to-Percona.md
+        - name: Import from VM Percona
+          href: Best-Practices/Data-Migration/Import-Data-Into-Percona-Instance/Local-to-Percona.md
+      - name: Import JCS for MariaDB 
+        items:
+        - name: Import from Local MariaDB
+          href: Best-Practices/Data-Migration/Import-Data-Into-Percona-Instance/VM-to-MariaDB.md
+        - name: Import from VM Percona
+          href: Best-Practices/Data-Migration/Import-Data-Into-Percona-Instance/Local-to-MariaDB.md
+    - name: Restore Backup Files to the Self-built Database
+      items:
+      - name: Restore Backup Files to the Self-built MySQL
+        href: Best-Practices/Restore-Backup-To-Self-Built-Database/Restore-Backup-To-Self-Built-MySQL-Database.md
+      - name: Restore the Backup Files to the Self-built Percona
+        href: Best-Practices/Restore-Backup-To-Self-Built-Percona-Database.md
+      - name: Restore the Backup Files to the Self-built MariaDB 
+        href: Best-Practices/Restore-Backup-To-Self-Built-MariaDB-Database.md
+    - name: Connect to Database Instance
+      items:
+      - name: Connect Instance
+        href: Best-Practices/Connect-Database-Instance/Connect-Instance.md  
+      - name: Connect JCS for SQL Server from Client
+        href: Best-Practices/Connect-Database-Instance/Client-Connect-SQLServer.md
+      - name: Connect JCS for SQL Server from Virtual Machine
+        href: Best-Practices/Connect-Database-Instance/Host-Connect-SQLServer.md  
+  - name: FAQ
+    items:
+    - name: FAQ
+      href: FAQ/FAQ.md
+    - name: Storage Engine 
+      href: FAQ/Storage-Engine.md
+    - name: Storage Space
+      href: FAQ/Storage-Space.md
+  - name: Troubleshooting
+    items:
+    - name: Memory Usage Rate
+      href: Troubleshooting/Memory-Use-Rate.md          
+  - name: Related Resources
+    items:
+    - name: Document History
+      href: Related-Resources/Document-History.md
+    - name: Terms of Service
+      href: Related-Resources/Service-Terms.md
+      status: 0
+    - name: SLA
+      href: Related-Resources/SLA.md
+      status: 0
+    - name: Filing
+      href: Related-Resources/Filing.md
+      status: 0
+    - name: Glossary
+      href: Related-Resources/Glossary.md
+      status: 0

@@ -1,0 +1,10 @@
+# Computing Resource FAQ
+
+**Q: What are the types of computing resources?**
+
+A: As a new type cloud data warehouse service, Data Compute provides the below two different computing resource modes, namely shared computing resource and reserved computing resource. Currently, only shared computing resource of pay-as-you-go mode is supported. Reserved computing resource can be turned on by contacting the customer service. For shared computing resource of pay-as-you-go mode, users do not need to consider the background computing resource; they only need to submit SQL task and the data computing service will be billed according to the computing resource requiring automatic allocation demand and each SQL actual computation of user. Users do not submit SQL task need not to make payment (note: data storage is billed based on storage size); for exclusive pay-in-advance computing resource created by user customized definition, based on user's assessment on the enterprise's own computing task count/type and computing data size, the computing resource of CU (one CU is 1Core/4GB computing resource) with its size assigned by user is selected. This resource is exclusive for user and is not billed according to SQL task but to resource size and use duration (pay by configuration or monthly package).
+
+
+**Q: How to select the billing mode for different computing resource?**
+
+A: We recommend enterprises with small scale of data and computing task to select the Pay-As-You-Go mode, which can meet demand and largely reduce costs. And for enterprise-level data application with higher requirement for processing capacity and duration of data computing task, we recommend to select the exclusive pay-in-advance mode, which can provide stable, exclusive computing resource to avoid task latency resulting from resource conflict. Meanwhile, Data Compute provides rapid expansion/shrinkage function for the exclusive computing resource, which can adjust the computing resource size at any time in line with changes of enterprise business to meet the demand.

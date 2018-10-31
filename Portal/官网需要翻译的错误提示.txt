@@ -1,58 +1,58 @@
-﻿    ACTIVE_EXCEPTION(-1, "Abnormal Interface"),
-    ACTIVE_SUCCESS(0, "Succeeded"),
+﻿    ACTIVE_EXCEPTION(-1, "abnormal interface"),
+    ACTIVE_SUCCESS(0, "Success"),
     ACTIVE_FAILURE(1, "Failed"),
-    ERROR_PARAMS_NOT_NULL(2, "Must provide a parameter"),
+    ERROR_PARAMS_NOT_NULL(2, "Parameter cannot be blank"),
     ERROR_NO_PERMISSION(3, "No access to call"),
-    ERROR_INTERCEPTOR_M_NO_LOGIN_INFO(4, "Cannot obtain login information"),
-    ERROR_INTERCEPTOR_NO_LOGIN_INFO(5, "Cannot obtain login information"),
+    ERROR_INTERCEPTOR_M_NO_LOGIN_INFO(4, "Unable to obtain login information"),
+    ERROR_INTERCEPTOR_NO_LOGIN_INFO(5, "Unable to obtain login information"),
     ERROR_EMPTY_COMPANY_NAME(6, "Must provide a company name"),
-    ERROR_EMPTY_CONTACT_PERSON(7, "Must provide contacts"),
-    ERROR_EMPTY_MOBILE(8, "Must provide a mobile number"),
-    ERROR_EMPTY_DESCRIBE(9, "Must provide description information"),
-    ERROR_EMPTY_TYPEID(10, "Must provide a category ID"),
-    ERROR_EMPTY_QUESTION(11, "Must provide a problem description"),
-    ERROR_PHONE_FORMAT(12,"Format Error"),
+    ERROR_EMPTY_CONTACT_PERSON(7, "Contact cannot be blank"),
+    ERROR_EMPTY_MOBILE(8, "Mobile number cannot be blank"),
+    ERROR_EMPTY_DESCRIBE(9, "Description information cannot be blank"),
+    ERROR_EMPTY_TYPEID(10, "Classification ID cannot be blank"),
+    ERROR_EMPTY_QUESTION(11, "Problem description cannot be blank"),
+    ERROR_PHONE_FORMAT(12,"Mobile number format error"),
     ERROR_PARAMS_WRONG(13, "Parameter error"),
-    ERROR_PAGE_PARAM(14, "Wrong Paging Parameter"),
+    ERROR_PAGE_PARAM(14, "Paging parameter error"),
 
-    ERROR__EMPTY_DUTY(15, "Must provide a post"),
-    ERROR_EMPTY_EMAIL(16, "Must provide an e-mail"),
-    ERROR_EMPTY_TYPE(17, "Must provide a cooperation type"),
-    ERROR_EMPTY_SCALE(18, "Must provide a business scale"),
-    ERROR_EMPTY_AREA(19, "Must provide a business area"),
-    ERROR_EMAIL_FORMAT(20,"Wrong E-mail Format"),
-    ERROR_EMPTY_DEPARTMENT(21, "Must provide a department"),
-    ERROR_EMPTY_CUSTOMERTYPE(22, "Must provide a customer type"),
-    ERROR_APPLY_TOO_MANY(23, "System is busy, please try again later"),
-    ERROR_ACTIVITYID_PARAM(24, "Wrong Activity ID Parameter"),
+    ERROR__EMPTY_DUTY(15, "Position cannot be blank"),
+    ERROR_EMPTY_EMAIL(16, "Email cannot be blank"),
+    ERROR_EMPTY_TYPE(17, "Cooperation type cannot be blank"),
+    ERROR_EMPTY_SCALE(18, "Business scale cannot be blank"),
+    ERROR_EMPTY_AREA(19, "Business area cannot be blank"),
+    ERROR_EMAIL_FORMAT(20,"Email format error"),
+    ERROR_EMPTY_DEPARTMENT(21, "Department cannot be blank"),
+    ERROR_EMPTY_CUSTOMERTYPE(22, "Customer type cannot be blank"),
+    ERROR_APPLY_TOO_MANY(23, "System is busy. Please try again later"),
+    ERROR_ACTIVITYID_PARAM(24, "Activity ID parameter error"),
 
     ERROR_TOO_LONG_COMPANY_NAME(25, "Company name is too long"),
     ERROR_TOO_LONG_USER_NAME(26, "Name is too long"),
     ERROR_TOO_LONG_PHONE(27, "Phone number is too long"),
-    ERROR_TOO_LONG_EMAIL(28, "E-mail address is too long"),
+    ERROR_TOO_LONG_EMAIL(28, "Email is too long"),
 
-    ERROR_TOO_MANY_DEMAND_SERVICE(29, "Excessive Number of Services Required"),
-    ERROR_NO_FIRM_NAME_AUTHENTICATION(30, "Enterprise has not finished real-name verification"),
-    ERROP_TOO_LONG_DATA(31, "Parameter is lengthy"),
+    ERROR_TOO_MANY_DEMAND_SERVICE(29, "There are too many required services"),
+    ERROR_NO_FIRM_NAME_AUTHENTICATION(30, "No enterprise real-name verification"),
+    ERROP_TOO_LONG_DATA(31, "Parameter is too long"),
 
-    ERROR_EMPTY_SERVICECODE(117, "Must provide a product code"),
-    ERROR_EMPTY_BUSINESSDESC(118, "Must provide a business introduction"),
-    ERROR_EMPTY_APPLICATIONDESC(119, "Must provide an application scenario"),
-    ERROR_ADD_TESTAPPLY_FAILURE(120,"Addition of beta applicant failed"),
-    ERROR_GET_TESTAPPLY_STATUS(121,"Obtaining beta application status of current user failed"),
-    ERROR_TOO_LONG_BUSINESSDESC(122, "Exceed word limit for business introduction"),
-    ERROR_TOO_LONG_APPLICATIONDESC(123, "Exceed word limit for application scenario introduction"),
+    ERROR_EMPTY_SERVICECODE(117, "Product code cannot be blank"),
+    ERROR_EMPTY_BUSINESSDESC(118, "Business introduction cannot be blank"),
+    ERROR_EMPTY_APPLICATIONDESC(119, "Application scene cannot be blank"),
+    ERROR_ADD_TESTAPPLY_FAILURE(120,"Adding public beta applicant failed"),
+    ERROR_GET_TESTAPPLY_STATUS(121,"Obtaining current user public beta application status failed"),
+    ERROR_TOO_LONG_BUSINESSDESC(122, "There are too many characters for business introduction"),
+    ERROR_TOO_LONG_APPLICATIONDESC(123, "There are too many characters for application scene introduction"),
     ERROR_GET_RESOURCE_FAILURE(124,"Obtaining product list failed"),
-    ERROR_NOT_LOGIN(125,"User has not logged in, please try again after login"),
-    REPEAT_SUBMIT_ON_WAIT_STATUS(126,"Your application is under review, please do not submit repeatedly!"),
-    REPEAT_SUBMIT_ON_CONFIRMED_STATUS(127,"Your application has passed, please do not submit repeatedly!"),
-    ERROR_NO_APPLY_CITY(128, "Please select city"),
+    ERROR_NOT_LOGIN(125,"User is not logged in. Please try again after login!"),
+    REPEAT_SUBMIT_ON_WAIT_STATUS(126,"Your application is under review. Do not submit the application again."),
+    REPEAT_SUBMIT_ON_CONFIRMED_STATUS(127,"Your application is approved. Please do not make a duplicate submission."),
+    ERROR_NO_APPLY_CITY(128, "Please select the participating city"),
 
-    ERROR_EMPTY_CITY(2001,"Must provide a city"),
-    ERROR_EMPTY_PURPOSE(2002,"Must provide a purpose"),
-    ERROR_EMPTY_TIME(2003,"Must provide the time"),
-    EMPTY_COOKIE(201, "Cookie is empty"),
-    ERROR_ILEGAL_REQUEST(200, "Illegal Request!"),
+    ERROR_EMPTY_CITY(2001,"City cannot be blank"),
+    ERROR_EMPTY_PURPOSE(2002,"Destination cannot be blank"),
+    ERROR_EMPTY_TIME(2003,"Time cannot be blank"),
+    EMPTY_COOKIE(201, "Cookie is blank"),
+    ERROR_ILEGAL_REQUEST(200, "Request illegal."),
     NONE(10000,"NONE");
 	
 	
@@ -67,14 +67,14 @@
 	
 	
 	
-	    SERVER("vm","Virtual Machine"),
-    BALANCE("balance","Load Balancer"),
-    DISK("disk","Cloud Disk Service"),
+	    SERVER("vm","VM"),
+    BALANCE("balance","load balancing"),
+    DISK("disk","Cloud hard disk"),
     DATABASE("database","Cloud Database Mysql"),
-    REDIS("redis","Redis"),
-    IP("ip","Public IP"),
-    SQLSERVER("sqlserver","Cloud Database Sqlserver"),
-    STORAGE("storage","Cloud Storage");
+    REDIS("redis","Cache Redis"),
+    IP("ip","EIP"),
+    SQLSERVER("sqlserver","Cloud database Sqlserver"),
+    STORAGE("storage","Cloud storage");
 
 
 
@@ -88,7 +88,7 @@
 
 
 
-jcloud.billingTypes={"billingTypes":[{"category":1,"categoryDescription":"Pay By Configuration","description":"Pay By Configuration","feeType":1},{"category":6,"categoryDescription":"Monthly Package","description":"Monthly Package (1 month)","feeType":601},{"category":6,"categoryDescription":"Monthly Package","description":"Monthly Package (2 months)","feeType":602},{"category":6,"categoryDescription":"Monthly Package","description":"Monthly Package (3 months)","feeType":603},{"category":6,"categoryDescription":"Monthly Package","description":"Monthly Package (4 months)","feeType":604},{"category":6,"categoryDescription":"Monthly Package","description":"Monthly Package (5 months)","feeType":605},{"category":6,"categoryDescription":"Monthly Package","description":"Monthly Package (6 months)","feeType":606},{"category":6,"categoryDescription":"Monthly Package","description":"Monthly Package (7 months)","feeType":607},{"category":6,"categoryDescription":"Monthly Package","description":"Monthly Package (8 months)","feeType":608},{"category":6,"categoryDescription":"Monthly Package","description":"Monthly Package (9 months)","feeType":609},{"category":6,"categoryDescription":"Monthly Package","description":"Monthly Package (1 year, counted on 10-month basis)","feeType":610},{"category":6,"categoryDescription":"Monthly Package","description":"Monthly Package (2 years, counted on 20-month basis)","feeType":620},{"category":6,"categoryDescription":"Monthly Package","description":"Monthly Package (3 years, counted on 30-month basis)","feeType":630}]}
+jcloud.billingTypes={"billingTypes":[{"category":1,"categoryDescription":"By configuration","description":"By configuration","feeType":1},{"category":6,"categoryDescription":"Annual or Monthly Package","description":"Annual or Monthly Package (1 month)","feeType":601},{"category":6,"categoryDescription":"Annual or Monthly Package","description":"Annual or Monthly Package (2 months)","feeType":602},{"category":6,"categoryDescription":"Annual or Monthly Package","description":"Annual or Monthly Package (3 months)","feeType":603},{"category":6,"categoryDescription":"Annual or Monthly Package","description":"Annual or Monthly Package (4 months)","feeType":604},{"category":6,"categoryDescription":"Annual or Monthly Package","description":"Annual or Monthly Package (5 months)","feeType":605},{"category":6,"categoryDescription":"Annual or Monthly Package","description":"Annual or Monthly Package (6 months)","feeType":606},{"category":6,"categoryDescription":"Annual or Monthly Package","description":"Annual or Monthly Package (7 months)","feeType":607},{"category":6,"categoryDescription":"Annual or Monthly Package","description":"Annual or Monthly Package (8 months)","feeType":608},{"category":6,"categoryDescription":"Annual or Monthly Package","description":"Annual or Monthly Package (9 months)","feeType":609},{"category":6,"categoryDescription":"Annual or Monthly Package","description":"Annual or Monthly Package (1 year, as per 10 months)","feeType":610},{"category":6,"categoryDescription":"Annual or Monthly Package","description":"Annual or Monthly Package (2 years, as per 20 months)","feeType":620},{"category":6,"categoryDescription":"Annual or Monthly Package","description":"Annual or Monthly Package (3 years, as per 30 months)","feeType":630}]}
 
 
 

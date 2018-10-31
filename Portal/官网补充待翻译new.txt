@@ -1,0 +1,62 @@
+		if (LangUtils.EN.equals(lang)) {
+			sb.append("Instance Description:");
+		}
+
+		if (LangUtils.EN.equals(lang)) {
+			columnsTitle.add(new String[] { "count", "Purchase Quantity" });
+			columnsTitle.add(new String[] { "price", "Price (yuan)" });
+		}
+
+        if (LangUtils.EN.equals(lang)) {
+            totalCell.setCellValue("Refer to Total (Yuan):"+totalInfo);
+        }
+
+            } else if (s.equals("cpu")) {
+                returnString = "Number of CPUs";//
+            } else if (s.equals("memory")) {
+                returnString = "Memory size (Unit G)";//
+            } else if (s.equals("disk")) {
+                returnString = "Hard disk size (unit G)";//
+            } else if (s.equals("master")) {
+                returnString = "Primary-secondary Version";
+            } else if (s.equals("cluster")) {
+                returnString = "Cluster Version";
+            } else if (s.equals("bootVolumeType")) {
+                returnString = "System Disk Type";
+            } else if (s.equals("nbd_sata")) {
+                returnString = "Capacity-type SATA";
+            } else if (s.equals("provider")) {
+                returnString = "Service Provider";
+            } else if (s.equals("rate")) {
+                returnString = "Bandwidth Rate (Unit Mbps)";
+            } else if (s.equals("ipFeeType")) {
+                returnString = "Broadband Billing Type";
+            } else if (s.equals("volumeType")) {
+                returnString = "Cloud Hard Drive Type";
+            } else if (s.equals("capacity")) {
+                returnString = "Cloud Hard Drive Capacity Size (Unit G)";
+            } else {
+                returnString = "";
+            }
+		}
+
+
+
+				if (s.equals("type")) {
+                returnString = "Storage Type";
+            } else if (s.equals("standard")) {
+                returnString = "Standard Storage";
+            } else if (s.equals("low")) {
+                returnString = "Low Frequency Storage";
+            } else if (s.equals("storageAmount")) {
+                returnString = "Estimated Storage";
+            } else if (s.equals("downloadAmount")) {
+                returnString = "Download Traffic of EIP";
+				else if (s.equals("CDNAmount")) {
+                returnString = "CDN return flow";
+			}
+
+
+		else if (number.equals(2)) {
+                returnString = "by bandwidth";
+            } 

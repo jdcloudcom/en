@@ -1,7 +1,7 @@
-# 文档历史记录
+# Document History
 
-本文档介绍消息队列 JCQ产品文档的重要更新历史，包括新增产品的重大特性和按照用户的反馈进行内容的更新等。
+The following table describes important additions to the Message Queue documentation. We also update the documentation frequently to address the feedback that you send us.
 
-|发布日期|特性|描述|
+|Release Date|Feature|Description|
 |-|-|-|
-|2018年7月16日|公测|互联网中间件-消息队列 JCQ 公测版上线。|
+|16 July 2018|Public Beta|Middleware-Message Queue beta version released.|

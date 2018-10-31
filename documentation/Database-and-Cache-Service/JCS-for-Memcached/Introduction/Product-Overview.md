@@ -1,0 +1,2 @@
+# JCS for Memcached
+The JCS for Memcached is a memory-level Key-Value service provided by JD Cloud based on high performance of Memcached protocol, which is suitable for high-speed caching scenarios. It provides a full set of services, including ready-to-use, rapid deployment, and easy operation and maintenance, greatly relieving pressure to backend memory and improving response speed of websites or applications.

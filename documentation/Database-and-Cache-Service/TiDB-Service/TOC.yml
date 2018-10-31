@@ -1,0 +1,80 @@
+  name: TiDB Service
+  href:
+  items:
+  - name: Introduction
+    items:
+    - name: Product Overview
+      herf: Introduction/Product-Overview.md
+    - name: Core Concept
+      herf: Introduction/Core-Concepts.md
+    - name: Basic Infrastructure
+      herf: Introduction/Basic-Infrastructure.md
+    - name: Benefits
+      herf: Introduction/Benefits.md
+    - name: Features
+      herf: Introduction/Features.md
+    - name: Specifications
+      herf: Introduction/Specifications.md
+    - name: Restrictions
+      herf: Introduction/Restrictions.md
+    - name: Application Scenarios
+      herf: Introduction/Application-Scenarios.md
+    - name: Public Beta Introduction
+      herf: Introduction/Public-Beta-Introduction.md      
+
+  - name: Getting Started
+    items:
+    - name: Create Instance
+      herf: Getting-Started/Create-Instance.md
+    - name: Connect Instance
+      herf: Getting-Started/Connect-Instance.md
+    - name: Monitor Instance
+      herf: Getting-Started/Monitor.md
+
+  - name: Operation Guide
+    items:
+    - name: Instance Management
+      items:
+      - name: Create Instance
+        herf: Operation-Guide/Instance/Create-Instance.md
+      - name: Delete Instance
+        herf: Operation-Guide/Instance/Delete-Instance.md
+      - name: Connect Instance
+        herf: Operation-Guide/Instance/Connect-Instance.md
+
+    - name: Node Management
+      herf: Operation-Guide/Node-Management.md
+    - name: Reset Password
+      herf: Operation-Guide/Reset-Password.md
+    - name: Monitor Instance
+      herf: Operation-Guide/Monitor.md
+
+  - name: SQL Syntax
+    items:
+    - name: Data-processing-related SQL
+      herf: SQL-Syntax/Data-SQL.md
+    - name: Database-related SQL
+      herf: SQL-Syntax/Database-SQL.md
+    - name: Table-related SQL
+      herf: SQL-Syntax/Table-SQL.md
+    - name: Index-related SQL
+      herf: SQL-Syntax/Index-SQL.md
+    - name: User-related SQL
+      herf: SQL-Syntax/User-SQL.md
+
+  - name: Best Practices
+    items:
+    - name: Big Data Volume Processing
+      herf: Best-Practices/Data-Operation.md
+    - name: Parameter Optimization
+      herf: Best-Practices/Parameters-Optimization.md
+    - name: Efficient Use of Secondary Index
+      herf: Best-Practices/Secondary-Index.md
+
+  - name: FAQ
+    herf: FAQ/FAQ.md
+
+  - name: API Reference
+    herf:
+  - name: SDK Reference
+    herf:

@@ -1,0 +1,3 @@
+# Application Scenarios
+
+JD MapReduce has a wide range of application scenarios, such as data warehouse, log analysis, ETL processing, temporary processing analysis, ad hoc query analysis, streaming real-time computing, data external services, etc., to provide users with comprehensive, practical and convenient. The service can effectively solve the problems of complex data sources and types of enterprises, and large differences in workloads.

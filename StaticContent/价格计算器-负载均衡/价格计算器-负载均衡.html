@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+  <title>
+  </title>
+ </head>
+ <body>
+  <div class="calculator">
+   <div class="w cl">
+    <div class="cal-item">
+     <div class="cal-scroll">
+      <div class="more-pro cl">
+       <div class="more-pro-left">
+        <div class="cur-pro">
+         <i class="icon-pro">
+          
+         </i>
+         <span>
+          Load Balancer
+         </span>
+        </div>
+        <div class="pro-all">
+         <ul class="cl">
+          <li>
+           <h3>
+            Elastic Compute
+           </h3>
+           <a clstag="Calculator|keycount|MiddleContentSec|Calculator_Type_1" href="//www.jdcloud.com/calculator/calHost">
+            <dl>
+             <dt>
+              Virtual Machines
+             </dt>
+            </dl>
+           </a>
+           <a clstag="Calculator|keycount|MiddleContentSec|Calculator_Type_2" href="//www.jdcloud.com/calculator/calDisk">
+            <dl>
+             <dt>
+              Cloud Disk Service
+             </dt>
+            </dl>
+           </a>
+          </li>
+          <li>
+           <h3>
+            Networking
+           </h3>
+           <a clstag="Calculator|keycount|MiddleContentSec|Calculator_Type_3" href="//www.jdcloud.com/calculator/calLoad">
+            <dl>
+             <dt>
+              Load Balancer
+             </dt>
+            </dl>
+           </a>
+          </li>
+          <li>
+           <h3>
+            Database and Cache Service
+           </h3>
+           <a clstag="Calculator|keycount|MiddleContentSec|Calculator_Type_4" href="//www.jdcloud.com/calculator/calDataBase">
+            <dl>
+             <dt>
+              JCS for MySQL
+             </dt>
+            </dl>
+           </a>
+           <a clstag="Calculator|keycount|MiddleContentSec|Calculator_Type_5" href="//www.jdcloud.com/calculator/calSqlServer">
+            <dl>
+             <dt>
+              JCS for SQL Server
+             </dt>
+            </dl>
+           </a>
+           <a clstag="Calculator|keycount|MiddleContentSec|Calculator_Type_6" href="//www.jdcloud.com/calculator/calCache ">
+            <dl>
+             <dt>
+              Redis
+             </dt>
+            </dl>
+           </a>
+          </li>
+         </ul>
+        </div>
+       </div>
+       <div class="more-pro-right">
+        <a clstag="Calculator|keycount|MiddleCheckButtonSec|price_preview_1" href="/help/detail/1617/isCateLog/1" target="_blank">
+         Price Overview
+        </a>
+        <a clstag="Calculator|keycount|MiddleCheckButtonSec|product_detail_1" href="/products/loadbalance" target="_blank">
+         Product Details
+        </a>
+       </div>
+      </div>
+      <div class="price-wrap cl">
+       <div class="total-price">
+        <dl class="cl">
+         <dt>
+          Total Price:
+         </dt>
+         <dd class="discount-price">
+          ￥0.06
+         </dd>
+         <dd class="origin-price" style="display: none;">
+          ￥0.06
+         </dd>
+        </dl>
+       </div>
+       <div class="btn-wrap">
+        <a class="btn-reset" clstag="Calculator|keycount|MiddleCheckButtonSec|Calculator_Buttons_reset" href="javascript:void 0;">
+         Reset
+        </a>
+        <a class="btn-buy" clstag="Calculator|keycount|MiddleCheckButtonSec|Calculator_Buttons_gobuy" href="//console.jdcloud.com/host/loadBalance/create?dataCenter=cn-north-1" target="_blank">
+         Buy Now
+        </a>
+        <a class="btn-join" clstag="Calculator|keycount|MiddleCheckButtonSec|Calculator_Buttons_addList" href="javascript:void 0;">
+         Add to List
+        </a>
+       </div>
+       <div class="btn-wrap" style="display: none;">
+        <a class="btn-reset" clstag="Calculator|keycount|MiddleCheckButtonSec|Calculator_Buttons_cancel" href="javascript:void 0;">
+         Cancel
+        </a>
+        <a class="btn-join" clstag="Calculator|keycount|MiddleCheckButtonSec|Calculator_Buttons_save" href="javascript:void 0;">
+         Save
+        </a>
+       </div>
+      </div>
+     </div>
+     <div class="cal-content">
+      <p class="calTips">
+       <b>
+        Tips:
+       </b>
+       After logging in, you can get a more accurate price. The products paid by configuration are only provided with price estimation function, and the specific price is subject to the actual use. Please visit the purchase page for real-time inventory and supply.
+      </p>
+      <div class="cal-pro" id="config-hook">
+       <div class="cal-tab">
+        <ul>
+         <li class="hover">
+          Pay By Configuration
+         </li>
+        </ul>
+       </div>
+       <div class="item-config">
+        <div class="config-box">
+         <div class="group-title">
+          Region
+         </div>
+         <div class="group-detail">
+          <dl>
+           <dt>
+            Region:
+           </dt>
+           <dd>
+            <div class="mod_wrap">
+             <label class="cal-btn selected" clstag="Calculator|keycount|MiddleContentSec|Calculator_LoadType_cn-north-1">
+              <input class="radio-button" type="radio" value="cn-north-1"/>
+              <span class="radio-button-inner">
+               cn-north-1
+               <!-- -->
+              </span>
+             </label>
+             <label class="cal-btn" clstag="Calculator|keycount|MiddleContentSec|Calculator_LoadType_cn-south-1">
+              <input class="radio-button" type="radio" value="cn-south-1"/>
+              <span class="radio-button-inner">
+               cn-south-1
+               <!-- -->
+              </span>
+             </label>
+             <label class="cal-btn" clstag="Calculator|keycount|MiddleContentSec|Calculator_LoadType_cn-east-1">
+              <input class="radio-button" type="radio" value="cn-east-1"/>
+              <span class="radio-button-inner">
+               cn-east-1
+               <!-- -->
+              </span>
+             </label>
+             <label class="cal-btn" clstag="Calculator|keycount|MiddleContentSec|Calculator_LoadType_cn-east-2">
+              <input class="radio-button" type="radio" value="cn-east-2"/>
+              <span class="radio-button-inner">
+               cn-east-2
+               <!-- -->
+              </span>
+             </label>
+            </div>
+           </dd>
+          </dl>
+         </div>
+        </div>
+        <div class="config-box">
+         <div class="group-title">
+          Bandwidth
+         </div>
+         <div class="group-detail">
+          <p class="addText" id="addIp-wrap" style="display: none;">
+           <i class="newfont addDisk" title="Add Public IP">
+            
+           </i>
+           Add EIP
+          </p>
+          <div>
+           <dl>
+            <dt>
+             Billing by Bandwidth:
+            </dt>
+            <dd>
+             <div class="mod_wrap">
+              <label class="cal-btn" clstag="Calculator|keycount|MiddleContentSec|Calculator_LoadNetworkType_2">
+               <input class="radio-button" type="radio" value="2"/>
+               <span class="radio-button-inner">
+                By Fixed Bandwidth
+                <!-- -->
+               </span>
+              </label>
+              <label class="cal-btn" clstag="Calculator|keycount|MiddleContentSec|Calculator_LoadNetworkType_3">
+               <input class="radio-button" type="radio" value="3"/>
+               <span class="radio-button-inner">
+                By Traffic
+                <!-- -->
+               </span>
+              </label>
+             </div>
+            </dd>
+           </dl>
+           <dl>
+            <dt>
+             IP Provider:
+            </dt>
+            <dd>
+             <div class="mod_wrap">
+              <label class="cal-btn selected" clstag="Calculator|keycount|MiddleContentSec|Calculator_LoadNetworkProvider_0">
+               <input class="radio-button" type="radio" value="BGP"/>
+               <span class="radio-button-inner">
+                BGP
+               </span>
+              </label>
+             </div>
+            </dd>
+           </dl>
+           <dl>
+            <dt>
+             Bandwidth Cap:
+            </dt>
+            <dd class="cl">
+             <div class="con" id="rateHook">
+              <div class="el-slider el-slider--with-input">
+               <div class="el-input-number el-slider__input el-input-number--small is-without-controls">
+                <!-- -->
+                <!-- -->
+                <div class="el-input el-input--small">
+                 <!-- -->
+                 <!-- -->
+                 <input autocomplete="off" class="el-input__inner" max="200" min="1" rows="2" size="small" type="text" validateevent="true"/>
+                 <!-- -->
+                 <!-- -->
+                </div>
+               </div>
+               <div class="el-slider__runway show-input">
+                <div class="el-slider__bar" style="left: 0%; width: 0%;">
+                </div>
+                <div class="el-slider__button-wrapper" style="left: 0%;">
+                 <div class="el-slider__button el-tooltip">
+                 </div>
+                </div>
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+                <!-- -->
+               </div>
+              </div>
+              <div class="stepText">
+               <div class="fl">
+                1
+               </div>
+               <div class="fr">
+                200
+               </div>
+              </div>
+              <span class="unit">
+               Mbps
+              </span>
+              <p class="cal-text">
+               Purchasing of EIP is currently not available. After the VM instance creation is completed, purchase and association can be done separately.
+               <a class="noPurchase" href="javascript:void 0;">
+                Click Temporarily Cancel Purchase.
+               </a>
+              </p>
+             </div>
+            </dd>
+           </dl>
+          </div>
+         </div>
+        </div>
+        <div class="config-box">
+         <div class="group-title">
+          Purchase
+         </div>
+         <div class="group-detail">
+          <dl>
+           <dt>
+            Estimated Duration:
+           </dt>
+           <dd>
+            <div class="count-num fl">
+             <a class="newfont btn-disabled">
+              
+             </a>
+             <div class="el-input">
+              <!-- -->
+              <!-- -->
+              <input autocomplete="off" class="el-input__inner" max="100" min="1" rows="2" type="text" validateevent="true"/>
+              <!-- -->
+              <!-- -->
+             </div>
+             <a class="newfont">
+              
+             </a>
+            </div>
+            <div class="el-select ml10">
+             <!-- -->
+             <div class="el-input">
+              <!-- -->
+              <i class="el-input__icon el-icon-caret-top">
+              </i>
+              <input autocomplete="off" class="el-input__inner" icon="caret-top" placeholder="Please Select" readonly="readonly" rows="2" type="text"/>
+              <!-- -->
+              <!-- -->
+             </div>
+             <div class="el-select-dropdown" style="display: none; min-width: 112px;">
+              <div class="el-scrollbar" style="">
+               <div class="el-select-dropdown__wrap el-scrollbar__wrap" style="margin-bottom: -15px; margin-right: -15px;">
+                <ul class="el-scrollbar__view el-select-dropdown__list" style="position: relative;">
+                 <!-- -->
+                 <li class="el-select-dropdown__item selected">
+                  <span>
+                   Hour
+                  </span>
+                 </li>
+                 <li class="el-select-dropdown__item">
+                  <span>
+                   Day
+                  </span>
+                 </li>
+                 <li class="el-select-dropdown__item">
+                  <span>
+                   Month
+                  </span>
+                 </li>
+                 <li class="el-select-dropdown__item">
+                  <span>
+                   Year
+                  </span>
+                 </li>
+                 <div class="resize-triggers">
+                  <div class="expand-trigger">
+                   <div style="width: 1px; height: 1px;">
+                   </div>
+                  </div>
+                  <div class="contract-trigger">
+                  </div>
+                 </div>
+                </ul>
+               </div>
+               <div class="el-scrollbar__bar is-horizontal">
+                <div class="el-scrollbar__thumb" style="transform: translateX(0%);">
+                </div>
+               </div>
+               <div class="el-scrollbar__bar is-vertical">
+                <div class="el-scrollbar__thumb" style="transform: translateY(0%);">
+                </div>
+               </div>
+              </div>
+              <!-- -->
+             </div>
+             <div class="resize-triggers">
+              <div class="expand-trigger">
+               <div style="width: 113px; height: 31px;">
+               </div>
+              </div>
+              <div class="contract-trigger">
+              </div>
+             </div>
+            </div>
+           </dd>
+          </dl>
+          <dl>
+           <dt>
+            Quantity:
+           </dt>
+           <dd>
+            <div class="count-num">
+             <a class="newfont btn-disabled">
+              
+             </a>
+             <div class="el-input">
+              <!-- -->
+              <!-- -->
+              <input autocomplete="off" class="el-input__inner" max="100" min="1" rows="2" type="text" validateevent="true"/>
+              <!-- -->
+              <!-- -->
+             </div>
+             <a class="newfont">
+              
+             </a>
+            </div>
+           </dd>
+          </dl>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="fix-bottom">
+      </div>
+     </div>
+    </div>
+    <div class="cal-right">
+     <div class="cal-order">
+      <div class="list-scroll">
+       <h3>
+        List
+       </h3>
+       <p class="price-total">
+        <span>
+         <b>
+          0.00
+         </b>
+        </span>
+        <a class="btn-export fr btn-export-disabled" clstag="Calculator|keycount|MiddleCheckButtonSec|Calculator_Buttons_export">
+         Export List
+        </a>
+       </p>
+      </div>
+      <div class="list-wrap">
+       <div class="account-item-wrap" style="max-height: 416px; height: 416px;">
+        <div id="js-list">
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>
