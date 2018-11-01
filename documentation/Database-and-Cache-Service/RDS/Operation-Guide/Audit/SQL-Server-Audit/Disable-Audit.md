@@ -6,4 +6,4 @@ Enter the instance audit page and click the button on the right.
 ![Disable Instance 1](../../../../image/RDS/Disable-Audit-1.png)
 
 ## 2. Confirm to Disable
-![Disable Instance 2](../../../../image/RDS/Disable-Audit-2.png)
+Click **OK** in the dialog to confirm
