@@ -737,7 +737,7 @@
 		"sub_title":"公网IP不用换，快速提升京东云内服务的抗D能力",
 		"image_Url":"//img1.jcloudcs.com/cms/bb5bd928-ae6f-494c-88bf-8b18b5cf2dc420181029174700.png",
 		"dynamic_image":"//img1.jcloudcs.com/cms/c724c17c-aee3-44f5-94a1-1f4223995f1e20181029174705.png",
-		"name":"DDoS防护包重磅上市",
+		"name":"DDoS防护包上线公测",
 		"id":"1034",
 		"button_title":"查看详情",
 		"main_title":"DDoS防护包重磅上市"
