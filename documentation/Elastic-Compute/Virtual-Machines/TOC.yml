@@ -341,7 +341,7 @@ items:
                 href: Linux-Troubleshooting/Fault-Class/SSH-service-start-error-bind-any-address.md
               - name: Method to Automatically Restore Ubuntu System after DNS Modification and Restarting
                 href: Linux-Troubleshooting/Fault-Class/Ubuntu-system-recovery-method.md
-         - name: Windows Operation and Maintenance Guide
+      - name: Windows Operation and Maintenance Guide
         items:
            - name: Windows Environment Configuration
              items:
