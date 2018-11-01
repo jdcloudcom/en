@@ -33,4 +33,4 @@ GET {Http access point}/v1/messages HTTP/1.1
   | Field Name | Field Type | Description                                                         |
   | :-------: | :------: | :----------------------------------------------------------- |
   | requestId |  string  | requestId of this request is used to search the call chain |
-  |   error   |   map    | Return format \: {"code":500,"message"\:"Topic information query failure","status"\:"INTERNAL"} |
+  |   error   |   map    | Return format : {"code" : 500,"message" : "Topic information query failure","status" : "INTERNAL"} |
