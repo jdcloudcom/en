@@ -1,3 +1,5 @@
+# Enterprise Online Banking Payment Overview
+
 ### Overview
 
 The Enterprise Online Banking Payment Product is a product that supports enterprise users to use the bank online banking corporate account to complete the payment on the Internet quickly.
@@ -8,28 +10,35 @@ Enterprise Online Banking supports online banking transfer of China Construction
 
 ### Recommended Browsers
 
-### Browser Name
-
-Version IE
-
-11
+| Browser Name  | Version |
+| ------------- | ------------- |
+| IE  | 11 |
 
 ### Other Precautions
 
-1. 
 The person operating the online payment needs to log in the online banking site of the corresponding bank to complete the transaction.
-1. 
+
 The displayed merchant name on the bank enterprise online banking payment page is “Customer Reserve for Chinabank Payments (Beijing) Technology Co., Ltd.”.
-1. 
+
 Enterprise users need to go to the bank outlets to handle online payment related business.
-1. 
+
 Log in the bank enterprise online banking in advance, download the relevant plug-ins and drive programs and install them.
 
-Construction bank requires USB. Key Agricultural Bank only requires the customers to set up the handling review permissions on the account online banking. Merchants Bank requires to go to the bank account outlet, ask for the counter and fill in the application form.
-
-Industrial and Commercial Bank requires to enable the external transfer permission. Bank of Communications requires to go to the bank account outlet, ask for the counter and fill in the application form. Bank of China Bank of China requires to go to the bank account outlet, ask for the counter and fill in the application form.
-
-Everbright Bank requires to enable the electronic payment function
+| Bank Name | Preparation before Payment |
+| ------------- | ------------- |
+| China Construction Bank | USB key is required |
+| The Agricultural Bank of China | Customers need to set up handling and review permissions on the account online banking |
+| China Merchants Bank | Fill in the application form at the counter of the bank that you open your account |
+| Industrial and Commercial Bank of China | Enable external transfer permission |
+| Bank of Communications | Fill in the application form at the counter of the bank that you open your account |
+| Bank of China | Fill in the application form at the counter of the bank that you open your account |
+| China Everbright Bank | Enable electronic payment function |
+| Ping An Bank | Fill in the application form at the counter of the bank that you open your account  |
+| Post Office Savings Bank | Enable merchant payment and receipt function and signing an agreement is also required |
+| Shanghai Pudong Development Bank | Use USB key for general transfer and enable appropriate functions for special businesses  |
+| Bank of Beijing | Enable electronic payment function |
+| China Industrial Bank | Apply for and enable online banking at business outlets of China Industrial Bank |
+| Bank of Hangzhou | Enable electronic payment function |
 
 ### **Payment Process**
 

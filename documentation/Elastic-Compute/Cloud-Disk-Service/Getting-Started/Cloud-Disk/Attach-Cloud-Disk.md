@@ -31,8 +31,11 @@ You can attach Cloud Disk Service to any Virtual Machines in the same region or 
 - Cloud Disk Service cannot be attached in cross-regions and cross-availability zones;
 
 
+- Ordinary cloud disk service can only be attached to one virtual machine at the same time other than being supported to multiple virtual machines.
 
-- Cloud Disk Service can only be attached to a virtual machine at the same time and cannot be attached multiple Virtual Machines.
+- Multi-point attached disk can be attached to 16 cloud instances at the same time.
+
+- Directly attaching multi-point attached disk to multiple cloud instances cannot implement file sharing function, if files are needed to be shared among multiple cloud instances, sharing file system or cluster management system are needed to be set up.
 
 
 
@@ -130,3 +133,20 @@ After disk attaching succeeds, you need to log in the instance to partition and 
 **Windows**
 
 After disk attaching succeeds, you need to log in the instance to partition and format the attached disk, as well as attach it to a new partitioning. For detailed operation steps, please refer to [Windows partitioning, formatting and creating file system](https://www.jdcloud.com/help/detail/515/isCatalog/1). 
+
+<br>
+
+##  Operation Guide of Multi-point Attached Disk
+<br>
+
+**Attach multi-point attached disk ** on Cloud Disk Service List page or Cloud Disk Service Details page:
+
+1. Open [JD Cloud Console](https://console.jdcloud.com/), select [Elastic Compute]-[Cloud Disk Service]-[Hard Disk Instance];
+
+2. Select the multi-point attached disk to be attached and click [Attach] button on the right side;
+
+3. When [Attach to a Cloud Instance] list page pops up, select the cloud instance to be attached to with cloud disk, and click [OK] button; batch attachment is not supported currently;
+
+4. If attachment succeeds, relevant information will be updated; if attachment fails, the tooltip is shown. If attachment fails for several times, please contact customer service.
+
+5. Multi-point attached disk can attach 16 cloud instances at most;

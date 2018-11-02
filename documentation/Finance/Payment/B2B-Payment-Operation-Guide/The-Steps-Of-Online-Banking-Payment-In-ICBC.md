@@ -1,3 +1,14 @@
+# Payment Steps of Corporate Banking of ICBC
+
+### Preparation before Payment
+Apply for enabling enterprise online banking of Industrial and Commercial Bank of China, you can consult each bank of deposit of Industrial and Commercial Bank of China about the specific enabling process and business scope, Industrial and Commercial Bank of China will enable appropriate enterprise online banking businesses for you according to your business scope.
+Contact information of Industrial and Commercial Bank of China: nationwide unified customer service telephone (95588) or access website of China Merchants Bank: http://www.icbc.com.cn/
+
+### Payment Operations
+When paying, select payment method of “Enterprise Online Banking Payment”, select “Industrial and Commercial Bank of China” to submit payment application.
+
+Special reminder: Please insert the UKEY of Corporate Banking of ICBC before submitting payment application, and ensure that relevant plug-ins and drivers have been installed
+
 **After inserting USB Key, select bank→Confirm order information→Enter USB Key password→Press OK button on USB Key→Log in Enterprise Online Banking for approval→Select the transaction to be approved→Enter review USB Key password→Press OK button on review USB Key→Approved, payment succeeds**
 
 1. Insert the USB Key first and then select the bank to jump to the following page, click **Next**:

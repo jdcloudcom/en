@@ -29,7 +29,13 @@ A: The black hole is triggered when the attack exceeds 2G, and the access to the
 
 A: Include but not limited to SYN Flood, ACK Floods, TCP Floods, UDP Flood, DNS reflection attacks, NTP reflection attacks, SSDP reflection attacks, and other common attacks.
 
-If the above cannot solve your problem, consult the after-sales of the product: [after-sales consultation](https://ticket.jdcloud.com/myorder/form?cateId=2&questionId=13)
+**8、Q: What will you do if the 2G protection capacity of Anti-DDoS Basic cannot meet the demand?**
+
+A: It is suggested that you shall buy the Anti-DDoS Protection Package service to improve your protection capacity.
+
+At present, the Anti-DDoS Protection Package only supports maximum 50G protection capacity in cn-north-1 and cn-east-2. If you need more protection capacity and web attack protection, it is suggested that the Anti-DDoS Pro shall be purchased.
+
+If the above cannot solve your problem, consult the after-sales of the product: [after-sales consultation](https://ticket.jdcloud.com/myorder/form?cateId=4&questionId=23)
 
 # Related Documents
 

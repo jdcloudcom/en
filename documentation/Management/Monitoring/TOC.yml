@@ -37,6 +37,8 @@ items:
       href: Getting-Started/use-site-monitoring.md 
     - name: Use Customized Metric Monitoring
       href: Getting-Started/use-custom-monitoring.md
+    - name: Monitoring Statistics
+      href: Getting-Started/Monitoring-Statistics.md
 - name: Operation Guide
   items:
     - name: Dashboard

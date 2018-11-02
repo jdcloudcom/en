@@ -1,3 +1,14 @@
+# The enterprise online banking payment steps of Bank of Communications
+
+### Preparation before Payment
+Apply for enabling enterprise online banking of Bank of Communications, you can consult each bank of deposit of Bank of Communications about the specific enabling process and business scope, Bank of Communications will enable appropriate enterprise online banking businesses for you according to your business scope.
+Contact information of Bank of Communications: nationwide unified customer service telephone (95559) or access website of Bank of Communications: http://www.bankcomm.com/
+
+### Payment Operations
+When paying, select payment method of “Enterprise Online Banking Payment”, select “Bank of Communications” to submit payment application.
+
+Special reminder: please insert enterprise online banking UKEY of Bank of Communications before submitting payment application, and ensure that relevant plug-ins and drivers have been installed
+
 **Log in Enterprise Online Banking**→**Enter the smart USBkey password**→**Check the order information and submit the order**→**Payment input**→**Order authorization**→**Authorization succeeds, payment completed**
 
 1. Log in Enterprise Online Banking and select certificate login:

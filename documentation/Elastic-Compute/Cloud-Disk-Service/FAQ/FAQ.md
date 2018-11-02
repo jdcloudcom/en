@@ -41,6 +41,14 @@ Multi-point mounted cloud disk, i.e. the shared block storage. It is specially d
 
 No. The multi-point mounted disk can be used as the data disk only.
 
+**Q: How to delete multi-point attached disk?**
+
+Because multi-point attached disk is attached to multiple cloud instances at the same time, please detach all attach points ahead of deletion when you delete it.
+
+**Q: How to expand multi-point attached disk?**
+
+Multi-point attached disk can only be expanded in “available” state
+
 **Q: How to use the multi-point mounted disk correctly?**
 
 The multi-point mounted disk refers to the same Cloud Disk Service mounted to several cloud instances for use. Each instance can be used for reading/writing data from/in any area of such hard disk. If a conventional file system is used for management, the distribution conflict of disk space and data file inconsistence will be caused.

@@ -6,8 +6,8 @@ Anti-DDoS Basic is a free service launched by JD Cloud users for common cloud at
 
 **1: Support A Variety of Flood Attack Defense**: It can effectively resist SYN Flood, UDP Flood, ACK Floods, ICMP Flood, and so on, and the base protection capability of 2g is maximum supported.
 
-**2: Free Use**: If you are users of JD Cloud, you can use JD Cloud free of charge to protect your business.
+**2: Free trail to **: Once the EIP in the Cloud is purchased, the 2G Anti-DDoS Basic service will be enabled for free.
 
 ## Application Scenarios
 
-All the users suffering from the attacks, if you are the customers of JD Cloud, JD Cloud will provide you with basic personal safety protection free of charge.
+For all users subject to DDoS attack in JD Cloud, JD Cloud will provide at most 2G basic Anti-DDoS security service to your EIP free of charge.

@@ -1,3 +1,14 @@
+# Enterprise Online Banking Payment Steps for China Merchants Bank
+
+### Preparation before Payment
+Apply for enabling online banking of China Merchants Bank, you can consult each bank of deposit of China Merchants Bank about the specific enabling process and business scope, China Merchants Bank will enable appropriate enterprise online banking businesses for you according to your business scope.
+Contact information of China Merchants Bank: nationwide unified customer service telephone (95555) or access website of China Merchants Bank: http://www.cmbchina.com/
+
+### Payment Operations
+When paying, select payment method of “Enterprise Online Banking Payment”, select “China Merchants Bank” to submit payment application.
+
+Special reminder: please insert enterprise online banking UKEY of China Merchants Bank before submitting payment application, and ensure that relevant plug-ins and drivers have been installed
+
 **Log in Enterprise Online Banking**→**Handled payment**→**Order approval**→**Approved, payment succeeded**
 
 1. Enter the login name, password, etc. and click **Login**:

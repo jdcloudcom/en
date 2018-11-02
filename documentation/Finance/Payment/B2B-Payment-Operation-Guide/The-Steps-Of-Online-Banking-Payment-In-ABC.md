@@ -1,3 +1,14 @@
+# Enterprise Online Banking Payment Steps for Agricultural Bank of China
+
+### Preparation before Payment
+Apply for enabling enterprise online banking of Agricultural Bank of China, you can consult each bank of deposit of Agricultural Bank of China about the specific enabling process and business scope, Agricultural Bank of China will enable appropriate enterprise online banking businesses for you according to your business scope.
+Contact information of Agricultural Bank of China: nationwide unified customer service telephone (95599) or access website of Agricultural Bank of China: http://www.abchina.com/
+
+### Payment Operations
+When paying, select payment method of “Enterprise Online Banking Payment”, select “Agricultural Bank of China” to submit payment application.
+
+Special reminder: please insert enterprise online banking UKEY of Agricultural Bank of China before submitting payment application, and ensure that relevant plug-ins and drivers have been installed
+
 **Select certificate**→**Check USB-KEY display content**→**Log in Enterprise Online Banking to review**→**Review approved**
 
 1. Insert USB-KEY into the computer, select the certificate and click **Next**

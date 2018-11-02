@@ -16,6 +16,8 @@
         href: Introduction/Application-Scenarios.md
       - name: Specifications
         href: Introduction/Specification.md
+      - name: Use Method of Multi-point Attached Cloud Disk Service
+        href: Introduction/Multiattachdisk.md
       - name: Performance Test
         href: Introduction/Performance-Test.md
       - name: Restrictions

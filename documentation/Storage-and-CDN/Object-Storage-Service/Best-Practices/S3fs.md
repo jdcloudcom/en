@@ -28,13 +28,13 @@ sudo make install
 **3. Create password file**
 
 ```
-echo key:sercert > ~/.passwd-s3fs
+echo Access Key ID:Access Key Secret > ~/.passwd-s3fs
 chmod 600 ~/.passwd-s3fs
 ```
 
 Description
 
-key: secret obtaining method: https://uc.jdcloud.com/account/accessKey
+The acquisition mode of Access Key ID: Access Key Secret: https://uc.jdcloud.com/account/accessKey
 
 chmod 600: Only the current user can access the key file setting.
 

@@ -32,9 +32,9 @@ Before detaching actions, please be aware of the below notes:
 
 3. If detachment succeeds, the relevant information is updated; if detachment fails, the tooltip is shown. If detachment fails for several times, please contact customer service.
 
-**Method 2: Detach cloud disk on the Cloud Disk Service list page**
+**Method 2: Detach cloud disk on Cloud Disk Service Details page**
 
-1. Open [JD Cloud Console](https://console.jdcloud.com/), select [Elastic Compute]-[Virtual Machines]-[Cloud Disk Service];
+1. Open [JD Cloud Console](https://console.jdcloud.com/), select [Elastic Compute]-[Cloud Disk Service]-[Hard Disk Instance]
 
 2. Click the name of Cloud Disk Service needs to be detached and access the Cloud Disk Service details;
 
@@ -65,3 +65,17 @@ Before detaching actions, please be aware of the below notes:
 
 4. If detachment succeeds, the relevant information is updated; if detachment fails, the tooltip is shown. If detachment fails for several times, please contact customer service.
 
+## Detaching method of Multi-point Attached Disk
+<br>
+
+**You can detach multi-point attached disk on Cloud Disk Service List page or Cloud Disk Service Detail page.**
+
+**Detach multi-point attached disk on Cloud Disk Service List page**
+
+1. Open [JD Cloud Console](https://console.jdcloud.com/), select [Elastic Compute]-[Cloud Disk Service]-[Hard Disk Instance];
+
+2. Access the Cloud Disk Service List page and select the Multi-point Attached Data Disk to be detached; click [Detach]; a popup for confirming detachment pops up; click the list page and select the cloud instance to be separated; click [OK] to confirm to detach multi-point attached data disk;
+
+3. If detaching successfully, please refresh for update relevant information; if detaching fails, tooltip appears, if detaching fails for several times, please contact the customer service.
+
+4. If multi-point attached disk attaches to multiple cloud instances at the same time, if you only detach it from one cloud instance, after detaching successfully, the state of cloud disk service still is “attached”. Only when multi-point attached data disk has been successfully detached from all cloud instance, the state will be “available”.

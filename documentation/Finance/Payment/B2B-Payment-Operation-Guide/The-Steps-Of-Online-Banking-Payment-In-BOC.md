@@ -1,3 +1,14 @@
+# Enterprise Online Banking Payment Steps for Bank of China
+
+### Preparation before Payment
+Apply for enabling enterprise online banking of Bank of China, you can consult each bank of deposit of Bank of China about the specific enabling process and business scope, Bank of China will enable appropriate enterprise online banking businesses for you according to your business scope.
+Contact information of Bank of China: nationwide unified customer service telephone (95566) or access website of Bank of China: http://www.boc.cn/
+
+### Payment Operations
+When paying, select payment method of “Enterprise Online Banking Payment”, select “Bank of China” to submit payment application.
+
+Special reminder: please insert enterprise online banking UKEY of Bank of China before submitting payment application, and ensure that relevant plug-ins and drivers have been installed
+
 **Log in Enterprise Online Banking**→**Check the Order Information**→**Enter UKey password, confirm on UKey**→**Log in Enterprise Online Banking for review**→**Review approved, waiting for authorization**→**Insert USB Key to jump to the BOC background, conducting authorization**→**Authorization succeeds, payment succeeds**
 
 1. Log in Enterprise Online Banking:

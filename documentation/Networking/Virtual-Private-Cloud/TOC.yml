@@ -63,6 +63,8 @@
          href: Getting-Started/Subnet-Based-Policy-Routing-Management.md
        - name: VPC Peering Connection
          href: Getting-Started/VPC-Peering.md
+       - name: Border gateway connects virtual private cloud
+         href: Getting-Started/Border-Gateway-Connects-VPC.md
        - name: NAT Instance Gateway
          href: Getting-Started/NAT-Instance-Gateway.md
        - name: VPN Image Gateway
