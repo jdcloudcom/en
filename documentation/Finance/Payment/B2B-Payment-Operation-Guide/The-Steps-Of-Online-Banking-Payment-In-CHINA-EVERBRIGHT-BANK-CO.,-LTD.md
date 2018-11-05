@@ -1,3 +1,5 @@
+# Enterprise Online Banking Payment Steps for China Everbright Bank
+
 ### Preparation before Payment
 Apply for enabling enterprise online banking of China Everbright Bank, you can consult each bank of deposit of China Everbright Bank about the specific enabling process and business scope, China Everbright Bank will enable appropriate enterprise online banking businesses for you according to your business scope.
 Contact information of China Everbright Bank: nationwide unified customer service telephone (95595) or access website of Bank of China: http://www.cebbank.com/

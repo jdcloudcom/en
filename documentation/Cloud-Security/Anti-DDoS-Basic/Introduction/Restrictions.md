@@ -9,4 +9,4 @@ If you need mass-traffic attack protection, please buy the Anti-DDoS Protection 
 
 
 ## Related References
-- [Anti-DDoS Protection Package Introduction](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Anti-DDoS-Protection-Package/Introduction/Product-Overview.md)
+- [Anti-DDoS Protection Package Introduction](https://www.jdcloud.com/cn/products/anti-ddos-protection-package)

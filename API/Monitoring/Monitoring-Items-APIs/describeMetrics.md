@@ -2,7 +2,7 @@
 
 
 ## Description
-Query metric list to get monitoring data list based on product type
+Query metric list to get monitoring data list based on product type, metricΩÈ…‹£∫<a href="https://docs.jdcloud.com/cn/monitoring/metrics">Metrics</a>
 
 ## Request method
 GET

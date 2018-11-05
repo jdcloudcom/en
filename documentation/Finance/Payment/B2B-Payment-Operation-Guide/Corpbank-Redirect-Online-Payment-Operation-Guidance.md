@@ -6,7 +6,7 @@ The Enterprise Online Banking Payment Product is a product that supports enterpr
 
 ### Supported Banks
 
-Enterprise Online Banking supports online banking transfer of China Construction Bank, Agricultural Bank of China, China Merchants Bank, Industrial and Commercial Bank of China, Bank of Communications, Bank of China and China Everbright Bank; Real-time payment receiving, JD Cloud confirms orders in real time; like personal online banking remittances, there is no remittance identification code generated and the customer is not required to fill in the payment confirmation.
+Enterprise Online Banking supports online banking transfer of China Construction Bank, Agricultural Bank of China, China Merchants Bank, Industrial and Commercial Bank of China, Bank of Communications, Bank of China, China Everbright Bank, Ping An Bank, Post Office Savings Bank, Shanghai Pudong Development Bank, Bank of Beijing, China Industrial Bank and Bank of Hangzhou; Real-time payment receiving, JD Cloud confirms orders in real time; like personal online banking remittances, there is no remittance identification code generated and the customer is not required to fill in the payment confirmation.
 
 ### Recommended Browsers
 

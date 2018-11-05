@@ -27,7 +27,6 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domainUpdate
 |**requestId**|String|ID of This Request|
 |**result**|Result| |
 
-
 ### Result
 |Name|Type|Description|
 |---|---|---|
@@ -39,7 +38,7 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domainUpdate
 |**domainName**|String|Domain Name String|
 |**expirationDate**|Integer|Expiration Time, Format Unix Timestamp|
 |**id**|Integer|Unique ID of the Domain Name|
-|**packId**|Integer|Package Type, 0->Free 1->Enterprise Edition 2->Advanced Edition|
+|**packId**|Integer|Package Type, 0->Free 1->Enterprise Edition 2->Advanced Enterprise Edition|
 
 ## Response code
 |Return code|Description|

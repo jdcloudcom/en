@@ -2,11 +2,13 @@
 
 Payment methods fall into the following categories: (note: pay-in-advance orders, please complete the payment within 15 days after the order has been submitted, otherwise the order will be canceled automatically)
 
-1.**Online payment: **Select online payment, please enter **My Order**, click **Payment** and operate according to the notifications; currently online payment supports Enterprise Online Banking, Personal Online Banking, WeChat, JD Pay (support personal quick cards and JD Pay), JD Cloud Balance, JD Cloud coupons, etc. You can select as needed;
+### Online payment:
+Select online payment, please enter **My Order**, click **Payment** and operate according to the notifications; currently online payment supports Enterprise Online Banking, Personal Online Banking, WeChat, JD Pay (support personal quick cards and JD Pay), JD Cloud Balance, JD Cloud coupons, etc. You can select as needed;
 
 At present, WeChat, JD Cloud balance and coupons will be restricted separately according to legal compliance and product application rules.
 
-2.**Offline remittance**: Offline remittance is a payment product supporting users to recharge the JD Cloud fund account. After submitting the recharge order request, if you select offline remittance, a 21-digit remittance identification code will be generated. Please follow the page notifications to transfer at the bank. The account entry time in the offline company transfer method is generally 1-2 days for China Merchants Bank and 3-5 days for inter-bank transfer (the specific account entry time shall be subject to the actual account entry time of the bank);
+### Offline remittance: 
+Offline remittance is a payment product supporting users to recharge the JD Cloud fund account. After submitting the recharge order request, if you select offline remittance, a 21-digit remittance identification code will be generated. Please follow the page notifications to transfer at the bank. The account entry time in the offline company transfer method is generally 1-2 days for China Merchants Bank and 3-5 days for inter-bank transfer (the specific account entry time shall be subject to the actual account entry time of the bank);
 
 1) When remitting, please make a note of remittance identification code to ensure that the receipts can be timely cancelled after verification. Please confirm the correctness of identification code; do not add other explanatory notes;
 

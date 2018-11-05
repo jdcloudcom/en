@@ -31,17 +31,17 @@ http://opencdn.jcloud.com/api/setRangeArgs
 
 - ### **Request Example**
 
-html http://opencdn.jcloud.com/api/setRangeArgs
+http://opencdn.jcloud.com/api/setRangeArgs
 
  * Json Format
 
 ```
 {
-“username” :“test_user”, 
-“signature” :“d00f58f89e8cd55dc080aec0d8051845”, 
-“domain” :“www.a.com”, 
-“status” :“on”
-}
+    "username" :"test_user",
+    "signature" :"d00f58f89e8cd55dc080aec0d8051845",
+    "domain" :"www.a.com",
+    "status" :"on"
+ }
 ```
 
 - ###  **Return Example**
@@ -51,7 +51,7 @@ html http://opencdn.jcloud.com/api/setRangeArgs
 ```
 {
   "status": 0,
-  "msg": “Successful",
+  "msg": "Successful",
   "data": "www.a.com"
 }
 ```

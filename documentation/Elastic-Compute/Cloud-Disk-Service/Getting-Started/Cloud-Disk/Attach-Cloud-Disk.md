@@ -31,6 +31,7 @@ You can attach Cloud Disk Service to any Virtual Machines in the same region or 
 - Cloud Disk Service cannot be attached in cross-regions and cross-availability zones;
 
 
+
 - Ordinary cloud disk service can only be attached to one virtual machine at the same time other than being supported to multiple virtual machines.
 
 - Multi-point attached disk can be attached to 16 cloud instances at the same time.
@@ -137,9 +138,7 @@ After disk attaching succeeds, you need to log in the instance to partition and 
 <br>
 
 ##  Operation Guide of Multi-point Attached Disk
-<br>
-
-**Attach multi-point attached disk ** on Cloud Disk Service List page or Cloud Disk Service Details page:
+**Attach multi-point attached disk** on Cloud Disk Service List page or Cloud Disk Service Details page:
 
 1. Open [JD Cloud Console](https://console.jdcloud.com/), select [Elastic Compute]-[Cloud Disk Service]-[Hard Disk Instance];
 

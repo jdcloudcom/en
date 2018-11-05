@@ -17,9 +17,7 @@ items:
       href: Introduction/Specification.md
       status: 0
     - name: Restrictions
-      href: Introduction/Restrictions.md
-    - name: Application Scenarios 
-      href: Introduction/Application-Scenarios.md    
+      href: Introduction/Restrictions.md   
 - name: Pricing
   items:
     - name: Billing Overview

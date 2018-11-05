@@ -2,7 +2,7 @@
 
 ## **1. Description**
 
-Set Referer Black and White List Information
+Set Referer Black and White List Information(setReferConfig)
 
 ## **2. Request Parameter**
 
@@ -33,19 +33,19 @@ http://opencdn.jcloud.com/api/setReferConfig
 
 - ### **Request Example**
 
-html http://opencdn.jcloud.com/api/setReferConfig
+ http://opencdn.jcloud.com/api/setReferConfig
 
 \* Json Format
 
 ```
 {
-“username” :“test_user”, 
-“signature” :“d00f58f89e8cd55dc080aec0d8051845”, 
-“domain” :“www.a.com”, 
-“referType” :“block”, 
-“referList” :“www.baidu.com,www.alibaba.com”, 
-“allowEmpty” :“on”
-}
+    "username" :"test_user",
+    "signature" :"d00f58f89e8cd55dc080aec0d8051845",
+    "domain" :"www.a.com",
+    "referType" :"block",
+    "referList" :"www.blanck1.com,www.blanck2.com",
+    "allowEmpty" :"on"
+ }
 ```
 
 - ### **Return Example**
@@ -55,7 +55,7 @@ html http://opencdn.jcloud.com/api/setReferConfig
 ```
 {
   "status": 0,
-  "msg": “Successful",
+  "msg": "Successful",
   "data": "www.a.com"
 }
 ```

@@ -2,9 +2,9 @@
 
 ## **1. Description**
 
-Set Ignoring Parameter
+Set Ignoring Parameter(setIgnoreArgs)
 
-## **2. ** **Request Parameter**
+## **2.** **Request Parameter**
 
 | **Name**   | **Type** | **Compulsory or Not ** | **Description**                                                     |
 | --------- | -------- | ------------ | ------------------------------------------------------------ |
@@ -33,15 +33,15 @@ http://opencdn.jcloud.com/api/setIgnoreArgs
 
 http://opencdn.jcloud.com/api/setIgnoreArgs
 
-\* Json Format
+* Json Format
 
 ```
 {
-“username” :“test_user”, 
-“signature” :“d00f58f89e8cd55dc080aec0d8051845”, 
-“domain” :“www.a.com”, 
-“status” :“on”
-}
+    "username" :"test_user",
+    "signature" :"d00f58f89e8cd55dc080aec0d8051845",
+    "domain" :"www.a.com",
+    "status" :"on"
+ }
 ```
 
 - ### **Return Example**
@@ -51,7 +51,7 @@ http://opencdn.jcloud.com/api/setIgnoreArgs
 ```
 {
   "status": 0,
-  "msg": “Successful",
+  "msg": "Successful",
   "data": "www.a.com"
 }
 ```
