@@ -1,7 +1,7 @@
 [
 	{
 		"proGoodTitle":"Benefits",
-		"proNameTitle":"PLUS SMS Platform",
+		"proNameTitle":"PLUS Smart SMS",
 		"proDiffTitle":"Traditional SMS Platform",
 		"proGood":"Business Transformation Improved Significantly",
 		"proName":"Form like JD Cloud Wechat, with more convenient interaction, less consumer hesitation so as to facilitate business transformation.",
