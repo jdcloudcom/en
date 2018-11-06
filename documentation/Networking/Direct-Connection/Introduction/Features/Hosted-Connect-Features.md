@@ -30,7 +30,7 @@ A hosted private virtual interface is a logical link used to connect border gate
 When creating a hosted private virtual interface, you need to specify the following necessary information:
 
 - The /30 address used to establish a BGP session. Usually, the customer needs to configure two pairs of BGP sessions to connect to multiple services on JD Cloud. Allocate an interconnection address to 4 BGP sessions for establishing a three-layer interconnection with the DLR. The client (the Intranet of hosted area) uses the first address of 30/, and JD Cloud uses the second address of 30/;
-- The private AS number used to establish the BGP session. JD Cloud DLR uses the fixed AS number 64512, JD Cloud BGW uses the fixed AS number 65501, and the customer can be allocated an AS number ranging from 65001 to 65499;
+- The private AS number used to establish the BGP session. JD Cloud DLR uses the fixed AS number 64512, JD Cloud uses the fixed AS number 65501, and the customer can be allocated an AS number ranging from 65001 to 65499;
 - Vlan for business isolation, ranging from 2 to 4,000;
 
  

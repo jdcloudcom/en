@@ -151,10 +151,18 @@ items:
         items:
            - name: Overview
              href: API-Reference-S3-Compatible/Compatibility-Tools/Introduction-3.md
+           - name: SDK-Java
+             items:
+                - name: Installation
+                  href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-Java/Installation-S3.md
+                - name: Initialization
+                  href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-Java/Initialization-S3.md
+                - name: Simple Upload
+                  href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-Java/Simple-Upload-S3.md
+                - name: Multipart Upload
+                  href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-Java/Multipart-Upload-S3.md          
            - name: SDK-Python
              href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-Python.md
-           - name: SDK-Java
-             href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-Java.md
            - name: SDK-PHP
              href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-PHP.md
            - name: SDK-Android

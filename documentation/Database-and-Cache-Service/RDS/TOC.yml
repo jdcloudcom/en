@@ -176,6 +176,8 @@
            href: Operation-Guide/Parameter-Group/Copy-Parameter-Group.md
          - name: Delete Parameter Set
            href: Operation-Guide/Parameter-Group/Delete-Parameter-Group.md
+         - name: Modify Parameter 
+           href: Operation-Guide/Parameter-Group/Modify-Parameter.md
          - name: Modify History 
            href: Operation-Guide/Parameter-Group/Parameter-Group-History.md
           
@@ -280,7 +282,9 @@
       items:
       - name: Connect Instance
         href: Best-Practices/Connect-Database-Instance/Connect-Instance.md  
-      - name: Connect JCS for SQL Server from Virtual Machine
+      - name: Connect to SQL Server from Client
+        href: Best-Practices/Connect-Database-Instance/Client-Connect-SQLServer.md
+      - name: Connect to SQL Server from Virtual Machine
         href: Best-Practices/Connect-Database-Instance/Host-Connect-SQLServer.md  
   - name: FAQ
     items:

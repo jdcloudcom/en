@@ -4,7 +4,7 @@ Large files can be cut for multipart upload. User can use multipart upload mode 
 
 * Need to support breakpoint upload.
 
-* Upload files with the sizes exceed 900MB.
+* Upload files with the sizes exceed 5GB.
 
 * The network conditions are poor, and the link with OSS servers often disconnects.
 

@@ -1,20 +1,19 @@
 # Enterprise Online Banking Payment Overview
-
-### Overview
+## Overview
 
 The Enterprise Online Banking Payment Product is a product that supports enterprise users to use the bank online banking corporate account to complete the payment on the Internet quickly.
 
-### Supported Banks
+## Supported Banks
 
 Enterprise Online Banking supports online banking transfer of China Construction Bank, Agricultural Bank of China, China Merchants Bank, Industrial and Commercial Bank of China, Bank of Communications, Bank of China, China Everbright Bank, Ping An Bank, Post Office Savings Bank, Shanghai Pudong Development Bank, Bank of Beijing, China Industrial Bank and Bank of Hangzhou; Real-time payment receiving, JD Cloud confirms orders in real time; like personal online banking remittances, there is no remittance identification code generated and the customer is not required to fill in the payment confirmation.
 
-### Recommended Browsers
+## Recommended Browsers
 
 | Browser Name  | Version |
 | ------------- | ------------- |
 | IE  | 11 |
 
-### Other Precautions
+## Other Precautions
 
 The person operating the online payment needs to log in the online banking site of the corresponding bank to complete the transaction.
 
@@ -40,6 +39,6 @@ Log in the bank enterprise online banking in advance, download the relevant plug
 | China Industrial Bank | Apply for and enable online banking at business outlets of China Industrial Bank |
 | Bank of Hangzhou | Enable electronic payment function |
 
-### **Payment Process**
+## **Payment Process**
 
 The Enterprise Online Banking payment process consists of two major steps: The first step is the payment application, and the second step is the review approval. See each chapter for the specific operation steps of each bank.

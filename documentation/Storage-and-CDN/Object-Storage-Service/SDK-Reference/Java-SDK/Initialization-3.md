@@ -48,6 +48,7 @@ Notification:
 If you need to modify some default configurations of JingdongStorageService, please pass the ClientConfig instance when constructing JingdongStorageService. ClientConfig is a configuration class, which can be used to configure broker, connecting time-out, maximum connections and other parameters. The parameters can be set by ClientConfig are shown as in the following table:
 
 |Parameters|Description|Methods|
+|-|-|-|
 |MaxConnections|Maximum HTTP connections allowing to open. Default is 1024|ClientConfiguration.setMaxConnections|
 |SocketTimeout|The time-out period for transmitting data by socket layer (unit: millisecond). Default is 50000 millisecond|ClientConfiguration.setSocketTimeout|
 |ConnectionTimeout|The time-out period for setting connection (unit: millisecond). Default is 50000 millisecond|ClientConfiguration.setConnectionTimeout|

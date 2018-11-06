@@ -34,7 +34,7 @@ In Message Queue, the production and consumption of messages need to be in the f
 2. The relationship between Consumer Group ID and topic is N:M; that is the same Consumer Group ID can subscribe multiple topics, and the same topic can be bound with multiple Consumer Group ID.
 3. Choose the message type to send, including SDK method and HTTP method.
 4. Subscriber tag rules: tag is a message subscriber for message filtering, when the subscriber sets the tag, the same tag message can be consumed by the subscriber, if not set the tag, the subscriber does not filter the message. A single subscriber can add up to five tags, a single tag is a string of no more than 64 characters, separated by a ',' sign.
-- For message 1, does not have message tag, the subscriber has tag, then the subscriber does not match and receives no news.
+- For message 1, does not have message tag, the subscriber has tag, then the subscriber does not match and will not receive news.
 - For message 2, the message has a tag, the subscriber does not have a tag, the message does not need to match when delivered, and all the subscribers can receive the message.
 - For message 3, when the message and the subscriber both have a tag, the two matches, and can receive the message.
 - For Message 4, the message does not have a tag; the subscriber does not have a tag either. After delivery, all subscribers can receive the message.
