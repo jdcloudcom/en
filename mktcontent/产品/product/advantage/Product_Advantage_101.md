@@ -1,7 +1,7 @@
 [
 	{
 		"proGoodTitle":"Benefits",
-		"proNameTitle":"WorkSpace",
+		"proNameTitle":"JD WorkSpaces",
 		"proDiffTitle":"",
 		"proGood":"Safe and Reliable",
 		"proName":"Data persistence in data center, which will not be revealed and stored in user terminal, providing better security",
