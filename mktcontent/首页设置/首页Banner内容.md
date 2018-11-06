@@ -760,5 +760,14 @@
 		"id":"1038",
 		"button_title":"Get it Now",
 		"main_title":"Limited time offer: 1 RMB = 500 RMB of Gift Package"
+	},
+	{
+		"sub_title":"Oct.30-Nov.30, Best Offer of Marketplace PLUS Package",
+		"image_Url":"//img1.jcloudcs.com/cms/9b052987-af19-4e99-9bb2-3a3ba579555920181105183716.png",
+		"name":"11.11 Privileges for Enterprises",
+		"id":"1041",
+		"button_title":"More",
+		"main_title":"11.11 Privileges for Enterprises",
+		"backgroud_image":"//img1.jcloudcs.com/cms/c11c838e-5b6e-4c0c-832b-ce705cd7343b20181105183738.png"
 	}
 ]
