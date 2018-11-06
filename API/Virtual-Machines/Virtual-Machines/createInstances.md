@@ -2,7 +2,7 @@
 
 
 ## Description
-Create one or more virtual machines with the assigned configuration, with the creation divided into three modes: 1. common mode, 2. using high availability group, and 3. using startup template. In three modes, when the virtual machine instance is created, the required and optional parameters are different. See details in <a href=”http://docs.jdcloud.com/virtual-machines/api/create_vm_sample”>Detailed Instructions of Parameters</a><br>
+Create one or more virtual machines with the assigned configuration, with the creation divided into three modes: 1. common mode, 2. using high availability group, and 3. using startup template. In three modes, when the virtual machine instance is created, the required and optional parameters are different. See details in <a href="http://docs.jdcloud.com/virtual-machines/api/create_vm_sample">Detailed Instructions of Parameters</a><br>
 - Creating a VM requires real-name verification
 - Instance Type
     - Can query the API <a href="http://docs.jdcloud.com/virtual-machines/api/describeinstancetypes">DescribeInstanceTypes</a> to get specification information for a specified region or availability zone.

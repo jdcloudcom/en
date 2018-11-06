@@ -1,0 +1,8 @@
+{
+    "ch": {
+        "aclListSelect_i18nKey_1": "Select ACL to be associated, with each subnet associated with one Network ACL",
+        "aclListSelect_i18nKey_2": "Creation Time",
+        "aclListSelect_i18nKey_3": "No ACL Data",
+        "aclListSelect_i18nKey_4": "'Obtained acl list data"
+    }
+}

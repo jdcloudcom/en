@@ -1,4 +1,5 @@
 # Failover Instance
+Currently, only SQL Server support the feature.
 
 #### 1. Click ***Failover Instance***
 Click ***Failover Instance*** under ***Operation*** in the instance list or ***Failover Instance*** under ***Operation*** at the upper right of the instance detailed list.

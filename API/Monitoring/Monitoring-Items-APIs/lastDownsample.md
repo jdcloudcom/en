@@ -29,7 +29,7 @@ https://monitor.jcloud.com/v1/regions/{regionId}/metrics/{metric}/lastDownsample
 ### TagFilter
 |Name|Type|Required or Not|Default|Description|
 |---|---|---|---|---|
-|**key**|String|False| |Tag Key|
+|**key**|String|False| | |
 |**values**|String[]|False| |Tag Value|
 
 ## Return Parameter

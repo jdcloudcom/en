@@ -10,7 +10,7 @@
 	{
 		"proGood":"One-button deployment",
 		"proName":"One-click deployment, convenient and rapid. The purchased JCS for Memcached is ready to use, realizing rapid deployment without cares for hardware and software．",
-		"proDiff":"Require machines and manual setup."
+		"proDiff":"Automatically install machines and guarantee operation of the cache service by relying on professional level of the technician."
 	},
 	{
 		"proGood":"Smooth Expansion",

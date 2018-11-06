@@ -5,4 +5,3 @@
 **2. click ***OK*** to delete the files after confirming that the file name is correct.**
 
 Note: The files being imported cannot be deleted.>
-![Delete Uploads 2](../../../image/RDS/Delete-Import-2.png)

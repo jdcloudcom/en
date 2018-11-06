@@ -86,7 +86,7 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/containers
 |**envs**|EnvVar[]|False| |Environment variables executed by containers; if the environmental variable Key is the same in the image, values in the image will be replaced; </br> 10 pairs at most |
 |**hostAliases**|HostAlias[]|False| |Domain and IP Mapping Information; </br> at most 10 alias |
 |**hostname**|String|False| |For machine name and specification, please refer to the instruction document; default container ID |
-|**image**|String|False| |Image name </br> 1. Docker Hub public image is specified via names as nginx, mysql/mysql-server </br> </br> repository contains at most 256 characters, tag contains at most 128 characters, and registry contains as most 255 characters </br> the image download overtime is 10min|
+|**image**|String|True| |Image name </br> 1. Docker Hub public image is specified via names as nginx, mysql/mysql-server </br> </br> repository contains at most 256 characters, tag contains at most 128 characters, and registry contains as most 255 characters </br> the image download overtime is 10min|
 |**instanceType**|String|True| |Instance Type Family; Refer to [Document](https://www.jdcloud.com/help/detail/1992/isCatalog/1)|
 |**logConfiguration**|LogConfiguration|False| |Container log configuration information; 10MB storage space will be assigned to the local by default|
 |**name**|String|True| |Container Name|
@@ -120,7 +120,6 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/containers
 |**description**|String|False| |Description of the cloud disk|
 |**diskSizeGB**|Integer|True| |Size of the cloud disk, unit: GiB; ssd value range of [20,1000]GB and step size of 10G; premium-hdd value range of [20,3000]GB and step size of 10G|
 |**diskType**|String|True| |Type of the cloud disk, value ssd or premium-hdd|
-|**multiAttachable**|Boolean|False| |Whether the Cloud Disk Service supports the mode that one disk is attached to multiple machines. It is set as false by default (not supported).|
 |**name**|String|True| |Name of the cloud disk|
 |**snapshotId**|String|False| |Snapshot ID used to create Cloud Disk Service|
 ### ElasticIpSpec
@@ -172,7 +171,6 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/containers
 |---|---|---|
 |**requestId**|String| |
 |**result**|Result| |
-
 
 ### Result
 |Name|Type|Description|

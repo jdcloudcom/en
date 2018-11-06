@@ -2,7 +2,7 @@
 
 ## **1. Description**
 
-Back-to-origin Policy Change
+Back-to-origin Policy Change(changeSource)
 
 ## **2. Request Parameter**
 
@@ -13,7 +13,7 @@ Back-to-origin Policy Change
 | domain         | String   | Yes           | Accelerated Domain Name                                                     |
 | type      | String   | Yes           | Type of Domain Name Service resources, currently only supports   web means static small files, download means large file acceleration, vod means video acceleration  (types not supported currently: dynamic means dynamic acceleration, live means live streaming acceleration) |
 | sourceType     | String   | Yes           | ips: IP list, domain: Domain name, oss: oss back-to-origin                       |
-| sourceType     | String   | Yes           | ips and domain must be in Json Format                                    |
+| source     | String   | Yes           | ips and domain must be in Json Format                                    |
 | httpType          | String   | No           | http type, can only be http or https, http by default. When set as https, "Set Communications Protocol" APIs need to be called to upload certificates and private keys |
 | backSourceType | String   | No           | Back-to-origin type, can only be http (port 80 back-to-origin) or https (port 443 back-to-origin), http by default |
 
@@ -47,14 +47,14 @@ curl -H “Content-type: application/json” -X POST -d ‘{“username”:“te
 
 ```
 html http://opencdn.jcloud.com/api/changeSource
-{ 
-“username”:“test_user”, 
-“signature”:“d00f58f89e8cd55dc080aec0d8051845”, 
-“domain”:“www.a.com”, 
-“type”:“web”, 
-“sourceType”:“domain”, 
-“source”:“[{‘domain’:‘source1.www.a.com’,‘priority’:‘1’},{‘domain’:‘source2.www.a.com’,‘priority’:‘2’}]” 
-}
+{
+    "username" :"test_user",
+    "signature" :"d00f58f89e8cd55dc080aec0d8051845",
+    "domain" :"www.a.com",
+    "type" :"web",
+    "sourceType" :"domain",
+    "source" :"[{'domain':'source1.a.com','priority':'1'},{'domain':'source2.a.com','priority':'2'}]"
+ }
 ```
 
 - ### **Return Example**
@@ -64,7 +64,7 @@ html http://opencdn.jcloud.com/api/changeSource
 ```
 {
   "status": 0,
-  "msg": “Successful",
+  "msg": "Successful",
   "data": "www.a.com"
 }
 ```

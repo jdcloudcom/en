@@ -2,7 +2,7 @@
 
 - Request Line
 
-```http
+```
 GET {Http access point}/v1/messages HTTP/1.1
 ```
 
@@ -23,14 +23,14 @@ GET {Http access point}/v1/messages HTTP/1.1
 
   1. Requested
 
-  |  Field Name   | Field Type | Description                                                         |
-  | :-------: | :------: | :----------------------------------------------------------- |
-  | requestId                          |  string  | requestId of this request is used to search the call chain |
-  |  result   |   map    | Return format : `{"topicName":"lizhijian-041","ackIndex":31,"messages":[{"messageId":"messageId_1","messageBody":"test-0","properties":{"TAGS":"world"}},{"messageId":"messageId_2","messageBody":"test-2","properties":{"TAGS":"world"}}]}`|
+|  Field Name   | Field Type | Description                                                         |
+|:----:|:----:|:----|
+| requestId |  string  | requestId of this request is used to search the call chain |
+|  result   |   map    | Return format : {"topicName":"lizhijian-041","ackIndex":31,"messages":[{"messageId":"messageId_1","messageBody":"test-0","properties":{"TAGS":"world"}},{"messageId":"messageId_2","messageBody":"test-2","properties":{"TAGS":"world"}}]} |
 
   2. Request Failure
 
-  |  Field Name   | Field Type | Description                                                         |
-  | :-------: | :------: | :----------------------------------------------------------- |
-  | requestId                          |  string  | requestId of this request is used to search the call chain |
-  |   error   |   map    | Return format : `{"code":500,"message":"Topic information query failure","status":"INTERNAL"}`|
+| Field Name | Field Type | Description                                                         |
+|:----:|:----:|:----|
+| requestId |  string  | requestId of this request is used to search the call chain |
+|   error   |   map    | Return format : {"code" : 500,"message" : "Topic information query failure","status" : "INTERNAL"} |

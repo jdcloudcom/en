@@ -18,7 +18,7 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domainAdd
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**billingType**|Integer|False| |Billing Type, domain name of the paid package is required|
-|**buyType**|Integer|False| |1->New Purchase, 2->Upgrade, domain name of the paid package is required|
+|**buyType**|Integer|False| |1->New Purchase, 3->Upgrade, domain name of the paid package is required|
 |**domainId**|Integer|False| |Domain Name ID, required for upgraded and advanced version       |
 |**domainName**|String|True| |Domain Name to be Added|
 |**packId**|Integer|True| |Type of the Domain Name Package,  0->Free, 1->Enterprise Edition, 2->Advanced Edition|
@@ -32,7 +32,6 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domainAdd
 |**requestId**|String|ID of This Request|
 |**result**|Result| |
 
-
 ### Result
 |Name|Type|Description|
 |---|---|---|
@@ -45,7 +44,7 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domainAdd
 |**domainName**|String|Domain Name String|
 |**expirationDate**|Integer|Expiration Time, Format Unix Timestamp|
 |**id**|Integer|Unique ID of the Domain Name|
-|**packId**|Integer|Package Type, 0->Free 1->Enterprise Edition 2->Advanced Edition|
+|**packId**|Integer|Package Type, 0->Free 1->Enterprise Edition 2->Advanced Enterprise Edition|
 
 ## Response code
 |Return code|Description|

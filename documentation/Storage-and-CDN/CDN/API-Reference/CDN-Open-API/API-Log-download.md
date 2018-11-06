@@ -51,7 +51,7 @@ http://opencdn.jcloud.com/api/downloadUrlInterval
     "domain" :" www.a.com,www.b.com ",
     "start_time" :"2017-10-19 00:00",
     "end_time" :"2017-10-19 23:59",
-    "interval" :"DAY",//Download by day
+    "interval" :"DAY"
  }
 ```
 

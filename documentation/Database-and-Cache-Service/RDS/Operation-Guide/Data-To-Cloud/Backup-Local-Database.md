@@ -16,9 +16,6 @@ go
 - Move to step 2 if the model value is not Full.
 - Move to step 3 if the model value is Full.
 
-Users can also use the JCS for SQL Server Management Studio client tool to make a full backup of the database, and, at the same time, ensure that the database recovery mode is "Complete".
-![Backup Local Database 1](../../../image/RDS/Backup-Local-Database-1.png)
-
 ## 2. Set Restoring Mode of Database as Full.
 ```commandline
 alter database [dbname] set recovery full;

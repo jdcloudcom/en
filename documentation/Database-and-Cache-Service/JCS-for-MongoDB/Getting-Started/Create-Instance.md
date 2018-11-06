@@ -5,7 +5,7 @@ You can quickly create a MongoDB instance via MongoDB console or API. For billin
 This article describes how to create a MongoDB instance via console.
 
 ## Precondition
-- Have a JD Cloud account and have completed the real-name verification. If you do not have an account, please [Register](https://accounts.jdcloud.com/p/regPage?source=jdcloud&ReturnUrl=%2f%2fuc.jdcloud.com%2fpassport%2fcomplete%3freturnUrl%3dhttp%3A%2F%2Fuc.jdcloud.com%2Fredirect%2FloginRouter%3FreturnUrl%3Dhttps%253A%252F%252Fwww.jdcloud.com%252Fhelp%252Fdetail%252F734%252FisCatalog%252F1), or complete [Real-name Verification](https://uc.jdcloud.com/account/certify).
+- Have a JD Cloud account and have completed the real-name verification. If you do not have an account, please [Register](https://accounts.jdcloud.com/p/regPage?source=jdcloud%26ReturnUrl=%2f%2fuc.jdcloud.com%2fpassport%2fcomplete%3freturnUrl%3dhttp%3A%2F%2Fuc.jdcloud.com%2Fredirect%2FloginRouter%3FreturnUrl%3Dhttps%253A%252F%252Fwww.jdcloud.com%252Fhelp%252Fdetail%252F734%252FisCatalog%252F1), or complete [Real-name Verification](https://uc.jdcloud.com/account/certify).
 - If the billing type is selected and paid by configuration, please confirm that your account balance (including coupon) is not less than RMB 50.
 
 ## Operation Steps

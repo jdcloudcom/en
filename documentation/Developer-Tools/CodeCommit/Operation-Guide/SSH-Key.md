@@ -1,3 +1,7 @@
-Log in the page of Settings->SSH Keys, click **Add SSH Key** and add public key file
+Click **Settings** via the avatar at the upper right corner, and enter into the “Key Pair” page
 
-![10.png](https://img1.jcloudcs.com/cms/54babf14-1cec-4677-8b6f-d946e3dd678920180906114743.png)
+![1.png](https://github.com/jdcloudcom/cn/blob/edit/image/codecommit/SSHKey.png)
+
+Click to add the key pair, and add the public key file
+
+

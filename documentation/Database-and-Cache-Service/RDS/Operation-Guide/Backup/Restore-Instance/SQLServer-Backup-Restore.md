@@ -17,15 +17,11 @@ Click ***Restore based on Backup*** on the right side of the backup list.
 
 ## 4. Restore Confirmation
 The following dialog box will pop up according to different restoration types. click ***OK*** and restore.
-### Confirmation Dialog of JCS for SQL Server
-**Restore Instance**<br>
-![Restore Instance 5](../../../../image/RDS/Restore-Instance-5.png)
-
+For example:
 **Restore Single Database**<br>
-![Restore Instance 6](../../../../image/RDS/Restore-Instance-6.png)
+![Restore Instance 6](../../../../image/RDS/Restore-Instance-5.png)
 
 ## 5. Instance Status
-The instance status is displayed as "Restoring" (Restore Instance)
-![Restore Instance 8](../../../../image/RDS/Restore-Instance-8.png)
-<br> or "Backup and Restore Single Database" (SQL Server only)
-![ Restore Instance 7](../../../../image/RDS/Restore-Instance-7.png)
+The instance status is displayed as "**Recovering**" (Restore Instance)
+<br> or "**Single database backup recovering" (SQL Server only)
+

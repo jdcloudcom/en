@@ -24,7 +24,7 @@ Callback Notification Process:
 
 4. If the callback server gives no response, OSS will retry for three times. If there is still no response, it is believed that the callback is failed.
 
-**Callback notification support API**：[PUT Bucket notification](https://github.com/jdcloud-cmw/oss/blob/master/S3-API-Document/Operations-on-Bucket/PUT-Bucket-notification.md)、[GET Bucket notification](https://github.com/jdcloud-cmw/oss/blob/master/S3-API-Document/Operations-on-Bucket/GET-Bucket-notification.md)
+**Callback notification support API**: [PUT Bucket notification](https://github.com/jdcloud-cmw/oss/blob/master/S3-API-Document/Operations-on-Bucket/PUT-Bucket-notification.md)、[GET Bucket notification](https://github.com/jdcloud-cmw/oss/blob/master/S3-API-Document/Operations-on-Bucket/GET-Bucket-notification.md)
 
 ## Configuration callback notification
 
@@ -59,15 +59,23 @@ You can specify a Bucket to create or change the NotificationConfiguration via P
 ```
 
 Note:
-* TopicConfiguration: Relevant configuration rules for message notification, supporting many rules When the event is triggered, TopicConfiguration will be matched one by one in orders via the Object and the event type. If the match is successful, the message notification will be sent and the match is terminated.
-* Id: the unique identifier of TopicConfiguration; if it is not set, OSS will assign an ID randomly
-* Topic: When the event of occurrence is specified, OSS will send message to this topic in the format of NS:endpoint1,endpoint2,endpoint3 (it must begin with "NS:", several addresses must be separated with ",” and at most 5 addresses are configured)
-* Event: Event type triggering notification
-* Filter: Resource filtering rule. If no, all resources under the Bucket shall come into force
-* S3Key: Defining resource filtering rules
-* FilterRule: Defining filtering rules and standard key-value pair
-* Name: prefix or suffix, screening one or more objects based on object key name
-* Value: Specifying the prefix or suffix of object key name to be selected
+- TopicConfiguration: Relevant configuration rules for message notification, supporting many rules When the event is triggered, TopicConfiguration will be matched one by one in orders via the Object and the event type. If the match is successful, the message notification will be sent and the match is terminated.
+
+- Id: the unique identifier of TopicConfiguration; if it is not set, OSS will assign an ID randomly
+
+- Topic: When the event of occurrence is specified, OSS will send message to this topic in the format of NS:endpoint1,endpoint2,endpoint3 (it must begin with "NS:", several addresses must be separated with ",” and at most 5 addresses are configured)
+
+- Event: Event type triggering notification
+
+- Filter: Resource filtering rule. If no, all resources under the Bucket shall come into force
+
+- S3Key: Defining resource filtering rules
+
+- FilterRule: Defining filtering rules and standard key-value pair
+
+- Name: prefix or suffix, screening one or more objects based on object key name
+
+- Value: Specifying the prefix or suffix of object key name to be selected
 
 ### Support event type
 Event Type|Description

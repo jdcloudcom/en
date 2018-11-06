@@ -30,4 +30,4 @@ The receiver may not accept the requests from upstream systems for various reaso
 Scenario: Transfer of funds</br>
 When a large number of transactions occur, the real trading system may not have changed the value of the account, but trading operations are persisted stored until successful completion.
 
-![Reliable Message Delivery](https://github.com/jdcloudcom/en/blob/translationUse/image/Internet-Middleware/Message-Queue/04.png.png)
+![Reliable Message Delivery](https://github.com/jdcloudcom/en/blob/translationUse/image/Internet-Middleware/Message-Queue/04.png)

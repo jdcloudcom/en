@@ -2,15 +2,8 @@
 
 **Below is A Description of the Application Scenario for JD Cloud Anti-DDoS Basic:**
 
-JD Cloud Anti-DDoS Basic is only applicable to the public network IP users in JD Cloud and attack protection scenarios with the highest flow rate not exceeding 2G.
+The Anti-DDoS Basic of JD Cloud is only applicable to services in JD Cloud, such as the Virtual Machine, the Load Balancer and the Cloud Physical Server, as well as the DDoS Attack Protection scenario of the maximum 2G attack traffic.
 
-Purchase "Anti-DDoS Pro" if you need more attack protection, or if you need more protection from JD Cloud. Reference: [Anti-DDoS Pro](http://www.jdcloud.com/products/anti-ddos-pro)
-
- 
+If the free 2G Anti-DDoS Basic capacity is unable to meet your demand, it is suggested to buy the “Anti-DDoS Protection Package” to upgrade your Anti-DDoS Protection capacity. For details, please refer to: [Anti-DDoS Protection Package] (https://www.jdcloud.com/products/anti-ddos-protection-package)
 
 
-
-## Related Reference
-
-- [Anti-DDoS Pro](/documentation/Cloud-Security/Anti-DDoS-Pro/Introduction/Product-Overview.md)
-- [Anti-DDoS Pro Pricing](/documentation/Cloud-Security/Anti-DDoS-Pro/Pricing/Price-Overview.md)

@@ -2,7 +2,7 @@
 
 ## **1. Description**
 
-Set Back-to-origin Host
+Set Back-to-origin Host (setReferHost)
 
 ## **2. Request Parameter**
 
@@ -33,11 +33,12 @@ http://opencdn.jcloud.com/api/setReferHost
 
 ```
 {
-“username” :“test_user”, 
-“signature” :“d00f58f89e8cd55dc080aec0d8051845”, 
-“domain” :“www.a.com”, 
-“sourceHost” :“sourcehost1.www.a.com”
+    "username" :"test_user",
+    "signature" :"d00f58f89e8cd55dc080aec0d8051845",
+    "domain" :"www.a.com",
+    "sourceHost" :"sourcehost1.a.com"
  }
+
 ```
 
 - ### **Return Example**
@@ -47,7 +48,7 @@ http://opencdn.jcloud.com/api/setReferHost
 ```
 {
   "status": 0,
-  "msg": “Successful",
+  "msg": "Successful",
   "data": "www.a.com"
 }
 ```

@@ -1,9 +1,15 @@
 # Monitor Log View
 
-1. You can view the monitoring reports of the last 15 minutes on the monitoring page of Anti-DDoS Basic.
+ The monitoring report of Anti-DDoS Basic is as follows:
 
-![Create Object](https://github.com/jdcloudcom/cn/blob/edit/image/Basic%20Anti-DDos/report01.png)
+![Create Object](https://github.com/jdcloudcom/cn/blob/Anti-DDoS/image/Basic%20Anti-DDos/report.png)
 
-2. You can view the last month's attack log on the protection details page of Anti-DDoS Basic.
+It can be divided into three parts:
 
-![Create Object](https://github.com/jdcloudcom/cn/blob/edit/image/Basic%20Anti-DDos/report02.png)
+Part I shows the attack statistics within the selected time, including black hole counts, attack counts and attach peak value;
+
+Part II shows the statistics about the network traffic monitoring and the attack types.
+
+Part III shows the protection details.
+
+Report and log query within 90 days is supported.

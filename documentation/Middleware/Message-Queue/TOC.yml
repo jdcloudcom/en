@@ -90,10 +90,6 @@
     items:
       - name: FAQ
         href: FAQ/FAQ.md
-  - name: API Reference
-    href:
-  - name: SDK Reference
-    href:
   - name: User Agreements
     status: 0
     items:

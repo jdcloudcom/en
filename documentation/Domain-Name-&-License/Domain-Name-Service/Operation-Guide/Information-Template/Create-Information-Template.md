@@ -2,6 +2,7 @@
 
 1. Open the JD Cloud homepage and enter the domain name service interface.
 
+![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Domain-Name-&-License/Image-Domain/moban1.png)
 
 2. Click to create a new information template
 

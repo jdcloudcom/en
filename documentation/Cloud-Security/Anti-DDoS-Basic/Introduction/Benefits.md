@@ -14,14 +14,13 @@
 
 - Precise recognition attack, second-level open protection.
 - Autonomously develop and clean equipment and algorithms to ensure a low false kill rate.
-- Single point and multi-point cleaning will not interfere with each other
 - Efficient defense against common DDoS attacks, including, but not limited to, common attacks such as syc flood, ack flood, etc., do not have an impact on normal business access.
 - Based on the actual business requirements, you can flexibly and real-time modify the purge trigger value to flexibly respond to business needs.
 - Real-time monitoring and displaying the current DDoS attacking data, fast locating the source of attack, monitoring the attack state, shortening the duration of the black hole, and recovering the service as soon as possible.
 
 ## Free Service
 
-- Anti-DDoS Basic is open for users free of charge. As long as you are users of JD Cloud, JD Cloud provides the foundation and protection for free to provide maximum 2G protection capacity for you free of charge.
+- Where the services in the JD Cloud is purchased, such as the Virtual Machine, Load Balancer and Cloud Physical Server, the maximum 2G Anti-DDoS Basic protection will be provided by use to you free of charge.
 
 ## Related Reference
 - [Price Overview](../Pricing/Billing-Overview.md)

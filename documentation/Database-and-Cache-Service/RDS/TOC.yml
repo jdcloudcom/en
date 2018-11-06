@@ -148,10 +148,10 @@
         - name: File Download
           href: Operation-Guide/Binlog-Management/Binlog-File-Download.md
   
-        - name: Security Management
-          items:
-          - name: Set White List
-            href: Operation-Guide/Security/Set-Whitelist.md
+      - name: Security Management
+        items:
+        - name: Set White List
+          href: Operation-Guide/Security/Set-Whitelist.md
        
       - name: Cloud on Single Database
         items:
@@ -280,8 +280,6 @@
       items:
       - name: Connect Instance
         href: Best-Practices/Connect-Database-Instance/Connect-Instance.md  
-      - name: Connect JCS for SQL Server from Client
-        href: Best-Practices/Connect-Database-Instance/Client-Connect-SQLServer.md
       - name: Connect JCS for SQL Server from Virtual Machine
         href: Best-Practices/Connect-Database-Instance/Host-Connect-SQLServer.md  
   - name: FAQ

@@ -6,7 +6,7 @@
 
 The Anti-DDoS Basic business structure is shown in the following figure:
 
-![Create Instance](https://github.com/jdcloudcom/cn/blob/edit/image/Basic%20Anti-DDos/Infrastructure01.png)
+![Create Instance](https://github.com/jdcloudcom/cn/blob/Anti-DDoS/image/Basic%20Anti-DDos/Infrastructure01.png)
 
 Note: </br>
       1. The image flow to the detection device </br>

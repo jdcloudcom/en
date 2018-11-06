@@ -6,15 +6,22 @@
 
 **Operation Steps**
 
-1. Log in to[Anti-DDoS Basic Console](https://cns-console.jdcloud.com/host/pip/list), and under->Virtual Private Cloud, find the IP menu of public network. Please apply for purchasing the required public network IP as needed.
+1. Please confirm that you have an EIP in JD Cloud.
 
-![Create Instance](../../../../image/Basic%20Anti-DDos/Instance01.png)
+a. Confirming method of Elastic IP:
 
-2. Switch to Anti-DDoS Basic under the cloud security menu, and the public network IP you purchased has been automatically added to the Anti-DDoS Basic.
+Please log in JD Cloud [Elastic IP Console] (http://cns-console.jdcloud.com/host/pip/list) and the console directory “Network -> Virtual Private Cloud -> EIP” to confirm if the Elastic IP is added.
+
+b. Confirming method of Cloud Physical Server:
+
+Please log in JD Cloud [Cloud Physical Server Console] (http://cps-console.jdcloud.com/list) and the console directory “Hyper-Converged IDC -> [Cloud Physical Server” to confirm that the instances are added.
+
+
+2. Switch to the Anti-DDoS Basic under the Cloud Security menu. The Elastic IP or Cloud Physical Server IP bought by you has been automatically added to the Anti-DDoS Basic.
 
 ![Create Instance](../../../../image/Basic%20Anti-DDos/Instance02.png)
 
-**Note**: Anti-DDoS Basic is open by default and cannot be closed.
+**Note**: The Anti-DDoS Basic is enabled by default and cannot be disabled. If an EIP is associated with the instance of the protection package, the final black hole threshold of the EIP in the protection package will be displayed.
 
 # Relevant Reference
 - [What is Anti-DDoS Basic](../Introduction/Product-Overview.md)

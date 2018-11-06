@@ -13,8 +13,8 @@ The Message Queue console provides rich performance monitoring data; you can alw
    - Support for checking the monitoring information of a Consumer Group under Topic and topic.
    
    
-![监控3](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/Message-Queue/监控-03.png)
-![监控4](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/Message-Queue/监控-04.png)
+![监控3](https://github.com/jdcloudcom/en/blob/messagequeue/image/Internet-Middleware/Message-Queue/监控-03.png)
+![监控4](https://github.com/jdcloudcom/en/blob/messagequeue/image/Internet-Middleware/Message-Queue/监控-04.png)
 
 ## Description of Monitoring Items
 | Type	| KPI	| Description

@@ -1,4 +1,4 @@
-# How to view account information
+# View account information
 User Pin is the only identifier for your JD Group account. You can view it by two ways.
 
 ## Method 1: Log in JD Mall to view

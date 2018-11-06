@@ -1,4 +1,4 @@
-# Use Snapshot to Store Cloud Disk
+# Use Snapshot to Restore Cloud Disk
 After the cloud disk takes a snapshot, if there is a problem with the current system and you want the cloud disk data to be restored to a particular point in time, you can do so by restoring the cloud disk. For details, refer to [Restore Cloud Disk](http://docs.jdcloud.com/cn/cloud-disk-service/recover-clouddisk) on the cloud disk side.
 
 ## Operational Limits

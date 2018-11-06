@@ -1,4 +1,4 @@
-# Rebuild
+# Rebuild Instance
 
 You can restore instance to the original system status by rebuild operation, which is a means of recovering when instance encounters a software failure. Also, you can replace the operating system while using current instance type by rebuild. You can choose to rebuild the instance to Linux system or  to Windows system.
 

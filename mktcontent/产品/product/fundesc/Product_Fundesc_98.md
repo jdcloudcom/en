@@ -5,7 +5,7 @@
 			{
 				"funcName":"",
 				"funcTitle":"Fully Compatible with ELK Architecture",
-				"funcP":"JCS for Elasticsearch is built into the Virtual Private Cloud VPC to enhance security while allowing users to fully master the environment configuration of Virtual Private Cloud. \n Open a large number of RestfulAPIs, which are convenient for users to select matching plug-ins and clients, and build applications based on ES clusters. \n Integrate Kibana tools to achieve data visualization analysis. \n Data and metadata multiple copy storage; automatic recovery and alarm of faulty nodes.\n"
+				"funcP":"Open access to a large number of easy-to-use RestfulAPI and integrate Kibana tools to achieve data visualization analysis."
 			}
 		]
 	},
@@ -35,7 +35,7 @@
 			{
 				"funcName":"",
 				"funcTitle":"Instantly Configure Cluster Based on Actual Business Demands",
-				"funcP":"Provide 6 optional machine specifications to match different business demands. \n High-performance SSD cloud disk storage, searching real-time and efficiently. \n Online real-time elastic expansion.\n"
+				"funcP":"Provide 6 optional machine specifications to match different business demands, which can implement online real-time elastic expansion for users to Implemented configuration on demand. \n\n\n"
 			}
 		]
 	},
@@ -45,7 +45,7 @@
 			{
 				"funcName":"",
 				"funcTitle":"Rich Monitor Alarm Systems",
-				"funcP":"Provide JCS for Elasticsearch + kibana hosting service for a variety of scenarios including information search and data analysis. \n The cluster list can track and classify the current cluster statuses and master the cluster health conditions. \n Provide rich Dashboards, including cluster status, cluster query and write QPS, node CPU, disk and HeapMemory use rate and many other monitoring indicators. \n Rich alarm rule settings.\n\n"
+				"funcP":"The Instance List can classify the current cluster statuses and provide abundant Dashboards to support various alarm rules settings and comprehensively master health status of the cluster. \n\n\n\n"
 			}
 		]
 	}

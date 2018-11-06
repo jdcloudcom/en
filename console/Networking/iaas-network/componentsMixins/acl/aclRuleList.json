@@ -1,0 +1,27 @@
+{
+    "ch": {
+        "aclRuleList_i18nKey_1": "Priority Level",
+        "aclRuleList_i18nKey_2": "Type",
+        "aclRuleList_i18nKey_3": "Protocol",
+        "aclRuleList_i18nKey_4": "Target Port",
+        "aclRuleList_i18nKey_5": "'Source IP' ",
+        "aclRuleList_i18nKey_6": "'Target IP'",
+        "aclRuleList_i18nKey_7": "Policy",
+        "aclRuleList_i18nKey_8": "Note",
+        "aclRuleList_i18nKey_9": "Action",
+        "aclRuleList_i18nKey_10": "No acl",
+        "aclRuleList_i18nKey_11": "'Inbound' ",
+        "aclRuleList_i18nKey_12": "'Outbound'",
+        "aclRuleList_i18nKey_13": "Rules",
+        "aclRuleList_i18nKey_14": "'Count of ACL rules has reached the cap'",
+        "aclRuleList_i18nKey_15": "Add New Rules",
+        "aclRuleList_i18nKey_17": "'Priority Level Repeatability Judgment'",
+        "aclRuleList_i18nKey_18": "'Priority Level Repeated'",
+        "aclRuleList_i18nKey_19": "'Priority Level Repeatability Judgment",
+        "aclRuleList_i18nKey_20": "s Repeated'",
+        "aclRuleList_i18nKey_21": "'Delete Acl Rules",
+        "aclRuleList_i18nKey_22": "'Original List Length",
+        "aclRuleList_i18nKey_23": "'Current List Length",
+        "aclRuleList_i18nKey_24": "'Length of List to be Deleted"
+    }
+}

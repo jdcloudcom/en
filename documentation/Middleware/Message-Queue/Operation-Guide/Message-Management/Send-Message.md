@@ -11,10 +11,10 @@
 ## Procedure
 ### 1. In topic list, select **Send Message** button in the row of sending message topic.
 
-![发送消息步骤1](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/Message-Queue/发送消息-01.png)
+![发送消息步骤1](https://github.com/jdcloudcom/en/blob/messagequeue/image/Internet-Middleware/Message-Queue/发送消息-01.png)
 ### 2. Complete filling in the content of sending message, and click **Send** button.
 
-![发送消息步骤2](https://github.com/jdcloudcom/cn/blob/edit/image/Internet-Middleware/Message-Queue/发送消息-02.png)  
+![发送消息步骤2](https://github.com/jdcloudcom/en/blob/messagequeue/image/Internet-Middleware/Message-Queue/发送消息-02.png)  
 
 
 I. Enter Message Body and tag, and if you want to send the delay message, you can set the message delay time.  

@@ -9,7 +9,7 @@ JCS for Redis is based on the Version 2.8.19 and the command can be found in: ht
 ## Command Actions Available
 
 Key (Key)|String|Hash|List|Set|SortedSet 
----|:--:|:--:|:--:|:--:|---:
+:--:|:--:|:--:|:--:|:--:|:--:
 DEL|APPEND|HDEL|LINDEX|SADD|ZADD            
 DUMP|BITCOUNT|HEXISTS|LINSERT|SCARD|ZCARD            
 EXISTS|BITPOS|HGET|LLEN|SISMEMBER|ZCOUNT            
@@ -34,14 +34,14 @@ SCAN|PSETEX| | | |ZSCAN
 
 and
 
-Connection (Connection) |Server (Server) |Scripting (Scripting)     
----|:--:|---:
-AUTH|INFO*|EVAL            
-PING|CONFIG GET*|SCRIPT EXISTS            
-QUIT|FLUSHDB|EVALSHA            
-ECHO| |SCRIPT FLUSH            
-| | |SCRIPT KILL            
-| | |SCRIPT LOAD  
+Connection (Connection) |Server (Server) |Scripting (Scripting) |Transaction(Transaction)    
+:--:|:--:|:--:|:--:
+AUTH|INFO*|EVAL|DISCARD            
+PING|CONFIG GET*|SCRIPT EXISTS|EXEC            
+QUIT|FLUSHDB|EVALSHA|MULTI            
+ECHO| |SCRIPT FLUSH|UNWATCH            
+SELECT| |SCRIPT KILL|WATCH            
+| | |SCRIPT LOAD|      
 
 Description:
 
@@ -53,49 +53,49 @@ Description:
 
 Command Unavailable
 
-Key (Key)|String (Character String)|List (List) |Set (Set) |SortedSet (SortedSet) |Connection (Connection) |Server (Server)
----|:--:|:--:|:--:|:--:|:--:|---:
-RANDOMKEY|BITOP|BLPOP|SDIFF|ZUNIONSTORE|SELECT|FLUSHALL            
-RENAME|MSETNX|BRPOP|SDIFFSTORE|ZINTERSTORE| |DBSIZE
-RENAMENX| |BRPOPLPUSH  |SINTER| | |TIME            
-OBJECT| | RPOPLPUSH|SINTERSTORE| | |MONITOR            
-MIGRATE | | | SMOVE | | | SLOWLOG            
-| | | |SUNION | | |BGREWRITEAOF            
-| | | |SUNIONSTORE| | |BGSAVE            
-| | | | | | |CONFIG REWRITE            
-| | | | | | |CONFIG SET            
-| | | | | | |CONFIG RESETSTAT            
-| | | | | | |COMMAND            
-| | | | | | |COMMAND COUNT            
-| | | | | | |COMMAND GETKEYS            
-| | | | | | |COMMAND INFO            
-| | | | | | |DEBUG OBJECT            
-| | | | | | |DEBUG SEGFAULT            
-| | | | | | |LASTSAVE            
-| | | | | | |ROLE            
-| | | | | | |SAVE            
-| | | | | | |SHUTDOWN            
-| | | | | | |SLAVEOF            
-| | | | | | |SYNC            
-| | | | | | |PSYNC  
+Key (Key)|String (Character String)|List (List) |Set (Set) |SortedSet (SortedSet) |Server (Server)
+:--:|:--:|:--:|:--:|:--:|:--:
+RANDOMKEY|BITOP|BLPOP|SDIFF|ZUNIONSTORE|FLUSHALL            
+RENAME|MSETNX|BRPOP|SDIFFSTORE|ZINTERSTORE|  
+RENAMENX| |BRPOPLPUSH  |SINTER| |TIME            
+OBJECT| | RPOPLPUSH|SINTERSTORE| |MONITOR            
+MIGRATE | | | SMOVE | |SLOWLOG            
+| | | |SUNION | |BGREWRITEAOF            
+| | | |SUNIONSTORE| |BGSAVE            
+| | | | | |CONFIG REWRITE            
+| | | | | |CONFIG SET            
+| | | | | |CONFIG RESETSTAT            
+| | | | | |COMMAND            
+| | | | | |COMMAND COUNT            
+| | | | | |COMMAND GETKEYS            
+| | | | | |COMMAND INFO            
+| | | | | |DEBUG OBJECT            
+| | | | | |DEBUG SEGFAULT            
+| | | | | |LASTSAVE            
+| | | | | |ROLE            
+| | | | | |SAVE            
+| | | | | |SHUTDOWN            
+| | | | | |SLAVEOF            
+| | | | | |SYNC            
+| | | | | |PSYNC  
 
 and
 
-HyperLog|LogPub/Sub (Release/Subscribe) |Transaction| Geo      
----|:--:|:--:|---:
-PFADD|PSUBSCRIBE|DISCARD|GEOADD            
-PFCOUNT|PUBLISH|EXEC|GEOHASH            
-PFMERGE|PUBSUB|MULTI|GEOPOS            
-| |PUNSUBSCRIBE|UNWATCH|GEODIST            
-| |SUBSCRIBE|WATCH|GEORADIUS            
-| |UNSUBSCRIBE| |GEORADIUSBYMEMBER  
+HyperLog|LogPub/Sub (Release/Subscribe) | Geo      
+:--:|:--:|:--:
+PFADD|PSUBSCRIBE|GEOADD            
+PFCOUNT|PUBLISH|GEOHASH            
+PFMERGE|PUBSUB|GEOPOS            
+| |PUNSUBSCRIBE|GEODIST            
+| |SUBSCRIBE|GEORADIUS            
+| |UNSUBSCRIBE|GEORADIUSBYMEMBER  
 
 Command not supported by cluster instance
 
-Connection (Connection) |Server (Server) |Scripting (Scripting)
----|:--:|---:
-ECHO|CLIENT KILL|EVALSHA            
-| |CLIENT LIST|SCRIPT EXISTS            
-| |CLIENT GETNAME|SCRIPT FLUSH            
-| |CLIENT SETNAME|SCRIPT KILL
-| | |SCRIPT LOAD            
+Connection (Connection) |Server (Server) |Scripting (Scripting)|Transaction(Transaction)
+:--:|:--:|:--:|:--:
+ECHO|CLIENT KILL|EVALSHA|DISCARD            
+| |CLIENT LIST|SCRIPT EXISTS|EXEC            
+| |CLIENT GETNAME|SCRIPT FLUSH|MULTI            
+| |CLIENT SETNAME|SCRIPT KILL|UNWATCH
+| | |SCRIPT LOAD   |WATCH         

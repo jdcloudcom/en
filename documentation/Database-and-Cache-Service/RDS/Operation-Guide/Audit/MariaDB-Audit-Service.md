@@ -3,8 +3,7 @@ After enabling log audit for JCS for MariaDB, statistics for all DML and DDL ope
 SQL audit will not parse the actual parameter values and a few records will be lost when SQL queries are relatively large. So, it may be inaccurate to count accurate incremental data in this way.
 
 ## Precautions
-* Only enabled with high security mode, the instance will display SQL audit function.
-* The SQL statements executed by DMS tool of the console will not be contained in SQL audit. 
+* SQL audit function is disabled by default, and is required to be enabled actively
 
 ## Action Steps
 1. Login [Cloud Database RD Management Console] (https://rds-console.jdcloud.com/database).  
@@ -12,8 +11,7 @@ SQL audit will not parse the actual parameter values and a few records will be l
     * Execution time: You may choose to move up the time interval by one month from the current time as the SQL audit query time bucket.
     * Database: SQL statements that can view specified database.
     * Accounts: SQL statements that can view specified account.
-    * Keyword: You may specify keywords as the filter condition of SQL statements that only display matched keywords.
 
-    ! [Snapshot] (https://img1.jcloudcs.com/cms/0fb72d45-8e54-4ef9-a4c1-a1af3b66421020180319113956.png)
+    ![截图](../../../../../image/RDS/Audit.jpg)
 
 3. Click ***Query*** to view satisfactory SQL list.

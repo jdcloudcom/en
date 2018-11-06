@@ -9,34 +9,34 @@ items:
         href: Introduction/Core-Concepts.md
       - name: Basic Infrastructure
         href: 
-        status:0
+        status: 0
       - name: Benefits
         href: Introduction/Benefits.md
       - name: Features
         href: Introduction/Features.md
       - name: Specifications
-        href: Introduction/Specification.md
+        href: Introduction/Specifications.md
       - name: Restrictions
         href: 
-        status:0
+        status: 0
       - name: Application Scenarios 
         href: Introduction/Application-Scenarios.md    
 - name: Pricing
   items:
       - name: Billing Overview
-        href: Pricing/Pricing.md
+        href: Pricing/Billing-Overview.md
       - name: Billing Rules
         href: 
-        status:0
+        status: 0
       - name: Price Overview
         href: 
-        status:0
+        status: 0
       - name: Purchase Process
         href:
-        status:0
+        status: 0
       - name: Renew-Process
         href: 
-        status:0
+        status: 0
 - name: Getting Started
   items:
       - name: Getting Started Guide
@@ -47,6 +47,8 @@ items:
         href: Operation-Guide/Operation-Instruction/Operation-Instruction.md
       - name: Resource Management
         items:
+          - name: View Overview
+            href: Operation-Guide/Resources-Management/View-Overview.md
           - name: View the Cabinet List
             href: Operation-Guide/Resources-Management/View-Cabinet-List.md
           - name: View the Equipment List
@@ -63,14 +65,14 @@ items:
             href: Operation-Guide/Tickets-Management/View-Tickets-List.md
 - name: Best Practices
   items:
-  status:0
+  status: 0
 - name: Tutorial
-  status:0
+  status: 0
 - name: Troubleshooting
-  status:0    
+  status: 0    
 - name: FAQ
   href: FAQ/FAQ.md
-  status:0 
+  status: 0 
 - name: Related Resources
   items:
     - name: Document History
