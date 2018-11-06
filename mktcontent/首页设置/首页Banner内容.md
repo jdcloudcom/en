@@ -760,5 +760,14 @@
 		"id":"1038",
 		"button_title":"立即领取",
 		"main_title":"1元限时领取价值500元会员大礼包"
+	},
+	{
+		"sub_title":"10月30日-11月30日，云市场PLUS产品惠聚齐发",
+		"image_Url":"//img1.jcloudcs.com/cms/9b052987-af19-4e99-9bb2-3a3ba579555920181105183716.png",
+		"name":"企惠购",
+		"id":"1041",
+		"button_title":"查看详情",
+		"main_title":"11.11企惠购",
+		"backgroud_image":"//img1.jcloudcs.com/cms/c11c838e-5b6e-4c0c-832b-ce705cd7343b20181105183738.png"
 	}
 ]
