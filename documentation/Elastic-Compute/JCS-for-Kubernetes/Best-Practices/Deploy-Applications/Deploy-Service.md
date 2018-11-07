@@ -5,6 +5,7 @@
 -Kubernetes Service defines such a kind of abstraction: Logical grouping of Pod, a strategy that can visit them --- usually called micro service. This set of Pods can be visited by Service, usually through Label Selector (check below to see why you might need Services without selectors). Service is REST object in Kubernetes, similar to Pod. Like all REST objects, Service definitions can request apiserver to create new instances based on POST mode.
 
 **JD Cloud Kubernetes integrates load balancer services, supports the creation of LoadBalance-type Services, and provides the secure and reliable network for applications.**
+-Sufficient quota must be guaranteed for the load balancer created will occupy the load balancer quota in the local region.  
 1. Create service that supports LoadBalance type. It's named myservice.yaml and defined as follows:
 ```
 kind: Service
