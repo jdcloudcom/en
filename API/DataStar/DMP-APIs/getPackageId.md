@@ -2,7 +2,7 @@
 
 
 ## Description
-Query Crowd Package ID according to device ID
+Get matched crowd package according to device ID
 
 ## Request method
 GET
@@ -26,11 +26,10 @@ https://datastar.cn-south-1.jdcloud-api.com/v1/regions/{regionId}/dmp/getPackage
 |**requestId**|String|Request ID, it is different at each time|
 |**result**|Result| |
 
-
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**data**|String|The string is serialized by Map<String, String>, it needs to be reconverted before use. Key is deviceId, and value is crowd package Id|
+|**data**|String|The string is serialized by Map<String, String>, it needs to be reconverted before use. Key is deviceId and value is brand code, which means that it has been matched. The absent device ID in the return result means the failure of matching|
 |**message**|String|Description Information|
 |**status**|Boolean|True is success, false is failure|
 

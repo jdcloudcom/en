@@ -1,4 +1,4 @@
-  name: Product Service Agreement
+name: Product Service Agreement
   href: 
   items:
   - name: Virtual Machines Service Agreement
@@ -77,5 +77,7 @@
     href: Message-Queuing-JCQ-Service-Level-Protocol-SLA.md
   - name: Distributed Relational Database DRDS Trial Service Agreement
     href: Distributed-Relational-Database-DRDS-Trial-Service-Clause.md
-  - name: JCS for Elasticsearch Service Agreement
-    href: JCS-for-Elasticsearch-Service-Terms.md
+  - name: Service Terms of Anti-DDoS Protection Package
+    href: DDoS-Protection-Package-Terms-Of-Service.md
+  - name: Service Grade Protocol of Anti-DDoS Protection Package (SLA)
+    href: DDoS-Protection-Package-Terms-Of-Service-SLA.md

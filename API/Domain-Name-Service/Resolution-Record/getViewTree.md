@@ -2,7 +2,9 @@
 
 
 ## Description
-Query all basic cloud resolution lines
+Query all basic cloud resolution lines.<br>
+Please call this interface to get ID of resolution ISP lines before using parameters of resolution ISP lines.
+
 
 ## Request method
 GET
@@ -12,7 +14,7 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domain/{domainId}/
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**domainId**|String|True| |Domain Name ID|
+|**domainId**|String|True| |Domain Name ID, please get it by using getDomains interface.|
 |**regionId**|String|True| |Region ID to which the instance belongs|
 
 ## Request parameter
@@ -28,7 +30,6 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domain/{domainId}/
 |---|---|---|
 |**requestId**|String|ID of This Request|
 |**result**|Result| |
-
 
 ### Result
 |Name|Type|Description|

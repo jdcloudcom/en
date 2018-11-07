@@ -1,7 +1,7 @@
 
 # Product Specifications
 
-The second generation specification: cn-north-1, cn-east-2
+Supported regions by Generation II Specification: cn-north-1, cn-east-2
 
 <table>
    <tr>
@@ -143,7 +143,9 @@ The second generation specification: cn-north-1, cn-east-2
    </tr>
    <tr>
 </table>
-Instance type and price of first generation container instance: cn-north-1
+
+Supported region by Generation I: cn-north-1
+
 <table>
    <tr>
       <td rowspan="2" colspan="2">Instance Type Family</td>

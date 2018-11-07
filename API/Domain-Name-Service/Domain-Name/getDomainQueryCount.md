@@ -12,7 +12,7 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domain/{domainId}/
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**domainId**|String|True| |Domain Name ID|
+|**domainId**|String|True| |Domain Name ID, please get it by using getDomains interface.|
 |**regionId**|String|True| |Region ID to which the instance belongs|
 
 ## Request parameter
@@ -29,12 +29,11 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domain/{domainId}/
 |**requestId**|String|ID of This Request|
 |**result**|Result| |
 
-
 ### Result
 |Name|Type|Description|
 |---|---|---|
 |**time**|Integer[]|Time Series|
-|**traffic**|Integer[]|Data Series|
+|**traffic**|Integer[]|Data Series Corresponding to Time Series, Unit: times|
 
 ## Response code
 |Return code|Description|

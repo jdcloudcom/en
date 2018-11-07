@@ -2,20 +2,21 @@
 # Getting Started Overview
 
 **Initial Setup**
+
 **Register JD Cloud account**
 If you have already got a JD Cloud account, skip this step to continue.
-If you don’t have a JD Cloud account, you may register in official website of JD Cloud; please refer to register JD Cloud. If you have finished registering, you are required to activate the account, which is as follows. image.png
+If you don’t have a JD Cloud account, you may register in official website of JD Cloud; please refer to register JD Cloud. If you have finished registering, you are required to activate the account.
 
-Account authentication
+**Account authentication**
 
-To use the container service normally, you are required to get account authentication for your account.
+In order to use Native Container normally, you also need to have your account verified.
 
-Go to the real-name verification page to select the individual or corporate authentication type. Please refer to real-name verification.
+Go to the real-name verification page to select the individual or corporate authentication type. Please refer to [real-name verification][1].
 
 
 **Create VPC (mandatory)**
 
-1. Open console, select Network>>VPC to go to the VPC List page;
+1. Open console, select Network>>VPC to go to [the VPC List page][2];
 
 2. Select create region that the VPC belongs to and click “Create” button;
 
@@ -32,7 +33,7 @@ Go to the real-name verification page to select the individual or corporate auth
 
 **Create Subnet (mandatory)**
 
-1. Open console and select Network>>VPC>>Subnet to go to the Subnet List page;
+1. Open console and select Network>>VPC>>Subnet to go to [the Subnet List page][3];
 
 2. Select the region that the subnet created belongs to and click “Create” button;
 
@@ -59,9 +60,7 @@ Go to the real-name verification page to select the individual or corporate auth
 
 Security group provide instance-level network Identity and Access management. You are required to add rules to security group so that they can be used to realize some access; for example, allow SSH to be connected to instance from your local IP address. To facilitate your use, JD Cloud provide three defaulted security groups for each VPC, including defaulted full open security group, defaulted open Linux 22 port and defaulted open Windows 3389 port to facilitate your fast selecting;
 
-1. Enter JD Cloud console and select Elastic Compute>>Container service>>Security Group page; click **Create** to pop up the Create box;
-
-TimLine Screenshot 20171228152929.png
+1. Enter JD Cloud console and select Elastic Compute>>Native Container>>Security Group page; click **Create** to pop up the Create box;
 
 2. At first you are required to select the region that security group located in and VPC and the security group can only use the container which is in the same VPC. You can Create security group for the VPC that is already created and can click “Create a new VPC” button to jump to the new VPC page to create new VPC. 50 security groups in maximum can be created in a single VPC and if the quantity of security groups in the VPC selected reach 50, you shall be reminded that “Security group quota of the VPC resources selected has reached 50,” and you are required to select other VPC again.
 
@@ -71,25 +70,29 @@ TimLine Screenshot 20171228152929.png
 
 
 
-Determine the region that the instance belongs to.
+**Determine the region that the instance belongs to**.
+
 The complete isolation between different regions of JD Cloud ensures the greatest degree of stability and fault tolerance across different regions. It currently covers four regions: cn-north-1, cn-south-1, cn-east-1 and cn-east-2. At present, the container is available in cn-north-1 and cn-east-2 and we shall add more service regions gradually in future to meet your business requirement.
 When choosing a region, you had better consider the following points:
 
+1. The deploy relation between instance and other JD Cloud products.
 
-The deploy relation between instance and other JD Cloud products.
+2. Cloud products from different regions are not allowed to communicate through intranet by default.
 
-Cloud products from different regions are not allowed to communicate through intranet by default.
+3. The instances can not access to each other cross-regions intranet by default and cloud database and cloud cache etc. can not be accessed cross-regions by default.
 
-The instances can not access to each other cross-regions intranet by default and cloud database and cloud cache etc. can not be accessed cross-regions by default.
-
-As for instance associate EIP, security group, it only supports binding public IP and security group in same region; as for instance binding cloud disk, it only supports binding cloud disk service in the same availability zone.
+4. As for instance associate EIP, security group, it only supports binding public IP and security group in same region; as for instance binding cloud disk, it only supports binding cloud disk service in the same availability zone.
 
 The above-mentioned intranet interconnection refers to the interconnection of resources under the same account, and the intranet of resources under different accounts is completely isolated.
 
 
 
-Select instance configuration
+**Select instance configuration**
 
-It is recommended that you use Pay By Configuration billing instances for performance testing to find instance type and other resource configurations that match your business volume before deploying the business formally. You may refer to
+It is recommended that you use Pay By Configuration billing instances for performance testing to find instance type and other resource configurations that match your business volume before deploying the business formally. You may refer to Instance [settings recommendation][4].
 
-Instance settings recommendation.
+
+  [1]: https://docs.jdcloud.com/cn/real-name-verification/real-name-verification
+  [2]: https://cns-console.jdcloud.com/host/vpc/list
+  [3]: https://cns-console.jdcloud.com/host/subnet/list
+  [4]: https://docs.jdcloud.com/cn/native-container/recommend-instance

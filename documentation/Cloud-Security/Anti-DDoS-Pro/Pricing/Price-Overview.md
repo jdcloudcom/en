@@ -16,10 +16,11 @@ DDoS protective capability (Gbps) | CC defense peak value (QPS) | Telecom cost (
 |80|375,000|123,800|131,800|139,800|
 |100|450,000|147,800|156,800|165,800|
 
-### Elastic Protection
-The minimum bandwidth protection is of Pay-In-Advance mode monthly, specifically as follows:
+## Elastic Protection
+Elastic Protection Part is charged daily, according to the actual charge generated the day before. For attack peak exceeding basic DDoS capability (Gbps) or CC defense capability (QPS), the major billing interval prevails.</br>
+Details are as follows:
 
-DDoS Protective Capability | CC Defense Peak Value | Cost (RMB/day) |
+DDoS Protective Capability |	CC Defense Peak Value | Cost (RMB/day) |
 :---|:--- |---: |
 | 0Gbps < Elastic Peak Value ≤ 10Gbps |<= 30,000QPS |800
 | 10Gbps < Elastic Peak Value ≤ 20Gbps | 30,000 QPS < Attack Peak Value ≤ 60,000 QPS |1000

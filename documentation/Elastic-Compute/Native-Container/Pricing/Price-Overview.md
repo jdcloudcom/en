@@ -3,9 +3,9 @@
 
 Note: To ensure the accuracy of the prices you have obtained, please log in and view the same.
 
-Container Instance
+1. All regions of the Native Container Instance and the Native Container Pod support resources used for creating Generation II instance type.
 
-Types and prices for the second generation container instance: cn-north-1, cn-east-2
+**Types and prices for the second generation container instance**: cn-north-1, cn-east-2
 
 <table>
    <tr>
@@ -197,7 +197,9 @@ Types and prices for the second generation container instance: cn-north-1, cn-ea
    </tr>
    <tr>
 </table>
-Instance type and price of first generation container instance: cn-north-1
+
+2. At present, the Native Container Instance only supports the generation I instance type in cn-north-1.
+Instance type and price of first generation container instance:
 <table>
    <tr>
       <td rowspan="2" colspan="2">Instance Type Family</td>
@@ -338,6 +340,10 @@ Instance type and price of first generation container instance: cn-north-1
    </tr>
    <tr>
 </table>
-About Cloud Disk Service: Please refer to the Purchase Notes for Cloud Disk Service
+About Cloud Disk Service: Please refer to the [Purchase Notes for Cloud Disk Service][1]
 
-About Elastic IP: Please refer to the Purchase Notes for Elastic IP
+About Elastic IP: Please refer to the Purchase [Notes for Elastic IP][2]
+
+
+  [1]: https://docs.jdcloud.com/cn/cloud-disk-service/price-overview
+  [2]: https://docs.jdcloud.com/cn/elastic-ip/price-overview

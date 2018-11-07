@@ -2,7 +2,7 @@
 
 
 ## Description
-The API is for reporting the custom metric monitoring data, facilitating the user to report the collected time series data to the Monitoring. Original data and aggregated statistical data can be reported in batches. A single request contains up to 50 data points; the data size does not exceed 256k.
+The API is for reporting the custom metric monitoring data, facilitating the user to report the collected time series data to the Monitoring. Report data of different regions for domain names of different region, refer to : <a href="https://docs.jdcloud.com/cn/monitoring/reporting-monitoring-data"> Calling Description </a>Original data and aggregated statistical data can be reported in batches. A single request contains up to 50 data points; the data size does not exceed 256k.
 
 ## Request method
 POST
@@ -32,7 +32,6 @@ https://monitor.{regionId}.jdcloud-api.com/v1/customMetrics
 |**error**|Object|Error Information|
 |**requestId**|String|Request ID|
 |**result**|Result| |
-
 
 ### Result
 |Name|Type|Description|

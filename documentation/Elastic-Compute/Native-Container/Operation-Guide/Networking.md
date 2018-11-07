@@ -1,13 +1,13 @@
 
 # Networking
 
-VPC Overview
+**VPC Overview**
 
 JD Cloud Virtual Private Cloud (VPC) is a logically isolated cyberspace that you customize on the JD Public Cloud, which is similar to the traditional network you built in the data center, and fully controlled by the user, supporting customized network segment division, route policy, and so on. Users can create and manage multiple cloud products in the VPC, such as VM, Load balancer, etc., and configure resources within the network to connect to the Internet. In addition, you can get through your IDC intranet and JD VPC by VPN\Dedicated Line access, to realize hybrid cloud deployment of applications and enable the applications to migrate to the cloud smoothly.
 
 
 
-Elastic IP
+**Elastic IP**
 
 Elastic IP is a public IP address that can be independently applied. It can be dynamically associated and disassociated with resources such as VM, load balancer, and NFV instance. The main function of the Elastic IP is to shield the instance fault. In the manual configuration mode, when the instance fails, the Elastic IP can be drifted to the redundant instance to achieve the purpose of quickly responding to the fault.
 
@@ -21,10 +21,13 @@ Flexible bandwidth adjustment: The Elastic IP supports bandwidth adjustment. Use
 
 
 
-Networking Access
+**Networking Access**
 
-Private IP Address: Containers in the same VPC can communicate over private IP.
+Intranet IP Address: resources in the same VPC can communicate with each other through Private IP.
 
-EIP Address: Can be applied independently, support dynamic associate and disassociate with the container. The EIP address is the only address in the world that is available for communication between the container and the Internet.
+Public IP address: it can be applied for independently, supporting dynamic association and disassociation with Native Container Instance and Native Container Pod. Public IP address is unique worldwide, which can be used for communication between containers and Internet.
 
-For details, refer to the EIP operating guide.
+For details, refer to the [EIP operating guide][1].
+
+
+  [1]: https://docs.jdcloud.com/cn/elastic-ip/product-overview

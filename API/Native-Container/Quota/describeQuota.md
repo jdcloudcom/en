@@ -2,7 +2,7 @@
 
 
 ## Description
-Search resource quota and support Native Container and secret.
+Search resource quota and support Native Container, pod and secret.
 
 
 ## Request method
@@ -18,7 +18,7 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/quotas
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**resourceType**|String|True| |resourceType - Resource type, support many [container, secret]<br>|
+|**resourceType**|String|True| |resourceType - Resource type, support many [container, pod, secret]<br>|
 
 
 ## Response parameter
@@ -26,7 +26,6 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/quotas
 |---|---|---|
 |**requestId**|String| |
 |**result**|Result| |
-
 
 ### Result
 |Name|Type|Description|
@@ -36,6 +35,7 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/quotas
 |Name|Type|Description|
 |---|---|---|
 |**limit**|Integer|Quota|
+|**resourceType**|String|Type|
 |**used**|Integer|Used Number|
 
 ## Response code

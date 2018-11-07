@@ -29,8 +29,12 @@ items:
       href: Getting-Started/getting-started-overview.md
     - name: View Resource Monitoring Chart
       href: Getting-Started/view-cloud-resource-monitoring-chart.md
-    - name: Set Alarm Rules
-      href: Getting-Started/set-alarm-rules.md
+    - name: Alarm Management
+      items:
+        - name: Alarm Template
+          href: Getting-Started/Alarm-Management/Rule-Template.md
+        - name: Set Alarm Rules
+          href: Getting-Started/Alarm-Management/set-alarm-rules.md
     - name: Use Dashboard
       href: Getting-Started/use-Dashboard.md
     - name: Use Site Metric Monitoring

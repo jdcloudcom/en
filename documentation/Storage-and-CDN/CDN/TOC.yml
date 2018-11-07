@@ -14,7 +14,11 @@
       - name: Features
         href: Introduction/Features.md
       - name: Application Scenario 
-        href: Introduction/Application-Scenarios.md    
+        items:
+          - name: Scenario Overview
+            href: Introduction/Application-Scenarios/Overview.md
+          - name: Live Video
+            href: Introduction/Application-Scenarios/living.md  
   - name: Pricing
     items:
       - name: Billing Overview

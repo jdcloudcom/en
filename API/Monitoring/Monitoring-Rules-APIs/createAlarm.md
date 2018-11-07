@@ -17,8 +17,15 @@ https://monitor.jcloud.com/v1/regions/{regionId}/alarms
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**clientToken**|String|True| |Idempotent validation parameter, 32-bit at the longest, the return value will not change if the value does not change|
-|**createAlarmSpec**|CreateAlarmSpec|True| | |
+|**contactGroups**|String[]|False| |Contact group notified by alarm rules must be already created on the console, for example“[‘contact group 1’, ‘contact group 2’]”|
+|**contactPersons**|String[]|False| |Contacts notified by alarm rules must be already created on the console, for example“[‘contact 1’, ‘contact 2’]”]|
+|**downSample**|String|False| |Sampling Frequency|
+|**metric**|String|True| |Query Metric field returned by list interface of available monitoring item based on the product line|
+|**noticePeriod**|Integer|False| |Notification period unit: hour|
+|**resourceIds**|String[]|True| |Alarm rules shall correspond to the Instance List, 100 pieces at most each time, for example"['resourceId1','resourceId2']"|
+|**serviceCode**|String|True| |Product Name|
+|**threshold**|Number|True| |Query cycle of indicators, unit: min, current supported value: 2, 5, 15, 30, 60|
+|**times**|Integer|True| |Alarm when several successive detections meet the threshold conditions, optional:1,2,3,5|
 
 
 ## Response parameter

@@ -1,17 +1,17 @@
 
 # Security Group
 
-A security group is a distributed, stateful packet filtering virtual firewall that controls network access to a container to identity and access management to one or more container instances.
+Security Group is a kind of distributed virtual firewall with status and package filtering function, which implements the network access control of resources so as to control access traffic of one or multiple resources.
 
-When you create a container instance, you can associate the corresponding security group with the container instance with the same network security isolation requirement in the same region to the same security group. Configure the security group policy to perform security filtering on the inbound and outbound traffic of the container instance.
+When create a Native Container Instance or Native Container Pod, corresponding Security Group can be associated, i.e., add Native Container Instances or Native Container Pods with same network security isolation requirements in the same region into the same Security Group. Perform security filtering for access traffic of Native Container Instance and Native Container Pod by configuring Security Group policies.
 
 Create security group defaults to an All drop rule for all egress/ingress traffic, you can add or remove rules for a security group at any time, and the new rule is automatically applied to all resources associated with that security group.
 
 You can create 50 security groups under each VPC in each zone. Each security group can add up to 100 rules in both directions to meet your network security isolation needs.
 
-Each container instance must be associated to at least one security group and can be bound to up to 5 security groups for precise control of container instance access traffic.
+Each Native Container Instance or Native Container Pod must associate with at least one Security Group (maximum 5 Security Groups) to implement accurate control for access traffic of Native Container Instance or Native Container Pod.
 
-Security Group Template:
+**Security Group Template**:
 
 Currently, console provides three default security group templates:
 
@@ -21,5 +21,7 @@ Windows Security Group Opens 3389 Ports: Only expose the TCP 3389 port of the MS
 
 The default security group allows all traffic: Expose all ports to the EIP and the intranet. It has certain security risks.
 
-The security group operation guide, also refer to the security group configuration.
+The security group operation guide, also refer to the [security group configuration][1].
 
+
+  [1]: https://docs.jdcloud.com/cn/virtual-private-cloud/security-group-configuration

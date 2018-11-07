@@ -2,7 +2,9 @@
 
 
 ## Description
-Query the list of the main domain names under the username
+Query the list of the main domain names under the username.<br>    
+Please call this API to get related domainId and domainName before calling API of related domain names.
+
 
 ## Request method
 GET
@@ -28,7 +30,6 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domain
 |**requestId**|String|ID of This Request|
 |**result**|Result| |
 
-
 ### Result
 |Name|Type|Description|
 |---|---|---|
@@ -43,7 +44,7 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domain
 |**domainName**|String|Domain Name String|
 |**expirationDate**|Integer|Expiration Time, Format Unix Timestamp|
 |**id**|Integer|Unique ID of the Domain Name|
-|**packId**|Integer|Package Type, 0->Free 1->Enterprise Edition 2->Advanced Edition|
+|**packId**|Integer|Package Type, 0->Free 1->Enterprise Edition 2->Advanced Enterprise Edition|
 
 ## Response code
 |Return code|Description|

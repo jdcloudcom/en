@@ -6,12 +6,18 @@ S3fs is a FUSE-based file system, which allows Linux to mount Bucket to the loca
 
 https://github.com/s3fs-fuse/s3fs-fuse
 
-System with centos7 and above revision
-
 **1. Installation dependent package**
+
+On CentOS 7:
 
 ```
 sudo yum install automake fuse fuse-devel gcc-c++ git libcurl-devel libxml2-devel make openssl-devel
+```
+
+On Ubuntu 14.04:
+
+```
+sudo apt-get install automake autotools-dev fuse g++ git libcurl4-openssl-dev libfuse-dev libssl-dev libxml2-dev make pkg-config
 ```
 
 **2. Installation and compilation**
@@ -28,7 +34,7 @@ sudo make install
 **3. Create password file**
 
 ```
-echo Access Key ID:Access Key Secret > ~/.passwd-s3fs
+echo Access_Key_ID:Access_Key_Secret > ~/.passwd-s3fs
 chmod 600 ~/.passwd-s3fs
 ```
 
@@ -68,8 +74,25 @@ df -h
 
 **Tips：**
 
-When mounting Object Storage Service with the s3fs-fuse tool and copying files with cp commands, the following solutions can be taken when the file mime-type is modified:
+1. If CentOS 6 is used, please refer to the following installation steps:
 
-1.Use the `cp` command to copy files; the actions carried by the `s3fs-fuse` tool on the bottom are dependent on the file `/etc/mime.types` and the file determines the mime-type attribute of the `cp` command target file.
-2.By default, the centos7 revision of JD Cloud does not contain the `/etc/mime.types` file. Thus, it needs to obtain such file by copying or installing httpd and the installation command is yum install httpd.
-3.For catalogs mounted by the `s3fs` command, it needs to be unmounted at first and the command will take effect once the s3fs command is executed once again.
+```
+yum install automake gcc-c++ git libcurl-devel libxml2-devel make openssl-devel
+
+wget https://github.com/libfuse/libfuse/releases/download/fuse_2_9_4/fuse-2.9.2.tar.gz
+tar -zxvf fuse-2.9.2.tar.gz
+cd fuse-2.9.2
+./configure --prefix=/usr
+make
+make install
+export PKG_CONFIG_PATH=/usr/lib/pkgconfig:/usr/lib64/pkgconfig/
+ldconfig
+```
+
+2. When mounting Object Storage Service with the s3fs-fuse tool and copying files with cp commands, the following solutions can be taken when the file mime-type is modified:
+
+- Use the `cp` command to copy files; the actions carried by the `s3fs-fuse` tool on the bottom are dependent on the file `/etc/mime.types` and the file determines the mime-type attribute of the `cp` command target file.
+
+- By default, the centos7 revision of JD Cloud does not contain the `/etc/mime.types` file. Thus, it needs to obtain such file by copying or installing httpd and the installation command is yum install httpd.
+
+- For catalogs mounted by the `s3fs` command, it needs use `umount` command at first and the command will take effect once the `s3fs` command is executed once again.

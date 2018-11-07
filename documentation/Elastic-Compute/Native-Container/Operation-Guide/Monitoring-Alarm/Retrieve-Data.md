@@ -1,19 +1,19 @@
 
 # Monitor and Alarm Overview
 
-After the instance is successfully created, you can obtain the monitoring status of the instance CPU and memory usage, without manual operation. The JD Cloud provides you with two portals for obtaining instance monitoring data:
+After the Native Container Instance has been created successfully, you can get CPU and memory use rate and other monitoring conditions, without manually enabling them. JD Cloud provides you with two data monitoring interfaces of Native Container Instances:
 
-The JD Cloud console container instance detail page
+* The JD Cloud console Native Container instance detail page
 
-The JD Cloud console cloud monitor corresponding details page
+* The JD Cloud console cloud monitor corresponding details page
 
-The JD Cloud console container instance detail page
+* The JD Cloud console Native Container instance detail page
 
- 1. Open the Console and select the Elastic Compute>>Container Service
- 2.  Find the instance of the monitoring data you need to view, click on the instance name to enter the instance details page
- 3.  Click the **Cloud Monitor** tab to switch to monitoring options and view instance monitoring data
+ 1. Open the Console and select the Elastic Compute>>Native Container>>Instance, to log in the instance list page of the Native Container.
+ 2. Click the name of instance that you need to view its monitoring data to access Resource Details page.
+ 3. Click **Monitoring** to switch to monitoring options and view resource monitoring data
 
-The JD Cloud console cloud monitor corresponding details page
+**The JD Cloud console cloud monitor corresponding details page**
 
- 1. Open the Console and select Management>>Cloud Monitor>>Resource Monitoring>>Container Instance Monitoring
- 2. Find the instance of the monitoring data you need to view, click the **Monitoring Table** in the action item to enter the monitoring details page to get the instance monitoring data, as well as set the alarm rules
+ 1. Open console, select Management >> Monitoring >> Resource Monitoring >> Container Instance Monitoring to access the Native Container Instance Monitoring List page;
+ 2. Find the resource that you need to view its monitoring data, click **Monitoring Table** in operation bar to access the Monitoring Details page, to get resource monitoring data and to set alarming rules at the same time.

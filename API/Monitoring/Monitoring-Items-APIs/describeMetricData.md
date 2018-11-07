@@ -2,7 +2,7 @@
 
 
 ## Description
-Get statistics for the specified metric.
+Get statistics for the specified metric, metric introduction: <a href="https://docs.jdcloud.com/cn/monitoring/metrics">Metrics</a>
 
 ## Request method
 GET
@@ -29,7 +29,7 @@ https://monitor.jcloud.com/v1/regions/{regionId}/metrics/{metric}/metricData
 ### TagFilter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**key**|String|False| |Tag Key|
+|**key**|String|False| | |
 |**values**|String[]|False| |Tag Value|
 
 ## Response parameter

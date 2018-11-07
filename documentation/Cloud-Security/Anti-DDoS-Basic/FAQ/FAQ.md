@@ -23,7 +23,9 @@ Once attack flow exceeding the machine room capability is monitored again, the b
   
 **6. Q: How does the attack flow exceed 2G?**
 
-A: The black hole is triggered when the attack exceeds 2G, and the access to the IP is shielded for a period of time. It is recommended that you purchase JD Cloud [Anti-DDoS Pro](https://www.jdcloud.com/products/ipanti) services from JD Cloud for greater defense.
+A: The black hole is triggered when the attack exceeds 2G, and the access to the IP is shielded for a period of time.
+
+Recommend you purchase JD Cloud's [Anti-DDoS Protection Package] (https://www.jdcloud.com/cn/products/anti-ddos-protection-package) service or [Anti-DDoS Pro] (https://www.jdcloud.com/products/ipanti) service to get more powerful defense capability.
 
 **7. Q: What attack types are supportedby Anti-DDoS Basic?**
 

@@ -13,4 +13,4 @@ v1
 |Interface name|Request mehod|Function description|
 |---|---|---|
 |**getLargeScreenData**|GET|Query data based on region, industry, firstIndex, secondIndex, startTime and endTime|
-|**getPackageId**|GET|Query Crowd Package ID according to device ID|
+|**getPackageId**|GET|Get matched crowd package according to device ID|

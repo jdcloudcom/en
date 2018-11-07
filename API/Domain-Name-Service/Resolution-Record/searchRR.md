@@ -2,7 +2,9 @@
 
 
 ## Description
-Query the Resolution Record of the main domain name
+Query the Resolution Record of the main domain name.<br>
+Please call this interface to get list of resolution record before using interfaces related to resolution records.
+
 
 ## Request method
 GET
@@ -12,7 +14,7 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domain/{domainId}/
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**domainId**|String|True| |Domain Name ID|
+|**domainId**|String|True| |Domain Name ID, please get it by using getDomains interface.||
 |**regionId**|String|True| |Region ID to which the instance belongs|
 
 ## Request parameter
@@ -27,7 +29,6 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domain/{domainId}/
 |---|---|---|
 |**requestId**|String|ID of This Request|
 |**result**|Result| |
-
 
 ### Result
 |Name|Type|Description|

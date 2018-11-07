@@ -12,7 +12,7 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domain/{domainId}/
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**domainId**|String|True| |Domain Name ID|
+|**domainId**|String|True| |Domain Name ID, please get it by using getDomains interface.|
 |**regionId**|String|True| |Region ID to which the instance belongs|
 
 ## Request parameter
@@ -26,8 +26,8 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domain/{domainId}/
 |**hostRecord**|String|False| |Machine Record|
 |**hostValue**|String|False| |Value of Resolution Record|
 |**jcloudRes**|Boolean|False| |JD Cloud Resource?|
-|**mxPriority**|Integer|False| |Priority, only exists in some resolution record types|
-|**port**|Integer|False| |Port, only exists in some resolution record types|
+|**mxPriority**|Integer|False| |Priority, only exists in MX, SRV resolution record types|
+|**port**|Integer|False| |Port, only exists in SRV resolution record types|
 |**ttl**|Integer|False| |Life Time of Resolution Record|
 |**type**|String|False| |Resolution Type|
 |**viewValue**|Integer|False| |ID of Resolution Line|
@@ -38,7 +38,6 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domain/{domainId}/
 |---|---|---|
 |**requestId**|String|ID of This Request|
 |**result**|Result| |
-
 
 ### Result
 |Name|Type|Description|
