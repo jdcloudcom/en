@@ -1,25 +1,25 @@
 [
 	{
-		"proGoodTitle":"产品优势",
-		"proNameTitle":"描述",
+		"proGoodTitle":"äº§å\u0093\u0081ä¼\u0098å\u008A¿",
+		"proNameTitle":"æ\u008F\u008Fè¿°",
 		"proDiffTitle":"",
-		"proGood":"兼容生态产品",
-		"proName":"支持phoenix，支持openTSDB",
+		"proGood":"å\u0085¼å®¹ç\u0094\u009Fæ\u0080\u0081äº§å\u0093\u0081",
+		"proName":"æ\u0094¯æ\u008C\u0081phoenixï¼\u008Cæ\u0094¯æ\u008C\u0081openTSDB",
 		"proDiff":""
 	},
 	{
-		"proGood":"高可靠存储引擎",
-		"proName":"分布式集群架构、至少3副本架构保障数据可靠性。",
+		"proGood":"é«\u0098å\u008F¯é\u009D å­\u0098å\u0082¨å¼\u0095æ\u0093\u008E",
+		"proName":"å\u0088\u0086å¸\u0083å¼\u008Fé\u009B\u0086ç¾¤æ\u009E¶æ\u009E\u0084ã\u0080\u0081è\u0087³å°\u00913å\u0089¯æ\u009C¬æ\u009E¶æ\u009E\u0084ä¿\u009Dé\u009A\u009Cæ\u0095°æ\u008D®å\u008F¯é\u009D æ\u0080§ã\u0080\u0082",
 		"proDiff":""
 	},
 	{
-		"proGood":"服务高可用",
-		"proName":"HA实时监控系统，单节点故障迅速转移，保障业务不中断 。",
+		"proGood":"æ\u009C\u008Då\u008A¡é«\u0098å\u008F¯ç\u0094¨",
+		"proName":"HAå®\u009Eæ\u0097¶ç\u009B\u0091æ\u008E§ç³»ç»\u009Fï¼\u008Cå\u008D\u0095è\u008A\u0082ç\u0082¹æ\u0095\u0085é\u009A\u009Cè¿\u0085é\u0080\u009Fè½¬ç§»ï¼\u008Cä¿\u009Dé\u009A\u009Cä¸\u009Aå\u008A¡ä¸\u008Dä¸­æ\u0096­ ã\u0080\u0082",
 		"proDiff":""
 	},
 	{
-		"proGood":"兼容生态产品",
-		"proName":"支持phoenix，支持openTSDB",
+		"proGood":"å\u0085¼å®¹ç\u0094\u009Fæ\u0080\u0081äº§å\u0093\u0081",
+		"proName":"æ\u0094¯æ\u008C\u0081phoenixï¼\u008Cæ\u0094¯æ\u008C\u0081openTSDB",
 		"proDiff":""
 	}
 ]
