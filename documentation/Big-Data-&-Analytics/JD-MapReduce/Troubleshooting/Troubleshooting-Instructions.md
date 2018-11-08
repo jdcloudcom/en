@@ -36,7 +36,9 @@ Log in with the Telnet password you set when you created the cluster.
 ###  Common Commands
 
 1. Run the following command to switch users.
-```sudo su - hadoop```
+```
+sudo su - hadoop
+```
 
 2. View the service process run by the node
 ```
