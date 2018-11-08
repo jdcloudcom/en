@@ -1,7 +1,7 @@
 ```
 [hadoop@OmkZafrH-Master1 data0]$ vi ~/.bashrc
 # .bashrc
-
+==
 # Source global definitions
 if [ -f /etc/bashrc ]; then
         . /etc/bashrc
