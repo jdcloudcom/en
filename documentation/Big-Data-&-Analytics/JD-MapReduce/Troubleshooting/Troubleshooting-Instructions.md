@@ -1,4 +1,3 @@
-
 ```
 [hadoop@OmkZafrH-Master1 data0]$ vi ~/.bashrc
 # .bashrc
