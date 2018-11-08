@@ -6,10 +6,10 @@ JD MapReduce products adopt a pay-by-configuration mode for different user needs
 
 The following is the example specification type information of the current JD Cloud. The types and specifications of the saleable instances in different regions are not identical. Please refer to the example creation page. The specific Instance Type specifications can be classified according to different application scenarios:
 
-* Universal: [General Shared Type](#g.s), [General Standard Type](#g.n)
-* Compute-Optimized Standard Type: [Compute Optimized Standard Type](#c.n)
-* Memory-Optimized type: [Memory Optimized Standard Type](#m.n)
-* High-frequency Calculation Type: [High-frequency Calculation Optimization Type](#h.g)
+* Universal
+* Compute-Optimized Standard Type
+* Memory-Optimized type
+* High-frequency Calculation Type
 
 ## Universal Type
 The universal model currently provides General Shared Type and General Standard types, providing you with balanced computing and memory resources to meet the needs of most business scenarios. Each of the vCPUs in the common standard type corresponds to an Intel Xeon processor hyper-threaded core with a vCPU to memory ratio of 1:4.
@@ -43,7 +43,7 @@ g.s1.small|1|2
 	* Second Generation: 2.4 GHz Intel Xeon Gold 6148 (Skylake) Processor
 	* First Generation: 2.1 GHz Intel Xeon E5-2683 v4 (Broadwell) Processor
 * Support the following two types of cloud disks:
-	*Premium Hdd Cloud Disk
+	* Premium Hdd Cloud Disk
 	* SSD Cloud Disk
 * Applicable Scenarios:
 	* Enterprise Applications of All Types and Sizes

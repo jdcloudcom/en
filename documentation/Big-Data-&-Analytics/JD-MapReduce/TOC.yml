@@ -61,10 +61,6 @@ items:
     href: Troubleshooting/Troubleshooting-Instructions.md
 - name: FAQ
   href: FAQ/FAQ.md
-- name: API Reference
-  href: API-Reference/API.md
-- name: SDK Reference
-  href: SDK-Reference/Overview.md
 - name: Related Resources
   items:
   - name: Document History
