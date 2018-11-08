@@ -29,7 +29,7 @@ items:
         href: Pricing/Price-Overview.md
       - name: Purchase Process
         href: Pricing/Purchase-Process.md
-      - name: Renew-Process
+      - name: Renew Process
         href: Pricing/Renew-Process.md
   - name: Linux Getting Started
     items:
@@ -39,7 +39,7 @@ items:
         href: Getting-Start-Linux/Select-Configuration-Linux.md
       - name: Create Linux Instance
         href: Getting-Start-Linux/Create-Linux-Instance.md
-      - name: Log in Linux Instance
+      - name: Login Linux Instance
         href: Getting-Start-Linux/Connect-to-Linux-Instance.md
       - name: Attach Data Disk
         href: Getting-Start-Linux/Mount-DataDisk.md
@@ -51,7 +51,7 @@ items:
         href: Getting-Start-Windows/Select-Configuration-Windows.md
       - name: Create Windows Instance
         href: Getting-Start-Windows/Create-Windows-Instance.md
-      - name: Log in Windows Instance
+      - name: Login Windows Instance
         href: Getting-Start-Windows/Connect-to-Windows-Instance.md
       - name: Create File System
         href: Getting-Start-Windows/Create-File-System.md
@@ -65,7 +65,7 @@ items:
             href: Operation-Guide/Instance/Lifecycle.md
           - name: Create Instance
             href: Operation-Guide/Instance/Create-Instance.md
-          - name: Log in Instance
+          - name: Login Instance
             href: Operation-Guide/Instance/Connect-To-Instance.md
           - name: Reset Password
             href: Operation-Guide/Instance/Reset-Password.md
@@ -75,21 +75,21 @@ items:
             href: Operation-Guide/Instance/Start-Instance.md
           - name: Stop Instance
             href: Operation-Guide/Instance/Stop-Instance.md
-          - name: Restart Instance
+          - name: Reboot Instance
             href: Operation-Guide/Instance/Reboot-Instance.md
-          - name: Rebuild System
+          - name: Rebuild Instance
             href: Operation-Guide/Instance/Rebuild-Instance.md
-          - name: Resize
+          - name: Resize Instance
             href: Operation-Guide/Instance/Resize-Instance.md
           - name: Modify Instance Name
             href: Operation-Guide/Instance/Modify-Instance-Name.md
-          - name: Find Instance
+          - name: Search Instance
             href: Operation-Guide/Instance/Search-Instance.md
-          - name: Restart Expiration/ Instance in Arrears
+          - name: Restart Inatance in Expiration/Arrears
             href: Operation-Guide/Instance/Restart-Overdue-or-Arrear-Instance.md
-          - name: Export Instance
+          - name: Export Instance Information
             href: Operation-Guide/Instance/Export-Instance.md
-          - name: Converted from By-Configuration to Monthly Package
+          - name: Convert Billing Type
             href: Operation-Guide/Instance/Switch-from-Postpaid-to-Prepaid.md
           - name: Delete Instance
             href: Operation-Guide/Instance/Delete-Instance.md
@@ -113,11 +113,11 @@ items:
             href: Operation-Guide/Image/Create-Private-Image.md
           - name: Share Private Image
             href: Operation-Guide/Image/Share-Image.md
-          - name: Unshare Private Image
+          - name: Cancel Private Image Sharing
             href: Operation-Guide/Image/Cancel-Share-Image.md
           - name: Image Type Conversion
             href: Operation-Guide/Image/Convert-Image.md
-          - name: Image Replication
+          - name: Copy Image
             href: Operation-Guide/Image/Copy-Image.md
           - name: Delete Private Image
             href: Operation-Guide/Image/Delete-Private-Image.md
@@ -127,7 +127,7 @@ items:
             href: Operation-Guide/Storage/Strorage-Overview.md
           - name: Storage Type
             href: Operation-Guide/Storage/Storage-Type.md
-          - name: Identify Local Data Disk
+          - name: View Local Data Disk
             href: Operation-Guide/Storage/Identify-Local-Data-Disk.md
           - name: Create Cloud Disk
             href: Operation-Guide/Storage/Create-Cloud-Disk.md
@@ -149,13 +149,13 @@ items:
         items:
           - name: Networking Overview
             href: Operation-Guide/Network/Network-Overview.md
-          - name: Associate ENI
+          - name: Attach ENI
             href: Operation-Guide/Network/Attach-ENI.md
-          - name: Disassociate ENI
+          - name: Detach ENI
             href: Operation-Guide/Network/Detach-ENI.md
-          - name: Assign Auxiliary Private IP
+          - name: Assign Secondary Private IP
             href: Operation-Guide/Network/Assign-Secondary-IPs.md
-          - name: Release Auxiliary Private IP
+          - name: Release Secondary Private IP
             href: Operation-Guide/Network/Unassign-Secondary-IPs.md
           - name: Associate Elastic IP
             href: Operation-Guide/Network/Associate-Elastic-IP.md
@@ -163,7 +163,7 @@ items:
             href: Operation-Guide/Network/Disassociate-Elastic-IP.md
           - name: Configure Network Interface Multi-Queue
             href: Operation-Guide/Network/Configurate-ENI-Multi-Queue.md
-          - name: Configure Elastic Network Interface Deletion Attribute
+          - name: Configure ENI Deletion Attribute
             href: Operation-Guide/Network/Configurate-ENI-Delete-Attributes.md
       - name: Key Pair
         items:
@@ -177,21 +177,21 @@ items:
         items:
           - name: Security Group Overview
             href: Operation-Guide/Security-Group/Security-Group-Overview.md
-          - name: Security Group Rule
+          - name: Security Group Rules
             href: Operation-Guide/Security-Group/Security-Group-Rules.md
-          - name: Security Group Rules Typical Configuration
+          - name: Typical Configuration
             href: Operation-Guide/Security-Group/Typical-Configuration.md
-          - name: Customer Scenario
+          - name: Scenario
             href: Operation-Guide/Security-Group/Security-Group-Scenarios.md
           - name: Create Security Group
             href: Operation-Guide/Security-Group/Create-Security-Group.md
-          - name: Security Group Binds Virtual Machines
+          - name: Associate Security Group to VM
             href: Operation-Guide/Security-Group/Associate-Security-Group.md
-          - name: Security Group Unbinds Virtual Machines
+          - name: Disassociate Security Group from VM
             href: Operation-Guide/Security-Group/Disassociate-Security-Group.md
-          - name: Configure Security Group Inbound Rules
+          - name: Configure Inbound Rules
             href: Operation-Guide/Security-Group/Configurate-Inbound-Rules.md
-          - name: Configure Security Group Outbound Rules
+          - name: Configure Outbound Rules
             href: Operation-Guide/Security-Group/Configurate-Outbound-Rules.md
           - name: Delete Security Group
             href: Operation-Guide/Security-Group/Delete-Security-Group.md
@@ -211,9 +211,9 @@ items:
         items:
           - name: Monitoring Overview
             href: Operation-Guide/Monitoring/Monitoring-Overview.md
-          - name: Get Monitoring Data
+          - name: Obtain Monitoring Data
             href: Operation-Guide/Monitoring/Get-Monitor-Data.md
-          - name: Set Alarm
+          - name: Set Alarm Rules
             href: Operation-Guide/Monitoring/Set-Alarm.md
   - name: Best Practices
     items:
