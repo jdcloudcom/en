@@ -34,14 +34,13 @@ Log in with the Telnet password you set when you created the cluster.
 2) Whether the JD MapReduce default firewall policy has been modified, such as whether the corresponding port has been modified.
 
 ###  Common Commands
-1. Run the following command to switch users.
 
+1. Run the following command to switch users.
 ```
 sudo su - hadoop
 ```
 
 2. View the service process run by the node
-
 ```
 [hadoop@OmkZafrH-Master1 ~]$ jps
 9344 RunJar
@@ -60,7 +59,6 @@ sudo su - hadoop
 
 3. View the software installation location and software directory
 The software location is placed under the data0 file in the root directory by default.
-
 ```
 [hadoop@OmkZafrH-Master1 ~]$ cd /data0/
 [hadoop@OmkZafrH-Master1 data0]$ ll
@@ -79,7 +77,6 @@ drwxr-xr-x 10 hadoop hadoop  4096 Mar 23  2017 zookeeper-3.4.10
 ```
 
 4. View environment variables
-
 ```
 [hadoop@OmkZafrH-Master1 data0]$ vi ~/.bashrc 
 # .bashrc
