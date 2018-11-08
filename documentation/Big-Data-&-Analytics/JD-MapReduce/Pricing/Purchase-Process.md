@@ -19,6 +19,6 @@ This document describes the entry to purchase JD MapReduce.
 1. Log in to JD Cloud Official Website [https://www.jdcloud.com/](https://www.jdcloud.com/).
 2. Select the "Console" as shown in the figure below.
 
-![Console](https://github.com/jdcloudcom/cn/blob/JD MapReduce-mengfei/image/JD MapReduce/console-buy.png)
+![Console](../../../../image/jmr/console-buy.png)
 
 3. Log in to the console. For details, see [Create a Cluster](https://github.com/jdcloudcom/cn/blob/master/documentation).
