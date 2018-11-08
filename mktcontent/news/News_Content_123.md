@@ -1,38 +1,38 @@
-<p style="text-indent: 2em;"><span style="text-indent: 2em;">对于云上用户，采用负载均衡实现业务流量分发、保障服务高可用是普遍使用的方案。通常用户会将业务服务器部署在负载均衡的后端，由负载均衡直接承载访问流量，因此负载均衡产品很大程度决定了对外服务的能力。</span></p>
+<p style="text-indent: 2em;"><span style="text-indent: 2em;">å¯¹äºäºä¸ç¨æ·ï¼éç¨è´è½½åè¡¡å®ç°ä¸å¡æµéååãä¿éæå¡é«å¯ç¨æ¯æ®éä½¿ç¨çæ¹æ¡ãéå¸¸ç¨æ·ä¼å°ä¸å¡æå¡å¨é¨ç½²å¨è´è½½åè¡¡çåç«¯ï¼ç±è´è½½åè¡¡ç´æ¥æ¿è½½è®¿é®æµéï¼å æ­¤è´è½½åè¡¡äº§åå¾å¤§ç¨åº¦å³å®äºå¯¹å¤æå¡çè½åã</span></p>
 <p style="text-indent: 2em;"><span style="text-indent: 2em;"><br/></span></p>
 <p style="text-align: center; text-indent: 0em;"><span style="text-indent: 2em;"><img src="//img1.jcloudcs.com/cms/4e6ef427-e90b-41a1-bf9e-d0fb9f1332e120180809104506.jpg" title="" alt="12.jpg"/></span></p>
 <p style="text-indent: 2em;"><br/></p>
-<p style="text-indent: 2em;">近日，京东云正式发布新版负载均衡产品。此次迭代更新，主要从功能增强和结构调整两个维度进行，实现产品功能、稳定性、可靠性等方面的大幅度提升。</p>
+<p style="text-indent: 2em;">è¿æ¥ï¼äº¬ä¸äºæ­£å¼åå¸æ°çè´è½½åè¡¡äº§åãæ­¤æ¬¡è¿­ä»£æ´æ°ï¼ä¸»è¦ä»åè½å¢å¼ºåç»æè°æ´ä¸¤ä¸ªç»´åº¦è¿è¡ï¼å®ç°äº§ååè½ãç¨³å®æ§ãå¯é æ§ç­æ¹é¢çå¤§å¹åº¦æåã</p>
 <p style="text-indent: 2em;"><br/></p>
-<p style="text-indent: 2em;">功能上，此次升级增加了支持高可用组与容器作为业务分发对象；增加管理空闲超时时间配置；增加后端服务实例健康检查结果展示功能；增加支持HTTP请求头字段能力等<span style="color: rgb(51, 51, 51); font-family: -apple-system-font, BlinkMacSystemFont, &quot;Helvetica Neue&quot;, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei UI&quot;, &quot;Microsoft YaHei&quot;, Arial, sans-serif; font-size: 15px; letter-spacing: 0.544px; text-align: justify; background-color: rgb(255, 255, 255);">。</span></p>
+<p style="text-indent: 2em;">åè½ä¸ï¼æ­¤æ¬¡åçº§å¢å äºæ¯æé«å¯ç¨ç»ä¸å®¹å¨ä½ä¸ºä¸å¡ååå¯¹è±¡ï¼å¢å ç®¡çç©ºé²è¶æ¶æ¶é´éç½®ï¼å¢å åç«¯æå¡å®ä¾å¥åº·æ£æ¥ç»æå±ç¤ºåè½ï¼å¢å æ¯æHTTPè¯·æ±å¤´å­æ®µè½åç­<span style="color: rgb(51, 51, 51); font-family: -apple-system-font, BlinkMacSystemFont, &quot;Helvetica Neue&quot;, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei UI&quot;, &quot;Microsoft YaHei&quot;, Arial, sans-serif; font-size: 15px; letter-spacing: 0.544px; text-align: justify; background-color: rgb(255, 255, 255);">ã</span></p>
 <p style="text-indent: 2em;"><span style="color: rgb(51, 51, 51); font-family: -apple-system-font, BlinkMacSystemFont, &quot;Helvetica Neue&quot;, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei UI&quot;, &quot;Microsoft YaHei&quot;, Arial, sans-serif; font-size: 15px; letter-spacing: 0.544px; text-align: justify; background-color: rgb(255, 255, 255);"><br/></span></p>
-<p style="text-indent: 2em;"><span style="text-indent: 2em;">结构上，</span><span style="text-indent: 2em;">新版负载均衡将原有的监听规则拆分为监听器与后端服务两个模块</span><span style="text-indent: 2em;">，以便结构清晰以及复用后端服务。监听器用于定义监听的协议类型与端口等客户端业务请求区分规则；后端服务模块用于定义服务端的协议类型与端口，并挂接高可用组或者虚拟服务器组。</span></p>
+<p style="text-indent: 2em;"><span style="text-indent: 2em;">ç»æä¸ï¼</span><span style="text-indent: 2em;">æ°çè´è½½åè¡¡å°åæççå¬è§åæåä¸ºçå¬å¨ä¸åç«¯æå¡ä¸¤ä¸ªæ¨¡å</span><span style="text-indent: 2em;">ï¼ä»¥ä¾¿ç»ææ¸æ°ä»¥åå¤ç¨åç«¯æå¡ãçå¬å¨ç¨äºå®ä¹çå¬çåè®®ç±»åä¸ç«¯å£ç­å®¢æ·ç«¯ä¸å¡è¯·æ±åºåè§åï¼åç«¯æå¡æ¨¡åç¨äºå®ä¹æå¡ç«¯çåè®®ç±»åä¸ç«¯å£ï¼å¹¶ææ¥é«å¯ç¨ç»æèèææå¡å¨ç»ã</span></p>
 <p style="text-indent: 2em;"><span style="text-indent: 2em;"><br/></span></p>
-<p style="text-indent: 2em;"><strong>三重高可用机制，业务稳定再加码</strong></p>
+<p style="text-indent: 2em;"><strong>ä¸éé«å¯ç¨æºå¶ï¼ä¸å¡ç¨³å®åå ç </strong></p>
 <p><br/></p>
-<p style="text-indent: 2em;"><span style="text-indent: 2em;">基于京东云强大的高可用组服务</span><span style="text-indent: 2em;">，升级后的负载均衡实现了三重高可用机制，并支持弹性扩容。</span></p>
+<p style="text-indent: 2em;"><span style="text-indent: 2em;">åºäºäº¬ä¸äºå¼ºå¤§çé«å¯ç¨ç»æå¡</span><span style="text-indent: 2em;">ï¼åçº§åçè´è½½åè¡¡å®ç°äºä¸éé«å¯ç¨æºå¶ï¼å¹¶æ¯æå¼¹æ§æ©å®¹ã</span></p>
 <p style="text-indent: 2em;"><span style="text-indent: 2em;"><br/></span></p>
-<section><p style="text-indent: 2em;">在负载均衡高可用方面，京东云负载均衡采用集群部署，提供双活模式（单可用区下至少提供2个资源实例），如一个负载均衡服务故障，可将流量自动转发至另一个负载均衡服务，业务侧无感知。</p>
+<section><p style="text-indent: 2em;">å¨è´è½½åè¡¡é«å¯ç¨æ¹é¢ï¼äº¬ä¸äºè´è½½åè¡¡éç¨éç¾¤é¨ç½²ï¼æä¾åæ´»æ¨¡å¼ï¼åå¯ç¨åºä¸è³å°æä¾2ä¸ªèµæºå®ä¾ï¼ï¼å¦ä¸ä¸ªè´è½½åè¡¡æå¡æéï¼å¯å°æµéèªå¨è½¬åè³å¦ä¸ä¸ªè´è½½åè¡¡æå¡ï¼ä¸å¡ä¾§æ æç¥ã</p>
 <p style="text-indent: 2em;"><br/></p>
-<p style="text-indent: 2em;"><span style="text-indent: 2em;">对于支持多可用区的地域，还可</span><span style="text-indent: 2em;">将负载均衡创建在不同的可用区</span><span style="text-indent: 2em;">，避免由于单一可用区故障引起的系统故障，提高系统可靠性，为用户提供更高的可用性保障。</span></p>
+<p style="text-indent: 2em;"><span style="text-indent: 2em;">å¯¹äºæ¯æå¤å¯ç¨åºçå°åï¼è¿å¯</span><span style="text-indent: 2em;">å°è´è½½åè¡¡åå»ºå¨ä¸åçå¯ç¨åº</span><span style="text-indent: 2em;">ï¼é¿åç±äºåä¸å¯ç¨åºæéå¼èµ·çç³»ç»æéï¼æé«ç³»ç»å¯é æ§ï¼ä¸ºç¨æ·æä¾æ´é«çå¯ç¨æ§ä¿éã</span></p>
 <p style="text-indent: 2em;"><span style="text-indent: 2em;"><br/></span></p>
-<p style="text-indent: 2em;"><span style="text-indent: 2em;">在后端服务器高可用方面，绑定高可用组后，负载均衡可根据业务流量和设备负载情况</span><span style="text-indent: 2em;">动态调整服务器数量</span><span style="text-indent: 2em;">，实现资源的合理分配，保证业务正常运行。</span><span style="text-indent: 2em;">高可用组会将后端服务器分布到不同机架、不同可用区下</span><span style="text-indent: 2em;">，避免由于单一机架、可用区故障引起的系统故障。</span></p>
+<p style="text-indent: 2em;"><span style="text-indent: 2em;">å¨åç«¯æå¡å¨é«å¯ç¨æ¹é¢ï¼ç»å®é«å¯ç¨ç»åï¼è´è½½åè¡¡å¯æ ¹æ®ä¸å¡æµéåè®¾å¤è´è½½æåµ</span><span style="text-indent: 2em;">å¨æè°æ´æå¡å¨æ°é</span><span style="text-indent: 2em;">ï¼å®ç°èµæºçåçåéï¼ä¿è¯ä¸å¡æ­£å¸¸è¿è¡ã</span><span style="text-indent: 2em;">é«å¯ç¨ç»ä¼å°åç«¯æå¡å¨åå¸å°ä¸åæºæ¶ãä¸åå¯ç¨åºä¸</span><span style="text-indent: 2em;">ï¼é¿åç±äºåä¸æºæ¶ãå¯ç¨åºæéå¼èµ·çç³»ç»æéã</span></p>
 <p style="text-indent: 2em;"><span style="text-indent: 2em;"><br/></span></p>
 <p style="text-indent: 0em; text-align: center;"><span style="text-indent: 2em;"><img src="//img1.jcloudcs.com/cms/700b4418-ea63-4d01-b859-5db8f21ec2e520180809104813.jpg" title="" alt="fuzai2g.jpg"/></span></p>
 <p style="text-indent: 0em;"><br/></p>
-<p style="text-indent: 2em;"><strong>后端服务独立，功能丰富再升级</strong></p>
+<p style="text-indent: 2em;"><strong>åç«¯æå¡ç¬ç«ï¼åè½ä¸°å¯ååçº§</strong></p>
 <p><strong style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><br/></strong></p>
-<p style="text-indent: 2em;"><span style="text-indent: 2em;">新版负载均衡会</span><span style="text-indent: 2em;">检查后端服务资源池中实例的健康状态</span><span style="text-indent: 2em;">，自动隔离、挂载后端提供服务的实例，保障业务正常运行。</span></p>
+<p style="text-indent: 2em;"><span style="text-indent: 2em;">æ°çè´è½½åè¡¡ä¼</span><span style="text-indent: 2em;">æ£æ¥åç«¯æå¡èµæºæ± ä¸­å®ä¾çå¥åº·ç¶æ</span><span style="text-indent: 2em;">ï¼èªå¨éç¦»ãæè½½åç«¯æä¾æå¡çå®ä¾ï¼ä¿éä¸å¡æ­£å¸¸è¿è¡ã</span></p>
 <p style="text-indent: 2em;"><span style="text-indent: 2em;"><br/></span></p>
-<p style="text-indent: 2em;">后端服务的独立，使不同的监听器可以使用相同的后端服务，这在一些业务场景（如同时提供HTTP/HTTPs访问的网站服务）下可直接创建基于80、443端口的两个监听器并使用相同的后端服务。</p>
+<p style="text-indent: 2em;">åç«¯æå¡çç¬ç«ï¼ä½¿ä¸åççå¬å¨å¯ä»¥ä½¿ç¨ç¸åçåç«¯æå¡ï¼è¿å¨ä¸äºä¸å¡åºæ¯ï¼å¦åæ¶æä¾HTTP/HTTPsè®¿é®çç½ç«æå¡ï¼ä¸å¯ç´æ¥åå»ºåºäº80ã443ç«¯å£çä¸¤ä¸ªçå¬å¨å¹¶ä½¿ç¨ç¸åçåç«¯æå¡ã</p>
 <p style="text-indent: 2em;"><br/></p>
-<p style="text-indent: 2em;">在协议、调度算法方面，负载均衡支持TCP/HTTP（S）协议的监听，支持加权轮询、加权最小连接数、源IP转发3种调度算法，可根据业务需求自行选择。同时，为满足用户定制化需求，开放了多项功能参数配置，包括监听器的空闲连接超时、会话保持、HTTP头字段（IP、端口、协议）透传至后端服务器等。</p>
+<p style="text-indent: 2em;">å¨åè®®ãè°åº¦ç®æ³æ¹é¢ï¼è´è½½åè¡¡æ¯æTCP/HTTPï¼Sï¼åè®®ççå¬ï¼æ¯æå æè½®è¯¢ãå ææå°è¿æ¥æ°ãæºIPè½¬å3ç§è°åº¦ç®æ³ï¼å¯æ ¹æ®ä¸å¡éæ±èªè¡éæ©ãåæ¶ï¼ä¸ºæ»¡è¶³ç¨æ·å®å¶åéæ±ï¼å¼æ¾äºå¤é¡¹åè½åæ°éç½®ï¼åæ¬çå¬å¨çç©ºé²è¿æ¥è¶æ¶ãä¼è¯ä¿æãHTTPå¤´å­æ®µï¼IPãç«¯å£ãåè®®ï¼éä¼ è³åç«¯æå¡å¨ç­ã</p>
 <p style="text-indent: 2em;"><br/></p>
-<p style="text-indent: 2em;"><span style="text-indent: 2em;">值得一提的是，新版负载均衡</span><span style="text-indent: 2em;">支持绑定容器作为后端服务器</span><span style="text-indent: 2em;">，通过均衡负载可有效提升容器服务的性能、稳定性、可靠性，同时也支持将云主机和容器作为后端服务器进行混合部署。</span></p>
+<p style="text-indent: 2em;"><span style="text-indent: 2em;">å¼å¾ä¸æçæ¯ï¼æ°çè´è½½åè¡¡</span><span style="text-indent: 2em;">æ¯æç»å®å®¹å¨ä½ä¸ºåç«¯æå¡å¨</span><span style="text-indent: 2em;">ï¼éè¿åè¡¡è´è½½å¯æææåå®¹å¨æå¡çæ§è½ãç¨³å®æ§ãå¯é æ§ï¼åæ¶ä¹æ¯æå°äºä¸»æºåå®¹å¨ä½ä¸ºåç«¯æå¡å¨è¿è¡æ··åé¨ç½²ã</span></p>
 <p style="text-indent: 2em;"><span style="text-indent: 2em;"><br/></span></p>
 <p style="text-indent: 2em;"><span style="text-indent: 2em;"><img src="//img1.jcloudcs.com/cms/744354d6-e982-4085-a06f-df266cef18c220180809104831.jpg" title="" alt="fuzai3g.jpg"/></span></p>
 <p><br/></p>
-<p style="text-indent: 2em;"><span style="text-indent: 2em;">此外， 升级后的负载均衡支持绑定安全组，可自主设置流量的进/出策略，同时公网IP自带抗DDoS攻击能力，提供安全性保障。负载均衡资源配额也进一步提升，以满足大规模业务部署的需求。</span></p>
+<p style="text-indent: 2em;"><span style="text-indent: 2em;">æ­¤å¤ï¼ åçº§åçè´è½½åè¡¡æ¯æç»å®å®å¨ç»ï¼å¯èªä¸»è®¾ç½®æµéçè¿/åºç­ç¥ï¼åæ¶å¬ç½IPèªå¸¦æDDoSæ»å»è½åï¼æä¾å®å¨æ§ä¿éãè´è½½åè¡¡èµæºéé¢ä¹è¿ä¸æ­¥æåï¼ä»¥æ»¡è¶³å¤§è§æ¨¡ä¸å¡é¨ç½²çéæ±ã</span></p>
 <p style="text-indent: 2em;"><span style="text-indent: 2em;"><br/></span></p>
-<p style="text-indent: 2em;"><span style="text-indent: 2em;">此次更新迭代后，京东云负载均衡为灵活调整负载规模实现高可用、应对突发大流量、分析真实客户来源、实现高安全性需求等业务场景提供了更强有力的支撑。</span></p>
+<p style="text-indent: 2em;"><span style="text-indent: 2em;">æ­¤æ¬¡æ´æ°è¿­ä»£åï¼äº¬ä¸äºè´è½½åè¡¡ä¸ºçµæ´»è°æ´è´è½½è§æ¨¡å®ç°é«å¯ç¨ãåºå¯¹çªåå¤§æµéãåæçå®å®¢æ·æ¥æºãå®ç°é«å®å¨æ§éæ±ç­ä¸å¡åºæ¯æä¾äºæ´å¼ºæåçæ¯æã</span></p>
 </section>
