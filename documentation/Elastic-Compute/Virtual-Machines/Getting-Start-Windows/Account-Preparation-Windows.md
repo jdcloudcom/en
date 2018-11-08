@@ -1,4 +1,4 @@
-# Account Preparation
+# Preparation before Creation
 Before you start creating Linux instance, you need to complete the registration of JD Cloud account and real-name verification, and get ready to pay for resources to be purchased.
 ## Account Registration
 If you already have a JD Cloud account, you can skip this step for subsequent setting.

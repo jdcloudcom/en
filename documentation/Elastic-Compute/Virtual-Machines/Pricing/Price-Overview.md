@@ -496,8 +496,8 @@ The price of JD Cloud's VM instance mainly includes: instance price (vCPU and me
       <td></td>
    </tr>
    <tr>
-      <td rowspan="3">GPU</td>
-      <td rowspan="3">Standard</td>
+      <td rowspan="9">GPU</td>
+      <td rowspan="9">Standard</td>
       <td>p.n1p40.3xlarge</td>
       <td>12</td>
       <td>48</td>
@@ -517,19 +517,64 @@ The price of JD Cloud's VM instance mainly includes: instance price (vCPU and me
       <td>p.n1p40.14xlarge</td>
       <td>56</td>
       <td>220</td>
-      <td> 17935</td>
+      <td>17935</td>
       <td>62.27</td>
       <td></td>
    </tr>
-
-
-
+   <tr>
+      <td>p.n1p40h.3xlarge</td>
+      <td>12</td>
+      <td>48</td>
+      <td>4073.5</td>
+      <td>14.14</td>
+      <td></td>
+   </tr>
+   <tr>
+     <td>p.n1p40h.7xlarge</td>
+      <td>28</td>
+      <td>110</td>
+      <td>8631.5</td>
+      <td>29.97</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>p.n1p40h.14xlarge</td>
+      <td>56</td>
+      <td>220</td>
+      <td>17263</td>
+      <td>59.94</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>p.n1v100.2xlarge</td>
+      <td>8</td>
+      <td>44</td>
+      <td>7569</td>
+      <td>26.203</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>p.n1v100.5xlarge</td>
+      <td>20</td>
+      <td>110</td>
+      <td>15622.5</td>
+      <td>54.088</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>p.n1v100.10xlarge</td>
+      <td>40</td>
+      <td>220</td>
+      <td>31245</td>
+      <td>108.175</td>
+      <td></td>
+   </tr>
 </table>
 
 Please note:
 
-* The standard * indicates that the Virtual Machines is not supported by this specification, and you are not allowed to adjust the current Virtual Machines to this specification, but it does not affect the use of your existing Virtual Machines;
-* High-frequency Computing is currently only available in cn-north-1, cn-south-1 and cn-east-2.
+* The standard * indicates that the Virtual Machines is not supported by this instance type, and you are not allowed to adjust the current Virtual Machines to this instance type, but it does not affect the use of your existing Virtual Machines;
+* High-frequency Computing type is currently only available in cn-north-1, cn-south-1 and cn-east-2.
 
 ## Related Reference
 [Virtual Machines Price Calculator](https://www.jdcloud.com/calculator/calHost)

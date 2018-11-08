@@ -1,4 +1,4 @@
-# Instance Specifications Type
+# Instance Type Family
 
 An instance is the smallest unit for the computing services provided by JD Cloud for your business. Different instances identify their corresponding computing, memory, storage, and networking capabilities by their instance type familes and specific instance types. Meanwhile, the instance type family you specified when you create an instance determines the hardware configuration of this instance. You can select the appropriate instance type family and instance types based on the type and size of the application you need to deploy.
 
@@ -254,6 +254,12 @@ Instance Type|vCPU(core)|Memory(GB)|GPU|Local Data Disk (Temporary Storage)|Netw
 |p.n1p40.3xlarge|12|48|1 x Nvidia Tesla P40|1 x 960GB SSD|4
 |p.n1p40.7xlarge|28|110|2 x Nvidia Tesla P40|2 x 960GB SSD|4
 |p.n1p40.14xlarge|56|220|4 x Nvidia Tesla P40|4 x 960GB SSD|4
+|p.n1p40h.3xlarge|12|48|1 x Nvidia Tesla P40|1 x 1200GB HDD|4
+|p.n1p40h.7xlarge|28|110|2 x Nvidia Tesla P40|2 x 1200GB HDD|4
+|p.n1p40h.14xlarge|56|220|4 x Nvidia Tesla P40|4 x 1200GB HDD|4
+|p.n1v100.2xlarge|8|44|1 x Nvidia Tesla V100|1 x 6000GB HDD|4
+|p.n1v100.5xlarge|20|110|2 x Nvidia Tesla V100|2 x 6000GB HDD|4
+|p.n1v100.10xlarge|40|220|4 x Nvidia Tesla V100|4 x 6000GB HDD|4
 
 Please note:
 
