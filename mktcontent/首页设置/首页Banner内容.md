@@ -690,7 +690,7 @@
 	},
 	{
 		"sub_title":"海量数据下的高性能自动分库分表数据库",
-		"image_Url":"//img1.jcloudcs.com/cms/b48e155d-2e8f-4214-ad3a-c26a7b14de4320180929141939.png",
+		"image_Url":"//img1.jcloudcs.com/cms/797a34db-5998-4312-84b6-5d10dd92341620181108180434.png",
 		"dynamic_image":"//img1.jcloudcs.com/cms/37cf0bf3-979c-4b40-a925-60c126e57f0120180929141943.png",
 		"name":"分布式关系型数据库DRDS开放公测",
 		"id":"1020",
