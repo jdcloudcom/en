@@ -78,7 +78,7 @@ drwxr-xr-x 10 hadoop hadoop  4096 Mar 23  2017 zookeeper-3.4.10
 
 4. View environment variables
 ```
-[hadoop@OmkZafrH-Master1 data0]$ vi ~/.bashrc 
+[hadoop@OmkZafrH-Master1 data0]$ vi ~/.bashrc
 # .bashrc
 
 # Source global definitions
