@@ -8,7 +8,8 @@ You can connect the instance through the JD Cloud DMS function and the local cli
     * Fill in the account number of RDS in the first row of textbox.
     * Fill in the correct password for RDS in the second row of textbox.
     * Click **Execute** to launch a request for RDS connection.
-    ![4.png](https://img1.jcloudcs.com/cms/870cf55e-5a95-438e-b3e9-0015eee0bd8120170904172035.png)
+
+    ![4.png](../../../../../image/RDS/1109_2.jpg)
 
 ## Connection to Database via JD Cloud VM
 Users can access the database by entering the command line after the RDS client is installed in JD Cloud Machine.
@@ -30,7 +31,6 @@ There are ways to access JCS for MySQL/Percona/MariaDB services, taking Sequel P
     * Password: Enter the password for the account of JCS for MySQL/Percona/MariaDB service.
     * Port: Port 3306 in default, changes not required.
 
-    ![Screenshot](https://img1.jcloudcs.com/cms/94be7bf2-3a37-4d1d-9add-cb35d27cc7aa20180803100645.jpeg)
-
+    ![4.png](../../../../../image/RDS/1109_1.jpg)
 
 2. Click on the connect button to connect to the cloud database instance. 

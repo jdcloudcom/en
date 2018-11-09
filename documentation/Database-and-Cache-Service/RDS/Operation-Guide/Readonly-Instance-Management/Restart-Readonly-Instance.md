@@ -13,5 +13,5 @@ When problems are found in connection or performance of the JCS for MySQL/Percon
     * Click ***OK*** to reboot the read-only instance.
     * Click ***Cancel*** to cancel the read-only instance rebooting.
 
-![image2018-5-31 19_5_23.png](https://img1.jcloudcs.com/cms/e15dfed8-47a9-4ec8-b131-fd8a329e253720180531190633.png)
+    ![image] (../../../../../1109_22.jpg)
 

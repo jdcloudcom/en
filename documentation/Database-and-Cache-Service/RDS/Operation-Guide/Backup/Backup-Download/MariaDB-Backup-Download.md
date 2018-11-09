@@ -1,5 +1,5 @@
 # Backup Download
-You can download the backup data of JCS for Percona instance service from the addresses of the intranet and internet provided by JD Cloud.
+You can download the backup data of JCS for MariaDB instance service from the addresses of the intranet and internet provided by JD Cloud.
 
 ## Precautions
 * The addresses of the intranet and internet have a valid period. If the expiration date is exceeded, the addresses will be invalid. Users can click the download button to generate the download pop-up box to get the new downloading address.
