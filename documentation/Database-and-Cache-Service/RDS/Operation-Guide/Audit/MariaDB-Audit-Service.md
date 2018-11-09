@@ -14,6 +14,6 @@ SQL audit will not parse the actual parameter values and a few records will be l
     * Accounts: SQL statements that can view specified account.
     * Keyword: You may specify keywords as the filter condition of SQL statements that only display matched keywords.
 
-    ! [Snapshot] (../../../../../image/RDS/1109_4.jpg)
+    ![Snapshot] (../../../../../image/RDS/1109_4.jpg)
 
 3. Click ***Query*** to view satisfactory SQL list.
