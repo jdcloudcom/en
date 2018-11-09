@@ -12,6 +12,6 @@ SQL audit will not parse the actual parameter values and a few records will be l
     * Database: SQL statements that can view specified database.
     * Accounts: SQL statements that can view specified account.
 
-    ![Snapshot] (../../../../../image/RDS/1109_4.jpg)
+    ![Snapshot](../../../../../image/RDS/1109_4.jpg)
 
 3. Click ***Query*** to view satisfactory SQL list.

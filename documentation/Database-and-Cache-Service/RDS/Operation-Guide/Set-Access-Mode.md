@@ -13,4 +13,4 @@ The JCS for MySQL/Percona/MariaDB service support both standard mode and high se
     * Click ***OK*** to confirm that high security mode is enabled.
     * Click ***Cancel*** to enable the high security mode.
 
-    ![image] (../../../../image/RDS/1109_23.jpg)
+    ![image](../../../../image/RDS/1109_23.jpg)

@@ -11,4 +11,4 @@ As the requirements change, some parameter groups are no longer used, and those 
     * Name: It is allowed to repeat, while the length and characters of the name have certain limits, which shall be subject to the console. 
     * Description: The length and characters of the description have certain limits, which shall be subject to the console. 
 
-    ![image] (../../../../../image/RDS/1109_18.jpg)
+    ![image](../../../../../image/RDS/1109_18.jpg)
