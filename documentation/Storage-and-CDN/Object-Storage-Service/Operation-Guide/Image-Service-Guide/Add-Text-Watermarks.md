@@ -18,8 +18,9 @@ Use method: each wmt triggers actions of adding watermark and then set each para
 
 Example:
 
-Add text watermark "京东云" to image file:
+Add text watermark "JD Cloud" to image file:
 
+http://s3.cn-north-1.jcloudcs.com/downloads/example.jpg?x-oss-process=img/wmt/wt/5Lqs5Lic5LqR
 http://oss.cn-north-1.jcloudcs.com/downloads/example.jpg?x-oss-process=img/wmt/wt/5Lqs5Lic5LqR
 
 ![文字水印](../../../../../image/Object-Storage-Service/OSS-063.jpg)

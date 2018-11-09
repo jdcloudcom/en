@@ -25,7 +25,7 @@ Complete certificate import
 5) In the browser, input https://****/api/v1/namespaces/kube-system/services/https:kubernetes-dashboard:/proxy/, where, **** should be replaced with the service endpoints queried from Kubernetes cluster details page to visit dashboard;  
 2. Visit dashboard through LoadBalance services;  
  1) To visit dashboard through the LoadBalance service, you need to first create LoadBalance-type service in the cluster, with the yaml file as follows: 
- ```
+```
 kind: Service
 apiVersion: v1
 metadata:
@@ -41,12 +41,16 @@ spec:
   type: LoadBalancer
   selector:
      k8s-app: kubernetes-dashboard
+  ```
+  
 2) Perform the following command to create services in the kube-system namespace:  
 
 kubectl create -f dashboard-lb.yaml --namespace=kube-system
+
 3) Query the EIP of the newly created service in the kube-system namespace
 
 kubectl get services -n kube-system
+
 4) In the browser, input https://****:port in the browser, where**** should be replaced with the EIP associated with the load balance service, and port should be replaced with the port in the service spec, which is 8443 in this example, to visit dashboard.  
 
 III. dashboard Identity Authentication  

@@ -1,6 +1,5 @@
 name: Product Service Agreement
-  href: 
-  items:
+items:
   - name: Virtual Machines Service Agreement
     href: Cloud-Hosting-Service-Terms.md
   - name: Virtual Machines Service Level Agreement (SLA)

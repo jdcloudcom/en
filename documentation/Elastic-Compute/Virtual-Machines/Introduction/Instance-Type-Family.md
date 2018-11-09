@@ -261,6 +261,7 @@ Instance Type|vCPU(core)|Memory(GB)|GPU|Local Data Disk (Temporary Storage)|Netw
 |p.n1v100.5xlarge|20|110|2 x Nvidia Tesla V100|2 x 6000GB HDD|4
 |p.n1v100.10xlarge|40|220|4 x Nvidia Tesla V100|4 x 6000GB HDD|4
 
+
 Please note:
 
 * High Frequency Compute Type only can be provided in cn-north-1, cn-east-2 and cn-south-1;

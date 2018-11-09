@@ -14,7 +14,7 @@ Example:
 
 Obtain basic image information:
 
-http://oss.cn-north-1.jcloudcs.com/downloads/example.jpg?x-oss-process=imginfo/ns
+http://s3.cn-north-1.jcloudcs.com/downloads/example.jpg?x-oss-process=imginfo/ns
 
 Returned results:
 
@@ -22,7 +22,7 @@ Returned results:
 
 Obtain image EXIF information:
 
-http://oss.cn-north-1.jcloudcs.com/downloads/example.jpg?x-oss-process=imgexif
+http://s3.cn-north-1.jcloudcs.com/downloads/example.jpg?x-oss-process=imgexif
 
 Returned results:
 ```

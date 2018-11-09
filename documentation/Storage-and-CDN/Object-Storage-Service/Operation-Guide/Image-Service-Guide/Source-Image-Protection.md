@@ -6,9 +6,9 @@ For image files, to avoid the risk of stolen images in the business, it is requi
 
 After enabling original image protection, the following two access methods are unavailable:
 
-* Direct access through external link address: http://downloads.oss.cn-north-1.jcloudcs.com/lena.jpg
+* Direct access through external link address: 1. http://downloads.s3.cn-north-1.jcloudcs.com/lena.jpg 2.http://downloads.oss.cn-north-1.jcloudcs.com/lena.jpg
 
-* Access by processing parameters: http://downloads.oss.cn-north-1.jcloudcs.com/lena.jpg?x-oss-process=img/s/200/300
+* Access by processing parameters: 1.http://downloads.s3.cn-north-1.jcloudcs.com/lena.jpg?x-oss-process=img/s/200/300 2.http://downloads.oss.cn-north-1.jcloudcs.com/lena.jpg?x-oss-process=img/s/200/300
 
 The image can only be accessed by style method: http://downloads.oss.cn-north-1.jcloudcs.com/lena.jpg?x-oss-process=imgalias/stylename
 

@@ -12,7 +12,7 @@ Please apply version JDK 6 or above.
 ## Installation Mode
 
 ### Add dependencies to the Maven project (recommended).
-To apply S3 Java SDK to the Maven project, add corresponding dependencies to pom.xml. Take version '''1.11.136''' as an example. Add the following contents to '''<dependencies>''’.
+To apply S3 Java SDK to the Maven project, add corresponding dependencies to pom.xml. Take version `1.11.136` as an example. Add the following contents to `<dependencies>`.
 
 ```
 <dependency>  
@@ -24,7 +24,7 @@ To apply S3 Java SDK to the Maven project, add corresponding dependencies to pom
 
 ### Import the JAR package into the Eclipse project.
 
-Take version '''1.11.136''' as an example and the steps are as follows:
+Take version `1.11.136` as an example and the steps are as follows:
 
 Load the [AWS Java SDK] (https://sdk-for-java.amazonwebservices.com/latest/aws-java-sdk.zip) software development kit.
 

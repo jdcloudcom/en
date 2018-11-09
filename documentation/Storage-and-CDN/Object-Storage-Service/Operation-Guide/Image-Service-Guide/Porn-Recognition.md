@@ -13,11 +13,16 @@ Conduct porn identification to image files
 
 Images are as follows:
 
+http://s3.cn-north-1.jcloudcs.com/downloads/example.jpg
+
 http://oss.cn-north-1.jcloudcs.com/downloads/example.jpg
+
 
 ![识别](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-065.jpg)
 
 Porn identification processing:
+
+http://s3.cn-north-1.jcloudcs.com/downloads/example.jpg?x-oss-process=img/analyse/p
 
 http://oss.cn-north-1.jcloudcs.com/downloads/example.jpg?x-oss-process=img/analyse/p
 

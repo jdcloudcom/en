@@ -55,7 +55,8 @@ Rules Description:
 
 3. The image style named Stylename can be accessed through the following URL:
 
-http://oss.cn-south-1.jcloudcs.com/bucket/object?x-oss-process=imgalias/Stylename
+http://s3.cn-south-1.jcloudcs.com/bucket/object?x-oss-process=imgalias/Stylename
+
 
 Example:
 
@@ -63,6 +64,6 @@ Use the style with the image processing style name of img-style-example to proce
 
 img-style-example style: scale 80%, rotate 60°
 
-http://oss.cn-north-1.jcloudcs.com/downloads/example.jpg?x-oss-process=imgalias/img-style-example
+http://s3.cn-north-1.jcloudcs.com/downloads/example.jpg?x-oss-process=imgalias/img-style-example
 
 ![](../../../../../image/Object-Storage-Service/OSS-057.jpg)

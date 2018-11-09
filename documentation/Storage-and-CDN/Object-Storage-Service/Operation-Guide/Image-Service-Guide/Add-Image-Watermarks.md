@@ -18,6 +18,8 @@ Example:
 
 Add logo.png as an image watermark file to example.png and set the zooming scale of watermark image as 100:
 
+http://s3.cn-north-1.jcloudcs.com/downloads/example.jpg?x-oss-process=img/wmi/wk/ZG93bmxvYWRzOmxvZ28ucG5n/ws/100
+
 http://oss.cn-north-1.jcloudcs.com/downloads/example.jpg?x-oss-process=img/wmi/wk/ZG93bmxvYWRzOmxvZ28ucG5n/ws/100
 
 ![图片水印](../../../../../image/Object-Storage-Service/OSS-062.jpg)

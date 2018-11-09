@@ -23,6 +23,9 @@ Parameters:
 
 Example: Scale the image with fixed aspect ratio; the width and height after scaling is not larger than 200*300
 
+http://s3.cn-north-1.jcloudcs.com/downloads/example.jpg?x-oss-process=img/s/200/300
+
 http://oss.cn-north-1.jcloudcs.com/downloads/example.jpg?x-oss-process=img/s/200/300
+
 
 ![图片缩放](../../../../../image/Object-Storage-Service/OSS-058.jpg)
