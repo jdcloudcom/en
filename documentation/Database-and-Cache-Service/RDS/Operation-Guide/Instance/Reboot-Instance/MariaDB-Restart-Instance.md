@@ -15,4 +15,4 @@ When connecting count issues or performance issues of instances are found, you c
     * Click ***OK*** to complete the instance reset operation.
     * Click ***Cancel*** to call off the instance reset operation.
     
-! [Snapshot](https://img1.jcloudcs.com/cms/0d8ca556-e783-4fa9-ab72-b30652c0251020180423125543.png)
+    ![image] (../../../../../../1109_14.jpg)

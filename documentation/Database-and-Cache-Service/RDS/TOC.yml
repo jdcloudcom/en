@@ -166,16 +166,16 @@
         - name: Delete Uploaded File
           href: Operation-Guide/Data-To-Cloud/Delete-Import.md
 
-      - name: Parameter Set 
+      - name: Parameter Group 
         items:
-         - name: Create Parameter Set
+         - name: Create Parameter Group 
            href: Operation-Guide/Parameter-Group/Creat-Parameter-Group.md
-         - name: Modify Parameter Set
-           href: Operation-Guide/Parameter-Group/Modify-Parameter-Group.md
-         - name: Copy Parameter Set
+         - name: Copy Parameter Group 
            href: Operation-Guide/Parameter-Group/Copy-Parameter-Group.md
-         - name: Delete Parameter Set
+         - name: Delete Parameter Group 
            href: Operation-Guide/Parameter-Group/Delete-Parameter-Group.md
+         - name: Modify Parameter
+           href: Operation-Guide/Parameter-Group/Modify-Parameter.md
          - name: Modify History 
            href: Operation-Guide/Parameter-Group/Parameter-Group-History.md
           

@@ -14,4 +14,4 @@ You can download the backup data of the JCS for MySQL instance service from the 
     * Click ***Local Download*** to download backup data directly from the browser.
     * Click ***Cancel*** to cancel the download of backup data.
 
-![image2018-3-8 14_14_29.png](https://img1.jcloudcs.com/cms/9de5deac-1a4d-4bea-b6ad-3121e317935b20180308142747.png)
+    ![backup] (../../../../../../1109_5.jpg)

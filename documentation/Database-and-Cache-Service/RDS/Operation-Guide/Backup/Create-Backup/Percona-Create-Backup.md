@@ -14,6 +14,6 @@ The backup instance will be stored in the cloud storage service of JD Cloud. At 
     * Click ***OK*** to complete the backup.
     * Click ***Cancel*** to cancel the backup creation.
 
-    ![image2018-3-8 11_41_42.png](https://img1.jcloudcs.com/cms/b11d4a53-6117-4db5-9254-144b92f2322520180308115433.png)
+    ![backup] (../../../../../../1109_7.jpg)
 
 4. Click ***OK*** to return to the backup list page and start the manual backup.
