@@ -1,24 +1,24 @@
 # GetService(ListBuckets)
 
-For service address sending a Get request, you can return all Buckets owned by the requestor, where the “/” represents the root directory.
+For service address sending a Get request, you can return all Buckets owned by the requestor, where the "/" represents the root directory.
 
-***Request Grammar***
+**Request Syntax**
 ```
 GET / HTTP/1.1
 Date: GMT Date
 Authorization: SignatureValue
 Host:s-bj.jcloud.com
 ``` 
-***Response Element***
+**Response Element**
 
 |Name|Description|
 |-|-|
 |Buckets|Set saving Bucket results<br>Type: List<Bucket>|
-|maxAge|Life cycle of Bucket|
+|maxAge|Life Cycle of Bucket|
 |crrStatus|Whether there is an object replicating externally under this Bucket<br>Type:int:0(no replication) or 1(exist replication)|
-|Name|Bucket name. <br>Type: character string
-|CreationDate|Bucket creation time<br>Type: time (format: "EEE, d MMM yyyy HH:mm:ss   GMT")<br>Eg. Mon, 10 Jul 2017  08:49:15 GMT|
-|Location|Data center where Bucket locates<br>Type: character string<br>currently return null character string" "
+|Name|Bucket Name. <br>Type: Character String
+|CreationDate|Bucket creation time<br>Type: Time (format: "EEE, d MMM yyyy HH:mm:ss   GMT")<br>Eg. Mon, 10 Jul 2017  08:49:15 GMT|
+|Location|Data center where Bucket locates<br>Type: Character String<br>currently return null character string" "
 
 Detail Analysis:
 
@@ -26,7 +26,7 @@ Detail Analysis:
 
 2. If there is no user check information (i.e. anonymous access) in the request, return 403 Forbidden. Error code: AccessDenied.
 
-Request example
+Request Example
 ```
 GET / HTTP/1.1
 Date: Wed, 12 Jul 2017 10:38:35 GMT
@@ -34,7 +34,7 @@ Authorization: jingdong   298718BEDE59FF1B2E96A3152937D37B:mIdihnpi2ZtWTHaji555S
 Host: s-bj.jcloud.com
 Connection: Keep-Alive
 ```
-Return example
+Response Example
 ```
 HTTP/1.1 200 OK
 Server: nginx

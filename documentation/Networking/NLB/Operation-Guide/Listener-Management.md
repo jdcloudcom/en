@@ -10,7 +10,7 @@
 	
 ##### Frontend listening configuration:
 	
-- Select frontend listening protocol: tcp; port: 1~65535 【Note: The listening port under the same load balancer cannot be repeated; after creating the listener, the listening protocol and the port are not allowed to modify】;	
+- Select frontend listening protocol: tcp; port: 1~65535 **Note: The listening port under the same load balancer cannot be repeated; after creating the listener, the listening protocol and the port are not allowed to modify**;	
 
 - Idle connect timeout: input range 1-86400s, the default is 1800s.
 
@@ -58,7 +58,7 @@
 
 - Select server group type: virtual server, availability group, or it cannot be added currently.
 	
-- Select virtual server group: The system will automatically filter out the virtual server group list that can be associated now, if there is no virtual server group, please click “Create Virtual Server Group” to create. 【Note: The backend instances in the optional virtual server group must be under the same region, virtual private cloud and availability zone as the load balancer.】 ;	
+- Select virtual server group: The system will automatically filter out the virtual server group list that can be associated now, if there is no virtual server group, please click “Create Virtual Server Group” to create. **Note: The backend instances in the optional virtual server group must be under the same region, virtual private cloud and availability zone as the load balancer.** ;	
 
 - Availability Group: The system will automatically filter out the availability groups that can be associated now, if there is no availability group, please go to the Availability Group page to create. Note: The backend instances in the optional availability group must be under the same region, virtual private cloud, and availability zone as the load balancer.
 
@@ -81,7 +81,7 @@
 
 #### 1. Idle connection timeout: Revisable;
 
-#### 2. Default backend service: new backend service can be replaced 【Note: Only the backend service matched the listener protocol can be selected. For instance, if the listener is tcp, the backend service with the tcp backend protocol can be selected】;
+#### 2. Default backend service: new backend service can be replaced **Note: Only the backend service matched the listener protocol can be selected. For instance, if the listener is tcp, the backend service with the tcp backend protocol can be selected**;
 
 #### 3. Modification to other parameter items is not supported.
 

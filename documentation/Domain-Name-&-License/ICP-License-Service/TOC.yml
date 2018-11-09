@@ -1,0 +1,119 @@
+  name: ICP License Service
+  href:
+  items:
+  - name: Filing Guide
+    items:
+      - name: Filing Introduction
+        href: Getting-Started/Introduction.md
+      - name: Filing Progress
+        href: Getting-Started/Process.md
+      - name: Rules of Regulatory Authority
+        items:
+          - name: Anhui
+            href: Management-specification/Anhui.md
+          - name: Beijing
+            href: Management-specification/Beijing.md
+          - name: Chongqing
+            href: Management-specification/Chongqing.md  
+          - name: Fujian
+            href: Management-specification/Fujian.md
+          - name: Gansu
+            href: Management-specification/Gansu.md
+          - name: Guangdong
+            href: Management-specification/Guangdong.md
+          - name: Guangxi
+            href: Management-specification/Guangxi.md
+          - name: Guizhou
+            href: Management-specification/Guizhou.md
+          - name: Hainan
+            href: Management-specification/Hainan.md
+          - name: Hebei
+            href: Management-specification/Hebei.md
+          - name: Heilongjiang
+            href: Management-specification/Heilongjiang.md
+          - name: Henan
+            href: Management-specification/Henan.md
+          - name: Hubei
+            href: Management-specification/Hubei.md
+          - name: Hunan
+            href: Management-specification/Hunan.md
+          - name: Jiangsu
+            href: Management-specification/Jiangsu.md
+          - name: Jiangxi
+            href: Management-specification/Jiangxi.md
+          - name: Jilin
+            href: Management-specification/Jilin.md
+          - name: Liaoning
+            href: Management-specification/Liaoning.md
+          - name: Inner Mongolia
+            href: Management-specification/Neimenggu.md
+          - name: Ningxia
+            href: Management-specification/Ningxia.md
+          - name: Qinghai
+            href: Management-specification/Qinghai.md
+          - name: Shanxi
+            href: Management-specification/Shan-xi.md
+          - name: Shanghai
+            href: Management-specification/Shanghai.md
+          - name: Shaanxi
+            href: Management-specification/Shanxi.md
+          - name: Sichuan
+            href: Management-specification/Sichuan.md
+          - name: Xinjiang
+            href: Management-specification/Xinjiang.md
+          - name: Yunnan
+            href: Management-specification/Yunnan.md
+          - name: Zhejiang
+            href: Management-specification/Zhejiang.md
+  - name: FAQ
+    items:
+      - name: Basic Problem of Filing
+        href: FAQ/Problem-summary.md
+      - name: Filing Interception and Troubleshooting
+        href: FAQ/Intercept-troubleshooting.md
+      - name: Record Password Recovery Method
+        href: FAQ/ICP-Filing-Password-Recovery-Method.md
+      - name: FAQ for Filing with Public Security Bureau
+        href: FAQ/Public-Security-Bureau-Filing-Common-Problems.md
+      - name: Operational ICP Filing
+        href: FAQ/Operational-ICP-Filing.md
+      - name: Note on Access Cancellation
+        href: FAQ/Cancel-Access.md
+  - name: User Agreement
+    items:
+       - name: Assistance in Changing Online Service Terms of Fling Information Service
+         href: Protocol/Assist-in-changing-the-filing-information-service-online-terms-of-service.md
+       - name: Information Security Management Agreement
+         href: Protocol/Information-Security-Management-Protocol.md
+  - name: Documentation Download
+    items:
+      - name: Website Verification Form Information
+        href: Loading/Website-verification-information.md
+      - name: Verification Form Sample
+        href: Loading/Verification-sample.md
+      - name: Common Materials Download
+        items:
+        - name: Filing Authorization for All Provinces
+          href: Common-data/Provincial-filing-authorization.md
+        - name: National Verification Form Download
+          href: Common-data/National-verification-checklist-download.md
+        - name: Guangdong Province Personal Verification Form Download
+          href: Common-data/Guangdong-Province-Personal-Verification-Checklist-Download.md
+        - name: Guangdong Province Corporate Verification Form Download
+          href: Common-data/Guangdong-Province-Unit-verification-form-download.md
+        - name: Beijing Multi-Domain Verification Form
+          href: Common-data/Beijing-multi-domain-verification-form.md  
+  - name: Process Help
+    items:
+       - name: Notes on SMS Verification of MIIT
+         href: Process/Recording-SMS-verification-instructions.md
+       - name: Notes on Additional Information for All Provinces
+         href: Process/Provincial-supplementary-materials.md
+       - name: Notes on Website Registration Domain Verification Function
+         href: Process/Verification-function-description.md
+       - name: Notes on JD Cloud’s “Time Presented Free of Charge as Long as the Time Spent On Filing”
+         href: Process/How-long-does-it-take-to-file-for-a-long-time.md
+       - name: Offline Filing Cancellation Summary
+         href: Process/Offline-cancel-cancellation-summary.md
+       - name: JD Cloud’s Mode of Application for Filing Cancellation
+         href: Process/Cancel-Filing-application-method.md

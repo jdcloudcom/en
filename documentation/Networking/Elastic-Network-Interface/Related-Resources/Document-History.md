@@ -1,7 +1,7 @@
-# Document Historical Records
+# Document History
 
-This document will introduce the important update history of the Elastic Network Interface product document, including the major characters of the newly added products and the content updates according to user feedback.
+This document describes the important update history of the ENI product document, including the major characteristics of the new products and the content updates according to customer feedback.
 
-|Release Date|Character|Description|
+|Release Date|Characteristics|Description|
 |-|-|-|
-| July 2018 | Elastic Network Interface product line goes online | first edition of Elastic Network Interface product line goes online. |
+| July 2018 | ENI product line goes online | first edition of ENI product line goes online. |

@@ -1,25 +1,25 @@
-# The traffic separation of the Virtual Machine business
+# Traffic Separation of the VM Business
 
-This Tutorial is designed to guide you on how to associate multiple Elastic Network Interfaces on the same Virtual Machine. Each Elastic Network Interface hosts the business traffic of the intranet, public network and management network respectively, thus realizing the separation of the business traffic of a single Virtual Machine. This Tutorial is applicable to scenarios where the different security policies are applied to different business needs of the Virtual Machines and network isolation.
+This Tutorial is designed to guide users on how to associate multiple ENIs on the same VM. Each ENI hosts the business traffic of the intranet, public network and management network respectively, thus realizing the separation of the business traffic of a single VM. This Tutorial is applicable to scenarios where the different security policies are applied to different business needs of the VMs and network isolation.
 
-## Business scenarios architecture
+## Business Scenarios Architecture
 ![Traffic flow separation scenario](../../../../image/Networking/Elastic-Network-Interface/eni-002.png)
 
-## Before creation
-- Make a reasonable network plan and create internal subnets, external subnets and management subnets in the same Virtual Private Cloud according to the network plan.
-- Apply for one Virtual Machine with appropriate specification. The primary network interface of the Virtual Machine belongs to the internal subnet and is configured with appropriate Security Group policy.
-- Apply for 1 Elastic IP
+## Before Operation
+- Make a reasonable network plan and create internal subnets, external subnets and management subnets in the same virtual private cloud according to the network plan.
+- Apply for one VM with appropriate specification. The primary network interface of the VM belongs to the internal subnet and is configured with appropriate security group policy.
+- Apply for 1 elastic IP
 
-## Action Steps
-- Step 1: login the console of JD Cloud, and enter list page of Elastic Network Interface, and click the Create key to create an Elastic Network Interface.
+## Procedures
+- Step 1: Log in to the console of JD Cloud, and enter the list page of ENI, and click Create to create an ENI.
 
-- Step 2: create one Elastic Network Interface in the external subnet and the management subnet respectively
+- Step 2: Create one ENI in the external subnet and the management subnet respectively
 
-- Step 3: on the list page of Elastic Network Interface, click the resources blinding key respectively to attach the auxiliary Elastic Network Interfaces in the external subnet and the management subnet to the Virtual Machine previously created.
+- Step 3: In the list page of ENI, click Resources Binding respectively to mount the auxiliary ENIs in the external subnet and the management subnet to the VM previously created.
 
-- Step 4: associate the previously applied Elastic IP with the Primary IP of the secondary Elastic Network Interface of the external subnet
+- Step 4: Associate the previously applied elastic IP with the primary IP of the secondary ENI of the external subnet
 
-- Step 5: login the Virtual Machine through SSH to deploy internal business, external business and management business respectively, and specify different network interface exits according to business type through routing configuration tools.
+- Step 5: Log in to the VM through SSH to deploy internal business, external business and management business respectively, and specify different network interface exits according to business type through routing configuration tools.
 
-## Follow-up tests
-- Login the Virtual Machine through SSH and access the other Virtual Machines in internal subnet, external subnet and management subnet respectively. The normal access will confirm the successful configuration.
+## Follow-up Tests
+- Log in to the VM through SSH and access the other VMs in internal subnet, external subnet and management subnet respectively. Successful configuration can be confirmed by normal access.

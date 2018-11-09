@@ -1,28 +1,28 @@
-# Allocate Private IP
+# Assign Private IP
 
-Elastic Network Interface of JD Cloud (including primary network interface and secondary network interface) can be allocated with up to 20 Private IPs.
+ENI of JD Cloud (including primary network interface and secondary network interface) can be assigned with up to 20 private IPs.
 
-## Action Steps
-Step 1: log in to the console of JD Cloud and enter the Console Navigation Page.
+## Procedures
+Step 1: Log in to the console of JD Cloud and enter the Console Navigation Page.
 
-Step 2: select network - Virtual Private Cloud - Elastic Network Interface at the navigation bar on the left side of the console to enter the Elastic Network Interface list page.
+Step 2: Select network - virtual private cloud - ENI at the navigation bar on the left side of the console to enter the ENI list page.
 
-Step 3: locate the Elastic Network Interface that needs to be configured with Private IP, and click the ID of the Elastic Network Interface to enter the details of Elastic Network Interface.
+Step 3: Locate the ENI that needs to be configured with private IP, and click the ID of the ENI to enter the details of ENI.
 
-Step 4: select the Private IP management tag and enter the Private IP management page.
-
-	Description
-	On the Elastic Network Interface list page, click the number of Private IP numbers of Elastic Network Interface to enter the Private IP management page.
-
-Step 5: click the allocate IP key to enter the allocate Private IP popup.
-
-Step 6: click add Private IP to allocate a new Private IP in the allocate Private IP popup.
+Step 4: Select the private IP management tag and enter the private IP management page.
 
 	Description
-	Currently, allocation for Private IP can be achieved by automatic allocation and customization allocation. Automatic allocation will automatically allocate an unused Private IP address in the subnet to which the Elastic Network Interface belongs, while customization allocation requires the user to specify a legal Private IP address within the subnet to which the Elastic Network Interface belongs.
+	In the ENI list page, click the number of private IP of ENI to enter the private IP management page.
 
-Step 7: click the OK key to complete the Assign Private IP. Return to the Private IP management page to view the Assign Private IP.
+Step 5: Click Assign IP to enter Assign Private IP popup.
 
-## Relevant references
+Step 6: Click Add Private IP to assign a new private IP in the Assign Private IP popup.
 
-- [use limitations](../../Introduction/Restrictions.md)
+	Description
+	Currently, assignment for private IP can be achieved by automatic assignment and customization assignment. Automatic assignment will automatically assign an unused private IP address in the subnet to which the ENI belongs, while customization assignment requires the customer to specify a legal private IP address within the subnet to which the ENI belongs.
+
+Step 7: Click OK to complete the assignment of private IP. Return to the private IP management page to view the assignment of private IP.
+
+## Related References
+
+- [Use Restrictions](../../Introduction/Restrictions.md)

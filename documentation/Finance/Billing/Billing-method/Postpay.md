@@ -1,8 +1,8 @@
 # Instruction on the Pay-As-You-Go billing
 ## What is Pay-As-You-Go?
 
-For Pay-As-You-Go, users can apply for the resources based on consumption need, and it will be charged according to the configuration and consumption of resources.
-Pay-As-You-Go is divided into 2 types which refers to billing by configuration and billing by consumption;
+For Pay-As-You-Go, users can apply for the resources based on consumption need, and it will be charged according to the configuration and consumption of resources.  
+Pay-As-You-Go is divided into 2 types which refers to billing by configuration and billing by consumption;  
 There are two kinds of settlement cycles for Pay-As-You-Go which refers to hour-settled and day-settled. The billing cycle in the documentation of each product shall prevail. When a settlement cycle is formed, the bill is generated and then the corresponding charge is deducted immediately. If the balance of the account is insufficient, the customer's account will be in overdue condition, and the services of corresponding resources will be stopped due to overdue condition. If the overdue amount is not paid, the corresponding resources will be released immediately.
 
 ## What will happen to the Pay-As-You-Go resources when they expire?

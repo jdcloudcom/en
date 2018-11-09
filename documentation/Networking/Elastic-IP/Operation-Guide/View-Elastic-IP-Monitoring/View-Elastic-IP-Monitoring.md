@@ -1,15 +1,15 @@
-# View the Elastic IP Monitoring Information
+# View the Elastic IP Monitoring
 
-JD Cloud supports viewing the Elastic IP Monitoring information.
+Viewing the Elastic IP Monitoring is supported by JD Cloud.
 
-## Action Steps
+## Procedures
 
-Step 1: log in to the console of JD Cloud and enter the Console Navigation Page.
+Step 1: Log in to the console of JD Cloud and enter the Console Navigation Page.
 
-Step 2: select Cloud - Virtual Private Cloud- Elastic IP at the navigation bar on the left side of the console to enter the Elastic IP List page.
+Step 2: Select Cloud - Virtual Private Cloud- Elastic IP at the navigation bar on the left side of the console to enter the Elastic IP List Page.
 
-Step 3: On the Elastic IP list page, click the Elastic IP address to enter the Elastic IP Details.
+Step 3: Click “Elastic IP Address” in the Elastic IP list page to enter the Elastic IP Details.
 
-Step 4: Click the Monitoring tab to enter the monitoring information page.
+Step 4: Click “Monitoring” tab to enter the monitoring page.
 
-Step 5: View the Elastic IP Monitoring information on the monitoring information page.
+Step 5: View the Elastic IP Monitoring in the monitoring page.

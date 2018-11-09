@@ -14,7 +14,7 @@
 
 6. Description to VPC Setup: The description can be blank, only supports Chinese, numbers, uppercase and lowercase letters, English underscore "_", and cannot exceed 256 characters;
 
-7. Click 【OK】 to enter the "Console" to view the created VPC;
+7. Click **OK** to enter the "Console" to view the created VPC;
 
 ![](/image/Networking/Virtual-Private-Cloud/Getting-Started/Subnet-Based-Policy-Routing-Management/Step1-1.png)
 
@@ -44,7 +44,7 @@
 
 10. Description to the Subnet Set Up: The description can be blank, only supports Chinese, numbers, capital and small letters, English underscore "_" and underscore "-", and it cannot exceed 256 characters;
 
-11. Click 【OK】 to enter the "Console" to view the created subnet;
+11. Click **OK** to enter the "Console" to view the created subnet;
 
 ![](/image/Networking/Virtual-Private-Cloud/Getting-Started/Subnet-Based-Policy-Routing-Management/Step2-1.png)
 
@@ -60,6 +60,6 @@
 
 3. In the pop-up route table selection page, select the route table to be replaced for the subnet, and replace other route tables in the VPC to which it belongs for the subnet;
 
-4. Click 【OK】 to replace the route table for the subnet;
+4. Click **OK** to replace the route table for the subnet;
 
 ![](/image/Networking/Virtual-Private-Cloud/Getting-Started/Subnet-Based-Policy-Routing-Management/Step3-1.png)

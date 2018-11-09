@@ -1,21 +1,21 @@
-# Container Instance Associating Elastic IP
+# Container instance associating Elastic IP
 
-## Action Steps
+## Procedures
 
-Step 1: log in to the console of JD Cloud and enter the Console Navigation Page.
+Step 1: Log in to the console of JD Cloud and enter the Console Navigation Page.
 
-Step 2: select Elastic Compute - Native Container- - Container Instance at the navigation bar on the left side of the console to enter the Elastic Container Instance List page.
+Step 2: Select Elastic Compute - Native Container- - Container Instance at the navigation bar on the left side of the console to enter the Elastic Container Instance List Page.
 
-Step 3: on the Container Instance List page, the Associate EIP key will be displayed if the Container Instance fails to associate Elastic IP.
+Step 3: On the Container Instance List Page, the Associate EIP will be displayed if the Container Instance fails to associate Elastic IP.
 
-Step 4: click the Associate EIP key to enter the Associate EIP popup window.
+Step 4: Click the Associate EIP to enter the Associate EIP popup.
 
-Step 5: in the Associate EIP popup window, select the Elastic IP which the Container Instance is to associate.
+Step 5: In the Associate EIP popup, select the Elastic IP to which the Container Instance will be associated.
 
-Step 6: click the OK in the Elastic IP popup window to complete the operation of Associate EIP.
+Step 6: Click the OK in the Elastic IP popup to complete associating EIP.
 
-Step 7: Return to Container Instance List page to view the association of Elastic IP.
+Step 7: Return to the Container Instance List Page to view the association of Elastic IP.
 
-## Relevant References
+## Related References
 
-- [use limitations](../../Introduction/Restrictions.md)
+- [Use Restrictions](../../Introduction/Restrictions.md)

@@ -1,18 +1,18 @@
 # Modify Elastic IP Bandwidth
 
-JD Cloud supports three billing types of Elastic IP configuration upgrade and downgrade. Among them, for the monthly package billing type, the configuration upgrade needs to make up the bandwidth difference, and the configuration downgrade bandwidth difference will be converted to duration; for the pay by configuration type, the bill will be issued according to the adjusted bandwidth after the configuration upgrade and downgrade; for the pay by consumption type, the bandwidth is only used to limit the rate and does not affect the actual billing.
+Three billing types of Elastic IP configuration upgrade and downgrade are supported by JD Cloud. Among them, the configuration upgrade needs to make up the bandwidth difference for the monthly package billing type while the configuration downgrade bandwidth difference will be converted to duration; the bill of the billing by configuration will be issued according to the modified bandwidth after the configuration upgrade and downgrade; for the billing by consumption, the bandwidth is only used to limit the rate and does not affect the actual billing.
 
-## Action Steps
+## Procedures
 
-Step 1: log in to the console of JD Cloud and enter the Console Navigation Page.
+Step 1: Log in to the console of JD Cloud and enter the Console Navigation Page.
 
-Step 2: select Cloud - Virtual Private Cloud- Elastic IP at the navigation bar on the left side of the console to enter the Elastic IP List page.
+Step 2: Select Cloud - Virtual Private Cloud- Elastic IP at the navigation bar on the left side of the console to enter the Elastic IP List Page.
 
-Step 3: In the Elastic IP list page, locate to Elastic IP that needs to be adjust bandwidth. Click the “Modify Bandwidth" key to enter the modified bandwidth popup.
+Step 3: Locate to Elastic IP that needs to be adjust bandwidth in the Elastic IP list page, and click “Modify Bandwidth” to enter the modified bandwidth popup.
 
-Step 4: In the popup of bandwidth modification, adjust the slider or input bandwidth value, and specify the bandwidth that needs to be modified.
+Step 4: Adjust the slider or enter bandwidth value in the Modify Bandwidth popup, and specify the bandwidth that needs to be modified.
 
-Step 5: In the popup of bandwidth modification, click ok and enter the order confirmation page.
+Step 5: Click “OK” in the Modify Bandwidth popup and enter the order confirmation page.
 
-Step 6: On the order confirmation page, click “Instant Account Setup” to complete the payment and return to the Elastic IP list page to view the bandwidth modification.
+Step 6: Click “Instant Account Setup” in the order confirmation page to complete the payment and return to the Elastic IP list page to view the bandwidth modification.
 

@@ -1,17 +1,17 @@
-# Acquire video task list
+# Get video task list
 
 Description: search video list through conditions
 
-Request Grammar：
+Request Syntax:
 ```
 GET searchVideoList&videoTaskQuery=videoTaskQuery HTTP/1.1
 Host: oss.cn-north-1.jcloudcs.com
 Date: date
-Authorization: signatureValue#请参照《安全认证》
+Authorization: signatureValue#Please refer to Security Verification
 ```
 Description:
 
-* videoTaskQuery：查询任务列表，JSON格式，相关Description参数如下：
+* videoTaskQuery: Query Task List and JSON format, and related Description parameters are explained as follows:
 
 * bucket: source bucket
 
@@ -19,7 +19,7 @@ Description:
 
 * taskId: task uuid
 
-* status: task status, 1. represents unprocessed; 2.starting process and 3. successfully processed
+* status: task status, 1. represents unprocessed; 2. starting process and 3. successfully processed
 
 * page: displayed page
 
@@ -27,7 +27,7 @@ Description:
 
 * flag: 1 represents valid
 
-Request example:
+Sample Request:
 ```
 GET http://oss.cn-north-1.jcloudcs.com/?searchVideoList&videoTaskQuery=%7B%22flag%22%3A0%2C%22mysqlPage%22%3A0%2C%22orderCloumn%22%3A%22update_time%22%2C%22orderType%22%3A%22desc%22%2C%22page%22%3A1%2C%22pageSize%22%3A10%2C%22status%22%3A0%7DHTTP/1.1
 Date: Tue, 15 Dec 2015 12:59:11 GMT
@@ -38,7 +38,7 @@ Connection: Keep-Alive
 User-Agent: JFS-JCLOUD-SDK-JAVA/1.0.0 (Java 1.8.0_45; Vendor Oracle Corporation; Windows 7 6.1; HttpClient 4.2.1)
 ```
 
-响应Sample:
+Sample Response:
 ```
 HTTP/1.1 200 OK
 x-jss-request-id: AF4C3B343F152E1A

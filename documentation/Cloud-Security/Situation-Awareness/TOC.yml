@@ -1,0 +1,25 @@
+  name: Situation Awareness
+  href: 
+  items:
+  - name: Introduction
+    items:
+      - name: Product Overview
+        href: Introduction/Product-Overview.md
+      - name: Basic Infrastructure
+        href: Introduction/Basic-Infrastructure.md
+      - name: Application Scenarios
+        href: Application-Scenarios.md
+  - name: Operation Guide
+    items:
+      - name: Threat Overview
+        href: Operation-Guide/Threat-Overview.md
+      - name: Attack Details
+        href: Operation-Guide/Attack-Details.md
+      - name: Weakness Details
+        href: Operation-Guide/Weakness-Details.md
+      - name: Configuration Changes
+        href: Operation-Guide/Configuration-Change.md         
+  - name: FAQ
+    href: FAQ/FAQ.md
+  - name: Revision Update
+    href: Related-Resources/Release-Notes.md

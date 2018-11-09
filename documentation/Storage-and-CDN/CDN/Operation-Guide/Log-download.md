@@ -2,7 +2,7 @@
 
 **1. Console--Log Download Description**
 
-Log in to [**CDN Console**](https://cdn-console.jdcloud.com/logmanage), select 【Log Download】on the left menu bar, select the time and domain name of the log to be obtained, and click 【Download】, you can obtain the log download content.
+Log in to [**CDN Console**](https://cdn-console.jdcloud.com/logmanage), select **Log Download**on the left menu bar, select the time and domain name of the log to be obtained, and click **Download**, you can obtain the log download content.
 
 ![image.png](https://img1.jcloudcs.com/cms/233c0daa-5be2-4045-8203-47d1c7da692320180109182340.png)
 
@@ -16,7 +16,7 @@ Log in to [**CDN Console**](https://cdn-console.jdcloud.com/logmanage), select �
 | ------------------------------ | ------------------------------------------------------------ |
 | Access IP                         | 117.71.34.139                                                |
 | Agent IP                         | -                                                            |
-| Response Time (Unit: ms)             | 0.175                                                        |
+| Response Time (Unit: s)             | 0.175                                                        |
 | referer Information                    | -                                                            |
 | method                         | GET                                                          |
 | HTTP Protocol Identifier                   | HTTP/1.1                                                     |

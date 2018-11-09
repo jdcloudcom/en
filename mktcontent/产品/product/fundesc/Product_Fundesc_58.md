@@ -1,41 +1,41 @@
 [
 	{
-		"funcName":"Host and backup have high availability and can perform automatic switching",
+		"funcName":"High availability of primary and secondary architecture and automatic switching",
 		"funcContent":[
 			{
 				"funcName":"",
 				"funcTitle":"",
-				"funcP":"Provide a master-slave high-availability architecture based on the SQL Server image. Master instance data is synchronized to the standby instance in real time;"
+				"funcP":"Provide a primary-secondary architecture of high availability and synchronize data of a primary instance to a secondary instance in real time;"
 			},
 			{
 				"funcName":"",
 				"funcTitle":"",
-				"funcP":"When a fault occurs, the system can automatically sense and perform the active-standby switch."
+				"funcP":"The system can automatic detect a fault and perform primary-secondary switching;."
 			},
 			{
 				"funcName":"",
 				"funcTitle":"",
-				"funcP":"Switching can be completed in tens of seconds, data is lost in the process of switching, and the application is almost non-perceived;"
+				"funcP":"Switching can be completed in tens of seconds and no data is lost in the switching process, with no perception to the applications;"
 			}
 		]
 	},
 	{
-		"funcName":"Automatic backup with safe data",
+		"funcName":"Automatic Backup and No Need to Worry About Data",
 		"funcContent":[
 			{
 				"funcName":"",
 				"funcTitle":"",
-				"funcP":"The system can automatically back up every day according to the user-defined time segments. The online backup can be kept for up to 2 years, meeting the compliance requirements of enterprise or government;"
+				"funcP":"The system can automatically back up every day according to the user-defined time segments. The online backup can be kept for up to 2 years, meeting the compliance requirements of enterprises or governments;"
 			},
 			{
 				"funcName":"",
 				"funcTitle":"",
-				"funcP":"Provide the backup and download function, and you can download the backup and save to other media;"
+				"funcP":"Provide the backup and download feature, and you can download the backup to other medias;"
 			},
 			{
 				"funcName":"",
 				"funcTitle":"",
-				"funcP":"It also provides manual backup and recovery functions at the instance level and database level to meet various needs of users;"
+				"funcP":"It also provides manual backup and recovery features at the instance level and database level to meet various needs of users;"
 			}
 		]
 	},
@@ -45,12 +45,12 @@
 			{
 				"funcName":"",
 				"funcTitle":"",
-				"funcP":"Based on native audit of SQL Server, with high reliability; \n\n"
+				"funcP":"Based on native audit of SQL Server, the reliability is high; \n\n"
 			},
 			{
 				"funcName":"",
 				"funcTitle":"",
-				"funcP":"Customizing audit strategy to meet different business scenario demands; \n"
+				"funcP":"Audit strategies can be customized to meet different business scenarios demands; \n"
 			},
 			{
 				"funcName":"",
@@ -60,7 +60,7 @@
 		]
 	},
 	{
-		"funcName":"Statistical Statistics for Performance",
+		"funcName":"Performance Statistics & Analysis",
 		"funcContent":[
 			{
 				"funcName":"",
@@ -70,7 +70,7 @@
 			{
 				"funcName":"",
 				"funcTitle":"",
-				"funcP":"Customizing statistical conditions to meet different demands of different business systems; \n"
+				"funcP":"Customize statistical conditions to meet different demands of different business systems; \n"
 			},
 			{
 				"funcName":"",
@@ -85,7 +85,7 @@
 			{
 				"funcName":"",
 				"funcTitle":"",
-				"funcP":"Providing system-level and database instance-level monitoring from various dimensions, with rich monitoring indicators;"
+				"funcP":"Provide system-level and database instance-level monitoring from various dimensions, with a variety of monitoring indicators;"
 			},
 			{
 				"funcName":"",

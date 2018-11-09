@@ -1,34 +1,32 @@
   name: Application Security Gateway
   href: 
   items:
-  - name: Product Introduction
+  - name: Introduction
     items:
       - name: Product Overview
-        href: Introduction/What-Is-Application-Security-Gateway.md
-      - name: Product Advantage
+        href: Introduction/Product-Overview.md
+      - name: Benefits
         href: Introduction/Benefits.md
-      - name: Product Function
-        href: Introduction/Functions.md
-      - name: Restraint Instructions
+      - name: Features
+        href: Introduction/Features.md
+      - name: Restrictions
         href: Introduction/Restrictions.md
-        name: Product Specification
-        href: Specification.md  
-  - name: Product Pricing
+        name: Specifications
+        href: Introduction/Specification.md  
+  - name: Pricing
     items:
       - name: Billing Overview
-        href: Pricing/Billing-Overview.md
+        href: Pricing/Pricing.md
       - name: Price Overview
         href: Pricing/Price-Overview.md
-      - name: Purchase Procedure
-        href: Pricing/Purchase-Process.md 
-
-  - name: Getting Started Guide
+      - name: Purchase Process
+        href: Pricing/Purchase-Process.md
+  - name: Getting Started
     items:
       - name: Create Instance
         href: Getting-Started/Create-free-trial-instance.md
       - name: Set White List
-        href: Getting-Started/Protective-configuration-entry.md
-    
+        href: Getting-Started/Protective-configuration-entry.md    
   - name: Operation Guide
     items:
       - name: Instance Management
@@ -60,22 +58,20 @@
           - name: BOT Management
             href: Operation-Guide/Protection-Configuration/BOT-Management.md      
           - name: Webpage Tamper-proofing          
-            href: Operation-Guide/Protection-Configuration/Webpage-Tampering.md     
-      -             
-  - name: Best Practice
+            href: Operation-Guide/Protection-Configuration/Webpage-Tampering.md
+  - name: Best Practices
     items:
-    - name: Advanced Anti-DDoSB-Best Application Security Gateway Practice
-      href: Best-Practices/Best-Practices.md
-   
-  - name: Course
+    - name: Advanced Anti-DDoS-Best Application Security Gateway Practice
+      href: Best-Practices/Best-Practices.md   
+  - name: Tutorial
     items:
-    status: 0
+    status:0
   - name: Troubleshooting
-    status: 0       
+    status:0       
   - name: API Reference
     href: 
-    status: 0
-  name: FAQ
+    status:0
+  - name: FAQ
     items:
       - name: Product Deployment
         href: FAQ/Product-Deployment.md
@@ -85,15 +81,15 @@
   - name: SDK Reference
     href:
   - name: User Agreement
-    status: 0
+    status:0
     items:      
-  - name: Relevant Resources
+  - name: Related Resources
     items:
-    - name: Document Historical Records
+    - name: Document History
       href: Related-Resources/Document-History.md   
-    - name: Filing
+    - name: ICP Filing
       href:           
-      status: 0        
+      status:0        
     - name: Glossary
       href:          
-      status: 0
+      status:0

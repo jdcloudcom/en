@@ -2,7 +2,7 @@
 
 Workload monitoring is used by the customer to view the CDN business usage information in real time, including the bandwidth, traffic, and request number information of the domain name dimension, and the bandwidth, traffic, and request number information of the regional and operator dimension, and CDN back-to-source bandwidth, traffic, times and other information.
 
-Log in to the [CDN Console](https://cdn-console.jdcloud.com/dbw), and click 【Service Monitoring】 on the left menu bar to query the CDN business usage information, mainly including domain name, region, operator and back-to-source bandwidth; the query information is as follows:
+Log in to the [CDN Console](https://cdn-console.jdcloud.com/dbw), and click **Service Monitoring** on the left menu bar to query the CDN business usage information, mainly including domain name, region, operator and back-to-source bandwidth; the query information is as follows:
 
 ![image.png](https://img1.jcloudcs.com/cms/857879cb-7eeb-4c61-9553-b0c8171f8e4a20180119101208.png)
 

@@ -6,4 +6,4 @@ Configure the protection mode to select protection or alert status. Protection M
 
 The rule base is divided into three ways: normal, loose and strict, and the corresponding protection strategy can be selected according to the business requirement.
 
-![TimLineͼƬ20180515205739.png](http://img1.jcloudcs.com/cms/62c5beac-cec9-454f-9bec-56c5954fc73020180515210124.png)
+![TimLine图片20180515205739.png](http://img1.jcloudcs.com/cms/62c5beac-cec9-454f-9bec-56c5954fc73020180515210124.png)

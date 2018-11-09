@@ -2,7 +2,7 @@
 
 # Overview
 
-You can use Android SDK to manage JD Cloud Object Storage Service; Android Source Code can be downloaded from https://github.com/aws/aws-sdk-android.
+You can use Android SDK to manage Object Storage Service; Android Source Code can be downloaded from https://github.com/aws/aws-sdk-android.
 
 #  Actions
 
@@ -95,6 +95,6 @@ SignerFactory.registerSigner("JdAWSS3V4Signer", JdAWSS3V4Signer.class);
          .build();
  sS3Client.setS3ClientOptions(options);
 ```
-## Demo download
+## Demo Download
 
 Download link: http://s3-sdk-demo.oss.cn-north-1.jcloudcs.com/android-sdk/s3-android-demo.zip

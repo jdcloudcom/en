@@ -2,7 +2,7 @@
 
 #### **Step 1 Create/Delete Network ACL**
 
-Enter JD cloud console, click on the left navigation bar 【VPC 】 - 【Network ACL】, and then enter the network ACL page
+Enter JD cloud console, click on the left navigation bar **VPC ** - **Network ACL**, and then enter the network ACL page
 
 1. Click "Create". Popup a box for creating network ACL;
 
@@ -30,7 +30,7 @@ Enter JD cloud console, click on the left navigation bar 【VPC 】 - 【Network
 
 #### **Step 3 ACL Associate Subnet**
 
-1. On the network ACL list page, click the 【Associate】 button;
+1. On the network ACL list page, click the **Associate** button;
 
 2. Select the subnet that needs to be associated in the popup window. Click "OK" to associate the network ACL rule to the subnet. It takes effect immediately after the associating is completed;
 
@@ -44,8 +44,8 @@ Note: A network ACL can be associated to multiple subnets, but a subnet can only
 
 1. On the network ACL list page, click on the name of the network ACL to which you want to add the rules and enter the network ACL details page;
 
-2. Click the 【Associate】 tab;
+2. Click the **Associate** tab;
 
-3. Click the 【Disassociate】 button following the subnet option that needs to be unassociated in the associated subnet list;
+3. Click the **Disassociate** button following the subnet option that needs to be unassociated in the associated subnet list;
 
 4. Click "OK" in the popup window;

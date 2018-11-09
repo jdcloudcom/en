@@ -1,0 +1,5 @@
+## Site Monitoring Overview
+Site monitoring is a monitoring product that performs detection in respect with the status of the Internet network. User can use the product to set the site address that is required to be detected, select the detection nodes of different operators’ network of JD Cloud which are distributed in different regions across the country, send to the site address a request similar to a real user accesses to, so as to get the availability and response time of the site address.
+## Application Scenarios
+- Detect the service quality of the sites in different regions across the country. The response time returned by each detection point at the time of detecting the site address can provide help in measuring the service quality of this site.
+- Quality analysis on operators’ network At present, JD Cloud site monitoring provides detection of three major operators’ network, i.e. Telecom, Mobile and Unicom. At the same time, combined with nodes distributed in different regions across the country, it is possible to make quality analysis on operators’ network in different regions, so as to provide targeted service quality.

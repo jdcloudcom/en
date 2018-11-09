@@ -37,7 +37,7 @@ Select RAID mode of system disk and data disk.
 
 Intranet interface and public network interface are 10-gigabit network interfaces. The bottom data network of JD Cloud data center is 10-gigabit level, to ensure the communication quality of intranet. JD Cloud provides high-quality BGP network, and top-speed bandwidth experience. User may adjust the bandwidth of EIP.
 
-**Public Network**: The machine must and can only be associated to one EIP. EIP is automatically allocated by system. User cannot modify EIP. EIP address is not shown during creation. EIP address is shown in the list page and details after creation. The public network is 1-200Mbps. See detailed action steps in the section of adjusting bandwidth of public network.
+**Public Network**: The machine must and can only be associated to one EIP. EIP is automatically allocated by system. User cannot modify EIP. EIP address is not shown during creation. EIP address is shown in the list page and details after creation. The public network is 1-200Mbps. See detailed action steps in the section of [Adjusting Bandwidth Of Public Network](../Operation-Guide/Adjust-Public-Network-Bandwidth/Description.md).
 
 **Intranet**: Under the basic network mode, user can only select intranet CIDR address segment when configuring the first network. Cloud Physical Server created later will use the first configured intranet CIDR address segment.
 

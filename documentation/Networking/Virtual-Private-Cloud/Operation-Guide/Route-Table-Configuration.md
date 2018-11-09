@@ -12,7 +12,7 @@
 4. Select the VPC which it belongs, and the route table must be created in a VPC.
 5. Set the Name of Route Table: The name cannot be blank. Only Chinese, numbers, uppercase and lowercase letters, English underscore "_" and line-through "-" are accepted, not exceeding 32 characters;
 6. Set the description of route table: The description can be blank, only supports Chinese, numbers, uppercase and lowercase letters, English underscore "_", and cannot exceed 256 characters;
-7. Click on 【OK】 to enter the "Console" to view the route table that have been created;
+7. Click on **OK** to enter the "Console" to view the route table that have been created;
 8. After the route table is created, routing rules can be configured, or you can configure it by yourself by entering the details page later;
 
 #### **Step 2 Associate Subnet**
@@ -24,7 +24,7 @@
 3. On the subnet selection page that is displayed, select the subnet to which the route table is to be associated, and then the route table can be associated to the subnet in the same VPC:
 ![](/image/Networking/Virtual-Private-Cloud/Operation-Guide/Route-Table-Configuration/Step4.png)
 
-4. Click on 【OK】 to associate the route table to the subnet;
+4. Click on **OK** to associate the route table to the subnet;
 
 
 #### **Step 3 Modify the Name/Description**

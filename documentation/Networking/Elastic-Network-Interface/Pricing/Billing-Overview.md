@@ -1,5 +1,5 @@
-# Price Overview
+# Price List
 
-The Elastic Network Interface service is free, and the Elastic IP associated with the Elastic Network Interface is charged independently.
+The ENI service is free, and the elastic IP associated with the ENI is charged independently.
 
-For details of billing of Elastic IP, refer to: [Billing Instructions](../../Elastic-IP/Pricing/Billing-Overview.md).
+For details of billing of elastic IP, refer to: [Billing Instructions](../../Elastic-IP/Pricing/Billing-Overview.md).

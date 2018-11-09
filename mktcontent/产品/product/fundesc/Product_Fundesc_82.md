@@ -10,7 +10,7 @@
 			{
 				"funcName":"",
 				"funcTitle":"",
-				"funcP":"The flexible and diverse splitting method can support separate splitting of or combined splitting in pair of numerical value, character string and date."
+				"funcP":"There are multiple splitting methods that can support the split of numerical value and character string types"
 			}
 		]
 	},
@@ -55,7 +55,7 @@
 			{
 				"funcName":"",
 				"funcTitle":"",
-				"funcP":"Support self-defined alarms. Users can flexibly formulate various alarm rules, to grasp various situations immediately."
+				"funcP":"Support self-defined alarms. The users can flexibly formulate various alarm rules, to grasp various situations immediately."
 			}
 		]
 	}

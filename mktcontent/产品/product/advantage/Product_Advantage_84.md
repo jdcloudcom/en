@@ -1,35 +1,35 @@
 [
 	{
-		"proGoodTitle":"Product advantages",
-		"proNameTitle":"VM of elastic network interface",
-		"proDiffTitle":"Ordinary VM",
-		"proGood":"Reliable fault tolerance",
-		"proName":"Elastic Network Interface supports dynamic migration between VMs in different availability zones. JD Cloud provides elastic network interfaces without availability zone attribute, supports the dynamic migration of elastic network interfaces between VMs of different availability zones, realizes the high availability scheme at the availability zone level, shortens the fault time, and improves the system reliability.\n",
-		"proDiff":"Dynamic migration is not allowed for the network interface of ordinary VM."
+		"proGoodTitle":"Benefits",
+		"proNameTitle":"Virtual Machines of Elastic Network Interface",
+		"proDiffTitle":"Ordinary Virtual Machines",
+		"proGood":"Reliable Fault Tolerance",
+		"proName":"Elastic Network Interface supports dynamic migration between Virtual Machines in different availability zones. JD Cloud provides elastic network interfaces without availability zone attribute, supports the dynamic migration of elastic network interfaces between Virtual Machines of different availability zones, realizes the high availability scheme at the availability zone level, shortens the fault time, and improves the system reliability.\n",
+		"proDiff":"Dynamic migration is not allowed for network interfaces of ordinary Virtual Machines."
 	},
 	{
-		"proGood":"Elastic plug",
-		"proName":"Elastic Network Interface supports elastic hot-plug on a VM. The elastic network interfaces of JD Cloud support elastic hot plug in the operation state of VMs, which can realize the addition and removal of elastic network interfaces with no business disruption, facilitating you to create a more reliable application scheme.\n",
-		"proDiff":"Ordinary VM only supports to attach one network interface."
+		"proGood":"Elastic Plug",
+		"proName":"Elastic Network Interface supports elastic hot plug on a Virtual Machine. The Elastic Network Interfaces of JD Cloud support elastic hot plug in the operation state of the Virtual Machine, which can realize the addition and removal of Elastic Network Interface without business interruption, facilitating the creation of a more reliable application scheme..\n",
+		"proDiff":"Ordinary Virtual Machines only supports to assign one Intranet IP address and associate one public IP address."
 	},
 	{
-		"proGood":"Flexible reuse",
+		"proGood":"Flexible Reuse",
 		"proName":"The Virtual Machine supports the assignment of several elastic network interfaces, and each elastic network interface supports the assignment of several private IP addresses. The elastic network interface of JD Cloud supports the assignment of several private IP addresses, each of which can be associated with a public IP address, so that a single Virtual Machine can provide different service application scenarios\n",
-		"proDiff":"Ordinary VM only supports to distribute one Intranet IP address and associate one public IP address."
+		"proDiff":"Ordinary Virtual Machines only supports to distribute one Intranet IP address and associate one public IP address."
 	},
 	{
-		"proGood":"Business separation",
-		"proName":"Different elastic network interfaces can carry Intranet, public network and management network traffic respectively. JD Cloud VM supports the attachment of elastic network interfaces of multiple subnets in the Intranet. Different elastic network interfaces carry different traffics and provide solutions for such scenarios as virtual network devices and traffic separation etc.\n",
-		"proDiff":"One network interface of ordinary VM can bear different business traffics."
+		"proGood":"Business Separation",
+		"proName":"Different elastic network interfaces can carry the Intranet, public network and management network business traffic respective. JD Cloud Virtual Machines support the attachment of elastic network interfaces of multiple subnets in the Virtual Private Cloud. Different elastic network interfaces carry different business traffics and provide solutions for such scenarios as virtual network devices and business traffic separation.\n",
+		"proDiff":"One network interface of ordinary Virtual Machines can carry different business traffic."
 	},
 	{
-		"proGood":"Security improvement",
-		"proName":"Different elastic network interfaces can apply different Security Group strategies. JD Cloud's elastic network interfaces provide Security Group strategies at the network interface level. Different elastic network interfaces can apply different Security Group strategies according to business traffic characteristics, realizing accurate management and control of business traffic and improving the security of solution.\n",
-		"proDiff":"The same Security Group policy is applied for all business traffics of ordinary VM."
+		"proGood":"Security Improvement",
+		"proName":"Different elastic network interfaces can apply different security group strategies. JD Cloud’s elastic network interfaces provide security group strategies at the network interface level. Different elastic network interfaces can apply different security group strategies according to business traffic characteristics, realizing accurate management and control of business traffic and improving the security of solutions.\n",
+		"proDiff":"The same security group policy is applied for all business traffic of an ordinary Virtual Machines."
 	},
 	{
-		"proGood":"Reliable fault tolerance",
-		"proName":"Elastic Network Interface supports dynamic migration between VMs in different availability zones. JD Cloud provides elastic network interfaces without availability zone attribute, supports the dynamic migration of elastic network interfaces between VMs of different availability zones, realizes the high availability scheme at the availability zone level, shortens the fault time, and improves the system reliability.\n",
-		"proDiff":"Dynamic migration is not allowed for the network interface of ordinary VM."
+		"proGood":"Reliable Fault Tolerance",
+		"proName":"Elastic Network Interface supports dynamic migration between Virtual Machines in different availability zones. JD Cloud provides elastic network interfaces without availability zone attribute, supports the dynamic migration of elastic network interfaces between Virtual Machines of different availability zones, realizes the high availability scheme at the availability zone level, shortens the fault time, and improves the system reliability.\n",
+		"proDiff":"Dynamic migration is not allowed for network interfaces of ordinary Virtual Machines."
 	}
 ]

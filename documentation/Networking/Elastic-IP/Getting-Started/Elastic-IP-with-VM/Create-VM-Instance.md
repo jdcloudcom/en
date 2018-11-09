@@ -1,25 +1,25 @@
-Create VM instance
+Create VM Instance
 
-This Tutorial provides simplified steps to create a Virtual Machine instance. For detailed steps. For detailed steps, please refer to the pages relevant to Virtual Machine in the Help Center.
+This Tutorial provides simplified steps to create a Virtual Machine instance. For detailed steps. For detailed steps, please refer to the Pages related to Virtual Machine in the Help Center.
 
-## Action Steps
-Step 1: log in to the console of JD Cloud and enter the Console Navigation Page.
+## Procedures
+Step 1: Log in to the console of JD Cloud and enter the Console Navigation Page.
 
-Step 2: select Elastic Compute - Virtual Machine- - Instance at the navigation bar on the left side of the console to enter the Virtual Machine List page.
+Step 2: Select Elastic Compute - Virtual Machine- - Instance at the navigation bar on the left side of the console to go to the Virtual Machine List Page.
 
-Step 3: confirm the region where will create the Virtual Machine instance, select the corresponding region tag on the Virtual Machine List page, and click the Create key to enter the Create VM Instance page.
+Step 3: Confirm the region where will create the Virtual Machine, select the corresponding region tag on the Virtual Machine List Page, and click Create to enter the Create VM Instance Page.
 
-Step 4: on the Create VM instance page, select the Instance Type and Configuration of the Virtual Machine you are to create.
-
-	Description
-	Currently, the Virtual Machine supports two billing types, i.e. monthly package and pay by configuration.
-
-Step 5: If you choose monthly package, you need to select the purchase duration.
+Step 4: On the Create VM instance Page, select the Instance Type and Configuration of the Virtual Machine the users are to create.
 
 	Description
-	Currently, the Purchase Duration of the Monthly Package billing type includes 1-9 months, 1 year, 2 years, and 3 years.
+	Currently, the Virtual Machine supports two types of billing, i.e. monthly package and pay by configuration.
 
-Step 7: designate the number of Virtual Machines to be created, and the upper limit created is subject to the quota of Virtual Machine.
+Step 5: If the users choose monthly package, the users need to select the purchase duration.
 
-8. After confirming the correctness of the selected configuration, click [Buy Now] to go to the order confirmation page. Upon payment, return to the Virtual Machine List page to view the VM instance creation.
+	Description
+	Currently, the Purchase Duration of the Monthly Package includes 1-9 months, 1 year, 2 years, and 3 years.
+
+Step 7: Designate the number of Virtual Machines to be created, and the upper limit created is subject to the quota of Virtual Machine.
+
+8. After confirming the correctness of the selected configuration, click [Buy Now] to go to the order confirmation Page. Upon payment, return to the Virtual Machine List Page to view the VM instance creation.
 

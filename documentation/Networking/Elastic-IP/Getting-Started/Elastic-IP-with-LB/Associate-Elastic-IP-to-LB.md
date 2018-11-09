@@ -1,24 +1,24 @@
 # Elastic IP Associating Load Balancer
 
-## Action Steps
+## Procedures
 
-Step 1: log in to the console of JD Cloud and enter the Console Navigation Page.
+Step 1: Log in to the console of JD Cloud and enter the Console Navigation Page.
 
-Step 2: select Cloud - Virtual Private Cloud- Elastic IP at the navigation bar on the left side of the console to enter the Elastic IP List page.
+Step 2: Select Cloud - Virtual Private Cloud- Elastic IP at the navigation bar on the left side of the console to enter the Elastic IP List Page.
 
-Step 3: on the Elastic IP page, the Associate Resource key will be displayed if the IP of Elastic IP is not associated.
+Step 3: On the Elastic IP Page, the Associate Resource will be displayed if the IP of Elastic IP is not associated.
 
-Step 4: click the Associate Resource key to enter the EIP Associating Resource popup window.
+Step 4: Click the Associate Resource to enter the EIP Associating Resource popup.
 
 	Description
-	Currently, the Elastic IP interface may associate VM, Load Balancer, Container, and Elastic Network Interface. On the Elastic Network Interface Details, the shortcut operation menu at the upper right corner is also provided with the Associate Resource key, and the function is consistent with the key on the List page.
+	Currently, the Elastic IP interface can associate VM, Load Balancer, Container, and Elastic Network Interface. On the Elastic Network Interface Details, the shortcut operation menu at the upper right corner is also provided with the Associate Resource, and the function is consistent with the key on the List Page.
 
-Step 5: in the Associate Resource popup window, select the Load Balancer Resource which the Elastic IP is to associate.
+Step 5: In the Associate Resource popup, select the Load Balancer Resource to which the Elastic IP will be associated.
 
-Step 6: click the OK in the Associate Resource popup window to complete the operation of Associate Elastic IP.
+Step 6: Click the OK in the Associate Resource popup to complete Associating Elastic IP.
 
-Step 7: return to the Elastic IP List page to view the association of Elastic IP.
+Step 7: Return to the Elastic IP List Page to view the association of Elastic IP.
 
-## Relevant References
+## Related References
 
-- [use limitations](../../Introduction/Restrictions.md)
+- [Use Restrictions](../../Introduction/Restrictions.md)

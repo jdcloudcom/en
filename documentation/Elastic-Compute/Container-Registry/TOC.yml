@@ -1,0 +1,79 @@
+﻿ name: Container Registry
+  href: 
+  items:
+  - name: Introduction
+    items:
+      - name: Container Registry Overview
+        href: Introduction/Product-Overview.md
+      - name: Core Concept
+        href: Introduction/Core-Concepts.md
+      - name: Benefits
+        href: Introduction/Benefits.md
+      - name: Features
+        href: Introduction/Features.md
+      - name: Restrictions
+        href: Introduction/Restrictions.md
+      - name: Application Scenarios 
+        href: Introduction/Application-Scenarios.md    
+  - name: Pricing
+    items:
+      - name: Billing Overview
+        href: Pricing/Pricing.md
+      - name: Price Overview
+        href: Pricing/Price-Overview.md
+      - name: Purchase Process
+        href: Pricing/Purchase-Process.md
+      - name: Renew-Process
+        href: Pricing/Renew-Process.md
+      - name: Billing Rules
+        href: Pricing/Billing-Rules.md
+  - name: Getting Started
+    items:
+      - name: Getting Started Guide
+        href: Getting-Started/Guide-Overview.md
+      - name: Creation of Docker Image
+        href: Getting-Started/Create-Image.md
+  - name: Operation Guide
+    items:
+      - name: Registry
+        items:
+          - name: Registry Overview
+            href: Operation-Guide/Registry/Registry-Overview.md
+          - name: Creation of Registry
+            href: Operation-Guide/Registry/Create-Registry.md
+          - name: Deletion of Registry
+            href: Operation-Guide/Registry/Delete-Registry.md
+      - name: Repository
+        items:
+         - name: Repository Overview
+           href: Operation-Guide/Repository/Repository-Overview.md
+         - name: Creation of Repository
+           href: Operation-Guide/Repository/Create-Repository.md
+         - name: Deletion of Repository
+           href: Operation-Guide/Repository/Delete-Repository.md
+         - name: Image Management
+           href: Operation-Guide/Repository/Manage-Image.md
+      - name: Token
+        items:
+        - name: Token Overview
+          href: Operation-Guide/Token/Token-Overview.md
+        - name: Creation of Token
+          href: Operation-Guide/Token/Create-Token.md
+        - name: View of Token
+          href: Operation-Guide/Token/Describe-Token.md
+        - name: Deletion of Token
+          href: Operation-Guide/Token/Delete-Token.md
+      - name: Image List
+        items:
+          - name: Image List Overview
+            href: Operation-Guide/Image-List/Image-List-Overview.md
+  - name: Best Practices
+    items:
+         -  name: Continuous Deployment of Containerized Applications
+            href: Best-Practices/Deploy-Application.md
+  - name: FAQ  
+    href: Common-Problem.md    
+  - name: Related Resources
+    items:
+    - name: Document History
+      href: Related-Resources/Release-History.md 

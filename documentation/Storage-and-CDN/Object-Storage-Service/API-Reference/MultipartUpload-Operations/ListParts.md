@@ -2,12 +2,13 @@
 
 The action is used to list Parts uploaded in Multipart Upload.
 
-**Request Grammar**
+**Request Syntax**
+
 ```
 GET   /ObjectName?uploadId=UploadId HTTP/1.1
 Host: BucketName. s.jcloud.com
 Date: GMT   Date     
-Authorization:   signatureValue#请参照“访问控制”
+Authorization: signatureValue#Please refer to "Identity and Access Management"
 ```
 **Request Parameter**
 
@@ -19,33 +20,35 @@ Authorization:   signatureValue#请参照“访问控制”
 
 |Name|Description|
 |-|-|
-|Bucket|Bucket Name<br>Type: Character string
-|Key|Object Name<br>Type: Character string
-|UploadId|ID of Upload event<br>Type: Character string|
+|Bucket|Bucket Name<br>Type: Character String
+|Key|Object Name<br>Type: Character String
+|UploadId|ID of Upload event<br>Type: Character String|
 |StorageClass|Object storage type, the default value is "STANDARD" (standard storage)。 <br>Support "STANDARD" (standard storage) and "REDUCED_REDUNDANCY" (low frequency access type) storage types
-Note: Currently "REDUCED_REDUNDANCY" (low frequency access type) is only supported by the machine room in North China<br>Type: Character string<br>Default Value: "STANDARD" (standard storage)|
 |Part|Save the Set of Part Information. <br>Type: List|
 |PartNumber|Number to indicate Part. <br>Type: Ingeter|
-|LastModified|Part Upload Time. <br>Type: Character string|
-|ETag|ETag of Uploaded Part Content. <br> Type: Character string|
+|LastModified|Part Upload Time. <br>Type: Character String|
+|ETag|ETag of Uploaded Part Content. <br> Type: Character String|
 |Size|Size of Uploaded Part. <br>Type: long|
 
 Detail Analysis:
 
-1. The action must specify UploadId, the maximum number of returned Parts is 10000.
+1.The action must specify UploadId, the maximum number of returned Parts is 10000.
 
-2. The returned results of OSS are arranged in the ascending order of Part number.
+2.The returned results of OSS are arranged in the ascending order of Part number.
 
-3. As errors may occur during the network transmission, the results (Part Number and ETag value) from List Part are not recommended to be used to generate the final Part list of Complete Multipart.
+3.As errors may occur during the network transmission, the results (Part Number and ETag value) from List Part are not recommended to be used to generate the final Part list of Complete Multipart.
 
 **Request Instance**
+
 ```
 GET   /multipart.data?uploadId=9E417328F6B89F0B HTTP/1.1
 Host: oss-example.s-bj.jcloud.com
 Date: Tue, 11 Jul 2017   12:40:40 GMT    
 Authorization: jingdong   qbS5QXpLORrvdrmb:Ihjb1BaIk2pNGk11OCqBogLLL4c= 
 ```
-**Return Example**
+
+**Response Example**
+
 ```
 HTTP/1.1 200 OK
 Server: nginx

@@ -1,0 +1,100 @@
+  name: DevOps
+  href: 
+  items:
+  - name: Introduction
+    items:
+      - name: Product Overview
+        href: Introduction/Product-Overview.md
+      - name: Core Concept
+        href: Introduction/Core-Concepts.md
+      - name: Basic Infrastructure
+        href: Introduction/Basic-Infrastructure.md
+      - name: Benefits
+        href: Introduction/Benefits.md
+      - name: Features
+        href: Introduction/Features.md
+      - name: Specifications
+        href: Introduction/Specifications.md
+      - name: Restrictions
+        href: Introduction/Restrictions.md
+      - name: Application Scenarios
+        href: Introduction/Application-Scenarios.md
+  - name: Pricing
+    items:
+      - name: Billing Overview
+        href: Pricing/Billing-Overview.md
+      - name: Billing Rules
+        href: Pricing/Billing-Rules.md
+      - name: Price Overview
+        href: Pricing/Price-Overview.md
+      - name: Purchase Process
+        href: Pricing/Purchase-Process.md
+      - name: Renew-Process
+        href: Pricing/Renew-Process.md
+  - name: Getting Started
+    items:
+      - name: Getting Started Guide
+        href: Getting-Started/Getting-started.md
+      - name: Install Super Agents in the Virtual Machines
+        href: Getting-Started/Install-Agent.md
+      - name: Create Service Tree Nodes
+        href: Getting-Started/Create-Instance.md
+      - name: import JD Cloud virtual machines
+        href: Getting-Started/Import-Source.md
+      - name: Create Construction Task
+        href: Getting-Started/Create-Compilejob.md
+      - name: Configure Online Release
+        href: Getting-Started/Config-Deployment.md
+      - name: View Basic Monitoring
+        href: Getting-Started/Base-Monitor.md
+  - name: Operation Guide
+    items:
+      - name: Introduction
+        href: Operation-Guide/Operation-Instruction.md
+      - name: Get to Know the Main interface of DevOps
+        href: Operation-Guide/Introduction-index.md
+      - name: Configure Management
+        href: Operation-Guide/Configuration-Management.md
+      - name: Continuous Delivery
+        href: Operation-Guide/CICD.md
+      - name: Intelligent Monitoring
+        href: Operation-Guide/Monitoring.md
+      - name: Operation and Maintenance Tool
+        href: Operation-Guide/Operation-Task.md
+      - name: Account Management
+        href: Operation-Guide/Account-management.md
+  - name: Best Practices
+    items:
+      - name: Continuous Delivery
+        href: Best-Practices/CICD.md
+      - name: Intelligent Monitoring
+        href: Best-Practices/Monitoring.md
+  - name: Tutorial
+    status: 0
+    items:
+  - name: Troubleshooting
+    items:
+      - name: Problems of Fault Class
+        href: Troubleshooting/Troubleshooting.md
+      - name: Problems of Configuration Class
+        href: Troubleshooting/Configuration.md
+  - name: FAQ
+    href: FAQ/FAQ.md
+  - name: API Reference
+    href: API/API-Reference.md
+  - name: SDK Reference
+    href: SDK/SDK-Reference.md
+  - name: User Agreement
+    items:
+      - name: Terms of Service
+        href: User-Agreements/Product-Terms-of-Service.md
+      - name: SLA
+        href: User-Agreements/SLA.md
+  - name: Related Resources
+    items:
+      - name: Document History
+        href: Related-Resources/Document-History.md
+      - name: ICP Filing
+        href: Related-Resources/Filing.md
+      - name: Glossary
+        href: Related-Resources/Glossary.md

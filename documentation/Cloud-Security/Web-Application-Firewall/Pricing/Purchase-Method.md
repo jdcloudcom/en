@@ -2,9 +2,9 @@
 
 Users can purchase in two ways:
 
-On JD Cloud Official Website, click [Product]>[Web Application Firewall]>[To Use Immediately] to purchase.
+On JD Cloud Official Website, click **Product** > **Web Application Firewall** > **To Use Immediately** to purchase.
 
-After logging in to the JD Cloud console, find [Cloud Security]>[Web Application Firewall] to purchase.
+After logging in to the JD Cloud console, find **Cloud Security** > **Web Application Firewall** to purchase.
 
 **Billing Method**
 

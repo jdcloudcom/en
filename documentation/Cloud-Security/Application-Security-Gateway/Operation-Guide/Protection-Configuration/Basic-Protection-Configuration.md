@@ -1,8 +1,8 @@
-# Basic protection configuration
+# Basic Protection Configuration
 
-**Function description**  
+**Function Description**  
 
-​    Application security gateway basic protection configuration mainly set the WAF engine of application security gateway, adjusting the interception mode and detection mode. It supports to set the rule levels of WAF engine protection.
+​    Application Security Gateway basic protection configuration mainly set the WAF engine of Application Security Gateway, adjusting the interception mode and detection mode. It supports to set the rule levels of WAF engine protection.
 
 ​    **Loose Mode**: this WAF engine rule can reduce the detection rate and false-positive rate, which is applicable to users with lower requirement for security protection;
 

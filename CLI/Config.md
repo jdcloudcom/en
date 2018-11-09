@@ -7,7 +7,7 @@
 
 Enter the access-key and secrete key in accordance with the prompt, to complete configuration and the other items are optional.
 
-The region-id of the region where the resource is located is cn-north-1.
+The region-id of the region where the resource defaults to cn-north-1.
 
 The gateway address endpoint defaults to www.jdcloud-api.com.
 

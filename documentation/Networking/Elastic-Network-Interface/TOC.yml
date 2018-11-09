@@ -1,51 +1,51 @@
-﻿  name: Elastic Network Interface
+﻿  name: ENI
   href: 
   items:
-  - name: Product Introduction
+  - name: Introduction
     items:
       - name: Product Overview
-        href: Introduction/What-is-Elastic-Network-Interface.md
+        href: Introduction/Product-Overview.md
       - name: Core Concept
         href: Introduction/Core-Concepts.md
-      - name: Product Adtange
+      - name: Benefits
         href: Introduction/Benefits.md
-      - name: Product Function
-        href: Introduction/Functions.md
-      - name: Limitation Description
+      - name: Features
+        href: Introduction/Features.md
+      - name: Restrictions
         href: Introduction/Restrictions.md
-      - name: Application Scenario 
+      - name: Application Scenarios 
         href: Introduction/Application-Scenarios.md    
-  - name: Product Pricing
+  - name: Pricing
     items:
       - name: Billing Overview
-        href: Pricing/Billing-Overview.md
-  - name: Getting-Started Guide
+        href: Pricing/Pricing.md
+  - name: Getting Started
     items:
       - name: Business Traffic Separation
         href: Getting-Started/Business-Traffic-Separation.md
       - name: High Availability Application
         href: Getting-Started/High-Availability-Scenario.md
-      - name: Virtual Machine Hosts Multiple Businesses
+      - name: VM Hosting Multiple Businesses
         href: Getting-Started/VM-with-Multiple-Businesses.md
   - name: Operation Guide
     items:
-      - name: Management of Elastic Network Interface
+      - name: Management of ENI
         items:
-          - name: Create Elastic Network Interface
+          - name: Create ENI
             href: Operation-Guide/Elastic-Network-Interface-Management/Create-Elastic-Network-Interface.md
-          - name: Delete Elastic Network Interface
+          - name: Delete ENI
             href: Operation-Guide/Elastic-Network-Interface-Management/Delete-Elastic-Network-Interface.md
-          - name: Bind Elastic Network Interface
+          - name: Associate ENI
             href: Operation-Guide/Elastic-Network-Interface-Management/Associate-Elastic-Network-Interface.md
-          - name: Disassociate Elastic Network Interface
+          - name: Disassociate ENI
             href: Operation-Guide/Elastic-Network-Interface-Management/Disassociate-Elastic-Network-Interface.md
-          - name: Enable to Delete on Instance Termination for Elastic Network Interface
+          - name: Enable Deletion on Instance Termination for ENI
             href: Operation-Guide/Elastic-Network-Interface-Management/Enable-Delete-with-VM.md
-          - name: Cancel Deleting on Instance Termination for Elastic Network Interface
+          - name: Cancel Deletion on Instance Termination for ENI
             href: Operation-Guide/Elastic-Network-Interface-Management/Disable-Delete-with-VM.md
       - name: Management Of Private IP
         items:
-          - name: Allocate Private IP
+          - name: Assign Private IP
             href: Operation-Guide/Private-IP-Management/Assign-Secondary-IP.md
           - name: Release Private IP
             href: Operation-Guide/Private-IP-Management/Unassign-Secondary-IP.md
@@ -59,31 +59,31 @@
             href: Operation-Guide/Security-Group-Management/Associate-Security-Group.md
           - name: Remove Security Group
             href: Operation-Guide/Security-Group-Management/Disassociate-Security-Group.md
-      - name: Virtual Machine Configuration
+      - name: VM Configuration
         items:
           - name: Linux Temporary Configuration
             href: Operation-Guide/VM-Configuration/Linux-Temporary-Configuration.md    
           - name: Linux Permanent Configuration
             href: Operation-Guide/VM-Configuration/Linux-Permanent-Configuration.md  
-  - name: Best Practice
+  - name: Best Practices
     items:
-    status: 0
+    status:0
   - name: Troubleshooting
     items:
-    status: 0      
+    status:0      
   - name: FAQ
     href: FAQ/FAQ.md
   - name: API Reference
     href:
-    status: 0      
+    status:0      
   - name: SDK Reference
     href:
-    status: 0      
+    status:0      
   - name: User Agreement
     items:
-    status: 0        
-  - name: Relevant Resources
+    status:0        
+  - name: Related Resources
     items:
-    - name: Document Historical Records
+    - name: Document History
       href: Related-Resources/Document-History.md   
 

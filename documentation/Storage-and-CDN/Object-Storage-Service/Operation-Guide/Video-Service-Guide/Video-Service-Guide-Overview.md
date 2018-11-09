@@ -1,8 +1,8 @@
 # Overview
 
-Video processing is a service of completing coding format conversion of video resources in the cloud provided by JD Cloud cloud storage service.
+Media processing is a service of completing coding format conversion of video resources in the cloud provided by JD Cloud OSS.
 
-Video processing rules:
+Media processing rules:
 
 Input format supports most of the mainstream audio and video formats, such as mp4, flv, avi, rmvb, wmv, and hls;
 

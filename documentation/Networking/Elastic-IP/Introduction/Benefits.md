@@ -1,17 +1,17 @@
-# Product Advantages
+# Features
 
 ## Complete Elasticity
 
-* The Public IPs provided by JD Cloud are all Elastic IPs. Whether you purchase Elastic IP separately or together with other resources of the Virtual Machine, you may modify the association between Elastic IP and cloud resource.
+* Currently all JD Cloud’s Public IP addresses are Elastic IP addresses. An Elastic IP address, either from independent application or from a package order with instances, can be associated to or disassociated from a cloud resource at any time.
 
-## Supporting Association of Multiple Resources
+## Multiple Resource Type Support
 
-Elastic IP supports associating, Virtual Machine, container, Load Balancer, and NFV instance, providing access to public network for cloud resources.
+An Elastic IP address can be associated to virtual machine instances, native containers, load balancers, and NFV instances to provide public network access.
 
-Supporting Multiple Billing Types
+## Multiple Billing Type Support
 
-The Elastic IP supports three types of billing, i.e. monthly package, pay by configuration, and pay by consumption. Users may select appropriate billing type as required for their actual business.
+users can select an appropriate billing type, according to business requirements, from the types of monthly package, pay by configuration and pay by consumption.
 
-Flexible Adjustment of Bandwidth
+## Flexible Bandwidth Modification
 
-Elastic IP supports the adjustment of bandwidth, and users may modify the bandwidth based on the requirements for and changes to the business and traffic. The modification will take effect immediately.
+users can modify an Elastic IP address’ bandwidth as traffic requirement changes. The modification will be effective immediately.

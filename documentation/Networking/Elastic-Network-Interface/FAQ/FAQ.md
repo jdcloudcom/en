@@ -1,25 +1,25 @@
 # FAQ
 
-** Q: What resources can be associated to Elastic Network Interface? **
+** Q: What resources can be associated to ENI?**
 
-A: Currently, Elastic Network Interface can be associated with VM resource. The Virtual Private Cloud attribute of the Elastic Network Interface must be consistent with that of VM.
+A: Currently, an ENI can be associated with VM resource. The virtual private cloud attribute of the ENI must be consistent with that of VM.
 
-** Q: Is there an Availability Zone limit for the Elastic Network Interface? **
+** Q: Does an ENI have any availability zone limitation?**
 
-A: The Elastic Network Interface has a region-level attribute. When it is not associated, it is not restricted to Availability Zone and can be associated to any VM that meets the Virtual Private Cloud restriction. After the Elastic Network Interface is associated, the attribute of the Availability Zone is consistent with that of the VM.
+A: The ENI has a region-level attribute. The unassociated ENI is not restricted to availability zone and can be associated to any VM that meets the virtual private cloud restriction. After the ENI is associated, the attribute of the availability zone is consistent with that of the VM.
 
-** Q: Can the migration across the Availability Zone be adopted to Elastic Network Interface? **
+** Q: Does an ENI support the migration across the availability zone? **
 
-A: Elastic Network Interface can be migrated between Virtual Machines in different Availability Zones within the same region.
+A: An ENI can be migrated between VMs in different availability zones within the same region.
 
-**Q: Can the primary network interface be elastically plugged on a VM? **
+**Q: Can the primary network interface be elastically plugged on a VM?**
 
-A: The life cycle of the primary network interface of the Virtual Machine shall be consistent with that of the Virtual Machine instance, and the elastic plugging is not allowed.
+A: The life cycle of the primary network interface of the VM shall be consistent with that of the VM instance, and the elastic plugging is not allowed.
    
-**Q: Can the Primary IP of the Elastic Network Interface be released? **
+**Q: Can the primary IP of the ENI be released? **
 
-A: The Primary IP of the Elastic Network Interface (including the primary network interface and the secondary network interface) cannot be released, and each Elastic Network Interface is only provided with one Primary IP.
+A: The primary IP of the ENI (including the primary network interface and the secondary network interface) cannot be released, and each ENI is only provided with one primary IP.
 
-** Q: How to display the associating information when the Elastic Network Interface associated by Elastic IP is in a free state (not associated to the Virtual Machine)? **
+** Q: How to display the associating information when the ENI associated by elastic IP is in a free state (not associated to the VM)? **
 
-A: The ID and name of the associated network interface can be displayed on the list of Elastic IP. If the Elastic Network Interface is unassociated and the Elastic IP is associated to the Elastic Network Interface, the state of Elastic IP is displayed as associated with the associated network displayed. However, the Instance Type Family and the instance name are displayed as blank.
+A: The ID and name of the associated network interface can be displayed on the list of elastic IP. If the ENI is unassociated and the elastic IP is associated to the ENI, the state of elastic IP is displayed as associated with the associated network displayed. However, the instance type family and the instance name are displayed as blank.

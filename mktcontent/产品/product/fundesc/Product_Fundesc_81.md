@@ -24,7 +24,7 @@
 		"funcContent":[
 			{
 				"funcName":"",
-				"funcTitle":"Support permission control",
+				"funcTitle":"Support Permission Control",
 				"funcP":"ACL permission control; multi-layer network protection mechanism can defend against 90% malicious data destruction"
 			}
 		]

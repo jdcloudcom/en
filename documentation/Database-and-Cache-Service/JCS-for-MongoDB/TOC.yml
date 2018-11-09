@@ -1,0 +1,129 @@
+  name: JCS for MongoDB
+  href: 
+  items:
+  - name: Introduction
+    items:
+      - name: Product Overview
+        href: Introduction/Product-Overview.md
+      - name: Core Concept
+        href: Introduction/Core-Concepts.md
+      - name: Basic Infrastructure
+        href: Introduction/Basic-Infrastructure.md
+      - name: Benefits
+        href: Introduction/Benefits.md
+      - name: Features
+        href: Introduction/Features.md
+      - name: Specifications
+        href: Introduction/Specifications.md
+      - name: Restrictions
+        href: Introduction/Restrictions.md
+      - name: Application Scenarios 
+        href: Introduction/Application-Scenarios.md    
+  - name: Pricing
+    items:
+      - name: Billing Overview
+        href: Pricing/Pricing.md
+      - name: Billing Rules
+        href: Pricing/Billing-Rules.md
+      - name: Price Overview
+        href: Pricing/Price-Overview.md
+      - name: Purchase Process
+        href: Pricing/Purchase-Process.md 
+      - name: Renew-Process
+        href: Pricing/Renew-Process.md
+  - name: Getting Started
+    items:
+      - name: Create Instance
+        href: Getting-Started/Create-Instance.md
+      - name: Set White List
+        href: Getting-Started/Set-Whitelist.md
+      - name: Connect Instance
+        href: Getting-Started/Connect-Instance.md
+      - name: Import Data
+        href: Getting-Started/Import-Data.md
+      - name: Export Data
+        href: Getting-Started/Export-Data.md
+  - name: Operation Guide
+    items:
+      - name: Instance Management
+        items:
+          - name: Change Configuration
+            href: Operation-Guide/Instance-Management/Modify-Instance-Spec.md
+          - name: Restart Instance
+            href: Operation-Guide/Instance-Management/Restart-Instance.md
+          - name: Renew Instance
+            href: Operation-Guide/Instance-Management/Renewal-Instructions.md      
+          - name: Delete Instance
+            href: Operation-Guide/Instance-Management/Delete-Instance.md
+      - name: Account Management
+        items:
+          - name: Create Account
+            href: Operation-Guide/Account-Management/Create-MongoDB-Account.md
+          - name: Modify Password
+            href: Operation-Guide/Account-Management/Reset-Password.md
+      - name: Backup Management
+        items:
+          - name: Set Automatic Backup
+            href: Operation-Guide/Backup/Modify-Backup-Policy.md        
+          - name: Create Backup Manually
+            href: Operation-Guide/Backup/Create-Backup.md       
+          - name: Download Backup File
+            href: Operation-Guide/Backup/Download-Bckup.md    
+          - name: Recover Data
+            href: Operation-Guide/Backup/Restore-Instance.md       
+          - name: Create an Instance Based on the Backup
+            href: Operation-Guide/Backup/Create-Instance-by-Backup.md      
+          - name: Create an Instance based on the Time Point          
+            href: Operation-Guide/Backup/Create-Instance-by-Point-in-Time.md      
+      - name: Cross-Region Backup Synchronization Service
+        items:
+          - name: Create Cross-Region Backup Synchronization Service
+            href: Operation-Guide/Across-Region-Backup-Sync/Create-Backup-Sync.md  
+          - name: Create an Instance based on the Backup Data
+            href: Operation-Guide/Across-Region-Backup-Sync/Create-Instance-by-Backup-Sync.md
+      - name: Monitoring and Alarms
+        items:
+          - name: View Monitoring Information
+            href: Operation-Guide/Monitoring/Monitoring.md
+          - name: Set Alarm Rules
+            href: Operation-Guide/Monitoring/Alarm-Rules.md              
+  - name: Best Practices
+    items:
+    - name: Use MongoDB Capped Collections
+      href: Best-Practices/Capped-Collections.md
+    - name: Start MongoDB Slow Log Analysis
+      href: Best-Practices/MongoDB-Profile.md
+    - name: Connect MongoDB Instance with Public Network
+      href: Best-Practices/Public-Network-Connect-to-MongoDB-Instance.md
+  - name: Tutorial
+    status: 0
+    items:
+  - name: Troubleshooting
+    items:
+    - name: Virtual machine is unable to connect to the MongoDB instances?
+      href: Troubleshooting/Connect-Failed.md
+    - name: What commands are not supported by MongoDB Service?
+      href: Troubleshooting/Command.md
+    - name: Connection hints no permission in case of correct account and password?
+      href: Troubleshooting/Authentication.md        
+  - name: FAQ
+    href: FAQ/FAQ.md
+  - name: User Agreement
+    status: 0
+    items:
+    - name: Terms of Service
+      href: User-Agreements/Product-Terms-of-Service.md           
+      status: 0      
+    - name: SLA
+      href: User-Agreements/SLA.md           
+      status: 0       
+  - name: Related Resources
+    items:
+    - name: Document History
+      href: Related-Resources/Document-History.md   
+    - name: ICP Filing
+      href: Related-Resources/Filing.md           
+      status: 0        
+    - name: Glossary
+      href: Related-Resources/Glossary.md           
+      status: 0

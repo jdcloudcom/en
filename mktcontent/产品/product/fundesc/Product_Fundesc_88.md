@@ -4,13 +4,13 @@
 		"funcContent":[
 			{
 				"funcName":"",
-				"funcTitle":"Rapid deployment",
-				"funcP":"Pre-fabricate multiple sets of templates and configure flexibly. One-click to create customized blockchain network, shortening deployment time"
+				"funcTitle":"Quick Deployment",
+				"funcP":"Pre-fabricate multiple sets of templates and configure flexibly. One-click to create customized block chain network, shortening deployment time"
 			},
 			{
 				"funcName":"",
 				"funcTitle":"Monitoring",
-				"funcP":"With the Kubernetes management cluster, it is possbile to carry out the monotoring from physical machine, block chain bottom and other multiple dimensions, presetting the threshold value, and automatically giving alarms"
+				"funcP":"With the Kubernetes management cluster, it is possible to carry out the monitoring from physical machine, block chain bottom and other multiple dimensions, presetting the threshold value, and automatically giving alarms"
 			}
 		]
 	},
@@ -19,18 +19,18 @@
 		"funcContent":[
 			{
 				"funcName":"",
-				"funcTitle":"Enterprise networking",
-				"funcP":"Enterprise-level blockchain network deployment relys on identity chain to provide trusted identity, and it is easy to implement multiple organizations to build blockchain network across domains, which is easy to use, secure and trustworthy"
+				"funcTitle":"Enterprise Networking",
+				"funcP":"Enterprise-level block chain network deployment relies on identity chain to provide trusted identity, and it is easy to implement multiple organizations to build block chain network across domains, which is easy to use, secure and trustworthy"
 			},
 			{
 				"funcName":"",
-				"funcTitle":"Identity chain",
-				"funcP":"Identity authentication system based on blockchain for endorsing of all users and blockchain nodes and decentralized management of baas network users"
+				"funcTitle":"Identity Chain",
+				"funcP":"Identity authentication system based on block chain for endorsing of all users and block chain nodes and decentralized management of baas network users"
 			},
 			{
 				"funcName":"",
-				"funcTitle":"Multiple underlying support",
-				"funcP":"Support underlying of multiple blockchain to provide friendly and easy-to-use service components"
+				"funcTitle":"Multiple Underlying Support",
+				"funcP":"Support underlying of multiple block chain to provide friendly and easy-to-use service components"
 			}
 		]
 	},
@@ -39,8 +39,8 @@
 		"funcContent":[
 			{
 				"funcName":"",
-				"funcTitle":"Open interface",
-				"funcP":"Providing app store for developers, users can log in store to develop their own blockchain services"
+				"funcTitle":"Open Interface",
+				"funcP":"Providing app store for developers, the users can log in store to develop their own block chain services"
 			}
 		]
 	}

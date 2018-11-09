@@ -29,66 +29,66 @@ Fault Statistical Point:
       <td>Whether to be included in the availability</td>
    </tr>
    <tr>
-      <td rowspan=”8”>Instance Operation Status</td>
-      <td rowspan=”4”>Network</td>
-      <td colspan=”3”>User Network</td>
+      <td rowspan="8">Instance Operation Status</td>
+      <td rowspan="4">Network</td>
+      <td colspan="3">User Network</td>
       <td>No</td>
    </tr>
    <tr>
-      <td colspan="3”>ISP Network</td>
+      <td colspan="3">ISP Network</td>
       <td>No</td>
    </tr>
    <tr>
-      <td colspan=”3”>Basic Network IDC (Faults due to force majeure shall not be deemed as service unavailability)</td>
+      <td colspan="3">Basic Network IDC (Faults due to force majeure shall not be deemed as service unavailability)</td>
       <td>Yes</td>
    </tr>
    <tr>
-      <td colspan=”3”>Connected Intranets ACL</td>
+      <td colspan="3">Connected Intranets ACL</td>
       <td>Yes</td>
    </tr>
    <tr>
       <td>Security</td>
-      <td colspan=”3”>Network Attack (Attacks to a single user not included, attacks to JD Cloud included)</td>
+      <td colspan="3">Network Attack (Attacks to a single user not included, attacks to JD Cloud included)</td>
       <td>Yes</td>
    </tr>
    <tr>
-      <td rowspan="3”>Product</td>
-      <td rowspan=”2”>In event of service unavailability, the unavailability caused by the user application server configuration (such as user firewall rule limit, health check failure due to user health check configuration error, etc.), service capability bottleneck of backend server and fault of the backend server itself shall not be included. </td>
-      <td colspan=”2”>Fault of the server, storage device and other hardware</td>
+      <td rowspan="3">Product</td>
+      <td rowspan="2">In event of service unavailability, the unavailability caused by the user application server configuration (such as user firewall rule limit, health check failure due to user health check configuration error, etc.), service capability bottleneck of backend server and fault of the backend server itself shall not be included. </td>
+      <td colspan="2">Fault of the server, storage device and other hardware</td>
       <td>Yes</td>
    </tr>
    <tr>
-      <td colspan=”2”>JD Cloud system software fault</td>
+      <td colspan="2">JD Cloud system software fault</td>
       <td>Yes</td>
    </tr>
    <tr>
-      <td colspan=”3”>Service unavailability due to system change</td>
+      <td colspan="3">Service unavailability due to system change</td>
       <td>Yes</td>
    </tr>
    <tr>
-      <td rowspan=”3”>Manage Console</td>
-      <td colspan=”4”>Create Instance</td>
+      <td rowspan="3">Manage Console</td>
+      <td colspan="4">Create Instance</td>
       <td>No</td>
    </tr>
    <tr>
-      <td colspan=”4”>Configuration Management (such as health check, session persistence, etc.)</td>
+      <td colspan="4">Configuration Management (such as health check, session persistence, etc.)</td>
       <td>No</td>
    </tr>
    <tr>
-      <td colspan=”4”>Display Exception (such as the result of health check, etc.)</td>
+      <td colspan="4">Display Exception (such as the result of health check, etc.)</td>
       <td>No</td>
    </tr>
    <tr>
       <td rowspan="3">OpenAPI</td>
-      <td colspan=”4”>Create Instance</td>
+      <td colspan="4">Create Instance</td>
       <td>No</td>
    </tr>
    <tr>
-      <td colspan=”4”>Configuration Management (such as health check, session persistence, etc.)</td>
+      <td colspan="4">Configuration Management (such as health check, session persistence, etc.)</td>
       <td>No</td>
    </tr>
    <tr>
-      <td colspan=”4”>Display Exception (such as the result of health check, etc.)</td>
+      <td colspan="4">Display Exception (such as the result of health check, etc.)</td>
       <td>No</td>
    </tr>
 </table>

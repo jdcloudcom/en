@@ -1,27 +1,27 @@
 # Associate EIP
 
-Each Private IP (including Primary IP and secondary IP) allocated by Elastic Network Interface of JD Cloud (including primary network interface and secondary network interface) can be connected with one Elastic IP.
+Each private IP (including primary IP and secondary IP) assigned by ENI of JD Cloud (including primary network interface and secondary network interface) can be connected with one elastic IP.
 
-## Action Steps
-Step 1: log in to the console of JD Cloud and enter the Console Navigation Page.
+## Procedures
+Step 1: Log in to the console of JD Cloud and enter the Console Navigation Page.
 
-Step 2: select network - Virtual Private Cloud - Elastic Network Interface at the navigation bar on the left side of the console to enter the Elastic Network Interface list page.
+Step 2: Select network - virtual private cloud - ENI at the navigation bar on the left side of the console to enter the ENI list page.
 
-Step 3: locate the Elastic Network Interface that needs to be associated with Private IP, and click the ID of the Elastic Network Interface to enter the details of Elastic Network Interface.
+Step 3: Locate the ENI that needs to be associated with public IP, and click the ID of the ENI to enter the details of ENI.
 
-Step 4: select the Private IP management tag and enter the Private IP management page.
+Step 4: Select the private IP management tag and enter the private IP management page.
 
-Step 5: locate the Private IP that needs to be associated to the public network IP, and if the Private IP is not associated to the public network IP, the key of Associate EIP will be displayed.
+Step 5: Locate the private IP that needs to be associated to the public network IP, and if the private IP is not associated to the public network IP, Associate EIP will be displayed.
 
-Step 6: click the Associate EIP key to enter the Associate EIP popup.
+Step 6: Click Associate EIP to enter the Associate EIP popup.
 
 	Description
-	Currently, only the primary network interface of Virtual Machine of Availability Zone A can be associated with Elastic IP with the attribute of Availability Zone A. Elastic IP with the attribute of full Availability Zone can be adopted for Virtual Machine of Availability Zone B or any secondary network interface.
+	Currently, only the primary network interface of VM of Availability Zone A can be associated with elastic IP with the attribute of Availability Zone A. Elastic IP with the attribute of all AZs can be adopted for VM of Availability Zone B or any secondary network interface.
 
-Step 7: in the Associate EIP popup, select Elastic IP to be associated.
+Step 7: In the Associate EIP popup, select elastic IP to be associated.
 
-Step 8: click OK to complete the association of Elastic IP and return to the Private IP management page to view the association of Elastic IP.
+Step 8: Click OK to complete the association of elastic IP and return to the private IP management page to view the association of elastic IP.
 
-## Relevant references
+## Related References
 
-- [use limitations](../../Introduction/Restrictions.md)
+- [Use Restrictions](../../Introduction/Restrictions.md)

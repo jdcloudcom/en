@@ -1,3 +1,0 @@
-# Restraint Instructions
-
-No limit

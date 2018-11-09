@@ -1,21 +1,21 @@
 # Virtual Machine Associating Elastic IP
 
-## Action Steps
+## Procedures
 
-Step 1: log in to the console of JD Cloud and enter the Console Navigation Page.
+Step 1: Log in to the console of JD Cloud and enter the Console Navigation Page.
 
-Step 2: select Elastic Compute - Virtual Machine- - Instance at the navigation bar on the left side of the console to enter the Virtual Machine List page.
+Step 2: Select Elastic Compute - Virtual Machine- - Instance at the navigation bar on the left side of the console to go to the Virtual Machine List Page.
 
-Step 3: on the Virtual Machine List page, the Associate EIP key will be displayed if the Virtual Machine fails to associate Elastic IP.
+Step 3: On the Virtual Machine List Page, the Associate EIP will be displayed if the Virtual Machine fails to associate Elastic IP.
 
-Step 4: click the Associate EIP key to enter the Associate EIP popup window.
+Step 4: Click the Associate EIP to enter the Associate EIP popup.
 
-Step 5: in the Associate Elastic IP popup, select Elastic IP which the Virtual Machine is to associate.
+Step 5: In the Associate EIP popup, select Elastic IP to which the Virtual Machine will be associated.
 
-Step 6: click the OK in the Elastic IP popup window to complete the operation of Associate EIP.
+Step 6: Click the OK in the Elastic IP popup to complete associating EIP.
 
-Step 7: Return to the Virtual Machine List page to view the association of Elastic IP.
+Step 7: Return to the Virtual Machine List Page to view the association of Elastic IP.
 
-## Relevant References
+## Related References
 
-- [use limitations](../../Introduction/Restrictions.md)
+- [Use Restrictions](../../Introduction/Restrictions.md)

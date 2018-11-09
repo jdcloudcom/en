@@ -4,17 +4,17 @@ The image service is accessed by GET request of standard HTTP and all processing
 
 ## Request for thumbnail through processing parameters
 
-1. Users request for image processing interface
+1.Users request for image processing interface
 
-(a) Old interface: connect “?img/processing parameters” after the original file address
+(a) Old API: connect "?img/processing parameters" after the original file address
 
 For example: http://downloads.oss.cn-north-1.jcloudcs.com/lena.jpg?img/s/200/300
 
-(b) New interface: connect “?x-oss-process=img/processing parameters” after the original file address
+(b) New API: connect "?x-oss-process=img/processing parameters" after the original file address
 
 For example: http://downloads.oss.cn-north-1.jcloudcs.com/lena.jpg?x-oss-process=img/s/200/300
 
-2. Request for original image
+2.Request for original image
 
 (a) File direct download mode
 
@@ -24,9 +24,9 @@ For example: http://downloads.oss.cn-north-1.jcloudcs.com/lena.jpg
 
 For example: http://downloads.oss.cn-north-1.jcloudcs.com/lena.jpg?x-oss-process=img/o
 
-3. Image processing actions support sequential queue
+3.Image processing actions support sequential queue
 
-Connect image processing instructions as a processing queue in sequence and segment each task name and ancillary parameter with “/”; then background will execute them in sequence.
+Connect image processing instructions as a processing queue in sequence and segment each task name and ancillary parameter with "/"; then background will execute them in sequence.
 
 For example:
 
@@ -38,17 +38,17 @@ Resultant address of relative image processing:
 
 http://downloads.oss.cn-north-1.jcloudcs.com/lena.jpg?x-oss-process=img/s/200/300/cc/200/260
 
-4. In the processing queue, sequential execution will affect final results.
+4.In the processing queue, sequential execution will affect final results.
 
-5. Upper limit of the maximum number of processing actions of a single request <=100; repetitive operation is accumulated.
+5.Upper limit of the maximum number of processing actions of a single request <=100; repetitive operation is accumulated.
 
-For example: http://downloads.oss.cn-north-1.jcloudcs.com/lena.jpg?x-oss-process=img/s/200/300/cc/200/260中
+For example: http://downloads.oss.cn-north-1.jcloudcs.com/lena.jpg?x-oss-process=img/s/200/300/cc/200/260
 
 Scale s and center crop cc are recorded as two actions.
 
-6. Total length of processing parameters cannot exceed 1024 bytes
+6.Total length of processing parameters cannot exceed 1024 bytes
 
-For example: http://downloads.oss.cn-north-1.jcloudcs.com/lena.jpg?x-oss-process=img/s/200/300/cc/200/260中
+For example: http://downloads.oss.cn-north-1.jcloudcs.com/lena.jpg?x-oss-process=img/s/200/300/cc/200/260
 
 The part of processing parameters includes img/s/200/300/cc/200/260
 
@@ -56,11 +56,11 @@ The part of processing parameters includes img/s/200/300/cc/200/260
 
 Image processing can save user's image processing actions and parameters as another name (e.g. Stylename), namely style. After using the style function, a same effect can be archived only with a very short URL to replace the original series of actions.
 
-(a) Old interface
+(a) Old API
 
 http://downloads.oss.cn-north-1.jcloudcs.com/lena.jpg?imgalias/stylename
 
-(b) New interface
+(b) New API
 
 http://downloads.oss.cn-north-1.jcloudcs.com/lena.jpg?x-oss-process=imgalias/stylename
 
@@ -90,7 +90,7 @@ Image processing includes the following keywords imgalias,img,imginfo,imgexif,x-
     
     oss.cn-north-1.jcloudcs/bucket/key.jpg?aaa=bb&imgalias/style    (legal)
 
-* RequestQuery case sensitivity（KV has case sensitivity）
+* RequestQuery case sensitivity (KV has case sensitivity)
 
     For example:
     

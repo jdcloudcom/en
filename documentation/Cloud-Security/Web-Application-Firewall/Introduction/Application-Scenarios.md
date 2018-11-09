@@ -1,4 +1,4 @@
-- ## Application Scenario  
+- ## Application Scenarios  
 
   JD Cloud Web Application Firewall is applicable to all users including JD Cloud and any other users.
 

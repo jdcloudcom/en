@@ -1,4 +1,4 @@
-- ## Product Advantages
+- ## Benefits
 
   **Professional Protection Ability**
 
@@ -16,7 +16,7 @@
 
   Detect attack on second level and the protection takes effect, protect with no delay.
 
-  **Highly reliable, highly available services**
+  **Highly Reliable, Highly Available Services**
 
   The match of full-automatic detection and attack strategy has a real-time protection.
 

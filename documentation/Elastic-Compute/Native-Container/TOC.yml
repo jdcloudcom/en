@@ -1,0 +1,95 @@
+  name: Native Container
+  href: 
+  items:
+  - name: Introduction
+    items:
+      - name: Product Overview
+        href: Introduction/Product-Overview.md
+      - name: Core Concept
+        href: Introduction/Core-Concepts.md
+      - name: Benefits
+        href: Introduction/Benefits.md
+      - name: Features
+        href: Introduction/Features.md
+      - name: Restrictions
+        href: Introduction/Restrictions.md
+      - name: Application Scenarios 
+        href: Introduction/Application-Scenarios.md
+      - name: Compare with VM
+        href: Introduction/Comparison.md
+  - name: Pricing
+    items:
+      - name: Billing Overview
+        href: Pricing/Pricing.md
+      - name: Billing Rules
+        href: Pricing/Billing-Rules.md
+      - name: Price Overview
+        href: Pricing/Price-Overview.md
+      - name: Purchase Process
+        href: Pricing/Purchase-Process.md
+      - name: Renew-Process
+        href: Pricing/Renew-Proces.md
+  - name: Getting Started
+    items:
+      - name: Getting Started Guide
+        href: Getting-Started/Guide-Overview.md
+      - name: Create Docker Image
+        href: Getting-Started/Create-Images.md
+      - name: Create Container Instance
+        href: Getting-Started/Create-to-Instance.md
+  - name: Operation Guide
+    items:
+      - name: Container Instance
+        items:
+          - name: Container Instance Overview
+            href: Operation-Guide/Instance/Container-Instance-Overview.md
+          - name: Instance Configuration Recommendation
+            href: Operation-Guide/Instance/Recommend-Instance.md
+          - name: Instance Life Cycle
+            href: Operation-Guide/Instance/Life-Cycle.md
+          - name: Create Instance
+            href: Operation-Guide/Instance/Create-Instance.md
+          - name: Log in Instance
+            href: Operation-Guide/Instance/Login-Instance.md
+          - name: Start Instance
+            href: Operation-Guide/Instance/Start-Instance.md
+          - name: Stop Instance
+            href: Operation-Guide/Instance/Stop-Instance.md
+          - name: Delete Instance
+            href: Operation-Guide/Instance/Delete-Instance.md
+          - name: Log
+            href: Operation-Guide/Instance/Log.md
+      - name: Networking
+        href: Operation-Guide/Networking.md
+      - name: Security Group
+        href: Operation-Guide/Security-Group.md	
+      - name: Image Registry Authentication Information
+        items:
+          - name: Create Registry Authentication Information
+            href: Operation-Guide/Certified-Repository/Create-Repository.md
+          - name: View Registry Authentication Information
+            href: Operation-Guide/Certified-Repository/Describe-Repository.md
+          - name: Delete Registry Authentication Information
+            href: Operation-Guide/Certified-Repository/Delete-Repository.md
+      - name: Monitoring Pre-alarm
+        items:
+          - name: Monitoring and Alarm Overview
+            href: Operation-Guide/Monitoring-Alarm/Overview.md
+          - name: Obtain Instance’s Monitoring Data
+            href: Operation-Guide/Monitoring-Alarm/Retrieve-Data.md
+  - name: Best Practices
+    items:
+    - name: Create Image with SSH
+      href: Best-Practices/Create-SSH-Image.md
+    - name: Deploy Private Image registry
+      href: Best-Practices/Create-Repository1.md
+  - name: Troubleshooting
+    items:
+    - name: Container Instance Creation Failed
+      href: Troubleshoot/Fault-Problem.md  
+  - name: FAQ
+    href: Common-Problem.md       
+  - name: Related Resources
+    items:
+    - name: Document History
+      href: Related-Resources/Release-History.md

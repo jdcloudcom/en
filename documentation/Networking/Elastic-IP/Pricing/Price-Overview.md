@@ -1,10 +1,10 @@
-# Price overview
+# Price List
 
-The Elastic IP supports three billing types, including monthly package, pay by configuration, and pay by consumption.
+The Elastic IP supports three types of billing, including monthly package, pay by configuration, and pay by consumption.
 
 Billing by Fixed Bandwidth
 
-IP provider	| region	| bandwidth	| pay by configuration (RMB/hour)	 |monthly package (RMB/month) |
+IP provider	| region	| bandwidth	| pay by configuration (¥/hour)	 |monthly package (¥/month) |
 :---|:--- |---: |---: |---: |
 Single IP provider	| cn-north-1/cn-south-1/cn-east-1 | 1Mbps | 0.03	| 13	|
 Single IP provider	| cn-north-1/cn-south-1/cn-east-1 | 2Mbps | 0.06	| 26	|
@@ -21,9 +21,9 @@ BGP	| cn-north-1/cn-south-1/cn-east-1/cn-east-2 | over 5Mbps, per Mbps cost | 0.
  
 
 
-## Pay by Consumption
+## Billing by Consumption
 
-IP provider	| region	| IP retention cost (RMB/day)	 | traffic cost (RMB/GB) |
+IP provider	| region	| IP retention cost (¥/day)	 | traffic cost (¥/GB) |
 :---|:--- |---: |---: |
-Single IP provider	| cn-north-1/cn-south-1/cn-east-1 | 0.48| 65	|
+Single IP provider	| cn-north-1/cn-south-1/cn-east-1 | 0.48| 0.65	|
 BGP	| cn-north-1/cn-south-1/cn-east-1/cn-east-2 | 0.48 | 0.80	|

@@ -1,18 +1,14 @@
 [
     {
-        "name": "Website Building",
+        "name": "Website",
         "url": "https://www.jdcloud.com/solution/website"
     },
     {
-        "name": "JD YI Mobile Office",
+        "name": "JD XiaoYI Mobile Office",
         "url": "https://www.jdcloud.com/solution/xiaoyi"
     },
     {
-        "name": "Physics Resources Commit",
-        "url": "https://www.jdcloud.com/solution/tgy"
-    },
-    {
-        "name": "Small and Medium Business Office",
+        "name": "Small Enterprise Office",
         "url": "https://www.jdcloud.com/solution/enterprisecloud"
     },
     {
@@ -28,28 +24,20 @@
         "url": "https://www.jdcloud.com/solution/edu"
     },
     {
-        "name": "JD Cloud Intelligent Government-Industrial Cloud Solutions",
+        "name": "JD Huiyun – Industrial Cloud",
         "url": "https://www.jdcloud.com/solution/cyy"
     },
     {
-        "name": "JD Cloud Intelligent Government-Intelligent Cloud JD Micro Interconnection",
+        "name": "JD Huizheng – Intelligent Cloud  with JD Joylink",
         "url": "https://www.jdcloud.com/solution/zny"
     },
     {
-        "name": "Multi-deployment Scheme",
-        "url": "https://www.jdcloud.com/solution/hybrnamecloud"
+        "name": "Hybrid Deployment",
+        "url": "https://www.jdcloud.com/solution/hybridcloud"
     },
     {
-        "name": "Private Cloud Hosted Solutions",
+        "name": "Hosted Private Cloud",
         "url": "https://www.jdcloud.com/solution/tgy"
-    },
-    {
-        "name": "Big Data Privatization Deployment Scheme",
-        "url": "https://www.jdcloud.com/solution/xdata/JDP"
-    },
-    {
-        "name": "Multicloud Data Sharing Exchange Scheme",
-        "url": "https://www.jdcloud.com/solution/xdata/oneDXP"
     },
     {
         "name": "Commodity E-commerce Solutions",
@@ -60,23 +48,23 @@
         "url": "https://www.jdcloud.com/solution/trench"
     },
     {
-        "name": "Enterprise Purchase E-commerce Solutions",
+        "name": "Enterprise Purchasing E-commerce Solution",
         "url": "https://www.jdcloud.com/solution/purchase"
     },
     {
-        "name": "Boundless Retail E-commerce Solutions",
+        "name": "Boundless Retail Shopping Mall E-commerce Solution",
         "url": "https://www.jdcloud.com/solution/unboundedRetail"
     },
     {
-        "name": "Retail Online Store E-commerce Solutions",
+        "name": "Retail Shopping Mall E-commerce Solution",
         "url": "https://www.jdcloud.com/solution/resale"
     },
     {
-        "name": "Cross-border E-commerce Solutions",
+        "name": "Cross-border E-commerce Solution",
         "url": "https://www.jdcloud.com/solution/cebc"
     },
     {
-        "name": "Point Mall E-commerce Solutions",
+        "name": "Mileage Mall E-commerce Solution",
         "url": "https://www.jdcloud.com/solution/integral"
     },
     {
@@ -84,16 +72,8 @@
         "url": "https://www.jdcloud.com/solution/retailTechForum"
     },
     {
-        "name": "Entrepreneurship Support",
+        "name": "Startups Support",
         "url": "https://www.jdcloud.com/activity/dreamPartner"
-    },
-    {
-        "name": "Partners",
-        "url": "https://www.jdcloud.com/partner/index"
-    },
-    {
-        "name": "Partner Form",
-        "url": "https://www.jdcloud.com/partner/reg"
     },
     {
         "name": "Partner List",
@@ -104,28 +84,12 @@
         "url": "https://www.jdcloud.com/service/service"
     },
     {
-        "name": "About JD Cloud",
-        "url": "https://www.jdcloud.com/aboutus"
-    },
-    {
         "name": "Free Trial",
         "url": "https://www.jdcloud.com/service/experienceNew"
     },
     {
-        "name": "Trusted Center",
+        "name": "Trust Center",
         "url": "https://www.jdcloud.com/service/trustedCenter"
-    },
-    {
-        "name": "JD XI Cloud Computing",
-        "url": "https://www.jdcloud.com/activity/jd1"
-    },
-    {
-        "name": "Form Page",
-        "url": "https://www.jdcloud.com/news/subscription"
-    },
-    {
-        "name": "Success Page",
-        "url": "https://www.jdcloud.com/news/subscriptionSuccess"
     },
     {
         "name": "JD Cloud Journal",
@@ -140,7 +104,7 @@
         "url": "https://www.jdcloud.com/products/jdstack"
     },
     {
-        "name": "Price Calculator-Virtual Machine",
+        "name": "Price Calculator-Virtual Machines",
         "url": "https://www.jdcloud.com/calculator/calHost"
     },
     {
@@ -180,10 +144,6 @@
         "url": "https://www.jdcloud.com/activity/intel"
     },
     {
-        "name": "Data Center",
-        "url": "https://www.jdcloud.com/datacenter"
-    },
-    {
         "name": "Partner index",
         "url": "https://www.jdcloud.com/partner/index"
     },
@@ -192,163 +152,39 @@
         "url": "https://www.jdcloud.com/partner/reg"
     },
     {
-        "name": "JD Cloud Journal List Page",
-        "url": "https://www.jdcloud.com/news/journal"
-    },
-    {
-        "name": "JD Cloud Journal of May",
-        "url": "https://www.jdcloud.com/news/journalMay"
-    },
-    {
-        "name": "JD Cloud Journal of June",
+        "name": "JDCloud Journal June",
         "url": "https://www.jdcloud.com/news/journalJun"
     },
     {
-        "name": "JD Cloud Journal of July",
+        "name": "JDCloud Journal July",
         "url": "https://www.jdcloud.com/news/journalJuly"
     },
     {
-        "name": "JD Cloud Journal Subscription Application",
+        "name": "JDCloud Journal Subscription Application",
         "url": "https://www.jdcloud.com/news/subscription"
     },
     {
-        "name": "JD Cloud Journal Subscription Application Success Page",
+        "name": "JDCloud Journal Subscription Successful Application Page",
         "url": "https://www.jdcloud.com/news/subscriptionSuccess"
     },
     {
-        "name": "Cloud Drawing",
-        "url": "https://www.jdcloud.com/activity/cloudfuture"
-    },
-    {
-        "name": "Cloud Drawing Form",
-        "url": "https://www.jdcloud.com/activity/form"
-    },
-    {
-        "name": "Cloud Drawing Success Form",
-        "url": "https://www.jdcloud.com/activity/registerOk"
-    },
-    {
-        "name": "JDMall",
-        "url": "https://www.jdcloud.com/activity/1031"
-    },
-    {
-        "name": "JD No.1",
-        "url": "https://www.jdcloud.com/activity/number1host.html"
-    },
-    {
-        "name": "Happy Delivery",
-        "url": "https://www.jdcloud.com/activity/happygo"
-    },
-    {
-        "name": "All-people 618",
-        "url": "https://www.jdcloud.com/activity/sixtopic"
-    },
-    {
-        "name": "TLD",
-        "url": "https://www.jdcloud.com/activity/topDomain"
-    },
-    {
-        "name": "Pengyun swan",
-        "url": "https://www.jdcloud.com/activity/swan"
-    },
-    {
-        "name": "Pengyun swan Form",
-        "url": "https://www.jdcloud.com/activity/swanReg"
-    },
-    {
-        "name": "Summer Carnival",
-        "url": "https://www.jdcloud.com/activity/carnival"
-    },
-    {
-        "name": "Freestyle Cloud Computing",
-        "url": "https://www.jdcloud.com/activity/enterprise"
-    },
-    {
-        "name": "Binzhou Cooperation Activities",
-        "url": "https://www.jdcloud.com/activity/bzhz"
-    },
-    {
-        "name": "Price Insurance Activity",
-        "url": "https://www.jdcloud.com/activity/ssr"
-    },
-    {
-        "name": "Advanced Anti-DDoS Activity",
-        "url": "https://www.jdcloud.com/activity/ipanti"
-    },
-    {
-        "name": "Brand New Shanghai Data Center",
-        "url": "https://www.jdcloud.com/activity/shdatacenter"
-    },
-    {
-        "name": "Upgrade Enterprise Users",
-        "url": "https://www.jdcloud.com/activity/upgrade"
-    },
-    {
-        "name": "Intelligent Ji",
-        "url": "https://www.jdcloud.com/activity/zhihuiji"
-    },
-    {
-        "name": "Object Storage Service 2.0",
-        "url": "https://www.jdcloud.com/activity/oss_upgrade"
-    },
-    {
-        "name": "soho Enterprise Exclusive ",
-        "url": "https://www.jdcloud.com/activity/soho-3Q"
-    },
-    {
-        "name": "Gold Service",
+        "name": "Prime Service",
         "url": "https://www.jdcloud.com/service/bestService"
-    },
-    {
-        "name": "Start-up Support",
-        "url": "https://www.jdcloud.com/service/support"
-    },
-    {
-        "name": "Promotion Rebate",
-        "url": "https://www.jdcloud.com/service/promotionRebate"
     },
     {
         "name": "Data Report Forrester",
         "url": "https://www.jdcloud.com/service/forrester"
     },
     {
-        "name": "j-WMS Logistics System",
-        "url": "https://www.jdcloud.com/solution/loc"
+        "name": "JDCloud Journal August",
+        "url": "https://www.jdcloud.com/news/journalAugust"
     },
     {
-        "name": "j-WMS Logistics System 2.0",
-        "url": "https://www.jdcloud.com/solution/locjwms"
+        "name": "JDCloud Journal September",
+        "url": "https://www.jdcloud.com/news/journalSeptember"
     },
     {
-        "name": "Logistics Cloud Trial",
-        "url": "https://www.jdcloud.com/solution/wmsForm"
-    },
-    {
-        "name": "E-commerce Cloud Solutions",
-        "url": "https://www.jdcloud.com/solution/dsy"
-    },
-    {
-        "name": "Cloud Ding",
-        "url": "https://www.jdcloud.com/solution/yd"
-    },
-    {
-        "name": "Financial Cloud",
-        "url": "https://www.jdcloud.com/solution/financial"
-    },
-    {
-        "name": "JCStore",
-        "url": "https://www.jdcloud.com/solution/b2c"
-    },
-    {
-        "name": "JCMall",
-        "url": "https://www.jdcloud.com/solution/b2b"
-    },
-    {
-        "name": "Blockchain Cloud Solutions",
-        "url": "https://www.jdcloud.com/solution/blockchain"
-    },
-    {
-        "name": "Multicloud Solutions",
-        "url": "https://www.jdcloud.com/solution/hybridcloud"
+        "name": "Discount Page",
+        "url": "https://www.jdcloud.com/news/treatmentSuccess"
     }
 ]
