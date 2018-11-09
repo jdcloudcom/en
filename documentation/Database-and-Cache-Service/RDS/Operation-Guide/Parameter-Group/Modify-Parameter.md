@@ -6,6 +6,12 @@ The default value of all parameters in the parameter list is the value optimized
 * If the parameters you modify do not require restart, the parameters modified will be automatically applied to the associated database instance.
 * A parameter set can be associated with multiple different instances.
 
+## Parameter Description
+* [MySQL 5.6 Parameter Definition](https://dev.mysql.com/doc/refman/5.6/en/server-system-variables.html)
+* [MySQL 5.7 Parameter Definition](https://dev.mysql.com/doc/refman/5.7/en/server-system-variables.html)
+* [Percona 5.7 Parameter Definition](https://dev.mysql.com/doc/refman/5.7/en/server-system-variables.html)
+* [MariaDB 10.2 Parameter Definition](https://mariadb.com/kb/en/library/server-system-variables/)
+
 ## Action Steps
 1. Log in [Parameter Set Console](https://rds-console.jdcloud.com/paramgroup/list)
 2. Select the target parameter set requiring parameter modification and click the target parameter set to enter the Details Parameter Set.

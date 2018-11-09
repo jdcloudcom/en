@@ -2,10 +2,10 @@
 # Deploying Service
 
 **Kubernetes Service**   
--Kubernetes Service defines such a kind of abstraction: Logical grouping of Pod, a strategy that can visit them --- usually called micro service. This set of Pods can be visited by Service, usually through Label Selector (check below to see why you might need Services without selectors). Service is REST object in Kubernetes, similar to Pod. Like all REST objects, Service definitions can request apiserver to create new instances based on POST mode.
+- Kubernetes Service defines such a kind of abstraction: Logical grouping of Pod, a strategy that can visit them --- usually called micro service. This set of Pods can be visited by Service, usually through Label Selector (check below to see why you might need Services without selectors). Service is REST object in Kubernetes, similar to Pod. Like all REST objects, Service definitions can request apiserver to create new instances based on POST mode.  
 
-**JD Cloud Kubernetes integrates load balancer services, supports the creation of LoadBalance-type Services, and provides the secure and reliable network for applications.**
--Sufficient quota must be guaranteed for the load balancer created will occupy the load balancer quota in the local region.  
+**JD Cloud Kubernetes integrates load balancer services, supports the creation of LoadBalance-type Services, and provides the secure and reliable network for applications.**  
+- Sufficient quota must be guaranteed for the load balancer created will occupy the load balancer quota in the local region.  
 1. Create service that supports LoadBalance type. It's named myservice.yaml and defined as follows:
 ```
 kind: Service
@@ -61,17 +61,17 @@ The returned result is shown as follows:
 NAME       DESIRED   CURRENT   UP-TO-DATE   AVAILABLE   AGE
 my-nginx   2         2         2            2           4m
 ```
-6. Check the corresponding pod running state.
-`kubectl get pods -l run=myapp -o wide`
-The returned result is shown as follows:
+6. Check the corresponding pod running state.  
+`kubectl get pods -l run=myapp -o wide`  
+The returned result is shown as follows:  
 ```
 NAME                        READY     STATUS    RESTARTS   AGE       IP            NODE
 my-nginx-864b5bfdc7-6297s   1/1       Running   0          23m       172.16.0.10   k8s-node-vmtwjb-0vy9nuo0ym
 my-nginx-864b5bfdc7-lr7gq   1/1       Running   0          23m       172.16.0.42   k8s-node-vm25q1-0vy9nuo0ym
 ```
-7. Check out the service details:
-`kubectl describe service servicetest`
-You can view the endpoints associated to service:
+7. Check out the service details:  
+`kubectl describe service servicetest`  
+You can view the endpoints associated to service: 
 ```
 Name:                     servicetest
 Namespace:                default
@@ -93,10 +93,11 @@ Events:
   Normal   EnsuringLoadBalancer        11m (x9 over 26m)  service-controller  Ensuring load balancer
   Normal   EnsuredLoadBalancer         10m                service-controller  Ensured load balancer
 
-```
-8. Execute the following command to query the list of enpoints associated to service:
+```  
+**Note: LoadBalancer Ingress: 114.67.227.25 is an external EIP.**  
+8. Execute the following command to query the list of enpoints associated to service:  
 `kubectl get ep servicetest`  
-  Return:
+  Return:  
 ```
 NAME          ENDPOINTS                       AGE
 servicetest   172.16.0.10:80,172.16.0.42:80   28m
