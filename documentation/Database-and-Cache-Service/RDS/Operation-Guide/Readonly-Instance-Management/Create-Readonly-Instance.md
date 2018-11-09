@@ -20,7 +20,7 @@ JCS for MySQL/Percona/MariaDB service read-only instance is a single-node archit
     * Network: The region cannot be modified, and the network is in the same region as the main instance.
     * Purchases: The number of read-only instances of the same configuration.
     
-    ![image] (../../../../../image/RDS/1109_21.jpg)
+    ![image](../../../../../image/RDS/1109_21.jpg)
 
 5. Click ***Buy Now*** to enter the order confirmation page.
 6. Read the RDS Terms of Service and click ***Instant Account Setup*** to start creating read-only instances.

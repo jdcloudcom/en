@@ -14,6 +14,6 @@ The backup of instance will be stored on cloud storage server of JD Cloud. At pr
     * Click **OK** to complete backup operation.
     * Click **Cancel** to abandon backup operation.
 
-    ![backup] (../../../../../../image/RDS/1109_7.jpg)
+    ![backup](../../../../../../image/RDS/1109_7.jpg)
 
 4. Click **OK** to return Backup Policy Details page.

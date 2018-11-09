@@ -10,7 +10,7 @@ Users can create databases through the JCS for MySQL/Pecona/MariaDB service  man
     * Character Set: In addition to the default `utf8`, more options are provided, including `gbk`, `latin1` and `utf8mb4`, which can be selected as per the demand.
     * Authorized Account: Select an account that requires the access to the authorized database from the authorized accounts, click ***>***, the account will be added to the authorized account list. The default account access to the database is ***read-only***, and it can be modified to ***read/write***.
     
-    ![image] (../../../../../image/RDS/1109_12.jpg)
+    ![image](../../../../../image/RDS/1109_12.jpg)
 
 4. Click ***OK*** to complete the database creation and return to the list page for database management.
 
