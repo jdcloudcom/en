@@ -3,7 +3,7 @@
 ## 1. Operation Entrance
 The instance list page displays summary information of each instance under the current region. Click ***Delete*** at the rightmost of the instance.
 
-![Delete Instance 1](../../../image/RDS/Delete-Instance-1.png)
+![Delete Instance 1](../../../../../image/RDS/Delete-Instance-1.png)
 
 ## 2. Deletion Confirmation
 Click ***OK*** to delete.
