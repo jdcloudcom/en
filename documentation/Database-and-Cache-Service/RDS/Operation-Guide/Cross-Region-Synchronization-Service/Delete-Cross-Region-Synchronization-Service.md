@@ -11,4 +11,4 @@ The cross-region backup services can be manually deleted according to the servic
     * Click ***OK*** to delete the backup service.
     * Click ***Cancel*** to cancel the deletion of backup service.
 
-    ![image] (../../../../../1109_11.jpg)
+    ![image] (../../../../../image/RDS/1109_11.jpg)

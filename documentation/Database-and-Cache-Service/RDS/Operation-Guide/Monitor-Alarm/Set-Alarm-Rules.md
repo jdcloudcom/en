@@ -11,13 +11,13 @@ Users can set up monitoring items and create alarm rules, by which, the alarm wi
     * Delete: Delete the alarm monitoring item of the current row, which is not taken as a condition of the alarm.
     * Save as A New Alarm Rule Template: Tick on this box if to keep the current alarm rule as a template.
 
-    ![image] (../../../../../1109_15.jpg)
+    ![image] (../../../../../image/RDS/image/RDS/1109_15.jpg)
 
 4. Click ***Next*** to enter the notification contact settings interface, and parameter description of the interface are as follows
     * All Contacts: If the notification object is a contact, all contacts under the current account will be listed; if the notification object is a contact group, all contact groups under the current account will be listed.
     * Add a notification contact/contact group, click to select the contact/contact group in the all contact list, click the middle button ">", and the selected contact/contact group will be removed from the list of the contact library and added to the end of the selected contact list.
     * Remove the notification contact/contact group, click to select the contact/contact group in the selected contact list, click the middle button "<", the selected contact/contact group will be removed from the selected contact list and added to the end of the entire contact list.
     
-    ![image] (../../../../../1109_16.jpg)
+    ![image] (../../../../../image/RDS/image/RDS/1109_16.jpg)
 
 5. Click ***Next*** to complete the setting of the alarm rule.

@@ -12,6 +12,6 @@ JCS for SQL audit will not analyze the actual parameters, and a small number of 
     * Database: Specified JCS for SQL statements of the database can be viewed.
     * Account: JCS for SQL statement of the specified account can be viewed.
 
-    ! [Snapshot] (../../../../../1109_4.jpg)
+    ! [Snapshot] (../../../../../image/RDS/1109_4.jpg)
 
 3. Click ***Query*** to see a list of JCS for SQL that meets the requirements.

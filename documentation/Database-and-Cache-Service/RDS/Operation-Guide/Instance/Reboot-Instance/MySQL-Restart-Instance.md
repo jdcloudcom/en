@@ -15,4 +15,4 @@ When there are problems found in connections or performance in the instance, you
     * Click ***OK*** to reboot the instance.
     * Click ***Cancel*** to cancel the instance rebooting.
 
-    ![image] (../../../../../../1109_14.jpg)
+    ![image] (../../../../../../image/RDS/1109_14.jpg)
