@@ -14,4 +14,4 @@ You can download the Binlog files of JCS for  MySQL/Percona/MariaDB instance ser
     * Click ***Local Download*** to download Binlog files directly from the browser.
     * Click ***Cancel*** to cancel the download of Binlog files.
 
-    ![backup] (../../../../../1109_8.jpg)
+    ![backup] (../../../../../image/RDS/1109_8.jpg)

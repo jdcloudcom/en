@@ -15,4 +15,4 @@ When connecting count issues or performance issues of instances are found, you c
     * Click ***OK*** to complete the instance reset operation.
     * Click ***Cancel*** to call off the instance reset operation.
     
-    ![image] (../../../../../../1109_14.jpg)
+    ![image] (../../../../../../image/RDS/1109_14.jpg)

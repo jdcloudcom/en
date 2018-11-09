@@ -12,6 +12,6 @@ MariaDB instance automatic backup will have a default trigger time, which can be
     * Click ***OK*** to complete the modification of backup strategy.
     * Click ***Cancel*** to cancel the modification of backup strategy.
     
-    ![backup] (../../../../../../1109_6.jpg)
+    ![backup] (../../../../../../image/RDS/1109_6.jpg)
 
 4. Click ***OK*** to return to the detail page of backup strategy.

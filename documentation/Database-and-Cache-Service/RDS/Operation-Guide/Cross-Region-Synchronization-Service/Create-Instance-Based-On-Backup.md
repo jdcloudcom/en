@@ -25,7 +25,7 @@ Creating a new instance based on backup data refers to create a new instance by 
     * Deployment Mode: Currently, it supports single-availability zone deployment and multi-availability zone deployment.
     * Purchase Duration: The purchase duration shall be selected if the billing method is monthly package, with options varying from 1 month to 2 years. The longer the purchase duration, the greater the discount is, which shall be subject to the console.
     
-    ![image] (../../../../../1109_10.jpg)
+    ![image] (../../../../../image/RDS/1109_10.jpg)
 
 5. Click ***Buy Now*** to enter the order confirmation page.
 6. Read the RDS Terms of Service and finish subsequent operations as per instructions.

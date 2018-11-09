@@ -14,4 +14,4 @@ You can manually delete instance which is paid by configuration, according to wo
     * Click ***OK*** to delete the instance.
     * Click ***Cancel*** to cancel the instance deletion.
     
-    ![Screenshot](../../../../1109_3.jpg)
+    ![Screenshot](../../../../image/RDS/1109_3.jpg)
