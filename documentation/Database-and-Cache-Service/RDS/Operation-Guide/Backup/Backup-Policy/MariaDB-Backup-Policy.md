@@ -12,6 +12,6 @@ JCS for MariaDB instance automatic backup has a default trigger time supporting 
     * Click ***OK*** to complete modification of backup policy.
     * Click ***Cancel*** to give up modification of backup policy.
     
-    ![image2018-3-8 11_35_24.png](https://img1.jcloudcs.com/cms/c24d3cf4-4e58-4443-88d8-ee7e278ed42520180308115416.png)
+    ![backup](../../../../../../image/RDS/1109_6.jpg)
 
 4. Click ***OK*** to return Backup Policy Details page.

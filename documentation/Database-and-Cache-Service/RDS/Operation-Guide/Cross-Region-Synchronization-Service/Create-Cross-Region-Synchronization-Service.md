@@ -16,7 +16,7 @@ At present, the cross-region backup synchronization service is in the promotion 
     * Source Instance: Select the RDS service source instance ID that needs to enable the cross-region synchronization service. The instance of the cross-region backup synchronization service will not be displayed.
     * Target Region: Select the target region to be saved in the backup. It cannot be in the same region as the source instance.
 
-    ![Screenshot](https://img1.jcloudcs.com/cms/b250bb56-609a-4f6b-816c-17c22cd8fff920180725142235.png)
+    ![image](../../../../../image/RDS/1109_9.jpg)
 
 3. Confirm that the information is correct. Click ***OK***, and the cross-region backup synchronization service is created.
 4. After the cross-region backup synchronization service is created, the full backup and incremental backup of the source instance will continue to be synchronized to the target region. ***The latest data time point*** field in the service list page represents the latest backup data synchronization time point.

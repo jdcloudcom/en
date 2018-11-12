@@ -3,7 +3,7 @@ Creating a new instance based on backup data refers to create a new instance by 
 
 ## Precondition
 * Cross-region backup service permissions have been enabled.
-* The account balance (or the Coupon amount) shall not be less than RMB 50 if the resources are paid by configuration.
+* The account balanc[image](or the Coupon amount) shall not be less than RMB 50 if the resources are paid by configuration.
 
 ## Precautions
 * The data of the cross-region backup synchronization service is retained for 7 days, and you can select a data time point within 7 days to create a new instance.
@@ -25,7 +25,7 @@ Creating a new instance based on backup data refers to create a new instance by 
     * Deployment Mode: Currently, it supports single-availability zone deployment and multi-availability zone deployment.
     * Purchase Duration: The purchase duration shall be selected if the billing method is monthly package, with options varying from 1 month to 2 years. The longer the purchase duration, the greater the discount is, which shall be subject to the console.
     
-    ![Screenshot](https://img1.jcloudcs.com/cms/75c646b0-0a12-433a-b9e6-f4cacc4e3a5120180725142347.png)
+    ![image](../../../../../image/RDS/1109_10.jpg)
 
 5. Click ***Buy Now*** to enter the order confirmation page.
 6. Read the RDS Terms of Service and finish subsequent operations as per instructions.

@@ -14,6 +14,6 @@ JCS for SQL audit will not analyze the actual parameters, and a small number of 
     * Account: JCS for SQL statement of the specified account can be viewed.
     * Keywords: With specified keywords as the filtering condition, only JCS for SQL statements filtered out through specified keywords can be displayed.
 
-    ![Screenshot](https://img1.jcloudcs.com/cms/0fb72d45-8e54-4ef9-a4c1-a1af3b66421020180319113956.png)
+    ![Snapshot](../../../../../image/RDS/1109_4.jpg)
 
 3. Click ***Query*** to see a list of JCS for SQL that meets the requirements.
