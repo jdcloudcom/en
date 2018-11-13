@@ -1,4 +1,4 @@
-﻿# Basic Architecture
+# Basic Architecture
 
 JCS for Redis automatically sets up the primary and secondary nodes for users．
 
