@@ -1,60 +1,60 @@
 [
 	{
-		"funcName":"æº\u0090ä»£ç \u0081ä¸\u008Bè½½",
+		"funcName":"源代码下载",
 		"funcContent":[
 			{
 				"funcName":"",
-				"funcTitle":"æ\u0094¯æ\u008C\u0081è\u0087ªå\u008A¨ä¸\u008Bè½½Gitã\u0080\u0081GitHubä¸­ç\u009A\u0084ä»£ç \u0081",
+				"funcTitle":"支持自动下载Git、GitHub中的代码",
 				"funcP":""
 			}
 		]
 	},
 	{
-		"funcName":"ä¸»æµ\u0081è¯­è¨\u0080ç¼\u0096è¯\u0091",
+		"funcName":"主流语言编译",
 		"funcContent":[
 			{
 				"funcName":"",
-				"funcTitle":"æ\u0094¯æ\u008C\u0081 Javaã\u0080\u0081Golangã\u0080\u0081NodeJsã\u0080\u0081Pythonç­\u0089å¤\u009Aç§\u008Dç¼\u0096è¯\u0091ç\u008E¯å¢\u0083",
+				"funcTitle":"支持 Java、Golang、NodeJs、Python等多种编译环境",
 				"funcP":""
 			}
 		]
 	},
 	{
-		"funcName":"æ\u009E\u0084å»ºè\u0084\u009Aæ\u009C¬å\u008F\u0082æ\u0095°å\u008C\u0096",
+		"funcName":"构建脚本参数化",
 		"funcContent":[
 			{
 				"funcName":"",
-				"funcTitle":"ç³»ç»\u009Fæ\u0094¯æ\u008C\u0081é»\u0098è®¤æ\u009E\u0084å»ºå\u008F\u0082æ\u0095°ï¼\u008Cå\u0085\u0081è®¸è\u0087ªå®\u009Aä¹\u0089é\u0085\u008Dç½®æ\u009E\u0084å»ºå\u008F\u0082æ\u0095°å\u008F\u008Aæ\u009E\u0084å»ºè\u0084\u009Aæ\u009C¬ï¼\u008Cæ»¡è¶³ä¸ªæ\u0080§å\u008C\u0096æ\u009E\u0084å»ºé\u009C\u0080æ±\u0082",
+				"funcTitle":"系统支持默认构建参数，允许自定义配置构建参数及构建脚本，满足个性化构建需求",
 				"funcP":""
 			}
 		]
 	},
 	{
-		"funcName":"æ\u009E\u0084å»ºæ\u0097¥å¿\u0097",
+		"funcName":"构建日志",
 		"funcContent":[
 			{
 				"funcName":"",
-				"funcTitle":"æ\u0094¯æ\u008C\u0081æ\u009F¥ç\u009C\u008Bæ\u009E\u0084å»ºæ\u0097¥å¿\u0097ï¼\u008Cä¾¿äº\u008Eç\u0094¨æ\u0088·æ\u009F¥ç\u009C\u008Bæ\u009E\u0084å»ºç\u009A\u0084è¯¦ç»\u0086æ\u0083\u0085å\u0086µï¼\u008Cè¿\u009Bè¡\u008Cé\u0097®é¢\u0098å®\u009Aä½\u008Då\u008F\u008Aç\u009B¸åº\u0094å¤\u0084ç\u0090\u0086",
+				"funcTitle":"支持查看构建日志，便于用户查看构建的详细情况，进行问题定位及相应处理",
 				"funcP":""
 			}
 		]
 	},
 	{
-		"funcName":"æ\u009E\u0084å»ºå\u008E\u0086å\u008F²",
+		"funcName":"构建历史",
 		"funcContent":[
 			{
 				"funcName":"",
-				"funcTitle":"æ\u009F¥ç\u009C\u008Bå\u0085¨é\u0083¨ç¼\u0096è¯\u0091æ\u009E\u0084å»ºä»»å\u008A¡ï¼\u008Cå¹¶æ\u008F\u0090ä¾\u009Bä¸\u008Bè½½å\u008A\u009Fè\u0083½",
+				"funcTitle":"查看全部编译构建任务，并提供下载功能",
 				"funcP":""
 			}
 		]
 	},
 	{
-		"funcName":"æ\u009E\u0084å»ºå\u008C\u0085ä¸\u008Bè½½",
+		"funcName":"构建包下载",
 		"funcContent":[
 			{
 				"funcName":"",
-				"funcTitle":"æ\u0094¯æ\u008C\u0081ä¸\u008Bè½½æ\u009E\u0084å»ºå\u008C\u0085",
+				"funcTitle":"支持下载构建包",
 				"funcP":""
 			}
 		]
