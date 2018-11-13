@@ -24,7 +24,7 @@ Users can create databases through the JCS for SQL Server service management con
     * Character Set: With default of `Chinese_PRC_CI_AS`, more options are provided, including `Chinese_PRC_CS_AS`, `SQL_Latin1_General_CP1_CI_AS`, `SQL_Latin1_General_CP1_CS_AS` and `Chinese_PRC_BIN`, which can be selected as per the demand.
     * Authorized Account: Select an account that requires the access to the authorized database from the authorized accounts, click ***>***, the account will be added to the authorized account list. The default account access to the database is ***read-only***, and it can be modified to ***read/write***.
     
-![Create Database](../../../image/RDS/Create-Database-SQLServer.png)
+![Create Database](../../../../../image/RDS/Create-Database-SQLServer.png)
 
 4. Click ***OK*** to complete the database creation and return to the list page for database management.
 

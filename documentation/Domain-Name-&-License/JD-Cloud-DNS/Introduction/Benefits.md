@@ -10,7 +10,7 @@
 
   **Safety**
 
-  It provides the JD Cloud super bandwidth room, strong DDOS protection system protection, as well as more than 200G DNS protection capacity for your website protection. At the same time, the HTTPDNS interface is provided externally, and the customer can perform domain name resolution through the http protocol, effectively avoiding the problem of domain name hijacking. The HTTPDNS service uses BGP line to access, so that the access delay is smaller.
+  It provides the JD Cloud super bandwidth room, strong DDOS protection system protection, as well as more than 200G DNS protection capacity for your website protection.
 
   **Real-time Validation**
 

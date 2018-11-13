@@ -10,4 +10,4 @@ You can perform a full backup before testing if to perform some destructive test
 3. Click the tag of ***Backup Management***, select the target backup file, click ***Restore Based on Backup***, and the parameters of the pop-up box are as follows:
     * Click ***OK*** to complete the backup.
     * Click ***Cancel*** to cancel the backup creation.
-    ![Screenshot](../../../../image/RDS/restore-rds-instance.png)
+    ![Screenshot](../../../../../../image/RDS/restore-rds-instance.png)

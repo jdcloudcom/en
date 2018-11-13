@@ -2,87 +2,109 @@
 
 The billing cycle of Object Storage Service is based on day, which settles the bills of the previous day in a fixed time every day and the relevant charge standard within a billing cycle is shown as below:
 
-<body link="#0563C1" vlink="#954F72">
+## 对象存储价格概览
 
-<table border=0 cellpadding=0 cellspacing=0 width=673 style='border-collapse:
- collapse;table-layout:fixed;width:505pt;border-spacing: 0px;font-variant-ligatures: normal;
- font-variant-caps: normal;orphans: 2;text-align:start;widows: 2;-webkit-text-stroke-width: 0px;
- text-decoration-style: initial;text-decoration-color: initial'>
- <col width=96 style='mso-width-source:userset;mso-width-alt:3072;width:72pt'>
- <col width=160 style='mso-width-source:userset;mso-width-alt:5120;width:120pt'>
- <col width=219 style='mso-width-source:userset;mso-width-alt:6997;width:164pt'>
- <col width=198 style='mso-width-source:userset;mso-width-alt:6336;width:149pt'>
- <tr height=40 style='mso-height-source:userset;height:30.0pt'>
-  <td colspan=2 height=40 class=xl65 width=256 style='height:30.0pt;width:192pt'>Billing Items</td>
-  <td class=xl65 width=219 style='border-left:none;width:164pt'>Storage Unit Price of Standard type</td>
-  <td class=xl65 width=198 style='border-left:none;width:149pt'>Unit Price of reduced redundancy storage</td>
+<table>
+ <tr>
+  <td colspan="2">计费项</td>
+  <td>标准型存储单价</td>
+  <td>低冗余型存储单价</td>
  </tr>
- <tr height=40 style='mso-height-source:userset;height:30.0pt'>
-  <td rowspan=3 height=120 class=xl66 width=96 style='height:90.0pt;border-top:
-  none;width:72pt'>Storage Capacity</td>
-  <td rowspan=2 class=xl66 width=160 style='border-top:none;width:120pt'>Actual Bucket Usage</td>
-  S<td class=xl66 width=219 style='border-top:none;border-left:none;width:164pt'>RMB0.00427/GB/day</td>
-  <td class=xl66 width=198 style='border-top:none;border-left:none;width:149pt'>RMB0.00233/GB/day</td>
+ <tr>
+  <td rowspan="2">存储容量</td>
+  <td>实际存储空间占用量</td>
+  <td>0.00427元/GB/天<br>（0.128元/GB/月）</td>
+  <td>0.00233元/GB/天<br>（0.07元/GB/月）</td>
  </tr>
- <tr height=40 style='mso-height-source:userset;height:30.0pt'>
-  <td height=40 class=xl66 width=219 style='height:30.0pt;border-top:none;
-  border-left:none;width:164pt'>(RMB0.128/GB/month)</td>
-  <td class=xl66 width=198 style='border-top:none;border-left:none;width:149pt'>(RMB0.07/GB/month)</td>
+ <tr>
+  <td>数据取回量</td>
+  <td>-</td>
+  <td>暂时免费</td>
  </tr>
- <tr height=40 style='mso-height-source:userset;height:30.0pt'>
-  <td height=40 class=xl66 width=160 style='height:30.0pt;border-top:none;
-  border-left:none;width:120pt'>Data getting back amount</td>
-  <td class=xl66 width=219 style='border-top:none;border-left:none;width:164pt'>-</td>
-  <td class=xl66 width=198 style='border-top:none;border-left:none;width:149pt'>It is temporarily free</td>
+ <tr>
+  <td rowspan="6">访问流量</td>
+  <td>内网流入流量</td>
+  <td>免费</td>
+  <td>免费</td>
  </tr>
- <tr height=40 style='mso-height-source:userset;height:30.0pt'>
-  <td rowspan=6 height=240 class=xl66 width=96 style='height:180.0pt;
-  border-top:none;width:72pt'>Access Traffic</td>
-  <td class=xl66 width=160 style='border-top:none;border-left:none;width:120pt'>Intranet Input Traffic</td>
-  <td class=xl66 width=219 style='border-top:none;border-left:none;width:164pt'>Free</td>
-  <td class=xl66 width=198 style='border-top:none;border-left:none;width:149pt'>Free</td>
+ <tr>
+  <td>内网流出流量</td>
+  <td>免费</td>
+  <td>免费</td>
  </tr>
- <tr height=40 style='mso-height-source:userset;height:30.0pt'>
-  <td height=40 class=xl66 width=160 style='height:30.0pt;border-top:none;
-  border-left:none;width:120pt'>Intranet Output Traffic</td>
-  <td class=xl66 width=219 style='border-top:none;border-left:none;width:164pt'>Free</td>
-  <td class=xl66 width=198 style='border-top:none;border-left:none;width:149pt'>Free</td>
+ <tr>
+  <td>外网流入流量</td>
+  <td>免费</td>
+  <td>免费</td>
  </tr>
- <tr height=40 style='mso-height-source:userset;height:30.0pt'>
-  <td height=40 class=xl66 width=160 style='height:30.0pt;border-top:none;
-  border-left:none;width:120pt'>Internet Input Traffic</td>
-  <td class=xl66 width=219 style='border-top:none;border-left:none;width:164pt'>Free</td>
-  <td class=xl66 width=198 style='border-top:none;border-left:none;width:149pt'>Free</td>
+ <tr>
+  <td>外网流出流量</td>
+  <td>0.50元/GB</td>
+  <td>0.50元/GB</td>
  </tr>
- <tr height=40 style='mso-height-source:userset;height:30.0pt'>
-  <td height=40 class=xl66 width=160 style='height:30.0pt;border-top:none;
-  border-left:none;width:120pt'>Internet Output Traffic</td>
-  <td class=xl66 width=219 style='border-top:none;border-left:none;width:164pt'>RMB0.50/GB</td>
-  <td class=xl66 width=198 style='border-top:none;border-left:none;width:149pt'>RMB0.50/GB</td>
+ <tr>
+  <td>CDN回源流出流量</td>
+  <td>0.14元/GB</td>
+  <td>0.14元/GB</td>
  </tr>
- <tr height=40 style='mso-height-source:userset;height:30.0pt'>
-  <td height=40 class=xl66 width=160 style='height:30.0pt;border-top:none;
-  border-left:none;width:120pt'>CDN back-to-source output traffic</td>
-  <td class=xl66 width=219 style='border-top:none;border-left:none;width:164pt'>RMB0.14/GB</td>
-  <td class=xl66 width=198 style='border-top:none;border-left:none;width:149pt'>RMB0.14/GB</td>
+ <tr>
+  <td>跨区域复制流量</td>
+  <td>暂时免费</td>
+  <td>暂时免费</td>
  </tr>
- <tr height=40 style='mso-height-source:userset;height:30.0pt'>
-  <td height=40 class=xl66 width=160 style='height:30.0pt;border-top:none;
-  border-left:none;width:120pt'>Cross-region Replication Traffic</td>
-  <td class=xl66 width=219 style='border-top:none;border-left:none;width:164pt'>It is temporarily free</td>
-  <td class=xl66 width=198 style='border-top:none;border-left:none;width:149pt'>It is temporarily free</td>
+ <tr>
+  <td rowspan="2">请求次数</td>
+  <td>GET请求</td>
+  <td>暂时免费</td>
+  <td>暂时免费</td>
  </tr>
- <tr height=40 style='mso-height-source:userset;height:30.0pt'>
-  <td rowspan=2 height=80 class=xl66 width=96 style='height:60.0pt;border-top:
-  none;width:72pt'>Number of Requests</td>
-  <td class=xl66 width=160 style='border-top:none;border-left:none;width:120pt'>GET Request</td>
-  <td class=xl66 width=219 style='border-top:none;border-left:none;width:164pt'>It is temporarily free</td>
-  <td class=xl66 width=198 style='border-top:none;border-left:none;width:149pt'>It is temporarily free</td>
- </tr>
- <tr height=40 style='mso-height-source:userset;height:30.0pt'>
-  <td height=40 class=xl66 width=160 style='height:30.0pt;border-top:none;
-  border-left:none;width:120pt'>PUT Request</td>
-  <td class=xl66 width=219 style='border-top:none;border-left:none;width:164pt'>It is temporarily free</td>
-  <td class=xl66 width=198 style='border-top:none;border-left:none;width:149pt'>It is temporarily free</td>
+ <tr>
+  <td>PUT请求</td>
+  <td>暂时免费</td>
+  <td>暂时免费</td>
  </tr>
 </table>
+
+## 云端数据处理价格概览
+
+<table>
+ <tr>
+  <td colspan="3">计费项</td>
+  <td rowspan="2" align="center">单价</td>
+ </tr>
+ <tr>
+  <td rowspan="6">视频转码</td>
+  <td>编码方式</td>
+  <td>输出规格</td>  
+ </tr>
+ <tr>
+  <td rowspan="5">视频H.264</td>
+  <td>4K（3840×2160）及以下（即将上线）</td>
+  <td>0.2800 元/分钟</td>
+ </tr>
+ <tr>
+  <td>2K（2560×1440）及以下</td>
+  <td>0.1400 元/分钟</td>
+ </tr>
+ <tr>
+  <td>FHD（1920×1080）及以下</td>
+  <td>0.0650 元/分钟</td>
+ </tr>
+ <tr>
+  <td>HD（1280×720）及以下</td>
+  <td>0.0330 元/分钟</td>
+ <tr>
+  <td>SD（640×480）及以下</td>
+  <td>0.0220 元/分钟</td>
+ </tr>
+ <tr>
+  <td colspan="3">视频截图</td>
+  <td>0.1 元/千张</td>
+ </tr>
+<table>
+
+说明：
+
+- 转码费用 = 输出文件时长 x 转码单价
+- 输出规格判定：按输出视频分辨率的长边和短边属于输出规格划定的范围进行判定，方式如下：以输出  HD (1280 x 720)及以下 规格为例，输出视频的分辨率长边不大于1280且短边不大于720则属于该输出规格。如输出视频的长边大于1280或输出视频的短边大于720，该输出视频属于更高输出规格。
+- 若转码失败，失败时长不计入计费。

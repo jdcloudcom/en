@@ -10,7 +10,7 @@ Applicable to revision JDK 6 or above.
 
 Take revision 1.0.3 as an example, with the following steps:
 
-1. Download Java SDK [Java SDK](http://downloads.oss.cn-north-1.jcloudcs.com/jfs-jcloud-sdk-java-1.0.3-SNAPSHOT.jar)
+1. Download Java SDK [Java SDK](http://downloads.oss.cn-north-1.jcloudcs.com/jfs-jcloud-sdk-java-1.0.13.jar)
 
 2. Unzip the SDK.
 

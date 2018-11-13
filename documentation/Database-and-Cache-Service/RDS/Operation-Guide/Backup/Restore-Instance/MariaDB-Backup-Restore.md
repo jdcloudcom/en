@@ -10,4 +10,4 @@ If you needs to make destructive tests for instances of JCS for MariaDB, please 
 3. Click ***Backup Management***, select the target backup file, and click ***Restore Based on Backup*** in the actions column and the parameter description in the pop-up box is as follows:
     * Click **OK** to complete the backup creation operation.
     * Click **Cancel** to call off the backup creation operation.
-    ! [Snapshot](../../../../image/RDS/restore-rds-instance.png)
+    ! [Snapshot](../../../../../../image/RDS/restore-rds-instance.png)

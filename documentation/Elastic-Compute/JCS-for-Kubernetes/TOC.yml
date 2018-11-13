@@ -65,9 +65,11 @@
             href: Best-Practices/Deploy-Applications/Deploy-PV.md
          -  name: Deploy Service
             href: Best-Practices/Deploy-Applications/Deploy-Service.md
+     - name: Deploy Helm
+       href: Best-Practices/Deploy-Helm.md
   - name: FAQ  
-    href: Common-Problem.md    
+    href: Common-Problem.md
   - name: Related Resources
     items:
     - name: Document History
-      href: Related-Resources/Release-History.md 
+      href: Related-Resources/Release-History.md

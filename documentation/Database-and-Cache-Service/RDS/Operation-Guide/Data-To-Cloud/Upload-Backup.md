@@ -3,14 +3,14 @@
 - Click ***Generate an Uploading Key*** to generate a key for file authentication, login, etc.
 - Click on the last icon of key to copy the key automatically.
 
-![Upload Backup 1](../../../image/RDS/Upload-Backup-1.png)
+![Upload Backup 1](../../../../../image/RDS/Upload-Backup-1.png)
 
 ## 2. Download Uploading Tools
 
 - In the details of SQL Server instance, enter the page of ***Cloud on Single Database***, click ***Download Uploading Tool***, and download upload-tool.exe.
 - The uploading tool currently only supports windows versions.
 
-![Upload Backup 2](../../../image/RDS/Upload-Backup-2.png)
+![Upload Backup 2](../../../../../image/RDS/Upload-Backup-2.png)
 
 ## 3. Upload Files
 
