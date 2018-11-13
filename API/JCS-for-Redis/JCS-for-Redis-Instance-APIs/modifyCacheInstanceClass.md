@@ -20,7 +20,7 @@ https://redis.jdcloud-api.com/v1/regions/{regionId}/cacheInstance/{cacheInstance
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**cacheInstanceClass**|String|True| |The modified JCS for Redis type after the change, see: <a href='https://www.jdcloud.com/help/detail/411/isCatalog/1'>instance type code</a>|
+|**cacheInstanceClass**|String|True| |The modified JCS for Redis type after the change, see: <a href="https://docs.jdcloud.com/cn/jcs-for-redis/specifications">instance type code</a>|
 
 
 ## Response parameter

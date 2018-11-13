@@ -8,8 +8,8 @@ For the machines created in 2016 with cloud disk as system disk, the instance ty
 For the virtual machine of which the local disk (local type) serves as the system disk, no mutual adjustment is allowed for instance specifications of the first and second generations.<br>
 For the virtual machine created with high availability group (Ag), no mutual adjustment is allowed for instance specifications of the first and second generations.<br>
 For the virtual machine of which the cloud disk service (cloud type) serves as the system disk, mutual adjustment is allowed for instance specifications of the first and second generations.<br>
-If the number of elastic network interfaces in the current machine is greater than the number of elastic network interfaces allowed for new instance specification, error will be returned. Query <a href="http://docs.jdcloud.com/virtual-machines/api/describeinstancetypes”>DescribeInstanceTypes</a> API to obtain the instance specification information under the assigned region and availability zone.<br>
-The image used for the current machine is required to support the target instance specification to be changed, or error will be returned. Query <a href="http://docs.jdcloud.com/virtual-machines/api/describeimageconstraints”>DescribeImageConstraints</a> API to obtain the restriction information for instance specification of the assigned image.<br>
+## 1. General situation to create minimized parameter of a machine
+|InstanceSpec.SystemDisk   | System Disk Configuration|
 When the virtual machine is overdue or expires, the instance specification cannot be changed.
 
 
