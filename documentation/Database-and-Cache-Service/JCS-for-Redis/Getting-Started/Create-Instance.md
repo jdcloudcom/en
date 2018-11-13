@@ -12,7 +12,7 @@ This document introduces creating a new JCS for Redis instance through the JCS f
 1. Log in to [JCS for Redis Console](https://redis-console.jdcloud.com/redis).
 
 2. Click **Create** to jump to the instance creation page at the page of "Instance List" page.
-   ![Create Instance](https://github.com/jdcloudcom/cn/tree/edit/image/Redis/create-redis-instance.PNG)
+   ![Create Instance](../../../../image/Redis/create.jpg)
 
 3. Select payment method, region, specification, network, deployment plan, basic information, purchase, etc., at the newly created instance page.
 
