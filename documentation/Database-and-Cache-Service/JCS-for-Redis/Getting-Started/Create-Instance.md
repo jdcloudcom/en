@@ -1,4 +1,4 @@
-﻿# Create instance
+# Create instance
 
 You can create a new JCS for Redis instance in the JCS for Redis console or API. Please refer to "[Price Overview](../Pricing/Price-Overview.md)", "[Billing Rules](../Pricing/Billing-Rules.md)" for Billing Instructions for instance
 
@@ -9,7 +9,7 @@ This document introduces creating a new JCS for Redis instance through the JCS f
 - If the billing type is pay by configuration, please confirm that your account balance (including coupon) is not less than RMB 50.
 
 ## Action Steps
-1. Log in to [JCS for Redis Console](https://redis-console.jdcloud.com/redis).
+1. Log in to [JCS for Redis Console](https://github.com/jdcloudcom/en/blob/translationUse/image/Redis/create.jpg).
 
 2. Click **Create** to jump to the instance creation page at the page of "Instance List" page.
    ![Create Instance](https://github.com/jdcloudcom/cn/tree/edit/image/Redis/create-redis-instance.PNG)
