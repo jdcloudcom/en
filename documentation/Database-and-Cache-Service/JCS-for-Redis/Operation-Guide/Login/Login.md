@@ -2,5 +2,5 @@
 
 After logging in to the [JCS for Redis Console](https://redis-console.jdcloud.com/redis) using the account that purchased the Redis service, the system displays the JCS for Redis Instance List, as shown in the following figure:
  ![Login](https://github.com/jdcloudcom/cn/blob/master/image/Redis/login1.PNG)
- ![redis UI](https://github.com/jdcloudcom/cn/blob/master/image/Redis/login.png)
+ ![redis UI](https://github.com/jdcloudcom/en/blob/translationUse/image/Redis/login2.jpg)
 The listed instances can be managed here.
