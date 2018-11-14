@@ -4,7 +4,7 @@ JCS for Redis automatically sets up the primary and secondary nodes for users．
 
 
 
-![JCS for Redis Architecture](https://github.com/jdcloudcom/cn/tree/edit/image/Redis/redis-basicInfras.png)
+![JCS for Redis Architecture](https://github.com/jdcloudcom/en/blob/translationUse/image/Redis/redis-basicInfras.png)
 
 
  - Control Service: processing request tasks from users and backend, mainly including creation, deletion, query, configuration changes, failover, capacity expansion and capacity reduction, configuration change, etc.
