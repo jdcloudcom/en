@@ -1,216 +1,216 @@
-创建实例
+Create Instance
 
-包年包月
+Monthly Package
 
-优惠
+Discount
 
-按配置
+Pay by Configuration
 
-地域与可用区
+Region and Availability Zone
 
-所选地域资源限额已满，请切换地域或提交工单提升限额 
+The quota of resources of the selected region is full, please switch the region or open ticket to increase quota. 
 
-基本配置
+Basic Configuration
 
-配置
+Configuration
 
-TiDB Server 负责接收请求，处理SQL逻辑，与TiKV交互获取数据，并最终返回结果。推荐2个节点起
+TiDB Server is responsible for receiving requests, processing SQL logics, obtaining data by interacting with TiKV and returning results at last. Recommended at least 2 nodes
 
-详细请参考
+For details, please refer to
 
-TiKV使用Raft协议做复制，侯持数据的一致性和容灾，副本以Region为单位进行管理，默认为3个副本
+TiKV replicates via the Raft protocol and keeps data consistency and disaster tolerance. The replica conducts management as per Regions. There are 3 replicas by default.
 
 
-TiKV Server是一个分布式的提供事务的Key-Value存储引擎。推荐3个节点起 
+TiKV Server is a distributed Key-Value storage engine which is used for providing transactions. Recommended at least 3 nodes 
 
-网络
+Networking
 
-基本信息 
+Basic Information 
 
-密码至少包含字母，数字和符号~!@#$%&*()_+中的两种，长度不少于8字符不超过16字符 
+The password must include at least two types of letters, digits and characters such as ~, !, @, #, $, %, &, *, (), _ and + with the length not less than 8 characters and not more than 16 characters 
 
-购买量
+Purchase
 
-已选配置 
+Selected Configuration 
 
-立即购买
+Buy Now
 
-地域 
+Region 
 
-不同地域资源内网不互通，不可更改
+The different regional resource intranets cannot be connected to each other, and cannot be changed.
 
-华北-北京
+cn-north-1
 
-可用区 
+Availability Zone 
 
-数据库类型
+Database Type
 
-TiDB 规格
+TiDB Specification
 
-TiDB 节点数
+TiDB Node Quantity
 
-TiKV 规格
+TiKV Specification
 
-TiKV 存储空间
+TiKV Storage Space
 
-TiKV 数据副本数
+TiKV Data Replica Quantity
 
-TiKV 节点数
+TiKV Node Quantity
 
-网络
+Networking
 
-可用区
+Availability Zone
 
-数据库账号
+Database Account
 
-确认密码
+Confirm Password
 
-配置费用
+Configuration Cost
 
-优惠价
+Preferential Price
 
-请输入密码
+Please enter the password
 
-账号长度不少于8个字符并不能超过16个字符
+The account length cannot be less than 8 characters and cannot exceed 16 characters
 
-分布式数据库 TiDB
+TiDB Service
 
-重置密码
+Reset Password
 
-TiDB 配置
+TiDB Configuration
 
-域名
+Domain Name
 
-仅支持内网连接，详情请查看
+It only supports intranet connection. For details, please refer to
 
-连接实例
+Connection Instance
 
-订单金额
+Order Amount
 
-我已阅读并同意
+I have read and agreed
 
-分布式数据库 TiDB 试用服务条款
+TiDB Service Trial Service Terms
 
-应付金额
+Amount Payable
 
-订单总额
+Total Order Amount
 
-省￥0.00
+Save ￥0.00
 
-立即支付
+Pay Now
 
-立即开通
+Enable Now
 
-实例信息
+Instance Information
 
-计费类型
+Billing Type
 
-内网域名
+Intranet Domain Name
 
-数据副本数
+Data Replica Quantity
 
-存储空间
+Storage Space
 
-监控
+Monitoring
 
-节点管理
+Node Management
 
-复制成功
+Copied Successfully
 
-确认删除分布式数据库
+Confirm to delete distributed database
 
-删除成功
+Deleted Successfully
 
-已取消删除
+Deletion canceled
 
-请输入内容
+Please enter contents
 
-无分布式数据库 TiDB数据
+No TiDB Service data
 
-请输入内容
+Please enter contents
 
-无分布式数据库 TiDB数据
+No TiDB Service data
 
-名称
+Name
 
-状态
+Status
 
-计费信息
+Billing Information
 
-每页 10 条
+10 Per Page
 
-删除任务提交失败，请稍后重试
+Deletion task submission failed. Please try again later
 
-订单确认 
+Order Confirmation 
  
-支付确认
+Payment Confirmation
 
-订单完成
+Order completed
 
-产品类型
+Product Type
 
-产品详情
+Product Details
 
-计费类型
+Billing Type
 
-购买时长
+Purchase Duration
 
-费用
+Cost
 
-订单信息获取失败，请刷新后重试
+Obtaining order information failed. Please try again after refreshing
 
-创建实例任务提交成功,请手动刷新页面
+Instance creating task submission succeeded. Please refresh the page manually
  
-内存
+Memory
 
-存储空间 
+Storage Space 
 
-选择日期范围
+Select Date Range
 
-请选择
+Please Select
 
-最近一周
+Last Week
 
-最近一个月
+Last Month
 
-最近三个月
+Last Three Months
 
-集群存储使用大小
+Cluster Storage Utilization
 
-TiDB-查询请求总数
+TiDB - Total Quantity of Search Requests
 
-次/分钟
+Times/Minute
 
-TiDB-数据库活跃连接数
+TiDB - Database Active Connection Number
 
-个
+Nr.
 
-TiDB-内存使用量
+TiDB - Memory Utilization
 
-TiDB-CPU平均使用率
+TiDB - CPU Average Utilization Rate
 
-TiDB-INSERT语句统计
+TiDB - INSERT Statement Counting
 
-TiKV-使用空间
+TiKV - Used Space
 
-TiKV-内存使用量
+TiKV - Memory Utilization
 
-TiKV-CPU平均使用率
+TiDB - CPU Average Utilization Rate
 
-数据库账号
+Database Account
 
-新密码
+New Password
 
-确认新密码
+Confirm New Password
 
-账号长度不少于8个字符并不能超过16个字符
+The account length cannot be less than 8 characters and cannot exceed 16 characters
 
-重置密码失败，请稍后重试！
+Password resetting failed. Please try again later.
 
-新密码
+New Password
 
-确认新密码
+Confirm New Password
 
-提示
+Notification
     
     
