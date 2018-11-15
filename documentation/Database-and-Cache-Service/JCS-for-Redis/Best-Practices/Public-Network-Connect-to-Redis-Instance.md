@@ -12,7 +12,7 @@ Prerequisite: A JD Virtual Machine with Linux system, associate EIP which is in 
 
 - Machine IP: fill in the public IP of JD Cloud Virtual Machines
 
-![1](../../../../image/Redis/1.png)
+![1](https://github.com/jdcloudcom/en/blob/translationUse/image/Redis/network1.png)
 
 2. User Identification Login
 
@@ -22,13 +22,13 @@ Prerequisite: A JD Virtual Machine with Linux system, associate EIP which is in 
 
 - Password: password used to log in to JD Cloud Virtual Machines.
 
-![2](../../../../image/Redis/2.png)
+![2](https://github.com/jdcloudcom/en/blob/translationUse/image/Redis/network2.png)
 
 3. Set port forwarding rules
 
 - Select **Tunnel** under **SSH** and click **Add**
 
-![3](../../../../image/Redis/3.png)
+![3](https://github.com/jdcloudcom/en/blob/translationUse/image/Redis/network3.png)
 
 4. Fill in the transferring rules
 
@@ -40,9 +40,9 @@ Prerequisite: A JD Virtual Machine with Linux system, associate EIP which is in 
 
 - Target port: fill in the port of JCS for Redis; see JCS for Redis console for details; click **Instance Name** to enter the details of the instance page, **Resource Information** –> **Port**, and it is 6379 by default.
 
-![4](../../../../image/Redis/4.png)
+![4](https://github.com/jdcloudcom/en/blob/translationUse/image/Redis/network4.png)
 
 5. Connection Test (window client)
 
-![5](../../../../image/Redis/5.png)
+![5](https://github.com/jdcloudcom/en/blob/translationUse/image/Redis/5.png)
 
