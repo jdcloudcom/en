@@ -1,4 +1,4 @@
-﻿# Performance Monitoring
+# Performance Monitoring
 
 Currently, there are six types of monitoring: Memory Usage, Memory Utilization Rate, Intranet Inbound and Outbound Traffic, QPS, Hit Ratio, and the Number of Instance Keys:
 
@@ -33,4 +33,4 @@ Currently, a line chart is displayed. The minimum period of sampling data is 1 m
 
 If you want to view more detailed monitoring indicator data, please visit the Monitoring menu.
 
-![Monitoring](https://github.com/jdcloudcom/cn/tree/edit/image/Redis/monitoring.png)
+![Monitoring](https://github.com/jdcloudcom/en/blob/translationUse/image/Redis/monitor.PNG)
