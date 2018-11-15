@@ -94,11 +94,11 @@ Recommend direct use of JD Cloud SDK for access to JD Cloud OpenAPI. Please refe
 
 [Go](/SDK/Go/Go.md)
 
-[Node.js](/SDK/Nodejs/Node.js.md)
+[Node.js](/SDK/nodejs/Nodejs.md)
 
-[PHP](/SDK/PHP/PHP.md)
+[PHP](/SDK/PHP.md)
 
-[.Net](/SDK/dotnet/.Net.md)
+[.Net](/SDK/dotnet/dotnet.md)
 
 [C++](/SDK/cplusplus/cplusplus.md)
 

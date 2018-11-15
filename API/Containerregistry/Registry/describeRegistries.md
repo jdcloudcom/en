@@ -34,8 +34,8 @@ None
 |Name|Type|Description|
 |---|---|---|
 |**createTime**|String|rCreation Time of Registry|
-|**description**|String|Registry Description, <a href=”https://www.jdcloud.com/help/detail/3870/isCatalog/1”>refer to the public parameter specification</a>.|
-|**name**|String|Registry Name, <a href=”https://www.jdcloud.com/help/detail/3870/isCatalog/1”>refer to the public parameter specification</a>.|
+|**description**|String|Registry Description, <a href="https://www.jdcloud.com/help/detail/3870/isCatalog/1">refer to the public parameter specification</a>.|
+|**name**|String|Registry Name, <a href="https://www.jdcloud.com/help/detail/3870/isCatalog/1">refer to the public parameter specification</a>.|
 |**registryUri**|String|registry endporint url|
 |**totalSpaceUsedMB**|Number|reTotal Bucket Used by gsitry, unit: (MB)|
 

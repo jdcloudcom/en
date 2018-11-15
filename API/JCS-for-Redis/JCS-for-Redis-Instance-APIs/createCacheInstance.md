@@ -3,10 +3,10 @@
 
 ## Description
 Create JCS for Redis Instance of the Specified Configuration
-Specification Performance: The specifications for creating the JCS for Redis instance are divided into two versions: principal-subordinate version and cluster version. Each specification has the maximum number of connections, the internal network bandwidth cap, CPU processing capacity, specification code and other information, please see: <a href='https://www.jdcloud.com/help/detail/411/isCatalog/1'>instance type code</a>
+Specification Performance: The specifications for creating the JCS for Redis instance are divided into two versions: principal-subordinate version and cluster version. Each specification has the maximum number of connections, the internal network bandwidth cap, CPU processing capacity, specification code and other information, please see: <a href="https://docs.jdcloud.com/cn/jcs-for-redis/specifications">instance type code</a>
 Availability Zone: Available zone is a physical zone in which the infrastructure such as power and network are independent of each other in the same region. A zone contains one or more availability zones, and multiple availability zones in the same region can be connected to each other. Detailed information on the geographical availability zone can be found: <a href="https://www.jdcloud.com/help/detail/2222/isCatalog/1">Regional availability zone details</a>
-Virtual Private Cloud: referred to as VPC, which means the isolation network space with customized logic and supports for customized network segment, rout policy, etc. Specific information can be found: <a href="https://www.jdcloud.com/help/detail/1509/isCatalog/1">Virtual Private Cloud</a>
-Subnet: The subnet is the IP address block in the range of the VPC IP address, which is subnet for short. The subnet is created under the VPC. The segment in the same VPC cannot overlap and the segments of different VPCs can overlap. Specific information can be found: <a href="https://www.jdcloud.com/help/detail/1510/isCatalog/1">subnet details</a>
+Virtual Private Cloud: referred to as VPC, which means the isolation network space with customized logic and supports for customized network segment, rout policy, etc. Specific information can be found: <a href="https://docs.jdcloud.com/cn/virtual-private-cloud/vpc-features">Virtual Private Cloud</a>
+Subnet: The subnet is the IP address block in the range of the VPC IP address, which is subnet for short. The subnet is created under the VPC. The segment in the same VPC cannot overlap and the segments of different VPCs can overlap. Specific information can be found: <a href="https://docs.jdcloud.com/cn/virtual-private-cloud/subnet-features">subnet details</a>
 
 
 ## Request method
@@ -29,7 +29,7 @@ https://redis.jdcloud-api.com/v1/regions/{regionId}/cacheInstance
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**azId**|AzIdSpec|True| |The ID information of the availability zone of the region where the JCS for Redis instance is located|
-|**cacheInstanceClass**|String|True| |For JCS for Redis instance type code, see code table of instance type<a href='https://www.jdcloud.com/help/detail/411/isCatalog/1'>instance type code</a>.|
+|**cacheInstanceClass**|String|True| |For JCS for Redis instance type code, see code table of instance type<a href="https://www.jdcloud.com/help/detail/411/isCatalog/1">instance type code</a>.|
 |**cacheInstanceDescription**|String|False| |The description of the JCS for Redis instance cannot be more than 256 characters|
 |**cacheInstanceName**|String|True| |The name of the JCS for Redis instance only supports numbers, letters, underlines, Chinese, no less than 2 characters and no more than 32 characters|
 |**password**|String|False| |Password contains and only supports letters and numbers with no less than 8 characters and no more than 16 characters. If the password is null, it means password-free.|

@@ -8,3 +8,4 @@ If you need to change your old password or forget your password, you can reset t
 
 3. Click the **Action** in the upper right corner, select **Change Password** in the pull-down menu, enter the new password in the pop-up window, confirm password and click **OK**.
 ![Change Password](https://github.com/jdcloudcom/en/blob/translationUse/image/Redis/modifiypw.jpg)
+

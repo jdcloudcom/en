@@ -12,7 +12,7 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domain/{domainId}/
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**domainId**|String|True| |Domain Name ID, 请使用getDomains接口获取。|
+|**domainId**|String|True| |Domain Name ID, please use getDomains to get API.|
 |**regionId**|String|True| |Region ID to which the instance belongs|
 
 ## Request parameter

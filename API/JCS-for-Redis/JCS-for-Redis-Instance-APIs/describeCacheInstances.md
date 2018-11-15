@@ -51,7 +51,7 @@ https://redis.jdcloud-api.com/v1/regions/{regionId}/cacheInstance
 |---|---|---|
 |**auth**|Boolean|With or Without Password|
 |**azId**|AzId|Az Information|
-|**cacheInstanceClass**|String|Instance specification code, refer to<a href='https://www.jdcloud.com/help/detail/411/isCatalog/1'>Instance Specification Code</a>|
+|**cacheInstanceClass**|String|Instance specification code, refer to<a href="https://www.jdcloud.com/help/detail/411/isCatalog/1">Instance Specification Code</a>|
 |**cacheInstanceDescription**|String|Instance Description|
 |**cacheInstanceId**|String|Instance ID|
 |**cacheInstanceMemoryMB**|Integer|Capacity, Unit: MB|
