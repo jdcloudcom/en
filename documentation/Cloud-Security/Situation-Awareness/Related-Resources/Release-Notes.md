@@ -1,38 +1,77 @@
 # Revision update
 
-- Cloud situation awareness v1.0
+## Cloud situation awareness v1.0
 
-- - Basic security capacity
+#### Basic security capacity
 
-  - - - - Common IDS invasion detection
+##### Common IDS invasion detection
 
-        - - Real-time detect hacker’s brute force crack attack, puppet machine, backdoor Trojan horses and other vicious traffic to protect the enterprise information system and network architecture against invasion. 
+* Real-time detect hacker’s brute force crack attack, puppet machine, backdoor Trojan horses and other vicious traffic to protect the enterprise information system and network architecture against invasion. 
 
-        - Application layer attack detection (WebIDS) 
+##### Application layer attack detection (WebIDS) 
 
-        - - Real-time detect SQL injection, XSS attack, code/command execution, remote file inclusion, local file inclusion, script Trojan horse, vulnerability upload, unauthorized access, CSPF, path traversal, service deny, CRLF and other attacks. 
+* Web Injection
+* XSS Attack
+* Code/Command Execution
+* File Containing Attack
+* Malicious/Backstage File Attacks
+* Unauthorized Access
+* Sensitive Files Detection
 
-- Cloud situation awareness v2.0
+## Cloud situation awareness v2.0
 
-- - Security capacity improvement
+#### Security capacity improvement
 
-  - - - - Puppet machine behavior-External DDoS attack
-        - Puppet machine behavior- External suspicious connection
-        - Puppet machine behavior-Malicious software
-        - Brute force crack-subject to brute force crack 
-        - Brute force crack-brute force crack succeeded
-        - Hacker’s illegal login-Long-distance login
-        - Abnormal download-Database file download 
-        - Abnormal download-Backup files download 
-        - Vulnerability screening-machine screening
-        - Weak password-system weak password 
-        - Vulnerability scanning-application vulnerability attack 
-        - webshell detection
-        - Application vulnerability scanning 
+##### Puppet machine behavior
 
-  - Bottom security capacity improvement
+* External DDoS attack
+* External suspicious connection
+* Malicious software
 
-  - - - - Alarm log aggregation 
-        - Real-time association analysis
-        - Network monitor and forensics
-        - Access to DDoS attack data 
+##### Brute force crack
+
+* Subject to brute force crack 
+* Brute force crack succeeded
+* System Weak Password
+
+##### Abnormal download
+
+* Database file download 
+* Backup files download 
+* Sensitive Files Download
+
+##### Scanning Behavior Identification
+
+* Machine Scanning
+* Application Scanning
+* Application Vulnerability Scanning
+
+##### Invasion Detection
+* webshell detection
+* Long-distance Login
+
+
+#### Bottom security capacity improvement
+
+* Alarm log aggregation 
+* Real-time association analysis
+* Network monitor and forensics
+* Access to DDoS attack data 
+
+## Cloud Situation Awareness v2.1
+
+#### Security Capacity Improvement
+
+##### Unknown Threat Discovery
+
+* Failed Machine Detection
+* DGA Domain Name Detection
+* Malicious File Download
+* Hidden Communication Channel Detection
+
+#### Underlayer Security Capacity Improvement
+
+* Off-line Association Analysis
+* Machine Learning and Exception Detection
+* Threat Information Integration
+* Dynamic Behavior Analysis - Sandbox

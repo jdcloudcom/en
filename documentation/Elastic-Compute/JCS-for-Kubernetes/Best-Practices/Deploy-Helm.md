@@ -1,19 +1,25 @@
 # Deployment Helm  
+With the business containerization and transformation to micro service-oriented architecture, a large single event is applied as multiple small monomers, so that each monomer can be independently deployed and extended, achieving agile development as well as rapid iteration and deployment. While bringing a lot of convenience, micro-services also lead to the sharp increase of the quantity of monomers, bringing a lot of challenges. Users hope to own the following functions to eliminate the challenges faced:  
+- Obtain a mass of common basic application templates rapidly  
+- Conveniently manage, edit and update a mass of Kubernetes configuration files  
+- Quickly share and diplex Kubernetes configuration and application  
+- Simply manage the release of application: rollback and view the release history  
+Helm emerges at the right moment. As a package management tool, it can perfectly respond the above challenges brought by the large-scale application arrangement made by Kubernetes.  
 ## Introduction  
 **1. Introduction to Helm**  
 Helm is a package management tool, packing Kubernetes resources (such as deployments, services and ingress) into a chart. With Helm, it can conveniently save chart in the chart repository for saving and sharing. Helm supports the version management releasing application configuration, making release configurable, simplifying version control, package, release, deletion, update and other operations for Kubernetes deployment and application.  
-As shown by investigation report released by Kubernetes, 64% users use Helm to manage applications run in the environment of Kubernetes. Now, Helm is independent of Kubernetes and is the CNCF independent project.    
+As shown by investigation report released by Kubernetes, 64% users use Helm to manage applications run in the environment of Kubernetes.    
 **2. Helm Architecture Chart**  
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/JCS-for-Kubernetes/Helm架构图.png)  
  The Helm architecture consists of the Helm client, the Tiller server end and the Chart repository. Upon deploying Tiller in Kubernetes, the Helm client can obtain the Chart package from the Chart repository, and install and deploy the same in JCS for Kubernetes.  
- **3. Features**  
+**3. Features**  
  Helm is a management tool for the Kubernetes package, having the capacities below:  
 - Creating new charts  
 -	Packing charts in tgz files  
 -	Interacting with the chart repository  
 -	Installing and un-installing applications of Kubernetes  
 -	Managing life cycle of charts installed with Helm    
-**4. Helm Components**  
+ **4. Helm Components**  
 Helm has two major components, including the Helm client and the Tiller server:  
 Helm client: This is command line tool used for the terminal users, with responsibilities below:  
 -	Developing local chart  
@@ -37,7 +43,7 @@ The client is responsible for management chart, while the server is responsible 
 `wget https://storage.googleapis.com/kubernetes-helm/helm-v2.7.2-linux-amd64.tar.gz`  
 2. Unzip  
  `tar -zxvf helm-v2.7.2-linux-amd64.tar.gz`  
-3. Find the binary system file in the unzipped directory, and move the same to the desired position
+3. Find the binary system file in the unzipped directory, and move the same to the desired position  
  `mv linux-amd64/helm /usr/local/bin/helm`
 4. Run commands below  
  `helm help`  
@@ -128,11 +134,15 @@ sources:
 version: 0.10.2
 ...
 ```  
-2. Install Software Package  
-**- WordPress Deployment**  
-WordPress Introduction:  
-WordPress was created in 2003, and gradually becomes the self-service blog tool used the most worldwide.  
-Executing Commands Below:  
+2. Install and deploy applications  
+**Demonstrate by taking WordPress and Nginx-Ingress as examples.**  
+  
+**Example 1: WordPress Deployment**   
+WordPress is a blog platform developed with PHP language, and it gradually becomes the most popularly used self-service blog tool in the world; it is also used as a content management system (CMS). WordPress has the following two benefits:  
+- It is a tool and function easy to learn, applicable to environment where coding is unavailable, and easy to understand.  
+- 功能强大，发布网站：如公司官网、创建博客、在线商店、社交网站、帮主论坛、视频网站等。  
+The following shows how to create WordPress quickly through Helm:  
+- Executing Commands Below:  
 `helm install stable/wordpress`  
 Outputting Information Below:  
 ```
@@ -151,15 +161,15 @@ NAME                         DESIRED  CURRENT  AGE
 boisterous-aardwolf-mariadb  1        1        1s
 ...
 ```
-As the Cloud Disk Service is required for the deployment, please create a PVC.  
+- As the Cloud Disk Service is required for the deployment, please create a PVC. JD Cloud JCS for Kubernetes services are integrated into JD Cloud Disk Service, and you may use JD Cloud Disk Service in the cluster as persistent storage. See details in [Deploy Persistent Storage](https://docs.jdcloud.com/cn/jcs-for-kubernetes/deploy-pv)    
 Enter commands below:  
 `kubectl get pvc`  
-Outputting Information Below:  
-···
+Output the information below, which is displayed as pending state:  
+```
 NAME                                 STATUS    VOLUME    CAPACITY   ACCESS MODES   STORAGECLASS   AGE
 boisterous-aardwolf-wordpress        Pending                                       default        2m
 data-boisterous-aardwolf-mariadb-0   Pending                                       default        2m
-···  
+```   
 Creating PVC with the name of boisterous-aardwolf-wordpress and data-boisterous-aardwolf-mariadb-0:  
 Taking boisterous-aardwolf-wordpress for example, please create the boisterous-aardwolf-wordpress.yaml file, with contents below:  
 ```
@@ -180,7 +190,7 @@ Deleting the original boisterous-aardwolf-wordpress:
 Executing creation:  
 `kubectl create -f boisterous-aardwolf-wordpress.yaml`  
 Create PVC with the name of data-boisterous-aardwolf-mariadb-0 according to the method.  
-Waite for a second and execute commands below:  
+- Waite for a second and execute commands below:  
 `kubectl get pod`  
 Output information below. If the status is running, it means the deployment succeeds.  
 ```
@@ -188,7 +198,7 @@ NAME                                             READY     STATUS    RESTARTS   
 boisterous-aardwolf-mariadb-0                    1/1       Running   0          57m
 boisterous-aardwolf-wordpress-7b94db45db-s4g8f   1/1       Running   0          57m
 ```  
-Execute commands below  
+- Execute commands below  
 `kubectl get svc`  
 Output information below  
 ```
@@ -197,13 +207,67 @@ boisterous-aardwolf-mariadb     ClusterIP      192.168.57.31    <none>         3
 boisterous-aardwolf-wordpress   LoadBalancer   192.168.60.113   114.67.94.77   80:31860/TCP,443:30346/TCP   1h
 kubernetes                      ClusterIP      192.168.56.1     <none>         443/TCP                      2d
 ```  
-114.67.94.77 is the IP for external access, with the access address of WordPress URL: http://114.67.94.77 and the information displayed below:  
+- 114.67.94.77 is the IP for external access, with the access address of WordPress URL: http://114.67.94.77 
+The information displayed below:  
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/JCS-for-Kubernetes/WordPress1.png)  
 WordPress Admin URL: http://114.67.94.77/admin  
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/JCS-for-Kubernetes/WordPress2.png)   
 User Name:user  
 Password:`$(kubectl get secret --namespace default boisterous-aardwolf-wordpress -o jsonpath="{.data.wordpress-password}" | base64 --decode)`  
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/JCS-for-Kubernetes/WordPress3.png)   
+- Delete an application, and execute the following commands:  
+`helm delete boisterous-aardwolf`  
+  
+**Example 2: Deploy Nginx-Ingress**  
+Ingress is one of the methods for external exposure service of JCS for Kubernetes, which uses the reverse proxy load balancer of open source to realize external exposure service, such as Nginx. It may provide URL, load balancer, SSL termination, HTTP route, etc. of cluster external access to service.  
+The following shows how to create Nginx-Ingress quickly through Helm:  
+- Download chart and decompress it    
+```
+helm fetch stable/nginx-ingress
+tar -zxvf nginx-ingress-0.30.0.tgz
+```  
+Modify the following contents of values.yaml, and repository is modified from k8s.gcr.io/defaultbackend to googlecontainer/defaultbackend-amd64  
+```
+ name: default-backend
+  image:
+    repository: googlecontainer/defaultbackend-amd64
+    tag: "1.4"
+    pullPolicy: IfNotPresent
+```  
+- 执行以下命名，进行安装：  
+`helm install nginx-ingress`  
+Output the Information Below:  
+```
+NAME:   fallacious-lionfish
+LAST DEPLOYED: Fri Nov  9 14:26:00 2018
+NAMESPACE: default
+STATUS: DEPLOYED
+
+RESOURCES:
+==> v1beta1/ClusterRoleBinding
+NAME                               AGE
+fallacious-lionfish-nginx-ingress  1s
+...
+```  
+- Check the execution state:  
+`helm install nginx-ingress`  
+Output the information below. If the state is running, it means the deployment succeeds:    
+```
+NAME                                                              READY     STATUS    RESTARTS   AGE
+fallacious-lionfish-nginx-ingress-controller-6499bbb6c5-76t9v     1/1       Running   0          8m
+fallacious-lionfish-nginx-ingress-default-backend-674cb8879rds9   1/1       Running   0          8m
+```  
+- Execute Commands Below:  
+`kubectl get service`  
+Output the Information Below:  
+```
+NAME                                                TYPE           CLUSTER-IP       EXTERNAL-IP    PORT(S)                      AGE
+fallacious-lionfish-nginx-ingress-controller        LoadBalancer   192.168.59.194   114.67.95.42   80:30296/TCP,443:30161/TCP   9m
+fallacious-lionfish-nginx-ingress-default-backend   ClusterIP      192.168.61.72    <none>         80/TCP                       9m
+kubernetes                                          ClusterIP      192.168.56.1     <none>         443/TCP                      2d
+```  
+- Delete an application, and execute the following commands:  
+`helm delete fallacious-lionfish`  
 
 ## Reference Information
 1. For details of Helm, please refer to the [Helm Official Website](https://docs.helm.sh/)   
