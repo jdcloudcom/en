@@ -20,8 +20,6 @@ For a description of the JD MapReduce billing instructions, please refer to: [Pr
 	   
 2. On the cluster management page, click **Create** to enter the creation page.
 
-	1. Software Setup
-	
 	   Instructions:
 	   
 	   -  High availability is enabled. The cluster will have two Masters: Active Namenode and Standby Namenode: two Namenodes form a mutual standby, one is in the Active state and is the primary Namenode, and the other is in the Standby state. It is the Namenode and only the master. The Namenode can provide read and write services to the outside;

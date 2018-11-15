@@ -16,21 +16,13 @@ This article describes how to configure job.
  
 3. Related Operation Instructions
  
- -  Immediate Execution
-    -  Click to execute the job immediately.
-
- -  Modify
-    -  ReConfigure Job.
- -  Cloning
-    -  Similar or Reconfigured Jobs.
- -  Delete
-    -  Deleting jobs directly will affect deploying jobs.
- -  Job Details
-    -  Click the job name to jump to the job details page and view the execution history.
- -  Executive History
-    -  Click the job name to jump to the job details page and view the execution history.
- -  Job Date Setting
-    -  The date after the date wildcard is also ${standard_date-1d} or ${standard_date-1h} can be formatted using the standard ${yyyyMMdd HH:mm:ss} format, where the standard_date part is equivalent to yyyyMMdd HH:mm:ss+Nd, Nd, +Nh, -Nh represent the addition and subtraction of the hour and day dimensions. Please go to the help documentation for more details.
+ -  Immediate Execution: Click to execute the job immediately.
+ -  Modify: ReConfigure Job.
+ -  Cloning: Similar or Reconfigured Jobs.
+ -  Delete: Deleting jobs directly will affect deploying jobs.
+ -  Job Details: Click the job name to jump to the job details page and view the execution history.
+ -  Executive History: Click the job name to jump to the job details page and view the execution history.
+ -  Job Date Setting: The date after the date wildcard is also ${standard_date-1d} or ${standard_date-1h} can be formatted using the standard ${yyyyMMdd HH:mm:ss} format, where the standard_date part is equivalent to yyyyMMdd HH:mm:ss+Nd, Nd, +Nh, -Nh represent the addition and subtraction of the hour and day dimensions. Please go to the help documentation for more details.
 
 
 
