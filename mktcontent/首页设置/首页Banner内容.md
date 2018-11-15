@@ -717,8 +717,8 @@
 	},
 	{
 		"sub_title":"致力于海量数据搜索与分析",
-		"image_Url":"//img1.jcloudcs.com/cms/498c3deb-f599-4e6a-b292-ade380ec3dc420181026165145.png",
-		"dynamic_image":"//img1.jcloudcs.com/cms/9a93cd67-f6e4-4c73-85da-dc0c3f9612bd20181026165149.png",
+		"image_Url":"//img1.jcloudcs.com/cms/97bb4e81-f345-4b78-86c3-2865f14925d320181115212850.png",
+		"dynamic_image":"//img1.jcloudcs.com/cms/27ed56b1-3464-4af3-9eb3-159e8a79e1a920181115212858.png",
 		"name":"云搜索Elasticsearch",
 		"id":"1031",
 		"button_title":"免费试用",
@@ -726,8 +726,8 @@
 	},
 	{
 		"sub_title":"融合威胁情报、动态行为检测、机器学习异常检测",
-		"image_Url":"//img1.jcloudcs.com/cms/2892fcda-60a0-4d64-9ebd-f39f96aec07020181029172004.png",
-		"dynamic_image":"//img1.jcloudcs.com/cms/db6f1930-9f4c-4228-920f-56d2a0206a5020181029172010.png",
+		"image_Url":"//img1.jcloudcs.com/cms/36338987-a6bb-4297-adca-c65771c5b6fb20181115212933.png",
+		"dynamic_image":"//img1.jcloudcs.com/cms/7127bcb5-ec7b-4549-aacb-46e51dcbdb6b20181115212943.png",
 		"name":"态势感知企业版开放公测",
 		"id":"1033",
 		"button_title":"立即申请",
@@ -735,8 +735,8 @@
 	},
 	{
 		"sub_title":"公网IP不用换，快速提升京东云内服务的抗D能力",
-		"image_Url":"//img1.jcloudcs.com/cms/bb5bd928-ae6f-494c-88bf-8b18b5cf2dc420181029174700.png",
-		"dynamic_image":"//img1.jcloudcs.com/cms/c724c17c-aee3-44f5-94a1-1f4223995f1e20181029174705.png",
+		"image_Url":"//img1.jcloudcs.com/cms/3d20335e-5cf4-4836-a458-f254afb529bb20181115213033.png",
+		"dynamic_image":"//img1.jcloudcs.com/cms/d384c1b7-f0ae-4b54-8999-56d8315e9f1420181115213038.png",
 		"name":"DDoS防护包上线公测",
 		"id":"1034",
 		"button_title":"查看详情",
@@ -754,8 +754,8 @@
 	},
 	{
 		"sub_title":"千条群发短信、3万京豆、百元代金券即领即送",
-		"image_Url":"//img1.jcloudcs.com/cms/4026bb0a-8022-4153-a4c4-8860ecd082b120181030170432.png",
-		"dynamic_image":"//img1.jcloudcs.com/cms/98eeaee0-5550-49d7-97bd-abbe2caa4c5020181030170436.png",
+		"image_Url":"//img1.jcloudcs.com/cms/01461228-bcab-4793-be2c-0d7b74741cf920181115213008.png",
+		"dynamic_image":"//img1.jcloudcs.com/cms/f9752d3f-7978-4148-b6bd-88c1090444db20181115213013.png",
 		"name":"1元限时领取价值500元会员大礼包",
 		"id":"1038",
 		"button_title":"立即领取",
@@ -763,11 +763,11 @@
 	},
 	{
 		"sub_title":"10月30日-11月30日，云市场PLUS产品惠聚齐发",
-		"image_Url":"//img1.jcloudcs.com/cms/9b052987-af19-4e99-9bb2-3a3ba579555920181105183716.png",
+		"image_Url":"//img1.jcloudcs.com/cms/f0d2d761-6da0-4c85-9eb9-f2203f4da24d20181115215851.png",
 		"name":"企惠购",
 		"id":"1041",
 		"button_title":"查看详情",
 		"main_title":"11.11企惠购",
-		"backgroud_image":"//img1.jcloudcs.com/cms/c11c838e-5b6e-4c0c-832b-ce705cd7343b20181105183738.png"
+		"backgroud_image":"//img1.jcloudcs.com/cms/6929106a-9914-4a52-a065-5c9369df4e9b20181115215904.png"
 	}
 ]
