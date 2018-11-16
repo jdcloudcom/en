@@ -1,49 +1,49 @@
 # executeRasQuery
 
 
-## 描述
+## Description
 Execute the Spark SQL script written by the user
 
-## 请求方式
+## Request method
 POST
 
-## 请求地址
+## Request address
 https://xdata.jdcloud-api.com/v1/regions/{regionId}/dwQuery:executeRasQuery
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
+|**regionId**|String|True| |Region ID|
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**callBackURL**|String|False||Callback address name|
-|**databaseName**|String|False||Database name|
-|**instanceName**|String|True||Instance name|
-|**instanceOwnerName**|String|False||Instance owner name|
-|**isExplain**|String|False||Is interpretation required or not|
-|**queueName**|String|False||Queue name|
-|**source**|String|False||Resource name|
-|**sql**|String|True||sql script|
-|**userName**|String|True||User name|
+|**callBackURL**|String|False| |Callback Address Name|
+|**databaseName**|String|False| |Database Name|
+|**instanceName**|String|True| |Instance Name|
+|**instanceOwnerName**|String|False| |Instance Owner Name|
+|**isExplain**|String|False| |Is interpretation required or not|
+|**queueName**|String|False| |Queue Name|
+|**source**|String|False| |Resource Name|
+|**sql**|String|True| |Sql Script|
+|**userName**|String|True| |User Name|
 
 
-## 返回参数
-|名称|类型|描述|
+## Response parameter
+|Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
-|**result**|[Result](##Result)||
+|**requestId**|String| |
+|**result**|Result| |
 
 
-### <a name="Result">Result</a>
-|名称|类型|描述|
+### Result
+|Name|Type|Description|
 |---|---|---|
-|**data**|Integer||
-|**message**|String||
-|**status**|Boolean||
+|**data**|Integer| |
+|**message**|String| |
+|**status**|Boolean| |
 
-## 返回码
-|返回码|描述|
+## Response code
+|Return code|Description|
 |---|---|
 |**200**|OK|
 |**500**|Internal server error|

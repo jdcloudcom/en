@@ -6,7 +6,8 @@ For image files, to avoid the risk of stolen images in the business, it is requi
 
 Set access rules for original image protection, if original rules exist, replace the original rules, when it is configured with access rules for original image protection, it shall be viewed as turning on original image protection function.
 
-Request Grammar
+Request Syntax
+
 ```
 PUT /?imgProtected HTTP/1.1
 Host: bucket.s3.region.jcloudcs.com
@@ -20,22 +21,23 @@ Authorization: <Authorization_String>
   <Extension>extension1</Extension>   
   <Extension>extension2</Extension> 
 </Condition>
+
 ```
 
 Request Header
 
-|Name| Description|Yes No Must|
+|Name| Description|Must or Not|
 |-|-|-|
-|Content-MD5|Upload MD5 value of data to verify whether data of the user is modified during transmission process. <br>Type: Character string<br>Default value: None|No|
+|Content-MD5|Upload MD5 value of data to verify whether data of the user is modified during transmission process. <br>Type: Character String<br>Default Value: None|No|
 
 Request Elements
 
-|Name| Description|Yes No Must|
+|Name| Description|Must or Not|
 |-|-|-|
-|Condition|Protection conditions of original image protection<br>Type: Container<br>Parent node: None<br>Children node: Extension|Yes|
-|Extension|Extension name of object, limit of length of a single tag: 1000 bytes, range: a-z A-Z 0-9. <br>Report error for non-conformance: 400, error code: InvalidImgProtectedCondition<br>Type: Character string<br>Parent node: Extension|Yes|
+|Condition|Protection conditions of original image protection<br>Type: Container<br>Parent Node: None<br>Children Node: Extension|Yes|
+|Extension|Extension name of object, limit of length of a single tag: 1000 bytes, range: a-z A-Z 0-9. <br>Report error for non-conformance: 400, error code: InvalidImgProtectedCondition<br>Type: Character String<br>Parent Node: Extension|Yes|
 
-Detailed analysis:
+Detailed Analysis:
 
 1. Length of http body uploaded by the user is limited to 4K, length of xml after blank removal is limited to 2K, report error for non-conformance: 400, error code: ImgProtectedConditionTooLarge
 
@@ -45,7 +47,8 @@ Detailed analysis:
 
 4. If bucket does not exist, return 404, error code: NoSuchBucket
 
-Request example:
+Request Example:
+
 ```
 PUT /?imgProtected HTTP/1.1
 Host: example-bucket.s3.cn-north-1.jcloudcs.com
@@ -57,7 +60,8 @@ Content-Length: 113
 <?xml version="1.0" encoding="UTF-8"?><Condition><Extension>jpg</Extension><Extension>png</Extension></Condition>
 ```
 
-Return example:
+Response Example:
+
 ```
 HTTP/1.1 200 OK
 Server: nginx
@@ -70,9 +74,10 @@ Cache-Control: no-cache
 
 ## GET Bucket ImgProtected Condition
 
-Get Configuration of bucket original image protection
+Get configuration of bucket original image protection
 
-Request Grammar
+Request Syntax
+
 ```
 GET /?imgProtected HTTP/1.1
 Host: bucket.s3.region.jcloudcs.com
@@ -82,11 +87,11 @@ Authorization: <Authorization_String>
 
 Response Elements
 
-|Name| Description|Yes No Must|
-|Condition|Protection conditions of original image protection<br>Type: Container<br>Parent node: None<br>Children node: Extension|Yes|
-|Extension|Extension name of object, limit of length of a single tag: 1000 bytes, range: a-z A-Z 0-9. <br>Report error for non-conformance: 400, error code: InvalidImgProtectedCondition<br>Type: Character string<br>Parent node: Extension|Yes|
+|Name| Description|Must or Not|
+|Condition|Protection conditions of original image protection<br>Type: Container<br>Parent Node: None<br>Children Node: Extension|Yes|
+|Extension|Extension name of object, limit of length of a single tag: 1000 bytes, range: a-z A-Z 0-9. <br>Report error for non-conformance: 400, error code: InvalidImgProtectedCondition<br>Type: Character String<br>Parent Node: Extension|Yes|
 
-Detailed analysis:
+Detailed Analysis:
 
 1. If original image protection configuration does not exist, return 404, error code: NoSuchImgProtectedCondition
 
@@ -94,7 +99,7 @@ Detailed analysis:
 
 3. If bucket does not exist, return 404, error code: NoSuchBucket
 
-Request example
+Request Example
 ```
 GET /?imgProtected HTTP/1.1
 Host: example-bucket.s3.cn-north-1.jcloudcs.com
@@ -102,7 +107,7 @@ X-Amz-Date: 20180117T122144Z
 Authorization: signatureValue
 ```
 
-Return example
+Response Example
 ```
 HTTP/1.1 200 OK
 Server: nginx
@@ -120,14 +125,14 @@ Cache-Control: no-cache
 
 Delete original image protection configuration, namely, turn off original image protection function.
 
-Request Grammar
+Request Syntax
 ```
 DELETE /?imgProtected HTTP/1.1
 Host: bucket.s3.region.jcloudcs.com
 Date: Date
 Authorization: <Authorization_String>
 ```
-Detailed analysis:
+Detailed Analysis:
 
 1. The original image protection rules of such bucket will be deleted at the same time of deleting bucket.
 
@@ -135,7 +140,7 @@ Detailed analysis:
 
 3. If bucket does not exist, return 404, error code: NoSuchBucket
 
-Request example
+Request Example
 ```
 DELETE /?imgProtected HTTP/1.1
 Host: example-bucket.s3.cn-north-1.jcloudcs.com
@@ -143,7 +148,7 @@ X-Amz-Date: 20180117T122640Z
 Authorization: signatureValue
 ```
 
-Return example
+Response Example
 ```
 HTTP/1.1 204 No Content
 Server: nginx

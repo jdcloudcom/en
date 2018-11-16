@@ -1,4 +1,4 @@
-# Billing Rule
+# Billing Rules
 
 Cloud resolution only supports one type of billing:
  * Monthly Package

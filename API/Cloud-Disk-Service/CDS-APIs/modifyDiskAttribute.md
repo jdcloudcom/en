@@ -1,35 +1,34 @@
 # modifyDiskAttribute
 
 
-## 描述
-Modify the name or description of the cloud disk service, specify either
+## Description
+Modify the name or description of the cloud disk, specify either
 
-## 请求方式
+## Request method
 PATCH
 
-## 请求地址
+## Request address
 https://disk.jdcloud-api.com/v1/regions/{regionId}/disks/{diskId}
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**diskId**|String|True||Cloud Disk Service ID|
-|**regionId**|String|True||Region ID|
+|**diskId**|String|True| |Cloud Disk ID|
+|**regionId**|String|True| |Region ID|
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**description**|String|False||Description of the cloud disk service. It allows you to enter all characters under UTF-8 encoding, but no more than 256 characters.|
-|**name**|String|False||Name of the cloud disk service. Only Chinese, numbers, uppercase and lowercase letters, English underline '_' and line-through '-' are allowed. It is not allowed to be blank and shall not exceed 32 characters.|
+|**description**|String|False| |Description of the cloud disk: It allows you to enter all characters under UTF-8 encoding, but no more than 256 characters.|
+|**name**|String|False| |Name of the cloud disk: Only Chinese characters, numbers, uppercase and lowercase letters, English underscores '_' and hyphens '-' are allowed. It is not allowed to be blank and shall not exceed 32 characters.|
 
 
-## 返回参数
-|名称|类型|描述|
-|---|---|---|
+## Response parameter
+None
 
 
 
-## 返回码
-|返回码|描述|
+## Response code
+|Return code|Description|
 |---|---|
 |**400**|Invalid parameter|
 |**401**|Authentication failed|

@@ -1,11 +1,11 @@
-  name: RDS OpenAPI
+  name: RDS
   href: 
   items:
-  - name: Interface Preview
+  - name: API Overview
     href: overview.md
   - name: Update History
     href: ChangeLog.md
-  - name: Interface Information
+  - name: API Information
     items:
       - name: Account Management
         items:
@@ -118,14 +118,14 @@
     items:
       - name: MySQL Instance Specifications
         href: Instance-Specifications/Instance-Specifications-MySQL.md
-      - name: Instance Specifications
+      - name: SQL Server Instance Specifications
         href: Instance-Specifications/Instance-Specifications-MySQL.md
 
   - name: Enum Instructions
     items:
       - name: Enum Definitions
         href: Enum-Definitions/Enum-Definitions.md
-      - name: Region And Availability Zone List
+      - name: Region and Availability Zone List
         href: Enum-Definitions/Regions-AZ.md
-      - name: Version
+      - name: Version Number
         href: Enum-Definitions/apiVersion.md

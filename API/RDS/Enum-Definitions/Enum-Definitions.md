@@ -1,19 +1,19 @@
 # Enumeration Type Definition
 
-- [engine RDS Engine Type](#engine-rds Engine Type)
-- [engineVersion RDS Engine Version](#engineversion-rds Engine Version)
-- [instanceStatus Instance Status](#instancestatus-Instance Status)
-- [dbStatus Database Status](#dbstatus-Database Status)
-- [accountStatus Account Status](#accountstatus-Account Status)
-- [privilege Database Access](#privilege-Database Access)
-- [characterSetName Database Character Set](#charactersetnam-Database Character Set)
-- [sqlAuditStatus Data Audit Status](#sqlauditstatus-Data Audit Status)
-- [connectionMode Access Mode](#connectionmode-Access Mode)
-- [backupStatus Backup Status](#backupstatus-Backup Status)
-- [backupType Backup Type](#backuptype-Backup Type)
-- [backupMode Backup Mode](#backupmode-Backup Mode)
-- [backupUnit Backup Granularity](#backupunit-Backup Granularity)
-- [instanceClass Instance Type](#instanceclass-Instance Type)
+- engine RDS Engine Type
+- engineVersion RDS Engine Version
+- instanceStatus Instance Status
+- dbStatus Database Status
+- accountStatus Account Status
+- privilege Database Access
+- characterSetName Database Character Set
+- sqlAuditStatus Data Audit Status
+- connectionMode Access Mode
+- backupStatus Backup Status
+- backupType Backup Type
+- backupMode Backup Mode
+- backupUnit Backup Granularity
+- instanceClass instance type
 
 ## engine RDS Engine Type
 
@@ -84,7 +84,7 @@
 |DELETE_ERROR|Delete Error|
 |ERROR|Exception|
 
-## privilege Database Access
+## privilege Database Access Privilege
 
 |Value|Description|
 |-|-|

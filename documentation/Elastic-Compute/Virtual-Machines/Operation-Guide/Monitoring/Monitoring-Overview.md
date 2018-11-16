@@ -14,7 +14,7 @@ JD Cloud provides the instance with the following monitoring items:
 * Monitoring data collection period is 1 minute;
 * The statistical period supports 1 hour, 6 hours, 12 hours, 1 day, 3 days, 7 days and 14 days by default. In addition, you can also set the statistical period, with the shortest 1 minute and the longest one month;
 * The monitoring values of different statistical periods are aggregated corresponding. For example, in the case of a 6-hour statistical period, a monitoring value is displayed on the monitoring map for 5 minutes. The monitoring value is the aggregation of the collected values ​​in the corresponding statistical period. Currently, only the average value is supported. In the near future, we will support three different aggregation methods of average, maximum and minimum values ​​and support you to set them on the page;
-* The monitoring data can be saved for up to 180 days. In the console, users can observe the monitoring data for 30 days. If you need to obtain monitoring data for 30 days-180 days, please submit the open ticket.
+* The monitoring data can be saved for up to 180 days. In the console, users can observe the monitoring data for 30 days. If you need to obtain monitoring data for 30 days-180 days, please open ticket.
 
 ## Others
 * bps indicates the number of bits transmitted per second, ps is per second, the same meaning as /s;

@@ -1,37 +1,37 @@
 # modifyNetworkInterface
 
 
-## 描述
-修改弹性网卡接口
+## Description
+Modify elastic network interface APIs
 
-## 请求方式
+## Request method
 PATCH
 
-## 请求地址
+## Request address
 https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkInterfaces/{networkInterfaceId}
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**networkInterfaceId**|String|True||networkInterface ID|
-|**regionId**|String|True||Region ID|
+|**networkInterfaceId**|String|True| |networkInterface ID|
+|**regionId**|String|True| |Region ID|
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**description**|String|False||描述,允许输入UTF-8编码下的全部字符，不超过256字符|
-|**networkInterfaceName**|String|False||弹性网卡名称,只允许输入中文、数字、大小写字母、英文下划线“_”及中划线“-”，不允许为空且不超过32字符|
-|**securityGroups**|String[]|False||以覆盖原有安全组的方式更新的安全组。如果更新安全组ID列表，最多5个安全组|
+|**description**|String|False| |Description, allow all characters under UTF-8 coding, not exceeding 256 characters|
+|**networkInterfaceName**|String|False| |Elastic Network Interface name, only allows Chinese, numbers, capital and lowercase letters, English underline “_” and line-through “-”, must provide a name which cannot exceed 32 characters|
+|**securityGroups**|String[]|False| |To replace the Security Group with mode update of the original Security Group. If the Security Group ID list is updated, a maximum of 5 Security Groups can be done|
 
 
-## 返回参数
-|名称|类型|描述|
+## Response parameter
+|Name|Type|Description|
 |---|---|---|
-|**requestId**|String|请求ID|
+|**requestId**|String|Request ID|
 
 
 
-## 返回码
-|返回码|描述|
+## Response code
+|Return code|Description|
 |---|---|
 |**200**|OK|
 |**400**|Request parameter x.y.z is 'xxx', expected one of [yyy,zzz]|

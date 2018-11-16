@@ -1,9 +1,9 @@
-## <div align=center>Service Agreements for JD Cloud User</div>
-this Agreement is between the user (“you”) and the holder (hereinafter referred to as “JD Cloud”) of JD Cloud website (“this website” for short, URL: www.jdcloud.com) on JD Cloud website services and other related matters. For the contract, please read this Agreement carefully. After you click the "Agree and Continue" button, this Agreement constitutes a legal document binding on both parties. <br/>
-JD Cloud provides users with the products and services displayed on this website (hereinafter referred to as “JD Cloud Service” and “this service”), and will continuously update the service content. The latest JD Cloud Service based on the presentation of relevant products and services introduction on this website and the actual offer to the user shall prevail.
+## <div align=center>Agreements for JD Cloud User Service</div>
+this Agreement is between the user ("you") and the holder (hereinafter referred to as "JD Cloud") of JD Cloud website ("this website" for short, URL: www.jdcloud.com) on JD Cloud website services and other related matters. For the contract, please read this Agreement carefully. After you click **Agree and Continue**, this Agreement constitutes a legal document binding on both parties. <br/>
+JD Cloud provides users with the products and services displayed on this website (hereinafter referred to as "JD Cloud Service" and "this service"), and will continuously update the service content. The latest JD Cloud Service based on the presentation of relevant products and services introduction on this website and the actual offer to the user shall prevail.
 <br/>
 ### 1. General<br/><br/>
-1.1 You confirm that you have fully read, understood and accepted the entire contents of these terms of this service (especially in bold and/or underlined content) before you use this service. Once you have selected "agree" and finish the registration process or used this service, you are deemed to agree to be bound by all the terms of this service. <br/>
+1.1 You confirm that you have fully read, understood and accepted the entire contents of these terms of this service (especially in bold and/or underlined content) before you use this service. Once you have selected **Agree** and finish the registration process or used this service, you are deemed to agree to be bound by all the terms of this service. <br/>
 1.2 You agree that JD Cloud has the right to unilaterally change the contents of this Agreement and the corresponding service rules at any time, and has the right to publish it by means of message push, webpage announcement, etc., without separately notifying you; if you continue to use this service after the change of the terms of this service, you are deemed to have fully read, understood and accepted the revised agreement, and use the service in accordance with the modified terms; if you do not agree to the modified terms of service, you shall stop using this service immediately.
 <br/><br/>
 ### 2. Account<br/><br/>
@@ -49,7 +49,7 @@ e) there are other occasions that JD Cloud has ample reasons to conduct unified 
 
 #### 2.2.2 You understand and agree that JD Cloud has the right to know the real background and purpose that you use the products and services on the website, and has the right to ask you to provide the true, comprehensive and accurate information; JD Cloud has the right to temporarily or permanently limit some or all of the functions of all products and/ or services in your account if you are suspected with reasonable grounds that the information you provide is incorrect, you make a false transaction, or your behavior violates website rules of JD Cloud.
 
-#### 2.2.3 You understand and agree that JD cloud has the right to temporarily stop or limit some or all of the fund payment functions under your account on the basis of the security of operation and transaction. JD Cloud will notify you through email, internal letter, SMS or phone. You shall pay attention to it in time and follow the procedures for complaint.
+#### 2.2.3 You understand and agree that JD Cloud has the right to temporarily stop or limit some or all of the fund payment functions under your account on the basis of the security of operation and transaction. JD Cloud will notify you through email, internal letter, SMS or phone. You shall pay attention to it in time and follow the procedures for complaint.
 
 #### 2.2.4 You understand and agree that JD Cloud has the right to query, freeze or deduct your personal information and the funds, transactions and accounts on this website in accordance with the requirements of the state judicial organ, the administrative organ, the military organ, the security organ, etc. (including but not limited to public security organ, inspection authority, the court, customs, taxation authorities, security departments, etc.).
 
@@ -88,7 +88,7 @@ To effectively ensure your legitimate rights and interests to use this service, 
 
 3.1.3 information sent to JD Cloud by other hardware, terminals, software, code name, coding, code and other account names bound with your account number;
 
-3.1.4 other ways agreed or approved by JD Cloud.
+3.1.4 Other Ways Agreed or Approved by JD Cloud.
 
 #### 3.2 In the course of using this service, the content of this service, notification for trading operations appearing on the page or the information sent to your mobile by JD Cloud (SMS, phone, etc.) are the relevant rule that you use this service. That you use this service indicates that you agree to the relevant rules of this service. You understand and agree that JD Cloud has the right to modify the relevant rules of the service unilaterally without the consent of you. The service rules shall be based on the notification appearing on the page (or SMS or phone sent to the mobile). When you use the service, you agree and comply with the service rules as the prerequisites.
 
@@ -98,9 +98,9 @@ To effectively ensure your legitimate rights and interests to use this service, 
 
 3.5 Before you start using a product or service from JD Cloud, you may need to sign a separate service agreement with JD Cloud on this product or service. You can use the product or service only after accepting the entire content of the service agreement; If you do not agree to some or all of the service agreement, please do not follow up.
 
-#### 3.6 When you use JD cloud service, JD cloud has the right to charge you the service charge according to the corresponding product/ product or service charge introduction, order and/ or related agreement. JD Cloud shall have the right to formulate and adjust the service fee, the specific service fee and other relevant rights and obligations are subject to the announcement of the charge mode listed on the page when you use this service or other written agreement with JD Cloud.
+#### 3.6 When you use JD Cloud service, JD Cloud has the right to charge you the service charge according to the corresponding product/ product or service charge introduction, order and/ or related agreement. JD Cloud shall have the right to formulate and adjust the service fee, the specific service fee and other relevant rights and obligations are subject to the announcement of the charge mode listed on the page when you use this service or other written agreement with JD Cloud.
 
-#### 3.7 When you use the corresponding products and services of JD Cloud, JD cloud will enter into specific service agreements (including but not limited to the service clauses and service level agreements of each product). The service agreement of the specific product that is in conflict with this Agreement, shall be subject to the specific service agreement, and if the specific agreement is not agreed, this Agreement shall prevail.
+#### 3.7 When you use the corresponding products and services of JD Cloud, JD Cloud will enter into specific service agreements (including but not limited to the service clauses and service level agreements of each product). The service agreement of the specific product that is in conflict with this Agreement, shall be subject to the specific service agreement, and if the specific agreement is not agreed, this Agreement shall prevail.
 
 #### 3.8 Special Notification
 
@@ -128,9 +128,9 @@ To effectively ensure your legitimate rights and interests to use this service, 
 ### 4. Your Rights and Obligations
 4.1 You have the right to enjoy the Internet technology and information service provided by JD Cloud, and to obtain the technical support, consultation and other services of JD Cloud when receiving the services provided by JD Cloud. Please refer to the relevant product introduction on this website for service content in detail.
 
-4.2 You promise not to use JD Cloud platform to engage in activities that endanger national interests, collective interests and legitimate interests of citizens, and shall not endanger the safety of JD cloud platform itself, or use technology or other means to destroy or disturb the websites of other customers of JD Cloud.
+4.2 You promise not to use JD Cloud platform to engage in activities that endanger national interests, collective interests and legitimate interests of citizens, and shall not endanger the safety of JD Cloud platform itself, or use technology or other means to destroy or disturb the websites of other customers of JD Cloud.
 
-4.3 You shall respect the intellectual property rights and other legitimate equity of JD Cloud and other third parties, and guarantee to protect JD Cloud and its shareholders, employees, partners, etc. from influences or losses in the event of violations of the above-mentioned equity; JD cloud reserves the right to terminate your service without returning any money to you when you violate the legitimate equity of JD Cloud.
+4.3 You shall respect the intellectual property rights and other legitimate equity of JD Cloud and other third parties, and guarantee to protect JD Cloud and its shareholders, employees, partners, etc. from influences or losses in the event of violations of the above-mentioned equity; JD Cloud reserves the right to terminate your service without returning any money to you when you violate the legitimate equity of JD Cloud.
 
 4.4 You shall be liable for all consequences caused by the incorrect contact information you provide to JD Cloud and poor email security and stability used to receive JD Cloud email, including but not limited to the consequences and losses caused by your failure to receive the relevant notice from JD Cloud in time.
 
@@ -142,7 +142,7 @@ To effectively ensure your legitimate rights and interests to use this service, 
 
 (1) you shall pay on time;
 
-(2) any breach or attempt to breach cyber security, etc. shall not occur.
+(2) any breach or attempt to breach network security, etc. shall not occur.
 
 #### 4.5.3. you and your affiliates are not those subject to trade restrictions, sanctions or other legal restrictions imposed by any State, international organization or region.
 
@@ -196,7 +196,7 @@ After freezing your account funds in accordance with the foregoing regulations, 
 
 
 ### 6. Protection of Privacy and Other Personal Information
-Once you agree to the terms of service or use of the service, you agree to use and disclose your personal information in accordance with the following terms.
+By agreeing to the terms of service or using the service, you agree that JD Cloud can use and disclose your personal information in accordance with the following terms.
 
 #### 6.1 Login Name and Password
 

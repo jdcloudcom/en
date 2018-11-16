@@ -1,47 +1,42 @@
 # describeMetrics
 
 
-## 描述
-Query indicator list available to get monitoring data based on resource type
+## Description
+Query metric list to get monitoring data list based on product type, metric reference <a href="https://docs.jdcloud.com/cn/monitoring/metrics">Metrics</a>
 
-## 请求方式
+## Request method
 GET
 
-## 请求地址
-https://monitor.jdcloud-api.com/v1/metrics
+## Request address
+https://monitor.jcloud.com/v1/metrics
 
-|名称|类型|是否必需|默认值|描述|
+
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
-|---|---|---|---|---|
-|**serviceCode**|String|True||Type of resource: <br>vm--> virtual machine<br>disk-->cloud disk<br>ip--> public IP<br>balance-->load balancer<br>database-->MySQL Service revision<br>cdn-->JD CDN<br>redis-->redis cloud cache<br>mongodb-->mongoDB cloud cache<br>storage-->cloud storage<br>sqlserver-->cloud database sqlserver revision <br>nativecontainer-->container<br>|
+|**serviceCode**|String|True| |Product Name: <br>vm--> Virtual Machine<br>disk-->Cloud Disk Service<br>ip--> Public IP<br>balance-->Load Balancer<br>database-->MySQL Service Version<br>cdn-->JD CDN<br>redis-->JCS for Redis<br>mongodb-->MongoDB Cloud Cache<br>storage-->Cloud Storage<br>sqlserver-->cloud Database Sqlserver Version <br>nativecontainer-->Container<br>|
 
 
-## 返回参数
-|名称|类型|描述|
+## Response parameter
+|Name|Type|Description|
 |---|---|---|
-|**requestId**|String|Requested identifier id|
-|**result**|[Result](##Result)||
+|**requestId**|String| |
+|**result**|Result| |
 
-
-### <a name="Result">Result</a>
-|名称|类型|描述|
+### Result
+|Name|Type|Description|
 |---|---|---|
-|**metrics**|[MetricDetail[]](##MetricDetail)||
-### <a name="MetricDetail">MetricDetail</a>
-|名称|类型|描述|
+|**metrics**|MetricDetail[]| |
+### MetricDetail
+|Name|Type|Description|
 |---|---|---|
-|**calculateUnit**|String|Computing unit of indicator, such as bit/s, %, byte|
-|**downSample**|String|Sampling frequency|
-|**metric**|String|English identifier of monitoring indicator|
-|**metricName**|String|Name of monitoring indicator|
-|**serviceCode**|String|Identifier of resource type|
+|**calculateUnit**|String|Computing unit of metric, such as bit/s, %, and byte|
+|**downSample**|String|Sampling Frequency|
+|**metric**|String|Metric|
+|**metricName**|String|Metric Name|
+|**serviceCode**|String|Identifier of Resource Type|
 
-## 返回码
-|返回码|描述|
+## Response code
+|Return code|Description|
 |---|---|
-|**200**|OK|
-|**400**|invalid parameter|
-|**500**|internal server error|
+|**200**|get Metric list of serviceCode|

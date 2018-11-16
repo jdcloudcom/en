@@ -16,4 +16,4 @@
 
  - What to do if the real name is already occupied?
 
- If it is prompted that the real name entered is already occupied during real-name verification, please first confirm whether you have personally performed personal real-name verification for other accounts on other websites of JD Group, and then select the “Associate Verified Account” to associate the current login account with the account information that has been verified with the real name.
+ If it is prompted that the real name entered is already occupied during real-name verification, please first confirm whether you have personally performed personal real-name verification for other accounts on other websites of JD Group, and then select the **Associate Verified Account** to associate the current login account with the account information that has been verified with the real name.

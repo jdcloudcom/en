@@ -1,62 +1,46 @@
 
 # Purchase Process
 
-**Limitations for Purchase of Container Instances **
+**Purchase Restriction for Native Container Instance and Native Container Pod**
 
- 1. Each user can create 20 container instances in each region; if you need to create more instances, you may request to increase the quota limit through opening ticket, and JD Cloud will increase the quota limit for you after evaluation based on your actual needs.
- 2. Container instance will support the adjustment to configuration later
- 3. A single instance is allowed to be associated with only 1 EIP
- 4. A single instance data disk is allowed to be mounted with up to 7 Cloud Disk Services
+ 1. Each user may create 5 Native Container Instances and Native Container Pods in each region; if you need to enable more resources, you may apply for configuration upgrade quota by open ticket, JD Cloud will improve quota after evaluation based on your actual demands.
+ 2. Configuration adjustment is not supported for the Native Container Instance and Native Container Pod.
+ 3. It is allowed to associate 1 EIP respectively to a single Native Container Instance or a single Native Container Pod.
+ 4. It is allowed to mount at most 8 cloud disks (including system disks) respectively to a single Native Container Instance or a single Native Container Pod.
 
-** Cloud Disk Service Methods and Limitations **
+**Cloud Disk Service Methods and Limitations**
 
-Purchase Method: 
+Purchase Method: Only support purchase with an instance
 
-System Disk: Only support purchase with an instance
+* The system disk file system supports the format of xfs or ext4. The system disk of container will be formatted depending on the file system format selected at the time of creating the Native Container Instance and the Native Container Pod.
 
-System disk file system format supports xfs or ext4; when creating a container, the system disk of the container will be formatted according to the file system format selected
+* The mounted directory of the system disk is the root directory "/" and cannot be modified
 
-The mounted directory of the system disk is the root directory "/" and cannot be modified
+* At present, the system disk must be deleted with the Native Container Instance and the Native Container Pod; the automatic deletion attribute can be set for the data disk; once the automatic deletion is selected, the data disk will be automatically deleted with the Native Container Instance and the Native Container Pod.
 
-The current system disk must be deleted together with the container
+* Support only the existing cloud disk services in the xfs or ext4 format as the data disks of containers, and adding cloud disk services in other file system formats will cause creation failure
 
-Data Disk: Support to purchase with or without instance 
+**Limitation for Purchase of Disk**
 
-Support to purchase with instance
+Each user may create 20 cloud disks in each region; if you need to create more cloud disks, more resources, you may apply for increasing quota by open ticket, JD Cloud will increase your quota after evaluation based on your actual demands.
 
-Please refer to Create Container Instance
+* At present, the system disk of the Native Container Instance only supports the SSD disk.
 
-Purchase without instance
+* It is allowed to mount at most 8 cloud disks (including system disks) respectively to a single Native Container Instance or a single Native Container Pod.
 
-The container instance supports only the data disks associated at the time of creation
-
-Support only the existing Cloud Disk Services in the xfs or ext4 format as the data disks of containers, and adding Cloud Disk Services in other file system formats will cause creation failure
-
-Please refer to Creating Cloud Disk Services
-
-Limitation for Purchase of Disk 
-
-Each user can create 20 Cloud Disk Services in each region; if you need to create more Cloud Disk Services, you may request to increase the quota limit through opening ticket, and JD Cloud will increase the quota limit for you after evaluation based on your actual needs.
-
-The system disk currently supports only SSD disks.
-
-A single instance data disk is allowed to be mounted with up to 7 Cloud Disk Services
-
-Only the Cloud Disk Services under monthly package support capacity expansion
+* Only the Cloud Disk Services under monthly package support capacity expansion
 
 
-** Methods and Limitations for Purchase of EIP**
-Purchase Method
+**Methods and Limitations for Purchase of EIP**
+**Purchase Method**
 
-EIP supports to purchase with or without an instance:
+* EIP supports to purchase with or without an instance:
 
-Support to purchase with instance
+* Support to purchase with instance
 
-Please refer to Create Container Instance
+**Separate Purchase**
 
-Purchase without instance
-
-Please refer to Create EIP
+Please refer to [Create EIP][1]
 
 Limitation of Elastic IP:
 
@@ -71,20 +55,5 @@ An instance can be associated/disassociated with EIP repeatedly. To replace the 
 The EIP under monthly package supports the upward adjustment of bandwidth; the EIP based on pay-by-configuration and pay-by-consumption supports the upward or downward adjustment of bandwidth.
 
 
-**Operation Steps:**
 
-I. Entrance 1: Product Introduction Page at the Official Website
-
-Open JD Cloud Official Website
-
-Select Products - Elastic Compute - Native Container
-
-Go to the Native Container Product Introduction page and Click Buy Now
-
-II. Entrance 2: Console
-
-Login to JD Cloud’s Console
-
-Select Elastic Compute - Native Container
-
-Go to Container Instance and Click Create
+  [1]: https://docs.jdcloud.com/cn/elastic-ip/create-elastic-ip

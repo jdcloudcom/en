@@ -19,7 +19,7 @@ In the authorization policy record, you can view the record of addition and diss
 ![View Policy 4](https://github.com/jdcloudcom/cn/blob/edit/image/IAM/Strategy%20Management/%E6%9F%A5%E7%9C%8B%E7%AD%96%E7%95%A54.jpg)
 
 # Create a policy
-On the Authorization Policy Management list page, click the 【Create】 to obtain two ways to create a customized policy. The first is the facilitation policy generator, and the second is the JSON policy editor.
+On the Authorization Policy Management list page, click the **Create** to obtain two ways to create a customized policy. The first is the facilitation policy generator, and the second is the JSON policy editor.
 ![Create Policy](https://github.com/jdcloudcom/cn/blob/edit/image/IAM/Strategy%20Management/%E5%88%9B%E5%BB%BA%E7%AD%96%E7%95%A5.jpg)
 
 # Facilitation policy generator
@@ -38,14 +38,14 @@ Note: After the region is switched, resources need to be reselected.
 After completing a set of resource permission configuration, you can continue to add permissions until you complete the policy setting.
 ![继续添加权限](https://github.com/jdcloudcom/cn/blob/edit/image/IAM/Strategy%20Management/%E7%BB%A7%E7%BB%AD%E6%B7%BB%E5%8A%A0%E6%9D%83%E9%99%90.jpg)
 
-Click the 【Next】 button, fill in the policy name and description, and then the policy can be generated.
+Click the **Next** button, fill in the policy name and description, and then the policy can be generated.
 ![生成策略](https://github.com/jdcloudcom/cn/blob/edit/image/IAM/Strategy%20Management/%E7%94%9F%E6%88%90%E7%AD%96%E7%95%A5.jpg)
 
 # JSON policy generator
 In the JSON policy generator, you can write JSON policies directly, or you can select a policy template before editing JSON documents.
 ![Json 选择模板](https://github.com/jdcloudcom/cn/blob/edit/image/IAM/Strategy%20Management/Json%20%E9%80%89%E6%8B%A9%E6%A8%A1%E6%9D%BF.jpg)
 
-Click the 【Select Template】 button to select a system policy or customized policy as the template.
+Click the **Select Template** button to select a system policy or customized policy as the template.
 ![Json 选择模板2](https://github.com/jdcloudcom/cn/blob/edit/image/IAM/Strategy%20Management/Json%20%E9%80%89%E6%8B%A9%E6%A8%A1%E6%9D%BF2.jpg)
 
 If you need to add other permissions on the selected policy template, you can click Add Permission to complete it in a convenient way.

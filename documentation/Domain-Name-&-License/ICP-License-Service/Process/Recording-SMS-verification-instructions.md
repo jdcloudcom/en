@@ -1,6 +1,6 @@
 # Checking Specifications of Filing SMS
 
-According to Inform of Start of Internet Basic Management Program by MIIT MIIT publication[2016]485. MIIT will check the SMS number of responsible person of the subject and responsible person of the website who submit the filing application through **ICP/IP address/domain name ICP Filing Management system**. Namely: After passing the check, JD Cloud will submit the filing information to Ofcom, and responsible person of the subject and responsible person of the website will receive the verification code sending by MIIT. Filing application can access the checking process of Province Ofcom only when verify completed in 48 hours. Now, ** Gansu, Tibet, Ningxia, Hainan, Xinjiang, Qinghai**, **Tianjin** are pilot provinces. Since 2017/12/18 9:00, users submitting filing application to the above province Ofcom should complete mobile checking first before access the checking process of province Ofcom. Please enter the verification code into province Ofcom website and complete the verification in time when verification code is received. Filing messages will be returned without verification in 48 hours.
+According to Inform of Start of Internet Basic Management Program by MIIT MIIT publication[2016]485. MIIT will check the SMS number of responsible person of the subject and responsible person of the website who submit the filing application through **ICP/IP address/domain name ICP Filing Management system**. Namely: After passing the check, JD Cloud will submit the filing information to the Communication Administration, and responsible person of the subject and responsible person of the website will receive the verification code sending by MIIT. Filing application can access the checking process of Communication Administration only when verify completed in 48 hours. Now, ** Gansu, Tibet, Ningxia, Hainan, Xinjiang, Qinghai**, **Tianjin** are pilot provinces. Since 2017/12/18 9:00, users submitting filing application to the above Communication Administration should complete mobile checking first before access the checking process of Communication Administration. Please enter the verification code into Communication Administration website and complete the verification in time when verification code is received. Filing messages will be returned without verification in 48 hours.
 
 **Currently Applicable Provinces**
 
@@ -8,7 +8,7 @@ According to Inform of Start of Internet Basic Management Program by MIIT MIIT p
 
 **SMS Verification Platform of Each Province**
 
-After receiving the verification code sending by MIIT, responsible person of the subject and responsible person of the website should access the filing province Ofcom website in a timely manner, click **filing SMS Verification**, enter the checking page, fill the certifications number, mobile number and verification code, and complete the verification.
+After receiving the verification code sending by MIIT, responsible person of the subject and responsible person of the website should access the filing Communication Administration website in a timely manner, click **Filing SMS Verification**, enter the checking page, fill the certifications number, mobile number and verification code, and complete the verification.
 
 SMS verification platform address of pilot provinces:
 
@@ -30,7 +30,7 @@ SMS verification platform address of pilot provinces:
 
 **Sending Principle of Verification Code**
 
-(1) Verification SMSs are only sent to responsible person of the subject and/or responsible person of the website whose filing order form is added or change. No change, no verification.
+(1) Verification SMSes are only sent to responsible person of the subject and/or responsible person of the website whose filing order form is added or change. No change, no verification.
 
 (2) Verification code is only sent once and verified once when responsible person of the subject and responsible person of the website is a same person (“Same person” was confirmed by the same mobile number).
 
@@ -40,19 +40,19 @@ SMS verification platform address of pilot provinces:
 
 (5) Verification code is a six-figure number, and no-repeated.
 
-(6) Verification code sending frequency and time span: Verification code should be received after receiving the information of filing Ofcom sending by JD Cloud around 5 minutes. MIIT will resend a verification code in the next day 12:00 am. Manual verification will be accepted as accessing the filing Province Ofcom website.
+(6) Verification code sending frequency and time span: Verification code should be received after receiving the information of filing Communication Administration sending by JD Cloud around 5 minutes. MIIT will resend a verification code in the next day 12:00 am. Manual verification will be accepted as accessing the filing Communication Administration website.
 
 **Effective Duration of Verification Code**
 
-(1) Verification code is effective within 48 hours. You need to access the province Ofcom website, enter certificates number, mobile number and verification code, and complete verification.
+(1) Verification code is effective within 48 hours. You need to access the Communication Administration website, enter certificates number, mobile number and verification code, and complete verification.
 
-(2) Your filing messages will transfer to Ofcom waiting for checking after passing the mobile verification.
+(2) Your filing messages will transfer to Communication Administration waiting for checking after passing the mobile verification.
 
-(3) Your filing messages will return to ISPs (JD Cloud) without verification or verification fails in 48 hours. You need to resubmit filing application and access the SMS verification progress again. Filing application messages should be sent to province Ofcom after completing verification.
+(3) Your filing messages will return to ISPs (JD Cloud) without verification or verification fails in 48 hours. You need to resubmit filing application and access the SMS verification progress again. Filing application messages should be sent to Communication Administration after completing verification.
 
 **Sending Number of Verification Code**
 
-Users of Telecom, Unicom and China Mobile will receive a verification code of fixed dialling. Fixed dialing cannot send message to virtual network operator.
+Users of Telecom, Unicom and China Mobile will receive a verification code of fixed dialing. Fixed dialing cannot send message to virtual network operator.
 
 (1) China Telecom accessing number: 106598051001
 
@@ -78,9 +78,9 @@ Users of Telecom, Unicom and China Mobile will receive a verification code of fi
 
 **How to Verify by SMS?**
 
-Please enter the verification code into province Ofcom website and complete the verification in time when verification code sending by MIIT is received.
+Please enter the verification code into Communication Administration website and complete the verification in time when verification code sending by MIIT is received.
 
-Step 1: Enter the filing Province Ofcom website, click the      **Filing SMS Verification**  button on Ofcom website, and access the checking page.
+Step 1: Enter the filing Communication Administration website, click      **Filing SMS Verification** on Communication Administration website, and access the checking page.
 
 ![2.png](https://img1.jcloudcs.com/cms/65e73149-db8a-4080-95c1-7c0090151f0b20171218111140.png)
 
@@ -104,25 +104,25 @@ Step 3: System will prompt that the verification is complete after passing the v
 
 **What to do if verification message is not received?**
 
-Please note to check the verification message sending by MIIT after receiving the notification of JD Cloud about that your filing message has already submitted to Ofcom waiting for checking. Verification message would be received within 5 minutes in general. If you still can’t receive the verification SMS after 5 minutes, please check:
+Please note to check the verification message sending by MIIT after receiving the notification of JD Cloud about that your filing message has already submitted to Communication Administration waiting for checking. Verification message would be received within 5 minutes in general. If you still can’t receive the verification SMS after 5 minutes, please check:
 
 (1) Whether your mobile communication network is available?
 
 (2) Whether you have set an intercept of SMS or installed a junk software of SMS intercept?
 
-**Ssolutions:**
+**Solutions:**
 
-(1) If the mobile communication network is not available, please transfer to somewhere the network is better, or enter the Ofcom website and re-send the verification SMS manually, or wait for a re-sending verification code in the next day 12:00 am from MIIT.
+(1) If the mobile communication network is not available, please transfer to somewhere the network is better, or enter the Communication Administration website and re-send the verification SMS manually, or wait for a re-sending verification code in the next day 12:00 am from MIIT.
 
 (2) Please close them if you have set an intercept of SMS or installed a junk software of SMS intercept If you cannot close them, please transfer your SIM card to other mobile.
 
-(3) If you canceled the verification message by accident, you can enter the filing province Ofcom website and re-send the message manually, or you can wait for a re-sending verification code in the next day 12:00 am from MIIT.
+(3) If you canceled the verification message by accident, you can enter the filing Communication Administration website and re-send the message manually, or you can wait for a re-sending verification code in the next day 12:00 am from MIIT.
 
 (4) Your filing application messages will be returned without verification in 48 hours. You need to resubmit filing application.
 
 **How to re-send the verification SMS manually?**
 
-Step 1: Enter the filing province Ofcom website, and click the **Filing SMS Verification**button on this page.
+Step 1: Enter the filing Communication Administration website, and click **Filing SMS Verification** on this page.
 
 ![7.png](https://img1.jcloudcs.com/cms/67a6282c-e4fc-4159-b31f-45298ac2721d20171218111458.png)
 
@@ -138,4 +138,4 @@ Step 4: Inform after sending successfully: **Your SMS is sending successfully.**
 
 ![11.jpg](https://img1.jcloudcs.com/cms/745eeabd-5cde-4d78-b337-e154d067ec7a20171218111720.jpg)
 
-Finally, check mobile, get verification code, and finish verifying on Ofcom website.
+Finally, check mobile, get verification code, and finish verifying on Communication Administration website.

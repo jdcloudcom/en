@@ -2,7 +2,7 @@
 
 **Precondition**: It has been confirmed through inspection that both Security Group and firewall have no limit on the port.
 
-**Causes for limit**: In order to improve the quality of emails sent from JD Cloud IP, it is the default to limit Virtual Machine to send emails to destination port 25.
+**Causes for limit**: In order to improve the quality of emails sent from JD Cloud IP, it is the default to limit Virtual Machines to send emails to destination port 25.
 
 **Method for lifting a ban**: When opening a ticket to apply for the White List of Email Business, the following information shall be provided:
 

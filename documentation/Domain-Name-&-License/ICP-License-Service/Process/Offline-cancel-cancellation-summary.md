@@ -2,7 +2,7 @@
 
 
 
-You can logout offline if the filing information of domain name is no longer use and cannot logout online through service providers. Access the Ofcom website where your domain name record number belongs to; download and print application form of logout of filing; and submit the form with your credentials to the Ofcom where recorded. Please fill and submit the logout application form according to the requirement for filing in the forms and the mode of submission. The logout website domain name cannot access after check passed by Ofcom. You can resubmit the filing application of this domain name after logout.
+You can logout offline if the filing information of domain name is no longer use and cannot logout online through service providers. Access the Communication Administration website where your domain name record number belongs to; download and print application form of logout of filing; and submit the form with your credentials to the Communication Administration where recorded. Please fill and submit the logout application form according to the requirement for filing in the forms and the mode of submission. The logout website domain name cannot access after check passed by Communication Administration. You can resubmit the filing application of this domain name after logout.
 
 For the forgotten filing password, refer to [How to Get Back the Password Filing in the Ministry](https://www.jcloud.com/help/detail/2061/isCatalog/1).
 
@@ -12,6 +12,6 @@ Please click to access the relevant website and be deregistered as requested if 
 
 - [Shanghai](https://beian.shca.gov.cn/)
 - [Sichuan](http://sccainfo.miitbeian.gov.cn/state/outPortal/queryMutualityDownloadInfo.action?id=11)(Account can apply for logout only when registered)
-- [Hunan](http://www.xca.gov.cn/TGJCMS/zwdt/index.htm)(All the online applications will be handled in a unified framework by local Ofcom.)
+- [Hunan](http://www.xca.gov.cn/TGJCMS/zwdt/index.htm)(All the online applications will be handled in a unified framework by local Communication Administration.)
 
-If the information, such as filing number was forgotten, plaese query in Public Inquiry page of the ICP Filing Management System of the Ministry of Industry and Information Technology of the PRC ([www.miitbeian.gov.cn](https://help.aliyun.com/knowledge_detail/www.miitbeian.gov.cn))
+If the information, such as filing number was forgotten, please query in Public Inquiry page of the ICP Filing Management System of the Ministry of Industry and Information Technology of the PRC ([www.miitbeian.gov.cn](https://help.aliyun.com/knowledge_detail/www.miitbeian.gov.cn))

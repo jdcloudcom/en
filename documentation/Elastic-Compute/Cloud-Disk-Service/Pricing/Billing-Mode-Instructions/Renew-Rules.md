@@ -2,11 +2,11 @@
 
 
 
-- Renewal of billing based on pay by configuration: the billing method of cloud disk paid by configuration will be changed into monthly package, and the renewal time period is 1 month~9 months, 1 year, and 2 years;
+- Renewal of billing based on pay by configuration: the billing method of Cloud Disk Service paid by configuration will be changed into monthly package, and the renewal time period is 1 month~9 months, 1 year, and 2 years;
 
 
 
-- Renewal of monthly package: Expand the use duration of monthly package cloud disk. The renewal time period is 1 month~9 months, 1 year and 2 years; if renewal is done before expiration of resources, the beginning time of the new order is the expiration time of the original order. If you complete renewal after expiration, the beginning time of the new order is the date of renewal.
+- Renewal of monthly package: Expand the use duration of monthly package Cloud Disk Service. The renewal time period is 1 month~9 months, 1 year and 2 years; if renewal is done before expiration of resources, the beginning time of the new order is the expiration time of the original order. If you complete renewal after expiration, the beginning time of the new order is the date of renewal.
 
 
 

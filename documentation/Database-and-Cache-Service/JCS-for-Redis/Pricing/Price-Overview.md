@@ -3,7 +3,7 @@
 ##  Price List
 The price is as follows (Unit: RMB), the specific price is subject to the console deduction
 
-Primary-secondary version
+Primary-secondary Version
 
 Specification (Memory)|Monthly Package (RMB/Month)|Pay by Configuration (Yuan/Hour)
 ---|:--:|---:

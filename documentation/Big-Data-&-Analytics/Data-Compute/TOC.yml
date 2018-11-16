@@ -1,0 +1,57 @@
+  name: Data Compute
+  href: 
+  items:
+  - name: Introduction
+    items:
+      - name: Product Overview
+        href: Introduction/Product-Overview.md
+      - name: Features
+        href: Introduction/Features.md
+      - name: Application Scenarios 
+        href: Introduction/Application-Scenarios.md    
+  - name: Pricing
+    items:
+      - name: Billing Overview
+        href: Pricing/Pricing.md
+      - name: Billing Rules
+        href: Pricing/Billing-Rules.md
+  - name: Operation Guide
+    items:
+      - name: Data Load
+        href: Operation-Guide/Data-Load.md
+      - name: Library List Management
+        href: Operation-Guide/DW-Management.md
+      - name: Management Object
+        href: Operation-Guide/File-Management.md
+      - name: Task Development
+        href: Operation-Guide/Task-Development.md 
+      - name: Task History
+        href: Operation-Guide/Task-History.md 
+      - name: User Management
+        href: Operation-Guide/User-Management.md 
+      - name: Permission Management
+        href: Operation-Guide/Authorization-Management.md 
+      - name: UDF Function
+        href: Operation-Guide/UDF-Function.md 
+      - name: Built-in Function
+        href: Operation-Guide/Built-in-Function.md       
+  - name: FAQ
+    items:
+      - name: Resources FAQ
+        href: FAQ/Resource-FAQ.md
+      - name: JDBC Connection FAQ
+        href: FAQ/JDBC-Connection-FAQ.md
+  - name: Document History
+    href: Related-Resources/Document-History.md     
+  - name: Terms of Service
+    href: Related-Resources/Service-Terms.md           
+    status:0      
+  - name: SLA
+    href: Related-Resources/SLA.md           
+    status:0       
+  - name: ICP Filing
+    href: Related-Resources/Filing.md           
+    status:0        
+  - name: Glossary
+    href: Related-Resources/Glossary.md           
+    status:0  

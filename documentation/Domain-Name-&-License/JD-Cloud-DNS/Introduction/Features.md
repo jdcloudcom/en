@@ -1,8 +1,8 @@
-# Features
+- # Features
 
   ### Basic Resolution
 
-  Multi-resolution record type, second-level TTL, high-extension sub-domain name level, multi-A record load balancer, Chinese domain name, unlimited resolution record additions, extensive resolution, URL forwarding.
+  Multi-resolution record type, second-level TTL, high-extension sub-domain name level, multi-A record Load Balancer, Chinese domain name, unlimited resolution record additions, extensive resolution, URL forwarding.
 
   ### **Intelligent Resolution**
 

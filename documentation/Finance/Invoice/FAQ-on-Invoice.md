@@ -43,9 +43,9 @@ The issuance of the following invoices is not supported currently:
 1. Mail the paper invoice
 Please mail your complete form of invoice back to JD Cloud. The mailing information is as follows:
 
-Address: 523, Tower A, Beichen Century Center, No.8, Beichen West Road, Chaoyang District, Beijing
+Address: 526, Tower A, Beichen Century Center, No.8, Beichen West Road, Chaoyang District, Beijing
 Contacts: JD Cloud After-sales Service Department
-Phone Number: 13661233451 (only invoice issues are accepted, and consultation on other questions is not accepted)
+Phone Number: 13954275898 (only invoice issues are accepted, and consultation on other questions is not accepted)
 After mailing, please be sure to contact the machine owner (either by phone or by SMS) to inform him or her of JD Cloud account and waybill number
 
 2. Submit on-line application for invoice return after mailing

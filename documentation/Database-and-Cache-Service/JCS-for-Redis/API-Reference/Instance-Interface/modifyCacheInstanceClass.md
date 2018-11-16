@@ -1,37 +1,37 @@
 # modifyCacheInstanceClass
 
-Description: change Redis instance configuration
+Description: Change JCS for Redis Instance Configuration
 
-- Request method
+- Request Method
 ```xml
 POST https://redis.jdcloud-api.com/v1/regions/{regionId}/cacheInstance/{cacheInstanceId}:modifyCacheInstanceClass
 ```
-Name|type|required or not|default|description
+Name|Type|Required or not|Default|Description
 ---|:--:|:--:|:--:|---:
-cacheInstanceId|String|True||Redis instance ID
-regionId|String|True||Region ID in the region where the Redis instance is located. At present, Redis includes North China, South China, and eastern China regions. The Region ID is cn-north-1, cn-south-1 and cn-east-2 respectively.
+cacheInstanceId|String|True||JCS for Redis instance ID
+regionId|String|True||Region ID in the region where the JCS for Redis instance is located. At present, JCS for Redis includes North China, South China, and eastern China regions. The Region ID is cn-north-1, cn-south-1 and cn-east-2 respectively.
 
-- Request parameter
+- Request Parameter
 
-Name|type|required or not|default|description
+Name|Type|Required or not|Default|Description
 ---|:--:|:--:|:--:|---:
-cacheInstanceClass|String|True||Redis Instance Type code after the change
+cacheInstanceClass|String|True||JCS for Redis Instance Type Code after the Change
 
-- Return parameter
+- Return Parameter
 
-Name|type|description
+Name|Type|Description
 ---|:--:|---:
 requestId|String|
 result|Result|
 
 - Result
 
-Name|type|description
+Name|Type|Description
 ---|:--:|---:
 orderNum|String|
 
-- Error code
+- Error Code
 
-Error code|description
+Error Code|Description
 ---|---:
 200|OK

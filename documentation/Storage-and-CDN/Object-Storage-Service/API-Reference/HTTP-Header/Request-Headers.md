@@ -1,4 +1,4 @@
-# Common request header
+# Common Request Header
 
 The following table includes Common Request Headers (HTTP Headers) in JD Cloud Storage API, these request headers can be used by all requests, the definitions are as follows:
 

@@ -45,4 +45,4 @@ At this time, you can scale the database cluster horizontally.
 
 **10. What is the performance Indicator?**
 
-In the case of large data volumes, comparing to MySQL, TiDB Service has a bigger advantage over QPS, TPS and response time. Specific indicators can be found in the official documentation: https://github.com/pingcap/docs-cn/blob/master/benchmark/sysbench.md
+In the case of big data volumes, comparing to MySQL, TiDB Service has a bigger advantage over QPS, TPS and response time. Specific indicators can be found in the official documentation: https://github.com/pingcap/docs-cn/blob/master/benchmark/sysbench.md

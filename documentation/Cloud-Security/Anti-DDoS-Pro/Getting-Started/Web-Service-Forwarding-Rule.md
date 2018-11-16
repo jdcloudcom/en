@@ -3,7 +3,7 @@
 The Web Service is the protection designed to protect the business of website domains. It supports traffic-based and application-oriented attack protection, including CC attack protection.
 
 ## Precondition
-- The Advanced Anti-DDoS has been successfully purchased and the billing status is normal.
+- The Advanced Anti-DDoS Pro has been successfully purchased and the billing status is normal.
 
 ## Operation Steps
 1. Select a purchased instance. Click the "Instance Name" or "Forwarding Setting" of operation bar to enter the Forwarding Setting page.
@@ -26,6 +26,6 @@ If the HTTP back-to-source is turned on, all protocols returning to the source s
 ## Related Reference
 
 - [Create Instance](Create-Instance.md)
-- [Billing Rules](../../Pricing/Billing-Rules.md)
+- [Billing Rules](../Pricing/Billing-Rules.md)
 - [FAQ](../FAQ/FAQ.md)
 

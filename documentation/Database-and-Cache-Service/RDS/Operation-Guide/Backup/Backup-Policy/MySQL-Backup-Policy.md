@@ -1,5 +1,5 @@
 # Backup Strategy
-MySQL service instance automatic backup will have a default trigger time, which can be customized.
+JCS for MySQL service instance automatic backup will have a default trigger time, which can be customized.
 
 ## Precautions
 * Automatic Backup: Daily backup, retained for 7 days.

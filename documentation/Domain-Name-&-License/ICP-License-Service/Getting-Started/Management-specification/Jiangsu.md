@@ -28,7 +28,7 @@
 
 3. All reported mobile numbers must be the local numbers of Jiangsu Province
 
-4. A filed subject may not be changed to another person  or unit
+4. A filed subject may not be changed to another person or unit
 
 5. **After the filed website has been opened**, there must be a hyperlink of the filing number and a mark for the copyright of the website under the webpage
 

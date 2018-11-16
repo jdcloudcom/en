@@ -1,10 +1,10 @@
-** This service term is a valid agreement between the owner of the JD Cloud website (referred to in this Agreement as "JD Cloud" website: **[www.jdcloud.com](https://www.jdcloud.com/)**) and you on matters relating to advanced anti-DDoS service. By stamping, clicking to confirm on the web page, or other ways to accept the Service Terms, including but not limited to the actual use of advanced anti-DDoS service of JD Cloud without clicking to confirm the Service Terms, you have reached an agreement with JD Cloud and agreed to accept all agreed contents of the Service Terms. In case of any inconsistency between the text stamped by both parties and the text of Service Terms accepted and confirmed by clicking the web page or other ways, the text stamped by both parties shall prevail.**
+**This service term is a valid agreement between the owner of the JD Cloud website (referred to in this Agreement as "JD Cloud" website:**[www.jdcloud.com](https://www.jdcloud.com/)**) and you on matters relating to Anti-DDoS Pro service. By stamping, clicking to confirm on the web page, or other ways to accept the Service Terms, including but not limited to the actual use of Anti-DDoS Pro service of JD Cloud without clicking to confirm the Service Terms, you have reached an agreement with JD Cloud and agreed to accept all agreed contents of the Service Terms. In case of any inconsistency between the text stamped by both parties and the text of Service Terms accepted and confirmed by clicking the web page or other ways, the text stamped by both parties shall prevail.**
 
-**For the Service Terms, you are reminded to pay special attention to the restriction and exemption terms, determination and handling terms of JD Cloud on your violations and breach of contract, and the selection terms of jurisdictional courts. Restriction and exemption terms may be indicated in bold or by underline for your attention. You should carefully read the entire contents of the Service Terms before accepting the Service Terms. If you have any questions about the Service Terms, please contact the relevant business department of JD Cloud and JD Cloud will explain the terms to you. If you do not agree on any of the contents of the Service Terms, or cannot accurately understand the interpretation of these terms made by JD Cloud, please do not continue the operation. **
+**For the Service Terms, you are reminded to pay special attention to the restriction and exemption terms, determination and handling terms of JD Cloud on your violations and breach of contract, and the selection terms of jurisdictional courts. Restriction and exemption terms may be indicated in bold or by underline for your attention. You should carefully read the entire contents of the Service Terms before accepting the Service Terms. If you have any questions about the Service Terms, please contact the relevant business department of JD Cloud and JD Cloud will explain the terms to you. If you do not agree on any of the contents of the Service Terms, or cannot accurately understand the interpretation of these terms made by JD Cloud, please do not continue the operation.**
 
 ## **1. Service Content**
 
-1.1. "Service" in the terms refers to the advanced anti-DDoS and related technical and network support services that JD Cloud provides to you at [www.jdcloud.com](https://www.jdcloud.com/).
+1.1. "Service" in the terms refers to the Anti-DDoS Pro and related technical and network support services that JD Cloud provides to you at [www.jdcloud.com](https://www.jdcloud.com/).
 
 1.2. The service provided by JD Cloud must comply with the provisions of the Service Terms.
 
@@ -42,7 +42,7 @@ You can select the pay-as-you-go mode. Please refer to the announcement on [www.
 
 ​3.1.3.1 If you use the services provided by JD Cloud to conduct operating or non-operating activities that require the license or approval of the relevant national authorities, you shall obtain the relevant license or approval, including but not limited to the following:
 
-If you set up multiple websites on the virtual machine service, you must ensure that all websites started have been licensed or approved by the relevant national authorities;
+If you set up multiple websites on the Virtual Machines service, you must ensure that all websites started have been licensed or approved by the relevant national authorities;
 
 If your website provides non-operating Internet information services, you must fill the non-operating website on the record, and ensure that all the filling information submitted is true and effective, and submit the updated information in the filing system in a timely manner when the filing information changes;
 
@@ -62,7 +62,7 @@ You understand and acknowledge that the above list does not cover all types of l
 
 3.1.3.3 If the services of JD Cloud involve the license of third-party software, you agree to abide by the relevant license agreement;
 
-3.1.3.4 Do Not Intersperse Email Ads or SPAMs: Do not use the services provided by JD Cloud to intersperse a large number of undesired or uncalled emails, electronic advertising or emails containing reactionary information, pornographic information or other harmful information;
+3.1.3.4 Do not intersperse Email Ads or SPAMs: Do not use the services provided by JD Cloud to intersperse a large number of undesired or uncalled emails, electronic advertising or emails containing reactionary information, pornographic information or other harmful information;
 
 3.1.3.5 The cloud server provided by JD Cloud shall not be used as a virtual server, or used as a disk space for rent, or used as an illegal proxy server or SPAM server;
 
@@ -108,9 +108,9 @@ You understand and acknowledge that the above list does not cover all types of l
 
 3.1.9 In view of limitation of the existing technology development level in this industry, you understand that JD Cloud cannot guarantee that the services it provides are flawless (for example, security products of JD Cloud cannot guarantee the absolute security of your hardware or software), but it promises to improve the service quality and service levels continuously. Therefore, you agree even if the services provided by JD Cloud have defects, the above-mentioned defects are unavoidable due to the technical level in the industry at the time, and it will not be regarded as JD Cloud's default. You agree to cooperate with JD Cloud to solve the above problems.
 
-3.1.10 Data backup is your obligation and responsibility. The virtual machine of JD Cloud may be configured with the necessary tools with daily data backup function, which does not mean that data backup is an obligation of JD Cloud. JD Cloud does not guarantee full backup of user data, nor does it assume any responsibility for user data backup work or results.
+3.1.10 Data backup is your obligation and responsibility. The Virtual Machines of JD Cloud may be configured with the necessary tools with daily data backup function, which does not mean that data backup is an obligation of JD Cloud. JD Cloud does not guarantee full backup of user data, nor does it assume any responsibility for user data backup work or results.
 
-3.1.11. The advanced anti- DDoS service of JD Cloud provides DDoS protection services only for the Internet users, including web-based and non-web-based business. Therefore, you understand and acknowledge that JD Cloud will provide you with corresponding DDoS protection services according to the advanced anti- DDoS package you purchase. If the attack traffic exceeds the protection bandwidth you purchase, your service may be interrupted by the excessive attack traffic. Please adjust the package in time to upgrade to a higher traffic protection bandwidth.
+3.1.11. The Anti-DDoS Pro service of JD Cloud provides DDoS protection services only for the Internet users, including web-based and non-web-based business. Therefore, you understand and acknowledge that JD Cloud will provide you with corresponding DDoS protection services according to the Anti-DDoS Pro package you purchase. If the attack traffic exceeds the protection bandwidth you purchase, your service may be interrupted by the excessive attack traffic. Please adjust the package in time to upgrade to a higher traffic protection bandwidth.
 
 3.2. Rights and Obligations of JD Cloud
 
@@ -122,13 +122,13 @@ You understand and acknowledge that the above list does not cover all types of l
 
 3.2.2.2 JD Cloud provides a 7×24h online open ticket service system to answer customer questions.
 
-3.2.3 Where the service involves advanced anti-DDoS, JD Cloud is responsible only for the operation maintenance at the bottom part of operating system and of the software provided by JD Cloud, that is, the related technical architecture and operating system of the advanced anti-DDoS service. You will be responsible for the upper part of the operating system (such as the applications you install on your system). Besides, if you upgrade your operating system yourself, it may cause adverse effects such as downtime. Please consider the risks and operation with caution.
+3.2.3 Where the service involves Anti-DDoS Pro, JD Cloud is responsible only for the operation maintenance at the bottom part of operating system and of the software provided by JD Cloud, that is, the related technical architecture and operating system of the Anti-DDoS Pro service. You will be responsible for the upper part of the operating system (such as the applications you install on your system). Besides, if you upgrade your operating system yourself, it may cause adverse effects such as downtime. Please consider the risks and operation with caution.
 
 3.2.4 JD Cloud will clear the faults caused by non-human factors, except for your reasons and/or force majeure as well as matters excluded in the control scope of JD Cloud.
 
 3.2.5 JD Cloud shall strictly abide by the obligation of confidentiality.
 
-3.2.6 You understand and agree that JD Cloud will perform a computer room migration of the virtual machine you use when necessary. JD Cloud will inform you of the above operations 7 natural days in advance. Above operations may require modification of the DNS of your related domain name. Therefore, you need to modify the DNS to IP designated by JD Cloud as per the time required by JD Cloud after receiving the notification from JD Cloud. Otherwise, you will be responsible for the inability to access the website application thus caused.
+3.2.6 You understand and agree that JD Cloud will perform a computer room migration of the Virtual Machines you use when necessary. JD Cloud will inform you of the above operations 7 natural days in advance. Above operations may require modification of the DNS of your related domain name. Therefore, you need to modify the DNS to IP designated by JD Cloud as per the time required by JD Cloud after receiving the notification from JD Cloud. Otherwise, you will be responsible for the inability to access the website application thus caused.
 
 ## **4. Saving, Destruction and Download of User's Data**
 
@@ -166,7 +166,7 @@ You understand and acknowledge that the above list does not cover all types of l
 
 ## **7. Opening, Use and Termination of Services**
 
-7.1. The service period is calculated from the day that you created (refers to the services shown and provided to you at [jdcloud.com](https://jdcloud.com/)) any advanced anti-DDoS service. The specific service term will be calculated based on your actual usage.
+7.1. The service period is calculated from the day that you created (refers to the services shown and provided to you at [jdcloud.com](https://jdcloud.com/)) any Anti-DDoS Pro service. The specific service term will be calculated based on your actual usage.
 
 7.2. You shall keep your account balance sufficient for uninterrupted use of the service.
 
@@ -174,7 +174,7 @@ You understand and acknowledge that the above list does not cover all types of l
 
 7.3.1 The parties terminate early by consensus;
 
-7.3.2. If you close any advanced anti-DDoS service, JD Cloud will stop providing the advanced anti-DDoS service; if you close all services of advanced anti-DDoS, the Service Terms will be terminated;
+7.3.2. If you close any Anti-DDoS Pro service, JD Cloud will stop providing the Anti-DDoS Pro service; if you close all services of Anti-DDoS Pro, the Service Terms will be terminated;
 
 7.3.3 If you are in severe breach of the Service Terms (including but not limited to a. You failed to fulfill your payment obligations in accordance with the Agreement, and/or b. You have severely violated the law, etc.), JD Cloud reserves the right to terminate the service in advance and will not refund the fees you have already paid;
 
@@ -200,7 +200,7 @@ You understand and acknowledge that the above list does not cover all types of l
 
 9.1. When the Service Terms is impossibly performed or become unnecessary or meaningless due to force majeure or other accidents, the party suffering from force majeure or accident shall not be held liable.
 
-9.2. Force majeure or accidental events refer to unforeseeable, insurmountable and unavoidable objective events that have a significant impact on one or both parties, including but not limited to natural disasters such as floods, earthquakes, epidemics of plagues, and social events such as war, unrest, government actions, interruption of China telecom trunk lines, hackers network congestion, telecommunications sector technology adjustment and government regulation.
+9.2. Force majeure or accidental events refer to unforeseeable, insurmountable and unavoidable objective events that have a significant impact on one or both parties, including but not limited to natural disasters such as floods, earthquakes, epidemics of plagues, and social events such as war, unrest, government actions, and interruption of China telecom trunk lines, hackers network congestion, telecommunications sector technology adjustment and government regulation.
 
 ## **10. Governing Law and Dispute Resolution**
 
@@ -208,7 +208,7 @@ You understand and acknowledge that the above list does not cover all types of l
 
 10.2. Any dispute arising from the execution of the Service Terms shall be promptly resolved by both parties. When the negotiation fails, either party may file a lawsuit directly to the Daxing District People's Court in Beijing.
 
-## **11. Supplementary **
+## **11. Supplementary**
 
 11.1. The service description and price description of JD Cloud on relevant page of [www.jdcloud.com](https://www.jdcloud.com/) and the order page agreed by you are an integral part of the Service Terms. If the service description and price description on relevant page of [www.jdcloud.com](https://www.jdcloud.com/) and the order page agreed by you are inconsistent with the Service Terms, the Service Terms shall prevail.
 

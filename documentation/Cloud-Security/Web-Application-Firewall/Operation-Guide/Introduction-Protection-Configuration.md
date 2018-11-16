@@ -1,6 +1,6 @@
 ## **Protection Configuration**
 
-Click the Protection Configuration button to set the specific protection configuration of the website.
+Click **Protection Configuration** to set the specific protection configuration of the website.
 
 The detection process is clearly indicated in the protection configuration. See the following figure for details.
 

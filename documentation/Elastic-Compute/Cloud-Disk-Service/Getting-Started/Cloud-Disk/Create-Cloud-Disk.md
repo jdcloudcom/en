@@ -1,15 +1,15 @@
-# Create cloud disk
+# Create Cloud Disk
 
 <br>
 
-##  Operation instructions
+##  Operation Instructions
 
 
-- You can create cloud disk and attach it to any virtual machine in the same region or the same availability zone.
+- You can createCloud Disk Service and attach it to any Virtual Machines in the same region or the same availability zone.
 
 
 
-- A single virtual machine can attach 8 cloud disks at most.
+- A single Virtual Machines can attach 8 Cloud Disk Services at most.
 
 
 
@@ -17,7 +17,7 @@
 
 
 
-- If you need to retain the historical data of a cloud disk in the new hard disk, you can use snapshot of a cloud disk to create a new disk. Please refer to [Create Disk from Snapshot](https://www.jdcloud.com/help/detail/891/isCatalog/1);
+- If you need to retain the historical data of a Cloud Disk Service in the new hard disk, you can use snapshot of a Cloud Disk Service to create a new disk. Please refer to [Create Disk from Snapshot](https://www.jdcloud.com/help/detail/891/isCatalog/1);
 
 
 
@@ -27,17 +27,17 @@
 
 ##  Operation guide
 
-1. Open [JD Cloud Console](https://console.jdcloud.com/), select [Elastic Compute]-[Virtual Machine]-[Cloud Disk];
+1. Open [JD Cloud Console](https://console.jdcloud.com/), select [Elastic Compute]-[Virtual Machines]-[Cloud Disk Service];
 
-2. Click [Create] button on top of the cloud disk list and begin process of cloud disk creation;
+2. Click **Create** on top of the Cloud Disk Service list and begin process of cloud disk creation;
 
-3. Select billing type of cloud disk, namely monthly package or pay by configuration;
+3. Select billing type of Cloud Disk Service, namely monthly package or pay by configuration;
 
 4. Select the region and availability zone for the hard disk;
 
-5. Select the cloud disk type and capacity;
+5. Select the Cloud Disk Service type and capacity;
 
-Note: Cloud disk must be attached to a virtual machine in the same availability zone and cannot be attached in cross-regions and cross-availability zones;
+Note: Cloud Disk Service must be attached to a Virtual Machines in the same availability zone and cannot be attached in cross-regions and cross-availability zones;
 
 <br>
 
@@ -45,9 +45,9 @@ Note: Cloud disk must be attached to a virtual machine in the same availability 
 
 <br>
 
-6. Enter name and description of the cloud disk;
+6. Enter name and description of the Cloud Disk Service;
 
-Note: you may also click [[Create Disk from Snapshot](https://www.jdcloud.com/help/detail/891/isCatalog/1)] on the cloud disk creation page to create new cloud disk from snapshot;
+Note: you may also click [[Create Disk from Snapshot](https://www.jdcloud.com/help/detail/891/isCatalog/1)] on the Cloud Disk Service creation page to create new Cloud Disk Service from snapshot;
 
 <br>
 
@@ -64,7 +64,7 @@ Note: you may also click [[Create Disk from Snapshot](https://www.jdcloud.com/he
 <br>
 
 
-8. After confirming the correctness of the selected configuration, click [Buy Now] to go to the order confirmation page. If the billing type of monthly package is selected, after checking the resources information on the order confirmation page, click "to Pay” to go to the payment confirmation page; resource creation will be immediately triggered upon successful payment. If the billing type of pay by configuration is selected, resource creation will be immediately triggered upon clicking "Confirm Setup” on the order confirmation page.
+8. After confirming the correctness of the selected configuration, click **Buy Now** to go to the order confirmation page. If the billing type of monthly package is selected, after checking the resources information on the order confirmation page, click **to Pay** to go to the payment confirmation page; resource creation will be immediately triggered upon successful payment. If the billing type of pay by configuration is selected, resource creation will be immediately triggered upon clicking **Confirm Setup** on the order confirmation page.
 
 9. After successful payment, go to the console to view the created cloud disk.
 
@@ -72,11 +72,11 @@ Note: you may also click [[Create Disk from Snapshot](https://www.jdcloud.com/he
 
 
 
-- Cloud disk can be freely attached and detached among any virtual machine in the same region or availability zone;
+- Cloud Disk Service can be freely attached and detached among any Virtual Machines in the same region or availability zone;
 
 
 
-- A maximum of 10 cloud disks can be created in a time;
+- A maximum of 10 Cloud Disk Services can be created in a time;
 
 
 ## Next
@@ -85,7 +85,7 @@ Note: you may also click [[Create Disk from Snapshot](https://www.jdcloud.com/he
 
 - **Linux**
 
-For Linux system, after purchasing cloud disk, you need to see and use it in the system until you attach, partition and format it.
+For Linux system, after purchasing Cloud Disk Service, you need to see and use it in the system until you attach, partition and format it.
 
 1. For attaching data disk, please refer to [Attach Cloud Disk](https://www.jdcloud.com/help/detail/505/isCatalog/1). <br>
 

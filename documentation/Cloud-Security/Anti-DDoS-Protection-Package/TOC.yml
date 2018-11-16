@@ -1,0 +1,47 @@
+  name: Anti-DDoS Protection Package
+  href:
+  items:
+  - name: Introduction
+    items:
+    - name: Product Overview
+      herf : Introduction/Product-Overview.md
+    - name : Core Concepts
+      herf: Introduction/Core-Concepts.md
+    - name: Basic Architecture
+      herf: Introduction/Basic-Infrastructure.md
+    - name: Features
+      herf: Introduction/Functions.md
+    - name: Product Specifications
+      herf: Introduction/Specification.md
+    - name: Restrictions
+      herf: Introduction/Restrictions.md
+  - name: Product Pricing
+    items:
+    - name: Billing Overview
+      herf: Pricing/Billing-Overview.md
+    - name: Billing Rules
+      herf: Pricing/Billing-Rules.md
+    - name: Price Overview
+      herf: Pricing/Price-Overview.md
+    - name: Purchase Process
+      herf: Pricing/Purchase-Process.md 
+  - name: Getting Started
+    items:
+    - name: Create Instance
+      herf: Getting-Started/Create-Instance.md
+    - name: Bind a Protection Object
+      herf: Getting-Started/Bind-Protected-Resource.md
+  - name: Operation Guide
+    items:
+    - name: Setting of Protection Rules
+      herf: Operation-Guide/Protection-Rules-Setting.md
+    - name: View Operation Log
+      herf: Operation-Guide/View-The-Operation-Log.md
+    - name: View Security Reports
+      herf: Operation-Guide/View-The-Security-Report.md
+    - name: Description on Trial Program
+      herf: Operation-Guide/Trial-description.md
+  - name: FAQ
+    herf: FAQ/FAQ.md
+  - name: Document History Records
+    href: Related-Resources/Document-History.md

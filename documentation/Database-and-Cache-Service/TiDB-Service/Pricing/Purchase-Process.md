@@ -4,7 +4,7 @@ You can quickly purchase the instance of TiDB Service from the console
 
 ## Operation Steps
 1. Log in to the distributed database TiDB management console.
-2. On the Instance List page, click button - “Create” - to go to “Create Page”.
+2. On the Instance List page, click - **Create** - to go to **Create Page**.
 
 ![Create Instance 1](../../../../image/TiDB/Create-Instance-1.png)
 
@@ -34,6 +34,6 @@ You can quickly purchase the instance of TiDB Service from the console
 
 ![Create instance 5](../../../../image/TiDB/Create-Instance-5.png)
 
-5. Click “Buy Now” to go to the Oder Confirmation page. 
+5. Click **Buy Now** to go to the Oder Confirmation page. 
 
 6. After reading the Usage & Service Terms of TiDB Service, follow the prompts to complete the subsequent steps. 

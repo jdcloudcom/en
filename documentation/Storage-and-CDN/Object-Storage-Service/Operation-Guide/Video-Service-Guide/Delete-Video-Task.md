@@ -2,15 +2,15 @@
 
 Description: delete task through video task id
 
-Request grammar:
+Request Syntax:
 ```
 DELETE deleteVideoTask&taskId= taskId
 Host: oss.cn-north-1.jcloudcs.com
 Date: date
-Authorization: signatureValue#请参照《安全认证》
+Authorization: signatureValue#Please refer to Security Verification
 ```
 
-Request example:
+Sample Request:
 ```
 DELETE deleteVideoTask&taskId=78fbb093de19fc HTTP/1.1
 Date: Tue, 15 Dec 2015 12:55:54 GMT
@@ -21,7 +21,7 @@ Connection: Keep-Alive
 User-Agent: JFS-JCLOUD-SDK-JAVA/1.0.0 (Java 1.8.0_45; Vendor Oracle Corporation; Windows 7 6.1; HttpClient 4.2.1)
 ```
 
-Response example:
+Sample Response:
 ```
 HTTP/1.1 200 OK
 x-jss-request-id: BBDC82A4C4B61A5F

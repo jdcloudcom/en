@@ -1,4 +1,4 @@
-# Strong consistency
+# Strong Consistency
 
 Object action is atomic on OSS, and the action either succeeds or fails, without any Object in the status in between. OSS guarantees that the Object read by user after uploading is completed, and OSS will not return any part of successfully uploaded Object to the user.
 

@@ -1,7 +1,7 @@
-# Associate and disassociate load balancer
+# Associate and disassociate Load Balancer
 
-​	 Application security gateway must associate with the load balancer of 7 layers (ALB) so as to protect HTTP/HTTPs business subject to the load balancer.
+​	 Application Security Gateway must associate with the Load Balancer of 7 layers (ALB) so as to protect HTTP/HTTPs business subject to the Load Balancer.
 
-​	During the application security gateway creation process, it can select to associate with load balancer, if there is no available load balancer, it may firstly create an application security gateway instance, and associate with the load balancer instance after successful creation.
+​	During the Application Security Gateway creation process, it can select to associate with Load Balancer, if there is no available Load Balancer, it may firstly create an Application Security Gateway instance, and associate with the Load Balancer instance after successful creation.
 
-​	After completion of instance creation, it may select to associate different load balancers through [Associated Load Balancer] on the instance management page and disassociate through [Disassociate Load Balancer]. The load balancer has two types, load of 7 layers and load of 4 layers, the associated load balancer currently supported is the load balancer of 7 layers, the load balancer of 4 layers is not supported now.
+​	After completion of instance creation, it may select to associate different Load Balancers through [Associated Load Balancer] on the instance management page and disassociate through [Disassociate Load Balancer]. The Load Balancer has two types, load of 7 layers and load of 4 layers, the associated Load Balancer currently supported is the Load Balancer of 7 layers, the Load Balancer of 4 layers is not supported now.

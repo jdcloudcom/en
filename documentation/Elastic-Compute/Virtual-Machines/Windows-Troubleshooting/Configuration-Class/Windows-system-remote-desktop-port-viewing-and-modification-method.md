@@ -1,7 +1,7 @@
 # Method to View and Modify Remote Desktop Port of Windows System
-**How ​​to view the port of Windows Remote Desktop:**
+**How to view the port of Windows Remote Desktop:**
 
-1. View by command, i.e. click Start - Run - enter cmd, Confirm and then open the command window and execute the following command:
+1. View by command, i.e. click **Start** - **Run** - enter **cmd**, Confirm and then open the command window and execute the following command:
 
 ***tasklist /svc | find "Ter"***
 
@@ -31,7 +31,7 @@ You also need to check the value of portnumber under HKEY_LOCAL_MACHINE\SYSTEM\C
 
 **How ​​to modify the port of Windows Remote Desktop:**
 
-1. Start - Run and enter *regedit* to open the Registry Editor.
+1. **Start** - **Run** and enter *regedit* to open the Registry Editor.
 
 2. Unfold the registry keys of "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\TerminalServer\Wds\rdpwd\Tds\tcp" successively. The port number corresponding to the PortNumber key value underneath is the remote desktop port, and it can be modified to the port required by the user, as shown in the following figure:
 

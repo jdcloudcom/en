@@ -1,0 +1,21 @@
+  name: Payment Mode
+  href: 
+  items:
+  - name: Payment Method Description
+    href: Payment-Process/Payment-Methods.md   
+  - name: Enterprise Online Banking Description
+    items:
+      - name: Enterprise Online Banking Payment Overview
+        href: B2B-Payment-Operation-Guide/Corpbank-Redirect-Online-Payment-Operation-Guidance.md
+      - name: Enterprise Online Banking Payment Steps for China Construction Bank
+        href: B2B-Payment-Operation-Guide/The-Steps-Of-Online-Banking-Payment-In-CCB.md
+      - name: Enterprise Online Banking Payment Steps for Agricultural Bank of China
+        href: B2B-Payment-Operation-Guide/The-Steps-Of-Online-Banking-Payment-In-ABC.md
+      - name: Enterprise Online Banking Payment Steps for China Merchants Bank
+        href: B2B-Payment-Operation-Guide/The-Steps-Of-Online-Banking-Payment-In-CMB.md
+      - name: Payment Steps of Corporate Banking of ICBC
+        href: B2B-Payment-Operation-Guide/The-Steps-Of-Online-Banking-Payment-In-ICBC.md
+      - name: Enterprise Online Banking Payment Steps for Bank of Communications
+        href: B2B-Payment-Operation-Guide/The-Steps-Of-Online-Banking-Payment-In-BCM.md
+      - name: Enterprise Online Banking Payment Steps for Bank of China
+        href: B2B-Payment-Operation-Guide/The-Steps-Of-Online-Banking-Payment-In-BOC.md

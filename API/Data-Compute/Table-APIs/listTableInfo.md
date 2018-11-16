@@ -1,74 +1,74 @@
 # listTableInfo
 
 
-## 描述
+## Description
 Search all the datasheet information under the specified database of user instance
 
-## 请求方式
+## Request method
 GET
 
-## 请求地址
+## Request address
 https://xdata.jdcloud-api.com/v1/regions/{regionId}/dwTable
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
+|**regionId**|String|True| |Region ID|
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**databaseName**|String|True||Database name|
-|**instanceName**|String|True||Instance name|
+|**databaseName**|String|True| |Database Name|
+|**instanceName**|String|True| |Instance Name|
 
 
-## 返回参数
-|名称|类型|描述|
+## Response parameter
+|Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
-|**result**|[Result](##Result)||
+|**requestId**|String| |
+|**result**|Result| |
 
 
-### <a name="Result">Result</a>
-|名称|类型|描述|
+### Result
+|Name|Type|Description|
 |---|---|---|
-|**data**|[DwTable[]](##DwTable)||
-|**message**|String||
-|**status**|Boolean||
-### <a name="DwTable">DwTable</a>
-|名称|类型|描述|
+|**data**|DwTable[]| |
+|**message**|String| |
+|**status**|Boolean| |
+### DwTable
+|Name|Type|Description|
 |---|---|---|
 |**category**|String|Category|
-|**comments**|String|Description information|
-|**createTime**|String|Creation time|
-|**dbName**|String|Database name|
+|**comments**|String|Description Information|
+|**createTime**|String|Creation Time|
+|**dbName**|String|Database Name|
 |**encryption**|String|Is it encrypted or not|
-|**hiveFileFormat**|String|File storage type|
-|**hiveObjectPrivileges**|[DwHiveObjectPrivileges](##DwHiveObjectPrivileges)|hive table permission information|
-|**id**|Integer|Database id|
-|**lastUpdateTime**|String|Last update time|
+|**hiveFileFormat**|String|File Storage Type|
+|**hiveObjectPrivileges**|DwHiveObjectPrivileges|Hive Table Permission Information|
+|**id**|Integer|Database ID|
+|**lastUpdateTime**|String|Last Update Time|
 |**location**|String|Location|
 |**owner**|String|Owner|
 |**parameters**|Object|Parameter|
-|**physicalStorageCapacity**|String|Physical storage|
+|**physicalStorageCapacity**|String|Physical Storage|
 |**source**|String|Source|
-|**tableName**|String|Table name|
-|**userName**|String|User name|
-### <a name="DwHiveObjectPrivileges">DwHiveObjectPrivileges</a>
-|名称|类型|描述|
+|**tableName**|String|Table Name|
+|**userName**|String|User Name|
+### DwHiveObjectPrivileges
+|Name|Type|Description|
 |---|---|---|
-|**alter**|Boolean|alter permission|
-|**create**|Boolean|create permission|
-|**delete**|Boolean|delete permission|
-|**drop**|Boolean|drop permission|
-|**insert**|Boolean|insert permission|
-|**message**|String|Return information|
+|**alter**|Boolean|Alter Permission|
+|**create**|Boolean|Create Permission|
+|**delete**|Boolean|Delete Permission|
+|**drop**|Boolean|Drop Permission|
+|**insert**|Boolean|Insert Permission|
+|**message**|String|Return Information|
 |**owner**|Boolean|Is it the owner or not|
-|**select**|Boolean|select permission|
+|**select**|Boolean|Select Permission|
 |**status**|Boolean|Status|
-|**update**|Boolean|update permission|
+|**update**|Boolean|Update Permission|
 
-## 返回码
-|返回码|描述|
+## Response code
+|Return code|Description|
 |---|---|
 |**200**|OK|
 |**500**|Internal server error|

@@ -1,54 +1,54 @@
 # getHardwareStack
 
 
-## 描述
-Hardware configuration information list
+## Description
+Hardware Configuration Information List
 
-## 请求方式
+## Request method
 GET
 
-## 请求地址
+## Request address
 https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/hardwareStack
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
+|**regionId**|String|True| |Region ID|
 
-## 请求参数
-无
+## Request parameter
+None
 
 
-## 返回参数
-|名称|类型|描述|
+## Response parameter
+|Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
-|**result**|[Result](##Result)||
+|**requestId**|String| |
+|**result**|Result| |
 
 
-### <a name="Result">Result</a>
-|名称|类型|描述|
+### Result
+|Name|Type|Description|
 |---|---|---|
-|**data**|[HardWareStackData](##HardWareStackData)|Hardware information queried|
-|**message**|String||
-|**status**|String||
-### <a name="HardWareStackData">HardWareStackData</a>
-|名称|类型|描述|
+|**data**|HardWareStackData|Hardware Information Queried|
+|**message**|String| |
+|**status**|String| |
+### HardWareStackData
+|Name|Type|Description|
 |---|---|---|
-|**disk**|[Disk[]](##Disk)||
-|**scale**|[Scale[]](##Scale)||
-### <a name="Disk">Disk</a>
-|名称|类型|描述|
+|**disk**|Disk[]| |
+|**scale**|Scale[]| |
+### Disk
+|Name|Type|Description|
 |---|---|---|
-|**limit**|String|Maximum disk capacity|
-|**volumeType**|String|Disk capacity type|
-### <a name="Scale">Scale</a>
-|名称|类型|描述|
+|**limit**|String|Maximum Disk Capacity|
+|**volumeType**|String|Disk Capacity Type|
+### Scale
+|Name|Type|Description|
 |---|---|---|
-|**core**|Integer|CPU core number|
-|**memory**|Integer|Memory size, with the unit of G|
+|**core**|Integer|Number of CPU Cores|
+|**memory**|Integer|Memory Size, Unit: G|
 
-## 返回码
-|返回码|描述|
+## Response code
+|Return code|Description|
 |---|---|
 |**200**|OK|
 |**500**|Internal server error|

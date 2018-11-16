@@ -1,16 +1,16 @@
-# OSS terminology
+# OSS Terminology
 
 |English|Chinese|
 |-|-|
-|Bucket|Storage Space|
+|Bucket|Bucket|
 |Object|Object or File|
 |Endpoint|OSS Access Domain Name|
 |Region|Region or Data Center|
-|AccessKey|Joint Name of AccessKey and AccessKeySecret, Access Key|
+|AccessKey|Collective Name of AccessKey and AccessKeySecret, Access Key|
 |Put Object|Simple Upload|
-|Multipart Upload|Fragment Upload|
+|Multipart Upload||Multipart Upload|
 |Get Object|Simple Download|
-|Object Meta|File Element Information. Used to describe file information, such as length, type, etc.|
+|Object Meta|File Element Information. Used to describe file information, such as length, type|
 |Data|File Data|
 |Key|File Name|
-|ACL (Access Control List)|Storage Space Permission|
+|ACL (Access Control List)|Bucket Permission|

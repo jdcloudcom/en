@@ -1,18 +1,18 @@
-**This Service Terms is avalid agreement between the owner of the JD Cloud website (referred to in this Agreement as "JD Cloud" website: **[www.jdcloud.com](https://www.jdcloud.com/)**) and you on matters relating to endpoint security service. By stamping, clicking to confirm on the web page, or other ways to accept the Service Terms, including but not limited to the actual use of virtual machine security service of JD Cloud without clicking to confirm the Service Terms, you have reached an agreement with JD Cloud and agreed to accept all agreed contents of the Service Terms. In case of any inconsistency between the text stamped by both parties and the text of Service Terms accepted and confirmed by clicking the web page or other ways, the text stamped by both parties shall prevail.**
+**This Service Terms is a valid agreement between the owner of the JD Cloud website (referred to in this Agreement as "JD Cloud" website:**[www.jdcloud.com](https://www.jdcloud.com/)**) and you on matters relating to Endpoint Security service. By stamping, clicking to confirm on the web page, or other ways to accept the Service Terms, including but not limited to the actual use of Virtual Machines security service of JD Cloud without clicking to confirm the Service Terms, you have reached an agreement with JD Cloud and agreed to accept all agreed contents of the Service Terms. In case of any inconsistency between the text stamped by both parties and the text of Service Terms accepted and confirmed by clicking the web page or other ways, the text stamped by both parties shall prevail.**
 
-**For the Service Terms, you are reminded to pay special attention to the restriction and exemption terms, determination and handling terms of JD Cloud on your violations and breach of contract, and the selection terms of jurisdictional courts. Restriction and exemption terms may be indicated in bold or by underline for your attention. You should carefully read the entire contents of the Service Terms before accepting the Service Terms. If you have any questions about the Service Terms, please contact the relevant business department of JD Cloud and JD Cloud will explain the terms to you. If you do not agree on any of the contents of the Service Terms, or cannot accurately understand the interpretation of these terms made by JD Cloud, please do not continue the operation. **
+**For the Service Terms, you are reminded to pay special attention to the restriction and exemption terms, determination and handling terms of JD Cloud on your violations and breach of contract, and the selection terms of jurisdictional courts. Restriction and exemption terms may be indicated in bold or by underline for your attention. You should carefully read the entire contents of the Service Terms before accepting the Service Terms. If you have any questions about the Service Terms, please contact the relevant business department of JD Cloud and JD Cloud will explain the terms to you. If you do not agree on any of the contents of the Service Terms, or cannot accurately understand the interpretation of these terms made by JD Cloud, please do not continue the operation.**
 
 ## **1. Service Content**
 
-1.1. "Services" in the terms means JD Cloud provides you with the virtual machine security services and related technical and network support services displayed on the website [www.jdcloud.com](https://www.jdcloud.com/).
+1.1. "Services" in the terms means JD Cloud provides you with the Virtual Machines security services and related technical and network support services displayed on the website [www.jdcloud.com](https://www.jdcloud.com/).
 
 1.2. The service provided by JD Cloud must comply with the provisions of the Service Terms.
 
 ## **2. Service Fee**
 
-2.1. The basic edition of endpoint security service is the free virtual machine security management service provided by JD Cloud for users. After you order the virtual machine, the security protection function will be automatically loaded and started. When you order a virtual machine, you understand that you understand and agree that the virtual machine system automatically enables the virtual machine security protection function.
+2.1. The basic edition of Endpoint Security service is the free Virtual Machines security management service provided by JD Cloud for users. After you order the Virtual Machines, the security protection function will be automatically loaded and started. When you order a Virtual Machines, you understand that you understand and agree that the Virtual Machines system automatically enables the Virtual Machines security protection function.
 
-2.2. You understand and agree that JD Cloud has the right to adjust the product system, name or payment model, price, and visual interface design of the endpoint security service from time to time according to the operation. JD Cloud further reserves the right to develop new modules, functions, etc. in the endpoint security service. Unless otherwise stated by JD Cloud, the Service Terms is still applicable to the provision of all the above new modules, functions, and services. JD Cloud will make the best efforts within the reasonable scope and inform you of the above adjustments and changes through the official website announcement and notices of the website.
+2.2. You understand and agree that JD Cloud has the right to adjust the product system, name or payment model, price, and visual interface design of the Endpoint Security service from time to time according to the operation. JD Cloud further reserves the right to develop new modules, functions, etc. in the Endpoint Security service. Unless otherwise stated by JD Cloud, the Service Terms is still applicable to the provision of all the above new modules, functions, and services. JD Cloud will make the best efforts within the reasonable scope and inform you of the above adjustments and changes through the official website announcement and notices of the website.
 
 2.3. You understand and agree that JD Cloud has the right to unilaterally adjust the fee standard and charging method at any time according to the actual situation, without obtaining your prior consent, JD Cloud will notify you in advance of the aforesaid adjustment and change to the best efforts within reasonable limits via the official website announcement, the website notice or the contact information you provide, and the service that has been purchased before the adjustment date and paid in full will not be affected.
 
@@ -28,7 +28,7 @@
 
 ​3.1.3.1 If you use the services provided by JD Cloud to conduct operating or non-operating activities that require the license or approval of the relevant national authorities, you shall obtain the relevant license or approval, including but not limited to the following:
 
-If you set up multiple websites on the virtual machine service, you must ensure that all websites started have been licensed or approved by the relevant national authorities;
+If you set up multiple websites on the Virtual Machines service, you must ensure that all websites started have been licensed or approved by the relevant national authorities;
 
 If your website provides non-operating Internet information services, you must fill the non-operating website on the record, and ensure that all the filling information submitted is true and effective, and submit the updated information in the filing system in a timely manner when the filing information changes;
 
@@ -48,7 +48,7 @@ You understand and acknowledge that the above list does not cover all types of l
 
 3.1.3.3 If the services of JD Cloud involve the license of third-party software, you agree to abide by the relevant license agreement;
 
-3.1.3.4 Do Not Intersperse Email Ads or SPAMs: Do not use the services provided by JD Cloud to intersperse a large number of undesired or uncalled emails, electronic advertising or emails containing reactionary information, pornographic information or other harmful information;
+3.1.3.4 Do not intersperse Email Ads or SPAMs: Do not use the services provided by JD Cloud to intersperse a large number of undesired or uncalled emails, electronic advertising or emails containing reactionary information, pornographic information or other harmful information;
 
 3.1.3.5 The cloud server provided by JD Cloud shall not be used as a virtual server, or used as a disk space for rent, or used as an illegal proxy server or SPAM server;
 
@@ -94,15 +94,15 @@ You understand and acknowledge that the above list does not cover all types of l
 
 3.1.9 In view of limitation of the existing technology development level in this industry, you understand that JD Cloud cannot guarantee that the services it provides are flawless (for example, security products of JD Cloud cannot guarantee the absolute security of your hardware or software), but it promises to improve the service quality and service levels continuously. Therefore, you agree even if the services provided by JD Cloud have defects, the above-mentioned defects are unavoidable due to the technical level in the industry at the time, and it will not be regarded as JD Cloud's default. You agree to cooperate with JD Cloud to solve the above problems.
 
-3.1.10 Data backup is your obligation and responsibility. The virtual machine of JD Cloud may be configured with the necessary tools with daily data backup function, which does not mean that data backup is an obligation of JD Cloud. JD Cloud does not guarantee full backup of user data, nor does it assume any responsibility for user data backup work or results.
+3.1.10 Data backup is your obligation and responsibility. The Virtual Machines of JD Cloud may be configured with the necessary tools with daily data backup function, which does not mean that data backup is an obligation of JD Cloud. JD Cloud does not guarantee full backup of user data, nor does it assume any responsibility for user data backup work or results.
 
-<u>**3.1.11 You understand that JD Cloud cannot guarantee that the endpoint security services it provides are flawless (for example, security products of JD Cloud cannot guarantee the absolute security of your hardware or software), but it promises to improve the service quality and service levels continuously. Therefore, you agree even if the services provided by JD Cloud have defects, the above-mentioned defects are unavoidable due to the technical level in the industry at the time, and it will not be regarded as JD Cloud's default. You agree to cooperate with JD Cloud to solve the above problems. **</u>
+<u>**3.1.11 You understand that JD Cloud cannot guarantee that the Endpoint Security services it provides are flawless (for example, security products of JD Cloud cannot guarantee the absolute security of your hardware or software), but it promises to improve the service quality and service levels continuously. Therefore, you agree even if the services provided by JD Cloud have defects, the above-mentioned defects are unavoidable due to the technical level in the industry at the time, and it will not be regarded as JD Cloud's default. You agree to cooperate with JD Cloud to solve the above problems. **</u>
 
-<u>**3.1.12 Before you use the endpoint security service and/or perform specific operations, you shall carefully read relevant help instructions for the endpoint security service on the JD Cloud website, and/or relevant tips of JD Cloud in different links, understand the relevant operations and possible consequences, and bear all the consequences caused by the above operations. JD Cloud will not actively intervene in the above behaviors you have undertaken and will not bear any responsibility for this. **</u>
+<u>**3.1.12 Before you use the Endpoint Security service and/or perform specific operations, you shall carefully read relevant help instructions for the Endpoint Security service on the JD Cloud website, and/or relevant tips of JD Cloud in different links, understand the relevant operations and possible consequences, and bear all the consequences caused by the above operations. JD Cloud will not actively intervene in the above behaviors you have undertaken and will not bear any responsibility for this. **</u>
 
-<u>**3.1.13 The endpoint security service consists of the endpoint security Agent plug-in installed on your server and the endpoint security protection center server on the cloud. You authorize JD Cloud to report the security feature information on your server such as file and process exceptions, login logs, security incidents, and security risk points through the endpoint security Agent plug-in installed on your server, and report it to the endpoint security protection center server in the cloud for security analysis, alarms, and prompts to provide you with corresponding security functions. If you choose to disable the endpoint security agent security protection function, you need to inform JD Cloud customer service to help you complete the disablement. After the security function is disabled, provision of security protection for your server will be stopped. **</u>
+<u>**3.1.13 The Endpoint Security service consists of the Endpoint Security Agent plug-in installed on your server and the Endpoint Security protection center server on the cloud. You authorize JD Cloud to report the security feature information on your server such as file and process exceptions, login logs, security incidents, and security risk points through the Endpoint Security Agent plug-in installed on your server, and report it to the Endpoint Security protection center server in the cloud for security analysis, alarms, and prompts to provide you with corresponding security functions. If you choose to disable the Endpoint Security agent security protection function, you need to inform JD Cloud customer service to help you complete the disablement. After the security function is disabled, provision of security protection for your server will be stopped. **</u>
 
-<u>**3.1.14 You understand that JD Cloud cannot guarantee that the endpoint security Agent plug-in is compatible with all server systems. Due to possible incompatibility, your server resource consumption rate may increase significantly, and there is possibly a certain server downtime. You understand and agree that JD Cloud is not responsible for the problems caused by the above compatibility. **</u>
+<u>**3.1.14 You understand that JD Cloud cannot guarantee that the Endpoint Security Agent plug-in is compatible with all server systems. Due to possible incompatibility, your server resource consumption rate may increase significantly, and there is possibly a certain server downtime. You understand and agree that JD Cloud is not responsible for the problems caused by the above compatibility. **</u>
 
 3.2. Rights and Obligations of JD Cloud
 
@@ -114,13 +114,13 @@ You understand and acknowledge that the above list does not cover all types of l
 
 3.2.2.2 JD Cloud provides a 7×24h online open ticket service system to answer customer questions.
 
-3.2.3 Where the service involves endpoint security, JD Cloud is responsible only for the operation maintenance at the bottom part of operating system and of the software provided by JD Cloud, that is, the related technical architecture and operating system of the endpoint security service. You will be responsible for the upper part of the operating system (such as the applications you install on your system). Besides, if you upgrade your operating system yourself, it may cause adverse effects such as downtime. Please consider the risks and operation with caution.
+3.2.3 Where the service involves Endpoint Security, JD Cloud is responsible only for the operation maintenance at the bottom part of operating system and of the software provided by JD Cloud, that is, the related technical architecture and operating system of the Endpoint Security service. You will be responsible for the upper part of the operating system (such as the applications you install on your system). Besides, if you upgrade your operating system yourself, it may cause adverse effects such as downtime. Please consider the risks and operation with caution.
 
 3.2.4 JD Cloud will clear the faults caused by non-human factors, except for your reasons and/or force majeure as well as matters excluded in the control scope of JD Cloud.
 
 3.2.5 JD Cloud shall strictly abide by the obligation of confidentiality.
 
-3.2.6 You understand and agree that JD Cloud will perform a computer room migration of the virtual machine you use when necessary. JD Cloud will inform you of the above operations 7 natural days in advance. Above operations may require modification of the DNS of your related domain name. Therefore, you need to modify the DNS to IP designated by JD Cloud as per the time required by JD Cloud after receiving the notification from JD Cloud. Otherwise, you will be responsible for the inability to access the website application thus caused.
+3.2.6 You understand and agree that JD Cloud will perform a computer room migration of the Virtual Machines you use when necessary. JD Cloud will inform you of the above operations 7 natural days in advance. Above operations may require modification of the DNS of your related domain name. Therefore, you need to modify the DNS to IP designated by JD Cloud as per the time required by JD Cloud after receiving the notification from JD Cloud. Otherwise, you will be responsible for the inability to access the website application thus caused.
 
 ## **4. Saving, Destruction and Download of User's Data**
 
@@ -158,7 +158,7 @@ You understand and acknowledge that the above list does not cover all types of l
 
 ## **7. Opening, Use and Termination of Services**
 
-7.1. The service term is calculated from the day that you created (refers to the services shown and provided to you at [jdcloud.com](https://jdcloud.com/)) any endpoint security service. The specific service term will be calculated based on your actual usage.
+7.1. The service term is calculated from the day that you created (refers to the services shown and provided to you at [jdcloud.com](https://jdcloud.com/)) any Endpoint Security service. The specific service term will be calculated based on your actual usage.
 
 7.2. You shall keep your account balance sufficient for uninterrupted use of the service.
 
@@ -166,7 +166,7 @@ You understand and acknowledge that the above list does not cover all types of l
 
 7.3.1 The parties terminate early by consensus;
 
-7.3.2. If you disable any endpoint security service, JD Cloud will stop providing the endpoint security service; if you disable all endpoint security, the Service Terms will be terminated;
+7.3.2. If you disable any Endpoint Security service, JD Cloud will stop providing the Endpoint Security service; if you disable all Endpoint Security, the Service Terms will be terminated;
 
 7.3.3 If you are in severe breach of the Service Terms (including but not limited to a. You failed to fulfill your payment obligations in accordance with the Agreement, and/or b. You have severely violated the law, etc.), JD Cloud reserves the right to terminate the service in advance and will not refund the fees you have already paid;
 
@@ -192,7 +192,7 @@ You understand and acknowledge that the above list does not cover all types of l
 
 9.1. When the Service Terms is impossibly performed or become unnecessary or meaningless due to force majeure or other accidents, the party suffering from force majeure or accident shall not be held liable.
 
-9.2. Force majeure or accidental events refer to unforeseeable, insurmountable and unavoidable objective events that have a significant impact on one or both parties, including but not limited to natural disasters such as floods, earthquakes, epidemics of plagues, and social events such as war, unrest, government actions, interruption of China telecom trunk lines, hackers network congestion, telecommunications sector technology adjustment and government regulation.
+9.2. Force majeure or accidental events refer to unforeseeable, insurmountable and unavoidable objective events that have a significant impact on one or both parties, including but not limited to natural disasters such as floods, earthquakes, epidemics of plagues, and social events such as war, unrest, government actions, and interruption of China telecom trunk lines, hackers network congestion, telecommunications sector technology adjustment and government regulation.
 
 ## **10. Governing Law and Dispute Resolution**
 

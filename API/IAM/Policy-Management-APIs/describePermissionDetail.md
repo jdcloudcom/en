@@ -1,58 +1,58 @@
 # describePermissionDetail
 
 
-## 描述
-Policy details query
+## Description
+Search policy details
 
-## 请求方式
+## Request method
 GET
 
-## 请求地址
+## Request address
 https://iam.jdcloud-api.com/v1/regions/{regionId}/permission/{permissionId}
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**permissionId**|Integer|True||Permission id error|
-|**regionId**|String|True||Region ID|
+|**permissionId**|Integer|True| |Permission id|
+|**regionId**|String|True| |Region ID|
 
-## 请求参数
-无
+## Request parameter
+None
 
 
-## 返回参数
-|名称|类型|描述|
+## Response parameter
+|Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
-|**result**|[Result](##Result)||
+|**requestId**|String| |
+|**result**|Result| |
 
 
-### <a name="Result">Result</a>
-|名称|类型|描述|
+### Result
+|Name|Type|Description|
 |---|---|---|
-|**permission**|[Permission](##Permission)|Permission information|
-### <a name="Permission">Permission</a>
-|名称|类型|描述|
+|**permission**|Permission|Permission Information|
+### Permission
+|Name|Type|Description|
 |---|---|---|
-|**account**|String|Primary account pin|
-|**content**|String|Permission content|
+|**account**|String|Primary Account Pin|
+|**content**|String|Permission Content|
 |**description**|String|Description|
-|**id**|Integer|Permission id error|
-|**name**|String|Permission name|
-|**permissionDetailList**|[PermissionDetail[]](##PermissionDetail)|Permission details|
-|**permissionType**|String|Permission type|
-|**version**|String|Permission revision number|
-### <a name="PermissionDetail">PermissionDetail</a>
-|名称|类型|描述|
+|**id**|Integer|Permission id|
+|**name**|String|Permission Name|
+|**permissionDetailList**|PermissionDetail[]|Permission Details|
+|**permissionType**|String|Permission Type|
+|**version**|String|Permission Version Number|
+### PermissionDetail
+|Name|Type|Description|
 |---|---|---|
-|**permission**|String|Permission type: Read-only-R, Delete-D, Modification-M|
-|**resource**|[Resource[]](##Resource)|Resource information|
-### <a name="Resource">Resource</a>
-|名称|类型|描述|
+|**permission**|String|Permission Type: Read-only-R, Delete-D, Modification-M|
+|**resource**|Resource[]|Resource Information|
+### Resource
+|Name|Type|Description|
 |---|---|---|
-|**ids**|String[]|Resource id set, transmission * means that it is valid for all ids|
-|**type**|String|Resource type, virtual machine-server, Image-image, cloud disk-volume, vpc-vpc, public Ip-floatingIP, load balancer-loadbalance, cloud database (mysql)-database, cloud cache-cache|
+|**ids**|String[]|Resource id Set, transmission * means that it is valid for all ids|
+|**type**|String|Resource Type, Virtual Machine-server, Image-image, Cloud Disk-volume, vpc-vpc, Public Ip-floatingIP, Load Balancer-loadbalance, Cloud Database (mysql)-database, Cloud Cache-cache|
 
-## 返回码
-|返回码|描述|
+## Response code
+|Return code|Description|
 |---|---|
 |**200**|OK|

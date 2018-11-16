@@ -1,7 +1,7 @@
 # Invoice application process
 Only three steps are required to obtain an invoice: (1) fill in or enable invoice information, (2) select the invoicing documents, and (3) select the mailing address
 
-1. Please log in the console-enter into 【Cost Management】-【Invoice Management】-【Invoice Information Management】 page to fill in or enable invoice information;
+1. Please log in the console-enter into **Cost Management**-**Invoice Management**-**Invoice Information Management** page to fill in or enable invoice information;
 1) If you have saved enterprise invoice templates, you are required to enable one during the system initialization; if you want to create a new invoice template, you may click “Add New Invoice Information”, and special VAT invoice takes 1-2 working days for audit
 2) If you haven’t set invoice information, you are required to set it under invoice information management function; enterprise special VAT invoice information takes 1-2 working days for audit, and if there is any invoice in audit, no other invoice template is allowed to be created.
 
@@ -20,7 +20,7 @@ Individual/enterprise general VAT invoices are issued to small-scale taxpayers, 
 
 Special VAT invoices have a 180-day limit for deduction period, and invoice will not be reissued after 180 days from the invoice date.
 
-2. Enter into 【Cost Management】-【Invoice Management】-Invoice List, and click “Apply for Invoice” to enter into application page for invoice issuance;
+2. Enter into **Cost Management**-**Invoice Management**-Invoice List, and click “Apply for Invoice” to enter into application page for invoice issuance;
 
 ![file-list](https://github.com/jdcloudcom/cn/blob/edit/image/Invoice/%E7%94%B3%E8%AF%B7%E5%8F%91%E7%A5%A82.jpg)
 

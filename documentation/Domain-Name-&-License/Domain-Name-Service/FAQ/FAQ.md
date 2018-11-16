@@ -1,4 +1,4 @@
-# FQA
+#  FAQ
 ## Q: How much is the price of the domain name?
 
 A: The price of the domain name with different suffix is different. Please refer to the official website for the detailed registration and price of the domain name.
@@ -13,7 +13,7 @@ A: Sorry. The domain name is instant product, and refunding or modification is n
 
 If real-name verification is not completed after successful registration of domestic Chinese and English domain names, the domain name will not be deleted, and the registration fees will not be returned.
 
-Warm prompt:
+Warm Prompt:
 
 The domain name cannot be deleted after successful registration, and you can refuse renewing at the expiration date if you do not need the domain name anymore;
 
@@ -73,7 +73,7 @@ You can log in to the member area to submit a renewal fee and verify the current
 
 A: Most products have a discount in case of renewal for many years!
 
-The prices of domain names are different, and extremely rich domain name service are provided. For the specific renewal price list, it is recommended that you query and compare directly in the renewal price.
+The prices of domain names are different, and extremely rich domain name service is provided. For the specific renewal price list, it is recommended that you query and compare directly in the renewal price.
 
 ## Q: Why can't a domain name be renewed for more than 10 years?
 

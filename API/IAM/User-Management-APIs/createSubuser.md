@@ -1,43 +1,43 @@
 # createSubuser
 
 
-## 描述
+## Description
 Create sub-accounts
 
-## 请求方式
+## Request method
 POST
 
-## 请求地址
+## Request address
 https://iam.jdcloud-api.com/v1/regions/{regionId}/subUser
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
+|**regionId**|String|True| |Region ID|
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**createSubUserInfo**|[CreateSubUserInfo](##CreateSubUserInfo)|True||Sub-account information|
+|**createSubUserInfo**|CreateSubUserInfo|True| |Sub-account Information|
 
-### <a name="CreateSubUserInfo">CreateSubUserInfo</a>
-|名称|类型|是否必需|默认值|描述|
+### CreateSubUserInfo
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**createAk**|Boolean|True||Create accessKey or not|
-|**description**|String|False||Description, 0~256 characters|
-|**email**|String|True||Email|
-|**name**|String|True||Sub-account user name, 4-20 numbers, letters, Chinese characters, underlines and line-throughs|
-|**password**|String|True||Password, 6-20 bits, containing at least one letters and at least one number or half-width character|
-|**passwordConfirm**|String|True||Confirm password|
-|**phone**|String|True||Mobile number, area code-mobile number, at present only support 0086-Chinese mobile number|
+|**createAk**|Boolean|True| |Create accessKey or Not|
+|**description**|String|False| |Description, 0~256 characters|
+|**email**|String|True| |Email|
+|**name**|String|True| |Sub-account User Name, 4-20 numbers, letters, Chinese characters, underlines and line-throughs|
+|**password**|String|True| |Password, 6-20 bits, containing at least one letters and at least one number or half-width character|
+|**passwordConfirm**|String|True| |Confirm Password|
+|**phone**|String|True| |Mobile Number, Area Code-Mobile Number, at present only support 0086-Chinese mobile number|
 
-## 返回参数
-|名称|类型|描述|
+## Response parameter
+|Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
+|**requestId**|String| |
 
 
 
-## 返回码
-|返回码|描述|
+## Response code
+|Return code|Description|
 |---|---|
 |**200**|OK|

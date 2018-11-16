@@ -1,4 +1,4 @@
-This information is according to The Standardized Network Information Service Use of Domain Name by MIIT. Relevant notice from MIIT link: <http://www.miit.gov.cn/newweb/n1146285/n1146352/n3054355/n3057709/n3057714/c5930543/content.html> .
+This information is according to the Standardized Network Information Service Use of Domain Name by MIIT. Relevant notice from MIIT link: <http://www.miit.gov.cn/newweb/n1146285/n1146352/n3054355/n3057709/n3057714/c5930543/content.html> .
 
 To implement the requirements of Anti-Terrorism Law of the People's Republic of China, Cybersecurity Law of People's Republic of China, Internet Information Service Management Measures and Internet Domain Name Management Method and further standardize the use of Internet information service domain names, from January 1, 2018, domain names of Internet using should be registered according to law; registrants of personal filing should be himself/herself; and registrants of corporate filing should be the units (including company shareholder), responsible person of the subject of the units or the senior managers.
 
@@ -30,7 +30,7 @@ Querying the domain name registrar passing national approval, link MIIT website:
 
 (1) Personal record: The filing subject person should correspond with the domain name registrant (domain name holder) real-name verification information. (Comparison information: Name, type of certificate, ID number).
 
-(2) Non-personal record The information of filing subject(organizer name or filing subject person) should correspond to the domain name registrant(domain name holder) real-name verification information.（comparison information： Name, type of certificate, ID number). If the domain name registrant (domain name holder) real-name verification information does not correspond with the information of filing subject, relevant certification materials can be submitted to the filing system (only some provinces available).
+(2) Non-personal record The information of filing subject (organizer name or filing subject person) should correspond to the domain name registrant (domain name holder) real-name verification information (comparison information: name, type of certificate, ID number). If the domain name registrant (domain name holder) real-name verification information does not correspond with the information of filing subject, relevant certification materials can be submitted to the filing system (only some provinces available).
 
 ## The reasons of not passing the domain name verification
 

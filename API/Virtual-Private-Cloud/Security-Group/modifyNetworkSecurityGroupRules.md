@@ -1,44 +1,44 @@
 # modifyNetworkSecurityGroupRules
 
 
-## 描述
-修改安全组规则
+## Description
+Modify security group rule
 
-## 请求方式
+## Request method
 POST
 
-## 请求地址
+## Request address
 https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkSecurityGroups/{networkSecurityGroupId}:modifyNetworkSecurityGroupRules
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**networkSecurityGroupId**|String|True||NetworkSecurityGroup ID|
-|**regionId**|String|True||Region ID|
+|**networkSecurityGroupId**|String|True| |NetworkSecurityGroup ID|
+|**regionId**|String|True| |Region ID|
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**modifySecurityGroupRuleSpecs**|[ModifySecurityGroupRules[]](##ModifySecurityGroupRules)|True||安全组规则信息|
+|**modifySecurityGroupRuleSpecs**|ModifySecurityGroupRules[]|True| |Security Group Rule Information|
 
-### <a name="ModifySecurityGroupRules">ModifySecurityGroupRules</a>
-|名称|类型|是否必需|默认值|描述|
+### ModifySecurityGroupRules
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**addressPrefix**|String|False||安全组规则前缀，取值范围：正确的CIDR|
-|**description**|String|False||安全组规则的描述，取值范围：0-256个UTF-8编码下的全部字符|
-|**fromPort**|Integer|False||安全组规则的起始端口。取值范围：1-65535|
-|**protocol**|Number|False||规则限定协议。300:All; 6:TCP; 17:UDP; 1:ICMP|
-|**ruleId**|String|True||安全组规则的ID。|
-|**toPort**|Integer|False||安全组规则的终端口。取值范围：1-65535|
+|**addressPrefix**|String|False| |Prefix of Security Group Rule. Value Range: correct CIDR        |
+|**description**|String|False| |Security Group Rule Description. Value Range: 0-256 of all characters entered under UTF-8 coding|
+|**fromPort**|Integer|False| |Start Port of Security Group Rule. Value Range: 1-65535|
+|**protocol**|Number|False| |Rule Limits Protocol. 300:All; 6:TCP; 17:UDP; 1:ICMP|
+|**ruleId**|String|True| |Security Group Rule ID.|
+|**toPort**|Integer|False| |End Port of Security Group Rule. Value Range: 1-65535|
 
-## 返回参数
-|名称|类型|描述|
+## Response parameter
+|Name|Type|Description|
 |---|---|---|
-|**requestId**|String|请求ID|
+|**requestId**|String|Request ID|
 
 
 
-## 返回码
-|返回码|描述|
+## Response code
+|Return code|Description|
 |---|---|
 |**200**|Successful operation|
 |**400**|invalid parameter|

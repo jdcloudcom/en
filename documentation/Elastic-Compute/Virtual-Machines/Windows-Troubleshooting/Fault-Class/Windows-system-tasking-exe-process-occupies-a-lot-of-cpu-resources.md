@@ -13,7 +13,7 @@ It is caused by the process resulting from that the running of National Instrume
 
 **Solution:**
 
-First, enter *msconfig* in [Running], change the status in [General Settings] to selective start and click [Service]. Click on the Microsoft service hidden in the bottom left, and find the service named National Instruments Domain Service from remaining services, uncheck it and the service will active after the server is rebooted. As shown in the figure:
+First, enter *msconfig* in **Run**, change the status in [General Settings] to selective start and click **Service]. Click on the Microsoft service hidden in the bottom left, and find the service named National Instruments Domain Service from remaining services, uncheck it and the service will active after the server is rebooted. As shown in the figure:
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows%E7%B3%BB%E7%BB%9Ftasking.exe%E8%BF%9B%E7%A8%8B%E5%8D%A0%E7%94%A8%E5%A4%A7%E9%87%8Fcpu%E8%B5%84%E6%BA%9002.png)
 

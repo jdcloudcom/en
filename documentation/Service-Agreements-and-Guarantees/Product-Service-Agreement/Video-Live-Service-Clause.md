@@ -1,10 +1,10 @@
-**This Service Terms is a valid agreement between the owner of the JD Cloud website (referred to in this Agreement as "JD Cloud" website: **[www.jdcloud.com](https://www.jdcloud.com/)**) and you on matters relating to live video service. By stamping, clicking to confirm on the web page, or other ways to accept the Service Terms, including but not limited to the actual use of live video service of JD Cloud without clicking to confirm the Service Terms, you have reached an agreement with JD Cloud and agreed to accept all agreed contents of the Service Terms. In case of any inconsistency between the text stamped by both parties and the text of Service Terms accepted and confirmed by clicking the web page or other ways, the text stamped by both parties shall prevail.**
+**This Service Terms is a valid agreement between the owner of the JD Cloud website (referred to in this Agreement as "JD Cloud" website:**[www.jdcloud.com](https://www.jdcloud.com/)**) and you on matters relating to Live Video service. By stamping, clicking to confirm on the web page, or other ways to accept the Service Terms, including but not limited to the actual use of Live Video service of JD Cloud without clicking to confirm the Service Terms, you have reached an agreement with JD Cloud and agreed to accept all agreed contents of the Service Terms. In case of any inconsistency between the text stamped by both parties and the text of Service Terms accepted and confirmed by clicking the web page or other ways, the text stamped by both parties shall prevail.**
 
-**For the Service Terms, you are reminded to pay special attention to the restriction and exemption terms, as well as the determination and handling terms of JD Cloud on your violations and breach of contract. You should carefully read the entire contents of the Service Terms before accepting the Service Terms. If you have any questions about the Service Terms, please contact the relevant business department of JD Cloud and JD Cloud will explain the terms to you. If you do not agree on any of the contents of the Service Terms, or cannot accurately understand the interpretation of these terms made by JD Cloud, please do not continue the operation. **
+**For the Service Terms, you are reminded to pay special attention to the restriction and exemption terms, as well as the determination and handling terms of JD Cloud on your violations and breach of contract. You should carefully read the entire contents of the Service Terms before accepting the Service Terms. If you have any questions about the Service Terms, please contact the relevant business department of JD Cloud and JD Cloud will explain the terms to you. If you do not agree on any of the contents of the Service Terms, or cannot accurately understand the interpretation of these terms made by JD Cloud, please do not continue the operation.**
 
 **1. Service Content**
 
-  1.1 “Service” in the terms refers to the live video service and related technical and network support services that JD Cloud provides to you at www.jdcloud.com.
+  1.1 "Service" in the terms refers to the Live Video service and related technical and network support services that JD Cloud provides to you at www.jdcloud.com.
 
   ​1.2. The service provided by JD Cloud must comply with the provisions of the Service Terms.
 
@@ -14,7 +14,7 @@
 
   2.2 Pay-As-You-Go
 
-You can choose a live video service that is sold in volume, which is in the pay-as-you-go mode. After you open the service, JD Cloud will start to provide the service to you. JD Cloud accounts your actual usage and bills you, and deducts the service fee from your JD Cloud account according to the bill amount.
+You can choose a Live Video service that is sold in volume, which is in the pay-as-you-go mode. After you open the service, JD Cloud will start to provide the service to you. JD Cloud accounts your actual usage and bills you, and deducts the service fee from your JD Cloud account according to the bill amount.
 
   2.3 Rules for Service Fee Deduction
 
@@ -30,7 +30,7 @@ Please refer to the announcement on www.jdcloud.com and the current valid billin
 
   3.1. Your Rights and Obligations
 
-​    3.1.1 You agree to abide by the Service Terms and the relevant management regulations and procedures provided on the service display page. You understand that the above agreements and regulations may change from time to time. If any content of the Service Terms is changed, JD Cloud shall prompt you the modification by making announcement on the appropriate page in advance at www.jdcloud.com. If you do not agree with JD Cloud's changes to the relevant provisions of the Service Terms, you have the right to stop using JD Cloud's live video service. In such cases, the Service Terms is terminated, and JD Cloud shall settle the service fee with you (if any). If you continue to use services of JD Cloud, you are deemed to have accepted the modification on relevant rules made by JD Cloud to Service Terms.
+​    3.1.1 You agree to abide by the Service Terms and the relevant management regulations and procedures provided on the service display page. You understand that the above agreements and regulations may change from time to time. If any content of the Service Terms is changed, JD Cloud shall prompt you the modification by making announcement on the appropriate page in advance at www.jdcloud.com. If you do not agree with JD Cloud's changes to the relevant provisions of the Service Terms, you have the right to stop using JD Cloud's Live Video service. In such cases, the Service Terms is terminated, and JD Cloud shall settle the service fee with you (if any). If you continue to use services of JD Cloud, you are deemed to have accepted the modification on relevant rules made by JD Cloud to Service Terms.
 
 ​    3.1.2 You shall pay the corresponding service fee according to the instructions of JD Cloud on the page and the provisions of the Service Terms.
 
@@ -58,7 +58,7 @@ Please refer to the announcement on www.jdcloud.com and the current valid billin
 
 ​     3.1.3.3. If the services of JD Cloud involve the license of third-party software, you agree to abide by the relevant license agreement;
 
-​     3.1.3.4. Do Not Intersperse Email Ads or SPAMs: Do not use the services provided by JD Cloud to intersperse a large number of undesired or uncalled emails, electronic advertising or emails containing reactionary information, pornographic information or other harmful information;
+​     3.1.3.4. Do not intersperse Email Ads or SPAMs: Do not use the services provided by JD Cloud to intersperse a large number of undesired or uncalled emails, electronic advertising or emails containing reactionary information, pornographic information or other harmful information;
 
 ​     3.1.3.5. Do not use the resources and services provided by JD Cloud to upload, download, store, and release the following information or contents and do not provide any convenience for others to release such information (including but not limited to setting URL, BANNER links, etc.):
 
@@ -98,9 +98,9 @@ Please refer to the announcement on www.jdcloud.com and the current valid billin
 
 ​    3.1.7 You must keep the access log records of your website in accordance with the Regulations on Internet Information Service Management and other laws and regulations, including the published information content and its release time, IP, domain names, etc. When inquired by the relevant governmental organs, you shall provide relevant information in accordance with the laws. You are solely responsible for all legal liabilities arising from the failure of keeping relevant records as required.
 
-​    3.1.8 You understand that JD Cloud's live video service is configured with security protection function, and you also understand that JD Cloud cannot guarantee that the services it provides are flawless (for example, security function of JD Cloud cannot guarantee the absolute security of your hardware or software), but it promises to improve the service quality and service levels continuously. Therefore, you agree even if the services provided by JD Cloud have defects, the above-mentioned defects are unavoidable due to the technical level in the industry at the time, and it will not be regarded as JD Cloud's default. You agree to cooperate with JD Cloud to solve the above problems.
+​    3.1.8 You understand that JD Cloud's Live Video service is configured with security protection function, and you also understand that JD Cloud cannot guarantee that the services it provides are flawless (for example, security function of JD Cloud cannot guarantee the absolute security of your hardware or software), but it promises to improve the service quality and service levels continuously. Therefore, you agree even if the services provided by JD Cloud have defects, the above-mentioned defects are unavoidable due to the technical level in the industry at the time, and it will not be regarded as JD Cloud's default. You agree to cooperate with JD Cloud to solve the above problems.
 
-​    3.1.9 You understand and acknowledge that you shall use traffic (even if you pay for traffic) within the peak bandwidth specified by JD Cloud in live video service by traffic billing mode. If the peak bandwidth of your traffic exceeds the peak bandwidth specified by JD Cloud, JD Cloud reserves the right to limit your peak bandwidth or suspend the service based on its own judgment. If you agree to pay certain fees through negotiation, JD Cloud may cancel the above restrictions or suspension after charging corresponding fees from you.
+​    3.1.9 You understand and acknowledge that you shall use traffic (even if you pay for traffic) within the peak bandwidth specified by JD Cloud in Live Video service by traffic billing mode. If the peak bandwidth of your traffic exceeds the peak bandwidth specified by JD Cloud, JD Cloud reserves the right to limit your peak bandwidth or suspend the service based on its own judgment. If you agree to pay certain fees through negotiation, JD Cloud may cancel the above restrictions or suspension after charging corresponding fees from you.
 
 ​    3.1.10 Data backup is your obligation and responsibility. JD Cloud will not back up users' data, nor assume any responsibility for user data backup work or results.
 
@@ -112,7 +112,7 @@ Please refer to the announcement on www.jdcloud.com and the current valid billin
 
 ​    3.2.2.1 JD Cloud provides 7×24 after-sales fault service and effective contact information for paying users as well as ensures that they can contact the fault handling personnel. The fault contacts will provide timely feedback after the fault has been identified.
 
-​    3.2.3 JD Cloud is responsible only for the operation maintenance at the bottom part of operating system and of the software provided by JD Cloud, that is, the related technical architecture and operating system of the live video service. You will be responsible for the upper part of the operating system (such as the applications you install on your system). Besides, if you upgrade your operating system yourself, it may cause adverse effects such as downtime. Please consider the risks and operation with caution.
+​    3.2.3 JD Cloud is responsible only for the operation maintenance at the bottom part of operating system and of the software provided by JD Cloud, that is, the related technical architecture and operating system of the Live Video service. You will be responsible for the upper part of the operating system (such as the applications you install on your system). Besides, if you upgrade your operating system yourself, it may cause adverse effects such as downtime. Please consider the risks and operation with caution.
 
 ​    3.2.4 JD Cloud will clear the faults caused by non-human factors, except for your reasons and/or force majeure as well as matters excluded in the control scope of JD Cloud.
 
@@ -152,9 +152,9 @@ Please refer to the announcement on www.jdcloud.com and the current valid billin
 
 **7. Opening, Use and Termination of Services**
 
-  7.1 The live video service is sold in volume. You can use JD Cloud's live video service from the date of opening.
+  7.1 The Live Video service is sold in volume. You can use JD Cloud's Live Video service from the date of opening.
 
-  7.2 You shall keep your account balance sufficient to ensure the uninterrupted use of the service. If you have arrears for the on-demand live video service, JD Cloud will stop providing the service for you.
+  7.2 You shall keep your account balance sufficient to ensure the uninterrupted use of the service. If you have arrears for the on-demand Live Video service, JD Cloud will stop providing the service for you.
 
   7.3 The service shall be terminated in advance in the following circumstances:
 
@@ -184,7 +184,7 @@ Please refer to the announcement on www.jdcloud.com and the current valid billin
 
   9.1 Due to force majeure or other accidents, the performance of this Service Terms becomes impossible, unnecessary or meaningless, and the party suffering from force majeure or accident is not liable.
 
-  9.2. Force majeure or accidental events refer to unforeseeable, insurmountable and unavoidable objective events that have a significant impact on one or both parties, including but not limited to natural disasters such as floods, earthquakes, epidemics of plagues, and social events such as war, unrest, government actions, interruption of telecommunications trunk lines, hackers, network path blocking, technical adjustment of telecom department and government regulation.
+  9.2. Force majeure or accidental events refer to unforeseeable, insurmountable and unavoidable objective events that have a significant impact on one or both parties, including but not limited to natural disasters such as floods, earthquakes, epidemics of plagues, and social events such as war, unrest, government actions, and interruption of telecommunications trunk lines, hackers, network path blocking, technical adjustment of telecom department and government regulation.
 
 **10. Governing Law and Dispute Resolution**
 

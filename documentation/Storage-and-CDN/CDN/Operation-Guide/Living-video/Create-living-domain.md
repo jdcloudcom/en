@@ -1,6 +1,6 @@
 **Live Domain Name Creation**
 
-1. Enter the 【Domain Name List】 page in the CDN customer console; click “Add Domain Name”
+1. Enter the **Domain Name List** page in the CDN customer console; click “Add Domain Name”
 
 ![image.png](https://img1.jcloudcs.com/cms/8060a399-d9b1-49e4-9842-b033298704f120180514184345.png)
 

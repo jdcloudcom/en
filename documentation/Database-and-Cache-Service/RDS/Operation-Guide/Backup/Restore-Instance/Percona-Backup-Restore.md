@@ -1,5 +1,5 @@
-# Percona Restored based on backup
-You can perform a full backup before testing if to perform some destructive tests on Percona service instance. After the test is completed, you can restore the current instance based on the previous full backup, so that the data in Percona service instance can be returned to its original state.
+# JCS for Percona Restored based on backup
+You can perform a full backup before testing if to perform some destructive tests on JCS for Percona service instance. After the test is completed, you can restore the current instance based on the previous full backup, so that the data in Percona service instance can be returned to its original state.
 
 ## Precautions
 * The operation can only be performed when the instance is ***running***.
@@ -10,4 +10,4 @@ You can perform a full backup before testing if to perform some destructive test
 3. Click the tag of ***Backup Management***, select the target backup file, click ***Restore Based on Backup***, and the parameters of the pop-up box are as follows:
     * Click ***OK*** to complete the backup.
     * Click ***Cancel*** to cancel the backup creation.
-    ![Screenshot](../../../../image/RDS/restore-rds-instance.png)
+    ![Screenshot](../../../../../../image/RDS/restore-rds-instance.png)

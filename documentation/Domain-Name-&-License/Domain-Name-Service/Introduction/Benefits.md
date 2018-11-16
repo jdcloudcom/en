@@ -9,4 +9,4 @@ JD Cloud provides you with a variety of domain name registration types, domestic
 JD Cloud provides a stable resolution service with a new generation of high-performance DNS server program, offering you a wonderful experience by taking effect in seconds. In addition, JD Cloud provides free intelligent resolution services to domain-wide domain names, with massive processing power, flexible scalability and security capabilities to provide a stable, secure and fast resolution experience for your site.
 
 ## Professional Service
-JD Cloud has a professional after-sales engineers team to provide you with 7*24 hours of uninterrupted technical service. If you have any problems using our services, you can always call us at 4006151212 for assistance.
+JD Cloud has a professional after-sales engineer team to provide you with 7*24 hours of uninterrupted technical service. If you have any problems using our services, you can always call us at 4006151212 for assistance.

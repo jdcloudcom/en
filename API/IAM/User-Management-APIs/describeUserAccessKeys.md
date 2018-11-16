@@ -1,44 +1,44 @@
 # describeUserAccessKeys
 
 
-## 描述
+## Description
 Search AccessKey list
 
-## 请求方式
+## Request method
 GET
 
-## 请求地址
+## Request address
 https://iam.jdcloud-api.com/v1/regions/{regionId}/userAccessKeys
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
+|**regionId**|String|True| |Region ID|
 
-## 请求参数
-无
+## Request parameter
+None
 
 
-## 返回参数
-|名称|类型|描述|
+## Response parameter
+|Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
-|**result**|[Result](##Result)||
+|**requestId**|String| |
+|**result**|Result| |
 
 
-### <a name="Result">Result</a>
-|名称|类型|描述|
+### Result
+|Name|Type|Description|
 |---|---|---|
-|**userAccessKeys**|[UserAccessKey[]](##UserAccessKey)|userAccessKey list|
-### <a name="UserAccessKey">UserAccessKey</a>
-|名称|类型|描述|
+|**userAccessKeys**|UserAccessKey[]|userAccessKey list|
+### UserAccessKey
+|Name|Type|Description|
 |---|---|---|
 |**accessKey**|String|accessKey|
 |**accessKeySecret**|String|accessKeySecret|
-|**createTime**|String|Creation time|
-|**state**|Integer|Disabled/enabled status [0-disabled, 1-enabled]|
-|**yn**|Integer|Deleted/valid status [0-deleted, 1-valid]|
+|**createTime**|String|Creation Time|
+|**state**|Integer|Disabled/Enabled Status [0-Disabled, 1-Enabled]|
+|**yn**|Integer|Deleted/Valid Status [0-Deleted, 1-Valid]|
 
-## 返回码
-|返回码|描述|
+## Response code
+|Return code|Description|
 |---|---|
 |**200**|OK|

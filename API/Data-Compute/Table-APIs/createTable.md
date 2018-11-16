@@ -1,62 +1,62 @@
 # createTable
 
 
-## 描述
+## Description
 Create a user instance datasheet
 
-## 请求方式
+## Request method
 POST
 
-## 请求地址
+## Request address
 https://xdata.jdcloud-api.com/v1/regions/{regionId}/dwTable
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
+|**regionId**|String|True| |Region ID|
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**dbModelDBTable**|[DwTableDesc](##DwTableDesc)|True||Datasheet description information|
-|**instanceName**|String|True||Instance name|
+|**dbModelDBTable**|DwTableDesc|True| |Datasheet Description Information|
+|**instanceName**|String|True| |Instance Name|
 
-### <a name="DwTableDesc">DwTableDesc</a>
-|名称|类型|是否必需|默认值|描述|
+### DwTableDesc
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**comments**|String|False||Description information|
-|**createTime**|String|False||Creation time (automatically generated)|
-|**dbName**|String|False||Database name|
-|**externalLocation**|String|False||External table location|
-|**fieldsDelimit**|String|False||Field delimiter|
-|**hiveFileFormat**|String|False||Storage format|
-|**linesDelimit**|String|False||Row delimiter|
-|**otherSerdeProperties**|Object|False||Other serde attributes|
-|**owner**|String|False||Owner (automatically generated)|
-|**parameters**|Object|False||Parameter|
-|**rows**|[DwTableRow[]](##DwTableRow)|False||List information|
-|**tableName**|String|False||Table name|
-### <a name="DwTableRow">DwTableRow</a>
-|名称|类型|是否必需|默认值|描述|
+|**comments**|String|False| |Description Information|
+|**createTime**|String|False| |Creation Time (automatically generated)|
+|**dbName**|String|False| |Database Name|
+|**externalLocation**|String|False| |External Table Location|
+|**fieldsDelimit**|String|False| |Field Delimiter|
+|**hiveFileFormat**|String|False| |Storage Format|
+|**linesDelimit**|String|False| |Row Delimiter|
+|**otherSerdeProperties**|Object|False| |Other Serde Attributes|
+|**owner**|String|False| |Owner (automatically generated)|
+|**parameters**|Object|False| |Parameter|
+|**rows**|DwTableRow[]|False| |List Information|
+|**tableName**|String|False| |Table Name|
+### DwTableRow
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**columnName**|String|False||Field name|
-|**columnType**|String|False||Field type|
-|**comments**|String|False||Description information|
-|**isPartition**|Boolean|False||Is the field partitioned|
+|**columnName**|String|False| |Field Name|
+|**columnType**|String|False| |Field Type|
+|**comments**|String|False| |Description Information|
+|**isPartition**|Boolean|False| |Is the field partitioned|
 
-## 返回参数
-|名称|类型|描述|
+## Response parameter
+|Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
-|**result**|[Result](##Result)||
+|**requestId**|String| |
+|**result**|Result| |
 
 
-### <a name="Result">Result</a>
-|名称|类型|描述|
+### Result
+|Name|Type|Description|
 |---|---|---|
-|**message**|String||
-|**status**|Boolean||
+|**message**|String| |
+|**status**|Boolean| |
 
-## 返回码
-|返回码|描述|
+## Response code
+|Return code|Description|
 |---|---|
 |**200**|OK|

@@ -1,5 +1,5 @@
-# Windows2012 Disk Partition and Formatting
-Note: Disk partitioning and formatting are high-risk behaviors, please operate with caution. The following operations are for newly purchased data disks. If it involves the processing of the original data disk, make sure to create a snapshot for the data disk of the virtual machine to avoid possible data loss.
+# Windows 2012 Disk Partition and Formatting
+Note: Disk partitioning and formatting are high-risk behaviors, please operate with caution. The following operations are for newly purchased data disks. If it involves the processing of the original data disk, make sure to create a snapshot for the data disk of the Virtual Machines to avoid possible data loss.
 
 **The data disk just purchased, by default, is not partitioned and formatted. You can refer to the following methods to initially configure it:**
 
@@ -9,7 +9,7 @@ Note: Disk partitioning and formatting are high-risk behaviors, please operate w
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows2012%E7%A3%81%E7%9B%98%E5%88%86%E5%8C%BA%E5%92%8C%E6%A0%BC%E5%BC%8F%E5%8C%9602.png)
 
-2. Right-click [New Simple Volume] on the blank partition.
+2. Right-click **New Simple Volume** on the blank partition.
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows2012%E7%A3%81%E7%9B%98%E5%88%86%E5%8C%BA%E5%92%8C%E6%A0%BC%E5%BC%8F%E5%8C%9603.png)
 
@@ -26,7 +26,7 @@ Note: Disk partitioning and formatting are high-risk behaviors, please operate w
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows2012%E7%A3%81%E7%9B%98%E5%88%86%E5%8C%BA%E5%92%8C%E6%A0%BC%E5%BC%8F%E5%8C%9607.png)
 
-6. Click [Finish], and the system will automatically form a new partition. The drive to which the data disk is attached is formatted.
+6. Click **Finish**, and the system will automatically form a new partition. The drive to which the data disk is attached is formatted.
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows2012%E7%A3%81%E7%9B%98%E5%88%86%E5%8C%BA%E5%92%8C%E6%A0%BC%E5%BC%8F%E5%8C%9608.png)
 

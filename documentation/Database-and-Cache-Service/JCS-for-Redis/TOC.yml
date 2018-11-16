@@ -1,4 +1,4 @@
-﻿  name: JCS for Redis
+  name: JCS for Redis
   href: 
   items:
   - name: Introduction
@@ -7,7 +7,7 @@
         href: Introduction/Product-Overview.md
       - name: Core Concepts
         href: Introduction/Core-Concepts.md
-      - name: Basic Infrastructure
+      - name: Basic Architecture
         href: Introduction/Basic-Infrastructure.md
       - name: Benefits
         href: Introduction/Benefits.md
@@ -15,9 +15,9 @@
         href: Introduction/Features.md
       - name: Specifications
         href: Introduction/Specifications.md
-      - name: Restrictionss
+      - name: Restrictions
         href: Introduction/Restrictions.md
-      - name: Application Scenario 
+      - name: Application Scenarios 
         href: Introduction/Application-Scenarios.md    
   - name: Pricing
     items:
@@ -29,9 +29,9 @@
         href: Pricing/Price-Overview.md
       - name: Purchase Process
         href: Pricing/Purchase-Process.md 
-      - name: Renewal Process
+      - name: Renew Process
         href: Pricing/Renewal-Process.md
-  - name: Getting-started
+  - name: Getting Started
     items:
       - name: Create Instance
         href: Getting-Started/Create-Instance.md
@@ -39,7 +39,7 @@
         href: Getting-Started/Connect-Instances.md
       - name: Command Support
         href: Getting-Started/Command-Supported.md
-      - name: Summary of Getting-started Guide
+      - name: Getting Started Overview
         href: Getting-Started/Getting-Started-Overview.md
   - name: Operation Guide
     items:
@@ -63,23 +63,23 @@
             href: Operation-Guide/Monitoring/Monitoring.md
           - name: Set Alarm Rules
             href: Operation-Guide/Monitoring/Alarm-Rules.md              
-  - name: Best Practice
+  - name: Best Practices
     items:
-    - name: C/C++ Connect Redis Instance
-      href: Best-Practices/CorC++-Connect-to-Redis-Instance.md
-    - name: Golang Connect Redis Instance
+    - name: C/C++ Connect JCS for Redis Instance
+      href: Best-Practices/CorCplusplus-Connect-to-Redis-Instance.md
+    - name: Golang Connect JCS for Redis Instance
       href: Best-Practices/Golang-Connect-to-Redis-Instance.md
-    - name: Java Connect Redis Instance
+    - name: Java Connect JCS for Redis Instance
       href: Best-Practices/Java-Connect-to-Redis-Instance.md
-    - name: Node.js Connect Redis Instance
+    - name: Node.js Connect JCS for Redis Instance
       href: Best-Practices/Node.js-Connect-to-Redis-Instance.md
-    - name: PHP Connect Redis Instance
+    - name: PHP Connect JCS for Redis Instance
       href: Best-Practices/PHP-Connect-to-Redis-Instance.md
-    - name: Python Connect Redis Instance
+    - name: Python Connect JCS for Redis Instance
       href: Best-Practices/Python-Connect-to-Redis-Instance.md
-    - name: Public Network Connect Redis Instance
+    - name: Public Network Connect JCS for Redis Instance
       href: Best-Practices/Public-Network-Connect-to-Redis-Instance.md
-  - name: Course
+  - name: Tutorial
     items:
     status: 0
   - name: Troubleshooting
@@ -87,11 +87,7 @@
     status: 0      
   - name: FAQ
     href: FAQ/FAQ.md
-  - name: API Reference
-    href:
-  - name: SDK Reference
-    href:
-  - name: User Agreement
+  - name: User Agreements
     status: 0
     items:
     - name: Service Terms
@@ -100,11 +96,12 @@
     - name: SLA
       href: User-Agreements/SLA.md           
       status: 0       
-  - name: Relevant Resources
+  - name: Related Resources
+    status: 0       
     items:
     - name: Document History
       href: Related-Resources/Document-History.md   
-    - name: Filing
+    - name: ICP Filing
       href: Related-Resources/Filing.md           
       status: 0        
     - name: Glossary

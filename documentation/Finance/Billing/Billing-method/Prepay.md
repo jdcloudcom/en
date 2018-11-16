@@ -1,7 +1,7 @@
 # Instruction on the Pay-In-Advance billing
 ## What is Pay-In-Advance?
 
-Pay-In-Advance refers to a payment model that users can pay in advance for the cloud resources of fixed configuration and fixed duration and such cloud resources will be built and put into use as soon as the payment has been successfully completed.
+Pay-In-Advance refers to a payment model that users can pay in advance for the cloud resources of fixed configuration and fixed duration and such cloud resources will be built and put into use as soon as the payment has been successfully completed.  
 Usually, Pay-In-Advance refers to a purchase model based on monthly package. Users can pay the charges for a month, several months or several years at a time according to their use demand. After successful payment, cloud resources will be allocated to users until the expiry date when the user does not pay again the charges. The corresponding resources will be withdrawn.
 
 ## What will happen to the Pay-In-Advance cloud resources when they expire?

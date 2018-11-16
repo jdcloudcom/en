@@ -1,54 +1,53 @@
 # addDomain
 
 
-## 描述
+## Description
 Add Main Domain Name
 
-## 请求方式
+## Request method
 POST
 
-## 请求地址
+## Request address
 https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domainAdd
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID to which the instance belongs|
+|**regionId**|String|True| |Region ID to which the instance belongs|
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**billingType**|Integer|False||Billing type, domain name of the paid package is required|
-|**buyType**|Integer|False||1->new purchase, 2->upgrade, domain name of the paid package is required|
-|**domainId**|Integer|False||Domain name ID, required for upgraded and advanced version|
-|**domainName**|String|True||Domain name to be added|
-|**packId**|Integer|True||Type of the domain name package,  0->free, 1->Enterprise Edition, 2->Advanced Edition|
-|**timeSpan**|Integer|False||1,2,3 , duration, domain name of the paid package is required|
-|**timeUnit**|Integer|False||Time unit, domain name of the paid package is required|
+|**billingType**|Integer|False| |Billing Type, domain name of the paid package is required|
+|**buyType**|Integer|False| |1->New Purchase, 3->Upgrade, domain name of the paid package is required|
+|**domainId**|Integer|False| |Domain Name ID, required for upgraded and advanced version       |
+|**domainName**|String|True| |Domain Name to be Added|
+|**packId**|Integer|True| |Type of the Domain Name Package,  0->Free, 1->Enterprise Edition, 2->Advanced Edition|
+|**timeSpan**|Integer|False| |1, 2, 3, Duration, domain name of the paid package is required|
+|**timeUnit**|Integer|False| |Time Unit, domain name of the paid package is required|
 
 
-## 返回参数
-|名称|类型|描述|
+## Response parameter
+|Name|Type|Description|
 |---|---|---|
-|**requestId**|String|ID of this request|
-|**result**|[Result](##Result)||
+|**requestId**|String|ID of This Request|
+|**result**|Result| |
 
-
-### <a name="Result">Result</a>
-|名称|类型|描述|
+### Result
+|Name|Type|Description|
 |---|---|---|
-|**data**|[Domain](##Domain)|Newly added domain name structure|
+|**data**|Domain|Newly Added Domain Name Structure|
 |**order**|String|Add the order number of the paid domain name|
-### <a name="Domain">Domain</a>
-|名称|类型|描述|
+### Domain
+|Name|Type|Description|
 |---|---|---|
-|**createTime**|Integer|Creation time, format Unix timestamp|
+|**createTime**|Integer|Creation Time, Format Unix Timestamp |
 |**domainName**|String|Domain Name String|
-|**expirationDate**|Integer|Expiration time, format Unix timestamp|
-|**id**|Integer|Unique ID of the domain name|
-|**packId**|Integer|Package type, 0->free 1->Enterprise Edition 2->Advanced Edition|
+|**expirationDate**|Integer|Expiration Time, Format Unix Timestamp|
+|**id**|Integer|Unique ID of the Domain Name|
+|**packId**|Integer|Package Type, 0->Free 1->Enterprise Edition 2->Advanced Enterprise Edition|
 
-## 返回码
-|返回码|描述|
+## Response code
+|Return code|Description|
 |---|---|
 |**200**|OK|
 |**400**|BAD_REQUEST|

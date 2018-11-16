@@ -25,4 +25,5 @@ The cost consists of the three portions of VM, EIP and image.
 
 The NAT instance gateway created by the VM currently only costs the VM and EIP.
 
-See: [VM Price](/documentation/Elastic-Compute/Virtual-Machine/Pricing/Price.md), [public IP price](/documentation/Networking/Elastic-IP/Pricing/Price-Overview.md) .
+See: [VM Price](/documentation/Elastic-Compute/Virtual-Machines/Pricing/Billing-Overview.md),
+[public IP price](/documentation/Networking/Elastic-IP/Pricing/Price-Overview.md) .

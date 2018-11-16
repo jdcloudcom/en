@@ -1,10 +1,10 @@
 # Linux System Configures SNAT
 
-This method describes how to configure SNAT for the virtual machine of the Linux system in the VPC, so that the virtual machine without EIP can realize the proxy access to EIP through the virtual machine with EIP.
+This method describes how to configure SNAT for the Virtual Machines of the Linux system in the VPC, so that the Virtual Machines without EIP can realize the proxy access to EIP through the Virtual Machines with EIP.
 
-Note: SNAT's virtual machine has a separate subnet
+Note: SNAT's Virtual Machines has a separate subnet
 
-Use SSH to log into a virtual machine that has been bound to the EIP.
+Use SSH to log into a Virtual Machines that has been bound to the EIP.
 
 ![](https://github.com/jdcloudcom/cn/blob/cn-VirtualMachine-Linux/image/Elastic-Compute/Virtual-Machine/Linux/Linux%E7%B3%BB%E7%BB%9F%E9%85%8D%E7%BD%AESNAT01.png)
 
@@ -32,6 +32,6 @@ Separately create a route table for the intranet host. The routing policy is as 
 
 ![](https://github.com/jdcloudcom/cn/blob/cn-VirtualMachine-Linux/image/Elastic-Compute/Virtual-Machine/Linux/Linux%E7%B3%BB%E7%BB%9F%E9%85%8D%E7%BD%AESNAT03.png)
 
-The console vnc logs in to a virtual machine 10.242.0.3 only with intranet. The actual test has already accessed the EIP.
+The console vnc logs in to a Virtual Machines 10.242.0.3 only with intranet. The actual test has already accessed the EIP.
 
 ![](https://github.com/jdcloudcom/cn/blob/cn-VirtualMachine-Linux/image/Elastic-Compute/Virtual-Machine/Linux/Linux%E7%B3%BB%E7%BB%9F%E9%85%8D%E7%BD%AESNAT04.png)

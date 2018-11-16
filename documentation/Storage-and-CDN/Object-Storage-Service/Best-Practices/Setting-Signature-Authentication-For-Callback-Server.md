@@ -5,7 +5,7 @@ If your callback server is maliciously attacked by others, as the malicious call
 
 Among the OSS callback notification and video callback, the notification message is sent to your callback server via the NS service. NS supports signature verification via the method below:
 
-### Checking callback signature
+### Check Callback Signature
 The user can obtain the signature certificate by pushing x-jdcloud-signing-cert-url in request Header, check if such request is sent by the NS system with corresponding method and protect the user against negative effects by malicious requests.verification
 
 Among the request headers pushed by NS, the value of Authorization field is used for producing signature by MNS with the SHA1-RSA signature algorithm according to the character string to be signed. Endpoint can verify the signature by using the public key and the specific verification method is as follows:
@@ -64,7 +64,7 @@ Note:
 ublic class SignDemo {
       private Boolean authenticate(String method, String uri, Map<String, String> headers) {
           try {
-              //获取证书的URL
+              //Obtaining a certificate URL
               if (!headers.containsKey("x-jdcloud-signing-cert-url")) {
                   System.out.println("x-jdcloud-signing-cert-url Header not found");
                   return false;
@@ -77,7 +77,7 @@ ublic class SignDemo {
              cert = new String(Base64.decodeBase64(cert));
              System.out.println("x-jdcloud-signing-cert-url:\t" + cert);
   
-             //根据URL获取证书，并从证书中获取公钥
+             //Obtaining a certificate based on URL and obtaining public key from the certificate
              URL url = new URL(cert);
              HttpURLConnection conn = (HttpURLConnection) url.openConnection();
              DataInputStream in = new DataInputStream(conn.getInputStream());
@@ -85,15 +85,15 @@ ublic class SignDemo {
              Certificate c = cf.generateCertificate(in);
              PublicKey pk = c.getPublicKey();
   
-             //获取待签名字符串
+             //Obtaining character string to be signed
              String str2sign = getSignStr(method, uri, headers);
              System.out.println("String2Sign:\t" + str2sign);
   
-             //对Authorization字段做Base64解码
+             //Applying Base64 decoding to Authorization field
              String signature = headers.get("Authorization");
              byte[] decodedSign = Base64.decodeBase64(signature);
   
-             //认证
+             //Verification
              java.security.Signature signetcheck = java.security.Signature.getInstance("SHA1withRSA");
              signetcheck.initVerify(pk);
              signetcheck.update(str2sign.getBytes());

@@ -1,12 +1,12 @@
-**This service term is a valid agreement between the owner of the JD Cloud website (referred to in this agreement as "JD Cloud" website: **[**www.jdcloud.com**](https://www.jdcloud.com/index)**) and you on matters relating to the message queue service. By stamping, clicking to confirm on the web page, or other ways to accept the Service Terms, including but not limited to the actual use of the message queue service of JD Cloud without clicking to confirm the Service Terms, you have reached an agreement with JD Cloud and agreed to accept all agreed contents of the Service Terms. In case of any inconsistency between the text stamped by both parties and the text of Service Terms accepted and confirmed by clicking the web page or other ways, the text stamped by both parties shall prevail.**
+**This service term is a valid agreement between the owner of the JD Cloud website (referred to in this agreement as "JD Cloud" website:**[**www.jdcloud.com**](https://www.jdcloud.com/index)**) and you on matters relating to the Message Queue service. By stamping, clicking to confirm on the web page, or other ways to accept the Service Terms, including but not limited to the actual use of the Message Queue service of JD Cloud without clicking to confirm the Service Terms, you have reached an agreement with JD Cloud and agreed to accept all agreed contents of the Service Terms. In case of any inconsistency between the text stamped by both parties and the text of Service Terms accepted and confirmed by clicking the web page or other ways, the text stamped by both parties shall prevail.**
 
  
 
-**For the Service Terms, you are reminded to pay special attention to the restriction and exemption terms, determination and handling terms of JD Cloud on your violations and breach of contract, and the selection terms of jurisdictional courts. Restriction and exemption terms may be indicated in bold or by underline for your attention. You should carefully read the entire contents of the Service Terms before accepting the Service Terms. If you have any questions about the Service Terms, please contact the relevant business department of JD Cloud and JD Cloud will explain the terms to you. If you do not agree on any of the contents of the Service Terms, or cannot accurately understand the interpretation of these terms made by JD Cloud, please do not continue the operation. **
+**For the Service Terms, you are reminded to pay special attention to the restriction and exemption terms, determination and handling terms of JD Cloud on your violations and breach of contract, and the selection terms of jurisdictional courts. Restriction and exemption terms may be indicated in bold or by underline for your attention. You should carefully read the entire contents of the Service Terms before accepting the Service Terms. If you have any questions about the Service Terms, please contact the relevant business department of JD Cloud and JD Cloud will explain the terms to you. If you do not agree on any of the contents of the Service Terms, or cannot accurately understand the interpretation of these terms made by JD Cloud, please do not continue the operation.**
 
 **1. Service Content**
 
-1.1 "Services" in the terms means: JD Cloud provides you with the message queue service and related technical and network support services displayed on the website [www.jdcloud.com](https://www.jdcloud.com/).
+1.1 "Services" in the terms means: JD Cloud provides you with the Message Queue service and related technical and network support services displayed on the website [www.jdcloud.com](https://www.jdcloud.com/).
 
 ​1.2. The service provided by JD Cloud must comply with the provisions of the Service Terms.
 
@@ -44,7 +44,7 @@ You can select the pay-as-you-go mode. Please refer to the announcement on [www.
 
 ​3.1.3.1 If you use the services provided by JD Cloud to conduct operating or non-operating activities that require the license or approval of the relevant national authorities, you shall obtain the relevant license or approval, including but not limited to the following:
 
-If you select message queue, you must ensure that all websites established are licensed or approved by the relevant national authorities;
+If you select Message Queue, you must ensure that all websites established are licensed or approved by the relevant national authorities;
 
 If your website provides non-operating Internet information services, you must fill the non-operating website on the record, and ensure that all the filling information submitted is true and effective, and submit the updated information in the filing system in a timely manner when the filing information changes;
 
@@ -64,7 +64,7 @@ You understand and acknowledge that the above list does not cover all types of l
 
 3.1.3.3 If the services of JD Cloud involve the license of third-party software, you agree to abide by the relevant license agreement;
 
-3.1.3.4 Do Not Intersperse Email Ads or SPAMs: Do not use the services provided by JD Cloud to intersperse a large number of undesired or uncalled emails, electronic advertising or emails containing reactionary information, pornographic information or other harmful information;
+3.1.3.4 Do not intersperse Email Ads or SPAMs: Do not use the services provided by JD Cloud to intersperse a large number of undesired or uncalled emails, electronic advertising or emails containing reactionary information, pornographic information or other harmful information;
 
 3.1.3.5 The cloud server provided by JD Cloud shall not be used as a virtual server, or used as a disk space for rent, or used as an illegal proxy server or SPAM server;
 
@@ -110,7 +110,7 @@ You understand and acknowledge that the above list does not cover all types of l
 
 3.1.9 In view of limitation of the existing technology development level in this industry, you understand that JD Cloud cannot guarantee that the services it provides are flawless (for example, security products of JD Cloud cannot guarantee the absolute security of your hardware or software), but it promises to improve the service quality and service levels continuously. Therefore, you agree even if the services provided by JD Cloud have defects, the above-mentioned defects are unavoidable due to the technical level in the industry at the time, and it will not be regarded as JD Cloud's default. You agree to cooperate with JD Cloud to solve the above problems.
 
-3.1.10 Data backup is your obligation and responsibility. The message queue of JD Cloud may be configured with the necessary tools with daily data backup function, which does not mean that data backup is an obligation of JD Cloud. JD Cloud does not guarantee full backup of user data, nor does it assume any responsibility for user data backup work or results.
+3.1.10 Data backup is your obligation and responsibility. The Message Queue of JD Cloud may be configured with the necessary tools with daily data backup function, which does not mean that data backup is an obligation of JD Cloud. JD Cloud does not guarantee full backup of user data, nor does it assume any responsibility for user data backup work or results.
 
 3.2 Rights and Obligations of JD Cloud
 
@@ -122,13 +122,13 @@ You understand and acknowledge that the above list does not cover all types of l
 
 3.2.2.2 JD Cloud provides a 7×24h online open ticket service system to answer customer questions.
 
-3.2.3 Where the service involves the message queue service, JD Cloud is responsible only for the operation maintenance at the bottom part of operating system and of the software provided by JD Cloud, that is, the related technical architecture and operating system of the message queue service. You will be responsible for the upper part of the message queue. Besides, if you upgrade your operating system yourself, it may cause adverse effects such as downtime. Please consider the risks and operation with caution.
+3.2.3 Where the service involves the Message Queue service, JD Cloud is responsible only for the operation maintenance at the bottom part of operating system and of the software provided by JD Cloud, that is, the related technical architecture and operating system of the Message Queue service. You will be responsible for the upper part of the Message Queue. Besides, if you upgrade your operating system yourself, it may cause adverse effects such as downtime. Please consider the risks and operation with caution.
 
 3.2.4 JD Cloud will clear the faults caused by non-human factors, except for your reasons and/or force majeure as well as matters excluded in the control scope of JD Cloud.
 
 3.2.5 JD Cloud shall strictly abide by the obligation of confidentiality.
 
-3.2.6 You understand and agree that JD Cloud will migrate the machine room of the message queue service you use when necessary. JD Cloud will inform you of the above operations 7 natural days in advance. Above operations may require modification of the DNS of your related domain name. Therefore, you need to modify the DNS to IP designated by JD Cloud as per the time required by JD Cloud after receiving the notification from JD Cloud. Otherwise, you will be responsible for the inability to access the website application thus caused.
+3.2.6 You understand and agree that JD Cloud will migrate the machine room of the Message Queue service you use when necessary. JD Cloud will inform you of the above operations 7 natural days in advance. Above operations may require modification of the DNS of your related domain name. Therefore, you need to modify the DNS to IP designated by JD Cloud as per the time required by JD Cloud after receiving the notification from JD Cloud. Otherwise, you will be responsible for the inability to access the website application thus caused.
 
 **4. Saving, Destruction and Download of User's Data**
 
@@ -166,7 +166,7 @@ You understand and acknowledge that the above list does not cover all types of l
 
 **7. Term and Termination**
 
-7.1 The service term is calculated from the day that you created (refers to the services shown and provided to you at jdcloud.com) any message queue service. The specific service term will be calculated based on your actual usage, and confirmed according to the amount of money you have paid. After the message queue is created successfully, you should make preparations prior to the opening of the website (such as handling website license/website filing procedure, etc.), the preparation period shall be included in the service period.
+7.1 The service term is calculated from the day that you created (refers to the services shown and provided to you at jdcloud.com) any Message Queue service. The specific service term will be calculated based on your actual usage, and confirmed according to the amount of money you have paid. After the Message Queue is created successfully, you should make preparations prior to the opening of the website (such as handling website license/website filing procedure, etc.), the preparation period shall be included in the service period.
 
 7.2 The service term shall be terminated in advance in the following circumstances:
 
@@ -176,7 +176,7 @@ You understand and acknowledge that the above list does not cover all types of l
 
 7.2.3 If you choose a pay-as-you-go service, you should keep your account balance sufficient to ensure continued use of the service. If you fail to fulfill your payment obligations as agreed, JD Cloud will suspend or terminate the service as follows:
 
-7.2.3.1 You can continue to use the message queue service of JD Cloud for 24h from the first arrears; if, 24h later, you still fail to recharge it successfully and enough to pay the service fees owed, JD Cloud will suspend the service and freeze the operation of the message queue service under your account, but still store your data and continue to bill;
+7.2.3.1 You can continue to use the Message Queue service of JD Cloud for 24h from the first arrears; if, 24h later, you still fail to recharge it successfully and enough to pay the service fees owed, JD Cloud will suspend the service and freeze the operation of the Message Queue service under your account, but still store your data and continue to bill;
 
 7.2.3.2 If you have not recharged successfully and the account balance is insufficient to cover the service fees owed at the expiration time of the 7th day after the service from JD Cloud is suspended (from the time when the suspension of the service is suspended to the expiration of the same time on the 7th day), JD Cloud will terminate the Service Terms and stop providing services for you. Meanwhile, all the data you have saved in JD Cloud will be deleted and cleared and will never be recovered.
 
@@ -202,7 +202,7 @@ You understand and acknowledge that the above list does not cover all types of l
 
 9.1 Due to force majeure or other accidents, the performance of this Service Terms becomes impossible, unnecessary or meaningless, and the party suffering from force majeure or accident is not liable.
 
-9.2. Force majeure or accidental events refer to unforeseeable, insurmountable and unavoidable objective events that have a significant impact on one or both parties, including but not limited to natural disasters such as floods, earthquakes, epidemics of plagues, and social events such as war, unrest, government actions, interruption of telecommunications trunk lines, hackers, network path blocking, technical adjustment of telecom department and government regulation.
+9.2. Force majeure or accidental events refer to unforeseeable, insurmountable and unavoidable objective events that have a significant impact on one or both parties, including but not limited to natural disasters such as floods, earthquakes, epidemics of plagues, and social events such as war, unrest, government actions, and interruption of telecommunications trunk lines, hackers, network path blocking, technical adjustment of telecom department and government regulation.
 
 **10. Governing Law and Dispute Resolution**
 

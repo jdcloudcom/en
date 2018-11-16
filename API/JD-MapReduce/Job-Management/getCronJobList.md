@@ -1,70 +1,70 @@
 # getCronJobList
 
 
-## 描述
+## Description
 Obtain the execution plan list
 
-## 请求方式
+## Request method
 POST
 
-## 请求地址
+## Request address
 https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/cronJob:list
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
+|**regionId**|String|True| |Region ID|
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**jmrPlanViewModel**|[JmrPlanViewModel](##JmrPlanViewModel)|True||Required fields: az, planName, planType and planStatus|
-|**selectParams**|[SelectParams](##SelectParams)|False||Optional parameters of search conditions|
+|**jmrPlanViewModel**|JmrPlanViewModel|True| |Required Fields: az, planName, planType and planStatus|
+|**selectParams**|SelectParams|False| |Optional Parameters of Search Conditions|
 
-### <a name="JmrPlanViewModel">JmrPlanViewModel</a>
-|名称|类型|是否必需|默认值|描述|
+### JmrPlanViewModel
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**az**|String|False|||
-|**clusterId**|String|False|||
-|**clusterName**|String|False|||
-|**createTime**|String|False||Creation time|
-|**cronExpression**|String|False||Time after formatt|
-|**dataCenter**|String|False||Data center, i.e. regionId|
-|**description**|String|False|||
-|**failurePolicy**|String|False||Policy adopted when task scheduling is failed|
-|**isSync**|Boolean|False|||
-|**jobGroup**|String|False|||
-|**jobIds**|String|False|||
-|**jobTrigger**|String|False||Trigger|
-|**modifyTime**|String|False||Modification time|
-|**orderBy**|String|False|||
-|**planId**|Number|False||Task scheduling id|
-|**planName**|String|False|||
-|**planStatus**|String|False|||
-|**planType**|String|False|||
-### <a name="SelectParams">SelectParams</a>
-|名称|类型|是否必需|默认值|描述|
+|**az**|String|False| | |
+|**clusterId**|String|False| | |
+|**clusterName**|String|False| | |
+|**createTime**|String|False| |Creation Time|
+|**cronExpression**|String|False| |Time After Formatt|
+|**dataCenter**|String|False| |Data Center, i.e. regionId|
+|**description**|String|False| | |
+|**failurePolicy**|String|False| |Policy adopted when task scheduling is failed|
+|**isSync**|Boolean|False| | |
+|**jobGroup**|String|False| | |
+|**jobIds**|String|False| | |
+|**jobTrigger**|String|False| |Trigger|
+|**modifyTime**|String|False| |Modification Time|
+|**orderBy**|String|False| | |
+|**planId**|Number|False| |Task Scheduling id|
+|**planName**|String|False| | |
+|**planStatus**|String|False| | |
+|**planType**|String|False| | |
+### SelectParams
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**orderBy**|String|False||Ranking condition, optional|
-|**pageNum**|Integer|False||Search paging number, optional condition|
-|**pageSize**|Integer|False||Search paging size, optional condition|
-|**status**|String|False|||
+|**orderBy**|String|False| |Ranking Condition, optional|
+|**pageNum**|Integer|False| |Search Paging Number, optional condition|
+|**pageSize**|Integer|False| |Search Paging Size, optional condition|
+|**status**|String|False| | |
 
-## 返回参数
-|名称|类型|描述|
+## Response parameter
+|Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
-|**result**|[Result](##Result)||
+|**requestId**|String| |
+|**result**|Result| |
 
 
-### <a name="Result">Result</a>
-|名称|类型|描述|
+### Result
+|Name|Type|Description|
 |---|---|---|
 |**data**|Object|"Include JmrPlanViewModel list - cronJobs"<br>"And return list size - totalNum"<br>|
-|**message**|String||
-|**status**|String||
+|**message**|String| |
+|**status**|String| |
 
-## 返回码
-|返回码|描述|
+## Response code
+|Return code|Description|
 |---|---|
 |**200**|OK|
 |**500**|Internal server error|

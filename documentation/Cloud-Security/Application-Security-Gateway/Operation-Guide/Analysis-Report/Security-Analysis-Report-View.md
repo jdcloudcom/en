@@ -2,7 +2,7 @@
 
 **Function Description** 
 
-​    Application security gateway provides complete security visualization functions, five analysis reports so as to analyze and display security status, attack trend, access trend, running monitoring status and so on of protection business as well as providing detailed log query information. Reports and information can be filtered through region, protection instance and name.
+​    Application Security Gateway provides complete security visualization functions, five analysis reports so as to analyze and display security status, attack trend, access trend, running monitoring status and so on of protection business as well as providing detailed log query information. Reports and information can be filtered through region, protection instance and name.
 
 ​    The current reports do not support exporting and sending, the logs support query, if the logs are required to be exported, they can be downloaded by opening ticket.
 
@@ -10,7 +10,7 @@
 
 ​    **Security Analysis Report**: Security Analysis Report, main data source WAF engine protection data, BOT protection data and blocking management protection data will be added subsequently. It provides attack source TOP 10, attack path TOP 10 to make statistics of attack trends. It provides detailed log information so that attack source, attack event, request method, attack URI and false alarm action processing can be queried. After clicking false alarm, JD Cloud will analyze the log having false alarm generated so as to process and modify in time.
 
-​    **CC defense Analysis Report**: Provide detailed CC attack trend analysis diagram, provide detailed log query so that source IP, start time, number and details of attack event can be queried.
+​    **CC Defense Analysis Report**: Provide detailed CC attack trend analysis diagram, provide detailed log query so that source IP, start time, number and details of attack event can be queried.
 
 ​    **Customized Identity and Access Management Rule Report**: Analyze the report of created customized Identity and Access Management Rules to provide attack source TOP10 ranking, policy access number TOP10 ranking so as to provide a total hit number trend diagram. It provides detailed matching log to query.
 
@@ -18,7 +18,7 @@
 
 ​    **Running Monitoring Report**: Audit all Operation Logs of the user, monitor engine exceptions, provide detailed log query.
 
-**Action steps**
+**Action Steps**
 
 ​    1. Enter Console-Cloud Security-Application Security Gateway-Analysis Reports page to view corresponding analysis report information.
 

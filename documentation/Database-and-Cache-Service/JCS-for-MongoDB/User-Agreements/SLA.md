@@ -1,2 +1,2 @@
-# MongoDB Service Level Agreement (SLA)
+# JCS for MongoDB Service Level Agreement (SLA)
 

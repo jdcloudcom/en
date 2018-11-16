@@ -1,17 +1,17 @@
-﻿  name: Direct Connection Service
+﻿  name: Direct Connection
   href:
   items:
-  - name: Product Introduction
+  - name: Introduction
     items:
       - name: Product Overview
         href: Introduction/Direct-Connect-Service-Overview.md
-      - name: Basic Architecture
+      - name: Basic Infrastructure
         href: Introduction/Basic-Infrastructure.md
       - name: Core Concept
         href: Introduction/Core-Concepts.md
-      - name: Product Advantage
+      - name: Benefits
         href: Introduction/Benefits.md
-      - name: Product Function
+      - name: Features
         items:
           - name: Direct Connection
             href: Introduction/Functions/Direct-Connect.md
@@ -19,9 +19,9 @@
             href: Introduction/Functions/Hosted-Connect.md
           - name: Border Gateway
             href: Introduction/Functions/Border-Gateway.md
-      - name: Limitation Description
+      - name: Restrictions
         href: Introduction/Restrictions.md
-      - name: Application Scenario
+      - name: Application Scenarios
         items:
           - name: Expansion of the Current Data Center of the Enterprise
             href: Introduction/Application-Scenarios/Extension-On-Premises.md
@@ -29,11 +29,11 @@
             href: Introduction/Application-Scenarios/High-Availability-Architecture-For-Multiple-Place.md
           - name: Multicloud Deployment under Regulatory Requirements
             href: Introduction/Application-Scenarios/Hybrid-Cloud-Deployments-Under-Regulatory-Requirements.md
-  - name: Product Pricing
+  - name: Pricing
     items:
-      - name: Billing Rule
+      - name: Billing Rules
         href: Pricing/Billing-Overview.md
-  - name: Start Guide
+  - name: Getting Started
     items:
        - name: Direct Connection of the Same Account in the Same Region
          href: Getting-Started/Connect-To-The-Same-Account-Or-Region-Direct-Connetct.md
@@ -45,10 +45,10 @@
          href: Operation-Guide/Direct-Connect.md
        - name: Hosted Connect
          href: Operation-Guide/Hosted-Connect.md
-  - name: Best Practice
+  - name: Best Practices
     items:
     status: 0
-  - name: Troubleshoot
+  - name: Troubleshooting
     items:
     status: 0
   - name: FAQ
@@ -61,10 +61,10 @@
     status: 0
   - name: User Agreement
     items:
-    - name: Service Terms
+    - name: Terms of Service
       href:
       status: 0
-  - name: Relevant Resources
+  - name: Related Resources
     items:
     - name: Document History
       href:

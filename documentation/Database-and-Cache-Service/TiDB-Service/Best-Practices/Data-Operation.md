@@ -1,4 +1,4 @@
-# Massive Data Volume Processing
+# Big Data Volume Processing
 ## Import Data
 If there is an Unique Key and the business side can guarantee that there is no conflict in the data, you can turn on the switch within Session:
 ```
@@ -7,10 +7,10 @@ SET @@session.tidb_skip_constraint_check=1;
 
 In addition, in order to improve the write performance, you can tune the parameters of TiKV.
 Please pay special attention to this parameter:
-```
-[raftstore]
-# 默认为 true，表示强制将数据刷到磁盘上。如果是非金融安全级别的业务场景，建议设置成 false，
-# 以便获得更高的性能。
+
+```[raftstore]
+# The default is true, which means that the data is forced to be flushed to the disk. If it is a non-financial security level business scenario, it is recommended to be set to false,
+# in order to achieve better performance.
 sync-log = true
 ```
 

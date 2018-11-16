@@ -1,6 +1,6 @@
 **This Service Terms is a valid agreement made between the owner of the JD Cloud website (referred to in this Agreement as "JD Cloud" website:**[**www.jdcloud.com**](https://www.jdcloud.com/)**) and you on matters relating to JD Cloud's Content Delivery Network (shortened as CDN). By using the stamp, the web page, clicking on the confirmation or otherwise choosing to accept the Service Terms, including but not limited to the use of the JD Cloud CDN service without clicking to confirm the Service Terms, you have reached an agreement with JD Cloud and agreed to accept all agreed content of the Service Terms. In case of any inconsistency between the text stamped by both parties and the text of Service Terms accepted and confirmed by clicking the web page or other ways, the text stamped by both parties shall prevail.**
 
-   **For the Service Terms, you are reminded to pay special attention to the restriction and exemption terms, as well as the determination and handling terms of JD Cloud on your violations and breach of contract. You should carefully read the entire contents of the Service Terms before accepting the Service Terms. If you have any questions about the Service Terms, please contact the relevant business department of JD Cloud and JD Cloud will explain the terms to you. If you do not agree on any of the contents of the Service Terms, or cannot accurately understand the interpretation of these terms made by JD Cloud, please do not continue the operation. **
+   **For the Service Terms, you are reminded to pay special attention to the restriction and exemption terms, as well as the determination and handling terms of JD Cloud on your violations and breach of contract. You should carefully read the entire contents of the Service Terms before accepting the Service Terms. If you have any questions about the Service Terms, please contact the relevant business department of JD Cloud and JD Cloud will explain the terms to you. If you do not agree on any of the contents of the Service Terms, or cannot accurately understand the interpretation of these terms made by JD Cloud, please do not continue the operation.**
 
 ## 1. Service Content
 
@@ -56,7 +56,7 @@
 
    3.1.3.3. If the services of JD Cloud involve the license of third-party software, you agree to abide by the relevant license agreement;
 
-   ​ 3.1.3.4. Do Not Intersperse Email Ads or SPAMs: Do not use the services provided by JD Cloud to intersperse a large number of undesired or uncalled emails, electronic advertising or emails containing reactionary information, pornographic information or other harmful information;
+   ​ 3.1.3.4. Do not intersperse Email Ads or SPAMs: Do not use the services provided by JD Cloud to intersperse a large number of undesired or uncalled emails, electronic advertising or emails containing reactionary information, pornographic information or other harmful information;
 
    3.1.3.5. Do not use the resources and services provided by JD Cloud to upload, download, store, and release the following information or contents and do not provide any convenience for others to release such information (including but not limited to setting URL, BANNER links, etc.):
 
@@ -182,7 +182,7 @@
 
    9.1. When the Service Terms is impossibly performed or become unnecessary or meaningless due to force majeure or other accidents, the party suffering from force majeure or accident shall not be held liable.
 
-   9.2. Force majeure or accidental events refer to unforeseeable, insurmountable and unavoidable objective events that have a significant impact on one or both parties, including but not limited to natural disasters such as floods, earthquakes, epidemics of plagues, and social events such as war, unrest, government actions, interruption of China telecom trunk lines, hackers network congestion, telecommunications sector technology adjustment and government regulation.
+   9.2. Force majeure or accidental events refer to unforeseeable, insurmountable and unavoidable objective events that have a significant impact on one or both parties, including but not limited to natural disasters such as floods, earthquakes, epidemics of plagues, and social events such as war, unrest, government actions, and interruption of China telecom trunk lines, hackers network congestion, telecommunications sector technology adjustment and government regulation.
 
 ## 10. Governing Law and Dispute Resolution
 

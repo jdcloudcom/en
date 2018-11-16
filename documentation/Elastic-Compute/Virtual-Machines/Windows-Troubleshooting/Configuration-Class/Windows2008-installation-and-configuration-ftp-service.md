@@ -1,28 +1,28 @@
-# Windows2008 ftp Service Installation and Configuration
-Note: The Windows configuration and instructions in this article have been tested on the Windows2008 64-bit operating system. For other types and versions of the operating system, configuration may vary. Please refer to the official documentation for the details about relevant operating systems.
+# Windows 2008 ftp Service Installation and Configuration
+Note: The Windows configuration and instructions in this article have been tested on the Windows 2008 64-bit operating system. For other types and versions of the operating system, configuration may vary. Please refer to the official documentation for the details about relevant operating systems.
 
 **Installation**
 
-1. Select Server Manager in the lower left corner. Click a role to add it.
+1. Select **Server Manager** in the lower left corner. Click a role to add it.
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows2008%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEftp%E6%9C%8D%E5%8A%A101.png)
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows2008%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEftp%E6%9C%8D%E5%8A%A102.png)
 
-2. Click Next by default and check the Web Server (IIS) in Select Server Role.
+2. Click Next by default and check the **Web Server (IIS)** in **Select Server Role**.
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows2008%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEftp%E6%9C%8D%E5%8A%A103.png)
 
-3. Click Next by default and check the FTP server in the Select Role Service.
+3. Click Next by default and check the **FTP server** in the **Select Role Service**.
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows2008%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEftp%E6%9C%8D%E5%8A%A104.png)
 
-4. Click Next by default and click Install until it is done.
+4. Click Next by default and click **Install** until it is done.
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows2008%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEftp%E6%9C%8D%E5%8A%A105.png)
 
 **Configuration**
 
-1. Choose Server Manager, click the role in the left column, Web Server (IIS), and Internet Information Services (IIS) Manager. Right click the Hostname option in the middle column and select Add FTP Site.
+1. Select Server Manager, click the role in the left column, Web Server (IIS), and Internet Information Services (IIS) Manager. Right click the Hostname option in the middle column and select Add FTP Site.
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows2008%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEftp%E6%9C%8D%E5%8A%A106.png)
 
@@ -58,7 +58,7 @@ Note: The Windows configuration and instructions in this article have been teste
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows2008%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEftp%E6%9C%8D%E5%8A%A114.png)
 
-10. Select Advanced, Find It Now, Find ftp Account, and select OK.
+10. Select **Advanced**, **Find It Now**, **Find ftp Account**, and select **OK**.
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows2008%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEftp%E6%9C%8D%E5%8A%A115.png)
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows2008%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEftp%E6%9C%8D%E5%8A%A116.png)
@@ -70,7 +70,7 @@ Note: The Windows configuration and instructions in this article have been teste
 
 **Firewall Configuration**
 
-1. Click Start in the lower left corner and then click Control Panel.
+1. Click **Start** in the lower left corner and then click **Control Pane**.
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows2008%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEftp%E6%9C%8D%E5%8A%A119.png)
 
@@ -83,12 +83,12 @@ Note: The Windows configuration and instructions in this article have been teste
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows2008%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEftp%E6%9C%8D%E5%8A%A122.png)
 
-4. Choose Port, Specific Local Port and fill in 21.
+4. Select **Port**, **Specific Local Port** and fill in 21.
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows2008%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEftp%E6%9C%8D%E5%8A%A123.png)
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows2008%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEftp%E6%9C%8D%E5%8A%A124.png)
 
-5. Select Allow Connection, fill in the name, and complete it.
+5. Select **Allow Connection**, fill in the name, and complete it.
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows2008%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEftp%E6%9C%8D%E5%8A%A125.png)
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows2008%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEftp%E6%9C%8D%E5%8A%A126.png)

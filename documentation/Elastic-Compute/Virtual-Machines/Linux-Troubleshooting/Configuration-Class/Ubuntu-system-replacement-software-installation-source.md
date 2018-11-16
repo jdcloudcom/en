@@ -1,6 +1,6 @@
 # Software Installation Source Replacement in ubuntu System
 
-The Ubuntu virtual machine using the public image uses the internal software installation source of JD Cloud by default. If you need to replace it with the domestic Tsinghua source, please follow the steps below:
+The Ubuntu Virtual Machines using the public image uses the internal software installation source of JD Cloud by default. If you need to replace it with the domestic Tsinghua source, please follow the steps below:
 
 1. Backup the original source file: *cp /etc/apt/sources.list /etc/apt/sources.list.backup*
 

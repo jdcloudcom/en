@@ -15,17 +15,17 @@ Instructions:
 II. Load Balancer
 * Failure time = failure resolution time-failure start time.
 
-* Load balancer in monthly package is compensated in the way of service time compensation, i.e. 100 times/set of the failure time.
+* Load Balancer in monthly package is compensated in the way of service time compensation, i.e. 100 times/set of the failure time.
 
-* Load balancer pay by configuration is compensated in the form of coupon, the payout amount of a single case = the average hourly cost in the 24 hours before the failure / 60 × failure time × 100.
+* Load Balancer pay by configuration is compensated in the form of coupon, the payout amount of a single case = the average hourly cost in the 24 hours before the failure / 60 × failure time × 100.
 
 Instructions:
 
-* If the use time of load balancer pay by configuration is less than 24 hours, the cost shall be calculated based on the average of actual use time; and the failure time shall be calculated by minutes;
+* If the use time of Load Balancer pay by configuration is less than 24 hours, the cost shall be calculated based on the average of actual use time; and the failure time shall be calculated by minutes;
 
-* Total amount of compensation shall not exceed the total amount of cash paid for a single load balancer;
+* Total amount of compensation shall not exceed the total amount of cash paid for a single Load Balancer;
 
-* Load balancer only compensates the load balancer itself, and does not compensate for the virtual machine under the load balancer.
+* Load Balancer only compensates the Load Balancer itself, and does not compensate for the virtual machine under the Load Balancer.
 
 III. Cloud Database
 * Failure time = failure resolution time-failure start time.
@@ -56,30 +56,30 @@ Instructions:
 V. Cloud Disk Service
 * Failure time = failure resolution time-failure start time.
 
-* Cloud disk service in monthly package is compensated in the way of service time compensation, i.e. 100 times/set of the failure time.
+* Cloud Disk Service in monthly package is compensated in the way of service time compensation, i.e. 100 times/set of the failure time.
 
-* Cloud disk service pay by configuration is compensated in the form of coupon, the payout amount = the average hourly cost in the first 24 hours of the failure / 60 × failure time × 100.
+* Cloud Disk Service pay by configuration is compensated in the form of coupon, the payout amount = the average hourly cost in the first 24 hours of the failure / 60 × failure time × 100.
 
 Instructions:
 
-* If the use time of cloud disk pay by configuration is less than 24 hours, the cost shall be calculated based on the average of actual use time;
+* If the use time of Cloud Disk Service pay by configuration is less than 24 hours, the cost shall be calculated based on the average of actual use time;
 
 * The failure time shall be calculated by minutes;
 
-* Total amount of compensation for a single cloud disk service shall not exceed the total amount of cash paid for a single cloud disk service.
+* Total amount of compensation for a single Cloud Disk Service shall not exceed the total amount of cash paid for a single Cloud Disk Service.
 
-VI. Cloud Buffer
+VI. JCS for Redis
 * Failure time = failure resolution time-failure start time.
 
-* Cloud buffer in monthly package is compensated in the way of service time compensation, i.e. 100 times/case of the failure time.
+* JCS for Redis in monthly package is compensated in the way of service time compensation, i.e. 100 times/case of the failure time.
 
-* Cloud buffer pay by configuration is compensated in the form of coupon, the payout amount = the average hourly cost in the first 24 hours of the failure / 60 × failure time × 100.
+* JCS for Redis pay by configuration is compensated in the form of coupon, the payout amount = the average hourly cost in the first 24 hours of the failure / 60 × failure time × 100.
 
 Instructions:
 
-* If the use time of cloud buffer pay by configuration is less than 24 hours, the cost shall be calculated based on the average of actual use time, the failure time shall be calculated as per minute;
+* If the use time of JCS for Redis pay by configuration is less than 24 hours, the cost shall be calculated based on the average of actual use time, the failure time shall be calculated as per minute;
 
-* Total amount of compensation shall not exceed the total amount of cash paid for a single cloud buffer.
+* Total amount of compensation shall not exceed the total amount of cash paid for a single JCS for Redis.
 
 VII. Digivoice
 * Failure time = failure resolution time-failure start time. Calculate the failure time in minute, and calculate the failure time as one minute when the failure time is less than one minute. For example, if the failure time is 1 minute and 01 second, calculate as per 2 minutes.

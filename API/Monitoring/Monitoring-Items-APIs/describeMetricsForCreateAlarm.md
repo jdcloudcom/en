@@ -1,52 +1,47 @@
 # describeMetricsForCreateAlarm
 
 
-## 描述
-Query indicator list available to create monitoring rules based on resource type
+## Description
+Query metric list available to create monitoring rules based on resource type
 
-## 请求方式
+## Request method
 GET
 
-## 请求地址
-https://monitor.jdcloud-api.com/v1/metricsForCreateAlarm
+## Request address
+https://monitor.jcloud.com/v1/metricsForCreateAlarm
 
-|名称|类型|是否必需|默认值|描述|
+
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
-|---|---|---|---|---|
-|**serviceCode**|String|False||Type of resource, blank by default, displaying all items<br>vm--> virtual machine<br>disk-->cloud disk<br>ip--> public IP<br>balance-->load balancer<br>database-->MySQL Service revision<br>cdn-->JD CDN<br>redis-->redis cloud cache<br>mongodb-->mongoDB cloud cache<br>storage-->cloud storage<br>sqlserver-->cloud database sqlserver revision <br>nativecontainer-->container<br>|
+|**serviceCode**|String|False| |Type of resource, blank by default, displaying all items<br>vm--> Virtual Machine<br>disk-->Cloud Disk Service<br>ip--> Public IP<br>balance-->Load Balancer<br>database-->MySQL Service Version<br>cdn-->JD CDN<br>redis-->JCS for Redis<br>mongodb-->MongoDB Cloud Cache<br>storage-->Cloud Storage<br>sqlserver-->cloud Database Sqlserver Version <br>nativecontainer-->Container<br>|
 
 
-## 返回参数
-|名称|类型|描述|
+## Response parameter
+|Name|Type|Description|
 |---|---|---|
-|**requestId**|String|Requested identifier id|
-|**result**|[Result](##Result)||
+|**requestId**|String|Request ID|
+|**result**|Result| |
 
+### Result
+|Name|Type|Description|
+|---|---|---|
+|**serviceCodeList**|ServiceCodeMetrics[]| |
+### ServiceCodeMetrics
+|Name|Type|Description|
+|---|---|---|
+|**metrics**|MetricDetail[]| |
+|**serviceCode**|String| |
+### MetricDetail
+|Name|Type|Description|
+|---|---|---|
+|**calculateUnit**|String|Computing unit of metric, such as bit/s, %, and byte|
+|**downSample**|String|Sampling Frequency|
+|**metric**|String|Metric|
+|**metricName**|String|Metric Name|
+|**serviceCode**|String|Identifier of Resource Type|
 
-### <a name="Result">Result</a>
-|名称|类型|描述|
-|---|---|---|
-|**serviceCodeList**|[ServiceCodeMetrics[]](##ServiceCodeMetrics)||
-### <a name="ServiceCodeMetrics">ServiceCodeMetrics</a>
-|名称|类型|描述|
-|---|---|---|
-|**metrics**|[MetricDetail[]](##MetricDetail)||
-|**serviceCode**|String||
-### <a name="MetricDetail">MetricDetail</a>
-|名称|类型|描述|
-|---|---|---|
-|**calculateUnit**|String|Computing unit of indicator, such as bit/s, %, byte|
-|**downSample**|String|Sampling frequency|
-|**metric**|String|English identifier of monitoring indicator|
-|**metricName**|String|Name of monitoring indicator|
-|**serviceCode**|String|Identifier of resource type|
-
-## 返回码
-|返回码|描述|
+## Response code
+|Return code|Description|
 |---|---|
-|**200**|OK|
-|**400**|invalid parameter|
-|**500**|internal server error|
+|**200**|Query indicator list result of available creating monitoring rules|

@@ -25,7 +25,7 @@
 			{
 				"funcName":"",
 				"funcTitle":"",
-				"funcP":"1. Provide abundant configuration of search parameter: Designate the sorting configuration of the field and configuration of comprehensive sorting; filter the field; automatically prompt the filed; return to the field’s configuration; highlight the field’s configuration; aggregate statistics configuration \n2. Supports the search of whitelist’s configuration; it is used to make the specified product appear in the fixed location in certain query. \n3. Support the configuration of prohibited query terms. The prohibited terms will not be displayed in search results. \n"
+				"funcP":"1. Provide abundant configuration of search parameter: Designate the sorting configuration of the field and configuration of comprehensive sorting; filter the field; automatically prompt the filed; return to the field’s configuration; highlight the field’s configuration; aggregate statistics configuration \n2. Supports the search of white list’s configuration; it is used to make the specified product appear in the fixed location in certain query. \n3. Support the configuration of prohibited query terms. The prohibited terms will not be displayed in search results. \n"
 			}
 		]
 	},

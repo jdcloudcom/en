@@ -1,6 +1,6 @@
-# Image from third party production specifications
+# Image from Third Party Production Specifications
 
-1. System component security
+1. System Component Security
 1.1 Basic requirements
 a) No pirated or cracked programs are allowed
 
@@ -12,9 +12,9 @@ d) Distributions that have been officially stopped for maintenance, such as Debi
 
 e) All official security updates must be installed when making image.
 
-f) Ensure that the endpoint security system is installed and powered on.
+f) Ensure that the Endpoint Security System is installed and powered on.
 
-1.2 Operations suggestion
+1.2 Operation suggestions
 Install the security update:
 
 a) Windows: Make sure the latest update is installed
@@ -23,11 +23,11 @@ b) Ubuntu: Update with the apt update && apt upgrade command
 
 c) CentOS: Automatically update with the yum update command
 
-Check the machine security status:
+Check Endpoint Security Status:
 
 a) Windows: Task Manager -> Process, check if there is a jdcloudhids process
 
-b) Linux: ps - ef  | grep jdcloudhids, check if if there is a jdcloudhids process
+b) Linux: ps - ef  | grep jdcloudhids, check if there is a jdcloudhids process
 
 1.3 Important component safety
 The components listed below must ensure that no vulnerabilities are exploited:
@@ -38,7 +38,7 @@ b) run dependent libraries: libc6, glibc, libssl (openssl), libgnutls, OpenJDK, 
 
 c) Common user mode programs: openssh, sshfs, shell (bash, zsh, csh, dash...), ftp, wget, curl, tar, gzip, sudo, su, ppp, rsync, fcitx, exim, apt, dpkg, rpm, yum, and dnf, etc.
 
-2. Third-party component security
+2. Third-party Component Security
 2.1 Basic requirements
 a) Security vulnerabilities that are public, available, and have fixes are not allowed.
 
@@ -48,13 +48,13 @@ c) When making image, third-party components should use the latest stable revisi
 
 d) Please download the software through the official channel, do not download it through the unofficial site, in case it is implanted in the back door.
 
-3. System configuration security
+3. System Configuration Security
 4.1 Basic requirements
 a) Rational configuration of system security updates (configuration of image source)
 
 b) It is forbidden to use weak password, please use random character as the default password of various programs.
 
-c) The system password must have a certain length and complexity. (at least 8 digits, including uppercase letters, lowercase letters, special symbols, numbers)
+c) The system password must have a certain length and complexity (at least 8 digits, including uppercase letters, lowercase letters, special symbols, numbers).
 
 d) Non-essential SUID privilege procedures are not allowed.
 
@@ -62,11 +62,11 @@ e) Reasonable configuration of system key directory permissions, such as /etc, /
 
 f) Except for the /tmp directory, other directories do not allow 777 permissions.
 
-g) The default log service is guaranteed to run normally, such as dmesg, syslog, wtmp, btmp, sudo, etc.
+g) The default Log Service is guaranteed to run normally, such as dmesg, syslog, wtmp, btmp, and sudo.
 
 h) Non-public service ports are not open to the extranet (such as redis 6379, mongodb 27017, etc.), only open what is required.
 
-4. Security testing
+4. Security Testing
 4.1. Security testing principle
 a) The principle does not allow for the existence of security vulnerabilities with known public fixes.
 

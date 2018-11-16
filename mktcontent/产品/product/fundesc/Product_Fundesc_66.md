@@ -44,7 +44,7 @@
 		"funcContent":[
 			{
 				"funcName":"",
-				"funcTitle":"Path distribution when using the product",
+				"funcTitle":"Path Distribution When Using the Product",
 				"funcP":"For example: How do users browse your product? What is the best path?"
 			}
 		]
@@ -54,7 +54,7 @@
 		"funcContent":[
 			{
 				"funcName":"",
-				"funcTitle":"User's historical behavior record",
+				"funcTitle":"User's Historical Behavior Record",
 				"funcP":"For example: If the user fails to pay, he or she gets lost. Viewing the user's historical behavior record to quickly verify the cause of the loss."
 			}
 		]

@@ -1,4 +1,4 @@
-# Error response structure
+# Error Response Structure
 
 If an error occurs at the time of interacting with APIs, response of cloud storage server includes:
 
@@ -16,7 +16,7 @@ The following table introduces the meaning of each element:
 
 |Name|Description|
 |-|-|
-|code|Error code|
+|code|Error Code|
 |message|Description of error message through which the problem can be preliminarily located. |
-|RequestId|Unique ID of identification request |
+|RequestId|Unique ID of Identification Request |
 |Resource|Include request resource descriptor of Bucket or Object. |

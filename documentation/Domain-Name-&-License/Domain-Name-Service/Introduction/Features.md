@@ -55,7 +55,7 @@ The domain name information template can facilitate users to quickly fill in rel
 
 2. Operate domain name transfer. The domain name transfer itself is free, but it needs to renew for one year in our company, the specific domain name renewal fee is shown on the official website;
 
-3. Confirm the domain name email. After the operation of transfer renewal, you will receive the domain name transfer confirmation email, click confirm the transfer to start the transfer. If no operation is performed for five days, the transfer fails;
+3. Confirm the domain name email. After the operation of transfer renewal, you will receive the domain name transfer confirmation email, click **Confirm the Transfer** to start the transfer. If no operation is performed for five days, the transfer fails;
 
 4. Confirm the domain status by email. It takes 3-5 working days to transfer. If the domain name transfer password is incorrect, the transfer fails;
 

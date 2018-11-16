@@ -2,7 +2,7 @@
 
   ### Defend Large-Traffic DDOS Attack
 
-  For web-based applications, the cloud resolution can be used in conjunction with the advanced anti-DDoS, and protection measures are added in both the resolution request and the website site, so that the website is more secure. 
+  For web-based applications, the cloud resolution can be used in conjunction with the Anti-DDoS Pro, and protection measures are added in both the resolution request and the website site, so that the website is more secure. 
 
   ## DNS Disaster Tolerance Switching
 

@@ -1,50 +1,39 @@
 name: Anti-DDoS Basic
 href: 
+items:
 - name: Introduction
   items:
     - name: Product Overview
-      herf: Introduction/Product-Overview.md
-    - name: Core Concepts
-      herf: Introduction/Core-Concepts.md
+      href: Introduction/Product-Overview.md
+    - name: Core Concept
+      href: Introduction/Core-Concepts.md
     - name: Basic Infrastructure
-      herf: Introduction/Basic-Infrastructure.md
+      href: Introduction/Basic-Infrastructure.md
     - name: Benefits
-      herf: Introduction/Benefits.md
+      href: Introduction/Benefits.md
     - name: Features
-      herf: Introduction/Features.md
+      href: Introduction/Features.md
     - name: Specifications
-      herf: Introduction/Specification.md
+      href: Introduction/Specification.md
+      status: 0
     - name: Restrictions
-      herf: Introduction/Restrictions.md
-    - name: Application Scenarios 
-      herf: Introduction/Application-Scenarios.md    
+      href: Introduction/Restrictions.md   
 - name: Pricing
   items:
     - name: Billing Overview
-      herf: Pricing/Billing-Overview.md
+      href: Pricing/Billing-Overview.md
 - name: Getting Started
   items:
-    - name: Capture basic protection capabilities
-      herf: Getting-Started/Basic-Anti-DDos-Started.md
+    - name: Capture Anti-DDoS Basic Capabilities
+      href: Getting-Started/Anti-DDoS-Basic-Started.md
 - name: Operation Guide
   items:
-    - name: Protection threshold setting
-      herf: Operation-Guide/Protection-Threshold-Set.md
+    - name: Protection Threshold Setting
+      href: Operation-Guide/Protection-Threshold-Set.md
     - name: View Monitoring Log
-      herf: Operation-Guide/View-Report-log.md            
-- name: Best Practices
-  items:
-  - name: Basic Anti-DDoS + IP high anti-linkage
-    herf: Basic-Anti-DDoS + Advanced-Anti-DDoS.md	
-- name: Tutorial
-  items:
-  status: 0
-- name: Troubleshooting
-  herf:
-  status: 0
+      href: Operation-Guide/View-Report-log.md            
 - name: FAQ
-  herf: FAQ/FAQ.md
-- name: API reference
-  herf:
-  status: 0  
-          
+  href: FAQ/FAQ.md
+- name: API Reference
+  href: 
+  status: 0     

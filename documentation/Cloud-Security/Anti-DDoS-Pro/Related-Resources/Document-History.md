@@ -1,6 +1,6 @@
 # Document History
 
-This document introduces the important updating history of the Advanced Anti-DDoS product documentation, including material properties of the new product and updates based on the users' feedback.
+This document introduces the important updating history of the Advanced Anti-DDoS Pro product documentation, including material properties of the new product and updates based on the users' feedback.
 
 | Launch Date | Property | Description |
 |-|-|-|
@@ -13,5 +13,5 @@ This document introduces the important updating history of the Advanced Anti-DDo
 
 ## Related Reference
 
-- [Product Overview](../Introduction/What-Is-Advanced-Anti-DDoS.md)
+- [产品概述](../Introduction/Product-Overview.md)
 

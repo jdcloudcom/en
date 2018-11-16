@@ -1,4 +1,4 @@
-# Windows2012 .NET Framework 3.5.1 Installation Error and Source Files Not Found
+# Windows 2012 .NET Framework 3.5.1 Installation Error and Source Files Not Found
 **Problem Description:**
 
 An error of .NET Framework 3.5.1 installation in Windows Server 2012 is reported, and the error is as shown below:

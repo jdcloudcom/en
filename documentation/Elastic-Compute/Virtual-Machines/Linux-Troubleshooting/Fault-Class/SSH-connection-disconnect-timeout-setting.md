@@ -4,7 +4,7 @@
 
 **Problem Phenomenon:**
 
-After the SSH is logged in to the virtual machine, it will be automatically disconnected if no operations are performed for a period of time.
+After the SSH is logged in to the Virtual Machines, it will be automatically disconnected if no operations are performed for a period of time.
 
 
 
@@ -16,7 +16,7 @@ Caused by timeout of SSH connection.
 
 **Solution:**
 
-Log in to the virtual machine, edit the ssh configuration file, and enter the command:
+Log in to the Virtual Machines, edit the ssh configuration file, and enter the command:
 
 
 *vi /etc/ssh/sshd_config*

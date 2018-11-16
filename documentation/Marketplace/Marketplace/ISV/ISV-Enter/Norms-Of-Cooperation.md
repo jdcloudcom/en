@@ -6,7 +6,7 @@ Updated on: January 19, 2018
 
 I. Objectives
 
-During the term of “JD Cloud Ecological Cooperation Sharing Agreement”, JD Cloud and the ecopartners (hereinafter referred to as CSPs) jointly invested resources to carry out marketing activities to maximize the benefits of products and brands.
+During the term of "JD Cloud Ecological Cooperation Sharing Agreement", JD Cloud and the ecopartners (hereinafter referred to as CSPs) jointly invested resources to carry out marketing activities to maximize the benefits of products and brands.
 
  
 
@@ -14,7 +14,7 @@ II. Rights and Obligations of JD Cloud
 
 1. For the OEMs products jointly launched by the parties, evaluate the marketing campaign plan proposed by CSPs, approve the plan and budget, follow up the marketing activities, and evaluate the effect of the marketing activities;
 
-2. In the joint marketing activities of the parties, JD Cloud commits to authorize CSPs to use the “JD Cloud” brand to entitle the activities after the review of compliance, on the premise that such usage complies with JD Cloud Brand Management Specifications. "JD Cloud CSPs Marketing Activity Application Process" is as shown in Appendix 1.
+2. In the joint marketing activities of the parties, JD Cloud commits to authorize CSPs to use the "JD Cloud" brand to entitle the activities after the review of compliance, on the premise that such usage complies with JD Cloud Brand Management Specifications. "JD Cloud CSPs Marketing Activity Application Process" is as shown in Appendix 1.
 
 3. JD Cloud will provide different levels of support to CSPs according to the scale, region, customer base, etc., of marketing activities, including but not limited to financial support, executive attendance, material production, event venues, related design and gifts required for activities, etc., excluding entertainment, banquet, and accommodation, etc.
 
@@ -33,9 +33,9 @@ III. Rights and Obligations of CSPs
 4. Any form of public relations material produced by CSPs for the purpose of marketing activities, such as public relations articles and video materials, shall be issued only after being reviewed and confirmed by JD Cloud Marketing Department.
 
 IV. Activity Application Process and Documents Submission
-![image](https://github.com/jdcloudcom/cn/blob/zhaowenbo8-patch-1/documentation/Cloud-Marketplace/MarketPlace-Image/1.png)
+![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Marketplace/Marketplace/MarketPlace-Image/1.png)
 
-![image](https://github.com/jdcloudcom/cn/blob/zhaowenbo8-patch-1/documentation/Cloud-Marketplace/MarketPlace-Image/2.png)
+![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Marketplace/Marketplace/MarketPlace-Image/2.png)
 
-![image](https://github.com/jdcloudcom/cn/blob/zhaowenbo8-patch-1/documentation/Cloud-Marketplace/MarketPlace-Image/3.png)
+![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Marketplace/Marketplace/MarketPlace-Image/3.png)
 

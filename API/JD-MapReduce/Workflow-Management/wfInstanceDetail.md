@@ -1,76 +1,76 @@
 # wfInstanceDetail
 
 
-## 描述
+## Description
 View the detailed information of the specified workflow
 
-## 请求方式
+## Request method
 POST
 
-## 请求地址
+## Request address
 https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/wfInstance:detail
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
+|**regionId**|String|True| |Region ID|
 
-## 请求参数
-|名称|类型|是否必需|默认值|描述|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**wfId**|String|True|||
-|**wfInstanceId**|String|True|||
+|**wfId**|String|True| | |
+|**wfInstanceId**|String|True| | |
 
 
-## 返回参数
-|名称|类型|描述|
+## Response parameter
+|Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
-|**result**|[Result](##Result)||
+|**requestId**|String| |
+|**result**|Result| |
 
 
-### <a name="Result">Result</a>
-|名称|类型|描述|
+### Result
+|Name|Type|Description|
 |---|---|---|
-|**message**|[Message](##Message)||
-### <a name="Message">Message</a>
-|名称|类型|描述|
+|**message**|Message| |
+### Message
+|Name|Type|Description|
 |---|---|---|
 |**code**|String|Code|
 |**data**|Object|Data|
-|**instanceId**|String||
+|**instanceId**|String| |
 |**jobId**|String|Job ID|
-|**path**|[Path[]](##Path)||
-|**pipeline**|String||
-|**rect**|[Rect[]](##Rect)||
+|**path**|Path[]| |
+|**pipeline**|String| |
+|**rect**|Rect[]| |
 |**result**|String|Result|
-|**source**|String||
-|**sourceParameterList**|String[]||
-|**target**|String||
-|**targetParameterList**|String[]||
-|**taskId**|String||
-|**total**|Integer||
-### <a name="Path">Path</a>
-|名称|类型|描述|
+|**source**|String| |
+|**sourceParameterList**|String[]| |
+|**target**|String| |
+|**targetParameterList**|String[]| |
+|**taskId**|String| |
+|**total**|Integer| |
+### Path
+|Name|Type|Description|
 |---|---|---|
-|**child**|Integer||
-|**father**|Integer||
-### <a name="Rect">Rect</a>
-|名称|类型|描述|
+|**child**|Integer| |
+|**father**|Integer| |
+### Rect
+|Name|Type|Description|
 |---|---|---|
-|**instanceId**|Integer||
-|**instanceStatus**|Integer||
-|**intervalTimes**|Integer|Re-running interval of the failed task|
-|**jobId**|Integer||
+|**instanceId**|Integer| |
+|**instanceStatus**|Integer| |
+|**intervalTimes**|Integer|Re-running Interval of the Failed Task|
+|**jobId**|Integer| |
 |**retryTimes**|Integer|Retry times after the task is failed|
-|**taskDesc**|String||
-|**taskId**|String||
-|**taskName**|String||
-|**taskType**|String||
-|**x**|Number||
-|**y**|Number||
+|**taskDesc**|String| |
+|**taskId**|String| |
+|**taskName**|String| |
+|**taskType**|String| |
+|**x**|Number| |
+|**y**|Number| |
 
-## 返回码
-|返回码|描述|
+## Response code
+|Return code|Description|
 |---|---|
 |**200**|OK|
 |**500**|Internal server error|

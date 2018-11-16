@@ -7,7 +7,7 @@ Here you can view the following information:
 3. The statistical summary of the consumption amount, the amount of payment by cash, the amount of payment by coupon and the overdue amount in the current month according to the dimensions of product type, billing method and payment method;
 
 ## How to view the consumption overview?
-In JD cloud console, click on 【expense】-【consumption records】-【consumption overview】 to view;
+In JD cloud console, click on **expense**-**consumption records**-**consumption overview** to view;
 ![file-list](https://github.com/jdcloudcom/cn/blob/edit/image/billing/%E6%80%BB%E8%A7%881.png)
 ![file-list](https://github.com/jdcloudcom/cn/blob/edit/image/billing/%E6%80%BB%E8%A7%883.png)
 You can click on + to expand;

@@ -22,7 +22,7 @@ Each CF has its own `write-buffer`, the size of which can be controlled by `writ
 
 ## Parameter Description
 
-```toml
+ ``` toml
 # Log Level. Optional values are trace, debug, info, warn, error and off
 log-level = "info"
 

@@ -2,7 +2,7 @@
 
 Obtain status code information based on the user access log and collect statistics as one of the monitoring indicators of the user request status.
 
-Log in to [CDN Console](https://cdn-console.jdcloud.com/statuscode), click 【Quality Monitoring】--【Status Code】 on the left menu bar to enter the status code page. The details are as follows:
+Log in to [CDN Console](https://cdn-console.jdcloud.com/statuscode), click **Quality Monitoring**--**Status Code** on the left menu bar to enter the status code page. The details are as follows:
 
 ![image.png](https://img1.jcloudcs.com/cms/30ba8afb-1831-4920-b69e-252470d64ad520180119140545.png)
 

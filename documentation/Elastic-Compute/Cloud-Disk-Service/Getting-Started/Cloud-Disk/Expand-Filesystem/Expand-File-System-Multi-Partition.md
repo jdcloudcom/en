@@ -4,21 +4,21 @@
 
 ## Cloud disk of Windows system multi partition expansion
 
-Take Windows Server 2012 R2 standard version 64-bit for example, to expand the cloud disk attached to a VM from 20G to 40G.
+Take Windows Server 2012 R2 standard version 64-bit for example, to expand the Cloud Disk Service attached to a Virtual Machines from 20G to 40G.
 
 1. Open Windows server manager to access the disk management page:
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/CloudDisk/cloud-disk/expand-filesystem/expand_multipart_001.jpg)
 
 
-2. Right click on the partition requiring expansion and then select extend volume and expand it as per the wizard.
+2. Right click on the **partition** requiring expansion and then select **extend volume** and expand it as per the wizard.
 
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/CloudDisk/cloud-disk/expand-filesystem/expand_multipart_002.jpg)
 
-**Cloud disk of Linux system multi partition expansion**
+**Cloud Disk Service of Linux system multi partition expansion**
 
-Take CentOS 7.2 64-bit for example, to expand the cloud disk attached to a VM from 40G to 50G.
+Take CentOS 7.2 64-bit for example, to expand the Cloud Disk Service attached to a Virtual Machines from 40G to 50G.
 
 **Note: Before the expansion action, please ensure the partition to be expanded is in detaching status. Refer to File System Expansion (Linux) for the execution procedures**.
 

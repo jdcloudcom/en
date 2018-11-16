@@ -19,7 +19,7 @@ Download a msvcr100.dll file from internet in the form of a zipped package file,
 
 2. If the 64-bit MSVCR100.dll is downloaded in a 64-bit system, it shall be copied to the directory in C:\Windows\System32. The 32-bit system is incompatible with 64-bit MSVCR100.dll.
 
-3. Enter *regsvr32 msvcr100.dll* in [Running] and register.
+3. Enter *regsvr32 msvcr100.dll* in **Run** and register.
 
 
 

@@ -1,26 +1,27 @@
-# Cloud Monitor
+# JCLOUD MONITOR API
 
 
-## 简介
-Cloud Monitor APIs, mainly comprising create, read, update, delete of monitoring rules and query of monitoring item data
+## Introduction
+monitor API
 
 
-### 版本
+### Version
 v1
 
 
 ## API
-|接口名称|请求方式|功能描述|
+|Interface name|Request mehod|Function description|
 |---|---|---|
 |**createAlarm**|POST|Create alarm rules, it can create alarm rules for a certain instance, or it also can create alarm rules for multiple instances at the same time.|
-|**deleteAlarms**|DELETE|Delete alarm rules already created in batches|
-|**describeAlarmHistory**|GET|Query alarm history, supporting query based on alarm rule ID, resource ID and product name.|
-|**describeAlarms**|GET|Query monitoring rules, supporting query based on rule status, alarm status, resource ID and product name.|
-|**describeAlarmsByID**|GET|Query rule details|
-|**describeMetricData**|GET|View certain resource monitoring data, which needs to designate the monitoring indicator and the time range.|
-|**describeMetrics**|GET|Query indicator list available to get monitoring data based on resource type|
-|**describeMetricsForCreateAlarm**|GET|Query indicator list available to create monitoring rules based on resource type|
+|**describeAlarmContacts**|GET|Query rule alarm contacts|
+|**describeAlarmHistory**|GET|Query the alarm history</br>The priority of retrieval condition combination from high to low is </br>1. serviceCode</br>1.1 serviceCode + resourceId</br>1.2 serviceCode + resourceIds</br>2. serviceCodes</br>3. all user rules|
+|**describeAlarms**|GET|Query rules, query the parameter set and priority level from high to low are: </br>1: serviceCode cannot be blank</br>1.1: serviceCode + resourceId</br>1.2: serviceCode + resourceIds</br>2: serviceCodes cannot be blank</br>3: all user rules|
+|**describeAlarmsByID**|GET|Query Rule Details|
+|**describeMetricData**|GET|View monitoring data of certain resource, metric introduction: <a href="https://docs.jdcloud.com/cn/monitoring/metrics">Metrics</a>|
+|**describeMetrics**|GET|Query available monitoring item list based on the product lines, metric introduction: <a href="https://docs.jdcloud.com/cn/monitoring/metrics">Metrics</a>|
+|**describeMetricsForCreateAlarm**|GET|Query metric list available to create monitoring rules based on resource type|
 |**disableAlarm**|POST|Disable the alarm rule. After the alarm rule is disabled, the detection of monitoring item data of the instance will be stopped.|
-|**enableAlarm**|POST|Enable the alarm rule, when the alarm rule is in the status of “Disabled”, the alarm rule can be enabled by using the interface.|
-|**putMetricData**|POST|The interface is the interface for customized metric monitoring data reporting, which is convenient for you to report the time series data collected by yourself to the Cloud Monitor. It can report original data and aggregated statistical data. It supports reporting methods in batches. A single request contains up to 50 data points; the data size does not exceed 256k.|
-|**updateAlarm**|PATCH|Modify alarm rules already created, support to modify alarm rules and notified contact information When the alarm rule is in the status of “Enabled” the alarm rule is allowed to be modified.|
+|**enableAlarm**|POST|Enable the alarm rule, when the alarm rule is in the status of “Disabled”, the alarm rule can be enabled by using the API.|
+|**lastDownsample**|GET|View the Last Point at Certain Resource|
+|**putMetricData**|POST|The interface is the interface for Custom Metric Monitoring data reporting, which is convenient for you to report the time series data collected by yourself to the Cloud Monitor. Report data of different regions for domain names of different regions, refer to: <a href="https://docs.jdcloud.com/cn/monitoring/reporting-monitoring-data"> Calling Description </a> Available original data and aggregated statistical data for report. It supports reporting methods in batches. A single request contains up to 50 data points; the data size does not exceed 256k.|
+|**updateAlarm**|PATCH|Modify the created alarm rules|

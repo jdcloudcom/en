@@ -1,4 +1,4 @@
-In filing process, local Ofcom needs different supplementary materials as the following summarized results, see:
+In filing process, local Communication Administration needs different supplementary materials as the following summarized results, see:
 
 I. Unit Filing
 

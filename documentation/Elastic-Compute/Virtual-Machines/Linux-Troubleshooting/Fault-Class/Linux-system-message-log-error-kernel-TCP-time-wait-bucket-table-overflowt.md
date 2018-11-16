@@ -34,7 +34,7 @@ The system TCP TIME WAIT overflows.
 
 This parameter does not support infinite increase. The specific supported adjustment values ​​are related to the server specifications (bandwidth, CPU). 
 
-If it is maintained after adjustment, evaluate whether it is normal business traffic. If it it the normal business traffic, it is recommended to introduce load balancer and other services in the front end of the server to distribute traffic to reduce the traffic load of a single server.
+If it is maintained after adjustment, evaluate whether it is normal business traffic. If it it the normal business traffic, it is recommended to introduce Load Balancer and other services in the front end of the server to distribute traffic to reduce the traffic load of a single server.
 
 
 

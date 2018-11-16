@@ -10,12 +10,12 @@
 		]
 	},
 	{
-		"funcName":"Elastic Scaling",
+		"funcName":"Auto Scaling",
 		"funcContent":[
 			{
 				"funcName":"",
-				"funcTitle":"Support dynamic scaling of data flow throughput for on-demand use",
-				"funcP":"Provide single-topic level Shard partitioning and Shard merging functions to adjust the topic message concurrent processing capability as needed."
+				"funcTitle":"Support dynamic scaling of data stream throughput for on-demand use",
+				"funcP":"Provide single-topic level Shard partitioning and Shard merging features to adjust the topic message concurrent processing capability as needed."
 			}
 		]
 	},
@@ -24,8 +24,8 @@
 		"funcContent":[
 			{
 				"funcName":"",
-				"funcTitle":"Customize stream data archiving strategy for real-time archiving",
-				"funcP":"Provide data archiving function. Automatically store streaming data to cloud storage or data warehouses according to user-defined archiving policies."
+				"funcTitle":"Customize stream archiving policy for real-time archiving",
+				"funcP":"Provide data archiving feature to automatically store streaming data to cloud storage or data warehouse according to customized archiving policies."
 			}
 		]
 	}

@@ -1,33 +1,32 @@
-﻿
-  name: Kuberenetes Cluster
+  ﻿name: JCS For Kubernetes
   href: 
   items:
-  - name: Product Description
+  - name: Introduction
     items:
-      - name: Kubernetes Service Overview
-        href: Introduction/What-Is-KubernetesCluster.md
+      - name: Product Overview
+        href: Introduction/Product-Overview.md
       - name: Core Concept
         href: Introduction/Core-Concepts.md
-      - name:  Product Advantage
-        href: Introduction/Advantages.md
-      - name: Product Function
-        href: Introduction/Functions.md
-      - name: Product Specification
-        href: Introduction/Instance-Type-Family.md
-      - name: Restriction Statement
-        href: Introduction/Limits.md
-      - name: Application Scenario 
-        href: Introduction/Scenarios.md    
-  - name: Product Pricing
+      - name: Benefits
+        href: Introduction/Benefits.md
+      - name: Features
+        href: Introduction/Features.md
+      - name: Specifications
+        href: Introduction/Specifications.md
+      - name: Restrictions
+        href: Introduction/Restrictions.md
+      - name: Application Scenarios 
+        href: Introduction/Application-Scenarios.md    
+  - name: Pricing
     items:
-      - name: Billing Summary
-        href: Pricing/Overview.md
+      - name: Billing Overview
+        href: Pricing/Billing-Overview.md
       - name: Purchase Process
         href: Pricing/Purchase-Process.md
-  - name: Getting-started Guide
+  - name: Getting Started
     items:
       - name: Create Clusters
-        href: Getting-Started/Create-Cluster.md
+        href: Getting-Started/Create-to-Cluster.md
       - name: Connect Clusters
         href: Getting-Started/Connect-to-Cluster.md
   - name: Operation Guide
@@ -35,7 +34,7 @@
       - name: Cluster
         items:
           - name: Cluster Overview
-            href: Operation-Guide/Cluster//Overview.md
+            href: Operation-Guide/Cluster/Overview.md
           - name: Create Clusters
             href: Operation-Guide/Cluster/Create-Cluster.md
           - name: Connect Clusters
@@ -54,6 +53,8 @@
             href: Operation-Guide/NodeGroup/Delete-NodeGroup.md
   - name: Best Practices
     items:
+     - name: Access Dashboard
+       href: Best-Practices/Connect-Dashboard.md
      - name: Deploy Applications
        items:
          -  name: Deploy Deployment
@@ -64,9 +65,11 @@
             href: Best-Practices/Deploy-Applications/Deploy-PV.md
          -  name: Deploy Service
             href: Best-Practices/Deploy-Applications/Deploy-Service.md
-  - name: Common Problems  
-    href: Common-Problem.md    
+     - name: Deploy Helm
+       href: Best-Practices/Deploy-Helm.md
+  - name: FAQ  
+    href: Common-Problem.md
   - name: Related Resources
     items:
     - name: Document History
-      href: Related-Resources/Release-History.md 
+      href: Related-Resources/Release-History.md

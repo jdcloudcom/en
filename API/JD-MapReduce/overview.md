@@ -1,21 +1,21 @@
 # JMR API
 
 
-## 简介
-Provide APIs for JMR operation in big data infrastructure services
+## Introduction
+Provide APIs for JD MapReduce operation in big data infrastructure services
 
 
-### 版本
+### Version
 v1
 
 
 ## API
-|接口名称|请求方式|功能描述|
+|Interface name|Request mehod|Function description|
 |---|---|---|
 |**calculateClusterPrice**|POST|Calculate the cluster price of the corresponding specification attribute|
 |**calculateExpansionPrice**|POST|Compute the price of cluster expansion|
 |**clusterExpansion**|POST|Expand a specified number of instances for the specified cluster|
-|**createAndExcuteJob**|POST|Create and execute a job under the cluster|
+|**createAndExcuteJob**|POST|Create and Execute a Job under the Cluster|
 |**createClusterInNewNetwork**|POST|Create a new cluster|
 |**createCronJob**|POST|Create or update scheduling configuration|
 |**createJob**|POST|Create a job based on the parameter information transferred in|
@@ -36,30 +36,30 @@ v1
 |**getCronJobTaskList**|POST|Obtain the operation record of a regular task of the job|
 |**getCronJobTaskListByJobId**|POST|Search the operation record of a job of an execution plan|
 |**getFirstServerVncUrl**|GET|Obtain the VNC URL for master nodes of remote connection cluster by clusterId|
-|**getHardwareStack**|GET|Hardware configuration information list|
-|**getInstanceList**|GET|Obtain the machine specification list (Filter out the low\-memory specifications; remove the ones inferior to quad\-core.)|
-|**getJmrVersionList**|GET|Return to the current jmr revision list|
+|**getHardwareStack**|GET|Hardware Configuration Information List|
+|**getInstanceList**|GET|Obtain the machine specification list (Filter out the low-memory specifications; remove the ones inferior to quad-core.)|
+|**getJmrVersionList**|GET|Return to the current JD MapReduce Version List|
 |**getJobList**|POST|Obtain the job list under the specified cluster|
 |**getJobTypeList**|POST|Obtain job type list under the specified cluster|
 |**getKey**|GET|Obtain user appkey and SecretKey|
 |**getLastCronJobTask**|POST|Obtain the last operation record of a job of a regular task|
-|**getPropertyValue**|GET|Software configuration information list|
-|**getSoftwareAndVersionInfo**|POST|Obtain the software list corresponding to the assigned JMR revision and the revision information|
-|**getSoftwareInfo**|POST|Obtain software list information of the corresponding revision|
+|**getPropertyValue**|GET|Software Configuration Information List|
+|**getSoftwareAndVersionInfo**|POST|Obtain the software list corresponding to the assigned JD MapReduce Version and the Version information|
+|**getSoftwareInfo**|POST|Obtain software list information of the corresponding Version|
 |**getTaskList**|POST|Obtain the operation record of a job|
 |**getWorkFlowList**|POST|Obtain the workflow list|
 |**getWorkFlowTrackerList**|POST|Obtain the workflow operation record list|
-|**idataCluster**|GET|Query the cluster list corresponding to the user\-assigned clusterId and related sevice information|
+|**idataCluster**|GET|Query the cluster list corresponding to the user-assigned clusterId and related service information|
 |**isValidJobName**|POST|Verify whether the job name is valid|
 |**isValidPlanName**|POST|Verify whether the execution plan name is available|
 |**modifyCronJob**|POST|Modify the execution plan of deployment job|
 |**modifyJob**|POST|Modify the corresponding job information based on the parameter information transferred in|
-|**monitorDetails**|POST|Detailed data of service survival status monitoring|
+|**monitorDetails**|POST|Detailed Data of Service Survival Status Monitoring|
 |**monitorServiceList**|POST|All the corresponding service lists under the currently monitored cluster|
 |**pauseCronJob**|POST|Suspend a regular task of the job|
 |**queryExecutingJobList**|GET|Obtain the tasks in the plan (tasks already added to the quartz scheduler)|
 |**queryFloatingIp**|POST|Query the cluster random code (eight digits)|
-|**queryServerQuota**|GET|Query the remaining server quota|
+|**queryServerQuota**|GET|Query the Remaining Server Quota|
 |**queryVpcSubnets**|POST|Query Vpc subnet collection|
 |**queryVpcs**|POST|Obtain vpc collection|
 |**releaseCluster**|POST|Release the clusters corresponding to the assigned clusterId|

@@ -3,7 +3,7 @@ Note: The configuration and instructions of Linux in this article have been test
 
 **Problem Description:**
 
-When logging in to the virtual machine of Linux system by using ssh, an error information similar to the following is displayed, causing the connection to fail.
+When logging in to the Virtual Machines of Linux system by using ssh, an error information similar to the following is displayed, causing the connection to fail.
 
  Error message of Linux connection:
 
@@ -19,11 +19,11 @@ The SSH public key will changed by some reasons such as Linux server's system re
 
 **Solution:**
 
-The customer is a Windows system
+The client is a Windows system
 
 1. Open the Xshell.
 
-2. Click the tool > machine key pair manager, as shown below, select the corresponding entry for the target server, and then click delete.
+2. Click the **Tool** > **Machine Key Pair Manager**, as shown below, select the corresponding entry for the target server, and then click **Delete**.
 
 ![](https://github.com/jdcloudcom/cn/blob/cn-VirtualMachine-Linux/image/Elastic-Compute/Virtual-Machine/Linux/SSH%E7%99%BB%E5%BD%95%E6%8A%A5%E9%94%99Host%20key%20verification%20failed02.png)
 

@@ -1,15 +1,15 @@
 # Product Overview
 
-The foundation protection is a free service launched by JD Cloud users for common cloud attacks. Provides the DDoS attack protection for you, offering up to 2 G attack protection capabilities. You can do it based on
-The business needs to set the trigger value of flow cleaning, so that the common security attack will not threaten your business and safeguard your business security.
+Anti-DDoS Basic is a free service launched by JD Cloud users for common cloud attacks. 
 
-The product characteristics of # # foundation protection are as follows
+can provide you with a maximum of 2G basic DDoS attack protection capability. You can do it based on the business needs to set the trigger value of traffic cleaning, so that the common security attack will not threaten your business and safeguard your business security.
 
-** 1: Support a variety of flood attack defense **: It can effectively resist SYN Flood, UDP Flood, ACK Floods, ICMP Flood, and so on, and can effectively resist SYN Flood, UDP Flood, ACK Floods, and so on.
-Attack. And the base protection capability of 2g is maximum supported.
+## The features of Anti-DDoS Basic are as follows
 
-**: free use **: If you are users of JD Cloud, you can use JD Cloud free of charge to protect your business.
+**1: Support A Variety of Flood Attack Defense**: It can effectively resist SYN Flood, UDP Flood, ACK Floods, ICMP Flood, and so on, and the base protection capability of 2g is maximum supported.
 
-# # use scenario
+**2: Free trail to**: Once the EIP in the Cloud is purchased, the 2G Anti-DDoS Basic service will be enabled for free.
 
-All the users suffering from the attacks, if you are the customers of JD Cloud, JD Cloud will provide you with basic personal safety protection free of charge.
+## Application Scenarios
+
+For all users subject to DDoS attack in JD Cloud, JD Cloud will provide at most 2G basic Anti-DDoS security service to your EIP free of charge.

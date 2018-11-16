@@ -1,12 +1,12 @@
 ### **TiDB Service Trial Service Terms**
 
-**This trial service term is a valid agreement between the owner of the JD Cloud website (referred to in this Agreement as "JD Cloud" website: **[www.jdcloud.com](https://www.jdcloud.com/)**) and you on matters relating to TiDB service. By stamping, clicking to confirm on the web page, or other ways to accept the trial Service Terms, including but not limited to the actual use of TiDB service of JD Cloud without clicking to confirm the trial Service Terms, you have reached an agreement with JD Cloud and agreed to accept all agreed contents of the trail Service Terms. In case of any inconsistency between the text stamped by both parties and the text of Service Terms accepted and confirmed by clicking the web page or other ways, the text stamped by both parties shall prevail.**
+**This trial service term is a valid agreement between the owner of the JD Cloud website (referred to in this Agreement as "JD Cloud" website:**[www.jdcloud.com](https://www.jdcloud.com/)**) and you on matters relating to TiDB Service. By stamping, clicking to confirm on the web page, or other ways to accept the trial Service Terms, including but not limited to the actual use of TiDB Service of JD Cloud without clicking to confirm the trial Service Terms, you have reached an agreement with JD Cloud and agreed to accept all agreed contents of the trail Service Terms. In case of any inconsistency between the text stamped by both parties and the text of Service Terms accepted and confirmed by clicking the web page or other ways, the text stamped by both parties shall prevail.**
 
-**For the Service Terms, you are reminded to pay special attention to the restriction and exemption terms, determination and handling terms of JD Cloud on your violations and breach of contract, and the selection terms of jurisdictional courts. Restriction and exemption terms may be indicated in bold or by underline for your attention. You should carefully read the entire contents of the Service Terms before accepting the Service Terms. If you have any questions about the Service Terms, please contact the relevant business department of JD Cloud and JD Cloud will explain the terms to you. If you do not agree on any of the contents of the Service Terms, or cannot accurately understand the interpretation of these terms made by JD Cloud, please do not continue the operation. **
+**For the Service Terms, you are reminded to pay special attention to the restriction and exemption terms, determination and handling terms of JD Cloud on your violations and breach of contract, and the selection terms of jurisdictional courts. Restriction and exemption terms may be indicated in bold or by underline for your attention. You should carefully read the entire contents of the Service Terms before accepting the Service Terms. If you have any questions about the Service Terms, please contact the relevant business department of JD Cloud and JD Cloud will explain the terms to you. If you do not agree on any of the contents of the Service Terms, or cannot accurately understand the interpretation of these terms made by JD Cloud, please do not continue the operation.**
 
 ## **1. Service Content**
 
-1.1 "Service" in the terms refers to the TiDB trial service and related technical and network support services that JD Cloud provides to you at [www.jdcloud.com](https://www.jdcloud.com/).
+1.1 "Service" in the terms refers to the trial TiDB Service and related technical and network support services that JD Cloud provides to you at [www.jdcloud.com](https://www.jdcloud.com/).
 
 1.2 The service provided by JD Cloud must comply with the provisions of the trial Service Terms.
 
@@ -46,7 +46,7 @@ You understand and acknowledge that the above list does not cover all types of l
 
 3.1.3.3 If the services of JD Cloud involve the license of third-party software, you agree to abide by the relevant license agreement;
 
-3.1.3.4 Do Not Intersperse Email Ads or SPAMs: Do not use the services provided by JD Cloud to intersperse a large number of undesired or uncalled emails, electronic advertising or emails containing reactionary information, pornographic information or other harmful information;
+3.1.3.4 Do not intersperse Email Ads or SPAMs: Do not use the services provided by JD Cloud to intersperse a large number of undesired or uncalled emails, electronic advertising or emails containing reactionary information, pornographic information or other harmful information;
 
 3.1.3.5 The cloud database provided by JD Cloud shall not be used as disk space for rent;
 
@@ -98,7 +98,7 @@ You understand and acknowledge that the above list does not cover all types of l
 
 3.2.2.2 JD Cloud provides a 7×24h online open ticket service system to answer customer questions.
 
-3.2.3 Where the service involves TiDB service, JD Cloud is responsible only for the operation maintenance at the bottom part of TiDB service and of the software provided by JD Cloud, that is, the related technical architecture and operating system of TiDB service. The application part above the database is your responsibility.
+3.2.3 Where the service involves TiDB Service, JD Cloud is responsible only for the operation maintenance at the bottom part of TiDB Service and of the software provided by JD Cloud, that is, the related technical architecture and operating system of TiDB Service. The application part above the database is your responsibility.
 
 3.2.4 JD Cloud will clear the faults caused by non-human factors, except for your reasons and/or force majeure as well as matters excluded in the control scope of JD Cloud.
 
@@ -140,7 +140,7 @@ You understand and acknowledge that the above list does not cover all types of l
 
 ## **7. Term and Termination**
 
-7.1 The service period is calculated from the date the TiDB service is created successfully (not from the date you obtain the password for the TiDB service) and confirmed based on the amount of money you have paid.
+7.1 The service period is calculated from the date the TiDB Service is created successfully (not from the date you obtain the password for the TiDB Service) and confirmed based on the amount of money you have paid.
 
 7.2 The service term shall be terminated in advance in the following circumstances:
 
@@ -150,7 +150,7 @@ You understand and acknowledge that the above list does not cover all types of l
 
 7.2.3 If you choose a pay-as-you-go service, you should keep your account balance sufficient to ensure continued use of the service. If you fail to fulfill your payment obligations as agreed, JD Cloud will suspend or terminate the service as follows:
 
-7.2.3.1 You can continue to use the TiDB service of JD Cloud for 24h from the first arrears; if, 24h later, you still fail to recharge it successfully and enough to pay the service fees owed, JD Cloud will suspend the service and freeze the operation of the TiDB service under your account, but still store your data and continue to bill;
+7.2.3.1 You can continue to use the TiDB Service of JD Cloud for 24h from the first arrears; if, 24h later, you still fail to recharge it successfully and enough to pay the service fees owed, JD Cloud will suspend the service and freeze the operation of the TiDB Service under your account, but still store your data and continue to bill;
 
 7.2.3.2 If you have not recharged successfully and the account balance is insufficient to cover the service fees owed at the expiration time of the 7th day after the service from JD Cloud is suspended (from the time when the suspension of the service is suspended to the expiration of the same time on the 7th day), JD Cloud will terminate the Service Terms and stop providing services for you. Meanwhile, all the data you have saved in JD Cloud will be deleted and cleared and will never be recovered.
 
@@ -176,7 +176,7 @@ You understand and acknowledge that the above list does not cover all types of l
 
 9.1 Due to force majeure or other accidents, the performance of this Service Terms becomes impossible, unnecessary or meaningless, and the party suffering from force majeure or accident is not liable.
 
-9.2. Force majeure or accidental events refer to unforeseeable, insurmountable and unavoidable objective events that have a significant impact on one or both parties, including but not limited to natural disasters such as floods, earthquakes, epidemics of plagues, and social events such as war, unrest, government actions, interruption of telecommunications trunk lines, hackers, network path blocking, technical adjustment of telecom department and government regulation.
+9.2. Force majeure or accidental events refer to unforeseeable, insurmountable and unavoidable objective events that have a significant impact on one or both parties, including but not limited to natural disasters such as floods, earthquakes, epidemics of plagues, and social events such as war, unrest, government actions, and interruption of telecommunications trunk lines, hackers, network path blocking, technical adjustment of telecom department and government regulation.
 
 ## **10. Governing Law and Dispute Resolution**
 
@@ -184,7 +184,7 @@ You understand and acknowledge that the above list does not cover all types of l
 
 10.2 Any dispute arising from the execution of the Service Terms shall be promptly resolved by both parties. When the negotiation fails, either party may file a lawsuit directly to the Daxing District People's Court in Beijing.
 
-## **11. Supplementary **
+## **11. Supplementary**
 
 11.1 The service description and price description of JD Cloud on relevant page of [www.jdcloud.com](https://www.jdcloud.com/) and the order page agreed by you are an integral part of the Service Terms. If the service description and price description on relevant page of [www.jdcloud.com](https://www.jdcloud.com/) and the order page agreed by you are inconsistent with the Service Terms, the Service Terms shall prevail.
 

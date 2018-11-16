@@ -6,9 +6,9 @@ For image files, to avoid the risk of stolen images in the business, it is requi
 
 After enabling original image protection, the following two access methods are unavailable:
 
-* Direct access through external link address: http://downloads.oss.cn-north-1.jcloudcs.com/lena.jpg
+* Direct access through external link address: 1. http://downloads.s3.cn-north-1.jcloudcs.com/lena.jpg 2.http://downloads.oss.cn-north-1.jcloudcs.com/lena.jpg
 
-* Access by processing parameters: http://downloads.oss.cn-north-1.jcloudcs.com/lena.jpg?x-oss-process=img/s/200/300
+* Access by processing parameters: 1.http://downloads.s3.cn-north-1.jcloudcs.com/lena.jpg?x-oss-process=img/s/200/300 2.http://downloads.oss.cn-north-1.jcloudcs.com/lena.jpg?x-oss-process=img/s/200/300
 
 The image can only be accessed by style method: http://downloads.oss.cn-north-1.jcloudcs.com/lena.jpg?x-oss-process=imgalias/stylename
 
@@ -22,14 +22,14 @@ c. The original image protection supports the old and new interfaces for image p
 
 ## Configuration rules
 
-1. Go to the object storage service console Bucket management page and click on the Bucket to be set the original image protection to enter the settings page.
+1.Go to the Object Storage Service console Bucket management page and click on the Bucket to be set the original image protection to enter the settings page.
 
-2. Enter the image processing page, on which the image style of the current Bucket can be viewed and set.
+2.Enter the image processing page, on which the image style of the current Bucket can be viewed and set.
 
-![原图1](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-066.jpg)
+![原图1](../../../../../image/Object-Storage-Service/OSS-066.jpg)
 
-3. Click “Original Image Protection Settings” to enter the settings page, you can choose to enable the original image protection and set the suffixes to be protected.
+3.Click **Original Image Protection Settings** to enter the settings page, you can choose to enable the original image protection and set the suffixes to be protected.
 
-![原图2](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-067.jpg)
+![原图2](../../../../../image/Object-Storage-Service/OSS-067.jpg)
 
-4. After setting the options you need, click OK to complete the current Bucket original image protection settings.
+4.After setting the options you need, click OK to complete the current Bucket original image protection settings.

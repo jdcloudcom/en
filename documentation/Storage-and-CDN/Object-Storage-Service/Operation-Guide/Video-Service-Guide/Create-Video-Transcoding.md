@@ -1,8 +1,8 @@
 # Create video transcoding
 
-Description: transcode the video file on JD Cloud Storage, and save the transcoded video as a new file.
+Description: transcode the video file on JD Cloud OSS, and save the transcoded video as a new file.
 
-Request grammar:
+Request Syntax:
 ```
 PUT /bucket/object?pretreatmentStrategyV2&expires=<expires value>&policy=<policy string>  HTTP/1.1
 Content-MD5: 
@@ -18,7 +18,7 @@ policy: transcoding strategy, JSON format, and policy relevant parameters are ex
 
 "saveas": save as, that's, the location of the processed video file
 
-“persistentOps”: a video transcoding rule triggered after a successful resource upload.
+persistentOps: a video transcoding rule triggered after a successful resource upload.
 
 The currently supported video transcoding rules are as follows:
 
@@ -45,7 +45,7 @@ The currently supported video transcoding rules are as follows:
 |video_hls_480x360_440kbps|
 |video_hls_320x240_240kbps|
 
-Request example:
+Sample Request:
 ```
 PUT /bucket/object?pretreatmentStrategyV2&expires=3600&policy={"persistentOps":"video_mp4_480x360_440kbps","saveas":"kkk:aaaa.wmv","targetSaveas":"a2trOmFhYWEud212"} HTTP/1.1
    Date: Mon, 22 Feb 2016 03:35:32 GMT
@@ -56,7 +56,7 @@ PUT /bucket/object?pretreatmentStrategyV2&expires=3600&policy={"persistentOps":"
 User-Agent: JSS-SDK-JAVA/1.2.0 (Java 1.8.0_45; Vendor Oracle Corporation; Windows 7 6.1; HttpClient 4.2.1)
 ```
 
-Request response:
+Sample Response:
 ```
 HTTP/1.1 200 OK
 x-jss-request-id: 8CEF3204E1AD1C2D
@@ -66,6 +66,6 @@ Content-Type: application/json;charset=UTF-8
 Content-Length: 34
 Date: Tue, 15 Dec 2015 13:10:50 GMT
 {“taskId”: "0a354cca27994b398931b205bbf96985"}   
-错误返回信息：
+Wrong return information:
 {"code":"NoSuchKey","message":" The specified file used for video transcoding does not exist, file name = Wildlifetest.wmv","resource":"/test-bucket13/Wildlifetest.wmv","requestId":"8764E879D8AEE8BF"}
 ```

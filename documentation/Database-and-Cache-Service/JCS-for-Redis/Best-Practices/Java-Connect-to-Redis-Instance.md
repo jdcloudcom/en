@@ -1,9 +1,10 @@
-# Java connection
-- step1: download java client of redis, reference address: <a href="https://github.com/xetorthio/jedis">https://github.com/xetorthio/jedis</a> </p>
+# Java Connection
+- step1: Download java client of JCS for Redis, reference address: <a href="https://github.com/xetorthio/jedis">https://github.com/xetorthio/jedis</a> </p>
 
-- step2: write test case
+- step2: Write test case
 
-<pre><code>package com.jd.jmiss;
+```
+package com.jd.jmiss;
 import redis.clients.jedis.Jedis;
 public class JedisTester {
 
@@ -14,14 +15,14 @@ public static void main(String[] args) {
         int port = 6379;
         String token = "${redis-id}:{your password}";// token displayed on the console
         jedis = new Jedis(host, port);
-        //鉴权信息
+        //Authentication Information
         jedis.auth(token);
         String key = "redis";
         String value = "jmiss-redis";
-        //set一个key
+        //Set a key
         String retCode = jedis.set(key, value);
         System.out.println("Set Key: " + key + " Value: " + value + "  return code is: " + retCode);
-        //get 设置进去的key
+        //Get set access key
         String getvalue = jedis.get(key);
         System.out.println("Get Key: " + key + " ReturnValue: " + getvalue);
     } catch (Exception e) {
@@ -34,13 +35,14 @@ public static void main(String[] args) {
         }
     }
 }
-}</code></pre>
+}
+```
 
 ## java maven + spring + jedis
 
-- step1: introduce maven dependence
+- step1: Introduce maven dependence
 
-```xml
+```
 <dependencies>
 <dependency>
    <groupId>redis.clients</groupId>
@@ -57,9 +59,11 @@ public static void main(String[] args) {
 
 ```
 
-- step2: configure Spring element
 
-```xml
+- step2: Configure Spring element
+
+
+```
 <beans>
 <bean id="jedisPoolConfig" class="redis.clients.jedis.JedisPoolConfig">
     <!-- <property name="maxActive" value="${redis.pool.maxTotal}" />-->
@@ -91,30 +95,37 @@ public static void main(String[] args) {
 </beans>
 ```
 
-- step3: configure parameters for redisPool through Properties documents
 
-<pre><code>#IP address
+- step3: Configure parameters for redisPool through Properties documents
+
+
+```
+#IP Address
 redis.pool.host=jcache-online20***59f-aeba-46*0-9fec-2de*****cd4c.jdicts.jcloud.com
-# Port number
+# Port Number
 redis.pool.port=6379
 redis.pool.pass=89376FC86*******403911BF5C538
-# The largest idle
+# The Largest idle
 redis.pool.maxIdle=300
-# The biggest allocated object
+# The Biggest Allocated Object
 redis.pool.maxTotal=600
 # How long does it take to check the idle connection?
 redis.pool.timeBetweenEvictionRunsMillis=5000
 # How long does it take to recover the idle connection?
 redis.pool.minEvictableIdleTimeMillis=8000
-# The sum of the above values shall not less than 15 seconds, otherwise the server connection may be breaked.
+#The sum of the above values shall be not less than 15 seconds, otherwise the server connection may be breaked.
 #borrow object
 redis.pool.testOnBorrow=true
 redis.pool.timeout=3000
-redis.pool.testWhileIdle=true</code></pre>
+redis.pool.testWhileIdle=true
+```
 
-- step4: definition redis value object shall be serialized here.
 
-<pre><code>class JMiss implements Serializable {
+- step4: Define redis value object shall be serialized here.
+
+
+```
+class JMiss implements Serializable {
 private String time;
 
 public String getTime() {
@@ -143,11 +154,15 @@ public String toString() {
             "time='" + time + '\'' +
             '}';
 }
-}</code></pre>
+}
+```
 
-- step5: define the type of JMiss controller
 
-<pre><code>public class JMissProcessor {
+- step5: Define the type of JMiss controller
+
+
+```
+public class JMissProcessor {
 
 private RedisTemplate<String, JMiss> redisTemplate;
 
@@ -164,11 +179,15 @@ public JMiss getJMiss(String key){
     ValueOperations<String, JMiss> valueOps = redisTemplate.opsForValue();
     return valueOps.get(key);
 }
-}</code></pre>
+}
+```
 
-- step6: call sample code
 
-<pre><code>public class JedisTester {
+- step6: Call sample code
+
+
+```
+public class JedisTester {
 
 public static void main(String [] args){
     ApplicationContext context = new ClassPathXmlApplicationContext("spring-config.xml");
@@ -196,4 +215,5 @@ public static void main(String [] args){
         }
     }
 }
-}</code></pre>
+}
+```

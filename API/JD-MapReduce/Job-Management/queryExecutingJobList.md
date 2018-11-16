@@ -1,60 +1,60 @@
 # queryExecutingJobList
 
 
-## 描述
+## Description
 Obtain the tasks in the plan (tasks already added to the quartz scheduler)
 
-## 请求方式
+## Request method
 GET
 
-## 请求地址
+## Request address
 https://idata-jmr-api.jcloud.com/v1/regions/{regionId}/executingJob:list
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
+|**regionId**|String|True| |Region ID|
 
-## 请求参数
-无
+## Request parameter
+None
 
 
-## 返回参数
-|名称|类型|描述|
+## Response parameter
+|Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
-|**result**|[Result](##Result)||
+|**requestId**|String| |
+|**result**|Result| |
 
 
-### <a name="Result">Result</a>
-|名称|类型|描述|
+### Result
+|Name|Type|Description|
 |---|---|---|
-|**data**|[JmrPlanViewModel[]](##JmrPlanViewModel)|Execution plan list|
-|**message**|String||
-|**status**|String||
-### <a name="JmrPlanViewModel">JmrPlanViewModel</a>
-|名称|类型|描述|
+|**data**|JmrPlanViewModel[]|Execution Plan List|
+|**message**|String| |
+|**status**|String| |
+### JmrPlanViewModel
+|Name|Type|Description|
 |---|---|---|
-|**az**|String||
-|**clusterId**|String||
-|**clusterName**|String||
-|**createTime**|String|Creation time|
-|**cronExpression**|String|Time after formatt|
-|**dataCenter**|String|Data center, i.e. regionId|
-|**description**|String||
+|**az**|String| |
+|**clusterId**|String| |
+|**clusterName**|String| |
+|**createTime**|String|Creation Time|
+|**cronExpression**|String|Time After Formatt|
+|**dataCenter**|String|Data Center, i.e. regionId|
+|**description**|String| |
 |**failurePolicy**|String|Policy adopted when task scheduling is failed|
-|**isSync**|Boolean||
-|**jobGroup**|String||
-|**jobIds**|String||
+|**isSync**|Boolean| |
+|**jobGroup**|String| |
+|**jobIds**|String| |
 |**jobTrigger**|String|Trigger|
-|**modifyTime**|String|Modification time|
-|**orderBy**|String||
-|**planId**|Number|Task scheduling id|
-|**planName**|String||
-|**planStatus**|String||
-|**planType**|String||
+|**modifyTime**|String|Modification Time|
+|**orderBy**|String| |
+|**planId**|Number|Task Scheduling id|
+|**planName**|String| |
+|**planStatus**|String| |
+|**planType**|String| |
 
-## 返回码
-|返回码|描述|
+## Response code
+|Return code|Description|
 |---|---|
 |**200**|OK|
 |**500**|Internal server error|

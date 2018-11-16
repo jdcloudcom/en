@@ -14,7 +14,7 @@
             } else if (s.equals("cpu")) {
                 returnString = "Number of CPUs";//
             } else if (s.equals("memory")) {
-                returnString = Memory size (Unit G)";//
+                returnString = "Memory size (Unit G)";//
             } else if (s.equals("disk")) {
                 returnString = "Hard disk size (unit G)";//
             } else if (s.equals("master")) {

@@ -12,7 +12,7 @@ I. Conditions for Enjoyment
 
 II. Rules for Service Period Presented Free of Charge
 
-(1) According to the approved filing time of your website (from the time when your submission for the preliminary review of filing to the time of successful filing. If you give up filing halfway, then the time will be calculated since the time of your last submission for filing), JD Cloud will correspondingly extend the deadline of your monthly package (the extended service period is hereinafter referred to as “Free Period ”). If your server’s period expires in advance (such as no renewal, early unsubscription, refund or other circumstances), you will not be entitled to enjoy the Free Period.
+(1) According to the approved filing time of your website (from the time when your submission for the preliminary review of filing to the time of successful filing. If you give up filing halfway, then the time will be calculated since the time of your last submission for filing), JD Cloud will correspondingly extend the deadline of your monthly package (the extended service period is hereinafter referred to as “Free Period”). If your server’s period expires in advance (such as no renewal, early unsubscription, refund or other circumstances), you will not be entitled to enjoy the Free Period.
 
 (2) The Free Period shall be no more than 45 days;
 
@@ -34,7 +34,7 @@ Reply: No. The same server can enjoy the free period only once, no matter a same
 
 Reply: Changing a server in the process of filing shall be deemed as early termination of service period, and such a server shall not be entitled to enjoy the free period.
 
-**(3) If a server expires before the process of filing ends ssuccessfully, is the server that has been filed successfully entitled to enhoy the “time presented free of charge as long as the time spent on filing”?**
+**(3) If a server expires before the process of filing ends successfully, is the server that has been filed successfully entitled to enjoy the **time presented free of charge as long as the time spent on filing**?**
 
 Reply: If your server expires, you will not be entitled to enjoy the free period. Please ensure that your server is within the valid period.
 

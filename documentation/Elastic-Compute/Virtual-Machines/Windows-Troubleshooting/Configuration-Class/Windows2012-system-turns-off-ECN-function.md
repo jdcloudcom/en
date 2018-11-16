@@ -1,4 +1,4 @@
-# Windows2012 ECN Function Disabled
+# Windows 2012 ECN Function Disabled
 Click Windows Power Shell after logging in to the server in a remote desktop and enter *netsh int tcp show global* to view the ECN function status:
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows2012%E7%B3%BB%E7%BB%9F%E5%85%B3%E9%97%ADECN%E5%8A%9F%E8%83%BD01.png)

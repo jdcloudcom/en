@@ -1,0 +1,17 @@
+  name: Data Star
+  href: 
+  items:
+  - name: API Overview
+    href: overview.md
+  - name: Update History
+    href: changelog.md
+  - name: API Information
+    items:
+      - name: Data Management APIs
+        items:
+          - name: getPackageId
+            href: DMP-APIs/getPackageId.md
+      - name: Large Screen APIs
+        items:
+          - name: getLargeScreenData
+            href: Large-Screen-APIs/getLargeScreenData.md

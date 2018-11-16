@@ -1,18 +1,16 @@
----
 # Compare with VM
 Native container compares with VM:
 
-
-Native container	VM
-Product property	Strong isolation, second-level start, light weight, image uniformity	Strong isolation, high maturity, ecological integrity
-Application type	Linux application	Linux、Windows application
-Region	cn-north-1	}cn-north-1, cn-south-1, cn-east-1 and cn-east-2
-Specification	consistent	consistent
-Image	MQ provide Public Image, private image, shared image according to third party Container Registry
-Public Image, private image, shared image, third party image
-Price	consistent, support yearly package, monthly package and pay by configuration	 consistent, support yearly package, monthly package and charge according to configuration
-Application scenario	mainly refers to provide continuous integration, deploy, microservice and fast auto scaling for	universal scenario
-Study cost and threshold for use	basically consistent	basically consistent
+|     |  Native container   | VM    |
+| --- | --- | --- |
+| Product Property    | Strong Isolation, Second-Level Start, Light Weight, Image Uniformity    |  Strong Isolation, High Maturity, Ecological Integrity   |
+|  Application Type   | Linux Application    |  Linux, Windows application   |
+|  Region   | cn-north-1, cn-east-2    | cn-north-1, cn-south-1, cn-east-1 and cn-east-2    |
+| Specification | Consistent   | Consistent    |
+| Image  | Image	MQ provide Public Image, private image, shared image according to third party container registry   |  Public Image, private image, shared image, third party image   |
+| Price |Consistent, support yearly package, monthly package and charge according to configuration    |Consistent, support yearly package, monthly package and charge according to configuration     |
+| Application Scenarios |  	Mainly refers to provide continuous integration, deploy, microservice and fast auto scaling  | Universal Scenario    |
+| Study cost and threshold for use |Basically Consistent    |  Basically Consistent    |
 
 Native container is applicable to:
 

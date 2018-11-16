@@ -1,51 +1,51 @@
 # describeSubnet
 
 
-## 描述
-查询子网信息详情
+## Description
+Query subnet information details
 
-## 请求方式
+## Request method
 GET
 
-## 请求地址
+## Request address
 https://vpc.jdcloud-api.com/v1/regions/{regionId}/subnets/{subnetId}
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
-|**subnetId**|String|True||Subnet ID|
+|**regionId**|String|True| |Region ID|
+|**subnetId**|String|True| |Subnet ID|
 
-## 请求参数
-无
+## Request parameter
+None
 
 
-## 返回参数
-|名称|类型|描述|
+## Response parameter
+|Name|Type|Description|
 |---|---|---|
-|**requestId**|String|请求ID|
-|**result**|[Result](##Result)|返回结果|
+|**requestId**|String|Request ID|
+|**result**|Result|Returned Results|
 
 
-### <a name="Result">Result</a>
-|名称|类型|描述|
+### Result
+|Name|Type|Description|
 |---|---|---|
-|**subnet**|[Subnet](##Subnet)|子网资源信息|
-### <a name="Subnet">Subnet</a>
-|名称|类型|描述|
+|**subnet**|Subnet|Subnet Resource Information|
+### Subnet
+|Name|Type|Description|
 |---|---|---|
-|**aclId**|String|子网关联的acl Id|
-|**addressPrefix**|String|子网网段，vpc内子网网段不能重叠，cidr的取值范围：10.0.0.0/8、172.16.0.0/12和192.168.0.0/16及它们包含的子网，且子网掩码长度为16-28之间，如果VPC含有Cidr，则必须为VPC所在Cidr的子网|
-|**availableIpCount**|Number|子网可用ip数量|
-|**createdTime**|String|子网创建时间|
-|**description**|String|子网描述信息|
-|**endIp**|String|子网的结束地址，子网第1个地位为路由器网关保留，第2个地址为dhcp服务保留|
-|**routeTableId**|String|子网关联的路由表Id|
-|**startIp**|String|子网的起始地址，子网第1个地位为路由器网关保留，第2个地址为dhcp服务保留|
-|**subnetId**|String|Subnet的Id|
-|**subnetName**|String|子网名称|
-|**vpcId**|String|子网所属VPC的Id|
+|**aclId**|String|Subnet Associated Acl ID|
+|**addressPrefix**|String|Subnet Segment, Subnet Segment in VPC Cannot Overlap. Value Range of cidr: 10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16 and their subnets included and the length of subnet mask is between 16 and 28. If VPC includes Cidr, it must be the Cidr subnet of VPC|
+|**availableIpCount**|Number|Number of Available IPs in Subnet|
+|**createdTime**|String|Subnet Creation Time|
+|**description**|String|Subnet Description Information|
+|**endIp**|String|Subnet end address, the 1st subnet address is router gateway reservation, the 2nd subnet address is dhcp service reservation|
+|**routeTableId**|String|Subnet Associated Route Table ID|
+|**startIp**|String|Subnet start address, the 1st subnet address is router gateway reservation, the 2nd subnet address is dhcp service reservation|
+|**subnetId**|String|Subnet ID|
+|**subnetName**|String|Subnet Name|
+|**vpcId**|String|VPC ID of Subnet|
 
-## 返回码
-|返回码|描述|
+## Response code
+|Return code|Description|
 |---|---|
 |**200**|OK|

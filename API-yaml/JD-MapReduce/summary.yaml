@@ -1,8 +1,0 @@
-swagger: "2.0"                                  # Realized based on Swagger 2.0 revision
-info:
-  version: "v1"                                 # OpenApi revision number
-  title: JMR API
-  description: Provide APIs for JMR operation in big data infrastructure services
-host: "idata-jmr-api.jcloud.com"                   # Use business line name as the secondary domain name
-x-jdcloud-version: "v1"
-x-jdcloud-revision: 1.1.1  #It is required to be consistent with ChangeLog

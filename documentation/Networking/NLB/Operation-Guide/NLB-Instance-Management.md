@@ -11,6 +11,6 @@
 
 ##### 5. Click the instance name to view the resource details.
 
-##### 6. The load balancer name and description can be modified through load balancer details. 【Note: Operations as starting, deletion, associating EIP, etc. can also be made via the upper right menu on the Resource Details.】
+##### 6. The load balancer name and description can be modified through load balancer details. **Note: Operations as starting, deletion, associating EIP, etc. can also be made via the upper right menu on the Resource Details.**
 ![NLB Details](../../../../image/Networking/NLB/NLB-InstanceDetail.png)
 

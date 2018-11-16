@@ -3,7 +3,7 @@
 The non-web service is a defense against the IP address of the user, only supports four-layer forwarding and does not support seven-layer protection like CC defense.
 
 ## Precondition
-- The Advanced Anti-DDoS has been successfully purchased and the billing status is normal.
+- The Advanced Anti-DDoS Pro has been successfully purchased and the billing status is normal.
 
 ## Operation Steps
 1. Select a purchased instance. Click the "Instance Name" or "Forwarding Setting" of operation bar to enter the Forwarding Setting page.
@@ -21,4 +21,4 @@ You can configure the forwarding rules according to the following pop-up tips. W
 ## Related Reference
 
 - [Create Instance](Create-Instance.md)
-- [Billing Rules](../../Pricing/Billing-Rules.md)
+- [Billing Rules](../Pricing/Billing-Rules.md)

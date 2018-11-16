@@ -4,8 +4,8 @@
 		"funcContent":[
 			{
 				"funcName":"",
-				"funcTitle":"Customize VPC ranges and sub-network segments",
-				"funcP":"Users can customize the network segment of a VPC, and then further divide the VPC into multiple subnets, and deploy applications and services on the corresponding network to meet various application scenarios."
+				"funcTitle":"Customized Virtual Private Cloud Ranges and Subnet Segments",
+				"funcP":"The users can customize the network segment of a VPC, and then further divide the Virtual Private Cloud into multiple subnets, and deploy applications and services on the corresponding network to meet various application scenarios."
 			}
 		]
 	},
@@ -14,8 +14,8 @@
 		"funcContent":[
 			{
 				"funcName":"",
-				"funcTitle":"Editable routing function",
-				"funcP":"Users can configure the next hop type, next hop and destination of the routing rule in the Route Table according to the service requirements. After the Route Table is associated with a subnet, the management of the network traffic forwarding path can be achieved."
+				"funcTitle":"Editable Routing Feature",
+				"funcP":"The users can configure the next hop type, next hop and destination of the routing rule in the Route Table according to the service requirements. After the Route Table is associated with a subnet, the management of the network traffic forwarding path can be achieved."
 			}
 		]
 	},
@@ -24,8 +24,8 @@
 		"funcContent":[
 			{
 				"funcName":"",
-				"funcTitle":"Realize multi-level security protection through security groups and network ACLs",
-				"funcP":"Network ACL: When operating at the subnet level, it supports the allow rule and the deny rule. Data flow return must be explicitly allowed by the rules. \n Security group: When operating at the instance level, it only supports the allow rule. Data flow return is automatically allowed, not affected by any rule."
+				"funcTitle":"Realize multi-level Security Protection Through Security Groups and Network ACLs",
+				"funcP":"Network ACL: When operating at the subnet level, it supports the allowing rule and the denying rule.. Data flow return must be explicitly allowed by the rules. \n Security group: When operating at the instance level, it only supports the allowing rule. Data flow return is automatically allowed, not affected by any rule."
 			}
 		]
 	},
@@ -34,8 +34,8 @@
 		"funcContent":[
 			{
 				"funcName":"",
-				"funcTitle":"EIP and self-built NAT gateway for public network access",
-				"funcP":"If the resources in VPC have requirement to visit the Internet, EIP access can be realized by binding the elastic EIP or self-building the NAT gateway and configuring corresponding routing policy."
+				"funcTitle":"Elastic IP and Self-built NAT Gateway for Public Network Access",
+				"funcP":"If the resources in VPC have requirement to visit the Internet, EIP access can be realized by associating the elastic IP or self-building the NAT gateway and configuring corresponding routing policy."
 			}
 		]
 	}

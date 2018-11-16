@@ -1,8 +1,8 @@
 # Connect Instance 
 Can be connected through a MySQL connector or using an API connection if you bought the instance of TiDB Service. The database connector provides the client with a way to connect to the database server while APIs provide the underlying interfaces that use the MySQL protocol and resources. Both connectors and APIs can be used to connect to servers and execute sql statements in different languages and environments, including odbc, java(jdbc), Perl, Python, PHP, Ruby, and C. 
 
-## Connect TiDB through JD Cloud VM
-TiDB can be connected by entering the command line mode after installing the MySQL client of JD Cloud VM. 
+## Connect TiDB through JD Cloud Virtual Machines
+TiDB can be connected by entering the command line mode after installing the MySQL client of JD Cloud Virtual Machines. 
 1. Command Format: mysql -h domain name -P port -u username -p password.
 2. Domain Name: The domain name of the instance to be accessed, which  are displayed on the details page of the instance.
 3. Port Number: The port number is displayed on the details page of the instance.

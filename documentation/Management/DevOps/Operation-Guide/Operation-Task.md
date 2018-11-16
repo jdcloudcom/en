@@ -46,18 +46,18 @@ Users can choose to upload images to the image packaging and download images fro
 1. Push local image to the image packaging
 
 ```
-a.列出本地镜像
+a. List local images
 docker images
-b.后台启动容器，验证配置是否正确
-docker run -d {镜像名/ID}
+b. Start the container from the backend to verify whether the configuration is correct
+docker run -d {image name/ID}
 docker ps
-c.登录镜像仓库
-docker login -u{用户名} -p{密码} *.jdcloud.com   #具体域名详见页面提示
-返回「Login Succeded」即为登录成功。
-d.标记本地镜像
-docker tag {镜像名/ID} *.jdcloud.com/{项目名}/{镜像名}:{版本}
-e.推送本地镜像到广场
-docker push *.jdcloud.com/{项目名}/{镜像名}:{版本}
+c. Log in the image registry
+docker login -u{user name} -p{password} *.jdcloud.com   #See the page notification for specific domain name
+When「Login Succeeded」returns, login succeeded.
+d. Mark local images
+docker tag {image name/ID} *.jdcloud.com/{project name}/{image name}:{version}
+e.Push the image to the packaging
+docker push *.jdcloud.com/{project name}/{image name}:{version}
 ```
 
 Notification:
@@ -73,11 +73,11 @@ b.	The image is divided into two categories that are:
 2. Pull the image from the image packaging to local
 
 ```
-a.公开镜像
-docker pull *.jdcloud.com/{项目名}/{标签名}:{版本}
-b.私有镜像
-# 登录镜像广场
-docker login -u{用户名} -p{密码} *.jdcloud.com   #具体域名详见页面提示
-# 拉取镜像
-docker pull *.jdcloud.com/{项目名}/{标签名}:{版本}
+a. Public image
+docker pull *.jdcloud.com/{project name}/{tag name}:{version}
+b. Private image
+# Log in image packaging
+docker login -u{user name} -p{password} *.jdcloud.com   #See the page notification for specific domain name
+# Pull image
+docker pull *.jdcloud.com/{project name}/{tag name}:{version}
 ```

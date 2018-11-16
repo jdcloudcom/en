@@ -21,13 +21,13 @@ Creating a new instance based on backup data refers to create a new instance by 
     * Storage Space: This storage space includes data space, system file space, and binlog file space. Make sure that the storage space is not less than the storage space of the source instance in the synchronization service.
     * Basic Information
         * Database Name: It is allowed to repeat, while the length and characters of the name have certain limits, which shall be subject to the console.
-    * Virtual Private Cloud: If there is no virtual private cloud or subnet in the current region, please make the relevant creation in advance, and add the hyperlink address on the interface to jump to the corresponding page to create [Virtual Private Cloud](https://console.jdcloud.com/host/vpc/list), [Subnet](https://console.jdcloud.com/host/subnet/list)); when a virtual private cloud is selected, users shall ensure that the VM and database instance to be connected to the database instance are in a same virtual private cloud.
+    * Virtual Private Cloud: If there is no Virtual Private Cloud or subnet in the current region, please make the relevant creation in advance, and add the hyperlink address on the interface to jump to the corresponding page to create [Virtual Private Cloud](https://console.jdcloud.com/host/vpc/list), [Subnet](https://console.jdcloud.com/host/subnet/list)); when a Virtual Private Cloud is selected, users shall ensure that the VM and database instance to be connected to the database instance are in a same Virtual Private Cloud.
     * Deployment Mode: Currently, it supports single-availability zone deployment and multi-availability zone deployment.
     * Purchase Duration: The purchase duration shall be selected if the billing method is monthly package, with options varying from 1 month to 2 years. The longer the purchase duration, the greater the discount is, which shall be subject to the console.
     
     ![Screenshot](https://img1.jcloudcs.com/cms/75c646b0-0a12-433a-b9e6-f4cacc4e3a5120180725142347.png)
 
-5. Click [Buy Now] to enter the order confirmation page.
+5. Click ***Buy Now*** to enter the order confirmation page.
 6. Read the RDS Terms of Service and finish subsequent operations as per instructions.
-    * Instance of Monthly Package: Click [Pay Now] immediately, enter the payment confirmation page, there is a variety of payment methods, such as coupons, balances and bank cards.
-    * Instance Paid by Configuration: Click [Instant Account Setup] to start creating an instance and enter the instance list page.
+    * Instance of Monthly Package: Click ***Pay Now***, enter the payment confirmation page, there is a variety of payment methods, such as coupons, balances and bank cards.
+    * Instance Paid by Configuration: Click ***Instant Account Setup*** to start creating an instance and enter the instance list page.

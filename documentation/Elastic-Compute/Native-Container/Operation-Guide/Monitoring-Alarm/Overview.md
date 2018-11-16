@@ -1,10 +1,12 @@
 
 # Monitor and Alarm Overview
 
-Instance monitoring and alarms provide you with real-time instance monitoring management services, support different monitoring dimensions, and start collecting data after the instance is successfully created, it can be displayed graphically, which is convenient for you to grasp the usage of instance resources and running status, set different alarm rules, trigger the alarm notification when this type of condition is triggered, so that you can easily locate the fault.
-Monitoring Items
+The monitoring and alarm will provide the real-time monitoring and management service for the Native Container Pod and the Native Container Instance, supporting different monitoring dimensions. The data will be collected once the resources are successfully created and directly displayed in the form of charts, thus you can know information as resource usage conditions and running status conveniently. At the same time, you can set different alarm rules. The alarm notification can be triggered upon meeting the triggering conditions, making fault localization easy.
 
-JD Cloud provides the following monitoring items for the Instance:
+**Monitoring Items**
+
+JD Cloud provides the following monitoring options to the Native Container Pod and the Native Container Instance:
+
 | Monitoring Items | Definitions | Description |
 | --- | --- | --- |
 | CPU Use Rate | Percentage of Current Non-Idle CPUs | The higher the value is, the higher the current instance load will be |
@@ -13,7 +15,7 @@ JD Cloud provides the following monitoring items for the Instance:
 | Disk read/write traffic | Disk average read/write traffic per second in Kbps | The amount of write/read data per second for the current instance system disk.                |
 
 
-Monitoring Data Description
+**Monitoring Data Description**
 
 The monitoring data collection period is 1 minute；
 
@@ -23,7 +25,7 @@ The monitoring value of different statistical periods will be aggregated, for ex
 
 The monitoring data can be stored for up to 180 days. In the console, users can observe the monitoring data for 30 days. If you need to obtain monitoring data for 30 days to 180 days, please open ticket.
 
-Others
+**Others**
 
 bps stands for the number of bit transmitted per second; ps stands for per second, similar to /s;
 

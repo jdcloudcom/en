@@ -1,8 +1,8 @@
 # SSH Creation and Login
 For Linux host, the SSH service encrypts all transmitted data, providing greater security than traditional telnet services. The SSH automatic login based on key pair authentication can simplify the login process and reduce the operation and maintenance cost while guaranteeing security. This article mainly explains the user's own configuration method. JD Cloud also provides the key pair injection port in the console. Please refer to the key pair.
 
-Key Pair Configuration for Linux System Virtual Machine
-During the preparation phase, the user needs to log in to the virtual machine to edit the configuration file of the virtual machine. The process is “create a key pair” - “send the public key into the authentication file” - “configure the key pair login file” - “restart key pair service”. The commands are as follows:
+Key Pair Configuration for Linux System Virtual Machines
+During the preparation phase, the user needs to log in to the Virtual Machines to edit the configuration file of the Virtual Machines. The process is "create a key pair" - "send the public key into the authentication file" - "configure the key pair login file" - "restart key pair service". The commands are as follows:
 
 ***yum install lrzsz/*** Install upload and download tool
 

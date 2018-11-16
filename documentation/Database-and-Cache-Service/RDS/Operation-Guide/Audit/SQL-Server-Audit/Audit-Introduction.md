@@ -1,7 +1,7 @@
 # Audit Introduction
 
 ## Features and Advantages
-1. The audit is comprehensive without omission, based on the original audit function of SQL Server.
+1. The audit is comprehensive without omission, based on the original audit function of JCS for SQL Server.
 2. Users can customize the audit strategy to meet the demands of different scenarios;
 3. The audit result is binary, cannot be tampered with, and has good security;
 3. The audit function has no extra cost and can be used free of charge by users;

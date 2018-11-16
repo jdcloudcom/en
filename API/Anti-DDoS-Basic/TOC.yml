@@ -1,13 +1,13 @@
-  name: Basic Anti-DDoS
+  name: Anti-DDoS Basic
   href: 
   items:
-  - name: Interface Overview
+  - name: API Overview
     href: overview.md
   - name: Update History
     href: ChangeLog.md
-  - name: Interface Information
+  - name: API Information
     items:
-      - name:  Basic Anti-DDoS APIs
+      - name:  Anti-DDoS Basic APIs
         items:
           - name: describeIpResourceFlow
             href: Basic-Anti-DDoS-APIs/describeIpResourceFlow.md

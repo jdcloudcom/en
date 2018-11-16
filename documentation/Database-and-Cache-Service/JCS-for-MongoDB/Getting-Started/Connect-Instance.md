@@ -1,22 +1,22 @@
 # Connection Instance
 
-For security reasons, the MongoDB currently only provides intranet connections and does not provide public network connections.
+For security reasons, the JCS for MongoDB currently only provides intranet connections and does not provide public network connections.
 
-If you need to directly connect to the MongoDB instance, you can use the virtual machine proxy forwarding method. For the operation mode, please refer to [Public Network Connection MongoDB Instance](../Best-Practices/Public-Network-Connect-to-MongoDB- Instance.md).
+If you need to directly connect to the JCS for MongoDB instance, you can use the Virtual Machines proxy forwarding method. For the operation mode, please refer to [Public Network Connection MongoDB Instance](../Best-Practices/Public-Network-Connect-to-MongoDB-Instance.md).
 
 
 
 ## Precondition
 - The MongoDB instance status is up and the billing status is normal.
-- The MongoDB instance is in the same VPC as the virtual machine used for connection, and the connection between them is not limited by ACL, security group or white list.
+- The MongoDB instance is in the same VPC as the Virtual Machines used for connection, and the connection between them is not limited by ACL, security group or white list.
 
 ## Operation Steps
 1. Get the connection information for the MongoDB instance.
-   1. Login [MongoDB Console](https://mongodb-console.jdcloud.com/mongodb?dataCenter=bj_02).
+   1. Login [MongoDB Console](https://mongodb-console.jdcloud.com/mongodb).
    1. On the "Instance List" page, select the target instance, and click the **Instance Name** to enter the "Instance Details" page.
    1. On the "Instance Details" page, view the resource information and get the connection information for the MongoDB instance.
    
-		![View Connection](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-016.png)
+		![View Connection](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-006.png)
 
 		- Database name, default is admin.
 		- User name, default is root.
@@ -37,7 +37,7 @@ If you need to directly connect to the MongoDB instance, you can use the virtual
 		
 		Please use the client of mongo shell 3.2 or above to connect to the MongoDB instance, otherwise the authentication may not be successful
 		
-		Use the mongo command to connect on the virtual machine. The command is as follows:
+		Use the mongo command to connect on the Virtual Machines. The command is as follows:
 
 		> mongo --host jmongo-xxx.jmiss.jcloud.com:27017 --authenticationDatabase admin -u root -p
 		
@@ -62,7 +62,7 @@ If you need to directly connect to the MongoDB instance, you can use the virtual
 		
 ## Related Reference
 
-- Public Network Connection MongoDB Instance](../Best-Practices/Public-Network-Connect-to-MongoDB-Instance.md)
-- [Problem Processing: Virtual Machine Unable to Connect MongoDB Instance](../Troubleshooting/Connect-Failed.md)
+- [Public Network Connection MongoDB Instance](../Best-Practices/Public-Network-Connect-to-MongoDB-Instance.md)
+- [Problem Processing: Virtual Machines Unable to Connect MongoDB Instance](../Troubleshooting/Connect-Failed.md)
 - [Problem Processing: Login Database Prompt No Permission](../Troubleshooting/Authentication.md)
 		

@@ -2,7 +2,8 @@
 
 1. The unit must use the latest documents integrating the three certificates to perform filing
 
-2. For the item of subject’s responsible person and website’s responsible person, they must be filled with the legal person. If they are not filled with the legal person, the authorization letter provided by the legal person shall be provide (![img](http://cms.jcloud.com/ueditor/dialogs/attachment/fileTypeImages/icon_doc.gif)[Authorization Letter of Fujian.doc](https://img1.jcloudcs.com/cms/7374aaf2- Dcf6-41fc-99b8-a07636fbf09a20180503112947.doc))
+2. For the item of subject’s responsible person and website’s responsible person, they must be filled with the legal person. If they are not filled with the legal person, the authorization letter provided by the legal person shall be provide (![img](http://cms.jcloud.com/ueditor/dialogs/attachment/fileTypeImages/icon_doc.gif)
+[Authorization Letter of Fujian.doc](https://img1.jcloudcs.com/cms/7374aaf2- Dcf6-41fc-99b8-a07636fbf09a20180503112947.doc))
 
 3. Through the business phone, it must be able to contact corresponding responsible person, otherwise the filing will not be passed.
 
@@ -14,7 +15,7 @@
 
 7. Data to be prepared prior to filing:
 
-   ① Clear color pictures of theBusiness License (Unified Social Credit Code)
+   ① Clear color pictures of the Business License (Unified Social Credit Code)
 
    ② Clear color pictures of the front and back of legal person’s ID card
 

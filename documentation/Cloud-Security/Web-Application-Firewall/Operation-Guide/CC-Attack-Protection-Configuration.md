@@ -1,6 +1,6 @@
 ## **CC Defense**
 
-Toggling the status button may control the switch of CC defense,
+Toggling **Status** may control the switch of CC defense,
 
 CC defense can choose two modes of normal or attack critical.
 

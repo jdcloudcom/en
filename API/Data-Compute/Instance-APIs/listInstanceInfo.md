@@ -1,48 +1,48 @@
 # listInstanceInfo
 
 
-## 描述
+## Description
 Search the instance information of the user
 
-## 请求方式
+## Request method
 GET
 
-## 请求地址
+## Request address
 https://xdata.jdcloud-api.com/v1/regions/{regionId}/dwInstance
 
-|名称|类型|是否必需|默认值|描述|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True||Region ID|
+|**regionId**|String|True| |Region ID|
 
-## 请求参数
-无
+## Request parameter
+None
 
 
-## 返回参数
-|名称|类型|描述|
+## Response parameter
+|Name|Type|Description|
 |---|---|---|
-|**requestId**|String||
-|**result**|[Result](##Result)||
+|**requestId**|String| |
+|**result**|Result| |
 
 
-### <a name="Result">Result</a>
-|名称|类型|描述|
+### Result
+|Name|Type|Description|
 |---|---|---|
-|**data**|[DwInstance[]](##DwInstance)||
-|**message**|String||
-|**status**|Boolean||
-### <a name="DwInstance">DwInstance</a>
-|名称|类型|描述|
+|**data**|DwInstance[]| |
+|**message**|String| |
+|**status**|Boolean| |
+### DwInstance
+|Name|Type|Description|
 |---|---|---|
-|**area**|String|Instance zone|
-|**comments**|String|Instance description|
-|**createTime**|String|Instance creation time|
-|**instanceName**|String|Instance name|
-|**instanceOwnerName**|String|Instance owner|
-|**uname**|String|Instance alias (shown on the page)|
+|**area**|String|Instance Zone|
+|**comments**|String|Instance Description|
+|**createTime**|String|Instance Creation Time|
+|**instanceName**|String|Instance Name|
+|**instanceOwnerName**|String|Instance Owner|
+|**uname**|String|Instance Alias (shown on the page)|
 
-## 返回码
-|返回码|描述|
+## Response code
+|Return code|Description|
 |---|---|
 |**200**|OK|
 |**500**|Internal server error|

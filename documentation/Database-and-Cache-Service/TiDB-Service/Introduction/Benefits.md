@@ -1,6 +1,6 @@
-# Features
+# Benefits
 ## Horizontal Elastic Expansion
-Distributed TiDB can expand seamlessly as your data grows, just by adding more devices to meet the business growth, and as for the application layer, it is not necessary to worry about the storage’s capacity and throughput. TiDB dynamically performs the adjustment of load balancer based on the factors such as storage, network and distance to ensure better read and write performance.
+Distributed TiDB can expand seamlessly as your data grows, just by adding more devices to meet the business growth, and as for the application layer, it is not necessary to worry about the storage’s capacity and throughput. TiDB dynamically performs the adjustment of Load Balancer based on the factors such as storage, Networking and distance to ensure better read and write performance.
 
 ## High Compatibility for MySQL
 TiDB's communication protocol is highly compatible with MySQL, hence you can easily replace your MySQL with TiDB to support your business just like using the stand-alone database with almost no need of modifying the code. MySQL's client-side management tools and all surrounding tools in community can be directly accessed, which can greatly reduce learning and usage costs.

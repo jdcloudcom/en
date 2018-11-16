@@ -1,5 +1,5 @@
 ## <div align=center>JD User Registration Agreement</div>
-this Agreement is a contract between you and the owner of JD website (abbreviation; this website; , URL: www.jd.com) (hereinafter referred to as; JD;) on JD website services and other related matters, please read carefully this registration agreement, you click; Agree and Continue; after you press the button, this Agreement constitutes a legal document binding on both parties.       
+This Agreement is a contract between you and the owner of JD website (abbreviation; the website; , URL: www.jd.com) (hereinafter referred to as; JD;) on JD website services and other related matters. Please read carefully this registration agreement. After you click **Agree and Continue**, this Agreement constitutes a legal document binding on both parties.       
 
 
 
@@ -19,7 +19,7 @@ this Agreement is a contract between you and the owner of JD website (abbreviati
 
 2.2 Users must prepare the following equipment and bear the following expenses:
 
-(1) Internet devices, including but not limited to computers or other Internet terminals, modems and other necessary Internet devices;
+(1) Internet devices, including but not limited to computers or other Internet ends, modems and other necessary Internet devices;
 
 (2) Internet expenses, including but not limited to network access fees, Internet equipment rental fees, mobile traffic cost, etc.        
 
@@ -30,7 +30,7 @@ this Agreement is a contract between you and the owner of JD website (abbreviati
 
 3.2 When the user browses or places the order with shopping and other activities on this website, the user's real name/description, correspondence address, contact number, email and other private information will be strictly confidential. Unless the user's authorization or other legal provisions, this website will not disclose the user's private information to the outside world.        
 
-3.3 After successful registration, user name, password and other account information will be generated. The user can change password according to the website regulations. The user shall carefully and reasonably save and use his user name and password. If the user finds any illegal use of the user account or a security breach, please notify this website immediately and report the case to the public security organ.        
+3.3 After successful registration, user name, password and other account information will be generated. The user can change password according to the website regulations. The user shall carefully and reasonably save and use his user name and password. If the user finds any illegal use of the user account or any security vulnerability, please notify this website immediately and report the case to the public security organ.        
 
 3.4 The user agrees that JD has the right to send order information and promotion activities to registered users, shopping users and consignee via email, SMS and telephone, etc.
 
@@ -41,23 +41,23 @@ this Agreement is a contract between you and the owner of JD website (abbreviati
 ### Article 4 User's Obligation According to Laws        
 this Agreement is formulated in accordance with relevant national laws, regulations and rules. The user agrees to strictly observe the following obligations:        
 
-(1) no speech shall be transmitted or published: incitement to resist or undermine the implementation of the constitution, laws and administrative regulations, incitement to subvert the state power, overthrow the socialist system, incitement to split the country, undermine national unity, incitement to hatred, discrimination and destruction of national unity;        
+(1) No speech shall be transmitted or published: incitement to resist or undermine the implementation of the constitution, laws and administrative regulations, incitement to subvert the state power, overthrow the socialist system, incitement to split the country, undermine national unity, incitement to hatred, discrimination and destruction of national unity;        
 
-(2) when transmitting information from China to overseas, it must comply with relevant Chinese laws and regulations;        
+(2) When transmitting information from China to overseas, it must comply with relevant Chinese laws and regulations;        
 
-(3) do not use this website to engage in illegal activities such as money laundering, stealing trade secrets, and stealing personal information;        
+(3) Do not use this website to engage in illegal activities such as money laundering, stealing trade secrets, and stealing personal information;        
 
 (4) not interfering with the normal operation of this website, nor invading the information system of this website and national computer;        
 
-(5) no information such as illegal, harassing, slanderous, abusive, intimidating, harmful, vulgar, obscene, and uncivilized may be transmitted or published;        
+(5) No information such as illegal, harassing, slanderous, abusive, intimidating, harmful, vulgar, obscene, and uncivilized may be transmitted or published;        
 
-(6) it is not allowed to transmit or publish information or speech that harms the public interest of the State and involves national security;        
+(6) It is not allowed to transmit or publish information or speech that harms the public interest of the State and involves national security;        
 
-(7) do not incite others to engage in acts prohibited by this article;        
+(7) Do not incite others to engage in acts prohibited by this article;        
 
-(8) do not use the account registered on this website for profit-making business activities;        
+(8) Do not use the account registered on this website for profit-making business activities;        
 
-(9) do not release any content that infringes the copyright or trademark rights of others, such as copyright or trademark rights;        
+(9) Do not release any content that infringes the copyright or trademark rights of others, such as copyright or trademark rights;        
 
 The user shall pay attention to and comply with the legal rules published or modified by this website frequently.        
 
@@ -77,7 +77,7 @@ For the convenience of expression, product and service are referred to as; produ
 ### Article 6 Order        
 6.1 When you place an order, please carefully confirm the name, price, quantity, model, specification, size, contact address, phone number, consignee and other information of the purchased product. If the consignee is inconsistent with the user, the behavior and will of the consignee shall be deemed as the behavior and will of the user, and the user shall be jointly and severally liable for the legal consequences of the behavior and will of the consignee.        
 
-6.2 Unless otherwise mandatory provisions of the law, the parties agree as follows: the information such as products and prices displayed by the seller on the website is only the release of transaction information, and you shall fill in the quantity, price and payment method, consignee, contact information and address of the goods you wish to purchase when placing the order; the order information generated by the system is the data automatically generated by the computer information system based on the content you fill in, which is just the transaction appeal you send to the seller; after the seller receives the information of your order, only when the seller actually sends the product you have ordered from the warehouse to you (with the mark of product out of the warehouse) shall be deemed to have established a transaction relationship between you and the seller with respect to the product actually sent directly to you; if you place an order for multiple items and the seller sends you some items, you and the seller establish a transaction relationship only with the products that are actually sent directly to you; a transaction relationship can be established between you and the seller only with respect to the other items in the order that have actually been directly sent to you by the seller. You can log in to your account registered at this website to check the status of your order.        
+6.2 Unless otherwise mandatory provisions of the law, the parties agree as follows: the information such as products and prices displayed by the seller on the website is only the release of transaction information, and you shall fill in the quantity, price and payment methods, consignee, contact information and address of the goods you wish to purchase when placing the order; the order information generated by the system is the data automatically generated by the computer information system based on the content you fill in, which is just the transaction appeal you send to the seller; after the seller receives the information of your order, only when the seller actually sends the product you have ordered from the warehouse to you (with the mark of product out of the warehouse) shall be deemed to have established a transaction relationship between you and the seller with respect to the product actually sent directly to you; if you place an order for multiple items and the seller sends you some items, you and the seller establish a transaction relationship only with the products that are actually sent directly to you; a transaction relationship can be established between you and the seller only with respect to the other items in the order that have actually been directly sent to you by the seller. You can log in to your account registered at this website to check the status of your order.        
 
 6.3 Due to market changes and various factors beyond the control of reasonable commercial efforts, this website cannot guarantee that the products you wish to purchase in your order information be available; if the product you intend to purchase is out of stock, you have the right to cancel the order.        
 
@@ -147,4 +147,4 @@ In the event of any dispute between the parties concerning the content of this A
 
 12.3 Please read carefully the terms of this Agreement which are clearly marked in SimHei, bold, underlined, italic, etc.
 
-12.4 If you click the  agree and continue  button below this Agreement, you will be deemed to have fully accepted this Agreement. Please confirm again that you have known and fully understood this Agreement before clicking.
+12.4 If you click **Agree and Continue** below this Agreement, you will be deemed to have fully accepted this Agreement. Please confirm again that you have known and fully understood this Agreement before clicking.

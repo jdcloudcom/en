@@ -1,117 +1,117 @@
-## **1. Service Scope**
+**1. Service Scope**
 
-Native container is the newly released innovative container product based on JD Cloud's deep accumulation in container technology. The product fully combines the advantages of containers and virtual machines, without managing servers or clusters, creating a secure, easy-to-use native container for users and billing in flexible way to effectively reduce user input costs.
+The native container is an innovative container product that is released based on JD Cloud’s deep accumulation in container technology. The product fully integrates the advantages of containers and virtual machines. It does not need to manage server or cluster and provides users with a safe and easy-to-use native container with flexible billing method, which effectively reduces the invested costs of the users.
 
-**2. Service Level Indicators**
+**2. Service Level Indicator**
 
-**2.1 Service Features**
+**2.1 Service Functions**
 
-Native containers have advanced features such as self-service management, data security guarantee, automatic fault recovery, and anti-network attacks. Native containers are suitable for community sites, corporate websites, portals, e-commerce sites, SAAS apps, and gaming apps. For details on all the specific functions of the native container, please refer to the specifications documentation, technical documentation and help documentation provided by JD Cloud on its official website. All functional changes to the native container that may affect the user will be announced to the user.
+Native container has advanced functions such as self-service management, data security guarantee, automatic fault recovery and anti-network attacks. It is suitable for community websites, enterprise official websites, portals, E-commerce websites, SAAS applications and gaming applications. For details on all the specific functions of the native container, please refer to the detailed description document, technical document and help documentation provided by JD Cloud on the official website. All the functional changes of native container that may affect users will be announced to the users.
 
 **2.2 Service Availability**
 
-Service Availability: No less than 99.95%.
+Service availability: no lower than 99.95%.
 
-The native container availability calculation formula: All available time per container per service period/(all available time per container per service period + all unavailable time per container per service period). 
+The formula for computing the availability of native containers is as follows: all available time for a single container per service cycle/ (all available time for a single container per service cycle+all unavailable time for a single container per service cycle). 
 
-Wherein:
+Where,
 
-(1) The availability of the native container is counted according to the service period. One service period is a natural month. If it is less than one month, it is not counted as one service period. The statistical business unit is a single container, and the time unit is minute.
+(1) Availability of native containers is counted by service cycle, a service cycle is a natural month, if it is less than a month, then it is not counted as a service cycle. The business unit of statistics is single container, and the time unit is minute.
 
-(2) Unavailable Time: The time when the service provided by the native container is not available for 5 minutes or more, and if the service is unavailable for less than 5 minutes, it is not counted into unavailable time. The unavailability time of native container does not include daily system maintenance time, and the unavailability time due to user reasons, third-party causes, or force majeure.
+(2) Unavailable time: only services provided by native containers are unavailable for continuous 5 minutes or above can be regarded as unavailable time. If the unavailable time is less than 5 minutes, it does not account for unavailable time. The unavailable time of native containers shall exclude daily system maintenance time and unavailable time due to user reasons, the third party reasons or force majeure.
 
 **2.3 Service Resource Allocation Capability**
 
-The native container provides multiple configurations and has elastic scalability. Users can expand or reduce the container resources used online according to the JD Cloud's configuration plan. After the image download is completed, the user can enable or release 100 containers in 10 minutes, or complete the shutdown to upgrade the CPU and memory within 5 minutes, and support online real-time upgrade of EIP bandwidth.
+Native container services provide multiple configurations and have the capacity of elastic expansion so that users can expand or contract the container resources they use on-line according to JD Cloud configuration scheme. After the image is downloaded, the user can enable or release 100 containers in 10 minutes, or complete downtime upgrading of CPU and memory in 5 minutes, and support online real-time upgrading of public network bandwidth.
 
 **2.4 Fault Recovery Capability**
 
-JD Cloud provides 7×24h operation and maintenance for the container instances of paying users, and provides technical support by means of telephone reporting, and has a series of fault emergency response mechanisms such as fault monitoring, automatic alarm, rapid positioning and fast recovery.
+JD Cloud provides 7×24 hours of operation maintenance for the container instance of the paying users, and provides technical support by means of telephone fault reporting, and has a series of fault emergency response mechanisms such as fault monitoring, automatic alarm, fast positioning, fast recovery, etc.
 
 **2.5 Network Access Performance**
 
-When setting up the JD Cloud's native container, the user can select the EIP outlet bandwidth required for each container. The EIP outlet bandwidth can be configured from 1Mbps to 200Mbps. JD Cloud adopts BGP multi-line access to ensure the quality of network access for users.
+When an user enables the JD Cloud native container, the user may select the public network exit bandwidth required for each container; the public network exit bandwidth can be configured from 1Mbps to 200Mbps. JD Cloud adopts BGP multi-line access to ensure the quality of network access for users.
 
-**2.6 Service Measurement Accuracy**
+**2.6 Service Metering Accuracy**
 
-The native container has an accurate and transparent metering and billing system. The native container settles and charges in real time according to the actual usage of the user's native container, and the specific billing standard is subject to the effective billing mode and price announced on the official website of JD Cloud. The user's original billing log is reserved for a minimum of 3 years by default for future reference.
+Native container has an accurate and transparent metering and billing system. JD Cloud settles and deducts charges in real time according to the user’s actual usage of container. The specific billing standard shall be subject to the effective billing model and price announced on the JD Cloud official website. The user's original billing log shall be kept for at least 3 years by default for future reference.
 
 **2.7 Data Persistence**
 
-Data Persistence: Not less than 99.9999999% 
+Data persistence: no lower than 99.9999999% 
 
-Data persistence is counted by service period. One service period is a natural month. If it is less than one month, it is not counted as one service period.
+Data persistence is counted by service cycle, a service cycle is a natural month, if it is less than a month, then it is not counted as a service cycle.
 
-Data Persistence Calculation Formula: container disk with good data per service period/(container disk with good data per service cycle + container disk with data loss per service cycle). That is, for every 10,000 container disks, the probability that the data is not lost is 99.9999999% per month, or only one container disk may have data loss per month.
+The data durability calculation formula is as follows: container disk of complete data per service period/(container disk of complete data per service period+container disk of lost data per service period). I.e., the no data loss probability per 10,000 container disk is 99.9999999%. This means that at most 1 container disk may have the data loss per month.
 
-**2.8. Data Destructibility**
+**2.8 Destruction Nature of Data**
 
-2.8.1 If the user deletes the data or needs to destroy the data after the service expires, JD Cloud will automatically clear the disk and memory data on the corresponding physical server, so that the data cannot be recovered.
+2.8.1 If the users actively delete the data or need to destruct the data after expiry, JD Cloud will automatically remove corresponding data in the physical server disks and memory and the data cannot be recovered.
 
-2.8.2 Before the equipment used in the cloud service is scrapped, disposed, repaired by outsourcing or resold, JD Cloud will degauss its physical disk.
+2.8.2 Before scrapping, outsourced maintenance or resale of the equipment used for the cloud services, JD Cloud will adopt demagnetization operation on its physical disk.
 
-**2.9. Data Migration**
+**2.9 Migration Nature of Data**
 
-When the user enables the container, JD Cloud provides a snapshot recovery method, so that the user can quickly deploy the environment and import data; when the user stops using the container, the data can be migrated out through the network.
+When the user enables the container, JD Cloud provides the way of snapshot recovery, so that the user can quickly deploy the environment and move in the data. When the user stops using the container, he/she can move the data out of the network by himself/herself.
 
-**2.10. Data Privacy**
+**2.10 Privacy of Data**
 
-JD Cloud uses encryption, tenant isolation, security group isolation and other means to ensure that user data in the same resource pool is mutually invisible. The security group isolates different user resources through a series of identity and access management technologies such as data link layer and network layer.
+By means of encryption, tenant isolation and security group isolation, JD Cloud ensures that the user data in the same resource pools are invisible with each other. In which, security groups can isolate different user resources through a series of data link level and network level IAM technology.
 
-**2.11. Right to Know about Data**
+**2.11 Right to Know of Data**
 
-2.11.1. The user has the right to know the data, the geographical location of the data center where the backup data is located, and the number of data backups, among which:
+2.11.1. Users have the right to know the geographical location of data center with their data and backup data, as well as the number of data backup, of which:
 
-2.11.1.1. At present, JD Cloud Data Center is located in cn-north-1, cn-east-1, cn-east-2 and cn-south-1. Currently, the container has been launched in cn-north-1. Users must select the corresponding data when registers the service. The user data will be stored in its designated data center.
+2.11.1.1 At present, JD Cloud data centers are distributed in North China (Beijing), East China (Suqian), East China (Shanghai) and South China (Guangzhou). At present, the Containers have been launched in North China (Beijing). Users must select the corresponding data center when enabling the service, and their data will be stored in the data center specified by themselves.
 
-2.11.1.2. JD Cloud Service has automatic data backup function. The backup data is stored in the same data center as the source data by default. The user does not need to specify the number of automatic backups and the location where the date backed up automatic is stored.
+2.11.1.2. JD Cloud service provides automatic data backup function, the backup data are stored in the same data center as the source data by default. Users need not to designate the number and storage location for their data’s automatic backup.
 
-2.11.2 JD Cloud data center will comply with relevant local laws and regulations, and users have the right to know about this, and can contact JD Cloud's customer service personnel for detailed information.
+2.11.2 JD Cloud data centers will comply with the relevant local laws and regulations, users have the right to know and they can contact customer service personnel of JD Cloud to acquire the detailed information.
 
-2.11.3. Unless required by local laws and regulations, or regulatory and auditing requirements of government's regulatory authorities, all data, applications and behavior logs of users will not be provided to third parties. In addition to the statistics and analysis of the operating status of the products used by JD Cloud, the user's behavior log will not present the user's personal information data.
+2.11.3. Except for the requirements of local laws and regulations or the supervision and auditing of regulatory authorities, all user data, applications and behavior log will not be provided to the third party. Apart from being used for statistics & analysis of product operating status of JD Cloud, user behavior logs will not display user personal information data to the external.
 
-**2.12. Data Reviewability**
+**2.12 Reviewability of Data**
 
-In accordance with current laws and regulations or according to the requirements of government regulatory authorities, safety compliance, auditing or forensics investigations and in the context of complete processes and procedures, JD Cloud can provide relevant information of the service purchased by the user, including running logs of key components, operation records of operation and maintenance personnel, and user's operation records.
+In accordance with existing laws and regulations or the requirements from reasons such as supervision by government supervision department, safety and compliance, audit or forensic investigation, and subject to compliance with processes and procedures, JD Cloud may provide relevant information about the services used by users including the running log of key components, operational records of operation and maintenance personnel, records user action and other information.
 
-**3. Service Compensation Terms**
+**3 Service Compensation Terms**
 
 **3.1 Compensation Scope**
 
-When the native container cannot be used normally due to the JD Cloud fault, JD Cloud will compensate for the unavailable time, but not including the service unavailable time caused by the following reasons:
+In the event of failure of normal use of native container due to JD Cloud fault, JD Cloud will compensate for the unavailable time, excluding the service unavailability time caused by the following reasons:
 
-(1) Caused by the system maintenance procedures after JD Cloud's notification in advance, including cutting, maintenance, upgrading and simulated fault drill;
+(1) Caused by the system maintenance that JD Cloud have notified the users in advance, including migration, maintenance, upgrade and simulation fault drill;
 
-(2) Packet loss and delay caused by operators' fault;
+(2) Unavailability situations such as packet loss and latency caused by operator fault;
 
-(3) Caused by the hackers' hacking to the users' application programs or data information;
+(3) Caused by hacker attacks to the user’s application program or data information;
 
-(4) Caused by the loss or leakage of data, commands, passwords etc. due to user's improper maintenance or improper confidentiality measures;
+(4) Caused by loss or leakage of data, passwords, etc. due to user’s improper maintenance or improper confidentiality;
 
-(5) Caused by the user upgrading the operating system by himself;
+(5) Caused by user’s own upgrading of operating system;
 
-(6) Caused by the user's application or installation activities;
+(6) Caused by user’s application program or installation activities;
 
-(7) Caused by user's negligence or operation authorized by the user;
+(7) Caused by user’s negligence or actions authorized by the user;
 
 (8) Caused by force majeure and accidents;
 
-(9) Unavailability caused by other reasons not related to JD Cloud.
+(9) Other unavailability caused not due to JD Cloud’s account.
 
-**3.2 Compensation Plan**
+**3.2 Compensation Scheme**
 
-Fault time = unavailable time.
+Fault Time = Unavailable Time.
 
-The native container in monthly package is compensated for service time by 100 times/set of the fault time.
+For the monthly package native container, compensation shall be made by the means of compensating service duration at the 100 times of fault time/set.
 
-The native container paid by configuration is indemnified in the form of coupon, the payout amount = the average hourly cost in the first 24 hours of the fault/60×fault time×100.
+For the native container paid by configuration, compensation shall be made by the means of coupons at the compensation amount = average charge per hour of 24 hours before the fault/60 x fault time x 100.
 
-Instructions:
+Note:
 
-If the use time of the native container paid by configuration is less than 24 hours, the cost shall be calculated based on the actual use time; and the fault time shall be calculated by seconds;
+If the usage time of native container paid by configuration is less than 24 hours, the charge shall be calculated in accordance with the average value of the actual usage duration, and the fault time shall be calculated by seconds.
 
-Total amount of compensation shall not exceed the total amount of cash paid for the current service of single instance.
+The total compensation amount shall not exceed the total amount of current service cash charge already paid for a single instance.
 
-**4. Others**
+**4. Miscellaneous**
 
-JD Cloud has the right to make adjustments to some service indicators of the SLA according to the changes, and promptly publish announcements at www.jdcloud.com or send emails or written notices to notify users of the revised content.
+JD Cloud has the right to make adjustments to partial service indicators of the Service Level Agreement according to changes, and promptly publish announcements on JD Cloud official website of www.jdcloud.com, or send emails or written notices to notify the users of the modified contents.

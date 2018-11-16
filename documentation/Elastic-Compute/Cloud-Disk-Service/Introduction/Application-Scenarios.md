@@ -1,13 +1,13 @@
-# Application scenario
+# Application Scenarios
 
 
 **SSD cloud disk**
 
-I/O performance: A maximum of 20000 random read-write IOPS and 100MBps throughput performance is provided;
+I/O Performance: A maximum of 20,000 random read-write IOPS and 300MBps throughput performance are provided and the default throughput is 100MBps;
 
 Maximum capacity: Single Premium Hdd Cloud Disk provides a maximum of 1000GB storage space;
 
-Application scenario:
+Application Scenarios:
 
 - Applicable to MySQL, SQL Server, MongoDB and other medium and large-sized database application, providing long-term, stable and ultra-high single disk performance;
 - Applicable to I/O intensive core business scenario with high requirements for data reliability.
@@ -19,11 +19,11 @@ Application scenario:
 **Premium Hdd Cloud Disk**
 
 
-I/O performance: A maximum of 3000 random read-write IOPS and 80MBps throughput performance is provided;
+I/O performance: A maximum of 500 random read-write IOPS and 80MBps throughput performance is provided;
 
 Maximum capacity: Single Premium Hdd Cloud Disk provides a maximum of 3000GB storage space;
 
-Application scenario:
+Application Scenarios:
 
 - Applicable to most of I/O scenarios, the best choice with good quality and low price;
 - Applicable to small and medium-sized database, web server, etc., providing stable IO performance output;

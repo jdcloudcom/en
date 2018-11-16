@@ -1,0 +1,49 @@
+name: Container Registry
+  href: 
+  items:
+  - name: Interface Overview
+    href: overview.md
+  - name: Update History
+    href: ChangeLog.md
+  - name: Interface Information
+    items:
+      - name: Authorization Verification
+        items:
+          - name: Query token list
+            href: Authentication/describeAuthorizationTokens.md
+          - name: Obtaining token
+            href: Authentication/getAuthorizationToken.md
+          - name: Release token
+            href: Authentication/releaseAuthorizationToken.md
+      - name: Image
+        items:
+          - name: Query Image List
+            href: Image/describeImages.md
+          - name: Delete Image
+            href: Image/deleteImage.md
+      - name: Quota
+        items:
+          - name: Query Quota
+            href: Quota/describeQuotas.md
+      - name: Registry
+        items:
+          - name: Query if the Registry name is available
+            href: Registry/checkRegistryName.md
+          - name: Creation of Registry
+            href: Registry/createRegistry.md
+          - name: Deletion of Registry
+            href: Registry/deleteRegistry.md
+          - name: Query Registry List
+            href: Registry/describeRegistries.md
+          - name: Query Registry Details
+            href: Registry/describeRegistry.md
+      - name: Repository
+        items:
+          - name: Query if the Repository name is available
+            href: Repository/checkRepositoryName.md
+          - name: Creation of Repository
+            href: Repository/createRepository.md
+          - name: Deletion of Repository
+            href: Repository/deleteRepository.md
+          - name: Query Repository List
+            href: Repository/describeRepositories.md

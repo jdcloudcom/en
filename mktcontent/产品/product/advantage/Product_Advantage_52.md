@@ -1,30 +1,30 @@
 [
 	{
-		"proGoodTitle":"Product advantages",
+		"proGoodTitle":"Benefits",
 		"proNameTitle":"Description",
 		"proDiffTitle":"",
 		"proGood":"One-stop",
-		"proName":"Set data import, data pre-processing, model training, model evaluation, model release and other functions are integrated in one, providing an one-stop all-round modeling process to help you quickly complete the modeling.",
+		"proName":"Data import, data pre-processing, model training, model evaluation, model release and other features are integrated to provide users with an one-stop and all-round modeling process, helping them quickly complete the modelling.",
 		"proDiff":""
 	},
 	{
 		"proGood":"Usability",
-		"proName":"The mode of visual drag-and-drop components is used for modeling experiment to integrate the sophisticated machine learning algorithms into algorithm components in any combination, so that only the simple adjustment of parameters is required to build the model, greatly reducing the user threshold.",
+		"proName":"Modeling experiments can be carried out by dragging and dropping components to integrate sophisticated machine learning algorithms into algorithm components in any combination. Therefore, only simple adjustment of parameters is required to build a model, and user threshold is greatly lowered. ",
 		"proDiff":""
 	},
 	{
-		"proGood":"High efficiency",
-		"proName":"In addition to high-performance CPU, the hardware GPU, FPGA and HPC are integrated for parallel acceleration, while the extreme speed experience is provided to you in combination with JD machine learning and big data computing power for many years.",
+		"proGood":"High Efficiency",
+		"proName":"In addition to high-performance CPU, hardware GPU, FPGA, and HPC are integrated for parallel acceleration, which, together with JD's years of accumulation in machine learning and big data computing, brings the users extreme speed and high efficiency. ",
 		"proDiff":""
 	},
 	{
 		"proGood":"Modularization",
-		"proName":"It has a rich library of components, including logical regression (LR), clustering Kmeans, support vector machine (SVM), convolution neural network (CNN), depth neural network (DNN), collaborative filtering (CF) and other algorithm model components.",
+		"proName":"It has a rich library of components, including logical regression (LR) and clustering Kmeans, and supports vector machine (SVirtual Machines), convolution neural network (CNN), depth neural network (DNN), collaborative filtering (CF) and other algorithm model components. ",
 		"proDiff":""
 	},
 	{
 		"proGood":"One-stop",
-		"proName":"Set data import, data pre-processing, model training, model evaluation, model release and other functions are integrated in one, providing an one-stop all-round modeling process to help you quickly complete the modeling.",
+		"proName":"Data import, data pre-processing, model training, model evaluation, model release and other features are integrated to provide users with an one-stop and all-round modeling process, helping them quickly complete the modelling.",
 		"proDiff":""
 	}
 ]

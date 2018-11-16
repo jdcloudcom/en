@@ -1,4 +1,4 @@
-# Image rotation
+# Image Rotation
 
 Rotate the image as required.
 
@@ -11,6 +11,8 @@ All images are automatically rotated according to EXIF information by default be
 
 Example: Rotate the image 60° clockwise
 
+http://s3.cn-north-1.jcloudcs.com/downloads/example.jpg?x-oss-process=img/r/60
+
 http://oss.cn-north-1.jcloudcs.com/downloads/example.jpg?x-oss-process=img/r/60
 
-![旋转](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-059.jpg)
+![旋转](../../../../../image/Object-Storage-Service/OSS-059.jpg)

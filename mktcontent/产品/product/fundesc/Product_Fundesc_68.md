@@ -10,7 +10,12 @@
 			{
 				"funcName":"",
 				"funcTitle":"0Day Vulnerability Protection",
-				"funcP":"The professional attack-defense team carries out a 7*24 hours follow-up of 0day vulnerability, analyzes the vulnerability principle and develops a security protection strategy to provide protection in time."
+				"funcP":"The professional attack-defense team carries out a 7*24h follow-up for 0day vulnerability, analyzes the vulnerability principle and develops a security protection policy to provide protection in time."
+			},
+			{
+				"funcName":"",
+				"funcTitle":"CC Attack Protection",
+				"funcP":"Support global model and single IP protection mode, check CC attack protection based on multiple challenge check algorithms and protect DOS function of the application layer."
 			}
 		]
 	},
@@ -19,43 +24,53 @@
 		"funcContent":[
 			{
 				"funcName":"",
-				"funcTitle":"Attack classification report",
-				"funcP":"The attacking type distribution is clear at a glance, and a security hardening strategy is formulated aimed at attack type classification."
+				"funcTitle":"Attack Classification Report",
+				"funcP":"Five security analysis reports, including Web Security, CC Attack, Custom IAM Rules, User Access, and Operation Monitoring, are provided for insight into the workload monitoring status, security protection status and effect."
 			},
 			{
 				"funcName":"",
-				"funcTitle":"Attack trend graph",
-				"funcP":"By viewing the attacking trend graph, it is possible to know hack’s concern extent to business."
+				"funcTitle":"Attack Trend Graph",
+				"funcP":"By viewing the attacking trend graph, it can know hacker’s concern to business."
 			},
 			{
 				"funcName":"",
 				"funcTitle":"CC Attack Protection Trend",
-				"funcP":"Statistics of CC attack’s trend. Defending effect and statistics can be checked in real-time."
+				"funcP":"View protection effect and statistics in real time via CC attack trend statistics."
 			},
 			{
 				"funcName":"",
-				"funcTitle":"Identity and Access Management Trend",
-				"funcP":"Carrying out statistical analysis to Identity and Access Management rules formulated by the user to query user access status in real time."
+				"funcTitle":"IAM Trend",
+				"funcP":"Search the users' access conditions in real time by carrying out the statistics & analysis to IAM rules formulated by the users."
 			}
 		]
 	},
 	{
-		"funcName":"Precise Identity and Access Management",
+		"funcName":"Precise IAM",
 		"funcContent":[
 			{
 				"funcName":"",
-				"funcTitle":"Precise Identity and Access Management",
-				"funcP":"Users can combine HTTP protocol fields to formulate Identity and Access Management rules, confirm priority and provide multiple customization methods and simple logic syntax to meet individual needs."
+				"funcTitle":"Precise IAM",
+				"funcP":"The users can combine HTTP protocol fields to formulate IAM rules, confirm priority and provide multiple customization methods and simple logic syntax to meet the individual needs."
 			},
 			{
 				"funcName":"",
-				"funcTitle":"Access log record",
-				"funcP":"Carrying out log records to the established control rules, supporting real-time query and statistics"
+				"funcTitle":"Access Log Record",
+				"funcP":"Record the access logs of all users on the business website, provide trend analysis and Log Download feature as needed."
+			},
+			{
+				"funcName":"",
+				"funcTitle":"Webpage Tamper-proofing",
+				"funcP":"The webpage tamper-proofing uses the mandatory static cache locking and update mechanism to protect specific webpages. Even though relevant webpage of origin server is tampered, it can be returned to the user cache page."
+			},
+			{
+				"funcName":"",
+				"funcTitle":"Administrator Operation Audit",
+				"funcP":"Provide audit logs for operation of all administrators and provide the same on demand when checking security compliance."
 			}
 		]
 	},
 	{
-		"funcName":"Protection of Business Security",
+		"funcName":"BOT Management",
 		"funcContent":[
 			{
 				"funcName":"",
@@ -64,13 +79,13 @@
 			},
 			{
 				"funcName":"",
-				"funcTitle":"Malicious IP ban",
-				"funcP":"Provide IP blocking function to intercept malicious users in real time."
+				"funcTitle":"Malicious IP Ban",
+				"funcP":"Provide IP blocking feature to intercept malicious users in real time."
 			},
 			{
 				"funcName":"",
-				"funcTitle":"Anti-violent cracking",
-				"funcP":"It could carry out protection to violence crack, and it could carry out protection to Y.C and robot crack"
+				"funcTitle":"Anti-violent Cracking",
+				"funcP":"Enable protection against violent crack and protection against Y.C, robot crack, etc."
 			}
 		]
 	},
@@ -79,13 +94,18 @@
 		"funcContent":[
 			{
 				"funcName":"",
-				"funcTitle":"RESTful API Support",
+				"funcTitle":"RESTfulAPI Support",
 				"funcP":"Provide a full set of RESTfulAPI interfaces for page customization"
 			},
 			{
 				"funcName":"",
-				"funcTitle":"No DNS modification",
-				"funcP":"It doesn’t need to modify the DNS to achieve service protection and monitoring. Work jointly with load balancer to realize certificate autonomy management and SSL uninstall function."
+				"funcTitle":"No DNS Modification",
+				"funcP":"There is no need to modify the DNS for service protection and monitoring. By associating the Load Balancer, direct IP access is supported."
+			},
+			{
+				"funcName":"",
+				"funcTitle":"HTTPS Support",
+				"funcP":"Upload ssl certificate on the Load Balancer and implement HTTPS detach management."
 			}
 		]
 	}

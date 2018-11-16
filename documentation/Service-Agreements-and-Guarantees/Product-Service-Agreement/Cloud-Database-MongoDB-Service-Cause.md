@@ -1,10 +1,10 @@
-**This Service Terms is a valid agreement between the owner of the JD Cloud website (referred to in this Service Terms as "JD Cloud" website: [www.jdcloud.com](https://www.jdcloud.com/)) and you on matters relating to MongoDB service. By stamping, clicking to confirm on the web page, or other ways to accept the Service Terms, including but not limited to the actual use of MongoDB service of JD Cloud without clicking to confirm the Service Terms, you have reached an agreement with JD Cloud and agreed to accept all agreed contents of the Service Terms. In case of any inconsistency between the text stamped by both parties and the text of Service Terms accepted and confirmed by clicking the web page or other ways, the text stamped by both parties shall prevail.**
+**This Service Terms is a valid agreement between the owner of the JD Cloud website (referred to in this Service Terms as "JD Cloud" website: [www.jdcloud.com](https://www.jdcloud.com/)) and you on matters relating to JCS for MongoDB service. By stamping, clicking to confirm on the web page, or other ways to accept the Service Terms, including but not limited to the actual use of JCS for MongoDB service of JD Cloud without clicking to confirm the Service Terms, you have reached an agreement with JD Cloud and agreed to accept all agreed contents of the Service Terms. In case of any inconsistency between the text stamped by both parties and the text of Service Terms accepted and confirmed by clicking the web page or other ways, the text stamped by both parties shall prevail.**
 
-**For the Service Terms, you are reminded to pay special attention to the restriction and exemption terms, determination and handling terms of JD Cloud on your violations and breach of contract, and the selection terms of jurisdictional courts. Restriction and exemption terms may be indicated in bold or by underline for your attention. You should carefully read the entire contents of the Service Terms before accepting the Service Terms. If you have any questions about the Service Terms, please contact the relevant business department of JD Cloud and JD Cloud will explain the terms to you. If you do not agree on any of the contents of the Service Terms, or cannot accurately understand the interpretation of these terms made by JD Cloud, please do not continue the operation. **
+**For the Service Terms, you are reminded to pay special attention to the restriction and exemption terms, determination and handling terms of JD Cloud on your violations and breach of contract, and the selection terms of jurisdictional courts. Restriction and exemption terms may be indicated in bold or by underline for your attention. You should carefully read the entire contents of the Service Terms before accepting the Service Terms. If you have any questions about the Service Terms, please contact the relevant business department of JD Cloud and JD Cloud will explain the terms to you. If you do not agree on any of the contents of the Service Terms, or cannot accurately understand the interpretation of these terms made by JD Cloud, please do not continue the operation.**
 
 ## **1. Service Content**
 
-1.1 "Services" in the Terms means: JD Cloud provides you with the MongoDB service and related technical and network support services displayed on the website [www.jdcloud.com](https://www.jdcloud.com/).
+1.1 "Services" in the Terms means: JD Cloud provides you with the JCS for MongoDB service and related technical and network support services displayed on the website [www.jdcloud.com](https://www.jdcloud.com/).
 
 ​1.2. The service provided by JD Cloud must comply with the provisions of the Service Terms.
 
@@ -34,7 +34,7 @@ You can select the pay-as-you-go mode. Please refer to the announcement on [www.
 
 3.1 Your Rights and Obligations
 
-**3.1.1 You agree to abide by the Service Terms and the relevant management regulations and procedures provided on the service display page. You understand that the above agreements and regulations may change from time to time. If any contents of the Service Terms is changed, JD Cloud shall prompt you the changes by making announcement on the appropriate page in advance at **[**www.jdcloud.com**](https://www.jdcloud.com/)**. If you disagree with the changes in provisions of the Service Terms made by JD Cloud, you have the right to stop using the services of JD Cloud. In this case, JD Cloud shall settle the service fee (if any) with you, and you shall move out the business data. If you continue to use services of JD Cloud, you are deemed to have accepted the modifications made by JD Cloud to Service Terms.**
+**3.1.1 You agree to abide by the Service Terms and the relevant management regulations and procedures provided on the service display page. You understand that the above agreements and regulations may change from time to time. If any contents of the Service Terms is changed, JD Cloud shall prompt you the changes by making announcement on the appropriate page in advance at**[**www.jdcloud.com**](https://www.jdcloud.com/)**. If you disagree with the changes in provisions of the Service Terms made by JD Cloud, you have the right to stop using the services of JD Cloud. In this case, JD Cloud shall settle the service fee (if any) with you, and you shall move out the business data. If you continue to use services of JD Cloud, you are deemed to have accepted the modifications made by JD Cloud to Service Terms.**
 
 3.1.2 You shall pay the corresponding service fee according to the instructions of JD Cloud on the page and the provisions of the Service Terms.
 
@@ -42,7 +42,7 @@ You can select the pay-as-you-go mode. Please refer to the announcement on [www.
 
 3.1.3.1 If you use the services provided by JD Cloud to conduct operating activities that require the license or approval of the relevant national authorities, you shall obtain the relevant license or approval. including but not limited to the following:
 
-If your website uses MongoDB service to store data, you must ensure that your website is licensed or approved by the relevant national authorities;
+If your website uses JCS for MongoDB service to store data, you must ensure that your website is licensed or approved by the relevant national authorities;
 
 If your website provides non-operating Internet information services, you must fill the non-operating website on the record, and ensure that all the filling information submitted is true and effective, and submit the updated information in the filing system in a timely manner when the filing information changes;
 
@@ -62,9 +62,9 @@ If you are engaged in Internet information services such as news, publishing, ed
 
 3.1.3.3 If the services of JD Cloud involve the license of third-party software, you agree to abide by the relevant license agreement;
 
-3.1.3.4 Do Not Intersperse Email Ads or SPAMs: Do not use the services provided by JD Cloud to intersperse a large number of undesired or uncalled emails, electronic advertising or emails containing reactionary information, pornographic information or other harmful information;
+3.1.3.4 Do not intersperse Email Ads or SPAMs: Do not use the services provided by JD Cloud to intersperse a large number of undesired or uncalled emails, electronic advertising or emails containing reactionary information, pornographic information or other harmful information;
 
-3.1.3.5 The MongoDB service provided by JD Cloud shall not be used as disk space for rent;
+3.1.3.5 The JCS for MongoDB service provided by JD Cloud shall not be used as disk space for rent;
 
 3.1.3.6 Do not use the resources and services provided by JD Cloud to upload, download, store, and release the following information or contents and do not provide any convenience for others to release such information (including but not limited to setting URL, BANNER links, etc.):
 
@@ -100,9 +100,9 @@ If you are engaged in Internet information services such as news, publishing, ed
 
 3.1.6 You shall submit to JD Cloud the contacts who implement the Service Terms and the list of personnel managing products and services on the user network and cloud platform and their and contact information, and shall provide necessary assistance. If the above personnel change, you should update the information online and notify JD Cloud in time. You are responsible for the untrue, inaccurate or incomplete identity information provided by you as well as the consequences caused by the matters above.
 
-**3.1.7 You understand that JD Cloud cannot guarantee that the services it provides are flawless (for example, security products of JD Cloud cannot guarantee the absolute security of your hardware or software), but it promises to improve the service quality and service levels continuously. Therefore, you agree even if the services provided by JD Cloud have defects, the above-mentioned defects are unavoidable due to the technical level in the industry at the time, and it will not be regarded as JD Cloud's default. You agree to cooperate with JD Cloud to solve the above problems. **
+**3.1.7 You understand that JD Cloud cannot guarantee that the services it provides are flawless (for example, security products of JD Cloud cannot guarantee the absolute security of your hardware or software), but it promises to improve the service quality and service levels continuously. Therefore, you agree even if the services provided by JD Cloud have defects, the above-mentioned defects are unavoidable due to the technical level in the industry at the time, and it will not be regarded as JD Cloud's default. You agree to cooperate with JD Cloud to solve the above problems.**
 
-**3.1.8 Data backup is your obligation and responsibility. Although the MongoDB version of JD Cloud may be configured with tools for daily data backup, it does not mean that data backup is the responsibility of JD Cloud. JD Cloud does not guarantee full backup of user data, nor does it assume any responsibility for user data backup work or results.**
+**3.1.8 Data backup is your obligation and responsibility. Although the JCS for MongoDB version of JD Cloud may be configured with tools for daily data backup, it does not mean that data backup is the responsibility of JD Cloud. JD Cloud does not guarantee full backup of user data, nor does it assume any responsibility for user data backup work or results.**
 
 3.2 Rights and Obligations of JD Cloud
 
@@ -114,7 +114,7 @@ If you are engaged in Internet information services such as news, publishing, ed
 
 3.2.2.2 JD Cloud provides a 7×24h online open ticket service system to answer customer questions.
 
-3.2.3 Where the service involves MongoDB version, JD Cloud is responsible only for the operation maintenance at the bottom part of database system and of the software provided by JD Cloud, that is, the related technical architecture and operating system of MongoDB version. The application part above the database is your responsibility.
+3.2.3 Where the service involves JCS for MongoDB version, JD Cloud is responsible only for the operation maintenance at the bottom part of database system and of the software provided by JD Cloud, that is, the related technical architecture and operating system of JCS for MongoDB version. The application part above the database is your responsibility.
 
 3.2.4 JD Cloud will clear the faults caused by non-human factors, except for your reasons and/or force majeure as well as matters excluded in the control scope of JD Cloud.
 
@@ -156,7 +156,7 @@ If you are engaged in Internet information services such as news, publishing, ed
 
 ## **7. Term and Termination**
 
-7.1 The service term is calculated from the date MongoDB is created successfully (not from the date you obtain the password for MongoDB) and is confirmed based on the amount of money you paid.
+7.1 The service term is calculated from the date JCS for MongoDB is created successfully (not from the date you obtain the password for JCS for MongoDB) and is confirmed based on the amount of money you paid.
 
 7.2 The service term shall be terminated in advance in the following circumstances:
 
@@ -166,7 +166,7 @@ If you are engaged in Internet information services such as news, publishing, ed
 
 7.2.3 If you choose a pay-as-you-go service, you should keep your account balance sufficient to ensure continued use of the service. If you fail to fulfill your payment obligations as agreed, JD Cloud will suspend or terminate the service as follows:
 
-**7.2.3.1 You can continue to use the MongoDB service of JD Cloud for 24h from the first arrears; if, 24h later, you still fail to recharge it successfully or the account balance is still not enough to pay the service fees owed, JD Cloud will suspend the service and freeze the operation of the MongoDB version under your account, but still store your data and continue to bill;**
+**7.2.3.1 You can continue to use the JCS for MongoDB service of JD Cloud for 24h from the first arrears; if, 24h later, you still fail to recharge it successfully or the account balance is still not enough to pay the service fees owed, JD Cloud will suspend the service and freeze the operation of the JCS for MongoDB version under your account, but still store your data and continue to bill;**
 
 **7.2.3.2 If you have not recharged successfully and the account balance is insufficient to cover the service fees owed at the expiration time of the 7th day after the service from JD Cloud is suspended (from the time when the suspension of the service is suspended to the expiration of the same time on the 7th day), JD Cloud will terminate the Service Terms and stop providing services for you. Meanwhile, all the data you have saved in JD Cloud will be deleted and cleared and will never be recovered.**
 
@@ -192,7 +192,7 @@ If you are engaged in Internet information services such as news, publishing, ed
 
 9.1 Due to force majeure or other accidents, the performance of this Service Terms becomes impossible, unnecessary or meaningless, and the party suffering from force majeure or accident is not liable.
 
-9.2. Force majeure or accidental events refer to unforeseeable, insurmountable and unavoidable objective events that have a significant impact on one or both parties, including but not limited to natural disasters such as floods, earthquakes, epidemics of plagues, and social events such as war, unrest, government actions, interruption of telecommunications trunk lines, hackers, network path blocking, technical adjustment of telecom department and government regulation.
+9.2. Force majeure or accidental events refer to unforeseeable, insurmountable and unavoidable objective events that have a significant impact on one or both parties, including but not limited to natural disasters such as floods, earthquakes, epidemics of plagues, and social events such as war, unrest, government actions, and interruption of telecommunications trunk lines, hackers, network path blocking, technical adjustment of telecom department and government regulation.
 
 ## **10. Governing Law and Dispute Resolution**
 
@@ -200,10 +200,10 @@ If you are engaged in Internet information services such as news, publishing, ed
 
 10.2 Any dispute arising from the execution of the Service Terms shall be promptly resolved by both parties. When the negotiation fails, either party may file a lawsuit directly to the Daxing District People's Court in Beijing.
 
-## **11. Supplementary **
+## **11. Supplementary**
 
-**11.1 The service description and price description of JD Cloud on relevant page of **[**www.jdcloud.com**](https://www.jdcloud.com/)** and the order page agreed by you are an integral part of the Service Terms. If the service description and price description of JD Cloud on relevant pages of www.jdcloud.com and the order page agreed by you are inconsistent with the Service Terms, the Service Terms shall prevail.**
+**11.1 The service description and price description of JD Cloud on relevant page of**[**www.jdcloud.com**](https://www.jdcloud.com/)**and the order page agreed by you are an integral part of the Service Terms. If the service description and price description of JD Cloud on relevant pages of www.jdcloud.com and the order page agreed by you are inconsistent with the Service Terms, the Service Terms shall prevail.**
 
-**11.2 JD Cloud is entitled to, by announcing at **[**www.jdcloud.com**](https://www.jdcloud.com/)** or notifying you through website or in writing, transfer all or part of the rights and obligations under the Service Terms to JD Cloud's affiliates.**
+**11.2 JD Cloud is entitled to, by announcing at**[**www.jdcloud.com**](https://www.jdcloud.com/)**or notifying you through website or in writing, transfer all or part of the rights and obligations under the Service Terms to JD Cloud's affiliates.**
 
 11.3 If any provisions should remain in existence in nature or otherwise at the termination of the Service Terms, they shall be deemed to be renewed terms, including but not limited to guarantees terms, confidentiality terms, intellectual property terms, governing law and dispute resolution terms.

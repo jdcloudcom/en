@@ -8,7 +8,7 @@ Note: The configuration and instructions in this article have been tested on the
 
 **Problem Description:**
 
-When the client connects to the Linux virtual machine, the command line or secure log displays an error message as follows:
+When the client connects to the Linux VMs, the command line or secure log displays an error message as follows:
 
 *-bash: fork: retry: Resource temporarily unavailable.*
 
