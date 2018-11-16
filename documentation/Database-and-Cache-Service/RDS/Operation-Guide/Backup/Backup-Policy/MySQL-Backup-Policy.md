@@ -12,6 +12,6 @@ JCS for MySQL service instance automatic backup will have a default trigger time
     * Click ***OK*** to complete the modification of backup strategy.
     * Click ***Cancel*** to cancel the modification of backup strategy.
 
-    ![image2018-3-8 11_35_24.png](https://img1.jcloudcs.com/cms/c24d3cf4-4e58-4443-88d8-ee7e278ed42520180308115416.png)
+    ![backup](../../../../../../image/RDS/1109_6.jpg)
 
 4. Click ***OK*** to return to the detail page of backup strategy.

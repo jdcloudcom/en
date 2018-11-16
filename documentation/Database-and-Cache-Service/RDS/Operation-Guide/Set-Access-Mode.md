@@ -12,4 +12,5 @@ The JCS for MySQL/Percona/MariaDB service support both standard mode and high se
 2. Select the target instance requiring to change the access mode, click the target instance, enter the instance detailed page, click on the upper right corner to ***Enable High Security Mode*** (or disable the high security mode), the pop-up window is as shown below.
     * Click ***OK*** to confirm that high security mode is enabled.
     * Click ***Cancel*** to enable the high security mode.
-![image2018-3-9 16_15_26.png](https://img1.jcloudcs.com/cms/091f03bf-2db8-4e80-b24a-5b110b83bce720180319113942.png)
+
+    ![image](../../../../image/RDS/1109_23.jpg)

@@ -15,6 +15,6 @@ A parameter set is required to be specified for launch configuration of the data
     * Name: It is allowed to repeat, while the length and characters of the name have certain limits, which shall be subject to the console.
     * Description: The length and characters of the description have certain limits, which shall be subject to the console.
 
-    ![НиЭМ](../../../../../image/RDS/create-parameter-group.jpg)
+    ![image](../../../../../image/RDS/1109_19.jpg)
 
 4. Click ***OK*** to create the parameter set successfully and return to the list page of the parameter set.

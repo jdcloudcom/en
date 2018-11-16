@@ -15,4 +15,4 @@ When there are problems found in connections or performance in the instance, you
     * Click ***OK*** to reboot the instance.
     * Click ***Cancel*** to cancel the instance rebooting.
     
-![Screenshot](https://img1.jcloudcs.com/cms/0d8ca556-e783-4fa9-ab72-b30652c0251020180423125543.png)
+    ![image](../../../../../../image/RDS/1109_14.jpg)

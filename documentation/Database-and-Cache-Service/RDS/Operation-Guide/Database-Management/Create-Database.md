@@ -9,7 +9,9 @@ Users can create databases through the JCS for MySQL/Pecona/MariaDB service  man
     * Database Name: Please refer to Q&A (https://www.jcloud.com/help/detail/75/isCatalog/1) for the keywords of database name we have reserved, and the length and characters of the database name are limited, which shall be subject to the console.
     * Character Set: In addition to the default `utf8`, more options are provided, including `gbk`, `latin1` and `utf8mb4`, which can be selected as per the demand.
     * Authorized Account: Select an account that requires the access to the authorized database from the authorized accounts, click ***>***, the account will be added to the authorized account list. The default account access to the database is ***read-only***, and it can be modified to ***read/write***.
-![image2018-5-31 19_1_33.png](https://img1.jcloudcs.com/cms/7b7e0221-70e0-402a-bf02-a7dbd3f672c620180531190214.png)
+    
+    ![image](../../../../../image/RDS/1109_12.jpg)
+
 4. Click ***OK*** to complete the database creation and return to the list page for database management.
 
 

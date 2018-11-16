@@ -5,7 +5,9 @@ Multiple RDS service instance indexes can be viewed on the console. Through the 
 1. Login [RDS Management Console](https://rds-console.jdcloud.com/database).
 2. Select the instance that requires to view monitoring information, click the target instance, and enter the instance detailed page.
 3. Select the tag of ***Monitor*** to view the cloud database monitoring items as shown below.
-    ![image2018-3-13 17_48_5.png](https://img1.jcloudcs.com/cms/49763b26-8335-4812-99e8-5ab653aeb36920180319102236.png)
+
+    ![image](../../../../../image/RDS/1109_17.jpg)
+
 4. The monitoring data in the dimension of 1 hour is displayed by default. There are more dimensions available, including 6 hours, 12 hours, 1 day, 3 days, 7 days and 14 days. Users can select in the date range if to view the monitoring data within 30 days.
 
 ## MySQL Monitoring Items
