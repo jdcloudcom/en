@@ -2,7 +2,7 @@
 
 Upon creation of instances, bind the object to be protected, and provide protection.
 
-1. Find out the protection package to be protected, and click ** protection object setting** in the action bar.
+1. Find out the protection package to be protected, and click **protection object setting** in the action bar.
 
 ![防护包列表-防护对象设置](https://github.com/jdcloudcom/cn/blob/Anti-DDoS/image/Anti-DDoS-Protection-Package/防护包列表-防护对象设置.jpg)
 

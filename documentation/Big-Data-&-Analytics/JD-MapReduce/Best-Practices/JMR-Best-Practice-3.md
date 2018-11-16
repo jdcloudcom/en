@@ -1,4 +1,4 @@
-#One-stop Large Data Platform（Alpha）
+#One-stop Large Data Platform (Alpha)
 
 JD MapReduce_BD-OS version 1.0 is a platform-level big data product. The platform provides multi-source heterogeneous data acquisition modules, real-time/offline computing framework, simple and easy-to-use development environment and platform interface, providing big data management, development and computing capabilities, supporting enterprise-level data warehouse, user profiling, knowledge maps , deep learning, text analysis, and more enterprise-level applications.
 

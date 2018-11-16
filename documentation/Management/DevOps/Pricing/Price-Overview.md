@@ -4,6 +4,8 @@ Enterprise version (SaaS version)
 
 DevOps billing is based on the number of machines (Agent). For the number no more than 10 machines, DevOps services are free. For a large number of machines, stepwise pricing will be adopted.
 
+**As Follows**
+
 | number      |    billing |
 | :--------: | :--------:|
 | 0-10 sets  | free for one year |

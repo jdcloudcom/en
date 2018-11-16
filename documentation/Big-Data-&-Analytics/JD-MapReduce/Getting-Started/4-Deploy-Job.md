@@ -18,7 +18,7 @@ This article describes how to deploy job.
  -  Modify: Similar or reconfigured the deployment of the job.
  -  Pause: Pause the deployed job.
  -  Delete: Delete deleted jobs directly.
- -  Mission Details: Click the task name to jump to the task details page and view the execution history.
+ -  Mission Details: Click the task name to jump to the task details page and view the task details.
  -  Executive History: Click the task name to jump to the task details page and view the execution history.
 
 

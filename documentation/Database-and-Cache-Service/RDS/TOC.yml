@@ -255,21 +255,21 @@
       - name: Import JCS for MySQL
         items:
         - name: Import from Local JCS for MySQL
-          href: Best-Practices/Data-Migration/Import-Data-Into-MySQL-Instance/VM-to-MySQL.md
-        - name: Import from VM MySQL
           href: Best-Practices/Data-Migration/Import-Data-Into-MySQL-Instance/Local-to-MySQL.md
+        - name: Import from VM MySQL
+          href: Best-Practices/Data-Migration/Import-Data-Into-MySQL-Instance/VM-to-MySQL.md
       - name: Import JCS for Percona
         items:
         - name: Import from Local Percona
-          href: Best-Practices/Data-Migration/Import-Data-Into-Percona-Instance/VM-to-Percona.md
-        - name: Import from VM Percona
           href: Best-Practices/Data-Migration/Import-Data-Into-Percona-Instance/Local-to-Percona.md
+        - name: Import from VM Percona
+          href: Best-Practices/Data-Migration/Import-Data-Into-Percona-Instance/VM-to-Percona.md
       - name: Import JCS for MariaDB 
         items:
         - name: Import from Local MariaDB
-          href: Best-Practices/Data-Migration/Import-Data-Into-Percona-Instance/VM-to-MariaDB.md
-        - name: Import from VM Percona
           href: Best-Practices/Data-Migration/Import-Data-Into-Percona-Instance/Local-to-MariaDB.md
+        - name: Import from VM Percona
+          href: Best-Practices/Data-Migration/Import-Data-Into-Percona-Instance/VM-to-MariaDB.md
     - name: Restore Backup Files to the Self-built Database
       items:
       - name: Restore Backup Files to the Self-built MySQL

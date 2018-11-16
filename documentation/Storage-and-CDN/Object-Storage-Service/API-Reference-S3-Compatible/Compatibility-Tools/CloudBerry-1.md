@@ -16,9 +16,9 @@ If you have not installed CloudBerry yet, please install the software first (you
 
 Select File->New S3 Compatible Account->S3 Compatible after installation, and the following interface is popped up:
 
-![S3 Compatible](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-070.jpg)
+![S3 Compatible](../../../../../image/Object-Storage-Service/OSS-080.jpg)
 
-Note: Do not check SSL, and use signature revision 4
+Note: Check SSL, and use signature revision 4
 
 After filling in the above information, click Test Connect to check whether it can connect to cloud storage. After confirming connection, click OK to save the account.
 

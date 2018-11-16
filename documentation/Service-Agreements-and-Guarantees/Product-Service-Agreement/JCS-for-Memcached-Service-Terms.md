@@ -2,13 +2,13 @@
 
 **With regards to these Service Terms, you are reminded to pay extra attention on the terms of restriction and exemption, terms of JD Cloud judging and handling your violation and breach of Terms, and the optional terms of the competent court. Limit and exemption terms may be in bold or underlined for highlighting. Please read through these Service Terms carefully before accepting these Service Terms. If you have any questions about the terms of these Service Terms, please contact the relevant business department of JD Cloud to state the inquiry, and JD Cloud will explain the term contents to you. If you do not agree with any of these Service Terms, or cannot accurately understand JD Cloud's interpretation of the Terms, please do not conduct follow-up actions.**
 
-## 1. Service Content
+#### 1. Service Content
 
 1.1 For the purposes of the Terms, “Service" means: JD Cloud provides you with JCS for Memcached service and related technical and network support service as displayed on the website: www.jdcloud.com.
 
 1.2. The services provided by JD Cloud must comply with these Service Terms.
 
-## 2. Service Charge
+#### 2. Service Charge
 
 2.1 The service cost will be listed and shown on your subscription page; you can choose the specific type of service and pay at the listed price.
 
@@ -30,7 +30,7 @@ You pay after use. Please see the page announcement on www.jdcloud.com for the s
 
 2.5 You understand and agree that JD Cloud has the right to unilaterally adjust the charge standard and charging method at any time according to the actual situation without obtaining your prior consent; JD Cloud will make the best efforts within the reasonable scope to notify you in advance of the aforementioned adjustments and changes by the official website announcement, the intra-website notices or the contact information you provided; and the services purchased and paid in full amount before the adjustment date will not be affected.
 
-## 3. Rights and Obligations
+#### 3. Rights and Obligations
 
 3.1 Your Rights and Obligations
 
@@ -105,7 +105,7 @@ You understand and acknowledge that the above list does not exhaust all types of
 
 3.2.5 JD Cloud shall strictly comply with the confidentiality obligation.
 
-## 4. Saving, Destroying and Downloading of User Data
+#### 4. Saving, Destroying and Downloading of User Data
 
 4.1 For the purpose of serving you, JD Cloud may provide services to you by using your data, including but not limited to sending products and service information to you.
 
@@ -121,7 +121,7 @@ You understand and acknowledge that the above list does not exhaust all types of
 
 4.3 Unless otherwise agreed by law and between JD Cloud and you, JD Cloud shall continue to store your data within 7 natural days from the expiration of these Service Terms or the early termination thereof due to any reason, but will no longer keep your data thereafter. You shall bear all the consequences by yourself arising from the destruction of your data.
 
-## 5. Intellectual Property Right
+#### 5. Intellectual Property Right
 
 5.1 You shall ensure that the materials submitted to JD Cloud, the use of JD Cloud services and the consequences of using JD Cloud services do not infringe the legitimate rights and interests of any third party. If a third party files a claim, lawsuit or may file a lawsuit against JD Cloud based on copyright infringement, infringement of rights and interests of a third party or violation of Chinese laws and regulations or other applicable laws, you shall compensate JD Cloud for the costs or losses borne thereby, and JD Cloud shall be completely exempted from any liability.
 
@@ -129,7 +129,7 @@ You understand and acknowledge that the above list does not exhaust all types of
 
 5.3 You acknowledge that the intellectual property rights of any materials, technologies or technical supports, software, services, etc. provided by JD Cloud are owned by JD Cloud or a third party. Except for the express consent of JD Cloud or a third party, you have no right to copy, disseminate, transfer, license or provide others to use the above resources; otherwise you shall bear corresponding responsibilities.
 
-## 6. Confidentiality Clause
+#### 6. Confidentiality Clause
 
 6.1 Confidential information refers to all technical and non-technical information (including but not limited to product information, product plans, prices, financial and marketing plans, business strategies, customer information, customer data, research and development, software and hardware, API application data interface, technical description, design, special formulas, special algorithms, etc.) disclosed by one Party to the other Party.
 
@@ -139,7 +139,7 @@ You understand and acknowledge that the above list does not exhaust all types of
 
 6.4. The Terms does not lose effect due to the termination of these Service Terms.
 
-## 7. Term and Termination
+#### 7. Term and Termination
 
 7.1 The term of service shall start from the date of successful creation of your JCS for Memcached (instead of the date of you obtaining the password of JCS for Memcached); and the term of service shall be confirmed based on the amount of payment that you paid.
 
@@ -159,7 +159,7 @@ You understand and acknowledge that the above list does not exhaust all types of
 
 7.2.5 JD Cloud may terminate these Service Terms by advance announcement on www.jdcloud.com or sending you a private notice or a written notice on the website. At that time, JD Cloud shall refund the amount you have paid but not consumed to your JD Cloud account.
 
-## 8. Liability for Breach of the Agreement
+#### 8. Liability for Breach of the Agreement
 
 8.1 Any Party to these Service Terms shall be liable for breach of Terms in accordance with the law.
 
@@ -173,19 +173,19 @@ You understand and acknowledge that the above list does not exhaust all types of
 
 8.5 JD Cloud's total liability for breach of these Service Terms shall not exceed the total service charge corresponding to the breach service in any cases.
 
-## 9. Force Majeure
+#### 9. Force Majeure
 
 9.1 Where the performance of these Service Terms becomes impossible, unnecessary or meaningless due to force majeure or other accidents, the Party suffering from force majeure or accident shall not be liable.
 
 9.2 Force majeure and accidents are objective events that cannot be foreseen, cannot be overcome and cannot be avoided and have a significant impact on one Party or the Parties, including but not limited to natural disasters such as floods, earthquakes, plague epidemic plagues, and social events such as wars, turmoils, government actions, telecommunication trunk line interruptions, hackers, network congestion, technical adjustments in the telecommunication sector, government regulations, etc.
 
-## 10. Legal Application and Dispute Resolution
+#### 10. Legal Application and Dispute Resolution
 
 10.1 These Service Terms are subject to the jurisdiction of the laws of the People's Republic of China.
 
 10.2 In the event of disputes arising from the performance of these Service Terms, the Parties shall promptly resolve the disputes. When the negotiation fails, either Party may file a lawsuit directly with the People’s Court of Daxing District of Beijing.
 
-## 11. Supplementary Articles
+#### 11. Supplementary Articles
 
 11.1 JD Cloud's service description, price description and the ordering Page you confirm on www.jdcloud.com are an integral part of these Service Terms. If the service description, price description and the order form you agree on the www.jdcloud.com Page are inconsistent with these Service Terms, these Service Terms shall prevail.
 

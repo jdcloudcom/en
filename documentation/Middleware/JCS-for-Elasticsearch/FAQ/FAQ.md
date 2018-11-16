@@ -17,6 +17,7 @@ JCS for Elasticsearch search engine currently supports Elasticsearch version 5.6
 In the process of creating cluster, at least 1 node and up to 25 nodes can be created. It is 3 nodes by default.
 ### The cluster has green, yellow and red statuses; what do they represent respectively
 The health status is a very important monitoring item of the JCS for Elasticsearch cluster, which is used to indicate whether the cluster is working normally generally. The types of health statuses are as follows:
+
 * Green: Indicated by 0 in the cluster status of the cloud monitoring, indicating that all the primary shards and replicas have been assigned, and the cluster is 100% available. The cluster is in the healthiest status. 
 * Yellow: Indicated by 1 in the cluster status of cloud monitoring, indicating that all the primary shards have been shared; but at least one replica is missing, and high availability is weakened to some extent; but the results of data retrieval can still be returned normally. 
 * Red: Indicated by 2 in the cluster status of cloud monitoring, indicating that at least one primary shards (and all its replicas) are missing. At this time, the results of the query are partially missing and there are problems with the cluster. 

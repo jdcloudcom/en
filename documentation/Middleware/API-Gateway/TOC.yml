@@ -84,12 +84,12 @@ items:
     
 - name: Best Practices
   items:
-    - name: Best Practices
-      href: Best-Practices/BestPractices.md
+  - name: Best Practices
+    href: Best-Practices/BestPractices.md
 - name: FAQ
   href: FAQ/faq.md
 - name: Related Resources
   items:
   - name: Document History
-    href: Related-Resources/Document-History.md          
- 
+    href: Related-Resources/Document-History.md 
+    

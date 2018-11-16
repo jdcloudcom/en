@@ -5,6 +5,7 @@ In order to solve the problem of security protection of a local node of users, a
 # Deployment Architecture
 ![Deployment Architecture](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/Best-Practice01.png)<Br/>
 The best practices that meet both requirements of user local business protection and one-click upload-to-cloud linkage protection:
+
 - Secure Dispatching Center of JD Cloud employs unified dispatching of global traffic through DNS resolution.
 - The traffic is cleaned at the user's source station entry when the attack traffic is within the local protection threshold.
 - When the attack exceeds the local protection threshold, the traffic is lead to Advanced Anti-DDoS Pro, cleaned and returned to the user's source station.

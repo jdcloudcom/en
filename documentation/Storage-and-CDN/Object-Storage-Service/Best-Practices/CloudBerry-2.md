@@ -30,7 +30,7 @@ Service point: Fill in [service endpoint of S3 compatible](../../API-Reference-S
 
 Access key, Secret key: AK and SK access to OSS service
 
-Use SSL: Use SSL or not. Do not check this option.
+Use SSL: Use SSL or not. Recommend to check this option.
 
 Use native multipart upload (recommended): Use native multipart upload or not
 

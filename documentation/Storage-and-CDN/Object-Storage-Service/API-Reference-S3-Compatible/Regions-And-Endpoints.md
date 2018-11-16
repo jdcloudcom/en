@@ -6,7 +6,7 @@ Endpoints Names Compatible with S3:
 
 |Endpoints Supporting s3|Region|Protocol|
 |-|-|-|
-|s3.cn-north-1.jcloudcs.com|cn-north-1|http/https|
-|s3.cn-east-1.jcloudcs.com|cn-east-1|http/https|
-|s3.cn-east-2.jcloudcs.com|cn-east-2|http/https|
-|s3.cn-south-1.jcloudcs.com|cn-south-1|http/https|
+|s3.cn-north-1.jcloudcs.com|North China - Beijing(cn-north-1)|http/https|
+|s3.cn-east-1.jcloudcs.com|East China - Suqian(cn-east-1)|http/https|
+|s3.cn-east-2.jcloudcs.com|East China - Shanghai(cn-east-2)|http/https|
+|s3.cn-south-1.jcloudcs.com|South China - Guangzhou(cn-south-1)|http/https|
