@@ -1,10 +1,10 @@
 # Modify Parameter
-The default value of all the parameters in the parameter list is the optimized value by JD Cloud. The parameter running value and the default value in the parameter list of the new parameter set are consistent. The default running value can meet the needs of most application scenarios. Users can modify the parameter running value as required according to their own service scenarios.
+The default value of all parameters in the parameter list is the value optimized by JD Cloud. The running values in the new parameter group and the parameter list are consistent with the default values. The default running value can meet the needs of most application scenarios, and you can modify the parameter running values as needed by your business scenarios.
 
 ## Precautions
-    * The running value of the parameters must be within parameter value ranges.
-    * If the parameters to be modified with no need for restart, the modified parameters will be automatically bound to the database instance after modification.
-    * Parameter groups can be associated with multiple different instances.
+* The running value of parameters must be within the parameter value ranges.
+* If the parameters you modify do not require restart, the parameters modified will be automatically applied to the associated database instance.
+* A parameter group can be associated with multiple different instances.
 
 ## Parameter Description
 * [MySQL 5.6 Parameter Definition](https://dev.mysql.com/doc/refman/5.6/en/server-system-variables.html)
@@ -12,19 +12,20 @@ The default value of all the parameters in the parameter list is the optimized v
 * [Percona 5.7 Parameter Definition](https://dev.mysql.com/doc/refman/5.7/en/server-system-variables.html)
 * [MariaDB 10.2 Parameter Definition](https://mariadb.com/kb/en/library/server-system-variables/)
 
-## Operation Steps
-1. Login [Parameter Set Console](https://rds-console.jdcloud.com/paramgroup/list)
-2. Select the parameter set whose parameters requiring to be modified, click the target parameter set, and enter the detailed page of the parameter set.
-3. Select the Tab page of ***Parameter*** and introduce the meaning of each field in the parameter list:
-    * Parameter Name: The parameter name of each parameter is unique.
-    * Parameter Run Value: The value at which the current parameter is valid.
-    * Parameter Default Value: The parameter value recommended by JD Cloud.
-    * Parameter Value Ranges: The ranges or lists where parameter can be modified.
-    * Restart or Not: It indicates whether the parameters can come into effect with restart and parameter set associating after the parameter running value is modified.
-4. Click ***Edit Parameter ***, and the column of parameter run values in the parameter list becomes editable. At this time, the parameter run value can be modified into an ideal value within the modifiable range.
-5. Click ***Save***, and a pop-up box for parameter modification value will appear after all the parameter running values ​​have been modified. The parameter list containing the modified parameter running values will be list in the pop-up box.
+## Action Steps
+1. Log in [Parameter group Console](https://rds-console.jdcloud.com/paramgroup/list)
+2. Select the target parameter group requiring parameter modification and click the target parameter group to enter the Details Parameter group.
+3. Select tab ***Parameter***. The meaning of each field in the parameter list is as follows:
+    * Parameter name: The name of every parameter is unique.
+    * Parameter running value: Current valid value of parameter.
+    * Parameter default value: Parameter value recommended by JD Cloud.
+    * Parameter value ranges: Range or list supported by parameter for modification.
+    * Restart or not: Indicate that, after the parameter running value is modified, whether restart or parameter group binding is needed or not to take effect.
+4. Click ***Edit Parameter*** to make the column of parameter running value in the parameter list editable. At this time, the parameter running value can be modified to the expected one. Please make sure that the value filled is within the parameter value ranges.
+5. Click ***Save*** after all parameter running values are modified, and then a pop-up box will be popped up for confirming the modification of parameter running values. The pop-up box will list the parameter list in which the parameter running values have been modified.
 
     ![image](../../../../../image/RDS/1109_20.jpg)
-    
-6. Click ***OK*** to complete the modification of the parameters and return to the parameter list page after confirmation.
-7. Select the Tab page of ***Cloud Database***, and it can be seen that the values in the column of ***Parameter Set in Effect*** is changed from ***In Effect*** to ***Synchronizing***, indicating the modified parameters just made are synchronized to the database instance; if the status is changed from ***Synchronizing*** to ***In Effect***, it indicates that the modified parameters have been applied to the database instance.
+
+6. Click ***OK*** after careful confirmation to complete the parameter modification, and return to the parameter list page.
+7. Select tab ***Cloud Database***. You may find that the status of the values in the column of ***Parameter group Validation*** have been changed to ***In Sync*** from ***Valid***, which means that the parameter modification just saved is being synchronized to database instances; and status value changing to ***Valid*** from ***In Sync*** means that parameters modified have been applied to database instances.
+
