@@ -1,0 +1,27 @@
+Please fill in the real name. After completion of real-name verification, here will be replaced with the name used in real-name verification.
+Please fill in the correct enterprise name. After completion of real-name verification, here will be replaced with the enterprise name used in real-name verification.
+XXX is the main contact information that you fill with in JD Cloud, used for receiving JD Cloud business notification and for verifying identity.
+In order to ensure the security of your account and the smoothness of business operation, please associate the JD Cloud contact mailbox as soon as possible.
+Description cannot exceed 20 characters
+Mailbox verified:
+Mobile phone number verified:
+JD Cloud Real-name Verification
+View/Edit members
+Switch mobile
+New Purchase
+JD Wanxiang
+Cloud Ding
+JD Wanxiang
+Full Refund
+Are you sure to cancel the order?
+Unit Price
+Please complete the order payment in time, or the system will cancel the order automatically on [xx-xx-xxxx].
+Save RMB XXX
+Frequency
+Configuration
+Traffic
+Coupon Exchange Code
+If the picture is unclear, click to refresh
+There is no purchases record in this month
+Savings (Savings Card)
+Credit (Credit Card)
