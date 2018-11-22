@@ -1,6 +1,6 @@
 [
 	{
-		"txt":"{\"operator\":\"yangmu\",\"floorName\":\"banner\",\"name\":\"banner\",\"data\":[{\"title\":\"Oracle 迁移上云\",\"description\":\"京东云推出Oracle上云解决方案，为企业上云提供了稳定、高效，安全的平台支撑。\",\"imageUrl\":\"//jdcloud-portal.oss.cn-north-1.jcloudcs.com/www.jcloud.com/a54a8ab7-dc7e-4a33-8c8d-54877131c10620181113113248.png\",\"backgroundColor\":\"#1a284f\",\"buttonMetas\":[],\"tagMetas\":[]}]}",
+		"txt":"{\"operator\":\"yangmu\",\"floorName\":\"banner\",\"name\":\"banner\",\"data\":[{\"title\":\"Oracle 上云\",\"description\":\"京东云推出了Oracle上云解决方案，助力企业数字化转型，为企业Oracle业务系统上云提供稳定、高效，安全的平台支撑\",\"imageUrl\":\"//jdcloud-portal.oss.cn-north-1.jcloudcs.com/www.jcloud.com/a54a8ab7-dc7e-4a33-8c8d-54877131c10620181113113248.png\",\"backgroundColor\":\"#1a284f\",\"buttonMetas\":[],\"tagMetas\":[]}]}",
 		"templet":"11",
 		"id":"326",
 		"solution_id":"76"
