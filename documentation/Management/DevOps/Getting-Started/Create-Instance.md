@@ -4,16 +4,23 @@ As the foundation of compilation construction, online release, intelligent monit
 
 **Operation steps**
 
-1. Select “Configure Management-Service Tree” from the menu on the menu bar, expand the Service Tree structure at the left side, when the mouse hovers the node of “department/product line/system”, “add product line/add system/add application” will display on the back of current node.
+1. Click **Configuration Management** in the menu bar and enter the “Service Tree”. Please refer to the Service Tree on the left side.
 
-2. Click it to enter Add Service Tree Node page for basic settings and role settings, then save the settings.
+The Service Tree template will be automatically created for the first use.
+
+
+Next, please set the role for nodes of each level of the Service Tree (system, department, product line, system and application).
+
+2. Click the node with the name of Service Tree, set the role and save.
 
 The roles are shown as below:
 
-Department: department principal, department operation and maintenance principal
+Department: Person in charge, operation and maintenance personnel and developer
 
-Product line: product line principal, product line operation and maintenance, product line development
+Product Line: Person in charge, operation and maintenance personnel and developer
 
-System: operation and maintenance, test, product and system level development
+System: Person in charge, operation and maintenance personnel, developer, tester and product specialist
 
-Application: operation and maintenance, development
+Application: Person in charge, operation and maintenance personnel and developer
+
+

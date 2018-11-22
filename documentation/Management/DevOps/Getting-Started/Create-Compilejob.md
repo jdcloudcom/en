@@ -4,15 +4,24 @@ Create compilation construction task to start code compilation.
 
 **Operation steps**
 
-1. Select one application in the Service Tree at the left side, select “Continuous Delivery-Compilation Construction” from the menu in the navigation bar, click “New Construction” button to set basic information of compilation construction. 
+1. Select one application in the Service Tree on the left side, select “Continuous Delivery-Compilation and Construction” in the menu bar, click **New Construction** to set basic information of compilation and construction.
 
-- Git code address: enter the source code address, example codes can be entered here
-- Code branch: select code branch to be compiled
-- Construct image: select compilation environment, new it supports Java, golang, node, static_resource and other compilation environments
-- Construction method: it supports build.sh and makefile
+![Alt text](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Starting8.png)
+
+
+- Git code address: enter the source code address, example codes can be entered herettps://code.jdcloud.com/devops-demo/java-demo.git
+- Module Name: The default name is acceptable.
+- Code Branch: Please complete master
+- Image Construction: official library/maven 3.5.0-jdk-8u20
+- Construction Method: Support build.sh
 - Trigger conditions: construct manually or trigger compilation construction automatically when submitting codes to branch(es)
 - Revision rules: provide revision naming rules and archive them to the revision library
+- Upload position for construction: Please select the position as the same as that of the Virtual Machines.
 
 Here, it also supports to set construction parameters, message notification, webhook, LFS, cache compilation workspace and other functions
 
-2. After saving, enter the compilation construction list, click “Construct Now” to perform compilation construction operation. If the construction is successful, module revision with compiled construction can be seen in Module-View Revision.
+2. After saving, enter the compilation construction list, click **Construct Now** to perform compilation and construction operation.
+
+![Alt text](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Starting9.png)
+
+If the construction is successful, module version compiled and constructed can be seen in Module-View Version.

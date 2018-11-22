@@ -80,3 +80,5 @@ items:
     href: DDoS-Protection-Package-Terms-Of-Service.md
   - name: Service Grade Protocol of Anti-DDoS Protection Package (SLA)
     href: DDoS-Protection-Package-Terms-Of-Service-SLA.md
+  - name: JCS for Elasticsearch Service Terms
+    href: JCS-for-Elasticsearch-Service-Terms.md

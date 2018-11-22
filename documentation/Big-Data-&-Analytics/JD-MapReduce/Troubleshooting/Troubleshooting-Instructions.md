@@ -7,13 +7,13 @@ JD MapReduce cluster nodes support two types of user access, web interface login
 
 1. After the JD MapReduce cluster is created, the Hadoop/Spark related services are started by default. You can directly access the WebUI of the Hadoop-related service through the browser through the associated public IP address plus the service port.
 
-2. Assume that the cluster Master Web access address is as follows:
+2. For example, the access address for cluster Master Web is as follows::
 * Public network IP: 116.196.66.247
 * Port: Use the corresponding port according to different applications
 * Common Application Access Portal: HDFS 
 * Web Management: 116.196.66.247:50070 
  (Currently only access ports 22 and 8080, need to access other ports, please go to the network ACL settings)
-
+ 
 3. When JD MapReduce creates a cluster, it creates and binds a firewall to you by default. If there is a problem with access, please check
 * Whether the internal IP address and public IP address of the master node are correctly bound.
 * Whether the application service configuration such as Hadoop/Spark is modified. If it is modified, please use the modified port for access. 
@@ -30,8 +30,8 @@ Log in with the Telnet password you set when you created the cluster.
 
 3. When JD MapReduce creates a cluster, it creates and binds a firewall by default. If there is a problem with login, please check it.
 
-1) Whether the internal IP address and public IP address of the master node are correctly bound. 
-2) Whether the JD MapReduce default firewall policy has been modified, such as whether the corresponding port has been modified.
+* Whether the internal IP address and public IP address of the master node are correctly bound. 
+* Whether the JD MapReduce default firewall policy has been modified, such as whether the corresponding port has been modified.
 
 ###  Common Commands
 1. Run the following command to switch users.

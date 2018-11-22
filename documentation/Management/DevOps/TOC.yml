@@ -18,7 +18,7 @@
       - name: Restrictions
         href: Introduction/Restrictions.md
       - name: Application Scenarios
-        href: Introduction/Application-Scenarios.md
+        href: Introduction/Application-Scenarios.md    
   - name: Pricing
     items:
       - name: Billing Overview
@@ -28,7 +28,7 @@
       - name: Price Overview
         href: Pricing/Price-Overview.md
       - name: Purchase Process
-        href: Pricing/Purchase-Process.md
+        href: Pricing/Purchase-Process.md 
       - name: Renew-Process
         href: Pricing/Renew-Process.md
   - name: Getting Started
@@ -53,30 +53,31 @@
         href: Operation-Guide/Operation-Instruction.md
       - name: Get to Know the Main interface of DevOps
         href: Operation-Guide/Introduction-index.md
-      - name: Configure Management
-        href: Operation-Guide/Configuration-Management.md
-      - name: Continuous Delivery
-        href: Operation-Guide/CICD.md
+      - name: Service Tree
+        href: Operation-Guide/Service-Tree.md
+      - name: Resource Pool
+        href: Operation-Guide/Resource-Pool.md
+      - name: Specification Template
+        href: Operation-Guide/Specification-Templates.md
+      - name: Edit and construct
+        href: Operation-Guide/CI.md
+      - name: On-line release
+        href: Operation-Guide/CD.md
+      - name: Arrange on-line
+        href: Operation-Guide/Arrange-Online.md
       - name: Intelligent Monitoring
         href: Operation-Guide/Monitoring.md
-      - name: Operation and Maintenance Tool
-        href: Operation-Guide/Operation-Task.md
+      - name: Container Registry
+        href: Operation-Guide/Image-Packaging.md
+      - name: Script Management
+        href: Operation-Guide/Script.md
+      - name: File Distribution
+        href: Operation-Guide/File-Distribution.md
       - name: Account Management
         href: Operation-Guide/Account-management.md
-  - name: Best Practices
-    items:
-      - name: Continuous Delivery
-        href: Best-Practices/CICD.md
-      - name: Intelligent Monitoring
-        href: Best-Practices/Monitoring.md
-  - name: Tutorial
-    status: 0
-    items:
   - name: Troubleshooting
     items:
-      - name: Problems of Fault Class
-        href: Troubleshooting/Troubleshooting.md
-      - name: Problems of Configuration Class
+      - name: Configuration Questions
         href: Troubleshooting/Configuration.md
   - name: FAQ
     href: FAQ/FAQ.md
@@ -87,14 +88,12 @@
   - name: User Agreement
     items:
       - name: Terms of Service
-        href: User-Agreements/Product-Terms-of-Service.md
+        href: User-Agreements/Product-Terms-of-Service.md                 
       - name: SLA
-        href: User-Agreements/SLA.md
+        href: User-Agreements/SLA.md               
   - name: Related Resources
     items:
       - name: Document History
-        href: Related-Resources/Document-History.md
-      - name: ICP Filing
-        href: Related-Resources/Filing.md
+        href: Related-Resources/Document-History.md                
       - name: Glossary
-        href: Related-Resources/Glossary.md
+        href: Related-Resources/Glossary.md           

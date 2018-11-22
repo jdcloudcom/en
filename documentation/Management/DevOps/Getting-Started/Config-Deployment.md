@@ -2,26 +2,34 @@
 
 Release the compiled program packages to Virtual Machine.
 
-**Notes**
-
-Compilation construction relates to online release via module group. Only by associating them, program package revision compiled by belonged module can be selected when online
-
 **Operation steps**
 
-1.Basic Settings
+1. Basic Settings
 
-Select one application in the Service Tree at the left side, select “Continuous Delivery-Online Release” from the menu to enter “Online” page. Click “Basic Settings” subpage to set executive account and associate the application with belonged module(s)
+Select an application of the service tree on the left side, select menu “Continuous Delivery-Online Launch”, log in the “Basic Setting” page and click **Set**.
 
-2.Group Settings
-Click “Configuration” on the “Group Settings” page to set configuration files and environmental variables for each group. 
+![Alt text](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Starting10.png)
 
-![image](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Getting-Started3.png) 
+Set executing account and associate the application with the module(s).
+
+- Executive Account: Root
+- Port: 8080
+- Module: devops-demo/java-demo
+
+Note: Compilation and construction are related to on-line release via modules. Only by associating them, program package version compiled by the module can be selected when on-line.
+
+2. Group Settings
+
+Click **Configuration** of a specified group on the [Group Setting] page to set configuration files and environmental variables for each group. 
+
+Here, the example code does not require configuration.
 
 3.Online
 
-Select the group(s) to be online on the “online” page and set online concurrence and time-out period. Select package revision to be online for online release. On the “Online Dynamic” page, you can view online details and perform rollback operation.
+Select the group(s) to be online on the "online" page and set online concurrence and time-out period. Select package revision to be online for online release. On the “Online Dynamic” page, you can view online details and perform rollback operation.
 
-![image](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Getting-Started4.png)
+![Alt text](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Starting11.png)
+
 
 Then, the basic online release is completed.
 

@@ -1,6 +1,8 @@
 # Install super Agent in the Virtual Machine
 
-Super Agent shall be installed in the Virtual Machine for deployment and management. The specific methods for installing Agent are shown as below:
+In the Virtual Machine, you need to install the super Agent for deployment and use management.
+
+According to the different virtual machine regions, select different install commands, with specific methods as follows::
 
 ```
 #cn-north-1:

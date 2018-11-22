@@ -89,10 +89,32 @@ export PKG_CONFIG_PATH=/usr/lib/pkgconfig:/usr/lib64/pkgconfig/
 ldconfig
 ```
 
-2. When mounting Object Storage Service with the s3fs-fuse tool and copying files with cp commands, the following solutions can be taken when the file mime-type is modified:
+2. If Mac OS is used to install S3fs, please refer to the following steps:
+
+```
+git clone https://github.com/s3fs-fuse/s3fs-fuse.git
+cd s3fs-fuse
+./autogen.sh
+./configure --prefix=/usr/local
+PKG_CONFIG_PATH="/usr/local/opt/openssl/lib/pkgconfig:/usr/local/opt/libxml2/lib/pkgconfig"
+make
+sudo make install
+```
+
+Note: --prefix=/usr/local is not required; PKG_CONFIG_PATH is required, /usr/local/ shall be replaced with the user’s local path.
+
+If you use non-root account when mounting the Bucket via Mac OS, please specify uid and gid of current account when the mount command is specified. Examples are as follows:
+
+```
+sudo s3fs bucketname /new -o passwd_file=~/.passwd-s3fs -o url="http://s3.cn-north-1.jcloudcs.com" -o uid=11111 -o gid=11111
+```
+
+3. When mounting Object Storage Service with the s3fs-fuse tool and copying files with cp commands, the following solutions can be taken when the file mime-type is modified:
 
 - Use the `cp` command to copy files; the actions carried by the `s3fs-fuse` tool on the bottom are dependent on the file `/etc/mime.types` and the file determines the mime-type attribute of the `cp` command target file.
 
 - By default, the centos7 revision of JD Cloud does not contain the `/etc/mime.types` file. Thus, it needs to obtain such file by copying or installing httpd and the installation command is yum install httpd.
 
 - For catalogs mounted by the `s3fs` command, it needs use `umount` command at first and the command will take effect once the `s3fs` command is executed once again.
+
+4. If you enable static website hosted before using S3fs to mount Bucket, the mount will fail; if you enable static website hosted after using S3fs to mount Bucket, the file operation will be invalid.
