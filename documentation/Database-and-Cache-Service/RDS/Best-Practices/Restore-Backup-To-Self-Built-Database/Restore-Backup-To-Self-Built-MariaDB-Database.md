@@ -5,7 +5,7 @@ You can recover the instance backup of JCS for MariaDB to self-created database.
 * The version of self-created database needs to be consistent with that of source database of backup file.
 * The backup unzip software only supports execution under Linux.
 * The system dependences of decompression tool are: openssl, gzip, tee, python (version>=2.7).
-* Percona xtrabackup >= 2.4 has been installed on the current system; If it is not installed, see [Official manual] (https://www.percona.com/doc/percona-xtrabackup/2.4/index.html).
+* Percona xtrabackup >= 2.4 has been installed on the current system; If it is not installed, see [Official manual](https://www.percona.com/doc/percona-xtrabackup/2.4/index.html).
 
 ## Operation Description
 1. Install environmental dependence, see precautions

@@ -40,7 +40,7 @@ The protection package effectively resists various mass-traffic DDoS attacks, no
 
 ## Related References
 
-- [Product Overview] (../Introduction/Product-Overview.md)
+- [Product Overview](../Introduction/Product-Overview.md)
 - [Product specification](../Introduction/Specification.md)
 - [Price overview](../Pricing/Price-Overview.md)
 

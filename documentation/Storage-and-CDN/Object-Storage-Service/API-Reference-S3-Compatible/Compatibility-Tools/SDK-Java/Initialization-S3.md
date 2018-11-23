@@ -4,7 +4,7 @@ You can create S3Client to manage OSS resources such as bucket and file. To use 
 
 ## Determine Endpoint
 
-Please read “Basic Concept” - [Access to the domain name] (https://docs.jdcloud.com/cn/object-storage-service/regions-and-endpoints) to learn about relevant concepts of Endpoint.
+Please read “Basic Concept” - [Access to the domain name](https://docs.jdcloud.com/cn/object-storage-service/regions-and-endpoints) to learn about relevant concepts of Endpoint.
 
 ## Configure the Secret Key
 

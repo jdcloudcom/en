@@ -3,7 +3,7 @@ Anti-DDoS protection package provides abundant safe reports, helping you know th
 
 ## Action Steps
 ### Method 1
-Log in anti-DDoS protection package [monitoring report] (https://antiddos-console.jdcloud.com/gz/ddos/protection-monitor-list) page. The menu bar location is as follows:
+Log in anti-DDoS protection package [monitoring report](https://antiddos-console.jdcloud.com/gz/ddos/protection-monitor-list) page. The menu bar location is as follows:
 
 ![防护包-监控报表菜单](https://github.com/jdcloudcom/cn/blob/Anti-DDoS/image/Anti-DDoS-Protection-Package/防护包-监控报表菜单.png)
 

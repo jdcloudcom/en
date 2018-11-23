@@ -4,7 +4,7 @@
 
 Click the instance name to enter Instance page, select **Database Management** page, and click **Create Database****
 
-! [DB List] (../../../../../image/DRDS/db-list.png)
+![DB List](../../../../../image/DRDS/db-list.png)
 
 
 **2. Enter relevant information of database**
@@ -21,4 +21,4 @@ All JCS for MySQL instances under VPC in the DRDS will be listed, DRDS will auto
 
 Users need not to create each sub-database on MySQL by manual
 
-! [Create Database 1] (../../../../../image/DRDS/create-db-1.png)
+![Create Database 1](../../../../../image/DRDS/create-db-1.png)

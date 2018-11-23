@@ -4,7 +4,7 @@
 
 Click the instance name to enter Instance page, select **Account Management** page, click **Modify Permission****
 
-! [Account List](../../../../../image/DRDS/account-list.png)
+![Account List](../../../../../image/DRDS/account-list.png)
 
 
 
@@ -12,4 +12,4 @@ Click the instance name to enter Instance page, select **Account Management** pa
 
 Set Permission Information of Account
 
-! [Modify Permission] (../../../../../image/DRDS/grant-privilege.png)
+![Modify Permission](../../../../../image/DRDS/grant-privilege.png)

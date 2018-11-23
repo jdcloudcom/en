@@ -20,7 +20,7 @@ Taking the CentOS 7.4 system for example for Linux, action steps are as follows:
 4. Enter:
 ```ll /dev/disk/by-id```
 	
-5. virtio-Ephemeral\_Disk\_1 to virtio-Ephemeral\_Disk\_4 are the four corresponding local data disks, as shown below <br>! [](../../../../../image/vm/localdatadisklinux.png)
+5. virtio-Ephemeral\_Disk\_1 to virtio-Ephemeral\_Disk\_4 are the four corresponding local data disks, as shown below <br>![](../../../../../image/vm/localdatadisklinux.png)
 
 ### Windows System
 
@@ -34,7 +34,7 @@ Taking the standard edition of Windows, Windows 2008, for example, the action st
 diskdrive get PNPDeviceID,SerialNumber
 ```
 	
-5. Ephemeral\_Disk\_1 to Ephemeral\_Disk\_4 are the four corresponding local data disks, as shown below <br>! [](../../../../../image/vm/localdatadiskwin.png)
+5. Ephemeral\_Disk\_1 to Ephemeral\_Disk\_4 are the four corresponding local data disks, as shown below <br>![](../../../../../image/vm/localdatadiskwin.png)
 
 ## Related References
 

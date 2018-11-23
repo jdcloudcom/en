@@ -4,7 +4,7 @@
 
 **Method II**:Enable through the official website y self-service, the steps are as follows:
 
-1. Log in [JD Cloud Console](https://uc.jdcloud.com/login?returnUrl=https%3A%2F%2Fconsole.jcloud.com%2F), click the upper right corner**Ticket**--**Open Ticket**, Select**CDN**, enter the Ticket! [image.png](https://img1.jcloudcs.com/cms/5d201353-26ce-44ee-b36f-3447cd41c4b120180117161308.png)
+1. Log in [JD Cloud Console](https://uc.jdcloud.com/login?returnUrl=https%3A%2F%2Fconsole.jcloud.com%2F), click the upper right corner**Ticket**--**Open Ticket**, Select**CDN**, enter the Ticket![image.png](https://img1.jcloudcs.com/cms/5d201353-26ce-44ee-b36f-3447cd41c4b120180117161308.png)
 
 2. Select **Permission Application**, submit "Enable open api service" request.
 

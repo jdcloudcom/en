@@ -4,7 +4,7 @@
 
 Click instance name to enter Instance page, select **Account Management** page, click corresponding ** Delete** after delete account**
 
-! [Account List](../../../../../image/DRDS/account-list.png)
+![Account List](../../../../../image/DRDS/account-list.png)
 
 
 **3. Confirm to Delete**

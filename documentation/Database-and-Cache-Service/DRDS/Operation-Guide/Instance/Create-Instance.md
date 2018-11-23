@@ -4,7 +4,7 @@
 
 The current page will display the summary information of each DRDS instance under current region, including billing information, expiration time, etc. Click **New** to create a DRDS instance.
 
-! [Instance List] (../../../../../image/DRDS/instance_list.png)
+![Instance List](../../../../../image/DRDS/instance_list.png)
 
 **2. Select instance configuration information**
 
@@ -20,7 +20,7 @@ Enter instance name and select the virtual private cloud where DRDS is located a
 
 DRDS can only be created in the virtual private cloud. If the user has no virtual private cloud and subnet, the user can create virtual private cloud and subnet through the links of **New Virtual Private Cloud** and **New Subnet**. After creation completion, click **Refresh** to view the created virtual private cloud and the subnet.
 
-! [Instance Configuration] (../../../../../image/DRDS/create-instance.png)
+![Instance Configuration](../../../../../image/DRDS/create-instance.png)
 
 4. Select Purchase Duration:
 
@@ -30,13 +30,13 @@ If monthly package method is adopted, please select purchase duration.
 
 After information entering completion, it can click the price information on the right side of the page and click **Buy Now****
 
-! [Confirm purchase] (../../../../../image/DRDS/create-instance-2.png)
+![Confirm purchase](../../../../../image/DRDS/create-instance-2.png)
 
 **6. Pay Order**
 
 Then enter order confirmation page, click **Pay Now** after confirming the correctness of purchase information**
 
-! [Pay order] (../../../../../image/DRDS/create-instance-3.png)
+![Pay order](../../../../../image/DRDS/create-instance-3.png)
 
 **7. Instance Pending**
 

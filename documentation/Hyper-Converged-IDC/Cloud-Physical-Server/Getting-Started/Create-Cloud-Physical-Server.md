@@ -4,4 +4,4 @@
 
 - Select the region and availability zone, click the "Create" button, and jump to the creation page.
 
-! [Creating Page] (https://github.com/jdcloudcom/cn/blob/edit/image/Hyper-Converged-IDC/Cloud-Physical-Server/CPS011.png)
+![Creating Page](https://github.com/jdcloudcom/cn/blob/edit/image/Hyper-Converged-IDC/Cloud-Physical-Server/CPS011.png)

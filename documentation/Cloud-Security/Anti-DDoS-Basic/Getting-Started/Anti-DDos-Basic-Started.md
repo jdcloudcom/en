@@ -10,12 +10,12 @@
 
 a. Confirming method of Elastic IP:
 
-Please log in JD Cloud [Elastic IP Console] (http://cns-console.jdcloud.com/host/pip/list) and the console directory "Network -> Virtual Private Cloud -> EIP" to confirm if the Elastic IP is added.
-! [Create Elastic IP Instance] (https://github.com/jdcloudcom/cn/blob/Anti-DDoS/image/Basic%20Anti-DDos/instance%2003.png)
+Please log in JD Cloud [Elastic IP Console](http://cns-console.jdcloud.com/host/pip/list) and the console directory "Network -> Virtual Private Cloud -> EIP" to confirm if the Elastic IP is added.
+![Create Elastic IP Instance](https://github.com/jdcloudcom/cn/blob/Anti-DDoS/image/Basic%20Anti-DDos/instance%2003.png)
 
 b. Confirming method of Cloud Physical Server:
 
-Please log in JD Cloud [Cloud Physical Server Console] (http://cps-console.jdcloud.com/list) and the console directory "Hyper-Converged IDC -> [Cloud Physical Server" to confirm that the instances are added.
+Please log in JD Cloud [Cloud Physical Server Console](http://cps-console.jdcloud.com/list) and the console directory "Hyper-Converged IDC -> [Cloud Physical Server" to confirm that the instances are added.
 
 
 2. Switch to the Anti-DDoS Basic under the Cloud Security menu. The Elastic IP or Cloud Physical Server IP bought by you has been automatically added to the Anti-DDoS Basic.

@@ -12,7 +12,7 @@ Offline remittance is a payment product supporting users to recharge the JD Clou
 
 1) When remitting, please make a note of remittance identification code to ensure that the receipts can be timely cancelled after verification. Please confirm the correctness of identification code; do not add other explanatory notes;
 
-2) You must fill in the remittance identification code in the fields of [Remittance Purpose], [Postscript] (for the notes of different banks are different, it is better to fill in the remittance identification code in all places that can fill in note.
+2) You must fill in the remittance identification code in the fields of [Remittance Purpose], [Postscript](for the notes of different banks are different, it is better to fill in the remittance identification code in all places that can fill in note.
 
 3) One identification code is corresponding to one recharge order and amount, please transfer with the correct amount;
 

@@ -4,7 +4,7 @@ Binding key pair refers to injecting the public key of the key pair into the cor
 
 The current console only supports you to bind key pair when you create instance or rebuild for the instance. For details, please refer to [Create Instance](../Instance/Create-Instance.md) and [Rebuild](.. /Instance/Rebuild-Instance.md).
 
-In addition, you can also configure the key pair on your own to login instance and refer to [SSH Login Configuration] (../../Linux-Troubleshooting/Configuration-Class/SSH-creation-and-login.md).
+In addition, you can also configure the key pair on your own to login instance and refer to [SSH Login Configuration](../../Linux-Troubleshooting/Configuration-Class/SSH-creation-and-login.md).
 
 ## Related Reference
 

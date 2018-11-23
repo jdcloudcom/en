@@ -15,5 +15,5 @@ Enjoy IP package alone, and add IP to be protected at the place of modifying the
 ![独享IP-防护对象变更](https://github.com/jdcloudcom/cn/blob/Anti-DDoS/image/Anti-DDoS-Protection-Package/独享IP-防护对象更改.png)
 
 ## Related References
-- [Create Instance] (Create-Instance.md)
+- [Create Instance](Create-Instance.md)
 

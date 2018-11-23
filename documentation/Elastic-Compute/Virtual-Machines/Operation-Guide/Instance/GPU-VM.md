@@ -9,13 +9,13 @@ Take Windows 2008 R2 data center version as an example, the steps to install the
 
 * Get GPU Driver Installation Package:
 	* Enter [NVIDIA official website](https://www.nvidia.com/Download/Find.aspx);
-	* Manually look up the drive program applicable for the instance, and click **search**. The filter information description is explained as follows. <br>! [](../../../../../image/vm/GPUdriver1.png)
-	* After confirmation, click **Download**, the figure below is the snapshot of Windows Server 2008 R2 Driver. <br>! [](../../../../../image/vm/GPUdriver2.png)
+	* Manually look up the drive program applicable for the instance, and click **search**. The filter information description is explained as follows. <br>![](../../../../../image/vm/GPUdriver1.png)
+	* After confirmation, click **Download**, the figure below is the snapshot of Windows Server 2008 R2 Driver. <br>![](../../../../../image/vm/GPUdriver2.png)
 * Install GPU Driver:
 	* In Windows system, double-click directly to install GPU Driver.
 * GPU Driver Verification
-	* Before installing the GPU driver, the display card information in the device manager is “3D Video Controller”, which is shown in the following figure <br>! [](../../../../../image/vm/GPUdriver3.png)
-	* After successful installation of GPU display card driver, the display card will be displayed in the “Display Adapter” drawer, which is shown in the following figure <br>! [](../../../../../image/vm/GPUdriver4.png)
+	* Before installing the GPU driver, the display card information in the device manager is “3D Video Controller”, which is shown in the following figure <br>![](../../../../../image/vm/GPUdriver3.png)
+	* After successful installation of GPU display card driver, the display card will be displayed in the “Display Adapter” drawer, which is shown in the following figure <br>![](../../../../../image/vm/GPUdriver4.png)
 
 ### Linux System
 
@@ -23,8 +23,8 @@ Take CentOS7.4 as an example, the steps to install the GPU driver are as follows
 
 * Get GPU Driver Installation Package:
 	* Enter [NVIDIA official website](https://www.nvidia.com/Download/Find.aspx);
-	* Manually look up the drive program applicable for the instance, and click **search**. The filter information description is explained as follows. <br>! [](../../../../../image/vm/GPUdriver5.png)
-	* After confirmation, click **Download**, the figure below is the snapshot of CentOS7.4 Driver. <br>! [](../../../../../image/vm/GPUdriver6.png)
+	* Manually look up the drive program applicable for the instance, and click **search**. The filter information description is explained as follows. <br>![](../../../../../image/vm/GPUdriver5.png)
+	* After confirmation, click **Download**, the figure below is the snapshot of CentOS7.4 Driver. <br>![](../../../../../image/vm/GPUdriver6.png)
 	* In centos7.4, the above driver can be directly downloaded through the following commands, wherein the download link can be obtained by right-clicking the download button in the figure above:
 	
 `wget http://cn.download.nvidia.com/tesla/396.44/NVIDIA-Linux-x86_64-396.44.run`
@@ -51,7 +51,7 @@ After installation, the indication is as shown below:
 	# Chmod +x NVIDIA-Linux-x86_64-396.44.run
 	# ./ NVIDIA-Linux-x86_64-396.44.run
 ```
-The correct installation is shown as follows: <br>! [](../../../../../image/vm/GPUdriver7.png)<br>! [](../../../../../image/vm/GPUdriver8.png)<br>! [](../../../../../image/vm/GPUdriver9.png)<br>
+The correct installation is shown as follows: <br>![](../../../../../image/vm/GPUdriver7.png)<br>![](../../../../../image/vm/GPUdriver8.png)<br>![](../../../../../image/vm/GPUdriver9.png)<br>
 * GPU Driver Verification
 	* Please run nvidia-smi after completing installation. Installation is successfully done, if the following picture is shown. ![](../../../../../image/vm/GPUdriver10.png)
 	

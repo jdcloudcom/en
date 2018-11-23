@@ -3,7 +3,7 @@
 
 **Steps of Create Working Node Group:**
 
- 1. Open the console and select [Elastic Compute>>JCS for Kubernetes>>Cluster Service>>Work Node Group] (https://cns-console.jdcloud.com/host/nodeGroup/list) and click the Create button.  
+ 1. Open the console and select [Elastic Compute>>JCS for Kubernetes>>Cluster Service>>Work Node Group](https://cns-console.jdcloud.com/host/nodeGroup/list) and click the Create button.  
   ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/JCS-for-Kubernetes/新建工作节点组.png)
  2. Select the cluster and all available clusters in the current region will be listed in the pull-down list;
  3. Image: Only the working node image customized by JD Cloud is supported.

@@ -4,7 +4,7 @@
 
 Click the instance name to enter Instance page, select **Database Management** page, click corresponding **Delete** after delete database**
 
-! [Instance List](../../../../../image/DRDS/db-list.png)
+![Instance List](../../../../../image/DRDS/db-list.png)
 
 **3. Confirm to Delete**
 

@@ -10,7 +10,7 @@ The kubectl version can be the same as the cluster version, or the cluster versi
 
 ## 2. Install and set the kubectl client
 
-Open the [Kubernetes Version Page] (https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG-1.8.md), find the client binaries (aka kubectl), select the client for the corresponding operating system, and then copy the link address.
+Open the [Kubernetes Version Page](https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG-1.8.md), find the client binaries (aka kubectl), select the client for the corresponding operating system, and then copy the link address.
 
 For example, select kubectl version 1.8.12 with the link address of https://dl.k8s.io/v1.8.12/kubernetes-client-linux-amd64.tar.gz ：
 

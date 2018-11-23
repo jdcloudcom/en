@@ -16,7 +16,7 @@ Login DRDS (not JCS for MySQL) with client tool, connect corresponding database 
 
 Click the instance name to enter Instance page, select **Table Management** under **Database Management**, click **Delete** link on the right side
 
-! [Table List] (../../../../../image/DRDS/table-list.png)
+![Table List](../../../../../image/DRDS/table-list.png)
 
 **3. Confirm to Delete**
 

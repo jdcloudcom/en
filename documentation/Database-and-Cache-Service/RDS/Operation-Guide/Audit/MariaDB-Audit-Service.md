@@ -6,7 +6,7 @@ SQL audit will not parse the actual parameter values and a few records will be l
 * SQL audit function is disabled by default, and is required to be enabled actively
 
 ## Action Steps
-1. Login [Cloud Database RD Management Console] (https://rds-console.jdcloud.com/database).  
+1. Login [Cloud Database RD Management Console](https://rds-console.jdcloud.com/database).  
 2. Select the target instances need to query SQL audit. Click the target instance to enter Instance Details page, switch to ***SQL audit*** page, the SQL audit query functions is described as below.  
     * Execution time: You may choose to move up the time interval by one month from the current time as the SQL audit query time bucket.
     * Database: SQL statements that can view specified database.

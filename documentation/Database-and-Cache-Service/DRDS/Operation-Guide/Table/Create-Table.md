@@ -12,7 +12,7 @@
 
 Select **Database Management**->**Table Management** page, click **Create Table****
 
-![Table List] (../../../../../image/DRDS/table-list.png)
+![Table List](../../../../../image/DRDS/table-list.png)
 
 **2. Create Routing Information of the Table**
 
@@ -30,7 +30,7 @@ Select **Database Management**->**Table Management** page, click **Create Table*
 
 **Field type:** select int or string, more types will be able to be selected later
 
-![Create Table] (../../../../../image/DRDS/create-table.png)
+![Create Table](../../../../../image/DRDS/create-table.png)
 
 **3. Login DRDS to execute "CREATE TABLE" statement**
 

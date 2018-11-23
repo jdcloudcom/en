@@ -1,6 +1,6 @@
 # Create Instance
 
-You can create Memcached instance use Memcached console or API. See “[Price Overview] (../Pricing/Price-Overview.md)” and “[Billing Rules](../Pricing/Billing-Rules.md)” for billing instructions of the instance.
+You can create Memcached instance use Memcached console or API. See “[Price Overview](../Pricing/Price-Overview.md)” and “[Billing Rules](../Pricing/Billing-Rules.md)” for billing instructions of the instance.
 
 This document introduces how to create Memcached instance through Memcached console.
 
@@ -12,7 +12,7 @@ This document introduces how to create Memcached instance through Memcached cons
 1. Login Memcached console
 
 2 Click **Create** in the page of **Instance List** to jump to the instance creation page
-   ! [Create Instance] (https://github.com/jdcloudcom/cn/blob/JCS-for-Memcached/image/Memcached/create-Memcached-instance.jpg)
+   ![Create Instance](https://github.com/jdcloudcom/cn/blob/JCS-for-Memcached/image/Memcached/create-Memcached-instance.jpg)
 
 3 Select payment method, region, specification, network, deployment plan, basic information and purchase, etc., in the newly created instance page.
 

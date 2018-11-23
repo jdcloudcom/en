@@ -1,13 +1,13 @@
 # Create Instance
 
-You can create protection package instance through Anti-DDoS Basic console or API quickly. For Billing Instructions of the instance, see “[Price Overview] (../Pricing/Price-Overview.md)”,
+You can create protection package instance through Anti-DDoS Basic console or API quickly. For Billing Instructions of the instance, see “[Price Overview](../Pricing/Price-Overview.md)”,
 “[Billing rules](../Pricing/Billing-Rules.md)”.
 
 This document introduces how to create instance of Anti-DDoS Protection Package through the console.
 **Please note: Not support buying instance temporarily during open beta test.**
 
 ## Preconditions
-- JD Cloud account registration is done and real-name verification is completed. If you don't have an account yet, please [registry](https://accounts.jdcloud.com/p/regPage?source=jdcloud&ReturnUrl=%2f%2fuc.jdcloud.com%2fpassport%2fcomplete%3freturnUrl%3dhttp%3A%2F%2Fuc.jdcloud.com%2Fredirect%2FloginRouter%3FreturnUrl%3Dhttps%253A%252F%252Fwww.jdcloud.com%252Fhelp%252Fdetail%252F734%252FisCatalog%252F1),or conduct [real-name verification] (https://uc.jdcloud.com/account/certify)。
+- JD Cloud account registration is done and real-name verification is completed. If you don't have an account yet, please [registry](https://accounts.jdcloud.com/p/regPage?source=jdcloud&ReturnUrl=%2f%2fuc.jdcloud.com%2fpassport%2fcomplete%3freturnUrl%3dhttp%3A%2F%2Fuc.jdcloud.com%2Fredirect%2FloginRouter%3FreturnUrl%3Dhttps%253A%252F%252Fwww.jdcloud.com%252Fhelp%252Fdetail%252F734%252FisCatalog%252F1),or conduct [real-name verification](https://uc.jdcloud.com/account/certify)。
 - If it is necessary to use elastic protection, please ensure your Account Balance (including Coupon) is not less than the amount of paying for the maximum elastic package at least one day, in order to avoid affecting use for arrearage
 
 ## Action Steps
@@ -26,4 +26,4 @@ This document introduces how to create instance of Anti-DDoS Protection Package 
 After payment, create an instance successfully.
 
 ## Related References
-- [Bind a protection object] (Bind-Protected-Resource.md)
+- [Bind a protection object](Bind-Protected-Resource.md)

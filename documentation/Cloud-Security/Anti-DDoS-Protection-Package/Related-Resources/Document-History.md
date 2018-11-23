@@ -10,5 +10,5 @@ This document introduces the important update history of the anti-DDoS protectio
 
 ## Related References
 
-- [Product Overview] (../Introduction/Product-Overview.md)
+- [Product Overview](../Introduction/Product-Overview.md)
 

@@ -7,7 +7,7 @@ When connecting count issues or performance issues of instances are found, you c
 * Generally, reset will be completed within 8 seconds. If there are a mass of transactions to be submitted and rolled back, the reset will be delayed for 1~2 min.
 
 ## Action Steps
-1. Login [Cloud Database RDS console] (https://rds-console.jdcloud.com/database).
+1. Login [Cloud Database RDS console](https://rds-console.jdcloud.com/database).
 2. There are two entrances to reset the of instance, including
     * List page: Select the target instance requiring reset and click **More** -》[Reset] in the Actions column.
     * Instance details: Select the target instance requiring reset to log in the page instance details, and click **Actions** -》[Reset] on top-right page.
