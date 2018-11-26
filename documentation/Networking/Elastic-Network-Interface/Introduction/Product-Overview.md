@@ -1,37 +1,37 @@
 # Product Overview
 
-An ENI is a virtual network interface, making ENI can be associated on the VM to connect the VM to different networks. The ENI is applicable in building application scenarios such as business traffic separation, multiply businesses hosting and network high availability. The JD Cloud ENI is region-level, which can be associated to any availability zone VM in the virtual private cloud. Each VM can be associated with multiple ENIs, and the associated number depends on the instance type of VM.
+An elastic network interface (referred to as ENI in this documentation for short) is a type of virtual network interface in JD Cloud. A virtual machine can be attached with multiple elastic network interfaces to obtain the ability to access different networks. ENI is an essential building block in scenarios of business traffic separation, multi-business hosting and high availability applications. JD Cloud ENI is a regional elastic network interface, and it can be attached to a virtual machine in any availability zone in the same VPC. Each virtual machine can be attached with multiple elastic network interfaces, and the ENI quota per VM depends on the instance type of the virtual machine.
 
-The ENI mainly has the following features:
+The primary features of JD Cloud ENI are described as following: 
 
-* Multiple network interfaces and multiple IPs: based on the instance type of VM, each VM of JD Cloud can be associated with multiple ENIs, and each ENI can be assigned with multiple private IP addresses. At the same time, each private IP address can be connected with one Elastic IP address.
+* **Multi-ENI and Multi-IP**: Per the instance type of a virtual machine, each JD Cloud VM can be attahced with a variable number of ENIs and each JD Cloud ENI can be assigned with a variable number of private IP addresses. Concurrently, each private IP address can be associated with an elastic IP address.
 
-* Elastic plugging: The JD Cloud ENI is region-level, which can be associated to any availability zone VM in the virtual private cloud. In case of failure, the ENI can be disassociated from the failed VM and migrated to another standby VM.
+* **Elastic Plugging**: JD Cloud ENI is a regional elastic network interface and it can be attached to a virtual machine in any availability zone in the same VPC. In case of failure, the ENI can be detached from the failed virtual machine and migrated to another backup virtual machine for the purpose of business recovery.
 
-* Business security: each VM of JD Cloud can be mounted with multiple under the subnet, and the traffic of specific business can be hosted by specific ENI. Different ENIs can be independently associated with different security groups, which applied to different security group policies, thus improving the security of the business traffic.
+* **Business Security**: A JD Cloud VM can own multiple elastic network interfaces, and each ENI attached to this virtual machine will carry specific business traffic. Each ENI can also be associated with security groups with different rules independently, therefore enhancing business traffic security.
 
-* Routing control: Each VM of JD Cloud can be mounted with ENI with different subnets in the same virtual private cloud, and each subnet can be set with identity and access management policies and routing forwarding policies respectively. By matching the internal routing configuration tools of VMs, accurate control of network traffic can be realized.
+* **Route Control**: Currently, a JD Cloud VM can be attached with multiple elastic network interfaces of different subnets in a same VPC. Each subnet can provisioned with access control lists and routing policies independently. In conjunction with routing configuration tools inside virtual machines, ENI can assist in the accurate control of network traffic.
 
-## Common Operation
+## Common Operations
 
-- Management of ENI
+- ENI Management
 	- [Create ENI](../Operation-Guide/Elastic-Network-Interface-Management/Create-Elastic-Network-Interface.md)
 	- [Delete ENI](../Operation-Guide/Elastic-Network-Interface-Management/Delete-Elastic-Network-Interface.md)
-	- [Associate ENI](../Operation-Guide/Elastic-Network-Interface-Management/Associate-Elastic-Network-Interface.md)
-	- [Disassociate ENI](../Operation-Guide/Elastic-Network-Interface-Management/Disassociate-Elastic-Network-Interface.md)
+	- [Attach ENI](../Operation-Guide/Elastic-Network-Interface-Management/Attach-Elastic-Network-Interface.md)
+	- [Detach ENI](../Operation-Guide/Elastic-Network-Interface-Management/Detach-Elastic-Network-Interface.md)
 	- [Enable Deletion on Instance Termination](../Operation-Guide/Elastic-Network-Interface-Management/Enable-Delete-with-VM.md)
-	- [Cancel Deletion on Instance Termination](../Operation-Guide/Elastic-Network-Interface-Management/Disable-Delete-with-VM.md)
-- Management of private IP
+	- [Disable Deletion on Instance Termination](../Operation-Guide/Elastic-Network-Interface-Management/Disable-Delete-with-VM.md)
+- Private IP Management
 	- [Assign Private IP](../Operation-Guide/Private-IP-Management/Assign-Secondary-IP.md)
 	- [Release Private IP](../Operation-Guide/Private-IP-Management/Unassign-Secondary-IP.md)
-	- [Associate Public Network IP](../Operation-Guide/Private-IP-Management/Associate-Elastic-IP.md)
-	- [Disassociate Public Network IP](../Operation-Guide/Private-IP-Management/Disassociate-Elastic-IP.md)
-- Management of security group
+	- [Associate EIP](../Operation-Guide/Private-IP-Management/Associate-Elastic-IP.md)
+	- [Disassociate EIP](../Operation-Guide/Private-IP-Management/Disassociate-Elastic-IP.md)
+- Security Group Management
 	- [Add Security Group](../Operation-Guide/Security-Group-Management/Associate-Security-Group.md)
 	- [Remove Security Group](../Operation-Guide/Security-Group-Management/Disassociate-Security-Group.md)
-- VM configuration
-	- [Linux system temporary configuration](../Operation-Guide/VM-Configuration/Linux-Temporary-Configuration.md)
-	- [Linux System Permanent Configuration](../Operation-Guide/VM-Configuration/Linux-Temporary-Configuration.md)
+- Virtual Machine Configuration
+	- [Linux System Temporary Configuration](../Operation-Guide/VM-Configuration/Linux-Temporary-Configuration.md)
+	- [Linux System Permanent Configuration](../Operation-Guide/VM-Configuration/Linux-Permanent-Configuration.md)
 
-## Billing
-The ENI service is free, and the elastic IP associated with the ENI is charged independently. For details, refer to: [Billing Instructions](../Pricing/Billing-Overview.md)
+## Pricing
+JD Cloud ENI is a free service, and the Elastic IP associated to the ENI is charged independently. For more detailed information, click and view [Billing Instructions](../Pricing/Billing-Overview.md).
