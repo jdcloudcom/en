@@ -1,12 +1,12 @@
 
 # Stop native container Pod
 
-**Operation Description**
+**Operation Description**  
 Native container Pod in intermediate state cannot be stopped
 
-Native container Pod in arrear state will be in the state of stop and cannot be started
+Native container Pod in arrear state will be in the state of stop and cannot be started  
 
-**Operation Guide**
+**Operation Guide**  
 Method 1: stop native container Pod on List page
 
 1. Open JD Cloud console, select [Elastic Compute] - [Native Container] - [Pod] enter Native Container Pod List page;

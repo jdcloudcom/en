@@ -10,9 +10,9 @@
 
 ## Listener
 
-- Listening rules: At present, the protocol types and port number information to be monitored only cover three protocol types, including HTTPS/HTTP/TCP. The user can define several monitors in the same load balancer. Different protocol types or the same protocol type and different port number definition can be selected by the listener.
+- Listening rules: At present, the protocol types and port number information to be monitored only cover three protocol types, including HTTPS/HTTP/TCP/TLS. The user can define several monitors in the same load balancer. Different protocol types or the same protocol type and different port number definition can be selected by the listener.
 
-- Encryption certificate: if the HTTPS protocol is used as the listening protocol, the encryption certificate shall be loaded when creating the listener.
+- Encryption certificate: if the HTTPS/TLS protocol is used as the listening protocol, the encryption certificate shall be loaded when creating the listener.
 
 - Idle connection timeout setting: An idle connection timeout setting for listening rules. In case of connection idle timeout, the load balancer will automatically disconnect the client and the load balancer as well as the two-end connection between the load balancer and the backend server.
 
@@ -24,7 +24,7 @@
 
 - Session persistence setting: Support session persistence for HTTPS/HTTP. The load balancer can forward the requests from the same resource to the same backend server for processing by inserting cookies in the HTTP response message header of the load balancer (backend server reply). For specific principles, please refer to contents in “session persistence principle” in the “basic architecture”.
 
-- Source IP pass-through: Source IP pass-through can be set for HTTPS/HTTP/TCP protocol, to pass through the visiting client IP to the backend server. IV. The seven-layer protocol uses a different implementation principle. The HTTP/HTTPS seven-layer protocol carries the source IP information to the server by inserting x-forward-for field in http head, while the TCP four-layer protocol carries the source IP information to the server by expanding proxy protocol.
+- Source IP pass-through: Source IP pass-through can be set for HTTPS/HTTP/TCP/TLS protocol, to pass through the visiting client IP to the backend server. IV. The seven-layer protocol uses a different implementation principle. The HTTP/HTTPS seven-layer protocol carries the source IP information to the server by inserting x-forward-for field in http head, while the TCP four-layer protocol carries the source IP information to the server by expanding proxy protocol.
 
 - Health check: The load balancer will periodically detect operation status of backend server, customize detection frequency and judge health/unhealthy conditions; once any server operation exception is detected, the traffic will not be distributed to the instances with exception, and the traffic forward will be recovered until the normal operation of such instances is detected. In this way, the service availability is guaranteed.
 

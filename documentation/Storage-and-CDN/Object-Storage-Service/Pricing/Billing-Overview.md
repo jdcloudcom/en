@@ -10,7 +10,7 @@ Access traffic: refers to the accumulative value of network traffic consumed, in
 
 Request time: request time for calling Object Storage Service API. User console actions also are implemented by calling API, so when using user console to operate on Object Storage Service, number of requests will be generated as well.
 
-Cloud data processing: refers to the data processing fees from using cloud data processing, including the file output duration of audio and video transcoding service and number of snapshots of video snapshot service. (The billing of cloud data processing will come into force successively on November 19-20)
+Cloud data processing: refers to the data processing fees from using cloud data processing, including the file output duration of audio and video transcoding service and number of snapshots of video snapshot service.
 
 Description: Object Storage Service is at the stage of profit concession promotion now, only bucket usage, Internet output traffic and CDN back-to-source output traffic are charged while data getting back amount, intranet input traffic/output traffic, Internet input traffic and cross-region replication traffic are all free at present.
 

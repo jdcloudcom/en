@@ -23,16 +23,16 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domain/{domainId}/
 ### UpdateRR
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**domainName**|String|False| |Main Domain Name|
-|**hostRecord**|String|False| |Machine Record|
-|**hostValue**|String|False| |Value of Resolution Record|
-|**id**|Integer|False| |Unique ID of the Domain Name Resolution|
+|**domainName**|String|True| |Main Domain Name|
+|**hostRecord**|String|True| |Machine Record|
+|**hostValue**|String|True| |Value of Resolution Record|
+|**id**|Integer|True| |Unique ID of the Domain Name Resolution|
 |**jcloudRes**|Boolean|False| |JD Cloud Resource?|
 |**mxPriority**|Integer|False| |Priority, only exists in some resolution record types|
 |**port**|Integer|False| |Port, only exists in some resolution record types|
-|**ttl**|Integer|False| |Life Time of Resolution Record|
-|**type**|String|False| |Resolution Type|
-|**viewValue**|Integer|False| |ID of Resolution Line|
+|**ttl**|Integer|True| |Life Time of Resolution Record|
+|**type**|String|True| |Resolution Type|
+|**viewValue**|Integer|True| |ID of Resolution Line|
 |**weight**|Integer|False| |Weight of Resolution Record|
 
 ## Response parameter

@@ -13,7 +13,7 @@ The cloud resolution is billed in pay-in-advance mode for one or more years.The 
 | QPS Protection       | None           | 5W                 | 20W        |
 | Lowest TTL       | 120S         | 60S                | 1S         |
 | A Record Load Balancer | 5            | 30                 | Unlimited       |
-| Subdomain Level    | 2            | 10                 | Unlimited       |
+| Subdomain Level    | 3            | 10                 | Unlimited       |
 | Extensive Resolution        | Not Supported       | Supported               | Supported       |
 | Resolution Record Import  | Supported         | Supported               | Supported       |
 | Number of Domain Name Resolution  | Unlimited         | Unlimited               | Unlimited       |

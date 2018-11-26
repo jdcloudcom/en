@@ -14,8 +14,8 @@ Create compilation construction task to start code compilation.
 - Code Branch: Please complete master
 - Image Construction: official library/maven 3.5.0-jdk-8u20
 - Construction Method: Support build.sh
-- Trigger conditions: construct manually or trigger compilation construction automatically when submitting codes to branch(es)
-- Revision rules: provide revision naming rules and archive them to the revision library
+- Trigger conditions: construct manually
+- Revision rules: revision naming rules
 - Upload position for construction: Please select the position as the same as that of the Virtual Machines.
 
 Here, it also supports to set construction parameters, message notification, webhook, LFS, cache compilation workspace and other functions

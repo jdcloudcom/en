@@ -1,12 +1,12 @@
 # FAQ
 
-**Q**: What’s the name of my tenant?
+**Q: What’s the name of my tenant?**
 
 **A**: Upon logging in DevOps, leave the icon on the upper-right user name and the tenant name/user name will be displayed in the drop-down list.
 
 ![Alt text](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/FAQ1.png)
 
-**Q**: How to upload the program package well compiled locally to DevOps?
+**Q: How to upload the program package well compiled locally to DevOps?**
 
 **A**: Log in the menu bar -> compilation and construction page, select an application on the left side, log in the module page, click **Creation Module** to create a module.
 
@@ -14,7 +14,7 @@ Click **Upload** of the created module.
 
 ![Alt text](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/FAQ2.png)
 
-**Q**: How to compile different modules under the same git project?
+**Q: How to compile different modules under the same git project?**
 
 **A**: 1) Creation of build.sh can be made only when the compiled products are under the directory of the same level (output/). Different module names received by build.sh are used as parameters.
 
@@ -40,12 +40,12 @@ Solution: The build under the root directory accepts two parameters, build.sh m
 
 ![Alt text](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/FAQ3.png)
 
-**Q**: The image has been uploaded to the Container Registry. How to find it in Construction Image of the Creation, Compilation and Construction page?
+**Q: The image has been uploaded to the Container Registry. How to find it in Construction Image of the Creation, Compilation and Construction page?**
 
 **A**: Modify the image type to be the compiling image in the image details of the Container Registry.
 
 ![Alt text](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/FAQ4.png)
 
-**Q**: What is the correspondence between the machine resource and the service tree node?
+**Q: What is the correspondence between the machine resource and the service tree node?**
 
 **A**: If the machine belongs to a product line, such machine resource cannot be shared between product lines. The machine resource in a product line can be shared by different applications.

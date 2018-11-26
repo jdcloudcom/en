@@ -1,13 +1,12 @@
 
 # Stop Instance
 
-Operation Instructions
-Container in intermediate state cannot be stopped
+Operation Instructions  
+- Container in intermediate state cannot be stopped  
+- The container in arrears or expiration state is in a stopped state and cannot be started  
 
-The container in arrears or expiration state is in a stopped state and cannot be started
-
-Operation Guide
-Method 1: Stop the container on the container list page
+Operation Guide  
+Method 1: Stop the container on the container list page  
 
 1. Open JD Cloud Console and select **Elastic Compute**-**Container Service**-**Container Instance** to enter into the Containers List page;
 

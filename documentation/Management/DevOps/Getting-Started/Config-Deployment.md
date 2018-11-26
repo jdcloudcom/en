@@ -8,12 +8,13 @@ Release the compiled program packages to Virtual Machine.
 
 Select an application of the service tree on the left side, select menu “Continuous Delivery-Online Launch”, log in the “Basic Setting” page and click **Set**.
 
-![Alt text](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Starting10.png)
+![Alt text](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Starting12.png)
+
 
 Set executing account and associate the application with the module(s).
 
-- Executive Account: Root
-- Port: 8080
+- Executive Account: root
+- Port: 9011
 - Module: devops-demo/java-demo
 
 Note: Compilation and construction are related to on-line release via modules. Only by associating them, program package version compiled by the module can be selected when on-line.

@@ -24,7 +24,6 @@ None
 |---|---|---|
 |**result**|Result| |
 
-
 ### Result
 |Name|Type|Description|
 |---|---|---|
@@ -36,7 +35,7 @@ None
 |**lastUpdateTime**|String|Last Update Time of the Error Log, Format: YYYY-MM-DD HH:mm:ss|
 |**name**|String|Error Log File Name|
 |**publicURL**|String|Download Link of Public Network|
-|**sizeByte**|Integer|Error Log File Size in Bytes|
+|**sizeByte**|Long|Error Log File Size in Bytes|
 |**uploadTime**|String|Error Log Upload Time, Format: YYYY-MM-DD HH:mm:ss|
 
 ## Response code

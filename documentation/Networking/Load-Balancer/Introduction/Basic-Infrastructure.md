@@ -1,6 +1,6 @@
 # Basic architecture
 
-- The load balancer provides four-layer and seven-layer load listening service, so as to realize traffic forwarding under TCP Protocol, HTTP Protocol, HTTPS Protocol based on nginx architecture.
+- The load balancer provides four-layer and seven-layer load listening service, so as to realize traffic forwarding under TCP Protocol, TLS Protocol, HTTP Protocol, HTTPS Protocol based on nginx architecture.
 - The load balancer adopts cluster for deployment, so as to improve service availability through device redundancy and eliminate device single point failure.
 
 ![负载均衡基础架构](../../../../image/Networking/ALB/ALB-002.png)
@@ -31,7 +31,7 @@ Availability Group is the Virtual Machine logic set provided by JD Cloud, which 
 
 ![高复用架构](../../../../image/Networking/ALB/ALB-003.png)
 
-- Listeners of multiple different protocol types (HTTP/HTTPS/TCP) can be set under one load balancer, and listeners in the multiple same protocol types but under different server port numbers can be also set;
+- Listeners of multiple different protocol types (HTTP/HTTPS/TCP/TLS) can be set under one load balancer, and listeners in the multiple same protocol types but under different server port numbers can be also set;
 
 - Multiple listeners under the same load balancer can be reused to associate with the same backend service;
 
@@ -66,7 +66,7 @@ When the customer request occurs once again, customer HTTP request (with cookie 
 ## Relevant references
 
 - [Product advantage](../Introduction/Benefits.md)
-- [Product function](../Introduction/Functions.md)
+- [Product function](../Introduction/Features.md)
 - [Price overview](../Pricing/Price-Overview.md)
 - [Billing rules](../Pricing/Billing-Rules.md)
 - [Create instance](../Getting-Started/Create-Instance.md)

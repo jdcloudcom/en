@@ -2,7 +2,7 @@
 
 | Product Parameters                    | Advanced Edition     | Enterprise Edition     | Ultimate Edition       |
 | --------------------------- | ---------- | ---------- | ------------ |
-| Price                        | RMB 3880/ month | Coming Soon   | Coming Soon     |
+| Price                        | RMB 3880/ month | RMB 9800/ month   | RMB 29800/ month     |
 | HTTP/ HTTPS Protection              | Support       | Support       | Support         |
 | Non-standard Port                    | Not Support     | 10 Units       | 50 units         |
 | No. of Top Level Domain Names                   | 1          | 1          | 1            |
@@ -18,6 +18,6 @@
 | Penetration Test Services                | Not Support     | Not Support     | Support |
 | Customized-Frequency Identity and Access Management to URL | Not Support     | Not Support     | Support         |
 | Supporting No. of Top Level Domain Names             | 1          | 1          | 2           |
-| Supporting No. of Secondary Level Domain Names             | 9          | 9          | 18           |
+| Supporting No. of Secondary Level Domain Names             | 10          | 10         | 20           |
 
  

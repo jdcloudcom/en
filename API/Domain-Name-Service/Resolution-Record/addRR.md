@@ -23,14 +23,14 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domain/{domainId}/
 ### AddRR
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**hostRecord**|String|False| |Machine Record|
-|**hostValue**|String|False| |Value of Resolution Record|
+|**hostRecord**|String|True| |Machine Record|
+|**hostValue**|String|True| |Value of Resolution Record|
 |**jcloudRes**|Boolean|False| |JD Cloud Resource?|
 |**mxPriority**|Integer|False| |Priority, only exists in MX, SRV resolution record types|
 |**port**|Integer|False| |Port, only exists in SRV resolution record types|
-|**ttl**|Integer|False| |Life Time of Resolution Record|
-|**type**|String|False| |Resolution Type|
-|**viewValue**|Integer|False| |ID of Resolution Line|
+|**ttl**|Integer|True| |Life Time of Resolution Record|
+|**type**|String|True| |Resolution Type|
+|**viewValue**|Integer|True| |ID of Resolution Line|
 |**weight**|Integer|False| |Weight of Resolution Record|
 
 ## Response parameter

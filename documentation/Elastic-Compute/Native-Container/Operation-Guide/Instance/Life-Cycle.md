@@ -1,5 +1,5 @@
 
-# Resource life cycle
+# Native Container life cycle
 
 The life cycle of Native Container Instance and Native Container Pod begins from create (buy) to the final release (expiration for Monthly Package, arrear suspension for Pay By Configuration instance or Pay By Configuration instance user actively delete it).
 

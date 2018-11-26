@@ -28,7 +28,7 @@ For specific orders, please refer to the picture below:
 
 ### Listening protocol/port
 
-- Listening protocol: At present, the listening service is provided to HTTP, HTTPS and TCP protocol only.
+- Listening protocol: At present, the listening service is provided to HTTP, HTTPS, TCP and TLS protocol only.
 
 - Port: The load balancer instance is used for receiving the requested listening port and the instances of the same load balancer cannot be repeated.
 
@@ -60,7 +60,7 @@ The load balancer supports the session persistence based on HTTP and HTTPS liste
 
 - For HTTP service, as the request is forwarded by replacing the HTTP header file, the access IP caught by the backend cloud server is the local IP of the load balancer system rather than the actual IP of the visitor. The system supports the user to obtain the visitor’s actual IP by using X-Forwarded-For. The system also turns on the 7-layer (HTTP protocol) service listening by default to “obtain the actual IP” and such service listening cannot be shut down.
 
-- For TCP service, the client IP pass-through listened based on TCP is provided via the proxy protocol v1 protocol, which is shut down by default and can be turned on.
+- For TCP service, the client IP pass-through listened based on TCP/TLS is provided via the proxy protocol v1 protocol, which is shut down by default and can be turned on.
 
 ### Health check:
 

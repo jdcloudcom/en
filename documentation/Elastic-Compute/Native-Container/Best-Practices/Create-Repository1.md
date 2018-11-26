@@ -1,11 +1,10 @@
 
-# Deploy Private Image Container Registry
-
-Private Image Container Registry
+# Deploy Private Image Container Registry  
+**Private Image Container Registry**
     Private Image Container Registry can be a unified platform for customer to store and manage inner container images and can provide better performance, safety and manageability compared with public Container Registry. Harbor is a enterprise-level Registry server for Docker image storage and distribution, with Harbor as an example as follows.
-Installation Steps:
+**Installation Steps:**
 1. Create VM instance
-a. Create a VM in the JD Cloud Console and refer to the creation of Linux instance for details.
+a. Create a VM in the JD Cloud Console and refer to [the creation of Linux instance](https://docs.jdcloud.com/cn/virtual-machines/account-preparation-linux) for details.
 b. Deploy selection of regions according to container and select the same region or nearer regions. At present, the container is online only in cn-north-1 and we choose to Create VM instance in cn-north-1.
 c. Operation system, recommended to use Ubuntu 16.04 or Centos 7.4
 d. The VM shall be configured minimally to 2 cores 4GB and 4 cores 8GB is suggested.
@@ -29,37 +28,30 @@ yum-config-manager --add-repo https://mirrors.tuna.tsinghua.edu.cn/docker-ce/lin
 yum makecache fast
 yum -y install docker-ce
 service docker start
-```
-
+```  
 3. Install Docker-Compose
 Ubuntu 16.04 Deployment method
 ```
 
 apt-get   install python-pip –y
 pip install docker-compose
-```
-
+```  
 Centos 7.4 Deployment Method
 ```
 
 yum install python-pip –y
 pip install docker-compose
-```
-
+```  
 4. Download and unzip Harbor
 ```
 
 wget   http://harbor.orientsoft.cn/harbor-v1.4.0/harbor-offline-installer-v1.4.0.tgz
 tar xf  harbor-offline-installer-v1.4.0.tgz
-```
-
+```  
 5. Apply for Https certificate
-
-    You may apply for free certificate in https://freessl.org/. Take domain harbortest.jdpoc.com for example; it is required that the domain points to the IP address of Create VM instance 114.67.241.169.
-    If there is not a domain name, apply for a domain name from domain name service of JD Cloud.
-    Apply for domain
-    Get a certificate
-    CA certificate and all the contents of it shall be stored in /data/cert/server.crt; the content of private key shall be stored in /data/cert/server.key.
+   You may apply for free certificate in https://freessl.org/. Take domain harbortest.jdpoc.com for example; it is required that the domain points to the IP address of Create VM instance 114.67.241.169.
+   If there is not a domain name, apply for a domain name from domain name service of JD Cloud.
+   CA certificate and all the contents of it shall be stored in /data/cert/server.crt; the content of private key shall be stored in /data/cert/server.key.
 ```
 
 cd ..
@@ -70,16 +62,14 @@ vim server.key
 cd ..
 cd ..
 cd root
-```
-
+```  
 6. Deploy Harbor
     Modify Harbor settings
 ```
 
 cd harbor
 vim harbor.cfg
-```
-
+```  
 The following four parameters are required to be modified with modified content marked in red as follows
    i.      It is modified to domain address of the user.
 ```
@@ -98,35 +88,34 @@ harbor_admin_password = ********
 self_registration = off
 ```
 7. Apply Harbor to create private image Container Registry
-Create private items
-Log in harbor website and select New Item with test as item name; do not choose Public as access level.
+Create private items, log in harbor website and select New Item with test as item name; do not choose Public as access level.
     Create Image, Create Directory
 ```
 mkdir -p /etc/docker/certs.d/harbortest.jdpoc.com
 ```
-    It is required to copy the key pair of the domain name /root/cert/server.crt to the created directory /etc/docker/certs.d/harbortest.jdpoc.com
-    This machine may use following commands
+  It is required to copy the key pair of the domain name /root/cert/server.crt to the created directory /etc/docker/certs.d/harbortest.jdpoc.com  
+  This machine may use following commands  
 ```
 cp /data/cert/server.crt !$
 ```
-    Login Harbor
+  Login Harbor
 ```
 docker login harbortest.jdpoc.com
 ```
-    Successful login
+   Successful login
 8. Create and upload image
-    Create Dockerfile file
+   Create Dockerfile file
 ```
 mkdir nginx-dockerfile
 cd nginx-dockerfile
 vim Dockerfile
 ```
-    Dockerfile with contents as follows:
+   Dockerfile with contents as follows:
 ```
 FROM nginx
 RUN echo '<h1>Hello, JD Cloud!</h1>' > /usr/share/nginx/html/index.html
 EXPOSE 80
-```
+```  
 Remark:
        The Dockerfile includes two instructions:
 　　FROM: Essential command, take certain image as base image; take centos for example. For example FROM <image_name>, or FROM <image_name>: <tag>. If not added tag, is latest by default. Seek for base image in local Container Registry at first, if there is none, query in docker registry online.
@@ -139,8 +128,7 @@ Remark:
     Execute build to create image
 ```
 docker build -t newnginx .
-```
-     Upload image
+```  
     Play Tag for Image
 ```
 docker tag newnginx harbortest.jdpoc.com/test/newnginx:latest
@@ -148,14 +136,11 @@ docker tag newnginx harbortest.jdpoc.com/test/newnginx:latest
     push image to private image Container Registry
 ```
 docker push harbortest.jdpoc.com/test/newnginx:latest
-```
+```  
 9. Deploy Container
-    Add secrets to secrets of container service
-Create Container
+ Add secrets to secrets of container service
 The Container Instance List page after successful creation, with the container at the public IP of 116.196.76.86
-
 10. Access to container
 Input http://116.196.76.86/ and get successful verification.
-
 Instructions about the deploy of private image Container Registry:
-1.         JD Cloud is responsible for relevant problems of VM created by JD Cloud. Refer to http://vmware.github.io/harbor/ for relevant problems of Harbor and more details.
+1.   JD Cloud is responsible for relevant problems of VM created by JD Cloud. Refer to http://vmware.github.io/harbor/ for relevant problems of Harbor and more details.

@@ -48,7 +48,7 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/log/actionLog
 |**failReason**|String|Causes of Operation Failed|
 |**id**|Integer|ID of Operation Record|
 |**success**|Boolean|Result of Operation, true for success and f for failurealse|
-|**time**|Integer|Time of Operation|
+|**time**|Long|Time of Operation|
 |**type**|Integer|Operation Types: 1 New 2 Modify 3 Delete|
 |**userPin**|String|User Name|
 

@@ -19,13 +19,13 @@ The load balancer can be configured in Intranet environment, and can provide ext
 ![高安全性场景](../../../../image/Networking/ALB/ALB-005.png)
 
 ## Customer real IP traceability scenario
-Support under HTTP/HTTPS listening protocol to pass source IP information through X-Forwarded-For field; the server identifies X-Forwarded-For to extract customer real IP address. It also supports under TCP listening protocol to pass customer real IP through proxy protocol v1 protocol support. It is convenient to analyze customer source, statistical operation and maintenance data and realize black and white list identity and access management and so on.
+Support under HTTP/HTTPS listening protocol to pass source IP information through X-Forwarded-For field; the server identifies X-Forwarded-For to extract customer real IP address. It also supports under TCP/TLS listening protocol to pass customer real IP through proxy protocol v1 protocol support. It is convenient to analyze customer source, statistical operation and maintenance data and realize black and white list identity and access management and so on.
 
 HTTP/HTTPS listening:
 
 ![IP溯源HTTP场景](../../../../image/Networking/ALB/ALB-007.png)
 
-TCP listening:
+TCP/TLS listening:
 
 ![IP溯源TCP场景](../../../../image/Networking/ALB/ALB-004.png)
 

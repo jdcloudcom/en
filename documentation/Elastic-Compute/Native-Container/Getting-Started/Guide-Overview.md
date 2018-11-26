@@ -5,8 +5,7 @@
 
 **Register JD Cloud account**
 If you have already got a JD Cloud account, skip this step to continue.
-If you don’t have a JD Cloud account, you may register in official website of JD Cloud; please refer to register JD Cloud. If you have finished registering, you are required to activate the account.
-
+If you don’t have a JD Cloud account, you may register in official website of JD Cloud; please refer to [register JD Cloud](https://accounts.jdcloud.com/p/regPage?source=jdcloud%26ReturnUrl=%2f%2fuc.jdcloud.com%2fpassport%2fcomplete%3freturnUrl%3d//www.jdcloud.com/), [Log In JD Clould](https://console.jdcloud.com/overview).
 **Account authentication**
 
 In order to use Native Container normally, you also need to have your account verified.

@@ -33,7 +33,7 @@ None
 |---|---|---|
 |**lastUpdateTime**|String|Last update time of audit log file|
 |**name**|String|Audit log file name|
-|**sizeByte**|Integer|Audit log file size, unitByte|
+|**sizeByte**|Long|Audit log file size, unit: Byte|
 |**uploadTime**|String|Last upload time of audit log file|
 
 ## Return Code

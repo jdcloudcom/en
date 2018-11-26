@@ -61,7 +61,7 @@ Note:
 
 ### JAVA example code
 ```
-ublic class SignDemo {
+public class SignDemo {
       private Boolean authenticate(String method, String uri, Map<String, String> headers) {
           try {
               //Obtaining a certificate URL

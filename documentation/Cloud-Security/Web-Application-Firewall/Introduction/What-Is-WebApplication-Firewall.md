@@ -4,8 +4,3 @@
 
   JD Cloud’s Web Application Firewall is a website application security protection product provided to users based on security protection capabilities of JD Mall for years, which combines the big data analysis capacity as well as emergency response capacity of the Group.
 
-### **Related References**
-
-- [Introduction](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Advanced-Anti-DDoS/Introduction/What-Is-Advanced-Anti-DDoS.md)
-- [Pricing](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Advanced-Anti-DDoS/Pricing/Billing-Rules.md)
-- [FAQ](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/Advanced-Anti-DDoS/Pricing/Billing-Rules.md)

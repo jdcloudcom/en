@@ -40,7 +40,7 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/binlogs
 |**binlogBackupId**|String|binlog log backup ID|
 |**binlogEndTime**|String|binlog end time, with the format as: YYYY-MM-DD HH:mm:ss|
 |**binlogName**|String|binlog log name|
-|**binlogSizeKB**|Integer|binlog log size, unitKB|
+|**binlogSizeKB**|Long|binlog log size, unitKB|
 |**binlogStartTime**|String|binlogStart time, with the format as: YYYY-MM-DD HH:mm:ss|
 
 ## Return Code

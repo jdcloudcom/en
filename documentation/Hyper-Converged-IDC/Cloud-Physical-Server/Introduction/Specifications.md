@@ -40,7 +40,7 @@ The cloud physical server provides the following instance types: Standard Comput
         <td align="center"><B>Standard Storage Type <br/> (cps.s.normal)<B></td>
 		    <td align="center">2*2650V4<br/> (12-core 2.2G)</td>
 		    <td align="center">256G（8*32G）DDR4</td>
-		    <td >1*240GB（SSD）+<br/>12*6TB（SATA）</td>
+		    <td >2*300GB(SAS)+<br/>12*6TB（SATA）</td>
 		    <td align="center">1 independent management port +<br/>2*10GE network interface</td>
 		<td align="center">NO RAID</td>
     </tr>

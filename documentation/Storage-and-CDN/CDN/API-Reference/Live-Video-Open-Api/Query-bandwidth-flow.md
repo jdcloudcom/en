@@ -23,8 +23,8 @@ Query domain name flow bandwidth (bandwidth_flow)
 | status    | It means whether the API request is successful or not, 0 means successful, others means failure |
 | msg       | Note information, e.g. the reasons why task sending fails, etc.                |
 | data      | Domain name information array                                    |
-| bandwidth | Bandwidth                                            |
-| flow      | Flow                                            |
+| bandwidth | Bandwidth, Unit: Mbps                                            |
+| flow      | Flow, Unit: MB                                            |
 
  
 

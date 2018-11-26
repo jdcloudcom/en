@@ -16,7 +16,6 @@ The online deployment directory is as follows:
 - servers/ # Basic system software directory 
 - Backup/ # **package deployment**Spare directory saving compilation package 
 - Packages/ # Program directory (package + configuration file) 
-  - moduleName/ # **image deployment**Application key value 
   - appKey/ # **package deployment**Application key value 
     - latest -> /export/Packages/moduleName/version # Soft link to the latest version correspondingly 
     - version # Version number 

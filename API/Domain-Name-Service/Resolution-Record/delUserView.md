@@ -22,10 +22,10 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/userview/delUserVi
 ### DelView
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**domainId**|Integer|False| |Domain Name ID|
-|**domainName**|String|False| |Primary Domain Name|
-|**viewId**|String|False| |Customized ISP Line ID|
-|**viewName**|String|False| |Customized ISP Line Name with 64 Characters at most|
+|**domainId**|Integer|True| |Domain Name ID|
+|**domainName**|String|True| |Primary Domain Name|
+|**viewId**|String|True| |Customized ISP Line ID|
+|**viewName**|String|True| |Customized ISP Line Name with 64 Characters at most|
 
 ## Return Parameter
 |Name|Type|Description|

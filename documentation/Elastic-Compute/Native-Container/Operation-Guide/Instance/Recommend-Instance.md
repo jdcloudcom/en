@@ -1,5 +1,5 @@
 
-# Instance Configuration Recommendations
+# Native Container Configuration Recommendations
 
 The Native Container Instance and the Native Container Pod include the general type (vCPU: memory=1:4, mainly), compute optimized type (vCPU: memory=1:2), memory optimized type (vCPU: memory=1:8) and high frequency compute type (vCPU: memory=1:8), ranging from 1-core 1G to 72-core 576G. The users can select the instance type and corresponding configuration depending on their service scenarios.
 

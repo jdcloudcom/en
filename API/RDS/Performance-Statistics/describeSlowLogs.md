@@ -50,11 +50,11 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/perform
 ### DigestData
 |Name|Type|Description|
 |---|---|---|
-|**avg**|Number|Average of Execution Results|
-|**max**|Number|Maximum of Execution Results|
-|**min**|Number|Minimum of Execution Results|
-|**pct95**|Number|Represent that 95% data in the execution results lower than or equal to the value|
-|**total**|Number|Total of Execution Results|
+|**avg**|Float|Average of Execution Results|
+|**max**|Float|Maximum of Execution Results|
+|**min**|Float|Minimum of Execution Results|
+|**pct95**|Float|Represent that 95% data in the execution results lower than or equal to the value|
+|**total**|Double|Total of Execution Results|
 
 ## Return Code
 |Return Code|Description|

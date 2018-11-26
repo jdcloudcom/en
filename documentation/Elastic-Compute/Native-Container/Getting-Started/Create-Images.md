@@ -11,7 +11,9 @@ Create a new directory, in which create a new dockerfile file.
 [root@docker ~]# mkdir nginx-dockerfile
 [root@docker ~]# cd nginx-dockerfile
 [root@docker nginx-dockerfile]# vi Dockerfile
+```  
 Dockerfile with contents as follows:
+```
 FROM nginx
 RUN echo ' <h1> Hello, Docker! </h1> ' > /usr/share/nginx/html/index.html
 ```  

@@ -12,7 +12,7 @@ Native container compares with VM:
 | Application Scenarios |  	Mainly refers to provide continuous integration, deploy, microservice and fast auto scaling  | Universal Scenario    |
 | Study cost and threshold for use |Basically Consistent    |  Basically Consistent    |
 
-Native container is applicable to:
+**Native container is applicable to:**
 
 1. Customers have built container service autonomously based on VM
 
@@ -20,7 +20,7 @@ Native container is applicable to:
 
 3. Customers who need to upgrade their application design structure
 
-Suitable to customers of VM:
+**Suitable to customers of VM:**
 
 1. The application is developed basing on Windows
 

@@ -1,5 +1,5 @@
 
-# Delete Instance
+# Delete Pod
 
 **Operation Description**
 

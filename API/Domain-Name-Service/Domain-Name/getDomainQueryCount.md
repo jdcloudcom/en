@@ -32,8 +32,8 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domain/{domainId}/
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**time**|Integer[]|Time Series|
-|**traffic**|Integer[]|Data Series Corresponding to Time Series, Unit: times|
+|**time**|Long[]|Time Series|
+|**traffic**|Long[]|Data Series Corresponding to Time Series, Unit: times|
 
 ## Response code
 |Return code|Description|

@@ -1,4 +1,4 @@
-**These Service Terms are the effective contract concluded by and between the owners of the JD Cloud website (referred to as "JD Cloud" website in the Agreement: [www.jdcloud.com](https://www.jdcloud.com/index)) and you on the matters related to JCS for Elasticsearch. You accept these Service Terms by sealing, clicking to confirm on the web page or other means, including but not limited to actually using JD Cloud JCS for Elasticsearch service without clicking to confirm, indicating that you have reached an agreement with JD Cloud and agree to accept all of these Service Terms. If the text sealed by the Parties is inconsistent with the Service Terms confirmed on the web page or clicked to be accepted otherwise, the text sealed by the Parties shall prevail.**
+**These Service Terms are the effective contract concluded by and between the owners of the JD Cloud website (referred to as "JD Cloud" website in the Agreement: **[www.jdcloud.com](https://www.jdcloud.com/)**) and you on the matters related to JCS for Elasticsearch. You accept these Service Terms by sealing, clicking to confirm on the web page or other means, including but not limited to actually using JD Cloud JCS for Elasticsearch service without clicking to confirm, indicating that you have reached an agreement with JD Cloud and agree to accept all of these Service Terms. If the text sealed by the Parties is inconsistent with the Service Terms confirmed on the web page or clicked to be accepted otherwise, the text sealed by the Parties shall prevail.**
 
  
 
@@ -6,7 +6,7 @@
 
 1. **Service Content**
 
-     1.1 "Service" in these Terms means: JD Cloud provides you with the JCS for Elasticsearch service and related technical and network support services displayed on [www.jdcloud.com](www.jdcloud.com).
+     1.1 "Service" in these Terms means: JD Cloud provides you with the JCS for Elasticsearch service and related technical and network support services displayed on [www.jdcloud.com](https://www.jdcloud.com/).
 
        1.2. The services provided by JD Cloud must comply with these Service Terms.
 
@@ -24,7 +24,7 @@
 
        2.2.2 Pay-As-You-Go
 
-       You pay after use. Please see the page announcement on www.jdcloud.com for the specific deduction rules, which is subject to the current effective billing mode and standard for Pay-As-You-Go issued on the page.
+       You pay after use. Please see the page announcement on [www.jdcloud.com](https://www.jdcloud.com/) for the specific deduction rules, which is subject to the current effective billing mode and standard for Pay-As-You-Go issued on the page.
 
        2.3 JD Cloud reserves the right not to provide you with services and/or technical supports or to terminate the services and/or technical supports until you have paid off all the costs as agreed. In the meanwhile, JD Cloud reserves the right to pursue legal liability for arrears in Pay-As-You-Go service.
 
@@ -38,7 +38,7 @@
 
      3.1. Your Rights and Obligations
 
-       3.1.1 You agree to abide by these Service Terms and the related management specification and procedures on the service display page. You understand that the above contents of the agreement and specification may change from time to time. In the event of any changes to the contents of these Service Terms, JD Cloud shall notify you of the modified contents by announcement on the suitable coverage on http://www.jdcloud.com/ in advance. If you disagree with JD Cloud's modification to the related terms in these Service Terms, you have the right to stop using JD Cloud's services. In such case, JD Cloud shall settle the service charge with you (if any), and you shall move the business data out. If you continue to use JD Cloud services, you are deemed to have accepted the modifications made by JD Cloud to the relevant terms in these Service Terms.
+       3.1.1 You agree to abide by these Service Terms and the related management specification and procedures on the service display page. You understand that the above contents of the agreement and specification may change from time to time. In the event of any changes to the contents of these Service Terms, JD Cloud shall notify you of the modified contents by announcement on the suitable coverage on [www.jdcloud.com](https://www.jdcloud.com/) in advance. If you disagree with JD Cloud's modification to the related terms in these Service Terms, you have the right to stop using JD Cloud's services. In such case, JD Cloud shall settle the service charge with you (if any), and you shall move the business data out. If you continue to use JD Cloud services, you are deemed to have accepted the modifications made by JD Cloud to the relevant terms in these Service Terms.
 
        3.1.2 You shall pay the corresponding service charge according to the page notifications of JD Cloud and the agreement in these Service Terms.
 
@@ -194,7 +194,7 @@
 
        7.2.4 You understand and fully recognize that although JD Cloud has established (and will continue to improve according to the development of technology) necessary technical measures to protect against the matters or acts harmful to network security (hereinafter referred to as such acts) including computer viruses, network intrusions, attack damages (including but not limited to DDOS), etc., Security matters or actions (collectively referred to as such behaviors), however given the limitations and relativity of network security technology and the unpredictability of such acts, JD Cloud may decide to suspend or terminate the service if you encounter such acts and bring harms to JD Cloud or JD Cloud’s other networks or servers (including but not limited to local and foreign and international networks, servers, etc.), or affect the smooth communications between JD Cloud and the Internet or between JD Cloud specific and networks and servers and internal smooth communication within JD Cloud. If the service is terminated, it will be calculated on the basis of the actual time of service, and you still need to pay the unpaid service charge (if any).
 
-       7.2.5 JD Cloud may terminate these Service Terms by advance announcement on www.jdcloud.com or sending you a private notice or a written notice on the website. At that time, JD Cloud shall refund the amount you have paid but not consumed to your JD Cloud account.
+       7.2.5 JD Cloud may terminate these Service Terms by advance announcement on [www.jdcloud.com](https://www.jdcloud.com/) or sending you a private notice or a written notice on the website. At that time, JD Cloud shall refund the amount you have paid but not consumed to your JD Cloud account.
 
      
 
@@ -232,9 +232,9 @@
 
 11. Supplementary Articles
 
-        11.1 JD Cloud's service description, price description and the ordering Page you confirm on www.jdcloud.com are an integral part of these Service Terms. If the service description, price description and the order form you agree on the www.jdcloud.com Page are inconsistent with these Service Terms, these Service Terms shall prevail.
+        11.1 JD Cloud's service description, price description and the ordering Page you confirm on [www.jdcloud.com](https://www.jdcloud.com/) are an integral part of these Service Terms. If the service description, price description and the order form you agree on the www.jdcloud.com Page are inconsistent with these Service Terms, these Service Terms shall prevail.
 
-        11.2 JD Cloud is entitled to transfer part of all of the rights and obligations under these Service Terms to the associated companies by advance announcement on www.jdcloud.com, website notice or written notification.
+        11.2 JD Cloud is entitled to transfer part of all of the rights and obligations under these Service Terms to the associated companies by advance announcement on [www.jdcloud.com](https://www.jdcloud.com/), website notice or written notification.
 
         11.3 If any terms, in nature or otherwise, shall continue to exist at the termination of the Protocol, they shall be deemed to be continuing terms, including but not limited to warranty terms, confidentiality terms, intellectual property right terms, and law application and dispute resolution terms.
 

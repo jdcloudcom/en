@@ -39,9 +39,9 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/perform
 |Name|Type|Description|
 |---|---|---|
 |**dbName**|String|Database name, representing the database in which the SQL is executed|
-|**elapsedTime**|Number|Duration of SQL Statement Execution, Unit: Second|
+|**elapsedTime**|Float|Duration of SQL Statement Execution, Unit: Second|
 |**executionTime**|String|Start time of SQL statement execution, with the format as YYYY-MM-DD hh:mm:ss|
-|**lockTime**|Number|Time of SQL Statement Waiting for Lock, Unit: Second|
+|**lockTime**|Float|Time of SQL Statement Waiting for Lock, Unit: Second|
 |**rowsExamined**|Integer|Rows of SQL Statement Scanning|
 |**rowsReturned**|Integer|Rows of SQL Statement Return|
 |**sql**|String|SQL Statement|
