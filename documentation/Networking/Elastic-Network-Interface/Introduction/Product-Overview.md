@@ -1,6 +1,6 @@
 # Product Overview
 
-ENI is a virtual network interface, making ENI can be associated on the VM to connect the VM to different networks. The ENI is applicable in building application scenarios such as business traffic separation, multiply businesses hosting and network high availability. The JD Cloud ENI is region-level, which can be associated to any availability zone VM in the virtual private cloud. Each VM can be associated with multiple ENIs, and the associated number depends on the instance type of VM.
+An ENI is a virtual network interface, making ENI can be associated on the VM to connect the VM to different networks. The ENI is applicable in building application scenarios such as business traffic separation, multiply businesses hosting and network high availability. The JD Cloud ENI is region-level, which can be associated to any availability zone VM in the virtual private cloud. Each VM can be associated with multiple ENIs, and the associated number depends on the instance type of VM.
 
 The ENI mainly has the following features:
 
