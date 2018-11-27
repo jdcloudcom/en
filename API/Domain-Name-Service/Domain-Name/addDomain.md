@@ -40,9 +40,9 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domainAdd
 ### Domain
 |Name|Type|Description|
 |---|---|---|
-|**createTime**|Integer|Creation Time, Format Unix Timestamp |
+|**createTime**|Long|Creation Time, Format Unix Timestamp, Time Unit: Millisecond|
 |**domainName**|String|Domain Name String|
-|**expirationDate**|Integer|Expiration Time, Format Unix Timestamp|
+|**expirationDate**|Long|Expiration Time, Format Unix Timestamp, Time Unit: Millisecond|
 |**id**|Integer|Unique ID of the Domain Name|
 |**packId**|Integer|Package Type, 0->Free 1->Enterprise Edition 2->Advanced Enterprise Edition|
 

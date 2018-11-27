@@ -29,6 +29,7 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances
 |**instanceClass**|String|True| |Instance type code, which can be obtained through [describeInstanceClasses](../instance/describeInstanceClasses.md) API|
 |**instanceName**|String|False| |Instance name with specific rules detailed in the Help Center Documentation: [Name and Password Restrictions](../../../documentation/Cloud-Database-and-Cache/RDS/Introduction/Restrictions/SQLServer-Restrictions.md)|
 |**instanceStorageGB**|Integer|True| |Disk Size, Unit: GB|
+|**parameterGroup**|String|False| |Parameter Set ID, system will create a default parameter set by default <br>- only support MySQL|
 |**subnetId**|String|True| |Subnet ID|
 |**vpcId**|String|True| |VPC ID|
 ### ChargeSpec
@@ -42,7 +43,6 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances
 |Name|Type|Description|
 |---|---|---|
 |**result**|Result| |
-
 
 ### Result
 |Name|Type|Description|

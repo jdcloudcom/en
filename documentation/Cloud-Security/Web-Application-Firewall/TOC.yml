@@ -1,51 +1,84 @@
-  name: Web Application Firewall
-  href: 
+name: Web Application Firewall
+href:
+items:
+- name: Introduction
   items:
-  - name: Introduction
-    items:
       - name: Product Overview
-        href: Introduction/Product-Overview.md
+        href: Introduction/What-Is-WebApplication-Firewall.md
       - name: Benefits
         href: Introduction/Benefits.md
       - name: Features
-        href: Introduction/Features.md
+        href: Introduction/Functional-Description.md
       - name: Application Scenarios 
-        href: Introduction/Application-Scenarios.md    
+        href: Introduction/Scene.md
   - name: Pricing
-    items:
-      - name: Purchase Method
-        href: Pricing/Purchase-Method.md
-      - name: Purchase Process
-        href: Pricing/Purchase-Process.md
-      - name: Price Overview
-        href: Pricing/Package-Details.md         
-  - name: Operation Guide
-    items:
-    - name: To Add Web Site
-      href: Operation-Guide/Add-Web.md
-    - name: To Access Domain Name
-      href: Operation-Guide/Access-Domain-Name.md
-    - name: Modify Domain Name
-      href: Operation-Guide/Modify-Domainname.md
+  items:
+    - name: Purchase Method
+      href: Pricing/Purchase-Method.md
+    - name: Purchase Process
+      href: Pricing/Purchase-Process.md
+    - name: Price Overview
+      href: Pricing/Package-Details.md
+- name:  Quick Start
+  items:
+    - name: Add Preparation
+      href: Getting-Started/Prepare.md
+    - name: Step 1 Add website
+      href: Getting-Started/Step-1.md
+    - name: Step 2 Release Back-to-origin IP
+      href: Getting-Started/Step-2.md
+    - name: Step 3: Perform Local Verification
+      href: Getting-Started/Step-3.md 
+    - name: Step 4: Modify DNS Resolution
+      href: Getting-Started/Step-4.md
+- name: Operation Guide
+  items:
     - name: Protection Configuration
-      href: Operation-Guide/Introduction-Protection-Configuration.md
-    - name: Web Attack Protection
-      href: Operation-Guide/Web-Attack-Protection-Configuration.md
-    - name: CC Defense
-      href: Operation-Guide/CC-Attack-Protection-Configuration.md
-    - name: Precise Identity and Access Management
-      href: Operation-Guide/Precise-Access-Control.md
-  - name: FAQ
-    items:
-    - name: Add a detailed solution to the site parameters?
+      items:
+         - name: Web Application Protection
+           href: Operation-Guide/Protection-Configuration/Web-Attack-Protection.md
+         - name: CC Defense
+           href: Operation-Guide/Protection-Configuration/CC-Protection.md
+         - name: Accurate Identity and Access Management
+           href: Operation-Guide/Protection-Configuration/Precise-Access-Control.md
+         - name: Malicious IP Punishment
+           href: Operation-Guide/Protection-Configuration/Malicious-IP-Punishment.md
+         - name: IP Black and White List Configuration
+           href: Operation-Guide/Protection-Configuration/Black-and-White-List.md
+         - name: Webpage Tamper-proofing
+           href: Operation-Guide/Protection-Configuration/Tamper.md
+         - name: Customized CC Defense
+           href: Operation-Guide/Protection-Configuration/Custom-CC.md
+         - name: Crawler-proof
+           href: Operation-Guide/Protection-Configuration/Reptile-protection.md
+    - name: Protection Statistics
+      items: 
+         - name: General Layout
+           href: Operation-Guide/Protection-Statistics/overview.md
+         - name: Security Reports
+           href: Operation-Guide/Protection-Statistics/Security-Report.md
+         - name: Full Log Query
+           href: Operation-Guide/Protection-Statistics/Daily-Record.md
+    - name: Access WAF
+      items:
+         - name: cname Access Guide
+           href: Operation-Guide/Entering-WAF/Cname-access.md
+         - name: Load Balancer of WAF Origin Server
+           href: Operation-Guide/Entering-WAF/WAF-LB.md
+         - name: https Advanced Configuration
+           href: Operation-Guide/Entering-WAF/https-Advantage.md
+- name: FAQ
+  items:
+    - name: Add a detailed solution to the site parameters
       href: FAQ/Add-Website-Details.md
-    - name: Typical Questions?
+    - name: Typical Questions
       href: FAQ/Typical-Problems.md
-    - name: The detailed solution for web attack protection?
+    - name: The detailed solution for web attack protection
       href: FAQ/Web-Aattack-Protection-Detailed-Explanation.md        
-    - name: CC defense mode?
+    - name: CC defense mode
       href: FAQ/CCprotection.md        
-  - name: Related Resources
-    items:
+- name: Related Resources
+  items:
     - name: Document History
       href: Related-Resources/Document-History.md     
+

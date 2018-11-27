@@ -40,9 +40,10 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domain/{domainId}/
 |Name|Type|Description|
 |---|---|---|
 |**domainId**|Integer|Domain Name ID|
+|**endTime**|Long|Fault End Time, Unix timestamp format, time unit: millisecond|
 |**host**|String|Fault IP/Domain Name|
 |**id**|Integer| |
-|**startTime**|Integer|Fault Start Time|
+|**startTime**|Long|Fault Start Time, Unix timestamp format, time unit: millisecond|
 |**subDomainName**|String|Subdomain|
 
 ## Response code
