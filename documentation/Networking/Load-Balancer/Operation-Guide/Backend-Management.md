@@ -2,7 +2,7 @@
 
 ## Add backend service
 
-1. Enter the backend service management page by clicking the Load balancer-Details-Backend service;
+1. Enter the backend service management page by clicking the Application Load Balancer-Details-Backend service;
 
 3. Click “Create a new backend service”, turn on backend service creation page;
 
@@ -34,7 +34,7 @@
 
 	- Select health check method: HTTP and TCP;
 
-	- Set check port: input range 1-65535, if it is not filled in, the port of backend instance for receiving load balancer traffic will be the port by default;
+	- Set check port: input range 1-65535, if it is not filled in, the port of backend instance for receiving Application Load Balancer traffic will be the port by default;
 
 	- Response timeout time(s): input range 2-60s, which is the maximum timeout time for health check response;
 
@@ -56,11 +56,11 @@
 
 	- Virtual server group: The system will automatically filter out the list of server groups that can be associated now, if there is no available server group, it may click ** Create a new virtual server group ** to create;
 
-		Note: The backend instances in the optional server group must be under the same region, virtual private cloud, and availability zone as the load balancer.
+		Note: The backend instances in the optional server group must be under the same region, virtual private cloud, and availability zone as the Application Load Balancer.
 
 	- Availability Group: The system will automatically filter out the availability groups that can be associated now, if there is no availability group, please go to the Availability Group page to create;
 
-		Note: The backend instances in the optional availability group must be under the same region, virtual private cloud, and availability zone as the load balancer.
+		Note: The backend instances in the optional availability group must be under the same region, virtual private cloud, and availability zone as the Application Load Balancer.
 
 		![ALB添加服务器组](../../../../image/Networking/ALB/ALB-030.png)
 
@@ -79,15 +79,15 @@
 	
 ## Replace server group associated to the backend service
 
-1. Turn on the backend service details by clicking Load balancer-Details-backend service-Details. Click **Change** to change the associated server group;
+1. Turn on the backend service details by clicking Application Load Balancer-Details-backend service-Details. Click **Change** to change the associated server group;
 
-1. Turn on the backend service editing page by clicking the Load balancer-Details-Backend service-Editing and change the associated server group;
+1. Turn on the backend service editing page by clicking the Application Load Balancer-Details-Backend service-Editing and change the associated server group;
 
 ![ALB更换后端绑定的服务器组](../../../../image/Networking/ALB/ALB-032.png)
 	
 ## Edit backend service
 
-1. Turn on the backend service editing page by clicking the Load balancer-Details-Backend service-Editing;
+1. Turn on the backend service editing page by clicking the Application Load Balancer-Details-Backend service-Editing;
 
 1. Edit backend service configuration item, which contain the backend protocol and the port unable to be edited and the other items with editable certificates. If the listener has any associated certificate, such certificate can be modified;
 

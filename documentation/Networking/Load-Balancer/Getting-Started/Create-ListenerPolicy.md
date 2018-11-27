@@ -1,6 +1,6 @@
 # Create listening policy
 
-1. Enter the listener management page by clicking the Load balancer-Details-Listener;
+1. Enter the listener management page by clicking the Application Load Balancer-Details-Listener;
 
 2. Click Create a listener to open a listener setting page;
 
@@ -9,7 +9,7 @@
 	Frontend listening configuration:
 	
 	- Select Frontend Listening Protocol: http, https, tcp; port: 1-65535;	
-		Note: The listening port under the same load balancer cannot be duplicated, after creating the listener, the Listening Protocol, port cannot be allowed to modify;	
+		Note: The listening port under the same Application Load Balancer cannot be duplicated, after creating the listener, the Listening Protocol, port cannot be allowed to modify;	
 	- Idle connect timeout: input range 1-86400s;
 
 		![ALB前端监听配置](../../../../image/Networking/ALB/ALB-022.png)
@@ -42,7 +42,7 @@
 
 	- Select health check method: HTTP and TCP;
 	
-	- Set check port: input range 1-65535, if it is not filled in, the port of backend instance for receiving load balancer traffic will be the port by default;
+	- Set check port: input range 1-65535, if it is not filled in, the port of backend instance for receiving Application Load Balancer traffic will be the port by default;
 	
 	- Response timeout time(s): input range 2-60s, which is the maximum timeout time for health check response;
 	
@@ -64,8 +64,8 @@
 	
 		 Virtual server group: The system will automatically filter out the list of server groups that can be associated now, if there is no available server group, it may click “Create a new virtual server group” to create;	
 	
-		Note: The backend instances in the optional server group must be under the same region, virtual private cloud, and availability zone as the load balancer.
+		Note: The backend instances in the optional server group must be under the same region, virtual private cloud, and availability zone as the Application Load Balancer.
 
-	- Availability Group: The system will automatically filter out the availability groups that can be associated now, if there is no availability group, please go to the Availability Group page to create; note: The backend instances in the optional availability group must be under the same region, virtual private cloud, and availability zone as the load balancer.
+	- Availability Group: The system will automatically filter out the availability groups that can be associated now, if there is no availability group, please go to the Availability Group page to create; note: The backend instances in the optional availability group must be under the same region, virtual private cloud, and availability zone as the Application Load Balancer.
 
 		![ALB添加服务器组](../../../../image/Networking/ALB/ALB-025.png)

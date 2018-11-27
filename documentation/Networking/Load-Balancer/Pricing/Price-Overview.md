@@ -1,12 +1,12 @@
 # Price overview
 
-The load balancer product of JD Cloud is paid by configuration.
+The Application Load Balancer product of JD Cloud is paid by configuration.
 
 ## Configuration billing
 
 Billing by the actual usage of the resource, the statistical time is accurate to the second, suitable for scenarios with large fluctuations in business volume;
 
-Turn-on instruction: If EIP is packaged and created when turning on the load balancer paid by configuration, your account balance shall not be less than RMB 50 to ensure your normal use.
+Turn-on instruction: If EIP is packaged and created when turning on the Application Load Balancer paid by configuration, your account balance shall not be less than RMB 50 to ensure your normal use.
 
 If the account balance is less than RMB 50, you need to recharge before use.
 

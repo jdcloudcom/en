@@ -4,17 +4,17 @@
 
 - Networking preparation
 
-	Plan for load balancer, and region, availability zone, virtual private cloud, etc. of VM and containers as backend server in advance, according to business deployment needs.
+	Plan for Application Load Balancer, and region, availability zone, virtual private cloud, etc. of VM and containers as backend server in advance, according to business deployment needs.
 	
-	Note: VM and containers as backend server need to be in the same region, virtual private cloud with load balancer.
+	Note: VM and containers as backend server need to be in the same region, virtual private cloud with Application Load Balancer.
 
 - Server preparation
 
 	It is necessary to create VM and containers for carrying business traffic in advance, and ensure that the ports needed for listening are opened, and that security groups and ACL policies are properly configured.
 
-- Load balancer instance
+- Application Load Balancer instance
 
-	Create a load balancer instance, and set up the region, availability zone, network, security group and other configurations.
+	Create a Application Load Balancer instance, and set up the region, availability zone, network, security group and other configurations.
 
 ##Create an HTTPS listener
 
@@ -44,7 +44,7 @@
 
 - If there is no available virtual server group, click **Create new virtual server group** to create a new virtual server group. VM and containers can be selected to define the port and weight of the instance
 	
-	Note: Only VM and container resources in the same virtual private cloud with load balancer can be selected.
+	Note: Only VM and container resources in the same virtual private cloud with Application Load Balancer can be selected.
 
 	![ALB后端服务设置](../../../../image/Networking/ALB/ALB-050.png)
 

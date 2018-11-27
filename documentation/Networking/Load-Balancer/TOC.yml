@@ -1,4 +1,4 @@
-  name: Load Balancer
+  name: Application Load Balancer
   href: 
   items:
   - name: Introduction
@@ -33,7 +33,7 @@
         href: Pricing/Renew-Process.md
   - name: Getting Started
     items:
-      - name: Create Load Balancer Instance
+      - name: Create Application Load Balancer Instance
         href: Getting-Started/Create-Instance.md
       - name: Create Listening Policy
         href: Getting-Started/Create-ListenerPolicy.md
@@ -49,9 +49,9 @@
     items:
       - name: Configuration Guide
         href: Operation-Guide/Start-From-Here.md
-      - name: Create Load Balancer Instance
+      - name: Create Application Load Balancer Instance
         href: Operation-Guide/Create-ALB-Instance.md
-      - name: Load Balancer Management
+      - name: Application Load Balancer Management
         href: Operation-Guide/ALB-Instance-Management.md
       - name: Listener Management
         href: Operation-Guide/Listener-Management.md
@@ -63,21 +63,21 @@
         href: Operation-Guide/Monitoring.md           
   - name: Best Practices
     items:
-    - name: Deploy HTTP service by load balancer
+    - name: Deploy HTTP service by Application Load Balancer
       href: Best-Practices/Deploy-HTTPS-Service-with-ALB.md
-    - name: Deploy TCP service by load balancer
+    - name: Deploy TCP service by Application Load Balancer
       href: Best-Practices/Deploy-TCP-Service-with-ALB.md
-    - name: Deploy multiple-port business and server reuse service by load balancer
+    - name: Deploy multiple-port business and server reuse service by Application Load Balancer
       href: Best-Practices/Deploy-Multiple-Listener-single-backend-ALB.md
-    - name: Deploy availability business by load balancer
+    - name: Deploy availability business by Application Load Balancer
       href: Best-Practices/Deploy-High-Availability-Service-with-ALB.md
     - name: HTTP listener provide session persistence service based on cookie
       href: Best-Practices/Session-Sticky-with-ALB.md
-    - name: Deploy service base on virtual machine and container by load balancer
+    - name: Deploy service base on virtual machine and container by Application Load Balancer
       href: Best-Practices/Distribute-service-to-vm-and-container-with-ALB.md
-    - name: Deploy auto scaling business on the server by load balancer
+    - name: Deploy auto scaling business on the server by Application Load Balancer
       href: Best-Practices/AG-as-backend-server.md
-    - name: Conversion between public network load balancer and private network load balancer
+    - name: Conversion between public network Application Load Balancer and private network Application Load Balancer
       href: Best-Practices/Switch-between-Internal-and-External-ALB.md
   - name: FAQ
     href: FAQ/FAQ.md

@@ -1,14 +1,14 @@
 # Purchase Procedure
 
-This text will introduce the purchase entrance of the load balancer instance.
+This text will introduce the purchase entrance of the Application Load Balancer instance.
 
 ## Entrance 1: [Product Introduction Page](https://www.jdcloud.com/products/loadbalance)
 1. Login to JD Cloud official website [https://www.jdcloud.com/](https://www.jdcloud.com/).
-2. Select “Product>Network Load Balancer”, see the picture below for details.
+2. Select “Product>Network Application Load Balancer”, see the picture below for details.
 
 ![ALB](../../../../image/Networking/ALB/ALB-011.png)
 
-3. The product introduction page of load balancer will pop up, click on **Buy Now**.
+3. The product introduction page of Application Load Balancer will pop up, click on **Buy Now**.
 
 ![ALB-buy](../../../../image/Networking/ALB/ALB-012.png)
 

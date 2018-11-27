@@ -2,12 +2,12 @@
 
 ## 1. Service Scope ##
 
-The load balancer provided by JD Cloud is a load balancing service that distributes traffic to multiple cloud servers. Load balancer extends the external service capability of the application system through traffic distribution, improving application system availability by eliminating single points of fault.
+The Application Load Balancer provided by JD Cloud is a load balancing service that distributes traffic to multiple cloud servers. Application Load Balancer extends the external service capability of the application system through traffic distribution, improving application system availability by eliminating single points of fault.
 
 ## 2. Service Level Indicator ##
 **2.1 Service Functions**
 
-Load balancer has advanced functions such as self-service management, automatic fault recovery and anti-network attacks. It is suitable for community websites, enterprise official websites, portals, E-commerce websites, SAAS applications and game applications. For details on all the specific functions of the load balancing service, please refer to the detailed description document, technical document and helping document provided by JD Cloud on the official website. All the functional changes of load balancer that may affect users will be announced to the users.
+Application Load Balancer has advanced functions such as self-service management, automatic fault recovery and anti-network attacks. It is suitable for community websites, enterprise official websites, portals, E-commerce websites, SAAS applications and game applications. For details on all the specific functions of the load balancing service, please refer to the detailed description document, technical document and helping document provided by JD Cloud on the official website. All the functional changes of Application Load Balancer that may affect users will be announced to the users.
 
 **2.2 Service Availability**
 
@@ -99,11 +99,11 @@ The load balancing providing system has flexible expansion capacity and can be m
 
 **2.4 Fault Recovery Capability**
 
-JD Cloud provides 7×24 hours of operation maintenance for the load balancer instance of the paying users, and provides technical support by means of telephone fault reporting, and has a series of fault emergency response mechanisms such as fault monitoring, automatic alarm, fast positioning, fast recovery, etc.
+JD Cloud provides 7×24 hours of operation maintenance for the Application Load Balancer instance of the paying users, and provides technical support by means of telephone fault reporting, and has a series of fault emergency response mechanisms such as fault monitoring, automatic alarm, fast positioning, fast recovery, etc.
 
 **2.5 Network Access Performance**
 
-When an user turns on the JD cloud load balancing service, the user can select the public network exit bandwidth required for each load balancer instance or adopt the method of billing by traffic; the public network exit bandwidth can be configured from 1Mbps to 100Mbps. JD Cloud provides BGP multi-line access to ensure the quality of network access for users.
+When an user turns on the JD cloud load balancing service, the user can select the public network exit bandwidth required for each Application Load Balancer instance or adopt the method of billing by traffic; the public network exit bandwidth can be configured from 1Mbps to 100Mbps. JD Cloud provides BGP multi-line access to ensure the quality of network access for users.
 
 **2.6 Service Metering Accuracy**
 
@@ -115,7 +115,7 @@ The principle of “100 times compensation for faults” is implemented for JD C
 
 2.7.1 Compensation Scope
 
-In the event of failure of normal use of load balancer due to JD Cloud fault, or failure of normal website access due to JD Cloud fault, JD Cloud will compensate for the unavailability time, excluding the service unavailability time caused by the following reasons:
+In the event of failure of normal use of Application Load Balancer due to JD Cloud fault, or failure of normal website access due to JD Cloud fault, JD Cloud will compensate for the unavailability time, excluding the service unavailability time caused by the following reasons:
 
 1) Caused by the system maintenance that JD Cloud have notified the users in advance, including cutover, maintenance, upgrade and simulation fault drill;
 
@@ -139,17 +139,17 @@ In the event of failure of normal use of load balancer due to JD Cloud fault, or
 
 Fault Time = Actual Unavailable Time
 
-For the monthly package load balancer, compensation shall be made by the means of compensating service duration at the 100 times of fault time/single instance.
+For the monthly package Application Load Balancer, compensation shall be made by the means of compensating service duration at the 100 times of fault time/single instance.
 
-For the load balancer paid by configuration, compensation shall be made by the means of coupons at the single instance compensation amount = average charge per hour of 24 hours before the fault/60 x fault time x 100.
+For the Application Load Balancer paid by configuration, compensation shall be made by the means of coupons at the single instance compensation amount = average charge per hour of 24 hours before the fault/60 x fault time x 100.
 
 Description:
 
-If the usage time of load balancer paid by configuration is less than 24 hours, the charge shall be calculated in accordance with the average value of the actual usage duration, and the fault time shall be calculated by minutes.
+If the usage time of Application Load Balancer paid by configuration is less than 24 hours, the charge shall be calculated in accordance with the average value of the actual usage duration, and the fault time shall be calculated by minutes.
 
-The total compensation amount shall not exceed the total amount of current service cash charge already paid for a single load balancer;
+The total compensation amount shall not exceed the total amount of current service cash charge already paid for a single Application Load Balancer;
 
-Compensation for load balancer is only provided for the load balancer itself other than the virtual machine under the load balancer.
+Compensation for Application Load Balancer is only provided for the Application Load Balancer itself other than the virtual machine under the Application Load Balancer.
 
 ## 3. Miscellaneous ##
 

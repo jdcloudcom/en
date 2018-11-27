@@ -4,9 +4,9 @@
 
 - Networking preparation
 
-	Plan for load balancer, and region, availability zone, virtual private cloud, etc. of VM and containers as backend server in advance, according to business deployment needs.
+	Plan for Application Load Balancer, and region, availability zone, virtual private cloud, etc. of VM and containers as backend server in advance, according to business deployment needs.
 	
-	Note: VM and containers as backend server need to be in the same region, virtual private cloud with load balancer.
+	Note: VM and containers as backend server need to be in the same region, virtual private cloud with Application Load Balancer.
 
 - Server preparation
 
@@ -16,7 +16,7 @@
 
 - Frontend listening configuration:
 	
-	Assume that you have created a load balancer instance, VM, and a container resource, take HTTP listener as an example as below, explain how to deploy VM and container resource as backend server.
+	Assume that you have created a Application Load Balancer instance, VM, and a container resource, take HTTP listener as an example as below, explain how to deploy VM and container resource as backend server.
 
 	Click **Add** to create a listener: select HTTP Protocol, configure port, idle connection timeout, and click Next.
 
