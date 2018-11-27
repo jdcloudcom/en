@@ -1,6 +1,6 @@
 # Select the Appropriate Forwarding Mode
 
-When the Advanced Anti-DDoS Pro configures forwarding policy, multiple flexible forwarding modes are available to meet different requirements for business scenarios.
+When the Anti-DDoS Pro configures forwarding policy, multiple flexible forwarding modes are available to meet different requirements for business scenarios.
 The selection of the forwarding mode is applicable to the case where multiple servers are available at the backend, and the Load Balancer is carried out by different policies.
 
 ## Specification of Forwarding Rules

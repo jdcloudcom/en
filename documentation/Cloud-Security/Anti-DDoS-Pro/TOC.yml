@@ -7,7 +7,7 @@
       herf : Introduction/Product-Overview.md
     - name: Core Concepts
       herf: Introduction/Core-Concepts.md
-    - name: Basic Infrastructure
+    - name: Basic Architecture
       herf: Introduction/Basic-Infrastructure.md
     - name: Benefits
       herf: Introduction/Benefits.md
@@ -29,7 +29,7 @@
       herf: Pricing/Price-Overview.md
     - name: Purchase Process
       herf: Pricing/Purchase-Process.md 
-    - name: Renew-Process
+    - name: Renew Process
       herf: Pricing/Renew-Process.md
   - name: Getting Started
     items:
@@ -41,7 +41,7 @@
       herf: Getting-Started/Non-Web-Service-Forwarding-Rule.md
     - name: Web Service Forwarding Rules
       herf: Getting-Started/Web-Service-Forwarding-Rule.md
-    - name: Release the Back-to-source IP
+    - name: Release the Back-to-origin IP
       herf: Getting-Started/Whitelist-local-IP-subnet.md
     - name: Verify Configuration
       herf: Getting-Started/Verify-Local-Settings.md
@@ -65,11 +65,11 @@
       herf: Operation-Guide/Choose-Suitable-Forwarding-Mode.md   
   - name: Best Practices
     items:
-    - name: Scheme Instructions of Advanced Anti-DDoS Pro Combining Web Application Firewall
+    - name: Scheme Instructions of Anti-DDoS Pro Combining Web Application Firewall
       herf: Best-Practices/Anti-DDoS-Pro-and-WAF.md
-    - name: Scheme Instructions of Local Protection+Advanced Protection
+    - name: Scheme Instructions of Local Protection+ Anti-DDoS Pron
       herf: Best-Practices/Local-Anti-Basic-DDoS-and-Anti-DDoS.md
-    - name: Scheme Instructions of Advanced Anti-DDoS Pro Combining Application Security Gateway
+    - name: Scheme Instructions of Anti-DDoS Pro Combining Application Security Gateway
       herf: Best-Practices/Scheme-Instructions.md 
   - name: Tutorial
     status:0    

@@ -1,10 +1,10 @@
 # Billing Overview
 
 ## Billing Item
-The billing items of JD Cloud Advanced Anti-DDoS Pro include basic protection, elastic protection, and business bandwidth.
+The billing items of JD Cloud Anti-DDoS Pro include basic protection, elastic protection, and business bandwidth.
 
 ### Basic Protection
-Advanced Anti-DDoS Pro provides fixed defense capabilities, including fixed attack protection peak value (Gbps) and CC defense peak value (QPS). Monthly package.
+Anti-DDoS Pro provides fixed defense capabilities, including fixed attack protection peak value (Gbps) and CC defense peak value (QPS). Monthly package.
 The price of basic protection varies with the ISP lines selected. The optional ISP lines are Telecom, Telecom + Unicom, and Telecom + Unicom + CMCC's ISP line.
 
 ### Elastic Protection
@@ -24,17 +24,17 @@ If the attack does not exceed the defense peak value of basic protection, you wi
 
 
 ## Renewal Rules
-Monthly package renewal: extends the expiration time of Advanced Anti-DDoS Pro instance. The renewal duration can be from 1 month to 9 months, 1 year, 2 years and 3 years. If the renewal is made before the expiration date, the start time of the new order is the expiration date of the original order. If the renewal is made after the expiration, the start time of the new order is the day of renewal;
-Batch renewal: Batch renewal for multiple Advanced Anti-DDoS Pro instances will extend the usage duration of the selected resources according to the selected renewal duration by the user.
+Monthly package renewal: extends the expiration time of Anti-DDoS Pro instance. The renewal duration can be from 1 month to 9 months, 1 year, 2 years and 3 years. If the renewal is made before the expiration date, the start time of the new order is the expiration date of the original order. If the renewal is made after the expiration, the start time of the new order is the day of renewal;
+Batch renewal: Batch renewal for multiple Anti-DDoS Pro instances will extend the usage duration of the selected resources according to the selected renewal duration by the user.
 
 
 ## Arrear/Expiration Instructions
 ### Monthly Package
-After the instance expires, the billing status will be marked as expiration, and the Advanced Anti-DDoS Pro service will be degraded to the basic protective capability for 2G. If the renewal is not made within 7 days, the instance will be deleted 7 days later, and all data configurations of the instance as well. Once deleted, the instance data cannot be recovered.
-If the renewal is made within 7 days, the minimum bandwidth protective capability and elastic protective capability can be back to normal right after renewal. Before your Advanced Anti-DDoS Pro instance expires, JD Cloud will send you reminds in form of mail and text message. Please check and renew in time; when your Advanced Anti-DDoS Pro instance expires, you will receive a mail and text message to notify that your resources have expired. Be sure to view the notification and renew in time to avoid unnecessary losses.
+After the instance expires, the billing status will be marked as expiration, and the Anti-DDoS Pro service will be degraded to the basic protective capability for 2G. If the renewal is not made within 7 days, the instance will be deleted 7 days later, and all data configurations of the instance as well. Once deleted, the instance data cannot be recovered.
+If the renewal is made within 7 days, the minimum bandwidth protective capability and elastic protective capability can be back to normal right after renewal. Before your Anti-DDoS Pro instance expires, JD Cloud will send you reminds in form of mail and text message. Please check and renew in time; when your Anti-DDoS Pro instance expires, you will receive a mail and text message to notify that your resources have expired. Be sure to view the notification and renew in time to avoid unnecessary losses.
 
 ### Pay-As-You-Go of Elastic Traffic
-Your Advanced Anti-DDoS status will be changed to "arrear" when the balance in your account plus the sum of coupon that can be used to pay that resource is insufficient to pay the charges of elastic traffic of the previous billing period (24 hours). The elastic protective capability of Advanced Anti-DDoS instance will be deactivated and the minimum protective capacity will be reduced to 2G.
+Your Anti-DDoS status will be changed to "arrear" when the balance in your account plus the sum of coupon that can be used to pay that resource is insufficient to pay the charges of elastic traffic of the previous billing period (24 hours). The elastic protective capability of Anti-DDoS instance will be deactivated and the minimum protective capacity will be reduced to 2G.
 
 
 ## Related Reference

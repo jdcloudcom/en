@@ -1,9 +1,9 @@
 # Restrictions
 
-Part of the constraints in Advanced Anti-DDoS Pro needs to be noted.
+Part of the constraints in Anti-DDoS Pro needs to be noted.
 
 ## Capability Restraint of Package
-The Advanced Anti-DDoS Pro is of standard package by fault and only provides protection of up to 300G. To purchase better protection, please contact the customer service.
+The Anti-DDoS Pro is of standard package by fault and only provides protection of up to 300G. To purchase better protection, please contact the customer service.
 
 ## Restraint of Upgrade and Degradation
 - Basic protection and service bandwidth: can only be upgraded and cannot be degraded.
@@ -16,7 +16,7 @@ After the purchase is completed, no matter whether there is attack or not, there
 No charges when you purchase the package of elastic protection. However, if the actual attack reaches the peak value of elastic range, there will be pay orders on the day after and the billing depends on the attack.
 
 ## Restraint of Instance Scale
-An instance of Advanced Anti-DDoS Pro only provides 60 ports and 60 domains by default. In case of needs for more ports and domains, please purchase multiple instances.
+An instance of Anti-DDoS Pro only provides 60 ports and 60 domains by default. In case of needs for more ports and domains, please purchase multiple instances.
 
 ## Related Reference
 

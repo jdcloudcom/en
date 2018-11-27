@@ -1,5 +1,5 @@
 # Core Concepts
-Please refer to the following the concepts and explanations used in the help documentation of Advanced Anti-DDoS Pro.
+Please refer to the following the concepts and explanations used in the help documentation of Anti-DDoS Pro.
 
 - **DoS (Denial of Service)**: That is, the denial of service attack. The attack is to use the defect in the service functions of target system network or consume directly the system resources. The purpose is to make the system of the target customer unavailable and cannot provide normal service.
 
@@ -7,4 +7,4 @@ Please refer to the following the concepts and explanations used in the help doc
 
 - **CNAME**: CNAME record. That is, to implement domain name resolution from one to another. CNAME can point multiple machine names to one cname to realize quick change of the IP address.
 
-- **Black hole**: Black hole means that when the attack traffic on the server exceeds the upper limit of advanced protection package purchased by the user, JD Cloud Advanced Anti-DDoS will shield the Internet visit to the server
+- **Black hole**: Black hole means that when the attack traffic on the server exceeds the upper limit of Anti-DDoS Pro package purchased by the user, JD Cloud Anti-DDoS Pro will shield the Internet visit to the server

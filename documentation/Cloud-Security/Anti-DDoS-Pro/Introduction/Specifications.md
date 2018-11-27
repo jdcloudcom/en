@@ -1,6 +1,6 @@
 # Specifications
 
-The Advanced Anti-DDoS Pro currently supports the following instance specifications.
+The Anti-DDoS Pro currently supports the following instance specifications.
 
 ## Instance Specification List
 

@@ -3,20 +3,20 @@ CC defense rules are of Web Service protection, so you need to switch to the Web
 
 The steps are as follows:
 
-- First, you need to log in to [Advanced Anti-DDoS Pro Console](https://ip-anti-console.jdcloud.com/instancelist).
+- First, you need to log in to [Anti-DDoS Pro Console](https://ip-anti-console.jdcloud.com/instancelist).
 - Find the instance that needs to be configured. Click the instance name to enter the **Instance Details** page.
 - Switch to **Website Forwarding Setting**
-    ![Website Forwarding Rules](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/web-rule%2002.png)
+    ![Website Forwarding Rules](https://github.com/jdcloudcom/cn/blob/edit/image/%20Anti-DDoSPro/web-rule%2002.png)
 
 ### Operation Steps
 
 1. Click **Protection Rules** to expand the configuration of protection rules.
 
-    ![Website Forwarding Rules](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/web-rule%2004.png)
+    ![Website Forwarding Rules](https://github.com/jdcloudcom/cn/blob/edit/image/%20Anti-DDoSPro/web-rule%2004.png)
 
 2. Configure global CC defense policy.
 
-    ![Website Forwarding Rules](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/CC%20rules%2001.png)
+    ![Website Forwarding Rules](https://github.com/jdcloudcom/cn/blob/edit/image/%20Anti-DDoSPro/CC%20rules%2001.png)
 
     The following is the interpretation of the rules:
     
@@ -41,5 +41,5 @@ The steps are as follows:
 
 5. Configure Speed Limit
 
-    * Advanced protection supports limiting the visit speed of source IP. Click the "Edit" button in the speed limit rule for settings. The minimum time can be set to seconds.
+    * Anti-DDoS Pro supports limiting the visit speed of source IP. Click the "Edit" button in the speed limit rule for settings. The minimum time can be set to seconds.
  

@@ -1,5 +1,5 @@
 # Billing Instructions
-The price of Advanced Anti-DDoS Pro products is as follows, wherein the elastic protection is optional.
+The price of Anti-DDoS Pro products is as follows, wherein the elastic protection is optional.
 
 
 ## Basic Protection

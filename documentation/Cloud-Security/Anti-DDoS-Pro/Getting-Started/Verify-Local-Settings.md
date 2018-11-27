@@ -4,14 +4,14 @@ This step **is not mandatory**
 <Br/>But to maximize the stability of your business, we recommend that you conduct a local test before you modify DNS resolution.
 
 ## Precondition
-- The Advanced Anti-DDoS Pro has been successfully purchased, the billing status is normal, and the forwarding rules have been well configured.
+- The Anti-DDoS Pro has been successfully purchased, the billing status is normal, and the forwarding rules have been well configured.
 
 ## Local Test Procedures
 1. Log in to any one Linux server;</br>
 2. Enter the following contents at the command line:</br>
 curl -x cname:port DomainName
 <Br/>E.g.: <Br/>
-![Verify Configuration](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/Verify-Local-Settings.png)
+![Verify Configuration](https://github.com/jdcloudcom/cn/blob/edit/image/%20Anti-DDoSPro/Verify-Local-Settings.png)
 <Br/>If you return to the page contents of access domain, it indicates that the configuration is successfully made.
 
 ## Related Reference
@@ -19,5 +19,5 @@ curl -x cname:port DomainName
 - [Create Instance](Create-Instance.md)
 - [Non-Web Service Rule](Non-Web-Service-Forwarding-Rule.md)
 - [Web Service Rule](Web-Service-Forwarding-Rule.md)
-- [Release Back-to-source IP](Whitelist-local-IP-subnet.md)
+- [Release Back-to-origin IP](Whitelist-local-IP-subnet.md)
 - [Billing Rules](../Pricing/Billing-Rules.md)
