@@ -12,7 +12,7 @@
 
  1. Open Console, select [Elastic Compute>>Container Service>>Container Instance](https://cns-console.jdcloud.com/host/container/list);  
  2. Select the region where the container instance to be created is located, and click **Create** button to access to the container instance purchase page; it is recommended that you choose the region where the instance is located and the availability zone according to the business situation.  
- Note: Currently, it supports cn-north-1 and cn-east-2 regions and offers two availability zones as availability zone A and availability zone B; as for the online time of other regions, please wait.  
+ Note: Currently, it supports cn-north-1, cn-east-2 and cn-south-1 regions; as for the online time of other regions, please wait.  
  3. Select billing model: monthly package and pay by configuration; as for monthly package, pay monthly to purchase resource and as for pay by configuration, billing is made as per the length of time actually used (accurate to seconds). Regarding the difference between the two billing methods, please refer to [the billing rules](https://docs.jdcloud.com/cn/native-container/billing-rules).  
  4. Selection of region and availability zone: In this step, you can still select the area corresponding to the container (cn-north-1) and the availability zone. Please note that “The resource intranet in different regions is not interlinked, and cannot be changed after creation", if the selected region quota is full, the quota can be increased by open ticket.  
  5. Select image:  

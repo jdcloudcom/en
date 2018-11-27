@@ -34,21 +34,3 @@ If a network ACL is set for the subnet selected when the JD Cloud RDS is created
 
 ## How to modify parameters of JCS for MySQL service instance?
 At present, user are not allowed to modify JCS for MySQL instance parameters in JD Cloud. Therefore, users can feed back the demands through open ticket to the engineers of JD Cloud, and the engineers will help give assistance in the modification.
-
-## VM's Failure to Access RDS
-Following conditions shall be met for the VM accessing RDS:
-- The VM shall be in one VPC with RDS.
-- VM may fail to access database due to wrong rules of the security group configured in the VM. The correct configuration of the VM security group is given in the VM settings.
-
-## JCS for SQL Service Software License
-- The JCS for SQL server service already contains the Microsoft SQL Server software license, and will be authorized by Microsoft SQL Server license after the instance is created. You don't have to purchasethe JCS for SQL Server license separately.
-- When a SQL Server instance is expired and deleted, the corresponding software license will fail accordingly, and you cannot use the original license for other authorization.
-- The JCS for SQL Server Service does not support users' own SQL Server license temporarily.
-
-## The historical data in JCS for SQL Server performance analysis cannot be seen after the JCS for SQL Server service instance is rebooted.
-The data in the performance analysis is saved in the instance memory. The performance analysis data will be lost after the instance is rebooted. You can use following two OpenAPIs to export the data if demanding the historical data analysis.
-- describeIndexPerformance
-- describeQueryPerformance
-
-## Users still fails to connect to the instance through the internet after the RDS instance access.
-In default, the RDS White List is only available to the VPC where this instance resides to ensure data security. Thus, you need to add your new IP address in the White List to access the database instance.

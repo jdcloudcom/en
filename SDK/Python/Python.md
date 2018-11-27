@@ -34,10 +34,11 @@ The calling of the Python SDK is mainly divided into four steps:
 The following is an example of a call to query the VM instance type
 
 ```python
+# coding=utf-8
 from jdcloud_sdk.core.credential import Credential
 from jdcloud_sdk.services.vm.client.VmClient import VmClient
 from jdcloud_sdk.services.vm.apis.DescribeInstanceTypesRequest \
-    import DescribeInstanceTypesParameters, DescribeInstanceTypesRequest 
+    import DescribeInstanceTypesParameters, DescribeInstanceTypesRequest
 
 access_key = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 secret_key = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
@@ -49,11 +50,10 @@ try:
     request = DescribeInstanceTypesRequest(parameters)
     resp = client.send(request)
     if resp.error is not None:
-        print resp.error.code, resp.error.message
-        return
-    print resp.result
-except Exception, e:
-    print e
+        print(resp.error.code, resp.error.message)
+    print(resp.result)
+except Exception as e:
+    print(e)
     #Error Handling
 ```
 

@@ -40,9 +40,11 @@ subjects:
 roleRef:
   kind: ClusterRole
   name: cluster-admin
-  apiGroup: rbac.authorization.k8s.io`
+  apiGroup: rbac.authorization.k8s.io
+```
 Create a jcr-credential-cron.yaml file and set to obtain Token every hour. Please add JDCLOUD_ACCESS_KEY and JDCLOUD_SECRET_KEY content when using it. The content of yaml is as follows:
-`apiVersion: batch/v1beta1
+```
+apiVersion: batch/v1beta1
 kind: CronJob
 metadata:
   name: jdcloud-jcr-credential-cron
