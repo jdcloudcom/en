@@ -2,7 +2,7 @@
 
 ## Add listener
 
-1. Enter the listener management page by clicking the Application Load Balancer-Details-Listener;
+1. Enter the listener management page by clicking the Application Application Load Balancer-Details-Listener;
 
 2. Click Create a listener to open a listener setting page;
 
@@ -10,8 +10,8 @@
 	
 	Frontend listening configuration:
 	
-	- Select Frontend Listening Protocol: http, https, tcp; port: 1-65535;	
-		Note: The listening port under the same Application Load Balancer cannot be duplicated, after creating the listener, the Listening Protocol, port cannot be allowed to modify;	
+	- Select Frontend Listening Protocol: http, https, tcp and tls; port: 1-65535;	
+		Note: The listening port under the same Application Application Load Balancer cannot be duplicated, after creating the listener, the Listening Protocol, port cannot be allowed to modify;	
 	- Idle connect timeout: input range 1-86400s;
 
 		![ALB前端监听配置](../../../../image/Networking/ALB/ALB-022.png)
@@ -20,23 +20,23 @@
 
 	- Backend service by fault: Create or select an existed backend service, after selecting an existed backend service, relevant parameters cannot be modified;
 	
-		 Backend service name: define backend service name, backend services created synchronously with listeners can be viewed in the backend service list;	
+	- Backend service name: define backend service name, backend services created synchronously with listeners can be viewed in the backend service list;	
 	
-	- Backend Protocol: Display by default, if the listening protocol is http, https, the backend protocol is http, if the listening protocol is tcp, the backend protocol is tcp;
+	- Backend Protocol: Display by default, if the listening protocol is http, https, the backend protocol is http, if the listening protocol is tcp/tls, the backend protocol is tcp;
 	
 	- Port: Backend business forwarding port, input range 1-65535, ports for different backend services can be duplicated;
 	
 	- Scheduling algorithm: Weighted round robin algorithm, weighted least connection number and source IP can be selected according to actual business needs;
 	
-		 Session persistence: Off by default, which supports cookie session persistence based on cookie implant method when Backend Protocol is http;	
+	- Session persistence: Off by default, which supports cookie session persistence based on cookie implant method when Backend Protocol is http;	
 	
-		 cookie timeout: input range 0-86400, default value 0, representing the same life cycle as the browser;	
+	- cookie timeout: input range 0-86400, default value 0, representing the same life cycle as the browser;	
 	
-	- Get real IP: It is on by default when Backend Protocol is http, support to pass-through in proxyprotocol Protocol method when Backend Protocol is tcp;
+	- Get real IP: When http is used as the backend protocol, is enabled by default and cannot be disabled, the real client IP can be obtained via the X-Forwarded-For header field; when tcp is used as the backend protocol, the pass-through to the client IP via the proxy protocol is supported.
 	
 		Note: If it is gotten by turning on source IP under tcp protocol, it needs to be separately configured at the server;	
 		
-	- Get http header field: May select multiple items such as X-Forwarded-Proto, XForwarded-Port, X-Forwarded-LBIP, X-Forwarded-Host for passing-through relevant information requested by client http;
+	- Get http header field: May select multiple items such as X-Forwarded-Proto, X-Forwarded-Port, X-Forwarded-LBIP, X-Forwarded-Host for passing-through relevant information requested by client http;
 
 		![ALB后端转发配置](../../../../image/Networking/ALB/ALB-023.png)	
 
@@ -44,7 +44,7 @@
 
 	- Select health check method: HTTP and TCP;
 	
-	- Set check port: input range 1-65535, if it is not filled in, the port of backend instance for receiving Application Load Balancer traffic will be the port by default;
+	- Set check port: input range 1-65535, if it is not filled in, the port of backend instance for receiving Application Application Load Balancer traffic will be the port by default;
 	
 	- Response timeout time(s): input range 2-60s, which is the maximum timeout time for health check response;
 	
@@ -66,9 +66,9 @@
 	
 		 Virtual server group: The system will automatically filter out the list of server groups that can be associated now, if there is no available server group, it may click “Create a new virtual server group” to create;	
 	
-		Note: The backend instances in the optional server group must be under the same region, virtual private cloud, and availability zone as the Application Load Balancer.
+		Note: The backend instances in the optional server group must be under the same region, virtual private cloud, and availability zone as the Application Application Load Balancer.
 
-	- Availability Group: The system will automatically filter out the availability groups that can be associated now, if there is no availability group, please go to the Availability Group page to create; note: The backend instances in the optional availability group must be under the same region, virtual private cloud, and availability zone as the Application Load Balancer.
+	- Availability Group: The system will automatically filter out the availability groups that can be associated now, if there is no availability group, please go to the Availability Group page to create; note: The backend instances in the optional availability group must be under the same region, virtual private cloud, and availability zone as the Application Application Load Balancer.
 
 		![ALB添加服务器组](../../../../image/Networking/ALB/ALB-025.png)
 

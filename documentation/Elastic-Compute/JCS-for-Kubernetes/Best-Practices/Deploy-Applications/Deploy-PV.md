@@ -1,7 +1,7 @@
 
 # Deploy Persistent Storage
 
-JD Cloud Kubernetes Service integrates JD Cloud cloud disk, and you can use JD Cloud cloud disk service as persistent storage in the cluster.
+JD Cloud Kubernetes Service integrates JD Cloud cloud disk, and you can use JD Cloud cloud disk service as persistent storage in the cluster.  
 
 ## I. Use JD Cloud disk to define static storage.
     
@@ -29,7 +29,8 @@ spec:
 2、volumeID: Specify a cloud disk ID that provides persistent storage for JCS for Kubernetes Services under the same geographical area;  
 3、fsType: Specify file system type; currently only ext4 and xfs are supplied;  
 4、Capacity: PV will have specific storage capacity. This is set with the capacity attribute of PV.  
-5、PersistentVolume can be attached to the machine in any way supported by the resource provider. JD Cloud cloud disk currently supports only ReadWriteOnce --- it can be attached in read/write mode by a single node;  
+5、PersistentVolume can be attached to the machine in any way supported by the resource provider.
+JD Cloud cloud disk currently supports only ReadWriteOnce --- it can be attached in read/write mode by a single node;  
 The visit modes include:  
 ReadWriteOnce --- this volume can be attached by a single node in read/write mode  
 ReadOnlyMany --- this volume can be attached in read-only mode by multiple nodes  
@@ -96,6 +97,13 @@ View the attach status of volume
 
 When the static PVs in the cluster do not match the new PersistentVolumeClaim, the cluster may try to create volumes for PVC dynamically.
 
+- About Cloud Disk Service Specification of JD Cloud  
+
+| storageClassName | Corresponding Type | Specification Requirement |
+| ------ | ------ | ------ |
+| jdcloud-ssd | SSD Cloud Disk | Capacity Range: 20-1,000G, Step Size: 10G |
+| jdcloud-hdd | Premium Hdd Cloud Disk | Capacity Range: 20-3,000G, Step Size: 10G |  
+
 Create PVC
 ```
 apiVersion: v1
@@ -109,11 +117,21 @@ spec:
   resources:
     requests:
       storage: 20Gi
-```
+```  
 View Cluster PVC
-
+`kubectl get pvc`  
+Output:  
+```
+NAME                                         STATUS    VOLUME                                     CAPACITY   ACCESS MODES   STORAGECLASS   AGE
+pvc1                                         Bound     pvc-73d8538b-ebd6-11e8-a857-fa163eeab14b   20Gi       RWO            jdcloud-ssd    18s
+```  
 View Cluster PV
-
+`kubectl get pv`  
+Output:  
+```
+NAME                                       CAPACITY   ACCESS MODES   RECLAIM POLICY   STATUS    CLAIM                                                STORAGECLASS   REASON    AGE
+pvc-73d8538b-ebd6-11e8-a857-fa163eeab14b   20Gi       RWO            Delete           Bound     default/pvc1                                         jdcloud-ssd              2m
+```  
 Based on StorageClass jdcloud-ssd, a volume is created for PVC. Once PV and PVC are associated, PersistentVolumeClaim associating are exclusive, regardless of the way they are associated. The associate between PVC and PV is one –to- one mapping.
 
  

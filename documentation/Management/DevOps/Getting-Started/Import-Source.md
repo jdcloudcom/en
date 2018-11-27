@@ -20,6 +20,6 @@ Click **Quick Import**, select the region of the Virtual Machine in the import p
 
 ![Alt text](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Starting6.png)
 
-Click **Add Instance**, select **Group** - **Group Created by Default**, click **Select Server**, and check the Virtual Machine in the server page. By doing so, the Virtual Machine is added in the group.
+Click **Add Instance**, select **Group** - **group-pre-template-tenant name**, click **Select Server**, and check the Virtual Machine in the server page. By doing so, the Virtual Machine is added in the group.
 
 ![Alt text](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Starting7.png)

@@ -77,6 +77,20 @@
               href: Operation-Guide/API-Reference/Interface-Specification/Ack-Message.md
             - name: Consume Message
               href: Operation-Guide/API-Reference/Interface-Specification/Consume-Message.md
+  - name: SDK Reference
+    items:
+      - name: Java SDK
+        items:
+          - name: Environment Preparation
+            href: SDK-Rerference/Java-SDK/Environment-Preparation.md
+          - name: Creating Initialization
+            href: SDK-Rerference/Java-SDK/Initialization.md
+          - name: Normal Production Message
+            href: SDK-Rerference/Java-SDK/Produce-Standard-Message.md
+          - name: Production Sequence Message
+            href: SDK-Rerference/Java-SDK/Produce-FIFO-Message.md
+          - name: Consumption Message
+            href: SDK-Rerference/Java-SDK/Consumer-Message-SDK.md
   - name: Best Practices
     items:
     status: 0

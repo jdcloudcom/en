@@ -272,7 +272,9 @@ items:
            - name: Move Object
              href: SDK-Reference/Java-SDK/Move-Object-3.md
            - name: Generate presigned URL
-             href: SDK-Reference/Java-SDK/User-Signature-Authentication-3.md                          
+             href: SDK-Reference/Java-SDK/User-Signature-Authentication-3.md
+           - name: Video Transcoding
+             href: SDK-Reference/Java-SDK/Video-Transcoding.md
  - name: Best Practices
    items:
       - name: Use S3fs to Mount Bucket on Linux Instance

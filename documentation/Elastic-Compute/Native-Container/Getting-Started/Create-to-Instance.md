@@ -3,20 +3,22 @@
 **Preconditions**
 
 1. Before creating a container instance, you need to complete the following steps  
-2. Register a JD Cloud account, activate and verify the same, to respectively access JD Cloud registration, JD Cloud Login and Real-name Verification.  
-3. If you need to create the billing instances paid by configuration, you need to keep your balance above RMB 50. If the balance is less than the limit, please recharge your account.  
+2. Register a JD Cloud account, activate and verify the same, to respectively access [JD Cloud registration](https://accounts.jdcloud.com/p/regPage?source=jdcloud%26ReturnUrl=%2f%2fuc.jdcloud.com%2fpassport%2fcomplete%3freturnUrl%3d//www.jdcloud.com/), [JD Cloud Login](https://console.jdcloud.com/overview) and [Real-name Verification](https://uc.jdcloud.com/account/verify).  
+3. If you need to create the billing instances paid by configuration, you need to keep your balance above RMB 50. If the balance is less than the limit, please [recharge](https://uc.jdcloud.com/cost/capital/recharg) your account.  
 4. You must create a virtual private cloud and a subnet first;  
 5. If you need IAM for an instance using a security group, you can pre-create a security group or reconfigure the outbound and inbound rules of a security group.  
 
 **Action Steps**
 
- 1. Open Console, select Elastic Compute>>Container Service>>Container Instance;  
+ 1. Open Console, select [Elastic Compute>>Container Service>>Container Instance](https://cns-console.jdcloud.com/host/container/list);  
  2. Select the region where the container instance to be created is located, and click **Create** button to access to the container instance purchase page; it is recommended that you choose the region where the instance is located and the availability zone according to the business situation.  
  Note: Currently, it supports cn-north-1 and cn-east-2 regions and offers two availability zones as availability zone A and availability zone B; as for the online time of other regions, please wait.  
- 3. Select billing model: monthly package and pay by configuration; as for monthly package, pay monthly to purchase resource and as for pay by configuration, billing is made as per the length of time actually used (accurate to seconds). Regarding the difference between the two billing methods, please refer to the billing rules.  
+ 3. Select billing model: monthly package and pay by configuration; as for monthly package, pay monthly to purchase resource and as for pay by configuration, billing is made as per the length of time actually used (accurate to seconds). Regarding the difference between the two billing methods, please refer to [the billing rules](https://docs.jdcloud.com/cn/native-container/billing-rules).  
  4. Selection of region and availability zone: In this step, you can still select the area corresponding to the container (cn-north-1) and the availability zone. Please note that “The resource intranet in different regions is not interlinked, and cannot be changed after creation", if the selected region quota is full, the quota can be increased by open ticket.  
  5. Select image:  
- Repository: docker.io, or repository address corresponding to warehouse verification information. It is docker.io by default; select docker.io to create a container based on the public image provided by Docker Hub; after selecting the warehouse verification information, the container is created based on the public or private image provided by the corresponding Repository. When no warehouse authentication information is added, JD Cloud will use Docker Hub to obtain docker image by default; if a third-party private Repository is required, you will need to first add warehouse verification information to JD Cloud. Choose to add third-party Secrets to JD Cloud. Using a private image created in Docker Hub; when adding third-party warehouse verification, this address is recommended for domain name: https://index.docker.io     
+    For image selection, you can select JD Cloud Image or third party image;  
+    - JD Cloud Image: The image is saved in the Container Registry of JD Cloud, seamlessly integrated with the container instance service to implement high speed image download. Select current added repository and images in current region; if there is no created repository in current region, you can click **Create Registry** to jump to Registration Creation page. See [Container Registry Help Center](https://docs.jdcloud.com/cn/container-registry/product-overview) for details;  
+    - Image from Third Party: docker.io, or repository address corresponding to warehouse verification information. It is docker.io by default; select docker.io to create a container based on the public image provided by Docker Hub; after selecting the warehouse verification information, the container is created based on the public or private image provided by the corresponding Repository. When no warehouse authentication information is added, JD Cloud will use Docker Hub to obtain docker image by default; if a third-party private Repository is required, you will need to first add warehouse verification information to JD Cloud. Choose to add third-party Secrets to JD Cloud. Using a private image created in Docker Hub; when adding third-party warehouse verification, this address is recommended for domain name: https://index.docker.io     
  Image name: Enter the image name needed to create the container, for example: library/nginx  
  Image version: If you do not enter, the default version is latest; if you need another version, please enter the version name.  
  6. Select specification  
@@ -52,4 +54,4 @@ Description: It is not a compulsory item; you can set them on demand, and the co
  13. Confirm the number of containers and the purchase duration  
 Purchase quantity is limited by your container, cloud disk, EIP quota in the region and the amount of IP remaining on the selected subnet. If the quota is not enough, you can increase the quota by open ticket.  
 If you purchase a monthly package instance, the purchase duration shall be set, which is 1 month at shortest and 3 years at longest. Please open ticket if you need longer service duration.  
-  14. After completion of container related configuration, click **Buy Now** to complete the payment and enter the Console>>Elastic Compute>>Container Service>>Container Instance, to view the container created.  
+  14. After completion of container related configuration, click **Buy Now** to complete the payment and enter the [Console>>Elastic Compute>>Container Service>>Container Instance](https://cns-console.jdcloud.com/host/container/list), to view the container created.  

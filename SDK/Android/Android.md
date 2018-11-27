@@ -23,7 +23,7 @@ If you use Gradle to manage the project, you only need to add a corresponding de
 
 You can also download the SDK source code yourself. The source code address is [Java SDK](https://github.com/jdcloud-api/jdcloud-sdk-java).
 
-With any of the problems in the SDK use, you are welcomed to communicate at the [SDK Usage Problem Feedback Page] (https://github.com/jdcloud-api/jdcloud-sdk-java/issues) for the Github project.
+With any of the problems in the SDK use, you are welcomed to communicate at the [SDK Usage Problem Feedback Page](https://github.com/jdcloud-api/jdcloud-sdk-java/issues) for the Github project.
 
 Note: JD Cloud does not provide other downloading ways, please be sure to use the above-mentioned official download method.
 

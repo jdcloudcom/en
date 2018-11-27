@@ -49,10 +49,14 @@
     items:
       - name: Access Cluster
         href: Operation-Guide/connect-ES.md
+      - name: Use kibana
+        href: Operation-Guide/using_kibana.md
       - name: Monitor Cluster
         href: Operation-Guide/Monitoring.md
       - name: Manage Cluster
-        href: Operation-Guide/manage-cluster.md        
+        href: Operation-Guide/manage-cluster.md  
+  - name: Best Practices
+    href: Best-Practices/performance.md
   - name: FAQ
     href: FAQ/FAQ.md
   - name: API Reference

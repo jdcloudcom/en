@@ -14,5 +14,5 @@ This document introduces the important updating history of the Advanced Anti-DDo
 
 ## Related Reference
 
-- [Product Overview] (../Introduction/Product-Overview.md)
+- [Product Overview](../Introduction/Product-Overview.md)
 

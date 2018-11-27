@@ -1,8 +1,8 @@
 # Create backend service
 
-1. Enter the backend service management page by clicking the Application Load Balancer-Details-Backend service;
+1. Enter the backend service management page by clicking the Application Application Load Balancer-Details-Backend service;
 
-3. Click “Create a new backend service”, turn on backend service creation page;
+3. Click **Create a new backend service**, turn on backend service creation page;
 
 5. Backend service setting:
 	
@@ -22,9 +22,11 @@
 
 	- cookie timeout time: input range 0-86400;
 
-	- Get real IP: It is turned on and cannot be closed by default when Backend Protocol is http, support to pass-through client IP in proxyprotocol Protocol method when Backend Protocol is tcp, it is noted that turning on of session persistence needs to be separately set at the server when in tcp Protocol;
+	- Get real IP: It is turned on and cannot be closed by default when Backend Protocol is http, In such case, real IP of client can be obtained via header fields of X-Forwarded-For;; support to pass-through client IP in proxyprotocol Protocol method when Backend Protocol is tcp;
+	
+		Note: When tcp is used as the backend protocol, if it is enabled for obtaining the real IP, it needs to complete relevant configuration for proxy protocol at the backend server.
 
-	- Get HTTP header field: Support multiple items such as X-Forwarded-Proto, XForwarded-Por, X-Forwarded-LBIP, X-Forwarded-Host for passing-through relevant information requested by client http;
+	- Get HTTP header field: Support multiple items such as X-Forwarded-Proto, X-Forwarded-Port, X-Forwarded-LBIP, X-Forwarded-Host for passing-through relevant information requested by client http;
 
 		![ALB后端服务设置](../../../../image/Networking/ALB/ALB-028.png)
 
@@ -32,7 +34,7 @@
 
 	- Select health check method: HTTP and TCP;
 
-	- Set check port: input range 1-65535, if it is not filled in, the port of backend instance for receiving Application Load Balancer traffic will be the port by default;
+	- Set check port: input range 1-65535, if it is not filled in, the port of backend instance for receiving Application Application Load Balancer traffic will be the port by default;
 
 	- Response timeout time(s): input range 2-60s, which is the maximum timeout time for health check response;
 
@@ -54,11 +56,11 @@
 
 	- Virtual server group: The system will automatically filter out the list of server groups that can be associated now, if there is no available server group, it may click ** Create a new virtual server group ** to create;
 
-		Note: The backend instances in the optional server group must be under the same region, virtual private cloud, and availability zone as the Application Load Balancer.
+		Note: The backend instances in the optional server group must be under the same region, virtual private cloud, and availability zone as the Application Application Load Balancer.
 
 	- Availability Group: The system will automatically filter out the availability groups that can be associated now, if there is no availability group, please go to the Availability Group page to create;
 
-		Note: The backend instances in the optional availability group must be under the same region, virtual private cloud, and availability zone as the Application Load Balancer.
+		Note: The backend instances in the optional availability group must be under the same region, virtual private cloud, and availability zone as the Application Application Load Balancer.
 
 		![ALB添加服务器组](../../../../image/Networking/ALB/ALB-030.png)
 

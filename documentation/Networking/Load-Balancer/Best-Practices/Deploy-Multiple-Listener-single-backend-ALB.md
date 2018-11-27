@@ -7,17 +7,17 @@ For example, if you need both HTTP and HTTPS services simultaneously when deploy
 
 - Networking preparation
 
-	Plan for Application Load Balancer, and region, availability zone, virtual private cloud, etc. of VM and containers as backend server in advance, according to business deployment needs.
+	Plan for Application Application Load Balancer, and region, availability zone, virtual private cloud, etc. of VM and containers as backend server in advance, according to business deployment needs.
 	
-	Note: VM and containers as backend server need to be in the same region, virtual private cloud with Application Load Balancer.
+	Note: VM and containers as backend server need to be in the same region, virtual private cloud with Application Application Load Balancer.
 
 - Server preparation
 
 	It is necessary to create VM and containers for carrying business traffic in advance, and ensure that the ports needed for listening are opened, and that security groups and ACL policies are properly configured.
 
-- Application Load Balancer instance
+- Application Application Load Balancer instance
 
-	Create a Application Load Balancer instance, and set up the region, availability zone, network, security group and other configurations.
+	Create a Application Application Load Balancer instance, and set up the region, availability zone, network, security group and other configurations.
 
 ## Create a listener of HTTP Protocol
 
@@ -45,7 +45,7 @@ For example, if you need both HTTP and HTTPS services simultaneously when deploy
 
 	  timeout: define timeout time of cookie, use default value 0, represent the same life cycle as the browser;
 
-	7. Get real IP: Turn on by default;
+	7. Get real IP: Turn on by default: In such case, real IP of client can be obtained via header fields of X-Forwarded-For;
 
 	8. Get HTTP header field: Tick according to business needs.
 
@@ -61,11 +61,11 @@ For example, if you need both HTTP and HTTPS services simultaneously when deploy
 
 - If there is no available virtual server group, click **Create new virtual server group** to create a new virtual server group. VM and containers can be selected to define the port and weight of the instance.
 	
-	Note: Only VM and container resources in the same virtual private cloud with Application Load Balancer can be selected.
+	Note: Only VM and container resources in the same virtual private cloud with Application Application Load Balancer can be selected.
 
 	![ALB虚拟服务器组设置](../../../../image/Networking/ALB/ALB-084.png)
 
-- So far, the listener based on the TCP Protocol has been created and can be viewed in the listener list.
+- So far, the listener based on the HTTP Protocol has been created and can be viewed in the listener list.
 
 	![ALB监听器列表页](../../../../image/Networking/ALB/ALB-085.png)
 

@@ -31,7 +31,14 @@ Select RAID mode of system disk and data disk.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Public Network Bandwidth**: Under the basic network mode, user may select 1-200Mbps public network bandwidth speed. EIP is associated with Cloud Physical Server bandwidth.
 
-- Configure Server Basic Information
+When the basic network is adopted, EIP, the public network bandwidth and the Cloud Physical Server are associated with each other.
+
+The user may purchase or not purchase the EIP when creating the Cloud Physical Server. __However, EIP cannot be added after creating the Cloud Physical Server__. EIP is automatically allocated by the system, and the user cannot modify such EIP. The user may enable the public network IPV6 at the same time or not in the regions supported by IPV6 (at present, the public network IPV6 is supported by the Suqian region only).
+
+The user may select the 1-200Mbps public network bandwidth rate and make the configuration upgrade upon creation.
+For specific operation steps, please refer to the section [Public Network Bandwidth Adjustment](../Operation-Guide/Adjust-Public-Network-Bandwidth/Description-Adjust-Public-Network-Bandwidth.md).
+
+- Configure Server Basic Information:
 Configure server name, description and operating system password.
 
 ![Configuration Server](https://github.com/jdcloudcom/cn/blob/edit/image/Hyper-Converged-IDC/Cloud-Physical-Server/CPS018.png)

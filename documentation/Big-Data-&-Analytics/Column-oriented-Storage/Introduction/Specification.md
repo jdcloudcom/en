@@ -6,6 +6,6 @@ Column-oriented Storage currently supports the following Virtual Machine specifi
 
 See the following documents for Virtual Machine Specification List
 
-[Instance Type] (/documentation/Elastic-Compute/Virtual-Machines/Introduction/Instance-Type-Family.md)
+[Instance Type](/documentation/Elastic-Compute/Virtual-Machines/Introduction/Instance-Type-Family.md)
 
 
