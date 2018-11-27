@@ -10,14 +10,20 @@ To ensure that the MongoDB replica set is running properly, the JCS for MongoDB 
 |Command	|Support	|Not Support|
 |---|---|---|
 |Aggregates Commands|aggregate<br />distinct<br />count<br />group<br />mapReduce<br />| |
-|Authentication|	logout<br />authenticate<br />getnonce<br />authSchemaUpgrade<br />copydbgetnonce<br /> | |
-|Diagnostic Commands	| explain<br />listDatabases<br />dbHash<br />listCommands<br /availableQueryOptions<br />buildInfo<br />collStats<br />dbStats<br />cursorInfo<br />dataSize<br />ping<br />profile<br />top<br />whatsmyuri<br />serverStatus<br />features<br />isSelf<br />validate<br />| |
 |Geospatial Commands	|geoNear<br />geoSearch<br />| |
-|Instance Administration Commands	|renameCollection<br />dropDatabase<br />listCollections<br />drop<br />create<br />cloneCollection<br />cloneCollectionAsCapped<br />convertToCapped<br />filemd5<br />createIndexes<br />listIndexes<br />dropIndexes<br />fsync<br />connectionStatus<br />collMod<br />reIndex<br />touch<br />getParameter<br />compact<br />copydb<br />clone<br />clean<br />shutdown<br />logRotate<br />repairDatabase<br />repairCursor<br />setParameter<br />connPoolSync<br />setReadonly<br />cloneCollection<br />| |
 |Query and Write Operation Commands	 |insert<br />update<br />delete<br />findAndModify<br />getLastError<br />getPrevError<br />resetError<br />parallelCollectionScan<br />eval<br />| |
-| Query Plan Cache Commands	|planCacheListFilters<br />planCacheSetFilter<br />planCacheClearFilters<br />planCacheListQueryShapes<br />planCacheListPlans<br />planCacheClear<br />| |
-|Replication Commands	| |replSetInitiate<br />replSetFreeze<br />replSetMaintenance<br />replSetGetConfig<br />replSetRequestVotes<br />replSetReconfig<br />replSetStepDown<br />replSetSyncFrom<br />replSetElect<br />replSetUpdatePosition<br />resync<br />appendOplogNote<br />|
-|Replication Commands Diagnostic	|isMaster<br />applyOps<br />| |
-|Role Management Commands	|createRole<br />updateRole<br />dropRole<br />dropAllRolesFromDatabase<br />grantPrivilegesToRole<br />revokePrivilegesFromRole<br />grantRolesToRole<br />revokeRolesFromRole<br />rolesInfo<br />invalidateUserCache<br />| |
-|Sharding Commands	| | addShard<br />removeShard <br />getShardVersion<br />setShardVersion<br />unsetSharding<br />checkShardingIndex<br /> |
+|Query Plan Cache Commands	|planCacheListFilters<br />planCacheSetFilter<br />planCacheClearFilters<br />planCacheListQueryShapes<br />planCacheListPlans<br />planCacheClear<br />| |
+|Authentication|	logout<br />authenticate<br />getnonce<br />authSchemaUpgrade<br />copydbgetnonce<br /> | |
 |User Management Commands	|createUser<br />updateUser<br />dropUser<br />dropAllUsersFromDatabase<br />grantRolesToUser<br />revokeRolesFromUser<br />usersInfo<br />|
+|Role Management Commands	|createRole<br />updateRole<br />dropRole<br />dropAllRolesFromDatabase<br />grantPrivilegesToRole<br />revokePrivilegesFromRole<br />grantRolesToRole<br />revokeRolesFromRole<br />rolesInfo<br />invalidateUserCache<br />| |
+|Replication Commands	| isMaster<br /> applyOps<br /> |replSetAbortPrimaryCatchUp <br /> replSetFreeze <br /> replSetGetConfig <br /> replSetGetStatus <br /> replSetInitiate <br /> replSetMaintenance <br /> replSetReconfig <br /> replSetStepDown <br /> replSetSyncFrom <br /> resync <br /> addShard <br /> |
+|Sharding Commands	| | addShard <br /> addShardToZone <br /> balancerStart <br /> balancerStatus <br /> balancerStop <br /> checkShardingIndex <br /> cleanupOrphaned <br /> enableSharding <br /> flushRouterConfig <br /> getShardMap <br /> getShardVersion <br /> isdbgrid <br /> listShards <br /> medianKey <br /> moveChunk <br /> movePrimary <br /> mergeChunks <br /> removeShard <br /> removeShardFromZone <br /> setShardVersion <br /> shardCollection <br /> shardingState <br /> split <br /> splitChunk <br /> splitVector <br /> unsetSharding <br /> updateZoneKeyRange <br /> |
+|Administration Commands	|renameCollection<br />dropDatabase<br />listCollections<br />drop<br />create<br />cloneCollection<br />cloneCollectionAsCapped<br />convertToCapped<br />filemd5<br />createIndexes<br />listIndexes<br />dropIndexes<br />fsync<br />connectionStatus<br />collMod<br />reIndex<br />touch<br />getParameter<br />compact<br />copydb<br />clone<br />clean<br />shutdown<br />logRotate<br />repairDatabase<br />repairCursor<br />setParameter<br />connPoolSync<br />setReadonly<br />cloneCollection<br />| |
+|Diagnostic Commands	| explain<br />listDatabases<br />dbHash<br />listCommands<br />availableQueryOptions<br />buildInfo<br />collStats<br />dbStats<br />cursorInfo<br />dataSize<br />ping<br />profile<br />top<br />whatsmyuri<br />serverStatus<br />features<br />isSelf<br />validate<br />| |
+| System Events Auditing Commands | | logApplicationMessage |
+
+MongoDB official command table：[http://docs.mongodb.org/master/reference/command/][1]
+
+
+[1]: http://docs.mongodb.org/master/reference/command/
+
