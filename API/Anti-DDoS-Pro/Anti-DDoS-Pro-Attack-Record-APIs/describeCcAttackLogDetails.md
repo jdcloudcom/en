@@ -18,7 +18,7 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/attacklog:ccDetail
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**endTime**|String|True| |Search end time, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ|
-|**instanceId**|String|True| |Advanced Anti-DDoS Instance ID|
+|**instanceId**|String|True| |Anti-DDoS Pro Instance ID|
 |**pageNumber**|Integer|False| |Page Number: 1 by default|
 |**pageSize**|Integer|False| |Paging Size: 20 by default; value range [10, 100]|
 |**startTime**|String|True| |Start time, up to the latest 30 days, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ|

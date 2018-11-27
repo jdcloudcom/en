@@ -2,7 +2,7 @@
 
 
 ## Description
-Query the Statistic Information of Advanced Anti-DDoS Instance Protection
+Query the Statistic Information of Anti-DDoS Pro Instance Protection
 
 ## Request method
 GET

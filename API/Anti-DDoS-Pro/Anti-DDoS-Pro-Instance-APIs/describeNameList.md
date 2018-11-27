@@ -2,7 +2,7 @@
 
 
 ## Description
-Query the List of Advanced Anti-DDoS Instance Names
+Query the List of Anti-DDoS Pro Instance Names
 
 ## Request method
 GET
@@ -17,7 +17,7 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instance/describeNameList
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**id**|String|False| |Advanced Anti-DDoS Instance ID; If Blank, Query All the Instance Names|
+|**id**|String|False| |Anti-DDoS Pro Instance ID; If Blank, Query All the Instance Names|
 |**name**|String|False| |Instance Name, Fuzzy Matching Available|
 |**pageNumber**|Integer|False| |Page Number: 1 by default|
 |**pageSize**|Integer|False| |Paging Size, 10 by Default; Value Range [0, 100]|

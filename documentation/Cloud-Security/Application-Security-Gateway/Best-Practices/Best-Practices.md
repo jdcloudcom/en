@@ -1,11 +1,11 @@
-#Best Practice of Advanced Anti-DDoS-Application Security Gateway
+#Best Practice of Anti-DDoS Pro-Application Security Gateway
 
 
-**Combine Advanced Anti-DDoS with Application Security Gateway**
+**Combine Anti-DDoS Pro with Application Security Gateway**
 
 **Plan Description:**
 
-Advanced Anti-DDoS Pro +Application Security Gateway provides comprehensive security protection for JD Cloud users without additional performance overhead.
+Anti-DDoS Pro +Application Security Gateway provides comprehensive security protection for JD Cloud users without additional performance overhead.
 
  
 
@@ -15,11 +15,11 @@ Advanced Anti-DDoS Pro +Application Security Gateway provides comprehensive secu
 
 ​                                                  
 
-Best deployment architecture of Advanced Anti-DDoS Pro +Best Application Security Gateway Practice is as follows:
+Best deployment architecture of Anti-DDoS Pro +Best Application Security Gateway Practice is as follows:
 
-Ø  The security scheduling center of JD Cloud resolves the user domain name to Advanced Anti-DDoS Pro CNAME through DNS resolution.
+Ø  The security scheduling center of JD Cloud resolves the user domain name to Anti-DDoS Pro CNAME through DNS resolution.
 
-Ø  User normal access traffic and DDoS attack traffic cleaned through Advanced Anti-DDoS Pro are backed to the source to JD Cloud Virtual Private Cloud Network Load Balancer Cluster.
+Ø  User normal access traffic and DDoS attack traffic cleaned through Anti-DDoS Pro are backed to the source to JD Cloud Virtual Private Cloud Network Load Balancer Cluster.
 
 Ø  Application Security Gateway is deployed on the Load Balancer to be responsible for Web application layer security protection.
 

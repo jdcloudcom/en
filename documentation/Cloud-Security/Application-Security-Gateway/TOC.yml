@@ -61,7 +61,7 @@
             href: Operation-Guide/Protection-Configuration/Webpage-Tampering.md
   - name: Best Practices
     items:
-    - name: Advanced Anti-DDoS-Best Application Security Gateway Practice
+    - name: Anti-DDoS Pro-Best Application Security Gateway Practice
       href: Best-Practices/Best-Practices.md   
   - name: Tutorial
     items:
