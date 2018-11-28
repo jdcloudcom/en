@@ -8,7 +8,7 @@ Download of backup files for the MongoDB instances is supported, and you can dow
 1. On the "Instance Details" page, click **Backup and Recovery** to view the backup data.
 1. Select the backup you want to download. In the operation items, click **Download** to open "Download Popup".
 	
-   ![](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-020.png)
+    ![](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-020.png)
 
 1. Download the backup file to your local machine.
 
