@@ -1,13 +1,13 @@
-# Core Concept
-Before operating the ENI, please learn about the following basic concepts and terminologies of the ENI in detail.
+# Core Concepts
+Prior to performing actions on elastic network interfaces, please understand the following ENI fundamental concepts and professional terms.
 
-| English | Chinese | Description |
-| :- | :- | :- |
-| ENI | 弹性网卡 | ENI is a virtual network interface that can be applied for independently and can be elastically plugged from the VM |
-| Primary Network Interface | 主网卡 | Primary network interface is a special-type ENI that is created with the VM and has the same life cycle as the VM |
-| Secondary Network Interface | 辅助网卡 | Secondary network interface is a type of ENI that can be created and deleted independently and can be plugged elastically|
-| Primary IP | 主IP | The first private IP address assigned when the ENI was created can be specified by the user or assigned by the system and cannot be modified and released |
-| Secondary IP | 辅助IP | Other private IP addresses other than primary IP, which are assigned by the ENI, can be specified by the user or assigned by the system and can be released |
-| Elastic IP | 弹性公网IP | The elastic IP is a public IP address that can be applied independently and flexibly associated and disassociated with private IP |
-| Security group | 安全组 | Security group is a distributed and stateful firewall that filters traffic to and from an ENI |
-| MAC | MAC地址 | MAC address is the unique identifier for an ENI |
+| Concept | Description |
+| :- | :- |
+| Elastic Network Interface | An elastic network interface is a type of virtual network interface that can be created independently. The ENI can be attached to or detached from a virtual machine. |
+| Primary Network Interface | The primary network interface is a special type of ENI that is created with virtual machines and owns the same lifecycle with virtual machines. |
+| Secondary Network Interface | The secondary network interface is a type of ENI that can be created and deleted independently and can be plugged elastically. |
+| Primary IP | The primary ip is the first private ip assigned to an elastic network interface during creation. This ip can be specified by the user or assigned automatically. Currently the actions of modification and release of primary ip are not supported.  |
+| Secondary IP | The secondary ip is the private ip assigned to an elastic network interface other than the primary ip. This ip can be specified by the user or assigned automatically. The action of releasing a secondary ip is supported. |
+| Elastic IP | The elastic IP is a public IP address that can be applied independently and flexibly associated and disassociated with private IP. |
+| Security group | The security group is a distributed and stateful firewall that filters traffic to and from an ENI. |
+| MAC | MAC address is the unique identifier for an ENI. |
