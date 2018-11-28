@@ -22,62 +22,61 @@ User document format is as follows
 
 1. Create the accountAdmin01 account in the products database.
 
-   ```
-   use products
-   db.createUser( { user: "accountAdmin01",
-                    pwd: "changeMe",
-                    customData: { employeeId: 12345 },
-                    roles: [ { role: "clusterAdmin", db: "admin" },
-                             { role: "readAnyDatabase", db: "admin" },
-                             "readWrite"] },
-                  { w: "majority" , wtimeout: 5000 } )
-   ```
-
+    ```
+    use products
+    db.createUser( { user: "accountAdmin01",
+                     pwd: "changeMe",
+                     customData: { employeeId: 12345 },
+                     roles: [ { role: "clusterAdmin", db: "admin" },
+                              { role: "readAnyDatabase", db: "admin" },
+                              "readWrite"] },
+                   { w: "majority" , wtimeout: 5000 } )
+    ```
 
 2. Create a user with a role
 
-   The following operation creates an account accountUser in the products database and assigns the readWrite and dbAdmin roles to the account.
-   ```
-   use products
-   db.createUser(
-      {
-        user: "accountUser",
-        pwd: "password",
-        roles: [ "readWrite", "dbAdmin" ]
-      }
-   )
-   ```
+    The following operation creates an account accountUser in the products database and assigns the readWrite and dbAdmin roles to the account.
+    ```
+    use products
+    db.createUser(
+       {
+         user: "accountUser",
+         pwd: "password",
+         roles: [ "readWrite", "dbAdmin" ]
+       }
+    )
+    ```
 3. Create a user without a role
 
-   The following operation creates an account reportsUser in the admin library, but no role is assigned.
-   ```
-   use admin
-   db.createUser(
-      {
-        user: "reportsUser",
-        pwd: "password",
-        roles: [ ]
-      }
-   )
-   ```
+    The following operation creates an account reportsUser in the admin library, but no role is assigned.
+    ```
+    use admin
+    db.createUser(
+       {
+         user: "reportsUser",
+         pwd: "password",
+         roles: [ ]
+       }
+    )
+    ```
 
 4. Create administrator accounts with roles
 
-   The following operation creates an appAdmin account in the admin library and assigns the readWrite role of the config library to the account.
-   ```
-   use admin
-   db.createUser(
-      {
-        user: "appAdmin",
-        pwd: "password",
-        roles:
-          [
-            { role: "readWrite", db: "config" },
-            "clusterAdmin"
-          ]
-      }
-   )
-   ```
+    The following operation creates an appAdmin account in the admin library and assigns the readWrite role of the config library to the account.
+    ```
+    use admin
+    db.createUser(
+       {
+         user: "appAdmin",
+         pwd: "password",
+         roles:
+           [
+             { role: "readWrite", db: "config" },
+             "clusterAdmin"
+           ]
+       }
+    )
+    ```
 
 ## Common Roles
 
