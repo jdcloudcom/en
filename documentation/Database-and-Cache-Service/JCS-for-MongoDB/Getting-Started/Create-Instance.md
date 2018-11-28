@@ -16,11 +16,11 @@ This article describes how to create a MongoDB instance via console.
     
 3. On the "Create Instance" page, select the billing type and choose: **Monthly Package** or **Pay by Configuration**.
 
-	![Restart Instance](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-003.png)
+    ![Restart Instance](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-003.png)
 	
 4. Select an instance configuration
 
-	1. Region
+	- Region
 	
        JD Cloud's computer room is distributed in multiple locations around the world. These locations are called geographies. JCS for MongoDB currently supports cn-north-1, cn-east-2, and will support more regions in the future.
 
@@ -29,12 +29,12 @@ This article describes how to create a MongoDB instance via console.
 	   - The intranet cannot communicate between cloud service products in different regions;
 	   - When purchasing a cloud service, it is recommended to choose the region closest to your customer to reduce the access delay;
 	  
-	2. Specification configuration
+	- Specification configuration
 	   - Database Version: Currently available versions are 3.2, 3.4 and 3.6 will be released soon.
 	   - Specifications: The CPU and memory occupied by the instance, different specifications correspond to different maximum number of connections and IOPS (that is, the maximum value that can be achieved by reading and writing respectively, and the maximum number of mixed reading and writing can reach 2 times of the index).
 	   - Storage Space: The disk space occupied by the instance.
 	   
-	3. Networking
+	- Networking
 	
 	   MongoDB supports Virtual Private Cloud deployment. If you have not completed your network planning yet, please create a Virtual Private Cloud and subnet first.
 
@@ -42,15 +42,15 @@ This article describes how to create a MongoDB instance via console.
 	   
 	   Once the MongoDB instance chooses a Virtual Private Cloud, it cannot be changed. Make sure that your MongoDB instance is on the same Virtual Private Cloud as the Virtual Machines, so that your Virtual Machines cannot connect to the MongoDB instance.
 	   
-	4. Deployment method
+	- Deployment method
 	
 	    MongoDB instance supports single and multiple availability zones deployment. Single availability zone deployment means that the three physical nodes of the MongoDB instance are distributed on different physical machines in the same Availability Zone, which can provide disaster tolerance across the racks. Multiple Availability Zone deployment refers to the three physical nodes of the MongoDB instance are distributed on physical machines in different Availability Zones, which can provide disaster tolerance across the machine rooms, but there is some delay in network transmission. You can choose the deployment method based on your business requirements.
 
-	5. Password
+	- Password
 	
 	   You can reset a password when you create the instance, or you can set the password later and reset password after the MongoDB instance is created.
 
-	6. Purchase Duration
+	- Purchase Duration
 	
 	   When selecting monthly package as billing type, the purchase duration shall be specified. JCS for MongoDB supports a choice of 1 month to 3 years. Generally, the longer the purchase duration, the cheaper the unit price, and the specific promotional information can be viewed at the time of instance page creation.
 	
