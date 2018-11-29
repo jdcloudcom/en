@@ -63,6 +63,8 @@ items:
              href: Operation-Guide/Manage-Bucket/Set-Custom-Domain-Name-2.md
            - name: Callback Notification
              href: Operation-Guide/Manage-Bucket/Callback-Notification-2.md
+           - name: Encrypted by Default
+             href: Operation-Guide/Manage-Bucket/Default-Encryption-For-Oss-Buckets-2.md             
       - name: Object Management
         items:
           - name: Create Folder

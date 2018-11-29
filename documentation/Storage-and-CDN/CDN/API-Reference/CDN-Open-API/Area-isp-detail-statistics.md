@@ -2,7 +2,7 @@
 
 ## **1. Description**
 
-Statistics of Detailed Data of Operators in Separated Areas (area_isp_stat)
+Statistics of Detailed Data of Operators in Separated Areas (area_isp_stat_v2)
 
 ## **2. Request Parameter**
 
@@ -10,9 +10,9 @@ Statistics of Detailed Data of Operators in Separated Areas (area_isp_stat)
 | ---------- | -------- | ------------ | ----------------------------------------------------------- |
 | username   | String   | Yes           | JD User Name pin                                                |
 | signature  | String   | Yes           | User Signature                                                    |
-| domain      | String   | Yes           | Domain name to be queried, support query of multiple domain names, parameter example "www.a.com,www.b.com" |
+| domain      | String   | Yes           | Domain name to be queried, support query of multiple domain names, the format is "www.a.com,www.b.com". The query result is the detailed data of each domain name |
 | start_time | String   | Yes           | Time Format: yyyy-mm-dd hh:mi Reference Example 2016-12-14 07:00; the time span for query cannot be greater than 1 hour  |
-| end_time   | String   | No           | Not a compulsory parameter; if no parameter is uploaded, it is current time by default                             |
+| end_time   | String   | No           | Not a compulsory parameter; if no parameter is uploaded, the time span is up to 1 hour and the granularity is 5 minutes.           |
 
 ## **3. Description of Returned Parameter Data**
 
@@ -26,16 +26,16 @@ Statistics of Detailed Data of Operators in Separated Areas (area_isp_stat)
 
 - ### **Request Address**
 
-http://opencdn.jcloud.com/api/area_isp_stat
+http://opencdn.jcloud.com/api/area_isp_stat_v2
 
 - ### **Request Example**
 
 ```
-http://opencdn.jcloud.com/api/area_isp_stat
+http://opencdn.jcloud.com/api/area_isp_stat_v2
 {
     "username" :"test_user",
     "signature" :"d847267fc702273abf394dd0c3128d64",
-    "domain" :"www.a.com,www.b.com",
+    "domain" :"www.a.com",
     "start_time" :"2016-12-14 07:00",
     "end_time" :"2016-12-14 12:59"
  }
@@ -43,7 +43,7 @@ http://opencdn.jcloud.com/api/area_isp_stat
 
 - ### **Return Instructions**
 
-•        Json Format
+• Json Format
 
 ```
 {
@@ -54,6 +54,7 @@ TS, //Time Stamp
 AREA, //Area
 ISP, //Operator
 BANDWIDTH, //Bandwidth, Unit: Mbps
+flow, //traffic, unit: MB
 PV, //Requests
 HIT_RATIO, //Hit Ratio, type; float-point type, such as 0.5 means 50% Hit Ratio
 {
@@ -75,23 +76,57 @@ SVG_SPEED, //Average Download Speed, Unit: KB/s
 
 ```
 {
+
     "status": 0,
     "msg": "Successful",
     "data": [
         {
             "domain": "www.a.com",
             "data": [
-                [
-                    "1513533900",
-                    "neimenggu",
-                    "ct",
-                    1.4548978805541992,
-                    61,
-                    1,
-                    {
-                        "200": 60,
+                {
+                    "time": "1539227100",
+                    "area": "hebei",
+                    "isp": "cmcc",
+                    "bandwidth": 0.7114295959472656,
+                    "flow": 26.678627967834473,
+                    "pv": 11876,
+                    "hitratio": 1,
+                    "codestat": {
+                        "200": 11601,
                         "201": 0,
-                        "206": 1,
+                        "206": 0,
+                        "300": 0,
+                        "301": 0,
+                        "302": 0,
+                        "304": 0,
+                        "400": 0,
+                        "403": 275,
+                        "404": 0,
+                        "408": 0,
+                        "416": 0,
+                        "499": 0,
+                        "500": 0,
+                        "501": 0,
+                        "502": 0,
+                        "503": 0,
+                        "504": 0,
+                        "other": 0
+                    },
+                    "firstpkgtime": 2.767766883647595,
+                    "avgspeed": 569.2294921875
+                },
+                {
+                    "time": "1539227100",
+                    "area": "xinjiang",
+                    "isp": "ct",
+                    "bandwidth": 2.0854625701904297,
+                    "flow": 78.20485877990723,
+                    "pv": 11747,
+                    "hitratio": 1.02,
+                    "codestat": {
+                        "200": 11747,
+                        "201": 0,
+                        "206": 0,
                         "300": 0,
                         "301": 0,
                         "302": 0,
@@ -109,41 +144,12 @@ SVG_SPEED, //Average Download Speed, Unit: KB/s
                         "504": 0,
                         "other": 0
                     },
-                    34.147540288671976,
-                    1177.337890625
-                ],
-                [
-                    "1513533900",
-                    "neimenggu",
-                    "cmcc",
-                    0.027347564697265625,
-                    1,
-                    1,
-                    {
-                        "200": 0,
-                        "201": 0,
-                        "206": 1,
-                        "300": 0,
-                        "301": 0,
-                        "302": 0,
-                        "304": 0,
-                        "400": 0,
-                        "403": 0,
-                        "404": 0,
-                        "408": 0,
-                        "416": 0,
-                        "499": 0,
-                        "500": 0,
-                        "501": 0,
-                        "502": 0,
-                        "503": 0,
-                        "504": 0,
-                        "other": 0
-                    },
-                    0,
-                    29268.666015625
-                ]
+                    "firstpkgtime": 0.9670554039944506,
+                    "avgspeed": 1125.3603515625
+                }
+            ]
+        }
     ]
-]
 }
+
 ```

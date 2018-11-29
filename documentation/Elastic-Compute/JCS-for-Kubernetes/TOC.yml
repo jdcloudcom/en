@@ -67,6 +67,12 @@
             href: Best-Practices/Deploy-Applications/Deploy-PV.md
          -  name: Deploy Service
             href: Best-Practices/Deploy-Applications/Deploy-Service.md
+     - name: Create native container Pod
+       items:
+         - name: Deploy Virtual-Kubelet
+           href: Operation-Guide/Instance/Deploy-Virtual-Kubelet.md
+         - name: Create Pod in JCS for Kubernetes
+           href: Operation-Guide/Instance/Create-Pod-InKubernetes.md
      - name: Deploy Helm
        href: Best-Practices/Deploy-Helm.md
   - name: FAQ  

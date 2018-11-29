@@ -19,7 +19,9 @@
             herf: Account-Management/grantPrivilege.md
           - name: resetPassword
             herf: Account-Management/resetPassword.md
-            
+          - name: revokePrivilege
+            herf: Account-Management/revokePrivilege.md
+
       - name: Audit Management
         items:
           - name: createAudit
@@ -28,12 +30,18 @@
             herf: Audit-Management/deleteAudit.md
           - name: describeAudit
             herf: Audit-Management/describeAudit.md
-          - name: getAuditDownloadURL
-            herf: Audit-Management/getAuditDownloadURL.md
-          - name: getAuditFiles
-            herf: Audit-Management/getAuditFiles.md
-          - name: getAuditOptions
-            herf: Audit-Management/getAuditOptions.md
+          - name: describeAuditDownloadURL
+            herf: Audit-Management/describeAuditDownloadURL.md
+          - name: describeAuditFiles
+            herf: Audit-Management/describeAuditFiles.md
+          - name: describeAuditOptions
+            herf: Audit-Management/describeAuditOptions.md
+          - name: describeAuditResult
+            herf: Audit-Management/describeAuditResult.md
+          - name: disableAudit
+            herf: Audit-Management/disableAudit.md
+          - name: enableAudit
+            herf: Audit-Management/enableAudit.md
           - name: modifyAudit
             herf: Audit-Management/modifyAudit.md
             
@@ -48,6 +56,13 @@
           - name: describeBackups
             herf: Backup-Management/describeBackups.md
 
+      - name: Binlog Management
+        items:
+          - name: describeBinlogDownloadURL
+            herf: Binlog/describeBinlogDownloadURL.md
+          - name: describeBinlogs
+            herf: Binlog/describeBinlogs.md
+
       - name: Cloud on Single Database
         items:
           - name: describeImportFiles
@@ -56,6 +71,15 @@
             herf: Cloud-on-Single-Database/getUploadKey.md
           - name: setImportFileShared
             herf: Cloud-on-Single-Database/setImportFileShared.md
+
+      - name: Cross-region Backup
+        items:
+          - name: createBackupSynchronicity
+            herf: Cross-region-synchronization-service/createBackupSynchronicity.md
+          - name: deleteBackupSynchronicity
+            herf: Cross-region-synchronization-service/deleteBackupSynchronicity.md
+          - name: describeBackupSynchronicities
+            herf: Cross-region-synchronization-service/describeBackupSynchronicities.md
 
       - name: Database Management
         items:
@@ -81,8 +105,14 @@
         items:
           - name: createInstance
             herf: Instance-Management/createInstance.md
+          - name: createInstanceByTime
+            herf: Instance-Management/createInstanceByTime.md
+          - name: createInstanceFromBackup
+            herf: Instance-Management/createInstanceFromBackup.md
           - name: deleteInstance
             herf: Instance-Management/deleteInstance.md
+          - name: describeBackupPolicy
+            herf: Instance-Management/describeBackupPolicy.md
           - name: describeInstanceAttributes
             herf: Instance-Management/describeInstanceAttributes.md
           - name: describeInstances
@@ -93,14 +123,18 @@
             href: Instance-Management/enableInternetAccess.md
           - name: failoverInstance
             herf: Instance-Management/failoverInstance.md
-          - name: getBackupPolicy
-            herf: Instance-Management/getBackupPolicy.md
+          - name: modifyBackupPolicy
+            herf: Instance-Management/modifyBackupPolicy.md
+          - name: modifyConnectionMode
+            herf: Instance-Management/modifyConnectionMode.md
+          - name: modifyInstanceName
+            herf: Instance-Management/modifyInstanceName.md
+          - name: modifyInstanceSpec
+            herf: Instance-Management/modifyInstanceSpec.md
           - name: rebootInstance
             herf: Instance-Management/rebootInstance.md
           - name: restoreInstance
             herf: Instance-Management/restoreInstance.md
-          - name: setInstanceName
-            herf: Instance-Management/setInstanceName.md
      
       - name: Performance Statistics
         items:
@@ -108,11 +142,17 @@
             herf: Performance-Statistics/describeIndexPerformance.md
           - name: describeQueryPerformance
             herf: Performance-Statistics/describeQueryPerformance.md
+          - name: describeSlowLogAttributes
+            herf: Performance-Statistics/describeSlowLogAttributes.md
+          - name: describeSlowLogs
+            herf: Performance-Statistics/describeSlowLogs.md
             
       - name: White List
         items:
           - name: describeWhiteList
             herf: White-List/describeWhiteList.md
+          - name: modifyWhiteList
+            herf: White-List/modifyWhiteList.md
             
   - name: Instance Type
     items:

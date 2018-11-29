@@ -75,6 +75,12 @@
                 href: Operation-Guide/Instance/Stop-Pod.md
               - name: Delete Instance
                 href: Operation-Guide/Instance/Delete-Pod.md
+          - name: JCS for Kubernetes Creating Pod
+            items:
+              - name: Deploy Virtual-Kubelet
+                href: Operation-Guide/Instance/Deploy-Virtual-Kubelet.md
+              - name: Create Pod in JCS for Kubernetes
+                href: Operation-Guide/Instance/Create-Pod-InKubernetes.md
           - name: Log
             href: Operation-Guide/Instance/Log.md
       - name: Networking

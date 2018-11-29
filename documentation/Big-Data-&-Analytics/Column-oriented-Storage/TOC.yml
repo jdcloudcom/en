@@ -35,6 +35,16 @@
     items:
     - name: Create Cluster
       href: Getting-Started/Create-Cluster.md
+  - name: Operation Guide
+    items:
+    - name: Use hbase shell to access
+      href: Operation-Guide/hshell.md
+    - name: Access via Native JAVA API
+      href: Operation-Guide/NJavaAPI.md
+    - name: Access via REST API
+      href: Operation-Guide/RESTAPI.md
+    - name: Access via Thrift API
+      href: Operation-Guide/ThriftAPI.md
   - name: FAQ
     href: FAQ/FAQ.md
   - name: Related Resources

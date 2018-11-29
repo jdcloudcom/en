@@ -3,6 +3,7 @@
 
 | Time   |Online Contents     |
 |-|-|
+|November 2018|cn-south-1 Launched|
 | August 2018    | Online in the Region of cn-east-2    |
 | July 2018    | Command-line Tool Was Published    |
 | June 2018   | Load Balancer Was Supported  |
