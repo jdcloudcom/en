@@ -8,7 +8,7 @@ You can use the sample data sets "Coffee Sales Data in Chinese Market" and "Coff
 1. Access the self-service data set
 In the navigation area of home page after login, select "Self-service Dataset" to enter the Create Self-service Dataset interface.
 
-2. Edit data set:
+2. Edit data set:<br>
 a In the data set list, drag the "Coffee Sales Data in Chinese Market" and "Coffee Order Data in Chinese Stores" to the editing area of<br>
 self-service data sets.<br>
 b In the action list, drag "Join" to the editing area and connect "Join" to the two datasheets with a link.<br>
