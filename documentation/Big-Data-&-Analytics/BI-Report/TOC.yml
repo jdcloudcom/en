@@ -13,7 +13,7 @@ items:
       href: Introduction/Application-Scenarios.md    
 - name: Pricing
   items:
-    - name: Billing Overview
+    - name: Pricing
       href: Pricing/Billing-Overview.md
 - name: Operation Guide
   items:
