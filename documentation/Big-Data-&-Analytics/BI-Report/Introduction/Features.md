@@ -6,10 +6,12 @@
 *	Support the Creation of Time, Zone and Field Levels
 *	Support Customized Fields
 * Support Filter
+
 ## Permission Control
 *	Support Column-level Data Permission Control
 *	Support Line-level Data Permission Control
 *	Support Report and Modeling Permission Control
+
 ## Analysis Reports
 *	Support Various Forms of Presentation such as Column Chart, Line Graph, Pie Chart, Radar Chart, Scatter Diagram and Word Cloud, etc.
 *	Support Map Display
