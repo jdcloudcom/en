@@ -10,7 +10,7 @@ In the navigation area of home page after login, select "Self-service Dataset" t
 
 2. Edit data set:
 a In the data set list, drag the "Coffee Sales Data in Chinese Market" and "Coffee Order Data in Chinese Stores" to the editing area of<br>
-self-service data sets.
+self-service data sets.<br>
 b In the action list, drag "Join" to the editing area and connect "Join" to the two datasheets with a link.<br>
 c In the pop-up Join Dialog Box, set the join mode to "Inner Join" and the join column is the order ID. In this way, data of the same order<br>
 ID in the two sheets are combined, as shown in the figure below.<br>
