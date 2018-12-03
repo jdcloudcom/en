@@ -1,20 +1,30 @@
 [
 	{
-		"proGoodTitle":"",
-		"proNameTitle":"",
+		"proGoodTitle":"产品优势",
+		"proNameTitle":"视频点播",
 		"proDiffTitle":"",
-		"proGood":"",
-		"proName":"",
+		"proGood":"极速分发",
+		"proName":"上行下行双加速，链路优化，提供快速、稳定、流畅、全新的视频体验",
 		"proDiff":""
 	},
 	{
-		"proGood":"",
-		"proName":"",
+		"proGood":"快速接入",
+		"proName":"提供上传、管理、分发一站式服务，具有控制台和开放API多种接入方式，专人协助，减少开发对接成本\n",
 		"proDiff":""
 	},
 	{
-		"proGood":"",
-		"proName":"",
+		"proGood":"专业能力",
+		"proName":"多文件多格式多功能，支持常见文件格式、编码格式，提供转码、截图、水印等多种功能",
+		"proDiff":""
+	},
+	{
+		"proGood":"安全可靠\n",
+		"proName":"支持防盗链、播放鉴权、视频加密等多种安全机制，充分保障视频内容和播放安全\n",
+		"proDiff":""
+	},
+	{
+		"proGood":"极速分发",
+		"proName":"上行下行双加速，链路优化，提供快速、稳定、流畅、全新的视频体验",
 		"proDiff":""
 	}
 ]
