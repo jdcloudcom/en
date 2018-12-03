@@ -2,7 +2,7 @@
 
 This Tutorial takes the CentOS 6.8 operating system as an example to explain how to configure the ENI in VM (which saves the configuration of the ENI permanently, and VM will remain in effect after rebooting).
 
-** Note: The contents in brackets are filled out by the user. **
+**Note: The contents in brackets are filled out by the user.**
 
 ## Procedures
 Step 1: Associate ENI to the target VM in JD Cloud console.
