@@ -20,7 +20,7 @@ The JCS for MongoDB supports one-click recovery of backup data to the original i
 1. On the Instance Details page, click **Backup and Recovery** to view the backup data.
 1. Select the backup you want to use and click **Data Recovery** in the operation items to open the "Confirm Popup".
 
-   ![](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-021.png)
+    ![](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-021.png)
 
 1. Click **OK** to confirm the execution of data recovery, and the instance status changes to "Under Recovery". Please wait for the  completion of data recovery.
 2. When the instance status changes to "Normal", the data recovery is complete.

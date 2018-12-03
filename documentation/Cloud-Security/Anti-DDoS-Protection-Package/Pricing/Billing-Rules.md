@@ -1,8 +1,10 @@
 # Billing Rules
 
 Anti-DDoS protection package supports two billing types:
- * Monthly Package Billing
- * Monthly Package + Pay-As-You-Go
+
+* Monthly Package Billing
+
+* Monthly Package + Pay-As-You-Go
 
 ## Monthly Package
 ### Introduction

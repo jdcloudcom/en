@@ -24,12 +24,12 @@ Here's an example of c/c++ being connected to Jmiss-Redis:
      redisContext *c;
      redisReply *reply;
      if (argc < 3) {
-         printf("Usage: example jredis-hb1-prod-957e3a3d-0d76-45d4-a896-706173208db2.jmiss.jcloud.com 6379 token\n");
+         printf("Usage: example jredis-cn-north-1-prod-redis-xxxxxxxxxx.jdcloud.com 6379 password\n");
          exit(0);
      }
      const char *hostname = argv[1];
      const int port = atoi(argv[2]);
-     const char *token = argv[3];
+     const char *password = argv[3];
      struct timeval timeout = { 1, 500000 }; // 1.5 seconds
 
      c = redisConnectWithTimeout(hostname, port, timeout);
@@ -44,7 +44,7 @@ Here's an example of c/c++ being connected to Jmiss-Redis:
      }
 
      /* AUTH */
-     reply = redisCommand(c, "AUTH %s", token);
+     reply = redisCommand(c, "AUTH %s", password);
      printf("AUTH: %s\n", reply->str);
      freeReplyObject(reply);
 
@@ -107,7 +107,7 @@ step3: Compile
 step4: Run test case
 
 ```
-./example jredis-hb1-prod-957e3a3d-0d76-45d4-a896-706173208db2.jmiss.jcloud.com 6379 B69B341E5C669082EFCF2E405C626379
+./example jredis-cn-north-1-prod-redis-xxxxxxxxxx.jdcloud.com 6379 password
 AUTH: OK
 PING: PONG
 SET: OK

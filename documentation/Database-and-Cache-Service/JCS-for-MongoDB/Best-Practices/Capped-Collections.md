@@ -8,26 +8,26 @@ Capped collections store documents in the order of disk storage, thus ensuring t
 
 To create a capped collection, use the createCollection command to specify that the capped option has a value of true and a maximum collection size in bytes.
 
->db.createCollection( "log", { capped: true, size: 100000 } )
+    > db.createCollection( "log", { capped: true, size: 100000 } )
 
 In addition to specifying a collection size, using the max parameter to limit the number of documents in the collection is also available.
 
->db.createCollection("log", { capped : true, size : 5242880, max : 5000 } )
+    > db.createCollection("log", { capped : true, size : 5242880, max : 5000 } )
 
 To see if the collections are capped, use the following isCapped command.
 
->db.cappedLogCollection.isCapped()
+    > db.cappedLogCollection.isCapped()
 
 To convert a collection to a collection with upper limit, use the following code to operate.
 
->db.runCommand({"convertToCapped": "mycoll", size: 100000});
+    > db.runCommand({"convertToCapped": "mycoll", size: 100000});
 
 This code converts existing posts to capped collections.
 
 ## Query Capped Collections
 By default, the query on capped collections displays the results in insertion order. However, to retrieve the documents in the reverse order, use the sort command:
  
-db.cappedCollection.find().sort( { $natural: -1 } )
+    db.cappedCollection.find().sort( { $natural: -1 } )
 
 Using capped collections requires to pay attention to the following:
 

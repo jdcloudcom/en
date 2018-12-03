@@ -49,7 +49,7 @@ chmod 600: Only the current user can access the key file setting.
 
 ```
 mkdir /new
-s3fs bucketname /new -o passwd_file=~/.passwd-s3fs -o url="http://s3.cn-north-1.jcloudcs.com"
+s3fs bucketname /new -o passwd_file=~/.passwd-s3fs -o url="https://s3.cn-north-1.jcloudcs.com"
 ```
 Description
 
@@ -106,7 +106,7 @@ Note: --prefix=/usr/local is not required; PKG_CONFIG_PATH is required, /usr/loc
 If you use non-root account when mounting the Bucket via Mac OS, please specify uid and gid of current account when the mount command is specified. Examples are as follows:
 
 ```
-sudo s3fs bucketname /new -o passwd_file=~/.passwd-s3fs -o url="http://s3.cn-north-1.jcloudcs.com" -o uid=11111 -o gid=11111
+sudo s3fs bucketname /new -o passwd_file=~/.passwd-s3fs -o url="https://s3.cn-north-1.jcloudcs.com" -o uid=11111 -o gid=11111
 ```
 
 3. When mounting Object Storage Service with the s3fs-fuse tool and copying files with cp commands, the following solutions can be taken when the file mime-type is modified:

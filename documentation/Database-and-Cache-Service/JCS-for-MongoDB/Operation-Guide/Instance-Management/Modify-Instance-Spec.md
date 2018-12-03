@@ -21,18 +21,16 @@ MongoDB instances support configuration items for changes, including:
 1. Log into [MongoDB Console](https://mongodb-console.jdcloud.com/mongodb?dataCenter=bj_02).
 1. On the "Instance List" page, select the target instance, click **Alter Configuration** in the operation items to open the alter configuration popup.
    
-   ![](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-011.png)
+    ![](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-011.png)
 
 1. In the popup window, select the new configuration you want to alter.
 
-   ![](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-012.png)
+    ![](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-012.png)
 	
-	- Specifications
-		- CPU and memory occupied by the instance.
-		- Different specifications correspond to different maximum number of connections and IOPS (that is, the maximum value that can be achieved by reading and writing respectively, and the maximum number of mixed reading and writing can reach 2 times of the index).
-	
-	- Storage Space: The disk space occupied by the instance.
-		
+    - Specifications
+	    - CPU and memory occupied by the instance.
+	    - Different specifications correspond to different maximum number of connections and IOPS (that is, the maximum value that can be achieved by reading and writing respectively, and the maximum number of mixed reading and writing can reach 2 times of the index).
+		- Storage Space: The disk space occupied by the instance.		
 	- Networking: The current instance is under VPC and subnet and cannot be altered.
 	- Billing type: The billing type of the current instance, which cannot be modified.
 	- Cost
@@ -41,9 +39,10 @@ MongoDB instances support configuration items for changes, including:
 		
 1. After selecting the configuration, click **OK** to enter the "Order Confirmation" page.
 1. On the "Order Confirmation" page, confirm the instance information and read the Terms of Service for JCS for MongoDB.
-	- For the billing type pay by configuration, please click **Instant Account Setup**.
-	- For the billing type under monthly package, please click **Pay Now** to enter the "Order Payment" page and complete the payment process.
 
+    - For the billing type pay by configuration, please click **Instant Account Setup**.
+    - For the billing type under monthly package, please click **Pay Now** to enter the "Order Payment" page and complete the payment process.
+    
 1. After the payment process is completed, the page will automatically jump to the MongoDB "Instance List" page, please wait for the instance alteration to complete. You can view the newly altered instance on the "Instance Details" page.  
 
 

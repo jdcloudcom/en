@@ -12,22 +12,21 @@ Use the MongoDB profile command to enable, disable, or change query analysis lev
 
 1. Query the analyzer status.
 
-   > db.getProfilingStatus()
+    > db.getProfilingStatus()
    
 1. Modify the analyzer level.
 
-   > db.setProfilingLevel(level, slowms)
+    > db.setProfilingLevel(level, slowms)
 
    - evel: 0, closed; 1. Record slow operation; 2. Record all operations.
    - slowms: Time threshold, unit: ms.
 	
 1. Query the record information.
 	
-   The Mongo Profile record is stored in the amdin library, and the Collection is named system.profile. The Profile information can be obtained as long as the record of this Collection is queried.
+    The Mongo Profile record is stored in the amdin library, and the Collection is named system.profile. The Profile information can be obtained as long as the record of this Collection is queried.
 
-   > use admin   #Executed at Admin Library
-   
-   > db.system.profile.find()
+   > use admin   #Executed at Admin Library   
+    > db.system.profile.find()
    
    
 ## Profile Record Description

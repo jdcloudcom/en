@@ -7,7 +7,7 @@ The monitoring diagram shows the response time of each detection point set by th
 
 ![image](../../../../../image/Cloud-Monitor/site-monitoring/site-view.png)
 
-Available Rate  The available rate = The Number of the detection results that the status codes of the detection points are less than 400 during the detection period / the total number of the detection results * 100.
+**Available Rate**  The available rate = The Number of the detection results that the status codes of the detection points are less than 400 during the detection period / the total number of the detection results * 100.
 
 The monitoring diagram shows the available rate of each detection point set by the user and the average available rate of all detection points, you can hide the line chart that is not need to be viewed base on your demands.
 

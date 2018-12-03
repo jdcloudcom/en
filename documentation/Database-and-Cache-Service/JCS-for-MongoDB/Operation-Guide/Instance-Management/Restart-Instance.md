@@ -15,7 +15,7 @@ If your MongoDB instance is running abnormally but cannot confirm the cause, you
 1.  Login [MongoDB Console](http://mongodb-console.jdcloud.com/mongodb)。
 1. On the "Instance List" page, select the target instance, click **Reboot** in the operation items to open the configuration popup.
 
-   ![Reboot Instance](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-013.png)
+    ![Reboot Instance](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-013.png)
    
 1. In the confirmation pop-up window, click **OK**.
 1. The instance status changes to "Rebooting", then wait for the restart to complete.

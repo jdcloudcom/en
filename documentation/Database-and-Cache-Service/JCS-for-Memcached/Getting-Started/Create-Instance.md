@@ -19,13 +19,12 @@ This document introduces how to create Memcached instance through Memcached cons
 4 Click **Buy Now** to enter **Order Confirmation** page.
 
 5. Confirm Instance information on **Order Confirmation** page and read JCS for Memcached Service Terms.
-
-  - Select Instant Account Setup in case of Pay By Configuration.
-  - If the billing type is based on monthly package, please click **Pay Now** to enter the **Order Payment** page to complete the payment process.
+     - Select Instant Account Setup in case of Pay By Configuration.
+     - If the billing type is based on monthly package, please click **Pay Now** to enter the **Order Payment** page to complete the payment process.
 After payment is completed, the page will automatically jump to Memcached **Instance List** page to wait for the competition of the instance creation. You can view the newly created instance on **Instance List** page.
 
 6 View the completion of creating the instance in the list
-  - If the status is **Pending**, please wait a few minutes patiently.
-  - If the status is **Running**, the creating is done.
+     - If the status is **Pending**, please wait a few minutes patiently.
+     - If the status is **Running**, the creating is done.
 
 

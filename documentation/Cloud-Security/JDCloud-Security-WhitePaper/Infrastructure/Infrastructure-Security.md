@@ -19,8 +19,6 @@ JD Cloud's global infrastructure includes machine rooms, networks, hardware and 
 
 ![表 1 中国大陆地域及可用区](https://github.com/jdcloudcom/cn/blob/edit/image/Security-Information/domestic3.jpg)
 
-
-
 ### 1.2 Infrastructure Security
 
 JD Cloud implements stricter IDC standards, server access standards, and operation and maintenance standards to ensure high availability of the entire basic framework of Cloud Computing, data reliability, and high availability of Virtual Machine, providing service availability of no less than 99.95%.

@@ -10,16 +10,16 @@ Based on full-size and incremental backups of cross-regional backup services, yo
 1. Login [MongoDB Console](https://mongodb-console.jdcloud.com/mongodb).
 1. Enter the "Cross-Region Backup Synchronization Service" page, select the target service, click **Create Instance based on Backup Data**, and open the "Create Instance" page.
 
-   ![Create Synchronization Service](../../../../../image/mongodb/mongo-045.png)
+    ![Create Synchronization Service](../../../../../image/mongodb/mongo-045.png)
 
 1. Select the data time point and instance configuration information on the creation page.
 
-   ![Create Synchronization Service](../../../../../image/mongodb/mongo-046.png)
+    ![Create Synchronization Service](../../../../../image/mongodb/mongo-046.png)
 
-   - Region: The current backup data location region, that is, the target region set by the backup synchronization service, which cannot be modified.
-   - Time: Select the time point for backup data, and any time within 7 days is supported.
-   - Storage Space: not be less than the source instance, otherwise the creation may fail.
-   - Other configuration information is the same as [Create Instance](../../Getting-Started/Create-Instance.md).
+    - Region: The current backup data location region, that is, the target region set by the backup synchronization service, which cannot be modified.
+    - Time: Select the time point for backup data, and any time within 7 days is supported.
+    - Storage Space: not be less than the source instance, otherwise the creation may fail.
+    - Other configuration information is the same as [Create Instance](../../Getting-Started/Create-Instance.md).
 
 1. Click **Buy Now** and enter into "Order Confirmation" page.
 1. On the "Order Confirmation" page, confirm the instance information and read the Terms of Service for JCS for MongoDB.

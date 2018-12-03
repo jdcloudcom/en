@@ -22,11 +22,11 @@ A virtual machine associated with an EIP and Linux system is in the same VPC wit
 
 1. The local computer installs the SecureCRT, which is remotely connected to the Virtual Machines with EIP by the SSH2 protocol.
    
-   - Select **Connection**, fill in the name and select SSH2 protocol.
+    - Select **Connection**, fill in the name and select SSH2 protocol.
   
       ![](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-031.png)
 
-   - Select **SSH2**, fill in the machine information as proxy.
+    - Select **SSH2**, fill in the machine information as proxy.
    
       Hostname: Fill in the EIP of the Virtual Machines.
 
@@ -37,11 +37,11 @@ A virtual machine associated with an EIP and Linux system is in the same VPC wit
       ![](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-032.png)
 
 1. Set the port forwarding rules.
-   - Select **Port Forwarding** and click **Add**.
+    - Select **Port Forwarding** and click **Add**.
 
       ![](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-033.png)
 
-   - Fill in the port forwarding related information.
+    - Fill in the port forwarding related information.
    
       Name: fill in the name
 
@@ -56,11 +56,11 @@ A virtual machine associated with an EIP and Linux system is in the same VPC wit
 1. Save the settings and connect to the Virtual Machines.
 1. Connect to the MongoDB instance locally.
 
-   Connection Address: fill in localhost or 127.0.0.1.
+    Connection Address: fill in localhost or 127.0.0.1.
    
-   Port: The local port to listen on, such as 27019 above.
+    Port: The local port to listen on, such as 27019 above.
    
-   Account and Password: Account and password information set by the MongoDB instance.
+    Account and Password: Account and password information set by the MongoDB instance.
 
 ## Mode 2: Set the forwarding rules on the Virtual Machines, taking socat as an example below.
 
@@ -72,18 +72,18 @@ A virtual machine associated with an EIP and Linux system is in the same VPC wit
 
 1. Login to the Virtual Machines.
 1. Install socat.
-   > yum install -y socat
+    > yum install -y socat
 
 2. Add a proxy rule.
-   > socat TCP-LISTEN:27019,fork TCP:jmongo-hb1-prod-mongo-xxxx.jmiss.jcloud.com:27017
+    > socat TCP-LISTEN:27019,fork TCP:jmongo-hb1-prod-mongo-xxxx.jmiss.jcloud.com:27017
 
-   - TCP-LISTEN: Fill in the listening port, such as 27019 above.
-   - TCP: The connection address and domain name of your MongoDB.
+    - TCP-LISTEN: Fill in the listening port, such as 27019 above.
+    - TCP: The connection address and domain name of your MongoDB.
 
 1. Local connection to the MongoDB instance.
-   - Connection Address: Fill the EIP of the Virtual Machines.
-   - Port: The listening port, such as 27019 above.
-   - Account and Password: Account and password information set by MongoDB.
+    - Connection Address: Fill the EIP of the Virtual Machines.
+    - Port: The listening port, such as 27019 above.
+    - Account and Password: Account and password information set by MongoDB.
    
 ### Related Reference
 
