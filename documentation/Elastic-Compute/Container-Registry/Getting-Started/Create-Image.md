@@ -40,7 +40,7 @@
 
 **IV. Image Upload and Download**
 
- 1. Install the [JD Cloud CLI](https://docs.jdcloud.com/cn/cli/introduction) or [Docker](https://docs.docker.com/install/) of latest version.
+ 1. Linux system is recommended, e.g. Centos, Ubuntu; Install the [JD Cloud CLI](https://docs.jdcloud.com/cn/cli/introduction) or [Docker](https://docs.docker.com/install/) of latest version.
  
  2. For example, the registry is myregistry, the repository is myrepo, the image version number is latest and the region is cn-north-1. Users can make the alternation depending on specific conditions.
  

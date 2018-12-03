@@ -1,11 +1,11 @@
 # Instruction
 The procedure of quickly using the Message Queue:
 
-1.	Apply for open beta: Click **Apply for Open Beta** on Message Queue "Products" page, and then after the operator approval to join the open beta list, the user receives the notification that has been opened (e-mail or SMS), the user enters the console to start using, the service is in the menu "Middleware > Message Queue". (Applicable during the open beta period)
-2.	Create resources
-3.	Send consumer messages
- Note: For security reasons, Message Queue currently only supports intranet connections, not support public network direct connections.</br>
- If you need a local Message Queue, use proxy forwarding to implement.
+1. Access to Message Queue [Console](https://jcq-console.jdcloud.com/topics/)。
+2. Create resources
+3. Send consumer messages</br>
+ Note: If you need to establish a direct connection of public network with Message Queue, please select **Public network-North China* Region where the performance is limited (with TPS limit of 500).</br>
+ Recommendation: The way of public network access to Message Queue is only available to test. Do not use it in the production environment which is recommended to be deployed in VPC.
 
 
 ### The access protocol and development language supported by Message Queue

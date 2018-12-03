@@ -29,8 +29,8 @@ It is recommended that you use pay by configuration billing instances for perfor
  7. Add Accesskey: Select AccessKey at startup; if no Access Key is available, go to the Access Key management page to create a new Access Key and start it. Refer to Accesskey management.
 New working node group:
  ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/JCS-for-Kubernetes/新建Kubernetes集群工作节点组.png)   
-8. VPC: Select the VPC to create. You can refer to the VPC configuration.
-9. Working node CIDR: For setting rules, you can refer to the rules of VPC subnet CIDR, and the CIDR mask range is 16~24.
+8. VPC: Select the VPC to create. It is recommended to create Virtual Private Cloud; the mask value range shall be 16~18.  
+9. Working node CIDR: For setting rules, you can refer to the rules of VPC subnet CIDR, and the CIDR mask range is 16~18.
 10. Image: It only supports JD Cloud customized image.
 11. Specification: According to the specific business conditions, select different types and specifications of VM that support the specifications of the second generation VM. It is acceptable to refer to the instance specifications and types.
 12. Quantity: The default number is 3, and you can click to increase or decrease or input the number as required. The maximum number is the minimum number of hosts that can be created in Node CIDR and the Virtual Machine quota.
