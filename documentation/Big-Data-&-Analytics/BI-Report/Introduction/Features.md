@@ -25,5 +25,3 @@
 *	Support Multi-dimensional Analysis such as Roll-up, Drill-down, Pivot and Slice etc.
 *	Support Timed Automatic Refresh
 *	Support In-depth Analysis Functions such as Regression, Clustering and Time Series
-
-
