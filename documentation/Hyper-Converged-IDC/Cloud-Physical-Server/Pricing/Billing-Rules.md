@@ -25,5 +25,5 @@ The notices will be pushed to you by SMS, email and intra-website message, pleas
 You may conduct relevant settings under User Center\-Message Management\-Message Settings Node to add message receivers, change notice methods, etc.
 
 
-###  Refund Description
+### Refund Description
 The monthly package billing method does not support refunding.

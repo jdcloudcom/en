@@ -17,7 +17,7 @@ The Cloud Physical Server provides the following instance types: Compute Standar
 		    <td align="center">2*2683V4<br/> (16 cores 2.1G)</td>
 		    <td align="center">256G（8*32G）DDR4</td>
 		    <td >2*300GB（SAS）+<br/>2*800GB（SSD）</td>
-		    <td align="center">1 independent management port +<br/>2*10GE network interface</td>
+		    <td align="center">1 independent management port+<br/>2*10GE network interface</td>
 		<td align="center">NO RAID/RAID0/RAID1</td>
     </tr>
 	  <tr>   
@@ -25,7 +25,7 @@ The Cloud Physical Server provides the following instance types: Compute Standar
 		    <td align="center">2*2683V4<br/> (16 cores 2.1G)</td>
 		    <td align="center">256G（8*32G）DDR4</td>
 		    <td >2*300GB（SAS）+<br/>1*4000GB（NVME）</td>
-		    <td align="center">1 independent management port +<br/>2*10GE network interface</td>
+		    <td align="center">1 independent management port+<br/>2*10GE network interface</td>
 		<td align="center">NO RAID</td>
     </tr>
     <tr>   
@@ -33,7 +33,7 @@ The Cloud Physical Server provides the following instance types: Compute Standar
 		    <td align="center">2*2683V4<br/> (16 cores 2.1G)</td>
 		    <td align="center">256G（8*32G）DDR4</td>
 		    <td >1*240GB（SSD）+<br/>16*960GB（SSD）</td>
-		    <td align="center">1 independent management port +<br/>2*10GE network interface</td>
+		    <td align="center">1 independent management port+<br/>2*10GE network interface</td>
 		<td align="center">NO RAID/RAID0/RAID1/RAID10</td>
     </tr>
     <tr>   
@@ -41,7 +41,7 @@ The Cloud Physical Server provides the following instance types: Compute Standar
 		    <td align="center">2*2650V4<br/> (12 cores 2.2G)</td>
 		    <td align="center">256G（8*32G）DDR4</td>
 		    <td >2*300GB(SAS)+<br/>12*6TB(SATA)</td>
-		    <td align="center">1 independent management port +<br/>2*10GE network interface</td>
+		    <td align="center">1 independent management port+<br/>2*10GE network interface</td>
 		<td align="center">NO RAID</td>
     </tr>
 </table>
@@ -63,7 +63,7 @@ The instance type of GPU Cloud Physical Server is as follows:
 		    <td align="center">2*2683V4<br/> (16 cores 2.1G)</td>
 		    <td align="center">256G（8*32G）DDR4</td>
 		    <td >2*300GB（SAS）+<br/>6*960GB（SSD）</td>
-		    <td align="center">1 independent management port +<br/>2*10GE network interface</td>
+		    <td align="center">1 independent management port+<br/>2*10GE network interface</td>
 		<td align="center">NVIDIA P40*4</td>
 		<td align="center">NO RAID/RAID0/RAID10</td>
     </tr>
@@ -72,7 +72,7 @@ The instance type of GPU Cloud Physical Server is as follows:
 		    <td align="center">2*2650V4<br/> (12 cores 2.2G)</td>
 		    <td align="center">256G（8*32G）DDR4</td>
 		    <td >2*300GB（SAS）+<br/>4*4000GB（SATA）</td>
-		    <td align="center">1 independent management port +<br/>2*10GE network interface</td>
+		    <td align="center">1 independent management port+<br/>2*10GE network interface</td>
 		<td align="center">NVIDIA P40*4</td>
 		<td align="center">NO RAID/RAID0/RAID10</td>
     </tr>

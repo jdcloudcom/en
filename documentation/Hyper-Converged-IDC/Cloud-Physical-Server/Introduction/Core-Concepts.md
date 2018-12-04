@@ -33,7 +33,7 @@ The following is the regions and availability zones where the data centers with 
     </tr>
     <tr>   
         <td rowspan="5"><B>Mainland China</B></td>
-		<td >cn-north-1</td>
+		<td rowspan="2">cn-north-1</td>
 		<td >Availability Zone A, Availability Zone C</td>
 		<td >In Preparation</td>
     </tr>

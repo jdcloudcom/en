@@ -7,7 +7,7 @@ It covers four regions of cn-north-1 (Availability Zone B and In Preparation A a
 - **Multiple instance types:**
 Provide three instance types, including the computing type, the memory type and the GPU type. Now, different specifications and specific specifications are launched to meet different business scenarios of the user. For details, please refer to [Product Specifications](../Introduction/Specifications.md). More instance types are in preparation.
 - **Flexible billing method:**
-Monthly package billing method is support, and users may purchase based on demands to save the costs. For billing details, please refer to “[Billing Rules](../Pricing/Billing-Overview.md)”.
+Monthly package billing method is support, and users may purchase based on demands to save the costs. For billing details, please refer to “[Billing Rules](../Pricing/Billing-Rules.md)”.
 - **Rich image resources:**
 Support CentOS (7.2 and 6.6) and Ubuntu (16.04 and 14.04), as well as multiple common application software installation. For details of image system, please refer to [Image Support System](../Operation-Guide/Image/Description-Image.md).
 - **3 disk types:**

@@ -17,8 +17,8 @@ The following is an example of creating a filter table firewall:
 
 ### **3. Saving Rules**
 ```
-[root@jd ~]# iptables -L –n    #Check if the settings are done, and all the DROPs can be seen. The settings are done and valid temporarily; the server will recover to the status where no settings are done if it is rebooted.
-[root@jd ~]# service iptables save # will save the rule in /etc/sysconfig/iptables so that it can take effect after restart.
+[root@jd ~]# iptables -L –n        #Check if the settings are done, and all the DROPs can be seen. The settings are done and valid temporarily; the server will recover to the status where no settings are done if it is rebooted.
+[root@jd ~]# service iptables save #will save the rule in /etc/sysconfig/iptables so that it can take effect after restart.
 ```
 
 ### **4. Adding Rules**

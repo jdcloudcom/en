@@ -111,41 +111,41 @@ Configure the private line communication from the VPC intranet of the Virtual Ma
 
 Schedule:
 
-| Client Name         | AS    |  Ctag  |  JD Cloud IP  |  CPS IP  |
+| Client Name        | AS    |  Ctag  |  JD Cloud IP  |  CPS IP  |
 | :----:         |:----: |:----:  |:----:        |:----:    |
 | Jdcloud        | 65001    |  20  |  192.168.0.10/30  |  192.168.0.9/30  |
 | Jdcloud        | 65001    |  20  |  192.168.0.7/30  |  192.168.0.6/30  |
 
 
-* Click **Network->Direct Connection->Hosted Connect—>Hosted Private Virtual Interface** from the navigation bar on the left side, select corresponding hosted regions and click **Create**.
+* Click **Network--->Direct Connection->Hosted Connect—>Hosted Private Virtual Interface** from the navigation bar on the left side, select corresponding hosted regions and click **Create**.
 
-! [Create Hosted Private Virtual Interface 1](https://github.com/jdcloudcom/cn/blob/edit/image/Hyper-Converged-IDC/Cloud-Physical-Server/CPS-VPC-013.png)
+![Create Hosted Private Virtual Interface 1](https://github.com/jdcloudcom/cn/blob/edit/image/Hyper-Converged-IDC/Cloud-Physical-Server/CPS-VPC-013.png)
 
 * Create the Hosted Private Virtual Interface by using information of the planning form, test of Hosted connection (created in step 3.6) and test_gw of Border Gateway (created in step 4.3).
  
- ! [Create Hosted Private Virtual Interface 2](https://github.com/jdcloudcom/cn/blob/edit/image/Hyper-Converged-IDC/Cloud-Physical-Server/CPS-VPC-014.png)
+ ![Create Hosted Private Virtual Interface 2](https://github.com/jdcloudcom/cn/blob/edit/image/Hyper-Converged-IDC/Cloud-Physical-Server/CPS-VPC-014.png)
   
 Note: Parameters with the red asterisk mark must be completed.
 
 Parameter Description:
 
-A.	 Channel name: The customized channel name is completed by referring to requirements right below the box.
+A.	Channel name: The customized channel name is completed by referring to requirements right below the box.
 
-B.	 Hosted Connection: The Hosted Connection created will be automatically displayed. If there are several Hosted Connections, please select the name of corresponding Hosted Connection by clicking the drop-down arrow.
+B.	Hosted Connection: The Hosted Connection created will be automatically displayed. If there are several Hosted Connections, please select the name of corresponding Hosted Connection by clicking the drop-down arrow.
 
-C.	 Border Gateway: The Border Gateway created will be automatically displayed. If there are several Border Gateways, please select the name of corresponding Border Gateway by clicking the drop-down arrow.
+C.	Border Gateway: The Border Gateway created will be automatically displayed. If there are several Border Gateways, please select the name of corresponding Border Gateway by clicking the drop-down arrow.
 
 D、	Vlanid:Complete information in the column “Ctag” of the planning information form.
 
-E. 	Routing method: The default routing is BGP.
+E.	Routing method: The default routing is BGP.
 
-F. 	BGP ASN: Complete information in the column “AS” of the planning information form.
+F.	BGP ASN: Complete information in the column “AS” of the planning information form.
 
-G.	 BGP key pair: The customized one can be completed by referring to requirements right below the box, which shall contain at least 6 numbers or letters.
+G.	BGP key pair: The customized one can be completed by referring to requirements right below the box, which shall contain at least 6 numbers or letters.
 
-H.	 Interconnection address of routing: Include the “CPS IP” and “JD Cloud IP” in the first row of the Primary IP completion planning form and the “CPS IP” and “JD Cloud IP” in the second row of the Secondary IP completion planning form; the first row of the planning form corresponds to primaryIP; the second row corresponds to SecondaryIP; and primary\secondaryIP cannot be replaced with each other.
+H.	Interconnection address of routing: Include the “CPS IP” and “JD Cloud IP” in the first row of the Primary IP completion planning form and the “CPS IP” and “JD Cloud IP” in the second row of the Secondary IP completion planning form; the first row of the planning form corresponds to primaryIP; the second row corresponds to SecondaryIP; and primary\secondaryIP cannot be replaced with each other.
 
-I.	 Description: It is optional and the text description with the symbolic meaning can be filled in, such as the private line communication from CPS to VPC.
+I.	Description: It is optional and the text description with the symbolic meaning can be filled in, such as the private line communication from CPS to VPC.
 
 * The created channel will be in the configuration status and will be available automatically in one second.
  
@@ -193,11 +193,11 @@ Hosted Private Virtual Interface: test_channel (channel name created in step 5.3
  
 ![配置VPC到CPS内网的路由2](https://github.com/jdcloudcom/cn/blob/edit/image/Hyper-Converged-IDC/Cloud-Physical-Server/CPS-VPC-022.png)
  
-! [Configuration of Routing 3 from VPC to CPS Intranet](https://github.com/jdcloudcom/cn/blob/edit/image/Hyper-Converged-IDC/Cloud-Physical-Server/CPS-VPC-023.png)
+![Configuration of Routing 3 from VPC to CPS Intranet](https://github.com/jdcloudcom/cn/blob/edit/image/Hyper-Converged-IDC/Cloud-Physical-Server/CPS-VPC-023.png)
 
 * Network —> Virtual Private Cloud —> Route Table, clicking **default route table** (routing name created in step 7.2)
 
-! [Configuration of Routing 4 from VPC to CPS Intranet](https://github.com/jdcloudcom/cn/blob/edit/image/Hyper-Converged-IDC/Cloud-Physical-Server/CPS-VPC-024.png)
+![Configuration of Routing 4 from VPC to CPS Intranet](https://github.com/jdcloudcom/cn/blob/edit/image/Hyper-Converged-IDC/Cloud-Physical-Server/CPS-VPC-024.png)
  
 * Click **Routing Policy**—> Click **Edit** —> **Add a New One** in the bottom left will be displayed
 
