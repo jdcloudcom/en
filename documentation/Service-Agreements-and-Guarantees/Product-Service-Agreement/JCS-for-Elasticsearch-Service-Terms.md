@@ -237,5 +237,4 @@
         11.2 JD Cloud is entitled to transfer part of all of the rights and obligations under these Service Terms to the associated companies by advance announcement on [www.jdcloud.com](https://www.jdcloud.com/), website notice or written notification.
 
         11.3 If any terms, in nature or otherwise, shall continue to exist at the termination of the Protocol, they shall be deemed to be continuing terms, including but not limited to warranty terms, confidentiality terms, intellectual property right terms, and law application and dispute resolution terms.
-
       

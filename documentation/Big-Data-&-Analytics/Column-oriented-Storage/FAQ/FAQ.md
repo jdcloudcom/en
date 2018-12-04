@@ -1,5 +1,3 @@
-# FAQ
-
 ### Which accesses do the Column-oriented Storage products have?
 
 Currently, the Column-oriented Storage provides two access modes including Intranet and public network.

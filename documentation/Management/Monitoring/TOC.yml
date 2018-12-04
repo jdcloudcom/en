@@ -80,15 +80,17 @@ items:
     - name: Custom Metric Monitoring 
       items:
         - name: Overview of Availability Monitoring
-          href: Operation-Guide/site-monitoring/usability-monitor-overview.md
+          href: Operation-Guide/Usability-Monitor/usability-monitor-overview.md
         - name: Availability Monitoring Restrictions and Quotas
-          href: Operation-Guide/UM-quota-restrictions.md
+          href: Operation-Guide/Usability-Monitor/UM-quota-restrictions.md
+        - name: Install Usability Monitor Plug-in
+          href: Operation-Guide/Usability-Monitor/UM-installAgent.md
         - name: Management of Availability Monitoring Tasks
-          href: Operation-Guide/site-monitoring/UM-management.md
+          href: Operation-Guide/Usability-Monitor/UM-management.md
         - name: View the monitoring graph
-          href: Operation-Guide/site-monitoring/UM-view.md
+          href: Operation-Guide/Usability-Monitor/UM-view.md
         - name: Set alarm rules
-          href: Operation-Guide/site-monitoring/UM-alarm.md
+          href: Operation-Guide/Usability-Monitor/UM-alarm.md
     - name: Custom Metric Monitoring 
       items:
         - name: Customized Metric Monitoring Overview

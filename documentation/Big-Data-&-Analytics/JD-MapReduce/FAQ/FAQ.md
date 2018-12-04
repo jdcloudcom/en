@@ -1,6 +1,5 @@
-# Frequently Questions
+### The characteristics and advantages of JD MapReduce
 
-### What are the characteristics and advantages of JD MapReduce?
 JD MapReduce can achieve network security between the clusters, preset firewalls, high availability of the master node, support for data encryption, and monitoring and management. JD MapReduce is fully compatible with Hadoop/Spark ecosystem applications, enabling simple and convenient migration of existing Hadoop/Spark projects to achieve full openness. JD MapReduce fully supports memory computing, built-in support for distributed memory file system Alluxio, and accelerates JD MapReduce access to HDFS and Object Storage through Alluxio.
 
 JD MapReduce is flexible and flexible, and can support different software and hardware combinations and cluster sizes according to service scale, workload characteristics, and time-peak characteristics. Based on customer needs, the optimal combination of performance and cost can be realized through multiple different clusters to achieve dynamic capacity expansion. And cost-effective effects.

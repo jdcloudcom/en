@@ -29,8 +29,8 @@ years. However, reviewing the profit breakdown data of other products in these t
 in the red. So is the profitability of scented mint tea similar to that of mocha coffee?
 
 * Link Data by Brush
-
 In order to study the profitability of scented mint tea in the eastern market, you need to use the brush tool based on the data scaling. The brush will highlight the scented mint tea data to help you find the answer.
+
 1. Select the cell of "Scented mint tea" in the profit statement and click the brush button in the chart area.
 2. In the trend chart and map, the data related to "Scented mint tea" are highlighted. In the instrument and statement, only the product
 data are shown, and data for other products are no longer displayed.
@@ -43,29 +43,29 @@ since being put into market, with increasing loss over the past two years.
 
 After previewing, you may need to export and save the report in PDF, PNG and other formats for review. For example, export
 it in PNG:
-1. On the main interface after login, click [View Report] to enter the view report interface.
-2. Click Menu Bar -> **Output** -> **PNG Format** to output the report in PNG format.
+
+1. On the main interface after login, click [View Report] to enter the view report interface.<br>
+2. Click Menu Bar -> **Output** -> **PNG Format** to output the report in PNG format.<br>
 3. In the download dialog box popping up from browser, you can set the file name and download path; click **Download**, the report will be output to your computer in the format of
 PNG.
 
 ## Subscribe to Report
 The subscription feature is provided to facilitate you or others to regularly review the changes of report. You can
-set a fixed time and the system will send the report at the time set by yourself.
-1. Click **View Report** to enter the view report interface.
+set a fixed time and the system will send the report at the time set by yourself.<br>
 
-2. Click on menu bar -> **Subscribe** -> **New Subscription** to open the New Subscription dialog box.
-
+1. Click **View Report** to enter the view report interface.<br>
+2. Click on menu bar -> **Subscribe** -> **New Subscription** to open the New Subscription dialog box.<br>
 Note: if you have not configured your e-mail, then the system will remind you: "Please configure the mailbox
 server in the personalization of the home page at first."
 
-Mailbox configuration procedures are as below:
-1. On the main login page, click your username -> **Personalization**;
+Mailbox configuration procedures are as below:<br>
+1. On the main login page, click your username -> **Personalization**;<br>
 2. In the Advanced Tab of the personalization window, enter mailbox configuration information and click **OK**. The mailbox configuration is complete and you
-can continue to subscribe to the report.
-3. Click **Customize Schedule**, set the time for the report to be sent, and click **OK**.
+can continue to subscribe to the report.<br>
+3. Click **Customize Schedule**, set the time for the report to be sent, and click **OK**.<br>
 4. In the recipient text box area, click the plus sign to enter the dialog box of Add Email Address.
 5. Select the user or group that needs to receive the subscription, and click **Add**; the user or group will be added to the corresponding recipient area,
-as shown in the following figure.
+as shown in the following figure.<br>
 6. Return to the dialog box of New Subscription; click **Add Image to Text** and a line of characters "File Image? {P
-icture}" appears in the message area. The position of the characters represents the position of the image in the mail body.
-7. Enter the mail subject and body and click **OK** to complete the subscription settings.
+icture}" appears in the message area. The position of the characters represents the position of the image in the mail body.<br>
+7. Enter the mail subject and body and click **OK** to complete the subscription settings.<br>

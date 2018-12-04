@@ -5,7 +5,7 @@ components. In a smart layout, you can firstly drag and drop these components in
 1. Select a subject
 Create a report module: right-click in the blank editing area and select **Subject** -> "Business Simple Subject".
 
-2. Add a title
+2. Add a title<br>
 a Drag the Toolbar -> "Text Box" component to the editing area to create the textbox 1.<br>
 b Double-click to activate the textbox and enter the report title "Profit Analysis Report".<br>
 c Select the title textbox and select "Component Format" from the right-click menu. Set it to center alignment, with 24# bold blue font in the textbox without
@@ -16,7 +16,7 @@ a Drag the Toolbar -> "Chart" component to the editing area to create the Chart 
 
 4. Add an instrument component
 From the Toolbar -> "More Components" menu, drag the "Instrument" component to the right of Chart 1 in the editing area to create Instrument 1
-for subsequent generation of profit instruments.
+for subsequent generation of profit instruments.<br>
 
 5. Add a table component
 Drag the Toolbar -> "Table" component to be under Chart 1 in the editing area to create Table 1 for subsequent generation of breakdowns.
