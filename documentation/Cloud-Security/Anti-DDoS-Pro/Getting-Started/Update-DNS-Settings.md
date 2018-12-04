@@ -22,7 +22,7 @@ Change the record value to the cname address of Anti-DDoS Pro.
 
 
 ## Special Instructions
-- If the ** return/defense ** status in the forwarding rules is a back-to-origin, the access traffic will not go to the Anti-DDoS Pro, but directly to the Origin Server.
+- If the **return/defense** status in the forwarding rules is a back-to-origin, the access traffic will not go to the Anti-DDoS Pro, but directly to the Origin Server.
 
 
 ## Related Reference

@@ -6,7 +6,7 @@ You can adjust the settings of alarm reception at the Message Center to determin
 - Alarm settings take effect globally, including **Anti-DDoS Basic** and **Anti-DDoS Pro**.
 
 ## Configure Alarm Notification
-1. If you have logged in to the console, find the ** Message ** on the top right of the console and enter the Message --> Message Setup page.
+1. If you have logged in to the console, find the **Message** on the top right of the console and enter the Message --> Message Setup page.
 ![Message Center](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/message%2001.png)
 Or directly log in the [Message Center](https://uc.jdcloud.com/message/mine).
 2. Switch to **Message Settings page** 

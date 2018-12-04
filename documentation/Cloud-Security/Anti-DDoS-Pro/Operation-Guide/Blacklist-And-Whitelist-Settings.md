@@ -5,8 +5,8 @@ The IP (segment) in black list will be directly blocked when visiting.
 
 ## Operation Steps
 1. Log in [Anti-DDoS Pro Console](https://ip-anti-console.jdcloud.com/instancelist).
-2. On the “Instance List” page, select the target instance, and click ** Instance Name ** or ** Forwarding Setting ** to enter the "Instance Details" page.
-3. On the "Instance Details" page, click ** IP Black List/White List ** to configure it.
+2. On the “Instance List” page, select the target instance, and click **Instance Name** or **Forwarding Setting** to enter the "Instance Details" page.
+3. On the "Instance Details" page, click **IP Black List/White List** to configure it.
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/blacklist%2001.png)
 
 ## Configuration Instructions

@@ -8,7 +8,7 @@ This paper introduces the purchase entries of Anti-DDoS Pro instance.
 
 ![Anti-DDoS Pro Purchase](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/ipanti%20purchase2.png)
 
-3. Pop up product introduction page of Anti-DDoS Pro and click ** Buy Now **.
+3. Pop up product introduction page of Anti-DDoS Pro and click **Buy Now**.
 
 ![MongoDB-buy](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/ipanti%20purchase.png)
 

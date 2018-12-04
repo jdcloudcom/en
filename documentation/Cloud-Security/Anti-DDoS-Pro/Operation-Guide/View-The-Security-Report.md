@@ -6,12 +6,12 @@ Anti-DDoS Pro provides rich security reports to help you understand the protecti
 1. Log in to the Anti-DDoS Pro [Monitoring Report Page](https://ip-anti-console.jdcloud.com/charts). Menu bar position is as follows: </BR>
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/report%2001.png)
 
-2. The relevant reports of the first instance will be displayed by default. You can switch the instance in the dropdown box of the ** Instance name **, or you can select multiple or all of the instances. If more than one instance is selected, the chart data in report will be displayed in an accumulative way.
+2. The relevant reports of the first instance will be displayed by default. You can switch the instance in the dropdown box of the **Instance name**, or you can select multiple or all of the instances. If more than one instance is selected, the chart data in report will be displayed in an accumulative way.
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/report%2006.png)
 
 ### Mode 2
 1. Log in [Anti-DDoS Pro Console](https://ip-anti-console.jdcloud.com/instancelist).
-2. To find the instance of report that you want to view, you need to click ** View report ** to view the report of that instance.
+2. To find the instance of report that you want to view, you need to click **View report** to view the report of that instance.
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/report%2002.png)
 
 ## Report Type

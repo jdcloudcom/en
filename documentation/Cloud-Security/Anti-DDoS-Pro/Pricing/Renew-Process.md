@@ -10,7 +10,7 @@ In this paper, the entries of Anti-DDoS Pro instance will be introduced.
 2. Through navigation at the page head, click in the order of **Product** > **Anti-DDoS Pro** to open the "Instance List" page; you can also open the "Instance List" page by clicking the **Cloud Security** > **Anti-DDoS Pro** via the menu on the left.
 ![](../../../../image/Advanced%20Anti-DDoS/price01.png)
 
-3. Click ** Renew ** in the operation items to enter the "Renew" page and carry out the renewal.
+3. Click **Renew** in the operation items to enter the "Renew" page and carry out the renewal.
 ![](../../../../image/Advanced%20Anti-DDoS/price02.png)
    
 
