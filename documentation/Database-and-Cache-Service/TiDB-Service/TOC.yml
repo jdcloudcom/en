@@ -25,11 +25,11 @@
   - name: Getting Started
     items:
     - name: Create Instance
-      herf: Getting-Started/Create-Instance.md
+      herf: Getting-Started/Create-TiDB-Instance.md
     - name: Connect Instance
-      herf: Getting-Started/Connect-Instance.md
+      herf: Getting-Started/Connect-TiDB-Instance.md
     - name: Monitor Instance
-      herf: Getting-Started/Monitor.md
+      herf: Getting-Started/TiDB-Monitor.md
 
   - name: Operation Guide
     items:
