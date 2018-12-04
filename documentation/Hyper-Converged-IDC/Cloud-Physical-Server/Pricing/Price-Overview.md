@@ -1,6 +1,6 @@
 # Price overview
 
-The instance prices of the Cloud Physical Server mainly include the Cloud Physical Server price and EIP price.
+The instance prices of the Cloud Physical Server mainly include the Cloud Physical Server price and public IP price.
 
 ## Cloud Physical Server Price
 
@@ -12,24 +12,24 @@ The instance prices of the Cloud Physical Server mainly include the Cloud Physic
 		<td ><B>Monthly Package Price (RMB)</B></td>	
     </tr>
     <tr>   
-        <td rowspan="3">Computing Type</td>
-		<td >Standard Computing Type</td>
+        <td rowspan="3">Compute Type</td>
+		<td >Compute Standard</td>
 		<td >cps.c.normal</td>
 		<td >6300</td>
     </tr>
 	<tr>   
-		<td >Computing Performance Type Ⅰ</td>
+		<td >Compute Performance Ⅰ</td>
 		<td >cps.c.perf1</td>
 		<td >7000</td>
     </tr>
 	<tr>   
-		<td >Computing Performance Type Ⅱ</td>
+		<td >Compute Performance Ⅱ</td>
 		<td >cps.c.perf2</td>
 		<td >9000</td>
     </tr>
 	<tr>   
 		<td >Storage Type</td>
-		<td >Standard Storage Type</td>
+		<td >Storage Standard</td>
 		<td >cps.s.normal</td>
 		<td >4500</td>
     </tr>
@@ -48,7 +48,7 @@ The instance prices of the Cloud Physical Server mainly include the Cloud Physic
 
 
 
-## EIP Price
+## Public IP Price
 
 **Billing by Fixed Bandwidth**
 
@@ -62,6 +62,7 @@ The instance prices of the Cloud Physical Server mainly include the Cloud Physic
     <tr>   
         <td ><B>RMB/Month</B></td>
 		<td ><B>RMB/Year</B></td>
+    </tr>
     </tr>
 	<tr>   
         <td rowspan="6">BGP</td>
@@ -99,6 +100,6 @@ The instance prices of the Cloud Physical Server mainly include the Cloud Physic
 
 Note:
 
-The EIP prices are different depending on the regions and the IP providers. The specific price is subject to the region and line selected at the time of purchase. The regions in the table are not all open; some regions are in preparation for opening.
+The public IP prices are different depending on the regions and the IP providers. The specific price is subject to the region and line selected at the time of purchase. The regions in the table are not all open; some regions are in preparation for opening.
 
 The bandwidth quota is shared by the public network IPV4 and the public network IPV6.
