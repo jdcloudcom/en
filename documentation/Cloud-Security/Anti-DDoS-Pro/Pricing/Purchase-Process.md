@@ -6,7 +6,7 @@ This paper introduces the purchase entries of Anti-DDoS Pro instance.
 1. Log in to JD Cloud Official Website (http://www.jdcloud.com/cn/)。
 2. Select "Product > Cloud Security Anti-DDoS Pro", as shown in the figure below.
 
-![Anti-DDoS Pro Purchase](https://github.com/jdcloudcom/cn/blob/edit/image/%20Anti-DDoSPro/ipanti%20purchase2.png)
+![Anti-DDoS Pro Purchase](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/ipanti%20purchase2.png)
 
 3. Pop up product introduction page of Anti-DDoS Pro and click ** Buy Now **.
 
@@ -18,6 +18,6 @@ This paper introduces the purchase entries of Anti-DDoS Pro instance.
 
 1. Login [JD Cloud Official Website](http://www.jdcloud.com/cn/).
 2. Select the "Console" as shown in the figure below.
-![Console](https://github.com/jdcloudcom/cn/blob/edit/image/%20Anti-DDoSPro/console-buy.png)
+![Console](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/console-buy.png)
 
 3.Log in to the console. For specific operation, refer to [Create Instance](../Getting-Started/Create-Instance.md).

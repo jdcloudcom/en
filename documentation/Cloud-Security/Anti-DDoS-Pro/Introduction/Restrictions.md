@@ -7,7 +7,7 @@ The Anti-DDoS Pro is of standard package by fault and only provides protection o
 
 ## Restraint of Upgrade and Degradation
 - Basic protection and service bandwidth: can only be upgraded and cannot be degraded.
-- ISP Line: You can only upgrade the single to multiple ISP lines, such as upgrading China Telecom to Telecom + Unicom. It cannot be degraded.
+- ISP Line: You can only upgrade the single to multiple ISP lines, such as upgrading China Telecom to Telecom+Unicom. It cannot be degraded.
 
 ## Refund Restraint
 After the purchase is completed, no matter whether there is attack or not, there will be charges. It is non-refundable.

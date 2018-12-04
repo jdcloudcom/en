@@ -5,7 +5,7 @@ The billing items of JD Cloud Anti-DDoS Pro include basic protection, elastic pr
 
 ### Basic Protection
 Anti-DDoS Pro provides fixed defense capabilities, including fixed attack protection peak value (Gbps) and CC defense peak value (QPS). Monthly package.
-The price of basic protection varies with the ISP lines selected. The optional ISP lines are Telecom, Telecom + Unicom, and Telecom + Unicom + CMCC's ISP line.
+The price of basic protection varies with the ISP lines selected. The optional ISP lines are Telecom, Telecom+Unicom, and Telecom+Unicom+CMCC's ISP line.
 
 ### Elastic Protection
 The elastic protection refers to the extended DDoS protective capability provided when the actual attack traffic exceeds the protective capability of basic protection, including the extension of the of DDoS attack protection peak value (Gbps) and the CC defense peak value (QPS).
@@ -16,7 +16,7 @@ Refers to the consumption bandwidth of normal service in non-DDoS attack state. 
 
 ## Payment Method
 ### Pay-In-Advance
-Includes basic protection + business bandwidth, charged according to the unified billing method of monthly package. Can only be upgraded, and cannot be degraded.
+Includes basic protection+business bandwidth, charged according to the unified billing method of monthly package. Can only be upgraded, and cannot be degraded.
 ### Pay-As-You-Go
 The elastic protection part is charged daily according to the larger actual billing interval of the Attack Peak Value exceeding the minimum protective capability (Gbps) or CC protective capability (QPS) of the day before,
 then a bill of Pay-As-You-Go will be generated.

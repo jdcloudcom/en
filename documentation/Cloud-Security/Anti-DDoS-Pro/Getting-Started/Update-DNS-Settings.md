@@ -10,14 +10,14 @@ After this step is completed, all users' access traffic will be forwarded back t
 1. Log in [Anti-DDoS Pro Console](https://ip-anti-console.jdcloud.com/instancelist).
 2. On the "Instance List" page, select the target instance, then click **Instance Name** or **Forwarding Setting** to enter the Instance Details page. Copy the cname value to be modified in the web service or non-web service forwarding rules. <Br/>
 Take non-web service forwarding rules as an example, find the cname to be copied at the red box as follows:
-![Modify DNS](https://github.com/jdcloudcom/cn/blob/edit/image/%20Anti-DDoSPro/update%20dns%2001.png)
+![Modify DNS](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/update%20dns%2001.png)
 3. At the provider of domain, you need to modify the domain name resolution configuration to resolve the domain name to the IP of Anti-DDoS Pro.
 Take the "Cloud Resolution" of JD Cloud as an example, on **Console** –>> **Domain Name Service** –>> **Cloud Resolution**, enter JD Cloud [Cloud Resolution Console](https://dns-console.jdcloud.com/list). <Br/>
-![Modify DNS](https://github.com/jdcloudcom/cn/blob/edit/image/%20Anti-DDoSPro/update%20dns%2002.png) <Br/>
+![Modify DNS](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/update%20dns%2002.png) <Br/>
 Find the domain name to be resolved, as follows:
-![Modify DNS](https://github.com/jdcloudcom/cn/blob/edit/image/%20Anti-DDoSPro/update%20dns%2003.png) <Br/>
+![Modify DNS](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/update%20dns%2003.png) <Br/>
 Click to enter the resolution configuration:
-![Modify DNS](https://github.com/jdcloudcom/cn/blob/edit/image/%20Anti-DDoSPro/update%20dns%2004.png) <Br/>
+![Modify DNS](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/update%20dns%2004.png) <Br/>
 Change the record value to the cname address of Anti-DDoS Pro.
 
 

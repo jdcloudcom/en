@@ -23,7 +23,7 @@ In addition to providing SYN Flood, ACK Floods, ICMP Flood, UDP Flood, NTP Flood
 A: Anti-DDoS Pro supports single and multiple ISP line purchase, and supports the single ISP line to upgrade to multi ISP lines.
 - Single ISP line: The China Telecom's ISP line can support up to 400G of protection bandwidth.
 
-- Multi ISP line: There are two optionalISP lines: Telecom + Unicom and Telecom + Unicom +CMCC, supporting up to 400G of protection bandwidth.
+- Multi ISP line: There are two optionalISP lines: Telecom+Unicom and Telecom+Unicom+CMCC, supporting up to 400G of protection bandwidth.
 
 By default, the China Telecom's ISP line will be resolved to the China Telecom Machine Room, the China Unicom's ISP line to the China Unicom Machine Room, and the CMCC's ISP line to the CMCC Machine Room. If the attack traffic exceeds the maximum capacity of China Unicom Machine Room or CMCC Machine Room, the ISP line will be resolved to the China Telecom's ISP line to complete the cleaning.
 
@@ -71,11 +71,11 @@ A: Anti-DDoS Pro sets up error code pages for the following special cases, and y
 
 | Error Code	| Meaning	| Reasons for Occurring | What to do |
 | :- | :- | :- | :- |
-|ERROR 422 |	Access denied | 	Sorry, the webmaster has performed IAM to the region you are in or the access IP and denied your access because of possible malicious behavior on your computer or IP. |	Please contact the webmaster to modify the access policy. |
+|ERROR 422|	Access denied| 	Sorry, the webmaster has performed IAM to the region you are in or the access IP and denied your access because of possible malicious behavior on your computer or IP. |	Please contact the webmaster to modify the access policy. |
 |ERROR 420 |	Request to re-enter |	The same access from you has passed though the node of Anti-DDoS Pro of JD. |	Please confirm the website configuration, and confirm whether it is configured with multiple proxy servers, and the proxy path has generated loop. |
 |ERROR 522 |	The origin server is unreachable	. The same access from you has passed though the node of Anti-DDoS Pro of JD. |F	or errors occurring to the origin server, the common causes are DNS setting error, changes have not taken effect or origin server firewall |The request is blocked. Please access later or contact the webmaster. |
 |ERROR 421 |	The domain name does not exist	| The domain you access has not purchased Anti-DDoS Pro service of JD Cloud or the configuration has not taken effect, so the services cannot be provided. |	Please confirm the website has purchased Anti-DDoS Pro service of JD Cloud and the configuration has taken effect. |
-|ERROR 523 |	The origin server is busy |	The server is busy due to the possible reason that the origin server is subject to CC attack	| The origin server is busy. Please access later. |
+|ERROR 523|	The origin server is busy |	The server is busy due to the possible reason that the origin server is subject to CC attack	| The origin server is busy. Please access later. |
 |ERROR 524 |	The server is busy	. The origin server is busy. |	The origin server is busy. Please access later. |
 
 An example of the error page style:

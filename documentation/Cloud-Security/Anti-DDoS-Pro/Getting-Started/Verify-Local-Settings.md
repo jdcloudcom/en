@@ -11,7 +11,7 @@ This step **is not mandatory**
 2. Enter the following contents at the command line:</br>
 curl -x cname:port DomainName
 <Br/>E.g.: <Br/>
-![Verify Configuration](https://github.com/jdcloudcom/cn/blob/edit/image/%20Anti-DDoSPro/Verify-Local-Settings.png)
+![Verify Configuration](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/Verify-Local-Settings.png)
 <Br/>If you return to the page contents of access domain, it indicates that the configuration is successfully made.
 
 ## Related Reference
