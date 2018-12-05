@@ -2,7 +2,7 @@
 
 **Resources Display**
 
-   The Console displays the officially allocated cabinet resources, the basic information of the cabinet, the powered status, etc. 
+   The Console displays the officially allocated cabinet resources, the basic information of the cabinet, the powered status, etc.
 
    The Console displays customer hosted device resources, basic information of device, and located cabinet, etc.
   
