@@ -13,5 +13,5 @@ Currently, the sources supported by JD Cloud’s tag management include the type
  - Virtual Machine
  - Cloud Disk Service
  - SQL Server Database
-
+ - JCS for Memcached
 There will be a follow-up increase of resources of the types that support to associate tags
