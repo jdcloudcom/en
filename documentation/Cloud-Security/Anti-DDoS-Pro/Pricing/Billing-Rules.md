@@ -1,6 +1,6 @@
 # Billing Rules
 
-Advanced Anti-DDoS Pro supports two billing types:
+Anti-DDoS Pro supports two billing types:
 
 * Monthly Package
 * Monthly Package + Pay-As-You-Go
@@ -8,13 +8,13 @@ Advanced Anti-DDoS Pro supports two billing types:
 ## Monthly Package
 ### Introduction
 If you only purchase basic protection, you will be charged with monthly package as the Pay-As-You-Go mode.
-In this way, Advanced Anti-DDoS Pro only provides fixed protective capability on the basis of your chosen package.
+In this way, Anti-DDoS Pro only provides fixed protective capability on the basis of your chosen package.
 
 ### Example
 When the elastic protection is selected 0, the elastic protection is not activated.
 As shown in the figure, the user only purchases 10G of basic protection and does not open the elastic protection.
-![Advanced Anti-DDoS Pro basic protection Billing](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/billing2.png)
-Example: When the attack<=10G, the Advanced Anti-DDoS Pro system provides protection.
+![Anti-DDoS Pro basic protection Billing](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/billing2.png)
+Example: When the attack<=10G, the Anti-DDoS Pro system provides protection.
     When the attack>10G, the instance has exceeded the maximum protection peak value of the basic protection. Because the user has not purchased elastic protection, the protection IP will be treated by the black hole, causing affect to the business.
 
 
@@ -31,7 +31,7 @@ If the attack does not exceed the defense peak value of basic protection, you wi
 ### Example
 It is recommended that the users adopt the mixed billing method of basic protection and elastic protection to fight against the DDoS attack.
 Take the following figure as an example: the user purchases 10Gbps of one-month basic protection and 10Gbps of elastic protection in a mixed billing method.
-![Advanced Anti-DDoS Pro Elastic Billing](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/billing1.png)
-When the attack traffic does not exceed 10G, there will be no charge of elastic protection. When the attack traffic exceeds 10G, the Advanced Anti-DDoS Pro will still provide attack protection, with maximum protection bandwidth being 20G. The cost will be charged the day after according to the interval in which the actual bandwidth exceeds the elastic protection.
+![Anti-DDoS Pro Elastic Billing](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/billing1.png)
+When the attack traffic does not exceed 10G, there will be no charge of elastic protection. When the attack traffic exceeds 10G, the Anti-DDoS Pro will still provide attack protection, with maximum protection bandwidth being 20G. The cost will be charged the day after according to the interval in which the actual bandwidth exceeds the elastic protection.
 Example: If the maximum Attack Peak Value is 8G on November 10, the billing method of the monthly package does not require additional elastic billing charges.
    If the maximum Attack Peak Value is 15G on November 11, then on November 12, there will be charge of elastic interval (0Gbps

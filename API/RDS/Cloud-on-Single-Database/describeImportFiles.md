@@ -24,7 +24,6 @@ None
 |---|---|---|
 |**result**|Result| |
 
-
 ### Result
 |Name|Type|Description|
 |---|---|---|
@@ -32,10 +31,12 @@ None
 ### ImportFile
 |Name|Type|Description|
 |---|---|---|
+|**importTime**|String|Import completion time, with the format: YYYY-MM-DD HH:mm:ss<br>- only support SQL Serverer|
 |**isLocal**|String|Whether it belongs to the current instance. <br> 1: Current instance; <br>0: It does not belong to current instance, and is a shared file|
 |**name**|String|File Name|
 |**sharedFileGid**|String|If the file is a shared file, it has a global ID, and it is empty if it is not a shared file. This global ID is needed when the file is deleted.|
 |**sizeByte**|Integer|File Size, Unit: Byte|
+|**status**|String|File Status<br>- only support SQL Serverr|
 |**uploadTime**|String|File upload completion time, format: YYYY-MM-DD HH:mm:ss|
 
 ## Response code

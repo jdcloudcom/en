@@ -96,11 +96,11 @@ When selecting groups that support scaling policy when creating groups, VM insta
 
 a. Select Existing Machine
 
-When selecting groups that do not support scaling policy and deploy the machine to select the groups with existing machines when creating groups, you need to add instances to the groups. An instance is a machine that has been associated to the corresponding service tree product line. The “Operation Guide - Resource Pool” will explain how to associate the JD Virtual Machine with the service tree product line.
+When selecting groups that do not support scaling policy and deploy the machine to select the groups with existing machines when creating groups, you need to add instances to the groups. Click **Add Instance**, select the group in the pop-up window, and add a machine to the group. An instance is a machine that has been associated to the corresponding service tree product line. The “Operation Guide - Resource Pool” will explain how to associate the JD Virtual Machine with the service tree product line.
 
 ![Alt text](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Operation9.png)
 
-Click **Add Instance**, select the group in the pop-up window, and add a machine to the group. The list of machines listed here are the machines that have been associated with this product line. See Resource Pool for details.
+
 
 b. Create Machine Based on Instance Template
 

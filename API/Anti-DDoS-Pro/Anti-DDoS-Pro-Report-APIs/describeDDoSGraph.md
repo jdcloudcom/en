@@ -18,7 +18,7 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/charts:DDoSGraph
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**endTime**|String|True| |Search end time, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ|
-|**instanceId**|String[]|False| |Advanced Anti-DDoS Instance ID, 0 or more can be transferred|
+|**instanceId**|String[]|False| |Anti-DDoS Pro Instance ID, 0 or more can be transferred|
 |**startTime**|String|True| |Start time, up to the latest 60 days, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ|
 
 

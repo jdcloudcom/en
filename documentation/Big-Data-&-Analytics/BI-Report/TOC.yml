@@ -14,7 +14,7 @@ items:
 - name: Pricing
   items:
     - name: Billing Overview
-      href: Pricing/Pricing.md
+      href: Pricing/Billing-Overview.md
 - name: Operation Guide
   items:
     - name: Create Data Set    

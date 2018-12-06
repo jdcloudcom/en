@@ -18,7 +18,7 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/attacklog/describeAttackSta
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**endTime**|String|True| |Search end time, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ|
-|**instanceId**|String[]|False| |Advanced Anti-DDoS Instance ID|
+|**instanceId**|String[]|False| |Anti-DDoS Pro Instance ID|
 |**startTime**|String|True| |Start time, up to the latest 30 days, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ|
 |**type**|Integer|True| |Attack Type, 0 is DDos, and 1 is CC|
 

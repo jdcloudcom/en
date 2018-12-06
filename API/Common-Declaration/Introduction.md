@@ -23,7 +23,7 @@ The Billing Method of resources created by using OpenAPI is exactly the same as 
 
 Billing Method|Meaning|Instruction
 :---|:---|:---
-prepaid_by_duration | Pay-In-Advance | Default value. You need to specify the billing unit chargeUnit and the billing time duration chargeDuration
+prepaid_by_duration | Pay-In-Advance | Default value. You need to extra specify the billing unit chargeUnit and the billing time duration chargeDuration
 postpaid_by_usage | Pay-As-You-Go by consumption | 
 postpaid_by_duration | Pay-As-You-Go by configuration |            
 
@@ -45,7 +45,7 @@ cn-south-1
 
 When accessing resources without region attributes, such as accounts, bills and so on, but the interface needs to fill in the region code, then fill in the default region code cn-north-1.
 
-A region contains one or more Availability Zones. Availability Zone refers to the physical data center in the same region but subject to independent network and power supply. The failure of one Availability Zone will not affect other Availability Zones. Multiple Availability Zones can help applications achieve higher availability. Some of the interfaces may also require the code of Availability Zones. If API has no special specifications, fill in the following code:
+A region contains one or more Availability Zones. Availability Zone refers to the physical data center in the same region but subject to independent network and power supply. The failure of one Availability Zone will not affect other Availability Zones. Multiple Availability Zones can improve applications achieve higher availability. Some of the interfaces may also require the code of Availability Zones. If API has no special specifications, fill in the following code:
 
 Region|Availability Zone|code of Availability Zone
 :---|:---|:---

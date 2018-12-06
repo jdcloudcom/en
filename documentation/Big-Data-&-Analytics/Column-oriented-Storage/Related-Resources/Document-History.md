@@ -1,7 +1,8 @@
 # Document History 
 
+This document introduces the important update history of Column-oriented Storage document, including important features and descriptions of new products.
 
-## Related References
-
-- [Product Overview](../Introduction/Product-Overview.md)
+||Release Date|Features|Description||
+|-|-|-|
+|November 2018 | product launch | Column-oriented Storage product launch|
 

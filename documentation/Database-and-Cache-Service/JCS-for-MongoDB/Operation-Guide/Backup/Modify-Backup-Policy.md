@@ -14,7 +14,7 @@ The JCS for MongoDB supports automatic backup. After the instance is created, a 
    
     ![](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-017.png)
 
-1. On the "Backup Strategy" page, click **Modify Strategies** to open the "Modify Strategies Popup".
+    ![](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-017.png)
 
     ![](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-018.png)
 

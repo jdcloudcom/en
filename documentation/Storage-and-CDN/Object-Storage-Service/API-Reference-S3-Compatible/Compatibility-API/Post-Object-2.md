@@ -96,7 +96,7 @@ Special Tips for Header:
 
 5.The form size limit is 20K (excluding file size), if not, return 400, MaxPostPreDataLengthExceeded.
 
-6.The total length of the body requested by Post is not allowed to exceed 5G. If the file length is too large, it will return an error code: EntityTooLarge.
+6.The total length of the body requested by Post is not allowed to exceed 5G. If the file length is too large, it will return an error code: EntityTooLarge, if you want to upload a file larger than 5G, it is recommended to use multipart upload.
 
 7.If the key value specifies a variable (only support variable ${filename}), the uploaded file name now includes a path, namely "/" or "\", then ${filename} will be replaced by the part behind the last one "/" or "\". E.g.: If the uploaded file name is C:\Program Files\directory1\file.txt, then the ${filename} in the key attribute will be replaced to file.txt
 

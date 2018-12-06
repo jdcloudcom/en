@@ -11,6 +11,8 @@
         href: Introduction/Benefits.md
       - name: Features
         href: Introduction/Features.md
+      - name: Region and Availability Zone
+        href: Introduction/Regions-and-AvailabilityZones.md
       - name: Restrictions
         href: Introduction/Restrictions.md
       - name: Application Scenarios 
@@ -20,7 +22,7 @@
   - name: Pricing
     items:
       - name: Billing Overview
-        href: Pricing/Pricing.md
+        href: Pricing/Billing-Overview.md
       - name: Billing Rules
         href: Pricing/Billing-Rules.md
       - name: Price Overview
@@ -37,26 +39,48 @@
         href: Getting-Started/Create-Images.md
       - name: Create Container Instance
         href: Getting-Started/Create-to-Instance.md
+      - name: Create Pod
+        href: Getting-Started/Create-to-Pod.md
   - name: Operation Guide
     items:
-      - name: Container Instance
+      - name: Native Container
         items:
-          - name: Container Instance Overview
+          - name: Native Container Overview
             href: Operation-Guide/Instance/Container-Instance-Overview.md
-          - name: Instance Configuration Recommendation
+          - name: Native Container Configuration Recommendation
             href: Operation-Guide/Instance/Recommend-Instance.md
-          - name: Instance Life Cycle
+          - name: Native Container Life Cycle
             href: Operation-Guide/Instance/Life-Cycle.md
-          - name: Create Instance
-            href: Operation-Guide/Instance/Create-Instance.md
-          - name: Log in Instance
-            href: Operation-Guide/Instance/Login-Instance.md
-          - name: Start Instance
-            href: Operation-Guide/Instance/Start-Instance.md
-          - name: Stop Instance
-            href: Operation-Guide/Instance/Stop-Instance.md
-          - name: Delete Instance
-            href: Operation-Guide/Instance/Delete-Instance.md
+          - name: Instance
+            items:  
+              - name: Create Instance
+                href: Operation-Guide/Instance/Create-Instance.md
+              - name: Log in Instance
+                href: Operation-Guide/Instance/Login-Instance.md
+              - name: Start Instance
+                href: Operation-Guide/Instance/Start-Instance.md
+              - name: Stop Instance
+                href: Operation-Guide/Instance/Stop-Instance.md
+              - name: Delete Instance
+                href: Operation-Guide/Instance/Delete-Instance.md
+          - name: Pod
+            items:  
+              - name: Create Pod
+                href: Operation-Guide/Instance/Create-Pod.md
+              - name: Log in Pod
+                href: Operation-Guide/Instance/Login-Pod.md
+              - name: Start Pod
+                href: Operation-Guide/Instance/Start-Pod.md
+              - name: Stop Pod
+                href: Operation-Guide/Instance/Stop-Pod.md
+              - name: Delete Instance
+                href: Operation-Guide/Instance/Delete-Pod.md
+          - name: JCS for Kubernetes Creating Pod
+            items:
+              - name: Deploy Virtual-Kubelet
+                href: Operation-Guide/Instance/Deploy-Virtual-Kubelet.md
+              - name: Create Pod in JCS for Kubernetes
+                href: Operation-Guide/Instance/Create-Pod-InKubernetes.md
           - name: Log
             href: Operation-Guide/Instance/Log.md
       - name: Networking
@@ -71,12 +95,14 @@
             href: Operation-Guide/Certified-Repository/Describe-Repository.md
           - name: Delete Registry Authentication Information
             href: Operation-Guide/Certified-Repository/Delete-Repository.md
-      - name: Monitoring Pre-alarm
+      - name: Monitoring and Alarm
         items:
           - name: Monitoring and Alarm Overview
             href: Operation-Guide/Monitoring-Alarm/Overview.md
           - name: Obtain Instance’s Monitoring Data
             href: Operation-Guide/Monitoring-Alarm/Retrieve-Data.md
+          - name: Obtain Pod Monitoring Data
+            href: Operation-Guide/Monitoring-Alarm/Retrieve-PodData.md
   - name: Best Practices
     items:
     - name: Create Image with SSH

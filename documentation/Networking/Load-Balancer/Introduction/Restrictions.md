@@ -1,14 +1,14 @@
 # Limitation description
 
-You care rapidly create and use the load balancer ALB, but shall pay attention to some registration conditions.
+You care rapidly create and use the Application Load Balancer ALB, but shall pay attention to some registration conditions.
 
 
 | Resource	| Limit	| Exception application method|
 | :- | :- | :- |
-|Load balancer instances under a single region	|5	|Ticket|
-|Listeners under one load balancer	|20	|None|
-|Backend service under one load balancer	|20	|None|
-|Virtual server group under one load balancer	|20|	None|
+|Application Load Balancer instances under a single region	|5	|Ticket|
+|Listeners under one Application Load Balancer	|20	|None|
+|Backend service under one Application Load Balancer	|20	|None|
+|Virtual server group under one Application Load Balancer	|20|	None|
 |Instances within one virtual server group	|100|	None|
 
 

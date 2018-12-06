@@ -1,7 +1,7 @@
 # Billing overview
 ## Charging items
 
-The load balancer (LB) product is paid by consumption. Namely, the expense is charged for the combination of least resource instance retaining expense and the actual business consumption expense;
+The Application Load Balancer (LB) product is paid by consumption. Namely, the expense is charged for the combination of least resource instance retaining expense and the actual business consumption expense;
 
 - Lease resource instance retaining charge: Refer to relevant resource cost for CPU core, memory capacity, etc. distributed for creating LB initial instance. The infrastructure charge will be collected from the user even if there is no traffic.
 - Business flow consumption expense: Relevant cost incurred by the user for business flow of LB processing.
@@ -18,7 +18,7 @@ At present, the instance price is the same all availability zones of all regions
 ## Amount overdue/Expiry description
 
 ### Pay by consumption
-When the instance is overdue, the billing status will be marked as the overdue status and the load balancer service will be unavailable. If the overdue status lasts for 7 days, the instance will be deleted and such instance and its relevant configuration will be lost and unrecoverable.
+When the instance is overdue, the billing status will be marked as the overdue status and the Application Load Balancer service will be unavailable. If the overdue status lasts for 7 days, the instance will be deleted and such instance and its relevant configuration will be lost and unrecoverable.
 
 ## Relevant references
 

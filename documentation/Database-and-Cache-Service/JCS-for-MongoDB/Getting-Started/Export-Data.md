@@ -21,9 +21,7 @@ JCS for MongoDB provides automatic backup and manual backup. To export the data,
 	- If the Virtual Machines is in the same region with the virtual database, you are recommended to use the intranet address for downloading;
 		
 6. Import the backup file to the local database.
-
        > mongorestore --host xxx --port=27017 --authenticationDatabase admin --archive=xxx(file path)  --gzip -u root -p xxx
-
 ## Related Reference
 
 - [Import Data](Import-Data.md)

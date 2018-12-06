@@ -18,7 +18,7 @@ With the NAT Gateway, the network architecture is simplified, the public IP amou
 The simulated IP information of configuration command is provided. Please purchase the IP information of the Cloud Physical Server for replacement.
 
 
-**Note **: Please disable SSH login port 22 with care, as disabling port 22 will lead to inaccessibility from the external to the NAT Gateway and the Cloud Physical Server.
+**Note**: Please disable SSH login port 22 with care, as disabling port 22 will lead to inaccessibility from the external to the NAT Gateway and the Cloud Physical Server.
 
 ### Configuration Scheme for CPS Public Network Access of Intranet
 

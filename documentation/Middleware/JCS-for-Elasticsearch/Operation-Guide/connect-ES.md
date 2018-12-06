@@ -56,19 +56,8 @@ gunzip logs.jsonl.gz
 '. The examples are as follows:
 
 ```
-curl -X PUT "es-nlb-es-u92rc1eulw.jvessel-open-hb.jdcloud.com:9200/shakespeare" -H 'Content-Type: application/json' -d'
- {
-  "mappings" : {
-   "_default_" : {
-    "properties" : {
-     "speaker" : {"type": "keyword" },
-     "play_name" : {"type": "keyword" },
-     "line_id" : { "type" : "integer" },
-     "speech_number" : { "type" : "integer" }
-    }
-   }
- }
-}'
+curl -X PUT "es-nlb-es-u92rc1eulw.jvessel-open-hb.jdcloud.com:9200/shakespeare" -H 'Content-Type: application/json' -d' { "mappings" : { "_default_" : { "properties" : { "speaker" : {"type": "keyword" }, "play_name" : {"type": "keyword" }, "line_id" : { "type" : "integer" }, "speech_number" : { "type" : "integer" } } } } } '
+
  
 ```
 The response below indicates mapping created:
@@ -90,25 +79,10 @@ The response below indicates mapping created:
       }
     }
   }
-}’. The examples are as follows:
+}'. The examples are as follows:
 
 ```
-curl -X PUT "es-nlb-es-u92rc1eulw.jvessel-open-hb.jdcloud.com:9200/logstash-20181011" -H 'Content-Type: application/json' -d'
-{
-  "mappings": {
-    "log": {
-      "properties": {
-        "geo": {
-          "properties": {
-            "coordinates": {
-              "type": "geo_point"
-            }
-          }
-        }
-      }
-    }
-  }
-}'
+curl -X PUT "es-nlb-es-u92rc1eulw.jvessel-open-hb.jdcloud.com:9200/logstash-20181011" -H 'Content-Type: application/json' -d' { "mappings": { "log": { "properties": { "geo": { "properties": { "coordinates": { "type": "geo_point" } } } } } } }' 
 
 ```
 5. Load the data set and check if data set is loaded. The examples are as follows:

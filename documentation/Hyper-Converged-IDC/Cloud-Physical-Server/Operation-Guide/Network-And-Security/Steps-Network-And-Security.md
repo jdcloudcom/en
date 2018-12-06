@@ -16,11 +16,10 @@ The following is an example of creating a filter table firewall:
 ```
 
 ### **3. Saving Rules**
-
-[root@jd ~]# iptables -L –n    #Check if the settings are done, and all the DROPs can be seen
-
-The settings are done and valid temporarily; the server will recover to the status where no settings are done if it is rebooted. Use service iptables save for saving. When you see the information firewall rules, it means to save in /etc/sysconfig/iptables. May open the file to view vi /etc/sysconfig/iptables
-
+```
+[root@jd ~]# iptables -L –n        #Check if the settings are done, and all the DROPs can be seen. The settings are done and valid temporarily; the server will recover to the status where no settings are done if it is rebooted.
+[root@jd ~]# service iptables save #will save the rule in /etc/sysconfig/iptables so that it can take effect after restart.
+```
 
 ### **4. Adding Rules**
 
@@ -52,13 +51,13 @@ HTTPS (Open Port 443)
 ```
 Allow ICMP (Allow ping)
 ```
-[root@tp ~]# iptables -A OUTPUT -p icmp -j ACCEPT
-[root@tp ~]# iptables -A INPUT -p icmp -j ACCEPT
+[root@jd ~]# iptables -A OUTPUT -p icmp -j ACCEPT
+[root@jd ~]# iptables -A INPUT -p icmp -j ACCEPT
 ```
-Allow loopback (or will lead to problems such as failure of normal closing of DNS)
+Allow loopback (ban of loopback will lead to problems such as failure of normal disabling of DNS)
 ```
-IPTABLES -A INPUT -i lo -p all -j ACCEPT
-IPTABLES -A OUTPUT -o lo -p all -j ACCEPT
+[root@jd ~]# iptables -A INPUT -i lo -p all -j ACCEPT
+[root@jd ~]# iptables -A OUTPUT -o lo -p all -j ACCEPT
 ```
 Forbid tcp access of a certain IP
 ```

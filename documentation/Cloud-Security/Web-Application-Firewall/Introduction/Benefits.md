@@ -1,4 +1,4 @@
-- ## Benefits
+## Benefits
 
 ### Professional Protection Ability
 

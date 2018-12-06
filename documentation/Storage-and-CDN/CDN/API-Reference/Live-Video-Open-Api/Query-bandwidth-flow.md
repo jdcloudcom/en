@@ -11,9 +11,11 @@ Query domain name flow bandwidth (bandwidth_flow)
 | username   | String   | Yes           | JD User Name pin                                                |
 | signature | String   | Yes           | User Signature, verify user's identity information through md5 method to ensure information security.  md5=date+username+secret key SecretKey date: format is yyyymmddusername: JD user name pin secret key: example agreed between the Parties: such as current date 2016-10-23, user pin: jcloud_00, user secret key SecretKey: e7a31b1c5ea0efa9aa2f29c6559f7d61, then the signature is MD5(20161023jcloud_00e7a31b1c5ea0efa9aa2f29c6559f7d61) |
 | domain     | String   | Yes           | Queried domain name                                                   |
+| appName     | String   |No         | Name of release point; the release point currently only supports single query  |
+| streamName   | String   | No           | Stream name; the stream name currently supports querying single path stream name, and app must be included when querying the stream nameName        |
 | start_time | String   | Yes          | Time format: yyyy-mm-dd   hh:mi Reference Example: 2016-12-14 07:00;     |
-| end_time   | String   | No           | Not a compulsory parameter; if no parameter is uploaded, it is current time by default                            |
-
+| end_time   | String   | No           | Not a compulsory parameter; if no parameter is uploaded, it is current time by default, the query time span cannot exceed 30 days  |
+| time_point  | String   | Not           | Not compulsory parameter, shows whether the counted interval value is calculated by the start time (startTime) or the end time (endTime). For example, counting the bandwidth from 00:00 to 00:05, if it’s time_point: startTime, then the bandwidth of 0-5 minutes is counted to 0; if it’s time_point: endTime, the bandwidth of 0-5 minutes is counted to the 5 minutes point; and if the time_point is not uploaded, it is by default to count the time point with the value of endTime.  |
  
 
 ## 3 Return Parameter
@@ -32,13 +34,13 @@ Query domain name flow bandwidth (bandwidth_flow)
 
 - ### Request Address
 
-http://opencdn.jcloud.com/api/live/ bandwidth_flow
+http://opencdn.jcloud.com/api/live/bandwidth_flow
 
 - ### Request Example
 
 * json Format
 
-http://opencdn.jcloud.com/api/live/ bandwidth_flow
+http://opencdn.jcloud.com/api/live/bandwidth_flow
 ```
 {
     "username" :" test_user ",

@@ -11,7 +11,7 @@ The Service Tree template will be automatically created for the first use.
 
 Next, please set the role for nodes of each level of the Service Tree (system, department, product line, system and application).
 
-2. Click the node with the name of Service Tree, set the role and save.
+2. Click the node with the name of “app-template-tenant name”, set the role and save.
 
 The roles are shown as below:
 

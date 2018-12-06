@@ -12,8 +12,8 @@ https://ias.jdcloud-api.com/v1/regions/{regionId}/app/{clientId}
 
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**clientId**|String|True| | |
-|**regionId**|String|True| | |
+|**clientId**|String|True| |Application ID, which is a 16-bits digital ID assigned by JD Cloud when creating the application|
+|**regionId**|String|True| |For region code, please refer to common declaration of OpenAPI|
 
 ## Request Parameter
 None
@@ -23,7 +23,7 @@ None
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String| |
-|**result**|Result|Return Result of Created App|
+|**result**|Result|Delete application returned results|
 
 ### Result
 |Name|Type|Description|

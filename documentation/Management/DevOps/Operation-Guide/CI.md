@@ -9,7 +9,7 @@ Click **Continuous Delivery** in the menu bar to log in the “Compilation and C
 
 Select an application from the Service Tree on the left side and click **Create and Construct** on the right side. Complete code library address and other information, save, enter the compilation construction list, and click **Construct Now** to perform compilation and construction operation. If the construction is successful, module version compiled and constructed can be seen in Module-View Version.
 
-- Git Code Address: Complete code library address, with the naming specification as follows: group name need to be > two characters, module name & branch name naming specification in lowercase + number + underline + line-through (currently, the uppercase letters will be automatically converted to lowercase letters). Special characters such as /, etc. are not supported.
+- Git Code Address: Complete code library address, with the naming specification as follows: group name need to be > two characters, naming specification in lowercase + number + underline + line-through (the uppercase letters will be automatically converted to lowercase letters). Special characters such as /, etc. are not supported.
 - Code Branch: Select code branch to be compiled
 - Module Name: The module name is automatically produced according to code address, used for associating “Compilation and Construction” and “On-line Release”.
 - Construct Image: select compilation environment, and currently multiple versions of compilation environments for different languages such as Java, golang, node, static_resource are supported Support the customized compilation environment. For details, please refer to the Container Registry.
@@ -18,9 +18,10 @@ Select an application from the Service Tree on the left side and click **Create 
 - Construction Parameters: parameters required during the process of entering construction
 - Trigger Conditions: construct manually or trigger compilation and construction automatically when submitting codes to branch(es)
 - Construction Type: code package
-- Version Rule: Provide version naming rules and archive them to the product library (Module-->Version View).
+- Version Rule: Provide version naming rules, please refer **Module-->Version View**.
 - Cache Compilation Workspace: for multiple complication and construction, cache workspace can accelerate the process of compilation
 - Construct upload location (multiple choices): In order to accelerate the “On-line Release” to obtain the compilation results, you can select the location of the construction package upload location according to the region of the Virtual Machine. 
+
 Advanced Options:
 - Enable LFS: Corresponding to large files in the code library
 - Webhook Address: notifications to be triggered may be entered
@@ -144,7 +145,7 @@ function main()
 main $@
 ```
 
-2. Add control file under code root directory /bin to start, stop or check the service health. The control script template file is listed as below, which can be further modified/expanded for use.
+2. The bin/control in output is used for starting, stopping and conducting service health check. The control script template file is listed as below. It can be further modified/expanded for use.
 
 The deployment path is /export/Instances/application name/instance name/runtime by default.
 

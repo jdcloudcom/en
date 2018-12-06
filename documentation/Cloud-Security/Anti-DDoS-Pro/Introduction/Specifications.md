@@ -1,12 +1,12 @@
 # Specifications
 
-The Advanced Anti-DDoS Pro currently supports the following instance specifications.
+The Anti-DDoS Pro currently supports the following instance specifications.
 
 ## Instance Specification List
 
 | Specification List | Protective Capability | 
 | :- | :- | 
-| Basic Protection | 10G to 100G |
+| Basic Protection     | 10G to 100G |
 | Elastic Protection	| 0G to 200G | 	
 | Business Bandwidth	| 100M to 2000M	 | 
 

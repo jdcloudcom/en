@@ -22,10 +22,10 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/userview/addUserVi
 ### AddView
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**domainId**|Integer|False| |Domain Name ID|
-|**domainName**|String|False| |Primary Domain Name|
-|**ipRanges**|String[]|False| |IP segment of the ISP line that the user enters. <br><br> IP segment supports two formats of 1.2.3.4-5.6.7.8 and 1.2.3.4/16 <br>|
-|**viewName**|String|False| |Customized ISP Line Name with 64 Characters at most|
+|**domainId**|Integer|True| |Domain Name ID|
+|**domainName**|String|True| |Primary Domain Name|
+|**ipRanges**|String[]|True| |IP segment of the ISP line that the user enters. <br><br> IP segment supports two formats of 1.2.3.4-5.6.7.8 and 1.2.3.4/16 <br>|
+|**viewName**|String|True| |Customized ISP Line Name with 64 Characters at most|
 
 ## Return Parameter
 |Name|Type|Description|
@@ -40,12 +40,12 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/userview/addUserVi
 ### Userview
 |Name|Type|Description|
 |---|---|---|
-|**createTime**|Integer|Creation Time|
+|**createTime**|Integer|Creation Time, Unix timestamp format, time unit: second|
 |**creator**|String|Creator|
 |**domainId**|Integer|Domain Name ID|
 |**domainName**|String|Domain Name|
 |**isDelete**|Integer|Deleted or not, 0: not deleted, 1: deleted|
-|**updateTime**|Integer|Updated on|
+|**updateTime**|Integer|Updated on, Unix timestamp format, time unit: second|
 |**updator**|String|Updater|
 |**viewId**|Integer|Customized ISP Line ID|
 |**viewName**|String|Customized ISP Line Name with 64 Characters at most|

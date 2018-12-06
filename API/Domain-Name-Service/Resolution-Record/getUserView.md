@@ -40,12 +40,12 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/userview/getUserVi
 ### UserViewInput
 |Name|Type|Description|
 |---|---|---|
-|**createTime**|Integer|Creation Time|
+|**createTime**|Integer|Creation Time, Unix timestamp format, time unit: second|
 |**creator**|String|Creator|
 |**domainId**|Integer|Domain Name ID|
 |**ipRanges**|String[]|IP Segment Entered by User|
 |**isDelete**|Integer|Deleted or not, 0: not deleted, 1: deleted|
-|**updateTime**|Integer|Updated on|
+|**updateTime**|Integer|Updated on, Unix timestamp format, time unit: second|
 |**updator**|String|Updater|
 |**viewId**|Integer|Customized ISP Line ID|
 |**viewName**|String|Customized ISP Line Name with 64 Characters at most|

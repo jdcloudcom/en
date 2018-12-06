@@ -45,8 +45,8 @@
         href: Getting-Started/Create-Compilejob.md
       - name: Configure Online Release
         href: Getting-Started/Config-Deployment.md
-      - name: View Basic Monitoring
-        href: Getting-Started/Base-Monitor.md
+      - name: Intelligent Access Monitoring
+        href: Getting-Started/Quick-start-monitoring.md
   - name: Operation Guide
     items:
       - name: Introduction
@@ -59,15 +59,39 @@
         href: Operation-Guide/Resource-Pool.md
       - name: Specification Template
         href: Operation-Guide/Specification-Templates.md
-      - name: Edit and construct
+      - name: Compile and construct
         href: Operation-Guide/CI.md
       - name: On-line release
         href: Operation-Guide/CD.md
       - name: Arrange on-line
         href: Operation-Guide/Arrange-Online.md
-      - name: Intelligent Monitoring
-        href: Operation-Guide/Monitoring.md
-      - name: Container Registry
+      - name: Acquisition Configuration
+        items:
+          - name: Machine Monitoring
+            href: Operation-Guide/Collection-Conf/Machine-Monitoring.md
+          - name: Port Monitoring
+            href: Operation-Guide/Collection-Conf/Port-Monitoring.md
+          - name: Process Monitoring
+            href: Operation-Guide/Collection-Conf/Process-Monitoring.md
+          - name: Log Monitoring
+            href: Operation-Guide/Collection-Conf/Log-Monitoring.md
+          - name: Domain Name Monitoring
+            href: Operation-Guide/Collection-Conf/Domain-Monitoring.md
+          - name: Custom Metric Monitoring
+            href: Operation-Guide/Collection-Conf/Custom-Monitoring.md
+      - name: Aggregation Configuration
+        href: Operation-Guide/Converge.md
+      - name: Data Visualization
+        href: Operation-Guide/Data-Visualization.md
+      - name: Alarm Group & Duty Group
+        href: Operation-Guide/Alarm-Contacts.md
+      - name: Alarm Configuration
+        href: Operation-Guide/Alarm-Conf.md
+      - name: Alarm Management
+        href: Operation-Guide/Alarm-Management.md
+      - name: Tags Instructions
+        href: Operation-Guide/Tags.md
+      - name: Image Packaging
         href: Operation-Guide/Image-Packaging.md
       - name: Script Management
         href: Operation-Guide/Script.md

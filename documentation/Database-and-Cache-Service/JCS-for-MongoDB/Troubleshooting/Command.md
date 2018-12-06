@@ -22,8 +22,8 @@ To ensure that the MongoDB replica set is running properly, the JCS for MongoDB 
 |Diagnostic Commands	| explain<br />listDatabases<br />dbHash<br />listCommands<br />availableQueryOptions<br />buildInfo<br />collStats<br />dbStats<br />cursorInfo<br />dataSize<br />ping<br />profile<br />top<br />whatsmyuri<br />serverStatus<br />features<br />isSelf<br />validate<br />| |
 | System Events Auditing Commands | | logApplicationMessage |
 
-MongoDB official command table：[http://docs.mongodb.org/master/reference/command/][1]
 
 
-[1]: http://docs.mongodb.org/master/reference/command/
+
+
 

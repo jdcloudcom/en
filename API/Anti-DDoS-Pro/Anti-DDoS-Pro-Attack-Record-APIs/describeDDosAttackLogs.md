@@ -18,7 +18,7 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/attacklog:ddos
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**endTime**|String|True| |Search end time, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ|
-|**instanceId**|String[]|False| |Advanced Anti-DDoS Instance ID|
+|**instanceId**|String[]|False| |Anti-DDoS Pro Instance ID|
 |**pageNumber**|Integer|False| |Page Number: 1 by default|
 |**pageSize**|Integer|False| |Paging Size: 20 by default; value range [10, 100]|
 |**startTime**|String|True| |Start time, up to the latest 30 days, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ|
@@ -44,8 +44,8 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/attacklog:ddos
 |**attackTraffic**|Number|Attack Traffic|
 |**blackHole**|Integer|Is black hole triggered, 0->no  1->yes|
 |**endTime**|String|End Time of Attack|
-|**instanceId**|Integer|Advanced Anti-DDoS Instance ID|
-|**name**|String|Advanced Anti-DDoS Instance Name|
+|**instanceId**|Integer|Anti-DDoS Pro Instance ID|
+|**name**|String|Anti-DDoS Pro Instance Name|
 |**startTime**|String|Start Time of Attack|
 |**unit**|String|Traffic Unit: bps, Kbps, Mbps and Gbps|
 

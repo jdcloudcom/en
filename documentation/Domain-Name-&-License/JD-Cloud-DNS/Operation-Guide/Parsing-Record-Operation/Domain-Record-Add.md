@@ -1,12 +1,19 @@
-- ## **Delete Domain Name:**
+## Add Resolution
 
-  1. Enter the console interface
-    
-  ![img](https://github.com/jdcloudcom/cn/blob/edit/image/dns-img/add-record1.png)
-  
-  2. Click **More** under the operation, and select **Delete** to pop up the following dialog box
+1. Log in the console interface.
 
-  ![img](https://github.com/jdcloudcom/cn/blob/edit/image/dns-img/add-record2.png)
-  
-  Click **Confirm** to delete the domain name and delete all the resolution record under this domain name. Please be cautious.
-  ![img](https://github.com/jdcloudcom/cn/blob/edit/image/dns-img/add-record3.png)
+![img](https://github.com/jdcloudcom/cn/blob/dns-zhangjingfeng/image/dns-img/add-record1.png) 
+
+2. Click the domain name or the right-handed resolution button to log in the domain name resolution page.
+
+![img](https://github.com/jdcloudcom/cn/blob/dns-zhangjingfeng/image/dns-img/add-record2.png)  
+
+3. Click **Add Resolution** to pop up the window.
+
+![img](https://github.com/jdcloudcom/cn/blob/dns-zhangjingfeng/image/dns-img/add-record3.png)  
+ 
+4. Fill in corresponding records based on your domain name.
+
+The column with the mark “*” is required. The record value added shall vary with the record type.
+For add of specific resolution records, please refer to detailed annotation for resolution record type.
+

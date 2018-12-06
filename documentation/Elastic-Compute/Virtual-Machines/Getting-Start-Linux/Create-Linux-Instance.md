@@ -1,7 +1,7 @@
 # Create Linux Instance
 1. Access [Instance Console](https://cns-console.jdcloud.com/host/compute/list), or access [JD Cloud Console](https://console.jdcloud.com)Click navigation bar on the left **Elastic Compute** - **Virtual Machines** - **Instance** to enter the instance list page.
 
-2. Select the region where the instance belongs and click **Create** to enter the VM purchase page. You are suggested to select the region of the instance according to the business condition. Fore more information about the region of JD Cloud, please refer to [Region and Availability Zone](../Introduction/Region-and-AZs.md).
+2. Select the region where the instance belongs and click **Create** to enter the VM purchase page. You are suggested to select the region of the instance according to the business condition. Fore more information about the region of JD Cloud, please refer to [Region and Availability Zone](../Introduction/Regions-and-AvailabilityZones.md).
 ![](../../../../image/vm/Getting-Start-Linux-Create-Region.png)
 
 3. Select the Billing Method: User can choose monthly package or pay by configuration. Monthly package is purchased and charged as per entire month, while paying by configuration is charged according to the actual using time (accurate to the second) with fee deducted per hour. For the difference between the two billing methods, please see [Billing Rules](../Pricing/Billing-Rules.md).

@@ -20,9 +20,12 @@ Please apply for trail directly on the product page, and get the trail qualifica
 
 2. Open trial
 
-You need to click **Open for Trial** in the console after obtaining the trial qualification. Start free trail for 1 month after operation.
+You need to click **Open for Trial** in the console after obtaining the trial qualification.
 
 ![开通试用](https://github.com/jdcloudcom/cn/blob/Anti-DDoS/image/Anti-DDoS-Protection-Package/开通试用.png)
 
+Fill in the name of trial instance and the IP information selected to associate in the popup to start free trail for 1 month.
+
+![试用](https://github.com/jdcloudcom/cn/blob/Anti-DDoS/image/Anti-DDoS-Protection-Package/试用.png)
 
 JD Cloud reserves all the right for the final explanation of trail activity.

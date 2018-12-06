@@ -6,34 +6,24 @@ The data set join effects are shown in the following figure:
 You can use the sample data sets "Coffee Sales Data in Chinese Market" and "Coffee Order Data in Chinese Stores" built into the product to join the data following the steps below.
 
 1. Access the self-service data set
-
 In the navigation area of home page after login, select "Self-service Dataset" to enter the Create Self-service Dataset interface.
 
-2. Edit data set:
-
-a In the data set list, drag the "Coffee Sales Data in Chinese Market" and "Coffee Order Data in Chinese Stores" to the editing area of
-self-service data sets.
-
-b In the action list, drag "Join" to the editing area and connect "Join" to the two datasheets with a link.
-
-c In the pop-up Join Dialog Box, set the join mode to "Inner Join" and the join column is the order ID. In this way, data of the same order
-ID in the two sheets are combined, as shown in the figure below.
-
-d Connect "Join" and "Query Results" with a link, and all metadata appear in the metadata area.
+2. Edit data set:<br>
+a In the data set list, drag the "Coffee Sales Data in Chinese Market" and "Coffee Order Data in Chinese Stores" to the editing area of<br>
+self-service data sets.<br>
+b In the action list, drag "Join" to the editing area and connect "Join" to the two datasheets with a link.<br>
+c In the pop-up Join Dialog Box, set the join mode to "Inner Join" and the join column is the order ID. In this way, data of the same order<br>
+ID in the two sheets are combined, as shown in the figure below.<br>
+d Connect "Join" and "Query Results" with a link, and all metadata appear in the metadata area.<br>
 
 3. Create a new date expression
-
 In data analysis, time is a common analytical dimension that helps to present data information or trends at a specific time. In order to present data information under the time dimension when creating a report
-, you need to create the required time dimension in the metadata area.
-
-a Select the column of "Transaction Time" and select Create a new date expression from the right-click menu.
-
-b Select the date expression format as "Year and Month".
-
-c The dimension area has the time dimension "YearMonth_transaction time" that you have just created, and the system automatically uses "Year and Month" as an alias for the time dimension.
+, you need to create the required time dimension in the metadata area.<br>
+a Select the column of "Transaction Time" and select Create a new date expression from the right-click menu.<br>
+b Select the date expression format as "Year and Month".<br>
+c The dimension area has the time dimension "YearMonth_transaction time" that you have just created, and the system automatically uses "Year and Month" as an alias for the time dimension.<br>
 
 4. Save data set
-
 Click on the menu bar -> **Save** to save the data set as "Join Table of Chinese Market Coffee Data".
 
 

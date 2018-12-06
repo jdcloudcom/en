@@ -2,7 +2,7 @@
 
 
 ## Introduction
-At present, RDS OpenAPI supports SQL Server service, which can realize database management, account management, backup management, Cloud on Single Database and other functions through OpenAPI, and will support cloud MySQL sevice later.
+At present, RDS Open API supports JCS for SQL Server, MySQL, PostgreSQL
 
 
 ### Version
@@ -15,6 +15,7 @@ v1
 |**createAccount**|POST|Create a database account. The user can use the client, application, etc. to log in to the RDS database instance through the account and password. <br>For ease of management and recovery, RDS restricts accounts. Database accounts can only be created, deleted, and authorized by the console or OpenAPI. Users cannot perform related operations on accounts through SQL statements.|
 |**createAudit**|POST|It enables the database audit function of SQL Server and currently supports instance-level database audit. Users can enable and disable the audit function, customize audit policies, and download audit files as needed. The audit file is a native SQL Server audit file and is saved for 6 months by default. <br>- Support SQL Server Only|
 |**createBackup**|POST|Creating a full backup of the RDS instance can be fully backed up for the entire instance or part of the database (SQL Server supports only). At the same time, there is only be one running backup task can work<br>- Support SQL Server only|
+|**createBackupSynchronicity**|POST|Create a cross-region backup synchronization service.|
 |**createDatabase**|POST|Create a Database. For instance management and data restoration, RDS restricts user permissions, and users can only create databases through the console or this API.|
 |**createInstance**|POST|Create an RDS instance and the user can use the corresponding database client or application to link to the RDS instance through the domain name and port to operate.|
 |**createInstanceByTime**|POST|Create a new instance based on the source instance backup, and recover the data of the new instance to the same status as the data at the specified time point of the source instance by adding new logs. <br>For example, creating an instance B at the time point '2018-06-18 23:00:00' based on instance A means creating an instance B, of which the data is exactly the same as the data of instance A at the time point '2018-06-18 23:00:00'. <br>For the SQL Server, recovery/creation by time point is not supported within 30 minutes after the primary/backup switchover. For example, if the user performs the primary/backup switchover at 10:05, recovery/creation by time point is unavailable during the time period from 10:05 to 10:35. <br>- only support MySQL|
@@ -22,6 +23,7 @@ v1
 |**deleteAccount**|DELETE|Delete the database account. After the account is deleted, it cannot be restored and the user cannot use this account to log in the RDS instance.|
 |**deleteAudit**|DELETE|Disable Database Audit. After the database audit is disabled, the previously generated audit result files are not deleted immediately. The audit result files will be automatically deleted by the system after the expiration date. The default expiration time is 6 months<br>- Support SQL Server Only|
 |**deleteBackup**|DELETE|Deletes the RDS instance backup. Only the user-generated backups are allowed to be deleted and the system automatic backups are not allow to be deleted.|
+|**deleteBackupSynchronicity**|DELETE|Delete a cross-region backup synchronization service.|
 |**deleteDatabase**|DELETE|Delete the database from the RDS instance. For management and data restoration, RDS controls user permissions. Users can only delete databases through the console or this API.</br>Sensitive operation, enable<a href="https://docs.jdcloud.com/IAM/Operation-Protection">MFA operation protection</a>|
 |**deleteInstance**|DELETE|Delete an RDS Instance or a read-only instance of MySQL. When the primary instance of MySQL is deleted, the corresponding read-only instance of MySQL is also deleted</br>Sensitive operation, enable<a href="https://docs.jdcloud.com/IAM/Operation-Protection">MFA operation protection</a>|
 |**describeAccounts**|GET|View all account information in an RDS instance, including the account name, access rights to each database, etc.|
@@ -29,8 +31,10 @@ v1
 |**describeAuditDownloadURL**|GET|Obtain the download link of a certain audit file, both internal and external links are supported, and the validity time of the link is 24 hours<br>- Only support SQL Server|
 |**describeAuditFiles**|GET|Obtain the list of all the audit result files under the current instance<br>- only support SQL Server|
 |**describeAuditOptions**|GET|Obtain the audit option of various database version supported by the current system and the relevant options<br>- only support SQL Server|
+|**describeAuditResult**|GET|Only support check of audit content of MySQL instance|
 |**describeBackupDownloadURL**|GET|Obtain the download link of the entire backups or  a single file in the backup. <br>- When there is a file name in the input parameter, obtain the download link of the file. <br>- When there is no file name in the input parameter, obtain the download link of the entire backups. <br>Due to the difference of backup mechanism, when using this API to download backups, SQL Server must input the file name, and each file is downloaded one by one. It does not support downloading the entire backup. The file name (excluding the suffix) in the SQL Server backup is the database name of the backup. For example, the file name is my_test_db.bak, indicating that the file is a backup of the my_test_db database. <br>MySQL can download the entire backup set, but does not support the download of a single file. <br>- Support SQL Server Only|
 |**describeBackupPolicy**|GET|View RDS instance backup policy. The supported backup policies differ based on different database type. See the detailed instructions in return parameters|
+|**describeBackupSynchronicities**|GET|Search the Cross-Region Backup Synchronization Service List.|
 |**describeBackups**|GET|View the detailed information of all backups in the RDS instance. The returned backup list is sorted in descending order from start time of backup (backupStartTime). <br>- Support SQL Server Only|
 |**describeBinlogDownloadURL**|GET|Obtain the binlog download link of MySQL instance<br>- only support MySQL|
 |**describeBinlogs**|GET|Obtain the binlog detailed information in MySQL instance<br>- only support MySQL|
@@ -44,7 +48,9 @@ v1
 |**describeSlowLogAttributes**|GET|Query the detailed information of slow log of MySQL instance. <br>- only support SQL Server|
 |**describeSlowLogs**|GET|Query the summary information of slow log of MySQL instance. <br>- only support SQL Server|
 |**describeWhiteList**|GET|View the current White List of RDS instances. The White List is a list of IP/IP segments that are allowed to access the current instance. By default, the White List is open to the VPC. If the user has enabled the internet access, you need to configure a White List for the IP of the internet.|
+|**disableAudit**|POST|Only support disabled database audit of MySQL instance|
 |**disableInternetAccess**|POST|Disable the internet access function of the RDS instance. After the disabling, users cannot access the RDS through the Internet, but can access the domain name through the intranet domain in JD Cloud|
+|**enableAudit**|POST|Only support enabled database audit of MySQL instance|
 |**enableInternetAccess**|POST|Enable the internet access function of the RDS instance. After enabling, users can access RDS instances through the internet|
 |**failoverInstance**|POST|Perform a RDS Instance Failover. <br>Note: If the instance is being backed up, the failover will terminate the backup operation. You can view the start time of backup in the backup policy to see whether a backup is running. If you need to perform the failover during the instance backup, you are advised to perform a full instance backup manually<br>for SQL Server, within 30 minutes of failover, restore/create by time point is not supported. For example, the user performs the failover at 10:05, then the time period from 10:05 to 10:35 cannot be restored/created. <br>- Support SQL Server Only|
 |**getUploadKey**|POST|Obtain the required key for uploading files from Cloud on Single Database. Cloud on Single Database needs the correct key value to connect to JD Cloud<br>- only support SQL Server|

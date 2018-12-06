@@ -13,10 +13,10 @@ public static void main(String[] args) {
     try {
         String host = "${your redis domain}";// Access address displayed on the console
         int port = 6379;
-        String token = "${redis-id}:{your password}";// token displayed on the console
+        String password = "${your password}";// token displayed on the console
         jedis = new Jedis(host, port);
         //Authentication Information
-        jedis.auth(token);
+        jedis.auth("password");
         String key = "redis";
         String value = "jmiss-redis";
         //Set a key
@@ -101,10 +101,10 @@ public static void main(String[] args) {
 
 ```
 #IP Address
-redis.pool.host=jcache-online20***59f-aeba-46*0-9fec-2de*****cd4c.jdicts.jcloud.com
+redis.pool.host=jredis-cn-north-1-prod-redis-xxxxxxxxxx.jdcloud.com
 # Port Number
 redis.pool.port=6379
-redis.pool.pass=89376FC86*******403911BF5C538
+redis.pool.pass=********
 # The Largest idle
 redis.pool.maxIdle=300
 # The Biggest Allocated Object

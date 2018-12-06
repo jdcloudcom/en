@@ -3,7 +3,7 @@ CC defense rules are of Web Service protection, so you need to switch to the Web
 
 The steps are as follows:
 
-- First, you need to log in to [Advanced Anti-DDoS Pro Console](https://ip-anti-console.jdcloud.com/instancelist).
+- First, you need to log in to [Anti-DDoS Pro Console](https://ip-anti-console.jdcloud.com/instancelist).
 - Find the instance that needs to be configured. Click the instance name to enter the **Instance Details** page.
 - Switch to **Website Forwarding Setting**
     ![Website Forwarding Rules](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/web-rule%2002.png)
@@ -28,7 +28,7 @@ The steps are as follows:
          - "Loose": Only few of the visits will be checked through CC rules. Suitable for websites with not many visits.
          - "Normal": When there is no obvious exception in the website, please select the normal mode. Only part of visits is checked.
          - "Critical": In case of the slow website response, and exception in the CPU, memory, etc., use the emergency mode. This mode is of rigorous detection and may cause false judgment.
-         - "Customization": Appropriate for advanced users. Enables them to customize the protection threshold. Includes HTTP request number threshold, the protection threshold of each Host, the protection threshold of each Host + URI, the protection threshold of each source IP to Host, the protection threshold of each source IP to Host + URI. The maximum HTTP request number threshold does not exceed the threshold of the purchased package.
+         - "Customization": Appropriate for advanced users. Enables them to customize the protection threshold. Includes HTTP request number threshold, the protection threshold of each Host, the protection threshold of each Host+URI, the protection threshold of each source IP to Host, the protection threshold of each source IP to Host+URI. The maximum HTTP request number threshold does not exceed the threshold of the purchased package.
 
 3. Configure CC defense policies for single domain name.
 
@@ -41,5 +41,5 @@ The steps are as follows:
 
 5. Configure Speed Limit
 
-    * Advanced protection supports limiting the visit speed of source IP. Click the "Edit" button in the speed limit rule for settings. The minimum time can be set to seconds.
+    * Anti-DDoS Pro supports limiting the visit speed of source IP. Click the "Edit" button in the speed limit rule for settings. The minimum time can be set to seconds.
  

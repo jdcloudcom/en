@@ -1,4 +1,4 @@
-﻿  name: ENI
+  name: Elastic Network Interface
   href: 
   items:
   - name: Introduction
@@ -18,7 +18,7 @@
   - name: Pricing
     items:
       - name: Billing Overview
-        href: Pricing/Pricing.md
+        href: Pricing/Billing-Overview.md
   - name: Getting Started
     items:
       - name: Business Traffic Separation
@@ -35,9 +35,9 @@
             href: Operation-Guide/Elastic-Network-Interface-Management/Create-Elastic-Network-Interface.md
           - name: Delete ENI
             href: Operation-Guide/Elastic-Network-Interface-Management/Delete-Elastic-Network-Interface.md
-          - name: Associate ENI
+          - name: Bind Elastic Network Interface
             href: Operation-Guide/Elastic-Network-Interface-Management/Associate-Elastic-Network-Interface.md
-          - name: Disassociate ENI
+          - name: Unbinding Elastic Network Interface
             href: Operation-Guide/Elastic-Network-Interface-Management/Disassociate-Elastic-Network-Interface.md
           - name: Enable Deletion on Instance Termination for ENI
             href: Operation-Guide/Elastic-Network-Interface-Management/Enable-Delete-with-VM.md
@@ -64,24 +64,9 @@
           - name: Linux Temporary Configuration
             href: Operation-Guide/VM-Configuration/Linux-Temporary-Configuration.md    
           - name: Linux Permanent Configuration
-            href: Operation-Guide/VM-Configuration/Linux-Permanent-Configuration.md  
-  - name: Best Practices
-    items:
-    status:0
-  - name: Troubleshooting
-    items:
-    status:0      
+            href: Operation-Guide/VM-Configuration/Linux-Permanent-Configuration.md   
   - name: FAQ
-    href: FAQ/FAQ.md
-  - name: API Reference
-    href:
-    status:0      
-  - name: SDK Reference
-    href:
-    status:0      
-  - name: User Agreement
-    items:
-    status:0        
+    href: FAQ/FAQ.md         
   - name: Related Resources
     items:
     - name: Document History

@@ -71,7 +71,7 @@ Security group provide instance-level network Identity and Access management. Yo
 
 **Determine the region that the instance belongs to**.
 
-The complete isolation between different regions of JD Cloud ensures the greatest degree of stability and fault tolerance across different regions. It currently covers four regions: cn-north-1, cn-south-1, cn-east-1 and cn-east-2. At present, the container is available in cn-north-1 and cn-east-2 and we shall add more service regions gradually in future to meet your business requirement.
+The complete isolation between different regions of JD Cloud ensures the greatest degree of stability and fault tolerance across different regions. It currently covers four regions: cn-north-1, cn-south-1, cn-east-1 and cn-east-2. At present, the container is available in cn-north-1, cn-east-2 and cn-south-1, and we shall add more service regions gradually in future to meet your business requirement.
 When choosing a region, you had better consider the following points:
 
 1. The deploy relation between instance and other JD Cloud products.

@@ -4,17 +4,17 @@
 
 - Networking preparation
 
-	Plan for load balancer, and region, availability zone, virtual private cloud, etc. of VM and containers as backend server in advance, according to business deployment needs.
+	Plan for Application Load Balancer, and region, availability zone, virtual private cloud, etc. of VM and containers as backend server in advance, according to business deployment needs.
 	
-	Note: VM and containers as backend server need to be in the same region, virtual private cloud with load balancer.
+	Note: VM and containers as backend server need to be in the same region, virtual private cloud with Application Load Balancer.
 
 - Server preparation
 
 	It is necessary to create VM and containers for carrying business traffic in advance, and ensure that the ports needed for listening are opened, and that security groups and ACL policies are properly configured.
 
-- Load balancer instance
+- Application Load Balancer instance
 
-	Create a load balancer instance, and set up the region, availability zone, network, security group and other configurations.
+	Create a Application Load Balancer instance, and set up the region, availability zone, network, security group and other configurations.
 
 ## Create an availability group
 
@@ -27,7 +27,7 @@
 
 - Take HTTP listener as an example, explain how to deploy availability group as backend server.
 	
-	Assume that a load balancer instance, a high-availability group resource has been created.
+	Assume that a Application Load Balancer instance, a high-availability group resource has been created.
 
 	Click ** Add ** to create a listener: select HTTP Protocol, configure port, idle connection timeout, and click **Next**.
 	

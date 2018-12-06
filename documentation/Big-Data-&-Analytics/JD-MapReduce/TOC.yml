@@ -60,7 +60,11 @@ items:
   - name: JD MapReduce Troubleshooting Instructions
     href: Troubleshooting/Troubleshooting-Instructions.md
 - name: FAQ
-  href: FAQ/FAQ.md
+  items:
+  - name: Characteristics and Benefits of JMR
+    href: FAQ/FAQ.md
+  - name: How to interact with OSS
+    href: FAQ/uploadOSS.md
 - name: Related Resources
   items:
   - name: Document History

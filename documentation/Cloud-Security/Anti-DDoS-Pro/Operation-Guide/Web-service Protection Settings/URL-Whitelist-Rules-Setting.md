@@ -1,7 +1,7 @@
 # URL White List Configuration
 Some of the common configurations of Web Service protection rules are described below. </BR>
 Before you configure the rule, you need to locate to the website forwarding rules by following the steps below:
-- First, you need to log in to [Advanced Anti-DDoS Pro Console](https://ip-anti-console.jdcloud.com/instancelist).
+- First, you need to log in to [Anti-DDoS Pro Console](https://ip-anti-console.jdcloud.com/instancelist).
 - Find the instance that needs to be configured. Click the instance name to enter the **Instance Details** page.
 - Switch to **Website Forwarding Setting**
    ![Website Forwarding Rules](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/web-rule%2002.png)

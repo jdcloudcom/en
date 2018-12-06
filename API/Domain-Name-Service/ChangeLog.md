@@ -1,8 +1,9 @@
 # Update History #
-API Version 1.0. 6
+API Version 1.0. 7
 
 |Release Time|Version Number| Update |Instructions|
 |---|---|---|---|
+|2018-11-13|1.0.7|Data Format Correction Relating to Time <br> rectify some interface parameters||
 |2018-10-09|1.0.6|Add internal interface||
 |2018-09-29|1.0.5|Add interface related to domain name diagnosis<br>Add internal interface |* Four Domain Name Diagnosis Interfaces|
 |2018-09-07|1.0.4|Add interface related to customized ISP Line<br>Add interface viewing operation record|* Six Interfaces Related to Customized ISP Line|

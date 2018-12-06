@@ -30,6 +30,7 @@ The possible reason is that the link between the Virtual Machines and the MongoD
     - Destination Port: 27017
     - Destination IP: 0.0. 0.0/ 0, because the IP may change during disaster tolerance switching or capacity expansion of MongoDB, please open all IP(s).
 	 ![](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-028.png)
+
 	
 1. Verify if the network ACL used by the Virtual Machines and the subnet where MongoDB is located is limited.
 

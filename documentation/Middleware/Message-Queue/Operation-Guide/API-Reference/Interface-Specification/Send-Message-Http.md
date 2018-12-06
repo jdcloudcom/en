@@ -21,7 +21,7 @@ POST {Http access point}/v1/messages HTTP/1.1
 |    Field Name  |      Field Type | Required or Not | Description       |
 | :---------- | :----------------- | :------ | :------------------------- |
 |     body     |       string        | Required | Message length does not exceed 256K         |
-| delaySeconds |        int32        | Optional | 0 <= delaySeconds <= 86400 |
+| delaySeconds |        int32        | Optional | 0 <= delaySeconds <= 86400, the Sequential Message does not support message latency, so this parameter cannot be set, please do not set it|
 |     tag      |       string        | Optional | Support a single Tag only                |
 |  properties  | map<string, string> | Optional | User customized key value           |
 

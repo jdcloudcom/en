@@ -1,0 +1,45 @@
+name: Cloud Security White Paper
+href: 
+items:
+- name: JD Cloud Security Overview
+  items:
+    - name: JD Cloud Introduction
+      href: Introduction/Introduction.md
+    - name: JD Cloud Security Strategy
+      href: Introduction/Security-Strategy.md
+- name: Security Compliance and Privacy Protection
+  href: Security-and-Privacy/Security-Compliance.md    
+- name: Share security responsibility
+  href: Responsibility/Responsibility.md
+- name: Basic Architecture Security
+  items:
+    - name: Infrastructure Security
+      href: Infrastructure/Infrastructure-Security.md
+    - name: Physical and Environmental Security
+      href: Infrastructure/Physical-Environmental-Security.md
+    - name: Network Security
+      href: Infrastructure/Network-Security.md
+    - name: Data Security
+      href: Infrastructure/Data-Security.md
+- name: Cloud Product Service Security
+  items:
+    - name: Computing Service
+      href: Product-Service-Security/Compute-Service.md
+    - name: Network Service
+      href: Product-Service-Security/Network-Service.md   
+    - name: Storage and CDN Service
+      href: Product-Service-Security/Storage-and-CDN-Service.md
+    - name: Cloud Database and Cache Service
+      href: Product-Service-Security/Databases-and-Caching-Services.md
+    - name: Big Data Analysis Service
+      href: Product-Service-Security/Big-Data-Service.md
+    - name: Management and Monitoring Service
+      href: Product-Service-Security/Manage-Service.md
+    - name: Content Security Service
+      href: Product-Service-Security/Content-Security-Service.md
+    - name: Security Product Service
+      href: Product-Service-Security/Security-Product-Service.md
+- name: Operation Management Security
+  href: Operations-Management/Operations-Management.md
+- name: JD Cloud Security Ecology
+  href: Security-Of-Ecology/Security-Of-Ecology.md	  

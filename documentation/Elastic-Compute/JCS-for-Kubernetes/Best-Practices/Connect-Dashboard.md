@@ -22,7 +22,7 @@ Set the location where the certificate is saved
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/JCS-for-Kubernetes/导入证书4.png)  
 Complete certificate import  
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/JCS-for-Kubernetes/导入证书5.png)  
-5) In the browser, input https://****/api/v1/namespaces/kube-system/services/https:kubernetes-dashboard:/proxy/, where, **** should be replaced with the service endpoints queried from Kubernetes cluster details page to visit dashboard;  
+5) In the browser, input `https://****/api/v1/namespaces/kube-system/services/https:kubernetes-dashboard:/proxy/`, where, `****` should be replaced with the service endpoints queried from Kubernetes cluster details page to visit dashboard;  
 2. Visit dashboard through LoadBalance services;  
  1) To visit dashboard through the LoadBalance service, you need to first create LoadBalance-type service in the cluster, with the yaml file as follows: 
 ```
@@ -41,34 +41,31 @@ spec:
   type: LoadBalancer
   selector:
      k8s-app: kubernetes-dashboard
-  ```
-  
+```  
 2) Perform the following command to create services in the kube-system namespace:  
-
+`
 kubectl create -f dashboard-lb.yaml --namespace=kube-system
-
+`  
 3) Query the EIP of the newly created service in the kube-system namespace
-
+`
 kubectl get services -n kube-system
-
+`  
 4) In the browser, input https://****:port in the browser, where**** should be replaced with the EIP associated with the load balance service, and port should be replaced with the port in the service spec, which is 8443 in this example, to visit dashboard.  
-
 III. dashboard Identity Authentication  
-
 User identity authentication is required for viewing the resource information of cluster in dashboad:  
-
-
-Take the token of the admin service account as an example, with the specific methods of operation as follows:
-
+Take the token of the admin service account as an example, with the specific methods of operation as follows:  
 1. View all secrets in kube-system namespace:  
 
 kubectl get secret -n kube-system
-
-2. View the secret details corresponding to the admin service account, and **** should be replaced with the specific secret name:  
-
-kubectl describe secret **** -n kube-system
-
+`  
+![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/JCS-for-Kubernetes/admintoken列表.png)  
+2. Check the secret details of the admin service account. The cluster is admin-user-token-b6djq, and the b6djq part should be replaced according to its own cluster:  
+`
+kubectl describe secret admin-user-token-b6djq -n kube-system
+`  
+![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/JCS-for-Kubernetes/查看admintoken.png)  
 3. Copy the corresponding token information in the Data entry into the dashboard window token input box, and click OK.  
+![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/JCS-for-Kubernetes/输入令牌.png)   
 
 4. You can also add token information to the config file user item, and then you can choose Kubeconfig for identity authentication.  
 

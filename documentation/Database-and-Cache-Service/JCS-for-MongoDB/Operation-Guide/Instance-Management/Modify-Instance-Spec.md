@@ -41,6 +41,7 @@ MongoDB instances support configuration items for changes, including:
 1. On the "Order Confirmation" page, confirm the instance information and read the Terms of Service for JCS for MongoDB.
     - For the billing type pay by configuration, please click **Instant Account Setup**.
     - For the billing type under monthly package, please click **Pay Now** to enter the "Order Payment" page and complete the payment process.
+
 1. After the payment process is completed, the page will automatically jump to the MongoDB "Instance List" page, please wait for the instance alteration to complete. You can view the newly altered instance on the "Instance Details" page.  
 
 

@@ -63,6 +63,8 @@ items:
              href: Operation-Guide/Manage-Bucket/Set-Custom-Domain-Name-2.md
            - name: Callback Notification
              href: Operation-Guide/Manage-Bucket/Callback-Notification-2.md
+           - name: Encrypted by Default
+             href: Operation-Guide/Manage-Bucket/Default-Encryption-For-Oss-Buckets-2.md             
       - name: Object Management
         items:
           - name: Create Folder
@@ -272,7 +274,9 @@ items:
            - name: Move Object
              href: SDK-Reference/Java-SDK/Move-Object-3.md
            - name: Generate presigned URL
-             href: SDK-Reference/Java-SDK/User-Signature-Authentication-3.md                          
+             href: SDK-Reference/Java-SDK/User-Signature-Authentication-3.md
+           - name: Video Transcoding
+             href: SDK-Reference/Java-SDK/Video-Transcoding.md
  - name: Best Practices
    items:
       - name: Use S3fs to Mount Bucket on Linux Instance
@@ -296,4 +300,6 @@ items:
       - name: OSS Online Service Quick Verification Tools
         href: Best-Practices/OSS-Verification-Tool.md
  - name: FAQ
-   status: 0
+   items:
+      - name: General Questions
+        href: FAQ/General-Problem.md

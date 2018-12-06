@@ -24,7 +24,6 @@ None
 |---|---|---|
 |**result**|Result| |
 
-
 ### Result
 |Name|Type|Description|
 |---|---|---|
@@ -49,8 +48,10 @@ None
 |**instanceStorageGB**|Integer|Disk, Unit: GB|
 |**instanceType**|String|Instance type, such as primary instances, read-only instances, etc., detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)|
 |**internalDomainName**|String|Instance Public Network Domain Name|
+|**primaryNode**|DBInstanceNode|Information of master node in High Availability Cluster<br>- only support SQL Serverer|
 |**publicDomainName**|String|Instance Intranet Domain Name|
 |**regionId**|String|Region ID, detailed in [Regions and Availability Zone Comparison Table](../Enum-Definitions/Regions-AZ.md)|
+|**secondaryNode**|DBInstanceNode|Information of slave node in High Availability Cluster<br>- only support SQL Serverer|
 |**subnetId**|String|Subnet ID|
 |**vpcId**|String|VPC ID|
 ### Charge
@@ -61,6 +62,12 @@ None
 |**chargeRetireTime**|String|The Expected Release Time refers to the expected release time of resources. This value is both available for the Pay-In-Advance/Pay-As-You-Go resources, conforming to the ISO8601 standard, with the UTC time used in the format of YYYY-MM-DDTHH:mm:ssZ|
 |**chargeStartTime**|String|The start time of the billing shall be subject to ISO8601, with the UTC time used in the format of YYYY-MM-DDTHH:mm:ssZ|
 |**chargeStatus**|String|Cost Payment Status, the value is respectively normal, overdue and arrear.|
+### DBInstanceNode
+|Name|Type|Description|
+|---|---|---|
+|**id**|String|Nodeid|
+|**name**|String|Node Name|
+|**status**|String|Node Status|
 
 ## Response code
 |Return code|Description|

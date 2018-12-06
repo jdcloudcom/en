@@ -4,7 +4,7 @@ Upon buying the Web Application Firewall service, you need to access the Web App
 
 Before accessing WAF, you need to know the contents below:
 
-1. As for WAF strength in mainland China, the website added shall be subjected to ICP filing by MIIT.
+1. As for WAF instance in mainland China, the website added shall be subjected to ICP filing by MIIT.
 
 2. Please fill in correct IP of website origin server.
 

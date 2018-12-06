@@ -5,9 +5,9 @@ items:
   items:
       - name: Product Overview
         href: Introduction/Product-Overview.md
-      - name: Core Concept
+      - name: Core Concepts
         href: Introduction/Core-Concepts.md
-      - name: Basic Infrastructure
+      - name: Basic Architecture
         href: 
         status: 0
       - name: Benefits
@@ -34,7 +34,7 @@ items:
       - name: Purchase Process
         href:
         status: 0
-      - name: Renew-Process
+      - name: Renew Process
         href: 
         status: 0
 - name: Getting Started
@@ -51,7 +51,7 @@ items:
             href: Operation-Guide/Resources-Management/View-Overview.md
           - name: View the Cabinet List
             href: Operation-Guide/Resources-Management/View-Cabinet-List.md
-          - name: View the Equipment List
+          - name: View the Device List
             href: Operation-Guide/Instance-Management/View-Device-List.md
           - name: View the Public IP List
             href: Operation-Guide/Instance-Management/View-ipAddress-List.md

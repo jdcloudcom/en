@@ -15,7 +15,7 @@
             href: Anti-DDoS-Pro-Attack-Record-APIs/describeCcAttackLogs.md
           - name: describeDDosAttackLogs
             href: Anti-DDoS-Pro-Attack-Record-APIs/describeDDosAttackLogs.md
-      - name: Advanced Anti-DDoS Instance APIs
+      - name: Anti-DDoS Pro Instance APIs
         items:
           - name: createInstance
             href: Anti-DDoS-Pro-Instance-APIs/createInstance.md
@@ -59,7 +59,7 @@
             href: Anti-DDoS-Pro-Instance-APIs/modifyInstanceUrlWhiteList.md
           - name: setCcIpLimit
             href: Anti-DDoS-Pro-Instance-APIs/setCcIpLimit.md
-      - name:  Advanced Anti-DDoS Report APIs
+      - name:  Anti-DDoS Pro Report APIs
         items:
           - name: ccGraph
             href: Anti-DDoS-Pro-Report-APIs/ccGraph.md

@@ -1,6 +1,6 @@
 # Restrictions
 
- 1. At present cn-north-1 and cn-east-2 are online.
+ 1. At present cn-north-1, cn-east-2 and cn-south-1 are online.
  2. At present support only Docker image based on Linux operation system.
  3. The following table are relevant restrictions for using container:
 
@@ -26,5 +26,4 @@
 |  The maximum save capacity of Native Container log |  10M  |   Unchangeable  |
 |  The maximum number of bytes of Native Container log   |  4k  |   Unchangeable  |
 |Use restrictions of Native Docker Image |  Support Dockerfile based on Linux operation system only  |   Unchangeable  |
-|  Native Container use region and region restrictions   | cn-north-1 Availability Zone A, cn-north-1  Availability Zone B, cn-east-2 Availability Zone A, cn-east-2 Availability Zone B     | Unchangeable      |
 

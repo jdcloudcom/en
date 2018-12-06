@@ -13,6 +13,8 @@
         href: Introduction/Features.md
       - name: Specifications
         href: Introduction/Specifications.md
+      - name: Region and Availability Zone
+        href: Introduction/Regions-and-AvailabilityZones.md
       - name: Restrictions
         href: Introduction/Restrictions.md
       - name: Application Scenarios 
@@ -34,7 +36,7 @@
       - name: Cluster
         items:
           - name: Cluster Overview
-            href: Operation-Guide/Cluster/Overview.md
+            href: Operation-Guide/Cluster/Cluster-Overview.md
           - name: Create Clusters
             href: Operation-Guide/Cluster/Create-Cluster.md
           - name: Connect Clusters
@@ -44,15 +46,29 @@
       - name: Working Node Group
         items:
           - name: Working Node Group Overview
-            href: Operation-Guide/NodeGroup/Overview.md
+            href: Operation-Guide/NodeGroup/Nodegroup-Overview.md
           - name: Create the Working Node Group
             href: Operation-Guide/NodeGroup/Create-NodeGroup.md
           - name: Working Node Group Scaling
             href: Operation-Guide/NodeGroup/Telescopic-NodeGroup.md
           - name: Delete Working Node Group
             href: Operation-Guide/NodeGroup/Delete-NodeGroup.md
+      - name: Cluster Dashboard
+        items:
+          - name: Dashboard
+            href: Operation-Guide/Dashboard/Dashboard-Overview.md
+          - name: Deployment
+            href: Operation-Guide/Dashboard/Deployment-Overview.md
+          - name: Pod
+            href: Operation-Guide/Dashboard/Pod-Overview.md
+          - name: Service
+            href: Operation-Guide/Dashboard/Service-Overview.md
+          - name: Configmap
+            href: Operation-Guide/Dashboard/Configmap-Overview.md
   - name: Best Practices
     items:
+     - name: Integrated Container Registry
+       href: Best-Practices/Deploy-Container-Registry.md
      - name: Access Dashboard
        href: Best-Practices/Connect-Dashboard.md
      - name: Deploy Applications
@@ -65,6 +81,12 @@
             href: Best-Practices/Deploy-Applications/Deploy-PV.md
          -  name: Deploy Service
             href: Best-Practices/Deploy-Applications/Deploy-Service.md
+     - name: Create native container Pod
+       items:
+         - name: Deploy Virtual-Kubelet
+           href: Operation-Guide/Instance/Deploy-Virtual-Kubelet.md
+         - name: Create Pod in JCS for Kubernetes
+           href: Operation-Guide/Instance/Create-Pod-InKubernetes.md
      - name: Deploy Helm
        href: Best-Practices/Deploy-Helm.md
   - name: FAQ  

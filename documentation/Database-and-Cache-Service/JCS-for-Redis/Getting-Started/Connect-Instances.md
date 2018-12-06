@@ -1,4 +1,4 @@
-﻿# Connection Instance
+# Connection Instance
 
 Since the database service provided by Jmiss Redis is completely compatible with the native database service, the way to connect to the database is basically similar. Any clients compatible with JCS for Redis protocol can access to Jmiss Redis service, and users can choose any JCS for Redis clients according to its application characteristics.
 
@@ -11,11 +11,11 @@ Note: please refer to the JCS for Redis official website for the command to inst
 
 ## Command for Redis-cli’s connection to JCS for Redis is as follows:
 
-redis-cli -h [host] -p [port] -a [token]
+redis-cli -h [host] -p [port] -a [password]
 
 Note: redis-cli -h access to the domain -p default port -a connection password
 
-Example: redis-cli -h jredis-cn-north-1-prod-redis-a90ng7vk5t.jdcloud.com -p 6379 -a redis-a90ng7vk5t:password
+Example: redis-cli -h jredis-cn-north-1-prod-redis-××××××××××.jdcloud.com -p 6379 -a password
 
 Reference Link: https://redis.io/topics/rediscli
 

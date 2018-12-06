@@ -32,7 +32,6 @@ After the MongoDB instance is created, 0.0.0.0/0 will be added to the white list
       - If you do not make a restriction, enter "0.0.0.0/0".
     
     - Upload private IP of Virtual Machines
-   
       ![Upload Private IP](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-005.png)
   
       - Click on the bottom left corner of the pop-up window **Upload Private IP of Virtual Machines** to enter "IP Select Popup".

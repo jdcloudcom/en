@@ -1,21 +1,21 @@
-# Create high availability load balancer across availability zones
+# Create high availability Application Application Load Balancer across availability zones
 
 ## Preparation and planning
 
 - Networking preparation
 
-	Plan for load balancer, and region, availability zone, virtual private cloud, etc. of VM and containers as backend server in advance, according to business deployment needs.
+	Plan for Application Application Load Balancer, and region, availability zone, virtual private cloud, etc. of VM and containers as backend server in advance, according to business deployment needs.
 
 - Server preparation
 
 	It is necessary to create VM and containers for carrying business traffic in advance, and ensure that the ports needed for listening are opened, and that security groups and ACL policies are properly configured.
 
-Note: Only when the available zone of the load balancer instance is created, VM and containers under the availability zone can be configured as the backend service. For example, when the load balancer is in Availability Zone A, Availability Zone B, VM and containers in Availability Zone A, Availability Zone B can be configured to conduct traffic forwarding.
+Note: Only when the available zone of the Application Application Load Balancer instance is created, VM and containers under the availability zone can be configured as the backend service. For example, when the Application Application Load Balancer is in Availability Zone A, Availability Zone B, VM and containers in Availability Zone A, Availability Zone B can be configured to conduct traffic forwarding.
 	
-## Create load balancer instance
+## Create Application Application Load Balancer instance
 
 
-1. Open the load balancer resource list page through the console menu - load balancer, and click **Create** to create a new load balancer instance.
+1. Open the Application Application Load Balancer resource list page through the console menu - Application Application Load Balancer, and click **Create** to create a new Application Application Load Balancer instance.
 
 	![ALB创建实例设置](../../../../image/Networking/ALB/ALB-067.png)
 
@@ -28,7 +28,7 @@ Note: Only when the available zone of the load balancer instance is created, VM 
 
 	![ALB网络设置](../../../../image/Networking/ALB/ALB-069.png)
 
-1. Fill in Load Balancer Name, Description.
+1. Fill in Application Application Load Balancer Name, Description.
 
 	![ALB基本设置](../../../../image/Networking/ALB/ALB-070.png)
 
@@ -36,11 +36,11 @@ Note: Only when the available zone of the load balancer instance is created, VM 
 
 	![ALB购买设置](../../../../image/Networking/ALB/ALB-071.png)
 
-- Confirm order information and complete payment, create a load balancer instance
+- Confirm order information and complete payment, create a Application Application Load Balancer instance
 
 	![ALB支付设置](../../../../image/Networking/ALB/ALB-072.png)
 
-- Refresh load balancer list, view the newly created load balancer instance.
+- Refresh Application Application Load Balancer list, view the newly created Application Application Load Balancer instance.
 
 	![ALB查看设置](../../../../image/Networking/ALB/ALB-073.png)
 
@@ -74,7 +74,7 @@ Note: Only when the available zone of the load balancer instance is created, VM 
 
 	6. Session persistence: Turn on; timeout: define timeout time of cookie, use default value 0, represent the same life cycle as the browser;
 
-	7. Get real IP: Turn on by default;
+	7. Get real IP: Turn on by default: In such case, real IP of client can be obtained via header fields of X-Forwarded-For;
 
 	8. Get HTTP header field: Tick according to business needs.
 
@@ -98,11 +98,11 @@ Note: Only when the available zone of the load balancer instance is created, VM 
 
 	If there is no available virtual server group, click “create new virtual server group" to create a new virtual server group. VM and containers can be selected to define the port and weight of the instance;
 
-	Note: Only VM and container resources in the same Availability Zone, virtual private cloud with load balancer can be selected.
+	Note: Only VM and container resources in the same Availability Zone, virtual private cloud with Application Application Load Balancer can be selected.
 
 	![ALB虚拟服务器组添加成员设置](../../../../image/Networking/ALB/ALB-079.png)
 
-	Thus, a load balancer HTTP listener configuration across the Availability Zones is completed. When A single Availability Zone (such as Availability Zone A) fails, the load balancer will forward the traffic to Availability Zone B to ensure the normal operation of business.
+	Thus, a Application Application Load Balancer HTTP listener configuration across the Availability Zones is completed. When A single Availability Zone (such as Availability Zone A) fails, the Application Application Load Balancer will forward the traffic to Availability Zone B to ensure the normal operation of business.
 
 	
 	​			

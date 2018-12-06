@@ -1,8 +1,11 @@
 # Update History #
-API Version: 0.3.3
+API Version: 0.3.6
 
 |Release Time|Version Number| Update |Instructions|
 |---|---|---|---|
+|2018-11-15|0.3.6|Add interfaces related to MySQL |* add interfaces related to backup synchronization service <br>* add interfaces related to audit|
+|2018-11-14|0.3.5|Add interfaces related to MySQL |* enable service after renewing and disable service after arrear|
+|2018-11-13|0.3.4|Part of interfaces support PG |* interfaces related to instance and accounts support PG <br>* add interface for query user quota|
 |2018-10-17|0.3.3|Data Type Change|* Bug Repair of Data Type Returned by Slow Log and Binlog Data Type|
 |2018-10-11|0.3.2|API Name Optimization|* getBackupPolicy is changed to describeBackupPolicy, and post request is changed to get request<br>* setBackupPolicy is changed to modifyBackupPolicy<br>* getAuditDownloadURL is changed to describeAuditDownloadURL, and post request is changed to get request<br>* getAuditFiles is changed to describeAuditFiles, and post request is changed to get request<br>* getOptions is changed to describeAuditOptions, and post request is changed to get request<br>* setInstanceName is changed to modifyInstanceName<br>* Post request of describeIndexPerformance method is changed to get request<br>* Post request of describeQueryPerformance is changed to get request|
 |2018-09-05|0.3.1|Add a new MySQL API* Add a new query backup download link API<br>* Add a new binglog API<br>* Add a new slow log analysis and slow slog breakdown API<br>* Add a new modification connection mode API|

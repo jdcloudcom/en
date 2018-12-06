@@ -1,5 +1,5 @@
 # Billing Overview
-Note: The Message Queue is currently in a public beta and is free during beta. Free items are not applicable to the service level agreement of this product.
+Description: Message Queue products are formally launched. For the charging standards, please check [Price Overview](../Pricing/Price-Overview.md).
 
 ## Billing Items
 

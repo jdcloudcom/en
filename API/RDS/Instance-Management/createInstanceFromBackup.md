@@ -18,7 +18,7 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances:createInstanceFromBa
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**backupId**|String|True| |Backup ID|
-|**engine**|String|True| |The identifier is an instance of what type is created, such as MySQL, SQL Server, etc. For details, see the document [Enumeration Parameter Definition] (../Enum-Definitions/Enum-Definitions.md)<br>** Note: The engine that backs up the source instance must be the same as the engine of the instance to be created**|
+|**engine**|String|True| |The identifier is an instance of what type is created, such as MySQL, SQL Server, etc. For details, see the document [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)<br>** Note: The engine that backs up the source instance must be the same as the engine of the instance to be created**|
 |**instanceSpec**|RestoredNewDBInstanceSpec|True| |New Instance Type Created|
 
 ### RestoredNewDBInstanceSpec
@@ -29,6 +29,7 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances:createInstanceFromBa
 |**instanceClass**|String|True| |Instance type code, which can be obtained through [describeInstanceClasses](../instance/describeInstanceClasses.md) API|
 |**instanceName**|String|False| |Database instance name with restrictions detailed in the [Help Center Documentation](../../../documentation/Cloud-Database-and-Cache/RDS/Introduction/Restrictions/SQLServer-Restrictions.md)|
 |**instanceStorageGB**|Integer|True| |Disk Size, Unit: GB|
+|**parameterGroup**|String|False| |Parameter Set ID, system will create a default parameter set by default <br>- only support MySQL|
 |**subnetId**|String|True| |Subnet ID|
 |**vpcId**|String|True| |VPC ID|
 ### ChargeSpec
@@ -42,7 +43,6 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances:createInstanceFromBa
 |Name|Type|Description|
 |---|---|---|
 |**result**|Result| |
-
 
 ### Result
 |Name|Type|Description|

@@ -39,6 +39,8 @@ items:
       href: Getting-Started/use-Dashboard.md
     - name: Use Site Metric Monitoring
       href: Getting-Started/use-site-monitoring.md 
+    - name: Use Availability Monitoring
+      href: Getting-Started/use-usability-monitoring.md
     - name: Use Customized Metric Monitoring
       href: Getting-Started/use-custom-monitoring.md
     - name: Monitoring Statistics
@@ -70,9 +72,25 @@ items:
         - name: Site Monitoring Restrictions and Quotas
           href: Operation-Guide/site-monitoring/quota-restrictions.md
         - name: Management of Site Monitoring Tasks
-          href: Operation-Guide/site-monitoring/site-monitoring-management.md    
+          href: Operation-Guide/site-monitoring/site-monitoring-management.md
+        - name: View site monitoring graph
+          href: Operation-Guide/site-monitoring/site-monitoring-view.md
         - name: Set Alarm Rules
           href: Operation-Guide/site-monitoring/site-monitoring-alarm.md
+    - name: Custom Metric Monitoring 
+      items:
+        - name: Overview of Availability Monitoring
+          href: Operation-Guide/Usability-Monitor/usability-monitor-overview.md
+        - name: Availability Monitoring Restrictions and Quotas
+          href: Operation-Guide/Usability-Monitor/UM-quota-restrictions.md
+        - name: Install Usability Monitor Plug-in
+          href: Operation-Guide/Usability-Monitor/UM-installAgent.md
+        - name: Management of Availability Monitoring Tasks
+          href: Operation-Guide/Usability-Monitor/UM-management.md
+        - name: View the monitoring graph
+          href: Operation-Guide/Usability-Monitor/UM-view.md
+        - name: Set alarm rules
+          href: Operation-Guide/Usability-Monitor/UM-alarm.md
     - name: Custom Metric Monitoring 
       items:
         - name: Customized Metric Monitoring Overview

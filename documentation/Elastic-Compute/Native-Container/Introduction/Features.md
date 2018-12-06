@@ -39,12 +39,12 @@ Repository: seamlessly integrated with JD Cloud repository to implement high spe
 
 **Security Group and Monitoring**
 
-Security Group: security is a kind of distributed virtual firewall with status that has the function of detecting and filtering data packages accessing Native Container Instance and Native Container Pod. Use security group can implement network access control for single or multiple groups of resources, including the east-west traffic between resources and south-north traffic of communication between resources and public network.
+Security Group: security is a kind of distributed virtual firewall with status that has the function of detecting and filtering data packages accessing Native Container Instance and Native Container Pod. Use security group can implement network access control for single or multiple groups of resources, including the east-west traffic between resources and south-north traffic of communication between resources and public network. Network security isolation between containers can be realized by using the Security Group function. Network security isolation between containers can be realized by using the Security Group function.  
 
 Monitoring: monitor in multi-dimension, grasp instance running status in real time, provide CPU use rate, memory use rate, system disk read-write traffic, network access traffic, which can set alarm function for different monitoring parameters and alarm in real time to facilitate users to rapidly aware business peak and adjust instance type timely.
 
 
-**Health Check**
+**Health Check**  
 It supports survival detection for configuration container of Native Container Pod, automatically re-detects ailed container; supports configuration ready detection and report detected status in real time to provide reliable basis for upper applications to determine the status of the container.
 
 **Log**
