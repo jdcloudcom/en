@@ -29,7 +29,8 @@ The possible reason is that the link between the Virtual Machines and the MongoD
     - Type: Customized TCP
     - Destination Port: 27017
     - Destination IP: 0.0. 0.0/ 0, because the IP may change during disaster tolerance switching or capacity expansion of MongoDB, please open all IP(s).
- 	![](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-028.png)
+	 ![](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-028.png)
+
 	
 1. Verify if the network ACL used by the Virtual Machines and the subnet where MongoDB is located is limited.
 
@@ -39,7 +40,7 @@ The possible reason is that the link between the Virtual Machines and the MongoD
     - Destination IP: 0.0. 0.0/ 0, because the IP may change during disaster tolerance switching or capacity expansion of MongoDB, please open all IP(s).
     ![](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-029.png)
 
-  ## Follow-up Processing
+## Follow-up Processing
   If the problem is still not solved through the above operation, please [Open ticket](https://ticket.jdcloud.com/myorder/form?cateId=166&questionId=238) or call the customer hotline 400-615-1212 。
 
 

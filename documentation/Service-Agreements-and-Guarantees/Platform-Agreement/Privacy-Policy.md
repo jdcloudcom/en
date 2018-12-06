@@ -357,7 +357,7 @@ If you have any questions about the Privacy Policy or related matters, you can c
 
 ​         (5) responding to your request will cause serious damage to the legitimate rights and interests of you or other individuals or organizations.
 
-## **6. Protection of Minors' Personal Information**
+## **VI. Protection of Minors' Personal Information**
 
 ​        1. JD attaches great importance to the protection of minors' personal information. If you are a minor under the age of 18, you shall obtain written consent in advance from your parent or legal guardian before using our products and/or services. JD protects the personal information of minors in accordance with the relevant laws and regulations of the country.
 
@@ -387,7 +387,7 @@ If you have any questions about the Privacy Policy or related matters, you can c
 
 ​         3. We will also archive the old version of this strategy for your review.
 
-## **8. How to Contact Us**
+## **VIII. How to Contact Us**
 
 ​        1. If you have any questions, comments or suggestions regarding this Privacy Policy or your personal information, please contact us by visiting the online customer service system at https://help.jd.com, sending emails to privacy@jd.com or calling any of our customer service numbers.
 

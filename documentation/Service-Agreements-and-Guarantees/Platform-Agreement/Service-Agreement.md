@@ -1,5 +1,5 @@
 ## <div align=center>Agreements for JD Cloud User Service</div>
-this Agreement is between the user ("you") and the holder (hereinafter referred to as "JD Cloud") of JD Cloud website ("this website" for short, URL: www.jdcloud.com) on JD Cloud website services and other related matters. For the contract, please read this Agreement carefully. After you click **Agree and Continue**, this Agreement constitutes a legal document binding on both parties. <br/>
+This Agreement is between the user ("you") and the holder (hereinafter referred to as "JD Cloud") of JD Cloud website ("this website" for short, URL: www.jdcloud.com) on JD Cloud website services and other related matters. For the contract, please read this Agreement carefully. After you click **Agree and Continue**, this Agreement constitutes a legal document binding on both parties. <br/>
 JD Cloud provides users with the products and services displayed on this website (hereinafter referred to as "JD Cloud Service" and "this service"), and will continuously update the service content. The latest JD Cloud Service based on the presentation of relevant products and services introduction on this website and the actual offer to the user shall prevail.
 <br/>
 ### 1. General<br/><br/>
