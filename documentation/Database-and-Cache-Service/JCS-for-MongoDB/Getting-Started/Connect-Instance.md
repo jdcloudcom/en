@@ -42,7 +42,9 @@ If you need to directly connect to the JCS for MongoDB instance, you can use the
 
 		    > mongo --host jmongo-xxx.jmiss.jcloud.com:27017 --authenticationDatabase admin -u root -p		
 		    > mongo --host jmongo-xxx.jmiss.jcloud.com:27017 --authenticationDatabase admin -u root -p		
-		or		
+		
+		or
+		
 		    > mongo mongodb://root:****@jmongo-xxx.jmiss.jcloud.com:27017,jmongo-xxx.jmiss.jcloud.com:27017/admin?replicaSet=mgset-xxx		
 		    >(****Partially replaced with root password)
 		
