@@ -10,21 +10,17 @@ The JCS for MongoDB supports automatic backup. After the instance is created, a 
 ## Operation Steps
 1. Login [MongoDB Console](https://mongodb-console.jdcloud.com/mongodb).
 1. On the "Instance List" page, select the target instance, then click **Instance Name** to enter the "Instance Details" page.
-1. On the "Instance Details" page, click **Backup and Recovery** > **Backup Strategy** to go to the "Backup Strategies" page.   
-
+1. On the "Instance Details" page, click **Backup and Recovery** > **Backup Strategy** to go to the "Backup Strategies" page.
+   
     ![](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-017.png)
 
-2. On the "Instance List" page, select the target instance and click ** Instance Name** to go to the "Instance Details" page.
-
     ![](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-017.png)
-
-3. On the “Instance Details” page, click in turn **Backup and Recovery** >  **Backup Policy** to enter the “Backup Policy” page.
 
     ![](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-018.png)
 
-     - In the "Modify Strategies Popup", reselect the desired automatic backup time.
-     - Click **OK** to save your modifications.
-     - You can view the results of the modifications on the "Backup Strategy" page.
+1. In the "Modify Strategies Popup", reselect the desired automatic backup time.	
+1. Click **OK** to save your modifications.
+1. You can view the results of the modifications on the "Backup Strategy" page.
 
 ## Related Reference
 
