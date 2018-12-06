@@ -46,7 +46,11 @@
     - name: Access via Thrift API
       href: Operation-Guide/ThriftAPI.md
   - name: FAQ
-    href: FAQ/FAQ.md
+    items:
+    - name: How to configure ACL
+      href: FAQ/ACLconf.md
+    - name: How to access Column-oriented Storage
+      href: FAQ/FAQ.md
   - name: Related Resources
     items:
     - name: Document History

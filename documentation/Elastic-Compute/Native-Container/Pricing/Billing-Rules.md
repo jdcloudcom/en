@@ -14,17 +14,17 @@ JD Cloud provides two billing modes for different user needs, namely Pay-By-Conf
 - In order to protect your use rights, the container of the monthly package does not support the deletion before it expires.
 - Use the first-use Pay-as-you-go payment method, the expiration time of the monthly package is the Nth natural month or the natural year's 23:59:59 from the date of the order start time; E.g: If the order start time at 15:00:00 on January 1, 2017, and the purchase duration is 1 month, then the expiration time is 23:59:59 on February 1, 2017.
 
-**Different billing modes support different functions, as detailed in the following table:**
+**The Pay by configuration and Pay by Monthly Package modes support different functions, see the table below for details:**
 
-Function     | Status
--------- | ---
-Renewal | to be supported later, and will be launched recently	
-Release the instance at any time  |  	Supported
-Adjust insaatance configuration     | 	Non-support
-Associate Elastic IP     | Supported
-Attach Cloud Disk     | Supported, attach only when creating a container 
-Expand Cloud Disk Service     | Non-support	
-Convert billing mode     | Non-support
-Create all specification instances     | Supported  
-Use the Cloud Monitoring for free     | Supported
+Function     | Pay by Configuration |Pay by Monthly Package
+-------- | ---|----
+Renewal | Non-support|Non-support
+Release the instance at any time  | Supported|Non-support
+Adjust insaatance configuration     | Non-support|Non-support
+Associate Elastic IP     | Supported| Supported
+Attach Cloud Disk   | Supported, attach only when creating a container | Supported, attach only when creating a container 
+Expand Cloud Disk Service     | Supported| Supported
+Convert billing mode     | Non-support|Non-support
+Create all specification instances     | Supported  | Supported
+Use the Cloud Monitoring for free     | Supported| Supported
 

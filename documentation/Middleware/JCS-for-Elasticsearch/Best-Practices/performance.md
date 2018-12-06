@@ -1,4 +1,8 @@
 ## Performance Indicators
+
+Through the geonames officially provided by Elasticsearch (3.3G in size, totaling 11,520,617 docs) and the benchmark script rally, we conducted a pressure test on JD JCS for Elasticsearch (V5.9) in the cn-north-1 region. The test results are as follows for reference.</br>
+
+
 The performance test data of ES instance with 3 nodes and the specification of 2-core 8G are as follows:
 
 

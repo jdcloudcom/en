@@ -1,6 +1,6 @@
-name: Elastic Network Interface
-href: 
-items:
+  name: Elastic Network Interface
+  href: 
+  items:
   - name: Introduction
     items:
       - name: Product Overview
@@ -34,7 +34,11 @@ items:
           - name: Create ENI
             href: Operation-Guide/Elastic-Network-Interface-Management/Create-Elastic-Network-Interface.md
           - name: Delete ENI
-            href: Operation-Guide/Elastic-Network-Interface-Management/Delete-Elastic-Network-Interface.md 
+            href: Operation-Guide/Elastic-Network-Interface-Management/Delete-Elastic-Network-Interface.md
+          - name: Bind Elastic Network Interface
+            href: Operation-Guide/Elastic-Network-Interface-Management/Associate-Elastic-Network-Interface.md
+          - name: Unbinding Elastic Network Interface
+            href: Operation-Guide/Elastic-Network-Interface-Management/Disassociate-Elastic-Network-Interface.md
           - name: Enable Deletion on Instance Termination for ENI
             href: Operation-Guide/Elastic-Network-Interface-Management/Enable-Delete-with-VM.md
           - name: Cancel Deletion on Instance Termination for ENI
@@ -60,9 +64,9 @@ items:
           - name: Linux Temporary Configuration
             href: Operation-Guide/VM-Configuration/Linux-Temporary-Configuration.md    
           - name: Linux Permanent Configuration
-            href: Operation-Guide/VM-Configuration/Linux-Permanent-Configuration.md  
+            href: Operation-Guide/VM-Configuration/Linux-Permanent-Configuration.md   
   - name: FAQ
-    href: FAQ/FAQ.md       
+    href: FAQ/FAQ.md         
   - name: Related Resources
     items:
     - name: Document History

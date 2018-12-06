@@ -79,8 +79,12 @@
               href: Operation-Guide/API-Reference/Interface-Specification/Consume-Message.md
   - name: SDK Reference
     items:
+      - name: Example Download
+            href: SDK-Rerference/Demo.md
       - name: Java SDK
         items:
+          - name: Version Description
+            href: SDK-Rerference/Java-SDK/JavaSDK-Versions.md
           - name: Environment Preparation
             href: SDK-Rerference/Java-SDK/Environment-Preparation.md
           - name: Creating Initialization

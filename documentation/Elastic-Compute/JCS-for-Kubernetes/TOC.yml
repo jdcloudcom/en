@@ -67,6 +67,8 @@
             href: Operation-Guide/Dashboard/Configmap-Overview.md
   - name: Best Practices
     items:
+     - name: Integrated Container Registry
+       href: Best-Practices/Deploy-Container-Registry.md
      - name: Access Dashboard
        href: Best-Practices/Connect-Dashboard.md
      - name: Deploy Applications
