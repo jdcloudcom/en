@@ -717,8 +717,8 @@
 	},
 	{
 		"sub_title":"致力于海量数据搜索与分析",
-		"image_Url":"//img1.jcloudcs.com/cms/97bb4e81-f345-4b78-86c3-2865f14925d320181115212850.png",
-		"dynamic_image":"//img1.jcloudcs.com/cms/27ed56b1-3464-4af3-9eb3-159e8a79e1a920181115212858.png",
+		"image_Url":"//img1.jcloudcs.com/cms/9bcd2d5e-df06-4827-a651-43443b5cf57520181205194025.png",
+		"dynamic_image":"//img1.jcloudcs.com/cms/250a0b7a-a921-4212-8cc2-74513c72197e20181205194016.png",
 		"name":"云搜索Elasticsearch",
 		"id":"1031",
 		"button_title":"免费试用",
@@ -726,8 +726,8 @@
 	},
 	{
 		"sub_title":"融合威胁情报、动态行为检测、机器学习异常检测",
-		"image_Url":"//img1.jcloudcs.com/cms/36338987-a6bb-4297-adca-c65771c5b6fb20181115212933.png",
-		"dynamic_image":"//img1.jcloudcs.com/cms/7127bcb5-ec7b-4549-aacb-46e51dcbdb6b20181115212943.png",
+		"image_Url":"//img1.jcloudcs.com/cms/e283bf80-eba5-4d17-bfa7-7888f3f6dd6e20181205195106.png",
+		"dynamic_image":"//img1.jcloudcs.com/cms/838edf5e-2cd6-4740-aba1-a796d060d19420181205195113.png",
 		"name":"态势感知企业版开放公测",
 		"id":"1033",
 		"button_title":"立即申请",
@@ -735,8 +735,8 @@
 	},
 	{
 		"sub_title":"公网IP不用换，快速提升京东云内服务的抗D能力",
-		"image_Url":"//img1.jcloudcs.com/cms/3d20335e-5cf4-4836-a458-f254afb529bb20181115213033.png",
-		"dynamic_image":"//img1.jcloudcs.com/cms/d384c1b7-f0ae-4b54-8999-56d8315e9f1420181115213038.png",
+		"image_Url":"//img1.jcloudcs.com/cms/36166711-6211-4c51-bb4f-0a0e96122afd20181205195734.png",
+		"dynamic_image":"//img1.jcloudcs.com/cms/c1cca95f-6c9a-4647-8189-0467e646477a20181205195739.png",
 		"name":"DDoS防护包上线公测",
 		"id":"1034",
 		"button_title":"查看详情",
@@ -778,5 +778,14 @@
 		"button_title":"查看详情",
 		"main_title":"金牌服务企业用户专享",
 		"backgroud_image":"//img1.jcloudcs.com/cms/e6104599-dbec-4866-9ffb-11845133cf1a20181129151803.png"
+	},
+	{
+		"sub_title":"兼容Kubernetes Pod，原生容器新产品五折促销中",
+		"image_Url":"//img1.jcloudcs.com/cms/494d6c5b-f508-47ad-b8fe-3534b50c125720181205153358.png",
+		"dynamic_image":"//img1.jcloudcs.com/cms/8b485c2b-24f0-45dd-9af0-1b0337b6a16a20181205153405.png",
+		"name":"原生容器Pod开放公测",
+		"id":"1045",
+		"button_title":"查看详情",
+		"main_title":"原生容器Pod开放公测"
 	}
 ]
