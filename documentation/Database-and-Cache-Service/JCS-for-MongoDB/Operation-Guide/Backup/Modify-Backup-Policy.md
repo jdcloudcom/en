@@ -14,11 +14,10 @@ The JCS for MongoDB supports automatic backup. After the instance is created, a 
    
     ![](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-017.png)
 
-    ![](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-017.png)
+1. In the "Modify Strategies Popup", reselect the desired automatic backup time.	
 
     ![](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-018.png)
 
-1. In the "Modify Strategies Popup", reselect the desired automatic backup time.	
 1. Click **OK** to save your modifications.
 1. You can view the results of the modifications on the "Backup Strategy" page.
 
@@ -29,5 +28,3 @@ The JCS for MongoDB supports automatic backup. After the instance is created, a 
 - [Create Instance based on Backup](Create-Instance-by-Backup.md)
 - [Create Instance based on Time Point](Create-Instance-by-Point-in-Time.md)
 - [Data Recovery](Restore-Instance.md)
-
-
