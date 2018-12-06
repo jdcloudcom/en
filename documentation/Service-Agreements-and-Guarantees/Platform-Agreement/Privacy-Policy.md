@@ -387,7 +387,7 @@ If you have any questions about the Privacy Policy or related matters, you can c
 
 ​         3. We will also archive the old version of this strategy for your review.
 
-## **8. How to Contact Us**
+## **VIII. How to Contact Us**
 
 ​        1. If you have any questions, comments or suggestions regarding this Privacy Policy or your personal information, please contact us by visiting the online customer service system at https://help.jd.com, sending emails to privacy@jd.com or calling any of our customer service numbers.
 
