@@ -16,13 +16,13 @@ After the MongoDB instance is created, 0.0.0.0/0 will be added to the white list
 3. On the "Instance Details" page, click **Data Security** to enter the white list settings page.
 
     ![White List](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-008.png)
-
+   
 4. Click **Set White List** to open the settings popup.	
 
     You can manually fill in the IP or IP segment, or you can directly load the Virtual Machines intranet IP.
-    
+   
     - Fill in Manually
-       
+      
       ![Fill in Manually](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-004.png)
 
       Enter the IP or IP segment that you want to access in the text box. Multiple IPs (or IP segments) are separated by commas or newlines. E.g.:
@@ -32,6 +32,7 @@ After the MongoDB instance is created, 0.0.0.0/0 will be added to the white list
       - If you do not make a restriction, enter "0.0.0.0/0".
     
     - Upload private IP of Virtual Machines
+    
       ![Upload Private IP](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-005.png)
   
       - Click on the bottom left corner of the pop-up window **Upload Private IP of Virtual Machines** to enter "IP Select Popup".

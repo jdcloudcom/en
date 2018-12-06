@@ -37,7 +37,6 @@ A virtual machine associated with an EIP and Linux system is in the same VPC wit
       ![](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-032.png)
 
 1. Set the port forwarding rules.
-
     - Select **Port Forwarding** and click **Add**.
 
       ![](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-033.png)

@@ -3,7 +3,7 @@
 This paper introduces the renewal entries of MongoDB.
 
 
-## Entry 1: [MongoDB Console](https://mongodb-console.jdcloud.com/mongodb)
+## Entry 1: [[MongoDB Console](https://mongodb-console.jdcloud.com/mongodb)
 1. Go to [JD Cloud Console]().
 2. Through navigation at the page head, click in the order of **Product** > **MongoDB** to open the "Instance List" page; You can also open the "Instance List" page by clicking the **Database and Cache** > **MongoDB** via the menu on the left.
 

@@ -15,13 +15,15 @@ JCS for MongoDB provides automatic backup and manual backup. To export the data,
 	
 5. Download the backup file to local.
 	
-    Description
-        - The validity period of intranet address and internet address is 24 hours;
+	Description
+	- The validity period of intranet address and internet address is 24 hours;
 	- English quotation marks shall be added to URL when download using wget;
 	- If the Virtual Machines is in the same region with the virtual database, you are recommended to use the intranet address for downloading;
 		
 6. Import the backup file to the local database.
-       > mongorestore --host xxx --port=27017 --authenticationDatabase admin --archive=xxx(file path)  --gzip -u root -p xxx
+
+        > mongorestore --host xxx --port=27017 --authenticationDatabase admin --archive=xxx(file path)  --gzip -u root -p xxx
+
 ## Related Reference
 
 - [Import Data](Import-Data.md)
