@@ -35,10 +35,10 @@
             href: Operation-Guide/Elastic-Network-Interface-Management/Create-Elastic-Network-Interface.md
           - name: Delete ENI
             href: Operation-Guide/Elastic-Network-Interface-Management/Delete-Elastic-Network-Interface.md
-          - name: Bind Elastic Network Interface
-            href: Operation-Guide/Elastic-Network-Interface-Management/Associate-Elastic-Network-Interface.md
-          - name: Unbinding Elastic Network Interface
-            href: Operation-Guide/Elastic-Network-Interface-Management/Disassociate-Elastic-Network-Interface.md
+          - name: Attach Elastic Network Interface
+            href: Operation-Guide/Elastic-Network-Interface-Management/Attach-Elastic-Network-Interface.md
+          - name: Detach Elastic Network Interface
+            href: Operation-Guide/Elastic-Network-Interface-Management/Detach-Elastic-Network-Interface.md
           - name: Enable Deletion on Instance Termination for ENI
             href: Operation-Guide/Elastic-Network-Interface-Management/Enable-Delete-with-VM.md
           - name: Cancel Deletion on Instance Termination for ENI
