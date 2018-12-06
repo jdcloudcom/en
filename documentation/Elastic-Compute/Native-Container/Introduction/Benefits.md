@@ -6,7 +6,7 @@
 
 **Flexible framework**: In the same VPC, realize the intranet intercommunication between container instance and public cloud compute, storage, network and other resources to make full use of abundant product resources.
 
-**Abundant setup**: Native container provides four instance family specifications including universal type, compute optimized type, memory optimized type and High Frequency Compute type. The instance support 1 core 1G settings in minimum and 72 cores 288G in maximum.
+**Abundant setup**: Native container provides four instance family specifications including universal type, compute optimized type, memory optimized type and High Frequency Compute type. The instance support 1 core 1G settings in minimum and 72 cores 576G in maximum.
 
 **Flexible charge**: Support two billing method including monthly package and pay by configuration. For pay by configuration, it shall adopt second-level charge and accumulate actual use time; the stopped status shall not be charged.
 

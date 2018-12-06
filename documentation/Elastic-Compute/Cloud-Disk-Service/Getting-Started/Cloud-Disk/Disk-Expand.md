@@ -32,7 +32,7 @@ Cloud Disk Service is an extensible storage device on cloud. After the creation 
 
 - Only expansion of Cloud Disk Service capacity is done and no expansion of file system is done.
 
-- For Cloud Disk Service that the expansion takes effect, the newly added Cloud Disk Service space can be seen only when the user manually format the newly extended storage space; see [Cloud Disk Service Expansion Overview](https://www.jdcloud.com/help/detail/1636/isCatalog/1) for specific operation method.
+- For Cloud Disk Service that the expansion takes effect, the newly added Cloud Disk Service space can be seen only when the user manually format the newly extended storage space; see [Cloud Disk Service Expansion Overview](https://docs.jdcloud.com/cn/cloud-disk-service/cloud-disk-expansion-overview) for specific operation method.
 
 <br>
 

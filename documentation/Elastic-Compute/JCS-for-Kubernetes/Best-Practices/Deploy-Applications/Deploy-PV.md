@@ -28,7 +28,7 @@ spec:
 1、To use JD Cloud cloud disk as persistent storage in JD Cloud JCS for Kubernetes Service, you should specify the plug-in jdcloudElasticBlockStore when the PersistentVolume is defined;  
 2、volumeID: Specify a cloud disk ID that provides persistent storage for JCS for Kubernetes Services under the same geographical area;  
 3、fsType: Specify file system type; currently only ext4 and xfs are supplied;  
-4、Capacity: PV will have specific storage capacity. This is set with the capacity attribute of PV.  
+4、capacity: PV will have specific storage capacity. This is set with the capacity attribute of PV.  
 5、PersistentVolume can be attached to the machine in any way supported by the resource provider.
 JD Cloud cloud disk currently supports only ReadWriteOnce --- it can be attached in read/write mode by a single node;  
 The visit modes include:  

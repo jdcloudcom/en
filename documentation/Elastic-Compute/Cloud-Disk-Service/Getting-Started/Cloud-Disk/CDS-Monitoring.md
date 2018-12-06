@@ -97,4 +97,4 @@ Please refer to the below procedures for viewing a certain Cloud Disk Service mo
 
 4. Monitoring chart: a line chart display is provided currently for monitoring data within latest 30 days. The minimum cycle for sampled data is 1 minute.
 
-For more details, please refer to [Monitoring](https://www.jdcloud.com/help/detail/94/isCatalog/1)Help Center.
+For more details, please refer to [Monitoring](https://www.jdcloud.com/cn/products/monitoring)Help Center.

@@ -15,7 +15,7 @@ A: A single user can create 15 manual backups and the quantity of single hard di
 
 **Q: What is the recovery operation rules of Cloud Disk Service?**
 
-A: The recovery operation can be performed only when the Cloud Disk Service is in available status. Refer to Help Center for details [Recovery of Cloud Disk Service](https://www.jdcloud.com/help/detail/512/isCatalog/1) for details.
+A: The recovery operation can be performed only when the Cloud Disk Service is in available status. Refer to Help Center for details [Recovery of Cloud Disk Service](https://docs.jdcloud.com/cn/cloud-disk-service/recover-clouddisk) for details.
 
    
 **Q: What is the deletion operation rules of Cloud Disk Service?**

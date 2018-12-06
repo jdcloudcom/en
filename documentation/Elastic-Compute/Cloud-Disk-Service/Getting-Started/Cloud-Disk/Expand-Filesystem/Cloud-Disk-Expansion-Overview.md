@@ -10,19 +10,19 @@ There are several scenarios of Cloud Disk Service expansion. Some common scenari
 
 
 
-- For data disk of expansion Windows instance, please refer to [File System Expansion (Windows)](https://www.jdcloud.com/help/detail/1634/isCatalog/1).
+- For data disk of expansion Windows instance, please refer to [File System Expansion (Windows)](https://docs.jdcloud.com/cn/cloud-disk-service/expand-file-system-windows).
 
 
 
-- For data disk of expansion Linux instance, please refer to [File System Expansion (Linux)](https://www.jdcloud.com/help/detail/509/isCatalog/1).
+- For data disk of expansion Linux instance, please refer to [File System Expansion (Linux)](https://docs.jdcloud.com/cn/cloud-disk-service/expand-file-system-linux).
 
 
 
-- If Linux instance has not been partitioned before but is used as raw disk formatting, please refer to [Raw Disk File System Expansion (Linux)](https://www.jdcloud.com/help/detail/1494/isCatalog/1).
+- If Linux instance has not been partitioned before but is used as raw disk formatting, please refer to [Raw Disk File System Expansion (Linux)](https://docs.jdcloud.com/cn/cloud-disk-service/expand-raw-disk-file-system).
 
 
 
-- For multi partition disk expansion, please refer to [Multi Partition Disk Expansion](https://www.jdcloud.com/help/detail/1635/isCatalog/1).
+- For multi partition disk expansion, please refer to [Multi Partition Disk Expansion](https://docs.jdcloud.com/cn/cloud-disk-service/expand-file-system-multi-partition).
 
 
 ## Expansion limit

@@ -105,6 +105,6 @@ apiVersion: v1
           - name: my-secret
 ```
 3.   Create:  
- `kubectl create -f registrysecret`
+ `kubectl create -f registrysecret`  
 4.   View details:  
- `kubectl describe rc webapp`
+ `kubectl describe rc webapp`  

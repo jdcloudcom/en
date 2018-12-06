@@ -17,7 +17,7 @@
 
 
 
-- If you need to retain the historical data of a Cloud Disk Service in the new hard disk, you can use snapshot of a Cloud Disk Service to create a new disk. Please refer to [Create Disk from Snapshot](https://www.jdcloud.com/help/detail/891/isCatalog/1);
+- If you need to retain the historical data of a Cloud Disk Service in the new hard disk, you can use snapshot of a Cloud Disk Service to create a new disk. Please refer to [Create Disk from Snapshot](https://docs.jdcloud.com/cn/cloud-disk-service/create-disk-by-snapshot);
 
 
 
@@ -47,7 +47,7 @@ Note: Cloud Disk Service must be attached to a Virtual Machines in the same avai
 
 6. Enter name and description of the Cloud Disk Service;
 
-Note: you may also click [[Create Disk from Snapshot](https://www.jdcloud.com/help/detail/891/isCatalog/1)] on the Cloud Disk Service creation page to create new Cloud Disk Service from snapshot;
+Note: you may also click [[Create Disk from Snapshot](https://docs.jdcloud.com/cn/cloud-disk-service/create-disk-by-snapshot)] on the Cloud Disk Service creation page to create new Cloud Disk Service from snapshot;
 
 <br>
 
@@ -87,9 +87,9 @@ Note: you may also click [[Create Disk from Snapshot](https://www.jdcloud.com/he
 
 For Linux system, after purchasing Cloud Disk Service, you need to see and use it in the system until you attach, partition and format it.
 
-1. For attaching data disk, please refer to [Attach Cloud Disk](https://www.jdcloud.com/help/detail/505/isCatalog/1). <br>
+1. For attaching data disk, please refer to [Attach Cloud Disk](https://docs.jdcloud.com/cn/cloud-disk-service/attach-cloud-disk). <br>
 
-2. For partition formatting and attaching new partition of attached disk, please refer to [Linux Partitioning, Formatting and Creating File System](https://www.jdcloud.com/help/detail/515/isCatalog/1).
+2. For partition formatting and attaching new partition of attached disk, please refer to [Linux Partitioning, Formatting and Creating File System](https://docs.jdcloud.com/cn/cloud-disk-service/linux-partition).
 
 
 
@@ -98,9 +98,9 @@ For Linux system, after purchasing Cloud Disk Service, you need to see and use i
 
 For Windows system, after purchasing cloud disk, you need to use it until you attach and format it.
 
-1. For attaching data disk, please refer to [Attach Cloud Disk](https://www.jdcloud.com/help/detail/505/isCatalog/1). <br>
+1. For attaching data disk, please refer to [Attach Cloud Disk](https://docs.jdcloud.com/cn/cloud-disk-service/attach-cloud-disk). <br>
 
-2. For formatting of attached disk, please refer to [Windows Partitioning, Formatting and Creating File System](https://www.jdcloud.com/help/detail/514/isCatalog/1).
+2. For formatting of attached disk, please refer to [Windows Partitioning, Formatting and Creating File System](https://docs.jdcloud.com/cn/cloud-disk-service/windows-partition).
 
 	
 

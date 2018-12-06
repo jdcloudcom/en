@@ -9,7 +9,7 @@ Conduct visitor identification and filter by the configured access black and whi
 
 - referer blacklist: It does not allow access of the rule-compliant request; referer white list: allows access of the rule-compliant request
 - Allows direct access to the resource URL through the browser: Whether to allow request access without the referer field (it currently only supports no referer field and the follow-up support of scenarios where the referer field is blank)
-- Only one of the referer black and white list configurations can take effect. When the white list is selected, the rule and the “Allow the direct sample resource URL through the browser" cannot be both blank
+- Only one of the referer black and white list configurations can take effect. When the white list is selected, the rule and the “Allow the direct access resource URL through the browser" cannot be both blank
 - Support multiple referer configurations, up to 50, and cannot be repeated
 - Support extensive domain name rule configuration
 

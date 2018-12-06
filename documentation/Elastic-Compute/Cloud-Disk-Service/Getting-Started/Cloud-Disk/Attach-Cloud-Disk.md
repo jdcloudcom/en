@@ -129,11 +129,11 @@ Note: After disk attachment succeeds, you need to log in Virtual Machines and fo
 
 **Linux**
 
-After disk attaching succeeds, you need to log in the instance to partition and format the attached disk, as well as attach it to a new partitioning. For detailed operation steps, please refer to [Linux partitioning, formatting and creating file system](https://www.jdcloud.com/help/detail/515/isCatalog/1).
+After disk attaching succeeds, you need to log in the instance to partition and format the attached disk, as well as attach it to a new partitioning. For detailed operation steps, please refer to [Linux partitioning, formatting and creating file system](https://docs.jdcloud.com/cn/cloud-disk-service/linux-partition).
 
 **Windows**
 
-After disk attaching succeeds, you need to log in the instance to partition and format the attached disk, as well as attach it to a new partitioning. For detailed operation steps, please refer to [Windows partitioning, formatting and creating file system](https://www.jdcloud.com/help/detail/515/isCatalog/1). 
+After disk attaching succeeds, you need to log in the instance to partition and format the attached disk, as well as attach it to a new partitioning. For detailed operation steps, please refer to [Windows partitioning, formatting and creating file system](https://docs.jdcloud.com/cn/cloud-disk-service/windows-partition). 
 
 <br>
 

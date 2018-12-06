@@ -15,7 +15,7 @@
 - The pushing streaming domain name and the pulling streaming domain name cannot be the same one; for example, the streamer’s pushing streaming is a.com, playing domain name can be b.com but cannot be a.com;
 - Adding extensive domain name not supported
 - Audio and video formats support H264, AAC
-- Pulling streaming mode only supports back-to-source pulling rtmp format, playing domain name can be self-switched to https and https based on rtmp format
+- Pulling streaming mode only supports back-to-source pulling rtmp format, playing domain name can be self-switched to http and https based on rtmp format
 
 ![image.png](https://img1.jcloudcs.com/cms/e88c953b-d500-49b3-a16a-024e572585ad20180514202416.png)
 

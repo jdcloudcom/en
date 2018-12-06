@@ -129,8 +129,8 @@ Note: To ensure the accuracy of the prices you have obtained, please log in and 
       <td>0.005904</td>
    </tr>
    <tr> 
-      <td rowspan="4">Memory Optimized</td>
-      <td rowspan="4">Standard</td>
+      <td rowspan="7">Memory Optimized</td>
+      <td rowspan="7">Standard</td>
       <td>m.n2.large</td>
       <td>2</td>
       <td>16</td>
@@ -157,6 +157,27 @@ Note: To ensure the accuracy of the prices you have obtained, please log in and 
       <td>128</td>
       <td>2477.6</td>
       <td>0.002391</td>
+   </tr>
+   <tr>
+      <td>m.n2.8xlarge</td>
+      <td>32</td>
+      <td>256</td>
+      <td>4955.2</td>
+      <td>0.004779</td>
+   </tr>
+    <tr>
+      <td>m.n2.16xlarge</td>
+      <td>64</td>
+      <td>512</td>
+      <td>9910.4</td>
+      <td>0.009558</td>
+   </tr>
+    <tr>
+      <td>m.n2.18xlarge</td>
+      <td>72</td>
+      <td>576</td>
+      <td>11149.2</td>
+      <td>0.010753</td>
    </tr>
    <tr>
       <td rowspan="5">High Frequency Compute</td>
@@ -340,6 +361,7 @@ Instance type and price of first generation container instance:
    </tr>
    <tr>
 </table>
+  
 About Cloud Disk Service: Please refer to the [Purchase Notes for Cloud Disk Service][1]
 
 About Elastic IP: Please refer to the Purchase [Notes for Elastic IP][2]

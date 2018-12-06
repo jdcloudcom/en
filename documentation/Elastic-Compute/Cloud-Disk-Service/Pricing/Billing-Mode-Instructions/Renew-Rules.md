@@ -12,4 +12,4 @@
 
 - Batch renewal: Batch renewal is done for multiple resources, and the use duration of selected resources is expanded based on the renewal duration selected by the user.
 
-	For detailed operation for renewal, please refer to [Renew Management](https://www.jdcloud.com/help/detail/1414/isCatalog/1).
+	For detailed operation for renewal, please refer to [Renew Management](https://docs.jdcloud.com/cn/online-buying/renew-management).
