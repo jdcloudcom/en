@@ -2,6 +2,7 @@
 JCS for MariaDB instance automatic backup has a default trigger time supporting customization.
 
 ## Precautions
+* Please ensure to automatically back up in the business off-peak season.
 * Automatic backup: daily backup is preserved for 7 days.
 
 ## Modify Backup Policy

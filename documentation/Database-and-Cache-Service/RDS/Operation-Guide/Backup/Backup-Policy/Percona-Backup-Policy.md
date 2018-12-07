@@ -2,6 +2,7 @@
 MariaDB instance automatic backup will have a default trigger time, which can be customized.
 
 ## Precautions
+* Please ensure to automatically back up in the business off-peak season.
 * Automatic Backup: Daily backup, retained for 7 days.
 
 ## Modify Backup Strategy

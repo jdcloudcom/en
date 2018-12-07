@@ -1,10 +1,11 @@
 
 # History of Document Release   
 
-| Time   |Online Contents     |
+| Time   |Online Contents |
 |-|-|
-|November 2018|cn-south-1 Launched|
-| August 2018    | Online in the Region of cn-east-2    |
+|December 2018|Pod is launched in cn-north-1, cn-east-2 and cn-south-1 with open Beta|
+|November 2018|Instance launched in cn-south-1|
+| August 2018    |Instance launched in cn-east-2|
 | July 2018    | Command-line Tool Was Published    |
 | June 2018   | Load Balancer Was Supported  |
 | May 2018    |   New Generation Skylake Platform Container Instance Was Online  |

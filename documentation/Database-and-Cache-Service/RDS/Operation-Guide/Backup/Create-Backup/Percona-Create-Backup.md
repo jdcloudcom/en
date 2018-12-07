@@ -3,6 +3,9 @@ The JCS for Percona service instance supports both automatic backup and manual b
 The backup instance will be stored in the cloud storage service of JD Cloud. At present, JD Cloud does not charge for the backup space.
 
 ## Precautions
+* Please ensure to create backup in the business off-peak season.
+* During implementing manual backup or automatic backup, implementing DDL modification will cause the failure of creating backup.
+* During implementing manual backup or automatic backup, a large amount of DML modification will cause the failure of creating backup.
 * Manual Backup: 5 instances at most can be created in each region, and the manual backup will be automatically released as the instance is deleted.
 * Please manually back up the instance in advance to ensure that the database of database instances can be restored to the original normal state after the test and verification if to test and modify the data of the database instance.
 

@@ -125,22 +125,28 @@ items:
             href: Operation-Guide/Video-Service-Guide/Query-Video-Task.md
           - name: Delete Video Task
             href: Operation-Guide/Video-Service-Guide/Delete-Video-Task.md	
- - name: API Reference(S3 Compatible)
+ - name: API Documentation
    items:
-      - name: Overview
-        href: API-Reference-S3-Compatible/Introduction-2.md
+      - name: S3 Compatible API Overview
+        href:  API-Reference-S3-Compatible/Introduction-2.md
       - name: Regions And Endpoints
-        href: API-Reference-S3-Compatible/Regions-And-Endpoints.md
+        href:  API-Reference-S3-Compatible/Regions-And-Endpoints.md
       - name: Compatible Signature Verification
-        href: API-Reference-S3-Compatible/User-Signature-Authentication-s3.md  
+        href:  API-Reference-S3-Compatible/User-Signature-Authentication-s3.md  
       - name: Compatible Public Header
-        href: API-Reference-S3-Compatible/Compatibility-Header.md      
+        href:  API-Reference-S3-Compatible/Compatibility-Header.md      
       - name: Compatible Interface
         items:
            - name: Compatible Interface Overview
              href: API-Reference-S3-Compatible/Compatibility-API/Compatibility-API-overview.md
            - name: Post Object
              href: API-Reference-S3-Compatible/Compatibility-API/Post-Object-2.md
+           - name: Get Bucket Encryption
+             href:  API-Reference-S3-Compatible/Compatibility-API/Get-Bucket-Encryption-2.md
+           - name: Put Bucket Encryption
+             href:  API-Reference-S3-Compatible/Compatibility-API/Put-Bucket-Encryption-2.md
+           - name: Delete Bucket encryption
+             href:  API-Reference-S3-Compatible/Compatibility-API/Delete-Bucket-Encryption-2.md             
       - name: Error Response
         href: API-Reference-S3-Compatible/Error-Response-2.md                
       - name: Expansion Interface
@@ -151,31 +157,9 @@ items:
              href: API-Reference-S3-Compatible/Extension-API/ImgProtected.md
       - name: Compatible Tool
         items:
-           - name: Overview
-             href: API-Reference-S3-Compatible/Compatibility-Tools/Introduction-3.md
-           - name: SDK-Java
-             items:
-                - name: Installation
-                  href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-Java/Installation-S3.md
-                - name: Initialization
-                  href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-Java/Initialization-S3.md
-                - name: Simple Upload
-                  href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-Java/Simple-Upload-S3.md
-                - name: Multipart Upload
-                  href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-Java/Multipart-Upload-S3.md          
-           - name: SDK-Python
-             href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-Python.md
-           - name: SDK-PHP
-             href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-PHP.md
-           - name: SDK-Android
-             href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-Android.md
-           - name: SDK-iOS
-             href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-iOS.md
            - name: CloudBerry
-             href: API-Reference-S3-Compatible/Compatibility-Tools/CloudBerry-1.md                
- - name: API Reference(Previous Version)
-   items:
-      - name: OSS API Introduction
+             href: API-Reference-S3-Compatible/Compatibility-Tools/CloudBerry-1.md 
+      - name: OOS API Reference(Previous Version)
         items:
            - name: Basic Concept
              href: API-Reference/Introduction/Basic-Concepts.md
@@ -185,68 +169,88 @@ items:
              href: API-Reference/Introduction/OSS-Compared-With-File-System.md 
            - name: OSS Glossary
              href: API-Reference/Introduction/OSS-Concepts.md 
-      - name: API Overview
-        href: API-Reference/API-Overview.md
-      - name: General HTTP Header Definition
-        items:
-           - name: General Request Header
-             href: API-Reference/HTTP-Header/Request-Headers.md
-           - name: Public Response Header
-             href: API-Reference/Introduction/Response-Headers.md
-      - name: Access Control
-        items:             
-           - name: Contain Signature in the Header
-             href: API-Reference/Access-Control/Signature-In-Header.md
-           - name: Contain Signature in the URL
-             href: API-Reference/Access-Control/Signature-In-URL.md
-      - name: Service Operations
-        items:
-           - name: GetService
-             href: API-Reference/Service-Operations/GetService.md
-      - name: Bucket Operations
-        items:
-           - name: PutBucket
-             href: API-Reference/Bucket-Operations/PutBucket-1.md
-           - name: GetBucket
-             href: API-Reference/Bucket-Operations/GetBucket.md             
-           - name: PutBucketReferer
-             href: API-Reference/Bucket-Operations/PutBucketReferer.md 
-           - name: GetBucketReferer
-             href: API-Reference/Bucket-Operations/GetBucketReferer.md 
-           - name: DeleteBucket
-             href: API-Reference/Bucket-Operations/DeleteBucket-1.md             
-      - name: Object Operations
-        items:
-           - name: PutObject
-             href: API-Reference/Object-Operations/PutObject.md
-           - name: GetObject
-             href: API-Reference/Object-Operations/GetObject.md
-           - name: DeleteObject
-             href: API-Reference/Object-Operations/DeleteObject.md
-      - name: MultipartUpload Operations
-        items:
-          - name: InitiateMultipartUpload
-            href: API-Reference/MultipartUpload-Operations/InitiateMultipartUpload.md
-          - name: UploadPart
-            href: API-Reference/MultipartUpload-Operations/UploadPart.md
-          - name: CompleteMultipartUpload
-            href: API-Reference/MultipartUpload-Operations/CompleteMultipartUpload.md
-          - name: ListMultipartUploads
-            href: API-Reference/MultipartUpload-Operations/ListMultipartUploads.md 
-          - name: AbortMultipartUpload
-            href: API-Reference/MultipartUpload-Operations/AbortMultipartUpload.md 
-          - name: ListParts
-            href: API-Reference/MultipartUpload-Operations/ListParts.md
-      - name: Error Response
-        items:
-          - name: Error Response List
-            href: API-Reference/Response-To-Errors/Error-List.md
-          - name: Error Response Structure
-            href: API-Reference/Response-To-Errors/Response-Structure.md
- - name: SDK Reference(Previous Version)
+           - name: API Overview
+             href: API-Reference/API-Overview.md
+           - name: General HTTP Header Definition
+             items:
+               - name: General Request Header
+                 href: API-Reference/HTTP-Header/Request-Headers.md
+               - name: Public Response Header
+                 href: API-Reference/Introduction/Response-Headers.md
+               - name: Access Control
+                 items:             
+               - name: Contain Signature in the Header
+                 href: API-Reference/Access-Control/Signature-In-Header.md
+               - name: Contain Signature in the URL
+                 href: API-Reference/Access-Control/Signature-In-URL.md
+           - name: Service Operations
+             items:
+               - name: GetService
+                 href: API-Reference/Service-Operations/GetService.md
+           - name: Bucket Operations
+             items:
+               - name: PutBucket
+                 href: API-Reference/Bucket-Operations/PutBucket-1.md
+               - name: GetBucket
+                 href: API-Reference/Bucket-Operations/GetBucket.md             
+               - name: PutBucketReferer
+                 href: API-Reference/Bucket-Operations/PutBucketReferer.md 
+               - name: GetBucketReferer
+                 href: API-Reference/Bucket-Operations/GetBucketReferer.md 
+               - name: DeleteBucket
+                 href: API-Reference/Bucket-Operations/DeleteBucket-1.md               
+           - name: Object Operations
+             items:
+              - name: PutObject
+                href: API-Reference/Object-Operations/PutObject.md
+              - name: GetObject
+                href: API-Reference/Object-Operations/GetObject.md
+              - name: DeleteObject
+                href: API-Reference/Object-Operations/DeleteObject.md
+           - name: MultipartUpload Operations
+             items:
+              - name: InitiateMultipartUpload
+                href: API-Reference/MultipartUpload-Operations/InitiateMultipartUpload.md
+              - name: UploadPart
+                href: API-Reference/MultipartUpload-Operations/UploadPart.md
+              - name: CompleteMultipartUpload
+                href: API-Reference/MultipartUpload-Operations/CompleteMultipartUpload.md
+              - name: ListMultipartUploads
+                href: API-Reference/MultipartUpload-Operations/ListMultipartUploads.md 
+              - name: AbortMultipartUpload
+                href: API-Reference/MultipartUpload-Operations/AbortMultipartUpload.md 
+              - name: ListParts
+                href: API-Reference/MultipartUpload-Operations/ListParts.md
+           - name: Error Response
+             items:
+              - name: Error Response List
+                href:  API-Reference/Response-To-Errors/Error-List.md 
+              - name: Error Response Structure
+                href: API-Reference/Response-To-Errors/Response-Structure.md   
+ - name: SDK Documentation
    items:
-      - name: Java SDK
-        items:
+       - name: Overview
+         href: API-Reference-S3-Compatible/Compatibility-Tools/Introduction-3.md   
+       - name: Compatible S3 Java SDK (Recommended)
+         items:
+            - name: Installation
+              href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-Java/Installation-S3.md
+            - name: Initialization
+              href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-Java/Initialization-S3.md
+            - name: Simple Upload
+              href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-Java/Simple-Upload-S3.md
+            - name: Multipart Upload
+              href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-Java/Multipart-Upload-S3.md              
+       - name:  Compatible S3  SDK-Python (Recommended)
+         href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-Python.md   
+       - name: Compatible S3  SDK-PHP
+         href:  API-Reference-S3-Compatible/Compatibility-Tools/SDK-PHP.md
+       - name:  Compatible S3  SDK-Android
+         href:  API-Reference-S3-Compatible/Compatibility-Tools/SDK-Android.md
+       - name: Compatible S3  SDK-iOS
+         href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-iOS.md         
+       - name: Previous Version Java SDK (Not Recommended)
+         items:
            - name: Installation
              href: SDK-Reference/Java-SDK/Installation-3.md
            - name: Initialization

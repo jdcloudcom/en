@@ -25,7 +25,6 @@ Assumption:
 7. Hosted Private Virtual Interface: test_channel
 
 8. Schematic Diagram of Network Topology
-
 ![网络拓扑示意图](https://github.com/jdcloudcom/cn/blob/edit/image/Hyper-Converged-IDC/Cloud-Physical-Server/CPS-VPC-001.png)
  
 ## III. Configuration Method

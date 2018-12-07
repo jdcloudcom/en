@@ -93,6 +93,8 @@
     items:
     - name: Network Security Scheme for NAT Gateway
       href: Best-Practices/NAT-Gateway-Network-Safety.md
+    - name: Configuration Method for CPS-VPC Private Line
+      href: Best-Practices/CPS-VPC-DirectConnection.md 
   - name: Tutorial
     items:
     status: 0
