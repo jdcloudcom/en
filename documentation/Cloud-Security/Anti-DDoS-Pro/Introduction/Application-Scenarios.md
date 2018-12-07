@@ -3,7 +3,7 @@
 The following are the applicable scenarios for Anti-DDoS Pro:
 
 ## Game
-The game industry is the heavy-hit area of DDoS attacks, and the Anti-DDoS Pro can effectively guarantee the usability of game industry while ensuring the smooth experience of game players.
+The game industry is the hardest-hit areas of DDoS attacks, and the Anti-DDoS Pro can effectively guarantee the usability of game industry while ensuring the smooth experience of game players.
 
 ## Internet
 Ensures smooth visit to Internet webpages without interrupting business;

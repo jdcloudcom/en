@@ -5,15 +5,15 @@ The selection of the forwarding mode is applicable to the case where multiple se
 
 ## Specification of Forwarding Rules
 
-- Non-web service rules support: polling, weighted polling, and source IP hash
-- Web Service rules support: polling, and weighted polling
+- Non-web service rules support: polling, Weighted round robin, and source IP hash
+- Web Service rules support: polling, and Weighted round robin
 
 ## Forwarding Mode Interpretation
-1. Poll
+1. Round robin
     - Definition: The request is sent in order to the server at the backend.
     - It treats each server at the backend in a balanced manner regardless of the number of actual connections to the server and the current system load.
   
-2. Weighted polling
+2. Weighted round robin
     - Definition: The request will be assigned to the backend server based on the order of weight ratio of the source station configuration. The higher the weight value, the higher the number of times the server is to be polled.　　
     - Because different backend servers may have differences between their configuration of the machine and the load of their current system, therefore their stress tolerance also varies. To configure high- and low-load machines with higher weights to handle more requests; Assign low-configuration high-load machines with lower weights to lower their system loads.
   

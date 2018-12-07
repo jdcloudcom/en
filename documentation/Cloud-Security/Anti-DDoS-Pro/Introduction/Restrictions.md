@@ -20,5 +20,5 @@ An instance of Anti-DDoS Pro only provides 60 ports and 60 domains by default. I
 
 ## Related Reference
 
-- [Product Overview]](../Introduction/Product-Overview.md)
+- [Product Overview](../Introduction/Product-Overview.md)
 - [Price Overview](../Pricing/Price-Overview.md)

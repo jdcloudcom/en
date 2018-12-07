@@ -19,4 +19,4 @@ After the Anti-DDoS Pro service is activated, the IP address of Anti-DDoS Pro wi
  
 
 ## Usage Scenarios:
-For all customers suffering from DDoS attacks, no matter of or not of JD Cloud, the JD Cloud Anti-DDoS Pro can always provide defense against DDoS attack
+For all customers suffering from DDoS attacks, no matter the service is in JD cloud or not, the JD Cloud Anti-DDoS Pro can always provide defense against DDoS attack

@@ -1,6 +1,6 @@
 # Web Service Forwarding Rules
 
-The Web Service is the protection designed to protect the business of website domains. It supports traffic-based and application-oriented attack protection, including CC attack protection.
+The Web Service is the protection designed to protect the business of website domains. It supports volumetric attacks and Application Layer attacks protection, including CC attack protection.
 
 ## Precondition
 - The Anti-DDoS Pro has been successfully purchased and the billing status is normal.
@@ -22,7 +22,7 @@ The field of rule configuration section is explained as follows:
 
 - Protocol type: Supports both HTTP and HTTPS, and can be selected according to the site protocol. When you select the HTTPS protocol, you will be asked to submit the certificate by the system. The protection takes effect only when the certificate is successfully submitted. If you need websocket protocol access, please turn on the websocket switch.
 
-- Back-to-origin method: You can select either the back-to-origin IP or the back-to-origin domain. The back-to-origin IP (inside cloud + outside cloud) supports 20 IP addresses, and one back-to-origin domain. The domain name of Origin Server cannot be the same as the protection domain name; the Origin Server IP is not allowed to be an Intranet address.
+- Back-to-origin method: You can select either the back-to-origin IP or the back-to-origin domain. The back-to-origin IP (inside JD cloud + outside JD cloud) supports 20 IP addresses, and one back-to-origin domain. The domain name of Origin Server cannot be the same as the protection domain name; the Origin Server IP is not allowed to be an Intranet address.
 If the HTTP back-to-origin is turned on, all protocols returning to the Origin Server will be all converted to the HTTP protocol.
 
 - The rules of Web Service Origin Server port support 80 and 443 ports by default. Custom port is allowed. HTTP and HTTPS protocols respectively support customizing 5 different ports.

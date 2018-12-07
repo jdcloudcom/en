@@ -1,6 +1,6 @@
 # Features
 
-The Anti-DDoS Pro provides high-capacity attack protection, can effectively resist various large-traffic DDoS attacks, and supports the defense against attack of layer 3 to 7 layers.
+The Anti-DDoS Pro provides high-capacity attack protection, can effectively resist various high-volume DDoS attacks, and supports the defense against attack of layer 3 to 7 layers.
 
 ## Main functions of Anti-DDoS Pro include:
 
