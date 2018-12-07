@@ -10,7 +10,7 @@ An Elastic IP address can be associated to virtual machine instances, native con
 
 ## Multiple Billing Type Support
 
-Users can select an appropriate billing type, according to business requirements, from the types of **Monthly Package**, **Pay by configuration** and **payment by Consumption**.
+Users can select an appropriate billing type, according to business requirements, from the types of **Monthly Package**, **Pay by configuration** and **Pay by Consumption**.
 
 ## Flexible Bandwidth Modification
 
