@@ -5,7 +5,7 @@ JD Cloud supports the independent creation of Elastic IP.
 ## Procedures
 Step 1: Log in to the console of JD Cloud and enter the Console Navigation Page.
 
-Step 2: Select Cloud - Virtual Private Cloud- Elastic IP at the navigation bar on the left side of the console to enter the Elastic IP List Page.
+Step 2: Select Cloud - **Virtual Private Cloud- Elastic IP** at the navigation bar on the left side of the console to enter the Elastic IP List Page.
 
 Step 3: Confirm the region where the users need to create Elastic IP, select the corresponding region tag on the Elastic IP List Page, and click **Create** to enter the Create Elastic IP Page.
 
