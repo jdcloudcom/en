@@ -2,7 +2,7 @@
 
 ## Procedures
 
-Step 1: Login to the console of JD Cloud and enter the Console Navigation Page.
+Step 1: Log in to the console of JD Cloud and enter the Console Navigation Page.
 
 Step 2: Select Elastic Compute - Virtual Machine- - Instance at the navigation bar on the left side of the console to enter the Virtual Machine List Page.
 
