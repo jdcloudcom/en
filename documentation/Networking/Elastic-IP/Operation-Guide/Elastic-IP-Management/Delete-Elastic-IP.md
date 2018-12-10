@@ -9,7 +9,7 @@ Step 2: Select Cloud - Virtual Private Cloud- Elastic IP at the navigation bar o
 
 Step 3: On the Elastic IP List Page, locate the Elastic IP to be deleted. If the Elastic IP is associated with any resource, Delete is in gray, the deletion can only be performed after the Elastic IP is disassociated first; if the Elastic IP is disassociated, directly click Delete to perform the deletion.
 
-Step 4 (optional): If the Elastic IP is associated, first click Disassociate Resource to disassociate the Elastic IP from resource.
+Step 4 (optional): If the Elastic IP is associated, first click **Disassociate Resource** to disassociate the Elastic IP from resource.
 
 Step 5: Click **Delete** to enter the Delete Elastic IP popup.
 
