@@ -29,9 +29,9 @@ The Elastic IP is currently classified into two IP provider types: BGP and non-B
 
 - Service and deduction will stop when the users' paid online resources are overdue;
 
-- The users will be sent email or SMS after the users' paid online resources are overdue. Please be sure to check the same and recharge in time to prevent unnecessary losses;
+- The service of resources will be stopped and the users will be sent email or SMS after the users' paid online resources are overdue. Please be sure to check the same and recharge in time to prevent unnecessary losses;
 
-- The users' paid online resources and data in the resources will be kept for 7 days from the time of stopping service, and the system will recover the resources after 7 days, in which case the resources cannot be retrieved;
+- The users' paid online resources and data in the resources will be kept for 7 days from the time of stopping service, and the system will reclaim the resources after 7 days, in which case the resources cannot be retrieved;
 
 - The stopped paid online resources can be used normally after the users make a supplementary payment for the amount overdue;
 
@@ -44,7 +44,7 @@ The Elastic IP is currently classified into two IP provider types: BGP and non-B
 
 - The users will be sent email or SMS after the users' paid online resources are overdue. Please be sure to check the same and recharge in time to prevent unnecessary losses;
 
-- The users' paid online resources and data in the resources will be kept for 7 days from the time of stopping service, and the system will recover the resources after 7 days, in which case the resources cannot be retrieved;
+- The users' paid online resources and data in the resources will be kept for 7 days from the time of stopping service, and the system will reclaim the resources after 7 days, in which case the resources cannot be retrieved;
 
 - The stopped paid online resources can be used normally after the users make a supplementary payment for the amount overdue;
 
