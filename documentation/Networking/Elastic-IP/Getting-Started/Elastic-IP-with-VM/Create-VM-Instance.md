@@ -21,5 +21,5 @@ Step 5: If the users choose monthly package, the users need to select the purcha
 
 Step 7: Designate the number of Virtual Machines to be created, and the upper limit of the creation number is subject to the quota of Virtual Machine.
 
-Step 8: After confirming the correctness of the selected configuration, click [Buy Now] to go to the order confirmation Page. Upon payment, return to the Virtual Machine List Page to view the VM instance creation.
+Step 8: After confirming the correctness of the selected configuration, click **Buy Now** to go to the order confirmation Page. Upon payment, return to the Virtual Machine List Page to view the VM instance creation.
 
