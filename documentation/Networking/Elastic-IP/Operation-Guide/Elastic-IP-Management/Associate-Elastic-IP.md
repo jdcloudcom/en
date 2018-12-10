@@ -6,7 +6,7 @@ JD Cloud will support the association of independently created Elastic IP with c
 
 Step 1: Log in to the console of JD Cloud and enter the Console Navigation Page.
 
-Step 2: Select Cloud - Virtual Private Cloud- Elastic IP at the navigation bar on the left side of the console to enter the Elastic IP List Page.
+Step 2: Select Cloud - **Virtual Private Cloud- Elastic IP** at the navigation bar on the left side of the console to enter the Elastic IP List Page.
 
 Step 3: On the Elastic IP Page, Associate Resource will be displayed in the Operation column if the Elastic IP is not associated.
 
