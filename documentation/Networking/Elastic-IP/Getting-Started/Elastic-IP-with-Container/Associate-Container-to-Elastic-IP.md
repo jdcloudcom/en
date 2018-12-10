@@ -1,4 +1,4 @@
-# Container Instance associating with Elastic IP
+# Container Instance Associating with Elastic IP
 
 ## Procedures
 
