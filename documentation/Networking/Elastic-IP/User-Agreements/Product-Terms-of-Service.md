@@ -125,7 +125,7 @@ These Service Terms are the effective contract concluded by and between the owne
 
 8.2. In the event of disputes arising from the performance of these Service Terms, the Parties shall promptly resolve the disputes. When the negotiation fails, either Party can file a lawsuit directly with the People’s Court of Daxing District of Beijing.
 
-## 9. Supplementary Provisions##
+## 9. Supplementary Provisions ##
 9.1 JD Cloud's service description, price description and the ordering page the users confirm on www.jdcloud.com are an integral part of these Service Terms. If the service description, price description and the order form the users agree on the www.jdcloud.com page are inconsistent with these Service Terms, these Service Terms shall prevail.
 
 9.2 JD Cloud shall transfer all or part of the rights and obligations of these Service Terms to the affiliated company of JD Cloud by posting it on www.jdcloud.com 30 days in advance or by sending the users notice or written notice on the website.
