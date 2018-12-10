@@ -5,7 +5,7 @@ JD Cloud supports the deletion of Elastic IP Pay-As-You-Go. The Pay-In-Advance E
 ## Procedures
 Step 1: Log in to the console of JD Cloud and enter the Console Navigation Page.
 
-Step 2: Select Cloud - Virtual Private Cloud- Elastic IP at the navigation bar on the left side of the console to enter the Elastic IP List Page.
+Step 2: Select Cloud - **Virtual Private Cloud- Elastic IP** at the navigation bar on the left side of the console to enter the Elastic IP List Page.
 
 Step 3: On the Elastic IP List Page, locate the Elastic IP to be deleted. If the Elastic IP is associated with any resource, Delete is in gray, the deletion can only be performed after the Elastic IP is disassociated first; if the Elastic IP is disassociated, directly click Delete to perform the deletion.
 
