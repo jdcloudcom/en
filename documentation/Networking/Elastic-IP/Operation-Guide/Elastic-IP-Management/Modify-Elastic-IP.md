@@ -6,7 +6,7 @@ Three billing types of Elastic IP configuration upgrade and downgrade are suppor
 
 Step 1: Log in to the console of JD Cloud and enter the Console Navigation Page.
 
-Step 2: Select Cloud - Virtual Private Cloud- Elastic IP at the navigation bar on the left side of the console to enter the Elastic IP List Page.
+Step 2: Select Cloud - **Virtual Private Cloud- Elastic IP** at the navigation bar on the left side of the console to enter the Elastic IP List Page.
 
 Step 3: Locate to Elastic IP that needs to be adjust bandwidth in the Elastic IP list page, and click **Modify Bandwidth** to enter the modified bandwidth popup.
 
