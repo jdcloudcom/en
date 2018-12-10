@@ -2,9 +2,9 @@
 
 **Q: Is the outbound of VM public network TCP 25 port limited?**
 
-Precondition: It has been confirmed through inspection that both Security Group and firewall have no limit on the port.
+Precondition: It has been confirmed that both Security Group and firewall have no limit on the port.
 
-Causes for limit: In order to improve the quality of emails sent from JD Cloud IP, it is the default to limit Virtual Machine to send emails to destination port 25.
+Causes for limit: In order to improve the quality of emails sent from JD Cloud IP, it is default to limit Virtual Machine to send emails to destination port 25.
 
 
 
@@ -28,7 +28,7 @@ Method for lifting a ban: When creating case to apply for the White List of Emai
 
  
 
-Note: If the users file an application for lifting a ban, JD Cloud will deem it a default that the users have confirmed and undertaken that if violations, such as SMTP sending junk mails, arise from the IP applied by the users, JD Cloud will have the right to permanently ban TCP 25 port and no longer provide the service of lifting a ban. In case of any other questions, please create case for consultation.
+Note: If the users file an application for lifting a ban, JD Cloud will deem that the users have confirmed and undertaken that if violations, such as SMTP sending junk mails, arise from the IP applied by the users, JD Cloud will have the right to permanently ban TCP 25 port and no longer provide the service of lifting a ban. In case of any other questions, please create case for consultation.
 
 **Q: What is the peak-value of EIP bandwidth?**
 
