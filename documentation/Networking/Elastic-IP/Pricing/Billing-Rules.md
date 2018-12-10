@@ -10,13 +10,13 @@ The Elastic IP supports three types of billing types:
 ### Introduction
 The monthly package is Pay-In-Advance type, with a one-time fee of one month, several months or many years. It is suitable for the scenario of pre-estimation of Elastic IP bandwidth demand, and the cost is cheaper than billing by configuration.
 ### Example
-If the users purchase 1M of 1 month bandwidth BGP Elastic IP at 10:00:00 on 2017-8-2 whose monthly unit price is ¥ 23, the users need to pay ¥ 23=23*1, and then the users can use this resources before 2018-2-2 23:59:59.
+If the users purchase 1M of 1 month bandwidth BGP Elastic IP at 10:00:00 on 2017-8-2 whose monthly unit price is ¥ 23, the users need to pay ¥ 23=23*1, and then the users can use this resources before 2017-8-1 23:59:59.
 ### Details
 - Costs for months or years are paid in advance, and current purchased time period supports 1 month~9 months, 1 year, 2 years, and 3 years; costs are deducted at one time when creating the resources;
 
 - The resources of the monthly package do not support deletion before it expires. To guarantee the users' use rights, please confirm the business needs and then purchase.
 
-- The expiration time of monthly package billing order is 23:59:59 in the nth natural month or natural year from the start time of the order;
+- The expiration time of monthly package billing order is 23:59:59 in the Nth natural month or natural year from the start time of the order;
 For example, the start time is 15:00:00 on January 1, 2016, and the duration time is 1 month. The expiration time shall be 23:59:59 on February 1, 2016.
 
 ## Pay by Configuration
