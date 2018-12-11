@@ -13,7 +13,7 @@ This article describes creating the instance of Anti-DDoS Pro via console.
 2. On the "Instance List" page, click **Create** to enter the "Create Instance" page.
 ![Create Instance](../../../../image/Advanced%20Anti-DDoS/instance01.png)
 3. Select the appropriate ISP Line and protection package. It is recommend purchase the combination of basic protection+elastic protection.
-![Create Instance](../../../../translationUse/image/Advanced%20Anti-DDoS/instance02.png)
+![Create Instance](../../../../image/Advanced%20Anti-DDoS/instance02.png)
 
 Once the payment has been made, an instance is created successfully.
 
