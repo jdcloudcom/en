@@ -19,8 +19,6 @@ items:
         href: Pricing/Billing-Overview.md 
       - name: Billing Rules
         href: Pricing/Billing-Rules.md
-      - name: Price Overview
-        href: Pricing/Price-Overview.md
       - name: View Bills
         href: Pricing/Check-Bill.md
  - name: Getting Started
