@@ -73,7 +73,7 @@ Monitoring Indicator | Definition | Unit |Description
 CPU Use Rate|CPU Resources Occupied by Running Programs	|%|	The higher the value is, the higher the current instance load is
 Memory Use Rate|Percentage of Current Used Memory in Total Memory	|%|	The higher the value is, the more instance memories are used by the current instance.
 Data Disk Use Rate|Total Hard Disk Volume Used at Present|%|	Used for the Used Space of Data Storage Hard Disk
-Data Disk Usage|Usage of Current Disk to Total Volume of Hard Disk   	||MByte|	The higher the value is, the more the current instance hard disk is used.
+Data Disk Usage|Usage of Current Disk to Total Volume of Hard Disk   	|MByte|	The higher the value is, the more the current instance hard disk is used.
 Data Disk Write IOPS|Times of Writing Data Disk IO Per Second	|Times/Second|	Times of Writing Data Disk IO Per Second
 Data Disk Read IOPS|Number of Reading Data Disk IO Per Second	|Nr./Second|	Number of Reading Data Disk IO Per Second
 Network Input Rate|Network Input Traffic Per Second of Database Instance|kbps|	Network Input Traffic Per Second of Database Instance
@@ -84,9 +84,9 @@ Average Execution Times of SQL Statement per Second|Execution Times of SQL State
 Buffer Hit Ratio|Referring to as the Percentage of Pages Found from the High-speed Buffer of the Buffer Area Rather than being Read from the Disk	|%|	90% indicates that 90% or above data request can obtain the required data from data buffer zone. The value of this metric is beyond 90% to the best and it can be increased by increasing available memory of SQL Server generally.
 Number of Pages wrote by checkpoint per second | Number of Pages Refreshed to Disk per Second when SQL Server Occurs Checkpoint or Other Operations Asking for Refreshing Dirty Pages are Required|Nr.|	Number of Pages Refreshed to Disk per Second when SQL Server Occurs Checkpoint or Other Operations Asking for Refreshing Dirty Pages are Required
 Login Times Per Second|Average Times of Login Started Per Second	|Times|	Average Times of Login Started Per Second
-Average Full Table Scan Times Per Second|Full Time Scan Times per Second	|	Full table scan may be basic table scan or full index scan. As full table scan needs a lot of time, if the frequency of full table scan is too high, the performance may be affected.
+Average Full Table Scan Times Per Second|Full Time Scan Times per Second	|Times|	Full table scan may be basic table scan or full index scan. As full table scan needs a lot of time, if the frequency of full table scan is too high, the performance may be affected.
 SQL Compiling Times per Second|+C92SQL Compiling Times per Second	|Nr.|	SQL compiling times per second indicates the times that the compilation code path is entered, including compilation caused by recompiling of statement in SQL Server. 
-Lock Time-out Times per Second|Time-out Lock Requests per Second|	|Nr.|	Time-out Lock Requests per Second, including Requests to NOWAIT Lock
+Lock Time-out Times per Second|Time-out Lock Requests per Second	|Nr.|	Time-out Lock Requests per Second, including Requests to NOWAIT Lock
 Deadlock Times per Second|Requests per Second for Lock leading to Deadlock	|Nr.|	Requests per Second for Lock leading to Deadlock Deadlock is very harmful to the scalability of application program, and may lead to bad user experience. The counter had better be 0.
 Lock Waiting times per Second|Requests per Second for Lock requiring caller to Wait	|Times|	Requests per Second for Lock Requiring Caller to Wait
 Blocking Process Number|Current Total Number of Processes Blocked due to Various Reasons|Nr.|	Current Total Number of Processes Blocked due to Various Reasons
@@ -118,9 +118,9 @@ Monitoring Indicator | Definition | Unit |Description
 Created New Connections|TCP Connections created during the statistical period from the client to the target through the load balancer	|Nr.|－
 Active Connections|Total quantity of concurrent TCP traffic (or connections) from the client to the target through the load balancer. This indicator includes the TCP connections in SYN_SENT and ESTABLISHED statuses.	|Nr.|－
 Added New Requests|Connections created during the statistical period from clients to load balancer	|Nr.|－
-Input Traffic Rate|Input Traffic per Second during the statistical period from the client to the target through the load balancer|bps|bps|－
-Output Traffic Rate| Input Packets per Second during the statistical period from the client to the load balancer|byte|byte|－
-Input Bytes|Total Traffic during the statistical period from client to the target through the load balancer|Bytes|Bytes|－
+Input Traffic Rate|Input Traffic per Second during the statistical period from the client to the target through the load balancer|bps|－
+Output Traffic Rate| Input Packets per Second during the statistical period from the client to the load balancer|byte|－
+Input Bytes|Total Traffic during the statistical period from client to the target through the load balancer|Bytes|－
 
 
 ## JCS for Redis Monitoring Metrics
@@ -138,14 +138,14 @@ Number of Instance Keys|Current Number of Cloud Cache Instance Keys|Nr.|	Total n
 
 Monitoring Indicator | Definition | Unit |Description
 ---|---|---|---
-CPU Use Rate|Percentage of CPU usage in total CPU capacity|%  	|%|－
-Memory Use Rate|Percentage of memory usage in total memory|%  	|%|－
-Disk Use Rate|Percentage of disk usage in total disk capacity|%	|%|－
-IOPS Use Rate|Percentage of IOPS usage in total IOPS capacity|%	|%|－
+CPU Use Rate|Percentage of CPU usage in total CPU capacity	|%|－
+Memory Use Rate|Percentage of memory usage in total memory  	|%|－
+Disk Use Rate|Percentage of disk usage in total disk capacity	|%|－
+IOPS Use Rate|Percentage of IOPS usage in total IOPS capacity	|%|－
 Network Input Traffic|Average Input Traffic per Second|Nr.|－
-Network Output Traffic|Average Output Traffic per Second|byte|byte|－
-Network Requests|Average Requests per Second|byte|byte|－
-Connections|Current Connections|byte|byte|－
+Network Output Traffic|Average Output Traffic per Second|byte|－
+Network Requests|Average Requests per Second|byte|－
+Connections|Current Connections|byte|－
 op_command|Total Number of Runcommand Operations|Nr.|－
 op_delete|deleteTotal Number of Delete Operations|Nr.|－
 op_getmore|getmoreTotal Number of Operations|Nr.|－
@@ -196,7 +196,7 @@ Minimum Number of Instances|Minimum Number of Instances in Auto Scaling Groups	|
 Service Instance Number|Service Instance Number in Auto Scaling Groups	|	Nr.|Number of Currently Running Instances in the Auto Scaling Group
 Sum of Instances|Current Instance Number of Auto Scaling Groups	|Nr.|	Sum of Number of Current Instances in All Status in the Auto Scaling Group
 Number of Added Instances|Number of Instances Added in Auto Scaling Groups|Nr.|	Adding Record of Number of Instances in the Auto Scaling Group
-Number of removed instances|Number of Removing Instances from Auto Scaling Groups|	|Nr.|	Record of Number of Instances in the Auto Scaling Group
+Number of removed instances|Number of Removing Instances from Auto Scaling Groups	|Nr.|	Record of Number of Instances in the Auto Scaling Group
 
 **VM Instance**
 
