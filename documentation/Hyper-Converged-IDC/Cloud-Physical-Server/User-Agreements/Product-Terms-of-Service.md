@@ -1,13 +1,13 @@
 # Service Terms of Cloud Physical Server
 
-These Service Terms are the effective Contract concluded by and between the owners of the JD Cloud website (referred to as “JD Cloud” website in the Agreement: [JD Cloud](http://www.jdcloud.com/))
+**These Service Terms are the effective Contract concluded by and between the owners of the JD Cloud website (referred to as “JD Cloud” website in the Agreement: [JD Cloud](http://www.jdcloud.com/)
 and you on the matters related to Cloud Physical Server service. You select to accept these Service Terms by sealing, clicking to confirm on the web page or other means, including but not limited to actually using JD Cloud Cloud Physical Server service without clicking to confirm, indicating that you have reached an agreement with JD Cloud and agree to accept all agreed contents of these Service Terms. If the text sealed by the Parties is inconsistent with the Service Terms text clicked to confirm on the web page or selected to be accepted otherwise, the text sealed by the Parties shall prevail.**
 
 **With regards to these Service Terms, you are reminded to pay extra attention on the terms of limit and exemption, terms of JD Cloud judging and handling your violations and breaches of contract, and the optional terms of the competent court. Restriction and exemption terms may be bold or underlined to raise your attention. Please read the entire contents of these Service Terms carefully before accepting these Service Terms. If you have any questions about the terms of these Service Terms, please contact the relevant business department of JD Cloud to state the inquiry, and JD Cloud will explain the term contents to you. If you do not agree to any of the terms of these Service Terms, or cannot accurately understand JD Cloud's interpretation of the Terms, please do not conduct follow-up actions.**
 
 ## 1. Service Content
 
-1.1 For the purposes of the Terms, “service" means: JD Cloud provides you with Cloud Physical Server services and related technical and network support services as displayed on the website: www.jdcloud.com.
+1.1 For the purposes of the Terms, "service" means: JD Cloud provides you with Cloud Physical Server services and related technical and network support services as displayed on the website: www.jdcloud.com.
 
 1.2. The services provided by JD Cloud must comply with the agreement in these Service Terms.
 
