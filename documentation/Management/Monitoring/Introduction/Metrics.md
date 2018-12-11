@@ -42,6 +42,7 @@ Origin Server Availability| Proportion of the number of successful CDN back-to-o
 Origin Server Latency| Direct time difference from the CDN back-to-origin server request to source station response |Count|－
 
 ## MySQL/percona/MariaDB Monitoring Metrics
+
 Monitoring Indicator | Definition | Unit |Description
 ---|---|---|---
 CPU Use Rate| CPU Use Rate of Instance |%|－
@@ -248,8 +249,8 @@ Size of Received Messages|Size of Messages Consumed by Consumers in the Subscrip
 Monitoring Indicator | Definition | Unit |Description
 ---|---|---|---
 Number of Pages Written for Checkpoint per Second|	Number of Pages Written for Checkpoint per Second|Nr.|－
-|Login Times per Second|	Login Times per Second|Times|－
-|Full Table Scan Times per Second|Average Full Table Scan Times per Second	|Times|－
+Login Times per Second|	Login Times per Second|Times|－
+Full Table Scan Times per Second|Average Full Table Scan Times per Second	|Times|－
 SQL Execution Times|SQL Execution Times per Second	|Times|－
 SQL Compiling Times|SQL Compiling Times per Second	|Times|－
 Lock Time-out Times|Instance Lock Time-out Times per Second	|Times|－
