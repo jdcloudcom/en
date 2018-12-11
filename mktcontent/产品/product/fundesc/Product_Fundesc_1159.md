@@ -1,0 +1,32 @@
+[
+	{
+		"funcName":"服务生命周期管理",
+		"funcContent":[
+			{
+				"funcName":"",
+				"funcTitle":"服务生命周期管理",
+				"funcP":"支持服务的部署、注册、发现、调用、鉴权、流控、日志等功能，基于这些功能可以更灵活的控制服务的整个服务过程。"
+			}
+		]
+	},
+	{
+		"funcName":"服务监控",
+		"funcContent":[
+			{
+				"funcName":"",
+				"funcTitle":"数据监控和调用量监控",
+				"funcP":"数据监控和调用量监控相结合，让用户可以方便地了解各服务各个维度的调用数据，以及服务之间的相互调用关系和调用状况。"
+			}
+		]
+	},
+	{
+		"funcName":"多框架兼容",
+		"funcContent":[
+			{
+				"funcName":"",
+				"funcTitle":"拥抱开源",
+				"funcP":"服务框架一期支持Spring Cloud框架，后期还会支持服务网格（Service Mesh）。"
+			}
+		]
+	}
+]
