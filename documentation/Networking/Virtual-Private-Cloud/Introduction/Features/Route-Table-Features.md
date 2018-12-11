@@ -4,7 +4,7 @@
 
 Route table is the set of a series of route rules and it is used to control the outward direction of the traffic from the subnets in VPC. JD Cloud has two types of route tables: Default route table and customized route table. The route table automatically created when VPC is created is a default route table. The route table actively created by users is a customized route table. Each subnet must be associated with a route table and can only be associated with one route table. Each route table can be associated with multiple subnets.
 
-Route table is composed of a series of route policies. Route policy is composed of route’s destination, the type of next hop and the address of next hop. The options supported by next-hop’s type are: Internet and VM. Among which, Internet is used for the access of EIP. The instance which perform Internet communication through EIP must be configured with this route. VM can be used as the gateway of EIP. Please visit Internet for details.
+Route table is composed of a series of route policies. Route policy is composed of route’s destination, the type of next hop and the address of next hop. The options supported by next-hop’s type are: Internet and VM. Among which, Internet is used for the access of EIP. The instance which perform Internet communication through EIP must be configured with this route. VM can be used as the internet gateway.Please visit Internet for details.
 
 
 
@@ -42,9 +42,11 @@ Each route table can be associated with multiple subnets in the same VPC. Each s
 
 Route policy is used to control the route path of the data packet in subnet. It is divided into the default route policy and customized route policy. Each route policy contains three parameters:
 
-- Destination End: Description of the destination network segment (only the format of network segment is supported. If you want the destination end to be the single IP, you can set the mask code to `32` (for example: `192.168.10.10/32`). If the destination end is the network segment in VPC where the route table is located, this route policy will be overwritten by the Local rule, and the data packet will be routed according to the Local rule.
-- Next Hop Type: VPC’s data-packet exit. The type of next hop supports the types such as "Internet" and "VM", etc.
-- Next Hop: Specify the specific address of route’s next-hop.
+- Destination End: Description of the destination network segment (only the format of network segment is supported. If you want the destination end to be the single IP, you can set the subnet mask code to `32` (for example: `192.168.10.10/32`). If the destination end is the network segment in VPC where the route table is located, this route policy will be overwritten by the Local rule, and the data packet will be routed according to the Local rule.
+- Next Hop Type: VPC’s data-packet exit. The type of next hop supports the types such as **Internet** and **VM**, etc.
+- 
+- Next Hop: Specify the specific address of 
+- route’s next-hop.
 
 > Remarks: In all route tables, there is a default Local route policy, which means that the intranets of the VPC are interconnected. Its route rule is [ Local，Local，Local ], and this route rule cannot be modified or deleted.
 
