@@ -2,7 +2,7 @@
 ## Intelligent Monitoring  
 Realization of intelligent monitoring comprises sections below:
 
-![image](https://github.com/jdcloudcom/cn/blob/DevOps-guhezhu1/image/DevOps/Getting-Started8.jpg)  
+![image](https://github.com/jdcloudcom/cn/blob/DevOps-guhezhu1/image/DevOps/Getting-Started8.jpg) 
 
 [**Data Acquisition**] Obtain data to be monitored by collecting plug-ins and standardize the same. Now, 9 monitoring types of four levels are supported, including machine monitoring, crash monitoring, port monitoring, process monitoring, log monitoring, method monitoring, component monitoring, domain monitoring and custom metric monitoring. Except that the machine monitoring is collected by agent by default, corresponding configurations shall be configured to other monitoring types.
 

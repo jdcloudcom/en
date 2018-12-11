@@ -110,7 +110,7 @@ Functions supported by nsFilter:
 | GroupIn        | 1        | The group is within this scope              | GroupIn(\\"pre,online\\"\)                   |
 | HasHostTag     | 1        | Return true when including this HostTag       | HasHostTag(\\"backup\\")                     |
 | HostTagValueIn | 2        | The specified HostTag value is within the specified scope | HostTagValueIn(\\"version\\", \\"1.0,2.0\\") |
-| NsContain      | 1        | nsThe specified character string is included        | NsContain(\\".judge-hawkeye-ark\\")          |
+| NsContain      | 1        | nsThe specified character string is included        | NsContain(\\"judge-hawkeye-ark\\")          |
 | HasTag         | 1        | Including tag                     | HasTag(\\"lang\\")                           |
 | TagValueIn     | 2        | The specified tag value is within the specified scope     | TagValueIn(\\"priority\\",\\"0,1\\")         |
 

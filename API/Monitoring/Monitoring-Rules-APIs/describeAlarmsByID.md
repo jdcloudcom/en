@@ -8,7 +8,7 @@ Query Rule Details
 GET
 
 ## Request address
-https://monitor.jcloud.com/v1/regions/{regionId}/alarms/{alarmId}
+https://monitor.jdcloud-api.com/v1/regions/{regionId}/alarms/{alarmId}
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
@@ -36,22 +36,22 @@ None
 |**contactGroups**|String[]| |
 |**contactPersons**|String[]| |
 |**createTime**|String| |
-|**enabled**|Integer|Enable & Disable 1 Enable, 0 Disable|
+|**enabled**|Long|Enable & Disable 1 Enable, 0 Disable|
 |**id**|String|Rule ID|
 |**metric**|String|Monitoring Item|
 |**metricName**|String|Name of Rule ID Monitoring Item|
-|**noticePeriod**|Integer|Notification Period Unit: Hour|
+|**noticePeriod**|Long|Notification Period Unit: Hour|
 |**noticeTime**|String|Alarm time, this field is valid when querying the alarming rule|
 |**operation**|String|>=、>、<、<=、==、！=|
-|**period**|Integer|Statistical Period (Unit: Minute)|
+|**period**|Long|Statistical Period (Unit: Minute)|
 |**region**|String|Region Information|
 |**resourceId**|String|Resource ID Applied by This Rule|
 |**serviceCode**|String|Product Corresponded to the Alarm Rule|
-|**status**|Integer|Monitoring Item Status: 1 Normal, 2 Alarm, 4 Insufficient data|
+|**status**|Long|Monitoring Item Status: 1 Normal, 2 Alarm, 4 Insufficient data|
 |**tag**|String|Auxiliary Information of Monitoring Item|
-|**threshold**|Number|Threshold|
-|**times**|Integer|Alarm after how many times|
-|**value**|Number|Alarm Value|
+|**threshold**|Double|Threshold|
+|**times**|Long|Alarm after how many times|
+|**value**|Double|Alarm Value|
 
 ## Response code
 |Return code|Description|

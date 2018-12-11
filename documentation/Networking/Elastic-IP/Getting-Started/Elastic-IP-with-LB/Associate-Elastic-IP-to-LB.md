@@ -11,7 +11,7 @@ Step 3: On the Elastic IP Page, the Associate Resource will be displayed if the 
 Step 4: Click the Associate Resource to enter the EIP Associating Resource popup.
 
 	Description
-	Currently, the Elastic IP interface can associate VM, Load Balancer, Container, and Elastic Network Interface. On the Elastic Network Interface Details, the shortcut operation menu at the upper right corner is also provided with the Associate Resource, and the function is consistent with the key on the List Page.
+	Currently, the Elastic IP interface can associate VM, Load Balancer, Container, and Elastic Network Interface. On the Elastic IP Details, the shortcut operation menu at the upper right corner is also provided with the Associate Resource, and the function is consistent with the key on the List Page.
 
 Step 5: In the Associate Resource popup, select the Load Balancer Resource to which the Elastic IP will be associated.
 

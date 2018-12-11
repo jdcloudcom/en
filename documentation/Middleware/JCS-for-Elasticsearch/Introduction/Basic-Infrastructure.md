@@ -1,6 +1,6 @@
 ## Basic Architecture
 JCS for Elasticsearch provides JCS for Elasticsearch + kibana hosting service, allowing users to easily expand JCS for Elasticsearch clusters and cluster monitoring alarms.
-![Query 1](https://github.com/jdcloudcom/cn/blob/Elasticsearch/image/Internet-Middleware/JCS%20for%20Elasticsearch/ES基础架构-01.png)
+![Query 1](https://github.com/jdcloudcom/cn/blob/Elasticsearch/image/Internet-Middleware/JCS%20for%20Elasticsearch/基础架构1210.png)
 
 | Concept | Interpretation |
 | :- | :- |

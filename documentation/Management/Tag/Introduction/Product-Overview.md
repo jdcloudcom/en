@@ -1,5 +1,4 @@
 #Product Overview
-
 ------
 
 Tag is the tool for JD Cloud’s users to manage their own resource instances. You can categorize the resources by associate tags for resources, thus you can manage your various types of resources in JD Cloud more effectively.

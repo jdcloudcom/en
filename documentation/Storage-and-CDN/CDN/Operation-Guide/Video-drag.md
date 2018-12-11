@@ -8,4 +8,4 @@ At present, only the MP4 file format is supported.
 
 Click “[Domain List](https://cdn-console.jdcloud.com/domainlist)”--Select corresponding domain and log in “[Advanced Configuration](https://cdn-console.jdcloud.com/detail/advanced?id=pid-test1.jcloud.com)”--“Video Drag” to set and the change is located here as well.
 
-![image.png](https://img1.jcloudcs.com/cms/381c8249-23ab-49db-b98c-e56537a2676f20180205110128.png)
+![image.png](https://img1.jcloudcs.com/cms/381c8249-23ab-49db-b98c-e56537a2676f20180205110128.png) 

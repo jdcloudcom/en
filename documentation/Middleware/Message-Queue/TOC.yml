@@ -93,8 +93,10 @@
             href: SDK-Rerference/Java-SDK/Produce-Standard-Message.md
           - name: Production Sequence Message
             href: SDK-Rerference/Java-SDK/Produce-FIFO-Message.md
-          - name: Consumption Message
-            href: SDK-Rerference/Java-SDK/Consumer-Message-SDK.md
+          - name: Consumption Message(Push)
+            href: SDK-Rerference/Java-SDK/Consume-Message-SDK.md
+          - name: Consumption Message(Pull)
+            href: SDK-Rerference/Java-SDK/Pull-Consume-Messgae-SDK.md
   - name: Best Practices
     items:
     status: 0

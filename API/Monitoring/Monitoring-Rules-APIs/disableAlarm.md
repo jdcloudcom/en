@@ -8,12 +8,12 @@ Disable the alarm rule. After the alarm rule is disabled, the detection of monit
 POST
 
 ## Request address
-https://monitor.jcloud.com/v1/regions/{regionId}/alarms/{alarmId}:disable
+https://monitor.jdcloud-api.com/v1/regions/{regionId}/alarms/{alarmId}/disable
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**alarmId**|String|True| |Rule ID|
-|**regionId**|String|True| |Region ID|
+|**regionId**|String|True| |region|
 
 ## Request parameter
 None
@@ -23,6 +23,7 @@ None
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
+|**result**|Object| |
 
 
 ## Response code

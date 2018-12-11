@@ -8,7 +8,7 @@ Query metric list to get monitoring data list based on product type, metric refe
 GET
 
 ## Request address
-https://monitor.jcloud.com/v1/metrics
+https://monitor.jdcloud-api.com/v1/metrics
 
 
 ## Request parameter

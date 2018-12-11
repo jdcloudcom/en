@@ -14,7 +14,7 @@ Supporting query based on alarm rule ID, resource ID and product name.
 GET
 
 ## Request address
-https://monitor.jcloud.com/v1/regions/{regionId}/alarmHistory
+https://monitor.jdcloud-api.com/v1/regions/{regionId}/alarmHistory
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
@@ -24,11 +24,11 @@ https://monitor.jcloud.com/v1/regions/{regionId}/alarmHistory
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**alarmId**|String|False| |RulesId|
-|**alarming**|Integer|False| |Alarming, value: 1|
+|**alarming**|Long|False| |Alarming, value: 1|
 |**endTime**|String|False| |End Time|
 |**filters**|Filter[]|False| |Service code or resource Id list <br>filter name is serviceCodes, representing rules to query multiple product lines<br>filter name is resourceIds, representing rules to query multiple resources|
-|**pageNumber**|Integer|False| |Current Page, 1 by default|
-|**pageSize**|Integer|False| |Paging Size, 20 by default. Value Range: [1, 100]|
+|**pageNumber**|Long|False| |Current Page, 1 by default|
+|**pageSize**|Long|False| |Paging Size, 20 by default. Value Range: [1, 100]|
 |**resourceId**|String|False| |Resource Id|
 |**serviceCode**|String|False| |Product Line|
 |**startTime**|String|False| |Start Time|
@@ -49,7 +49,7 @@ https://monitor.jcloud.com/v1/regions/{regionId}/alarmHistory
 |Name|Type|Description|
 |---|---|---|
 |**alarmHistoryList**|AlarmHistory[]|Alarm History List|
-|**total**|Integer|Total Amount|
+|**total**|Long|Total Amount|
 ### DescribedAlarmHistory
 |Name|Type|Description|
 |---|---|---|
@@ -57,7 +57,7 @@ https://monitor.jcloud.com/v1/regions/{regionId}/alarmHistory
 |**contacts**|DescribedNoticeContacts[]|Alarm Contacts|
 |**noticeLevelTriggered**|String|Alarm level triggered. It shall be 'common', 'critical', 'fatal' respectively from low to high|
 |**noticeTime**|String|Alarm Time|
-|**value**|Number|Alarm Value|
+|**value**|Double|Alarm Value|
 ### DescribedAlarm
 |Name|Type|Description|
 |---|---|---|
@@ -65,21 +65,21 @@ https://monitor.jcloud.com/v1/regions/{regionId}/alarmHistory
 |**calculation**|String|Statistical method: average value=avg, maximum value=max, minimum value=min,|
 |**createTime**|String|Creation Time|
 |**downSample**|String|Downsampling Method|
-|**enabled**|Integer|Enable or not|
+|**enabled**|Long|Enable or not|
 |**id**|String|Alarm Rule ID|
 |**metric**|String|Monitoring Item|
 |**metricName**|String|Name of Monitoring Item|
 |**noticeLevel**|NoticeLevel| |
-|**noticePeriod**|Integer|Alarm Period|
+|**noticePeriod**|Long|Alarm Period|
 |**operation**|String|gt, gte, lt, lte, eq, ne|
-|**period**|Integer|Statistical Period (Unit: Minute)|
+|**period**|Long|Statistical Period (Unit: Minute)|
 |**region**|String|Region Information|
 |**resourceId**|String|xx Resourcesid|
 |**serviceCode**|String|Product Line Code|
-|**status**|Integer|Monitoring Item Status: 1 Normal, 2 Alarm, 4 Insufficient data|
+|**status**|Long|Monitoring Item Status: 1 Normal, 2 Alarm, 4 Insufficient data|
 |**tags**|Object|Tag|
-|**threshold**|Number|Alarm Threshold|
-|**times**|Integer|Alarm Frequency|
+|**threshold**|Double|Alarm Threshold|
+|**times**|Long|Alarm Frequency|
 ### NoticeLevel
 |Name|Type|Description|
 |---|---|---|
@@ -88,8 +88,8 @@ https://monitor.jcloud.com/v1/regions/{regionId}/alarmHistory
 ### DescribedNoticeContacts
 |Name|Type|Description|
 |---|---|---|
-|**referenceId**|Integer|Contact ID|
-|**referenceType**|Integer|Contact type. 0 - contact grouping id, 1 - contact id|
+|**referenceId**|Long|Contact ID|
+|**referenceType**|Long|Contact type. 0 - contact grouping id, 1 - contact id|
 
 ## Response code
 |Return code|Description|
