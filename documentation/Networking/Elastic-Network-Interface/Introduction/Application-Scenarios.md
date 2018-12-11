@@ -8,7 +8,7 @@ Since the ENI features multiple IP address, it can support the construction of a
 ![Multi-service bearer scenario](../../../../image/Networking/Elastic-Network-Interface/eni-001.png)
 
 
-## VM Business Traffic Separation
+##  VM Business Traffic Separation
 Business traffic separation and network isolation is one of the most typical application scenarios of ENI. VM can be mounted with several ENIs belonging to different subnets in the same VPC. Specific network interfaces will host traffic management of intranet, public network and management network in the VM respectively. The access security control policy and the routing policy can be independently set for subnet. Besides, independent security group policy can also be configured for ENI, thus realizing network isolation and business traffic separation. The scenario architecture is listed below:
 
 ![Traffic flow separation scenario](../../../../image/Networking/Elastic-Network-Interface/eni-002.png)
