@@ -33,7 +33,7 @@ If the following three requirements are posed to the Virtual Machines in your Av
 
 **Step 2: Create NAT instance in Subnet 2 and allocate an elastic IP to the instance. This IP is the fixed IP for Virtual Machines of Availability Group to access to public network.**
 
-Operation steps for NAT creation can be referenced from [Linux Instance Creation](../../Virtual-Machines/Getting-Start-Linux/Create-Instance.md)，只需选择官方镜像中CentOS 7.2 64位 NAT Gateway即可。
+Operation steps for NAT creation can be referenced from [Linux Instance Creation](../../Virtual-Machines/Getting-Start-Linux/Create-Instance.md), only select the CentOS 7.2 64-bit NAT Gateway from the public images.
 
 **Step 3: Configure Virtual Private Cloud route table and direct the public traffic flow in Subnet 1 into NAT instance.**
 

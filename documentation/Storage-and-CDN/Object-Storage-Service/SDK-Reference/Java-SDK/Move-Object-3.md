@@ -7,10 +7,10 @@ String accessKey =  "<yourAccessKeyId>";
 String secreteKey = "<yourSecretKey>";       
 // Take cn-north-1 as an example for endpoint, and fill in according to actual situation for other regions  
 String endPoint = "oss.cn-north-1.jcloudcs.com";  
-String sourceBucketName = "< yourSourceBucketName >";//moveObject的源bucket  
-String sourceKey = "<yourSourceKey>";//moveObject的源object key     
-String destinationBucketName = "<yourDestinationBucketName>";//moveObject的目的bucket  
-String destinationKey = "yourDestinationKey";//moveObject的目的object key  
+String sourceBucketName = "< yourSourceBucketName >";//Source bucket of moveObject  
+String sourceKey = "<yourSourceKey>";//Source object key of moveObject     
+String destinationBucketName = "<yourDestinationBucketName>";//Target bucket of moveObject  
+String destinationKey = "yourDestinationKey";//Target object key of moveObject  
 //The configuration of ClientConfig is currently by default. If the user needs some other configurations, he/she may configure them by himself/herself, such as setting the time of connection time-out.  
 ClientConfig config = new ClientConfig();  
   

@@ -209,7 +209,7 @@ Note: the meeting IP address can be viewed in the meeting invitation information
 4. If any meeting password is set, enter the password to join the meeting.
 1.5	 Technical Indicators
 1.5.1	 PC Performance Requirements
-CPU：单核1GHZ
+CPU: 1 Core 1GHZ
 Memory: 2G
 1.5.2	 PC Operating System
 Microsoft:

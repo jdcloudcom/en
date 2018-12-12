@@ -140,7 +140,7 @@ version: 0.10.2
 **Example 1: WordPress Deployment**   
 WordPress is a blog platform developed with PHP language, and it gradually becomes the most popularly used self-service blog tool in the world; it is also used as a content management system (CMS). WordPress has the following two benefits:  
 - It is a tool and function easy to learn, applicable to environment where coding is unavailable, and easy to understand.  
-- 功能强大，发布网站：如公司官网、创建博客、在线商店、社交网站、帮主论坛、视频网站等。  
+- It has powerful functions and can release websites: such as a company’s official website, blog creation, online stores, social network sites, help forum, video website, etc.  
 The following shows how to create WordPress quickly through Helm:  
 - Executing Commands Below:  
 `helm install stable/wordpress`  
@@ -234,7 +234,7 @@ Modify the following contents of values.yaml, and repository is modified from k8
     tag: "1.4"
     pullPolicy: IfNotPresent
 ```  
-- 执行以下命名，进行安装：  
+- Execute the following commands to install:  
 `helm install nginx-ingress`  
 Output the Information Below:  
 ```

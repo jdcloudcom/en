@@ -10,10 +10,10 @@ Formula for billing: storage costs per hour = storage capacity * storage price a
 
 <table>
   <tr>
-    <th width=10%>计费类型</th>
-    <th width=35%>价格</th>
-    <th width="30%">说明</th>
-    <th width="25%">辅助举例</th>
+    <th width=10%>Billing Type</th>
+    <th width=35%>Price</th>
+    <th width="30%">Description</th>
+    <th width="25%">Example</th>
   </tr>
   <tr>
     <td bgcolor=#eeeeee> Pay by actual memory space and time period </td>
