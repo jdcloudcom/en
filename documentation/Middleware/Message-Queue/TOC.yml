@@ -80,7 +80,7 @@
   - name: SDK Reference
     items:
       - name: Example Download
-            href: SDK-Rerference/Demo.md
+        href: SDK-Rerference/Demo.md
       - name: Java SDK
         items:
           - name: Version Description
