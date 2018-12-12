@@ -10,9 +10,9 @@ Configuration Self-test
 1 The public image has been configured with the system update source
 2 Turn off the firewall:
 Linux platform: 
-turn off the default firewall iptables, 开放22端口
+turn off the default firewall iptables, port 22 is open
 Windows platform: 
-turn off the default firewall, 开放3389端口
+turn off the default firewall, port 3389 is open
 3 Network interface MTU value confirmation
 Linux platform:
 As soon as the network interface is started, the dhcp service is automatically started. After connecting to the network, the appropriate MTU value is automatically assigned. So there is no need for user to set the usage command.
