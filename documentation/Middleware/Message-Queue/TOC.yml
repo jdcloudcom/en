@@ -78,8 +78,8 @@
             - name: Consume Message
               href: Operation-Guide/API-Reference/Interface-Specification/Consume-Message.md
   - name: SDK Reference
-    items:
     status: 0
+    items:
       - name: Example Download
         href: SDK-Rerference/Demo.md
       - name: Java SDK
