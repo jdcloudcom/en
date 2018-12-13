@@ -1,4 +1,4 @@
-## ** Security Group Rules Typical Configuration **
+## **Security Group Rules Typical Configuration**
 
 ### **Allow SSH remotely connect to Linux VMs**
 

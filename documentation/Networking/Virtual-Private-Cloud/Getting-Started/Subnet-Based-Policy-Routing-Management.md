@@ -1,4 +1,4 @@
-## ** Subnet-based Policy Route Management **
+## **Subnet-based Policy Route Management**
 
 **Step 1: Create VPC**
 
