@@ -17,7 +17,7 @@ https://monitor.jdcloud-api.com/v1/regions/{regionId}/cm/alarms
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**ids**|String|True| |ids, separate multiple ids by ||
+|**ids**|String|True| |ids, separate multiple ids by \||
 
 
 ## Return Parameter
