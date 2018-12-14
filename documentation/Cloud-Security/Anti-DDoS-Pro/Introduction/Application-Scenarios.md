@@ -22,8 +22,8 @@ Supports the configuration of web service and non- web service, is suitable for 
 
 ## Related Reference
 
-- [产品优势](Benefits.md)
-- [产品功能](Features.md)
+- [Benefits](Benefits.md)
+- [Features](Features.md)
 - [Price Overview](../Pricing/Price-Overview.md)
 - [Billing Rules](../Pricing/Billing-Rules.md)
 - [Create Instance](../Getting-Started/Create-Instance.md)
