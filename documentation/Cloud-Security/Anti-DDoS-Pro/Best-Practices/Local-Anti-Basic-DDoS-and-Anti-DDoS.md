@@ -3,7 +3,7 @@
 In order to solve the problem of security protection of a local node of users, a local basic protection system is built for the users. Meanwhile, because the bandwidth resource of the local node is limited, the massive DDoS attacks cannot be coped with, and a cloud linkage protection function is provided for the users. The local protection system is monitored by real-time flow, when the attack traffic reaches the local protection threshold, the traffic is automatically lead to the Anti-DDoS Pro, so that the user can realize the emergency cloud uploading.
 
 # Deployment Architecture
-![Deployment Architecture](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/Best-Practice01.png)<Br/>
+![Deployment Architecture](../../../../image/Advanced%20Anti-DDoS/Best-Practice01.png)<Br/>
 The best practices that meet both requirements of user local business protection and one-click upload-to-cloud linkage protection:
 
 - Secure Dispatching Center of JD Cloud employs unified dispatching of global traffic through DNS resolution.
