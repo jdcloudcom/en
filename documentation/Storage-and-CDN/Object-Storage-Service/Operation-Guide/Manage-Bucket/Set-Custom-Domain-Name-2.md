@@ -44,7 +44,7 @@ Description
 * If the domain name you input has been maliciously associated by other users, the system prompts that the domain name has been associated. You can complete the validation of domain name ownership in accordance with the OSS verification scheme by clicking the Open Ticket; the domain name can be associated if domain name ownership is verified, and the association between the domain name and the previous Bucket is removed at the same time.
 * Currently, only customized domain name are supported to be used to download files. If you need to upload files or make various actions on Bucket, please use Object Storage Service domain name.
 
-## Action steps for domain name resolution (take JD Cloud resolution as an example)
+## Action steps for domain name resolution (take JD Cloud Resolution as an example)
 Login JD Cloud DNS console and enter the domain name resolution list page.
 Click the destination domain name or the right-handed resolution button to enter the domain name resolution page.
 Add resolution, and then add the resolution page.
