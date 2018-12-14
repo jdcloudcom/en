@@ -56,5 +56,5 @@ Take Java SDK as an example, other ways and development languages please refer t
 
 2. After the server fails to push the message 16 times, the message will enter the dead letter queue. The lifetime of the dead-letter queue is 3 days, and the message cannot be restored and resent beyond the message lifecycle.
 
-3. For integration of Message Queue under the Spring framework, please refer to the demo example:[jcq-spring-demo.zip](http://jcq-inuse-important-cannotdelete.oss.cn-north-1.jcloudcs.com/jcq-spring-demo.zip)。
+3. For integration of Message Queue under the Spring framework, please refer to the demo example:[jcq-spring-demo.zip](http://jcq-inuse-important-cannotdelete.oss.cn-north-1.jcloudcs.com/jcq-spring-demo.zip).
 

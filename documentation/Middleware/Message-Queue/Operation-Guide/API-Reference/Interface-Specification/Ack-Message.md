@@ -18,14 +18,14 @@ POST {Http access point}/v1/ack HTTP/1.1
 
 - Response Body
 
-1. Requested
+1.Requested
 
 |  Field Name   | Field Type | Description                                                         |
 | :------- | :------ | :---------------------------------- |
 | requestId |  string  | requestId of this request is used to search the call chain |
 |  result   |   null   | `null`|
 
-2. Request Failure
+2.Request Failure
 
 |  Field Name   | Field Type | Description                                                         |
 | :------- | :------ | :------------------------------------------------------------ |

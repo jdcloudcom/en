@@ -52,11 +52,11 @@ Encrypting the Object stored in the KMS hosting master Key Pair mode by the serv
 
 1. Login to the Console->Object Storage Service->Space Management->Enter a Bucket->Space Settings->Default Encryption
 
-![存储空间默认加密](../../../../../image/Object-Storage-Service/OSS-96.png)
+![存储空间默认加密](/image/Object-Storage-Service/OSS-96.png)
 
 2. Click **Modification**, and set the default encryption mode of the bucket.
 
-![存储空间默认加密](../../../../../image/Object-Storage-Service/OSS-95.png)
+![存储空间默认加密](/image/Object-Storage-Service/OSS-95.png)
 
 Details:
 

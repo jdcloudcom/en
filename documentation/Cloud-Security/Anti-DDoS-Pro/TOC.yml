@@ -55,6 +55,8 @@
           herf: Operation-Guide/CC-Defense-Related.md
         - name: URL White List Configuration
           herf: Operation-Guide/URL-Whitelist-Rules-Setting.md
+        - name: Certificate Management
+          herf: Operation-Guide/SSL-Cert-Management.md
     - name: Attack Alarm Settings
       herf: Operation-Guide/Attack-Alarm-Notification-Settings.md
     - name: Black List and White List Settings
@@ -72,7 +74,7 @@
     - name: Scheme Instructions of Anti-DDoS Pro Combining Application Security Gateway
       herf: Best-Practices/Scheme-Instructions.md 
   - name: Tutorial
-    status:0    
+    status: 0    
   - name: FAQ
     herf: FAQ/FAQ.md
   - name: Document History

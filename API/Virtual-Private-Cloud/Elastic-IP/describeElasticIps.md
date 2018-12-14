@@ -43,6 +43,7 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/elasticIps/
 ### ElasticIp
 |Name|Type|Description|
 |---|---|---|
+|**az**|String|If the availability zone of elastic ip is null, it means that all availability zones are available.|
 |**bandwidthMbps**|Integer|Elastic IP Speed Limit (unit: Mbps)|
 |**charge**|Charge|Billing Configuration|
 |**createdTime**|String|Creation Time of Elastic IP|

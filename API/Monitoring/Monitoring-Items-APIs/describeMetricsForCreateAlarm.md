@@ -2,13 +2,13 @@
 
 
 ## Description
-Query metric list available to create monitoring rules based on resource type
+Query indicator list of available creating monitoring rules, metric introduction: <a href="https://docs.jdcloud.com/cn/monitoring/metrics">Metrics</a>
 
 ## Request method
 GET
 
 ## Request address
-https://monitor.jcloud.com/v1/metricsForCreateAlarm
+https://monitor.jdcloud-api.com/v1/metricsForCreateAlarm
 
 
 ## Request parameter

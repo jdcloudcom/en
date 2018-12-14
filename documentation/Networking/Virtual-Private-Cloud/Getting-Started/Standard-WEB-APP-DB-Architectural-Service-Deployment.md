@@ -1,4 +1,4 @@
-## ** Standard WEB+APP+DB Architecture Service Deployment **
+## **Standard WEB+APP+DB Architecture Service Deployment**
 
 ### **Overview**
 
@@ -9,7 +9,7 @@ Through this teaching, you can complete the basic network model deployment in JD
 
 
 
-## ** Operating steps**
+### **Operating steps**
 
 #### **Step 1: Create VPC**
 

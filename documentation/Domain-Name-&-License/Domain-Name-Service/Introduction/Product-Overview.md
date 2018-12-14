@@ -6,7 +6,7 @@ Domain name service is a comprehensive domain name management platform that inte
 - Domain Registration: Provide a wide range of domain names for you to select.
 - Domain Name Protection: Fully protect your registration information and domain name information from malicious harassment based on security service such as privacy protection and security lock service.
 - Brand Protection: Protect your brand with domain names and help groups and large enterprises manage brands and domain names safely and efficiently.
-- Domain Name Resolution: Provide free, efficient and secure DNS server Based on JD Cloud resolution to ensure that domain names are ready to use right after purchase.
+- Domain Name Resolution: Provide free, efficient and secure DNS server Based on  JD Cloud Resolution to ensure that domain names are ready to use right after purchase.
 
 
 ## Domain Name

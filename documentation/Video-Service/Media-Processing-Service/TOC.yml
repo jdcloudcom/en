@@ -41,9 +41,9 @@ items:
         href: API-Reference/Video-Transcoding-API/Query-Video-Task.md
       - name: Delete Video Task
         href: API-Reference/Video-Transcoding-API/Delete-Video-Task.md   
-  - name: SDK²Î¿¼
+  - name: SDK Reference
     items:
-      - name: ÊÓÆµ½ØÍ¼
+      - name: Video Thumbnail
         href: SDK-Reference/Thumbnail.md
  - name: Best Practices
    status: 0

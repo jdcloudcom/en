@@ -1,4 +1,7 @@
 ## Use Kibana
+Users can use Kibana to query and analyze the data stored in JCS for Elasticsearch.
+![查询1](https://github.com/jdcloudcom/cn/blob/Elasticsearch/image/Internet-Middleware/JCS%20for%20Elasticsearch/kibana访问设置-01.png)
+
 ### Definition Index Mode
 Enter into the ES console, single click **kibana** in the Instance List page, jump to kibana web page, single click Management in the left navigation bar, and select Index Patterns, so you can define the new index mode in the page.</br>
 
@@ -38,8 +41,8 @@ Thus, the proportion of account in each balance range can be seen.
 Define sub bucket: Use the holder’s age of the account as the measurement unit, add another bucket, and the age of account holder in each balance range can be seen.</br>
 a)	 Click **Add sub-buckets** bucket type</br>
 b)	 Click **Split Slices** bucket type</br></br>
-)	 Select **Terms** in the drop-down box of “sub Aggregation”</br>
-c)	 Select **age** in the drop-down box of “Field”</br>
+c)	 Select **Terms** in the drop-down box of “sub Aggregation”</br>
+d)	 Select **age** in the drop-down box of “Field”</br>
 e)	 Click **Apply changes**</br>
 Now it can be seen that the age of account holder encircles in the balance range.</br>
 

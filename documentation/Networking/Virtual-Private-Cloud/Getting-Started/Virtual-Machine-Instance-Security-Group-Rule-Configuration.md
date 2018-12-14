@@ -1,4 +1,4 @@
-## ** Machine Instance Security Group Rule Configuration **
+## **Machine Instance Security Group Rule Configuration**
 
 #### **Scenario 1: Intranet access between VMs**
 

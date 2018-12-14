@@ -1,0 +1,75 @@
+  name: Key Management Service
+  href:
+  items:
+  - name: Operation Instructions
+    href: Introduction.md
+  - name: Interface Overview
+    href: overview.md
+  - name: Update History
+    href: ChangeLog.md
+  - name: Interface Information
+    items:
+      - name: key Management API
+        items:
+          - name: Create new keys
+            href: Key-Management-Service/createKey.md
+          - name: Enable keys
+            href: Key-Management-Service/enableKey.md
+          - name: Disable keys
+            href: Key-Management-Service/disableKey.md
+          - name: Plan to delete keys
+            href: Key-Management-Service/scheduleKeyDeletion.md
+          - name: Cancel keys planned to be deleted
+            href: Key-Management-Service/cancelKeyDeletion.md
+          - name: Update key description
+            href: Key-Management-Service/updateKeyDescription.md
+          - name: Encrypt
+            href: Key-Management-Service/encrypt.md
+          - name: Decrypt
+            href: Key-Management-Service/decrypt.md
+          - name: Produce data key
+            href: Key-Management-Service/generateDataKey.md	
+          - name: Rotate key
+            href: Key-Management-Service/keyRotation.md
+          - name: Obtain key information
+            href: Key-Management-Service/describeKey.md
+          - name: Obtain key details
+            href: Key-Management-Service/describeKeyDetail.md
+          - name: Obtain key list
+            href: Key-Management-Service/describeKeyList.md
+          - name: Disable key version
+            href: Key-Management-Service/disableKeyVersion.md
+          - name: Enable key version
+            href: Key-Management-Service/enableKeyVersion.md
+          - name: key Version Planned to be Deleted
+            href: Key-Management-Service/scheduleKeyVersionDeletion.md
+          - name: Cancel key version planned to be deleted
+            href: Key-Management-Service/cancelKeyVersionDeletion.md
+      - name: Confidential Data Management API
+        items:
+          - name: Create confidential data
+            href: Secret-Management-Service/createSecret.md
+          - name: Delete confidential data
+            href: Secret-Management-Service/deleteSecret.md
+          - name: Enable confidential data
+            href: Secret-Management-Service/enableSecret.md
+          - name: Disable confidential data
+            href: Secret-Management-Service/disableSecret.md
+          - name: Update confidential data description
+            href: Secret-Management-Service/updateSecret.md
+          - name: Obtain confidential data list
+            href: Secret-Management-Service/describeSecretList.md
+          - name: Create confidential data version
+            href: Secret-Management-Service/createSecretVersion.md
+          - name: Delete confidential data version
+            href: Secret-Management-Service/deleteSecretVersion.md
+          - name: Enable confidential data version
+            href: Secret-Management-Service/enableSecretVersion.md
+          - name: Disable confidential data version
+            href: Secret-Management-Service/disableSecretVersion.md
+          - name: Update confidential data version information
+            href: Secret-Management-Service/updateSecretVersion.md
+          - name: Obtain confidential data version information
+            href: Secret-Management-Service/describeSecretVersionInfo.md
+          - name: Obtain confidential data version list
+            href: Secret-Management-Service/describeSecretVersionList.md

@@ -31,6 +31,7 @@ v1
 |**describeVpcPeerings**|GET|Query VPCPeering resource list|
 |**describeVpcs**|GET|Query VPC list|
 |**disassociateElasticIp**|POST|Disassociate elastic IP API from network interface|
+|**modifyElasticIp**|PATCH|Modify Elastic IP|
 |**modifyNetworkInterface**|PATCH|Modify elastic network interface APIs|
 |**modifyVpcPeering**|PUT|Modify VPCPeering API|
 |**unassignSecondaryIps**|POST|Delete secondary IP API from network interface|

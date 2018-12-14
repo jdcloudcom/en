@@ -34,7 +34,6 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/vpcs/
 |**requestId**|String|Request ID|
 |**result**|Result|Returned Results|
 
-
 ### Result
 |Name|Type|Description|
 |---|---|---|
@@ -43,7 +42,7 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/vpcs/
 ### Vpc
 |Name|Type|Description|
 |---|---|---|
-|**aclIds**|String[]| |
+|**aclIds**|String[]|acl id List Under the same vpc|
 |**addressPrefix**|String|If it is blank, segment is not limited; if it is not blank, it is 10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16 and their subnets included and the length of subnet mask is between 16 and 28|
 |**createdTime**|String|VPC Creation Time|
 |**description**|String|VPC Description. Value Range: 1~120 characters|

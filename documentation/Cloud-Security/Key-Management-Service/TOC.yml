@@ -1,0 +1,46 @@
+name: Key Management Service
+href:
+items:
+- name: Introduction
+  items:
+    - name: Product Overview
+      href: Introduction/Product-Overview.md
+    - name: Core Concepts
+      href: Introduction/Core-Concepts.md
+    - name: Benefits
+      href: Introduction/Benefits.md
+    - name: Features
+      href: Introduction/Features.md
+    - name: Restrictions
+      href: Introduction/Restrictions.md
+- name: Product Pricing
+  items:
+    - name: Billing Overview
+      href: Pricing/Billing-Overview.md
+- name: Operation Guide
+  items:
+    - name: Enable Service
+      href: Operation-Guide/Active.md
+    - name: Key
+      items:
+        - name: Concept of Key
+          href: Operation-Guide/Key-Management/Key-Concepts.md
+        - name: Create new keys
+          href: Operation-Guide/Key-Management/Key-Create.md
+        - name: Rotate Key
+          href: Operation-Guide/Key-Management/Key-Rotation.md
+        - name: Encryption and Decryption
+          href: Operation-Guide/Key-Management/Key-Encrypt.md
+        - name: Key Deletion
+          href: Operation-Guide/Key-Management/Key-Delete.md
+        - name: Online Tool
+          href: Operation-Guide/Key-Management/Key-Tools.md
+    - name: Confidential Data
+      items:
+        - name: Concept of Confidential Data
+          href: Operation-Guide/Secret-Management/Secret-Concepts.md
+        - name: Create confidential data
+          href: Operation-Guide/Secret-Management/Secret-Create.md
+        - name: Delete confidential data
+          href: Operation-Guide/Secret-Management/Secret-Delete.md
+

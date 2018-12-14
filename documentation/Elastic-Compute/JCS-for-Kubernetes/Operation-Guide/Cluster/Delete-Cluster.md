@@ -10,5 +10,5 @@
 
  1. Open the Console and Select [Elastic Compute >>JCS for Kubernetes>>Cluster Service>>Cluster](https://cns-console.jdcloud.com/host/kubernetes/list);  
  2. Select the custer required to be deleted and click the button of [Delete] on the right.  
-  ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/JCS-for-Kubernetes/É¾³ýKubernetes¼¯Èº.png)
+  ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/JCS-for-Kubernetes/åˆ é™¤Kubernetesé›†ç¾¤.png)
  3. In the pop-up window of deleting the JCS for Kubernetes, click [OK] to trigger the deletion of JCS for Kubernetes.

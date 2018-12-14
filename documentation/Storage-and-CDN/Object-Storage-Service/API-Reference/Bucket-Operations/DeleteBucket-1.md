@@ -15,7 +15,7 @@ Detail Analysis:
 
 2.In order to avoid delete by mistake, OSS does not allow the user to delete a non-empty Bucket.
 
-3.If trying to delete a Bucket that is not empty, return 409 Conflict Error, error code: BucketNotEmpty
+3.If trying to delete a Bucket that is not empty, return 409 Conflict Error, error code: BucketNotEmpty.
 
 4.Only owner of Bucket can delete such Bucket. If trying to delete a Bucket that does not have corresponding Bucket, return 403 Forbidden Error. Error code: AccessDenied.
 

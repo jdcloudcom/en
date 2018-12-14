@@ -6,13 +6,13 @@ VPC peering connection is a cross-VPC network interconnection service which enab
 
 
 
-### ** Peering connection’s interoperability is not delivered**
+### **Peering connection's interoperability is not delivered**
 
 Peering connection enables the VPCs to create interconnection between two of them, however this kind of interconnection relationships will not be delivered. For example, if VPC 1 creates the peering connection with VPC 2 and VPC 1 also creates the peering connection with VPC 3, however, on account of that peering connection cannot be delivered, the traffic of VPC 2 and VPC 3 cannot be interconnected.
 
 
 
-### ** Status Interpretation**
+### **Status Interpretation**
 
 - Initialization: Unilateral VPC creates VPC peering connection and the VPC on opposite side does not create VPC peering connection.
 - Connected: VPCs on both sides have created VPC peering connections.

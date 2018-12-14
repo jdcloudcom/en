@@ -2,109 +2,109 @@
 
 The billing cycle of Object Storage Service is based on day, which settles the bills of the previous day in a fixed time every day and the relevant charge standard within a billing cycle is shown as below:
 
-## 对象存储价格概览
+## Price Overview of Object Storage Service
 
 <table>
  <tr>
-  <td colspan="2">计费项</td>
-  <td>标准型存储单价</td>
-  <td>低冗余型存储单价</td>
+  <td colspan="2">Charging Items</td>
+  <td>Unit Price of Standard Storage</td>
+  <td>Unit Price of Reduced Redundancy Storage</td>
  </tr>
  <tr>
-  <td rowspan="2">存储容量</td>
-  <td>实际存储空间占用量</td>
-  <td>0.00427元/GB/天<br>（0.128元/GB/月）</td>
-  <td>0.00233元/GB/天<br>（0.07元/GB/月）</td>
+  <td rowspan="2">Storage Capacity</td>
+  <td>Actual Bucket Usage</td>
+  <td>RMB 0.00427/GB/Day <br> (RMB 0.128/GB/Month)</td>
+  <td>RMB 0.00233/GB/Day <br> (RMB 0.07/GB/Month)</td>
  </tr>
  <tr>
-  <td>数据取回量</td>
+  <td>Quantity of Data Gotten Back</td>
   <td>-</td>
-  <td>暂时免费</td>
+  <td>Temporarily Free</td>
  </tr>
  <tr>
-  <td rowspan="6">访问流量</td>
-  <td>内网流入流量</td>
-  <td>免费</td>
-  <td>免费</td>
+  <td rowspan="6">Access Traffic</td>
+  <td>Intranet Input Traffic</td>
+  <td>Free</td>
+  <td>Free</td>
  </tr>
  <tr>
-  <td>内网流出流量</td>
-  <td>免费</td>
-  <td>免费</td>
+  <td>Intranet Output Traffic</td>
+  <td>Free</td>
+  <td>Free</td>
  </tr>
  <tr>
-  <td>外网流入流量</td>
-  <td>免费</td>
-  <td>免费</td>
+  <td>Internet Input Traffic</td>
+  <td>Free</td>
+  <td>Free</td>
  </tr>
  <tr>
-  <td>外网流出流量</td>
-  <td>0.50元/GB</td>
-  <td>0.50元/GB</td>
+  <td>Internet Output Traffic</td>
+  <td>RMB 0.50/GB</td>
+  <td>RMB 0.50/GB</td>
  </tr>
  <tr>
-  <td>CDN回源流出流量</td>
-  <td>0.14元/GB</td>
-  <td>0.14元/GB</td>
+  <td>CDN Back-to-origin Output Traffic</td>
+  <td>RMB 0.14/GB</td>
+  <td>RMB 0.14/GB</td>
  </tr>
  <tr>
-  <td>跨区域复制流量</td>
-  <td>暂时免费</td>
-  <td>暂时免费</td>
+  <td>Cross-region Replication Traffic</td>
+  <td>Temporarily Free</td>
+  <td>Temporarily Free</td>
  </tr>
  <tr>
-  <td rowspan="2">请求次数</td>
-  <td>GET请求</td>
-  <td>暂时免费</td>
-  <td>暂时免费</td>
+  <td rowspan="2">Number of Requests</td>
+  <td>GET Request</td>
+  <td>Temporarily Free</td>
+  <td>Temporarily Free</td>
  </tr>
  <tr>
-  <td>PUT请求</td>
-  <td>暂时免费</td>
-  <td>暂时免费</td>
+  <td>PUT Request</td>
+  <td>Temporarily Free</td>
+  <td>Temporarily Free</td>
  </tr>
 </table>
 
-## 云端数据处理价格概览
+## Price Overview of Cloud Data Processing
 
 <table>
  <tr>
-  <td colspan="3">计费项</td>
-  <td rowspan="2" align="center">单价</td>
+  <td colspan="3">Charging Items</td>
+  <td rowspan="2" align="center">Unit Price</td>
  </tr>
  <tr>
-  <td rowspan="6">视频转码</td>
-  <td>编码方式</td>
-  <td>输出规格</td>  
+  <td rowspan="6">Video Transcoding</td>
+  <td>Coding Mode</td>
+  <td>Output Specification</td>  
  </tr>
  <tr>
-  <td rowspan="5">视频H.264</td>
-  <td>4K（3840×2160）及以下（即将上线）</td>
-  <td>0.2800 元/分钟</td>
+  <td rowspan="5">Video H.264</td>
+  <td>4K (3840脳2160) and below (coming soon)</td>
+  <td>RMB 0.2800/Minute</td>
  </tr>
  <tr>
-  <td>2K（2560×1440）及以下</td>
-  <td>0.1400 元/分钟</td>
+  <td>2K (2560脳1440) and below</td>
+  <td>RMB 0.1400/Minute</td>
  </tr>
  <tr>
-  <td>FHD（1920×1080）及以下</td>
-  <td>0.0650 元/分钟</td>
+  <td>FHD (1920脳1080) and below</td>
+  <td>RMB 0.0650/Minute</td>
  </tr>
  <tr>
-  <td>HD（1280×720）及以下</td>
-  <td>0.0330 元/分钟</td>
+  <td>HD (1280脳720) and below</td>
+  <td>RMB 0.0330/Minute</td>
  <tr>
-  <td>SD（640×480）及以下</td>
-  <td>0.0220 元/分钟</td>
+  <td>SD (640脳480) and below</td>
+  <td>RMB 0.0220/Minute</td>
  </tr>
  <tr>
-  <td colspan="3">视频截图</td>
-  <td>0.1 元/千张</td>
+  <td colspan="3">Video Snapshot</td>
+  <td>RMB 0.1/1,000 PCS</td>
  </tr>
 <table>
 
-说明：
+Note:
 
-- 转码费用 = 输出文件时长 x 转码单价
-- 输出规格判定：按输出视频分辨率的长边和短边属于输出规格划定的范围进行判定，方式如下：以输出  HD (1280 x 720)及以下 规格为例，输出视频的分辨率长边不大于1280且短边不大于720则属于该输出规格。如输出视频的长边大于1280或输出视频的短边大于720，该输出视频属于更高输出规格。
-- 若转码失败，失败时长不计入计费。
+- Transcoding cost = Output file duration x transcoding unit price
+- Output specification determination: Determined based on the range fall with which the long and short sides of the output video resolution, with the methods below: Taking the output of specifications of HD (1280 x 720) and below as an example, if the long side of the output video resolution is not greater than 1280 and the short side is not more than 720, it belongs to this output specification. If the long side of the output video is greater than 1280 or the short side of the output video is greater than 720, the output video belongs to a higher output specification.
+- If the transcoding fails, the duration of the failure will not be included in the billing.

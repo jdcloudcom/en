@@ -21,14 +21,14 @@ GET {Http access point}/v1/messages HTTP/1.1
 
 - Response Body
 
-1. Requested
+1.Requested
 
 |  Field Name   | Field Type | Description                                                         |
 |:----|:----|:----|
 | requestId |  string  | requestId of this request is used to search the call chain |
 |  result   |   map    | Return format : {"topicName":"lizhijian-041","ackIndex":31,"messages":[{"messageId":"messageId_1","messageBody":"test-0","properties":{"TAGS":"world"}},{"messageId":"messageId_2","messageBody":"test-2","properties":{"TAGS":"world"}}]} |
 
-2. Request Failure
+2.Request Failure
 
 | Field Name | Field Type | Description                                                         |
 |:----|:----|:----|

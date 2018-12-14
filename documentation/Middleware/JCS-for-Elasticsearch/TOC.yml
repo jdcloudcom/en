@@ -35,16 +35,16 @@
     items:
       - name: Getting Started Overview
         href: Getting-Started/Overview.md
-      - name: Create ES
+      - name: Create Cluster
         href: Getting-Started/Create-ES.md
-      - name: Configure ES
-        href: Getting-Started/Configure-ES.md
-      - name: View ES
-        href: Getting-Started/View-ES.md
-      - name: Change ES
-        href: Getting-Started/Change-ES.md
-      - name: Delete ES
-        href: Getting-Started/Delete-ES.md
+      - name: Manage Cluster
+        items:
+        - name: View Cluster
+          href: Getting-Started/View-ES.md
+        - name: Change Configuration
+          href: Getting-Started/Change-ES.md
+        - name: Delete Cluster
+          href: Getting-Started/Delete-ES.md
   - name: Operation Guide
     items:
       - name: Access Cluster
@@ -52,11 +52,23 @@
       - name: Use kibana
         href: Operation-Guide/using_kibana.md
       - name: Monitor Cluster
-        href: Operation-Guide/Monitoring.md
-      - name: Manage Cluster
-        href: Operation-Guide/manage-cluster.md  
+        items: 
+        - name: View Monitoring Information
+          href: Operation-Guide/Monitoring.md 
+        - name: View Status Information
+          href: Operation-Guide/status.md
+      - name: Tag
+        items:
+        - name: Tag Overview
+          href: Operation-Guide/Tag/Tag-Overview.md
+        - name: Edit Tag
+          href: Operation-Guide/Tag/Edit-Tag.md
+        - name: Filter by Tag
+          href: Operation-Guide/Tag/Filter-by-Tag.md
   - name: Best Practices
-    href: Best-Practices/performance.md
+    items:
+     - name: Performance Indicators
+       href: Best-Practices/performance.md
   - name: FAQ
     href: FAQ/FAQ.md
   - name: API Reference

@@ -6,7 +6,7 @@ There are two kinds of tags on the intelligent monitoring platform:
 
 (1) Tag of monitoring object: Mainly refers to tags of application, group, instance or machine, wherein tags of group or instance can be used to mark production environment, regions, etc., tag a machine can mark its server type, etc.
 
-(2) Tag of monitoring item: Monitoring item tags include attributes that added by platform by default, user customized in log monitoring and custom metric monitoring as monitoring items, facilitating users to differentiate values of monitoring items under different attributes. It is used in the form of adding "/key = value" after the monitoring item, wherein key is the keyword of tag and value is the value of tag.
+(2) Tag of monitoring item: Monitoring item tags include attributes that added by platform by default, user customized in log monitoring and custom metric monitoring as monitoring items, facilitating users to differentiate values of monitoring items under different attributes. It is used in the form of adding "/key = value" after the monitoring item, wherein key is the keyword of tag and value is the value of tag. [key can be named with English letters, numbers, "、_" (underlines), "." (period in English) and "-" (line-through in English). ]
 
 The monitoring items added with tags by the platform by default include:
 
@@ -125,7 +125,7 @@ Functions supported by nsFilter:
 | GroupIn        | 1        | The group is within this scope              | GroupIn(\\"pre,online\\"\)                   |
 | HasHostTag     | 1        | Return true when including this HostTag       | HasHostTag(\\"backup\\")                     |
 | HostTagValueIn | 2        | The specified HostTag value is within the specified scope | HostTagValueIn(\\"version\\", \\"1.0,2.0\\") |
-| NsContain      | 1        | nsThe specified character string is included        | NsContain(\\".judge-hawkeye-ark\\")          |
+| NsContain      | 1        | nsThe specified character string is included        | NsContain(\\"judge-hawkeye-ark\\")          |
 | HasTag         | 1        | Including tag                     | HasTag(\\"lang\\")                           |
 | TagValueIn     | 2        | The specified tag value is within the specified scope     | TagValueIn(\\"priority\\",\\"0,1\\")         |
 

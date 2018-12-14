@@ -2,13 +2,13 @@
 
 
 ## Description
-Get statistics for the specified metric, metric introduction: <a href="https://docs.jdcloud.com/cn/monitoring/metrics">Metrics</a>
+View multiple monitoring item data of a resource, metric introduction 1: <a href="https://docs.jdcloud.com/cn/monitoring/metrics">Metrics</a>
 
 ## Request method
 GET
 
 ## Request address
-https://monitor.jcloud.com/v1/regions/{regionId}/metrics/{metric}/metricData
+https://monitor.jdcloud-api.com/v1/regions/{regionId}/metrics/{metric}/metricData
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
@@ -18,6 +18,7 @@ https://monitor.jcloud.com/v1/regions/{regionId}/metrics/{metric}/metricData
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
+|**aggrType**|String|False| |Indicator aggregation mode, each indicator has a default aggregation mode, and the optional values include: sum,avg.max.min|
 |**endTime**|String|False| |Query end time of time range, UTC time, format: 2016-12- yyyy-MM-dd'T’HH:mm:ssZ (if it is blank, which shall be obtained by computing startTime and timeInterval)|
 |**groupBy**|Boolean|False| |Confirm to group query tags|
 |**resourceId**|String|True| |Uuid of Resource|
@@ -29,7 +30,7 @@ https://monitor.jcloud.com/v1/regions/{regionId}/metrics/{metric}/metricData
 ### TagFilter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**key**|String|False| | |
+|**key**|String|False| |Tag Key|
 |**values**|String[]|False| |Tag Value|
 
 ## Response parameter
@@ -51,7 +52,7 @@ https://monitor.jcloud.com/v1/regions/{regionId}/metrics/{metric}/metricData
 ### DataPoint
 |Name|Type|Description|
 |---|---|---|
-|**timestamp**|Integer| |
+|**timestamp**|Long| |
 |**value**|Object| |
 ### Metric
 |Name|Type|Description|

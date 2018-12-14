@@ -1,8 +1,10 @@
 # Update History #
-API Version: 1.2.3
+API Version: 1.2.5
 
 |Release Time|Version Number| Update |Instructions|
 |---|---|---|---|
+|2018-12-07|1.2.5 |Modification Interface|Modifying some interfaces to be internal | 
+|2018-12-03|1.2.4 |Modification Interface|Modification to Monitoring Host | 
 |2018-10-23|1.2.3 |Modify interface | All internal batch rules| 
 |2018-10-15|1.2.2 |Add a New Interface|Add a New Rule Interface| 
 |2018-10-10|1.2.1 |Add a New Interface|Monitoring data batch query interface BatchDescribeMetricData, and original new query fields of interface| 
