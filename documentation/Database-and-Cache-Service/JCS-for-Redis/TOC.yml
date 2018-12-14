@@ -19,6 +19,8 @@
         href: Introduction/Restrictions.md
       - name: Application Scenarios 
         href: Introduction/Application-Scenarios.md    
+      - name: Introduction to New Version Features 
+        href: Introduction/New-version.md 
   - name: Pricing
     items:
       - name: Billing Overview

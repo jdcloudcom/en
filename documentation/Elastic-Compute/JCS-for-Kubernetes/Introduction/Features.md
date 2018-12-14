@@ -16,4 +16,8 @@ Provide CNI network plugin based on JD Cloud SDN network; easily adapt to the ne
 
 ## Compatibility for Kubernetes App
 
-All applications running on standard Kubernetes environments are compatible and they can be easily migrated to JD Cloud’s JCS for Kubernetes.
+All applications running on standard Kubernetes environments are compatible and they can be easily migrated to JD Cloud’s JCS for Kubernetes.  
+
+## Deploy JCS for Kubernetes application by the console  
+
+You can operate through the Console Dashboard to deploy the four frequently-used resources, such as Deployment, Pod, Service and ConfigMap, in JCS for Kubernetes, so as to simplify the deployment processes by users.  

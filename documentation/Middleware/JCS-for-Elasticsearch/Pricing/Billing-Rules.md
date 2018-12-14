@@ -1,4 +1,8 @@
 ## Billing Rules
-**On-demand billing**: The purchase method is flexible; it can be enabled and disabled anytime, and charged according to the actual usage duration. Respectively for the number of nodes, node specifications and node storage capacity. The billing is made every full hour in the unit of natural hours; where the duration is less than 1 hour, it is deemed as 1 hour for billing.</br>
+Two billing methods are provided to JCS for Elasticsearch, including the method of pay by configuration and another one of monthly package. The billing method of pay by configuration is very flexible, which can be enabled and disabled whenever, and the billing is made based on the actual usage duration. Compared with the billing method of pay by configuration, the monthly package will provide more discounts, thus being suitable for the long-term users. For details, please refer to billing method
 
-**Discount Package**: Applicable to node instances; users can purchase the ES node instance usage hours quota in advance, which provides a larger discount than on-demand billing. For long-term users, this method is recommended, and the consumption exceeding the quota is charged by on-demand billing method.
+- Pay by configuration --Please refer to [Billing Instructions to Pay-As-You-Go](https://docs.jdcloud.com/cn/billing/postpay)
+
+- Monthly Package --Please see [Billing Instructions to Pay-In-Advance](https://docs.jdcloud.com/cn/billing/prepay)
+
+

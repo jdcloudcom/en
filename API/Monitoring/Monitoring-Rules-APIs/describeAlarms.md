@@ -13,7 +13,7 @@ Query monitoring rules, supporting query based on rule status, alarm status, res
 GET
 
 ## Request address
-https://monitor.jcloud.com/v1/regions/{regionId}/alarms
+https://monitor.jdcloud-api.com/v1/regions/{regionId}/alarms
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
@@ -23,15 +23,15 @@ https://monitor.jcloud.com/v1/regions/{regionId}/alarms
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**alarmId**|String|False| |Rulesid|
-|**enabled**|Integer|False| |Rule Status: 1 is Enable, 0 is Disable|
+|**enabled**|Long|False| |Rule Status: 1 is Enable, 0 is Disable|
 |**filters**|Filter[]|False| |Service code or resource Id list <br>filter name is serviceCodes, representing rules to query multiple product lines<br>filter name is resourceIds, representing rules to query multiple resources|
-|**isAlarming**|Integer|False| |Whether it is the rule that is alarming, 0 is neglect, 1 is yes, only one can take effect at the same time as status, isAlarming takes priority to take effect|
-|**pageNumber**|Integer|False| |Page; 1 by default, the value range: [1,∞)|
-|**pageSize**|Integer|False| |Paging Size; 20 by default. Value Range: [10, 100]|
-|**resourceId**|String|False| |Resource Id|
-|**ruleType**|Integer|False| |Rule category, 1 represents resource monitoring, and 6 represents site monitoring|
+|**isAlarming**|Long|False| |Whether it is the rule that is alarming, 0 is neglect, 1 is yes, only one can take effect at the same time as status, isAlarming takes priority to take effect|
+|**pageNumber**|Long|False| |Page; 1 by default, the value range: [1,∞)|
+|**pageSize**|Long|False| |Paging Size; 20 by default. Value Range: [10, 100]|
+|**resourceID**|String|False| |Resource ID|
+|**ruleType**|Long|False| |Rule category, 1 represents resource monitoring, 6 represents site monitoring and 7 represents availability monitoring|
 |**serviceCode**|String|False| |Product Name|
-|**status**|Integer|False| |Rule Alarm Status, 1: Normal, 2: Alarm, 4: Insufficient Data|
+|**status**|Long|False| |Rule Alarm Status, 1: Normal, 2: Alarm, 4: Insufficient Data|
 
 ### Filter
 |Name|Type|Required or not|Default value|Description|
@@ -49,7 +49,7 @@ https://monitor.jcloud.com/v1/regions/{regionId}/alarms
 |Name|Type|Description|
 |---|---|---|
 |**alarmList**|Alarm[]|List of rules|
-|**total**|Integer|Total Number of Rules|
+|**total**|Long|Total Number of Rules|
 ### DescribedAlarm
 |Name|Type|Description|
 |---|---|---|
@@ -57,21 +57,21 @@ https://monitor.jcloud.com/v1/regions/{regionId}/alarms
 |**calculation**|String|Statistical method: average value=avg, maximum value=max, minimum value=min,|
 |**createTime**|String|Creation Time|
 |**downSample**|String|Downsampling Method|
-|**enabled**|Integer|Enable or not|
+|**enabled**|Long|Enable or not|
 |**id**|String|Alarm Rule ID|
 |**metric**|String|Monitoring Item|
 |**metricName**|String|Name of Monitoring Item|
 |**noticeLevel**|NoticeLevel| |
 |**noticePeriod**|Integer|Alarm Period|
 |**operation**|String|gt, gte, lt, lte, eq, ne|
-|**period**|Integer|Statistical Period (Unit: Minute)|
+|**period**|Long|Statistical Period (Unit: Minute)|
 |**region**|String|Region Information|
 |**resourceId**|String|xx Resourcesid|
 |**serviceCode**|String|Product Line Code|
-|**status**|Integer|Monitoring Item Status: 1 Normal, 2 Alarm, 4 Insufficient data|
+|**status**|Long|Monitoring Item Status: 1 Normal, 2 Alarm, 4 Insufficient data|
 |**tags**|Object|Tag|
 |**threshold**|Number|Alarm Threshold|
-|**times**|Integer|Alarm Frequency|
+|**times**|Long|Alarm Frequency|
 ### NoticeLevel
 |Name|Type|Description|
 |---|---|---|

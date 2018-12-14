@@ -1,6 +1,6 @@
 # URL authentication description
 
-JD Cloud CDN supports parameter authentication. The user can select appropriate authentication method depending on its own business situation to provide valid protection to origin server resources. (At present the live video only has parameter authentication)
+JD Cloud CDN supports parameter authentication. The user can select appropriate authentication method depending on its own business situation to provide valid protection to origin server resources. (At present, the live only supports the parameter authentication and the live remote authentication, while the video-on-demand download supports the parameter authentication and the path authentication)
 
 **1. Parameter Authentication Method**
 
@@ -104,4 +104,44 @@ http://cdn.example.com/1592409600/8afb0900782e14c35214ccda534a3679/video/standar
 
 The authentication is passed if the HashValue worked out is consistent with the value of md5hash = 8afb0900782e14c35214ccda534a3679 in the user’s request.
 
- 
+**3. Live Remote Authentication**
+
+**3.1**   **Request Parameter Description**
+
+domian***?vhost=vhostname&app=appname&stream=streamname&traceId=376ab86d8c647896&params=params
+
+Request Method: GET
+
+Request Sample Description:
+
+domain*** refers to the remote authentication interface address of pushing streaming or the remote playing authentication address; the remote pushing streaming authentication address and the remote playing authentication address can be the same or different to each other, and were both provided by the customer.
+
+Request Parameter Description
+
+| **Parameter Name** | **Type**  | **Description** | **Description**  |
+| -------- | -----------| -------- | -----------|
+| vhost |string   | Pushing Streaming Domain or Playing Domain | Remote pushing streaming authentication represents pushing streaming domain, while the remote playing authentication represents playing domain | 
+| app   | string  | Pushing Streaming app or Playing app  |  Ditto | 
+| stream | string  | Pushing Streaming or Playing stream | Ditto  | 
+| traceId | string |The identifier requested by us is the one-time authentication request for the only identifier, and the customer can ignore such request | Ditto   | 
+| params  | string | Obtain from url | params refer to all parameters carried in pushing streaming or url played  | 
+
+**3.2**   **Return Parameter Instruction**
+
+| **Parameter Name** | **Description**     |
+| -------- | --------------|
+| 1 | Authentication Succeeded     |
+| 0 | Authentication Failed     |
+
+Return Samples:
+
+Succeeded
+
+1
+
+Description: Only values are required to be returned, please return values in form of character strings.
+
+**3.3**    **Try Again Mechanism**
+
+Where the first request is failed due to reasons of network and the like, the query will be tried again once. If the query is still failed after retry, it is believed that the authentication is failed.
+

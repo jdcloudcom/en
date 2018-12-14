@@ -23,26 +23,28 @@ Stand-alone machine program http output: If you want to obtain output results of
 - The exit status code must be 0 after script execution
 
 
-​     The specifications of script are shown as below:
+​     The plug-in will catch the stdout output of scripts. The script output must conform to the specified specifications, in the format below:
 
 ```sh
 [tags:k1:v1,k2:v2]
 
-    $ItemName:$ItemValue,type:$type[,desc:%desc]
+$ItemName:$ItemValue[,type:$type][,desc:%desc][,classify:%classify]
 ```
 
- Of which, $ItemValue shall be double type while "$itemValue" is string type, which only store latest values by default
+ In which, 
+ tags: Please fill in the tag of the monitoring item, with the configuration in form of key:value. key can be named with English letters, numbers, "、_" (underlines), "." (period in English) and "-" (line-through in English).
 
- $type is gauge, counter, counterQps by default,
+$ItemName: The name of the monitoring item supports English letters, numbers, underlines (_) and periods in English (.) and cannot begin with a number. $ItemValue is recognized as the double type. However, "$itemValue" will be recognized as the string type and only the latest value can be stored by default
+
+type: Please fill in the data type expected to be acquired by the user in the type field, and three types are supported by agent by default, including gauge, counter and counterQps,
 
 - gauge: which do not process the value by default
 - counter: newValue - lastValue
 - counterQps: (newValue - lastValue) / cycle
 
+desc: This field can be used for describing information of the monitoring item and will be sent to the alarm only
 
- $desc is string type, which presents information describing the monitoring item and can only send alarm
-
- $classify is string type, which is used to present the types of generated monitoring items. [Click to view] for specific available types of informationttps://cf.jd.com/pages/viewpage.action?pageId=96879313)  
+classify: Type of character string, used for indicating type of monitoring item produced  
 
 
 ```sh

@@ -17,7 +17,7 @@
  - Prefix of "jrn:” cannot be used in tag key and value. The tag of this prefix is reserved by the system. Users cannot edit or delete such tags.
 
  - One resource instance (for example: a virtual machine instance, a Cloud Disk Service or an instance of SQL Server) is allowed to associate multiple tags, however the tags with the same “key” are only allowed to associate one tag simultaneously.
+ 
+ - At present, the tag service only supports the tag operation and query by the primary account. However, the resource association/tag disassociation and resource filter via the tag service by the sub-account and in the resource list page of supported tag are not supported temporarily.
 
    E.g: One VM Instance is allowed to simultaneously associate multiple tags, such as “Departments: Basic R&D Department” and “Environment: Development Environment”, etc., however it is not allowed to associate the tags of “Department: Basic R&D Department” and “Environment: development department of the platform” simultaneously, because the “key” of these two tags are the same. The tag with the same “key” which is associated in subsequent will replace the former tag.
-
- - Tag Service currently does not support Sub users to operate tag on cloud resources or search for resources with tag filter.
