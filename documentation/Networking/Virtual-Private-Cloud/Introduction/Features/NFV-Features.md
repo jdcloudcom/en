@@ -2,7 +2,7 @@
 
 ### Basic Concept
 
-NFV is a VM that runs software. The software can perform network functions. Users can implement corresponding functions by purchasing mirroring and creating VM with the mirroring.
+NFV is a VM that runs software. The software can perform network functions. Users can implement corresponding functions by purchasing image and creating VM with the image.
 
 
 
@@ -14,7 +14,7 @@ Use Restrictions: The self-built NAT gateway shares quotas with VM.
 
 
 
-#### **Overview**
+### **Overview**
 
 NAT gateway is a gateway that converts Private IP address and EIP address in VPC. It is a way for cloud resources without EIP address to access Internet in VPC (but not supporting Internet to initiatively access VPC). The typical application scenarios of NAT gateway of JD VPC are as follows:
 
@@ -41,7 +41,7 @@ VM is bound to elastic EIP address, and the subnet route accesses the Internet t
 
 ### **VPN Gateway**
 
-Features: The VPN gateway provides Internet-based data encryption transmission service, which can realize network interconnection of different VPCs, open enterprise IDC and JD cloud intranet to realize hybrid cloud deployment; use VPN with mirror image to create VPN gateway.
+Features: The VPN gateway provides Internet-based data encryption transmission service, which can realize network interconnection of different VPCs, open enterprise IDC and JD cloud intranet to realize hybrid cloud deployment; use VPN with image to create VPN gateway.
 
 Use Restrictions: The VPN gateway created by image shares quotas with the VM.
 
@@ -55,7 +55,7 @@ JD Cloud VPN uses IPSEC, IKE, and pre-shared key to encrypt data and provides a 
 
 - Flexible networking mode to support multi-tunnel shared gateway
 
-Support the establishment of multiple tunnels under the VPN gateway (requires different peer gateways) to provide a relatively flexible networking mode to meet the requirements of different service scenarios.
+Support the establishment of multiple tunnels with the VPN gateway (requires different peer gateways) to provide a relatively flexible networking mode to meet the requirements of different service scenarios.
 
 - Tunnel connectivity detection, automatic repair tunnel function
 
