@@ -1,6 +1,6 @@
 ## **VPC Peering Connection**
 
-**Scenario**
+**Business Scene**
 
 In cn-south, two VPCs have communication requirements through Private IP, with the details as follows:
 
@@ -24,21 +24,21 @@ In cn-south, two VPCs have communication requirements through Private IP, with t
 
 **Step 1: Create a peer-to-peer connection**
 
-1) Log in to the JD Cloud console, click on the private network in the Network menu of the product menu, and then click on the VPC peer-to-peer connection in the private network menu to enter the VPC peering list page.
+1) Log in to the console, click on the private network in the Network menu of the product menu, and then click on the VPC peer-to-peer connection in the private network menu to enter the VPC peering list page.
 
 ![](/image/Networking/Virtual-Private-Cloud/Getting-Started/VPC-Peering/Step1-3.png)
 
 
 
-2) Click **Create** on the VPC Peer Connection List page to open the Create VPC Peer Connection Creation window.
+2) Click Create on the VPC Peer Connection List page to open the Create VPC Peer Connection Creation window.
 
 ![](/image/Networking/Virtual-Private-Cloud/Getting-Started/VPC-Peering/Step1-4.png)
 
 
 
-3) Configure the VPC peering connection in the VPC peering connection creation window, and click OK to complete the creation. The popup window will prompt **the creation is successful, please go to the routing table to configure the relevant routing**. Click to go to the configuration to enter the routing table list page, or click **Configure later** to return to the VPCpeering list. Configuration information is as follows.
+3) Configure the VPC peering connection information in the VPC peering connection creation window, and click OK to complete the creation. The popup window will prompt the creation is successful, please go to the routing table to configure the relevant routing. Click to go to the configuration to enter the routing table list page, click Configure later to return to the VPCpeering list. Configuration information is as follows
 
-- For region, select **cn-south-1**
+- For region, select cn-south
 - For name, fill in peeringAtoB
 - For local VPC, select VPCforPeeringA
 - For peer VPC ID, fill in vpc-xxvpcforpeeringbxx
@@ -47,7 +47,7 @@ In cn-south, two VPCs have communication requirements through Private IP, with t
 
 
 
-4) The same steps are required in the peer VPC to create a VPC peering connection to VPCforPeeringA.
+4) The same steps are required in the peer private network to create a VPC peering connection to VPCforPeeringA.
 
 ![](/image/Networking/Virtual-Private-Cloud/Getting-Started/VPC-Peering/Step1-6.png)
 
@@ -61,9 +61,9 @@ In cn-south, two VPCs have communication requirements through Private IP, with t
 
 
 
-2) Click **Create** on the routing table list page to open the routing table creating window.
+2) Click Create on the routing table list page to open the routing table to create a popup window.
 
-3) Configure the basic information of the routing table in the routing table creating window, and click OK to complete. The pop-up window will display **the routing policy after the routing table is created, and the associated subnet takes effect. Do you want to configure?**, select to configure the routing table details page immediately.
+3) Configure the basic information of the routing table in the routing table creation popup window, and click OK to complete the creation. The pop-up window "Displays the routing policy after the routing table is created, and the associated subnet takes effect. Do you want to configure? ", select to configure the routing table details page immediately.
 
 ![](/image/Networking/Virtual-Private-Cloud/Getting-Started/VPC-Peering/Step2-2.png) 
 
@@ -71,13 +71,13 @@ In cn-south, two VPCs have communication requirements through Private IP, with t
 
 The routing table configuration information is as follows:
 
-- For region, select **cn-south-1**
+- For region, select cn-south
 - For a private network, select VPCforPeeringA
 - for name, fill in RTBforPeeringAtoB
 
-4) In the routing table details page, click the **routing policy** tab, then click **Edit** to open the route editing mode, click ”edit” to add a new routing rule.
+4) In the routing table details page, click the routing policy tab, then click Edit to open the route editing mode, click on the new one to start editing the new routing entry.
 
-5) Fill in the relevant configuration in the routing entry, click **Save** to complete editing the routing table. The routing entries are configured as follows:
+5) Fill in the relevant configuration in the routing entry, click Save to complete the routing table edit. The routing entries are configured as follows:
 
 ![](/image/Networking/Virtual-Private-Cloud/Getting-Started/VPC-Peering/Step2-3.png) 
 
@@ -88,7 +88,7 @@ The routing table configuration information is as follows:
 - For next hop, select peeringAtoB
 - If you need public network access, you need to add a routing rule from 0.0.0.0/0 to the internet.
 
-6) After configuring the routing table, you need to associate the routing table with the subnet that needs to be interconnected. In the private network on the peer end, you need to take similarly steps to create and configure the routing table RTBforPeeringBtoA.
+6) After configuring the routing table, you need to associate the routing table with the subnet that needs to be interconnected. In the private network on the peer end, you need to create and configure the routing table RTBforPeeringBtoA.
 
 ![](/image/Networking/Virtual-Private-Cloud/Getting-Started/VPC-Peering/Step2-4.png) 
 

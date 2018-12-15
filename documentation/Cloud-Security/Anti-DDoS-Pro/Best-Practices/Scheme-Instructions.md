@@ -3,7 +3,7 @@
 Anti-DDoS Pro + Application Security Gateway provide comprehensive safety protection for JD Cloud users without increasing the extra performance expenses.
 
 # Deployment Architecture
-![Deployment Architecture](../../../../image/Advanced%20Anti-DDoS/Best-Practice03.png)<Br/>
+![Deployment Architecture](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/Best-Practice03.png)<Br/>
 The excellent deployment architecture of Anti-DDoS Pro + Application Security Gateway is as follows:
 - Security Dispatching Center of JD Cloud resolves the domain name of the user to Anti-DDoS Pro CNAME through DNS resolution.
 - The normal access flow of the user and the DDoS attack traffic are subjected to Anti-DDoS Pro cleaning, and the back-to-origin is returned to the Virtual Private Cloud Load Balancer cluster of the JD Cloud.

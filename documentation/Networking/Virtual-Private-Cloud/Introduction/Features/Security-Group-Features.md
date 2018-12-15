@@ -2,13 +2,13 @@
 
 ### **Basic Concept**
 
-Security group is a distributed and stateful virtual firewall with the function of filtering. It can realize the control of the access between VMs and internet, thereby it can control the access traffic of one or more VMs.
+Security group is a distributed and stateful virtual firewall with the function of filtering. It can realize the control of the access of VM network, thereby it can control the access traffic of one or more VMs.
 
-When creating the VM, corresponding security group can be associated. Add the VMs with same requirement regarding the network security isolation within the same region into the same security group. Perform security filtering on the inbound and outbound traffic of the VM through configuring the security group policy.
+When creating the VM, corresponding security group can be associated. Add the VMs with same requirement regarding the network security isolation within the same area into the same security group. Perform security filtering on the inbound and outbound traffic of the VM through configuring the security group policy.
 
 The new security group will implement All drop rule for all egress / ingress traffic by default. The egress contains a default configuration which allows all traffic; you can add or remove the rules of security groups at any time, and the new rules will be automatically applied to all VMs associated with this security group.
 
-You can create 50 security groups under each VPC in each region. Each security group can be added up to 100 rules in both-way, which can satisfy your requirement regarding network security isolation.
+You can create 50 security groups under each VPC in each zone. Each security group can be added up to 100 rules in both-way, which can satisfy your requirement regarding network security isolation.
 
 Each machine can be associated with up to 5 security groups for the sake of realizing the precise control regarding the access traffic of VM.
 
@@ -41,9 +41,9 @@ Default Security Group Opens All Ports: Expose all ports to the EIP and the intr
 
 ● Type: Common application types, such as SSH, PING or HTTP, etc. Customized TCP and UDP can also be chosen.
 
-● Protocol: The type of the protocol shall be displayed according to the selected application type.
+● Agreement: The type of the agreement shall be displayed according to the selected application type.
 
-● Destination Port: For the range of VM ports acted by the security group, the value shall be 1-65535. Single port such as "22" or port’s range such as "20-22" can be filled.
+● Target Port: For the range of VM ports acted by the security group, the value shall be 1-65535. Single port such as "22" or port’s range such as "20-22" can be filled.
 
 ● Source/Destination IP: IP addresses or address segments (CIDR) which allows access / can be accessed only support IPv4. If 0.0.0.0/0 is filled, it means that it can be accessed by all IP addresses.
 

@@ -7,11 +7,9 @@ After you subscribe the Anti-DDoS Pro service, and configured the IP address whi
 ## Anti-DDoS Pro Unaccessed
 When the Anti-DDoS Pro is unaccessed, all the normal and abnormal visits will arrive directly to the source station. In case of DDoS attacks, the source station can be easily broken down.
 
-![Anti-DDoS Pro Architecture Diagram](../../../../image/Advanced%20Anti-DDoS/ipant%20002.png)
+![Anti-DDoS Pro Architecture Diagram](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/ipant%20002.png)
 
 ## After Anti-DDoS Pro Access
-
-After access to Anti-DDoS Pro business, all access traffics to the source station will be detected in real time through Anti-DDoS Pro. The Anti-DDoS Pro has strong protection mechanism, all the traffic will direct to Anti-DDoS Pro¡¯s scrubbing center, mitigate the attacks of layer-4 and layer-7. The mechanism ensure that only clean traffic can redirect to the origin server.
-![Anti-DDoS Pro Architecture Diagram](../../../../image/Advanced%20Anti-DDoS/ipant%20001.png)
-
+After access to Anti-DDoS Pro business, all access traffics to the source station will be detected in real time through Anti-DDoS Pro. The Anti-DDoS Pro has strong protection mechanism, all the traffic will direct to Anti-DDoS Pro's scrubbing center, mitigate the attacks of layer-4 and layer-7. The mechanism ensure that only clean traffic can redirect to the origin server.
+![Anti-DDoS Pro Architecture Diagram](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/ipant%20001.png)
 

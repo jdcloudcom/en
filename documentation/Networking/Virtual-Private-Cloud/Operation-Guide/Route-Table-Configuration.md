@@ -3,25 +3,25 @@
 #### **Step 1 Create a Customized Route Table**
 
 1. Open the console and choose Networking > Route Table to enter the route table list page;
-2. Select the area where the route table belongs (currently, cn-north , cn-south and cn_east regins are opened), and then click on **Create** button;
+2. Select the area where the route table belongs (currently, cn-north and cn-south areas are opened), and then click on "Create" button;
 ![](/image/Networking/Virtual-Private-Cloud/Operation-Guide/Route-Table-Configuration/Step1.png)
 
-3. Region Selection: In this step, you can still choose the region where the route table is created;
+3. Region Selection: In this step, you can still choose the area where the route table is created;
 ![](/image/Networking/Virtual-Private-Cloud/Operation-Guide/Route-Table-Configuration/Step2.png)
 
 4. Select the VPC which it belongs, and the route table must be created in a VPC.
 5. Set the Name of Route Table: The name cannot be blank. Only Chinese, numbers, uppercase and lowercase letters, English underscore "_" and line-through "-" are accepted, not exceeding 32 characters;
-6. Set the description of route table: The description can be null, only supports Chinese, numbers, uppercase and lowercase letters, English underscore "_", and cannot exceed 256 characters;
-7. Click on **OK** to enter the Console to view the route table that have been created;
-8. After the route table is created, routing rules should be configured, or you can configure it by yourself by entering the details page later;
+6. Set the description of route table: The description can be blank, only supports Chinese, numbers, uppercase and lowercase letters, English underscore "_", and cannot exceed 256 characters;
+7. Click on **OK** to enter the "Console" to view the route table that have been created;
+8. After the route table is created, routing rules can be configured, or you can configure it by yourself by entering the details page later;
 
 #### **Step 2 Associate Subnet**
 
 1. Open the console and choose Networking > Route Table to enter the route table list page;
-2. Click on the **Associate Subnet** in the action column:
+2. Click on the "Associate Subnet" in the action column:
 ![](/image/Networking/Virtual-Private-Cloud/Operation-Guide/Route-Table-Configuration/Step3.png)
 
-3. In the subnet selection pop-up window, choose a subnet to be associated with this route table. Remember that the subnet and route table should be in the same VPC. 
+3. On the subnet selection page that is displayed, select the subnet to which the route table is to be associated, and then the route table can be associated to the subnet in the same VPC:
 ![](/image/Networking/Virtual-Private-Cloud/Operation-Guide/Route-Table-Configuration/Step4.png)
 
 4. Click on **OK** to associate the route table to the subnet;
@@ -59,9 +59,9 @@
 
 
 
-#### **Step 6, Editing route rules**
+#### **Step 6, Rules for Editing Routes**
 
-1. The destination ends of the route rules cannot be null, and the destination ends of the route rules cannot be identical. The destination end input format is the CIDR of the network segment.
+1. The destination ends of the route rules cannot be blank, and the destination ends of the route rules cannot be identical. The destination end input format is the CIDR of the network segment.
 2. If the VPC on the route table has a preset CIDR, the destination end of the route rule cannot conflict with the CIDR of the VPC.
 3. If the VPC on the route table does not have a preset CIDR, the destination of the route rule cannot conflict with the CIDR of any subnet in the VPC.
 4. The next hop type supports the Internet and the VM as the next hop. If the traffic needs to access the Internet, you can select the Internet gateway or the self-built VM as the public network gateway.
