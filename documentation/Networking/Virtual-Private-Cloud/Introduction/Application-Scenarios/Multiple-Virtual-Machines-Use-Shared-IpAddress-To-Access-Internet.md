@@ -1,4 +1,4 @@
-## ** Multi-VMs Shared EIP Access to External Networks **
+## **Multi-VMs Shared EIP Access to External Networks**
 
 Scenario: User with multiple VMs that need to access public network can use the self-built SNAT function to implement IP sharing bandwidth.
 

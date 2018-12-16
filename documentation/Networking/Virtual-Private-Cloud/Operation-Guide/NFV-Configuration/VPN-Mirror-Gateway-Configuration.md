@@ -24,11 +24,11 @@
 
 11. Confirm the currently selected information on the right side of the page, click **Buy Now** to complete the payment and create the resource.
 
-![](/image/Networking/Virtual-Private-Cloud/Operation-Guide/NFV-Configuration/VPN-Mirror-Gateway-Configuration/Step1.png)
+![](/image/Networking/Virtual-Private-Cloud/Operation-Guide/NFV-Configuration/VPN-Mirror-Gateway-Configuration/Step1.jpg)
 
-![](/image/Networking/Virtual-Private-Cloud/Operation-Guide/NFV-Configuration/VPN-Mirror-Gateway-Configuration/Step2.png)
+![](/image/Networking/Virtual-Private-Cloud/Operation-Guide/NFV-Configuration/VPN-Mirror-Gateway-Configuration/Step2.jpg)
 
-![](/image/Networking/Virtual-Private-Cloud/Operation-Guide/NFV-Configuration/VPN-Mirror-Gateway-Configuration/Step3.png)
+![](/image/Networking/Virtual-Private-Cloud/Operation-Guide/NFV-Configuration/VPN-Mirror-Gateway-Configuration/Step3.jpg)
 
 
 
@@ -38,13 +38,13 @@ According to the actual network resource plan of the connected network, configur
 
 client VMs to communicate through the VPN Gateway reside  (example):
 
-![](/image/Networking/Virtual-Private-Cloud/Operation-Guide/NFV-Configuration/VPN-Mirror-Gateway-Configuration/Step4.png)
+![](/image/Networking/Virtual-Private-Cloud/Operation-Guide/NFV-Configuration/VPN-Mirror-Gateway-Configuration/Step4.jpg)
 
 
 
 Route configuration of the subnet where the VPN gateway machine resides (example):
 
-![](/image/Networking/Virtual-Private-Cloud/Operation-Guide/NFV-Configuration/VPN-Mirror-Gateway-Configuration/Step5.png)
+![](/image/Networking/Virtual-Private-Cloud/Operation-Guide/NFV-Configuration/VPN-Mirror-Gateway-Configuration/Step5.jpg)
 
 
 
@@ -52,9 +52,9 @@ Route configuration of the subnet where the VPN gateway machine resides (example
 
 See the VPN image product instructions for details. View Method: on the VM creating page, select the corresponding VPN image, click **View Details** on the right to open the product details page, or retrieve the corresponding VPN image product information through the cloud market.
 
-![](/image/Networking/Virtual-Private-Cloud/Operation-Guide/NFV-Configuration/VPN-Mirror-Gateway-Configuration/Step6.png)
+![](/image/Networking/Virtual-Private-Cloud/Operation-Guide/NFV-Configuration/VPN-Mirror-Gateway-Configuration/Step6.jpg)
 
-![](/image/Networking/Virtual-Private-Cloud/Operation-Guide/NFV-Configuration/VPN-Mirror-Gateway-Configuration/Step7.png)
+![](/image/Networking/Virtual-Private-Cloud/Operation-Guide/NFV-Configuration/VPN-Mirror-Gateway-Configuration/Step7.jpg)
 
 
 

@@ -1,4 +1,4 @@
-### ** Create a VM instance In a VPC ** 
+### **Create a VM instance In a VPC** 
 
 
 ## **Overview**
@@ -11,7 +11,7 @@ With this teaching you can complete a simple network deployment on JD Cloud and 
 
 
 
-## ** Operating steps**
+### **Operating steps**
 
 #### **Step 1: Create VPC**
 

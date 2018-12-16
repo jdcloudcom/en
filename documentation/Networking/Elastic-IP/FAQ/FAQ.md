@@ -36,7 +36,7 @@ Currently JD Cloud leverages the cutting-edge technology of active-active vRoute
 
 Normally, an Elastic IP address’s maximum bandwidth equals 150% of the bandwidth users actually purchase according to the traffic-sharing model of active-active vRouter. In rare specific situations, like downloading files through a single FTP connection, an Elastic IP address’s maximum bandwidth might reduce to 75% of user’s actual bandwidth.
 
-**Q: What is the inbound bandwidth of the Elastic IP? **
+**Q: What is the inbound bandwidth of the Elastic IP?**
 
 The rules for the assignment of Elastic IP inbound (from public network to JD Cloud) bandwidth of JD Cloud are described as follows:
 

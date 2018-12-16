@@ -38,7 +38,7 @@ JD Cloud VPC supports a variety of composite networking modes, such as using VPN
 
 |    Product Advantages    |                            VPC                            |
 | :----------: | :----------------------------------------------------------: |
-| ** Independent planning ** | Users can customize the range of VPC or even without presetting CIDR of VPC as requirements, independently subnet network segments and edit route table. Panoramically restore the network environment before connected to cloud to realize complete and independent management of the network environment. |
-| **High Availability** | VPC uses a highly available and expandable architecture such as route, load balancer, BGW and dedicated line to ensure high network availability. |
+| **Independent planning** | Users can customize the range of VPC or even without presetting CIDR of VPC as requirements, independently subnet network segments and edit route table. Panoramically restore the network environment before connected to cloud to realize complete and independent management of the network environment. |
+|  **High Availability**  | VPC uses a highly available and expandable architecture such as route, load balancer, BGW and dedicated line to ensure high network availability. |
 | **Security and reliability** | Implement security group primary protection at the instance level, implement network ACL secondary protection at the subnet level and implement network security isolation between VPCs to achieve the goal of seamless access control for the entire network resources. |
-| **Good expandability ** | Implement inter-regional/cross-regional VPC  connection conveniently to enable interoperability of different service scenarios or cross-regional disaster tolerance. Connect customer IDC with JD Cloud VPC to implement a composite cloud solution.|
+| **Good expandability** | Implement inter-regional/cross-regional VPC  connection conveniently to enable interoperability of different service scenarios or cross-regional disaster tolerance. Connect customer IDC with JD Cloud VPC to implement a composite cloud solution.|

@@ -9,7 +9,7 @@ Through this teaching, you can complete the deployment of a VM that can communic
 - 1 VM
 - 1 Public IP
 
-## ** Operating steps**
+## **Operating steps**
 
 ### **Step 1: Create VPC**
 
