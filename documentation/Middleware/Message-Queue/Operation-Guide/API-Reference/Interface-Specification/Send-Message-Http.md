@@ -13,7 +13,7 @@ POST {Http access point}/v1/messages HTTP/1.1
 |  Field Name    |    Field Type | Required or Not   | Description                       |
 | :------ | :------------- | :------ | :------------------------- |
 |  topic   |     string      | Required |                            |
-|   type   |     string      | Required | NORMAL, ORDER, TRANSACTION |
+|   type   |     string      | Required | NORMAL, ORDER |
 | messages | list of Message | Required | 1 <= Number of messages <= 32        |
 
   Where Message is of type Map and contains the following fields:
