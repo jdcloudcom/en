@@ -24,8 +24,8 @@ The Billing Method of resources created by using OpenAPI is exactly the same as 
 Billing Method|Meaning|Instruction
 :---|:---|:---
 prepaid_by_duration | Pay-In-Advance | Default value. You need to extra specify the billing unit chargeUnit and the billing time duration chargeDuration
-postpaid_by_usage | Pay-As-You-Go by consumption | 
-postpaid_by_duration | Pay-As-You-Go by configuration |            
+postpaid_by_usage | Pay-As-You-Go by consumption | |
+postpaid_by_duration | Pay-As-You-Go by configuration | |
 
 
  
@@ -36,10 +36,10 @@ When calling OpenAPI, you must fill in the correct region code according to the 
 
 Region code|Region name
 :---|:---
-cn-north-1 
-cn-east-1 
-cn-east-2 
-cn-south-1  
+cn-north-1 | North China-Beijing 
+cn-east-1 | East China-Suqian 
+cn-east-2 | East China-Shanghai 
+cn-south-1 | South China-Guangzhou 
                          
 
 
@@ -51,8 +51,8 @@ Region|Availability Zone|code of Availability Zone
 :---|:---|:---
 cn-north-1 | Availability Zone A | cn-north-1a 
 cn-north-1 | Availability Zone B | cn-north-1b  
-cn-east-1| Availability Zone A | cn-east-1a 
-cn-east-2| Availability Zone A | cn-north-2a  
+cn-east-1 | Availability Zone A | cn-east-1a 
+cn-east-2 | Availability Zone A | cn-north-2a  
 cn-east-2 | Availability Zone B | cn-north-2b 
 cn-south-1 | Availability Zone A | cn-south-1a  
    
