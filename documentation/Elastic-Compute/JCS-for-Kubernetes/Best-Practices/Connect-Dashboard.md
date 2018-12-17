@@ -3,7 +3,7 @@
 
 JD Cloud JCS for Kubernetes Service has been preset with Dashboard plug-ins.
 
-## I. Access to dashboard via the two methods below**  
+## I. Access to dashboard via the two methods below  
 
 **Method 1: Visit dashboard (https 6443 port) through API server;**  
 To visit dashboard in this way, you first need to generate and install the P12 security certificate based on the cluster's config file, with the specific steps as follows:  

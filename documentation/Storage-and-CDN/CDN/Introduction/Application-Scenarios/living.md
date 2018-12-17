@@ -3,7 +3,7 @@
 Based on JD Cloud national high quality nodes and intelligent cloud computing ability, live CDN service provides high availability and stable audio and video content distribution service for all kinds of live video platforms. It supports interactive pulling streaming live broadcast, and traditional back-to-origin pulling streaming mode and provides distributed transcoding, recording storage, IAM, multi-dimensional statistical query one-stop service.
 
 ## Scenario application:
-![视频直播业务框架图](https://github.com/jdcloudcom/cn/blob/cdn-new/image/CDN/%E4%BA%AC%E4%B8%9C%E4%BA%91%E7%9B%B4%E6%92%AD%E5%BA%94%E7%94%A8%E5%9C%BA%E6%99%AF_png.png)
+![视频直播业务框架图](https://github.com/jdcloudcom/cn/blob/cdn-new/image/CDN/%E4%BA%AC%E4%B8%9C%E4%BA%91%E7%9B%B4%E6%92%AD%E5%BA%94%E7%94%A8%E5%9C%BA%E6%99%AF.png)
 
 ## Benefits:
 **Multiple Terminals and Multiple Protocols**
