@@ -12,7 +12,7 @@ This document introduces how to create instance of Anti-DDoS Protection Package 
 
 ## Action Steps
 1. Log in the Anti-DDoS Protection Package console which is located in the directory of Anti-DDoS Basic.</br>
-   ![防护包菜单](../../../../Anti-DDoS-Protection-Package/防护包菜单.png) 
+   ![防护包菜单](../../../../image/Anti-DDoS-Protection-Package/防护包菜单.png) 
 
 2. In case of buying for the first time, please **enable at once** in the menu of console Anti-DDoS Protection Package;
    ![防护包开通页](../../../../image/Anti-DDoS-Protection-Package/防护包开通页.png)
