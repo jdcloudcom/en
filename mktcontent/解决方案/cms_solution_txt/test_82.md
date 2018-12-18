@@ -1,0 +1,14 @@
+[
+	{
+		"txt":"{\"name\":\"banner\",\"operator\":\"wangbotao4\",\"floorName\":\"banner\",\"data\":[{\"title\":\"test\",\"description\":\"test\",\"imageUrl\":\"//jdcloud-portal.oss.cn-north-1.jcloudcs.com/www.jcloud.com/d9a51be7-5edc-4673-b78d-66efb1b4a08820181218101759.png\",\"backgroundColor\":\"#1a284f\",\"buttonMetas\":[],\"tagMetas\":[]}]}",
+		"templet":"11",
+		"id":"386",
+		"solution_id":"84"
+	},
+	{
+		"txt":"{\"name\":\"newTab-1\",\"operator\":\"wangbotao4\",\"floorName\":\"推荐产品-1\",\"data\":[{\"showShade\":false,\"imageUrl\":\"//jdcloud-portal.oss.cn-north-1.jcloudcs.com/www.jcloud.com/6ec28d7a-a986-49a0-a830-03051792c8fb20181218101813.png\",\"title\":\"123\",\"description\":\"123123\",\"explain\":\"\",\"buttons\":{\"name\":\"\",\"link\":\"\",\"classTag\":\"\"}},{\"showShade\":false,\"imageUrl\":\"//jdcloud-portal.oss.cn-north-1.jcloudcs.com/www.jcloud.com/4ac05267-9e89-4185-8040-2b76accf320f20181218101823.png\",\"title\":\"2323\",\"description\":\"2323\",\"explain\":\"\",\"buttons\":{\"name\":\"\",\"link\":\"\",\"classTag\":\"\"}},{\"showShade\":false,\"imageUrl\":\"//jdcloud-portal.oss.cn-north-1.jcloudcs.com/www.jcloud.com/25e24a2d-9bc6-424c-a767-08139fb4ce1e20181218101828.png\",\"title\":\"3333\",\"description\":\"3333\",\"explain\":\"\",\"buttons\":{\"name\":\"\",\"link\":\"\",\"classTag\":\"\"}}]}",
+		"templet":"71",
+		"id":"387",
+		"solution_id":"84"
+	}
+]
