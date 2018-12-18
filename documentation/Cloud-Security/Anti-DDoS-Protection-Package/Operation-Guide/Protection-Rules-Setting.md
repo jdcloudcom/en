@@ -24,7 +24,7 @@ If the purchased package is a shared IP, the detailed configuration is allowed f
 2. For the added public IP, click **Protection Rules in the action bar**</br>
 ![1防护包详情-防护规则](https://github.com/jdcloudcom/cn/blob/Anti-DDoS/image/Anti-DDoS-Protection-Package/防护包详情-防护规则.png)
 
-3. Choose **Self-Defined Protection Threshold** in the popped up protection rules, and set the detailed protection rules for the IP. Setting here only takes effect for single IP, without influence on the default strategy.</br>
+3. Choose **customized rules** in the popped up protection rules, and set the detailed protection rules for the IP. Setting here only takes effect for single IP, without influence on the default strategy.</br>
 ![防护包-自定义规则页](https://github.com/jdcloudcom/cn/blob/Anti-DDoS/image/Anti-DDoS-Protection-Package/防护包-自定义规则页.jpg)
 
 

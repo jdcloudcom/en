@@ -5,7 +5,7 @@ Prices of anti-DDoS protection packages are as follows, and elastic protection i
 ## Basic Protection
 Pay-in-advance is applied for basic protection monthly as follows:
 
-| **Basic Protection Peak**   **(Gbps)** | **IP** Number **(Nr.) ** | **Price**   **(CNY/Month)** |
+| **Basic Protection Peak**   **(Gbps)** | **IP** Number **(Nr.)** | **Price**   **(CNY/Month)** |
 | :-----------------------------: | :--------------------: | :----------------------: |
 |                5                |           1            |           100            |
 |               10                |     1(Exclusive Package)      |           800            |

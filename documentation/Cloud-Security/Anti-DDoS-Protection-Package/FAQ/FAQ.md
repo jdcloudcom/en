@@ -1,6 +1,6 @@
 # FAQ
 
-**Q: Which line does Anti-DDoS Protection Package support?**
+**Q: Which ISP-line does Anti-DDoS Protection Package support?**
 
 A: The line of Anti-DDoS Protection Package is consistent with the one of the bound Elastic IP. If the original Elastic IP is BGP line, we will provide protection of BGP line.
 
@@ -24,7 +24,7 @@ A: No. In case of demands on domain name protection and application level protec
 
 A:
 
-- Anti-DDoS Protection Package promotes anti-D capacity only for the service in JD Cloud; Anti-DDoS Pro faces all users in and outside the cloud.
+- Anti-DDoS Protection Package promotes anti-ddos capacity only for the service in JD Cloud; Anti-DDoS Pro faces all users in and outside the cloud.
 - Anti-DDoS Protection Package can only defense traffic type attacks, not support attack protection of application level; if application level protection scenarios such as CC attacks are required, please buy Anti-DDoS Pro.
 - The access of Anti-DDoS Protection Package is simpler, without changing Public IP address. Anti-DDoS Pro can be accessed upon completion of cname change, and support telecom+unicom+mobile multi-line route.
 

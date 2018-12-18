@@ -3,9 +3,9 @@
 Free trial is being developed for anti-DDoS protection package, through which free trial for 5G protection bandwidth is provided to the invited users maximally for 1 month.
 
 ## Description on Activity
-1. Activity packages: exclusive IP, basic protection 5G;
+1. Activity packages: exclusive IP, basic protection 5G.
 
-2. Activity duration: one month as of the day of opening;
+2. Activity duration: one month from the day you star trail.
 
 3. Special instruction: The activity is only directed to the users who try the anti-DDoS protection package at the first time. Trial package does not support renewing and upgrading. Upon trial, please purchase the normal package for use.
 
