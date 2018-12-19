@@ -35,7 +35,7 @@ SCAN|PSETEX| | | |ZSCAN
 
 and
 
-Connection (Connection) |Server (Server) |Scripting (Scripting) |Transaction(Transaction)    
+Connection (Connection)|Server (Server)|Scripting (Scripting)|Transaction(Transaction)    
 :--:|:--:|:--:|:--:
 AUTH|INFO*|EVAL|DISCARD            
 PING|CONFIG GET*|SCRIPT EXISTS|EXEC            
@@ -54,7 +54,7 @@ Description:
 
 Command Unavailable
 
-Key (Key)|String (Character String)|List (List) |Set (Set) |SortedSet (SortedSet) |Server (Server)
+Key (Key)|String (Character String)|List (List)|Set (Set)|SortedSet (SortedSet)|Server (Server)
 :--:|:--:|:--:|:--:|:--:|:--:
 RANDOMKEY|BITOP|BLPOP|SDIFF|ZUNIONSTORE|FLUSHALL            
 RENAME|MSETNX|BRPOP|SDIFFSTORE|ZINTERSTORE|  
@@ -82,7 +82,7 @@ MIGRATE | | | SMOVE | |SLOWLOG
 
 and
 
-HyperLog|LogPub/Sub (Release/Subscribe) | Geo      
+HyperLog|LogPub/Sub (Release/Subscribe)| Geo      
 :--:|:--:|:--:
 PFADD|PSUBSCRIBE|GEOADD            
 PFCOUNT|PUBLISH|GEOHASH            
@@ -93,7 +93,7 @@ PFMERGE|PUBSUB|GEOPOS
 
 Command not supported by cluster instance
 
-Connection (Connection) |Server (Server) |Scripting (Scripting)|Transaction(Transaction)
+Connection (Connection)|Server (Server)|Scripting (Scripting)|Transaction(Transaction)
 :--:|:--:|:--:|:--:
 ECHO|CLIENT KILL|EVALSHA|DISCARD            
 | |CLIENT LIST|SCRIPT EXISTS|EXEC            

@@ -102,16 +102,16 @@ public static void main(String[] args) {
 ```
 #IP Address
 redis.pool.host=jredis-cn-north-1-prod-redis-xxxxxxxxxx.jdcloud.com
-# Port Number
+#Port Number
 redis.pool.port=6379
 redis.pool.pass=********
-# The Largest idle
+#The Largest idle
 redis.pool.maxIdle=300
-# The Biggest Allocated Object
+#The Biggest Allocated Object
 redis.pool.maxTotal=600
-# How long does it take to check the idle connection?
+#How long does it take to check the idle connection?
 redis.pool.timeBetweenEvictionRunsMillis=5000
-# How long does it take to recover the idle connection?
+#How long does it take to recover the idle connection?
 redis.pool.minEvictableIdleTimeMillis=8000
 #The sum of the above values shall be not less than 15 seconds, otherwise the server connection may be breaked.
 #borrow object

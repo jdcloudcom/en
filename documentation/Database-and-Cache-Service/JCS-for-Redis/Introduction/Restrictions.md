@@ -4,7 +4,7 @@
 
 - Primary-secondary Version
 
-Specification|Maximum Number of Connections |Upper Limit of Intranet Bandwidth (MB/s) |CPU Processing Capacity
+Specification|Maximum Number of Connections|Upper Limit of Intranet Bandwidth (MB/s)|CPU Processing Capacity
 :---|:--|:--|:---
 1G Primary-secondary Version|10000|48|Single Core
 2G Primary-secondary Version|10000	|48	|Single Core
@@ -16,7 +16,7 @@ Specification|Maximum Number of Connections |Upper Limit of Intranet Bandwidth (
 
 - Cluster version
 
-Cluster Version Specifications|Maximum Number of Connections |Upper Limit of Intranet Bandwidth (MB/s) |CPU Processing Capacity
+Cluster Version Specifications|Maximum Number of Connections|Upper Limit of Intranet Bandwidth (MB/s)|CPU Processing Capacity
 :---|:--|:--|:---
 16G Cluster Version|80000|384|8 Cores
 32G Cluster Version|80000|384|8 Cores

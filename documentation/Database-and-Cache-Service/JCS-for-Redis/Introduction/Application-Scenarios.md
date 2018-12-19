@@ -1,4 +1,4 @@
-## Application Scenarios
+# Application Scenarios
 
 ## Game Industry Application
 - The game industry chooses JCS for Redis as an important function realization component.
@@ -23,7 +23,7 @@ Scenario 2: Application scenarios such as commodity sales and inventory
 Real-time recommendation of goods and real-time update of goods inventory can be supported by the powerful performance provided by JCS for Redis.
 
 ## Live Video Application
-- ## JCS for Redis will be used for live video applications on items and relation
+- JCS for Redis will be used for live video applications on items and relation
 
 Scenario 1: Storage User Data
 
