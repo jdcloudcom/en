@@ -12,12 +12,20 @@ Free trial is being developed for anti-DDoS protection package, through which fr
 
 ## How to try
 
-Please enter [Anti-DDoS Protection Package  Console](https://antiddos-console.jdcloud.com/gz/ddos/protection-package-list); the menu of protection package is located in the directory of Anti-DDoS Basic. If you are in the console of the Anti-DDoS Protection Package and see the red words congratulating you for obtaining the trial qualification, please click **Directly enable the trial**.
+1. Apply for trail
 
-![开通试用](https://github.com/jdcloudcom/cn/blob/Anti-DDoS/image/Anti-DDoS-Protection-Package/开通试用.png)
+Please apply for trail directly on the product page, and get the trail qualification after 3 working days for qualification approval.
+
+![image-20181022151452212](../../../../image/Anti-DDoS-Protection-Package/产品页申请试用.png)
+
+2. Open trial
+
+You need to click **Try Now** in the console after obtaining the trial qualification.
+
+![开通试用](../../../../image/Anti-DDoS-Protection-Package/开通试用.png)
 
 Fill in the name of trial instance and the IP information selected to associate in the popup to start free trail for 1 month.
 
-![试用](https://github.com/jdcloudcom/cn/blob/Anti-DDoS/image/Anti-DDoS-Protection-Package/试用.png)
+![试用](../../../../image/Anti-DDoS-Protection-Package/试用.png)
 
 JD Cloud reserves all the right for the final explanation of trail activity.
