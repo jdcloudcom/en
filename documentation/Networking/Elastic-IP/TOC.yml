@@ -1,6 +1,6 @@
-﻿ name: Elastic IP
-  href: 
-  items:
+name: Elastic IP
+href: 
+items:
   - name: Introduction
     items:
       - name: Product Overview
@@ -91,20 +91,8 @@
         items:
           - name: Export Elastic IP List
             href: Operation-Guide/Export-Elastic-IP-List/Export-Elastic-IP-List.md      
-  - name: Best Practices
-    items:
-    status:0
-  - name: Troubleshooting
-    items:
-    status:0      
   - name: FAQ
     href: FAQ/FAQ.md
-  - name: API Reference
-    href:
-    status:0      
-  - name: SDK Reference
-    href:
-    status:0      
   - name: User Agreement
     items:
     - name: Terms of Service
@@ -112,5 +100,4 @@
   - name: Related Resources
     items:
     - name: Document History
-      href: Related-Resources/Document-History.md   
-
+      href: Related-Resources/Document-History.md  
