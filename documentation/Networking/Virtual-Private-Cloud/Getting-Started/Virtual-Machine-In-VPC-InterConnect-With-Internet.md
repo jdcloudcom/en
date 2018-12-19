@@ -40,7 +40,6 @@ Through this teaching, you can complete the deployment of a VM that can communic
 
 ### **Step 4:Bond a EIP in the process of creating a VM**
 
-- Select the bandwidth billing type and bandwidth cap on the bandwidth module part of the configuration page. The rest of the configuration can be based on the VM creation instruction. Click **Create**
--  to get a VM with external communication.
+- Select the bandwidth billing type and bandwidth cap on the bandwidth module part of the configuration page. The rest of the configuration can be based on the VM creation instruction. Click **Create** to get a VM with external communication.
 
 ![](/image/Networking/Virtual-Private-Cloud/Getting-Started/Virtual-Machine-In-VPC-InterConnect-With-Internet/Step4.png)
