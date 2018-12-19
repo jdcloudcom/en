@@ -26,7 +26,7 @@ If you want to use the PING command to check whether the VM public network/intra
 
 | Rule Direction | Type | Protocol | Destination Port | Source IP | Strategy |
 | -------- | ---- | ---- | -------- | --------- | ---- |
-| Inbound     | PING | ICMP | -        | 0.0.0.0/0 | Accept |
+| Inbound     | PING | ICMP |         | 0.0.0.0/0 | Accept |
 
 
 
