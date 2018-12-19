@@ -1,11 +1,11 @@
 # Basic Architecture
 
-Anti-DDoS Protection Package is a value-added service for promoting anti-D protection capability of the business in JD Cloud.
+Anti-DDoS Protection Package is a value-added service for promoting anti-ddos capability of the business in JD Cloud.
 
-After the user buys the protection package, obtain the DDoS protection capability corresponding to the package at once, without complicated configuration or replacing Public IP address. It currently supports promotion of anti-D capacity of multiple businesses in JD Cloud, such as virtual machine, load balancer, container, Web application server.
+After you subscribe the protection package service, obtain the DDoS protection capability corresponding to the package at once, without complicated configuration or replacing Public IP address. It currently supports promotion of anti-D capacity of multiple businesses in JD Cloud, such as virtual machine, load balancer, container, Web application server.
 
 ## Product architecture
-The Anti-DDoS Protection Package of JD Cloud, as the updated version of Anti-DDoS Basic, has the architecture diagram consistent with the Anti-DDoS Basic, but will provide larger DDoS protection capability.
+The Anti-DDoS Protection Package of JD Cloud, as the updated version of Anti-DDoS Basic, has the architecture diagram consistent with the Anti-DDoS Basic, but will provide more powerful DDoS protection capability.
 
 ![防护包架构图](https://github.com/jdcloudcom/cn/blob/Anti-DDoS/image/Anti-DDoS-Protection-Package/防护包架构图.png)
 

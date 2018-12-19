@@ -7,15 +7,15 @@ It currently supports multiple businesses in JD Cloud, such as improvement of an
 
 ## Anti-DDoS Protection Package has the following product characteristics:
 
-**1: IP address is unnecessary to change **: directly promote the protection capability of the bought Public IP, without changing the IP address;
+**1:** IP address is unnecessary to change **: directly promote the protection capability of the bought Public IP, without changing the IP address;
 
-**2: Quickly access **: Buy on use, without complicated configuration, and take effect in seconds.
+**2:** Quickly access **: Buy on use, without complicated configuration, and take effect in seconds.
 
-**3: ** **exclusive IP and shared IP**: the protection package form of exclusive IP and shared IP supports one protection package for multiple protection objects. Maximally support defense of infinite IPs.
+**3:** **exclusive IP and shared IP**: the protection package form of exclusive IP and shared IP supports one protection package for multiple protection objects. Maximally support defense of infinite IPs.
 
-**4: ** **attack capture evidence collection**: automatically capture the attack for obtaining evidence, provide the information of attack source IP to help trace to the source. 
+**4:** **attack capture evidence collection**: automatically capture the attack for obtaining evidence, provide the information of attack source IP to help trace to the source. 
 
-**5: ** **effectively guarantee business stable**: provide at most 50G defense capability, and guarantee your business stable.
+**5:** **effectively guarantee business stable**: provide at most 50G defense capability, and guarantee your business stable.
 
  
 

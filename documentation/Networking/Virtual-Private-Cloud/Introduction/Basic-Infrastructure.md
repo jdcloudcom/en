@@ -2,7 +2,7 @@
 
 ### Overview
 
-JD VPC is completely developed by the JD Cloud Virtual Network Team. A series of performance optimizations have been carried out for traditional SDN networks, such as de-single point and de-single link at different levels. The specific logical architecture is as follows: 
+JD VPC is completely developed by the JD Cloud Virtual Network Team. A series of performance optimizations have been carried out for traditional SDN networks, such as de-single point and de-single link at different layers. The specific logical architecture is as follows:
 
 ![](/image/Networking/Virtual-Private-Cloud/Basic-Infrastructure.png)
 
@@ -10,9 +10,9 @@ JD VPC is completely developed by the JD Cloud Virtual Network Team. A series of
 
 ### Component
 
-VPC: VPC is a representation of user network on JD Cloud and contains a series of network functions that are logically isolated from other VPCs. VPC has a network address space in which users can continue to subnet.
+VPC: VPC is a form of user’s network on JD Cloud and contains a series of network functions that are logically isolated from other VPCs. VPC has a network address space in which users can continue to divide subnet spaces.
 
-Subnet: Subnet is a further division of VPC address space. Users can create VMs in subnet.
+Subnet: Subnet is a further division of VPC address space. Users can create VMs in subnets.
 
 Route Table: Route table is implemented on Vrouter. Vrouter itself is not exposed to users, and users can configure routes through route table.
 

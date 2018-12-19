@@ -14,7 +14,7 @@ Network ACL can be used to filter the east-west traffic across subnets or the no
 
 Network ACL rules are used to control inbound and outbound traffic for associated subnets. The new network ACL will reject all inbound and outbound traffic (All Drop) without any other rules.
 
-Network ACLs are divided into inbound rules and outbound rules, where inbound rules are used to filter traffic from Internet or other subnets to the current subnet; outbound rules are used to access traffic from the Internet or other subnets from the current subnet.
+Network ACLs are divided into inbound rules and outbound rules, where inbound rules are used to filter traffic from Internet or other subnets to the current subnet; outbound rules are used to filter traffic  from the current subnet to the Internet or other subnets.
 
 For each rule of the network ACL, you hve to specify the follows:
 

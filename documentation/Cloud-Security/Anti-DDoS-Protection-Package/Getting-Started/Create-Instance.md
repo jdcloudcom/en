@@ -1,10 +1,9 @@
 # Create Instance
 
 You can create protection package instance through Anti-DDoS Basic console or API quickly. For Billing Instructions of the instance, see “[Price Overview](../Pricing/Price-Overview.md)”,
-“[Billing rules](../Pricing/Billing-Rules.md)”.
+"[Billing rules](../Pricing/Billing-Rules.md)".
 
 This document introduces how to create instance of Anti-DDoS Protection Package through the console.
-**Note: Only support purchasing instances by part of the users during Beta.**
 
 ## Preconditions
 - JD Cloud account registration is done and real-name verification is completed. If you don't have an account yet, please [registry](https://accounts.jdcloud.com/p/regPage?source=jdcloud&ReturnUrl=%2f%2fuc.jdcloud.com%2fpassport%2fcomplete%3freturnUrl%3dhttp%3A%2F%2Fuc.jdcloud.com%2Fredirect%2FloginRouter%3FreturnUrl%3Dhttps%253A%252F%252Fwww.jdcloud.com%252Fhelp%252Fdetail%252F734%252FisCatalog%252F1),or conduct [real-name verification](https://uc.jdcloud.com/account/certify)。

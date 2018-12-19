@@ -12,7 +12,7 @@ If you only purchase the basic protection, you will be charged by the pay-in-adv
 
 You could choose exclusive IP and shared IP to improve protection capabilities of different numbers of IPs.
 
-We provide the permanent protection capability only by the way of monthly package according to your selected package.
+Monthly package what means we will only provide the protection capability as you subscribed.
 
 
 

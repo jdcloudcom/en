@@ -2,7 +2,7 @@
 
 ### **Overview**
 
-Through this teaching, you can complete the basic network model deployment in JD Cloud, one is responsible for WEB layer externally, one is responsible for logic APP layer, and another is responsible for the database layer of data, and acquired following resources:
+Through this teaching, you can complete the basic network model deployment in JD Cloud. This basic network model contains three subnets, a Web layer for external access, an APP layer for business logic, and a database layer. The resources are as follows:
 
 - 1 VPC
 - 3 Subnets
@@ -13,8 +13,8 @@ Through this teaching, you can complete the basic network model deployment in JD
 
 #### **Step 1: Create VPC**
 
-- Click Network -> VPC -> VPC in the menu on the left side of the menu in sequence, enter the VPC list page, click Create, and the Create Configuration window pops up.
-- Select the region based on your demands, fill in the name, fill in CIDR, and click Create to get a VPC.
+- Click Network -> VPC -> VPC on the left side of the menu to enter the VPC list page, then click **Create**, and the Create Configuration window pops up.
+- Select and fill the region, name, and CIDR, then click **Create** to create the VPC.
 
 ![](/image/Networking/Virtual-Private-Cloud/Getting-Started/Standard-WEB-APP-DB-Architectural-Service-Deployment/Step1.png)
 
@@ -22,8 +22,8 @@ Through this teaching, you can complete the basic network model deployment in JD
 
 #### **Step 2: Create subnet WEB layer, APP layer, DB layer subnet**
 
-- Click Network -> VPC -> Subnet in the menu on the left side of the menu to enter the subnet list page in sequence, click Create, and the Create Configuration window pops up.
-- Select area according to the demands, select VPC created just, fill in the subnet name, fill in the subnet CIDR, select the associated route table, and click Create. To get 3 subnets after repeating three times.
+- Click Network -> VPC -> Subnet in the menu on the left side of the menu to enter the subnet list page in sequence, click **Create**, and the Create Configuration window pops up.
+- Select a region, select the VPC created above, fill in the subnet name,the subnet CIDR,and the associated route table,then click **Create** to create a subnet. Repeat the steps above to creat another two subnets.
 
 ![](/image/Networking/Virtual-Private-Cloud/Getting-Started/Standard-WEB-APP-DB-Architectural-Service-Deployment/Step2-1.png)
 

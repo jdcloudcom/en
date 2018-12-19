@@ -22,17 +22,17 @@ If you want to create a Windows VM that allows users to log in remotely via the 
 
 ### Allow public network/intranet PING VM
 
-If you want to use the PING command to check whether the VM public network/intranet network is connected to check network faults, you can realize such an application by configuring the following inbound rules
+If you want to use the PING command to check whether the VM public network/intranet network is connected in order to check network faults, you can realize such an application by configuring the inbound rules as follows:
 
 | Rule Direction | Type | Protocol | Destination Port | Source IP | Strategy |
 | -------- | ---- | ---- | -------- | --------- | ---- |
-| Inbound     | PING | ICMP | -        | 0.0.0.0/0 | Accept |
+| Inbound     | PING | ICMP |         | 0.0.0.0/0 | Accept |
 
 
 
 ### Allow VM to provide Web services*
 
-If you want to create a VM to provide Web services externally, you can configure the following inbound rules to implement basic Web services according to the service type of HTTP or HTTPS.
+If you want to create a VM providing external Web services, you can configure the following inbound rules to implement basic Web services on HTTP or HTTPS.
 
 | Rule Direction | Type | Protocol | Destination Port | Source IP | Strategy |
 | -------- | ----- | ---- | -------- | --------- | ---- |
@@ -41,7 +41,7 @@ If you want to create a VM to provide Web services externally, you can configure
 
 ### **Allow VM to provide DNS service** 
 
-If you wish the VM created to provide the DNS service, you can realize such service by configuring the following inbound rule. 
+If you want to create a VM providing the DNS service, you can configure the inbound rule as follows:
 
 | Rule Direction | Type | Protocol | Destination Port | Source IP | Strategy |
 | -------- | ---------- | ---- | -------- | --------- | ---- |
@@ -49,21 +49,21 @@ If you wish the VM created to provide the DNS service, you can realize such serv
 
 ### **Allow VM to provide FTP service**
 
-If you want to use FTP software to upload or download files to the VM, after installing the FTP server program on the VM, you can configure the following inbound rules to realize FTP service authentication and data transmission 
+If you want to use FTP software to upload or download files to VMs, after installing the FTP server program on a VM, you can configure the following inbound rules to realize FTP service authentication and data transmission
 
 | Rule Direction | Type | Protocol | Destination Port | Source IP | Strategy |
 | -------- | --------- | ---- | -------- | --------- | ---- |
 | Inbound     | Customized TCP | TCP  | 20-21    | 0.0.0.0/0 | Accept |
 
-### Allow VM to access MySQL/Redis/SQL Server databases
+### Allows VM to access MySQL/Redis/SQL Server databases
 
-If you wish that the VM created can access the JD Cloud database service, you may realize such access demand by configuring the following outbound rule. 
+If you want to create a VM that can access the JD Cloud database service, you may configure the following outbound rule:
 
 | Rule Direction | Type | Protocol | Destination Port | Source IP | Strategy |
 | -------- | --------- | ---- | -------- | --------- | ---- |
 | Outbound     | Customized TCP | TCP  | 1-65535  | 0.0.0.0/0 | Accept |
 
-### **It allows VM as SQL Server database services to provide database services**
+### **Allow VM as SQL Server database services to provide database services**
 
 If you have created a Windows VM with a SQL Server database, you can allow other servers to access the database by configuring the following inbound rules
 
@@ -71,4 +71,4 @@ If you have created a Windows VM with a SQL Server database, you can allow other
 | -------- | --------- | ---- | -------- | --------- | ---- |
 | Inbound     | Customized TCP  | TCP  | 1433     | 0.0.0.0/0 | Accept |
 
-`If you want to limit the IP address of the access service, you can fill in the explicit IP address or network segment at the source IP address. If there are multiple IP addresses, you can add multiple rules to achieve`
+`If you want to limit the IP addresses of the access service, you can fill in the explicit IP addresses or network segment at the source IP column. If there are multiple IP addresses, you can add multiple rules to achieve.`

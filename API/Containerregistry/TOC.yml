@@ -1,6 +1,6 @@
 name: Container Registry
-  href: 
-  items:
+href: 
+items:
   - name: Interface Overview
     href: overview.md
   - name: Update History

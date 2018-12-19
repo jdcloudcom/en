@@ -32,16 +32,13 @@ spec:
 5、PersistentVolume can be attached to the machine in any way supported by the resource provider.
 JD Cloud cloud disk currently supports only ReadWriteOnce --- it can be attached in read/write mode by a single node;  
 The visit modes include:  
-ReadWriteOnce --- this volume can be attached by a single node in read/write mode  
-ReadOnlyMany --- this volume can be attached in read-only mode by multiple nodes  
-ReadWriteMany --- this volume can be attached by multiple nodes in read/write mode  
-In the command line, the visit mode is abbreviated as:  
+ReadWriteOnce --- this volume can be attached by a single node in read/write mode    
+In the command line, the visit mode is abbreviated as:    
 RWO - ReadWriteOnce  
-ROX - ReadOnlyMany  
-RWX - ReadWriteMany  
 JD Cloud provides plug-ins for PersistentVolume with plug-in type: jdcloudElasticBlockStore
+Note: the number of copies can only be specified as 1.  
 
-**2. Create PVC**
+**2. Create PVC**  
 
 The declaration can specify a label selector to further filter the volume. Only volumes that match label and selector can be associated to declaration. The selector consists of two fields:
 
@@ -51,7 +48,12 @@ This example uses matchlabels as filtering criteria to associate the matched Per
 
 matchLabels: volume must have a label with the value
 
-matchExpressions: This is a list of requirements composed of specifying keywords, value lists, and operators associated with keywords and values. Valid operators include In, NotIn, Exists and DoesNotExist.
+matchExpressions: This is a list of requirements composed of specifying keywords, value lists, and operators associated with keywords and values. Valid operators include In, NotIn, Exists and DoesNotExist.  
+Access patterns include: ReadWriteOnce -- This volume can be attached by a single node in read / write mode.  
+In the command line, the access mode is abbreviated to: RWO - ReadWriteOnce  
+The JD Cloud provides the PersistentVolume with a plug-in component of the type: jdcloudElasticBlockStore  
+Note: the number of copies can only be specified as 1.  
+
 ```
 apiVersion: v1
 kind: PersistentVolumeClaim
@@ -90,8 +92,6 @@ spec:
         - mountPath: "/usr/share/mybusybox/"
           name: pv-static
 ```
-View pod status
-View the attach status of volume
 
 ## II. Use JD Cloud cloud disk to define dynamic storage
 
@@ -125,7 +125,7 @@ Output:
 NAME                                         STATUS    VOLUME                                     CAPACITY   ACCESS MODES   STORAGECLASS   AGE
 pvc1                                         Bound     pvc-73d8538b-ebd6-11e8-a857-fa163eeab14b   20Gi       RWO            jdcloud-ssd    18s
 ```  
-View Cluster PV
+View Cluster PV  
 `kubectl get pv`  
 Output:  
 ```

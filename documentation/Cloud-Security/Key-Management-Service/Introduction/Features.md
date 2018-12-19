@@ -1,21 +1,21 @@
 ## Features
 
-### User’s Key Encryption Escrow
+### Customer Managed Keys
 
-​	KMS provides centralized control over encrypted keys. You can use JD Cloud Console, OpenAPI and other tools to easily create, manage and alternate your Key.
+KMS provides you with centralized control of your encryption keys. You can easily create new keys whenever you wish, and easily manage or rotate them.
 
-### Confidential Data Encryption Escrow
+### Customer Managed Secrets
 
-​	KMS also provides an escrow service for confidential data (Secrets), and you can secure sensitive information by hosting it in KMS.
+KMS helps you protect secrets needed to access your applications, services, and IT resources, it makes you to easily rotate, manage, and retrieve sensitive data.
 
 ### Log Audit
 
-​	Information about each use of the Key you store in KMS will be recorded in the logging system, including details of the user, time, date, and Key used.
+Each request you make to KMS is recorded in the logging system. The information recorded includes details of the user, time, data, API action and, when relevant, the key used.
 
-### Security and Reliability
+### Secure
 
-​	KMS is designed for that no one can retrieve your plain text Key from the service, which uses the hardware security module (HSM) to protect the confidentiality and integrity of your Key, and that your plain text key will not be stored in any form in any storage and the key will not be transmitted outside the KMS service area.
+​	KMS is specially designed so that no one can retrieve your plaintext keys from the services. The services uses hardware security modules (HSMs) to protect the confidentiality and integrity of your keys. Your plaintext keys are never written to disk and only ever used in volatile memory of the KMS for the time needed to perform your requested cryptographic operation. Keys created by KMS are never transmitted outside of the JD Cloud regions.
 
 ### High Availability and Disaster Recovery Backup
 
-​	KMS uses real-time remote backups and offline remote backup to ensure the security and integrity of the Key, and uses distributed system to ensure the high availability of the service.
+​	KMS uses real-time cross-regional backup and offline backup to make keys security and integrity, and uses distributed system to ensure high availability of services.

@@ -35,9 +35,9 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domainAdd
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**data**|Domain|Newly Added Domain Name Structure|
+|**data**|DomainAdded|Newly Added Domain Name Structure|
 |**order**|String|Add the order number of the paid domain name|
-### Domain
+### DomainAdded
 |Name|Type|Description|
 |---|---|---|
 |**createTime**|Long|Creation Time, Format Unix Timestamp, Time Unit: Millisecond|

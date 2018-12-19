@@ -33,6 +33,8 @@
             href: Resolution-Record/searchRR.md
           - name: updateRR
             href: Resolution-Record/updateRR.md
+          - name: batchSetDnsResolve
+            href: Resolution-Record/batchSetDnsResolve.md
       - name:  Website Monitoring APIs
         items:
           - name: addMonitor
