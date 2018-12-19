@@ -16,7 +16,7 @@ GET {Http access point}/v1/messages HTTP/1.1
 | consumerId           | string     | Optional     | defaultValue = httpProxyId              |
 | consumeFromWhere     | string     | Optional     | Default starting consumption location, it is acceptable to select the values: HEAD, TAIL, defaultValue = HEAD |
 | filterExpressionType | string     | Optional     | Message filtering expression type, it is only acceptable to select the value of TAG at present                       |
-| filterExpression     | string     | Optional     | Message filtering expression, no filtering by default                                |
+| filterExpression     | string     | Optional     | Message filtering expression, no filtering by default, if filtering is required, this parameter needs to be passed in with the filterExpressionType at the same time |
 | ack                  | bool       | Optional     | When the message is pulled, whether the server automatically ACK, defaultValue = false           |
 
 - Response Body

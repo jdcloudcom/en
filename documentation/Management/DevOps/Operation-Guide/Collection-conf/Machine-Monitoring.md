@@ -99,9 +99,16 @@ For disk io related monitoring indicator, the meaning of each indicator can be u
 
 ## Networking
 
-The following are memory related monitoring indicators, the meaning of each indicator can be understood with reference to /proc/meminfo. Unit: KB = kilobytes
+The meaning of each indicator can be understood with reference to /proc/net/dev.
+tag indicates the usage of certain specific network interface, such as net.in.bps: iface=eth0
 
+iface: Name of Network Interface
 
+- bps = bits per second
+- pps = packets per second
+- ps = per second
+
+```
     PS: Currently, network interfaces beginning with the following content are collected by default. If it is required to collect other network interfaces, it can be achieved by modifying the name of the network interface
     
     1. eth
@@ -110,7 +117,7 @@ The following are memory related monitoring indicators, the meaning of each indi
     4. en
     5. vEth
     6. Ethernet
-
+```
 
 | Names of Monitoring Items              | Meaning of Monitoring Items                         | Unit | Description |
 | ----------------------- | ------------------------------------ | ---- | ---- |
@@ -136,7 +143,7 @@ The following are memory related monitoring indicators, the meaning of each indi
 
 ## socket
 
-The following are memory related monitoring indicators, the meaning of each indicator can be understood with reference to /proc/meminfo. Unit: KB = kilobytes
+The meaning of each indicator can be understood with reference to /proc/net/sockstat.
 
 | Names of Monitoring Items       | Meaning of Monitoring Items                  | Unit | Description |
 | --------------- | -------------------------- | ---- | ---- |
@@ -145,7 +152,7 @@ The following are memory related monitoring indicators, the meaning of each indi
 
 
 ## TCP
-The following are memory related monitoring indicators, the meaning of each indicator can be understood with reference to /proc/meminfo. Unit: KB = kilobytes
+The meaning of each indicator can be understood with reference to /proc/net/netstat and /proc/net/snmp.
 
 | Names of Monitoring Items                 | Meaning of Monitoring Items                                                    | Unit  | Description                                                         |
 | --------------------------- | ------------------------------------------------------------ | ----- | ------------------------------------------------------------ |
@@ -175,7 +182,7 @@ The following are memory related monitoring indicators, the meaning of each indi
 
 ## UDP
 
-The following are memory related monitoring indicators, the meaning of each indicator can be understood with reference to /proc/meminfo. Unit: KB = kilobytes
+The meaning of each indicator can be understood with reference to /proc/net/snmp.
 
 | Names of Monitoring Items               | Meaning of Monitoring Items                 | Unit  | Description |
 | ------------------------ | -------------------------- | ----- | ---- |
@@ -188,7 +195,7 @@ The following are memory related monitoring indicators, the meaning of each indi
 
 ## netfilter
 
-The following are memory related monitoring indicators, the meaning of each indicator can be understood with reference to /proc/meminfo. Unit: KB = kilobytes
+The meaning of each indicator can be understood with reference to /proc/sys/net/netfilter.
 
 | Names of Monitoring Items             | Meaning of Monitoring Items                                                  | Unit | Description |
 | ---------------------- | ------------------------------------------------------------ | ---- | ---- |

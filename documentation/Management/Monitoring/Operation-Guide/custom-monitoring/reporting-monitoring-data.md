@@ -1,11 +1,12 @@
-## Report Monitoring Data
-The function of Custom Metric Monitoring provides you with an interface for reporting monitoring data, so that you can report the time series data collected by yourself to the Monitoring. Currently, the method of OpenAPI is supported to report, and the original data and the aggregated statistics can be reported.
+# Report Monitoring Data
+The function of Custom Metric Monitoring provides you with an interface for reporting monitoring data, so that you can report the time series data collected by yourself to the Monitoring. OpenAPI and command line tool CLI are currently supported for reporting; raw data and aggregated statistics can be reported.  
+## OpenAPI Reporting
 
 ### Reporting Interface Description
 
 1. Interface Name: putMetricData
 
-2. Public Domain Name:
+2. Public Domain Name  
 
 Region | Domain name
 ---|---
@@ -30,7 +31,7 @@ Name | Type | Required or Not | Description
 ---|---|---|---
 metricDataList|	MetricDataCm[] |	False |	Data Parameter   
 
-### MetricDataCm
+#### MetricDataCm
 
 Name | Type | Required or Not | Description
 ---|---|---|---
@@ -49,13 +50,13 @@ error |Object| Error information.
 requestId|String |Request ID                        
 result |Result |                
                       
-### Result
+#### Result
 Name | Type | Required or not 
 ---|---|---
 errMetricDataList|MetricDataList[]|
 success|Boolean  |All successful write-ins are true, otherwise are false   
 
-### MetricDataList
+#### MetricDataList
 Name | Type | Required or not 
 ---|---|---
 errDetail|string	| Error data Description
@@ -139,4 +140,49 @@ fail：
 	}
 }
 
+```
+
+## CLI Reporting 
+### Installation of CLI  
+About how to install, please refer to <a href="https://docs.jdcloud.com/cn/cli/installation”> for installation instructions </a> .
+### Configuration Environment  
+
+Configure the KEY, location area (region-id) and gateway address (endpoint) and edit /root/.jdc/config
+```
+vi /root/.jdc/config
+```
+
+```
+[default]
+access_key = 4332FC1AF6D790660EEC9A7E4124380F
+secret_key = E1380087654E1CB0E64AB8A5536E568E
+region_id = cn-north-1
+endpoint = monitor.cn-north-1.jdcloud-api.com
+scheme = https
+timeout = 20
+```  
+The region_id of different regions and reported gateway endpoint addresses are as follows:  
+
+Region |region_id |endpoint
+---|---|---
+cn-north-1 |cn-north-1| monitor.cn-north-1.jdcloud-api.com
+cn-south-1 |cn-south-1| monitor.cn-south-1.jdcloud-api.com
+cn-east-1 |cn-east-1 |monitor.cn-east-1.jdcloud-api.com
+cn-east-2 |cn-east-2 | monitor.cn-east-2.jdcloud-api.com
+
+### Report Monitoring Data  
+Use the put-metric-data interface to Report Monitoring Data, examples are as follows:  
+```
+jdc monitor put-metric-data --input-json '{"metricDataList": [{"namespace": "test_ns","metric": "vm.cpu.usage1","dimensions": {"host": "10.10.10.23","datacenter": "cn_north_1"},"timestamp": 1544425695,"type": 1,"values": {"value": "12342213"}}]}'
+```  
+The example for successful return is as follows:
+```
+{
+    "error": null, 
+    "result": {
+        "errMetricDataList": [], 
+        "success": true
+    }, 
+    "request_id": "bg9ofp78ikqqgvastas64owpqmoijk77"
+}
 ```

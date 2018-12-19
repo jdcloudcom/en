@@ -1,20 +1,21 @@
 # Back-to-source Policy
 
-After adding a domain name, click **Accelerated Domain Name** to enter the basic information of domain name configuration. You can enter the **Back-to-source Configuration** information. The back-to-source modes fall into IP back-to-source, domain name back-to-source, and oss back-to-source.
+After adding a domain name, click **Accelerated Domain Name** to enter the basic information of domain name configuration. You can enter the **Back-to-source Configuration** information. The back-to-source modes fall into IP back-to-source, domain name back-to-source, and oss back-to-source, and it supports for both ip back-to-origin and domain back-to-origin customized ports, such as 1.1.1.1:80。
 
 ![image.png](https://img1.jcloudcs.com/cms/cf317c03-b662-4a37-a564-cee61f253fa220180118102313.png)                                               
 
 **IP Back-to-source**
 
-![image.png](https://img1.jcloudcs.com/cms/4b305baa-c773-4922-9cd7-b7afc64cd44d20180118102439.png)
+![image.png](https://github.com/jdcloudcom/cn/blob/cdn-new/image/CDN/IP%E5%9B%9E%E6%BA%90.jpg)
 
-l  The back-to-source IP can support up to 10 IP back-to-sources, and the back-to-source weight is allocated as per equal ratio. The CDN round robin of back-to-source is automatically performed in the order of the IP list to achieve the effect of balancing back-to-source.
+The back-to-source IP can support up to 10 IP back-to-sources, and the back-to-source weight is allocated as per equal ratio. The CDN round robin of back-to-source is automatically performed in the order of the IP list to achieve the effect of balancing back-to-source.
 
-l  The IP back-to-source supports the primary/standby back-to-source. When the primary source does not respond, it will automatically return to the standby source to request content.
+The IP back-to-source supports the primary/standby back-to-source. When the primary source does not respond, it will automatically return to the standby source to request content.
+
 
 **Domain Name Back-to-source**
 
-![image.png](https://img1.jcloudcs.com/cms/c9c40a4e-2042-47bd-98f6-4cce01c3284f20180118102533.png)
+![image.png](https://github.com/jdcloudcom/cn/blob/cdn-new/image/CDN/%E5%9F%9F%E5%90%8D%E5%9B%9E%E6%BA%90.png)
 
 l  Domain name back-to-source can configure up to 5 domain names. Back-to-source shall be performed according to priority levels. The priority level 1 is the highest, and when the domain name of the priority level 1 cannot be accessed, the domain name of the priority level 2 will be automatically accessed; and so on.
 
@@ -30,7 +31,13 @@ It refers to the server domain name that the CDN node needs to access during the
 
 For example, the back-to-source host is www.a.com, the corresponding server after the CDN node requests resolution at www.a.com during the back-to-source process
 
- ![image.png](https://img1.jcloudcs.com/cms/35c3ff38-b7a9-45c3-8509-c323488936f520180118102722.png)
+When no back-to-origin host is configured, the back-to-origin host is your accelerated domain name
+
+Support the customized back-to-origin host of domain back-to-origin. If the back-to-origin domain is test1.com and test2.com, respectively, the back-to-origin host corresponding to test1.com can be set to: origin1.com, while the back-to-origin host corresponding to test2.com is origin2.com
+
+Default back-to-origin host means that in the case of IP back-to-source or domain back-to-origin, the back-to-origin address corresponds to the same back-to-origin host. If the back-to-origin domain is test1.com and test2.com, the default back-to-origin host is origin.com, that is, the back-to-origin host of both test1.com and test2.com is origin.com
+
+ ![image.png](https://github.com/jdcloudcom/cn/blob/cdn-new/image/CDN/%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9B%9E%E6%BA%90host.png)
 
 **Origin Server Monitoring**
 

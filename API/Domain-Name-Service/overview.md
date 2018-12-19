@@ -18,6 +18,7 @@ v1
 |**addRR**|POST|Add a Resolution Record of the Domain Name|
 |**addUserView**|POST|Add customized resolution ISP line of domain name|
 |**addUserViewIP**|POST|Add customized resolution ISP line of domain name|
+|**batchSetDnsResolve**|POST|Create, update and import resolution records in batches under the same domain<br></br>For ID of the resolution record, value 0 means adding resolution records, while other values other than 0 mean updating resolution records. </br>|
 |**delDomain**|DELETE|Delete Main Domain Name|
 |**delUserView**|POST|Delete customized resolution ISP line of domain name|
 |**delUserViewIP**|POST|Delete IP segment of customized resolution ISP line of domain name|

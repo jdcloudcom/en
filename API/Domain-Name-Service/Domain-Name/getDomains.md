@@ -44,6 +44,7 @@ https://clouddnsservice.jdcloud-api.com/v1/regions/{regionId}/domain
 |**domainName**|String|Domain Name String|
 |**expirationDate**|Long|Expiration Time, Format Unix Timestamp, Time Unit: Millisecond|
 |**id**|Integer|Unique ID of the Domain Name|
+|**lockStatus**|Integer|Locking status of domain, 0: Unlocked, 1: Locked|
 |**packId**|Integer|Package Type, 0->Free 1->Enterprise Edition 2->Advanced Enterprise Edition|
 
 ## Response code
