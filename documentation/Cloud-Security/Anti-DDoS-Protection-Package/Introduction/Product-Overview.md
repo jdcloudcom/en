@@ -9,7 +9,7 @@ It currently supports multiple businesses in JD Cloud, such as improvement of an
 
 **1**: **IP address is unnecessary to change**: directly promote the protection capability of the bought Public IP, without changing the IP address;
 
-**2**: **Quickly access **: Buy on use, without complicated configuration, and take effect in seconds.
+**2**: **Quickly access**: Buy on use, without complicated configuration, and take effect in seconds.
 
 **3**: **exclusive IP and shared IP**: the protection package form of exclusive IP and shared IP supports one protection package for multiple protection objects. Maximally support defense of infinite IPs.
 
