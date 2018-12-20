@@ -21,9 +21,9 @@ annotations:
 
 ## Use steps (take CentOS 7.4 64-bit operating system as an example)  
 
-1. Log in to the server where kubectl is installed and can connect to the JCS for Kubernetes service endpoint. For Kubectl client installation and settings, refer to [Install and Set kubectl] (https://docs.jdcloud.com/cn/jcs-for-kubernetes/connect-to-cluster)；  
+1. Log in to the server where kubectl is installed and can connect to the JCS for Kubernetes service endpoint. For Kubectl client installation and settings, refer to [Install and Set kubectl](https://docs.jdcloud.com/cn/jcs-for-kubernetes/connect-to-cluster)；  
 
-2. Download [jdcloud-virtual-kubelet.tar.gz] (http://kubernetes.oss.cn-north-1.jcloudcs.com/virtual-kubelet/jdcloud-virtual-kubelet.tar.gz) and decompress the files to enter the decompression directory, execute virtual-kubelet.sh script. For details, refer to [Virtual-Kubelet Deployment](https://docs.jdcloud.com/cn/native-container/deploy-virtual-kubelet)；  
+2. Download [jdcloud-virtual-kubelet.tar.gz](http://kubernetes.oss.cn-north-1.jcloudcs.com/virtual-kubelet/jdcloud-virtual-kubelet.tar.gz) and decompress the files to enter the decompression directory, execute virtual-kubelet.sh script. For details, refer to [Virtual-Kubelet Deployment](https://docs.jdcloud.com/cn/native-container/deploy-virtual-kubelet)；  
 
 3. After the virtual-kubelet deployment is complete, execute the following commands to ensure that virtual-kubelet is running normally.  
 `  
