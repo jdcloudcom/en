@@ -15,7 +15,7 @@ It currently supports multiple businesses in JD Cloud, such as improvement of an
 
 **4**: **attack capture evidence collection**: automatically capture the attack for obtaining evidence, provide the information of attack source IP to help trace to the source. 
 
-**5** **effectively guarantee business stable**: provide at most 50G defense capability, and guarantee your business stable.
+**5**: **effectively guarantee business stable**: provide at most 50G defense capability, and guarantee your business stable.
 
  
 
