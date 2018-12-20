@@ -12,11 +12,11 @@ Method for lifting a ban: When creating case to apply for the White List of Emai
 
 1. IPs that require lifting a ban and related domains (three sets at most)
 
-(1) Public IP and domain (compulsory)
+  (1) Public IP and domain (compulsory)
 
-(2) Public IP and domain (optional)
+  (2) Public IP and domain (optional)
 
-(3) Public IP and domain (optional)
+  (3) Public IP and domain (optional)
 
 2. Type of emails sent, for example: promotional emails (compulsory)
 
