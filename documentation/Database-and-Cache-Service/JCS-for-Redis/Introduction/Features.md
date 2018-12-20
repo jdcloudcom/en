@@ -1,4 +1,4 @@
-﻿# Features
+# Features
 
 ## Features
 ### Data Persistence Storage

@@ -1,4 +1,4 @@
-﻿# Specification and Performance
+# Specification and Performance
 
 ## Capability Limits of Specification
 

@@ -1,4 +1,4 @@
-﻿# Release Instance
+# Release Instance
 
 You can delete unwanted instances:
 

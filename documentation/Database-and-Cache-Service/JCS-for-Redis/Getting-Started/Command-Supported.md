@@ -1,4 +1,4 @@
-﻿# JCS for Redis Command Support
+# JCS for Redis Command Support
 
 
 
