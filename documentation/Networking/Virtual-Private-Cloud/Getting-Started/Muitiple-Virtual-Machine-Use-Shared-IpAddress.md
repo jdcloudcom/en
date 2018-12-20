@@ -45,4 +45,4 @@ After completing the configuration, all VMs on the subnet SNAT02 can access the 
 
 Other subnets’ routes can be configured similarly.
 
-**Note: If a VM requires to access Internet through the NAT gateway, two subnets each with an independent route table in the same VPC are needed,client VMs to access Internet through the NAT gateway can be placed in one sunbent, and then the NAT Gateway should be placed in another subnet**
+**Note: If a VM requires to access Internet through the NAT gateway, two subnets each with an independent route table in the same VPC are needed,client VMs to access Internet through the NAT gateway can be placed in one sunbent, and then the NAT Gateway should be placed in another subnet.**
