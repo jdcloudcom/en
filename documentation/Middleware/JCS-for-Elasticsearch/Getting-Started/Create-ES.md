@@ -45,4 +45,4 @@ You can create instances via the console of JCS for Elasticsearch. For billing i
 
 10. After jumping to the payment confirmation page and after the payment succeeds, it will return to the cluster list page. The cluster created by you will appear in the cluster list. And the cluster status is "Pending"; wait patiently for a few minutes, and the cluster status will change to "Running" after creation succeeds. If the cluster creation fails, please recreate the cluster according to the page notifications.
   ![查询1](https://github.com/jdcloudcom/cn/blob/Elasticsearch/image/Internet-Middleware/JCS%20for%20Elasticsearch/配置ES-07.png)
-  ![查询1](https://github.com/jdcloudcom/cn/blob/Elasticsearch/image/Internet-Middleware/JCS%20for%20Elasticsearch/配置ES-08.png)
+  ![查询1](https://github.com/jdcloudcom/cn/blob/Elasticsearch/image/Internet-Middleware/JCS%20for%20Elasticsearch/CES1.png)
