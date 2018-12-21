@@ -31,12 +31,12 @@ You can create instances via the console of JCS for Elasticsearch. For billing i
     * "Specification of dedicated master node": 2-core 8G and 4-core 16G are supported.
     * "Number of dedicated master node": For most instances, three dedicated master nodes are applicable.
     * "Storage of dedicated master node": Fixed 20G.
-![查询1](https://github.com/jdcloudcom/cn/blob/Elasticsearch/image/Internet-Middleware/JCS%20for%20Elasticsearch/configes_11.png)
+![查询1](https://github.com/jdcloudcom/cn/blob/Elasticsearch/image/Internet-Middleware/JCS%20for%20Elasticsearch/ES7.png)
 
 7. Specify the network specification related parameters of the cluster, including "Virtual Private Cloud" and "Subnet".
     * "Virtual Private Cloud": Displays the current VPC list. The most newly created VPC is selected by default. Click "Create New Virtual Private Cloud" after the list to jump to the Virtual Private Cloud (VPC) page.
     * "Subnet": Displays the current subnet list. The most newly created subnet is selected by default. Click "Create New Subnet" after the list to jump to the Virtual Private Cloud - Subnet page.
-  ![查询1](https://github.com/jdcloudcom/cn/blob/Elasticsearch/image/Internet-Middleware/JCS%20for%20Elasticsearch/配置ES-04.png)
+  ![查询1](https://github.com/jdcloudcom/cn/blob/Elasticsearch/image/Internet-Middleware/JCS%20for%20Elasticsearch/ES6.png)
   
 8. The selected configuration list shows the currently selected configuration information, and the unselected options display the default configuration. Click "Buy Now" to enter the specification confirmation interface.
 
