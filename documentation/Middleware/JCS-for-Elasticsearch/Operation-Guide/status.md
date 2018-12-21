@@ -1,6 +1,6 @@
 ## View Status Information
 In the cluster list page, you can use the cluster status to determine whether the cluster is running normally.</br>
- ![查询1](https://github.com/jdcloudcom/cn/blob/Elasticsearch/image/Internet-Middleware/JCS%20for%20Elasticsearch/集群状态-01.png)
+ ![查询1](https://github.com/jdcloudcom/cn/blob/Elasticsearch/image/Internet-Middleware/JCS%20for%20Elasticsearch/MES2.png)
 
 The cluster status is the status that reflects whether the cluster is in the process of being changed or in normal use, including running, error, deleting, pending and changing configuration. The specific meanings are as follows:</br>
 
