@@ -7,25 +7,25 @@ You can create instances via the console of JCS for Elasticsearch. For billing i
 1. 	Login [JCS for Elasticsearch Console](https://es-console.jdcloud.com/clusters)。
 
 2. 	Click [Create Cluster] in the Instance List Page to enter the "Create Cluster" Page.</br>
-![查询1](https://github.com/jdcloudcom/cn/blob/Elasticsearch/image/Internet-Middleware/JCS%20for%20Elasticsearch/创建ES-01.png)
+![查询1](https://github.com/jdcloudcom/cn/blob/Elasticsearch/image/Internet-Middleware/JCS%20for%20Elasticsearch/ES1.png)
 
-![查询1](https://github.com/jdcloudcom/cn/blob/Elasticsearch/image/Internet-Middleware/JCS%20for%20Elasticsearch/configes_10.png)
+![查询1](https://github.com/jdcloudcom/cn/blob/Elasticsearch/image/Internet-Middleware/JCS%20for%20Elasticsearch/ES2.png)
 
 3. After entering the "Create Cluster" page, specify the cluster "Region" and "Availability Zone".</br>
     * "Region": The current work areas support "cn-north-1", "cn-south-1" and "cn-east-2".</br>
     * "Availability Zone": An Availability Zone is a physical area that uses independent power and network resources. Interconnected through the internal network and physically isolated to improve the availability of application program. Different Availability Zones are not interconnected and cannot be changed after creation.
- ![查询1](https://github.com/jdcloudcom/cn/blob/Elasticsearch/image/Internet-Middleware/JCS%20for%20Elasticsearch/配置ES-01.png)
+ ![查询1](https://github.com/jdcloudcom/cn/blob/Elasticsearch/image/Internet-Middleware/JCS%20for%20Elasticsearch/ES3.png)
  
 4. Set the cluster basic information, select "Cluster Version" and enter the "Cluster Name".</br>
     * "Cluster Version": The current version only supports 5.6.9.</br>
     * "Cluster Name": The name of the customized cluster. The name cannot be blank. It only supports Chinese, numbers, capital and lowercase letters, English underline "_" and line-through "-", and cannot exceed 32 characters.
- ![查询1](https://github.com/jdcloudcom/cn/blob/Elasticsearch/image/Internet-Middleware/JCS%20for%20Elasticsearch/配置ES-02.png)
+ ![查询1](https://github.com/jdcloudcom/cn/blob/Elasticsearch/image/Internet-Middleware/JCS%20for%20Elasticsearch/ES4.png)
  
 5. Set the machine specification related parameters of the cluster.
     * "Node Specification": Currently supports six specifications, including: 1 core 2G, 2 core 4G, 2 core 8G, 4 core 16G, 8 core 32G and 16 core 64G. Different virtual machine specifications can be selected according to specific business conditions, wherein 1 core 2G is only applicable to testing, not to production environment.
     * "Single Point Storage Specification": Single point storage specification range is 20-200GB, and integers can be entered.
     * "Number of Nodes": Single point storage specification range is 1-15 and 1 node is selected by default. Where the input range is larger or smaller than the specified range, the maximum number of nodes and the minimum number of nodes will be displayed.
-  ![查询1](https://github.com/jdcloudcom/cn/blob/Elasticsearch/image/Internet-Middleware/JCS%20for%20Elasticsearch/配置ES-031.png)
+  ![查询1](https://github.com/jdcloudcom/cn/blob/Elasticsearch/image/Internet-Middleware/JCS%20for%20Elasticsearch/ES5.png)
   
 6. Set a dedicated master node. Since disabling the dedicated master node can improve the cluster stability, it is recommended to disable it.
     * "Specification of dedicated master node": 2-core 8G and 4-core 16G are supported.
