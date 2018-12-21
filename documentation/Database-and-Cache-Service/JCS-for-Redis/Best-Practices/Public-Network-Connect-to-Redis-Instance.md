@@ -6,7 +6,7 @@ Prerequisite: A JD Virtual Machine with Linux system, associate EIP which is in 
 
 ## Action Steps
 
-1.  Install Xshell on local computer and remote connect to the virtual machines with Public IP by SSH protocol.
+1. Install Xshell on local computer and remote connect to the virtual machines with Public IP by SSH protocol.
 
 - Select "connect", enter name, and select protocol as SSH;
 
