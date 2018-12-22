@@ -2,7 +2,7 @@
 ## I. Log in with JD
 If you have a JD account, you can log in JD Cloud directly with the following steps:
 
-### 1. Click **Login** in JD Cloud Home Page and enter your JD account and password;
+### 1. Click **Login** in JD Cloud home page and enter your JD account and password;
 ![](../../../image/User/Account%20Management/Check%20your%20account/1.%20京东账号登录.png)
 
 ### 2. Enable JD Cloud service
