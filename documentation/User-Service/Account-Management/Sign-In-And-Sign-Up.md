@@ -11,7 +11,7 @@ When logging in JD Cloud with JD account for the first time, you will need to pr
 
  
 ## II. Register a New Account at JD Cloud
-If you want to register a new JD Cloud account, you can click **Register Now** on the JD Cloud Home Page. Mobile phone numbers of mainland, Hong Kong, Macao and Taiwan are supported currently by JD Cloud to enable cloud service normally. Procedures are as below:
+If you want to register a new JD Cloud account, you can click **Register Now** on the JD Cloud home page. Mobile phone numbers of mainland, Hong Kong, Macao and Taiwan are supported currently by JD Cloud to enable cloud service normally. Procedures are as below:
 ### 1. Mobile Number Verification
 Enter your common mobile phone number and get the verification code; correctly enter the verification code and tick the option to agree to the JD Registration Agreement, the Privacy Policy and the JD Cloud Service Agreement; click **Next**.
 ![](../../../image/User/Account%20Management/Check%20your%20account/3.%20注册1.png)
