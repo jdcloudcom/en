@@ -22,4 +22,4 @@ User name is the unique identifier of your account in JD Cloud. It supports Chin
 
 ### 3. Enable JD Cloud Service
 You need to supplement the information first after setting user name and password. In this step, you can modify the JD Cloud contact mobile phone number (Mobile phone numbers of mainland, Hong Kong, Macao and Taiwan are supported currently) and add the contact mailbox (You can also modify it at JD Cloud Account Management - Security Setting page). If there is a salesperson's recommendation code, please add it. Click Submit, then you can enable JD Cloud service.
-![](../../../image/User/Account%20Management/Check%20your%20account/5.注册激活.png)
+![](https://github.com/jdcloudcom/en/blob/en-signin-signup/image/User/Account%20Management/signin-and-signup/%E6%B3%A8%E5%86%8C%E6%BF%80%E6%B4%BB.png)
