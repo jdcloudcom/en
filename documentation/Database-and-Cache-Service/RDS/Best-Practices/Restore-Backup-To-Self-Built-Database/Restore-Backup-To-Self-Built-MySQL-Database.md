@@ -5,35 +5,35 @@ You can restore the backup data of the JCS for MySQL service to the self-built d
 ## Precautions
 * The self-built database version shall be consistent with the source database version of backup files.
 * The backup unzipping software can only be used in Linux.
-* System software of unzipping tools relies on openssl, gzip, tee and python, with version >= 2.7.
+* System software of unzipping tools relies on tee and python, with version >= 2.7.
 * The current system has already been installed with percona xtrabackup >= 2.4; If not, please refer to [Official Manual](https://www.percona.com/doc/percona-xtrabackup/2.4/index.html).
 
 ## Operation Instructions
 1. See the requirements for installation environment in precautions.
-2. Download backup unzipping tools, [Click to Download](http://jddb-common-public.s-bj.jcloud.com/mysql_backup_extract_tool.tar.gz) and unzip. The tool name is `mysql_backup_extract.py`, and the using instances are as follows.
+2. Download backup unzipping tools, [Click to Download](http://jddb-common-public.oss.cn-north-1.jcloudcs.com/general_mysql_backup_extract_tool.zip) and unzip. The tool name is `mysql_backup_extract.py`, and the using instances are as follows.
     
     ```
     # View Help Manual
-    ./percona_backup_extract.py -h
+    ./mysql_backup_extract.py -h
      
      # Unzipping backup data of the JCS for Percona service instance
-     ./percona_backup_extract.py  -v 5.7 -f ./backup.xbstream.gz.enc
+     ./mysql_backup_extract.py  -v 5.7 -f ./backup.xbstream
     ```
 3. Download backup files.
 
     ```
-    wget -c ‘<Data backup download link>' -O <Customized backup file name>.xbstream.gz.enc
+    wget -c ‘<Data backup download link>' -O <Customized backup file name>.xbstream
 
     -c: Start breakpoint upload
-    -O: Save downloaded results as the assigned files and note that the suffix of files must be .xbstream.gz.enc
+    -O: Save downloaded results as the assigned files and note that the suffix of files must be .xbstream
     ```
 
 4. Unzip the backup data, and the unzipped files will be saved in tmp_snapshot, a sub-directory of the current directory, assuming that the current directory is $HOME.
 
     ```
-    ./mysql_backup_extract.py -v 5.6 -f <Customized backup file name>.xbstream.gz.enc
+    ./mysql_backup_extract.py -v 5.6 -f <Customized backup file name>.xbstream
     
-    -v Parameters may not be assigned, the default value is 5.6, and view the -h Help Manual for details of variables following -v.
+    -v Parameters may not be assigned, the default value is 5.7, and view the -h Help Manual for details of variables following -v.
     ```
 
 5. Restore the unzipped backup files.

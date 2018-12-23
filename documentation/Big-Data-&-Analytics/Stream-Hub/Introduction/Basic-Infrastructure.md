@@ -1,5 +1,5 @@
 ## Infrastructure Architecture<br>
-![Infrastructure Architecture](https://github.com/jdcloudcom/cn/blob/edit/image/DataBus/db-001.png?raw=true “Infrastructure architecture”)<br>
+![Infrastructure Architecture](../../../../image/DataBus/db-001.png)<br>
 <br>
 JD Cloud Streaming data Bus is a streaming data processing platform that provides the function to publish, subscribe and distribute streaming data, so that you can easily build analysis and applications based on streaming data. <br>\
 <br>

@@ -124,13 +124,13 @@
 
        3.2.2.2 JD Cloud will provide a 7×24 hours online ticket service system to answer customer questions during the use.
 
-       3.2.3 In case the service involves JCS for Elasticsearch, JD Cloud is only responsible for the underlying part below the message queue and the operation maintenance of the software provided by JD Cloud, namely the related technical architecture and operating system of JCS for Elasticsearch service. The part above the message queue is your own responsibility. In addition, if you upgrade the operating system on your own, system breakdown and other adverse effects may be caused; please take care of the risks and be careful to operate.
+       3.2.3 In case the service involves JCS for Elasticsearch, JD Cloud is only responsible for the underlying part below the JCS for Elasticsearch and the operation maintenance of the software provided by JD Cloud, namely the related technical architecture and operating system of JCS for Elasticsearch service. The part above the JCS for Elasticsearch is your own responsibility. In addition, if you upgrade the operating system on your own, system breakdown and other adverse effects may be caused; please take care of the risks and be careful to operate.
 
        3.2.4 JD Cloud will eliminate the faults caused by non-man made actions, except for due to your account and/or force majeure and matters out of the control scope of JD Cloud.
 
        3.2.5 JD Cloud shall strictly comply with the confidentiality obligation.
 
-       3.2.6 You understand and acknowledge that JD Cloud will migrate the machine room of Elasticsearch service which you use when necessary. JD Cloud will notify you 7 natural days in advance before the above actions; since the above actions may need to modify DNS of relevant domain name of yours, so you need to modify the DNS to the IP specified by JD Cloud according to the time required by JD Cloud upon receipt of the notification from JD Cloud. Otherwise, you are responsible on your own in case the website application can not be accessed.
+       3.2.6 You understand and acknowledge that JD Cloud will migrate the machine room of JCS for Elasticsearch service which you use when necessary. JD Cloud will notify you 7 natural days in advance before the above actions; since the above actions may need to modify DNS of relevant domain name of yours, so you need to modify the DNS to the IP specified by JD Cloud according to the time required by JD Cloud upon receipt of the notification from JD Cloud. Otherwise, you are responsible on your own in case the website application can not be accessed.
 
      
 

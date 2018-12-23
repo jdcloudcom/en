@@ -15,8 +15,6 @@ items:
         href: Introduction/Restrictions.md
       - name: Cloud Products Supporting IAM
         href: Introduction/Support-Services.md
-      - name: Cloud Product JRN Examples Supporting IAM
-        href: Introduction/Jrn-Sample.md
   - name: Operation Guide
     items:
       - name: Identity Management

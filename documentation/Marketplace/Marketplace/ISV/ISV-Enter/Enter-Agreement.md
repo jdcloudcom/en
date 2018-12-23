@@ -239,13 +239,13 @@ If the sampling test of the service sold by the service provider is unqualified 
 
 8.1.2.2 Limit of deposit
 
-8. 1.2.2.1 The service provider shall pay the deposit of corresponding amount to the account designated by JD Cloud according to the agreed time and method and according to the deposit payment standards in the above "JD Cloud" public links, relevant investment attracting rules of JD Cloud Marketplace, and the operation category of its own application.
+8.1.2.2.1 The service provider shall pay the deposit of corresponding amount to the account designated by JD Cloud according to the agreed time and method and according to the deposit payment standards in the above "JD Cloud" public links, relevant investment attracting rules of JD Cloud Marketplace, and the operation category of its own application.
 
-8. 1.2.2.2 The service provider acknowledges and agrees that the deposit paid by it will not include any interest under any circumstances. At the same time, JD Cloud has the right to adjust the limit of the deposit delivered by the service provider according to the changes in the business category of the service provider, the actual sales situation of service, the performance capability, the credit status, etc., or deduct the deposit according to the Agreement. The service provider shall make up the deposit of corresponding amount within 5 days after the notification of JD Cloud. Otherwise, JD Cloud shall have the right to deduct relevant amount from the outstanding payment and limit the access to the "Service Provider Contract Management System" until the termination of the Agreement.
+8.1.2.2.2 The service provider acknowledges and agrees that the deposit paid by it will not include any interest under any circumstances. At the same time, JD Cloud has the right to adjust the limit of the deposit delivered by the service provider according to the changes in the business category of the service provider, the actual sales situation of service, the performance capability, the credit status, etc., or deduct the deposit according to the Agreement. The service provider shall make up the deposit of corresponding amount within 5 days after the notification of JD Cloud. Otherwise, JD Cloud shall have the right to deduct relevant amount from the outstanding payment and limit the access to the "Service Provider Contract Management System" until the termination of the Agreement.
 
-8. 1.2.3 Management and use of deposit
+8.1.2.3 Management and use of deposit
 
-8. 1.2.3.1 In the following circumstances, JD Cloud has the right to deduct part or all of the deposit directly according to the specific circumstances:
+8.1.2.3.1 In the following circumstances, JD Cloud has the right to deduct part or all of the deposit directly according to the specific circumstances:
 
 1) The service provider violates any warranty, commitment or obligation under the Agreement;
 
@@ -257,27 +257,27 @@ If the sampling test of the service sold by the service provider is unqualified 
 
 5) Other circumstances agreed in the Agreement in which deposit may be deducted occur.
 
-8. 1.2.3.2 If JD Cloud uses the deposit for any deduction or compensation, it will notify the service provider in writing (including but not limited to e-mail, fax, etc.) and state in the written notice the reasons for the deduction and/or compensation and the amount of deduction and/or compensation.
+8.1.2.3.2 If JD Cloud uses the deposit for any deduction or compensation, it will notify the service provider in writing (including but not limited to e-mail, fax, etc.) and state in the written notice the reasons for the deduction and/or compensation and the amount of deduction and/or compensation.
 
-8. 1.2.3.3 If the service provider’s deposit is insufficient, JD Cloud is not obliged to use its own funds to pay compensation, compensatory payment, pension or any other payment for the service provider. However, if JD Cloud made such payment, it has the right to request the service provider to make full compensation within five days.
+8.1.2.3.3 If the service provider’s deposit is insufficient, JD Cloud is not obliged to use its own funds to pay compensation, compensatory payment, pension or any other payment for the service provider. However, if JD Cloud made such payment, it has the right to request the service provider to make full compensation within five days.
 
-8. 1.2.4 Deposit refunding
+8.1.2.4 Deposit refunding
 
 If the service provider does not carry out any business on JD Cloud Marketplace, and the warranty period of all services that the service provider has completed expires, the service provider may submit a written application to JD Cloud for refunding the deposit. Within three months after the approval of JD Cloud, the balance of the deposit will be returned to the service provider after deducting the fees that shall be deducted according to the Agreement. If the deposit paid by the service provider is insufficient to offset the payment that shall be paid by the service provider such as liquidated damages, compensation, etc., JD Cloud will not refund the deposit to the service provider and reserve the right of recourse against the service provider.
 
-8. 1.3 Technical service fee
+8.1.3 Technical service fee
 
 The technical service fee charged by JD Cloud to the service provider for the related system maintenance and support service it provides during the move-in application and operation processes of the service provider:
 
-8. 1.3.1 Fixed technical service fee (also known as "platform usage fee"): the technical service fee that the service provider shall pay to JD Cloud after obtaining the payment authorization, which corresponds to the specific shop service period.
+8.1.3.1 Fixed technical service fee (also known as "platform usage fee"): the technical service fee that the service provider shall pay to JD Cloud after obtaining the payment authorization, which corresponds to the specific shop service period.
 
-8. 1.3.2 Proportional service charge (also known as "technical service fee"): the technical service fee charged by JD Cloud to the service provider in real time for each transaction concluded by the service provider, in addition to the fixed technical service fee.
+8.1.3.2 Proportional service charge (also known as "technical service fee"): the technical service fee charged by JD Cloud to the service provider in real time for each transaction concluded by the service provider, in addition to the fixed technical service fee.
 
-8. 1.4 Value-added service charge
+8.1.4 Value-added service charge
 
 When the service provider uses the value-added services provided by JD Cloud or a third party designated by JD Cloud, it shall perform its obligations and pay relevant fees in accordance with the separate agreement.
 
-8. 1.5 Taxes
+8.1.5 Taxes
 
 The service provider shall bear relevant taxes by itself in the course of operation, and JD Cloud is not obliged to withhold and pay taxes for the service provider.
 

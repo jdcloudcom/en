@@ -12,7 +12,7 @@
 
 3. Click **Add Domain
 
-   Enter the domain name that needs to use service
+  Enter the domain name that needs to use service
 
 
 

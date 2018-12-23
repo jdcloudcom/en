@@ -30,7 +30,7 @@ JD Cloud’s Main Certifications:
 
 **Certification of Payment Card Industry Data Security Standard (PCI-DCC):** JD Cloud has passed the verification covering 6 major fields, 12 specifications and almost 300 standards and obtained one of the most authoritative payment card industry data security standards worldwide, PCI-DSS. The PCI-DSS marks that JD Cloud has the ability to provide the users of financial institutions (such as banks, insurance institutions and securities institutions) with high-level security experiences and services. Moreover, users of other industries can also enjoy the "Financial Level" security, and users’ privacy and information security are greatly guaranteed.
 
-![图 2 京东云资质认证](https://github.com/jdcloudcom/cn/blob/edit/image/Security-Information/qualification44.png)
+![图 2 京东云资质认证](https://github.com/jdcloudcom/cn/blob/edit/image/Security-Information/qualification_new.png)
 
 ## 2. Privacy Protection
 

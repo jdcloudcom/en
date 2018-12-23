@@ -5,4 +5,9 @@
   Please add the following IP segments to the white list of origin server:
   
 101.124.31.248/30
+
 101.124.23.116/30
+
+14.116.246.0/29 
+
+103.40.15.0/29 

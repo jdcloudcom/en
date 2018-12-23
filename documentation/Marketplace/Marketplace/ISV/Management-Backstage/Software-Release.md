@@ -1,10 +1,13 @@
 # Introduction of software products
+
 Software:
+
 1. Select a Release Category
 
 Log in to the backend of the service provider to release the software service: Select Service Management --> Release Service, select the delivery type of the software service, and click "Next, Release Service" after the selection is completed.
 
 ![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Marketplace/Marketplace/MarketPlace-Image/%E8%BD%AF%E4%BB%B61.png)
+
 
 2. Edit Basic Information
 
@@ -32,8 +35,6 @@ Log in to the backend of the service provider to release the software service: S
 2.9 Search engine optimization: Please fill in according to the actual situation.
 
 2.10 Hide or not? Yes **No, the list of service platforms is displayed normally, visible to all users** (If you do not want to be retrieved, select "Yes") check agree and sign the JD Cloud Marketplace Move-in and Service Agreement, please click on "Release Service".
-
-
 
 3 At this point, the service has been successfully released and enters into the service review process. You can view the service review status and modification in Service Management --> Release Service. If the review is approved, the service can be sold online.
 
