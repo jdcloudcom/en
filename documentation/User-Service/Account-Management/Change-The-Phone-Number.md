@@ -7,6 +7,5 @@ On JD Cloud "Account Security" page, you can modify the JD Cloud verification of
 ![](https://github.com/jdcloudcom/en/blob/en-signin-signup/image/User/Account%20Management/Change%20your%20phone%20number/%E4%BF%AE%E6%94%B9%E9%9B%86%E5%9B%A2%E7%BB%91%E5%AE%9A%E6%89%8B%E6%9C%BA%E5%8F%B7.png)
 
 If you want to modify the account binding mobile number or Email used for login or to find back account password, please click and go to "JD Mall" for modification.
-![](../../../image/User/Account%20Management/Change%20your%20phone%20number/%E4%BA%AC%E4%B8%9C%E5%95%86%E5%9F%8E%E4%BF%AE%E6%94%B9%E7%BB%91%E5%AE%9A%E6%89%8B%E6%9C%BA.png)
+![](https://github.com/jdcloudcom/en/blob/en-signin-signup/image/User/Account%20Management/Change%20your%20phone%20number/%E4%BF%AE%E6%94%B9%E9%82%AE%E7%AE%B1.png)
 
-![](../../../image/User/Account%20Management/Change%20your%20phone%20number/%E4%BA%AC%E4%B8%9C%E5%95%86%E5%9F%8E%E4%BF%AE%E6%94%B9%E9%82%AE%E7%AE%B1.png)
