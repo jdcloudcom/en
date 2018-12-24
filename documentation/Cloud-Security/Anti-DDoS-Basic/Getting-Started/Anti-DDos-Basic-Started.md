@@ -1,4 +1,4 @@
-# Open Anti-DDoS Basic
+# Start Anti-DDoS Basic
 
 **Preconditions**
 

@@ -11,8 +11,8 @@ The Anti-DDoS Basic business structure is shown in the following figure:
 Note: </br>
       1. The image flow to the detection device </br>
       2. The detection device detects an attack, and notifies the management center of the attack information.</br>
-      3. After receiving the attack information, the management center shall notify the cleaning equipment to open and clean.</br>
-      4. Drain the flow to the cleaning equipment for traffic cleaning and re-inject clean flow after cleaning.</br>
+      3. After receiving the attack information, the management center shall notify the cleaning equipment to clean.</br>
+      4. Direct the traffic to the cleaning equipment, only the clean traffic can forward back after mitigation.</br>
       5. Normal flow</br>
 
 |Name|Description|

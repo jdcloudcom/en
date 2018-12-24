@@ -16,7 +16,7 @@ A: DDos Anti-DDoS Basic is automatically opened and cannot be closed. Anti-DDoS 
 
 A: Anti-DDoS Basic can only defend the domain name that has been filed. If the domain name is not filed, the defense will be stopped immediately, and the warning notification will be sent.
 
-**5. Q: How long will it take to trigger a black hole state?**
+**5. Q: How long the public network IP will stay in black hole if a black hole is triggered?**
 
 A: The residence time of the public network IP triggering a black hole state in a black hole is at least 60 minutes, during which the IP of the public network is still monitored.
 Once attack flow exceeding the machine room capability is monitored again, the black hole time is extended by 60 minutes at the last time the attack was monitored.
@@ -25,9 +25,9 @@ Once attack flow exceeding the machine room capability is monitored again, the b
 
 A: The black hole is triggered when the attack exceeds 2G, and the access to the IP is shielded for a period of time.
 
-Recommend you purchase JD Cloud's [Anti-DDoS Protection Package](https://www.jdcloud.com/cn/products/anti-ddos-protection-package) service or [Anti-DDoS Pro](https://www.jdcloud.com/products/ipanti) service to get more powerful defense capability.
+Recommend you purchase JD Cloud's [Anti-DDoS Protection Package](https://www.jdcloud.com/en/products/anti-ddos-protection-package) service or [Anti-DDoS Pro](https://www.jdcloud.com/products/ipanti) service to get more powerful defense capability.
 
-**7. Q: What attack types are supportedby Anti-DDoS Basic?**
+**7. Q: What attack types are supported by Anti-DDoS Basic?**
 
 A: Include but not limited to SYN Flood, ACK Floods, TCP Floods, UDP Flood, DNS reflection attacks, NTP reflection attacks, SSDP reflection attacks, and other common attacks.
 
