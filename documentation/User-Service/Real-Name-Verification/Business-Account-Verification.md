@@ -32,8 +32,8 @@ Enterprise real-name verification process: 1. Select the enterprise type  > 2. S
          <div align=center><img src="https://github.com/jdcloudcom/en/blob/en-signin-signup/image/User/Real%20name%20verification/Business%20account%20verification%20en/%E6%8E%88%E6%9D%83%E4%B9%A6.png"></div>
     
     - Preview the information about enterprise real-name verification, and send notification to the mobile and email to fill in. The passing of real-name verification data review and successful payment will be notified to your mobile phone and email by SMS or email.
-          <div align=center><img src="https://github.com/jdcloudcom/cn/blob/edit/image/User/Real%20name%20verification/Business%20account%20verification/%E5%A1%AB%E5%86%99%E6%8E%88%E6%9D%83%E5%A7%94%E6%89%98%E4%B9%A6%EF%BC%8C%E8%AF%B7%E6%8C%89%E7%85%A7%E6%8E%88%E6%9D%83%E4%B9%A6%E6%A8%A1%E6%9D%BF%E5%A1%AB%E5%86%992.png"></div>
-         <div align=center><img src="https://github.com/jdcloudcom/cn/blob/edit/image/User/Real%20name%20verification/Business%20account%20verification/%E5%A1%AB%E5%86%99%E6%8E%88%E6%9D%83%E5%A7%94%E6%89%98%E4%B9%A6%EF%BC%8C%E8%AF%B7%E6%8C%89%E7%85%A7%E6%8E%88%E6%9D%83%E4%B9%A6%E6%A8%A1%E6%9D%BF%E5%A1%AB%E5%86%993.png"></div>   
+          <div align=center><img src="https://github.com/jdcloudcom/en/blob/en-signin-signup/image/User/Real%20name%20verification/Business%20account%20verification%20en/%E7%A1%AE%E8%AE%A4%E5%A1%AB%E5%86%99%E7%9A%84%E4%BF%A1%E6%81%AF.png"></div>
+         <div align=center><img src="https://github.com/jdcloudcom/en/blob/en-signin-signup/image/User/Real%20name%20verification/Business%20account%20verification%20en/%E5%AE%A1%E6%A0%B8%E7%BB%93%E6%9E%9C%E9%80%9A%E7%9F%A5.png"></div>   
 
  4. The submission is successful and the enterprise information is to be reviewed
  <div align=center><img src="https://github.com/jdcloudcom/cn/blob/edit/image/User/Real%20name%20verification/Business%20account%20verification/%E6%8F%90%E4%BA%A4%E6%88%90%E5%8A%9F%EF%BC%8C%E4%BC%81%E4%B8%9A%E4%BF%A1%E6%81%AF%E5%BE%85%E5%AE%A1%E6%A0%B8.png"></div>   
