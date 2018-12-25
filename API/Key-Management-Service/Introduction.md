@@ -67,7 +67,7 @@ func main() {
 
     /** Create encryption request **/
     reqEnc := kms.NewEncryptRequest(keyId)
-    reqEnc.SetPlaintext(reqEnc)
+    reqEnc.SetPlaintext(data)
 
     /** Send encryption request **/
     if resp, err := client.Encrypt(reqEnc); err != nil {
