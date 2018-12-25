@@ -1,0 +1,2 @@
+## Application Scenarios
+The JD WorkSpaces can be widely applied to the government, the public utilities and the mainstream industries such as the Telecommunications, the energy, the finance, the traffic, the medical treatment, the education, the radio and television, the media asset and the manufacturing industry. In addition, it is applicable for various scenarios, such as short-term use, common working, safe working, branches and public terminals (such as calling centers, business halls, and training classrooms).

@@ -1,0 +1,33 @@
+  name: HTTPDNS
+  href: 
+  items:
+  - name: Introduction
+    items:
+      - name: Product Overview
+        href: Introduction/Introduction.md
+      - name: Benefits
+        href: Introduction/advantage.md
+      - name: Application Scenarios 
+        href: Introduction/scene.md    
+  - name: Quick Start
+    items:
+      - name: Use Method
+        href: Getting-Started/start1.md 
+      - name: Restrictions
+        href: Getting-Started/Restriction-Description.md     
+  - name: Operation Guide
+    items:
+    - name: Add Website
+      href: Operation-Guide/Add.md
+    - name: Access Domain
+      href: Operation-Guide/Count.md
+    - name: Modify Domain
+      href: Operation-Guide/use.md
+  - name: FAQ
+    items:
+    - name: Principle of HTTP DNS
+      href: FAQ/Principle.md.md  
+  - name: Related Resources
+    items:
+    - name: Document History Records
+      href: Related-Resources/Document-History.md     
