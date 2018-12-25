@@ -23,10 +23,10 @@ Enterprise real-name verification process: 1. Select the enterprise type  > 2. S
     - Fill in the information about corporate account
          <div align=center><img src="https://github.com/jdcloudcom/en/blob/en-signin-signup/image/User/Real%20name%20verification/Business%20account%20verification%20en/%E5%AF%B9%E5%85%AC%E8%B4%A6%E6%88%B7%E4%BF%A1%E6%81%AF.png"></div>    
     - Fill in the information about legal person certificates
-         <div align=center><img src="https://github.com/jdcloudcom/cn/blob/edit/image/User/Real%20name%20verification/Business%20account%20verification/%E5%A1%AB%E5%86%99%E6%B3%95%E4%BA%BA%E8%AF%81%E4%BB%B6%E4%BF%A1%E6%81%AF.png"></div>    
+         <div align=center><img src="https://github.com/jdcloudcom/en/blob/en-signin-signup/image/User/Real%20name%20verification/Business%20account%20verification%20en/%E6%B3%95%E4%BA%BA%E8%AF%81%E4%BB%B6%E4%BF%A1%E6%81%AF.png"></div>    
     
     - Fill in the information about certificates of the authorized person
-        <div align=center><img src="https://github.com/jdcloudcom/en/blob/en-signin-signup/image/User/Real%20name%20verification/Business%20account%20verification%20en/%E6%B3%95%E4%BA%BA%E8%AF%81%E4%BB%B6%E4%BF%A1%E6%81%AF.png"></div>    
+        <div align=center><img src="https://github.com/jdcloudcom/en/blob/en-signin-signup/image/User/Real%20name%20verification/Business%20account%20verification%20en/%E8%A2%AB%E6%8E%88%E6%9D%83%E4%BA%BA%E4%BF%A1%E6%81%AF.png"></div>    
     
     - Fill in the power of attorney according to the template for power of attorney.
          <div align=center><img src="https://github.com/jdcloudcom/en/blob/en-signin-signup/image/User/Real%20name%20verification/Business%20account%20verification%20en/%E6%8E%88%E6%9D%83%E4%B9%A6.png"></div>
