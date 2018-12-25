@@ -11,7 +11,7 @@
 a. Confirming method of Elastic IP:
 
 Please log in JD Cloud [Elastic IP Console](http://cns-console.jdcloud.com/host/pip/list) and the console directory "Network -> Virtual Private Cloud -> EIP" to confirm if the Elastic IP is added.
-![Create Elastic IP Instance](https://github.com/jdcloudcom/cn/blob/Anti-DDoS/image/Basic%20Anti-DDos/instance%2003.png)
+![Create Elastic IP Instance](../../../../image/Basic%20Anti-DDos/instance%2003.png)
 
 b. Confirming method of Cloud Physical Server:
 
