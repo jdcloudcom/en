@@ -39,7 +39,7 @@ Enterprise real-name verification process: 1. Select the enterprise type  > 2. S
  <div align=center><img src="https://github.com/jdcloudcom/en/blob/en-signin-signup/image/User/Real%20name%20verification/Business%20account%20verification%20en/%E5%AE%A1%E6%A0%B8%E4%B8%AD.png"></div>   
  
  5. Information review is passed and the payment is to be made
- <div align=center><img src=" https://github.com/jdcloudcom/cn/blob/edit/image/User/Real%20name%20verification/Business%20account%20verification/%E8%B5%84%E6%96%99%E5%AE%A1%E6%A0%B8%E9%80%9A%E8%BF%87%EF%BC%8C%E5%BE%85%E6%89%93%E6%AC%BE.png"></div>   
+ <div align=center><img src=" "></div>   
 
  6. Payment to corporate account is successful and waiting for verification
 <div align=center><img src="https://github.com/jdcloudcom/cn/blob/edit/image/User/Real%20name%20verification/Business%20account%20verification/%E5%AF%B9%E5%85%AC%E6%89%93%E6%AC%BE%E6%88%90%E5%8A%9F%EF%BC%8C%E5%BE%85%E9%AA%8C%E8%AF%81.png"></div>   
