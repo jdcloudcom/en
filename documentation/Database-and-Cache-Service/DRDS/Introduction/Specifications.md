@@ -7,4 +7,5 @@ It provides the following instance types and it will provide more rich types as 
 |-|-|-|
 |4|16|2|
 |8|32|2|
+|12|48|2|
 |16|64|2|

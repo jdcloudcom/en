@@ -8,9 +8,7 @@ You can create clusters via the console of JCS for Elasticsearch. For billing in
 1.Login [JCS for Elasticsearch Console](https://es-console.jdcloud.com/clusters).</br>
 
 2.Click [Create Cluster] in the Instance List Page to enter the "Create Cluster" Page.</br>
-
 ![查询1](https://github.com/jdcloudcom/cn/blob/Elasticsearch/image/Internet-Middleware/JCS%20for%20Elasticsearch/ES1.png)
-
 ![查询1](https://github.com/jdcloudcom/cn/blob/Elasticsearch/image/Internet-Middleware/JCS%20for%20Elasticsearch/ES2.png)
 
 3. After entering the "Create Cluster" page, specify the cluster "Region" and "Availability Zone".</br>
@@ -44,14 +42,11 @@ You can create clusters via the console of JCS for Elasticsearch. For billing in
 * "Virtual Private Cloud": Displays the current VPC list. The most newly created VPC is selected by default. Click "Create New Virtual Private Cloud" after the list to jump to the Virtual Private Cloud (VPC) page.</br>
 * "Subnet": Displays the current subnet list. The most newly created subnet is selected by default. Click "Create New Subnet" after the list to jump to the Virtual Private Cloud - Subnet page.</br>
   ![查询1](https://github.com/jdcloudcom/cn/blob/Elasticsearch/image/Internet-Middleware/JCS%20for%20Elasticsearch/ES6.png)
-  
 8. The selected configuration list shows the currently selected configuration information, and the unselected options display the default configuration. Click "Buy Now" to enter the specification confirmation interface.</br>
 
 9. When the specification confirmation is completed, click "Enable Now" to start creating the cluster.</br>
-
   ![查询1](https://github.com/jdcloudcom/cn/blob/Elasticsearch/image/Internet-Middleware/JCS%20for%20Elasticsearch/配置ES-06.png)
   
 10. After jumping to the payment confirmation page and after the payment succeeds, it will return to the cluster list page. The cluster created by you will appear in the cluster list. And the cluster status is "Pending"; wait patiently for a few minutes, and the cluster status will change to "Running" after creation succeeds. If the cluster creation fails, please recreate the cluster according to the page notifications.</br>
-
   ![查询1](https://github.com/jdcloudcom/cn/blob/Elasticsearch/image/Internet-Middleware/JCS%20for%20Elasticsearch/配置ES-07.png)
   ![查询1](https://github.com/jdcloudcom/cn/blob/Elasticsearch/image/Internet-Middleware/JCS%20for%20Elasticsearch/CES1.png)
