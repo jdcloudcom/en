@@ -1,6 +1,6 @@
 # Security Incidents View
 
-Login JD Cloud official website [https://www.jdcloud.com/](https://www.jdcloud.com/), enter Console -Cloud Security - Endpoint Security -Security Incidents to view
+Login JD Cloud official website [https://www.jdcloud.com/](https://www.jdcloud.com/), enter Console-Cloud Security-Endpoint Security-Security Incidents to view
 
 
 ![01-guide-incidents.png](https://github.com/jdcloudcom/cn/blob/endpion/image/Endpoint-Security/01-guide-incidents.png)

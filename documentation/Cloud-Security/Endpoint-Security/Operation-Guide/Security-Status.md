@@ -1,6 +1,6 @@
 # View Overview
 
-Login JD Cloud official website [https://www.jdcloud.com/](https://www.jdcloud.com/), enter Console - Cloud Security - Endpoint Security to view
+Login JD Cloud official website [https://www.jdcloud.com/](https://www.jdcloud.com/), enter Console-Cloud Security-Endpoint Security to view
 
 ![03-guide-status.png](https://github.com/jdcloudcom/cn/blob/endpion/image/Endpoint-Security/03-guide-status.png)
 

@@ -1,6 +1,6 @@
 # Security Configuration
 
-Login JD Cloud official website [https://www.jdcloud.com/](https://www.jdcloud.com/), enter Console - Cloud Security - Endpoint Security - Security Configuration to set preferred login address and warning message.
+Login JD Cloud official website [https://www.jdcloud.com/](https://www.jdcloud.com/), enter Console-Cloud Security-Endpoint Security-Security Configuration to set preferred login address and warning message.
 
 ![image.png](https://img1.jcloudcs.com/cms/58458218-4d45-4523-885d-d030b7a93a9b20180622093625.png) 
 

@@ -10,7 +10,7 @@ items:
   - name: Pricing
     items:
     - name: Billing Overview
-      href: Pricing/Pricing.md
+      href: Pricing/Billing-Overview.md
   - name: Getting Started
     items:
     - name: Quick Guidance
