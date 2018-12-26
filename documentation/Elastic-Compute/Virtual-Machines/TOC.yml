@@ -145,6 +145,8 @@ items:
             href: Operation-Guide/Storage/Assign-Device-Name.md
           - name: Configure Deletion Attribute
             href: Operation-Guide/Storage/Configurate-Delete-Attributes.md
+          - name: Networking
+            href: peration-Guide/Storage/Encryption-of-Cloud-Disk.md
       - name: Networking
         items:
           - name: Networking Overview
@@ -173,6 +175,8 @@ items:
             href: Operation-Guide/Key-Pair/Create-Keypair.md
           - name: Bind Key Pair
             href: Operation-Guide/Key-Pair/Bind-Keypair.md
+          - name: Key Pair Deletion
+            href: Operation-Guide/Key-Pair/Delete-Keypair.md
       - name: Security Group
         items:
           - name: Security Group Overview

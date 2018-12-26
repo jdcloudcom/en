@@ -76,6 +76,10 @@ items:
     href: Message-Queuing-JCQ-Service-Level-Protocol-SLA.md
   - name: Distributed Relational Database DRDS Trial Service Agreement
     href: Distributed-Relational-Database-DRDS-Trial-Service-Clause.md
+  - name: Distributed Relational Database DRDS Service Agreement
+    href: Distributed-Relational-Database-DRDS-Service-Clause.md
+  - name: Distributed Relational Database DRDS Service Level Agreement (SLA)
+    href: Distributed-Relational-Database-DRDS-Service-Level-Agreement-SLA.md
   - name: Service Terms of Anti-DDoS Protection Package
     href: DDoS-Protection-Package-Terms-Of-Service.md
   - name: Service Grade Protocol of Anti-DDoS Protection Package (SLA)

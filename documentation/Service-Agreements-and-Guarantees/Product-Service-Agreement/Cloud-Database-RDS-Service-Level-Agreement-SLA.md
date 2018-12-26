@@ -1,6 +1,8 @@
 ## **1. Service Scope**
 
-Database of JD Cloud provides users with online database services. Support MySQL 5.6, MySQL 5.7, Percona 5.7, SQL Server 2008R2 version, and provide database online expansion, backup roll-back, performance monitoring and analysis capabilities. The cloud database supports resilient capacity expansion and provides on-demand and pay-as-you go settling functions based on the cloud computing model.
+Database of JD Cloud provides users with online database services. Support MySQL，Percona，MariaDB，SQL Server, and provide database online expansion, backup roll-back, performance monitoring and analysis capabilities. The cloud database supports resilient capacity expansion and provides on-demand and pay-as-you go settling functions based on the cloud computing model.
+ 
+The SLA only applies to primary and secondary high-availability versions of the database, rather than the standalone version.
 
 ## **2. Service Level Indicators**
 
@@ -31,7 +33,7 @@ JD Cloud uses encryption, security group isolation and other means to ensure tha
 
    2.5.1 The user has the right to know the data, the geographical location of the data center where the backup data is located, and the number of data backups, among which:
 
-   2.5.1.1 At present, the data centers of JD Cloud are located in cn-north-1, cn-east-1 and cn-south-1. Users must select the corresponding data according to the geological position when applying for cloud service and the user data will be stored in its designated data center;
+   2.5.1.1 At present, the data centers of JD Cloud are located in cn-north-1, cn-east-1, cn-east-2 and cn-south-1. Users must select the corresponding data according to the geological position when applying for cloud service and the user data will be stored in its designated data center;
 
    2.5.1.2 JD Cloud Service has automatic data backup function. Please refer to the related technical documents for the number of backups. The backup data is stored in the same data center as the source data by default. The user does not need to specify the number of automatic backups and the location where the data backed up automatically is stored.
 
@@ -102,19 +104,20 @@ For the inability of cloud database service to work properly caused by JD Cloud 
 (9) Unavailability caused by other reasons not related to JD Cloud.
 
    2.12.2 Compensation plan
-• Fault time = unavailable time.
+   
+Fault time = unavailable time.
 
-• Cloud database in monthly package is compensated in the way of service time compensation, i.e. 100 times/set of the fault time.
+Cloud database in monthly package is compensated in the way of service time compensation, i.e. 100 times/set of the fault time.
 
-• Cloud database pay by configuration is compensated in the form of coupon, the payout amount = the average hourly cost in the first 24 hours of the fault/ 60 × fault time × 100.
+Cloud database pay by configuration is compensated in the form of coupon, the payout amount = the average hourly cost in the first 24 hours of the fault/ 60 × fault time × 100.
 
 Instructions:
 
-• If the use time of cloud database pay by quantity is less than 24 hours, the cost shall be calculated based on the average of actual use time;
+If the use time of cloud database pay by quantity is less than 24 hours, the cost shall be calculated based on the average of actual use time;
 
-• The fault time is calculated in points;
+The fault time is calculated in points;
 
-• Total amount of compensation shall not exceed the total amount of cash paid for current service by a single cloud database;
+Total amount of compensation shall not exceed the total amount of cash paid for current service by a single cloud database;
 
 **3. Others**
 

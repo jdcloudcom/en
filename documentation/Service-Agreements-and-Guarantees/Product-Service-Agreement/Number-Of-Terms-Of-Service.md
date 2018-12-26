@@ -1,4 +1,4 @@
-**This Service Terms is a valid agreement between the owner of the JD Cloud website (referred to in the Agreement as "JD Cloud" website: [www.jdcloud.com](https://www.jdcloud.com/)) and you on matters relating to JD Cloud Digivoice Big Data Analysis Platform ([xdata.jdcloud.com](https://xdata.jdcloud.com/)) (including Data Factory service, Data Compute, JD MapReduce service, Stream Hub service and Stream Compute service which are collectively referred to as "Digivoice"). By stamping, clicking to confirm on the web page, or other ways to accept the Service Terms, including but not limited to the actually using of Digivoice service without clicking to confirm the Service Terms, you have reached an agreement with JD Cloud and agreed to accept all agreed contents of the Service Terms. In case of any inconsistency between the text stamped by both parties and the text of Service Terms accepted and confirmed by clicking the web page or other ways, the text stamped by both parties shall prevail.**
+**This Service Terms is a valid agreement between the owner of the JD Cloud website (referred to in the Agreement as "JD Cloud" website: [www.jdcloud.com](https://www.jdcloud.com/)) and you on matters relating to JD Cloud Digivoice Big Data Analysis Platform ([xdata.jdcloud.com](https://xdata.jdcloud.com/)) (including Data Integration Service, Data Factory Service, Data Compute, JD MapReduce service, Stream Hub service and Stream Compute service which are collectively referred to as "Digivoice"). By stamping, clicking to confirm on the web page, or other ways to accept the Service Terms, including but not limited to the actually using of Digivoice service without clicking to confirm the Service Terms, you have reached an agreement with JD Cloud and agreed to accept all agreed contents of the Service Terms. In case of any inconsistency between the text stamped by both parties and the text of Service Terms accepted and confirmed by clicking the web page or other ways, the text stamped by both parties shall prevail.**
 
  
 
@@ -8,7 +8,7 @@
 
 **1.** **Service Content**
 
-1.1 "Service" in the terms refers to the Digivoice service and related technical and network support services that JD Cloud provides to you at xdata.jdcloud.com. Including Data Factory service, Data Compute, JD MapReduce service, Stream Hub service and Stream Compute service.
+1.1 "Service" in the terms refers to the Digivoice service and related technical and network support services that JD Cloud provides to you at xdata.jdcloud.com. Including Data Integration Service, Data Factory Service, Data Compute, JD MapReduce service, Stream Hub service and Stream Compute service.
 
 1.2 The services provided by Digivoice must comply with the provisions of the Service Terms.
 

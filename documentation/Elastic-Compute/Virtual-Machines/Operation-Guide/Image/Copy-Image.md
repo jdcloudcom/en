@@ -7,11 +7,13 @@ The image replication operation includes, first, it copies the cloud disk snapsh
 * The replication operation can only be supported by the private image with the type of "Cloud System Disk" and the status of "Available", If you want to replicate the "Local System Disk" private image, please convert it to the "Cloud System Disk" image through [Image Type Conversion](../Operation-Guide/Image/Convert-Image.md) first.
 * You must ensure that the quotas in the target region are sufficient before the operation, because the replication operation will occupy the quota of the private image and the cloud disk snapshot in the target region.
 
-## Precautions
-* Image replication supports batch operations, and it can replicate up to 5 images in a single operation;
-* The target region cannot be the current region where the image located, and only one region can be selected for one time;
-* The copy image name is the same as the original image's by default in order to identify its source, and the source image information (source image region and ID) is automatically added in the description;
-* The replication operation does not change the status of the source image. But the image cannot be deleted and the replication request cannot be submitted again until the replication operation is complete, and the rest of the operations (viewing, information modifying, VM Instance creating, etc.) are not affected.
+		Note:
+		* Image replication supports batch operations, and it can replicate up to 5 images in a single operation;
+		* The target region cannot be the current region where the image located, and only one region can be selected for one time;
+		* The copy image name is the same as the original image's by default in order to identify its source, and the source image information (source image region and ID) is automatically added in the description;
+        * The replication operation does not change the status of the source image. But the image cannot be deleted and the replication request cannot be submitted again until the replication operation is complete, and the rest of the operations (viewing, information modifying, VM Instance creating, etc.) are not affected;
+        * Private images including encrypted snapshot do not support replication temporarily.
+
 
 ## Operation Steps
 1. Access [Image Console][1] to enter the image list page. Or access [JD Cloud Console][2] Click navigation bar on the left **Elastic Compute** - **Virtual Machines** - **Image** to enter the image list page.
@@ -26,7 +28,7 @@ The image replication operation includes, first, it copies the cloud disk snapsh
  
  
  
- ## Related Reference
+## Related Reference
  
 [Image Type Conversion](../Operation-Guide/Image/Convert-Image.md)
 

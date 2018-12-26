@@ -15,8 +15,6 @@
             href: Virtual-Machines/attachDisk.md
           - name: attachNetworkInterface
             href: Virtual-Machines/attachNetworkInterface.md
-          - name: createImage
-            href: Virtual-Machines/createImage.md
           - name: createInstances
             href: Virtual-Machines/createInstances.md
           - name: deleteInstance
@@ -55,6 +53,8 @@
             href: Virtual-Machines/stopInstance.md
       - name: Image
         items:
+          - name: createImage
+            href: Image/createImage.md          
           - name: copyImages
             href: Image/copyImages.md
           - name: deleteImage
@@ -75,10 +75,19 @@
             href: Image/shareImage.md
           - name: unShareImage
             href: Image/unShareImage.md
+      - name: SSH Key Pair
+          - name: createKeypair
+            href: SSH-Keypair/createKeypair.md
+          - name: importKeypair
+            href: SSH-Keypair/importKeypair.md
+          - name: describeKeypairs
+            href: SSH-Keypair/describeKeypairs.md
+          - name: deleteKeypair
+            href: SSH-Keypair/deleteKeypair.md
       - name: Specification Type
         items:
           - name: describeInstanceTypes
-            href: Specification-Type/describeInstanceTypes.md
+            href: Instance-Type/describeInstanceTypes.md
       - name: Quota
         items:
           - name: describeQuotas

@@ -86,6 +86,8 @@ items:
   items:
   - name: Best Practices
     href: Best-Practices/BestPractices.md
+  - name: Use example to construct API
+    herf: Best-Practices/example_for_create_api.md
 - name: FAQ
   href: FAQ/faq.md
 - name: Related Resources

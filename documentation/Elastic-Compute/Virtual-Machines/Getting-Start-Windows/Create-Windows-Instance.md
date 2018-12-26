@@ -27,20 +27,28 @@
 ![](../../../../image/vm/Getting-Start-Linux-Create-type.png)
 
 8. Configure Instance Storage:
-   * Virtual Machines System Disk: Support local disk and Cloud Disk, where the local disk has 40GB for free, and the capacity cannot be changed. The cloud disk supports 40GB~500GB.                   
-   * Virtual Machines Data Disk: If the system disk is a local disk, it supports attaching 8 data disks. If the system disk is a cloud disk, it supports attaching 7 data disks. The data disk can be premium Hdd cloud disk and SSD cloud disk. After the cloud disk is attached to the Virtual Machines, it requires entering the VM operating system to attach the cloud disk.       
+  * Virtual Machines System Disk: Support local disk and Cloud Disk, where the local disk has 40GB for free, and the capacity cannot be changed. The cloud disk supports 40GB~500GB.                   
+  * Virtual Machines Data Disk: If the system disk is a local disk, it supports attaching 8 data disks. If the system disk is a cloud disk, it supports attaching 7 data disks. The data disk can be premium Hdd cloud disk and SSD cloud disk. After the cloud disk is attached to the Virtual Machines, it requires entering the VM operating system to attach the cloud disk.       
    
-    You can create an empty disk of the specified type and capacity with the instance, or you can create a data disk based on an existing Cloud Disk Snapshot. It supports billing by configuration and setting of deletion on instance termination for non-multiple point attached cloud disk. If it is ticked, it will be deleted with the instance deletion. For the assignment rules of data disk device name, please refer to [Assignment Rules](../Operation-Guide/Cloud-Disk/Assign-Device-Name.md).      
+     You can create an empty disk of the specified type and capacity with the instance, or you can create a data disk based on an existing Cloud Disk Snapshot. For the assignment rules of data disk device name, please refer to [Assignment Rules](../Operation-Guide/Cloud-Disk/Assign-Device-Name.md).      
+     
+    It supports the attachment of encrypted cloud disks to Virtual Machines (which is not supported by the first generation of instance specification). The cloud disk encryption attribute may be specified at the time of creating a null disk. If the disk is created from snapshot, the cloud disk encryption attribute is inherited from the snapshot side. After the creation of a cloud disk, its encryption attribute cannot be modified. For details, please refer to [Cloud Disk Service Encryption](../Operation-Guide/Cloud-Disk/Encryption-of-Cloud-Disk.md). 
+    
+    It supports Pay By Configuration, and the attribute of deletion on instance termination may be set for the non-multi-point attached cloud disk. If the attribute is checked, the disk will be deleted when the instance is deleted.   
+    
 	The cost of the Cloud Disk is independent of the instance. For the specific price information, please refer to [Cloud Disk Price](http://docs.jdcloud.com/cn/cloud-disk-service/billing-rules).
+
 ![](../../../../image/vm/Getting-Start-Linux-Create-disk.png)
 
 9. Configure Instance Network:
+
    * Select VPC and Subnet: You need to create a VPC and a subnet in the VPC first. After the subnet is selected, the system will judge the number of Virtual Machines that can be created under the subnet. If there is no subnet temporarily, a new subnet can be created through the quick access and selected under "Virtual Machines Network". For details, please see [VPC](http://docs.jdcloud.com/virtual-private-cloud/product-overview) and [Subnet](http://docs.jdcloud.com/virtual-private-cloud/subnet-features).
    * Select Private IP Assignment Method: If there is no special requirement for the private IP address, you may not specify but let the system automatically assign within the available network segment in the subnet. If you need to specify it, please enter it in the prompt range and the system will verify whether the IP is available. It should be noted that if you choose to customize private IP address, you cannot create instance in batches.
    * Select Security Group: Association with a security group is required when an instance is being created. If no customized security group is created in current region, you can select one from the three default security groups created by the system for association (three default security groups are automatically created after each VPC is created successfully). Or, you can, through the quick access, go to the security group page to [Create Security Group](http://docs.jdcloud.com/virtual-private-cloud/security-group-configuration). Because the firewall in the public image system is disabled by default, it is recommended to bind with a security group with only 22 port (Linux) or 3389 port (Windows) opened. After the instance is created, create a new security group and associate with it according to the access requirements.    
 ![](../../../../image/vm/Getting-Start-Linux-Create-network.png)
 
 10. Configure EIP Bandwidth:
+
    * Billing by Bandwidth: JD Cloud provides elastic IP charged by fixed bandwidth and by traffic, the former is charged according to the bandwidth cap set when purchasing, which is not related to the actual access to the public network bandwidth, and the latter is charged according to the actual traffic of your real-time access to the public network.
    * IP Provider: Elastic IP provider is divided into BGP and non-BGP, and BGP is provided for a faster and more efficient network access.                
    * Bandwidth Range: 1Mbps~200Mbps.
@@ -70,6 +78,8 @@ If to purchase a monthly package instance, you need to set the purchase duration
 [Instance Type](../Introduction/Instance-Type-Family.md)
 
 [Device Name Assignment Rule](../Operation-Guide/Cloud-Disk/Assign-Device-Name.md)
+
+[Cloud Disk Service Encryption](../Operation-Guide/Cloud-Disk/Encryption-of-Cloud-Disk.md)
 
 [Cloud Disk Price](http://docs.jdcloud.com/cn/cloud-disk-service/billing-rules)
 

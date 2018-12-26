@@ -1,30 +1,24 @@
-# Open and Call API
+ # Getting Started Overview
 
-Before use, you need to register a JD Cloud account and finish real-name verification. If you don't have an account yet, please register.
+JD Cloud API Gateway provides API whole life cycle management, traffic control policy, access authorization, backend signature, API calling monitoring and other services. In addition to self-system integration and service aggregation, a user can also conveniently and safely open its business functions and data via API Gateway. You may complete the following steps in turn and open the API service at the console:
+ 
+![](../../../../image/Internet-Middleware/API-Gateway/struct-workflow.png)
 
-Apply for Open Beta Test: Click Apply for Open Beta Test on the API Gateway product page; the user will receive a notice (email or SMS) upon the operator's approval for open beta test, and may access console for use. The service is provided on the menu's Middleware - API Gateway. [Applicable During Open Beta Test]
-
-You can achieve the service opening through creation and configuration of API group. You can open the API service successfully only by completion of the following procedures in turns:
-
-* STEP1: Create API Groups
-
-* STEP2: Create the API under group
-
-* STEP3: Release the API groups to environment
-
-* STEP4: Associate the domain name and configure the traffic control policy and backend signature for the group
-
-* STEP5: Authorize the API caller to access
 
 
 
 
 ## Preconditions
-- JD Cloud account registered and real-name verification finished. If no account, please [Register]((https://accounts.jdcloud.com/p/regPage?source=jdcloud)，or [Real-name verification](https://uc.jdcloud.com/account/certify)
+- JD Cloud account registration is done and real-name verification is completed. If you don't have an account yet, please [register](https://accounts.jdcloud.com/p/regPage?source=jdcloud)。
 
 
-## Operational Steps
-### STEP1: Create API groups
+## Operation Steps
+###  Step 1: Enable the API Gateway service
+The product is currently under open beta test, please apply for open beta test: Click **Apply for Beta Tes**t on the API Gateway product page; the user will receive a notice (email or SMS) upon the operator's approval for open beta test, and may access to the console for use. The service is provided on the menu's Middleware, API Gateway.
+
+
+###  Step 2: Create an API group, and create an API under the group
+#### Create an API group
 
 1. Login [API gateway console](https://apigateway-console.jdcloud.com/apiGroupList).
 
@@ -33,9 +27,7 @@ You can achieve the service opening through creation and configuration of API gr
 3. Click OK after filling the group information to create the new group. When it is first created, the system will automatically save it as version 0.0.1. Thereafter, maintenance of multiple versions can be performed in Version Management.
 
 
-
-
-### STEP2: Create API under group
+#### Create API under group
 
 You can create API after completion of API group. Creation of API is a process of definition of API request. You need to define the following contents in creation:
 
@@ -45,8 +37,17 @@ You can create API after completion of API group. Creation of API is a process o
 
 
 
+###  Step 3: Configure the backend signature and traffic control policy and associate the customized domain for the group
 
-### STEP3: Publish the API group to environment
+- Configure the backend signature for the group.
+
+- Configure the traffic control policy for the group.
+
+- Associate the customized domain for the group, which is optional. API Gateway associates the domain based on API group. API Gateway locates the only API group through domain, and determines the only API through Path+HTTPMethod.
+
+
+
+### STEP4: Publish the API group to environment
 
 Publish the API group to the environment through **Publish** operation in the page of **API grouping management**
 
@@ -54,22 +55,19 @@ During publishing, select the environment (Test, pre-launch, online) required to
 
 
 
-### STEP4: Associate the domain name and configure the traffic control policy and backend signature for the group
 
-1. API gateway associates the domain name based on API group. The API gateway locates to an unique API group through the domain name, and then determines the unique API through the Path+HTTPMethod.
+###  Step 5: Provide authorization access to the API caller
 
-2. Perform the configuration and association of traffic control policy
+- Authorization Access
 
-3. Perform the configuration and association of backend signature
+When the API provider provides API calling through authorization access, API caller is required to create an access key pair for calling API, and provide the key pair to API provider for authorization association of the group. Before that, API caller cannot use the downloaded SDK package.
 
+- Access without Authentication
 
+When API provider provides API calling without authentication, API caller may directly access through the downloaded SDK.
 
+###  Step 6: API caller downloads and uses SDK package
 
-### STEP5: Authorize the API caller to access
-
-The authorization process is divided into two parts:
-
-(1) API caller creates the access key and offer it to the API provider.
-
-(2) API provider uses the access key offered by the API caller to access the API group
+- Easy Operation
+	- [Rapidly release and call an API application](../Best-Practices/example_for_create_api.md)
 
