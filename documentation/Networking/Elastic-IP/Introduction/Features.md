@@ -4,7 +4,7 @@ It is recommended to read the basic concepts related to Elastic IP before use of
 
 | Function | Description |
 | :- | :- |
-| Create Elastic IP | The users can purchase Elastic IP by clicking **Apply** on the Virtual Machine List Page, or purchase it when the users purchase the Virtual Machine or Load Balancer.
+| Create Elastic IP | The users can purchase Elastic IP by clicking **create** on the Elastic IP List Page, or purchase it when the users purchase the Virtual Machine or Load Balancer.
 | Delete Elastic IP | The users can delete Elastic IP by clicking **Delete** in the action bar on the Public IP List Page or clicking **Delete** in the dropdown menu under Action on the Public IP Details Page. Currently, it only supports users deleting the Elastic IP with the billing types of Pay By Configuration and pay by consumption. |
 | Elastic IP associating cloud resource | The users can associate Elastic IP with Virtual Machine, Load Balancer and other cloud resources by clicking **Associate Resource** in the action bar on the Elastic IP List Page, or associate Elastic IP  with corresponding cloud resource on the List page of Virtual Machine, Native Container,Load Balancer or other related resource.|
 | Elastic IP disassociating cloud resource | The users can disassociate Elastic IP from Virtual Machine, Load Balancer and other cloud resources by clicking **Disassociate Resource** in the action bar on the Elastic IP List Page, or disassociate Elastic IP from corresponding cloud resource on the List page of Virtual Machine, Native Container,Load Balancer or other related resource. |
