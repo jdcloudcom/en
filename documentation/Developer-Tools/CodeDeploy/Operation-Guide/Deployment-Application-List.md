@@ -8,4 +8,4 @@ The operation below is supported by the specified application:
 
 - Click the application name: Enter the Application Details
 - The deployment history can be viewed for specific applications
-- Specified applications can be deleted. Before deleting the application, please delete deployment groups within such application and only the application with null deployment groups can be deleted
+- Specified applications can be deleted. Before deleting the application, please delete deployment groups within such application

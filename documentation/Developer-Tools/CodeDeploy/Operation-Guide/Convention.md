@@ -25,7 +25,7 @@ Instance Status of the application details page, deployment history page and dep
 **Load Balancer**
 
 - CodeDeploy will not automatically create the listening port in the Load Balancer instance
-- In the specified Load Balancer instance, the count of monitoring ports has a maximum limit. See the Load Balancer Documentation for details
+- In the specified Load Balancer instance, the count of monitor has a maximum limit. See the Load Balancer Documentation for details
 - One Load Balancer backend service can only associate with one Load Balancer virtual server group
 - When the rollback deployment is not performed for the first time, it will add to or delete a Virtual Machine instance the Load Balancer virtual server group
 - When the blue and green deployment is not performed for the first time, it will create a virtual server group and delete the old virtual server group

@@ -9,7 +9,7 @@ redirect to the "New Application" page.
 
 On the "New Application" page, first fill in the application information. Application name: codedeploy-app-demo01
 
-![Alt text](https://github.com/jdcloudcom/cn/blob/codedeploy/image/CodeDeploy/starting6.png)
+![Alt text](https://github.com/jdcloudcom/cn/blob/codedeploy/image/CodeDeploy/operation18.png)
 
 Click **Create** to create the application.
 

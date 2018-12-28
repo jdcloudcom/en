@@ -22,4 +22,4 @@ Taking the concurrency setting of 2 sets as example, the application deployment 
 
 After filling in the basic information of application and deployment group, please click **Create** to create the application and the deployment group in the application.
 
-It will redirect to the "Application" page after created.
+It will redirect to the "Application Details" page after created.

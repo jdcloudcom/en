@@ -59,8 +59,8 @@
         href: Operation-Guide/Details2.md
       - name: Deployment Workflow
         href: Operation-Guide/Workflow.md
-      - name: AppSec File
-        href: Operation-Guide/AppSec.md
+      - name: AppSpec File
+        href: Operation-Guide/AppSpec.md
       - name: Agent Installation
         href: Operation-Guide/Install-Agent.md
       - name: Agreement
