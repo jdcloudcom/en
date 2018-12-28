@@ -39,13 +39,13 @@ Enterprise real-name verification process: 1. Select the enterprise type  > 2. S
  <div align=center><img src="https://github.com/jdcloudcom/en/blob/en-signin-signup/image/User/Real%20name%20verification/Business%20account%20verification%20en/%E5%AE%A1%E6%A0%B8%E4%B8%AD.png"></div>   
  
  5. Information review is passed and the payment is to be made
- <div align=center><img src=" "></div>   
 
  6. Payment to corporate account is successful and waiting for verification
-<div align=center><img src="https://github.com/jdcloudcom/cn/blob/edit/image/User/Real%20name%20verification/Business%20account%20verification/%E5%AF%B9%E5%85%AC%E6%89%93%E6%AC%BE%E6%88%90%E5%8A%9F%EF%BC%8C%E5%BE%85%E9%AA%8C%E8%AF%81.png"></div>   
+<div align=center><img src="https://github.com/jdcloudcom/en/blob/en-signin-signup/image/User/Real%20name%20verification/Business%20account%20verification%20en/回填打款金额.png"></div>   
  
 
  7. The payment to corporate account is verified.
-<div align=center><img src="https://github.com/jdcloudcom/cn/blob/edit/image/User/Real%20name%20verification/Business%20account%20verification/%E5%AF%B9%E5%85%AC%E6%89%93%E6%AC%BE%E9%AA%8C%E8%AF%81%E9%80%9A%E8%BF%87%E3%80%82.png"></div>   
-
+ <div align = center><img src = "https://github.com/jdcloudcom/en/blob/en-signin-signup/image/User/Real%20name%20verification/Business%20account%20verification%20en/通过en.png"></div>
+ 
+<div align=center><img src="https://github.com/jdcloudcom/en/blob/en-signin-signup/image/User/Real%20name%20verification/Business%20account%20verification%20en/冻结en.png"></div>   
 Note: If the verification of the payment to corporate account amount fails for 5 consecutive times, and the real-name verification fails, the account will be frozen for 24 hours.
