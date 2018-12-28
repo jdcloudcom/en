@@ -1,0 +1,75 @@
+swagger: "2.0"
+info:
+  title: apiName
+  description: petstore api
+  version: 1.0
+basePath: ''
+paths:
+  /pets/{petId}:
+    get:
+      operationId: getPetInfo
+      description: get one pet info
+      parameters:
+      - name: petId
+        in: path
+        description: ID of pet to return
+        required: true
+        type: integer
+        default: 1
+        format: int32
+      responses:
+        200:
+          description: successful operation
+          schema:
+            type: object
+            properties:
+              price:
+                description: petprice
+                type: number
+              id:
+                description: petId
+                type: integer
+              type:
+                description: pettype
+                type: string
+  /pets:
+    post:
+      operationId: createPet
+      description: add one pet
+      parameters:
+        - in: body
+          name: body
+          description: Pet object that needs to be added to the store
+          required: true
+          schema:
+            type: object
+            properties:
+              price:
+                description: petprice
+                type: number
+              id:
+                description: petId
+                type: integer
+              type:
+                description: pettype
+                type: string
+      responses:
+        "200":
+          description: OK
+          schema:
+            type: object
+            properties:
+              message:
+                type: string
+              pet:
+                type: object
+                properties:
+                  price:
+                    description: petprice
+                    type: string
+                  id:
+                    description: petId
+                    type: integer
+                  type:
+                    description: pettype
+                    type: string
