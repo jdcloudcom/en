@@ -10,6 +10,6 @@ User Pin is the only identifier of your JD account. You can check it by two meth
 3. In the Personal Information > Basic Information page, the information of "User Name" is your user Pin.
 ![](../../../image/User/Account%20Management/Check%20your%20account/%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF.png)
 
-## Method 2: Log in JD Cloud to view
+## Method 2: Log in JD Cloud to check
 The second method to view User Pin is to log in JD Cloud and find and click **Account Management** to enter Account Management > Basic Information and then you can find information of "User Pin".
 ![](https://github.com/jdcloudcom/en/blob/en-signin-signup/image/User/Account%20Management/Check%20your%20account/%E4%BA%AC%E4%B8%9C%E4%BA%91%E6%9F%A5%E7%9C%8B%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF.png)
