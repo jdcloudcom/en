@@ -48,4 +48,5 @@ Enterprise real-name verification process: 1. Select the enterprise type  > 2. S
  <div align = center><img src = "https://github.com/jdcloudcom/en/blob/en-signin-signup/image/User/Real%20name%20verification/Business%20account%20verification%20en/通过en.png"></div>
  
 <div align=center><img src="https://github.com/jdcloudcom/en/blob/en-signin-signup/image/User/Real%20name%20verification/Business%20account%20verification%20en/冻结en.png"></div>   
+
 Note: If the verification of the payment to corporate account amount fails for 5 consecutive times, and the real-name verification fails, the account will be frozen for 24 hours.
