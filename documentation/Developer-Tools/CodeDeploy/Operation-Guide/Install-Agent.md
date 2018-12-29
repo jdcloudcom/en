@@ -1,10 +1,10 @@
 ## Agent Installation
 
-Installation of Agent in Linux is supported only
+Installation of Agent in Linux is supported only.
 
 **Install**
 
-Agent status will be automatically obtained when creating an application/deployment group and selecting the deployment target.
+Agent status will be automatically obtained when creating/editing a deployment group and selecting the deployment target.
 
 For manual installation, please log in the machine which is intended to be installed/is abnormal and execute commands below depending on regions of the Virtual Machines.
 

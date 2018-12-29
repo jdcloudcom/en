@@ -25,7 +25,7 @@ The rolling deployment is a deployment method for replacing versions in order an
 ![Alt text](https://github.com/jdcloudcom/cn/blob/codedeploy/image/CodeDeploy/rollingdeploy5.png)
 
 
-For the first deployment, the virtual server group will be automatically created in the name of deploy_R_\${group id}_${random string} and will be associated with the backend service of specified Load Balancer.
+For the first deployment, the virtual server group will be automatically created in the name of deploy_R_${group id}_${random string} and will be associated with the backend service of specified Load Balancer.
 
 As the backend service of a Load Balancer can only be associated with a virtual server group, the virtual server group associated with the backend service originally will be replaced by the virtual server group created by default at the time of first deployment, and then be kept and not be subject to any treatment.
 
@@ -39,7 +39,7 @@ For the first deployment:
 
 ![Alt text](https://github.com/jdcloudcom/cn/blob/codedeploy/image/CodeDeploy/rollingdeploy7.png)
 
-3) After the deployment is successfully made, the virtual server group will be created in the name of deploy_R_\${group id}_${random string} (in the specified Load Balancer instance), these machines will be registered in the virtual server group, and the virtual server group will be associated with the backend service of the specified Load Balancer.
+3) After the deployment is successfully made, the virtual server group will be created in the name of deploy_R_${group id}_${random string} (in the specified Load Balancer instance), these machines will be registered in the virtual server group, and the virtual server group will be associated with the backend service of the specified Load Balancer.
 
 ![Alt text](https://github.com/jdcloudcom/cn/blob/codedeploy/image/CodeDeploy/rollingdeploy8.png)
 
@@ -47,7 +47,7 @@ For the first deployment:
 
 ![Alt text](https://github.com/jdcloudcom/cn/blob/codedeploy/image/CodeDeploy/rollingdeploy9.png)
 
-The specific steps of rolling deployment are as above. Another deployment is specified as below:
+The specific steps of rolling deployment are as above. Another deployment type is specified as below:
 
 **Blue and Green Deployment**
 
@@ -61,13 +61,17 @@ Blue and green deployment is an on-line deployment method insuring that the syst
 
 ![Alt text](https://github.com/jdcloudcom/cn/blob/codedeploy/image/CodeDeploy/bluegreendeploy2.png)
 
-3) When the green group deployment is made, please register the green group host in the virtual server group list associated with the backend service of a specified Load Balancer (in the name of deploy_G_\${group id}\_\${random string}, and the virtual server group is automatically created). At the same time, please delete the virtual server group in the name of deploy_B_\${group id}_${random string} of the blue group. In other words, the traffic routing is changed from the blue group to the green group, and the green group rather than the blue group will provide service.
+3) When the green group deployment is made, please register the green group host in the virtual server group list associated with the backend service of a specified Load Balancer (in the name of deploy_G_${group id}_${random string}. and the virtual server group is automatically created).
+
+At the same time, please delete the virtual server group in the name of deploy_B_${group id}_${random string} of the blue group. In other words, the traffic routing is changed from the blue group to the green group, and the green group rather than the blue group will provide service.
 
 ![Alt text](https://github.com/jdcloudcom/cn/blob/codedeploy/image/CodeDeploy/bluegreendeploy3.png)
 
 Since then, the blue group will be updated to V4 for another deployment and take over traffic, while the green group will not take over traffic anymore.
 
-For the first deployment, the virtual server group will be automatically created in the name of deploy_B_\${group id}_${random string} and will be associated with the backend service of specified Load Balancer:
+Please note that the CodeDeploy can only be used for operating a specific virtual server group associated with the backend service of a specified Load Balancer in the deployment page created by you.
+
+For the first deployment, the virtual server group will be automatically created in the name of deploy_B_${group id}_${random string} and will be associated with the backend service of specified Load Balancer:
 
 1) Before launching, all machines in the deployment group (blue group and green group) can provide service by virtual of not taking over the traffic.
 
@@ -77,9 +81,22 @@ For the first deployment, the virtual server group will be automatically created
 
 ![Alt text](https://github.com/jdcloudcom/cn/blob/codedeploy/image/CodeDeploy/bluegreendeploy5.png)
 
-3) After the deployment is successfully made, the virtual server group will be created in the name of deploy_B_\${group id}_${random string} (in the specified Load Balancer instance), the blue group machines will be registered in the virtual server group, and the virtual server group will be associated with the backend service of the specified Load Balancer. To this extent, the blue group can provide service by virtue of taking over traffic. No operation is made by the green group.
+3) After the deployment is successfully made, the virtual server group will be created in the name of deploy_B_${group id}_${random string} (in the specified Load Balancer instance), the blue group machines will be registered in the virtual server group, and the virtual server group will be associated with the backend service of the specified Load Balancer. To this extent, the blue group can provide service by virtue of taking over traffic. No operation is made by the green group.
 
 ![Alt text](https://github.com/jdcloudcom/cn/blob/codedeploy/image/CodeDeploy/bluegreendeploy6.png)
 
 
-Please note that the CodeDeploy can only be sued for operating a specific virtual server group associated with the backend service of a specified Load Balancer in the deployment page created by you.
+**Naming Rules for Automatically-created Virtual Server Group of Load Balancer**
+
+deploy_R_${group id}_${random string}: Virtual Server Group at the Time of Rolling Deployment
+
+deploy_B_${group id}_${random string}: Virtual Server Group Corresponding to the Blue Group in Case of Blue and Green Deployment
+
+deploy_G_${group id}_${random string}: Virtual Server Group Corresponding to the Green Group in Case of Rolling Deployment
+
+Descriptions for the variable therein are as follows:
+
+| Variable      |    Explanation |
+| :--------: | :--------:|
+| ${group id}  | Deployment group ID, which can be viewed on the application details page |
+| ${random string}  | Random Number |
