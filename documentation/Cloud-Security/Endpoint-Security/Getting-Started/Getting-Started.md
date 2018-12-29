@@ -1,6 +1,6 @@
 - ### I.    Applicable Scope
 
-  Endpoint Security product is only applicable to JD Cloud virtual machines and it is not applicable to both virtual machines of other cloud vendors and physical machines. Please confirm that Endpoint Security package is installed and running on JD Cloud virtual machines.
+  Endpoint Security product is only applicable to JD Cloud virtual machines and it is not applicable to both Virtual Machines of other cloud vendors and physical machines. Please confirm that Endpoint Security package is installed and running on JD Cloud virtual machines.
 
   ### II.    Official Download Link
 
@@ -30,7 +30,7 @@
 
   1. Get software:
 
-  Please confirm that the Endpoint Security software package has been downloaded on the virtual machines, shown as in Figure 1:
+  Please confirm that the Endpoint Security software package has been downloaded on the Virtual Machines, shown as in Figure 1:
 
   ![img](https://img1.jcloudcs.com/cms/52a493d5-3005-41e0-92ae-a7ad111529ad20170626123325.png)
 
@@ -89,7 +89,7 @@
       $ tar xvf jcloudhids_linux64_v1.0.tar.gz
   3. Enter unzipped file path:
       $ cd jcloudhids_linux64_v1.0/
-  4. The user need sudo privilege to install the program:
+  4. The user need sudo permission to install the program:
       $ sudo ./install.py
   5. Installation finished, shown as in Figure 9:
       $ sudo ./install.py
