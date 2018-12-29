@@ -549,24 +549,24 @@ The price of JD Cloud's VM instance mainly includes: instance price (vCPU and me
       <td>p.n1v100.2xlarge</td>
       <td>8</td>
       <td>44</td>
-      <td>7569</td>
-      <td>26.203</td>
+      <td>5969</td>
+      <td>20.73</td>
       <td></td>
    </tr>
    <tr>
       <td>p.n1v100.5xlarge</td>
       <td>20</td>
       <td>110</td>
-      <td>15622.5</td>
-      <td>54.088</td>
+      <td>12422.5</td>
+      <td>43.13</td>
       <td></td>
    </tr>
    <tr>
       <td>p.n1v100.10xlarge</td>
       <td>40</td>
       <td>220</td>
-      <td>31245</td>
-      <td>108.175</td>
+      <td>24845</td>
+      <td>86.27</td>
       <td></td>
    </tr>
 
