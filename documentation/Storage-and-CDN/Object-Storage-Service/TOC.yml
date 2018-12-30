@@ -64,7 +64,11 @@ items:
            - name: Callback Notification
              href: Operation-Guide/Manage-Bucket/Callback-Notification-2.md
            - name: Encrypted by Default
-             href: Operation-Guide/Manage-Bucket/Default-Encryption-For-Oss-Buckets-2.md             
+             href: Operation-Guide/Manage-Bucket/Default-Encryption-For-Oss-Buckets-2.md
+           - name: Image Back-to-origin Setting
+             href: Operation-Guide/Manage-Bucket/Manage-Origin-Retrieval-Settings-2.md
+           - name: Edge Storage
+             href: Operation-Guide/Manage-Bucket/edgeStorage.md
       - name: Object Management
         items:
           - name: Create Folder

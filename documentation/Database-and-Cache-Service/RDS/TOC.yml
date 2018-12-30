@@ -152,7 +152,9 @@
         items:
         - name: Set White List
           href: Operation-Guide/Security/Set-Whitelist.md
-       
+        - name: Transparent Data Encryption TDE
+          href: Operation-Guide/Security/tde.md
+          
       - name: Cloud on Single Database
         items:
         - name: Cloud on Single Database Introduction
@@ -170,13 +172,13 @@
         items:
          - name: Create Parameter Group 
            href: Operation-Guide/Parameter-Group/Creat-Parameter-Group.md
+         - name: Modify parameter set
+           href: Operation-Guide/Parameter-Group/Modify-Parameter-Group.md
          - name: Copy Parameter Group 
            href: Operation-Guide/Parameter-Group/Copy-Parameter-Group.md
          - name: Delete Parameter Group 
            href: Operation-Guide/Parameter-Group/Delete-Parameter-Group.md
          - name: Modify Parameter Group
-           href: Operation-Guide/Parameter-Group/Modify-Parameter-Group.md
-         - name: Modify Parameter
            href: Operation-Guide/Parameter-Group/Modify-Parameter.md
          - name: Modify History 
            href: Operation-Guide/Parameter-Group/Parameter-Group-History.md

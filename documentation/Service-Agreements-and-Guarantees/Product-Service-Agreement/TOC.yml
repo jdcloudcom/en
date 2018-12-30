@@ -86,3 +86,11 @@ items:
     href: DDoS-Protection-Package-Terms-Of-Service-SLA.md
   - name: JCS for Elasticsearch Service Terms
     href: JCS-for-Elasticsearch-Service-Terms.md
+  - name: Service Level Agreement (SLA) of JCS for Elasticsearch
+    href: JCS-for-Elasticsearch-Service-Terms-SLA.md  
+  - name: Service Terms of Function Service
+    href: Functional-Service-Terms-of-Service.md
+  - name: Service Terms of JD WorkSpaces
+    href: Cloud-Desktop-Service-Protocol.md   
+  - name: Service Level Agreement (SLA) of JD WorkSpaces
+    href: Cloud-Desktop-Service-ProtocolSLA.md

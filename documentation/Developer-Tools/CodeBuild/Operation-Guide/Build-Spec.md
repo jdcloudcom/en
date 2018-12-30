@@ -5,16 +5,17 @@ The creation specification is a compiling script used for creating commands and 
 The creation specification syntax is as follows:
 
 ```
-envs:
-name: TEST_ENV
-value: test
 cmds:
-name: who
-cmd: id
-name: see
-cmd: pwd
-name: build
-cmd: ./build.sh
-out_dir: output
+  - name: 'list current dir'
+    cmd: 'ls'
+  - name: 'make output dir'
+    cmd: 'mkdir -p output'
+  - name: 'touch some files'
+    cmd: 'touch a b c'
+  - name: 'copy to output dir'
+    cmd: 'cp a b c output'
+
+# Package-extracting path is the required choice
+out_dir: 'output'
 ```
 

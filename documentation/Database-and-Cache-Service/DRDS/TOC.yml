@@ -13,8 +13,6 @@
         href: Introduction/Core-Concepts.md        
       - name: Specifications
         href: Introduction/Specifications.md       
-      - name: Open Beta Test Description 
-        href: Introduction/Public-Beta-Introduction.md
   - name: Pricing
     items:
       - name: Billing Overview
@@ -33,6 +31,8 @@
             href: Operation-Guide/Instance/Connect-Instance.md
           - name: Delete Instance
             href: Operation-Guide/Instance/Delete-Instance.md
+          - name: Resize
+            href: Operation-Guide/Instance/Modify-Instance-Spec.md            
       - name: Account Management
         items:
           - name: Create Account

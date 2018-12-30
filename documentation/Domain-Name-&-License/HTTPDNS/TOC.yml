@@ -4,29 +4,29 @@
   - name: Introduction
     items:
       - name: Product Overview
-        href: Introduction/Introduction.md
+        href: Introduction/Product-Overview.md
       - name: Benefits
-        href: Introduction/advantage.md
+        href: Introduction/Benefits.md
       - name: Application Scenarios 
-        href: Introduction/scene.md    
+        href: Introduction/Application-Scenarios.md
   - name: Quick Start
     items:
       - name: Use Method
-        href: Getting-Started/start1.md 
+        href: Getting-Started/Quick-Start.md
       - name: Restrictions
         href: Getting-Started/Restriction-Description.md     
   - name: Operation Guide
     items:
-    - name: Add Website
-      href: Operation-Guide/Add.md
-    - name: Access Domain
-      href: Operation-Guide/Count.md
-    - name: Modify Domain
-      href: Operation-Guide/use.md
+    - name: Add Domain
+      href: Operation-Guide/Add-Name.md
+    - name: Data Statistics
+      href: Operation-Guide/Data-Count.md
+    - name: Resolved Domain
+      href: Operation-Guide/Interface-Specification.md
   - name: FAQ
     items:
     - name: Principle of HTTP DNS
-      href: FAQ/Principle.md.md  
+      href: FAQ/Principle.md 
   - name: Related Resources
     items:
     - name: Document History Records
