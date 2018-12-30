@@ -1,0 +1,67 @@
+name: Log Service
+href: 
+items:
+- name: Introduction
+  items:
+    - name: Product Overview
+      href: Introduction/Product-Overview.md
+    - name: Core Concepts
+      href: Introduction/Core-Concepts.md
+    - name: Benefits
+      href: Introduction/Benefits.md
+    - name: Features
+      href: Introduction/Features.md
+    - name: Restrictions
+      href: Introduction/Restrictions.md
+    - name: Application Scenarios 
+      href: Introduction/Application-Scenarios.md
+    - name: Cloud Product Log Description
+      items:
+        - name: Application Security Gateway Log
+          href: Introduction/ResourceLog/WAFLog.md  
+- name: Product Pricing
+  items:
+    - name: Billing Overview
+      href: Pricing/Billing-Overview.md
+- name: Getting Started
+  items:
+    - name: Getting Started
+      href: Getting-Started/LogService-Started.md
+- name: Operation Guide
+  items:
+    - name: Log Collection
+      items:
+        - name: Cloud Product Log Collection
+          href: Operation-Guide/LogCollection/CloudResource.md
+    - name: Log Management
+      items:
+        - name: Log Collection Management
+          href: Operation-Guide/LogSet/LogSetManagement.md
+        - name: Log Subject Management
+          href: Operation-Guide/LogSet/LogTopicManagement.md
+        - name: Log Configuration Management
+          href: Operation-Guide/LogSet/collectionConfigManagement.md
+    - name: Log Retrieval
+      items:
+        - name: Log Retrieval Syntax
+          href: Operation-Guide/LogSearch/LS-grammar.md
+        - name: Full Text Retrieval
+          href: Operation-Guide/LogSearch/fullTextSearch.md
+        - name: Key Value Retrieval
+          href: Operation-Guide/LogSearch/KVSearch.md
+- name: Best Practices
+  items:
+    - name: Application Security Gateway Log
+      href: Best-Practices/Practice-waf.md
+- name: FAQ
+  href: FAQ/FAQ.md
+- name: Document History Records
+  href: Related-Resources/Document-History.md  
+- name: Service Terms         
+  status: 0      
+- name: SLA         
+  status: 0       
+- name: ICP Filing         
+  status: 0        
+- name: Glossary          
+  status: 0
