@@ -26,13 +26,13 @@ You can create clusters via the console of JCS for Elasticsearch. For billing in
 5. Set the machine specification related parameters of the cluster.</br>
 
 * "Node Specification": Currently supports six specifications, including: 1 core 2G, 2 core 4G, 2 core 8G, 4 core 16G, 8 core 32G and 16 core 64G. Different virtual machine specifications can be selected according to specific business conditions, wherein 1 core 2G is only applicable to testing, not to production environment.</br>
-* "Single Point Storage Specification": Single point storage specification range is 20-200GB, and integers can be entered.</br>
+* "Single Point Storage Specification": Single point storage specification range is 20-1000GB, and integers can be entered.</br>
 * "Number of Nodes": Single point storage specification range is 1-15 and 1 node is selected by default. Where the input range is larger or smaller than the specified range, the maximum number of nodes and the minimum number of nodes will be displayed.</br>
   ![查询1](https://github.com/jdcloudcom/cn/blob/Elasticsearch/image/Internet-Middleware/JCS%20for%20Elasticsearch/ES5.png)
   
 6. Set a dedicated master node. Since disabling the dedicated master node can improve the cluster stability, it is recommended to disable it.
 
-* "Specification of dedicated master node": 2-core 8G and 4-core 16G are supported.</br>
+* "Specification of dedicated master node": 2-core 8G and 4-core 16G and 8-core 32G are supported.</br>
 * "Number of dedicated master node": For most instances, three dedicated master nodes are applicable.</br>
 * "Storage of dedicated master node": Fixed 20G.</br>
 ![查询1](https://github.com/jdcloudcom/cn/blob/Elasticsearch/image/Internet-Middleware/JCS%20for%20Elasticsearch/ES7.png)

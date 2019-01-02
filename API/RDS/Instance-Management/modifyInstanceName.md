@@ -2,7 +2,7 @@
 
 
 ## Description
-Modify the instance name, which may support Chinese, and the specific rules of instance name may refer to the help center document: [name and password restrictions](../../../documentation/Cloud-Database-and-Cache/RDS/Introduction/Restrictions/SQLServer-Restrictions.md)<br>- only support SQL Server
+Modify the instance name, which may support Chinese, and the specific rules of instance name may refer to the help center document: [name and password restrictions](../../../documentation/Cloud-Database-and-Cache/RDS/Introduction/Restrictions/SQLServer-Restrictions.md)
 
 ## Request Method
 POST

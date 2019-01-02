@@ -29,7 +29,7 @@ Security incident development trend: Make the user understand development trend 
 Incident statistics: Provide security incident distribution of warnings, threats and vulnerability of different levels
 
 
-Visualization Screen Image Overview
+![](../../../../image/Situational-Awareness/overview.png)
 
 
 #### Network Security Situation
@@ -44,7 +44,7 @@ The visualization screen of network security situation includes: the statistics 
  * Advanced threat incident: advanced threat type and Top 5 risk machines. 
 
 
-Visualization Screen Picture of Network Security Situation
+![](../../../../image/Situational-Awareness/network.png)
 
 #### Endpoint Security Situation
 
@@ -55,4 +55,4 @@ The visualization screen of Endpoint Security situation comprises: the machine s
  * The machine intrusion detection incident comprises: the attack type distribution, the real-time warning, the affected asset and the proportion of affected asset.
  * Machine vulnerability: Risk distribution, vulnerability distribution, affected asset and proportion of affected asset. 
  
-Visualization Screen Image of Endpoint Security Situation
+![](../../../../image/Situational-Awareness/host.png)

@@ -14,5 +14,5 @@ Currently, the sources supported by JD Cloud’s tag management include the type
  - SQL Server Database
  - JCS for Memcached
  - JCS for Elasticsearch
- 
+ - DRDS
 There will be a follow-up increase of resources of the types that support to associate tags

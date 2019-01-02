@@ -9,7 +9,7 @@ Create registry through parameters.
 POST
 
 ## Request Address
-https://openapi.cr.jdcloud.com/v1/regions/{regionId}/registries
+https://containerregistry.jdcloud-api.com/v1/regions/{regionId}/registries
 
 |Name|Type|Required or Not|Default|Description|
 |---|---|---|---|---|
@@ -39,7 +39,7 @@ https://openapi.cr.jdcloud.com/v1/regions/{regionId}/registries
 |**description**|String|Registry Description, <a href="https://www.jdcloud.com/help/detail/3870/isCatalog/1">refer to the public parameter specification</a>.|
 |**name**|String|Registry Name, <a href="https://www.jdcloud.com/help/detail/3870/isCatalog/1">refer to the public parameter specification</a>.|
 |**registryUri**|String|registry endporint url|
-|**totalSpaceUsedMB**|Number|regsitry Total Bucket Unit Used by Registry (MB)|
+|**totalSpaceUsedMB**|Double|regsitry Total Bucket Unit Used by Registry (MB)|
 
 ## Return Code
 |Return Code|Description|

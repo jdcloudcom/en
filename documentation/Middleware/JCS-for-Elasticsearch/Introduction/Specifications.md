@@ -5,4 +5,4 @@ JCS for Elasticsearch provides a variety of node instance type. Users can config
 
 * Number of Nodes (1-15).
 
-* Single point storage, adopting ZBS service (20-200G SSD) (step length of 10 GB).
+* Single point storage, adopting ZBS service (20-1000G SSD) (step length of 10 GB).

@@ -10,7 +10,7 @@
 GET
 
 ## Request Address
-https://openapi.cr.jdcloud.com/v1/regions/{regionId}/registries/{registryName}/tokens
+https://containerregistry.jdcloud-api.com/v1/regions/{regionId}/registries/{registryName}/tokens
 
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|

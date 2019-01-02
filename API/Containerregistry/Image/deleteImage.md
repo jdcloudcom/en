@@ -13,7 +13,7 @@ For example, sha256:examplee6d1e504117a17000003d3753086354a38375961f2e665416ef4b
 POST
 
 ## Request Address
-https://openapi.cr.jdcloud.com/v1/regions/{regionId}/registries/{registryName}/repositories/{repositoryName}:deleteImage
+https://containerregistry.jdcloud-api.com/v1/regions/{regionId}/registries/{registryName}/repositories/{repositoryName}:deleteImage
 
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|

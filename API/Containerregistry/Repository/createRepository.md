@@ -11,7 +11,7 @@ Partition with segment line or underline is supported, but dot '.' and connectio
 POST
 
 ## Request Address
-https://openapi.cr.jdcloud.com/v1/regions/{regionId}/registries/{registryName}/repositories
+https://containerregistry.jdcloud-api.com/v1/regions/{regionId}/registries/{registryName}/repositories
 
 |Name|Type|Required or Not|Default|Description|
 |---|---|---|---|---|

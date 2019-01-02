@@ -9,7 +9,7 @@ Delete a registry under a specified user.
 DELETE
 
 ## Request Address
-https://openapi.cr.jdcloud.com/v1/regions/{regionId}/registries/{registryName}
+https://containerregistry.jdcloud-api.com/v1/regions/{regionId}/registries/{registryName}
 
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|

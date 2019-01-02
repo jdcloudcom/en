@@ -9,7 +9,7 @@ Describe repository under registry of specified by the user. </br>
 POST
 
 ## Request Address
-https://openapi.cr.jdcloud.com/v1/regions/{regionId}/listRepositories
+https://containerregistry.jdcloud-api.com/v1/regions/{regionId}/listRepositories
 
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
@@ -48,7 +48,7 @@ https://openapi.cr.jdcloud.com/v1/regions/{regionId}/listRepositories
 |**registryName**|String|Registry Name.|
 |**repositoryName**|String|Repository Name.|
 |**repositoryUri**|String|Total Number of Images in Repository|
-|**totalSpaceUsedMB**|Number|Repository Size|
+|**totalSpaceUsedMB**|Double|Repository Size|
 |**updatedAt**|String|Record the repository update time by the user.|
 
 ## Return Code

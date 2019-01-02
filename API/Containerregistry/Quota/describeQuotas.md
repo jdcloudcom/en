@@ -8,7 +8,7 @@ Query Quota
 GET
 
 ## Request Address
-https://openapi.cr.jdcloud.com/v1/regions/{regionId}/quotas
+https://containerregistry.jdcloud-api.com/v1/regions/{regionId}/quotas
 
 |Name|Type|Required or Not|Default|Description|
 |---|---|---|---|---|

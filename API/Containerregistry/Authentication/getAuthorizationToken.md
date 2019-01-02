@@ -11,7 +11,7 @@ may complete the assigned registry authentication after decoding. JCR CLI provid
 POST
 
 ## Request Address
-https://openapi.cr.jdcloud.com/v1/regions/{regionId}/registries/{registryName}:getAuthorizationToken
+https://containerregistry.jdcloud-api.com/v1/regions/{regionId}/registries/{registryName}:getAuthorizationToken
 
 |Name|Type|Required or Not|Default|Description|
 |---|---|---|---|---|

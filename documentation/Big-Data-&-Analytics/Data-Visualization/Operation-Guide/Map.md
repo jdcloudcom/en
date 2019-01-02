@@ -8,4 +8,5 @@ Currently the Data Visualization Screen support: 3D border map (China/World), 2D
 
 Each map component supports multi-layer data superimposing, allowing you to superimpose fly-lines, 3D column diagrams, bubbles, tracks, and thermal effects on the same map. In addition, each data presentation method supports multiple series of business data. For example, you can use different colors and shapes of the scatter diagram to represent different types of crops.
 
+![](https://github.com/jdcloudcom/cn/blob/edit/image/Data-Visualization/media/guangxian.png)
 

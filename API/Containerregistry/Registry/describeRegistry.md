@@ -9,7 +9,7 @@ Query details of a registry under the specified user.
 GET
 
 ## Request Address
-https://openapi.cr.jdcloud.com/v1/regions/{regionId}/registries/{registryName}
+https://containerregistry.jdcloud-api.com/v1/regions/{regionId}/registries/{registryName}
 
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
@@ -37,7 +37,7 @@ None
 |**description**|String|Registry Description, <a href="https://www.jdcloud.com/help/detail/3870/isCatalog/1">refer to the public parameter specification</a>.|
 |**name**|String|Registry Name, <a href="https://www.jdcloud.com/help/detail/3870/isCatalog/1">refer to the public parameter specification</a>.|
 |**registryUri**|String|registry endporint url|
-|**totalSpaceUsedMB**|Number|reTotal Bucket Used by gsitry, unit: (MB)|
+|**totalSpaceUsedMB**|Double|reTotal Bucket Used by gsitry, unit: (MB)|
 
 ## Return Code
 |Return Code|Description|

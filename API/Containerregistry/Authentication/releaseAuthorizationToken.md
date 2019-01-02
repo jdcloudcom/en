@@ -9,7 +9,7 @@ Release token of the user’s registry.
 POST
 
 ## Request Address
-https://openapi.cr.jdcloud.com/v1/regions/{regionId}/registries/{registryName}:releaseAuthorizationToken
+https://containerregistry.jdcloud-api.com/v1/regions/{regionId}/registries/{registryName}:releaseAuthorizationToken
 
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|

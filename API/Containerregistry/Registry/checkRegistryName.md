@@ -9,7 +9,7 @@ Query whether the assigned registry name exists and is in conformity with the na
 POST
 
 ## Request Address
-https://openapi.cr.jdcloud.com/v1/regions/{regionId}/registries:checkRegistryName
+https://containerregistry.jdcloud-api.com/v1/regions/{regionId}/registries:checkRegistryName
 
 |Name|Type|Required or Not|Default|Description|
 |---|---|---|---|---|

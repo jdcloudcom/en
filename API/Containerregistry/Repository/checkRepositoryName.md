@@ -9,7 +9,7 @@ Query whether the Repository name exists and is in conformity with the naming sp
 POST
 
 ## Request Address
-https://openapi.cr.jdcloud.com/v1/regions/{regionId}/repositories:checkRepositoryName
+https://containerregistry.jdcloud-api.com/v1/regions/{regionId}/repositories:checkRepositoryName
 
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
