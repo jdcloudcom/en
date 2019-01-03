@@ -60,7 +60,7 @@ func main() {
     client.SetConfig(config)
 
     /** Make base64 coding to data to be encrypted **/
-    data := base64.StdEncoding.EncodeToString("Hello World.")
+    data := base64.StdEncoding.EncodeToString([]byte("Hello World."))
 
     /** Set key ID for encryption **/
     keyId = "aabbccddeeffgghh"
