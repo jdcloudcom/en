@@ -12,6 +12,7 @@ In this paper, the entries of Anti-DDoS Pro instance will be introduced.
 ![](../../../../image/Advanced%20Anti-DDoS/price01.png)
 
 3. Click **Renew** in the operation items to enter the "Renew" page and carry out the renewal.
+
 ![](../../../../image/Advanced%20Anti-DDoS/price02.png)
    
 
@@ -26,4 +27,5 @@ In this paper, the entries of Anti-DDoS Pro instance will be introduced.
 3. At the "Renew Management" page, click **Anti-DDoS Pro** to view Anti-DDoS Pro instances.
 
 4. Click **Renew** in the operation items to enter the "Renew" page and carry out the renewal
+
    ![](../../../../image/Advanced%20Anti-DDoS/price04.png)
