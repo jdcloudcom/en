@@ -10,7 +10,7 @@ The Web Service is the protection designed to protect the business of website do
 ![Website Forwarding Rules](../../../../image/Advanced%20Anti-DDoS/non-web%2001.png)
 
 2. On the Instance Details page, switch to the “Website Forwarding Setting”.
-![Website Forwarding Rules](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/web-rule%2002.png)
+![Website Forwarding Rules](../../../../image/Advanced%20Anti-DDoS/web-rule%2002.png)
 
 3. Click the "Add Rules" button to configure the forwarding rules according to the pop-up notifications as follows.
 ![Website Forwarding Rules](../../../../image/Advanced%20Anti-DDoS/web-rule%2003.png)
