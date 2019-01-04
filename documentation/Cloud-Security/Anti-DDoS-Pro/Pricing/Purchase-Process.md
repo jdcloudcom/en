@@ -3,7 +3,7 @@
 This paper introduces the purchase entries of Anti-DDoS Pro instance.
 
 ## Entry 1: [Product Introduction Page](https://www.jdcloud.com/en/products/anti-ddos-pro)
-1. Log in to JD Cloud Official Website (http://www.jdcloud.com/en/)。
+1. Log in to [JD Cloud Official Website](https://www.jdcloud.com/en)。
 2. Select "Product > Cloud Security Anti-DDoS Pro", as shown in the figure below.
 
 ![Anti-DDoS Pro Purchase](../../../../image/Advanced%20Anti-DDoS/ipanti%20purchase2.png)
