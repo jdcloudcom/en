@@ -18,14 +18,14 @@ Provides 3 to 4 layers of SYN Flood, ACK Floods, ICMP Flood, UDP Flood, NTP Floo
 
 In addition to providing SYN Flood, ACK Floods, ICMP Flood, UDP Flood, NTP Floods, SSDP Flood and other attacks protection, it also supports application-layer protection against attacks such as CC attacks, HTTP Flood, etc.
 
-**Q: What ISP lines does Anti-DDoS Pro support?**
+**Q: What ISP-Lines does Anti-DDoS Pro support?**
 
-A: Anti-DDoS Pro supports single and multiple ISP line purchase, and supports the single ISP line to upgrade to multi ISP lines.
-- Single ISP line: The China Telecom's ISP line can support up to 400G of protection bandwidth.
+A: Anti-DDoS Pro supports single and multiple ISP-Line purchase, and supports the single ISP-Line to upgrade to multi ISP-Lines.
+- Single ISP-Line: The China Telecom's ISP-Lines can support up to 400G of protection bandwidth.
 
-- Multi ISP line: There are two optional ISP lines: Telecom+Unicom and Telecom+Unicom+CMCC, supporting up to 400G of protection bandwidth.
+- Multi ISP-Lines: There are two optional ISP-Lines: Telecom+Unicom and Telecom+Unicom+CMCC, supporting up to 400G of protection bandwidth.
 
-By default, the China Telecom's ISP line will be resolved to the China Telecom Machine Room, the China Unicom's ISP line to the China Unicom Machine Room, and the CMCC's ISP line to the CMCC Machine Room. If the attack traffic exceeds the maximum capacity of China Unicom Machine Room or CMCC Machine Room, the ISP line will be resolved to the China Telecom's ISP line to complete the cleaning.
+By default, the China Telecom's ISP-Lines will be resolved to the China Telecom Machine Room, the China Unicom's ISP-Lines to the China Unicom Machine Room, and the CMCC's ISP-Lines to the CMCC Machine Room. If the attack traffic exceeds the maximum capacity of China Unicom Machine Room or CMCC Machine Room, the ISP-Lines will be resolved to the China Telecom's ISP-Lines to complete the cleaning.
 
 
 **Q: Does Anti-DDoS Pro support extensive domains?**
@@ -104,8 +104,8 @@ Eg：
 
 The back-to-origin IP address is 100.10.10.1 and the backup IP address is 100.10.10.2. The back-to-origin/defense status bar can be switched according to the network status.
 
-- In the normal status, please select back-to-origin in the “Back-to-origin/Defense Status" bar, then the traffic will directly point to the backup IP address 100.10.10.2;
-- When an attack is found, switch to Defense in the “Back-to-origin/Defense Status" bar, and the traffic will go to the IP address 100.10.10.1 through back-to-origin after being cleaned by high defense.
+- In the normal status, please select back-to-origin in the "Back-to-origin/Defense Status" bar, then the traffic will directly point to the backup IP address 100.10.10.2;
+- When an attack is found, switch to Defense in the "Back-to-origin/Defense Status" bar, and the traffic will go to the IP address 100.10.10.1 through back-to-origin after being cleaned by high defense.
 
 
 **Q: Does Anti-DDoS Pro support non-80-port website access?**
@@ -121,6 +121,6 @@ If the port is customized by HTTP, the port back-to-origin of custom port will b
 
 **Q: Whether Anti-DDoS Pro supports IPV6, are there any special restrictions?**
 
-A: The China Telecom Line of Anti-DDoS Pro has already supported IPv6 ISP line, you can only select IPV4 addresses or select both IPV4 and IPV6 addresses according to your needs when you purchase new instances.
+A: The China Telecom Line of Anti-DDoS Pro has already supported IPv6 ISP-Lines, you can only select IPV4 addresses or select both IPV4 and IPV6 addresses according to your needs when you purchase new instances.
 
-Restrictions: Unicom and CMCC ISP lines temporarily do not support IPV6; the purchased IPV4 instances temporarily do not support to upgrade to IPV6; IP addresses of back-to-origin do not support to configure IPV6. If you have special requirements, please submit ticket feedback.
+Restrictions: Unicom and CMCC ISP-Lines temporarily do not support IPV6; the purchased IPV4 instances temporarily do not support to upgrade to IPV6; IP addresses of back-to-origin do not support to configure IPV6. If you have special requirements, please submit ticket feedback.
