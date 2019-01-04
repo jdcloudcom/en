@@ -15,7 +15,7 @@ The Certificate Management page is as follows, including uploading a certificate
 
 For a certificate that has been uploaded in Certificate Management, find the domain name that needs to be associated in the web service forwarding settings, and directly the certificate. If you need to replace a certificate, click the edit icon next to the HTTPS button to change it. If there is no appropriate certificate, please upload one under the **Certificate Management** menu.
 
-![证书管理](../../../../../image/Advanced%20Anti-DDoS/webservice%20%20set.png)
+![证书管理](../../../../../image/Advanced%20Anti-DDoS/webservice set.png)
 
 
 ![证书管理](../../../../../image/Advanced%20Anti-DDoS/ssl%20cert.png)
