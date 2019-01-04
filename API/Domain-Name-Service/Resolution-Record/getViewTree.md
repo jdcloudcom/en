@@ -2,7 +2,7 @@
 
 
 ## Description
-Query all basic cloud resolution lines.<br>
+Query all basic JD Cloud DNS lines.<br>
 Please call this interface to get ID of resolution ISP lines before using parameters of resolution ISP lines.
 
 

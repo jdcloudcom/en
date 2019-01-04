@@ -1,8 +1,8 @@
-# JD Cloud Resolution OpenAPI APIs
+# JD Cloud DNS OpenAPI APIs
 
 
 ## Introduction
-JD Cloud Resolution OpenAPI APIs
+JD Cloud DNS OpenAPI APIs
 
 
 ### Version
@@ -22,7 +22,7 @@ v1
 |**delDomain**|DELETE|Delete Main Domain Name|
 |**delUserView**|POST|Delete customized resolution ISP line of domain name|
 |**delUserViewIP**|POST|Delete IP segment of customized resolution ISP line of domain name|
-|**getActionLog**|GET|View users' operation records under JD Cloud Resolution|
+|**getActionLog**|GET|View users' operation records under JD Cloud DNS|
 |**getDomainQueryCount**|GET|View Domain Name Resolutions|
 |**getDomainQueryTraffic**|GET|View query traffic of domain names|
 |**getDomains**|GET|Query the list of the main domain names under the username. <br>    </br>Please call the API to get related domianId and domainName before calling related API. </br>|
@@ -31,7 +31,7 @@ v1
 |**getTargets**|GET|Query available monitor objects of subdomains|
 |**getUserView**|GET|Query customized resolution ISP line of domain name|
 |**getUserViewIP**|GET|Query IP segment of customized resolution ISP line of domain name|
-|**getViewTree**|GET|Query all basic resolution ISP lines of JD Cloud Resolution. <br></br>Please call this interface to get the ID of resolution ISP lines before using parameters of resolution ISP lines. </br>|
+|**getViewTree**|GET|Query all basic resolution ISP lines of JD Cloud DNS. <br></br>Please call this interface to get the ID of resolution ISP lines before using parameters of resolution ISP lines. </br>|
 |**operateMonitor**|POST|Operation Collection for Monitoring Items, including delete, pause, start, manual recovery and manual switch|
 |**operateRR**|POST|Enable, disable, or delete the resolution records under the main domain name|
 |**searchRR**|GET|Query the Resolution Record of the main domain name. <br></br>Please call this interface to get list of resolution record before using interfaces related to resolution records. </br>|

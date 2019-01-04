@@ -21,8 +21,8 @@ After OSS Bucket uploads the object, the address of the object is available, inc
 
 Customized domain name is available as access address to the storage file in OSS after the customized domain name is associated successfully. For example, your Bucket example is located in cn-north-1, the object file name is test.jpg, and the customized domain name associated is hello-world.com, then the object access address is:
 
-*  Before association: example.oss.cn-north-1.jcloudcs.com /test.jpg
-*  After successful association: hello-world.com/test.jpg
+* Before association: example.oss.cn-north-1.jcloudcs.com /test.jpg
+* After successful association: hello-world.com/test.jpg
   You can associate the customized domain name to the OSS Internet domain name through the console to realize the customized domain name access to the file under the Bucket, or you can configure JD Cloud CDN to realize the acceleration function at the same time. Refer to [Internet domain name- endpoint ](../../API-Reference-S3-Compatible/Regions-And-Endpoints.md)
 
 ## Action Steps for Associating Domain Name
@@ -44,7 +44,7 @@ Description
 * If the domain name you input has been maliciously associated by other users, the system prompts that the domain name has been associated. You can complete the validation of domain name ownership in accordance with the OSS verification scheme by clicking the Open Ticket; the domain name can be associated if domain name ownership is verified, and the association between the domain name and the previous Bucket is removed at the same time.
 * Currently, only customized domain name are supported to be used to download files. If you need to upload files or make various actions on Bucket, please use Object Storage Service domain name.
 
-## Action steps for domain name resolution (take JD Cloud Resolution as an example)
+## Action steps for Domain resolution (take JD Cloud DNS as an example)
 Login JD Cloud DNS console and enter the domain name resolution list page.
 Click the destination domain name or the right-handed resolution button to enter the domain name resolution page.
 Add resolution, and then add the resolution page.

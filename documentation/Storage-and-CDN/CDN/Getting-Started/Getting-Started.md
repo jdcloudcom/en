@@ -66,9 +66,9 @@
 
   2. Log in to the domain name DNS service provider console to complete the CNAME configuration.
 
-  Take your JD Cloud resolution domain name as an example, the CNAME binding method is as follows:
+  Take your JD Cloud DNS Domain as an example, the CNAME binding method is as follows:
 
-  1) Log in to [JD Cloud Console](https://www.jdcloud.com/index) and enter the [**Domain Name Service--JD Cloud Resolution**](https://dns-console.jdcloud.com/list) page, click the domain name to be bound
+  1) Log in to [JD Cloud Console](https://www.jdcloud.com/index) and enter the [**Domain Service--JD Cloud DNS**](https://dns-console.jdcloud.com/list) page, click the Domain to be bound
 
   ![image.png](https://img1.jcloudcs.com/cms/ae21571d-831b-49e2-bea1-be9661afa2d720180423141627.png)
 

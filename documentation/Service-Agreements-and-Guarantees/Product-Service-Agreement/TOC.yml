@@ -20,9 +20,9 @@ items:
     href: Object-Storage-Service-Clause.md
   - name: Object Storage Service Level Agreement (SLA)
     href: Object-Storage-Service-Level-Agreement-SLA.md 
-  - name: Redis Service Agreement
+  - name: JCS for Redis Service Agreement
     href: Caching-Redis-Service-Clause.md
-  - name: Redis Service Level Agreement (SLA)
+  - name: JCS for Redis Service Level Agreement (SLA)
     href: Caching-Redis-Service-Level-Agreement-SLA.md
   - name: JCS for Memcached Service Agreement
     href: JCS-for-Memcached-Service-Terms.md
@@ -58,7 +58,7 @@ items:
     href: Video-Live-Service-Clause.md
   - name: SSL Digital Certificate Service Agreement
     href: SSL-Digital-Certificate-Service-Clause.md
-  - name: Cloud Resolution Service Agreement
+  - name: JD Cloud DNS Service Agreement
     href: Cloud-Parsing-Service-Clause.md
   - name: Trial TiDB Service Terms
     href: Distributed-Database-TiDB-Trial-Service-Clause.md

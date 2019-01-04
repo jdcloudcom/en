@@ -2,7 +2,7 @@
 
 
 ## Description
-View users' operation records under JD Cloud Resolution
+View users' operation records under JD Cloud DNS
 
 ## Request Method
 GET

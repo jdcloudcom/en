@@ -1,12 +1,12 @@
-### Cloud Resolution Service Terms
+### JD Cloud DNS Service Terms
 
-**This Service Terms is a valid agreement between the JD Cloud website (hereinafter referred to as "JD Cloud", website: www.jdcloud.com) and you on matters relating to the resolution service. By stamping, clicking to confirm on the web page, or other ways to accept the Service Terms, including but not limited to the actual use of cloud resolution service provided JD Cloud without clicking to confirm the Service Terms, you have reached an agreement with JD Cloud and agreed to accept all agreed contents of the Service Terms. In case of any inconsistency between the text stamped by both parties and the text of Service Terms accepted and confirmed by clicking the web page or other ways, the text stamped by both parties shall prevail.**
+**This Service Terms is a valid agreement between the JD Cloud website (hereinafter referred to as "JD Cloud", website: www.jdcloud.com) and you on matters relating to the resolution service. By stamping, clicking to confirm on the web page, or other ways to accept the Service Terms, including but not limited to the actual use of JD Cloud DNS service provided JD Cloud without clicking to confirm the Service Terms, you have reached an agreement with JD Cloud and agreed to accept all agreed contents of the Service Terms. In case of any inconsistency between the text stamped by both parties and the text of Service Terms accepted and confirmed by clicking the web page or other ways, the text stamped by both parties shall prevail.**
 
 **For the Service Terms, you are reminded to pay special attention to the restriction and exemption terms, determination and handling terms of JD Cloud on users' violations and breach of contract, and the selection terms of jurisdictional courts. Restriction and exemption terms may be indicated in bold or by underline. You should carefully read all the contents of the Service Terms before accepting them. If you have any questions about the Service Terms, please contact the relevant business department of JD Cloud and JD Cloud will explain the terms to you. If you do not agree on any of the contents of the Service Terms, or cannot accurately understand the interpretation of these terms made by JD Cloud, please do not continue the operation.**
 
 **1 Service Content**
 
-1.1 "Service" in the terms refers to the cloud resolution service of JD Cloud and related technical and network support services that JD Cloud provides to you at www.jdcloud.com.
+1.1 "Service" in the terms refers to the JD Cloud DNS service of JD Cloud and related technical and network support services that JD Cloud provides to you at www.jdcloud.com.
 
 1.2 JD Cloud provides the intelligent domain name resolution service for the whole network domain name in accordance with the provisions of the Service Terms and related service commitments on the JD Cloud website.
 
@@ -20,7 +20,7 @@
 
 2.4 JD Cloud has the right to unilaterally adjust the fee standard and charging method at any time according to the actual situation, and publicize them on the JD Cloud website without obtaining your consent in advance. However, services purchased before the adjustment date and paid in full are not affected.
 
-2.5 JD Cloud reserves the right not to provide you with service and/or technical support or to terminate the service and/or technical support or to degrade your cloud resolution (enterprise version) to cloud resolution (free version) until you have paid the full fee as agreed or made renewal as agreed. JD Cloud will not assume any responsibility for any possible impact, consequence or damage caused by degradation or termination of the services.
+2.5 JD Cloud reserves the right not to provide you with service and/or technical support or to terminate the service and/or technical support or to degrade your JD Cloud DNS (enterprise version) to JD Cloud DNS (free version) until you have paid the full fee as agreed or made renewal as agreed. JD Cloud will not assume any responsibility for any possible impact, consequence or damage caused by degradation or termination of the services.
 
 2.6 You fully understand that all the gift service items or activities in the JD Cloud's price system are one-off special offers beyond JD Cloud's normal service price. The special offer does not include the modification, update and maintenance fees of the gift service items, and the gift service items cannot be used to charge against the service price.
 
@@ -155,7 +155,7 @@
 
 8.3 JD Cloud shall not be held liable for indirect, consequential, disciplinary, contingent or specific damage (including but not limited to personal damage, loss of commercial profit, suspension of trade, loss of business information or other tangible and intangible losses) caused by your use or inability to use the service to the greatest extent permitted by applicable law.
 
-8.4 In any case, the total amount of JD Cloud's liability for breach of the Service Terms shall not exceed the total amount of annual service fees of corresponding cloud resolution services.
+8.4 In any case, the total amount of JD Cloud's liability for breach of the Service Terms shall not exceed the total amount of annual service fees of corresponding JD Cloud DNS services.
 
 8.5 If you violate the provisions of Article 3.1 of the Service Terms and cause losses to JD Cloud, you shall make compensation.
 
