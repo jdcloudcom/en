@@ -1,0 +1,31 @@
+name: Storage Gateway
+href: 
+items:
+ - name: Introduction
+   items:
+      - name: Product Overview
+        href: Introduction/Product-Overview.md
+      - name: Core Concepts
+        href: Introduction/Core-Concepts.md
+      - name: Benefits
+        href: Introduction/Benefits.md    
+      - name: Features
+        href: Introduction/Features.md
+      - name: Restrictions
+        href: Introduction/Restrictions.md 
+      - name: Application Scenarios 
+        href: Introduction/Application-Scenarios.md    
+ - name: Product Pricing
+   items:
+      - name: Billing Overview
+        href: Pricing/Billing-Overview.md 
+ - name: Operation Guide
+   items:
+      - name: Deploy Storage Gateway
+        href: Operation-Guide/Installation-Configuration.md
+      - name: Use Storage Gateway
+        href: Operation-Guide/Use-Storage-Gateway.md
+ - name: Related Resources
+   items:
+      - name: Document Release History
+        href: Related-Resources/Document-History.md
