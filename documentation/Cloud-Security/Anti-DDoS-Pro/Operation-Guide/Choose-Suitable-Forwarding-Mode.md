@@ -5,8 +5,8 @@ The selection of the forwarding mode is applicable to the case where multiple se
 
 ## Specification of Forwarding Rules
 
-- Non-web service rules support: polling, Weighted round robin, and source IP hash
-- Web Service rules support: polling, and Weighted round robin
+- Non-web service rules support: round robin, Weighted round robin, and source IP hash
+- Web Service rules support: round robin, and Weighted round robin
 
 ## Forwarding Mode Interpretation
 1. Round robin
