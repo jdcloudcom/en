@@ -27,33 +27,25 @@ Operative Provisions
 
 2.1 "Jdcloud.com" means the website whose domain name is JD Cloud and whose owner is Beijing Jingdong 360 Degree E-Commerce Co., Ltd. Users may post, release, search, and exchange relevant information through the website to reach transaction intention and obtain the functions provided by other users. The modification of the domain name of the website shall be subject to the separate notice of JD Cloud.
 
-2.2 JD Cloud Marketplace, for the purpose of the Agreement, means the open service platform running on "Jdcloud.com", which is a specific network space for the establishment of shops by the service provider and the reaching of technical service transaction intentions with users. Technical Service Transaction means the provision of API interface services to partners such as JD Cloud POP merchants, ISV, suppliers, and application developers.
+2.2 JD Cloud Marketplace, for the purpose of the Agreement, means the software and service trading platform running on "Jdcloud.com", which is a specific network space for the establishment of shops by the service provider and the reaching of technical service transaction intentions with users. Technical Service Transaction means the provision of technical support and API interface services to partners such as JD Cloud POP merchants, ISV, suppliers, and application developers.
 
 2.3 JD Cloud Service Provider Management System means the software system technically supported and maintained by Party B and used to support the operation of the "JD Cloud Marketplace", including "Online Service Provider Move-in System" and "Service Provider Backend Management System". When using the system, the service provider shall comply with the Agreement and the technical service requirements of Party B and pay relevant technical service fee to the settlement account designated by Party B. Through the "Online Service Provider Move-in System", the service provider may apply for "Service Provider Move-in". Upon approval of JD Cloud, the service provider will be permitted to use the "Service Provider Backend Management System" to engage in the shop operation.
 
 The service provider acknowledges and agrees to apply and use the JD Cloud Service Provider Management System based on the current status and in the vested manner, and further acknowledges and agrees that JD Cloud has the right to optimize and adjust the system and release new revisions from time to time. If the service provider is obligated to use a new revision, the service provider shall use the new revision. If the service provider refuses to use the new revision, it shall terminate its shop operation on the JD Cloud marketplace while applying to JD Cloud for termination of the Agreement.
 
-2.4 JD Cloud Service Marketplace (hereinafter referred to as "service marketplace") is an integral part of JD Cloud, including operation promotion, system management, data analysis and other tools or the platform where the products may be ordered online. It mainly covers software, agency operation, training and the decoration of marketplace.
+2.4 Service Provider means any entity or individual that uses the open service platform for application development, releases applications through the service transaction platform and conducts the online sales of application products according to the Agreement.
 
-2.5 Service Provider means any entity or individual that uses the open service platform for application development, releases applications through the service transaction platform and conducts the online sales of application products according to the Agreement.
+2.5 Application means the software or services by the service provider based on JD Cloud.
 
-2.6 JD Cloud Service Marketplace Rules mean any normative documents and instructions presented on JD Cloud and the service marketplace and related to the operation of the service provider.
+2.6 User means any entity or individual that uses the service trading platform or orders the application through the service transaction platform.
 
-2.7 Application means the software or services by the service provider based on JD Cloud.
+2.7 Service Provider and Move-in: the service provider means a legal entity that intends to set up a shop as an independent third-party operator on the JD Cloud marketplace and shall meet continuously the qualification requirements under Article 4 herein since the application for move-in. The identity information of the service provider shall be filled out by the service provider itself through the "Online Service Provider Move-in System" when the "Service Provider Move-in" is being applied. Service provider move-in, also known as "Shop Move-in", means the process where the service provider intending to become a third-party operator on the JD Cloud marketplace executes online the Agreement and submits information through "Online Service Provider Move-in System" in accordance with the move-in procedures and requirements of JD Cloud marketplace and is granted to use the "Service Provider Backend Management System" under Article 5 upon approval of JD Cloud.
 
-2.8 User means any entity or individual that uses the service trading platform or orders the application through the service transaction platform.
+2.8 Shop means an online virtual shop whose establishment is applied by the service provider in accordance with the agreement and JD Cloud marketplace rules to engage in lawful business after it has completed the move-in procedures and is approved by JD Cloud and which has unique and sole ID (short for "identity" and referring to the ID of service provider) and specific name, as may be adjusted in accordance with relevant platform rules.
 
-2.9 Service Provider and Move-in: the service provider means a legal entity that intends to set up a shop as an independent third-party operator on the JD Cloud marketplace and shall meet continuously the qualification requirements under Article 4 herein since the application for move-in. The identity information of the service provider shall be filled out by the service provider itself through the "Online Service Provider Move-in System" when the "Service Provider Move-in" is being applied. Service provider move-in, also known as "Shop Move-in", means the process where the service provider intending to become a third-party operator on the JD Cloud marketplace executes online the Agreement and submits information through "Online Service Provider Move-in System" in accordance with the move-in procedures and requirements of JD Cloud marketplace and is granted to use the "Service Provider Backend Management System" under Article 5 upon approval of JD Cloud.
+2.9 Shop User Name means the login account obtained by the service provider after completing the move-in procedures and to be used together with the self-set passwords for the purpose of logging in to the "JD Cloud Marketplace" service provider management system and using the "JD Cloud Marketplace" shop service. Each shop user name corresponds to one shop. The service provider may manage the shop with the shop user name, including but not limited to service information uploading, modification, deletion, transaction tracking, cancellation, etc. The service provider shall keep the shop user name and passwords in a proper manner, and may not transfer or authorize others to use the same.
 
-2.10 Shop means an online virtual shop whose establishment is applied by the service provider in accordance with the agreement and JD Cloud marketplace rules to engage in lawful business after it has completed the move-in procedures and is approved by JD Cloud and which has unique and sole ID (short for "identity" and referring to the ID of service provider) and specific name, as may be adjusted in accordance with relevant platform rules.
-
-2.11 Shop Service Period means the period corresponding to the period of JD Cloud's permission to operate the shop by the service provider under Article 5. The first service period starts from the date when the payment permission is granted to March 31 of the next year. And each renewal period thereafter shall be one year.
-
-Payment Permission means the operation permission corresponding to payment necessary before the opening of a shop and made available to the service provider by JD Cloud when the service provider completes the execution of the agreement and data submission, obtains the approval of JD Cloud, and is capable of engaging in the business of the shop. The shop service period starts once the permission is granted, and the service provider shall make the payment in time so as to engage in the business of the shop as soon as possible.
-
-2.12 Shop User Name means the login account obtained by the service provider after completing the move-in procedures and to be used together with the self-set passwords for the purpose of logging in to the "JD Cloud Marketplace" service provider management system and using the "JD Cloud Marketplace" shop service. Each shop user name corresponds to one shop. The service provider may manage the shop with the shop user name, including but not limited to service information uploading, modification, deletion, transaction tracking, cancellation, etc. The service provider shall keep the shop user name and passwords in a proper manner, and may not transfer or authorize others to use the same.
-
-2.13 JD Cloud Marketplace Rules mean any normative documents that are presented on JD Cloud Marketplace and related to the operation of the service provider and shall be known by the service provider, including but not limited to the service provider’s manual, the service provider backend announcements, and the service provider backend help center.
+2.10 JD Cloud Marketplace Rules mean any normative documents that are presented on JD Cloud Marketplace and related to the operation of the service provider and shall be known by the service provider, including but not limited to the service provider’s manual, the service provider backend announcements, and the service provider backend help center.
 
 The service provider acknowledges and agrees that JD Cloud has the right to unilaterally update and modify the rules of JD Cloud Marketplace, and further acknowledges and agrees that if it disagrees to the modified JD Cloud Marketplace rules, it shall terminate the Agreement and its shop operation on JD Cloud Marketplace.
 
@@ -68,6 +60,11 @@ The service provider acknowledges and agrees that JD Cloud has the right to unil
 3.4 The service behavior of the service provider shall subject to the supervision of users. A user may evaluate the services of the service provider through the evaluation function of "JD Cloud Marketplace". The evaluation will be scored to reflect the advantages and disadvantages of the service provider and its services. A user may supervise the service provider through complaining to JD Cloud, regulatory authorities, and media, etc. After receiving the complaint, JD Cloud will conduct investigation and present comments to the service provider. The service provider shall be actively cooperative and resolve the same properly.
 
 3.5 The business behaviors of the service provider shall be supervised and managed by regulatory authorities. After receipt of the supervision comments from the industry and commerce administration department, drug supervision department or other regulatory departments, JD has the right to submit relevant information to such regulatory authorities and request the service provider to make rectification and implement regulatory comments. In case of the service provider’s failure or delay in the implementation, JD Cloud has the right to restrict the service provider’s using the "Service Provider Backend Management System", and delete or adjust the information released by the service provider, with adverse consequences arising therefrom assumed by the service provider.
+
+3.6 Service providers who voluntarily withdraw from the Cloud Marketplace can send email to yunshichang@jd.com to submit a withdrawal application. After Cloud Marketplace verification approved, the service providers shall release the shop closing notice 30 days in advance at the service provider announcement office.
+
+3.7 Service providers who voluntarily withdraw from the Cloud Marketplace should meet the agreed conditions in *Instructions for the Cancellation of JD Cloud Account* in [JD Cloud Privacy Policy](https://docs.jdcloud.com/cn/platform-agreement/privacy-policy).
+
 
 4. Qualification Requirements and Supportive Documents
 
@@ -89,9 +86,7 @@ To apply for and engage in the shop operation, the service provider shall meet c
 
 4.2.1 The service provider shall submit all necessary documents or certificates online as shown by the "Online Service Provider Move-in System", including but not limited to the business license, tax registration certificate, the certificate of bank of deposit, power of attorney, trademark registration certificate, quality inspection report, customs declaration, certificate of country of origin, the copies of the face and back of the legal representative's ID cards. In the event of complaints by customer, investigations by administrative agencies, and law suits, the service provider shall also submit to JD Cloud a paper copy which is checked to be consistent with the original and affixed with the common seal of the service provider.
 
-4.2.2 The service provider shall warrant that the aforesaid supportive documents or other relevant certificates provided to JD Cloud are true, legal, accurate and effective. JD Cloud has the right to hire a third-party company to verify the same at its own discretion or unilaterally, and the service provider shall be cooperative and bear the resulting expense. If the service provider refuses to pay relevant fees, JD Cloud has the right to deduct such fees directly from the outstanding payment or the deposit.
-
-Given the particularity of the open service platform, JD Cloud is not obliged to pre-review and verify all information uploaded by the service provider, the service provider’s transaction behaviors and other matters related to the transactions except for the verification of the authenticity of the service provider's identity information and other related information in accordance with the regulatory requirements of "JD Cloud Marketplace". Moreover, JD Cloud's verification of the service provider's information is only the formal review, and shall not been deemed as JD Cloud's recognition of authenticity and validity of such information. The authenticity, legitimacy, accuracy, and validity of such information are still the sole legal liability of the service provider.
+4.2.2 Given the particularity of the open service platform, JD Cloud is not obliged to pre-review and verify all information uploaded by the service provider, the service provider’s transaction behaviors and other matters related to the transactions except for the verification of the authenticity of the service provider's identity information and other related information in accordance with the regulatory requirements of "JD Cloud Marketplace". Moreover, JD Cloud's verification of the service provider's information is only the formal review, and shall not been deemed as JD Cloud's recognition of authenticity and validity of such information. The authenticity, legitimacy, accuracy, and validity of such information are still the sole legal liability of the service provider.
 
 4.2.3 The service provider shall notify JD Cloud promptly of any changes in the aforesaid supportive documents and submit the updated documents within fifteen working days.
 
@@ -109,17 +104,7 @@ For the specific shop that the service provider intends to operate, JD Cloud wil
 
 2) The application by the service provider has been approved by JD Cloud, and relevant agreement has been separately concluded accordingly;
 
-3) The service provider has paid up the deposit and "fixed technical service fee" corresponding to the first service period (the fee standard is detailed in Article 8). The service provider is only permitted to pay before the payment is made.
-
-5.1.2 Extension of permissions related to the "Service Provider Backend Management System"
-
-If the service provider desires to extend the permission for continuous operation upon expiration of the service period, the service provider shall apply to JD Cloud through the "Service Provider Backend Management System" within 45 days before the expiration of the service period. JD Cloud will renew the permission for another year after receiving the application of the service provider when the service provider meets all of the following conditions (this is applied for each subsequent year):
-
-1) The service provider’s application for extension (including the submitting the information required under "Qualification Requirements") has been approved by JD Cloud;
-
-2) The service provider has paid up the "fixed technical service fee" corresponding to the next service period; if the service provider's previous service period expires and the payment has not been made in full, the service provider's permission will be restricted to only the payment permission; and
-
-3) The service provider shall have entered into a separate agreement (if required) with JD Cloud;
+3) The service provider has paid up the deposit and "fixed technical service fee" corresponding to service period (the fee standard is detailed in Article 8). The service provider is only permitted to pay before the payment is made.
 
 5.2 Termination of the permissions related to the "Service Provider Backend Management System"
 
@@ -239,7 +224,7 @@ If the sampling test of the service sold by the service provider is unqualified 
 
 8.1.2.2 Limit of deposit
 
-8.1.2.2.1 The service provider shall pay the deposit of corresponding amount to the account designated by JD Cloud according to the agreed time and method and according to the deposit payment standards in the above "JD Cloud" public links, relevant investment attracting rules of JD Cloud Marketplace, and the operation category of its own application.
+8.1.2.2.1 The service provider shall pay the deposit of corresponding amount to the account designated by JD Cloud according to the agreed time and method and according to the deposit payment standards and updated standards followed up in the above "JD Cloud" public links, related investment attracting rules of JD Cloud Marketplace, and the operation category of its own application.
 
 8.1.2.2.2 The service provider acknowledges and agrees that the deposit paid by it will not include any interest under any circumstances. At the same time, JD Cloud has the right to adjust the limit of the deposit delivered by the service provider according to the changes in the business category of the service provider, the actual sales situation of service, the performance capability, the credit status, etc., or deduct the deposit according to the Agreement. The service provider shall make up the deposit of corresponding amount within 5 days after the notification of JD Cloud. Otherwise, JD Cloud shall have the right to deduct relevant amount from the outstanding payment and limit the access to the "Service Provider Contract Management System" until the termination of the Agreement.
 
@@ -283,19 +268,13 @@ The service provider shall bear relevant taxes by itself in the course of operat
 
 8.2 Fee settlement: "JD Cloud" and the service provider shall, in accordance with the following agreement, settle the payment for the order generated by the shop set up by the service provider based on the Agreement:
 
-8.2.1 The service provider agrees and authorizes "JD Cloud" to collect the payment on its behalf: "JD Cloud" will introduce a third-party payment institution or bank to provide such service, and the service provider shall sign possible and relevant agreements with the third-party payment institution or bank as required.
+8.2.1 "JD Cloud" offers the following various alternative settlement methods for the service provider to choose from. The specific settlement method shall be subject to the confirmation of the "JD Cloud Marketplace" system. The "JD Cloud Marketplace" system automatically generates a settlement statement on each settlement date (if the settlement day falls on a rest day or legal holiday, it shall be postponed to the first working day after the end of the rest day or legal holiday). After the confirmation of the service provider, the payment will be paid to the service provider after deducting the technical service charge and other expenses by "JD Cloud";
 
-8.2.2 "JD Cloud" offers the following various alternative settlement methods for the service provider to choose from. The specific settlement method shall be subject to the confirmation of the "JD Cloud Marketplace" system. The "JD Cloud Marketplace" system automatically generates a settlement statement on each settlement date (if the settlement day falls on a rest day or legal holiday, it shall be postponed to the first working day after the end of the rest day or legal holiday). After the confirmation of the service provider, "JD Cloud" will issue a payment instruction to the payment institution, and the payment institution will pay the payment to the service provider after deducting the technical service fee and other expenses;
+1) Monthly settlement: take each calendar month as the settlement period, and the 1st day of each month as the settlement date, to settle the payment generated from the 1st day of last month to the last day of last month;
 
-1) "T+1" settlement ("T" day is the date when the order is displayed as "Complete" in the "JD Cloud Marketplace" system), under this settlement method, the first working day after "T" day is the settlement date;
+2) Half-monthly settlement: take every half month as the settlement period, and the 16th day of each month and the 1st day of next month are the settlement date; and
 
-In view of the fact that this settlement method depends on the continuous and stable operation of the third-party payment company cooperating with "JD Cloud", the service provider agrees to submit applications to "JD Cloud" and the third-party payment company in advance. After the approval of "JD Cloud", "JD Cloud" and the service provider shall settle according to this method. At the same time, the service provider agrees that "JD Cloud" has the right to stop the operation of this settlement method at any time;
-
-2) Monthly settlement: take each calendar month as the settlement period, and the 1st day of each month as the settlement date, to settle the payment generated from the 1st day of last month to the last day of last month;
-
-3) Half-monthly settlement: take every half month as the settlement period, and the 16th day of each month and the 1st day of next month are the settlement date; and
-
-4) Others: take the number of days selected by the party to the Agreement as the settlement period, and the next day after each settlement period as the settlement date.
+3) Others: take the number of days selected by the party to the Agreement as the settlement period, and the next day after each settlement period as the settlement date.
 
 8.2.3 The service provider shall provide "JD Cloud" with a settlement account that meets the requirements of JD Cloud, so that "JD Cloud" can complete the payment settlement. If the service provider’s account information changes, "JD Cloud" shall be notified 3 working days in advance. Otherwise, the service provider will be responsible for the losses caused by the payment failure, delay or error due to the changes in the account by the service provider.
 
@@ -337,7 +316,7 @@ In view of the fact that this settlement method depends on the continuous and st
 
 12 Validity of the Agreement
 
-12.1 The Agreement shall be valid from the effective date until the expiration date of the shop service period established by the service provider based on the Agreement.
+12.1 The Agreement shall be valid from the effective date until the expiration date of the service period agreed upon between the specific shop and JD Cloud established by the service provider based on the Agreement.
 
 12.2 The Agreement is legally binding only on the related businesses of the specific shops established by the service provider based on the Agreement. It is not legally binding on the same or similar businesses carried out by "JD Cloud" and the service provider. For example, if "JD Cloud" and the service provider carry out the same or similar businesses at the same time, the additional agreement shall be executed for implementation.
 
@@ -359,9 +338,7 @@ In view of the fact that this settlement method depends on the continuous and st
 
 13.3.3 Any negative news of the service provider may affect the goodwill of "JD Cloud Marketplace";
 
-13.3.4 The service provider has not logged into the "Service Provider Backend Management System" for 30 (thirty) consecutive days or 45 (forty-five) days during the service period;
-
-13.3.5 Other clauses in the Agreement that stipulate JD Cloud has the right to terminate the Agreement.
+13.3.4 Other clauses in the Agreement that stipulate JD Cloud has the right to terminate the Agreement.
 
 13.4 Handling of related matters after termination of the Agreement
 
@@ -497,3 +474,5 @@ Article 4 "JD" shall have the right to unilaterally terminate the contract with 
 Article 5 If the service provider knows/suspects that "JD" employees have violated the above regulations, welcome to contact Internal Control and Compliance Department of "JD". Once the information about commercial bribery provided by the information provider is verified, "JD" will award information provider a cash reward of RMB 10,000 to 200,000 according to the extent of the impact of the event(no less than RMB 10,000), and rewarded with RMB 200,000 or more for specially significant event.
 
 "JD" has set up a special Email jiancha@jd.com to accept complaints from Service Provider. "JD" will keep all information providers and all information provided strictly confidential.
+
+[Agreement for Move-in into Cloud Marketplace Platform---PDF Download](/image/Marketplace/PDF/Agreement for Move-in into Cloud Marketplace Platform.pdf)

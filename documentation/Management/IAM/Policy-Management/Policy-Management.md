@@ -1,68 +1,64 @@
-The primary account is the owner of resources, actually pays for resource, and has full control over resources. The subaccount does not own any resources, and has no access to resource by default. A subaccount can access a specific resource through the console or API only when it is authorized by the primary account.
+# What is a policy
 
-The primary account authorizes the subaccount by adding an authorization policy to the subaccount (or the group it belongs to). The resource access rights owned by the subaccount are the set of authorization policies added to the subaccount and the group it belongs to.
+Authorization policy refers to JSON document with one or multiple permissions defined, developing policies shall follow the JSON syntax specification. By granting policies to the sub-users, groups, roles to control the access permissions of JD Cloud resources for the sub-users, groups and roles. In which, the access permission owned by the sub-user are the set of authorization policies added to the sub-user and the group it belongs to.
 
-The authorization policy (Policy) is a JSON document that describes one or more permissions. The primary account authorizes the subaccount or group by creating a policy and adding the policy to the subaccount or group.
+IAM supports two types of policies: system policies preset by JD Cloud and customized policies managed by users themselves.
 
-This document describes how to view policy content and authorization in the console, create policies, add a policy to subaccounts and groups, and remove a policy from the subaccount and group permissions.
+- The system policies preset by JD Cloud when accessing product line, which are not allowed to be modified by users.
+- As for customized policies managed by users themselves, users can create policies for specific action to specific resource by means of customized policy. You can also add restricted conditions to restrict source IP, specific access time, Virtual MFA Verification, etc. Users can edit this kind of policies by themselves or delete customized policies.
 
-# View policy
+  > The functions of Condition is continuously under update, coming soon
+
+This document describes how to use policy management function in the console.
+
+## Policy List
+
 Log in the console and enter Identity and Access Management > Authorization Policy Management to view all system policies and customized policies.
-The number of times a policy is referenced is the number of entities that the policy has been added to, including subaccounts and groups. You are not allowed to modify or delete system policies; however, you can create, modify, or delete your customized policies.
-![View Policy 1](https://github.com/jdcloudcom/cn/blob/edit/image/IAM/Strategy%20Management/%E6%9F%A5%E7%9C%8B%E7%AD%96%E7%95%A51.jpg)
-Click the policy name to enter the policy details page. In the basic information, two ways can be used to view policy information.
-The first is a visualization policy that lists all the resources and actions authorized in the policy document.
-The second is a JSON format document.
-In the authorization policy record, you can view the record of addition and dissolution of the authorization policy of subaccounts or groups.
-![View Policy 2](https://github.com/jdcloudcom/cn/blob/edit/image/IAM/Strategy%20Management/%E6%9F%A5%E7%9C%8B%E7%AD%96%E7%95%A52.jpg)
-![View Policy 3](https://github.com/jdcloudcom/cn/blob/edit/image/IAM/Strategy%20Management/%E6%9F%A5%E7%9C%8B%E7%AD%96%E7%95%A53.jpg)
-![View Policy 4](https://github.com/jdcloudcom/cn/blob/edit/image/IAM/Strategy%20Management/%E6%9F%A5%E7%9C%8B%E7%AD%96%E7%95%A54.jpg)
 
-# Create a policy
-On the Authorization Policy Management list page, click the **Create** to obtain two ways to create a customized policy. The first is the facilitation policy generator, and the second is the JSON policy editor.
-![Create Policy](https://github.com/jdcloudcom/cn/blob/edit/image/IAM/Strategy%20Management/%E5%88%9B%E5%BB%BA%E7%AD%96%E7%95%A5.jpg)
+![策略列表](../../../../image/IAM/PolicyManagement/策略列表.jpg)
 
-# Facilitation policy generator
-In the facilitation policy generator, you can visually select resource types, resource IDs and operating permissions to generate one or more sets of permissions.
-![Facilitation Policy Generator](https://github.com/jdcloudcom/cn/blob/edit/image/IAM/Strategy%20Management/%E4%BE%BF%E5%88%A9%E5%8C%96%E7%AD%96%E7%95%A5%E7%94%9F%E6%88%90%E5%99%A8.jpg)
+> You may find that there suddenly adds some policy names that contain “-v3” in the policy list. It is the policy automatically created by the system for you when the product line is connected to the IAM, the policy (Policy) syntax changes after switching from v2 version to v3 version, with the purpose to make all actions in the policy created previously by you compatible and effective. For example, when you need to grant JD Cloud administrator permissions to all user types of IAM, you need to grant both JDCloudAdmin and JDCloudAdmin-v3 policy, and when you grant JD Cloud read-only permission, you need to grant both JDCloudRead and JDCloudRead-v3 policy. This action will continue until all product lines supporting v2 switch to v3 version.
 
-For example, select to authorize the virtual machine, and then click Add Resources, and select the virtual machine instance that needs to be authorized in the window shown below:
+## Policy Creation
 
- - To authorize all virtual machine resources (including all regions) under the primary account, including newly purchased resources in the future, check the selection box a and confirm;
- - To authorize the virtual machine resources purchased in the current region, check b, click the selection arrow and confirm;
- - To authorize some resources in the current region, check c according to the requirements, click the selection arrow and confirm;
+On the Authorization Policy Management list page, click **Create** to obtain two ways to create a customized policy. The first is the facilitation policy generator, and the second is the JSON policy editor.
 
-Note: After the region is switched, resources need to be reselected.
-![重新选择资源](https://github.com/jdcloudcom/cn/blob/edit/image/IAM/Strategy%20Management/%E9%87%8D%E6%96%B0%E9%80%89%E6%8B%A9%E8%B5%84%E6%BA%90.png)
+![创建策略](../../../../image/IAM/PolicyManagement/创建策略.jpg)
 
-After completing a set of resource permission configuration, you can continue to add permissions until you complete the policy setting.
-![继续添加权限](https://github.com/jdcloudcom/cn/blob/edit/image/IAM/Strategy%20Management/%E7%BB%A7%E7%BB%AD%E6%B7%BB%E5%8A%A0%E6%9D%83%E9%99%90.jpg)
+### Visual Policy Generator
 
-Click the **Next** button, fill in the policy name and description, and then the policy can be generated.
-![生成策略](https://github.com/jdcloudcom/cn/blob/edit/image/IAM/Strategy%20Management/%E7%94%9F%E6%88%90%E7%AD%96%E7%95%A5.jpg)
+The visual policy generator is designed to provide users with more friendly and convenient tools for policy creation. Users can visually select product lines, actions, resources and other information in turn. After clicking for confirmation, it will automatically generate policies in Json format for you.
 
-# JSON policy generator
-In the JSON policy generator, you can write JSON policies directly, or you can select a policy template before editing JSON documents.
-![Json 选择模板](https://github.com/jdcloudcom/cn/blob/edit/image/IAM/Strategy%20Management/Json%20%E9%80%89%E6%8B%A9%E6%A8%A1%E6%9D%BF.jpg)
+- Enter the policy name and description.
+- Selection of product line (Service Name). For more information, please refer to [Service Supporting IAM](https://docs.jdcloud.com/cn/iam/support-services)
+- Select Action
+- Select Resources
+- Once a set of product lines, resources, and actions are specified, you can click **Add** until you complete the entire policy.
 
-Click the **Select Template** button to select a system policy or customized policy as the template.
-![Json 选择模板2](https://github.com/jdcloudcom/cn/blob/edit/image/IAM/Strategy%20Management/Json%20%E9%80%89%E6%8B%A9%E6%A8%A1%E6%9D%BF2.jpg)
+**V2 Version Visual Policy Creation Page**
 
-If you need to add other permissions on the selected policy template, you can click Add Permission to complete it in a convenient way.
-![添加其他权限](https://github.com/jdcloudcom/cn/blob/edit/image/IAM/Strategy%20Management/Json%20%E6%B7%BB%E5%8A%A0%E6%9D%83%E9%99%90.png)
-Finally, a customized policy can be generated after the policy name and description have been perfected by editing the generated JSON policy according to the authorization requirements.
+![V2版本可视化策略创建页面](../../../../image/IAM/PolicyManagement/可视化策略创建v2.jpg)
 
-# Add or remove the authorization policies of subaccounts (groups)
-On the User Management page, you can add authorization to a subaccount.
-![为子账号添加授权](https://github.com/jdcloudcom/cn/blob/edit/image/IAM/Strategy%20Management/%E4%B8%BA%E5%AD%90%E8%B4%A6%E5%8F%B7%E6%B7%BB%E5%8A%A0%E6%8E%88%E6%9D%83.jpg)
-![为子账号添加授权](https://github.com/jdcloudcom/cn/blob/edit/image/IAM/Strategy%20Management/%E4%B8%BA%E5%AD%90%E8%B4%A6%E5%8F%B7%E6%B7%BB%E5%8A%A0%E6%8E%88%E6%9D%832.png)
+**V3 Version Visual Policy Creation Page**
 
-On the User Details > User Authorization Policy page, you can add or remove the authorization of a subaccount.
-![添加或解除子账号的授权](https://github.com/jdcloudcom/cn/blob/edit/image/IAM/Strategy%20Management/%E5%8A%A0%20%E6%88%96%20%E8%A7%A3%E9%99%A4%20%E5%AD%90%E8%B4%A6%E5%8F%B7%E7%9A%84%E6%8E%88%E6%9D%83.jpg)
+![V3版本可视化策略创建页面](../../../../image/IAM/PolicyManagement/可视化策略创建v3.jpg)
 
-On the User Group Management page, you can add authorization to a group.
-![为群组添加授权](https://github.com/jdcloudcom/cn/blob/edit/image/IAM/Strategy%20Management/%E4%B8%BA%E7%BE%A4%E7%BB%84%E6%B7%BB%E5%8A%A0%E6%8E%88%E6%9D%83.jpg)
+### JSON Policy Generator
 
-On the Group Details > Group Authorization Policy Management page, you can add or remove the authorization of a group.
-![添加或解除群组的授权](https://github.com/jdcloudcom/cn/blob/edit/image/IAM/Strategy%20Management/%E6%B7%BB%E5%8A%A0%20%E6%88%96%20%E8%A7%A3%E9%99%A4%20%E7%BE%A4%E7%BB%84%E7%9A%84%E6%8E%88%E6%9D%83.jpg)
+In the JSON policy generator, after entering the policy name and description, you can write JSON policies directly, or you can select a policy template before editing JSON documents.
+
+![Json 选择模板](../../../../image/IAM/PolicyManagement/Json策略创建.jpg)
+
+## Policy Detail
+
+Click **Policy Name** or **Edit** to enter the policy details page.
+You can view policy details by visual policies and Json policies, or you can change policy content by clicking **Edit Policy**.
+
+![可视化策略详情](../../../../image/IAM/PolicyManagement/可视化策略详情.jpg)
+
+![Json策略详情](../../../../image/IAM/PolicyManagement/Json策略详情.jpg)
+
+In the authorization policy record, you can see all sub-users, groups, user roles, and service roles that refer to the policy.
+
+![策略授权记录](../../../../image/IAM/PolicyManagement/策略授权记录.jpg)
 

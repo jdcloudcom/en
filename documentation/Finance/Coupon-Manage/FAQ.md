@@ -22,3 +22,5 @@ Coupon cannot be altered after use.
 ### **4. Does coupon have a reminding function?**
 
 The total available amount of coupon lower than RMB200 will trigger message reminding, and the reminding modes are mail and SMS. 11
+
+The message reminder will be triggered respectively 7 days, 3 days and 1 day before expiry of the coupon(s) in the account, with the reminder methods to be Email and SMS.

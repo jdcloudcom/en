@@ -57,6 +57,9 @@
           href: Operation-Guide/Monitoring.md 
         - name: View Status Information
           href: Operation-Guide/status.md
+        - name: Create Alarm Rules
+          href: Operation-Guide/Monitor_Rules.md
+
       - name: Tag
         items:
         - name: Tag Overview

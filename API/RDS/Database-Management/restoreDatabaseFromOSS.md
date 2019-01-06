@@ -19,12 +19,11 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/databas
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**ossURL**|String|True| |The inner link of the backup file uploaded by the user to Object Storage Service, OSS|
+|**ossURL**|String|True| |The path where the user uploads the backup files to the Object Storage Service OSS. <br>For example, if the bucket uploaded by the user for backup is db_backup, and the file is test_server/db1.bak, then ossULR is db_backup/test_server/db1.bak. <br>**Authorization Description**You need to grant the account ID: 785455908940, read permission to this bucket. Specific steps can be viewed at [Document](https://docs.jdcloud.com/cn/object-storage-service/set-bucket-policy-2).|
 
 
 ## Response parameter
 None
-
 
 
 ## Response code

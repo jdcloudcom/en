@@ -18,7 +18,9 @@ items:
     - name: Cloud Product Log Description
       items:
         - name: Application Security Gateway Log
-          href: Introduction/ResourceLog/WAFLog.md  
+          href: Introduction/ResourceLog/WAFLog.md
+        - name: Function Service Log
+          href: Introduction/ResourceLog/FunctionLog.md
 - name: Product Pricing
   items:
     - name: Billing Overview

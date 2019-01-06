@@ -21,6 +21,7 @@ https://mongodb.jdcloud-api.com/v1/regions/{regionId}/instances
 |**pageNumber**|Integer|False| |Page Number; Default: 1; Value range: [1, ∞)|
 |**pageSize**|Integer|False| |Page Size; Default: 10; Value range: [1,100]|
 |**sorts**|Sort[]|False| |createTime - Creation Time, asc (Positive Order), desc (Reverse Order)<br>|
+|**tagFilters**|TagFilter[]|False| |Tag Screen Requirements|
 
 ### Filter
 |Name|Type|Required or not|Default value|Description|
@@ -33,13 +34,17 @@ https://mongodb.jdcloud-api.com/v1/regions/{regionId}/instances
 |---|---|---|---|---|
 |**direction**|String|False| |Direction of Sorting Requirements|
 |**name**|String|False| |Name of Sorting Requirements|
+### TagFilter
+|Name|Type|Required or Not|Default Value|Description|
+|---|---|---|---|---|
+|**key**|String|True| |Tag Key|
+|**values**|String[]|True| |Tag Value|
 
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String| |
 |**result**|Result| |
-
 
 ### Result
 |Name|Type|Description|
@@ -72,6 +77,7 @@ https://mongodb.jdcloud-api.com/v1/regions/{regionId}/instances
 |**preferredmaintenanceWindow**|String|System Maintenance Time, for example: 00:00-02:00, indicating system maintenance from 0 to 2|
 |**replicaSetName**|String|Name of Replica Set|
 |**subnetId**|String|Subnet ID|
+|**tags**|Tag[]|Tag|
 |**vpcId**|String|VPCID|
 ### Charge
 |Name|Type|Description|
@@ -81,6 +87,11 @@ https://mongodb.jdcloud-api.com/v1/regions/{regionId}/instances
 |**chargeRetireTime**|String|The Expected Release Time refers to the expected release time of resources. This value is both available for the Pay-In-Advance/Pay-As-You-Go resources, conforming to the ISO8601 standard, with the UTC time used in the format of YYYY-MM-DDTHH:mm:ssZ|
 |**chargeStartTime**|String|The start time of the billing shall be subject to ISO8601, with the UTC time used in the format of YYYY-MM-DDTHH:mm:ssZ|
 |**chargeStatus**|String|Cost Payment Status, the value is respectively normal, overdue and arrear.|
+### Tag
+|Name|Type|Description|
+|---|---|---|
+|**key**|String|Tag Key|
+|**value**|String|Tag Value|
 
 ## Response code
 |Return code|Description|

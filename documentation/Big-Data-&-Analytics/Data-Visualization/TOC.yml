@@ -18,7 +18,13 @@ items:
     - name: 1. Log in JD Cloud
       href: Operation-Guide/login.md
     - name: 2. My Data Visualization Screen
-      href: Operation-Guide/Mydashboard.md
+      href: 
+      items:
+       - name: 2.1 Create data visualization screen
+         href: Operation-Guide/Mydashboard.md      
+       - name: 2.2 Edit Visualization Screen
+         href: Operation-Guide/editDashboard.md            
+      
     - name: 3. Configuration of Basic Chart Component
       href: 
       items:
@@ -31,7 +37,7 @@ items:
        - name: 3.3 Radar Chart
          href: Operation-Guide/leida.md
        - name: 3.4 Ranking List
-         href: Operation-Guide/leida.md
+         href: Operation-Guide/table.md
        - name: 3.5 Date-Heat Map
          href: Operation-Guide/hot.md     
     - name: 4. Map Component Configuration
@@ -46,7 +52,14 @@ items:
        - name: 4.3 Map Interaction Settings
          href: Operation-Guide/MapInteractive.md    
     - name: 5. Text Component Configuration
-      href: Operation-Guide/text.md
+      href:
+      items:
+       - name: 5.1 Text
+         href: Operation-Guide/text.md
+       - name: 5.2 Timer
+         href: Operation-Guide/text_time.md
+       - name: 5.2 Word Cloud
+         href: Operation-Guide/text_word.md
     - name:  6. Interaction Component Configuration
       href: Operation-Guide/Interactive.md
     - name:  7. Auxiliary Component Configuration

@@ -41,7 +41,14 @@ For specific operation steps, please refer to the section [Public Network Bandwi
 - Configure Server Basic Information:
 Configure server name, description and operating system password.
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Instance Name**: The instance name is the alias of the Cloud Physical Server and it can be defined and set by the user. Upon the setting, the screening can be implemented by using the alias from the list of the Cloud Physical Server. Where several Cloud Physical Servers are purchased at one time, numbers in increasing order will be put after the set name of each Cloud Physical Server by default to indicate the Cloud Physical Servers.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Machine Name**: The machine name is the computer name within the operating system of the Cloud Physical Server and it can be defined and set by the user. Upon the production of the Cloud Physical Server, you can view the name by logging into the Cloud Physical Server. Where several Cloud Physical Servers are purchased at one time, numbers in increasing order will be put after the set name of each Cloud Physical Server by default to indicate the Cloud Physical Servers.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The machine name is optional. If you do not enter the machine name, it will use "host- Private IPv4 address Section 3-intranet-Private IPv4 address Section 4" by default as the machine name.
+
 ![Configuration Server](https://github.com/jdcloudcom/en/blob/edit/image/Hyper-Converged-IDC/Cloud-Physical-Server/en-Create-7BasicInformation.png)
+
 
 - Configure Purchase Duration
 The purchase duration is 1-9 months, 1, 2 and 3 years.

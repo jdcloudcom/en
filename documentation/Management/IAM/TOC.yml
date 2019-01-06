@@ -17,6 +17,8 @@ items:
         href: Introduction/Support-Services.md
   - name: Operation Guide
     items:
+      - name: Overview
+        href: Overview.md
       - name: Identity Management
         items:
           - name: Sub-user
@@ -25,10 +27,22 @@ items:
             href: Identity-Management/Group.md
       - name: Policy Management
         items:
-          - name: Authorization Policy Management
+          - name: Policy Management
             href: Policy-Managemenent/Policy-Management.md
-          - name: Authorization Policy Syntax(v2)
-            href: Policy-Managemenent/Policy-Grammar.md
+          - name: Policy Syntax (v2)
+            href: Policy-Management/Policy-Syntax_v2.md
+          - name: Policy (v3)
+            items:
+              - name: Element Reference
+                href: Policy-Management/Policy_v3/Elements.md
+              - name: Syntactic Structure
+                href: Policy-Management/Policy_v3/Syntax-Structure.md
+              - name: Operation Description Method
+                href: Policy-Management/Policy_v3/Action.md
+              - name: Resource Description Method
+                href: Policy-Management/Policy_v3/Resource.md
+      - name: Set
+        href: Setting.md        
       - name: Virtual MFA Equipment
         items:
           - name: Overview
@@ -41,5 +55,7 @@ items:
             href: Virtual-MFA-Management/Operation-Protection.md
           - name: Guidance for Third-party Application Installation and Usage
             href: Virtual-MFA-Management/Third-Party-Apps.md
-          - name: FAQ for MFA Login Verification
-            href: Virtual-MFA-Management/MFA-FAQs.md
+  - name: FAQ
+    items:
+      - name: FAQ for MFA Login Verification
+        href: Virtual-MFA-Management/MFA-FAQs.md

@@ -51,7 +51,7 @@ Personal property information: your transaction and purchase records in JD Cloud
 
 Personal Internet surfing records: website browsing records, software use records, click records;
 
-Personal common device information (including hardware model, MAC address of the device, operating system type, unique device identification code of software list (such as IMEI/android ID/IDFA/OPENUDID/GUID, SIM card IMSI information and other information that describes the basic condition of personal common device);
+Personal common device information (including hardware model, MAC address of the device, operating system type, unique device identification code of software list (such as IMEI/android ID/IDFA/OPENUDID/GUID, SIM card IMSI information and other information that describes the basic condition of personal common device));
 
 Personal sensitive information refers to personal information that may endanger personal and property security, and easily lead to damage to personal reputation, physical and mental health or discriminatory treatment once being disclosed, illegally provided or abused; the personal sensitive information involved in the Privacy Policy includes: your property information (including transaction records, other virtual property information such as coupons); personal identity information (including ID card, military certificate, passport, driving license, household registration book); network identification information (including account name, account nickname, email address and password related to the foregoing); other information (including personal phone number, mobile phone number, web browsing record).
 
@@ -181,7 +181,7 @@ We will only publicly disclose your personal information under the following cir
 
 6.1.8 If you have any questions in regard to the protection of your personal information, please contact us through the contact information listed at the bottom of the Policy. If you find your personal information is divulged, especially your account and password, please immediately contact us through the contact information listed at the bottom of the Policy, i.e. [How to contact us], so that we can take relevant measures. 
 
-6.2 Storage of your personal information 
+6.2 Storage of your personal information :
 
 6.2.1 Your personal information will be entirely stored within the People's Republic of China. In the event that you use the cross-border transaction service and need to transmit your personal information overseas to complete such transaction, we will separately obtain your authorized consent and request receivers to process such personal information in accordance with our instructions, the Privacy Policy and any other relevant confidentiality and security measures. 
 
@@ -197,15 +197,15 @@ JD Cloud takes your concern about your personal information very seriously and m
 
 7.1. You can log in the JD Cloud website or client “Management Console” to search and manage (change, delete) the basic business information (basic information) and contact information submitted when using JD Cloud services.
 
-7.2. If you need to change your real-name verification information in the JD Cloud account, you shall contact JD Cloud by opening ticket or by phone to operate in accordance with JD Cloud's operation document; if you need to change the real-name verification information submitted via JD account, you shall change it on the website on which you register the original account. 5 Years
+7.2. If you need to change your real-name verification information in the JD Cloud account, you shall contact JD Cloud by opening ticket or by phone to operate in accordance with JD Cloud's operation document; if you need to change the real-name verification information submitted via JD account, you shall change it on the website on which you register the original account.
 
 7.3.    Under the following circumstances, you can request us to delete the user information:
 
-​     7.3.1. Where our handling of such user information violates laws and regulations;
+ 7.3.1. Where our handling of such user information violates laws and regulations;
 
-​     7.3.2. Where we collect and use your user information without your explicit consent;
+ 7.3.2. Where we collect and use your user information without your explicit consent;
 
-​     7.3.3. Where our handling of personal information seriously violates such agreements as reached with you.
+ 7.3.3. Where our handling of personal information seriously violates such agreements as reached with you.
 
 7.4 Change scope of authorized consent or withdraw your authorization
 
@@ -338,3 +338,4 @@ You are reminded with good faith that **the cancellation of your account will br
 
 **6. The cancellation of the JD Cloud account shall not exempt or relieve any behavior of the account and relevant responsibilities before cancellation of such account.**
 
+[JD Cloud Privacy Policy-PDF Download](https://docs-downloads.oss.cn-north-1.jcloudcs.com/Privacy-Policy-pdf.pdf)

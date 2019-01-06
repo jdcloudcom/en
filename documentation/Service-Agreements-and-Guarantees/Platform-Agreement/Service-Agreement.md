@@ -287,3 +287,5 @@ JD Cloud shall not be liable for damages in case the system fails to operate nor
 
 ### 12. Law Application and Jurisdiction
 The validity, interpretation, change, execution and dispute resolution of the terms of this service apply to the laws of the People's Republic of China. Any dispute arising from the terms of this service shall be settled in accordance with the laws of the People's Republic of China and submitted to the people's court with jurisdiction in Daxing District, Beijing where the contract is signed.
+
+[JD Cloud User Service Agreement-PDF Download](https://docs-downloads.oss.cn-north-1.jcloudcs.com/Service-Agreement-pdf.pdf)

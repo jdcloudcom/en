@@ -8,7 +8,7 @@
 
 3. Use coupon at the payment confirmation page. The amount will be automatically deducted after selecting corresponding coupon.
 
-![TimLine Screenshot 20170818155053.png](http://img1.jcloudcs.com/cms/f02d6e03-6ef1-4f74-bed0-89e421d7b9fe20170818161128.png)
+![1](https://github.com/jdcloudcom/cn/blob/joytaobao-coupon-2018122801/image/Coupon-Manage/management-coupon-z-1.png)
 
 ### **Use of Pay-As-You-Go**
 
@@ -18,4 +18,4 @@
 
 (1) Normal coupon deduction cannot be conducted unless the coupon supports both the product line and the billing type.
 
-(2) Under the same conditions, the system will give priority to deduct coupons with the lowest amount. For coupons with the same amount, those with the latest validity period will be firstly deducted.
+(2) Under the same condition, the system prefers to deduct the coupon with latest expiry date. If the expiration time is the same, the coupon with the minimum amount will be deducted first by the system.

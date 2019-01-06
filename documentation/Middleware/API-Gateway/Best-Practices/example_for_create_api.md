@@ -10,17 +10,17 @@ Access to the HTTP backend website http://petstore-demo-endpoint.execute-api.com
 
 ## Create one API in the API Gateway Console according to the example and test such API.
 
-The following process is the guide for creating the API in the API Gateway console according to the example and is the test steps via SDK.
+The following process is the guide for creating the API in the API Gateway console and specifies the test steps via SDK.
 
 ### Create API Group-Create API-Release:
 
-#### 1. 	Log in the API Gateway Console and turn on [API Group Management](https://apigateway-console.jdcloud.com/apiGroupList).
+#### 1.	Log in the API Gateway Console and turn on [API Group Management](https://apigateway-console.jdcloud.com/apiGroupList).
 
-#### 2. 	Click **Create Group**.
+#### 2.	Click **Create Group**.
 
 ![创建分组](../../../../image/Internet-Middleware/API-Gateway/exap_create_apigroup_1.png)
 
-#### 3. 	 After jumping to the created API group page, please fill in the API group information.
+#### 3.	After jumping to the created API group page, please fill in the API group information.
 
 ![新建API分组](../../../../image/Internet-Middleware/API-Gateway/exap_create_apigroup_2.png)
 
@@ -28,20 +28,36 @@ The following process is the guide for creating the API in the API Gateway conso
 
 ![新建API分组成功](../../../../image/Internet-Middleware/API-Gateway/exap_create_apigroup_success.png)
 
-#### 5.	 You can deploy API via the two methods below.
+#### 5.	You can deploy API via the two methods below.
+
 - Create API: Click **Create API**, configure "Name", "Sub-path", "Parameter Query", "Request Body Format" and "Normal Return Format" and click **OK**.
 
 ![新建API1](../../../../image/Internet-Middleware/API-Gateway/exap_create_api_1.png)
 
 ![导入API2](../../../../image/Internet-Middleware/API-Gateway/exap_create_api_2.png)
 
-- Import API: Click **Import API**, upload yaml files conforming to the swagger2.0 specification, and click **OK**. Then, API set in the yaml file will be displayed in the API list interface.
+![导入API2](../../../../image/Internet-Middleware/API-Gateway/exap_create_api_3.png)
+
+- Import API: Click **Import API**, upload yaml files conforming to the swagger2.0 specification, and click **OK**. Then, API set in the yaml file will be displayed in the API list interface. ([Yaml File Download Link](../../../../image/Internet-Middleware/API-Gateway/PetStoreTest_Yaml.zip))
 
 ![导入API](../../../../image/Internet-Middleware/API-Gateway/exap_import_api_1.png)
 
 ![导入API2](../../../../image/Internet-Middleware/API-Gateway/exap_import_api_2.png)
 
-#### 6. 	Click the tag page of [Version Amendment List], click **Release**, configure the following options and click **OK**.
+#### 6.	Click the tag page of [Version Amendment List], click **Release**, configure the following options and click **OK**.
+
+![API高级配置1](../../../../image/Internet-Middleware/API-Gateway/exap_advanced_configuration_1.png)
+
+![API高级配置1](../../../../image/Internet-Middleware/API-Gateway/exap_advanced_configuration_2.png)
+
+- Backend service configuration: If the option of unified configuration at the time of releasing groups is checked, the current API will adopt the unified backend service configured at the time of releasing groups.
+- If the option of unified configuration at the time of releasing groups is not checked, the independent configuration will be made to the current API backend service, with the service type as follows:
+
+    - HTTP/HTTPS: The backend address of the HTTP/HTTPS type can be configured to this API;
+    - Mock backend: The Mock backend provided by the API Gateway can be configured to this API;
+    - Function Service: the Function Service is an event-driven function escrow computing service. If the Function is unavailable, please access [Function Service](https://function-console.jdcloud.com) to create a new function.
+
+#### 7. 	Click the tag page of [Version Amendment List], click **Release**, configure the following options and click **OK**.
 
 - Release revision: 0.0.1;
 - Released as: On-line;
@@ -52,43 +68,61 @@ The following process is the guide for creating the API in the API Gateway conso
 
 ![发布2](../../../../image/Internet-Middleware/API-Gateway/exap_deploy_2.png)
 
-#### 7.	 When the release is conducted, click **Produce SDK and Document** to download the JavaSDK, PythonSDK and API documents.
+#### 8.	 When the release is conducted, click **Produce SDK and Document** to download the JavaSDK, PythonSDK and API documents.
 
 ![生成SDK和文档](../../../../image/Internet-Middleware/API-Gateway/exap_generate_SDK_doc.png)
 
-### Create access key-create access authorization-associate groups:
+### Obtain key pairs-create access authorization-associate groups:
 
-#### 1.	Turn on [Access Key](https://apigateway-console.jdcloud.com/accessSecretKey), and click **Create Access Key**.
+#### You can obtain key pairs via the two methods below:
 
-![创建访问密钥](../../../../image/Internet-Middleware/API-Gateway/exap_create_access_key_1.png)
+- Create access authorization via API caller
 
-#### 2. 	 Fill in the name and description (optional) and click **OK**.
+  - Turn on [Access Key](https://apigateway-console.jdcloud.com/accessSecretKey), and click **Create Access Key**.
 
-![创建访问密钥2](../../../../image/Internet-Middleware/API-Gateway/exap_create_access_key_2.png)
+    ![创建访问密钥](../../../../image/Internet-Middleware/API-Gateway/exap_create_access_key_1.png)
 
-#### 3. 	 Click the key pair name, view details of the access key and copy access key ID, APIKey and APISecret.
+  - Fill in the name and description (optional) and click **OK**.
 
-![密钥详细信息](../../../../image/Internet-Middleware/API-Gateway/exap_access_key_info.png)
+    ![创建访问密钥2](../../../../image/Internet-Middleware/API-Gateway/exap_create_access_key_2.png)
 
-#### 4.	Turn on [Access Authorization](https://apigateway-console.jdcloud.com/authorizationList), and click **Create Authorization**.
+  - Click the key pair name, view details of the access key and copy access key ID, APIKey and APISecret.
 
-![创建授权](../../../../image/Internet-Middleware/API-Gateway/exap_create_access_auth_1.png)
+    ![密钥详细信息](../../../../image/Internet-Middleware/API-Gateway/exap_access_key_info.png)
 
-#### 5. 	 Fill in user identifier (access key ID of access key) and description (optional) and click **OK**.
+  - Turn on [Access Authorization](https://apigateway-console.jdcloud.com/authorizationList), and click **Create Authorization**.
 
-![创建授权2](../../../../image/Internet-Middleware/API-Gateway/exap_create_access_auth_2.png)
+    ![创建授权](../../../../image/Internet-Middleware/API-Gateway/exap_create_access_auth_1.png)
 
-#### 6.	 Click **Associate** to move the created PetStore group to the associated column.
+  - Fill in user identifier (access key ID of access key) and description (optional) and click **OK**.
+
+    ![创建授权2](../../../../image/Internet-Middleware/API-Gateway/exap_create_access_auth_2.png)
+    
+- Create access authorization via the method of JD Cloud user
+
+  - Turn on the [AccessKey Management](https://uc.jdcloud.com/account/accesskey), click **Create Access Key**, and obtain Access Key ID and Access Key Secret after the cellphone verification.
+
+    ![Access Key管理](../../../../image/Internet-Middleware/API-Gateway/exap_Access_Key_admin.png)
+
+  - Turn on [Access Authorization](https://apigateway-console.jdcloud.com/authorizationList), and click **Create Authorization**.
+
+    ![创建授权](../../../../image/Internet-Middleware/API-Gateway/exap_create_access_auth_1.png)
+
+  - Select the JD Cloud user as the authorization type, fill in the user identifier (Access Key ID) and the description (optional) and click **OK**.
+
+    ![创建授权2](../../../../image/Internet-Middleware/API-Gateway/exap_create_access_auth_3.png)
+
+#### Click **Associate** to move the created PetStore group to the associated column.
 
 ![绑定](../../../../image/Internet-Middleware/API-Gateway/exap_bind.png)
 
 Via the above steps, the operation in the API Gateway console interface is completed. Then, the calling can be made via SDK.
 
-### Via Java SDK, call ([Download Link](../../../../image/Internet-Middleware/API-Gateway/PetStoreTest_javaSDK.zip)):
+### Via Java SDK to call
 
-#### 1. 	Unzip the downloaded Java SDK.
+#### 1.	Unzip the downloaded Java SDK.
 
-#### 2. 	Switch to the PetStore directory and create an SDKTest.java file.
+#### 2.	Switch to the PetStore directory and edit Demo.java file. ([Item Download Link](../../../../image/Internet-Middleware/API-Gateway/PetStoreTest_javaSDK.zip))
 
 - accessKeyId refers to the APIKey when viewing detailed information of key pairs;
 - secretAccessKey refers to the APISecret when viewing detailed information of key pairs;
@@ -99,42 +133,52 @@ package net.jdcloud.PetStore;
 
 import com.jdcloud.sdk.auth.CredentialsProvider;
 import com.jdcloud.sdk.auth.StaticCredentialsProvider;
+import com.jdcloud.sdk.client.Environment;
 import com.jdcloud.sdk.http.HttpRequestConfig;
 import com.jdcloud.sdk.http.Protocol;
 import net.jdcloud.PetStore.client.PetStoreClient;
-import net.jdcloud.PetStore.model.ApiName0Response;
-import net.jdcloud.PetStore.model.ApiName0Request;
-import net.jdcloud.PetStore.model.ApiName1Response;
-import net.jdcloud.PetStore.model.ApiName1Request;
-import net.jdcloud.PetStore.model.ReqBody;
-import com.google.gson.Gson;
+import net.jdcloud.PetStore.model.*;
+
 import java.math.BigDecimal;
 
+/**
+ * Demo
+ */
+public class Demo {
 
-public class SDKTest {
-    public static void main (String[] args){
-        String accessKeyId = "5A327AA1AD791A49F358A7E1325E414C"; //APIKey
-        String secretAccessKey = "9FD89EF6099EB319FCD36C525B517047"; //APISecret
-        CredentialsProvider credentialsProvider = new StaticCredentialsProvider(accessKeyId, secretAccessKey);
-        PetStoreClient client = PetStoreClient.builder().
-                credentialsProvider(credentialsProvider)
-                .httpRequestConfig(new HttpRequestConfig.Builder().protocol(Protocol.HTTP).build()) //HTTPS by default
+    private static String accessKeyId = "0E91C3765B78CBD71715F9BF24997AF3";
+    private static String secretKey = "AF7B13C8010F50F03A52C01458714701";
+    private static CredentialsProvider credentialsProvider = new StaticCredentialsProvider(accessKeyId, secretKey);
+    private static PetStoreClient client = PetStoreClient.builder()
+                .credentialsProvider(credentialsProvider)
+                .httpRequestConfig(new HttpRequestConfig.Builder().connectionTimeout(10000).protocol(Protocol.HTTPS).build())
+//                .environment(new Environment.Builder().endpoint("xv3xbwah945y-test.cn-north-1.jdcloud-api.net").build()) // Test Environment Address
+//                .environment(new Environment.Builder().endpoint("xv3xbwah945y-preview.cn-north-1.jdcloud-api.net").build()) // Pre-release Environment Address
+                .environment(new Environment.Builder().endpoint("xv3xbwah945y.cn-north-1.jdcloud-api.net").build()) // On-line Environment Address
                 .build();
-//        ApiName0
-        ApiName0Request request = new ApiName0Request();
-        request.setPetId("1");
-        ApiName0Response response = client.apiName0(request);
-        System.out.println(new Gson().toJson(response));
 
-//        ApiName1
-        ApiName1Request request1 = new ApiName1Request();
-        ReqBody reqBody1 = new ReqBody();
-        reqBody1.setId(1);
-        reqBody1.setPrice(new BigDecimal(3.3));
-        reqBody1.setType("dog");
-        request1.setReqBody(reqBody1);
-        ApiName1Response response1 = client.apiName1(request1);
-        System.out.println(new Gson().toJson(response1));
+    public static void main (String[] args){
+//        GetPetInfo
+        GetPetInfoRequest getPetInfoRequest = new GetPetInfoRequest();
+        getPetInfoRequest.setPetId(1);
+        GetPetInfoResponse getPetInfoResponse = client.getPetInfo(getPetInfoRequest);
+        System.out.println(getPetInfoResponse.getGetPetInfoResult());
+
+//        CreatePet
+        CreatePetRequest createPetRequest = new CreatePetRequest();
+        CreatePetBody CreatePetBody = new CreatePetBody();
+        CreatePetBody.setId(1);
+        CreatePetBody.setPrice(new BigDecimal(3.3));
+        CreatePetBody.setType("dog");
+        createPetRequest.setBody(CreatePetBody);
+        CreatePetResponse createPetResponse = client.createPet(createPetRequest);
+        System.out.println(createPetResponse.getCreatePetResult());
+
+//        TestFunction
+        TestFunctionRequest testFunctionRequest = new TestFunctionRequest();
+        TestFunctionResponse testFunctionResponse = client.testFunction(testFunctionRequest);
+        System.out.println(testFunctionResponse.getTestFunctionResult());
+
     }
 }
 
@@ -144,63 +188,73 @@ public class SDKTest {
 
 ![Java返回结果](../../../../image/Internet-Middleware/API-Gateway/exap_Java_return.png)
 
-### Via Python SDK, call ([Download Link](../../../../image/Internet-Middleware/API-Gateway/PetStoreTest_pythonSDK.zip))::
+### Via Python SDK to call
 
 #### 1.	Unzip the downloaded Python SDK and execute the setup.py file.
 
-#### 2.	Switch to the PetStore directory and create a PetStoreTest.py file.
+#### 2.	Switch to the PetStore directory and create a PetStoreTest.py file. ([Item Download Link](../../../../image/Internet-Middleware/API-Gateway/PetStoreTest_pythonSDK.zip))
 
 ```
 # coding=utf8
 
 from jdcloud_sdk.core.credential import Credential
 from jdcloud_sdk.core.config import Config
-from jdcloud_sdk.core.const import SCHEME_HTTP
+from jdcloud_sdk.core.const import SCHEME_HTTPS
 from PetStore.apis.create_pet_request import *
 from PetStore.apis.get_pet_info_request import *
+from PetStore.apis.test_function_request import *
 from PetStore.client.PetStore_client import PetStoreClient
-from PetStore.models.body import Body
+from PetStore.models.create_pet_body import *
 
 
-class PetStoreTest(object):
+class PetStoreTest(object)：
 
-    def __init__(self, access_key, secret_key, end_point):
+    def __init__(self, access_key, secret_key, end_point)：
         self.access_key = access_key
         self.secret_key = secret_key
         self.end_point = end_point
         self.credential = Credential(self.access_key, self.secret_key)
-        self.config = Config(self.end_point, scheme=SCHEME_HTTP)
+        self.config = Config(self.end_point, scheme=SCHEME_HTTPS)
         self.client = PetStoreClient(self.credential, self.config)
 
-    def create_pet_test(self):
-        req_body = Body(id=1, type="dog", price=12).to_dict()
+    def create_pet_test(self)：
+        req_body = CreatePetBody(id=1, type="dog", price=12).to_dict()
         parameters = CreatePetParameters()
         request = CreatePetRequest(parameters=parameters, bodyParameters=req_body)
         res = self.client.send(request)
         return res
 
-    def get_pet_info_test(self):
+    def get_pet_info_test(self)：
         parameters = GetPetInfoParameters(petId=1)
         request = GetPetInfoRequest(parameters=parameters, bodyParameters=None)
         res = self.client.send(request)
         return res
 
+    def function_test(self)：
+        parameters = TestFunctionParameters()
+        request = TestFunctionRequest(parameters=parameters, bodyParameters=None)
+        res = self.client.send(request)
+        return res
 
-if __name__ == "__main__":
+
+if __name__ == "__main__"：
     # APIKey in Access Key Details
-    APIKey = "5A327AA1AD791A49F358A7E1325E414C"
+    APIKey = "0E91C3765B78CBD71715F9BF24997AF3"
     # APISecert in Access Key Details
-    APISecert = "9FD89EF6099EB319FCD36C525B517047"
+    APISecert = "AF7B13C8010F50F03A52C01458714701"
     # Part Without Prefix for a Group Path in the API Group Information
     endpoint = "xv3xbwah945y.cn-north-1.jdcloud-api.net"
 
     pet_store = PetStoreTest(APIKey, APISecert, endpoint)
     print pet_store.create_pet_test().content
     print pet_store.get_pet_info_test().content
+    print pet_store.function_test().content
 
 ```
 
 #### 3.	 Run PetStoreTest.py to obtain returned results.
+
+![Python返回结果](../../../../image/Internet-Middleware/API-Gateway/exap_Python_return.png)
 
 ### You are allowed to obtain your API calling conditions in real time via the [API Gateway Monitoring](http://cms-console-north-2a-backup.jdcloud.com/monitor/apigateway), including: success number, traffic, response time, request exception and other information as well as exception condition alarm setting.
 

@@ -53,6 +53,7 @@ None
 |**regionId**|String|Region ID, detailed in [Regions and Availability Zone Comparison Table](../Enum-Definitions/Regions-AZ.md)|
 |**secondaryNode**|DBInstanceNode|Information of slave node in High Availability Cluster<br>- only support SQL Serverer|
 |**subnetId**|String|Subnet ID|
+|**tags**|Tag[]|Tag Information|
 |**vpcId**|String|VPC ID|
 ### Charge
 |Name|Type|Description|
@@ -68,6 +69,11 @@ None
 |**id**|String|Nodeid|
 |**name**|String|Node Name|
 |**status**|String|Node Status|
+### Tag
+|Name|Type|Description|
+|---|---|---|
+|**key**|String|Tag Key|
+|**value**|String|Tag Value|
 
 ## Response code
 |Return code|Description|
