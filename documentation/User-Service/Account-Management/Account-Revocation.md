@@ -15,7 +15,7 @@ Once your account is canceled, it cannot be recovered. Please backup your accoun
 ## Account Cancellation Process
 (1) Open ticket, select account & verification type
 
-![](../../../image/User/Account%20Management/Account%20Revocation/Account Canceling.png)
+![](../../../image/User/Account%20Management/Account%20Revocation/Account-Canceling.png)
 
 (2) Upload the basic information in the ticket</br>
 The user verified by real-name needs to upload the basic information in the ticket for identity verification. The user not verified by real-name can skip the step.</br></br>
