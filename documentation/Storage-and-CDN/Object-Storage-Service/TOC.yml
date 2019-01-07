@@ -163,7 +163,7 @@ items:
         items:
            - name: CloudBerry
              href: API-Reference-S3-Compatible/Compatibility-Tools/CloudBerry-1.md 
-      - name: OOS API Reference(Previous Version)
+      - name: OSS API Reference(Previous Version)
         items:
            - name: Basic Concept
              href: API-Reference/Introduction/Basic-Concepts.md
