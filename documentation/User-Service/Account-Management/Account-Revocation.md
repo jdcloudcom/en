@@ -15,7 +15,7 @@ Once your account is canceled, it cannot be recovered. Please backup your accoun
 ## Account Cancellation Process
 (1) Open ticket, select account & verification type
 
-![](../../../image/User/Account%20Management/Account%20Revocation/账号注销1.png)
+![](../../../image/User/Account%20Management/Account%20Revocation/Account-Canceling.png)
 
 (2) Upload the basic information in the ticket</br>
 The user verified by real-name needs to upload the basic information in the ticket for identity verification. The user not verified by real-name can skip the step.</br></br>
@@ -24,7 +24,7 @@ If you just completed personal real-name verification, you need to upload three 
 &emsp;- one photo holding the back side of your ID Card</br>
 &emsp;- one photo holding a piece of A4 paper written with "I agree to the *Instructions for the Cancellation of JD Cloud Account* and apply for the cancellation of JD Cloud Account: user name."</br></br>
 If you have completed enterprise real-name verification, you only need to upload one image:</br>
-&emsp;- one scanned image of the *Consent of Canceling JD Cloud Account* affixed with official seal ([download the template](https://docs-downloads.oss.cn-north-1.jcloudcs.com/%25E6%25B3%25A8%25E9%2594%2580%25E4%25BA%25AC%25E4%25B8%259C%25E4%25BA%2591%25E8%25B4%25A6%25E5%258F%25B7%25E5%2590%258C%25E6%2584%258F%25E4%25B9%25A6.docx))
+&emsp;- one scanned image of the *Consent of Canceling JD Cloud Account* affixed with official seal ([download the template](https://docs-downloads.oss.cn-north-1.jcloudcs.com/Consent-of-Canceling-JDCloud-Account.docx))
 
 (3) Leave an email address and phone number that can contact you in the ticket
 
