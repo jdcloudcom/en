@@ -47,6 +47,8 @@
           href: Getting-Started/Delete-ES.md
   - name: Operation Guide
     items:
+      - name: Dedicated Primary Node
+        href: Operation-Guide/Dedicated-master.md
       - name: Access Cluster
         href: Operation-Guide/connect-ES.md
       - name: Use kibana

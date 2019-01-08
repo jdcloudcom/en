@@ -11,7 +11,7 @@ The use restrictions of JD Cloud Storage Gateway are shown as below:
 
 ### Relevant restrictions of NFS protocol
 
-- Storage Gateway does not support file lock, soft link and hard link.
+- The Storage Gateway does not support random writing, file lock, soft link and hard link now.
 - Clients accessing NFS need to be used by attaching by Root user other than other users temporarily.
 
 ### Related References

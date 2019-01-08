@@ -4,7 +4,7 @@
 
 1. The use of Storage Gateway depends on Virtual Machines and Object Storage Service Product, please ensure to enable Virtual Machines and Object Storage Service in advance.
 
-2. The recommended configuration of Virtual Machines for deploying Storage Gateway: 4-core CPU/4GB memory/40G SSD Cloud Disk Service; you can configure larger Cloud Disk Service according to the data scale.
+2. The minimum configuration of the Virtual Machines for deploying the Storage Gateway: 4-core CPU/4GB memory/40G SSD Cloud Disk Service. You can configure the Cloud Disk Service of higher volume according to the data scale.
 
 ## Create Storage Gateway 
 
@@ -42,8 +42,14 @@ Notification: see [AccessKey Management](https://uc.jdcloud.com/account/accesske
 auto_fdisk.sh /dev/vdb /cache ext4
 ```
 
-Notification: `/dev/vdb`is the device name of your Cloud Disk Service, which can be initialed as the local cache of Cloud Disk Service by yourself as required; parameters such as `/cache ext4`shall not be modified. Please reference [Partition, format and attaching of Data Disk](https://docs.jdcloud.com/cn/cloud-disk-service/linux-partition) for initialing Cloud Disk Service. Pop up `Warning: This directory exists, is this ok? [Y/N]`, please enter `Y`.
+Notification:
 
+- `/dev/vdb`is the device name of your Cloud Disk Service, which can be initialed as the local cache of Cloud Disk Service by yourself as required; 
+
+- Parameters such as `/cache ext4`shall not be modified. Please reference [Partition, format and attaching of Data Disk](https://docs.jdcloud.com/cn/cloud-disk-service/linux-partition) for initialing Cloud Disk Service. Pop up `Warning: This directory exists, is this ok? [Y/N]`, please enter `Y`.
+
+- The cache directory for the Storage Gateway is `/cache`, the data about your resent access is cached under such directory, and the cache can be manually cleared.
+ 
 3. After completion of configuration, you can start NFS file system on the Storage Gateway with the starting script path of `/root/bin/gw ` that can be used for starting NFS service. Execution command example is as follows:
 
 ```

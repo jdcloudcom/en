@@ -4,5 +4,5 @@ JCS for Elasticsearch supports the setting of dedicated primary nodes to improve
 
 ```
 Note:
-* We suggested that 3 dedicated primary nodes shall be assigned to each cluster by default. Such 3 dedicated primary nodes can provide two backup nodes when the primary node fails, to select a new primary node.
+* We suggest that 3 dedicated primary nodes be assigned to each cluster by default in case of enabling the dedicated primary nodes. Such 3 dedicated primary nodes can provide additional backup nodes when any primary node fails, to select a new primary node.
 ```
