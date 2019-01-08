@@ -191,7 +191,7 @@
       - name: MySQL Instance Specifications
         href: Instance-Specifications/Instance-Specifications-MySQL.md
       - name: SQL Server Instance Specifications
-        href: Instance-Specifications/Instance-Specifications-MySQL.md
+        href: Instance-Specifications/Instance-Specifications-SQLServer.md
 
   - name: Enum Instructions
     items:
