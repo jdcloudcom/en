@@ -8,7 +8,22 @@ RDS is a stable and reliable cloud database service of JD Cloud based on the JCS
 * The backup data shall be synchronized to JD Cloud storage, with 3 copies of saved files to ensure data security.
 * It supports flexible capacity expansion and adjusts resources based on the service situation.
 
-## List of RDS Region and Availability Zone
+## Database Engine and Version Supported
+The following engines and versions are supported by RDS
+- MySQL
+  - 5.6
+  - 5.7
+- Percona:
+  - 5.7
+- MariaDB
+  - 10.2
+- SQL Sever
+  - 2008 R2: Enterprise Version
+  - 2012: Enterprise Version and Standard Version
+  - 2014: Enterprise Version and Standard Version
+  - 2016: Enterprise Version and Standard Version
+
+## List of Supported Regions and Availability Zones
 |Region|Region Mark|Availability Zone| Availability Zone Mark|
 |---|---|---|---|
 |cn-north-1|cn-north-1|Availability Zone A|cn-north-1a|

@@ -15,4 +15,4 @@ The TiDB Service is a distributed cloud database product created by JD Cloud in 
 - [Monitoring](../Operation-Guide/Monitor.md)
   
 ## Billing
-TiDB Service supports two billing types: “**monthly package**” and “**Pay By Configuration**”. Refer to “[Charging Rules](../Pricing/Billing-Rules.md)” for details.
+Now, TiDB is in the Beta stage and is free the users whose applications are approved.

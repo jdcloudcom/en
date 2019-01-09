@@ -12,7 +12,15 @@
       - name: Benefits
         href: Introduction/Benefits.md
       - name: Specifications
-        href: Introduction/Specifications.md
+        items:
+        - name: MySQL Specifications
+          href: Introduction/Specifications/MySQL-Specifications.md
+        - name: Percona Specifications
+          href: Introduction/Specifications/Percona-Specifications.md
+        - name: MariaDB Specifications
+          href: Introduction/Specifications/MariaDB-Specifications.md
+        - name: SQL Server Specifications
+          href: Introduction/Specifications/SQL-Server-Specifications.md       
       - name: Restrictions
         items:
         - name: JCS for MySQL Restrictions

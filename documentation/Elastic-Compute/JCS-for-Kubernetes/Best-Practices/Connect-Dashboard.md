@@ -44,6 +44,7 @@ spec:
   selector:
      k8s-app: kubernetes-dashboard
 ```  
+Note: The service will automatically create the Load Balancer with the Public IP. Such Load Balancer can be viewed in Console-Network-Load Balancer-Instance and occupy the quota for the Load Balancer and Public IP in this region.  
 2) Perform the following command to create services in the kube-system namespace:  
 `
 kubectl create -f dashboard-lb.yaml --namespace=kube-system
