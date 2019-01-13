@@ -7,7 +7,7 @@ The deployment progress can be viewed in the "Details". The "Cancel" function is
 
 **Cancel**
 
-The deploying/rolling back task will be canceled. Please note that the rollback is not supported for the deployed/rolled back task, i.e. the program package versions of different instances are inconsistent in the same deployment group.
+The deploying task will be canceled. Please note that the rollback is not supported for the deployed task, i.e. the program package versions of different instances are inconsistent in the same deployment group.
 
 **Rollback**
 

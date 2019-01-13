@@ -2,7 +2,7 @@
 
 
 ## Introduction
-At present, RDS Open API supports JCS for SQL Server, MySQL, PostgreSQL
+At present, RDS Open API supports JCS for MySQL, Percona, MariaDB and SQL Server
 
 
 ### Version
@@ -72,7 +72,7 @@ v1
 |**modifyParameterGroupAttribute**|PUT|Modify parameter set name and description<br>- Support MySQL only|
 |**modifyParameters**|PUT|Modify Configuration Parameter of SQL Server Instance Some modified parameters can come into force only when being rebooted. For details, please refer to relevant document of Microsoft<br>- Support SQL Server only|
 |**modifyWhiteList**|PUT|Modify the IP White List that allows access to the instance. The White List is a list of IP/IP segments that are allowed to access the current instance. By default, the White List is open to the VPC. If the user has enabled the internet access, you need to configure a White List for the IP of the internet.|
-|**rebootInstance**|POST|Reboot the RDS instance. For example, after modifying some configuration parameters, you need to reboot the instance to take effect. You can combine the failover function to reboot the standby machine to reduce the impact on the service<br>**Note: If the instance is being backed up, rebooting the primary instance will terminate the backup operation. ** You can view the start time of backup in the backup policy to see whether a backup is running. If you need to reboot the primary instance during the instance backup, you are advised to perform a full instance backup manually after rebooting.|
+|**rebootInstance**|POST|Reboot the RDS instance. For example, after modifying some configuration parameters, you need to reboot the instance to take effect. You can combine the failover function to reboot the standby machine to reduce the impact on the service<br>**Note: If the instance is being backed up, rebooting the primary instance will terminate the backup operation.** You can view the start time of backup in the backup policy to see whether a backup is running. If you need to reboot the primary instance during the instance backup, you are advised to perform a full instance backup manually after rebooting.|
 |**resetPassword**|POST|Reset Database Account Password. If the user forgets the password of the account, he/she can use this API to reset the specified account password. After the password is reset, the previous password will not be available and you must log in or connect to the database instance with the new password after the reset.|
 |**restoreDatabaseFromBackup**|POST|Restore the single database from backup, and support recovery from backups of other instances (but must be instances under the same account). For example, you can restore from a backup of a database instance in a production environment to a database in a test environment. <br>- Support SQL Server Only|
 |**restoreDatabaseFromFile**|POST|Restore a single database from the backup file uploaded by the user to the cloud through the Cloud on Single Database<br>- only support SQL Server|
