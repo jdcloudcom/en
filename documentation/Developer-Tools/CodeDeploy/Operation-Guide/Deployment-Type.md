@@ -100,3 +100,5 @@ Descriptions for the variable therein are as follows:
 | :--------: | :--------:|
 | ${group id}  | Deployment group ID, which can be viewed on the application details page |
 | ${random string}  | Random Number |
+
+**Please note that** when the Load Balancer adds the virtual server groups or adds Virtual Machines to the existing virtual server groups, the health check will be performed first before opening traffic. Therefore, there is a certain time interval, and the health check can be determined whether to be enabled according to the actual situation.

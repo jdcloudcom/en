@@ -51,6 +51,8 @@
         href: Operation-Guide/Milestone-List.md
       - name: Edit Deployment Group
         href: Operation-Guide/Edit-Deployment-Group.md
+      - name: Details of Deployment Group
+        href: Operation-Guide/Deployment-Group-Detail.md
       - name: Create Deployment
         href: Operation-Guide/Create-Deployment2.md
       - name: Deployment History
@@ -65,6 +67,10 @@
         href: Operation-Guide/Install-Agent.md
       - name: Agreement
         href: Operation-Guide/Convention.md
+  - name: Best Practices
+    items: 
+      - name: Blue and Green Deployment
+        href: Best-Practice/Blue-green-Deployment.md
   - name: FAQ
     href: FAQ/FAQ.md          
   - name: Related Resources

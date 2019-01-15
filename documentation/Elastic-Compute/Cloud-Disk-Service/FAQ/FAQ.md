@@ -4,9 +4,17 @@
 
 A: A single user can create 40 Cloud Disk Services and a single virtual machine can attach 8 Cloud Disk Services at most. If you need to increase the cloud disk quota, please log in the console [Open Ticket](https://ticket.jdcloud.com/myorder/form?cateId=1&questionId=162).
 
-**Q: How much is the capacity of a single Cloud Disk Service?**
+**Q: What is the capacity of the old cloud disk?**
 
 A: The range of storage space for an SSD Cloud Disk is 20GB-1000GB and the particle size is 10GB; the range of storage space for a Premium Hdd Cloud Disk is 20GB-3000GB and the particle size is 10GB.
+
+**Q: What is the capacity of the three new generation cloud disk?**
+
+A: The range of bucket for a general type SSD cloud disk is 20GB-4,000GB and the particle size is 10GB; the range of bucket for a capacity type HDD cloud disk is 20GB-4,000GB and the particle size is 10GB; the range of bucket for a performance type SSD cloud disk is 20GB-4,000GB and the particle size is 10GB.
+
+**Q: Does the cloud disk support encryption?**
+
+A: Yes. Currently the cn-east-2, cn-east-1 and cn-south-1 regions support cloud disk encryption (beta)
 
 
 **Q: How many backups can a Cloud Disk Service have?**
@@ -56,7 +64,7 @@ The correct usage of the shared block storage is to make central management to t
 
 **Q: How is the IO performance of JD Cloud Disk? How to select?**
 
-A: JD Cloud Disk consists of SSD Cloud Disk and Premium Hdd Cloud Disk: the SSD Cloud Disk provides a maximum of 20000 random read-write IOPS and higher I/O performance and applies to application scenarios where high capacity and core and key business are required; the Premium Hdd Cloud Disk provides a maximum of 500 read-write IOPS and applies to application scenario where the data will not be frequently accessed or low I/O capacity is required.
+A: JD Cloud Disk Service provides the three types, general type SSD cloud disk, performance type SSD cloud disk and capacity type HDD cloud disk. The general type SSD cloud disk provides a maximum 15,000 random read-write IOPS, higher I/O performance, applicable to boot volumes, small databases, large-scale development tests, web servers, and other business scenarios that require random read-write; performance type SSD cloud disk provides a maximum of 32,000 random read-write IOPS, higher I/O performance, applicable to the application scenarios that have high load and core key business; capacity type SSD cloud disk provides a maximum of 500 random read-write IOPS, applicable to the application scenarios where data is not often accessed or having lower I/O load.
 
 **Q: How to attach a Cloud Disk Service to a Virtual Machines?**
 

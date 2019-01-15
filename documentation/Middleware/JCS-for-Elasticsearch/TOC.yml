@@ -48,11 +48,9 @@
   - name: Operation Guide
     items:
       - name: Dedicated Primary Node
-        href: Operation-Guide/Dedicated-master.md
-      - name: Access Cluster
-        href: Operation-Guide/connect-ES.md
-      - name: Use kibana
-        href: Operation-Guide/using_kibana.md
+        href: Operation-Guide/Dedicated-master.md 
+      - name: Plug-in Support
+        href: Operation-Guide/IK.md 
       - name: Monitor Cluster
         items: 
         - name: View Monitoring Information
@@ -61,7 +59,6 @@
           href: Operation-Guide/status.md
         - name: Create Alarm Rules
           href: Operation-Guide/Monitor_Rules.md
-
       - name: Tag
         items:
         - name: Tag Overview
@@ -72,6 +69,12 @@
           href: Operation-Guide/Tag/Filter-by-Tag.md
   - name: Best Practices
     items:
+     - name: Specification Capacity Evaluation
+       href: Best-Practices/Capacity-Assessment.md
+     - name: Access Cluster
+       href: Best-Practices/connect-ES.md
+     - name: Use kibana
+       href: Best-Practices/using_kibana.md
      - name: Performance Indicators
        href: Best-Practices/performance.md
   - name: FAQ

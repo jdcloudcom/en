@@ -34,3 +34,6 @@ If a network ACL is set for the subnet selected when the JD Cloud RDS is created
 
 ## How to modify parameters of JCS for MySQL service instance?
 At present, user are not allowed to modify JCS for MySQL instance parameters in JD Cloud. Therefore, users can feed back the demands through open ticket to the engineers of JD Cloud, and the engineers will help give assistance in the modification.
+
+## Some data is deleted for a large table in JCS for MySQL, but the data space disk usage has not changed through the monitoring graph
+This is a data file fragment hole problem. When InnoDB performs data deletion, the deleted space will not be recovered, and it will cause a lot of file holes, leading to that the data space usage in the monitoring graph will not change. Optimization method: `OPTIMIZE TABLE <table>` or `ALTER TABLE <table> ENGINE=Innodb` to rebuild the table space.

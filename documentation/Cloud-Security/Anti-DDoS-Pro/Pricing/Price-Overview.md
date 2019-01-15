@@ -39,6 +39,6 @@ DDoS Protective Capability|	CC Defense Peak Value| Cost (RMB/day)|
 ## Business Bandwidth:
 By default, 100 Mbps is gifted. You can purchase larger business bandwidth if needed. The business bandwidth and basic protection have the same purchase cycle.
 RMB 4000 per 50Mbps. 2000Mbps can be purchased at most.
+</br>
 
-
-- For better protection bandwidth, please contact the customer service.
+ **If higher protection capability is required, please contact the customer service** .

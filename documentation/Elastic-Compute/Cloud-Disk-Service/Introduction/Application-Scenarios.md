@@ -1,33 +1,44 @@
 # Application Scenarios
 
 
-**SSD cloud disk**
+**General Type SSD Cloud Disk**
 
-I/O Performance: A maximum of 20,000 random read-write IOPS and 300MBps throughput performance are provided and the default throughput is 100MBps;
+I/O Performance: A maximum of 15,000 random read-write IOPS and 150MBps throughput performance is provided;
 
-Maximum capacity: Single Premium Hdd Cloud Disk provides a maximum of 1000GB storage space;
+Maximum Capacity: A single general type HDD cloud disk provides a maximum of 4,000GB bucket;
 
 Application Scenarios:
 
-- Applicable to MySQL, SQL Server, MongoDB and other medium and large-sized database application, providing long-term, stable and ultra-high single disk performance;
+- Applicable to boot volumes, small databases, large-scale development tests, web servers, and other scenarios;
+- Applicable to the business scenarios that require random read-write.
+
+**Performance Type SSD Cloud Disk**
+
+I/O Performance: A maximum of 32,000 random read-write IOPS and 150MBps throughput performance is provided;
+
+Maximum Capacity: A single performance type HDD cloud disk provides a maximum of 4,000GB bucket;
+
+Application Scenarios:
+
+- Applicable to the deployment scenarios of MySQL, SQLServer, Oracle and other databases;
 - Applicable to I/O intensive core business scenario with high requirements for data reliability.
 
 
 ![ app_scenario_001 ](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/CloudDisk/Application-Scenarios/app_scenario_001.png)
 
 
-**Premium Hdd Cloud Disk**
+**Capacity Type HDD Cloud Disk**
 
 
 I/O performance: A maximum of 500 random read-write IOPS and 80MBps throughput performance is provided;
 
-Maximum capacity: Single Premium Hdd Cloud Disk provides a maximum of 3000GB storage space;
+Maximum Capacity: A single capacity type HDD cloud disk provides a maximum of 4,000GB bucket;
 
 Application Scenarios:
 
-- Applicable to most of I/O scenarios, the best choice with good quality and low price;
-- Applicable to small and medium-sized database, web server, etc., providing stable IO performance output;
-- Applicable to large file sequential read and write, cold data backup and other archiving storage, providing the best choice with high cost performance.
+- Applicable to the I/O scenarios that do not have high requirements for read-write rate, the best choice for high quality and low price;
+- Applicable to web servers, large capacity, and applications that process fewer transactions;
+- Applicable to large file sequential read-write, cold data backup and other archiving storage.
 
 ![ app_scenario_002 ](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/CloudDisk/Application-Scenarios/app_scenario_002.png)
 

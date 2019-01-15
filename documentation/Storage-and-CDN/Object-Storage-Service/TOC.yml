@@ -143,14 +143,86 @@ items:
         items:
            - name: Compatible Interface Overview
              href: API-Reference-S3-Compatible/Compatibility-API/Compatibility-API-overview.md
-           - name: Post Object
-             href: API-Reference-S3-Compatible/Compatibility-API/Post-Object-2.md
-           - name: Get Bucket Encryption
-             href:  API-Reference-S3-Compatible/Compatibility-API/Get-Bucket-Encryption-2.md
-           - name: Put Bucket Encryption
-             href:  API-Reference-S3-Compatible/Compatibility-API/Put-Bucket-Encryption-2.md
-           - name: Delete Bucket encryption
-             href:  API-Reference-S3-Compatible/Compatibility-API/Delete-Bucket-Encryption-2.md             
+           - name: About Service Operation
+             items:
+               - name: GetService
+                 href: API-Reference-S3-Compatible/Compatibility-API/Service-Related/Get-Service-2.md
+           - name:  About Bucket Operation 
+             items:
+               - name: Delete Bucket
+                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Delete-Bucket-2-Compatibility-API.md
+               - name: Delete Bucket cors
+                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Delete-Bucket-Cors-2.md           
+               - name: Delete Bucket encryption
+                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Delete-Bucket-Encryption-2.md
+               - name: Delete Bucket policy
+                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Delete-Bucket-Policy-2.md 
+               - name: Delete Bucket replication
+                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Delete-Bucket-Replication-2.md 
+               - name: Delete Bucket website
+                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Delete-Bucket-Website-2.md
+               - name: GET Bucket acl
+                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/GET-Bucket-Acl-2.md           
+               - name: GET Bucket notification
+                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/GET-Bucket-Notification-2.md
+               - name: Get Bucket(ListObjects)
+                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Get-Bucket-2.md 
+               - name: Get Bucket cors
+                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Get-Bucket-Cors-2.md
+               - name: Get Bucket encryption
+                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Get-Bucket-Encryption-2.md
+               - name: Get Bucket policy
+                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Get-Bucket-Policy-2.md           
+               - name: Get Bucket replication
+                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Get-Bucket-Replication-2.md
+               - name: Get Bucket website
+                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Get-Bucket-Website-2.md 
+               - name: Head Bucket
+                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Head-Bucket-2.md
+               - name: List Multipart Uploads
+                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Delete-Bucket-Website-2.md
+               - name: PUT Bucket notification
+                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/PUT-Bucket-Notification-2.md           
+               - name: Put Bucket
+                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Put-Bucket-2.md
+               - name: Put Bucket cors
+                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Put-Bucket-Cors-2.md 
+               - name: Put Bucket encryption
+                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Put-Bucket-Encryption-2.md
+               - name: Put Bucket policy
+                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Put-Bucket-Policy-2.md
+               - name: Put Bucket replication
+                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Put-Bucket-Replication-2.md           
+               - name: Put Bucket website
+                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Put-Bucket-Website-2.md      
+           - name: About Object Operation
+             items:
+              - name: Abort Multipart Upload
+                href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Objects/Abort-Multipart-Upload-2.md
+              - name: Complete Multipart Upload
+                href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Objects/Complete-Multipart-Upload-2.md
+              - name: Delete Multiple Objects
+                href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Objects/Delete-Multiple-Objects-2.md
+              - name: Delete Object
+                href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Objects/Delete-Object-2.md
+              - name: Get Object
+                href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Objects/Get-Object-2.md
+              - name: Head Object
+                href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Objects/Head-Object-2.md
+              - name: Initiate Multipart Upload
+                href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Objects/Initiate-Multipart-Upload-2.md
+              - name: List Parts
+                href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Objects/List-Parts-2.md
+              - name: Post Object
+                href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Objects/Post-Object-2.md
+              - name: Put Object
+                href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Objects/Put-Object-2.md
+              - name: Put Object Copy	
+                href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Objects/Put-Object-Copy-2.md
+              - name: Upload Part
+                href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Objects/Upload-Part-2.md
+              - name: Upload Part Copy	
+                href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Objects/Upload-Part-Copy-2.md	                                     
       - name: Error Response
         href: API-Reference-S3-Compatible/Error-Response-2.md                
       - name: Expansion Interface
@@ -182,11 +254,7 @@ items:
                - name: Public Response Header
                  href: API-Reference/Introduction/Response-Headers.md
                - name: Access Control
-                 items:             
-               - name: Contain Signature in the Header
-                 href: API-Reference/Access-Control/Signature-In-Header.md
-               - name: Contain Signature in the URL
-                 href: API-Reference/Access-Control/Signature-In-URL.md
+                 href: API-Reference/Introduction/Access-Control-Signature-In-Header-Or-URL.md
            - name: Service Operations
              items:
                - name: GetService

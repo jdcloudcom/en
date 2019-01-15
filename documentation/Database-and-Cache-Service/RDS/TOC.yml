@@ -296,6 +296,10 @@
         href: Best-Practices/Connect-Database-Instance/Client-Connect-SQLServer.md
       - name: Connect to SQL Server from Virtual Machine
         href: Best-Practices/Connect-Database-Instance/Host-Connect-SQLServer.md  
+  - name: Tutorial 
+    items:
+    - name: MySQL Performance Test 
+      href: Tutorial/MySQL-Performance-Test.md 
   - name: FAQ
     items:
     - name: FAQ

@@ -14,13 +14,17 @@ The time-out period of rollback is the same with the time-out period of deployme
 
 - The rollback is a rollback of deployment task granularity, not that of a non-single instance
 - Rollback will back to the previous existed good version
+- The new increment file will not be deleted, only the old files backed up will be recovered, mainly for the case in which the same name file policy is selected as "Replace"
 - Distinction with redeployment: Redeployment means start the deployment task once again, including program package download. While rollback will directly use the program package of the downloaded local backup
+- The manual rollback operation is only supported for the latest deployment task that was not successfully deployed for the first time
+- Because the manual rollback operation of the blue and green deployment only performs traffic routing and does not operate on the instance, the instance status is still displayed as "Deployed".
+- After the initial deployment task triggers automatic rollback, the backup file recovery will be skipped because there is no backup file.
 
-**Status**
 
-Instance Status of the application details page, deployment history page and deployment details page and overall status of the progress of deployment details page
+**Cancel**
 
-![Alt text](https://github.com/jdcloudcom/cn/blob/codedeploy/image/CodeDeploy/status4.png)
+The deploying task will be canceled. Please note that the rollback is not supported for the deployed task, i.e. the program package versions of different instances can be inconsistent in the same deployment group. It is also possible that the deployment task has been canceled, but the instances in the deployment group are all successfully deployed.
+
 
 **Load Balancer**
 
@@ -30,6 +34,14 @@ Instance Status of the application details page, deployment history page and dep
 - When the rollback deployment is not performed for the first time, it will add to or delete a Virtual Machine instance the Load Balancer virtual server group
 - When the blue and green deployment is not performed for the first time, it will create a virtual server group and delete the old virtual server group
 - If the Load Balancer is selected, then the Virtual Machines in the selected deployment target shall be in the same subnet with the Load Balancer instance
+- When the Load Balancer adds the virtual server groups or adds Virtual Machines to the existing virtual server groups, the health check will be performed first before opening traffic. Therefore, there is a certain time interval, and the health check can be determined whether to be enabled according to the actual situation.
+
+**Status**
+
+Instance status of the application details page, deployment history page and deployment details page and overall status of the progress of deployment details page
+
+![Alt text](https://github.com/jdcloudcom/cn/blob/codedeploy/image/CodeDeploy/operation21.png)
+
 
 **Workflow**
 

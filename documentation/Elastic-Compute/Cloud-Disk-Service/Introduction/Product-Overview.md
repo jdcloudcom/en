@@ -9,6 +9,8 @@ Cloud Disk Service may be attached to any running Virtual Machines in the data c
 
 Based on different performances and physical devices, Cloud Disk Service is divided into two types, i.e. SSD Cloud Disk Service and Premium Hdd cloud disk. You may purchase, upgrade and management your Cloud Disk Service through the console.
 
+In order to better meet the requirements of actual application scenarios of different users, JD Cloud Cloud Disk Service launched three new generation cloud disks in Shanghai region: Capacity type HDD cloud disk, general type SSD cloud disk and performance type SSD cloud disk.
+
 
 **Cloud Disk Snapshot Overview**
 

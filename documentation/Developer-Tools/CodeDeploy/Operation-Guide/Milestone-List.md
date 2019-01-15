@@ -8,11 +8,11 @@ The deployment source of succeeded deployment in history under the application i
 
 **What is a milestone**
 
-The deployment source (code package) successfully deployed in history will be remarked as the milestone and will be automatically added to the milestone page. A function used for viewing the deployment condition from the view of the code package is provided.
+The deployment source (program package) successfully deployed in history will be remarked as the milestone and will be automatically added to the milestone page. A function used for viewing the deployment condition from the view of the program package is provided.
 
 The specified milestone can support the following operation:
 
-- Deployment: Conduct deployment by specifying the milestone. For details, please refer to "Operation Guide-Create Deployment"
+- Deployment: Initiate deployment by specifying the milestone. For details, please refer to "Operation Guide-Create Deployment"
 - Deletion: Delete the milestone
 
 For details, please refer to "Operation Guide-Application Deployment Group List" in the deployment group page.
