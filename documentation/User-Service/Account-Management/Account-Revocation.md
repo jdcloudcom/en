@@ -2,8 +2,8 @@
 **Please ensure that you have read, acknowledged and agreed to [the *Instructions for the Cancellation of JD Cloud Account*](https://docs.jdcloud.com/platform-agreement/privacy-policy) before you apply for account cancellation. If you have any questions, please contact us.**
 
 Upon applying for account cancellation, your JD Cloud Account must meet the following conditions simultaneously:</br>
-&emsp; (1) There is no valid business under JD Cloud Account, including: JD Cloud Product, Cloud Marketplace Product, JD Wanxiang Product, Cloud Ding Product, JD Cloud Account Balance;</br>
-&emsp; (2) The account is not the merchant of JD Cloud Marketplace, JD Wanxiang or Cloud Ding;</br>
+&emsp; (1) There is no valid business under JD Cloud Account, including: JD Cloud Product, Cloud Marketplace Product, JD Wanxiang Product, JD YunDing Product, JD Cloud Account Balance;</br>
+&emsp; (2) The account is not the merchant of JD Cloud Marketplace, JD Wanxiang or JD YunDing;</br>
 &emsp; (3) There are no unfinished orders of JD Cloud or unsettled debts;</br>
 &emsp; (4) The account has not undergone sensitive operations such as changing the password or changing the mobile phone number within a month;</br>
 &emsp; (5) No account disputes or complaints.</br>
