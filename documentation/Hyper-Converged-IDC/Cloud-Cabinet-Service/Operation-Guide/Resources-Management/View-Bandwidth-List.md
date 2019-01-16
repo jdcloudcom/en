@@ -1,7 +1,6 @@
 # View the Bandwidth List
 
 Open the console and select Hyper-Converged IDC -> Cloud Cabinet Service -> Resource Management -> Bandwidth to view the bandwidth list as shown bellow: </br>
-
 Click on the **Data Center** tab at the top to switch the Data Center and view the Bandwidth List separately.
 ![To view the bandwidth list, click the link](https://github.com/jdcloudcom/en/blob/en-Cloud-Cabinet-Service/image/Hyper-Converged-IDC/Cloud-Cabinet-Service/CCS004.png)
 

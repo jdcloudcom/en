@@ -7,7 +7,7 @@ Function is deployed on the public network by default and cannot access resource
 
 Usually, you create resources within JD Cloud VPC so that these resources are not accessible over the public Internet. By default, resources in VPC cannot be accessed through Function.
 
-If your Function wants to access resources in the VPC, such as databases, Redis, and other products or services, you must provide configuration information for both Virtual Private Cloud and Subnets. Function uses this information to set up Elastic Network Interface ENI, so that your Function can safely access other resources in the VPC through ENI.
+If your Function wants to access resources in the VPC, such as databases, Redis, and other products or services, you must provide configuration information for both Virtual Private Cloud and Subnets.
 
 **Please note the following notes:**
 
