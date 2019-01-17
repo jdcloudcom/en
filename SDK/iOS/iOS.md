@@ -38,7 +38,7 @@
     1. Set accessKey and secretKey
     2. Create Client
     3. Set request parameters
-    4 Execute request to obtain response
+    4. Execute request to obtain response
 
 * The follows are the call instance for search user host instance list, which view `VmTest.swift` under Tests directory of the project for details.
 
