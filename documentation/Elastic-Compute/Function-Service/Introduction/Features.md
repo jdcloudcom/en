@@ -1,7 +1,7 @@
 # Features
 
 
-## Function running time
+## Function runtime
 
 During Beta, when Function Service supports the Python running, Python 3.6 language, please refer to [Function Programming Model](../Operation-Guide/buildfunction/programming-model/basic-concept.md) for details.
 
