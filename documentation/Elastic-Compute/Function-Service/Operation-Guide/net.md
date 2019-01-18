@@ -11,4 +11,4 @@ If your Function wants to access resources in the VPC, such as databases, Redis,
 
 **Please note the following notes:**
 
-When you add the VPC configuration to the Function, it can only access resources in that VPC. If Function accesses both VPC resources and the public Internet, then there must be an internal network address translation instance (NAT) instance in the VPC. For details, please refer to JD Cloud [NAT Instance Gateway](https://docs.jdcloud.com/cn/virtual-private-cloud/nat-instance-gateway).
+When you add the VPC configuration to the Function, it can only access resources in that VPC. If Function accesses both VPC resources and the public Internet, then there must be an internal network address translation instance (NAT) instance in the VPC. For details, please refer to JD Cloud [NAT Instance Gateway](https://docs.jdcloud.com/en/virtual-private-cloud/nat-instance-gateway).
