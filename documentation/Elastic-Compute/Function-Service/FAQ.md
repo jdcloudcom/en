@@ -22,7 +22,7 @@ You can configure information such as VPC and subnet for your functions, Functio
 
 **4. How do functions in the VPC access the public network?**
 
-After your Function configures a VPC, it can only access resources in that VPC. If Function accesses both VPC resources and the public Internet, then there must be an internal network address translation instance (NAT) gateway instance in the VPC. Please refer to [NAT Instance Gateway](https://docs.jdcloud.com/cn/virtual-private-cloud/nat-instance-gateway) for details.
+After your Function configures a VPC, it can only access resources in that VPC. If Function accesses both VPC resources and the public Internet, then there must be an internal network address translation instance (NAT) gateway instance in the VPC. Please refer to [NAT Instance Gateway](https://docs.jdcloud.com/en/virtual-private-cloud/nat-instance-gateway) for details.
 
  
 
