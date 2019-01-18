@@ -1,7 +1,7 @@
 
 # Function Log
 
-Function Service provides function log through JD Cloud Log Service. For details, please refer to [Log Service](https://docs.jdcloud.com/cn/logservice/product-overview).
+Function Service provides function log through JD Cloud Log Service. For details, please refer to [Log Service](https://docs.jdcloud.com/en/logservice/product-overview).
 
 
 
