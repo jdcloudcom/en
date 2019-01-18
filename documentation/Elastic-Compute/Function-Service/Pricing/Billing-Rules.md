@@ -2,14 +2,13 @@
 
 
 
-
-## Cost of Number of Calls
+## Cost of Number of Invokes
 
 The number of calls is the total number of requests for all functions
 
-The cost of number of calls = (The actual number of calls of the function-quota of free number of calls) * unit price of number of calls
+The cost of number of invokes = (The actual number of invokes of the function - quota of free number of invokes) * unit price of number of invokes
 
-Unit price of number of calls: RMB 1.197 per million times (RMB 0.000001197/time)
+Unit price of number of invokes: RMB 1.197 per million times (RMB 0.000001197/time)
 
  
 
@@ -46,7 +45,7 @@ In the course of using the function service, if you use other JD Cloud service i
 
 ## Free Quota
 
-Users of function services can enjoy a certain quota of free number of calls and free execution time per month. Billing will be deducted from the free quota, and the portion in excess of the free quota is charged according to actual usage.
+Users of function services can enjoy a certain quota of free number of invokes and free execution time per month. Billing will be deducted from the free quota, and the portion in excess of the free quota is charged according to actual usage.
 
 The free quota starts to reset at the beginning of each month and is emptied at the end of the month, not accumulated. Details of the free quota are shown in Table 1.
 
@@ -54,7 +53,7 @@ Table 1: Table of Free Quota
 
 | Resource Type | Free Quota per Month |
 | -------- | ------------ |
-| Number of Calls | 1 Million Times      |
+| Number of Invokes | 1 Million Times      |
 | Execution Time | 400,000 (GB*Seconds) |
 | Public Network Traffic | 0            |
 
