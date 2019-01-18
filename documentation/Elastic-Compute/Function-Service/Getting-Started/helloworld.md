@@ -1,5 +1,5 @@
 # Hello World Example
-This chapter shows the Hello World example and describes the steps to quickly write the Hello World example using a function service.
+This chapter shows the Hello World example and describes the steps to quickly write the Hello World example using function service.
 
 Preparatory Work: Before starting the example operation, apply for enabling the function service.
 
