@@ -72,9 +72,9 @@ Resource and event are two elements that make up OSS trigger:
   
   Currently, OSS gateway trigger only supports function association in the same region; the repeated association between OSS triggers and functions is unrestricted.
   
-  **Scenario 1 **: The same OSS resource and the same event can associate the same or more functions. When the association is repeated, the event will only trigger the first function associated.
+  **Scenario 1**: The same OSS resource and the same event can associate the same or more functions. When the association is repeated, the event will only trigger the first function associated.
   
-  **Scenario 2 **: The same OSS resource and different events can associate the same or more functions. When the association is repeated, if the event types are inclusive, for example: configuring two triggers; the same Bucket, the types of events are: s3:ObjectCreated:*  and s3:ObjectCreated:Put respectively (s3:ObjectCreated:* including s3:ObjectCreated:Put event); When the user uploads a file to the Bucket, only the first function associated will be triggered.
+  **Scenario 2**: The same OSS resource and different events can associate the same or more functions. When the association is repeated, if the event types are inclusive, for example: configuring two triggers; the same Bucket, the types of events are: s3:ObjectCreated:*  and s3:ObjectCreated:Put respectively (s3:ObjectCreated:* including s3:ObjectCreated:Put event); When the user uploads a file to the Bucket, only the first function associated will be triggered.
 
  
 Note:
