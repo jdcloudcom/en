@@ -22,9 +22,9 @@ Function is the basic unit of scheduling and running, which is the processing lo
 For function creation detailed information, please refer to [Function Construction](../Operation-Guide/buildfunction/config-function.md).
 
  
-## Trigger Function
+## Invoke Function
 
-Functions are triggered by events, and function services currently support OSS triggers and API gateway triggers.
+Functions are invoked by events, and function services currently support OSS triggers and API gateway triggers.
 
 For detailed information of trigger, please refer to [Trigger](../Operation-Guide/invokefunction/triggermanagement/triggeroverview.md).
 
