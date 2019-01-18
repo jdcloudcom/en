@@ -11,4 +11,4 @@ If you want to view the function log, verify function execution. At first, you n
 
 * If you want to collect different function logs in different log sets, log topics, please configure the collection instance type to be "select instances"; namely, you can configure different log sets and log topics for different functions by Log Service Option in the advanced configuration of the function.
 
-For details of log service collection configuration method, please refer to [Cloud Product Log Collection](https://docs.jdcloud.com/cn/logservice/cloudresource) and [Configuration Management](https://docs.jdcloud.com/cn/logservice/collectionconfigmanagement).
+For details of log service collection configuration method, please refer to [Cloud Product Log Collection](https://docs.jdcloud.com/en/logservice/cloudresource) and [Configuration Management](https://docs.jdcloud.com/en/logservice/collectionconfigmanagement).
