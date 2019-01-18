@@ -31,7 +31,7 @@ Enter the "Function List" page, click ""HelloWorld" function and enter the funct
     * Event template: Blank Template;
     * Event name: test;
     Click "Save" to complete test event creation. 
-    ![测试事件](https://github.com/jdcloudcom/en/blob/function/image/Elastic-Compute/functionservice/etest.png)
+    ![测试事件](https://github.com/jdcloudcom/en/blob/function/image/Elastic-Compute/functionservice/etestevent.PNG)
 
 2. Test function<br>
 Select the saved test event "test" in the "Please Select Test Event" drop-down list, and click "Test".
