@@ -15,21 +15,21 @@ https://containerregistry.jdcloud-api.com/v1/regions/{regionId}/registries/{regi
 
 |Name|Type|Required or Not|Default|Description|
 |---|---|---|---|---|
-|**regionId**|String|True| |Region ID|
 |**registryName**|String|True| |Registry Name|
+|**regionId**|String|True| |Region ID|
 
 ## Request Parameter
 |Name|Type|Required or Not|Default|Description|
 |---|---|---|---|---|
-|**description**|String|False| |Registry Description, <a href="https://www.jdcloud.com/help/detail/3870/isCatalog/1">refer to the public parameter specification</a>. <br>|
 |**repositoryName**|String|True| |Repository name. <br>Proprietary mode is allowed, such as default naming space nginx-web-app; or multiple repositories are gathered together with the naming space, such as project-a/nginx-web-app. <br>|
+|**description**|String|False| |Registry Description, <a href="https://www.jdcloud.com/help/detail/3870/isCatalog/1">refer to the public parameter specification</a>. <br>|
 
 
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String| |
 |**result**|Result| |
+|**requestId**|String| |
 
 ### Result
 |Name|Type|Description|
@@ -38,8 +38,8 @@ https://containerregistry.jdcloud-api.com/v1/regions/{regionId}/registries/{regi
 ### RepositoryShort
 |Name|Type|Description|
 |---|---|---|
-|**createdAt**|String|Record the creation time of the user's repository.|
 |**repositoryName**|String|Repository name.|
+|**createdAt**|String|Record the creation time of the user's repository.|
 |**repositoryUri**|String|Repository's URI, the user develops the URI through docker CLI, and directly performs the docker pull/push and other operations.|
 
 ## Return Code

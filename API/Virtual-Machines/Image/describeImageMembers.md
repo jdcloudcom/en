@@ -13,8 +13,8 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/images/{imageId}/members
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**imageId**|String|True| |Image ID|
 |**regionId**|String|True| |Region ID|
+|**imageId**|String|True| |Image ID|
 
 ## Request parameter
 None
@@ -23,8 +23,8 @@ None
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String| |
 |**result**|Result| |
+|**requestId**|String| |
 
 ### Result
 |Name|Type|Description|

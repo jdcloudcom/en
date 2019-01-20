@@ -32,7 +32,7 @@ Security and Authorization
 
 In order to prevent a third party from uploading Objects to the developer's bucket without authorization, in addition to OSS providing access permission control at the Bucket level, you can also conduct flexible permission access configuration at the file and directory levels. For details, see Access Permission Settings.
 
-To authorize upload to a third party, you can use the PostPolicy method; see [PostObject](../../API-Reference-S3-Compatible/Compatibility-API/Post-Object-2.md) for details.
+To authorize upload to a third party, you can use the PostPolicy method; see [PostObject](../../API-Reference-S3-Compatible/Compatibility-API/Operations-On-Objects/Post-Object-2.md) for details.
 
  
 

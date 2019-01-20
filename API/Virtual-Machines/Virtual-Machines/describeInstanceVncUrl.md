@@ -3,7 +3,6 @@
 
 ## Description
 Get the vnc address of a VM to connect and manage the VM.
-
 The vnc address is valid for one hour. If the vnc address is not used within one hour after being obtained, it will become invalid automatically and need to be request again.
 
 
@@ -25,8 +24,8 @@ None
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String| |
 |**result**|Result| |
+|**requestId**|String| |
 
 ### Result
 |Name|Type|Description|
@@ -42,4 +41,3 @@ None
 |**503**|Service unavailable|
 |**200**|OK|
 |**500**|Internal server error|
-

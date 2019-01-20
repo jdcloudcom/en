@@ -18,16 +18,12 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/vpc_networkInterfaces/{id
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
+|**attach**|AttachNetInterface|True| |Attach Network Interface to Virtual Machines|
 |**authorization**|String|True| |See guide document of signature algorithm for obtaining method|
-|**body**|AttachNetInterfaceReq|True| |Attach Network Interface to Virtual Machines|
 |**x-jdcloud-date**|String|True| |See guide document of signature algorithm for obtaining method|
 |**x-jdcloud-fusion-cloudid**|String|True| |Cloud Registration Information ID|
 |**x-jdcloud-nonce**|String|True| |See guide document of signature algorithm for obtaining method|
 
-### AttachNetInterfaceReq
-|Name|Type|Required or Not|Default Value|Description|
-|---|---|---|---|---|
-|**attach**|AttachNetInterface|False| | |
 ### AttachNetInterface
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|

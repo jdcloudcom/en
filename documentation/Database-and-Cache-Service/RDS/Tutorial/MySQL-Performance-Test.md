@@ -1,5 +1,5 @@
 # MySQL Performance Test
-The maximum connection number and IOPS are different according to different specifications of JCS for MySQL, see [here](../Introduction/Specifications.md).
+The maximum connection number and IOPS are different according to different specifications of JCS for MySQL, see [here](../Introduction/Specifications/MySQL-Specifications.md).
 
 Tutorial of performance test for JCS for MySQL is shown as below
 

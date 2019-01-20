@@ -12,8 +12,8 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkSecurityGroups/{network
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**networkSecurityGroupId**|String|True| |NetworkSecurityGroup ID|
 |**regionId**|String|True| |Region ID|
+|**networkSecurityGroupId**|String|True| |NetworkSecurityGroup ID|
 
 ## Request parameter
 None
@@ -23,7 +23,6 @@ None
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
-
 
 
 ## Response code

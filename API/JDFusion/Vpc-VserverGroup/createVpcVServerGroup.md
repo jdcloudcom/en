@@ -18,15 +18,11 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/vpc_vserverGroups
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**authorization**|String|True| |See guide document of signature algorithm for obtaining method|
-|**body**|CreateVserverGroupReq|True| |Create Virtual Server Group|
+|**vserverGroup**|CreateVserverGroup|True| |Create Virtual Server Group|
 |**x-jdcloud-date**|String|True| |See guide document of signature algorithm for obtaining method|
 |**x-jdcloud-fusion-cloudid**|String|True| |Cloud Registration Information ID|
 |**x-jdcloud-nonce**|String|True| |See guide document of signature algorithm for obtaining method|
 
-### CreateVserverGroupReq
-|Name|Type|Required or Not|Default Value|Description|
-|---|---|---|---|---|
-|**vserverGroup**|CreateVserverGroup|False| | |
 ### CreateVserverGroup
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|

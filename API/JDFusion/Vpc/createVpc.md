@@ -18,26 +18,20 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/vpc_vpcs
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**authorization**|String|True| |See guide document of signature algorithm for obtaining method|
-|**body**|CreateVpcReq|True| |Create VPC|
+|**vpc**|VpcInfo|True| |Create VPC|
 |**x-jdcloud-date**|String|True| |See guide document of signature algorithm for obtaining method|
 |**x-jdcloud-fusion-cloudid**|String|True| |Cloud Registration Information ID|
 |**x-jdcloud-nonce**|String|True| |See guide document of signature algorithm for obtaining method|
 
-### CreateVpcReq
+### VpcInfo
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**vpc**|CreateVpc|False| | |
-### CreateVpc
-|Name|Type|Required or Not|Default Value|Description|
-|---|---|---|---|---|
-|**addressPrefix**|String|False| |Address Range|
-|**cidrBlock**|String|True| |Segment of VPC|
+|**cidrBlock**|String|False| |Address Range|
 |**cloudID**|String|False| |Provider ID of the Cloud|
 |**createdTime**|String|False| |Creation Time|
 |**description**|String|False| |VPC Description|
 |**id**|String|False| |Vpc Id|
 |**name**|String|False| |Name of VPC|
-|**userCidr**|String|False| |Segment of Network at User Side|
 
 ## Return Parameter
 |Name|Type|Description|

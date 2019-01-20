@@ -18,16 +18,12 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/vpc_eips/{id}:associate
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
+|**associate**|AssociateEipAddress|True| |Associate Elastic IP to Virtual Machines|
 |**authorization**|String|True| |See guide document of signature algorithm for obtaining method|
-|**body**|AssociateEipAddressReq|True| |Associate Elastic IP to Virtual Machines|
 |**x-jdcloud-date**|String|True| |See guide document of signature algorithm for obtaining method|
 |**x-jdcloud-fusion-cloudid**|String|True| |Cloud Registration Information ID|
 |**x-jdcloud-nonce**|String|True| |See guide document of signature algorithm for obtaining method|
 
-### AssociateEipAddressReq
-|Name|Type|Required or Not|Default Value|Description|
-|---|---|---|---|---|
-|**associate**|AssociateEipAddress|False| | |
 ### AssociateEipAddress
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|

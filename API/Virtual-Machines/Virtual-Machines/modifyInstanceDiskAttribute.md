@@ -24,8 +24,8 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:modifyIn
 ### InstanceDiskAttribute
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**autoDelete**|Boolean|False| |Delete this disk with the VM automatically when the machine is deleted. The default value is false, which cannot be changed by local.<br>This parameter does not take effect if the billing methond of the data disk in the VM is a monthly package.<br>This parameter does not take effect if the data disk in the VM is a shared data disk.<br>|
 |**diskId**|String|False| |Cloud Disk ID|
+|**autoDelete**|Boolean|False| |Delete this disk with the VM automatically when the machine is deleted. The default value is false, which cannot be changed by local.<br>This parameter does not take effect if the billing methond of the data disk in the VM is a monthly package.<br>This parameter does not take effect if the data disk in the VM is a shared data disk.<br>|
 
 ## Response parameter
 None

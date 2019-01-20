@@ -13,14 +13,14 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/images/{imageId}:modifyImageAtt
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**imageId**|String|True| |Image ID|
 |**regionId**|String|True| |Region ID|
+|**imageId**|String|True| |Image ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**description**|String|False| |Description, <a href="http://docs.jdcloud.com/virtual-machines/api/general_parameters">Refer to the public parameter specification</a>.|
 |**name**|String|False| |Name, <a href="http://docs.jdcloud.com/virtual-machines/api/general_parameters">Refer to the public parameter specification </a>.|
+|**description**|String|False| |Description, <a href="http://docs.jdcloud.com/virtual-machines/api/general_parameters">Refer to the public parameter specification</a>.|
 
 
 ## Response parameter

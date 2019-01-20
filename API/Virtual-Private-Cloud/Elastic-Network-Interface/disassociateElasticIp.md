@@ -18,15 +18,14 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkInterfaces/{networkInte
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**elasticIpAddress**|String|False| |Assign Disassociated Elastic IP Address|
 |**elasticIpId**|String|False| |Assign Disassociated Elastic IP ID|
+|**elasticIpAddress**|String|False| |Assign Disassociated Elastic IP Address|
 
 
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
-
 
 
 ## Response code

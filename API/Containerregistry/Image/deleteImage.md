@@ -17,8 +17,8 @@ https://containerregistry.jdcloud-api.com/v1/regions/{regionId}/registries/{regi
 
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True| |Region ID|
 |**registryName**|String|True| |Registry Name|
+|**regionId**|String|True| |Region ID|
 |**repositoryName**|String|True| |Name of Repository List|
 
 ## Request Parameter

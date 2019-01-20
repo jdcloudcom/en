@@ -18,16 +18,12 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/disk_disks/{id}:attach
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
+|**attach**|AttachDataDiskReq|True| |Attach Cloud Disk to Virtual Machines|
 |**authorization**|String|True| |See guide document of signature algorithm for obtaining method|
-|**body**|AttachDataDiskReq|True| |Attach Cloud Disk to Virtual Machines|
 |**x-jdcloud-date**|String|True| |See guide document of signature algorithm for obtaining method|
 |**x-jdcloud-fusion-cloudid**|String|True| |Cloud Registration Information ID|
 |**x-jdcloud-nonce**|String|True| |See guide document of signature algorithm for obtaining method|
 
-### AttachDataDiskReq
-|Name|Type|Required or Not|Default Value|Description|
-|---|---|---|---|---|
-|**attach**|AttachDataDisk|False| | |
 ### AttachDataDisk
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|

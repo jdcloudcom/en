@@ -13,8 +13,8 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/secrets/{name}
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**name**|String|True| |Secret Name|
 |**regionId**|String|True| |Region ID|
+|**name**|String|True| |Secret Name|
 
 ## Request parameter
 None

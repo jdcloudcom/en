@@ -3,53 +3,53 @@
 
 ## Description
 Query secret key pairs in batches.<br>
-This interface supports query in pages, with 20 entries per page by default.
+This API supports paging query with 20 items per page by default.
 
 
-## Request Method
+## Request method
 GET
 
-## Request Address
+## Request address
 https://vm.jdcloud-api.com/v1/regions/{regionId}/keypairs
 
-|Name|Type|Required or Not|Default|Description|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**regionId**|String|True| |Region ID|
 
-## Request Parameter
-|Name|Type|Required or Not|Default|Description|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
+|**pageNumber**|Integer|False|1|Page; 1 by default|
+|**pageSize**|Integer|False|20|Paging Size; 20 by default; Value range[10, 100] |
 |**filters**|Filter[]|False| |keyNames - key pair name, exact match, support many<br>|
-|**pageNumber**|Integer|False|1|Page Number; 1 by Default|
-|**pageSize**|Integer|False|20|Page size; it is 20 by default; value range[10, 100]|
 
 ### Filter
-|Name|Type|Required or Not|Default|Description|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**name**|String|True| |Name of Filter Requirements|
 |**operator**|String|False| |Operator of filter requirements is eq by default|
 |**values**|String[]|True| |Value of Filter Requirements|
+|**name**|String|True| |Name of Filter Requirements|
 
-## Return Parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String| |
 |**result**|Result| |
+|**requestId**|String| |
 
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**keypairs**|Keypair[]| |
 |**totalCount**|Number|Total Data Entries|
+|**keypairs**|Keypair[]| |
 ### Keypair
 |Name|Type|Description|
 |---|---|---|
-|**createTime**|String|Creation Time|
-|**keyFingerprint**|String|Fingerprint of key pairs, based on the public key fingerprint format defined by RFC4716, with the MD5 information digest algorithm applied.|
 |**keyName**|String|Key Pair Name|
+|**keyFingerprint**|String|Fingerprint of key pairs, based on the public key fingerprint format defined by RFC4716, with the MD5 information digest algorithm applied.|
+|**createTime**|String|Creation Time|
 
-## Return Code
-|Return Code|Description|
+## Response code
+|Return code|Description|
 |---|---|
 |**400**|Invalid parameter|
 |**401**|Authentication failed|

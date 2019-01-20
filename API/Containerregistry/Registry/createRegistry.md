@@ -18,15 +18,15 @@ https://containerregistry.jdcloud-api.com/v1/regions/{regionId}/registries
 ## Request Parameter
 |Name|Type|Required or Not|Default|Description|
 |---|---|---|---|---|
-|**description**|String|False| |Registry Description, <a href="https://www.jdcloud.com/help/detail/3870/isCatalog/1">refer to the public parameter specification</a>. <br>|
 |**registryName**|String|True| |Registry name defined by the user. <br> Rules for DNS compatible with registry name is as follows: <br> <br> cannot be blank, and there shall be no more than 32 characters <br> It shall be started and ended with a letter in lower case, and using letters in lower case, figures and line-through (-) are supported<br>|
+|**description**|String|False| |Registry Description, <a href="https://www.jdcloud.com/help/detail/3870/isCatalog/1">refer to the public parameter specification</a>. <br>|
 
 
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String| |
 |**result**|Result| |
+|**requestId**|String| |
 
 ### Result
 |Name|Type|Description|
@@ -35,11 +35,11 @@ https://containerregistry.jdcloud-api.com/v1/regions/{regionId}/registries
 ### Registry
 |Name|Type|Description|
 |---|---|---|
-|**createTime**|String|rCreation Time of Registry|
 |**description**|String|Registry Description, <a href="https://www.jdcloud.com/help/detail/3870/isCatalog/1">refer to the public parameter specification</a>.|
-|**name**|String|Registry Name, <a href="https://www.jdcloud.com/help/detail/3870/isCatalog/1">refer to the public parameter specification</a>.|
 |**registryUri**|String|registry endporint url|
+|**createTime**|String|rCreation Time of Registry|
 |**totalSpaceUsedMB**|Double|regsitry Total Bucket Unit Used by Registry (MB)|
+|**name**|String|Registry Name, <a href="https://www.jdcloud.com/help/detail/3870/isCatalog/1">refer to the public parameter specification</a>.|
 
 ## Return Code
 |Return Code|Description|

@@ -18,15 +18,11 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/vm_instances
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**authorization**|String|True| |See guide document of signature algorithm for obtaining method|
-|**body**|CreateVmReq|True| |Create VM|
+|**vm**|CreateVm|True| |Create VM|
 |**x-jdcloud-date**|String|True| |See guide document of signature algorithm for obtaining method|
 |**x-jdcloud-fusion-cloudid**|String|True| |Cloud Registration Information ID|
 |**x-jdcloud-nonce**|String|True| |See guide document of signature algorithm for obtaining method|
 
-### CreateVmReq
-|Name|Type|Required or Not|Default Value|Description|
-|---|---|---|---|---|
-|**vms**|CreateVm|False| | |
 ### CreateVm
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|

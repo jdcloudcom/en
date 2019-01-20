@@ -18,24 +18,23 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/secrets
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**data**|DockerRegistryData|False| |Confidential data. <br><br>Valid characters of key include letters, numbers, -, _ and .; <br><br>The value is the character string encoded by Base64, which can’t comprise a line break (please use base64 -w 0 option under linux); the length cap of each value is 4KB; and the length of the entire data can’t exceed 256KB; <br><br>Fields as server, username and password must be contained and the field of email is optional. <br><br>|
 |**name**|String|True| |Names of confidential data can’t be the same<br>|
 |**secretType**|String|True| |Now, only the following confidential data type is supported: docker-registry, which is the docker registry verification type.<br>|
+|**data**|DockerRegistryData|False| |Confidential data. <br><br>Valid characters of key include letters, numbers, -, _ and .; <br><br>The value is the character string encoded by Base64, which can’t comprise a line break (please use base64 -w 0 option under linux); the length cap of each value is 4KB; and the length of the entire data can’t exceed 256KB; <br><br>Fields as server, username and password must be contained and the field of email is optional. <br><br>|
 
 ### DockerRegistryData
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**email**|String|False| |Email Address|
-|**password**|String|True| |Password |
-|**server**|String|True| |Registry Server Address|
 |**username**|String|True| |User Name|
+|**password**|String|True| |Password |
+|**email**|String|False| |Email Address|
+|**server**|String|True| |Registry Server Address|
 
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String| |
 |**result**|Result| |
-
+|**requestId**|String| |
 
 ### Result
 |Name|Type|Description|

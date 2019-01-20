@@ -24,8 +24,8 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/quotas
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String| |
 |**result**|Result| |
+|**requestId**|String| |
 
 ### Result
 |Name|Type|Description|
@@ -34,9 +34,9 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/quotas
 ### Quota
 |Name|Type|Description|
 |---|---|---|
-|**limit**|Integer|Quota|
 |**resourceType**|String|Type|
 |**used**|Integer|Used Number|
+|**limit**|Integer|Quota|
 
 ## Response code
 |Return code|Description|

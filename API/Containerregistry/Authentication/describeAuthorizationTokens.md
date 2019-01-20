@@ -14,8 +14,8 @@ https://containerregistry.jdcloud-api.com/v1/regions/{regionId}/registries/{regi
 
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True| |Region ID|
 |**registryName**|String|True| |Registry Name|
+|**regionId**|String|True| |Region ID|
 
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
@@ -27,21 +27,21 @@ https://containerregistry.jdcloud-api.com/v1/regions/{regionId}/registries/{regi
 ### Filter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**name**|String|True| |Name of Filter Requirements|
 |**operator**|String|False| |Operator of filter requirements is eq by default|
 |**values**|String[]|True| |Value of Filter Requirements|
+|**name**|String|True| |Name of Filter Requirements|
 
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String| |
 |**result**|Result| |
+|**requestId**|String| |
 
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**authorizationTokens**|AuthorizationData[]| |
 |**totalCount**|Number| |
+|**authorizationTokens**|AuthorizationData[]| |
 ### AuthorizationData
 |Name|Type|Description|
 |---|---|---|

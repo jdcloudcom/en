@@ -22,15 +22,15 @@ https://containerregistry.jdcloud-api.com/v1/regions/{regionId}/quotas
 ### Filter
 |Name|Type|Required or Not|Default|Description|
 |---|---|---|---|---|
-|**name**|String|True| |Name of Filter Requirements|
 |**operator**|String|False| |Operator of filter requirements is eq by default|
 |**values**|String[]|True| |Value of Filter Requirements|
+|**name**|String|True| |Name of Filter Requirements|
 
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String| |
 |**result**|Result| |
+|**requestId**|String| |
 
 ### Result
 |Name|Type|Description|
@@ -39,9 +39,9 @@ https://containerregistry.jdcloud-api.com/v1/regions/{regionId}/quotas
 ### Quota
 |Name|Type|Description|
 |---|---|---|
-|**limit**|Integer|Available Resource Cap|
 |**resourceType**|String|Resource Type [registry/repository]|
 |**used**|Integer|Number of Used Resources|
+|**limit**|Integer|Available Resource Cap|
 
 ## Return Code
 |Return Code|Description|

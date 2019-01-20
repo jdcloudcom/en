@@ -1,6 +1,6 @@
 ## Deployment History
 
-All deployment histories of different regions are listed, with each deployment task recognized as one deployment history (including rollback).
+All deployment histories of different regions are listed, with each deployment task recognized as one deployment history.
 
 ![Alt text](https://github.com/jdcloudcom/cn/blob/codedeploy/image/CodeDeploy/operation16.png)
 

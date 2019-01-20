@@ -25,31 +25,31 @@ https://containerregistry.jdcloud-api.com/v1/regions/{regionId}/listRepositories
 ### Filter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**name**|String|True| |Name of Filter Requirements|
 |**operator**|String|False| |Operator of filter requirements is eq by default|
 |**values**|String[]|True| |Value of Filter Requirements|
+|**name**|String|True| |Name of Filter Requirements|
 
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String| |
 |**result**|Result| |
+|**requestId**|String| |
 
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**repositories**|Repository[]| |
 |**totalCount**|Number| |
+|**repositories**|Repository[]| |
 ### Repository
 |Name|Type|Description|
 |---|---|---|
-|**createdAt**|String|Record the creation time of the user’s repository.|
-|**description**|String|Repository Description|
 |**registryName**|String|Registry Name.|
 |**repositoryName**|String|Repository Name.|
-|**repositoryUri**|String|Total Number of Images in Repository|
+|**description**|String|Repository Description|
 |**totalSpaceUsedMB**|Double|Repository Size|
+|**repositoryUri**|String|Total Number of Images in Repository|
 |**updatedAt**|String|Record the repository update time by the user.|
+|**createdAt**|String|Record the creation time of the user’s repository.|
 
 ## Return Code
 |Return Code|Description|

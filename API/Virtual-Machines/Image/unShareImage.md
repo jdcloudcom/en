@@ -13,8 +13,8 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/images/{imageId}:unshare
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**imageId**|String|True| |Image ID|
 |**regionId**|String|True| |Region ID|
+|**imageId**|String|True| |Image ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|

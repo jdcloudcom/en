@@ -25,14 +25,14 @@ https://containerregistry.jdcloud-api.com/v1/regions/{regionId}/repositories:che
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String| |
 |**result**|Result| |
+|**requestId**|String| |
 
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**code**|Integer|It represents whether the Repository specified by the user passes the verification, 0 means pass, 1 means that the name is blank, 2 means that the specifications are not met, and 3 means the name is duplicate|
 |**reason**|String|Where the code field is not zero, please give the detailed reason.|
+|**code**|Integer|It represents whether the Repository specified by the user passes the verification, 0 means pass, 1 means that the name is blank, 2 means that the specifications are not met, and 3 means the name is duplicate|
 
 ## Return Code
 |Return Code|Description|

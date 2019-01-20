@@ -19,23 +19,22 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/secrets
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**filters**|Filter[]|False| |The name - secret is the name, supporting fuzzy search.<br>|
 |**pageNumber**|Integer|False| |Page; 1 by default|
 |**pageSize**|Integer|False| |Page size; it is 20 by default; value range[10, 100]|
+|**filters**|Filter[]|False| |The name - secret is the name, supporting fuzzy search.<br>|
 
 ### Filter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**name**|String|True| |Name of Filter Requirements|
 |**operator**|String|False| |Operator of filter requirements is eq by default|
 |**values**|String[]|True| |Value of Filter Requirements|
+|**name**|String|True| |Name of Filter Requirements|
 
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String| |
 |**result**|Result| |
-
+|**requestId**|String| |
 
 ### Result
 |Name|Type|Description|
@@ -45,17 +44,17 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/secrets
 ### Secret
 |Name|Type|Description|
 |---|---|---|
-|**createdAt**|String|Creation Time|
+|**type**|String|Now, only the following private data type is supported: docker-registry, which is the docker registry verification type.|
 |**data**|DockerRegistryData|Confidential Data|
 |**name**|String|Confidential Data Name|
-|**type**|String|Now, only the following private data type is supported: docker-registry, which is the docker registry verification type.|
+|**createdAt**|String|Creation Time|
 ### DockerRegistryData
 |Name|Type|Description|
 |---|---|---|
-|**email**|String|Email Address|
-|**password**|String|Password |
-|**server**|String|Registry Server Address|
 |**username**|String|User Name|
+|**password**|String|Password |
+|**email**|String|Email Address|
+|**server**|String|Registry Server Address|
 
 ## Response code
 |Return code|Description|

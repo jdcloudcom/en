@@ -19,15 +19,14 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkInterfaces/{networkInte
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**force**|Boolean|False|True|When secondary ip is occupied by other interfaces, whether to preempt it or not. false: non-preemption for reallocation, true: preemption for reallocation, default preemption for reallocation. Default value: true|
-|**secondaryIpCount**|Number|False| |Assign Automatically Allocated Number of Secondary IP|
 |**secondaryIps**|String[]|False| |Assign Allocated Secondary IP Address|
+|**secondaryIpCount**|Number|False| |Assign Automatically Allocated Number of Secondary IP|
 
 
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
-
 
 
 ## Response code

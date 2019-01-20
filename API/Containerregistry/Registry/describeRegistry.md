@@ -13,8 +13,8 @@ https://containerregistry.jdcloud-api.com/v1/regions/{regionId}/registries/{regi
 
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True| |Region ID|
 |**registryName**|String|True| |Registry Name|
+|**regionId**|String|True| |Region ID|
 
 ## Request Parameter
 None
@@ -23,8 +23,8 @@ None
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String| |
 |**result**|Result| |
+|**requestId**|String| |
 
 ### Result
 |Name|Type|Description|
@@ -33,11 +33,11 @@ None
 ### Registry
 |Name|Type|Description|
 |---|---|---|
-|**createTime**|String|rCreation Time of Registry|
 |**description**|String|Registry Description, <a href="https://www.jdcloud.com/help/detail/3870/isCatalog/1">refer to the public parameter specification</a>.|
-|**name**|String|Registry Name, <a href="https://www.jdcloud.com/help/detail/3870/isCatalog/1">refer to the public parameter specification</a>.|
 |**registryUri**|String|registry endporint url|
+|**createTime**|String|rCreation Time of Registry|
 |**totalSpaceUsedMB**|Double|reTotal Bucket Used by gsitry, unit: (MB)|
+|**name**|String|Registry Name, <a href="https://www.jdcloud.com/help/detail/3870/isCatalog/1">refer to the public parameter specification</a>.|
 
 ## Return Code
 |Return Code|Description|

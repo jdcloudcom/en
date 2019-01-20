@@ -25,8 +25,8 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/imageConstraints
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String| |
 |**result**|Result| |
+|**requestId**|String| |
 
 ### Result
 |Name|Type|Description|
@@ -35,8 +35,8 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/imageConstraints
 ### ImageConstraint
 |Name|Type|Description|
 |---|---|---|
-|**imageId**|String|Image ID|
 |**imageInstanceTypeConstraint**|ImageInstanceTypeConstraint|Specification limit for instance type created by image|
+|**imageId**|String|Image ID|
 ### ImageInstanceTypeConstraint
 |Name|Type|Description|
 |---|---|---|

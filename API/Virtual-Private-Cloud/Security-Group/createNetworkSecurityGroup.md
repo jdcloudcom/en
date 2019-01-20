@@ -17,22 +17,21 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkSecurityGroups/
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**description**|String|False| |Description, allow all characters under UTF-8 coding, which cannot exceed 256 characters|
 |**networkSecurityGroupName**|String|True| |Security Group name, only allows Chinese, numbers, capital and lowercase letters, English underline '_' and line-through '-', must provide a name which cannot exceed 32 characters.|
 |**vpcId**|String|True| |VPC ID|
+|**description**|String|False| |Description, allow all characters under UTF-8 coding, which cannot exceed 256 characters|
 
 
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String|Request ID|
 |**result**|Result|Returned Results|
-
+|**requestId**|String|Request ID|
 
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**networkSecurityGroupId**|String|Security group ID|
+|**networkSecurityGroupId**|String|Security Group ID|
 
 ## Response code
 |Return code|Description|

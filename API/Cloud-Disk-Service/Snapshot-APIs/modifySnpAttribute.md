@@ -12,19 +12,18 @@ https://disk.jdcloud-api.com/v1/regions/{regionId}/snapshots/{snapshotId}
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True| |Region ID|
 |**snapshotId**|String|True| |Snapshot ID|
+|**regionId**|String|True| |Region ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**description**|String|False| |Snapshot Description. Name or description must be specified|
 |**name**|String|False| |Snapshot Name|
+|**description**|String|False| |Snapshot Description. Name or description must be specified|
 
 
 ## Response parameter
 None
-
 
 
 ## Response code

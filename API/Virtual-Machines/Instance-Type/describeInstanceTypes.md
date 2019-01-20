@@ -23,44 +23,44 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instanceTypes
 ### Filter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**name**|String|True| |Name of Filter Requirements|
 |**operator**|String|False| |Operator of filter requirements is eq by default|
 |**values**|String[]|True| |Value of Filter Requirements|
+|**name**|String|True| |Name of Filter Requirements|
 
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String| |
 |**result**|Result| |
+|**requestId**|String| |
 
 ### Result
 |Name|Type|Description|
 |---|---|---|
+|**totalCount**|Integer|Total Number|
 |**instanceTypes**|InstanceType[]|Generic Instance Type|
 |**specificInstanceTypes**|InstanceType[]|User-specific instance type; ticket application required|
-|**totalCount**|Integer|Quantity|
 ### InstanceType
 |Name|Type|Description|
 |---|---|---|
+|**family**|String|Instance Type|
+|**instanceType**|String|Instance type, such as g.b1.2xlarge|
+|**memoryMB**|Integer|Memory Size|
+|**state**|InstanceTypeState[]|Instance Type Status|
+|**nicLimit**|Integer|Number of Elastic Network Interface Supported|
+|**gpu**|Gpu|Gpu configuration|
+|**localDisks**|LocalDisk[]|Configuration of local cache disk, only available for Gpu specification|
 |**cpu**|Integer|CPU Number|
 |**desc**|String|Description|
-|**family**|String|Instance Type|
-|**gpu**|Gpu|Gpu configuration|
-|**instanceType**|String|Instance type, such as g.b1.2xlarge|
-|**localDisks**|LocalDisk[]|Configuration of local cache disk, only available for Gpu specification|
-|**memoryMB**|Integer|Memory Size|
-|**nicLimit**|Integer|Number of Elastic Network Interface Supported|
-|**state**|InstanceTypeState[]|Instance Type Status|
-### Gpu
-|Name|Type|Description|
-|---|---|---|
-|**model**|String|GPU Type|
-|**number**|Integer|GPU Count|
 ### LocalDisk
 |Name|Type|Description|
 |---|---|---|
 |**diskSizeGB**|Integer|Disk Size|
 |**diskType**|String|Disk Type, value range {premium-hdd, ssd}|
+### Gpu
+|Name|Type|Description|
+|---|---|---|
+|**model**|String|GPU Type|
+|**number**|Integer|GPU Count|
 ### InstanceTypeState
 |Name|Type|Description|
 |---|---|---|

@@ -41,8 +41,8 @@ items:
         items:
           - name: Stop Operations
             href: Operation-Guide/Working-With-Action/Check-Action.md     
-    - name: Best Practices
-      items:
+  - name: Best Practices
+    items:
         - name: Construct and deploy to JCS for Kubernetes
           href: Best-Practices/Deployment-On-K8S.md
   

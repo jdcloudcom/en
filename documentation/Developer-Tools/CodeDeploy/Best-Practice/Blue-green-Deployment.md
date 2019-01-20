@@ -69,7 +69,7 @@ Specific information is as shown below:
 
 ### Clone sample codes to the CodeCommit
 
-The address of the sample code: git@code.jdcloud.com:devops-demo/java-demo.git
+The address of the sample code: https://code.jdcloud.com/devops-demo/java-demo.git
 
 Please clone the sample code to the CodeCommit and the address of the CodeCommit is https://code.jdcloud.com/
 

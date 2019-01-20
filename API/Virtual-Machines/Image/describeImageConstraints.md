@@ -14,8 +14,8 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/images/{imageId}/constraints
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**imageId**|String|True| |Image ID|
 |**regionId**|String|True| |Region ID|
+|**imageId**|String|True| |Image ID|
 
 ## Request parameter
 None
@@ -24,8 +24,8 @@ None
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String| |
 |**result**|Result| |
+|**requestId**|String| |
 
 ### Result
 |Name|Type|Description|
@@ -34,8 +34,8 @@ None
 ### ImageConstraint
 |Name|Type|Description|
 |---|---|---|
-|**imageId**|String|Image ID|
 |**imageInstanceTypeConstraint**|ImageInstanceTypeConstraint|Specification limit for instance type created by image|
+|**imageId**|String|Image ID|
 ### ImageInstanceTypeConstraint
 |Name|Type|Description|
 |---|---|---|

@@ -5,27 +5,27 @@
 Delete key pairs.
 
 
-## Request Method
+## Request method
 DELETE
 
-## Request Address
+## Request address
 https://vm.jdcloud-api.com/v1/regions/{regionId}/keypairs/{keyName}
 
-|Name|Type|Required or Not|Default|Description|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**keyName**|String|True| |Key Pair Name|
 |**regionId**|String|True| |Region ID|
+|**keyName**|String|True| |Key Pair Name|
 
-## Request Parameter
+## Request parameter
 None
 
 
-## Return Parameter
+## Response parameter
 None
 
 
-## Return Code
-|Return Code|Description|
+## Response code
+|Return code|Description|
 |---|---|
 |**400**|Invalid parameter|
 |**401**|Authentication failed|

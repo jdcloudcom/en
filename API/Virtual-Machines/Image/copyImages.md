@@ -19,15 +19,15 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/images:copyImages
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**destinationRegion**|String|True| |Target Area|
 |**sourceImageIds**|String[]|True| |Source Image ID|
+|**destinationRegion**|String|True| |Target Area|
 
 
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String| |
 |**result**|Result| |
+|**requestId**|String| |
 
 ### Result
 |Name|Type|Description|
@@ -36,8 +36,8 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/images:copyImages
 ### CopyImage
 |Name|Type|Description|
 |---|---|---|
-|**destinationImageId**|String|Target Image ID after Replication|
 |**sourceImageId**|String|Source Image ID|
+|**destinationImageId**|String|Target Image ID after Replication|
 
 ## Response code
 |Return code|Description|

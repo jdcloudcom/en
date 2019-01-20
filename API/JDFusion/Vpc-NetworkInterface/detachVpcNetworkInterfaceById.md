@@ -19,15 +19,11 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/vpc_networkInterfaces/{id
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**authorization**|String|True| |See guide document of signature algorithm for obtaining method|
-|**body**|DetachNetInterfaceReq|True| |Detach Network Interface|
+|**detach**|DetachNetInterface|True| |Detach Network Interface|
 |**x-jdcloud-date**|String|True| |See guide document of signature algorithm for obtaining method|
 |**x-jdcloud-fusion-cloudid**|String|True| |Cloud Registration Information ID|
 |**x-jdcloud-nonce**|String|True| |See guide document of signature algorithm for obtaining method|
 
-### DetachNetInterfaceReq
-|Name|Type|Required or Not|Default Value|Description|
-|---|---|---|---|---|
-|**detach**|DetachNetInterface|False| | |
 ### DetachNetInterface
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|

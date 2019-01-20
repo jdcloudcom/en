@@ -12,8 +12,8 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/routeTables/{routeTableId}:ass
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True| |Region ID|
 |**routeTableId**|String|True| |RouteTable ID|
+|**regionId**|String|True| |Region ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
@@ -25,7 +25,6 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/routeTables/{routeTableId}:ass
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
-
 
 
 ## Response code

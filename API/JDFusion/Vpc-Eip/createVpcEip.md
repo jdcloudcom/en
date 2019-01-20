@@ -17,16 +17,12 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/vpc_eips
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
+|**allocate**|AllocateEipAddress|True| |Assign Elastic ip|
 |**authorization**|String|True| |See guide document of signature algorithm for obtaining method|
-|**body**|AllocateEipAddressReq|True| |Assign Elastic ip|
 |**x-jdcloud-date**|String|True| |See guide document of signature algorithm for obtaining method|
 |**x-jdcloud-fusion-cloudid**|String|True| |Cloud Registration Information ID|
 |**x-jdcloud-nonce**|String|True| |See guide document of signature algorithm for obtaining method|
 
-### AllocateEipAddressReq
-|Name|Type|Required or Not|Default Value|Description|
-|---|---|---|---|---|
-|**allocate**|AllocateEipAddress|False| | |
 ### AllocateEipAddress
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|

@@ -36,7 +36,7 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/vpc_vpcs
 ### VpcInfo
 |Name|Type|Description|
 |---|---|---|
-|**addressPrefix**|String|Address Range|
+|**cidrBlock**|String|Address Range|
 |**cloudID**|String|Provider ID of the Cloud|
 |**createdTime**|String|Creation Time|
 |**description**|String|VPC Description|
