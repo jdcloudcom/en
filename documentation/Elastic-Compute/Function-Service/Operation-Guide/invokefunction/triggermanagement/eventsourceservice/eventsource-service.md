@@ -3,7 +3,7 @@
  
 
 
-Event Source Service is a collection of all services that can trigger function execution. You can configure these services as event sources for Function; during Beta, OSS Object Storage Service will be provided with API Gateway as Event Source Service. After configuring the event source mapping for the function, these event sources will automatically call your function when detecting the event.
+Event Source Service is a collection of all services that can trigger function execution. You can configure these services as event sources for Function; during Beta, OSS Object Storage Service will be provided with API Gateway as Event Source Service. After configuring the event source mapping for the function, these event sources will automatically invoke your function when detecting the event.
 
  
 

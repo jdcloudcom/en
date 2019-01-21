@@ -28,7 +28,7 @@ Functions are triggered by events, and function services currently support OSS t
 
 For detailed information of trigger, please refer to [Trigger](../Operation-Guide/invokefunction/triggermanagement/triggeroverview.md).
 
-In addition, if the trigger is not configured, you can also call function execution directly using methods such as the console, SDK.
+In addition, if the trigger is not configured, you can also invoke function execution directly using methods such as the console, SDK.
 
 
 

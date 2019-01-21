@@ -55,9 +55,9 @@ items:
            - name: Test Function
              href: Operation-Guide/buildfunction/test-function.md                  
                
-      - name: Function Call
+      - name: Function invoke
         items:
-           - name: Function Call
+           - name: Function invoke
              href: Operation-Guide/invokefunction/invoke.md 
            - name: Trigger Management
              items:

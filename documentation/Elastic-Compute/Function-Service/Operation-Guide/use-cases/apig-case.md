@@ -1,6 +1,6 @@
 
 # API Gateway Trigger Example
-JD Cloud API gateway can map the event (for example: put/post API) to Function, passing event parameter to Function handling function to call your functions.
+JD Cloud API gateway can map the event (for example: put/post API) to Function, passing event parameter to Function handling function to invoke your functions.
 
 Scenario: When a request arrives at an API gateway that has set function as the backend service, the API gateway will trigger the execution of the function, and the Function will return the execution result to the API gateway.
 

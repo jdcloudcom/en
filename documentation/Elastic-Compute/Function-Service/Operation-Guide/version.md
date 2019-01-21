@@ -52,7 +52,7 @@ On the function details, select the function version, click "Operation" - "Delet
 
 ## Management of Alias
 
-An alias refers to a particular version of a function, and the function of such version can be called through the alias.
+An alias refers to a particular version of a function, and the function of such version can be invoked through the alias.
 
 ### Create alias
 

@@ -32,6 +32,6 @@ A trigger is a method to trigger the execution of a function.
 
 Event source is a JD Cloud Service that triggers a function and executes its logic.
 
-In an event-driven computing model, the event source is the producer of the event and the function is the processor of the event, but the trigger provides a centralized and unified method to manage different event sources. In the event source, when an event occurs, the event source calls the function corresponding to the trigger if the rules defined by the trigger are satisfied.
+In an event-driven computing model, the event source is the producer of the event and the function is the processor of the event, but the trigger provides a centralized and unified method to manage different event sources. In the event source, when an event occurs, the event source invokes the function corresponding to the trigger if the rules defined by the trigger are satisfied.
 
 When a trigger triggers a function, it can trigger the function synchronously or asynchronously according to its own characteristics. When a function is triggered synchronously, the trigger waits for the function execution to be completed and gets the result of the function execution; when a function is triggered asynchronously, the trigger only triggers the function and ignores the result of the function execution.

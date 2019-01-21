@@ -11,11 +11,11 @@ Function code management method supports online editing and local. Zip package u
 
 ## Functions supports multiple types of triggers
 
-During Beta, see Table 1 for trigger types and call methods supported by Function Service:
+During Beta, see Table 1 for trigger types and invoking methods supported by Function Service:
 
 Table 1: Trigger Information Supported by Function
 
-| Trigger      | Function Call Method | Reference       |
+| Trigger      | Function Invoking Method | Reference       |
 | ---------- | ------------ | ---------- |
-| OSS Trigger  | Asynchronous Call     | [OSS Trigger](../Operation-Guide/invokefunction/triggermanagement/eventsourceservice/oss-tirgger.md)|
-| API Gateway Trigger | Synchronous Call     | [API Gateway Trigger](../Operation-Guide/invokefunction/triggermanagement/eventsourceservice/apig-tigger.md)|
+| OSS Trigger  | Asynchronous invoke     | [OSS Trigger](../Operation-Guide/invokefunction/triggermanagement/eventsourceservice/oss-tirgger.md)|
+| API Gateway Trigger | Synchronous invoke     | [API Gateway Trigger](../Operation-Guide/invokefunction/triggermanagement/eventsourceservice/apig-tigger.md)|

@@ -18,4 +18,4 @@ Function specifies that the function deployment package must be in the .zip form
 
 * When packing under Windows, the function code directory can be entered. Once all files are selected, click right key of the mouse, select "Compress to a .zip File" and a deployment program package is generated. The zip package unzipped for browsing shall directly contain the entry program and other libraries.
 
-* When packing under Linux, the function code directory can be entered. The source files can be assigned as complete files under the code directory by calling the zip command and a deployment program package can be generated, such as `zip /codefile/func_code.zip * -r`.
+* When packing under Linux, the function code directory can be entered. The source files can be assigned as complete files under the code directory by invoking the zip command and a deployment program package can be generated, such as `zip /codefile/func_code.zip * -r`.
