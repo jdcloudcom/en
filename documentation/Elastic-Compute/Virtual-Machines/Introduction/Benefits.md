@@ -14,7 +14,7 @@ You can create a complete image that contains data of system disks and data disk
 
 ## Related Reference
 
-[Availability Group Documentation](../../Availability-Group/Introduction/Overview.md)
+[Availability Group Documentation](../../Availability-Group/Introduction/Product-Overview.md)
 
 
 
