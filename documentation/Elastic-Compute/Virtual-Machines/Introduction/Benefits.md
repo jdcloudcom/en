@@ -1,6 +1,6 @@
 # Benefits
 ## Stability and Reliability
-JD Cloud provides you with a stable and reliable infrastructure, and promises that the virtual machine availability is 99.95%, and data of the triplicate cloud disk is 99.9999999% reliable. In addition, the VMs can be deployed in the AG, in which the VMs are deployed in a balanced manner across multiple fault domains in the data center, and the faults are isolated between fault domains to further improve the service availability. Please refer to[Availability Group Documentation](../../Availability-Group/Introduction/Overview.md) for details.
+JD Cloud provides you with a stable and reliable infrastructure, and promises that the virtual machine availability is 99.95%, and data of the triplicate cloud disk is 99.9999999% reliable. In addition, the VMs can be deployed in the AG, in which the VMs are deployed in a balanced manner across multiple fault domains in the data center, and the faults are isolated between fault domains to further improve the service availability. Please refer to [Availability Group Documentation](../../Availability-Group/Introduction/Product-Overview.md) for details.
 ## Flexibility
 It supports multiple instance types, specifications, operating systems, bandwidth and storage resources. You can choose the optimal VM instance type, operating environment, storage configuration, etc. based on the business type and level.
 ## Elasticity 
