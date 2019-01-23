@@ -46,6 +46,8 @@ Expires
 
 
 ## Setting of Image Back-to-origin Rules 
+**Description**
+Back-to-origin address does not support to configure OSS Intranet domain.
 
 ### 1. Set the image back-to-origin by virtue of using OSS Open API.
 Reference: [Set Image Back-to-origin](https://docs.jdcloud.com/cn/object-storage-service/api/putbacksourceconfiguration?content=API)

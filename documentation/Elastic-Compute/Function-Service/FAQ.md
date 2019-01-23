@@ -16,7 +16,7 @@ No, Function Service is used as Severless service, the user does not need to mai
 
 **3. How to access resources within a VPC using functions?**
 
-You can configure information such as VPC and subnet for your functions, Function Service will set ENI with the VPC information you provide to enable your functions to access a particular VPC. Once the VPC configuration is enabled, your functions can run within a specific VPC.
+You can configure VPC, subnet and other information for your functions to enable them to access specific VPC. Once the VPC configuration is enabled, your functions can run within a specific VPC.
 
  
 
@@ -60,13 +60,13 @@ You can set the environment variable for the function, without need to change th
 
 **6. Whether Function supports the version control?**
 
-Function supports the version control. By default, each function has code that is unique to the latest (LATEST) version. The function client can invoke a particular version or get the latest implementation, please refer to [Version Management](Operation-Guide/version.md).
+Function supports the version control. By default, each function has code that is unique to the latest (LATEST) version. The function client can call a particular version or get the latest implementation, please refer to [Version Management](Operation-Guide/version.md).
 
  
 
 **7. How long does Function take to execute？**
 
-Execution of synchronization invokes to a function must be completed within 300 seconds. The default time-out is 3 seconds, the time-out event can be set to any value between 3 and 300 seconds, and if the time is out, function will terminate execution.
+Execution of synchronization calls to a function must be completed within 300 seconds. The default time-out is 3 seconds, the time-out event can be set to any value between 3 and 300 seconds, and if the time is out, function will terminate execution.
 
  
 

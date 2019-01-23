@@ -36,6 +36,15 @@ After completion of VM instance creation, you need login the Virtual Machines to
 
 Notification: see [AccessKey Management](https://uc.jdcloud.com/account/accesskey) for obtaining aaccessKeyID and accessKeySecret; see [OSS server domain](https://docs.jdcloud.com/cn/object-storage-service/regions-and-endpoints) for obtaining endpoint; single Storage Gateway only support one Bucket.
 
+Configuration Example:
+
+```
+accessKeyID：xxxxxxxxxxxxxxxx
+accessKeySecret: xxxxxxxxxxxxxxxx
+endpoint：http://s3.cn-north-1.jcloudcs.com   //endpoint must begin with http:// or https://
+bucket：bucketname
+```
+
 2. Initial Cloud Disk Service with the initial script path of `/root/bin/auto_fdisk.sh`, which the operation will initial the Cloud Disk Service and set it as the local cache of Storage Gateway. Execution command example is as follows:
 
 ```
@@ -56,13 +65,15 @@ Notification:
 gw start
 ```
 
+Note: After executing start command, when `Starting httpd... monitor` is displayed, it indicates the start is completed, execute `ctrl+c` to exit. After exiting, monitor will be running at the background as a service running monitoring module.
+
 4. Execute `df -h` command to view whether the start is successful. As shown in the figure, 127.0.0.1:/gw is the NFS sharing file system that has been successfully enabled.
 
 ![启动服务](../../../../image/Storage-Gateway/storagegateway-3.png)
 
 Notification: 127.0.0.1 the loopback address of local, i.e., Localhost.
 
-5. The configuration file path of Storage Gateway is `/etc/gateway/gw.conf`and the relevant configuration items are accessKeyID, accessKeySecret, endpoint and bucket. You need reboot NFS service to take effect for new configuration items after modifying them. The example of rebooting NFS service command is shown as below:
+5. The configuration file path of Storage Gateway is `/etc/gateway/gw.conf`and the relevant configuration items are accessKeyID, accessKeySecret, endpoint and bucket. Reconfiguration also can be conducted by executing `gw install`. After rebooting NFS service, new configuration items will take effect. The example of command for rebooting NFS service is shown as below:
 
 ```
 gw restart

@@ -1,9 +1,9 @@
-## Access Cluster Example
+## Example of Accessing Cluster
 ### Based On Cloud Server Access
-JCS for Elasticsearch and the dependent Virtual Machines must be under the same VPC, so the Virtual Machines of the same VPC and subnet must be created first; JCS for Elasticsearch service can be accessed only after obtaining "EIP" under the Virtual Machines.
-### Access intranet domain through curl test
-1. SSH user name @ Public IP, enter the password.</br>
-2. Access the port 9200 of JCS for Elasticsearch instance through the curl command in the Linux environment. The access example format of specified account password is curl –XGET [Intranet access domain of instance]/_cat, and Intranet access domain is the **Intranet access domain** in the basic information interface of ES instance. The command examples are as follows:
+JCS for Elasticsearch and the dependent virtual machine must be under the same VPC, so the virtual machine of the same VPC and subnet must be created first; JCS for Elasticsearch service can be accessed only after obtaining “EIP” under the virtual machine.
+### Access intranet domain name through curl test
+1. Ssh user name @ Public IP, enter the password.</br>
+2. Access the port 9200 of JCS for Elasticsearch instance through the curl command in the Linux environment. The access example format of specified account password is curl –XGET [Intranet access domain name of instance]/_cat, and Intranet access domain name is the **Intranet access domain name** in the basic information interface of ES instance. The command examples are as follows:
 
 ```
 curl -XGET es-nlb-es-kgqo8zmgcv.jvessel-open-hb.jdcloud.com:9200/_cat
@@ -29,7 +29,7 @@ The following responses mean successful access:
 }
 ```
 ### Import Data
-1. Download the data set example (this step is required when you first log into the Virtual Machines)</br>
+1. Download the data set example (this step is required when first log in to the Virtual Machine)</br>
 ```
 wget https://download.elastic.co/demos/kibana/gettingstarted/shakespeare.json
 wget https://download.elastic.co/demos/kibana/gettingstarted/accounts.zip
@@ -40,7 +40,7 @@ wget https://download.elastic.co/demos/kibana/gettingstarted/logs.jsonl.gz
 unzip accounts.zip
 gunzip logs.jsonl.gz
 ```
-3. Create mapping for Shakespeare data set in the format of curl -X PUT "[Intranet Access Domain of Instance]/shakespeare" -H 'Content-Type: application/json' -d'
+3. Create mapping for Shakespeare data set. The format is curl -X PUT “[Intranet access domain name of instance]/shakespeare” -H ‘Content-Type: application/json' -d'
  {
   "mappings" : {
    "_default_" : {
@@ -53,7 +53,7 @@ gunzip logs.jsonl.gz
    }
  }
 }
-', the examples are as follows:
+'. The examples are as follows:
 
 ```
 curl -X PUT "es-nlb-es-u92rc1eulw.jvessel-open-hb.jdcloud.com:9200/shakespeare" -H 'Content-Type: application/json' -d' { "mappings" : { "_default_" : { "properties" : { "speaker" : {"type": "keyword" }, "play_name" : {"type": "keyword" }, "line_id" : { "type" : "integer" }, "speech_number" : { "type" : "integer" } } } } } '
@@ -64,7 +64,7 @@ The response below indicates mapping created:
 ```
 {"acknowledged":true,"shards_acknowledged":true,"index":"shakespeare"}
 ```
-4. Create mapping for logstash in the format of curl -X PUT "[Intranet Access Domain of Instance]/logstash-20181010" -H 'Content-Type: application/json' -d'
+4. Create mapping for logstash. The format is curl -X PUT “[Intranet access domain name of instance]/logstash-20181010” -H ‘Content-Type: application/json' -d'
 {
   "mappings": {
     "log": {
@@ -79,7 +79,7 @@ The response below indicates mapping created:
       }
     }
   }
-}’, the examples are as follows:
+}'. The examples are as follows:
 
 ```
 curl -X PUT "es-nlb-es-u92rc1eulw.jvessel-open-hb.jdcloud.com:9200/logstash-20181011" -H 'Content-Type: application/json' -d' { "mappings": { "log": { "properties": { "geo": { "properties": { "coordinates": { "type": "geo_point" } } } } } } }' 
