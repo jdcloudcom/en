@@ -16,9 +16,15 @@ expires: Expiration Time, Standard HTTP Header
 
 policy: transcoding strategy, JSON format, and policy relevant parameters are explained as follows:
 
-"saveas": save as, that is, the location of the processed video file
+"targetSaveas": save as, that is, the location of the processed video file
 
-persistentOps: a video transcoding rule triggered after a successful resource upload.
+"persistentOps": a video transcoding rule triggered after a successful resource upload.
+
+"vcodec": optional value h264 or h265, by default h264 (note: when flv is output, h265 is not supported, error 4 will be returned upon call)
+
+"audioVolume": The optional values are as follows:
+1. floating-point count, output volume = original volume*input value, such as "5.0"; 
+2. Absolute value of output volume, such as "10dB"
 
 The currently supported video transcoding rules are as follows:
 

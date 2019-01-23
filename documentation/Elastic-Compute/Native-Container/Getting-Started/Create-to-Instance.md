@@ -26,10 +26,10 @@ Configuration of JD Cloud VM support user customized selection: Provide 1 nucleu
 To select other instance, please select the rules for replacement instance to select:  
  7. Storage: JD Cloud provides the cloud disk as the system disk and the data disk of the container, the cloud disk uses the one disk multi-standby distributed storage method with high data reliability.                
 System disk: Currently only SSD cloud disks are supported with a capacity range of 10-100G; the system disk file system format supports xfs or ext4, to format the container's system disk according to the selected file system format when creating the container; the mounting directory of the system disk is the root directory "/" which cannot be modified; currently the system disk must be deleted with the container;    
-Data disk: Support to mount seven data disks; Premium Hdd Cloud Disk and SSD cloud disk are available, only associated data disk is supports when creating.      
-Premium Hdd Cloud Disk as data disk: support range 20G~3000G   
-SSD cloud disk as data disk: support range 20G~1000G  
-The cost of the cloud disk is independent from the instance; please refer to the price of the cloud disk for specific price information.  
+Data Disk: Support to attach seven data disks. Only associated data disk is supports when creating.      
+  - In cn-north-1, cn-south-1: supporting range of Premium Hdd Cloud Disk is 20G~3,000G; supporting range of SSD Cloud Disk is 20G~1,000G;  
+  - In cn-east-2: supporting range of general SSD Cloud Disk, performance-oriented SSD Cloud Disk and capacity-oriented HDD Cloud Disk is 20G~4,000G;  
+  The Cloud Disk Service cost is independent from that of the instance. For products and prices, see [Cloud Disk Service](https://docs.jdcloud.com/cn/cloud-disk-service/product-overview) for details   
  8. Select network  
 Select **Virtual Private Cloud** and **Subnet**, after selecting Subnet, you can judge the VM number that may be created under the Subnet; if there is no Subnet currently, you may create a new Subnet through fast entrance and select in “Virtual Machine Network”. Please refer to virtual private cloud and subnet for details.  
 Private IP: There are two modes for automatic allocation and customization. It is automatic allocation by default; the private IP will be automatically assigned by the system to the container and cannot be modified; customization is available, you need to enter the private IP, the IP address within the IP scope of the intranet specified by your subnet CIDR; if a customized private IP is selected, batch creation of container instances is not supported for the time being.  
@@ -37,7 +37,7 @@ Select the corresponding created security group, which is a must; security group
  9. Bandwidth:  
 The EIP bandwidth type provided by JD Cloud is billing by fixed bandwidth and billing by traffic; Billing by fixed bandwidth is based on the bandwidth cap value set at the time of purchase, regardless of your instance’s current real-time access to public network bandwidth; while billing by traffic is based on the actual traffic of your real-time access to the public network. Currently only BGP is available in cn-north-1.  
 Bandwidth range is: 1Mbps~200Mbps. During the process of creating container instance, it is allowed not to purchase EIP temporarily; do not bind before the creation of container.  
- The costs for EIP bandwidth is independent from those of the instance. Please refer to the price of the EIP for specific price information.                           
+ The cost for EIP bandwidth is independent from those of the instance. For specific information, please refer to [Public Network IP](https://docs.jdcloud.com/cn/elastic-ip/product-overview).
  10. Advanced Settings  
 It is not a compulsory item, which provides advanced options for you to create containers. You can optionally define options in advanced settings as needed;  
 Running command: Enter the first Entrypoint instruction that runs when the container is started, which will replace the Entrypoint instruction set in the image;  

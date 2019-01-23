@@ -142,7 +142,7 @@ items:
       - name: Compatible Interface
         items:
            - name: Compatible Interface Overview
-             href: API-Reference-S3-Compatible/Compatibility-API/Compatibility-API-overview.md
+             href: API-Reference-S3-Compatible/Compatibility-API/Compatibility-API-Overview.md
            - name: About Service Operation
              items:
                - name: GetService
@@ -254,7 +254,7 @@ items:
                - name: Public Response Header
                  href: API-Reference/Introduction/Response-Headers.md
                - name: Access Control
-                 href: API-Reference/Introduction/Access-Control-Signature-In-Header-Or-URL.md
+                 href: API-Reference/Access-Control-Signature-In-Header-Or-URL.md
            - name: Service Operations
              items:
                - name: GetService
@@ -366,7 +366,9 @@ items:
       - name: Generate Presigned-URL
         href: Best-Practices/Signature-In-URL-1.md
       - name: Cross-origin Resource Sharing
-        href: Best-Practices/CORS.md
+        href:  Best-Practices/CORS.md
+      - name: Data Migration Tool Osstransfer (Recommended)
+        href: Best-Practices/Migration-Tool.md 
       - name: Data Migration Tool 
         href: Best-Practices/Data-Migration-Tool.md 
       - name: Use S3cmd to Manage OSS
@@ -375,6 +377,8 @@ items:
         href: Best-Practices/Setting-Signature-Authentication-For-Callback-Server.md        
       - name: OSS Online Service Quick Verification Tools
         href: Best-Practices/OSS-Verification-Tool.md
+      - name: Mobile Application Direct Transmission OSS
+        href: Best-Practices/Transfer-For-Mobile-Apps.md
  - name: FAQ
    items:
       - name: General Questions

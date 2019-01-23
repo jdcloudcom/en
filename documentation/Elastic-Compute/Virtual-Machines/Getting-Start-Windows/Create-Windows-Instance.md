@@ -28,7 +28,7 @@
 
 8. Configure Instance Storage:
   * Virtual Machines System Disk: Support local disk and Cloud Disk, where the local disk has 40GB for free, and the capacity cannot be changed. The cloud disk supports 40GB~500GB.                   
-  * Virtual Machines Data Disk: If the system disk is a local disk, it supports attaching 8 data disks. If the system disk is a cloud disk, it supports attaching 7 data disks. The data disk can be premium Hdd cloud disk and SSD cloud disk. After the cloud disk is attached to the Virtual Machines, it requires entering the VM operating system to attach the cloud disk.       
+  * Virtual Machines Data Disk: If the system disk is a local disk, 8 data disks can be attached. If the system disk is a cloud disk, 7 cloud disks can be attached as data disks. You may select general SSD Cloud Disk, performance-oriented SSD Cloud Disk, capacity-oriented HDD Cloud Disk, SSD Cloud Disk and Premium Hdd Cloud Disk (where the first three are only provided in cn-east-2 region and the latter two are only provided in cn-north-1, cn-east-1 and cn-south-1 regions). After the cloud disk is attached to a VM, it needs to access the Virtual Machines operating system to attach cloud disk.          
    
      You can create an empty disk of the specified type and capacity with the instance, or you can create a data disk based on an existing Cloud Disk Snapshot. For the assignment rules of data disk device name, please refer to [Assignment Rules](../Operation-Guide/Cloud-Disk/Assign-Device-Name.md).      
      
