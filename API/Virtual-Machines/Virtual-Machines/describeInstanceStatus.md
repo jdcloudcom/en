@@ -24,9 +24,9 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instanceStatus
 ### Filter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
+|**name**|String|True| |Name of Filter Requirements|
 |**operator**|String|False| |Operator of filter requirements is eq by default|
 |**values**|String[]|True| |Value of Filter Requirements|
-|**name**|String|True| |Name of Filter Requirements|
 
 ## Response parameter
 |Name|Type|Description|
@@ -37,8 +37,8 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instanceStatus
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**totalCount**|Number| |
 |**instanceStatuses**|InstanceStatus[]| |
+|**totalCount**|Number| |
 ### InstanceStatus
 |Name|Type|Description|
 |---|---|---|
@@ -48,9 +48,9 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instanceStatus
 ## Response code
 |Return code|Description|
 |---|---|
+|**200**|OK|
 |**400**|Invalid parameter|
 |**401**|Authentication failed|
 |**404**|Not found|
-|**503**|Service unavailable|
-|**200**|OK|
 |**500**|Internal server error|
+|**503**|Service unavailable|

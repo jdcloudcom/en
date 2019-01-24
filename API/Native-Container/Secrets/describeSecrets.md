@@ -26,9 +26,9 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/secrets
 ### Filter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
+|**name**|String|True| |Name of Filter Requirements|
 |**operator**|String|False| |Operator of filter requirements is eq by default|
 |**values**|String[]|True| |Value of Filter Requirements|
-|**name**|String|True| |Name of Filter Requirements|
 
 ## Response parameter
 |Name|Type|Description|
@@ -44,24 +44,24 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/secrets
 ### Secret
 |Name|Type|Description|
 |---|---|---|
-|**type**|String|Now, only the following private data type is supported: docker-registry, which is the docker registry verification type.|
-|**data**|DockerRegistryData|Confidential Data|
 |**name**|String|Confidential Data Name|
+|**type**|String|Now, only the following private data type is supported: docker-registry, which is the docker registry verification type.|
 |**createdAt**|String|Creation Time|
+|**data**|DockerRegistryData|Confidential Data|
 ### DockerRegistryData
 |Name|Type|Description|
 |---|---|---|
+|**server**|String|Registry Server Address|
 |**username**|String|User Name|
 |**password**|String|Password |
 |**email**|String|Email Address|
-|**server**|String|Registry Server Address|
 
 ## Response code
 |Return code|Description|
 |---|---|
+|**200**|OK|
 |**400**|Invalid parameter|
 |**401**|Authentication failed|
 |**404**|Not found|
-|**503**|Service unavailable|
-|**200**|OK|
 |**500**|Internal server error|
+|**503**|Service unavailable|

@@ -5,31 +5,31 @@
 Describe repository under registry of specified by the user. </br>
 
 
-## Request Method
+## Request method
 POST
 
-## Request Address
+## Request address
 https://containerregistry.jdcloud-api.com/v1/regions/{regionId}/listRepositories
 
-|Name|Type|Required or Not|Default Value|Description|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**regionId**|String|True| |Region ID|
 
-## Request Parameter
-|Name|Type|Required or Not|Default Value|Description|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**filters**|Filter[]|False| |name - Repository name, fuzzy matching and supporting a single repository name<br>|
-|**pageNumber**|Integer|False| |Page Number; 1 by Default|
+|**pageNumber**|Integer|False| |Page; 1 by default|
 |**pageSize**|Integer|False| |Page size; it is 20 by default; value range[10, 100]|
 
 ### Filter
-|Name|Type|Required or Not|Default Value|Description|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
+|**name**|String|True| |Name of Filter Requirements|
 |**operator**|String|False| |Operator of filter requirements is eq by default|
 |**values**|String[]|True| |Value of Filter Requirements|
-|**name**|String|True| |Name of Filter Requirements|
 
-## Return Parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
 |**result**|Result| |
@@ -38,25 +38,25 @@ https://containerregistry.jdcloud-api.com/v1/regions/{regionId}/listRepositories
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**totalCount**|Number| |
 |**repositories**|Repository[]| |
+|**totalCount**|Number| |
 ### Repository
 |Name|Type|Description|
 |---|---|---|
+|**createdAt**|String|Record the creation time of the user’s repository.|
+|**updatedAt**|String|Record the repository update time by the user.|
 |**registryName**|String|Registry Name.|
 |**repositoryName**|String|Repository Name.|
-|**description**|String|Repository Description|
-|**totalSpaceUsedMB**|Double|Repository Size|
 |**repositoryUri**|String|Total Number of Images in Repository|
-|**updatedAt**|String|Record the repository update time by the user.|
-|**createdAt**|String|Record the creation time of the user’s repository.|
+|**totalSpaceUsedMB**|Double|Repository Size|
+|**description**|String|Repository Description|
 
-## Return Code
-|Return Code|Description|
+## Response code
+|Return code|Description|
 |---|---|
+|**200**|OK|
 |**400**|Invalid parameter|
 |**401**|Authentication failed|
 |**404**|Not found|
-|**503**|Service unavailable|
-|**200**|OK|
 |**500**|Internal server error|
+|**503**|Service unavailable|

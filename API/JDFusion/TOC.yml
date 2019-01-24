@@ -10,142 +10,254 @@ items:
    - name: Cloud Information APIs
      items:
        - name: getCloudInfoById
-         href: JDFusion/Cloud/getCloudInfoById.md
+         href: Cloud/getCloudInfoById.md
        - name: getCloudInfos
-         href: JDFusion/Cloud/getCloudInfos.md
+         href: Cloud/getCloudInfos.md
        - name: registCloudInfo
-         href: JDFusion/Cloud/registCloudInfo.md
+         href: Cloud/registCloudInfo.md
        - name: unregistCloudInfo
-         href: JDFusion/Cloud/unregistCloudInfo.md
+         href: Cloud/unregistCloudInfo.md
    - name: CDS APIs
      items:
        - name: attachDiskToVmInstanceByDiskId.md
-         href: JDFusion/Disk/attachDiskToVmInstanceByDiskId.md
+         href: Disk/attachDiskToVmInstanceByDiskId.md
        - name: createDisk
-         href: JDFusion/Disk/createDisk.md
+         href: Disk/createDisk.md
        - name: detachDiskToVmInstanceByDiskId
-         href: JDFusion/Disk/detachDiskToVmInstanceByDiskId.md
+         href: Disk/detachDiskToVmInstanceByDiskId.md
        - name: getDiskById
-         href: JDFusion/Disk/getDiskById
+         href: Disk/getDiskById.md
        - name: getDisks
-         href: JDFusion/Disk/getDisks
+         href: Disk/getDisks.md
        - name: removeDiskById
-         href: JDFusion/Disk/removeDiskById.md
+         href: Disk/removeDiskById.md
    - name: Image APIs
      items:
        - name: getVmImages
-         href: JDFusion/Vm-Image/getVmImages.md
+         href: Vm-Image/getVmImages.md
    - name: Virtual Machine Instance APIs
      items:
         - name: createVmInstance
-          href: JDFusion/Vm-Instance/createVmInstance.md
+          href: Vm-Instance/createVmInstance.md
         - name: deleteVmInstanceById
-          href: JDFusion/Vm-Instance/deleteVmInstanceById.md
+          href: Vm-Instance/deleteVmInstanceById.md
         - name: getVmInstances
-          href: JDFusion/Vm-Instance/getVmInstances.md
+          href: Vm-Instance/getVmInstances.md
         - name: getVmInstancesById
-          href: JDFusion/Vm-Instance/getVmInstancesById.md
+          href: Vm-Instance/getVmInstancesById.md
         - name: rebootVmInstanceById
-          href: JDFusion/Vm-Instance/rebootVmInstanceById.md
+          href: Vm-Instance/rebootVmInstanceById.md
         - name: startVmInstanceById
-          href: JDFusion/Vm-Instance/startVmInstanceById.md
+          href: Vm-Instance/startVmInstanceById.md
         - name: stopVmInstanceById
-          href: JDFusion/Vm-Instance/stopVmInstanceById.md
+          href: Vm-Instance/stopVmInstanceById.md
    - name: Virtual Machine Instance Type APIs
      items:
        - name: getVmInstanceTypes
-         href: JDFusion/Vm-InstanceType/getVmInstanceTypes.md
+         href: Vm-InstanceType/getVmInstanceTypes.md
    - name: Key Pair APIs
      items:
        - name: createVmKeypair
-         href: JDFusion/Vm-Keypair/createVmKeypair.md
+         href: Vm-Keypair/createVmKeypair.md
        - name: deleteVmKeypairByName
-         href: JDFusion/Vm-Keypair/deleteVmKeypairByName.md
+         href: Vm-Keypair/deleteVmKeypairByName.md
        - name: getVmKeypairs
-         href: JDFusion/Vm-Keypair/getVmKeypairs.md
+         href: Vm-Keypair/getVmKeypairs.md
        - name: getVmKeypairsByName
-         href: JDFusion/Vm-Keypair/getVmKeypairsByName.md
+         href: Vm-Keypair/getVmKeypairsByName.md
    - name: Elastic IP APIs
      items:
        - name: createVpcEip
-         href: JDFusion/Vpc-Eip/createVpcEip.md
+         href: Vpc-Eip/createVpcEip.md
        - name: associateVpcEipById
-         href: JDFusion/Vpc-Eip/associateVpcEipById.md	
+         href: Vpc-Eip/associateVpcEipById.md	
        - name: deleteVpcEipById
-         href: JDFusion/Vpc-Eip/deleteVpcEipById.md
+         href: Vpc-Eip/deleteVpcEipById.md
        - name: disassociateVpcEipById
-         href: JDFusion/Vpc-Eip/disassociateVpcEipById.md
+         href: Vpc-Eip/disassociateVpcEipById.md
        - name: getVpcEipById
-         href: JDFusion/Vpc-Eip/getVpcEipById.md
+         href: Vpc-Eip/getVpcEipById.md
        - name: getVpcEips
-         href: JDFusion/Vpc-Eip/getVpcEips.md
+         href: Vpc-Eip/getVpcEips.md
    - name: Elastic Network Interface APIs
      items:
        - name: createVpcNetworkInterface
-         href: JDFusion/Vpc-NetworkInterface/createVpcNetworkInterface.md
+         href: Vpc-NetworkInterface/createVpcNetworkInterface.md
        - name: attachVpcNetworkInterfaceById
-         href: JDFusion/Vpc-NetworkInterface/attachVpcNetworkInterfaceById.md
+         href: Vpc-NetworkInterface/attachVpcNetworkInterfaceById.md
        - name: deleteVpcNetworkInterfaceById
-         href: JDFusion/Vpc-NetworkInterface/deleteVpcNetworkInterfaceById.md
+         href: Vpc-NetworkInterface/deleteVpcNetworkInterfaceById.md
        - name: detachVpcNetworkInterfaceById
-         href: JDFusion/Vpc-NetworkInterface/detachVpcNetworkInterfaceById.md
+         href: Vpc-NetworkInterface/detachVpcNetworkInterfaceById.md
        - name: getVpcNetworkInterfaceById
-         href: JDFusion/Vpc-NetworkInterface/getVpcNetworkInterfaceById.md
+         href: Vpc-NetworkInterface/getVpcNetworkInterfaceById.md
        - name: getVpcNetworkInterfaces
-         href: JDFusion/Vpc-NetworkInterface/getVpcNetworkInterfaces.md
+         href: Vpc-NetworkInterface/getVpcNetworkInterfaces.md
    - name: Load Balancer APIs
      items:
        - name: createVpcSlb
-         href: JDFusion/Vpc-Slb/createVpcSlb.md
+         href: Vpc-Slb/createVpcSlb.md
        - name: deleteVpcSlbById
-         href: JDFusion/Vpc-Slb/deleteVpcSlbById.md
+         href: Vpc-Slb/deleteVpcSlbById.md
        - name: getVpcSlbById
-         href: JDFusion/Vpc-Slb/getVpcSlbById.md
+         href: Vpc-Slb/getVpcSlbById.md
        - name: getVpcSlbs
-         href: JDFusion/Vpc-Slb/getVpcSlbs.md
+         href: Vpc-Slb/getVpcSlbs.md
    - name: Subnet APIs
      items:
        - name: createVpcSubnet
-         href: JDFusion/Vpc-Subnet/createVpcSubnet.md
+         href: Vpc-Subnet/createVpcSubnet.md
        - name: ddeleteVpcSubnetById
-         href: JDFusion/Vpc-Subnet/deleteVpcSubnetById.md
+         href: Vpc-Subnet/deleteVpcSubnetById.md
        - name: getVpcSubnetById
-         href: JDFusion/Vpc-Subnet/getVpcSubnetById.md
+         href: Vpc-Subnet/getVpcSubnetById.md
        - name: getVpcSubnets
-         href: JDFusion/Vpc-Subnet/getVpcSubnets.md
+         href: Vpc-Subnet/getVpcSubnets.md
    - name: Server Group APIs
      items:
        - name: createVpcVServerGroup
-         href: JDFusion/Vpc-VserverGroup/createVpcVServerGroup.md
+         href: Vpc-VserverGroup/createVpcVServerGroup.md
        - name: getVpcVServerGroups
-         href: JDFusion/Vpc-VserverGroup/getVpcVServerGroups.md
+         href: Vpc-VserverGroup/getVpcVServerGroups.md
    - name: VPC APIs
      items:
        - name: createVpc
-         href: JDFusion/Vpc/createVpc.md
+         href: Vpc/createVpc.md
        - name: deleteVpcById
-         href: JDFusion/Vpc/deleteVpcById.md
+         href: Vpc/deleteVpcById.md
        - name: getVpcById
-         href: JDFusion/Vpc/getVpcById.md
+         href: Vpc/getVpcById.md
        - name: getVpcs
-         href: JDFusion/Vpc/getVpcs.md
+         href: Vpc/getVpcs.md
    - name: Security Group APIs
      items:
        - name: createVpcSecurityGroup
-         href: JDFusion/vpc-securityGroups/createVpcSecurityGroup.md
+         href: vpc-securityGroups/createVpcSecurityGroup.md
        - name: deleteVpcSecurityGroupById
-         href: JDFusion/vpc-securityGroups/deleteVpcSecurityGroupById.md
+         href: vpc-securityGroups/deleteVpcSecurityGroupById.md
        - name: getVpcSecurityGroupById
-         href: JDFusion/vpc-securityGroups/getVpcSecurityGroupById.md
+         href: vpc-securityGroups/getVpcSecurityGroupById.md
        - name: getVpcSecurityGroups
-         href: JDFusion/vpc-securityGroups/getVpcSecurityGroups.md
+         href: vpc-securityGroups/getVpcSecurityGroups.md
    - name: HTTP Listening APIs
      items:
        - name: createVpcLBHttpListener
-         href: JDFusion/Vpc-LbHttpListener/createVpcLBHttpListener.md
+         href: Vpc-LbHttpListener/createVpcLBHttpListener.md
    - name: Running Status APIs
      items:
        - name: getTaskInfoById
-         href: JDFusion/Task/getTaskInfoById.md
+         href: Task/getTaskInfoById.md
        - name: getTaskInfoHistoryById
-         href: JDFusion/Task/getTaskInfoHistoryById.md
+         href: Task/getTaskInfoHistoryById.md
+   - name: Arrange Relevant Interfaces
+     items:
+       - name: applyDeployment
+         href: Deployment/applyDeployment.md
+       - name: cloneDeployment
+         href: Deployment/cloneDeployment.md
+       - name: createDeployment
+         href: Deployment/createDeployment.md
+       - name: deleteDeployment
+         href: Deployment/deleteDeployment.md        
+       - name: dryrunDeployment
+         href: Deployment/dryrunDeployment.md
+       - name: editDeployment
+         href: Deployment/editDeployment.md
+       - name: getDeploymentResult
+         href: Deployment/getDeploymentResult.md
+       - name: getDeploymentVersions
+         href: Deployment/getDeploymentVersions.md
+       - name: getDeployments
+         href: Deployment/getDeployments.md        
+       - name: getDeploymentsById
+         href: Deployment/getDeploymentsById.md
+       - name: getDeploymentsVersion
+         href: Deployment/getDeploymentsVersion.md
+       - name: reverseDeployment
+         href: Deployment/reverseDeployment.md
+       - name: rollbackDeploymentsVersion
+         href: Deployment/rollbackDeploymentsVersion.md                
+   - name: Relevant Interface of OSS Bucket
+     items:
+       - name: createBucket
+         href: Oss-Bucket/createBucket.md
+       - name: deleteBucket
+         href: Oss-Bucket/deleteBucket.md
+       - name: getBucketByName
+         href: Oss-Bucket/getBucketByName.md
+       - name: getBucketFiles
+         href: Oss-Bucket/getBucketFiles.md
+       - name: getBuckets
+         href: Oss-Bucket/getBuckets.md        
+   - name: Relevant Interface of OSS Migration
+     items:
+       - name: createTransferTask
+         href: Oss-TransferTasks/createTransferTask.md
+       - name: deleteTransferTask
+         href: Oss-TransferTasks/deleteTransferTask.md
+       - name: editTransferTask
+         href: Oss-TransferTasks/editTransferTask.md
+       - name: getTransferTaskById
+         href: Oss-TransferTasks/getTransferTaskById.md
+       - name: getTransferTaskFailedFiles
+         href: Oss-TransferTasks/getTransferTaskFailedFiles.md
+       - name: getTransferTaskProgress
+         href: Oss-TransferTasks/getTransferTaskProgress.md
+       - name: getTransferTasks
+         href: Oss-TransferTasks/getTransferTasks.md
+       - name: startTransferTask
+         href: Oss-TransferTasks/startTransferTask.md        
+       - name: stopTransferTask
+         href: Oss-TransferTasks/stopTransferTask.md        
+   - name: Relevant Interface of RDS Account
+     items:
+       - name: createRdsAccounts
+         href: Rds-Account/createRdsAccounts.md
+       - name: deleteRdsAccount
+         href: Rds-Account/deleteRdsAccount.md
+       - name: getRdsAccountsByInstId
+         href: Rds-Account/getRdsAccountsByInstId.md         
+       - name: getRdsAccountsByInstIdAndAccountName
+         href: Rds-Account/getRdsAccountsByInstIdAndAccountName.md
+       - name: grantRdsAccount
+         href: Rds-Account/grantRdsAccount.md
+       - name: revokeRdsAccount
+         href: Rds-Account/revokeRdsAccount.md    
+   - name: Relevant Interface of RDS Database
+     items:
+       - name: createRdsDatabase
+         href: Rds-Database/createRdsDatabase.md
+       - name: deleteRdsDatabase
+         href: Rds-Database/deleteRdsDatabase.md
+       - name: getRdsDatabaseByInstIdAndDbName
+         href: Rds-Database/getRdsDatabaseByInstIdAndDbName.md       
+       - name: getRdsDatabasesByInstId
+         href: Rds-Database/getRdsDatabasesByInstId.md                   
+   - name: Relevant Interface of RDS Instance
+     items:
+       - name: createRdsInstance
+         href: Rds-Instance/createRdsInstance.md
+       - name: deleteRdsByInstId
+         href: Rds-Instance/deleteRdsByInstId.md
+       - name: getRdsByInstId
+         href: Rds-Instance/getRdsByInstId.md     
+       - name: getRdsInstances
+         href: Rds-Instance/getRdsInstances.md                 
+   - name: Relevant Interface of RDS Data Migration
+     items:
+       - name: createChannel
+         href: Rds-Migration-MySQL/createChannel.md
+       - name: createDatasource
+         href: Rds-Migration-MySQL/createDatasource.md
+       - name: deleteChannel
+         href: Rds-Migration-MySQL/deleteChannel.md     
+       - name: deleteDatasource
+         href: Rds-Migration-MySQL/deleteDatasource.md    
+       - name: getChannels
+         href: Rds-Migration-MySQL/getChannels.md
+       - name: getDatasources
+         href: Rds-Migration-MySQL/getDatasources.md
+       - name: startChannel
+         href: Rds-Migration-MySQL/startChannel.md     
+       - name: stopChannel
+         href: Rds-Migration-MySQL/stopChannel.md

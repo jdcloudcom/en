@@ -25,10 +25,10 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/secrets
 ### DockerRegistryData
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
+|**server**|String|True| |Registry Server Address|
 |**username**|String|True| |User Name|
 |**password**|String|True| |Password |
 |**email**|String|False| |Email Address|
-|**server**|String|True| |Registry Server Address|
 
 ## Response parameter
 |Name|Type|Description|
@@ -44,10 +44,10 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/secrets
 ## Response code
 |Return code|Description|
 |---|---|
+|**200**|OK|
 |**400**|Invalid parameter|
 |**401**|Authentication failed|
-|**500**|Internal server error|
-|**503**|Service unavailable|
-|**200**|OK|
 |**404**|Not found|
 |**429**|Quota exceeded|
+|**500**|Internal server error|
+|**503**|Service unavailable|

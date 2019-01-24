@@ -33,24 +33,24 @@ None
 ### Secret
 |Name|Type|Description|
 |---|---|---|
-|**type**|String|Now, only the following private data type is supported: docker-registry, which is the docker registry verification type.|
-|**data**|DockerRegistryData|Confidential Data|
 |**name**|String|Confidential Data Name|
+|**type**|String|Now, only the following private data type is supported: docker-registry, which is the docker registry verification type.|
 |**createdAt**|String|Creation Time|
+|**data**|DockerRegistryData|Confidential Data|
 ### DockerRegistryData
 |Name|Type|Description|
 |---|---|---|
+|**server**|String|Registry Server Address|
 |**username**|String|User Name|
 |**password**|String|Password |
 |**email**|String|Email Address|
-|**server**|String|Registry Server Address|
 
 ## Response code
 |Return code|Description|
 |---|---|
+|**200**|OK|
 |**400**|Invalid parameter|
 |**401**|Authentication failed|
 |**404**|Not found|
-|**503**|Service unavailable|
-|**200**|OK|
 |**500**|Internal server error|
+|**503**|Service unavailable|

@@ -12,8 +12,8 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/vpcPeerings/{vpcPeeringId}
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**vpcPeeringId**|String|True| |vpcPeeringId ID|
 |**regionId**|String|True| |Region ID|
+|**vpcPeeringId**|String|True| |vpcPeeringId ID|
 
 ## Request parameter
 None

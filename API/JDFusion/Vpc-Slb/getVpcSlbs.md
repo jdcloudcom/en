@@ -37,14 +37,13 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/vpc_slbs
 |Name|Type|Description|
 |---|---|---|
 |**addressType**|String|Network Type of Load Balancer Instance.|
+|**azs**|String[]|Availability Zone.|
 |**cloudID**|String|ID of Cloud|
 |**createdTime**|String|Creation Time|
 |**id**|String|ID of Load Balancer Instance.|
 |**ipAddress**|String|Service Address of Load Balancer Instance.|
-|**masterAz**|String|Primary Availability Zone ID of Instance.|
 |**name**|String|Name of Load Balancer Instance.|
 |**networkType**|String|Network Type of Private Load Balancer Instance|
-|**slaveAz**|String|Backup Availability Zone ID of Instance.|
 |**status**|String|Status of Load Balancer Instance|
 |**subnetId**|String|Switch ID of Private Load Balancer Instance.|
 |**vpc**|String|Exclusive Network ID of Private Load Balancer Instance.|

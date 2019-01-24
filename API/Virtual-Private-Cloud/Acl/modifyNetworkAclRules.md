@@ -12,8 +12,8 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkAcls/{networkAclId}:mod
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**networkAclId**|String|True| |networkAclId ID|
 |**regionId**|String|True| |Region ID|
+|**networkAclId**|String|True| |networkAclId ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
@@ -23,14 +23,14 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkAcls/{networkAclId}:mod
 ### ModifyNetworkAclRuleSpec
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**protocol**|String|False| |Rule Limits Protocol. Value Range: All, TCP, UDP, ICMP|
-|**description**|String|False| |Description, allow all characters under UTF-8 coding, not exceeding 256 characters|
 |**ruleId**|String|True| |NetworkAcl Rule ID|
-|**addressPrefix**|String|False| |Prefix of Matching Address|
-|**priority**|Integer|False| |Rule Matching Priority. Value Range: [1,32768]; the smaller the priority number is, the higher priority it is|
+|**protocol**|String|False| |Rule Limits Protocol. Value Range: All, TCP, UDP, ICMP|
 |**fromPort**|Integer|False| |The Start Transport Layer Port of Rule Limit. Value Range: 1-65535; if the protocol is a transport layer protocol, the default value is 1; if the protocol is not a transport layer protocol, the setting becomes invalid and the value is constantly 0. If the rule is limited to one port, a same value is filled in the fromPort and toPort|
-|**ruleAction**|String|False| |IAM Policy: allow: allow, deny: deny|
 |**toPort**|Integer|False| |The End Transport Layer Port of Rule Limit. Value Range: 1-65535; if the protocol is a transport layer protocol, the default value is 65535; if the protocol is not a transport layer protocol, the setting becomes invalid and the value is constantly 0. If the rule is limited to one port, a same value is filled in the fromPort and toPort|
+|**addressPrefix**|String|False| |Prefix of Matching Address|
+|**ruleAction**|String|False| |IAM Policy: allow: allow, deny: deny|
+|**priority**|Integer|False| |Rule Matching Priority. Value Range: [1,32768]; the smaller the priority number is, the higher priority it is|
+|**description**|String|False| |Description, allow all characters under UTF-8 coding, not exceeding 256 characters|
 
 ## Response parameter
 |Name|Type|Description|

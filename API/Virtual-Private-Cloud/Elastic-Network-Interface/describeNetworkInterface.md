@@ -12,8 +12,8 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkInterfaces/{networkInte
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**networkInterfaceId**|String|True| |networkInterface ID|
 |**regionId**|String|True| |Region ID|
+|**networkInterfaceId**|String|True| |networkInterface ID|
 
 ## Request parameter
 None
@@ -32,23 +32,23 @@ None
 ### NetworkInterface
 |Name|Type|Description|
 |---|---|---|
+|**networkInterfaceName**|String|Elastic Network Interface Name|
+|**networkInterfaceId**|String|ENI ID|
+|**az**|String|Availability Zone Name|
+|**role**|String|Network Interface Role. Value Range: Primary (primary network interface), Secondary (secondary network interface)|
 |**macAddress**|String|Ethernet Address|
 |**vpcId**|String|Virtual Network ID|
-|**description**|String|Network Interface Description Information|
-|**instanceId**|String|Associated Instance ID|
-|**secondaryIps**|NetworkInterfacePrivateIp[]|Network Interface Auxiliary IP List|
 |**subnetId**|String|Subnet ID|
-|**az**|String|Availability Zone Name|
+|**networkSecurityGroupIds**|String[]|Security Group ID List|
+|**sanityCheck**|Integer|Source and target IP address verification, with value 0 or 1|
+|**primaryIp**|NetworkInterfacePrivateIp|Network Interface Primary IP|
+|**secondaryIps**|NetworkInterfacePrivateIp[]|Network Interface Auxiliary IP List|
 |**instanceType**|String|Associated Instance Type. Value Range: vm|
+|**instanceId**|String|Associated Instance ID|
 |**instanceOwnerId**|String|Account of Instance|
 |**deviceIndex**|Integer|Device Reference Number of Network Interface on the Instance. Value Range: [0,8], 0: secondary network interface doesn't associate device, 1: primary network interface, 2-8: secondary network interface has associated device|
-|**networkInterfaceId**|String|ENI ID|
-|**sanityCheck**|Integer|Source and target IP address verification, with value 0 or 1|
-|**networkSecurityGroupIds**|String[]|Security Group ID List|
-|**role**|String|Network Interface Role. Value Range: Primary (primary network interface), Secondary (secondary network interface)|
+|**description**|String|Network Interface Description Information|
 |**createdTime**|String|Creation Time of Elastic Network Interface|
-|**primaryIp**|NetworkInterfacePrivateIp|Network Interface Primary IP|
-|**networkInterfaceName**|String|Elastic Network Interface Name|
 ### NetworkInterfacePrivateIp
 |Name|Type|Description|
 |---|---|---|

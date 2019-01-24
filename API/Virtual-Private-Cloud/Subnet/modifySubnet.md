@@ -12,8 +12,8 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/subnets/{subnetId}
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**subnetId**|String|True| |Subnet ID|
 |**regionId**|String|True| |Region ID|
+|**subnetId**|String|True| |Subnet ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|

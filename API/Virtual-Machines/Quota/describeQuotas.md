@@ -24,9 +24,9 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/quotas
 ### Filter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
+|**name**|String|True| |Name of Filter Requirements|
 |**operator**|String|False| |Operator of filter requirements is eq by default|
 |**values**|String[]|True| |Value of Filter Requirements|
-|**name**|String|True| |Name of Filter Requirements|
 
 ## Response parameter
 |Name|Type|Description|
@@ -42,15 +42,15 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/quotas
 |Name|Type|Description|
 |---|---|---|
 |**resourceType**|String|Source Type [instance, keypair, image, instanceTemplate]|
-|**used**|Integer|Used Quota|
 |**limit**|Integer|Upper Quota Limit|
+|**used**|Integer|Used Quota|
 
 ## Response code
 |Return code|Description|
 |---|---|
+|**200**|OK|
 |**400**|Invalid parameter|
 |**401**|Authentication failed|
 |**404**|Not found|
-|**503**|Service unavailable|
-|**200**|OK|
 |**500**|Internal server error|
+|**503**|Service unavailable|
