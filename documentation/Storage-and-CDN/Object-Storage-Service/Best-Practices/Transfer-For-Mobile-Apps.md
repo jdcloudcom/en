@@ -41,7 +41,7 @@ Process Description:
  
 You can deploy the following example code on the application server to generate a pre-signed URL, and you can adjust the example code according to your business logic. Before the mobile application requests OSS, it can request the application signature to return pre-signed URL, parameters (such as Bucket, Key, HTTP Method) related to pre-signed are required to be transmitted according to OSS access demands.
 
-The example is prepared based on S3 JAVA SDK, the installation and use of SDK can refer to [JAVA SDK Installation]().
+The example is prepared based on S3 JAVA SDK, the installation and use of SDK can refer to [JAVA SDK Installation](../API-Reference-S3-Compatible/Compatibility-Tools/SDK-Java/Installation-S3.md).
 
 ```
 import java.net.URL;
@@ -121,7 +121,7 @@ curl -X PUT -T testfile "http://testbucket.s3.cn-north-1.jcloudcs.com/testkey?X-
 
 ## Configure revoke notification
 
-Because when the mobile application uploads data, it does not transfer data through the application server, but directly transmits to OSS. If the application server needs to know which files have been uploaded by the mobile application, it can be implemented by configuring revoke notification function. Please refer to [Revoke Notification]() for more information, you can specify that the revoke notification will be done timely when the storage bucket resource changes.
+Because when the mobile application uploads data, it does not transfer data through the application server, but directly transmits to OSS. If the application server needs to know which files have been uploaded by the mobile application, it can be implemented by configuring revoke notification function. Please refer to [Revoke Notification](../Operation-Guide/Manage-Bucket/Callback-Notification-2.md) for more information, you can specify that the revoke notification will be done timely when the storage bucket resource changes.
 
 You can configure your application server as the callback server according to the following example. When the revoke notification is triggered, OSS will generate a message notification to the revoke URL. The event message is in JSON format and you can analyze the content you need from the event message.
 

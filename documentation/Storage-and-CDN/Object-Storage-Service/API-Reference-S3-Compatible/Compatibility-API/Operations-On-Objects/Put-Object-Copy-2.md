@@ -33,7 +33,6 @@ Except public response Headers, the operation can also use the following Headers
 
 Name|Description
 ---|---
-x-amz-expiration|If life cycle management (PUT Bucket lifecycle) is configured for the Bucket, OSS will return the Header. <br>Type: String
 x-amz-storage-class|object Storage Type Information. <br>Type: String<br>Default: None
 
 ### Response Element

@@ -13,6 +13,7 @@ The following engines and versions are supported by RDS
 - MySQL
     - 5.6
     - 5.7
+    - 8.0
   
 - Percona:
     - 5.7
@@ -21,10 +22,10 @@ The following engines and versions are supported by RDS
     - 10.2
   
 - SQL Sever
-  - 2008 R2: Enterprise Version
-  - 2012: Enterprise Version and Standard Version
-  - 2014: Enterprise Version and Standard Version
-  - 2016: Enterprise Version, Standard Version and Web Version
+    - 2008 R2: Enterprise Version
+    - 2012: Enterprise Version and Standard Version
+    - 2014: Enterprise Version and Standard Version
+    - 2016: Enterprise Version, Standard Version and Web Version
 
 ## List of Supported Regions and Availability Zones
 |Region|Region Mark|Availability Zone| Availability Zone Mark|

@@ -2,20 +2,21 @@
 ## Current Types Supported by Cloud Database
 The following engines and versions are supported by RDS which will support more database engine types and versions
 - MySQL
-  - 5.6
-  - 5.7
+    - 5.6
+    - 5.7
+    - 8.0
   
 - Percona:
-  - 5.7
+    - 5.7
   
 - MariaDB
-  - 10.2
+    - 10.2
   
 - SQL Sever
-  - 2008 R2: Enterprise Version
-  - 2012: Enterprise Version and Standard Version
-  - 2014: Enterprise Version and Standard Version
-  - 2016: Enterprise Version, Standard Version and Web Version
+    - 2008 R2: Enterprise Version
+    - 2012: Enterprise Version and Standard Version
+    - 2014: Enterprise Version and Standard Version
+    - 2016: Enterprise Version, Standard Version and Web Version
 
 ## VM's Failure to Access RDS
 Following conditions shall be met for the VM accessing RDS:
