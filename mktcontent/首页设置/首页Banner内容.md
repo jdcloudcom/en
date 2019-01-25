@@ -787,5 +787,11 @@
 		"id":"1045",
 		"button_title":"查看详情",
 		"main_title":"原生容器Pod开放公测"
+	},
+	{
+		"image_Url":"//img1.jcloudcs.com/cms/c11feecd-8011-42e5-9673-38041d80b2c120190117183026.png",
+		"name":"智能城市白皮书",
+		"id":"1047",
+		"backgroud_image":"//img1.jcloudcs.com/cms/6c0ce349-3b5b-4fda-ad30-29ade66fb81a20190117183032.jpg"
 	}
 ]
