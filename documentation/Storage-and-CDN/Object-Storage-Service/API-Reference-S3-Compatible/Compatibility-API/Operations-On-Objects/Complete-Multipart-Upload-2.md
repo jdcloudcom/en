@@ -39,11 +39,7 @@ ETag|Returned Entity Tag after Multipart Upload. <br>Ancestor: Part<br>Type: Str
 
 ## Response
 ### Response Header
-Except public response Headers, there are following Headers:
-
-Header|Description
----|---
-x-amz-expiration|If the Object has expiration time (it will be supported after Put Bucket lifecycle launch), the Header will be contained in the response. <br>Type: String
+No Special Header
 
 ### Response Element
 

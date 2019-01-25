@@ -2,7 +2,7 @@
 
 ## **1. Description**
 
-Refresh cache under url and the directory
+Refresh cache under url and the directory. (After the root directory is set and refreshed, CDN will request resources from the back-to-origin server again and cache the same on the node. Then, the back-to-origin bandwidth will be increased and the origin server will withstand high back-to-origin pressure. Please consider the loading pressure of the origin server and take the operation with care.)
 
 ## **2. Request Parameter**
 

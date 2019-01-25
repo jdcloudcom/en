@@ -12,7 +12,7 @@ The deployment source (program package) successfully deployed in history will be
 
 The specified milestone can support the following operation:
 
-- Deployment: Initiate deployment by specifying the milestone. For details, please refer to "Operation Guide-Create Deployment"
+- Initiate Deployment: Initiate deployment by specifying the milestone. For details, please refer to "Operation Guide-Initiate Deployment"
 - Deletion: Delete the milestone
 
 For details, please refer to "Operation Guide-Application Deployment Group List" in the deployment group page.

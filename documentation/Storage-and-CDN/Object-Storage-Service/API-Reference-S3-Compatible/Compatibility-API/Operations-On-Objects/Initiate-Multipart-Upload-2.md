@@ -32,12 +32,7 @@ No Request Elements
 
 ## Response
 ### Response Header
-
-Name|Description
----|---
-x-amz-abort-date|If the life cycle policy (it will be supported after launch of Put Bucket Lifecycle) of terminating uncompleted segment uploading is configured for the Bucket, and the prefix matches the Object name, the response includes this Header and x-amz-abort-rule-id header that provides ID of defining the life cycle configuration rules for the operation. <br>Type: String
-x-amz-abort-rule-id|The Header returns with x-amz-abort-date, which are used to identify life cycle rules. <br>String
-x-amz-expiration|If the Object has expiration time (it will be supported after Put Bucket lifecycle launch), the Header will be contained in the response. <br>Type: String
+No Special Header
 
 ### Response Element
 

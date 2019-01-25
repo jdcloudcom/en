@@ -34,11 +34,7 @@ x-amz-storage-class| Object Storage Type, if it is not specified, it will be sta
 
 ## Response
 ### Response Header
-Except general response Header, it also includes the following response Header.
-
-Name|Description
----|---
-x-amz-expiration|If the Object has expiration time (it will be supported after Put Bucket lifecycle launch), the Header will be contained in the response. <br>Type: String
+No Special Header
 
 ### Response Element
 No Special Response Element
@@ -67,8 +63,3 @@ Content-Length: 0
 Connection: close
 Server: JDCloudOSS
 ```
-
-
-
-
-
