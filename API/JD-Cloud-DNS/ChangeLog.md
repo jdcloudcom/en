@@ -1,8 +1,9 @@
 # Update History #
-API Version 1.0.8
+API Version 1.0.10
 
 |Release Time|Version Number| Update |Instructions|
 |---|---|---|---|
+|2018-12-05|1.0.10|Add interfaces of setLb, getLb, setLock|JD Cloud resolution version 2.5|
 |2018-11-27|1.0.8|Resolution Record Batch Operation APIs|APIs Batch Test Completed|
 |2018-11-13|1.0.7|Data Format Correction Relating to Time <br> rectify some interface parameters||
 |2018-10-09|1.0.6|Add internal interface||
