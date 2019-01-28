@@ -793,5 +793,53 @@
 		"name":"智能城市白皮书",
 		"id":"1047",
 		"backgroud_image":"//img1.jcloudcs.com/cms/6c0ce349-3b5b-4fda-ad30-29ade66fb81a20190117183032.jpg"
+	},
+	{
+		"sub_title":"提供企业版与旗舰版",
+		"image_Url":"//img1.jcloudcs.com/cms/dc298062-0e99-40d4-9f2f-9294299e512d20190128155639.png",
+		"name":"新版金牌服务",
+		"id":"1048",
+		"button_title":"查看详情",
+		"main_title":"金牌服务企业用户专享",
+		"backgroud_image":"//img1.jcloudcs.com/cms/2f425c38-0622-41a3-b1e6-140de2b2096820190128155643.png"
+	},
+	{
+		"image_Url":"//img1.jcloudcs.com/cms/2ef993ba-7d77-41c3-aa7c-c37b1a10c94f20190128160206.png",
+		"name":"新版智能白皮书",
+		"id":"1049",
+		"backgroud_image":"//img1.jcloudcs.com/cms/09f235b3-e927-4d22-81e6-bc0b94e696b920190128160215.jpg"
+	},
+	{
+		"sub_title":"提供随时随地的资源管理及运维服务",
+		"image_Url":"//img1.jcloudcs.com/cms/714e40b8-07be-4480-800c-0715588c3d6c20190128160634.jpg",
+		"dynamic_image":"//img1.jcloudcs.com/cms/fd2abb73-f772-407b-9f6d-da2eda61c3a820190128160539.png",
+		"name":"移动APP 上线",
+		"id":"1050",
+		"button_title":"立即下载",
+		"main_title":"京东云移动App-安卓版  正式发布"
+	},
+	{
+		"sub_title":"含注册中心、配置中心、调用链分析等功能的微服务框架",
+		"image_Url":"//img1.jcloudcs.com/cms/28f40dd1-0700-413d-8a49-613071268d1620190128160809.jpg",
+		"dynamic_image":"//img1.jcloudcs.com/cms/180ba422-a103-4da2-86bf-cde28f11705320190128160829.png",
+		"name":"分布式服务框架 公测",
+		"id":"1051",
+		"button_title":"立即申请",
+		"main_title":"分布式服务框架 开放公测"
+	},
+	{
+		"sub_title":"事件驱动的Serverless计算服务",
+		"image_Url":"//img1.jcloudcs.com/cms/4f1a9301-f49d-46a2-9a62-ac1f477f1e8720190128161107.jpg",
+		"dynamic_image":"//img1.jcloudcs.com/cms/7474d79e-dbaa-4edb-9d0a-9d5997540cfb20190128161101.png",
+		"name":"函数服务 公测",
+		"id":"1052",
+		"button_title":"立即申请",
+		"main_title":"函数服务 开放公测"
+	},
+	{
+		"image_Url":"//img1.jcloudcs.com/cms/4168c5a2-f74d-4a90-bc3d-c7a529b3b2cf20190128205117.png",
+		"name":"拜年",
+		"id":"1053",
+		"backgroud_image":"//img1.jcloudcs.com/cms/ce2064ff-03be-46b7-8fd2-9fc580c5d5e020190128205850.png"
 	}
 ]
