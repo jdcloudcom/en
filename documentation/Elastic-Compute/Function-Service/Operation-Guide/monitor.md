@@ -21,4 +21,4 @@ Table 1: List of Function Monitoring Items
 
 **Function Alarm**
 
-You can create customized alarms for any function through cloud monitoring based on actual business requirements, for details, please refer to Cloud Monitoring [Set Monitoring Alarm for Resources](https://docs.jdcloud.com/cn/monitoring/set-alarm-rules-details)。
+You can create customized alarms for any function through cloud monitoring based on actual business requirements, for details, please refer to Cloud Monitoring [Set Monitoring Alarm for Resources](https://docs.jdcloud.com/en/monitoring/set-alarm-rules-details)。

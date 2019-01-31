@@ -2,12 +2,9 @@
 
 
 
-
-## Cost of Number of Invokes
-
 The number of invokes is the total number of requests for all functions
 
-The cost of number of invokes = (The actual number of invokes of the function-quota of free number of invokes) * unit price of number of invokes
+The cost of number of invokes = (The actual number of invokes of the function - quota of free number of invokes) * unit price of number of invokes
 
 Unit price of number of invokes: RMB 1.197 per million times (RMB 0.000001197/time)
 
@@ -54,7 +51,7 @@ Table 1: Table of Free Quota
 
 | Resource Type | Free Quota per Month |
 | -------- | ------------ |
-| Number of invokes | 1 Million Times      |
+| Number of Invokes | 1 Million Times      |
 | Execution Time | 400,000 (GB*Seconds) |
 | Public Network Traffic | 0            |
 
