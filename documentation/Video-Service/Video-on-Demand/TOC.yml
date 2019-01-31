@@ -1,0 +1,64 @@
+name: VOD
+href:
+items:
+- name: Introduction
+  items:
+    - name: Product Overview
+      href: Introduction/Product-Overview.md
+    - name: Core Concepts
+      href: Introduction/Core-Concepts.md
+    - name: Basic Architecture
+      href: Introduction/Basic-Infrastructure.md
+    - name: Benefits
+      href: Introduction/Benefits.md
+    - name: Features
+      href: Introduction/Features.md
+    - name: Restrictions
+      href: Introduction/Restrictions.md
+    - name: Application Scenarios 
+      href: Introduction/Application-Scenarios.md    
+- name: Product Pricing
+  items:
+    - name: Billing Overview
+      href: Pricing/Billing-Overview.md
+    - name: Billing Rules
+      href: Pricing/Billing-Rules.md
+    - name: Price Overview
+      href: Pricing/Price-Overview.md
+    - name: Arrear Description
+      href: Pricing/Arrears-Description.md 
+- name: Getting Started
+  items:
+    - name: Enable Service
+      href: Getting-Started/Service-Provisioning.md
+    - name: Video Upload
+      href: Getting-Started/Video-Upload.md
+    - name: Video View
+      href: Getting-Started/Video-View.md
+    - name: Video Play
+      href: Getting-Started/Video-Play.md
+- name: Operation Guide
+  items:
+    - name: Media Assets Management
+      href: Operation-Guide/Media-Asset-Management.md
+    - name: Video Processing
+      href: Operation-Guide/Video-Processing.md
+    - name: Global Configuration
+      href: Operation-Guide/Global-Settings.md  
+- name: Best Practices
+  items:
+    - name: Terminal Format Suggestion
+      href: Best-Practices/Terminal-Format-Suggestion.md
+- name: Tutorial
+  items:
+  status: 0
+- name: Troubleshooting
+  items:
+    - name: Video Play Failed
+      href: Troubleshooting/Video-Playback-Failed.md
+- name: FAQ
+  href: FAQ/FAQ.md
+- name: Related Resources
+  items:
+    - name: Document History Records
+      href: Related-Resources/Document-History.md
