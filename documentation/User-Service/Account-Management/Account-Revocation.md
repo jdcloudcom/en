@@ -24,7 +24,7 @@ If you just completed personal real-name verification, you need to upload three 
 &emsp;- one photo holding the back side of your ID Card</br>
 &emsp;- one photo holding a piece of A4 paper written with "I agree to the *Instructions for the Cancellation of JD Cloud Account* and apply for the cancellation of JD Cloud Account: user name."</br></br>
 If you have completed enterprise real-name verification, you only need to upload one image:</br>
-&emsp;- one scanned image of the *Consent of Canceling JD Cloud Account* affixed with official seal ([download the template](https://docs-downloads.oss.cn-north-1.jcloudcs.com/Consent-of-Canceling-JDCloud-Account.docx))
+&emsp;- one scanned image of the *Consent of Canceling JD Cloud Account* affixed with official seal ([download the template](https://docs-downloads.oss.cn-north-1.jcloudcs.com/Consent-of-Canceling-JD-Cloud-Account.docx))
 
 (3) Leave an email address and phone number that can contact you in the ticket
 
