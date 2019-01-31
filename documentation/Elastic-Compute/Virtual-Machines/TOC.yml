@@ -275,7 +275,7 @@ items:
            items:
               - name: Solution for Failure to Obtain Private IP After Creation of Virtual Machines Using centos Private Image.
                 href: Linux-Troubleshooting/Fault-Class/Cannot-creating-a-cloud-host-using-centos-private-image.md
-              - name: Linux System message Log Error: kernel: TCP: time wait bucket table overflowt
+              - name: Linux System message Log Error： kernel： TCP： time wait bucket table overflowt
                 href: Linux-Troubleshooting/Fault-Class/Linux-system-message-log-error-kernel-TCP-time-wait-bucket-table-overflowt.md
               - name: Linux System's Query of Time Synchronization Server Timed Out
                 href: Linux-Troubleshooting/Fault-Class/Linux-system-query-time-synchronization-server-timeout.md
@@ -283,11 +283,11 @@ items:
                 href: Linux-Troubleshooting/Fault-Class/SSH-enabled-UseDNS-causes-connection-slowdown.md
               - name: SSH Startup Error /var/empty/sshd must be owned by root and not group or world-writable
                 href: Linux-Troubleshooting/Fault-Class/SSH-startup-error-be-owned-by-root-and-not-group-or-world-writable.md
-              - name: Following Error Occurs at SSH Login: Maximum amount of failed attempts was reached
+              - name: Following Error Occurs at SSH Login： Maximum amount of failed attempts was reached
                 href: Linux-Troubleshooting/Fault-Class/Linux-Troubleshooting/Fault-Class/SSH-login-Failed.md
-              - name: Following Error Occurs at SSH Login: ssh_exchange_identification: read: Connection reset by peer
+              - name: Following Error Occurs at SSH Login： ssh_exchange_identification： read： Connection reset by peer
                 href: Linux-Troubleshooting/Fault-Class/ssh_exchange_identification.md
-              - name: Following Error Occurs When SSH Service Is Started: main process exited, code=exited
+              - name: Following Error Occurs When SSH Service Is Started： main process exited, code=exited
                 href: Linux-Troubleshooting/Fault-Class/SSH-service-start-error.md
               - name: Analysis of Two Causes for Slow Login to Linux ssh
                 href: Linux-Troubleshooting/Fault-Class/Analysis-of-two-reasons-why-Linux-ssh-is-slow-to-log-in.md
@@ -305,11 +305,11 @@ items:
                 href: Linux-Troubleshooting/Fault-Class/Linux-system-creates-a-cloud-disk-problem-through-snapshots.md
               - name: Total Time Exception of Linux System Ping Test
                 href: Linux-Troubleshooting/Fault-Class/Linux-system-ping-test-total-time-is-abnormal.md
-              - name: Linux System Prompts-bash:ls:command not found
+              - name: Linux System Prompts-bash：ls：command not found
                 href: Linux-Troubleshooting/Fault-Class/Linux-system-prompt-bash-ls-command-not-found.md
               - name: It prompts insufficient space when Linux system views log by tail
                 href: Linux-Troubleshooting/Fault-Class/Linux-system-tail-view-log-prompt-space-is-insufficient.md
-              - name: SSH Login Fails After Repeatedly Entering the root Password and Following Error Occurs: Too many authentication failures for root
+              - name: SSH Login Fails After Repeatedly Entering the root Password and Following Error Occurs： Too many authentication failures for root
                 href: Linux-Troubleshooting/Fault-Class/SSH-login-issue.md
               - name: Troubleshooting for SSH Remote Login Failure
                 href: Linux-Troubleshooting/Fault-Class/SSH-cannot-remotely-log-in-to-troubleshoot.md
@@ -321,7 +321,7 @@ items:
                 href: Linux-Troubleshooting/Fault-Class/SSH-login-report-Module-is-unknown.md
               - name: No supported key exchange algorithms Appears during SSH Login
                 href: Linux-Troubleshooting/Fault-Class/SSH-login-report-No-supported-key-exchange-algorithms.md
-              - name: fatal: mm_request_send: write: Broken pipe Appears during SSH Login
+              - name: fatal： mm_request_send： write： Broken pipe Appears during SSH Login
                 href: Linux-Troubleshooting/Fault-Class/SSH-login-report-fatal-mm-request-send-write-Broken-pipe.md
               - name: must be owned by root and not group or word-writable Appears during SSH Login
                 href: Linux-Troubleshooting/Fault-Class/SSH-login-reported-must-be-owned-by-root-and-not-group-or-word-writable.md
@@ -329,19 +329,19 @@ items:
                 href: Linux-Troubleshooting/Fault-Class/SSH-login-time-report-Permission-denied-please-try-again.md
               - name: User root not allowed because not listed in Appears during SSH Login
                 href: Linux-Troubleshooting/Fault-Class/SSH-login-time-report-User-root-not-allowed-because-not-listed-in.md
-              - name: Following Error Occurs during SSH Connection: error Could not get shadow infromation for root
+              - name: Following Error Occurs during SSH Connection： error Could not get shadow infromation for root
                 href: Linux-Troubleshooting/Fault-Class/SSH-connection-error.md
-              - name: Errors Below Arising during SSH Connection: pam_limits(sshd: session): could not sent limit for 'nofile''
+              - name: Errors Below Arising during SSH Connection： pam_limits(sshd： session)： could not sent limit for 'nofile''
                 href: Linux-Troubleshooting/Fault-Class/SSH-connection-Error.md
-              - name: Following Error Occurs during SSH Connection: pam_unix(sshdsession) session closed for user
+              - name: Following Error Occurs during SSH Connection： pam_unix(sshdsession) session closed for user
                 href: Linux-Troubleshooting/Fault-Class/SSH-connection-error-session-closed.md
-              - name: Following Error Occurs during SSH Login: Disconnected:No supported authentication methods available
+              - name: Following Error Occurs during SSH Login： Disconnected：No supported authentication methods available
                 href: Linux-Troubleshooting/Fault-Class/SSH-login-error-auth-method.md
-              - name: Following Error Occurs during SSH Connection: pam_listfile(sshd:auth): Refused user root for service sshd
+              - name: Following Error Occurs during SSH Connection： pam_listfile(sshd：auth)： Refused user root for service sshd
                 href: Linux-Troubleshooting/Fault-Class/SSH-login-error-service-sshd.md
-              - name: Following Error Occurs during SSH Connection: requirement "uid >= 1000" not met by user "root"
+              - name: Following Error Occurs during SSH Connection： requirement "uid >= 1000" not met by user "root"
                 href: Linux-Troubleshooting/Fault-Class/SSH-login-error-requirement-uid.md
-              - name: Following Error Occurs When SSH Service is Started: fatal: Cannot bind any address
+              - name: Following Error Occurs When SSH Service is Started： fatal： Cannot bind any address
                 href: Linux-Troubleshooting/Fault-Class/SSH-service-start-error-bind-any-address.md
               - name: Method to Automatically Restore Ubuntu System after DNS Modification and Restarting
                 href: Linux-Troubleshooting/Fault-Class/Ubuntu-system-recovery-method.md
