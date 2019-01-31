@@ -27,7 +27,7 @@ Creating trigger specifies the method that event source event triggers the funct
 
 ## Delete Trigger:
 
-The call relationship between an event source event and a function can be disassociated through deleting the trigger; after deleting the trigger, the event source triggering method defined by the trigger will no longer trigger the function to run.
+The invoke relationship between an event source event and a function can be disassociated through deleting the trigger; after deleting the trigger, the event source triggering method defined by the trigger will no longer trigger the function to run.
 
 1. On "Trigger" page, select the trigger to be deleted, click "Delete", pop up "Delete Trigger" interface.
 2. Complete the confirmation based on notification, click "OK" to complete the trigger deletion operation.

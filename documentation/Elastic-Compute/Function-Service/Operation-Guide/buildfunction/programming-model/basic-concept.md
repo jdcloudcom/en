@@ -12,7 +12,7 @@ Note: The file name and function name of function entry must begin with a letter
 
 ## Function Parameter
 
-The function parameter refers to the content transferred to the function when a function is called, comprising event and context.
+The function parameter refers to the content transferred to the function when a function is invoked, comprising event and context.
 
  
 
@@ -42,8 +42,8 @@ The function execution log will be written to the log service by the Function Se
 
 ## Function Return
 
-Upon execution, your function needs to transmit the execution result to the Function and treatment will be made according to calling method of event source.
+Upon execution, your function needs to transmit the execution result to the Function and treatment will be made according to invoking method of event source.
 
-Synchronous call: For the function triggered via the synchronization method, the request will not be returned during execution of such function. When the function execution is finished, the function return value will be encapsulated in the JSON format and then returned to the caller. For example: triggering of the API Gateway.
+Synchronous invoke: For the function triggered via the synchronization method, the request will not be returned during execution of such function. When the function execution is finished, the function return value will be encapsulated in the JSON format and then returned to the invoker. For example: triggering of the API Gateway.
 
-Asynchronous call: For the function triggered via the asynchronous method, once the Function receives the function, the triggering request will be returned. When the function execution is finished, the function return value will be encapsulated in the JSON format and then saved in the log. Where the user needs to get the function return value after asynchronous triggering, the function return value can be obtained by searching logs via the requestId returned by the record request, upon completion of the function execution. For example: OSS triggering.
+Asynchronous invoke: For the function triggered via the asynchronous method, once the Function receives the function, the triggering request will be returned. When the function execution is finished, the function return value will be encapsulated in the JSON format and then saved in the log. Where the user needs to get the function return value after asynchronous triggering, the function return value can be obtained by searching logs via the requestId returned by the record request, upon completion of the function execution. For example: OSS triggering.

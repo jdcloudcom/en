@@ -8,7 +8,7 @@
 * Secondary virtualization is not supported for now (such as installing and using VMware and Hyper-V).
 * External hardware devices (such as U disk, external hard disk, bank U shield, etc.) connection are not supported for now.
 * NAT Instance only supports Centos 7.2 system currently.
-* The first-generation instance type cannot be mutually resized with the second-generation instance type. For details, please refer to[Resize](http://docs.jdcloud.com/cn/virtual-machines/resize-instance).
+* The first-generation instance type cannot be mutually resized with the second-generation instance type. For details, please refer to [Resize](http://docs.jdcloud.com/cn/virtual-machines/resize-instance).
 * For Windows Server system instances, it supports 64-core vCPU to the maximum. And it is recommended to purchase a minimum configuration of 1Core 2GB to ensure efficient operation of the business.
 * Single instance with a single private IP can only be associated to one elastic IP.
 * The multicast protocol is not supported at this time. It is recommended to use the unicast peer-to-peer method instead.

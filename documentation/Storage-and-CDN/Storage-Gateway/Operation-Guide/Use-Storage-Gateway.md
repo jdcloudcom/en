@@ -4,6 +4,8 @@ After completion of Storage Gateway deployment and start, you can use a Linux in
 
 First, you need to attach one local file directory to the NFS file system of Storage Gateway. After successfully attaching, mapping will be established between the local directory and NFS file system on the Storage Gateway. You can implement operation of NFS file system on the Storage Gateway by operating the local directory. The read and write of data of NFS file system will be cached on the local of Storage Gateway first and transmitted to the Object Storage Service asynchronously.
 
+Note: NFS Client system currently not support use of CentOS 7.1/CentOS 7.2.
+
 **1. Install Dependences**
 
 Before attaching, please ensure that nfs-utils or nfs-common has been installed in the system, the installation method is shown as below:

@@ -17,12 +17,8 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/cloud_info
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**body**|CreateCloudInfoReq|True| | |
-
-### CreateCloudInfoReq
-|Name|Type|Required or Not|Default Value|Description|
-|---|---|---|---|---|
 |**cloud**|CloudInfo|True| | |
+
 ### CloudInfo
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|

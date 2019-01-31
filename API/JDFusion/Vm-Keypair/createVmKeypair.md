@@ -18,15 +18,11 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/vm_keypairs
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**authorization**|String|True| |See guide document of signature algorithm for obtaining method|
-|**body**|CreateKeypairReq|True| |Create keypair|
+|**keypair**|CreateKeypair|True| |Create keypair|
 |**x-jdcloud-date**|String|True| |See guide document of signature algorithm for obtaining method|
 |**x-jdcloud-fusion-cloudid**|String|True| |Cloud Registration Information ID|
 |**x-jdcloud-nonce**|String|True| |See guide document of signature algorithm for obtaining method|
 
-### CreateKeypairReq
-|Name|Type|Required or Not|Default Value|Description|
-|---|---|---|---|---|
-|**keypair**|CreateKeypair|False| | |
 ### CreateKeypair
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|

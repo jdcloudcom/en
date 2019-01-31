@@ -10,3 +10,5 @@ Endpoints Names Compatible with S3:
 |s3.cn-east-1.jcloudcs.com|East China - Suqian(cn-east-1)|http/https|
 |s3.cn-east-2.jcloudcs.com|East China - Shanghai(cn-east-2)|http/https|
 |s3.cn-south-1.jcloudcs.com|South China - Guangzhou(cn-south-1)|http/https|
+
+Note: In order to make your data more secure, it is recommended that you use Https.

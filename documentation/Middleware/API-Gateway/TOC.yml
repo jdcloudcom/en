@@ -85,7 +85,10 @@ items:
       items:
         - name: Traffic Control Policy
           href: Create-Stream/Create-Stream.md  
-    
+    - name: Error Code
+      items:
+        - name:  Error Code
+          href: Code/API_Errorcode.md
 - name: Best Practices
   items:
   - name: Best Practices

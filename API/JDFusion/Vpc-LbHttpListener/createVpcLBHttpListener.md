@@ -18,15 +18,11 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/vpc_lbHttpListener
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**authorization**|String|True| |See guide document of signature algorithm for obtaining method|
-|**body**|CreateLoadBalancerHTTPListenerReq|True| |Create HTTP listener|
+|**httpListener**|CreateLoadBalancerHTTPListener|True| |Create HTTP listener|
 |**x-jdcloud-date**|String|True| |See guide document of signature algorithm for obtaining method|
 |**x-jdcloud-fusion-cloudid**|String|True| |Cloud Registration Information ID|
 |**x-jdcloud-nonce**|String|True| |See guide document of signature algorithm for obtaining method|
 
-### CreateLoadBalancerHTTPListenerReq
-|Name|Type|Required or Not|Default Value|Description|
-|---|---|---|---|---|
-|**httpListener**|CreateLoadBalancerHTTPListener|False| | |
 ### CreateLoadBalancerHTTPListener
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|

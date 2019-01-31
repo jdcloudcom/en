@@ -18,15 +18,11 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/vpc_securityGroups
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**authorization**|String|True| |See guide document of signature algorithm for obtaining method|
-|**body**|CreateSecurityGroupReq|True| |Create Security Group|
+|**securityGroup**|CreateSecurityGroup|True| |Create Security Group|
 |**x-jdcloud-date**|String|True| |See guide document of signature algorithm for obtaining method|
 |**x-jdcloud-fusion-cloudid**|String|True| |Cloud Registration Information ID|
 |**x-jdcloud-nonce**|String|True| |See guide document of signature algorithm for obtaining method|
 
-### CreateSecurityGroupReq
-|Name|Type|Required or Not|Default Value|Description|
-|---|---|---|---|---|
-|**securityGroup**|CreateSecurityGroup|False| | |
 ### CreateSecurityGroup
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|

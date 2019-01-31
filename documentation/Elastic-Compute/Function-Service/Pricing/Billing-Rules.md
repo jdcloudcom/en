@@ -2,9 +2,7 @@
 
 
 
-## Cost of Number of Invokes
-
-The number of calls is the total number of requests for all functions
+The number of invokes is the total number of requests for all functions
 
 The cost of number of invokes = (The actual number of invokes of the function - quota of free number of invokes) * unit price of number of invokes
 

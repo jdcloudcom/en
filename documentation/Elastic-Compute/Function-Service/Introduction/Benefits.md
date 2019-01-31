@@ -2,7 +2,7 @@
 
 In the traditional cloud service pattern, before deploying and running new business, users need to pay attention to the allocation and scheduling of cloud resources, the construction and upgrading of business running environment, these underlayer construction and maintenance often take a lot of time and effort and require constant investment to optimize.
 
-For Serverless computing service provided by Function Service, users do not need to care about everything related to the underlayer resources such as the server. Users only need to care about the core business-related code and host it in Function Service, which provides the running environment required for the code and calls enough resources at any time to meet the running load of the code.
+For Serverless computing service provided by Function Service, users do not need to care about everything related to the underlayer resources such as the server. Users only need to care about the core business-related code and host it in Function Service, which provides the running environment required for the code and invokes enough resources at any time to meet the running load of the code.
 
 ## Low operation and maintenance cost
 

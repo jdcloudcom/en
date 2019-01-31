@@ -18,15 +18,11 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/disk_disks
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**authorization**|String|True| |See guide document of signature algorithm for obtaining method|
-|**body**|CreateDataDiskReq|True| |Create Cloud Disk|
+|**disk**|CreateDataDisk|True| |Create Cloud Disk|
 |**x-jdcloud-date**|String|True| |See guide document of signature algorithm for obtaining method|
 |**x-jdcloud-fusion-cloudid**|String|True| |Cloud Registration Information ID|
 |**x-jdcloud-nonce**|String|True| |See guide document of signature algorithm for obtaining method|
 
-### CreateDataDiskReq
-|Name|Type|Required or Not|Default Value|Description|
-|---|---|---|---|---|
-|**disk**|CreateDataDisk|False| | |
 ### CreateDataDisk
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|

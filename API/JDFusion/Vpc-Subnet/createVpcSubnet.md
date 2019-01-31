@@ -18,15 +18,11 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/vpc_subnets
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**authorization**|String|True| |See guide document of signature algorithm for obtaining method|
-|**body**|CreateSubnetReq|True| |Create Subnet|
+|**subnet**|CreateSubnet|True| |Create Subnet|
 |**x-jdcloud-date**|String|True| |See guide document of signature algorithm for obtaining method|
 |**x-jdcloud-fusion-cloudid**|String|True| |Cloud Registration Information ID|
 |**x-jdcloud-nonce**|String|True| |See guide document of signature algorithm for obtaining method|
 
-### CreateSubnetReq
-|Name|Type|Required or Not|Default Value|Description|
-|---|---|---|---|---|
-|**subnet**|CreateSubnet|False| | |
 ### CreateSubnet
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|

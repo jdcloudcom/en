@@ -3,7 +3,7 @@
 ## Precondition
 * The number of cloud disks currently attached to the instance cannot reach the upper limit, that is, 8 cloud disks. If the instance's system disk is a cloud disk, 7 cloud disks can be attached as data disks.
 * If you want to attach the cloud disks to the instance as a system disk, the instance currently should not have attached a system disk with the device name of /dev/vda. In addition, the instance needs to be in the "Stopped" status and the capacity of the disk to be attached is between 40GB~500GB.
-* Multi-attachment cloud disks can only be attached as data disks and can be attached to up to 16 instances.
+* Multi-attachment cloud disks can only be attached as data disks and can be attached to up to 16 instances(Multi-point attached cloud disk is only provided in cn-east-2 region).
 * If the instance is in the specification of the first generation, only non-encrypted cloud disks can be attached.
 
 ## Operation Steps

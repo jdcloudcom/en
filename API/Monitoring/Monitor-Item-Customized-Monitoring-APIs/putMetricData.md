@@ -19,7 +19,7 @@ https://monitor.{regionId}.jdcloud-api.com/v1/customMetrics
 ### MetricDataCm
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**dimensions**|Object|True| |Data dimension, data type is map type, support at least one, up to five tags, no more than 255 bytes in total length, only English, numbers, underlines_, dot., [0-9][a-z] [A-Z] [. _ ] are allowed, others will return err|
+|**dimensions**|Object|True| |Data dimension, data type is map type, support at least one, up to 6 tags, no more than 1024 bytes in total length, only English, numbers, underlines_, dot., [0-9][a-z] [A-Z] [. _ ] are allowed, others will return err|
 |**metric**|String|True| |Metric name, no more than 255 bytes in length, only English, numbers, underlines_, dot., [0-9][a-z] [A-Z] [. _ ] are allowed, others will return err|
 |**namespace**|String|True| |Naming space, no more than 255 bytes in length, only English, numbers, underlines_, dot., [0-9][a-z] [A-Z] [. _ ] are allowed, others will return err|
 |**timestamp**|Long|True| |Timestamp for reporting data points only supports 10-bit, second timestamp, the time of the past 30 days cannot be written in|

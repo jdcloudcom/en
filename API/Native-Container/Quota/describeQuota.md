@@ -24,8 +24,8 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/quotas
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String| |
 |**result**|Result| |
+|**requestId**|String| |
 
 ### Result
 |Name|Type|Description|
@@ -34,16 +34,16 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/quotas
 ### Quota
 |Name|Type|Description|
 |---|---|---|
-|**limit**|Integer|Quota|
 |**resourceType**|String|Type|
+|**limit**|Integer|Quota|
 |**used**|Integer|Used Number|
 
 ## Response code
 |Return code|Description|
 |---|---|
+|**200**|OK|
 |**400**|Invalid parameter|
 |**401**|Authentication failed|
 |**404**|Not found|
-|**503**|Service unavailable|
-|**200**|OK|
 |**500**|Internal server error|
+|**503**|Service unavailable|

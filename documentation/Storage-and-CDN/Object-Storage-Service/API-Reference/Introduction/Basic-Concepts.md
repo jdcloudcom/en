@@ -61,6 +61,8 @@ Endpoint represents the access domain name for external service of OSS. OSS prov
 |cn-east-2|oss.cn-east-2.jcloudcs.com|oss-internal.cn-east-2.jcloudcs.com|
 |cn-south-1|oss.cn-south-1.jcloudcs.com|oss-internal.cn-south-1.jcloudcs.com|
 
+Public network Endpoint supports https protocol, in order to make your data more secure, it is recommended that you use the https protocol.
+
 **Access Domain Name-BucketName.Endpoint**
 
 For the network requests of OSS, except for API GetService, all the other domains requested are aiming at level-3 domain names of specific Bucket, consisting of BucketName and Endpoint: BucketName.Endpoint.

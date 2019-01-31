@@ -28,11 +28,11 @@ Table 1: Attribute of context object
 
 | Attribute                    | Description                                                         |
 | ----------------------- | ------------------------------------------------------------ |
-| **request_id**          | Request ID associated with a request. This is to return the client ID calling the `invoke` method.   Note: If the calling is tried again, the request ID shall remain unchanged. |
+| **request_id**          | Request ID associated with a request. This is to return the client ID invoking the `invoke` method.   Note: If the invoking is tried again, the request ID shall remain unchanged. |
 | **function_name**       | Name of Function being executed.                               |
 | **function_handler**    | Processing Function.                                                     |
-| **function_version**    | Function version being executed. If the alias is used for calling a function, `function_version` refers to the version of such alias. |
-| **invoked_function_id** | id Be used for calling the function. One function_id corresponds to a function version.       |
+| **function_version**    | Function version being executed. If the alias is used for invoking a function, `function_version` refers to the version of such alias. |
+| **invoked_function_id** | id Be used for invoking the function. One function_id corresponds to a function version.       |
 | **memory_size**         | Memory restriction for Function configuration (unit: MB). The memory limit can be set at the time of creating the function and can be changed subsequently. |
 | **timeout**             | Function Time-out Period.                                               |
 | **logset**              | The function log set shall be null if it is not created.                                   |

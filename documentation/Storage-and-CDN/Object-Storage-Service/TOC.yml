@@ -69,7 +69,9 @@ items:
              href: Operation-Guide/Manage-Bucket/Manage-Origin-Retrieval-Settings-2.md
            - name: Edge Storage
              href: Operation-Guide/Manage-Bucket/edgeStorage.md
-      - name: Object Management
+           - name: Life Cycle Management
+             href: Operation-Guide/Manage-Bucket/Lifecycle.md
+      - name: File Management
         items:
           - name: Create Folder
             href: Operation-Guide/Manage-Object/Create-Folder.md
@@ -142,7 +144,7 @@ items:
       - name: Compatible Interface
         items:
            - name: Compatible Interface Overview
-             href: API-Reference-S3-Compatible/Compatibility-API/Compatibility-API-overview.md
+             href: API-Reference-S3-Compatible/Compatibility-API/Compatibility-API-Overview.md
            - name: About Service Operation
              items:
                - name: GetService
@@ -161,6 +163,8 @@ items:
                  href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Delete-Bucket-Replication-2.md 
                - name: Delete Bucket website
                  href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Delete-Bucket-Website-2.md
+               - name: Delete Bucket lifecycle
+                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Delete-Bucket-Lifecycle.md                 
                - name: GET Bucket acl
                  href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/GET-Bucket-Acl-2.md           
                - name: GET Bucket notification
@@ -176,7 +180,9 @@ items:
                - name: Get Bucket replication
                  href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Get-Bucket-Replication-2.md
                - name: Get Bucket website
-                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Get-Bucket-Website-2.md 
+                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Get-Bucket-Website-2.md
+               - name: Get Bucket lifecycle
+                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Get-Bucket-Lifecycle.md
                - name: Head Bucket
                  href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Head-Bucket-2.md
                - name: List Multipart Uploads
@@ -192,9 +198,11 @@ items:
                - name: Put Bucket policy
                  href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Put-Bucket-Policy-2.md
                - name: Put Bucket replication
-                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Put-Bucket-Replication-2.md           
+                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Put-Bucket-Replication-2.md
                - name: Put Bucket website
-                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Put-Bucket-Website-2.md      
+                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Put-Bucket-Website-2.md 
+               - name: Put Bucket lifecycle
+                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Put-Bucket-Lifecycle.md          
            - name: About Object Operation
              items:
               - name: Abort Multipart Upload
@@ -254,7 +262,7 @@ items:
                - name: Public Response Header
                  href: API-Reference/Introduction/Response-Headers.md
                - name: Access Control
-                 href: API-Reference/Introduction/Access-Control-Signature-In-Header-Or-URL.md
+                 href: API-Reference/Access-Control-Signature-In-Header-Or-URL.md
            - name: Service Operations
              items:
                - name: GetService
@@ -366,7 +374,9 @@ items:
       - name: Generate Presigned-URL
         href: Best-Practices/Signature-In-URL-1.md
       - name: Cross-origin Resource Sharing
-        href: Best-Practices/CORS.md
+        href:  Best-Practices/CORS.md
+      - name: Data Migration Tool Osstransfer (Recommended)
+        href: Best-Practices/Migration-Tool.md 
       - name: Data Migration Tool 
         href: Best-Practices/Data-Migration-Tool.md 
       - name: Use S3cmd to Manage OSS
@@ -375,6 +385,8 @@ items:
         href: Best-Practices/Setting-Signature-Authentication-For-Callback-Server.md        
       - name: OSS Online Service Quick Verification Tools
         href: Best-Practices/OSS-Verification-Tool.md
+      - name: Mobile Application Direct Transmission OSS
+        href: Best-Practices/Transfer-For-Mobile-Apps.md
  - name: FAQ
    items:
       - name: General Questions

@@ -18,15 +18,14 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/routeTables/{routeTableId}
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**description**|String|False| |Route Table Description. Value Range: 0-256 of all characters entered under UTF-8 coding|
 |**routeTableName**|String|False| |Route Table Name Value Range: 1-32 Chinese, English capital and lowercase letters, numbers and underline delimiter|
+|**description**|String|False| |Route Table Description. Value Range: 0-256 of all characters entered under UTF-8 coding|
 
 
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
-
 
 
 ## Response code

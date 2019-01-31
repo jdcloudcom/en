@@ -1,6 +1,6 @@
 # OSS Trigger Example
 
-JD Cloud OSS can map the event (for example: Delete object in the Bucket) to Function, passing event parameter to Function handling function to call your functions.
+JD Cloud OSS can map the event (for example: Delete object in the Bucket) to Function, passing event parameter to Function handling function to invoke your functions.
 
 Scenario: The application program can implement direct handling of the files uploaded by users via event trigger function through associating function for its Bucket, and save the results to OSS or other services, which simplifies the process of application development and use.
 

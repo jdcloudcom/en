@@ -1,4 +1,4 @@
-## Access Cluster
+## Example of Accessing Cluster
 ### Based On Cloud Server Access
 JCS for Elasticsearch and the dependent virtual machine must be under the same VPC, so the virtual machine of the same VPC and subnet must be created first; JCS for Elasticsearch service can be accessed only after obtaining “EIP” under the virtual machine.
 ### Access intranet domain name through curl test

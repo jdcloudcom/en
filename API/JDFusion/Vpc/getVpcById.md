@@ -37,7 +37,7 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/vpc_vpcs/{id}
 ### VpcInfoDetail
 |Name|Type|Description|
 |---|---|---|
-|**addressPrefix**|String|Address Range|
+|**cidrBlock**|String|Address Range|
 |**cloudID**|String|Provider ID of the Cloud|
 |**createdTime**|String|Creation Time|
 |**description**|String|VPC Description|
@@ -48,8 +48,8 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/vpc_vpcs/{id}
 ### SubnetInfo
 |Name|Type|Description|
 |---|---|---|
-|**addressPrefix**|String|Segment of Subnet|
 |**availableIpCount**|Integer|Number of Available IPs in Subnet|
+|**cidrBlock**|String|Segment of Subnet|
 |**cloudID**|String|Provider ID of the Cloud|
 |**description**|String|Subnet Description Information|
 |**endIp**|String|End Address of Subnet|

@@ -16,7 +16,7 @@ No, Function Service is used as Severless service, the user does not need to mai
 
 **3. How to access resources within a VPC using functions?**
 
-You can configure information such as VPC and subnet for your functions, Function Service will set ENI with the VPC information you provide to enable your functions to access a particular VPC. Once the VPC configuration is enabled, your functions can run within a specific VPC.
+You can configure VPC, subnet and other information for your functions to enable them to access specific VPC. Once the VPC configuration is enabled, your functions can run within a specific VPC.
 
  
 

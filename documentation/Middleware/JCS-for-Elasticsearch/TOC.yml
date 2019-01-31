@@ -51,6 +51,8 @@
         href: Operation-Guide/Dedicated-master.md 
       - name: Plug-in Support
         href: Operation-Guide/IK.md 
+      - name: Kibana
+        href: Operation-Guide/Kibana.md   
       - name: Monitor Cluster
         items: 
         - name: View Monitoring Information
@@ -71,7 +73,7 @@
     items:
      - name: Specification Capacity Evaluation
        href: Best-Practices/Capacity-Assessment.md
-     - name: Access Cluster
+     - name: Example of Accessing Cluster
        href: Best-Practices/connect-ES.md
      - name: Use kibana
        href: Best-Practices/using_kibana.md

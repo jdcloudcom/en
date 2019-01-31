@@ -18,15 +18,11 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/vpc_networkInterfaces
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**authorization**|String|True| |See guide document of signature algorithm for obtaining method|
-|**body**|CreateNetInterfaceReq|True| |Create Network Interface|
+|**netInterface**|CreateNetInterface|True| |Create Network Interface|
 |**x-jdcloud-date**|String|True| |See guide document of signature algorithm for obtaining method|
 |**x-jdcloud-fusion-cloudid**|String|True| |Cloud Registration Information ID|
 |**x-jdcloud-nonce**|String|True| |See guide document of signature algorithm for obtaining method|
 
-### CreateNetInterfaceReq
-|Name|Type|Required or Not|Default Value|Description|
-|---|---|---|---|---|
-|**netInterface**|CreateNetInterface|False| | |
 ### CreateNetInterface
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|

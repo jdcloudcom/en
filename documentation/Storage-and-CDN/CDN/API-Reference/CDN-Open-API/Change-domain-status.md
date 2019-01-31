@@ -55,7 +55,7 @@ http://opencdn.jcloud.com/api/changeDomainStatus/start
 ```
 {
   "status": 0,
-  "msg": “Successful",
+  "msg": "Successful",
   "data": "www.a.com"
 }
 ```

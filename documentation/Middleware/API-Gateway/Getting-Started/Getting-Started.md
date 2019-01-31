@@ -1,4 +1,4 @@
- # Getting Started Overview
+# Getting Started Overview
 
 JD Cloud API Gateway provides API whole life cycle management, traffic control policy, access authorization, backend signature, API calling monitoring and other services. In addition to self-system integration and service aggregation, a user can also conveniently and safely open its business functions and data via API Gateway. You may complete the following steps in turn and open the API service at the console:
  

@@ -1,4 +1,4 @@
-## Create Deployment
+## Initiate Deployment
 
 On the "Application" page, you can view the deployment group created in the previous step through the "Deployment Group" page.
 

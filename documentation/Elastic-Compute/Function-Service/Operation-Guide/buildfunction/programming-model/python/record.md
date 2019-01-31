@@ -1,6 +1,6 @@
 # Log Record
 
-You are allowed to record function execution conditions in the function by using the log recording sentence. Function will write such logs into the function log. If the function is called via the console, the console will display the same log. You can view the function logs in the code on the function page corresponding to Log Service, for function log configuration and search details, please refer to [Function Log](../../../function-log.md).
+You are allowed to record function execution conditions in the function by using the log recording sentence. Function will write such logs into the function log. If the function is invoked via the console, the console will display the same log. You can view the function logs in the code on the function page corresponding to Log Service, for function log configuration and search details, please refer to [Function Log](../../../function-log.md).
 
 Log entries are generated using the following Python statements:
 

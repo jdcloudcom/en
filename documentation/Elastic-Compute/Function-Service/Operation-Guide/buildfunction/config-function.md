@@ -13,7 +13,7 @@ When a function is created, in addition to the code and any associated dependenc
                          
 **description**(optional): function description. Provide users with attributes for identification, recording, and you can easily describe your functions for annotation and differentiation. 
 
-**entrance**(mandatory): processing function, which is the call entry for Function to run the user Function.
+**entrance**(mandatory): processing function, which is the invoke entry for Function to run the user Function.
 
 **memory**(optional): Memory resources required for the function to run, unit in MB. Value range is [128, 1024], the step size is 128 MB.
 

@@ -296,6 +296,10 @@
         href: Best-Practices/Connect-Database-Instance/Client-Connect-SQLServer.md
       - name: Connect to SQL Server from Virtual Machine
         href: Best-Practices/Connect-Database-Instance/Host-Connect-SQLServer.md  
+    - name: Upgrade Database Version
+      items:
+      - name: Upgrade Database MySQL Version 
+        href: Best-Practices/Upgrade-Database-Version/Upgrade-MySQL.md 
   - name: Tutorial 
     items:
     - name: MySQL Performance Test 

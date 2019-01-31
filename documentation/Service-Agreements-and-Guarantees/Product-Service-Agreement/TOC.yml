@@ -96,3 +96,5 @@ items:
     href: Cloud-Desktop-Service-Protocol.md   
   - name: Service Level Agreement (SLA) of JD WorkSpaces
     href: Cloud-Desktop-Service-ProtocolSLA.md
+  - name: VOD Agreement 
+    href: Video-on-demand-service-protocol.md
