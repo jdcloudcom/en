@@ -816,7 +816,7 @@
 		"name":"移动APP 上线",
 		"id":"1050",
 		"button_title":"立即下载",
-		"main_title":"京东云移动App-安卓版  正式发布"
+		"main_title":"京东云App（Android版） 正式发布"
 	},
 	{
 		"sub_title":"含注册中心、配置中心、调用链分析等功能的微服务框架",
@@ -837,7 +837,7 @@
 		"main_title":"函数服务 开放公测"
 	},
 	{
-		"image_Url":"//img1.jcloudcs.com/cms/4168c5a2-f74d-4a90-bc3d-c7a529b3b2cf20190128205117.png",
+		"image_Url":"//img1.jcloudcs.com/cms/902a5aa2-0e40-4784-8832-33711a08c03e20190130173607.png",
 		"name":"拜年",
 		"id":"1053",
 		"backgroud_image":"//img1.jcloudcs.com/cms/ce2064ff-03be-46b7-8fd2-9fc580c5d5e020190128205850.png"
