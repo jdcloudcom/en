@@ -15,7 +15,7 @@ The test data is transferred to entrance function entrance as event parameters. 
  2. Select the function to be tested in Function List, click the function name to enter the function details.
 
  3. On the function details, select the function version or alias, click "Please Select Test Event" drop-down list, select "Configure Test Event", and pop up "Configure Test Event" window.
- ![测试函数1](https://github.com/jdcloudcom/cn/blob/functionservice/image/Elastic-Compute/functionservice/test1.PNG)
+ ![测试函数1](https://github.com/jdcloudcom/en/blob/function/image/Elastic-Compute/functionservice/configtest2.PNG)
  4. Fill in the test information in the "Configure Test Event" window. See Table 1 for the configuration details of test event information, parameter with * is a compulsory item.
  5. Click "Save" to create test event.
 

@@ -8,7 +8,7 @@ When using Serverless Service, users don't need to pay attention to the resource
 
 ## FaaS
 
-FaaS provides a stateless, event-triggered, transient, resilient, auto scaling Serverless computing service.
+Function as a service (FaaS) provides a stateless, event-triggered, transient, resilient, auto scaling Serverless computing service.
 
 FaaS is triggered by an event, the function is only triggered by an event only when the event occurs, and it only processes this event, in stateless running. To meet high concurrency requirements, Function Service provides automatic auto scaling capability, which will start corresponding instance in real time according to the change of the request quantity to process the event request, and reduce instances in real time with event reduction or without event triggering.
 

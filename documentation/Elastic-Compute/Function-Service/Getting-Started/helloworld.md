@@ -1,5 +1,5 @@
 # Hello World Example
-This chapter shows the Hello World example and describes the steps to quickly write the Hello World example using a function service.
+This chapter shows the Hello World example and describes the steps to quickly write the Hello World example using function service.
 
 Preparatory Work: Before starting the example operation, apply for enabling the function service.
 
@@ -31,15 +31,15 @@ Enter the "Function List" page, click ""HelloWorld" function and enter the funct
     * Event template: Blank Template;
     * Event name: test;
     Click "Save" to complete test event creation. 
-    ![测试事件](https://github.com/jdcloudcom/cn/blob/functionservice/image/Elastic-Compute/functionservice/test3.PNG)
+    ![测试事件](https://github.com/jdcloudcom/en/blob/function/image/Elastic-Compute/functionservice/etestevent.PNG)
 
 2. Test function<br>
 Select the saved test event "test" in the "Please Select Test Event" drop-down list, and click "Test".
-![测试事件](https://github.com/jdcloudcom/cn/blob/functionservice/image/Elastic-Compute/functionservice/testwork.png)                  
+![测试事件](https://github.com/jdcloudcom/en/blob/function/image/Elastic-Compute/functionservice/eestevent1.png)                  
 
 3. View execution results<br>
 The function execution results and logs can be directly viewed at the console.
-![控制台日志](https://github.com/jdcloudcom/cn/blob/functionservice/image/Elastic-Compute/functionservice/log1.PNG)                             
+![控制台日志](https://github.com/jdcloudcom/en/blob/function/image/Elastic-Compute/functionservice/eresult.PNG)                             
 Function Service Console only can view the current execution results immediately after the console test. For queries of function history logs, trigger function execution results of trigger and logs, please refer to [Function Log](../Operation-Guide/function-log.md).
 
 
