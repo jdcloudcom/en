@@ -1,24 +1,24 @@
-# Query the Real-time Frame Rate and Bit Rate of Pushing Streaming
+# **Query the Real-time Frame Rate and Bit Rate of Pushing Streaming**
 
-## 1 Description
+## **1. Description**
 
 Query the real-time (one-minute granularity) bit rate and frame rate information of a stream under the pushing streaming domain name (queryStreamData)
 
-## 2 Request Parameter
+## **2. Request Parameter**
 
 | **Name**   | **Type** | **Compulsory or Not** | **Description**                                                     |
 | ---------- | -------- | ------------ | ------------------------------------------------------------ |
 | username   | String   | Yes           | JD User Name pin                                                |
-| signature | String   | Yes           | User Signature, verify user's identity information through md5 method to ensure information security.  md5=date+username+secret key SecretKey date: format is yyyymmddusername: JD user name pin secret key: example agreed between the Parties: such as current date 2016-10-23, user pin: jcloud_00, user secret key SecretKey: e7a31b1c5ea0efa9aa2f29c6559f7d61, then the signature is MD5(20161023jcloud_00e7a31b1c5ea0efa9aa2f29c6559f7d61) |
+| signature  | String   | Yes           | User Signature, verify user's identity information through md5 method to ensure information security.</br> md5=date+username+secret key SecretKey; date: format is yyyymmdd; username: JD user name pin; secret key: agreed between the Parties;</br> example: such as current date 2016-10-23, user pin: jcloud_00, user secret key SecretKey: e7a31b1c5ea0efa9aa2f29c6559f7d61, then the signature is MD5(20161023jcloud_00e7a31b1c5ea0efa9aa2f29c6559f7d61) |
 | domain     | String   | Yes           | Currently only query on a single pushing streaming domain name is supported, parameter example: "publish.jcloud.com"     |
 | app        | String   | Yes           | Currently only query on a single app is supported, and query on multiple apps simultaneously is not supported               |
 | stream     | String   | Yes           | Currently only query on a single path stream is supported, and query on multiple streams simultaneously is not supported currently               |
-| start_time | String   | No           | Time Format: yyyy-mm-dd   hh:mi  Reference Example: 2016-12-14 07:00; if the start time is not uploaded, the query time shall be the latest one hour by default |
-| end_time   | String   | No           | Not a compulsory parameter; if no parameter is uploaded, it is current time by default                            |
+| start_time | String   | No            | Time Format: yyyy-mm-dd   hh:mi  Reference Example: 2016-12-14 07:00; if the start time is not uploaded, the query time shall be the latest one hour by default |
+| end_time   | String   | No            | Not a compulsory parameter; if no parameter is uploaded, it is current time by default                            |
 
  
 
-## 3 Return Parameter
+## **3. Return Parameter**
 
 | **Name** | **Description**                                        |
 | -------- | ----------------------------------------------- |
@@ -28,17 +28,17 @@ Query the real-time (one-minute granularity) bit rate and frame rate information
 
  
 
-## 4  Call Example
+## **4. Call Example**
 
-- ### Request Address
+- ### **Request Address**
 
-http://opencdn.jcloud.com/api/live/queryStreamData
+https://opencdn.jcloud.com/api/live/queryStreamData
 
-- ### Request Example
+- ### **Request Example**
 
-•        Json Format
+* json Format
 
-http://opencdn.jcloud.com/api/live/queryStreamData
+https://opencdn.jcloud.com/api/live/queryStreamData
 ```
 {
     "username" :"test_user",
@@ -51,9 +51,9 @@ http://opencdn.jcloud.com/api/live/queryStreamData
  }
 ```
 
-- ### Return Parameter Description
+- ### **Return Parameter Description**
 
-•        Json Format
+*json Format
 ```
 {
     "status": 0,
@@ -85,9 +85,9 @@ http://opencdn.jcloud.com/api/live/queryStreamData
    }
 ```
 
-- ### Return Example
+- ### **Return Example**
 
-•        Json Format
+* json Format
 ```
 {
     "status": 0,

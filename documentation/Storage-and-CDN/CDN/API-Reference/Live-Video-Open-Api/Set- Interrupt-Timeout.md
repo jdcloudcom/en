@@ -25,7 +25,7 @@ When the streamer abnormally ends pushing streaming (due to network interruption
 
 - ### **Request Address**
 
-http://opencdn.jcloud.com/api/live/setPushStreamTimeout
+https://opencdn.jcloud.com/api/live/setPushStreamTimeout
 
 - ### **Request Example**
 

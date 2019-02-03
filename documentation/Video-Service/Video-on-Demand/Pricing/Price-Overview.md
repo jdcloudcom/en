@@ -11,9 +11,8 @@ Total Storage Usage of VOD
 </tr>
 <tr>
     <td> Storage Capacity<br/>
-    <td>0.03</td>
+    <td>0.003</td>
 </tr>
-<tr>
 </table>
 
 ### Billing Instructions
@@ -87,12 +86,9 @@ Processing Duration of VOD Transcoding
 </tr>
 <tr>
     <td> Encapsulation Conversion<br/>
-    <td>mp4/flv/ts
-Provide Error Detection
-</td>
+    <td>mp4/flv/ts Provide Error Detection
     <td>free</td>
 </tr>
-<tr>
 </table>
 
 ### Billing Instructions
@@ -122,7 +118,6 @@ Traffic cost adopts non-tiered cost mode, which customers directly get discount 
     <td> Cost of VOD Play Acceleration<br/>
     <td>0.15</td>
 </tr>
-<tr>
 </table>
 
 ### Billing Instructions

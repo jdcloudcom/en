@@ -25,7 +25,7 @@ Set IP White List information allowing pushing streaming
 
 - ### **Request Address**
 
-http://opencdn.jcloud.com/api/live/setPushIpWhiteList
+https://opencdn.jcloud.com/api/live/setPushIpWhiteList
 
 - ### **Request Example**
 

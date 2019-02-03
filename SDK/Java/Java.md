@@ -18,11 +18,6 @@ To facilitate the understanding of some concepts and parameters in the SDK, it's
 
 If you use Apache Maven to manage a Java project, you only need to add a corresponding dependency item in the pom.xml file of the project, as follows:
 ```
-<dependency>
-    <groupId>com.jdcloud.sdk</groupId>
-    <artifactId>core</artifactId>
-    <version>1.0.0</version>
-</dependency>
 <!-- SDK of corresponding product line -->
 <dependency>
     <groupId>com.jdcloud.sdk</groupId>

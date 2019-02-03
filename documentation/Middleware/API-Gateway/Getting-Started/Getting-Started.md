@@ -47,7 +47,7 @@ You can create API after completion of API group. Creation of API is a process o
 
 
 
-### STEP4: Publish the API group to environment
+###  STEP4: Publish the API group to environment
 
 Publish the API group to the environment through **Publish** operation in the page of **API grouping management**
 

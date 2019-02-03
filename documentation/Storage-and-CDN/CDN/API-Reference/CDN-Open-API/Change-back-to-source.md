@@ -28,7 +28,7 @@ Back-to-origin Policy Change(changeSource)
 
 - ### **Request Address**
 
-http://opencdn.jcloud.com/api/changeSource
+https://opencdn.jcloud.com/api/changeSource
 
 - ### **Request Example**
 
@@ -41,7 +41,7 @@ curl -H “Content-type: application/json” -X POST -d ‘{“username”:“te
 * json Format
 
 ```
-html http://opencdn.jcloud.com/api/changeSource
+https://opencdn.jcloud.com/api/changeSource
 Domain Back-to-origin Example
 {
     "username" :"test_user",

@@ -30,20 +30,20 @@ Set Communications Protocol
 
 - ### **Request Address**
 
-http://opencdn.jcloud.com/api/setHttpType
+https://opencdn.jcloud.com/api/setHttpType
 
 - ### **Request Example**
 
 curl Request Example: 
 
 ```
-curl -H “Content-type: application/json” -X POST -d ‘{“username”:“test_user”,“signature”:“914a3f412fd9bc1eec14bb5eb104d253”,“domain” :“www.a.com”,“httpType” :“https”,“certificate” :“start—-stop”,“rsaKey” :“start—stop”,“jumpType” :“https”}’ http://opencdn.jcloud.com/api/setHttpType
+curl -H “Content-type: application/json” -X POST -d ‘{“username”:“test_user”,“signature”:“914a3f412fd9bc1eec14bb5eb104d253”,“domain” :“www.a.com”,“httpType” :“https”,“certificate” :“start—-stop”,“rsaKey” :“start—stop”,“jumpType” :“https”}’ https://opencdn.jcloud.com/api/setHttpType
 ```
 
-- Json Format
+* json Format
 
 ```
-html http://opencdn.jcloud.com/api/setHttpType
+https://opencdn.jcloud.com/api/setHttpType
 {
     "username" :"test_user",
     "signature" :"d00f58f89e8cd55dc080aec0d8051845",
@@ -57,7 +57,7 @@ html http://opencdn.jcloud.com/api/setHttpType
 
 - ### **Return Example**
 
-•        Json Format
+* json Format
 
 ```
 {

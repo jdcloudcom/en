@@ -1,12 +1,12 @@
 # Data Migration
 
-1. Data Migration Overview
+## 1. Data Migration Overview
 
 - The migration tool redis-migrate-tool currently supports migration of public network self-creation, Virtual Machine self-creation, Direct connect, VPN connect, JCS for Redis instance.
 
 - The migration tool redis-migrate-tool temporarily only supports data migration of instances with source instance version of Redis2.8, Redis3.2; the instance version of migration target is Redis2.8; we will update to support more versions later.
 
-2. Migration Terminology
+## 2. Migration Terminology
 
 Terminology|Interpretation
 :--|:--
@@ -15,7 +15,7 @@ Target instance target|Target instance of migration, namely, JD Cloud Redis purc
 Virtual Machine self-creation|Redis services deployed on the JD Cloud Server by the user are migrated to JCS for Redis
 Public Network self-creation|Redis services deployed in the Internet environment by the user are migrated to JD Cloud Redis
 
-3. Data Migration Description
+## 3. Data Migration Description
 
 JCS for Redis provides a data importing tool (linux version) redis-migration-tool; the tool supports migration of AOF data in Redis 2.8 version and Redis3.2 version; the data migration description is as follows:
 
@@ -57,7 +57,7 @@ servers:
  - jredis-cn-north-1-prod-redis-i02bbe91or.jdcloud.com:6379
 ```
 
-Use Method:
+## 4. Use Method:
 
 1. Download and decompress [redis-migrate-tool.tar.gz](https://img1.jcloudcs.com/cms/4c5a2fc3-1dc5-468c-89d5-7d38dbc1a5c720180910162509.gz), the content is the migration tool redis-migrate-tool and configuration file rmt.conf
 

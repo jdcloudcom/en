@@ -24,11 +24,11 @@ Change service status of created domain, including stop, run, delete (stop; star
 
 - ### **Request Address**
 
-Stop domain APIs address: http://opencdn.jcloud.com/api/live/stopDomain
+Stop domain APIs address: https://opencdn.jcloud.com/api/live/stopDomain
 
-Start domain APIs address: http://opencdn.jcloud.com/api/live/startDomain
+Start domain APIs address: https://opencdn.jcloud.com/api/live/startDomain
 
-Delete domain APIs address: http://opencdn.jcloud.com/api/live/deleteDomain
+Delete domain APIs address: https://opencdn.jcloud.com/api/live/deleteDomain
 
 - ### **Request Example**
 

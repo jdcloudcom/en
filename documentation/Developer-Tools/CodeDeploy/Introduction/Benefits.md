@@ -8,6 +8,4 @@ Multiple rollback modes are supported, including automatic rollback in the proce
 
 Operating commands are always the most flexible step in deployment operations. In CodeDeploy, we provide multiple supporting modes of operating commands. You can select to pack operation commands to the code package or fill them up by creating a new deployment page. In page filling, we provide easy-to-use forms to satisfy the basic demands of most users. At the same time, to cope with operating commands in complex customer scenarios, CodeDeploy also support to filling of yaml files.
 
-**Uninterrupted Service**
 
-Various deployment policies are supported. Take blue and green deployment for example, it will automatically link to the traffic switch of Load Balancer in the process of deployment so as to implement uninterrupted service in the process of version replacement and solve the availability problems concerned by technicians.

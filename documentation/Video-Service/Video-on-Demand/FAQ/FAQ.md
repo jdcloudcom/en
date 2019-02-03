@@ -2,7 +2,7 @@
 
 **Q: Whether VOD can customize domain?**
 
-A: If the customers do not add the new accelerating domains, system will use the domains provided by JD by default. If the customers need to use their own domains, please add the domains in "Domain Setting" and switch the cname addresses provided by JD Cloud.
+A: If the customers do not add the new accelerating domains, system will use the domains provided by JD Cloud by default. If the customers need to use their own domains, please add the domains in "Domain Setting" and switch the cname addresses provided by JD Cloud.
 
 
 **Q: Which VOD transmission protocols are supported now?**

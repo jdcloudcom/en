@@ -37,7 +37,7 @@ CDN sends pushing streaming interruption notification to the customer when the p
 
 - ### **Request Address**
 
-http://opencdn.jcloud.com/api/live/streamOnlineNumber
+https://opencdn.jcloud.com/api/live/streamOnlineNumber
 
 - ### **Request Example**
 

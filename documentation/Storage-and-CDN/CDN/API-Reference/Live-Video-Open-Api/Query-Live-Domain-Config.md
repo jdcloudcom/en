@@ -9,7 +9,7 @@ Search configuration information under domain, only support search of single dom
 | **Name**   | **Type** | **Compulsory or not** | **Description**                                                     |
 | ---------- | -------- | ------------ | ------------------------------------------------------------ |
 | username   | String   | Yes           | JD User Name pin                                                |
-| signature  | String   | Yes           | User signature, verify user's identity information through md5 method to ensure information security. </br>md5=date+username+secret key SecretKey; date: format is yyyymmdd; username: JD user name pin; secret key: agreed between the Parties; </br>example: such as current date 2016-10-23, user pin: jcloud_00, user secret key SecretKey: e7a31b1c5ea0efa9aa2f29c6559f7d61, then the signature is MD5(20161023jcloud_00e7a31b1c5ea0efa9aa2f29c6559f7d61) |
+| signature | String   | Yes           | User Signature, verify user's identity information through md5 method to ensure information security.</br> md5=date+username+secret key SecretKey; date: format is yyyymmdd; username: JD user name pin secret key: agreed between the Parties;</br> example: such as current date 2016-10-23, user pin: jcloud_00, user secret key SecretKey: e7a31b1c5ea0efa9aa2f29c6559f7d61, then the signature is MD5(20161023jcloud_00e7a31b1c5ea0efa9aa2f29c6559f7d61) |
 | domain     | String   | Yes           | Accelerated domain, only support search of configuration information of single domain currently|
 
 ## **3. Return Parameter**
@@ -48,7 +48,7 @@ Search configuration information under domain, only support search of single dom
 
 - ### **Request Address**
 
-http://opencdn.jcloud.com/api/live/queryDomainConfig
+https://opencdn.jcloud.com/api/live/queryDomainConfig
 
 - ### **Request Example**
 

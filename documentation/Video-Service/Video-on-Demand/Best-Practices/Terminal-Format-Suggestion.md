@@ -36,5 +36,5 @@
     <td>Not support</td>
     <td>Support</td>
 </tr>
-<tr>
+</tr>
 </table>

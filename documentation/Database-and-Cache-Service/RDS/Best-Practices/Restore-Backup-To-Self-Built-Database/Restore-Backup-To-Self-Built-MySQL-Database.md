@@ -16,7 +16,7 @@ You can restore the backup data of the JCS for MySQL service to the self-built d
     # View Help Manual
     ./mysql_backup_extract.py -h
      
-     # Unzipping backup data of the JCS for Percona service instance
+     # Unzipping backup data of the JCS for MySQL service instance
      ./mysql_backup_extract.py  -v 5.7 -f ./backup.xbstream
     ```
 3. Download backup files.

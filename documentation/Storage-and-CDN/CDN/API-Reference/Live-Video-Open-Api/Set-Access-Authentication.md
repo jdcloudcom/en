@@ -30,7 +30,7 @@ The legality of the streamer or net citizen can be verified based on MD5 algorit
 
 - ### **Request Address**
 
-http://opencdn.jcloud.com/api/live/setAccessAuthentication
+https://opencdn.jcloud.com/api/live/setAccessAuthentication
 
 - ### **Request Example**
 
