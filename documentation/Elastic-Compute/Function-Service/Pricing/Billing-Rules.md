@@ -1,6 +1,6 @@
 # Billing Rules
 
-## cost of number of invokes 
+## Cost of number of invokes 
 
 The number of invokes is the total number of requests for all functions
 
