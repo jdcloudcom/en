@@ -18,17 +18,17 @@ If your JD Cloud account is under arrearage status, you are not allowed to withd
 
 (1) Login www.jdcloud.com, enter User Center, find the withdrawal entry on the page of [fund account](https://uc.jdcloud.com/cost/capital/capital-overview);
 
-![file-list](https://github.com/jdcloudcom/cn/blob/edit/image/Charge/%E6%8F%90%E7%8E%B01.png)
+![file-list](https://github.com/jdcloudcom/en/blob/en-signin-signup/image/Finance/RechargeAndWithdrawl/withdrawl-1.png)
 
 (2) Enter “Withdrawal” module, click “Withdrawal Application” to enter the withdrawal process.
 
-![file-list](https://github.com/jdcloudcom/cn/blob/edit/image/Charge/%E6%8F%90%E7%8E%B02.png)
+![file-list](https://github.com/jdcloudcom/en/blob/en-signin-signup/image/Finance/RechargeAndWithdrawl/withdrawl-2.png)
 
 (3) Withdrawal application will be completed after finishing two steps of confirming withdrawal amount and withdrawal information (account for refund arrival). The withdrawal application is subject to review after submission.
 
-![file-list](https://github.com/jdcloudcom/cn/blob/edit/image/Charge/%E6%8F%90%E7%8E%B03.png)
+![file-list](https://github.com/jdcloudcom/en/blob/en-signin-signup/image/Finance/RechargeAndWithdrawl/withdrawl-3.png)
 
-![file-list](https://github.com/jdcloudcom/cn/blob/edit/image/Charge/%E6%8F%90%E7%8E%B04.png)
+![file-list](https://github.com/jdcloudcom/en/blob/en-signin-signup/image/Finance/RechargeAndWithdrawl/withdrawl-4.png)
 
 ## How to withdraw for corporate-to-corporate transfer balance?
 The system temporarily does not support self-service withdrawal of corporate-to-corporate transfer. If you need to withdraw under this condition, please login User Center or the console to open ticket, or send email to JD Cloud Customer Service Email jdcloud@jd.com, providing JD Cloud account information, company full name, bank account used for remittance, bank type, payment amount, opening bank, city of account opening, subbranch name, refund reason(s), which are needed for your company’s withdrawal, you will be assisted by the professional customer service for subsequent processing.
