@@ -9,14 +9,14 @@ There are two renewal methods available:
 
 The Renew Management page supports resource screening based on resource region, expiration time range, resource billing type, etc., thus facilitating your search.
 
-![file-list](https://github.com/jdcloudcom/cn/blob/edit/image/Charge/%E7%BB%AD%E8%B4%B91.png)
+![file-list](https://github.com/jdcloudcom/en/blob/en-signin-signup/image/Finance/OnlineBuy/renew-1.png)
 
 ## Resource Renewal in Batches
 The renewal in batches refers to that the same resources with the billing type of monthly package are renewed. In the renewal in batch process, the user can make the renewal action to the resources with relevant association relationship. The resource expiration time can be updated after successful renewal when the user selects the renewal period.
 
 The resource renew actions can be made to the selected resources in the [Renew Management](https://renewal-console.jdcloud.com/renew) page. When there are many resources, you can select all resources of different pages and submit the renewal action in batches.
 
-![file-list](https://github.com/jdcloudcom/cn/blob/edit/image/Charge/%E7%BB%AD%E8%B4%B92.jpg)
+![file-list](https://github.com/jdcloudcom/en/blob/en-signin-signup/image/Finance/OnlineBuy/renew-2.png)
 
 ## Setting of Automatic Renewal
  The renewal setting function is provided to the user for the purchased monthly package resource intended to be used for a long period.
@@ -35,4 +35,4 @@ You can implement the automatic renewal setting for the monthly package resource
 
 6. If the automatic renewal function is enabled and the renewal is made by the user manually, the automatic renewal can be enabled on the expiration time of the manual renewal.
 
-![file-list](https://github.com/jdcloudcom/cn/blob/edit/image/Charge/%E7%BB%AD%E8%B4%B93.jpg)
+![file-list](https://github.com/jdcloudcom/en/blob/en-signin-signup/image/Finance/OnlineBuy/renew-3.png)
