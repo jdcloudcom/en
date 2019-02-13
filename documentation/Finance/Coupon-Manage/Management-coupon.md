@@ -8,7 +8,7 @@
 
 3. Use coupon at the payment confirmation page. The amount will be automatically deducted after selecting corresponding coupon.
 
-![1](https://github.com/jdcloudcom/cn/blob/joytaobao-coupon-2018122801/image/Coupon-Manage/management-coupon-z-1.png)
+![TimLine Screenshot 20170818155053.png](https://github.com/jdcloudcom/en/blob/en-signin-signup/image/Coupon-Manage/management-coupon-e-1.png)
 
 ### **Use of Pay-As-You-Go**
 

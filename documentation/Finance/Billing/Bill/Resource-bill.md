@@ -19,14 +19,14 @@ In case that the settlement of the Pay-As-You-Go resources is delayed, the time 
 
 ## How to view resources bill?
 In JD cloud console, click on **expense**-**consumption records**-**resources bill** to view;
-![file-list](https://github.com/jdcloudcom/cn/blob/edit/image/billing/%E8%B5%84%E6%BA%90%E8%B4%A6%E5%8D%951.png)
-![file-list](https://github.com/jdcloudcom/cn/blob/edit/image/billing/%E8%B5%84%E6%BA%90%E8%B4%A6%E5%8D%956.png)
+![file-list](https://github.com/jdcloudcom/en/blob/en-signin-signup/image/Finance/Billing/resource-1.png)
+![file-list](https://github.com/jdcloudcom/en/blob/en-signin-signup/image/Finance/Billing/resource-2.png)
 
 ### How to view Pay-As-You-Go resources bill?
 You can select the Pay-As-You-Go and account period in the options;
-![file-list](https://github.com/jdcloudcom/cn/blob/edit/image/billing/%E8%B5%84%E6%BA%90%E8%B4%A6%E5%8D%957.png)
+![file-list](https://github.com/jdcloudcom/en/blob/en-signin-signup/image/Finance/Billing/resource-3.png)
 Click the Details button to view the detailed consumption of resources during the selected account period;
-![file-list](https://github.com/jdcloudcom/cn/blob/edit/image/billing/%E8%B5%84%E6%BA%90%E8%B4%A6%E5%8D%954.png)
+![file-list](https://github.com/jdcloudcom/en/blob/en-signin-signup/image/Finance/Billing/resource-4.png)
 ### How to view Pay-In-Advance resources bill
 You can select the Pay-In-Advance and account period in the options;
-![file-list](https://github.com/jdcloudcom/cn/blob/edit/image/billing/%E8%B5%84%E6%BA%90%E8%B4%A6%E5%8D%955.png)
+![file-list](https://github.com/jdcloudcom/en/blob/en-signin-signup/image/Finance/Billing/resource-5.png)

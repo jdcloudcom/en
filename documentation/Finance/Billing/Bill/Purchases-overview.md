@@ -8,8 +8,8 @@ Here you can view the following information:
 
 ## How to view the consumption overview?
 In JD cloud console, click on **expense**-**consumption records**-**consumption overview** to view;
-![file-list](https://github.com/jdcloudcom/cn/blob/edit/image/billing/%E6%80%BB%E8%A7%881.png)
-![file-list](https://github.com/jdcloudcom/cn/blob/edit/image/billing/%E6%80%BB%E8%A7%883.png)
+![file-list](https://github.com/jdcloudcom/en/blob/en-signin-signup/image/Finance/Billing/billing-1.png)
+![file-list](https://github.com/jdcloudcom/en/blob/en-signin-signup/image/Finance/Billing/billing-2.png)
 You can click on + to expand;
 
 You can click the View Details button, and it will go to the Resource Bill page to display the resource bills for the product of this type;

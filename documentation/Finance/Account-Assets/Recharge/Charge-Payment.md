@@ -1,11 +1,11 @@
 ## How to Recharge and Pay
 1. Please login [Console](https://console.jdcloud.com/) - enter Cost Management - [Fund Account](https://uc.jdcloud.com/cost/capital/capital-overview) page, click [recharge](https://uc.jdcloud.com/cost/capital/recharge) to start recharge.
 
-![file-list](https://github.com/jdcloudcom/cn/blob/edit/image/Charge/%E5%85%85%E5%80%BC1.png)
+![file-list](https://github.com/jdcloudcom/en/blob/en-signin-signup/image/Finance/RechargeAndWithdrawl/recharge-1.png)
 
 2. Enter the amount you need, select the recharge method, pay according to the notification on the page.
 
-![file-list](https://github.com/jdcloudcom/cn/blob/edit/image/Charge/%E5%85%85%E5%80%BC2.jpg)
+![file-list](https://github.com/jdcloudcom/en/blob/en-signin-signup/image/Finance/RechargeAndWithdrawl/recharge-2.png)
 
  
 
@@ -39,4 +39,4 @@ When you transfer by remittance identification code, you need not submit the rem
 
 If you transfer by non-remittance identification code method or the system fails to write off money for recharge within the validity period automatically, you can write off money for recharge through submitting bank swift on the page of [Offline Money Order Management] after you completed your bank transfer.
 
-![file-list](https://github.com/jdcloudcom/cn/blob/edit/image/Charge/%E5%85%85%E5%80%BC3.jpg)
+![file-list](https://github.com/jdcloudcom/en/blob/en-signin-signup/image/Finance/RechargeAndWithdrawl/recharge-3.png)
