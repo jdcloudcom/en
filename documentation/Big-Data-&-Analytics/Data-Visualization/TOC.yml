@@ -1,10 +1,70 @@
 name: Data Visualization
 href: 
 items:
+- name: Introduction
+  items:
+    - name: Product Overview
+      href: Introduction/Product-Overview.md
+    - name: Benefits
+      href: Introduction/Benefits.md
+    - name: Core Functions
+      href: Introduction/Features.md
 - name: Pricing
   items:
     - name: Billing Overview
       href: Pricing/Billing-Overview.md
 - name: Operation Guide
-  href: Operation-Guide/guide.md
-          
+  items:
+    - name: 1. Log in JD Cloud
+      href: Operation-Guide/login.md
+    - name: 2. My Data Visualization Screen
+      href: 
+      items:
+       - name: 2.1 Create data visualization screen
+         href: Operation-Guide/Mydashboard.md      
+       - name: 2.2 Edit Visualization Screen
+         href: Operation-Guide/editDashboard.md            
+      
+    - name: 3. Configuration of Basic Chart Component
+      href: 
+      items:
+       - name: 3.0. Basic Chart
+         href: Operation-Guide/BasicChart.md
+       - name: 3.1 Column and Broken Line Chart
+         href: Operation-Guide/BarandLine.md
+       - name: 3.2 Pie Chart
+         href: Operation-Guide/Pie.md
+       - name: 3.3 Radar Chart
+         href: Operation-Guide/leida.md
+       - name: 3.4 Ranking List
+         href: Operation-Guide/table.md
+       - name: 3.5 Date-Heat Map
+         href: Operation-Guide/hot.md     
+    - name: 4. Map Component Configuration
+      href: 
+      items:
+       - name: 4.0 Map Component
+         href: Operation-Guide/Map.md
+       - name: 4.1 3D Border Map
+         href: Operation-Guide/3DmapStyle.md
+       - name: 4.2 2D Border Map
+         href: Operation-Guide/2DmapStyle.md   
+       - name: 4.3 Map Interaction Settings
+         href: Operation-Guide/MapInteractive.md    
+    - name: 5. Text Component Configuration
+      href:
+      items:
+       - name: 5.1 Text
+         href: Operation-Guide/text.md
+       - name: 5.2 Timer
+         href: Operation-Guide/text_time.md
+       - name: 5.2 Word Cloud
+         href: Operation-Guide/text_word.md
+    - name:  6. Interaction Component Configuration
+      href: Operation-Guide/Interactive.md
+    - name:  7. Auxiliary Component Configuration
+      href: Operation-Guide/other.md
+    - name:  8. Preview/Release of Data Visualization
+      href: Operation-Guide/preview.md
+    - name: 9. Data Source Management
+      href: Operation-Guide/database.md

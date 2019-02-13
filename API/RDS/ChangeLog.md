@@ -1,8 +1,13 @@
 # Update History #
-API Version: 0.3.6
+API Version: 0.4.1
 
 |Release Time|Version Number| Update |Instructions|
 |---|---|---|---|
+|2018-12-24|0.4.1|SQL Server Interface Update |*  Searching SQL Server account list supports paging <br>* Create an instance support SQL Server based on time point <br>* Create an instance support SQL Server based on backup|
+|2018-12-20|0.4.0|Support of filter and tagFilter |* Instance List supports filter and tagFilter filtering <br>* Instance List instance details return tag information|
+|2018-12-17|0.3.9|Add MySQL Related Interface |* Searching availability zone interface supports MySQL<br>* Add clearing binlog interface <br>* Modify instance name interface support MySQL<br>* Add enabling and disabling high security model interface <br>* Add deleting and modifying parameter set interface<br>* Searching user quota interface supports MySQL|
+|2018-12-12|0.3.8|Add SQL Server Related Interface |* Add searching availability zone interface <br>* Add cancelling authorization interface <br>* Add deleting Cloud on Single Database file interface <br>* Add obtaining performance information interface to SQL in the process of execution<br>* Modify the status of backupMode of searching backup list from Automated to auto|
+|2018-12-10|0.3.7|Add PG Related Interface |*  Search resource list interface in batch|
 |2018-11-15|0.3.6|Add interfaces related to MySQL |* add interfaces related to backup synchronization service <br>* add interfaces related to audit|
 |2018-11-14|0.3.5|Add interfaces related to MySQL |* enable service after renewing and disable service after arrear|
 |2018-11-13|0.3.4|Part of interfaces support PG |* interfaces related to instance and accounts support PG <br>* add interface for query user quota|

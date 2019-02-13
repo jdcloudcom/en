@@ -10,17 +10,17 @@
 #-*- coding: utf-8 -*-
 import redis
 
-# Here replaced as connection instance host and port
+#Here replaced as connection instance host and port
 host = 'jredis-cn-north-1-prod-redis-xxxxxxxxxx.jdcloud.com'
 port = 6379
 
-# Here configure password
+#Here configure password
 password = '*******'
 
-# Specify AUTH information through password parameter when connecting
+#Specify AUTH information through password parameter when connecting
 r = redis.StrictRedis(host=host, port=port, password=password)
 
-# Database operations can be performed after being connected. Refer to https://github.com/andymccurdy/redis-py for detailed documents
+#Database operations can be performed after being connected. Refer to https://github.com/andymccurdy/redis-py for detailed documents
 r.set('foo', 'bar');
 print r.get('foo')
 ```

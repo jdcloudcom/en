@@ -1,6 +1,6 @@
 ## Price Overview
 
-The cloud resolution is billed in pay-in-advance mode for one or more years.The pay-in-advance package can only be bound to a single first-level domain name (eg. jdcloud.com), and provides the function of charging the domain name.
+The JD Cloud DNS is billed in pay-in-advance mode for one or more years.The pay-in-advance package can only be bound to a single first-level Domain (eg. jdcloud.com), and provides the function of charging the Domain.
 
 | Product Parameter      | Free | Enterprise (for limited time) | Enterprise Advanced |
 | ------------- | ------------ | ------------------ | ---------- |

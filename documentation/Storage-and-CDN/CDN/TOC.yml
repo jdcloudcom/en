@@ -145,6 +145,11 @@
             href: API-Reference/CDN-Open-API/Query-total-data.md
           - name: Query UV
             href: API-Reference/CDN-Open-API/Query-uv.md
+          - name: Set/Delete Header
+            href: API-Reference/CDN-Open-API/Set-Header.md
+            status: 0
+          - name: Search Header
+            href: API-Reference/CDN-Open-API/Query-Header.md
           - name: Attachment: Notification Information Status Code Reference Table
             href: API-Reference/CDN-Open-API/Status-code-reference-table.md
       - name: Live OPEN API

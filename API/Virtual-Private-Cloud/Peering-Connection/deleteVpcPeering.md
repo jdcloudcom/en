@@ -25,7 +25,6 @@ None
 |**requestId**|String|Request ID|
 
 
-
 ## Response code
 |Return code|Description|
 |---|---|

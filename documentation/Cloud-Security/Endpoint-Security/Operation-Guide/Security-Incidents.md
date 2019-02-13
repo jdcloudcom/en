@@ -1,11 +1,11 @@
 # Security Incidents View
 
-Login JD Cloud official website [https://www.jdcloud.com/](https://www.jdcloud.com/), enter Console -Cloud Security - Endpoint Security -Security Incidents to view
+Login JD Cloud official website [https://www.jdcloud.com/](https://www.jdcloud.com/), enter Console-Cloud Security-Endpoint Security-Security Incidents to view
 
 
 ![01-guide-incidents.png](https://github.com/jdcloudcom/cn/blob/endpion/image/Endpoint-Security/01-guide-incidents.png)
-​        View security incidents for all virtual machines, perform statistics for the security incidents according to the time, the statistic types include: total incidents counts, weak password counts, brute force crack counts, remote login counts and webshell attack counts.
+​        View security incidents for all Virtual Machines, perform statistics for the security incidents according to the time, the statistic types include: total incidents counts, weak password counts, brute force counts, long-distance login counts and webshell attack counts.
 
-​	Provide time total counts ranking for each server. Click server name to view the security incident details of the machine.
+​	Provide time total counts ranking for each server. Click server name to view the security incident details of the host.
 
 ![02-guide-incidents.png](https://github.com/jdcloudcom/cn/blob/endpion/image/Endpoint-Security/02-guide-incidents.png)

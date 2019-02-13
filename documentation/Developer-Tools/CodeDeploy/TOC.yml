@@ -1,0 +1,79 @@
+  name: CodeDeploy
+  href: 
+  items:
+  - name: Introduction
+    items:
+      - name: CodeDeploy Overview
+        href: Introduction/Product-Overview.md
+      - name: Core Concepts
+        href: Introduction/Core-Concepts.md
+      - name: Basic Architecture
+        href: Introduction/Basic-Infrastructure.md
+      - name: Benefits
+        href: Introduction/Benefits.md
+      - name: Features
+        href: Introduction/Features.md
+      - name: Restrictions
+        href: Introduction/Restrictions.md
+      - name: Application Scenarios 
+        href: Introduction/Application-Scenarios.md    
+  - name: Product Pricing
+    items:
+      - name: Billing Overview
+        href: Pricing/Billing-Overview.md
+  - name: Getting Started
+    items:
+      - name: Overview
+        href: Getting-Started/Getting-Started.md
+      - name: Create VM Instance
+        href: Getting-Started/Create-VM.md
+      - name: Create Application and Deployment Group
+        href: Getting-Started/Create-Application1.md
+      - name: Initiate deployment
+        href: Getting-Started/Create-Deployment1.md
+      - name: View Deployment Details
+        href: Getting-Started/Details1.md
+  - name: Operation Guide
+    items:
+      - name: Deployment Application List
+        href: Operation-Guide/Deployment-Application-List.md
+      - name: Create Application
+        href: Operation-Guide/Create-Application2.md
+      - name: Create Deployment Groups in Application
+        href: Operation-Guide/Create-Deployment-Group.md
+      - name: Deployment Type
+        href: Operation-Guide/Deployment-Type.md
+      - name: Advanced Options of Deployment Group
+        href: Operation-Guide/Advanced-Option.md
+      - name: Application Deployment Group List
+        href: Operation-Guide/Deployment-Group-List.md
+      - name: Application Milestone List
+        href: Operation-Guide/Milestone-List.md
+      - name: Edit Deployment Group
+        href: Operation-Guide/Edit-Deployment-Group.md
+      - name: Details of Deployment Group
+        href: Operation-Guide/Deployment-Group-Detail.md
+      - name: Initiate deployment
+        href: Operation-Guide/Create-Deployment2.md
+      - name: Deployment History
+        href: Operation-Guide/Deployment-History.md
+      - name: Deployment Details
+        href: Operation-Guide/Details2.md
+      - name: Deployment Workflow
+        href: Operation-Guide/Workflow.md
+      - name: AppSpec File
+        href: Operation-Guide/AppSpec.md
+      - name: Agent Installation
+        href: Operation-Guide/Install-Agent.md
+      - name: Agreement
+        href: Operation-Guide/Convention.md
+  - name: Best Practices
+    items: 
+      - name: Blue and Green Deployment
+        href: Best-Practice/Blue-green-Deployment.md
+  - name: FAQ
+    href: FAQ/FAQ.md          
+  - name: Related Resources
+    items:
+      - name: Document History Records
+        href: Related-Resources/Document-History.md                        

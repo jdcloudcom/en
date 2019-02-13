@@ -12,21 +12,20 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkInterfaces/{networkInte
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**networkInterfaceId**|String|True| |networkInterface ID|
 |**regionId**|String|True| |Region ID|
+|**networkInterfaceId**|String|True| |networkInterface ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**elasticIpAddress**|String|False| |Assign Disassociated Elastic IP Address|
 |**elasticIpId**|String|False| |Assign Disassociated Elastic IP ID|
+|**elasticIpAddress**|String|False| |Assign Disassociated Elastic IP Address|
 
 
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
-
 
 
 ## Response code

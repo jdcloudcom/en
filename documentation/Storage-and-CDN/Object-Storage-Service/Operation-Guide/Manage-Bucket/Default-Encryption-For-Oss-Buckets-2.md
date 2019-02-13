@@ -77,6 +77,6 @@ If the target bucket you set has enabled the default encryption, then no matter 
 
 **Relevant API Reference**
 
--  Set Default Encryption in Bucket  [PUT Bucket encryption](../../API-Reference-S3-Compatible/Compatibility-API/PUT-Bucket-Encryption-2.md)
--  Delete Default Encryption in Bucket  [DELETE Bucket encryption](../../API-Reference-S3-Compatible/Compatibility-API/DELETE-Bucket-Encryption-2.md)
--  Acquire the Setting of Default Encryption in Bucket  [GET Bucket encryption](../../API-Reference-S3-Compatible/Compatibility-API/GET-Bucket-Encryption-2.md)
+-  Set Default Encryption in Bucket  [PUT Bucket encryption](https://docs.jdcloud.com/cn/object-storage-service/put-bucket-encryption-2)
+-  Delete Default Encryption in Bucket  [DELETE Bucket encryption](https://docs.jdcloud.com/cn/object-storage-service/delete-bucket-encryption-2)
+-  Acquire the Setting of Default Encryption in Bucket  [GET Bucket encryption](https://docs.jdcloud.com/cn/object-storage-service/get-bucket-encryption-2)

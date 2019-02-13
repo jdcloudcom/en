@@ -17,15 +17,27 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
+|**filters**|Filter[]|False| |Filtering parameters, the relationship between multiple filtering parameters is “and" (and) <br>, supporting filtering with the following attributes: <br>instanceId, support operator option: eq<br>instanceName, support operator option: eq<br>engine, support operator option: eq<br>engineVersion, support operator option: eq<br>instanceStatus, support operator option: eq<br>chargeMode, support operator option: eq<br>|
 |**pageNumber**|Integer|False| |Display the page number of the data. The default is 1 and the value range is [-1, ∞). When pageNumber is -1, return all data page numbers; when the total number of pages is exceeded, display the last page;|
 |**pageSize**|Integer|False| |The number of data displayed per page is 100 by default and the value range is [10,100], which is used for the API to query the list|
+|**tagFilters**|TagFilter[]|False| |Resource Tag|
 
+### Filter
+|Name|Type|Required or Not|Default Value|Description|
+|---|---|---|---|---|
+|**name**|String|True| |Name of Filter Requirements|
+|**operator**|String|False| |Operator of filter requirements is eq by default|
+|**values**|String[]|True| |Value of Filter Requirements|
+### TagFilter
+|Name|Type|Required or Not|Default Value|Description|
+|---|---|---|---|---|
+|**key**|String|True| |Tag Key|
+|**values**|String[]|True| |Tag Value|
 
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
 |**result**|Result| |
-
 
 ### Result
 |Name|Type|Description|
@@ -45,6 +57,7 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances
 |**instanceStatus**|String|Instance status, detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)|
 |**instanceType**|String|Instance category, such as primary instances, read-only instances, etc., detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)|
 |**regionId**|String|Region ID, detailed in [Regions and Availability Zone Comparison Table](../Enum-Definitions/Regions-AZ.md)|
+|**tags**|Tag[]|Tag Information|
 ### Charge
 |Name|Type|Description|
 |---|---|---|
@@ -53,6 +66,11 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances
 |**chargeRetireTime**|String|The Expected Release Time refers to the expected release time of resources. This value is both available for the Pay-In-Advance/Pay-As-You-Go resources, conforming to the ISO8601 standard, with the UTC time used in the format of YYYY-MM-DDTHH:mm:ssZ|
 |**chargeStartTime**|String|The start time of the billing shall be subject to ISO8601, with the UTC time used in the format of YYYY-MM-DDTHH:mm:ssZ|
 |**chargeStatus**|String|Cost Payment Status, the value is respectively normal, overdue and arrear.|
+### Tag
+|Name|Type|Description|
+|---|---|---|
+|**key**|String|Tag Key|
+|**value**|String|Tag Value|
 
 ## Response code
 |Return code|Description|

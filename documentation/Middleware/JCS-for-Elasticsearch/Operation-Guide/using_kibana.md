@@ -1,6 +1,6 @@
 ## Use Kibana
-Users can use Kibana to query and analyze the data stored in JCS for Elasticsearch.
-![查询1](https://github.com/jdcloudcom/cn/blob/Elasticsearch/image/Internet-Middleware/JCS%20for%20Elasticsearch/kibana访问设置-01.png)
+Kibana is a visual open source platform for data analysis. Users can use Kibana to search and analyze the data stored in JCS for Elasticsearch.
+![查询1](https://github.com/jdcloudcom/cn/blob/Elasticsearch/image/Internet-Middleware/JCS%20for%20Elasticsearch/UES1.png)
 
 ### Definition Index Mode
 Enter into the ES console, single click **kibana** in the Instance List page, jump to kibana web page, single click Management in the left navigation bar, and select Index Patterns, so you can define the new index mode in the page.</br>

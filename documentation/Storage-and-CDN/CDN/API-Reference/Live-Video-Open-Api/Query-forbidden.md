@@ -1,15 +1,15 @@
-# Query List of Blocked Streams
+# **Query List of Blocked Streams**
 
-## 1 Description
+## **1. Description**
 
 Query list of blocked streams within a certain time (queryForbidden)
 
-## 2 Request Parameter
+## **2. Request Parameter**
 
 | Name      | Type   | Compulsory or Not | Description                                                         |
 | ---------- | ------ | -------- | ------------------------------------------------------------ |
 | username   | String | Yes       | JD user name pin                                                |
-| signature  | String | Yes       | User signature, verify user's identity information through md5 method to ensure information security.  md5=Date+username+secret key SecretKey date: format is yyyymmddusername: JD user name pin secret key: example agreed between the Parties: such as current date 2016-10-23, user pin:   jcloud_00, user secret key SecretKey: e7a31b1c5ea0efa9aa2f29c6559f7d61, then the signature is MD5(20161023jcloud_00e7a31b1c5ea0efa9aa2f29c6559f7d61) |
+| signature | String   | Yes           | User Signature, verify user's identity information through md5 method to ensure information security.</br> md5=date+username+secret key SecretKey; date: format is yyyymmdd; username: JD user name pin secret key: agreed between the Parties;</br> example: such as current date 2016-10-23, user pin: jcloud_00, user secret key SecretKey: e7a31b1c5ea0efa9aa2f29c6559f7d61, then the signature is MD5(20161023jcloud_00e7a31b1c5ea0efa9aa2f29c6559f7d61) |
 | domain     | String | Yes       | Blocked streaming domain name, only support single domain name currently                                   |
 | app        | String | No       | Release point, currently support to query single release point but not support to query multiple points at the same time. When only a domain name is entered without entering an app, the inquiry results shall be all blocked streams under this domain name |
 | stream     | String | No       | Stream name, support to query multiple stream names, which is separated by English letters, e.g. stream1, stream2; an app must be entered while a stream name is entered |
@@ -18,15 +18,13 @@ Query list of blocked streams within a certain time (queryForbidden)
 | pageNumber | int    | No       | Query the paging page number, 1 by default if not uploaded                                    |
 | pageSize   | int    | No       | Query the paging number, 10 by default if not uploaded                                   |
 
- 
-
-## 3   Return Parameter
+## **3. Return Parameter**
 
 | **Name**  | **Description**                                         |
 | --------- | ------------------------------------------------ |
-| status   | It means whether the API request is successful or not, 0 means successful, others means failure|
+| status    | It means whether the API request is successful or not, 0 means successful, others means failure|
 | msg       | Notification Information                                         |
-| data     | Domain Name Information Array                                    |
+| data      | Domain Name Information Array                                    |
 | total     | Total Number of Blocked Streams under the Domain Name                               |
 | streams   | List of Blocked Streams                                       |
 | app       | Blocked Apps                                          |
@@ -37,15 +35,15 @@ Query list of blocked streams within a certain time (queryForbidden)
 | endTime   | Query End Time                                     |
 | time      | Blocked Duration if Temporarily Blocked                             |
 
-## 4 Call Example
+## **4. Call Example**
 
-- ### Request Address
+- ### **Request Address**
 
-http://opencdn.jcloud.com/api/live/queryForbidden
+https://opencdn.jcloud.com/api/live/queryForbidden
 
-- ### Request Example
+- ### **Request Example**
 
-http://opencdn.jcloud.com/api/live/queryForbidden
+https://opencdn.jcloud.com/api/live/queryForbidden
 ```
 {
     "username" :"jd_cdntest",
@@ -59,7 +57,7 @@ http://opencdn.jcloud.com/api/live/queryForbidden
     "end_time" :"2018-06-01 21:49"
  }
 ```
-- ### Return Example
+- ### **Return Example**
 
 * json Format
 ```

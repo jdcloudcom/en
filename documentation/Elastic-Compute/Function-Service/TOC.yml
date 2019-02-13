@@ -1,0 +1,118 @@
+
+name: Function Service
+items:
+  - name: Introduction
+    items:
+      - name: Product Overview
+        href: Introduction/Product-Overview.md
+      - name: Core Concepts
+        href: Introduction/Core-Concepts.md
+      - name: Benefits
+        href: Introduction/Benefits.md
+      - name: Features
+        href: Introduction/Features.md
+      - name: Restrictions
+        href: Introduction/Restrictions.md
+      - name: Application Scenarios 
+        href: Introduction/Application-Scenarios.md  
+        
+  - name: Product Pricing
+    items:
+      - name: Billing Overview
+        href: Pricing/Billing-Overview.md
+      - name: Billing Rules
+        href: Pricing/Billing-Rules.md
+      - name: Price Overview 
+        href: Pricing/Price-Overview.md  
+        
+  - name: Getting Started
+    items:
+      - name: Hello World Example
+        href: Getting-Started/helloworld.md 
+      - name: Usage Process
+        href: Getting-Started/manual.md 
+        
+  - name: Operation Guide
+    items:
+      - name: Function Construction
+        items:
+           - name: Function Overview
+             href: Operation-Guide/buildfunction/function-overview.md 
+           - name: Programming Model
+             items:
+               - name: Basic Concept
+                 href: Operation-Guide/buildfunction/programming-model/basic-concept.md 
+               - name: Processing Program
+                 href: Operation-Guide/buildfunction/programming-model/python/processing-program.md 
+               - name: Context Object
+                 href: Operation-Guide/buildfunction/programming-model/python/context.md 
+               - name: Log Record
+                 href: Operation-Guide/buildfunction/programming-model/python/record.md 
+           - name: Create Function Deployment Package
+             href: Operation-Guide/buildfunction/programming-model/package.md  
+           - name: Configuration Function
+             href: Operation-Guide/buildfunction/config-function.md  
+           - name: Test Function
+             href: Operation-Guide/buildfunction/test-function.md                  
+               
+      - name: Function invoke
+        items:
+           - name: Function invoke
+             href: Operation-Guide/invokefunction/invoke.md 
+           - name: Trigger Management
+             items:
+               - name: Trigger Overview
+                 href: Operation-Guide/invokefunction/triggermanagement/triggeroverview.md  
+               - name: Trigger List
+                 href: Operation-Guide/invokefunction/triggermanagement/triggerlist.md  
+               - name: Trigger CRUD
+                 href: Operation-Guide/invokefunction/triggermanagement/triggeredit.md 
+               - name: Event Format
+                 href: Operation-Guide/invokefunction/triggermanagement/configtigger-event.md 
+           - name: Event Source Service
+             items:
+               - name: Event Source Service   
+                 href: Operation-Guide/invokefunction/triggermanagement/eventsourceservice/eventsource-service.md 
+               - name: OSS Trigger   
+                 href: Operation-Guide/invokefunction/triggermanagement/eventsourceservice/oss-tirgger.md 
+               - name: API Gateway Trigger   
+                 href: Operation-Guide/invokefunction/triggermanagement/eventsourceservice/apig-tigger.md  
+                    
+
+      - name: Environment Variable Management
+        href: Operation-Guide/ENV-variable.md 
+      - name: Network Configuration
+        href: Operation-Guide/net.md 
+      - name: Version Management
+        href: Operation-Guide/version.md         
+      - name: Function Log
+        href: Operation-Guide/function-log.md            
+      - name: Function Monitoring
+        href: Operation-Guide/monitor.md        
+      - name: Use Case
+        items:
+           - name: OSS Trigger Example
+             href: Operation-Guide/use-cases/oss-case.md  
+           - name: API Gateway Trigger Example
+             href: Operation-Guide/use-cases/apig-case.md          
+  
+  - name: FAQ
+    href: FAQ.md  
+    
+  - name: Related Resources
+    items:
+       - name: Document Release History
+         href: related-resources/Document-History.md   
+  - name: API Reference
+    status: 0
+    href:
+  - name: SDK Reference
+    status: 0
+    href:
+  - name: FAQ
+    status: 0
+    href: 
+  - name: Related Resources
+    status: 0
+    items:
+

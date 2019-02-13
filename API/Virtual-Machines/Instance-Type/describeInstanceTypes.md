@@ -30,37 +30,37 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instanceTypes
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String| |
 |**result**|Result| |
+|**requestId**|String| |
 
 ### Result
 |Name|Type|Description|
 |---|---|---|
 |**instanceTypes**|InstanceType[]|Generic Instance Type|
 |**specificInstanceTypes**|InstanceType[]|User-specific instance type; ticket application required|
-|**totalCount**|Integer|Quantity|
+|**totalCount**|Integer|Total Number|
 ### InstanceType
 |Name|Type|Description|
 |---|---|---|
-|**cpu**|Integer|CPU Number|
-|**desc**|String|Description|
 |**family**|String|Instance Type|
-|**gpu**|Gpu|Gpu configuration|
 |**instanceType**|String|Instance type, such as g.b1.2xlarge|
-|**localDisks**|LocalDisk[]|Configuration of local cache disk, only available for Gpu specification|
+|**cpu**|Integer|CPU Number|
 |**memoryMB**|Integer|Memory Size|
 |**nicLimit**|Integer|Number of Elastic Network Interface Supported|
+|**desc**|String|Description|
 |**state**|InstanceTypeState[]|Instance Type Status|
+|**gpu**|Gpu|Gpu configuration|
+|**localDisks**|LocalDisk[]|Configuration of local cache disk, only available for Gpu specification|
+### LocalDisk
+|Name|Type|Description|
+|---|---|---|
+|**diskType**|String|Disk Type, value range {premium-hdd, ssd}|
+|**diskSizeGB**|Integer|Disk Size|
 ### Gpu
 |Name|Type|Description|
 |---|---|---|
 |**model**|String|GPU Type|
 |**number**|Integer|GPU Count|
-### LocalDisk
-|Name|Type|Description|
-|---|---|---|
-|**diskSizeGB**|Integer|Disk Size|
-|**diskType**|String|Disk Type, value range {premium-hdd, ssd}|
 ### InstanceTypeState
 |Name|Type|Description|
 |---|---|---|
@@ -70,9 +70,9 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instanceTypes
 ## Response code
 |Return code|Description|
 |---|---|
+|**200**|OK|
 |**400**|Invalid parameter|
 |**401**|Authentication failed|
 |**404**|Not found|
-|**503**|Service unavailable|
-|**200**|OK|
 |**500**|Internal server error|
+|**503**|Service unavailable|

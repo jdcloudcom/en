@@ -44,6 +44,11 @@
             herf: Audit-Management/enableAudit.md
           - name: modifyAudit
             herf: Audit-Management/modifyAudit.md
+
+      - name: Availability Zone Management
+        items:
+          - name: describeAzs
+            herf: AvailabilityZones/describeAzs.md
             
       - name: Backup Management
         items:
@@ -62,9 +67,13 @@
             herf: Binlog/describeBinlogDownloadURL.md
           - name: describeBinlogs
             herf: Binlog/describeBinlogs.md
+          - name: describeBinlogs
+            herf: Binlog/describeBinlogs.md
 
       - name: Cloud on Single Database
         items:
+          - name: deleteImportFile
+            herf: Cloud-on-Single-Database/deleteImportFile.md
           - name: describeImportFiles
             herf: Cloud-on-Single-Database/describeImportFiles.md
           - name: getUploadKey
@@ -117,6 +126,8 @@
             herf: Instance-Management/describeInstanceAttributes.md
           - name: describeInstances
             herf: Instance-Management/describeInstances.md
+          - name: describeLatestRestoreTime
+            herf: Instance-Management/describeLatestRestoreTime.md
           - name: disableInternetAccess
             href: Instance-Management/disableInternetAccess.md
           - name: enableInternetAccess
@@ -135,6 +146,20 @@
             herf: Instance-Management/rebootInstance.md
           - name: restoreInstance
             herf: Instance-Management/restoreInstance.md
+
+      - name: Parameter Set Management
+        items:
+          - name: deleteParameterGroup
+            herf: Parameter-Group/deleteParameterGroup.md
+          - name: modifyParameterGroupAttribute
+            herf: Parameter-Group/modifyParameterGroupAttribute.md
+
+      - name: Parameter Management
+        items:
+          - name: describeParameters
+            herf: Parameters/describeParameters.md
+          - name: modifyParameters
+            herf: Parameters/modifyParameters.md
      
       - name: Performance Statistics
         items:
@@ -146,6 +171,13 @@
             herf: Performance-Statistics/describeSlowLogAttributes.md
           - name: describeSlowLogs
             herf: Performance-Statistics/describeSlowLogs.md
+
+      - name: SQL   Interception
+        items:
+          - name: disableIntercept
+            herf: SQL-Interception/disableIntercept.md
+          - name: enableIntercept
+            herf: SQL-Interception/enableIntercept.md
             
       - name: White List
         items:
@@ -159,7 +191,7 @@
       - name: MySQL Instance Specifications
         href: Instance-Specifications/Instance-Specifications-MySQL.md
       - name: SQL Server Instance Specifications
-        href: Instance-Specifications/Instance-Specifications-MySQL.md
+        href: Instance-Specifications/Instance-Specifications-SQLServer.md
 
   - name: Enum Instructions
     items:

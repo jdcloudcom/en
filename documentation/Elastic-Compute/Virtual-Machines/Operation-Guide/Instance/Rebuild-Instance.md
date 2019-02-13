@@ -8,7 +8,7 @@ It shall be noted that reinstalling the system will result in the loss of all co
 
 * The instance must be in "Stopped" status. If the instance is in the "Running" status, please run [Stop Instance](Stop-Instance.md) first; if the instance is in other unstable status, please wait for the pre-order operation to complete before resizing.
 	
-		Please note that ::
+		Please note that :
 		* If instance is created based on private image and private image has been deleted, you cannot use original image to rebuild, that is, you cannot restore to the original system status. It is recommended to keep private image referenced by instance;
 		* You need to reset password when rebuilding. For Linux system you can also reassign key pair;
 

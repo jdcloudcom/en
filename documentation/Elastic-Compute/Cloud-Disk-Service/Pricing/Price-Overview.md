@@ -2,128 +2,16 @@
 
 For Cloud Disk Service price, refer to the following table, with specific price subject to the charge made by the console:
 
-<table style="margin: 10px 0px 0px; color: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 14px; overflow-x: auto;" class="confluenceTable" width="-152">
-    <tbody>
-        <tr class="firstRow">
-            <td style="padding: 7px 10px; border: 1px solid rgb(221, 221, 221); vertical-align: top; white-space: pre-wrap;" class="confluenceTd" rowspan="3">
-                <span style="color: rgb(0, 0, 0); font-family: Microsoft YaHei, &quot;Microsoft YaHei&quot;; font-size: 14px;">type</span>
-            </td>
-            <td style="padding: 7px 10px; border: 1px solid rgb(221, 221, 221); vertical-align: top; white-space: pre-wrap;" class="confluenceTd" rowspan="3">
-                <span style="color: rgb(0, 0, 0); font-family: Microsoft YaHei, &quot;Microsoft YaHei&quot;; font-size: 14px;">capacity</span>
-            </td>
-            <td style="padding: 7px 10px; border: 1px solid rgb(221, 221, 221); vertical-align: top; white-space: pre-wrap;" class="confluenceTd" colspan="6">
-                <span style="color: rgb(0, 0, 0); font-family: Microsoft YaHei, &quot;Microsoft YaHei&quot;; font-size: 14px;">monthly package(RMB)</span>
-            </td>
-            <td style="padding: 7px 10px; border: 1px solid rgb(221, 221, 221); vertical-align: top; white-space: pre-wrap; word-break: break-all;" class="confluenceTd" rowspan="2" colspan="3">
-                <span style="color: rgb(0, 0, 0); font-family: Microsoft YaHei, &quot;Microsoft YaHei&quot;; font-size: 14px;">billing based on pay by configuration (RMB/hour)</span>
-            </td>
-        </tr>
-        <tr>
-            <td style="padding: 7px 10px; border: 1px solid rgb(221, 221, 221); vertical-align: top; white-space: pre-wrap;" class="confluenceTd" colspan="3">
-                <span style="color: rgb(0, 0, 0); font-family: Microsoft YaHei, &quot;Microsoft YaHei&quot;; font-size: 14px;">1 month</span>
-            </td>
-            <td style="padding: 7px 10px; border: 1px solid rgb(221, 221, 221); vertical-align: top; white-space: pre-wrap;" class="confluenceTd" colspan="3">
-                <span style="color: rgb(0, 0, 0); font-family: Microsoft YaHei, &quot;Microsoft YaHei&quot;; font-size: 14px;">1 year</span>
-            </td>
-        </tr>
-        <tr>
-            <td style="padding: 7px 10px; border: 1px solid rgb(221, 221, 221); vertical-align: top; white-space: pre-wrap;" class="confluenceTd">
-                <span style="color: rgb(0, 0, 0); font-family: Microsoft YaHei, &quot;Microsoft YaHei&quot;; font-size: 14px;">North China</span>
-            </td>
-            <td style="padding: 7px 10px; border: 1px solid rgb(221, 221, 221); vertical-align: top; white-space: pre-wrap;" class="confluenceTd">
-                <span style="color: rgb(0, 0, 0); font-family: Microsoft YaHei, &quot;Microsoft YaHei&quot;; font-size: 14px;">East China</span>
-            </td>
-            <td style="padding: 7px 10px; border: 1px solid rgb(221, 221, 221); vertical-align: top; white-space: pre-wrap;" class="confluenceTd">
-                <span style="color: rgb(0, 0, 0); font-family: Microsoft YaHei, &quot;Microsoft YaHei&quot;; font-size: 14px;">South China</span>
-            </td>
-            <td style="padding: 7px 10px; border: 1px solid rgb(221, 221, 221); vertical-align: top; white-space: pre-wrap;" class="confluenceTd">
-                <span style="color: rgb(0, 0, 0); font-family: Microsoft YaHei, &quot;Microsoft YaHei&quot;; font-size: 14px;">North China</span>
-            </td>
-            <td style="padding: 7px 10px; border: 1px solid rgb(221, 221, 221); vertical-align: top; white-space: pre-wrap;" class="confluenceTd">
-                <span style="color: rgb(0, 0, 0); font-family: Microsoft YaHei, &quot;Microsoft YaHei&quot;; font-size: 14px;">East China</span>
-            </td>
-            <td style="padding: 7px 10px; border: 1px solid rgb(221, 221, 221); vertical-align: top; white-space: pre-wrap;" class="confluenceTd">
-                <span style="color: rgb(0, 0, 0); font-family: Microsoft YaHei, &quot;Microsoft YaHei&quot;; font-size: 14px;">South China</span>
-            </td>
-            <td style="padding: 7px 10px; border: 1px solid rgb(221, 221, 221); vertical-align: top; white-space: pre-wrap;" class="confluenceTd">
-                <span style="color: rgb(0, 0, 0); font-family: Microsoft YaHei, &quot;Microsoft YaHei&quot;; font-size: 14px;">North China</span>
-            </td>
-            <td style="padding: 7px 10px; border: 1px solid rgb(221, 221, 221); vertical-align: top; white-space: pre-wrap;" class="confluenceTd">
-                <span style="color: rgb(0, 0, 0); font-family: Microsoft YaHei, &quot;Microsoft YaHei&quot;; font-size: 14px;">East China</span>
-            </td>
-            <td style="padding: 7px 10px; border: 1px solid rgb(221, 221, 221); vertical-align: top; white-space: pre-wrap;" class="confluenceTd">
-                <span style="color: rgb(0, 0, 0); font-family: Microsoft YaHei, &quot;Microsoft YaHei&quot;; font-size: 14px;">South China</span>
-            </td>
-        </tr>
-        <tr>
-            <td style="padding: 7px 10px; border: 1px solid rgb(221, 221, 221); vertical-align: top; white-space: pre-wrap;" class="confluenceTd">
-                <span style="color: rgb(0, 0, 0); font-family: Microsoft YaHei, &quot;Microsoft YaHei&quot;; font-size: 14px;">SSD cloud disk</span>
-            </td>
-            <td style="padding: 7px 10px; border: 1px solid rgb(221, 221, 221); vertical-align: top; white-space: pre-wrap;" class="confluenceTd" rowspan="2">
-                <span style="color: rgb(0, 0, 0); font-family: Microsoft YaHei, &quot;Microsoft YaHei&quot;; font-size: 14px;">every 10GB</span>
-            </td>
-            <td style="padding: 7px 10px; border: 1px solid rgb(221, 221, 221); vertical-align: top; white-space: pre-wrap;" class="confluenceTd">
-                <span style="color: rgb(0, 0, 0); font-family: Microsoft YaHei, &quot;Microsoft YaHei&quot;; font-size: 14px;">10</span>
-            </td>
-            <td style="padding: 7px 10px; border: 1px solid rgb(221, 221, 221); vertical-align: top; white-space: pre-wrap;" class="confluenceTd">
-                <span style="color: rgb(0, 0, 0); font-family: Microsoft YaHei, &quot;Microsoft YaHei&quot;; font-size: 14px;">10</span>
-            </td>
-            <td style="padding: 7px 10px; border: 1px solid rgb(221, 221, 221); vertical-align: top; white-space: pre-wrap;" class="confluenceTd">
-                <span style="color: rgb(0, 0, 0); font-family: Microsoft YaHei, &quot;Microsoft YaHei&quot;; font-size: 14px;">10</span>
-            </td>
-            <td style="padding: 7px 10px; border: 1px solid rgb(221, 221, 221); vertical-align: top; white-space: pre-wrap; word-break: break-all;" class="confluenceTd">
-                <span style="color: rgb(0, 0, 0); font-family: Microsoft YaHei, &quot;Microsoft YaHei&quot;; font-size: 14px;">120</span>
-            </td>
-            <td style="padding: 7px 10px; border: 1px solid rgb(221, 221, 221); vertical-align: top; white-space: pre-wrap; word-break: break-all;" class="confluenceTd">
-                <span style="color: rgb(0, 0, 0); font-family: Microsoft YaHei, &quot;Microsoft YaHei&quot;; font-size: 14px;">120</span>
-            </td>
-            <td style="padding: 7px 10px; border: 1px solid rgb(221, 221, 221); vertical-align: top; white-space: pre-wrap; word-break: break-all;" class="confluenceTd">
-                <span style="color: rgb(0, 0, 0); font-family: Microsoft YaHei, &quot;Microsoft YaHei&quot;; font-size: 14px;">120</span>
-            </td>
-            <td style="padding: 7px 10px; border: 1px solid rgb(221, 221, 221); vertical-align: top; white-space: pre-wrap; word-break: break-all;" class="confluenceTd">
-                <span style="color: rgb(0, 0, 0); font-family: Microsoft YaHei, &quot;Microsoft YaHei&quot;; font-size: 14px;">0.014</span>
-            </td>
-            <td style="padding: 7px 10px; border: 1px solid rgb(221, 221, 221); vertical-align: top; white-space: pre-wrap; word-break: break-all;" class="confluenceTd">
-                <span style="color: rgb(0, 0, 0); font-family: Microsoft YaHei, &quot;Microsoft YaHei&quot;; font-size: 14px;">0.014</span>
-            </td>
-            <td style="padding: 7px 10px; border: 1px solid rgb(221, 221, 221); vertical-align: top; white-space: pre-wrap; word-break: break-all;" class="confluenceTd">
-                <span style="color: rgb(0, 0, 0); font-family: Microsoft YaHei, &quot;Microsoft YaHei&quot;; font-size: 14px;">0.014</span>
-            </td>
-        </tr>
-        <tr>
-            <td style="padding: 7px 10px; border: 1px solid rgb(221, 221, 221); vertical-align: top; white-space: pre-wrap;" class="confluenceTd">
-                <span style="color: rgb(0, 0, 0); font-family: Microsoft YaHei, &quot;Microsoft YaHei&quot;; font-size: 14px;">Premium Hdd Cloud Disk</span>
-            </td>
-            <td style="padding: 7px 10px; border: 1px solid rgb(221, 221, 221); vertical-align: top; white-space: pre-wrap;" class="confluenceTd">
-                <span style="color: rgb(0, 0, 0); font-family: Microsoft YaHei, &quot;Microsoft YaHei&quot;; font-size: 14px;">3</span>
-            </td>
-            <td style="padding: 7px 10px; border: 1px solid rgb(221, 221, 221); vertical-align: top; white-space: pre-wrap;" class="confluenceTd">
-                <span style="color: rgb(0, 0, 0); font-family: Microsoft YaHei, &quot;Microsoft YaHei&quot;; font-size: 14px;">3</span>
-            </td>
-            <td style="padding: 7px 10px; border: 1px solid rgb(221, 221, 221); vertical-align: top; white-space: pre-wrap;" class="confluenceTd">
-                <span style="color: rgb(0, 0, 0); font-family: Microsoft YaHei, &quot;Microsoft YaHei&quot;; font-size: 14px;">3</span>
-            </td>
-            <td style="padding: 7px 10px; border: 1px solid rgb(221, 221, 221); vertical-align: top; white-space: pre-wrap; word-break: break-all;" class="confluenceTd">
-                <span style="color: rgb(0, 0, 0); font-family: Microsoft YaHei, &quot;Microsoft YaHei&quot;; font-size: 14px;">36</span>
-            </td>
-            <td style="padding: 7px 10px; border: 1px solid rgb(221, 221, 221); vertical-align: top; white-space: pre-wrap; word-break: break-all;" class="confluenceTd">
-                <span style="color: rgb(0, 0, 0); font-family: Microsoft YaHei, &quot;Microsoft YaHei&quot;; font-size: 14px;">36</span>
-            </td>
-            <td style="padding: 7px 10px; border: 1px solid rgb(221, 221, 221); vertical-align: top; white-space: pre-wrap; word-break: break-all;" class="confluenceTd">
-                <span style="color: rgb(0, 0, 0); font-family: Microsoft YaHei, &quot;Microsoft YaHei&quot;; font-size: 14px;">36</span>
-            </td>
-            <td style="padding: 7px 10px; border: 1px solid rgb(221, 221, 221); vertical-align: top; white-space: pre-wrap; word-break: break-all;" class="confluenceTd">
-                <span style="color: rgb(0, 0, 0); font-family: Microsoft YaHei, &quot;Microsoft YaHei&quot;; font-size: 14px;">0.0042</span>
-            </td>
-            <td style="padding: 7px 10px; border: 1px solid rgb(221, 221, 221); vertical-align: top; white-space: pre-wrap; word-break: break-all;" class="confluenceTd">
-                <span style="color: rgb(0, 0, 0); font-family: Microsoft YaHei, &quot;Microsoft YaHei&quot;; font-size: 14px;">0.0042</span>
-            </td>
-            <td style="padding: 7px 10px; border: 1px solid rgb(221, 221, 221); vertical-align: top; white-space: pre-wrap; word-break: break-all;" class="confluenceTd">
-                <span style="color: rgb(0, 0, 0); font-family: Microsoft YaHei, &quot;Microsoft YaHei&quot;; font-size: 14px;">0.0042</span>
-            </td>
-        </tr>
-    </tbody>
-</table>
+| Type         | Capacity    | Monthly Package (RMB)   |           |           |           |           |           |           |           | Pay By Configuration (RMB)   |           |           |           |
+|---------------|----------|------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|----------------|-----------|-----------|-----------|
+|               |          | One Month           | One Month    | One Month    | One Month    | One Year      | One Year      | One Year      | One Year      | One Hour         | One Hour    | One Hour    | One Hour    |
+|               |          | cn-north-1        | cn-east-2      | cn-east-1      | cn-south-1      | cn-north-1      | cn-east-2      | cn-east-1      | cn-south-1      | cn-north-1      | cn-east-2      | cn-east-1      | cn-south-1      |
+| SSD Cloud Disk       | 10GB   | 10               | 10        | 10        | 10        | 120       | 120       | 120       | 120       | 0.014          | 0.014     | 0.014     | 0.014     |
+| Premium Hdd Cloud Disk      | 10GB   | 3                | 3         | 3         | 3         | 36        | 36        | 36        | 36        | 0.0042         | 0.0042    | 0.0042    | 0.0042    |
+| General SSD Cloud Disk | 10GB   | 3.9              | 3.9       | 3.9       | 3.9       | 46.8      | 46.8      | 46.8      | 46.8      | 0.00625        | 0.00625   | 0.00625   | 0.00625   |
+| Capacity-oriented HDD Cloud Disk | 10GB   | 2.4              | 2.4       | 2.4       | 2.4       | 28.8      | 28.8      | 28.8      | 28.8      | 0.0034         | 0.0034    | 0.0034    | 0.0034    |
+| Performance-oriented SSD Cloud Disk | 10GB   | 8                | 8         | 8         | 8         | 96        | 96        | 96        | 96        | 0.0112         | 0.0112    | 0.0112    | 0.0112    |
+
 
 You may also click [Price Calculator](https://www.jdcloud.com/cn/calculator/calDisk) to view the price of required cloud disk configuration, estimate the cost of resources, and add it to purchase budget list.
 

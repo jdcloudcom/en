@@ -1,0 +1,70 @@
+name: JD WorkSpaces
+href: 
+  items:
+  - name: Introduction
+    items:
+      - name: Product Overview
+        href: Introduction/Product-Overview.md
+      - name: Core Concepts
+        href: Introduction/Core-Concepts.md
+      - name: Basic Architecture
+        href: Introduction/Basic-Infrastructure.md
+      - name: Benefits
+        href: Introduction/Benefits.md
+      - name: Features
+        href: Introduction/Features.md
+      - name: Product Specifications
+        href: Introduction/Specifications.md
+        status: 0
+      - name: Restrictions
+        href: Introduction/Restrictions.md
+      - name: Application Scenarios 
+        href: Introduction/Applicaton-Scenarios.md    
+  - name: Product Pricing
+    items:
+      - name: Billing Overview
+        href: Pricing/Billing-Overview.md
+      - name: Billing Rules
+        href: Pricing/Billing-Rules.md
+      - name: Price Overview
+        href: Pricing/Price-Overview.md
+      - name: Purchase Process
+        href: Pricing/Purchase-Process.md 
+        status: 0
+      - name: Renew Process
+        href: Pricing/Renewal-Process.md
+  - name: Getting Started
+    items:
+      - name: Getting Started Overview
+        href: Getting-Started/Overview.md
+      - name: Invitation Code
+        href: Getting-Started/Invitation code.md
+      - name: Enable JD WorkSpaces
+        href: Getting-Started/Application process.md
+      - name: Active Directory (AD) Management
+        href: Getting-Started/Active Directory Manager.md
+      - name: JD WorkSpace Creation (Purchase)
+        href: Getting-Started/Purchase WorkSpace.md
+      - name: JD WorkSpace Instance Management
+        href: Getting-Started/WorkSpace Instance.md
+      - name: Policy Management
+        href: Getting-Started/Policy Management.md
+      - name: JD WorkSpace User (Terminal User)
+        href: Getting-Started/User.md
+  - name: Operation Guide
+    items:
+      - name: Purchase Notes
+        href: Operation-Guide/Purchase Notes.md
+      - name: JD WorkSpaces Enabling Process
+        href: Operation-Guide/Application process.md
+      - name: JD WorkSpace Creation (Purchase) Process
+        href: Operation-Guide/Purchase WorkSpace.md        
+  - name: FAQ
+    href: FAQ/FAQ.md
+  - name: API Reference
+    href: API-Reference/API-Reference.md
+    status: 0
+  - name: Related Resources
+    items:
+    - name: Document History Records
+      href: Related-Resources/Document-History.md 

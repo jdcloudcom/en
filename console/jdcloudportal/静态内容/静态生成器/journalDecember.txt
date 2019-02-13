@@ -1,0 +1,221 @@
+<div class="jdc-monthly">
+    <div class="jdc-monthly-banner">
+        <div class="w">
+            <div class="txt-box">
+                <h3 class="tit">Smart City Newsflash</h3>
+                <a href="//www.jdcloud.com/news/subscription?utm_source=EDM&utm_medium=free&utm_campaign=promotion20180807&utm_term=pubnewsletter&utm_content=na" clstag="News|keycount|SectionBannerSec|1" class="jdc-banner-btn jdc-btn-sm monthly-btn mr10" target="_blank">
+                    <i></i>Gift for Subscription</a>
+                <a href="//www.jdcloud.com/news/journal?utm_source=EDM&utm_medium=free&utm_campaign=promotion20180807&utm_term=pubnewsletter&utm_content=na" clstag="News|keycount|SectionBannerSec|2" class="jdc-banner-btn jdc-btn-sm" target="_blank">Learn More</a>
+            </div>
+            <div class="monthly-box">
+                <strong>12</strong>Monthly Publication
+                <!-- <p>First Issue</p> -->
+            </div>
+        </div>
+    </div>
+    <div class="w">
+        <div class="jdc-monthly-first">
+            <div class="f-cb">
+                <div class="editor-img">
+                    <img src="http://img30.360buyimg.com/jr_image/jfs/t28570/120/860870140/12902/a6a4609f/5bff9b5cN092cb3b2.png" alt="">
+                    <div class="tit">JD Cloud <br>Director of Industry Planning <br> Liu Jie</div>
+                </div>
+                <div class="editor-txt">
+                    <div class="tit">Editor's Notes</div>
+                    <div class="txt">At present, the urbanization process in China has entered a stage of rapid development. The digital basic platform with cloud computing as the core and the advanced technology represented by artificial intelligence (AI), serving as the core force of the new round of technological revolution and industrial transformation, will give new life to the organic development of the city. As a partner of the Smart City, JD Cloud constructs an intelligent urban trunk network covering the whole country. Through platform, operations, data and technology empowerment, it works with local governments to build 5 major projects of “Good Governance, Developing Businesses, Benefiting the People, Symbiosis and Building the Foundation" to provide the government with the solutions to the integration of JD cloud brain, and realize the fine management of the city. It provides the industry with comprehensive ecological cultivation and transformation and upgrading services to achieve the transformation of old and new kinetic energy; provides multi-scenario intelligent service assistants to achieve ubiquitous convenient services, to help cities embrace a new era of digital economy.</div>
+                </div>
+            </div>
+        </div>
+        <div class="jdc-monthly-hot">
+            <div class="monthly-hot-hd">
+                <i></i>Hot News Overview</div>
+            <div class="monthly-hot-bd f-cb">
+                <div class="hot-img monthly-news-hover">
+                    <img src="https://img1.jcloudcs.com/portal/journal/journal11.jpg">
+                </div>
+                <div class="hot-info">
+                    <div class="hot-info-bd">
+                        <div class="tit">
+                            The CDN capability of JD Cloud is Widely Recognized  To Enter into Another City in a Single Month -- Cooperating with iQIYI
+                        </div>
+                        <div class="txt">
+                            JD Cloud announced that iQIYI has finished all quality review to JD Cloud’s CDN service protocol and has officially executed the CDN Service Purchase Agreement. JD Cloud will provide technical service support for VOD products of iQIYI. This is another heavyweight video product service provider signed by JD Cloud within 1 month after serving the video business of Qihoo 360, which marks that the CDN technical service capacity of JD Cloud has improved efficiently in short term.
+                        </div>
+                        <a href="https://www.jdcloud.com/news/detail/371?utm_source=button1&utm_medium=free&utm_campaign=na&utm_term=pub11&utm_content=na" clstag="News|keycount|MiddleContentSec|0" class="more" target="_blank">View More &gt;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="jdc-monthly-news m-monthly-bg">
+            <div class="monthly-news-hd">
+                <h3>City Insight</h3>
+            </div>
+            <div class="monthly-news-bd row">
+                <div class="col-4 col-xs-12">
+                    <div class="monthly-news-item monthly-news-hover">
+                        <h5 class="tit">
+                            <a href="http://news.iqilu.com/shandong/yaowen/2018/1031/4095273.shtml" clstag="News|keycount|MiddleContentSec|1"  target="_blank">
+                                <i></i>Big Data Bureau of Shandong Province Established &gt;&gt;</a>
+                        </h5>
+                        <p class="txt">
+                            Shandong Province set up a provincial Big Data Bureau, as an organization directly under the provincial government. Its main function is to take the lead in formulating and organizing the implementation of development and application planning and policy measures of big data in the whole province, and to accelerate the construction of "Digital Shandong" and "Internet + Government Affairs Service”; plan as a whole the big data infrastructure construction, to establish and perfect data open platform and standard system.
+                        </p>
+                        <div class="more-box">
+                            <a href="https://www.jdcloud.com/products/data-factory?utm_source=button4&utm_medium=free&utm_campaign=na&utm_term=10pub&utm_content=na" clstag="News|keycount|MiddleContentSec|2" class="more" target="_blank">JD Cloud Data Factory &gt;&gt;</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-xs-12">
+                    <div class="monthly-news-item monthly-news-hover">
+                        <h5 class="tit">
+                            <a href="https://mp.weixin.qq.com/s/5lXZGMeIza_goKpFtVe3dQ" clstag="News|keycount|MiddleContentSec|3" target="_blank">
+                                <i></i>Detailed Rules for the Implementation of the Shanxi “Enterprise Cloud Access” Action Plan has been Put into Trial Use &gt;&gt;</a>
+                        </h5>
+                        <p class="txt">
+                            To implement the spirit of the document of the General Office of the Provincial Government of Shanxi Province Shanxi “Enterprise Cloud Access” Action Plan (2018-2020), and encourage Enterprise Cloud Access, the file Detailed Rules for the Implementation of the Shanxi “Enterprise Cloud Access” Action Plan (Trial) is printed and issued to the industry and information competent departments and the finance bureau in each city, for trial implementation. The Ministry of Finance of the Province and Department of Industry and Information Technology of the Province are to allocate the special funds for department technical transformation for the work of “Enterprise Cloud Access”.
+                        </p>
+                        <div class="more-box">
+                            <a href="https://www.jdcloud.com/solutions/enterprise-to-cloud" clstag="News|keycount|MiddleContentSec|4" class="more" target="_blank">Enterprise Cloud Access Solutions &gt;&gt;</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-xs-12">
+                    <div class="monthly-news-item monthly-news-hover">
+                        <h5 class="tit">
+                            <a href="http://www.changjiangtimes.com/2018/11/590143.html" clstag="News|keycount|MiddleContentSec|5" target="_blank">
+                                <i></i>World Internet Conference Released the Blue Book  Hubei Internet Development Index Ranked Top 10 &gt;&gt;</a>
+                        </h5>
+                        <p class="txt">
+                            The China Internet Development Report in 2018 shows that China's information infrastructure continues to upgrade in 2018; that the network information technology has made positive progress, and some fields have achieved single-point breakthroughs; that the development of the digital economy is strong, which has promoted the formation of a new model for the deep integration of digital and real economy; that the results of the domestic internet development index show that Guangdong, Beijing, Shanghai, Zhejiang and Jiangsu are among the top 5.
+                        </p>
+                        <div class="more-box">
+                            <a href="https://www.jdcloud.com/products/virtual-machines?utm_source=button8&utm_medium=free&utm_campaign=na&utm_term=10pub&utm_content=na" clstag="News|keycount|MiddleContentSec|6" class="more" target="_blank">Virtual Machine Product &gt;&gt;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="jdc-monthly-news m-monthly-bg2">
+            <div class="monthly-news-hd">
+                <h3>New Trends for the JD Cloud</h3>
+            </div>
+            <div class="monthly-news-bd row">
+                <div class="col-4 col-xs-12">
+                    <div class="monthly-news-item monthly-news-hover">
+                        <h5 class="tit">
+                            <a href="https://www.jdcloud.com/news/detail/390?utm_source=button2&utm_medium=free&utm_campaign=na&utm_term=pub11&utm_content=na" clstag="News|keycount|MiddleContentSec|7" target="_blank">
+                                <i></i>The “Shaanxi Introtech JD Cloud JD Travel Introtech Travel Project Strategic Cooperation Press Conference” was held in Xi’an &gt;&gt;
+                            </a>
+                        </h5>
+                        <p class="txt">
+                            The “Shaanxi Introtech JD Cloud JD Travel Introtech Travel Project Strategic Cooperation Press Conference” was held in ancient capital Xi’an. On this press conference, the three parties gathered at the Xi’an National Civil Aerospace Industrial Base, formally signed the strategic framework protocol, were committed to promoting the integration of cloud computing, IoT, artificial intelligence (AI) and other technologies with traditional tourism so as to broaden the new path of the intelligent upgrading of tourism in Shaanxi.
+                        </p>
+                        <div class="more-box">
+                            <a href="https://www.jdcloud.com/solutions/tourism-cloud?utm_source=button4&utm_medium=free&utm_campaign=na&utm_term=pub11&utm_content=na" clstag="News|keycount|MiddleContentSec|8" class="more" target="_blank">Tourism Cloud Solutions &gt;&gt;</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-xs-12">
+                    <div class="monthly-news-item monthly-news-hover">
+                        <h5 class="tit">
+                            <a href="https://www.jdcloud.com/cn/news/detail/391?utm_source=button5&utm_medium=free&utm_campaign=na&utm_term=pub11&utm_content=na" clstag="News|keycount|MiddleContentSec|9" target="_blank">
+                                <i></i>Empowerment to Sonid Right Banner by JD Cloud, Assisting Development of XilinGol League with “Internet + Characteristic Economy” &gt;&gt;</a>
+                        </h5>
+                        <p class="txt">
+                            Long Baozheng, Party Chief of the Party Committee and Vice President of JD Group, stated that technology had become the basis and core driving force of the business development of JD. JD Cloud, as one of the windows of JD Group’s industry for poverty alleviation and external output, in combination with the features of county regions in China, launched JD Cloud County Region Window, which connects in depth with the benefits of JD Group in e-commerce, finance, logistics, technology and other aspects, and systematically shores up areas of weakness.
+                        </p>
+                        <div class="more-box">
+                            <a href="https://www.jdcloud.com/newProduct?utm_source=button7&utm_medium=free&utm_campaign=na&utm_term=pub11&utm_content=na" clstag="News|keycount|MiddleContentSec|10" class="more" target="_blank">JD Cloud Product Updates &gt;&gt;</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-xs-12">
+                    <div class="monthly-news-item monthly-news-hover">
+                        <h5 class="tit">
+                            <a href="https://www.jdcloud.com/news/detail/372?utm_source=button8&utm_medium=free&utm_campaign=na&utm_term=pub11&utm_content=na" clstag="News|keycount|MiddleContentSec|11" target="_blank">
+                                <i></i>Two-way Empowerment Continues Development, E-commerce Summit Presents in Xi’an &gt;&gt;</a>
+                        </h5>
+                        <p class="txt">
+                            “2018 JD Partners Xi'an Summit” was convened in ancient city Xi’an. Participating government leaders, experts and scholars, enterprise representatives and staff of various divisions under JD Group, together with JD Cloud, gathered in Xi'an to jointly empower Aerospace Base Digital Economy Industrial Park, to further highlight the aggregation effect of Xi'an’s e-commerce industry, and accelerate the implementation of “E-commerce Market Reform" strategy in Xi'an.
+                        </p>
+                        <div class="more-box">
+                            <a href="https://www.jdcloud.com/solutions/unboundedRetail?utm_source=button10&utm_medium=free&utm_campaign=na&utm_term=pub11&utm_content=na" clstag="News|keycount|MiddleContentSec|12" class="more" target="_blank">E-commerce Cloud Solutions &gt;&gt;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="jdc-monthly-news">
+            <div class="monthly-news-hd">
+                <h3>Focusing on the Cloud</h3>
+            </div>
+            <div class="monthly-news-bd monthly-news-bd2 row">
+                <div class="col-4 col-xs-12">
+                    <a href="https://www.jdcloud.com/solutions/cloud-biology-in-agriculture?utm_source=button11&utm_medium=free&utm_campaign=na&utm_term=pub11&utm_content=na" clstag="News|keycount|MiddleContentSec|13" target="_blank">
+                        <dl class="monthly-news-hover">
+                            <dt>Agriculture Cloud Shennong Brain &gt;&gt;</dt>
+                            <dd>
+                                <span>Shennong Online Intelligent Awareness</span>
+                                <span>Shennong Assistant Digital Management</span>
+                                <span>Shennong Channel Intelligent Supply</span>
+                            </dd>
+                        </dl>
+                    </a>
+                </div>
+                <div class="col-4 col-xs-12">
+                    <a href="https://www.jdcloud.com/solutions/tourism-cloud?utm_source=button12&utm_medium=free&utm_campaign=na&utm_term=pub11&utm_content=na"  clstag="News|keycount|MiddleContentSec|14" target="_blank">
+                        <dl class="monthly-news-hover">
+                            <dt class="bg2">All-round Intelligent Tourism &gt;&gt;</dt>
+                            <dd>
+                                <span>Data Driven Intelligent Management</span>
+                                <span>On-line and Offline Public Service</span>
+                                <span>Business Mode Innovation and Industry Development</span>
+                            </dd>
+                        </dl>
+                    </a>
+                </div>
+                <div class="col-4 col-xs-12">
+                    <a href="https://www.jdcloud.com/solutions/enterprise-to-cloud?utm_source=button13&utm_medium=free&utm_campaign=na&utm_term=pub11&utm_content=na" clstag="News|keycount|MiddleContentSec|15" target="_blank">
+                        <dl class="monthly-news-hover">
+                            <dt class="bg3">JD Cloud Industrial Cloud Access &gt;&gt;</dt>
+                            <dd>
+                                <span>System Cloud Access and Business Launch</span>
+                                <span>Intelligent Transformation and Application Innovation</span>
+                                <span>Prime Services and Technology Security</span>
+                            </dd>
+                        </dl>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="jdc-monthly-recommend">
+            <h3 class="monthly-recommend-hd">New Products</h3>
+            <div class="monthly-recommend-bd monthly-recommend-bd-non row">
+                <div class="col-4 col-xs-12">
+                    <a href="https://www.jdcloud.com/products/anti-ddos-protection-package?utm_source=button14&utm_medium=free&utm_campaign=na&utm_term=pub11&utm_content=na" clstag="News|keycount|MiddleContentSec|16" class="recommend-item monthly-news-hover" target="_blank">
+                        <h5 class="tit">Anti-DDoS Protection Package opens to the public</h5>
+                        <p class="txt">
+                            Anti-DDoS Protection Package is a product that improves Anti-DDoS attack capability for users who deploy businesses in JD Cloud. It has the features that the configuration is simple, EIP is free from switching, the protection capability comes into force upon purchase, and the protection target can be flexibly replaced. It supports smooth upgrade of Anti-DDoS capacity for multiple businesses in JD Cloud, such as the Virtual Machine, the Load Balancer, the Cloud Physical Server, the Web Application Firewall and other services with EIP, effectively guaranteeing network security of business.
+                        </p>
+                    </a>
+                </div>
+                <div class="col-4 col-xs-12">
+                    <a href="https://www.jdcloud.com/products/situation-awareness?utm_source=button15&utm_medium=free&utm_campaign=na&utm_term=pub11&utm_content=na" clstag="News|keycount|MiddleContentSec|17" class="recommend-item monthly-news-hover" target="_blank">
+                        <h5 class="tit">Situation Awareness Enterprise Version Open Beta</h5>
+                        <p class="txt">
+                            The Situation Awareness system is a big data security analysis product provided to users by JD Cloud. Through data modeling, behavior learning and intelligence correlation analysis, we can fully monitor the security, discover intrusions and attack threats, and help customers build their own security monitoring and defense systems. By making rapid and automatic association analysis to multi-dimensional and massive security and business data, the overall security situation of threats and exceptions are provided to the user with the graphic and visual technology.
+                        </p>
+                    </a>
+                </div>
+                <div class="col-4 col-xs-12">
+                    <a href="https://www.jdcloud.com/solutions/database?utm_source=button16&utm_medium=free&utm_campaign=na&utm_term=pub11&utm_content=na" clstag="News|keycount|MiddleContentSec|18"  class="recommend-item monthly-news-hover" target="_blank">
+                        <h5 class="tit">True Cloud Database Application Scheme</h5>
+                        <p class="txt">
+                            JD Cloud supports a variety of databases, including cloud database RDS, cloud database MongoDB, distributed database DRDS, TiDB Service, etc. This improves highly available architecture and supports automatic switch of fault, automatic back-up, recovery according to time points, cross-region back-up copy and monitoring alarm, which can greatly reduce the management and maintenance costs and allow you to be devoted to application development and business development.
+                        </p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

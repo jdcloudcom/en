@@ -13,7 +13,7 @@ a In the data set list, drag the "Coffee Sales Data in Chinese Market" and "Coff
 self-service data sets.<br>
 b In the action list, drag "Join" to the editing area and connect "Join" to the two datasheets with a link.<br>
 c In the pop-up Join Dialog Box, set the join mode to "Inner Join" and the join column is the order ID. In this way, data of the same order<br>
-ID in the two sheets are combined, as shown in the figure below.<br>
+ID in the two sheets are combined.<br>
 d Connect "Join" and "Query Results" with a link, and all metadata appear in the metadata area.<br>
 
 3. Create a new date expression

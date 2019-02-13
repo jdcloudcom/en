@@ -1,4 +1,4 @@
-#Product Overview
+# Product Overview
 ------
 
 Tag is the tool for JD Cloud’s users to manage their own resource instances. You can categorize the resources by associate tags for resources, thus you can manage your various types of resources in JD Cloud more effectively.
@@ -9,10 +9,10 @@ Currently, only the operation of associate and disassociate the tag by console i
 
 Currently, the sources supported by JD Cloud’s tag management include the types as follows:
 
- - Virtual Machine
+ - Virtual Machines
  - Cloud Disk Service
  - SQL Server Database
  - JCS for Memcached
  - JCS for Elasticsearch
- 
+ - DRDS
 There will be a follow-up increase of resources of the types that support to associate tags

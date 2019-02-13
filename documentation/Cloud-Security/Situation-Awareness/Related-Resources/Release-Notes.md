@@ -58,7 +58,7 @@
 * Network monitor and forensics
 * Access to DDoS attack data 
 
-## Cloud Situation Awareness v2.1
+## Cloud Situation Awareness v3.0
 
 #### Security Capacity Improvement
 
@@ -75,3 +75,18 @@
 * Machine Learning and Exception Detection
 * Threat Information Integration
 * Dynamic Behavior Analysis - Sandbox
+
+## Cloud Situation Awareness v4.0
+
+#### Visual Visualization Screen
+
+* Security Situation Awareness Overview
+* Network Security Situation
+* Endpoint Security Situation
+
+#### Security Capacity Improvement
+
+##### Unknown Threat Discovery
+
+* Mining Detection
+

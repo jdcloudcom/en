@@ -37,6 +37,10 @@ items:
   items:
     - name: Overview
       href: Getting-Started/Getting-Started.md
+    - name: Use examples to construct API in the console
+      href: Getting-Started/example_console.md
+    - name: Use Function to construct API
+      href: Getting-Started/example_function.md
     - name: Create API Groups
       href: Getting-Started/STEP1-Create-APIGroup.md
     - name: Create APIs
@@ -81,11 +85,16 @@ items:
       items:
         - name: Traffic Control Policy
           href: Create-Stream/Create-Stream.md  
-    
+    - name: Error Code
+      items:
+        - name:  Error Code
+          href: Code/API_Errorcode.md
 - name: Best Practices
   items:
   - name: Best Practices
     href: Best-Practices/BestPractices.md
+  - name: Use example to construct API
+    herf: Best-Practices/example_for_create_api.md
 - name: FAQ
   href: FAQ/faq.md
 - name: Related Resources

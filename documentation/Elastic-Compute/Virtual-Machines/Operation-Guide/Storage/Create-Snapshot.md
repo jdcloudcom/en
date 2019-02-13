@@ -10,7 +10,9 @@ A snapshot can retain the state of data in the cloud disk at a particular point 
 ## Operation Steps
 Refer to the [Create Cloud Disk Snapshot](http://docs.jdcloud.com/cn/cloud-disk-service/create-clouddisk-snapshot) on the cloud disk side.
  	
- 	Please note: The time required to create a snapshot as full snapshot for the first time depends on the capacity of the cloud disk. The larger the capacity of the cloud disk is, the longer it takes, so please be patient.
+Please note:
+* The time required to create a snapshot as full snapshot for the first time depends on the capacity of the cloud disk. The larger the capacity of the cloud disk is, the longer it takes, so please be patient.
+* The encryption attribute of cloud disk snapshot is inherited from the cloud disk and cannot be changed.
  	
  	
 ## Related Reference

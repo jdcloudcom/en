@@ -20,12 +20,14 @@ items:
     href: Object-Storage-Service-Clause.md
   - name: Object Storage Service Level Agreement (SLA)
     href: Object-Storage-Service-Level-Agreement-SLA.md 
-  - name: Redis Service Agreement
+  - name: JCS for Redis Service Agreement
     href: Caching-Redis-Service-Clause.md
-  - name: Redis Service Level Agreement (SLA)
+  - name: JCS for Redis Service Level Agreement (SLA)
     href: Caching-Redis-Service-Level-Agreement-SLA.md
   - name: JCS for Memcached Service Agreement
     href: JCS-for-Memcached-Service-Terms.md
+  - name: JCS for Memcached Service Level Agreement (SLA)
+    href: JCS-for-Memcached-Service-TermsSLA.md
   - name: CDN Service Agreement
     href: CDN-Terms-Of-Service.md
   - name: CDN Service Level Agreement (SLA)
@@ -76,9 +78,23 @@ items:
     href: Message-Queuing-JCQ-Service-Level-Protocol-SLA.md
   - name: Distributed Relational Database DRDS Trial Service Agreement
     href: Distributed-Relational-Database-DRDS-Trial-Service-Clause.md
+  - name: Distributed Relational Database DRDS Service Agreement
+    href: Distributed-Relational-Database-DRDS-Service-Clause.md
+  - name: Distributed Relational Database DRDS Service Level Agreement (SLA)
+    href: Distributed-Relational-Database-DRDS-Service-Level-Agreement-SLA.md
   - name: Service Terms of Anti-DDoS Protection Package
     href: DDoS-Protection-Package-Terms-Of-Service.md
   - name: Service Grade Protocol of Anti-DDoS Protection Package (SLA)
     href: DDoS-Protection-Package-Terms-Of-Service-SLA.md
   - name: JCS for Elasticsearch Service Terms
     href: JCS-for-Elasticsearch-Service-Terms.md
+  - name: Service Level Agreement (SLA) of JCS for Elasticsearch
+    href: JCS-for-Elasticsearch-Service-Terms-SLA.md  
+  - name: Service Terms of Function Service
+    href: Functional-Service-Terms-of-Service.md
+  - name: Service Terms of JD WorkSpaces
+    href: Cloud-Desktop-Service-Protocol.md   
+  - name: Service Level Agreement (SLA) of JD WorkSpaces
+    href: Cloud-Desktop-Service-ProtocolSLA.md
+  - name: VOD Agreement 
+    href: Video-on-demand-service-protocol.md

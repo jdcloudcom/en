@@ -1,4 +1,4 @@
-﻿# Benefits
+# Benefits
 
 Benefits|JCS for Redis|Self-built JCS for Redis
 :---|:--|:---

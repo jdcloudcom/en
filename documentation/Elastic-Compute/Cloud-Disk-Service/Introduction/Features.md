@@ -2,21 +2,23 @@
 
 **Rich product form**
 
-Provide two storage operations, i.e. SSD cloud disk and Premium Hdd cloud disk, to meet business scenarios with different performance requirements
+The new generation cloud disks provide three types of cloud disks for your option, to meet business scenarios with different performance requirements
 
-| Block storage type | SSD cloud disk | Premium Hdd cloud disk |
-| --- | --- | --- |
-| Single disk capacity | 20-1000G | 20-3000G |
-| Maximum single disk IOPS | 20000 | 500 |
-| Maximum single disk throughput | 300MBps | 80MBps |
-| Data availability | 99.999% | 99.999% |
-| Typical application scenarios | Big data analysis<br> I/O intensive business<br> medium and large-sized database application | Small and medium-sized database<br> large development test <br> web server |
+| Block storage type | SSD Cloud Disk (off line soon) | Premium Hdd Cloud Disk (off line soon) | General Type SSD Cloud Disk (New) | Performance Type SSD Cloud Disk (new) | Capacity Type HDD Cloud Disk (New) |
+| --- | --- | --- | --- | --- | --- |
+| Single disk capacity | 20-1000G | 20-3000G | 20-4000G | 20-4000G | 20-4000G |
+| Maximum single disk IOPS | 20000 | 500 | 15000 | 32000 | 500 |
+| Maximum single disk throughput | 100MBps (Ticket Application:300MBps) | 80MBps | 150MBps | 150MBps | 80MBps |
+| Single Disk Performance Formula | None | None | Min(Max(500,10&times;size),15,000) | Min(30&times;size,32,000) | Not Applicable |
+| Data Persistence | 99.9999999% | 99.9999999% | 99.9999999% | 99.9999999% | 99.9999999% |
+| API Name | ssd | Premium-hdd | ssd.gp1 | ssd.io1 | hdd.std1 |
+| Typical application scenarios | Big data analysis<br> I/O intensive business<br> medium and large-sized database application | Process fewer transactions<br> Cold data backup | Applicable to boot volumes, small databases, large-scale development tests, web servers, and other scenarios that require random read-write | Applicable to SQL, NoSQL, and other core business scenarios that require random read-write | Provide secure and reliable storage resources for Web applications to meet data integrity and data protection requirements, applicable to scenarios with moderate read-write rate, fewer transactions to process, cold data backup, etc. |
 
 ### Independent storage service ###
 
 Cloud Disk Service provides high-reliability, high-availability and high-performance data storage service
 
-1. Cloud disk data are independent from the  Virtual Machines status, support attaching and detaching at any time; a single  Virtual Machines may be attached with up to 4 Cloud Disk Services to meet higher storage demands of users;
+1. Cloud disk data are independent from the  Virtual Machines status, support attaching and detaching at any time; a single  Virtual Machines may be attached with up to 8 Cloud Disk Services to meet higher storage demands of users;
 
 2. You only need to pay for the current capacity and type of the Cloud Disk Service, and may expand the Cloud Disk Service capacity at any time based on business development;
 

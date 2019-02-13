@@ -31,7 +31,7 @@ kind: CronJob
 metadata:
   name: jdcloud-jcr-credential-cron
 spec:
-  schedule: "* */1 * * *"
+  schedule: "0 */1 * * *" # 0 represents the integral point of each hour. You can modify the time according to your demands. If such number is changed to 15, it means that the token will be gotten at the 15th minute per hour.
   successfulJobsHistoryLimit: 2
   failedJobsHistoryLimit: 2  
   jobTemplate:
@@ -76,7 +76,8 @@ spec:
               --docker-username=$DOCKER_USER \
               --docker-password=$DOCKER_PASSWORD \
               --docker-email=**@jd.com
-              kubectl patch serviceaccount default  -p '{"imagePullSecrets":[{"name":"my-secret"}]}'
+              kubectl patch serviceaccount default  -p '{"imagePullSecrets":[{"name":"my-secret"}]}' # kubectl patch  $SERVICEACCOUNT xxxxx  -n $NAMESPACEOFSERVICEACCOUNT
+
 ```
 ```
 kubectl apply  -f  jcr-credential-rbac.yaml

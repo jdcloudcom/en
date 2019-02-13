@@ -12,7 +12,15 @@
       - name: Benefits
         href: Introduction/Benefits.md
       - name: Specifications
-        href: Introduction/Specifications.md
+        items:
+        - name: MySQL Specifications
+          href: Introduction/Specifications/MySQL-Specifications.md
+        - name: Percona Specifications
+          href: Introduction/Specifications/Percona-Specifications.md
+        - name: MariaDB Specifications
+          href: Introduction/Specifications/MariaDB-Specifications.md
+        - name: SQL Server Specifications
+          href: Introduction/Specifications/SQL-Server-Specifications.md       
       - name: Restrictions
         items:
         - name: JCS for MySQL Restrictions
@@ -152,7 +160,9 @@
         items:
         - name: Set White List
           href: Operation-Guide/Security/Set-Whitelist.md
-       
+        - name: Transparent Data Encryption TDE
+          href: Operation-Guide/Security/tde.md
+          
       - name: Cloud on Single Database
         items:
         - name: Cloud on Single Database Introduction
@@ -170,13 +180,13 @@
         items:
          - name: Create Parameter Group 
            href: Operation-Guide/Parameter-Group/Creat-Parameter-Group.md
+         - name: Modify parameter set
+           href: Operation-Guide/Parameter-Group/Modify-Parameter-Group.md
          - name: Copy Parameter Group 
            href: Operation-Guide/Parameter-Group/Copy-Parameter-Group.md
          - name: Delete Parameter Group 
            href: Operation-Guide/Parameter-Group/Delete-Parameter-Group.md
          - name: Modify Parameter Group
-           href: Operation-Guide/Parameter-Group/Modify-Parameter-Group.md
-         - name: Modify Parameter
            href: Operation-Guide/Parameter-Group/Modify-Parameter.md
          - name: Modify History 
            href: Operation-Guide/Parameter-Group/Parameter-Group-History.md
@@ -286,6 +296,14 @@
         href: Best-Practices/Connect-Database-Instance/Client-Connect-SQLServer.md
       - name: Connect to SQL Server from Virtual Machine
         href: Best-Practices/Connect-Database-Instance/Host-Connect-SQLServer.md  
+    - name: Upgrade Database Version
+      items:
+      - name: Upgrade Database MySQL Version 
+        href: Best-Practices/Upgrade-Database-Version/Upgrade-MySQL.md 
+  - name: Tutorial 
+    items:
+    - name: MySQL Performance Test 
+      href: Tutorial/MySQL-Performance-Test.md 
   - name: FAQ
     items:
     - name: FAQ

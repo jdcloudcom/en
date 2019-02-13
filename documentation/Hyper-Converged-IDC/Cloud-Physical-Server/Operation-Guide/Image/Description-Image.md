@@ -15,7 +15,7 @@ Currently the standard image of Cloud Physical Server supports:
 |CentOS-7.5  64 bits|3.10.0-862|
 |Ubuntu-14.04 64 bits|4.2.0-27|
 |Ubuntu-16.04 64 bits|4.4.0-62|
-
+|Ubuntu-18.04 64 bits|4.15.0-29|
 
 ### Standard Image+Application
 Currently the "standard image+application" of Cloud Physical Server supports:

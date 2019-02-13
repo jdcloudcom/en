@@ -124,13 +124,13 @@
 
        3.2.2.2 JD Cloud will provide a 7×24 hours online ticket service system to answer customer questions during the use.
 
-       3.2.3 In case the service involves JCS for Elasticsearch, JD Cloud is only responsible for the underlying part below the message queue and the operation maintenance of the software provided by JD Cloud, namely the related technical architecture and operating system of JCS for Elasticsearch service. The part above the message queue is your own responsibility. In addition, if you upgrade the operating system on your own, system breakdown and other adverse effects may be caused; please take care of the risks and be careful to operate.
+       3.2.3 In case the service involves JCS for Elasticsearch, JD Cloud is only responsible for the underlying part below the JCS for Elasticsearch and the operation maintenance of the software provided by JD Cloud, namely the related technical architecture and operating system of JCS for Elasticsearch service. The part above the JCS for Elasticsearch is your own responsibility. In addition, if you upgrade the operating system on your own, system breakdown and other adverse effects may be caused; please take care of the risks and be careful to operate.
 
        3.2.4 JD Cloud will eliminate the faults caused by non-man made actions, except for due to your account and/or force majeure and matters out of the control scope of JD Cloud.
 
        3.2.5 JD Cloud shall strictly comply with the confidentiality obligation.
 
-       3.2.6 You understand and acknowledge that JD Cloud will migrate the machine room of Elasticsearch service which you use when necessary. JD Cloud will notify you 7 natural days in advance before the above actions; since the above actions may need to modify DNS of relevant domain name of yours, so you need to modify the DNS to the IP specified by JD Cloud according to the time required by JD Cloud upon receipt of the notification from JD Cloud. Otherwise, you are responsible on your own in case the website application can not be accessed.
+       3.2.6 You understand and acknowledge that JD Cloud will migrate the machine room of JCS for Elasticsearch service which you use when necessary. JD Cloud will notify you 7 natural days in advance before the above actions; since the above actions may need to modify DNS of relevant domain name of yours, so you need to modify the DNS to the IP specified by JD Cloud according to the time required by JD Cloud upon receipt of the notification from JD Cloud. Otherwise, you are responsible on your own in case the website application can not be accessed.
 
      
 
@@ -232,9 +232,9 @@
 
 11. Supplementary Articles
 
-        11.1 JD Cloud's service description, price description and the ordering Page you confirm on [www.jdcloud.com](https://www.jdcloud.com/) are an integral part of these Service Terms. If the service description, price description and the order form you agree on the www.jdcloud.com Page are inconsistent with these Service Terms, these Service Terms shall prevail.
+    11.1 JD Cloud's service description, price description and the ordering Page you confirm on [www.jdcloud.com](https://www.jdcloud.com/) are an integral part of these Service Terms. If the service description, price description and the order form you agree on the www.jdcloud.com Page are inconsistent with these Service Terms, these Service Terms shall prevail.
 
-        11.2 JD Cloud is entitled to transfer part of all of the rights and obligations under these Service Terms to the associated companies by advance announcement on [www.jdcloud.com](https://www.jdcloud.com/), website notice or written notification.
+    11.2 JD Cloud is entitled to transfer part of all of the rights and obligations under these Service Terms to the associated companies by advance announcement on [www.jdcloud.com](https://www.jdcloud.com/), website notice or written notification.
 
-        11.3 If any terms, in nature or otherwise, shall continue to exist at the termination of the Protocol, they shall be deemed to be continuing terms, including but not limited to warranty terms, confidentiality terms, intellectual property right terms, and law application and dispute resolution terms.
-      
+    11.3 If any terms, in nature or otherwise, shall continue to exist at the termination of the Protocol, they shall be deemed to be continuing terms, including but not limited to warranty terms, confidentiality terms, intellectual property right terms, and law application and dispute resolution terms.
+

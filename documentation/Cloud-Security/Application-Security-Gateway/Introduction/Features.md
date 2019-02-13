@@ -1,69 +1,61 @@
-# Features
+## Features
 
 ### Web Attack Protection
 
-Static rule matching is a basic detection method of WAF engine identifying and blocking known attacks, JD Cloud Application Security Gateway Rule Base accumulates real-time base based on JD Group Web protection and years of security attack research, which is well matured, and protection functions based on the rules include:
+The WAF product of JD Cloud (including application security gateway) adopts static rule engine and intelligent semantics engine to realize the OWASP TOP 10 attack protection and make off-line and real-time analysis by using the AI attack detection platform to improve and optimize rules. Protection items supported now are listed as below:
 
-ü  Web Server Vulnerability Protection
+- Web Server Vulnerability Protection
+- Web Plug-in Vulnerability Protection
+- Crawler Protection
+- Cross-site Scripting Protection
+- SQL Injection Protection
+- LDAP Injection Protection
+- SSI Instruction Protection
+- XPATH Injection Protection
+- Command Line Injection Protection
+- Path Crossing Protection
+- Remote Files Inclusion Protection
 
-ü  Web Plug-in Vulnerability Protection
+### Threat Intelligence Linkage
 
-ü  Crawler Protection
+Support annotation and judgment on threat intelligence attack sources and real-time judgment on attack sources based on threat credit value and block malicious access source in real time. Meanwhile, gather, analyze and synchronize attack source information to each WAF node depending on threat intelligence produced by such WAF node.
 
-ü  Cross-site Scripting Protection
+### Intelligent CC Attack Protection
 
-ü  SQL Injection Protection
+The WAF product of JD Cloud (including application security gateway) supports multiple CC defense modes. With the AI behavior analysis, the real-time association analysis is made to the traffic, the algorithm challenge verification is made to the requested determined as the attacking or suspicious ones and the real-time blocking is made to the malicious attack source, relieving the DDoS attack to the website.
 
-ü  LDAP Injection Protection
+With the customized CC defense rules, the defined CC protection is made to specific APIs or pages, meeting the DDoS protection and access request speed control demands by specific pages of large-scale Web sites.
 
-ü  SSI Instruction Protection
+### Customized Rules
 
-ü  XPATH Injection Protection
+Support user-customized blacklists and whitelists, add blacklist and whitelist rules based on IP and HTTPT header fields and realize high-efficiency IAM. Support customization of individual Web protection policies for combination of HTTP header fields and Body fields and improve website protection validity.
 
-ü  Command Line Injection Protection
-
-ü  Path Crossing Protection
-
-ü  Remote Files Inclusion Protection
-
-### CC Attack Protection
-
-​    JD Cloud Application Security Gateway provides multiple CC defense modes, challenging more challenge verification algorithms through Cookie verifications, verification code challenges and others, which can protect against CC attack behaviors effectively; through customizing CC rules, it can protect specific URI or pages with CC refinement protection to meet application layer DOS protection requirements for specific pages of large Web sites.
-
-### Accurate Identity and Access Management Policy
-
-ü  Support customized detection
-
-​    It supports flexible detection object definitions, including arbitrary HTTP protocol fields and HTTP BODY fields, and supports various detection operations.
-
-ü  Support conditional combination detection
-
-​    It supports logical combinations of multiple test conditions to support the definition of complex rules.
-
-ü  Support protection rule customization
-
-​    It provides customized rules that fully cover complex application interaction scenarios, which can act on specific protection objects so as to greatly improve the effectiveness and accuracy of rules.
+Support regional blocking management to the extent that the overseas address access can be blocked by one click according to information of the global IP geographical library, improving website access security.
 
 ### BOT Management
 
-​       It can conduct friendly and malicious judgment on search engine crawler behaviors, it can identify and deal with malicious machine behaviors so as to effectively provide the stability of website running; it can ensure the security of website business through modeling HTTP protocol analysis and big data, analyzing and dealing with brute force crack, library dragging, library hitting and other robot behaviors.
+The WAF product of JD Cloud (including application security gateway) can make judge the crawler behaviors of the search engine are friendly or malicious, and identify and deal with malicious machine behaviors so as to effectively guarantee website running stability. It can ensure the security of website business through HTTP protocol analysis AI behavior analysis engine and by analyzing and dealing with brute force crack, library dragging, library hitting and other robot behaviors.
 
-ü  Define BOT behavior management in advance
+- Define BOT behavior management in advance
 
-​       It supports functions such as crawler protection and brute force crack protection to effectively ensure the safety of website business.
+It supports functions such as crawler protection and brute force crack protection to effectively ensure the safety of website business.
 
-ü  Customize BOT management policies
+- Customize BOT management policies
 
-​       Users can add customized BOT rules based on the Web site's business features, select access frequency and action type, make judgments about robot behavior of specific keywords or URI so as to provide business protection accuracy and effective rate.
+Users can add customized BOT rules based on the Web site's business features and make robot behavior judgments on specific keywords or URI according to threat intelligence data and AI behavior analysis engine, so as to provide business protection accuracy and effectiveness.
 
 ### Web Site Compliance
 
-​       JD Cloud Application Security Gateway provides Web site compliance inspection and protection with functions such as website tamper-proofing, sensitive information leak proofing and protocol compliance check.
+The WAF product of JD Cloud (including application security gateway) provides functions such as website tamper-proofing, sensitive information leakage proofing and protocol compliance check and provides Web site compliance inspection and protection.
 
-### Report Management
+Provide the protocol compliance check to make the compliance check for HTTP RFC 2616. Support the Web access audit and the administrator operation audit by the users, save the log information and meet the requirements of the Cyber Security Law.
 
-JD Cloud-Application Security Gateway can provide detailed security analysis report functions, including security analysis report, CC defense analysis report, accuracy control report, user statistics report and running monitoring report to fully support security visualization.
+Support data leakage proofing function, detection and replacement for wrong return codes of the server, ID Card No., mobile phone numbers, emails and the like.
 
-### Security Analysis Overview
+### Security Visualization
 
-​    It provides functions such as Web attack event trend statistics, supports attack source TOP10 ranking, attack path TOP10 ranking, and attack log details.
+The WAF product of JD Cloud (including application security gateway) provides functions such as website tamper-proofing, sensitive information leakage proofing and protocol compliance check and provides Web site compliance inspection and protection.
+
+With respective to protocol compliance, guarantee website security and prevent and control unknown threats by making the compliance check to HTTP RFC 2616 even if the security rules are not updated.
+
+At the same time, support the Web access audit and the administrator operation audit by the users, save the log information and meet the requirements of the Cyber Security Law.

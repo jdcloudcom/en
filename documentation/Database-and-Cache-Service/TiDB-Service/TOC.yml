@@ -64,6 +64,14 @@
 
   - name: Best Practices
     items:
+    - name: Data Migration
+      items:
+      - name: Data Migration Overview
+        herf: Best-Practices/Data-Migration/Data-Migration-Overview.md
+      - name: Full Migration
+        herf: Best-Practices/Data-Migration/Full-Import.md
+      - name: Increment Migration
+        herf: Best-Practices/Data-Migration/Incremental-Import.md
     - name: Big Data Volume Processing
       herf: Best-Practices/Data-Operation.md
     - name: Parameter Optimization
@@ -71,10 +79,14 @@
     - name: Efficient Use of Secondary Index
       herf: Best-Practices/Secondary-Index.md
 
+  - name: Performance Test
+    items:
+    - name: sysbench Performance Test
+      herf: Performance-Test/sysbench-Test.md
+    - name: TPC-H 50G Performance Test
+      herf: Performance-Test/tpch-Test.md
+
   - name: FAQ
     herf: FAQ/FAQ.md
 
-  - name: API Reference
-    herf:
-  - name: SDK Reference
-    herf:
+

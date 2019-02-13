@@ -1,0 +1,2 @@
+## Invitation Code
+During Beta, the JD WorkSpaces shall adopt the invitation system. If you are interesting in the JD WorkSpaces and are intended to buy, please contact the e-mail address: Jdworkspaces@Jd.com

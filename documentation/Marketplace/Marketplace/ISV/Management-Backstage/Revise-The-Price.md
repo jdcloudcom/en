@@ -1,10 +1,10 @@
-Note: Service management in the backend of the service provider cannot modify the price.
+Note: Service management in the background of the service provider cannot modify the external selling price.
 
 
 
-Q: how to change the price without changing the price type?
+Q: How to change the supply price without changing the price type?
 
-A: please select the left menu in the service releasing platform, charge management-charge item list, select the service name to be modified and directly modify the price.
+A: The service provider can select the left menu in the service release platform, charge management-charge item list, select the service name to be modified, and directly modify the supply price.
 
 
 
@@ -16,4 +16,4 @@ A: Submit the application to be removed from the Marketplace operation and modif
 
 Q: How to delete the service?
 
-A: The service does not support the delete function. Please fill in the service carefully when release the service.
+A: The service does not support the delete function. Please fill in carefully when the service provider releases the service. If the service release is wrong, an application may be filed to remove the wrong service from the cloud marketplace.

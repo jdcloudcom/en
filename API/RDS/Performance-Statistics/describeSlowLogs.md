@@ -2,7 +2,7 @@
 
 
 ## Description
-Query the summary information of slow log of MySQL instance. <br>- only support SQL Server
+Query the summary information of slow log of MySQL instance. <br>- only support MySQL
 
 ## Request Method
 GET

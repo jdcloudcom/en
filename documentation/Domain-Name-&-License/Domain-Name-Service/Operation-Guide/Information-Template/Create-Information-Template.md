@@ -1,19 +1,15 @@
 # Create Information Template
 
 1. Open the JD Cloud homepage and enter the domain name service interface.
-
 ![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Domain-Name-&-License/Image-Domain/moban1.png)
 
 2. Click to create a new information template
-
 ![image](../../../../../image/Domain-Name/xinximoban1.png)
 
 3. Fill in the information as prompted.
-
 ![image](../../../../../image/Domain-Name/xinximoban2.png)
  
 4. When the existing information template needs to be modified, select the existing information template and click **Edit** to modify it.
-
 ![image](../../../../../image/Domain-Name/xinximoban3.png)
 
 

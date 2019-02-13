@@ -6,17 +6,17 @@ The steps are as follows:
 - First, you need to log in to [Anti-DDoS Pro Console](https://ip-anti-console.jdcloud.com/instancelist).
 - Find the instance that needs to be configured. Click the instance name to enter the **Instance Details** page.
 - Switch to **Website Forwarding Setting**
-    ![Website Forwarding Rules](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/web-rule%2002.png)
+    ![Website Forwarding Rules](../../../../../image/Advanced%20Anti-DDoS/web-rule%2002.png)
 
 ### Operation Steps
 
 1. Click **Protection Rules** to expand the configuration of protection rules.
 
-    ![Website Forwarding Rules](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/web-rule%2004.png)
+    ![Website Forwarding Rules](../../../../../image/Advanced%20Anti-DDoS/web-rule%2004.png)
 
 2. Configure global CC defense policy.
 
-    ![Website Forwarding Rules](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/CC%20rules%2001.png)
+    ![Website Forwarding Rules](../../../../../image/Advanced%20Anti-DDoS/CC%20rules%2001.png)
 
     The following is the interpretation of the rules:
     

@@ -1,42 +1,22 @@
 ### Product Overview 
 
-​	Application Security Gateway (VPC-WAF) is a Web application security protection product based on JD Cloud high-performance Load Balancer cluster, which ensures stable and sustainable running of business and improve users’ experience by providing WAF function, business security visualization, BOT behavior management and compliance inspection and other functions so as to solve exception or compliance problems of Web or APP businesses caused by attacks for network service providers.
+The VPC-WAF is the product used for applying visual security analysis to the website or APP service and applying threat protection to the application layer. By improving such functions as WAF, user access audit and business safety visual and compliance check, the steady and sustainable operation of business is ensured, the user experience is improved and the abnormalty or compliance problem resulted from HTTP/HTTPS business being attacked is solved.
 
-#### Product Core Function
+The logic deployment schematic diagram of VPC-WAF is as shown below:
 
-##### **Web Security Protection**
+ ![https://github.com/jdcloudcom/cn/blob/cn-waf/image/AppliAcation-Security-Gateway/01-overview.png](https://github.com/jdcloudcom/cn/blob/cn-waf/image/AppliAcation-Security-Gateway/01-overview.png)
 
-​        OWASP TOP 10 threat protection ensures Web business security, rule real-time update, and immediate security response.
+The VPC-WAF is based on the high-performance cluster of the JD Cloud’s Load Balancer. Once the VPC-WAF protection instances are created in the console and associated to the Load Balancer, any HTTP/HTTPs traffic passing through such Load Balancer can be protected without modifying the website, even if no domain is listed.
 
-​        It provides multiple types of security visualization analysis reports, and security status is subject to real-time synchronization
+The VPC-WAF makes comprehensive uses of rules to protect various security technologies, such as engines, semantics resolution engine, AI analysis platform and threat intelligence, realizing west-east and north-south Web security protection of JD Cloud VPC. It can effectively defense OWASP Top 10 Web security threats, CC attacks and BOT management, meets compliance requirements of laws and regulations, provides convenient deployment, use experience and diversified visual charts, protect Web application or API of JD Cloud users from being subject to security threats at present and in future and guarantee the users’ cloud access security.
 
-##### Business Security Protection
-
-​        CC Attack Protection
-
-​        BOT Management performs business security protections such as brute force crack and crawler protection through big data analysis and intelligent security matching rules
-
-##### Website Compliance Protection
-
-​        Sensitive data leakage prevention, website tamper-proofing as well as providing website security protection for government and enterprise users
-
-​        Protocol compliance inspection, effectively carry out the latest vulnerability protection
-
-#####  Access Security Audit
-
-​        It provides an accurate identity and access management policy to filter and set up the header contents of various requests in details, control and manage entire network access audit
-
-​        in refinement so as to guarantee business compliance and security traceability.
-
-## Common Operations
+#### Common Operations
 
 - Easy Operation
-  - [Create instance](../Getting-Started/Create-Instance.md)
-- Data Migration
-  - [Import data to Cloud](../Getting-Started/Import-Data.md)
+  - [Create VPC-WAF Instance](../Operation-Guide/Instance-Management/Create-Application-Security-Gateway.md)
+- Package Introduction
+  - [Package Introduction](../Introduction/Specifications.md)
 
 ## Billing
 
 Application Security Gateway supports monthly package billing type. For details, please refer to “[Billing Rules](../Pricing/Billing-Overview.md)”.
-
- 

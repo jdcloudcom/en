@@ -19,7 +19,9 @@
         href: Operation-Guide/Weakness-Details.md
       - name: Configuration Changes
         href: Operation-Guide/Configuration-Change.md         
-  - name: FAQ
+      - name: Security Visualization Screen
+        href: Operation-Guide/Security-Bigscreen.md     
+- name: FAQ
     href: FAQ/FAQ.md
   - name: Revision Update
     href: Related-Resources/Release-Notes.md

@@ -12,8 +12,8 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkAcls/{networkAclId}:dis
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**networkAclId**|String|True| |networkAclId ID|
 |**regionId**|String|True| |Region ID|
+|**networkAclId**|String|True| |networkAclId ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
@@ -25,7 +25,6 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkAcls/{networkAclId}:dis
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
-
 
 
 ## Response code

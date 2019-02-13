@@ -13,7 +13,7 @@
 ## Precision Protection
 
 - Precise recognition attack, second-level open protection.
-- Autonomously develop and clean equipment and algorithms to ensure a low false kill rate.
+- Autonomously develop and clean equipment and algorithms to ensure a low error blocking rate.
 - Efficient defense against common DDoS attacks, including, but not limited to, common attacks such as syc flood, ack flood, etc., do not have an impact on normal business access.
 - Based on the actual business requirements, you can flexibly and real-time modify the purge trigger value to flexibly respond to business needs.
 - Real-time monitoring and displaying the current DDoS attacking data, fast locating the source of attack, monitoring the attack state, shortening the duration of the black hole, and recovering the service as soon as possible.

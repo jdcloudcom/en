@@ -40,6 +40,6 @@ Marketplace Image: Available to all users. You can create an instance through im
 
 ## Related Reference
 
-[Image Type Conversion](/Convert-Image.md)
+[Image Type Conversion](Convert-Image.md)
 
 [Rebuild](../Instance/Rebuild-Instance.md)

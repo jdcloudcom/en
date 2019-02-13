@@ -3,7 +3,7 @@
 
 ## Description
 -   Expansion of the cloud disk requires it in available status.
--   Capacity expansion is not allowed while the disk is creating a snapshot.
+-   When creating snapshot for a Cloud Disk, expansion is not allowed.
 
 
 ## Request method
@@ -14,8 +14,8 @@ https://disk.jdcloud-api.com/v1/regions/{regionId}/disks/{diskId}:extend
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**diskId**|String|True| |Cloud Disk ID|
 |**regionId**|String|True| |Region ID|
+|**diskId**|String|True| |Cloud Disk ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
@@ -27,13 +27,12 @@ https://disk.jdcloud-api.com/v1/regions/{regionId}/disks/{diskId}:extend
 None
 
 
-
 ## Response code
 |Return code|Description|
 |---|---|
+|**200**|OK|
 |**400**|Invalid parameter|
 |**401**|Authentication failed|
 |**404**|Not found|
-|**503**|Service unavailable|
-|**200**|OK|
 |**500**|Internal server error|
+|**503**|Service unavailable|

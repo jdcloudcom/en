@@ -6,4 +6,5 @@ Virtual MFA equipment is a software-based application that generates dynamic ver
 # JD Cloud Assistant
 JD Cloud Assistant (WeChat applet) is the unified virtual MFA equipment provided by JD Cloud for the convenience of users. It is recommended that you associate to your user information through this application to generate dynamic verification codes.
 
-<div align=center><img width = "250" height = "250" src=https://github.com/jdcloudcom/cn/blob/edit/image/IAM/Virtual%20MFA%20device/%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg/></div>
+![京东云助手](../../../../image/IAM/MFA/二维码.jpg)
+

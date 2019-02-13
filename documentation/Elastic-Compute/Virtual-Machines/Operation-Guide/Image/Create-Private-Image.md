@@ -5,9 +5,10 @@ You can create a private image from an instance created as required, and use thi
 * To ensure data integrity, only instances in the "Stopped" status are supported for creating private images.
 * You must ensure that the image and cloud disk snapshot quotas are sufficient, because if the instance system disk is a cloud disk or the instance attaches a data disk, it will take up the private image quotas and the cloud disk snapshot quotas.
 
-## Precautions
-* In the Linux system, if the instance has an auto-attach command configured in /etc/fstab, it shall delete the relevant auto-attach command prior to creating the private image, otherwise the instance created from its private image may not start properly.
-If the current instance's system disk is local disk, then the created private image is local system disk image; If the current instance's system disk is cloud disk, then the created private image is cloud system disk image. You can convert a local system disk image to a cloud system disk image by [Image Type Conversion](Convert-Image.md).
+		Note:
+		* In the Linux system, if the instance has an auto-attach command configured in /etc/fstab, it shall delete the relevant auto-attach command prior to creating the private image, otherwise the instance created from its private image may not start properly.
+		If the current instance's system disk is local disk, then the created private image is local system disk image; If the current instance's system disk is cloud disk, then the created private image is cloud system disk image. You can convert a local system disk image to a cloud system disk image by [Image Type Conversion](Convert-Image.md).
+
 
 ## Operation Steps
 1. Access [Virtual Machines Console][1] to enter the instance list page. Or access [JD Cloud Console][2] Click navigation bar on the left **Elastic Compute** - **Virtual Machines** - **Instance** to enter the instance list page.
@@ -24,7 +25,8 @@ If the current instance's system disk is local disk, then the created private im
 7. In the process of image creating, any resource's failed creation will cause the image to be in the "Error" status. If data disks attached to the instance are selected to create the image that contains data of system disk and data disks, all the snapshots created by the operation will be automatically deleted after the operation failed, but the private image could be deleted after your confirmation.
 ![](../../../../../image/vm/Operation-Guide-Image-create4.png)
  
- ## Related Reference
+ 
+## Related Reference
  
 [Image Type Conversion](Convert-Image.md)
  
@@ -36,4 +38,5 @@ If the current instance's system disk is local disk, then the created private im
   [3]: ./images/Operation-Guide-Image-create1.png "Operation-Guide-Image-create1.png"
   [4]: ./images/Operation-Guide-Image-create2.png "Operation-Guide-Image-create2.png"
   [5]: ./images/Operation-Guide-Image-create3.png "Operation-Guide-Image-create3.png"
+
   [6]: ./images/Operation-Guide-Image-create4.png "Operation-Guide-Image-create4.png"

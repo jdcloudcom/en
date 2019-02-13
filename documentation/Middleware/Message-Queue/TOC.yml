@@ -59,7 +59,15 @@
             href: Operation-Guide/Monitoring/Monitoring.md
           - name: Set Alarm Rules
             href: Operation-Guide/Monitoring/Alarm-Rules.md
-      - name: API Reference
+      - name: Authorization Management
+        items:
+          - name: Permission Control Overview
+            href: Operation-Guide/Authorization-Management/Authorization-Overview.md
+          - name: Primary-primary Account Authorization
+            href: Operation-Guide/Authorization-Management/Main-Main-Authorization.md
+          - name: Primary-sub-account Authorization
+            href: Operation-Guide/Authorization-Management/Main-Sub-Authorization.md
+      - name: API Reference (receiving and sending of HTTP messages)
         items:
           - name: Invoke Method
             items:
@@ -78,7 +86,6 @@
             - name: Consume Message
               href: Operation-Guide/API-Reference/Interface-Specification/Consume-Message.md
   - name: SDK Reference
-    status: 0
     items:
       - name: Example Download
         href: SDK-Rerference/Demo.md
@@ -100,7 +107,8 @@
             href: SDK-Rerference/Java-SDK/Pull-Consume-Messgae-SDK.md
   - name: Best Practices
     items:
-    status: 0
+      - name: Message Category
+        href: Best-Practice/Message-Classification.md
   - name: Tutorial
     items:
     status: 0

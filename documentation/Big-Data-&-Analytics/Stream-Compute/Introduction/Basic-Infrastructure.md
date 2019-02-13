@@ -1,5 +1,5 @@
 ## System Structure<br>
-![System structure](https://github.com/jdcloudcom/cn/blob/edit/image/Streamcompute/SC-001.png?raw=true)<br><br><br>
+![系统结构](../../../../image/Streamcompute/SC-001.png)<br><br><br>
 **Data Source Input:**<br>
 The data source mainly comes from the streaming data of the Stream Hub. In the Stream Compute, you can also choose to configure the reference data source to enrich your data source. The reference data will be imported into the reference data table of the Stream Compute for subsequent analysis. If you want to use reference data in a Stream Compute service, you must store it in a database or Object Storage Service. <br><br>
 **Analysis/Compute:**<br>

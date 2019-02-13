@@ -4,8 +4,8 @@ This paper introduces the important update history of documents of API gateway p
 
 |Release Date|Feature|Description|
 |-|-|-|
-|2018/07|Revision|First official version. |
-
+|November 2018| Internationalization |  Launch of API Gateway Console (English Version) |
+|September 2018| Beta |  API gateway service is officially launched |
 
 
 ## Relevant References

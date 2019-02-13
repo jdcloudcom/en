@@ -1,0 +1,49 @@
+name: CodePipeline
+href:
+items:
+  - name: Introduction
+    items:
+      - name: Product Overview
+        href: Introduction/Product-Overview.md
+      - name: Core Concepts
+        href: Introduction/Core-Concepts.md
+      - name: Benefits
+        href: Introduction/Benefits.md
+      - name: Features
+        href: Introduction/Features.md
+      - name: Restrictions
+        href: Introduction/Restrictions.md
+      - name: Application Scenarios
+        href: Introduction/Application-Scenarios.md
+  - name: Getting Started
+    items:
+      - name: Quick Creation
+        href: Getting-Started/Quick-Creation.md
+      - name: Create customized instance
+        href: Getting-Started/Create-Customized-Instance.md
+  - name: Operation Guide
+    items:
+      - name: Manage CodePipeline
+        items:
+          - name: Create CodePipeline
+            href: Operation-Guide/Working-With-Pipelines/Create-Pipeline.md
+          - name: Edit CodePipeline
+            href: Operation-Guide/Working-With-Pipelines/Edit-Pipeline.md
+          - name: View CodePipeline
+            href: Operation-Guide/Working-With-Pipelines/View-Pipeline.md
+          - name: Release CodePipeline
+            href: Operation-Guide/Working-With-Pipelines/Release-Pipeline.md
+          - name: View Execution History Record
+            href: Operation-Guide/Working-With-Pipelines/View-Execution-History.md
+          - name: Delete CodePipeline
+            href: Operation-Guide/Working-With-Pipelines/Delete-Pipeline.md        
+      - name: Use Operations
+        items:
+          - name: Stop Operations
+            href: Operation-Guide/Working-With-Action/Check-Action.md     
+  - name: Best Practices
+    items:
+        - name: Construct and deploy to JCS for Kubernetes
+          href: Best-Practices/Deployment-On-K8S.md
+  
+  

@@ -54,7 +54,7 @@ The configuration for a service overlaps the general configuration:
 	var nc = new NC({//*Configuration Item/*/});
 
 
-## Configuration Item ##
+### Configuration Item ###
 
 	let config = { 
 		credentials: { 
@@ -64,7 +64,7 @@ The configuration for a service overlaps the general configuration:
 	}
 
 
-## Call Example ##
+### Call Example ###
 
 The following is an example of a call to query details for individual VM Instance
 

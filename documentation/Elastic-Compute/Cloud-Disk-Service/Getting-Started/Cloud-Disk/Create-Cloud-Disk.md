@@ -13,7 +13,7 @@
 
 
 
-- Each SSD Cloud Disk supports a maximum of 1000G capacity; each Premium Hdd Cloud Disk supports a maximum of 3000G capacity;
+- The three new cloud disks support a maximum of 4,000GB capacity; (OpenAPI creation supports up to 16,000GB)
 
 
 

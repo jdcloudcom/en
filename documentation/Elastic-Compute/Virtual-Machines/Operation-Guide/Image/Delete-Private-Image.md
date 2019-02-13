@@ -3,8 +3,9 @@
 ## Precondition
 * Only shared images with the "Available" or "Error" status support deleting.
 
-## Precautions
-* A shared private image cannot be deleted before the sharing relationship is cancelled. If the private image is shared with other users, please cancel the sharing before delete it.
+
+		Note:
+		* A shared private image cannot be deleted before the sharing relationship is cancelled. If the private image is shared with other users, please cancel the sharing before delete it.
 
 ## Operation Steps
 1. Access [Image Console][1], or access [JD Cloud Console](https://console.jdcloud.com/overview) Click navigation bar on the left **Elastic Compute** - **Virtual Machines** - **Image** to enter the image list page.

@@ -84,4 +84,4 @@ According to the availability ratio of Anti-DDoS Protection Package service of a
 
 ## 4 Miscellaneous
 
-JD Cloud has the right to make adjustments to partial service indicators of the Service Level Agreement according to changes, and promptly publish announcements on JD Cloud official website (https://www.jdcloud.com), or send emails or written notices to notify the users of the modified contents.
+JD Cloud has the right to make adjustments to partial service indicators of the Service Level Agreement according to changes, and promptly publish announcements on JD Cloud official website [www.jdcloud.com](https://www.jdcloud.com), or send emails or written notices to notify the users of the modified contents.

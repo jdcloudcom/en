@@ -15,7 +15,7 @@ sh virtual-kubelet.sh 114.**.**.93:6443 cn-****-2a,cn-****-2b g.n2
 `   
 The parameter description of script running is as follows:  
 - `114.**.**.93：6443`:JCS for Kubernetes service endpoint; you can view and acquire the service endpoint provided by JCS for Kubernetes connected to Virtual-Kubelet on the JCS for Kubernetes details page;  
-- `cn-****-2a, cn-****-2b`: Availability Zone running for Virtual-Kubelet; consistent with the Availability Zone supported by JCS for Kubernetes, or a subset of Availability Zone supported by JCS for Kubernetes; for details, refer to [Region and Availability Zone Description] (https://docs.jdcloud.com/cn/jcs-for-kubernetes/regions-and-availabilityzones)；    
+- `cn-****-2a, cn-****-2b`: Availability Zone running for Virtual-Kubelet; consistent with the Availability Zone supported by JCS for Kubernetes, or a subset of Availability Zone supported by JCS for Kubernetes; for details, refer to [Region and Availability Zone Description](https://docs.jdcloud.com/cn/jcs-for-kubernetes/regions-and-availabilityzones)；    
 - `g.n2`: Classify the Instance Types; set the Instance Type classification selected by default when Virtual-Kubelet creates Native Container Pod, such as: g.n2, c.n2, m.n2, h.g2; for more instance specification types, refer to [Price Overview][2];  
 3. Ensure the Virtual-Kubelet status by Kubectl:  
 `   

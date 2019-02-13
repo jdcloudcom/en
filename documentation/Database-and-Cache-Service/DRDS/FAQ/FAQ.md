@@ -17,3 +17,10 @@ A: DRDS stores data on the JCS for MySQL nodes of backend, so that it does not s
 **5. Q: Which character sets does DRDS support?**
 
 A: DRDS supports UTF8 character set and it will support more character sets later
+
+**5. Q: What are the reasons for failing to generate the expansion plan in horizontal expansion?**
+
+A: The reasons for failing to generate the expansion plan generally include
+  1. It fails because there is not enough new RDS space to migrate any sub-database.
+  2. The name of the database in the new RDS is same with that of the sub-database of DRDS in the original RDS, for example, there is a sub-database named testdb_drds_a149_1 in the RDS and there is also a database named testdb_drds_a149_1 in the new RDS, in which case, it fails.
+  3. The RDS MySQL version is inconsistent. To guarantee stability, we require a consistent RDS MySQL version.

@@ -15,11 +15,10 @@ v1
 |**createAlarm**|POST|Create alarm rules, it can create alarm rules for a certain instance, or it also can create alarm rules for multiple instances at the same time.|
 |**deleteAlarmsCm**|DELETE|Delete Customized Metric Monitoring Rules|
 |**describeAlarmContacts**|GET|Query rule alarm contacts|
-|**describeAlarmHistory**|GET|Query the alarm history</br>The priority of retrieval condition combination from high to low is </br>1. serviceCode</br>1.1 serviceCode + resourceId</br>1.2 serviceCode + resourceIds</br>2. serviceCodes</br>3. all user rules|
-|**describeAlarmHistoryAllRegion**|POST|Query the alarm history</br>The priority of retrieval condition combination from high to low is </br>1. serviceCode</br>1.1 serviceCode + resourceId</br>1.2 serviceCode + resourceIds</br>2. serviceCodes</br>3. all user rules|
-|**describeAlarms**|GET|Query rules, query the parameter set and priority level from high to low are: </br>1: serviceCode cannot be blank</br>1.1: serviceCode + resourceId</br>1.2: serviceCode + resourceIds</br>2: serviceCodes cannot be blank</br>3: all user rules|
+|**describeAlarmHistory**|GET|Query the alarm history</br>The priority of retrieval condition combination from high to low is </br>1. alarmId</br>2. serviceCode</br>2.1 serviceCode + resourceId</br>2.2 serviceCode + resourceIds</br>3. serviceCodes</br>4. all user rules|
+|**describeAlarmHistoryAllRegion**|POST|Query the alarm history</br>The priority of retrieval condition combination from high to low is </br>1. alarmId</br>2. serviceCode</br>2.1 serviceCode + resourceId</br>2.2 serviceCode + resourceIds</br>3. serviceCodes</br>4. all user rules|
+|**describeAlarms**|GET|Query rules, query the parameter set and priority level from high to low are: </br>1：alarmId cannot be blank</br>2：serviceCode cannot be blank</br>2.1：serviceCode + resourceId</br>2.2: serviceCode + resourceIds</br>3: serviceCodes cannot be blank</br>4: all user rules|
 |**describeAlarmsByID**|GET|Query Rule Details|
-|**describeCmMetricDataByTagSpec**|GET|Query Customized Metric Monitoring Items Data|
 |**describeMetricData**|GET|View multiple monitoring item data of a resource, metric introduction 1: <a href="https://docs.jdcloud.com/cn/monitoring/metrics">Metrics</a>|
 |**describeMetrics**|GET|Query available monitoring item list based on the product lines, metric introduction: <a href="https://docs.jdcloud.com/cn/monitoring/metrics">Metrics</a>|
 |**describeMetricsForCreateAlarm**|GET|Query metric list available to create monitoring rules based on resource type, metric introduction:<a href="https://docs.jdcloud.com/cn/monitoring/metrics">Metrics</a>|

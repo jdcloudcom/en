@@ -36,7 +36,10 @@ ReadWriteOnce --- this volume can be attached by a single node in read/write mod
 In the command line, the visit mode is abbreviated as:    
 RWO - ReadWriteOnce  
 JD Cloud provides plug-ins for PersistentVolume with plug-in type: jdcloudElasticBlockStore
-Note: the number of copies can only be specified as 1.  
+Note:  
+- As it is restricted that the Cloud Disk Service can be attached with one Virtual Machine, it is suggested to create a deployment set by using replicas=1 when the pvc-based pod is used. StatefulSet can solve the multi-copy issue.  
+- The pod migration and pvc migration (detaching old instances/attaching new instances) last for 35 seconds by default.  
+- The original pvc can be attached to the new pod by making deployment and deleting the same.  
 
 **2. Create PVC**  
 

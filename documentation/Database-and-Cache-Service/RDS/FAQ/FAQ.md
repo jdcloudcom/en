@@ -1,6 +1,22 @@
 # FAQ
 ## Current Types Supported by Cloud Database
-The current types supported by the database are JCS for MySQL 5.6, JCS for MySQL 5.7, JCS for Percona 5.7, JCS for SQL Server 2008 R2 Enterprise Edition, JCS for SQL Server 2012 Enterprise Edition, JCS for SQL Server 2014 Enterprise Edition, JCS for SQL Server 2016 Enterprise Edition, and there will be more available database types later.
+The following engines and versions are supported by RDS which will support more database engine types and versions
+- MySQL
+    - 5.6
+    - 5.7
+    - 8.0
+  
+- Percona:
+    - 5.7
+  
+- MariaDB
+    - 10.2
+  
+- SQL Sever
+    - 2008 R2: Enterprise Version
+    - 2012: Enterprise Version and Standard Version
+    - 2014: Enterprise Version and Standard Version
+    - 2016: Enterprise Version, Standard Version and Web Version
 
 ## VM's Failure to Access RDS
 Following conditions shall be met for the VM accessing RDS:
@@ -34,3 +50,6 @@ If a network ACL is set for the subnet selected when the JD Cloud RDS is created
 
 ## How to modify parameters of JCS for MySQL service instance?
 At present, user are not allowed to modify JCS for MySQL instance parameters in JD Cloud. Therefore, users can feed back the demands through open ticket to the engineers of JD Cloud, and the engineers will help give assistance in the modification.
+
+## Some data is deleted for a large table in JCS for MySQL, but the data space disk usage has not changed through the monitoring graph
+This is a data file fragment hole problem. When InnoDB performs data deletion, the deleted space will not be recovered, and it will cause a lot of file holes, leading to that the data space usage in the monitoring graph will not change. Optimization method: `OPTIMIZE TABLE <table>` or `ALTER TABLE <table> ENGINE=Innodb` to rebuild the table space.

@@ -10,6 +10,10 @@ It is important to note that JD Cloud cannot guarantee the integrity and securit
     * View the basic information in "Basic Information", "User Pin" is the correct user account.
 ![](../../../../../image/vm/Operation-Guide-Image-share1.png)
 
+
+		Note:
+		* Private images including encrypted snapshot do not support sharing temporarily.
+
 ## Operation Steps
 
 1. Access [Image Console][2], or access [JD Cloud Console](https://console.jdcloud.com/overview) Click navigation bar on the left **Elastic Compute** - **Virtual Machines** - **Image** to enter the image list page.
@@ -23,7 +27,7 @@ It is important to note that JD Cloud cannot guarantee the integrity and securit
 5. The shared accounts will be displayed in the list below, where you can directly click **Cancel Sharing**.
 ![](../../../../../image/vm/Operation-Guide-Image-share2.png)
 
-**Note: Private images that reference snapshots do not currently support sharing.**
+
 
 
 

@@ -6,7 +6,7 @@ It supports to use the local disk or cloud disk as system disk.
 
 For local disk, you can't select the capacity and a capacity of 40GB is given for free; it is created along with the VMs and its life cycle is the same as that of the instance, that is, it starts or ends with the instance life cycle.
 
-For cloud disk, SSD cloud disk and Premium Hdd cloud disk are available and the capacity can be specified within the range of 40GB~500GB. A non-multi-attachment cloud disk that is billed by configuration can be set to be deleted on instance termination. If it is set to be deleted on instance termination, the disk will be deleted when the instance is deleted. The attribute of the disk under monthly package or multi-point attached disk does not take effect, and the disk will remain when the instance is deleted.
+For cloud disks, general SSD Cloud Disk, performance-oriented SSD Cloud Disk, capacity-oriented HDD Cloud Disk, SSD Cloud Disk and Premium Hdd Cloud Disk (where the first three are only provided in cn-east-2 region and the latter two are only provided in cn-north-1, cn-east-1 and cn-south-1 regions) are supported; capability can be designated among 40GB~500GB. For a Pay By Configuration billing cloud disk which is a non-multi-point attached disk, you may designate its deletion on instance termination attribute; if they are configured as deletion on instance termination, this disk will be deleted while deleting the instance. For a Monthly Package disk or a multi-point attached disk, this attribute will not take effect and the disk will be reserved while deleting the instance.
 
 ## Data Disk
 
@@ -44,3 +44,40 @@ Typical Application Scenarios:
 
 * Small and medium databases, large development tests, web servers
 * Medium and large development and test applications with high requirements for data reliability and medium performance requirements
+
+### General Type SSD Cloud Disk
+
+* Capacity of a Single Disk: 20-4,000G
+* Maximum IOPS of a single disk: 15,000
+* Maximum throughput of a single disk: 150MBps
+* Data reliability: 99.9999999%
+
+Other Typical Application Scenarios:
+
+* Applicable to boot volumes, small databases, large-scale development tests, web servers, and other scenarios;
+* Applicable to the business scenarios that require random read-write.
+
+### Performance-oriented SSD Cloud Disk
+
+* Capacity of a Single Disk: 20-4,000G
+* Maximum IOPS of a single disk: 32,000
+* Maximum throughput of a single disk: 150MBps
+* Data reliability: 99.9999999%
+
+Application Scenarios:
+
+* Applicable to the deployment scenarios of MySQL, SQLServer, Oracle and other databases;
+* Applicable to I/O intensive core business scenario with high requirements for data reliability.
+
+### Capacity-oriented HDD Cloud Disk
+
+* Capacity of a Single Disk: 20-4,000G
+* Maximum IOPS of a single disk: 500
+* Maximum throughput of a single disk: 180MBps
+* Data reliability: 99.9999999%
+
+Application Scenarios:
+
+* Applicable to the I/O scenarios that do not have high requirements for read-write rate, the best choice for high quality and low price;
+* Applicable to web servers, large capacity, and applications that process fewer transactions;
+* Applicable to large file sequential read-write, cold data backup and other archiving storage.

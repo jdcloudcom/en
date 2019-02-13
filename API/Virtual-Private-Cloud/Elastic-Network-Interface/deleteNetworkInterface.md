@@ -12,8 +12,8 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/networkInterfaces/{networkInte
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**networkInterfaceId**|String|True| |networkInterface ID|
 |**regionId**|String|True| |Region ID|
+|**networkInterfaceId**|String|True| |networkInterface ID|
 
 ## Request parameter
 None
@@ -23,7 +23,6 @@ None
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
-
 
 
 ## Response code

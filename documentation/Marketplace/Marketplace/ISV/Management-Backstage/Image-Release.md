@@ -1,5 +1,7 @@
 # Introduction of Image products
+
 Image Type:
+
 1. Select a Release Category
 
 Login service provider’s backend to post image service: select service management -> release service, select the image delivery type. Click "Next, Release Service" after the selection is completed.
@@ -44,8 +46,6 @@ Please fill in your own image ID, click "retrieve", and the system will check wh
 4.8: As for Service Tutorials, success stories, product online agreements and delivery instructions, if you have "image files", please select the file upload, and directly pasting is invalid, and it also need to be detailed and complete (optional).
 
 4.9 Hide or not? Yes **No, the list of service platforms is displayed normally, visible to all users** (If you do not want to be retrieved, select "Yes") check agree and sign the  Agreement for Move-in to JD Cloud Marketplace and Service, please click on "Release Service".
-
-
 
 5 At this point, the service has been successfully released and enters into the service review process. You can view the service review status and modification in Service Management --> Release Service. If the review is approved, the service can be sold online.
 
