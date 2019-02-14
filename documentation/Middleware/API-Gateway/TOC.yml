@@ -57,15 +57,23 @@ items:
       href: Getting-Started/STEP5-Create-Auth.md
 - name: Operation Guide
   items:
-    - name: Create API Group
+    - name: API Group Management
       items:
-        - name: Create API Group
+        - name: Create an API group
           href: Create-APIGroup/Create-APIGroup.md
-    - name: Create API
+        - name: Release an API Group
+          href: Create-APIGroup/Create-Publish.md  
+        - name: Customized Domain
+          href: Create-APIGroup/Create-Domain.md  
+        - name: Access Monitoring
+          href: Create-APIGroup/Monitoring.md  
+    - name: API Management
       items:
         - name: Create API
           href: Create-API/Create-API.md
-    - name: Access Authorization for API
+        - name: API Advanced Configuration
+          href: Create-API/Adv-API.md
+    - name: Access Authorization
       items:
         - name: Access Authorization for API
           href: Create-Auth/Create-Auth.md  
@@ -75,18 +83,12 @@ items:
           href: Create-BackSign/Create-BackSign.md  
     - name: Customize Domain Names
       items:
-        - name: Customize Domain Names
-          href: Create-Domain/Create-Domain.md  
-    - name: Release API groups
-      items:
-        - name: Release API groups
-          href: Create-Publish/Create-Publish.md  
-    - name: Traffic Control Policy
-      items:
         - name: Traffic Control Policy
           href: Create-Stream/Create-Stream.md  
-    - name: Error Code
+    - name: Debug
       items:
+        - name: Debugging API
+          href: Code/TestAPI.md        
         - name:  Error Code
           href: Code/API_Errorcode.md
 - name: Best Practices
@@ -94,7 +96,7 @@ items:
   - name: Best Practices
     href: Best-Practices/BestPractices.md
   - name: Use example to construct API
-    herf: Best-Practices/example_for_create_api.md
+    href: Best-Practices/example_for_create_api.md
 - name: FAQ
   href: FAQ/faq.md
 - name: Related Resources

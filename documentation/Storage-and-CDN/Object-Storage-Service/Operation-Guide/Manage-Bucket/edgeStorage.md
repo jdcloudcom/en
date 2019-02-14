@@ -8,26 +8,37 @@ The underlayer of the Edge Storage takes advantage of the system established by 
 
 3. Via natural P2P network distribution features, save user’s bandwidth cost.
 
+* Customer Scenario: [Monitoring Video Storage](edgeStorage#user-content-1), [Edge Storage of Internet of Things](edgeStorage#user-content-2), [Data Storage and Backup](edgeStorage#user-content-3), [Internet Information Security](edgeStorage#user-content-4) and [Block Chain Application](edgeStorage#user-content-5)
+* Console operation process: [Enable “Edge Storage” Service](edgeStorage#user-content-6), [Synchronize OSS to Edge Storage](edgeStorage#user-content-7) and [Synchronize Edge Storage to OSS](edgeStorage#user-content-8)
+* API Unified Information: [API Unified Information](edgeStorage#user-content-9)
+* API details: [Synchronize to Edge Storage](edgeStorage#user-content-10), [Synchronize Edge Storage to OSS](edgeStorage#user-content-11), [View File Management](edgeStorage#user-content-12)and [View Synchronization Logs](edgeStorage#user-content-13)
+* FAQ: [FAQ and API List](edgeStorage#user-content-14), [Can the non-public network IPFS files be synchronized to OSS? ](edgeStorage#user-content-15)
+
 ## Customer Scenario
 
 Setting up the Edge Storage may be helpful when you have the following needs: 
 
+<div id="user-content-1"></div>
 * Monitor video storage: For locations with monitoring demands, such as urban traffic, schools, government, industrial parks, commercial buildings, smart homes and hotels. The common features of the above scenarios are that plenty of monitoring devices are distributed in such scenarios. However, due to the limited local storage, it is unable to meet the requirements of increasing video data bulk.
 
+<div id="user-content-2"></div>
 * Edge Storage of Internet of Things: The edge node storage demand is increased with the increasing edge devices of the Internet of Things. As the off-line storage application scenarios, the storage service is deployed on the edge node, the data are accelerated and stored in the edge node and the data saved in the user’s data center or the Cloud persistently.
 
+<div id="user-content-3"></div>
 * Data storage and backup: Be used for scenarios such as log files, images, videos, audios, static website escrow, backup, archive, and private cloud storage. Meanwhile, it shall be used for local data backup, cross-cloud data backup of vendors and other scenarios.
 
+<div id="user-content-4"></div>
 * Internet information security: In recent years, several users’ information leakage incidents have occurred in large scales in domestic due to the hacker’s invasion, causing great loss and influence to the user. If the decentralized storage architecture is adopted, all data accesses will be distributed on different nodes. The hacker needs to attack all nodes if he/she intends to invade the data. With such architecture, the data security is effectively guaranteed and the user’s privacy is protected.
 
+<div id="user-content-5"></div>
 * Block chain application: Support as the underlayer of data storage under chains.
 
 
-
-## Action process of the console is as follows:
+## Console Operation Process
 
 
 1. Enable the "Edge Storage" service
+<div id="user-content-6"></div>
 
 1) Log in the Console->Object Storage Service->Space Management->Enter a Bucket->Space Settings->Edge Storage
 
@@ -42,6 +53,7 @@ Setting up the Edge Storage may be helpful when you have the following needs:
 Description: The following action can be made only when it is confirmed that the "Edge Storage" service is enabled.
 
 2. OSS Synchronization to Edge Storage
+<div id="user-content-7"></div>
 
 1) Log in the Console->Object Storage Service->Space Management->Enter a Bucket->Object Management
 
@@ -58,11 +70,12 @@ Description: The following action can be made only when it is confirmed that the
 4) Click **OK**, then the task amount will be displayed on the upper top of the page and the details can be viewed.
 
 3. Synchronize Edge Storage to OSS.
+<div id="user-content-8"></div>
 
 1) Log in the Console->Object Storage Service->Edge Storage->File Management
 
 ![文件管理](../../../../../image/Object-Storage-Service/edgeStorage/文件管理new.png)
-
+                      
 2) Synchronize a single file or files in batches.
 
 ![批量同步](../../../../../image/Object-Storage-Service/edgeStorage/同步至OSS.png)
@@ -77,6 +90,7 @@ Where the user has its own IPFS nodes and hopes to store its own files in OSS, p
 
 
 ## API Unified Information
+<div id="user-content-9"></div>
 
 - Service domain: apigw-internal.cn-north-1.jcloudcs.com
 - Verification: [JD API Gateway](https://www.jdcloud.com/cn/products/api-gateway) Unified Verification
@@ -84,6 +98,7 @@ Where the user has its own IPFS nodes and hopes to store its own files in OSS, p
 ## API Detail
 
 ### 1. Synchronize to Edge Storage
+<div id="user-content-10"></div>
 
 POST /v1/regions/{region}/tasks HTTP/1.1
 
@@ -162,6 +177,7 @@ HTTP/1.1 200 OK
 |taskIds| []string|	Task taskId Array|
 
 ### 2. Synchronize the Edge Storage to OSS
+<div id="user-content-11"></div>
 
 POST /v1/regions/{region}/tasks HTTP/1.1
 
@@ -240,6 +256,7 @@ HTTP/1.1 200 OK
 |taskIds| []string|	Task taskId Array|
 
 ### 3.View File Management
+<div id="user-content-12"></div>
 
 GET /v1/regions/{region}/files?total=100&marker=xxx&filter=<CID> HTTP/1.1
 
@@ -321,6 +338,7 @@ x-jdcloud-pin: "henry",
 |deletedTime|string|Expected Deletion Time, UTC|
 
 ### 4. View Synchronization Log
+<div id="user-content-13"></div>
 
 GET /v1/regions/{region}/tasks?migrationType=1&state=1&marker=xxxxx HTTP/1.1
 
@@ -422,6 +440,7 @@ x-jdcloud-pin: "userPin"
 
 ## FAQ
 ### 1. Common Commands and API List
+<div id="user-content-14"></div>
 ipfs add file Load local files to the IPFS network
 
 ipfs object get <cid> Search object information of files
@@ -433,4 +452,5 @@ ipfs cat <cid> file Download files in IPFS network to the local memory
 API List: https://docs.ipfs.io/reference/api/cli/
 
 ### 2. Can the non-public network IPFS files be synchronized to OSS?
+<div id="user-content-15"></div>
 No. The synchronization task will fail.

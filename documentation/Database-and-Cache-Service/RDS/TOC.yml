@@ -312,6 +312,8 @@
       href: FAQ/Storage-Engine.md
     - name: Storage Space
       href: FAQ/Storage-Space.md
+    - name: MFA Support
+      href: FAQ/MFA-Support.md      
   - name: Troubleshooting
     items:
     - name: Memory Usage Rate

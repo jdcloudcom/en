@@ -35,6 +35,8 @@ The deploying task will be canceled. Please note that the rollback is not suppor
 - When the blue and green deployment is not performed for the first time, it will create a virtual server group and delete the old virtual server group
 - If the Load Balancer is selected, then the Virtual Machines in the selected deployment target shall be in the same subnet with the Load Balancer instance
 - When the Load Balancer adds the virtual server groups or adds Virtual Machines to the existing virtual server groups, the health check will be performed first before opening traffic. Therefore, there is a certain time interval, and the health check can be determined whether to be enabled according to the actual situation.
+- Corresponding instance port in the Load Balancer virtual server group is "-" by default, i.e. the port inheriting backend service of the Load Balancer; the weight is "10" by default
+
 
 **Status**
 

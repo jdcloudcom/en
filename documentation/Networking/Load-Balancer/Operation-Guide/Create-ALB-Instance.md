@@ -8,7 +8,7 @@
 
 1. Select a region and pay attention to select the region of the virtual private cloud to be selected.
 
-1. Select an availability zone, the Application Application Load Balancer only can forward the traffic to the backend server of the selected availability zone.
+1. Select an availability zone, and the Application Load Balancer only can forward the traffic to the backend server of the selected availability zone under the same VPC.
 
 1. Select a virtual private cloud and subnet information and the Application Application Load Balancer only can forward the traffic to the backend server under the same virtual private cloud.
 

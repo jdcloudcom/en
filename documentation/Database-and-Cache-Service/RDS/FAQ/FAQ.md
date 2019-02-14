@@ -1,6 +1,7 @@
 # FAQ
 ## Current Types Supported by Cloud Database
 The following engines and versions are supported by RDS which will support more database engine types and versions
+
 - MySQL
     - 5.6
     - 5.7
@@ -53,3 +54,6 @@ At present, user are not allowed to modify JCS for MySQL instance parameters in 
 
 ## Some data is deleted for a large table in JCS for MySQL, but the data space disk usage has not changed through the monitoring graph
 This is a data file fragment hole problem. When InnoDB performs data deletion, the deleted space will not be recovered, and it will cause a lot of file holes, leading to that the data space usage in the monitoring graph will not change. Optimization method: `OPTIMIZE TABLE <table>` or `ALTER TABLE <table> ENGINE=Innodb` to rebuild the table space.
+
+## I want to modify the character set of a created database. But my account does not have such permission and the console does not provide corresponding interface. What shall I do?
+You can modify the character set of a database via DMS; Click **Console** to log in the database, select the name of the database containing the character set intended to be modified from the left after logging in DMS and click the operation tab on the top bar behind to refresh the current page; then, the ranking rule option will be shown in the current page; and choose the character set intended to be modified and click **Execute**.

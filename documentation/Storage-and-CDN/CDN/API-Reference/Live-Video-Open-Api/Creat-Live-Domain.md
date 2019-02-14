@@ -9,16 +9,19 @@ Create live acceleration domain, including creation of domain in pushing streami
 | Name           | Type   | Compulsory or not | Description                                                         |
 | -------------- | ------ | -------- | ------------------------------------------------------------ |
 | username       | String | Yes       | JD User Name pin                                                |
-| signature      | String | Yes       | User signature, verify user's identity information through md5 method to ensure information security. </br>md5=date+username+secret key SecretKey; </br>date: format is yyyymmdd; username: JD user name pin; secret key: agreed between the Parties; </br>example: such as current date 2016-10-23, user pin: jcloud_00, user secret key SecretKey: e7a31b1c5ea0efa9aa2f29c6559f7d61, then the signature is MD5(20161023jcloud_00e7a31b1c5ea0efa9aa2f29c6559f7d61) |
+| signature      | String | Yes       | User Signature, verify user's identity information through md5 method to ensure information security.</br> md5=date+username+secret key SecretKey; date: format is yyyymmdd; username: JD user name pin secret key: agreed between the Parties;</br> example: such as current date 2016-10-23, user pin: jcloud_00, user secret key SecretKey: e7a31b1c5ea0efa9aa2f29c6559f7d61, then the signature is MD5(20161023jcloud_00e7a31b1c5ea0efa9aa2f29c6559f7d61) |
 | siteType | String | Yes | Live Business Mode Type, Pushing Streaming Mode (Streamer is pushed to CDN) uses "push", Pulling Streaming Mode (CDN is returned to customer origin server for broadcasting in pulling streaming) uses "push", Mixing Mode (One pushing streaming domain corresponds to statuses such as multiple broadcasting domains or multiple pulling streaming domains and forward pushing domain) uses "mix" |
-|Domain | String | Yes | Accelerated Domain|
+|domainType | String | Yes | Domain type, the parameter value is push/pull, push means the pushing streaming domain, while pull means pulling streaming domain (i.e. the playing domain); when the business mode adopts the pull type, domainType can be pull only;|
+|domain | String | Yes | Accelerated Domain|
 |protocol | String |No| Protocol, parameter can be all, rtmp, hdl (namely, http-flv), hls; all means not distinguish protocols, when protocol is all, the corresponding domain can be directly converted to rtmp, hls, flv|
 |referDomain | String |No |Associated pushing streaming domain, pushing streaming mode, which is the compulsory field when creating broadcasting domain in the mixing mode, and is non-compulsory under other conditions|
 |sourceType | String |No|Compulsory under the mixing mode and pulling streaming mode |
 |source | String |No |Back-to-origin information configuration, upon ip back-to-origin, master means primary, slave means slave, ratio means weight, add-up of all the ratio configuration items shall be 1; upon domain back-to-origin, priority means priority |
 |forwardDomain| String |No|Forward Pushing Domain |
+|audioType| String |No|Only AAC is supported now, which is the optional field |
+|videoType| String |No|Only H.264 is supported now, which is the optional field |
  
-**3. Return Parameter**
+## **3. Return Parameter**
 
 | **Name** | **Description**                                                  |
 | -------- | --------------------------------------------------------- |
@@ -27,13 +30,13 @@ Create live acceleration domain, including creation of domain in pushing streami
 | data     | Domain  |
 | requestId| Create Task|
  
-**4. Call Example**
+## **4. Call Example**
 
- **Request Address**
+- ### **Request Address**
 
-http://opencdn.jcloud.com/api/live/createDomain
+https://opencdn.jcloud.com/api/live/createDomain
 
- **Request Example**
+ - ### **Request Example**
 
 ```
 {
@@ -77,13 +80,13 @@ http://opencdn.jcloud.com/api/live/createDomain
             "c.jd.com": {"priority": 1}
          }
         }, 
-      "forwardDomain":"forward.jcloud.com",
-      "audioType":"audioType", //Only support AAC, which is non-compulsory field
-      "videoType":"videoType"   //Only support H.264, which is non-compulsory field
+    "forwardDomain":"forward.jcloud.com",
+      "audioType":"AAC", //Only support AAC, which is non-compulsory field
+      "videoType":"H.264"   //Only support H.264, which is non-compulsory field
 }
 ```
 
-- **Create pushing streaming domain under the mixing mode**
+- #### **Create pushing streaming domain under the mixing mode**
 ```
 {
     "username":"jcloud_username",
@@ -95,7 +98,7 @@ http://opencdn.jcloud.com/api/live/createDomain
 }
 ```
 
--  **Create pulling streaming domain under the mixing mode**
+- #### **Create pulling streaming domain under the mixing mode**
 ```
 {
     "username":"jcloud_username",
@@ -115,7 +118,7 @@ http://opencdn.jcloud.com/api/live/createDomain
 }
 ```
 
-- **Create pulling streaming domain under the pulling streaming mode**
+- #### **Create pulling streaming domain under the pulling streaming mode**
 ```
 {
     "username":"jcloud_username",
@@ -134,7 +137,7 @@ http://opencdn.jcloud.com/api/live/createDomain
 }
 ```
 
-- **Create pushing streaming domain under the pushing streaming mode**
+- #### **Create pushing streaming domain under the pushing streaming mode**
 ```
 {
     "username":"jcloud_username",
@@ -146,7 +149,7 @@ http://opencdn.jcloud.com/api/live/createDomain
 }
 ```
 
-- **Create pulling streaming domain under the pushing streaming mode**
+- #### **Create pulling streaming domain under the pushing streaming mode**
 ```
 {
     "username":"jcloud_username",
@@ -159,9 +162,9 @@ http://opencdn.jcloud.com/api/live/createDomain
 }
 ```
 
-**Return Example**
+- ### **Return Example**
 
-Normal Response
+*Normal Response
 ```
 {
     "status": 0,
@@ -171,7 +174,7 @@ Normal Response
     }
 }
 ```
-Abnormal Response
+*Abnormal Response
 ```
 {
     "status": 1 ,//Or other error code

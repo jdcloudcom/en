@@ -39,12 +39,14 @@ items:
       href: Getting-Started/Video-Play.md
 - name: Operation Guide
   items:
-    - name: Media Assets Management
+    - name: Video Management
       href: Operation-Guide/Media-Asset-Management.md
     - name: Video Processing
       href: Operation-Guide/Video-Processing.md
     - name: Global Configuration
-      href: Operation-Guide/Global-Settings.md  
+      href: Operation-Guide/Global-Settings.md
+    - name: Statistics & Analysis
+      href: Operation-Guide/Statistical-Analysis.md
 - name: Best Practices
   items:
     - name: Terminal Format Suggestion

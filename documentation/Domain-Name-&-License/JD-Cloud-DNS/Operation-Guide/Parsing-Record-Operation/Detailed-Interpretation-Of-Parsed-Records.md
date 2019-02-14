@@ -4,8 +4,9 @@
 | ------- | --------------------------------------------- | -------------- |
 | A record | Point the domain name to an IPv4 address | IPv4 address |
 | CNAME | Point the domain name to another domain | Domain |
+| JNAME   | Redirect one domain to another one hosted by JD Cloud              | Domain           |
 | MX | Point domain name to mail server address | Domain name or IPV4 address|
-TXT | can be filled in at any time, length limit 255, usually do SPF record | string |
+| TXT | can be filled in at any time, length limit 255, usually do SPF record | string |
 | NS      | Domain Name Server Record, Specify Subdomain Name to Other DNS Server to Resolve | Domain Name | Domain Name           |
 | AAAA    | Point the Domain Name to an IPV6 Address | IPv6 Address       |
 | SRV     | Record Servers that Provide Specific Services                      | Domain Name           |

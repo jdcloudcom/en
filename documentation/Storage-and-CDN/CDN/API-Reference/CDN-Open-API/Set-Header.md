@@ -15,7 +15,7 @@ Set/delete Header request header and response header, Header is divided into req
 | headerName | String   | Yes           | Parameter Name of header |
 | headerValue| String   | Yes           | Value |
 
-## **3. Description of Returned Parameter Data**
+## **3. Return Parameter**
 
 | **Name**   | **Description** | 
 | ---------- | -------- |
@@ -23,17 +23,19 @@ Set/delete Header request header and response header, Header is divided into req
 | msg  | Notification Information | 
 | data | Return Data| 
 
-## **4. Request Address**
+## **4. Call Example**
+
+- ### **Request Address**
 post Method
 
-Set header APIs address: http://opencdn.jcloud.com/api/setHttpHeader
+Set header APIs address: https://opencdn.jcloud.com/api/setHttpHeader
 
-Delete header APIs address: http://opencdn.jcloud.com/api/deleteHttpHeader
+Delete header APIs address: https://opencdn.jcloud.com/api/deleteHttpHeader
 
-## **5. Request Example**
+- ### **Request Example**
 
 ```
-http://opencdn.jcloud.com/api/setHttpHeader
+https://opencdn.jcloud.com/api/setHttpHeader
 {
     "username" :"test_user",
     "signature" :"d847267fc702273abf394dd0c3128d64",
@@ -44,10 +46,10 @@ http://opencdn.jcloud.com/api/setHttpHeader
  }
 ```
 
-## **6. Return Instructions**
+- ### **Return Instructions**
 
 ```
-json Format
+* json Format
 {
   "status": 0,
   "msg": "Succeeded",
@@ -70,7 +72,7 @@ Set Header request header and response header in batch, Header is divided into r
 | domain     | String   | Yes           | Accelerated Domain|
 | headerContext | [] | Yes   |json character string array, [{"headerType":"resp","headerName":"Server","headerValue":"user CDN Server"}];</br>parameter description</br>headerType: Only value of req (request header)/resp(response header) can be taken; headerName: parameter name; headerValue: value|
 
-## **3. Description of Returned Parameter Data**
+## **3. Return Parameter**
 
 | **Name**   | **Description** | 
 | ---------- | -------- |
@@ -78,15 +80,17 @@ Set Header request header and response header in batch, Header is divided into r
 | msg  | Notification Information | 
 | data | Return Data| 
 
-## **4. Request Address**
+## **4. Request Example**
+
+- ### **Request Address**
 post Method
 
-http://opencdn.jcloud.com/api/batchSetHttpHeader
+https://opencdn.jcloud.com/api/batchSetHttpHeader
 
-## **5. Request Example**
+- ### **Request Example**
 
 ```
-http://opencdn.jcloud.com/api/batchSetHttpHeader
+https://opencdn.jcloud.com/api/batchSetHttpHeader
 {
     "username" :"use_test",
     "signature" :"d847267fc702273abf394dd0c3128d64",
@@ -95,7 +99,7 @@ http://opencdn.jcloud.com/api/batchSetHttpHeader
  }
 ```
 
-## **6. Return Instructions**
+- ### **Return Instructions**
 
 ```
 json Format

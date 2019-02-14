@@ -1,4 +1,4 @@
-# Media Assets Management
+# Video Management
 
 ## 1. Video Upload
 Login VOD console, click **Video Upload** on the menu bar at the left to access "File Upload" page. You can click **Add File** button to click **Add File** again in the pop-up box to pop up Local File Browsing Window, then select the file and click **Start to Upload**.
@@ -21,11 +21,11 @@ Login VOD console, click **VOD**-**Video Management** on the menu bar at the lef
 ## 3. Video Category
 Click **Management** below the video management list to access Video Management page where Category Types can be modified through "Video Category" drop-down list in the Basic Information. If you need to add or delete video categories, you can click **Manage Category Settings** to access Category Settings subpage 
 
-![](https://github.com/jdcloudcom/cn/blob/6095a336fd4c1d5c1e448a37e933d569414fe918/image/Video-on-Demand/%E8%A7%86%E9%A2%91%E5%88%86%E7%B1%BB1.png)
+![](https://github.com/jdcloudcom/cn/blob/6095a336fd4c1d5c1e448a37e933d569414fe918/image/Video-on-Demand/%E8%A7%86%E9%A2%91%E5%88%86%E7%B1%BB2.png)
 
 Click **Create Category** to show characters of "Create Category" in the list, Click **Modify** or **Delete** to complete corresponding operations. 
 
-![](https://github.com/jdcloudcom/cn/blob/cn-Video-on-Demand/image/Video-on-Demand/%E8%A7%86%E9%A2%91%E5%88%86%E7%B1%BB2.png)
+![](https://github.com/jdcloudcom/cn/blob/cn-Video-on-Demand/image/Video-on-Demand/%E8%A7%86%E9%A2%91%E5%88%86%E7%B1%BB1.png)
 
    
 

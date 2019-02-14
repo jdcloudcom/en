@@ -19,6 +19,7 @@ The detailed operation steps are shown as below:
  
 4. Configure Deployment.
   The default stage name is Deployment stage, add deployed atomic operation.  
+  
      1. Select **JCS for Kubernetes** in the atomic operation, select the previously configured construction operation in the Entering Operation. The user needs to create the cluster in advance and provide the Deployment for deployment in the CodePipeline.
         The examples are as follows:
         ![](/image/codepipeline/best-k8s.png)
@@ -45,13 +46,16 @@ The detailed operation steps are shown as below:
 	```
        Where, the image needs to be replaced with the output for constructing operation.
        ![](/image/codepipeline/best-docker.png)  
-       
-     2. Add a Load Balancer service on k8s Cluster page for the Deployment.      
+     
+     2. The authorization is required for removing images from the Container Registry by the JCS for Kubernetes. For specific authorization method, please refer to    
+      [Integrated Container Registry]( https://docs.jdcloud.com/cn/jcs-for-kubernetes/deploy-container-registry)
+      
+     3. Add a Load Balancer service on k8s Cluster page for the Deployment.      
 	```
 	kind: Service
 	apiVersion: v1
 	metadata:
-	  name: lb-test
+	  name: lb-show
 	  namespace: default
 	  labels:
 	    k8s-app: kubernetes-test
@@ -59,13 +63,13 @@ The detailed operation steps are shown as below:
 	  ports:
 	    - protocol: TCP
 	      port: 80
-	      targetPort: 80
-	      nodePort: 30090
+	      targetPort: 8088
+	      nodePort: 30190
 	  selector:
-	    app: nginx
+	    app: golang-test-demo
 	  type: LoadBalancer
 	  sessionAffinity: None
-	  externalTrafficPolicy: Cluster  
+	  externalTrafficPolicy: Cluster 
 	```
 
 5. Save and release.

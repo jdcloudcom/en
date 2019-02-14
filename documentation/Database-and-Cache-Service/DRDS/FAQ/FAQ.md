@@ -18,7 +18,13 @@ A: DRDS stores data on the JCS for MySQL nodes of backend, so that it does not s
 
 A: DRDS supports UTF8 character set and it will support more character sets later
 
-**5. Q: What are the reasons for failing to generate the expansion plan in horizontal expansion?**
+**6. Q: The creation of a database in the name as the same as that of another one fails after deleting a database**
+
+A: The user shall create a DRDS database, migrate and delete the same. As the system will not automatically delete the migrated sub-databases, such sub-databases will be left in RDS MySQL. 
+When the user creates the DRDS database in the name as the same as that of the one in the backend, the creation will fail. In such case, the user needs to delete these legacy databases manually at first and then open tickets.
+
+
+**7. Q: What are the reasons for failing to generate the expansion plan in horizontal expansion?**
 
 A: The reasons for failing to generate the expansion plan generally include
   1. It fails because there is not enough new RDS space to migrate any sub-database.

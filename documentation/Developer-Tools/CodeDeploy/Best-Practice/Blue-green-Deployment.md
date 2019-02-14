@@ -171,9 +171,11 @@ Click **Deployment**  and access **Create Deployment** page, and there are optio
 Deployment Path: Source File/Directory:/       Target Directory:/home
 Script executing account:  root       
 Time-out period of script (s): 100
-Path to stop script: /home/bin/stop.sh
+Path to stop script: /home/bin/stop.sh     
 Path to start script: /home/bin/start.sh
 ```
+
+Note: The stopping script is not required for first deployment
 
 ![Alt text](https://github.com/jdcloudcom/cn/blob/codedeploy/image/CodeDeploy/practice15.png)
 

@@ -9,10 +9,10 @@ Search parters and values set by Header request header and response header. Head
 | **Name**   | **Type** | **Compulsory or not** | **Description**                                                     |
 | ---------- | -------- | ------------ | ------------------------------------------------------------ |
 | username   | String   | Yes           | JD User Name pin                                                |
-| signature  | String   | Yes           | User signature, verify user's identity information through md5 method to ensure information security.  md5=date+username+secret key SecretKey; date: format is yyyymmdd; username: JD user name pin; secret key: agreed between the Parties; example: such as current date 2016-10-23, user pin: jcloud_00, user secret key SecretKey: e7a31b1c5ea0efa9aa2f29c6559f7d61, then the signature is MD5(20161023jcloud_00e7a31b1c5ea0efa9aa2f29c6559f7d61) |
+| signature | String   | Yes           | User Signature, verify user's identity information through md5 method to ensure information security.</br> md5=date+username+secret key SecretKey; date: format is yyyymmdd; username: JD user name pin secret key: agreed between the Parties;</br> example: such as current date 2016-10-23, user pin: jcloud_00, user secret key SecretKey: e7a31b1c5ea0efa9aa2f29c6559f7d61, then the signature is MD5(20161023jcloud_00e7a31b1c5ea0efa9aa2f29c6559f7d61) |
 | domain     | String   | Yes           | Accelerated Domain|
 
-## **3. Description of Returned Parameter Data**
+## **3. Return Parameter**
 
 | **Name**   | **Description** | 
 | ---------- | -------- |
@@ -23,22 +23,23 @@ Search parters and values set by Header request header and response header. Head
 | headerName |Parameter Name of header | 
 |headerValue|Value| 
 
-## **4. Request Address**
+## **4. Call Example**
+- ### **Request Address**
 post Method
 
-http://opencdn.jcloud.com/api/queryHttpHeaderConfig
+https://opencdn.jcloud.com/api/queryHttpHeaderConfig
 
-## **5. Request Example**
+- ### **Request Example**
 
 ```
-http://opencdn.jcloud.com/api/queryHttpHeaderConfig
+https://opencdn.jcloud.com/api/queryHttpHeaderConfig
 {
     "username" :"use_test",
     "signature" :"1e28b8b4a1feddcacce74fa8b7131499",
     "domain":"www.a.com"
  }
 ```
-## **6. Return Instructions**
+- ### **Return Example***
 
 ```
 •json format

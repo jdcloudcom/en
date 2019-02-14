@@ -10,7 +10,7 @@ Modes of rolling deployment and blue and green deployment are both supported. In
 
 Link to Load Balancer
 
-You can configure and link to Load Balancer and its backend service and implement automatic picking and access of traffic in the process of deployment to secure uninterrupted service.
+The association to Load Balancer and its backend service can be configured. During the deployment, automatically obtaining and accessing traffic are implemented.
 
 **Multiple Deployment Sources**
 

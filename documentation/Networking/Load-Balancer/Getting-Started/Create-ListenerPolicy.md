@@ -34,7 +34,7 @@
 	
 		Note: When tcp is used as the backend protocol, if it is enabled for obtaining the real IP, it needs to complete relevant configuration for proxy protocol at the backend server.
 		
-	- Get HTTP header field: Support multiple items such as X-Forwarded-Proto, X-Forwarded-Port, X-Forwarded-LBIP and X-Forwarded-Host for passing through relevant information requested by client http;
+	- Obtaining HTTP header field: Used for passing through relevant information requested by client http. The following items are supported: Obtaining the Load Balancer listening protocol via the field X-Forwarded-Proto; obtaining the Load Balancer listening port via the field X-Forwarded-Port; obtaining the Load Balancer VIP address via the field X-Forwarded-LBIP; and obtaining the Load Balancer target listening destination IP (domain) and port via the field X-Forwarded-Host;
 
 		![ALB后端转发配置](../../../../image/Networking/ALB/ALB-023.png)	
 

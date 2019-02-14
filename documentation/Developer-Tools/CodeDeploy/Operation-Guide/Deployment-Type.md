@@ -51,7 +51,7 @@ The specific steps of rolling deployment are as above. Another deployment type i
 
 **Blue and Green Deployment**
 
-Blue and green deployment is an on-line deployment method insuring that the system service is not interrupted. Specifically:
+The blue and green deployment refers to the deployment method that the blue group and the green group alternatively replace the version and only one group carries the traffic. Specifically:
 
 1) Before launch, either the blue group or the green group (such as the blue group) will provide service externally via the Load Balancer by virtual of taking over traffic.
 

@@ -48,7 +48,18 @@
           - name: View Database
             href: Operation-Guide/Database/View-Database.md        
           - name: Delete Database
-            href: Operation-Guide/Database/Delete-Database.md        
+            href: Operation-Guide/Database/Delete-Database.md
+          - name: Horizontal Expansion of Database
+            items:            
+            - name: Overview
+              href: Operation-Guide/Database/Expand-Database/Database-Expansion-Introduction.md
+            - name: Horizontal Expansion
+              href: Operation-Guide/Database/Expand-Database/Database-Expansion.md  
+            - name: View the Expansion Task
+              href: Operation-Guide/Database/Expand-Database/View-Expansion-Task.md
+            - name: Check and Clear
+              href: Operation-Guide/Database/Expand-Database/Drop-Migrated-Databases.md               
+              
       - name: Table Management
         items:
           - name: Create Table

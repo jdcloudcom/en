@@ -54,7 +54,7 @@ items:
            - name: Set Bucket Policy
              href: Operation-Guide/Manage-Bucket/Set-Bucket-Policy-2.md  
            - name: Cross-Origin Resource Sharing Setting
-             href: Operation-Guide/Manage-Bucket/Set-Bucket-CORS-2.md    
+             href: Operation-Guide/Manage-Bucket/Set-Bucket-CORS-2.md                 
            - name: Static Website Hosting Setting
              href: Operation-Guide/Manage-Bucket/Set-Bucket-Website-2.md
            - name: Cross-regionReplication Setting
@@ -186,7 +186,7 @@ items:
                - name: Head Bucket
                  href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Head-Bucket-2.md
                - name: List Multipart Uploads
-                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Delete-Bucket-Website-2.md
+                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/List-Multipart-Uploads-2.md
                - name: PUT Bucket notification
                  href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/PUT-Bucket-Notification-2.md           
                - name: Put Bucket
@@ -323,6 +323,8 @@ items:
               href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-Java/Multipart-Upload-S3.md              
        - name:  Compatible S3  SDK-Python (Recommended)
          href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-Python.md   
+       - name: Compatible to S3  SDK-Go
+         href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-Go.md            
        - name: Compatible S3  SDK-PHP
          href:  API-Reference-S3-Compatible/Compatibility-Tools/SDK-PHP.md
        - name:  Compatible S3  SDK-Android
@@ -387,6 +389,8 @@ items:
         href: Best-Practices/OSS-Verification-Tool.md
       - name: Mobile Application Direct Transmission OSS
         href: Best-Practices/Transfer-For-Mobile-Apps.md
+      - name: Customized domain supports HTTPS access OSS service
+        href: Best-Practices/Custom-Domain-Name-Guidance.md        
  - name: FAQ
    items:
       - name: General Questions

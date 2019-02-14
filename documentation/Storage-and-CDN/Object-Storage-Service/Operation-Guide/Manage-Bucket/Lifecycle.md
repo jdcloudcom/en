@@ -114,3 +114,4 @@ Details:
  
  - Expiration Policies: It supports two time conditions, i.e. Days and Date, which cannot be specified simultaneously.
  
+ Note: if there are more than 100 entries of life cycle rules to be set, API or SDK is recommended for setting.

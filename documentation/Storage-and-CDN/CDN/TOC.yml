@@ -147,7 +147,6 @@
             href: API-Reference/CDN-Open-API/Query-uv.md
           - name: Set/Delete Header
             href: API-Reference/CDN-Open-API/Set-Header.md
-            status: 0
           - name: Search Header
             href: API-Reference/CDN-Open-API/Query-Header.md
           - name: Attachment: Notification Information Status Code Reference Table
@@ -166,7 +165,17 @@
             href: API-Reference/Live-Video-Open-Api/Query-stream-data.md
           - name: Statistics of Detailed Data of Operators in Separated Areas
             href: API-Reference/Live-Video-Open-Api/Area-isp-statistics.md
-          - name: Live CDN OPEN API
-            href: API-Reference/Live-Video-Open-Api/Live-Video-Open-Api.md
+          - name: Back-to-origin Policy Change
+            href: API-Reference/Live-Video-Open-Api/Change-Live-Back-To-Source.md
+          - name: Service Status Change
+            href: API-Reference/Live-Video-Open-Api/Change-Live-Domain-Status.md
+          - name: Create live acceleration domain
+            href: API-Reference/Live-Video-Open-Api/Creat-Live-Domain.md
+          - name: Search domain configuration information
+            href: API-Reference/Live-Video-Open-Api/Query-Live-Domain-Config.md
+          - name: Search online number
+            href: API-Reference/Live-Video-Open-Api/Query-online-Number.md
+          - name: Set pushing streaming IP White List
+            href: API-Reference/Live-Video-Open-Api/Set-Push-IP-Whitelist.md
   - name: FAQ
     href: FAQ/FAQ.md

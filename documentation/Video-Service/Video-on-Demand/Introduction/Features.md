@@ -7,14 +7,11 @@
     <td>Detailed Contents</td>
 </tr>
 <tr>
-    <td rowspan="4"> Supported Formats<br/>
+    <td rowspan="3"> Supported Formats<br/>
     <td>Video Formats of Source File</td>
-    <td>Files with almost all available common formats are supported to be uploaded as source files (video formats supported to be uploaded include 3GP, ASF, AVI, DAT, DV, FLV, F4V, GIF, M2T, M4V, MJ2, MJPEG, MKV, MOV, MP4, MPE, MPG, MPEG, MTS, OGG, QT, RM, RMVB, SWF, TS, VOB, WMV and WEBM while that of audio formats include aac, ac3, acm, amr, ape, caf, flac, m4a, mp3, ra, wav and wma.)</td>
+    <td>Files with almost all available common formats are supported to be uploaded as source files (video formats supported include 3GP, ASF, AVI, DAT, DV, FLV, F4V, GIF, M2T, M4V, MJ2, MJPEG, MKV, MOV, MP4, MPE, MPG, MPEG, MTS, OGG, QT, RM, RMVB, SWF, TS, VOB, WMV and WEBM while that of audio formats include aac, ac3, acm, amr, ape, caf, mp3, ra, wav and wma.)</td>
 </tr>
-<tr>
-    <td>Audio Format of Source File</td>
-    <td>Audio formats of MP3, OGG, WAV, WMA, APE, FLAC, AAC, AC3, MMF, AMR, M4A, M4R, WV, MP2 are supported to be uploaded</td>
-</tr>
+
 <tr>
     <td>Target Files</td>
     <td>MP4, FLV, HLS file formats are supported</td>
@@ -69,7 +66,7 @@
     <td>Different finished product formats of videos can be previewed</td>
 </tr>
 <tr>	
-    <td rowspan="4"> Video Processing<br/>
+    <td rowspan="2"> Video Processing<br/>
     <td>Transcoding</td>
     <td>Customized transcoding template are supported, which single or multiple templates can be attached to implement multiplex transcoding output to source videos</td>
 </tr>
@@ -77,14 +74,7 @@
     <td>Watermark</td>
     <td>Superimposing watermark for uploaded videos is supported, which watermark templates can be customized for adjusting the size and location of watermark at will to protect video copyright</td>
 </tr>
-<tr>
-    <td>Quality Detection</td>
-    <td>When uploading files, detection for files can be automatically carried out to find common quality problems in advance for improving business process efficiency</td>
-</tr>
-<tr>
-    <td>Audio Control</td>
-    <td>After automatic analysis to videos, loudness of volume can be adjusted to ensure the smooth of volume for providing better watching experience</td>
-</tr>
+
 <tr>
     <td rowspan="1">Video Play<br/>
     <td>Play Acceleration</td>
@@ -107,7 +97,7 @@
 <tr>
     <td rowspan="1">Statistics & Analysis<br/>
     <td>Resources Usage</td>
-    <td>Search for resources usage of storage amount, traffic amount, transcoding duration, etc. at different time slots and with different granularities is supported for better understanding your own businesses</td>
+    <td>Search for resources usage of storage amount, traffic amount, and transcoding duration at different time slots and with different granularities is supported for better understanding the customer’s own businesses</td>
 </tr>
 </table>
 
