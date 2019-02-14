@@ -18,5 +18,5 @@ JDFusion产品通过京东云提供的CLI程序的运行，需要准备相应的
 
 京东云Python SDK不用手动安装，Python包管理工具会自动下载并安装对应版本的依赖包。
 
-具体安装部署请查看[京东云CLI安装部署说明](https://docs.jdcloud.com/cn/cli/introduction)。
+具体安装部署请查看[京东云CLI安装部署说明](https://docs.jdcloud.com/en/cli/introduction)。
 

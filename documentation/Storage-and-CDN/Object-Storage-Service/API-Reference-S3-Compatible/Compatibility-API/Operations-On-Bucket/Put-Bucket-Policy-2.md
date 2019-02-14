@@ -1,7 +1,7 @@
 # Put Bucket Policy
 
 ## Description
-The operation can set policy of specified Bucket, which is only available to the Owner of the Bucket. For more Bucket Policy relevant information, please access https://docs.jdcloud.com/cn/object-storage-service/set-bucket-policy-2
+The operation can set policy of specified Bucket, which is only available to the Owner of the Bucket. For more Bucket Policy relevant information, please access https://docs.jdcloud.com/en/object-storage-service/set-bucket-policy-2
 
 ## Request
 ### Syntax

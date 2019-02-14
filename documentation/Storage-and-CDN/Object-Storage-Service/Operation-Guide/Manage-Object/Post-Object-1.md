@@ -61,7 +61,7 @@ The Policy form field of the Post request is used to verify the validity of the 
 
 Function Usage Reference
 
-API: [PostObject](https://docs.jdcloud.com/cn/object-storage-service/post-object-2)
+API: [PostObject](https://docs.jdcloud.com/en/object-storage-service/post-object-2)
 
 Sample Demo
 

@@ -75,5 +75,5 @@ Click the target domain or the right-handed resolution button to enter the domai
 Add resolution, and then add the resolution page.
 Choose CNAME in the record type drop-down list; in the record value box, fill in the corresponding storage space Internet domain (i.e. Bucket domain, such as BucketName.oss.cn-north-1.jcloudcs.com).
 Click **Confirm**, and the domain resolution is completed.
-For details, please refer to [JD Cloud DNS-Add Resolution Record](https://docs.jdcloud.com/cn/jd-cloud-dns/domain-record-add)
+For details, please refer to [JD Cloud DNS-Add Resolution Record](https://docs.jdcloud.com/en/jd-cloud-dns/domain-record-add)
 

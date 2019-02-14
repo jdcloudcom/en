@@ -1,6 +1,6 @@
 # Integrate with Container Registry  
 
-See [Help documentation of Container Registry](https://docs.jdcloud.com/cn/container-registry/create-image) for use method of Container Registry. For example, the registry is myregistry, the repository is myrepo, the image version number is latest and the region is cn-north-1. Users can make the alternation depending on specific conditions.  
+See [Help documentation of Container Registry](https://docs.jdcloud.com/en/container-registry/create-image) for use method of Container Registry. For example, the registry is myregistry, the repository is myrepo, the image version number is latest and the region is cn-north-1. Users can make the alternation depending on specific conditions.  
 1.   
 **Step 1: Save secret all at once with time validity**
 ```

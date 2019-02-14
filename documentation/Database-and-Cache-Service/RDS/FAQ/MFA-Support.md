@@ -2,7 +2,7 @@
 
 MFA (Multi-Factor Authentication) is a simple and effective best security practice. It can add an extra layer of security protection in addition to the user name and password, and it can perform identity authentication to prevent false deletion when JD Cloud performs sensitive operations.
 
-Please refer to the [MFA Document](https://docs.jdcloud.com/cn/iam/mfa-overview) for the specific introduction and setup of MFA
+Please refer to the [MFA Document](https://docs.jdcloud.com/en/iam/mfa-overview) for the specific introduction and setup of MFA
 
 ### The authentication methods supported by RDS include:
 

@@ -13,6 +13,6 @@
 
 **II. Obtaining through JD Cloud CLI**
 
- 1. Install the [JD Cloud CLI](https://docs.jdcloud.com/cn/cli/introduction).
+ 1. Install the [JD Cloud CLI](https://docs.jdcloud.com/en/cli/introduction).
  2. Get tokens via the following commands
     `jdc cr get-authorization-token --region-id **** --registry-name ****`

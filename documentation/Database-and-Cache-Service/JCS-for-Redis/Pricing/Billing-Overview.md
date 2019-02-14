@@ -4,7 +4,7 @@ This billing is only for JCS for Redis products. Except for the specification fe
 
 ## Billing Instructions
 Pay By Configuration
---See  [Billing Instructions for Pay-As-You-Go](https://docs.jdcloud.com/cn/billing/postpay).
+--See  [Billing Instructions for Pay-As-You-Go](https://docs.jdcloud.com/en/billing/postpay).
 
 Monthly Package
---See [Billing Instructions for Pay-In-Advance](https://docs.jdcloud.com/cn/billing/prepay).
+--See [Billing Instructions for Pay-In-Advance](https://docs.jdcloud.com/en/billing/prepay).

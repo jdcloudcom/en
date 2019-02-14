@@ -89,7 +89,7 @@ The below operation steps are described by taking JD Cloud DNS for example. If o
 
 1. After filling, click **OK**to complete the modification of resolution record.
 
-For more specific operation description, please refer to [Resolution Record Operation](https://docs.jdcloud.com/cn/jd-cloud-dns/domain-record-add).
+For more specific operation description, please refer to [Resolution Record Operation](https://docs.jdcloud.com/en/jd-cloud-dns/domain-record-add).
 
 **Note**
 

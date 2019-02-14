@@ -64,7 +64,7 @@ Before performing migration start script, you are required to modify application
 |src.prefix |If only part of file is migrated, it is required to configure prefix. If prefix is the digit started with 0, please use single or double quotation marks|Null|
 |des.access.id|JD Cloud accessKeyId. |Null|
 |des.secret.key|JD Cloud Key accessKeySecret. |Null|
-|des.endpoint|Service domain of JD Cloud OSS, please refer to [Server Domain](https://docs.jdcloud.com/cn/object-storage-service/regions-and-endpoints). |Null|
+|des.endpoint|Service domain of JD Cloud OSS, please refer to [Server Domain](https://docs.jdcloud.com/en/object-storage-service/regions-and-endpoints). |Null|
 |des.bucket |Target bucket. |Null|
 |des.prefix  |If the migrated file is only migrated to certain directory, it is required to configure des.prefix. If prefix is the digit started with 0, please use single or double quotation marks|Null|
 

@@ -89,12 +89,12 @@ Before creating native container Pod, you need to finish the following steps
 
 
   [1]: ./images/podregion.jpg "podregion.jpg"
-  [2]: https://docs.jdcloud.com/cn/native-container/billing-rules
-  [3]: https://docs.jdcloud.com/cn/native-container/recommend-instance
-  [4]: https://docs.jdcloud.com/cn/virtual-private-cloud/product-overview
-  [5]: https://docs.jdcloud.com/cn/virtual-private-cloud/subnet-features
-  [6]: https://docs.jdcloud.com/cn/native-container/security-group
-  [7]: https://docs.jdcloud.com/cn/elastic-ip/product-overview
-  [8]: https://docs.jdcloud.com/cn/elastic-ip/billing-rules
-  [9]: https://docs.jdcloud.com/cn/cloud-disk-service/price-overview
-  [10]: https://docs.jdcloud.com/cn/container-registry/create-registry
+  [2]: https://docs.jdcloud.com/en/native-container/billing-rules
+  [3]: https://docs.jdcloud.com/en/native-container/recommend-instance
+  [4]: https://docs.jdcloud.com/en/virtual-private-cloud/product-overview
+  [5]: https://docs.jdcloud.com/en/virtual-private-cloud/subnet-features
+  [6]: https://docs.jdcloud.com/en/native-container/security-group
+  [7]: https://docs.jdcloud.com/en/elastic-ip/product-overview
+  [8]: https://docs.jdcloud.com/en/elastic-ip/billing-rules
+  [9]: https://docs.jdcloud.com/en/cloud-disk-service/price-overview
+  [10]: https://docs.jdcloud.com/en/container-registry/create-registry

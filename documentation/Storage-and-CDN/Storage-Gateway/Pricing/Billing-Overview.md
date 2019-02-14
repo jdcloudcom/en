@@ -8,6 +8,6 @@ The description of Storage Gateway charge:
 
 - Storage Gateway side: Storage Gateway is free
 
-- Virtual Machines side: please reference [Virtual Machines Billing Overview](https://docs.jdcloud.com/cn/virtual-machines/billing-overview) for relevant charge of Virtual Machines used for deploying Storage Gateway
+- Virtual Machines side: please reference [Virtual Machines Billing Overview](https://docs.jdcloud.com/en/virtual-machines/billing-overview) for relevant charge of Virtual Machines used for deploying Storage Gateway
 
-- Object Storage Service side: please reference [Object Storage Service Billing Overview](https://docs.jdcloud.com/cn/object-storage-service/billing-overview) for Object Storage Service charge depended by the backend of Storage Gateway
+- Object Storage Service side: please reference [Object Storage Service Billing Overview](https://docs.jdcloud.com/en/object-storage-service/billing-overview) for Object Storage Service charge depended by the backend of Storage Gateway

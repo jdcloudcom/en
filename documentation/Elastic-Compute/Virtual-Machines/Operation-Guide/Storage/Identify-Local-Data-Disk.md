@@ -16,7 +16,7 @@ Taking the CentOS 7.4 system for example for Linux, action steps are as follows:
 
 1. Access [Virtual Machines Console](https://cns-console.jdcloud.com/host/compute/list) to log in the instance list page. Or, access [JD Cloud Console](https://console.jdcloud.com) and log in the instance list page by clicking **Elastic Compute**-**Virtual Machine** on the left navigation bar.
 2. Select regions.
-3. Select instances for view of local data disk in the instance list, [Linux Instance Login](https://docs.jdcloud.com/cn/virtual-machines/connect-to-linux-instance).
+3. Select instances for view of local data disk in the instance list, [Linux Instance Login](https://docs.jdcloud.com/en/virtual-machines/connect-to-linux-instance).
 4. Enter:
 ```ll /dev/disk/by-id```
 	
@@ -28,7 +28,7 @@ Taking the standard edition of Windows, Windows 2008, for example, the action st
 
 1. Access [Virtual Machines Console](https://cns-console.jdcloud.com/host/compute/list) to log in the instance list page. Or, access [JD Cloud Console](https://console.jdcloud.com) and log in the instance list page by clicking **Elastic Compute**-**Virtual Machine** on the left navigation bar.
 2. Select regions.
-3. Select instances for view of local data disk in the instance list, [Windows Instance Login](https://docs.jdcloud.com/cn/virtual-machines/connect-to-windows-instance)。
+3. Select instances for view of local data disk in the instance list, [Windows Instance Login](https://docs.jdcloud.com/en/virtual-machines/connect-to-windows-instance)。
 4. Enter:
 ```wmic
 diskdrive get PNPDeviceID,SerialNumber
@@ -38,6 +38,6 @@ diskdrive get PNPDeviceID,SerialNumber
 
 ## Related References
 
-[Log in Linux Instance](https://docs.jdcloud.com/cn/virtual-machines/connect-to-linux-instance)
+[Log in Linux Instance](https://docs.jdcloud.com/en/virtual-machines/connect-to-linux-instance)
 
-[Log in Windows Instance](https://docs.jdcloud.com/cn/virtual-machines/connect-to-windows-instance)
+[Log in Windows Instance](https://docs.jdcloud.com/en/virtual-machines/connect-to-windows-instance)

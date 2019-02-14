@@ -26,7 +26,7 @@ Consistent consumption remained is as follows:
 
 - Tags set by all Consumers under the same ConsumerGroup shall be the same
 
-For relevant codes, please go to [SDK Reference](https://docs.jdcloud.com/cn/message-queue/produce-standard-message).
+For relevant codes, please go to [SDK Reference](https://docs.jdcloud.com/en/message-queue/produce-standard-message).
 
 
 ## Select Topic or Tag

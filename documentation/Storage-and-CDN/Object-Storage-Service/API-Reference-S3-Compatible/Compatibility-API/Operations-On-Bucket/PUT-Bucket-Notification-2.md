@@ -1,7 +1,7 @@
 # PUT Bucket notification
 
 ## Description
-OSS supports[Callback Notification](https://docs.jdcloud.com/cn/object-storage-service/callback-notification-2)function, you can specify timely message notification when some resources occur relevant operations. OSS Callback Notification is performed asynchronously, so that OSS operations will not be affected.
+OSS supports[Callback Notification](https://docs.jdcloud.com/en/object-storage-service/callback-notification-2)function, you can specify timely message notification when some resources occur relevant operations. OSS Callback Notification is performed asynchronously, so that OSS operations will not be affected.
 
 You can specify a Bucket to create or change the NotificationConfiguration via PUT Bucket notification. NotificationConfiguration is in XML format. By default, your Bucket is not configured Callback Notification, so NotificationConfiguration is null, you can disable Callback Notification by adding NotificationConfiguration of null.
 ```

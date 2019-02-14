@@ -8,7 +8,7 @@
 
 ## Create Storage Gateway 
 
-1. Now Storage Gateway is in the stage of Beta so that you shall submit [Open Beta Test Application](https://www.jdcloud.com/cn/public/testApply/storagegateway) before creation. After Open Beta Test Application has been approved, you can view the image of Storage Gateway under the page of Control Console-Virtual Machines-Image-Shared Image.
+1. Now Storage Gateway is in the stage of Beta so that you shall submit [Open Beta Test Application](https://www.jdcloud.com/en/public/testApply/storagegateway) before creation. After Open Beta Test Application has been approved, you can view the image of Storage Gateway under the page of Control Console-Virtual Machines-Image-Shared Image.
 
 ![存储网关镜像](../../../../image/Storage-Gateway/storagegateway-1.png)
 
@@ -34,7 +34,7 @@ After completion of VM instance creation, you need login the Virtual Machines to
 
 - bucket: the Bucket name connecting Storage Gateway
 
-Notification: see [AccessKey Management](https://uc.jdcloud.com/account/accesskey) for obtaining aaccessKeyID and accessKeySecret; see [OSS server domain](https://docs.jdcloud.com/cn/object-storage-service/regions-and-endpoints) for obtaining endpoint; single Storage Gateway only support one Bucket.
+Notification: see [AccessKey Management](https://uc.jdcloud.com/account/accesskey) for obtaining aaccessKeyID and accessKeySecret; see [OSS server domain](https://docs.jdcloud.com/en/object-storage-service/regions-and-endpoints) for obtaining endpoint; single Storage Gateway only support one Bucket.
 
 Configuration Example:
 
@@ -55,7 +55,7 @@ Notification:
 
 - `/dev/vdb`is the device name of your Cloud Disk Service, which can be initialed as the local cache of Cloud Disk Service by yourself as required; 
 
-- Parameters such as `/cache ext4`shall not be modified. Please reference [Partition, format and attaching of Data Disk](https://docs.jdcloud.com/cn/cloud-disk-service/linux-partition) for initialing Cloud Disk Service. Pop up `Warning: This directory exists, is this ok? [Y/N]`, please enter `Y`.
+- Parameters such as `/cache ext4`shall not be modified. Please reference [Partition, format and attaching of Data Disk](https://docs.jdcloud.com/en/cloud-disk-service/linux-partition) for initialing Cloud Disk Service. Pop up `Warning: This directory exists, is this ok? [Y/N]`, please enter `Y`.
 
 - The cache directory for the Storage Gateway is `/cache`, the data about your resent access is cached under such directory, and the cache can be manually cleared.
  

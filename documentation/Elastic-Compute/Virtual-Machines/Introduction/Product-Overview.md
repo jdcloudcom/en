@@ -16,7 +16,7 @@ See [Core Concepts](Core-Concepts.md) for the concepts that are commonly referre
 ## Using Virtual Machines
 JD Cloud provides a Web operation interface - the console. You can use your JD Cloud account to directly login [Virtual Machines Console](https://cns-console.jdcloud.com/compute/list) to manage and operate your Virtual Machines.
 
-JD Cloud also provides APIs for you to manage the VM. For specific information related to API operation of VM. Please refer to [OpenAPI Documentation](https://docs.jdcloud.com/cn/virtual-machines/api/overview). You can use SDK (support Java/Python/Go/Node.js/PHP/.Net/C++) to program or use the JD Cloud command line tool (CLI) to call the virtual machine API. For details, please refer to: [SDK Documentation](https://docs.jdcloud.com?act=3) and [CLI Documentation](https://docs.jdcloud.com/cn/cli/introduction).
+JD Cloud also provides APIs for you to manage the VM. For specific information related to API operation of VM. Please refer to [OpenAPI Documentation](https://docs.jdcloud.com/en/virtual-machines/api/overview). You can use SDK (support Java/Python/Go/Node.js/PHP/.Net/C++) to program or use the JD Cloud command line tool (CLI) to call the virtual machine API. For details, please refer to: [SDK Documentation](https://docs.jdcloud.com?act=3) and [CLI Documentation](https://docs.jdcloud.com/en/cli/introduction).
 
 ## Billing Instructions
 The Virtual Machines support two billing modes, i.e. monthly package and pay by configuration:

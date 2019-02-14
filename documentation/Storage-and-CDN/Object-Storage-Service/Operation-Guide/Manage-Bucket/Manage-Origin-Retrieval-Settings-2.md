@@ -50,7 +50,7 @@ Expires
 Back-to-origin address does not support to configure OSS Intranet domain.
 
 ### 1. Set the image back-to-origin by virtue of using OSS Open API.
-Reference: [Set Image Back-to-origin](https://docs.jdcloud.com/cn/object-storage-service/api/putbacksourceconfiguration?content=API)
+Reference: [Set Image Back-to-origin](https://docs.jdcloud.com/en/object-storage-service/api/putbacksourceconfiguration?content=API)
 ### 2. Set the image back-to-origin by virtue of using OSS management console.
 
 1. Login to the Console->Object Storage Service->Space Management->Enter a Bucket->Space Settings->Image back-to-origin

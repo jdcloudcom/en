@@ -17,8 +17,8 @@
 ## Other Restrictions
 Constraints|Constraint Rules|Exception Application Mode   
 :---|:---|:---     
-Optional VM Instance Specifications|See [VM Instance Specifications](https://docs.jdcloud.com/cn/virtual-machines/instance-type-family)|Open Ticket 
-Optional Public Image Types|See [Public Image Release Version](https://docs.jdcloud.com/cn/virtual-machines/image-type)|Open Ticket         
+Optional VM Instance Specifications|See [VM Instance Specifications](https://docs.jdcloud.com/en/virtual-machines/instance-type-family)|Open Ticket 
+Optional Public Image Types|See [Public Image Release Version](https://docs.jdcloud.com/en/virtual-machines/image-type)|Open Ticket         
 Single Region Instance Quota|20|Open Ticket      
 Single Region Cloud Disk Quota|15|Open Ticket       
 Single Region Cloud Disk Snapshot Quota|15|Open Ticket   

@@ -1,6 +1,6 @@
 # Action Description Method
 
-The action is composed of the service name and specific action name. For the service name of each product line, please refer to [Service Supporting IAM](https://docs.jdcloud.com/cn/iam/support-services)
+The action is composed of the service name and specific action name. For the service name of each product line, please refer to [Service Supporting IAM](https://docs.jdcloud.com/en/iam/support-services)
 
 ```
 All Actions of All Products

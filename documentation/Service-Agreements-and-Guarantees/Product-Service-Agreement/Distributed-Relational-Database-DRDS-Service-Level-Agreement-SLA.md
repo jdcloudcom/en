@@ -6,7 +6,7 @@ JD Cloud provides the user with the Distributed Relational Database Service (DRD
 
 **2.1 Data Persistence**
 
-The Distributed Relational Database Service (DRDS) itself is not used for data storage. The data are stored in the user’s RDS MySQL. For data durability of Distributed Relational Database Service (DRDS), please refer to the [RDS Service Level Agreement](https://docs.jdcloud.com/cn/product-service-agreement/cloud-database-rds-service-level-agreement-sla)
+The Distributed Relational Database Service (DRDS) itself is not used for data storage. The data are stored in the user’s RDS MySQL. For data durability of Distributed Relational Database Service (DRDS), please refer to the [RDS Service Level Agreement](https://docs.jdcloud.com/en/product-service-agreement/cloud-database-rds-service-level-agreement-sla)
 
 **2.2 Destruction Nature of Data**
 

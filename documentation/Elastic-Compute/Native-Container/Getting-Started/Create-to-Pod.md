@@ -37,7 +37,7 @@ Before creating native container Pod, you need to finish the following steps
 	* Select Create Cloud Disk, use existing cloud disk and snapshot to create Pod storage;  
 	* Cloud Disk Service Type:  
 		* In cn-north-1, cn-south-1: supporting range of Premium Hdd Cloud Disk is 20G~3,000G; supporting range of SSD Cloud Disk is 20G~1,000G;  
-		* In cn-east-2: supporting range of general-oriented SSD Cloud Disk, performance-oriented SSD Cloud Disk and capacity-oriented HDD Cloud Disk is 20G~4,000G; see [Cloud Disk Service](https://docs.jdcloud.com/cn/cloud-disk-service/product-overview) for details  
+		* In cn-east-2: supporting range of general-oriented SSD Cloud Disk, performance-oriented SSD Cloud Disk and capacity-oriented HDD Cloud Disk is 20G~4,000G; see [Cloud Disk Service](https://docs.jdcloud.com/en/cloud-disk-service/product-overview) for details  
 	* When select billing as pay by configuration, it can configure whether the cloud disk service is automatically deleted followed Pod;  
 	* Support xfs and ext4 two file system format. When create Pod, system will initiate cloud disk according to selected file system format. When select Create Cloud Disk or use Snapshot, it will force to initiate the new cloud disk according to the selected file system format. When select Existing Cloud Disk, please select whether to force to format cloud disk as required;  
 	* Single Pod supports attach seven cloud disks as storage at most; and it only supports to attach cloud disks when creating Pod.        
@@ -97,12 +97,12 @@ Before creating native container Pod, you need to finish the following steps
  
 
 
-  [2]: https://docs.jdcloud.com/cn/native-container/billing-rules
-  [3]: https://docs.jdcloud.com/cn/native-container/recommend-instance
-  [4]: https://docs.jdcloud.com/cn/virtual-private-cloud/product-overview
-  [5]: https://docs.jdcloud.com/cn/virtual-private-cloud/subnet-features
-  [6]: https://docs.jdcloud.com/cn/native-container/security-group
-  [7]: https://docs.jdcloud.com/cn/elastic-ip/product-overview
-  [8]: https://docs.jdcloud.com/cn/elastic-ip/billing-rules
-  [9]: https://docs.jdcloud.com/cn/cloud-disk-service/price-overview
-  [10]: https://docs.jdcloud.com/cn/container-registry/create-registry
+  [2]: https://docs.jdcloud.com/en/native-container/billing-rules
+  [3]: https://docs.jdcloud.com/en/native-container/recommend-instance
+  [4]: https://docs.jdcloud.com/en/virtual-private-cloud/product-overview
+  [5]: https://docs.jdcloud.com/en/virtual-private-cloud/subnet-features
+  [6]: https://docs.jdcloud.com/en/native-container/security-group
+  [7]: https://docs.jdcloud.com/en/elastic-ip/product-overview
+  [8]: https://docs.jdcloud.com/en/elastic-ip/billing-rules
+  [9]: https://docs.jdcloud.com/en/cloud-disk-service/price-overview
+  [10]: https://docs.jdcloud.com/en/container-registry/create-registry

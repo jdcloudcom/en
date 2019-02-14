@@ -144,7 +144,7 @@ fail：
 
 ## CLI Reporting 
 ### Installation of CLI  
-About how to install, please refer to <a href="https://docs.jdcloud.com/cn/cli/installation”> for installation instructions </a> .
+About how to install, please refer to <a href="https://docs.jdcloud.com/en/cli/installation”> for installation instructions </a> .
 ### Configuration Environment  
 
 Configure the KEY, location area (region-id) and gateway address (endpoint) and edit /root/.jdc/config

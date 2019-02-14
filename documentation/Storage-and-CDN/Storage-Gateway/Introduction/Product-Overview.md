@@ -2,7 +2,7 @@
 
 JD Cloud Storage Gateway takes JD Cloud Object Storage Service as its backend storage to help enterprises or individuals realize the seamless joint between local storage and Cloud Storage. Storage Gateway supports NFS standard file storage protocol and provides low latency performance through local cache, which can offer mass Cloud storage with the access rate comparable to that of local performance after deployment.
 
-Storage Gateway now is under Open Beta Test and we welcome you to submit [Open Beta Test Application](https://www.jdcloud.com/cn/public/testApply/storagegateway)！
+Storage Gateway now is under Open Beta Test and we welcome you to submit [Open Beta Test Application](https://www.jdcloud.com/en/public/testApply/storagegateway)！
 
 ## Gateway Type
 

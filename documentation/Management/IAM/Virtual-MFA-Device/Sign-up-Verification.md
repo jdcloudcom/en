@@ -4,7 +4,7 @@ Login protection means that when you associate to virtual MFA equipment, in addi
 
 ## Primary account login secondary verification
 
-Please view the link for login questions: [FAQ for MFA Login Verification](https://docs.jdcloud.com/cn/iam/mfa-faqs)
+Please view the link for login questions: [FAQ for MFA Login Verification](https://docs.jdcloud.com/en/iam/mfa-faqs)
 
 ![主账号登录MFA扫码验证页](../../../../image/IAM/MFA/主账号MFA扫码验证页.jpg)
 
@@ -12,7 +12,7 @@ Please view the link for login questions: [FAQ for MFA Login Verification](https
 
 ## Sub-account login secondary verification
 
-Please view the link for login questions: [FAQ for MFA Login Verification](https://docs.jdcloud.com/cn/iam/mfa-faqs)
+Please view the link for login questions: [FAQ for MFA Login Verification](https://docs.jdcloud.com/en/iam/mfa-faqs)
 
 ![子用户登录验证页](../../../../image/IAM/MFA/子账号登录验证页.jpg)
 

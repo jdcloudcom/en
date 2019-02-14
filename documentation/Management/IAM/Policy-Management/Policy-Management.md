@@ -30,7 +30,7 @@ On the Authorization Policy Management list page, click **Create** to obtain two
 The visual policy generator is designed to provide users with more friendly and convenient tools for policy creation. Users can visually select product lines, actions, resources and other information in turn. After clicking for confirmation, it will automatically generate policies in Json format for you.
 
 - Enter the policy name and description.
-- Selection of product line (Service Name). For more information, please refer to [Service Supporting IAM](https://docs.jdcloud.com/cn/iam/support-services)
+- Selection of product line (Service Name). For more information, please refer to [Service Supporting IAM](https://docs.jdcloud.com/en/iam/support-services)
 - Select Action
 - Select Resources
 - Once a set of product lines, resources, and actions are specified, you can click **Add** until you complete the entire policy.

@@ -10,7 +10,7 @@
 **2. Add new RDS instance**
 
 Select the newly added instances from the RDS MySQL instance on the left. The system will generate a capacity expansion plan based on the quantity and specifications of the newly added instances. When there are many instances, it will take a few seconds to generate the expansion plan. Please wait for a while.
-If the generation of expansion plan fails, please view the [FAQ](https://docs.jdcloud.com/cn/drds/faq)
+If the generation of expansion plan fails, please view the [FAQ](https://docs.jdcloud.com/en/drds/faq)
 
 **Note: For the stability of the system, the RDS MySQL version where the database is located must be consistent**
 

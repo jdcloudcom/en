@@ -16,14 +16,14 @@ A: Currently, the maximum number of JCS for Redis available to each user is 5. I
 
 **Q: Why do the Virtual Machines fail to access the Redis instance?**
 
-A: 1. Please confirm the Virtual Machines and Redis are in the same VPC or not; 2. If yes, please follow the [Connection Instance](https://docs.jdcloud.com/cn/jcs-for-redis/connect-instances) document and check if the format and content are correct; and 3. If the aforesaid two steps are OK and the connection still fails, please contact the customer service for help.
+A: 1. Please confirm the Virtual Machines and Redis are in the same VPC or not; 2. If yes, please follow the [Connection Instance](https://docs.jdcloud.com/en/jcs-for-redis/connect-instances) document and check if the format and content are correct; and 3. If the aforesaid two steps are OK and the connection still fails, please contact the customer service for help.
 
 
 **Q: What are the Redis version and supported commands?**
 
-A: Please refer to the [Command Supported](https://docs.jdcloud.com/cn/jcs-for-redis/command-supported) document. Please contact the customer service if you have other doubts.
+A: Please refer to the [Command Supported](https://docs.jdcloud.com/en/jcs-for-redis/command-supported) document. Please contact the customer service if you have other doubts.
 
 
 **Q: How to import and export Redis data?**
 
-A: Please refer to the [Data Migration](https://docs.jdcloud.com/cn/jcs-for-redis/data-migration) document. Please contact the customer service if you have other doubts.
+A: Please refer to the [Data Migration](https://docs.jdcloud.com/en/jcs-for-redis/data-migration) document. Please contact the customer service if you have other doubts.

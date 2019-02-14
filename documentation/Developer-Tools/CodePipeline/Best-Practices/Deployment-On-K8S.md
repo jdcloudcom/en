@@ -48,7 +48,7 @@ The detailed operation steps are shown as below:
        ![](/image/codepipeline/best-docker.png)  
      
      2. The authorization is required for removing images from the Container Registry by the JCS for Kubernetes. For specific authorization method, please refer to    
-      [Integrated Container Registry]( https://docs.jdcloud.com/cn/jcs-for-kubernetes/deploy-container-registry)
+      [Integrated Container Registry]( https://docs.jdcloud.com/en/jcs-for-kubernetes/deploy-container-registry)
       
      3. Add a Load Balancer service on k8s Cluster page for the Deployment.      
 	```

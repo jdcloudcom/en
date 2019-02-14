@@ -9,7 +9,7 @@ The functions have been provided by JD Cloud Distributed Service Framework inclu
 
 -   When creating microservice components, the Private IP resource in the VPC subnet of the user will be occupied, so that the user needs to keep sufficient subnet IP resource and we recommend that at least 15 IP addresses shall be reserved except that of Virtual Machines.
 
--   Before using the services of the product, please make sure that you have created VPC on JD Cloud. Please refer to: [Create VPC](https://docs.jdcloud.com/cn/virtual-private-cloud/vpc-configuration)
+-   Before using the services of the product, please make sure that you have created VPC on JD Cloud. Please refer to: [Create VPC](https://docs.jdcloud.com/en/virtual-private-cloud/vpc-configuration)
 
 -   The Registration Center and Calling Chain Analysis Service are independent mutually and you can purchase your functions as required.
 

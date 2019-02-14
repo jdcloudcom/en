@@ -49,8 +49,8 @@ This document describes how to construct MongoDB shard cluster based on JD Cloud
 
 - Shard separately attaches a data disk for data storage, and Config Server and Router only need a system disk.
 - It is recommended to deploy all Virtual Machines in a same subnet for the convenience of installation and configuration. You may associate EIP at first.
-- For creating VM instance, please refer to: [Create Linux Instance](https://docs.jdcloud.com/cn/virtual-machines/create-linux-instance)
-- For attaching data disk, please refer to: [Attach Data Disk](https://docs.jdcloud.com/cn/virtual-machines/mount-datadisk)
+- For creating VM instance, please refer to: [Create Linux Instance](https://docs.jdcloud.com/en/virtual-machines/create-linux-instance)
+- For attaching data disk, please refer to: [Attach Data Disk](https://docs.jdcloud.com/en/virtual-machines/mount-datadisk)
 
 **2. Install MongoDB**
 
@@ -79,7 +79,7 @@ yum -y install mongodb-org
 ```
 **3. After completing installation for one set, create image in order to create by batch the remaining Virtual Machines with image.**
 
-- For creating image, please refer to: [Create Private Image Based on Instance](https://docs.jdcloud.com/cn/virtual-machines/create-private-image).
+- For creating image, please refer to: [Create Private Image Based on Instance](https://docs.jdcloud.com/en/virtual-machines/create-private-image).
 
 
 ## II. Configure Shard

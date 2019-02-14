@@ -1,6 +1,6 @@
 # GET Bucket encryption
  Return the user’s default encryption configuration of OSS bucket. This interface is compatible with S3, and only supports the compatible S3 service domain name of OSS.
-Refer to [Server Domain Name](https://docs.jdcloud.com/cn/object-storage-service/regions-and-endpoints)。
+Refer to [Server Domain Name](https://docs.jdcloud.com/en/object-storage-service/regions-and-endpoints)。
  
 ## Request Syntax
  

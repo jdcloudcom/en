@@ -26,7 +26,7 @@ Step 2: Fill in corresponding parameters in the pop-up dialog box:
 
 Display name: Display name and fill in your own user name generally.
 
-Service point: Fill in [service endpoint of S3 compatible](https://docs.jdcloud.com/cn/object-storage-service/regions-and-endpoints) to JD Cloud.
+Service point: Fill in [service endpoint of S3 compatible](https://docs.jdcloud.com/en/object-storage-service/regions-and-endpoints) to JD Cloud.
 
 Access key, Secret key: AK and SK access to OSS service
 

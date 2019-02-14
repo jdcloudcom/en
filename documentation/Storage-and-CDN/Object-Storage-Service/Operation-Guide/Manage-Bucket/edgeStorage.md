@@ -93,7 +93,7 @@ Where the user has its own IPFS nodes and hopes to store its own files in OSS, p
 <div id="user-content-9"></div>
 
 - Service domain: apigw-internal.cn-north-1.jcloudcs.com
-- Verification: [JD API Gateway](https://www.jdcloud.com/cn/products/api-gateway) Unified Verification
+- Verification: [JD API Gateway](https://www.jdcloud.com/en/products/api-gateway) Unified Verification
 
 ## API Detail
 

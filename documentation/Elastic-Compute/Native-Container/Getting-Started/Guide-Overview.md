@@ -91,7 +91,7 @@ The above-mentioned intranet interconnection refers to the interconnection of re
 It is recommended that you use Pay By Configuration billing instances for performance testing to find instance type and other resource configurations that match your business volume before deploying the business formally. You may refer to Instance [settings recommendation][4].
 
 
-  [1]: https://docs.jdcloud.com/cn/real-name-verification/real-name-verification
+  [1]: https://docs.jdcloud.com/en/real-name-verification/real-name-verification
   [2]: https://cns-console.jdcloud.com/host/vpc/list
   [3]: https://cns-console.jdcloud.com/host/subnet/list
-  [4]: https://docs.jdcloud.com/cn/native-container/recommend-instance
+  [4]: https://docs.jdcloud.com/en/native-container/recommend-instance

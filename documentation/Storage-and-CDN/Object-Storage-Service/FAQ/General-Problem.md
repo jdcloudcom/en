@@ -12,7 +12,7 @@ OSS provides a simple Web service interface for storing and extracting data of a
 
 ### How to start using OSS?
 
-To use OSS, you need to register an account of JD Cloud. If you do not have an account of JD Cloud, please enter into the [JD Cloud Registration Page](https://accounts.jdcloud.com/p/regPage?source=jdcloud&ReturnUrl=https%3a%2f%2fuc.jdcloud.com%2fpassport%2fcomplete%3freturnUrl%3dhttps%3a%2f%2fwww.jdcloud.com) to register according to the notification. After the registration is completed, you can refer to [Getting Started of OSS - Enable OSS Service](https://docs.jdcloud.com/cn/object-storage-service/sign-up-service-1)。
+To use OSS, you need to register an account of JD Cloud. If you do not have an account of JD Cloud, please enter into the [JD Cloud Registration Page](https://accounts.jdcloud.com/p/regPage?source=jdcloud&ReturnUrl=https%3a%2f%2fuc.jdcloud.com%2fpassport%2fcomplete%3freturnUrl%3dhttps%3a%2f%2fwww.jdcloud.com) to register according to the notification. After the registration is completed, you can refer to [Getting Started of OSS - Enable OSS Service](https://docs.jdcloud.com/en/object-storage-service/sign-up-service-1)。
 
 ### What storage types does OSS provide?
 

@@ -63,7 +63,7 @@ The service provider acknowledges and agrees that JD Cloud has the right to unil
 
 3.6 Service providers who voluntarily withdraw from the Cloud Marketplace can send email to yunshichang@jd.com to submit a withdrawal application. After Cloud Marketplace verification approved, the service providers shall release the shop closing notice 30 days in advance at the service provider announcement office.
 
-3.7 Service providers who voluntarily withdraw from the Cloud Marketplace should meet the agreed conditions in *Instructions for the Cancellation of JD Cloud Account* in [JD Cloud Privacy Policy](https://docs.jdcloud.com/cn/platform-agreement/privacy-policy).
+3.7 Service providers who voluntarily withdraw from the Cloud Marketplace should meet the agreed conditions in *Instructions for the Cancellation of JD Cloud Account* in [JD Cloud Privacy Policy](https://docs.jdcloud.com/en/platform-agreement/privacy-policy).
 
 
 4. Qualification Requirements and Supportive Documents

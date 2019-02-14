@@ -13,7 +13,7 @@ For Cloud Disk Service price, refer to the following table, with specific price 
 | Performance-oriented SSD Cloud Disk | 10GB   | 8                | 8         | 8         | 8         | 96        | 96        | 96        | 96        | 0.0112         | 0.0112    | 0.0112    | 0.0112    |
 
 
-You may also click [Price Calculator](https://www.jdcloud.com/cn/calculator/calDisk) to view the price of required cloud disk configuration, estimate the cost of resources, and add it to purchase budget list.
+You may also click [Price Calculator](https://www.jdcloud.com/en/calculator/calDisk) to view the price of required cloud disk configuration, estimate the cost of resources, and add it to purchase budget list.
 
 Note: To guarantee the accuracy of the price you obtain, please view after login.
 

@@ -56,4 +56,4 @@ The EIP under monthly package supports the upward adjustment of bandwidth; the E
 
 
 
-  [1]: https://docs.jdcloud.com/cn/elastic-ip/create-elastic-ip
+  [1]: https://docs.jdcloud.com/en/elastic-ip/create-elastic-ip

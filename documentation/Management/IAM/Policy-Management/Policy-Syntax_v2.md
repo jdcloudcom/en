@@ -9,7 +9,7 @@ IAM Policy contains the following basic elements: content (policy content), perm
 - content
   The content of the Policy contains one or more sets of authorization details. Each set of authorization details specifies authorized resources and actions (permission).
 - type
-  It is the service name of product line. For details, please refer to [Service Supporting IAM](https://docs.jdcloud.com/cn/iam/support-services)
+  It is the service name of product line. For details, please refer to [Service Supporting IAM](https://docs.jdcloud.com/en/iam/support-services)
 - permission
   Support 3 types of resource actions, namely reading (R refers to Read), modification (M refers to Modify), and deletion (D refers to Delete). For example, viewing the virtual machine details is a read action, and backing up or rebooting the virtual machine is a modify action, and deleting the image is a delete operation.
   When multiple action types need to be authorized, they may be separated by a vertical line "|". For example, when only read-only actions are authorized, the permission is "R"; when the administrator permissions are authorized, the permission is "R|M|D"。

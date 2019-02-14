@@ -1,11 +1,11 @@
 
 # Deploy Private Image Container Registry  
 **Private Image Container Registry**
-    Private Image Container Registry can be a unified platform for customer to store and manage inner container images and can provide better performance, safety and manageability compared with public Container Registry. JD Cloud is currently providing [Container Registry](https://docs.jdcloud.com/cn/container-registry/product-overview) product, which can be used directly.  
+    Private Image Container Registry can be a unified platform for customer to store and manage inner container images and can provide better performance, safety and manageability compared with public Container Registry. JD Cloud is currently providing [Container Registry](https://docs.jdcloud.com/en/container-registry/product-overview) product, which can be used directly.  
     Take Harbor as an example to explain how to build a Private Image Repository for customers. Harbor is an enterprise-level Registry server for storing and distributing Docker images:  
 **Installation Steps:**
 1. Create VM instance
-a. Create a VM in the JD Cloud Console and refer to [the creation of Linux instance](https://docs.jdcloud.com/cn/virtual-machines/account-preparation-linux) for details.
+a. Create a VM in the JD Cloud Console and refer to [the creation of Linux instance](https://docs.jdcloud.com/en/virtual-machines/account-preparation-linux) for details.
 b. Deploy selection of regions according to container and select the same region or nearer regions. At present, the container is online only in cn-north-1 and we choose to Create VM instance in cn-north-1.
 c. Operation system, recommended to use Ubuntu 16.04 or Centos 7.4
 d. The VM shall be configured minimally to 2 cores 4GB and 4 cores 8GB is suggested.

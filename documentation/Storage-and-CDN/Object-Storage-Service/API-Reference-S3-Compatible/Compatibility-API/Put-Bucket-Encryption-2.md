@@ -1,6 +1,6 @@
 # PUT  Bucket encryption
  This function is used for setting bucket default encryption mode. It only supports SSE-KMS.
- Refer to [Server Domain Name](https://docs.jdcloud.com/cn/object-storage-service/regions-and-endpoints)。
+ Refer to [Server Domain Name](https://docs.jdcloud.com/en/object-storage-service/regions-and-endpoints)。
  
 ## Request Syntax
  

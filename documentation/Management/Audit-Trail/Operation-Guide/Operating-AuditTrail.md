@@ -3,7 +3,7 @@
 You can quickly understand the Audit Trail service via the JD Cloud console. Via the console, you can view the operation records of last 90 days.
 
 ## Registration and Login
-If you haven’t completed registration of JD Cloud account, please [Register](https://accounts.jdcloud.com/p/regPage?source=jdcloud) first and then complete the real-name verification. For operation details, please refer to [Real-name Verification Guide](https://docs.jdcloud.com/cn/real-name-verification/real-name-verification).
+If you haven’t completed registration of JD Cloud account, please [Register](https://accounts.jdcloud.com/p/regPage?source=jdcloud) first and then complete the real-name verification. For operation details, please refer to [Real-name Verification Guide](https://docs.jdcloud.com/en/real-name-verification/real-name-verification).
 
 If you have registered the JD Cloud account and gone through the real-name verification, please directly [Log in JD Cloud](https://uc.jdcloud.com).
 
