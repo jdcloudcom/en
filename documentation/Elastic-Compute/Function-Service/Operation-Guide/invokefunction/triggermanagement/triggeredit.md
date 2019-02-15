@@ -1,4 +1,4 @@
-# Trigger CRUD
+# Trigger Management
 
 The Trigger defines the rules by which an event source triggers a function. Addition, deletion, modification and check for triggers can be implemented through the operation of console, API/SDK. This chapter introduces addition, deletion, modification and check for triggers through the console.
 
