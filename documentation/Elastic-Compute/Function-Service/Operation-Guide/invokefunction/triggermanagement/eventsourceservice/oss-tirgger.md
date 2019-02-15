@@ -44,7 +44,7 @@ Table 1  Table of OSS Trigger Information
 
 ## OSS Event Definition
 
-When an event is captured by OSS, it is passed to the event handling function as the [event parameter](../configtigger-event.md). The current event trigger type of OSS is the same as the supported event type of [OSS Callback Notification](en/Storage-and-CDN/Object-Storage-Service/Operation-Guide/Manage-Bucket/Callback-Notification-2.md ). Refer to Table 2 for the details and items with * are compulsory items.
+When an event is captured by OSS, it is passed to the event handling function as the [event parameter](../configtigger-event.md). The current event trigger type of OSS is the same as the supported event type of [OSS Callback Notification](en/documentation/Storage-and-CDN/Object-Storage-Service/Operation-Guide/Manage-Bucket/Callback-Notification-2.md ). Refer to Table 2 for the details and items with * are compulsory items.
 
 
 Table 2 Type of Event Supported by OSS
