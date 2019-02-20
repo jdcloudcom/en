@@ -3,11 +3,11 @@ RDS provides primary and secondary availability architectures by default, and th
 
 ## Single Availability Zone Deployment
 
-![5a9e4356N131f1eb3.png](https://img1.jcloudcs.com/cms/a8b79d24-7f2b-44a5-85ff-178fd000c71320180319132608.png)
+![5a9e4356N131f1eb3.png](../../../../image/RDS/single_az.png)
 
 ## Multiple Availability Zone Deployment
 
-![5a9e4352N63d77d0d.png](https://img1.jcloudcs.com/cms/26880449-0a8f-4d26-a0ab-0fc8da77828420180319132619.png)
+![5a9e4352N63d77d0d.png](../../../../image/RDS/multi_az.png)
 
 ## Architecture Analysis
 * DNS: Domain Name Resolution service, used to access RDS instance through domain name in the intranet.
