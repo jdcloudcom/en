@@ -1,3 +1,3 @@
 # Product Pricing
 
-The user of JD Cloud can use the ”Tag Management” function for free. At present, tag management is in grayscale test state, and users can contact the Marketing Department or Customer Service to apply for the opening of grayscale test user for use.
+JD Cloud users can use "Tag Management" function free.  At present, tag management is in the stage of Alpha, users can contact sales or customer service to enable it for use.

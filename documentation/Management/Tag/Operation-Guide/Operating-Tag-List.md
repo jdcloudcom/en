@@ -1,6 +1,6 @@
 # Tag List
 
-In the Tag List, you can see all the tags associated to resources under your account and the number of resources under each tag (including three type of resources which are "VM", "Cloud Disk Service" and "SQL Server").
+In the Tag List, you can see all the tags associated to resources under your account and the number of resources under each tag.
 
 ![wholepage](../../../../image/Tag/Taglist/wholepage.png)
 
@@ -19,7 +19,7 @@ Click on the "Refresh" button on the upper left of the Tag List page to refresh 
 
 ## Tag List
 
-You can see all the tags associated to resources under the account in the Tag List and the number of resources under each tag (including three type of resources which are "VM", "Cloud Disk" and "SQL Server" ).
+You can see all the tags associated to resources under the account in the Tag List and the number of resources under each tag.
 You can sort the data in the list in ascending order or descending order of tag keys or values by clicking on the ascending or descending button on the right of the “Tag Key” or “Tag Value”.
 You can go to the “Tagged Resources” page and see a list of all such resources that have been associated to the tag, by clicking on the number of resources on the right side of a tag.
 ![sort](../../../../image/Tag/Taglist/sort.png)

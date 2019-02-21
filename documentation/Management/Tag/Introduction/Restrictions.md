@@ -12,11 +12,11 @@
 
  - Maximum length of the key is 127 characters; maximum length of the value is 255 characters. It is not recommended to give long name to the key or value, which is not conducive to tag’s use and understanding;
 
- - Tag supports Chinese and English, uppercase and lowercase, blanks, numbers and special symbols in Unicode characters, such as p{L}、 p{Z}、 p{N} and _.:/=+-@, etc. Tag does not support other special characters;
+ - Tags support Chinese characters, uppercase or lowercase letters, space and numbers, as well as special symbols of _.:/=+-@ other than other special characters;
 
  - Prefix of "jrn:” cannot be used in tag key and value. The tag of this prefix is reserved by the system. Users cannot edit or delete such tags.
 
- - One resource instance (for example: a virtual machine instance, a Cloud Disk Service or an instance of SQL Server) is allowed to associate multiple tags, however the tags with the same “key” are only allowed to associate one tag simultaneously.
+ - A resource instance (e.g.: a machine instance) allows associating multiple tags, which only one tag with the same "key" can be associated at the same time.
  
  - At present, the tag service only supports the tag operation and query by the primary account. However, the resource association/tag disassociation and resource filter via the tag service by the sub-account and in the resource list page of supported tag are not supported temporarily.
 
