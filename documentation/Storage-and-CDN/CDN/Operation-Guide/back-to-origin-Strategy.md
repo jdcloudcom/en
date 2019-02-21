@@ -1,6 +1,6 @@
 # Back-to-source Policy
 
-After adding a domain name, click **Accelerated Domain Name** to enter the basic information of domain name configuration. You can enter the **Back-to-source Configuration** information. The back-to-source modes fall into IP back-to-source, domain name back-to-source, and oss back-to-source, and it supports for both ip back-to-origin and domain back-to-origin customized ports, such as 1.1.1.1:80。
+After adding a domain name, click **Accelerated Domain Name** to enter the basic information of domain name configuration. You can enter the **Back-to-source Configuration** information. The back-to-source modes fall into IP back-to-source, domain name back-to-source, and oss back-to-source, and it supports for both ip back-to-origin and domain back-to-origin customized ports, such as 1.1.1.1:80.
 
 ![image.png](https://img1.jcloudcs.com/cms/cf317c03-b662-4a37-a564-cee61f253fa220180118102313.png)                                               
 

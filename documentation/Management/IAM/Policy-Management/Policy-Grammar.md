@@ -42,7 +42,7 @@ Situation awareness|ids
 
  - ids
 
-Specify one or more authorized resources IDs。ids support wildcard *, which are used for authorized objects as a type of resource rather than a scenario that specifies a resource ID.
+Specify one or more authorized resources IDs. ids support wildcard *, which are used for authorized objects as a type of resource rather than a scenario that specifies a resource ID.
 
  - version
 

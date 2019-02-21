@@ -29,4 +29,4 @@ The monitoring data can be stored for up to 180 days. In the console, users can 
 
 bps stands for the number of bit transmitted per second; ps stands for per second, similar to /s;
 
-Kbps=1024bps。
+Kbps=1024bps.

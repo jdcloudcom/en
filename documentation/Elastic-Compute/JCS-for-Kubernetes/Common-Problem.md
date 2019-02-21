@@ -17,7 +17,7 @@ A: At present, it only supports Kubernetes version 1.8.12, and will support more
 Q: Is docker client version preset in the work node?
 
 
-A：docker-ce-17.06.2.ce-2.el7.centos.x86_64。
+A：docker-ce-17.06.2.ce-2.el7.centos.x86_64.
 
 Q: Can v1 version of the image be used in JCS for Kubernetes?
 

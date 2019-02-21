@@ -1,7 +1,7 @@
 ## Create Cluster
 You can create clusters via the console of JCS for Elasticsearch. For billing instructions of instances, please refer to "[Price Overview](../Pricing/Price-Overview.md)" and "[Billing Rules](../Pricing/Billing-Rules.md)".
 ## Preconditions
-- JD Cloud account registration is done and real-name verification is completed. If you have no accounts, please [register](https://accounts.jdcloud.com/p/regPage?source=jdcloud&ReturnUrl=https%3a%2f%2fuc.jdcloud.com%2fpassport%2fcomplete%3freturnUrl%3dhttps%3a%2f%2fwww.jdcloud.com), or make [Real-name Verification](https://uc.jdcloud.com/account/certify)。
+- JD Cloud account registration is done and real-name verification is completed. If you have no accounts, please [register](https://accounts.jdcloud.com/p/regPage?source=jdcloud&ReturnUrl=https%3a%2f%2fuc.jdcloud.com%2fpassport%2fcomplete%3freturnUrl%3dhttps%3a%2f%2fwww.jdcloud.com), or make [Real-name Verification](https://uc.jdcloud.com/account/certify).
 - If billing type is selected as pay by configuration, please confirm that your account balance (including coupon) is sufficient for your application.
 ## Operation Steps
 

@@ -23,7 +23,7 @@ Authorization: signatureValue#Please refer to "Identity and Access Management"
 |Bucket|Bucket Name<br>Type: Character String
 |Key|Object Name<br>Type: Character String
 |UploadId|ID of Upload event<br>Type: Character String|
-|StorageClass|Object storage type, the default value is "STANDARD" (standard storage)。 <br>Support "STANDARD" (standard storage) and "REDUCED_REDUNDANCY" (low frequency access type) storage types
+|StorageClass|Object storage type, the default value is "STANDARD" (standard storage).  <br>Support "STANDARD" (standard storage) and "REDUCED_REDUNDANCY" (low frequency access type) storage types
 |Part|Save the Set of Part Information. <br>Type: List|
 |PartNumber|Number to indicate Part. <br>Type: Ingeter|
 |LastModified|Part Upload Time. <br>Type: Character String|

@@ -1,7 +1,7 @@
 # Instruction
 The procedure of quickly using the Message Queue:
 
-1. Access to Message Queue [Console](https://jcq-console.jdcloud.com/topics/)。
+1. Access to Message Queue [Console](https://jcq-console.jdcloud.com/topics/).
 2. Create resources
 3. Send consumer messages</br>
 

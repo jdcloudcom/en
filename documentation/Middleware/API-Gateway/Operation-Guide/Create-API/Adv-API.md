@@ -20,7 +20,7 @@ Middleware>API Gateway>API Group Management>Manage API, select API and click the
 Currently, the backend service type supports the following methods:
 
 
-- HTTP/HTTPS。
+- HTTP/HTTPS.
 
 
 - Mock backend.

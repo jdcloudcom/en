@@ -14,4 +14,4 @@ Please ensure that JDK environment has been installed. If not, please go to Orac
      //Set as the latest version number of Java SDK
   </dependency>
   ```
-  For the latest version number of Java SDK, please [view](https://mvnrepository.com/artifact/com.jdcloud/jcq-java-sdk)。
+  For the latest version number of Java SDK, please [view](https://mvnrepository.com/artifact/com.jdcloud/jcq-java-sdk).

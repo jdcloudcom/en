@@ -28,7 +28,7 @@ Taking the standard edition of Windows, Windows 2008, for example, the action st
 
 1. Access [Virtual Machines Console](https://cns-console.jdcloud.com/host/compute/list) to log in the instance list page. Or, access [JD Cloud Console](https://console.jdcloud.com) and log in the instance list page by clicking **Elastic Compute**-**Virtual Machine** on the left navigation bar.
 2. Select regions.
-3. Select instances for view of local data disk in the instance list, [Windows Instance Login](https://docs.jdcloud.com/en/virtual-machines/connect-to-windows-instance)。
+3. Select instances for view of local data disk in the instance list, [Windows Instance Login](https://docs.jdcloud.com/en/virtual-machines/connect-to-windows-instance).
 4. Enter:
 ```wmic
 diskdrive get PNPDeviceID,SerialNumber

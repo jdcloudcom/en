@@ -5,6 +5,6 @@
 
 Virtual Machine: Only supports the second generation virtual machine. See [Virtual Machine Pricing] for details (https://docs.jdcloud.com/en/virtual-machines/billing-overview)
 
-Cloud Disk Service: See [Cloud Disk Service Pricing] for details (https://docs.jdcloud.com/en/cloud-disk-service/billing-rules)。
+Cloud Disk Service: See [Cloud Disk Service Pricing] for details (https://docs.jdcloud.com/en/cloud-disk-service/billing-rules).
 
-Elastic IP: See [Elastic IP Pricing] for details (https://docs.jdcloud.com/en/elastic-ip/billing-overview)。
+Elastic IP: See [Elastic IP Pricing] for details (https://docs.jdcloud.com/en/elastic-ip/billing-overview).

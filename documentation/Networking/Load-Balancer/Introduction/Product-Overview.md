@@ -33,7 +33,7 @@ JD Cloud Application Application Load Balancer can realize high availability of 
 
 - Automatic adjustment of backend instance count: The Application Application Load Balancer backend can be associated to the specified availability group. By setting auto scaling policy, the backend service instance count can be automatically adjusted and resources can be reasonably configured.
 
-- Anti-DDoS Basic: JD Cloud will provide the Application Load Balancer with the EIP-based Anti-DDoS Basic for free, supporting maximum 2G Anti-DDoS attack capacity and improving service security performance. For details, refer to [Anti-DDoS Basic](https://docs.jdcloud.com/anti-ddos-basic/product-overview). If you need mass-traffic attack protection, please buy the [Anti-DDoS Protection Package].(https://www.jdcloud.com/products/anti-ddos-protection-package)。
+- Anti-DDoS Basic: JD Cloud will provide the Application Load Balancer with the EIP-based Anti-DDoS Basic for free, supporting maximum 2G Anti-DDoS attack capacity and improving service security performance. For details, refer to [Anti-DDoS Basic](https://docs.jdcloud.com/anti-ddos-basic/product-overview). If you need mass-traffic attack protection, please buy the [Anti-DDoS Protection Package].(https://www.jdcloud.com/products/anti-ddos-protection-package).
 
 - Session persistence: The Application Application Load Balancer supports the session persistence function based on the HTTP/HTTPS protocol type.
 

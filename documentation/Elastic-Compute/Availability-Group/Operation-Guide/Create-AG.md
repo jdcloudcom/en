@@ -2,7 +2,7 @@
 
 ## Precondition
 
-Before you create the Availability Group, you need to finish [Create Instance Template](../../Virtual-Machines/Operation-Guide/Instance-Template/Create-Instance-Template.md)。
+Before you create the Availability Group, you need to finish [Create Instance Template](../../Virtual-Machines/Operation-Guide/Instance-Template/Create-Instance-Template.md).
 
 ## Operational Steps
 

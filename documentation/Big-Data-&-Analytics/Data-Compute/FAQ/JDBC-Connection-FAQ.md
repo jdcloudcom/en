@@ -12,6 +12,6 @@ In which, instance_name in url is name of instance and instance can also be set 
 properties.setProperty("instance", "instance_name")；</br>
 
 Currently we only support South China and North China. You need to add setting of region in properties, that is, South China is HN_GZ, North China is HB_BJ</br>
-properties.setProperty("region", "HB_BJ")；。</br>
+properties.setProperty("region", "HB_BJ")；. </br>
 
 Click here to download new **JDBC Client**</br>

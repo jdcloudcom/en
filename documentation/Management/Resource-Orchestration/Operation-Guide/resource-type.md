@@ -27,7 +27,7 @@
 ### Virtual Machines
 #### User Guide for VM Userdata
 
-Where the Userdata function of the Virtual Machines is required when creating the Virtual Machines, the user can adopt the JDCLOUD::ResourceOrchestration::WaitConditionHandle and JDCLOUD::ResourceOrchestr provided by the Resource Orchestration to monitor the Userdata script execution results uploaded at the same time.ation::WaitCondition。 
+Where the Userdata function of the Virtual Machines is required when creating the Virtual Machines, the user can adopt the JDCLOUD::ResourceOrchestration::WaitConditionHandle and JDCLOUD::ResourceOrchestr provided by the Resource Orchestration to monitor the Userdata script execution results uploaded at the same time.ation::WaitCondition. 
 
 ##### Userdata Linux Script Example of Resource Orchestration
 
