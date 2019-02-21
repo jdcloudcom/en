@@ -1,33 +1,33 @@
-# 服务器组相关命令
-## 服务器组列表
-用于展示用户指定云上的所有服务器组信息列表
-命令格式：
+# Relevant Commands About Server Groups
+## List of Server Groups
+Used for displaying the information list of all server groups on the cloud specified by the user
+Command Format:
 ```bash
-# list vservergroups --cloud <云实例ID>
+# list vservergroups --cloud <Cloud Instance ID>
 ```
-参数：
-| 参数名称 | 参数说明 |
+Parameters:
+| Parameter Name | Parameter Description |
 | ---- | ---- |
-| --cloud | 必填，云实例ID（list clouds中的id） |
-示例：
+| --cloud | Required, Cloud Instance ID (id of list clouds) |
+Example:
 ```bash
 list vservergroups --cloud cloud-123
 ```
-## 创建服务器组
-根据JSON格式的配置文件，创建虚拟服务器组，并添加后端服务器
-命令格式：
+## Create the Server Group
+Create the Virtual Server Group and add the backend server according to the configuration file in the JSON format
+Command Format:
 ```bash
-# create vsg [ -f <文件名> | -i <JSON格式数据> ] --cloud <云实例ID> [ --tail ] [ --no-table ]
+# create vsg [ -f <File Name> | -i <Data in JSON Format> ] --cloud <Cloud Instance ID> [ --tail ] [ --no-table ]
 ```
-参数：
-| 参数名称 | 参数说明 |
+Parameters:
+| Parameter Name | Parameter Description |
 | ---- | ---- |
-| -f/--file | -f、-i必须要有一个，文件名，内容为JSON格式的数据 |
-| -i/--input | -f、-i必须要有一个，JSON格式的数据 |
-| --cloud | 必填，云实例ID（list clouds中的id） |
-| --tail | 跟踪任务执行过程，不可与--no-table同时出现 |
-| --no-table | 只展示结果的ID，不可与--tail同时出现 |
-JSON格式样例：
+| -f/--file | Either -f or -i must be selected for the file name and the data in the JSON format must be used as the content |
+| -i/--input | Either -f or -i must be selected and the data in the JSON format must be used as the content |
+| --cloud | Required, Cloud Instance ID (id of list clouds) |
+| --tail | Track the task execution process and do not appear with --no-table at the same time |
+| --no-table | Show the ID of the result only and cannot appear with --tail at the same time |
+Example of JSON Format:
 ```
 json
 {
@@ -44,7 +44,7 @@ json
   }
 }
 ```
-示例：
+Example:
 ```bash
 create vsg -f /data/json/vsg.json --cloud cloud-123
 ```

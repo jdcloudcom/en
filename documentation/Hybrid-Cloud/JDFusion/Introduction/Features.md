@@ -1,11 +1,11 @@
-# 产品功能
-## 一站式资源管理
-提供一站式的资源管理控制台，包括计算资源、存储资源、网络资源、PaaS资源。IT运维人员不必在不同的云服务商界面间切换，即可以从全局掌握企业IT基础架构，降低云资源的维护成本。
-## 业务编排管理
-支持基于业务的编排，用户可以使用通过可视化的编排面板，直观、灵活的对多个云厂商的资源进行一体化编排，快速的实现单云、跨云业务的部署。只需创建一个描述自己所需的云资源的模板，资源编排将根据模板，在模板中定义所需的云计算资源、资源间的依赖关系、资源配置等。资源编排通过编排引擎自动完成所有资源的创建和配置，以达到自动化部署、运维的目的。
-## 统一服务治理
-通过微服务架构构建，提供服务治理范围覆盖了服务的整个生命周期，从服务建模开始，到开发、测试、审批、发布、运行时管理，以及最后的下线，遵循“在线治理，实时生效”原则。
-## DTS服务
-提供多场景下数据迁移与灾备DTS服务，重要数据可以在多云之间进行实时迁移。DTS服务将支持周期、实时等多种模式，用户根据实际需要选择将数据进行备份，借助于实时DTS服务，使企业业务可以实现跨云灾备。
-## 统一服务监控
-提供统一的资源/业务监控功能，并且支持多种资源监控接入模式。即可以适用融合云提供的独立方案进行跨云资源的统一监控，也可以通过云服务厂商API的接入，统一的对监控数据进行展示。
+# Features
+## One-stop Resource Management
+It provides one-stop resource management console, including computing resources, storage resources, network resources and PaaS resources. IT operation and maintenance personnel may not switch among different cloud service providers’ interfaces to globally master the enterprise's IT basic architecture, which reduces the maintenance costs of cloud resources.
+## Business Orchestration Management
+It supports orchestration based on business. Users can carry out integrated orchestration against resources of multiple cloud vendors visually and flexibly with visual orchestration panel, and implement single-cloud and cross-cloud business deployment rapidly. Only the creation of one template describing the demanded cloud resources is required for resource orchestration to define the required cloud computing resources, dependency between resources, and resource configuration in the template based on the template. Resource orchestration automatically completes the creation and configuration of all the resources with orchestration engine, so as to achieve the automatic deployment, operation and maintenance purpose.
+## Unified Service Management
+With the construction of microservice architecture, the provided service management scope covers the full life cycle of services, from the service modeling to the development, testing, approval, release, management during operation and the final off-line, in accordance with the principle of "on-line management and real-time validation."
+## DTS Service
+It provides data migration and disaster recovery DTS service under different scenarios, and important data can be migrated in real time among multiple clouds. DTS service will support cycle, real-time and other modes. Users can select to back up data based on actual demands and implement cross-cloud disaster recovery for enterprise business by virtue of real-time DTS service.
+## Unified Service Monitoring
+It provides unified resource/workload monitoring function, and supports multi-resource monitoring access mode. Namely, it can carry out unified monitoring on cross-cloud resources with the independent scheme provided by the JDFusion, and can also implement unified display of monitored data through access to APIs of cloud service providers.

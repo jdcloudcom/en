@@ -1,31 +1,31 @@
 name: JDFusion
 href: 
 items:
-- name: 产品简介
+- name: Introduction
   items:
-    - name: 产品概述
+    - name: Product Overview
       href: Introduction/Product-Overview.md
-    - name: 核心概念
+    - name: Core Concepts
       href: Introduction/Core-Concepts.md
-    - name: 基础架构
+    - name: Basic Architecture
       href: Introduction/Basic-Infrastructure.md
-    - name: 产品优势
+    - name: Benefits
       href: Introduction/Benefits.md
-    - name: 产品功能
+    - name: Features
       href: Introduction/Features.md
 
-- name: 入门指南
+- name: Getting Started
   items:
-    - name: 概述与环境部署
+    - name: Overview and Environment Deployment
       href: Getting-Started/Anti-JDFusion-Basic-Started.md
       
-- name: 操作指南
+- name: Operation Guide
   items:
-    - name: 如何获取邀请码
+    - name: How to get an invitation code
       href: Operation-Guide/jdfusion-cloud-InvitationCode.md
   
       
-      - name: 历史发布
+      - name: Historic Release
   items:
-    - name: 文档历史发布
+    - name: Document Historic Release
       href: Related-Resources/Document-History.md

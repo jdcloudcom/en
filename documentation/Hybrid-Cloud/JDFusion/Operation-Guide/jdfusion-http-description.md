@@ -1,19 +1,19 @@
-# HTTP监听相关命令
-## 创建HTTP监听
-根据JSON格式的配置文件，创建HTTP监听
-命令格式：
+# Relevant Commands About HTTP Listening
+## Create HTTP Listening
+Create HTTP listening according to configuration file in the JSON format
+Command Format:
 ```bash
-# create listener [ -f <文件名> | -i <JSON格式数据> ] --cloud <云实例ID> [ --tail ] [ --no-table ]
+# create listener [ -f <File Name> | -i <Data in JSON Format> ] --cloud <Cloud Instance ID> [ --tail ] [ --no-table ]
 ```
-参数：
-| 参数名称 | 参数说明 |
+Parameters:
+| Parameter Name | Parameter Description |
 | ---- | ---- |
-| -f/--file | -f、-i必须要有一个，文件名，内容为JSON格式的数据 |
-| -i/--input | -f、-i必须要有一个，JSON格式的数据 |
-| --cloud | 必填，云实例ID（list clouds中的id） |
-| --tail | 跟踪任务执行过程，不可与--no-table同时出现 |
-| --no-table | 只展示结果的ID，不可与--tail同时出现 |
-JSON格式样例：
+| -f/--file | Either -f or -i must be selected for the file name and the data in the JSON format must be used as the content |
+| -i/--input | Either -f or -i must be selected and the data in the JSON format must be used as the content |
+| --cloud | Required, Cloud Instance ID (id of list clouds) |
+| --tail | Track the task execution process and do not appear with --no-table at the same time |
+| --no-table | Show the ID of the result only and cannot appear with --tail at the same time |
+Example of JSON Format:
 ```json
 {
   "httpListener": {
@@ -31,7 +31,7 @@ JSON格式样例：
   }
 }
 ```
-示例：
+Example:
 ```bash
 create listener -f /data/json/listener.json --cloud cloud-123
 ```

@@ -1,15 +1,15 @@
-# 镜像相关命令
-## 镜像列表
-用于展示用户指定云上的所有镜像信息列表
-命令格式：
+# Relevant Commands About Images
+## Image List
+Used for displaying the information list of all images on the cloud specified by the user
+Command Format:
 ```bash
-# list images --cloud <云实例ID>
+# list images --cloud <Cloud Instance ID>
 ```
-参数：
-| 参数名称 | 参数说明 |
+Parameters:
+| Parameter Name | Parameter Description |
 | ---- | ---- |
-| --cloud | 必填，云实例ID（list clouds中的id） |
-示例：
+| --cloud | Required, Cloud Instance ID (id of list clouds) |
+Example:
 ```bash
 list images --cloud cloud-123
 ```

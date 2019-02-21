@@ -1,47 +1,47 @@
-# 负载均衡相关命令
-## 负载均衡列表
-用于展示用户指定云上的所有负载均衡信息列表
-命令格式：
+# Relevant Commands About Load Balancers
+## List of Load Balancer
+Used for displaying the information list of all Load Balancers on the cloud specified by the user
+Command Format:
 ```bash
-# list slbs --cloud <云实例ID>
+# list slbs --cloud <Cloud Instance ID>
 ```
-参数：
-| 参数名称 | 参数说明 |
+Parameters:
+| Parameter Name | Parameter Description |
 | ---- | ---- |
-| --cloud | 必填，云实例ID（list clouds中的id） |
-示例：
+| --cloud | Required, Cloud Instance ID (id of list clouds) |
+Example:
 ```bash
 list slbs --cloud cloud-123
 ```
-## 负载均衡详细信息
-用于展示用户指定负载均衡的详细信息
-命令格式：
+## Details of Load Balancers
+Used for displaying details of the Load Balancers specified by the user
+Command Format:
 ```bash
-# describe slb <负载均衡实例ID> [ --cloud <云实例ID> ]
+# describe slb <Load Balancer Instance ID> [ --cloud <Cloud Instance ID> ]
 ```
-参数：
-| 参数名称 | 参数说明 |
+Parameters:
+| Parameter Name | Parameter Description |
 | ---- | ---- |
-| --cloud | 云实例ID（list clouds中的id） |
-示例：
+| --cloud | Cloud Instance ID (id of list clouds) |
+Example:
 ```bash
 describe slb slb-123
 ```
-## 创建负载均衡
-用于根据JSON格式的配置文件，在指定的云上创建负载均衡
-命令格式：
+## Create Load Balancer
+Used for creating the Load Balancer on the specified cloud according to the configuration file in the JSON format
+Command Format:
 ```bash
-# create slb [ -f <文件名> | -i <JSON格式数据> ] --cloud <云实例ID> [ --tail ] [ --no-table ]
+# create slb [ -f <File Name> | -i <Data in JSON Format> ] --cloud <Cloud Instance ID> [ --tail ] [ --no-table ]
 ```
-参数：
-| 参数名称 | 参数说明 |
+Parameters:
+| Parameter Name | Parameter Description |
 | ---- | ---- |
-| -f/--file | -f、-i必须要有一个，文件名，内容为JSON格式的数据 |
-| -i/--input | -f、-i必须要有一个，JSON格式的数据 |
-| --cloud | 必填，云实例ID（list clouds中的id） |
-| --tail | 跟踪任务执行过程，不可与--no-table同时出现 |
-| --no-table | 只展示结果的ID，不可与--tail同时出现 |
-JSON格式样例：
+| -f/--file | Either -f or -i must be selected for the file name and the data in the JSON format must be used as the content |
+| -i/--input | Either -f or -i must be selected and the data in the JSON format must be used as the content |
+| --cloud | Required, Cloud Instance ID (id of list clouds) |
+| --tail | Track the task execution process and do not appear with --no-table at the same time |
+| --no-table | Show the ID of the result only and cannot appear with --tail at the same time |
+Example of JSON Format:
 ```json
 
 {
@@ -52,21 +52,21 @@ JSON格式样例：
   }
 }
 ```
-示例：
+Example:
 ```bash
 create slb -f /data/json/slb.json --cloud cloud-123
 ```
-## 删除指定的负载均衡
-用于删除用户指定的负载均衡
-命令格式：
+## Delete Specified Load Balancers
+Used for deleting the Load Balancers specified by the user
+Command Format:
 ```bash
-# del slb <负载均衡实例ID> --cloud <云实例ID>
+# del slb <Load Balancer Instance ID> --cloud <Cloud Instance ID>
 ```
-参数：
-| 参数名称 | 参数说明 |
+Parameters:
+| Parameter Name | Parameter Description |
 | ---- | ---- |
-| --cloud | 必填，云实例ID（list clouds中的id） |
-示例：
+| --cloud | Required, Cloud Instance ID (id of list clouds) |
+Example:
 ```bash
 del slb slb-123 --cloud cloud-123
 ```

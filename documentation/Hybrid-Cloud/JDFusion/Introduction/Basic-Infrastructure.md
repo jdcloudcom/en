@@ -1,17 +1,17 @@
-# 基础架构
-基础架构图如下：
+# Basic Architecture
+The basic architecture is as shown below:
 ![创建实例](https://github.com/jdcloudcom/cn/blob/JDFusion/image/JDFusion/JDFusion-jcjg.jpg)
-   JDFusion与用户的主要交互方式为控制台界面、CLI和API，其中：
- - 控制台：融合云提供的主要交付方式，为用户提供直观、简洁的操作体验。
- - CLI工具：基于Bash环境的命令行工具，使其可以基于脚本等形式对融合云进行访问。
- - API：标准的基于HTTP协议的RestfulAPI接口，其他系统可以通过API与融合云进行集成。用户通过控制台实现的功能，均可以通过API实现。
- - 调度平台：调度平台负责将用户提交的任务进行分发，将不同的任务交给不同的编排引擎进行处理。
- - 编排引擎：根据用户发起的不同类型的请求，生成对应的可执行计划，调度不同的适配器与对应的云厂商进行链接、访问。
- - 适配器：适配器用于承接编排引擎提供的执行计划，并将其转换成对应云厂商可识别的API调用或其他指令。不同的云厂商需要对应不同的适配器。
- - 插件：插件用于接入合作伙伴或其他第三方提供的服务，用于丰富和扩展现有融合云平台所提供的能力
+   The main interactive method between JDFusion and the user includes the console interface, CLI and API, wherein:
+ - Console: It is the main delivery method provided by JDFusion, providing visual and concise operation experiences to the user.
+ - CLI tool: Based on the command line tool under the Bash environment, it can access the JDFusion via scripts.
+ - API: Refer to the standard RestfulAPI interfaces based on HTTP protocol and other systems can be integrated with the JDFusion via API. Functions realized via the console can also be realized via API by the user.
+ - Scheduling platform: The scheduling platform shall be responsible for distributing tasks submitted by the users and submitting different tasks for processing different orchestration engines.
+ - Orchestration engine: Corresponding execution plans are generated based on different request types initiated by the user and then different adapters are dispatched for linking and accessing corresponding cloud vendors.
+ - Adapter: The adapter is used for undertaking the execution plans provided by the orchestration engines and converting the same to the API calling commands or other commands recognizable by corresponding cloud vendors. Different adapters shall be provided to different cloud vendors.
+ - Plug-in: The plug-in is used for accessing services provided by a partner or a third party, and for enriching and expanding capacities provided by the existing JDFusion platform
 
-# 相关参考
-- [核心概念](Core-Concepts.md)
-- [应用场景](Application-Scenarios.md)
-- [基本功能](Features.md)
+# Related References
+- [Core Concepts](Core-Concepts.md)
+- [Application Scenarios](Application-Scenarios.md)
+- [Features](Features.md)
 

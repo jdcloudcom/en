@@ -1,11 +1,11 @@
-# 文档历史记录
+# Document History Records
 
-本文档介绍JDFusion产品文档的重要更新历史，包括新增产品的重大特性和按照用户的反馈进行内容的更新等。
+The document introduces the important update history of JDFusion product documentation, including major features of new added products, contents update according to the feedbacks of users, etc.
 
-|发布日期|版本|描述|
+|Release Date|Version|Description|
 |-|-|-|
-|2019年1月|JDFusion V0.2.0|1、增加RDS、OSS基本操作 <br />2、增加Deployment基本操作 <br />3、创建虚拟机请求(createVmReq)中的字段vms改为vm <br />4、支Vpc所有信息中的addressPrefix改为cidrBlock <br />5、Slb中的SlbInfo信息去除masterAZ和slaveAZ，用azs数据替换|
-|2018年12月|JDFusion V0.1.0|产品第一次对外发布|                                       |
-## 相关参考
+|January 2019|JDFusion V0.2.0|1. Added RDS and OSS basic operations <br />2. Add Deployment basic operation <br />3. Field vms in createVmReq is changed to vm <br />4. addressPrefix in all information of Branch Vpc is changed to cidrBlock <br />5. masterAZ and slaveAZ is removed from SlbInfo information in Slb and replaced by azs data|
+|December 2018|JDFusion V0.1.0|Initial Public Release of Product|                                       |
+## Related References
 
-- [产品概述](/documentation/Hybrid-Cloud/JDFusion/Introduction/Product-Overview.md)
+- [Product Overview](/documentation/Hybrid-Cloud/JDFusion/Introduction/Product-Overview.md)

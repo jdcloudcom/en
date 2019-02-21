@@ -1,15 +1,15 @@
-# 实例类型相关命令
-## 实例类型列表
-用于展示用户指定云上的所有实例类型信息列表
-命令格式：
+# Relevant Commands of Instance Type Family
+## List of Instance Type Family
+Used for displaying the information list of all instance type family on the cloud specified by the user
+Command Format:
 ```bash
-# list instancetypes --cloud <云实例ID>
+# list instancetypes --cloud <Cloud Instance ID>
 ```
-参数：
-| 参数名称 | 参数说明 |
+Parameters:
+| Parameter Name | Parameter Description |
 | ---- | ---- |
-| --cloud | 必填，云实例ID（list clouds中的id） |
-示例：
+| --cloud | Required, Cloud Instance ID (id of list clouds) |
+Example:
 ```bash
 list instancetypes --cloud cloud-123
 ```

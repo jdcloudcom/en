@@ -1,47 +1,47 @@
-# 密钥对相关命令
-## 密钥对列表
-用于展示用户指定云上的所有密钥对信息列表
-命令格式：
+# Relevant Commands About Key Pairs
+## List of Key Pairs
+Used for displaying the information list of all key pairs on the cloud specified by the user
+Command Format:
 ```bash
-# list kps --cloud <云实例ID>
+# list kps --cloud <Cloud Instance ID>
 ```
-参数：
-| 参数名称 | 参数说明 |
+Parameters:
+| Parameter Name | Parameter Description |
 | ---- | ---- |
-| --cloud | 必填，云实例ID（list clouds中的id） |
-示例：
+| --cloud | Required, Cloud Instance ID (id of list clouds) |
+Example:
 ```bash
 list kps --cloud cloud-123
 ```
-## 密钥对详细信息
-用于展示用户指定name的详细信息
-命令格式：
+## Details About Key Pairs
+Used for displaying details of the names specified by the user
+Command Format:
 ```bash
-# describe keypair <密钥对的name> [ --cloud <云实例ID> ]
+# describe keypair <name of Key Pair> [ --cloud <Cloud Instance ID> ]
 ```
-参数：
-| 参数名称 | 参数说明 |
+Parameters:
+| Parameter Name | Parameter Description |
 | ---- | ---- |
-| --cloud | 云实例ID（list clouds中的id） |
-示例：
+| --cloud | Cloud Instance ID (id of list clouds) |
+Example:
 ```bash
 describe keypair kp-name
 ```
-### **创建密钥对**
-用于根据JSON格式的配置文件，在指定的云上创建密钥对
-命令格式：
+### **Create Key Pairs**
+Used for creating the key pairs on the specified cloud according to the configuration file in the JSON format
+Command Format:
 ```bash
-# create keypair [ -f <文件名> | -i <JSON格式数据> ] --cloud <云实例ID> [ --tail ] [ --no-table ]
+# create keypair [ -f <File Name> | -i <Data in JSON Format> ] --cloud <Cloud Instance ID> [ --tail ] [ --no-table ]
 ```
-参数：
-| 参数名称 | 参数说明 |
+Parameters:
+| Parameter Name | Parameter Description |
 | ---- | ---- |
-| -f/--file | -f、-i必须要有一个，文件名，内容为JSON格式的数据 |
-| -i/--input | -f、-i必须要有一个，JSON格式的数据 |
-| --cloud | 必填，云实例ID（list clouds中的id） |
-| --tail | 跟踪任务执行过程，不可与--no-table同时出现 |
-| --no-table | 只展示结果的ID，不可与--tail同时出现 |
-JSON格式样例：
+| -f/--file | Either -f or -i must be selected for the file name and the data in the JSON format must be used as the content |
+| -i/--input | Either -f or -i must be selected and the data in the JSON format must be used as the content |
+| --cloud | Required, Cloud Instance ID (id of list clouds) |
+| --tail | Track the task execution process and do not appear with --no-table at the same time |
+| --no-table | Show the ID of the result only and cannot appear with --tail at the same time |
+Example of JSON Format:
 ```json
 {
   "keypair": {
@@ -50,21 +50,21 @@ JSON格式样例：
   }
 }
 ```
-示例：
+Example:
 ```bash
 create keypair -f /data/json/keypair.json --cloud cloud-123
 ```
-## 删除指定的密钥对
-用于删除用户指定的name
-命令格式：
+## Delete the Specified Key Pair
+Used for deleting the name specified by the user
+Command Format:
 ```bash
-# del keypair <密钥对的name> --cloud <云实例ID>
+# del keypair <name of Key Pair> --cloud <Cloud Instance ID>
 ```
-参数：
-| 参数名称 | 参数说明 |
+Parameters:
+| Parameter Name | Parameter Description |
 | ---- | ---- |
-| --cloud | 必填，云实例ID（list clouds中的id） |
-示例：
+| --cloud | Required, Cloud Instance ID (id of list clouds) |
+Example:
 ```bash
 del keypair kp-name --cloud cloud-123
 ```

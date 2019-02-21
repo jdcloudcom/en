@@ -1,47 +1,47 @@
-# 安全组相关命令
-## 安全组列表
-用于展示用户指定云上的所有安全组信息列表
-命令格式：
+# Relevant Commands About Security Groups
+## Security Group List
+Used for displaying the information list of all Security Groups on the cloud specified by the user
+Command Format:
 ```bash
-# list sgs --cloud <云实例ID>
+# list sgs --cloud <Cloud Instance ID>
 ```
-参数：
-| 参数名称 | 参数说明 |
+Parameters:
+| Parameter Name | Parameter Description |
 | ---- | ---- |
-| --cloud | 必填，云实例ID（list clouds中的id） |
-示例：
+| --cloud | Required, Cloud Instance ID (id of list clouds) |
+Example:
 ```bash
 list sgs --cloud cloud-123
 ```
-## 安全组详细信息
-用于展示用户指定安全组的详细信息
-命令格式：
+## Details of Security Groups
+Used for displaying details of the Security Groups specified by the user
+Command Format:
 ```bash
-# describe sg <安全组ID> [ --cloud <云实例ID> ]
+# describe sg <Security Group ID> [ --cloud <Cloud Instance ID> ]
 ```
-参数：
-| 参数名称 | 参数说明 |
+Parameters:
+| Parameter Name | Parameter Description |
 | ---- | ---- |
-| --cloud | 云实例ID（list clouds中的id） |
-示例：
+| --cloud | Cloud Instance ID (id of list clouds) |
+Example:
 ```bash
 describe sg sg-123
 ```
-## 创建安全组
-用于根据JSON格式的配置文件，在指定的云上创建安全组
-命令格式：
+## Create Security Group
+Used for creating the Security Group on the specified cloud according to the configuration file in the JSON format
+Command Format:
 ```bash
-# create sgs [ -f <文件名> | -i <JSON格式数据> ] --cloud <云实例ID> [ --tail ] [ --no-table ]
+# create sgs [ -f <File Name> | -i <Data in JSON Format> ] --cloud <Cloud Instance ID> [ --tail ] [ --no-table ]
 ```
-参数：
-| 参数名称 | 参数说明 |
+Parameters:
+| Parameter Name | Parameter Description |
 | ---- | ---- |
-| -f/--file | -f、-i必须要有一个，文件名，内容为JSON格式的数据 |
-| -i/--input | -f、-i必须要有一个，JSON格式的数据 |
-| --cloud | 必填，云实例ID（list clouds中的id） |
-| --tail | 跟踪任务执行过程，不可与--no-table同时出现 |
-| --no-table | 只展示结果的ID，不可与--tail同时出现 |
-JSON格式样例：
+| -f/--file | Either -f or -i must be selected for the file name and the data in the JSON format must be used as the content |
+| -i/--input | Either -f or -i must be selected and the data in the JSON format must be used as the content |
+| --cloud | Required, Cloud Instance ID (id of list clouds) |
+| --tail | Track the task execution process and do not appear with --no-table at the same time |
+| --no-table | Show the ID of the result only and cannot appear with --tail at the same time |
+Example of JSON Format:
 ```json
 {
   "securityGroup": {
@@ -51,21 +51,21 @@ JSON格式样例：
   }
 }
 ```
-示例：
+Example:
 ```bash
 create sgs -f /data/json/sgs.json --cloud cloud-123
 ```
-## 删除指定的安全组
-用于删除用户指定的安全组
-命令格式：
+## Delete the Specified Security Group
+Used for deleting the Security Group specified by the user
+Command Format:
 ```bash
-# del sg <安全组实例ID> --cloud <云实例ID>
+# del sg <Security Group Instance ID> --cloud <Cloud Instance ID>
 ```
-参数：
-| 参数名称 | 参数说明 |
+Parameters:
+| Parameter Name | Parameter Description |
 | ---- | ---- |
-| --cloud | 必填，云实例ID（list clouds中的id） |
-示例：
+| --cloud | Required, Cloud Instance ID (id of list clouds) |
+Example:
 ```bash
 del sg sg-123 --cloud cloud-123
 ```

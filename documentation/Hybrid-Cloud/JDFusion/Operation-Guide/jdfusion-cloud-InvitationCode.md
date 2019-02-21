@@ -1,19 +1,19 @@
 
-# 获取邀请码
-## 1、登录京东云控制台
+# Get invitation code
+## 1. Log in JD Cloud console
 
-访问[京东云控制台](https://console.jdcloud.com)点击右上角按钮【控制台】-【输入用户名和密码】进入京东云控制台页面。
+Access [JD Cloud Console](https://console.jdcloud.com), click **Console** - **Input User Name and Password** at upper right corner to enter JD Cloud Console page.
 
-如果没有京东云账户，可点击右上角按钮【免费注册】，注册完成后，用户可进入京东云控制台页面
+If the user have no JD Cloud account, the user can click **Free Registration** at upper right corner and the user may enter JD Cloud Console page after completion of registration
 
-## 2、获取AK/SK
-进入[京东云控制台](https://console.jdcloud.com)点击右上角按钮【用户名】-【Access Key管理】进入AK/SK管理页面。
+## 2. Get AK/SK
+Enter [JD Cloud Console](https://console.jdcloud.com), click **User Name" - **AccessKey Management** at upper right corner to enter AK/SK Management page.
 ![创建实例](https://github.com/jdcloudcom/cn/blob/edit/image/JDFusion/yaoqingma-1.png)
-管理AK/SK
+Manage AK/SK
 ![创建实例](https://github.com/jdcloudcom/cn/blob/edit/image/JDFusion/yaoqingma-2.png)
-## 3、提交公测申请
-进入[京东云控制台](https://console.jdcloud.com)点击导航栏按钮【产品】-【混合云】-【JDFusion】-【公测申请】进入JDFusion产品页面。
+## 3. Submit application for Beta
+Enter [JD Cloud Console](https://console.jdcloud.com), click **Product** - **Hybrid Cloud** - **JDFusion** - **Beta Application** in navigation bar to enter JDFusion Product page.
 ![创建实例](https://github.com/jdcloudcom/cn/blob/edit/image/JDFusion/yaoqingma-3.png)
 
-## 4、获取邀请码
-京东云JDFusion产品团队会根据提交的公测申请，后台生成公测邀请码，并通过线下提交给申请用户。
+## 4. Get an Invitation Code
+JDFusion product team of JD Cloud will generate Beta invitation code in the background according to the submitted Beta application and deliver it to the applicant offline.

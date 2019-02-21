@@ -1,22 +1,22 @@
-# 入门指南
-## 概述
-JDFusion产品通过京东云提供的CLI程序的运行，需要准备相应的运行环境。
+# Getting Started
+## Overview
+JDFusion runs through CLI program provided by JD Cloud, so corresponding running environment should be prepared.
 
-目前，京东云为您提供了多种途径管理京东云资源：控制台页面操作、京东云SDK或者CLI工具直接调用API 进行业务配置。作为控制台页面操作方式的重要补充形式，京东云CLI工具是基于OpenAPI元数据自动生成，帮助您便捷管理京东云资源的命令行工具。通过它您可快速调用京东云API、做自动化和脚本处理、以多样方式进行组合和重用云资源等。 当前已实现支持云主机、网络、容器等十多个业务线。 京东云CLI具有如下特点：
+At present, JD Cloud provides you with multiple approaches for managing JD Cloud resources: console page operation, JD Cloud SDK or CLI tool directly calls APIs for businesses configuration. As an important supplementary form of console page operation method, JD Cloud CLI tool is automatically generated based on OpenAPI metadata, which is a command line tool for you to conveniently manage JD Cloud resources. You can use it to rapidly call JD Cloud APIs, perform automation and script processing, and combine and reuse cloud resources by multiple methods. At present, it implements to support over ten business lines such as Virtual Machines, Network and Container. JD Cloud CLI has the following characteristics:
 
-1、支持跨平台。目前支持在Linux、macOS、Windows系统上安装CLI。
+1. Support cross-platform. At present, installation of CLI is supported by Linux, macOS and Windows system.
 
-2、鉴权后才可使用。使用前需提前申请京东云AccessKey和SecretKey（以下简称AK/SK，获取详情可查看：AccessKey管理页面 ）。
+2. Available only after authentication. JD Cloud AccessKey and SecretKey (hereinafter referred to as AK/SK, see AccessKey Management page for details) shall be applied in advance before use.
 
-3、依赖京东云Python SDK。
+3. Depend on JD Cloud Python SDK.
 
-4、JDFusion产品使用依赖邀请码。
+4. JDFusion Product Use Dependent Invitation Code.
 
-## 环境部署
+## Environment Deployment
 
-京东云CLI基于Python语言和京东云Python SDK开发，使用CLI前请安装Python 2.7.*版本。请访问官网下载并安装Python2.7.*版本。
+The development of JD Cloud CLI is based on Python Language and JD Cloud Python SDK, so install Python of version 2.7.* before use CLI. Access official website to download and install Python of version 2.7.*.
 
-京东云Python SDK不用手动安装，Python包管理工具会自动下载并安装对应版本的依赖包。
+No manual installation is required for JD Cloud Python SDK, and Python package management tool will automatically download and install dependent packages with corresponding versions.
 
-具体安装部署请查看[京东云CLI安装部署说明](https://docs.jdcloud.com/en/cli/introduction)。
+See [JD Cloud CLI Installation Deployment Description](https://docs.jdcloud.com/en/cli/introduction) for specific installation and deployment.
 

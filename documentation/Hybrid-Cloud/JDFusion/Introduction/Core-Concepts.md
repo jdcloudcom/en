@@ -1,48 +1,48 @@
-## 核心概念
+## Core Concepts
 <table>
     <thead>
         <tr>
-            <th style="width: 100px;">名称</th>
-            <th>解释</th>
+            <th style="width: 100px;">Name</th>
+            <th>Explanation</th>
         </tr>
     </thead>
        <tr>
-        <td>地域</td>
-        <td>云厂商的机房分布在全球多个位置，这些位置称为地域。不同地域之间完全隔离，保证不同地域间最大程度的稳定性和容错性。         </td>
+        <td>Region</td>
+        <td>The cloud vendors' machine rooms are distributed in many worldwide locations, which are referred as the regions. Different regions are completely isolated from each other, ensuring maximum stability and fault tolerance among different regions.         </td>
         </tr> 
         <tr>
-        <td>可用区</td>
-        <td>可用区是指在同一地域下，电力、网络等基础设施互相独立的物理区域。一个地域包含一个或多个可用区，同一地域下的多个可用区可以彼此连通。
+        <td>Availability Zone</td>
+        <td>Availability Zone is a physical region where power, network, and other infrastructure are independent of each other. A region contains one or more availability zones, and multiple availability zones in the same region can be connected to each other.
         </td>
         </tr> 
         <tr>
-        <td>私有网络（VPC）</td>
-        <td>用户在云上自定义的逻辑隔离的网络空间，此私有网络空间由用户完全掌控，支持自定义网段划分、路由策略等。用户可以在VPC内创建和管理多种云产品，如云主机、负载均衡等，同时可配置网络内的资源连接Internet。
+        <td>Virtual Private Cloud (VPC)</td>
+        <td>The user can customize a logically-isolated network space on JD Cloud. This VPC network space is fully controlled by users and supports customized network segmentation, routing policies, etc. Users can create and manage multiple cloud products in the VPC, such as virtual machines, and load balancer, and configure resources within the network to connect to the Internet.
         </td>
         </tr> 
         <tr>
-        <td>子网</td>
-        <td>子网是所属私有网络（VPC） IP地址范围内的 IP地址块，子网在VPC下。创建VPC后，用户可以在VPC下添加子网。相同VPC下子网的IP地址块不可以重叠，不同VPC下子网的IP地址块可以重叠。
+        <td>Subnet</td>
+        <td>A subnet is an IP address block within the IP address range of the Virtual Private Cloud (VPC). The subnet is under the VPC. After creating a VPC, users can add subnets under the VPC. IP address blocks of subnets under the same VPC cannot overlap, and IP address blocks of subnets under different VPCs can overlap.
         </td>
         </tr> 
          <tr>
-        <td>实例规格</td>
-        <td>实例规格指实例的每个节点被分配的CPU核数、内存容量、网络配置等资源。
+        <td>Instance Type</td>
+        <td>The instance type refers to resources assigned to each node of an instance type, including the CPU core, memory capacity, networking configuration, etc.
         </td>
         </tr> 
          <tr>
-        <td>CPU核</td>
-        <td>实例的每个节点可以使用的计算能力上限。1个CPU拥有不低于2.3GHz超线程（Intel Xeon系列Hyper-Threading）的计算能力。
+        <td>CPU Core</td>
+        <td>Refer to the computing power cap applicable to each instance node. One CPU has the computing power of 2.3GHz hyper-threading (Intel Xeon Series Hyper-Threading) at least.
         </td>
         </tr> 
           <tr>
-        <td>内存</td>
-        <td>实例的每个节点被分配的内存容量。
+        <td>Memory</td>
+        <td>Refer to the memory capacity assigned to each instance node.
         </td>
         </tr> 
           <tr>
-        <td>存储空间</td>
-        <td>实例的每个节点被分配的磁盘容量。
+        <td>Bucket</td>
+        <td>Refer to the Disk capacity assigned to each instance node.
         </td>
         </tr> 
 </table>

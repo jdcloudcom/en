@@ -1,47 +1,47 @@
-# 网卡相关命令
-## 网卡列表
-用于展示用户指定云上的所有网卡信息列表
-命令格式：
+# Relevant Commands About Network Interfaces
+## Network Interface List
+Used for displaying the information list of all network interfaces on the cloud specified by the user
+Command Format:
 ```bash
-# list nis --cloud <云实例ID>
+# list nis --cloud <Cloud Instance ID>
 ```
-参数：
-| 参数名称 | 参数说明 |
+Parameters:
+| Parameter Name | Parameter Description |
 | ---- | ---- |
-| --cloud | 必填，云实例ID（list clouds中的id） |
-示例：
+| --cloud | Required, Cloud Instance ID (id of list clouds) |
+Example:
 ```bash
 list nis --cloud cloud-123
 ```
-## 网卡详细信息
-用于展示用户指定网卡的详细信息
-命令格式：
+## Network Interface Details
+Used for displaying details of the network interfaces specified by the user
+Command Format:
 ```bash
-# describe ni <网卡实例ID> [ --cloud <云实例ID> ]
+# describe ni <Network Interface Instance ID> [ --cloud <Cloud Instance ID> ]
 ```
-参数：
-| 参数名称 | 参数说明 |
+Parameters:
+| Parameter Name | Parameter Description |
 | ---- | ---- |
-| --cloud | 云实例ID（list clouds中的id） |
-示例：
+| --cloud | Cloud Instance ID (id of list clouds) |
+Example:
 ```bash
 describe ni ni-123
 ```
-## 创建网卡
-用于根据JSON格式的配置文件，在指定的云上创建网卡
-命令格式：
+## Create Network Interface
+Used for creating the network interface on the specified cloud according to the configuration file in the JSON format
+Command Format:
 ```bash
-# create ni [ -f <文件名> | -i <JSON格式数据> ] --cloud <云实例ID> [ --tail ] [ --no-table ]
+# create ni [ -f <File Name> | -i <Data in JSON Format> ] --cloud <Cloud Instance ID> [ --tail ] [ --no-table ]
 ```
-参数：
-| 参数名称 | 参数说明 |
+Parameters:
+| Parameter Name | Parameter Description |
 | ---- | ---- |
-| -f/--file | -f、-i必须要有一个，文件名，内容为JSON格式的数据 |
-| -i/--input | -f、-i必须要有一个，JSON格式的数据 |
-| --cloud | 必填，云实例ID（list clouds中的id） |
-| --tail | 跟踪任务执行过程，不可与--no-table同时出现 |
-| --no-table | 只展示结果的ID，不可与--tail同时出现 |
-JSON格式样例：
+| -f/--file | Either -f or -i must be selected for the file name and the data in the JSON format must be used as the content |
+| -i/--input | Either -f or -i must be selected and the data in the JSON format must be used as the content |
+| --cloud | Required, Cloud Instance ID (id of list clouds) |
+| --tail | Track the task execution process and do not appear with --no-table at the same time |
+| --no-table | Show the ID of the result only and cannot appear with --tail at the same time |
+Example of JSON Format:
 ```json
 {
   "netInterface": {
@@ -54,56 +54,56 @@ JSON格式样例：
   }
 }
 ```
-示例：
+Example:
 ```bash
 create ni -f /data/json/ni.json --cloud cloud-123
 ```
-## 删除指定的网卡
-用于删除用户指定的网卡
-命令格式：
+## Delete the Specified Network Interface
+Used for deleting network interface specified by the user
+Command Format:
 ```bash
-# del ni <网卡实例ID> --cloud <云实例ID>
+# del ni <Network Interface ID> --cloud <Cloud Instance ID>
 ```
-参数：
-| 参数名称 | 参数说明 |
+Parameters:
+| Parameter Name | Parameter Description |
 | ---- | ---- |
-| --cloud | 必填，云实例ID（list clouds中的id） |
-示例：
+| --cloud | Required, Cloud Instance ID (id of list clouds) |
+Example:
 ```bash
 del ni ni-123 --cloud cloud-123
 ```
-## 绑定网卡到虚拟机
-用于将用户指定的网卡，绑定到用户指定的虚拟机上
-命令格式：
+## Associate Network Interface to Virtual Machines
+Used for associating the network interfaces specified by the user to the Virtual Machines specified by the user
+Command Format:
 ```bash
-# attach ni --from <网卡实例ID> --to <虚拟机ID> --cloud <云实例ID> [ --tail ] [ --no-table ]
+# attach ni --from <Network Interface Instance ID> --to <ID of Virtual Machines> --cloud <Cloud Instance ID> [ --tail ] [ --no-table ]
 ```
-参数：
-| 参数名称 | 参数说明 |
+Parameters:
+| Parameter Name | Parameter Description |
 | ---- | ---- |
-| --from | 必填，指定要绑定的网卡ID |
-| --to | 必填，指定网卡要绑定到的虚拟机ID |
+| --from | Required, specifying the network interface ID to be associated |
+| --to | Required, specifying the IDs of Virtual Machines to be associated with the network interfaces |
 
-| --cloud | 必填，云实例ID（list clouds中的id） |
-| --tail | 跟踪任务执行过程，不可与--no-table同时出现 |
-| --no-table | 只展示结果的ID，不可与--tail同时出现 |
-示例：
+| --cloud | Required, Cloud Instance ID (id of list clouds) |
+| --tail | Track the task execution process and do not appear with --no-table at the same time |
+| --no-table | Show the ID of the result only and cannot appear with --tail at the same time |
+Example:
 ```bash
 attach ni --from ni-123 --to vm-123 --cloud cloud-123
 ```
-## 将网卡从虚拟机上解绑
-用于将用户指定的网卡，从用户指定的虚拟机上解绑
-命令格式：
+## Disassociate the network interfaces from the Virtual Machines
+Used for disassociating the network interfaces specified by the user from the Virtual Machines specified by the user
+Command Format:
 ```bash
-# detach ni --from <网卡实例ID> --to <虚拟机ID> --cloud <云实例ID>
+# detach ni --from <Network Interface Instance ID> --to <ID of Virtual Machines> --cloud <Cloud Instance ID>
 ```
-参数：
-| 参数名称 | 参数说明 |
+Parameters:
+| Parameter Name | Parameter Description |
 | ---- | ---- |
-| --from | 必填，指定要解绑的网卡ID |
-| --to | 必填，指定的网卡要从哪台虚拟机上解绑 |
-| --cloud | 必填，云实例ID（list clouds中的id） |
-示例：
+| --from | Required, specifying the network interface ID to be disassociated |
+| --to | Required, specifying the Virtual Machines from which the specified network interfaces are disassociated |
+| --cloud | Required, Cloud Instance ID (id of list clouds) |
+Example:
 ```bash
 detach ni --from ni-123 --to vm-123 --cloud cloud-123
 ```

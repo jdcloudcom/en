@@ -1,47 +1,47 @@
-# 云硬盘相关命令
-## 云硬盘列表
-用于展示用户指定云上的所有云硬盘信息列表
-命令格式：
+# Relevant Commands About Cloud Disks
+## Cloud Disk List
+Used for displaying the information list of all cloud disks on the cloud specified by the user
+Command Format:
 ```bash
-# list disks --cloud <云实例ID>
+# list disks --cloud <Cloud Instance ID>
 ```
-参数：
-| 参数名称 | 参数说明 |
+Parameters:
+| Parameter Name | Parameter Description |
 | ---- | ---- |
-| --cloud | 必填，云实例ID（list clouds中的id） |
-示例：
+| --cloud | Required, Cloud Instance ID (id of list clouds) |
+Example:
 ```bash
 list disks --cloud cloud-123
 ```
-## 云硬盘详细信息
-用于展示用户指定云硬盘的详细信息
-命令格式：
+## Details of Cloud Disk
+Used for displaying details of the cloud disk specified by the user
+Command Format:
 ```bash
-# describe disk <云硬盘实例ID> [ --cloud <云实例ID> ]
+# describe disk <Cloud Disk Instance ID> [ --cloud <Cloud Instance ID> ]
 ```
-参数：
-| 参数名称 | 参数说明 |
+Parameters:
+| Parameter Name | Parameter Description |
 | ---- | ---- |
-| --cloud | 云实例ID（list clouds中的id） |
-示例：
+| --cloud | Cloud Instance ID (id of list clouds) |
+Example:
 ```bash
 describe disk disk-123
 ```
-## 创建云硬盘
-用于根据JSON格式的配置文件，在指定的云上创建云硬盘
-命令格式：
+## Create Cloud Disk
+Used for creating the cloud disk on the specified cloud according to the configuration file in the JSON format
+Command Format:
 ```bash
-# create disk [ -f <文件名> | -i <JSON格式数据> ] --cloud <云实例ID> [ --tail ] [ --no-table ]
+# create disk [ -f <File Name> | -i <Data in JSON Format> ] --cloud <Cloud Instance ID> [ --tail ] [ --no-table ]
 ```
-参数：
-| 参数名称 | 参数说明 |
+Parameters:
+| Parameter Name | Parameter Description |
 | ---- | ---- |
-| -f/--file | -f、-i必须要有一个，文件名，内容为JSON格式的数据 |
-| -i/--input | -f、-i必须要有一个，JSON格式的数据 |
-| --cloud | 必填，云实例ID（list clouds中的id） |
-| --tail | 跟踪任务执行过程，不可与--no-table同时出现 |
-| --no-table | 只展示结果的ID，不可与--tail同时出现 |
-JSON格式样例：
+| -f/--file | Either -f or -i must be selected for the file name and the data in the JSON format must be used as the content |
+| -i/--input | Either -f or -i must be selected and the data in the JSON format must be used as the content |
+| --cloud | Required, Cloud Instance ID (id of list clouds) |
+| --tail | Track the task execution process and do not appear with --no-table at the same time |
+| --no-table | Show the ID of the result only and cannot appear with --tail at the same time |
+Example of JSON Format:
 ```json
 {
   "disk": {
@@ -60,54 +60,54 @@ JSON格式样例：
   }
 }
 ```
-示例：
+Example:
 ```bash
 create disk -f /data/json/disk.json --cloud cloud-123
 ```
-## 删除指定的云硬盘
-用于删除用户指定的云硬盘
-命令格式：
+## Delete the Specified Cloud Disk
+Used for deleting the cloud disk specified by the user
+Command Format:
 ```bash
-# del disk <云硬盘实例ID> --cloud <云实例ID>
+# del disk <Cloud Disk Instance ID> --cloud <Cloud Instance ID>
 ```
-参数：
-| 参数名称 | 参数说明 |
+Parameters:
+| Parameter Name | Parameter Description |
 | ---- | ---- |
-| --cloud | 必填，云实例ID（list clouds中的id） |
-示例：
+| --cloud | Required, Cloud Instance ID (id of list clouds) |
+Example:
 ```bash
 del disk disk-123 --cloud cloud-123
 ```
-## 绑定云硬盘到虚拟机
-用于将用户指定的云硬盘，绑定到用户指定的虚拟机上
-命令格式：
+## Associate the cloud disks to the Virtual Machines
+Used for associating the cloud disk specified by the user to the Virtual Machines specified by the user
+Command Format:
 ```bash
-# attach disk --from <云硬盘实例ID> --to <虚拟机ID> --cloud <云实例ID> [ --tail ] [ --no-table ]
+# attach disk --from <Cloud Disk Instance ID> --to <IDs of Virtual Machines> --cloud <Cloud Instance ID> [ --tail ] [ --no-table ]
 ```
-参数：
-| 参数名称 | 参数说明 |
+Parameters:
+| Parameter Name | Parameter Description |
 | ---- | ---- |
-| --from | 必填，指定要绑定的云硬盘ID |
-| --to | 必填，指定云硬盘要绑定到的虚拟机ID |
-| --cloud | 必填，云实例ID（list clouds中的id） |
-| --tail | 跟踪任务执行过程，不可与--no-table同时出现 |
-| --no-table | 只展示结果的ID，不可与--tail同时出现 |
-示例：
+| --from | Required, specifying the cloud disk ID to be associated |
+| --to | Required, specifying the IDs of Virtual Machines to be associated with the cloud disk |
+| --cloud | Required, Cloud Instance ID (id of list clouds) |
+| --tail | Track the task execution process and do not appear with --no-table at the same time |
+| --no-table | Show the ID of the result only and cannot appear with --tail at the same time |
+Example:
 ```bash
 attach disk --from disk-123 --to vm-123 --cloud cloud-123
 ```
-## 将云硬盘从虚拟机上解绑
-用于将用户指定的云硬盘，从用户指定的虚拟机上解绑
-命令格式：
+## Disassociate the cloud disk from the Virtual Machines
+Used for disassociating the cloud disks specified by the user from the Virtual Machines specified by the user
+Command Format:
 ```bash
-# detach disk --from <云硬盘实例ID> --to <虚拟机ID> --cloud <云实例ID>
+# detach disk --from <Cloud Disk Instance ID> --to <IDs of Virtual Machines> --cloud <Cloud Instance ID>
 ```
-参数：
-| 参数名称 | 参数说明 |
+Parameters:
+| Parameter Name | Parameter Description |
 | ---- | ---- |
-| --from | 必填，指定要解绑的云硬盘ID |
-| --to | 必填，指定的云硬盘要从哪台虚拟机上解绑 |
-| --cloud | 必填，云实例ID（list clouds中的id） |
-示例：
+| --from | Required, specifying the cloud disk ID to be disassociated |
+| --to | Required, specifying the Virtual Machines from which the specified cloud disks are disassociated |
+| --cloud | Required, Cloud Instance ID (id of list clouds) |
+Example:
 ```bash
 detach disk --from disk-123 --to vm-123 --cloud cloud-123

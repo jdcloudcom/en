@@ -1,42 +1,42 @@
-# 云信息相关命令
-## 云信息列表
-用于展示用户注册的所有云信息列表
-命令格式：
+# Relevant Commands About Cloud Information
+## Cloud Information List
+Used for displaying the information list of all clouds registered by the user
+Command Format:
 ```bash
-# list clouds [--vendor <云厂家>]
+# list clouds [--vendor <Cloud Vendor>]
 ```
-参数：
-| 参数名称 | 参数说明 |
+Parameters:
+| Parameter Name | Parameter Description |
 | ---- | ---- |
-| --vendor | 云厂家 |
-示例：
+| --vendor | Cloud Vendor |
+Example:
 ```bash
 list clouds --vendor jdcloud
 ```
-## 云信息详情
-用于展示用户指定云的详细信息
-命令格式：
+## Details of Cloud Information
+Used for displaying details of the clouds specified by the user
+Command Format:
 ```bash
-# describe cloud <云实例id>
+# describe cloud <Cloud Instance ID>
 ```
-参数：
-无
-示例：
+Parameters:
+None
+Example:
 ```bash
 describe cloud cloud-123
 ```
-## 注册云信息
-用于根据JSON格式的配置文件，将指定的云注册到JD Fusion平台
-命令格式：
+## Registration Cloud Information
+Used for registering the specified cloud on the JD Fusion platform according to the configuration platform in the JSON format
+Command Format:
 ```bash
-# register cloud [ -f <文件名> | -i <JSON格式的数据> ]
+# register cloud [ -f <File Name> | -i <Data in JSON format> ]
 ```
-参数：
-| 参数名称 | 参数说明 |
+Parameters:
+| Parameter Name | Parameter Description |
 | ---- | ---- |
-| -f/--file | -f、-i必须要有一个，文件名，内容为JSON格式的数据 |
-| -i/--input | -f、-i必须要有一个，JSON格式的数据 |
-JSON格式样例：
+| -f/--file | Either -f or -i must be selected for the file name and the data in the JSON format must be used as the content |
+| -i/--input | Either -f or -i must be selected and the data in the JSON format must be used as the content |
+Example of JSON Format:
 ```json
 {
   "cloud": {
@@ -47,20 +47,20 @@ JSON格式样例：
   }
 }
 ```
-示例：
+Example:
 ```bash
 register cloud -i '{"cloud":{"name":"mycloud111","vendor":"jdcloud","info":{"access_key":"my_access_key","secret_key":"my_secret_key","region":"cn-north-1"},"metadata":{}}}'
 ```
--i 参数的内容为标准JSON格式，在Linux环境下可以使用''(单引号)括起来，而在Windows环境下则需要对JSON字符串中的""(双引号)进行转义，并且外层不加''（单引号）
-## 注销云信息
-将用户指定的云信息从JD Fusion平台上注销
-命令格式：
+-The content of the parameter i is in the standard JSON format, which can be marked with the single quotation marks ('') under the Linux environment. However, under the Windows environment, the parameter shall be transferred with the double quotation marks ("") of the JSON character string without any single quotation marks ('').
+## Log out Cloud Information
+Log out the cloud information specified by the user from the JD Fusion platform
+Command Format:
 ```bash
-# unregister cloud <云实例ID>
+# unregister cloud <Cloud Instance ID>
 ```
-参数：
-无
-示例：
+Parameters:
+None
+Example:
 ```bash
 unregister cloud cloud-123
 ```

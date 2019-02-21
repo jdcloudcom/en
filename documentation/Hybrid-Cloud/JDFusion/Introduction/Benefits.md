@@ -1,9 +1,9 @@
-# 产品优势
-## 可视化管理
-JDFusion提供一站式的资源管理控制台，实现云资源池总览、业务系统总览、告警分析以及虚拟资源总体监控等多个层次的可视化，用户可从全局掌握企业IT基础架构，降低云资源的维护成本。
-## 支持多云异构平台管理
-JDFusion为企业提供统一的多云资源管理平台，降低云厂商所提供的接口的差异化所带来的影响，从而使企业用户可以使用控制台和标准化的API访问、管理不同云厂家所提供的云服务。
-## 开放式平台
-JDFusion提供了API/SDK以及terraform等多种开源的接入方案，允许合作伙伴在API接口之上，进行更为丰富的服务开发和整合。
-## 构建丰富扩展
-JDfusion 提供丰富的云服务可供用户选择，帮助用户快速获得资源与服务，弹性伸缩，极大丰富了混合云的内涵，兼具私有云的自控性与公有云的灵活性。
+# Benefits
+## Visual Management
+JDFusion provides a one-stop resource management console, implementing cloud resource pool overview, business system overview, alarm analysis, overall monitoring of virtual resources and other multi-layer visualization, so that users can master the enterprise's IT basic architecture globally and reduce the maintenance costs of cloud resources.
+## Support Multi-cloud Heterogeneous Platform Management
+JDFusion provides the enterprise with a unified multi-cloud resource management platform, reduces influence of the different interfaces provided by cloud vendors, and therefore allows enterprise users to access and manage the cloud services provided by different cloud vendors with the console and standard APIs.
+## Open Platform
+JDFusion provides API/SDK, terraform and other open source access schemes, allowing partners to develop and integrate richer services based on APIs.
+## Construct abundant expansion
+JDfusion provides abundant cloud services for users to select, helps users quickly obtain resources and services, provides Auto Scaling, greatly enriches the connotation of Hybrid Cloud, and has the self-control of private cloud and flexibility of public cloud.

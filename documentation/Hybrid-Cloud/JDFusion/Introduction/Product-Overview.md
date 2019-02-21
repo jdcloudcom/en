@@ -1,13 +1,13 @@
-# 产品概述
-JDFusion产品提供对公有云、私有云、混合云整合管理的产品。融合云将提供多种基础设施资源的整合，跨平台的融合编排，多租户访问等能力，助力企业在多种异构云平台间，数据迁移，快速部署业务系统，高效运维业务状态，整体提升业务系统的稳定性、灵活性。
-JDFusion产品采用开放式的架构设计，提供丰富的API接口，并提供SDK/CLI等开发工具。企业现有IT系统可通过API等快速与融合云集成，实现企业特性化管理需求。
-## JDFusion产品特性
- - 能够接入主流的公有云、私有云平台
- - 提供一站式的云资源管理控制台，用户从全局掌握企业IT基础架构
- - 支持可视化的编排面板，直观、灵活的对多个云厂商的资源进行一体化编排
- - 提供DTS服务，满足用户的重要数据可以在多云之间进行迁移，支持周期、实时等多种模式
- - 提供统一的资源/业务监控功能，并且支持多种资源监控接入模式
+# Product Overview
+The JDFusion provides products integrating public clouds, private clouds and the Hybrid Cloud. The JDFusion has the capacities of integrating several infrastructure resources, cross-platform fusion and orchestration, multi-tenant access and so on, helping the enterprise conduct data migration between heterogeneous cloud platforms, rapidly deploy business systems, keep high-efficiency operation and maintenance business status and overall improve business system stability and flexibility.
+By adopting the open architecture design, the JDFusion provides diversified APIs and development tools such as SDK/CLI. The existing IT system of the enterprise can be rapidly integrated with the JDFusion via API and others, realizing characteristic management demands of enterprises.
+## Features of JDFusion
+ - Can be accessed to the mainstream public clouds and private cloud platforms
+ - With the one-stop cloud resource management console, the user can control the enterprise’s IT basic architecture globally.
+ - Support the visual orchestration panel and conduct integrated orchestration to resources of several cloud vendors
+ - Provide the DTS service, meet the demand for migrating the user’s important data between clouds and support several modes such as the period mode and the real-time mode
+ - It provides unified resource/workload monitoring function, and supports multi-resource monitoring access mode.
 
-## **计费**
-暂无。
+## **Billing**
+No information now.
 
