@@ -12,8 +12,8 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/errorLo
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**instanceId**|String|True| |RDS instance ID, which uniquely identifies an RDS instance|
 |**regionId**|String|True| |Region code, with range detailed in [Regions and Availability Zone Comparison Table](../Enum-Definitions/Regions-AZ.md)|
+|**instanceId**|String|True| |RDS instance ID, which uniquely identifies an RDS instance|
 
 ## Request parameter
 None
@@ -31,12 +31,12 @@ None
 ### ErrorLog
 |Name|Type|Description|
 |---|---|---|
-|**internalURL**|String|Download Link of Intranet|
-|**lastUpdateTime**|String|Last Update Time of the Error Log, Format: YYYY-MM-DD HH:mm:ss|
 |**name**|String|Error Log File Name|
-|**publicURL**|String|Download Link of Public Network|
 |**sizeByte**|Long|Error Log File Size in Bytes|
+|**lastUpdateTime**|String|Last Update Time of the Error Log, Format: YYYY-MM-DD HH:mm:ss|
 |**uploadTime**|String|Error Log Upload Time, Format: YYYY-MM-DD HH:mm:ss|
+|**publicURL**|String|Download Link of Public Network|
+|**internalURL**|String|Download Link of Intranet|
 
 ## Response code
 |Return code|Description|

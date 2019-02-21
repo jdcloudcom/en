@@ -10,10 +10,10 @@ GET
 ## Request address
 https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/accounts
 
-|Name|Type|Required or not|Default value|Description|
+|Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**instanceId**|String|True| |RDS instance ID, which uniquely identifies an RDS instance|
 |**regionId**|String|True| |Region code, with range detailed in [Regions and Availability Zone Comparison Table](../Enum-Definitions/Regions-AZ.md)|
+|**instanceId**|String|True| |RDS instance ID, which uniquely identifies an RDS instance|
 
 ## Request parameter
 |Name|Type|Required or Not|Default Value|Description|
@@ -36,9 +36,9 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/account
 |Name|Type|Description|
 |---|---|---|
 |**accountName**|String|Account name with specific rules detailed in the Help Center Documentation: [Name and Password Restrictions](../../../documentation/Cloud-Database-and-Cache/RDS/Introduction/Restrictions/SQLServer-Restrictions.md)|
-|**accountPrivileges**|AccountPrivilege[]|Specific Privilege|
 |**accountStatus**|String|Account status, detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)<br>- **MySQL: Not support, not return this field**<br>- **SQL Server: return this field**|
-### AccountPrivilege
+|**accountPrivileges**|AccountPrivilege[]|Specific Privilege|
+### Account
 |Name|Type|Description|
 |---|---|---|
 |**dbName**|String|Database name with specific rules detailed in the Help Center Documentation: [Name and Password Restrictions](../../../documentation/Cloud-Database-and-Cache/RDS/Introduction/Restrictions/SQLServer-Restrictions.md)|

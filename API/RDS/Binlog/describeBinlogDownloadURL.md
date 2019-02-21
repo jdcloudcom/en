@@ -12,9 +12,9 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/binlogs
 
 |Name|Type|Required or Not|Default|Description|
 |---|---|---|---|---|
-|**binlogBackupId**|String|True| |Backup ID of binlog, which may be obtained through describeBinlogs|
-|**instanceId**|String|True| |RDS instance ID, the unique identifier of one RDS instance|
 |**regionId**|String|True| |Region code, see the value range in [Table of Comparisons of Regions and Availability Zones](../Enum-Definitions/Regions-AZ.md)|
+|**instanceId**|String|True| |RDS instance ID, the unique identifier of one RDS instance|
+|**binlogBackupId**|String|True| |Backup ID of binlog, which may be obtained through describeBinlogs|
 
 ## Request Parameter
 None
@@ -28,8 +28,8 @@ None
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**internalURL**|String|Intranet download link|
 |**publicURL**|String|Public network download link|
+|**internalURL**|String|Intranet download link|
 
 ## Return Code
 |Return Code|Description|

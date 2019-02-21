@@ -34,15 +34,15 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/backupSynchronicities
 ### BackupSynchronicity
 |Name|Type|Description|
 |---|---|---|
-|**createTime**|String|Creation Time|
+|**serviceId**|String|Cross-Region Backup Synchronization Service ID|
+|**instanceId**|String|RDS Instance ID|
+|**serviceStatus**|String|Cross-region backup synchronization service status, normal, running; Error, error|
+|**srcRegion**|String|Source Instance Region|
 |**destRegion**|String|Backup the synchronized target region|
 |**engine**|String|Database Type|
 |**engineVersion**|String|Database Version|
-|**instanceId**|String|RDS Instance ID|
+|**createTime**|String|Creation Time|
 |**newestDataTime**|String|Latest data time point of cross-region backup|
-|**serviceId**|String|Cross-Region Backup Synchronization Service ID|
-|**serviceStatus**|String|Cross-region backup synchronization service status, normal, running; Error, error|
-|**srcRegion**|String|Source Instance Region|
 
 ## Return Code
 |Return Code|Description|

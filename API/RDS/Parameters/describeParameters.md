@@ -12,8 +12,8 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/paramet
 
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**instanceId**|String|True| |Instance ID|
 |**regionId**|String|True| |Region ID|
+|**instanceId**|String|True| |Instance ID|
 
 ## Request Parameter
 None
@@ -31,12 +31,12 @@ None
 ### DBInstanceParameter
 |Name|Type|Description|
 |---|---|---|
-|**configureValue**|String|The modified parameter value will come into force or not, subject to the case that whether rebooting is required|
-|**description**|String|Parameter Description|
 |**name**|String|Parameter Name|
-|**needRestart**|String|Is rebooting required for bringing modification into force.- true: The parameter can come into force upon rebooting, - false: The parameter can come into force without rebooting.|
-|**range**|String|Allowable Range of the Parameter Value|
+|**description**|String|Parameter Description|
+|**configureValue**|String|The modified parameter value will come into force or not, subject to the case that whether rebooting is required|
 |**runningValue**|String|Effective Value in the Current Instance|
+|**range**|String|Allowable Range of the Parameter Value|
+|**needRestart**|String|Is rebooting required for bringing modification into force.- true: The parameter can come into force upon rebooting, - false: The parameter can come into force without rebooting.|
 
 ## Return Code
 |Return Code|Description|

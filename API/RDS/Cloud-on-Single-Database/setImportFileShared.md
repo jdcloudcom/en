@@ -12,9 +12,9 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/importF
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**fileName**|String|True| |The File Name of Cloud on Single Database|
-|**instanceId**|String|True| |RDS instance ID, which uniquely identifies an RDS instance|
 |**regionId**|String|True| |Region code, with range detailed in [Regions and Availability Zone Comparison Table](../Enum-Definitions/Regions-AZ.md)|
+|**instanceId**|String|True| |RDS instance ID, which uniquely identifies an RDS instance|
+|**fileName**|String|True| |The File Name of Cloud on Single Database|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
@@ -24,7 +24,6 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/importF
 
 ## Response parameter
 None
-
 
 
 ## Response code

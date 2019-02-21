@@ -1,8 +1,10 @@
 # Update History #
-API Version: 0.4.1
+API version: 0.4.3
 
 |Release Time|Version Number| Update |Instructions|
 |---|---|---|---|
+|2019-01-29|0.4.3|MySQL interface update|* Add relevant interface for parameter array<br>* Add search for whether to enable high security mode interface<br>* Add interface for searching SQL interception record interface|
+|2018-12-27|0.4.2|SQL Server interface update|* describeAuditResult interface supports filter<br>* Search of database list supports paging|
 |2018-12-24|0.4.1|SQL Server Interface Update |*  Searching SQL Server account list supports paging <br>* Create an instance support SQL Server based on time point <br>* Create an instance support SQL Server based on backup|
 |2018-12-20|0.4.0|Support of filter and tagFilter |* Instance List supports filter and tagFilter filtering <br>* Instance List instance details return tag information|
 |2018-12-17|0.3.9|Add MySQL Related Interface |* Searching availability zone interface supports MySQL<br>* Add clearing binlog interface <br>* Modify instance name interface support MySQL<br>* Add enabling and disabling high security model interface <br>* Add deleting and modifying parameter set interface<br>* Searching user quota interface supports MySQL|

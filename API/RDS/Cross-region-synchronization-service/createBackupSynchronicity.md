@@ -17,8 +17,8 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/backupSynchronicities
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**destRegion**|String|True| |Backup the synchronized target region|
 |**instanceId**|String|True| |Source Instance ID|
+|**destRegion**|String|True| |Backup the synchronized target region|
 
 
 ## Return Parameter

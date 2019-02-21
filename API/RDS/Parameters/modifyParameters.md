@@ -12,8 +12,8 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/paramet
 
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**instanceId**|String|True| |Instance ID|
 |**regionId**|String|True| |Region ID|
+|**instanceId**|String|True| |Instance ID|
 
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|

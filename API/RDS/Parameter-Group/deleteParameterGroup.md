@@ -12,8 +12,8 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/parameterGroups/{parameterGrou
 
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**parameterGroupId**|String|True| |Parameter Group ID|
 |**regionId**|String|True| |Region ID|
+|**parameterGroupId**|String|True| |Parameter Group ID|
 
 ## Request Parameter
 None

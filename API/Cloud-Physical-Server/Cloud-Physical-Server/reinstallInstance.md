@@ -4,7 +4,6 @@
 ## Description
 To reinstall the Cloud Physical Server, only the stopped servers can be reinstalled<br/>
 - The API (describeOS) may be called to obtain the operating system list supported by the Cloud Physical Server
-- The API (describeSoftware) may be called to obtain the software list supported by the Cloud Physical Server, or the software may not be pre-installed
 
 
 ## Request method
@@ -15,8 +14,8 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:reinsta
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**instanceId**|String|True| |Cloud Physical Server ID|
 |**regionId**|String|True| |Region ID, the Region and Availability Zone Supported by the Cloud Physical Servers can be Obtained by Calling API (describeRegions)|
+|**instanceId**|String|True| |Cloud Physical Server ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
@@ -28,27 +27,27 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:reinsta
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**az**|String|True| |Availability Zone, such as cn-east-1a|
-|**dataRaidTypeId**|String|True| |Data Disk RAID Type ID|
 |**imageType**|String|True| |Image Type, Value Range: Standard, Standard_app|
-|**keepData**|String|True| |Whether to reserve data on the data disk, value: yes or no|
 |**osTypeId**|String|True| |Operating System Type ID|
-|**password**|String|True| |Password|
-|**softwares**|Software[]|False| | |
 |**sysRaidTypeId**|String|True| |System Disk RAID Type ID|
+|**keepData**|String|True| |Whether to reserve data on the data disk, value: yes or no|
+|**dataRaidTypeId**|String|True| |Data Disk RAID Type ID|
+|**password**|String|True| |Password|
+|**hostname**|String|False| |Machine Name|
+|**softwares**|Software[]|False| | |
 ### Software
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**description**|String|False| |Software Package Description|
 |**name**|String|False| |Software Package Name|
-|**osTypeId**|String|False| |Operating System Type ID|
 |**version**|String|False| |Software Package Version|
+|**osTypeId**|String|False| |Operating System Type ID|
+|**description**|String|False| |Software Package Description|
 
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String| |
 |**result**|Result| |
-
+|**requestId**|String| |
 
 ### Result
 |Name|Type|Description|

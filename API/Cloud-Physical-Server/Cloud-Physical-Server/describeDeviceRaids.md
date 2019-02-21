@@ -24,9 +24,8 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/raids
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String| |
 |**result**|Result| |
-
+|**requestId**|String| |
 
 ### Result
 |Name|Type|Description|
@@ -35,12 +34,12 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/raids
 ### Raid
 |Name|Type|Description|
 |---|---|---|
-|**description**|String|RAID Type Description|
-|**deviceType**|String|Type of Cloud Physical Server, such as cps.c.normal|
-|**raidType**|String|RAID Type, such as NORAID, RAID0, and RAID1|
-|**raidTypeId**|String|RAID Type ID|
-|**volumeDetail**|String|Device Details|
 |**volumeType**|String|Disk Type, such as System/Data|
+|**volumeDetail**|String|Device Details|
+|**raidTypeId**|String|RAID Type ID|
+|**raidType**|String|RAID Type, such as NORAID, RAID0, and RAID1|
+|**deviceType**|String|Type of Cloud Physical Server, such as cps.c.normal|
+|**description**|String|RAID Type Description|
 
 ## Response code
 |Return code|Description|

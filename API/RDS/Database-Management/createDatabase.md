@@ -12,19 +12,18 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/databas
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**instanceId**|String|True| |RDS instance ID, which uniquely identifies an RDS instance|
 |**regionId**|String|True| |Region code, with range detailed in [Regions and Availability Zone Comparison Table](../Enum-Definitions/Regions-AZ.md)|
+|**instanceId**|String|True| |RDS instance ID, which uniquely identifies an RDS instance|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**characterSetName**|String|True| |About the character set name of the database and the currently supported character set, please see[Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)|
 |**dbName**|String|True| |About database name and database name restrictions, please refer to [Help Center Documentation](../../../documentation/Cloud-Database-and-Cache/RDS/Introduction/Restrictions/SQLServer-Restrictions.md)|
+|**characterSetName**|String|True| |About the character set name of the database and the currently supported character set, please see[Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)|
 
 
 ## Response parameter
 None
-
 
 
 ## Response code

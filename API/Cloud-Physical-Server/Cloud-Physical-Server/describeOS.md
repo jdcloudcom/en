@@ -23,9 +23,8 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/os
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String| |
 |**result**|Result| |
-
+|**requestId**|String| |
 
 ### Result
 |Name|Type|Description|
@@ -34,11 +33,11 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/os
 ### Os
 |Name|Type|Description|
 |---|---|---|
-|**deviceType**|String|Instance Type Family, such as cps.c.normal,|
+|**osTypeId**|String|Operating System Type ID|
 |**osName**|String|Operating System Name, such as Ubuntu 16.04(x86_64)|
 |**osType**|String|Operating System Type Id, such as Ubuntu/Centos|
-|**osTypeId**|String|Operating System Type ID|
 |**osVersion**|String|Operating System Version, such as 14.04/16.04|
+|**deviceType**|String|Instance Type Family, such as cps.c.normal,|
 
 ## Response code
 |Return code|Description|

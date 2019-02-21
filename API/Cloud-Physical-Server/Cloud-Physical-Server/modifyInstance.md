@@ -12,28 +12,27 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:modifyI
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**instanceId**|String|True| |Cloud Physical Server ID|
 |**regionId**|String|True| |Region ID, the Region and Availability Zone Supported by the Cloud Physical Servers can be Obtained by Calling API (describeRegions)|
+|**instanceId**|String|True| |Cloud Physical Server ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**description**|String|False| |Description of Cloud Physical Server|
 |**name**|String|False| |Name of Cloud Physical Server|
+|**description**|String|False| |Description of Cloud Physical Server|
 
 
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String| |
 |**result**|Result| |
-
+|**requestId**|String| |
 
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**description**|String|Description of Cloud Physical Server|
 |**name**|String|Name of Cloud Physical Server|
+|**description**|String|Description of Cloud Physical Server|
 
 ## Response code
 |Return code|Description|

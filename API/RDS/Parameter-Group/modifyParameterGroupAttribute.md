@@ -12,14 +12,14 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/parameterGroups/{parameterGrou
 
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**parameterGroupId**|String|True| |Parameter Group ID|
 |**regionId**|String|True| |Region ID|
+|**parameterGroupId**|String|True| |Parameter Group ID|
 
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**description**|String|False| |Parameter Set Description|
 |**parameterGroupName**|String|True| |Parameter Set Name|
+|**description**|String|False| |Parameter Set Description|
 
 
 ## Return Parameter

@@ -2,9 +2,9 @@
   href: 
   items:
   - name: API Overview
-    href: overview.md
+    href:
   - name: Update History
-    href: ChangeLog.md
+    href:
   - name: API Information
     items:
       - name: Account Management
@@ -30,13 +30,13 @@
             herf: Audit-Management/deleteAudit.md
           - name: describeAudit
             herf: Audit-Management/describeAudit.md
-          - name: describeAuditDownloadURL
+          - name: describeAudit
             herf: Audit-Management/describeAuditDownloadURL.md
-          - name: describeAuditFiles
+          - name: describeAudit
             herf: Audit-Management/describeAuditFiles.md
-          - name: describeAuditOptions
+          - name: describeAudit
             herf: Audit-Management/describeAuditOptions.md
-          - name: describeAuditResult
+          - name: describeAudit
             herf: Audit-Management/describeAuditResult.md
           - name: disableAudit
             herf: Audit-Management/disableAudit.md
@@ -83,9 +83,9 @@
 
       - name: Cross-region Backup
         items:
-          - name: createBackupSynchronicity
+          - name: createBackup
             herf: Cross-region-synchronization-service/createBackupSynchronicity.md
-          - name: deleteBackupSynchronicity
+          - name: deleteBackup
             herf: Cross-region-synchronization-service/deleteBackupSynchronicity.md
           - name: describeBackupSynchronicities
             herf: Cross-region-synchronization-service/describeBackupSynchronicities.md
@@ -114,9 +114,9 @@
         items:
           - name: createInstance
             herf: Instance-Management/createInstance.md
-          - name: createInstanceByTime
+          - name: createInstance
             herf: Instance-Management/createInstanceByTime.md
-          - name: createInstanceFromBackup
+          - name: createInstance
             herf: Instance-Management/createInstanceFromBackup.md
           - name: deleteInstance
             herf: Instance-Management/deleteInstance.md
@@ -129,9 +129,9 @@
           - name: describeLatestRestoreTime
             herf: Instance-Management/describeLatestRestoreTime.md
           - name: disableInternetAccess
-            href: Instance-Management/disableInternetAccess.md
+            href:
           - name: enableInternetAccess
-            href: Instance-Management/enableInternetAccess.md
+            href:
           - name: failoverInstance
             herf: Instance-Management/failoverInstance.md
           - name: modifyBackupPolicy
@@ -189,15 +189,19 @@
   - name: Instance Type
     items:
       - name: MySQL Instance Specifications
-        href: Instance-Specifications/Instance-Specifications-MySQL.md
+        href:
+      - name: Percona Instance Type
+        href:
+      - name: MariaDB Instance Type
+        href:
       - name: SQL Server Instance Specifications
-        href: Instance-Specifications/Instance-Specifications-SQLServer.md
+        href:
 
   - name: Enum Instructions
     items:
       - name: Enum Definitions
-        href: Enum-Definitions/Enum-Definitions.md
+        href:
       - name: Region and Availability Zone List
-        href: Enum-Definitions/Regions-AZ.md
+        href:
       - name: Version Number
-        href: Enum-Definitions/apiVersion.md
+        href:
