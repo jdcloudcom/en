@@ -113,7 +113,7 @@ use_http_expect = False
 use_https = True
 use_mime_magic = True
 verbosity = WARNING
-website_endpoint = http://%(bucket)s.s3-website-%(location)s.amazonaws.com/
+website_endpoint = http://%(bucket)s.s3.%(location)s.amazonaws.com/
 website_error = 
 website_index = index.html
 ```

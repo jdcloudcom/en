@@ -2,7 +2,8 @@
 
 ## Overview
 
-This document is compiled based on [AWS Go SDK](https://docs.aws.amazon.com/sdk-for-go/api/). JD Cloud object storage service supports the AWS S3 interface. For more information about compatible interfaces, see [Compatible Interface](../Compatibility-API/Compatibility-API-Overview.md).
+This document is compiled based on [AWS Go SDK](https://docs.aws.amazon.com/sdk-for-go/api/). JD Cloud object storage service supports the AWS S3 interface. For more information about compatible interfaces, 
+see [Compatible Interface](../Compatibility-API/Compatibility-API-Overview.md).
 
 ## Environment Preparation
 Please use Go 1.5 or a higher version. To install or update Golang, please access [Golang](https://golang.org/doc/install).
@@ -22,6 +23,15 @@ You can create S3Client to manage OSS resources such as bucket and file. To use 
 The following example shows how to create a client. For more Go SDK samples, please access S3 Go Example Code](https://github.com/awsdocs/aws-doc-sdk-examples/tree/master/go/example_code/s3).
 
 ```
+package main
+
+import (
+    "github.com/aws/aws-sdk-go/aws"
+    "github.com/aws/aws-sdk-go/aws/credentials"
+    "github.com/aws/aws-sdk-go/aws/session"
+    "github.com/aws/aws-sdk-go/service/s3"
+)
+
 func main() {
 
     ak := "your accesskey"
@@ -30,8 +40,8 @@ func main() {
     _,err := creds.Get()
 
     config := &aws.Config{
-        Region          :aws.String("cn-south-1"),
-        Endpoint        :aws.String("s3.cn-south-1.jcloudcs.com"),
+        Region          :aws.String("cn-north-1"),
+        Endpoint        :aws.String("s3.cn-north-1.jcloudcs.com"),
         DisableSSL      :aws.Bool(false),
         Credentials     :creds,
     }

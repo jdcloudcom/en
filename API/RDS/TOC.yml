@@ -2,9 +2,9 @@
   href: 
   items:
   - name: API Overview
-    href:
+    href: overview.md
   - name: Update History
-    href:
+    href: ChangeLog.md
   - name: API Information
     items:
       - name: Account Management
@@ -30,13 +30,13 @@
             herf: Audit-Management/deleteAudit.md
           - name: describeAudit
             herf: Audit-Management/describeAudit.md
-          - name: describeAudit
+          - name: describeAuditDownloadURL
             herf: Audit-Management/describeAuditDownloadURL.md
-          - name: describeAudit
+          - name: describeAuditFiles
             herf: Audit-Management/describeAuditFiles.md
-          - name: describeAudit
+          - name: describeAuditOptions
             herf: Audit-Management/describeAuditOptions.md
-          - name: describeAudit
+          - name: describeAuditResult
             herf: Audit-Management/describeAuditResult.md
           - name: disableAudit
             herf: Audit-Management/disableAudit.md
@@ -67,8 +67,8 @@
             herf: Binlog/describeBinlogDownloadURL.md
           - name: describeBinlogs
             herf: Binlog/describeBinlogs.md
-          - name: describeBinlogs
-            herf: Binlog/describeBinlogs.md
+          - name: clearBinlogs
+            herf: Binlog/clearBinlogs.md
 
       - name: Cloud on Single Database
         items:
@@ -83,9 +83,9 @@
 
       - name: Cross-region Backup
         items:
-          - name: createBackup
+          - name: createBackupSynchronicity
             herf: Cross-region-synchronization-service/createBackupSynchronicity.md
-          - name: deleteBackup
+          - name: deleteBackupSynchronicity
             herf: Cross-region-synchronization-service/deleteBackupSynchronicity.md
           - name: describeBackupSynchronicities
             herf: Cross-region-synchronization-service/describeBackupSynchronicities.md
@@ -114,9 +114,9 @@
         items:
           - name: createInstance
             herf: Instance-Management/createInstance.md
-          - name: createInstance
+          - name: createInstanceByTime
             herf: Instance-Management/createInstanceByTime.md
-          - name: createInstance
+          - name: createInstanceFromBackup
             herf: Instance-Management/createInstanceFromBackup.md
           - name: deleteInstance
             herf: Instance-Management/deleteInstance.md
@@ -129,9 +129,9 @@
           - name: describeLatestRestoreTime
             herf: Instance-Management/describeLatestRestoreTime.md
           - name: disableInternetAccess
-            href:
+            href: Instance-Management/disableInternetAccess.md
           - name: enableInternetAccess
-            href:
+            href: Instance-Management/enableInternetAccess.md
           - name: failoverInstance
             herf: Instance-Management/failoverInstance.md
           - name: modifyBackupPolicy
@@ -142,6 +142,8 @@
             herf: Instance-Management/modifyInstanceName.md
           - name: modifyInstanceSpec
             herf: Instance-Management/modifyInstanceSpec.md
+          - name: modifyParameterGroup
+            herf: Instance-Management/modifyParameterGroup.md
           - name: rebootInstance
             herf: Instance-Management/rebootInstance.md
           - name: restoreInstance
@@ -149,10 +151,24 @@
 
       - name: Parameter Set Management
         items:
+          - name: copyParameterGroup
+            herf: Parameter-Group/copyParameterGroup.md
+          - name: createParameterGroup
+            herf: Parameter-Group/createParameterGroup.md
           - name: deleteParameterGroup
             herf: Parameter-Group/deleteParameterGroup.md
+          - name: describeParameterGroupAttachedInstances
+            herf: Parameter-Group/describeParameterGroupAttachedInstances.md
+          - name: describeParameterGroupParameters
+            herf: Parameter-Group/describeParameterGroupParameters.md
+          - name: describeParameterGroups
+            herf: Parameter-Group/describeParameterGroups.md
+          - name: describeParameterModifyRecords
+            herf: Parameter-Group/describeParameterModifyRecords.md
           - name: modifyParameterGroupAttribute
             herf: Parameter-Group/modifyParameterGroupAttribute.md
+          - name: modifyParameterGroupParameters
+            herf: Parameter-Group/modifyParameterGroupParameters.md
 
       - name: Parameter Management
         items:
@@ -163,6 +179,8 @@
      
       - name: Performance Statistics
         items:
+          - name: describeActiveQueryPerformance
+            herf: Performance-Statistics/describeActiveQueryPerformance.md
           - name: describeIndexPerformance
             herf: Performance-Statistics/describeIndexPerformance.md
           - name: describeQueryPerformance
@@ -174,6 +192,10 @@
 
       - name: SQL   Interception
         items:
+          - name: describeIntercept
+            herf: SQL-Interception/describeIntercept.md
+          - name: describeInterceptResult
+            herf: SQL-Interception/describeInterceptResult.md
           - name: disableIntercept
             herf: SQL-Interception/disableIntercept.md
           - name: enableIntercept
@@ -189,19 +211,19 @@
   - name: Instance Type
     items:
       - name: MySQL Instance Specifications
-        href:
+        href: Instance-Specifications/Instance-Specifications-MySQL.md
       - name: Percona Instance Type
-        href:
+        href: Instance-Specifications/Instance-Specifications-Percona.md
       - name: MariaDB Instance Type
-        href:
+        href: Instance-Specifications/Instance-Specifications-MariaDB.md
       - name: SQL Server Instance Specifications
-        href:
+        href: Instance-Specifications/Instance-Specifications-SQLServer.md
 
   - name: Enum Instructions
     items:
       - name: Enum Definitions
-        href:
+        href: Enum-Definitions/Enum-Definitions.md
       - name: Region and Availability Zone List
-        href:
+        href: Enum-Definitions/Regions-AZ.md
       - name: Version Number
-        href:
+        href: Enum-Definitions/apiVersion.md

@@ -19,8 +19,8 @@ Here is an example of creating a client, for more information, please refer to h
 
 import boto3  
         
-ACCESS_KEY =‘your accesskey’  
-SECRET_KEY = ‘your secretkey’  
+ACCESS_KEY = 'your accesskey'  
+SECRET_KEY = 'your secretkey'  
 s3 = boto3.client(  
     's3',  
     aws_access_key_id=ACCESS_KEY,  
