@@ -1,6 +1,6 @@
 # SQL Server Specifications
 
-|	instanceClass	|	CPU(Core)	|	Memory(GB)	|	Disk(GB)	|
+|	instanceClass	|	CPU (Core)|Memory(GB)|Disk(GB)	|
 |:-|:-|:-|:-|
 |	db.sqlsvr.s1.large	|	2	|	8	|	200	|
 |		|	2	|	8	|	300	|
