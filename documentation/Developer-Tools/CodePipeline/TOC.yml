@@ -17,6 +17,10 @@ items:
         href: Introduction/Application-Scenarios.md
   - name: Getting Started
     items:
+      - name: Billing Overview
+        href: Pricing/Billing-Overview.md
+  - name: Getting Started
+    items:
       - name: Quick Creation
         href: Getting-Started/Quick-Creation.md
       - name: Create customized instance

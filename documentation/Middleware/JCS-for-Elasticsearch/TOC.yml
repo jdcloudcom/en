@@ -51,6 +51,16 @@
         href: Operation-Guide/Dedicated-master.md 
       - name: Plug-in Support
         href: Operation-Guide/IK.md 
+      - name: Snapshot
+        items: 
+        - name: Create Snapshot
+          href: Operation-Guide/creatsnapshot.md
+        - name: View Snapshot Information
+          href: Operation-Guide/viewsnapshot.md 
+        - name: Snapshot Specified Index
+          href: Operation-Guide/indexsnapshot.md
+        - name: Delete Snapshot
+          href: Operation-Guide/deletesnapshot.md 
       - name: Kibana
         href: Operation-Guide/Kibana.md   
       - name: Monitor Cluster

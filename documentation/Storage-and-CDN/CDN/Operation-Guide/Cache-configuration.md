@@ -12,8 +12,8 @@ Click **Domain Name List**--Select Accelerated Domain Name--**Cache Configuratio
 
 - The cache modes fall into no cache and customized cache. The dynamic file is recommended to set as no cache. The rest settings can be customized according to different business forms, such as the cache expiration time and cache policy priority level.
 
-- Cache duration (minutes, hours, days, months, years, fill in integers, up to 2 years)
+- Cache duration (seconds, minutes, hours, days, years, fill in integers, up to 2 years)
 
 - Priority level (1-10) (Arrange the priority levels according to the order in case of conflicts; 1 means highest priority)
 
-- Up to 10 cache rules can be configured. After configuring the cache rules, go to the [Refresh Cache](https://www.jdcloud.com/help/detail/2124/isCatalog/1) page to update the cache of files or paths.
+- Up to 10 cache rules can be configured. After configuring the cache rules, go to the [Refresh Preheat](https://www.jdcloud.com/help/detail/2124/isCatalog/1) page to update the cache of files or paths.

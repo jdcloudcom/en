@@ -52,7 +52,8 @@ items:
            - name: Delete Bucket
              href: Operation-Guide/Manage-Bucket/Delete-Bucket-2.md  
            - name: Set Bucket Policy
-             href: Operation-Guide/Manage-Bucket/Set-Bucket-Policy-2.md  
+             href: Operation-Guide/Manage-Bucket/Set-Bucket-Policy-2.md
+             
            - name: Cross-Origin Resource Sharing Setting
              href: Operation-Guide/Manage-Bucket/Set-Bucket-CORS-2.md                 
            - name: Static Website Hosting Setting
@@ -85,6 +86,16 @@ items:
             href: Operation-Guide/Manage-Object/Post-Object-1.md                  
           - name: Consumption Monitoring
             href: Operation-Guide/Manage-Object/Usage-Monitoring.md
+      - name: Permission Control
+        items:
+           - name: Permission Control Overview
+             href: Operation-Guide/Access-Control/Access-Control-Overview.md
+           - name: Read and Write Permission ACL-based Permission Control
+             href: Operation-Guide/Access-Control/Access-Control-Base-On-ACL.md
+           - name: IAM Policy-based Permission Control
+             href: Operation-Guide/Access-Control/Access-Control-Base-On-IAM-Policy.md
+           - name: Bucket Policy-based Permission Control
+             href: Operation-Guide/Access-Control/Access-Control-Base-On-Bucket-Policy.md
       - name: Image Processing Guide
         items:            
           - name: Introduction
@@ -191,6 +202,8 @@ items:
                  href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/PUT-Bucket-Notification-2.md           
                - name: Put Bucket
                  href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Put-Bucket-2.md
+               - name: Put Bucket ACL
+                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Put-Bukcet-acl-2.md        
                - name: Put Bucket cors
                  href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Put-Bucket-Cors-2.md 
                - name: Put Bucket encryption
@@ -202,7 +215,7 @@ items:
                - name: Put Bucket website
                  href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Put-Bucket-Website-2.md 
                - name: Put Bucket lifecycle
-                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Put-Bucket-Lifecycle.md          
+                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Put-Bucket-Lifecycle.md    
            - name: About Object Operation
              items:
               - name: Abort Multipart Upload
@@ -367,8 +380,16 @@ items:
    items:
       - name: Use S3fs to Mount Bucket on Linux Instance
         href: Best-Practices/S3fs.md
-      - name: Bucket Policy
-        href: Best-Practices/Bucket-Policy.md
+      - name: IAM
+        items:
+            - name: Bucket Policy Best Practices 
+              href: Best-Practices/Bucket-Policy.md
+            - name: Access Management Practices
+              href: Best-Practices/Access-Control-And-Permission-Management/Access-Management-Practices.md
+            - name: Cross-account Authorization Overview
+              href: Best-Practices/Access-Control-And-Permission-Management/Cross-Account-Access-Overview.md
+            - name: Authorize the sub-account to access OSS
+              href: Best-Practices/Access-Control-And-Permission-Management/Authorize-Sub-Account-Access.md            
       - name: Anti-leech
         href: Best-Practices/Anti-leech.md         
       - name: Use CloudBerry to Manage OSS
@@ -390,7 +411,7 @@ items:
       - name: Mobile Application Direct Transmission OSS
         href: Best-Practices/Transfer-For-Mobile-Apps.md
       - name: Customized domain supports HTTPS access OSS service
-        href: Best-Practices/Custom-Domain-Name-Guidance.md        
+        href: Best-Practices/Custom-Domain-Name-Guidance.md
  - name: FAQ
    items:
       - name: General Questions

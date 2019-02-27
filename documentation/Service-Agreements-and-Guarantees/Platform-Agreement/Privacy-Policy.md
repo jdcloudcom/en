@@ -3,9 +3,10 @@
 **[Special Notification] Please read the JD Cloud Privacy Policy carefully (especially the content underlined in bold) and make sure to understand our rules for handling your personal information. In the reading process, if you have any questions, please contact our Customer Service for consultation. If you do not agree with any terms in the agreement, you shall immediately stop accessing JD Cloud. In the process of reading the agreement, if you do not agree to the relevant agreement or any of the terms therein, you shall immediately stop using JD Cloud services.**
 
  
+
 Introduction
 
-JD Cloud (“we”) attaches great importance to the privacy of users and personal information protection. We may collect and use your relevant information when you use our products and/or services. Through the JD Cloud Privacy Policy (hereinafter referred to as “the Privacy Policy”), we hope to explain to you how we collect, use, save, share and transfer such information when you use our products and/or services and methods provided by us to access, update, delete and protect such information. The Policy will help you understand the following content:
+JD Cloud (“we”) attaches great importance to the privacy of users and personal information protection. We may collect and use your relevant information when you use our products and/or services. Through the JD Cloud Privacy Policy (hereinafter referred to as “the Privacy Policy”), we hope to explain to you how we collect, use, save, share and transfer such information when you use our products and/or services and methods provided by us to access, update, delete and protect such information. The Policy will help you understand the following content: 
 
 1. Applicable Scope 
 
@@ -29,7 +30,7 @@ JD Cloud (“we”) attaches great importance to the privacy of users and person
 
  
 
-### I. Applicable scope
+**I. Applicable scope**
 
 1.1 The Privacy Right Policy is applicable to all services on the JD Cloud website, including page browsing, website login services provided to you and technical services provided to you through the JD Cloud website.
 
@@ -37,35 +38,33 @@ JD Cloud (“we”) attaches great importance to the privacy of users and person
 
 1.3 It is required to be specifically stated that, as a user of JD Cloud, if you use the technical services of JD Cloud to provide your user any service, because your business data belongs to you, you should separately agree the corresponding privacy right policy with your user.
 
-### II. Scope that We Collect Your Information
+**II. Scope that We Collect Your Information**
 
 The personal information involved in the Privacy Policy includes:
 
 Basic information: in order to complete the registration, management and real-name verification of JD Cloud account, the real, legal and valid personal name, contact address, contact phone number and email address you submitted;
 
-Personal identity information: when you use services such as JD Cloud domain registration, website filing, Cloud Marketplace, ID card, military certificate, passport, driving license and so on you submitted;
+Personal identity information: when you use services such as JD Cloud domain registration, website ICP filing, Cloud Marketplace, ID card, military certificate, Mainland Travel Permit for Hong Kong and Macao Residents, Mainland Travel Permit for Taiwan Residents and so on you submitted;
 
 Network identity identifier information: including system account, password, IP address, email address;
 
 Personal property information: your transaction and purchase records in JD Cloud, as well as virtual property information such as coupons;
 
-Personal Internet surfing records: website browsing records, software use records, click records;
+Personal Internet surfing records: website browsing records, software use records, log information;
 
 Personal common device information (including hardware model, MAC address of the device, operating system type, unique device identification code of software list (such as IMEI/android ID/IDFA/OPENUDID/GUID, SIM card IMSI information and other information that describes the basic condition of personal common device));
 
-Personal sensitive information refers to personal information that may endanger personal and property security, and easily lead to damage to personal reputation, physical and mental health or discriminatory treatment once being disclosed, illegally provided or abused; the personal sensitive information involved in the Privacy Policy includes: your property information (including transaction records, other virtual property information such as coupons); personal identity information (including ID card, military certificate, passport, driving license, household registration book); network identification information (including account name, account nickname, email address and password related to the foregoing); other information (including personal phone number, mobile phone number, web browsing record).
+Personal sensitive information refers to personal information that may endanger personal and property security, and easily lead to damage to personal reputation, physical and mental health or discriminatory treatment once being disclosed, illegally provided or abused; the personal sensitive information involved in the Privacy Policy includes: your property information (including transaction records, other virtual property information such as coupons); personal identity information (including ID card, passport, Mainland Travel Permit for Hong Kong and Macao Residents, Mainland Travel Permit for Taiwan Residents); network identification information (including account name, account nickname, email address and password related to the foregoing); other information (including personal phone number, mobile phone number, web browsing record).
 
-Other information: device information, log information
-
-### III. Situations that you may select whether to authorize us to collect and use your personal information
+**III. Situations that you may select whether to authorize us to collect and use your personal information**
 
 **If you do not provide such personal information, you can still browse our products and/or services, but you may not be able to use our products and/or services mainly comprising:**
 
-   **Without providing the mobile phone number, it is unable to register the account; and it is unable to perform part of operations that the mobile phone verification code is required to confirm the user’s identity, such as retrieving the password.**
+**3.1 Without providing the mobile phone number, it is unable to register the account; and it is unable to perform part of operations that the mobile phone verification code is required to confirm the user’s identity, such as retrieving the password.**
 
-   **Without real-name verification (ID card number, bank account number shall be provided as required for the personal real-name verification; business license information and photo, corporate bank account number, legal person name and ID card number and photo, authorized person name and ID card number and photo shall be provided as required for the enterprise real-name verification), it is unable to purchase and use our products or services, such as Virtual Machines and Cloud Storage; and it is unable to withdraw cash.**
+**3.2 Without real-name verification (ID card number, bank account number shall be provided as required for the personal real-name verification; business license information and photo, corporate bank account number, legal person name and ID card number and photo, authorized person name and ID card number and photo shall be provided as required for the enterprise real-name verification), it is unable to purchase and use our products or services, such as Virtual Machines and Cloud Storage; and it is unable to withdraw cash.**
 
-### IV. Method that we collect your information
+**IV. Method that we collect your information**
 
 **4.1 You apply to become a member of JD Cloud**
 
@@ -107,11 +106,11 @@ Other information: device information, log information
 
 **4.4 Situations that we obtain your personal information from the third party**
 
-We may obtain your authorized shared account information from a third party, and bind your third-party account with your JD Cloud account after you agree the Privacy Policy, so that you may directly log in and use our products and/or services through the third-party account. **We will use your personal information subject to compliance with relevant laws and regulations after confirming the legality of the source of personal information based on the agreement with the third party.** 
+We may obtain your authorized shared account information from a third party, and bind your third-party account with your JD Cloud account after you agree the Privacy Policy, so that you may directly log in and use our products and/or services through the third-party account. **We will use your personal information subject to compliance with relevant laws and regulations after confirming the legality of the source of personal information based on the agreement with the third party.**. 
 
 **4.5 Upon termination of use of our products and/or services, or upon expiration of the service period for which you use our products and/or services, we will immediately stop collecting your personal information continuously.**
 
-### V. How we share, transfer and publicly disclose your personal information
+**V. How we share, transfer and publicly disclose your personal information**
 
 5.1 Sharing 
 
@@ -161,7 +160,7 @@ We will only publicly disclose your personal information under the following cir
 
 2. In accordance with requirements of laws and regulations, mandatory administrative or judicial requirements, if it is necessary to provide under such circumstance, we may publicly disclose your personal information according to the type of personal information and the manner of disclosure as required. Under the premise of compliance with laws and regulations, when we receive the above information disclosure request, we will require a corresponding legal document to be issued, such as Summon or Survey Letter. We firmly believe that any information required to be provided by us shall be maintain transparency to the maximum extent permitted by law. We will prudently review all requests to ensure they have legal basis and are limited to such data with legal rights as obtained by the law-enforcing department for specific investigation purposes. On the condition that it is permitted by laws and regulations, such files as disclosed us shall be protected by encryption key.
 
-### 6. How we protect and save your personal information
+**6. How we protect and save your personal information**
 
 6.1 Technologies and measures provided by us to protect your personal information  We take the security of your personal information very seriously and take every reasonable and practical measure to protect your personal information: 
 
@@ -181,7 +180,7 @@ We will only publicly disclose your personal information under the following cir
 
 6.1.8 If you have any questions in regard to the protection of your personal information, please contact us through the contact information listed at the bottom of the Policy. If you find your personal information is divulged, especially your account and password, please immediately contact us through the contact information listed at the bottom of the Policy, i.e. [How to contact us], so that we can take relevant measures. 
 
-6.2 Storage of your personal information :
+6.2 Storage of your personal information
 
 6.2.1 Your personal information will be entirely stored within the People's Republic of China. In the event that you use the cross-border transaction service and need to transmit your personal information overseas to complete such transaction, we will separately obtain your authorized consent and request receivers to process such personal information in accordance with our instructions, the Privacy Policy and any other relevant confidentiality and security measures. 
 
@@ -191,21 +190,21 @@ We will only publicly disclose your personal information under the following cir
 
  
 
-### 7. How you manage your personal information
+**7. How you manage your personal information**
 
 JD Cloud takes your concern about your personal information very seriously and makes every effort to protect your rights of access, correction, deletion and withdrawal of consent to your personal information so that you can have full capability to protect your privacy and security. Your rights include: 
 
 7.1. You can log in the JD Cloud website or client “Management Console” to search and manage (change, delete) the basic business information (basic information) and contact information submitted when using JD Cloud services.
 
-7.2. If you need to change your real-name verification information in the JD Cloud account, you shall contact JD Cloud by opening ticket or by phone to operate in accordance with JD Cloud's operation document; if you need to change the real-name verification information submitted via JD account, you shall change it on the website on which you register the original account.
+7.2. If you need to change your real-name verification information in the JD Cloud account, you shall contact JD Cloud by opening ticket or by phone to operate in accordance with JD Cloud's operation document; if you need to change the real-name verification information submitted via JD account, you shall change it on the website on which you register the original account. Five years
 
 7.3.    Under the following circumstances, you can request us to delete the user information:
 
- 7.3.1. Where our handling of such user information violates laws and regulations;
+​     7.3.1. Where our handling of such user information violates laws and regulations;
 
- 7.3.2. Where we collect and use your user information without your explicit consent;
+​     7.3.2. Where we collect and use your user information without your explicit consent;
 
- 7.3.3. Where our handling of personal information seriously violates such agreements as reached with you.
+​     7.3.3. Where our handling of personal information seriously violates such agreements as reached with you.
 
 7.4 Change scope of authorized consent or withdraw your authorization
 
@@ -223,7 +222,7 @@ You shall understand that since the completion of each business function require
 
 (4) To protect your privacy, we will not push promotion or commodity information related to religious faith, sex, disease and relevant sensitive materials to you by any way and means.
 
-### 8. Protection of personal information of minors
+**8. Protection of personal information of minors**
 
 8.1 We take the protection of personal information of minors very seriously. If you are a minor below the age of 18, you shall obtain the prior written consent from your parent or statutory guardian before using our products and/or services. We will protect personal information of minors in compliance with applicable laws and regulations of the state. 
 
@@ -231,35 +230,21 @@ You shall understand that since the completion of each business function require
 
 8.3 If we found that the personal information of any minor is collected without prior consent of the confirmable parents or legal guardian, we will manage to delete relevant data as soon as possible.
 
-### IX. Notification and Revision
+**IX. Notification and Revision**
 
 9.1 To provide better service, the Privacy Policy will be updated with the business development of JD Cloud. However, without your express consent, we will not cut any rights you enjoyed under the Privacy Policy. We will release an update version on the JD Cloud’s website and remind relevant update contents via the website announcement or other appropriate methods before the update version comes into force. Please access JD Cloud for getting the latest Privacy Policy in time. 
 
-9.2 As for material changes, we will also provide a more remarkable notice to you (we will specify details of changes of the Privacy Policy via methods including but not limited to emails, SMS or providing special tips in the browsing page, etc.). The material changes referred in the Policy include but not limited to:
-
-(1) Material change of our service mode. For example, for purpose of processing personal information, personal information type, usage mode of personal information, etc. are changed;
-
-(2) Material change of our ownership structure, organization architecture and other aspects. For example, the change of the owner due to business adjustment, bankrupt, merger, acquisition, etc.;
-
-(3) Changes of main subjects as for personal information sharing, transferring or public disclosure;
-
-(4) Material changes of rights for participation in personal information processing aspect and their exercising style;
-
-(5) Changes of our departments responsible for personal information security processing, contacts and complaining channels;
-
-(6) The personal information security influence assessment report indicates the high risk. 
+9.2 As for material changes, we will also provide a more remarkable notice to you (we will specify details of changes of the Privacy Policy via methods including but not limited to emails, SMS or providing special tips in the browsing page, etc.). The material changes referred in the Policy include but not limited to: (1) Material change of our service mode. For example, for purpose of processing personal information, personal information type, usage mode of personal information, etc. are changed; (2) Material change of our ownership structure, organization architecture and other aspects. For example, the change of the owner due to business adjustment, bankrupt, merger, acquisition, etc.; (3) Changes of main subjects as for personal information sharing, transferring or public disclosure; (4) Material changes of rights for participation in personal information processing aspect and their exercising style; (5) Changes of our departments responsible for personal information security processing, contacts and complaining channels; (6) The personal information security influence assessment report indicates the high risk. 
 
 9.3 We will also archive the old versions of the Policy for your reference.
 
-### X. How to contact us
+**X. How to contact us**
 
 10.1 If you have any questions, suggestions or opinions about the Privacy Policy or related issues of your personal information, you can contact us by means such as sending an email to jdcloud@jd.com or calling our customer service hotline. 
 
 10.2 We have set up the Personal Information Protection Department (or personal information protection specialists). You are welcome to contact them by sending emails to privacy@jd.com. 
 
 10.3 In general case, we will give you a reply within thirty days. If you are not satisfied with our reply, especially in case that your legal rights are impaired due to our personal information processing action, you can give complaints or reports to the network information authority, telecommunication authority, public security authority, industry and commerce authority and other authorities. 
-
-
 
 **Attachment: Instructions for the Cancellation of JD Cloud Account**
 
@@ -271,13 +256,13 @@ Upon canceling the account, you will give up the following rights and assets
 
 1. The account information, membership rights and virtual assets will no longer be recovered
 
+ 
 
-
-1. You are unable to log in the JD Cloud service via the verification mobile phone number or email for your former account
+2. You are unable to log in the JD Cloud service via the verification mobile phone number or email for your former account
 
  
 
-1. Release the authorization or association relationship with the third party
+3. Release the authorization or association relationship with the third party
 
  
 
@@ -285,9 +270,9 @@ You acknowledge and agree that JD Cloud is unable to assist you to recover the a
 
  
 
-Instructions for the Cancellation of JD Cloud Account
+*Instructions for the Cancellation of JD Cloud Account*
 
-Please be sure to carefully go through the Instructions for the Cancellation of JD Cloud Account (hereinafter referred to as the Instructions for Cancellation), before clicking **OK** when applying for the cancellation process.
+Please be sure to carefully go through the *Instructions for the Cancellation of JD Cloud Accoun*t (hereinafter referred to as the *Instructions for Cancellation*), before clicking **OK** when applying for the cancellation process.
 
 Please be sure to carefully read and fully understand contents of relevant terms, including:
 
@@ -305,22 +290,23 @@ For any doubts of the Instructions for Cancellation, please consult the customer
 
 Dear personal consumers and users of JD Cloud:
 
-You are reminded with good faith that **the cancellation of your account will bring inconvenience to your after-sales rights protection. After the JD Cloud account is canceled, we will only remove your personal information from the JD Cloud system and keep such information out of being retrieved and accessed or keep such information anonymous. You acknowledged and agreed that according to provisions of relevant laws, relevant transactions records must be saved for 5 years or longer at the background of JD Cloud.**
+You are reminded with good faith that **the cancellation of your account will bring inconvenience to your after-sales rights protection. After the JD Cloud account is canceled, we will only remove your personal information from the JD Cloud system and keep such information out of being retrieved and accessed or keep such information anonymous. You acknowledged and agreed that according to provisions of relevant laws, relevant transactions records must be saved for 5 years or longer at the background of JD Cloud.** 
+
  
 
-**1. If you insist to cancel the account, your account need to meet all of the following conditions:**
+1. **If you insist to cancel the account, your account need to meet all of the following conditions**:
 
-   (1) The account has not undergone sensitive operations such as changing the password or changing the association information within the last month;
+(1) The account has not undergone sensitive operations such as changing the password or changing the association information within the last month;
 
-   (2) You are willing to give up assets and virtual rights under the account of the JD Cloud system (including but not limited to the account balance, coupons, etc.) and have no auction deposits or arrears;
+(2) You are willing to give up assets and virtual rights under the account of the JD Cloud system (including but not limited to the account balance, coupons, etc.) and have no auction deposits or arrears;
 
-   (3) The account does not have any uncompleted orders, services or other effective businesses;
+(3) The account does not have any uncompleted orders, services or other effective businesses;
 
-   (4) The account is not involved in any disputes, including giving or receiving complaints and reports;
+(4) The account is not involved in any disputes, including giving or receiving complaints and reports;
 
-   (5) The JD Pay account corresponding to the account has been canceled and all issues under the JD Pay account have been appropriately handled;
+(5) The JD Pay account corresponding to the account has been canceled and all issues under the JD Pay account have been appropriately handled;
 
-   (6) Authorized login or association relationship with other website and other APPs has been released for the account.
+(6) Authorized login or association relationship with other website and other APPs has been released for the account.
 
 2. Once your account is canceled, it cannot be recovered. Please backup your account information and data on your own before you apply for canceling your JD Cloud account. Please appropriately keep transaction vouchers, bills and other data of the ordered commodities and service. JD Cloud will not assist you to search or get back the above information.
 
@@ -328,7 +314,7 @@ You are reminded with good faith that **the cancellation of your account will br
 
 4. When the JD Cloud account is canceled, if it is involved in any disputes, including but not limited to complaints, reports, litigations, arbitration and investigations by national authorities, JD Cloud shall be entitled to terminate the cancellation of the JD Cloud account without getting your prior consent.
 
-**5. Once being canceled, you can neither use the your JD Cloud account, nor get back any content or information of your JD Cloud account and those related to such account,** including but not limited to:
+**5. Once being canceled, you can neither use the your JD Cloud account, nor get back any content or information of your JD Cloud account and those related to such account, including but not limited to:** 
 
 (1) You are unable to use the JD Cloud account;
 
@@ -336,6 +322,11 @@ You are reminded with good faith that **the cancellation of your account will br
 
 (3) Any balance, coupon and other rights of yours shall be deemed as being given up by you and cannot be applicable for use anymore. You understand and agree that JD Cloud is unable to assist you recover the aforesaid service. Before submitting the cancellation application, please be sure to disassociate other relevant account information. For details, please contact our customer service.
 
-**6. The cancellation of the JD Cloud account shall not exempt or relieve any behavior of the account and relevant responsibilities before cancellation of such account.**
+6. **The cancellation of the JD Cloud account shall not exempt or relieve any behavior of the account and relevant responsibilities before cancellation of such account**.
+
 
 [JD Cloud Privacy Policy-PDF Download](https://docs-downloads.oss.cn-north-1.jcloudcs.com/Privacy-Policy-pdf.pdf)
+      
+
+ 
+ 

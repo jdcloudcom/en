@@ -5,12 +5,20 @@
     items:
       - name: Product Overview
         href: Introduction/Product-Overview.md
+      - name: Core Concepts
+        href: Introduction/Core-Concepts.md
       - name: Benefits
         href: Introduction/Benefits.md
       - name: Features
         href: Introduction/Features.md
+      - name: Restrictions
+        href: Introduction/Restrictions.md
       - name: Application Scenarios 
-        href: Introduction/Application-Scenarios.md    
+        href: Introduction/Application-Scenarios.md   
+  - name: Product Pricing
+    items:
+      - name: Billing Overview
+        href: Pricing/Billing-Overview.md
   - name: Getting Started
     items:
       - name: Create New Items
@@ -18,6 +26,8 @@
       - name: Execute and Create
         href: Getting-Started/Build.md
       - name: Creation History
+        href: Getting-Started/Detail.md
+      - name: Construction History
         href: Getting-Started/Build-History.md
   - name: Operation Guide
     items:
@@ -31,4 +41,11 @@
             href: Operation-Guide/Build-Storage.md
           - name: Advanced Settings
             href: Operation-Guide/Advanced-Setting.md
-    
+          - name: More Operations
+            items:
+                  - name: Edit
+                    href: Operation-Guide/Edit.md
+                  - name: Copy
+                    href: Operation-Guide/Copy.md
+                  - name: Delete
+                    href: Operation-Guide/Delete.md

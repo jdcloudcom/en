@@ -1,71 +1,103 @@
-# Create New Items
+# Create Application
 
-Log in the CodeBuild interface, click **Create Project** in the project list page and create a compiling task.
+Log in the CodeBuild interface, click **Create Application** in the project list page and create a compiling task.
 
-1. Complete the project name (compulsory) in turn in the project creation page.
+1. Or access JD Cloud Console and click **Developer Tools** - **CodeBuild** at the navigation bar on the left to enter the Application List page.
 
-2. Image compilation: Select compiling environments, support main compiled language environments as Java, golang, node and static_resource and support user-customized compiling images.
- ![](../../../../image/codebuild/image.png)
+2. Select the region in which the new application is located; click **Create Application** button to enter the Create Compilation Task page.
 
-3. Source provider: Support JD Cloud CodeCommit, GitHub private/public repository and other git public repositories
+ ![](/image/codebuild/appList.PNG) 
 
-4. Repository address: The URL address of remote repository is as the same as that of the git clone command
+3. Application Configuration
 
-5. Code branch: Complete code branches to be compiled
-
-6. Creation specification: Output creation command as per the template, please refer below
-
-	```
-      ---
-      # Set the required environment variables, it is not required to write if there is no need
-      #envs:
-      #  - name: 'name1' is Environment Variable Name here
-      #    value: 'value1' is Environment Variable Value here
-      #  - name: 'name2' sets multiple values in the listing manner
-      #    value: 'value2'
-
-      # Set compiled commands in the same setting manner as the environmental variables
-      # For example:
-      #cmds: 
-      #  - name: 'do make' Step name
-      #    cmd: 'make’ True command, if it’s not in the PATH, it needs to write the full path
-      #  - name: 'do install'
-      #    cmd: 'make install'
-      cmds:
-        - name: 'list current dir'
-          cmd: 'ls'
-        - name: 'make output dir'
-          cmd: 'mkdir -p output'
-        - name: 'touch some files'
-          cmd: 'touch a b c'
-        - name: 'copy to output dir'
-          cmd: 'cp a b c output'
-
-      # Package-extracting path is the required choice
-      out_dir: 'output'
-	```
-7. Creation Type: Application Package\Image
+ ![](/image/codebuild/createApp1.PNG) 
  
-  * When the application package is selected as the construction type, it is required to provide construction output storage oss address.
-  
-   ![](../../../../image/codebuild/package.png)
+   * Application Name
    
-   Bucket: User’s Object Storage Service Bucket in the region where the compilation task resides
-  
-   Storage Directory: Directory under the Assigned Bucket
-  
-  * When the image is selected as the construction type, it is required to provide Container Registry address.
+     Name the compile task. The name cannot be null and it supports only Chinese, numbers, uppercase and lowercase letters, English underline “ _ ” and line-through “ - ”, with at most 32 characters
+   
+   * Use Customized Image
+   
+     Support users to use the image in the customized Container Registry. By default, it uses the compiling image provided by the JD Cloud CodeBuild service.
+   
+   * Compiling Image
+   
+     Select compiling environments; it supports main compiled language environments as Java, golang and nodejs. If a user customized image is used, please fill in the image name and version here.
  
-   ![](../../../../image/codebuild/docker.png)
+4. Construction Source Code Configuration
+
+ ![](/image/codebuild/createApp2.PNG) 
+ 
+   * Source Provider
    
-   Container Registry: Select the Container Registry under the region where the compilation task resides If the corresponding Registry and Container Registry are not created, through creating repository link, redirect to the Container Registry page.
+     Support Git Public Repository and GitHub Private/Public Repository as well as JD Cloud CodeCommit.
+     
+   * Repository Address
+   
+     The URL address of remote repository is as the same as that of the git clone command
+     
+   * Code Branch
+   
+     Select the code branch you want to compile
 
-8. Display advanced settings:
+5. Construction Configuration
 
-Timeout: Specify a value from 30min to 120min (2h) and any incomplete creation in such period shall be deemed as a failure. The default value is 30 min.
+ ![](/image/codebuild/createApp3.PNG) 
+ 
+   * Construction Specification
+   
+     Provide the compilation scripts; use page templates or provide build.yml files in the source code root directory.
+     
+   * Construction Command
+   
+     Construction specification: If you select Insert Construction Command, please fill in the construction command here.
 
-Computing type: At present, 1c1g, 2c2g and 4c4g are provided.
+ 
+6. Construction Deposit
 
-Notification frequency: you can set the notification frequency as to send when there are creation exceptions or at every creation.
+ Construction types include application package and image.
+ 
+   * Construction Type - Application Package
+   
+     If you select an application package, the construction produces the output in .tar.gz format and uploads it to the user oss repository.
+     
+     ![](/image/codebuild/createApp4.PNG) 
+     
+   * Bucket
+   
+     Select the bucket in the user Object Storage Service, and store the construction output package.
+     
+   * Storage Directory
+   
+     The construction output will be uploaded to this directory. If it is null here, the construction output will be uploaded to the root directory of bucket be default.
+     
+     
+   * Construction Type - Image
+   
+     If you select an image, the output is pushed to the Container Registry. If you compile dockerfile, you need to provide the dockerfile file in the code root directory.
+     
+     ![](/image/codebuild/createApp5.PNG) 
+     
+   * Container Registry
+   
+     Select the user Container Registry and push the constructed image.
 
-Click and Save/Save and Create Complete Project Creation/Create Now.
+	
+7. Advanced Settings
+
+   ![](/image/codebuild/createApp6.PNG) 
+ 
+   * Time-out
+   
+     Specify a value from 30min to 120min (2h) and any incomplete construction in such period shall be deemed as a timeout. The default value is 30 min.
+     
+   * Computing Type
+   
+     At present, compiling image of three specifications: 1c1g, 2c2g and 4c4g are provided.
+     
+   * Notification Frequency
+   
+     Users can customize to send notification emails at the time of construction abnormal sending, or send the notification email for each construction.
+
+
+Click **Save/Save and Construct** to complete project **Creation/Construct Now**.

@@ -63,6 +63,10 @@ items:
             href: Operation-Guide/Tickets-Management/submitTicket.md
           - name: View the Ticket List
             href: Operation-Guide/Tickets-Management/View-Tickets-List.md
+      - name: Monitoring Alarm
+        items:
+          - name: Bandwidth Traffic
+            href: Operation-Guide/Monitoring Alarm/View-Bandwidth-Traffic-List.md
 - name: Best Practices
   items:
   status: 0
