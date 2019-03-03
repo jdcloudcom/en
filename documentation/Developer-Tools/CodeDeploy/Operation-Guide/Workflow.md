@@ -14,7 +14,7 @@
 
 3) Execute deployment pre-script: Correspond to "BeforeInstall" under "hooks" of the yaml file
 
-4) Deploy: Correspond to "files" in the yaml file
+4) Deploy: Correspond to "files" and "permisssions" in the yaml file
 
 5) Execute deployment post-script: Correspond to "AfterInstall" under "hooks" of the yaml file
 
@@ -32,7 +32,7 @@
 
 2) Execute deployment pre-script: Correspond to "BeforeInstall" under "hooks" of the yaml file
 
-3) Deployment: Correspond to "files" in the yaml file
+3) Deploy: Correspond to "files" and "permisssions" in the yaml file
 
 4) Execute deployment post-script: Correspond to "AfterInstall" under "hooks" of the yaml file
 
@@ -64,7 +64,7 @@ The rollback concurrency is the deploying concurrency.
 
 6) Execute deployment pre-script: Correspond to "BeforeInstall" under "hooks" of the yaml file
 
-7) Deployment: Correspond to "files" in the yaml file
+7) Deploy: Correspond to "files" and "permisssions" in the yaml file
 
 8) Execute deployment post-script: Correspond to "AfterInstall" under "hooks" of the yaml file
 
@@ -94,7 +94,7 @@ The rollback concurrency is the deploying concurrency.
 
 5) Execute deployment pre-script: Correspond to "BeforeInstall" under "hooks" of the yaml file
 
-6) Deploy: Correspond to "files" in the yaml file
+6) Deploy: Correspond to "files" and "permisssions" in the yaml file
 
 7) Execute deployment post-script: Correspond to "AfterInstall" under "hooks" of the yaml file
 
@@ -128,7 +128,7 @@ If the group providing service and taking over traffic (the blue group or the gr
 
 3) Execute deployment pre-script: Correspond to "BeforeInstall" under "hooks" of the yaml file
 
-4) Deploy: Correspond to "files" in the yaml file
+4) Deploy: Correspond to "files" and "permisssions" in the yaml file
 
 5) Execute deployment post-script: Correspond to "AfterInstall" under "hooks" of the yaml file
 

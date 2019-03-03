@@ -10,13 +10,11 @@ Create VM instance in the region: cn-north-1 with specific information as below:
 - Bandwidth: Need to purchase EIP
 - Basic information: Fill in machine name and password. The machine name to be filled in here shall be: codedeploy-demo01
 
-![Alt text](https://github.com/jdcloudcom/cn/blob/codedeploy/image/CodeDeploy/starting1.png)
-![Alt text](https://github.com/jdcloudcom/cn/blob/codedeploy/image/CodeDeploy/starting2.png)
 
 
 Click **Buy Now** to Create VM instance as per the selected Specification.
 
-![Alt text](https://github.com/jdcloudcom/cn/blob/codedeploy/image/CodeDeploy/starting3.png)
+![Alt text](https://github.com/jdcloudcom/cn/blob/edit/image/CodeDeploy/Ch/Start-1%EF%BC%88Ch%EF%BC%89.png)
 
 
 Next, install Agent for deployment in this Virtual Machine by root user:

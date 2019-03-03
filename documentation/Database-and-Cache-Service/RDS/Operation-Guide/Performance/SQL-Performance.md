@@ -6,16 +6,16 @@ The analysis on JCS for SQL performance statistics on the JCS for SQL execution 
 ## 2. 7 Statistical Dimensions Supported
 SQL performance statistics support seven statistical dimensions as follows
 
-![SQL Performance1](../../../image/RDS/SQL-Performance-1.png)
+![SQL性能1](../../../../../image/RDS/SQL-Performance-1.png)
 
 ## 3. Scope of Custom Statistics
 Users can customize the scope of the statistics in each statistical dimension (the default is 0), for example:
 
-![SQL Performance 2](../../../image/RDS/SQL-Performance-2.png)
+![SQL性能2](../../../../../image/RDS/SQL-Performance-2.png)
 
 
 ## 4. Export Statistics
 The statistical results can be exported in excel format, convenient for saving or sending to relevant personnel for analysis and optimization.
 
-![JCS for SQL Performance 3](../../../image/RDS/SQL-Performance-3.png)
+![SQL性能3](../../../../../image/RDS/SQL-Performance-3.png)
 

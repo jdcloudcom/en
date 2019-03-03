@@ -10,3 +10,4 @@ Click ***OK*** to delete.
 
 **Note: If the instance is configured with a cross-region backup synchronization service, the service will also be deleted.**
 
+![É¾³ýÊµÀý2](../../../../../image/RDS/Delete-Instance-2.png)

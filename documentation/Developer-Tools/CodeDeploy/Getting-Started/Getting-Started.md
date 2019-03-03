@@ -10,8 +10,8 @@ The basic operation process is as follows:
 
 2) Select the created deployment group and fill in the deployment source and deployment operating command for deployment
 
-3) View the deployment details, including log, progress and so on
+3) View the deployment details, including progress, log and so on
 
 Example precondition:
 
-The Virtual Machine instance is existed and associated EIP. public network bandwidth will be consumed in the process of deployment
+The Virtual Machine instance is existed and associated EIP. public network bandwidth will be consumed in the process of deployment.

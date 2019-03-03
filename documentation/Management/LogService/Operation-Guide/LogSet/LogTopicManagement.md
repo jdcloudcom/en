@@ -5,14 +5,19 @@
 - The log subject quota under the current log collection is sufficient
 
 **Operation Steps**
-1.	 Log in JD Cloud console.
+1.	Log in JD Cloud console.
+
 2. 	Click the navigation bar on the left side, select **Management->Log Service->Log Collection Management** to enter the log collection management page.
+
 3. 	Select the log collection to add the log subject, click the log collection name or **"View** under operations to enter the log collection details page.
+
 4. 	Click **Add Log Subject** to enter the adding log subject page.
+
 5. 	Set the log subject name and description information, click **OK**.
+
 6. 	Click **OK** on the pop-up collection configuration guide page to enter the adding collection configuration page; if you do not want to add any for now, click **Cancel**.
 
-**Add Log Subject"
+**Add Log Subject**
 ![](https://raw.githubusercontent.com/luolei-laurel/cn-1/patch-1/image/LogService/LogSetManagement/addLogTopic.png)
 
 ### Add Collection Configuration

@@ -8,7 +8,7 @@ Default option: Replace
 
 **Notification Frequency and Method**
 
-- Notification frequency: Select only one of the notification trigger conditions among sending in case of deployment exception, sending in every deployment, no notification. If the previous two options are selected, then when the notification condition is met, notifications will be sent according to the selected notification method.
+- Notification frequency: Select only one of the notification trigger conditions among sending in case of deployment failed, sending in every deployment, no notification. If the previous two options are selected, then when the notification condition is met, notifications will be sent according to the selected notification method.
 - Notification method: Multiple choices, i.e. message, email and SMS.
 
 Default option: No notification
@@ -20,4 +20,4 @@ You can set whether to trigger automatic rollback when deployment failed, then i
 Default option: No
 
 
-![Alt text](https://github.com/jdcloudcom/cn/blob/codedeploy/image/CodeDeploy/operation12.png)
+![Alt text](https://github.com/jdcloudcom/cn/blob/edit/image/CodeDeploy/Ch/Oper-6%EF%BC%88Ch%EF%BC%89.png)

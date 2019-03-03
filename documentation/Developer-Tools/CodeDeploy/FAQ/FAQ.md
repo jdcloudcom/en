@@ -1,6 +1,6 @@
 ## FAQ
 
-**Q: Is the command executed by hooks in appSpec.yml?**
+**Q: Is the command executed by hooks in jdcloud-codedeploy.yml?**
 
 A: The location option to be filled in by hooks refers to the script location rather than the command itself used for executing the script. As a result, please avoid operating commands such as /home/app/control start.
 

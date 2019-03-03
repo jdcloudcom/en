@@ -2,7 +2,7 @@
 
 The application list of a specified region can be viewed in the "Deployment Application" page.
 
-![Alt text](https://github.com/jdcloudcom/cn/blob/codedeploy/image/CodeDeploy/operation1.png)
+![Alt text](https://github.com/jdcloudcom/cn/blob/edit/image/CodeDeploy/Ch/Oper-1%EF%BC%88Ch%EF%BC%89.png)
 
 The operation below is supported by the specified application:
 

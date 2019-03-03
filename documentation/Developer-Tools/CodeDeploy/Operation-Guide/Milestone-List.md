@@ -2,7 +2,7 @@
 
 There are two pages in the Application Details, respectively indicating the deployment group and the milestone in the application.
 
-![Alt text](https://github.com/jdcloudcom/cn/blob/codedeploy/image/CodeDeploy/operation13.png)
+![Alt text](https://github.com/jdcloudcom/cn/blob/edit/image/CodeDeploy/Ch/Oper-4%EF%BC%88Ch%EF%BC%89.png)
 
 The deployment source of succeeded deployment in history under the application is listed in the milestone page.
 

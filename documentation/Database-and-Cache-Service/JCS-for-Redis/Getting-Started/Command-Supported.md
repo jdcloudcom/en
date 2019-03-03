@@ -55,28 +55,6 @@ Description:
 
 2. SORT command supports writing results in destination, so the destination shall be ensured to be in the same slot as the key. Otherwise, (error) ERR CROSSSLOT Keys in request don't hash to the same slot error occurs
 
-
-
-
-
-## Commands not Supported by Cluster Instance
-
-Key|String|List|Set|SortedSet|Server|Transaction|
-|:---------:|:----------------:|-------------:|--------------|------------------------|-------------------|---------------------|
-| RENAME    |       BITOP      |    RPOPLPUSH | SDIFF        | ZUNIONSTORE            | SLOWLOG           | DISCARD             |
-| RENAMENX  |      MSETNX      |              | SDIFFSTORE   | ZINTERSTORE            | CONFIG REWRITE    | EXEC                |
-| OBJECT    |                  |              | SINTER       |                        | CONFIG RESETSTAT  | MULTI               |
-|           |                  |              | SINTERSTORE  |                        | COMMAND COUNT     | UNWATCH             |
-|           |                  |              | SMOVE        |                        | COMMAND GETKEYS   | WATCH               |
-|           |                  |              | SUNION       |                        | COMMAND INFO      |                     |
-|           |                  |              | SUNIONSTORE  |                        |                   |                     |
-	
-- Redis2.8 version primary-secondary supports transactions, while the cluster does not; Redis4.0 primary-secondary and cluster support transaction. Commands not supported in transactions: SCRIPT *, INFO, SLOWLOG, LATENCY, EVAL, FLUSHALL, SCAN, AUTH, EVALSHA, DBSIZE, CONFIG, FLUSHDB, RANDOMKEY and PING
-
-- ZUNIONSTORE/ZINTERSTORE command, parameters are destination numkeys key [key ...] [WEIGHTS weight] [SUM|MIN|MAX]
-
-All keys and destinations specified must be in the same slot. Otherwise, (error) ERR CROSSSLOT Keys in request don't hash to the same slot error occurs
-
 ## Increased Commands Supported by 4.0
 
 Key|Hash|SortedSet|Server|Scripting|HyperLogLog|Geo|
@@ -98,20 +76,36 @@ Key|Hash|SortedSet|Server|Scripting|HyperLogLog|Geo|
 
 MEMORY stats 1 indicates viewing the memory statistic information of Shard 1, and if it is not specified, it is Shard 0 by default
 
+## Commands not Supported by Cluster Instance
+
+Key|String|List|Set|SortedSet|Server|Transaction|
+|:---------:|:----------------:|-------------:|--------------|------------------------|-------------------|---------------------|
+| RENAME    |       BITOP      |    RPOPLPUSH | SDIFF        | ZUNIONSTORE            | SLOWLOG           | DISCARD             |
+| RENAMENX  |      MSETNX      |              | SDIFFSTORE   | ZINTERSTORE            | CONFIG REWRITE    | EXEC                |
+| OBJECT    |                  |              | SINTER       |                        | CONFIG RESETSTAT  | MULTI               |
+|           |                  |              | SINTERSTORE  |                        | COMMAND COUNT     | UNWATCH             |
+|           |                  |              | SMOVE        |                        | COMMAND GETKEYS   | WATCH               |
+|           |                  |              | SUNION       |                        | COMMAND INFO      |                     |
+|           |                  |              | SUNIONSTORE  |                        |                   |                     |
+	
+- Redis2.8 version primary-secondary supports transactions, while the cluster does not; Redis4.0 primary-secondary and cluster support transaction. Commands not supported in transactions: SCRIPT *, INFO, SLOWLOG, LATENCY, EVAL, FLUSHALL, SCAN, AUTH, EVALSHA, DBSIZE, CONFIG, FLUSHDB, RANDOMKEY and PING
+
+- ZUNIONSTORE/ZINTERSTORE command, parameters are destination numkeys key [key ...] [WEIGHTS weight] [SUM|MIN|MAX]
+
+All keys and destinations specified must be in the same slot. Otherwise, (error) ERR CROSSSLOT Keys in request don't hash to the same slot error occurs
 
    
 ## Unavailable Commands
 
 Key|List|Server|Pub/Sub|Cluster|Connection|
 |:---------:|:------------:|:----------------:|:--------------------:|:-------------:|:----------------:|
-| RANDOMKEY |     BLPOP    |       TIME       |      PSUBSCRIBE      |  READWRITE   |      SWAPDB      |
-|  MIGRATE  |     BRPOP    |      MONITOR     |        PUBLISH       |   READONLY   |                  |
-|    WAIT   |  BRPOPLPUSH  |   BGREWRITEAOF   |        PUBSUB        |  CLUSTER *   |                  |
+|  MIGRATE  |     BLPOP    |       TIME       |      PSUBSCRIBE      |  READWRITE   |      SWAPDB      |
+|    WAIT   |     BRPOP    |      MONITOR     |        PUBLISH       |   READONLY   |                  |
+|           |  BRPOPLPUSH  |   BGREWRITEAOF   |        PUBSUB        |  CLUSTER *   |                  |
 |           |              |      BGSAVE      |     PUNSUBSCRIBE     |              |                  |
 |           |              |    CONFIG SET    |       SUBSCRIBE      |              |                  |
 |           |              |      COMMAND     |      UNSUBSCRIBE     |              |                  |
 |           |              |   DEBUG OBJECT   |                      |              |                  |
-|           |              |      DBSIZE      |                      |              |                  |
 |           |              |       DEBUG      |                      |              |                  |
 |           |              |  DEBUG SEGFAULT  |                      |              |                  |
 |           |              |       SAVE       |                      |              |                  |

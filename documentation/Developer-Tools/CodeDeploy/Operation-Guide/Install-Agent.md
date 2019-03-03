@@ -26,7 +26,7 @@ Taking Agent installation in the Virtual Machine in cn-north-1 as example,
 
 **Obtaining Agent Status**
 
-Agent has two statuses, including "normal" and "abnormal". For Agent installed manually, its status will be updated about 5min after installation.
+Agent has two statuses, including "normal" and "abnormal".
 
 
 **Version Upgrade**
