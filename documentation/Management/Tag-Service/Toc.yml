@@ -21,10 +21,15 @@
         href: Pricing/Pricing.md
   - name: Operation Guide
     items:
+      - name: Tag Edit
+        href: Operation-Guide/Tag-Editor.md
+      - name: Tag Filter
+        href: Operation-Guide/Tag-Filter.md
       - name: Tag List
         href: Operation-Guide/Operating-Tag-List.md
       - name: Tagged Resources
         href: Operation-Guide/Operating-Tag-Resource.md
+      
   - name: Related Documents
     items:
       - name: Document History

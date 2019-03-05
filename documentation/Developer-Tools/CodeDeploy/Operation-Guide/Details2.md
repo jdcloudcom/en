@@ -1,8 +1,8 @@
 ## Deployment Details
 
-The deployment progress can be viewed in the "Details". The "Cancel" function is supported in the deployment process. When the deployment is ended, the "Rollback" function is supported for the latest deployment task succeeded.
+The deployment progress can be viewed in the "Deployment Details". The "Cancel" function is supported in the deployment process. When the deployment is ended, the "Rollback" function is supported for the latest(not frist) deployment task succeeded.
 
-![Alt text](https://github.com/jdcloudcom/cn/blob/codedeploy/image/CodeDeploy/operation17.png)
+![Alt text](https://github.com/jdcloudcom/cn/blob/edit/image/CodeDeploy/Ch/Oper-12%EF%BC%88Ch%EF%BC%89.png)
 
 
 **Cancel**
@@ -11,7 +11,7 @@ The deploying task will be canceled. Please note that the rollback is not suppor
 
 **Rollback**
 
-For a deployment group, only the manual rollback operation to the latest deployment task succeeded is supported. For details, please refer to "Operation Guide-Deployment Workflow"
+For a deployment group, only the manual rollback operation to the latest deployment task succeeded is supported. For details, please refer to "Operation Guide-Deployment Workflow".
 
 **View Configuration**
 
@@ -20,3 +20,5 @@ Click **View Configuration** to view the detailed configuration information of t
 **View Log**
 
 Click **View Log** in the specified instance to view the deployment log.
+
+Show logs as per the workflow structure. For details, please refer to “Operation Guide-Deployment Workflow”

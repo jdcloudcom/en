@@ -48,7 +48,7 @@ Instance status of the application details page, deployment history page and dep
 **Workflow**
 
 - For script in hooks, it is recommended to pay attention to idempotence
-- Execute stop command, namely to execute the stop command that has been backed up in the deployment target machine. Considering that the most recent deployment task may not be successful, so the stop command executed here may not always be that of the task deployed in the previous time
+- Execute the stop script, i.e. execute the backup stop scripts from the deployment target machine rather than those of the software program to be deployed
 
 
 **Deployment Directory Description**
@@ -68,3 +68,5 @@ Descriptions for the variable therein are as follows:
 | ${app id}  | Application ID, which can be viewed on the deployment application page |
 | ${group id}  | Deployment group ID, which can be viewed on the application details page |
 | ${deploy id}  | Deployment task ID, which can be viewed on the deployment history page |
+
+To guarantee successful rollback operation, it is suggested that the files under the backup path shall not be deleted.

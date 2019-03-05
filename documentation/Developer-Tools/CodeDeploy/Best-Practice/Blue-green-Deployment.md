@@ -11,18 +11,19 @@ The basic operation process is as follows:
 
 2) Please deploy the program package to the Virtual Machines with the CodeDeploy
 
-3) Access the sample code with the Public IP and ports of the Load Balancer
+3) Access the sample code with the Public IP: Ports of the Load Balancer
 
 Example Precondition:
 
 - Existing Virtual Machines
 - Existing Load Balancer Instances and Listener
 - Sample codes have been cloned in the CodeCommit
+- Existing Object Storage Service Bucket
 
 
 ### Create Virtual Machines
 
-Create 2 Virtual Machines in the region cn-north-1, with specific information as follows:
+In regions: Create 2 Virtual Machines in the region cn-north-1, with specific information as follows:
 
 - Creation method: Create customized instance
 - Image: Official CentOS CentOS 7.4 64-bit
@@ -78,9 +79,9 @@ Please clone the sample code to the CodeCommit and the address of the CodeCommit
 
 Create a new project in the CodeBuild, with specific information as below:
 
--  Project Name: codedeploy-ci-demo03
--  Image Compilation: maven/Maven:3.5.0,Jdk:8u20
--  Source Provider: CodeCommit
+-  Application Name: codedeploy-ci-demo03
+-  Image Compilation: maven/maven3.6.0-jdk8
+-  Source Provider: JD Cloud-CodeCommit
 -  Repository Address: Please fill in the address based on the real conditions, for example devops-demo/java-demo
 -  Code Branch: devops-demo
 -  Creation Specification: Insert construction command
@@ -111,8 +112,9 @@ cmds:
 out_dir: 'output'
 ```
 -  Construction Type: Application Package
+-  Bucket: Please select the existing Object Storage Service bucket
 
-So far, the sample code has been successfully complied and uploaded in the space of cn-north-1 in the Object Storage Service.
+So far, the example code has been successfully complied and uploaded in the Object Storage Service bucket.
 
 Next, please deploy the program package to the Virtual Machines with the CodeDeploy.
 
@@ -121,21 +123,21 @@ Next, please deploy the program package to the Virtual Machines with the CodeDep
 
 On the **Deployment Application** page, after appointing the region as the same as that of Virtual Machines and Object Storage Service, click **Create Application**,
 
-![Alt text](https://github.com/jdcloudcom/cn/blob/codedeploy/image/CodeDeploy/starting5.png)
+![Alt text](https://github.com/jdcloudcom/cn/blob/edit/image/CodeDeploy/Ch/Pra-1%EF%BC%88Ch%EF%BC%89.png)
 
 redirect to the **New Application** page.
 
 On the **New Application** page, first fill in the application information. Application name: codedeploy-app-demo03
 
-![Alt text](https://github.com/jdcloudcom/cn/blob/codedeploy/image/CodeDeploy/practice12.png)
+![Alt text](https://github.com/jdcloudcom/cn/blob/edit/image/CodeDeploy/Ch/Pra-2%EF%BC%88Ch%EF%BC%89.png)
 
-Click **Create
+Click **Create**.
 
 Next, create deployment groups in application.
 
 There are options as below:
 
-- Name of Deployment Group: Please fill in the deployment group name, codedeploy-group-demo03
+- Name of Deployment Group: Please fill in the deployment group name, group1
 - Deployment Type: Please select **Blue and Green Deployment
 - Deployment Target: Click **Select** and select Virtual Machines in the popup. Three filter conditions for selection are supported: Availability Group, Tag and IP. Please select the Virtual Machines created in the previous step here, namely the machine in the name of codedeploy-demo031 is added to the blue group, while the machine in the name of codedeploy-demo032 is added to the green group
 - Use of Load Balancer: Yes
@@ -143,49 +145,56 @@ There are options as below:
 - Backend service of Load Balancer: Please select the backend service under the Load Balancer Instance specified in the last entry, codedeploy-backend-demo03
 - Advanced Option: Keep the default option. See Operation Guide for details
 
-![Alt text](https://github.com/jdcloudcom/cn/blob/codedeploy/image/CodeDeploy/practice13.png)
+![Alt text](https://github.com/jdcloudcom/cn/blob/edit/image/CodeDeploy/Ch/Pra-3%EF%BC%88Ch%EF%BC%89.png)
 
 After filling in the basic information of the deployment group, please click **Create** to create the deployment group in the application.
 
-It will redirect to the **Application** page after the creation succeeds.
+It will redirect to the **Application Details** page after the creation succeeds.
 
-![Alt text](https://github.com/jdcloudcom/cn/blob/codedeploy/image/CodeDeploy/practice14.png)
+![Alt text](https://github.com/jdcloudcom/cn/blob/edit/image/CodeDeploy/Ch/Pra-4%EF%BC%88Ch%EF%BC%89.png)
 
 ### Create Deployment
 
-On the **Application** page, you can view the deployment group created in the previous step through the **Deployment Group** page.
+On the **Application Details** page, you can view the deployment group created in the previous step through the **Deployment Group** page.
 
-![Alt text](https://github.com/jdcloudcom/cn/blob/codedeploy/image/CodeDeploy/practice14.png)
+![Alt text](https://github.com/jdcloudcom/cn/blob/edit/image/CodeDeploy/Ch/Pra-4%EF%BC%88Ch%EF%BC%89.png)
 
 For a single deployment group, its supported operations include Initiate Deployment, Deployment History, Edit and Delete.
 
-Click **Deployment**  and access **Create Deployment** page, and there are options as below:
+Click **Initiate Deployment** and access **Create Deployment** page.
+
+![Alt text](https://github.com/jdcloudcom/cn/blob/edit/image/CodeDeploy/Ch/Pra-5%EF%BC%88Ch%EF%BC%89.png)
+
+There are options as below:
 
 - Deployment Description: Optional, it is the description information for this deployment
-- Deployment Source: Multiple deployment sources are supported. Please select **My CodeBuild
-- Project Name of CodeBuild: Please fill in codedeploy-ci-demo03
+- Deployment Source: Multiple deployment sources are supported. Please select **CodeBuild**
+- CodeBuild Application Name: Please fill in codedeploy-ci-demo03
 - Construction SN of CodeBuild: Please fill in the construction SN compiled in the previous step
 - File Type: Please select .tar.gz
 - Deployment Operating Command: Please select **Enter Deployment Operating Command** and use the **Form Completion** function to fill in specific operating commands. The operations are as below:
 ```
 Deployment Path: Source File/Directory:/       Target Directory:/home
-Script executing account:  root       
-Time-out period of script (s): 100
 Path to stop script: /home/bin/stop.sh     
 Path to start script: /home/bin/start.sh
+Path to Check Script:
+Script executing account:  root       
+Time-out period of script (s): 100
 ```
 
-Note: The stopping script is not required for first deployment
+Note: The stopping script path is not required for first deployment
 
-![Alt text](https://github.com/jdcloudcom/cn/blob/codedeploy/image/CodeDeploy/practice15.png)
+![Alt text](https://github.com/jdcloudcom/cn/blob/edit/image/CodeDeploy/Ch/Pra-6%EF%BC%88Ch%EF%BC%89.png)
 
-After filling in the deployment task information, please click **Deployment** to trigger deployment operations.
+After filling in the deployment task information, please click **Initiate Deployment** to trigger deployment operations.
 
 It will redirect to **Deployment Details** page.
 
 ### View Deployment Details
 
 On the **Deployment Details** page, you can view the progress of this deployment. In the process of deployment, **Cancel** is supported.
+
+![Alt text](https://github.com/jdcloudcom/cn/blob/edit/image/CodeDeploy/Ch/Pra-7%EF%BC%88Ch%EF%BC%89.png)
 
 Click **View Configuration** to view the detailed configuration information of this deployment task.
 

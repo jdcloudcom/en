@@ -85,6 +85,8 @@
        href: Best-Practices/Capacity-Assessment.md
      - name: Example of Accessing Cluster
        href: Best-Practices/connect-ES.md
+     - name: Data Access Cluster
+       href: Best-Practices/plugin.md
      - name: Use kibana
        href: Best-Practices/using_kibana.md
      - name: Performance Indicators

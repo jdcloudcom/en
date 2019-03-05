@@ -44,7 +44,13 @@
       - name: Advanced Configuration
         href: Operation-Guide/Advanced-configuration.md
       - name: Back-to-source Policy
-        href: Operation-Guide/back-to-origin-Strategy.md
+        items:
+          - name: Back-to-origin Policy
+            href: Operation-Guide/Back-To-Origin-Configuration/back-to-origin-Strategy.md
+          - name: Protocol following back-to-origin
+            href: Operation-Guide/Back-To-Origin-Configuration/Protocol-Follow-Back-To-Origin.md        
+          - name: Back-to-origin following 302
+            href: Operation-Guide/Back-To-Origin-Configuration/Follow-302-Configuration.md
       - name: Workload Monitoring
         href: Operation-Guide/Business-Monitoring.md        
       - name: Cache Configuration
@@ -85,6 +91,10 @@
             href: API-Reference/CDN-Open-API/Creat-domain.md
           - name: Set Back-to-origin Host
             href: API-Reference/CDN-Open-API/Set-back-to-source-host.md
+          - name: Protocol following back-to-origin
+            href: API-Reference/CDN-Open-API/Set-Protocol-Follow-Back-To-Origin.md
+          - name: Back-to-origin following 302
+            href: API-Reference/CDN-Open-API/Set-Follow-302-Configuration.md
           - name: Back-to-origin Policy Change
             href: API-Reference/CDN-Open-API/Change-back-to-source.md
           - name: Cache Policy Change

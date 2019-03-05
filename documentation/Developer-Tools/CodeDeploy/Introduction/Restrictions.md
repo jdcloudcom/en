@@ -15,3 +15,7 @@ Only users passed the JD Cloud real-name verification can use CodeDeploy product
 **Sub-account**
 
 Sub-accounts are not supported by CodeDeploy currently.
+
+**Count of Quota**
+
+At most 100 Virtual Machines can be selected from one deployment group as the deployment targets.

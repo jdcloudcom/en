@@ -404,6 +404,8 @@ items:
         href: Best-Practices/Data-Migration-Tool.md 
       - name: Use S3cmd to Manage OSS
         href: Best-Practices/S3cmd.md
+      - name: Use S3 Browser to Manage OSS
+        href: Best-Practices/Manage-OSS-With-s3browser.md        
       - name: Set Signature Authentication For Callback Server
         href: Best-Practices/Setting-Signature-Authentication-For-Callback-Server.md        
       - name: OSS Online Service Quick Verification Tools

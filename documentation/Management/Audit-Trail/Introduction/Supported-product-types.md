@@ -1,37 +1,42 @@
-# Supported Product Type
+# Supported Product List
+Audit Trail supports recording operations and API calling record for the following JD Cloud products. The specific list is as follows:
 
-* Virtual Machines (vm)
-* Availability Group (ag)
-* Native Container (nc)
-* kubernates(jke)
-* Cloud Disk Service (disk)
-* Virtual Private Cloud (vpc)
-* Monitoring (monitor)
-* Redis (redis)
-* Message Queue (jcq)
-* RDS (rds)
-* JCS for MongoDB (mongodb)
-* Block Chain (bds)
-* Anti-DDoS Pro (ipanti)
-* Key Management Service (kms)
-* Anti-DDoS Basic (baseanti)
-* Situation Awareness (csa)
-* Endpoint Security (hips)
-* User Center (uc)
-* Identity and Access Management (iam)
-* Operation Protection (sop)
-* Renew (renewal)
-* Order (order)
-* Billing (billing)
-* pms(pms)
-* bizrisk(bizrisk)
-* Cloud Physical Server (cps)
-* Audit Trail (auditrail)
-* Quota (quota)
-* User (user)
-* Contract Management (contract)
-* Tag Service (resourcetag)
-* pod(pod)
-* Cost Center (costcenter)
-* CodeDeploy (deploy)
+| Product Type | Product Name         |
+|----------|------------------|
+| vm       | Virtual Machines           |
+| ag       | Availability Group          |
+| nc       | Native Container          |
+| jke      | kubernates       |
+| disk     | Cloud Disk Service           |
+| vpc      | Virtual Private Cloud          |
+| monitor  | Monitoring           |
+| redis    | Redis       |
+| jcq      | Message Queue          |
+| rds      | RDS     |
+| mongodb  | JCS for MongoDB |
+| bds      | Block Chain            |
+| ipanti   | Anti-DDoS Pro          |
+| kms      | Key Management Service      |
+| baseanti | Anti-DDoS Basic    |
+| csa      | Situation Awareness         |
+| hips     | Endpoint Security          |
+| pod      |	pod         |
+| deploy   |	CodeDeploy          |
+| cps      | 	Cloud Physical Server        |
+| uc	     |User Center         |
+| iam      |	Identity and Access Management       |
+| sop      |	Operation Protection       |
+| renewal  |	Renew           |
+| order    |	Order          |
+| billing  |	Billing           |
+| pms      |	pms         |
+| bizrisk  |	Bizrisk     |
+| auditrail|	Audit Trail          |
+| quota	   |Quota         |
+| user	   |User         |
+| contract |Contract Management         |
+| resourcetag|	Tag Service         |
+| costcenter|	Cost Center         |
+
+
 
