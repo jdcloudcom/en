@@ -1,0 +1,159 @@
+name: Live Video
+href:
+items:
+  - name: Live Streaming API Overview
+    href: Summary/Summary.md
+  - name: API Authentication Rules
+    href: Authentication/Rule.md
+  - name: Domain Management
+    items:
+      - name: Add live domain
+        href: Live-API/addLiveDomain.md
+      - name: Search the relevant information of the specified domain
+        href: Live-API/describeLiveDomainDetail.md
+      - name: Search domain list
+        href: Live-API/describeLiveDomains.md
+      - name: Start domain
+        href: Live-API/startLiveDomain.md
+      - name: Disable domain
+        href: Live-API/stopLiveDomain.md
+      - name: Delete domain
+        href: Live-API/deleteLiveDomain.md
+  - name: APP Management
+    items:
+    status: 0
+      - name: Add live APP
+        href: Live-API/addLiveApp.md
+      - name: Delete live APP
+        href: Live-API/deleteLiveApp.md
+      - name: Enable APP
+        href: Live-API/startLiveApp.md
+      - name: Disable APP
+        href: Live-API/stopLiveApp.md
+      - name: Search APP list under the domain
+        href: Live-API/describeLiveApp.md
+  - name: Live Streaming Management
+    items:
+      - name: Ban live streaming pushing
+        href: Live-API/forbidLiveStream.md
+      - name: Recover live streaming pushing
+        href: Live-API/resumeLiveStream.md
+      - name: View real-time pushing streaming information under the domain
+        href: Live-API/describeLiveStreamOnlineList.md
+      - name: View history pushing streaming record under the domain
+        href: Live-API/describeLiveStreamPublishList.md
+  - name: Status Notification
+    items:
+      - name: Set live streaming status notification
+        href: Live-API/setLiveStreamNotifyConfig.md
+      - name: Search live streaming status notification
+        href: Live-API/describeLiveStreamNotifyConfig.md
+      - name: Delete live streaming status notification
+        href: Live-API/deleteLiveStreamNotifyConfig.md
+  - name: Live Time Shifting
+    items:
+    status: 0
+      - name: Add domain time shifting configuration
+        href: Loading.md
+      - name: Delete domain time shifting configuration
+        href: Loading.md
+      - name: Add App time shifting configuration
+        href: Loading.md
+      - name: Delete App time shifting configuration
+        href: Loading.md
+      - name: Search time shifting file space usage
+        href: Loading.md
+      - name: Search time shifting configuration
+        href: Loading.md
+  - name: Live Transcoding
+    items:
+      - name: Add domain transcoding configuration
+        href: Live-API/addLiveStreamDomainTranscode.md
+      - name: Delete domain transcoding configuration
+        href: Live-API/deleteLiveStreamDomainTranscode.md
+      - name: Add app transcoding configuration
+        href: Live-API/addLiveStreamAppTranscode.md
+      - name: Delete APP transcoding configuration
+        href: Live-API/deleteLiveStreamAppTranscode.md
+      - name: Add customized transcoding template
+        href: Live-API/addCustomLiveStreamTranscodeTemplate.md
+      - name: Delete user customized transcoding template
+        href: Live-API/deleteCustomLiveStreamTranscodeTemplate.md
+      - name: Search user customized transcoding template details
+        href: Live-API/describeCustomLiveStreamTranscodeTemplate.md
+      - name: Search user customized transcoding template list
+        href: Live-API/describeCustomLiveStreamTranscodeTemplates.md
+      - name: Search transcoding template configuration
+        href: Live-API/describeLiveStreamTranscodeConfig.md
+  - name: Live Record
+    items:
+      - name: Add record template
+        href: Live-API/addCustomLiveStreamRecordTemplate.md
+      - name: Delete record template
+        href: Live-API/deleteCustomLiveStreamRecordTemplate.md
+      - name: Search record template list
+        href: Live-API/describeCustomLiveStreamRecordTemplates.md
+      - name: Add APP record configuration
+        href: Live-API/addLiveStreamAppRecord.md
+      - name: Delete APP record configuration
+        href: Live-API/deleteLiveStreamAppRecord.md
+      - name: Add domain record configuration
+        href: Live-API/addLiveStreamDomainRecord.md
+      - name: Delete domain record configuration
+        href: Live-API/deleteLiveStreamDomainRecord.md
+      - name: Search record configuration
+        href: Live-API/describeCustomLiveStreamRecordConfig.md
+      - name: Set record callback notification
+        href: Live-API/setLiveStreamRecordNotifyConfig.md
+      - name: Search record callback configuration
+        href: Live-API/describeLiveStreamRecordNotifyConfig.md
+      - name: Delete record callback configuration
+        href: Live-API/deleteLiveStreamRecordNotifyConfig.md
+  - name: Live Snapshot
+    items:
+      - name: Add live snapshot template
+        href: Live-API/addCustomLiveStreamSnapshotTemplate.md
+      - name: Delete live snapshot template
+        href: Live-API/deleteCustomLiveStreamSnapshotTemplate.md
+      - name: Search live snapshot template list
+        href: Live-API/describeCustomLiveStreamSnapshotTemplates.md
+      - name: Add APP live snapshot configuration
+        href: Live-API/addLiveStreamAppSnapshot.md
+      - name: Delete APP live snapshot configuration
+        href: Live-API/deleteLiveStreamAppSnapshot.md
+      - name: Add domain live snapshot configuration
+        href: Live-API/addLiveStreamDomainSnapshot.md
+      - name: Search live snapshot configuration
+        href: Live-API/describeCustomLiveStreamSnapshotConfig.md
+      - name: Delete domain snapshot configuration
+        href: Live-API/deleteLiveStreamDomainSnapshot.md
+      - name: Set snapshot callback notification
+        href: Live-API/setLiveStreamSnapshotNotifyConfig.md
+      - name: Search snapshot callback configuration
+        href: Live-API/describeLiveStreamSnapshotNotifyConfig.md
+      - name: Delete snapshot callback configuration
+        href: Live-API/deleteLiveStreamSnapshotNotifyConfig.md
+  - name: Live Watermark
+    items:
+      - name: Add live watermark template
+        href: Live-API/addCustomLiveStreamWatermarkTemplate.md
+      - name: Delete user customized watermark template
+        href: Live-API/deleteCustomLiveStreamWatermarkTemplate.md
+      - name: Search watermark template list
+        href: Live-API/describeCustomLiveStreamWatermarkTemplates.md
+      - name: Add APP watermark configuration
+        href: Live-API/addLiveStreamAppWatermark.md
+      - name: Delete app watermark configuration
+        href: Live-API/deleteLiveStreamAppWatermark.md
+      - name: Add domain watermark configuration
+        href: Live-API/addLiveStreamDomainWatermark.md
+      - name: Delete domain watermark configuration
+        href: Live-API/deleteLiveStreamDomainWatermark.md
+      - name: Search watermark configuration
+        href: Live-API/describeCustomLiveStreamWatermarkConfig.md
+#  - name: Live Audit
+#    href: Loading.md
+  - name: SDK Call Method
+    href: Example/SDK-Java.md
+
+
