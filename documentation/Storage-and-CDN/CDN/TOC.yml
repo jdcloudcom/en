@@ -149,7 +149,7 @@
             href: API-Reference/CDN-Open-API/Set-Header.md
           - name: Search Header
             href: API-Reference/CDN-Open-API/Query-Header.md
-          - name: Attachment: Notification Information Status Code Reference Table
+          - name: Attachment，Notification Information Status Code Reference Table
             href: API-Reference/CDN-Open-API/Status-code-reference-table.md
       - name: Live OPEN API
         items:
