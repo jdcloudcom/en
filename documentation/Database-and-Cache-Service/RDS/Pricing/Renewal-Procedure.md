@@ -1,5 +1,5 @@
 # Renew Process
-# Renewal Instance
+## Renewal Instance
 After the expiration of monthly package instance, JD Cloud will keep your instance for 7 days, but the instance will not be available during this period, and the instance will be completely deleted after 7 days; it is recommended to carry out the related renewal operation before the instance expires to make sure that the instance is always available; the configuration change is not supported during renewal, and the expiration time of the instance can only be extended. See detailed billing criteria in [Price Overview](./price overview.md).
 
 ## Precautions

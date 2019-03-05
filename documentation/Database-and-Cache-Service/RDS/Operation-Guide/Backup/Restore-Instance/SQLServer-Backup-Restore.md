@@ -17,11 +17,15 @@ Click ***Restore based on Backup*** on the right side of the backup list.
 
 ## 4. Restore Confirmation
 The following dialog box will pop up according to different restoration types. click ***OK*** and restore.
-For example:
+### The confirmation dialog of SQL Server
+**Restore Instance**<br>
+![实例恢复5](../../../../../../image/RDS/Restore-Instance-5.png)
+
 **Restore Single Database**<br>
-![Restore Instance 6](../../../../../../image/RDS/Restore-Instance-5.png)
+![实例恢复6](../../../../../../image/RDS/Restore-Instance-6.png)
 
 ## 5. Instance Status
 The instance status is displayed as "**Recovering**" (Restore Instance)
+![实例恢复8](../../../../../../image/RDS/Restore-Instance-8.png)
 <br> or "**Single database backup recovering" (SQL Server only)
-
+![实例恢复7](../../../../../../image/RDS/Restore-Instance-7.png)

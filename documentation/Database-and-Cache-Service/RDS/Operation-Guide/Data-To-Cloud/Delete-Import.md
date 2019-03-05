@@ -4,4 +4,5 @@
 
 **2. click ***OK*** to delete the files after confirming that the file name is correct.**
 
-Note: The files being imported cannot be deleted.
+Note: The files being imported cannot be deleted.<br>
+![删除上传2](../../../../../image/RDS/Delete-Import-2.png)

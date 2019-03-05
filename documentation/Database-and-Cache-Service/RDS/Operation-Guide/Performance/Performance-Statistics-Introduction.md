@@ -3,6 +3,7 @@
 
 ## I. JCS for SQL Performance Statistics
 
+The statistical indicator is counted **After Executing SQL
 - 7 Statistical Perspectives Supported
 	- Average Execution Time
 	- Number of Executions
@@ -14,9 +15,13 @@
 - Customizable Statistical Conditions
 - Statistics can be downloaded in Excel format.
 
+## II. Slow SQL in Execution
+Make statistics on the **SQL in Execution** and screen the slow SQL which is believed to be concerned by the user
+- Customized Statistical Condition
+- The statistical results can be downloaded in the form of Excel file
 
 
-## II. Index Performance Analysis
+## III. Index Performance Analysis
 
 - 5 Statistics & Analysis Perspectives Supported
 	- Table Scan

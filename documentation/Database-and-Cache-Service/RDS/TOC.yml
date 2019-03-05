@@ -65,6 +65,8 @@
             href: Operation-Guide/Instance/Delete-Instance.md
           - name: Enable Internet Access
             href: Operation-Guide/Instance/Internet-Access.md
+          - name: Adjusting Instance Configuration
+            href: Operation-Guide/Instance/Modify-Instance-Spec.md            
           - name:  Failover Instance
             href: Operation-Guide/Instance/Failover-Instance.md
           - name: Reboot Instance
@@ -220,6 +222,8 @@
           href: Operation-Guide/Performance/Performance-Statistics-Introduction.md
         - name: JCS for SQL Performance Statistics
           href: Operation-Guide/Performance/SQL-Performance.md
+        - name: Slow SQL in Execution
+          href: Operation-Guide/Performance/Active-Slow-SQL.md          
         - name:  Index Performance Optimization
           href: Operation-Guide/Performance/Index-Performance.md
 

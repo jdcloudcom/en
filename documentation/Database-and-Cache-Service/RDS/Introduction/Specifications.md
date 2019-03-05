@@ -37,7 +37,7 @@
 |16-core 64GB|16000|14000|1600|
 |16-core 64GB|16000|14000|2000|
 
-## Read-only JCS for MySQL Instance
+### Read-only JCS for MySQL Instance
 |Instance Type|Max. Connections|Max. IOPS| Storage Space(GB)|
 |---|---|---|---|
 |1-core 1GB|300|600|20|
@@ -113,7 +113,7 @@
 |16-core 64GB|16000|14000|1600|
 |16-core 64GB|16000|14000|2000|
 
-## Read-only JCS for Percona Instance
+### Read-only JCS for Percona Instance
 |Instance Type|Max. Connections|Max. IOPS| Storage Space(GB)|
 |---|---|---|---|
 |1-core 1GB|300|600|20|
