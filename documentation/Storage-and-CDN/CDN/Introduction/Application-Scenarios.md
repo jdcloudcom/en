@@ -1,5 +1,5 @@
 # **Application Scenario**
-
+![test_img](/image/CDN/131531903555_.pic_hd.jpg)
 **Page and Image Acceleration**
 
 Web service is the most basic way to host Internet business content. Page and image acceleration is the static content distribution of websites or applications, such as various types of image files, html files, flash animations, css, javascript files, and so on. It is applicable to a variety of portals, E-commerce websites, news and information sites or applications, government/enterprise official sites, and entertainment game sites or applications.
