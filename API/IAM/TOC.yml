@@ -25,8 +25,6 @@ items:
             href: Policy-Management-APIs/updatePermission.md
       - name: User Management APIs
         items:
-          - name: createSubuser
-            href: User-Management-APIs/createSubuser.md
           - name: createUserAccessKey
             href: User-Management-APIs/createUserAccessKey.md
           - name: deleteUserAccessKey
