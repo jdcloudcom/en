@@ -7,12 +7,8 @@ After you have successfully registered an account and completed real-name verifi
 
 * Region and Availability Zone:
 
-<<<<<<< HEAD
-	Currently, it covers domestic **cn-north-1 (both available), cn-south-1 (single available), cn-east-1 (single available), cn-east-2 (both available)**, the four multi-available zones. These zones are completed isolated from each other to ensure maximum stability and fault tolerance between them. Please refer to [Region and Availability Zone] for detailed regional information.
-=======
-	Currently, it covers domestic **cn-north-1 (multiple available zones), cn-south-1 (single available zone), cn-east-1 (single available zone), cn-east-2 (mutliple available zones)**, the four multi-available zones. These zones are completed isolated from each other to ensure maximum stability and fault tolerance between them. Please refer to [Region and Availability Zone] for detailed regional information.
+	Currently, it covers four domestic regions with multiple availability zones including **cn-north-1 (two availability zones), cn-south-1 (single availability zone), cn-east-1 (single availability zone), cn-east-2 (two availability zones)**. These regions are completely isolated from each other to ensure maximum stability and fault tolerance between each two. Please refer to [Region and Availability Zone] for detailed regional information.  
 
->>>>>>> origin/vmen
 	The following points are recommended for reference when selecting a region:
 	
 	* Choose the region that is close to your customers to the maximum, which can reduce the access delay and increase the download speed. At the same time, JD Cloud provides BGP EIP in cn-north-1, cn-south-1 and cn-east-2, which can ensure fast access in mainland China. For instance, if most of the users are located near the Pearl River Delta, the cn-south-1 region is a better choice;

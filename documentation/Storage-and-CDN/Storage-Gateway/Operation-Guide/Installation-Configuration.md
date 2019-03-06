@@ -12,7 +12,7 @@
 
 ![存储网关镜像](../../../../image/Storage-Gateway/storagegateway-1.png)
 
-2. You can click **Create Virtual Machines** to accomplish Virtual Machine creation under current image of Storage Gateway or set shared image on the page of **Create Virtual Machines** and select Storage Gateway Image. See [Create Linux Instance](http for more helps://docs.jdcloud.com/cn/virtual-machines/create-linux-instance)
+2. You can click **Create Virtual Machines** to accomplish Virtual Machine creation under current image of Storage Gateway or set shared image on the page of **Create Virtual Machines** and select Storage Gateway Image. See [Create Linux Instance](https://docs.jdcloud.com/cn/virtual-machines/create-linux-instance) for more help.
 
 ![创建云主机](../../../../image/Storage-Gateway/storagegateway-2.png)
 

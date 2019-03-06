@@ -58,7 +58,7 @@ kubectl get services -n kube-system
 User identity authentication is required for viewing the resource information of cluster in dashboad;  
 **Take the token of the admin service account as an example, with the specific methods of operation as follows:**  
 1. View all secrets in kube-system namespace:  
-
+`
 kubectl get secret -n kube-system
 `  
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/JCS-for-Kubernetes/admintoken列表.png)  
