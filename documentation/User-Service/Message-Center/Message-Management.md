@@ -22,7 +22,7 @@ Other: other types of notifications, such as surveys;
 
 All: all the above messages.
 
-![image](https://github.com/jdcloudcom/en/blob/en-signin-signup/image/Message-Center/消息管理-1.png)
+![image]()
 
 ## Message Settings
 The **Message Settings** page shows the types of messages sent to you via SMS and email.
