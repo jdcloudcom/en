@@ -22,7 +22,7 @@ Other: other types of notifications, such as surveys;
 
 All: all the above messages.
 
-![image](lll)
+![image]()
 
 ## Message Settings
 The **Message Settings** page shows the types of messages sent to you via SMS and email.
