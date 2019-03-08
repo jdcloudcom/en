@@ -6,36 +6,14 @@
 
 You can attach Cloud Disk Service to any Virtual Machines in the same region or the same availability zone. Before attaching cloud disk, please be aware of the below notes:
 
-
-
 - Virtual Machines must be in running or stopping status;
-
-
-
 - Only Cloud Disk Service in available status can be attached;
-
-
-
 - Resources are not in arrearage status;
-
-
-
 - A single virtual machine can attach 8 Cloud Disk Services at most;
-
-
-
 - Cloud Disk Service can only be attached to a virtual machine in the same region or the same availability zone;
-
-
-
 - Cloud Disk Service cannot be attached in cross-regions and cross-availability zones;
-
-
-
 - Ordinary cloud disk service can only be attached to one virtual machine at the same time other than being supported to multiple virtual machines.
-
 - Multi-point attached disk can be attached to 16 cloud instances at the same time.
-
 - Directly attaching multi-point attached disk to multiple cloud instances cannot implement file sharing function, if files are needed to be shared among multiple cloud instances, sharing file system or cluster management system are needed to be set up.
 
 
@@ -47,12 +25,7 @@ You can attach Cloud Disk Service to any Virtual Machines in the same region or 
 
 **You can select to attach cloud disk on the Cloud Disk Service list page or Cloud Disk Service details, or select to attach cloud disk on the Virtual Machines details**:
 
-
-
 - If you need to attach several disks to an assigned Virtual Machines, you can refer to **Method 1** or **Method 2** as below;
-
-
-
 - If you need to attach Cloud Disk Service to an assignedVirtual Machines, you can refer to **Method 3**as below.
 
 <br>
