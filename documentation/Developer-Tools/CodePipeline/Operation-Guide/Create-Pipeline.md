@@ -21,18 +21,18 @@ If you need to conduct quick creation based on recommended templates, you select
 	CodePipeline name: you need set name for created CodePipeline, which the name cannot be null, only supports Chinese characters, numbers, capital and lower-case letters, English underline "_" and line-through "-", with at most 32 characters.
 
 2. Create source stage
-When conducting quick creation, the name of the stage is source by default, which supports users to modify the stage name. Adding five atomic operations is supported under one stage, which atomic operations are executed in parallel, wherein one fails will lead to the failure of the stage.
+When conducting quick creation, the name of the stage is source by default, which supports users to modify the stage name. Each phase contains one or more actions (up to 5 actions). Stages are executed in series, and operations in each stage are executed in parallel. If any action in one phase fails, it is considered that the phase fails to execute.
 
 
 	The operation elements of source code in the template are as follows:
 
 	- Operation Name: Source Code Operation
 	- Operation Type: Source Code
-	- Operation Provider: GitHub
-	- Repository: repo Address
+	- Code Source: JD Cloud-CodeCommit, GitHub
+	- Codebase: Select repo address
 	- Branch: Compilation Branches
-	- Change Detection Operation: Triggering Method
-	- Manual Confirmation: the execution method of the operation, which will automatically circulated by default
+	- Webhook Trigger: Select **Yes** to automatically trigger the CodePipeline when changes occur in the source code
+
 	
 
 3. Create Compilation Stage
@@ -43,9 +43,9 @@ When conducting quick creation, the name of the stage is built by default, which
 	- Operation Name: Construction Operation
 	- Operation Type: Construction
 	- Operation Provider: CodeBuild
-	- Entering Operation: operations need to be compiled, i.e., the source code operations named in the previous step
-	- Project: Projects Created in CodeBuild
-	- Manual Confirmation: the execution method of the operation, which will automatically circulated by default
+	- Code Source: The source code compiled by this construction task, select the source code action defined in the CodePipeline.
+	- Application: Select the compilation task. Based on the code source selected above, the compiled application in the CodeBuild will be filtered.
+	- Manual Confirmation: If manual confirmation is selected, the action will be executed after the user clicks **Confirm**. It is automatically executed by default.
 
 4. Create Deployment Stage
 When conducting quick creation, the name of the stage is deploy by default, which supports users to modify the stage name.
@@ -55,10 +55,10 @@ When conducting quick creation, the name of the stage is deploy by default, whic
 	- Operation Name: Deployment Operation
 	- Operation Type: Deployment
 	- Operation Provider: JCS for Kubernetes
-	- Project: Cluster Projects Created in JCS for Kubernetes
+	- Cluster: The corresponding project in JCS for Kubernetes. Select the JCS for Kubernetes that the user has created in the JD Cloud Console. Or go to the Console to create the JCS for Kubernetes and return to this task
 	- Upload yaml: upload cluster deployment configuration files
-	- Image: list images used in the deployment file. If you want to use images of construction output as replacement, please click **Replace** and select corresponding operations to construction.
-	- Manual Confirmation: the execution method of the operation, which will automatically circulated by default
+	- Image: List the images used in the deployment file. The user can replace it with the image generated in the construction, click **Replace**, and select the construction action. Make sure that the construction type of the compilation task (construction action) is image.
+	- Manual Confirmation: If manual confirmation is selected, the action will be executed after the user clicks **Confirm**. It is automatically executed by default.
 	
   Save to complete creation according to the templates.
 

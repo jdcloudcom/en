@@ -1,5 +1,5 @@
 # Quick Creation
-The user can quickly create Code-Construction-Deployment according to the template by Quick Creation function.
+The user can create a CodePipeline containing Source Code-Construction-Deployment phases according to the template by Quick Creation function.
 
 Operation Steps
 
@@ -8,7 +8,7 @@ Operation Steps
 2. Click **Quickly Create** on "CodePipeline List" page to enter "Quickly Create" page.
  ![](/image/codepipeline/Quick-Creation.png) 
 
-3. The default CodePipeline includes source code, construction and deployment stages 
+3. The default CodePipeline template contains the source code, construction and deployment phases 
 
    1) Configure CodePipeline
   
@@ -16,38 +16,44 @@ Operation Steps
 
    2) Set Source Code
   
-   In the stage of source code, it accesses operations of source code type by default. It needs at least one operation under one stage.
-  ![](/image/codepipeline/cre-source-stage.png) 
- 
+   In the source code phase, add one (or more) source code type actions. There is at least one action task in one phase.
+   
+   ![](/image/codepipeline/cre-source-stage.png)
+   
+   ![](/image/codepipeline/cre-source-stage2.png) 
+  
    * Operation Name: the name of operation which shall be unique within a CodePipeline. It cannot be null; it only supports Chinese characters, numbers, capital and lower-case letters, English underline "_" and line-through "-", with at most 32 characters
    * Operation Type: Source Code
-   * Operation provider: support CodeCommit, GitHub and other Git repositories.
-   * Repository: code repository name
-   * Branch: designated compilation branch
-   * Manual Confirmation: the execution method of the operation, which will automatically circulated by default
+   * Code source: Support CodeCommit, GitHub.
+   * Codebase: Select a codebase
+   * Branch: Select branch
+   * Webhook Trigger: Select **Yes** to automatically trigger the CodePipeline when changes occur in the source code
+
 
    3) Set Construction Stage
   
-   In the construction stage, it accesses operations of construction type by default.
-     
- ![](/image/codepipeline/cre-build-stage.png)
-    
- ![](/image/codepipeline/cre-build-action.png)
+   In the construction phase, add one (or more) build type actions.
+   
+   ![](/image/codepipeline/cre-build-stage.png)
+      
+   ![](/image/codepipeline/cre-build-action.png)
  
    * Operation Name: the name of operation which shall be unique within a CodePipeline. It cannot be null; it only supports Chinese characters, numbers, capital and lower-case letters, English underline "_" and line-through "-", with at most 32 characters
    * Operation Type: Construction
    * Operation Provider: CodeBuild
-   * Entering project: constructed source code is the entering project of the operation. The content of drop down is the operation that takes the type created in the CodePipeline as source code.
-   * Project: construct corresponding project, i.e., the project that has been created in CodeBuild. If there are no projects, you can quickly create a compilation project through **Create New Project**.
-   * Manual confirmation: the execution method of the operation, which will be automatically circulated by default. After manual confirmation, the process will not stop until it executes the operation. It cannot continue to execute the operation unless the user clicks **OK** on the page.
+   * Code Source: The source code compiled by this construction task, select the source code action defined in the CodePipeline.
+   * Application: Select the compilation task. Based on the code source selected above, the compiled application in the CodeBuild will be filtered.
+   * Manual Confirmation: If manual confirmation is selected, the action will be executed after the user clicks **Confirm**. It is automatically executed by default.
 
    4) Set Deployment Stage
   
-   In the Deployment stage, it accesses operations of deployment type by default.
+   In the deployment phase, add one (or more) deployment type actions.
    
-  ![](/image/codepipeline/cre-deploy-stage.png)
-  
+  ![](/image/codepipeline/cre-deploy-stage.png) 
+     
   ![](/image/codepipeline/cre-deploy-action.png)
+  
+  ![](/image/codepipeline/cre-deploy-action2.png)
 
  
 
@@ -55,9 +61,8 @@ Operation Steps
    * Operation Name: the name of operation which shall be unique within a CodePipeline. It cannot be null; it only supports Chinese characters, numbers, capital and lower-case letters, English underline "_" and line-through "-", with at most 32 characters
    * Operation Type: Deployment
    * Operation Provider: JCS for Kubernetes
-   * Entering project: the deployed source code or compiled output is the entering project of the operation. The content of drop down is the operation that takes the type created in the CodePipeline as source code and construction.
-   * Project: the corresponding project in Kubernetes project, i.e., the project has been created in JCS for Kubernetes. If there are no projects, you can quickly create a compilation project through **Create New Project**.
-   * Manual confirmation: the execution method of the operation, which will be automatically circulated by default. After manual confirmation, the process will not stop until it executes the operation. It cannot continue to execute the operation unless the user clicks **OK** on the page.
+   * Cluster: The corresponding project in JCS for Kubernetes. Select the JCS for Kubernetes that the user has created in the JD Cloud Console. Or go to the Console to create the JCS for Kubernetes and return to this task
+   * Manual Confirmation: If manual confirmation is selected, the action will be executed after the user clicks **Confirm**. It is automatically executed by default.
 
-4. 	The just created records can be view on the CodePipeline page after creation.
+4. The just created records can be view on the CodePipeline page after creation.
 

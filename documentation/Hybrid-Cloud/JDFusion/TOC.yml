@@ -23,9 +23,11 @@ items:
   items:
     - name: How to get an invitation code
       href: Operation-Guide/jdfusion-cloud-InvitationCode.md
-  
+    - name: How to log in JDFusion console
+      href: Operation-Guide/jdfusion-cloud-uc.md
+ 
       
-      - name: Historic Release
+- name: Historic Release
   items:
     - name: Document Historic Release
       href: Related-Resources/Document-History.md

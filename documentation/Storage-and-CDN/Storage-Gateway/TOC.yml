@@ -25,6 +25,8 @@ items:
         href: Operation-Guide/Installation-Configuration.md
       - name: Use Storage Gateway
         href: Operation-Guide/Use-Storage-Gateway.md
+      - name: Operation and Maintenance Guide
+        href: Operation-Guide/Operation-Maintenance.md
  - name: Related Resources
    items:
       - name: Document Release History

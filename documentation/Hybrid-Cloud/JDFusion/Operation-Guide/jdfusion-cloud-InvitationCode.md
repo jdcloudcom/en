@@ -14,6 +14,5 @@ Manage AK/SK
 ## 3. Submit application for Beta
 Enter [JD Cloud Console](https://console.jdcloud.com), click **Product** - **Hybrid Cloud** - **JDFusion** - **Beta Application** in navigation bar to enter JDFusion Product page.
 ![创建实例](https://github.com/jdcloudcom/cn/blob/edit/image/JDFusion/yaoqingma-3.png)
-
 ## 4. Get an Invitation Code
 JDFusion product team of JD Cloud will generate Beta invitation code in the background according to the submitted Beta application and deliver it to the applicant offline.

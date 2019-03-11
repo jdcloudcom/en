@@ -53,7 +53,6 @@ items:
              href: Operation-Guide/Manage-Bucket/Delete-Bucket-2.md  
            - name: Set Bucket Policy
              href: Operation-Guide/Manage-Bucket/Set-Bucket-Policy-2.md
-             
            - name: Cross-Origin Resource Sharing Setting
              href: Operation-Guide/Manage-Bucket/Set-Bucket-CORS-2.md                 
            - name: Static Website Hosting Setting
@@ -254,10 +253,6 @@ items:
              href: API-Reference-S3-Compatible/Extension-API/ImgProtected.md
       - name: Compatible Tool
         items:
-           - name: CloudBerry
-             href: API-Reference-S3-Compatible/Compatibility-Tools/CloudBerry-1.md 
-      - name: OSS API Reference(Previous Version)
-        items:
            - name: Basic Concept
              href: API-Reference/Introduction/Basic-Concepts.md
            - name: Strong Consistency
@@ -334,16 +329,18 @@ items:
               href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-Java/Simple-Upload-S3.md
             - name: Multipart Upload
               href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-Java/Multipart-Upload-S3.md              
-       - name:  Compatible S3  SDK-Python (Recommended)
+       - name: Compatible S3  SDK-Python (Recommended)
          href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-Python.md   
        - name: Compatible to S3  SDK-Go
          href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-Go.md            
        - name: Compatible S3  SDK-PHP
-         href:  API-Reference-S3-Compatible/Compatibility-Tools/SDK-PHP.md
-       - name:  Compatible S3  SDK-Android
-         href:  API-Reference-S3-Compatible/Compatibility-Tools/SDK-Android.md
+         href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-PHP.md
+       - name: Compatible S3  SDK-Android
+         href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-Android.md
        - name: Compatible S3  SDK-iOS
-         href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-iOS.md         
+         href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-iOS.md      
+       - name: Compatible S3 SDK-.NET
+         href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-NET.md   
        - name: Previous Version Java SDK (Not Recommended)
          items:
            - name: Installation

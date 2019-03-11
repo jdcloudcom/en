@@ -89,8 +89,6 @@
             href: API-Reference/CDN-Open-API/Open-api-business.md
           - name: Create Domain Name
             href: API-Reference/CDN-Open-API/Creat-domain.md
-          - name: Set Back-to-origin Host
-            href: API-Reference/CDN-Open-API/Set-back-to-source-host.md
           - name: Protocol following back-to-origin
             href: API-Reference/CDN-Open-API/Set-Protocol-Follow-Back-To-Origin.md
           - name: Back-to-origin following 302
