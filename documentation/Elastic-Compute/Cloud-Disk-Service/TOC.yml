@@ -78,7 +78,7 @@
         - name: Cloud Disk Service Monitoring
           href: Getting-Started/Cloud-Disk/CDS-Monitoring.md
           
-  - name: Operation Guide
+  - name: Snapshot Operation Guide
     items:
     - name: Create Cloud Disk Snapshot
       href: Operation-Guide/Cloud-Disk-Snapshot/Create-CloudDisk-SnapShot.md
