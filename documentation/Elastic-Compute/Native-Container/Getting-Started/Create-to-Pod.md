@@ -6,6 +6,7 @@ Before creating native container Pod, you need to finish the following steps
 2. If you need to create the billing instances paid by configuration, you need to keep your balance above RMB 50. If the balance is less than the limit, please recharge your account.  
 3. You must create a virtual private cloud and a subnet first;  
 4. If you need IAM for an instance using a security group, you can pre-create a security group or reconfigure the outbound and inbound rules of a security group.  
+
 **Operation Steps**  
  1. Open console, select [elastic compute >> native container >> Pod](https://cns-console.jdcloud.com/host/pod/list)；  
  2. Select affiliated region of created native container Pod, click **Create**, access native container Pod purchase page. We suggest you select region and availability zone where the instance located in according to the business situation;  

@@ -15,7 +15,7 @@ If you have cross-account authorization requirements, please view. [Access Contr
 - IAM Policy  Basic Elements
 - IAM Policy  Example
 
-**Description: ** Currently, there are slight difference between the syntax of Bucket Policy elements and IAM Policy elements. Please make a distinction according to your use, and do not confuse the two.
+**Description:** Currently, there are slight difference between the syntax of Bucket Policy elements and IAM Policy elements. Please make a distinction according to your use, and do not confuse the two.
 ### IAM Policy  Basic Elements
 
 IAM Policy language includes the elements with the following basic meanings:
