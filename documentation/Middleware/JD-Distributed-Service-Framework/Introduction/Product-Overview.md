@@ -1,8 +1,11 @@
 
 # Product Overview
 
-JD Cloud Distributed Service Framework is a PaaS platform focusing on applications and microservices. It is a hosted service governance framework, around the entire life cycle of microservices, providing services deployment, registration, discovery, call, monitoring and other omnidirectional functions.
+JD Cloud Distributed Service Framework is a hosted service governance framework, which can provide all-round functions of service deployment, registration, discovery, call, monitoring, etc. around the whole life cycle of the Microservice. It fully adapts to Spring Cloud framework. It uses native Spring Cloud packages to connect to Registration Center, Configuration Center and Calling Chain Analysis Service of JD Cloud Distributed Service Framework. Relied on JD Cloud's infrastructures featured by multiple data centers with high speed network connection in the same city, all components of the product all are capable of high availability, so that users will no longer worry about service interruption due to lightning strikes, cable digging and other anomalies.
 
+
+##### Description: 
+The product is in Beta period and free in the period. The Beta version is the formal stable service version, so users need not to worry about its stability and security. Please take easy to try it. After Beta period, the product will be charged by instance types, and you need not to enable a new service or switch your services.
 
 
 ## Common Operation

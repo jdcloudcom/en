@@ -169,15 +169,26 @@
         items:
         - name: Cloud on Single Database Introduction
           href: Operation-Guide/Data-To-Cloud/Data-To-Cloud-Introduction.md
-        - name: Step 1 Backup Local Database
-          href: Operation-Guide/Data-To-Cloud/Backup-Local-Database.md
-        - name: Step 2 Upload Backup
-          href: Operation-Guide/Data-To-Cloud/Upload-Backup.md
-        - name: Step 3 Backup Import
-          href: Operation-Guide/Data-To-Cloud/Import-Backup.md
-        - name: Delete Uploaded File
-          href: Operation-Guide/Data-To-Cloud/Delete-Import.md
-
+        - name: Import from Uploaded Files  
+          items:
+          - name: Step 1 Backup Local Database
+            href: Operation-Guide/Data-To-Cloud/Backup-Local-Database.md
+          - name: Step 2 Upload Backup
+            href: Operation-Guide/Data-To-Cloud/Upload-Backup.md
+          - name: Step 3 Backup Import
+            href: Operation-Guide/Data-To-Cloud/Import-Backup.md
+          - name: Delete Uploaded File
+            href: Operation-Guide/Data-To-Cloud/Delete-Import.md
+        - name: Import from OSS 
+          items:
+          - name: Step 1 Local Backup
+            href: Operation-Guide/Data-To-Cloud/V2/Backup-Local-Database-v2.md
+          - name: Step 2 Upload Backup
+            href: Operation-Guide/Data-To-Cloud/V2/Upload-Backup-v2.md
+          - name: Step 3 Import Backup
+            href: Operation-Guide/Data-To-Cloud/V2/Import-Backup-v2.md
+          - name: Backup File Permission Settings
+            href: Operation-Guide/Data-To-Cloud/V2/Grant-File-Privilege-v2.md        
       - name: Parameter Group 
         items:
          - name: Create Parameter Group 

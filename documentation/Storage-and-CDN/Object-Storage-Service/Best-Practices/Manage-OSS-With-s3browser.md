@@ -247,6 +247,8 @@ As show in the figure: You can create folders, upload, download, delete files, e
 
 Click **Upload** option in the above figure to support file and folder upload. The file list will be automatically refreshed after the upload is completed.
 
+**The free version of s3browser** supports multipart upload. It is suggested to upload the file greater than 1GB to OSS. 
+
 <div id="user-content-10"></div>
 
 #### Download Objects

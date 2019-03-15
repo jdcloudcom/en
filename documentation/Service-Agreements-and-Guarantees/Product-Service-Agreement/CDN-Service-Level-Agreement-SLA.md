@@ -76,7 +76,7 @@ JD Cloud CDN (Content Delivery Network) does not limit the public network outlet
 
 **2.12** **Service Measurement Accuracy**
 
-CDN (Consent Delivery Network) service of JD Cloud has an accurate and transparent metering and billing system. JD Cloud settles and charges in real time according to the actual usage of the user's CDN, and the specific billing standard is subject to the effective billing mode and price announced on the official website of JD Cloud. The user's original billing log is reserved for a minimum of 1 year by default for future reference.
+CDN (Consent Delivery Network) service of JD Cloud has an accurate and transparent metering and billing system. JD Cloud settles and charges in real time according to the actual usage of the user's CDN, and the specific billing standard is subject to the effective billing mode and price announced on the official website of JD Cloud.
 
 ## **3. Service Compensation Terms**
 

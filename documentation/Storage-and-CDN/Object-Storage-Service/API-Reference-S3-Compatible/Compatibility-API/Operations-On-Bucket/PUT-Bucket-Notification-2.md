@@ -11,7 +11,7 @@ You can specify a Bucket to create or change the NotificationConfiguration via P
 
 ## Request
 ### Syntax
-```xml
+```
 PUT /?notification HTTP/1.1
 Host: <bucket>.s3.<region>.jcloudcs.com
 Date: <date>
@@ -68,7 +68,7 @@ FilterRule|Include key-value pair defining filtering rule standard. <br>Type: Co
 Name|prefix or suffix, i.e., used for filtering one or multiple objects according to object key name. The maximum length is 1,022 bytes both for prefix and suffix. <br>Type: String<br>Ancestor: FilterRule<br>Valid values: prefix or suffix|No
 Value|Specify the prefix or suffix of object key name to be filtered. Type: String<br>Ancestor: FilterRule|No
 CloudFunction|Function ID to be triggered. Call Function Service when specified event occurs. <br>Type: String<br>Ancestor: CloudFunctionConfiguration|No
-CloudFunctionConfiguratio|CloudFunction triggering rules. <br>Type: Container<br>Children: An Id,Filter, CloudFunction, and one, or more Event.<br>Ancestor: NotificationConfiguration|No
+CloudFunctionConfiguration|CloudFunction triggering rules. <br>Type: Container<br>Children: An Id,Filter, CloudFunction, and one, or more Event.<br>Ancestor: NotificationConfiguration|No
 
 ## Response
 ### Response Header
@@ -83,7 +83,7 @@ HTTP 403 Forbidden|AccessDenied|You are not the owner of the bucket
 
 ## Examples
 ### Request Example
-```xml
+```
 PUT /?notification HTTP/1.1
 Host: oss-example.s3.<region>.jcloudcs.com
 Date: <date>

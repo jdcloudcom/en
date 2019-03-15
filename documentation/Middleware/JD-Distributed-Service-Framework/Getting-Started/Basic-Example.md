@@ -1,10 +1,23 @@
 # Examples for Getting Started
 
+At present, we have provided introductory examples of the following languages:
+
+-   Java: [Example Project Download Link](https://apigateway.oss.cn-north-1.jcloudcs.com/demo/JDSF-Demo.zip)
+
+-   Dotnet: [Example Project Download Link](https://apigateway.oss.cn-north-1.jcloudcs.com/demo/jdsf-dotnet-core-demo.zip)
+
+-   Go: [Example Project Download Link](https://apigateway.oss.cn-north-1.jcloudcs.com/demo/jdsf-go-demo.zip)
+
+-   Python: [Example Project Download Link](https://apigateway.oss.cn-north-1.jcloudcs.com/demo/jdsf-python-flask-demo.zip)
+
+
+Let's take an example of Java to illustrate the calling method.
+
 # Environment Preparation
 
 1. JDK of version 1.8 or above is required;<br />
 2. Download example project: [Download link of the example project](https://apigateway.oss.cn-north-1.jcloudcs.com/demo/JDSF-Demo.zip)<br />
-3. The Demo is idea project with the construction tool of maven. If your environment also is idea + maven, then you can directly download and use it. Otherwise you shall create your project according to your own tools and environment;
+3. The Demo is idea project with the construction tool of maven. If your environment also is idea + maven, then you can directly download and use it. Otherwise you shall create your project according to your own tools and environment;<br />
 
 
 # Project Structure

@@ -21,6 +21,8 @@ items:
           href: Introduction/ResourceLog/WAFLog.md
         - name: Function Service Log
           href: Introduction/ResourceLog/FunctionLog.md
+        - name: JCS for Elasticsearch Log
+          href: Introduction/ResourceLog/eslog.md
 - name: Product Pricing
   items:
     - name: Billing Overview

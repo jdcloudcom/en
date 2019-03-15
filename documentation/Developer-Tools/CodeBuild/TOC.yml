@@ -36,7 +36,15 @@
           - name: Source Code Configuration
             href: Operation-Guide/Source-Configuration.md
           - name: Creation Specification
-            href: Operation-Guide/Build-Spec.md      
+            items:
+                  - name: Specification Overview
+                    href: Operation-Guide/Build-Spec.md
+                  - name: Use Apache Maven for construction of Java project
+                    href: Operation-Guide/Maven.md
+                  - name: Use Go language environment construction
+                    href: Operation-Guide/Go.md
+                  - name: Use Npm Software Package Management System to manage software packages
+                    href: Operation-Guide/Npm.md
           - name: Create Deposit
             href: Operation-Guide/Build-Storage.md
           - name: Advanced Settings

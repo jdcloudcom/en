@@ -1,6 +1,6 @@
 # FAQ
 
-
+###  Comprehensive Class
 
 **Q: Issues related to cost such as product charge, refund, etc.**
 
@@ -29,4 +29,17 @@ A: The current version only supports to use your purchased registration center c
 **Q: How can I find back my deleted registration center?**
 
 A: You can find it back through opening ticket.
+
+
+### Utilization Class
+**Q: What are common failure reasons when creation in Calling Chain Analysis Service?**
+
+A: There are several reasons as follows:
+
+| Reasons  | Solutions  |
+|-|-|
+|  The count of subnets in vpc is insufficient |  In your vpc, change to a subnet with surplus IPs; or create a subnet of your own.   |
+|  System creation failed |  It may be caused by arrear; if you are not in arrear, please try again later.    |
+
+Please feel free to contact our customer service at any time.
 

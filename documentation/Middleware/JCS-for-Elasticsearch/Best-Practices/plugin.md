@@ -1,5 +1,7 @@
 ## Data Access Cluster
-Users can access the cluster by the way the JCS for Elasticsearch REST client writing code and access data, as well as through officially available components such as logstash and Beats to access data.
+
+ES is constructed in VPC, so that users can conveniently use various data synchronization plug-ins to connect data to ES clusters. Users can access the cluster by the way the JCS for Elasticsearch REST client writing code and access data, as well as through officially available components such as logstash and Beats to access data.
+
 
  * When the data bulk is particularly small, you can use filebeat to connect the data to the cluster.
 

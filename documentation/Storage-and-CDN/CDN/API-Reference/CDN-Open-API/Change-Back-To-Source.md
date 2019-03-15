@@ -43,7 +43,6 @@ curl -H “Content-type: application/json” -X POST -d ‘{“username”:“te
 * json Format
 
 ```
-https://opencdn.jcloud.com/api/changeSource
 Domain Back-to-origin Example
 {
     "username" :"test_user",
@@ -54,6 +53,7 @@ Domain Back-to-origin Example
     "source" :"[{'domain':'source1.a.com','priority':'1'},{'domain':'source2.a.com','priority':'2'}]"
  }
 ```
+
 ```
 IP Back-to-origin Example
 
@@ -67,6 +67,7 @@ IP Back-to-origin Example
  }
 ``` 
 
+```
 * Set the customized host example when the domain is back to origin
 {
     "username" :"test_user",
@@ -78,6 +79,7 @@ IP Back-to-origin Example
  }
 ```
 
+```
 * Set default host example when IP is back to origin
 
 {
@@ -88,10 +90,10 @@ IP Back-to-origin Example
     "sourceType" :"ips",
     "source" :"[{'ip':'1.1.1.1','master':'1','ratio':0.6},{'ip':'2.2.2.2','master':'1','ratio':0.4},{'ip':'3.3.3.3','master':'2','ratio':'0.3'},{'ip':'4.4.4.4','master':'2','ratio':'0.7'}]",
     "defaultSourceHost" :"www.cdntest.com"
- }
- 
+ } 
 ``` 
 
+```
 * Set the default back-to-origin host example when the domain is back to origin
 {
     "username" :"test_user",
@@ -103,6 +105,7 @@ IP Back-to-origin Example
     "defaultSourceHost" :"www.cdntest.com"
  }
 ```
+
 
 - ### **Return Example**
 

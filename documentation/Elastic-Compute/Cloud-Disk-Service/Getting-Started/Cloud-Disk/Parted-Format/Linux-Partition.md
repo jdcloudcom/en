@@ -15,14 +15,14 @@ You can use this script in the following two manners:
 1. Without any parameter: this script will automatically partition, format and attach (default attach points include jddata1, jddata2……jddatan) all of your non-partitioned devices and realize automatic attach of  Cloud Disk Service by UUID in /etc/fstab file
 
 </p>
-<pre class="brush:as3;toolbar:false;">sh
+<pre class="brush:as3;toolbar:false;">
 sh auto_fdisk.sh</pre>
 <p>
 
 2. With device name (e.g. /dev/vdc, etc.), attach point, file system parameters: this script will automatically complete the partitioning, formatting and attachment actions according to your entering parameters.
 
 </p>
-<pre class="brush:as3;toolbar:false;">sh
+<pre class="brush:as3;toolbar:false;">
 sh auto_fdisk.sh /dev/vdb jddata1 ext4</pre>
 <p>
 
@@ -35,7 +35,7 @@ sh auto_fdisk.sh /dev/vdb jddata1 ext4</pre>
 3. This script will create one partition for the hard disk by default and it is non-modifiable;
 
 4. This script will write the disk UUID and attach information to /etc/fstab file in order to realize automatic attach of  Cloud Disk Service. If you need to detach cloud disk, please delete corresponding /etc/fstab information, or it may result in failure to normal start by Virtual Machines.
-Manually complete partitioning, formatting and attaching of data disk
+
 
 ## Manually complete partitioning, formatting and attaching of data disk
 

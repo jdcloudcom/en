@@ -10,9 +10,9 @@
 
 1. Select Virtual Machine, container Instance required to be added, click **Add**;
 
-	Note: Only virtual machine, container under the same region, virtual private cloud, and availability zone as the Application Load Balancer can be added as backend server, 100 backend servers at most can be added in the virtual server, the different ports of the same server can be viewed as different servers;
+	Note: Only the Virtual Machines and containers under the same region and VPC of the Application Load Balancer can be added as the backend servers; at most 100 backend servers can be added in the Virtual Machines; and different ports of the same server shall be used as different servers;
 
-	. Setting port and weight: Set port and weight for the selected server; input the range of 1-65535 for the port and input the range of 1-100 for the weight; the same server port within the same virtual server group cannot be repeated; the greater the weight, the greater than request forwarding possibility of the server; and if the port is blank, the backend service port can be used for forwarding by default.	
+1. Setting port and weight: Set port and weight for the selected server; input the range of 1-65535 for the port and input the range of 1-100 for the weight; the same server port within the same virtual server group cannot be repeated; the greater the weight, the greater than request forwarding possibility of the server; and if the port is blank, the backend service port can be used for forwarding by default.	
 
 	![设置端口和权重](../../../../image/Networking/ALB/ALB-035.png)
 

@@ -22,7 +22,7 @@
   - name: Pricing
     items:
       - name: Billing Overview
-        href: Pricing/Pricing.md
+        href: Pricing/Billing-Overview.md
       - name: Billing Rules
         href: Pricing/Billing-Rules.md
       - name: Price Overview
@@ -53,7 +53,7 @@
         href: Operation-Guide/Create-ALB-Instance.md
       - name: Application Load Balancer Management
         href: Operation-Guide/ALB-Instance-Management.md
-      - name: Listener Management
+      - name: Monitor Management
         href: Operation-Guide/Listener-Management.md
       - name: Backend Service Management
         href: Operation-Guide/Backend-Management.md
@@ -83,10 +83,10 @@
     href: FAQ/FAQ.md
   - name: API Reference
     href:
-    status:0      
+    status: 0      
   - name: SDK Reference
     href:
-    status:0      
+    status: 0      
   - name: User Agreement
     items:
     - name: Terms of Service

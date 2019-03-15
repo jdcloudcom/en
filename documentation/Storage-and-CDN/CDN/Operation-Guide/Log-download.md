@@ -32,7 +32,7 @@ Log in to [**CDN Console**](https://cdn-console.jdcloud.com/logmanage), select *
 
 - File naming: Domain name_date_starting time
 
-- Save time: Log files can be saved for up to 2 weeks
+- Save time: Log files can be saved for up to 3 months
 
 - Log latency: The log file has 1 hour latency; the log file 1 hour ago can be queried in the log management module.
 
@@ -40,6 +40,4 @@ Log in to [**CDN Console**](https://cdn-console.jdcloud.com/logmanage), select *
 
   A list of logs displayed in daily granularity, with a single file having 1 day interval (where the log of the day is less than 1 day, select the time period from the earliest started log of the day to the latest ended log).
 
-- Query scope: Query by hour can only query the logs within the previous 3 days till the current time. For example, the current time is January 5 10:35:35, and query by hour can only query the logs from January 2 0:00 to January 5 10 o’clock (hour log can be queried after each XX:30);
-
-  Query by day can query the logs within the previous 30 days till the current day.
+- Query scope: Query by hour can only query the logs within the previous 3 days till the current time. For example, the current time is January 5 10:35:35, and query by hour can only query the logs from January 2 0:00 to January 5 10 o’clock (hour log can be queried after each XX:30); and query by day can only query logs of last 30 days.

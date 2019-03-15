@@ -33,25 +33,12 @@
 
   3) Daily peak bandwidth of the business: Please estimate the daily peak bandwidth. For large file download and video file acceleration business, please fill in the file size information, so that we can reasonably allocate resources for you.
 
-   4) Back-to-source mode: Please select IP back-to-source, domain name back-to-source or OSS back-to-source according to actual needs, fill in the origin server IP address and origin server domain name, and select the bucket information of OSS. JD Cloud CDN supports multi-IP load balancer back-to-source, and multi-IP, multi-domain name backup back-to-source, please fill in the back-to-source configuration according to actual needs.
+  4) Back-to-source mode: Please select IP back-to-source, domain name back-to-source or OSS back-to-source according to actual needs, fill in the origin server IP address and origin server domain name, and select the bucket information of OSS. JD Cloud CDN supports multi-IP load balancer back-to-source, and multi-IP, multi-domain name backup back-to-source, please fill in the back-to-source configuration according to actual needs.
 
   ![image.png](https://img1.jcloudcs.com/cms/592cae81-fc1b-43ed-889a-9ebc26d73ab720180423141227.png)   
 
-  **Step 3: Complete Domain Name Verification Audit**
 
-  1. The newly added domain name will be displayed as “to be verified” status. Please click “Go to verify” at the far right of the domain name to complete the domain name verification and audit action;     
-
-  ![image.png](https://img1.jcloudcs.com/cms/eef505c1-aec4-4b58-8a03-541cfafab01820180423141306.png)
-
-  2. The system will automatically audit whether the domain name has been filed with the communications administration. JD Cloud does not provide CDN acceleration service to domain names not filed;
-
-  3. After completing the domain name verification, the domain name will be displayed as “auditing” status. For the domain name auditing task submitted between 9 to 21 each day, we will complete the manual auditing of the compliance of the domain name content within 2 hours;
-
-  ![image.png](https://img1.jcloudcs.com/cms/e850171d-8d27-4ed2-8eca-0de0f5f1a09320180423141412.png)
-
-  4. The domain name of which the compliance has been approved will be displayed as “stopped” status. Please complete the CNAME binding before enabling the service.
-
-  **Step 4: Bind CNAME**
+  **Step 3: Bind CNAME**
 
   1. Enter the **domain name list** page in the CDN customer console, and replicate the CNAME of the approved domain name;
 
@@ -71,11 +58,9 @@
 
   3. Modifying the DNS server requires 0-72 hours of global effective time; if you find that some local records have not taken effect, and the time since modifying DNS is less than 72 hours, please be patient and wait.
 
-  **Step 5: Enable CDN Service**
+  **Step 4: Enable CDN Service**
 
-  After completing the CNAME binding, you can click on "Run" following the domain name to start the CDN service.
-
-  After starting the action, the service will take effect in 15 minutes.
+  Service configuration will take effect 15 minutes after passing the domain audit.
 
   When performing the switching action, it is recommended to switch the small traffic domain name first, then switch the large traffic domain name; operate cautiously to avoid human error.
 

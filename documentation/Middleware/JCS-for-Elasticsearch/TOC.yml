@@ -62,7 +62,7 @@
         - name: Delete Snapshot
           href: Operation-Guide/deletesnapshot.md 
       - name: Kibana
-        href: Operation-Guide/Kibana.md   
+        href: Operation-Guide/Kibana.md 
       - name: Monitor Cluster
         items: 
         - name: View Monitoring Information
