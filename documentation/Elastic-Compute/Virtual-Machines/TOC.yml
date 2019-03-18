@@ -227,9 +227,9 @@ items:
         href: Best-Practices/Storage.md
       - name: Backup and Recovery
         href: Best-Practices/Backup-and-Restore.md
-      - name: Linux Operation and Maintenance Guide
+  - name: Linux Operation and Maintenance Guide
     items:
-         - name: Linux Environment Configuration
+     - name: Linux Environment Configuration
        items:
           - name: Installation and Configuration of FTP Service
             href: Linux-Troubleshooting/Configuration-Class/FTP-service-installation-and-configuration.md
@@ -271,7 +271,7 @@ items:
             href: Linux-Troubleshooting/Configure-boot-automatically/Ubuntu-12-04-14-04-system.md
           - name: Ubuntu 16.04 System
             href: Linux-Troubleshooting/Configure-boot-automatically/Ubuntu-16-04-system.md
-         - name: Linux Faults
+     - name: Linux Faults
        items:
           - name: Solution for Failure to Obtain Private IP After Creation of Virtual Machines Using centos Private Image.
             href: Linux-Troubleshooting/Fault-Class/Cannot-creating-a-cloud-host-using-centos-private-image.md
@@ -345,9 +345,9 @@ items:
             href: Linux-Troubleshooting/Fault-Class/SSH-service-start-error-bind-any-address.md
           - name: Method to Automatically Restore Ubuntu System after DNS Modification and Restarting
             href: Linux-Troubleshooting/Fault-Class/Ubuntu-system-recovery-method.md
-      - name: Windows Operation and Maintenance Guide
+  - name: Windows Operation and Maintenance Guide
     items:
-           - name: Windows Environment Configuration
+       - name: Windows Environment Configuration
          items:
           - name: Configure https for iis Service in Windows 2008
             href: Windows-Troubleshooting/Configuration-Class/Windows-2008-iis-service-configuration-https.md
@@ -427,7 +427,7 @@ items:
             href: Windows-Troubleshooting/Configuration-Class/Windows2012-set-remote-desktop-does-not-disconnect.md
           - name: Windows 2012 NETFramework3.5 Installation Method
             href: Windows-Troubleshooting/Configuration-Class/Windows2012-system-installation-NETFramework3.5-installation-method.md
-      - name: Windows Startup at Boot
+  - name: Windows Startup at Boot
     items:
           - name: Windows System
             href: Windows-Troubleshooting/Configure-boot-automatically/Windows-system.md

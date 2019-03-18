@@ -20,7 +20,7 @@ items:
 - name: Pricing
   items:
     - name: Billing Overview
-      href: Pricing/Pricing.md
+      href: Pricing/Billing-Overview.md
     - name: Billing Rules
       href: Pricing/Billing-Rules.md
     - name: Price Overview
@@ -71,7 +71,7 @@ items:
       href: Best-Practices/Push-with-the-OBS-tool.md
 - name: Tutorial
   items:
-  status:0
+  status: 0
 - name: Troubleshooting
   items:
     - name: Push connection failed

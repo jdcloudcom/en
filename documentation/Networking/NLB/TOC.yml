@@ -86,9 +86,9 @@
   - name: FAQ
     href: FAQ/FAQ.md
   - name: API Reference
-    status:0      
+    status: 0      
   - name: SDK Reference
-    status:0      
+    status: 0      
   - name: User Agreement
     items:
     - name: Terms of Service

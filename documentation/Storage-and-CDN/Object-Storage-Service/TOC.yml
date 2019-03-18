@@ -76,7 +76,7 @@ items:
           - name: Create Folder
             href: Operation-Guide/Manage-Object/Create-Folder.md
           - name: Search Object
-            href: Operation-Guide/Manage-Object/Search-Object.md	
+            href: Operation-Guide/Manage-Object/Search-Object.md
           - name: Get Object URL
             href: Operation-Guide/Manage-Object/Get-Object-URL.md
           - name: Delete Object
@@ -110,7 +110,7 @@ items:
           - name: Image Cropping
             href: Operation-Guide/Image-Service-Guide/Crop-Images.md 
           - name: Format Conversion
-            href: Operation-Guide/Image-Service-Guide/Convert-Format.md	
+            href: Operation-Guide/Image-Service-Guide/Convert-Format.md
           - name: Image Watermark
             href: Operation-Guide/Image-Service-Guide/Add-Image-Watermarks.md 
           - name: Text Watermark
@@ -334,9 +334,9 @@ items:
        - name: Compatible to S3  SDK-Go
          href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-Go.md            
        - name: Compatible S3  SDK-PHP
-         href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-PHP.md
+         href:  API-Reference-S3-Compatible/Compatibility-Tools/SDK-PHP.md
        - name: Compatible S3  SDK-Android
-         href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-Android.md
+         href:  API-Reference-S3-Compatible/Compatibility-Tools/SDK-Android.md
        - name: Compatible S3  SDK-iOS
          href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-iOS.md      
        - name: Compatible S3 SDK-.NET
