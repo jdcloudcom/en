@@ -841,5 +841,40 @@
 		"name":"拜年",
 		"id":"1053",
 		"backgroud_image":"//img1.jcloudcs.com/cms/ce2064ff-03be-46b7-8fd2-9fc580c5d5e020190128205850.png"
+	},
+	{
+		"sub_title":"高速云缓存，4.0版免费试用",
+		"image_Url":"//img1.jcloudcs.com/cms/92492d9d-6e48-4b0b-9969-6a8f7adb259920190307173413.jpg",
+		"dynamic_image":"//img1.jcloudcs.com/cms/8710ece3-bfda-4687-9772-3122a2e8cb7420190307173424.png",
+		"name":"云缓存Redis 4.0",
+		"id":"1059",
+		"button_title":"立即申请",
+		"main_title":"云缓存 Redis 4.0版 开放公测"
+	},
+	{
+		"sub_title":"搭载NVIDIA Tesla V100 GPU",
+		"image_Url":"//img1.jcloudcs.com/cms/3fd362d5-ee2f-4691-8445-0c18440c20d020190308115634.jpg",
+		"dynamic_image":"//img1.jcloudcs.com/cms/2d3c432b-466e-4ad5-a51b-a170124bc28c20190308115653.png",
+		"name":"高性能GPU云物理服务器",
+		"id":"1060",
+		"button_title":"立即申请",
+		"main_title":"高性能 GPU 云物理服务器 正式发布"
+	},
+	{
+		"sub_title":"让负载均衡不再是网络瓶颈",
+		"image_Url":"//img1.jcloudcs.com/cms/4bd97778-bc8b-4351-8cb8-d6eabf97d2bb20190308145337.jpg",
+		"dynamic_image":"//img1.jcloudcs.com/cms/01c10e81-febb-4421-8606-da083662117d20190311090939.png",
+		"name":"分布式网络负载均衡",
+		"id":"1061",
+		"button_title":"立即申请",
+		"main_title":"最新发布 分布式网络负载均衡"
+	},
+	{
+		"sub_title":"我的世界",
+		"image_Url":"//img1.jcloudcs.com/cms/831d90fd-e099-4bb3-9162-81f6a0b445c520190308173810.jpg",
+		"name":"我的世界",
+		"id":"1065",
+		"main_title":"我的世界",
+		"backgroud_image":"//img1.jcloudcs.com/cms/979c9865-d542-40ba-ad31-1b917d3e55ed20190308173818.png"
 	}
 ]
