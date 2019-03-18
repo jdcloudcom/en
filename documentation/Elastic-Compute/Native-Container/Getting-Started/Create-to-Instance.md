@@ -27,7 +27,7 @@ To select other instance, please select the rules for replacement instance to se
  7. Storage: JD Cloud provides the cloud disk as the system disk and the data disk of the container, the cloud disk uses the one disk multi-standby distributed storage method with high data reliability.                
 System disk: Currently only SSD cloud disks are supported with a capacity range of 10-100G; the system disk file system format supports xfs or ext4, to format the container's system disk according to the selected file system format when creating the container; the mounting directory of the system disk is the root directory "/" which cannot be modified; currently the system disk must be deleted with the container;    
 Data Disk: Support to attach seven data disks. Only associated data disk is supports when creating.      
-  - In cn-north-1, cn-south-1: supporting range of Premium Hdd Cloud Disk is 20G~3,000G; supporting range of SSD Cloud Disk is 20G~1,000G;  
+  - In cn-north-1, cn-south-1: supporting range of Premium Hdd Cloud Disk is 20G ~ 3,000G; supporting range of SSD Cloud Disk is 20G ~ 1,000G;  
   - In cn-east-2: supporting range of general SSD Cloud Disk, performance-oriented SSD Cloud Disk and capacity-oriented HDD Cloud Disk is 20G~4,000G;  
   The Cloud Disk Service cost is independent from that of the instance. For products and prices, see [Cloud Disk Service](https://docs.jdcloud.com/en/cloud-disk-service/product-overview) for details   
  8. Select network  
