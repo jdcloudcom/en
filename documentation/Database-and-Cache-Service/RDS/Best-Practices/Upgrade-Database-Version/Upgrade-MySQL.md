@@ -1,5 +1,5 @@
 # Upgrade JCS for MySQL Version
-Here is the descriptions on how to upgrade the JCS for MySQL version to a higher version JCS for MySQL. Take the upgrade of JCS for MySQL 5.7 to MySQL 8.0 for example as below.
+Here is the descriptions on how to upgrade the JCS for MySQL from a lower version to a higher version JCS for MySQL. Take the upgrade of JCS for MySQL 5.7 to MySQL 8.0 for example as below.
 
 ## Note
 * Please ensure the installation of the client of MySQL 8.0. 

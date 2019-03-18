@@ -13,13 +13,15 @@
 | JDCLOUD::VM::AttachDisk | Instances to Attach Existing Hard Disks to Operation | 
 | JDCLOUD::VPC::VPC | CreateVPC |
 | JDCLOUD::VPC::Subnet | Create a subnet in VPC | 
-| JDCLOUD::VPC::EIP | Assign a public networkIP |
-| JDCLOUD::VPC::AssociateEIP | Load Balancer. The Virtual Machine and the Load Balancer are supported currently.|
-| JDCLOUD::LB::LoadBalancer | Create Load Balancer |
-| JDCLOUD::LB::Listener | Create listening |
-| JDCLOUD::LB::TargetGroup | Create a target group |
-| JDCLOUD::LB::RegisterTargets | Add instances in a target group |
-| JDCLOUD::LB::Backend | Create the backend service | 
+| JDCLOUD::VPC::SecurityGroup | Security Group |
+| JDCLOUD::VPC::AssociateSecurityGroup | Associate Security Group | 
+| JDCLOUD::VPC::ElasticIp | Elastic IP |
+| JDCLOUD::VPC::AssociateElasticIp | Relate Elastic IP Address to Instance|
+| JDCLOUD::LoadBalance::LoadBalancer | Create Load Balancer |
+| JDCLOUD::LoadBalance::Listener | Create listening |
+| JDCLOUD::LoadBalance::TargetGroup | Create a target group |
+| JDCLOUD::LoadBalance::Backend | Create the backend service | 
+| JDCLOUD::LoadBalance::RegisterTargets| Instance Registered to LB |
 | JDCLOUD::RDS::DBInstance | Create a cloud database instance |
 
 　　Table 1 Resource type supported by the Resource Orchestration service 

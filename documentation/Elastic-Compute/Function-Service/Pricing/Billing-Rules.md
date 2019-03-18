@@ -1,6 +1,8 @@
 # Billing Rules
 
 
+
+
 ## Cost of number of invokes 
 
 The number of invokes is the total number of requests for all functions
@@ -32,7 +34,7 @@ The public network traffic cost = unit price of public network traffic * public 
 
 The unit price of public network traffic: RMB 0.80/GB
 
-For the public network traffic cost, please refer to public network traffic billing of JD Cloud Virtual Machines
+For the public network traffic cost, please refer to public network traffic billing of JD Cloud Virtual Machines.
 
  
 

@@ -135,7 +135,6 @@
               href: Operation-Guide/Backup/Backup-Download/Percona-Backup-Download.md
             - name: JCS for MariaDB Backup Download
               href: Operation-Guide/Backup/Backup-Download/MariaDB-Backup-Download.md
-              status: 0
             - name: JCS for SQL Server Backup Download
               href: Operation-Guide/Backup/Backup-Download/SQLServer-Backup-Download.md
           - name: Backup Replace and Recovery

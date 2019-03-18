@@ -12,7 +12,7 @@ This text will introduce the purchase entrance of the Application Load Balancer 
 
 ![ALB-buy](../../../../image/Networking/ALB/ALB-012.png)
 
-4. Refer to [Create Instance](../../../../documentation/Networking/ALB/Getting-Started/Create-ALB-Instance.md) for the specific purchase actions.
+4. Refer to [Create Instance](../Operation-Guide/Create-ALB-Instance.md) for the specific purchase actions.
 
 ## Entrance 2: [LB Console](https://console.jdcloud.com/host/loadBalance/list)
 
@@ -21,4 +21,4 @@ This text will introduce the purchase entrance of the Application Load Balancer 
 
 ![控制台](../../../../image/Networking/ALB/console-buy.png)
 
-3. Login to the console, refer to [Create Instance](../../../../documentation/Networking/ALB/Getting-Started/Create-ALB-Instance.md)for specific actions.
+3. Login to the console, refer to [Create Instance](../Operation-Guide/Create-ALB-Instance.md) for specific actions.

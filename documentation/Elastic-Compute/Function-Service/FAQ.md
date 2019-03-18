@@ -72,9 +72,9 @@ Execution of synchronization calls to a function must be completed within 300 se
 
 **8. What to do if the function runs longer than its maximum time-out period?**
 
-The maximum running time of the function is 5min, so it is recommended that you split the large function into several small functions to run independently.
+The maximum running time of the function is 300 seconds, so it is recommended that you split the large function into several small functions to run independently.
 
  
 **9. I have five functions, and all of them use the same common library. Can I upload only one public library code and make these functions share the same library code?**
 
-Different functions have varied loads, tps 50000 and 100 functions must have different scaling requirements to resources. Therefore, the resource scaling of each function in function calculation is performed independently, and the code packages between functions are independent and cannot be shared.
+The resource scaling of each function in function service is performed independently, and the code packages between functions are independent and cannot be shared.

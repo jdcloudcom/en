@@ -3,9 +3,9 @@
 You shall pay attention to some constraint conditions in use of Anti-DDoS Protection Package.
 
 ## Capability limit of package
-At present, only support IP protection in cn-north-1 and cn-east-2;
+At present, only support IP protection in cn-north-1, cn-east-2 and cn-east-1;
 
-The maximum protection capability of North China is 50G, and the East China is 30G;
+The maximum protection capability of North China is 50G, the East China is 30G and Suqian is 10G;
 
 Protection is provided only for the users with Public IP in JD Cloud, such as virtual machine, load balancer;
 
@@ -29,6 +29,6 @@ Elastic protection is not charged when the package is purchased. However, the pa
 
 ## Related References
 
-- [Product Overview](../Introduction/Overview.md)
+- [Product Overview](../Product-Introduction/Overview.md)
 - [Price overview](../Pricing/Price-Overview.md)
 - [Create instance](../Getting-Started/Create-Instance.md)

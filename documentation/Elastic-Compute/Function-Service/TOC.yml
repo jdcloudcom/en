@@ -103,6 +103,8 @@ items:
     items:
        - name: Document Release History
          href: related-resources/Document-History.md   
+       - name: Service Terms
+         href: related-resources/Product-Service-Agreement.md
   - name: API Reference
     status: 0
     href:

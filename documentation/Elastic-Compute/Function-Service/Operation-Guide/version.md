@@ -3,17 +3,17 @@
 ## Function Version and Alias
 
  
-Function Service provides function version management for users to manage function code in development, testing, and production environments. With Function version control, you can release one or more versions of Function so that different versions of Function can be used in different phases or environments.
-
+Function Service provides function version management function for users to manage function code in development, testing, and production environments, and to satisfy continuous iterations in the software development cycle. With Function version control, you can release one or more versions of Function so that different versions of Function can be used in different phases or environments.
  
-
-Function also supports creating aliases for each version of the function, which are pointers to a particular version of Function. You can roll back to any previous version of Function with the alias.
+Function also supports creating aliases for the function, which are pointers to a particular version of Function. You can roll back to any previous version of Function with the alias.
 
  
 
 ## Management of Version
 
-The default version of Function Creation is LATEST version, and each function has a LATEST version. When the function code is stable, release operation can be done, once released, changes to information (including metadata and function code) of that version are not allowed.
+The default version of Function Creation is LATEST version, and each function has a LATEST version. When the function code is stable, release operation can be done, changes of the released version are not allowed.
+
+Suggestion: You can use the function version service for on-line requests that is released after tested stable, and continue to develop tests on the LATEST version to ensure smooth running of the business.
 
 ### Release Version
 
@@ -78,8 +78,6 @@ Table 2: Function Alias Configuration Information Table
 
 
 **Note:**
-
-The "Create Alias" page pops up, notifying "Release Successfully" to indicate that the alias has been created successfully.
 
 A maximum of 10 aliases can be created under single function.
  

@@ -27,6 +27,8 @@
         href: Pricing/Purchase-Process.md
   - name: Getting Started
     items:
+      - name: Version Description
+        href: Getting-Started/Version-Notes.md
       - name: Create Clusters
         href: Getting-Started/Create-to-Cluster.md
       - name: Connect Clusters
@@ -53,6 +55,8 @@
             href: Operation-Guide/NodeGroup/Telescopic-NodeGroup.md
           - name: Delete Working Node Group
             href: Operation-Guide/NodeGroup/Delete-NodeGroup.md
+          - name: Set Automatic Repair
+            href: Operation-Guide/NodeGroup/Auto-Repair.md
       - name: Cluster Dashboard
         items:
           - name: Dashboard

@@ -13,7 +13,7 @@ Multiple RDS service instance indexes can be viewed on the console. Through the 
 |---|---|---|--|
 |CPU Utilization|CPU Usage Rate of Instances|60 sec/time|30 Days|
 |Memory Usage Rate|Instance Memory Usage Rate|60 sec/time|30 Days|
-|Disk Usage| The amount of disk space used by the instance, including total disk space, data space, log space, temporary file space and system file space. Unit: GByte|60 sec/time|30 Days|
+|Hard disk usage | The amount of disk space used by the instance, including total disk space usage, user data usage, system data usage, and log file usage. Unit: MByte|60 seconds/time|30 days|
 |Incoming Network Traffic|Unit: Kbps|60 sec/Time|30 Days|
 |Outgoing Network Traffic|Unit: Kbps|60 sec/Time|30 Days|
 |Network Traffic|Incoming and Outgoing Traffic of Instances per Second. Unit: Kbps|60 sec/time|30 Days|
@@ -37,7 +37,7 @@ Multiple RDS service instance indexes can be viewed on the console. Through the 
 |---|---|---|--|
 |CPU Utilization|CPU Usage Rate of Instances|60 sec/time|30 Days|
 |Memory Usage Rate|Instance Memory Usage Rate|60 sec/time|30 Days|
-|Disk Usage| The amount of disk space used by the instance, including total disk space, data space, log space, temporary file space and system file space. Unit: GByte|60 sec/time|30 Days|
+|Disk Usage|The amount of disk space used by the instance, including total hard disk space usage, user data usage, system data usage, and log file usage. Unit: MByte|60 seconds/time|30 days|
 |Incoming Network Traffic|Unit: Kbps|60 sec/Time|30 Days|
 |Outgoing Network Traffic|Unit: Kbps|60 sec/Time|30 Days|
 |Network Traffic|Incoming and Outgoing Traffic of Instances per Second. Unit: Kbps|60 sec/time|30 Days|
@@ -61,7 +61,7 @@ Multiple RDS service instance indexes can be viewed on the console. Through the 
 |---|---|---|--|
 |CPU Utilization|CPU Usage Rate of Instances|60 sec/time|30 Days|
 |Memory Usage Rate|Instance Memory Usage Rate|60 sec/time|30 Days|
-|Disk Usage| The amount of disk space used by the instance, including total disk space, data space, log space, temporary file space and system file space. Unit: GByte|60 sec/time|30 Days|
+|Disk Usage|The amount of disk space used by the instance, including total hard disk space usage, user data usage, system data usage, and log file usage. Unit: MByte|60 seconds/time|30 days|
 |Incoming Network Traffic|Unit: Kbps|60 sec/Time|30 Days|
 |Outgoing Network Traffic|Unit: Kbps|60 sec/Time|30 Days|
 |Network Traffic|Incoming and Outgoing Traffic of Instances per Second. Unit: Kbps|60 sec/time|30 Days|

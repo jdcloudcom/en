@@ -12,7 +12,7 @@
 |  Restriction on identify of Native Container user created  | User shall complete real-name verification| No exceptions|
 |  Restriction on money in Native Container account created   |Create pay by configuration container which charge according to settings with remaining sum in account balance more than 50 yuan| [Ticket](https://ticket.jdcloud.com/myorder/form?cateId=1&questionId=251) |
 |Native Container instance quota in a single region  | 5 sets | [Ticket](https://ticket.jdcloud.com/myorder/form?cateId=1&questionId=251) |
-|Cloud disk service quota in a single region    |  15 sets   | [Ticket](https://ticket.jdcloud.com/myorder/form?cateId=1&questionId=251)     |
+|Cloud disk service quota in a single region    |  15 sets   | [Ticket](https://ticket.jdcloud.com/myorder/submit?cateId=1&questionId=251)     |
 |Cloud disk snapshot service in a single region     |  15 sets   | [Ticket](https://ticket.jdcloud.com/myorder/form?cateId=1&questionId=251)   |
 |Security group quota in a single VPC     |  15   | [Ticket](https://ticket.jdcloud.com/myorder/form?cateId=1&questionId=251)     |
 | Quota of public IP in a single region     |  10  | [Ticket](https://ticket.jdcloud.com/myorder/form?cateId=1&questionId=251)     |

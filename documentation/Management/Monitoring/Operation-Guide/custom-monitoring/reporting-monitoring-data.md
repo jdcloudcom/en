@@ -73,6 +73,8 @@ Name | Type
 
 ### Sample Code
 
+Note: When using this example directly, please replace the timestamp parameter with the latest 10-bit second-level time stamp, otherwise it will fail to write (the written time stamp is not allowed to exceed the data of the past 30 days).  
+
 Request Sample
 ```
 {
@@ -82,9 +84,9 @@ Request Sample
 			"metric": "vm.mem.usage1",
 			"dimensions": {
 				"host": "1.2.3.23",
-				"datacenter": "cn-north-1 "
+				"datacenter": "cn-north-1"
 			},
-			"timestamp": 15305424971,
+			"timestamp": 1552446075,
 			"type": 1,
 			"values": {
 				"value": "12342213"
@@ -98,7 +100,7 @@ Request Sample
 				"host": "1.2.3.19",
 				"tag": "bj"
 			},
-			"timestamp": 1530542497,
+			"timestamp": 1552446075,
 			"type": 2,
 			"values": {
 				"avg": "80",
