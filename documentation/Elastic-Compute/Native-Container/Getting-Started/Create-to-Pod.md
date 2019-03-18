@@ -13,7 +13,7 @@ Before creating native container Pod, you need to finish the following steps
 &#160; &#160; **Description**: it only supports cn-north-1, cn-east-2, cn-south-1 regions, among which cn-north-1 and cn-east-2 can provide two available zones of Availability Zone A and Availability Zone B.    
  3. Select billing model: monthly package and pay by configuration; as for monthly package, pay monthly to purchase resource and as for pay by configuration, billing is made as per the length of time actually used (accurate to seconds). Regarding the difference between the two billing methods, please refer to the [Billing Rules][2];   
  4. Selection of region and availability zone: In this step, you can still select the regions and the availability zones corresponding to the Pod. Please note that “The resource intranet in different regions is not interlinked, and cannot be changed after creation", if the selected region quota is full, the quota can be increased by opening ticket.  
- ![](https://github.com/jdcloudcom/cn/blob/edit/image/Native-Container/Podregion.png)  
+ ![](https://github.com/jdcloudcom/cn/blob/edit/image/Native-Container/podregion.png)  
  5. Select specification  
 	* Configure of JD Cloud native container Pod supports user customized selection: It provides 1 core 1G to 72 cores 576G. It also provides four types of general type, compute optimized type, memory optimized type and high frequency compute type, which users can select instance specifications and corresponding configurations according to different scenarios. See [Instance configuration recommendations] for details [3];  
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Native-Container/Podtype.png) 
