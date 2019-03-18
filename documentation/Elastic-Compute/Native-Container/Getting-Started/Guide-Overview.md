@@ -42,7 +42,7 @@ Go to the real-name verification page to select the individual or corporate auth
 
 5. Create Subnet: Support create multiple subnets simultaneously; enter subnet name, subnet CIDR, route table associated, description and other information.
 
-6. CIDR of the subnet can only be intranet segment with optional range of 10.0.0.0 (mask16~28), 172.16.0.0~172.31.0.0 (mask16~28), 192.168.0.0 (mask16~28).
+6. CIDR of the subnet can only be intranet segment with optional range of 10.0.0.0 (mask 16 ~ 28), 172.16.0.0 ~ 172.31.0.0 (mask 16 ~ 28), 192.168.0.0 (mask 16 ~ 28).
 
 7. There can not be overlap between CIDRs of multiple subnets; if belonging VPC has preset CIDR, then the CIDR of subnet shall not exceed the border of VPC.
 
