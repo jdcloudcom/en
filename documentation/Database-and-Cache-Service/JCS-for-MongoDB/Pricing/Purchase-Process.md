@@ -12,7 +12,7 @@ This paper introduces the purchase entries of MongoDB.
 
     ![MongoDB-buy](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/product-buy.png)
 
-4. For specific purchase operation, refer to [Create Instance](../../Getting-Started/Create-Instance.md).
+4. For specific purchase operation, refer to [Create Instance](../Getting-Started/Create-Instance.md).
 
 ## Entry 2: [MongoDB Console](https://mongodb-console.jdcloud.com/mongodb)
 
