@@ -4,5 +4,5 @@ Coupon activation entrance is in the coupon management page
 
 Enter correct coupon code
 
-![2](https://github.com/jdcloudcom/en/blob/en-signin-signup/image/Coupon-Manage/activate-coupon-e-2.png)
+![2](https://github.com/jdcloudcom/en/blob/20190319-limeijuan/image/Finance/coupon/activate-coupon-e-2.png)
 
