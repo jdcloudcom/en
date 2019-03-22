@@ -23,7 +23,7 @@ Go to the real-name verification page to select the individual or corporate auth
 
 4 Set name for VPC: Name can not be empty, which only supports Chinese text, numbers, uppercase and lowercase letters, English text with underline “_” and hyphen “-”, and should exceed 32 characters.
 
-5. Set CIDR for VPC: Set up the border of VPC. CIDR shall only be the intranet segments, with choices ranging from 10.0.0.0 (mask 16-28), 172.16.0.0~172.31.0.0 (mask 16-28), to 192.168.0.0 (mask 16-28). CIDR can also be the non-preset type. In this case, the VPC border will operate in auto scaling with the applied subnet segments. Users with good understanding of network knowledge are recommended for VPC of non-preset CIDR type.
+5. Set CIDR for VPC: Set up the border of VPC. CIDR shall only be the intranet segments, with choices ranging from 10.0.0.0 (mask 16 ~ 28), 172.16.0.0 ~ 172.31.0.0 (mask 16 ~ 28), to 192.168.0.0 (mask 16 ~ 28). CIDR can also be the non-preset type. In this case, the VPC border will operate in auto scaling with the applied subnet segments. Users with good understanding of network knowledge are recommended for VPC of non-preset CIDR type.
 
 6. Set VPC description: The description can be blank, only supports Chinese, numbers, uppercase and lowercase letters, English underscore “_”, and cannot exceed 256 characters;
 

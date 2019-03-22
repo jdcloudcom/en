@@ -17,7 +17,7 @@ The MongoDB console provides the function to create instance based on backup, al
     ![](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-022.png)
 
 	
-1. On the page for creating instance based on backup, select the billing type and instance type configuration to complete the instance creation. The creation process is the same as [Create Instance](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Getting-Started/CreateInstance.md).
+1. On the page for creating instance based on backup, select the billing type and instance type configuration to complete the instance creation. The creation process is the same as [Create Instance](../../Getting-Started/Create-Instance.md) .
 
     Note: The region is the same as that of the source instance and cannot be modified.
 

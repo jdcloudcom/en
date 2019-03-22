@@ -11,5 +11,5 @@ It is recommended to obtain missing indexes according to the Microsoft system in
 
 The usage mode of each column is as follows: create index <index name> on <table name>(<equal column>,<unequal column>) include(<included column>), with the column of high selectivity placed before
 
-See the detailed use and limits of missing index information in [Microsoft Official Document](https://docs.microsoft.com/zh-cn/previous-versions/sql/sql-server-2008/ms345417(v%3dsql.100)).
+See the detailed use and limits of missing index information in [Microsoft Official Document](https://docs.microsoft.com/zh-cn/previous-versions/sql/sql-server-2008/ms345417\(v%3dsql.100\)).
 

@@ -4,7 +4,7 @@ This document will introduce the important update history of the network load ba
 
 |Release Date|Character|Description|
 |-|-|-|
-|August 2018|Public beta| Network load balancer (public beta) goes online. |
+|March 2019|Public beta| Network load balancer (public beta) goes online. |
 
 
 ## Relevant References
@@ -12,7 +12,7 @@ This document will introduce the important update history of the network load ba
 - [Product overview](../Introduction/Overview.md)
 - [Core concept](../Introduction/Core-Concepts.md)
 - [Product advantage](../Introduction/Benefits.md)
-- [Product function](../Introduction/Functions.md)
+- [Product function](../Introduction/Features.md)
 - [Price overview](../Pricing/Price-Overview.md)
 - [Billing rules](../Pricing/Billing-Rules.md)
 - [Create network load balancer instance](../Getting-Started/Create-Instance.md)

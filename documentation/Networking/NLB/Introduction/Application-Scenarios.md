@@ -22,7 +22,7 @@ With the development of and the increasingly mature Internet of Things, more and
 ## Relevant References
 
 - [Product advantage](../Introduction/Benefits.md)
-- [Product function](../Introduction/Functions.md)
+- [Product function](../Introduction/Features.md)
 - [Price overview](../Pricing/Price-Overview.md)
 - [Billing rules](../Pricing/Billing-Rules.md)
 - [Create Instance](../Getting-Started/Create-Instance.md) for specific actions.

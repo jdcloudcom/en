@@ -31,7 +31,7 @@ In addition, you can also perform the assignment from the ENI console. For detai
 
 CentOS 7.2 is used as an example for the Linux system and the detailed operation is as follows:
 
-1. Log in to the instance. For details, please refer to [Login Linux Instance](../../Getting-Start-Linux/Connect-To-Instance.md)
+1. Log in to the instance. For details, please refer to [Login Linux Instance](../../Getting-Start-Linux/Connect-to-Linux-Instance.md)
 
 2. In the example of the primary network interface, if it is a secondary network interface, the corresponding modifications are eth1, eth2, etc. Executing command 
 
@@ -100,7 +100,7 @@ CentOS 7.2 is used as an example for the Linux system and the detailed operation
 
 Windows Server 2012 R2 Standard edition [Chinese] is used as an example for Windows system. The detailed operation is as follows:
 
-1. Log in to the instance. For details, please refer to [Login Windows Instance](../../Getting-Start-Windows/Connect-To-Instance.md).
+1. Log in to the instance. For details, please refer to [Login Windows Instance](../../Getting-Start-Windows/Connect-to-Windows-Instance.md).
 
 	Example: If it needs to be configured in IP 192.168.2.43 (secondary IP) in subnet 192.168.2.0/24, the current primary private IP is IP 192.168.2.42.
 

@@ -46,7 +46,7 @@ Users can only select configurations not less than the actual size of the backup
 ## How many days are the automatic backup available now?
 Automatic backup is currently available for 7 days at least.
 
-## How to solve the problem that JD Cloud RDS instance is under creation for a long time and finally gets into an error state?
+## JD Cloud RDS instance is in the status of creating for a long time, how to resolve it
 If a network ACL is set for the subnet selected when the JD Cloud RDS is created, please ensure that DNS (UDP) rules are added into the outbound rules and accepted. Since the network ACL is stateless, please ensure that the inbound rules also allow the ALL UDP configurations. If the problem remains unresolved, please contact the customer service in work order form.
 
 ## How to modify parameters of JCS for MySQL service instance?

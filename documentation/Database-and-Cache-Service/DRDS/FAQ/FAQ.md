@@ -6,9 +6,9 @@ A: It supports database types of JCS for MySQL 5.6 and JCS for MySQL 5.7 and it 
 
 A: It supports field of numerical value and character string types during the close beta test and open beta test. It will add date field and support combination and split for 2 field in the future
 
-**3. Q: Does backend storage node of DRDS have number limit?**
+**3. Q: What is the maximum number of backend storage nodes of DRDS?**
 
-A: The number of backend storage node may be tens of thousands in theory and it is approximately unlimited
+A: DRDS can support thousands of storage nodes, which is able to meet the storage and processing needs of users' mass data to the maximum extent.
 
 **4. Q: Does DRDS support automatic backup?**
 
@@ -27,6 +27,8 @@ When the user creates the DRDS database in the name as the same as that of the o
 **7. Q: What are the reasons for failing to generate the expansion plan in horizontal expansion?**
 
 A: The reasons for failing to generate the expansion plan generally include
-  1. It fails because there is not enough new RDS space to migrate any sub-database.
-  2. The name of the database in the new RDS is same with that of the sub-database of DRDS in the original RDS, for example, there is a sub-database named testdb_drds_a149_1 in the RDS and there is also a database named testdb_drds_a149_1 in the new RDS, in which case, it fails.
-  3. The RDS MySQL version is inconsistent. To guarantee stability, we require a consistent RDS MySQL version.
+1. It fails because there is not enough new RDS space to migrate any sub-database.
+
+2. The name of the database in the new RDS is same with that of the sub-database of DRDS in the original RDS, for example, there is a sub-database named testdb_drds_a149_1 in the RDS and there is also a database named testdb_drds_a149_1 in the new RDS, in which case, it fails.
+
+3. The RDS MySQL version is inconsistent. To guarantee stability, we require a consistent RDS MySQL version.

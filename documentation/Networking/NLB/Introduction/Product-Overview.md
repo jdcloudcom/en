@@ -22,28 +22,28 @@
 
 * Pay by consumption: In addition to the minimum resource retention fee, NLB charging is fully based on the actual user traffic, and provides the most economical and practical service usage for users.
 
+## Comparison between Application Load Balancer & Network Load Balancer & Distributed Network Load Balancer
 
-## Network Load Balancer & Application Load Balance
-
-Comparative items | Network Load Balancer| Application Load Balance |
-:---|:--- |---: |
-Performance	|Over 100 million concurrent connections and million-level new connections per second | million concurrent connections, and 10,000-level new connections per second |
-Service protocol layer|	four-layer |seven/ four-layer |
-Protocol type	|TCP/WebSocket |HTTP/HTTPS/TLS/WebSocket |
-Auto Scaling	| ✔ | 	✔ |
-High-availability deployment of multi-availability zones |	✔ |	✔ |
-Scheduling algorithm	| weighted round robin, weighted least connection number and source IP	 | weighted round robin, weighted least connection number and source IP
-SSL detaching and certificate management |	—— |	✔ |
-Idle connection timeout |	—— |	✔ |
-Health check for service instance | ✔ | ✔ |
-Source IP reservation	| three-layer packet source IP reservation |	HTTP header-based X-forward-for pass-through
-Session persistence	| TCP-based session persistence |	Cookie-based session persistence |
-Connection draining timeout (registration cancellation timeout) |	✔	| —— |
-Backend service Type |	 VM/ container/ availability group	| VM/ container/ availability group |
-Load balancer for multiple ends in the same instance | ✔	| ✔ |
-Internet and extranet load balancer switch	 | ✔ |	✔ |
-Deletion protection | ✔ | ✔ |
-Billing standard	 | relatively low rate (free during public beta) |	 relatively high rate (free during public beta)|
+| Comparison Item   |  Application Load Balancer | Network Load Balancer | Distributed Network Load Balancer |
+|:-----|  :---- | :---- | :---- |
+|Performance 	| Million Level Concurrent Connections and Hundreds of Thousands Level New Connections per Second | Hundreds of Million Level Concurrent Connections and Million Level New Connections per Second | No Forwarding Performance Bottle Neck |
+|Service Protocol Layer |   Lay-4/Lay-7 | Lay-4 (stateful)| Lay-4 (Stateless)|
+|Protocol Type	| HTTP, HTTPS, TLS and TCP | TCP | TCP |
+|WebSocket Support| ✔ | —— | —— |
+|Auto Scaling of Service Instance | ✔ | ✔ | ✔ |
+|High-availability deployment of multiple availability zones | ✔ | ✔ | All AZs |
+|Scheduling algorithm	| Weighted Round Robin, Weighting Least Connection Number and Source IP | Weighted Round Robin, Weighting Least Connection Number and Source IP | Weighted Source IP and Weighted Quintuple Form |
+|SSL Unloading and Certificate Management | ✔ | —— | —— |
+|Idle Connection Timeout | ✔ | ✔ | —— |
+|Source IP Reservation	| Pass-through based on X-forward-for mechanism of HTTP Header | Pass-through of Three-layer Packet Source IP | Source IP Pass-through of Three-layer Packet |
+|Session Persistence | Cookie-based Session Persistence  |  Session Persistence of TCP Connection | —— |
+|Connection Draining Overtime | Support connection draining only and do not support configuration time-out period |  ✔ | —— |
+|Instance Type Family of Backend Service | Virtual Machines/Native Container/Availability Group| Virtual Machines/Native Container/Availability Group | Virtual Machines/Native Container/Availability Group |
+|Health Check | HTTP/TCP | TCP | TCP |
+|Load Balancer for Multiple Ends in the Same Instance | ✔  | ✔ | —— |
+|Switch Between Intranet and Internet Load Balancer	 | ✔ |	✔ | ✔ |
+|Deletion Protection | ✔  | ✔ | ✔ |
+|Billing Standard	| Relatively-high Rate (Temporarily Free)| Relatively-low Rate (Temporarily Free) | Free |
 
 ## Common operation
 

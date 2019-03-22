@@ -2,7 +2,7 @@
 
 This document will introduce the purchase entrance of the network load balancer instance.
 
-## Entrance 1: [Product Introduction Page](https://www.jdcloud.com/products/nlb)
+## Entrance 1: [Product Introduction Page](https://www.jdcloud.com/en/products/load-balancer)
 1. Login to JD Cloud official website log in [https://www.jdcloud.com/](https://www.jdcloud.com/).
 2. Select “Product>Network>Network Load Balancer”, see the picture below for details.
 

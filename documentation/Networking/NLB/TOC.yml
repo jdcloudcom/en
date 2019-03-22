@@ -79,10 +79,6 @@
       href: Best-Practices/Distribute-service-to-vm-and-container-with-NLB.md
     - name: Deploy Auto Scaling Business on the Server by Network Load Balancer
       href: Best-Practices/AG-as-backend-server.md
-  - name: Troubleshooting
-    items:
-    - name: Network Load Balancer Business Access Failed?
-      href: Troubleshooting/Access-NLB-Service-Failed.md
   - name: FAQ
     href: FAQ/FAQ.md
   - name: API Reference

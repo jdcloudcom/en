@@ -1,6 +1,6 @@
 # Delete Database
 
-**1. Enter **Database Management** page**
+**1. Enter [Database Management] page**
 
 Click the instance name to enter Instance page, select **Database Management** page, click corresponding **Delete** after delete database**
 

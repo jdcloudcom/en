@@ -2,7 +2,7 @@
 
 A SQL Server instance needs read permission of backup files in the Object Storage Service, which file read permission can be added with the following method
 
-**Suggestion: We suggest you create a separated Object Storage Service for uploading backup files to be imported**
+**Suggestion: We suggest you create a separated Object Storage Service for uploading backup files to be imported, and grant read permission of the entire Bucket to the background system account**
 
 1. Create the bucket for storing files to be imported, e.g., database-bak
 2. Enter the Permission Setting page
@@ -17,3 +17,5 @@ Click **Enter the Bucket**, select **Space Setting**, **Add Customized Permissio
 - Click **OK** to save settings
 
 ![权限设置2](../../../../../../image/RDS/Grant-File-Privilege-2.png)
+
+**Note: Do not set any parameters in the “Static Website Hosting” page under “Space Settings” in this Bucket, or the reading of backup file may fail**

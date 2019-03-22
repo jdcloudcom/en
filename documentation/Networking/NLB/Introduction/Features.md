@@ -88,7 +88,7 @@ You can set alarm rules based on monitoring items. When the monitoring item reac
 ## Relevant References
 
 - [Product overview](../Introduction/Overview.md)
-- [Product specification](../Introduction/Specification.md)
+- [Product specification](../Introduction/Specifications.md)
 - [Price overview](../Pricing/Price-Overview.md)
 - [Create Instance](../Getting-Started/Create-Instance.md) for specific actions.
 - [Create virtual server group](../Operation-Guide/TargetGroup-Management.md)

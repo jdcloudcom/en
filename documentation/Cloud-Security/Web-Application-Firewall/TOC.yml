@@ -13,12 +13,12 @@ items:
         href: Introduction/Scene.md
 - name: Pricing
   items:
+    - name: Billing Overview
+      href: Pricing/Billing-Overview.md
+    - name: Price Description
+      href: Pricing/Price-Overview.md
     - name: Purchase Method
-      href: Pricing/Purchase-Method.md
-    - name: Purchase Process
       href: Pricing/Purchase-Process.md
-    - name: Price Overview
-      href: Pricing/Package-Details.md
 - name:  Quick Start
   items:
     - name: Add Preparation

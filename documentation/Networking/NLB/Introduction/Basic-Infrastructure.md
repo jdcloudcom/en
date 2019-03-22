@@ -115,7 +115,7 @@ Connection draining is a way for load balancer registration instances to gracefu
 ## Relevant References
 
 - [Product advantage](../Introduction/Benefits.md)
-- [Product function](../Introduction/Functions.md)
+- [Product function](../Introduction/Features.md)
 - [Price overview](../Pricing/Price-Overview.md)
 - [Billing rules](../Pricing/Billing-Rules.md)
 - [Create Instance](../Getting-Started/Create-Instance.md) for specific actions.

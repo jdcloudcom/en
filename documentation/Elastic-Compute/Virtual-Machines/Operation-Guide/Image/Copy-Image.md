@@ -4,7 +4,7 @@ When a cross-region and consistent business deployment needs to be conducted bas
 The image replication operation includes, first, it copies the cloud disk snapshot referenced by the image, and then supplements the related reference relationship and image metadata to generate a replica image.
 
 ## Precondition
-* The replication operation can only be supported by the private image with the type of "Cloud System Disk" and the status of "Available", If you want to replicate the "Local System Disk" private image, please convert it to the "Cloud System Disk" image through [Image Type Conversion](../Operation-Guide/Image/Convert-Image.md) first.
+* The replication operation can only be supported by the private image with the type of "Cloud System Disk" and the status of "Available", If you want to replicate the "Local System Disk" private image, please convert it to the "Cloud System Disk" image through [Image Type Conversion](Convert-Image.md) first.
 * You must ensure that the quotas in the target region are sufficient before the operation, because the replication operation will occupy the quota of the private image and the cloud disk snapshot in the target region.
 
 		Note:
@@ -30,7 +30,7 @@ The image replication operation includes, first, it copies the cloud disk snapsh
  
 ## Related Reference
  
-[Image Type Conversion](../Operation-Guide/Image/Convert-Image.md)
+[Image Type Conversion](Convert-Image.md)
 
 
   [1]: https://cns-console.jdcloud.com/host/image/list

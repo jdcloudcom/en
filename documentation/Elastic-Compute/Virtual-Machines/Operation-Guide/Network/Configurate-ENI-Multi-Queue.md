@@ -34,7 +34,7 @@ For the current status of various instance types for network interface multi-que
 For the CentOS 6 and Ubuntu systems, if you need to use multi-queue of network interface, you need to log in to instance for configuration after instance is created. The  default CentOS 7 system configuration is the maximum number of queues supported by the current instance type.
 Here, CentOS 6.9 is taken as an example to introduce the configuration steps.
 
-1. [Login Instance](../../Getting-Start-Linux/Connect-To-Instance.md).
+1. [Login Instance](../../Getting-Start-Linux/Connect-to-Linux-Instance.md).
 2. Check if the network interface supports multi-queues. Run the Command:
 	
 	`ethtool -l eth0`

@@ -19,26 +19,26 @@ DNLB has the following functions and features:
 
 ## Comparison between Distributed Network Load Balancer & Application Load Balancer
 
-| Comparative Items   | Distributed Network Load Balancer |  Application Load Balancer |
-|:-----|  :---- | :---- |
-|Performance 	| No Forwarding Performance Bottleneck | Million-class concurrent connection and creating tens of thousands of connections per second |
-|Service Protocol Layer |   Four-layer (Stateless) |	Four/Seven-layer|
-|Protocol Type	| TCP |HTTP, HTTPS, TLS and TCP |
-|WebSocket Support|——| 	✔ |
-|Auto Scaling of Service Instance	| ✔ | 	✔ |
-|Deployment of Multiple Availability Zones | All AZs |	✔ |
-|Scheduling Algorithm	| Weighted Source IP and Weighted 	Quintuple Form | Weighted Round Robin, Weighting Least Connection Number and Source IP |
-|Backend Service Instance Type Family |Virtual Machines and Native Container| Virtual Machines and Native Container |
-|Health Check | ✔ | ✔ |
-|Source IP Reservation	| Three-layer Packet Source IP Pass-through |	Pass-through of HTTP header-based X-forward-for System |
-|SSL Unloading and Certificate Management |—— |	✔ |
-|Idle Connection Timeout  | —— 	| ✔ |
-|Session Persistence	| ——  |	Cookie-based Session Persistence |
-|Availability Group | ✔ | ✔ |
-|Load Balancer for Multiple Ends in the Same Instance | —— | ✔ |
-|Switch Between Intranet and Internet Load Balancer	 | ✔ |	✔ |
-|Deletion Protection | ✔  | ✔ |
-|Billing Standard	| Free | Relatively-high Rate (Temporarily Free)|
+| Comparison Item   |  Application Load Balancer | Network Load Balancer | Distributed Network Load Balancer |
+|:-----|  :---- | :---- | :---- |
+|Performance 	| Million Level Concurrent Connections and Hundreds of Thousands Level New Connections per Second | Hundreds of Million Level Concurrent Connections and Million Level New Connections per Second | No Forwarding Performance Bottle Neck |
+|Service Protocol Layer |   Lay-4/Lay-7 | Lay-4 (stateful)| Lay-4 (Stateless)|
+|Protocol Type	| HTTP, HTTPS, TLS and TCP | TCP | TCP |
+|WebSocket Support| ✔ | —— | —— |
+|Auto Scaling of Service Instance | ✔ | ✔ | ✔ |
+|High-availability deployment of multiple availability zones | ✔ | ✔ | All AZs |
+|Scheduling algorithm	| Weighted Round Robin, Weighting Least Connection Number and Source IP | Weighted Round Robin, Weighting Least Connection Number and Source IP | Weighted Source IP and Weighted Quintuple Form |
+|SSL Unloading and Certificate Management | ✔ | —— | —— |
+|Idle Connection Timeout | ✔ | ✔ | —— |
+|Source IP Reservation	| Pass-through based on X-forward-for mechanism of HTTP Header | Pass-through of Three-layer Packet Source IP | Source IP Pass-through of Three-layer Packet |
+|Session Persistence | Cookie-based Session Persistence  |  Session Persistence of TCP Connection | —— |
+|Connection Draining Overtime | Support connection draining only and do not support configuration time-out period |  ✔ | —— |
+|Instance Type Family of Backend Service | Virtual Machines/Native Container/Availability Group| Virtual Machines/Native Container/Availability Group | Virtual Machines/Native Container/Availability Group |
+|Health Check | HTTP/TCP | TCP | TCP |
+|Load Balancer for Multiple Ends in the Same Instance | ✔  | ✔ | —— |
+|Switch Between Intranet and Internet Load Balancer	 | ✔ |	✔ | ✔ |
+|Deletion Protection | ✔  | ✔ | ✔ |
+|Billing Standard	| Relatively-high Rate (Temporarily Free)| Relatively-low Rate (Temporarily Free) | Free |
 
 ## Common Operation
 

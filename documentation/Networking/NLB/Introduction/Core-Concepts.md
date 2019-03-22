@@ -24,6 +24,6 @@ See the following for the noun concepts and their interpretations used in the ne
 ## Relevant References
 
 - [Product overview](../Introduction/Overview.md)
-- [Product specification](../Introduction/Specification.md)
+- [Product specification](../Introduction/Specifications.md)
 - [Price overview](../Pricing/Price-Overview.md)
 - [Create Instance](../Getting-Started/Create-Instance.md) for specific actions.

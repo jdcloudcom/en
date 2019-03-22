@@ -3,7 +3,7 @@
 Part of the constraints in Anti-DDoS Pro needs to be noted.
 
 ## Capability Restraint of Package
-The Anti-DDoS Pro is of standard package by fault and only provides protection of up to 300G. To purchase better protection, please contact the customer service.
+The maximum basic protection capability of Anti-DDoS Pro is 600G, while the maximum basic + elastic protection is 1.5T.
 
 ## Restraint of Upgrade and Degradation
 - Basic protection and service bandwidth: can only be upgraded and cannot be degraded.

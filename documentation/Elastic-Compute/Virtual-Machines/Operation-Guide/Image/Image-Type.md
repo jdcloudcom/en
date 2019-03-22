@@ -3,7 +3,7 @@ The image can be divided into two types of local system disk image and cloud sys
 From the source and the usage rights of image, the image can be divided into four types of public image, private image, shared image and cloud marketplace image.
 ## Classification of Architectural Pattern
 Both the public image and the cloud marketplace image provide two architectural patterns of images, while the architecture of the private image depends on the system disk type (local disk or cloud disk) of the Virtual Machines used to make the image. <br>
-During creating the Virtual Machines by using an image and creating a private image based on the Virtual Machines, the architectural pattern of the image is inherited and cannot be changed. If you want to create the cloud system disk Virtual Machines based on the existing local system disk image, you can generate a cloud system disk image based on the local system disk image through [Image Type Conversion](/Convert-Image.md), and then create the Virtual Machines.
+During creating the Virtual Machines by using an image and creating a private image based on the Virtual Machines, the architectural pattern of the image is inherited and cannot be changed. If you want to create the cloud system disk Virtual Machines based on the existing local system disk image, you can generate a cloud system disk image based on the local system disk image through [Image Type Conversion](Convert-Image.md), and then create the Virtual Machines.
 
 ![](../../../../../image/vm/Operation-Guide-Image-imagetype.png)
 
