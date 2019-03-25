@@ -11,7 +11,7 @@ Enterprise real-name verification process: 1. Select the enterprise type  > 2. S
  (1) The license has an 18-digit unified social credit code. Please select the unified social credit code entry for verification;
  (2) The license is a combination of three certificates. Please select the entry for all-in-one certificate (without independent organization code and taxation registration certificate) for verification;
  (3) If the license is a general license, please select the general business license (with an independent organization code and tax registration certificate) entry for verification.
- <div align=center><img src="https://github.com/jdcloudcom/en/blob/en-signin-signup/image/User/Real%20name%20verification/Business%20account%20verification%20en/%E4%BC%81%E4%B8%9A%E5%AE%9E%E5%90%8D%E8%AE%A4%E8%AF%81%E9%80%89%E6%8B%A9%E8%AF%81%E4%BB%B6%E7%B1%BB%E5%9E%8B.png"></div>
+ <div align=center><img src="../../../image/User/Real-name-verification/Business-account-verification-en/%E4%BC%81%E4%B8%9A%E5%AE%9E%E5%90%8D%E8%AE%A4%E8%AF%81%E9%80%89%E6%8B%A9%E8%AF%81%E4%BB%B6%E7%B1%BB%E5%9E%8B.png"></div>
 
  3. Submit certificate information
 
