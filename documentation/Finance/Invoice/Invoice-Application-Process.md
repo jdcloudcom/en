@@ -5,7 +5,7 @@ Only three steps are required to obtain an invoice: (1) fill in or enable invoic
 1) If you have saved enterprise invoice templates, you are required to enable one during the system initialization; if you want to create a new invoice template, you may click “Add New Invoice Information”, and special VAT invoice takes 1-2 working days for audit
 2) If you haven’t set invoice information, you are required to set it under invoice information management function; enterprise special VAT invoice information takes 1-2 working days for audit, and if there is any invoice in audit, no other invoice template is allowed to be created.
 
-![file-list](https://github.com/jdcloudcom/en/blob/en-signin-signup/image/Finance/Invoice/invoice-1.png)
+![file-list](../../../../image/Finance/Invoice/invoice-1.png)
 
 Currently, invoices are divided into three types: individual general VAT invoice, enterprise general VAT invoice, and enterprise special VAT invoice.
 
@@ -22,17 +22,17 @@ Special VAT invoices have a 180-day limit for deduction period, and invoice will
 
 2. Enter into **Cost Management**-**Invoice Management**-Invoice List, and click “Apply for Invoice” to enter into application page for invoice issuance;
 
-![file-list](https://github.com/jdcloudcom/en/blob/en-signin-signup/image/Finance/Invoice/invoice-2.png)
+![file-list](../../../../image/Finance/Invoice/invoice-2.png)
 
 Check the document of which an invoice is to be issued on the invoice issuance page, and single click the Obtain Invoice button. Select the invoice information based on order type and purchase channel
 
-![file-list](https://github.com/jdcloudcom/en/blob/en-signin-signup/image/Finance/Invoice/invoice-3.png)
-![file-list](https://github.com/jdcloudcom/en/blob/en-signin-signup/image/Finance/Invoice/invoice-4.png)
-![file-list](https://github.com/jdcloudcom/en/blob/en-signin-signup/image/Finance/Invoice/invoice-5.png)
+![file-list](../../../../image/Finance/Invoice/invoice-3.png)
+![file-list](../../../../image/Finance/Invoice/invoice-4.png)
+![file-list](../../../../image/Finance/Invoice/invoice-5.png)
 
 The invoice will be sent out within 3-5 working days after the issuance. After receiving the invoice and the package, please check them carefully and then sign for them. If there is any problem, please reject them in time.
 
 ## View history information
 History of applied invoices may be viewed in the invoice list, the issuance of invoices may be confirmed, and the detailed information of the current invoice may be viewed in details.
 
-![file-list](https://github.com/jdcloudcom/en/blob/en-signin-signup/image/Finance/Invoice/invoice-6.png)
+![file-list](../../../../image/Finance/Invoice/invoice-6.png)
