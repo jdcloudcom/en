@@ -21,7 +21,7 @@
         href: Operation-Guide/Configuration-Change.md         
       - name: Security Visualization Screen
         href: Operation-Guide/Security-Bigscreen.md     
-- name: FAQ
+  - name: FAQ
     href: FAQ/FAQ.md
   - name: Revision Update
     href: Related-Resources/Release-Notes.md
