@@ -7,6 +7,7 @@ The encrypted operation of data stored in the database instance of Microsoft SQL
 For detailed introduction of transparent data encryption (TDE), please refer to the Microsoft document [TDE](https://docs.microsoft.com/zh-cn/sql/relational-databases/security/encryption/transparent-data-encryption?view=sql-server-2017)
 
 RDS of JD Cloud supports the use of TDE in the following SQL Server version:
+
 - SQL Server 2008R2 Enterprise Version
 - SQL Server 2012 Enterprise Version
 - SQL Server 2014 Enterprise Version
@@ -25,7 +26,7 @@ RDS of JD Cloud supports the use of TDE in the following SQL Server version:
 
 ## Operation Steps
 1. Log in the RDS console and click the instance to enter the **"Security Management"** page.
-2. Select **TDE Encryption** and click **Enable** to enable the instance-level TDE.
+2. Select **"TDE Encryption"** and click **Enable** to enable the instance-level TDE.
 3. Execute the following SQL for the database with TDE to be enabled. Taking the database db1 for example
 ```
 USE master

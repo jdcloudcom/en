@@ -15,7 +15,7 @@ The MongoDB console provides the function to create instance based on time point
 
     ![](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-036.png)
 
-5. On the "Create Instance" page, select the **billing type** and **instance type configuration** to complete the instance creation. The creation process is the same as [Create Instance](https://github.com/jdcloudcom/cn/blob/master/documentation/Cloud-Database-and-Cache/MongoDB/Getting-Started/CreateInstance.md).
+5. On the "Create Instance" page, select the **billing type** and **instance type configuration** to complete the instance creation. The creation process is the same as [Create Instance](../../Getting-Started/Create-Instance.md).
 
     ![](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/mongo-036.png)
 

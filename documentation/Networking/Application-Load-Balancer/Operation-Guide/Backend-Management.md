@@ -93,6 +93,10 @@
 
 1. Edit backend service configuration item, which contain the backend protocol and the port unable to be edited and the other items with editable certificates. If the listener has any associated certificate, such certificate can be modified;
 
+        Note:
+        * The on/off status of health check can be modified in the backend service editing dialog box only. The Load Balancer can detect running status of backend server via the health check function. When any backend service failure is detected, traffic will not be distributed to the backend service, guaranteeing overall business availability. It is suggested that the health check function shall not be disabled.
+        * Where the health check function is disabled, the health status of the backend server will be displayed as “N/A”. In such case, traffic will be distributed to all “running” backend servers as per the scheduling algorithm by the Load Balancer.
+
 ![ALB编辑后端服务](../../../../image/Networking/ALB/ALB-033.png)
 	
 

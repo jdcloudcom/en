@@ -1,23 +1,22 @@
 ## Benefits
 
-### Professional Protection Ability
+### AI+ Behavior Analysis and Detection
 
-  Ensure your website's safety and stability with thousands of defense rules, comprehensive defense against web attack, 7*24-hour maintenance from a professional protective team.
+On the basis of OWASP TOP 10 defense, the AI defense capability is introduced to improve the detection rate of vulnerabilities, reduce the false alarm rate of security incidents and respond quickly to security threats.
 
-### Quick Patch Repair
+### Multi-package Purchase
 
-  Deliver timely leakage patches and synchronize multiple clusters on second level.
+A user can purchase a variety of WAF package types. Each package report and security protection rules are independent, which can meet the requirements of data management and security customization, and respond quickly to personalized customization requirements.
 
-### Quick Access
+### Security Visualization
 
-  Convenient access mode, with no other installing software, no any complicated operations, and web security can be realized simply and quickly.
+By default, the detailed report analysis, full log search and alarm function are provided to have a comprehensive understanding of service bandwidth usage and business security for rapid decision-making and handling of security issues.
 
-### Quick Detection, Efficient Protection
+### High-reliability and High-availability Service
 
-  Detect attack on second level and the protection takes effect, protect with no delay.
+Business reliability is automatically monitored at backend for dynamic scheduling, so as to provide high-reliability and high-availability WAF protection services.
 
-### Highly Reliable, Highly Available Services
+### Opening-up of Security Capability
 
-  The match of full-automatic detection and attack strategy has a real-time protection.
-
+By fully opening up the security capability of customized rules and introducing semantics analysis engine, users can customize security protection policies by means of regular or character string to meet personalized defense needs.
    

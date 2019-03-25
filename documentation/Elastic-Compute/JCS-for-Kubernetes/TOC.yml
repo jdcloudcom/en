@@ -45,6 +45,8 @@
             href: Operation-Guide/Cluster/Connect-Cluster.md
           - name: Delete Cluster
             href: Operation-Guide/Cluster/Delete-Cluster.md
+          - name: Cluster Monitoring
+            href: Operation-Guide/Cluster/Cluster-Monitor.md
       - name: Working Node Group
         items:
           - name: Working Node Group Overview

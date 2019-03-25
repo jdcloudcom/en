@@ -187,7 +187,7 @@ You can use CORS to build web applications and use javaScript and HTML5 to acces
 
 **Description:**
 
-* Expired Objects can be automatically deleted to facilitate maintenance and reduce cost during the use of Bucket. For details, see [Life Cycle Management](https://docs.jdcloud.com/cn/object-storage-service/lifecycle), for API please refer to[put bucket lifecycle](../API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/put-bucket-lifecycle.md).
+* Expired Objects can be automatically deleted to facilitate maintenance and reduce cost during the use of Bucket. For details, see [Life Cycle Management](https://docs.jdcloud.com/cn/object-storage-service/lifecycle), for API please refer to[put bucket lifecycle](../API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Put-Bucket-Lifecycle.md).
 * Currently only support deleting objects, and do not support **the automatic deletion of converted storage type and unsynthesized expired shard**.
 
 

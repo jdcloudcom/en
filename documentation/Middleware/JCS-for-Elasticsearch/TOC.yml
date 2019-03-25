@@ -50,7 +50,11 @@
       - name: Dedicated Primary Node
         href: Operation-Guide/Dedicated-master.md 
       - name: Plug-in Support
-        href: Operation-Guide/IK.md 
+        href: Operation-Guide/IK.md
+      - name: JCS for Elasticsearch Log
+        href: Operation-Guide/eslog.md
+      - name: Customized Word Library
+        href: Operation-Guide/dic.md  
       - name: Snapshot
         items: 
         - name: Create Snapshot
@@ -99,4 +103,6 @@
     items:
     - name: Document History
       href: Related-Resources/Document-History.md 
-  
+    - name: Product Service Agreement of JCS for Elasticsearch
+      href: Related-Resources/Product-Service-Agreement.md
+

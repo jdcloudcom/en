@@ -77,9 +77,9 @@ If to purchase a monthly package instance, you need to set the purchase duration
 
 [Instance Type](../Introduction/Instance-Type-Family.md)
 
-[Device Name Assignment Rule](../Operation-Guide/Cloud-Disk/Assign-Device-Name.md)
+[Device Name Assignment Rule](../Operation-Guide/Storage/Assign-Device-Name.md)
 
-[Cloud Disk Service Encryption](../Operation-Guide/Cloud-Disk/Encryption-of-Cloud-Disk.md)
+[Cloud Disk Service Encryption](../Operation-Guide/Storage/Encryption-of-Cloud-Disk.md)
 
 [Cloud Disk Price](http://docs.jdcloud.com/cn/cloud-disk-service/billing-rules)
 

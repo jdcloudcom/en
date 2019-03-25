@@ -2,16 +2,17 @@
 
 The Application security gateway (VPC-WAF) is based on the instance billing method; multiple VPC-WAFs can be purchased at the same time and multiple types of packages are supported. Each package type supports different functions, and users can select packages according to business scenarios.
 
-#### Package Price
+## Package Price
 
 | Category     | Experience Version                     | Basic Version                                           | Advanced Version                                               | Flagship Version                                     |
 | -------- | -------------------------- | ------------------------------------------------ | ---------------------------------------------------- | ------------------------------------------ |
 | Price     | RMB 0                        | RMB 299/Instance/Month                                    | RMB 1507/Instance/Month                                       | 6022 /Instance/Month                              |
 | Applicable scenarios | User experience, security test verification | Suitable for small and medium-sized website protection (users less than 50 people) have certain security requirements | Suitable for medium-sized website protection, website or service is open to the public, high security requirements | Suitable for large-scale website protection, or personalized security customization needs |
 
-####  Package Functions
 
-| Function Items               | Experience Version               | Basic Version               | Advanced Version               | Flagship Version               |
+##  Package Functions
+
+|  Function Items               | Experience Version               | Basic Version               | Advanced Version               | Flagship Version               |
 | -------------------- | -------------------- | -------------------- | -------------------- | -------------------- |
 | Switch to Associated Load Balancer     | Support                 | Support                 | Support                 | Support                 |
 | HTTP/HTTPs/WebSocket | Support, Including Non-Standard Protocol Port | Support, Including Non-Standard Protocol Port | Support, Including Non-Standard Protocol Port | Support, Including Non-Standard Protocol Port |
@@ -42,3 +43,7 @@ The Application security gateway (VPC-WAF) is based on the instance billing meth
 | Vulnerability Scanning             | No                   | No                   | No                   | Support                 |
 | Expert Mode             | No                   | No                   | No                   | Support                 |
 
+## Related References
+
+- [Product Specifications Description](../Introduction/Specifications.md)
+- [Create Instance(../Getting-Started/Create-free-trial-instance.md)

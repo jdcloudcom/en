@@ -94,4 +94,4 @@ The instance template service is free, the information you have configured is di
 
 [Instance Type](http://docs.jdcloud.com/cn/virtual-machines/instance-type-family)
 
-[Key Pair](../Key-Pair/KeyPair-Overview)
+[Key Pair](../Key-Pair/KeyPair-Overview.md)

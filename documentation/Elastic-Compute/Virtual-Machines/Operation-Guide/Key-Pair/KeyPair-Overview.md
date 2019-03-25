@@ -28,7 +28,7 @@ JD Cloud provides the operation  access of key pair creation and corresponding m
 
 ## Related Reference
 
-[Create Key Pair](../Operation-Guide/Key-Pair/Create-Keypair.md)
+[Create Key Pair](Create-Keypair.md)
 
 
   [1]: ./images/Operation-Guide-keypair-overview1.png "Operation-Guide-keypair-overview1.png"

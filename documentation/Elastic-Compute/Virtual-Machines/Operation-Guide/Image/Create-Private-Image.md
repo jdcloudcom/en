@@ -30,7 +30,7 @@ You can create a private image from an instance created as required, and use thi
  
 [Image Type Conversion](Convert-Image.md)
  
-[Device Name Assignment Rule](../Operation-Guide/Cloud-Disk/Assign-Device-Name.md)
+[Device Name Assignment Rule](../Storage/Assign-Device-Name.md)
 
 
   [1]: https://cns-console.jdcloud.com/

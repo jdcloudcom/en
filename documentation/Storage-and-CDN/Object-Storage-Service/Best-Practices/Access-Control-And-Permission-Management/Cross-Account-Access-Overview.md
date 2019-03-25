@@ -4,7 +4,7 @@ All the OSS resources are private by default. If the owner wants to share the re
 
 - Realize the cross-account access to OSS based on Bucket Policy. Bucket Policy is a resource-based authorization policy. Compared with IAM Policy, Bucket Policy is easy to operate and supports
 graphic configuration directly at the console. Bucket Policy supports to grant the access permission with specific IP restrictions and Referer to IAM sub-users, anonymous users, etc. of other accounts.
-For detailed introduction and description, please see [Bucket Policy-based Permission Control](../Operation-Guide/Access-Control/Access-Control-Base-On-Bucket-Policy.md).
+For detailed introduction and description, please see [Bucket Policy-based Permission Control](../../Operation-Guide/Access-Control/Access-Control-Base-On-Bucket-Policy.md).
 
 Setting Method:
 
