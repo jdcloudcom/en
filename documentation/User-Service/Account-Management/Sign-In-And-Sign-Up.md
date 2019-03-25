@@ -7,7 +7,7 @@ If you have a JD account, you can log in JD Cloud directly with the following st
 
 ### 2. Enable JD Cloud service
 When logging in JD Cloud with JD account for the first time, you will need to provide some additional information and confirm that you have read and agreed to the JD Cloud User Service Agreement. In this step, you can modify your phone (Mainland, Hong Kong, Macao and Taiwan phones are supported currently) and add an Email. If you have a salesperson's recommendation code, please add it. Click Submit and you can enable JD Cloud service.
-![](https://github.com/jdcloudcom/en/blob/en-signin-signup/image/User/Account-Management/signin-and-signup/英文激活页.png)
+![](https://github.com/jdcloudcom/en/blob/20190319-limeijuan/image/User/Account-Management/signin-and-signup/%E7%99%BB%E5%BD%95%E6%BF%80%E6%B4%BB%E9%A1%B5%E9%9D%A2.png)
  
 ## II. Register a New Account at JD Cloud
 If you want to register a new JD Cloud account, you can click **Register Now** on the JD Cloud home page. Mobile phone numbers of mainland, Hong Kong, Macao and Taiwan are supported currently by JD Cloud to enable cloud service normally. Procedures are as below:
