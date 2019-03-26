@@ -8,7 +8,7 @@
       - name: Basic Infrastructure
         href: Introduction/Basic-Infrastructure.md
       - name: Application Scenarios
-        href: Application-Scenarios.md
+        href: Introduction/Application-Scenarios.md
   - name: Operation Guide
     items:
       - name: Threat Overview
@@ -29,3 +29,4 @@
     href: Related-Resources/Pricing-Model.md    
   - name: Service Terms
     href: SLA/SLA.md
+

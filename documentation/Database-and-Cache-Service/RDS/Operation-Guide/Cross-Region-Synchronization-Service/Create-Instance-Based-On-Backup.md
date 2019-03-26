@@ -3,7 +3,7 @@ Creating a new instance based on backup data refers to create a new instance by 
 
 ## Precondition
 * Cross-region backup service permissions have been enabled.
-* The account balanc[image](or the Coupon amount) shall not be less than RMB 50 if the resources are paid by configuration.
+* The account balanc(or the Coupon amount) shall not be less than RMB 50 if the resources are paid by configuration.
 
 ## Precautions
 * The data of the cross-region backup synchronization service is retained for 7 days, and you can select a data time point within 7 days to create a new instance.

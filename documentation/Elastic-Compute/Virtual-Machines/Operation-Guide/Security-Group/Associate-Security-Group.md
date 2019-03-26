@@ -12,4 +12,4 @@ Each network interface of an instance must be associated to at least one securit
 
 		Note: The instance side only supports security group associating for the instance primary network interface. To operate the instance secondary network interface, please operate from the security group side.
 	
-In addition, you can also associate from the security group console. For details, see [Security Group Side Binding Instance](../../../../Networking/Virtual-Private-Cloud/Operation-Guide /Security-Group-Configuration.md).
+In addition, you can also associate from the security group console. For details, see [Security Group Side Binding Instance](../../../../Networking/Virtual-Private-Cloud/Operation-Guide/Security-Group-Configuration.md).

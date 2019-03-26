@@ -83,7 +83,7 @@ After knowing how to set the above configuration items, you can create a Linux V
 
 [Instance Template](../Operation-Guide/Instance-Template/Instance-Template-Overview.md)
 
-[Availability Group](../../Availability-Group/Introduction/Overview.md)
+[Availability Group](../../Availability-Group/Introduction/Product-Overview.md)
 
 [Instance Type](../Introduction/Instance-Type-Family.md)
 

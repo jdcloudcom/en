@@ -1,7 +1,7 @@
 # Restrictions
 
 ## Account Limit
-* You need to perform real-name verification for the JD Cloud account used to create the VM instance. For details, please refer to [Real-name Verification]();
+* You need to perform real-name verification for the JD Cloud account used to create the VM instance. For details, please refer to [Real-name Verification](http://docs.jdcloud.com/en/real-name-verification/real-name-verification);
 * To create an instance billing by monthly package, you need to prepay the instance fee. To create an instance billing by configuration, you need to keep the total sum of your account balance and available coupons no less than RMB 50.
 
 ## Usage Restrictions

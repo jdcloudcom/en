@@ -19,9 +19,9 @@ If you want to know more about the billing rules, please refer to [Virtual Machi
 For details on how to create an instance based on the operating system platform type, see [Create Linux Instance](../Getting-Start-Linux/Create-Instance.md) and [Create Windows Instance](../Getting-Start-Windows/Create-Instance.md).
 
 ## Related Reference
-[Service Limits](../Introduction/Limits.md)
+[Service Limits](../Introduction/Restrictions.md)
 
-[Register JD Cloud](https://accounts.jdcloud.com/p/regPage?source=jdcloud&ReturnUrl=%2f%2fuc.jdcloud.com%2fpassport%2fcomplete%3freturnUrl%3d//www.jdcloud.com/)
+[Register JD Cloud](https://accounts.jdcloud.com/p/regPage?source=jdcloud%26ReturnUrl=%2f%2fuc.jdcloud.com%2fpassport%2fcomplete%3freturnUrl%3d//www.jdcloud.com/)
 
 [Real-name Verification](../../../User-Service/Real-Name-Verification/Real-Name-Verification.md)
 
@@ -29,9 +29,9 @@ For details on how to create an instance based on the operating system platform 
 
 [Price Calculator](https://www.jdcloud.com/calculator/calHost)
 
-[Create Linux Instance](../Getting-Start-Linux/Create-Instance.md)
+[Create Linux Instance](../Getting-Start-Linux/Create-Linux-Instance.md)
 
-[Create Windows Instance](../Getting-Start-Windows/Create-Instance.md)
+[Create Windows Instance](../Getting-Start-Windows/Create-Windows-Instance.md)
 
 
 

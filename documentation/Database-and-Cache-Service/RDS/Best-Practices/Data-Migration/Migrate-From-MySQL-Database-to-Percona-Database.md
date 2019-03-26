@@ -24,7 +24,7 @@ It mainly explains how to transfer data from JCS for MySQL service to JCS for Pe
 3. Create the Percona service after exporting data from the JCS for MySQL service to the VM.
 4. See specific steps of the Percona service creation in [Create Cloud Database RDS Instance](../../../Operation-Guide/Instance/Create-Instance.md).
 5. Create a database via the console to ensure that the name of the database to be exported from the JCS for MySQL service is also created in the JCS for Percona service. See specific creation steps in [Create Database](../../../Operation-Guide/Database-Management/Create-Database.md).
-6. Create a database account via the console, or use the account that created for the Percona service creation, and then give this account the read-write authorization for the new database created in Step 2. See specific creation steps in [Create Account](../../../Operation-Guide/Account/Create-Account.md).
+6. Create a database account via the console, or use the account that created for the Percona service creation, and then give this account the read-write authorization for the new database created in Step 2. See specific creation steps in [Create Account](../../Operation-Guide/Account/Create-Account.md).
 7. Start importing the data from the VM to the JCS for Percona service and execute the command after completing the creation and initialization of the Percona service.
 
     ```

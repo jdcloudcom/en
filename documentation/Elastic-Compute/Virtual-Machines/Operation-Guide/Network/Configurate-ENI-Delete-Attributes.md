@@ -17,5 +17,5 @@ In addition, you can also configure the operation from the elastic network inter
 
 ## Related Reference
 
-[Elastic Network Interface Side Configuration Delete Attribute](../../../../Networking/Elastic-Network-Interface//Operation-Guide/Elastic-Network-Interface-Management/Enable-Delete-with-VM. md)
+[Elastic Network Interface Side Configuration Delete Attribute](../../../../Networking/Elastic-Network-Interface//Operation-Guide/Elastic-Network-Interface-Management/Enable-Delete-with-VM.md)
 

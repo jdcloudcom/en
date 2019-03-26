@@ -74,6 +74,6 @@ Here, CentOS 6.9 is taken as an example to introduce the configuration steps.
 
 ## Related Reference
 
-[Login Instance](../../Getting-Start-Linux/Connect-To-Instance.md)
+[Login Instance](../../Getting-Start-Linux/Connect-to-Linux-Instance.md)
 
 

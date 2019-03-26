@@ -75,7 +75,7 @@ You need to set machine name, and the name cannot be blank. It only supports Chi
 
 [Billing Rules](../Pricing/Billing-Rules.md)
 
-[Image Overview](../Operation-Guide/Image/Overview.md)
+[Image Overview](../Operation-Guide/Image/Image-Overview.md)
 
 [Instance Type](../Introduction/Instance-Type-Family.md)
 
@@ -83,13 +83,13 @@ You need to set machine name, and the name cannot be blank. It only supports Chi
 
 [Cloud Disk Service Encryption](../Operation-Guide/Storage/Encryption-of-Cloud-Disk.md)
 
-[Cloud Disk Price](http://docs.jdcloud.com/cn/cloud-disk-service/billing-rules)
+[Cloud Disk Price](http://docs.jdcloud.com/en/cloud-disk-service/billing-rules)
 
-[VPC](http://docs.jdcloud.com/cn/virtual-private-cloud/product-overview)
+[VPC](http://docs.jdcloud.com/en/virtual-private-cloud/product-overview)
 
-[Subnet](http://docs.jdcloud.com/cn/virtual-private-cloud/subnet-features)
+[Subnet](http://docs.jdcloud.com/en/virtual-private-cloud/subnet-features)
 
-[Create Security Group](http://docs.jdcloud.com/cn/virtual-private-cloud/security-group-configuration)
+[Create Security Group](http://docs.jdcloud.com/en/virtual-private-cloud/security-group-configuration)
 
 [Elastic IP Price](../../../Networking/Elastic-IP/Pricing/Price-Overview.md)
 

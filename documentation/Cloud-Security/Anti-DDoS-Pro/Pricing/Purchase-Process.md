@@ -12,7 +12,7 @@ This paper introduces the purchase entries of Anti-DDoS Pro instance.
 
 ![MongoDB-buy](../../../../image/Advanced%20Anti-DDoS/ipanti%20purchase.png)
 
-4. For specific purchase operation, refer to [Create Instance](/Getting-Started/Create-Instance.md).
+4. For specific purchase operation, refer to [Create Instance](../Getting-Started/Create-Instance.md).
 
 # # Entry 2: [Anti-DDoS Pro Console](https://ip-anti-console.jdcloud.com/instancelist)
 

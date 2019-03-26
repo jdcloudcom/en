@@ -284,7 +284,7 @@ items:
           - name: SSH Startup Error /var/empty/sshd must be owned by root and not group or world-writable
             href: Linux-Troubleshooting/Fault-Class/SSH-startup-error-be-owned-by-root-and-not-group-or-world-writable.md
           - name: Following Error Occurs at SSH Login： Maximum amount of failed attempts was reached
-            href: Linux-Troubleshooting/Fault-Class/Linux-Troubleshooting/Fault-Class/SSH-login-Failed.md
+            href: Linux-Troubleshooting/Fault-Class/SSH-login-Failed.md
           - name: Following Error Occurs at SSH Login： ssh_exchange_identification： read： Connection reset by peer
             href: Linux-Troubleshooting/Fault-Class/ssh_exchange_identification.md
           - name: Following Error Occurs When SSH Service Is Started： main process exited, code=exited
@@ -332,7 +332,7 @@ items:
           - name: Following Error Occurs during SSH Connection： error Could not get shadow infromation for root
             href: Linux-Troubleshooting/Fault-Class/SSH-connection-error.md
           - name: Errors Below Arising during SSH Connection： pam_limits(sshd： session)： could not sent limit for 'nofile''
-            href: Linux-Troubleshooting/Fault-Class/SSH-connection-Error.md
+            href: Linux-Troubleshooting/Fault-Class/SSH-connection-error.md
           - name: Following Error Occurs during SSH Connection： pam_unix(sshdsession) session closed for user
             href: Linux-Troubleshooting/Fault-Class/SSH-connection-error-session-closed.md
           - name: Following Error Occurs during SSH Login： Disconnected：No supported authentication methods available

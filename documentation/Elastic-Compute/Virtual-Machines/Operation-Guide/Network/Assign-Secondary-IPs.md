@@ -115,6 +115,6 @@ Windows Server 2012 R2 Standard edition [Chinese] is used as an example for Wind
 
 [Elastic Network Interface Side Assign Secondary IP](../../../../Networking/Elastic-Network-Interface/Operation-Guide/Private-IP-Management/Assign-Secondary-IP.md)
 
-[Log in to Linux Instance](../../Getting-Start-Linux/Connect-To-Instance.md)
+[Log in to Linux Instance](../../Getting-Start-Linux/Connect-to-Linux-Instance.md)
 
-[Log in to Windows instance](../../Getting-Start-Windows/Connect-To-Instance.md)
+[Log in to Windows instance](../../Getting-Start-Windows/Connect-to-Windows-Instance.md)

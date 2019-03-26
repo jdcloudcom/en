@@ -15,7 +15,7 @@
 		
 		Note: It takes a few minutes to disassociate, so please wait patiently to refresh the page.
 
-In addition, you can also detach from the ENI console. For details, see [Elastic Network Interface Side Detach EIP](../../../../Networking/Elastic-Network-Interface/Operation- Guide/Elastic-Network-Interface-Management/Detach-Elastic-Network-Interface.md).
+In addition, you can also detach from the ENI console. For details, see [Elastic Network Interface Side Detach EIP](../../../../Networking/Elastic-Network-Interface/Operation-Guide/Elastic-Network-Interface-Management/Disassociate-Elastic-Network-Interface.md).
 
 ## Related Reference
-**Elastic Network Interface**(../../../../Networking/Elastic-Network-Interface/Operation-Guide/Elastic-Network-Interface-Management/Disassociate-Elastic-Network-Interface. Md)
+**Elastic Network Interface**(../../../../Networking/Elastic-Network-Interface/Operation-Guide/Elastic-Network-Interface-Management/Disassociate-Elastic-Network-Interface.md)

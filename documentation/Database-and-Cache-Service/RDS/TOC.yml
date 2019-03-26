@@ -291,17 +291,17 @@
       - name: Import JCS for MariaDB 
         items:
         - name: Import from Local MariaDB
-          href: Best-Practices/Data-Migration/Import-Data-Into-Percona-Instance/Local-to-MariaDB.md
-        - name: Import from VM Percona
-          href: Best-Practices/Data-Migration/Import-Data-Into-Percona-Instance/VM-to-MariaDB.md
+          href: Best-Practices/Data-Migration/Import-Data-Into-MariaDB-Instance/Local-to-MariaDB.md
+        - name: Import from VM MariaDB
+          href: Best-Practices/Data-Migration/Import-Data-Into-MariaDB-Instance/VM-to-MariaDB.md
     - name: Restore Backup Files to the Self-built Database
       items:
       - name: Restore Backup Files to the Self-built MySQL
         href: Best-Practices/Restore-Backup-To-Self-Built-Database/Restore-Backup-To-Self-Built-MySQL-Database.md
       - name: Restore the Backup Files to the Self-built Percona
-        href: Best-Practices/Restore-Backup-To-Self-Built-Percona-Database.md
+        href: Best-Practices/Restore-Backup-To-Self-Built-Database/Restore-Backup-To-Self-Built-Percona-Database.md
       - name: Restore the Backup Files to the Self-built MariaDB 
-        href: Best-Practices/Restore-Backup-To-Self-Built-MariaDB-Database.md
+        href: Best-Practices/Restore-Backup-To-Self-Built-Database/Restore-Backup-To-Self-Built-MariaDB-Database.md
     - name: Connect to Database Instance
       items:
       - name: Connect Instance

@@ -29,4 +29,4 @@ The operation of the cloud on single database are basically carried out in three
 
 1. Users back up the database to be stored in the cloud to the local, and click [Documentation](./V2/Backup-Local-Database-v2.md).
 2. The user uploads the backup files to JD Cloud OSS; click to view [Document](./V2/Upload-Backup-v2.md) and [Set Bucket Permission](./V2/Grant-File-Privilege-V2.md)
-3. The user uses the uploaded backup files, restore the same to the database and complete cloud access task. Click to view [Documentation](./V2/Import-BacBackup-Local-Database-v2.mdup-v2.md).
+3. The user uses the uploaded backup files, restore the same to the database and complete cloud access task. Click to view [Documentation](./V2/Import-Backup-v2.md).

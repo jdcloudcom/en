@@ -105,9 +105,9 @@ And then, run the following remote login command:
 
 [Create Key Pair](../Operation-Guide/Key-Pair/Create-Keypair.md)
 
-[Security Group](../Operation-Guide/Security-Group/Overview.md)
+[Security Group](http://docs.jdcloud.com/en/virtual-private-cloud/security-group-features)
 
-[Network ACL](../../../Networking/Virtual-Private-Cloud/Introduction/Functions/Network-ACL.md)
+[Network ACL](http://docs.jdcloud.com/en/virtual-private-cloud/network-acl-features)
 
 
   [1]: ./images/Getting-Start-Linux-Connect-console.png "Getting-Start-Linux-Connect-console.png"

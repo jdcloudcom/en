@@ -73,7 +73,7 @@ If to purchase a monthly package instance, you need to set the purchase duration
 
 [Billing Rules](../Pricing/Billing-Rules.md)
 
-[Image Overview](../Operation-Guide/Image/Overview.md)
+[Image Overview](../Operation-Guide/Image/Image-Overview.md)
 
 [Instance Type](../Introduction/Instance-Type-Family.md)
 
