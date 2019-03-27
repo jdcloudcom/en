@@ -32,5 +32,5 @@ After payment is completed, the page will automatically jump to JCS for Redis "I
 
 
 - [Connection Instance](Connect-Instances.md)
-- [Redis SLA](https://docs.jdcloud.com/cn/product-service-agreement/caching-redis-service-level-agreement-sla)
+- [Redis SLA](https://docs.jdcloud.com/en/product-service-agreement/caching-redis-service-level-agreement-sla)
 

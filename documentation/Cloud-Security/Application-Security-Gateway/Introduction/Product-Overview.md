@@ -2,7 +2,7 @@
 
 The VPC-WAF is the product used for applying visual security analysis to the website or APP service and applying threat protection to the application layer. By improving such functions as WAF, user access audit and business safety visual and compliance check, the steady and sustainable operation of business is ensured, the user experience is improved and the abnormalty or compliance problem resulted from HTTP/HTTPS business being attacked is solved.
 
-By associating [Application Load Balancer](https://docs.jdcloud.com/cn/application-load-balancer/product-overview), the Application Security Gateway performs protection for all HTTP/HTTPs (including Websocket) traffic passing through Application Load Balancer.
+By associating [Application Load Balancer](https://docs.jdcloud.com/en/application-load-balancer/product-overview), the Application Security Gateway performs protection for all HTTP/HTTPs (including Websocket) traffic passing through Application Load Balancer.
 
 The logic deployment schematic diagram of VPC-WAF is as shown below:
 

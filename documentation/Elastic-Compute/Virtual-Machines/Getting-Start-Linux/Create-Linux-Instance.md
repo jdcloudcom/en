@@ -36,7 +36,7 @@
     
     It supports Pay By Configuration, and the attribute of deletion on instance termination may be set for the non-multi-point attached cloud disk. If the attribute is checked, the disk will be deleted when the instance is deleted.
     
-	The cost of the Cloud Disk is independent of the instance. For the specific price information, please refer to [Cloud Disk Price](http://docs.jdcloud.com/cn/cloud-disk-service/billing-rules).
+	The cost of the Cloud Disk is independent of the instance. For the specific price information, please refer to [Cloud Disk Price](http://docs.jdcloud.com/en/cloud-disk-service/billing-rules).
 ![](../../../../image/vm/Getting-Start-Linux-Create-disk.png)
 
 9. Configure Instance Network:  

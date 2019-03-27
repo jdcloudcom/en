@@ -36,7 +36,7 @@
     
     It supports Pay By Configuration, and the attribute of deletion on instance termination may be set for the non-multi-point attached cloud disk. If the attribute is checked, the disk will be deleted when the instance is deleted.   
     
-	The cost of the Cloud Disk is independent of the instance. For the specific price information, please refer to [Cloud Disk Price](http://docs.jdcloud.com/cn/cloud-disk-service/billing-rules).
+	The cost of the Cloud Disk is independent of the instance. For the specific price information, please refer to [Cloud Disk Price](http://docs.jdcloud.com/en/cloud-disk-service/billing-rules).
 
 ![](../../../../image/vm/Getting-Start-Linux-Create-disk.png)
 
@@ -81,13 +81,13 @@ If to purchase a monthly package instance, you need to set the purchase duration
 
 [Cloud Disk Service Encryption](../Operation-Guide/Storage/Encryption-of-Cloud-Disk.md)
 
-[Cloud Disk Price](http://docs.jdcloud.com/cn/cloud-disk-service/billing-rules)
+[Cloud Disk Price](http://docs.jdcloud.com/en/cloud-disk-service/billing-rules)
 
-[VPC](http://docs.jdcloud.com/cn/virtual-private-cloud/product-overview)
+[VPC](http://docs.jdcloud.com/en/virtual-private-cloud/product-overview)
 
-[Subnet](http://docs.jdcloud.com/cn/virtual-private-cloud/subnet-features)
+[Subnet](http://docs.jdcloud.com/en/virtual-private-cloud/subnet-features)
 
-[Create Security Group](http://docs.jdcloud.com/cn/virtual-private-cloud/security-group-configuration)
+[Create Security Group](http://docs.jdcloud.com/en/virtual-private-cloud/security-group-configuration)
 
 [Elastic IP Price](../../../Networking/Elastic-IP/Pricing/Price-Overview.md)
 

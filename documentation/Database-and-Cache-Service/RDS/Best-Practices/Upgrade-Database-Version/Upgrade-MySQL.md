@@ -8,7 +8,7 @@ Here is the descriptions on how to upgrade the JCS for MySQL from a lower versio
 * It shall ensure that the capacity space of the new MySQL 8.0 instance is not less than that of the original MySQL 5.7 instance.
 
 ## Operation Steps
-1. Create VM instance, and for specific creation steps, see [Create VM instance](https://docs.jdcloud.com/cn/virtual-machines/create-instance), when creating VM instance, the following points need to be concerned
+1. Create VM instance, and for specific creation steps, see [Create VM instance](https://docs.jdcloud.com/en/virtual-machines/create-instance), when creating VM instance, the following points need to be concerned
     * Please ensure that the Virtual Machines are in the same ***VPC*** as the JCS for MySQL 5.7 instance requiring version upgrade.
     * New Virtual Machines need an ***EIP*** to enable public network access, otherwise it cannot remotely log in the Virtual Machines.
     * Please ensure that network ***ACL*** of subnet that the Virtual Machines are located at allows local ssh to connect to Virtual Machines.

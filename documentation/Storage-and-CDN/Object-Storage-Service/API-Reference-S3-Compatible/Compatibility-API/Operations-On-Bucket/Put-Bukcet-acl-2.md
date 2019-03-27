@@ -28,7 +28,7 @@ Name|Description|Must
 ---|---|---
 x-amz-acl|Specify the fixed ACL to set ACL of Bucket. <br>Type: String<br>Valid Values: private, public-read and public-read-write<br>Default: private|No
 
-If you want to clearly specify the permission of each authorized person, please use [put Bucket policy](https://docs.jdcloud.com/cn/object-storage-service/put-bucket-policy-2) 
+If you want to clearly specify the permission of each authorized person, please use [put Bucket policy](https://docs.jdcloud.com/en/object-storage-service/put-bucket-policy-2) 
 to complete fine-grained authorization.
 
 
