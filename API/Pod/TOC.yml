@@ -1,0 +1,61 @@
+name: Pod
+href: 
+items:
+- name: Interface Overview
+  href: overview.md
+- name: Update History
+  href: ChangeLog.md
+- name: Interface Information
+  items:
+  - name: Pod
+    items:
+    - name: Create Pod
+      href: pod/createPods.md
+    - name: Verify whether the Pod name is available
+      href: pod/checkPodName.md
+    - name: Delete Pod
+      href: pod/deletePod.md
+    - name: Search Pod details
+      href: pod/describePod.md
+    - name: Search Pod lists
+      href: pod/describePods.md
+    - name: Associate Pod with elastic IP
+      href: pod/associateElasticIp.md
+    - name: Disassociate Pod with elastic IP
+      href: pod/disassociateElasticIp.md
+    - name: Search container log in the Pod
+      href: pod/getContainerLogs.md
+    - name: Modify Pod attribute
+      href: pod/modifyPodAttribute.md
+    - name: Start Pod
+      href: pod/startPod.md
+    - name: Stop Pod
+      href: pod/stopPod.md
+  - name: Container
+    items:
+    - name: Search details of a container in the Pod
+      href: Native-Container/decribeContainer.md
+    - name: attach to a container in a Pod
+      href: Native-Container/attach.md
+    - name: Create exec
+      href: Native-Container/execCreate.md
+    - name: Obtain exec exit code
+      href: Native-Container/execGetExitCode.md
+    - name: Execute exec
+      href: Native-Container/execStart.md
+    - name: Reset size of TTY
+      href: Native-Container/resizeTTY.md
+  - name: Quota
+    items:
+    - name: Search quota of Pod
+      href: Quota/describeQuota.md
+  - name: secret
+    items:
+    - name: Create secret
+      href: Secrets/createSecret.md
+    - name: Delete secret
+      href: Secrets/deleteSecret.md
+    - name: Search secret details
+      href: Secrets/describeSecret.md
+    - name: Search secret lists
+      href: Secrets/describeSecrets.md
