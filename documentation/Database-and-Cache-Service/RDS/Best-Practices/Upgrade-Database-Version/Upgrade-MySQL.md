@@ -8,7 +8,7 @@ Here is the descriptions on how to upgrade the JCS for MySQL from a lower versio
 * It shall ensure that the capacity space of the new MySQL 8.0 instance is not less than that of the original MySQL 5.7 instance.
 
 ## Operation Steps
-1. Create VM instance, and for specific creation steps, see [Create VM instance] (https://www.jdcloud.com/help/detail/303/isCatalog/1), when creating VM instance, the following points need to be concerned
+1. Create VM instance, and for specific creation steps, see [Create VM instance](https://docs.jdcloud.com/cn/virtual-machines/create-instance), when creating VM instance, the following points need to be concerned
     * Please ensure that the Virtual Machines are in the same ***VPC*** as the JCS for MySQL 5.7 instance requiring version upgrade.
     * New Virtual Machines need an ***EIP*** to enable public network access, otherwise it cannot remotely log in the Virtual Machines.
     * Please ensure that network ***ACL*** of subnet that the Virtual Machines are located at allows local ssh to connect to Virtual Machines.
@@ -24,8 +24,8 @@ Here is the descriptions on how to upgrade the JCS for MySQL from a lower versio
         Database Name: Fill in database names to be outputted and separate several database names with spaces.
     ```
 
-4. After exporting the data of JCS for MySQL 5.7, begin to create JCS for MySQL 8.0. For specific steps for creation, please refer to [Create JCS for MySQL instance](../../../Operation-Guide/Instance/Create-Instance.md).
-5. Create the database through the console. It shall ensure that the name of JCS for MySQL 5.7 to be exported has been created in JCS for MySQL 8.0 as well. For specific steps for creation, please refer to [Create Database] (../../../Operation-Guide/Database-Management/Create-Database.md).
+4. After exporting the data of JCS for MySQL 5.7, begin to create JCS for MySQL 8.0. For specific steps for creation, please refer to [Create JCS for MySQL instance](../../Operation-Guide/Instance/Create-Instance.md).
+5. Create the database through the console. It shall ensure that the name of JCS for MySQL 5.7 to be exported has been created in JCS for MySQL 8.0 as well. For specific steps for creation, please refer to [Create Database](../../Operation-Guide/Database-Management/Create-Database.md).
 6. Create the database account through the console and grant the ***read-write*** permission of the database newly created in Step 5. For specific steps for creation, please refer to [Create Account](../../Operation-Guide/Account/Create-Account.md).
 
 7. Import the data that is exported in Step 3 to the new JCS for MySQL 8.0 and execute the command

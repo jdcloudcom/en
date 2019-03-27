@@ -50,7 +50,7 @@ It is the optional field, describing restrictions for effectiveness of policies.
 
 The sample is described as follows: It is allowed that the sub-account under the primary account 876393467912 can view and create sub-users and groups of IAM when the secondary IP address is "203.0.113.0/24",
 
-```
+```JSON
 {
       "Version": "3",
       "Statement":

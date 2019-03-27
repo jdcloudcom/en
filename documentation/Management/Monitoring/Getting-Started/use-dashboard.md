@@ -7,7 +7,6 @@ Log in to the JD Cloud Monitoring Console, select Management -> Monitoring -> da
 
 ### Add Monitoring View
 1. On the Dashboard List page, click on the **Manage** button to enter the Dashboard Details page.
-![](https://raw.githubusercontent.com/jdcloudcom/en/Monitoring/image/Cloud-Monitor/getting-started/use-dashboard-02.png)
 
 2. Click on **Add View** in the top right corner. Select the Chart Type, Product Type, View Dimension, Monitoring Item (support adding multiple Monitoring Items), graph name, select monitoring resources, click on the **OK** button to complete the creation of the monitoring View.
 ![](https://raw.githubusercontent.com/jdcloudcom/en/Monitoring/image/Cloud-Monitor/getting-started/use-dashboard-03.png)

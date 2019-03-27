@@ -1,6 +1,6 @@
 #  Scaling
 
-The number of instances can be increased or reduced by scaling action.
+The user can increase the number of instances according to business needs by scaling action.
 
 ##  Operation Steps:
 ###  Step 1: Select the registration center to be operated

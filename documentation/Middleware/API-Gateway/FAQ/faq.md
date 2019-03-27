@@ -16,5 +16,5 @@ A: API gateway products are free during the open beta. Other related expenses ar
 
 **Q: How many customized domain names based on grouping can be associated at maximum**
 
-A: At present, each group supports to associate up to 5 customized domain names. [Description of steps for domain name configuration](../Operation-Guide/Create-Domain/Create-Domain.md)
+A: At present, each group supports to associate up to 5 customized domain names. [Description of steps for domain name configuration](../Operation-Guide/Create-APIGroup/Create-Domain.md)
 

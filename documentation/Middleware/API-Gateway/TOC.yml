@@ -60,43 +60,42 @@ items:
     - name: API Group Management
       items:
         - name: Create an API group
-          href: Create-APIGroup/Create-APIGroup.md
+          href: Operation-Guide/Create-APIGroup/Create-APIGroup.md
         - name: Release an API Group
-          href: Create-APIGroup/Create-Publish.md  
+          href: Operation-Guide/Create-APIGroup/Create-Publish.md  
         - name: Customized Domain
-          href: Create-APIGroup/Create-Domain.md  
+          href: Operation-Guide/Create-APIGroup/Create-Domain.md  
         - name: Access Monitoring
-          href: Create-APIGroup/Monitoring.md  
+          href: Operation-Guide/Create-APIGroup/Monitoring.md  
     - name: API Management
       items:
         - name: Create API
-          href: Create-API/Create-API.md
+          href: Operation-Guide/Create-API/Create-API.md
         - name: API Advanced Configuration
-          href: Create-API/Adv-API.md
+          href: Operation-Guide/Create-API/Adv-API.md
     - name: Access Authorization
       items:
         - name: Access Authorization for API
-          href: Create-Auth/Create-Auth.md  
+          href: Operation-Guide/Create-Auth/Create-Auth.md  
     - name: Backend Signature
       items:
         - name: Backend Signature
-          href: Create-BackSign/Create-BackSign.md  
+          href: Operation-Guide/Create-BackSign/Create-BackSign.md        
     - name: Customize Domain Names
       items:
         - name: Traffic Control Policy
-          href: Create-Stream/Create-Stream.md  
+          href: Operation-Guide/Create-Stream/Create-Stream.md  
     - name: Debug
       items:
         - name: Debugging API
-          href: Code/TestAPI.md        
+          href: Operation-Guide/Code/TestAPI.md        
         - name:  Error Code
-          href: Code/API_Errorcode.md
+          href: Operation-Guide/Code/API_Errorcode.md
 - name: Best Practices
   items:
   - name: Best Practices
     href: Best-Practices/BestPractices.md
-  - name: Use example to construct API
-    href: Best-Practices/example_for_create_api.md
+
 - name: FAQ
   href: FAQ/faq.md
 - name: Related Resources

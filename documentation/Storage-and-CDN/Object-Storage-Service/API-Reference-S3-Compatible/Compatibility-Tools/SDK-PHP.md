@@ -17,7 +17,8 @@ For more installation methods of sdk-php, you can refer to documents at http://d
 ## Create a client
 
 We still help you get started by creating a client, for more methods, please refer to http://docs.aws.amazon.com/aws-sdk-php/v3/guide/getting-started/index.html
-```
+
+```PHP
 <?php    
 require 'C:\mydir\aws\aws-autoloader.php';    
 use Aws\S3\S3Client;    

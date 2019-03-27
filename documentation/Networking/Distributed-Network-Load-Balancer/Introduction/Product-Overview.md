@@ -26,7 +26,7 @@ DNLB has the following functions and features:
 |Protocol Type	| HTTP, HTTPS, TLS and TCP | TCP | TCP |
 |WebSocket Support| ✔ | —— | —— |
 |Auto Scaling of Service Instance | ✔ | ✔ | ✔ |
-|High-availability deployment of multiple availability zones | ✔ | ✔ | All AZs |
+|High-availability deployment of multiple availability zones | ✔ | ✔ | ✔ |
 |Scheduling algorithm	| Weighted Round Robin, Weighting Least Connection Number and Source IP | Weighted Round Robin, Weighting Least Connection Number and Source IP | Weighted Source IP and Weighted Quintuple Form |
 |SSL Unloading and Certificate Management | ✔ | —— | —— |
 |Idle Connection Timeout | ✔ | ✔ | —— |
@@ -34,8 +34,7 @@ DNLB has the following functions and features:
 |Session Persistence | Cookie-based Session Persistence  |  Session Persistence of TCP Connection | —— |
 |Connection Draining Overtime | Support connection draining only and do not support configuration time-out period |  ✔ | —— |
 |Instance Type Family of Backend Service | Virtual Machines/Native Container/Availability Group| Virtual Machines/Native Container/Availability Group | Virtual Machines/Native Container/Availability Group |
-|Health Check | HTTP/TCP | TCP | TCP |
-|Load Balancer for Multiple Ends in the Same Instance | ✔  | ✔ | —— |
+|Health Check | ✔ | ✔ | ✔ |
 |Switch Between Intranet and Internet Load Balancer	 | ✔ |	✔ | ✔ |
 |Deletion Protection | ✔  | ✔ | ✔ |
 |Billing Standard	| Relatively-high Rate (Temporarily Free)| Relatively-low Rate (Temporarily Free) | Free |

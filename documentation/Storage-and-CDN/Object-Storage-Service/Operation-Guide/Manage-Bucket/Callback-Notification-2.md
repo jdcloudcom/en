@@ -24,7 +24,7 @@ Callback Notification Process:
 
 4. If the callback server gives no response, OSS will retry for three times. If there is still no response, it is believed that the callback is failed.
 
-**Callback notification support API**: [PUT Bucket notification](https://github.com/jdcloud-cmw/oss/blob/master/S3-API-Document/Operations-on-Bucket/PUT-Bucket-notification.md)、[GET Bucket notification](https://github.com/jdcloud-cmw/oss/blob/master/S3-API-Document/Operations-on-Bucket/GET-Bucket-notification.md)
+**Callback notification support API**: [PUT Bucket notification](../../API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/PUT-Bucket-Notification-2.md)、[GET Bucket notification](../../API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/GET-Bucket-Notification-2.md)
 
 ## Configuration callback notification
 

@@ -14,7 +14,7 @@ IAM Policy contains the following basic elements: content (policy content), perm
   Support 3 types of resource actions, namely reading (R refers to Read), modification (M refers to Modify), and deletion (D refers to Delete). For example, viewing the virtual machine details is a read action, and backing up or rebooting the virtual machine is a modify action, and deleting the image is a delete operation.
   When multiple action types need to be authorized, they may be separated by a vertical line "|". For example, when only read-only actions are authorized, the permission is "R"; when the administrator permissions are authorized, the permission is "R|M|D".
  
-   > Note: If a sub-account is authorized with modify permission (M) and delete permission (D), the sub-account also has read permission (R) by default.
+ > Note: If a sub-account is authorized with modify permission (M) and delete permission (D), the sub-account also has read permission (R) by default.
  
 - resource
   Authorized resources are specified by the resource type (type) and resource ID (ids).
@@ -33,7 +33,8 @@ The syntax of the Policy shall conform to the JSON format. If the authorization 
 
 ## Syntax Description of Policy
 
-```<policy> =
+```JSON
+<policy> =
 {
 <content>,
 <version>
@@ -42,7 +43,8 @@ The syntax of the Policy shall conform to the JSON format. If the authorization 
 
 The description of Content can contain one or more sets of Permission and Resource pairs:
 
-```<content> = 
+```JSON
+<content> = 
 "content":[
 {
 <permission>,
@@ -55,15 +57,15 @@ The description of Content can contain one or more sets of Permission and Resour
 ]
 ```
 
-Contents in ```<permission>``` (taking administrator permission as an example):
+Contents in `permission` (taking administrator permission as an example):
 
-```
+```JSON
 "permission" : "R|M|D"
 ```
 
-Types and Ids of resources needed to be specified in ```<resource>```:
+Types and Ids of resources needed to be specified in ` resource` :
 
-```
+```JSON
 "resource":[
 {
 <ids>,
@@ -72,16 +74,16 @@ Types and Ids of resources needed to be specified in ```<resource>```:
 ]
 ```
 
-One or more resources (taking the specified resource ID as an example) specified in ```<ids>```:
+One or more resources (taking the specified resource ID as an example) specified in `ids`:
 
-```
+```JSON
 "ids":[
 "resource-id1",
 "resource-id2"
 ]
 ```
 
-Service name of specified product line name is ```<type>```:
-
-```
+Service name of specified product line name is `type`:
+```JSON
 "type":"service name"
+```

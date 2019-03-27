@@ -61,5 +61,5 @@ If there is no available Load Balancer, it is required to go to **Console-Networ
 
 ## Related References
 - [Package Description](../Introduction/Specifications.md)
-- [Billing Instructions](../Pricing/Billing-Rules.md)
+- [Billing Instructions](../Pricing/Price-Overview.md)
 - [Creation Process of Application Load Balancer](https://docs.jdcloud.com/cn/application-load-balancer/create-instance)

@@ -63,7 +63,7 @@ For example:
 
 ### Syntax Description
 
-```
+```JSON
 policy  = {
      <version_block>
      <principal_block?>,

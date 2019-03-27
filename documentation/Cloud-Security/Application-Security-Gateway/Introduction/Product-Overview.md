@@ -15,10 +15,10 @@ The VPC-WAF makes comprehensive uses of rules to protect various security techno
 #### Common Operations
 
 - Easy Operation
-  - [Create VPC-WAF Instance](../Operation-Guide/Instance-Management/Create-Application-Security-Gateway.md)
+  - [Create Instance](../Operation-Guide/Instance-Management/Create-Application-Security-Gateway.md)
 - Package Introduction
   - [Package Introduction](../Introduction/Specifications.md)
 
 ## Billing
 
-Application Security Gateway is charged as per the monthly package billing method. For details, please refer to “[Billing Rules](../Pricing/Billing-Overview.md)”.
+Application Security Gateway is charged as per the monthly package billing method. For details, please refer to “[Billing Rules](../Pricing/Price-Overview.md)”.

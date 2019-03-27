@@ -17,13 +17,5 @@ The business structure is shown below:
 
 
 
-## Relevant References
-
-- [Product Advantage](../Introduction/Benefits.md)
-- [Product Function](../Introduction/Features.md)
-- [Price Overview](../Pricing/Price-Overview.md)
-- [Billing Rules](../Pricing/Billing-Rules.md)
-
-
 
 

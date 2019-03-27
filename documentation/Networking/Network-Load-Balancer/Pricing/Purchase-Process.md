@@ -8,7 +8,7 @@ This document will introduce the purchase entrance of the network load balancer 
 
  ![NLB产品入口](../../../../image/Networking/NLB/NLB-Menu.png)
 
-3. The product introduction page of network load balancer will pop up, click **Buy Now**.
+3. The product introduction page of load balancer will pop up, click **Buy Now**.
 
 ![NLB产品页](../../../../image/Networking/NLB/NLB-ProductEntrance.png)
 

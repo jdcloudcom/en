@@ -4,13 +4,15 @@
 
 All resources can adopt the following five-section description method below:
 
-``` jrn:<service_name>:<region>:<accountId>:<resourceType>/<resourceId><subresouceType>/<subresouceId> ```
+```JSON
+jrn:<service_name>:<region>:<accountId>:<resourceType>/<resourceId><subresouceType>/<subresouceId>
+```
 
 ## Format Description
 
 - jrn is the short name of JDCloud Resource Name, indicating the cloud resources of JD Cloud. This field is required.
 - service_name is the field describing the short name of a product and is required, with all product lines represented with *. For specific details of the service name, please refer to the cloud service supporting IAM.
-- region describes the regional information. This field is required, with all regions indicated with *. The naming method of the existing region is defined as follows:
+- region describes the regional information. If the cloud product does not distinguish the region, this field is left blank directly; if the cloud product distinguishes the region, this field is required, with all regions indicated with *. The naming method of the existing region is defined as follows:
 
 |  **Region**  | **Region Identifier in JRN** |
 | :----------: | :-----------------: |
@@ -22,9 +24,9 @@ All resources can adopt the following five-section description method below:
 
 - AccountID describes the primary account information of the resource owner. Each primary account is composed of 12 numbers. AccountID can be viewed from User Center > Basic Data.
 
-- ```<resourceType>/<resourceId>/<subresouceType>/<subresouceId>```, Resource Type refers to the level I resource of the product line Open API, Resource ID refers to the level I resource ID of the product line Open API, Subresource Type refers to the level II resource of the product line Open API and Subresouce ID refers to the level II resource ID of the product line Open API. In case that the subsequent products are required to support the level III and level IV resources, please separate such products with / . All resources can be indicated with *.
+- ` <resourceType>/<resourceId>/<subresouceType>/<subresouceId>` , Resource Type refers to the level I resource of the product line Open API, Resource ID refers to the level I resource ID of the product line Open API, Subresource Type refers to the level II resource of the product line Open API and Subresouce ID refers to the level II resource ID of the product line Open API. In case that the subsequent products are required to support the level III and level IV resources, please separate such products with / . All resources can be indicated with *.
 
-  JRN Example:
+JRN Example:
 
 | **Description**                                             | **JRN Example**                                                  |
 | :--------------------------------------------------- | :----------------------------------------------------------- |
@@ -38,25 +40,41 @@ All resources can adopt the following five-section description method below:
 ### Elastic Compute
 
 | Product line name |                           JRN example                            |
-| :--------- | :----------------------------------------------------------: |
-| POD        | jrn:pod:region:accountid:pods/{podId}<br>jrn:pod:region:accountid:pods/{podId}/containers/{containerName}<br/>jrn:pod:region:accountid:secrets/{name} |
+| :---------: | :---------------------------------------------------------- |
+| POD        | jrn:pod:regionId:accountId:pods/{podId}<br>jrn:pod:regionId:accountId:pods/{podId}/containers/{containerName}<br/>jrn:pod:regionId:accountId:secrets/{name} |
+|Container Registry       |jrn:containerregistry:regionId:accountId:registries/{registryName}<br>jrn:containerregistry:regionId:accountId:registries/{registryName}/repositories/{repositoryName}|
 
 ### Network
 
 | Product line name |                           JRN example                            |
-| :--------- | :----------------------------------------------------------: |
-| Load Balancer   | jrn:lb:region:accountid:loadBalancers/{loadBalancerId}<br>jrn:lb:region:accountid:loadBalancers/{loadBalancerId}/backends/{backendId}<br>jrn:lb:region:accountid:loadBalancers/{loadBalancerId}/listeners/{listenerId}<br>jrn:lb:region:accountid:loadBalancers/{loadBalancerId}/targetGroups/{targetGroupId}<br>jrn:lb:region:accountid:ruleMaps/{ruleMapId} |
+| :---------: | :---------------------------------------------------------- |
+| Load Balancer   | jrn:lb:regionId:accountId:loadBalancers/{loadBalancerId}<br>jrn:lb:regionId:accountId:loadBalancers/{loadBalancerId}/backends/{backendId}<br>jrn:lb:regionId:accountId:loadBalancers/{loadBalancerId}/listeners/{listenerId}<br>jrn:lb:regionId:accountId:loadBalancers/{loadBalancerId}/targetGroups/{targetGroupId}<br>jrn:lb:regionId:accountId:loadBalancers/{loadBalancerId}/urlMaps/{urlMapId} |
+
+### Storage and CDN
+
+| Product Line Name |                           JRN Example                            |
+| :---------: | :---------------------------------------------------------- |
+| Object Storage Service     | jrn:oss:regionId:accountId:{BucketName} <br> jrn:oss:regionId:accountId:{BucketName}/{ObjectName}|
+| CDN| jrn:cdn::accountId:domain/{domain}<br>jrn:cdn::accountId:liveDomain/{domain}<br>jrn:cdn::accountId:domainGroup/{id}|
 
 ### Cloud Security
 
-| Product line name   |                      JRN example                       |
-| :----------- | :------------------------------------------------: |
-| DDoS         |   jrn:baseanti:region:accountid:ipResources/{ip}   |
-| Application Security Gateway | jrn:vpcwaf:region:accountid:instances/{instanceId} |
+| Product line name |                      JRN example                       |
+| :---------: | :---------------------------------------------------------- |
+| DDoS         |   jrn:baseanti:regionId:accountId:ipResources/{ip}   |
+| Application Security Gateway | jrn:sgw:regionId:accountId:instances/{instanceId} |
+| SSL Certificate |jrn:ssl::accountId:sslCert/{certId}<br>jrn:ssl::accountId:sslRecord/{recordId}|
+
+### Management
+
+| Product Line Name |                           JRN Example                            |
+| :---------: | :---------------------------------------------------------- |
+| Directory Service        |   jrn:directoryservice:regionId:accountId:directory/{directoryId}   |
+| Security Token Service | jrn:iam::accountId:role/{roleName}|
 
 ### Middleware
 
 | Product line name  |                           JRN example                            |
-| :---------- | :----------------------------------------------------------: |
-| Message Queue | jrn:jcq:region:accountid:/topics/{topicName}<br/>jrn:jcq:region:accountid:/topics/{topicName}/subscriptions/{consumerGroupId} |
+| :---------: | :---------------------------------------------------------- |
+| Message Queue | jrn:jcq:regionId:accountId:/topics/{topicName}<br>jrn:jcq:regionId:accountId:/topics/{topicName}/subscriptions/{consumerGroupId}|
 

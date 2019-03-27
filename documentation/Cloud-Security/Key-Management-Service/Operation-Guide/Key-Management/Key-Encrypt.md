@@ -6,6 +6,5 @@ Data smaller than 4K can be encrypted and decrypted via the current Key Manageme
 
 # Related References
 
-- [Encryption and Decryption via Online Tool of Console](Tools.md)
 - [OpenAPI Encryption](/API/Key-Management-Service/Key-Management-Service/encrypt.md)
 - [OpenAPI Decryption](/API/Key-Management-Service/Key-Management-Service/decrypt.md)

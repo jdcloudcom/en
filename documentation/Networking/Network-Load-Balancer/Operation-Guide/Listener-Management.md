@@ -28,7 +28,7 @@
 	
 - Scheduling algorithm: Weighted round robin algorithm, weighted least connection number and source IP can be selected according to actual business needs;
 
-- Session persistence: it is closed by default, open to support the TCP-based session persistence, and the default time is 1440 seconds;	
+- Session persistence: it is closed by default, open to support the TCP-based session persistence, and the default time is 300 seconds;	
 	
 - Connection draining: Configure the connection draining timeout period, the range is [0, 3600] seconds, and the default is 300 seconds.
 
@@ -65,7 +65,7 @@
 ![NLB添加服务器组](../../../../image/Networking/NLB/NLB-030.png)
 
 
-# Manage listener
+## Manage listener
 
 #### 1. View listening details: Click details via the action bar in the listener list page to view the details of listener;
 

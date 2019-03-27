@@ -9,14 +9,15 @@ API Gateway is an API hosting service. It provides full life-cycle management fo
 ## Common Operation
 
 - Easy Operation
-	- [Rapidly release and call an API application](../Best-Practices/example_for_create_api.md)
+	- [Rapidly release and call an API application](../Getting-Started/example_console.md)
 
 - Group Management
 	- [Create an API group](../Operation-Guide/Create-APIGroup/Create-APIGroup.md)
 	
 	- [Create an API](../Operation-Guide/Create-API/Create-API.md)
 	
-	- [Release an API group](../Operation-Guide/Create-Publish/Create-Publish.md)
+	
+	- [Release an API group](../Operation-Guide/Create-APIGroup/Create-Publish.md)
 	
 
 - Permission Management
@@ -26,7 +27,7 @@ API Gateway is an API hosting service. It provides full life-cycle management fo
 	
  
 - Operation and Maintenance Management
-	- [Customized Domain](../Operation-Guide/Create-Domain/Create-Domain.md)
+	- [Customized Domain](../Operation-Guide/Create-APIGroup/Create-Domain.md)
 	
 	- [Configure traffic control policy for the API group](../Operation-Guide/Create-Stream/Create-Stream.md)
 	

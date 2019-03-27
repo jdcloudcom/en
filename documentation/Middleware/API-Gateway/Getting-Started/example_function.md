@@ -49,7 +49,7 @@ When API provider provides API calling without authentication, API caller may di
 
 ###  Step 5: API caller downloads and uses SDK package to call functions
 
-- Easy action: [Rapid Release and Call of an API Application](../Best-Practices/example_for_create_api.md)
+- Easy action: [Rapid Release and Call of an API Application](../Getting-Started/example_console.md)
 
 
 

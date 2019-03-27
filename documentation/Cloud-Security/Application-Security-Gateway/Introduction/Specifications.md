@@ -49,6 +49,5 @@ The flagship version supports all functions of WAF and supports the expert mode.
 
 
 - [Price Overview](../Pricing/Price-Overview.md)
-- [Billing Rules](../Pricing/Billing-Rules.md)
-- [Create Instance](../Getting-Started/Create-Instance.md)
+- [Create Instance](../Getting-Started/Create-free-trial-instance.md)
 

@@ -16,7 +16,7 @@
 
 - Scheduling algorithm: Support weighted round robin algorithm, weighted least connection number and source IP;
 
-- Session persistence: Session persistence enabling and disabling; the duration is 1440s after it is enabled;
+- Session persistence: Session persistence enabling and disabling; the duration is 300s after it is enabled;
 	
 - Connection draining: set the duration of connection draining in the range of **0, 3600**s, and the default is 300s.
 

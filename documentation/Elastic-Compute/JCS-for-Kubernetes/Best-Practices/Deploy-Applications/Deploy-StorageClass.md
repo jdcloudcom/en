@@ -18,9 +18,11 @@ reclaimPolicy: Retain
 ```
 **Parameter Description:**  
 1. provisioner: Set the parameter value to kubernetes.io/jdcloud-ebs, and it should not be modified. Identity is created with the JD Cloud cloud disk Provisioner plug-in. For example:  
-2. type: Set the parameter value to ssd or premium-hdd, corresponding to JD Cloud SSD cloud disk and Premium Hdd cloud disk.  
-3. fstype: Set the file system type, with optional parameter values of fstyle and ext4. If no fstyle is specified, ext4 will be used as the default file system type; for example, fstyle = ext4;  
-4. zone: Set the availability zone of the cloud disk;    
+2. parameters  
+- type: Set the parameter value to ssd or premium-hdd, corresponding to JD Cloud SSD cloud disk and Premium Hdd cloud disk.  
+- fstype: Set the file system type, with optional parameter values of fstyle and ext4. If no fstyle is specified, ext4 will be used as the default file system type; for example, fstyle = ext4;  
+
+3. zones: Set the availability zone of the cloud disk;    
 You may not set the parameter in areas supporting single Availability Zones;  
 In a region that supports multiple availability zones, you can select one or all of the availability zones (using “,” to separate parameter values), for example: zones=cn-north-1a, cn-north-1b, When all availability zones are selected, the new cloud disk will be randomly assigned to a certain availability zone according to the name hash algorithm.  
 The corresponding relationship between Region and Availability Zone is shown in the following table:  

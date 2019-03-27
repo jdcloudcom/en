@@ -7,7 +7,7 @@ IAM supports two types of policies: system policies preset by JD Cloud and custo
 - The system policies preset by JD Cloud when accessing product line, which are not allowed to be modified by users.
 - As for customized policies managed by users themselves, users can create policies for specific action to specific resource by means of customized policy. You can also add restricted conditions to restrict source IP, specific access time, Virtual MFA Verification, etc. Users can edit this kind of policies by themselves or delete customized policies.
 
-  > The functions of Condition is continuously under update, coming soon
+> The functions of Condition is continuously under update, coming soon
 
 This document describes how to use policy management function in the console.
 
@@ -17,11 +17,11 @@ Log in the console and enter Identity and Access Management > Authorization Poli
 
 ![策略列表](../../../../image/IAM/PolicyManagement/策略列表.jpg)
 
-> You may find that there suddenly adds some policy names that contain “-v3” in the policy list. It is the policy automatically created by the system for you when the product line is connected to the IAM, the policy (Policy) syntax changes after switching from v2 version to v3 version, with the purpose to make all actions in the policy created previously by you compatible and effective. For example, when you need to grant JD Cloud administrator permissions to all user types of IAM, you need to grant both JDCloudAdmin and JDCloudAdmin-v3 policy, and when you grant JD Cloud read-only permission, you need to grant both JDCloudRead and JDCloudRead-v3 policy. This action will continue until all product lines supporting v2 switch to v3 version.
+> You may find that there suddenly adds some policy names that contain “-v3” in the policy list. It is the policy automatically created by the system for you when the product line is connected to the IAM, the policy (Policy) syntax changes after switching from v2 version to v3 version, with the purpose to make all actions in the policy created previously by you compatible and effective. For example, when you need to grant JD Cloud administrator permissions to all user types of IAM, you need to grant both JDCloudAdmin and JDCloudAdmin-new policy, and when you grant JD Cloud read-only permission, you need to grant both JDCloudRead and JDCloudRead-new policy. This action will continue until all product lines supporting v2 switch to v3 version.
 
 ## Policy Creation
 
-On the Authorization Policy Management list page, click **Create** to obtain two ways to create a customized policy. The first is the facilitation policy generator, and the second is the JSON policy editor.
+On the Authorization Policy Management list page, click **Create** to obtain two ways to create a customized policy. The first is the visual policy generator, and the second is the JSON policy editor.
 
 ![创建策略](../../../../image/IAM/PolicyManagement/创建策略.jpg)
 

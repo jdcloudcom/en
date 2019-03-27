@@ -1,7 +1,7 @@
 # Noun/Concept
 See the following for the noun concepts and their interpretations used in the network load balancer (NLB) help documents.
 
-# | Noun/Concept | Interpretation |
+| Noun/Concept | Interpretation |
 | :- | :- |
 | Network Load Balancer (NLB) | Four-layer load balancer products provided by JD Cloud, provide TCP-based traffic listening and forwarding services |
 | Load Balancer Instance | Resource instance of operation load balancer service |
@@ -23,7 +23,7 @@ See the following for the noun concepts and their interpretations used in the ne
 
 ## Relevant References
 
-- [Product overview](../Introduction/Overview.md)
+- [Product overview](../Introduction/Product-Overview.md)
 - [Product specification](../Introduction/Specifications.md)
 - [Price overview](../Pricing/Price-Overview.md)
-- [Create Instance](../Getting-Started/Create-Instance.md) for specific actions.
+- [Create Instance](../Getting-Started/Create-Instance.md)

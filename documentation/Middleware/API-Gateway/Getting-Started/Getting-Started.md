@@ -69,5 +69,5 @@ When API provider provides API calling without authentication, API caller may di
 ###  Step 6: API caller downloads and uses SDK package
 
 - Easy Operation
-	- [Rapidly release and call an API application](../Best-Practices/example_for_create_api.md)
+	- [Rapidly release and call an API application](../Getting-Started/example_console.md)
 

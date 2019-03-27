@@ -9,14 +9,3 @@ JD Cloud Distributed Service Framework in each region adopts cross-availability 
 
 
 
-
-## Related References
-
-- [Product Advantage](../Introduction/Benefits.md)
-- [Product Function](../Introduction/Features.md)
-- [Purchase Process](../Pricing/Purchase-Process.md)
-- [Billing Method](../Pricing/Billing-Overview.md)
-
-
-
-

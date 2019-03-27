@@ -6,7 +6,7 @@
 ##### 1. Enable the console, select Elastic Compute>>Virtual Machine>>Instance Template
 ##### 2. Select a region requiring to create instance template
 ##### 3. Click **Create** to enter instance template creating page
-##### 4. Select region: It still can select a region for creating a new instance template in this step (cn-north-1, cn-south-1, cn-east-1 and cn-east-2), please note that the instance template cannot be used across regions, for example, it does not support to use the instance template in region of cn-south-1 to create VM instance. If the quota of the selected chosen region is full, it may increase quota by open ticket.
+##### 4. Select region: It still can select a region for creating a new instance template in this step, please note that the instance template cannot be used across regions, for example, it does not support to use the instance template in region of cn-south-1 to create VM instance in region of cn-north-1. If the quota of the selected chosen region is full, it may increase quota by open ticket.
 ##### 5. Set instance template name, description, for example: Web service instance template
 ##### 6. Select image, Virtual Machines in availability group shall be created by this image
 ##### 7. Select specifications: Specifications of JD Cloud VM support user customized selection: the user can select the instance types and corresponding configurations according to different business scenarios

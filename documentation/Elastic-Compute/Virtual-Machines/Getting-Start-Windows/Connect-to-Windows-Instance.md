@@ -65,7 +65,7 @@ Before connecting the Windows instance using MSTSC remote desktop, user must fir
 ![](../../../../image/vm/Getting-Start-Linux-Connect-Windows-mstsc3.png)
 6. Connect to the Windows instance you created on JD Cloud Successfully. <br>
 ![](../../../../image/vm/Getting-Start-Linux-Connect-Windows-mstsc4.png)
-7. If the login fails, please confirm whether the EIP address is entered correctly, and check the instance association [Security Group](https://docs.jdcloud.com/en/virtual-private-cloud/security-group-features) and the [Network ACL](http://docs.jdcloud.com/cn/virtual-private-cloud/network-acl-features) configuration of the subnet to confirm whether the instance allows the incoming traffic at port 3389.
+7. If the login fails, please confirm whether the EIP address is entered correctly, and check the instance association [Security Group](https://docs.jdcloud.com/en/virtual-private-cloud/security-group-features) and the [Network ACL](http://docs.jdcloud.com/en/virtual-private-cloud/network-acl-features) configuration of the subnet to confirm whether the instance allows the incoming traffic at port 3389.
 
 
 ## If the local system is Linux, login the Windows instance using rdesktop.

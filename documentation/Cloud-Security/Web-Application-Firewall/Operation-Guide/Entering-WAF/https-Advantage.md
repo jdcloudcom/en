@@ -10,7 +10,7 @@ WAF provides a flexible HTTPS configuration feature which will help you force th
 
 3. Select the domain required to be operated; click **Edit** under its operation list.
 
-4. Select **HTTPS** in **Protocol Type**. ![img](https://github.com/jdcloudcom/cn/blob/edit/image/waf-img/https%E9%AB%98%E7%BA%A7%E9%85%8D%E7%BD%AE.png)
+4. Select **HTTPS** in **Protocol Type**. ![image.png](../../../../../image/waf-img/https%E9%AB%98%E7%BA%A7%E9%85%8D%E7%BD%AE.png)
 
 5. **Enable forced jump for HTTPS**
 
