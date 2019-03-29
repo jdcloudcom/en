@@ -12,10 +12,10 @@ You can configure this attribute to delete the elastic network interface that ar
 
 		Note: The primary network interface is deleted on instance termination by default and cannot be modified.
 		
-In addition, you can also configure the operation from the elastic network interface console. For details, see [Elastic Network Interface Side Configuration Delete Attributes](../../../../Networking/Elastic-Network-Interface//Operation-Guide /Elastic-Network-Interface-Management/Enable-Delete-with-VM.md).
+In addition, you can also configure the operation from the elastic network interface console. For details, see [Elastic Network Interface Side Configuration Delete Attributes](../../../../Networking/Elastic-Network-Interface//Operation-Guide/Elastic-Network-Interface-Management/Enable-Delete-with-VM.md).
 
 
 ## Related Reference
 
-[Elastic Network Interface Side Configuration Delete Attribute](../../../../Networking/Elastic-Network-Interface//Operation-Guide/Elastic-Network-Interface-Management/Enable-Delete-with-VM.md)
+[Elastic Network Interface Side Configuration Delete Attribute](../../../../Networking/Elastic-Network-Interface/Operation-Guide/Elastic-Network-Interface-Management/Enable-Delete-with-VM.md)
 

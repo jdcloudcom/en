@@ -50,7 +50,7 @@ Please note:
 ## Local Windows, Use Password/Key Pair to Login through Remote Login Software
 You can use a variety of remote login software to login to the JD Cloud Linux instance. If you use the key pair to login to the instance, you need to enable the key pair login function when creating the instance and bind a key pair to the instance. Please ensure the private key pair of the bound key pair has been downloaded before that. For the creation of key pair, please refer to [Create a Key Pair](../Operation-Guide/Key-Pair/Create-Keypair.md).
 
-Meanwhile, please check the instance association [Security Group](../Operation-Guide/Security-Group/Overview.md) and the [Network ACL](../../../Networking/Virtual-Private-Cloud/Introduction/Functions/Network-ACL.md) configuration of the subnet to confirm instance 22 port has been opened.
+Meanwhile, please check the instance association [Security Group](http://docs.jdcloud.com/en/virtual-private-cloud/security-group-features) and the [Network ACL](http://docs.jdcloud.com/en/virtual-private-cloud/network-acl-features) configuration of the subnet to confirm instance 22 port has been opened.
 
 Here, CentOS 7.1 64-bit system and Xshell remote login software are used as examples and you can complete the login according to the steps below.
 
@@ -68,7 +68,7 @@ Here, CentOS 7.1 64-bit system and Xshell remote login software are used as exam
 3. Select user identify verification
 	* Password Login
 		* Method: Select **Password**
-		* Username: The default username is root!<br>[](../../../../image/vm/Getting-Start-Linux-Connect-linux-xshell1.png)
+		* Username: The default username is root<br> ![](../../../../image/vm/Getting-Start-Linux-Connect-linux-xshell1.png)
 		* Click **OK** to connect the instance, as shown in the figure below: <br>
 ![](../../../../image/vm/Getting-Start-Linux-Connect-linux-xshell2.png)
 	* Key Pair Login

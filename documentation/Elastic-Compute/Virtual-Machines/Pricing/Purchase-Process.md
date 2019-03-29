@@ -16,7 +16,7 @@ If you purchase the monthly package instance, as the pay-in-advance mode is adop
 If you want to know more about the billing rules, please refer to [Virtual Machines Billing Rules](Billing-Overview.md); if you want to know the specific cost under different configurations, different billing methods, and different purchase duration, you can go to [Price Calculator](https://www.jdcloud.com/calculator/calHost) for cost estimation.
 
 ## Operation Steps
-For details on how to create an instance based on the operating system platform type, see [Create Linux Instance](../Getting-Start-Linux/Create-Instance.md) and [Create Windows Instance](../Getting-Start-Windows/Create-Instance.md).
+For details on how to create an instance based on the operating system platform type, see [Create Linux Instance](../Getting-Start-Linux/Create-Linux-Instance.md) and [Create Windows Instance](../Getting-Start-Windows/Create-Windows-Instance.md).
 
 ## Related Reference
 [Service Limits](../Introduction/Restrictions.md)

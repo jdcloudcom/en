@@ -67,7 +67,7 @@ After you have successfully registered an account and completed real-name verifi
 * Login Information:
     * Username: It is set automatically according to the selected operating system. Windows system defaults to **Administrator**, and Linux system defaults to **root**.
     * Password Setting: Password is used for remote login and console VNC login. You can select **Set Now** or **Set Later** (the system will send the default password by SMS and email). After the instance is created, it can be modified.
-    * Key Pair Setting: For Linux system, you can choose key pair login. If you want to use key pair to login, you must create or import the key pair first. Please see [Create Key Pair](../Operation-Guide/Key-Pair) /Create-Keypair.md) for details.
+    * Key Pair Setting: For Linux system, you can choose key pair login. If you want to use key pair to login, you must create or import the key pair first. Please see [Create Key Pair](../Operation-Guide/Key-Pair/Create-Keypair.md) for details.
 
 * Purchase Quantity:
     
