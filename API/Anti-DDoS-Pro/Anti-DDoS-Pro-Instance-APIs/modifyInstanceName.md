@@ -4,43 +4,48 @@
 ## Description
 Modify the instance name
 
-## Request method
+## Request Method
 POST
 
-## Request address
+## Request Address
 https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:rename
 
-|Name|Type|Required or not|Default value|Description|
+|Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**instanceId**|String|True| |Instance ID|
 |**regionId**|String|True| |Region ID|
+|**instanceId**|Long|True| |Instance ID|
 
-## Request parameter
-|Name|Type|Required or not|Default value|Description|
+## Request Parameter
+|Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**instanceSpec**|InstanceSpec|True| |Modify instance name request parameters by providing name field of InstanceSpec only|
+|**renameInstanceSpec**|RenameInstanceSpec|True| |Modify instance name request parameter|
 
-### InstanceSpec
-|Name|Type|Required or not|Default value|Description|
+### RenameInstanceSpec
+|Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**bp**|Integer|False| |Minimum Bandwidth: Unit: Gbps|
-|**buyType**|Integer|False| |Purchase Type: 1->Newly Purchased 3->Upgraded|
-|**bw**|Integer|False| |Business Bandwidth: Unit: Mbps|
-|**carrier**|String|False| |ISP Line: TELECOM means China Telecom line, UNICOM means Unicom line, and CMCC means CMCC line|
-|**ep**|Integer|False| |Elastic Bandwidth: Unit: Gbps|
-|**name**|String|False| |Instance Name|
-|**returnUrl**|String|False| |The page jumped to after the payment succeeds. The field is transferred in the console interaction mode|
-|**timeSpan**|Integer|False| |Purchase Duration|
-|**timeUnit**|Integer|False| |Purchase Duration Unit: 3 Months 4 Years|
+|**name**|String|True| |Instance Name|
 
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
+|**result**|Result| |
 |**requestId**|String| |
+|**error**|Error| |
 
+### Error
+|Name|Type|Description|
+|---|---|---|
+|**code**|Integer|Request Error Status Code|
+|**status**|String|Request Error Status Code|
+|**message**|String|Request Error Notification|
+### Result
+|Name|Type|Description|
+|---|---|---|
+|**code**|Integer|0: Instance name modification failed, 1: Instance name modification succeeded|
+|**message**|String|Please specify reasons for modification failure|
 
-## Response code
-|Return code|Description|
+## Return Code
+|Return Code|Description|
 |---|---|
 |**200**|OK|
 |**404**|NOT_FOUND|

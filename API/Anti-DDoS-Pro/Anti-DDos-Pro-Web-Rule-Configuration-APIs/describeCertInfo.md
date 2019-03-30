@@ -4,24 +4,25 @@
 ## Description
 Query the Certificate Preview Information
 
-## Request method
+## Request Method
 POST
 
-## Request address
-https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/webRule:describeCertInfo
+## Request Address
+https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/webRules/{webRuleId}:describeCertInfo
 
-|Name|Type|Required or not|Default value|Description|
+|Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**instanceId**|String|True| |Instance ID|
 |**regionId**|String|True| |Region ID|
+|**instanceId**|Long|True| |Anti-DDoS Pro Instance Id|
+|**webRuleId**|Long|True| |Web Service Rule ID|
 
-## Request parameter
-|Name|Type|Required or not|Default value|Description|
+## Request Parameter
+|Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**certInfoDescribeSpec**|CertInfoDescribeSpec|True| |Query the Request Parameter of Certificate Preview|
 
 ### CertInfoDescribeSpec
-|Name|Type|Required or not|Default value|Description|
+|Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**domain**|String|False| |Domain Name|
 |**httpsCertContent**|String|False| |Certificate Content|
@@ -29,10 +30,16 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/webR
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String| |
 |**result**|Result| |
+|**requestId**|String| |
+|**error**|Error| |
 
-
+### Error
+|Name|Type|Description|
+|---|---|---|
+|**code**|Integer|Request Error Status Code|
+|**status**|String|Request Error Status Code|
+|**message**|String|Request Error Notification|
 ### Result
 |Name|Type|Description|
 |---|---|---|
@@ -42,12 +49,12 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/webR
 |---|---|---|
 |**domain**|String|General Name|
 |**from**|String|Certificate Effective Time|
-|**issuer**|String|Issued By|
-|**sigAlgName**|String|Encryption Algorithm|
 |**to**|String|Certificate Expiration Time|
 |**user**|String|Certificate Organization|
+|**sigAlgName**|String|Encryption Algorithm|
+|**issuer**|String|Issued By|
 
-## Response code
-|Return code|Description|
+## Return Code
+|Return Code|Description|
 |---|---|
 |**200**|OK|

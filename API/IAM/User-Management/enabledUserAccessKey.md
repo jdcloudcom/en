@@ -4,18 +4,18 @@
 ## Description
 Enable AccessKey
 
-## Request method
+## Request Method
 PUT
 
-## Request address
+## Request Address
 https://iam.jdcloud-api.com/v1/regions/{regionId}/userAccessKey/{accessKey}:enabled
 
-|Name|Type|Required or not|Default value|Description|
+|Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**accessKey**|String|True| |accessKey|
 |**regionId**|String|True| |Region ID|
+|**accessKey**|String|True| |accessKey|
 
-## Request parameter
+## Request Parameter
 None
 
 
@@ -25,8 +25,7 @@ None
 |**requestId**|String| |
 
 
-
-## Response code
-|Return code|Description|
+## Return Code
+|Return Code|Description|
 |---|---|
 |**200**|OK|

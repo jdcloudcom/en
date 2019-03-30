@@ -4,19 +4,19 @@
 ## Description
 Search the non-web forwarding configuration under an instance
 
-## Request method
+## Request Method
 GET
 
-## Request address
+## Request Address
 https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/forwardRules
 
-|Name|Type|Required or not|Default value|Description|
+|Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**instanceId**|String|True| |Instance ID|
 |**regionId**|String|True| |Region ID|
+|**instanceId**|Long|True| |Anti-DDoS Pro Instance Id|
 
-## Request parameter
-|Name|Type|Required or not|Default value|Description|
+## Request Parameter
+|Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**pageNumber**|Integer|False| |Page Number: 1 by default|
 |**pageSize**|Integer|False| |Paging Size: 10 by default; value range [10, 100]|
@@ -27,38 +27,47 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/forw
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String| |
 |**result**|Result| |
+|**requestId**|String| |
+|**error**|Error| |
 
+### Error
+|Name|Type|Description|
+|---|---|---|
+|**code**|Integer|Request Error Status Code|
+|**status**|String|Request Error Status Code|
+|**message**|String|Request Error Notification|
 ### Result
 |Name|Type|Description|
 |---|---|---|
 |**dataList**|ForwardRule[]| |
-|**totalCount**|Integer| |
+|**currentCount**|Integer|Current Page Counts|
+|**totalCount**|Integer|Total Amount|
+|**totalPage**|Integer|Total Number of Pages|
 ### ForwardRule
 |Name|Type|Description|
 |---|---|---|
-|**algorithm**|String|Forwarding Rules: wrr->round Robin with weight,  wlc->minimum weighted connection,  rr->round Robin without weight,  sh->source address hash|
+|**id**|Long|Rule ID|
+|**instanceId**|Long|Instance ID|
+|**protocol**|String|TCP or UDP|
 |**cname**|String|cname of Rules|
-|**id**|Integer|Rule ID|
-|**instanceId**|Integer|Instance ID|
-|**onlineAddr**|String[]| |
-|**originAddr**|OriginAddrItem[]| |
-|**originDomain**|String|Back-to-origin Domain Name|
-|**originPort**|Integer|Back-to-origin Port Number|
 |**originType**|String|Back-to-origin Type: ip or domain|
 |**port**|Integer|Port Number|
-|**protocol**|String|TCP or UDP|
-|**status**|Integer|0->defense Status  1->back-to-origin Status|
+|**algorithm**|String|Forwarding rules<br>- wrr Round robin with weights <br>- wlc Minimum weighted connection<br>- rr  Round robin without weights<br>- sh  Source address hash<br>|
+|**originAddr**|OriginAddrItem[]| |
+|**onlineAddr**|String[]|Backup Back-to-origin Address List|
+|**originDomain**|String|Back-to-origin Domain Name|
+|**originPort**|Integer|Back-to-origin Port Number|
+|**status**|Integer|0 defense Status  1 back-to-origin Status|
 ### OriginAddrItem
 |Name|Type|Description|
 |---|---|---|
-|**inJdCloud**|Boolean|Confirm whether it is the Private IP/EIP address of JD Cloud?|
 |**ip**|String|Back-to-origin IP address|
 |**weight**|Integer|Weight|
+|**inJdCloud**|Boolean|Confirm whether it is the Private IP/EIP address of JD Cloud?|
 
-## Response code
-|Return code|Description|
+## Return Code
+|Return Code|Description|
 |---|---|
 |**200**|OK|
 |**404**|NOT_FOUND|

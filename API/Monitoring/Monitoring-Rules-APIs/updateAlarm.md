@@ -4,19 +4,19 @@
 ## Description
 Modify alarm rules already created
 
-## Request method
+## Request Method
 PATCH
 
-## Request address
+## Request Address
 https://monitor.jdcloud-api.com/v1/regions/{regionId}/alarms/{alarmId}
 
-|Name|Type|Required or not|Default value|Description|
+|Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**alarmId**|String|True| |Rule ID|
 |**regionId**|String|True| |Region ID|
+|**alarmId**|String|True| |Rule ID|
 
-## Request parameter
-|Name|Type|Required or not|Default value|Description|
+## Request Parameter
+|Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**contacts**|BaseContact[]|False| |Contact|
 |**rule**|BaseRule|True| | |
@@ -25,13 +25,8 @@ https://monitor.jdcloud-api.com/v1/regions/{regionId}/alarms/{alarmId}
 |**webHookSecret**|String|False| |Callback secret, user requests signature to prevent forgery|
 |**webHookUrl**|String|False| |Callback url|
 
-### BaseContact
-|Name|Type|Required or Not|Default|Description|
-|---|---|---|---|---|
-|**referenceId**|Long|True| |Contact id|
-|**referenceType**|Long|True| |Contact id type 0, contact grouping id; 1, contact id|
 ### BaseRule
-|Name|Type|Required or Not|Default|Description|
+|Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**autoScalingPolicyId**|String|False| |Auto Scaling Group ID|
 |**calculateUnit**|String|True| |Unit|
@@ -47,19 +42,24 @@ https://monitor.jdcloud-api.com/v1/regions/{regionId}/alarms/{alarmId}
 |**threshold**|Double|True| |Alarm threshold, currently, only numeric type functions are available|
 |**times**|Long|True| |Alarms are made when several times meet threshold value conditions through continuous detections, optional values: 1,2,3,5,10,15,30,60|
 ### NoticeLevel
-|Name|Type|Required or Not|Default|Description|
+|Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**custom**|Boolean|True| |Is it the class defined by the user, true or false|
-|**levels**|Object|True| |Alarm class and corresponding indicator, common: moderate, critical: severe, fatal: emergency|
+|**levels**|Object|True| |报警级别以及对应的阈值，是一个map[string]float64对象。key:common, critical, fatal, value: the threshold values corresponding to alarm levels, which shall meet the progressive relationship corresponding to operation parameters. eg: "levels":{"common":1000,"critical":10000,"fatal":15000}|
+### BaseContact
+|Name|Type|Required or Not|Default Value|Description|
+|---|---|---|---|---|
+|**referenceId**|Long|True| |Contact id|
+|**referenceType**|Long|True| |Contact id type 0, contact grouping id; 1, contact id|
 
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String|Requested identifierid|
 |**result**|Object| |
+|**requestId**|String|Requested identifierid|
 
 
-## Result
+## Return Code
 |Return Code|Description|
 |---|---|
 |**200**|OK|

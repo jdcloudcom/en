@@ -4,27 +4,26 @@
 ## Description
 Search policy details
 
-## Request method
+## Request Method
 GET
 
-## Request address
+## Request Address
 https://iam.jdcloud-api.com/v1/regions/{regionId}/permission/{permissionId}
 
-|Name|Type|Required or not|Default value|Description|
+|Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**permissionId**|Integer|True| |Permission id|
 |**regionId**|String|True| |Region ID|
+|**permissionId**|Integer|True| |Permission id|
 
-## Request parameter
+## Request Parameter
 None
 
 
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String| |
 |**result**|Result| |
-
+|**requestId**|String| |
 
 ### Result
 |Name|Type|Description|
@@ -33,14 +32,14 @@ None
 ### Permission
 |Name|Type|Description|
 |---|---|---|
-|**account**|String|Primary Account Pin|
-|**content**|String|Permission Content|
-|**description**|String|Description|
 |**id**|Integer|Permission id|
+|**account**|String|Primary Account Pin|
 |**name**|String|Permission Name|
-|**permissionDetailList**|PermissionDetail[]|Permission Details|
+|**description**|String|Description|
 |**permissionType**|String|Permission Type|
 |**version**|String|Permission Version Number|
+|**content**|String|Permission Content|
+|**permissionDetailList**|PermissionDetail[]|Permission Details|
 ### PermissionDetail
 |Name|Type|Description|
 |---|---|---|
@@ -52,7 +51,7 @@ None
 |**ids**|String[]|Resource id Set, transmission * means that it is valid for all ids|
 |**type**|String|Resource Type, Virtual Machine-server, Image-image, Cloud Disk-volume, vpc-vpc, Public Ip-floatingIP, Load Balancer-loadbalance, Cloud Database (mysql)-database, Cloud Cache-cache|
 
-## Response code
-|Return code|Description|
+## Return Code
+|Return Code|Description|
 |---|---|
 |**200**|OK|

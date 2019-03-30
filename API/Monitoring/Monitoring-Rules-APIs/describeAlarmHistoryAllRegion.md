@@ -4,31 +4,35 @@
 ## Description
 Query alarm history
 The priority of retrieval condition combination from high to low is
-1. serviceCode
-1.1 serviceCode + resourceId
-1.2 serviceCode + resourceIds
-2. serviceCodes
-3. User’s All Rules
+1. alarmId
+2. serviceCode
+2.1 serviceCode + resourceId
+2.2 serviceCode + resourceIds
+3. serviceCodes
+4. User’s All Rules
 
 ## Request Method
 POST
 
 ## Request Address
-https://monitor.jdcloud-api.com/v1/rule/queryNotice
+https://monitor.jdcloud-api.com/v1/ruleNoticeHistory
 
 
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
+|**pageNumber**|Long|False| |Page; 1 by default, the value range: [1,∞)|
+|**pageSize**|Long|False| |Paging Size; 20 by default. Value Range: [10, 100]|
+|**serviceCode**|String|False| |Product Line|
+|**resourceId**|String|False| |Resource Id|
+|**resourceIdList**|String[]|False| |resourceId List|
 |**alarmId**|String|False| |RulesId|
 |**alarming**|Long|False| |Alarming, value: 1|
-|**endTime**|String|False| |End Time|
-|**filters**|Filter[]|False| |Service code or resource Id list <br>filter name is serviceCodes, representing rules to query multiple product lines<br>filter name is resourceIds, representing rules to query multiple resources|
-|**pageNumber**|Long|False| |Current page, 1 by default|
-|**pageSize**|Long|False| |Page size, 20 by default; value range [1, 100]|
-|**resourceId**|String|False| |ResourcesId|
-|**serviceCode**|String|False| |Product Line|
+|**serviceCodeList**|String[]|False| |Product Line List|
 |**startTime**|String|False| |Start Time|
+|**endTime**|String|False| |End Time|
+|**ruleType**|Long|False| |Rule types, search 1 by default, 1 indicates resource monitoring, 6 indicates site monitoring, 7 indicates availability monitoring|
+|**filters**|Filter[]|False| |Service code or resource Id list <br>filter name is serviceCodes, representing rules to query multiple product lines<br>filter name is resourceIds, representing rules to query multiple resources|
 
 ### Filter
 |Name|Type|Required or Not|Default Value|Description|
@@ -36,11 +40,11 @@ https://monitor.jdcloud-api.com/v1/rule/queryNotice
 |**name**|String|False| | |
 |**values**|String[]|False| | |
 
-## Return Parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String|Requested Identifierid|
 |**result**|Result| |
+|**requestId**|String|Requested identifierid|
 
 ### Result
 |Name|Type|Description|
@@ -55,11 +59,6 @@ https://monitor.jdcloud-api.com/v1/rule/queryNotice
 |**noticeTime**|Long|noticeTime|
 |**rule**|Rule| |
 |**value**|Double|Alarm Value|
-### DescribedNoticeContacts
-|Name|Type|Description|
-|---|---|---|
-|**referenceId**|Long|Contact ID|
-|**referenceType**|Long|Contact type. 0 - contact group id, 1 - contact id|
 ### Rule
 |Name|Type|Description|
 |---|---|---|
@@ -102,7 +101,12 @@ https://monitor.jdcloud-api.com/v1/rule/queryNotice
 |Name|Type|Description|
 |---|---|---|
 |**custom**|Boolean|Is it the class defined by the user, true or false|
-|**levels**|Object|Alarm class and corresponding indicator, common: moderate, critical: severe, fatal: emergency|
+|**levels**|Object|报警级别以及对应的阈值，是一个map[string]float64对象。key:common, critical, fatal, value: the threshold values corresponding to alarm levels, which shall meet the progressive relationship corresponding to operation parameters. eg: "levels":{"common":1000,"critical":10000,"fatal":15000}|
+### DescribedNoticeContacts
+|Name|Type|Description|
+|---|---|---|
+|**referenceId**|Long|Contact ID|
+|**referenceType**|Long|Contact type. 0 - contact group id, 1 - contact id|
 
 ## Return Code
 |Return Code|Description|

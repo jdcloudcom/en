@@ -4,6 +4,7 @@
 
 ### 1. Introduce dependency
 
+```
     <!-- 京东云SDK核心包 -->
     <dependency>
         <groupId>com.jdcloud.sdk</groupId>
@@ -16,7 +17,8 @@
         <artifactId>live</artifactId>
         <version>${version}</version>
     </dependency>
-    
+```
+
 ### 2. Call steps
 
 #### Step 1. Set accessKey and secretKey
@@ -29,6 +31,8 @@
 
 
 #### The call example of searching single live domain details is as below
+
+```java
 
     import com.jdcloud.sdk.JdcloudSdkException;
     import com.jdcloud.sdk.auth.CredentialsProvider;
@@ -76,6 +80,7 @@
         }
     }
     
+```
 
 ## Other Call Methods
-&emsp;&emsp;GitHub [Access Address](https://github.com/jdcloud-api)
+- GitHub [access address](https://github.com/jdcloud-api)

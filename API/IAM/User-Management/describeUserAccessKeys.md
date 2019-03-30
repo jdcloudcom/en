@@ -4,26 +4,25 @@
 ## Description
 Search AccessKey list
 
-## Request method
+## Request Method
 GET
 
-## Request address
+## Request Address
 https://iam.jdcloud-api.com/v1/regions/{regionId}/userAccessKeys
 
-|Name|Type|Required or not|Default value|Description|
+|Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**regionId**|String|True| |Region ID|
 
-## Request parameter
+## Request Parameter
 None
 
 
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String| |
 |**result**|Result| |
-
+|**requestId**|String| |
 
 ### Result
 |Name|Type|Description|
@@ -38,7 +37,7 @@ None
 |**state**|Integer|Disabled/Enabled Status [0-Disabled, 1-Enabled]|
 |**yn**|Integer|Deleted/Valid Status [0-Deleted, 1-Valid]|
 
-## Response code
-|Return code|Description|
+## Return Code
+|Return Code|Description|
 |---|---|
 |**200**|OK|

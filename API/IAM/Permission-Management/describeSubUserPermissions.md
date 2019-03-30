@@ -4,19 +4,19 @@
 ## Description
 Search sub-user’s policy list
 
-## Request method
+## Request Method
 GET
 
-## Request address
+## Request Address
 https://iam.jdcloud-api.com/v1/regions/{regionId}/subUser/{subUser}/permisssions
 
-|Name|Type|Required or not|Default value|Description|
+|Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**regionId**|String|True| |Region ID|
 |**subUser**|String|True| |Sub-user Name|
 
-## Request parameter
-|Name|Type|Required or not|Default value|Description|
+## Request Parameter
+|Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**pageNumber**|Integer|True| |Page|
 |**pageSize**|Integer|True| |Number of Roles Displayed on Each Page|
@@ -25,26 +25,25 @@ https://iam.jdcloud-api.com/v1/regions/{regionId}/subUser/{subUser}/permisssions
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String| |
 |**result**|Result| |
-
+|**requestId**|String| |
 
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**permissions**|Permission[]|Authority List Information|
 |**total**|Integer|Total Number|
+|**permissions**|Permission[]|Authority List Information|
 ### Permission
 |Name|Type|Description|
 |---|---|---|
-|**account**|String|Primary Account Pin|
-|**content**|String|Permission Content|
-|**description**|String|Description|
 |**id**|Integer|Permission id|
+|**account**|String|Primary Account Pin|
 |**name**|String|Permission Name|
-|**permissionDetailList**|PermissionDetail[]|Permission Details|
+|**description**|String|Description|
 |**permissionType**|String|Permission Type|
 |**version**|String|Permission Version Number|
+|**content**|String|Permission Content|
+|**permissionDetailList**|PermissionDetail[]|Permission Details|
 ### PermissionDetail
 |Name|Type|Description|
 |---|---|---|
@@ -56,7 +55,7 @@ https://iam.jdcloud-api.com/v1/regions/{regionId}/subUser/{subUser}/permisssions
 |**ids**|String[]|Resource id Set, transmission * means that it is valid for all ids|
 |**type**|String|Resource Type, Virtual Machine-server, Image-image, Cloud Disk-volume, vpc-vpc, Public Ip-floatingIP, Load Balancer-loadbalance, Cloud Database (mysql)-database, Cloud Cache-cache|
 
-## Response code
-|Return code|Description|
+## Return Code
+|Return Code|Description|
 |---|---|
 |**200**|OK|

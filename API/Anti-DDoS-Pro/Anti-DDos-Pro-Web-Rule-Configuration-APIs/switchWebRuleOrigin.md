@@ -4,31 +4,43 @@
 ## Description
 Switch web service rules into back-to-origin status
 
-## Request method
+## Request Method
 POST
 
-## Request address
+## Request Address
 https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/webRules/{webRuleId}:origin
 
-|Name|Type|Required or not|Default value|Description|
+|Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**instanceId**|String|True| |Instance ID|
 |**regionId**|String|True| |Region ID|
-|**webRuleId**|String|True| |Web Service Rule ID|
+|**instanceId**|Long|True| |Anti-DDoS Pro Instance Id|
+|**webRuleId**|Long|True| |Web Service Rule ID|
 
-## Request parameter
+## Request Parameter
 None
 
 
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
+|**result**|Result| |
 |**requestId**|String| |
+|**error**|Error| |
 
+### Error
+|Name|Type|Description|
+|---|---|---|
+|**code**|Integer|Request Error Status Code|
+|**status**|String|Request Error Status Code|
+|**message**|String|Request Error Notification|
+### Result
+|Name|Type|Description|
+|---|---|---|
+|**code**|Integer|0: Failed to switch rule to back-to-origin, 1: Succeeded to switch rule to back-to-origin|
+|**message**|String|Please specify reasons for failure of switching rule to back-to-origin|
 
-
-## Response code
-|Return code|Description|
+## Return Code
+|Return Code|Description|
 |---|---|
 |**200**|OK|
 |**404**|NOT_FOUND|

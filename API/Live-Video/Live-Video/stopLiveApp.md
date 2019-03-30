@@ -12,24 +12,30 @@ https://live.jdcloud-api.com/v1/apps:stop
 
 
 ## Request Parameter
-|Name|Type|Required or Not|Default Value|Description|
-|---|---|---|---|---|
-|**appName**|String|True| |appName|
-|**publishDomain**|String|True| |Live Pushing Streaming Domain|
+|Name|Type|If Compulsory|Description|
+|---|---|---|---|
+|**publishDomain**|String|True|Live Pushing Streaming Domain|
+|**appName**|String|True|Application Name|
 
 
-## Return Parameter
+## Examples
+    {
+        "publishDomain":"push.yourdomain.com",
+        "appName":"live"
+    }
+
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String|ruquestId|
+|**requestId**|String|requestId|
 
 
 ## Return Code
 |Return Code|Description|
 |---|---|
+|**200**|OK|
 |**400**|Invalid parameter|
 |**401**|Authentication failed|
 |**404**|Not found|
-|**503**|Service unavailable|
-|**200**|OK|
 |**500**|Internal server error|
+|**503**|Service unavailable|

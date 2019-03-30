@@ -132,6 +132,8 @@
             href: Instance-Management/disableInternetAccess.md
           - name: enableInternetAccess
             href: Instance-Management/enableInternetAccess.md
+          - name: exchangeInstanceDns
+            href: Instance-Management/exchangeInstanceDns.md
           - name: failoverInstance
             herf: Instance-Management/failoverInstance.md
           - name: modifyBackupPolicy

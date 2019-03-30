@@ -2,7 +2,7 @@
 
 
 ## Introduction
-IAM APIs
+IAM Relevant Interface /br>The product currently supports access control products for user identity management and resource access control. For details, please see: https://docs.jdcloud.com/cn/iam/support-services
 
 
 ### Version
@@ -14,6 +14,7 @@ v1
 |---|---|---|
 |**addPermissionsToSubUser**|POST|Associate policies for sub-users|
 |**createPermission**|POST|Create policy|
+|**createSubUser**|POST|Create sub-user|
 |**createUserAccessKey**|POST|Create AccessKey|
 |**deleteUserAccessKey**|DELETE|Delete AccessKey|
 |**describePermissionDetail**|GET|Search policy details|

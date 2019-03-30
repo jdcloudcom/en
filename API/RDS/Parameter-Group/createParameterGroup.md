@@ -10,20 +10,20 @@ POST
 ## Request Address
 https://rds.jdcloud-api.com/v1/regions/{regionId}/parameterGroups
 
-|Name|Type|Required or not|Default Value|Description|
+|Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**regionId**|String|True| |Region ID|
 
-## Request Parameters
-|Name|Type|Required or not|Default Value|Description|
+## Request Parameter
+|Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**engine**|String|True| |Instance Engine Type|
-|**engineVersion**|String|True| |Instance Engine Version|
+|**engine**|String|True| |Type of instance engine, see [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)|
+|**engineVersion**|String|True| |Version of instance engine, see [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)|
 |**parameterGroupName**|String|True| |Name of Parameter Group|
 |**description**|String|False| |Description of Parameter Group|
 
 
-## Returned Parameters
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
 |**result**|Result| |
@@ -34,6 +34,6 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/parameterGroups
 |**parameterGroupId**|String| |
 
 ## Return Code
-|Return Code|Descripton|
+|Return Code|Description|
 |---|---|
 |**200**|OK|

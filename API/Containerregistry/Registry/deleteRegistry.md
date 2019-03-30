@@ -3,20 +3,20 @@
 
 ## Description
 Delete a registry under a specified user.
+</br>For sensitive operation, <a href="https://docs.jdcloud.com/IAM/Operation-Protection”>MFA operation protection can be enabled</a>
 
-
-## Request method
+## Request Method
 DELETE
 
-## Request address
+## Request Address
 https://containerregistry.jdcloud-api.com/v1/regions/{regionId}/registries/{registryName}
 
-|Name|Type|Required or not|Default value|Description|
+|Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**regionId**|String|True| |Region ID|
 |**registryName**|String|True| |Registry Name|
 
-## Request parameter
+## Request Parameter
 None
 
 
@@ -26,8 +26,8 @@ None
 |**requestId**|String| |
 
 
-## Response code
-|Return code|Description|
+## Return Code
+|Return Code|Description|
 |---|---|
 |**200**|OK|
 |**400**|Invalid parameter|

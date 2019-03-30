@@ -10,27 +10,27 @@ PUT
 ## Request Address
 https://rds.jdcloud-api.com/v1/regions/{regionId}/parameterGroups/{parameterGroupId}/parameters
 
-|Name|Type|Required or not|Default Value|Description|
+|Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**regionId**|String|True| |Region ID|
 |**parameterGroupId**|String|True| |Parameter Group ID|
 
-## Request Parameters
-|Name|Type|Required or not|Default Value|Description|
+## Request Parameter
+|Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**parameters**|Parameter[]|True| |Modified Parameters|
 
 ### Parameter
-|Name|Type|Required or not|Default Value|Description|
+|Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**name**|String|False| |Parameter Name, which currently supports the following parameters: max_worker_threads, max_degree_of_parallelism, max_server_memory_(MB)|
-|**value**|String|False| |Modified Value of Parameter|
+|**name**|String|True| |Parameter Name|
+|**value**|String|True| |Modified Parameter Value|
 
-## Returned Parameters
+## Response parameter
 None
 
 
 ## Return Code
-|Return Code|Descripton|
+|Return Code|Description|
 |---|---|
 |**200**|OK|

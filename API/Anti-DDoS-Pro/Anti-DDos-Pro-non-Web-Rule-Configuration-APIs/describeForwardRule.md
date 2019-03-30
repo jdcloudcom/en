@@ -4,29 +4,35 @@
 ## Description
 Search a non-web service rule
 
-## Request method
+## Request Method
 GET
 
-## Request address
+## Request Address
 https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/forwardRules/{forwardRuleId}
 
-|Name|Type|Required or not|Default value|Description|
+|Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**forwardRuleId**|String|True| |Forwarding Rule ID|
-|**instanceId**|String|True| |Instance ID|
 |**regionId**|String|True| |Region ID|
+|**instanceId**|Long|True| |Anti-DDoS Pro Instance Id|
+|**forwardRuleId**|Long|True| |Forwarding Rule Id|
 
-## Request parameter
+## Request Parameter
 None
 
 
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String| |
 |**result**|Result| |
+|**requestId**|String| |
+|**error**|Error| |
 
-
+### Error
+|Name|Type|Description|
+|---|---|---|
+|**code**|Integer|Request Error Status Code|
+|**status**|String|Request Error Status Code|
+|**message**|String|Request Error Notification|
 ### Result
 |Name|Type|Description|
 |---|---|---|
@@ -34,27 +40,27 @@ None
 ### ForwardRule
 |Name|Type|Description|
 |---|---|---|
-|**algorithm**|String|Forwarding Rules: wrr->round Robin with weight,  wlc->minimum weighted connection,  rr->round Robin without weight,  sh->source address hash|
+|**id**|Long|Rule ID|
+|**instanceId**|Long|Instance ID|
+|**protocol**|String|TCP or UDP|
 |**cname**|String|cname of Rules|
-|**id**|Integer|Rule ID|
-|**instanceId**|Integer|Instance ID|
-|**onlineAddr**|String[]| |
-|**originAddr**|OriginAddrItem[]| |
-|**originDomain**|String|Back-to-origin Domain Name|
-|**originPort**|Integer|Back-to-origin Port Number|
 |**originType**|String|Back-to-origin Type: ip or domain|
 |**port**|Integer|Port Number|
-|**protocol**|String|TCP or UDP|
-|**status**|Integer|0->defense Status  1->back-to-origin Status|
+|**algorithm**|String|Forwarding rules<br>- wrr Round robin with weights <br>- wlc Minimum weighted connection<br>- rr  Round robin without weights<br>- sh  Source address hash<br>|
+|**originAddr**|OriginAddrItem[]| |
+|**onlineAddr**|String[]|Backup Back-to-origin Address List|
+|**originDomain**|String|Back-to-origin Domain Name|
+|**originPort**|Integer|Back-to-origin Port Number|
+|**status**|Integer|0 defense Status  1 back-to-origin Status|
 ### OriginAddrItem
 |Name|Type|Description|
 |---|---|---|
-|**inJdCloud**|Boolean|Confirm whether it is the Private IP/EIP address of JD Cloud?|
 |**ip**|String|Back-to-origin IP address|
 |**weight**|Integer|Weight|
+|**inJdCloud**|Boolean|Confirm whether it is the Private IP/EIP address of JD Cloud?|
 
-## Response code
-|Return code|Description|
+## Return Code
+|Return Code|Description|
 |---|---|
 |**200**|OK|
 |**404**|NOT_FOUND|

@@ -13,6 +13,7 @@ v1
 |Interface name|Request mehod|Function description|
 |---|---|---|
 |**createAlarm**|POST|Create alarm rules, it can create alarm rules for a certain instance, or it also can create alarm rules for multiple instances at the same time.|
+|**deleteAlarms**|DELETE|Batch Delete Rules|
 |**deleteAlarmsCm**|DELETE|Delete Customized Metric Monitoring Rules|
 |**describeAlarmContacts**|GET|Query rule alarm contacts|
 |**describeAlarmHistory**|GET|Query the alarm history</br>The priority of retrieval condition combination from high to low is </br>1. alarmId</br>2. serviceCode</br>2.1 serviceCode + resourceId</br>2.2 serviceCode + resourceIds</br>3. serviceCodes</br>4. all user rules|

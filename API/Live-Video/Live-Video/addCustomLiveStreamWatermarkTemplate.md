@@ -12,28 +12,39 @@ https://live.jdcloud-api.com/v1/watermarkCustoms:template
 
 
 ## Request Parameter
-|Name|Type|Required or Not|Default Value|Description|
-|---|---|---|---|---|
-|**height**|Integer|True| |Height|
-|**offsetX**|Integer|True| |x Axis Offset  Unit: Pixel|
-|**offsetY**|Integer|True| |y Axis Offset  Unit: Pixel|
-|**template**|String|True| |Record Template Customized Name|
-|**url**|String|True| |Height|
-|**width**|Integer|True| |Width|
+|Name|Type|If Compulsory|Description|
+|---|---|---|---|
+|**offsetX**|Integer|True|x Axis Offset:<br>  - Unit: Pixel<br>|
+|**offsetY**|Integer|True|y Axis Offset:<br>  - Unit: Pixel<br>|
+|**width**|Integer|True|Watermark Width:<br>  - Value: [0,1920]<br>|
+|**height**|Integer|True|Watermark Height:<br>  - Value: [0,1920]<br>|
+|**template**|String|True|Watermark Template Customized Name:<br>  - Value Requirements: For numbers, uppercase and lowercase letters, or hyphens ("-”),<br>              no special characters are allowed at the beginning and end("-")<br>  - <b>Note: It cannot be repeated with the defined template name</b><br>|
+|**url**|String|True|Watermark Address:<br>  - Start with http, accessible address<br>|
 
 
-## Return Parameter
+## Examples
+    {
+        "offsetX": "jpg",
+        "offsetY": "jpg",
+        "width": 1080,
+        "height": 720,
+        "template":"test-live-video",
+        "url":"http://amf.jdcloud.com"
+    }
+    
+
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String|ruquestId|
+|**requestId**|String|requestId|
 
 
 ## Return Code
 |Return Code|Description|
 |---|---|
+|**200**|OK|
 |**400**|Invalid parameter|
 |**401**|Authentication failed|
 |**404**|Not found|
-|**503**|Service unavailable|
-|**200**|OK|
 |**500**|Internal server error|
+|**503**|Service unavailable|

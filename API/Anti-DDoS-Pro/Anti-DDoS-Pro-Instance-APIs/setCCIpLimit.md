@@ -1,40 +1,52 @@
-# setCcIpLimit
+# setCCIpLimit
 
 
 ## Description
 Set the speed limit of each Ip of instance CC defense
 
-## Request method
+## Request Method
 POST
 
-## Request address
-https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:setCcIpLimit
+## Request Address
+https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:setCCIpLimit
 
-|Name|Type|Required or not|Default value|Description|
+|Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**instanceId**|String|True| |Instance ID|
 |**regionId**|String|True| |Region ID|
+|**instanceId**|Long|True| |Instance ID|
 
-## Request parameter
-|Name|Type|Required or not|Default value|Description|
+## Request Parameter
+|Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**cCSpec**|CcIpLimitSpec|True| |cc Parameter|
 
 ### CcIpLimitSpec
-|Name|Type|Required or not|Default value|Description|
+|Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**ccSpeedLimit**|Integer|False| |Speed Limit of Each CC Defense IP|
-|**ccSpeedPeriod**|Integer|False| |Speed Limit Statistic Period of Each CC Defense IP|
+|**ccSpeedLimit**|Long|True| |Speed limit for each cc defense ip|
+|**ccSpeedPeriod**|Long|True| |Speed limit statistic period of each cc defense ip|
 
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
+|**result**|Result| |
 |**requestId**|String| |
+|**error**|Error| |
 
+### Error
+|Name|Type|Description|
+|---|---|---|
+|**code**|Integer|Request Error Status Code|
+|**status**|String|Request Error Status Code|
+|**message**|String|Request Error Notification|
+### Result
+|Name|Type|Description|
+|---|---|---|
+|**code**|Integer|0: Failed to set speed limit of each IP for instance CC defense, 1: Succeeded to set speed limit of each IP for instance CC protection|
+|**message**|String|Please specify reasons for failure in setting speed limit of each IP for instance CC defense|
 
-
-## Response code
-|Return code|Description|
+## Return Code
+|Return Code|Description|
 |---|---|
 |**200**|OK|
 |**404**|NOT_FOUND|

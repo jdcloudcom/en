@@ -3,22 +3,24 @@
 
 ## Description
 Delete a Repository under a specified user.
+</br>For sensitive operation, <a href="https://docs.jdcloud.com/IAM/Operation-Protection”>MFA operation protection can be enabled</a>
 
-
-## Request method
+## Request Method
 DELETE
 
-## Request address
+## Request Address
 https://containerregistry.jdcloud-api.com/v1/regions/{regionId}/registries/{registryName}/repositories/{repositoryName}
 
-|Name|Type|Required or not|Default value|Description|
+|Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**regionId**|String|True| |Region ID|
 |**registryName**|String|True| |Registry Name|
 |**repositoryName**|String|True| |Repository Name|
 
-## Request parameter
-None
+## Request Parameter
+|Name|Type|Required or Not|Default Value|Description|
+|---|---|---|---|---|
+|**force**|Boolean|False| |Whether to delete the Container Registry with images by force|
 
 
 ## Response parameter
@@ -27,8 +29,8 @@ None
 |**requestId**|String| |
 
 
-## Response code
-|Return code|Description|
+## Return Code
+|Return Code|Description|
 |---|---|
 |**200**|OK|
 |**400**|Invalid parameter|
