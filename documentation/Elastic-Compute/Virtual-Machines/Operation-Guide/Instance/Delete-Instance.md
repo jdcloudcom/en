@@ -26,6 +26,6 @@ After that, the instance will enter the deleting status, please wait patiently f
 
 [Stop Instance](Stop-Instance.md)
 
-[Make Private Image](http://docs.jdcloud.com/cn/virtual-machines/create-private-image)
+[Make Private Image](http://docs.jdcloud.com/en/virtual-machines/create-private-image)
 
-[Create Cloud Disk Snapshot](http://docs.jdcloud.com/cn/cloud-disk-service/create-clouddisk-snapshot)
+[Create Cloud Disk Snapshot](http://docs.jdcloud.com/en/cloud-disk-service/create-clouddisk-snapshot)

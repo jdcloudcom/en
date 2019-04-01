@@ -5,7 +5,7 @@ Scenario: Enterprise A has purchased multiple cloud resources in JD Cloud, such 
 financial personnel, among which R&D personnel and test personnel may be assigned with the use permissions of different Virtual Machines, Cloud Disk Services and Cloud Databases. The operation and maintenance personnel may be assigned with the permissions of machine reboot, shutdown, database backup, etc.
 The financial personnel may be assigned with the permissions of billing management, payment, etc. The primary account owner of enterprise A is the administrator who can change or revoke JD Cloud access permissions according to the personnel changes at any time.
 ## Permission Management between Different Enterprises
- Authorization management for resources and cloud services between different enterprises.
- Scenario: for enterprise A and enterprise B, of which enterprise A has purchased multiple resources on the JD Cloud to develop enterprise businesses, but enterprise A hope to focus on business development, so it authorizes enterprise B to conduct operation and maintenance, monitoring of JD Cloud resources for it.
+ Authorization management for resources and cloud services between different enterprises.  
+Scenario: for enterprise A and enterprise B, of which enterprise A has purchased multiple resources on the JD Cloud to develop enterprise businesses, but enterprise A hope to focus on business development, so it authorizes enterprise B to conduct operation and maintenance, monitoring of JD Cloud resources for it.
  Enterprise B can further authorize the management of enterprise A's resources to the staff of enterprise B. If the contract which enterprise A authorizes enterprise B to conduct operation and maintenance management for it is terminated, enterprise A can revoke its authorization to enterprise B at any time.
 

@@ -1,7 +1,5 @@
 # Basic architecture
 
-----------
-
 Network load balancer is a self-developed product by JD Cloud, and focuses on four layers business services. It supports high performance, low latency, session persistence, etc. for over 100 million concurrent connections and millions of new connections per second. NLB supports auto scaling, and can eliminate the cumber of user’s business planning and manual expansion; NLB supports deployment across multiple availability zones and works closely with availability group AG to meet high availability deployment needs;
 
 The network load balancer can distribute large concurrent traffic to several backend instances, adjust resource utilization, eliminate influence to systems by fault of single device, improve system availability and expand system serviceability.
@@ -30,9 +28,7 @@ The load balancer can be associated to the availability group and dynamically ad
 The NLB high availability architecture is as follows:
 ![NLB高可用架构](../../../../image/Networking/NLB/NLB-HA.png)
 
-# Business Architecture*
-
-----------
+# Business Architecture
 
 The structure of NLB products is as follows:
 ![NLB产品结构](../../../../image/Networking/NLB/NLB-Arch.png)
@@ -74,27 +70,25 @@ Availability Group is the Virtual Machine logic set provided by JD Cloud, which 
 
 ## High reusability architecture description
 
-Listeners in the multiple same protocol types but under different server port numbers can be set under one load balancer;
+- Listeners in the multiple same protocol types but under different server port numbers can be set under one load balancer;
 
-Multiple listeners under the same load balancer can be reused to associate with the same backend service;
+- Multiple listeners under the same load balancer can be reused to associate with the same backend service;
 
-Multiple backend services under the same load balancer can be reused to associate with the same backend server group/availability group;
+- Multiple backend services under the same load balancer can be reused to associate with the same backend server group/availability group;
 
-The same virtual server (machine/container) can be registered to the same virtual server group through different ports;
+- The same virtual server (machine/container) can be registered to the same virtual server group through different ports;
 
-The same virtual server (machine/container) can be registered to different virtual server groups;
+- The same virtual server (machine/container) can be registered to different virtual server groups;
 
-The same availability group can be attached to multiple backend services of the same load balancer;
+- The same availability group can be attached to multiple backend services of the same load balancer;
 
-The same availability group can be attached to backend services of multiple load balancers.
+- The same availability group can be attached to backend services of multiple load balancers.
 
 Remark:
 
 The virtual server group can be only added with servers that are on the same Virtual Private Cloud as the associated load balancer instance.
 
 # Key technical principle
-
-----------
 
 ## Shunting principles
 
@@ -118,7 +112,7 @@ Connection draining is a way for load balancer registration instances to gracefu
 - [Product function](../Introduction/Features.md)
 - [Price overview](../Pricing/Price-Overview.md)
 - [Billing rules](../Pricing/Billing-Rules.md)
-- [Create Instance](../Getting-Started/Create-Instance.md) for specific actions.
+- [Create Instance](../Getting-Started/Create-Instance.md)
 - [Create virtual server group](../Operation-Guide/TargetGroup-Management.md)
 - [Configure listening policy](../Operation-Guide/Listener-Management.md)
 - [Manage rear end service and view health status of service instance](../Operation-Guide/Backend-Management.md)

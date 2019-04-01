@@ -28,7 +28,7 @@ items:
       - name: Policy Management
         items:
           - name: Policy Management
-            href: Policy-Managemenent/Policy-Management.md
+            href: Policy-Management/Policy-Management.md 
           - name: Policy Syntax (v2)
             href: Policy-Management/Policy-Syntax_v2.md
           - name: Policy (v3)
@@ -46,16 +46,14 @@ items:
       - name: Virtual MFA Equipment
         items:
           - name: Overview
-            href: Virtual-MFA-Management/MFA-Overview.md
+            href: Virtual-MFA-Device/MFA-Overview.md   
           - name: MFA Setting
-            href: Virtual-MFA-Management/MFA-Settings.md
+            href: Virtual-MFA-Device/MFA-Settings.md
           - name: Login Verification
-            href: Virtual-MFA-Management/Sign-up-Verification.md
-          - name: Operation Protection
-            href: Virtual-MFA-Management/Operation-Protection.md
+            href: Virtual-MFA-Device/Sign-up-Verification.md
           - name: Guidance for Third-party Application Installation and Usage
-            href: Virtual-MFA-Management/Third-Party-Apps.md
+            href: Virtual-MFA-Device/Third-party-Apps.md
   - name: FAQ
     items:
       - name: FAQ for MFA Login Verification
-        href: Virtual-MFA-Management/MFA-FAQs.md
+        href: Virtual-MFA-Device/MFA-FAQs.md

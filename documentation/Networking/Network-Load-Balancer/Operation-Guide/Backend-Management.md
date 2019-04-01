@@ -18,7 +18,7 @@
 
 - Scheduling algorithm: Support weighted round robin algorithm, weighted least connection number and source IP;
 
-- Session persistence: it is closed by default, open to support the TCP-based session persistence, and the default is 1440 seconds;
+- Session persistence: it is closed by default, open to support the TCP-based session persistence, and the default is 300 seconds;
 
 - Connection draining: Configure the connection draining timeout period, the range is [0, 3600] seconds, and the default is 300 seconds.
 

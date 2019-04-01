@@ -31,7 +31,7 @@ Note: The event with the **Ignore** tag will not be displayed again the in the u
 Query based on account asset, time period of details, threat model, grade and processing status, list of event details and more details of event processing status are provided. At the same, details of specific events are provided.
 
 - Action steps
-Cloud assets under your account of **JD Cloud** ***\***@[jdcloud.com](https://jdcloud.com/) can be received via an SMS: [*.win2012-bj](https://login.xxx.com/); if the Web targeted attack threat is found, please log in JD Cloud-Situation Awareness for emergency response.
+Cloud assets under your account of **JD Cloud** ***\***@[jdcloud.com](https://jdcloud.com/) can be received via an SMS: *.win2012-bj, if the Web targeted attack threat is found, please log in JD Cloud-Situation Awareness for emergency response.
 
  - Quick search
 Alarm events concerned can be quickly searched on the basis of account asset, time period of details and attack type. The event trend of recent period and of the same type can be conveniently viewed by the attack trend.

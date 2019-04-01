@@ -1,15 +1,17 @@
 # Update History #
-API Version: 1.2.5
+API Version: 1.3.1
 
 |Release Time|Version Number| Update |Instructions|
 |---|---|---|---|
-|2018-12-07|1.2.5 |Modification Interface|Modifying some interfaces to be internal | 
-|2018-12-03|1.2.4 |Modification Interface|Modification to Monitoring Host | 
-|2018-10-23|1.2.3 |Modify interface | All internal batch rules| 
-|2018-10-15|1.2.2 |Add a New Interface|Add a New Rule Interface| 
-|2018-10-10|1.2.1 |Add a New Interface|Monitoring data batch query interface BatchDescribeMetricData, and original new query fields of interface| 
-|2018-09-06|1.2.0 |Modify API Document|Add report API for Monitoring| 
-|2018-07-29|1.1.1 |Modify API Document|| 
+|2019-02-21|1.3.1|Modify the interface|Create a template and revise a template, it is required to increase the non-necessary parameter metric|
+|2018-12-19|1.3.0 |Modify interface path|Modify part of interface paths not meeting the specification of Gateway|
+|2018-12-07|1.2.5 |Modification Interface|Modifying some interfaces to be internal |
+|2018-12-03|1.2.4 |Modification Interface|Modification to Monitoring Host |
+|2018-10-23|1.2.3 |Modify interface | All internal batch rules|
+|2018-10-15|1.2.2 |Add a New Interface|Add a New Rule Interface|
+|2018-10-10|1.2.1 |Add a New Interface|Monitoring data batch query interface BatchDescribeMetricData, and original new query fields of interface|
+|2018-09-06|1.2.0 |Modify API Document|Add report API for Monitoring|
+|2018-07-29|1.1.1 |Modify API Document||
 |2018-07-29|1.1.0|Add Custom Metric Monitoring|* putMetricData Add report API for Custom Metric Monitoring|
 |2018-05-09|0.4.1|Modify API|* lastDownsample adds tags fields at the API, custom tag|
 |2018-05-09|0.4.0|Add API|* View the last point API at certain resource|

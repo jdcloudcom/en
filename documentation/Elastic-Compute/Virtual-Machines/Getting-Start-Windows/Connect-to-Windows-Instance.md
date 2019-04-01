@@ -65,13 +65,13 @@ Before connecting the Windows instance using MSTSC remote desktop, user must fir
 ![](../../../../image/vm/Getting-Start-Linux-Connect-Windows-mstsc3.png)
 6. Connect to the Windows instance you created on JD Cloud Successfully. <br>
 ![](../../../../image/vm/Getting-Start-Linux-Connect-Windows-mstsc4.png)
-7. If the login fails, please confirm whether the EIP address is entered correctly, and check the instance association [Security Group](../Operation-Guide/Security-Group/Overview.md) and the [Network ACL](http://docs.jdcloud.com/cn/virtual-private-cloud/network-acl-features) configuration of the subnet to confirm whether the instance allows the incoming traffic at port 3389.
+7. If the login fails, please confirm whether the EIP address is entered correctly, and check the instance association [Security Group](https://docs.jdcloud.com/en/virtual-private-cloud/security-group-features) and the [Network ACL](http://docs.jdcloud.com/en/virtual-private-cloud/network-acl-features) configuration of the subnet to confirm whether the instance allows the incoming traffic at port 3389.
 
 
 ## If the local system is Linux, login the Windows instance using rdesktop.
 When the local system is Linux and you need to login the Window instance remotely, you need to install the corresponding remote desktop connection program, usually using the rdesktop client.
 
-Before logging in, please check the [Security Group](http://docs.jdcloud.com/cn/virtual-private-cloud/security-group-features) of the instance and the [Network ACL](http://docs.jdcloud.com/cn/virtual-private-cloud/network-acl-features)
+Before logging in, please check the [Security Group](http://docs.jdcloud.com/en/virtual-private-cloud/security-group-features) of the instance and the [Network ACL](http://docs.jdcloud.com/en/virtual-private-cloud/network-acl-features)
 configuration of the subnet to ensure that the port 3389 of instance is open. After installing rdesktop, run the following commands to login the instance:
 
 ```
@@ -82,9 +82,9 @@ rdesktop -u administrator -p <Instance login password> <Instance EIP address>
 
 [Reset Password](../Operation-Guide/Instance/Reset-Password.md)
 
-[Security Group](http://docs.jdcloud.com/cn/virtual-private-cloud/security-group-features)
+[Security Group](http://docs.jdcloud.com/en/virtual-private-cloud/security-group-features)
 
-[Network ACL](http://docs.jdcloud.com/cn/virtual-private-cloud/network-acl-features)
+[Network ACL](http://docs.jdcloud.com/en/virtual-private-cloud/network-acl-features)
 
 
   [1]: ./images/Getting-Start-Linux-Connect-console.png "Getting-Start-Linux-Connect-console.png"

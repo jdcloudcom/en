@@ -20,11 +20,11 @@ https://monitor.jdcloud-api.com/v1/regions/{regionId}/cmAlarms
 |**ids**|String|True| |ids, separate multiple ids by \||
 
 
-## Return Parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String|Requested Identifierid|
 |**result**|Object| |
+|**requestId**|String|Requested identifierid|
 
 
 ## Return Code

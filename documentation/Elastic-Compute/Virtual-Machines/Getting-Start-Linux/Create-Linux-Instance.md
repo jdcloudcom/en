@@ -15,7 +15,7 @@
 
 6. Select Image: The image is divided into cloud system disk image and local system disk image. The former only supports the creation of instance with Cloud Disk as the system disk; and the latter only supports the creation of instance with the local disk as the system disk.
 	
-	In addition, the images are of following types: **Public Image**, **Private Image**, **Shared Image** and **Image in Marketplace**. Please refer to [Image Overview](../Operation-Guide/Image/Overview.md) for division details.
+	In addition, the images are of following types: **Public Image**, **Private Image**, **Shared Image** and **Image in Marketplace**. Please refer to [Image Overview](../Operation-Guide/Image/Image-Overview.md) for division details.
     
     Users first using JD Cloud can choose the "Public Image" provided by JD Cloud. You can choose the corresponding system and the appropriate version as required.
     
@@ -30,13 +30,13 @@
   * Virtual Machines System Disk: Support local disk and Cloud Disk, where the local disk has 40GB for free, and the capacity cannot be changed. The cloud disk supports 40GB~500GB.                
   * Virtual Machines Data Disk: If the system disk is a local disk, 8 data disks can be attached. If the system disk is a cloud disk, 7 cloud disks can be attached as data disks. You may select general SSD Cloud Disk, performance-oriented SSD Cloud Disk, capacity-oriented HDD Cloud Disk, SSD Cloud Disk and Premium Hdd Cloud Disk (where the first three are only provided in cn-east-2 region and the latter two are only provided in cn-north-1, cn-east-1 and cn-south-1 regions). After the cloud disk is attached to a VM, it needs to access the Virtual Machines operating system to attach cloud disk.     
    
-    You can create an empty disk of the specified type and capacity with the instance, or you can create a data disk based on an existing Cloud Disk Snapshot. For the assignment rules of data disk device name, please refer to [Assignment Rules](../Operation-Guide/Cloud-Disk/Assign-Device-Name.md).      
+    You can create an empty disk of the specified type and capacity with the instance, or you can create a data disk based on an existing Cloud Disk Snapshot. For the assignment rules of data disk device name, please refer to [Assignment Rules](../Operation-Guide/Storage/Assign-Device-Name.md).     
     
-    It supports the attachment of encrypted cloud disks to Virtual Machines (which is not supported by the first generation of instance specification). The cloud disk encryption attribute may be specified at the time of creating a null disk. If the disk is created from snapshot, the cloud disk encryption attribute is inherited from the snapshot side. After the creation of a cloud disk, its encryption attribute cannot be modified. For details, please refer to [Cloud Disk Service Encryption](../Operation-Guide/Cloud-Disk/Encryption-of-Cloud-Disk.md). 
+    It supports the attachment of encrypted cloud disks to Virtual Machines (which is not supported by the first generation of instance specification). The cloud disk encryption attribute may be specified at the time of creating a null disk. If the disk is created from snapshot, the cloud disk encryption attribute is inherited from the snapshot side. After the creation of a cloud disk, its encryption attribute cannot be modified. For details, please refer to [Cloud Disk Service Encryption](../Operation-Guide/Storage/Encryption-of-Cloud-Disk.md). 
     
     It supports Pay By Configuration, and the attribute of deletion on instance termination may be set for the non-multi-point attached cloud disk. If the attribute is checked, the disk will be deleted when the instance is deleted.
     
-	The cost of the Cloud Disk is independent of the instance. For the specific price information, please refer to [Cloud Disk Price](http://docs.jdcloud.com/cn/cloud-disk-service/billing-rules).
+	The cost of the Cloud Disk is independent of the instance. For the specific price information, please refer to [Cloud Disk Price](http://docs.jdcloud.com/en/cloud-disk-service/billing-rules).
 ![](../../../../image/vm/Getting-Start-Linux-Create-disk.png)
 
 9. Configure Instance Network:  
@@ -75,7 +75,7 @@ You need to set machine name, and the name cannot be blank. It only supports Chi
 
 [Billing Rules](../Pricing/Billing-Rules.md)
 
-[Image Overview](../Operation-Guide/Image/Overview.md)
+[Image Overview](../Operation-Guide/Image/Image-Overview.md)
 
 [Instance Type](../Introduction/Instance-Type-Family.md)
 
@@ -83,13 +83,13 @@ You need to set machine name, and the name cannot be blank. It only supports Chi
 
 [Cloud Disk Service Encryption](../Operation-Guide/Storage/Encryption-of-Cloud-Disk.md)
 
-[Cloud Disk Price](http://docs.jdcloud.com/cn/cloud-disk-service/billing-rules)
+[Cloud Disk Price](http://docs.jdcloud.com/en/cloud-disk-service/billing-rules)
 
-[VPC](http://docs.jdcloud.com/cn/virtual-private-cloud/product-overview)
+[VPC](http://docs.jdcloud.com/en/virtual-private-cloud/product-overview)
 
-[Subnet](http://docs.jdcloud.com/cn/virtual-private-cloud/subnet-features)
+[Subnet](http://docs.jdcloud.com/en/virtual-private-cloud/subnet-features)
 
-[Create Security Group](http://docs.jdcloud.com/cn/virtual-private-cloud/security-group-configuration)
+[Create Security Group](http://docs.jdcloud.com/en/virtual-private-cloud/security-group-configuration)
 
 [Elastic IP Price](../../../Networking/Elastic-IP/Pricing/Price-Overview.md)
 

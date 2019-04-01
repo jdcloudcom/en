@@ -1,7 +1,7 @@
 # Billing Overview
 #### Billing Method
 
-JD Cloud provides multiple billing methods for different users, [Monthly Package](http://docs.jdcloud.com/cn/billing/subscription), [Pay By Configuration](http://docs.jdcloud.com/cn/billing/pay-as-you-go) and [Pay By Consumption](http://docs.jdcloud.com/cn/billing/pay-as-you-go). The main billing method for Web Application Firewall is: [Monthly Package](http://docs.jdcloud.com/cn/billing/subscription)
+JD Cloud provides multiple billing methods for different users, [Monthly Package](http://docs.jdcloud.com/en/billing/subscription), [Pay By Configuration](http://docs.jdcloud.com/en/billing/pay-as-you-go) and [Pay By Consumption](http://docs.jdcloud.com/en/billing/pay-as-you-go). The main billing method for Web Application Firewall is: [Monthly Package](http://docs.jdcloud.com/en/billing/subscription)
 
 Costs for months or years are paid in advance, and current purchased time period supports 1 month~9 months, 1 year, 2 years, and 3 years; costs are deducted at one time when creating the instance;
 

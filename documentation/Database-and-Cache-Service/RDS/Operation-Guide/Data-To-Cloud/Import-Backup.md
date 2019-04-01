@@ -12,7 +12,7 @@
 
 ## 3. Confirm Import
 - View that the operation information is correct. 
-Note: Backup of Cloud on Single Database only supports backups in FULL mode. Therefore, please verify if the backup method is correct. You can view the [Document](https://docs.jdcloud.com/cn/rds/backup-local-database) for the specific methods
+Note: Backup of Cloud on Single Database only supports backups in FULL mode. Therefore, please verify if the backup method is correct. You can view the [Document](https://docs.jdcloud.com/en/rds/backup-local-database) for the specific methods
 - After information is confirmed to be correct, check the option box and start to import
 
 ![Import Backup 3](../../../../../image/RDS/Import-Backup-3.png)

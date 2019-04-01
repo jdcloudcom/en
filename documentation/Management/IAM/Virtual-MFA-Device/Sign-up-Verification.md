@@ -6,14 +6,14 @@ Login protection means that when you associate to virtual MFA equipment, in addi
 
 Please view the link for login questions: [FAQ for MFA Login Verification](https://docs.jdcloud.com/en/iam/mfa-faqs)
 
-![主账号登录MFA扫码验证页](../../../../image/IAM/MFA/主账号MFA扫码验证页.jpg)
+![主账号登录MFA扫码验证页](../../../../image/IAM/Virtual-MFA-Device/主账号MFA扫码验证页.jpg)
 
-![主账号MFA验证码页面](../../../../image/IAM/MFA/主账号MFA验证码页面.jpg)
+![主账号MFA验证码页面](../../../../image/IAM/Virtual-MFA-Device/主账号MFA验证码页面.jpg)
 
 ## Sub-account login secondary verification
 
 Please view the link for login questions: [FAQ for MFA Login Verification](https://docs.jdcloud.com/en/iam/mfa-faqs)
 
-![子用户登录验证页](../../../../image/IAM/MFA/子账号登录验证页.jpg)
+![子用户登录验证页](../../../../image/IAM/Virtual-MFA-Device/子账号登录验证页.jpg)
 
-![子用户MFA验证码页面](../../../../image/IAM/MFA/子账号MFA验证码页面.jpg)
+![子用户MFA验证码页面](../../../../image/IAM/Virtual-MFA-Device/子账号MFA验证码页面.jpg)

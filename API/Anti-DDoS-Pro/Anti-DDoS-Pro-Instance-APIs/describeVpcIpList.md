@@ -4,18 +4,18 @@
 ## Description
 Query the JD Cloud IP Resources of Users
 
-## Request method
+## Request Method
 GET
 
-## Request address
-https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instance/describeVpcIpList
+## Request Address
+https://ipanti.jdcloud-api.com/v1/regions/{regionId}/describeVpcIpList
 
-|Name|Type|Required or not|Default value|Description|
+|Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**regionId**|String|True| |Region ID|
 
-## Request parameter
-|Name|Type|Required or not|Default value|Description|
+## Request Parameter
+|Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**pageNumber**|Integer|False| |Page Number: 1 by default|
 |**pageSize**|Integer|False| |Paging Size, 10 by Default; Value Range [0, 100], 0 Means Full|
@@ -24,24 +24,30 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instance/describeVpcIpList
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String| |
 |**result**|Result| |
+|**requestId**|String| |
+|**error**|Error| |
 
-
+### Error
+|Name|Type|Description|
+|---|---|---|
+|**code**|Integer|Request Error Status Code|
+|**status**|String|Request Error Status Code|
+|**message**|String|Request Error Notification|
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**currentCount**|Integer|Current Page Counts|
 |**dataList**|VpcIpResource[]| |
-|**totalCount**|Integer|Total Number of Instances|
+|**currentCount**|Integer|Current Page Counts|
+|**totalCount**|Integer|Total Amount|
 |**totalPage**|Integer|Total Number of Pages|
 ### VpcIpResource
 |Name|Type|Description|
 |---|---|---|
-|**binded**|Boolean|Associate or Not|
 |**ip**|String|In-cloud IP Address|
+|**binded**|Boolean|Associate or Not|
 
-## Response code
-|Return code|Description|
+## Return Code
+|Return Code|Description|
 |---|---|
 |**200**|OK|

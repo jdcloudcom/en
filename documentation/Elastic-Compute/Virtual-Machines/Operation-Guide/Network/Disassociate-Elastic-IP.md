@@ -16,7 +16,7 @@ In addition, you can also:
 	3. In the instance list, select the instance that needs to disassociate EIP to the private IP of the primary network interface. Click Associate EIP.
 	5. In the second confirmation window that pops up, click **OK**.
 	 
-* Disassociate from the elastic network interface console. For details, see [Elastic Network Interface Side Disassociate EIP](../../../../Networking/Elastic-Network-Interface/Operation-Guide/ Private-IP-Management/Disassociate-Elastic-IP.md).
+* Disassociate from the elastic network interface console. For details, see [Elastic Network Interface Side Disassociate EIP](../../../../Networking/Elastic-Network-Interface/Operation-Guide/Private-IP-Management/Disassociate-Elastic-IP.md).
 
 ## Related Reference
 

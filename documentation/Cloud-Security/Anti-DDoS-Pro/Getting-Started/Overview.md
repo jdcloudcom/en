@@ -18,5 +18,5 @@ Refer to the following process for access to Anti-DDoS Pro for the Web Service, 
 - [Web Service Rule](Web-Service-Forwarding-Rule.md)
 - [Release Back-to-origin IP](Whitelist-local-IP-subnet.md)
 - [Modify DNS Resolution](Update-DNS-Settings.md)
-- [Billing Rules](../../Pricing/Billing-Rules.md)
+- [Billing Rules](../Pricing/Billing-Rules.md)
 

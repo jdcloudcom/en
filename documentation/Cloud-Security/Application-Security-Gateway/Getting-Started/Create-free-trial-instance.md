@@ -32,7 +32,7 @@ If the Application Load Balancer is not associated in **Step 2**, click Instance
 
  ![image.png](../../../../image/AppliAcation-Security-Gateway/list04-1.png)
  
-If there is no available Load Balancer, it is required to go to **Console-Network-Application Load Balancer** page to create an Application Load Balancer, then perform the association operation. Detailed Application Load Balancer [Creation Process](https://docs.jdcloud.com/cn/application-load-balancer/create-instance)
+If there is no available Load Balancer, it is required to go to **Console-Network-Application Load Balancer** page to create an Application Load Balancer, then perform the association operation. Detailed Application Load Balancer [Creation Process](https://docs.jdcloud.com/en/application-load-balancer/create-instance)
 
    
  #### 6. Defense Mode Adjustment
@@ -61,5 +61,5 @@ If there is no available Load Balancer, it is required to go to **Console-Networ
 
 ## Related References
 - [Package Description](../Introduction/Specifications.md)
-- [Billing Instructions](../Pricing/Billing-Rules.md)
-- [Creation Process of Application Load Balancer](https://docs.jdcloud.com/cn/application-load-balancer/create-instance)
+- [Billing Instructions](../Pricing/Price-Overview.md)
+- [Creation Process of Application Load Balancer](https://docs.jdcloud.com/en/application-load-balancer/create-instance)

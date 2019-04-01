@@ -1,11 +1,7 @@
 # Signature Algorithm #
 ## Step 1: Create standard request string and encrypt it ##
-To start the signature process, please create a string containing request information in a canonical format. This will ensure that JD Cloud can calculate the same signature as you have done when it receives the request. 
-
-The following example shows the pseudo-code for creating canonical request.
-
-Show the pseudo-code for canonical request
-
+Firstly, splice the requests in the following fixed form to generate a standard request string. 
+Example Pseudocode
  
 
 	CanonicalRequest =
@@ -19,17 +15,18 @@ Show the pseudo-code for canonical request
 
 In this pseudo-code:
 
-HTTPRequestMethod refers to HTTP request mode such as POST, GET and so on.
+HTTPRequestMethod is HTTP Protocol request method, such as POST and GET, and is indicated with complete uppercase letters.
 
-CanonicalURI refers to request path.
+CanonicalURI is the request path after URI coding.
 
-CanonicalQueryString refers to request for querying string. To build a canonical query string, firstly sort the parameter names in ascending order of character code, and then encode URI for each parameter name and value. Next, start to build the canonical query string from the first parameter name in the sorting list. For each parameter, the name of URL-encoded parameter should be appended, followed by an equal sign character (=), followed by the value of URL-encoded parameter. Empty strings are used for parameters that are not valued. & symbol should be appended after each parameter value, except for the last value in the list.
+CanonicalQueryString is request search character string. To construct a standard search character string, firstly sequence the **parameter names** based on character codes in ascending order, and then sequence the parameters with repeated name **based on values in ascending order**. Then, respectively carry out URI coding **for the name and value of each parameter** (please don’t carry out coding repeatedly). Then, start constructing standard search character strings from the first parameter name in the sorted list. **For each parameter, add the parameter name of URI code, followed by equal sign character (=) followed by the parameter value of URI code**. Use a null character string for parameters with no values. Add sign “&” after each parameter value, except the last value in the list.
 
-CanonicalHeaders refers to the request header and value that need to participate in the signature. To create a list of canonical HTTP request headers, please convert all HTTP header names to lowercase and delete leading and trailing spaces. Sort the request headers in ascending order of character code, and then traverse the request header names to build a list of canonical HTTP request headers. Use: Separate names and values, and add line breaks.
+To create a list with standard HTTP Request Head, please convert the names of all HTTP heads into **lowercase** (please guarantee that the Request Head name doesn’t contain spaces), and **delete the leading space and following space in the Request Head value**. Construct standard HTTP Request Head lists by sequencing the request heads in **ascending order** of character codes and then traversing the Request Head name. Note: **x-jdcloud-date** (the ISO8601 standard is obeyed; the UTC time is used; and the format is YYYYMMDDTHHmmssZ), **x-jdcloud-nonce** must be contained in requests and involved in signature; in case of a **x-jdcloud-security-token** head, it must also be involved in signature.
 
-SignedHeaders are used to tell JD Cloud which of the request headers are part of the signature process and which can be ignored by JD Cloud (for example, any additional headers added by the proxy). Pay attention that host, x-jdcloud-date and x-jdcloud-nonce must be included.
+CanonicalHeaders indicates the request head and value required to be involved in signature, use: Name and value isolated, line break added.
+SignedHeaders is used for notifying JD Cloud of which request heads are part of the signature process.
 
-Finally, it needs to express the payload in body by sixteen string in lowercase after SHA256 hashing. If the payload is empty, the empty string is used as the input to the hash function.
+Finally, it is required to express the payload in the request body in the form of **lowercase hexadecimal character string** after it undergoes SHA256 hash. If the effective load is null, an empty character string is used as the input of Hash function.
 
  
 
@@ -70,18 +67,18 @@ To create a string for signature, please concatenate the algorithm, date and tim
     Algorithm + \n +
     RequestDateTime + \n +
     CredentialScope + \n +
-    HashedCanonicalRequest
+    Lowercase(HexEncode(Hash(CanonicalRequest)))
 
 Among which,
  
 
 Algorithm always refers to JDCLOUD2-HMAC-SHA256.
 
-The date is in the same format as the one in the x-jdcloud-date HTTP request header, that is, YYYYMMDD'T'HHMMSS'Z', the value of which must match the one used in any previous step.
+RequestDateTime must be completely **the same as the format and value** in HTTP Request Head x-jdcloud-date.
 
-The format of CredentialScope is ”{time}/{region code}/{product line}/jdcloud2_request\n”, for example, 201130 / cn-north-1/vpc/ jdcloud2_request\n
+The format of CredentialScope is ”{time}/{regional coding}/{product line}/jdcloud2_request”, e.g., 20180130/cn-north-1/vpc/jdcloud2_request
 
-HashedCanonicalRequest refers that the standard request generated in Step 1 is expressed by sixteen string in lowercase after SHA256 hashing.
+Lowercase (HexEncode(CanonicalRequest)) is indicated as **lowercase hexadecimal character string** after the standard request generated in step 1 undergoes **SHA256 hash**.
 
 E.g:
 
@@ -94,14 +91,18 @@ E.g:
 ## Signature Step 3: Compute signature ##
 Pseudo-code for Computing
 
-	kSecret = your secret access key
+	kSecret = JD Cloud Access Key Secret
 	kDate = HMAC("JDCLOUD2" + kSecret, Date)
 	kRegion = HMAC(kDate, Region)
 	kService = HMAC(kRegion, Service)
 	kSigning = HMAC(kService, "jdcloud2_request")
 
 
-Among which, HMAC (key, data) represents the output of HMAC-SHA256 function in binary format. The date format used during hashing is YYYYMMDD. Region refers to the region code, and Service refers to the name of production line.
+Specifically, HMAC(key, data) represents the HMAC-SHA256 function returned and output in the binary format. The date format used in hashing is YYYYMMDD, and the value must be the same as in x-jdcloud-date. Region means regional coding, and Service means product line name.
+
+Carry out HMAC computing with the generated kSigning for the character string to be signed as obtained in step 2, and convert the calculation result into a lowercase hexadecimal character string:
+
+    signResult = Lowercase(HexEncode(HMAC(kSigning, StringToSign)))
 
 Finally, a signature string is generated, for example:
 
@@ -112,6 +113,60 @@ Finally, a signature string is generated, for example:
 ## Signature Step 4: Add signature information to the request ##
 After computing the signature, the result of the signature should be added to the request as the Authorization request header.
 
+Authorization format is
+JDCLOUD2-HMAC-SHA256 Credential={Access Key}/{Date}/{Region}/{Service}/jdcloud2_request, SignedHeaders={SignedHeaders}, Signature={signResult}
+
 Example of calling by curl command:
 
 	curl -X GET -H "x-jdcloud-date:20180404T061302Z" -H "x-jdcloud-nonce:ed558a3b-9808-4edb-8597-187bda63a4f2" -H "Authorization:JDCLOUD2-HMAC-SHA256 Credential=C61249XXXXXXXXXXXXXXXXXX/20180404/cn-north-1/monitor/jdcloud2_request, SignedHeaders=content-type;host;x-jdcloud-date;x-jdcloud-nonce, Signature=9b2026198d3acbf99da395e23a994ed369a0d70f5b4a5d7567dd0caf3009656d" -H "Content-Type:application/json" "http://vm.jdcloud-api.com/v1/regions/cn-north-1/metrics/cpu_util/metricData?serviceCode=vm&startTime=2018-04-04T06:01:46Z"
+
+
+## Signature Step Example ##
+If the entered information of user signature is:
+
+    Access Key：'TESTAK'
+    Access Key Secret：'TESTSK'
+    Date：'20190214T104514Z'
+    Region：'cn-north-1'
+    Service：'test'
+    Request Address and Path: 'http://test.jdcloud-api.com/v1/resource:action?p1=p1&p0=p0&o=%&u=u'
+    Request Head involved in signature:
+         'x-jdcloud-date' => '20190214T104514Z',
+         'x-jdcloud-nonce' => 'testnonce',
+         'x-my-header' => 'test',
+         'x-my-header_blank' => ' blank'
+    Request Address and Path: 'http://test.jdcloud-api.com/v1/resource:action?p1=p1&p0=p0&o=%&u=u'
+    Request Body: ‘body data'
+   
+The result of step 1 shall be:
+
+    POST
+    /v1/resource%3Aaction
+    o=%25&p0=p0&p1=p1&u=u
+    x-jdcloud-date:20190214T104514Z
+    x-jdcloud-nonce:testnonce
+    x-my-header:test
+    x-my-header_blank:blank
+    
+    x-jdcloud-date;x-jdcloud-nonce;x-my-header;x-my-header_blank
+    e51832a118eeff7ad976d635b7d04538e362e4c21bd0f6253580b0a83a209074
+    
+The result of step 2 shall be:
+
+    JDCLOUD2-HMAC-SHA256
+    20190214T104514Z
+    20190214/cn-north-1/test/jdcloud2_request
+    fb2e317056269590681d091f8eb22272967c0b922b2deda887312215ea4eed4c
+    
+The result of step 3 shall be:
+
+    (Attention: kDate, kRegion, kService and kSigning shall be the results in binary format, and as follows are displayed the result after conversion into hexadecimal character string. This is only for the purpose of page display, and in actual signature process, the hexadecimal conversion result can never be taken as the entry of the next step. Please use the original data in binary format.)
+	kDate = dbbdee87f18afeedd6456923587f5323b90c3a77fbc6e381b243c90c672d5daf
+	kRegion = 78e1da51757851329da8e31a6bad9f509c4816cacb8d5b2b9d171e49498ce4b6
+	kService = 44050ec21c8e839f36ff5b2d44ec4a5876f4ffd6ef9a7a692a3eba40396bdb68
+	kSigning = a4e50bcb6001be0008696b173c30172b5ce22a77db00d21c6a9d69de2ba33b7d
+
+    signResult = 2a98f83c074e7bee260bfc8ef64f009c07595bd93f7f0c3f4e156bf6479ed9bf
+The result of step 4 shall be:
+
+    JDCLOUD2-HMAC-SHA256 Credential=TESTAK/20190214/cn-north-1/test/jdcloud2_request, SignedHeaders=x-jdcloud-date;x-jdcloud-nonce;x-my-header;x-my-header_blank, Signature=2a98f83c074e7bee260bfc8ef64f009c07595bd93f7f0c3f4e156bf6479ed9bf

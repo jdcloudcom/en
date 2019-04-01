@@ -41,7 +41,7 @@ Support for session persistence based on TCP connections. The default time-out p
 
 At present, NLB can pass through the source IP originating from the client to the backend server by default, without special intervention and configuration by users.
 
-## Connection Draining
+### Connection Draining
 
 Connection draining is a way for backend server to gracefully exit the service. When a server is removed from the "virtual server group" or the availability group (AG), the connection draining timer is started. After that, only the established TCP connection packet will continue to be forwarded to the server until the connection draining time expires. So far, the newly established TCP connection will not be forwarded to the server.
 
@@ -87,10 +87,10 @@ You can set alarm rules based on monitoring items. When the monitoring item reac
 
 ## Relevant References
 
-- [Product overview](../Introduction/Overview.md)
+- [Product overview](../Introduction/Product-Overview.md)
 - [Product specification](../Introduction/Specifications.md)
 - [Price overview](../Pricing/Price-Overview.md)
-- [Create Instance](../Getting-Started/Create-Instance.md) for specific actions.
+- [Create Instance](../Getting-Started/Create-Instance.md)
 - [Create virtual server group](../Operation-Guide/TargetGroup-Management.md)
 - [Configure listening policy](../Operation-Guide/Listener-Management.md)
 - [Manage rear end service and view health status of service instance](../Operation-Guide/Backend-Management.md)

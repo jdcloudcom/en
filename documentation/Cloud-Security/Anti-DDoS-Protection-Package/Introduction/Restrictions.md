@@ -29,6 +29,6 @@ Elastic protection is not charged when the package is purchased. However, the pa
 
 ## Related References
 
-- [Product Overview](../Product-Introduction/Overview.md)
+- [Product Overview](../Introduction/Product-Overview.md)
 - [Price overview](../Pricing/Price-Overview.md)
 - [Create instance](../Getting-Started/Create-Instance.md)

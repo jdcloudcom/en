@@ -22,7 +22,7 @@ Multipart upload is divided into the following 3 steps::
 
 ## Full Example of Multipart Upload
 
-```
+```Java
 // Initialized Multipart Upload
 String bucket_name = "<your bucketname>";
 String file_path = "<your loacl file>";
@@ -71,7 +71,7 @@ catch(SdkClientException e) {
 
 ## // Enumerate Multipart Upload
 
-```
+```Java
 String bucket_name = "<your bucketname>";
 	    
 try {
@@ -94,7 +94,7 @@ catch(SdkClientException e) {
 
 ## Terminate Multipart Upload
 
-```
+```Java
 String bucket_name = "<your bucketname>";
     
 try {

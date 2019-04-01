@@ -4,72 +4,80 @@
 ## Description
 Search the instance list
 
-## Request method
+## Request Method
 GET
 
-## Request address
+## Request Address
 https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances
 
-|Name|Type|Required or not|Default value|Description|
+|Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**regionId**|String|True| |Region ID|
 
-## Request parameter
-|Name|Type|Required or not|Default value|Description|
+## Request Parameter
+|Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**name**|String|False| |Instance Name, Fuzzy Matching Available|
 |**pageNumber**|Integer|False| |Page Number: 1 by default|
 |**pageSize**|Integer|False| |Paging Size: 20 by default; value range [10, 100]|
+|**name**|String|False| |Instance Name, Fuzzy Matching Available|
 
 
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String| |
 |**result**|Result| |
+|**requestId**|String| |
+|**error**|Error| |
 
-
+### Error
+|Name|Type|Description|
+|---|---|---|
+|**code**|Integer|Request Error Status Code|
+|**status**|String|Request Error Status Code|
+|**message**|String|Request Error Notification|
 ### Result
 |Name|Type|Description|
 |---|---|---|
 |**dataList**|Instance[]| |
-|**totalCount**|Integer| |
+|**currentCount**|Integer|Current Page Counts|
+|**totalCount**|Integer|Total Amount|
+|**totalPage**|Integer|Total Number of Pages|
 ### Instance
 |Name|Type|Description|
 |---|---|---|
+|**id**|Long|Instance ID|
+|**name**|String|Instance Name|
+|**carrier**|Integer|Link type, 1: China Telecom, 2: China Telecom, China Unicom, 3: China Telecom, China Unicom and China Mobile|
+|**ipType**|Integer|ip types that can be protected, only China Telecom Line supports IPV6 ISP line at present:<br>- 0: IPV4,<br>- 1: IPV4/IPV6<br>|
+|**elasticTriggerCount**|Integer|Times of Triggering Elastic Bandwidth|
 |**abovePeakCount**|Integer|Frequency of Over Peak Value|
+|**inBitslimit**|Integer|Minimum Bandwidth|
+|**resilientBitslimit**|Integer|Elastic Bandwidth|
 |**businessBitslimit**|Integer|Business Bandwidth|
-|**carrier**|String|ISP Line, i.e. UNICOM and TELECOM|
+|**ccThreshold**|Integer|CC Threshold|
+|**ruleCount**|Integer|Non-web Service Rules|
+|**webRuleCount**|Integer|Web Service Rules|
+|**chargeStatus**|String|PAID|ARREARS|EXPIRED|
+|**securityStatus**|String|SAFE|CLEANING|BLOCKING|
+|**createTime**|String|Instance Creation Time|
+|**expireTime**|String|Instance Expiration Time|
+|**resourceId**|String|Resource ID, used during upgrade and renewal|
 |**ccProtectMode**|Integer|cc Defense Mode, 0->normal  1->critical  2->relaxed  3->customized|
 |**ccProtectStatus**|Integer|cc enabling status, 0->disabled  1->enabled|
 |**ccSpeedLimit**|Integer|cc defense mode has the same speed limit as customized mode|
 |**ccSpeedPeriod**|Integer|cc defense mode has the same speed limit period as customized mode|
-|**ccThreshold**|Integer|CC Threshold|
-|**chargeStatus**|String|PAID|ARREARS|EXPIRED|
-|**createTime**|Integer|Instance Creation Time|
-|**elasticTriggerCount**|Integer|Times of Triggering Elastic Bandwidth|
-|**expireTime**|Integer|Instance Expiration Time|
-|**hostQps**|Integer|The protection threshold of each Host when ccProtectMode is a customized mode|
-|**hostUrlQps**|Integer|The protection threshold of each Host+URI when ccProtectMode is a customized mode|
-|**inBitslimit**|Integer|Minimum Bandwidth|
-|**instanceId**|Integer|Instance ID|
 |**ipBlackList**|String[]|IP Blacklist|
 |**ipBlackStatus**|Integer|IP Blacklist Status, 0->disabled  1->enabled|
-|**ipHostQps**|Integer|The protection threshold of each source IP to Host when ccProtectMode is a customized mode|
-|**ipHostUrlQps**|Integer|The protection threshold of each source IP to Host+URI when ccProtectMode is a customized mode|
 |**ipWhiteList**|String[]|IP White List|
 |**ipWhiteStatus**|Integer|IP White List Status, 0->disabled  1->enabled|
-|**name**|String|Instance Name|
-|**pin**|String|User Pin|
-|**resilientBitslimit**|Integer|Elastic Bandwidth|
-|**resourceId**|String|Resource ID, used during upgrade and renewal|
-|**ruleCount**|Integer|Non-web Service Rules|
-|**securityStatus**|String|SAFE|CLEANING|BLOCKING|
 |**urlWhitelist**|String[]|url White List|
 |**urlWhitelistStatus**|Integer|url White List Status, 0->disabled  1->enabled|
-|**webRuleCount**|Integer|Web Service Rules|
+|**hostQps**|Integer|The protection threshold of each Host when ccProtectMode is a customized mode|
+|**hostUrlQps**|Integer|The protection threshold of each Host+URI when ccProtectMode is a customized mode|
+|**ipHostQps**|Integer|The protection threshold of each source IP to Host when ccProtectMode is a customized mode|
+|**ipHostUrlQps**|Integer|The protection threshold of each source IP to Host+URI when ccProtectMode is a customized mode|
 
-## Response code
-|Return code|Description|
+## Return Code
+|Return Code|Description|
 |---|---|
 |**200**|OK|

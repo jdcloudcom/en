@@ -2,8 +2,6 @@
 
   Network load balancer is a self-developed product by JD Cloud, and focuses on four layers business services. It supports high performance, low latency, session persistence, etc. for over 100 million concurrent connections and millions of new connections per second.
 
-  NLB supports auto scaling, and can eliminate the cumber of user’s business planning and manual expansion; NLB supports deployment across multiple availability zones and works closely with availability group Ag to meet high availability deployment needs; in addition to the minimum resource retention fee, NLB billing is fully based on the actual user traffic, and provides the most economical and practical service usage for users.
-
   Network load balancer (NLB) has the following features:
 
 * High performance: Supports over 100 million concurrent connections and millions of new connections per second.
@@ -22,6 +20,7 @@
 
 * Pay by consumption: In addition to the minimum resource retention fee, NLB charging is fully based on the actual user traffic, and provides the most economical and practical service usage for users.
 
+
 ## Comparison between Application Load Balancer & Network Load Balancer & Distributed Network Load Balancer
 
 | Comparison Item   |  Application Load Balancer | Network Load Balancer | Distributed Network Load Balancer |
@@ -31,7 +30,7 @@
 |Protocol Type	| HTTP, HTTPS, TLS and TCP | TCP | TCP |
 |WebSocket Support| ✔ | —— | —— |
 |Auto Scaling of Service Instance | ✔ | ✔ | ✔ |
-|High-availability deployment of multiple availability zones | ✔ | ✔ | All AZs |
+|High-availability deployment of multiple availability zones | ✔ | ✔ | ✔ |
 |Scheduling algorithm	| Weighted Round Robin, Weighting Least Connection Number and Source IP | Weighted Round Robin, Weighting Least Connection Number and Source IP | Weighted Source IP and Weighted Quintuple Form |
 |SSL Unloading and Certificate Management | ✔ | —— | —— |
 |Idle Connection Timeout | ✔ | ✔ | —— |
@@ -39,8 +38,7 @@
 |Session Persistence | Cookie-based Session Persistence  |  Session Persistence of TCP Connection | —— |
 |Connection Draining Overtime | Support connection draining only and do not support configuration time-out period |  ✔ | —— |
 |Instance Type Family of Backend Service | Virtual Machines/Native Container/Availability Group| Virtual Machines/Native Container/Availability Group | Virtual Machines/Native Container/Availability Group |
-|Health Check | HTTP/TCP | TCP | TCP |
-|Load Balancer for Multiple Ends in the Same Instance | ✔  | ✔ | —— |
+|Health Check | ✔ | ✔ | ✔ |
 |Switch Between Intranet and Internet Load Balancer	 | ✔ |	✔ | ✔ |
 |Deletion Protection | ✔  | ✔ | ✔ |
 |Billing Standard	| Relatively-high Rate (Temporarily Free)| Relatively-low Rate (Temporarily Free) | Free |
@@ -65,4 +63,4 @@
 
 ## Billing
 
-Network load balancer supports the traffic-based billing type For details, please refer to “[Billing Instructions](../Pricing/Billing-Overview.md)”.
+Network load balancer supports the traffic-based billing type For details, please refer to “[Billing Instructions](../Pricing/Billing-Rules.md)”.

@@ -10,7 +10,7 @@ You should specify information such as the instance type, image, VPC, security g
 The customized instance creation also includes the clone instance.
 
 ## Create Customized Instance
-The custom creation indicates that you need to customize the region, availability zone, instance type, image, VPC, security group, login password and so on based on your business scenarios. Depending on the types of operating system platforms, please refer to [Create Linux Instance](http://docs.jdcloud.com/cn/virtual-machines/create-linux-instance) and [Create Windows Instance](http://docs.jdcloud.com/cn/virtual-machines/create-windows-instance) for detailed creation steps.
+The custom creation indicates that you need to customize the region, availability zone, instance type, image, VPC, security group, login password and so on based on your business scenarios. Depending on the types of operating system platforms, please refer to [Create Linux Instance](http://docs.jdcloud.com/en/virtual-machines/create-linux-instance) and [Create Windows Instance](http://docs.jdcloud.com/en/virtual-machines/create-windows-instance) for detailed creation steps.
 
 <div id="user-content-1"></div>
 ### Clone Instance
@@ -31,7 +31,7 @@ The detailed steps are as follows:
 
 <div id=user-content-2></div>
 ## Create Instance by Instance Template (in Beta)
-The instance template is the configuration information template for creating VM instance provided by JD Cloud, including the image, instance type, type and capacity of system disk & data disk, VPC and subnet configuration, security group, and login information, etc., but without including the availability zone, instance name and description, etc. Please refer to [Instance Template Overview](http://docs.jdcloud.com/cn/virtual-machines/instance-template-overview) for detailed instructions of the instance template.
+The instance template is the configuration information template for creating VM instance provided by JD Cloud, including the image, instance type, type and capacity of system disk & data disk, VPC and subnet configuration, security group, and login information, etc., but without including the availability zone, instance name and description, etc. Please refer to [Instance Template Overview](http://docs.jdcloud.com/en/virtual-machines/instance-template-overview) for detailed instructions of the instance template.
 
 When creating instance by instance template, the configuration included in the instance template is selected by default and you can change it based on this.
 
@@ -54,7 +54,7 @@ The detailed steps are as follows, there are two operation entrances:
 
 <div id=user-content-3></div>
 ## Create Instance in Availability Group (in Beta)
-Availability Group (AG) is a logical collection of VM instance provided by JD Cloud. The instances in the Availability Group are distributed on the physical resources that are isolated from each other. When a hardware failure occurs, only some instances are affected. Your overall business is still not available. For details of Availability Group, please see [Availability Group Overview](http://docs.jdcloud.com/cn/availability-group/product-overview).
+Availability Group (AG) is a logical collection of VM instance provided by JD Cloud. The instances in the Availability Group are distributed on the physical resources that are isolated from each other. When a hardware failure occurs, only some instances are affected. Your overall business is still not available. For details of Availability Group, please see [Availability Group Overview](http://docs.jdcloud.com/en/availability-group/product-overview).
 
 Create instance in the Availability Group means that the newly created instances will be deployed on the corresponding physical resources according to the rules of the current Availability Group
 
@@ -82,8 +82,8 @@ The detailed steps are as follows, there are two operation entrances:
 
 [Create Linux Instance](https://cns-console.jdcloud.com/host/compute/list)
 
-[Create Windows Instance](http://docs.jdcloud.com/cn/virtual-machines/create-windows-instance)
+[Create Windows Instance](http://docs.jdcloud.com/en/virtual-machines/create-windows-instance)
 
-[Instance Template Overview](http://docs.jdcloud.com/cn/virtual-machines/instance-template-overview)
+[Instance Template Overview](http://docs.jdcloud.com/en/virtual-machines/instance-template-overview)
 
-[Availability Group Overview](http://docs.jdcloud.com/cn/availability-group/product-overview)
+[Availability Group Overview](http://docs.jdcloud.com/en/availability-group/product-overview)

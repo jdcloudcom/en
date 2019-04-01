@@ -4,4 +4,4 @@ For the commodities purchased in the marketplace, the invoices are issued by the
 For the invoice application of JD Could product procurement, see
 
 **Guide for Invoice Application of Marketplace Users**
-https://docs.jdcloud.com/cn/invoice/invoice-application-process
+https://docs.jdcloud.com/en/invoice/invoice-application-process

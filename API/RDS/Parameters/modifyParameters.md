@@ -2,7 +2,7 @@
 
 
 ## Description
-Modify Configuration Parameter of SQL Server Instance Some modified parameters can come into force only when being rebooted. For details, please refer to relevant documents of Microsoft<br>- Support SQL Serve onlyr
+For modifying the configuration parameter of SQL Server instance, the following parameter:max_worker_threads,max_degree_of_parallelism,max_server_memory_(MB) is supported. Some modified parameters can come into force only when being rebooted. For details, please refer to relevant document of Microsoft. <br>- Only Support SQL Server
 
 ## Request Method
 PUT
@@ -23,10 +23,10 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/paramet
 ### Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**name**|String|False| |Parameter Name, with the Following Parameter Supported Now:max_worker_threads,max_degree_of_parallelism,max_server_memory_(MB)|
-|**value**|String|False| |Modified Parameter Value|
+|**name**|String|True| |Parameter Name|
+|**value**|String|True| |Modified Parameter Value|
 
-## Return Parameter
+## Response parameter
 None
 
 

@@ -14,7 +14,7 @@ Within 7 days after the billing paid by configuration instance arrears, you need
 
 If the instance fails to start automatically, please manually [Start Instance](Start-Instance.md).
 
-The expiration/arrears of instance will affect your business continuity, so please renew/recharge in advance. You can also set the automatic renewal for the monthly package resources. Please refer to [Renew Management](http://docs.jdcloud.com/cn/online-buying/renew-management) for details.
+The expiration/arrears of instance will affect your business continuity, so please renew/recharge in advance. You can also set the automatic renewal for the monthly package resources. Please refer to [Renew Management](http://docs.jdcloud.com/en/online-buying/renew-management) for details.
 
 In addition, it is recommended to set the relevant software to automatically start up at boot to ensure the continuity of the service. If there is a database to which the application service is connected, it needs to be set to an automatic reconnection mechanism in the program.
 
@@ -22,4 +22,4 @@ In addition, it is recommended to set the relevant software to automatically sta
 
 [Start Instance](Start-Instance.md)
 
-[Renew Management](http://docs.jdcloud.com/cn/online-buying/renew-management)
+[Renew Management](http://docs.jdcloud.com/en/online-buying/renew-management)

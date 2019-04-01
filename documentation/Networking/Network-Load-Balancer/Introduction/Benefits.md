@@ -49,10 +49,10 @@ The console provides rich visual monitoring data Indicators; each data is clear 
 
 ## Relevant References
 
-- [Product overview](../Introduction/Overview.md)
+- [Product overview](../Introduction/Product-Overview.md)
 - [Product specification](../Introduction/Specifications.md)
 - [Price overview](../Pricing/Price-Overview.md)
-- [Create Instance](../Getting-Started/Create-Instance.md) for specific actions.
+- [Create Instance](../Getting-Started/Create-Instance.md)
 - [Create virtual server group](../Operation-Guide/TargetGroup-Management.md)
 - [Configure listening policy](../Operation-Guide/Listener-Management.md)
 - [Manage rear end service and view health status of service instance](../Operation-Guide/Backend-Management.md)

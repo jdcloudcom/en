@@ -22,7 +22,7 @@ Other: other types of notifications, such as surveys;
 
 All: all the above messages.
 
-![image](https://github.com/jdcloudcom/en/blob/en-signin-signup/image/Message-Center/消息管理-1.png)
+![image](../../../image/Message-Center/消息管理-1.png)
 
 ## Message Settings
 The **Message Settings** page shows the types of messages sent to you via SMS and email.
@@ -31,8 +31,8 @@ Click the **Edit** button next to each “Message Recipient” to set a contact 
 
 The way to send the account "Balance Warning" messages and “Insufficient Balance Reminder" cannot be modified. Such messages and reminders will be sent to your account contact (i.e. yourself) via SMS and email by default; you can set whether to specify contacts or contact groups to receive “Product Messages” via email and SMS.
 
-![image](https://github.com/jdcloudcom/en/blob/en-signin-signup/image/Message-Center/消息管理-2.png)
+![image](../../../image/Message-Center/消息管理-2.png)
 
 When setting a recipient for a message, you can select one or more contacts (the default message recipient is the account contact, i.e. yourself), or select one or more contact groups. Contacts and contact groups cannot be selected at the same time.
 
-![image](https://github.com/jdcloudcom/en/blob/en-signin-signup/image/Message-Center/消息管理-3.png)
+![image](../../../image/Message-Center/消息管理-3.png)

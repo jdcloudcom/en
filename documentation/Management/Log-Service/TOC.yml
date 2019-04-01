@@ -23,6 +23,8 @@ items:
           href: Introduction/ResourceLog/FunctionLog.md
         - name: JCS for Elasticsearch Log
           href: Introduction/ResourceLog/eslog.md
+        - name: API Gateway Log
+          href: Introduction/ResourceLog/apiLog.md
 - name: Product Pricing
   items:
     - name: Billing Overview

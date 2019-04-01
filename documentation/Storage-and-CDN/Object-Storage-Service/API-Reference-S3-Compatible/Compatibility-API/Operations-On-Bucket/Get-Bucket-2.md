@@ -52,7 +52,7 @@ Key| object key<br>Type: String<br>Ancestor: ListBucketResult.Contents
 LastModified | Last Modification time of object. <br>Type: Date<br>Ancestor: ListBucketResult.Contents
 MaxKeys| Limit the maximum count of returned objects in this time. <br>Type: Date<br>Ancestor: ListBucketResult.Contents
 Name| Name of bucket. <br>Type: String<br>Ancestor: ListBucketResult
-Owner| Owner of bucket. <br>Type: String<br>Children: DisplayName, ID<br>Ancestor: ListBucketResult.Contents | CommonPrefixes
+Owner| Owner of bucket. <br>Type: String<br>Children: DisplayName, ID<br>Ancestor: ListBucketResult.Contents
 Prefix |Returned object key must be prefixed with prefix by limit. <br>Type: String<br>Ancestor: ListBucketResult
 Size| Size of object. <br>Type: String<br>Ancestor: ListBucketResult.Contents
 StorageClass| Storage type: STANDARD, REDUCED_REDUNDANCY<br>Type: String<br>Ancestor: ListBucketResult.Contents

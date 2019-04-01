@@ -52,11 +52,11 @@
     - name: Web Service Rule Settings
       items:
         - name: Related Configurations of CC Defense Rules
-          herf: Operation-Guide/CC-Defense-Related.md
+          herf: Operation-Guide/Web-service-Protection-Settings/CC-Defense-Related.md
         - name: URL White List Configuration
-          herf: Operation-Guide/URL-Whitelist-Rules-Setting.md
+          herf: Operation-Guide/Web-service-Protection-Settings/URL-Whitelist-Rules-Setting.md
         - name: Certificate Management
-          herf: Operation-Guide/SSL-Cert-Management.md
+          herf: Operation-Guide/Web-service-Protection-Settings/SSL-Cert-Management.md
     - name: Attack Alarm Settings
       herf: Operation-Guide/Attack-Alarm-Notification-Settings.md
     - name: Black List and White List Settings

@@ -3,38 +3,42 @@
 
 ## Description
 Query alarm history
-Supporting query based on alarm rule ID, resource ID and product name.
-1. serviceCode
-1.1 serviceCode + resourceId
-1.2 serviceCode + resourceIds
-2. serviceCodes
-3. User's All Rules
+The priority of retrieval condition combination from high to low is
+1. alarmId
+2. serviceCode
+2.1 serviceCode + resourceId
+2.2 serviceCode + resourceIds
+3. serviceCodes
+4. User’s All Rules
 
-## Request method
+## Request Method
 GET
 
-## Request address
+## Request Address
 https://monitor.jdcloud-api.com/v1/regions/{regionId}/alarmHistory
 
-|Name|Type|Required or not|Default value|Description|
+|Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**regionId**|String|True| |Region ID|
 
-## Request parameter
-|Name|Type|Required or not|Default value|Description|
+## Request Parameter
+|Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
+|**pageNumber**|Long|False| |Page; 1 by default, the value range: [1,∞)|
+|**pageSize**|Long|False| |Paging Size; 20 by default. Value Range: [10, 100]|
+|**serviceCode**|String|False| |Product Line|
+|**resourceId**|String|False| |Resource Id|
+|**resourceIdList**|String[]|False| |resourceId List|
 |**alarmId**|String|False| |RulesId|
 |**alarming**|Long|False| |Alarming, value: 1|
-|**endTime**|String|False| |End Time|
-|**filters**|Filter[]|False| |Service code or resource Id list <br>filter name is serviceCodes, representing rules to query multiple product lines<br>filter name is resourceIds, representing rules to query multiple resources|
-|**pageNumber**|Long|False| |Current Page, 1 by default|
-|**pageSize**|Long|False| |Paging Size, 20 by default. Value Range: [1, 100]|
-|**resourceId**|String|False| |Resource Id|
-|**serviceCode**|String|False| |Product Line|
+|**serviceCodeList**|String[]|False| |Product Line List|
 |**startTime**|String|False| |Start Time|
+|**endTime**|String|False| |End Time|
+|**ruleType**|Long|False| |Rule types, search 1 by default, 1 indicates resource monitoring, 6 indicates site monitoring, 7 indicates availability monitoring|
+|**filters**|Filter[]|False| |Service code or resource Id list <br>filter name is serviceCodes, representing rules to query multiple product lines<br>filter name is resourceIds, representing rules to query multiple resources|
 
 ### Filter
-|Name|Type|Required or Not|Default|Description|
+|Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**name**|String|False| | |
 |**values**|String[]|False| | |
@@ -42,13 +46,13 @@ https://monitor.jdcloud-api.com/v1/regions/{regionId}/alarmHistory
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String|Request ID|
 |**result**|Result| |
+|**requestId**|String|Requested identifierid|
 
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**alarmHistoryList**|AlarmHistory[]|Alarm History List|
+|**alarmHistoryList**|DescribedAlarmHistory[]|Alarm History List|
 |**total**|Long|Total Amount|
 ### DescribedAlarmHistory
 |Name|Type|Description|
@@ -58,11 +62,16 @@ https://monitor.jdcloud-api.com/v1/regions/{regionId}/alarmHistory
 |**noticeLevelTriggered**|String|Alarm level triggered. It shall be 'common', 'critical', 'fatal' respectively from low to high|
 |**noticeTime**|String|Alarm Time|
 |**value**|Double|Alarm Value|
+### DescribedNoticeContacts
+|Name|Type|Description|
+|---|---|---|
+|**referenceId**|Long|Contact ID|
+|**referenceType**|Long|Contact type. 0 - contact group id, 1 - contact id|
 ### DescribedAlarm
 |Name|Type|Description|
 |---|---|---|
 |**calculateUnit**|String|Calculation Unit|
-|**calculation**|String|Statistical method: average value=avg, maximum value=max, minimum value=min,|
+|**calculation**|String|Statistical method: average value=avg, maximum value=max, minimum value=min|
 |**createTime**|String|Creation Time|
 |**downSample**|String|Downsampling Method|
 |**enabled**|Long|Enable or not|
@@ -84,14 +93,9 @@ https://monitor.jdcloud-api.com/v1/regions/{regionId}/alarmHistory
 |Name|Type|Description|
 |---|---|---|
 |**custom**|Boolean|Is it the class defined by the user, true or false|
-|**levels**|Object|Alarm class and corresponding indicator, common: moderate, critical: severe, fatal: emergency|
-### DescribedNoticeContacts
-|Name|Type|Description|
-|---|---|---|
-|**referenceId**|Long|Contact ID|
-|**referenceType**|Long|Contact type. 0 - contact grouping id, 1 - contact id|
+|**levels**|Object|报警级别以及对应的阈值，是一个map[string]float64对象。key:common, critical, fatal, value: the threshold values corresponding to alarm levels, which shall meet the progressive relationship corresponding to operation parameters. eg: "levels":{"common":1000,"critical":10000,"fatal":15000}|
 
-## Response code
-|Return code|Description|
+## Return Code
+|Return Code|Description|
 |---|---|
 |**200**|Query Alarm History|

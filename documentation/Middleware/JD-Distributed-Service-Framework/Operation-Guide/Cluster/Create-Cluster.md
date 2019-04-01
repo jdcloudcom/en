@@ -1,6 +1,6 @@
 # Create Registration Center
 
-The registration center is the management center for microservices. The user manages the cluster by creating a registration center. Registration center management functions include creating, deleting, scaling, and viewing cluster information, which are described section by section below.
+The registration center is the management center for microservices. The user achieves registration and discovery of services and manages the cluster by creating a registration center. Registration center management functions include creating, deleting, scaling, and viewing cluster information, which are described section by section below.
 
 #### Entry
 Middleware>JD Distributed Service Framework>Service Registration>Registration Center.

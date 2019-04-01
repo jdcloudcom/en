@@ -20,7 +20,7 @@ In addition, you can also:
 	3. In the instance list, select an instance of the elastic IP to be associated to the primary private IP of the primary network interface. Click Associate EIP.
 	5. In the pop-up window, select the EIP unassociated and click OK.
 	 
-* Associate operation from the elastic network interface console. For details, see [Elastic Network Interface Side Associate EIP](../../../../Networking/Elastic-Network-Interface/Operation-Guide/ Private-IP-Management/Associate-Elastic-IP.md).
+* Associate operation from the elastic network interface console. For details, see [Elastic Network Interface Side Associate EIP](../../../../Networking/Elastic-Network-Interface/Operation-Guide/Private-IP-Management/Associate-Elastic-IP.md).
 
 ## Related Reference
 

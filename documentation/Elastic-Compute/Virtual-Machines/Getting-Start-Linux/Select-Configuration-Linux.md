@@ -37,7 +37,7 @@ After you have successfully registered an account and completed real-name verifi
 
 * Storage:
   
-	JD Cloud provides Cloud Disk and local disk. A local disk is a storage device on a physical machine where the cloud server is located. It can obtain a lower delay, but there is a risk of single point data loss. The Cloud Disk adopts a multi-backup and distributed storage mode with high data reliability. The Cloud Disk provides **SSD Cloud Disk** and **Premium Hdd Cloud Disk** to be used as the system disk and data disk for the instance. Please see [Cloud Disk Type](http://docs.jdcloud.com/cn/cloud-disk-service/specifications) for details.
+	JD Cloud provides Cloud Disk and local disk. A local disk is a storage device on a physical machine where the cloud server is located. It can obtain a lower delay, but there is a risk of single point data loss. The Cloud Disk adopts a multi-backup and distributed storage mode with high data reliability. The Cloud Disk provides **SSD Cloud Disk** and **Premium Hdd Cloud Disk** to be used as the system disk and data disk for the instance. Please see [Cloud Disk Type](http://docs.jdcloud.com/en/cloud-disk-service/specifications) for details.
 	
 	* System Disk:: Support local disk and cloud disk, of which the local disk has 40GB for free, and the capacity cannot be changed. The cloud disk supports 40GB~500GB.
 	* Data Disk: If the system disk is a local disk, it supports attaching 8 data disks. If the system disk is a cloud disk, it supports attaching 7 data disks. It supports SSD cloud disk and Premium Hdd cloud disk, and the capacity can be set by yourself.
@@ -50,7 +50,7 @@ After you have successfully registered an account and completed real-name verifi
 * Networking:
     * VPC and Subnet: Select VPC and Subnet: You need to create a VPC and a subnet in the VPC first. Please see [VPC](http://docs.jdcloud.com/virtual-private-cloud/product-overview) and [Subnet](http://docs.jdcloud.com/virtual-private-cloud/subnet-features) for details.
     * Private IP: It is the specified private IP address of main network card of the Virtual Machines, which can be specified from the available IP addresses in the selected subnet. If there is no special requirement, it can be allocated automatically by the system. Once the intranet IP is allocated to the Virtual Machines, it cannot be changed.
-    * Security Group: You can create a security group that meets the IAM requirement under each VPC. If not, it supports to associate one from the three security group modules created automatically by the system. Please see [Security Group Overview](http://docs.jdcloud.com/cn/virtual-private-cloud/security-group-features) for details.
+    * Security Group: You can create a security group that meets the IAM requirement under each VPC. If not, it supports to associate one from the three security group modules created automatically by the system. Please see [Security Group Overview](http://docs.jdcloud.com/en/virtual-private-cloud/security-group-features) for details.
 
 * Bandwidth:
    
@@ -67,7 +67,7 @@ After you have successfully registered an account and completed real-name verifi
 * Login Information:
     * Username: It is set automatically according to the selected operating system. Windows system defaults to **Administrator**, and Linux system defaults to **root**.
     * Password Setting: Password is used for remote login and console VNC login. You can select **Set Now** or **Set Later** (the system will send the default password by SMS and email). After the instance is created, it can be modified.
-    * Key Pair Setting: For Linux system, you can choose key pair login. If you want to use key pair to login, you must create or import the key pair first. Please see [Create Key Pair](../Operation-Guide/Key-Pair) /Create-Keypair.md) for details.
+    * Key Pair Setting: For Linux system, you can choose key pair login. If you want to use key pair to login, you must create or import the key pair first. Please see [Create Key Pair](../Operation-Guide/Key-Pair/Create-Keypair.md) for details.
 
 * Purchase Quantity:
     
@@ -79,21 +79,21 @@ After knowing how to set the above configuration items, you can create a Linux V
 
 [Billing Rules](../Pricing/Billing-Rules.md)
 
-[Region and Availability Zone](http://docs.jdcloud.com/cn/virtual-machines/regions-and-availabilityzones)
+[Region and Availability Zone](http://docs.jdcloud.com/en/virtual-machines/regions-and-availabilityzones)
 
 [Instance Template](../Operation-Guide/Instance-Template/Instance-Template-Overview.md)
 
-[Availability Group](../../Availability-Group/Introduction/Overview.md)
+[Availability Group](../../Availability-Group/Introduction/Product-Overview.md)
 
 [Instance Type](../Introduction/Instance-Type-Family.md)
 
-[Cloud Disk Type](http://docs.jdcloud.com/cn/cloud-disk-service/specifications)
+[Cloud Disk Type](http://docs.jdcloud.com/en/cloud-disk-service/specifications)
 
-[VPC](http://docs.jdcloud.com/cn/virtual-private-cloud/product-overview)
+[VPC](http://docs.jdcloud.com/en/virtual-private-cloud/product-overview)
 
-[Subnet](http://docs.jdcloud.com/cn/virtual-private-cloud/subnet-features)
+[Subnet](http://docs.jdcloud.com/en/virtual-private-cloud/subnet-features)
 
-[Security Group Overview](http://docs.jdcloud.com/cn/virtual-private-cloud/security-group-features)
+[Security Group Overview](http://docs.jdcloud.com/en/virtual-private-cloud/security-group-features)
 
 [Elastic IP Billing Rules](../../../Networking/Elastic-IP/Pricing/Billing-Rules.md)
 

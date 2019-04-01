@@ -4,24 +4,24 @@
 ## Description
 Update Alarm Configuration
 
-## Request method
+## Request Method
 POST
 
-## Request address
+## Request Address
 https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:modifyAlarmConfig
 
-|Name|Type|Required or not|Default value|Description|
+|Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**instanceId**|String|True| |Instance ID|
 |**regionId**|String|True| |Region ID|
+|**instanceId**|Long|True| |Instance ID|
 
-## Request parameter
-|Name|Type|Required or not|Default value|Description|
+## Request Parameter
+|Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**alarmConfigSpec**|AlarmConfigSpec|True| |Update the Request Parameter of Alarm Configuration|
 
 ### AlarmConfigSpec
-|Name|Type|Required or not|Default value|Description|
+|Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**blackHoleAlarmEmailStatus**|Integer|False| |Black Hole Alarm Message Switch 0 Off 1 On|
 |**blackHoleAlarmSmsStatus**|Integer|False| |Black Hole Alarm SMS Switch 0 Off 1 On|
@@ -35,11 +35,23 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:modi
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
+|**result**|Result| |
 |**requestId**|String| |
+|**error**|Error| |
 
+### Error
+|Name|Type|Description|
+|---|---|---|
+|**code**|Integer|Request Error Status Code|
+|**status**|String|Request Error Status Code|
+|**message**|String|Request Error Notification|
+### Result
+|Name|Type|Description|
+|---|---|---|
+|**code**|Integer|0: Modification failed, 1: Modification succeeded|
+|**message**|String|Please specify reasons for modification failure|
 
-
-## Response code
-|Return code|Description|
+## Return Code
+|Return Code|Description|
 |---|---|
 |**200**|OK|

@@ -4,18 +4,18 @@
 ## Description
 Detect Whether the Instance Name is Legal
 
-## Request method
+## Request Method
 GET
 
-## Request address
-https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instance/checkName
+## Request Address
+https://ipanti.jdcloud-api.com/v1/regions/{regionId}/checkName
 
-|Name|Type|Required or not|Default value|Description|
+|Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**regionId**|String|True| |Region ID|
 
-## Request parameter
-|Name|Type|Required or not|Default value|Description|
+## Request Parameter
+|Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**name**|String|True| |Instance Name to be Detected|
 
@@ -23,16 +23,23 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instance/checkName
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String| |
 |**result**|Result| |
+|**requestId**|String| |
+|**error**|Error| |
 
-
+### Error
+|Name|Type|Description|
+|---|---|---|
+|**code**|Integer|Request Error Status Code|
+|**status**|String|Request Error Status Code|
+|**message**|String|Request Error Notification|
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**data**|Boolean|Detection Result, True Means Legal, False Means Illegal|
+|**code**|Integer|Detection result code, 0: unavailable, 1: available|
+|**message**|String|Detection result, specify reasons in case of unavailable|
 
-## Response code
-|Return code|Description|
+## Return Code
+|Return Code|Description|
 |---|---|
 |**200**|OK|

@@ -22,7 +22,7 @@ You can create S3Client to manage OSS resources such as bucket and file. To use 
 
 The following example shows how to create a client. For more Go SDK samples, please access S3 Go Example Code](https://github.com/awsdocs/aws-doc-sdk-examples/tree/master/go/example_code/s3).
 
-```
+```Go
 package main
 
 import (

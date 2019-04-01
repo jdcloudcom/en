@@ -4,7 +4,7 @@ Stream upload and ordinary upload are called as simple upload. Stream upload use
 
 ## Stream Upload
 
-```
+```Java
 String bucket_name = "<your bucketname>";
 String file_path = "<your path>";
 String key = Paths.get(file_path).getFileName().toString();
@@ -27,7 +27,7 @@ try {
 
 ## Ordinary Upload
 
-```
+```Java
 String bucket_name = "<your bucketname>";
 String file_path = "<your path>";
 String key = Paths.get(file_path).getFileName().toString();

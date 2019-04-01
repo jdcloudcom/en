@@ -1,0 +1,47 @@
+name: JCS for Kubernetes
+href: 
+items:
+- name: Interface Overview
+  href: overview.md
+- name: Update History
+  href: ChangeLog.md
+- name: Interface Information
+  items:
+  - name: Cluster
+    items:
+    - name: Create Cluster
+      href: Cluster/createCluster.md
+    - name: Delete Cluster
+      href: Cluster/deleteCluster.md
+    - name: Search cluster details
+      href: Cluster/describeCluster.md
+    - name: Search cluster list
+      href: Cluster/describeClusters.md
+    - name: Modify cluster attribute
+      href: Cluster/modifyCluster.md
+    - name: Set custom metric monitoring
+      href: Cluster/setUserMetrics.md
+  - name: Node Group
+    items:
+    - name: Create node group
+      href: NodeGroup/createNodeGroup.md
+    - name: Delete node group
+      href: NodeGroup/deleteNodeGroup.md
+    - name: Search details of node group
+      href: NodeGroup/describeNodeGroup.md
+    - name: Search list of node group
+      href: NodeGroup/describeNodeGroups.md
+    - name: Modify attribute of node group
+      href: NodeGroup/modifyNodeGroup.md
+    - name: Set automatic upgrade
+      href: NodeGroup/setAutoRepair.md
+    - name: Set size of node group
+      href: NodeGroup/setNodeGroupSize.md
+  - name: Quota
+    items:
+    - name: Query Quota
+      href: Quota/describeQuotas.md
+  - name: Service Configuration
+    items:
+    - name: Search version information
+      href: ServiceConfig/describeVersions.md

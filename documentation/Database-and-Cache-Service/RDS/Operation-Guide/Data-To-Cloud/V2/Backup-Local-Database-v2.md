@@ -17,7 +17,7 @@ go
 - If the model value is not Full, please carry out the step 3
 
 The user can use SQL Server Management Studio client tool to make full backup for the database. Please ensure the database recovery mode is "Full"
-![本地备份1](../../../../../image/RDS/Backup-Local-Database-1.png)
+![本地备份1](../../../../../../image/RDS/Backup-Local-Database-1.png)
 
 ## 2. Set the database recovery mode to be Full
 ```commandline

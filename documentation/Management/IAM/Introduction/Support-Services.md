@@ -28,6 +28,7 @@ The information in the table is defined as follows:
 > - Operation level: define whether there is access permissions to the specific interface (API) of cloud product, e.g., grant permission that the sub-user can read policy list in IAM.
 > - Resource level: define whether there is access permission to specific resources, which is the smallest authorization granularity, e.g., grant permission that the sub-user can modify the policy details in IAM.
 
+#### Cloud Products Supporting Policy v2:
 |  **Cloud Products**  | **Service Name** | **Policy Version** | **Open API** | **Console** | **Authorization Granularity** | **User Roles** | **Service Roles** |
 | :----------: | :--------------: | :------: | :------: | :----: | :------: | :------: | :------: |
 |    Virtual Machines    |      server      |    v2    |    ✔     |   ✔    |   －     |   －   |    －     |
@@ -37,10 +38,44 @@ The information in the table is defined as follows:
 |   Cloud Database   |     database     |    v2    |    ✔     |   ✔    |    －    |    －   |    －    |
 |    JCS    |      cache       |    v2    |    ✔     |   ✔    |   －   |    －    |   －     |
 |     VPC      |       vpc        |    v2    |    ✔     |   ✔    |    －    |   －    |   －     |
+
+
+#### Cloud Products Supporting Policy v3:
+##### Elastic Compute
+|  **Cloud Product**  | **Service Name** | **Policy Version** | **Open API** | **Console** | **Authorization Granularity** | **User Role** | **Service Role** |
+| :----------: | :--------------: | :------: | :------: | :----: | :------: | :------: | :------: |
+| Container Registry  |       containerregistry        |    v3    |    ✔     |   ✔    |  Resource Level  |   －     |    －    |
+|     POD      |       pod        |    v3    |    ✔     |   ✔    |  Resource Level  |    －    |   －    |
+##### Network
+|  **Cloud Product**  | **Service Name** | **Policy Version** | **Open API** | **Console** | **Authorization Granularity** | **User Role** | **Service Role** |
+| :----------: | :--------------: | :------: | :------: | :----: | :------: | :------: | :------: |
+|   Load Balancer   |        lb        |    v3    |    ✔     |   ✔    |  Resource Level  |   －    |   －     |
+##### Storage and CDN
+|  **Cloud Product**  | **Service Name** | **Policy Version** | **Open API** | **Console** | **Authorization Granularity** | **User Role** | **Service Role** |
+| :----------: | :--------------: | :------: | :------: | :----: | :------: | :------: | :------: |
+| Object Storage Service  |     oss       |    v3    |    ✔     |   ✔    |  Resource Level  |   －     |    －    |
+##### Cloud Security
+|  **Cloud Product**  | **Service Name** | **Policy Version** | **Open API** | **Console** | **Authorization Granularity** | **User Role** | **Service Role** |
+| :----------: | :--------------: | :------: | :------: | :----: | :------: | :------: | :------: |
 |   Endpoint Security   |       hips       |    v3    |    ✔     |   ✔    |Operation level  |   －     |   －   |
 | Anti-DDoS Basic |     baseanti     |    v3    |    ✔     |   ✔    | Resource level  |   －    |   －    |
 |   Situation Awareness   |       csa        |    v3    |    ✔     |   ✔    |  Operation level  |   －     |   －     |
 | Application Security Gateway |       sgw        |    v3    |    ✔     |   ✔    |Resource level  |   －     |    －     |
-|   Load Balancer   |        lb        |    v3    |    ✔     |   ✔    |  Resource level  |   －    |   －     |
-|     POD      |       pod        |    v3    |    ✔     |   ✔    |  Resource level  |    －    |   －    |
+|SSL Certificate |    ssl      |    v3    |    ✔     |   ✔    |  Resource Level  |   ✔    |    －    |
+##### Management
+|  **Cloud Product**  | **Service Name** | **Policy Version** | **Open API** | **Console** | **Authorization Granularity** | **User Role** | **Service Role** |
+| :----------: | :--------------: | :------: | :------: | :----: | :------: | :------: | :------: |
+| Directory Service |     directoryservice     |    v3    |    ✔     |   ✔    |  Resource Level  |   ✔    |    ✔   |
+|Security Token Service |    sts     |    v3    |    ✔     |   ✔    |  Resource Level  |    －    |    －   |
+##### Middleware
+|  **Cloud Product**  | **Service Name** | **Policy Version** | **Open API** | **Console** | **Authorization Granularity** | **User Role** | **Service Role** |
+| :----------: | :--------------: | :------: | :------: | :----: | :------: | :------: | :------: |
 | Message Queue JCQ  |       jcq        |    v3    |    ✔     |   ✔    | Resource level  |   －     |    －    |
+##### Expense Center
+|  **Cloud Product**  | **Service Name** | **Policy Version** | **Open API** | **Console** | **Authorization Granularity** | **User Role** | **Service Role** |
+| :----------: | :--------------: | :------: | :------: | :----: | :------: | :------: | :------: |
+| Order Placement and Payment Permissions  |      order       |    v3    |   ✔       |  ✔     |  Resource Level  |   －     |    －    |
+##### Big Data & Analytics
+|  **Cloud Product**  | **Service Name** | **Policy Version** | **Open API** | **Console** | **Authorization Granularity** | **User Role** | **Service Role** |
+| :----------: | :--------------: | :------: | :------: | :----: | :------: | :------: | :------: |
+| Data Factory2.0  |       datafactory       |    v3    |   －      |  －    |  Service Level  |   －     |    －    |

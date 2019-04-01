@@ -1,7 +1,8 @@
 # Cluster Monitoring
 ## Introduction
 - JD Cloud provides JCS for Kubernetes with monitoring data from different resources and different dimensions such as cluster, work node group, work node and Workload, which is convenient for you to grasp the usage status of resources in real time and locate the exception status of cluster or service easily. And it conducts integration with JD Cloud Monitoring, providing monitoring data collection and monitoring data persistence storage functions.  
-- JCS for Kubernetes provides two types of resource monitoring: basic monitoring and Custom Metric Monitoring. Basic monitoring is the monitoring of cluster infrastructure such as management node group and work node group. Custom Metric Monitoring provides a monitoring indicator for applications that users customize to deploy in the cluster, including CPU used, memory used, etc.  
+- JCS for Kubernetes provides two types of resource monitoring: basic monitoring and custom metric monitoring. Basic monitoring is the monitoring of cluster infrastructure such as management node group and work node group, including node status, Pod status, request times of API, API request/response byte, memory utilization rate, CPU utilization rate, disk read/write throughput, network out/in rate,
+; Custom Metric Monitoring provides a monitoring indicator for applications that users customize to deploy in the cluster, including CPU used, memory used, etc.  
 - By default, JD Cloud provides JCS for Kubernetes with basic resource monitoring, and you can choose to enable Workload Custom Metric Monitoring.  
 
 ### Create JCS for Kubernetes that supports monitoring  

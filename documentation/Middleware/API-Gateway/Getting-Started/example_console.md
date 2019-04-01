@@ -102,6 +102,7 @@ The following process is the guide for creating the API in the API Gateway conso
 
   - Turn on the [AccessKey Management](https://uc.jdcloud.com/account/accesskey), click **Create Access Key**, and obtain Access Key ID and Access Key Secret after the cellphone verification.
 
+
     ![Access Key管理](../../../../image/Internet-Middleware/API-Gateway/exap_Access_Key_admin.png)
 
   - Turn on [Access Authorization](https://apigateway-console.jdcloud.com/authorizationList), and click **Create Authorization**.

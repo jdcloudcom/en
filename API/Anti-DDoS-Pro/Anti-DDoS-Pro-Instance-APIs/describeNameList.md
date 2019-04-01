@@ -4,46 +4,52 @@
 ## Description
 Query the List of Anti-DDoS Pro Instance Names
 
-## Request method
+## Request Method
 GET
 
-## Request address
-https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instance/describeNameList
+## Request Address
+https://ipanti.jdcloud-api.com/v1/regions/{regionId}/describeNameList
 
-|Name|Type|Required or not|Default value|Description|
+|Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**regionId**|String|True| |Region ID|
 
-## Request parameter
-|Name|Type|Required or not|Default value|Description|
+## Request Parameter
+|Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**id**|String|False| |Anti-DDoS Pro Instance ID; If Blank, Query All the Instance Names|
+|**id**|Long|False| |Anti-DDoS Pro Instance ID; if null, query all the instance names|
 |**name**|String|False| |Instance Name, Fuzzy Matching Available|
 |**pageNumber**|Integer|False| |Page Number: 1 by default|
-|**pageSize**|Integer|False| |Paging Size, 10 by Default; Value Range [0, 100]|
+|**pageSize**|Integer|False| |Paging size; it is 10 by default; value range: [10, 100]|
 
 
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String| |
 |**result**|Result| |
+|**requestId**|String| |
+|**error**|Error| |
 
-
+### Error
+|Name|Type|Description|
+|---|---|---|
+|**code**|Integer|Request Error Status Code|
+|**status**|String|Request Error Status Code|
+|**message**|String|Request Error Notification|
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**currentCount**|Integer|Current Page Counts|
 |**dataList**|InstanceIdName[]| |
-|**totalCount**|Integer|Total Number of Instances|
+|**currentCount**|Integer|Current Page Counts|
+|**totalCount**|Integer|Total Amount|
 |**totalPage**|Integer|Total Number of Pages|
 ### InstanceIdName
 |Name|Type|Description|
 |---|---|---|
-|**id**|String|Instance ID|
+|**id**|Long|Instance ID|
 |**name**|String|Instance Name|
 
-## Response code
-|Return code|Description|
+## Return Code
+|Return Code|Description|
 |---|---|
 |**200**|OK|
