@@ -47,6 +47,15 @@ The visual policy generator is designed to provide users with more friendly and 
 
 In the JSON policy generator, after entering the policy name and description, you can write JSON policies directly, or you can select a policy template before editing JSON documents.
 
+ - For resource specification, the tag associated resources can be automatically obtained according to the specified tag. When the primary account needs to grant the permission of the newly created resource to the sub-user, there is no need to change the policy, it only needs to label the corresponding resource, the policy can take effect in time.
+ - For operation specification, the operations can be specified in batches by selecting corresponding permission set according to the product line name.
+ 
+ ![按标签创建策略页面](../../../../image/IAM/PolicyManagement/按标签创建策略页面.jpg)
+ 
+### JSON Policy Generator
+
+In the JSON policy generator, after entering the policy name and description, you can write JSON policies directly, or you can select a policy template before editing JSON documents.
+
 ![Json 选择模板](../../../../image/IAM/PolicyManagement/Json策略创建.jpg)
 
 ## Policy Detail

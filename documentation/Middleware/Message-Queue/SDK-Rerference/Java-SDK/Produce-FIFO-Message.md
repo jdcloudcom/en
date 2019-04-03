@@ -9,7 +9,7 @@ Message Queue JCQ SDK supports two sequential message modes: Synchronously sendi
 | PROPERTY_TAGS | The message tag can be set; 1 tag is supported temporarily |
 
 ## Code Example
-```java
+```Java
 package com.jcloud.jcq.sdk.demo;
 
 import com.jcloud.jcq.protocol.Message;

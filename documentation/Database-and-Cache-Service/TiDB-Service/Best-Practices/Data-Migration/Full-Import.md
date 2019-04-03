@@ -26,7 +26,7 @@ Result: Import time is about 11 hours, i.e., 19.4G/hour
 ## Export Data from MySQL
 We use mydumper to export data from MySQL, shown as follows:
 
-```
+```Shell
 ./bin/mydumper -h 127.0.0.1 -P 3306 -u root -t 16 -F 64 -B test -T t1,t2 --skip-tz-utc -o ./var/test
 ```
 As we mentioned above, we use -B test to indicate that we operate the database of test, then we use -T t1, t2 to indicate that we only export two tables of t1 and t2.
@@ -44,13 +44,13 @@ As we mentioned above, we use -B test to indicate that we operate the database o
 
 We use loader to import data exported before into TiDB. See Loader use document for Loader download and specific use method
 
-```
+```Shell
 ./bin/loader -h 127.0.0.1 -u root -P 4000 -t 32 -d ./var/test
 ```
 
 After successful import, we can use official client of MySQL to enter TiDB for view:
 
-```
+```Shell
 mysql -h127.0.0.1 -P4000 -uroot
 
 mysql> show tables;

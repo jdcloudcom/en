@@ -26,7 +26,7 @@ and finally, all the Messages are concatenated using English commas in the order
 
 ### Sample Code (Python3)
 
-```python
+```Python
 #!/home/lizhijian/opt/python3.7/bin/python3
 
 import base64

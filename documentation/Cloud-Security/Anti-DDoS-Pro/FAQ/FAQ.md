@@ -21,9 +21,9 @@ In addition to providing SYN Flood, ACK Floods, ICMP Flood, UDP Flood, NTP Flood
 **Q: What ISP-Lines does Anti-DDoS Pro support?**
 
 A: Anti-DDoS Pro supports single and multiple ISP-Line purchase, and supports the single ISP-Line to upgrade to multi ISP-Lines.
-- Single ISP-Line: The China Telecom's ISP-Lines can support up to 400G of protection bandwidth.
+- Single ISP-Line: The China Telecom's ISP-Lines.
 
-- Multi ISP-Lines: There are two optional ISP-Lines: Telecom+Unicom and Telecom+Unicom+CMCC, supporting up to 400G of protection bandwidth.
+- Multi ISP-Lines: Telecom+Unicom+CMCC.
 
 By default, the China Telecom's ISP-Lines will be resolved to the China Telecom Machine Room, the China Unicom's ISP-Lines to the China Unicom Machine Room, and the CMCC's ISP-Lines to the CMCC Machine Room. If the attack traffic exceeds the maximum capacity of China Unicom Machine Room or CMCC Machine Room, the ISP-Lines will be resolved to the China Telecom's ISP-Lines to complete the cleaning.
 

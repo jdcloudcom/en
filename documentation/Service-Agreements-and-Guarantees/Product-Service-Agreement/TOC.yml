@@ -12,6 +12,8 @@ items:
     href: Kubernetes-Cluster-Service-Provision.md
   - name: Container Registry Service Agreement
     href: Container-Registry-Service-Terms.md
+  - name: Service Level Agreement (SLA) of Container Registry
+    href: Container-Registry-Service-SLA.md
   - name: RDS Service Agreement
     href: Cloud-Database-RDS-Service-Clause.md
   - name: RDS Service Level Agreement (SLA)
@@ -98,3 +100,7 @@ items:
     href: Cloud-Desktop-Service-ProtocolSLA.md
   - name: VOD Agreement 
     href: Video-on-demand-service-protocol.md
+  - name: Service Terms of Queue Service
+    href: Queue-Service-Terms-Of-Service.md   
+  - name: Service Level Agreement (SLA) of Queue Service
+    href: Queue-Service-Terms-Of-Service-SLA.md

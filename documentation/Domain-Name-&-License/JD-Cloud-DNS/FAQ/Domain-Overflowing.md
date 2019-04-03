@@ -20,9 +20,9 @@ Then add a www record for aaa.com under the default line.
 
 4.www is A 4.4.4.4 by default
 
-At this time, China Unicom, Telecom, Mobile users will not resolve the 4.4.4.4 when visiting www.aaaa.com. According to the rules of line prioritized matching, it will first match the extensive domain name under the subdivision of the line, then resolves the corresponding extensive domain name.
+At this time, China Unicom, Telecom, Mobile users will not resolve the 4.4.4.4 when visiting `www.aaa.com`. According to the rules of line prioritized matching, it will first match the extensive domain name under the subdivision of the line, then resolves the corresponding extensive domain name.
 
-If you want to make the Unicom, Telecom, Mobile users access to www.aaa.com, and resolve 4.4.4.4, you should add a www fixed domain name record for aaa.com under three lines with an extensive domain name, as shown below.
+If you want to make the Unicom, Telecom, Mobile users access to `www.aaa.com`, and resolve 4.4.4.4, you should add a www fixed domain name record for aaa.com under three lines with an extensive domain name, as shown below.
 
 1.* Unicom A 1.1.1.1
 
@@ -38,6 +38,6 @@ If you want to make the Unicom, Telecom, Mobile users access to www.aaa.com, and
 
 7.www Default A 4.4.4.4
 
-At this time, the Unicom, Telecom, and Mobile users can resolve 4.4.4.4 when they access www.aaa.com.
+At this time, the Unicom, Telecom, and Mobile users can resolve 4.4.4.4 when they access `www.aaa.com`.
 
  

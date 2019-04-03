@@ -131,7 +131,9 @@
   - name: Related Resources
     items:
     - name: Document History
-      href: Related-Resources/Document-History.md   
+      href: Related-Resources/Document-History.md
+     - name: Service Terms
+      href: Related-Resources/Related-Agreement.md  
     - name: ICP Filing
       href: Related-Resources/Filing.md           
       status: 0        

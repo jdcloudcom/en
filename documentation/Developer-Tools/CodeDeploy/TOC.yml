@@ -67,6 +67,8 @@
         href: Operation-Guide/Install-Agent.md
       - name: Agreement
         href: Operation-Guide/Convention.md
+      - name: Jenkins Plug-ins  
+        href: Operation-Guide/Jenkins.md
   - name: Best Practices
     items: 
       - name: Blue and Green Deployment

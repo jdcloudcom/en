@@ -1,7 +1,7 @@
 # Local Backup of Database
 
 ## 1.  Check database recovery mode
-```commandline
+```SQL
 use master;
 go
 select name,   case recovery_model
@@ -20,7 +20,7 @@ The user can use SQL Server Management Studio client tool to make full backup fo
 ![本地备份1](../../../../../../image/RDS/Backup-Local-Database-1.png)
 
 ## 2. Set the database recovery mode to be Full
-```commandline
+```SQL
 alter database [dbname] set recovery full;
 go
 ```
@@ -29,14 +29,14 @@ Repeat the step 1 and confirm if the database recovery mode is modified or not
 
 ## 3.  Backup database
 Taking the following backup file in the name of testdb.bak for example:
-```commandline
+```SQL
 use master;
 go
 backup database [dbname] to disk   ='z:\Backup\testdb.bak' with compression,init,stats=5;
 go
 ```
 ## 4. Verify backup file integrity
-```commandline
+```SQL
 use master;
 go
 restore filelistonly 
@@ -51,7 +51,7 @@ go
 ## 5. Restore database recovery mode
 - If the database recovery mode is changed, please perform the following commands to restore the database recovery mode;
 - If no change is made, please ignore the step.
-```commandline
+```SQL
 alter database [dbname] set recovery [model];
 go
 ```

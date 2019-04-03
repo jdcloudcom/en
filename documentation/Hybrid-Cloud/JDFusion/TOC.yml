@@ -25,7 +25,8 @@ items:
       href: Operation-Guide/jdfusion-cloud-InvitationCode.md
     - name: How to log in JDFusion console
       href: Operation-Guide/jdfusion-cloud-uc.md
- 
+    - name: Deployment Operation Guide
+      href: Operation-Guide/jdfusion-cloud-deployment.md 
       
 - name: Historic Release
   items:

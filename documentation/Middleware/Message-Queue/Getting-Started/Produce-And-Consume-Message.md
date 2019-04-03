@@ -41,7 +41,7 @@ After the message is sent successfully, it needs to consume the message accordin
 Take Java SDK as an example, other ways and development languages please refer to other chapters.
 
 1. Introduce dependency
-```
+```XML
 <dependency>
    <groupId>com.jdcloud</groupId>
    <artifactId>jcq-java-sdk</artifactId>

@@ -12,7 +12,6 @@ This document introduces the important updating history of RDS documentation, in
 
 - [Product Overview](../Introduction/Product-Overview.md)
 - [Benefits](../Introduction/Benefits.md)
-- [Specifications](../Introduction/Specifications.md)
 - [Application Scenarios](../Introduction/Application-Scenarios.md)
 - [FAQ](../FAQ/FAQ.md)
 

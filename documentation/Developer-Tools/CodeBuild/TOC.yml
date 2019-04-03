@@ -21,11 +21,11 @@
         href: Pricing/Billing-Overview.md
   - name: Getting Started
     items:
-      - name: Create New Items
+      - name: Create a Task
         href: Getting-Started/Create-Project.md
       - name: Execute and Create
         href: Getting-Started/Build.md
-      - name: Creation History
+      - name: Task Detail
         href: Getting-Started/Detail.md
       - name: Construction History
         href: Getting-Started/Build-History.md

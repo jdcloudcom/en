@@ -8,7 +8,7 @@ It mainly explains how to transfer data from the self-built VM Percona to the JC
 ## Operation Steps
 1. See specific steps of the JCS for Percona service creation in [Create Cloud Database RDS Instance](../../../Operation-Guide/Instance/Create-Instance.md).
 2. Create a database via the console to ensure that the name of the database to be exported from the self-built VM Percona is also created in the JCS for Percona service. See specific creation steps in [Create Database](../../../Operation-Guide/Database-Management/Create-Database.md).
-3. Create a database account via the console, or use the account that created for the Percona service creation, and then give this account the ***read/write*** authorization for the new database created in step 2. See specific creation steps in [Create Account](../../../Operation-Guide/Account/Create-Account.md).
+3. Create a database account via the console, or use the account that created for the Percona service creation, and then give this account the ***read/write*** authorization for the new database created in step 2. See specific creation steps in [Create Account](../../../Operation-Guide/Account/Create-Account/Percona-Create-Account.md).
 4. Export the data from the self-built Percona of the VM to the local of the VM and execute the command after completing the creation and initialization of the JCS for Percona service.
 
     ```

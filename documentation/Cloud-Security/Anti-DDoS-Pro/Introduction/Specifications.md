@@ -10,7 +10,7 @@ The Anti-DDoS Pro currently supports the following instance specifications.
 | Elastic Protection	| 0G to 1200G | 	
 | Business Bandwidth	| 100M to 2000M	 | 
 
-For greater protection, please contact the customer service.
+The maximum protection capability is up to 1.5T.
 
 ## Related Reference
 

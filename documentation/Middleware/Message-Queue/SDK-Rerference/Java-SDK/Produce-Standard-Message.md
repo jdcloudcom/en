@@ -20,7 +20,7 @@ Message Queue JCQ SDK supports four sequential message modes: synchronously send
 | PROPERTY_DELAY_TIME | The message deferred time can be set, ranging from 0-3,600 seconds     |
 
 ## Code Example
-```java
+```Java
 package com.jcloud.jcq.sdk.demo;
 
 import com.jcloud.jcq.common.constants.MessageConstants;

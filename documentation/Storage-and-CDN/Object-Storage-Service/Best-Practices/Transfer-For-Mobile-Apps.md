@@ -43,7 +43,7 @@ You can deploy the following example code on the application server to generate 
 
 The example is prepared based on S3 JAVA SDK, the installation and use of SDK can refer to [JAVA SDK Installation](../API-Reference-S3-Compatible/Compatibility-Tools/SDK-Java/Installation-S3.md).
 
-```
+```Java
 import java.net.URL;
 import java.util.Date;
 
@@ -115,7 +115,7 @@ Note: The pre-signed URL will not expose your AccessKey Secret.
 
 Use Curl command to simulate uploading a file using pre-signed URL, the example command is as follows:
 
-```
+```Shell
 curl -X PUT -T testfile "http://testbucket.s3.cn-north-1.jcloudcs.com/testkey?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20190117T044444Z&X-Amz-SignedHeaders=host&X-Amz-Expires=98&X-Amz-Credential=59E6DC72927457BDEBF36A56EE616B07%2F20190117%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=a21204debab7c0b0c4ba334e6a9f76d5b6ce3328591acc29890540ddee513dcf" -v
 ```
 
@@ -125,7 +125,7 @@ Because when the mobile application uploads data, it does not transfer data thro
 
 You can configure your application server as the callback server according to the following example. When the revoke notification is triggered, OSS will generate a message notification to the revoke URL. The event message is in JSON format and you can analyze the content you need from the event message.
 
-```
+```Java
 import org.springframework.http.HttpHeaders;
 import org.springframework.util.Base64Utils;
 import org.springframework.web.bind.annotation.*;

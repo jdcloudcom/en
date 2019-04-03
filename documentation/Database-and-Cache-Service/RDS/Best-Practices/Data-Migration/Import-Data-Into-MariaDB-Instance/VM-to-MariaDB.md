@@ -8,7 +8,7 @@ We mainly discuss about how to migrate self-created MariaDB Service from virtual
 ## Action Steps
 1. Create JCS for MariaDB, the specific steps for creation see [Create Cloud Database RDS instance](../../../Operation-Guide/Instance/Create-Instance.md).
 2. Create the database through the console. It shall ensure that the name of virtual machine self-created MariaDB to be exported has been created in JCS for MariaDB as well. For specific creation steps, see [Create Database](../../../Operation-Guide/Database-Management/Create-Database.md).
-3. Create database account through the console, which also can be the account used for creating JCS for MariaDB. Then grant ***read/write*** permission for the new database created in the step 2 of operation. Specific creation steps see [Create Account](../../../Operation-Guide/Account/Create-Account.md).
+3. Create database account through the console, which also can be the account used for creating JCS for MariaDB. Then grant ***read/write*** permission for the new database created in the step 2 of operation. Specific creation steps see [Create Account]((../../../Operation-Guide/Account/Create-Account/MariaDB-Create-Account.md).
 4. After completion of JCS for MariaDB creation and initialization, it should begin to export data from virtual machine self-created MariaDB to local by executing the command
 
     ```

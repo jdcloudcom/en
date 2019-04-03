@@ -6,17 +6,17 @@
 
 The dependent sdk configured in pom.xml is as follows:
 ```
-<dependency>
-<groupId>com.amazonaws</groupId>
-<artifactId>aws-java-sdk</artifactId>
-<version>1.11.136</version>
+<dependency>XML
+    <groupId>com.amazonaws</groupId>
+    <artifactId>aws-java-sdk</artifactId>
+    <version>1.11.490</version>
 </dependency>
 ```
 
 2.Example Code
 
 The following is an example presigned URL.
-```
+```Java
 import java.net.URL;
 import com.amazonaws.ClientConfiguration;
 import com.amazonaws.Protocol;

@@ -14,7 +14,7 @@ OSS callback notification comprises the two parts, including the **configuration
 
 - Message notification: When the event notification is triggered in the Bucket, the notification content in specified format will be sent to the callback URL. The notification method is HTTP(S).
 
-Callback Notification Process:
+**Callback Notification Process**:
 
 1. Specify a Bucket to set the message notification rules.
 
@@ -25,6 +25,8 @@ Callback Notification Process:
 4. If the callback server gives no response, OSS will retry for three times. If there is still no response, it is believed that the callback is failed.
 
 **Callback notification support API**: [PUT Bucket notification](../../API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/PUT-Bucket-Notification-2.md)、[GET Bucket notification](../../API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/GET-Bucket-Notification-2.md)
+
+**控制台设置回调通知**：请参考[控制台设置事件通知-HTTP\\(S\\)](../../Getting-Started/Event-Notifications-1.md)完成设置。
 
 ## Configuration callback notification
 

@@ -13,13 +13,13 @@ There are options as below:
 
    - Enter deployment operation command: A convenient and easy-to-use form is provided to meet basic demands of most users, please select the "Form" function and fill in specific operation commands. At the same time, to cope with complex operation commands, yaml files can be filled. For writing specifications, please refer to "Operation Guide File-Jdcloud-codedeploy"
   
-      - Deployment path: At most five groups of sources and destinations are supported. For details, please refer to "Operation Guide-source and destination in Jdcloud-codedeploy File"
+      - Deployment content: A maximum of 5 pairs of sources and destinations are supported. For details, please refer to “Operation Guide-source and destination in Jdcloud-codedeploy File”
      
-      - Stop script path: Refer to the script used for stopping a program in case of rollback and deployment update
+      - Stop script path: Refer to the command or script used for stopping a program in case of rollback and deployment update
      
-      - Start script path: Refer to the script used for starting a program in case of rollback and deployment update
+      - Start script path: Refer to the command and script used for starting a program in case of rollback and deployment update
      
-      - Check script path: Refer to the script used for checking deployment results upon completion of the deployment The return value 0 means successful, while the return value other than 0 means failed
+      - Check script path: Refer to the command or script used for checking deployment results upon completion of the deployment The return value 0 means successful, while the return value other than 0 means failed
       
       - Executing script account: Refer to the account used when executing hooks in the deployment operation. This account shall be the existing account of the system. Otherwise, the account cannot be deployed
      

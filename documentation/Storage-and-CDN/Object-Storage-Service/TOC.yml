@@ -39,6 +39,8 @@ items:
         href: Getting-Started/Delete-Object-1.md
       - name: Delete Bucket
         href: Getting-Started/Delete-Bucket-1.md
+      - name: 设置事件通知
+        href: Getting-Started/Event-Notifications-1.md 
  - name: Operation Guide
    items:
       - name: Sign up Service

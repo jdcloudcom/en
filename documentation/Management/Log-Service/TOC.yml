@@ -22,9 +22,11 @@ items:
         - name: Function Service Log
           href: Introduction/ResourceLog/FunctionLog.md
         - name: JCS for Elasticsearch Log
-          href: Introduction/ResourceLog/eslog.md
+          href: Introduction/ResourceLog/esLog.md
         - name: API Gateway Log
           href: Introduction/ResourceLog/apiLog.md
+        - name: Application Load Balancer Access Log
+          href: Introduction/ResourceLog/ALBLog.md
 - name: Product Pricing
   items:
     - name: Billing Overview

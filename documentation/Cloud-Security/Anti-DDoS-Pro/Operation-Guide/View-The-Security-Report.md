@@ -4,6 +4,7 @@ Anti-DDoS Pro provides rich security reports to help you understand the protecti
 ## Operation Steps
 ### Mode 1
 1. Log in to the Anti-DDoS Pro [Monitoring Report Page](https://ip-anti-console.jdcloud.com/charts). Menu bar position is as follows: </BR>
+
 ![](../../../../image/Advanced%20Anti-DDoS/report%2001.png)
 
 2. The relevant reports of the first instance will be displayed by default. You can switch the instance in the dropdown box of the **Instance name**, or you can select multiple or all of the instances. If more than one instance is selected, the chart data in report will be displayed in an accumulative way.

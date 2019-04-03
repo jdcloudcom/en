@@ -6,6 +6,10 @@
 GET {Http access point}/v1/messages HTTP/1.1
 ```
 
+- Request headers parameters
+
+Please refer to sections of [Common Parameters](../Call-Method/Common-parameters.md) and [Signature-Algorithm](../Call-Method/Signature-Algorithm.md) for request common parameters.
+
 - Request Parameters
 
 | Field Name           | Field Type | Required     | Description                                                        |

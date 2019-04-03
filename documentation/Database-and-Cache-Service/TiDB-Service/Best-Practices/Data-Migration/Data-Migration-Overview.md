@@ -26,7 +26,7 @@ In the course of this data migration, we will use the following four tools:
 
 - See Setting the Replication Master Configuration for enabling binlog function for MySQL
 - Binlog format must be ROW format, which is the recommended binlog format after MySQL 5.7 and can be enabled by the following instruction:
-```
+```Shell
 SET GLOBAL binlog_format = ROW;
 ```
 
@@ -34,7 +34,7 @@ SET GLOBAL binlog_format = ROW;
 Before migration, we can use checker tool of TiDB to check whether TiDB can support the table schema to be migrated in advance. If you failed to check a certain table schema, it means that TiDB does not support the table schema currently so that we cannot migrate data in the table. checker is included in TiDB toolkit that can be directly downloaded.
 
 ## Download TiDB toolkit (Linux)
-```
+```Shell
 # Download tool compressed package
 wget http://download.pingcap.org/tidb-enterprise-tools-latest-linux-amd64.tar.gz
 wget http://download.pingcap.org/tidb-enterprise-tools-latest-linux-amd64.sha256
@@ -48,7 +48,7 @@ cd tidb-enterprise-tools-latest-linux-amd64
 
 ## An Example for Checking by Checker
 - Create several tables in the test database of MySQL and insert data:
-```
+```SQL
 USE test;
 CREATE TABLE t1 (id INT, age INT, PRIMARY KEY(id)) ENGINE=InnoDB;
 CREATE TABLE t2 (id INT, name VARCHAR(256), PRIMARY KEY(id)) ENGINE=InnoDB;
@@ -58,7 +58,7 @@ INSERT INTO t2 VALUES (1, "a"), (2, "b"), (3, "c");
 ```
 
 - User checker to check all tables in test database
-```
+```Shell
 ./bin/checker -host 127.0.0.1 -port 3306 -user root test
 2016/10/27 13:11:49 checker.go:48: [info] Checking database test
 2016/10/27 13:11:49 main.go:37: [info] Database DSN: root:@tcp(127.0.0.1:3306)/test?charset=utf8
@@ -71,7 +71,7 @@ INSERT INTO t2 VALUES (1, "a"), (2, "b"), (3, "c");
 - User checker to check a certain table in test database
 Suppose we only need to migrate table t1 at here.
 
-```
+```Shell
 ./bin/checker -host 127.0.0.1 -port 3306 -user root test t1
 2016/10/27 13:13:56 checker.go:48: [info] Checking database test
 2016/10/27 13:13:56 main.go:37: [info] Database DSN: root:@tcp(127.0.0.1:3306)/test?charset=utf8
@@ -83,7 +83,7 @@ Check database succ!
 ## An Example for a table Unable to be Migrated
 We create the following table in MySQL:
 
-```
+```Shell
 CREATE TABLE t_error ( a INT NOT NULL, PRIMARY KEY (a))
 ENGINE=InnoDB TABLESPACE ts1
 PARTITION BY RANGE (a) PARTITIONS 3 (
@@ -93,7 +93,7 @@ PARTITION P3 VALUES LESS THAN (6) TABLESPACE ts3);
 ```
 When checking with checker, it will report an error, which indicates that we cannot migrate the table of t_error.
 
-```
+```Shell
 ./bin/checker -host 127.0.0.1 -port 3306 -user root test t_error
 2017/08/04 11:14:35 checker.go:48: [info] Checking database test
 2017/08/04 11:14:35 main.go:39: [info] Database DSN: root:@tcp(127.0.0.1:3306)/test?charset=utf8

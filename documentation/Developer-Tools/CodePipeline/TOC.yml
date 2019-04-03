@@ -30,21 +30,21 @@ items:
       - name: Manage CodePipeline
         items:
           - name: Create CodePipeline
-            href: Operation-Guide/Working-With-Pipelines/Create-Pipeline.md
+            href: Operation-Guide/Create-Pipeline.md
           - name: Edit CodePipeline
-            href: Operation-Guide/Working-With-Pipelines/Edit-Pipeline.md
+            href: Operation-Guide/Edit-Pipeline.md
           - name: View CodePipeline
-            href: Operation-Guide/Working-With-Pipelines/View-Pipeline.md
+            href: Operation-Guide/View-Pipeline.md
           - name: Release CodePipeline
-            href: Operation-Guide/Working-With-Pipelines/Release-Pipeline.md
+            href: Operation-Guide/Release-Pipeline.md
           - name: View Execution History Record
-            href: Operation-Guide/Working-With-Pipelines/View-Execution-History.md
+            href: Operation-Guide/View-Execution-History.md
           - name: Delete CodePipeline
-            href: Operation-Guide/Working-With-Pipelines/Delete-Pipeline.md        
+            href: Operation-Guide/Delete-Pipeline.md        
       - name: Use Operations
         items:
           - name: Stop Operations
-            href: Operation-Guide/Working-With-Action/Check-Action.md     
+            href: Operation-Guide/Check-Action.md     
   - name: Best Practices
     items:
         - name: Construct and deploy to JCS for Kubernetes

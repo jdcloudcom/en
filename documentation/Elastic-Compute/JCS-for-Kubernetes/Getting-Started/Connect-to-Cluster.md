@@ -13,12 +13,12 @@ The kubectl version can be the same as the cluster version, or the cluster versi
 
 Open the [Kubernetes Version Page](https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG-1.12.md), find the client binaries (aka kubectl), select the client for the corresponding operating system, and then copy the link address.
 
-For example, select kubectl version 1.12.3 with the link address of https://dl.k8s.io/v1.12.3/kubernetes-client-darwin-amd64.tar.gz ;
+Example, select kubectl version 1.12.3 under Centos 7.4 64-bit system with the link address of https://dl.k8s.io/v1.12.3/kubernetes-client-linux-amd64.tar.gz;
 
-Execute the following commands under Centos 7.4 64-bit system:
+Execute the following commands:
 
 ```
-wget https://dl.k8s.io/v1.12.3/kubernetes-client-darwin-amd64.tar.gz
+wget https://dl.k8s.io/v1.12.3/kubernetes-client-linux-amd64.tar.gz
 tar -zxvf kubernetes-client-linux-amd64.tar.gz
 cd kubernetes/client/bin
 chmod +x ./kubectl

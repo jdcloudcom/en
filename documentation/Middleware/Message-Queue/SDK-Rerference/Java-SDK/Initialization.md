@@ -19,7 +19,7 @@ Methods of Acquiring Access Point in the Console:
 
 After the above resources are created, they can be initialized in the program.
 
-```java
+```Java
 /**
  * User accessKey
  */

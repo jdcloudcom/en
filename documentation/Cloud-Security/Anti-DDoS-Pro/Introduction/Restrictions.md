@@ -7,7 +7,7 @@ The maximum basic protection capability of Anti-DDoS Pro is 600G, while the maxi
 
 ## Restraint of Upgrade and Degradation
 - Basic protection and service bandwidth: can only be upgraded and cannot be degraded.
-- ISP Line: You can only upgrade the single to multiple ISP lines, such as upgrading China Telecom to Telecom+Unicom. It cannot be degraded.
+- Line: Only allow single line to upgrade to multi-line, if Telecom is upgraded to Telecom + Unicom + Mobile lines, it cannot be downgraded.
 
 ## Refund Restraint
 After the purchase is completed, no matter whether there is attack or not, there will be charges. It is non-refundable.
