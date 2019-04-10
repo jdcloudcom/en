@@ -14,15 +14,15 @@ Example:
 
 Obtain basic image information:
 
-http://s3.cn-north-1.jcloudcs.com/downloads/example.jpg?x-oss-process=imginfo/ns
+http://s3.cn-north-1.jdcloud-oss.com/downloads/example.jpg?x-oss-process=imginfo/ns
 
 Returned results:
-
+```
 {"format":"JPEG","width":350,"height":236,"fileSize":38539,"imgType":6,"orientation":1}
-
+```
 Obtain image EXIF information:
 
-http://s3.cn-north-1.jcloudcs.com/downloads/example.jpg?x-oss-process=imgexif
+http://s3.cn-north-1.jdcloud-oss.com/downloads/example.jpg?x-oss-process=imgexif
 
 Returned results:
 ```

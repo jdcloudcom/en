@@ -24,4 +24,3 @@
 
 ## Related Reference
 - [Price Overview](../Pricing/Billing-Overview.md)
-- [Application Scenarios](../Introduction/Application-Scenarios.md)

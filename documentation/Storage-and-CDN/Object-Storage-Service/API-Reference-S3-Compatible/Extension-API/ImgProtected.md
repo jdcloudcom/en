@@ -10,7 +10,7 @@ Request Syntax
 
 ```
 PUT /?imgProtected HTTP/1.1
-Host: bucket.s3.region.jcloudcs.com
+Host: <bucket>.s3.<region>.jdcloud-oss.com
 Content-Length: ContentLength
 Content-MD5: ContentMD5
 Date: Date
@@ -51,7 +51,7 @@ Request Example:
 
 ```
 PUT /?imgProtected HTTP/1.1
-Host: example-bucket.s3.cn-north-1.jcloudcs.com
+Host: example-bucket.s3.cn-north-1.jdcloud-oss.com
 X-Amz-Date: 20180117T122143Z
 Authorization: signatureValue
 Content-MD5: yzoQScp1SjEhK6u7tdCQbw==
@@ -80,7 +80,7 @@ Request Syntax
 
 ```
 GET /?imgProtected HTTP/1.1
-Host: bucket.s3.region.jcloudcs.com
+Host:<bucket>.s3.<region>.jdcloud-oss.com
 Date: Date
 Authorization: <Authorization_String>
 ```
@@ -102,7 +102,7 @@ Detailed Analysis:
 Request Example
 ```
 GET /?imgProtected HTTP/1.1
-Host: example-bucket.s3.cn-north-1.jcloudcs.com
+Host: example-bucket.s3.cn-north-1.jdcloud-oss.com
 X-Amz-Date: 20180117T122144Z
 Authorization: signatureValue
 ```
@@ -128,7 +128,7 @@ Delete original image protection configuration, namely, turn off original image 
 Request Syntax
 ```
 DELETE /?imgProtected HTTP/1.1
-Host: bucket.s3.region.jcloudcs.com
+Host: <bucket>.s3.<region>.jdcloud-oss.com
 Date: Date
 Authorization: <Authorization_String>
 ```
@@ -143,7 +143,7 @@ Detailed Analysis:
 Request Example
 ```
 DELETE /?imgProtected HTTP/1.1
-Host: example-bucket.s3.cn-north-1.jcloudcs.com
+Host: example-bucket.s3.cn-north-1.jdcloud-oss.com
 X-Amz-Date: 20180117T122640Z
 Authorization: signatureValue
 ```

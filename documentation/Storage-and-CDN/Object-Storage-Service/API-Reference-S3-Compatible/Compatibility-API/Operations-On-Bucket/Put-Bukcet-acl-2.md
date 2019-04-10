@@ -7,10 +7,10 @@ Only the creator of the Bucket has the permission to execute the action. If the 
 
 ## Request
 ### Syntax
-```xml
+```HTTP
 PUT /?acl HTTP/1.1
-x-amz-acl：Permission
-Host: <bucket>.s3.<region>.jcloudcs.com 
+x-amz-acl：<Permission>
+Host: <BUCKET_NAME>.s3.<REGION>.jdcloud-oss.com
 Date: <date>
 Authorization: <authorization string> (see Authenticating Requests (AWS Signature Version4))
 
@@ -33,17 +33,17 @@ to complete fine-grained authorization.
 
 
 ### Request Example
-```xml
+```HTTP
 PUT /?acl HTTP/1.1
 x-amz-acl：public-read
-Host: <bucket>.s3.<region>.jcloudcs.com 
+Host: <BUCKET_NAME>.s3.<REGION>.jdcloud-oss.com
 Date: <date>
 Authorization: <authorization string> (see Authenticating Requests (AWS Signature Version4))
 
 ```
 ### Response Example
 
-```xml
+```HTTP
 HTTP/1.1 200 OK
 x-amz-request-id: 656c76696e672SAMPLE5657374  
 Date: Tue, 04 Apr 2017 20:34:56 GMT  

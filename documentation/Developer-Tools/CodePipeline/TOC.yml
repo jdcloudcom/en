@@ -47,6 +47,8 @@ items:
             href: Operation-Guide/Check-Action.md     
   - name: Best Practices
     items:
+        - name: Build and deploy to JD Cloud - CodeDeploy
+          href: Best-Practices/Deployment-On-CodeDeploy.md 
         - name: Construct and deploy to JCS for Kubernetes
           href: Best-Practices/Deployment-On-K8S.md
   

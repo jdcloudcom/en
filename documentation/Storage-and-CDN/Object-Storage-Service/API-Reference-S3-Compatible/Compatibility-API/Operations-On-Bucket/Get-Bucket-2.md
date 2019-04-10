@@ -8,9 +8,9 @@ Note: Even if the access permission of Bucket is public, this action is also not
 ## Request
 
 ### Syntax
-```
+```HTTP
 GET /?list-type=2 HTTP/1.1
-Host: <bucket>.s3.<region>.jcloudcs.com 
+Host: <BUCKET_NAME>.s3.<REGION>.jdcloud-oss.com
 Date: <date>
 Authorization: <authorization string> (see Authenticating Requests (AWS Signature Version4))
 ```
@@ -66,15 +66,15 @@ StartAfter| If the element is contained in the request, then it is also containe
 ### Example 1: Listing Keys
 The request can return objects in a specific bucket. The request specifies list-type element to be 2.
 #### Request Example
-```
+```HTTP
 GET /?list-type=2 HTTP/1.1
-Host: oss-example.s3.<region>.jcloudcs.com 
+Host: <BUCKET_NAME>.s3.<REGION>.jdcloud-oss.com
 x-amz-date: 20160430T233541Z
 Authorization: <authorization string>
 Content-Type: text/plain
 ```
 #### Response Example
-```
+```HTTP
 HTTP/1.1 200 OK
 x-amz-request-id: 3B3C7C725673C630
 Date: Sat, 30 Apr 2016 23:29:37 GMT
@@ -105,14 +105,14 @@ Server: JDCloudOSS
 ```
 ### Example 2: Listing Keys (use max-keys, prefix and start-after elements)
 #### Request Example
-```
+```HTTP
 GET /?list-type=2&max-keys=3&prefix=E&start-after=ExampleGuide.pdf HTTP/1.1
-Host: oss-example.s3.<region>.jcloudcs.com 
+Host: <BUCKET_NAME>.s3.<REGION>.jdcloud-oss.com
 x-amz-date: 20160430T232933Z
 Authorization: <authorization string>
 ```
 #### Response Example
-```
+```HTTP
 HTTP/1.1 200 OK
 x-amz-request-id: 3B3C7C725673C630
 Date: Sat, 30 Apr 2016 23:29:37 GMT
@@ -147,14 +147,14 @@ photos/2006/February/sample3.jpg<br>
 photos/2006/February/sample4.jpg<br>
 
 **The following example specifies the value of delimiter as "/":**
-```
+```HTTP
 GET /?list-type=2&delimiter=/ HTTP/1.1
-Host: oss-example.s3.<region>.jcloudcs.com 
+Host: <BUCKET_NAME>.s3.<REGION>.jdcloud-oss.com 
 x-amz-date: 20160430T235931Z
 Authorization: <authorization string>			
 ```
 sample.jpg contains no delimiter character, so OSS returns it into Contents element. Other objects contain delimiter character and common prefix:photos/, so OSS returns them as a single CommonPrefixes element.
-```
+```XML
 <ListBucketResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/">
   <Name>oss-example</Name>
   <Prefix></Prefix>
@@ -176,14 +176,14 @@ sample.jpg contains no delimiter character, so OSS returns it into Contents elem
 ```
 
 **The following example specifies the value of delimiter as "/" and the value of prefix as "photos/2006"**
-```
+```HTTP
 GET /?list-type=2&prefix=photos/2006/&delimiter=/ HTTP/1.1
-Host: oss-example.s3.<region>.jcloudcs.com 
+Host: <BUCKET_NAME>.s3.<REGION>.jdcloud-oss.com
 x-amz-date: 20160501T000433Z
 Authorization: <authorization string>
 ```
 In response, OSS will return specified prefix and take different character strings containing prefix and with first occurred delimiter character as different CommonPrefixes for grouping and return.
-```
+```XML
 <ListBucketResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/">
   <Name>oss-example</Name>
   <Prefix>photos/2006/</Prefix>
@@ -210,15 +210,15 @@ In response, OSS will return specified prefix and take different character strin
 
 ### Example 4: Use Continuation Token
 In this example, the count of objects returned by initial request exceeds 1,000. In the response, OSS returns the IsTruncated and NextContinuationToken elements with the value of true.
-```
+```HTTP
 GET /?list-type=2 HTTP/1.1
-Host: oss-example.s3.<region>.jcloudcs.com 
+Host: <BUCKET_NAME>.s3.<REGION>.jdcloud-oss.com
 Date: Mon, 02 May 2016 23:17:07 GMT
 Authorization: <authorization string>
 ```
 
 The following is a response example:
-```
+```HTTP
 HTTP/1.1 200 OK
 x-amz-request-id: 3B3C7C725673C630
 Date: Sat, 30 Apr 2016 23:29:37 GMT
@@ -246,16 +246,14 @@ Server: JDCloudOSS
 ```
 
 Shown as below, we add continuation-token as the request parameter in the subsequent request and take the previously returned <NextContinuationToken> as the value of the parameter.
-```
-GET /?list-type=2 HTTP/1.1
+```HTTP
 GET /?list-type=2&continuation-token=1ueGcxLPRx1Tr/XYExHnhbYLgveDs2J/wm36Hy4vbOwM= HTTP/1.1
-
-Host: oss-example.s3.<region>.jcloudcs.com 
+Host: <BUCKET_NAME>.s3.<REGION>.jdcloud-oss.com
 Date: Mon, 02 May 2016 23:17:07 GMT
 Authorization: <authorization string>  
 ```
 In the following example of return, OSS will return objects not returned in the last request due to exceeding limit.
-```
+```HTTP
 HTTP/1.1 200 OK
 x-amz-request-id: 3B3C7C725673C630
 Date: Sat, 30 Apr 2016 23:29:37 GMT

@@ -17,7 +17,7 @@ Download Link: [JD Cloud OSS Online Quick Verification Tools](http://downloads.s
 Take Linux for Example:
 
 ```
-wget http://downloads.s3.cn-north-1.jcloudcs.com/tools/oss_verification_tool.tar.gz
+wget http://downloads.s3.cn-north-1.jdcloud-oss.com/tools/oss_verification_tool.tar.gz
 tar -xzvf oss_verification_tool.tar.gz
 ```
 

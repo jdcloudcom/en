@@ -10,7 +10,7 @@
 
   Windows client:
 
-  Internet access domain name: <https://hids.oss.cn-east-1.jcloudcs.com/jcloudhids_v1.0_Installer.exe>
+  Internet access domain name: <https://hids.oss.cn-east-1.jcloudcs.com/jcloudhids_V1.0_Installer.exe>
 
   64-bit Linux client:
 
@@ -20,11 +20,11 @@
 
   Windows client:
 
-  Intranet access domain name: <https://hips.jdcloud.com/jcloudhids_v1.0_Installer.exe>
+  Intranet access domain name: <https://hips.jdcloud.com/jcloudhids_V1.0_Installer.exe>
 
   64-bit Linux client:
 
-  Intranet access domain name: <https://hips.jdcloud.com/jcloudhids_linux64_v1.0.tar.gz>
+  Intranet access domain name: <https://hips.jdcloud.com/jcloudhids_linux64_V1.0.tar.gz>
 
   ### III. Installation Instructions for Windows System
 

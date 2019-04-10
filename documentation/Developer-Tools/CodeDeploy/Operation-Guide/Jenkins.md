@@ -4,7 +4,7 @@
 
 In Jenkins, you can install a CodeDeploy plug-in through uploading a plug-in.
 
-A user can first download the plug-in to the local memory. The download link is: https://jdcloud-codedeploy.oss.cn-north-1.jcloudcs.com/codedeploy-plugin.hpi
+A user can first download the plug-in to the local memory. The download link is: https://jdcloud-codedeploy.oss.cn-north-1.jcloudcs.com/jdcloud-codedeploy.hpi
 
 After that, click **Advanced** in Jenkins plug-in management, click **Select File** in **Upload Plug-in**, and then select the downloaded plug-in for installation.
 
@@ -25,8 +25,6 @@ In Jenkins, enter **Operations after Construction** and fill in the following co
 - Package path: The directory designated in the working space is in conformance with the CodeDeploy specifications. Please ensure the jdcloud-codedeploy.yml file is at the top of this directory
 - Include file: Include file in working space
 - Exclude file: Exclude file in working space
-- Proxy host: Proxy host DNS
-- Proxy port: Proxy host port
 - AccessKey: Used for JD Cloud Access and Secret Key initiating deployment task
 - SecretKey: Used for JD Cloud Access and Secret Key initiating deployment task
 - Trigger deployment: Whether to automatically trigger CodeDeploy to deploy the latest compilation result

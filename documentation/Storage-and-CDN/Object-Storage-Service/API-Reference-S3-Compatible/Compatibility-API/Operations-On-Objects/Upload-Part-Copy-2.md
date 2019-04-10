@@ -7,7 +7,7 @@ Replicate existed Objects as the source data multipart upload. You can specify s
 ### Syntax
 ```
 PUT /ObjectName?partNumber=PartNumber&uploadId=UploadId HTTP/1.1
-Host: <target-bucket>.s3.<region>.jcloudcs.com 
+Host: <target-bucket>.s3.<region>.jdcloud-oss.com
 x-amz-copy-source: /source_bucket/sourceObject
 x-amz-copy-source-range:bytes=<first-last>
 Date: <date>
@@ -54,7 +54,7 @@ InvalidRequest|Specified replication source does not support Range replication. 
 ### Request Example
 ```
 PUT /newobject?partNumber=2&uploadId=VCVsb2FkIElEIGZvciBlbZZpbmcncyBteS1tb3ZpZS5tMnRzIHVwbG9hZR HTTP/1.1
-Host: target-bucket.s3.<region>.jcloudcs.com
+Host: target-bucket.s3.<region>.jdcloud-oss.com
 Date:  Mon, 11 Apr 2011 20:34:56 GMT
 x-amz-copy-source: /source-bucket/sourceobject
 x-amz-copy-source-range:bytes=500-6291456

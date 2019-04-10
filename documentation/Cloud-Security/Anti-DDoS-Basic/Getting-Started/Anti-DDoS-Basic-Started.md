@@ -27,5 +27,4 @@ Please log in JD Cloud [Cloud Physical Server Console](http://cps-console.jdclou
 # Relevant Reference
 - [What is Anti-DDoS Basic](../Introduction/Product-Overview.md)
 - [Features](../Introduction/Features.md)
-- [Application Scenarios](../Introduction/Application-Scenarios.md)
 - [Basic Architecture](../Introduction/Basic-Infrastructure.md)

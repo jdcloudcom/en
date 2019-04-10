@@ -9,7 +9,7 @@ You can use Content-MD5 to ensure the data integrity, and OSS will verify the Ob
 ### Syntax
 ```
 PUT /ObjectName HTTP/1.1
-Host: <bucket>.s3.<region>.jcloudcs.com
+Host: <bucket>.s3.<region>.jdcloud-oss.com
 Date: <date>
 Authorization: <authorization string> (see Authenticating Requests (AWS Signature Version4))
 ```
@@ -43,7 +43,7 @@ No Special Response Element
 ### Request Example
 ```
 PUT /my-image.jpg HTTP/1.1
-Host: oss-example.s3.<region>.jcloudcs.com 
+Host: oss-example.s3.<region>.jdcloud-oss.com 
 Date: Wed, 12 Oct 2009 17:50:00 GMT
 Authorization: <authorization string>
 Content-Type: text/plain

@@ -25,6 +25,5 @@ Note: </br>
 
 - [What is Anti-DDoS Basic](Product-Overview.md)
 - [Core Concepts](Core-Concepts.md)
-- [Application Scenarios](Application-Scenarios.md)
 - [Features](Features.md)
 - [Restrictions](Restrictions.md)

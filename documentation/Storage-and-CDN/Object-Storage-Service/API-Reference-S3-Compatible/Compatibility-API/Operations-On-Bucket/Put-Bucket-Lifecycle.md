@@ -8,9 +8,9 @@ The operation can set the life cycle rule and substitute the current rule for sp
 
 ## Request
 ### Syntax
-```
+```HTTP
 PUT /?lifecycle HTTP/1.1
-Host: <BUCKET_NAME>.s3.<REGION>.jcloudcs.com
+Host: <BUCKET_NAME>.s3.<REGION>.jdcloud-oss.com
 Content-Length: length
 Date: date
 Authorization: authorization string
@@ -49,9 +49,9 @@ No Response Element
 
 ## Examples
 ### Request Example
-```
+```HTTP
 PUT /?lifecycle HTTP/1.1
-Host: <BUCKET_NAME>.s3.<REGION>.jcloudcs.com
+Host: <BUCKET_NAME>.s3.<REGION>.jdcloud-oss.com
 Content-Length: length
 Date: date
 Authorization: authorization string
@@ -71,7 +71,7 @@ Content-MD5: MD5
 </LifecycleConfiguration>
 ```
 ### Response Example
-```
+```HTTP
 HTTP/1.1 200 OK
 x-amz-request-id: 9E26D08072A8EF9E
 Date: Wed, 14 May 2014 02:11:22 GMT

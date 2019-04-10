@@ -36,13 +36,13 @@ env:
 
 source：
 
-- Files and directories are supported. If it is a file, the specified file will be replicated; if it is a directory, the file in the directory will be replicated (excluding this directory); if it is a single slash (/), all files will be replicated.
+- Files and directories are supported. If it is a file, the specified file will be replicated (mv); if it is a directory, the file in the directory (excluding this directory) will be replicated (mv); if it is a single slash (/), all files will be replicated (mv).
 - Relative Path: Begin from the root directory of code package
 
 
 destination：
 
-- Replicate contents in source to this location
+- Replicate (mv) contents in source to this location
 - Absolute Path
 
 
@@ -147,12 +147,12 @@ The following environment variables can be supported in the hooks scripts:
 
 | Environment variable      |   Explanation |
 | :--------: | :--------:|
-|  JDCLOUD_APP_ID | Application ID, which can be viewed on the deployment application page |
-| JDCLOUD_APP_NAME | Application name, which can be viewed on the deployment application page |
-| JDCLOUD_GROUP_ID | Deployment group ID, which can be viewed on the application details page |
-| JDCLOUD_GROUP_NAME | Deployment group name, which can be viewed on the application details page |
-| JDCLOUD_DEPLOY_ID | Deployment task ID, which can be viewed on the deployment history page |
-| JDCLOUD_LIFECYCLE_EVENT | Workflow Keyword |
+| JDCLOUD_CODEDEPLOY_APP_ID | Application ID, which can be viewed on the deployment application page |
+| JDCLOUD_CODEDEPLOY_APP_NAME | Application name, which can be viewed on the deployment application page |
+| JDCLOUD_CODEDEPLOY_GROUP_ID | Deployment group ID, which can be viewed on the application details page |
+| JDCLOUD_CODEDEPLOY_GROUP_NAME | Deployment group name, which can be viewed on the application details page |
+| JDCLOUD_CODEDEPLOY_DEPLOY_ID | Deployment task ID, which can be viewed on the deployment history page |
+| JDCLOUD_CODEDEPLOY_LIFECYCLE_EVENT | Workflow Keyword |
 
 
 **Examples**

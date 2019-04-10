@@ -35,7 +35,7 @@
         href: Getting-Started/Details1.md
   - name: Operation Guide
     items:
-      - name: Deployment Application List
+      - name: Application List
         href: Operation-Guide/Deployment-Application-List.md
       - name: Create Application
         href: Operation-Guide/Create-Application2.md

@@ -7,7 +7,7 @@ The operation can delete Object, and DELETE permission of the Object is required
 ### Syntax
 ```
 DELETE /ObjectName HTTP/1.1
-Host: <bucket>.s3.<region>.jcloudcs.com 
+Host: <bucket>.s3.<region>.jdcloud-oss.com
 Date: <date>
 Content-Length: <length>
 Authorization: <authorization string> (see Authenticating Requests (AWS Signature Version4))
@@ -29,7 +29,7 @@ No Response Element
 ### Request Example
 ```
 DELETE /my-second-image.jpg HTTP/1.1
-Host: oss-example.s3.<region>.jcloudcs.com 
+Host: oss-example.s3.<region>.jdcloud-oss.com
 Date: Wed, 12 Oct 2009 17:50:00 GMT
 Authorization: <authorization string>
 Content-Type: text/plain

@@ -1,6 +1,6 @@
 ## Create Application and Deployment Group
 
-On the "Deployment Application" page, after appointing the region same as that of Virtual Machines, click **Create Application**,
+On the "Application List" page, after appointing the region same as that of Virtual Machines, click **Create Application**,
 
 ![Alt text](https://github.com/jdcloudcom/cn/blob/edit/image/CodeDeploy/Ch/Start-2%EF%BC%88Ch%EF%BC%89.png)
 

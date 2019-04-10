@@ -5,9 +5,9 @@ Return replication configuration information of specified Bucket.
 
 ## Request
 ### Syntax
-```
+```HTTP
 GET /?replication HTTP/1.1
-Host: <bucket>.s3.<region>.jcloudcs.com 
+Host: <BUCKET_NAME>.s3.<REGION>.jdcloud-oss.com
 Date: <date>
 Authorization: <authorization string> 
 ```
@@ -32,15 +32,15 @@ NoSuchReplicationConfiguration|The replication configuration does not exist.|404
 
 ## Examples
 ### Request Example
-```
+```HTTP
 GET /?replication HTTP/1.1
-Host: <bucket>.s3.<region>.jcloudcs.com 
+Host: <BUCKET_NAME>.s3.<REGION>.jdcloud-oss.com
 Date: Tue, 10 Feb 2015 00:17:21 GMT
 Authorization: <authorization string>
 ```
 
 ### Response Example
-```
+```HTTP
 HTTP/1.1 200 OK
 x-amz-request-id: 51991C342example
 Date: Tue, 10 Feb 2015 00:17:23 GMT

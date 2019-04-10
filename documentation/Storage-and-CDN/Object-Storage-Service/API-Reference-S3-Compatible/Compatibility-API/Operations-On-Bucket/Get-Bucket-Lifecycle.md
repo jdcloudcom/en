@@ -8,9 +8,9 @@ The operation can return the life cycle rule under the specified Bucket.
 
 ### Syntax
 
-```
+```HTTP
 GET /?lifecycle HTTP/1.1
-Host: <BUCKET_NAME>.s3.<REGION>.jcloudcs.com
+Host: <BUCKET_NAME>.s3.<REGION>.jdcloud-oss.com
 Date: date
 Authorization: authorization string
 ```
@@ -30,14 +30,14 @@ Similar to request elements in PUT Bucket Lifecycle
 
 ## Examples
 ### Request Example
-```
+```HTTP
 GET /?lifecycle HTTP/1.1
-Host: <BUCKET_NAME>.s3.<REGION>.jcloudcs.com
+Host: <BUCKET_NAME>.s3.<REGION>.jdcloud-oss.com
 Date: date
 Authorization: authorization string
 ```
 ### Response Example
-```
+```HTTP
 HTTP/1.1 200 OK
 x-amz-request-id: 51991C342C575321
 Date: Thu, 15 Nov 2012 00:17:23 GMT

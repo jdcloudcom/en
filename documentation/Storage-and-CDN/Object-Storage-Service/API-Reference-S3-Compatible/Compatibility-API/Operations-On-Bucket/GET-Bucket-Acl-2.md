@@ -5,9 +5,9 @@ The operation can list specified Bucket(s), which is only available to the Owner
 
 ## Request
 ### Syntax
-```
+```HTTP
 GET /?acl HTTP/1.1
-Host: <bucket>.s3.<region>.jcloudcs.com 
+Host: <BUCKET_NAME>.s3.<REGION>.jdcloud-oss.com
 Date: <date>
 Authorization: <authorization string> (see Authenticating Requests (AWS Signature Version4))
 ```
@@ -37,14 +37,14 @@ Permission|Specified Permissions<br>Type: String<br>Valid Values: FULL_CONTROL, 
 
 ## Examples
 ### Request Example
-```
+```HTTP
 GET ?acl HTTP/1.1
-Host: oss-example.s3.<region>.jcloudcs.com 
+Host: <BUCKET_NAME>.s3.<REGION>.jdcloud-oss.com
 Date: Wed, 28 Oct 2009 22:32:00 GMT
 Authorization: <authorization string>
 ```
 ### Response Example
-```
+```HTTP
 HTTP/1.1 200 OK
 x-amz-request-id: 318BC8BC148832E5
 Date: Wed, 28 Oct 2009 22:32:00 GMT

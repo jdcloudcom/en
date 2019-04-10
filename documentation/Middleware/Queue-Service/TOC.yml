@@ -1,0 +1,75 @@
+  name: Queue Service
+  href: 
+  items:
+  - name: Introduction
+    items:
+      - name: Product Overview
+        href: Introduction/Product-Overview.md
+      - name: Core Concepts
+        href: Introduction/Core-Concepts.md
+      - name: Basic Architecture
+        href: Introduction/Basic-Infrastructure.md
+        status: 0
+      - name: Benefits
+        href: Introduction/Benefits.md
+      - name: Features
+        href: Introduction/Features.md
+      - name: Restrictions
+        href: Introduction/Restrictions.md
+      - name: Application Scenarios 
+        href: Introduction/Application-Scenarios.md    
+  - name: Product Pricing
+    items:
+      - name: Billing Overview
+        href: Pricing/Billing-Overview.md
+      - name: Billing Rules
+        href: Pricing/Billing-Rules.md
+      - name: Price Overview
+        href: Pricing/Price-Overview.md
+      - name: Purchase Process
+        href: Pricing/Purchase-Process.md 
+  - name: Getting Started
+    items:
+      - name: Instructions for Use
+        href: Getting-Started/Getting-Started.md
+      - name: Create Resource
+        href: Getting-Started/Create-Resource.md
+      - name: Production and Consumption Message
+        href: Getting-Started/Produce-And-Consume-Message.md
+  - name: Operation Guide
+    items:
+      - name: Queue Management
+        items:
+          - name: Create Queue
+            href: Operation-Guide/Queue-Management/Create-Queue.md
+          - name: Manage Queue
+            href: Operation-Guide/Queue-Management/Manage-Queue.md
+      - name: Message Management
+        items:
+          - name: Send Message
+            href: Operation-Guide/Message-Management/Send-Message.md      
+          - name: Resend Message
+            href: Operation-Guide/Message-Management/Consume-Message.md   
+      - name: Monitoring Alarm
+        items:
+          - name: View Monitoring Information
+            href: Operation-Guide/Monitoring/Monitoring.md
+          - name: Set Alarm Rules
+            href: Operation-Guide/Monitoring/Alarm-Rules.md
+  - name: Tutorial
+    items:
+    status: 0
+  - name: Troubleshooting
+    items:
+    status: 0     
+  - name: FAQ
+    items:
+      - name: FAQ
+        href: FAQ/FAQ.md
+  - name: Related Resources
+    items:
+    - name: Document History Records
+      href: Related-Resources/Document-History.md
+    - name: Service Terms
+      href: Related-Resources/Related-Agreement.md  
+

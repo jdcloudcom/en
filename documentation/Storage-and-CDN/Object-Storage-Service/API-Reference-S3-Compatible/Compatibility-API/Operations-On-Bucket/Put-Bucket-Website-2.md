@@ -5,9 +5,9 @@ Specify a certain Bucket to set static website hosted configuration, including w
 
 ## Request
 ### Syntax
-```
+```HTTP
 PUT /?website HTTP/1.1
-Host: <bucket>.s3.<region>.jcloudcs.com 
+Host: <BUCKET_NAME>.s3.<REGION>.jdcloud-oss.com
 Date: <date>
 Content-Length: <ContentLength>
 Authorization: <authorization string> (see Authenticating Requests (AWS Signature Version4))
@@ -47,9 +47,9 @@ No Response Element
 ## Examples
 ### Example 1
 The following request configures example.com as website. Specify index.html as the index page in the request and specify SomeErrorDocument.html as the error page.
-```
+```HTTP
 PUT ?website HTTP/1.1
-Host: oss-example.s3.<region>.jcloudcs.com 
+Host: <BUCKET_NAME>.s3.<REGION>.jdcloud-oss.com
 Content-Length: 256
 Date: Thu, 27 Jan 2011 12:00:00 GMT
 Authorization: <authorization string>
@@ -64,7 +64,7 @@ Authorization: <authorization string>
 </WebsiteConfiguration>
 ```
 Return Example
-```
+```HTTP
 HTTP/1.1 200 OK
 x-amz-request-id: 80CD4368BD211111
 Date: Thu, 27 Jan 2011 00:00:00 GMT
@@ -74,9 +74,9 @@ Server: JDCloudOSS
 
 ### Example 2
 In the request, specify HTTP error code in RoutingRule as a special condition, and specify the redirection to ec2-11-22-333-44.compute-1.amazonaws.com/reprot-404/. E.g., if 404 error occurs when request ExamplePage.html, it will redirect to report-404/testPage.html. If there is no direction rule, it returns Error.html.
-```
+```HTTP
 PUT ?website HTTP/1.1
-Host: oss-example.s3.<region>.jcloudcs.com 
+Host: <BUCKET_NAME>.s3.<REGION>.jdcloud-oss.com
 Content-Length: 580
 Date: Thu, 27 Jan 2011 12:00:00 GMT
 Authorization: <authorization string>

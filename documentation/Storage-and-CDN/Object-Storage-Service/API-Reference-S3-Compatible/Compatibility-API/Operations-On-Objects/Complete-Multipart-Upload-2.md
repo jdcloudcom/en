@@ -11,7 +11,7 @@ It takes several minutes to combine all multiparts, so OSS will reply 200 OK aft
 ### Syntax
 ```
 POST /ObjectName?uploadId=UploadId HTTP/1.1
-Host: <bucket>.s3.<region>.jcloudcs.com 
+Host: <bucket>.s3.<region>.jdcloud-oss.com 
 Date: <Date>
 Content-Length: <Size>
 Authorization: <authorization string>
@@ -64,7 +64,7 @@ NoSuchUpload|Specified multipart upload is absent, and Upload ID is invalid. |40
 ### Request Example
 ```
 POST /example-object?uploadId=AAAsb2FkIElEIGZvciBlbHZpbmcncyWeeS1tb3ZpZS5tMnRzIRRwbG9hZA HTTP/1.1
-Host: oss-example.s3.<region>.jcloudcs.com 
+Host: oss-example.s3.<region>.jdcloud-oss.com
 Date:  Mon, 1 Nov 2010 20:34:56 GMT
 Content-Length: 391
 Authorization: <authorization string>

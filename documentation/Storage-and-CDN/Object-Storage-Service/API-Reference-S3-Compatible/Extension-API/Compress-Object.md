@@ -9,7 +9,7 @@ You can perform package download and other actions through compressing multiple 
 1. Format
 ```
 POST /path/to/zip/object?compress HTTP/1.1 
-Host:bucket.s3.region.jcloudcs.com 
+Host:bucket.s3.region.jdcloud-oss.com
 Authorization:<Authorization_String>
 Content-Type:text/xml 
 Content-Length:1024 

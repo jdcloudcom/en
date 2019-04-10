@@ -1,6 +1,6 @@
 ## Create Application
 
-On the "Deployment Application" page, after appointing the region, click **Create Application**,
+On the "Application List" page, after appointing the region, click **Create Application**,
 
 ![Alt text](https://github.com/jdcloudcom/cn/blob/edit/image/CodeDeploy/Ch/Oper-1%EF%BC%88Ch%EF%BC%89.png)
 

@@ -4,16 +4,16 @@
 OSS supports[Callback Notification](https://docs.jdcloud.com/en/object-storage-service/callback-notification-2)function, you can specify timely message notification when some resources occur relevant operations. OSS Callback Notification is performed asynchronously, so that OSS operations will not be affected.
 
 You can specify a Bucket to create or change the NotificationConfiguration via PUT Bucket notification. NotificationConfiguration is in XML format. By default, your Bucket is not configured Callback Notification, so NotificationConfiguration is null, you can disable Callback Notification by adding NotificationConfiguration of null.
-```
+```XML
 <NotificationConfiguration>
 </NotificationConfiguration>
 ```
 
 ## Request
 ### Syntax
-```
+```HTTP
 PUT /?notification HTTP/1.1
-Host: <bucket>.s3.<region>.jcloudcs.com
+Host: <BUCKET_NAME>.s3.<REGION>.jdcloud-oss.com
 Date: <date>
 Authorization: <authorization string> (see Authenticating Requests (AWS Signature Version 4))
 
@@ -83,9 +83,9 @@ HTTP 403 Forbidden|AccessDenied|You are not the owner of the bucket
 
 ## Examples
 ### Request Example
-```
+```HTTP
 PUT /?notification HTTP/1.1
-Host: oss-example.s3.<region>.jcloudcs.com
+Host: <BUCKET_NAME>.s3.<REGION>.jdcloud-oss.com
 Date: <date>
 Authorization: <authorization string> 
 
@@ -110,7 +110,7 @@ Authorization: <authorization string>
 </NotificationConfiguration>
 ```
 ### Response Example
-```
+```HTTP
 HTTP/1.1 200 OK
 x-amz-request-id: BB1BA8E12D6A80B7
 Date: Mon, 13 Oct 2014 22:58:44 GMT

@@ -24,7 +24,7 @@ When you complete the adding of domain by reference of [Console-Customized Domai
 | :------------------- | :-----------|
 |   PIN  |User PIN | 
 |  https certificate               | The https certificate of the own domain you want to support   | 
-| OSS access domain            | OSS access domain```<BUCKET_NAME>.s3.<REGION>.jcloudcs.com ```  | 
+| OSS access domain            | OSS access domain```<BUCKET_NAME>.s3.<REGION>.jdcloud-oss.com ```  | 
 | Contact phone number and email        |  Convenient to inform you in time before the certificate expires   |  
 
 **Description**

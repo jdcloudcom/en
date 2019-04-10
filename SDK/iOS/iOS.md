@@ -18,14 +18,14 @@
 * Please use `pod install` command to install framework you need to use when managing package with Cocoapods, which the target framework will be automatically referenced
     For example:
 
-```shell
-    pod install {framework name}
+```Shell
+pod install {framework name}
 ```
 
 * Please configure the reference packages in `dependencies` of your own `Package.Swift` when using `swift package manage` for package management.
 
-```swift
-     dependencies: [
+```Swift
+dependencies: [
         // Dependencies declare other packages that this package depends on.
         .package(url: "https://github.com/jdcloud-api/jdcloud-sdk-ios.git", from: "0.0.1"),
     ]
@@ -42,23 +42,24 @@
 
 * The follows are the call instance for search user host instance list, which view `VmTest.swift` under Tests directory of the project for details.
 
-```swift
-        // AccessKey and SecretAccessKey applied from JD Cloud official website
-        let credentials = Credential(accessKeyId: "your jdcloud ak", secretAccessKey: "your jdcloud sk");
+```Swift
+// AccessKey and SecretAccessKey applied from JD Cloud official website
+let credentials = Credential(accessKeyId: "your jdcloud ak", secretAccessKey: "your jdcloud sk");
         
-        // Initial the client of calling business lines
-        let vmClient = VmJDCloudClient(credential: credentials)
+// Initial the client of calling business lines
+let vmClient = VmJDCloudClient(credential: credentials)
        
-        // Create request parameters and view OPEN API calling documents for the detailed request parameters
-        let describeInstancesRequest = DescribeInstancesRequest(regionId: "cn-north-1");
+// Create request parameters and view OPEN API calling documents for the detailed request parameters
+let describeInstancesRequest = DescribeInstancesRequest(regionId: "cn-north-1");
        
-        // Open global debug set to see signature data for the convenience of debug
-        GlobalConfig.debug = true
+// Open global debug set to see signature data for the convenience of debug
+GlobalConfig.debug = true
         
-        // When executing request, you need to treat exception throws by yourself. If the return result contains AnyObject type, you need use SwiftJson and other framework to treat resultString by yourself and requestResponse contains no result of AnyObject
-        try vmClient.describeInstancesAsync(request: describeInstancesRequest) { (statusCode, requestResponse, error,resultString) in
-            // Callback method is used to execute yourself business logic
-            print(statusCode)
-            print(requestResponse)
-            print(error)
+// When executing request, you need to treat exception throws by yourself. If the return result contains AnyObject type, you need use SwiftJson and other framework to treat resultString by yourself and requestResponse contains no result of AnyObject
+try vmClient.describeInstancesAsync(request: describeInstancesRequest) { (statusCode, requestResponse, error,resultString) in
+    // Callback method is used to execute yourself business logic
+  print(statusCode)
+  print(requestResponse)
+  print(error)
+}
 ```

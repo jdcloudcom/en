@@ -17,8 +17,16 @@
         items:
           - name: Scenario Overview
             href: Introduction/Application-Scenarios/Overview.md
-          - name: Live Video
-            href: Introduction/Application-Scenarios/living.md  
+          - name: Website Acceleration
+            href: Introduction/Application-Scenarios/Website-Acceleration.md 
+          - name: Download Acceleration
+            href: Introduction/Application-Scenarios/Download-Acceleration.md
+          - name: VOD Acceleration
+            href: Introduction/Application-Scenarios/Video-Acceleration.md
+          - name: Live Video Acceleration
+            href: Introduction/Application-Scenarios/Live-Acceleration.md  
+          - name: CDN Edge Computing
+            href: Introduction/Application-Scenarios/CDN-Edge-Computing.md
   - name: Pricing
     items:
       - name: Billing Overview
@@ -94,11 +102,11 @@
           - name: Back-to-origin following 302
             href: API-Reference/CDN-Open-API/Set-Follow-302-Configuration.md
           - name: Back-to-origin Policy Change
-            href: API-Reference/CDN-Open-API/Change-back-to-source.md
+            href: API-Reference/CDN-Open-API/Change-Back-To-Source.md
           - name: Cache Policy Change
             href: API-Reference/CDN-Open-API/Change-Cache-policy.md
           - name: Service Status Change
-            href: API-Reference/CDN-Open-API/Change-domain-status.md
+            href: API-Reference/CDN-Open-API/Change-Domain-Status.md
           - name: Set Communications Protocol
             href: API-Reference/CDN-Open-API/Set-http-type.md
           - name: Set Ignoring Parameter

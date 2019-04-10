@@ -43,4 +43,3 @@ If the above cannot solve your problem, consult the after-sales of the product: 
 
 - [What is Anti-DDoS Basic? ](../Introduction/Product-Overview.md)
 - [Anti-DDoS Basic Architecture](../Introduction/Basic-Infrastructure.md)
-- [Getting Started](../Getting-Started/Anti-DDos-Basic-Started.md)

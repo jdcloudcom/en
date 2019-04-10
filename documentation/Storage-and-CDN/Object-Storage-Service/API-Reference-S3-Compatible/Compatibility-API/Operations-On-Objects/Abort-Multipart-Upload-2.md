@@ -7,7 +7,7 @@ The operation will terminate multipart upload. After termination of multipart up
 ### Syntax
 ```
 DELETE /ObjectName?uploadId=UploadId HTTP/1.1
-Host: <bucket>.s3.<region>.jcloudcs.com 
+Host: <bucket>.s3.<region>.jdcloud-oss.com
 Date: <Date>
 Authorization: <authorization string>
 ```

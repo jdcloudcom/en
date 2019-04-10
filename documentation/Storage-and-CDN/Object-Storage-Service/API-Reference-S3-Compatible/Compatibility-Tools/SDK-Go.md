@@ -41,7 +41,7 @@ func main() {
 
     config := &aws.Config{
         Region          :aws.String("cn-north-1"),
-        Endpoint        :aws.String("s3.cn-north-1.jcloudcs.com"),
+        Endpoint        :aws.String("s3.cn-north-1.jdcloud-oss.com"),
         DisableSSL      :aws.Bool(false),
         Credentials     :creds,
     }

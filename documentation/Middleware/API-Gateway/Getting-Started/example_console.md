@@ -123,7 +123,7 @@ Via the above steps, the operation in the API Gateway console interface is compl
 
 #### 1. 	Unzip the downloaded Java SDK.
 
-#### 2.	Switch to the PetStore directory and edit a Demo.java file. ([Project Download Link](https://docs-downloads.oss.cn-north-1.jcloudcs.com/PetStoreTest_javaSDK.zip))
+#### 2.	Switch to the PetStore directory and edit a Demo.java file. ([Project Download Link](https://apigateway.oss.cn-north-1.jcloudcs.com/demo/PetStoreTest_javaSDK_jdcloud.zip))
 
 - accessKeyId refers to the APIKey when viewing detailed information of key pairs;
 - secretAccessKey refers to the APISecret when viewing detailed information of key pairs;
@@ -193,7 +193,7 @@ public class Demo {
 
 #### 1.	Unzip the downloaded Python SDK and execute the setup.py file.
 
-#### 2.	Switch to the PetStore directory and create a PetStoreTest.py file. ([Project Download Link](https://docs-downloads.oss.cn-north-1.jcloudcs.com/PetStoreTest_pythonSDK.zip))
+#### 2.	Switch to the PetStore directory and create a PetStoreTest.py file. [Project Download Link](https://apigateway.oss.cn-north-1.jcloudcs.com/demo/PetStoreTest_pythonSDK_jdcloud.zip))
 
 ```
 # coding=utf8

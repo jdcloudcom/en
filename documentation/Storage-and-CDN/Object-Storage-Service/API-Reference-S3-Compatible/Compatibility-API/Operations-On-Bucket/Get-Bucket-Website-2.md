@@ -5,9 +5,9 @@ The operation returns static website hosted configuration of specified Bucket, w
 
 ## Request
 ### Syntax
-```
+```HTTP
 GET /?website HTTP/1.1
-Host: <bucket>.s3.<region>.jcloudcs.com 
+Host: <BUCKET_NAME>.s3.<REGION>.jdcloud-oss.com
 Date: <date>
 Authorization: <authorization string> (see Authenticating Requests (AWS Signature Version4))
 ```
@@ -26,14 +26,14 @@ It is the same as request element of Put Bucket website when responding XML.
 
 ## Examples
 ### Request Example
-```
+```HTTP
 GET ?website HTTP/1.1
-Host: oss-example.s3.<region>.jcloudcs.com 
+Host: <BUCKET_NAME>.s3.<REGION>.jdcloud-oss.com
 Date: Thu, 27 Jan 2011 00:49:20 GMT
 Authorization: <authorization string>
 ```
 ### Response Example
-```
+```HTTP
 HTTP/1.1 200 OK
 x-amz-request-id: 3848CD259D811111
 Date: Thu, 27 Jan 2011 00:49:26 GMT

@@ -2,7 +2,7 @@
 
 **Q: Is the command executed by hooks in jdcloud-codedeploy.yml?**
 
-A: The location option to be filled in by hooks refers to the script location rather than the command itself used for executing the script. As a result, please avoid operating commands such as /home/app/control start.
+A: Support, the command option to be filled in by hooks refers to the script location or the command itself used for executing the script.
 
 **Q: How to handle the cache of the previous deployment task?**
 

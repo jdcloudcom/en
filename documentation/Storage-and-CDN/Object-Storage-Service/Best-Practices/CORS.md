@@ -26,7 +26,7 @@ Configuration steps for obtaining data from OSS by AJAX are introduced by the fo
 
 **Preparation Conditions**
 
-1.Upload the file cors.html with the content of "successful request" in the test-cors storage bucket. Click **Obtaining Address** and the access address of the object, cors.html, is displayed: http://test-cors.oss.cn-east-1.jcloudcs.com/cors.html.
+1.Upload the file cors.html with the content of "successful request" in the test-cors storage bucket. Click **Obtaining Address** and the access address of the object, cors.html, is displayed: http://test-cors.s3.cn-east-1.jdcloud-oss.com/cors.html.
 
 2.Disable the browser’s cache function, to prevent the mismatch to the CORS requirements due to the reason that the browser caches the heater content returned by the server last time and to prevent influence to request result. Taking chrome for example, open the "Developer Tools" and check "Disable cache".
 
@@ -38,7 +38,7 @@ Configuration steps for obtaining data from OSS by AJAX are introduced by the fo
 
 Access cors.html via curl, display the file content "Request Successful" and ensure that the object is able to be accessed normally.
 ```
-curl http://test-cors.oss.cn-east-1.jcloudcs.com/cors.html
+curl http://test-cors.s3.cn-east-1.jdcloud-oss.com/cors.html
 ```
 ![](../../../../image/Object-Storage-Service/OSS-084.jpg)
 
@@ -68,7 +68,7 @@ function loadXMLDoc() {
               document.getElementById("myDiv").innerHTML=xmlhttp.responseText;
         }
         
-        xmlhttp.open("GET","http://test-cors.oss.cn-east-1.jcloudcs.com/cors.html",true);
+        xmlhttp.open("GET","http://test-cors.s3.cn-east-1.jdcloud-oss.com/cors.html",true);
         xmlhttp.setRequestHeader('test','GET');
         xmlhttp.send("");
 }

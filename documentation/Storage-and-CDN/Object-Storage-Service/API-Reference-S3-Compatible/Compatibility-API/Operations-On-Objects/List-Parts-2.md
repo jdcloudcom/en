@@ -7,7 +7,7 @@ The operation can list all multiparts under specified multipart upload. The requ
 ### Syntax
 ```
 GET /ObjectName?uploadId=UploadId HTTP/1.1
-Host: <bucket>.s3.<region>.jcloudcs.com 
+Host: <bucket>.s3.<region>.jdcloud-oss.com
 Date: <date>
 Authorization: <authorization string>
 ```
@@ -59,7 +59,7 @@ Size|Multipart Size<br>Type: Integer<br>Ancestor: Part
 ### Request Example
 ```
 GET /example-object?uploadId=XXBsb2FkIElEIGZvciBlbHZpbmcncyVcdS1tb3ZpZS5tMnRzEEEwbG9hZA&max-parts=2&part-number-marker=1 HTTP/1.1
-Host: oss-example.s3.<region>.jcloudcs.com 
+Host: oss-example.s3.<region>.jdcloud-oss.com
 Date: Mon, 1 Nov 2010 20:34:56 GMT
 Authorization: <authorization string>
 ```

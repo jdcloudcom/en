@@ -27,7 +27,7 @@ The rolling deployment is a deployment method for replacing versions in order an
 
 For the first deployment, the virtual server group will be automatically created in the name of deploy_R_${group id}_${random string} and will be associated with the backend service of specified Load Balancer.
 
-As the backend service of a Load Balancer can only be associated with a virtual server group, the virtual server group associated with the backend service originally will be replaced by the virtual server group created by default at the time of first deployment, and then be kept and not be subject to any treatment.
+As one load balancer backend service can only associate with one virtual server group, when creating/editing deployment group, please ensure that the selected load balancer backend service is not associated with any virtual server group not related to the deployment group.
 
 For the first deployment:
 
@@ -71,7 +71,11 @@ Since then, the blue group will be updated to V4 for another deployment and take
 
 Please note that the CodeDeploy can only be used for operating a specific virtual server group associated with the backend service of a specified Load Balancer in the deployment page created by you.
 
+As one load balancer backend service can only associate with one virtual server group, when initiating deployment, please ensure that the selected load balancer backend service is not associated with any virtual server group not related to the deployment group.
+
 For the first deployment, the virtual server group will be automatically created in the name of deploy_B_${group id}_${random string} and will be associated with the backend service of specified Load Balancer:
+
+
 
 1) Before launching, all machines in the deployment group (blue group and green group) can provide service by virtual of not taking over the traffic.
 

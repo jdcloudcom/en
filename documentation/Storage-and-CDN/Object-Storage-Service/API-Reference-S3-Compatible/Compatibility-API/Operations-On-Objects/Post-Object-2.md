@@ -9,7 +9,7 @@ Request Syntax
 
 ```
 POST / HTTP/1.1
-Host: <bucket>.s3.<region>.jcloudcs.com
+Host: <bucket>.s3.<region>.jdcloud-oss.com
 Content-Length: length
 Content-Type: multipart/form-data; boundary=your_boundary
  
@@ -114,7 +114,7 @@ Special Tips for Header:
 
 ```
 POST / HTTP/1.1
-Host: testBucket.s3. cn-north-1.jcloudcs.com
+Host: testBucket.s3.cn-north-1.jdcloud-oss.com
 Content-Length: length
 Content-Type: multipart/form-data; boundary=123456789000
 --123456789000
@@ -153,7 +153,7 @@ Upload to OSS
   <Bucket>testBucket</Bucket>
   <Key>test.txt</Key>
   <ETag>"1b6be8aac90401fe1cd5e4dd1c4b138f"</ETag>
-  <Location>http://s3.cn-north-1.jcloudcs.com/testBucket/test.txt</Location>
+  <Location>http://s3.cn-north-1.jdcloud-oss.com/testBucket/test.txt</Location>
 </PostResponse>
 ```
 
@@ -263,7 +263,7 @@ The following example provides how to use POST policy and the form to complete u
   </head>
   <body>
 
-  <form action="http://<your bucket>.s3.<region>.jcloudcs.com/" method="post" enctype="multipart/form-data">
+  <form action="http://<your bucket>.s3.<region>.jdcloud-oss.com/" method="post" enctype="multipart/form-data">
     // Key to upload: 
     <input type="input"  name="key" value="<your objectKey>" />
     Content-Type: 
@@ -276,7 +276,7 @@ The following example provides how to use POST policy and the form to complete u
     // File: 
     <input type="file"   name="file" /> 
     <!-- The elements after this will be ignored -->
-    <input type="submit" name="submit" value="Upload to Amazon S3" />
+    <input type="submit" name="submit" value="Upload to JDcloud OSS" />
   </form>
   
 </html>

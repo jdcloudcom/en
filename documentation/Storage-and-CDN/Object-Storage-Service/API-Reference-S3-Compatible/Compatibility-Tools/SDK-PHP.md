@@ -26,7 +26,7 @@ use Aws\S3\S3Client;
 $s3 = new S3Client([    
     'version'=>'latest',    
     'region'=>'cn-north-1',    
-    'endpoint' => 'http://s3.cn-north-1.jcloudcs.com',    
+    'endpoint' => 'http://s3.cn-north-1.jdcloud-oss.com',    
     'signature_version' => 'v4',    
      'credentials' => [    
        'key'    => 'your accesskey',    

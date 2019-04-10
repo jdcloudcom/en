@@ -5,9 +5,9 @@ The operation creates new replication configuration (or replace original replica
 
 ## Request
 ### Syntax
-```
+```HTTP
 PUT /?replication HTTP/1.1
-Host: <bucket>.s3.<region>.jcloudcs.com 
+Host: <BUCKET_NAME>.s3.<REGION>.jdcloud-oss.com
 Content-Length: <length>
 Date: <date>
 Authorization: <authorization string> 
@@ -22,11 +22,11 @@ No Request Parameters
 
 Name|Description|Must
 ---|---|---
-Content-MD5|Perform base64 encoding for 128-bit MD5. The Header is used for determining whether the request entity is corrupted in transmission. <br>Type: String<br>Default: None|Yes
+Content-MD5|The Header is used for determining whether the request entity is corrupted in transmission. <br>Type: String<br>Default: None|Yes
 
 ### Request Entity
 One or multiple replication rules can be specified in the request entity.
-```
+```XML
 <ReplicationConfiguration>
     <Role>IAM-role-ARN</Role>
     <Rule>
@@ -72,9 +72,9 @@ HTTP 400|InvalidArgument|The AWS account specified in the <Account> element must
 
 ## Examples
 ### Request Example
-```
+```HTTP
 PUT /?replication HTTP/1.1
-Host: oss-example.s3.<region>.jcloudcs.com 
+Host: <BUCKET_NAME>.s3.<REGION>.jdcloud-oss.com
 Date: Wed, 11 Feb 2015 02:11:21 GMT
 Content-MD5: q6yJDlIkcBaGGfb3QLY69A==
 Authorization: <authorization string>
@@ -94,7 +94,7 @@ Content-Length: 406
 ```
 
 ### Response Example
-```
+```HTTP
 HTTP/1.1 200 OK
 x-amz-request-id: 9E26D08072A8EF9E
 Date: Wed, 11 Feb 2015 02:11:22 GMT

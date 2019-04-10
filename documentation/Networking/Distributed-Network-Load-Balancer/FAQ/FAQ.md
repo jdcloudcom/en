@@ -1,5 +1,10 @@
 # FAQ
 
+**Q: How to choose among Application Load Balancer, Network Load Balancer or Distributed Network Load Balancer?**
+
+A: We recommend the Load Balancer type as per the following process to maximize the performance experience and minimize the cost of users while satisfying user demands.
+![LB类型选择](../../../../image/Networking/Distributed-Network-Load-Balancer/DNLB-022.png)
+
 **Q: What are the distributed network load balancer quota of a single user and the quota of resources related to distributed network load balancer respectively?**
 
 A: For information related to quota, please refer to load balancer [Restrictions](../Introduction/Restrictions.md), and if you need to increase the quota, please open ticket or contact the customer service staff.

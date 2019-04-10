@@ -28,7 +28,7 @@ namespace Amazon.Samples.S3
     {
         const string accessKeyId = "<yourAccessKeyId>";
         const string accessKeySecret = "<yourAccessKeySecret>";
-        const string endpoint = "s3.cn-north-1.jcloudcs.com";
+        const string endpoint = "s3.cn-north-1.jdcloud-oss.com";
         
         private static IAmazonS3 s3Client;
         

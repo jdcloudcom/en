@@ -79,7 +79,7 @@ jobType: listObject
 sourceType: s3file
 src.access.id : XXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 src.secret.key: YYYYYYYYYYYYYYYYYYYYYYYYYYYYY
-src.endpoint : https://s3.cn-north-1.jcloudcs.com
+src.endpoint : https://s3.cn-north-1.jdcloud-oss.com
 src.bucket : yourbucket
 src.prefix :
 ```
@@ -110,13 +110,13 @@ sourceType: s3file
 
 src.access.id : XXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 src.secret.key: YYYYYYYYYYYYYYYYYYYYYYYYYYYYY
-src.endpoint : https://s3.cn-north-1.jcloudcs.com
+src.endpoint : https://s3.cn-north-1.jdcloud-oss.com
 src.bucket : yourbucket
 src.prefix :
 
 des.access.id : AAAAAAAAAAAAAAAAAAAAAAAAAAAA
 des.secret.key: BBBBBBBBBBBBBBBBBBBBBBBBBBBB
-des.endpoint : https://s3.cn-north-1.jcloudcs.com
+des.endpoint : https://s3.cn-north-1.jdcloud-oss.com
 des.bucket : yourbucket
 des.prefix:
 
@@ -145,7 +145,7 @@ src.prefix :
 
 des.access.id : AAAAAAAAAAAAAAAAAAAAAAAAAAA
 des.secret.key: BBBBBBBBBBBBBBBBBBBBBBBBBBB
-des.endpoint : https://s3.cn-north-1.jcloudcs.com
+des.endpoint : https://s3.cn-north-1.jdcloud-oss.com
 des.bucket : yourbucket
 des.prefix:
 
@@ -174,7 +174,7 @@ filePath: /yourpath
 
 des.access.id : AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 des.secret.key: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
-des.endpoint : https://s3.cn-north-1.jcloudcs.com
+des.endpoint :https://s3.cn-north-1.jdcloud-oss.com
 des.bucket : yourbucket
 des.prefix:
 
@@ -193,7 +193,7 @@ urlFilePrefix: 35
 
 des.access.id : AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 des.secret.key: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
-des.endpoint : https://s3.cn-north-1.jcloudcs.com
+des.endpoint : https://s3.cn-north-1.jdcloud-oss.com
 des.bucket : yourbucket
 
 ```
@@ -214,7 +214,7 @@ sourceType: s3file
 
 src.access.id : XXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 src.secret.key: YYYYYYYYYYYYYYYYYYYYYYYYYYYYY
-src.endpoint : https://s3.cn-north-1.jcloudcs.com
+src.endpoint : https://s3.cn-north-1.jdcloud-oss.com
 src.bucket : yourbucket
 src.prefix :
 
@@ -222,7 +222,7 @@ src.prefix :
 
 des.access.id : AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 des.secret.key: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
-des.endpoint : https://s3.cn-north-1.jcloudcs.com
+des.endpoint : https://s3.cn-north-1.jdcloud-oss.com
 des.bucket : yourbucket
 des.prefix:
 

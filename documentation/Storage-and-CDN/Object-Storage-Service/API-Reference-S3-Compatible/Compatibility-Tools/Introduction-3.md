@@ -10,4 +10,6 @@ These two values are a credential of the user's identity, which are used when ch
 
 endpoint is used to specify the service domain name; https and http are supported.
 
+For various regional endpoints, please refer to [server domain](../../../Object-Storage-Service/API-Reference-S3-Compatible/Regions-And-Endpoints.md).
+
 We will introduce some commonly used tools in the following part, including: sdk-python, sdk-java, sdk-php. Our introduction will help you get started quickly. Please refer to the related documents for more detailed information.

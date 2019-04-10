@@ -1,4 +1,4 @@
-# Put Bucket Cors
+# Put Bucket CORS
 
 ## Description
 Add cors configuration for specified Bucket. If configuration is existed, OSS will replace it, and only Owner of Bucket can carry out the operation. You can set the configuration for the Bucket so that Bucket can provide service for cross-origin access.
@@ -6,7 +6,7 @@ Add cors configuration for specified Bucket. If configuration is existed, OSS wi
 cors rules are displayed in the form of XML text, containing sources and HTTP method. The maximum size of the text is 64KB. E.g., cors configuration of Bucket has the following two rules:
 * First, CORSRule allows cross-origin requests of PUT, POST, DELETE from https://www.example.com. The rule also allows to initiate a pre-request through Access-Control-Request-Headers. So, in order to respond OPTIONS pre-request, OSS will return all request Header.
 * Second, CORSRule allows all cross-origin GET requests and wildcard of "*" refers to all sources.
-```
+```XML
 <CORSConfiguration>
  <CORSRule>
    <AllowedOrigin>http://www.example.com</AllowedOrigin>
@@ -24,7 +24,7 @@ cors rules are displayed in the form of XML text, containing sources and HTTP me
 </CORSConfiguration>
 ```
 cors configuration also allows other optional parameters, shown as below:
-```
+```XML
 <CORSConfiguration>
  <CORSRule>
    <AllowedOrigin>http://www.example.com</AllowedOrigin>
@@ -47,9 +47,9 @@ When OSS receives cross-origin request (OPTIONS pre-request), it will match requ
 
 ## Request
 ### Syntax
-```
+```HTTP
 PUT /?cors HTTP/1.1
-Host: <Bucket>.s3.<region>.jcloudcs.com 
+Host: <BUCKET_NAME>.s3.<REGION>.jdcloud-oss.com
 Content-Length: <length>
 Date: <date>
 Authorization: <authorization string> (see Authenticating Requests (AWS Signature Version4))
@@ -106,9 +106,9 @@ No Response Element
 
 ## Examples
 ### Request Example
-```
+```HTTP
 PUT /?cors HTTP/1.1
-Host: oss-example.s3.<region>.jcloudcs.com 
+Host: <BUCKET_NAME>.s3.<REGION>.jdcloud-oss.com
 x-amz-date: Tue, 21 Aug 2012 17:54:50 GMT
 Content-MD5: 8dYiLewFWZyGgV2Q5FNI4W==
 Authorization: authorization string
@@ -134,7 +134,7 @@ Content-Length: 216
 ```
 
 ### Response Example
-```
+```HTTP
 HTTP/1.1 200 OK
 x-amz-request-id: BDC4B83DF5096BBE
 Date: Tue, 21 Aug 2012 17:54:50 GMT

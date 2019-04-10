@@ -41,20 +41,8 @@ items:
       href: Getting-Started/example_console.md
     - name: Use Function to construct API
       href: Getting-Started/example_function.md
-    - name: Create API Groups
-      href: Getting-Started/STEP1-Create-APIGroup.md
-    - name: Create APIs
-      href: Getting-Started/STEP2-Create-API.md
-    - name: Customize Domain Names
-      href: Getting-Started/STEP3-1-Create-Domain.md
-    - name: Backend Signature
-      href: Getting-Started/STEP3-2-Create-BackSign.md
-    - name: Traffic Control Policy
-      href: Getting-Started/STEP3-3-Create-Stream.md
-    - name: Release API groups
-      href: Getting-Started/STEP4-Create-Publish.md  
-    - name: Access Authorization for API
-      href: Getting-Started/STEP5-Create-Auth.md
+    - name: Build API using the method of subscription Key
+      herf: Getting-Started/example_subscriptionKey.md
 - name: Operation Guide
   items:
     - name: API Group Management
@@ -67,6 +55,8 @@ items:
           href: Operation-Guide/Create-APIGroup/Create-Domain.md  
         - name: Access Monitoring
           href: Operation-Guide/Create-APIGroup/Monitoring.md  
+        - name: Log Service
+          href: Operation-Guide/Create-APIGroup/Log-Service.md  
     - name: API Management
       items:
         - name: Create API

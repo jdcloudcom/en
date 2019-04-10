@@ -5,9 +5,9 @@ Delete cors configuration information in specified Bucket. Only Owner of Bucket 
 
 ## Request
 ### Syntax
-```
+```HTTP
 DELETE /?cors HTTP/1.1
-Host: <bucket>.s3.<region>.jcloudcs.com 
+Host: <BUCKET_NAME>.s3.<REGION>.jdcloud-oss.com
 Date: <date>
 Authorization: <authorization string> (see Authenticating Requests (AWS Signature Version4))
 ```
@@ -26,15 +26,15 @@ No Special Response Header
 
 ## Examples
 ### Request Example
-```
+```HTTP
 DELETE /?cors HTTP/1.1
-Host: oss-example.s3.<region>.jcloudcs.com
+Host: <BUCKET_NAME>.s3.<REGION>.jdcloud-oss.com
 Date: Tue, 13 Dec 2011 19:14:42 GMT
 Authorization: <authorization string>
 ```
 
 ### Response Example
-```
+```HTTP
 HTTP/1.1 204 No Content
 x-amz-request-id: 0CF038E9BCF63097
 Date: Tue, 13 Dec 2011 19:14:42 GMT

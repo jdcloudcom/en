@@ -5,9 +5,9 @@ The operation deletes policy of designated Bucket, only Owner of the Bucket can 
 
 ## Request
 ### Syntax
-```
+```HTTP
 DELETE /?policy HTTP/1.1
-Host: <bucket>.s3.<region>.jcloudcs.com 
+Host: <BUCKET_NAME>.s3.<REGION>.jdcloud-oss.com
 Date: <date>
 Authorization: <authorization string> (see Authenticating Requests (AWS Signature Version4))
 ```
@@ -26,14 +26,14 @@ Contain the status of DELETE operation, including error codes of failed requests
 
 ## Examples
 ### Request Example
-```
+```HTTP
 DELETE /?policy HTTP/1.1
-Host: oss-example.s3.<region>.jcloudcs.com 
+Host: <BUCKET_NAME>.s3.<REGION>.jdcloud-oss.com
 Date: Tue, 04 Apr 2010 20:34:56 GMT  
 Authorization: <authorization string>
 ```
 ### Response Example
-```
+```HTTP
 HTTP/1.1 204 No Content 
 x-amz-request-id: 656c76696e672SAMPLE5657374  
 Date: Tue, 04 Apr 2010 20:34:56 GMT  

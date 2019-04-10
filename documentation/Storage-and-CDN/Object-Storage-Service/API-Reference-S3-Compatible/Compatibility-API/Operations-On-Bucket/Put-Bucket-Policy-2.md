@@ -4,9 +4,9 @@
 The operation can set policy of specified Bucket, which is only available to the Owner of the Bucket. For more Bucket Policy relevant information, please access [Bucket Policy-based Permission Control](../../../Operation-Guide/Access-Control/Access-Control-Base-On-Bucket-Policy.md).
 ## Request
 ### Syntax
-```
+```HTTP
 PUT /?policy HTTP/1.1
-Host: <bucket>.s3.<region>.jcloudcs.com 
+Host: <BUCKET_NAME>.s3.<REGION>.jdcloud-oss.com
 Date: <date>
 Authorization: <authorization string> (see Authenticating Requests (AWS Signature Version4))
 
@@ -35,9 +35,9 @@ No Response Element
 
 ## Examples
 ### Request Example
-```
+```HTTP
 PUT /?policy HTTP/1.1
-Host: oss-example.s3.<region>.jcloudcs.com  
+Host: <BUCKET_NAME>.s3.<REGION>.jdcloud-oss.com 
 Date: Tue, 04 Apr 2010 20:34:56 GMT  
 Authorization: <authorization string>
 
@@ -60,8 +60,8 @@ Authorization: <authorization string>
 ```
 
 ### Response Example
-```
-HTTP/1.1 204 No Content  
+```HTTP
+HTTP/1.1 200 OK  
 x-amz-request-id: 656c76696e6727732SAMPLE7374  
 Date: Tue, 04 Apr 2010 20:34:56 GMT  
 Connection: keep-alive  

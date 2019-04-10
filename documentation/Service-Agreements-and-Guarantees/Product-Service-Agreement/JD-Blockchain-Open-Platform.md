@@ -11,9 +11,7 @@
 ## 2. **Service Charge**
 
 
-
 2.1. The BaaS platform service of JD Blockchain Open Platform is free to trial for 14 days during the Beta. The subsequent charge is subject to the announcement of the official website.
-
 
 
 ## 3. **Rights and Obligations**
@@ -78,7 +76,7 @@ You understand and acknowledge that the above list does not exhaust all types of
 
 3.1.3.10 Do not use the services provided by JD Cloud to engage in acts that damage the legitimate rights and interests of JD Cloud, JD Cloud's affiliated companies or all the companies and websites within JD Group. The aforementioned acts that damage the legitimate rights and interests of JD Group and websites include but are not limited to violations of any service agreement/terms, management specifications, trading rules and other regulatory contents published by JD Group, acts or attempts to undermine the fair trading environment or normal trading order of JD Group, etc.;
 
-3.1.3.11 Do not engage in other acts that violate the laws, regulations or JD Cloud Service Terms.
+3.1.3.11 Do not engage in other acts that violate the laws, regulations or JD Cloud Service Terms;
 
 3.1.3.12 If JD Cloud finds that you have violated the agreement of the above terms, you have the right to take corresponding measures according to the situation, including but not limited to immediately terminating the services, suspending the services or deleting the corresponding information. If you are challenged or complained by a third party institution or individual, JD Cloud will notify that you are responsible for making the explanation and issuing the certification materials within the specified time. If you fail to provide the evidence to the contrary or feedback within the specified time, JD Cloud will take measures including but not limited to immediately terminating the services, suspending the services, or deleting the corresponding information. In the event of failure to contact you due to the wrong contact information you provided or your failure of updating the contact information in time, you are deemed to have failed to provide feedback.
 
@@ -104,7 +102,7 @@ You understand and acknowledge that the above list does not exhaust all types of
 
 3.2.2 During the service period, JD Cloud will provide you with the following customer services:
 
-3.2.2.1 JD Cloud will provide a 7×24 after-sales fault service for the paying users, and provide effective contact information for the paying users to ensure that the paying users can contact the fault contacts. The fault contacts will send feedback in time after define the fault;
+3.2.2.1 JD Cloud will provide a 7×24 after-sales fault service for the paying users, and provide effective contact information for the paying users to ensure that the paying users can contact the fault contacts. The fault contacts will send feedback in time after define the fault.
 
 3.2.2.2 JD Cloud will provide a 7×24 hours online ticket service system to answer customer questions during the use.
 

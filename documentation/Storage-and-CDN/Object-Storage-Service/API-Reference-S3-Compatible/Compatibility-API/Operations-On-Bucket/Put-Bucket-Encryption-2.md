@@ -4,9 +4,9 @@
  
 ## Request Syntax
  
-```
-GET /eric-jdcloud/?encryption  HTTP/1.1
-Host: <bucket>.s3.<region>.jcloudcs.com
+```HTTP
+PUT /?encryption  HTTP/1.1
+Host: <BUCKET_NAME>.s3.<REGION>.jdcloud-oss.com
 Date: Wed, 06 Sep 2018 12:00:00 GMT
 Authorization: authorization string  (use signature version 4)
 Content-Length:  length 
@@ -25,13 +25,13 @@ There is no need for special request head.
 ###  Request Body
 The encryption mode information is stored in the request body and displayed in the form of xml. The following example shows setting bucket as SSE-KMS by default.
 
-```
+```XML
 <ServerSideEncryptionConfiguration>
   <Rule>
     <ApplyServerSideEncryptionByDefault>
             <SSEAlgorithm>aws:kms</SSEAlgorithm>
     </ApplyServerSideEncryptionByDefault>
-</Rule>
+  </Rule>
 </ServerSideEncryptionConfiguration>
 
 ```
@@ -62,9 +62,9 @@ The encryption mode information is stored in the request body and displayed in t
 ## Example:
 
 Request Example:
-  ```
+```HTTP
 PUT /?encryption HTTP/1.1
-Host: examplebucket.s3.amazonaws.com
+Host: <BUCKET_NAME>.s3.<REGION>.jdcloud-oss.com
 Date: Wed, 06 Sep 2017 12:00:00 GMT
 Authorization: authorization string
 Content-Length: length
@@ -80,7 +80,7 @@ Content-Length: length
   ```
  Return Example:
  
-   ```
+```HTTP
 HTTP/1.1 200 OK
 Server: JDCloudOSS
 Date: Wed, 14 Nov 2018 03:50:29 GMT
@@ -88,8 +88,7 @@ Content-Length: 0
 Connection: keep-alive
 x-req-id: A8D4BE3AD5D9B626
 x-amz-request-id: A8D4BE3AD5D9B626
-
-  ```
+```
   
  
   

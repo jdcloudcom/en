@@ -59,3 +59,4 @@ You are enabling the **third-party account association and login function**.
 3.3 Where there is any inconsistence or conflict between the Agreement and relevant terms executed by the Parties before or between statements of the JD Cloud, provisions of the Agreement shall prevail.
 
  **You hereby confirm again that you have fully gone through and understood the above agreement on third-party account association and login. You are willing to be subject to the above terms and are voluntary to formally carry out subsequent process about third-party account association and login.**
+ 

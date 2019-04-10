@@ -1,5 +1,10 @@
 # FAQ
 
+**Q: How to choose among Application Load Balancer, Network Load Balancer or Distributed Network Load Balancer?**
+
+A: We recommend the Load Balancer type as per the following process to maximize the performance experience and minimize the cost of users while satisfying user demands.
+![LB类型选择](../../../../image/Networking/ALB/ALB-faq.png)
+
 **Q: Application Load Balancer quota for a single user? **
 
 A: Support the single user to create up to 20 LB in the same region now, if you need to increase the quota, please open ticket or contact the customer service staff.

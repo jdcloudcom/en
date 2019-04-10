@@ -23,7 +23,7 @@ The process is as follows:
  
  3. Add CNAME rules on the Domain Service server and map www.example.com to storage space domain.
  
- 4.httpWhen the request of ://www.example.com/abc.html arrives at OSS, OSS will find the mapping between www.example.com and storage space domain (example.oss.cn-north-1.jcloudcs.com) and converts to an abc.html file that accesses the bucket. That is, after processed by OSS, the access to http://www.example.com/abc.html, actually is the access to http:// example.oss.cn-north-1.jcloudcs.com / abc.html.
+ 4.When the request of http://www.example.com/abc.html arrives at OSS, OSS will find the mapping between www.example.com and storage space domain (example.s3.cn-north-1.jdcloud-oss.com) and converts to an abc.html file that accesses the bucket. That is, after processed by OSS, the access to http://www.example.com/abc.html, actually is the access to http://example.s3.cn-north-1.jdcloud-oss.com/abc.html.
  
 ## Benefits of Customized Domain
 
@@ -33,14 +33,14 @@ The process is as follows:
 ## Console: Customized Domain 
 After OSS Bucket uploads the object, the address of the object is available, including two parts: OSS domain address + object file name. The OSS access domain format is as follows:
 
-```<BucketName>.<Endpoint>```
+```
+<BucketName>.<Endpoint>
+```
 [Internet Domain- endpoint ](../../API-Reference-S3-Compatible/Regions-And-Endpoints.md)
-
-
 
 Customized domain is available as access address to the storage file in OSS after the customized domain is associated successfully. For example, your storage space example is located in cn-north-1, the object file name is test.jpg, and the customized domain associated is hello-world.com, then the object access address is:
 
-* Before association: example.oss.cn-north-1.jcloudcs.com /test.jpg
+* Before association: example.s3.cn-north-1.jdcloud-oss.com /test.jpg
 * After association: hello-world.com/test.jpg
   You can associate the customized domain to the OSS Internet domain through the console to realize the customized domain access to the file under the bucket.
 
@@ -73,7 +73,6 @@ Customized domain is available as access address to the storage file in OSS afte
 Login JD Cloud DNS console and enter the domain resolution list page.
 Click the target domain or the right-handed resolution button to enter the domain resolution page.
 Add resolution, and then add the resolution page.
-Choose CNAME in the record type drop-down list; in the record value box, fill in the corresponding storage space Internet domain (i.e. Bucket domain, such as BucketName.oss.cn-north-1.jcloudcs.com).
+Choose CNAME in the record type drop-down list; in the record value box, fill in the corresponding storage space Internet domain (i.e. Bucket domain, such as BucketName.s3.cn-north-1.jdcloud-oss.com).
 Click **Confirm**, and the domain resolution is completed.
 For details, please refer to [JD Cloud DNS-Add Resolution Record](https://docs.jdcloud.com/en/jd-cloud-dns/domain-record-add)
-

@@ -12,7 +12,9 @@
       - name: Core Concepts
         href: Introduction/Core-Concepts.md        
       - name: Specifications
-        href: Introduction/Specifications.md       
+        href: Introduction/Specifications.md
+      - name: Restrictions
+        href: Introduction/Restrictions.md          
   - name: Pricing
     items:
       - name: Billing Overview
@@ -70,6 +72,5 @@
     items:
     - name: FAQ
       href: FAQ/FAQ.md
-    - name: Use Restrictions
-      href: FAQ/Restrictions.md   
+
   

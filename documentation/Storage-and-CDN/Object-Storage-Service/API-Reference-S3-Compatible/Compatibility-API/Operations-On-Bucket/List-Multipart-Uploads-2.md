@@ -5,9 +5,9 @@ The operation lists the multipart upload in progress. Up to 1,000 multipart uplo
 
 ## Request
 ### Syntax
-```
+```HTTP
 GET /?uploads HTTP/1.1
-Host: <bucket>.s3.<region>.jcloudcs.com 
+Host: <BUCKET_NAME>.s3.<REGION>.jdcloud-oss.com
 Date: <Date>
 Authorization: <authorization string>			
 ```
@@ -50,14 +50,14 @@ CommonPrefixes.Prefix|If the request contains no Prefix parameter, the element o
 
 ## Examples
 ### Request Example
-```
+```HTTP
 GET /?uploads&max-uploads=3 HTTP/1.1
-Host: oss-example.s3.<region>.jcloudcs.com 
+Host: <BUCKET_NAME>.s3.<REGION>.jdcloud-oss.com
 Date: Mon, 1 Nov 2010 20:34:56 GMT
 Authorization: <authorization string>
 ```
 ### Response Example
-```
+```HTTP
 HTTP/1.1 200 OK
 x-amz-request-id: 656c76696e6727732072657175657374
 Date: Mon, 1 Nov 2010 20:34:56 GMT

@@ -17,7 +17,9 @@ A pair of valid Access Keys (including Access KeyId and Access KeySecretID) to p
 After acquiring the AccessKeyId and secretAccessKeyId, you can perform initialization as per the following steps.
 
 ## Create S3Client
+
 The following example shows how to create a client. For more Java SDK samples, please access to [JD Cloud Compatible with S3 Java SDK Samples](https://github.com/jdcloud-cmw/oss/tree/master/s3-java-sdk)
+
 ```Java
 import com.amazonaws.auth.AWSCredentialsProvider;
 import com.amazonaws.auth.AWSStaticCredentialsProvider;
@@ -34,7 +36,7 @@ public class S3SdkTest{
     public static void main(String[] args)  {
         final String accessKey = "<your accesskey>";
         final String secretKey = "<your secretkey>";
-        final String endpoint = "https://s3.cn-north-1.jcloudcs.com";
+        final String endpoint = "https://s3.<region>.jdcloud-oss.com";
         ClientConfiguration config = new ClientConfiguration();
  
         AwsClientBuilder.EndpointConfiguration endpointConfig =

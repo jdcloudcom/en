@@ -5,9 +5,9 @@ The operation deletes static website hosted configuration in specified Bucket, o
 
 ## Request
 ### Syntax
-```
+```HTTP
 DELETE /?website HTTP/1.1
-Host: <bucket>.s3.<region>.jcloudcs.com 
+Host: <BUCKET_NAME>.s3.<REGION>.jdcloud-oss.com
 Date: <date>
 Authorization: <authorization string> (see Authenticating Requests (AWS Signature Version4))
 ```
@@ -27,15 +27,15 @@ No Response Element
 
 ## Examples
 ### Request Example
-```
+```HTTP
 DELETE ?website HTTP/1.1
-Host: oss-example.s3.<region>.jcloudcs.com 
+Host: <BUCKET_NAME>.s3.<REGION>.jdcloud-oss.com
 Date: Thu, 27 Jan 2011 12:00:00 GMT
 Authorization: <authorization string>
 ```
 
 ### Response Example
-```
+```HTTP
 HTTP/1.1 204 No Content
 x-amz-request-id: AF1DD829D3B49707
 Date: Thu, 03 Feb 2011 22:10:26 GMT

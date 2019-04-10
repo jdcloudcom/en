@@ -8,7 +8,7 @@ The operation will return metadata of Object, and READ permission of the Object 
 ### Syntax
 ```
 HEAD /ObjectName HTTP/1.1
-Host: <bucket>.s3.<region>.jcloudcs.com 
+Host: <bucket>.s3.<region>.jdcloud-oss.com 
 Authorization: <authorization string> (see Authenticating Requests (AWS Signature Version4))
 Date: <date>
 ```
@@ -47,7 +47,7 @@ No Response Element
 ### Request Example
 ```
 HEAD /my-image.jpg HTTP/1.1
-Host: oss-example.s3.<region>.jcloudcs.com 
+Host: oss-example.s3.<region>.jdcloud-oss.com
 Date: Wed, 28 Oct 2009 22:32:00 GMT
 Authorization: <authorization string>
 ```

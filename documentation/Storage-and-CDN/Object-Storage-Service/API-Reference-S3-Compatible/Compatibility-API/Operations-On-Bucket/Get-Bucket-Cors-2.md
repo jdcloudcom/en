@@ -5,9 +5,9 @@ Return cors configuration information in the specified Bucket, which is only ava
 
 ## Request
 ### Syntax
-```
+```HTTP
 GET /?cors HTTP/1.1
-Host: <bucket>.s3.<region>.jcloudcs.com 
+Host: <BUCKET_NAME>.s3.<REGION>.jdcloud-oss.com
 Date: <date>
 Authorization: <authorization string> (see Authenticating Requests (AWS Signature Version4))
 ```
@@ -36,15 +36,15 @@ ExposeHeader|The header list exposed to the browser, i.e., response header that 
 
 ## Examples
 ### Request Example
-```
+```HTTP
 GET /?cors HTTP/1.1
-Host: oss-example.s3.<region>.jcloudcs.com 
+Host: <BUCKET_NAME>.s3.<REGION>.jdcloud-oss.com
 Date: Tue, 13 Dec 2011 19:14:42 GMT
 Authorization: <authorization string>
 ```
 
 ### Response Example
-```
+```HTTP
 HTTP/1.1 200 OK
 x-amz-request-id: 0CF038E9BCF63097
 Date: Tue, 13 Dec 2011 19:14:42 GMT

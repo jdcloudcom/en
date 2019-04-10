@@ -88,7 +88,7 @@ SignerFactory.registerSigner("JdAWSS3V4Signer", JdAWSS3V4Signer.class);
  config.setProtocol(Protocol.HTTP);
  config.setSignerOverride("JdAWSS3V4Signer");
  sS3Client = new AmazonS3Client(getCredProvider(context.getApplicationContext()), config);
- sS3Client.setEndpoint("http://s3.cn-north-1.jcloudcs.com");
+ sS3Client.setEndpoint("https://s3.cn-north-1.jdcloud-oss.com");
  S3ClientOptions options = S3ClientOptions.builder()
          .disableChunkedEncoding()
          .setPayloadSigningEnabled(true)
@@ -97,4 +97,4 @@ SignerFactory.registerSigner("JdAWSS3V4Signer", JdAWSS3V4Signer.class);
 ```
 ## Demo Download
 
-Download link: http://s3-sdk-demo.oss.cn-north-1.jcloudcs.com/android-sdk/s3-android-demo.zip
+[Download link](http://s3-sdk-demo.oss.cn-north-1.jcloudcs.com/android-sdk/s3-android-demo.zip)

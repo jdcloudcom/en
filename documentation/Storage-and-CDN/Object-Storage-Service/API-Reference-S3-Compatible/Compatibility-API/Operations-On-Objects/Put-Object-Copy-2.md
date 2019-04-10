@@ -9,7 +9,7 @@ When OSS receives Put Object-Copy request or it is executing Copy, the request m
 ### Syntax
 ```
 PUT /destinationObject HTTP/1.1
-Host: <destinationBucket>.s3.<region>.jcloudcs.com 
+Host: <destinationBucket>.s3.<region>.jdcloud-oss.com 
 x-amz-copy-source: /source_bucket/sourceObject
 Authorization: <authorization string> (see Authenticating Requests (AWS Signature Version4))
 Date: <date>
@@ -47,7 +47,7 @@ LastModified|Return last modification time of the object. <br>Type: String<br>An
 ### Request Example
 ```
 PUT /my-second-image.jpg HTTP/1.1
-Host: oss-example.s3.<region>.jcloudcs.com 
+Host: oss-example.s3.<region>.jdcloud-oss.com
 Date: Wed, 28 Oct 2009 22:32:00 GMT
 x-amz-copy-source: /bucket/my-image.jpg
 Authorization: <authorization string>

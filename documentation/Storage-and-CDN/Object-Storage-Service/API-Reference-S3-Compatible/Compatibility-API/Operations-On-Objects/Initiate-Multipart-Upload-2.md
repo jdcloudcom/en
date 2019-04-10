@@ -7,7 +7,7 @@ The operation will enable multipart upload and return Upload ID. The Upload ID i
 ### Syntax
 ```
 POST /ObjectName?uploads HTTP/1.1
-Host: <bucket>.s3.<region>.jcloudcs.com 
+Host: <bucket>.s3.<region>.jdcloud-oss.com
 Date: <date>
 Authorization: <authorization string> (see Authenticating Requests (AWS Signature Version4))
 ```
@@ -47,7 +47,7 @@ UploadID|ID of multipart upload. <br>Type: String<br>Ancestors: InitiateMultipar
 ### Request Example
 ```
 POST /example-object?uploads HTTP/1.1
-Host: oss-example.s3.<region>.jcloudcs.com 
+Host: oss-example.s3.<region>.jdcloud-oss.com
 Date: Mon, 1 Nov 2010 20:34:56 GMT
 Authorization: <authorization string>
 ```

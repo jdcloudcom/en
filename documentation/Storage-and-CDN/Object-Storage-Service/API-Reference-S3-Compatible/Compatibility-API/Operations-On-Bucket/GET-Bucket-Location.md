@@ -8,9 +8,9 @@ This operation returns the region in which the specified Bucket is located.
 
 ### Syntax
 
-```
+```HTTP
 GET /?location HTTP/1.1
-Host: <BUCKET_NAME>.s3.<REGION>.jcloudcs.com
+Host: <BUCKET_NAME>.s3.<REGION>.jdcloud-oss.com
 Date: date
 Authorization: authorization string (see Authenticating Requests (AWS Signature Version4))
 ```
@@ -49,16 +49,16 @@ No Special Error
 ## Examples
 ### Request Example
 
-```
+```HTTP
 GET /?location HTTP/1.1
-Host: <BUCKET_NAME>.s3.<REGION>.jcloudcs.com
+Host: <BUCKET_NAME>.s3.<REGION>.jdcloud-oss.com
 Date: Tue, 09 Oct 2007 20:26:04 +0000
 Authorization: signatureValue
 ```
 
 ### Response Example
 
-```
+```XML
 <?xml version="1.0" encoding="UTF-8"?>
 <LocationConstraint>huabei</LocationConstraint>
 ```

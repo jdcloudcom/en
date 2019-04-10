@@ -5,9 +5,9 @@ The operation can delete specified Bucket. Before deleting a Bucket, all Objects
 
 ## Request
 ### Syntax
-```
+```HTTP
 DELETE / HTTP/1.1
-Host: <bucket>.s3.<region>.jcloudcs.com 
+Host: <BUCKET_NAME>.s3.<REGION>.jdcloud-oss.com
 Date: <date>
 Authorization: <authorization string> (see Authenticating Requests (AWS Signature Version4))
 ```
@@ -28,14 +28,14 @@ The operation only uses general response Header, please see common response Head
 ## Examples
 ### Request Example
 The request deletes the bucket named "oss-example".
-```
+```HTTP
 DELETE / HTTP/1.1
-Host: oss-example.s3.<region>.jcloudcs.com 
+Host: oss-example.s3.<REGION>.jdcloud-oss.com
 Date: Wed, 01 Mar  2006 12:00:00 GMT
 Authorization: <authorization string>
 ```
 ### Response Example
-```
+```HTTP
 HTTP/1.1 204 No Content
 x-amz-request-id: 32FE2CEB32F5EE25
 Date: Wed, 01 Mar  2006 12:00:00 GMT

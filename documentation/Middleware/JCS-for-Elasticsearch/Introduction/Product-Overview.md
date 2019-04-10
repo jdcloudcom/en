@@ -5,7 +5,7 @@ JD Cloud Search JCS for Elasticsearch (ES for short) is a distributed full-text 
 
 - Easy Operation
 	- [Create Cluster](../Getting-Started/Create-ES.md)
-	- [Access Cluster](../Operation-Guide/connect-ES.md)
+	- [Access Cluster](../Best-Practices/connect-ES.md)
 - Operation Guide
 	- [Use kibana](../Best-Practices/using_kibana.md)
 	- [View monitoring information](../Operation-Guide/Monitoring.md)

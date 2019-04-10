@@ -9,7 +9,7 @@ Batch deletion supports two response methods, which are verbose method and quiet
 ### Syntax
 ```
 POST /?delete HTTP/1.1
-Host: <bucket>.s3.<region>.jcloudcs.com 
+Host: <bucket>.s3.<region>.jdcloud-oss.com
 Authorization: <authorization string>
 Content-Length: <Size>
 Content-MD5: <MD5>
@@ -64,7 +64,7 @@ Message|Error Description<br>Type: String<br>Ancestor: Error
 ### Request Example
 ```
 POST /?delete HTTP/1.1
-Host: oss-example.s3.<region>.jcloudcs.com 
+Host: oss-example.s3.<region>.jdcloud-oss.com 
 Accept: */*
 x-amz-date: Wed, 30 Nov 2011 03:39:05 GMT
 Content-MD5: p5/WA/oEr30qrEEl21PAqw==

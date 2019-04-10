@@ -8,9 +8,9 @@ To facilitate the understanding of some concepts and parameters in the SDK, it's
 
 # Environment Preparation #
 
-1.     The JD Cloud Java SDK is applicable to jdk7 and above versions.
+1. The JD Cloud Java SDK is applicable to jdk7 and above versions.
 
-2.     Before calling JD Cloud open API, it's necessary to apply for accesskey and secretKey Key Pair (AK/SK) in advance in Account Management of JD Cloud User Center. AK/ SK information shall be kept properly and if lost, it is likely to allow illegal users to use this information to operate your resources on the cloud, resulting in data or property losses.
+2. Before calling JD Cloud open API, it's necessary to apply for accesskey and secretKey Key Pair (AK/SK) in advance in Account Management of JD Cloud User Center. AK/ SK information shall be kept properly and if lost, it is likely to allow illegal users to use this information to operate your resources on the cloud, resulting in data or property losses.
 
 
 
@@ -47,7 +47,7 @@ The calling of the Java SDK is mainly divided into four steps:
 
 The following is an example of a call to query details for individual VM Instance
 
-```
+```Java
 	import com.jdcloud.sdk.JdcloudSdkException;
 	import com.jdcloud.sdk.auth.CredentialsProvider;
 	import com.jdcloud.sdk.auth.StaticCredentialsProvider;
@@ -95,5 +95,7 @@ The following is an example of a call to query details for individual VM Instanc
 ```
 
 If you need to set up an additional header, for example, call an interface that opens the MFA operation protection, you need to pass x-jdcloud-security-token, as follows:
-
+```
 	 vmClient.setCustomHeader("x-jdcloud-security-token", "xxxx"); 
+	
+```
