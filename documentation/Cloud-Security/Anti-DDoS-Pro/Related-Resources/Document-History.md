@@ -10,6 +10,7 @@ This document introduces the important updating history of the Anti-DDoS Pro pro
 | July, 2018 | Anti-DDoS Pro V2.3 | Anti-DDoS Pro supports Telecom's ISP line and the new functions of Web Service rules<br />1. Supports ISP line upgrade: the original Telecom, Telecom + Unicom lines can be upgraded to three-ISP line package. <br />2. New functions of Web Service protection: Supports non-standard ports like non-80, 443; supports websocket; supports all visits to the forced HTTP back-to-origin;<br />3. Interface optimization: Adds diagram of product protection flow process and supports report query of all instances. |
 |November 2018 | Anti-DDoS Pro V2.4 | New purchased instances support the protection for IPV6 addresses. Only China Telecom Line supports IPV6 at present.|
 |December 2018|Anti-DDoS Pro V2.5|1. Certificate management menu is added to support unified upload and management of certificates in Anti-DDoS Pro; <br />2. The domain in the web service forwarding rules can directly refer to the uploaded certificate in Anti-DDoS Pro certificate management. Which resolved the problem of repetition and inconvenient operation in the case of multiple domains,  under which certificates need to be uploaded separately.|
+|March 2019|Anti-DDoS Pro V3.0|Anti-DDoS Pro new price list is launched: <br /> 1. The price of one hundred G yearly package pricing is more favorable; <br />2. Though the protection capability is increased, the price list covers larger protection range.|
 
 
 ## Related Reference

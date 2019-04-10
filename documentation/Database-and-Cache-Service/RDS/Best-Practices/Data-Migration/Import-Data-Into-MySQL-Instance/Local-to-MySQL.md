@@ -9,7 +9,7 @@ It mainly explains how to transfer data from the local self-built MySQL to JCS f
 ## Operation Steps
 1. See specific steps of the JCS for MySQL service creation in [Create JCS for MySQL Database Instance](../../../Operation-Guide/Instance/Create-Instance.md).
 2. Create a database through the console to ensure that the name of the database to be exported from the local self-built MySQL is also created in the JCS for MySQL service. See specific creation steps in [Create Database](../../../Operation-Guide/Database-Management/Create-Database.md).
-3. Create a database account via the console, or use the account that created for the JCS for MySQL service creation, and then give this account the ***read/write*** authorization for the new database created in step 2. See specific creation steps in [Create Account](../../../Operation-Guide/Account/Create-Account.md).
+3. Create a database account via the console, or use the account that created for the JCS for MySQL service creation, and then give this account the ***read/write*** authorization for the new database created in step 2. See specific creation steps in [Create Account](../../../Operation-Guide/Account/Create-Account/MySQL-Create-Account.md).
 4. Export the data from the local self-built MySQL to the local and execute the command after completing the creation and initialization of the JCS for MySQL service.
 
     ```

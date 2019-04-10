@@ -14,21 +14,29 @@ Operation Steps:
 
 1. Open the Windows command line window, click **Start**->**All Programs**->**Attachment**->**Command Prompt**
 
-2. In the CMD window, execute the command ping www.jddnstest.com
+2. In the CMD window, execute the command ping `www.jddnstest.com`
+
 ![img](https://github.com/jdcloudcom/cn/blob/edit/image/dns-img/test-name-1.png)
+
 You can see that www.jddnstest.com has obtained the correct resolution address
 
 3. If you cannot find a resolution address for the domain name, you will be prompted not to find it
+
 ![img](https://github.com/jdcloudcom/cn/blob/edit/image/dns-img/test-name-2.png)
 
-4. You can also use the nslookup command to test, execute nslookup www.jddnstest.com
+
+4. You can also use the nslookup command to test, execute nslookup `www.jddnstest.com`
+
 ![img](https://github.com/jdcloudcom/cn/blob/edit/image/dns-img/test-name-3.png)
+
 You can obtain the correct IP address of www.jddnstest.com on the customer
 
 II. Test that whether the resolution record has taken effect on the JD Cloud DNS server
 
-Test whether the resolution record has taken effect on the JD Cloud DNS server, you can only use the nslookup command in the CMD window to execute nslookup www.jddnstest.com ns1.jdgslb.com, where ns1.jdgslb.com is the JD Cloud DNS address corresponding to the Domain of jddnstest.com.
+Test whether the resolution record has taken effect on the JD Cloud DNS server, you can only use the nslookup command in the CMD window to execute nslookup `www.jddnstest.com` ns1.jdgslb.com, where ns1.jdgslb.com is the JD Cloud DNS address corresponding to the Domain of jddnstest.com.
+
 ![img](https://github.com/jdcloudcom/cn/blob/edit/image/dns-img/test-name-4.png)
+
 You can see that the address of www.jddnstest.com was successfully obtained on the customer, and the result is returned by the JD Cloud DNS server.
 
 ## **Linux Platform Test Methods and Steps:**
@@ -37,18 +45,25 @@ The Linux platform can take the ping and dig commands and test through command l
 
 I. Test whether the resolution record has taken effect in Local DNS/customer
 
-1. Execute ping www.jddnstest.com in the command line inwindow
+1. Execute ping `www.jddnstest.com` in the command line inwindow
 You can see that www.jddnstest.com has obtained the correct resolution address
+
 ![img](https://github.com/jdcloudcom/cn/blob/edit/image/dns-img/test-name-5.png)
 
 2. If you cannot find a resolution address for the domain name, you will be prompted "unknown host"
+
 ![img](https://github.com/jdcloudcom/cn/blob/edit/image/dns-img/test-name-6.png)
-3. You can also use the dig command to test and execute dig www.jddnstest.com
+
+3. You can also use the dig command to test and execute dig `www.jddnstest.com`
+
 ![img](https://github.com/jdcloudcom/cn/blob/edit/image/dns-img/test-name-7.png)
-You can obtain the correct IP address of www.jddnstest.com on the customer
+
+You can obtain the correct IP address of `www.jddnstest.com` on the customer
 
 II. Test that whether the resolution record has taken effect on the JD Cloud DNS server
 
-Test whether the resolution record has taken effect on the JD Cloud DNS server, you can only use the dig command in the command line window to execute dig www.jddnstest.com @ns1.jdgslb.com, where ns1.jdgslb.com is the JD Cloud DNS address corresponding to the Domain of jddnstest.com.
+Test whether the resolution record has taken effect on the JD Cloud DNS server, you can only use the dig command in the command line window to execute dig `www.jddnstest.com` @ns1.jdgslb.com, where ns1.jdgslb.com is the JD Cloud DNS address corresponding to the Domain of jddnstest.com.
+
 ![img](https://github.com/jdcloudcom/cn/blob/edit/image/dns-img/test-name-8.png)
-You can see that the address of www.jddnstest.com was successfully obtained on the customer, and the result is returned by the JD Cloud DNS server.
+
+You can see that the address of `www.jddnstest.com` was successfully obtained on the customer, and the result is returned by the JD Cloud DNS server.

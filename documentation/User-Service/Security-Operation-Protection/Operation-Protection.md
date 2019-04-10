@@ -2,12 +2,12 @@ This article describes how to set up operation protection for primary accounts a
 
 # Operation protection setting of the primary account:
 
-Click **Account Management** < **Security Setting** < **Operation Protection** to enter the page:
+Click **Account Management** > **Security Setting** > **Operation Protection** to enter the page:
 ![主账号操作保护设置](../../../image/IAM/Virtual-MFA-Device/主账号操作保护设置.png)
 
 # Operation protection setting of the sub-user:
 
-Click **IAM** < **User Management** < **User Details** < **Security Credential** < **Security Setting
+Click **IAM** > **User Management** > **User Details** > **Security Credential** > **Security Setting
 ![子用户操作保护设置](../../../image/IAM/Virtual-MFA-Device/子用户操作保护设置.jpg)
 
 # Identity verification page:

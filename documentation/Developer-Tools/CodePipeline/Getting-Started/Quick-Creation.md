@@ -22,8 +22,8 @@ Operation Steps
    
    ![](/image/codepipeline/cre-source-stage2.png) 
   
-   * Operation Name: the name of operation which shall be unique within a CodePipeline. It cannot be null; it only supports Chinese characters, numbers, capital and lower-case letters, English underline "_" and line-through "-", with at most 32 characters
    * Operation Type: Source Code
+   * Operation name: Generate a default name according to the operation type. We recommend users to modify it by themselves in order for a better identification degree when it is associated in subsequent operations.
    * Code source: Support CodeCommit, GitHub.
    * Codebase: Select a codebase
    * Branch: Select branch
@@ -38,16 +38,17 @@ Operation Steps
       
    ![](/image/codepipeline/cre-build-action.png)
  
-   * Operation Name: the name of operation which shall be unique within a CodePipeline. It cannot be null; it only supports Chinese characters, numbers, capital and lower-case letters, English underline "_" and line-through "-", with at most 32 characters
    * Operation Type: Construction
+   * Operation name: Generate a default name according to the operation type. We recommend users to modify it by themselves in order for a better identification degree when it is associated in subsequent operations.
    * Operation Provider: CodeBuild
-   * Code Source: The source code compiled by this construction task, select the source code action defined in the CodePipeline.
-   * Application: Select the compilation task. Based on the code source selected above, the compiled application in the CodeBuild will be filtered.
+   * Code source: The source code compiled by this construction task shall select the source code added at the previous stage
+   * CodeBuild-Task: Please select the CodeBuild task corresponding to 「code source」.
    * Manual Confirmation: If manual confirmation is selected, the action will be executed after the user clicks **Confirm**. It is automatically executed by default.
 
    4) Set Deployment Stage
   
    In the deployment phase, add one (or more) deployment type actions.
+   
    
   ![](/image/codepipeline/cre-deploy-stage.png) 
      
@@ -55,13 +56,14 @@ Operation Steps
   
   ![](/image/codepipeline/cre-deploy-action2.png)
 
- 
+  
 
- 
-   * Operation Name: the name of operation which shall be unique within a CodePipeline. It cannot be null; it only supports Chinese characters, numbers, capital and lower-case letters, English underline "_" and line-through "-", with at most 32 characters
    * Operation Type: Deployment
-   * Operation Provider: JCS for Kubernetes
-   * Cluster: The corresponding project in JCS for Kubernetes. Select the JCS for Kubernetes that the user has created in the JD Cloud Console. Or go to the Console to create the JCS for Kubernetes and return to this task
+   * Operation name: Generate a default name according to the operation type. We recommend users to modify it by themselves in order for a better identification degree when it is associated in subsequent operations.
+   * Operation provider: CodeDeploy, JCS for Kubernetes
+   * Deployment application: Please select CodeDeploy-application
+   * Deployment group: Please select CodeDeploy-deployment group
+   * Deployment command: Enter the deployment command or use the jdcloud-codedeploy.yml file under the code root directory
    * Manual Confirmation: If manual confirmation is selected, the action will be executed after the user clicks **Confirm**. It is automatically executed by default.
 
 4. The just created records can be view on the CodePipeline page after creation.

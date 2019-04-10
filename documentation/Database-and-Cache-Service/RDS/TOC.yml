@@ -21,6 +21,8 @@
           href: Introduction/Specifications/MariaDB-Specifications.md
         - name: SQL Server Specifications
           href: Introduction/Specifications/SQL-Server-Specifications.md       
+        - name: PostgreSQL Specifications
+          href: Introduction/Specifications/PostgreSQL-Specifications.md       
       - name: Restrictions
         items:
         - name: JCS for MySQL Restrictions
@@ -31,6 +33,8 @@
           href: Introduction/Restrictions/MariaDB-Restrictions.md
         - name: JCS for SQL Server Restrictions
           href: Introduction/Restrictions/SQLServer-Restrictions.md
+        - name: PostgreSQL Restrictions
+          href: Introduction/Restrictions/PostgreSQL-Restrictions.md
       - name: Application Scenarios
         href: Introduction/Application-Scenarios.md
   - name: Pricing
@@ -69,6 +73,8 @@
             href: Operation-Guide/Instance/Modify-Instance-Spec.md            
           - name:  Failover Instance
             href: Operation-Guide/Instance/Failover-Instance.md
+          - name: Domain Switch
+            href: Operation-Guide/Instance/Exchanged-DNS.md           
           - name: Reboot Instance
             items:
             - name: Reboot JCS for MySQL
@@ -90,7 +96,17 @@
       - name: Account Management
         items:
           - name: Create Account
-            herf: Operation-Guide/Account/Create-Account.md
+            items:
+            - name: MySQL Create Account
+              herf: Operation-Guide/Account/Create-Account/MySQL-Create-Account.md
+            - name: Percona Create Account
+              herf: Operation-Guide/Account/Create-Account/Percona-Create-Account.md
+            - name: MariaDB Create Account
+              herf: Operation-Guide/Account/Create-Account/MariaDB-Create-Account.md
+            - name: SQL Server Create Account
+              herf: Operation-Guide/Account/Create-Account/SQLServer-Create-Account.md
+            - name: PostgreSQL Create Account
+              herf: Operation-Guide/Account/Create-Account/PostgreSQL-Create-Account.md
           - name: Modify Privilege
             herf: Operation-Guide/Account/Modify-Privilege.md
           - name: Reset Password
@@ -117,6 +133,8 @@
               href: Operation-Guide/Backup/Create-Backup/MariaDB-Create-Backup.md
             - name: Create JCS for SQL Server Backup
               href: Operation-Guide/Backup/Create-Backup/SQLServer-Create-Backup.md
+            - name: PostgreSQL Create Backup
+              href: Operation-Guide/Backup/Create-Backup/PostgreSQL-Create-Backup.md
           - name: Backup Strategy
             items:
             - name: JCS for MySQL Backup Strategy
@@ -127,6 +145,8 @@
               href: Operation-Guide/Backup/Backup-Policy/MariaDB-Backup-Policy.md
             - name: JCS for SQL Server Backup Strategy
               href: Operation-Guide/Backup/Backup-Policy/SQLServer-Backup-Policy.md
+            - name: PostgreSQL Backup Policy
+              href: Operation-Guide/Backup/Backup-Policy/PostgreSQL-Backup-Policy.md
           - name: Backup Download
             items:
             - name: JCS for MySQL Backup Download
@@ -137,6 +157,8 @@
               href: Operation-Guide/Backup/Backup-Download/MariaDB-Backup-Download.md
             - name: JCS for SQL Server Backup Download
               href: Operation-Guide/Backup/Backup-Download/SQLServer-Backup-Download.md
+            - name: PostgreSQL Backup Download
+              href: Operation-Guide/Backup/Backup-Download/PostgreSQL-Backup-Download.md
           - name: Backup Replace and Recovery
             items:
             - name: JCS for MySQL Backup Recovery
@@ -269,6 +291,8 @@
         href: Operation-Guide/Log-Management.md   
       - name: Access Mode Setting
         href: Operation-Guide/Set-Access-Mode.md     
+      - name: PostgreSQL Plug-ins 
+        href: Operation-Guide/PostgreSQL-Extension.md   
             
   - name: Best Practices
     items:

@@ -8,7 +8,7 @@ TiDB provides syncer tool to conveniently conduct increment data import from MyS
 syncer belongs to a toolkit of TiDB enterprise version, see Download TiDB Enterprise Version Toolkit for acquisition.
 
 ## Download TiDB Enterprise Version Toolkit (Linux)
-```
+```Shell
 # Download tool compressed package
 wget http://download.pingcap.org/tidb-enterprise-tools-latest-linux-amd64.tar.gz
 wget http://download.pingcap.org/tidb-enterprise-tools-latest-linux-amd64.sha256
@@ -26,7 +26,7 @@ Suppose we have imported some data of two tables of t1 and t2 by using mydumper/
 As mentioned above, there is metadata file containing position information needed by us in the data directory exported by mydumper.
 
 The example of metadata file information content:
-```
+```Shell
 Started dump at: 2017-04-28 10:48:10
 SHOW MASTER STATUS:
     Log: mysql-bin.000003
@@ -38,7 +38,7 @@ Finished dump at: 2017-04-28 10:48:11
 
 We save information related to position in a syncer.meta file for syncer synchronization:
 
-```
+```Shell
 # cat syncer.meta
 binlog-name = "mysql-bin.000003"
 binlog-pos = 930143241
@@ -54,7 +54,7 @@ Before starting syncer service, please carefully read Syncer Increment Import
 
 The configuration file config.toml of syncer:
 
-```
+```Shell
 log-level = "info"
 
 server-id = 101
@@ -74,7 +74,7 @@ status-addr = "127.0.0.1:10086"
 
 ## After using route-rules function,
 ## the value priority relationship after replicate-do-db & replicate-ignore-db matching the table (target-schema & target-table)
-## : replicate-do-db --> replicate-do-table --> replicate-ignore-db --> replicate-ignore-table
+## Priority relationship: replicate-do-db --> replicate-do-table --> replicate-ignore-db --> replicate-ignore-table
 ## Designate the database name to be synchronized; support regex match, which the statement of expression must be begun with `~`
 #replicate-do-db = ["~^b.*","s1"]
 
@@ -141,7 +141,7 @@ port = 4000
 
 Start syncer:
 
-```
+```Shell
 ./bin/syncer -config config.toml
 
 2016/10/27 15:22:01 binlogsyncer.go:226: [info] begin to sync binlog from position (mysql-bin.000003, 1280)
@@ -151,13 +151,13 @@ Start syncer:
 ```
 
 ## Insert new data in MySQL
-```
+```SQL
 INSERT INTO t1 VALUES (4, 4), (5, 5);
 ```
 
 Login TiDB to view:
 
-```
+```Shell
 mysql -h127.0.0.1 -P4000 -uroot -p
 mysql> select * from t1;
 +----+------+
@@ -173,7 +173,7 @@ mysql> select * from t1;
 
 syncer will output current synchronization statistics every 30s, shown as below
 
-```
+```Shell
 2017/06/08 01:18:51 syncer.go:934: [info] [syncer]total events = 15, total tps = 130, recent tps = 4,
 master-binlog = (ON.000001, 11992), master-binlog-gtid=53ea0ed1-9bf8-11e6-8bea-64006a897c73:1-74,
 syncer-binlog = (ON.000001, 2504), syncer-binlog-gtid = 53ea0ed1-9bf8-11e6-8bea-64006a897c73:1-17

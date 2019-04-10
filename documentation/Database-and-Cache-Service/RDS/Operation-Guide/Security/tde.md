@@ -28,7 +28,7 @@ RDS of JD Cloud supports the use of TDE in the following SQL Server version:
 1. Log in the RDS console and click the instance to enter the **"Security Management"** page.
 2. Select **"TDE Encryption"** and click **Enable** to enable the instance-level TDE.
 3. Execute the following SQL for the database with TDE to be enabled. Taking the database db1 for example
-```
+```SQL
 USE master
 GO
 SELECT name FROM sys.certificates WHERE name LIKE 'TDE%'

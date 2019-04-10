@@ -1,46 +1,46 @@
-# Create Application
+# Create a Task
 
-Log in the CodeBuild interface, click **Create Application** in the project list page and create a compiling task.
+Log in the CodeBuild interface and click **Create Task** button in the Task List page and create a compiling task.
 
-1. Or access JD Cloud Console and click **Developer Tools** - **CodeBuild** at the navigation bar on the left to enter the Application List page.
+1. Access JD Cloud Console and click **Developer Tools** - **CodeBuild** at the navigation bar on the left to enter the Task List page
 
-2. Select the region in which the new application is located; click **Create Application** button to enter the Create Compilation Task page.
+2. Select the region in which the new task is located; click **Create Task** button to enter the Create Compilation Task page.
 
  ![](/image/codebuild/appList.PNG) 
 
-3. Application Configuration
+3. Task Configuration
 
  ![](/image/codebuild/createApp1.PNG) 
  
-   * Application Name
+   * Task Name
    
      Name the compile task. The name cannot be null and it supports only Chinese, numbers, uppercase and lowercase letters, English underline “ _ ” and line-through “ - ”, with at most 32 characters
    
-   * Use Customized Image
+   * Image Source
    
      Support users to use the image in the customized Container Registry. By default, it uses the compiling image provided by the JD Cloud CodeBuild service.
    
    * Compiling Image
    
-     Select compiling environments; it supports main compiled language environments as Java, golang and nodejs. If a user customized image is used, please fill in the image name and version here.
+     Select compiling environments; it supports main compiled language environments as Maven, golang, npm and cmake. If a user customized image is used, please fill in the image name and version here.
  
-4. Construction Source Code Configuration
+4. Source Code Configuration
 
  ![](/image/codebuild/createApp2.PNG) 
  
-   * Source Provider
+   * Code Source
    
      Support Git Public Repository and GitHub Private/Public Repository as well as JD Cloud CodeCommit.
      
-   * Repository Address
+   * Codebase
    
      The URL address of remote repository is as the same as that of the git clone command
      
-   * Code Branch
+   * Branch
    
      Select the code branch you want to compile
 
-5. Construction Configuration
+5. Construction Command
 
  ![](/image/codebuild/createApp3.PNG) 
  
@@ -98,6 +98,7 @@ Log in the CodeBuild interface, click **Create Application** in the project list
    * Notification Frequency
    
      Users can customize to send notification emails at the time of construction abnormal sending, or send the notification email for each construction.
+     Notification can be done by email, SMS and intra-website message.
 
 
 Click **Save/Save and Construct** to complete project **Creation/Construct Now**.

@@ -12,12 +12,12 @@ files:
     destination: /home/config
 hooks:
    AfterInstall:
-     - location: /opt/Control/Test1.sh
+     - command: /opt/Control/Test1.sh
        timeout: 100
        runas: root
-     - location: /opt/Control/Test2.sh
+     - command: /opt/Control/Test2.sh
        timeout: 100
-permisssions: 
+permissions: 
   - object: /home/config/soft
     pattern: "**"
     except: [function.php]
@@ -108,9 +108,9 @@ Example 4:
 
 **2) hooks (optional)**
 
-location：
+command:
 
-- The script location is an absolute path
+- The location of command or script, which is an absolute path
 - Compulsory
 
 timeout：
@@ -147,12 +147,12 @@ The following environment variables can be supported in the hooks scripts:
 
 | Environment variable      |   Explanation |
 | :--------: | :--------:|
-|  APP_ID | Application ID, which can be viewed on the deployment application page |
-| APP_NAME | Application name, which can be viewed on the deployment application page |
-| GROUP_ID | Deployment group ID, which can be viewed on the application details page |
-| GROUP_NAME | Deployment group name, which can be viewed on the application details page |
-| DEPLOY_ID | Deployment task ID, which can be viewed on the deployment history page |
-
+|  JDCLOUD_APP_ID | Application ID, which can be viewed on the deployment application page |
+| JDCLOUD_APP_NAME | Application name, which can be viewed on the deployment application page |
+| JDCLOUD_GROUP_ID | Deployment group ID, which can be viewed on the application details page |
+| JDCLOUD_GROUP_NAME | Deployment group name, which can be viewed on the application details page |
+| JDCLOUD_DEPLOY_ID | Deployment task ID, which can be viewed on the deployment history page |
+| JDCLOUD_LIFECYCLE_EVENT | Workflow Keyword |
 
 
 **Examples**
@@ -160,25 +160,25 @@ The following environment variables can be supported in the hooks scripts:
 ```
 hooks:
   AfterInstall:
-    - location: /home/bin/stop.sh
+    - command: /home/bin/stop.sh
       timeout: 100
       runas: hadoop
-    - location: /home/bin/stop2.sh
+    - command: /home/bin/stop2.sh
       timeout: 100
       runas: root
   ApplicationStart:
-    - location: /home/bin/start.sh
+    - command: /home/bin/start.sh
       timeout: 100
       runas: root
   BeforeInstall:
-    - location: /home/bin/config.sh
+    - command: /home/bin/config.sh
       timeout: 10
 ```
 In the process of deployment and in the workflow, corresponding operations bellow shall be made:
 
 - Execute deployment of pre-script: Execute /home/bin/config.sh with the root user with time-out period of 10s
 - Execute start script: Execute /home/bin/start.sh with the root user with time-out period of 100s
-- Execute deployment of post-script: Execute /home/bin/stop.sh with the hadoop user with time-out period of 100s, and then execute /home/bin/stop2.sh with the root user with time-out period of 100s. Execute from top to bottom between two locations
+- Execute deployment of post-script: Execute /home/bin/stop.sh with the hadoop user with time-out period of 100s, and then execute /home/bin/stop2.sh with the root user with time-out period of 100s. Execute from top to bottom between two commands
 
 
 It is recommended to set the set -e in the hooks script
@@ -224,7 +224,7 @@ type:
 **Examples**
 
 ```
-permisssions:
+permissions:
   - object: /opt/soft
     pattern: "*bin*"
     except: [sbin/start]
@@ -241,6 +241,17 @@ After copying directories or files to specified path, operations of permissions 
 **4) env (optional)**
 
 Environment Variables for Executing Relevant Scripts of hooks in the Workflow
+
+Designate the environment variable by means of key: value
+
+**Examples**
+
+```
+env:  
+  php_path: /home/config/soft/php/bin
+
+```
+
 
 
 

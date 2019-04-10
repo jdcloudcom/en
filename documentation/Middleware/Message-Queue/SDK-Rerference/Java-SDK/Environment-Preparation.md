@@ -6,7 +6,7 @@ Please ensure that JDK environment has been installed. If not, please go to Orac
 
 ## 2. SDK Environment Dependence
 - It is recommended to introduce the dependence in the Maven mode:
-  ```
+  ```XML
   <dependency>
      <groupId>com.jdcloud</groupId>
      <artifactId>jcq-java-sdk</artifactId>

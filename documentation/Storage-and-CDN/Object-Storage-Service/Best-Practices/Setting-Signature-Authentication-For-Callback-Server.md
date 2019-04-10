@@ -60,7 +60,7 @@ Note:
 3. Base64 refers to that the text is transcoded with the base64 algorithm.
 
 ### JAVA example code
-```
+```Java
 public class SignDemo {
       private Boolean authenticate(String method, String uri, Map<String, String> headers) {
           try {

@@ -8,7 +8,7 @@ redirect to the "New Application" page.
 
 On the "New Application" page, first fill in the application information.
 
-- Application name: It is unique and cannot be modified. In the same JD Cloud account, the application name is unique
+- Application name: It is unique and cannot be modified. In the same JD Cloud account and the same region, the application name is unique
 - Computing Platform: Only support "Virtual Machines" currently
 - Application description: Not compulsory. Please fill in the description information of the application
 

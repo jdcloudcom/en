@@ -28,9 +28,9 @@
           - name: Add Domain Name
             href: Operation-Guide/Domain-Name-Operation/Domainadd.md
           - name: Delete Domain Name
-            href: Operation-Guide/Instance-Management/Domaindelete.md
+            href: Operation-Guide/Domain-Name-Operation/Domaindelete.md
           - name: Modify Domain Name
-            href: Operation-Guide/Instance-Management/Domainmodify.md      
+            href: Operation-Guide/Domain-Name-Operation/Domainmodify.md      
       - name: Resolution Record Operation
         items:
           - name: Add Resolution Record
@@ -68,7 +68,7 @@
     - name: TTL Introduction
       href: FAQ/TTL.md
     - name: DNS FLag day Description
-      href: Solutions-to-DNS-FLag-day.md
+      href: FAQ/Solutions-to-DNS-FLag-day.md
   - name: Related Resources
     items:
     - name: Document History

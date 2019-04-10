@@ -1,14 +1,15 @@
 # Big Data Volume Processing
 ## Import Data
 If there is an Unique Key and the business side can guarantee that there is no conflict in the data, you can turn on the switch within Session:
-```
+```SQL
 SET @@session.tidb_skip_constraint_check=1;
 ```
 
 In addition, in order to improve the write performance, you can tune the parameters of TiKV.
 Please pay special attention to this parameter:
 
-```[raftstore]
+```Shell
+[raftstore]
 # The default is true, which means that the data is forced to be flushed to the disk. If it is a non-financial security level business scenario, it is recommended to be set to false,
 # in order to achieve better performance.
 sync-log = true
@@ -28,7 +29,7 @@ It is recommended that, regardless of Insert, Update and Delete statements, all 
 To delete a large amount of data, it is recommended to use “Delete * from t where xx limit 5000”, which is a solution to achieve the deletion through a loop, with “Affected Rows, = 0” as the end condition of the loop to avoid the limit of transaction size.
 
 If the amount of data deleted at a time is very large, this loop will be slower and slower, because each deletion is traversed from front to back, and after the previous deletion, there will be a lot of deletion marks left in a short time (later will be collected by gc), affecting the subsequent Delete statements. If possible, it is recommended to refine the Where conditions. For example, suppose that you want to delete all the data of May 26, 2017, you can operate as follows:
-```
+```SQL
 for i from 0 to 23:
     while affected_rows > 0:
 	delete * from t where insert_time >= i:00:00 and insert_time < (i+1):00:00 limit 5000;

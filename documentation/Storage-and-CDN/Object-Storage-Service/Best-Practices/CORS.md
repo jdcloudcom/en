@@ -48,7 +48,7 @@ Directly access the cors.html file with the AJAX technique
 
 Write a simple HTML file at first, copy the following codes into the local, save the same as the HTML file, host the webpage in the virtual machines with the IP address of 47.104.98.151. Therefore the address of the webpage is http://47.104.98.151/cors-test.html (The test address does not support the access. If you need access the test address, please configure such address by yourself).
 
-```
+```HTML
 <!DOCTYPE html>
 <html>
 <head>

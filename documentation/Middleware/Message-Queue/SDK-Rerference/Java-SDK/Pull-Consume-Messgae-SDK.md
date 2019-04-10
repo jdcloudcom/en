@@ -16,7 +16,7 @@ Message filter can be carried out when using the Message Queue JCQ SDK consumpti
 | DISCARD | Discard the message and do not resend. Consumption failed but there is no need to resend |
 
 ## Example Code:
-```java
+```Java
 package com.jcloud.jcq.sdk.demo;
 
 import com.jcloud.jcq.common.filter.FilterExpression;

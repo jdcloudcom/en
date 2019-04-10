@@ -2,7 +2,7 @@
 
 **Delete**
 
-No matter deleting application, deleting deployment group or deleting milestone will not perform any operation on deploying the target virtual machines. It will have no impact on deployment tasks that are being deployed, rolled back and manually terminated.
+No matter deleting application, deleting deployment group or deleting milestone will not perform any operation on deploying the target virtual machines.
 
 **Time-out Period of Deployment**
 
@@ -48,7 +48,7 @@ Instance status of the application details page, deployment history page and dep
 **Workflow**
 
 - For script in hooks, it is recommended to pay attention to idempotence
-- Execute the stop script, i.e. execute the backup stop scripts from the deployment target machine rather than those of the software program to be deployed
+
 
 
 **Deployment Directory Description**

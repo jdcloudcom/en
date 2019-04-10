@@ -103,3 +103,11 @@ Multiple RDS service instance indexes can be viewed on the console. Through the 
 |  Lock Timeouts per Second  |  Lock Timeouts per Second  |  60 sec/time  |  30 Days  |
 |  Deadlocks per Second  |  Deadlocks per Second  |  60 sec/time  |  30 Days  |
 |  Lock Waits per Second  |  Lock Waits per Second  |  60 sec/time  |  30 Days  |
+
+## PostgreSQL Monitoring Items
+|Monitoring Items|Description|Monitoring Frequency|Monitoring Period||
+|---|---|---|--|
+|CPU Utilization Rate|CPU Utilization Rate of Instance|60 Seconds/Time|30 Days|
+|Memory Utilization Rate|Memory Utilization Rate of Instance|60 Seconds/Time|30 Days|
+|Hard Disk Usage|The disk space usage of instance, including total disk space usage, user data usage, log file usage and system data usage. Unit: MByte|60 seconds/time|30 days|
+|Current Connection Number|Active and Total Connection Numbers of Instance|60 Seconds/Time|30 Days|

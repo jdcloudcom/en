@@ -8,7 +8,7 @@ Message filter can be carried out when using the Message Queue JCQ SDK consumpti
 | filterExpression | The tag for the messages received by the consumer can be set; 1 tag is supported temporarily |
 
 ## Example Code:
-```java
+```Java
 package com.jcloud.jcq.sdk.demo;
 
 import com.jcloud.jcq.client.consumer.ConsumeResult;

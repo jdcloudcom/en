@@ -19,7 +19,7 @@ You can create S3Client to manage OSS resources such as bucket and file. To laun
 
 The following is an example of creating a client. For more .NET SDK examples, please access [S3 .NET Example Code](https://docs.aws.amazon.com/en_us/sdk-for-net/v3/developer-guide/ S3-apis-intro.html?shortFooter=true).
 
-```
+```C#
 using Amazon.S3;
 
 namespace Amazon.Samples.S3
