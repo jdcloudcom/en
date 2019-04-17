@@ -5,5 +5,5 @@
    - Deleting images of specified versions;
    - Deleting images of specified Digest;
    - Deleting images according to version marking status;
-   ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Container-Registry/镜像管理.png)  
+   ![](../../../image/Elastic-Compute/Container-Registry/镜像管理-EN.png)  
 The images can be deleted by selecting one method, selecting images and clicking **OK**.
