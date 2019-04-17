@@ -13,7 +13,7 @@ Before creating native container Pod, you need to finish the following steps
 &#160; &#160; **Description**: it only supports cn-north-1, cn-east-2, cn-south-1 regions, among which cn-north-1 and cn-east-2 can provide two available zones of Availability Zone A and Availability Zone B.    
  3. Select billing model: monthly package and pay by configuration; as for monthly package, pay monthly to purchase resource and as for pay by configuration, billing is made as per the length of time actually used (accurate to seconds). Regarding the difference between the two billing methods, please refer to the [Billing Rules][2];   
  4. Selection of region and availability zone: In this step, you can still select the regions and the availability zones corresponding to the Pod. Please note that “The resource intranet in different regions is not interlinked, and cannot be changed after creation", if the selected region quota is full, the quota can be increased by opening ticket.  
- ![](../../../../image/Native-Container/Podregion-EN.png)  
+ ![](../../../../image/Native-Container/podregion-EN.png)  
  5. Select specification  
 	* Configure of JD Cloud native container Pod supports user customized selection: It provides 1 core 1G to 72 cores 576G. It also provides four types of general type, compute optimized type, memory optimized type and high frequency compute type, which users can select instance specifications and corresponding configurations according to different scenarios. See [Instance configuration recommendations] for details [3];  
 ![](../../../../image/Native-Container/Podtype-EN.png) 
@@ -46,11 +46,10 @@ Before creating native container Pod, you need to finish the following steps
 
 	* Multiple containers can be added in single Pod. You can define specific parameter configuration for each container. Details as follows:  
 	* For the image selection, you can select JD Cloud Image or third party image  
-	
 		* JD Cloud Image: the image is saved in JD Cloud image repository, seamlessly integrated with Pod service to implement high speed image download. Select current added repository and images in current region; if there is no created repository in current region, you can click New Registration button to jump to Registration Creation page. See [Image Registry Help Center][10] for details;  
 		![](../../../../image/Native-Container/podjcr-EN.png)  
 		* Third party image: use docker.io or image repository address corresponding to repository verification information. The default selection is docker.io. When selecting docker.io, Pod will be created on the basis of public image provided by Docker Hub; After selecting repository verification information, you can create Pod according to the public or private image provided by selected image repository. When no warehouse authentication information is added, JD Cloud will use Docker Hub to obtain docker image by default; if a third-party private image is required, you will need to first add Repository verification information to JD Cloud. Choose to add third-party Secrets to JD Cloud.    
-		![](../../../../image/Native-Container/poddockehub-EN.jpg)  
+		![](../../../../image/Native-Container/poddockehub-EN.png)  
 	* Container name: set container name; the container name in one Pod is unique and cannot be modified; it cannot be blank and its length cannot exceed 63 characters, which starts and ends with letters or numbers, and lowercases, numbers or "-" can be used in the middle places;    
 	* Resource limit: set the resource cap assigned CPU, memory of container; the resource cap can be empty or not exceed selected specifications and types;  
 	* Resource requirement: set the resource floor of assigned CPU, memory of container; The default value of CPU resource floor is 100m and that of memory resource is 64Mi; designated requirement should not exceed corresponding resource limit; Total designated container resource limits should not exceed selected specifications and types;  
