@@ -5,7 +5,7 @@ The billing items of JD Cloud Anti-DDoS Pro include basic protection, elastic pr
 
 ### Basic Protection
 Anti-DDoS Pro provides fixed defense capabilities, including fixed attack protection peak value (Gbps) and CC defense peak value (QPS). Monthly package.
-The price of basic protection varies with the ISP lines selected. The optional ISP lines are Telecom, Telecom+Unicom, and Telecom+Unicom+CMCC's ISP line.
+The price of basic protection varies with the ISP lines selected. The optional ISP lines are Telecom and Telecom+Unicom+CMCC's ISP line.
 
 ### Elastic Protection
 The elastic protection refers to the extended DDoS protective capability provided when the actual attack traffic exceeds the protective capability of basic protection, including the extension of the of DDoS attack protection peak value (Gbps) and the CC defense peak value (QPS).
@@ -24,7 +24,9 @@ If the attack does not exceed the defense peak value of basic protection, you wi
 
 
 ## Renewal Rules
-Monthly package renewal: extends the expiration time of Anti-DDoS Pro instance. The renewal duration can be from 1 month to 9 months, 1 year, 2 years and 3 years. If the renewal is made before the expiration date, the start time of the new order is the expiration date of the original order. If the renewal is made after the expiration, the start time of the new order is the day of renewal;
+Monthly package renewal: extends the expiration time of Anti-DDoS Pro instance. The renewal duration can be from 1 month to 6 months, 1 year, 2 years and 3 years. Among which, Yearly Package of 100G and above is allowed to be renewed annually only.
+
+If the renewal is made before the expiration date, the start time of the new order is the expiration date of the original order. If the renewal is made after the expiration, the start time of the new order is the day of renewal;
 Batch renewal: Batch renewal for multiple Anti-DDoS Pro instances will extend the usage duration of the selected resources according to the selected renewal duration by the user.
 
 

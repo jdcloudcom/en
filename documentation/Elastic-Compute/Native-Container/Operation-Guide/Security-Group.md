@@ -24,4 +24,4 @@ The default security group allows all traffic: Expose all ports to the EIP and t
 The security group operation guide, also refer to the [security group configuration][1].
 
 
-  [1]: https://docs.jdcloud.com/cn/virtual-private-cloud/security-group-configuration
+  [1]: https://docs.jdcloud.com/en/virtual-private-cloud/security-group-configuration

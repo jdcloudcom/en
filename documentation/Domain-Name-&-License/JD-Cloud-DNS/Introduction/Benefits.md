@@ -2,7 +2,7 @@
 
   **High Availability**
 
-  The core of cloud resolution service adopts self-developed high-performance resolver, and the industry-leading cluster technology solutions are used within nodes to circumvent the impact of single machine faults on services. Through the deployment of multiple nodes, it is distributed in the core backbone nodes of operators to achieve remote disaster tolerance. At the same time, relying on JD Cloud network protection platform, as well as multi-year operation assurance experience of online store's Domain Name Service, it provides users with high available (99.9999%) services.
+  The core of JD Cloud DNS service adopts self-developed high-performance resolver, and the industry-leading cluster technology solutions are used within nodes to circumvent the impact of single machine faults on services. Through the deployment of multiple nodes, it is distributed in the core backbone nodes of operators to achieve remote disaster tolerance. At the same time, relying on JD Cloud network protection platform, as well as multi-year operation assurance experience of online store's Domain Service, it provides users with high available (99.9999%) services.
 
   **High Performance and Top Speed**
 
@@ -14,5 +14,5 @@
 
   **Real-time Validation**
 
-  Through the cloud resolution management platform, domain name management operations (such as adding new domain names, resolution changing) take effect in seconds, and it supports a minimum 1 second TTL value to help you achieve fast traffic scheduling and reduce losses.
+  Through the JD Cloud DNS management platform, Domain management operations (such as adding new Domains, resolution changing) take effect in seconds, and it supports a minimum 1 second TTL value to help you achieve fast traffic scheduling and reduce losses.
 

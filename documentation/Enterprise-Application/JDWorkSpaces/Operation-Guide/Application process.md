@@ -1,0 +1,6 @@
+## JD WorkSpaces Enabling Process
+1. For access of the JD WorkSpace console, the “Invitation Code” interface for entering will be popped up for the first enabling. Please enter the invitation code obtained. (For details of obtaining the invitation code, please refer to the invitation code)<br>
+2. Upon entering the invitation code, the password entering interface will be showed. Then, you are treated as the administrator of the JD WorkSpace by default, with permissions to management AD users, assign desktops and manage the JD WorkSpace. Note: At the time of configuring AD users, the default system login user name is administrator and the password is the one entered in this page.<br>
+Enter a domain which is used for logging in the JD WorkSpace by the terminal user and for identifying the customers. A customized second-level domain will be applied for you: XXX.jdwoekspace.com, among which XXX refers to the desired domain prefix. The application process will require half a working day.<br>
+3. Enter the password according to the notification and click **Enable JD WorkSpace Space** to log in the Enabling Page. The enable period is limited to 20~30 minutes, and you can browse other products of the cloud platform.<br>
+4. Upon completion of the enabling, the completion page will be popped up.<br>

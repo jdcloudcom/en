@@ -1,5 +1,5 @@
 # JCS for MySQL Create Backup
-JCS for MySQL service instance supports both automatic backup and manual backup. You can modify the backup strategy to set the time when the automatic backup is triggered. See details in [Backup Policy](./Backup Policy.md).
+JCS for MySQL service instance supports both automatic backup and manual backup. You can modify the backup strategy to set the time when the automatic backup is triggered. See details in [Backup Policy](../Backup-Policy/MariaDB-Backup-Policy.md).
 The backup instance will be stored in the cloud storage service of JD Cloud. At present, JD Cloud does not charge for the backup space.
 
 ## Precautions
@@ -17,6 +17,6 @@ The backup instance will be stored in the cloud storage service of JD Cloud. At 
     * Click ***OK*** to complete the backup.
     * Click ***Cancel*** to cancel the backup creation.
 
-    ![backup](../../../../../../image/RDS/1109_7.jpg)
+    ![创建备份](../../../../../../image/RDS/Create-Backup.png)
 
 4. Click ***OK*** to return to the backup list page and start the manual backup.

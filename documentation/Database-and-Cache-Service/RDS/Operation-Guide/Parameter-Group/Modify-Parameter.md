@@ -9,6 +9,7 @@ The default value of all parameters in the parameter list is the value optimized
 ## Parameter Description
 * [MySQL 5.6 Parameter Definition](https://dev.mysql.com/doc/refman/5.6/en/server-system-variables.html)
 * [MySQL 5.7 Parameter Definition](https://dev.mysql.com/doc/refman/5.7/en/server-system-variables.html)
+* [MySQL 8.0 Parameter Definition](https://dev.mysql.com/doc/refman/8.0/en/server-system-variables.html)
 * [Percona 5.7 Parameter Definition](https://dev.mysql.com/doc/refman/5.7/en/server-system-variables.html)
 * [MariaDB 10.2 Parameter Definition](https://mariadb.com/kb/en/library/server-system-variables/)
 

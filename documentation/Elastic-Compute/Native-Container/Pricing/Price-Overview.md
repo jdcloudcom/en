@@ -367,5 +367,5 @@ About Cloud Disk Service: Please refer to the [Purchase Notes for Cloud Disk Ser
 About Elastic IP: Please refer to the Purchase [Notes for Elastic IP][2]
 
 
-  [1]: https://docs.jdcloud.com/cn/cloud-disk-service/price-overview
-  [2]: https://docs.jdcloud.com/cn/elastic-ip/price-overview
+  [1]: https://docs.jdcloud.com/en/cloud-disk-service/price-overview
+  [2]: https://docs.jdcloud.com/en/elastic-ip/price-overview

@@ -1,4 +1,4 @@
-Security Group Configuration
+## **Security Group Configuration**
 
 #### **Step 1, Create a Security Group**
 

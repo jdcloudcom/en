@@ -43,6 +43,8 @@ The calling of the Java SDK is mainly divided into four steps:
 
 The following is an example of a call to query details for individual VM Instance
 
+```Java
+
     private static CredentialsProvider credentialsProvider = new StaticCredentialsProvider("ak", "sk");
 
     VmClient vmClient = VmClient.builder()
@@ -78,7 +80,9 @@ The following is an example of a call to query details for individual VM Instanc
         }
 
     }
-
+```
 If you need to set up an additional header, for example, call an interface that opens the MFA operation protection, you need to pass x-jdcloud-security-token, as follows:
-
+```Java
 	vmClient.setCustomHeader("x-jdcloud-security-token", "xxxx");
+	
+```

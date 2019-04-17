@@ -1,6 +1,10 @@
-## **What is Web Application Firewall?**
+## What is Web Application Firewall?
 
- The Web Application Firewall (WAF for short) is the professional security protection service launched by JD Cloud. It can defense SQL injection, XSS cross-site script, common vulnerabilities of Web server and plug-in, Trojan horse upload and common attacks of OWASP, withstand CC attacks and protect your website.
+Web Application Firewall is an application security protection product launched by JD Cloud that conducts security and compliance protection for website or APP service. It Identifies and processes malicious traffic through malicious feature extraction and big data behavior analysis to improve the security and reliability of Web site and protect the core business and data security of the website.
 
-  JD Cloud’s Web Application Firewall is a website application security protection product provided to users based on security protection capabilities of JD Mall for years, which combines the big data analysis capacity as well as emergency response capacity of the Group.
+JD Cloud provides two WAF product forms of both [Application Security Gateway](https://docs.jdcloud.com/cn/application-security-gateway/product-overview)(VPC-WAF) and [Web Application Firewall](https://www.jdcloud.com/cn/products/web-application-firewall) (Cloud WAF) to meet different customer needs and provide a variety of Web security solutions.
+
+The logic deployment schematic diagram of JD Cloud Web Application Firewall is as shown below:
+![image.png](../../../../image/WAF/overview.png)
+
 

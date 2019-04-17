@@ -1,9 +1,9 @@
 # Billing Rules
 JCS for Memcached provides two billing methods, namely, pay by configuration and pay by monthly package. Please refer to the billing method.
 
-- Pay by configuration - see [Billing instructions of pay-as-you-go](https://docs.jdcloud.com/cn/billing/postpay)
+- Pay by configuration - see [Billing instructions of pay-as-you-go](https://docs.jdcloud.com/en/billing/postpay)
 
-- Monthly Package - see [Billing instructions of pay-in-advance](https://docs.jdcloud.com/cn/billing/prepay)
+- Monthly Package - see [Billing instructions of pay-in-advance](https://docs.jdcloud.com/en/billing/prepay)
 
 # Renew Rules
 - Renew by Configurated Instance: Change the billing type as monthly package, and the renewal period is 1 month to 9 months, 1 year, 2 years, and 3 years.

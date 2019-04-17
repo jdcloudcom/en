@@ -17,11 +17,11 @@ items:
   items:
     - name: Instructions
       href: Getting-Started/Guide-description.md
-    - name: Step 1: Create Data Source Connection
+    - name: Step 1：Create Data Source Connection
       href: Getting-Started/create-datasource.md
-    - name: Step 2: Create Synchronization Task
+    - name: Step 2：Create Synchronization Task
       href: Getting-Started/Data-sync-guide.md
-    - name: Step 3: Set the Cycle of Synchronization Task
+    - name: Step 3：Set the Cycle of Synchronization Task
       href: Getting-Started/Scheduling-and-dependence-settings.md
 - name: Operation Guide
   items:

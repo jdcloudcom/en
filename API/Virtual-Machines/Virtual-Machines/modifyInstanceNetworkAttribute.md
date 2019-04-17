@@ -2,8 +2,7 @@
 
 
 ## Description
-Modify the ENI attributes of the VM, including whether to delete ENI with the VM. 
-
+Modify the ENI attributes of the VM, including whether to delete ENI with the VM.
 The attributes of primary network interface cannot be modified.
 
 
@@ -15,8 +14,8 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:modifyIn
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**instanceId**|String|True| |VM ID|
 |**regionId**|String|True| |Region ID|
+|**instanceId**|String|True| |VM ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
@@ -26,8 +25,8 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:modifyIn
 ### InstanceNetworkAttribute
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**autoDelete**|Boolean|False| |Auto-delete with the machine, False by default.|
 |**networkInterfaceId**|String|False| |ENI ID|
+|**autoDelete**|Boolean|False| |Auto-delete with the machine, False by default.|
 
 ## Response parameter
 None
@@ -36,10 +35,9 @@ None
 ## Response code
 |Return code|Description|
 |---|---|
+|**200**|OK|
 |**400**|Invalid parameter|
 |**401**|Authentication failed|
 |**404**|Not found|
-|**503**|Service unavailable|
-|**200**|OK|
 |**500**|Internal server error|
-
+|**503**|Service unavailable|

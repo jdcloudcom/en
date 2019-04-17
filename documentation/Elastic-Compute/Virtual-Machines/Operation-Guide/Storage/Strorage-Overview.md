@@ -43,7 +43,7 @@ The local disk and the instance are in the same physical machine. Instances usin
 ### Cloud Disk
 The cloud disk is a data block storage device with a triple copy architecture, which makes it highly available.
 
-JD Cloud provides two types of cloud disks according to storage media, namely Premium Hdd cloud disk and SSD cloud disk. Currently, the cloud disk can be used as a data disk of an instance, and its life cycle is independent of the instance. It can be purchased with the instance or purchased separately after the instance is created and then attached to the instance. It also can be detached from the current instance and then attached to other instances.
+JD Cloud provides five classes of cloud disks with different storage mediums, including general SSD Cloud Disk, performance-oriented SSD Cloud Disk, capacity-oriented HDD Cloud Disk, SSD Cloud Disk and Premium Hdd Cloud Disk (where the first three are only provided in cn-east-2 region and the latter two are only provided in cn-north-1, cn-east-1 and cn-south-1 regions). Currently, you may use cloud disk whose life cycle is independent from that of the instance as the data disk of the instance. Such cloud disk can be either purchased along with the instance, or be separately purchased after the creation of the instance and then attached to the instance, and can be unattached from the current instance and attached to other instances.
 
 In addition, it can support the creation of multi-point attaching cloud disk. For details, refer to [Multi-point Attaching Cloud Disk](Strorage-Overview#user-content-1).
 
@@ -65,7 +65,7 @@ The instances support the use of local disk and the Cloud Disk Service as the da
 
 **The local disk is only provided by the GPU virtual machine at present, and the data will be cleared at the time of shutting down the virtual machine. It is not suggested to save important data here.
 
-**Cloud Disk Service** supports Premium Hdd Cloud Disk and SSD Cloud Disk. Each instance can attach a maximum of four data disks. In case of adjustment to this quota, please go to [open ticket][1] for application. Please refer to [JD Cloud Disk Service Documentation](http://docs.jdcloud.com/cn/cloud-disk-service/product-overview) for more information.
+**Cloud Disk Service** Two classes are supported, including general SSD Cloud Disk, performance-oriented SSD Cloud Disk, capacity-oriented HDD Cloud Disk, SSD Cloud Disk and Premium Hdd Cloud Disk (where the first three are only provided in cn-east-2 region and the latter two are only provided in cn-north-1, cn-east-1 and cn-south-1 regions). Each instance can attach a maximum of 7/8 cloud disks as data disks (if the system disk is a cloud disk, 7 cloud disks can be attached as data disks). In case of adjustment to this quota, please go to [Open Ticket][1] for application. Please refer to [JD Cloud Disk Service Documentation](http://docs.jdcloud.com/cn/cloud-disk-service/product-overview) for more information.
 
 ## Block Storage Device Mapping
 Each instance has a system disk for operating system, and you can also attach more data disks to the instance. For details, please refer to [Attach Cloud Disk](Attach-Cloud-Disk.md). The instance uses the block storage device mapping to map these storage devices to locations that can be recognized by itself.
@@ -79,7 +79,7 @@ Block storage is a storage device that is partitioned in bytes and supports rand
 This figure shows how to map a block storage device onto an instance. /dev/vda is mapped onto the system disk, and the two data disks are respectively mapped onto /dev/vdb and /dev/vdc. The device names in different operating systems may be different, which is subject to the display in the instance system.
 The instance automatically creates a block storage device mapping for the local disk and cloud disk attached to it.
 <div id="user-content-1"></div>
-## multi-attachment Cloud Disk
+## multi-attachment Cloud Disk(only provided in cn-east-2)
 
 The multi-attachment cloud disk is a data block storage device that supports concurrent read-write access of multiple instances. It has multiple concurrence, high performance, high reliability and other features, and supports high-availability architectural scenarios such as Oracle RAC commonly used by government and enterprises in financial, and other industries. A single multi-attachment cloud disk can be attached to up to 16 instances at the same time.
 

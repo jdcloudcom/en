@@ -4,6 +4,7 @@ This document describes the history of significant updates to live video of prod
 
 |Release Date|Feature|Description|
 |-|-|-|
+|January 2019|Open API|Live Launch of Open API. |
 |August,2018|Callback of Snapshot|Provide snapshot callback function. |
 |July,2018|Dotting Record|Provide dotting record function. |
 |May,2018 |Pushing Streaming Authentication|Provide pushing streaming authentication function. |

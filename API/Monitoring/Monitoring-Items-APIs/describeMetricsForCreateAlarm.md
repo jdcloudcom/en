@@ -4,15 +4,15 @@
 ## Description
 Query indicator list of available creating monitoring rules, metric introduction: <a href="https://docs.jdcloud.com/cn/monitoring/metrics">Metrics</a>
 
-## Request method
+## Request Method
 GET
 
-## Request address
+## Request Address
 https://monitor.jdcloud-api.com/v1/metricsForCreateAlarm
 
 
-## Request parameter
-|Name|Type|Required or not|Default value|Description|
+## Request Parameter
+|Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**serviceCode**|String|False| |Type of resource, blank by default, displaying all items<br>vm--> Virtual Machine<br>disk-->Cloud Disk Service<br>ip--> Public IP<br>balance-->Load Balancer<br>database-->MySQL Service Version<br>cdn-->JD CDN<br>redis-->JCS for Redis<br>mongodb-->MongoDB Cloud Cache<br>storage-->Cloud Storage<br>sqlserver-->cloud Database Sqlserver Version <br>nativecontainer-->Container<br>|
 
@@ -20,8 +20,8 @@ https://monitor.jdcloud-api.com/v1/metricsForCreateAlarm
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String|Request ID|
 |**result**|Result| |
+|**requestId**|String| |
 
 ### Result
 |Name|Type|Description|
@@ -38,10 +38,10 @@ https://monitor.jdcloud-api.com/v1/metricsForCreateAlarm
 |**calculateUnit**|String|Computing unit of metric, such as bit/s, %, and byte|
 |**downSample**|String|Sampling Frequency|
 |**metric**|String|Metric|
-|**metricName**|String|Metric Name|
+|**metricName**|String|Name of Monitoring Item|
 |**serviceCode**|String|Identifier of Resource Type|
 
-## Response code
-|Return code|Description|
+## Return Code
+|Return Code|Description|
 |---|---|
 |**200**|Query indicator list result of available creating monitoring rules|

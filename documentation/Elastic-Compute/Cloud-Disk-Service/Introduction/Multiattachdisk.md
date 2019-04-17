@@ -1,4 +1,4 @@
-# Use Method of Multi-point Attached Cloud Disk
+# Use Method of Multi-point Attached Cloud Disk  (Multi-point attached cloud disk is only provided in cn-east-2 region)
 Multi-point attached cloud disk supports the attachment to multiple cloud instances. Generally a cloud disk can only be attached to one cloud instance, while a multi-point attached cloud disk may be attached to multiple cloud instances at the same time.
 
 **What Is Multi-point Attachment**

@@ -1,0 +1,84 @@
+  name: Distributed Network Load Balancer
+  href: 
+  items:
+  - name: Introduction
+    items:
+      - name: Product Overview
+        href: Introduction/Product-Overview.md
+      - name: Core Concepts
+        href: Introduction/Core-Concepts.md
+      - name: Basic Architecture
+        href: Introduction/Basic-Infrastructure.md
+      - name: Benefits
+        href: Introduction/Benefits.md
+      - name: Features
+        href: Introduction/Features.md
+      - name: Product Specifications
+        href: Introduction/Specifications.md
+      - name: Restrictions
+        href: Introduction/Restrictions.md
+      - name: Application Scenarios 
+        href: Introduction/Application-Scenarios.md    
+  - name: Product Pricing
+    items:
+      - name: Billing Overview
+        href: Pricing/Billing-Overview.md
+      - name: Purchase Process
+        href: Pricing/Purchase-Process.md 
+      - name: Renew Process
+        href: Pricing/Renew-Process.md
+  - name: Getting Started
+    items:
+      - name: Getting Started Overview
+        href: Getting-Started/Start-Overview.md
+      - name: Create a public network load balancer instance
+        href: Getting-Started/Create-Instance.md
+      - name: Create an availability group
+        href: Getting-Started/Create-AvailabilityGroup.md
+      - name: Create a listener and backend service
+        href: Getting-Started/Manage-Instance.md
+      - name: Delete a public network load balancer instance
+        href: Getting-Started/Delete-Instance.md
+  - name: Operation Guide
+    items:
+      - name: Configuration Guide
+        href: Operation-Guide/Start-From-Here.md
+      - name: Create a distributed network load balancer instance
+        href: Operation-Guide/Create-DNLB-Instance.md
+      - name: Distributed Network Load Balancer Management
+        href: Operation-Guide/DNLB-Instance-Management.md
+      - name: Listener Management
+        href: Operation-Guide/Listener-Management.md
+      - name: Backend Service Management
+        href: Operation-Guide/Backend-Management.md
+      - name: Virtual Server Group Management
+        href: Operation-Guide/TargetGroup-Management.md          
+  - name: Best Practices
+    items:
+    - name: Quickly deploy multiple listeners based on the same business
+      href: Best-Practices/Deploy-Multiple-Listener-single-backend-DNLB.md
+    - name: Implement business session persistence when the backend server is stable
+      href: Best-Practices/Session-Sticky-with-DNLB.md
+    - name: Add or delete instance to or from a distributed network load balancer
+      href: Best-Practices/Register-Targets.md
+    - name: Deploy service based on VMs/containers with distributed network load balancer
+      href: Best-Practices/Distribute-service-to-vm-and-container-with-DNLB.md
+    - name: Conversion of Distributed Network Load Balancers of Private and Public Networks
+      href: Best-Practices/Switch-between-Internal-and-External-DNLB.md
+    - name: Use an availability group as a backend server
+      href: Best-Practices/AG-as-backend-server.md
+  - name: FAQ
+    href: FAQ/FAQ.md
+  - name: API Reference
+    status: 0      
+  - name: SDK Reference
+    status: 0    
+  - name: User Agreements
+    items:
+    - name: Service Terms
+      href: User-Agreements/Product-Terms-of-Service.md         
+  - name: Related Resources
+    items:
+    - name: Document History Records
+      href: Related-Resources/Document-History.md   
+

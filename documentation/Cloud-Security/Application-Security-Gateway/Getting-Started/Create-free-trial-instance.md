@@ -1,27 +1,65 @@
-# Create a free experience version instance 
+## Creation Description
 
-- JD Cloud Security-Application Security Gateway is a Web application security protection product based on JD Cloud high-performance Load Balancer cluster, which is also shortened as VPC-WAF.
+Application Security Gateway (VPC-WAF) is a Web application security protection product based on JD Cloud high-performance load balancer cluster, which can create four types of instance packages: instance packages of trial version, basic version, advanced version and flagship version. A user can create multiple package instances to protect HTTP/HTTPs traffic passing through applied Load Balancer.
 
-  The Application Security Gateway provides four package modes: experience version, basic version, advanced version and flagship version. Now, it provides the experience version and the basic version. **The experience version is provided free,** its main functions include: Web security detection function, feature library update, security analysis report, user audit and so on.
+Currently, it supports the creation of the trial version, basic version and advanced version instances. Description on each package version can be seen in [Package Description](../Introduction/Specifications.md).
 
-  1. Enter JD Cloud **Console-Cloud Security-Application Security Gateway-Instance Management** page, click Create: ![image.png](https://img1.jcloudcs.com/cms/b5e03c75-9d4c-4e05-8403-6d00b6c4851a20180815151830.png)
+## Creation Steps
 
-  2. Enter order creating page, fill in name of the Application Security Gateway name, at this point, and if there is a Load Balancer, choose to associate with the Load Balancer or choose not to associate but create later.
+  #### 1. Create Instance
+  
+Enter JD Cloud **Console-Cloud Security-Application Security Gateway-Instance Management** page, and click**Create** to access the Application Security Gateway Instance Creation page:![image.png](../../../../image/AppliAcation-Security-Gateway/list01.png)
 
-  ![image.png](https://img1.jcloudcs.com/cms/b56ee557-458e-427d-90e4-a82c19d8d94e20180815152101.png)
+  #### 2. Associate Application Load Balancer
+  
+Enter **Instance Creation** page, and fill in the name (name of Application Security Gateway); at this point, if there is an Application Load Balancer available, choose to associate it. Or, you can choose not to associate it but associate it after the instance is created successfully. Choose to associate it here.
+  ![image.png](../../../../image/AppliAcation-Security-Gateway/list02.png)
 
-  3. Click [Buy Now] till the end.
+ #### 3. Order Information Confirmation
+  
+ Confirm the purchase time. After confirmation, click **Buy Now** to purchase until the process is finished.
 
-  4. Return to Instance Management page, click Refresh so that the previously created Application Security Gateway instance can be seen
+  #### 4. Creation Succeeded
+  
+ Return to **Instance Management** page; click **Refresh**, so that the Application Security Gateway instance created in the previous step can be seen.
+  
+   ![image.png](../../../../image/AppliAcation-Security-Gateway/list03.png)
 
-  ![image.png](https://img1.jcloudcs.com/cms/7ade0ed0-f86e-4627-8399-2de40c8e50bc20180815152427.png)      5. Click [Associate Load Balancer] to associate already created Load Balancer, if there is no available Load Balancer, it is required to go to Console-Network-Load Balancer page to create a Load Balancer, then go to the association action.
+     
+  #### 5. Associate/Disassociate/Replace Application Load Balancer
+  
+If the Application Load Balancer is not associated in **Step 2**, click Instance List**Operate-Associate Load Balancer** and choose ALB to associate. If already associated, you can disassociate it, or replace another Application Load Balancer to associate.
 
-  ![image.png](https://img1.jcloudcs.com/cms/c58c4c65-ca5a-492a-89a0-474f3d2772d520180815152658.png)
+ ![image.png](../../../../image/AppliAcation-Security-Gateway/list04-1.png)
+ 
+If there is no available Load Balancer, it is required to go to **Console-Network-Application Load Balancer** page to create an Application Load Balancer, then perform the association operation. Detailed Application Load Balancer [Creation Process](https://docs.jdcloud.com/en/application-load-balancer/create-instance)
 
-  6. After creating the Load Balancer, enter Application Security Gateway Instance Management page to associate again.
+   
+ #### 6. Defense Mode Adjustment
+ 
+ After the successful creation of the Application Security Gateway, it is in detection mode by default. After the instance is enabled, observe it for a while to make sure that the business is normal, then click the Instance List **Operate-More-Switch Mode** to switch the WAF protection mode as: interception mode. (The trial version does not support mode adjustment but supports detection mode only. You can see if there are exceptions or misinformation by viewing the Home Page or Analysis Report-Web Security Report)
 
-  ![image.png](https://img1.jcloudcs.com/cms/2b62793e-20e9-4563-8117-43dd8a3a32ca20180815152931.png)
+  ![image.png](../../../../image/AppliAcation-Security-Gateway/list05-1.png)
+  
+ ## Result Confirmation
+ 
+ #### 1. Attack Trigger
+ 
+ After the instance has been created, enter the domain or IP corresponding to protection in the browser. Add **/etc/passwd** at the end, if following page pops up, it indicates that the protection has entered into force.
+ ![image.png](../../../../image/AppliAcation-Security-Gateway/list06-2.png)
+ 
+ #### 2. Protection Result View
+ By viewing Home Page statistics and data on the Analysis Report page, if any data appears, it indicates that the protection has entered into force.
+ 
+ Home Page Statistics
+ 
+ ![image.png](../../../../image/AppliAcation-Security-Gateway/list07-1.png)
+ 
+ Analysis Report Statistics
+ 
+ ![image.png](../../../../image/AppliAcation-Security-Gateway/list08-1.png)
 
-  7. At this point, the creation of application security experience version is completed, the access trend can be viewed at Home Page of Application Security Gateway to inspect traffic so as to confirm whether the configuration takes effect.
-
-  ![image.png](https://img1.jcloudcs.com/cms/b4232217-90d7-4193-8fd5-abd0bd14f6df20180815153051.png)
+## Related References
+- [Package Description](../Introduction/Specifications.md)
+- [Billing Instructions](../Pricing/Price-Overview.md)
+- [Creation Process of Application Load Balancer](https://docs.jdcloud.com/en/application-load-balancer/create-instance)

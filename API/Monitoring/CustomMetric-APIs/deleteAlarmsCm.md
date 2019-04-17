@@ -8,7 +8,7 @@ Delete custom metric monitoring rules
 DELETE
 
 ## Request Address
-https://monitor.jdcloud-api.com/v1/regions/{regionId}/cm/alarms
+https://monitor.jdcloud-api.com/v1/regions/{regionId}/cmAlarms
 
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
@@ -20,11 +20,11 @@ https://monitor.jdcloud-api.com/v1/regions/{regionId}/cm/alarms
 |**ids**|String|True| |ids, separate multiple ids by \||
 
 
-## Return Parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String|Requested Identifierid|
 |**result**|Object| |
+|**requestId**|String|Requested identifierid|
 
 
 ## Return Code

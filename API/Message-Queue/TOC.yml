@@ -1,0 +1,67 @@
+  name: Message Queue
+  href: 
+  items:
+  - name: Interface Overview
+    href: overview.md
+  - name: Update History
+    href: ChangeLog.md
+  - name: Interface Information
+    items:
+      - name: Subject
+        items:
+          - name: createTopic
+            href: Topic/createTopic.md
+          - name: deleteTopic
+            href: Topic/deleteTopic.md
+          - name: describeTopic
+            href: Topic/describeTopic.md
+          - name: describeTopics
+            href: Topic/describeTopics.md
+      - name: Subscribe
+        items:
+          - name: createSubscription
+            href: Subscription/createSubscription.md
+          - name: deleteSubscription
+            href: Subscription/deleteSubscription.md
+          - name: describeSubscription
+            href: Subscription/describeSubscription.md 
+          - name: describeSubscriptions
+            href: Subscription/describeSubscriptions.md
+          - name: cleanMessages
+            href: Subscription/cleanMessages.md
+          - name: resetConsumeOffset
+            href: Subscription/resetConsumeOffset.md
+      - name: Message
+        items:      
+          - name: describeMessage
+            href: Message/describeMessage.md
+          - name: describeMessages
+            href: Message/describeMessages.md
+      - name: Dead Letter Queue
+        items:
+          - name: listDeadLetters
+            href: DeadLetter/listDeadLetters.md
+          - name: describeDeadLetterNumbers
+            href: DeadLetter/describeDeadLetterNumbers.md
+          - name: describeDeadLetterNumbersWithTopic
+            href: DeadLetter/describeDeadLetterNumbersWithTopic.md
+          - name: resendDeadLetters
+            href: DeadLetter/resendDeadLetters.md
+          - name: deleteDeadLetters
+            href: DeadLetter/deleteDeadLetters.md
+      - name: Permission
+        items:
+          - name: addPermission
+            href: Permission/addPermission.md
+          - name: describePermission
+            href: Permission/describePermission.md
+          - name: removePermission
+            href: Permission/removePermission.md
+      - name: Consumer Group
+        items:
+          - name: describeConsumerGroupIds
+            href: consumerGroup/describeConsumerGroupIds.md
+      - name: Access Point
+        items:
+          - name: describeAccessPoint
+            href: AccessPoint/describeAccessPoint.md

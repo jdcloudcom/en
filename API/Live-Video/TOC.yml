@@ -1,0 +1,182 @@
+name: Live Video
+href:
+items:
+  - name: Live Streaming API Overview
+    href: Summary/Summary.md
+  - name: API Authentication Rules
+    href: Authentication/Rule.md
+  - name: Domain Management
+    items:
+      - name: Add live domain
+        href: Live-Video/addLiveDomain.md
+      - name: Search the relevant information of the specified domain
+        href: Live-Video/describeLiveDomainDetail.md
+      - name: Search domain list
+        href: Live-Video/describeLiveDomains.md
+      - name: Start domain
+        href: Live-Video/startLiveDomain.md
+      - name: Disable domain
+        href: Live-Video/stopLiveDomain.md
+      - name: Delete domain
+        href: Live-Video/deleteLiveDomain.md
+  - name: APP Management
+    status: 0
+    items:
+      - name: Add live APP
+        href: Live-Video/addLiveApp.md
+      - name: Delete live APP
+        href: Live-Video/deleteLiveApp.md
+      - name: Enable APP
+        href: Live-Video/startLiveApp.md
+      - name: Disable APP
+        href: Live-Video/stopLiveApp.md
+      - name: Search APP list under the domain
+        href: Live-Video/describeLiveApp.md
+  - name: Live Streaming Management
+    items:
+      - name: Ban live streaming pushing
+        href: Live-Video/forbidLiveStream.md
+      - name: Recover live streaming pushing
+        href: Live-Video/resumeLiveStream.md
+      - name: View real-time pushing streaming information under the domain
+        href: Live-Video/describeLiveStreamOnlineList.md
+      - name: View history pushing streaming record under the domain
+        href: Live-Video/describeLiveStreamPublishList.md
+  - name: Status Notification
+    items:
+      - name: Set live streaming status notification
+        href: Live-Video/setLiveStreamNotifyConfig.md
+      - name: Search live streaming status notification
+        href: Live-Video/describeLiveStreamNotifyConfig.md
+      - name: Delete live streaming status notification
+        href: Live-Video/deleteLiveStreamNotifyConfig.md
+  - name: Live Time Shifting
+    items:
+      - name: Open timeshift
+        href: Live-Video/openLiveTimeshift.md
+      - name: Close timeshift
+        href: Live-Video/closeLiveTimeshift.md
+      - name: Search time shifting configuration
+        href: Live-Video/describeLiveTimeshiftConfigs.md
+  - name: Live restart
+    status: 0
+    items:
+      - name: Open restart
+        href: Live-Video/openLiveRestart.md
+      - name: Close restart
+        href: Live-Video/closeLiveRestart.md
+      - name: Search restart configuration
+        href: Live-Video/describeLiveRestartConfigs.md
+  - name: Live Transcoding
+    items:
+      - name: Transcoding Configuration Rules
+        href: Example/Transcode.md
+      - name: Add domain transcoding configuration
+        href: Live-Video/addLiveStreamDomainTranscode.md
+      - name: Delete domain transcoding configuration
+        href: Live-Video/deleteLiveStreamDomainTranscode.md
+      - name: Add app transcoding configuration
+        href: Live-Video/addLiveStreamAppTranscode.md
+      - name: Delete APP transcoding configuration
+        href: Live-Video/deleteLiveStreamAppTranscode.md
+      - name: Add customized transcoding template
+        href: Live-Video/addCustomLiveStreamTranscodeTemplate.md
+      - name: Delete user customized transcoding template
+        href: Live-Video/deleteCustomLiveStreamTranscodeTemplate.md
+      - name: Search user customized transcoding template details
+        href: Live-Video/describeCustomLiveStreamTranscodeTemplate.md
+      - name: Search user customized transcoding template list
+        href: Live-Video/describeCustomLiveStreamTranscodeTemplates.md
+      - name: Search transcoding template configuration
+        href: Live-Video/describeLiveStreamTranscodeConfig.md
+  - name: Live Record
+    items:
+      - name: Add record template
+        href: Live-Video/addCustomLiveStreamRecordTemplate.md
+      - name: Delete record template
+        href: Live-Video/deleteCustomLiveStreamRecordTemplate.md
+      - name: Search record template list
+        href: Live-Video/describeCustomLiveStreamRecordTemplates.md
+      - name: Add APP record configuration
+        href: Live-Video/addLiveStreamAppRecord.md
+      - name: Delete APP record configuration
+        href: Live-Video/deleteLiveStreamAppRecord.md
+      - name: Add domain record configuration
+        href: Live-Video/addLiveStreamDomainRecord.md
+      - name: Delete domain record configuration
+        href: Live-Video/deleteLiveStreamDomainRecord.md
+      - name: Search record configuration
+        href: Live-Video/describeCustomLiveStreamRecordConfig.md
+      - name: Set record callback notification
+        href: Live-Video/setLiveStreamRecordNotifyConfig.md
+      - name: Search record callback configuration
+        href: Live-Video/describeLiveStreamRecordNotifyConfig.md
+      - name: Delete record callback configuration
+        href: Live-Video/deleteLiveStreamRecordNotifyConfig.md
+      - name: Add recording point print task
+        href: Live-Video/addLiveRecordTask.md
+  - name: Live Snapshot
+    items:
+      - name: Add live snapshot template
+        href: Live-Video/addCustomLiveStreamSnapshotTemplate.md
+      - name: Delete live snapshot template
+        href: Live-Video/deleteCustomLiveStreamSnapshotTemplate.md
+      - name: Search live snapshot template list
+        href: Live-Video/describeCustomLiveStreamSnapshotTemplates.md
+      - name: Add APP live snapshot configuration
+        href: Live-Video/addLiveStreamAppSnapshot.md
+      - name: Delete APP live snapshot configuration
+        href: Live-Video/deleteLiveStreamAppSnapshot.md
+      - name: Add domain live snapshot configuration
+        href: Live-Video/addLiveStreamDomainSnapshot.md
+      - name: Search live snapshot configuration
+        href: Live-Video/describeCustomLiveStreamSnapshotConfig.md
+      - name: Delete domain snapshot configuration
+        href: Live-Video/deleteLiveStreamDomainSnapshot.md
+      - name: Set snapshot callback notification
+        href: Live-Video/setLiveStreamSnapshotNotifyConfig.md
+      - name: Search snapshot callback configuration
+        href: Live-Video/describeLiveStreamSnapshotNotifyConfig.md
+      - name: Delete snapshot callback configuration
+        href: Live-Video/deleteLiveStreamSnapshotNotifyConfig.md
+  - name: Live Watermark
+    items:
+      - name: Add live watermark template
+        href: Live-Video/addCustomLiveStreamWatermarkTemplate.md
+      - name: Delete user customized watermark template
+        href: Live-Video/deleteCustomLiveStreamWatermarkTemplate.md
+      - name: Search watermark template list
+        href: Live-Video/describeCustomLiveStreamWatermarkTemplates.md
+      - name: Add APP watermark configuration
+        href: Live-Video/addLiveStreamAppWatermark.md
+      - name: Delete app watermark configuration
+        href: Live-Video/deleteLiveStreamAppWatermark.md
+      - name: Add domain watermark configuration
+        href: Live-Video/addLiveStreamDomainWatermark.md
+      - name: Delete domain watermark configuration
+        href: Live-Video/deleteLiveStreamDomainWatermark.md
+      - name: Search watermark configuration
+        href: Live-Video/describeCustomLiveStreamWatermarkConfig.md
+  - name: Resource Monitoring
+    items:
+      - name: Search live recording duration data
+        status: 0
+        href: Live-Video/describeLiveRecordData.md
+      - name: Search live snapshot number data
+        href: Live-Video/describeLiveSnapshotData.md
+      - name: Search live porn identification number data
+        href: Live-Video/describeLivePornData.md
+  - name: Authentication Correlation
+    items:
+      - name: Authentication Rules
+        href: Authentication/Url.md
+      - name: Search play authentication KEY
+        href: Live-Video/describeLivePlayAuthKey.md
+      - name: Set play authentication KEY
+        href: Live-Video/setLivePlayAuthKey.md
+#  - name: Live Audit
+#    href: Loading.md
+  - name: SDK Call Method
+    href: Example/SDK-Java.md
+
+

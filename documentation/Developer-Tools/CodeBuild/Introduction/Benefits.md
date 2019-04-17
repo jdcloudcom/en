@@ -2,7 +2,7 @@
 
 **Support Multiple Complied Language**
 
-Require no configuration or maintenance to compiling environment. Create rapid, consistent and reliable versions with several languages. Provide several compiling environments such as Java, Golang, NodeJs and Python and pack source codes to the Object Storage Service or Container.
+Require no configuration or maintenance to compiling environment. Create rapid, consistent and reliable versions with several languages. Provide several compiling environments such as Java, Golang, NodeJs and Python and pack source codes to the Object Storage Service or Image.
 
 **Building Scripts Supporting Parameterization**
 

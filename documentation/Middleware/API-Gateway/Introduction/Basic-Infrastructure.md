@@ -1,9 +1,9 @@
 # Basic Architecture
-API gateway offers API definer service and API caller service. API definer offers API calling through management and deployment of API group; API caller uses API through access key and authorization of API definer.
+API Gateway provides both API provider services and API caller services. API provider provides the caller with API calling by managing and deploying API group; API caller uses API through access key and API definer’s authorization access.
 
 ## Business Structure
 The business structure is shown below:
-![](../../../../image/Internet-Middleware/API-Gateway/%E4%BA%A7%E5%93%81%E6%9E%B6%E6%9E%84.png)
+![](../../../../image/Internet-Middleware/API-Gateway/API-struct.png)
 
 | Concept | Explanation |
 | :- | :- |
@@ -15,14 +15,6 @@ The business structure is shown below:
 | Version Revision   | Each API group can maintain multiple versions. You can specify a version to publish in each environment. |
 | Deployment List | Service publishing and deployment. At the end of the API group configuration, it should be released to the specific environment before it can provide services externally. The existing environment includes: Test, pre-launch, online. |
 
-
-
-## Relevant References
-
-- [Product Advantage](../Introduction/Benefits.md)
-- [Product Function](../Introduction/Features.md)
-- [Price Overview](../Pricing/Price-Overview.md)
-- [Billing Rules](../Pricing/Billing-Rules.md)
 
 
 

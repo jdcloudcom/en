@@ -202,7 +202,7 @@ Different products of JD Cloud belong to different locations, and some are globa
                 <span style="font-family: Microsoft YaHei, &quot;Microsoft YaHei&quot;; color: rgb(0, 0, 0);">available throughout the availability zone in a single region&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
             </td>
             <td colspan="1" class="confluenceTd" style="margin: 0px; padding: 7px 8px; border-color: rgb(237, 237, 237); vertical-align: top;" width="1134">
-                <span style="font-family: Microsoft YaHei, &quot;Microsoft YaHei&quot;; color: rgb(0, 0, 0);">Snapshot can be created based on cloud disk, and the cloud disk snapshot can be used to create cloud disk under the region. Cross-region cloud disk snapshot reproduction is temporarily not supported.&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+                <span style="font-family: Microsoft YaHei, &quot;Microsoft YaHei&quot;; color: rgb(0, 0, 0);">Snapshot can be created based on cloud disk, and the cloud disk snapshot can be used to create cloud disk under the region. Support cross-region replication and sharing cloud disk snapshots. &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
             </td>
         </tr>
     </tbody>

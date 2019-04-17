@@ -12,19 +12,26 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/audit:d
 
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**instanceId**|String|True| |RDS instance ID, the unique identifier of one RDS instance|
 |**regionId**|String|True| |Region code, see the value range in [Table of Comparisons of Regions and Availability Zones](../Enum-Definitions/Regions-AZ.md)|
+|**instanceId**|String|True| |RDS instance ID, the unique identifier of one RDS instance|
 
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**accountName**|String|False| |Account Name|
-|**dbName**|String|False| |Database Name|
+|**startTime**|String|True| |Search the start time, with the format as: YYYY-MM-DD HH:mm:ss, the start time cannot be 30 days earlier than the current time|
 |**endTime**|String|True| |Search the end time, with the format as: YYYY-MM-DD HH:mm:ss, the duration from the start time to the end time cannot exceed 3 days|
+|**dbName**|String|False| |Database Name|
+|**accountName**|String|False| |Account Name|
 |**pageNumber**|Integer|False| |Page displaying the data; it is 1 by default, the value range: [-1,∞)|
 |**pageSize**|Integer|False| |The data entries displayed on each page, which is 10 by default, with the value range: 10, 20, 50|
-|**startTime**|String|True| |Search the start time, with the format as: YYYY-MM-DD HH:mm:ss, the start time cannot be 30 days earlier than the current time|
+|**filters**|Filter[]|False| |Filter parameters, the relationship between multiple filtered parameters is "and", supporting filtration of the following attributes: <br>operation<br>|
 
+### Filter
+|Name|Type|Required or Not|Default Value|Description|
+|---|---|---|---|---|
+|**name**|String|True| |Name of Filtering Conditions|
+|**operator**|String|False| |Operators of filtering conditions, which is eq by default|
+|**values**|String[]|True| |Values of Filtering Conditions|
 
 ## Return Parameter
 |Name|Type|Description|
@@ -39,13 +46,13 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/audit:d
 ### AuditResult
 |Name|Type|Description|
 |---|---|---|
-|**accountName**|String|Account Name|
-|**dbName**|String|Database Name|
-|**ip**|String|Source IP|
-|**operation**|String|Operation Types|
-|**sql**|String|sql Sentence|
 |**startTime**|String|SQL Execution Time|
+|**ip**|String|Source IP|
+|**accountName**|String|Account Name|
+|**operation**|String|Operation Types|
 |**threadId**|String|Thread ID|
+|**dbName**|String|Database Name|
+|**sql**|String|sql Sentence|
 
 ## Return Code
 |Return Code|Description|

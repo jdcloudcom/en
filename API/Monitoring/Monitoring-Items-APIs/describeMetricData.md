@@ -4,31 +4,33 @@
 ## Description
 View multiple monitoring item data of a resource, metric introduction 1: <a href="https://docs.jdcloud.com/cn/monitoring/metrics">Metrics</a>
 
-## Request method
+## Request Method
 GET
 
-## Request address
+## Request Address
 https://monitor.jdcloud-api.com/v1/regions/{regionId}/metrics/{metric}/metricData
 
-|Name|Type|Required or not|Default value|Description|
+|Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**metric**|String|True| |English Identifier (id) of Monitoring Item|
 |**regionId**|String|True| |Region ID|
+|**metric**|String|True| |English Identifier (id) of Monitoring Item|
 
-## Request parameter
-|Name|Type|Required or not|Default value|Description|
+## Request Parameter
+|Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**aggrType**|String|False| |Indicator aggregation mode, each indicator has a default aggregation mode, and the optional values include: sum,avg.max.min|
-|**endTime**|String|False| |Query end time of time range, UTC time, format: 2016-12- yyyy-MM-dd'T’HH:mm:ssZ (if it is blank, which shall be obtained by computing startTime and timeInterval)|
-|**groupBy**|Boolean|False| |Confirm to group query tags|
-|**resourceId**|String|True| |Uuid of Resource|
-|**serviceCode**|String|True| |Type of resource, taking values such as vm, lb, ip, and database|
+|**aggrType**|String|False| |Aggregation method, which is equal to downSampleType or avg by default, reference optional values: sum, avg, last, min and max|
+|**downSampleType**|String|False| |Sampling method, which is equal to aggrType or avg by default, reference optional values: sum, avg, last, min and max|
 |**startTime**|String|False| |Query start time of time range, UTC time, format: yyyy-MM-dd'T’HH:mm:ssZ (current time by default, if it is earlier than 30d, it will be reset to 30d)|
-|**tags**|TagFilter[]|False| |Custom Tag|
+|**endTime**|String|False| |Query end time of time range, UTC time, format: 2016-12- yyyy-MM-dd'T'HH:mm:ssZ (if it is blank, which shall be obtained by computing startTime and timeInterval)|
 |**timeInterval**|String|False| |Time interval: 1h, 6h, 12h, 1d, 3d, 7d, 14d, fixed time interval, fill in at least one of timeInterval and endTime|
+|**tags**|TagFilter[]|False| |Custom Tag|
+|**groupBy**|Boolean|False| |Confirm to group query tags|
+|**rate**|Boolean|False| |Whether need to solve the rate|
+|**serviceCode**|String|True| |Type of resource, taking values such as vm, lb, ip, database|
+|**resourceId**|String|True| |Uuid of Resource|
 
 ### TagFilter
-|Name|Type|Required or not|Default value|Description|
+|Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**key**|String|False| |Tag Key|
 |**values**|String[]|False| |Tag Value|
@@ -36,8 +38,8 @@ https://monitor.jdcloud-api.com/v1/regions/{regionId}/metrics/{metric}/metricDat
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String| |
 |**result**|Result| |
+|**requestId**|String| |
 
 ### Result
 |Name|Type|Description|
@@ -49,11 +51,11 @@ https://monitor.jdcloud-api.com/v1/regions/{regionId}/metrics/{metric}/metricDat
 |**data**|DataPoint[]| |
 |**metric**|Metric| |
 |**tags**|Tag[]| |
-### DataPoint
+### Tag
 |Name|Type|Description|
 |---|---|---|
-|**timestamp**|Long| |
-|**value**|Object| |
+|**tagKey**|String| |
+|**tagValue**|String| |
 ### Metric
 |Name|Type|Description|
 |---|---|---|
@@ -62,13 +64,13 @@ https://monitor.jdcloud-api.com/v1/regions/{regionId}/metrics/{metric}/metricDat
 |**metric**|String| |
 |**metricName**|String| |
 |**period**|String| |
-### Tag
+### DataPoint
 |Name|Type|Description|
 |---|---|---|
-|**tagKey**|String| |
-|**tagValue**|String| |
+|**timestamp**|Long| |
+|**value**|Object| |
 
-## Response code
-|Return code|Description|
+## Return Code
+|Return Code|Description|
 |---|---|
 |**200**|api DescribeMetricData Response|

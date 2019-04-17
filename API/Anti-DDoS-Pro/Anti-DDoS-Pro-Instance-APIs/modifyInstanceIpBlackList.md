@@ -4,50 +4,46 @@
 ## Description
 Set the instance IP blacklist
 
-## Request method
+## Request Method
 POST
 
-## Request address
+## Request Address
 https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:setIpBlackList
 
-|Name|Type|Required or not|Default value|Description|
+|Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**instanceId**|String|True| |Instance ID|
 |**regionId**|String|True| |Region ID|
+|**instanceId**|Long|True| |Instance ID|
 
-## Request parameter
-|Name|Type|Required or not|Default value|Description|
+## Request Parameter
+|Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**ipBwListSpec**|IpBwListSpec|True| |Set IP Blacklist Request|
 
 ### IpBwListSpec
-|Name|Type|Required or Not|Default|Description|
+|Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**ipList**|String[]|False| |IP or IP Segment List|
-|**tryFlag**|Boolean|False| |In case of false, it is forced to write, and in case of true, there is a duplicate and nothing is written|
+|**ipList**|String[]|True| |IP or IP Segment List|
+|**tryFlag**|Boolean|True| |In case of false, it is forced to write, and in case of true, there is a duplicate and nothing is written|
 
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String| |
 |**result**|Result| |
+|**requestId**|String| |
+|**error**|Error| |
 
+### Error
+|Name|Type|Description|
+|---|---|---|
+|**code**|Integer|Request Error Status Code|
+|**status**|String|Request Error Status Code|
+|**message**|String|Request Error Notification|
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**msgList**|BwRepeatMsg[]| |
-|**status**|Status| |
-### BwRepeatMsg
-|Name|Type|Description|
-|---|---|---|
-|**black**|String|Blacklist Repeated IP/IP Segment|
-|**white**|String|White List Repeated IP/IP Segment|
-### Status
-|Name|Type|Description|
-|---|---|---|
-|**code**|Integer|Request Error Code|
-|**msg**|String|Request Error Message|
-|**retcode**|Integer|Request result, 0 means success, non-0 means failure|
+|**code**|Integer|0: IP blacklist setting failed, 1: IP blacklist setting succeeded|
+|**message**|String|Corresponding Notification Message|
 
 ## Return Code
 |Return Code|Description|

@@ -62,11 +62,11 @@ You understand and acknowledge that the above list does not cover all types of l
 
 3.1.3.3 If the services of JD Cloud involve the license of third-party software, you agree to abide by the relevant license agreement;
 
-3.1.3.4. If you enable the server Endpoint Security service while using the JD Cloud services, you acknowledge and agree to abide by the terms of the Endpoint Security Service Agreement.
+3.1.3.4 If you subscribe the Endpoint Security service for the server with the JD Cloud service, then you acknowledge and agree to comply with the terms of the Endpoint Security Service Agreement for Virtual Machines.
 
 3.1.3.5 Do not intersperse Email Ads or SPAMs: Do not use the services provided by JD Cloud to intersperse a large number of undesired or uncalled emails, electronic advertising or emails containing reactionary information, pornographic information or other harmful information;
 
-3.1.3.6 The cloud server provided by JD Cloud shall not be used as a virtual server, or used as a disk space for renting, or used as an illegal proxy or spam server;
+3.1.3.6 The Virtual Machines provided by JD Cloud shall not be used as virtual servers, or leased as disk spaces, or used as illegal proxy servers (Proxy), or spam servers;
 
 3.1.3.7 Do not use the resources and services provided by JD Cloud to upload, download, store, and release the following information or contents and do not provide any convenience for others to release such information (including but not limited to setting URL, BANNER links, etc.):
 
@@ -86,7 +86,7 @@ You understand and acknowledge that the above list does not cover all types of l
 
 3.1.3.7.8 Other content that violates laws and regulations, departmental regulations or national policies.
 
-3.1.3.8 Do not occupy, or lead programs or processes, etc. to occupy a large amount of server memory, CPU or network bandwidth resources in the platform (hereinafter referred to as "cloud platform") composed of JD Cloud computing resources (such as cloud server, network bandwidth and storage space), or bring severe and unreasonable loads to the JD Cloud platform or JD Cloud's other users' networks, servers (including but not limited to local and nonlocal and international networks, servers, etc.), products/applications, etc., or affect the normal and smooth communication among JD Cloud and the Internet, or JD Cloud and specific networks, servers, interior of JD Cloud as well, or result in server's downtime, crash of products and services of JD Cloud or other users, or no access to products/applications on the cloud platform for the users and other problems;
+3.1.3.8 Do not occupy or cause programs or processes to occupy a large amount of the server memory, CPU or network bandwidth resources on the platform (hereinafter referred to as the “cloud platform”) consisting of JD Cloud cloud computing resources (such as Virtual Machine, network bandwidth, storage space, etc.), and cause serious and unreasonable load on the networks, servers (including but not limited to local and foreign and international networks, servers, etc.), products/applications, etc. of the customers of JD Cloud platform or other customers of JD Cloud, or affect the normal and smooth communications between JD Cloud and the Internet or JD Cloud between specific networks, servers and JD Cloud internal, or cause the system breakdown or system halt of the servers that the products and services of JD Cloud platform or other customer websites of JD Cloud are on, or failure of access of customers to the products/applications based on the cloud platform, etc.;
 
 3.1.3.9 You totally understand and authorize JD Cloud to perform security vulnerabilities scanning and monitoring on your JD Cloud servers; as for the adverse effects incurred possibly during the scanning (including but not limited to the occupancy of machine resources, occupancy of network bandwidth, service exceptions, etc.), JD Cloud does not assume any responsibility.
 
@@ -176,7 +176,7 @@ You understand and acknowledge that the above list does not cover all types of l
 
 7.2.2 If you are in severe breach of the Service Terms (including but not limited to: a. You failed to fulfill your payment obligations in accordance with the Agreement, and/or b. You have severely violated the law, etc.), JD Cloud reserves the right to terminate the service in advance and will not refund the fees you have already paid;
 
-7.2.3 You understand and fully recognize that although JD Cloud has established (and, according to the development of technology, will continue to improve) necessary technical measures to protect against matters or behaviors (collectively referred to as such behaviors) endangering the network security including computer viruses, network intrusion and attack damage (including but not limited to DDOS), in consideration of the limitations and relativity of network security techniques and the unpredictability of such behaviors, if you encounter such behaviors and this causes harm to JD Cloud or other networks or servers (including but not limited to local, foreign and international networks, servers, etc.) of JD Cloud, or affects the smooth contact between JD Cloud and international Internet or JD Cloud and specific network/ server or internal smooth contact of JD Cloud, JD Cloud may decide to suspend or terminate the service. If it terminates the service, the service fee will be calculated according to the months where actual service is provided (if it is less than one month, it will be calculated as one month) and the remaining amount (if any) will be refunded.
+7.2.3 You understand and fully recognize that although JD Cloud has established (and, according to the development of technology, will continue to improve) necessary technical measures to protect against matters or behaviors (collectively referred to as such behaviors) endangering the network security including computer viruses, network intrusion and attack damage (including but not limited to DDOS, NTP attack, etc.), in consideration of the limitations and relativity of network security techniques and the unpredictability of such behaviors, if you encounter such behaviors and this causes harm to JD Cloud or other networks or servers (including but not limited to local, foreign and international networks, servers, etc.) of JD Cloud, or affects the smooth contact between JD Cloud and international Internet or JD Cloud and specific network/ server or internal smooth contact of JD Cloud, JD Cloud may decide to suspend or terminate the service. If it terminates the service, the service fee will be calculated according to the months where actual service is provided (if it is less than one month, it will be calculated as one month) and the remaining amount (if any) will be refunded.
 
 7.2.4 JD Cloud may terminate this Service Terms in advance by announcing at [www.jdcloud.com](https://www.jdcloud.com/) or notifying you through website or in writing. At that time, JD Cloud shall refund the amount you have paid but not spent to your JD Cloud account.
 
@@ -190,9 +190,9 @@ You understand and acknowledge that the above list does not cover all types of l
 
 8.2.2 The speed of your website access is reduced due to path blocking on the Internet.
 
-8.4 In no event shall JD Cloud be liable for any indirect, consequential, disciplinary, incidental or special damages, including loss of profits suffered by you using JD Cloud services (even if you have been advised of the possibility of such losses).
+8.3 In no event shall JD Cloud be liable for any indirect, consequential, disciplinary, incidental or special damages, including loss of profits suffered by you using JD Cloud services (even if you have been advised of the possibility of such losses).
 
-8.5 In any case, the total amount of JD Cloud's liability for breach of the Service Terms shall not exceed the total service fee of the defaulted service.
+8.4 In any case, the total amount of JD Cloud's liability for breach of the Service Terms shall not exceed the total service fee of the defaulted service.
 
 ## 9. Force Majeure
 

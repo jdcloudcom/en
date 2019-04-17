@@ -12,9 +12,9 @@ In this section, you will learn about data linkage, exporting reports, and subsc
 
 When you notice the abnormal profit data of mocha coffee in the eastern market, you can filter the products data and only review
 the total profits, profit distribution, detailed data, and trends over two years of mocha coffee.
-On the list of filter components, only check the mocha coffee, leaving the other products unchecked. In this way, all the components in the report only show data related to mocha
-coffee, as shown below.
-From the chart, you can see that although the profits of mocha coffee have generally increased in the national market, yet the profit is negative in the eastern market.
+On the list of filter components, only check the mocha coffee, leaving the other products unchecked. In this way, all the components in the report only show 
+data related to mocha coffee.
+You can see that although the profits of mocha coffee have generally increased in the national market, yet the profit is negative in the eastern market.
 And judging from the profit map, it is precisely because of the negative profits of mocha coffee in Anhui and Shandong that the product suffer losses in the eastern market.
 * Link Data by Scaling
 

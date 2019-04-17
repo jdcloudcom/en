@@ -5,19 +5,29 @@
     items:
       - name: Product Overview
         href: Introduction/Product-Overview.md
+      - name: Core Concepts
+        href: Introduction/Core-Concepts.md
       - name: Benefits
         href: Introduction/Benefits.md
       - name: Features
         href: Introduction/Features.md
+      - name: Restrictions
+        href: Introduction/Restrictions.md
       - name: Application Scenarios 
-        href: Introduction/Application-Scenarios.md    
+        href: Introduction/Application-Scenarios.md   
+  - name: Product Pricing
+    items:
+      - name: Billing Overview
+        href: Pricing/Billing-Overview.md
   - name: Getting Started
     items:
-      - name: Create New Items
+      - name: Create a Task
         href: Getting-Started/Create-Project.md
       - name: Execute and Create
         href: Getting-Started/Build.md
-      - name: Creation History
+      - name: Task Detail
+        href: Getting-Started/Detail.md
+      - name: Construction History
         href: Getting-Started/Build-History.md
   - name: Operation Guide
     items:
@@ -26,9 +36,24 @@
           - name: Source Code Configuration
             href: Operation-Guide/Source-Configuration.md
           - name: Creation Specification
-            href: Operation-Guide/Build-Spec.md      
+            items:
+                  - name: Specification Overview
+                    href: Operation-Guide/Build-Spec.md
+                  - name: Use Apache Maven for construction of Java project
+                    href: Operation-Guide/Maven.md
+                  - name: Use Go language environment construction
+                    href: Operation-Guide/Go.md
+                  - name: Use Npm Software Package Management System to manage software packages
+                    href: Operation-Guide/Npm.md
           - name: Create Deposit
             href: Operation-Guide/Build-Storage.md
           - name: Advanced Settings
             href: Operation-Guide/Advanced-Setting.md
-    
+          - name: More Operations
+            items:
+                  - name: Edit
+                    href: Operation-Guide/Edit.md
+                  - name: Copy
+                    href: Operation-Guide/Copy.md
+                  - name: Delete
+                    href: Operation-Guide/Delete.md

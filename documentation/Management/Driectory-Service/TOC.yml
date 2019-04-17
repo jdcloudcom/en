@@ -1,0 +1,40 @@
+  name: Directory Service
+  href:
+  items:
+
+  - name: Product Introduction
+    items: 
+      - name: Product Overview
+        href: Introduction/Product-Overview.md
+      - name: Basic Architecture
+        href: Introduction/Basic-Infrastructure.md
+      - name: Benefits
+        href: Introduction/Benefits.md
+      - name: Application Scenarios
+        href: Introduction/Application-Scenarios.md
+  - name: Product Pricing
+    items:
+      - name: Billing Specification
+        href: Pricing/Billing-Rules.md
+  - name: Operation Guide
+    items:
+       - name: Create directory service
+         href: Operation-Guide/Create-Instance.md
+       - name: Enable console access
+         href: Operation-Guide/Open-Console-Access.md
+       - name: Preparatory Work at This Region
+         href: Operation-Guide/Local-AD-Prepartion.md
+       - name: Create local directory trust relationship
+         href: Operation-Guide/Create-Local-AD-Trust.md
+       - name: Directory Service Trust Relationship Setting
+         href: Operation-Guide/Directory-Service-Trust-Settings.md
+       - name: Add users and groups
+         href: Operation-Guide/Add-Users-And-Groups.md
+       - name: Delete directory service
+         href: Operation-Guide/Delete-Directory-Service.md
+         name: Add directory service domain control manually
+         href: Operation-Guide/Join-Windows-Instance.md
+  - name: FAQ
+    items:
+      - name: Trust relationship verification failed
+        href: FAQ/Trust-Relationship-Authentication-Failed.md

@@ -33,6 +33,8 @@ items:
           href: Operation-Guide/Key-Management/Key-Encrypt.md
         - name: Key Deletion
           href: Operation-Guide/Key-Management/Key-Delete.md
+        - name: Key Status
+          href: Operation-Guide/Key-Management/Key-Status.md
         - name: Online Tool
           href: Operation-Guide/Key-Management/Key-Tools.md
     - name: Confidential Data

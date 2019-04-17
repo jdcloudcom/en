@@ -19,7 +19,7 @@ Once the instance template is configured successfully, you can quickly create in
 
 Create an instance by using an instance template: Initialize with the configuration in the instance template by default. You should specify the configuration information that is not included in the instance template, such as availability zone, billing type, etc. You can also make changes if the configuration in the instance template does not meet your creation. It is important to note that the configuration modifying only affects this creation and does not affect the content of the instance template. Please refer to [Create Instance](../Instance/Create-Instance.md) for detailed operation steps.
 
-Select an instance template to create a Availability Group: Instance templates must be specified when creating Availability Groups. The newly created instance configuration in the Availability Group shall be consistent with the instance template configuration, and the availability zone shall be selected according to the Availability Group configuration. Please refer to [Availability Group](../../../Availability-Group/Introduction/Overview.md) for details.
+Select an instance template to create a Availability Group: Instance templates must be specified when creating Availability Groups. The newly created instance configuration in the Availability Group shall be consistent with the instance template configuration, and the availability zone shall be selected according to the Availability Group configuration. Please refer to [Availability Group](../../../Availability-Group/Introduction/Product-Overview.md) for details.
 
 ## Usage Restrictions
 

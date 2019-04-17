@@ -1,5 +1,5 @@
 # Memory Usage Rate
-JD Cloud provides instance-level memory usage rate monitoring and alarming for JCS for MySQL/Percona service. See details in [Alarm Rules Setting](to be added).
+JD Cloud provides instance-level memory usage rate monitoring and alarming for JCS for MySQL/Percona service. See details in [Alarm Rules Setting](../Operation-Guide/Monitor-Alarm/Set-Alarm-Rules.md).
 
 ## Memory Usage
 

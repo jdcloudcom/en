@@ -8,14 +8,15 @@ You can view the field "Image Type" in the image list page or detail page to get
 * The conversion operation can only be supported by the private image with the type of "Local System Disk" and the status of "Available";
 You must ensure that the private image and cloud disk snapshot quotas are sufficient in the region of selected image before the operation, because the conversion operation will consume the quotas of image and cloud disk snapshot.
 
-## Precautions 
 
-* A new image with the same data as the original image but in different types will be created through the conversion operation, and the original image will also remain which could be used to create an instance of the local system disk.
-* The conversion operation is unidirectional, thus the "Cloud System Disk" image cannot be reversed to be the "Local System Disk" image.
-*A private image that satisfies the criteria can only be converted, if a shared image needs to be converted, please contact the sharing user to perform image conversion and then re-share the new image.
-* The conversion operation does not change the status of the source image. But the image cannot be deleted and the conversion request cannot be submitted again until the conversion operation is complete, and the rest of the operations (viewing, information modifying, VM Instance creating, etc.) are not affected.
-* A cloud disk snapshot will be generated for the system disk data of the image through the conversion operation, with the same name as the image's, and it can be viewed in the disk snapshot list; if the original image contains a data disk snapshot, the new data disk snapshot replicas will not be generated in the conversion operation, these snapshots are associated with both new and old images; a snapshot could be deleted after the two images associated with it are deleted.
-* A system disk snapshot generated through image operation can be used as a separate snapshot resource to create a cloud disk. But the snapshot cannot be deleted until the image is deleted.
+		Note:
+		* A new image with the same data as the original image but in different types will be created through the conversion operation, and the original image will also remain which could be used to create an instance of the local system disk;
+		* The conversion operation is unidirectional, thus the "Cloud System Disk" image cannot be reversed to be the "Local System Disk" image;
+		*A private image that satisfies the criteria can only be converted, if a shared image needs to be converted, please contact the sharing user to perform image conversion and then re-share the new image;
+		* The conversion operation does not change the status of the source image. But the image cannot be deleted and the conversion request cannot be submitted again until the conversion operation is complete, and the rest of the operations (viewing, information modifying, VM Instance creating, etc.) are not affected;
+		* A cloud disk snapshot will be generated for the system disk data of the image through the conversion operation, with the same name as the image's, and it can be viewed in the disk snapshot list; if the original image contains a data disk snapshot, the new data disk snapshot replicas will not be generated in the conversion operation, these snapshots are associated with both new and old images; a snapshot could be deleted after the two images associated with it are deleted;
+		* A system disk snapshot generated through image operation can be used as a separate snapshot resource to create a cloud disk. But the snapshot cannot be deleted until the image is deleted.
+
 
 ## Operation Steps
 1. Access [Image Console][1] to enter the image list page. Or access [JD Cloud Console][2] Click navigation bar on the left **Elastic Compute** - **Virtual Machines** - **Image** to enter the image list page.

@@ -4,7 +4,7 @@ JD Cloud Digivoice refers to the combination of various elements such as big dat
 
 At present, JD Cloud Digivoice mainly includes the following services:
 
-Data Factory, Data Computing Service, JD MapReduce services, streaming data bus services, streaming computing services.
+Data Integration Service, Data Factory Service, Data Computing Service, JD MapReduce services, streaming data bus services, streaming computing services.
 
 **2.** **Service Level Indicators**
 

@@ -1,26 +1,48 @@
-# What is a group？
-Through group management, you can add or remove the same permission for a group of subaccounts. This document describes how to create or delete a group, manage subaccounts in groups, and how to manage the group permission.
+# What is a group
 
-# Create or delete group(s)
-Log in JD Cloud Console, and enter Identity and Access Management > User Group Management, then you can
+A group is a sub-user group that is a collection of sub-users. The primary account can use group to conveniently manage multiple sub-users with same permissions and also change user permissions by adding in or remove sub-users from a group.
 
- - Create group(s)
- - View the group list
- - Edit the group name and description
- - Manage group authorization
- - Manage the group member
- - Delete the group (Note: If you want to delete a group, please move all the members out of the group first.)
+This document describes how to create or delete a group, manage sub-accounts in groups, and how to manage the group permission.
 
-Click the**Create**button to create a group.
-![Create1](https://github.com/jdcloudcom/cn/blob/edit/image/IAM/Group/%E5%88%9B%E5%BB%BA1.jpg)
-![Create2](https://github.com/jdcloudcom/cn/blob/edit/image/IAM/Group/%E5%88%9B%E5%BB%BA2.jpg)
-# Manage the group member
-Click the group name to enter the Group Details > Group Member Management page, to view the members in the group, add new group members, or move a group member out of the group.
-![Manage1](https://github.com/jdcloudcom/cn/blob/edit/image/IAM/Group/%E7%AE%A1%E7%90%861.jpg)
-![Manage2](https://github.com/jdcloudcom/cn/blob/edit/image/IAM/Group/%E7%AE%A1%E7%90%862.jpg)
-![Manage3](https://github.com/jdcloudcom/cn/blob/edit/image/IAM/Group/%E7%AE%A1%E7%90%862.jpg)
-# Manage group authorization
-On the Group Details > Group Authorization Policy Management page, view the authorization policy that the group has added, add a new policy, or remove a policy.
-![Authorization1](https://github.com/jdcloudcom/cn/blob/edit/image/IAM/Group/%E6%8E%88%E6%9D%831.jpg)
-![Authorization2](https://github.com/jdcloudcom/cn/blob/edit/image/IAM/Group/%E6%8E%88%E6%9D%832.jpg)
-![Authorization3](https://github.com/jdcloudcom/cn/blob/edit/image/IAM/Group/%E6%8E%88%E6%9D%833.jpg)
+## Create group
+
+Log in JD Cloud Console, enter Identity and Access Management > User Group Management, and click **Create** to fill in the group information in the group create window:
+
+![群组创建](../../../../image/IAM/GroupManagement/群组创建.jpg)
+
+## Edit group
+
+Access the group list, click **Edit** to quickly edit the description information of the group.
+
+![群组列表编辑按钮弹窗](../../../../image/IAM/GroupManagement/群组编辑.jpg)
+
+## Delete group
+
+Access the group list, click **Delete** to delete the group information and the association between its sub-user and the policy.
+
+![群组列表删除按钮弹窗页面](../../../../image/IAM/GroupManagement/群组删除.jpg)
+
+## Add sub-user to the group
+
+Access the group list, click **Add Group Member** to quickly add appropriate sub-users to the group.
+
+![群组列表添加组员按钮弹窗页面](../../../../image/IAM/GroupManagement/群组添加子用户.jpg)
+
+## Remove sub-user from the group
+
+Click the group name to enter the corresponding group details page, select **Group Member**; after selecting the corresponding sub-user, click **Remove** to remove corresponding group from the sub-user.
+
+![群组详情移除子用户](../../../../image/IAM/GroupManagement/群组移除子用户.jpg)
+
+## Grant policy to group
+
+Access the group list, click **Authorize** to quickly grant appropriate policy to the group.
+
+![群组列表授予策略](../../../../image/IAM/GroupManagement/群组授予策略.jpg)
+
+## Disassociate policy to group
+
+Click the group name to enter the corresponding group details page, select **Associate Policy**, after selecting the corresponding policy, click **Cancel** to disassociate policy for the group.
+
+![群组详情解绑策略](../../../../image/IAM/GroupManagement/群组移除策略.jpg)
+

@@ -1,0 +1,11 @@
+# Features
+## One-stop Resource Management
+It provides one-stop resource management console, including computing resources, storage resources, network resources and PaaS resources. IT operation and maintenance personnel may not switch among different cloud service providers’ interfaces to globally master the enterprise's IT basic architecture, which reduces the maintenance costs of cloud resources.
+## Business Orchestration Management
+It supports orchestration based on business. Users can carry out integrated orchestration against resources of multiple cloud vendors visually and flexibly with visual orchestration panel, and implement single-cloud and cross-cloud business deployment rapidly. Only the creation of one template describing the demanded cloud resources is required for resource orchestration to define the required cloud computing resources, dependency between resources, and resource configuration in the template based on the template. Resource orchestration automatically completes the creation and configuration of all the resources with orchestration engine, so as to achieve the automatic deployment, operation and maintenance purpose.
+## Unified Service Management
+With the construction of microservice architecture, the provided service management scope covers the full life cycle of services, from the service modeling to the development, testing, approval, release, management during operation and the final off-line, in accordance with the principle of "on-line management and real-time validation."
+## DTS Service
+It provides data migration and disaster recovery DTS service under different scenarios, and important data can be migrated in real time among multiple clouds. DTS service will support cycle, real-time and other modes. Users can select to back up data based on actual demands and implement cross-cloud disaster recovery for enterprise business by virtue of real-time DTS service.
+## Unified Service Monitoring
+It provides unified resource/workload monitoring function, and supports multi-resource monitoring access mode. Namely, it can carry out unified monitoring on cross-cloud resources with the independent scheme provided by the JDFusion, and can also implement unified display of monitored data through access to APIs of cloud service providers.

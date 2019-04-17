@@ -11,7 +11,7 @@ OSS provides static data protection through a server-side encryption mechanism. 
 
 ## Default Encryption Setting
 
-You can enable default encryption using our compatible S3 API, or the AWS development toolkit or OSS console. The easiest way is to use the OSS management console. After you complete the bucket default encryption settings, if files are uploaded during the validity period of default encryption, KMS service Key Pair will be automatically created for you to encrypt your files. Using default encryption for OSS bucket will not cause extra fees. Using S3 API to request to configure the default encryption function will cause standard OSS request fee. For specific request pricing, please refer to [OSS Billing Rules](https://docs.jdcloud.com/cn/object-storage-service/billing-rules) For SSE-KMS encryption Key Pair storage, Key Management Service (KMS) is currently free.
+You can enable default encryption using our compatible S3 API, or the AWS development toolkit or OSS console. The easiest way is to use the OSS management console. After you complete the bucket default encryption settings, if files are uploaded during the validity period of default encryption, KMS service Key Pair will be automatically created for you to encrypt your files. Using default encryption for OSS bucket will not cause extra fees. Using S3 API to request to configure the default encryption function will cause standard OSS request fee. For specific request pricing, please refer to [OSS Billing Rules](https://docs.jdcloud.com/en/object-storage-service/billing-rules) For SSE-KMS encryption Key Pair storage, Key Management Service (KMS) is currently free.
 
 Please note that the following encryption behaviors will be applied when the default encryption is enabled for the bucket:
 
@@ -46,17 +46,17 @@ Encrypting the Object stored in the KMS hosting master Key Pair mode by the serv
 
 |Name|Description|Example|
 |:-|:-|:-|
-|x-aws-server-side-encryption|Specified Server Encryption Mode|x-aws-server-side-encryption：aws-kms|
+|x-aws-server-side-encryption|Specified Server Encryption Mode|x-aws-server-side-encryption：aws:kms|
 
 ##  Set the default encryption using OSS management console
 
 1. Login to the Console->Object Storage Service->Space Management->Enter a Bucket->Space Settings->Default Encryption
 
-![存储空间默认加密](/image/Object-Storage-Service/OSS-96.png)
+![存储空间默认加密](../../../../../image/Object-Storage-Service/OSS-96.png)
 
 2. Click **Modification**, and set the default encryption mode of the bucket.
 
-![存储空间默认加密](/image/Object-Storage-Service/OSS-95.png)
+![存储空间默认加密](../../../../../image/Object-Storage-Service/OSS-95.png)
 
 Details:
 
@@ -77,6 +77,6 @@ If the target bucket you set has enabled the default encryption, then no matter 
 
 **Relevant API Reference**
 
--  Set Default Encryption in Bucket  [PUT Bucket encryption](../../API-Reference-S3-Compatible/Compatibility-API/PUT-Bucket-Encryption-2.md)
--  Delete Default Encryption in Bucket  [DELETE Bucket encryption](../../API-Reference-S3-Compatible/Compatibility-API/DELETE-Bucket-Encryption-2.md)
--  Acquire the Setting of Default Encryption in Bucket  [GET Bucket encryption](../../API-Reference-S3-Compatible/Compatibility-API/GET-Bucket-Encryption-2.md)
+-  Set Default Encryption in Bucket  [PUT Bucket encryption](https://docs.jdcloud.com/en/object-storage-service/put-bucket-encryption-2)
+-  Delete Default Encryption in Bucket  [DELETE Bucket encryption](https://docs.jdcloud.com/en/object-storage-service/delete-bucket-encryption-2)
+-  Acquire the Setting of Default Encryption in Bucket  [GET Bucket encryption](https://docs.jdcloud.com/en/object-storage-service/get-bucket-encryption-2)

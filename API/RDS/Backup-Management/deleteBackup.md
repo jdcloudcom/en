@@ -12,8 +12,8 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/backups/{backupId}
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**backupId**|String|True| |Backup ID|
 |**regionId**|String|True| |Region code, with range detailed in [Regions and Availability Zone Comparison Table](../Enum-Definitions/Regions-AZ.md)|
+|**backupId**|String|True| |Backup ID|
 
 ## Request parameter
 None
@@ -21,7 +21,6 @@ None
 
 ## Response parameter
 None
-
 
 
 ## Response code

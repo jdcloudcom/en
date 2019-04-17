@@ -58,7 +58,7 @@ Service Unavailable Unit Period: For each 5-minute period of calculating the ser
 
 Service Unavailable Time: If two or more service unavailable unit periods appear continuously, the number of seconds corresponding to these unit periods is included into the service unavailable time.
 
-Service Availability Calculation Formula: (100% – service unavailable time in the service period) / total service period.
+Service Availability Calculation Formula: (total service period – service unavailable time in the service period) / total service period * 100%.
 
 Guarantee on Service Availability: Service availability no less than 99.9%. That is, the service unavailable time in a service period of a natural month is no more than 43 minutes.
 
@@ -76,7 +76,7 @@ JD Cloud CDN (Content Delivery Network) does not limit the public network outlet
 
 **2.12** **Service Measurement Accuracy**
 
-CDN (Consent Delivery Network) service of JD Cloud has an accurate and transparent metering and billing system. JD Cloud settles and charges in real time according to the actual usage of the user's CDN, and the specific billing standard is subject to the effective billing mode and price announced on the official website of JD Cloud. The user's original billing log is reserved for a minimum of 1 year by default for future reference.
+CDN (Consent Delivery Network) service of JD Cloud has an accurate and transparent metering and billing system. JD Cloud settles and charges in real time according to the actual usage of the user's CDN, and the specific billing standard is subject to the effective billing mode and price announced on the official website of JD Cloud.
 
 ## **3. Service Compensation Terms**
 

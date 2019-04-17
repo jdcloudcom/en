@@ -31,8 +31,8 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/quotas
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String| |
 |**result**|Result| |
+|**requestId**|String| |
 
 ### Result
 |Name|Type|Description|
@@ -41,16 +41,16 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/quotas
 ### Quota
 |Name|Type|Description|
 |---|---|---|
-|**limit**|Integer|Upper Quota Limit|
 |**resourceType**|String|Source Type [instance, keypair, image, instanceTemplate]|
+|**limit**|Integer|Upper Quota Limit|
 |**used**|Integer|Used Quota|
 
 ## Response code
 |Return code|Description|
 |---|---|
+|**200**|OK|
 |**400**|Invalid parameter|
 |**401**|Authentication failed|
 |**404**|Not found|
-|**503**|Service unavailable|
-|**200**|OK|
 |**500**|Internal server error|
+|**503**|Service unavailable|

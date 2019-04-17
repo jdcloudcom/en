@@ -17,16 +17,15 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/quotas/
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**parentResourceId**|String|False| |If the type is VPC, elastic_ip, network_interface, do not set; if the type is subnet, security_group, VPCpeering, set as VPCId|
 |**type**|String|True| |Resource Type. Value Range: VPC, elastic_ip, subnet, security_group, VPCpeering, network_interface (quota only sums up secondary network interface)|
+|**parentResourceId**|String|False| |If the type is VPC, elastic_ip, network_interface, do not set; if the type is subnet, security_group, VPCpeering, set as VPCId|
 
 
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String|Request ID|
 |**result**|Result|Returned Results|
-
+|**requestId**|String|Request ID|
 
 ### Result
 |Name|Type|Description|

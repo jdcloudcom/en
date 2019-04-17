@@ -1,9 +1,9 @@
 
-#Installation #
+# Installation #
 
 The CLI is currently supported on Linux, macOS, and Windows systems.
 
-##Installation Instructions ##
+## Installation Instructions ##
 
 JD Cloud CLI is developed based on Python language and JD Cloud Python SDK. Please install Python 2.7.* Version before using the CLI. Please visit the official website to download and install the Python 2.7.* Version.
 

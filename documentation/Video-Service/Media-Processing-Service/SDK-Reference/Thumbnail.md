@@ -19,7 +19,7 @@ Add dependencies to the Maven project:
 </dependency>
 ```
 
-For more environment preparation information, please refer to [OpenAPI Java SDK Introduction](https://docs.jdcloud.com/cn/sdk/java)
+For more environment preparation information, please refer to [OpenAPI Java SDK Introduction](https://docs.jdcloud.com/en/sdk/java)
 
 ## Video Transcoding
 

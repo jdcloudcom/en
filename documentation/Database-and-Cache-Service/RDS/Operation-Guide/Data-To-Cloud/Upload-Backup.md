@@ -15,11 +15,11 @@
 ## 3. Upload Files
 
 Run upload-tool.exe to upload the backup files. The command format of upload-tool.exe is:
-```
+```Shell
 upload-tool.exe -r [Region code] -f [Local path of backup file] -k [Upload key value]
 ```
 If the backup files are already in the JD Cloud intranet, it is recommended to upload it through intranet for higher uploading efficiency. The command is as follows:
-```
+```Shell
 upload-tool.exe -r [Region code] -f [Local path of backup file] -k [Upload key value -i
 
 ## -i: Represent unloading files with intranet
@@ -35,7 +35,7 @@ The region code supports the following regions
 |cn-south-1|cn-south-1|
 
 **Command Instance:** Upload the backup file "z:/Backup/testdb.bak" to cn-north-1.
-```
+```Shell
 upload-tool.exe -r cn-north -f z:/Backup/testdb.bak -k   U2FsdGVkX19c7B0ZGP0mU++sXgWZoHCeGP0tacbRz3TpoOKPsXmncA
 ```
 Precautions:

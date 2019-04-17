@@ -4,36 +4,48 @@
 ## Description
 Update the Instance Elastic Protection Bandwidth
 
-## Request method
+## Request Method
 POST
 
-## Request address
+## Request Address
 https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:modifyEPB
 
-|Name|Type|Required or not|Default value|Description|
+|Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**instanceId**|String|True| |Instance ID|
 |**regionId**|String|True| |Region ID|
+|**instanceId**|Long|True| |Instance ID|
 
-## Request parameter
-|Name|Type|Required or not|Default value|Description|
+## Request Parameter
+|Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**ePBSpec**|EPBSpec|True| |Update the Request Parameter of Elastic Protection Bandwidth|
+|**modifyInstanceEPBSpec**|ModifyInstanceEPBSpec|True| |Modify instance name request parameter|
 
-### EPBSpec
-|Name|Type|Required or not|Default value|Description|
+### ModifyInstanceEPBSpec
+|Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**ePB**|Integer|False| |Elastic Protective Bandwidth|
+|**ep**|Integer|True| |Elastic bandwidth: unit: Gbps|
 
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
+|**result**|Result| |
 |**requestId**|String| |
+|**error**|Error| |
 
+### Error
+|Name|Type|Description|
+|---|---|---|
+|**code**|Integer|Request Error Status Code|
+|**status**|String|Request Error Status Code|
+|**message**|String|Request Error Notification|
+### Result
+|Name|Type|Description|
+|---|---|---|
+|**code**|Integer|0: Modification failed, 1: Modification succeeded|
+|**message**|String|Please specify reasons for modification failure|
 
-
-## Response code
-|Return code|Description|
+## Return Code
+|Return Code|Description|
 |---|---|
 |**200**|OK|
 |**404**|NOT_FOUND|

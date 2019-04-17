@@ -1,4 +1,2 @@
 ## Billing Overview
-
-Monitoring is not charged as a basic service.
-
+Monitoring is free of charge for the time being, and the users can use it for free.

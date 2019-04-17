@@ -9,12 +9,12 @@ Bandwidth Query
 | **Name**   | **Type** | **Compulsory or Not ** | **Description**                                                     |
 | ---------- | -------- | ------------ | ------------------------------------------------------------ |
 | username   | String   | Yes           | JD User Name pin                                                |
-| signature  | String   | Yes           | User Signature, verify user's identity information through md5 method to ensure information security.  md5=date+username+secret key SecretKey date: format is yyyymmddusername: JD user name pin secret key: example agreed between the Parties: such as current date 2016-10-23, user pin: jcloud_00, user secret key SecretKey: e7a31b1c5ea0efa9aa2f29c6559f7d61, then the signature is MD5(20161023jcloud_00e7a31b1c5ea0efa9aa2f29c6559f7d61) |
+| signature  | String   | Yes           | User Signature, verify user's identity information through md5 method to ensure information security.</br> md5=date+username+secret key SecretKey; date: format is yyyymmdd; username: JD user name pin secret key: agreed between the Parties;</br> example: such as current date 2016-10-23, user pin: jcloud_00, user secret key SecretKey: e7a31b1c5ea0efa9aa2f29c6559f7d61, then the signature is MD5(20161023jcloud_00e7a31b1c5ea0efa9aa2f29c6559f7d61) |
 | domain     | String   | Yes           | Domain name to be queried, support query of multiple domain names, parameter example "www.a.com,www.b.com"; When domain is empty, it queries the total bandwidth of all domain names under this username |
 | start_time | String   | Yes           | Time Format: yyyy-mm-dd hh:mi Reference Example 2016-12-14 07:00; the time span for query cannot be greater than 31 days  |
 | end_time   | String   | No           | Not a compulsory parameter; if no parameter is uploaded, it is current time by default                             |
 
-## **3. Description of Returned Parameter Data**
+## **3. Return Parameter**
 
 | **Name** | **Description**                       |
 | -------- | ------------------------------ |
@@ -26,12 +26,12 @@ Bandwidth Query
 
 - ### **Request Address**
 
-http://opencdn.jcloud.com/api/bandwidth
+https://opencdn.jcloud.com/api/bandwidth
 
 - ### **Request Example**
 
 ```
-http://opencdn.jcloud.com/api/bandwidth
+https://opencdn.jcloud.com/api/bandwidth
 {
     "username" :"test_user",
     "signature" :"d847267fc702273abf394dd0c3128d64",
@@ -43,7 +43,7 @@ http://opencdn.jcloud.com/api/bandwidth
 
 - ### **Return Instructions**
 
-•        Json Format
+* json Format
 
 ```
 {

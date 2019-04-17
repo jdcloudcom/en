@@ -1,4 +1,4 @@
-﻿# Purchase Process
+# Purchase Process
 
 ## Purchase Process for JCS for Redis Instance:
 

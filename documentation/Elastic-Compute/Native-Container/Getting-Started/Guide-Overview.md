@@ -23,7 +23,7 @@ Go to the real-name verification page to select the individual or corporate auth
 
 4 Set name for VPC: Name can not be empty, which only supports Chinese text, numbers, uppercase and lowercase letters, English text with underline “_” and hyphen “-”, and should exceed 32 characters.
 
-5. Set CIDR for VPC: Set up the border of VPC. CIDR shall only be the intranet segments, with choices ranging from 10.0.0.0 (mask 16-28), 172.16.0.0~172.31.0.0 (mask 16-28), to 192.168.0.0 (mask 16-28). CIDR can also be the non-preset type. In this case, the VPC border will operate in auto scaling with the applied subnet segments. Users with good understanding of network knowledge are recommended for VPC of non-preset CIDR type.
+5. Set CIDR for VPC: Set up the border of VPC. CIDR shall only be the intranet segments, with choices ranging from 10.0.0.0 (mask 16 ~ 28), 172.16.0.0 ~ 172.31.0.0 (mask 16 ~ 28), to 192.168.0.0 (mask 16 ~ 28). CIDR can also be the non-preset type. In this case, the VPC border will operate in auto scaling with the applied subnet segments. Users with good understanding of network knowledge are recommended for VPC of non-preset CIDR type.
 
 6. Set VPC description: The description can be blank, only supports Chinese, numbers, uppercase and lowercase letters, English underscore “_”, and cannot exceed 256 characters;
 
@@ -42,7 +42,7 @@ Go to the real-name verification page to select the individual or corporate auth
 
 5. Create Subnet: Support create multiple subnets simultaneously; enter subnet name, subnet CIDR, route table associated, description and other information.
 
-6. CIDR of the subnet can only be intranet segment with optional range of 10.0.0.0 (mask16~28), 172.16.0.0~172.31.0.0 (mask16~28), 192.168.0.0 (mask16~28).
+6. CIDR of the subnet can only be intranet segment with optional range of 10.0.0.0 (mask 16 ~ 28), 172.16.0.0 ~ 172.31.0.0 (mask 16 ~ 28), 192.168.0.0 (mask 16 ~ 28).
 
 7. There can not be overlap between CIDRs of multiple subnets; if belonging VPC has preset CIDR, then the CIDR of subnet shall not exceed the border of VPC.
 
@@ -91,7 +91,7 @@ The above-mentioned intranet interconnection refers to the interconnection of re
 It is recommended that you use Pay By Configuration billing instances for performance testing to find instance type and other resource configurations that match your business volume before deploying the business formally. You may refer to Instance [settings recommendation][4].
 
 
-  [1]: https://docs.jdcloud.com/cn/real-name-verification/real-name-verification
+  [1]: https://docs.jdcloud.com/en/real-name-verification/real-name-verification
   [2]: https://cns-console.jdcloud.com/host/vpc/list
   [3]: https://cns-console.jdcloud.com/host/subnet/list
-  [4]: https://docs.jdcloud.com/cn/native-container/recommend-instance
+  [4]: https://docs.jdcloud.com/en/native-container/recommend-instance

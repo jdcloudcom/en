@@ -33,6 +33,7 @@ Through the task status, the success rate and failure rate of each refresh or pr
 * Multiple paths shall be separated with carriage return
 * Up to 5 directories can be refreshed for a single time; up to 50 directories can be refreshed per day
 * It takes approximately 5 minutes for the refresh task to take effect.
+* After the root directory is set and refreshed, CDN will request resources from the back-to-origin server again and cache the same on the node. Then, the back-to-origin bandwidth will be increased and the origin server will withstand high back-to-origin pressure. Please consider the loading pressure of the origin server and take the operation with care.
 
  
 

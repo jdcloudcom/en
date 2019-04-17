@@ -1,6 +1,6 @@
 # Billing Rules
 
-Cloud resolution only supports one type of billing:
+JD Cloud DNS only supports one type of billing:
  * Monthly Package
 
 ## Monthly Package

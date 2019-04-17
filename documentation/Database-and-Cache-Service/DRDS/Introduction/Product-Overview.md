@@ -14,3 +14,10 @@ DRDS is the database middleware product elaborately developed by JD Cloud itself
 ### Monitor Alarm
 - It can monitor various major performance indicators of DRDS nodes, which can provide clear view of system running conditions
 - It supports customized alarm so that users can flexibly customize various alarm rules, which enabling them to grasp all kinds of information immediately
+
+## List of Supported Regions and Availability Zones
+|Region|Region Indication|Availability Zone|Availability Zone Indication|
+|---|---|---|---|
+|cn-north-1|cn-north-1|Availability Zone A|cn-north-1a|
+|cn-north-1|cn-north-1|Availability Zone B|cn-north-1b|
+|cn-north-1|cn-north-1|Availability Zone C|cn-north-1c|

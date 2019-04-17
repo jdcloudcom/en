@@ -12,8 +12,8 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/audit:d
 
 |Name|Type|Required or Not|Default|Description|
 |---|---|---|---|---|
-|**instanceId**|String|True| |RDS instance ID, the unique identifier of one RDS instance|
 |**regionId**|String|True| |Region code, see the value range in [Table of Comparisons of Regions and Availability Zones](../Enum-Definitions/Regions-AZ.md)|
+|**instanceId**|String|True| |RDS instance ID, the unique identifier of one RDS instance|
 
 ## Request Parameter
 None
@@ -31,9 +31,9 @@ None
 ### AuditFile
 |Name|Type|Description|
 |---|---|---|
-|**lastUpdateTime**|String|Last update time of audit log file|
 |**name**|String|Audit log file name|
 |**sizeByte**|Long|Audit log file size, unit: Byte|
+|**lastUpdateTime**|String|Last update time of audit log file|
 |**uploadTime**|String|Last upload time of audit log file|
 
 ## Return Code

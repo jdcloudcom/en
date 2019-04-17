@@ -29,7 +29,7 @@ Authentication KEY: The key parameters that the user filled in the authenticatio
 
 Valid Time: Refers to that the authentication is invalid if the time it takes for user to visit client source server exceeds the self-defined time, for example, the valid time is
 1800s, access time that the user has set: 2020-08-15 15:00:00, the true invalid time for the link is: 2020-08-15
-15:30:00。
+15:30:00.
 
 **The composition of encrypted URL for user access**
 

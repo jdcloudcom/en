@@ -42,6 +42,6 @@
 5. In the case of successful deletion, relevant information will update; in the case of failure, tooltip will pop. If you fail to delete them for several times, please contact customer service and open ticket.
 
 
-  [1]: https://docs.jdcloud.com/cn/cloud-disk-service/create-clouddisk-snapshot
-  [2]: https://docs.jdcloud.com/cn/elastic-ip/delete-elastic-ip
-  [3]: https://docs.jdcloud.com/cn/cloud-disk-service/delete-cloud-disk
+  [1]: https://docs.jdcloud.com/en/cloud-disk-service/create-clouddisk-snapshot
+  [2]: https://docs.jdcloud.com/en/elastic-ip/delete-elastic-ip
+  [3]: https://docs.jdcloud.com/en/cloud-disk-service/delete-cloud-disk

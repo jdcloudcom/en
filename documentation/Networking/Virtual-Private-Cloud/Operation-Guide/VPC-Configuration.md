@@ -10,7 +10,7 @@
 
 4. Set Up the VPC Name: The name cannot be null. Only Chinese, numbers, uppercase and lowercase letters, English underscore "_" and line-through "-" are accepted, not exceeding 32 characters;
 
-5. Set Up the CIDR of the VPC: Set up the boundary of the VPC. CIDR can only be the intranet segment. The optional range is 10.0.0.0 (The mask is 16~28), 172.16.0.0~172.31.0.0 (The mask is 16~28), 192.168.0.0. (The mask is 16~28). The CIDR may not be preset. In this case, the boundary of the VPC will be automatically scaled along with the network segment of the subnet. It is recommended that the user who has deep understanding of the network select a VPC without a preset CIDR.
+5. Set Up the CIDR of the VPC: Set up the boundary of the VPC. CIDR can only be the intranet segment. The optional range is 10.0.0.0 (The mask is 16 ~ 28), 172.16.0.0 ~ 172.31.0.0 (The mask is 16 ~ 28), 192.168.0.0. (The mask is 16 ~ 28). The CIDR may not be preset. In this case, the boundary of the VPC will be automatically scaled along with the network segment of the subnet. It is recommended that the user who has deep understanding of the network select a VPC without a preset CIDR.
 
 6. Description to VPC Setup: The description can be null, only supports Chinese, numbers, uppercase and lowercase letters, English underscore "_", and cannot exceed 256 characters;
 

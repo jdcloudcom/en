@@ -15,3 +15,9 @@
         href: OSS-APIs/listBuckets.md        
       - name: putBucket
         href: OSS-APIs/putBucket.md    
+      - name: putBackSourceConfiguration
+        href: OSS-APIs/putBackSourceConfiguration.md
+      - name: getBackSourceConfiguration
+        href: OSS-APIs/getBackSourceConfiguration.md
+      - name: deleteBackSourceConfiguration
+        href: OSS-APIs/deleteBackSourceConfiguration.md

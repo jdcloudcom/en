@@ -95,9 +95,11 @@
       href: Best-Practices/MongoDB-Profile.md
     - name: Connect MongoDB Instance with Public Network
       href: Best-Practices/Public-Network-Connect-to-MongoDB-Instance.md
+    - name: Construct MongoDB Shard Cluster
+      href: Best-Practices/Create-Sharded-Cluster.md
   - name: Tutorial
-    status: 0
     items:
+    status: 0
   - name: Troubleshooting
     items:
     - name: Virtual machine is unable to connect to the MongoDB instances?

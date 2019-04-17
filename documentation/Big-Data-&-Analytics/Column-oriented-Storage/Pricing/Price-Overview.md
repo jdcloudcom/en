@@ -12,7 +12,7 @@ The following is the instance type family information currently sold by JD Cloud
 * High Frequency Compute
 
 ## General
-Currently, the general type currently provides the general shared type and the general standard type, providing users with balanced computing and memory resources to meet the demand of most service scenarios. In which, each vCPU of general standard type is corresponded to hyper-threading core of one Intel Xeon processor, its vCPU to Memory Ratio is 1.:4。
+Currently, the general type currently provides the general shared type and the general standard type, providing users with balanced computing and memory resources to meet the demand of most service scenarios. In which, each vCPU of general standard type is corresponded to hyper-threading core of one Intel Xeon processor, its vCPU to Memory Ratio is 1.:4.
 
 ### Shared Type<div id="g.s"></div>
 **Specifications and Type Characteristics:**

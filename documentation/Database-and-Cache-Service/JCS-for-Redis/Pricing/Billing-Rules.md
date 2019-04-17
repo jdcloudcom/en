@@ -1,4 +1,4 @@
-﻿# Billing Rules
+# Billing Rules
 
 JCS for Redis provides two Billing Methods according to configuration and Monthly Package. Please refer to the Billing Method. 
 

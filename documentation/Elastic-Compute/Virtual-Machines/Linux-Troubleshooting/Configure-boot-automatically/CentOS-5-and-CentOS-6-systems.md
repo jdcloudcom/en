@@ -20,7 +20,7 @@ As shown above, id:3:initdefault: where 3 means the run level is 3, the full mul
 
 ![](https://github.com/jdcloudcom/cn/blob/cn-VirtualMachine-Linux/image/Elastic-Compute/Virtual-Machine/Linux/CentOS%205%E5%8F%8ACentOS%206%E7%B3%BB%E7%BB%9F02.png)
 
-Note: /etc/rc[0~6].d is actually a soft link of /etc/rc.d/rc[0~6].d for compatibility with Unix.
+Note: /etc/rc[0 ~ 6].d is actually a soft link of /etc/rc.d/rc[0 ~ 6].d for compatibility with Unix.
 
 Each of the seven directories stores a service that needs to be closed or opened when the corresponding run level is loaded. From the detailed information, each script file corresponds to the specific service in /etc/init.d/ directory.
 

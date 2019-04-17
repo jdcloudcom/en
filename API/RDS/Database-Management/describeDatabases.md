@@ -12,13 +12,15 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/databas
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**instanceId**|String|True| |RDS instance ID, which uniquely identifies an RDS instance|
 |**regionId**|String|True| |Region code, with range detailed in [Regions and Availability Zone Comparison Table](../Enum-Definitions/Regions-AZ.md)|
+|**instanceId**|String|True| |RDS instance ID, which uniquely identifies an RDS instance|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**dbName**|String|False| |Database Name If you do not specify a database name, return all database lists <br> -**MySQL: This field is not supported **<br>- **SQL Server: This field is supported**|
+|**pageNumber**|Integer|False| |Pages displaying data, which is 1 by default with value range: [-1,∞).   When pageNumber is 1, return all data page numbers; when exceeding total pages, display the last page;|
+|**pageSize**|Integer|False| |Data entries displayed on each page, which 100 by default, with the value range:[10,100], used for searching interfaces of list|
 
 
 ## Response parameter
@@ -30,14 +32,15 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/databas
 |Name|Type|Description|
 |---|---|---|
 |**databases**|Database[]| |
+|**totalCount**|Integer| |
 ### Database
 |Name|Type|Description|
 |---|---|---|
-|**accessPrivilege**|DBAccessPrivilege[]|List of Database Related Account Privilege|
-|**characterSetName**|String|Character set, detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)|
-|**createTime**|String|Database creation time, with the format: YYYY-MM-DD HH:mm:ss<br>- only support SQL Serverer|
 |**dbName**|String|Database name with specific rules detailed in the Help Center Documentation: [Name and Password Restrictions](../../../documentation/Cloud-Database-and-Cache/RDS/Introduction/Restrictions/SQLServer-Restrictions.md)|
 |**dbStatus**|String|Database status, detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)<br>- **MySQL: Not support, not return this field**<br>- **SQL Server: return this field**|
+|**characterSetName**|String|Character set, detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)|
+|**createTime**|String|Database creation time, with the format: YYYY-MM-DD HH:mm:ss<br>- only support SQL Serverer|
+|**accessPrivilege**|DBAccessPrivilege[]|List of Database Related Account Privilege|
 ### DBAccessPrivilege
 |Name|Type|Description|
 |---|---|---|

@@ -12,9 +12,9 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/account
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**accountName**|String|True| |Account name; in the same instance, the account name cannot be duplicated.|
-|**instanceId**|String|True| |RDS instance ID, which uniquely identifies an RDS instance|
 |**regionId**|String|True| |Region code, with range detailed in [Regions and Availability Zone Comparison Table](../Enum-Definitions/Regions-AZ.md)|
+|**instanceId**|String|True| |RDS instance ID, which uniquely identifies an RDS instance|
+|**accountName**|String|True| |Account name; in the same instance, the account name cannot be duplicated.|
 
 ## Request parameter
 None
@@ -22,7 +22,6 @@ None
 
 ## Response parameter
 None
-
 
 
 ## Response code

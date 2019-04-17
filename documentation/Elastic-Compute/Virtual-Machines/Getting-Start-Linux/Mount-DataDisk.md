@@ -9,15 +9,13 @@ Attach Script: [MountDataDisk][1].
 
 You can use the script in the following two ways:
 
-1. Without Any Parameter: The script will automatically partition, format and mount all your un-partitioned devices (the default attaching points are jddata1, jddata2...jddatan) and realize automatic attaching of the Cloud Disk in /etc/fstab file via UUID.
+1. Without Any Parameter: The script will automatically partition, format and mount all your un-partitioned devices (the default attaching points are /jddata1, /jddata2.../jddatan) and realize automatic attaching of the Cloud Disk in /etc/fstab file via UUID.
 ```
-sh
 sh auto_fdisk.sh
 ```
 2. With a Device Name (such as /dev/vdc, etc.), Attaching Point and File System Parameter: The script will automatically complete partitioning, formatting, and attaching based on the parameters you entered.
 ```
-sh
-sh auto_fdisk.sh /dev/vdb jddata1 ext4
+sh auto_fdisk.sh /dev/vdb /jddata1 ext4
 ```
 
 **Note:**
@@ -49,8 +47,8 @@ If you need to manually partition, format and create a file system, we take the 
 	
 	Note: If the hard disk capacity you created is greater than 2T, please do not use the partition or refer to the following steps to use parted to partition:
 
-	1) Create a partition table and select GPT format: <br>![](../../../../image/vm/Getting-Start-Linux-mount2.png)
-	2) Create a partition <br>![](../../../../image/vm/Getting-Start-Linux-mount3.png)
+	1) Create a partition table and select GPT format: <br>![](../../../../image/vm/Getting-Start-Linux-mount2.png)<br>
+	2) Create a partition <br>![](../../../../image/vm/Getting-Start-Linux-mount3.png)<br>
 	3) Re-run the fdisk -l command and confirm the partition <br>![](../../../../image/vm/Getting-Start-Linux-mount4.png)
 
 3. Then you need to format the hard disk after the partition, and the command is as follows:
@@ -79,5 +77,4 @@ If you need to manually partition, format and create a file system, we take the 
 
  **Please note that if the system is Centos 7 or above, you must use the nofail parameter when writing in fstab. Otherwise, if you create a private image for the current Virtual Machines, the new Virtual Machines created based on this private image will not start normally.** 
 
-  [1]: http://img1.jcloudcs.com/cms/6bbc4a45-02ce-460d-9696-c31f3fa18c6f20170728174252.zip
- 
+  [1]: https://iaas-cns-download.oss.cn-north-1.jcloudcs.com/DOCS/auto_fdisk.sh

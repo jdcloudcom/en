@@ -34,7 +34,7 @@ The instance prices of the Cloud Physical Server mainly include the Cloud Physic
 		<td >4500</td>
     </tr>
 	<tr>   
-		<td rowspan="2">GPU Type</td>
+		<td rowspan="3">GPU Type</td>
 		<td >GPUⅠ</td>
 		<td >cps.gpu.1</td>
 		<td >23000</td>
@@ -44,6 +44,11 @@ The instance prices of the Cloud Physical Server mainly include the Cloud Physic
 		<td >cps.gpu.2</td>
 		<td >19900</td>
     </tr>
+	<tr>   
+		<td >GPUⅢ</td>
+		<td >cps.gpu.3</td>
+		<td >32000</td>
+    </tr>	
 </table>
 
 

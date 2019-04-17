@@ -11,11 +11,13 @@ There are three entries to reboot the instance:
 
 ## 2. Select Nodes to be Rebooted
 Users can reboot the primary or standby nodes separately or reboot them at the same time. In default condition
+
 - Select the restart for the primary node by default after clicking the primary node.
 - Select the restart for the standby node by default after clicking the standby node.
 - The restarts under the operation menu are not selected by default.
 
 If users need to reduce the impact on the service during the restart, the failover function can be employed, for example
+
 1. Perform the failover function
 2. Restart the standby node (i.e., the original primary node).
 3. Perform the failover function again (this step can be skipped if both the primary and standby nodes are in the same availability zone).

@@ -7,7 +7,7 @@ You can use Android SDK to manage Object Storage Service; Android Source Code ca
 #  Actions
 
 Because android sdk uses the chunk method for transmission, and puts chunk-signature on the body, oss does not support such case; the parameter (S3ClientOptions.builder.disableChunkedEncoding) supported in sdk has not been taken upon judgment, thus, hack in deeper level is required, it is required to inherit AWSS3V4Signer.java and replace original processRequestPayload (calculate the signature of payload and put it at the beginning of body) and calculateContentHash (the length includes the signature part), the code as follows:
-```
+```Java
 package com.amazonaws.demo.s3transferutility;
  import com.amazonaws.AmazonClientException;
  import com.amazonaws.Request;
@@ -81,14 +81,14 @@ package com.amazonaws.demo.s3transferutility;
 ```
 
 Then use SignerFactory.registerSigner("JdAWSS3V4Signer", JdAWSS3V4Signer.class) to replace the standard signature, the implementation code is as follows:
-```
+```Java
 SignerFactory.registerSigner("JdAWSS3V4Signer", JdAWSS3V4Signer.class);
  System.setProperty(SDKGlobalConfiguration.ENABLE_S3_SIGV4_SYSTEM_PROPERTY, "true");
  ClientConfiguration config = new ClientConfiguration();
  config.setProtocol(Protocol.HTTP);
  config.setSignerOverride("JdAWSS3V4Signer");
  sS3Client = new AmazonS3Client(getCredProvider(context.getApplicationContext()), config);
- sS3Client.setEndpoint("http://s3.cn-north-1.jcloudcs.com");
+ sS3Client.setEndpoint("https://s3.cn-north-1.jdcloud-oss.com");
  S3ClientOptions options = S3ClientOptions.builder()
          .disableChunkedEncoding()
          .setPayloadSigningEnabled(true)
@@ -97,4 +97,4 @@ SignerFactory.registerSigner("JdAWSS3V4Signer", JdAWSS3V4Signer.class);
 ```
 ## Demo Download
 
-Download link: http://s3-sdk-demo.oss.cn-north-1.jcloudcs.com/android-sdk/s3-android-demo.zip
+[Download link](http://s3-sdk-demo.oss.cn-north-1.jcloudcs.com/android-sdk/s3-android-demo.zip)

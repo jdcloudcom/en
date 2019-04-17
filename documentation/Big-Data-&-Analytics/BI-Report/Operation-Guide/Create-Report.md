@@ -30,5 +30,5 @@ Filter 1.
 
 8. Resize each component area
 Put the cursor over the component area border and change the area size by dragging and dropping.
-It finally generates the report template shown in the following figure.
+It finally generates the report template.
 

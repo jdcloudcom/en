@@ -36,8 +36,8 @@ Tiller server: The Tiller service is deployed in JCS for Kubernetes. By interact
 The client is responsible for management chart, while the server is responsible for managing the release  
 
 ## Preconditions  
-- The JCS for Kubernetes has been created. For [Creating Cluster], please see Getting Started for JCS for Kubernetes of JCS for Kubernetes.(https://docs.jdcloud.com/cn/jcs-for-kubernetes/create-to-cluster)  
-- Taking the deployment of Centos7.4 64-bit as an example, install Kubectl and connect JCS for Kubernetes. For [Cluster Connection], please refer to Getting Started.(https://docs.jdcloud.com/cn/jcs-for-kubernetes/connect-to-cluster)  
+- The JCS for Kubernetes has been created. For [Creating Cluster], please see Getting Started for JCS for Kubernetes of JCS for Kubernetes.(https://docs.jdcloud.com/en/jcs-for-kubernetes/create-to-cluster)  
+- Taking the deployment of Centos7.4 64-bit as an example, install Kubectl and connect JCS for Kubernetes. For [Cluster Connection], please refer to Getting Started.(https://docs.jdcloud.com/en/jcs-for-kubernetes/connect-to-cluster)  
 ## Installation Deployment
 1. Download corresponding versions. At present, Kubernetes Version 1.8.12 is adopted by JD Cloud. Please choose the Helm Version [2.7.2](https://github.com/helm/helm/releases?after=v2.8.0)  
 `wget https://storage.googleapis.com/kubernetes-helm/helm-v2.7.2-linux-amd64.tar.gz`  
@@ -161,7 +161,7 @@ NAME                         DESIRED  CURRENT  AGE
 boisterous-aardwolf-mariadb  1        1        1s
 ...
 ```
-- As the Cloud Disk Service is required for the deployment, please create a PVC. JD Cloud JCS for Kubernetes services are integrated into JD Cloud Disk Service, and you may use JD Cloud Disk Service in the cluster as persistent storage. See details in [Deploy Persistent Storage](https://docs.jdcloud.com/cn/jcs-for-kubernetes/deploy-pv)    
+- As the Cloud Disk Service is required for the deployment, please create a PVC. JD Cloud JCS for Kubernetes services are integrated into JD Cloud Disk Service, and you may use JD Cloud Disk Service in the cluster as persistent storage. See details in [Deploy Persistent Storage](https://docs.jdcloud.com/en/jcs-for-kubernetes/deploy-pv)    
 Enter commands below:  
 `kubectl get pvc`  
 Output the information below, which is displayed as pending state:  

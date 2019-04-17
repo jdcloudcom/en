@@ -12,7 +12,7 @@ Article 3 **Level of Effectiveness** The Code is a lower rule of the Agreement f
 
 Chapter II Definition
 
-Article 4 Cloud Marketplace: refers to the network platform operated by JD Cloud for Service Provider to provide user with software, images and services around cloud computing products. There are many categories under JD Cloud Marketplace. JD Cloud will adjust the types and names of market categories from time to time. The specific categories will be based on the page display of JD Cloud Marketplace.
+Article 4 Cloud Marketplace: It refers to the first platform run by JD Cloud for software and service transaction and delivery, which is responsible for the landing of various chain products of cloud ecology. At present, more than a thousand ISV have moved in the Cloud Marketplace, providing users with software application and service relating to cloud computing products. There are many categories under JD Cloud Marketplace. JD Cloud will adjust the types and names of market categories from time to time. The specific categories will be based on the page display of JD Cloud Marketplace.
 
 JD Cloud may adjust the JD Cloud Marketplace name, website and other display elements in a timely manner according to its own business development, and notify the service provider and user through announcements, intra-website message, emails and other effective means. These adjustments will not affect the rights and obligations of JD Cloud and the service provider and/or user under the Agreement.
 
@@ -32,7 +32,7 @@ Article 9 **Move-in Conditions** When moves in Marketplace, the service provider
 
 (1) A valid JD Cloud member account
 
-(2) Passing JD Finance Real-name Verification;
+(2) Passing JD Cloud Real-name Verification;
 
 (3) It is necessary to provide the following information that is true and effective:
 
@@ -180,7 +180,7 @@ Chapter 5 User Refund Management
 
 Article 17 **Refund** For commodities in the Marketplace, users may initiate refund requests due to reasons such as product quality and unsatisfactory service.
 
-(1) **Refund during the Warranty Period** If the commodity is within the warranty period, the service provider shall guarantee that the users who purchase the commodity enjoy the rights of "Refund without reasons for all purchases within 5 days" and "Full refund for unsatisfactory products". The user initiates a refund request, and the service provider negotiates with the user. If the negotiation result is inconsistent, JD Cloud has the right to directly refund the user at full price.
+(1) **Refund during the Warranty Period** If the commodity is within the warranty period, the service provider shall guarantee that the users who purchase the commodity enjoy the rights of "Refund without reasons for all purchases within 5 days" and "Full refund for unsatisfactory products". The user initiates a refund request, and the service provider negotiates with the user. If the negotiation result is inconsistent, it can contact JD Cloud Customer Service, JD Cloud has the right to directly refund the user at full price.
 
 1. The warranty period for application commodity is 5 days;
 
@@ -254,7 +254,7 @@ Article 18 **Code of Conduct** During the course of providing services on the pl
 
 (13) If the product is updated or adjusted, the service provider shall synchronously update it in the Marketplace in time;
 
-(14) Commodities that have not been sold during the previous three months shall be forced to be removed from the Marketplace;
+(14) Commodities that have not been sold during the previous three months shall be entitled to be removed from the Cloud Marketplace;
 
 (15) The service provider shall do a good job of data backup and other work during the service process. After the completion of the service, the backup data shall be deleted in time to avoid causing a loss to the user due to human error:
 
@@ -290,11 +290,11 @@ Article 20 **Node Processing** The Marketplace shall impose independent punishme
 
 1. Points Deduction: Deduct points of the service provider and record the deduction according to different violations made;
 
-2. Frozen Shop: It means that the shop and the commodity cannot be displayed in the Marketplace within a certain period of time, but it does not affect the normal use of the users who have ordered the commodity in the shop;
+2. Frozen Service Shop: It means that the shop and the commodity cannot be displayed in the Cloud Marketplace within a certain period of time, but it does not affect the normal use of the users who have ordered the commodity in the shop;
 
-3. Deposit Deduction: Refers to the method of deducting part or all of the deposit according to different violations made by the service provider.
+3. Deposit Deduction: Refers to the method of deducting part or all of the deposit according to different violations made by the service provider;
 
-4. Clearing Out: If the service provider violates the rules and the deducted points reaches 24, all the commodities will be removed, the service provider will be cleared out, and the deposit will be deducted.
+4. Clearing Out: If the service provider violates the rules and the deducted points reaches 24, all the commodities will be removed, the service provider will be cleared out, and the deposit will be deducted;
 
 5. According to laws, regulations, policies, terms of agreement and management practices, JD Cloud has the right to take other measures, including but not limited to display mode downgrade, violation notification, additional deposit, restricted commodity categories, etc.
 
@@ -332,13 +332,183 @@ Article 26 **Handling of Business after Withdrawal** When the service provider w
 
 (3) After the withdrawal of the service provider, the relevant after-sales service of the Marketplace products sold by the service provider shall be provided by the service provider to the user through negotiation.
 
- 
+Article 27 Service providers who voluntarily withdraw from the Cloud Marketplace can send email to yunshichang@jd.com to submit a withdrawal application. After Cloud Marketplace verification approved, the service providers shall release the shop closing notice 30 days in advance at the service provider announcement office.
+
+Article 28 Service providers who voluntarily withdraw from the Cloud Marketplace should meet the agreed conditions in Instructions for the Cancellation of JD Cloud Account and JD Cloud Privacy Policy.
+
 
 Chapter 9 Supplementary Provisions
 
-Article 27 The Code shall enter into force on March 7, 2017.
+Article 29 The Code shall enter into force on January 1, 2019.
 
-Article 28 The behavior of the Marketplace service provider, which occurs on the date of the effective date of the Code or before the date of revision, shall be governed by the then-current rules; if it occurs on the effective date of the Code or after the date of revision, the Code shall apply.
+Article 30 The behavior of the Marketplace service provider, which occurs on the date of the effective date of the Code or before the date of revision, shall be governed by the then-current rules; if it occurs on the effective date of the Code or after the date of revision, the Code shall apply.
 
-Article 29 JD Cloud has the right to make corresponding revisions to the Management Specifications based on factors such as the market environment and the development status of the cooperative system of cooperative shops.
+Article 31 JD Cloud has the right to make corresponding revisions to the Management Specifications based on factors such as the market environment and the development status of the cooperative system of cooperative shops.
 
+
+<table class="tg">
+  <tr>
+    <th class="tg-c3ow">Violation Type</th>
+    <th class="tg-c3ow">Violation Content</th>
+    <th class="tg-c3ow">Score Deducting</th>
+    <th class="tg-c3ow">Processing Type</th>
+    <th class="tg-c3ow">Deposit Deduction</th>
+  </tr>
+  <tr>
+    <td class="tg-c3ow" rowspan="5">Violation of Code of Conduct</td>
+    <td class="tg-0pky">Without the authorization of JD Cloud or its affiliated companies, service providers use the names of "JD", "JD Cloud", "My Data Visualization Screen" or affiliated companies in their service identifiers, service titles, service introductions, service details, images or other page services, or any variant, acronym or misspelling of the ancillary logos and patterns of the said brands;</td>
+    <td class="tg-0pky">12</td>
+    <td class="tg-0pky">Service Freeze for 15 Days</td>
+    <td class="tg-0pky">RMB 5000</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">The service providers bribe the operators or implement other behaviors;</td>
+    <td class="tg-0pky">24</td>
+    <td class="tg-0pky">Cleared out</td>
+    <td class="tg-0pky">Deducted totally</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">For the behavior of service providers guiding customers of Cloud Marketplace to conduct offline transactions, it will adopt a zero-tolerance policy; once verified, relevant service providers will be cleared our immediately and the Cloud Marketplace business cooperation will be permanently terminated. (Except refunds of uncompleted items triggered by the termination cooperation by the service provider, merchandise removal, etc.) For more details, refer to Article 14 of Transaction Limit.</td>
+    <td class="tg-0pky">24</td>
+    <td class="tg-0pky">Cleared out</td>
+    <td class="tg-0pky">Deducted totally</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Providing services or commodities prohibited by the Cloud Marketplace. For details, see: Article 10  Commodity Putting on Shelve (7)</td>
+    <td class="tg-0pky">12</td>
+    <td class="tg-0pky">Service Freeze for 7 Days</td>
+    <td class="tg-0pky">RMB 3000</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">Selling, transferring, divulging to any third party, or otherwise illegally using JD Cloud 's business information and operation data, and/or user's personal information and related data. For details, see: Article 18 Code of Conduct (8)</td>
+    <td class="tg-c3ow">24</td>
+    <td class="tg-c3ow">Cleared out</td>
+    <td class="tg-c3ow">Deducted totally</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow" rowspan="4">Breach of Good Faith Management</td>
+    <td class="tg-0pky">Maliciously guiding the user to accept ahead of time when the service has not completed, which causes the user to complain;</td>
+    <td class="tg-c3ow">6</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">RMB 3000</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Causing a complaint to the user by committing a fraudulent act against the user and causing severe losses to the user;</td>
+    <td class="tg-c3ow">12</td>
+    <td class="tg-c3ow">Service Freeze for 15 Days</td>
+    <td class="tg-c3ow">RMB 5000</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Expressing to JD Cloud to revoke the complaint by passing off as the user when receiving complaints;</td>
+    <td class="tg-c3ow">6</td>
+    <td class="tg-c3ow">Service Freeze for 7 Days</td>
+    <td class="tg-c3ow">RMB 3000</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Making up facts, concealing the truth, hindering the normal investigation of JD Cloud after receiving the complaints;</td>
+    <td class="tg-c3ow">6</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">RMB 3000</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow" rowspan="11">Service or Commodity Violation</td>
+    <td class="tg-0pky">Behaviors of insulting, intimidating or threatening the user;</td>
+    <td class="tg-c3ow">12</td>
+    <td class="tg-c3ow">Service Freeze for 15 Days</td>
+    <td class="tg-c3ow">RMB 5000</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">The service provider fails to respond in time within 30 minutes when receiving complaints;</td>
+    <td class="tg-c3ow">3</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Shop customer service and telephone fail to provide real-time service within agreed service hours, or after-sales email and phone fail to respond promptly, resulting in user complaints or discovery by Cloud Marketplace through spot check</td>
+    <td class="tg-c3ow">3</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Refusing to fulfill the service commitments already confirmed by both parties, including, but not limited to, excessive commitments that have not been completed, causing complaints by the users;</td>
+    <td class="tg-c3ow">6</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">During the course of the service, the service provider conducting acts that endanger the security of the system, such as account privilege escalation, and install backdoors, etc.;</td>
+    <td class="tg-c3ow">24</td>
+    <td class="tg-c3ow">Cleared out</td>
+    <td class="tg-c3ow">Deducted totally</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">The commodities on the shelves contain Trojan horse, hacker programs, etc., which are detrimental to network security;</td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">The commodities on the shelves are possible to take personal or enterprise privacy information such as ID cards, email addresses, mobile phone numbers, bank accounts, and Alipay accounts;</td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">The service provider arbitrarily modifies the security configuration of the user’s cloud product, causing complaints by the users;</td>
+    <td class="tg-c3ow">12</td>
+    <td class="tg-c3ow">Service Freeze for 15 Days</td>
+    <td class="tg-c3ow">RMB 5000</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">The commodities on the shelves have a built-in sales transaction entry of goods/services that are not listed in the Cloud Marketplace. The renewal of the goods must be traded through the Cloud Marketplace;</td>
+    <td class="tg-c3ow">12</td>
+    <td class="tg-c3ow">Service Freeze for 15 Days</td>
+    <td class="tg-c3ow">RMB 5000</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">The commodities on the shelves have a built-in user management system and require users to re-register or fill in user information.</td>
+    <td class="tg-c3ow">12</td>
+    <td class="tg-c3ow">Service Freeze for 15 Days</td>
+    <td class="tg-c3ow">RMB 5000</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">The commodities on the shelves infringe third-party intellectual property rights or other legal rights;</td>
+    <td class="tg-c3ow">12</td>
+    <td class="tg-c3ow">Service Freeze for 15 Days</td>
+    <td class="tg-c3ow">-</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow" rowspan="2">Unfair Competition</td>
+    <td class="tg-0pky">Service provider increases the sales of commodities or services by means of sham transactions;</td>
+    <td class="tg-c3ow">3</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">The service provider conducts unfair competition by malicious comments, malicious complaints, defamation, fake orders, etc.;</td>
+    <td class="tg-c3ow">6</td>
+    <td class="tg-c3ow">Service Freeze for 7 Days</td>
+    <td class="tg-c3ow">-</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow" rowspan="3">Violation of Move-in Rules</td>
+    <td class="tg-0pky">Using false qualifications or false information to move-in the Cloud Marketplace;</td>
+    <td class="tg-c3ow">24</td>
+    <td class="tg-c3ow">Cleared out</td>
+    <td class="tg-c3ow">Deducted totally</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">The service provider fails to display the commodities on the shelves of the Cloud Marketplace on its official website; the product purchase entry fails to be linked to the corresponding commodity details page in the Cloud Marketplace, and fails indicate the cooperation relationship with JD Cloud;</td>
+    <td class="tg-c3ow">6</td>
+    <td class="tg-c3ow">-</td>
+    <td class="tg-c3ow">-</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Any commodity to be put on the Cloud Marketplace fails to run on the JD Cloud resources or fails to be packaged and sold with cloud products;</td>
+    <td class="tg-c3ow">6</td>
+    <td class="tg-c3ow">Service Freeze for 7 Days</td>
+    <td class="tg-c3ow">-</td>
+  </tr>
+</table>
+
+[Specifications for the Management of Service Provider in Cloud Marketplace-PDF Download](https://docs-downloads.oss.cn-north-1.jcloudcs.com/%25E4%25BA%2591%25E5%25B8%2582%25E5%259C%25BA%25E6%259C%258D%25E5%258A%25A1%25E5%2595%2586%25E7%25AE%25A1%25E7%2590%2586%25E8%25A7%2584%25E8%258C%2583-converted.pdf)

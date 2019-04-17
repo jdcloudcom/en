@@ -11,14 +11,14 @@ items:
         href: Introduction/Functional-Description.md
       - name: Application Scenarios 
         href: Introduction/Scene.md
-  - name: Pricing
+- name: Pricing
   items:
+    - name: Billing Overview
+      href: Pricing/Billing-Overview.md
+    - name: Price Description
+      href: Pricing/Price-Overview.md
     - name: Purchase Method
-      href: Pricing/Purchase-Method.md
-    - name: Purchase Process
       href: Pricing/Purchase-Process.md
-    - name: Price Overview
-      href: Pricing/Package-Details.md
 - name:  Quick Start
   items:
     - name: Add Preparation
@@ -27,9 +27,9 @@ items:
       href: Getting-Started/Step-1.md
     - name: Step 2 Release Back-to-origin IP
       href: Getting-Started/Step-2.md
-    - name: Step 3: Perform Local Verification
+    - name: Step 3 Perform Local Verification
       href: Getting-Started/Step-3.md 
-    - name: Step 4: Modify DNS Resolution
+    - name: Step 4 Modify DNS Resolution
       href: Getting-Started/Step-4.md
 - name: Operation Guide
   items:

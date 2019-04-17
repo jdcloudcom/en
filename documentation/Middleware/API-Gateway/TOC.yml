@@ -37,55 +37,55 @@ items:
   items:
     - name: Overview
       href: Getting-Started/Getting-Started.md
-    - name: Create API Groups
-      href: Getting-Started/STEP1-Create-APIGroup.md
-    - name: Create APIs
-      href: Getting-Started/STEP2-Create-API.md
-    - name: Customize Domain Names
-      href: Getting-Started/STEP3-1-Create-Domain.md
-    - name: Backend Signature
-      href: Getting-Started/STEP3-2-Create-BackSign.md
-    - name: Traffic Control Policy
-      href: Getting-Started/STEP3-3-Create-Stream.md
-    - name: Release API groups
-      href: Getting-Started/STEP4-Create-Publish.md  
-    - name: Access Authorization for API
-      href: Getting-Started/STEP5-Create-Auth.md
+    - name: Use examples to construct API in the console
+      href: Getting-Started/example_console.md
+    - name: Use Function to construct API
+      href: Getting-Started/example_function.md
+    - name: Build API using the method of subscription Key
+      herf: Getting-Started/example_subscriptionKey.md
 - name: Operation Guide
   items:
-    - name: Create API Group
+    - name: API Group Management
       items:
-        - name: Create API Group
-          href: Create-APIGroup/Create-APIGroup.md
-    - name: Create API
+        - name: Create an API group
+          href: Operation-Guide/Create-APIGroup/Create-APIGroup.md
+        - name: Release an API Group
+          href: Operation-Guide/Create-APIGroup/Create-Publish.md  
+        - name: Customized Domain
+          href: Operation-Guide/Create-APIGroup/Create-Domain.md  
+        - name: Access Monitoring
+          href: Operation-Guide/Create-APIGroup/Monitoring.md  
+        - name: Log Service
+          href: Operation-Guide/Create-APIGroup/Log-Service.md  
+    - name: API Management
       items:
         - name: Create API
-          href: Create-API/Create-API.md
-    - name: Access Authorization for API
+          href: Operation-Guide/Create-API/Create-API.md
+        - name: API Advanced Configuration
+          href: Operation-Guide/Create-API/Adv-API.md
+    - name: Access Authorization
       items:
         - name: Access Authorization for API
-          href: Create-Auth/Create-Auth.md  
+          href: Operation-Guide/Create-Auth/Create-Auth.md  
     - name: Backend Signature
       items:
         - name: Backend Signature
-          href: Create-BackSign/Create-BackSign.md  
+          href: Operation-Guide/Create-BackSign/Create-BackSign.md        
     - name: Customize Domain Names
       items:
-        - name: Customize Domain Names
-          href: Create-Domain/Create-Domain.md  
-    - name: Release API groups
-      items:
-        - name: Release API groups
-          href: Create-Publish/Create-Publish.md  
-    - name: Traffic Control Policy
-      items:
         - name: Traffic Control Policy
-          href: Create-Stream/Create-Stream.md  
-    
+          href: Operation-Guide/Create-Stream/Create-Stream.md  
+    - name: Debug
+      items:
+        - name: Debugging API
+          href: Operation-Guide/Code/TestAPI.md        
+        - name:  Error Code
+          href: Operation-Guide/Code/API_Errorcode.md
 - name: Best Practices
   items:
   - name: Best Practices
     href: Best-Practices/BestPractices.md
+
 - name: FAQ
   href: FAQ/faq.md
 - name: Related Resources

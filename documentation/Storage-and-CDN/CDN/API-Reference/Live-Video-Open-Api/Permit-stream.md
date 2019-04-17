@@ -1,19 +1,19 @@
-# Quit Blocked Streaming
+# **Quit Blocked Streaming**
 
-## 1  Description
+## **1  Description**
 
 Quit Blocked Streaming, this streamer is permitted to push streaming again (permitStream)
 
-## 2 Request Parameter
+## **2. Request Parameter**
 
 | Name      | Type   | Compulsory or Not | Description                                                         |
 | ------------- | ------ | -------- | ------------------------------------------------------------ |
 | username      | String | Yes       | JD user name pin                                                |
-| signature     | String | Yes       | User signature, verify user's identity information through md5 method to ensure information security.  md5=Date+username+secret key SecretKey date: format is yyyymmddusername: JD user name pin secret key: example agreed between the Parties: such as current date 2016-10-23, user pin:   jcloud_00, user secret key SecretKey: e7a31b1c5ea0efa9aa2f29c6559f7d61, then the signature is MD5(20161023jcloud_00e7a31b1c5ea0efa9aa2f29c6559f7d61) |
+| signature     | String | Yes      | User Signature, verify user's identity information through md5 method to ensure information security.</br> md5=date+username+secret key SecretKey; date: format is yyyymmdd; username: JD user name pin secret key: agreed between the Parties;</br> example: such as current date 2016-10-23, user pin: jcloud_00, user secret key SecretKey: e7a31b1c5ea0efa9aa2f29c6559f7d61, then the signature is MD5(20161023jcloud_00e7a31b1c5ea0efa9aa2f29c6559f7d61) |
 | domain        | String | Yes       | Blocked streaming domain name, only support single domain name currently                                   |
 | deleteStreams | Array  | Yes       | Unblocked stream name, need to specify the app where the stream name is on, take an example as below: "[{‘app’:‘App1’,‘stream’:‘stream1’},{‘app’:‘App2’,‘stream’:‘stream2’}]" |
 
-## 3 Return Parameter
+## **3. Return Parameter**
 
 | **Name** | **Description**                                        |
 | -------- | ----------------------------------------------- |
@@ -21,15 +21,15 @@ Quit Blocked Streaming, this streamer is permitted to push streaming again (perm
 | msg      | Note Information                                        |
 | data     | Domain Name                                            |
 
-## 4  Call Example
+## **4. Call Example**
 
-- ###    Request Address
+- ### **Request Address**
 
-http://opencdn.jcloud.com/api/live/permitStream
+https://opencdn.jcloud.com/api/live/permitStream
 
-- ### Request Example
+- ### **Request Example**
 
-http://opencdn.jcloud.com/api/live/permitStream
+https://opencdn.jcloud.com/api/live/permitStream
 
 ```
 {
@@ -41,9 +41,9 @@ http://opencdn.jcloud.com/api/live/permitStream
 ```
  
 
-- ###  Return Example
+- ###  **Return Example**
 
-* Json Format
+* json Format
 ```
 {
   "status": 0,

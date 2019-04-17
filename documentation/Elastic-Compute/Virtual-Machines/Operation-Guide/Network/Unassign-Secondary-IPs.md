@@ -10,7 +10,7 @@
 
 		Note: Note: The primary private IP does not support for release. When the secondary private IP is released, the elastic IP shall be disassociated automatically. If you need to delete the elastic IP, please go to the elastic IP list page.
 
-In addition, you can also release from the elastic network interface console. For details, see [Elastic Network Interface Side Release Secondary IP](../../../../Networking/Elastic-Network-Interface/Operation-Guide/ Private-IP-Management/Unassign-Secondary-IP.md).
+In addition, you can also release from the elastic network interface console. For details, see [Elastic Network Interface Side Release Secondary IP](../../../../Networking/Elastic-Network-Interface/Operation-Guide/Private-IP-Management/Unassign-Secondary-IP.md).
 
 
 ## Related Reference

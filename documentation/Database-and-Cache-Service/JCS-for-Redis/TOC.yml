@@ -45,6 +45,8 @@
         href: Getting-Started/Getting-Started-Overview.md
   - name: Operation Guide
     items:
+      - name: Account for Login
+        href: Operation-Guide/Login.md
       - name: Instance Management
         items:
           - name: Change Configuration
@@ -55,16 +57,18 @@
             href: Operation-Guide/Instance-Management/Modify-Instancename.md      
           - name: Release Instance
             href: Operation-Guide/Instance-Management/Release-Instance.md
-      - name: Login with Account
-        items:
-          - name: Account for Login
-            href: Operation-Guide/Login/Login.md
+      - name: Backup Recovery
+        href: Operation-Guide/Backup-And-Recovery.md
+      - name: Parameter Modification
+        href: Operation-Guide/Parameter-Modification.md
       - name: Monitoring Alarm
         items:
           - name: View Monitoring Information
             href: Operation-Guide/Monitoring/Monitoring.md
           - name: Set Alarm Rules
-            href: Operation-Guide/Monitoring/Alarm-Rules.md              
+            href: Operation-Guide/Monitoring/Alarm-Rules.md   
+      - name: Data Migration
+        href: Operation-Guide/Data-Migration.md   
   - name: Best Practices
     items:
     - name: C/C++ Connect JCS for Redis Instance

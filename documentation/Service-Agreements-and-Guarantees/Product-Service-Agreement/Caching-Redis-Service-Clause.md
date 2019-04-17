@@ -1,10 +1,10 @@
-**The Service Terms is the valid agreement between the owner of the JD Cloud website (referred to in this Agreement as "JD Cloud" website: www.jdcloud.com) and you on matters relating to Redis of JD Cloud. By stamping, clicking to confirm on the web page, or other ways to accept the Service Terms, including but not limited to the actual use of Redis service of JD Cloud without clicking to confirm the Service Terms, you have reached an agreement with JD Cloud and agreed to accept all agreed contents of the Service Terms. In case of any inconsistency between the text stamped by both parties and the text of Service Terms accepted and confirmed by clicking the web page or other ways, the text stamped by both parties shall prevail.**
+**The Service Terms is the valid agreement between the owner of the JD Cloud website (referred to in this Agreement as "JD Cloud" website: www.jdcloud.com) and you on matters relating to JCS for Redis of JD Cloud. By stamping, clicking to confirm on the web page, or other ways to accept the Service Terms, including but not limited to the actual use of JCS for Redis service of JD Cloud without clicking to confirm the Service Terms, you have reached an agreement with JD Cloud and agreed to accept all agreed contents of the Service Terms. In case of any inconsistency between the text stamped by both parties and the text of Service Terms accepted and confirmed by clicking the web page or other ways, the text stamped by both parties shall prevail.**
 
 **For the Service Terms, you are reminded to pay special attention to the restriction and exemption terms, determination and handling terms of JD Cloud on your violations and breach of contract, and the selection terms of jurisdictional courts. Restriction and exemption terms may be indicated in bold or by underline for your attention. You should carefully read the entire contents of the Service Terms before accepting the Service Terms. If you have any questions about the Service Terms, please contact the relevant business department of JD Cloud and JD Cloud will explain the terms to you. If you do not agree on any of the contents of the Service Terms, or cannot accurately understand the interpretation of these terms made by JD Cloud, please do not continue the operation.**
 
 ## 1. Service Content
 
-1.1 "Service" in the terms refers to the live Redis service and related technical and network support services that JD Cloud provides to you at www.jdcloud.com.
+1.1 "Service" in the terms refers to the live JCS for Redis service and related technical and network support services that JD Cloud provides to you at [www.jdcloud.com](https://www.jdcloud.com/).
 
 ​1.2. The service provided by JD Cloud must comply with the provisions of the Service Terms.
 
@@ -22,7 +22,7 @@
 
 2.2.2 Pay-As-You-Go
 
-You can select the pay-as-you-go mode. Please refer to the announcement at www.jdcloud.com for the specific deduction rules and the existing valid billing model and standards for pay-as-you-go service published on the page shall prevail.
+You can select the pay-as-you-go mode. Please refer to the announcement at [www.jdcloud.com](https://www.jdcloud.com/) for the specific deduction rules and the existing valid billing model and standards for pay-as-you-go service published on the page shall prevail.
 
 2.3 JD Cloud reserves the right not to provide you with service and/or technical support or to terminate the service and/or technical support until you have paid the full fee as agreed. And JD Cloud also reserves the right to pursue legal responsibilities for the arrears in pay-as-you-go services.
 
@@ -34,13 +34,13 @@ You can select the pay-as-you-go mode. Please refer to the announcement at www.j
 
 3.1 Your Rights and Obligations
 
-3.1.1 You agree to abide by the Service Terms and the relevant management regulations and procedures provided on the service display page. You understand that the above agreements and regulations may change from time to time. If any content of the Service Terms is changed, JD Cloud shall prompt you the modification by making announcement on the appropriate page in advance at www.jdcloud.com. If you disagree with the changes in provisions of the Service Terms made by JD Cloud, you have the right to stop using the services of JD Cloud. In this case, JD Cloud shall settle the service fee (if any) with you, and you shall move out the business data. If you continue to use services of JD Cloud, you are deemed to have accepted the modifications made by JD Cloud to Service Terms.
+3.1.1 You agree to abide by the Service Terms and the relevant management regulations and procedures provided on the service display page. You understand that the above agreements and regulations may change from time to time. If any content of the Service Terms is changed, JD Cloud shall prompt you the modification by making announcement on the appropriate page in advance at [www.jdcloud.com](https://www.jdcloud.com/). If you disagree with the changes in provisions of the Service Terms made by JD Cloud, you have the right to stop using the services of JD Cloud. In this case, JD Cloud shall settle the service fee (if any) with you, and you shall move out the business data. If you continue to use services of JD Cloud, you are deemed to have accepted the modifications made by JD Cloud to Service Terms.
 
 3.1.2 You shall pay the corresponding service fee according to the instructions of JD Cloud on the page and the provisions of the Service Terms.
 
 3.1.3 You promise:
 
-3.1.3.1 If you use the services provided by JD Cloud to conduct operating activities that require the license or approval of the relevant national authorities, you shall obtain the relevant license or approval. It includes but not limited to that: If your website uses the Redis service to store data, you must ensure that your website is licensed or approved by the relevant national authorities;	If your website provides non-operating Internet information services, you must fill the non-operating website on the record, and ensure that all the filling information submitted is true and effective, and submit the updated information in the filing system in a timely manner when the filing information changes; If your website provides operating Internet information services, you shall also obtain a license for the operating website at your local communications administration; If you operate an Internet game website, you shall obtain an Internet culture business license according to laws; If you operate an Internet audio/video website, you shall obtain a license for the information network communication and audiovisual programs according to laws; If you are engaged in Internet information services such as news, publishing, education, medical care, medicines and medical devices, the review and approval of the competent authorities shall be obtained when required by laws, administrative regulations and relevant national regulations, before applying for a business license or performing the filing procedures.
+3.1.3.1 If you use the services provided by JD Cloud to conduct operating activities that require the license or approval of the relevant national authorities, you shall obtain the relevant license or approval. It includes but not limited to that: If your website uses the JCS for Redis service to store data, you must ensure that your website is licensed or approved by the relevant national authorities;	If your website provides non-operating Internet information services, you must fill the non-operating website on the record, and ensure that all the filling information submitted is true and effective, and submit the updated information in the filing system in a timely manner when the filing information changes; If your website provides operating Internet information services, you shall also obtain a license for the operating website at your local communications administration; If you operate an Internet game website, you shall obtain an Internet culture business license according to laws; If you operate an Internet audio/video website, you shall obtain a license for the information network communication and audiovisual programs according to laws; If you are engaged in Internet information services such as news, publishing, education, medical care, medicines and medical devices, the review and approval of the competent authorities shall be obtained when required by laws, administrative regulations and relevant national regulations, before applying for a business license or performing the filing procedures.
 
 You understand and acknowledge that the above list does not cover all types of licenses or approvals required from the relevant national authorities for your operating or non-operating activities. You shall obtain the relevant license or approval, and shall comply with the requirements of relevant laws and regulations issued by the state and local governments from time to time.
 
@@ -50,7 +50,7 @@ You understand and acknowledge that the above list does not cover all types of l
 
 3.1.3.4 Do not intersperse Email Ads or SPAMs: Do not use the services provided by JD Cloud to intersperse a large number of undesired or uncalled emails, electronic advertising or emails containing reactionary information, pornographic information or other harmful information;
 
-3.1.3.5 The Redis provided by JD Cloud shall not be used as disk space for rent;
+3.1.3.5 The JCS for Redis provided by JD Cloud shall not be used as disk space for rent;
 
 3.1.3.6 Do not use the resources and services provided by JD Cloud to upload, download, store, and release the following information or contents and do not provide any convenience for others to release such information (including but not limited to setting URL, BANNER links, etc.):
 
@@ -88,7 +88,7 @@ You understand and acknowledge that the above list does not cover all types of l
 
 3.1.7 In view of limitation of the existing technology development level in this industry, you understand that JD Cloud cannot guarantee that the services it provides are flawless (for example, security products of JD Cloud cannot guarantee the absolute security of your hardware or software), but it promises to improve the service quality and service levels continuously. Therefore, you agree even if the services provided by JD Cloud have defects, the above-mentioned defects are unavoidable due to the technical level in the industry at the time, and it will not be regarded as JD Cloud's default. You agree to cooperate with JD Cloud to solve the above problems.
 
-3.1.8 Data backup is your obligation and responsibility. Although JD Cloud's Redis may be configured with tools for daily data backup, it does not mean that data backup is the responsibility of JD Cloud. JD Cloud does not guarantee full backup of user data, nor does it assume any responsibility for user data backup work or results.
+3.1.8 Data backup is your obligation and responsibility. Although JD Cloud's JCS for Redis may be configured with tools for daily data backup, it does not mean that data backup is the responsibility of JD Cloud. JD Cloud does not guarantee full backup of user data, nor does it assume any responsibility for user data backup work or results.
 
 3.2 Rights and Obligations of JD Cloud
 
@@ -100,7 +100,7 @@ You understand and acknowledge that the above list does not cover all types of l
 
 3.2.2.2 JD Cloud provides a 7×24h online open ticket service system to answer customer questions.
 
-3.2.3 JD Cloud is only responsible for the operation and maintenance of the software provided by itself, that is, the relevant technical architecture and operating system for Redis. You are responsible for the other parts except for Redis.
+3.2.3 JD Cloud is only responsible for the operation and maintenance of the software provided by itself, that is, the relevant technical architecture and operating system for JCS for Redis. You are responsible for the other parts except for JCS for Redis.
 
 3.2.4 JD Cloud will clear the faults caused by non-human factors, except for your reasons and/or force majeure as well as matters excluded in the control scope of JD Cloud.
 
@@ -142,7 +142,7 @@ You understand and acknowledge that the above list does not cover all types of l
 
 ## 7. Term and Termination
 
-7.1 The service period is calculated from the date the Redis is created successfully (not from the date you obtain the password for the Redis) and confirmed based on the amount of money you have paid.
+7.1 The service period is calculated from the date the JCS for Redis is created successfully (not from the date you obtain the password for the JCS for Redis) and confirmed based on the amount of money you have paid.
 
 7.2 The service term shall be terminated in advance in the following circumstances:
 
@@ -152,13 +152,13 @@ You understand and acknowledge that the above list does not cover all types of l
 
 7.2.3 If you choose a pay-as-you-go service, you should keep your account balance sufficient to ensure continued use of the service. If you fail to fulfill your payment obligations as agreed, JD Cloud will suspend or terminate the service as follows:
 
-7.2.3.1 You can continue to use the Redis service of JD Cloud for 24h from the first arrears; if, 24h later, you still fail to recharge it successfully or the account balance is still not enough to pay the service fees owed, JD Cloud will suspend the service and freeze the operation of the Redis under your account, but still store your data and continue to bill;
+7.2.3.1 You can continue to use the JCS for Redis service of JD Cloud for 24h from the first arrears; if, 24h later, you still fail to recharge it successfully or the account balance is still not enough to pay the service fees owed, JD Cloud will suspend the service and freeze the operation of the JCS for Redis under your account, but still store your data and continue to bill;
 
 7.2.3.2 If you have not recharged successfully and the account balance is insufficient to cover the service fees owed at the expiration time of the 7th day after the service from JD Cloud is suspended (from the time when the suspension of the service is suspended to the expiration of the same time on the 7th day), JD Cloud will terminate the Service Terms and stop providing services for you. Meanwhile, all the data you have saved in JD Cloud will be deleted and cleared and will never be recovered.
 
 7.2.4 You understand and fully accept that although JD Cloud has established necessary technical measures to protect against matters or behaviors (collectively referred to as such behaviors) endangering the network security including computer viruses, network intrusion and attack damage (including but not limited to DDOS) (and will continue to improve based on the development of technology), in consideration of the limitations and relativity of network security techniques and the unpredictability of such behaviors, if you encounter such behaviors and this causes harm to JD Cloud or other networks or servers (including but not limited to local, non-local and international networks, servers, etc.) of JD Cloud, or affects the smooth contact between JD Cloud and international Internet or JD Cloud and specific network/server or internal smooth contact of JD Cloud, JD Cloud may decide to suspend or terminate the service. If the service is terminated, the service fee will be calculated based on the actual service time provided, and you will still be responsible for the service fee (if any) that you have not paid. If you choose the pay-in-advance service (monthly package), after you complete the order payment, JD Cloud will provide the corresponding services. The order cannot be canceled after the payment is completed, and unless stipulated according to laws and regulations or otherwise agreed, fees you have paid will not be refunded in any form.
 
-7.2.5 JD Cloud may terminate the Service Terms in advance by announcing at www.jdcloud.com or notifying you through website or sending you a written notice. At that time, JD Cloud shall refund the amount you have paid but not spent to your JD Cloud account.
+7.2.5 JD Cloud may terminate the Service Terms in advance by announcing at [www.jdcloud.com](https://www.jdcloud.com/) or notifying you through website or sending you a written notice. At that time, JD Cloud shall refund the amount you have paid but not spent to your JD Cloud account.
 
 ## 8. Liability for Breach of Contract
 
@@ -188,8 +188,8 @@ You understand and acknowledge that the above list does not cover all types of l
 
 ## 11. Supplementary
 
-11.1 The service description and price description of JD Cloud on relevant pages of www.jdcloud.com and on the order page agreed by you are an integral part of the Service Terms. If the service description and price description of JD Cloud on relevant pages of www.jdcloud.com and the order page agreed by you are inconsistent with the Service Terms, the Service Terms shall prevail.
+11.1 The service description and price description of JD Cloud on relevant pages of [www.jdcloud.com](https://www.jdcloud.com/) and on the order page agreed by you are an integral part of the Service Terms. If the service description and price description of JD Cloud on relevant pages of [www.jdcloud.com](https://www.jdcloud.com/) and the order page agreed by you are inconsistent with the Service Terms, the Service Terms shall prevail.
 
-11.2 JD Cloud is entitled to, by announcing at www.jdcloud.com or notifying you through website or in writing, transfer all or part of the rights and obligations under the Service Terms to JD's affiliates.
+11.2 JD Cloud is entitled to, by announcing at [www.jdcloud.com](https://www.jdcloud.com/) or notifying you through website or in writing, transfer all or part of the rights and obligations under the Service Terms to JD's affiliates.
 
 11.3 If any provisions should remain in existence in nature or otherwise at the termination of this Agreement, they shall be deemed to be continuing terms, including but not limited to terms of warranty, confidentiality, intellectual property, governing law and dispute resolution.

@@ -27,7 +27,6 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/routeTables/{routeTableId}:ass
 |**requestId**|String|Request ID|
 
 
-
 ## Response code
 |Return code|Description|
 |---|---|

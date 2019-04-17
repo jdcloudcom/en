@@ -1,4 +1,5 @@
-# Data Migration Tool
+# Data Migration Tool (Not Recommended)
+### The migration tool of this version will no longer be maintained. It is recommended that you use the new version migration tool, [Go to new version Osstransfer](./Migration-Tool.md)
 
 ## Overview
 

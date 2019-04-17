@@ -8,6 +8,6 @@ At present, the command line tool is provided by the Native Container Instance a
 You may create the Native Container Instance or the Native Container Pod by using the Docker image supporting the SSH function and log in the container instance via the SSH method. For [How to Make and Support SSH function Image][3], please refer to the Help Center.
 
 
-  [1]: https://docs.jdcloud.com/cn/cli/introduction
-  [2]: https://docs.jdcloud.com/cn/cli/usage
-  [3]: https://docs.jdcloud.com/cn/native-container/create-ssh-image
+  [1]: https://docs.jdcloud.com/en/cli/introduction
+  [2]: https://docs.jdcloud.com/en/cli/usage
+  [3]: https://docs.jdcloud.com/en/native-container/create-ssh-image

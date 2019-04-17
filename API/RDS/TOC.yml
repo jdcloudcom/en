@@ -44,6 +44,11 @@
             herf: Audit-Management/enableAudit.md
           - name: modifyAudit
             herf: Audit-Management/modifyAudit.md
+
+      - name: Availability Zone Management
+        items:
+          - name: describeAzs
+            herf: AvailabilityZones/describeAzs.md
             
       - name: Backup Management
         items:
@@ -62,9 +67,13 @@
             herf: Binlog/describeBinlogDownloadURL.md
           - name: describeBinlogs
             herf: Binlog/describeBinlogs.md
+          - name: clearBinlogs
+            herf: Binlog/clearBinlogs.md
 
       - name: Cloud on Single Database
         items:
+          - name: deleteImportFile
+            herf: Cloud-on-Single-Database/deleteImportFile.md
           - name: describeImportFiles
             herf: Cloud-on-Single-Database/describeImportFiles.md
           - name: getUploadKey
@@ -117,10 +126,14 @@
             herf: Instance-Management/describeInstanceAttributes.md
           - name: describeInstances
             herf: Instance-Management/describeInstances.md
+          - name: describeLatestRestoreTime
+            herf: Instance-Management/describeLatestRestoreTime.md
           - name: disableInternetAccess
             href: Instance-Management/disableInternetAccess.md
           - name: enableInternetAccess
             href: Instance-Management/enableInternetAccess.md
+          - name: exchangeInstanceDns
+            href: Instance-Management/exchangeInstanceDns.md
           - name: failoverInstance
             herf: Instance-Management/failoverInstance.md
           - name: modifyBackupPolicy
@@ -131,13 +144,45 @@
             herf: Instance-Management/modifyInstanceName.md
           - name: modifyInstanceSpec
             herf: Instance-Management/modifyInstanceSpec.md
+          - name: modifyParameterGroup
+            herf: Instance-Management/modifyParameterGroup.md
           - name: rebootInstance
             herf: Instance-Management/rebootInstance.md
           - name: restoreInstance
             herf: Instance-Management/restoreInstance.md
+
+      - name: Parameter Set Management
+        items:
+          - name: copyParameterGroup
+            herf: Parameter-Group/copyParameterGroup.md
+          - name: createParameterGroup
+            herf: Parameter-Group/createParameterGroup.md
+          - name: deleteParameterGroup
+            herf: Parameter-Group/deleteParameterGroup.md
+          - name: describeParameterGroupAttachedInstances
+            herf: Parameter-Group/describeParameterGroupAttachedInstances.md
+          - name: describeParameterGroupParameters
+            herf: Parameter-Group/describeParameterGroupParameters.md
+          - name: describeParameterGroups
+            herf: Parameter-Group/describeParameterGroups.md
+          - name: describeParameterModifyRecords
+            herf: Parameter-Group/describeParameterModifyRecords.md
+          - name: modifyParameterGroupAttribute
+            herf: Parameter-Group/modifyParameterGroupAttribute.md
+          - name: modifyParameterGroupParameters
+            herf: Parameter-Group/modifyParameterGroupParameters.md
+
+      - name: Parameter Management
+        items:
+          - name: describeParameters
+            herf: Parameters/describeParameters.md
+          - name: modifyParameters
+            herf: Parameters/modifyParameters.md
      
       - name: Performance Statistics
         items:
+          - name: describeActiveQueryPerformance
+            herf: Performance-Statistics/describeActiveQueryPerformance.md
           - name: describeIndexPerformance
             herf: Performance-Statistics/describeIndexPerformance.md
           - name: describeQueryPerformance
@@ -146,6 +191,17 @@
             herf: Performance-Statistics/describeSlowLogAttributes.md
           - name: describeSlowLogs
             herf: Performance-Statistics/describeSlowLogs.md
+
+      - name: SQL   Interception
+        items:
+          - name: describeIntercept
+            herf: SQL-Interception/describeIntercept.md
+          - name: describeInterceptResult
+            herf: SQL-Interception/describeInterceptResult.md
+          - name: disableIntercept
+            herf: SQL-Interception/disableIntercept.md
+          - name: enableIntercept
+            herf: SQL-Interception/enableIntercept.md
             
       - name: White List
         items:
@@ -158,8 +214,12 @@
     items:
       - name: MySQL Instance Specifications
         href: Instance-Specifications/Instance-Specifications-MySQL.md
+      - name: Percona Instance Type
+        href: Instance-Specifications/Instance-Specifications-Percona.md
+      - name: MariaDB Instance Type
+        href: Instance-Specifications/Instance-Specifications-MariaDB.md
       - name: SQL Server Instance Specifications
-        href: Instance-Specifications/Instance-Specifications-MySQL.md
+        href: Instance-Specifications/Instance-Specifications-SQLServer.md
 
   - name: Enum Instructions
     items:

@@ -1,0 +1,96 @@
+name: Resource Orchestration
+href: 
+items:
+- name: Introduction
+  items:
+    - name: Product Overview
+      href: Introduction/Product-overview.md
+    - name: Core Concepts
+      href: Introduction/Core-Concepts.md
+    - name: Benefits
+      href: Introduction/Benefits.md
+    - name: Features
+      href: Introduction/Features.md
+    - name: Restrictions
+      href: Introduction/Restrictions.md      
+    - name: Application Scenarios 
+      items:
+        - name: Multiplex of Cross-region Template
+          href: Introduction/Cross-regional-replication.md
+        - name: Rapid Replication of Multiple Environments
+          href: Introduction/Fast-Clone.md
+        - name: One-Key Cloud Access of Application
+          href: Introduction/Application-Cloud.md 
+- name: Product Pricing
+  items:
+    - name: Billing Overview
+      href: Pricing/Billing-Overview.md
+- name: Getting Started
+  items:
+    - name: Getting Started Overview
+      href: Getting-Started/jdro-start.md
+- name: Operation Guide
+  items:
+    - name: Orchestration Template
+      items:
+        - name: Structure Specification of Orchestration Template
+          href: Operation-Guide/orchestration-templates/templates-structure.md
+        - name: Basic Syntax Clarification of Orchestration Template-Parameters
+          href: Operation-Guide/orchestration-templates/templates-grammar-Parameters.md
+        - name: Basic Syntax Clarification of Orchestration Template-Mappings
+          href: Operation-Guide/orchestration-templates/templates-grammar-Mappings.md
+        - name: Basic Syntax Clarification of Orchestration Template-Conditions
+          href: Operation-Guide/orchestration-templates/templates-grammar-Conditions.md
+        - name: Basic Syntax Clarification of Orchestration Template-Functions
+          href: Operation-Guide/orchestration-templates/templates-grammar-Functions.md
+        - name: Basic Syntax Clarification of Orchestration Template-Pseudo Parameters
+          href: Operation-Guide/orchestration-templates/templates-grammar-Pseudo.md       
+        - name: Basic Syntax Clarification of Orchestration Template-Resources
+          href: Operation-Guide/orchestration-templates/templates-grammar-Resources.md
+        - name: Basic Syntax Clarification of Orchestration Template-Outputs
+          href: Operation-Guide/orchestration-templates/templates-grammar-Outputs.md
+    - name: Resource Stack Management
+      items:
+        - name: Overview
+          href: Operation-Guide/Resource-Stack/stack-management.md  
+        - name: View Resource Stack
+          href: Operation-Guide/Resource-Stack/view-stack.md
+        - name: Create Resource Stack
+          href: Operation-Guide/Resource-Stack/create-stack.md
+        - name: Update Resource Stack
+          href: Operation-Guide/Resource-Stack/update-stack.md 
+        - name: Delete Resource Stack
+          href: Operation-Guide/Resource-Stack/delete-stack.md       
+    - name: Resource Type
+      items:
+        - name: Resource Type Specification
+          href: Operation-Guide/resource-type.md      
+- name: Best Practices
+  items:
+    - name: Create a VPC and subnet
+      href: Best-Practices/vpc_subnet.md
+    - name: Create a VPC and create a Virtual Machine and additionally mount a storage hard disk under this network environment
+      href: Best-Practices/vm_vpc_instance.md
+    - name: Create a VPC and create a database example under this network environment
+      href: Best-Practices/rds_instance.md
+    - name: Create a single-node WordPress application
+      href: Best-Practices/wordpress_with_single.md
+    - name: Create a WordPress application of cluster mode
+      href: Best-Practices/wordpress_with_cluster.md
+    - name: Create a Nodejs Web development and test environment
+      href: Best-Practices/nodejs_web_instance.md
+- name: Troubleshooting
+  items:
+    - name: Configuration Questions
+      href: Troubleshooting/Configuration-problem.md
+    - name: Fault Questions
+      href: Troubleshooting/Fault-problem.md
+- name: FAQ
+  href: FAQ/FAQ.md
+- name: Related Resources
+  items:
+    - name: Document History Records
+      href: Related-Resources/Document-history.md
+    - name: Glossary
+      href: Related-Resources/vocabulary.md 
+

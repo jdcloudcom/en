@@ -7,18 +7,18 @@ The Kubernetes command-line client kubectl may allow you to connect from the cli
 
 ## 1. kubectl version 
 
-The kubectl version can be the same as the cluster version, or the cluster version +1. When the cluster version is 1.8.12, the recommended download version of Kubectl is 1.8.12;
+The kubectl version can be the same as the cluster version, or the cluster version +1. When the cluster version is 1.12.3, the recommended download version of Kubectl is 1.12.3;
 
 ## 2. Install and set the kubectl client
 
-Open the [Kubernetes Version Page](https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG-1.8.md), find the client binaries (aka kubectl), select the client for the corresponding operating system, and then copy the link address.
+Open the [Kubernetes Version Page](https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG-1.12.md), find the client binaries (aka kubectl), select the client for the corresponding operating system, and then copy the link address.
 
-For example, select kubectl version 1.8.12 with the link address of https://dl.k8s.io/v1.8.12/kubernetes-client-linux-amd64.tar.gz ：
+Example, select kubectl version 1.12.3 under Centos 7.4 64-bit system with the link address of https://dl.k8s.io/v1.12.3/kubernetes-client-linux-amd64.tar.gz;
 
-Execute the following commands under Centos 7.4 64-bit system:
+Execute the following commands:
 
 ```
-wget https://dl.k8s.io/v1.8.12/kubernetes-client-linux-amd64.tar.gz
+wget https://dl.k8s.io/v1.12.3/kubernetes-client-linux-amd64.tar.gz
 tar -zxvf kubernetes-client-linux-amd64.tar.gz
 cd kubernetes/client/bin
 chmod +x ./kubectl
@@ -39,6 +39,6 @@ Completing evidence saving and executing commands below for verification:
 `kubectl version`  
 The following contents mean that the configuration is successful.  
 ```
-Client Version: version.Info{Major:"1", Minor:"8", GitVersion:"v1.8.12", GitCommit:"5d26aba6949f188fde1af4875661e038f538f2c6", GitTreeState:"clean", BuildDate:"2018-04-23T23:17:12Z", GoVersion:"go1.8.3", Compiler:"gc", Platform:"linux/amd64"}
-Server Version: version.Info{Major:"1", Minor:"8+", GitVersion:"v1.8.12-249.9d2635d", GitCommit:"9d2635d891e745a24d6863cd61b0767575a5e79c", GitTreeState:"", BuildDate:"2018-07-23T10:39:25Z", GoVersion:"go1.8.3", Compiler:"gc", Platform:"linux/amd64"}
+Client Version: version.Info{Major:"1", Minor:"12", GitVersion:"v1.12.3", GitCommit:"5d26aba6949f188fde1af4875661e038f538f2c6", GitTreeState:"clean", BuildDate:"2018-04-23T23:17:12Z", GoVersion:"go1.12.3", Compiler:"gc", Platform:"linux/amd64"}
+Server Version: version.Info{Major:"1", Minor:"12+", GitVersion:"v1.12.3-23.56f6f14",GitCommit:"9d2635d891e745a24d6863cd61b0767575a5e79c", GitTreeState:"", BuildDate:"2018-07-23T10:39:25Z", GoVersion:"go1.12.3", Compiler:"gc", Platform:"linux/amd64"}
 ```

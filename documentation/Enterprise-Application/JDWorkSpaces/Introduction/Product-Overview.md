@@ -1,0 +1,2 @@
+## Product Overview
+The JD WorkSpaces is a secure and convenient cloud-based virtual Windows desktop service provided by JD Cloud. Users can access the office environment anytime and anywhere without purchasing, deploying, operating and maintaining physical infrastructure. WorkSpace provides users with superior experience by creating a safer and more convenient IT office system boosting high performance, low cost, and high efficiency."

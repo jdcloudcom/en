@@ -26,13 +26,13 @@ If you want to use the PING command to check whether the VM public network/intra
 
 | Rule Direction | Type | Protocol | Destination Port | Source IP | Strategy |
 | -------- | ---- | ---- | -------- | --------- | ---- |
-| Inbound     | PING | ICMP | -        | 0.0.0.0/0 | Accept |
+| Inbound     | PING | ICMP |         | 0.0.0.0/0 | Accept |
 
 
 
 ### Allow VM to provide Web services*
 
-If you want to create a VM providing external Web services, you can configure the following inbound rules to implement basic Web services on HTTP or HTTPS.
+If you want to create a VM providing external Web services, you can configure the following inbound rules to implement basic Web services on HTTP or HTTPS
 
 | Rule Direction | Type | Protocol | Destination Port | Source IP | Strategy |
 | -------- | ----- | ---- | -------- | --------- | ---- |
@@ -41,7 +41,7 @@ If you want to create a VM providing external Web services, you can configure th
 
 ### **Allow VM to provide DNS service** 
 
-If you want to create a VM providing the DNS service, you can configure the inbound rule as follows:
+If you want to create a VM providing the DNS service, you can configure the inbound rule as follows
 
 | Rule Direction | Type | Protocol | Destination Port | Source IP | Strategy |
 | -------- | ---------- | ---- | -------- | --------- | ---- |
@@ -71,4 +71,4 @@ If you have created a Windows VM with a SQL Server database, you can allow other
 | -------- | --------- | ---- | -------- | --------- | ---- |
 | Inbound     | Customized TCP  | TCP  | 1433     | 0.0.0.0/0 | Accept |
 
-`If you want to limit the IP addresses of the access service, you can fill in the explicit IP addresses or network segment at the source IP column. If there are multiple IP addresses, you can add multiple rules to achieve.`
+`If you want to limit the IP addresses of the access service, you can fill in the explicit IP addresses or network segment at the source IP column. If there are multiple IP addresses, you can add multiple rules to achieve`

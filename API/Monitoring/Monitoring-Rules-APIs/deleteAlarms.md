@@ -2,34 +2,32 @@
 
 
 ## Description
-Delete alarm rules already created in batches
+Batch Delete Rules
 
-## Request method
+## Request Method
 DELETE
 
-## Request address
+## Request Address
 https://monitor.jdcloud-api.com/v1/regions/{regionId}/alarms
 
-|Name|Type|Required or not|Default value|Description|
+|Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**regionId**|String|True| |Region ID|
 
-## Request parameter
-|Name|Type|Required or not|Default value|Description|
+## Request Parameter
+|Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**ids**|String|True| |For rule id to be deleted, use '\|' to separate multiple rules|
+|**ids**|String|True| |For rule id to be deleted, use "|” to separate multiple rules|
 
 
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String|Request ID|
+|**result**|Object| |
+|**requestId**|String|Requested identifierid|
 
 
-
-## Response code
-|Return code|Description|
+## Return Code
+|Return Code|Description|
 |---|---|
 |**200**|OK|
-|**400**|invalid parameter|
-|**500**|internal server error|

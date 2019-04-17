@@ -17,9 +17,10 @@ https://disk.jdcloud-api.com/v1/regions/{regionId}/snapshots
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**filters**|Filter[]|False| |snapshotId - Cloud Disk Snapshot ID, support multiple<br>diskId - the Cloud Disk ID of the snapshot to be generated, support multiple<br>status - Snapshot status, accurate match, support multiple, value: creating, available, in-use, deleting, error_create or error_delete<br>name - Snapshot Name, fuzzy match, support single<br>|
 |**pageNumber**|Integer|False|1|Page Number: 1 by default; value range: [1, ∞)|
 |**pageSize**|Integer|False|20|Paging Size: 20 by default. Value Range: [10, 100]|
+|**snapshotSource**|String|False| |Search the types of the snapshot, which may be private, others, shared, the default value is private|
+|**filters**|Filter[]|False| |snapshotId - Cloud Disk Snapshot ID, support multiple<br>diskId - the Cloud Disk ID of the snapshot to be generated, support multiple<br>status - Snapshot status, accurate match, support multiple, value: creating, available, copying, deleting, error_create or error_delete<br>name - Snapshot Name, fuzzy match, support single<br>|
 
 ### Filter
 |Name|Type|Required or not|Default value|Description|
@@ -31,9 +32,8 @@ https://disk.jdcloud-api.com/v1/regions/{regionId}/snapshots
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String|Request ID|
 |**result**|Result|Query Result Set|
-
+|**requestId**|String|Request ID|
 
 ### Result
 |Name|Type|Description|
@@ -43,19 +43,28 @@ https://disk.jdcloud-api.com/v1/regions/{regionId}/snapshots
 ### Snapshot
 |Name|Type|Description|
 |---|---|---|
-|**createTime**|String|Creation Time|
-|**description**|String|Snapshot Description|
-|**diskId**|String|Cloud Disk ID used to create the snapshot|
-|**name**|String|Snapshot Name|
 |**snapshotId**|String|Cloud Disk Snapshot ID|
+|**snapshotSource**|String|There may be two snapshot sources of self, others|
+|**diskId**|String|Cloud Disk ID used to create the snapshot (When snapshotSource is others, it will not display)|
 |**snapshotSizeGB**|Integer|Snapshot Size, Unit: GiB|
+|**images**|String[]|All image IDs associated with the snapshot (When snapshotSource is others, it will not display)|
+|**name**|String|Snapshot Name|
+|**description**|String|Snapshot Description|
 |**status**|String|Snapshot Status, Value: creating, available, in-use, deleting, error_create or error_delete|
+|**createTime**|String|Creation Time|
+|**sharInfo**|ShareInfo[]|Sharing Information|
+|**encrypted**|Boolean|Whether the snapshot is the snapshot of an encryption disk|
+### ShareInfo
+|Name|Type|Description|
+|---|---|---|
+|**shareTo**|String|pin of the User Sharing His/Her Snapshot|
+|**shareTime**|String|Sharing Time|
 
 ## Response code
 |Return code|Description|
 |---|---|
 |**200**|OK|
 |**400**|Invalid parameter|
-|**500**|Internal server error|
 |**401**|Authentication failed|
+|**500**|Internal server error|
 |**503**|Service unavailable|

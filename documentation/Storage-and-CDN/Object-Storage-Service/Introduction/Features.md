@@ -11,8 +11,10 @@ The Object Storage Service provides the following functions:
 |Modify Bucket Policy |OSS provides permission control Bucket Policy for selecting corresponding permission control when creating Bucket or modifying Bucket Policy in permission setting after the creation. |
 |Set Anti-Leech|To reduce extra costs incurred by hotlinking of data stored in OSS, OSS supports to set the anti-leech chain mode based on list header field referer in HTTP header. |
 |Cross-Origin Resource Sharing setting |OSS provides cross-origin resource sharing CORS setting in HTML5 Protocol to help you achieve cross-domain access. |
-|website hosting|After uploading resources such as pictures, videos and static page to Bucket of OSS, you can assign this space with default home page, error return page and redirect address upon access error. By virtue of this function, user can use a Bucket as a static website. |
+|Website Hosting|After uploading resources such as pictures, videos and static page to Bucket of OSS, you can assign this space with default home page, error return page and redirect address upon access error. By virtue of this function, user can use a Bucket as a static website. |
 |Cross-region Replication |Cross-region replication means to automatically and asynchronously replicate files in Bucket in different regions. It replicates the modification (other than deletion) of files in source Bucket from source Bucket to target Bucket in different regions. |
+|Default Encryption of Bucket|After the bucket is encrypted by default, the server data encryption can be made by using the JD Cloud KMS.|
+|Back-to-origin of Image|Via back-to-origin setting, the back-to-origin reading is applied to the data getting request via the image method, to meet your hot migration demand of data.|
 |Upload file|You can upload any type of files to the Bucket. |
 |Create folder|You can manage OSS folder just like managing Windows folder. |
 |Search file|Search files with same name prefix in Bucket or folder. |

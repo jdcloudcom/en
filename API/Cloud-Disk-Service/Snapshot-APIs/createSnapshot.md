@@ -23,22 +23,21 @@ https://disk.jdcloud-api.com/v1/regions/{regionId}/snapshots
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**clientToken**|String|True| |Idempotence Check Parameter|
 |**snapshotSpec**|SnapshotSpec|True| |snapshot specification|
+|**clientToken**|String|True| |Idempotence Check Parameter|
 
 ### SnapshotSpec
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
+|**name**|String|True| |Snapshot Name|
 |**description**|String|False| |Snapshot Description|
 |**diskId**|String|True| |Cloud Disk ID used to create the Snapshot|
-|**name**|String|True| |Snapshot Name|
 
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String|Request ID|
 |**result**|Result|Result Set|
-
+|**requestId**|String|Request ID|
 
 ### Result
 |Name|Type|Description|
@@ -48,10 +47,10 @@ https://disk.jdcloud-api.com/v1/regions/{regionId}/snapshots
 ## Response code
 |Return code|Description|
 |---|---|
+|**200**|OK|
 |**400**|Invalid parameter|
 |**401**|Authentication failed|
-|**500**|Internal server error|
-|**503**|Service unavailable|
-|**200**|OK|
 |**404**|Not found|
 |**429**|Quota exceeded|
+|**500**|Internal server error|
+|**503**|Service unavailable|

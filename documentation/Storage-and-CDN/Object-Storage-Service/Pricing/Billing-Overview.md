@@ -12,7 +12,12 @@ Request time: request time for calling Object Storage Service API. User console 
 
 Cloud data processing: refers to the data processing fees from using cloud data processing, including the file output duration of audio and video transcoding service and number of snapshots of video snapshot service.
 
-Description: Object Storage Service is at the stage of profit concession promotion now, only bucket usage, Internet output traffic and CDN back-to-source output traffic are charged while data getting back amount, intranet input traffic/output traffic, Internet input traffic and cross-region replication traffic are all free at present.
+**Description**: Object Storage Service is at the stage of profit concession promotion now, only bucket usage, Internet output traffic and CDN back-to-source output traffic are charged while data getting back amount, intranet input traffic/output traffic, Internet input traffic and cross-region replication traffic are all free at present.
+
+## Free Quota
+
+Users adopting standard storage type of OSS will also enjoy the storage capacity of specified volume for free. Free quota is provided to each availability zone of OSS correspondingly. You are welcome to try and experience the service. For details, please refer to [Free Quota](./Free-Tier-For-Oss.md). 
+
 
 ## Rules about Arrearage
 

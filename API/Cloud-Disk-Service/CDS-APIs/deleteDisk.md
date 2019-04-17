@@ -2,10 +2,9 @@
 
 
 ## Description
--   Delete a cloud disk billed by configuration. The disk types include the Premium Hdd Cloud Disk and the SSD Cloud Disk.
--   After the hard disk is deleted, the cloud disk snapshot can be retained.
--   When the disk is released, the status of the cloud disk is to-be-attached (Available).
--   If the disk of the specified ID does not exist, the request will be ignored.
+-   Delete a Cloud Disk paid by configuration, Cloud Disk Service types include Premium Hdd Cloud Disk, SSD Cloud Disk, general SSD, performance-oriented SSD and capacity-oriented HDD.
+-   When deleting a Cloud Disk, the status of it must be Available.
+-   After a Cloud Disk has been deleted, the cloud disk snapshot can be retained.
 
 
 ## Request method
@@ -16,8 +15,8 @@ https://disk.jdcloud-api.com/v1/regions/{regionId}/disks/{diskId}
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**diskId**|String|True| |Cloud Disk ID|
 |**regionId**|String|True| |Region ID|
+|**diskId**|String|True| |Cloud Disk ID|
 
 ## Request parameter
 None
@@ -27,13 +26,12 @@ None
 None
 
 
-
 ## Response code
 |Return code|Description|
 |---|---|
+|**200**|OK|
 |**400**|Invalid parameter|
 |**401**|Authentication failed|
 |**404**|Not found|
-|**503**|Service unavailable|
-|**200**|OK|
 |**500**|Internal server error|
+|**503**|Service unavailable|

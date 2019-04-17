@@ -24,11 +24,11 @@ For key pair login, you need to create a unique matching key pair: "public key" 
 4. The user decrypts it by the local private key.
 5. The user returns the decrypted result to the remote VM for information comparison. If the matching is successful, the user logs in successfully, otherwise the login fails.
 
-JD Cloud provides the operation  access of key pair creation and corresponding management of instance injection on the console. In addition, it also allows you to configure the instance correspondingly on your own. For details, please refer to [Create Key Pair](../Operation-Guide/Key-Pair/Create-Keypair.md).
+JD Cloud provides the operation  access of key pair creation and corresponding management of instance injection on the console. In addition, it also allows you to configure the instance correspondingly on your own. For details, please refer to [Create Key Pair](Create-Keypair.md).
 
 ## Related Reference
 
-[Create Key Pair](../Operation-Guide/Key-Pair/Create-Keypair.md)
+[Create Key Pair](Create-Keypair.md)
 
 
   [1]: ./images/Operation-Guide-keypair-overview1.png "Operation-Guide-keypair-overview1.png"

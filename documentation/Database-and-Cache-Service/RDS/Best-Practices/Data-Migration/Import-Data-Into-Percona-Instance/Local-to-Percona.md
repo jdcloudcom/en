@@ -7,9 +7,9 @@ It mainly explains how to transfer data from the local self-built Percona to the
 * Ensure the capacity space of new Percona instance is not smaller than the local self-built Percona.
 
 ## Operation Steps
-1. See specific steps of the JCS for Percona service creation in [Create Cloud Database RDS Instance](to be added).
-2. Create a database via the console to ensure that the name of the database to be exported from the local self-built Percona is also created in the JCS for Percona service. See specific creation steps in [Create Database](to be added).
-3. Create a database account via the console, or use the account that created for the Percona service creation, and then give this account the ***read/write*** authorization for the new database created in step 2. See specific creation steps in [Create Account](to be added).
+1. See specific steps of the JCS for Percona service creation in [Create Cloud Database RDS Instance](../../../Operation-Guide/Instance/Create-Instance.md).
+2. Create a database via the console to ensure that the name of the database to be exported from the local self-built Percona is also created in the JCS for Percona service. See specific creation steps in [Create Database](../../../Operation-Guide/Database-Management/Create-Database.md).
+3. Create a database account via the console, or use the account that created for the Percona service creation, and then give this account the ***read/write*** authorization for the new database created in step 2. See specific creation steps in [Create Account](../../../Operation-Guide/Account/Create-Account/Percona-Create-Account.md).
 4. Start exporting the data from the local self-built Percona to the local and execute the command after completing the creation and initialization of the JCS for Percona service.
 
     ```
@@ -24,7 +24,7 @@ It mainly explains how to transfer data from the local self-built Percona to the
 5. Start creating VM after exporting the local self-built Percona data to the local.
 6. See specific steps of VM creation in [Create VM Instance](https://www.jdcloud.com/help/detail/303/isCatalog/1). Pay attention to following matters when creating VM instances.
     * Make sure that VM shares one ***Virtual Private Cloud*** with the JCS for Percona service created in step 1.
-    * A new VM needs a **Public IP*** for public network access, otherwise local data files cannot be uploaded to the VM.
+    * A new VM needs a ***Public IP*** for public network access, otherwise local data files cannot be uploaded to the VM.
     * Make sure that ***Network ACL*** of the subnet where the VM exists, allows the local SSH to connect to the VM.
 
 7. Upload the local data to the VM and execute the command after VM instance creation.

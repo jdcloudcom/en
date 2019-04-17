@@ -86,7 +86,7 @@
       - name: Networking
         href: Operation-Guide/Networking.md
       - name: Security Group
-        href: Operation-Guide/Security-Group.md	
+        href: Operation-Guide/Security-Group.md
       - name: Image Registry Authentication Information
         items:
           - name: Create Registry Authentication Information

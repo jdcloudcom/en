@@ -30,8 +30,7 @@ After payment is completed, the page will automatically jump to JCS for Redis "I
 
 ## Relevant References
 
-- [Getting Started Overview](Set-Whitelist.md)
+
 - [Connection Instance](Connect-Instances.md)
-- [Modify Password](../../Operation-Guide/Instance-Management/Change-Password.md)
-- [Change Instance Configuration](../../Operation-Guide/Instance-Management/Change-Configuration.md)
-- [Billing Rules](../../Pricing/Billing-Rules.md)
+- [Redis SLA](https://docs.jdcloud.com/en/product-service-agreement/caching-redis-service-level-agreement-sla)
+

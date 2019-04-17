@@ -1,10 +1,10 @@
 # Introduction of the Latest Features of Small Version of Redis
 
-This document describes the features and functions that are available in the small version of Redis.
+This document describes the features and functions that are available in the small version of JCS for Redis.
 
 - Version Number
 
-The user can view the version number of the instance in the Details of the instance. The current version number of the Redis is 2.8 and the version number of the small version is 3.0. The Redis instance purchased by the user is the latest revision 2.8-3.0.
+The user can view the version number of the instance in the Details of the instance. The current version number of JCS for Redis is 2.8 and the version number of the small version is 3.0. The Redis instance enabled by the user is the latest version 2.8-3.0.
 
 - Functions of the Latest Version
 

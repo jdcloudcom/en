@@ -2,7 +2,7 @@
 
 
 ## Description
-Query Subnet 
+Query Subnet
 
 ## Request method
 GET
@@ -23,9 +23,8 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/subnet
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String| |
 |**result**|Result| |
-
+|**requestId**|String| |
 
 ### Result
 |Name|Type|Description|
@@ -34,11 +33,11 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/subnet
 ### Subnet
 |Name|Type|Description|
 |---|---|---|
+|**region**|String|Region Code, such as cn-east-1|
 |**az**|String|Availability Zone, such as cn-east-1a|
 |**cidr**|String|Subnet CIDR|
-|**networkType**|String|Network Type|
-|**region**|String|Region Code, such as cn-east-1|
 |**subnetId**|String|Subnet ID|
+|**networkType**|String|Network Type|
 
 ## Response code
 |Return code|Description|

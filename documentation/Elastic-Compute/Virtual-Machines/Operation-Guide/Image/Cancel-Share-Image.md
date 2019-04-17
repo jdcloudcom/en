@@ -1,9 +1,7 @@
 # Cancel Private Image Sharing
 
-From the source and the usage rights of image, the image can be divided into four types of public image, private image, shared image and cloud marketplace image.
-
-## Precautions
-* When cancel shared image, the original shared user can no longer create instances with the image, and instances created with the image cannot be reset to the original system state.
+		Note:
+		* When cancel shared image, the original shared user can no longer create instances with the image, and instances created with the image cannot be reset to the original system state.
 
 ## Operation Steps
 1. Access [Image Console](https://cns-console.jdcloud.com/host/image/list), or access [JD Cloud Console](https://console.jdcloud.com/overview) Click navigation bar on the left **Elastic Compute** - **Virtual Machines** - **Image** to enter the image list page.

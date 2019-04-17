@@ -1,6 +1,6 @@
 # Purchase Process
 
-This article describes the purchase entrance for cloud resolution.
+This article describes the purchase entrance for JD Cloud DNS.
 
 1. Log in to JD Cloud official website [https://www.jdcloud.com/](https://www.jdcloud.com/).
 

@@ -1,5 +1,5 @@
 ## <div align=center>JD User Registration Agreement</div>
-This Agreement is a contract between you and the owner of JD website (abbreviation; the website; , URL: www.jd.com) (hereinafter referred to as; JD;) on JD website services and other related matters. Please read carefully this registration agreement. After you click **Agree and Continue**, this Agreement constitutes a legal document binding on both parties.       
+This Agreement is a contract between you and the owner of JD website (abbreviation; the website URL: www.jd.com) (hereinafter referred to as "JD") on JD website services and other related matters. Please read carefully this registration agreement. After you click **Agree and Continue**, this Agreement constitutes a legal document binding on both parties.       
 
 
 
@@ -34,7 +34,9 @@ This Agreement is a contract between you and the owner of JD website (abbreviati
 
 3.4 The user agrees that JD has the right to send order information and promotion activities to registered users, shopping users and consignee via email, SMS and telephone, etc.
 
-3.5 The user shall not lend the account registered on this website to others for use, otherwise the user shall bear all liabilities arising therefrom and shall be jointly and severally liable with the actual user.         3.6 The user agrees that JD has the right to use the user’s registration information, user name, password and other information to log into the user's registered account for evidence preservation, including but not limited to notarization and witness.         
+3.5 The user shall not lend the account registered on this website to others for use, otherwise the user shall bear all liabilities arising therefrom and shall be jointly and severally liable with the actual user.
+
+3.6 The user agrees that JD has the right to use the user’s registration information, user name, password and other information to log into the user's registered account for evidence preservation, including but not limited to notarization and witness.         
 
 
 
@@ -148,3 +150,6 @@ In the event of any dispute between the parties concerning the content of this A
 12.3 Please read carefully the terms of this Agreement which are clearly marked in SimHei, bold, underlined, italic, etc.
 
 12.4 If you click **Agree and Continue** below this Agreement, you will be deemed to have fully accepted this Agreement. Please confirm again that you have known and fully understood this Agreement before clicking.
+
+[JD Users Registration Agreement-PDF Download](https://docs-downloads.oss.cn-north-1.jcloudcs.com/Registration-Agreement-pdf.pdf)
+

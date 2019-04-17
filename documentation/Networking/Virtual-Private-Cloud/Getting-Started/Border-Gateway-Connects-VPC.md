@@ -71,8 +71,9 @@ The configuration information of route table is shown as below:
 
 ![](/image/Networking/Virtual-Private-Cloud/Getting-Started/Border-Gateway-Connects-VPC/Step4-2.png)
 
-6) The configured route table shall be associated with subnets to be connected, and repeat the same operations to create and configure route table RTBforBGWBtoA in the second VPC.
+6) The configured route table shall be associated with subnets to be connected.
 
 ![](/image/Networking/Virtual-Private-Cloud/Getting-Started/Border-Gateway-Connects-VPC/Step4-3.png) 
+7) Use the same steps to create and configure route table RTBforBGWBtoA in the second VPC.
 
-After completion of configuration, VPCs at both ends can establish connection through private IP. Similarly, multiple virtual private cloud in the same region can be connected through border gateway.
+After completion of configuration, VPCs at both ends can establish connection through private IP. Similarly, multiple virtual private cloud in the same region can be connected through border gateway (support VPC Hub Function).

@@ -7,42 +7,42 @@
 may complete the assigned registry authentication after decoding. JCR CLI provides <code>jcr get-login</code> for verification.</p>
 
 
-## Request Method
+## Request method
 POST
 
-## Request Address
-https://openapi.cr.jdcloud.com/v1/regions/{regionId}/registries/{registryName}:getAuthorizationToken
+## Request address
+https://containerregistry.jdcloud-api.com/v1/regions/{regionId}/registries/{registryName}:getAuthorizationToken
 
-|Name|Type|Required or Not|Default|Description|
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**regionId**|String|True| |Region ID|
 |**registryName**|String|True| |Registry Name|
 
-## Request Parameter
-|Name|Type|Required or Not|Default|Description|
+## Request parameter
+|Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**expiredAfterHours**|Integer|False| |Expiration time to issue a new token, the selectable parameter shall be the expiration time to generate a new token, of which the maximum time is 24 hours and the minimum time is 1 hour, and in case of blank, it is considered to be 12 hours by default. <br>|
 
 
-## Return Parameter
+## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String| |
 |**result**|Result| |
+|**requestId**|String| |
 
 ### Result
 |Name|Type|Description|
 |---|---|---|
 |**authorizationToken**|String| |
-|**expiresAt**|String| |
 |**loginCmdLine**|String| |
+|**expiresAt**|String| |
 
-## Return Code
-|Return Code|Description|
+## Response code
+|Return code|Description|
 |---|---|
+|**200**|OK|
 |**400**|Invalid parameter|
 |**401**|Authentication failed|
 |**404**|Not found|
-|**503**|Service unavailable|
-|**200**|OK|
 |**500**|Internal server error|
+|**503**|Service unavailable|

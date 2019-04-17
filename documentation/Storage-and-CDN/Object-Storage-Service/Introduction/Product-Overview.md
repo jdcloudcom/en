@@ -25,7 +25,7 @@ Reduced Redundancy Storage: reduced redundancy storage provides users with Objec
 
 [Compatible S3 APIs](../API-Reference-S3-Compatible/Introduction-2.md)
 
-[JAVA SDK](https://docs.jdcloud.com/cn/object-storage-service/installation-s3)
+[JAVA SDK](https://docs.jdcloud.com/en/object-storage-service/installation-s3)
 
 [PHP SDK](../API-Reference-S3-Compatible/Compatibility-Tools/SDK-PHP.md)
 

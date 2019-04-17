@@ -44,6 +44,7 @@ spec:
   selector:
      k8s-app: kubernetes-dashboard
 ```  
+Note: The service will automatically create the Load Balancer with the Public IP. Such Load Balancer can be viewed in Console-Network-Load Balancer-Instance and occupy the quota for the Load Balancer and Public IP in this region.  
 2) Perform the following command to create services in the kube-system namespace:  
 `
 kubectl create -f dashboard-lb.yaml --namespace=kube-system
@@ -57,7 +58,7 @@ kubectl get services -n kube-system
 User identity authentication is required for viewing the resource information of cluster in dashboad;  
 **Take the token of the admin service account as an example, with the specific methods of operation as follows:**  
 1. View all secrets in kube-system namespace:  
-
+`
 kubectl get secret -n kube-system
 `  
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/JCS-for-Kubernetes/admintoken列表.png)  

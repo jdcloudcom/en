@@ -17,8 +17,16 @@
         items:
           - name: Scenario Overview
             href: Introduction/Application-Scenarios/Overview.md
-          - name: Live Video
-            href: Introduction/Application-Scenarios/living.md  
+          - name: Website Acceleration
+            href: Introduction/Application-Scenarios/Website-Acceleration.md 
+          - name: Download Acceleration
+            href: Introduction/Application-Scenarios/Download-Acceleration.md
+          - name: VOD Acceleration
+            href: Introduction/Application-Scenarios/Video-Acceleration.md
+          - name: Live Video Acceleration
+            href: Introduction/Application-Scenarios/Live-Acceleration.md  
+          - name: CDN Edge Computing
+            href: Introduction/Application-Scenarios/CDN-Edge-Computing.md
   - name: Pricing
     items:
       - name: Billing Overview
@@ -44,7 +52,13 @@
       - name: Advanced Configuration
         href: Operation-Guide/Advanced-configuration.md
       - name: Back-to-source Policy
-        href: Operation-Guide/back-to-origin-Strategy.md
+        items:
+          - name: Back-to-origin Policy
+            href: Operation-Guide/Back-To-Origin-Configuration/back-to-origin-Strategy.md
+          - name: Protocol following back-to-origin
+            href: Operation-Guide/Back-To-Origin-Configuration/Protocol-Follow-Back-To-Origin.md        
+          - name: Back-to-origin following 302
+            href: Operation-Guide/Back-To-Origin-Configuration/Follow-302-Configuration.md
       - name: Workload Monitoring
         href: Operation-Guide/Business-Monitoring.md        
       - name: Cache Configuration
@@ -83,14 +97,16 @@
             href: API-Reference/CDN-Open-API/Open-api-business.md
           - name: Create Domain Name
             href: API-Reference/CDN-Open-API/Creat-domain.md
-          - name: Set Back-to-origin Host
-            href: API-Reference/CDN-Open-API/Set-back-to-source-host.md
+          - name: Protocol following back-to-origin
+            href: API-Reference/CDN-Open-API/Set-Protocol-Follow-Back-To-Origin.md
+          - name: Back-to-origin following 302
+            href: API-Reference/CDN-Open-API/Set-Follow-302-Configuration.md
           - name: Back-to-origin Policy Change
-            href: API-Reference/CDN-Open-API/Change-back-to-source.md
+            href: API-Reference/CDN-Open-API/Change-Back-To-Source.md
           - name: Cache Policy Change
             href: API-Reference/CDN-Open-API/Change-Cache-policy.md
           - name: Service Status Change
-            href: API-Reference/CDN-Open-API/Change-domain-status.md
+            href: API-Reference/CDN-Open-API/Change-Domain-Status.md
           - name: Set Communications Protocol
             href: API-Reference/CDN-Open-API/Set-http-type.md
           - name: Set Ignoring Parameter
@@ -145,7 +161,11 @@
             href: API-Reference/CDN-Open-API/Query-total-data.md
           - name: Query UV
             href: API-Reference/CDN-Open-API/Query-uv.md
-          - name: Attachment: Notification Information Status Code Reference Table
+          - name: Set/Delete Header
+            href: API-Reference/CDN-Open-API/Set-Header.md
+          - name: Search Header
+            href: API-Reference/CDN-Open-API/Query-Header.md
+          - name: Attachment：Notification Information Status Code Reference Table
             href: API-Reference/CDN-Open-API/Status-code-reference-table.md
       - name: Live OPEN API
         items:
@@ -161,7 +181,17 @@
             href: API-Reference/Live-Video-Open-Api/Query-stream-data.md
           - name: Statistics of Detailed Data of Operators in Separated Areas
             href: API-Reference/Live-Video-Open-Api/Area-isp-statistics.md
-          - name: Live CDN OPEN API
-            href: API-Reference/Live-Video-Open-Api/Live-Video-Open-Api.md
+          - name: Back-to-origin Policy Change
+            href: API-Reference/Live-Video-Open-Api/Change-Live-Back-To-Source.md
+          - name: Service Status Change
+            href: API-Reference/Live-Video-Open-Api/Change-Live-Domain-Status.md
+          - name: Create live acceleration domain
+            href: API-Reference/Live-Video-Open-Api/Creat-Live-Domain.md
+          - name: Search domain configuration information
+            href: API-Reference/Live-Video-Open-Api/Query-Live-Domain-Config.md
+          - name: Search online number
+            href: API-Reference/Live-Video-Open-Api/Query-online-Number.md
+          - name: Set pushing streaming IP White List
+            href: API-Reference/Live-Video-Open-Api/Set-Push-IP-Whitelist.md
   - name: FAQ
     href: FAQ/FAQ.md

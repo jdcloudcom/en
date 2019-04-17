@@ -6,6 +6,10 @@
 GET {Http access point}/v1/messages HTTP/1.1
 ```
 
+- Request headers parameters
+
+Please refer to sections of [Common Parameters](../Call-Method/Common-parameters.md) and [Signature-Algorithm](../Call-Method/Signature-Algorithm.md) for request common parameters.
+
 - Request Parameters
 
 | Field Name           | Field Type | Required     | Description                                                        |
@@ -16,8 +20,8 @@ GET {Http access point}/v1/messages HTTP/1.1
 | consumerId           | string     | Optional     | defaultValue = httpProxyId              |
 | consumeFromWhere     | string     | Optional     | Default starting consumption location, it is acceptable to select the values: HEAD, TAIL, defaultValue = HEAD |
 | filterExpressionType | string     | Optional     | Message filtering expression type, it is only acceptable to select the value of TAG at present                       |
-| filterExpression     | string     | Optional     | Message filtering expression, no filtering by default                                |
-| ack                  | bool       | Optional     | When the message is pulled, whether the server automatically ACK, defaultValue = false           |
+| filterExpression     | string     | Optional     | Message filtering expression, no filtering by default, if filtering is required, this parameter needs to be passed in with the filterExpressionType at the same time |
+| ack                  | bool       | Optional     | When the message is pulled, whether the server automatically ACK; the value available is true and false; the defaultValue = false  |
 
 - Response Body
 

@@ -1,59 +1,63 @@
 # Set bucket policy
 
-## Bucket Policy
-
-Object Storage Service provides flexible permission control mechanism. You can set the access permission of the bucket when creating the bucket, or modify the space permission after creation. In addition to providing the access permission control ofbucket level, you can also conduct flexible permission access configuration to the files and the directory levels. There are currently four access permissions for the Bucket level:
+JD Cloud object storage service provides flexible permission control mechanism. You can set the access permission of the storage space when creating the bucket in the console, or modify the space permission after creation. In addition to providing the access permission control of storage space level, you can also conduct flexible permission access configuration to the files and the directory levels. There are currently four access permissions for the Bucket level:
 
 |Permission Name|Permission English Value|Permission Description|
 |-|-|-|
 |Private Read/Write|Private|Bucket Owner obtains all executable action permissions. Only the Owner of the Bucket can read/write/delete the Object stored in it; others have no permission, and cannot access the Object in the Bucket without authorization|
 |Public Read and Private Write|Public-Read|Bucket Owner obtains all executable action permissions. Only the Owner of the Bucket can write/delete the Object stored in it; others (including anonymous access) can read the Object. |
 |Public Readand Public Write|Public-Read-Write|Bucket Owner obtains all executable action permissions, others obtain READ and WRITE permissions; all the costs incurred by these actions are borne by the Owner of the Bucket, please use the permission carefully. |
-Customized permissions|User-Defined|The permissions of GetObject, PutObject, DeleteObject, ListObjects, DeleteBucket for the assigned users can be set, the resources that the permissions can access can be assigned, and the IP addresses and Referer White List with the permissions can be assigned.|
-
-1.When creating a Bucket on the console, you need to assign an ACL for the Bucket. The effect is as follows:
-
-![创建Bucket-访问权限](../../../../../image/Object-Storage-Service/OSS-030.png)
-
-2.You can also modify and configure advanced permissions (i.e. customized permissions) in the created Bucket. After entering the space management page of a space, click Space Settings->Permission Settings. The effect is as follows:
-
-![权限设置](../../../../../image/Object-Storage-Service/OSS-031.png)
-
-If you set the permissions of the current Bucket to be customized permissions, you can create a corresponding Bucket Policy for the Bucket. The Bucket Policy defines which users can perform which types of actions on which kinds of resources in the Bucket. The effect is as follows:
-
-![添加自定义权限](../../../../../image/Object-Storage-Service/OSS-032.png)
+Customized permissions|User-Defined|The permissions of GetObject, PutObject, DeleteObject, listBucket(getObjects), DeleteBucket for the assigned users can be set, the resources that the permissions can access can be assigned, and the IP addresses and Referer White List with the permissions can be assigned.|
 
 Detail Specification:
+If you are creating a Bucket through API or SDK, and you do not specify the Bucket permissions when creating, the system will give the Bucket the default Private Read/Write permission. You can modify the bucket permissions according to your own business situation.
 
-(1) A maximum of 10 Bucket Policies can be created for each Bucket;
+### Operation Steps in Console
 
-(2) The definition of each field in the Bucket Policy is as follows:
+1. Log in the JD Cloud console, select Object Storage Service -> Space Management -> Space Setting, and select **Permission Setting** to display your current permission setting contents, as shown in the figure:
+![修改空间权限](../../../../../image/Object-Storage-Service/OSS-103.png)
+2. Modify the space permissions, as shown in the figure:
+ ![修改空间权限](../../../../../image/Object-Storage-Service/OSS-120.png)
+ 
+ **Description:**
+ 
+ * If you modify ACL, please click the drop-down box of Read/Write Permission Setting, and select Private Read/Write, Public Read and Private Write and Public Read/Write 3 permissions, and then click **OK**.
 
-a. User authorization: It defines the users affected by the Bucket Policy. The default value is *, and the semantics is valid for all users. If it shall only be valid for part of the users, please click **customized users" and enter the user ID of the corresponding users in the text box (Note: User ID is different from user Pin; your user ID can be queried in User Management and the effect is as the image below), one user ID per line, that is, multiple user IDs shall be separated by line feed character intervals.
+ * If you want to achieve a fine-grained permission management for Bucket, please use the Bucket policy. In Read/Write Permission Setting, click **Customized Permission**, then you can complete the setting of Bucket policy. The setting page is shown as below figure
+ ![修改空间权限-Bucket policy](../../../../../image/Object-Storage-Service/OSS-121.png)
+ It supports two methods: permission form setting and editors:
+ - Add Customized Permission**--You can use a convenient and simple form to complete the setting by filling in the setting items.
+   ![修改空间权限](../../../../../image/Object-Storage-Service/OSS-122.png)
+      - (1) A maximum of 10 Bucket Policies can be created for each Bucket;
+      - (2) The definition of each field in the Bucket Policy is as follows:
+a. User authorization: It defines the users affected by the Bucket Policy. The default value is "*", and the semantics is valid for all users. If it shall only be valid for part of the users, please click **customized users" and enter the user ID of the corresponding users in the text box (Note: User ID is different from user Pin; your user ID can be queried in User Management and the effect is as the image below), one user ID per line, that is, multiple user IDs shall be separated by line feed character intervals.
+         1. Primary account: AccountID
+         2. Sub-accounts AccountID: user/username. One user ID per line, that is, multiple AccountID shall be separated by line feed character intervals
+         (Note: Your AccountID can be searched in User Management and the effect is as the figure below).
+         
+        ![用户授权1](../../../../../image/Object-Storage-Service/OSS-033.png)
 
-![用户授权1](../../../../../image/Object-Storage-Service/OSS-033.png)
+        ![用户授权2](../../../../../image/Object-Storage-Service/OSS-034.png)
 
-![用户授权2](../../../../../image/Object-Storage-Service/OSS-034.png)
+        b. Involved action: It defines the actions that can be performed on the Bucket. Single-selection and full-selection are both okay, but at least one item shall be selected. Each action is defined as follows:
 
-b. Involved action: It defines the actions that can be performed on the Bucket. Single-selection and full-selection are both okay, but at least one item shall be selected. Each action is defined as follows:
+        |Action Item Name|Action item description|
+        |-|-|
+        |PutObject|Upload an Object to the Bucket, supporting normal upload and upload by parts|
+        |GetObject|Get an Object and its relevant information in the Bucket|
+        |DeleteObject|Delete an Object in the Bucket|
+        |ListBucket|List the Objects in the Bucket|
+        |DeleteBucket|Delete the Bucket|
 
-|Action Item Name|Action item description|
-|-|-|
-|PutObject|Upload an Object to the Bucket, supporting normal upload and upload by parts|
-|GetObject|Get an Object and its relevant information in the Bucket|
-|DeleteObject|Delete an Object in the Bucket|
-|ListBucket|List the Objects in the Bucket|
-|DeleteBucket|Delete the Bucket|
+        c. Affected resources: It defines which resources under the Bucket are operable or inoperable (i.e. Allow or Deny). “Operable Resources” is selected by default. The default value in the text box is bucketname/*, and the semantics is all resources under the current Bucket are operable; the enter format example is: myBucket/myfolder/object*, myBucket/*; the contents must start with the Bucket name. If the resource has only one slash, it cannot end with a slash; multiple resources can be set, with 1 and at most 1 wildcard in each line. At most 10 records can be added.
 
-c. Affected resources: It defines which resources under the Bucket are operable or inoperable (i.e. Allow or Deny). “Operable Resources” is selected by default. The default value in the text box is bucketname/*, and the semantics is all resources under the current Bucket are operable; the enter format example is: myBucket/myfolder/object*, myBucket/*; the contents must start with the Bucket name. If the resource has only one slash, it cannot end with a slash; multiple resources can be set, with 1 and at most 1 wildcard in each line. At most 10 records can be added.
-
-d. Referer White List: Since the Object Storage Service is charged by consumption, in order to prevent the chain of data stored in the Object Storage Service from being stolen by others, Object Storage Service supports the Referer anti-leech chain method based on the header field in the HTTP Header. You can set the White List of the Referer field to a Bucket and set whether to allow the request access with blank Referer in the customized permissions on the Object Storage Service console or through API. The following is a detailed explanation of the rules of the Referer White List.
-
-(3) In addition to creating a Bucket Policy through a form, you can also use the customized permission editor to set the Policy (Note: the editor will display all the Policies under the current Bucket, no comments can be added in the editor, and 16KB can be entered at most). The effect is as follows:
-
-![自定义权限编辑器](../../../../../image/Object-Storage-Service/OSS-035.png)
-
-(4) If you are creating a Bucket through API or SDK, and you do not assign the Bucket permissions when creating, the system will give the Bucket the default Private permissions, that is, only the Bucket Owner can operate and access the resources under the Bucket, while all requests of all the other users will be denied. To allow certain users to access and operate the resources under the Bucket, please authorize them in the Bucket Policy or change the permissions of the Bucket to Public-Read or Public-Read-Write.
+        d. Referer White List: Since the Object Storage Service is charged by consumption, in order to prevent the chain of data stored in the Object Storage Service from being stolen by others, Object Storage Service supports the Referer anti-leech chain method based on the header field in the HTTP Header. You can set the White List of the Referer field to a Bucket and set whether to allow the request access with blank Referer in the customized permissions on the Object Storage Service console or through API. The following is a detailed explanation of the rules of the Referer White List.
+ - Add Customized Editor**--You can use the visual editor to directly fill in the legitimate Bucket policy specified by JSON.
+  ![修改空间权限](../../../../../image/Object-Storage-Service/OSS-107.png)
+  
+   **Details Description**
+     - No notes can be added in the editor and a maximum of 16KB is allowed to be entered.
+     - The Bucket policy you entered must be a legitimate JSON.
 
 ## Referer White List setting
 
@@ -85,4 +89,14 @@ Semantics Explanation of Referer White List:
 
 The reference effect is as follows:
 
-![Referer白名单](../../../../../image/Object-Storage-Service/OSS-036.png)
+![Referer白名单](../../../../../image/Object-Storage-Service/OSS-123.png)
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+

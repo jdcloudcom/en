@@ -214,7 +214,7 @@ You understand and acknowledge that the above list does not exhaust all types of
 
 ## 11. Supplementary Articles
 
-11.1 JD Cloud's service description, price description and the ordering Page you confirm on [www.jdcloud.com](https://www.jdcloud.com/index) are an integral part of these Service Terms. If the service description, price description and the order form you agree on the www.jdcloud.com Page are inconsistent with these Service Terms, these Service Terms shall prevail.
+11.1 JD Cloud's service description, price description and the ordering Page you confirm on [www.jdcloud.com](https://www.jdcloud.com/index) are an integral part of these Service Terms. If the service description, price description and the order form you agree on the [www.jdcloud.com](https://www.jdcloud.com/index) Page are inconsistent with these Service Terms, these Service Terms shall prevail.
 
 11.2 JD Cloud is entitled to transfer part of all of the rights and obligations under these Service Terms to JD associated companies by announcement on [www.jdcloud.com](https://www.jdcloud.com/index), website notice or written notification.
 

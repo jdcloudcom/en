@@ -2,7 +2,7 @@
 
 
 ## Description
-Cancel all permissions of the account to a certain database. After the permissions are canceled, the account will not be able to access the database. Cancel the access permission of the account to a certain database without affecting the access permissions of the account to other databases<br>- only support MySQL
+Cancel all permissions of the account to a certain database. After the permissions are canceled, the account will not be able to access the database. Cancel the access permission of the account to a certain database without affecting the access permissions of the account to other databases
 
 ## Request method
 POST
@@ -12,9 +12,9 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/account
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**accountName**|String|True| |Account name; in the same instance, the account name cannot be duplicated.|
-|**instanceId**|String|True| |RDS instance ID, which uniquely identifies an RDS instance|
 |**regionId**|String|True| |Region code, with range detailed in [Regions and Availability Zone Comparison Table](../Enum-Definitions/Regions-AZ.md)|
+|**instanceId**|String|True| |RDS instance ID, which uniquely identifies an RDS instance|
+|**accountName**|String|True| |Account name; in the same instance, the account name cannot be duplicated.|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
@@ -24,7 +24,6 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/account
 
 ## Response parameter
 None
-
 
 
 ## Response code

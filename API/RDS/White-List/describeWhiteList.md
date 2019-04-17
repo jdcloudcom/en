@@ -12,8 +12,8 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/whiteLi
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**instanceId**|String|True| |RDS instance ID, which uniquely identifies an RDS instance|
 |**regionId**|String|True| |Region code, with range detailed in [Regions and Availability Zone Comparison Table](../Enum-Definitions/Regions-AZ.md)|
+|**instanceId**|String|True| |RDS instance ID, which uniquely identifies an RDS instance|
 
 ## Request parameter
 None
@@ -24,7 +24,6 @@ None
 |---|---|---|
 |**result**|Result| |
 
-
 ### Result
 |Name|Type|Description|
 |---|---|---|
@@ -32,8 +31,8 @@ None
 ### WhiteList
 |Name|Type|Description|
 |---|---|---|
-|**ips**|String|For IP or IP segment, different IP/IP segments shall be separated by commas, for example 0.0.0.0/0,192.168.0.10|
 |**name**|String|White List Name|
+|**ips**|String|For IP or IP segment, different IP/IP segments shall be separated by commas, for example 0.0.0.0/0,192.168.0.10|
 
 ## Response code
 |Return code|Description|

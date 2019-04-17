@@ -28,4 +28,4 @@
 
 * Back-to-source mode: Please select IP back-to-source, domain name back-to-source or OSS back-to-source according to actual needs, fill in the origin server IP address and origin server domain name, and select the bucket information of OSS. JD Cloud CDN supports multi-IP load balancer back-to-source, and multi-IP, multi-domain name backup back-to-source, please fill in the back-to-source configuration according to actual needs.
 
-![image.png](https://img1.jcloudcs.com/cms/d1393737-6ebb-42fa-a89b-2bdfca2a4c5320180423142209.png)
+![image.png](https://github.com/jdcloudcom/cn/blob/cdn-new/image/CDN/%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9B%9E%E6%BA%90host.png)

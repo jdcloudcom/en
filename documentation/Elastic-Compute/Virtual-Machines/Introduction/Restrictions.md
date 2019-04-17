@@ -1,14 +1,14 @@
 # Restrictions
 
 ## Account Limit
-* You need to perform real-name verification for the JD Cloud account used to create the VM instance. For details, please refer to [Real-name Verification]();
+* You need to perform real-name verification for the JD Cloud account used to create the VM instance. For details, please refer to [Real-name Verification](http://docs.jdcloud.com/en/real-name-verification/real-name-verification);
 * To create an instance billing by monthly package, you need to prepay the instance fee. To create an instance billing by configuration, you need to keep the total sum of your account balance and available coupons no less than RMB 50.
 
 ## Usage Restrictions
 * Secondary virtualization is not supported for now (such as installing and using VMware and Hyper-V).
 * External hardware devices (such as U disk, external hard disk, bank U shield, etc.) connection are not supported for now.
 * NAT Instance only supports Centos 7.2 system currently.
-* The first-generation instance type cannot be mutually resized with the second-generation instance type. For details, please refer to[Resize](http://docs.jdcloud.com/cn/virtual-machines/resize-instance).
+* The first-generation instance type cannot be mutually resized with the second-generation instance type. For details, please refer to [Resize](http://docs.jdcloud.com/cn/virtual-machines/resize-instance).
 * For Windows Server system instances, it supports 64-core vCPU to the maximum. And it is recommended to purchase a minimum configuration of 1Core 2GB to ensure efficient operation of the business.
 * Single instance with a single private IP can only be associated to one elastic IP.
 * The multicast protocol is not supported at this time. It is recommended to use the unicast peer-to-peer method instead.
@@ -17,8 +17,8 @@
 ## Other Restrictions
 Constraints|Constraint Rules|Exception Application Mode   
 :---|:---|:---     
-Optional VM Instance Specifications|See [VM Instance Specifications](https://docs.jdcloud.com/cn/virtual-machines/instance-type-family)|Open Ticket 
-Optional Public Image Types|See [Public Image Release Version](https://docs.jdcloud.com/cn/virtual-machines/image-type)|Open Ticket         
+Optional VM Instance Specifications|See [VM Instance Specifications](https://docs.jdcloud.com/en/virtual-machines/instance-type-family)|Open Ticket 
+Optional Public Image Types|See [Public Image Release Version](https://docs.jdcloud.com/en/virtual-machines/image-type)|Open Ticket         
 Single Region Instance Quota|20|Open Ticket      
 Single Region Cloud Disk Quota|15|Open Ticket       
 Single Region Cloud Disk Snapshot Quota|15|Open Ticket   

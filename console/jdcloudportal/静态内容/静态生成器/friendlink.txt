@@ -1,0 +1,53 @@
+<div class="jdc-fridend-link">
+  <div class="jdc-common-banner">
+    <div class="w">
+      <div class="jdc-common-banner-ct"><h4 class="jdc-common-banner-tit">Links</h4>
+        <p class="jdc-common-banner-txt">Breaking the information boundary, fusing the ecology of digital technology and exploring the infinite possibility together </p></div>
+    </div>
+  </div>
+  <div>
+    <div class="w">
+      <div class="jdc-logo-container">
+        <ul class="jdc-logo-ul">
+          <li class="jdc-logo-li"><a clstag="Service|keycount|MiddleContentSec|Service_friendLink_1" target="_blank" href="https://www.datahunter.cn/"><img src="/static/img/mkt/partner1.png"></a></li>
+          <li class="jdc-logo-li"><a clstag="Service|keycount|MiddleContentSec|Service_friendLink_2" target="_blank" href="http://www.bianxianmao.com/"><img src="/static/img/mkt/partner2.png"></a>
+          </li>
+          <li class="jdc-logo-li"><a clstag="Service|keycount|MiddleContentSec|Service_friendLink_3" target="_blank" href="http://www.bocloud.com.cn/"><img src="/static/img/mkt/partner3.png"></a></li>
+          <li class="jdc-logo-li"><a clstag="Service|keycount|MiddleContentSec|Service_friendLink_4" target="_blank" href="https://www.proginn.com/"><img src="/static/img/mkt/partner4.png"></a></li>
+          <li class="jdc-logo-li"><a clstag="Service|keycount|MiddleContentSec|Service_friendLink_5" target="_blank" href="https://www.gongsibao.com/"><img src="/static/img/mkt/partner5.png"></a></li>
+          <li class="jdc-logo-li"><a clstag="Service|keycount|MiddleContentSec|Service_friendLink_6" target="_blank" href="https://juejin.im/"><img src="/static/img/mkt/partner6.png"></a></li>
+          <li class="jdc-logo-li"><a clstag="Service|keycount|MiddleContentSec|Service_friendLink_7" target="_blank" href="https://www.oschina.net/"><img src="/static/img/mkt/partner7.png"></a></li>
+          <li class="jdc-logo-li"><a clstag="Service|keycount|MiddleContentSec|Service_friendLink_8" target="_blank" href="https://www.tingyun.com/"><img src="/static/img/mkt/partner8.jpg"></a></li>
+          <li class="jdc-logo-li"><a clstag="Service|keycount|MiddleContentSec|Service_friendLink_9" target="_blank" href="https://www.hnacloudmarket.com/"><img src="/static/img/mkt/partner9.jpg"></a></li>
+          <li class="jdc-logo-li"><a clstag="Service|keycount|MiddleContentSec|Service_friendLink_10" target="_blank" href="//fuqianla.net"><img src="/static/img/mkt/partner10.jpg"></a></li>
+          <li class="jdc-logo-li"><a clstag="Service|keycount|MiddleContentSec|Service_friendLink_11" target="_blank" href="http://www.kuaifawu.com"><img src="//img1.jcloudcs.com/portal/service/partner11.png"></a></li>
+          <li class="jdc-logo-li"><a clstag="Service|keycount|MiddleContentSec|Service_friendLink_12" target="_blank" href="http://www.chaojibiaoge.com/"><img src="//img1.jcloudcs.com/portal/service/partner12.png"></a></li>
+          <li class="jdc-logo-li"><a clstag="Service|keycount|MiddleContentSec|Service_friendLink_13" target="_blank" href="https://www.easemob.com/"><img src="//img1.jcloudcs.com/portal/service/partner13.png"></a></li>
+          <li class="jdc-logo-li"><a clstag="Service|keycount|MiddleContentSec|Service_friendLink_14" target="_blank" href="http://www.itdks.com/"><img src="//img1.jcloudcs.com/portal/service/partner14.png"></a></li>
+          <li class="jdc-logo-li"><a clstag="Service|keycount|MiddleContentSec|Service_friendLink_15" target="_blank" href="https://biao.jd.com/?utm_source=jdcloud"><img src="//img1.jcloudcs.com/portal/service/partner15.png"></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="w">
+      <div class="jdc-text-ul"><a target="_blank" clstag="Service|keycount|MiddleContentSec|friendLink_bottom_0" href="https://jos.jd.com/" class="jdc-text-link">JD Open Platform</a>
+        <a target="_blank" clstag="Service|keycount|MiddleContentSec|friendLink_bottom_1" href="https://fw.jd.com/main.action" class="jdc-text-link">JD Service Marketplace</a>
+        <a target="_blank" clstag="Service|keycount|MiddleContentSec|friendLink_bottom_2" href="https://www.jd.com/" class="jdc-text-link">JD Mall</a>
+        <a target="_blank" clstag="Service|keycount|MiddleContentSec|friendLink_bottom_3" href="https://jr.jd.com/" class="jdc-text-link">JD Finance</a>
+        <a target="_blank" clstag="Service|keycount|MiddleContentSec|friendLink_bottom_4" href="https://lop.jd.com/" class="jdc-text-link">JD Canghai</a>
+        <a target="_blank" clstag="Service|keycount|MiddleContentSec|friendLink_bottom_5" href="https://b.jd.com/" class="jdc-text-link">JD Enterprise Purchase</a>
+        <a target="_blank" clstag="Service|keycount|MiddleContentSec|friendLink_bottom_6" href="https://ft.jd.com/portal/index.htm" class="jdc-text-link">Enterprise Financial Service</a>
+        <a target="_blank" clstag="Service|keycount|MiddleContentSec|friendLink_bottom_7" href="https://k.jd.com/" class="jdc-text-link">JD Kepler</a>
+        <a target="_blank" clstag="Service|keycount|MiddleContentSec|friendLink_bottom_8" href="https://yp.jd.com/" class="jdc-text-link">JD Good Appraisal</a>
+        <a target="_blank" clstag="Service|keycount|MiddleContentSec|friendLink_bottom_9" href="https://www.cnblogs.com/" class="jdc-text-link">cnblogs.com</a>
+        <a target="_blank" clstag="Service|keycount|MiddleContentSec|friendLink_bottom_10" href="https://www.paasoo.cn/" class="jdc-text-link">PaaSoo</a>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="w">
+      <div class="jdc-fridend-mail"><p>Welcome to exchange links, E-mail: link@jdcloud.com</p></div>
+    </div>
+  </div>
+</div>

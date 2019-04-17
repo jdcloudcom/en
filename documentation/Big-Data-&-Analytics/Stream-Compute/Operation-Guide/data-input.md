@@ -1,10 +1,10 @@
 ## Input Data<br>
 On the application list page, click on the created application name and go to the Job Development page, as shown below <br>
-![sc-015](https://github.com/jdcloudcom/cn/blob/edit/image/Streamcompute/SC-015.png?raw=true)<br><br>
+![sc-015](../../../../image/Streamcompute/SC-015.png)<br><br>
 For a complete Stream Compute, it is required to define three parts. Firstly, it is required to define the "input" of the data, that is, where does the data in Stream Compute come from. <br>
-![sc-016](https://github.com/jdcloudcom/cn/blob/edit/image/Streamcompute/SC-016.png?raw=true)<br><br>
+![sc-016](../../../../image/Streamcompute/SC-016.png?raw=true)<br><br>
 Click **Create** to enter the input source definition page. <br>
-![sc-017](https://github.com/jdcloudcom/cn/blob/edit/image/Streamcompute/SC-017.png?raw=true)<br><br>
+![sc-017](../../../../image/Streamcompute/SC-017.png)<br><br>
 Name: <br>
 Enter the name of the source. In the later SQL statement searching for the job, the tablename in "from [tablename]" is the name which you define here. <br><br>
 Source Type: <br>
@@ -17,7 +17,7 @@ Message Format: <br>
 Define the message format into JSON or CSV<br><br>
 Separator: <br>
 Define the separator of the message in Stream Hub for the analysis of data and the structured processing<br><br>
-![sc-018](https://github.com/jdcloudcom/cn/blob/edit/image/Streamcompute/SC-018.png?raw=true)<br><br>
+![sc-018](../../../../image/Streamcompute/SC-018.png)<br><br>
 Schema: <br>
 After the separator is defined, the parsed schema information shall be defined here. After the data is performed with structured processing, it can be performed with treatment and analysis in Stream Compute<br>
-![sc-019](https://github.com/jdcloudcom/cn/blob/edit/image/Streamcompute/SC-019.png?raw=true)
+![sc-019](../../../../image/Streamcompute/SC-019.png)

@@ -12,8 +12,8 @@ https://vpc.jdcloud-api.com/v1/regions/{regionId}/elasticIps/{elasticIpId}
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**elasticIpId**|String|True| |ElasticIp ID|
 |**regionId**|String|True| |Region ID|
+|**elasticIpId**|String|True| |ElasticIp ID|
 
 ## Request parameter
 None
@@ -23,7 +23,6 @@ None
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|Request ID|
-
 
 
 ## Response code

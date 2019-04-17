@@ -1,0 +1,12 @@
+# Delete Version
+##Operation Steps:
+
+### Step 1: Enter the configuration management list. Click the name of the configuration item. Enter the version list page.
+ 
+### Step 2: Select a version to delete.
+	 
+#### Note:
+- The configuration will also be deleted when it is the last version to be deleted. At this moment, it will redirect back to the configuration list page.
+- After deletion, no version with the same version number can be recreated under the same application.
+- Multiple versions can exist in each configuration, and each version can be released in different deployment groups.
+

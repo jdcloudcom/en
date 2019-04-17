@@ -12,20 +12,19 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/databas
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**dbName**|String|True| |Database name|
-|**instanceId**|String|True| |RDS instance ID, which uniquely identifies an RDS instance|
 |**regionId**|String|True| |Region code, with range detailed in [Regions and Availability Zone Comparison Table](../Enum-Definitions/Regions-AZ.md)|
+|**instanceId**|String|True| |RDS instance ID, which uniquely identifies an RDS instance|
+|**dbName**|String|True| |Database name|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**backupFileName**|String|True| |Specify the name of the file in the backup used to restore the database. Normally the file name (excluding the suffix) is the database name of the backup. For example, the file name is my_test_db.bak, indicating that the file is a backup of the my_test_db database.|
 |**backupId**|String|True| |Backup ID, which can be obtained from the backup query API, describeBackups|
+|**backupFileName**|String|True| |Specify the name of the file in the backup used to restore the database. Normally the file name (excluding the suffix) is the database name of the backup. For example, the file name is my_test_db.bak, indicating that the file is a backup of the my_test_db database.|
 
 
 ## Response parameter
 None
-
 
 
 ## Response code

@@ -4,7 +4,7 @@ You can create S3Client to manage OSS resources such as bucket and file. To use 
 
 ## Determine Endpoint
 
-Please read “Basic Concept” - [Access to the domain name](https://docs.jdcloud.com/cn/object-storage-service/regions-and-endpoints) to learn about relevant concepts of Endpoint.
+Please read “Basic Concept” - [Access to the domain name](https://docs.jdcloud.com/en/object-storage-service/regions-and-endpoints) to learn about relevant concepts of Endpoint.
 
 ## Configure the Secret Key
 
@@ -17,8 +17,10 @@ A pair of valid Access Keys (including Access KeyId and Access KeySecretID) to p
 After acquiring the AccessKeyId and secretAccessKeyId, you can perform initialization as per the following steps.
 
 ## Create S3Client
+
 The following example shows how to create a client. For more Java SDK samples, please access to [JD Cloud Compatible with S3 Java SDK Samples](https://github.com/jdcloud-cmw/oss/tree/master/s3-java-sdk)
-```
+
+```Java
 import com.amazonaws.auth.AWSCredentialsProvider;
 import com.amazonaws.auth.AWSStaticCredentialsProvider;
 import com.amazonaws.client.builder.AwsClientBuilder;
@@ -32,10 +34,9 @@ import com.amazonaws.SDKGlobalConfiguration;
  
 public class S3SdkTest{
     public static void main(String[] args)  {
-        final String accessKey = "your accesskey";
-        final String secretKey = "your secretkey";
-        final String endpoint = "https://s3.cn-north-1.jcloudcs.com";
-        System.setProperty(SDKGlobalConfiguration.ENABLE_S3_SIGV4_SYSTEM_PROPERTY, "true");
+        final String accessKey = "<your accesskey>";
+        final String secretKey = "<your secretkey>";
+        final String endpoint = "https://s3.<region>.jdcloud-oss.com";
         ClientConfiguration config = new ClientConfiguration();
  
         AwsClientBuilder.EndpointConfiguration endpointConfig =
@@ -54,5 +55,3 @@ public class S3SdkTest{
     }
 }
 ```
-
-

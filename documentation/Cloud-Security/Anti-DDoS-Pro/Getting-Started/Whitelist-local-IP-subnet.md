@@ -9,9 +9,9 @@ This step is only for the user that uses firewall. **It is not mandatory**.
 ## Operation Steps
 1. Log in [Anti-DDoS Pro Console](https://ip-anti-console.jdcloud.com/instancelist).
 2. On the "Instance List" page, select the target instance, then click **Instance Name** or **Forwarding Setting** to enter the Instance Details page.
-![Web Service Instance](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/web-rule%2001.png)
+![Web Service Instance](../../../../image/Advanced%20Anti-DDoS/web-rule%2001.png)
 3. Get the IP segments of Anti-DDoS Pro back-to-origin that need to be added to the white list, as shown at the red box below.
-![Anti-DDoS Pro Back-to-origin](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/instance03.png)
+![Anti-DDoS Pro Back-to-origin](../../../../image/Advanced%20Anti-DDoS/instance03.png)
 ## Related Reference
 
 - [Start Overview](Overview.md)

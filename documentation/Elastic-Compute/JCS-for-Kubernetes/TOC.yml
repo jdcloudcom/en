@@ -1,4 +1,4 @@
-  ﻿name: JCS For Kubernetes
+  name: JCS For Kubernetes
   href: 
   items:
   - name: Introduction
@@ -27,6 +27,8 @@
         href: Pricing/Purchase-Process.md
   - name: Getting Started
     items:
+      - name: Version Description
+        href: Getting-Started/Version-Notes.md
       - name: Create Clusters
         href: Getting-Started/Create-to-Cluster.md
       - name: Connect Clusters
@@ -43,6 +45,8 @@
             href: Operation-Guide/Cluster/Connect-Cluster.md
           - name: Delete Cluster
             href: Operation-Guide/Cluster/Delete-Cluster.md
+          - name: Cluster Monitoring
+            href: Operation-Guide/Cluster/Cluster-Monitor.md
       - name: Working Node Group
         items:
           - name: Working Node Group Overview
@@ -53,6 +57,8 @@
             href: Operation-Guide/NodeGroup/Telescopic-NodeGroup.md
           - name: Delete Working Node Group
             href: Operation-Guide/NodeGroup/Delete-NodeGroup.md
+          - name: Set Automatic Repair
+            href: Operation-Guide/NodeGroup/Auto-Repair.md
       - name: Cluster Dashboard
         items:
           - name: Dashboard
@@ -84,9 +90,9 @@
      - name: Create native container Pod
        items:
          - name: Deploy Virtual-Kubelet
-           href: Operation-Guide/Instance/Deploy-Virtual-Kubelet.md
+           href: Best-Practices/Create-Pod/Deploy-Virtual-Kubelet.md
          - name: Create Pod in JCS for Kubernetes
-           href: Operation-Guide/Instance/Create-Pod-InKubernetes.md
+           href: Best-Practices/Create-Pod/Create-Pod-InKubernetes.md
      - name: Deploy Helm
        href: Best-Practices/Deploy-Helm.md
   - name: FAQ  

@@ -2,13 +2,13 @@
 
 You can restore instance to the original system status by rebuild operation, which is a means of recovering when instance encounters a software failure. Also, you can replace the operating system while using current instance type by rebuild. You can choose to rebuild the instance to Linux system or  to Windows system.
 
-It shall be noted that reinstalling the system will result in the loss of all contents of system disk, and the data of data disk will not be affected (but need to be re-identified). Therefore, in the case of the need to retain system operating data, it is strongly recommended that you [Create Private Image](http://docs.jdcloud.com/cn/virtual-machines/create-private-image) before rebuilding, and then select private image when rebuilding to achieve the retention of system operating data.
+It shall be noted that reinstalling the system will result in the loss of all contents of system disk, and the data of data disk will not be affected (but need to be re-identified). Therefore, in the case of the need to retain system operating data, it is strongly recommended that you [Create Private Image](http://docs.jdcloud.com/en/virtual-machines/create-private-image) before rebuilding, and then select private image when rebuilding to achieve the retention of system operating data.
 
 ## Precondition
 
 * The instance must be in "Stopped" status. If the instance is in the "Running" status, please run [Stop Instance](Stop-Instance.md) first; if the instance is in other unstable status, please wait for the pre-order operation to complete before resizing.
 	
-		Please note that ::
+		Please note that :
 		* If instance is created based on private image and private image has been deleted, you cannot use original image to rebuild, that is, you cannot restore to the original system status. It is recommended to keep private image referenced by instance;
 		* You need to reset password when rebuilding. For Linux system you can also reassign key pair;
 
@@ -25,7 +25,7 @@ It shall be noted that reinstalling the system will result in the loss of all co
 After that, the instance will enter the "Rebuilding" status. After the reset is completed, it will be restored to the "Stopped" status. After the "Start" instance is operated, the instance can be used normally.
 ## Related Reference
 
-[Make Private Image](http://docs.jdcloud.com/cn/virtual-machines/create-private-image)
+[Make Private Image](http://docs.jdcloud.com/en/virtual-machines/create-private-image)
 
 
 [Stop Instance](Stop-Instance.md)

@@ -10,13 +10,16 @@ GET
 ## Request address
 https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/accounts
 
-|Name|Type|Required or not|Default value|Description|
+|Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**instanceId**|String|True| |RDS instance ID, which uniquely identifies an RDS instance|
 |**regionId**|String|True| |Region code, with range detailed in [Regions and Availability Zone Comparison Table](../Enum-Definitions/Regions-AZ.md)|
+|**instanceId**|String|True| |RDS instance ID, which uniquely identifies an RDS instance|
 
 ## Request parameter
-None
+|Name|Type|Required or Not|Default Value|Description|
+|---|---|---|---|---|
+|**pageNumber**|Integer|False| |The page displaying the data, which is 1 by default, with value range: [-1,∞). When the pageNumber is -1, all data pages are returned; when it exceeds the total pages, the last page is displayed;|
+|**pageSize**|Integer|False| |The data entries displayed on each page, which is 100 by default, with the value range: [10,100], which is used for searching interfaces of lists|
 
 
 ## Response parameter
@@ -24,18 +27,18 @@ None
 |---|---|---|
 |**result**|Result| |
 
-
 ### Result
 |Name|Type|Description|
 |---|---|---|
 |**accounts**|Account[]| |
+|**totalCount**|Integer| |
 ### Account
 |Name|Type|Description|
 |---|---|---|
 |**accountName**|String|Account name with specific rules detailed in the Help Center Documentation: [Name and Password Restrictions](../../../documentation/Cloud-Database-and-Cache/RDS/Introduction/Restrictions/SQLServer-Restrictions.md)|
-|**accountPrivileges**|AccountPrivilege[]|Specific Privilege|
 |**accountStatus**|String|Account status, detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)<br>- **MySQL: Not support, not return this field**<br>- **SQL Server: return this field**|
-### AccountPrivilege
+|**accountPrivileges**|AccountPrivilege[]|Specific Privilege|
+### Account
 |Name|Type|Description|
 |---|---|---|
 |**dbName**|String|Database name with specific rules detailed in the Help Center Documentation: [Name and Password Restrictions](../../../documentation/Cloud-Database-and-Cache/RDS/Introduction/Restrictions/SQLServer-Restrictions.md)|

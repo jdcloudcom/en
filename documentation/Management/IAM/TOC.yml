@@ -1,34 +1,59 @@
-  name: IAM
-  href: 
-  items:
+name: IAM
+href:
+items:
   - name: Overview
     items:
-      - name: Overview
-        href: Product-Overview.md
-  - name: Identity Management
-    items:
-      - name: Sub-user
-        href: Identity-Management/Sub-User.md
-      - name: Group(s)
-        href: Identity-Management/Group.md
-  - name: Policy Management
-    items:
-      - name: Authorization Policy Management
-        href: Policy-Managemenent/Policy-Management.md
-      - name: Authorization Policy Syntax
-        href: Policy-Managemenent/Policy-Grammar.md
-  - name: Virtual MFA Equipment
+      - name: IAM Overview
+        href: Introduction/Product-Overview.md
+      - name: Identity Management
+        href: Introduction/Benefits.md
+      - name: Application Scenarios
+        href: Introduction/Application-Scenarios.md
+      - name: Core Concepts
+        href: Introduction/Core-Concepts.md
+      - name: Restrictions
+        href: Introduction/Restrictions.md
+      - name: Cloud Products Supporting IAM
+        href: Introduction/Support-Services.md
+  - name: Operation Guide
     items:
       - name: Overview
-        href: Virtual-MFA-Management/MFA-Overview.md
-      - name: MFA Setting
-        href: Virtual-MFA-Management/MFA-Settings.md
-      - name: Login Verification
-        href: Virtual-MFA-Management/Sign-up-Verification.md
-      - name: Operation Protection
-        href: Virtual-MFA-Management/Operation-Protection.md
-      - name: Guidance for Third-party Application Installation and Usage
-        href: Virtual-MFA-Management/Third-Party-Apps.md
+        href: Overview.md
+      - name: Identity Management
+        items:
+          - name: Sub-user
+            href: Identity-Management/Sub-User.md
+          - name: Group(s)
+            href: Identity-Management/Group.md
+      - name: Policy Management
+        items:
+          - name: Policy Management
+            href: Policy-Management/Policy-Management.md 
+          - name: Policy Syntax (v2)
+            href: Policy-Management/Policy-Syntax_v2.md
+          - name: Policy (v3)
+            items:
+              - name: Element Reference
+                href: Policy-Management/Policy_v3/Elements.md
+              - name: Syntactic Structure
+                href: Policy-Management/Policy_v3/Syntax-Structure.md
+              - name: Operation Description Method
+                href: Policy-Management/Policy_v3/Action.md
+              - name: Resource Description Method
+                href: Policy-Management/Policy_v3/Resource.md
+      - name: Set
+        href: Setting.md        
+      - name: Virtual MFA Equipment
+        items:
+          - name: Overview
+            href: Virtual-MFA-Device/MFA-Overview.md   
+          - name: MFA Setting
+            href: Virtual-MFA-Device/MFA-Settings.md
+          - name: Login Verification
+            href: Virtual-MFA-Device/Sign-up-Verification.md
+          - name: Guidance for Third-party Application Installation and Usage
+            href: Virtual-MFA-Device/Third-party-Apps.md
+  - name: FAQ
+    items:
       - name: FAQ for MFA Login Verification
-        href: Virtual-MFA-Management/MFA-FAQs.md
-        
+        href: Virtual-MFA-Device/MFA-FAQs.md

@@ -12,8 +12,8 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/whiteLi
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**instanceId**|String|True| |RDS instance ID, which uniquely identifies an RDS instance|
 |**regionId**|String|True| |Region code, with range detailed in [Regions and Availability Zone Comparison Table](../Enum-Definitions/Regions-AZ.md)|
+|**instanceId**|String|True| |RDS instance ID, which uniquely identifies an RDS instance|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
@@ -23,7 +23,6 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/whiteLi
 
 ## Response parameter
 None
-
 
 
 ## Response code

@@ -5,9 +5,7 @@ Multiple RDS service instance indexes can be viewed on the console. Through the 
 1. Login [RDS Management Console](https://rds-console.jdcloud.com/database).
 2. Select the instance that requires to view monitoring information, click the target instance, and enter the instance detailed page.
 3. Select the tag of ***Monitor*** to view the cloud database monitoring items as shown below.
-
     ![image](../../../../../image/RDS/1109_17.jpg)
-
 4. The monitoring data in the dimension of 1 hour is displayed by default. There are more dimensions available, including 6 hours, 12 hours, 1 day, 3 days, 7 days and 14 days. Users can select in the date range if to view the monitoring data within 30 days.
 
 ## MySQL Monitoring Items
@@ -15,7 +13,7 @@ Multiple RDS service instance indexes can be viewed on the console. Through the 
 |---|---|---|--|
 |CPU Utilization|CPU Usage Rate of Instances|60 sec/time|30 Days|
 |Memory Usage Rate|Instance Memory Usage Rate|60 sec/time|30 Days|
-|Disk Usage| The amount of disk space used by the instance, including total disk space, data space, log space, temporary file space and system file space. Unit: GByte|60 sec/time|30 Days|
+|Hard disk usage | The amount of disk space used by the instance, including total disk space usage, user data usage, system data usage, and log file usage. Unit: MByte|60 seconds/time|30 days|
 |Incoming Network Traffic|Unit: Kbps|60 sec/Time|30 Days|
 |Outgoing Network Traffic|Unit: Kbps|60 sec/Time|30 Days|
 |Network Traffic|Incoming and Outgoing Traffic of Instances per Second. Unit: Kbps|60 sec/time|30 Days|
@@ -28,13 +26,18 @@ Multiple RDS service instance indexes can be viewed on the console. Through the 
 |InnoDB Buffer Reads|InnoDB Reads and Writes to the Buffer Pool per Second |60 sec/time|30 Days|
 |InnoDB Log Read and Write, fsync|InnoDB Number of Physical Writes per Second to Log Files, Log Write Request, Number of fsync Writes to Log Files |60 sec/time|30 Days|
 |COMDML|Database SQL Statement Executions per Second, including Insert, Delete, Insert_Select, Replace, Replace_Select, Select and Update|60 sec/time|30 Days|
+|IOPS|IO count of an instance per second, unit: times/second|60 seconds/time|30 days|
+|Table Lock Times|Request Times of Immediate Obtaining Table Lock Request Since Running an Instance to Now|60 Seconds/Time|30 Days|
+|Table Lock Waiting Times|Times of Failing to Obtaining Table Lock Requests Since Running an Instance to Now|60 Seconds/Time|30 Days|
+|Row Lock Waiting Times of InnoDB|Row Lock Waiting Times of InnoDB Table Operation Since Running an Instance to Now|60 Seconds/Time|30 Days|
+|Average Row Lock Obtaining Time by InnoDB|Average Time of Obtaining InnoDB Table Row Lock Since Running an Instance to Now|60 Seconds/Time|30 Days|
 
 ## Percona Monitoring Items
 |Monitoring Item|Description|Monitoring Frequency|Monitoring Period|
 |---|---|---|--|
 |CPU Utilization|CPU Usage Rate of Instances|60 sec/time|30 Days|
 |Memory Usage Rate|Instance Memory Usage Rate|60 sec/time|30 Days|
-|Disk Usage| The amount of disk space used by the instance, including total disk space, data space, log space, temporary file space and system file space. Unit: GByte|60 sec/time|30 Days|
+|Disk Usage|The amount of disk space used by the instance, including total hard disk space usage, user data usage, system data usage, and log file usage. Unit: MByte|60 seconds/time|30 days|
 |Incoming Network Traffic|Unit: Kbps|60 sec/Time|30 Days|
 |Outgoing Network Traffic|Unit: Kbps|60 sec/Time|30 Days|
 |Network Traffic|Incoming and Outgoing Traffic of Instances per Second. Unit: Kbps|60 sec/time|30 Days|
@@ -47,13 +50,18 @@ Multiple RDS service instance indexes can be viewed on the console. Through the 
 |InnoDB Buffer Reads|InnoDB Reads and Writes to the Buffer Pool per Second |60 sec/time|30 Days|
 |InnoDB Log Read and Write, fsync|InnoDB Number of Physical Writes per Second to Log Files, Log Write Request, Number of fsync Writes to Log Files |60 sec/time|30 Days|
 |COMDML|Database SQL Statement Executions per Second, including Insert, Delete, Insert_Select, Replace, Replace_Select, Select and Update|60 sec/time|30 Days|
+|IOPS|IO count of an instance per second, unit: times/second|60 seconds/time|30 days|
+|Table Lock Times|Request Times of Immediate Obtaining Table Lock Request Since Running an Instance to Now|60 Seconds/Time|30 Days|
+|Table Lock Waiting Times|Times of Failing to Obtaining Table Lock Requests Since Running an Instance to Now|60 Seconds/Time|30 Days|
+|Row Lock Waiting Times of InnoDB|Row Lock Waiting Times of InnoDB Table Operation Since Running an Instance to Now|60 Seconds/Time|30 Days|
+|Average Row Lock Obtaining Time by InnoDB|Average Time of Obtaining InnoDB Table Row Lock Since Running an Instance to Now|60 Seconds/Time|30 Days|
 
 ## MariaDB Monitoring Items
 |Monitoring Item|Description|Monitoring Frequency|Monitoring Period|
 |---|---|---|--|
 |CPU Utilization|CPU Usage Rate of Instances|60 sec/time|30 Days|
 |Memory Usage Rate|Instance Memory Usage Rate|60 sec/time|30 Days|
-|Disk Usage| The amount of disk space used by the instance, including total disk space, data space, log space, temporary file space and system file space. Unit: GByte|60 sec/time|30 Days|
+|Disk Usage|The amount of disk space used by the instance, including total hard disk space usage, user data usage, system data usage, and log file usage. Unit: MByte|60 seconds/time|30 days|
 |Incoming Network Traffic|Unit: Kbps|60 sec/Time|30 Days|
 |Outgoing Network Traffic|Unit: Kbps|60 sec/Time|30 Days|
 |Network Traffic|Incoming and Outgoing Traffic of Instances per Second. Unit: Kbps|60 sec/time|30 Days|
@@ -66,6 +74,11 @@ Multiple RDS service instance indexes can be viewed on the console. Through the 
 |InnoDB Buffer Reads|InnoDB Reads and Writes to the Buffer Pool per Second |60 sec/time|30 Days|
 |InnoDB Log Read and Write, fsync|InnoDB Number of Physical Writes per Second to Log Files, Log Write Request, Number of fsync Writes to Log Files |60 sec/time|30 Days|
 |COMDML|Database SQL Statement Executions per Second, including Insert, Delete, Insert_Select, Replace, Replace_Select, Select and Update|60 sec/time|30 Days|
+|IOPS|IO count of an instance per second, unit: times/second|60 seconds/time|30 days|
+|Table Lock Times|Request Times of Immediate Obtaining Table Lock Request Since Running an Instance to Now|60 Seconds/Time|30 Days|
+|Table Lock Waiting Times|Times of Failing to Obtaining Table Lock Requests Since Running an Instance to Now|60 Seconds/Time|30 Days|
+|Row Lock Waiting Times of InnoDB|Row Lock Waiting Times of InnoDB Table Operation Since Running an Instance to Now|60 Seconds/Time|30 Days|
+|Average Row Lock Obtaining Time by InnoDB|Average Time of Obtaining InnoDB Table Row Lock Since Running an Instance to Now|60 Seconds/Time|30 Days|
 
 ## SQL Server Monitoring Items
 |  Monitoring Item  |  Description  |  Monitoring Frequency  |  Monitoring Period  |
@@ -90,3 +103,11 @@ Multiple RDS service instance indexes can be viewed on the console. Through the 
 |  Lock Timeouts per Second  |  Lock Timeouts per Second  |  60 sec/time  |  30 Days  |
 |  Deadlocks per Second  |  Deadlocks per Second  |  60 sec/time  |  30 Days  |
 |  Lock Waits per Second  |  Lock Waits per Second  |  60 sec/time  |  30 Days  |
+
+## PostgreSQL Monitoring Items
+|Monitoring Items|Description|Monitoring Frequency|Monitoring Period||
+|---|---|---|--|
+|CPU Utilization Rate|CPU Utilization Rate of Instance|60 Seconds/Time|30 Days|
+|Memory Utilization Rate|Memory Utilization Rate of Instance|60 Seconds/Time|30 Days|
+|Hard Disk Usage|The disk space usage of instance, including total disk space usage, user data usage, log file usage and system data usage. Unit: MByte|60 seconds/time|30 days|
+|Current Connection Number|Active and Total Connection Numbers of Instance|60 Seconds/Time|30 Days|

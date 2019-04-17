@@ -4,7 +4,7 @@ Anti-DDoS Basic is a free service that JD Cloud provides to counter common cloud
 
 ## Protection Architecture
 
-![Protection Architecture](https://github.com/jdcloudcom/cn/blob/edit/image/Basic%20Anti-DDos/best_pritice.png)
+![Protection Architecture](../../../../image/Basic%20Anti-DDos/best_pritice.png)
 
 
 ## Benefits

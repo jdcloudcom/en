@@ -1,4 +1,4 @@
-﻿ name: Container Registry
+  name: Container Registry
   href: 
   items:
   - name: Introduction
@@ -18,7 +18,7 @@
   - name: Pricing
     items:
       - name: Billing Overview
-        href: Pricing/Pricing.md
+        href: Pricing/Billing-Overview.md
       - name: Price Overview
         href: Pricing/Price-Overview.md
       - name: Purchase Process

@@ -5,12 +5,12 @@ Message Queue JCQ SDK supports four sequential message modes: synchronously send
 
 ## Different Message Sending Methods
 
-| Message Sending Methods     | TPS  |  Throughput  |  Application Scenarios                                                     |
-| ---------------- | ---- | ------ | ------------------------------------------------------------ |
-| Send a single message synchronously | Fast | Higher     | Synchronous sending is mainly used is in the business that needs to return the result fastest, such as the recharge result or the feedback of sending result of SMS and email. |
-| Send batch messages synchronously | Faster | High     | Ditto                                                          |
-| Send a single message asynchronously | Fast   | Higher   | Asynchronous sending is mainly used in business scenarios where the business process is longer or the server feedback is slower. For example, the queuing process in the seckill scenario can return that the user is queuing and the seckill result will be returned to the user later; or after the code is running, it returns that the user program is running and the running result will be returned later. |
-| Send batch messages asynchronously | Faster | High     | Ditto                                                         |
+| Message Sending Methods     | TPS  |  Throughput  |Principle |  Application Scenarios                                                     |
+| ---------------- | ---- | ------ |---| ------------------------------------------------------------ |
+| Send a single message synchronously | Fast | Medium     | Synchronous sending refers to the communication way in which a message sender will not send the next request until the message sender receives the response from the receiver after the message sender sends a request. |Synchronous sending is mainly used is in the business that needs to return the result fastest, such as the recharge result or the feedback of sending result of SMS and email. |
+| Send batch messages synchronously | Medium | High     | Synchronous batch sending means that messages are sent in batches on the basis of synchronous sending, that multiple messages can be sent at one request, and that the corresponding server will return the response at a slower rate|                                                           |
+| Send a single message asynchronously | Fastest   | Higher   | Asynchronous sending refers to the communication way in which the sender sends the next request without waiting for the response from the receiver (the response result needs to be obtained by the user through the callback function) after the senders sends the request. |Asynchronous sending is mainly used in business that is not sensitive to sending results but is sensitive to response time, such as log collection. |
+| Send batch messages asynchronously | Faster | Highest     | Asynchronous batch sending refers to batch sending on the basis of asynchronous sending and then sending the next batch request. |                                                         |
 
 
 ## Configurable Parameters
@@ -20,7 +20,7 @@ Message Queue JCQ SDK supports four sequential message modes: synchronously send
 | PROPERTY_DELAY_TIME | The message deferred time can be set, ranging from 0-3,600 seconds     |
 
 ## Code Example
-```java
+```Java
 package com.jcloud.jcq.sdk.demo;
 
 import com.jcloud.jcq.common.constants.MessageConstants;

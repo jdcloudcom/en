@@ -12,7 +12,7 @@ Otherwise this request will be denied and HTTP 403, Authentication failed error,
 
 ### The rule for generation of signature is as follows:
 
-String obtained by using secretKey to encrypt signSource with **hmac-sha1**
+String obtained by using secretKey to encrypt signSource with **hmac-sha1**, and then code with Base64
 
 ### The rule for generation of signSource is as follows:
 
@@ -26,7 +26,7 @@ and finally, all the Messages are concatenated using English commas in the order
 
 ### Sample Code (Python3)
 
-```python
+```Python
 #!/home/lizhijian/opt/python3.7/bin/python3
 
 import base64

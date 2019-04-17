@@ -83,7 +83,7 @@
     
 	You can select **Set Now** or **Set Later** during the login password setting, if you choose "Set Later", the system will send a random password by SMS and mail when using the starting template to create VM instance. We recommend that you could change the password through the console after VM instance creation.    
     
-	For Linux system, you can also choose the key pair to login and associate the created key pair to conduct safer instance login verification. Please refer to [Key Pair](../Key-Pair/KeyPair-Overview) for detailed key pair creation and login help.
+	For Linux system, you can also choose the key pair to login and associate the created key pair to conduct safer instance login verification. Please refer to [Key Pair](../Key-Pair/KeyPair-Overview.md) for detailed key pair creation and login help.
 
 
 The instance template service is free, the information you have configured is displayed on the right side of the create page, and the estimated cost based on the instance template and your configuration is also displayed: Including monthly cost in the case of monthly package and hourly cost in the case of billing by configuration. It includes the cost of the cloud disk and the EIP with billing by fixed bandwidth, the EIP cost should be listed separately if you choose billing by traffic.
@@ -94,4 +94,4 @@ The instance template service is free, the information you have configured is di
 
 [Instance Type](http://docs.jdcloud.com/cn/virtual-machines/instance-type-family)
 
-[Key Pair](../Key-Pair/KeyPair-Overview)
+[Key Pair](../Key-Pair/KeyPair-Overview.md)

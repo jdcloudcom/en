@@ -1,6 +1,6 @@
 # Document History Records
 
-This document introduces the important updating history of the cloud resolution product documentation, including material properties of the new product and updates to the content based on the users' feedback.
+This document introduces the important updating history of the JD Cloud DNS product documentation, including material properties of the new product and updates to the content based on the users' feedback.
 
 | Launch Date|Property|Description|
 |-|-|-|

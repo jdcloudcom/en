@@ -23,10 +23,10 @@ Disk Write IOPS| Average times of random write I/O operations per second |Nr./Se
 
 Monitoring Indicator | Definition | Unit |Description
 ---|---|---|---
-Public Network Input Package Number | EIP Average Input Data Package Number per Second |byte |Data package number input from public network via this EIP to user cloud resources per second
-Public Network Output Package Number | EIP Average Output Data Package Number per Second |byte |Data package number sent by user cloud resources to public network via this EIP per second
-Public Network Input Rate | EIP Average Input Traffic per Second |Nr./Second |Average data stream rate input from public network via this EIP to user cloud resources per second
-Public Network Output Rate | EIP Average Output Traffic per Second |Nr./Second |Average data stream rate sent by user cloud resources to Public network via this EIP per second
+Public Network Input Package Number | EIP Average Input Data Package Number per Second |pps |Data package number input from public network via this EIP to user cloud resources per second
+Public Network Output Package Number | EIP Average Output Data Package Number per Second |pps |Data package number sent by user cloud resources to public network via this EIP per second
+Public Network Input Rate | EIP Average Input Traffic per Second |bps |Average data stream rate input from public network via this EIP to user cloud resources per second
+Public Network Output Rate | EIP Average Output Traffic per Second |bps |Average data stream rate sent by user cloud resources to Public network via this EIP per second
 
 ## CDN Monitoring Metrics
 

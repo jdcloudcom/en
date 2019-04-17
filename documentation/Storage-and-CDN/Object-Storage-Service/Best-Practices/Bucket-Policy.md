@@ -2,7 +2,7 @@
 
 Due to the space permission management upgrade of Object Storage Service, to protect your business and use against influence and to guarantee the understanding to the permission and function of the new version (Bucket Policy), relevant descriptions will be listed in this document.
 
-Once the Bucket Policy function is launched, the original Bucket ACL will be expanded from "Private" and "Public Read" to support "Private", "Public Read", "Public Read and Private Write" and "Customized Permission". In which, the "Customized Permission" is used as the senior permission setting of Bucket and you can carry out the permission management to the user and resource in the customized permission;
+Once the Bucket Policy function is launched, the original Bucket ACL will be expanded from "Private" and "Public Read" to support "Private", "Public Read", "Public Read and Private Write" and "Customized Permission". In which, the "Customized Permission" is used as the senior permission setting of Bucket and you can carry out the permission management to the user(including the primary user and the sub-user) and resource in the customized permission;
 
 Once the function is upgraded, the original Referer in the console must be set in the Bucket Policy of the "Customized Permission". For specific details, please refer to the figure below:
 

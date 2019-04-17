@@ -30,4 +30,4 @@ Public IP address: it can be applied for independently, supporting dynamic assoc
 For details, refer to the [EIP operating guide][1].
 
 
-  [1]: https://docs.jdcloud.com/cn/elastic-ip/product-overview
+  [1]: https://docs.jdcloud.com/en/elastic-ip/product-overview

@@ -30,6 +30,8 @@ Opening Requirements: To ensure your normal use, the sum of your account balance
 
 In the pay-as-you-go mode, the bill for the previous hour will be generated according to the instance type and actual usage time and charge is then cleared.
 
+**Note, billing will be continued when Virtual Machines are in stop status.**
+
 ### Instructions for Service Stop Due to Arrears
 * If the available balance of your account (including cash balance, available coupons) cannot settle the issued bill of the instance, the system will determine the instance in arrears and your instance billing state will become in arrears;
 * When your Virtual Machines become in arrears, the services will be stopped 24 hours after the arrears, and you will not be billed after the services are stopped;

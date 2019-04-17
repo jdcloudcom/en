@@ -10,7 +10,7 @@ items:
   - name: Pricing
     items:
     - name: Billing Overview
-      href: Pricing/Pricing.md
+      href: Pricing/Billing-Overview.md
   - name: Getting Started
     items:
     - name: Quick Guidance
@@ -31,13 +31,13 @@ items:
       href: Best-Practices/Endpoint-Security.md
   - name: Tutorial
     items:
-    status:0       
+    status: 0       
   - name: FAQ
     href: FAQ/FAQ.md
   - name: Troubleshooting
     href: Troubleshooting/Uninstall-Endpoint-Security.md
   - name: API Reference
     href: 
-    status:0
+    status: 0
   - name: Document History
     href: Related-Resources/Document-History.md

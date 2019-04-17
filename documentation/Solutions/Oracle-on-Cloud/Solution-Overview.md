@@ -9,7 +9,7 @@ JD Cloud released the Oracle access solution to assist digital transformation of
 
 ## Key Points
 ### 1. Shared Storage
-Multi-point attachment function of JD cloud disk can achieve "shared storage” of disk. A single cloud disk can be attached on multiple virtual machines at the same time, and each instance can be used for reading/writing data from/in any area of such cloud disk. About multi-point fault function of the cloud disk, you can refer to the [Cloud Disk Service Help Documentation](https://docs.jdcloud.com/cn/cloud-disk-service/multiattachdisk)
+Multi-point attachment function of JD cloud disk can achieve "shared storage” of disk. A single cloud disk can be attached on multiple virtual machines at the same time, and each instance can be used for reading/writing data from/in any area of such cloud disk. About multi-point fault function of the cloud disk, you can refer to the [Cloud Disk Service Help Documentation](https://docs.jdcloud.com/en/cloud-disk-service/multiattachdisk)
 ### 2. Network Multicast
 Considering the stability and security of the network, JD Cloud does not support network multicast. We can use the software from a third party to achieve the multicast function required for Oracle RAC; refer to the document that follows for details.
 

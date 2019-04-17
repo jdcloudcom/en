@@ -39,7 +39,7 @@ Region code|Region name
 cn-north-1 | North China-Beijing 
 cn-east-1 | East China-Suqian 
 cn-east-2 | East China-Shanghai 
-cn-south-1 | South China-Guangzhou 
+cn-south-1 | South China-Guangzhou  
                          
 
 
@@ -96,7 +96,7 @@ Recommend direct use of JD Cloud SDK for access to JD Cloud OpenAPI. Please refe
 
 [Node.js](/SDK/nodejs/Nodejs.md)
 
-[PHP](/SDK/PHP.md)
+[PHP](/SDK/PHP/PHP.md)
 
 [.Net](/SDK/dotnet/dotnet.md)
 

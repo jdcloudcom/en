@@ -15,8 +15,8 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/containers/{containerId}:associ
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**containerId**|String|True| |Container ID|
 |**regionId**|String|True| |Region ID|
+|**containerId**|String|True| |Container ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
@@ -30,13 +30,12 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/containers/{containerId}:associ
 |**requestId**|String| |
 
 
-
 ## Response code
 |Return code|Description|
 |---|---|
+|**200**|OK|
 |**400**|Invalid parameter|
 |**401**|Authentication failed|
 |**404**|Not found|
-|**503**|Service unavailable|
-|**200**|OK|
 |**500**|Internal server error|
+|**503**|Service unavailable|

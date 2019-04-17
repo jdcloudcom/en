@@ -1,0 +1,239 @@
+<div class="jdc-trusted">
+    <div class="jdc-common-banner">
+        <div class="w">
+            <div class="jdc-common-banner-ct">
+                <h4 class="jdc-common-banner-tit">Trust Center</h4>
+                <p class="jdc-common-banner-txt">
+                    By taking users as the core and adopting JD's many years of security technology and experience, JD Cloud is providing compliant, safe and stable cloud computing services to fully protect the security capabilities of the cloud platform. Through the construction of security ecology, users can easily experience JD Cloud Security capabilities.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="jdc-common-floor-item">
+        <h4 class="jdc-common-floor-tit">JD Cloud Security White Paper</h4>
+        <div class="jdc-trusted-floor1 w">
+            <p>
+                JD Cloud takes the users as the core, integrating JD’s professional security team, provides users with all-around security protection measures to ensure the business security and stability of the users business, so that users can rest assured access cloud. JD's many years of security technology and experience serve in providing compliant, safe and stable cloud computing services to fully protect the security operation capabilities of the cloud platform. Through the construction of security ecology, users can easily experience JD Cloud Security capabilities.
+                <a clstag="Service|keycount|MiddleContentSec|Service_TrustCenter_1" href="//img1.jcloudcs.com/portal/pdf/JDCloud-Security-WhitePaper-201809.pdf" target="_blank" class="jdc-link2">View Now</a>
+            </p>
+        </div>
+    </div>
+    <div class="jdc-common-floor-item jdc-bg-gray2">
+        <h4 class="jdc-common-floor-tit">Compliance Qualification</h4>
+        <div class="jdc-trusted-floor2 w">
+            <p class="txt">
+                JD Cloud has been working to improve cloud security system, build security compliance capacity and constantly improve their own management and mechanism according to industry security best practices and various IT security standard design. What is more, it has passed a series of standard verification, third-party security evaluation and audit, seek to better provide users with cloud computing services of compliance, security and stability.
+            </p>
+            <div class="row">
+                <div class="col-3 col-xs-6">
+                    <div class="trusted-row-item">
+                        <img src="//img1.jcloudcs.com/cms/63bd6d71-65e8-431d-91c0-e8471306146b20180419130628.jpg">
+                        <h4>Information Security Management System International Certification</h4>
+                    </div>
+                </div>
+                <div class="col-3 col-xs-6">
+                    <div class="trusted-row-item">
+                        <img src="//img1.jcloudcs.com/cms/4aec5d81-75fa-48a0-94c6-c316a23f671920180419130620.png">
+                        <h4>Level Protection Evaluation by the Ministry of Public Security</h4>
+                    </div>
+                </div>
+                <div class="col-3 col-xs-6">
+                    <div class="trusted-row-item">
+                        <img src="//img1.jcloudcs.com/cms/f7722a8b-6cd5-4875-95a5-f56dcc58f16020180419130642.png">
+                        <h4>Trusted Cloud Service Certification</h4>
+                    </div>
+                </div>
+                <div class="col-3 col-xs-6">
+                    <div class="trusted-row-item">
+                        <img src="//img1.jcloudcs.com/cms/c59c8191-3336-49f7-8172-e146937c1cbd20180419185550.png">
+                        <h4>Standard Evaluation for Information Technology Services</h4>
+                    </div>
+                </div>
+                <div class="col-3 col-xs-6">
+                    <div class="trusted-row-item">
+                        <img src="//img1.jcloudcs.com/portal/service/pci-dss.png">
+                        <h4>Payment Card Industry Data Security Standard</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="jdc-common-floor-item">
+        <h4 class="jdc-common-floor-tit">JD Cloud Security</h4>
+        <div class="jdc-trusted-floor3 w">
+            <div class="jdc-bar js-bar-tab">
+                <div class="w f-cb">
+                    <div class="jdc-bar-nav is-more hidden-xs">
+                        <div class="nav-item" data-tab-idx="0"><a
+                          clstag="Service|keycount|MiddleContentSec|Service_TrustCenter_2"
+                          href="javascript:;">Share Security Responsibility</a></div>
+                        <div class="nav-item" data-tab-idx="1"><a
+                          clstag="Service|keycount|MiddleContentSec|Service_TrustCenter_3"
+                          href="javascript:;">Basic Architecture Security</a></div>
+                        <div class="nav-item" data-tab-idx="2"><a
+                          clstag="Service|keycount|MiddleContentSec|Service_TrustCenter_4"
+                          href="javascript:;">Cloud Product Service Security</a></div>
+                        <div class="nav-item" data-tab-idx="3"><a
+                          clstag="Service|keycount|MiddleContentSec|Service_TrustCenter_5"
+                          href="javascript:;">Cloud Security Product Service</a></div>
+                        <div class="nav-item" data-tab-idx="4"><a
+                          clstag="Service|keycount|MiddleContentSec|Service_TrustCenter_6"
+                          href="javascript:;">Cloud Security Operation Management</a></div>
+                        <div class="nav-more"><a clstag="Service|keycount|MiddleContentSec|Service_TrustCenter_7"
+                                                 href="javascript:;">More<i class="jdcfont">?</i></a>
+                            <div class="nav-sub">
+                                <div data-tab-idx="5" class="nav-item on"><a
+                                  clstag="Service|keycount|MiddleContentSec|Service_TrustCenter_8" href="javascript:;">JD Cloud Security Ecology</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="model-tab-content">
+                        <div class="model-tab-item">
+                            <div class="model-tab-item-hd active">Share Security Responsibility</div>
+                            <div class="model-tab-item-bd">
+                                <p>Security and compliance are the common responsibility of JD Cloud and the user. JD Cloud is responsible for security of cloud platform itself, while user is responsible for business security of cloud platform.</p>
+                                <table class="trusted-table">
+                                    <colgroup>
+                                        <col width="10%">
+                                        <col width="20%">
+                                        <col width="20%">
+                                        <col width="20%">
+                                        <col width="15%">
+                                        <col width="15%">
+                                    </colgroup>
+                                    <tr>
+                                        <td rowspan="4">User</td>
+                                        <td colspan="3">User Data</td>
+                                        <td rowspan="2">User Data Security</td>
+                                        <td rowspan="4">Identity Management and Resource Identity and Access Management</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Client Data Encryption & Integrity Verification</td>
+                                        <td>Server-side Encryption (File System/Data)</td>
+                                        <td>Network Transmission Protection (Encryption/Completion/Identity Authentication)</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="3">Platform, Application Program, Identity and Access Management</td>
+                                        <td rowspan="2">User Platform and Application Security</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="3">Operating System, Network and Firewall Configuration</td>
+                                    </tr>
+                                </table>
+                                <table class="trusted-table trusted-table-2">
+                                    <colgroup>
+                                        <col width="10%">
+                                        <col width="15%">
+                                        <col width="15%">
+                                        <col width="15%">
+                                        <col width="15%">
+                                        <col width="15%">
+                                        <col width="15%">
+                                    </colgroup>
+                                    <tr>
+                                        <td rowspan="4">JD Cloud</td>
+                                        <td colspan="4">Virtual Machine, Cloud Disk Service, Cloud Database, Cloud Storage, Cloud Security and Cloud Operating System</td>
+                                        <td rowspan="2">Cloud Platform and Application Security</td>
+                                        <td rowspan="4">Identity Management and Resource Identity and Access Management</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Computation</td>
+                                        <td>Storage</td>
+                                        <td>Database</td>
+                                        <td>Network</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="4">JD Cloud Infrastructure</td>
+                                        <td rowspan="2">Infrastructure Security</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">Region (Region)</td>
+                                        <td>Zone (AZ)</td>
+                                        <td>Edge Site</td>
+                                        <!--<td colspan="4" class="td-clear">
+                                            &lt;!&ndash;<table>
+                                                <tr>
+                                                    <td>Region (Region) </td>``
+                                                    <td>Zone (AZ)</td>
+                                                    <td>Edge Site</td>
+                                                </tr>
+                                            </table>&ndash;&gt;
+                                            <div class="g-table">
+                                                <div class="g-cell"><div class="cell-item">Region (Region)</div></div>
+                                                <div class="g-cell"><div class="cell-item">Zone (AZ)</div></div>
+                                                <div class="g-cell"><div class="cell-item mr0">Edge Site</div></div>
+                                            </div>
+                                        </td>-->
+                                    </tr>
+                                </table>
+                                <p>JD Cloud is responsible for the security control and management of infrastructure, physical device resources, cloud operating system and cloud service products, and constructs multi-dimensional stereoscopic security protection system of infrastructure, platform and application, identity management and resource IAM based on cloud products and security services of security, compliance, high availability, best practices and secure, and ensure its operation and maintenance security.</p>
+                                <p>Cloud users construct cloud application systems based on the services provided by JD Cloud, and protect their own business systems by the cloud products and security service of JD Cloud Security and safety ecological third party safety products. Cloud users are responsible for customized configuration, self-deployment as well as operation and maintenance of the network, systems, applications, management, data, security and other services used on the cloud platform. Cloud users are responsible for the safe use of cloud platform to guarantee the business security design, data protection, verification encryption and other necessary security measures and functional implementation; managing account password and personnel authorization, developing application and operating business safely.</p>
+                            </div>
+                        </div>
+                                   <div class="model-tab-item">
+                            <div class="model-tab-item-hd">Basic Architecture Security</div>
+                            <div class="model-tab-item-bd">
+                                <h5>Facility Security</h5>
+                                <p>JD Cloud implements stricter IDC standards, server access standards and operation and maintenance standards and has realized the Region regional level, AZ Availability Zone level, and FD fault domain level disaster tolerance abilities, based on which the entire line of products further realized high available architecture and stable service quality in different dimensions.</p>
+                                <h5>Physical and Environmental Security</h5>
+                                <p>JD Cloud contains multilevel security measures in the data center, and the operation and maintenance team strictly implements IAM, security measures, routine monitoring and audit, emergency response and other measures to ensure the physical and environmental security of JD Cloud Data Center.</p>
+                                <h5>Network Security</h5>
+                                <p>JD Cloud provides mature network security architecture and multi-layer protection security scheme. It provides security isolation and strict IAM between production network and non-production network, business network and management network, virtual network and physical network.</p>
+                                <h5>Data Security</h5>
+                                <p>JD Cloud adheres to advanced industry standards for data security lifecycle management, and aims to construct a comprehensive data security system through management and technology. In the aspects of identity verification, permission management, IAM, data encryption, data isolation, transmission security, storage security, data destruction and so on, guarantee that the user's right to privacy, ownership and control of the data are not infringed, and provide users with the most effective data protection.</p>
+                            </div>
+                         </div>
+                        <div class="model-tab-item">
+                            <div class="model-tab-item-hd">Cloud Product Service Security</div>
+                            <div class="model-tab-item-bd">
+                                <h5>Virtual Machine Security</h5>
+                                <p>The network between users will be subject to 100% isolation and the machine’s security risks will be monitored in real time to precisely defend hacker intrusions and ensure the data security of the user. The security group is provided to enhance the network defense capability and provide comprehensive protection for the machine.</p>
+                                <h5>Content Distribution Network Security</h5>
+                                <p>CDN has implemented Referer Anti-Leech, URL authentication, IP blacklist, security protection and security audit in the aspects of IAM, security protocol and network attack protection. It provides users with low-cost, high-performance and extensible Internet content distribution services.</p>
+                                <h5>Virtual Private Cloud (VPC) Security</h5>
+                                <p>Virtual Private Cloud VPC is the expression of user network on JD Cloud. It contains a series of network and security functions and is isolated from other VPC logic. The primary protection of security group is realized in the instance level, the secondary protection of network ACL is achieved in the subnet level, and 100% security isolation of network is realized between VPCs so that the access control without dead space can be reached for the resources in the whole network.</p>
+                                <h5>Object Storage Service Security</h5>
+                                <p>Based on cross-region cloud storage backup, through identity authentication, ACL IAM and other authentication methods and white list Anti-Leech, HTTPS transmission encryption of data is carried out during transmission, and the security and reliability of user data storage are ensured by multiple protective measures.</p>
+                                <h5>Relational Database Security</h5>
+                                <p>Relational database has high availability, instance disaster tolerance, IAM and data encryption. It supports the Primary-secondary hot standby architecture by default, and provides complete solutions such as data backup, fault recovery and monitoring.</p>
+                            </div>
+                        </div>
+                        <div class="model-tab-item">
+                            <div class="model-tab-item-hd">Cloud Security Product Service</div>
+                            <div class="model-tab-item-bd">
+                                <h5>Anti-DDoS Basic</h5>
+                                <p>Anti-DDoS Basic protection capability: After the user successfully applies for EIP and the attack traffic exceeds the cleaning trigger value, the EIP will trigger the black hole status. Withstand mass-traffic attacks, such as SYN Flood and ICMP Flood.</p>
+                                <h5>Anti-DDoS Pro</h5>
+                                <p>Anti-DDoS Pro is an Anti-DDoS security value-added service launched based on JD Mall’s years of actual experience in attack protection. It aims to secure the user’s server in case the user suffers mass-traffic DDoS attacks.</p>
+                                <h5>Endpoint Security</h5>
+                                <p>The endpoint security risks can be perceived in real time by deploying lightweight Agent on the virtual machines, so that the malicious attack behaviors can be effectively prevented. It provides machine defense and detection capabilities including important risk vulnerability detection, remote login reminder, Webshell detection and killing and brute force anti-crack, to ensure the security of public virtual machine.</p>
+                                <h5>Cloud Situation Awareness</h5>
+                                <p>It is the security decision capacity provided to the lessee, which based on the public cloud computing environment and with full authorization of the user and collects mass data of each security component, improves finding, identification, understanding, analysis, response and disposal to the security threat from the global view by big data association analysis and machine learning of technique, ultimately provides user with security decision-making capabilities.</p>
+                                <h5>Web Application Firewall</h5>
+                                <p>It is the professional security protection service launched by JD Cloud. It can defense SQL injection, XSS cross-site script, common vulnerabilities of Web server and plug-in, Webshell upload and common attacks of OWASP, withstand malicious CC attacks, avoid leakage of website asset data, to ensure the safety and availability of the website.</p>
+                                <h5>Application Security Gateway</h5>
+                                <p>It is a Web application security protection product based on JD Cloud high-performance load balancer cluster, which guarantees stable and sustainable running of business and improve users’ experience by providing WAF function, business security visualization, BOT behavior management and compliance inspection and other functions so as to solve exception or compliance problems of Web or APP businesses caused by attacks for network service providers.</p>
+                                <h5>SSL Certificate</h5>
+                                <p>It provides certificate upload, download, management and other functions, which may issue Symantec, GlobalSign and GeoTrust certificates; it offers perfect HTTPS solutions for websites and mobile applications.</p>
+                            </div>
+                        </div>
+                        <div class="model-tab-item">
+                            <div class="model-tab-item-hd">Cloud Security Operation Management</div>
+                            <div class="model-tab-item-bd">
+                                <p>Inheriting from more than ten years' experience of internet e-commerce security operation service, JD Cloud Security Operational Service, through multilevel, multi-dimensional and real-time monitoring and offline analysis, provides systematic security service for cloud tenants, solves all kinds of unexpected security incidents, to enhance the business system risk-resistant ability of cloud tenant and prevent the system from happening serious security events.</p>
+                            </div>
+                        </div>
+                        <div class="model-tab-item">
+                            <div class="model-tab-item-hd">JD Cloud Security Ecology</div>
+                            <div class="model-tab-item-bd">
+                                <p>JD Cloud will enhance cloud computing security service capability throughout China by constructing cloud service security ecology and cloud service security big data shared platform. It conducts capacity sharing, resource sharing, profit sharing and ecological sharing and develops deep cooperation with security partners. It creates a brand new “Internet +" solutions, trains industry genes, and actively works with global security partners to create an open, collaborative, win-win cloud security ecosystem.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

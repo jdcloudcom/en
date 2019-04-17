@@ -41,14 +41,14 @@ After the message is sent successfully, it needs to consume the message accordin
 Take Java SDK as an example, other ways and development languages please refer to other chapters.
 
 1. Introduce dependency
-```
+```XML
 <dependency>
    <groupId>com.jdcloud</groupId>
    <artifactId>jcq-java-sdk</artifactId>
    <version>1.0.2</version>
 </dependency>
 ```
-2. For sending and subscription codes, please refer to the demo example:[jcq-sdk-demo.zip](http://jcq-inuse-important-cannotdelete.oss.cn-north-1.jcloudcs.com/jcq-sdk-demo.zip)。
+2. For sending and subscription codes, please refer to the demo example:[jcq-sdk-demo.zip](http://jcq-inuse-important-cannotdelete.oss.cn-north-1.jcloudcs.com/jcq-sdk-demo.zip).
 
 ### Note:
 

@@ -5,16 +5,29 @@ The creation specification is a compiling script used for creating commands and 
 The creation specification syntax is as follows:
 
 ```
-envs:
-name: TEST_ENV
-value: test
+---
+# Set environment variable
+#envs:
+#  - name: 'name1' Name of Environment Variable
+#    value: 'value1' Value of Environment Variable
+#  - name: 'name2' Use list method to set multiple values
+#    value: 'value2'
+
+# Set compilation command
+#cmds: 
+#  - name: 'do make'  Compile step name
+#    cmd: 'make'      Compile command, which is executed under path of PATH by default while others shall be provided with absolute paths
+#  - name: 'do install'
+#    cmd: 'make install'
 cmds:
-name: who
-cmd: id
-name: see
-cmd: pwd
-name: build
-cmd: ./build.sh
-out_dir: output
+  - name: 'list current dir'
+    cmd: 'ls'
+  - name: 'make output dir'
+    cmd: 'mkdir -p output bin var src'
+  - name: 'copy to output dir'
+    cmd: 'cp -r bin var src output'
+
+# Package-extracting path is the required choice
+out_dir: 'output'
 ```
 

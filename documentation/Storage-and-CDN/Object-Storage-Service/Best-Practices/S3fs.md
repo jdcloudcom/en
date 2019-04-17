@@ -49,7 +49,7 @@ chmod 600: Only the current user can access the key file setting.
 
 ```
 mkdir /new
-s3fs bucketname /new -o passwd_file=~/.passwd-s3fs -o url="https://s3.cn-north-1.jcloudcs.com"
+s3fs bucketname /new -o passwd_file=~/.passwd-s3fs -o url="https://s3.cn-north-1.jdcloud-oss.com"
 ```
 Description
 
@@ -106,12 +106,12 @@ Note: --prefix=/usr/local is not required; PKG_CONFIG_PATH is required, /usr/loc
 If you use non-root account when mounting the Bucket via Mac OS, please specify uid and gid of current account when the mount command is specified. Examples are as follows:
 
 ```
-sudo s3fs bucketname /new -o passwd_file=~/.passwd-s3fs -o url="https://s3.cn-north-1.jcloudcs.com" -o uid=11111 -o gid=11111
+sudo s3fs bucketname /new -o passwd_file=~/.passwd-s3fs -o url="https://s3.cn-north-1.jdcloud-oss.com" -o uid=11111 -o gid=11111
 ```
 
-3. When mounting Object Storage Service with the s3fs-fuse tool and copying files with cp commands, the following solutions can be taken when the file mime-type is modified:
+3. When attaching JD Cloud Object Storage Service with the s3fs-fuse tool and copying files with cp commands, the following methods can be taken when the file does not have the content-type:
 
-- Use the `cp` command to copy files; the actions carried by the `s3fs-fuse` tool on the bottom are dependent on the file `/etc/mime.types` and the file determines the mime-type attribute of the `cp` command target file.
+- Use the `cp` command to copy files; the operations performed by the `s3fs-fuse` tool underlayer are dependent on the `/etc/mime.types` file, which determines the mime-type attribute of the `cp` command target file. Please view if there is this file under your directory.
 
 - By default, the centos7 revision of JD Cloud does not contain the `/etc/mime.types` file. Thus, it needs to obtain such file by copying or installing httpd and the installation command is yum install httpd.
 

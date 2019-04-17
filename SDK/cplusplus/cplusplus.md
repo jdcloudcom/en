@@ -107,7 +107,7 @@ devenv Demo.sln /build
 Open the Demo.sln solution using Visual Studio, compile.
 
 ## Call Method
-```
+```C++
 // reference header files
 #include "Credential.h"
 #include "JdcloudSigner.h"

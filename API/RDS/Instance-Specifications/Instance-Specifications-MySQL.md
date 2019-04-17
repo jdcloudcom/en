@@ -1,6 +1,6 @@
 # MySQL Specifications
 
-|	instanceClass	|	CPU(Core)	|	Memory(GB)	|	Disk(GB)	|
+|	instanceClass	|	CPU (Core)|Memory(GB)|Disk(GB)	|
 |:-|:-|:-|:-|
 |	db.mysql.s1.micro	|	1	|	1	|	20	|
 |		|	1	|	1	|	40	|

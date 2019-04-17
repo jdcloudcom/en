@@ -235,8 +235,10 @@ GPU Type currently provides GPU Standard Type, providing you with a heterogeneou
 * Heterogeneous Computing
 * GPU：
 	* Nvidia Tesla P40 
+	* Nvidia Tesla V100
 * Processor:
-	* Intel Xeon E5-2683 v4 (Broadwell) processor with 2.1 GHz dominant frequency
+	* Intel Xeon E5-2683 v4 (Broadwell) processor with 2.1 GHz dominant frequency(P40)
+	* Intel Xeon E5-2650 v4 (Broadwell) processor (V100) with 2.2 GHz dominant frequency
 * Support the local data disk (temporary storage), please note that, **local data disk data will be cleared when shutdown occurs**, and support the following two Cloud Disk Services:
 	* Premium Hdd Cloud Disk
 	* SSD Cloud Disk
@@ -250,7 +252,7 @@ GPU Type currently provides GPU Standard Type, providing you with a heterogeneou
 First Generation:
 
 Instance Type|vCPU(core)|Memory(GB)|GPU|Local Data Disk (Temporary Storage)|Network Interface Multi-queue
-:---|:---|:---|:---|:---|:---|:---
+:---|:---|:---|:---|:---|:---|
 |p.n1p40.3xlarge|12|48|1 x Nvidia Tesla P40|1 x 960GB SSD|4
 |p.n1p40.7xlarge|28|110|2 x Nvidia Tesla P40|2 x 960GB SSD|4
 |p.n1p40.14xlarge|56|220|4 x Nvidia Tesla P40|4 x 960GB SSD|4

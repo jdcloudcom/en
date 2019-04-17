@@ -113,7 +113,7 @@ Schedule:
 | Client Name        | AS    |  Ctag  |  JD Cloud IP  |  CPS IP  |
 | :----:         |:----: |:----:  |:----:        |:----:    |
 | Jdcloud        | 65001    |  20  |  192.168.0.10/30  |  192.168.0.9/30  |
-| Jdcloud        | 65001    |  20  |  192.168.0.7/30  |  192.168.0.6/30  |
+| Jdcloud        | 65001    |  20  |  192.168.0.14/30  |  192.168.0.13/30  |
 
 
 * Click **Network--->Direct Connection->Hosted Connect—>Hosted Private Virtual Interface** from the navigation bar on the left side, select corresponding hosted regions and click **Create**.

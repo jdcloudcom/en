@@ -12,8 +12,8 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/backups/{backupId}/downloadURL
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**backupId**|String|True| |Backup ID|
 |**regionId**|String|True| |Region code, with range detailed in [Regions and Availability Zone Comparison Table](../Enum-Definitions/Regions-AZ.md)|
+|**backupId**|String|True| |Backup ID|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
@@ -27,12 +27,11 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/backups/{backupId}/downloadURL
 |---|---|---|
 |**result**|Result| |
 
-
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**internalURL**|String|Intranet download link, if download is not available currently, it is an empty string|
 |**publicURL**|String|Public network download link, if download is not available currently, it is an empty string|
+|**internalURL**|String|Intranet download link, if download is not available currently, it is an empty string|
 
 ## Response code
 |Return code|Description|

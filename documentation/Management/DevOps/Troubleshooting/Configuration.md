@@ -33,8 +33,11 @@ The online deployment directory is as follows:
     - 0.app_key/ # Instance name
 ```
 
+Please see examples in specifications of [Compilation and Construction](https://github.com/jdcloudcom/cn/blob/DevOps/documentation/Management/DevOps/Operation-Guide/CI.md)
 
 **2. What is Control script**
 
 Add control scripts under the code root directory bin/ to start, stop, and service health check 
+
+Please see examples in specifications of [Compilation and Construction](https://github.com/jdcloudcom/cn/blob/DevOps/documentation/Management/DevOps/Operation-Guide/CI.md)
 

@@ -11,13 +11,13 @@
 ![Import Backup 2](../../../../../image/RDS/Import-Backup-2.png)
 
 ## 3. Confirm Import
-Click ***OK*** to start importing after the information is confirmed as correct.
+- View that the operation information is correct. 
+Note: Backup of Cloud on Single Database only supports backups in FULL mode. Therefore, please verify if the backup method is correct. You can view the [Document](https://docs.jdcloud.com/en/rds/backup-local-database) for the specific methods
+- After information is confirmed to be correct, check the option box and start to import
 
 ![Import Backup 3](../../../../../image/RDS/Import-Backup-3.png)
          
 ## 4. View Importing Status
-- Click ***Refresh*** and it can be seen that the files are "Importing", and the status of the instance is also changed to "Cloud on Single Database". 
+- Click ***Refresh*** and it can be seen that the files are "Importing", and the status of the instance is also changed to “Single Database Backup Recovering". 
 - View the status of the database. It can be seen that the status of the database changes in the following order: "Deleting"-->"Single database backup recovering" --> "Running".
-
-![Import Backup 4](../../../../../image/RDS/Import-Backup-4.png)
 

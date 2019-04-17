@@ -126,7 +126,7 @@ If you are engaged in Internet information services such as news, publishing, ed
 
 4.2.4 In order to provide the software or services you require, you must share your data with third parties.
 
-4.3 Unless otherwise stipulated by laws and agreed between JD Cloud and you, JD Cloud will continue to store your data within 15 days from the time when the service is suspended due to your arrears, and continue to bill, but freeze all operations under your account. At the expiration of the 15 days (from the time when the service is suspended to the time in the 15th day), JD Cloud will no longer retain your data, and you shall assume all consequences from data destruction.
+4.3 Unless otherwise stipulated by laws and agreed between JD Cloud and you, JD Cloud will continue to store your data within 60 days from the time when the service is suspended due to your arrears, and continue to bill, but freeze all operations under your account. At the expiration of the 60 days (from the time when the service is suspended to the time in the 15th day), JD Cloud will no longer retain your data, and you shall assume all consequences from data destruction.
 
 ## **5. Intellectual Property**
 

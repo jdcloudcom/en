@@ -2,7 +2,7 @@
 
  The monitoring report of Anti-DDoS Basic is as follows:
 
-![Create Object](https://github.com/jdcloudcom/cn/blob/Anti-DDoS/image/Basic%20Anti-DDos/report.png)
+![Create Object](../../../../image/Basic%20Anti-DDos/report.png)
 
 It can be divided into three parts:
 

@@ -1,40 +1,52 @@
+# What is a sub-user?
 
-# What is a sub-user
-A sub-user is an identity in Identity and Access Management (IAM), and each sub-user corresponds to a certain personal entity, such as an enterprise’s technical staff, operation and maintenance personnel, etc. This document describes how to create and manage a subaccount, and how to use the subaccount to log in the console for operation.
+Sub-user is a kind of entity identity that has definite user name, password and AK/SK and it is usually corresponding to a certain definite entity, such as the enterprise technical personnel, operation and maintenance personnel.
 
-# Create subaccounts
-Log in JD Cloud Console, enter Identity and Access Management > User Management, and click the**Create** button to fill in the subaccount information in the subaccount create window:
+The user name of the sub-user is created by the primary account. The sub-user is not a unique JD Cloud account, it belongs to primary account and can be seen under the space of the primary account. It only has resource use right, but ownership of resources. The sub-user has no independent metering and billing, the using charge of resources will be recorded in the bill of the primary account uniformly. The sub-user must be granted by the primary account to login console or use Open API to operate resources granted by the primary account.
 
- - The subaccount login name supports 4-20 digits of letters, Chinese characters or numbers, and a hyphen “-” and an underline “_”;
- - The subaccount password is 6-20 digits in length and must contain one of the English letters and numbers or symbols (without spaces).
- ![Create Subaccounts](https://github.com/jdcloudcom/cn/blob/edit/image/IAM/%E5%88%9B%E5%BB%BA%E5%AD%90%E8%B4%A6%E6%88%B7.png)
+This document describes how to create and manage a sub-account, and how to use the sub-user to log in the console for action.
 
-# Reset the password of a subaccount
+## Create sub-user
 
-On the User Management List page, you can edit the login name, notes, and contact information of the subaccount, or quickly manage the sub-user’s authorization and groups, or delete the subaccount.
-![Reset The Password Of A Subaccount](https://github.com/jdcloudcom/cn/blob/edit/image/IAM/%E4%B8%BA%E5%AD%90%E8%B4%A6%E5%8F%B7%E9%87%8D%E7%BD%AE%E5%AF%86%E7%A0%81.png)
+Log in JD Cloud Console, enter Identity and Access Management > User Management, and click **Create** to fill in the sub-user information in the sub-user create window:
 
-Click the sub-user name to enter Sub-user Details. Enter from the Actions > Reset Password in the upper right corner of the User Details page, you can reset the subaccount login password.
-![Reset Password1](https://github.com/jdcloudcom/cn/blob/edit/image/IAM/%E9%87%8D%E7%BD%AE%E5%AF%86%E7%A0%811.png)
-![Reset Password2](https://github.com/jdcloudcom/cn/blob/edit/image/IAM/%E9%87%8D%E7%BD%AE%E5%AF%86%E7%A0%812.png)
+![创建子用户页面](../../../../image/IAM/SubUserManagement/创建子用户页面.jpg)
 
-# Authorize subaccounts
+After the successful creation of the sub-account, you can choose to download the password of the sub-user and access the secret key information by download or email.
 
-On the User Authorization Policy page, you can view the current authorization of the subaccount.
-![Authorize Subaccounts](https://github.com/jdcloudcom/cn/blob/edit/image/IAM/%E5%AD%90%E8%B4%A6%E5%8F%B7%E5%BD%93%E5%89%8D%E6%8E%88%E6%9D%83.png)
-Click **Add Authorization Policy**, select the policy that needs to be authorized, and add it to the subaccount. When adding multiple policies to a subaccount, the permission of the subaccount is a set of all policies.
-![Add Authorization Policy](https://github.com/jdcloudcom/cn/blob/edit/image/IAM/%E6%B7%BB%E5%8A%A0%E7%94%A8%E6%88%B7%E6%8E%88%E6%9D%83%E7%AD%96%E7%95%A5.png)
+![子用户创建成功页面](../../../../image/IAM/SubUserManagement/子用户创建成功页面.jpg)
 
-# Add the subaccount to group
+## Edit sub-user
 
-On the Group Authorization Policy page, click **Add to Group** to select the user group that the user needs to add.
-![Add To Group](https://github.com/jdcloudcom/cn/blob/edit/image/IAM/%E5%8A%A0%E5%85%A5%E7%BE%A4%E7%BB%84.png)
-Meanwhile, on this page, you can view the authorization of the group that the user has joined, or remove the user from the specific group.
-![已加入群组](https://github.com/jdcloudcom/cn/blob/edit/image/IAM/%E5%B7%B2%E5%8A%A0%E5%85%A5%E7%BE%A4%E7%BB%84.png)
+Access the sub-user list, click **Edit** to quickly edit the description information, phone number and email of the sub-user.
 
-# Subaccount login console
+![子用户列表编辑按钮弹窗页面](../../../../image/IAM/SubUserManagement/子用户编辑页面.jpg)
 
-In the overview page where you configure Identity and Access Management, you can view the number of the subaccounts, groups, and customized authorization policies that have been created.
-![Subaccount Login Console](https://github.com/jdcloudcom/cn/blob/edit/image/IAM/%E5%AD%90%E8%B4%A6%E5%8F%B7%E7%99%BB%E5%BD%95%E6%8E%A7%E5%88%B6%E5%8F%B0.png)
-At the same time, the subaccount login link is displayed on the page. This link is the only entry for all your subaccounts to log in the console.
-![Subaccounts Login Page](https://github.com/jdcloudcom/cn/blob/edit/image/IAM/%E5%AD%90%E8%B4%A6%E5%8F%B7%E7%99%BB%E5%BD%95%E9%A1%B5%E9%9D%A2.png)
+## Delete sub-user
+
+Access the sub-user list, click **Delete** to delete the sub-user information and the association between its group and the policy.
+
+![子用户列表删除按钮弹窗页面](../../../../image/IAM/SubUserManagement/自用户删除页面.jpg)
+
+## Grant policy to sub-user
+
+Access the sub-user list, click **Authorize** to quickly grant appropriate policy to the sub-user.
+
+![子用户列表策略授权弹窗页面](../../../../image/IAM/SubUserManagement/子用户授权页面.jpg)
+
+## Disassociate policy to sub-user
+
+Click the sub-user name to enter the corresponding sub-user details page, select **Associate Policy**; after selecting the corresponding policy, click **Cancel** to disassociate policy for the sub-user.
+
+![子用户详情解绑策略页面](../../../../image/IAM/SubUserManagement/子用户详情策略解绑.jpg)
+
+## Security Credential Setting of the Sub-user
+
+- Reset password for the sub-user
+- Enable MFA for the sub-user
+- It is required that the sub-user must enable MFA, instead of completing the association of MFA directly for the sub-user. The sub-user will redirect to the MFA association page the next time it logs in, and it will not enter the console until the association is successful.
+- Enable operation protection for the sub-user; when the sub-user's virtual MFA is enabled, the primary account can turn on the action protection for the sub-user. Therefore, when the sub-user operates sensitive actions granted by the primary account, Virtual MFA verification is required.
+- Enable access secret key for the sub-user.
+
+ ![子用户安全凭证页面](../../../../image/IAM/SubUserManagement/子用户安全凭证页面.jpg)
+

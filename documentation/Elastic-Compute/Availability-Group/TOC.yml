@@ -58,16 +58,16 @@
     - name: Set fixed exit IP
       href: Best-Practices/Set-Static-Outbound-IP.md
   - name: Tutorial
-    status:0
+    status: 0
     items:     
   - name: API Reference
-    status:0
+    status: 0
     href:
   - name: SDK Reference
-    status:0
+    status: 0
     href:
   - name: FAQ
-    status:0
+    status: 0
     href: 
   - name: Related Resources
-    status:0
+    status: 0

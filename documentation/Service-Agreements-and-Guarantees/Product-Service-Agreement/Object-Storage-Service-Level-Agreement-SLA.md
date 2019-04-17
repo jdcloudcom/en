@@ -30,7 +30,7 @@ Users can open the object storage service at JD Cloud official website. JD Cloud
 
 2.5.1. The user has the right to know the data, the geographical location of the data center where the backup data is located, and the number of data backups, among which:
 
-2.5.1.1. At present, the data centers of JD Cloud are located in cn-north-1, cn-east-1 and cn-south-1. Users must select the corresponding data according to the geological position when applying for cloud service and the user data will be stored in its designated data center;
+2.5.1.1. At present, the data centers of JD Cloud are located in cn-north-1, cn-east-1, cn-east-2 and cn-south-1. Users must select the corresponding data according to the geological position when applying for cloud service and the user data will be stored in its designated data center;
 
 2.5.1.2. JD Cloud Service has automatic data backup function. The backup data is stored in the same data center as the source data by default. The user does not need to specify the number of automatic backups and the location where the date backed up automatic is stored.
 

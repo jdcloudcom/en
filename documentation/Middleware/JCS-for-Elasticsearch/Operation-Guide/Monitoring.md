@@ -6,7 +6,7 @@ Upon successfully creating clusters, click the cluster name to enter the cluster
 3. Enter the Monitoring Page by click [Cluster Monitoring] in the Detail Page.</br>
 4. The monitoring period can be selected from "1 hour", "6 hours" and "12 hours" based on the current time, or can be selected from the calendar time period on your own.</br>
 5. Click **Set Alarm Rules** in the upper right corner, and it will jump to the Monitoring page after clicking for alarm rules settings.</br>
-![Query 1](https://github.com/jdcloudcom/cn/blob/Elasticsearch/image/Internet-Middleware/JCS%20for%20Elasticsearch/监控ES.png)
+![Query 1](https://github.com/jdcloudcom/cn/blob/Elasticsearch/image/Internet-Middleware/JCS%20for%20Elasticsearch/MES2.png)
  
 Monitoring indicators include: Cluster health status, cluster query QPS, cluster write QPS, node CPU use rate, node disk use rate and node HeapMemory use rate.</br>
 

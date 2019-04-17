@@ -4,9 +4,9 @@
 Before using the Stream Hub service, you first need to register for a JD Cloud account. <br><br>
 2.	**Create Application**<br>
 Step 1: Login to the WEB console of Stream Compute, enter the **Application Management** page of the Stream Compute, and click **Create**. <br>
-![sc-013](https://github.com/jdcloudcom/cn/blob/edit/image/Streamcompute/SC-013.png?raw=true)<br><br>
+![sc-013](../../../../image/Streamcompute/SC-013.png)<br><br>
 Enter data information the create application interface, then click **OK** to complete the application creation. <br>
-![sc-014](https://github.com/jdcloudcom/cn/blob/edit/image/Streamcompute/SC-014.png?raw=true)<br>
+![sc-014](../../../../image/Streamcompute/SC-014.png)<br>
 Application Name: <br>
 Create an app name that is easy for you to remember<br><br>
 Task Type: <br>

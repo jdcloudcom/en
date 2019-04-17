@@ -18,4 +18,4 @@ JD Cloud provides the instance with the following monitoring items:
 
 ## Others
 * bps indicates the number of bits transmitted per second, ps is per second, the same meaning as /s;
-* Kbps=1024bps。
+* Kbps=1024bps.

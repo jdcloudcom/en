@@ -9,44 +9,51 @@ items:
       href: Introduction/Core-Concepts.md
     - name: Basic Infrastructure
       href: 
-      status:0
+      status: 0
     - name: Benefits
       href: Introduction/Benefits.md
     - name: Features
       href: Introduction/Features.md
     - name: Specifications
       href: 
-      status:0
+      status: 0
     - name: Restrictions
       href: 
-      status:0
+      status: 0
     - name: Application Scenarios
       href: Introduction/Application-Scenarios.md
 - name: Pricing
   items:
     - name: Billing Overview
-      href: Pricing/Pricing.md
+      href: Pricing/Billing-Overview.md
+      status: 0
     - name: Billing Rules
       href: 
-      status:0
+      status: 0
     - name: Price Overview
       href: 
-      status:0
+      status: 0
     - name: Purchase Process
-      href: 
-      status:0
+      href: Operation-Guide/Apply-SSL-Certificate.md
     - name: Renew-Process
       href: 
-      status:0
+      status: 0
+    - name: Select Certificate
+      href: Operation-Guide/Choose-Your-Certificate.md
 - name: Getting Started
   items:
-    - name: Quickstart Guide
-      href: Getting-Started/Getting-Started.md
-- name: Operation Guide
-  items:
     - name: Upload SSL Certificate
-      herf: Operation-Guide/Upload-SSL-Certification.md
+      herf: Operation-Guide/Upload-SSL-Certificate.md
     - name: Manage SSL Certificate
-      herf: Operation-Guide/manage-SSL-Certification.md
+      herf: Operation-Guide/Manage-SSL-Certificate.md
+    - name: Download SSL Certificate
+      herf: Operation-Guide/Download-SSL-Certificate.md 
+    - name: Delete SSL Certificate
+      herf: Operation-Guide/Delete-SSL-Certificate.md
+    - name: Submit data-Free DV Certificate of Symantec
+      herf: Operation-Guide/Symantec-DV-Complete.md  
+    - name: Submit data-Paid OV/EV Certificate of GeoTrust
+      herf: Operation-Guide/GeoTrust-OEV-Complete.md
 - name: FAQ
-  herf: FAQ/FAQ.md   
+  herf: FAQ/FAQ.md  
+ 

@@ -4,26 +4,26 @@
 ## Description
 Query Rule Details
 
-## Request method
+## Request Method
 GET
 
-## Request address
+## Request Address
 https://monitor.jdcloud-api.com/v1/regions/{regionId}/alarms/{alarmId}
 
-|Name|Type|Required or not|Default value|Description|
+|Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**alarmId**|String|True| |Rule ID|
 |**regionId**|String|True| |Region ID|
+|**alarmId**|String|True| |Rule ID|
 
-## Request parameter
+## Request Parameter
 None
 
 
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String|Request ID|
 |**result**|Result| |
+|**requestId**|String|Requested identifierid|
 
 ### Result
 |Name|Type|Description|
@@ -41,8 +41,8 @@ None
 |**metric**|String|Monitoring Item|
 |**metricName**|String|Name of Rule ID Monitoring Item|
 |**noticePeriod**|Long|Notification Period Unit: Hour|
-|**noticeTime**|String|Alarm time, this field is valid when querying the alarming rule|
-|**operation**|String|>=、>、<、<=、==、！=|
+|**noticeTime**|String| |
+|**operation**|String|>=、>、<、<=、=、！=|
 |**period**|Long|Statistical Period (Unit: Minute)|
 |**region**|String|Region Information|
 |**resourceId**|String|Resource ID Applied by This Rule|
@@ -53,7 +53,7 @@ None
 |**times**|Long|Alarm after how many times|
 |**value**|Double|Alarm Value|
 
-## Response code
-|Return code|Description|
+## Return Code
+|Return Code|Description|
 |---|---|
 |**200**|Query monitoring rule results|
