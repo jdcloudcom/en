@@ -49,7 +49,7 @@
  3. Log in JD Cloud registry with a token; if the token is obtained by using the JD Cloud CLI, please enter the Docker client login command returned:  
     `docker login -u jdcloud -p ********* myregistry-cn-north-1.jcr.service.jdcloud.com `
  4. Push images to JD Cloud repository, for example ubuntu:latest for the local images.  
-    Mark the local images to be pushed to the JD Cloud repository:
+    Mark the local images to be pushed to the JD Cloud repository:  
     `
     docker tag ubuntu:latest myregistry-cn-north-1.jcr.service.jdcloud.com/myrepo:latest
     `  
