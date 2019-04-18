@@ -2,7 +2,9 @@
 
 
 ## Description
-Add domain live snapshot configuration
+Add domain snapshot configuration
+- Add snapshot template configuration at domain level
+
 
 ## Request Method
 POST
@@ -12,18 +14,12 @@ https://live.jdcloud-api.com/v1/snapshotDomains:template
 
 
 ## Request Parameter
-|Name|Type|If Compulsory|Description|
-|---|---|---|---|
-|**publishDomain**|String|True|Your Pushing Streaming Accelerated Domain|
-|**template**|String|True|Snapshot Template Customized Name|
+|Name|Type|Required or Not|Default Value|Description|
+|---|---|---|---|---|
+|**publishDomain**|String|True| |Pushing Streaming Domain|
+|**template**|String|True| |Snapshot Template<br>|
 
 
-## Examples
-    {
-        "publishDomain": "push.yourdomain.com",
-        "template": "test-live-video"
-    }
-    
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
@@ -39,3 +35,23 @@ https://live.jdcloud-api.com/v1/snapshotDomains:template
 |**404**|Not found|
 |**500**|Internal server error|
 |**503**|Service unavailable|
+
+## Request Example
+POST
+```
+https://live.jdcloud-api.com/v1/snapshotDomains:template
+
+```
+```
+{
+    "publishDomain": "push.yourdomain.com", 
+    "template": "yoursnapshottemplate"
+}
+```
+
+## Return Example
+```
+{
+    "requestId": "bgvmivir54gddpgi764se9f4kfr7ge41"
+}
+```

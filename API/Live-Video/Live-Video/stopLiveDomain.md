@@ -3,6 +3,9 @@
 
 ## Description
 Disable domain
+- Disable live domain pair (pushing streaming domain, playing domain) change DomainStatus to offline
+- After the live domain is disabled, the live domain information will remain, but the user will no longer be able to use the pushing streaming domain to push or use the playing domain to play
+
 
 ## Request Method
 PUT
@@ -12,14 +15,10 @@ https://live.jdcloud-api.com/v1/domains:stop
 
 
 ## Request Parameter
-|Name|Type|If Compulsory|Description|
-|---|---|---|---|
-|**publishDomain**|String|True|Domain to be Disabled|
+|Name|Type|Required or Not|Default Value|Description|
+|---|---|---|---|---|
+|**publishDomain**|String|True| |Pushing Streaming Domain<br>- The pushing streaming domain of the domain pairs to be disabled (pushing streaming domain, playing domain)<br>|
 
-## Examples
-    {
-        "publishDomain":"push.yourdomain.com"
-    }
 
 ## Response parameter
 |Name|Type|Description|
@@ -36,3 +35,22 @@ https://live.jdcloud-api.com/v1/domains:stop
 |**404**|Not found|
 |**500**|Internal server error|
 |**503**|Service unavailable|
+
+## Request Example
+PUT
+```
+https://live.jdcloud-api.com/v1/domains:stop
+
+```
+```
+{
+    "publishDomain": "push.yourdomain.com"
+}
+```
+
+## Return Example
+```
+{
+    "requestId": "bgvmivir54gddpgi764se9f4kfr7ge41"
+}
+```

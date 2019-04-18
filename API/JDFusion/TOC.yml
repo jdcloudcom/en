@@ -17,6 +17,8 @@ items:
          href: Cloud/registCloudInfo.md
        - name: unregistCloudInfo
          href: Cloud/unregistCloudInfo.md
+       - name: validCloudInfo
+         href: Cloud/validCloudInfo.md
    - name: CDS APIs
      items:
        - name: attachDiskToVmInstanceByDiskId.md
@@ -70,7 +72,7 @@ items:
        - name: createVpcEip
          href: Vpc-Eip/createVpcEip.md
        - name: associateVpcEipById
-         href: Vpc-Eip/associateVpcEipById.md	
+         href: Vpc-Eip/associateVpcEipById.md
        - name: deleteVpcEipById
          href: Vpc-Eip/deleteVpcEipById.md
        - name: disassociateVpcEipById
@@ -102,7 +104,17 @@ items:
        - name: getVpcSlbById
          href: Vpc-Slb/getVpcSlbById.md
        - name: getVpcSlbs
-         href: Vpc-Slb/getVpcSlbs.md
+         href: Vpc-Slb/getVpcSlbs.md 
+       - name: deleteSlbsListener
+         href: Vpc-Slb/deleteSlbsListener.md
+       - name: startSlb
+         href: Vpc-Slb/startSlb.md
+       - name: startSlbListener
+         href: Vpc-Slb/startSlbListener.md
+       - name: stopSlb
+         href: Vpc-Slb/stopSlb.md
+       - name: stopSlbListener
+         href: Vpc-Slb/stopSlbListener.md
    - name: Subnet APIs
      items:
        - name: createVpcSubnet
@@ -139,10 +151,16 @@ items:
          href: vpc-securityGroups/getVpcSecurityGroupById.md
        - name: getVpcSecurityGroups
          href: vpc-securityGroups/getVpcSecurityGroups.md
+       - name: createSecurityGroupsRule
+         href: vpc-securityGroups/createSecurityGroupsRule.md
+       - name: deleteSecurityGroupsRule
+         href: vpc-securityGroups/deleteSecurityGroupsRule.md
    - name: HTTP Listening APIs
      items:
        - name: createVpcLBHttpListener
          href: Vpc-LbHttpListener/createVpcLBHttpListener.md
+       - name: getLbHttpListener
+         href: Vpc-LbHttpListener/getLbHttpListener.md 
    - name: Running Status APIs
      items:
        - name: getTaskInfoById
@@ -221,6 +239,8 @@ items:
          href: Rds-Account/getRdsAccountsByInstIdAndAccountName.md
        - name: grantRdsAccount
          href: Rds-Account/grantRdsAccount.md
+       - name: grantRdsAccountsByTask
+         href: Rds-Account/grantRdsAccountsByTask.md   
        - name: revokeRdsAccount
          href: Rds-Account/revokeRdsAccount.md    
    - name: Relevant Interface of RDS Database
@@ -261,3 +281,14 @@ items:
          href: Rds-Migration-MySQL/startChannel.md     
        - name: stopChannel
          href: Rds-Migration-MySQL/stopChannel.md
+   - name: Relevant Interface of RDS Database Instance Type
+     items:
+       - name: getRdsSpecification
+         href: Rds-Specification/getRdsSpecification.md
+   - name: Relevant Interface of Region
+     items:
+       - name: getRegions
+         href: Region/getRegions.md
+       - name: getRegionsAvailableZones
+         href: Region/getRegionsAvailableZones.md
+         

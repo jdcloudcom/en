@@ -17,33 +17,33 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/vpc_vserverGroups
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**authorization**|String|True| |See guide document of signature algorithm for obtaining method|
-|**vserverGroup**|CreateVserverGroup|True| |Create Virtual Server Group|
-|**x-jdcloud-date**|String|True| |See guide document of signature algorithm for obtaining method|
-|**x-jdcloud-fusion-cloudid**|String|True| |Cloud Registration Information ID|
 |**x-jdcloud-nonce**|String|True| |See guide document of signature algorithm for obtaining method|
+|**x-jdcloud-date**|String|True| |See guide document of signature algorithm for obtaining method|
+|**authorization**|String|True| |See guide document of signature algorithm for obtaining method|
+|**x-jdcloud-fusion-cloudid**|String|True| |Cloud Registration Information ID|
+|**vserverGroup**|CreateVserverGroup|True| |Create Virtual Server Group|
 
 ### CreateVserverGroup
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**backendServers**|BackendServer[]|False| |Set of Security Group Permission Rules|
 |**loadBalancerId**|String|False| |Load Balancer Instance ID|
 |**vserverGroupName**|String|False| |Name of Server Group|
+|**backendServers**|BackendServer[]|False| |Set of Security Group Permission Rules|
 ### BackendServer
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**cloudID**|String|False| |ID of Cloud|
-|**port**|Integer|False| |Port of Backend Server.|
-|**serverHealthStatus**|String|False| |Name of Load Balancer Instance.|
 |**serverId**|String|False| |ID of Load Balancer Instance.|
-|**type**|String|False| |Backend Server Type.|
+|**serverHealthStatus**|String|False| |Name of Load Balancer Instance.|
+|**port**|Integer|False| |Port of Backend Server.|
 |**weight**|Integer|False| |Weight of Backend Server.|
+|**type**|String|False| |Backend Server Type.|
 
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String|Request ID|
 |**result**|Result| |
+|**requestId**|String|Request ID|
 
 ### Result
 |Name|Type|Description|
@@ -52,15 +52,15 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/vpc_vserverGroups
 ### ResourceTFInfo
 |Name|Type|Description|
 |---|---|---|
-|**body**|String|Request Body|
-|**cloudId**|String|cloud ID|
-|**createdTime**|String|Creation Time|
-|**provider**|String|cloud provider|
-|**result**|String|Execution Results|
-|**status**|String|Status|
-|**updateTime**|String|Update Time|
-|**userId**|String|user ID|
 |**uuid**|String|uuid|
+|**body**|String|Request Body|
+|**status**|String|Status|
+|**result**|String|Execution Results|
+|**createdTime**|String|Creation Time|
+|**updateTime**|String|Update Time|
+|**provider**|String|cloud provider|
+|**cloudId**|String|cloud ID|
+|**userId**|String|user ID|
 
 ## Return Code
 |Return Code|Description|

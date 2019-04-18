@@ -17,3 +17,6 @@ v1
 |**getThumbnailTask**|GET|Acquire the screenshot task based on the task ID.|
 |**listThumbnailTask**|GET|Query the screenshot task and return the task list that meets the query criteria.|
 |**setNotification**|PUT|Set the media processing notification. Endpoint will be verified when setting the Notification, and SubscriptionConfirmation(x-jdcloud-message-type head) will be sent to the endpoint, which requests base64 encoding for the Message content that are then to be returned to the system (body) for verification.|
+|**setStyleDelimiter**|PUT|Set style delimiters.|
+|**getStyleDelimiter**|GET|Obtain the image style delimiter configuration of bucket.|
+|**deleteStyleDelimiter**|DELETE|Delete the image style delimiter configuration of bucket.|

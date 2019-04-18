@@ -16,9 +16,7 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/oss_transferTasks/{id}:st
 |**regionId**|String|True| |Region ID|
 
 ## Request Parameter
-|Name|Type|Required or Not|Default Value|Description|
-|---|---|---|---|---|
-|**x-jdcloud-fusion-cloudid**|String|True| |Cloud Registration Information ID|
+None
 
 
 ## Return Parameter

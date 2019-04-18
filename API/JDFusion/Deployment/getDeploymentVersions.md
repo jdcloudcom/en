@@ -24,8 +24,8 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/deployments/{id}/versions
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String|Request ID|
 |**result**|Result| |
+|**requestId**|String|Request ID|
 
 ### Result
 |Name|Type|Description|
@@ -34,29 +34,35 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/deployments/{id}/versions
 ### DeploymentApplyInfo
 |Name|Type|Description|
 |---|---|---|
-|**applyTime**|String|Application Time|
-|**comment**|String|Description Information|
-|**content**|DeploymentResourcesInfo| |
 |**id**|String|ID|
+|**comment**|String|Description Information|
+|**applyTime**|String|Application Time|
 |**version**|String|Version|
+|**content**|DeploymentResourcesInfo| |
 ### DeploymentResourcesInfo
 |Name|Type|Description|
 |---|---|---|
-|**diskAttachment**|Object| |
-|**disks**|Object| |
-|**eipAssociate**|Object| |
-|**eips**|Object| |
-|**httpListeners**|Object| |
-|**keypairs**|Object| |
-|**netInterfaceAttachment**|Object| |
-|**networkInterfaces**|Object| |
-|**securityGroups**|Object| |
-|**slbs**|Object| |
-|**subnets**|Object| |
-|**variables**|Object| |
 |**vms**|Object| |
+|**eips**|Object| |
+|**subnets**|Object| |
+|**networkInterfaces**|Object| |
+|**slbs**|Object| |
+|**securityGroups**|Object| |
+|**securityGroupRules**|Object| |
+|**keypairs**|Object| |
+|**disks**|Object| |
 |**vpcs**|Object| |
 |**vserverGroups**|Object| |
+|**httpListeners**|Object| |
+|**diskAttachment**|Object| |
+|**netInterfaceAttachment**|Object| |
+|**eipAssociate**|Object| |
+|**rds**|Object| |
+|**rdsDatabase**|Object| |
+|**rdsAccount**|Object| |
+|**rdsAccountGrant**|Object| |
+|**bucket**|Object| |
+|**variables**|Object| |
 
 ## Return Code
 |Return Code|Description|

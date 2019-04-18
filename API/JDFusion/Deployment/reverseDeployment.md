@@ -23,34 +23,34 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/deployments:reverse
 ### ReverseDeploymentInfo
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**description**|String|False| |Description|
 |**name**|String|False| |Template Name|
+|**description**|String|False| |Description|
+|**version**|String|False| |Version|
 |**readOnly**|Integer|False| |Whether it is read-only  0: No 1: Yes|
 |**resources**|ReverseDeploymentResourcesInfo|False| | |
-|**version**|String|False| |Version|
 ### ReverseDeploymentResourcesInfo
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**diskAttachmentIds**|Object|False| | |
-|**diskIds**|Object|False| | |
-|**eipAssociateIds**|Object|False| | |
-|**eipIds**|Object|False| | |
-|**httpListenerIds**|Object|False| | |
-|**keypairIds**|Object|False| | |
-|**netInterfaceAttachmentIds**|Object|False| | |
-|**networkInterfaceIds**|Object|False| | |
-|**securityGroupIds**|Object|False| | |
-|**slbIds**|Object|False| | |
-|**subnetIds**|Object|False| | |
 |**vmIds**|Object|False| | |
+|**eipIds**|Object|False| | |
+|**subnetIds**|Object|False| | |
+|**networkInterfaceIds**|Object|False| | |
+|**slbIds**|Object|False| | |
+|**securityGroupIds**|Object|False| | |
+|**keypairIds**|Object|False| | |
+|**diskIds**|Object|False| | |
 |**vpcIds**|Object|False| | |
 |**vserverGroupIds**|Object|False| | |
+|**httpListenerIds**|Object|False| | |
+|**diskAttachmentIds**|Object|False| | |
+|**netInterfaceAttachmentIds**|Object|False| | |
+|**eipAssociateIds**|Object|False| | |
 
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String|Request ID|
 |**result**|Result| |
+|**requestId**|String|Request ID|
 
 ### Result
 |Name|Type|Description|
@@ -59,38 +59,45 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/deployments:reverse
 ### DeploymentInfo
 |Name|Type|Description|
 |---|---|---|
-|**content**|DeploymentResourcesInfo| |
 |**info**|DeploymentBaseInfo| |
+|**content**|DeploymentResourcesInfo| |
 ### DeploymentResourcesInfo
 |Name|Type|Description|
 |---|---|---|
-|**diskAttachment**|Object| |
-|**disks**|Object| |
-|**eipAssociate**|Object| |
-|**eips**|Object| |
-|**httpListeners**|Object| |
-|**keypairs**|Object| |
-|**netInterfaceAttachment**|Object| |
-|**networkInterfaces**|Object| |
-|**securityGroups**|Object| |
-|**slbs**|Object| |
-|**subnets**|Object| |
-|**variables**|Object| |
 |**vms**|Object| |
+|**eips**|Object| |
+|**subnets**|Object| |
+|**networkInterfaces**|Object| |
+|**slbs**|Object| |
+|**securityGroups**|Object| |
+|**securityGroupRules**|Object| |
+|**keypairs**|Object| |
+|**disks**|Object| |
 |**vpcs**|Object| |
 |**vserverGroups**|Object| |
+|**httpListeners**|Object| |
+|**diskAttachment**|Object| |
+|**netInterfaceAttachment**|Object| |
+|**eipAssociate**|Object| |
+|**rds**|Object| |
+|**rdsDatabase**|Object| |
+|**rdsAccount**|Object| |
+|**rdsAccountGrant**|Object| |
+|**bucket**|Object| |
+|**variables**|Object| |
 ### DeploymentBaseInfo
 |Name|Type|Description|
 |---|---|---|
 |**cloudId**|String|ID of Cloud|
-|**createdTime**|String|Creation Time|
-|**description**|String|Description|
+|**version**|String|Version|
+|**readOnly**|Integer|Whether it is read-only  0: No 1: Yes|
 |**id**|String|ID|
 |**name**|String|Name|
-|**readOnly**|Integer|Whether it is read-only  0: No 1: Yes|
-|**updatedTime**|String|Update Time|
+|**description**|String|Description|
 |**userId**|String|User ID|
-|**version**|String|Version|
+|**createdTime**|String|Creation Time|
+|**updatedTime**|String|Update Time|
+|**lastOperation**|String|Last Operation|
 
 ## Return Code
 |Return Code|Description|

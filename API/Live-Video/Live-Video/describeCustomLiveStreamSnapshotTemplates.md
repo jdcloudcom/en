@@ -12,27 +12,18 @@ https://live.jdcloud-api.com/v1/snapshotCustoms
 
 
 ## Request Parameter
-|Name|Type|If Compulsory|Description|
-|---|---|---|---|
-|**pageNum**|Integer|False|page; it is 1 by default; value range [1, 100000]|
-|**pageSize**|Integer|False|Segmentation size; it is 10 by default; value range[10, 100]|
-|**filters**|Filter[]|False|Snapshot Template Search Filter Conditions:<br>  - name:   template  Recording Template Customized Name<br>  - value:  If the parameter is null, search all<br>|
+|Name|Type|Required or Not|Default Value|Description|
+|---|---|---|---|---|
+|**pageNum**|Integer|False|1|Page Number<br>- Value Range [1, 100000]<br>|
+|**pageSize**|Integer|False|10|Paging Size<br>- Value Range [10, 100]<br>|
+|**filters**|Filter[]|False| |Snapshot Template Search Filter Conditions<br>  - name:   template  Recording Template Customized Name<br>  - value:  If the parameter is null, search all<br>|
 
 ### Filter
-|Name|Type|If Compulsory|Description|
-|---|---|---|---|
-|**name**|String|True|Name of Filter Requirements|
-|**operator**|String|False|Operator of filter requirements is eq by default|
-|**values**|String[]|True|Value of Filter Requirements|
-
-## Examples
-    {
-        "pageNum": 1,
-        "pageSize": 10,
-        "filters": [{
-           "name":"template",
-           "value":"test-live-video"}]
-    }
+|Name|Type|Required or Not|Default Value|Description|
+|---|---|---|---|---|
+|**name**|String|True| |Name of Filter Requirements|
+|**operator**|String|False| |Operator of filter requirements is eq by default|
+|**values**|String[]|True| |Value of Filter Requirements|
 
 ## Response parameter
 |Name|Type|Description|
@@ -50,15 +41,15 @@ https://live.jdcloud-api.com/v1/snapshotCustoms
 ### SnapshotTemplate
 |Name|Type|Description|
 |---|---|---|
-|**format**|String|Snapshot Format:<br>  - Value: jpg, png<br>  - Case Insensitive<br>|
-|**width**|Integer|Snapshot Width:<br>  - Value: [8,8192]<br>  - Equal Ratio: If only one parameter is filled in, the snapshot is zoomed in proportion to the parameter<br>  - Source-followed: If neither parameters are filled in, the original image of source stream size will be snapped<br>|
-|**height**|Integer|Snapshot Height:<br>  - Value: [8,8192]<br>  - Equal Ratio: If only one parameter is filled in, the snapshot is zoomed in proportion to the parameter<br>  - Source-followed: If neither parameters are filled in, the original image of source stream size will be snapped<br>|
-|**fillType**|Integer|The processing rules when the snapshot does not match the set width and height:<br>  - 1-Stretching<br>  - 2-Left Black<br>  - 3-Left Blank<br>  - 4-Gaussian Blur<br>  - Default value 1,2,3,4 are zoomed in equal scale, 1 is stretched according to set width height<br>|
-|**snapshotInterval**|Integer|Snapshot Cycle:<br>  - MIN_INTEGER = 5<br>  - MAX_INTEGER = 3600;<br>  - Unit: Second<br>|
-|**saveMode**|Integer|Storage Mode:<br>  - 1-Replace<br>  - 2- Serial Numbering Storage<br>|
+|**format**|String|Snapshot Format<br>|
+|**width**|Integer|Snapshot Width<br>- Unit: Pixel<br>|
+|**height**|Integer|Snapshot Height<br>- Unit: Pixel<br>|
+|**fillType**|Integer|Processing rules when the snapshot does not match the set width and height<br>  - 1-Stretching<br>  - 2-Left Black<br>  - 3-Left Blank<br>  - 4-Gaussian Blur<br>|
+|**snapshotInterval**|Integer|Snapshot Cycle<br>- Unit: Second<br>|
+|**saveMode**|Integer|Storage Mode:<br>  1: Replace<br>  2: Serial Numbering Storage<br>|
 |**saveBucket**|String|Bucket|
 |**saveEndpoint**|String|Storage Address|
-|**template**|String|Snapshot Template Customized Name|
+|**template**|String|Snapshot Template Customized Name<br>|
 
 ## Return Code
 |Return Code|Description|
@@ -69,3 +60,35 @@ https://live.jdcloud-api.com/v1/snapshotCustoms
 |**404**|Not found|
 |**500**|Internal server error|
 |**503**|Service unavailable|
+
+## Request Example
+GET
+```
+https://live.jdcloud-api.com/v1/snapshotCustoms?filters.1.name=template&filters.1.values.1=yoursnapshottemplate
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bgvmivir54gddpgi764se9f4kfr7ge41", 
+    "result": {
+        "pageNumber": 1, 
+        "pageSize": 10, 
+        "snapshotTemplates": [
+            {
+                "fillType": 1, 
+                "format": "jpg", 
+                "height": 258, 
+                "saveBucket": "yourbucket", 
+                "saveEndpoint": "oss.xxx.com", 
+                "saveMode": 1, 
+                "snapshotInterval": 30, 
+                "template": "yoursnapshottemplate", 
+                "width": 126
+            }
+        ], 
+        "totalCount": 1
+    }
+}
+```

@@ -17,25 +17,25 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/vm_keypairs
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**authorization**|String|True| |See guide document of signature algorithm for obtaining method|
-|**keypair**|CreateKeypair|True| |Create keypair|
-|**x-jdcloud-date**|String|True| |See guide document of signature algorithm for obtaining method|
-|**x-jdcloud-fusion-cloudid**|String|True| |Cloud Registration Information ID|
 |**x-jdcloud-nonce**|String|True| |See guide document of signature algorithm for obtaining method|
+|**x-jdcloud-date**|String|True| |See guide document of signature algorithm for obtaining method|
+|**authorization**|String|True| |See guide document of signature algorithm for obtaining method|
+|**x-jdcloud-fusion-cloudid**|String|True| |Cloud Registration Information ID|
+|**keypair**|CreateKeypair|True| |Create keypair|
 
 ### CreateKeypair
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**cloudID**|String|False| |Cloud Registration Information ID|
-|**keyFingerprint**|String|False| |Key Fingerprint|
 |**name**|String|True| |Key Pair Name|
+|**keyFingerprint**|String|False| |Key Fingerprint|
+|**cloudID**|String|False| |Cloud Registration Information ID|
 |**publicKey**|String|False| |No  Imported Public Key|
 
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String|Request ID|
 |**result**|Result| |
+|**requestId**|String|Request ID|
 
 ### Result
 |Name|Type|Description|
@@ -44,15 +44,15 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/vm_keypairs
 ### ResourceTFInfo
 |Name|Type|Description|
 |---|---|---|
-|**body**|String|Request Body|
-|**cloudId**|String|cloud ID|
-|**createdTime**|String|Creation Time|
-|**provider**|String|cloud provider|
-|**result**|String|Execution Results|
-|**status**|String|Status|
-|**updateTime**|String|Update Time|
-|**userId**|String|user ID|
 |**uuid**|String|uuid|
+|**body**|String|Request Body|
+|**status**|String|Status|
+|**result**|String|Execution Results|
+|**createdTime**|String|Creation Time|
+|**updateTime**|String|Update Time|
+|**provider**|String|cloud provider|
+|**cloudId**|String|cloud ID|
+|**userId**|String|user ID|
 
 ## Return Code
 |Return Code|Description|

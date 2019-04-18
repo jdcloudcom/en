@@ -12,8 +12,8 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/rds_instances/{instId}/da
 
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**dbName**|String|True| |Database Name|
 |**instId**|String|True| |RDS Instance ID|
+|**dbName**|String|True| |Database Name|
 |**regionId**|String|True| |Region ID|
 
 ## Request Parameter

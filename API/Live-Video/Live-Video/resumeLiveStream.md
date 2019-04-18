@@ -12,18 +12,11 @@ https://live.jdcloud-api.com/v1/streams:resume
 
 
 ## Request Parameter
-|Name|Type|If Compulsory|Description|
-|---|---|---|---|
-|**appName**|String|True|Application Name|
-|**publishDomain**|String|True|Your Accelerated Domain|
-|**streamName**|String|True|Stream name|
-
-## Examples
-    {
-        "playDomain":"play.yourdomain.com",
-        "streamName": "test-stream",
-        "appName": "live"
-    }
+|Name|Type|Required or Not|Default Value|Description|
+|---|---|---|---|---|
+|**publishDomain**|String|True| |Pushing Streaming Domain|
+|**appName**|String|True| |Application Name|
+|**streamName**|String|True| |Stream Name|
 
 
 ## Response parameter
@@ -41,3 +34,24 @@ https://live.jdcloud-api.com/v1/streams:resume
 |**404**|Not found|
 |**500**|Internal server error|
 |**503**|Service unavailable|
+
+## Request Example
+PUT
+```
+https://live.jdcloud-api.com/v1/streams:resume
+
+```
+```
+{
+    "appName": "yourapp", 
+    "publishDomain": "push.yourdomain.com", 
+    "streamName": "yourstream"
+}
+```
+
+## Return Example
+```
+{
+    "requestId": "bgvmivir54gddpgi764se9f4kfr7ge41"
+}
+```

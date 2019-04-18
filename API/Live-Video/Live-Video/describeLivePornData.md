@@ -12,13 +12,13 @@ https://live.jdcloud-api.com/v1/livePornData
 
 
 ## Request Parameter
-|Name|Type|If Compulsory|Description|
-|---|---|---|---|
-|**publishDomain**|String|True|Your Pushing Streaming Accelerated Domain|
-|**appName**|String|False|Application Name of the Live Streaming|
-|**streamName**|String|False|Live Streaming Name|
-|**startTime**|String|True|Start Time:<br>  - UTC Time Format e.g: 2019-03-12T00:00:00Z<br>|
-|**endTime**|String|False|End Time:<br>  - UTC Time Format e.g: 2019-03-12T00:00:00Z<br>|
+|Name|Type|Required or Not|Default Value|Description|
+|---|---|---|---|---|
+|**publishDomain**|String|True| |Pushing Streaming Domain|
+|**appName**|String|False| |Application Name|
+|**streamName**|String|False| |Stream Name|
+|**startTime**|String|True| |Start time<br>- UTC Time<br>  Format:yyyy-MM-dd'T'HH:mm:ss'Z'<br>  Example:2018-10-21T10:00:00Z<br>- Support searching data within up to 90 days<br>|
+|**endTime**|String|False| |End time:<br>- UTC Time<br>  Format:yyyy-MM-dd'T'HH:mm:ss'Z'<br>  Example:2018-10-21T10:00:00Z<br>- Is null, the current time by default<br>|
 
 
 ## Response parameter
@@ -34,11 +34,11 @@ https://live.jdcloud-api.com/v1/livePornData
 ### PornData
 |Name|Type|Description|
 |---|---|---|
-|**publishDomain**|String|Searched Pushing Streaming Domain|
-|**appName**|String|Searched Application Name|
-|**streamName**|String|Searched Stream Name|
-|**date**|String|Date:<br>  - yyyyMMdd Example:20190308<br>|
-|**total**|Integer|Total Sheets of Porn Identification Per Day:<br>  - Unit: Sheet<br>|
+|**publishDomain**|String|Pushing Streaming Domain|
+|**appName**|String|Application Name|
+|**streamName**|String|Stream Name|
+|**date**|String|Date<br>- yyyyMMdd<br>- Example: 20190308<br>|
+|**total**|Integer|Sheets of Porn Identification:<br>- Unit: Sheet<br>|
 
 ## Return Code
 |Return Code|Description|
@@ -49,3 +49,35 @@ https://live.jdcloud-api.com/v1/livePornData
 |**404**|Not found|
 |**500**|Internal server error|
 |**503**|Service unavailable|
+
+## Request Example
+GET
+```
+https://live.jdcloud-api.com/v1/livePornData?publishDomain=push.yourdomain.com&appName=yourapp&streamName=yourstream&startTime=2018-10-21T10:00:00Z
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bgvmivir54gddpgi764se9f4kfr7ge41", 
+    "result": {
+        "pronDatas": [
+            {
+                "appName": "yourapp", 
+                "date": "20180101", 
+                "publishDomain": "push.yourdomain.com", 
+                "streamName": "yourstream", 
+                "total": 86310
+            }, 
+            {
+                "appName": "yourapp", 
+                "date": "20180102", 
+                "publishDomain": "push.yourdomain.com", 
+                "streamName": "yourstream", 
+                "total": 86310
+            }
+        ]
+    }
+}
+```

@@ -16,21 +16,19 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/oss_transferTasks/{id}/fa
 |**regionId**|String|True| |Region ID|
 
 ## Request Parameter
-|Name|Type|Required or Not|Default Value|Description|
-|---|---|---|---|---|
-|**x-jdcloud-fusion-cloudid**|String|True| |Cloud Registration Information ID|
+None
 
 
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String|Request ID|
 |**result**|Result| |
+|**requestId**|String|Request ID|
 
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**bucket**|TransferTaskFailedDetailInfo| |
+|**task**|TransferTaskFailedDetailInfo| |
 ### TransferTaskFailedDetailInfo
 |Name|Type|Description|
 |---|---|---|

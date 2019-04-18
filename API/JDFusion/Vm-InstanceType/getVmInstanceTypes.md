@@ -17,17 +17,18 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/vm_instanceTypes
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**authorization**|String|True| |See guide document of signature algorithm for obtaining method|
-|**x-jdcloud-date**|String|True| |See guide document of signature algorithm for obtaining method|
-|**x-jdcloud-fusion-cloudid**|String|False| |Cloud Registration Information ID|
 |**x-jdcloud-nonce**|String|True| |See guide document of signature algorithm for obtaining method|
+|**x-jdcloud-date**|String|True| |See guide document of signature algorithm for obtaining method|
+|**authorization**|String|True| |See guide document of signature algorithm for obtaining method|
+|**x-jdcloud-fusion-cloudid**|String|False| |Cloud Registration Information ID|
+|**az**|String|False| |Availability Zone|
 
 
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String|Request ID|
 |**result**|Result| |
+|**requestId**|String|Request ID|
 
 ### Result
 |Name|Type|Description|
@@ -36,14 +37,14 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/vm_instanceTypes
 ### InstanceTypeInfo
 |Name|Type|Description|
 |---|---|---|
+|**instanceType**|String|Type|
 |**cpu**|Integer|Cores of Processor, Unit: C|
+|**memory**|Integer|Memory Size, Unit: M|
 |**gpuAmount**|Integer|GPU Count|
 |**gpuSpec**|String|GPU Type|
-|**instanceType**|String|Type|
-|**localStorageAmount**|Integer|Count of Local Storages|
 |**localStorageSize**|Integer|Single Capacity of Local Storage|
 |**localStorageType**|String|Type of Local Storage|
-|**memory**|Integer|Memory Size, Unit: M|
+|**localStorageAmount**|Integer|Count of Local Storages|
 |**nicLimit**|Integer|Supported Count of Elastic Network Interfaces|
 
 ## Return Code

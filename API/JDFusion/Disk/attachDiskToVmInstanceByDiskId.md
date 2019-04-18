@@ -18,23 +18,23 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/disk_disks/{id}:attach
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**attach**|AttachDataDiskReq|True| |Attach Cloud Disk to Virtual Machines|
-|**authorization**|String|True| |See guide document of signature algorithm for obtaining method|
-|**x-jdcloud-date**|String|True| |See guide document of signature algorithm for obtaining method|
 |**x-jdcloud-fusion-cloudid**|String|True| |Cloud Registration Information ID|
 |**x-jdcloud-nonce**|String|True| |See guide document of signature algorithm for obtaining method|
+|**x-jdcloud-date**|String|True| |See guide document of signature algorithm for obtaining method|
+|**authorization**|String|True| |See guide document of signature algorithm for obtaining method|
+|**attach**|AttachDataDisk|True| |Attach Cloud Disk to Virtual Machines|
 
 ### AttachDataDisk
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**deleteWithInstance**|Boolean|False| |Whether the Cloud Disk is released followed by the release of the instance. Default Value:False|
 |**instanceId**|String|True| |Virtual Machine id|
+|**deleteWithInstance**|Boolean|False| |Whether the Cloud Disk is released followed by the release of the instance. Default Value:False|
 
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String|Request ID|
 |**result**|Result| |
+|**requestId**|String|Request ID|
 
 ### Result
 |Name|Type|Description|
@@ -43,15 +43,15 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/disk_disks/{id}:attach
 ### ResourceTFInfo
 |Name|Type|Description|
 |---|---|---|
-|**body**|String|Request Body|
-|**cloudId**|String|cloud ID|
-|**createdTime**|String|Creation Time|
-|**provider**|String|cloud provider|
-|**result**|String|Execution Results|
-|**status**|String|Status|
-|**updateTime**|String|Update Time|
-|**userId**|String|user ID|
 |**uuid**|String|uuid|
+|**body**|String|Request Body|
+|**status**|String|Status|
+|**result**|String|Execution Results|
+|**createdTime**|String|Creation Time|
+|**updateTime**|String|Update Time|
+|**provider**|String|cloud provider|
+|**cloudId**|String|cloud ID|
+|**userId**|String|user ID|
 
 ## Return Code
 |Return Code|Description|

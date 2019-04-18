@@ -17,17 +17,17 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/vpc_securityGroups
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**authorization**|String|True| |See guide document of signature algorithm for obtaining method|
-|**x-jdcloud-date**|String|True| |See guide document of signature algorithm for obtaining method|
-|**x-jdcloud-fusion-cloudid**|String|False| |Cloud Registration Information ID|
 |**x-jdcloud-nonce**|String|True| |See guide document of signature algorithm for obtaining method|
+|**x-jdcloud-date**|String|True| |See guide document of signature algorithm for obtaining method|
+|**authorization**|String|True| |See guide document of signature algorithm for obtaining method|
+|**x-jdcloud-fusion-cloudid**|String|False| |Cloud Registration Information ID|
 
 
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String|Request ID|
 |**result**|Result| |
+|**requestId**|String|Request ID|
 
 ### Result
 |Name|Type|Description|
@@ -37,11 +37,11 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/vpc_securityGroups
 |Name|Type|Description|
 |---|---|---|
 |**cloudID**|String|ID of Registration Cloud Information|
-|**createdTime**|String|Creation Time|
-|**description**|String|Security Group Description Information|
 |**id**|String|Security Group id|
 |**name**|String|Name of Target Security Group|
+|**description**|String|Security Group Description Information|
 |**vpcId**|String|VPC id|
+|**createdTime**|String|Creation Time|
 
 ## Return Code
 |Return Code|Description|

@@ -12,27 +12,18 @@ https://live.jdcloud-api.com/v1/apps
 
 
 ## Request Parameter
-|Name|Type|If Compulsory|Description|
-|---|---|---|---|
-|**pageNum**|Integer|False|page; it is 1 by default; value range [1, 100000]|
-|**pageSize**|Integer|False|Segmentation size; it is 10 by default; value range[10, 100]|
-|**filters**|Filter[]|False|Filter Conditions of app List under Domain:<br>  - name:   publishDomain Live Pushing Streaming Domain<br>  - value:  If the parameter is null, search all<br>|
+|Name|Type|Required or Not|Default Value|Description|
+|---|---|---|---|---|
+|**pageNum**|Integer|False|1|Page<br>-  Value Range: [1, 100000]<br>|
+|**pageSize**|Integer|False|10|Paging Size<br>-  Value Range: [10, 100]<br>|
+|**filters**|Filter[]|False| |Filter Conditions of app List under Domain:<br>  - name:   publishDomain Live Pushing Streaming Domain<br>  - values:  If the parameter is null, search all<br>  - If the filter condition is null, it means to search all application names under this user<br>|
 
 ### Filter
-|Name|Type|If Compulsory|Description|
-|---|---|---|---|
-|**name**|String|True|Name of Filter Requirements|
-|**operator**|String|False|Operator of filter requirements is eq by default|
-|**values**|String[]|True|Value of Filter Requirements|
-
-## Examples
-    {
-        "pageNum": 1,
-        "pageSize": 10,
-        "filters": [{
-           "name":"publishDomain",
-           "value":"push.yourdomain.com"}]
-    }
+|Name|Type|Required or Not|Default Value|Description|
+|---|---|---|---|---|
+|**name**|String|True| |Name of Filter Requirements|
+|**operator**|String|False| |Operator of filter requirements is eq by default|
+|**values**|String[]|True| |Value of Filter Requirements|
 
 ## Response parameter
 |Name|Type|Description|
@@ -51,8 +42,8 @@ https://live.jdcloud-api.com/v1/apps
 |Name|Type|Description|
 |---|---|---|
 |**appName**|String|Application Name|
-|**appStatus**|String|Application status: <br > - online    Start<br > - offline   Close <br>|
-|**createTime**|String|Creation Time|
+|**appStatus**|String|Application status<br>  online: Start<br>  offline: Close<br>|
+|**createTime**|String|Application Creation Time<br>- UTC Time<br>  Format: yyyy-MM-dd'T'HH:mm:ss'Z'<br>|
 |**updateTime**|String|Update Time|
 
 ## Return Code
@@ -64,3 +55,38 @@ https://live.jdcloud-api.com/v1/apps
 |**404**|Not found|
 |**500**|Internal server error|
 |**503**|Service unavailable|
+
+## Request Example
+GET
+```
+https://live.jdcloud-api.com/v1/apps?pageNumber=1&pageSize=10&filters.1.name=publishDomain&filters.1.values.1=push.yourdomain.com
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bgvmivir54gddpgi764se9f4kfr7ge41", 
+    "result": {
+        "apps": [
+            {
+                "appName": "yourapp1", 
+                "appStatus": "online", 
+                "createTime": "2017-11-27T06:51:25Z", 
+                "publishDomain": "push.yourdomain.com", 
+                "updateTime": "2017-11-27T06:51:26Z"
+            }, 
+            {
+                "appName": "yourapp2", 
+                "appStatus": "online", 
+                "createTime": "2017-11-27T06:51:25Z", 
+                "publishDomain": "push.yourdomain.com", 
+                "updateTime": "2017-11-27T06:51:26Z"
+            }
+        ], 
+        "pageNumber": 1, 
+        "pageSize": 10, 
+        "totalCount": 2
+    }
+}
+```

@@ -2,7 +2,7 @@
 
 
 ## Description
-Get the account information on the designated RDS instance according to the filtering conditions
+Get the specified account information on the specified RDS instance
 
 ## Request Method
 GET
@@ -12,8 +12,8 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/rds_instances/{instId}/ac
 
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**accountName**|String|True| |Account Name|
 |**instId**|String|True| |RDS Instance ID|
+|**accountName**|String|True| |Account Name|
 |**regionId**|String|True| |Region ID|
 
 ## Request Parameter
@@ -25,8 +25,8 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/rds_instances/{instId}/ac
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String|Request ID|
 |**result**|Result| |
+|**requestId**|String|Request ID|
 
 ### Result
 |Name|Type|Description|
@@ -35,16 +35,16 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/rds_instances/{instId}/ac
 ### RdsAccountInfo
 |Name|Type|Description|
 |---|---|---|
-|**accountPrivileges**|RdsAccountPrivilege[]| |
-|**cloudID**|String|Provider ID of the Cloud|
 |**name**|String|Account Name|
 |**status**|String|Account Status|
+|**accountPrivileges**|RdsAccountPrivilege[]| |
+|**cloudID**|String|Provider ID of the Cloud|
 ### RdsAccountPrivilege
 |Name|Type|Description|
 |---|---|---|
-|**cloudID**|String|Provider ID of the Cloud|
 |**dbName**|String|Database Name|
 |**privilege**|String|Permission that the account has to the database|
+|**cloudID**|String|Provider ID of the Cloud|
 
 ## Return Code
 |Return Code|Description|

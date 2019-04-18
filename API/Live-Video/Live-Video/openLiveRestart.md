@@ -12,9 +12,9 @@ https://live.jdcloud-api.com/v1/liveRestart:open
 
 
 ## Request Parameter
-|Name|Type|If Compulsory|Description|
-|---|---|---|---|
-|**restartDomain**|String|True|Restarted Pushing Streaming Domain|
+|Name|Type|Required or Not|Default Value|Description|
+|---|---|---|---|---|
+|**restartDomain**|String|True| |Playing Domain for Restarting|
 
 
 ## Response parameter
@@ -32,3 +32,22 @@ https://live.jdcloud-api.com/v1/liveRestart:open
 |**404**|Not found|
 |**500**|Internal server error|
 |**503**|Service unavailable|
+
+## Request Example
+PUT
+```
+https://live.jdcloud-api.com/v1/liveRestart:open
+
+```
+```
+{
+    "restartDomain": "restart.yourdomain.com"
+}
+```
+
+## Return Example
+```
+{
+    "requestId": "bgvmivir54gddpgi764se9f4kfr7ge41"
+}
+```

@@ -2,7 +2,9 @@
 
 
 ## Description
-Delete domain transcoding configuration
+Delete transcoding template configuration at domain level
+- Delete transcoding template configuration at domain level, taking effect after pushing streaming again
+
 
 ## Request Method
 DELETE
@@ -10,10 +12,10 @@ DELETE
 ## Request Address
 https://live.jdcloud-api.com/v1/transcodeDomains/{publishDomain}/templates/{template}:config
 
-|Name|Type|If Compulsory|Description|
-|---|---|---|---|
-|**publishDomain**|String|True|Pushing Streaming Accelerated Domain|
-|**template**|String|True|Transcoding Template Customized Name|
+|Name|Type|Required or Not|Default Value|Description|
+|---|---|---|---|---|
+|**publishDomain**|String|True| |Pushing Streaming Domain|
+|**template**|String|True| |Transcoding Template|
 
 ## Request Parameter
 None
@@ -34,3 +36,17 @@ None
 |**404**|Not found|
 |**500**|Internal server error|
 |**503**|Service unavailable|
+
+## Request Example
+DELETE
+```
+https://live.jdcloud-api.com/v1/transcodeDomains/push.yourdomain.com/templates/shd:config
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bgvmivir54gddpgi764se9f4kfr7ge41"
+}
+```

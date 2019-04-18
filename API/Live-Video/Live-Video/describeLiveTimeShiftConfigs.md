@@ -1,4 +1,4 @@
-# describeLiveTimeShiftConfigs
+# describeLiveTimeshiftConfigs
 
 
 ## Description
@@ -8,27 +8,18 @@ Search timeshift configuration
 GET
 
 ## Request Address
-https://live.jdcloud-api.com/v1/liveTimeShift:configs
+https://live.jdcloud-api.com/v1/liveTimeshift:configs
 
 
 ## Request Parameter
-|Name|Type|If Compulsory|Description|
-|---|---|---|---|
-|**pageNum**|Integer|False|page; it is 1 by default; value range [1, 100000]|
-|**pageSize**|Integer|False|Segmentation size; it is 10 by default; value range[10, 100]|
-|**playDomain**|String|True|Live Pushing Streaming Domain|
+|Name|Type|Required or Not|Default Value|Description|
+|---|---|---|---|---|
+|**pageNumber**|Integer|False|1|Page Number<br>- Value Range[1, 100000]<br>|
+|**pageSize**|Integer|False|10|Paging Size<br>- Value Range[10, 100]<br>|
+|**playDomain**|String|True| |Live Playing Domain<br>- Currently Only Support Exact Matching<br>|
 
 
-## Examples
-    {
-        "pageNum": 1,
-        "pageSize": 10,
-        "playDomain":"play.yourdomain.com"
-    }
-    
-    
-
-## Response parameter
+## Return Parameter
 |Name|Type|Description|
 |---|---|---|
 |**result**|Result| |
@@ -37,22 +28,25 @@ https://live.jdcloud-api.com/v1/liveTimeShift:configs
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**timeShiftConfigs**|TimeShiftConfig[]|Live Timeshift Set|
-### TimeShiftConfig
+|**pageNumber**|Integer|Current Page Number|
+|**pageSize**|Integer|Number on Each Page|
+|**totalCount**|Integer|Search Total Amount|
+|**timeshiftConfigs**|TimeshiftConfig[]|Live Domain Set|
+### TimeshiftConfig
 |Name|Type|Description|
 |---|---|---|
-|**publishDomains**|ShiftPublishDomain[]|Pushing Streaming Domain Set|
-|**playDomains**|ShiftPlayDomain[]|Live Domain Set|
-### ShiftPlayDomain
+|**publishDomains**|TimeshiftPublishDomain[]|Pushing Streaming Domain Set|
+|**playDomains**|TimeshiftPlayDomain[]|Playing Domain Set|
+### TimeshiftPlayDomain
 |Name|Type|Description|
 |---|---|---|
-|**playDomain**|String|Live Playing Domain|
-|**timeShiftStatus**|String|Live Timeshift Status:<br>  - on represents start<br>  - off represents close<br>|
-|**playType**|String|Playing Domain Type:<br>  - normal  Normal Playing Domain<br>  - restart Restart Playing Domain<br>|
-### ShiftPublishDomain
+|**playDomain**|String|Playing Domain|
+|**timeshiftStatus**|String|Live Timeshift Status:<br>  on: Start<br>  off: Close<br>|
+|**playType**|String|Playing Domain Type:<br>  normal: Normal Playing Domain(Timeshift Playing Domain)<br>|
+### TimeshiftPublishDomain
 |Name|Type|Description|
 |---|---|---|
-|**publishDomain**|String|Live Pushing Streaming Domain|
+|**publishDomain**|String|Pushing Streaming Domain|
 
 ## Return Code
 |Return Code|Description|
@@ -63,3 +57,38 @@ https://live.jdcloud-api.com/v1/liveTimeShift:configs
 |**404**|Not found|
 |**500**|Internal server error|
 |**503**|Service unavailable|
+
+## Request Example
+GET
+```
+https://live.jdcloud-api.com/v1/liveTimeshift:configs?playDomain=play.yourdomain.com
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bgvmivir54gddpgi764se9f4kfr7ge41", 
+    "result": {
+        "pageNumber": 1, 
+        "pageSize": 10, 
+        "timeshiftConfigs": [
+            {
+                "playDomains": [
+                    {
+                        "playDomain": "play.yourdomain.com", 
+                        "playType": "normal", 
+                        "timeshiftStatus": "on"
+                    }
+                ], 
+                "publishDomains": [
+                    {
+                        "publishDomain": "push.yourdomain.com"
+                    }
+                ]
+            }
+        ], 
+        "totalCount": 1
+    }
+}
+```

@@ -16,16 +16,14 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/oss_transferTasks/{id}/pr
 |**regionId**|String|True| |Region ID|
 
 ## Request Parameter
-|Name|Type|Required or Not|Default Value|Description|
-|---|---|---|---|---|
-|**x-jdcloud-fusion-cloudid**|String|True| |Cloud Registration Information ID|
+None
 
 
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String|Request ID|
 |**result**|Result| |
+|**requestId**|String|Request ID|
 
 ### Result
 |Name|Type|Description|
@@ -34,11 +32,11 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/oss_transferTasks/{id}/pr
 ### TransferTaskProgressInfo
 |Name|Type|Description|
 |---|---|---|
-|**failedFileCount**|String|Count of Files Failed in Migration|
 |**id**|String|Task ID|
 |**status**|String|Running Status|
-|**succeedFileCount**|String|Count of Files Succeeded in Migration|
 |**timeStart**|String|Start Time|
+|**succeedFileCount**|String|Count of Files Succeeded in Migration|
+|**failedFileCount**|String|Count of Files Failed in Migration|
 
 ## Return Code
 |Return Code|Description|

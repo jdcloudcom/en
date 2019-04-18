@@ -16,4 +16,9 @@ items:
         href: Media-Processing-APIs/listThumbnailTask.md
       - name: setNotification
         href: Media-Processing-APIs/setNotification.md
-  
+      - name: setStyleDelimiter
+        href: Image-Style-Delimiter-API/setStyleDelimiter.md
+      - name: getStyleDelimiter
+        href: Image-Style-Delimiter-API/getStyleDelimiter.md
+      - name: deleteStyleDelimiter  
+        href: Image-Style-Delimiter-API/deleteStyleDelimiter.md

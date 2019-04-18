@@ -17,17 +17,18 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/vpc_networkInterfaces
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**authorization**|String|True| |See guide document of signature algorithm for obtaining method|
-|**x-jdcloud-date**|String|True| |See guide document of signature algorithm for obtaining method|
-|**x-jdcloud-fusion-cloudid**|String|False| |Cloud Registration Information ID|
 |**x-jdcloud-nonce**|String|True| |See guide document of signature algorithm for obtaining method|
+|**x-jdcloud-date**|String|True| |See guide document of signature algorithm for obtaining method|
+|**authorization**|String|True| |See guide document of signature algorithm for obtaining method|
+|**x-jdcloud-fusion-cloudid**|String|False| |Cloud Registration Information ID|
+|**vmId**|String|False| |Virtual Machines id|
 
 
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String|Request ID|
 |**result**|Result| |
+|**requestId**|String|Request ID|
 
 ### Result
 |Name|Type|Description|
@@ -36,19 +37,28 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/vpc_networkInterfaces
 ### NetInterfaceInfo
 |Name|Type|Description|
 |---|---|---|
-|**associatedPublicIp**|String|Public IP Associated with Elastic Network Interface|
-|**az**|String|ID of Availability Zone|
-|**cloudID**|String|Provider ID of the Cloud|
-|**createdTime**|String|Creation Time|
-|**description**|String|Network Interface Description Information|
 |**id**|String|Id of Network Interface|
-|**instanceId**|String|Additional Instance ID to Elastic Network Interface|
-|**macAddress**|String|MAC Address of Elastic Network Interface|
 |**name**|String|Network Interface Name|
-|**privateIpAddress**|String|Primary Private IP Address of Elastic Network Interface|
-|**subnetId**|String|Subnet id|
-|**type**|String|Network Interface Type|
+|**description**|String|Network Interface Description Information|
 |**vpcId**|String|VPC Id|
+|**type**|String|Network Interface Type|
+|**subnetId**|String|Subnet id|
+|**az**|String|ID of Availability Zone|
+|**associatedPublicIp**|String|Public IP Associated with Elastic Network Interface|
+|**privateIpAddress**|String|Primary Private IP Address of Elastic Network Interface|
+|**macAddress**|String|MAC Address of Elastic Network Interface|
+|**instanceId**|String|Additional Instance ID to Elastic Network Interface|
+|**createdTime**|String|Creation Time|
+|**cloudID**|String|Provider ID of the Cloud|
+|**securityGroupIds**|String[]|Security Group id List|
+|**privateIps**|PrivateIp[]|Private ip Detailed List.|
+### PrivateIp
+|Name|Type|Description|
+|---|---|---|
+|**ipAddress**|String|Address of Private IP.|
+|**primary**|Boolean|Primary IP or Not.|
+|**eipId**|String|Elastic IP instance ID.|
+|**eipAddress**|String|Elastic IP Instance Address.|
 
 ## Return Code
 |Return Code|Description|

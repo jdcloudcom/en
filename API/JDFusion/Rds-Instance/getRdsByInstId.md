@@ -2,7 +2,7 @@
 
 
 ## Description
-Search corresponding RDS instance information according to the cloud providers
+Search the RDS instance information with designated ID
 
 ## Request Method
 GET
@@ -24,8 +24,8 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/rds_instances/{instId}
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String|Request ID|
 |**result**|Result| |
+|**requestId**|String|Request ID|
 
 ### Result
 |Name|Type|Description|
@@ -34,24 +34,24 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/rds_instances/{instId}
 ### RdsInstanceDetailInfo
 |Name|Type|Description|
 |---|---|---|
+|**id**|String|RDS Instance ID|
+|**name**|String|RDS Instance Name|
 |**azs**|String[]|ID of Availability Zone|
-|**cloudID**|String|Provider ID of the Cloud|
-|**connectionMode**|String|Access Mode of Instance|
-|**connectionString**|String|Connection Address|
 |**engine**|String|Type of Instance Engine|
 |**engineVersion**|String|Instance Engine Version|
-|**id**|String|RDS Instance ID|
-|**instanceCPU**|Integer|CPU core number|
-|**instanceClassType**|String|Instance Type|
-|**instanceType**|String|Instance Type Family|
-|**memoryMB**|Double|Memory Size, Unit: MB|
-|**name**|String|RDS Instance Name|
-|**payType**|String|Payment Method, Postpaid: Pay-As-You-Go; Prepaid: Pay-In-Advance|
-|**port**|String|Port|
 |**status**|String|Instance Status|
+|**payType**|String|Payment Method, Postpaid: Pay-As-You-Go; Prepaid: Pay-In-Advance|
 |**storageGB**|Integer|Disk, Unit: GB|
-|**subnetId**|String|subnet ID|
+|**memoryMB**|Double|Memory Size, Unit: MB|
+|**instanceType**|String|Instance Type Family|
+|**instanceClassType**|String|Instance Type|
+|**connectionMode**|String|Access Mode of Instance|
+|**connectionString**|String|Connection Address|
+|**instanceCPU**|Integer|CPU core number|
+|**port**|String|Port|
 |**vpcId**|String|VPC ID|
+|**subnetId**|String|subnet ID|
+|**cloudID**|String|Provider ID of the Cloud|
 
 ## Return Code
 |Return Code|Description|

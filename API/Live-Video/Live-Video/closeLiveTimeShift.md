@@ -1,28 +1,23 @@
-# closeLiveTimeShift
+# closeLiveTimeshift
 
 
 ## Description
-Close timeshift
+Close Timeshift
 
 ## Request Method
 PUT
 
 ## Request Address
-https://live.jdcloud-api.com/v1/liveTimeShift:close
+https://live.jdcloud-api.com/v1/liveTimeshift:close
 
 
 ## Request Parameter
-|Name|Type|If Compulsory|Description|
-|---|---|---|---|
-|**playDomain**|String|True|Live Pushing Streaming Domain|
+|Name|Type|Required or Not|Default Value|Description|
+|---|---|---|---|---|
+|**playDomain**|String|True| |Live Playing Domain|
 
 
-## Examples
-    {
-        "playDomain": "play.yourdomain.com"
-    }
-
-## Response parameter
+## Return Parameter
 |Name|Type|Description|
 |---|---|---|
 |**requestId**|String|requestId|
@@ -37,3 +32,22 @@ https://live.jdcloud-api.com/v1/liveTimeShift:close
 |**404**|Not found|
 |**500**|Internal server error|
 |**503**|Service unavailable|
+
+## Request Example
+PUT
+```
+https://live.jdcloud-api.com/v1/liveTimeshift:close
+
+```
+```
+{
+    "playDomain": "play.yourdomain.com"
+}
+```
+
+## Return Example
+```
+{
+    "requestId": "bgvmivir54gddpgi764se9f4kfr7ge41"
+}
+```

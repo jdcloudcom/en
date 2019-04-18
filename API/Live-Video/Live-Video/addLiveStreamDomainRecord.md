@@ -2,7 +2,9 @@
 
 
 ## Description
-Add domain record configuration
+Add live recording configuration at domain level
+- Add live recording template configuration at domain level
+
 
 ## Request Method
 POST
@@ -12,16 +14,11 @@ https://live.jdcloud-api.com/v1/recordDomains:config
 
 
 ## Request Parameter
-|Name|Type|If Compulsory|Description|
-|---|---|---|---|
-|**publishDomain**|String|True|Your Pushing Streaming Accelerated Domain|
-|**template**|String|True|Recording Template|
+|Name|Type|Required or Not|Default Value|Description|
+|---|---|---|---|---|
+|**publishDomain**|String|True| |Pushing Streaming Domain|
+|**template**|String|True| |Recording Template|
 
-## Examples
-    {
-        "publishDomain": "push.yourdomain.com",
-        "template": "test-live-video"
-    }
 
 ## Response parameter
 |Name|Type|Description|
@@ -38,3 +35,23 @@ https://live.jdcloud-api.com/v1/recordDomains:config
 |**404**|Not found|
 |**500**|Internal server error|
 |**503**|Service unavailable|
+
+## Request Example
+POST
+```
+https://live.jdcloud-api.com/v1/recordDomains:config
+
+```
+```
+{
+    "publishDomain": "push.yourdomain.com", 
+    "template": "yourrecordtemplate"
+}
+```
+
+## Return Example
+```
+{
+    "requestId": "bgvmivir54gddpgi764se9f4kfr7ge41"
+}
+```

@@ -2,7 +2,8 @@
 
 
 ## Description
-Search watermark template list
+Search User Customized Watermark Template List
+
 
 ## Request Method
 GET
@@ -12,26 +13,18 @@ https://live.jdcloud-api.com/v1/watermarkCustoms
 
 
 ## Request Parameter
-|Name|Type|If Compulsory|Description|
-|---|---|---|---|
-|**pageNum**|Integer|False|page; it is 1 by default; value range [1, 100000]|
-|**pageSize**|Integer|False|Segmentation size; it is 10 by default; value range[10, 100]|
-|**filters**|Filter[]|False|Watermark Template List Search Filter Conditions:<br>  - name:   template  Recording Template Customized Name<br>  - value:  If the parameter is null, search all<br>|
+|Name|Type|Required or Not|Default Value|Description|
+|---|---|---|---|---|
+|**pageNum**|Integer|False|1|Page Number<br>- Value Range [1, 100000]<br>|
+|**pageSize**|Integer|False|10|Paging Size<br>- Value Range [10, 100]<br>|
+|**filters**|Filter[]|False| |Watermark Template List Search Filter Conditions:<br>  - name:   template  Recording Template Customized Name<br>  - value:  If the parameter is null, search all<br>|
 
 ### Filter
-|Name|Type|If Compulsory|Description|
-|---|---|---|---|
-|**name**|String|True|Name of Filter Requirements|
-|**values**|String[]|True|Value of Filter Requirements|
-
-## Examples
-    {
-        "pageNum": 1,
-        "pageSize": 10,
-        "filters": [{
-           "name":"template",
-           "value":"test-live-video"}]
-    }
+|Name|Type|Required or Not|Default Value|Description|
+|---|---|---|---|---|
+|**name**|String|True| |Name of Filter Requirements|
+|**operator**|String|False| |Operator of filter requirements is eq by default|
+|**values**|String[]|True| |Value of Filter Requirements|
 
 ## Response parameter
 |Name|Type|Description|
@@ -49,12 +42,12 @@ https://live.jdcloud-api.com/v1/watermarkCustoms
 ### WatermarkTemplate
 |Name|Type|Description|
 |---|---|---|
-|**offSetX**|Integer|x Axis Offset|
-|**offSetY**|Integer|y Axis Offset|
-|**width**|Integer|Width|
-|**height**|Integer|Height|
-|**url**|String|url|
-|**template**|String|Watermark Template Customized Name|
+|**offSetX**|Integer|x Axis Offset<br>- Unit: Pixel<br>|
+|**offSetY**|Integer|y Axis Offset<br>- Unit: Pixel<br>|
+|**width**|Integer|Watermark Width<br>- Unit: Pixel<br>|
+|**height**|Integer|Watermark Height<br>- Unit: Pixel<br>|
+|**url**|String|Watermark Address<br>|
+|**template**|String|Watermark Template Customized Name<br>|
 
 ## Return Code
 |Return Code|Description|
@@ -65,3 +58,32 @@ https://live.jdcloud-api.com/v1/watermarkCustoms
 |**404**|Not found|
 |**500**|Internal server error|
 |**503**|Service unavailable|
+
+## Request Example
+GET
+```
+https://live.jdcloud-api.com/v1/watermarkCustoms?filters.1.name=template&filters.1.values.1=yourwatermarktemplate
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bgvmivir54gddpgi764se9f4kfr7ge41", 
+    "result": {
+        "pageNumber": 1, 
+        "pageSize": 100, 
+        "totalCount": 2, 
+        "watermarkTemplates": [
+            {
+                "height": 200, 
+                "offSetX": 10, 
+                "offSetY": 50, 
+                "template": "yourwatermarktemplate", 
+                "url": "http://xxx.com/xxx.jpg", 
+                "width": 155
+            }
+        ]
+    }
+}
+```

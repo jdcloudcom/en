@@ -2,7 +2,7 @@
 
 
 ## Description
-Delete live streaming status notification
+Delete callback address of live streaming status
 
 ## Request Method
 DELETE
@@ -10,9 +10,9 @@ DELETE
 ## Request Address
 https://live.jdcloud-api.com/v1/streamNotifys/{publishDomain}
 
-|Name|Type|If Compulsory|Description|
-|---|---|---|---|
-|**publishDomain**|String|True|Pushing Streaming Domain|
+|Name|Type|Required or Not|Default Value|Description|
+|---|---|---|---|---|
+|**publishDomain**|String|True| |Pushing Streaming Domain|
 
 ## Request Parameter
 None
@@ -33,3 +33,17 @@ None
 |**404**|Not found|
 |**500**|Internal server error|
 |**503**|Service unavailable|
+
+## Request Example
+DELETE
+```
+https://live.jdcloud-api.com/v1/streamNotifys/push.yourdomain.com
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bgvmivir54gddpgi764se9f4kfr7ge41"
+}
+```

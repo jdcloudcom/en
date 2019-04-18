@@ -29,8 +29,8 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/deployments/{id}:clone
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String|Request ID|
 |**result**|Result| |
+|**requestId**|String|Request ID|
 
 ### Result
 |Name|Type|Description|
@@ -39,38 +39,45 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/deployments/{id}:clone
 ### DeploymentInfo
 |Name|Type|Description|
 |---|---|---|
-|**content**|DeploymentResourcesInfo| |
 |**info**|DeploymentBaseInfo| |
+|**content**|DeploymentResourcesInfo| |
 ### DeploymentResourcesInfo
 |Name|Type|Description|
 |---|---|---|
-|**diskAttachment**|Object| |
-|**disks**|Object| |
-|**eipAssociate**|Object| |
-|**eips**|Object| |
-|**httpListeners**|Object| |
-|**keypairs**|Object| |
-|**netInterfaceAttachment**|Object| |
-|**networkInterfaces**|Object| |
-|**securityGroups**|Object| |
-|**slbs**|Object| |
-|**subnets**|Object| |
-|**variables**|Object| |
 |**vms**|Object| |
+|**eips**|Object| |
+|**subnets**|Object| |
+|**networkInterfaces**|Object| |
+|**slbs**|Object| |
+|**securityGroups**|Object| |
+|**securityGroupRules**|Object| |
+|**keypairs**|Object| |
+|**disks**|Object| |
 |**vpcs**|Object| |
 |**vserverGroups**|Object| |
+|**httpListeners**|Object| |
+|**diskAttachment**|Object| |
+|**netInterfaceAttachment**|Object| |
+|**eipAssociate**|Object| |
+|**rds**|Object| |
+|**rdsDatabase**|Object| |
+|**rdsAccount**|Object| |
+|**rdsAccountGrant**|Object| |
+|**bucket**|Object| |
+|**variables**|Object| |
 ### DeploymentBaseInfo
 |Name|Type|Description|
 |---|---|---|
 |**cloudId**|String|ID of Cloud|
-|**createdTime**|String|Creation Time|
-|**description**|String|Description|
+|**version**|String|Version|
+|**readOnly**|Integer|Whether it is read-only  0: No 1: Yes|
 |**id**|String|ID|
 |**name**|String|Name|
-|**readOnly**|Integer|Whether it is read-only  0: No 1: Yes|
-|**updatedTime**|String|Update Time|
+|**description**|String|Description|
 |**userId**|String|User ID|
-|**version**|String|Version|
+|**createdTime**|String|Creation Time|
+|**updatedTime**|String|Update Time|
+|**lastOperation**|String|Last Operation|
 
 ## Return Code
 |Return Code|Description|

@@ -18,11 +18,11 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/vpc_networkInterfaces/{id
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**attach**|AttachNetInterface|True| |Attach Network Interface to Virtual Machines|
-|**authorization**|String|True| |See guide document of signature algorithm for obtaining method|
-|**x-jdcloud-date**|String|True| |See guide document of signature algorithm for obtaining method|
 |**x-jdcloud-fusion-cloudid**|String|True| |Cloud Registration Information ID|
 |**x-jdcloud-nonce**|String|True| |See guide document of signature algorithm for obtaining method|
+|**x-jdcloud-date**|String|True| |See guide document of signature algorithm for obtaining method|
+|**authorization**|String|True| |See guide document of signature algorithm for obtaining method|
+|**attach**|AttachNetInterface|True| |Attach Network Interface to Virtual Machines|
 
 ### AttachNetInterface
 |Name|Type|Required or Not|Default Value|Description|
@@ -32,8 +32,8 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/vpc_networkInterfaces/{id
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String|Request ID|
 |**result**|Result| |
+|**requestId**|String|Request ID|
 
 ### Result
 |Name|Type|Description|
@@ -42,15 +42,15 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/vpc_networkInterfaces/{id
 ### ResourceTFInfo
 |Name|Type|Description|
 |---|---|---|
-|**body**|String|Request Body|
-|**cloudId**|String|cloud ID|
-|**createdTime**|String|Creation Time|
-|**provider**|String|cloud provider|
-|**result**|String|Execution Results|
-|**status**|String|Status|
-|**updateTime**|String|Update Time|
-|**userId**|String|user ID|
 |**uuid**|String|uuid|
+|**body**|String|Request Body|
+|**status**|String|Status|
+|**result**|String|Execution Results|
+|**createdTime**|String|Creation Time|
+|**updateTime**|String|Update Time|
+|**provider**|String|cloud provider|
+|**cloudId**|String|cloud ID|
+|**userId**|String|user ID|
 
 ## Return Code
 |Return Code|Description|

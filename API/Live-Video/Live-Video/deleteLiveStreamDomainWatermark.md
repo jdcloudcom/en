@@ -2,7 +2,9 @@
 
 
 ## Description
-Delete domain watermark configuration
+Delete watermark template configuration at domain level
+- Delete watermark template configuration at domain level, taking effect after pushing streaming again
+
 
 ## Request Method
 DELETE
@@ -10,10 +12,11 @@ DELETE
 ## Request Address
 https://live.jdcloud-api.com/v1/watermarkDomains/{publishDomain}/templates/{template}
 
-|Name|Type|If Compulsory|Description|
-|---|---|---|---|
-|**publishDomain**|String|True|Pushing Streaming Accelerated Domain|
-|**template**|String|True|Watermark Template Customized Name|
+|Name|Type|Required or Not|Default Value|Description|
+|---|---|---|---|---|
+|**publishDomain**|String|True| |Pushing Streaming Domain|
+|**template**|String|True| |Watermark Template
+|
 
 ## Request Parameter
 None
@@ -34,3 +37,17 @@ None
 |**404**|Not found|
 |**500**|Internal server error|
 |**503**|Service unavailable|
+
+## Request Example
+DELETE
+```
+https://live.jdcloud-api.com/v1/watermarkDomains/push.yourdomain.com/templates/yourwatermarktemplate
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bgvmivir54gddpgi764se9f4kfr7ge41"
+}
+```

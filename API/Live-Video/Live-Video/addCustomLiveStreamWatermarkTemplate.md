@@ -2,7 +2,8 @@
 
 
 ## Description
-Add live watermark template
+Add user customized watermark template
+
 
 ## Request Method
 POST
@@ -12,26 +13,15 @@ https://live.jdcloud-api.com/v1/watermarkCustoms:template
 
 
 ## Request Parameter
-|Name|Type|If Compulsory|Description|
-|---|---|---|---|
-|**offsetX**|Integer|True|x Axis Offset:<br>  - Unit: Pixel<br>|
-|**offsetY**|Integer|True|y Axis Offset:<br>  - Unit: Pixel<br>|
-|**width**|Integer|True|Watermark Width:<br>  - Value: [0,1920]<br>|
-|**height**|Integer|True|Watermark Height:<br>  - Value: [0,1920]<br>|
-|**template**|String|True|Watermark Template Customized Name:<br>  - Value Requirements: For numbers, uppercase and lowercase letters, or hyphens ("-”),<br>              no special characters are allowed at the beginning and end("-")<br>  - <b>Note: It cannot be repeated with the defined template name</b><br>|
-|**url**|String|True|Watermark Address:<br>  - Start with http, accessible address<br>|
+|Name|Type|Required or Not|Default Value|Description|
+|---|---|---|---|---|
+|**offsetX**|Integer|True| |x Axis Offset<br>- Unit: Pixel<br>|
+|**offsetY**|Integer|True| |y Axis Offset:<br>- Uni: Pixel<br>|
+|**width**|Integer|True| |Watermark Width:<br>- Value: [0,1920]<br>- Unit: Pixel<br>|
+|**height**|Integer|True| |Watermark Height:<br>- Value: [0,1920]<br>- Unit: Pixel<br>|
+|**template**|String|True| |Customized Watermark Template Name<br>-&ensp; Value Requirements: Numbers, uppercase and lowercase letters or hyphen ("-"), <br>&ensp;&ensp; no special character of ("-") is allowed at both ends,<br>&ensp;&ensp; the length cannot exceed 50 characters, utf-8 format<br>-&ensp;<b>Note: No duplication to defined names</b><br>|
+|**url**|String|True| |Watermark Address<br>-&ensp; Start with &ensp;http://, which is a publicly accessible address<br>|
 
-
-## Examples
-    {
-        "offsetX": "jpg",
-        "offsetY": "jpg",
-        "width": 1080,
-        "height": 720,
-        "template":"test-live-video",
-        "url":"http://amf.jdcloud.com"
-    }
-    
 
 ## Response parameter
 |Name|Type|Description|
@@ -48,3 +38,27 @@ https://live.jdcloud-api.com/v1/watermarkCustoms:template
 |**404**|Not found|
 |**500**|Internal server error|
 |**503**|Service unavailable|
+
+## Request Example
+POST
+```
+https://live.jdcloud-api.com/v1/watermarkCustoms:template
+
+```
+```
+{
+    "height": 30, 
+    "offsetX": 10, 
+    "offsetY": 20, 
+    "template": "yourwatermark", 
+    "url": "http://xxx.com/xxx.jpg", 
+    "width": 50
+}
+```
+
+## Return Example
+```
+{
+    "requestId": "bgvmivir54gddpgi764se9f4kfr7ge41"
+}
+```

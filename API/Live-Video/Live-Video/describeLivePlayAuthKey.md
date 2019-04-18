@@ -12,9 +12,9 @@ https://live.jdcloud-api.com/v1/livePlayAuthKey
 
 
 ## Request Parameter
-|Name|Type|If Compulsory|Description|
-|---|---|---|---|
-|**playDomain**|String|True|Your Play Acceleration Domain|
+|Name|Type|Required or Not|Default Value|Description|
+|---|---|---|---|---|
+|**playDomain**|String|True| |Live Playing Domain<br>- Only Support Exact Matching<br>|
 
 
 ## Response parameter
@@ -27,7 +27,7 @@ https://live.jdcloud-api.com/v1/livePlayAuthKey
 |Name|Type|Description|
 |---|---|---|
 |**playDomain**|String|Playing Domain|
-|**authStatus**|String|Play Authentication Status|
+|**authStatus**|String|Play Authentication Status<br>  on: Start<br>  off: Close<br>|
 |**authKey**|String|Play Authentication Key|
 
 ## Return Code
@@ -39,3 +39,22 @@ https://live.jdcloud-api.com/v1/livePlayAuthKey
 |**404**|Not found|
 |**500**|Internal server error|
 |**503**|Service unavailable|
+
+## Request Example
+GET
+```
+https://live.jdcloud-api.com/v1/livePlayAuthKey?playDomain=play.yourdomain.com
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bgvmivir54gddpgi764se9f4kfr7ge41", 
+    "result": {
+        "authKey": "sfdseeessdfeswer123", 
+        "authStatus": "on", 
+        "playDomain": "play.yourdomain.com"
+    }
+}
+```

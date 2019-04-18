@@ -23,16 +23,16 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/cloud_info
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**id**|String|False| | |
-|**info**|Object|True| | |
-|**metadata**|Object|False| | |
 |**name**|String|True| | |
 |**vendor**|String|True| | |
+|**info**|Object|True| | |
+|**metadata**|Object|False| | |
 
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String|Request ID|
 |**result**|Result| |
+|**requestId**|String|Request ID|
 
 ### Result
 |Name|Type|Description|
@@ -42,10 +42,10 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/cloud_info
 |Name|Type|Description|
 |---|---|---|
 |**id**|String| |
-|**info**|Object| |
-|**metadata**|Object| |
 |**name**|String| |
 |**vendor**|String| |
+|**info**|Object| |
+|**metadata**|Object| |
 
 ## Return Code
 |Return Code|Description|

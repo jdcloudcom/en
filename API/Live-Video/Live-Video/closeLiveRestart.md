@@ -12,9 +12,9 @@ https://live.jdcloud-api.com/v1/liveRestart:close
 
 
 ## Request Parameter
-|Name|Type|If Compulsory|Description|
-|---|---|---|---|
-|**restartDomain**|String|True|Restarted Pushing Streaming Domain|
+|Name|Type|Required or Not|Default Value|Description|
+|---|---|---|---|---|
+|**restartDomain**|String|True| |Playing Domain for Restarting|
 
 
 ## Response parameter

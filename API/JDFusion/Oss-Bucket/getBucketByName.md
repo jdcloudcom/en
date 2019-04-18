@@ -24,19 +24,22 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/oss_buckets/{name}
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String|Request ID|
 |**result**|Result| |
+|**requestId**|String|Request ID|
 
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**bucket**|OssBucketInfo| |
-### OssBucketInfo
+|**bucket**|OssBucketDetailInfo| |
+### OssBucketDetailInfo
 |Name|Type|Description|
 |---|---|---|
-|**cloudID**|String|Cloud Information|
-|**creationDate**|String|Creation Time|
 |**name**|String|Bucket Name|
+|**acl**|String|Bucket Permission|
+|**intranetEndpoint**|String|Intranet endpoint|
+|**extranetEndpoint**|String|Internet endpoint|
+|**creationDate**|String|Creation Time|
+|**cloudID**|String|Cloud Information|
 
 ## Return Code
 |Return Code|Description|

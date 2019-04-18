@@ -18,17 +18,17 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/vm_keypairs/{name}
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**authorization**|String|True| |See guide document of signature algorithm for obtaining method|
-|**x-jdcloud-date**|String|True| |See guide document of signature algorithm for obtaining method|
-|**x-jdcloud-fusion-cloudid**|String|False| |Cloud Registration Information ID|
 |**x-jdcloud-nonce**|String|True| |See guide document of signature algorithm for obtaining method|
+|**x-jdcloud-date**|String|True| |See guide document of signature algorithm for obtaining method|
+|**authorization**|String|True| |See guide document of signature algorithm for obtaining method|
+|**x-jdcloud-fusion-cloudid**|String|False| |Cloud Registration Information ID|
 
 
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String|Request ID|
 |**result**|Result| |
+|**requestId**|String|Request ID|
 
 ### Result
 |Name|Type|Description|
@@ -37,9 +37,9 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/vm_keypairs/{name}
 ### KeypairInfo
 |Name|Type|Description|
 |---|---|---|
-|**cloudID**|String|Cloud Registration Information ID|
-|**keyFingerprint**|String|Key Fingerprint|
 |**name**|String|Key Pair Name|
+|**keyFingerprint**|String|Key Fingerprint|
+|**cloudID**|String|Cloud Registration Information ID|
 
 ## Return Code
 |Return Code|Description|

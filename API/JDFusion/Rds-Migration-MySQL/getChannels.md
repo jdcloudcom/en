@@ -23,8 +23,8 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/migration_mysqlChannels
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String|Request ID|
 |**result**|Result| |
+|**requestId**|String|Request ID|
 
 ### Result
 |Name|Type|Description|
@@ -36,13 +36,6 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/migration_mysqlChannels
 |**info**|ChannelBaseInfo| |
 |**source**|DataMediaInfo| |
 |**target**|DataMediaInfo| |
-### ChannelBaseInfo
-|Name|Type|Description|
-|---|---|---|
-|**description**|String|Name|
-|**id**|String|ID|
-|**name**|String|Name|
-|**status**|String|Status|
 ### DataMediaInfo
 |Name|Type|Description|
 |---|---|---|
@@ -50,21 +43,28 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/migration_mysqlChannels
 |**datasource**|DatasourceInfo| |
 |**schema**|String|schema|
 |**tables**|String[]|table|
+### DatasourceInfo
+|Name|Type|Description|
+|---|---|---|
+|**id**|String|ID|
+|**address**|String|Server Address|
+|**port**|Integer|Port|
+|**username**|String|Database Account|
+|**password**|String|Database Password|
 ### CloudInfo
 |Name|Type|Description|
 |---|---|---|
 |**cloudId**|String|ID of Cloud|
-|**password**|String|Database Password|
 |**rdsId**|String|Database ID|
 |**username**|String|Database Account|
-### DatasourceInfo
+|**password**|String|Database Password|
+### ChannelBaseInfo
 |Name|Type|Description|
 |---|---|---|
-|**address**|String|Server Address|
 |**id**|String|ID|
-|**password**|String|Database Password|
-|**port**|Integer|Port|
-|**username**|String|Database Account|
+|**name**|String|Name|
+|**description**|String|Name|
+|**status**|String|Status|
 
 ## Return Code
 |Return Code|Description|

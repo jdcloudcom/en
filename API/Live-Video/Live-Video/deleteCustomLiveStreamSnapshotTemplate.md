@@ -3,6 +3,8 @@
 
 ## Description
 Delete user customized live snapshot template
+- Before deleting snapshot template, please delete the snapshot configuration associated with the template first, otherwise on-line business will be affected
+
 
 ## Request Method
 DELETE
@@ -10,10 +12,10 @@ DELETE
 ## Request Address
 https://live.jdcloud-api.com/v1/snapshotCustoms/{template}
 
-|Name|Type|If Compulsory|Description|
-|---|---|---|---|
-|**template**|String|True|Snapshot Template Customized Name|
-  
+|Name|Type|Required or Not|Default Value|Description|
+|---|---|---|---|---|
+|**template**|String|True| |Snapshot Template|
+
 ## Request Parameter
 None
 
@@ -33,3 +35,17 @@ None
 |**404**|Not found|
 |**500**|Internal server error|
 |**503**|Service unavailable|
+
+## Request Example
+DELETE
+```
+https://live.jdcloud-api.com/v1/snapshotCustoms/yoursnapshottemplate
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bgvmivir54gddpgi764se9f4kfr7ge41"
+}
+```

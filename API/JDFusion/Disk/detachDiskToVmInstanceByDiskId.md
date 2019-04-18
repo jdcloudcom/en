@@ -18,11 +18,11 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/disk_disks/{id}:detach
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**authorization**|String|True| |See guide document of signature algorithm for obtaining method|
-|**detach**|DetachDataDisk|True| |Detach Cloud Disk from Virtual Machines|
-|**x-jdcloud-date**|String|True| |See guide document of signature algorithm for obtaining method|
 |**x-jdcloud-fusion-cloudid**|String|True| |Cloud Registration Information ID|
 |**x-jdcloud-nonce**|String|True| |See guide document of signature algorithm for obtaining method|
+|**x-jdcloud-date**|String|True| |See guide document of signature algorithm for obtaining method|
+|**authorization**|String|True| |See guide document of signature algorithm for obtaining method|
+|**detach**|DetachDataDisk|True| |Detach Cloud Disk from Virtual Machines|
 
 ### DetachDataDisk
 |Name|Type|Required or Not|Default Value|Description|

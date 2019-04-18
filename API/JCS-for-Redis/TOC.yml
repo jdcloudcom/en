@@ -26,7 +26,7 @@ items:
       - name: Redis Instance Type API
         items:
           - name: describeInstanceClass
-            href: JCS-for-Redis-Instance-type-APIs/describeInstanceClass.md
+            href: JCS-for-Redis-Instance-Type-APIs/describeInstanceClass.md
       - name: Redis Quota APIs
         items:
           - name: describeUserQuota

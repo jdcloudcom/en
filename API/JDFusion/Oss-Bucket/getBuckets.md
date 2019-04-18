@@ -23,8 +23,8 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/oss_buckets
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String|Request ID|
 |**result**|Result| |
+|**requestId**|String|Request ID|
 
 ### Result
 |Name|Type|Description|
@@ -33,9 +33,9 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/oss_buckets
 ### OssBucketInfo
 |Name|Type|Description|
 |---|---|---|
-|**cloudID**|String|Cloud Information|
-|**creationDate**|String|Creation Time|
 |**name**|String|Bucket Name|
+|**creationDate**|String|Creation Time|
+|**cloudID**|String|Cloud Information|
 
 ## Return Code
 |Return Code|Description|

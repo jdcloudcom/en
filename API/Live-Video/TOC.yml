@@ -42,6 +42,8 @@ items:
         href: Live-Video/describeLiveStreamOnlineList.md
       - name: View history pushing streaming record under the domain
         href: Live-Video/describeLiveStreamPublishList.md
+      - name: Search real-time stream information
+        href: Live-Video/describeLiveStreamInfo.md
   - name: Status Notification
     items:
       - name: Set live streaming status notification
@@ -73,7 +75,7 @@ items:
         href: Example/Transcode.md
       - name: Add domain transcoding configuration
         href: Live-Video/addLiveStreamDomainTranscode.md
-      - name: Delete domain transcoding configuration
+      - name: Delete domain
         href: Live-Video/deleteLiveStreamDomainTranscode.md
       - name: Add app transcoding configuration
         href: Live-Video/addLiveStreamAppTranscode.md
@@ -103,7 +105,7 @@ items:
         href: Live-Video/deleteLiveStreamAppRecord.md
       - name: Add domain record configuration
         href: Live-Video/addLiveStreamDomainRecord.md
-      - name: Delete domain record configuration
+      - name: Delete domain
         href: Live-Video/deleteLiveStreamDomainRecord.md
       - name: Search record configuration
         href: Live-Video/describeCustomLiveStreamRecordConfig.md
@@ -131,7 +133,7 @@ items:
         href: Live-Video/addLiveStreamDomainSnapshot.md
       - name: Search live snapshot configuration
         href: Live-Video/describeCustomLiveStreamSnapshotConfig.md
-      - name: Delete domain snapshot configuration
+      - name: Delete domain
         href: Live-Video/deleteLiveStreamDomainSnapshot.md
       - name: Set snapshot callback notification
         href: Live-Video/setLiveStreamSnapshotNotifyConfig.md
@@ -153,7 +155,7 @@ items:
         href: Live-Video/deleteLiveStreamAppWatermark.md
       - name: Add domain watermark configuration
         href: Live-Video/addLiveStreamDomainWatermark.md
-      - name: Delete domain watermark configuration
+      - name: Delete domain
         href: Live-Video/deleteLiveStreamDomainWatermark.md
       - name: Search watermark configuration
         href: Live-Video/describeCustomLiveStreamWatermarkConfig.md

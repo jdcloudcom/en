@@ -23,8 +23,8 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/migration_mysqlDatasource
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String|Request ID|
 |**result**|Result| |
+|**requestId**|String|Request ID|
 
 ### Result
 |Name|Type|Description|
@@ -33,11 +33,11 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/migration_mysqlDatasource
 ### DatasourceInfo
 |Name|Type|Description|
 |---|---|---|
-|**address**|String|Server Address|
 |**id**|String|ID|
-|**password**|String|Database Password|
+|**address**|String|Server Address|
 |**port**|Integer|Port|
 |**username**|String|Database Account|
+|**password**|String|Database Password|
 
 ## Return Code
 |Return Code|Description|

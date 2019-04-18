@@ -24,8 +24,8 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/rds_instances/{instId}/da
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String|Request ID|
 |**result**|Result| |
+|**requestId**|String|Request ID|
 
 ### Result
 |Name|Type|Description|
@@ -34,17 +34,17 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/rds_instances/{instId}/da
 ### RdsDBInfo
 |Name|Type|Description|
 |---|---|---|
-|**accountPrivileges**|RdsDBAccessPrivilege[]| |
-|**characterSetName**|String|Character Set|
-|**cloudID**|String|Provider ID of the Cloud|
 |**name**|String|Database Name|
 |**status**|String|Database Status|
+|**characterSetName**|String|Character Set|
+|**accountPrivileges**|RdsDBAccessPrivilege[]| |
+|**cloudID**|String|Provider ID of the Cloud|
 ### RdsDBAccessPrivilege
 |Name|Type|Description|
 |---|---|---|
 |**accountName**|String|Account Name|
-|**cloudID**|String|Provider ID of the Cloud|
 |**privilege**|String|Permission that the account has to the database|
+|**cloudID**|String|Provider ID of the Cloud|
 
 ## Return Code
 |Return Code|Description|

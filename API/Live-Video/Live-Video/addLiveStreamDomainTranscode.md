@@ -2,7 +2,9 @@
 
 
 ## Description
-Add domain transcoding configuration
+Add transcoding configuration at domain level
+- Add transcoding template configuration at domain level
+
 
 ## Request Method
 POST
@@ -12,17 +14,11 @@ https://live.jdcloud-api.com/v1/transcodeDomains:config
 
 
 ## Request Parameter
-|Name|Type|If Compulsory|Description|
-|---|---|---|---|
-|**publishDomain**|String|True|Live Pushing Streaming Domain|
-|**template**|String|True|Transcoding Template Suffix|
+|Name|Type|Required or Not|Default Value|Description|
+|---|---|---|---|---|
+|**publishDomain**|String|True| |Live Pushing Streaming Domain|
+|**template**|String|True| |Transcoding Template<br>- Value Range: System Standard Transcoding Templates, User Customized Transcoding Template<br>- System Standard Transcoding Templates<br>  ld (h.264/640 * 360/15f)<br>  sd (h.264/854 * 480/24f)<br>  hd (h.264/1280 * 720/25f)<br>  shd (h.264/1920 * 1080/30f)<br>|
 
-
-## Examples
-    {
-        "publishDomain": "push.yourdomain.com",
-        "template": "test-live-video
-    }
 
 ## Response parameter
 |Name|Type|Description|
@@ -39,3 +35,23 @@ https://live.jdcloud-api.com/v1/transcodeDomains:config
 |**404**|Not found|
 |**500**|Internal server error|
 |**503**|Service unavailable|
+
+## Request Example
+POST
+```
+https://live.jdcloud-api.com/v1/transcodeDomains:config
+
+```
+```
+{
+    "publishDomain": "push.yourdomain.com", 
+    "template": "shd"
+}
+```
+
+## Return Example
+```
+{
+    "requestId": "bgvmivir54gddpgi764se9f4kfr7ge41"
+}
+```

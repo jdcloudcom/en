@@ -3,6 +3,13 @@
 
 ## Description
 Add customized transcoding template
+- The system has preset the standard transcoding templates. If they cannot meet your requirements of transcoding, you can add your customized transcoding templates through the interface
+- System Standard Transcoding Templates<br>
+    ld (h.264/640 * 360/15f)<br>
+    sd (h.264/854 * 480/24f)<br>
+    hd (h.264/1280 * 720/25f)<br>
+    shd (h.264/1920 * 1080/30f)<br>
+
 
 ## Request Method
 POST
@@ -12,34 +19,19 @@ https://live.jdcloud-api.com/v1/transcodeCustoms:template
 
 
 ## Request Parameter
-|Name|Type|If Compulsory|Description|
-|---|---|---|---|
-|**videoCodeRate**|Integer|True|Transcoding Output Code Rate Value:<br> - Value Range:[200,3000]<br> - Unit: kpbs<br>|
-|**videoFrameRate**|String|True|Transcoding Output Frame Rate Value:<br>  - Value: 15, 25, 30, 60<br>|
-|**width**|Integer|False|Transcoding Output Video Width:<br>  - Value: [100,1920]<br>  - Equal Ratio: If only one parameter is filled in, the output transcoding video is adjusted in proportion to the parameter<br>  - Source-followed: If neither parameter is filled in, the transcoding video is output according to the source proportion<br>|
-|**height**|Integer|False|Transcoding Output Video Width:<br>  - Value: [100,1920]<br>  - Equal Ratio: If only one parameter is filled in, the output transcoding video is adjusted in proportion to the parameter<br>  - Source-followed: If neither parameter is filled in, the transcoding video is output according to the source proportion<br>|
-|**template**|String|True|Transcoding Template Suffix:<br>  - Standard Quality Template:<br>- ld(h.264/640*360/15f)<br>- sd(h.264/854*480/24f)<br>- hd(h.264/1280*720/25f)<br>- shd(h.264/1920*1080/30f)<br>  - Value Requirements: For numbers, uppercase and lowercase letters, or hyphens ("-”),<br>              no special characters are allowed at the beginning and end("-")<br>  - <b>Note: It cannot be repeated with the standard transcoding template and the defined name</b><br>|
-|**audioCodec**|String|True|Transcoding Output Audio Coded Format:<br>  - Value: aac, mp3<br>  - Case Insensitive<br>|
-|**audioFormat**|String|True|Transcoding Output Audio Format:<br>  - Value: aac_lc, aac_low, aac_he, aac_he_v2<br>  - Case Insensitive<br>|
-|**audioSampleRate**|Integer|True|Transcoding Output Audio Sampling Rate:<br>  - Value: [44100,48000]<br>|
-|**audioChannel**|Integer|True|Transcoding Output Audio Path Number:<br>  - 1  Single Track<br>  - 2  Dual Track<br>|
-|**audioCodeRate**|Integer|True|Transcoding Output Audio Code Rate:<br>  - Value: [16,128]<br>  - Unit: kbps<br>|
+|Name|Type|Required or Not|Default Value|Description|
+|---|---|---|---|---|
+|**videoCodeRate**|Integer|True| |Code Rate of Transcoding Output<br>- Value Range: [200,3000]<br>- Unit: kpbs<br>|
+|**videoFrameRate**|String|True| |Frame Rate of Transcoding Output<br>- Value: 15, 25, 30 and 60<br>|
+|**width**|Integer|False| |Video Width of Transcoding Output<br>- Value: [100,1920]<br>- If only one of (width, height) is set, then output the snapshot with another item scaled according to the set parameter item<br>- if none of (width, height) is set, then output the snapshot according to the source stream size<br>|
+|**height**|Integer|False| |Video Width of Transcoding Output<br>- Value: [100,1920]<br>- If only one of (width, height) is set, then output the snapshot with another item scaled according to the set parameter item<br>- if none of (width, height) is set, then output the snapshot according to the source stream size<br>|
+|**template**|String|True| |Transcoding Template (Transcoding stream output suffix)<br>- Value Requirements: Numbers, uppercase and lowercase letters or hyphen ("-"), both ends must be a number or a letter, the length cannot exceed 50 characters<br>- <b>Note: It cannot duplicate the standard transcoding template of system and the current user customized naming</b><br>- System Standard Transcoding Templates<br>  ld (h.264/640*360/15f)<br>  sd (h.264/854*480/24f)<br>  hd (h.264/1280*720/25f)<br>  shd (h.264/1920*1080/30f)<br>|
+|**audioCodec**|String|True| |Audio Coding Format of Transcoding Output<br>- Value: aac, mp3<br>- Case Insensitive<br>|
+|**audioFormat**|String|True| |Audio Format of Transcoding Output<br>- Value: aac_lc, aac_low, aac_he, aac_he_v2<br>- Case Insensitive<br>|
+|**audioSampleRate**|Integer|True| |Audio Sampling Rate of Transcoding Output<br>- Value: [44100,48000]<br>|
+|**audioChannel**|Integer|True| |Audio Channel Number of Transcoding Output<br>  1: Mono<br>  2: Stereo<br>|
+|**audioCodeRate**|Integer|True| |Audio Coding Rate of Transcoding Output<br>- Value: [16,128]<br>- Unit: kbps<br>|
 
-
-
-## Examples
-    {
-        "videoCodeRate": 300,
-        "videoFrameRate": "15",
-        "width": 1080,
-        "height": 720,
-        "template":"test-live-video",
-        "audioCodec":"aac",
-        "audioFormat":"aac_low",
-        "audioSampleRate":44108,
-        "audioChannel":2,
-        "audioCodeRate":30
-    }
 
 ## Response parameter
 |Name|Type|Description|
@@ -56,3 +48,31 @@ https://live.jdcloud-api.com/v1/transcodeCustoms:template
 |**404**|Not found|
 |**500**|Internal server error|
 |**503**|Service unavailable|
+
+## Request Example
+POST
+```
+https://live.jdcloud-api.com/v1/transcodeCustoms:template
+
+```
+```
+{
+    "audioChannel": 2, 
+    "audioCodeRate": 48, 
+    "audioCodec": "aac", 
+    "audioFormat": "aac_lc", 
+    "audioSampleRate": 44100, 
+    "height": 1080, 
+    "template": "yt", 
+    "videoCodeRate": 1500, 
+    "videoFrameRate": "30", 
+    "width": 1920
+}
+```
+
+## Return Example
+```
+{
+    "requestId": "bgvmivir54gddpgi764se9f4kfr7ge41"
+}
+```

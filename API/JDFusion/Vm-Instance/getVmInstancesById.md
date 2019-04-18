@@ -18,17 +18,17 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/vm_instances/{id}
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**authorization**|String|True| |See guide document of signature algorithm for obtaining method|
-|**x-jdcloud-date**|String|True| |See guide document of signature algorithm for obtaining method|
-|**x-jdcloud-fusion-cloudid**|String|False| |Cloud Registration Information ID|
 |**x-jdcloud-nonce**|String|True| |See guide document of signature algorithm for obtaining method|
+|**x-jdcloud-date**|String|True| |See guide document of signature algorithm for obtaining method|
+|**authorization**|String|True| |See guide document of signature algorithm for obtaining method|
+|**x-jdcloud-fusion-cloudid**|String|False| |Cloud Registration Information ID|
 
 
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String|Request ID|
 |**result**|Result| |
+|**requestId**|String|Request ID|
 
 ### Result
 |Name|Type|Description|
@@ -37,60 +37,29 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/vm_instances/{id}
 ### VmInfoDetail
 |Name|Type|Description|
 |---|---|---|
-|**az**|String|Availability Zone of Virtual Machines|
-|**cloudID**|String|Provider ID of the Cloud|
-|**createdTime**|String|Creation Time|
-|**dataDiskAttachments**|DataDiskAttachment[]|Configuration Information of Data Disk|
-|**description**|String|Description of Virtual Machines|
-|**elasticIpAddress**|String|Elastic IP Address Associated to Primary IP of Primary Network Interface|
-|**hostName**|String|Virtual Machines|
 |**id**|String|Resource ID, in case of null, will execute creation operation, otherwise execute modification operation|
+|**region**|String|Availability Zone, enter according to specifications of cloud platform|
+|**az**|String|Availability Zone of Virtual Machines|
+|**name**|String|Virtual Machine Name|
+|**hostName**|String|Virtual Machines|
+|**imageId**|String|Image ID|
 |**imageType**|ImageType| |
 |**instanceType**|InstanceType| |
-|**keyNames**|String[]|Key Pair Name, JD only supports to import one now|
-|**metadata**|String|Extension Information|
-|**name**|String|Virtual Machine Name|
-|**primaryNetworkInterface**|NetAttachment| |
-|**privateIpAddress**|String|Private ip Address|
-|**region**|String|Availability Zone, enter according to specifications of cloud platform|
-|**secondaryNetworkInterfaces**|NetAttachment[]|Secondary Network Interface Configuration|
-|**status**|String|Virtual Machine Status|
+|**description**|String|Description of Virtual Machines|
 |**subnetId**|String|Subnet ID|
-|**sysDiskInfo**|SysDiskInfo| |
 |**tags**|Tag[]| |
-### DataDiskAttachment
-|Name|Type|Description|
-|---|---|---|
-|**autoDelete**|Boolean|Whether to be deleted followed by deletion of Virtual Machines, true: automatically; false: non-automatically|
-|**dataDisk**|DataDiskInfo| |
-|**deviceName**|String|Logical Attach Point of Data Disk|
-|**diskCategory**|String|Disk Category, with value of local disk (local) or Data Disk (cloud)|
-### DataDiskInfo
-|Name|Type|Description|
-|---|---|---|
-|**autoDelete**|String|Whether disk is deleted followed by the deletion of host|
-|**diskMediumType**|String|Disk media Category, which is reserved and can be null|
-|**diskName**|String|Disk Name|
-|**diskSize**|Integer|Hard Disk Size|
-|**status**|String|Disk Status|
-### ImageType
-|Name|Type|Description|
-|---|---|---|
 |**cloudID**|String|Provider ID of the Cloud|
-|**desc**|String|Image Description|
-|**id**|String|Image ID|
-|**imageSource**|String|Image Source|
-|**name**|String|Image Name|
-|**osType**|String|Operating System Type of Image|
-|**osVersion**|String|Operating System Version of Image|
-|**platform**|String|Operating System Release Version of Image|
-|**region**|String|Region of Image|
-### InstanceType
-|Name|Type|Description|
-|---|---|---|
-|**cpu**|Integer|Cores of Processor, Unit: C|
-|**memory**|Integer|Memory Size, Unit: M|
-|**name**|String|Name of Instance Configuration Type|
+|**keyNames**|String[]|Key Pair Name, JD only supports to import one now|
+|**elasticIpAddress**|String|Elastic IP Address Associated to Primary IP of Primary Network Interface|
+|**privateIpAddress**|String|Private ip Address|
+|**securityGroupIds**|String[]|Security Group ID|
+|**status**|String|Virtual Machine Status|
+|**createdTime**|String|Creation Time|
+|**sysDiskInfo**|SysDiskInfo| |
+|**dataDiskAttachments**|DataDiskAttachment[]|Configuration Information of Data Disk|
+|**primaryNetworkInterface**|NetAttachment| |
+|**secondaryNetworkInterfaces**|NetAttachment[]|Secondary Network Interface Configuration|
+|**metadata**|String|Extension Information|
 ### NetAttachment
 |Name|Type|Description|
 |---|---|---|
@@ -102,35 +71,69 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/vm_instances/{id}
 |---|---|---|
 |**macAddress**|String|Ethernet Address|
 |**networkInterfaceId**|String|Elastic Network Interface ID|
-|**primaryIp**|Ip| |
 |**sanityCheck**|Integer|Source and target IP Address verification, with value of 0 or 1|
-|**secondaryIps**|Ip[]|Secondary IP of Network Interface|
-|**securityGroups**|SecurityGroup[]|Belonged Security Group List|
 |**subnetId**|String|Subnet ID|
 |**vpcId**|String|Virtual Network ID|
-### Ip
-|Name|Type|Description|
-|---|---|---|
-|**elasticIpAddress**|String|Elastic IP Instance Address|
-|**privateIpAddress**|String|IPV4 Address of Private IP|
+|**primaryIp**|Ip| |
+|**secondaryIps**|Ip[]|Secondary IP of Network Interface|
+|**securityGroups**|SecurityGroup[]|Belonged Security Group List|
 ### SecurityGroup
 |Name|Type|Description|
 |---|---|---|
 |**groupId**|String|Security Group ID|
 |**groupName**|String|Security Group Name|
+### Ip
+|Name|Type|Description|
+|---|---|---|
+|**elasticIpAddress**|String|Elastic IP Instance Address|
+|**privateIpAddress**|String|IPV4 Address of Private IP|
+### DataDiskAttachment
+|Name|Type|Description|
+|---|---|---|
+|**autoDelete**|Boolean|Whether to be deleted followed by deletion of Virtual Machines, true: automatically; false: non-automatically|
+|**dataDisk**|DataDiskInfo| |
+|**deviceName**|String|Logical Attach Point of Data Disk|
+|**diskCategory**|String|Disk Category, with value of local disk (local) or Data Disk (cloud)|
+### DataDiskInfo
+|Name|Type|Description|
+|---|---|---|
+|**diskId**|String|Hard Disk ID|
+|**diskSize**|Integer|Hard Disk Size|
+|**diskMediumType**|String|Disk media Category, which is reserved and can be null|
+|**diskName**|String|Disk Name|
+|**autoDelete**|String|Whether disk is deleted followed by the deletion of host|
+|**status**|String|Disk Status|
 ### SysDiskInfo
 |Name|Type|Description|
 |---|---|---|
-|**autoDelete**|String|Whether disk is deleted followed by the deletion of host|
+|**diskSize**|Integer|Hard Disk Size|
 |**diskMediumType**|String|Disk media Category, which is reserved and can be null|
 |**diskName**|String|Disk Name|
-|**diskSize**|Integer|Hard Disk Size|
+|**autoDelete**|String|Whether disk is deleted followed by the deletion of host|
 |**status**|String|Disk Status|
 ### Tag
 |Name|Type|Description|
 |---|---|---|
 |**tagKey**|String|KEY Value of Tag|
 |**tagValue**|String|Value of Tag Value|
+### InstanceType
+|Name|Type|Description|
+|---|---|---|
+|**name**|String|Name of Instance Configuration Type|
+|**cpu**|Integer|Cores of Processor, Unit: C|
+|**memory**|Integer|Memory Size, Unit: M|
+### ImageType
+|Name|Type|Description|
+|---|---|---|
+|**id**|String|Image ID|
+|**desc**|String|Image Description|
+|**imageSource**|String|Image Source|
+|**name**|String|Image Name|
+|**osType**|String|Operating System Type of Image|
+|**osVersion**|String|Operating System Version of Image|
+|**platform**|String|Operating System Release Version of Image|
+|**region**|String|Region of Image|
+|**cloudID**|String|Provider ID of the Cloud|
 
 ## Return Code
 |Return Code|Description|

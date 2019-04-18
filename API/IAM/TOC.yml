@@ -10,28 +10,28 @@ items:
       - name:  Policy Management APIs
         items:
           - name: addPermissionsToSubUser
-            href: Policy-Management-APIs/addPermissionsToSubUser.md
+            href: Permission-Management/addPermissionsToSubUser.md
           - name: createPermission
-            href: Policy-Management-APIs/createPermission.md
+            href: Permission-Management/createPermission.md
           - name: describePermissionDetail
-            href: Policy-Management-APIs/describePermissionDetail.md
+            href: Permission-Management/describePermissionDetail.md
           - name: describePermissions
-            href: Policy-Management-APIs/describePermissions.md
+            href: Permission-Management/describePermissions.md
           - name: describeSubUserPermissions
-            href: Policy-Management-APIs/describeSubUserPermissions.md
+            href: Permission-Management/describeSubUserPermissions.md
           - name: removePermissionOfSubUser
-            href: Policy-Management-APIs/removePermissionOfSubUser.md
+            href: Permission-Management/removePermissionOfSubUser.md
           - name: updatePermission
-            href: Policy-Management-APIs/updatePermission.md
+            href: Permission-Management/updatePermission.md
       - name: User Management APIs
         items:
           - name: createUserAccessKey
-            href: User-Management-APIs/createUserAccessKey.md
+            href: User-Management/createUserAccessKey.md
           - name: deleteUserAccessKey
-            href: User-Management-APIs/deleteUserAccessKey.md
+            href: User-Management/deleteUserAccessKey.md
           - name: describeUserAccessKeys
-            href: User-Management-APIs/describeUserAccessKeys.md
+            href: User-Management/describeUserAccessKeys.md
           - name: disabledUserAccessKey
-            href: User-Management-APIs/disabledUserAccessKey.md
+            href: User-Management/disabledUserAccessKey.md
           - name: enabledUserAccessKey
-            href: User-Management-APIs/enabledUserAccessKey.md
+            href: User-Management/enabledUserAccessKey.md

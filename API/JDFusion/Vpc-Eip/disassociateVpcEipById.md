@@ -18,16 +18,15 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/vpc_eips/{id}:disassociat
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**authorization**|String|True| |See guide document of signature algorithm for obtaining method|
-|**unassociate**|UnassociateEipAddress|True| |Disassociate EIP|
-|**x-jdcloud-date**|String|True| |See guide document of signature algorithm for obtaining method|
 |**x-jdcloud-fusion-cloudid**|String|True| |Cloud Registration Information ID|
 |**x-jdcloud-nonce**|String|True| |See guide document of signature algorithm for obtaining method|
+|**x-jdcloud-date**|String|True| |See guide document of signature algorithm for obtaining method|
+|**authorization**|String|True| |See guide document of signature algorithm for obtaining method|
+|**unassociate**|UnassociateEipAddress|True| |Disassociate EIP|
 
 ### UnassociateEipAddress
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**force**|Boolean|False| |Whether to force to disassociate|
 |**instanceId**|String|False| |Instance ID of Cloud Product|
 |**instanceType**|String|False| |Resource Type to be Disassociated|
 

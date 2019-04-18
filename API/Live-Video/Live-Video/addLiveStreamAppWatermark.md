@@ -2,7 +2,8 @@
 
 
 ## Description
-Add APP watermark configuration
+Add watermark configuration at application level
+
 
 ## Request Method
 POST
@@ -12,19 +13,12 @@ https://live.jdcloud-api.com/v1/watermarkApps:config
 
 
 ## Request Parameter
-|Name|Type|If Compulsory|Description|
-|---|---|---|---|
-|**appName**|String|True|Application Name of the Live Streaming|
-|**publishDomain**|String|True|Your Pushing Streaming Accelerated Domain|
-|**template**|String|True|Watermark Template Customized Name|
+|Name|Type|Required or Not|Default Value|Description|
+|---|---|---|---|---|
+|**publishDomain**|String|True| |Pushing Streaming Domain|
+|**appName**|String|True| |Application Name|
+|**template**|String|True| |Watermark Template Name<br>|
 
-
-## Examples
-    {
-        "publishDomain": "push.yourdomain.com",
-        "appName": "live",
-        "template": "test-live-video"
-    }
 
 ## Response parameter
 |Name|Type|Description|
@@ -41,3 +35,24 @@ https://live.jdcloud-api.com/v1/watermarkApps:config
 |**404**|Not found|
 |**500**|Internal server error|
 |**503**|Service unavailable|
+
+## Request Example
+POST
+```
+https://live.jdcloud-api.com/v1/watermarkApps:config
+
+```
+```
+{
+    "appName": "yourapp", 
+    "publishDomain": "push.yourdomain.com", 
+    "template": "yourwatermarktemplate"
+}
+```
+
+## Return Example
+```
+{
+    "requestId": "bgvmivir54gddpgi764se9f4kfr7ge41"
+}
+```

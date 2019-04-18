@@ -2,7 +2,8 @@
 
 
 ## Description
-Search record template list
+Search user customized live recording template list
+
 
 ## Request Method
 GET
@@ -12,26 +13,18 @@ https://live.jdcloud-api.com/v1/recordCustoms:template
 
 
 ## Request Parameter
-|Name|Type|If Compulsory|Description|
-|---|---|---|---|
-|**pageNum**|Integer|False|page; it is 1 by default; value range [1, 100000]|
-|**pageSize**|Integer|False|Segmentation size; it is 10 by default; value range[10, 100]|
-|**filters**|Filter[]|False|Recording Template List Search Filter Conditions:<br>  - name:   template  Recording Template Customized Name<br>  - value:  If the parameter is null, search all<br>|
+|Name|Type|Required or Not|Default Value|Description|
+|---|---|---|---|---|
+|**pageNum**|Integer|False|1|Page Number<br>- Value Range[1, 100000]<br>|
+|**pageSize**|Integer|False|10|Paging Size<br>- Value Range[10, 100]<br>|
+|**filters**|Filter[]|False| |Recording Template List Search Filter Conditions:<br>  - name:   template  Recording Template Customized Name<br>  - value:  If the parameter is null, search all<br>|
 
 ### Filter
-|Name|Type|If Compulsory|Description|
-|---|---|---|---|
-|**name**|String|True|Name of Filter Requirements|
-|**values**|String[]|True|Value of Filter Requirements|
-
-## Examples
-    {
-        "pageNum": 1,
-        "pageSize": 10,
-        "filters": [{
-           "name":"template",
-           "value":"test-live-video"}]
-    }
+|Name|Type|Required or Not|Default Value|Description|
+|---|---|---|---|---|
+|**name**|String|True| |Name of Filter Requirements|
+|**operator**|String|False| |Operator of filter requirements is eq by default|
+|**values**|String[]|True| |Value of Filter Requirements|
 
 ## Response parameter
 |Name|Type|Description|
@@ -49,11 +42,11 @@ https://live.jdcloud-api.com/v1/recordCustoms:template
 ### RecordTemplate
 |Name|Type|Description|
 |---|---|---|
-|**recordPeriod**|Integer|Automatic Recording Cycle:<br>  - Value:[15,360]<br>  - Unit: Minute<br>|
+|**recordPeriod**|Integer|Automatic Recording Cycle<br>- Value:[15,360]<br>- Unit: Minute<br>|
 |**saveBucket**|String|Bucket|
 |**saveEndpoint**|String|Storage Address|
-|**recordFileType**|String|Recording File Format:<br>  - Value: ts,flv,mp4 (separate with ; before multiple types)<br>  - Case Insensitive<br>|
-|**template**|String|Record template customized name|
+|**recordFileType**|String|Recording File Format<br>- Value: ts, flv, mp4 (; is used as separations between multiple types)<br>- Case Insensitive<br>|
+|**template**|String|Recording Template<br>- Value Requirements: Numbers, uppercase and lowercase letters or hyphen ("-"),<br>          No special character of ("-") is allowed at both ends<br>- <b>Note: No duplication is allowed to defined names</b><br>|
 
 ## Return Code
 |Return Code|Description|
@@ -64,3 +57,31 @@ https://live.jdcloud-api.com/v1/recordCustoms:template
 |**404**|Not found|
 |**500**|Internal server error|
 |**503**|Service unavailable|
+
+## Request Example
+GET
+```
+https://live.jdcloud-api.com/v1/recordCustoms:template?pageNum=1&pageSize=10&filters.1.name=template&filters.1.values.1=myrecordtemplate
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bgvmivir54gddpgi764se9f4kfr7ge41", 
+    "result": {
+        "pageNumber": 1, 
+        "pageSize": 10, 
+        "recordTemplates": [
+            {
+                "recordFileType": "mp4;flv", 
+                "reordPeriod": 30, 
+                "saveBucket": "testbucket", 
+                "saveEndpoint": "oss.xxx.com", 
+                "template": "myrecordtemplate"
+            }
+        ], 
+        "totalCount": 1
+    }
+}
+```

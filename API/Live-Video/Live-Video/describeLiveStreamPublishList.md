@@ -2,7 +2,7 @@
 
 
 ## Description
-View pushing streaming record under the domain
+View Pushing Streaming History Record
 
 ## Request Method
 GET
@@ -10,31 +10,20 @@ GET
 ## Request Address
 https://live.jdcloud-api.com/v1/streams/{publishDomain}/publishList
 
-|Name|Type|If Compulsory|Description|
-|---|---|---|---|
-|**publishDomain**|String|True|Pushing Streaming Domain|
+|Name|Type|Required or Not|Default Value|Description|
+|---|---|---|---|---|
+|**publishDomain**|String|True| |Pushing Streaming Domain|
 
 ## Request Parameter
-|Name|Type|If Compulsory|Description|
-|---|---|---|---|
-|**pageNum**|Integer|False|page; it is 1 by default; value range [1, 100000]|
-|**pageSize**|Integer|False|Segmentation size; it is 10 by default; value range[10, 100]|
-|**appName**|String|False|Application Name of the Live Streaming|
-|**streamName**|String|False|Live Streaming Name|
-|**startTime**|String|True|Start Time|
-|**endTime**|String|False|End Time|
+|Name|Type|Required or Not|Default Value|Description|
+|---|---|---|---|---|
+|**pageNum**|Integer|False|1|Page<br><br>- Value Range [1, 100000]<br>|
+|**pageSize**|Integer|False|10|Paging Size<br><br>- Value Range [10, 100]<br>|
+|**appName**|String|False| |Application Name|
+|**streamName**|String|False| |Stream Name|
+|**startTime**|String|True| |pushing streaming Start time<br><br>- UTC Time<br>  Format:yyyy-MM-dd'T'HH:mm:ss'Z'<br>  Example:2018-10-21T10:00:00Z<br>- Support searching streaming data within up to 90 days<br>|
+|**endTime**|String|False|Current Time|Pushing Streaming End Time<br><br>- UTC Time<br>  Format:yyyy-MM-dd'T'HH:mm:ss'Z'<br>  Example:2018-10-21T10:00:00Z<br>- Support searching streaming data within up to 90 days<br>- If end time is null, it’s the current time by default<br>|
 
-
-
-## Examples
-    {
-        "pageNum": 1,
-        "pageSize": 10,
-        "appName": "live",
-        "streamName":"test-stream",
-        "startTime":"2019-02-21T08:00:00Z",
-        "endTime":"	2019-02-22T08:00:00Z",
-    }
 
 ## Response parameter
 |Name|Type|Description|
@@ -48,15 +37,15 @@ https://live.jdcloud-api.com/v1/streams/{publishDomain}/publishList
 |**pageNumber**|Integer|Current Page Number|
 |**pageSize**|Integer|Number on Each Page|
 |**totalCount**|Integer|Search Total Amount|
-|**liveStreamPublishInfos**|LiveStreamPublishInfo[]|Online Pushing Streaming Set|
+|**liveStreamPublishInfos**|LiveStreamPublishInfo[]|Pushing Streaming History Set|
 ### LiveStreamPublishInfo
 |Name|Type|Description|
 |---|---|---|
-|**publishDomain**|String|Your Accelerated Domain|
-|**appName**|String|Your APP|
-|**streamName**|String|Your Stream Name|
-|**publishUpTime**|String|Pushing Streaming Start Time  UTC Time|
-|**publishDownTime**|String|Pushing Streaming Start Time  UTC Time|
+|**publishDomain**|String|Pushing Streaming Domain|
+|**appName**|String|Application Name|
+|**streamName**|String|Stream Name|
+|**publishUpTime**|String|Pushing Streaming Start Time- UTC Time<br>  Format:yyyy-MM-dd'T'HH:mm:ss'Z'<br>|
+|**publishDownTime**|String|Pushing Streaming End Time<br>- UTC time<br>  Format:yyyy-MM-dd'T'HH:mm:ss'Z'<br>|
 
 ## Return Code
 |Return Code|Description|
@@ -67,3 +56,31 @@ https://live.jdcloud-api.com/v1/streams/{publishDomain}/publishList
 |**404**|Not found|
 |**500**|Internal server error|
 |**503**|Service unavailable|
+
+## Request Example
+GET
+```
+https://live.jdcloud-api.com/v1/streams/push.yourdomain.com/onlineList?appName=yourapp&streamName=yourstream&startTime=2015-12-02T01:00:00Z&endTime=2015-12-02T04:00:00Z
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bgvmivir54gddpgi764se9f4kfr7ge41", 
+    "result": {
+        "liveStreamPublishInfos": [
+            {
+                "appName": "yourapp", 
+                "publishDomain": "push.yourdomain.com", 
+                "publishDownTime": "2015-12-02T03:11:19Z", 
+                "publishUpTime": "2015-12-02T03:05:53Z", 
+                "streamName": "yourstream"
+            }
+        ], 
+        "pageNumber": 1, 
+        "pageSize": 10, 
+        "totalCount": 1
+    }
+}
+```

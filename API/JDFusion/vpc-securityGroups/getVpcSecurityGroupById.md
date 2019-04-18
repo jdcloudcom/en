@@ -2,7 +2,7 @@
 
 
 ## Description
-Search Information of corresponding Security Group resource according to the cloud provider
+Search the designated security group resource information
 
 ## Request Method
 GET
@@ -18,17 +18,17 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/vpc_securityGroups/{id}
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**authorization**|String|True| |See guide document of signature algorithm for obtaining method|
-|**x-jdcloud-date**|String|True| |See guide document of signature algorithm for obtaining method|
-|**x-jdcloud-fusion-cloudid**|String|False| |Cloud Registration Information ID|
 |**x-jdcloud-nonce**|String|True| |See guide document of signature algorithm for obtaining method|
+|**x-jdcloud-date**|String|True| |See guide document of signature algorithm for obtaining method|
+|**authorization**|String|True| |See guide document of signature algorithm for obtaining method|
+|**x-jdcloud-fusion-cloudid**|String|False| |Cloud Registration Information ID|
 
 
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String|Request ID|
 |**result**|Result| |
+|**requestId**|String|Request ID|
 
 ### Result
 |Name|Type|Description|
@@ -38,29 +38,29 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/vpc_securityGroups/{id}
 |Name|Type|Description|
 |---|---|---|
 |**cloudID**|String|ID of Registration Cloud Information|
-|**createdTime**|String|Creation Time|
-|**description**|String|Security Group Description Information|
 |**id**|String|Security Group id|
 |**name**|String|Name of Target Security Group|
-|**permissions**|PermissionType[]|Set of Security Group Permission Rules|
+|**description**|String|Security Group Description Information|
 |**vpcId**|String|VPC id|
+|**createdTime**|String|Creation Time|
+|**permissions**|PermissionType[]|Set of Security Group Permission Rules|
 ### PermissionType
 |Name|Type|Description|
 |---|---|---|
 |**cloudID**|String|Cloud Registration Information ID|
-|**description**|String|Description Information|
-|**destCidrIp**|String|Target IP address field used for authorization for outbound|
-|**destGroupId**|String|Target Security Group used for authorization for outbound|
-|**destGroupOwnerAccount**|String|Alibaba Cloud Account Id of Target Security Group|
-|**direction**|String|Authorization Direction|
 |**ipProtocol**|String|IP Protocol|
-|**nicType**|String|Network Type|
-|**policy**|String|Authorization Policy|
 |**portRange**|String|Port Range|
-|**priority**|String|Rule Priority|
+|**description**|String|Description Information|
 |**sourceCidrIp**|String|Source IP Address field used for authorization for inbound|
 |**sourceGroupId**|String|Source Security Group used for authorization for inbound|
 |**sourceGroupOwnerAccount**|String|Alibaba Cloud Account Id of Target Security Group|
+|**destCidrIp**|String|Target IP address field used for authorization for outbound|
+|**destGroupId**|String|Target Security Group used for authorization for outbound|
+|**destGroupOwnerAccount**|String|Alibaba Cloud Account Id of Target Security Group|
+|**policy**|String|Authorization Policy|
+|**nicType**|String|Network Type|
+|**priority**|String|Rule Priority|
+|**direction**|String|Authorization Direction|
 
 ## Return Code
 |Return Code|Description|

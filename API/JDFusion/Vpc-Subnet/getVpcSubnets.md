@@ -17,17 +17,17 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/vpc_subnets
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**authorization**|String|True| |See guide document of signature algorithm for obtaining method|
-|**x-jdcloud-date**|String|True| |See guide document of signature algorithm for obtaining method|
-|**x-jdcloud-fusion-cloudid**|String|False| |Cloud Registration Information ID|
 |**x-jdcloud-nonce**|String|True| |See guide document of signature algorithm for obtaining method|
+|**x-jdcloud-date**|String|True| |See guide document of signature algorithm for obtaining method|
+|**authorization**|String|True| |See guide document of signature algorithm for obtaining method|
+|**x-jdcloud-fusion-cloudid**|String|False| |Cloud Registration Information ID|
 
 
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String|Request ID|
 |**result**|Result| |
+|**requestId**|String|Request ID|
 
 ### Result
 |Name|Type|Description|
@@ -36,14 +36,14 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/vpc_subnets
 ### SubnetDesInfo
 |Name|Type|Description|
 |---|---|---|
-|**az**|String|Available Field Id of Subnet|
-|**cidrBlock**|String|Segment of Subnet|
-|**cloudID**|String|Provider ID of the Cloud|
-|**createdTime**|String|Creation Time|
-|**description**|String|Subnet Description Information|
 |**id**|String|Subnet Id|
 |**name**|String|Subnet Name|
 |**vpcId**|String|VPC Id of Subnet|
+|**cidrBlock**|String|Segment of Subnet|
+|**description**|String|Subnet Description Information|
+|**az**|String|Available Field Id of Subnet|
+|**createdTime**|String|Creation Time|
+|**cloudID**|String|Provider ID of the Cloud|
 
 ## Return Code
 |Return Code|Description|

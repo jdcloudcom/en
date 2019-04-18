@@ -12,8 +12,8 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/rds_instances/{instId}/ac
 
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**accountName**|String|True| |Account User Name|
 |**instId**|String|True| |RDS Instance ID|
+|**accountName**|String|True| |Account User Name|
 |**regionId**|String|True| |Region ID|
 
 ## Request Parameter

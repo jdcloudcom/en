@@ -4,15 +4,16 @@
 ## Description
 Delete record callback configuration
 
+
 ## Request Method
 DELETE
 
 ## Request Address
 https://live.jdcloud-api.com/v1/recordNotifys/{publishDomain}
 
-|Name|Type|If Compulsory|Description|
-|---|---|---|---|
-|**publishDomain**|String|True|Pushing Streaming Accelerated Domain|
+|Name|Type|Required or Not|Default Value|Description|
+|---|---|---|---|---|
+|**publishDomain**|String|True| |Pushing Streaming Domain|
 
 ## Request Parameter
 None
@@ -33,3 +34,17 @@ None
 |**404**|Not found|
 |**500**|Internal server error|
 |**503**|Service unavailable|
+
+## Request Example
+DELETE
+```
+https://live.jdcloud-api.com/v1/recordNotifys/push.yourdomain.com
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bgvmivir54gddpgi764se9f4kfr7ge41"
+}
+```

@@ -12,11 +12,11 @@ https://live.jdcloud-api.com/v1/liveRestart:configs
 
 
 ## Request Parameter
-|Name|Type|If Compulsory|Description|
-|---|---|---|---|
-|**pageNum**|Integer|False|page; it is 1 by default; value range [1, 100000]|
-|**pageSize**|Integer|False|Segmentation size; it is 10 by default; value range[10, 100]|
-|**restartDomain**|String|True|Restarted Pushing Streaming Domain|
+|Name|Type|Required or Not|Default Value|Description|
+|---|---|---|---|---|
+|**pageNum**|Integer|False|1|page; it is 1 by default; value range [1, 100000]|
+|**pageSize**|Integer|False|10|Segmentation size; it is 10 by default; value range[10, 100]|
+|**restartDomain**|String|True| |Restarted Pushing Streaming Domain|
 
 
 ## Response parameter
@@ -31,22 +31,22 @@ https://live.jdcloud-api.com/v1/liveRestart:configs
 |**pageNumber**|Integer|Current Page Number|
 |**pageSize**|Integer|Number on Each Page|
 |**totalCount**|Integer|Search Total Amount|
-|**restartConfigs**|RestartConfig[]|Live Timeshift Set|
+|**restartConfigs**|RestartConfig[]|Domain Set|
 ### RestartConfig
 |Name|Type|Description|
 |---|---|---|
-|**publishDomains**|ShiftPublishDomain[]|Pushing Streaming Domain Set|
-|**playDomains**|RestartPlayDomain[]|Live Domain Set|
+|**publishDomains**|RestartPublishDomain[]|Pushing Streaming Domain Set|
+|**playDomains**|RestartPlayDomain[]|Playing Domain Set|
 ### RestartPlayDomain
 |Name|Type|Description|
 |---|---|---|
-|**playDomain**|String|Live Playing Domain|
-|**restartStatus**|String|Live Timeshift Status:<br>  - on represents start<br>  - off represents close<br>|
-|**playType**|String|Playing Domain Type:<br>  - normal  Normal Playing Domain<br>  - restart Restart Playing Domain|
-### ShiftPublishDomain
+|**playDomain**|String|Playing Domain|
+|**restartStatus**|String|Live Restart Status:<br>  on: Start<br>  off: Close<br>|
+|**playType**|String|Playing Domain Type:<br>  normal: Normal Playing Domain(Timeshift Playing Domain)<br>  restart: Restart Playing Domain|
+### RestartPublishDomain
 |Name|Type|Description|
 |---|---|---|
-|**publishDomain**|String|Live Pushing Streaming Domain|
+|**publishDomain**|String|Pushing Streaming Domain|
 
 ## Return Code
 |Return Code|Description|

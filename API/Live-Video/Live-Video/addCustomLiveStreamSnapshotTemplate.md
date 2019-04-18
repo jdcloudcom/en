@@ -12,31 +12,18 @@ https://live.jdcloud-api.com/v1/snapshotCustoms:template
 
 
 ## Request Parameter
-|Name|Type|If Compulsory|Description|
-|---|---|---|---|
-|**format**|String|True|Snapshot Format:<br>  - Value: jpg, png<br>  - Case Insensitive<br>|
-|**width**|Integer|False|Snapshot Width:<br>  - Value: [8,8192]<br>  - Equal Ratio: If only one parameter is filled in, the snapshot is zoomed in proportion to the parameter<br>  - Source-followed: If neither parameters are filled in, the original image of source stream size will be snapped<br>|
-|**height**|Integer|False|Snapshot Height:<br>  - Value: [8,8192]<br>  - Equal Ratio: If only one parameter is filled in, the snapshot is zoomed in proportion to the parameter<br>  - Source-followed: If neither parameters are filled in, the original image of source stream size will be snapped<br>|
-|**fillType**|Integer|True|Processing rules when the snapshot does not match the set width and height:<br>  - 1-Stretching<br>  - 2-Left Black<br>  - 3-Left Blank<br>  - 4-Gaussian Blur<br>  - Default value 1,2,3,4 are zoomed in equal scale, 1 is stretched according to set width height<br>|
-|**snapshotInterval**|Integer|True|Snapshot Cycle:<br>  - MIN_INTEGER = 5<br>  - MAX_INTEGER = 3600;<br>  - Unit: Second<br>|
-|**saveMode**|Integer|True|Storage Mode:<br>  - 1-Replace<br>  - 2- Serial Numbering Storage<br>|
-|**saveBucket**|String|True|Bucket|
-|**saveEndpoint**|String|True|Storage Address|
-|**template**|String|True|Snapshot Template Customized Name:<br>  - Value Requirements: For numbers, uppercase and lowercase letters, or hyphens ("-"), no special characters are allowed at the beginning and end("-")<br>  - <b>Note: It cannot be repeated with the defined template name</b>|
+|Name|Type|Required or Not|Default Value|Description|
+|---|---|---|---|---|
+|**format**|String|True| |Snapshot Format<br>- Value: jpg, png<br>- Case Insensitive<br>|
+|**width**|Integer|False| |Snapshot Width<br>- Value: [8,8192]<br>- If only one of (width, height) is set, then output the snapshot with another item scaled according to the set parameter item<br>- if none of (width, height) is set, then output the snapshot according to the source stream size<br>|
+|**height**|Integer|False| |Snapshot Height<br>- Value: [8,8192]<br>- If only one of (width, height) is set, then output the snapshot with another item scaled according to the set parameter item<br>- if none of (width, height) is set, then output the snapshot according to the source stream size<br>|
+|**fillType**|Integer|True| |The processing rules when the snapshot does not match the set width and height<br>  1: Stretch<br>  2: Left Black<br>  3: Left blank<br>  4: Gaussian Blur<br>- 1 is to stretch according to the set width and height<br>- 2, 3, 4 are to zoom in equal scale, with surplus or insufficient part disposed by adjustment<br>|
+|**snapshotInterval**|Integer|True| |Snapshot Cycle<br>- Value Range[5,3600]<br>- Unit: Second<br>|
+|**saveMode**|Integer|True| |Storage Mode<br>  1: Replace Storage<br>  2: Sequential Storage<br>|
+|**saveBucket**|String|True| |Bucket|
+|**saveEndpoint**|String|True| |Storage Address|
+|**template**|String|True| |Snapshot Template Customized Name:<br>- Value Requirements: Numbers, uppercase and lowercase letters or hyphen ("-"),<br>  No special character of ("-") is allowed at both ends<br>- <b>Note: No duplication is allowed to defined names</b><br>|
 
-## Examples
-    {
-        "format": "jpg",
-        "width": 1080,
-        "height": 720,
-        "fillType":1,
-        "snapshotInterval":50,
-        "saveMode":1,
-        "saveBucket":"vod-storage-398392",
-        "saveEndpoint":"s3.cn-north-1.jcloudcs.com",
-        "template":"test-live-video"
-    }
-    
 
 ## Response parameter
 |Name|Type|Description|
@@ -53,3 +40,28 @@ https://live.jdcloud-api.com/v1/snapshotCustoms:template
 |**404**|Not found|
 |**500**|Internal server error|
 |**503**|Service unavailable|
+
+## Request Example
+POST
+```
+https://live.jdcloud-api.com/v1/snapshotCustoms:template
+
+```
+```
+{
+    "fillType": 1, 
+    "format": "jpg", 
+    "saveBucket": "testbucket", 
+    "saveEndpoint": "oss.xxx.com", 
+    "saveMode": 1, 
+    "snapshotInterval": 30, 
+    "template": "mysnapshottemplate"
+}
+```
+
+## Return Example
+```
+{
+    "requestId": "bgvmivir54gddpgi764se9f4kfr7ge41"
+}
+```

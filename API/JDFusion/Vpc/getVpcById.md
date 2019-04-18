@@ -18,17 +18,17 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/vpc_vpcs/{id}
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**authorization**|String|True| |See guide document of signature algorithm for obtaining method|
-|**x-jdcloud-date**|String|True| |See guide document of signature algorithm for obtaining method|
-|**x-jdcloud-fusion-cloudid**|String|False| |Cloud Registration Information ID|
 |**x-jdcloud-nonce**|String|True| |See guide document of signature algorithm for obtaining method|
+|**x-jdcloud-date**|String|True| |See guide document of signature algorithm for obtaining method|
+|**authorization**|String|True| |See guide document of signature algorithm for obtaining method|
+|**x-jdcloud-fusion-cloudid**|String|False| |Cloud Registration Information ID|
 
 
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String|Request ID|
 |**result**|Result| |
+|**requestId**|String|Request ID|
 
 ### Result
 |Name|Type|Description|
@@ -37,27 +37,29 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/vpc_vpcs/{id}
 ### VpcInfoDetail
 |Name|Type|Description|
 |---|---|---|
-|**cidrBlock**|String|Address Range|
-|**cloudID**|String|Provider ID of the Cloud|
-|**createdTime**|String|Creation Time|
-|**description**|String|VPC Description|
 |**id**|String|Vpc Id|
 |**name**|String|Name of VPC|
-|**routeTableIds**|String[]|ID Set of Route Table|
+|**cidrBlock**|String|Address Range|
+|**description**|String|VPC Description|
+|**createdTime**|String|Creation Time|
+|**cloudID**|String|Provider ID of the Cloud|
 |**subnets**|SubnetInfo[]|Subnet List Included in VPC|
+|**routeTableIds**|String[]|ID Set of Route Table|
 ### SubnetInfo
 |Name|Type|Description|
 |---|---|---|
-|**availableIpCount**|Integer|Number of Available IPs in Subnet|
+|**id**|String|Subnet Id|
+|**vpcId**|String|VPC Id of Subnet|
+|**subnetName**|String|Subnet Name|
 |**cidrBlock**|String|Segment of Subnet|
-|**cloudID**|String|Provider ID of the Cloud|
+|**availableIpCount**|Integer|Number of Available IPs in Subnet|
 |**description**|String|Subnet Description Information|
 |**endIp**|String|End Address of Subnet|
-|**id**|String|Subnet Id|
 |**routeTableId**|String|Subnet Associated Route Table Id|
 |**startIp**|String|Start Address of Subnet|
-|**subnetName**|String|Subnet Name|
-|**vpcId**|String|VPC Id of Subnet|
+|**cloudID**|String|Provider ID of the Cloud|
+|**az**|String|Availability Zone|
+|**createdTime**|String|Subnet Creation Time|
 
 ## Return Code
 |Return Code|Description|

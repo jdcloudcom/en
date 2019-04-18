@@ -2,7 +2,7 @@
 
 
 ## Description
-Assign database permissions to the RDS account
+Revoke all permissions of the RDS account in the specified database
 
 ## Request Method
 DELETE
@@ -12,9 +12,9 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/rds_instances/{instId}/ac
 
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
+|**instId**|String|True| |RDS Instance ID|
 |**accountName**|String|True| |Account Name|
 |**dbName**|String|True| |Database Name|
-|**instId**|String|True| |RDS Instance ID|
 |**regionId**|String|True| |Region ID|
 
 ## Request Parameter

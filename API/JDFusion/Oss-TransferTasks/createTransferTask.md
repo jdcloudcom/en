@@ -8,7 +8,7 @@ Create Task
 POST
 
 ## Request Address
-https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/oss_transferTasks
+https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/oss_transferTasks_simple
 
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
@@ -17,30 +17,26 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/oss_transferTasks
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**task**|TransferTaskInfo|False| | |
-|**x-jdcloud-fusion-cloudid**|String|True| |Cloud Registration Information ID|
+|**task**|TransferSimpleTaskInfo|False| | |
 
-### TransferTaskInfo
+### TransferSimpleTaskInfo
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**dstAddress**|TaskAddressInfo|False| | |
 |**name**|String|False| |Task Name|
-|**srcAddress**|TaskAddressInfo|False| | |
-### TaskAddressInfo
+|**srcAddress**|SimpleTaskAddressInfo|False| | |
+|**dstAddress**|SimpleTaskAddressInfo|False| | |
+### SimpleTaskAddressInfo
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**accessKey**|String|False| |accesskey of Source Address|
+|**cloudID**|String|False| |Cloud Information ID|
 |**bucket**|String|False| |Bucket of Source Address|
-|**endpoint**|String|False| |Endpoint of Source Address|
 |**prefix**|String|False| |Prefix of Source Address cannot start with /|
-|**secretKey**|String|False| |securitykey of Source Address|
-|**storageType**|String|False| |Task Type: s3file, aliyunfile are supported in the source address, only s3file is supported in the target|
 
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String|Request ID|
 |**result**|Result| |
+|**requestId**|String|Request ID|
 
 ### Result
 |Name|Type|Description|
@@ -49,22 +45,23 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/oss_transferTasks
 ### TransferTaskInfoWithID
 |Name|Type|Description|
 |---|---|---|
-|**dstAddress**|TaskAddressInfo| |
 |**id**|String|Task ID|
 |**name**|String|Task Name|
 |**srcAddress**|TaskAddressInfo| |
+|**dstAddress**|TaskAddressInfo| |
 ### TaskAddressInfo
 |Name|Type|Description|
 |---|---|---|
-|**accessKey**|String|accesskey of Source Address|
-|**bucket**|String|Bucket of Source Address|
-|**endpoint**|String|Endpoint of Source Address|
-|**prefix**|String|Prefix of Source Address cannot start with /|
-|**secretKey**|String|securitykey of Source Address|
 |**storageType**|String|Task Type: s3file, aliyunfile are supported in the source address, only s3file is supported in the target|
+|**accessKey**|String|accesskey of Source Address|
+|**secretKey**|String|securitykey of Source Address|
+|**endpoint**|String|Endpoint of Source Address|
+|**bucket**|String|Bucket of Source Address|
+|**prefix**|String|Prefix of Source Address cannot start with /|
+|**cloudID**|String|Cloud Information ID|
 
 ## Return Code
 |Return Code|Description|
 |---|---|
-|**400**|Invalid Parameter|
 |**201**|Creation succeeded|
+|**400**|Invalid Parameter|

@@ -17,17 +17,17 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/vpc_eips
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**authorization**|String|True| |See guide document of signature algorithm for obtaining method|
-|**x-jdcloud-date**|String|True| |See guide document of signature algorithm for obtaining method|
-|**x-jdcloud-fusion-cloudid**|String|False| |Cloud Registration Information ID|
 |**x-jdcloud-nonce**|String|True| |See guide document of signature algorithm for obtaining method|
+|**x-jdcloud-date**|String|True| |See guide document of signature algorithm for obtaining method|
+|**authorization**|String|True| |See guide document of signature algorithm for obtaining method|
+|**x-jdcloud-fusion-cloudid**|String|False| |Cloud Registration Information ID|
 
 
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String|Request ID|
 |**result**|Result| |
+|**requestId**|String|Request ID|
 
 ### Result
 |Name|Type|Description|
@@ -36,14 +36,14 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/vpc_eips
 ### EipAddress
 |Name|Type|Description|
 |---|---|---|
-|**allocationTime**|String|Creation Time of EIP|
-|**bandwidth**|String|Bandwidth Peak of EIP, Unit: Mbps|
 |**cloudID**|String|Cloud Registration Information ID|
-|**id**|String|Public IP ID|
-|**instanceId**|String|Currently Associated Instance ID|
-|**instanceType**|String|Currently Associated Instance Type|
 |**ipAddress**|String|EIP Address|
+|**id**|String|Public IP ID|
 |**status**|String|Status|
+|**instanceType**|String|Currently Associated Instance Type|
+|**instanceId**|String|Currently Associated Instance ID|
+|**bandwidth**|String|Bandwidth Peak of EIP, Unit: Mbps|
+|**allocationTime**|String|Creation Time of EIP|
 
 ## Return Code
 |Return Code|Description|

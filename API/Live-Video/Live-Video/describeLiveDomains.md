@@ -12,19 +12,12 @@ https://live.jdcloud-api.com/v1/domains
 
 
 ## Request Parameter
-|Name|Type|If Compulsory|Description|
-|---|---|---|---|
-|**pageNum**|Integer|False|page; it is 1 by default; value range [1, 100000]|
-|**pageSize**|Integer|False|Segmentation size; it is 10 by default; value range[10, 100]|
-|**publishDomain**|String|False|Domain|
+|Name|Type|Required or Not|Default Value|Description|
+|---|---|---|---|---|
+|**pageNum**|Integer|False|1|Page Number<br>- Value Range[1, 100000]<br>|
+|**pageSize**|Integer|False|10|Paging Size<br>- Value Range[10, 100]<br>|
+|**publishDomain**|String|False| |Pushing streaming domain<br>- Currently only supports exact search<br>- When it is null, search all live domains of the user<br>|
 
-
-## Examples
-    {
-        "pageNum": 1,
-        "pageSize": 10,
-        "publishDomain": "push.yourdomain.com"
-    }
 
 ## Response parameter
 |Name|Type|Description|
@@ -43,24 +36,24 @@ https://live.jdcloud-api.com/v1/domains
 |Name|Type|Description|
 |---|---|---|
 |**publishDomains**|PublishDomain[]|Pushing Streaming Domain Set|
-|**playDomains**|PlayDomain[]|Live Domain Set|
+|**playDomains**|PlayDomain[]|Playing Domain Set|
 ### PlayDomain
 |Name|Type|Description|
 |---|---|---|
 |**playDomain**|String|Playing Domain|
 |**playDomainCname**|String|Playing Domain (Cname)|
-|**domainStatus**|String|Live Domain Status:<br>  - online represents enable<br>  - offline represents disable<br>  - configuring represents configuring<br>  - configure_failed represents configuration failed<br>  - checking represents checking<br>  - check_failed represents check failed<br>|
-|**playType**|String|Playing Domain Type:<br>  - normal  Normal Playing Domain<br>  - restart Restart Domain<br>|
-|**createTime**|String|Creation Time|
-|**updateTime**|String|Update Time|
+|**domainStatus**|String|Live Domain Status<br>  online: Enable<br>  offline: Disable<br>  configuring: Configuring<br>  configure_failed: Configuration Failed<br>  checking: Checking<br>  check_failed: Checking Failed<br>|
+|**playType**|String|Playing Domain Type<br>  normal: Normal Playing Domain<br>  restart: Restart Domain<br>|
+|**createTime**|String|Domain Creation Time<br>- UTC Time<br>  Format: yyyy-MM-dd'T'HH:mm:ss'Z'<br>|
+|**updateTime**|String|Domain update time- UTC Time<br>  Format: yyyy-MM-dd'T'HH:mm:ss'Z'<br>|
 ### PublishDomain
 |Name|Type|Description|
 |---|---|---|
 |**publishDomain**|String|Pushing Streaming Domain|
 |**publishDomainCname**|String|Pushing Streaming Domain (Cname)|
-|**domainStatus**|String|Live Domain Status:<br>  - online represents enable<br>  - offline represents disable<br>  - configuring represents configuring<br>  - configure_failed represents configuration failed<br>  - checking represents checking<br>  - check_failed represents check failed<br>|
-|**createTime**|String|Creation Time|
-|**updateTime**|String|Update Time|
+|**domainStatus**|String|Live Domain Status<br>  online: Enable<br>  offline: Disable<br>  configuring: Configuring<br>  configure_failed: Configuration Failed<br>  checking: Checking<br>  check_failed: Checking Failed<br>|
+|**createTime**|String|Domain Creation Time<br>- UTC Time<br>  Format: yyyy-MM-dd'T'HH:mm:ss'Z'<br>|
+|**updateTime**|String|Domain update time- UTC Time<br>  Format: yyyy-MM-dd'T'HH:mm:ss'Z'<br>|
 
 ## Return Code
 |Return Code|Description|
@@ -71,3 +64,45 @@ https://live.jdcloud-api.com/v1/domains
 |**404**|Not found|
 |**500**|Internal server error|
 |**503**|Service unavailable|
+
+## Request Example
+GET
+```
+https://live.jdcloud-api.com/v1/domains?publishDomain=push.yourdomain.com
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bgvmivir54gddpgi764se9f4kfr7ge41", 
+    "result": {
+        "domainDetails": [
+            {
+                "playDomains": [
+                    {
+                        "createTime": "2017-11-27T06:51:25Z", 
+                        "playDomain": "play.yourdomain.com", 
+                        "playDomainCname": "play.yourdomain.com.live-play.xxx.jcloud-cdn.com", 
+                        "playDomainStatus": "online", 
+                        "playType": "normal", 
+                        "updateTime": "2017-11-27T06:51:26Z"
+                    }
+                ], 
+                "publishDomains": [
+                    {
+                        "createTime": "2017-11-27T06:51:25Z", 
+                        "publishDomain": "push.yourdomain.com", 
+                        "publishDomainCname": "push.yourdomain.com.live-publish.xxx.jcloud-cdn.com", 
+                        "publishDomainStatus": "online", 
+                        "updateTime": "2017-11-27T06:51:26Z"
+                    }
+                ]
+            }
+        ], 
+        "pageNumber": 1, 
+        "pageSize": 10, 
+        "totalCount": 1
+    }
+}
+```

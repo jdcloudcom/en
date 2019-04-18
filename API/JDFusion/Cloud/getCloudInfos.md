@@ -23,8 +23,8 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/cloud_info
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String|Request ID|
 |**result**|Result| |
+|**requestId**|String|Request ID|
 
 ### Result
 |Name|Type|Description|
@@ -34,10 +34,10 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/cloud_info
 |Name|Type|Description|
 |---|---|---|
 |**id**|String| |
-|**info**|Object| |
-|**metadata**|Object| |
 |**name**|String| |
 |**vendor**|String| |
+|**info**|Object| |
+|**metadata**|Object| |
 
 ## Return Code
 |Return Code|Description|

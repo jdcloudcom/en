@@ -18,17 +18,17 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/disk_disks/{id}
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**authorization**|String|True| |See guide document of signature algorithm for obtaining method|
-|**x-jdcloud-date**|String|True| |See guide document of signature algorithm for obtaining method|
-|**x-jdcloud-fusion-cloudid**|String|False| |Cloud Registration Information ID|
 |**x-jdcloud-nonce**|String|True| |See guide document of signature algorithm for obtaining method|
+|**x-jdcloud-date**|String|True| |See guide document of signature algorithm for obtaining method|
+|**authorization**|String|True| |See guide document of signature algorithm for obtaining method|
+|**x-jdcloud-fusion-cloudid**|String|False| |Cloud Registration Information ID|
 
 
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String|Request ID|
 |**result**|Result| |
+|**requestId**|String|Request ID|
 
 ### Result
 |Name|Type|Description|
@@ -37,27 +37,27 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/disk_disks/{id}
 ### CloudDataDisk
 |Name|Type|Description|
 |---|---|---|
-|**attachments**|ArrayDiskAttachment[]|Attach Information|
-|**az**|String|Corresponding AZ of Cloud Disk|
 |**cloudID**|String|Cloud Registration Information ID|
-|**createdTime**|String|Creation Time|
-|**description**|String|Cloud Disk Description|
-|**diskSizeGB**|Integer|Disk Size, Unit: GiB|
-|**diskType**|String|Disk Type, with value of SSD or Premium-hdd|
 |**id**|String|Cloud Disk Service ID|
 |**name**|String|Cloud Disk Name|
+|**description**|String|Cloud Disk Description|
+|**diskSizeGB**|Integer|Disk Size, Unit: GiB|
+|**attachments**|ArrayDiskAttachment[]|Attach Information|
+|**az**|String|Corresponding AZ of Cloud Disk|
+|**diskType**|String|Disk Type, with value of SSD or Premium-hdd|
 |**snapshotId**|String|Create Snapshot ID of the Cloud Disk|
 |**status**|String|Cloud Disk Status|
 |**tags**|Tag[]| |
-### ArrayDiskAttachment
-|Name|Type|Description|
-|---|---|---|
-|**instanceId**|String|ID of Attached Instance|
+|**createdTime**|String|Creation Time|
 ### Tag
 |Name|Type|Description|
 |---|---|---|
 |**tagKey**|String|KEY Value of Tag|
 |**tagValue**|String|Value of Tag Value|
+### ArrayDiskAttachment
+|Name|Type|Description|
+|---|---|---|
+|**instanceId**|String|ID of Attached Instance|
 
 ## Return Code
 |Return Code|Description|

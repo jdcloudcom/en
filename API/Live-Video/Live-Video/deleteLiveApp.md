@@ -2,7 +2,10 @@
 
 
 ## Description
-Delete APP
+Delete Application
+- Application needs to be stopped before its deletion
+- All data under the application will be deleted while deleting the application
+
 
 ## Request Method
 DELETE
@@ -10,10 +13,10 @@ DELETE
 ## Request Address
 https://live.jdcloud-api.com/v1/apps/{publishDomain}/appNames/{appName}
 
-|Name|Type|If Compulsory|Description|
-|---|---|---|---|
-|**publishDomain**|String|True|Live Pushing Streaming Domain|
-|**appName**|String|True|Application Name|
+|Name|Type|Required or Not|Default Value|Description|
+|---|---|---|---|---|
+|**publishDomain**|String|True| |Pushing Streaming Domain|
+|**appName**|String|True| |Application Name|
 
 ## Request Parameter
 None
@@ -34,3 +37,17 @@ None
 |**404**|Not found|
 |**500**|Internal server error|
 |**503**|Service unavailable|
+
+## Request Example
+DELETE
+```
+https://live.jdcloud-api.com/v1/apps/push.yourdomain.com/appNames/yourapp
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bgvmivir54gddpgi764se9f4kfr7ge41"
+}
+```

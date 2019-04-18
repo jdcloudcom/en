@@ -17,22 +17,22 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/oss_buckets
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**bucket**|CreateOSSBucket|True| |Create OSS bucket|
 |**x-jdcloud-fusion-cloudid**|String|True| |Cloud Registration Information ID|
+|**bucket**|CreateOSSBucket|True| |Create OSS bucket|
 
 ### CreateOSSBucket
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**acl**|String|False| |IAM, private\public-read\public-read-write|
-|**cloudID**|String|False| |Cloud Information|
-|**creationDate**|String|False| |Creation Time|
 |**name**|String|True| |Bucket Name|
+|**creationDate**|String|False| |Creation Time|
+|**cloudID**|String|False| |Cloud Information|
+|**acl**|String|False| |IAM, private\public-read\public-read-write|
 
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String|Request ID|
 |**result**|Result| |
+|**requestId**|String|Request ID|
 
 ### Result
 |Name|Type|Description|
@@ -41,15 +41,15 @@ https://jdfusion.jdcloud-api.com/v1/regions/{regionId}/oss_buckets
 ### ResourceTFInfo
 |Name|Type|Description|
 |---|---|---|
-|**body**|String|Request Body|
-|**cloudId**|String|cloud ID|
-|**createdTime**|String|Creation Time|
-|**provider**|String|cloud provider|
-|**result**|String|Execution Results|
-|**status**|String|Status|
-|**updateTime**|String|Update Time|
-|**userId**|String|user ID|
 |**uuid**|String|uuid|
+|**body**|String|Request Body|
+|**status**|String|Status|
+|**result**|String|Execution Results|
+|**createdTime**|String|Creation Time|
+|**updateTime**|String|Update Time|
+|**provider**|String|cloud provider|
+|**cloudId**|String|cloud ID|
+|**userId**|String|user ID|
 
 ## Return Code
 |Return Code|Description|

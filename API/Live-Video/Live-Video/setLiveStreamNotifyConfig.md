@@ -2,7 +2,7 @@
 
 
 ## Description
-Set pushing streaming callback configuration
+Set callback address of live streaming status
 
 ## Request Method
 POST
@@ -12,16 +12,11 @@ https://live.jdcloud-api.com/v1/streamNotifys
 
 
 ## Request Parameter
-|Name|Type|If Compulsory|Description|
-|---|---|---|---|
-|**publishDomain**|String|True|Your Accelerated Domain|
-|**notifyUrl**|String|True|Set the URL address to which the live streaming information is pushed:<br>  - It must start with http:// <br>  - Regular Check Format<br>|
+|Name|Type|Required or Not|Default Value|Description|
+|---|---|---|---|---|
+|**publishDomain**|String|True| |Pushing Streaming Domain|
+|**notifyUrl**|String|True| |Callback address of live streaming status<br>- must start with http:// <br>|
 
-## Examples
-    {
-        "publishDomain":"push.yourdomain.com",
-        "notifyUrl": "http://amf.jdcloud.com"
-    }
 
 ## Response parameter
 |Name|Type|Description|
@@ -38,3 +33,23 @@ https://live.jdcloud-api.com/v1/streamNotifys
 |**404**|Not found|
 |**500**|Internal server error|
 |**503**|Service unavailable|
+
+## Request Example
+POST
+```
+https://live.jdcloud-api.com/v1/streamNotifys
+
+```
+```
+{
+    "notifyUrl": "http://xxx.com/xxx/xxx", 
+    "publishDomain": "push.yourdomain.com"
+}
+```
+
+## Return Example
+```
+{
+    "requestId": "bgvmivir54gddpgi764se9f4kfr7ge41"
+}
+```

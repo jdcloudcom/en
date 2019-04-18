@@ -3,6 +3,9 @@
 
 ## Description
 Add live domain
+- Before creating a live domain, live broadcast service must be subscribed first
+- Live domain must have been completed ICP filing
+
 
 ## Request Method
 POST
@@ -12,18 +15,12 @@ https://live.jdcloud-api.com/v1/domains
 
 
 ## Request Parameter
-|Name|Type|If Compulsory|Description|
-|---|---|---|---|
-|**publishDomain**|String|True|Live Pushing Streaming Domain (Extensive Domain is not supported)|
-|**playDomain**|String|True|Live Playing Domain (Extensive Domain is not supported)|
+|Name|Type|Required or Not|Default Value|Description|
+|---|---|---|---|---|
+|**publishDomain**|String|True| |Live Pushing Streaming Domain<br>- Extensive Domain is not supported<br>|
+|**playDomain**|String|True| |Live Playing Domain<br>- Extensive Domain is not supported<br>|
 
 
-## Examples
-    {
-        "publishDomain": "push.yourdomain.com",
-        "playDomain": "play.yourdomain.com"
-    }
-    
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
@@ -39,3 +36,23 @@ https://live.jdcloud-api.com/v1/domains
 |**404**|Not found|
 |**500**|Internal server error|
 |**503**|Service unavailable|
+
+## Request Example
+POST
+```
+https://live.jdcloud-api.com/v1/domains
+
+```
+```
+{
+    "playDomain": "play.yourdomain.com", 
+    "publishDomain": "push.yourdomain.com"
+}
+```
+
+## Return Example
+```
+{
+    "requestId": "bgvmivir54gddpgi764se9f4kfr7ge41"
+}
+```

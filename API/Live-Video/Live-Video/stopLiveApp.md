@@ -2,7 +2,9 @@
 
 
 ## Description
-Disable APP
+Disable Application in Running Status
+- Once the application is disabled, pushing streaming with this application name is not allowed anymore
+
 
 ## Request Method
 PUT
@@ -12,17 +14,11 @@ https://live.jdcloud-api.com/v1/apps:stop
 
 
 ## Request Parameter
-|Name|Type|If Compulsory|Description|
-|---|---|---|---|
-|**publishDomain**|String|True|Live Pushing Streaming Domain|
-|**appName**|String|True|Application Name|
+|Name|Type|Required or Not|Default Value|Description|
+|---|---|---|---|---|
+|**publishDomain**|String|True| |Live Pushing Streaming Domain|
+|**appName**|String|True| |Application Name|
 
-
-## Examples
-    {
-        "publishDomain":"push.yourdomain.com",
-        "appName":"live"
-    }
 
 ## Response parameter
 |Name|Type|Description|
@@ -39,3 +35,23 @@ https://live.jdcloud-api.com/v1/apps:stop
 |**404**|Not found|
 |**500**|Internal server error|
 |**503**|Service unavailable|
+
+## Request Example
+PUT
+```
+https://live.jdcloud-api.com/v1/apps:stop
+
+```
+```
+{
+    "appName": "yourapp", 
+    "publishDomain": "push.yourdomain.com"
+}
+```
+
+## Return Example
+```
+{
+    "requestId": "bgvmivir54gddpgi764se9f4kfr7ge41"
+}
+```

@@ -4,15 +4,16 @@
 ## Description
 Search record callback configuration
 
+
 ## Request Method
 GET
 
 ## Request Address
 https://live.jdcloud-api.com/v1/recordNotifys/{publishDomain}
 
-|Name|Type|If Compulsory|Description|
-|---|---|---|---|
-|**publishDomain**|String|True|Pushing Streaming Accelerated Domain|
+|Name|Type|Required or Not|Default Value|Description|
+|---|---|---|---|---|
+|**publishDomain**|String|True| |Pushing Streaming Domain|
 
 ## Request Parameter
 None
@@ -27,7 +28,7 @@ None
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**publishDomain**|String|Your Accelerated Domain|
+|**publishDomain**|String|Pushing Streaming Domain|
 |**notifyUrl**|String|Callback Address|
 
 ## Return Code
@@ -39,3 +40,21 @@ None
 |**404**|Not found|
 |**500**|Internal server error|
 |**503**|Service unavailable|
+
+## Request Example
+GET
+```
+https://live.jdcloud-api.com/v1/recordNotifys/push.yourdomain.com
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bgvmivir54gddpgi764se9f4kfr7ge41", 
+    "result": {
+        "notifyUrl": "http://xxx.com/xx", 
+        "publishDoamin": "push.yourdomain.com"
+    }
+}
+```
