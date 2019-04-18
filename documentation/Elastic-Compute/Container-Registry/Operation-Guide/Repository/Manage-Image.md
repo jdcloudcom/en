@@ -2,8 +2,9 @@
 
  1. Turn on the console, select Elastic Compute-Container Registry-Repository and click **Image Management**.
  2. Clear image of current registry according to the selected policy and there are three release methods, i.e.: 
-   - Deleting images of specified versions;
-   - Deleting images of specified Digest;
-   - Deleting images according to version marking status;
-   ![](../../../image/Elastic-Compute/Container-Registry/镜像管理-EN.png)  
+   - Deleting images of specified versions;  
+   - Deleting images of specified Digest;  
+   - Deleting images according to version marking status;  
+   ![](../../../../../image/Elastic-Compute/Container-Registry/镜像管理-EN.png)  
+   
 The images can be deleted by selecting one method, selecting images and clicking **OK**.
