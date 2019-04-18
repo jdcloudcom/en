@@ -4,6 +4,12 @@
 
 Bandwidth Query
 
+Description:
+
+* In the conversion, the unit of bandwidth traffic statistics is either divided by 1000 or 1024, depending on the negotiation between the parties. If the parties consider the unit shall be divided by 1000, the conversion of unit of bandwidth traffic statistics shall be subject to 1000, otherwise the conversion unit is 1024 by default;
+
+* The bandwidth value range of granularity in five minutes is the value in the preceding five minutes from current time point, e.g.: For data at the time point of 13:25, the time range of value is the data from 13:20 to 13:25;
+
 ## **2. Request Parameter**
 
 | **Name**   | **Type** | **Compulsory or Not ** | **Description**                                                     |
@@ -12,7 +18,7 @@ Bandwidth Query
 | signature  | String   | Yes           | User Signature, verify user's identity information through md5 method to ensure information security.</br> md5=date+username+secret key SecretKey; date: format is yyyymmdd; username: JD user name pin secret key: agreed between the Parties;</br> example: such as current date 2016-10-23, user pin: jcloud_00, user secret key SecretKey: e7a31b1c5ea0efa9aa2f29c6559f7d61, then the signature is MD5(20161023jcloud_00e7a31b1c5ea0efa9aa2f29c6559f7d61) |
 | domain     | String   | Yes           | Domain name to be queried, support query of multiple domain names, parameter example "www.a.com,www.b.com"; When domain is empty, it queries the total bandwidth of all domain names under this username |
 | start_time | String   | Yes           | Time Format: yyyy-mm-dd hh:mi Reference Example 2016-12-14 07:00; the time span for query cannot be greater than 31 days  |
-| end_time   | String   | No           | Not a compulsory parameter; if no parameter is uploaded, it is current time by default                             |
+| end_time   | String   | No           | Not a compulsory parameter; if no parameter is uploaded, it is current time by default; |
 
 ## **3. Return Parameter**
 

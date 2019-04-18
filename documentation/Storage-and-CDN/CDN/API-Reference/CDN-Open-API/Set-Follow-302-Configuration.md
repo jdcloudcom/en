@@ -89,7 +89,7 @@ Search the status of accelerated domain configuration back-to-origin following 3
 
  **Request Address**
 
-Set back-to-origin following 302: https://opencdn.jcloud.com/api/setFollow302Redirect
+Search back-to-origin following 302 address: https://opencdn.jcloud.com/api/queryFollow302Redirect
 
  **Request Example**
 

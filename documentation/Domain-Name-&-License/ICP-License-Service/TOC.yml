@@ -10,61 +10,61 @@
       - name: Rules of Regulatory Authority
         items:
           - name: Anhui
-            href: Management-specification/Anhui.md
+            href: Getting-Started/Management-specification/Anhui.md
           - name: Beijing
-            href: Management-specification/Beijing.md
+            href: Getting-Started/Management-specification/Beijing.md
           - name: Chongqing
-            href: Management-specification/Chongqing.md  
+            href: Getting-Started/Management-specification/Chongqing.md  
           - name: Fujian
-            href: Management-specification/Fujian.md
+            href: Getting-Started/Management-specification/Fujian.md
           - name: Gansu
-            href: Management-specification/Gansu.md
+            href: Getting-Started/Management-specification/Gansu.md
           - name: Guangdong
-            href: Management-specification/Guangdong.md
+            href: Getting-Started/Management-specification/Guangdong.md
           - name: Guangxi
-            href: Management-specification/Guangxi.md
+            href: Getting-Started/Management-specification/Guangxi.md
           - name: Guizhou
-            href: Management-specification/Guizhou.md
+            href: Getting-Started/Management-specification/Guizhou.md
           - name: Hainan
-            href: Management-specification/Hainan.md
+            href: Getting-Started/Management-specification/Hainan.md
           - name: Hebei
-            href: Management-specification/Hebei.md
+            href: Getting-Started/Management-specification/Hebei.md
           - name: Heilongjiang
-            href: Management-specification/Heilongjiang.md
+            href: Getting-Started/Management-specification/Heilongjiang.md
           - name: Henan
-            href: Management-specification/Henan.md
+            href: Getting-Started/Management-specification/Henan.md
           - name: Hubei
-            href: Management-specification/Hubei.md
+            href: Getting-Started/Management-specification/Hubei.md
           - name: Hunan
-            href: Management-specification/Hunan.md
+            href: Getting-Started/Management-specification/Hunan.md
           - name: Jiangsu
-            href: Management-specification/Jiangsu.md
+            href: Getting-Started/Management-specification/Jiangsu.md
           - name: Jiangxi
-            href: Management-specification/Jiangxi.md
+            href: Getting-Started/Management-specification/Jiangxi.md
           - name: Jilin
-            href: Management-specification/Jilin.md
+            href: Getting-Started/Management-specification/Jilin.md
           - name: Liaoning
-            href: Management-specification/Liaoning.md
+            href: Getting-Started/Management-specification/Liaoning.md
           - name: Inner Mongolia
-            href: Management-specification/Neimenggu.md
+            href: Getting-Started/Management-specification/Neimenggu.md
           - name: Ningxia
-            href: Management-specification/Ningxia.md
+            href: Getting-Started/Management-specification/Ningxia.md
           - name: Qinghai
-            href: Management-specification/Qinghai.md
+            href: Getting-Started/Management-specification/Qinghai.md
           - name: Shanxi
-            href: Management-specification/Shan-xi.md
+            href: Getting-Started/Management-specification/Shan-xi.md
           - name: Shanghai
-            href: Management-specification/Shanghai.md
+            href: Getting-Started/Management-specification/Shanghai.md
           - name: Shaanxi
-            href: Management-specification/Shanxi.md
+            href: Getting-Started/Management-specification/Shanxi.md
           - name: Sichuan
-            href: Management-specification/Sichuan.md
+            href: Getting-Started/Management-specification/Sichuan.md
           - name: Xinjiang
-            href: Management-specification/Xinjiang.md
+            href: Getting-Started/Management-specification/Xinjiang.md
           - name: Yunnan
-            href: Management-specification/Yunnan.md
+            href: Getting-Started/Management-specification/Yunnan.md
           - name: Zhejiang
-            href: Management-specification/Zhejiang.md
+            href: Getting-Started/Management-specification/Zhejiang.md
   - name: FAQ
     items:
       - name: Basic Problem of Filing
@@ -94,15 +94,15 @@
       - name: Common Materials Download
         items:
         - name: Filing Authorization for All Provinces
-          href: Common-data/Provincial-filing-authorization.md
+          href: Loading/Common-data/Provincial-filing-authorization.md
         - name: National Verification Form Download
-          href: Common-data/National-verification-checklist-download.md
+          href: Loading/Common-data/National-verification-checklist-download.md
         - name: Guangdong Province Personal Verification Form Download
-          href: Common-data/Guangdong-Province-Personal-Verification-Checklist-Download.md
+          href: Loading/Common-data/Guangdong-Province-Personal-Verification-Checklist-Download.md
         - name: Guangdong Province Corporate Verification Form Download
-          href: Common-data/Guangdong-Province-Unit-verification-form-download.md
+          href: Loading/Common-data/Guangdong-Province-Unit-verification-form-download.md
         - name: Beijing Multi-Domain Verification Form
-          href: Common-data/Beijing-multi-domain-verification-form.md  
+          href: Loading/Common-data/Beijing-multi-domain-verification-form.md  
   - name: Process Help
     items:
        - name: Notes on SMS Verification of MIIT

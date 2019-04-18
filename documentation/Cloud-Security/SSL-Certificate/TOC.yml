@@ -38,8 +38,9 @@ items:
     - name: Renew-Process
       href: 
       status: 0
-    - name: Select Certificate
-      href: Operation-Guide/Choose-Your-Certificate.md
+    - name: How To Select Certificate
+      href:
+      status: 0
 - name: Getting Started
   items:
     - name: Upload SSL Certificate

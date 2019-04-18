@@ -1,2 +1,4 @@
 ## JD WorkSpaces Instance Management
-The administrator can apply the following management for the JD WorkSpaces instances, including JD WorkSpaces access, renewal and others.
+The administrator can manage the delivery group and instance of internal JD WorkSpaces.<br>
+Management of delivery group: Details, access workspace, renew and other operations.
+

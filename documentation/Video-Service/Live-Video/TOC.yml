@@ -63,6 +63,34 @@ items:
       href: Operation-Guide/Statistical-Analysis.md
 - name: Best Practices
   items:
+    - name: SDK Introduction
+      href: SDK-Reference/SDK-introduction.md
+    - name: Pushing Streaming SDK
+      items:
+        - name: Functions and Features
+          href: SDK-Reference/pushstream-feature.md
+        - name: Rapid Android Integration
+          href: SDK-Reference/Android-push-guidance.md
+        - name: Use of Android SDK
+          href: SDK-Reference/Android-push-API.md
+        - name: Rapid iOS Integration
+          href: SDK-Reference/iOS-push-guidance.md
+        - name: Use of iOS SDK
+          href: SDK-Reference/iOS-push-API.md
+    - name: Player SDK
+      items:
+        - name: Functions and Features
+          href: SDK-Reference/playstream-feature.md
+        - name: Rapid Android Integration
+          href: SDK-Reference/Android-play-guidance.md
+        - name: Use of Android SDK
+          href: SDK-Reference/Android-play-API.md
+        - name: Rapid iOS Integration
+          href: SDK-Reference/iOS-play-guidance.md
+        - name: Use of iOS SDK
+          href: SDK-Reference/iOS-play-API.md
+- name: Best Practices
+  items:
     - name: Push with the FMLE tool
       href: Best-Practices/Push-with-the-FMLE-tool.md
     - name: Push with the Xsplit tool
@@ -70,7 +98,6 @@ items:
     - name: Push with the OBS tool
       href: Best-Practices/Push-with-the-OBS-tool.md
 - name: Tutorial
-  items:
   status: 0
 - name: Troubleshooting
   items:

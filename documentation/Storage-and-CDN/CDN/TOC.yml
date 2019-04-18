@@ -167,6 +167,8 @@
             href: API-Reference/CDN-Open-API/Query-Header.md
           - name: Attachment：Notification Information Status Code Reference Table
             href: API-Reference/CDN-Open-API/Status-code-reference-table.md
+          - name: Appendix: Abbreviation List of Regions and Operators
+            href: API-Reference/CDN-Open-API/area-isp-reference-table.md
       - name: Live OPEN API
         items:
           - name: Set Blocked Streams

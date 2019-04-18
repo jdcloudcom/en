@@ -1,0 +1,56 @@
+name: Cloud File Service
+href: 
+items:
+ - name: Introduction
+   href:
+   items:
+      - name: Product Overview
+        href: Introduction/Product-Overview.md
+      - name: Region and Availability Zone
+        href: Introduction/Regions-and-AvailabilityZones.md
+      - name: Features
+        href: Introduction/Features.md
+      - name: Performance
+        href: Introduction/Performance.md
+      - name: Performance Test
+        href: Introduction/Performance_Test.md        
+      - name: Benefits
+        href: Introduction/Benefits.md
+      - name: Restrictions
+        href: Introduction/Restrictions.md 
+      - name: Application Scenarios 
+        href: Introduction/Application-Scenarios.md    
+ - name: Product Pricing
+   items:
+      - name: Billing Overview
+        href: Pricing/Billing-Overview.md
+      - name: Purchase Channel
+        href: Pricing/Purchase-Channel.md
+ - name: Operation Guide
+   items:
+      - name: File Storage List
+        href: Operation-Guide/File-System-List.md
+      - name: Create File Storage
+        href: Operation-Guide/Creating-File-System.md
+      - name: File Storage Information
+        href: Operation-Guide/File-System-Detail.md
+      - name: Creating Attached Target
+        href: Operation-Guide/Creating-Mount-Target.md
+      - name: Delete Attached Target
+        href: Operation-Guide/Deleting-Mount-Target.md
+      - name: Modify Attached Target
+        href: Operation-Guide/Editing-Mount-Target.md
+      - name: Attach File Storage
+        href: Operation-Guide/Mount-File-System.md
+      - name: Detached File Storage
+        href: Operation-Guide/Unmount-File-System.md
+      - name: Delete File Storage
+        href: Operation-Guide/Deleting-File-System.md
+ - name: Related Resources
+   items:
+      - name: JD Cloud File Service Beta Trial Agreement
+        href: Related-Resources/Service-Agreement-For-Open-Test.md
+      - name: JD Cloud File Service Agreement
+        href: Related-Resources/Service-Agreement.md
+      - name: Document History Records
+        href: Related-Resources/Release-History.md       

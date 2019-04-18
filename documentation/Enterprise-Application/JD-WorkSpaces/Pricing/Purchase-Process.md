@@ -1,5 +1,3 @@
 ## Purchase Process
-JD WorkSpaces shall adopt the invitation system. If you are interested in the JD WorkSpaces and are intended to buy, please apply for the invitation code:</br>
-1. Apply in the product page of the "JD WorkSpaces" official website;</br>
-2. Apply in the "JD WorkSpaces Solutions" official website;</br>
-3. Contact email: Jdworkspaces@Jd.com
+1. Access secondary menu **JD WorkSpaces** under primary menu of Console **Enterprise Application**, enter the customized domain, and click to enable it.<br>
+2. After it is successfully enabled, add the user and purchase and use the JD WorkSpaces.

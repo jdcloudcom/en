@@ -36,7 +36,7 @@ Next, install Agent and execute the same by the root user upon logging in the Vi
 
 ```
 # cn-north-1
-wget -c http://devops-hb.oss-internal.cn-north-1.jcloudcs.com/ifrit/ifrit-agent-external-v0.01.403.a81f9eb.20181127121007.bin -O installer && sh installer -- -a zero-agent  /usr/local/share/jdcloud/ifrit && rm -f installer
+wget -c http://devops-hb.s3.cn-north-1.jcloudcs.com/ifrit/ifrit-agent-external-v0.01.403.a81f9eb.20181127121007.bin -O installer && sh installer -- -a zero-agent  /usr/local/share/jdcloud/ifrit && rm -f installer
 ```
 
 The execution results are as below:
@@ -77,9 +77,9 @@ Please clone the sample code to the CodeCommit and the address of the CodeCommit
 
 ### Perform compilation and construction in the CodeBuild
 
-Create a new project in the CodeBuild, with specific information as below:
+Create a new task in the CodeBuild, with specific information as below:
 
--  Application Name: codedeploy-ci-demo03
+-  Task Name: codedeploy-ci-demo03
 -  Image Compilation: maven/maven3.6.0-jdk8
 -  Source Provider: JD Cloud-CodeCommit
 -  Repository Address: Please fill in the address based on the real conditions, for example devops-demo/java-demo
@@ -169,20 +169,20 @@ There are options as below:
 
 - Deployment Description: Optional, it is the description information for this deployment
 - Deployment Source: Multiple deployment sources are supported. Please select **CodeBuild**
-- CodeBuild Application Name: Please fill in codedeploy-ci-demo03
+- Task Name of CodeBuild: Please fill in codedeploy-ci-demo03
 - Construction SN of CodeBuild: Please fill in the construction SN compiled in the previous step
 - File Type: Please select .tar.gz
 - Deployment Operating Command: Please select **Enter Deployment Operating Command** and use the **Form Completion** function to fill in specific operating commands. The operations are as below:
 ```
-Deployment Path: Source File/Directory:/       Target Directory:/home
-Path to stop script: /home/bin/stop.sh     
-Path to start script: /home/bin/start.sh
-Path to Check Script:
+Deployment Path: Source Directory or File: /       Target Directory: /home
+Stop Script: /home/bin/stop.sh     
+Start Script: /home/bin/start.sh
+Check Script:
 Script executing account:  root       
 Time-out period of script (s): 100
 ```
 
-Note: The stopping script path is not required for first deployment
+Note: First deployment does not require stoping script.
 
 ![Alt text](https://github.com/jdcloudcom/cn/blob/edit/image/CodeDeploy/Ch/Pra-6%EF%BC%88Ch%EF%BC%89.png)
 

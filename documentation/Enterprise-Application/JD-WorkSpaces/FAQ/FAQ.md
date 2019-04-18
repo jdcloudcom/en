@@ -1,10 +1,8 @@
 ## FAQ
-1.	 How to purchase JD WorkSpaces?</br>
-JD WorkSpaces shall adopt the invitation system. If you are interested in the JD WorkSpaces and are intended to buy, please apply for the invitation code:</br>
-1. Apply in the product page of the "JD WorkSpaces" official website</br>
-2. Apply in the "JD WorkSpaces Solutions" official website</br>
-3. Contact email: Jdworkspaces@Jd.com
-2.	 Why is the domain required?</br>
+1. How to purchase JD WorkSpaces?</br>
+Access the secondary menu **JD WorkSpaces** under the primary menu of Console **Enterprise Application**, enter the customized domain, and click **Enable**.</br>
+Purchase and use JD WorkSpaces, after enabling is completed.</br>
+2. Why is the domain required?</br>
 The domain service is used for logging in the JD WorkSpaces by the terminal user
 3. Are customized images supported by the JD WorkSpaces?</br>
 Not supported now

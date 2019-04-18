@@ -36,7 +36,7 @@ The following engines and versions are supported by RDS
 |---|---|---|---|
 |cn-north-1|cn-north-1|Availability Zone A|cn-north-1a|
 |cn-north-1|cn-north-1|Availability Zone B|cn-north-1b|
-|cn-north-1|cn-north-1|Availability Zone B|cn-north-1c|
+|cn-north-1|cn-north-1|Availability Zone C|cn-north-1c|
 |cn-south-1|cn-south-1|Availability Zone A|cn-south-1a|
 |cn-east-2|cn-east-2|Availability Zone A|cn-east-2a|
 |cn-east-2|cn-east-2|Availability Zone B|cn-east-2b|

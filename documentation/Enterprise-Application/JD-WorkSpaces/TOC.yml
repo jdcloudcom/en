@@ -35,16 +35,20 @@ items:
     items:
       - name: Getting Started Overview
         href: Getting-Started/Overview.md
-      - name: Invitation Code
+      - name: Invitation Code (Customized)
         href: Getting-Started/Invitation-Code.md
-      - name: Enable JD WorkSpaces
+      - name: Enable Workspace
         href: Getting-Started/Application-Process.md
-      - name: Active Directory (AD) Management
+      - name: User Management
         href: Getting-Started/Active-Directory-Manager.md
       - name: JD WorkSpaces Creation (Purchase)
-        href: Getting-Started/Purchase-WorkSpace.md
+        href: Getting-Started/Purchase-Workspace.md
       - name: JD WorkSpaces Instance Management
-        href: Getting-Started/WorkSpace-Instance.md
+        href: Getting-Started/Workspace-Instance.md
+      - name: JD WorkSpaces Instance detail
+        href: Getting-Started/Workspace-Details.md
+      - name: Image Management
+        href: Getting-Started/Private-Image.md
       - name: Policy Management
         href: Getting-Started/Policy-Management.md
       - name: JD WorkSpaces User (Terminal User)
@@ -53,12 +57,16 @@ items:
     items:
       - name: Purchase Notes
         href: Operation-Guide/Purchase-Notes.md
-      - name: JD WorkSpaces Enabling Process
+      - name: Workspace Enabling Process
         href: Operation-Guide/Application-Process.md
       - name: JD WorkSpaces Creation (Purchase) Process
-        href: Operation-Guide/Purchase-WorkSpace.md
+        href: Operation-Guide/Purchase-Workspace.md
+      - name: View JD WorkSpaces detail
+        href: Operation-Guide/Workspace-Details.md
       - name: User Adding Process
-        href: Operation-Guide/Purchase-User.md  
+        href: Operation-Guide/Purchase-User.md 
+      - name: Create Private Image
+        href: Operation-Guide/Purchase-Image.md        
       - name: Policy Creation Process
         href: Operation-Guide/Purchase-Policy.md          
   - name: FAQ

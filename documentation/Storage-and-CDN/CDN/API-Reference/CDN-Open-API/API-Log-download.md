@@ -23,8 +23,7 @@ Query Log Download Link (downloadUrlInterval)
 | status   | Result status 0 means successful, others means failure                          |
 | msg      | Note Information                                                   |
 | data     | Return Data                                                   |
-| urls      | All links of log, if query for one day, return 24 data, one url for each hour |
-| url      | Log Download URL, it is limited by timeliness, it shall be downloaded in 2 hours, it needs to make a new request when time out |
+| urls      | All links of log, if query for one day, return 24 data, one url for each hour; Log Download URL, it is limited by timeliness, it shall be downloaded in 2 hours, it needs to make a new request when time out|
 
 
 ## **4. Call Example**

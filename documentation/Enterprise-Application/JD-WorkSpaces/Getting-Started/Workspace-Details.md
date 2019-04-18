@@ -1,0 +1,2 @@
+## JD WorkSpaces Instance Detail
+The JD WorkSpaces instance in the group is shown, including: Remote VNC connection workspace, workspace startup, workspace reboot, disassociating workspace users, creating private images, etc.

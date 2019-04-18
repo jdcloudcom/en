@@ -14,13 +14,17 @@ On CentOS 7:
 sudo yum install automake fuse fuse-devel gcc-c++ git libcurl-devel libxml2-devel make openssl-devel
 ```
 
-On Ubuntu 14.04:
+On Ubuntu 16.04:
 
 ```
 sudo apt-get install automake autotools-dev fuse g++ git libcurl4-openssl-dev libfuse-dev libssl-dev libxml2-dev make pkg-config
 ```
 
-**2. Installation and compilation**
+**2. Installation**
+
+You can use the two methods below for installation:
+
+2.1 Build installation:
 
 ```
 git clone https://github.com/s3fs-fuse/s3fs-fuse.git
@@ -29,6 +33,19 @@ cd s3fs-fuse
 ./configure
 make
 sudo make install
+```
+
+2.2 Packages installation:
+
+CentOS：
+```
+sudo yum install epel-release
+sudo yum install s3fs-fuse
+```
+
+Ubuntu:
+```
+sudo apt-get install s3fs
 ```
 
 **3. Create password file**
@@ -43,7 +60,6 @@ Description
 The acquisition mode of Access Key ID: Access Key Secret: https://uc.jdcloud.com/account/accessKey
 
 chmod 600: Only the current user can access the key file setting.
-
 
 **4. Mount Object Storage Service to local catalog/new**
 
@@ -103,13 +119,13 @@ sudo make install
 
 Note: --prefix=/usr/local is not required; PKG_CONFIG_PATH is required, /usr/local/ shall be replaced with the user’s local path.
 
-If you use non-root account when mounting the Bucket via Mac OS, please specify uid and gid of current account when the mount command is specified. Examples are as follows:
+3. If you use non-root account when attaching Bucket, please specify uid and gid of current account when the attach command is specified. Examples are as follows:
 
 ```
 sudo s3fs bucketname /new -o passwd_file=~/.passwd-s3fs -o url="https://s3.cn-north-1.jdcloud-oss.com" -o uid=11111 -o gid=11111
 ```
 
-3. When attaching JD Cloud Object Storage Service with the s3fs-fuse tool and copying files with cp commands, the following methods can be taken when the file does not have the content-type:
+4. When attaching JD Cloud Object Storage Service with the s3fs-fuse tool and copying files with cp commands, the following methods can be taken when the file does not have the content-type:
 
 - Use the `cp` command to copy files; the operations performed by the `s3fs-fuse` tool underlayer are dependent on the `/etc/mime.types` file, which determines the mime-type attribute of the `cp` command target file. Please view if there is this file under your directory.
 
@@ -117,4 +133,4 @@ sudo s3fs bucketname /new -o passwd_file=~/.passwd-s3fs -o url="https://s3.cn-no
 
 - For catalogs mounted by the `s3fs` command, it needs use `umount` command at first and the command will take effect once the `s3fs` command is executed once again.
 
-4. If you enable static website hosted before using S3fs to mount Bucket, the mount will fail; if you enable static website hosted after using S3fs to mount Bucket, the file operation will be invalid.
+5. If you enable static website hosted before using S3fs to mount Bucket, the mount will fail; if you enable static website hosted after using S3fs to mount Bucket, the file operation will be invalid.

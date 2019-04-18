@@ -12,19 +12,19 @@ After receiving the verification code sending by MIIT, responsible person of the
 
 SMS verification platform address of pilot provinces:
 
-**Gansu: **gscainfo.miitbeian.gov.cn
+**Gansu:** gs.beian.miit.gov.cn
 
-**Tibet: **xzcainfo.miitbeian.gov.cn
+**Tibet:** xz.beian.miit.gov.cn
 
-**Ningxia: **nxcainfo.miitbeian.gov.cn
+**Ningxia:** nx.beian.miit.gov.cn
 
-**Hainan: **hncainfo.miitbeian.gov.cn
+**Hainan:** hi.beian.miit.gov.cn
 
-**Xinjiang: **xjcainfo.miitbeian.gov.cn
+**Xinjiang:** xj.beian.miit.gov.cn
 
-**Qinghai: **qhcainfo.miitbeian.gov.cn
+**Qinghai:** qh.beian.miit.gov.cn
 
-**Tianjin: **tjcainfo.miitbeian.gov.cn
+**Tianjin:** tj.beian.miit.gov.cn
 
 ![1.png](https://img1.jcloudcs.com/cms/b779ee76-5dcf-4e25-bb3d-c7337a87391b20171218111115.png)
 

@@ -9,5 +9,5 @@ JCS for  MySQL/Percona/MariaDB service provide slow log statistics, slow log det
 
 |Query Item|Content|
 |---|---|
-|Slow Log Statistics|Statistical summary of SQL statements executed in the JCS for MySQL/Percona/MariaDB for more than 1 sec in 7 days, giving an analysis report of slow query logs|
-|Slow Log Details|Records of the SQL statement executed in the cloud database JCS for MySQL/Percona/MariaDB for more than 1 second in 7 days. The last two hours of slow log are not provided in the list. Please query through the slow_log_view table in the Percona service library, if necessary.|
+|Slow Log Statistics|Statistical summary of SQL statements executed in the JCS for MySQL/Percona/MariaDB for more than 1 sec in 7 days, giving an analysis report of slow query logs;|
+|Slow Log Details|Records of the SQL statement executed in the cloud database JCS for MySQL/Percona/MariaDB for more than 1 second in 7 days. The last two hours of slow log are not provided in the list. Please query through the slow_log_view table in the Percona service library, if necessary. Slow logs for the last two hours are not available in this list. Please search through the slow_log_view table in the Cloud Database MySQL/Percona/MariaDB if needed|

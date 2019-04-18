@@ -6,7 +6,7 @@ The Execution Results of Canceling Subject: All the information of the subject a
 
 The Execution Result of Canceling Website: All the website information under the canceled filing number is eliminated, but the subject information is preserved
 
-Inquiry Website for MIIT:[**www.miitbeian.gov.cn**](http://www.miitbeian.gov.cn)
+Inquiry Website for MIIT:[**www.beian.miit.gov.cn**](http://www.beian.miit.gov.cn)
 
 **Form-filing Explanation:**
 

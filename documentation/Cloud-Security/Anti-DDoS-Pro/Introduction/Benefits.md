@@ -1,7 +1,7 @@
 # Benefits
 
 ## Mass Defense against DDoS Attack
-Supports Telecom + Unicom + CMCC, the machine room cluster has cleaning capability up to 1000G+, and the maximum cleaning capability of single ISP line is up to 400G, so it can cope easily with various large-traffic DDoS attacks.
+Supports Telecom + Unicom + CMCC, the machine room cluster has cleaning capability up to 1,5T, so it can cope easily with various large-traffic DDoS attacks.
  
 ## Accurate Attack Defense
 The mature attack defense algorithm of Anti-DDoS Pro can filter the multi-layer attack traffic, and then analyze the characteristics of attacks from multiple dimensions and multiple items through machine learning. It can defense effectively against various DDoS attacks based on network layer, transport layer and application layer.

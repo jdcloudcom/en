@@ -1,4 +1,4 @@
-# Create Deposit
+# Building Type
 
 Based on the construction output package types, the construction types are divided into application package and image.
 
@@ -9,9 +9,9 @@ When you select an application package as the construction type, the constructio
 
  * Bucket
  
-Select the bucket in the user Object Storage Service, and store the construction output package.
+Select the Bucket in the user Object Storage Service, and store the construction output package.
 
- * Storage Directory
+ * Folder Name
  
 The construction output will be uploaded to this directory. If it is null here, the construction output will be uploaded to the root directory of bucket be default.
 

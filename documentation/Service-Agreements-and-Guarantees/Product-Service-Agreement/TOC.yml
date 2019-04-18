@@ -110,3 +110,7 @@ items:
     href: IoT-Hub.md
   - name: IoT Hub Protocol Adaptor Service Terms
     href: IoT-Hub-Protocol-Adaptor.md
+  - name: Cloud File Service Agreement
+    href: Cloud-File-Service-terms-of-service.md
+  - name: Cloud File Service Beta Trial Agreement
+    href: Cloud-file-service-public-beta-terms-of-service.md

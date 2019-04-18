@@ -45,7 +45,7 @@
                     href: Operation-Guide/Go.md
                   - name: Use Npm Software Package Management System to manage software packages
                     href: Operation-Guide/Npm.md
-          - name: Create Deposit
+          - name: Building Type
             href: Operation-Guide/Build-Storage.md
           - name: Advanced Settings
             href: Operation-Guide/Advanced-Setting.md

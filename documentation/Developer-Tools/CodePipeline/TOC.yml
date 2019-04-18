@@ -27,24 +27,32 @@ items:
         href: Getting-Started/Create-Customized-Instance.md
   - name: Operation Guide
     items:
-      - name: Manage CodePipeline
-        items:
-          - name: Create CodePipeline
-            href: Operation-Guide/Create-Pipeline.md
-          - name: Edit CodePipeline
-            href: Operation-Guide/Edit-Pipeline.md
-          - name: View CodePipeline
-            href: Operation-Guide/View-Pipeline.md
-          - name: Release CodePipeline
-            href: Operation-Guide/Release-Pipeline.md
-          - name: View Execution History Record
-            href: Operation-Guide/View-Execution-History.md
-          - name: Delete CodePipeline
-            href: Operation-Guide/Delete-Pipeline.md        
-      - name: Use Operations
-        items:
-          - name: Stop Operations
-            href: Operation-Guide/Check-Action.md     
+      - name: Create CodePipeline
+        href: Operation-Guide/Create-Pipeline.md
+      - name: Edit CodePipeline
+        href: Operation-Guide/Edit-Pipeline.md
+      - name: View CodePipeline
+        href: Operation-Guide/View-Pipeline.md
+      - name: Release CodePipeline
+        href: Operation-Guide/Release-Pipeline.md
+      - name: View Execution History Record
+        href: Operation-Guide/View-Execution-History.md
+      - name: Delete CodePipeline
+        href: Operation-Guide/Delete-Pipeline.md        
+      - name: Operation Type-Source Code
+        href: Operation-Guide/Source-Action.md    
+      - name: Operation Type-Build
+        href: Operation-Guide/Build-Action.md    
+      - name: Operation Type-Deploy
+        href: Operation-Guide/Deploy-Action.md        
+      - name: Add more operations
+        href: Operation-Guide/Add-Action.md    
+      - name: Edit Operation
+        href: Operation-Guide/Edit-Action.md    
+      - name: Stop Operations
+        href: Operation-Guide/Check-Action.md    
+      - name: Delete Operation
+        href: Operation-Guide/Delete-Action.md   
   - name: Best Practices
     items:
         - name: Build and deploy to JD Cloud - CodeDeploy

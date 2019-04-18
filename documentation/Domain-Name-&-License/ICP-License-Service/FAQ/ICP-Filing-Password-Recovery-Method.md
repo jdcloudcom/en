@@ -4,7 +4,7 @@
 
 (Please note that: when the password is retrieved through this method, please do not have multiple clicks due to system delay for the sake of avoiding causing the problem of generating multiple passwords)
 
-Visit the ICP Filing Management System of the Ministry of Industry and Information Technology of the PRC (www.miitbeian.gov.cn).
+Visit the ICP Filing Management System of the Ministry of Industry and Information Technology of the PRC (www.beian.miit.gov.cn).
 
 Enter the Retrieve the Password of Filing page on provincial or municipal communications authority where you perform filing.
 

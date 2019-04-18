@@ -8,11 +8,9 @@ In this paper, the entries of Anti-DDoS Pro instance will be introduced.
 1. Enter JD Cloud console.
 
 2. Through navigation at the page head, click in the order of **Product** > **Anti-DDoS Pro** to open the "Instance List" page; you can also open the "Instance List" page by clicking the **Cloud Security** > **Anti-DDoS Pro** via the menu on the left.
-
 ![](../../../../image/Advanced%20Anti-DDoS/price01.png)
 
 3. Click **Renew** in the operation items to enter the "Renew" page and carry out the renewal.
-
 ![](../../../../image/Advanced%20Anti-DDoS/price02.png)
    
 
@@ -21,11 +19,18 @@ In this paper, the entries of Anti-DDoS Pro instance will be introduced.
 1. Enter JD Cloud console.
 
 2. Through navigation at the page head, click in the order of **Product** > **Renewal Management** to open the "Renewal Management" page; You can also open the "Renewal Management" page by clicking **Management** > **Renewal Management** via the menu on the left.
-
    ![](../../../../image/Advanced%20Anti-DDoS/price03.png)
    
 3. At the "Renew Management" page, click **Anti-DDoS Pro** to view Anti-DDoS Pro instances.
 
 4. Click **Renew** in the operation items to enter the "Renew" page and carry out the renewal
 
-   ![](../../../../image/Advanced%20Anti-DDoS/price04.png)
+![](../../../../image/Advanced%20Anti-DDoS/price04.png)
+
+5. Notes:
+
+- Anti-DDoS Pro Renewal page does not support setting unified expiration time.
+
+- The duration supported by renewal is consistent with that supported by purchase:
+
+That is, package below 100G supports monthly and annual renewal; while package above 100G supports only annual renewal rather than monthly renewal.
