@@ -38,7 +38,7 @@ items:
       - name: Invitation Code (Customized)
         href: Getting-Started/Invitation-Code.md
       - name: Enable Workspace
-        href: Getting-Started/Application-Process.md
+        href: Getting-Started/Create-Workspace.md
       - name: User Management
         href: Getting-Started/Active-Directory-Manager.md
       - name: JD WorkSpaces Creation (Purchase)
@@ -58,17 +58,17 @@ items:
       - name: Purchase Notes
         href: Operation-Guide/Purchase-Notes.md
       - name: Workspace Enabling Process
-        href: Operation-Guide/Application-Process.md
+        href: Operation-Guide/Create-Workspace-Process.md
       - name: JD WorkSpaces Creation (Purchase) Process
         href: Operation-Guide/Purchase-Workspace.md
       - name: View JD WorkSpaces detail
-        href: Operation-Guide/Workspace-Details.md
+        href: Operation-Guide/View-Workspace-Details.md
       - name: User Adding Process
-        href: Operation-Guide/Purchase-User.md 
-      - name: Create Private Image
-        href: Operation-Guide/Purchase-Image.md        
-      - name: Policy Creation Process
-        href: Operation-Guide/Purchase-Policy.md          
+        href: Operation-Guide/Create-User.md 
+      - name: Added Private Image
+        href: Operation-Guide/Create-Image.md        
+      - name: Policy Adding Process
+        href: Operation-Guide/Create-Policy.md          
   - name: FAQ
     href: FAQ/FAQ.md
   - name: API Reference

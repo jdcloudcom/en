@@ -23,7 +23,7 @@ Select an instance template to create a Availability Group: Instance templates m
 
 ## Usage Restrictions
 
-* A maximum of 25 instance templates can be created in a single region, please open a ticket for additional requirements;
+* A maximum of 20 instance templates can be created in a single region, please open a ticket for additional requirements;
 * The instance template temporarily does not support modification for the time being, if you need to modify some of the items, we recommend you create a new instance template;
 * If the instance template has been referenced by a Availability Group, the instance template cannot be deleted;
 * If the resources referenced by the instance template are deleted, the instance template will not work properly. If the Availability Group configured with this instance template cannot add new instances normally, you shall make sure that the resources associated with the instance template are available prior to using it.

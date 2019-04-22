@@ -2,7 +2,7 @@
 
 The image list is mainly used for displaying repository information of all images thereof.  
 ![](../../../../../image/Elastic-Compute/Container-Registry/镜像列表-EN.png)  
-**Name:** Repository Name
-**Resources:** Display registry of the image.
-**Downloads:** Total downloads of all image versions.
-**Operation:** Create a container and directly log in the native container creation page.
+**Name**: Repository Name
+**Resources**: Display registry of the image.
+**Downloads**: Total downloads of all image versions.
+**Operation**: Create a container and directly log in the native container creation page.

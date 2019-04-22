@@ -21,7 +21,9 @@ In order to ensure the stability and security of instances, JCS for SQL Server h
 - Databases cannot be logged in through DMS.
 
 # III. Quantitative Limit
-Each account can create **Five** SQL Server instances in each region. Please submit open ticket to apply for more quotas if to create more instances.
+1. In Subnet of creating SQL Server Instance, the count of remaining Available IP must be greater than or equal to **"10"**
+2. Each account can create **"Five"** SQL Server instances in each region. Please submit open ticket to apply for more quotas if to create more instances.
+3. The maximum count of databases that can be created per instance is **"50"** 
 
 # IV. Names and Password Limits
 

@@ -1,4 +1,4 @@
-## Policy Creation Process
+## Policy Adding Process
 Log in the JD WorkSpaces.<br>
 1. Select **Policy Management** in the JD WorkSpaces console;<br>
 2. Click **Add** to pop up the "Create Policy" page;<br>

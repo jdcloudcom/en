@@ -15,6 +15,16 @@ items:
         href: Introduction/Restrictions.md
       - name: Cloud Products Supporting IAM
         href: Introduction/Support-Services.md
+  - name: Getting Started
+    items:
+      - name: Create sub-user
+        href: Getting-Started/CreateSubuser.md
+      - name: Create Group (Optional)
+        href: Getting-Started/CreateUserGroup.md
+      - name: Create Customized Policy (Optional)
+        href: Getting-Started/CreatePolicy.md
+      - name: Create Role (Optional)
+        href: Getting-Started/CreateRole.md
   - name: Operation Guide
     items:
       - name: Overview

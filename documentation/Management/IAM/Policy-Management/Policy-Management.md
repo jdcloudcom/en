@@ -21,7 +21,7 @@ Log in the console and enter Identity and Access Management > Authorization Poli
 
 ## Policy Creation
 
-On the Authorization Policy Management list page, click **Create** to obtain two ways to create a customized policy. The first is the visual policy generator, and the second is the JSON policy editor.
+On the Authorization Policy Management list page, click **Create** to obtain three ways to create a customized policy. The first is the visual policy generator, the second is the JSON policy editor, and the third is to create policy by tag.
 
 ![创建策略](../../../../image/IAM/PolicyManagement/创建策略.jpg)
 

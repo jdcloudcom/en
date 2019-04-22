@@ -51,7 +51,7 @@ Set protocol following back-to-origin address: https://opencdn.jdcloud.com/api/s
     "data": {
         "domain": "www.a.com",
         "requestId": "144791ff-3d4b-4850-a7d1-75907006290a",
-        "followStatus": "on"
+        "followProtocolStatus": "on"
     }
 }
 
@@ -82,7 +82,7 @@ Search the status of the domain configuration function
 | data     | Return Data                                                   |
 | domain  | Searched Accelerated Domain                         |
 | requestId  | The Only Identifier of Request                 |
-| followStatus | The status of protocol following back-to-origin, “off” is disabled, “on” is enabled        |
+| followProtocolStatus | The status of protocol following back-to-origin, “off” is disabled, “on” is enabled        |
 
 ## **4. Call Example**
 
@@ -111,7 +111,7 @@ Search the protocol following back-to-origin address: https://opencdn.jcloud.com
     "data": {
         "domain": "www.a.com",
         "requestId": "144791ff-3d4b-4850-a7d1-75907006290a",
-        "followStatus": "on"
+        "followProtocolStatus": "on"
     }
 }
 

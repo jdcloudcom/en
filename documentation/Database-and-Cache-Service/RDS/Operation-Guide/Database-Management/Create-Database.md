@@ -16,7 +16,8 @@ Users can create databases through the JCS for MySQL/Pecona/MariaDB service  man
 
 
 ## Create JCS for SQL Server Database
-Users can create databases through the JCS for SQL Server service management console, each with a unique name. Different instances are not subject to this limit.
+- Users can create databases through the JCS for SQL Server service management console, each with a unique name. Different instances are not subject to this limit.
+- In consideration of performance, the maximum count of databases that are allowed to be created per instance is **"50"**
 
 ### Operation Steps
 1. Login [RDS Management Console](https://rds-console.jdcloud.com/database).

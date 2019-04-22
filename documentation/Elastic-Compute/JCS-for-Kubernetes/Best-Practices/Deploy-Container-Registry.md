@@ -99,9 +99,9 @@ apiVersion: v1
            name: container-private-repo
       spec:
         containers:
-          - name:  mycontainer
-            image: myregistry-cn-north-1.jcr.service.jdcloud.com/myrepo:latest
-            imagePullPolicy: Always
+        - name:  mycontainer
+          image: myregistry-cn-north-1.jcr.service.jdcloud.com/myrepo:latest
+          imagePullPolicy: Always
         imagePullSecrets:
           - name: my-secret
 ```

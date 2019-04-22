@@ -3,13 +3,13 @@
 ### PostgreSQL 
 |Instance Type|Maximum Connections|
 |---|---|
-|1-core 1 GB|300|
-|1-core 2GB|600|
-|1-core 4GB|1200|
-|2-core 8GB|2000|
-|4-core 16GB|4000|
-|8-core 32GB|8000|
-|16-core 64GB|16000|
+|1-core 1GB|100|
+|1-core 2GB|200|
+|1-core 4GB|400|
+|2-core 8GB|800|
+|4-core 16GB|1500|
+|8-core 32GB|2000|
+|16-core 64GB|2000|
 
 ## Function Limit
 ### Contraction Operations

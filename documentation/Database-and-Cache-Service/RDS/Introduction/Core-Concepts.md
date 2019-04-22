@@ -3,7 +3,7 @@ Please refer to the following the terms and explanations used in the Help Docume
 
 |Technical Terms|Explanation|
 |---|---|
-|Region| Machine rooms of JD Cloud are distributed in multiple locations around the world, which are called regions. JD Cloud is completely isolated from different regions, ensuring maximum stability and fault tolerance between different regions. It is recommended to choose the region closest to the regions of users or their customers to reduce access delay and increase>download speed|.
+|Region| Machine rooms of JD Cloud are distributed in multiple locations around the world, which are called regions. JD Cloud is completely isolated from different regions, ensuring maximum stability and fault tolerance between different regions. It is recommended to choose the region closest to the regions of users or their customers to reduce access delay and increase download speed|.
 |Availability Zone| Available zone is a physical zone in which the infrastructure such as power and network are independent of each other in the same region. A region contains one or more availability zones, and multiple availability zones in the same region can be connected to each other.|
 |Single Availability Zone Deployment|Able to Withstand Rack-Level Failures|
 |Multiple Availability Zone|It can withstand rack-level failures. However, since there is a certain network delay between different availability zones, the response time for a single update will be longer than the single availability zone deployment.|

@@ -50,10 +50,18 @@ The information in the table is defined as follows:
 |  **Cloud Product**  | **Service Name** | **Policy Version** | **Open API** | **Console** | **Authorization Granularity** | **User Role** | **Service Role** |
 | :----------: | :--------------: | :------: | :------: | :----: | :------: | :------: | :------: |
 |   Load Balancer   |        lb        |    v3    |    ✔     |   ✔    |  Resource Level  |   －    |   －     |
-##### Storage and CDN
+##### Database and Cache
+|  **Cloud Product**  | **Service Name** | **Policy Version** | **Open API** | **Console** | **Authorization Granularity** | **User Role** | **Service Role** |
+| :----------: | :--------------: | :------: | :------: | :----: | :------: | :------: | :------: |
+|   JCS for Memcached  |        memcached        |    v3    |    ✔     |   ✔    |  Resource Level  |    ✔   |   －     |
+##### Storage
 |  **Cloud Product**  | **Service Name** | **Policy Version** | **Open API** | **Console** | **Authorization Granularity** | **User Role** | **Service Role** |
 | :----------: | :--------------: | :------: | :------: | :----: | :------: | :------: | :------: |
 | Object Storage Service  |     oss       |    v3    |    ✔     |   ✔    |  Resource Level  |   －     |    －    |
+##### Edge and Acceleration
+|  **Cloud Product**  | **Service Name** | **Policy Version** | **Open API** | **Console** | **Authorization Granularity** | **User Role** | **Service Role** |
+| :----------: | :--------------: | :------: | :------: | :----: | :------: | :------: | :------: |
+| CDN |     cdn      |    v3    |    ✔     |   ✔    |  Resource Level  |   －     |    －    |
 ##### Cloud Security
 |  **Cloud Product**  | **Service Name** | **Policy Version** | **Open API** | **Console** | **Authorization Granularity** | **User Role** | **Service Role** |
 | :----------: | :--------------: | :------: | :------: | :----: | :------: | :------: | :------: |
@@ -67,14 +75,23 @@ The information in the table is defined as follows:
 | :----------: | :--------------: | :------: | :------: | :----: | :------: | :------: | :------: |
 | Directory Service |     directoryservice     |    v3    |    ✔     |   ✔    |  Resource Level  |   ✔    |    ✔   |
 |Security Token Service |    sts     |    v3    |    ✔     |   ✔    |  Resource Level  |    －    |    －   |
+|Audit Trail |    audittrail     |    v3    |    ✔     |   ✔    |  Operation Level  |     ✔    |    －   |
 ##### Middleware
 |  **Cloud Product**  | **Service Name** | **Policy Version** | **Open API** | **Console** | **Authorization Granularity** | **User Role** | **Service Role** |
 | :----------: | :--------------: | :------: | :------: | :----: | :------: | :------: | :------: |
 | Message Queue JCQ  |       jcq        |    v3    |    ✔     |   ✔    | Resource level  |   －     |    －    |
+| JCS for Elasticsearch |     es   |    v3    |    ✔     |   ✔    |  Resource Level  |    ✔   |  －   |
+| JD Distributed Service Framework |     jdsf   |    v3    |    ✔     |   ✔    |  Resource Level  |    ✔   |  －   |
 ##### Expense Center
 |  **Cloud Product**  | **Service Name** | **Policy Version** | **Open API** | **Console** | **Authorization Granularity** | **User Role** | **Service Role** |
 | :----------: | :--------------: | :------: | :------: | :----: | :------: | :------: | :------: |
 | Order Placement and Payment Permissions  |      order       |    v3    |   ✔       |  ✔     |  Resource Level  |   －     |    －    |
+| Consumption Management |      billing    |    v3    |   ✔       |  ✔     |  Operation Level  |    ✔     |    －    |
+| Settlement Management  |      settlement    |    v3    |   ✔       |  ✔     |  Operation Level  |    －     |    －    |
+##### Channel Management
+|  **Cloud Product**  | **Service Name** | **Policy Version** | **Open API** | **Console** | **Authorization Granularity** | **User Role** | **Service Role** |
+| :----------: | :--------------: | :------: | :------: | :----: | :------: | :------: | :------: |
+| Channel Management  |      partner   |    v3    |   ✔       |  ✔     |  Operation Level  |    ✔     |    －    |
 ##### Big Data & Analytics
 |  **Cloud Product**  | **Service Name** | **Policy Version** | **Open API** | **Console** | **Authorization Granularity** | **User Role** | **Service Role** |
 | :----------: | :--------------: | :------: | :------: | :----: | :------: | :------: | :------: |

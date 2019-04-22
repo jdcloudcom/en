@@ -50,11 +50,23 @@ JRN Example:
 | :---------: | :---------------------------------------------------------- |
 | Load Balancer   | jrn:lb:regionId:accountId:loadBalancers/{loadBalancerId}<br>jrn:lb:regionId:accountId:loadBalancers/{loadBalancerId}/backends/{backendId}<br>jrn:lb:regionId:accountId:loadBalancers/{loadBalancerId}/listeners/{listenerId}<br>jrn:lb:regionId:accountId:loadBalancers/{loadBalancerId}/targetGroups/{targetGroupId}<br>jrn:lb:regionId:accountId:loadBalancers/{loadBalancerId}/urlMaps/{urlMapId} |
 
-### Storage and CDN
+
+### Database and Cache
+
+| Product Line Name |                           JRN Example                            |
+| :---------: | :---------------------------------------------------------- |
+| JCS for Memcached | jrn:memcached:regionId:accountId:instances/{instanceId} |
+
+### Storage
 
 | Product Line Name |                           JRN Example                            |
 | :---------: | :---------------------------------------------------------- |
 | Object Storage Service     | jrn:oss:regionId:accountId:{BucketName} <br> jrn:oss:regionId:accountId:{BucketName}/{ObjectName}|
+
+### Edge and Acceleration
+
+| Product Line Name |                           JRN Example                            |
+| :---------: | :---------------------------------------------------------- |
 | CDN| jrn:cdn::accountId:domain/{domain}<br>jrn:cdn::accountId:liveDomain/{domain}<br>jrn:cdn::accountId:domainGroup/{id}|
 
 ### Cloud Security
@@ -76,5 +88,6 @@ JRN Example:
 
 | Product line name  |                           JRN example                            |
 | :---------: | :---------------------------------------------------------- |
-| Message Queue | jrn:jcq:regionId:accountId:/topics/{topicName}<br>jrn:jcq:regionId:accountId:/topics/{topicName}/subscriptions/{consumerGroupId}|
-
+| Message Queue      | jrn:jcq:regionId:accountId:/topics/{topicName}<br>jrn:jcq:regionId:accountId:/topics/{topicName}/subscriptions/{consumerGroupId} |
+| JCS for Elasticsearch  |  ``jrn:es:regionId:accountId:instances/{instanceId}`` |
+| JD Distributed Service Framework | jrn:jdsf:regionId:accountId:registries/{registryId}<br>jrn:jdsf:regionId:accountId:registries/{registryId}/services/{serviceName}<br>jrn:jdsf:regionId:accountId:registries/{registryId}/services/{serviceName}/instances/{instanceId}<br>jrn:jdsf:regionId:accountId:traces/{instanceId}<br>jrn:jdsf:regionId:accountId:traces/{instanceId}/services/{serviceName}<br>jrn:jdsf:regionId:accountId:traces/{instanceId}/tracings/{traceId}<br>jrn:jdsf:regionId:accountId:appconfig/{appConfigId}<br>jrn:jdsf:regionId:accountId:appconfig/{appConfigId}/versions/{appConfigVersionId}/publishes/{appConfigPublishVersionId}<br>jrn:jdsf:regionId:accountId:deployapps/{appId} |
