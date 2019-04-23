@@ -870,11 +870,99 @@
 		"main_title":"最新发布 分布式网络负载均衡"
 	},
 	{
-		"sub_title":"我的世界",
-		"image_Url":"//img1.jcloudcs.com/cms/831d90fd-e099-4bb3-9162-81f6a0b445c520190308173810.jpg",
+		"image_Url":"//img1.jcloudcs.com/cms/955224c4-0d62-4dd1-9d10-b2d2380e648420190327095215.png",
 		"name":"我的世界",
 		"id":"1065",
-		"main_title":"我的世界",
-		"backgroud_image":"//img1.jcloudcs.com/cms/979c9865-d542-40ba-ad31-1b917d3e55ed20190308173818.png"
+		"backgroud_image":"//img1.jcloudcs.com/cms/52532ce2-724b-472e-a4b7-3113706a819c20190327095221.png"
+	},
+	{
+		"sub_title":"Cloud Native 时代下的应用之路与开源创新",
+		"image_Url":"//img1.jcloudcs.com/cms/cfb4df19-2415-410d-8a3a-0e5c57a9c5c120190319101115.jpg",
+		"name":"技术沙龙",
+		"id":"1067",
+		"button_title":"立即报名",
+		"main_title":"京东云技术沙龙 · 北京站",
+		"backgroud_image":"//img1.jcloudcs.com/cms/5c7f0ead-dc8c-4497-9f36-c3fbe0e2e96420190319101221.png"
+	},
+	{
+		"sub_title":"开通对象存储的新老用户均可享受标准存储免费额度",
+		"image_Url":"//img1.jcloudcs.com/cms/c0bce476-06ae-48eb-aac7-cc273bc8039320190320111203.png",
+		"name":"对象存储免费额度",
+		"id":"1069",
+		"button_title":"查看详情",
+		"main_title":"对象存储推出免费额度",
+		"backgroud_image":"//img1.jcloudcs.com/cms/11593181-6a6b-4d74-8978-d0385a3ab9b720190327115135.png"
+	},
+	{
+		"sub_title":"助力企业打造安全高效桌面环境",
+		"image_Url":"//img1.jcloudcs.com/cms/61385707-80cb-4751-b3ea-8230d012064820190327112047.png",
+		"name":"云桌面白皮书",
+		"id":"1071",
+		"button_title":"立即下载",
+		"main_title":"京东云云桌面白皮书 正式发布",
+		"backgroud_image":"//img1.jcloudcs.com/cms/3abaa6b5-a430-4acc-83e6-ed01f15ed32d20190327114924.png"
+	},
+	{
+		"sub_title":"高性能、四层、会话保持 负载均衡",
+		"image_Url":"//img1.jcloudcs.com/cms/20e283d7-4224-4d18-a127-8ba67609e4a720190328135036.jpg",
+		"dynamic_image":"//img1.jcloudcs.com/cms/f70b4e1e-248e-4d19-b16d-25c96594283f20190411144120.png",
+		"name":"网络负载均衡 开放公测",
+		"id":"1073",
+		"button_title":"立即申请",
+		"main_title":"最新发布 网络负载均衡"
+	},
+	{
+		"sub_title":"基于serverless架构的全托管的消息队列服务",
+		"image_Url":"//img1.jcloudcs.com/cms/09b894ab-bd17-47d2-9b8b-91b97b90ffa320190328135238.jpg",
+		"dynamic_image":"//img1.jcloudcs.com/cms/35e68949-5e1f-4fcd-9bff-f9b93962ea4820190402110835.png",
+		"name":"队列服务 开放公测",
+		"id":"1074",
+		"button_title":"立即申请",
+		"main_title":"队列服务 开放公测"
+	},
+	{
+		"sub_title":"高可靠、可扩展、可共享访问的分布式文件系统",
+		"image_Url":"//img1.jcloudcs.com/cms/8da9df9f-be8c-44f1-a353-90730ccf976c20190328140340.jpg",
+		"dynamic_image":"//img1.jcloudcs.com/cms/96df21ad-f33a-4e4e-a17b-9837c90d496620190402110714.png",
+		"name":"云文件服务 开放公测",
+		"id":"1075",
+		"button_title":"立即申请",
+		"main_title":"云文件服务 开放公测"
+	},
+	{
+		"sub_title":"云主机低至6折  建站仅需98元",
+		"image_Url":"//img1.jcloudcs.com/cms/c51ddd60-b8cf-4509-ae5e-25e004eed03720190329104222.png",
+		"name":"域名促销",
+		"id":"1076",
+		"button_title":"查看详情",
+		"main_title":"域名特价 限时抢注！",
+		"backgroud_image":"//img1.jcloudcs.com/cms/42e3e52b-612e-4665-b4ca-73f97648a1aa20190329104232.png"
+	},
+	{
+		"sub_title":"随时随地触达京东云，7*24小时的全面监控",
+		"image_Url":"//img1.jcloudcs.com/cms/f08434ad-7c1d-44c4-be04-eef585808f5320190415112503.jpg",
+		"dynamic_image":"//img1.jcloudcs.com/cms/2e1a9703-f946-4357-9b17-e7eb4fcd4e6920190415112514.png",
+		"name":"APPiOS上架",
+		"id":"1084",
+		"button_title":"查看详情",
+		"main_title":"京东云APP"
+	},
+	{
+		"sub_title":"帮助您管理对资源的访问",
+		"image_Url":"//img1.jcloudcs.com/cms/a4f46db3-88bb-407c-a006-dc5c587ce26920190415143104.jpg",
+		"dynamic_image":"//img1.jcloudcs.com/cms/620a3130-9079-4073-9b2d-2075d2ecc30120190415143116.png",
+		"name":"目录服务开放公测",
+		"id":"1085",
+		"button_title":"立即申请",
+		"main_title":"目录服务 开放公测"
+	},
+	{
+		"sub_title":"《京东云专有云思想领导力白皮书》发布",
+		"image_Url":"//img1.jcloudcs.com/cms/3e424873-1abd-457d-bbe7-9f122eee181820190416134458.png",
+		"name":"JD stack白皮书",
+		"id":"1087",
+		"button_title":"查看详情",
+		"main_title":"京东云打造新一代专有云平台JD Stack",
+		"backgroud_image":"//img1.jcloudcs.com/cms/39c4bd28-d1d5-4764-a05f-d76d236c95b720190416134516.png"
 	}
 ]
