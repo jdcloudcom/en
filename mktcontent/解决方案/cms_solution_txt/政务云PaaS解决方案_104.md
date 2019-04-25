@@ -1,0 +1,32 @@
+[
+	{
+		"txt":"{\"operator\":\"zhouyuqing8\",\"floorName\":\"banner\",\"name\":\"banner\",\"data\":[{\"title\":\"政务云PaaS解决方案\",\"description\":\"构建支撑业务应用标准化建设与管理一体化支撑平台。全面推进电子政务深度应用，助力政务业务创新，提升应用上线速度，实现业务更流畅的跨部门协作，支撑领导决策分析，创新社会治理。\",\"imageUrl\":\"//jdcloud-portal.oss.cn-north-1.jcloudcs.com/www.jcloud.com/fcef0c57-b9a7-4d32-98c1-8ef769a0d6e520190227214508.png\",\"backgroundColor\":\"#1a284f\",\"buttonMetas\":[],\"tagMetas\":[]}]}",
+		"templet":"11",
+		"id":"476",
+		"solution_id":"105"
+	},
+	{
+		"txt":"{\"operator\":\"zhouyuqing8\",\"floorName\":\"方案详述\",\"name\":\"description-1\",\"data\":[{\"showShade\":false,\"imageUrl\":\"//jdcloud-portal.oss.cn-north-1.jcloudcs.com/www.jcloud.com/d8151f45-c8a8-42cd-ad8e-6c165acb044520190226212314.png\",\"title\":\"基础设施平台化\",\"description\":\"在不同基础设施上统一管理不同业务和第三方应用，提升资源利用率\",\"subDescriptions\":[{\"descriptionText\":\"自动化获取资源进行部署\"},{\"descriptionText\":\"提供标准化的编程框架和服务来帮助应用开发和运行实现自动化\"},{\"descriptionText\":\"无需感知底层资源的应用自动化运维（包括配置、升级、伸缩等）\"}]},{\"showShade\":false,\"imageUrl\":\"//jdcloud-portal.oss.cn-north-1.jcloudcs.com/www.jcloud.com/7d7e4255-528f-41e6-8f5c-c55ea352324820190226212339.png\",\"title\":\"应用架构现代化\",\"description\":\"构建微服务化应用，新旧应用架构统一部署，提高效率，业务弹性伸缩\",\"subDescriptions\":[{\"descriptionText\":\"通过灰度发布，实时更新，热生效\"},{\"descriptionText\":\"面对访问流量洪峰，实现弹性扩缩容\"},{\"descriptionText\":\"开发的代码或者接口都支持复用\"},{\"descriptionText\":\"基于微服务的spring cloud或service mesh，可进行跨语言\"}]},{\"showShade\":false,\"imageUrl\":\"//jdcloud-portal.oss.cn-north-1.jcloudcs.com/www.jcloud.com/3b78b4d2-d91b-4f52-9fe4-45ab79ad964d20190226212346.png\",\"title\":\"开发流程敏捷化\",\"description\":\"自动化测试部署流程，加速业务创新，增强业务敏感度\",\"subDescriptions\":[{\"descriptionText\":\"项目支持多部门与多环境\"},{\"descriptionText\":\"各项目的“应用”、“流水线”等模块拥有对立的操作权限\"},{\"descriptionText\":\"各项目的DevOps工具可共享，可隔离\"},{\"descriptionText\":\"灵活的项目使用方式，满足多种使用场景\"}]},{\"showShade\":false,\"imageUrl\":\"//jdcloud-portal.oss.cn-north-1.jcloudcs.com/www.jcloud.com/b5005054-dd01-4d05-bc93-81130675388d20190226212403.png\",\"title\":\"开放创新可控化\",\"description\":\"在统一的平台环境下开发生产创新应用，保障了数据安全可控的定向开放与应用监控。\",\"subDescriptions\":[{\"descriptionText\":\"通过DevOps平台构建一个应用， 将数据安全可控开放给应用开发商\"},{\"descriptionText\":\"支撑应用创新需求快速响应、敏捷开发\"},{\"descriptionText\":\"实现数据应用的管控，支撑数据交易可计量，数据使用可监控\"}]}]}",
+		"templet":"21",
+		"id":"477",
+		"solution_id":"105"
+	},
+	{
+		"txt":"{\"operator\":\"zhouyuqing8\",\"floorName\":\"方案架构\",\"name\":\"architecture-1\",\"data\":[{\"imageUrl\":\"//jdcloud-portal.oss.cn-north-1.jcloudcs.com/www.jcloud.com/36dbe83c-7b7e-487f-bcf3-4d429763649620190227214459.png\",\"title\":\"政务云PaaS平台\",\"descriptionDetail\":\"为解决因信息化建设统筹难导致的信息系统孤岛、协同共享难及数据应用创新难等问题。建设支撑基础设施动态管理与高效利用，业务应用标准化建设与自动化管理，数据资源动态沉淀与深度共享，服务敏捷构建与业务融合协同的新一代一体化支撑平台。形成IT基础架构升级统筹化、系统建设与管理标准化、数据应用与创新可控化、应用与服务构建敏捷化、智能化技术应用服务化、公共业务与组件协同化。为信息化主管部门提供统筹管理新手段，为数据主管部门打造应用创新新机制。统筹建设促进应用创新、优强助弱推动协同发展。\",\"buttons\":{\"name\":\"\",\"link\":\"\",\"classTag\":\"\"}}]}",
+		"templet":"31",
+		"id":"478",
+		"solution_id":"105"
+	},
+	{
+		"txt":"{\"operator\":\"zhouyuqing8\",\"floorName\":\"典型场景\",\"name\":\"scene\",\"data\":[{\"title\":\"政务云PaaS平台\",\"sceneDescription\":\"为解决因信息化建设统筹难导致的信息系统孤岛、协同共享难及数据应用创新难等问题。建设支撑业务应用标准化建设与自动化管理，数据资源动态沉淀与深度共享，服务敏捷构建与业务融合协同的新一代一体化支撑平台。\",\"solution\":\"\",\"selectedProduct\":[],\"tmpSelected\":[],\"buttons\":{\"name\":\"\",\"link\":\"\",\"classTag\":\"\"},\"imageUrl\":\"//jdcloud-portal.oss.cn-north-1.jcloudcs.com/www.jcloud.com/18fb9251-ea3e-4c15-99c4-32f06ed75ec220190227214527.png\",\"showShade\":false},{\"title\":\"智能园区应用支撑平台\",\"sceneDescription\":\"为园区提供常见的智能城市基础应用能力，政府、软件服务商及辖区企业也可以通过直接采用这些应用来实现复杂应用的快速构建。智能城市技术中台作为新一代的数字公共服务基础设施，可以大大提升城市营商“软实力”，加速新兴技术产业聚集，优化产业结构，助力政府数字化转型。\",\"solution\":\"\",\"selectedProduct\":[],\"tmpSelected\":[],\"buttons\":{\"name\":\"\",\"link\":\"\",\"classTag\":\"\"},\"imageUrl\":\"//jdcloud-portal.oss.cn-north-1.jcloudcs.com/www.jcloud.com/3621a4fe-cab2-4948-98ee-89c0338d577c20190227214532.png\",\"showShade\":false},{\"title\":\"数字农业综合支撑平台\",\"sceneDescription\":\"以物联网和互联网为支撑，以优质的云服务平台为保障，帮助企业实现智能化管理。综合支撑各类农业生产管理业务系统，包括现代农业资源管理平台、品质能也质量溯源平台等农业信息化平台、农业物联网平台和智慧农业APP等业务应用。实现管理智能化，流程标准化，降低企业成本，标准化流程提高工作效率和产能效能。提高政府在农业方向的综合管理水平，提高农业主管部门生产决策、资源配置、指挥调度、上下协同、信息反馈等方面的能力\",\"solution\":\"\",\"selectedProduct\":[],\"tmpSelected\":[],\"buttons\":{\"name\":\"\",\"link\":\"\",\"classTag\":\"\"},\"imageUrl\":\"//jdcloud-portal.oss.cn-north-1.jcloudcs.com/www.jcloud.com/2dad615c-428c-46f6-9022-47eeacc7550d20190227214537.png\",\"showShade\":false}]}",
+		"templet":"41",
+		"id":"479",
+		"solution_id":"105"
+	},
+	{
+		"txt":"{\"operator\":\"zhouyuqing8\",\"floorName\":\"优势\",\"name\":\"newTab-1\",\"data\":[{\"showShade\":false,\"imageUrl\":\"//jdcloud-portal.oss.cn-north-1.jcloudcs.com/www.jcloud.com/12be7311-00ac-43ec-92aa-60dad55efa1d20190228145431.png\",\"title\":\"资源的集中管理\",\"description\":\"提供对主机、存储和网络的集中管理，资源的统一分配及应用统一部署，实现IaaS资源的动态替换和互动。\"},{\"showShade\":false,\"imageUrl\":\"//jdcloud-portal.oss.cn-north-1.jcloudcs.com/www.jcloud.com/7a210300-1b47-485e-9a04-2d876631140a20190228145622.png\",\"title\":\"集中化运营监控\",\"description\":\"提供可视化、自动化运维工具，实现对所有项目、租户、集群、资源和应用容器的集中运维与监控。\"},{\"showShade\":false,\"imageUrl\":\"//jdcloud-portal.oss.cn-north-1.jcloudcs.com/www.jcloud.com/1a4a7bfb-4f83-4475-9258-5b8737fcbb9020190228145700.png\",\"title\":\"生产级容器集群的高可靠性\",\"description\":\"实现跨数据中心的容灾切换，保障高可用。\"},{\"showShade\":false,\"imageUrl\":\"//jdcloud-portal.oss.cn-north-1.jcloudcs.com/www.jcloud.com/8fea737b-7872-464e-9f6e-91db5934322720190228145719.png\",\"title\":\"快速启动、低系统资源消耗\",\"description\":\"提供可视化定义发布模板及自动化工具，一键完成发布过程，支持业务不中断的应用灰度发布和滚动升级。\"}]}",
+		"templet":"51",
+		"id":"497",
+		"solution_id":"105"
+	}
+]
