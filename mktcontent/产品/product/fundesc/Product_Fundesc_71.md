@@ -1,0 +1,32 @@
+[
+	{
+		"funcName":"共享带宽",
+		"funcContent":[
+			{
+				"funcName":"",
+				"funcTitle":"通过SNAT实现共享公网IP带宽",
+				"funcP":"多个内网实例可通过一个公网IP出公网，共享带宽。"
+			}
+		]
+	},
+	{
+		"funcName":"安全保障",
+		"funcContent":[
+			{
+				"funcName":"",
+				"funcTitle":"通过NAT地址转换，隐藏内网IP",
+				"funcP":"将内网地址转换为公网地址，隐藏内部网络结构，安全性更高。"
+			}
+		]
+	},
+	{
+		"funcName":"配置灵活",
+		"funcContent":[
+			{
+				"funcName":"",
+				"funcTitle":"支持精细粒度的CIDR，灵活配置网关策略",
+				"funcP":"可配置私有网络下任意网段（非NAT网关所在子网）的CIDR。"
+			}
+		]
+	}
+]
