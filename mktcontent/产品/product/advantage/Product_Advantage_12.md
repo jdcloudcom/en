@@ -1,0 +1,20 @@
+[
+	{
+		"proGoodTitle":"产品优势",
+		"proNameTitle":"子账号管理",
+		"proDiffTitle":"",
+		"proGood":"便捷灵活",
+		"proName":"可视化配置自定义权限策略，支持单个资源的权限分配。",
+		"proDiff":""
+	},
+	{
+		"proGood":"账号安全",
+		"proName":"可以便捷地创建、管理、销毁子账号（组），而无需共享主账号的密码和访问秘钥。",
+		"proDiff":""
+	},
+	{
+		"proGood":"便捷灵活",
+		"proName":"可视化配置自定义权限策略，支持单个资源的权限分配。",
+		"proDiff":""
+	}
+]
