@@ -1,0 +1,42 @@
+[
+	{
+		"funcName":"交易分析，两全其美",
+		"funcContent":[
+			{
+				"funcName":"",
+				"funcTitle":"",
+				"funcP":"提供一站式 HTAP 解决方案，一份数据同时支持 OLTP 和 OLAP 两种场景，无需传统的ETL过程"
+			}
+		]
+	},
+	{
+		"funcName":"部署方便快速",
+		"funcContent":[
+			{
+				"funcName":"",
+				"funcTitle":"",
+				"funcP":"选择规格后下单，几分钟内即可创建 TiDB 实例，可立即投入使用，立即创造价值。"
+			}
+		]
+	},
+	{
+		"funcName":"服务高可用",
+		"funcContent":[
+			{
+				"funcName":"",
+				"funcTitle":"",
+				"funcP":"计算层，存储层，管理层都是多节点的冗余架构，可以实现故障的自动恢复，保证服务可用性。"
+			}
+		]
+	},
+	{
+		"funcName":"线性扩展",
+		"funcContent":[
+			{
+				"funcName":"",
+				"funcTitle":"",
+				"funcP":"只需简单增加节点即可扩展处理能力，存储能力和并发能力"
+			}
+		]
+	}
+]
