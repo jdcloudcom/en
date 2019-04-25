@@ -1,0 +1,32 @@
+[
+	{
+		"funcName":"集群架构高可用",
+		"funcContent":[
+			{
+				"funcName":"",
+				"funcTitle":"支持HA模式",
+				"funcP":"Master为两节点，互为主备模式，且HA实时检测，保障业务高可靠；core节点故障时，region可秒级切换。"
+			}
+		]
+	},
+	{
+		"funcName":"集群弹性扩展",
+		"funcContent":[
+			{
+				"funcName":"",
+				"funcTitle":"支持节点灵活扩容",
+				"funcP":"磁盘及节点可灵活扩容，可轻松扩展到千台规模，满足千万级QPS及数PB存储空间。"
+			}
+		]
+	},
+	{
+		"funcName":"集群防护保障",
+		"funcContent":[
+			{
+				"funcName":"",
+				"funcTitle":"支持权限控制",
+				"funcP":"ACL权限控制，多层网络防护机制，抵御90%恶意数据损毁"
+			}
+		]
+	}
+]
