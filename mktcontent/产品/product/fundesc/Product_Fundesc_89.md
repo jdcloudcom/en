@@ -1,0 +1,22 @@
+[
+	{
+		"funcName":"易分析性",
+		"funcContent":[
+			{
+				"funcName":"",
+				"funcTitle":"数据同步",
+				"funcP":"全量的BTC、ETH主链数据,实时同步到高可用关系型数据库实例。"
+			}
+		]
+	},
+	{
+		"funcName":"高易用性",
+		"funcContent":[
+			{
+				"funcName":"",
+				"funcTitle":"运维便捷",
+				"funcP":"提供实例的各项指标的实时监控及自动警告功能，降低用户运维成本。"
+			}
+		]
+	}
+]
