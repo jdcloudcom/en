@@ -1,0 +1,25 @@
+[
+	{
+		"proGoodTitle":"产品优势",
+		"proNameTitle":"描述",
+		"proDiffTitle":"",
+		"proGood":"兼容生态产品",
+		"proName":"支持phoenix，支持openTSDB",
+		"proDiff":""
+	},
+	{
+		"proGood":"高可靠存储引擎",
+		"proName":"分布式集群架构、至少3副本架构保障数据可靠性。",
+		"proDiff":""
+	},
+	{
+		"proGood":"服务高可用",
+		"proName":"HA实时监控系统，单节点故障迅速转移，保障业务不中断 。",
+		"proDiff":""
+	},
+	{
+		"proGood":"兼容生态产品",
+		"proName":"支持phoenix，支持openTSDB",
+		"proDiff":""
+	}
+]
