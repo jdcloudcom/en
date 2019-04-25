@@ -1,0 +1,25 @@
+[
+	{
+		"proGoodTitle":"产品优势",
+		"proNameTitle":"VPN连接",
+		"proDiffTitle":"",
+		"proGood":"低成本",
+		"proName":"可根据具体业务需求创建、删除VPN隧道，提供灵活的计费方式",
+		"proDiff":""
+	},
+	{
+		"proGood":"操作简单",
+		"proName":"通过控制台操作，流程简单，按需购买，即买即用，方便管理",
+		"proDiff":""
+	},
+	{
+		"proGood":"高安全性",
+		"proName":"使用IPSEC、IKE进行加密通信，安全可靠",
+		"proDiff":""
+	},
+	{
+		"proGood":"低成本",
+		"proName":"可根据具体业务需求创建、删除VPN隧道，提供灵活的计费方式",
+		"proDiff":""
+	}
+]
