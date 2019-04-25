@@ -1,0 +1,92 @@
+[
+	{
+		"funcName":"核心功能",
+		"funcContent":[
+			{
+				"funcName":"",
+				"funcTitle":"发布订阅",
+				"funcP":"生产者可以创建Topic发布多种类型的消息，消费者可以订阅Topic按需进行消费。"
+			},
+			{
+				"funcName":"",
+				"funcTitle":"消息查看",
+				"funcP":"用户可以通过TopicID和MessageID进行消息状态和内容的查看。"
+			},
+			{
+				"funcName":"",
+				"funcTitle":"死信队列",
+				"funcP":"由于多种原因无法成功传递消费的消息都放置在死信队列上，可以进行查看和再次消费。"
+			},
+			{
+				"funcName":"",
+				"funcTitle":"重置消费点位",
+				"funcP":"在消息持久化存储的时间范围内（默认3天），重新设置消息消费进度。"
+			}
+		]
+	},
+	{
+		"funcName":"多样性",
+		"funcContent":[
+			{
+				"funcName":"",
+				"funcTitle":"普通消息",
+				"funcP":"解决业务间异步解耦，流量的削峰填谷，消息通讯等。"
+			},
+			{
+				"funcName":"",
+				"funcTitle":"顺序消息",
+				"funcP":"按照消息的发布顺序进行顺序消费（FIFO）。"
+			},
+			{
+				"funcName":"",
+				"funcTitle":"延时消息",
+				"funcP":"在消息发送时间（当前时间）之后的指定延迟时间点进行投递，比如指定消息发送时间的 5 分钟之后进行投递。"
+			}
+		]
+	},
+	{
+		"funcName":"多协议接入",
+		"funcContent":[
+			{
+				"funcName":"",
+				"funcTitle":"支持HTTP 协议接入",
+				"funcP":"支持Restful API简单方便接入。"
+			},
+			{
+				"funcName":"",
+				"funcTitle":"支持 TCP 协议接入",
+				"funcP":"提供更为专业、可靠、稳定的 TCP 协议的 SDK 接入。\t"
+			}
+		]
+	},
+	{
+		"funcName":"简单易用",
+		"funcContent":[
+			{
+				"funcName":"",
+				"funcTitle":"平滑扩展",
+				"funcP":"支持弹性扩展，可根据业务情况按需增加或者减少资源，提高资源利用率，降低使用成本。"
+			},
+			{
+				"funcName":"",
+				"funcTitle":"开发便利",
+				"funcP":"提供 Web端控制台、API 访问接口和 java SDK，开发简单，易于业务支持和业务迁移。"
+			}
+		]
+	},
+	{
+		"funcName":"安全防护",
+		"funcContent":[
+			{
+				"funcName":"",
+				"funcTitle":"全面监控 ",
+				"funcP":"提供多维度的资源运行状况和性能的监控、稳定性维护等功能，提前预警通知，降低日常维护工作量"
+			},
+			{
+				"funcName":"",
+				"funcTitle":"私有网络",
+				"funcP":"实例运行在私有网络（VPC）中，增强了安全性和隔离性。提供了子网、访问控制策略等限制访问的功能，抵御网络攻击，保护您的业务隐私"
+			}
+		]
+	}
+]
