@@ -1,0 +1,30 @@
+[
+	{
+		"proGoodTitle":"产品优势",
+		"proNameTitle":"描述",
+		"proDiffTitle":"",
+		"proGood":"简单易用",
+		"proName":"支持SQL方式开发流数据处理作业，学习门槛低。",
+		"proDiff":""
+	},
+	{
+		"proGood":"秒级延迟",
+		"proName":"处理流数据所产生的延迟以达到秒级，能够做到实时分析。",
+		"proDiff":""
+	},
+	{
+		"proGood":"完全托管",
+		"proName":"全托管的在线开发平台，自动运行流式处理应用程序，无需任何基础设施。",
+		"proDiff":""
+	},
+	{
+		"proGood":"自动伸缩",
+		"proName":"计算能力可根据作业自动扩展或缩减运行的流式处理应用程序所需的资源。",
+		"proDiff":""
+	},
+	{
+		"proGood":"简单易用",
+		"proName":"支持SQL方式开发流数据处理作业，学习门槛低。",
+		"proDiff":""
+	}
+]
