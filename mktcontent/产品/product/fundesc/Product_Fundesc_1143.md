@@ -1,0 +1,42 @@
+[
+	{
+		"funcName":"企业实名安全认证",
+		"funcContent":[
+			{
+				"funcName":"",
+				"funcTitle":"企业品牌曝光强",
+				"funcP":"展现公司名称 +Logo，极大提升公司品牌曝光度与用户信任感"
+			}
+		]
+	},
+	{
+		"funcName":"一键拨打客服",
+		"funcContent":[
+			{
+				"funcName":"",
+				"funcTitle":"智能菜单一键拨打客服电话",
+				"funcP":"智能菜单可配置客服电话，避免用户查询烦恼。"
+			}
+		]
+	},
+	{
+		"funcName":"智能菜单",
+		"funcContent":[
+			{
+				"funcName":"",
+				"funcTitle":"短信公众号",
+				"funcP":"增加转化，一键到达业务落地页或垂直链接官方服务，操作简单便捷用户体验好。"
+			}
+		]
+	},
+	{
+		"funcName":"数据安全",
+		"funcContent":[
+			{
+				"funcName":"",
+				"funcTitle":"安全防护",
+				"funcP":"多重数据加密，保证客户数据安全以及用户隐私安全，完整的消息发送记录有效抵达。"
+			}
+		]
+	}
+]
