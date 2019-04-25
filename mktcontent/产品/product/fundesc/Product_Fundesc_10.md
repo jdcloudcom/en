@@ -1,0 +1,32 @@
+[
+	{
+		"funcName":"自动防护",
+		"funcContent":[
+			{
+				"funcName":"",
+				"funcTitle":"在您申请公网IP后，为您自动开启DDoS基础防护。",
+				"funcP":"DDoS基础防护基于先进的识别算法，帮助您抵御SYN Flood、ICMP Flood等各种大流量攻击。购买京东云公网IP产品，DDoS基础服务功能即自动开启。使用DDoS基础防护服务后，SYN Flood、UDP Flood等常见的大流量攻击将无法威胁到您业务。"
+			}
+		]
+	},
+	{
+		"funcName":"阈值设置",
+		"funcContent":[
+			{
+				"funcName":"",
+				"funcTitle":"根据实际业务需求，您可以灵活设置清洗触发值。",
+				"funcP":"根据实际业务需求，您可以灵活设置清洗触发值，调整防护策略。在攻击流量超过清洗触发值后，公网IP将触发黑洞状态。"
+			}
+		]
+	},
+	{
+		"funcName":"实时监测",
+		"funcContent":[
+			{
+				"funcName":"",
+				"funcTitle":"对公网IP提供实时的DDoS安全监控",
+				"funcP":"基础防护对公网IP的安全状态进行实时监控，一旦发现攻击，立刻启动防护。"
+			}
+		]
+	}
+]
