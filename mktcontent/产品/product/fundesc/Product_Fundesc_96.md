@@ -1,0 +1,27 @@
+[
+	{
+		"funcName":"容器镜像管理",
+		"funcContent":[
+			{
+				"funcName":"",
+				"funcTitle":"",
+				"funcP":"用户可以根据需求，对容器镜像进行创建、删除、下载。"
+			},
+			{
+				"funcName":"",
+				"funcTitle":"",
+				"funcP":"支持华北-北京、华东-上海、华南-广州三大地域"
+			}
+		]
+	},
+	{
+		"funcName":"集成容器服务",
+		"funcContent":[
+			{
+				"funcName":"",
+				"funcTitle":"",
+				"funcP":"结合原生容器、Kuberntes集群，快速创建容器化应用。"
+			}
+		]
+	}
+]
