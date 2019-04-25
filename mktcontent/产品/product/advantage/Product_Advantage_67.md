@@ -1,0 +1,35 @@
+[
+	{
+		"proGoodTitle":"产品优势",
+		"proNameTitle":"视频直播",
+		"proDiffTitle":"",
+		"proGood":"24小时专家客服",
+		"proName":"提供7*24小时专家客服，随时处理客户问题，保证业务连续",
+		"proDiff":""
+	},
+	{
+		"proGood":"多终端多协议",
+		"proName":"支持RTMP/HDL/HLS协议，PC/iOS/Android多终端视频直播、观看",
+		"proDiff":""
+	},
+	{
+		"proGood":"多行业多场景",
+		"proName":"满足电商、娱乐、在线教育、游戏、金融等多种直播应用场景",
+		"proDiff":""
+	},
+	{
+		"proGood":"专业视频能力",
+		"proName":"提供实时转码、直播录制、直播截图、等丰富功能满足视频直播多种业务需求\n",
+		"proDiff":""
+	},
+	{
+		"proGood":"全面安全防护",
+		"proName":"提供防盗链、鉴权，内容审核等功能，保证直播业务安全",
+		"proDiff":""
+	},
+	{
+		"proGood":"24小时专家客服",
+		"proName":"提供7*24小时专家客服，随时处理客户问题，保证业务连续",
+		"proDiff":""
+	}
+]
