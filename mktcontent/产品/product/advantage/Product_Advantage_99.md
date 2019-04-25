@@ -1,0 +1,30 @@
+[
+	{
+		"proGoodTitle":"产品优势",
+		"proNameTitle":"DDoS防护包",
+		"proDiffTitle":"",
+		"proGood":"计费灵活",
+		"proName":"支持保底+弹性的计费方式。其中弹性部分按实际攻击峰值收费，无攻击不计费。",
+		"proDiff":""
+	},
+	{
+		"proGood":"即买即用，秒级生效",
+		"proName":"无需复杂的产品配置，购买以后，只需几秒钟就能提升防护能力。",
+		"proDiff":""
+	},
+	{
+		"proGood":"强大的DDoS攻击防护能力",
+		"proName":"能够防御各种常见4层DDoS型攻击，包括但不限于SYN Flood、ACK Flood 、ICMP Flood、UDP Flood、TCP Flood。",
+		"proDiff":""
+	},
+	{
+		"proGood":"配置简单，IP地址不用换",
+		"proName":"针对京东云内的公网IP，直接提升防护能力，配置简单，IP地址不用更换。",
+		"proDiff":""
+	},
+	{
+		"proGood":"计费灵活",
+		"proName":"支持保底+弹性的计费方式。其中弹性部分按实际攻击峰值收费，无攻击不计费。",
+		"proDiff":""
+	}
+]
