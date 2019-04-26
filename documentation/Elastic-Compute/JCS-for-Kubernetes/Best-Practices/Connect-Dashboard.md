@@ -3,6 +3,26 @@
 
 JD Cloud JCS for Kubernetes Service has been preset with Dashboard plug-ins.
 
+`
+kubectl get deployments -n kube-system
+`  
+If no Dashboard plug-ins are preset in the cluster, the following commands can be applied to deploy such plug-ins in the cluster:
+
+`
+kubectl apply -f https://kubernetes.s3.cn-north-1.jdcloud-oss.com/dashboard/kubernetes-dashboard.yaml
+`
+
+Output contents are as follows:
+
+```
+secret/kubernetes-dashboard-certs unchanged
+serviceaccount/kubernetes-dashboard unchanged
+role.rbac.authorization.k8s.io/kubernetes-dashboard-minimal unchanged
+rolebinding.rbac.authorization.k8s.io/kubernetes-dashboard-minimal unchanged
+deployment.apps/kubernetes-dashboard configured
+service/kubernetes-dashboard unchanged
+```
+
 ## I. Access to dashboard via the two methods below  
 
 **Method 1: Visit dashboard (https 6443 port) through API server;**  
@@ -72,3 +92,5 @@ kubectl describe secret admin-user-token-b6djq -n kube-system
 
 4. You can also add token information to the config file user item, and then you can choose Kubeconfig for identity authentication.  
 
+
+  [1]: https://docs.jdcloud.com/en/jcs-for-kubernetes/connect-to-cluster

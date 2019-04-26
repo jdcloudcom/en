@@ -1,4 +1,4 @@
-Use Go language environment construction and the example of build.yml is as follows
+Use Go language environment construction and the example of jdcloud-build.yml is as follows
 
   ```
   cmds:

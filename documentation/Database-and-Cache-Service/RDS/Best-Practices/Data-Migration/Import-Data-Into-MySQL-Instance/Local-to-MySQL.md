@@ -22,7 +22,7 @@ It mainly explains how to transfer data from the local self-built MySQL to JCS f
     ```
     
 5. Start creating a VM after exporting the local self-built MySQL data to the local.
-6. See specific steps of VM creation in [Create VM Instance](https://www.jdcloud.com/help/detail/303/isCatalog/1). Pay attention to following matters when creating VM instances.
+6. See specific steps of VM creation in [Create Instance](https://docs.jdcloud.com/en/virtual-machines/create-instance). Pay attention to following matters when creating VM instances.
     * Make sure that VM shares one ***Virtual Private Cloud*** with the JCS for MySQL service created in step 1.
     * A new VM needs a ***Public IP*** for public network access, otherwise local data files cannot be uploaded to the VM.
     * Make sure that ***Network ACL*** of the subnet where the VM exists, allows the local SSH to connect to the VM.

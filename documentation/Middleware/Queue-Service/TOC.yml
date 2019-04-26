@@ -48,7 +48,7 @@
         items:
           - name: Send Message
             href: Operation-Guide/Message-Management/Send-Message.md      
-          - name: Resend Message
+          - name: Receive Messages
             href: Operation-Guide/Message-Management/Consume-Message.md   
       - name: Monitoring Alarm
         items:

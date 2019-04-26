@@ -132,7 +132,7 @@
     items:
     - name: Document History
       href: Related-Resources/Document-History.md
-     - name: Service Terms
+    - name: Service Terms
       href: Related-Resources/Related-Agreement.md  
     - name: ICP Filing
       href: Related-Resources/Filing.md           

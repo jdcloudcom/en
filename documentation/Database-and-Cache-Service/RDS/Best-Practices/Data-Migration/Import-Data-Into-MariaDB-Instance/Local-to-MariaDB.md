@@ -22,7 +22,7 @@ We mainly discuss about how to migrate local self-created MariaDB to JCS for Mar
     ```
     
 5. After local self-created MariaDB data have been exported to local, it should begin to create VM instance next.
-6. Create VM instance, and for specific creation steps, see [Create VM instance](https://www.jdcloud.com/help/detail/303/isCatalog/1), when creating VM instance, the following points need to be concerned
+6. Create VM instance, and for specific creation steps, see [Create instance](https://docs.jdcloud.com/en/virtual-machines/create-instance), when creating VM instance, the following points need to be concerned
     * Please ensure that the virtual machine and the JCS for MariaDB created in step 1 are in the same ***virtual private cloud***.
     * New virtual machine needs a ***Public IP*** to enable public network access, otherwise it cannot upload local data file to the virtual machine.
     * Please ensure that network ***ACL*** of subnet that the virtual machine is located allows local ssh to connect to virtual machine.

@@ -1,4 +1,4 @@
-Use Apache Maven for construction of Java project and the example of build.yml is as follows:
+Use Apache Maven for construction of Java project and the example of jdcloud-build.yml is as follows:
 
 
 ```

@@ -54,7 +54,9 @@
       - name: JCS for Elasticsearch Log
         href: Operation-Guide/eslog.md
       - name: Customized Word Library
-        href: Operation-Guide/dic.md  
+        href: Operation-Guide/dic.md 
+      - name: Coordinator Node
+        href: Operation-Guide/coordination_node.md   
       - name: Snapshot
         items: 
         - name: Create Snapshot
@@ -64,7 +66,9 @@
         - name: Snapshot Specified Index
           href: Operation-Guide/indexsnapshot.md
         - name: Delete Snapshot
-          href: Operation-Guide/deletesnapshot.md 
+          href: Operation-Guide/deletesnapshot.md
+      - name: IAM
+        href: Operation-Guide/control.md
       - name: Kibana
         href: Operation-Guide/Kibana.md 
       - name: Monitor Cluster

@@ -95,6 +95,10 @@
            href: Best-Practices/Create-Pod/Create-Pod-InKubernetes.md
      - name: Deploy Helm
        href: Best-Practices/Deploy-Helm.md
+     - name: Run Istio on JCS for Kubernetes
+       href: Best-Practices/Deploy-istio.md
+     - name: Use Object Storage Service Bucket as the shared storage
+       href: Best-Practices/Oss-s3fs-volume.md
   - name: FAQ  
     href: Common-Problem.md
   - name: Related Resources

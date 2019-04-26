@@ -1,4 +1,4 @@
-Use Npm Software Package Management System to manage software packages and the example of build.yml is as follows:
+Use Npm Software Package Management System to manage software packages and the example of jdcloud-build.yml is as follows:
 
 ```
 cmds:

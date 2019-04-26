@@ -144,9 +144,11 @@ To effectively ensure your legitimate rights and interests to use this service, 
 
 (2) any breach or attempt to breach network security, etc. shall not occur.
 
+(3) You are not allowed to transmit any cross-border illegal information, not subject to network audit and ICP filing, with technical means through the service of JD Cloud.
+
 #### 4.5.3. you and your affiliates are not those subject to trade restrictions, sanctions or other legal restrictions imposed by any State, international organization or region.
 
-If you violate the above warranty, JD Cloud has the right to take measures to delete the information, suspend the service and terminate the service according to the relevant service clauses, and to limit some or all of the functions of your account, such as new purchase product or service, renewal, etc. If any loss is caused to JD Cloud due to your aforementioned behavior, you shall compensate for it.
+For any violation of the aforementioned guarantees, JD Cloud shall be entitled to take measures such as deleting information, suspending service or terminating service according to relevant Services Terms and to restrict the functions of your account in part or in whole, such as purchase new product or service and renewal. For the suspected unlawful acts, JD Cloud will report to relevant judicial supervision authorities. You shall cover the loss of JD Cloud incurred due to your behavior as mentioned above (if any).
 
 4.6 If the service you use contains downloadable JD Cloud software, JD Cloud only grants you personal use license for non-exclusive, non-transferable, non-commercial purpose. Unless otherwise indicated or agreed with you by JD Cloud, you shall not copy, modify, publish, sell or lease the service or any part of the software contained, nor shall you reverse-engineer or attempt to extract the source code of the software.
 
@@ -288,4 +290,4 @@ JD Cloud shall not be liable for damages in case the system fails to operate nor
 ### 12. Law Application and Jurisdiction
 The validity, interpretation, change, execution and dispute resolution of the terms of this service apply to the laws of the People's Republic of China. Any dispute arising from the terms of this service shall be settled in accordance with the laws of the People's Republic of China and submitted to the people's court with jurisdiction in Daxing District, Beijing where the contract is signed.
 
-[JD Cloud User Service Agreement-PDF Download](https://docs-downloads.oss.cn-north-1.jcloudcs.com/Service-Agreement-pdf.pdf)
+[JD Cloud User Service Agreement-PDF Download](https://github.com/jdcloudcom/cn/blob/edit/image/Service-Agreements-and-Guarantees/Platform-Agreement/service-agreement.pdf)

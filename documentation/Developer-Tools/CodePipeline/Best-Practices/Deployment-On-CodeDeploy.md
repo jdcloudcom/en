@@ -80,7 +80,7 @@ The detailed operation steps are as follows:
 
 2. Configure Source Code
 
-  The default stage name is source code; add the atomic operation of source code. Select JD Cloud - CodeCommit in atomic operation, and select example code JDCloud-Codebuild/hello-java.
+  The default stage name is source code; add the operation of source code. Select JD Cloud - CodeCommit in atomic operation, and select example code JDCloud-Codebuild/hello-java.
   
    ![](/image/codepipeline/source-best2.PNG)
 
@@ -120,7 +120,7 @@ The detailed operation steps are as follows:
 -  Deployment Command: Provide deployment commands, select Enter Deployment Operating Command, and paste the following command in yaml:
 
  ```
- files:
+files:
   - source: /
     destination: /home/demo
 hooks:

@@ -25,10 +25,10 @@ The configuration center updates the configuration files, and sends the message 
 
 ![Broadcast](https://github.com/jdcloudcom/en/blob/translationUse/image/Internet-Middleware/Message-Queue/03.png)
 
-## Reliable Message Delivery
-The receiver may not accept the requests from upstream systems for various reasons, such as network, power failure or high load. Synchronous writing and triple copy backup of MQ can store requests to ensure reliable transmission of messages and ensure the reliability of information.
+## Asynchronous and Reliable Information Transmission
+Receivers may response requests sent by the upstream system after a long time and may not be able to receive such requests because of network, outage, overload and other reasons, while the synchronous writing and three-copy backup of message queue can store the requests to guarantee asynchronous and reliable transmission of messages and timeliness and reliability of requests.</br>
 Scenario: Transfer of funds</br>
-When a mass of transactions occur, the actual transaction system may not change the account values yet, but the transaction operation records will be saved for a long time until they are successfully completed.
+When a mass of transactions occur, the actual transaction system may not change the account values yet, but the transaction operation records will be saved for a long time and asynchronous system treatment is allowed until transactions are successfully completed.
 
 
 ![Reliable Message Delivery](https://github.com/jdcloudcom/en/blob/translationUse/image/Internet-Middleware/Message-Queue/04.png)

@@ -352,7 +352,9 @@ items:
        - name: Compatible S3 SDK-.NET
          href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-NET.md 
        - name: Compatible to S3 SDK-Node.js
-         href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-Nodejs.md     
+         href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-Nodejs.md
+       - name: Compatible with S3 SDK-Ruby
+         href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-Ruby.md     
        - name: Previous Version Java SDK (Not Recommended)
          items:
            - name: Installation

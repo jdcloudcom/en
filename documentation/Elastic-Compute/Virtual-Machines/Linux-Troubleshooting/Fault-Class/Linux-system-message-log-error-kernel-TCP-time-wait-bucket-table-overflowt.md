@@ -1,4 +1,4 @@
-# Linux system message log error: kernel: TCP: time wait bucket table overflowt
+# Linux system message log error: kernel: TCP: time wait bucket table overflow
 
 
 

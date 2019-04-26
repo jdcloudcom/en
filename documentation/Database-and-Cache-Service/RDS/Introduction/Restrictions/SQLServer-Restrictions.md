@@ -17,7 +17,6 @@ In order to ensure the stability and security of instances, JCS for SQL Server h
 2. However, some functions do not support sub-accounts, for example:
 - SQL Server instance cannot be created.
 - Renewals are not supported.
-- Monitoring pages cannot be viewed.
 - Databases cannot be logged in through DMS.
 
 # III. Quantitative Limit

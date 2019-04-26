@@ -39,7 +39,7 @@ See the price in the table below, and the specific price is subject to the conso
 |16-core 64GB|1600|7168|16.32|
 |16-core 64GB|2000|7488|17.04|
 
-### Read-only JCS for MySQL Instance
+## Read-only JCS for MySQL Instance
 |Instance Type|Storage Space (GB)|Pay by Configuration (RMB/Hour)|
 |---|---|---|
 |1-core 1GB|20|0.13|
@@ -115,7 +115,7 @@ See the price in the table below, and the specific price is subject to the conso
 |16-core 64GB|1600|6592|15.04|
 |16-core 64GB|2000|6912|15.76|
 
-### Read-only JCS for Percona Instance 
+## Read-only JCS for Percona Instance 
 |Instance Type|Storage Space (GB)|Pay by Configuration (RMB/Hour)|
 |---|---|---|
 |1-core 1GB|20|0.11|
@@ -247,7 +247,7 @@ See the price in the table below, and the specific price is subject to the conso
 |16-core 64GB|1000|16160|33.67|
 |16-core 64GB|1200|16320|34.00|
 |16-core 64GB|1600|16640|34.67|
-|16-core 64GB|2000|16960|36.00|
+|16-core 64GB|2000|16960|35.33|
 
 ## PostgreSQL 
 |Instance Type|Storage Space (GB)|Monthly Package (RMB/Month)|Pay by Configuration(RMB/Hour)|
