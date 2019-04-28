@@ -941,7 +941,7 @@
 	{
 		"sub_title":"随时随地触达京东云，7*24小时的全面监控",
 		"image_Url":"//img1.jcloudcs.com/cms/f08434ad-7c1d-44c4-be04-eef585808f5320190415112503.jpg",
-		"dynamic_image":"//img1.jcloudcs.com/cms/2e1a9703-f946-4357-9b17-e7eb4fcd4e6920190415112514.png",
+		"dynamic_image":"//img1.jcloudcs.com/cms/67c3d20f-b68a-4463-8d80-981cf5cca14420190428155332.png",
 		"name":"APPiOS上架",
 		"id":"1084",
 		"button_title":"查看详情",
