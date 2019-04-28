@@ -1,6 +1,6 @@
 # Purchase Process
 ## Usage Restrictions
-To ensure that the instance can be created smoothly, please check the instance service limits carefully before purchasing it. For details, please refer to [Service Limits](../Introduction/Limits.md).
+To ensure that the instance can be created smoothly, please check the instance service limits carefully before purchasing it. For details, please refer to [Service Limits](../Introduction/Restrictions.md).
 ## Precondition
 ### Account Preparation
 Before you start creating an instance, you need to complete the registration of JD Cloud account and real-name verification, and get ready to pay for resources to be purchased.

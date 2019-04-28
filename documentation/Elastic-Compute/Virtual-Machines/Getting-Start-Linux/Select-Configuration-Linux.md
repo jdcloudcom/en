@@ -20,7 +20,7 @@ After you have successfully registered an account and completed real-name verifi
    
    * Create Customized Instance: customize all instance configuration items.
    * Create Instance by Instance Template: quickly create an instance based on the preset configuration of the established instance template. Please see [Instance Template](../Operation-Guide/Instance-Template/Instance-Template-Overview.md) for details.
-   * Create Instance in Availability Group: quickly create an instance based on the available zone and instance template specified by the established Availability Group. Please see [Availability Group](../../Availability-Group/Introduction/Overview.md) for details.
+   * Create Instance in Availability Group: quickly create an instance based on the available zone and instance template specified by the established Availability Group. Please see [Availability Group](../../Availability-Group/Introduction/Product-Overview.md) for details.
 
 * Image:
 

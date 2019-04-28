@@ -336,7 +336,7 @@ items:
       - name: Following Error Occurs during SSH Connection： error Could not get shadow infromation for root
         href: Linux-Troubleshooting/Fault-Class/SSH-connection-error.md
       - name: Errors Below Arising during SSH Connection： pam_limits(sshd： session)： could not sent limit for 'nofile'
-        href: Linux-Troubleshooting/Fault-Class/SSH-connection-Error.md
+        href: Linux-Troubleshooting/Fault-Class/SSH-connection-error.md
       - name: Following Error Occurs during SSH Connection： pam_unix(sshdsession) session closed for user
         href: Linux-Troubleshooting/Fault-Class/SSH-connection-error-session-closed.md
       - name: Following Error Occurs during SSH Login： Disconnected：No supported authentication methods available
