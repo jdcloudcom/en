@@ -1,10 +1,6 @@
 # Open Beta Test Description
 
-The TiDB Service will be subject to open beta test in **cn-north-1** region in a way of limiting the amount in July 2, 2018. During the open beta test period, the free test is provided to the user. Please click **Open Beta Test Application**(http://answer.jd.com/jump/?shortCode=kCfLJFwLCGYr&surveyId=1587919 "Open Beta Test Application")
-
-The application will be reviewed within three working days. Then, a professional expert will contact you to confirm the deployment architecture and use method most suitable to your business scenarios and to provide test suggestions and technical guide to you.
-
-As the test resources are finite, we feel greatly regretful for the failure to carry out each user’s test application.
+As test resources are limited, application for TiDB Beta will be suspended since now and will be resumed in the mid-to-late of May as estimated. Thank you for your concern.
 
 The open specification during the open beta test is as follows, with the node count nonadjustable temporarily
 

@@ -57,3 +57,7 @@
                     href: Operation-Guide/Copy.md
                   - name: Delete
                     href: Operation-Guide/Delete.md
+  - name: Best Practices
+    items:
+          - name: Build images and store them to Repository
+            href: Best-Practices/Build-Image-Container.md

@@ -6,7 +6,7 @@ Bandwidth Query
 
 Description:
 
-* In the conversion, the unit of bandwidth traffic statistics is either divided by 1000 or 1024, depending on the negotiation between the parties. If the parties consider the unit shall be divided by 1000, the conversion of unit of bandwidth traffic statistics shall be subject to 1000, otherwise the conversion unit is 1024 by default;
+* In the conversion, the unit of bandwidth traffic statistics is either divided by 1000 or 1024, depending on the negotiation between the parties. If the parties consider the unit shall be divided by 1024, the conversion of unit of bandwidth traffic statistics shall be subject to 1024, otherwise the conversion unit is 1000 by default;
 
 * The bandwidth value range of granularity in five minutes is the value in the preceding five minutes from current time point, e.g.: For data at the time point of 13:25, the time range of value is the data from 13:20 to 13:25;
 

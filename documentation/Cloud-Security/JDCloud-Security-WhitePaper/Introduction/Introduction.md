@@ -6,4 +6,4 @@ JD Cloud is an integrated service provider for full-platform cloud computing und
 
 The following is the current overall architecture of cloud computing of JD Cloud formed based on the business practices over years
 
-! [Figure 1 Products and Service Architectures of JD Cloud](https://github.com/jdcloudcom/cn/blob/edit/image/Security-Information/product3.jpg)
+![Figure 1 Products and Service Architectures of JD Cloud](https://github.com/jdcloudcom/cn/blob/edit/image/Security-Information/product3.jpg)

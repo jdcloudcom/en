@@ -28,7 +28,7 @@ The format requirements for key shall be as follows:
    - Fill in the certificate contents: replicate the certificate contents. Click **Example Reference** to view the correct certificate format.
    - Fill in the private key: replicate the private key of the certificate. Click **Example Reference** to view the correct private key format.
 
-    ! [ALB list page](../../../../image/Networking/ALB/ALB-109.png)
+    ![ALB list page](../../../../image/Networking/ALB/ALB-109.png)
 
 3. Click the **Confirm to Submit** button to complete the operation of uploading the certificate and private key.
 ## Delete Certificate

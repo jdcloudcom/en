@@ -5,7 +5,7 @@ When you want to get the backup data of Cloud Database PostgreSQL Instance, JD C
 * The Intranet address and Internet network address have a valid period. If the expiration date is due, the download button needs to be clicked to generate a download pop-up box to obtain a new address.
 
 ## Operation Steps
-1. Login [Cloud Database RDS Console] (https://rds-console.jdcloud.com/database).
+1. Login [Cloud Database RDS Console](https://rds-console.jdcloud.com/database).
 2. Select the target instance of which the backup data needs to be downloaded, click target instance name to enter Instance Details page.
 3. Select the ***Backup Management*** tag, select the backup data you want to download, and click ***Download*** in the bar of ***Operations***.
 4. Backup download pop-up box parameter description

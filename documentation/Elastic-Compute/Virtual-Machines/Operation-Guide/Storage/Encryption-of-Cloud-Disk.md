@@ -8,7 +8,7 @@ JD Cloud is responsible for maintenance and management of the key pair used for 
 You can create the Cloud Disk Service with encryption attribute via the methods below
 
 * Before creating the instance, please select a Generation II and above instance type (the machine of the Generation I instance type does not support the attaching of the encrypted Cloud Disk Service). Please check the encryption option before creating a null data disk. For details, please refer to [Create Instance](../Instance/Create-Instance.md);
-* In case of solely [Create Cloud Disk Service] (http://docs.jdcloud.com/cn/cloud-disk-service/create-cloud-disk), please check the encryption option;
+* In case of solely [Create Cloud Disk Service](http://docs.jdcloud.com/cn/cloud-disk-service/create-cloud-disk), please check the encryption option;
 * [Create Cloud Disk Service from Snapshot](http://docs.jdcloud.com/cn/cloud-disk-service/create-disk-by-snapshot), if the selected snapshot is encrypted, the created cloud disk is encrypted certainly.
 
 		Note:

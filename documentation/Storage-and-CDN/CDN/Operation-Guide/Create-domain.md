@@ -12,7 +12,7 @@
 
   Domain name filling characters only support 26 English letters, 10 Arabic numerals and the horizontal bar “-”'*’;
 
-  Supporting extensive domain names, up to level 4 extensive domain names, such as “*.*.jdcloud.com”;
+  Support Extensive Domain, do not support the domain addition of domain and sub-domain with the same content. For example, if you have added the Extensive Domain *.a.com, it is not supported to add c.b.a.com or b.a.com;
 
   Supporting adding up to 100 accelerated domain names. If there are more domain name acceleration demands, please open online tickets.
 

@@ -89,6 +89,10 @@
             href: Best-Practices/Deploy-Applications/Deploy-Service.md
      - name: Create native container Pod
        items:
+         -  name: Deploy Nginx-ingress controller
+            href: Best-Practices/Ingress/Deploy-Ingress-NGINX-Controller.md
+     - name: Create native container Pod
+       items:
          - name: Deploy Virtual-Kubelet
            href: Best-Practices/Create-Pod/Deploy-Virtual-Kubelet.md
          - name: Create Pod in JCS for Kubernetes

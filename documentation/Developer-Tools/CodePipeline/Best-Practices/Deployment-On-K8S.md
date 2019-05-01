@@ -44,9 +44,7 @@ Please clone the example code to the CodeCommit and the address of the CodeCommi
  6. Repository URI and registry URI/repository name are automatically produced  
  7. Click **OK  
 
-**III. Output of Tokens Effective for a Long Time**
 
-Please refer to [Automatically and Periodically Get Tokens Effective for a Long Term](../../../Elastic-Compute/VContainer-Registry/Best-Practices/Deploy-Application.md).
 
 
 ### Create compilation task in the CodeBuild
@@ -56,7 +54,7 @@ Create a new task in the CodeBuild, with specific information as below:
 -  Application name: Golang-Demo
 -  Compile images: golang/golang:1.12
 -  Code source: JD Cloud-CodeCommit
--  Codebase: Select an example code, JDCloud-Codebuild/golang-demo
+-  Codebase: Select an example code, devops-demo/golang-demo
 -  Branch: master
 -  Building command: Insert building commands as follows
  ```
@@ -81,13 +79,13 @@ out_dir: 'output'
 
 Save, to complete the preparation of CodeBuild task.
 
-     ![](/image/codepipeline/best-k8s-build.PNG)
-     
-     ![](/image/codepipeline/best-k8s-build2.PNG)
+
+![](/image/codepipeline/best-ct.PNG)
+	
 
 ### Building clusters in JCS for Kubernetes
 
- 1. Open the Console and select [Elastic Compute>>JCS for Kubernetes>>Cluster Service>>Cluster] (https://cns-console.jdcloud.com/host/kubernetes/list)   
+ 1. Open the Console and select [Elastic Compute>>JCS for Kubernetes>>Cluster Service>>Cluster](https://cns-console.jdcloud.com/host/kubernetes/list)   
  ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/JCS-for-Kubernetes/新建Kubernetes集群集群信息.png)  
  
  2. Select a region for creation, click **Create**. It is suggested that the region and availability zone where the selected cluster is located shall be selected according to specific business conditions; by default, all availability zones under the specified region are selected and it is suggested to follow the default mode; or, any selected availability zone can be canceled, but it shall ensure at least one availability zone shall be selected.  
@@ -124,6 +122,14 @@ Tag: Set labels added to working nodes; the key consists of a prefix and the nam
 
 15. After completing relevant settings, click **OK** to enter Elastic Compute>>JCS for Kubernetes>>Cluster Service>>Cluster and view created JCS for Kubernetes. Generally, creation process only requires a few minutes. Please wait with patience.
 
+
+
+**Output of Tokens Effective for a Long Time**
+
+Please refer to [Automatically and Periodically Get Tokens Effective for a Long Term](../../../Elastic-Compute/Container-Registry/Best-Practices/Deploy-Application.md).
+
+
+
 ### Create CodePipeline
 
 The detailed operation steps are shown as below:
@@ -134,7 +140,7 @@ The detailed operation steps are shown as below:
 
 2. Configure Source Codes
 
-  The default stage name is the source code and add the source code. Select JD Cloud - CodeCommit during operation, and select the example code JDCloud-Codebuild/golang-demo.
+  The default stage name is the source code and add the source code. Select JD Cloud - CodeCommit during operation, and select the example code devops-demo/golang-demo.
   
    ![](/image/codepipeline/best-k8s-source.PNG)
 
@@ -159,7 +165,7 @@ The detailed operation steps are shown as below:
  
   The default stage name is Deployment stage, add deployed operation.  
  
-     ![](/image/codepipeline/best-k8s-deploy.PNG)
+   ![](/image/codepipeline/best-k8s-deploy.PNG)
      
 -  Operation type: Deployment
 -  Operation name: Use the default name only
@@ -173,7 +179,7 @@ The detailed operation steps are shown as below:
 -  Manual confirmation: If manual confirmation is selected, the operation will be executed after the user clicks **Confirm**.
 
  
-4. To successfully access deployment applications, please add a Load Balancer service to such deployment in the k8s cluster page.  
+4. To successfully access deployment applications, please add the Load Balancer service to such deployment in the JCS for Kubernetes-Service Page.  
 
 Create yaml as follows:
 
@@ -189,7 +195,7 @@ Create yaml as follows:
 	  ports:
 	    - protocol: TCP
 	      port: 80
-	      targetPort: 8080
+	      targetPort: 8088
 	      nodePort: 30190
 	  selector:
 	    app: golang-deployment
@@ -201,8 +207,8 @@ Create yaml as follows:
  
 Save and release.
 
-Effects of successfully released applications with Public IP: 8080 access are as follows:
+Effects of successfully released applications with Public IP: 8088 access are as follows:
 
- ![](/image/codepipeline/success.PNG)
+![](/image/codepipeline/best-success.PNG)
 
 

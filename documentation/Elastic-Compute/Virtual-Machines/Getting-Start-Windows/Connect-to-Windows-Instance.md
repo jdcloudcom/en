@@ -18,7 +18,7 @@ After purchasing and launching an instance of Windows type, you can choose to lo
    </tr>
    <tr>  
       <td> Mac OS    </td>
-      <td> VNC Login<br>rdesktop Login </td>
+      <td> VNC Login<br>Remote Desktop Login </td>
    </tr>
 </table>
 
@@ -77,6 +77,22 @@ configuration of the subnet to ensure that the port 3389 of instance is open. Af
 ```
 rdesktop -u administrator -p <Instance login password> <Instance EIP address>
 ```
+
+## The local is MAC and Windows instances can be logged in via the remote desktop
+Taking Remote Desktop officially provided by Microsoft, the example illustrates how to remotely log in Windows instances by local MAC OS. Please go to [HockeyApp](https://rink.hockeyapp.net/apps/5e0c144289a51fca2d3bfa39ce7f2b06/) to download Remote Desktop and confirm if the current system version supports the same before download.
+
+1. Run Microsoft Remote Desktop and click **Add Desktop**.
+![](../../../../image/vm/Getting-Start-Windows-Connect-Windows-mac1.png)
+
+2. Enter Public IP Address of windows instances in the pop-up window and click **Add** to add and save the address.
+![](../../../../image/vm/Getting-Start-Windows-Connect-Windows-mac2.png)
+
+3. After addition is completed, the instance can be found via the Public IP Address in “saved Desktop”, click the icon, and enter user name and password. The default user name of Windows instance is administrator. Then, click **Done** to connect instances.
+![](../../../../image/vm/Getting-Start-Windows-Connect-Windows-mac3.png)
+![](../../../../image/vm/Getting-Start-Windows-Connect-Windows-mac4.png)
+
+4. After first connection, the instance icon intended for connection can be directly found and selected or connection again. Click **Connect** in the window setting icon, enter login information and connect.
+
 
 ## Related Reference
 

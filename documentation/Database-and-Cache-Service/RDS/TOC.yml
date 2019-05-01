@@ -44,7 +44,17 @@
       - name: Billing Rules
         href: Pricing/Billing-Rules.md
       - name: Price Overview
-        href: Pricing/Price-Overview.md
+        items:
+          - name: MySQL Price
+            href: Pricing/Price-Overview/MySQL-Price.md
+          - name: Percona Price
+            href: Pricing/Price-Overview/Percona-Price.md
+          - name: MariaDB Price
+            href: Pricing/Price-Overview/MariaDB-Price.md
+          - name: SQL Server Price
+            href: Pricing/Price-Overview/SQL-Server-Price.md
+          - name: PostgreSQL Price
+            href: Pricing/Price-Overview/PostgreSQL-Price.md            
       - name: Purchase Process
         href: Pricing/Purchase-Procedure.md
       - name: Renew Process
@@ -169,6 +179,14 @@
               href: Operation-Guide/Backup/Restore-Instance/MariaDB-Backup-Restore.md
             - name: JCS for SQL Server Backup Recovery
               herf: Operation-Guide/Backup/Restore-Instance/SQLServer-Backup-Restore.md
+          - name: Create based on backup
+            items:
+            - name: Created by SQL Server based on backup
+              herf: Operation-Guide/Backup/Create-From-Backup/SQLServer-Create-From-Backup.md
+          - name: Create based on time point
+            items:
+            - name: Created by SQL Server based on time point
+              herf: Operation-Guide/Backup/Create-To-Point-In-Time/SQLServer-Create-To-Point-In-Time.md                  
           - name: Delete Backup
             href: Operation-Guide/Backup/Delete-Backup.md
             

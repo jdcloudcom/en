@@ -2,7 +2,7 @@
 Before using the database, you need to create an account in the JCS for MySQL instance. You can't manage the database account by SQL statement but only by actions on console.
 
 ## Operation Steps 
-1. Login [Cloud Database RDS Console] (https://rds-console.jdcloud.com/database).
+1. Login [Cloud Database RDS Console](https://rds-console.jdcloud.com/database).
 2. Select the target instance needs to create account and click the target instance to enter the Details of the instance.
 3. Select ***Account Management*** tag to open the Account Management page; click ***Create Account*** button. The parameters in the Create Account popup are described as below:
     * Database account and password: we have reserved some keyword names for database accounts for your reference [Restrictions](../../../Introduction/Restrictions/MySQL-Restrictions.md) and the length and characters of the account and password have some limits which are subject to the Console.

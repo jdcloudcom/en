@@ -8,12 +8,13 @@ Ingress is an entry for access of internal cluster service from external of JCS 
    --|-----|--
    [ Services ]
   ```
-Ingress controller is responsible for realizing Ingress. Ingress controller will not be automatically started in JCS for Kubernetes by default and you may deploy the customized Ingress Controller of any type in one pod. Taking ginx-ingress controller as an example, this document specifies deployment of Controller and definition of Ingress. For more details of external Ingresss Controller, please refer to [Official Document of Kubernetes](https://kubernetes.io/docs/concepts/services-networking/ingress-controllers/).
+Ingress controller is responsible for realizing Ingress. Ingress controller will not be automatically started in JCS for Kubernetes by default and you may deploy the customized Ingress Controller of any type in one pod. Taking Nginx-ingress controller as an example, this document specifies deployment of Controller and definition of Ingress. For more details of external Ingresss Controller, please refer to [Official Document of Kubernetes](https://kubernetes.io/docs/concepts/services-networking/ingress-controllers/).
 
 I. Environment Preparation
 1. Download the latest installation deployment file of nginx-ingress controller from github and decompress the deployment file to the local directory:
 
     ```
+    
     wget https://github.com/nginxinc/kubernetes-ingress/archive/v1.4.5.tar.gz
 
     tar -zxvf v1.4.5.tar.gz
@@ -65,6 +66,7 @@ II. Installation of nginx-ingress controller
 6. Execute the following commands and confirm if Deployment configured with nginx-ingress controller is normally running:
 
     ```
+    
     kubectl get deployment -n nginx-ingress
 
     NAME            DESIRED   CURRENT   UP-TO-DATE   AVAILABLE   AGE
@@ -73,6 +75,7 @@ II. Installation of nginx-ingress controller
 7. In JCS for Kubernetes, each Pod has one unique internal IP Address, but Pod in Deployment can be deleted or created at any time, causing continuous change of Pod IP Address. As a result, it needs to create one Service to expose applications in Pod to the external. Service has the unique fixed IP Address and can provide Load Balancer to the member Pod added at the backend. You can use Service of the LoadBalance type in JCS for Kubernetes of JD Cloud to associate and create one Application Load Balancer for Service, and expose the nginx-ingress controller application associated with the Service backend via the Public IP associated via the Load Balancer to the public network:
 
     ```
+    
     apiVersion: v1
     kind: Service
     metadata:
@@ -97,11 +100,13 @@ II. Installation of nginx-ingress controller
     Define the above Service to the Yaml file and create corresponding Service by executing the following commands:
 
     ```
+    
     kubectl create -f X.yaml        # Please use corresponding Yaml file name to replace X.yaml
     ```
 8. Wait for a time period, confirm if Service has been configured and get the field External IP configured on Service
 
     ```
+    
     kubectl get svc -n nginx-ingress
 
     NAME            TYPE           CLUSTER-IP    EXTERNAL-IP    PORT(S)                      AGE
@@ -112,6 +117,7 @@ II. Installation of nginx-ingress controller
 9. At last, add one environment variable pair "-args -external-service=nginx-ingress" in the Deployment file nginx-ingress.yaml of Ingress Controller, configure Ingress Controller to use External IP related to Service name as public network entry IP:
 
     ```
+    
     args:
       - -nginx-configmaps=$(POD_NAMESPACE)/nginx-config
       - -default-server-tls-secret=$(POD_NAMESPACE)/default-server-secret
@@ -122,6 +128,7 @@ II. Installation of nginx-ingress controller
 10. Execute the following commands to confirm if the Pod related to nginx-ingress controller is running normally, and then deployment of nginx ingress controller is completed:
 
     ```
+    
     kubectl get pod -n nginx-ingress
 
     Output result:
@@ -135,6 +142,7 @@ III. Example Application
 1. Deploy one Deployment in clusters, run one Nginx webserver and return name of pod Virtual Machines, IP Address, port, request URI and local time of server. For details, please refer to the following Yaml files:
 
     ```
+    
     apiVersion: apps/v1
     kind: Deployment
     metadata:
@@ -159,7 +167,8 @@ III. Example Application
     ```
 2. Execute the commands below to deploy the above Deployment to clusters:
     ```
-    Please use corresponding Yaml file name to replace kubectl create -f X.yaml        # X.yaml
+    
+    kubectl create -f X.yaml        # X.yaml Please use corresponding Yaml file name to replace 
 
     kubectl get deployment nginx-deployment
     NAME               DESIRED   CURRENT   UP-TO-DATE   AVAILABLE   AGE
@@ -168,6 +177,7 @@ III. Example Application
 3. Create one service of nodeport type and expose applications deployed in deployment (created in step 1):
 
     ```
+    
     kubectl expose deployment nginx-deployment --target-port=80 --port=60000 --protocol=TCP --name=servicetest-jdcloud --type=NodePort
     
     kubectl get svc servicetest-jdcloud
@@ -178,12 +188,13 @@ III. Example Application
 4. Create one ingress resouce and use service created in step 2 as the backend of ingress:
 
     ```
+    
     apiVersion: extensions/v1beta1
     kind: Ingress
     metadata:
       name: k8s-app-monitor-agent-ingress
       annotations:
-        metadata.annotations.kubernetes.io/ingress.class: "nginx"
+        metadata.annotations.kubernetes.io/ingress.class: "nginx "     # designates Ingress Controller used for creating Ingress Resource, and Nginx Controller created above is used for this instance
     spec:
       rules:
       - host: k8s-ingress-nginx-controller-test.jdcloud
@@ -198,7 +209,8 @@ III. Example Application
 5. Execute the commands below to deploy the above ingress resource to clusters:
 
     ```
-    Please use corresponding Yaml file name to replace kubectl create -f X.yaml        # X.yaml
+    
+    kubectl create -f X.yaml        # X.yaml Please use corresponding Yaml file name to replace 
 
     kubectl get ingress k8s-app-monitor-agent-ingress
     NAME                            HOSTS                                       ADDRESS   PORTS   AGE

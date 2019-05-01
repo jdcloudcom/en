@@ -15,13 +15,22 @@ cn-south-1 |monitor.cn-south-1.jdcloud-api.com
 cn-east-1 |monitor.cn-east-1.jdcloud-api.com
 cn-east-2 |monitor.cn-east-2.jdcloud-api.com
 
-3. Support batch reporting mode. A single request can contain up to 50 data points; the data size shall not exceed 256k.
+3. Intranet Domain  
+
+Region | Domain
+---|---
+cn-north-1|monitor.internal.cn-north-1.jdcloud-api.com
+cn-south-1 |monitor.internal.cn-south-1.jdcloud-api.com
+cn-east-1 |monitor.internal.cn-east-1.jdcloud-api.com
+cn-east-2 |monitor.internal.cn-east-2.jdcloud-api.com
+
+4. Support batch reporting mode. A single request can contain up to 50 data points; the data size shall not exceed 256k.
 
 Note: For Getting Started Guide on OpenAPI, please see the <a href="https://github.com/jdcloudcom/en/blob/translationUse/API/Common-Declaration/Introduction.md">public description</a>
 
 ### Request Method
 
-POST   https://{Public Network Domain name}/v1/customMetrics
+POST   https://{Domain name}/v1/customMetrics
 
 For example: POST    https://monitor.cn-north-1.jdcloud-api.com/v1/customMetrics
 
@@ -156,8 +165,8 @@ vi /root/.jdc/config
 
 ```
 [default]
-access_key = 4332FC1AF6D790660EEC9A7E4124380F
-secret_key = E1380087654E1CB0E64AB8A5536E568E
+access_key = YourAccessKeyID
+secret_key = YourAccessKeySecret
 region_id = cn-north-1
 endpoint = monitor.cn-north-1.jdcloud-api.com
 scheme = https
@@ -165,12 +174,12 @@ timeout = 20
 ```  
 The region_id of different regions and reported gateway endpoint addresses are as follows:  
 
-Region |region_id |endpoint
----|---|---
-cn-north-1 |cn-north-1| monitor.cn-north-1.jdcloud-api.com
-cn-south-1 |cn-south-1| monitor.cn-south-1.jdcloud-api.com
-cn-east-1 |cn-east-1 |monitor.cn-east-1.jdcloud-api.com
-cn-east-2 |cn-east-2 | monitor.cn-east-2.jdcloud-api.com
+Region |region_id |Public Network endpoint|Intranet endpoint
+---|---|---|---
+cn-north-1 |cn-north-1| monitor.cn-north-1.jdcloud-api.com |monitor.internal.cn-north-1.jdcloud-api.com
+cn-south-1 |cn-south-1| monitor.cn-south-1.jdcloud-api.com |monitor.internal.cn-south-1.jdcloud-api.com
+cn-east-1  |cn-east-1 |monitor.cn-east-1.jdcloud-api.com   |monitor.internal.cn-east-1.jdcloud-api.com
+cn-east-2  |cn-east-2 | monitor.cn-east-2.jdcloud-api.com  |monitor.internal.cn-east-2.jdcloud-api.com
 
 ### Report Monitoring Data  
 Use the put-metric-data interface to Report Monitoring Data, examples are as follows:  

@@ -8,18 +8,49 @@ Oracle is the most widely used business-level database in the industry, and curr
 - Operating system environment: centos 6.5, 64-bit
 - Database version: oracle 11.2.0.4
 
-## 2. IP Programming
+## 2. Environmental Planning
+### IP Programming
 
 |Machine Name | Public IP | Private IP | VirtualIP|scan IP|
 |-|-|-|-|-|
 |oracle-rac1|10.10.10.101|192.168.100.101|10.10.10.103|10.10.10.105 scan-ip|
 |oracle-rac2|10.10.10.102|192.168.100.102|10.10.10.104|10.10.10.105 scan-ip|
 
+### ASM Shared Storage Planning
+
+|Disk Group|Redundancy Type|Disk LIST|
+|-|-|-|
+|OCR|NORMAL|VOLCRS01、VOLCRS01、VOLCRS03|
+|DATA|EXTERNAL|VOLDATA01、VOLDATA02、VOLDATA03|
+
+### Configuration/etc/hosts File:
+
+Two Nodes
+```
+#pub
+10.10.10.101 oracle-rac1
+10.10.10.102 oracle-rac2
+#vip
+10.10.10.103 oracle-rac1-vip
+10.10.10.104 oracle-rac2-vip 
+#priv
+192.168.100.101 oracle-rac1-priv 
+192.168.100.102 oracle-rac2-priv 
+#scan-ip
+10.10.10.105 scan-ip
+```
+
 ## 3. Install and Configure n2n
 Since Oracle RAC requires network with multicast function, it is necessary to implement it in the Cloud with the help of n2n software
 
 ### 3.1 Install n2n
 Execute the following command on both virtual machines
+```
+yum -y install subversion
+sudo yum install openssl-devel
+```
+
+Execute the following command on both Virtual Machines
 ```
 cd /usr/src
 svn co https://svn.ntop.org/svn/ntop/trunk/n2n
@@ -39,6 +70,10 @@ echo "/opt/n2n/sbin/supernode -l 65530" >> /etc/rc.local
 ```
 
 Two nodes run the client and write to /etc/rc.local
+
+Attention: server end ip is supernode ip
+- edge0: private network interface
+- edge1: public network interface
 
 - **Node 1**
 ```
@@ -99,7 +134,7 @@ Verify that configuration is correct
 ```
 ssh oracle-rac1 date (public network interface)
 ssh oracle-rac2 date
-ssh oracle-rac1 date (private network interface)
+ssh oracle-rac1-priv date (private network interface)
 ssh oracle-rac2-priv date
 ```
 
@@ -162,6 +197,16 @@ swapon /home/oracle/myswaps/swapfile1
 echo "/home/oracle/myswaps/swapfile1 swap swap defaults 0 0" >>/etc/fstab
 ```
 
+### 4.6 Prepare software
+Three installation files are needed in total:
+- p13390677_112040_Linux-x86-64_1of7.zip
+- p13390677_112040_Linux-x86-64_2of7.zip
+- p13390677_112040_Linux-x86-64_3of7.zip
+
+Upload the installation media (the first two files) of the oracle software to /home/oracle:
+
+Upload the installation media (the third file) of the grid software to /home/grid:
+
 ## 5. Installation Dependent Package of oracle rac
 
 ### 5.1 Check the missing rpm packages
@@ -220,18 +265,22 @@ yum install -y compat-libcap1.x86_64
 ```
 Two of the rpm packages have special handling of pdksh and cvuqdisk; one needs to be downloaded separately and the other needs to be found in the oracle installation medium
 
-- pdksh
 ksh is useless, and pdksh needs to be installed
 ```
 rpm -ivh pdksh-5.2.14-21.x86_64.rpm
 pdksh conflicts with ksh-20120801-37.el6_9.x86_64
 rpm -e ksh-20120801-37.el6_9.x86_64
 ```
-- cvuqdisk
-It can be found in the Oracle installation medium
+If there is a conflict, uninstall ksh
 ```
+pdksh conflicts with ksh-20120801-37.el6_9.x86_64
+rpm -e ksh-20120801-37.el6_9.x86_64
+```
+
+cvuqdisk It can be found in the Oracle installation medium
+```
+yum install -y smartmontools
 rpm -ivh cvuqdisk-1.0.9-1.rpm
-Depend on: yum install -y smartmontools
 ```
 
 Install related packages for asmlib; oracleasmlib, oracleasm-support, Kmod-oracleasm
@@ -243,7 +292,7 @@ rpm -ivh oracleasmlib-2.0.4-1.el6.x86_64.rpm
 
 ## 6. System Parameter Setting
 
-1. Modify kernel parameter
+### 6.1 Modify kernel parameter
 ```
 vi /etc/sysctl.conf
 echo "fs.aio-max-nr = 1048576" >> /etc/sysctl.conf
@@ -260,7 +309,7 @@ echo "net.core.wmem_max = 1048576" >> /etc/sysctl.conf
 sysctl -p 
 ```
 
-2. Modify user restriction
+### 6.2 Modify user restriction
 ```
 vi /etc/security/limits.conf
 echo "oracle soft nofile 4096" >> /etc/security/limits.conf
@@ -277,12 +326,12 @@ echo "* soft memlock 18874368" >> /etc/security/limits.conf
 echo "* hard memlock 18874368" >> /etc/security/limits.conf
 ```
 
-3. Modify /etc/pam.d/login, and add the verification module
+### 6.3 Modify /etc/pam.d/login, and add the verification module
 ```
 echo "session required pam_limits.so" >> /etc/pam.d/login
 ```
 
-4. disable iptables and selinux
+### 6.4 disable iptables, selinux and ntp server
 ```
 chkconfig --list iptables
 chkconfig iptables off
@@ -290,17 +339,22 @@ chkconfig --list iptables
 service iptables stop
 service network restart
 echo "SELINUX=disabled" >>/etc/selinux/config
-```
 
-5. disable ntp server
-```
 /sbin/service ntpd stop
 chkconfig ntpd off
 mv /etc/ntp.conf /etc/ntp.conf.bk
 rm /var/run/ntpd.pid
 ```
 
-6. Configure asmlib, and partition planning (6 partitions)
+### 6.5 Shared Disk
+
+1. Purchase a hard disk that supports Multi-point Attaching
+JD Cloud Console operation: The location is **Elastic Compute\Cloud Disk Service**, be sure to select **Multi-point Attaching
+
+2. Two nodes attach the shared hard disk separately
+JD Cloud Console operation: The location is **Elastic Compute\Virtual Machines**, select the purchased shared disk to attach
+
+### 6.6 Partition Planning (6 Partitions)
 ```
 parted /dev/vdb mklabel gpt
 parted /dev/vdb mkpart primary 0 10000 
@@ -312,14 +366,14 @@ parted /dev/vdb mkpart primary 50000 60000
 parted /dev/vdb p
 ```
 
-7. Configure asmlib
+### 6.7 Configure asmlib
 ```
 /usr/sbin/oracleasm configure -i # two nodes
 /etc/init.d/oracleasm enable # two nodes
 /etc/init.d/oracleasm start # two nodes
 ```
 
-8. Create disk
+### 6.8 Create disk
 ```
 /etc/init.d/oracleasm createdisk VOLCRS01 /dev/vdb1
 /etc/init.d/oracleasm createdisk VOLCRS02 /dev/vdb2
@@ -331,14 +385,33 @@ parted /dev/vdb p
 /usr/sbin/oracleasm listdisks #
 ```
 
+### 6.9 Scan and identify asm hard disk
+```
+/usr/sbin/oracleasm scandisks # After one node has created a disk, another node scans the disk
+```
+
+### 6.10 Check and output asm list
+Two nodes execute separately
+```
+/usr/sbin/oracleasm listdisks 
+```
+
 ## 7. grid Installation
 
-1. Verify environmental
+### 7.1 Verify environmental
+Use the grid user to extract the installation media of the grid software
+
 ```
+su - grid
+unzip p13390677_112040_Linux-x86-64_3of7.zip -d /home/grid
 /home/grid/grid/runcluvfy.sh stage -pre crsinst -n oracle-rac1,oracle-rac2 -verbose 
 ```
 
-2. Prepare the response file
+### 7.2 Prepare the response file
+```
+cp /home/grid/grid/response/grid_install.rsp grid_install_jdtest.rsp
+```
+Edit the file grid_install_jdtest.rsp file, the modified parameters are as follows
 ```
 ORACLE_HOSTNAME=oracle-rac1
 INVENTORY_LOCATION=/u01/app/oraInventory
@@ -362,7 +435,7 @@ oracle.install.asm.diskGroup.diskDiscoveryString=/dev/oracleasm/disks
 oracle.install.asm.monitorPassword=Grid123
 ```
 
-3. Install grid
+### 7.3 Install grid
 ```
 ./runInstaller -silent -responseFile /home/grid/grid/response/grid_install_jdtest.rsp -ignoreSysPrereqs -ignorePrereq
 ```
@@ -372,7 +445,29 @@ After waiting for a period of time, it will give notification to execute with th
 /u01/crs/11.2.0/root.sh
 ```
 
-4. After the grid installation is complete, view the output of the cluster resource as follows:
+### 7.4 Set the user password of grid
+Create and write file cfgrsp.properties
+```
+cd /home/grid/grid/response
+cat << EOF > cfgrsp.properties 
+oracle.assistants.asm|S_ASMPASSWORD=Grid123
+oracle.assistants.asm|S_ASMMONITORPASSWORD=Grid123
+EOF
+```
+
+Modify file attributes
+```
+chmod 600 cfgrsp.properties
+```
+
+Run configToolAllCommands to generate password information
+```
+/u01/app/grid_home/cfgtoollogs/configToolAllCommands RESPONSE_FILE=/home/grid/grid/response/cfgrsp.properties
+```
+
+
+### 7.5 View cluster resources
+After the grid installation is complete, view the output of the cluster resource as follows:
 ```
 crs_stat -t
 Name Type Target State Host 
@@ -411,14 +506,14 @@ CRS-4533: Event Manager is online
 # **************************************************************
 ```
 
-5. Create asmdisk group
+### 7.6 Create asmdisk group
 ```
 su – grid
 asmca -silent -createDiskGroup -sysAsmPassword Grid123 -diskString '/dev/oracleasm/disks/*' -diskGroupName DATA -diskList '/dev/oracleasm/disks/VOLDATA01' -redundancy EXTERNAL -compatible.asm 11.2 -compatible.rdbms 11.2
 asmca -silent -addDisk -sysAsmPassword Grid123 -diskGroupName DATA -diskList '/dev/oracleasm/disks/VOLDATA02','/dev/oracleasm/disks/VOLDATA03'
 ```
 
-6. View information:
+### 7.7 View information:
 ```
 select name,path,STATE,GROUP_NUMBER 
 from v$asm_disk;
@@ -429,13 +524,15 @@ from v$asm_diskgroup;
 
 ## 8. Install oracle database software:
 
-1. Verify before installation:
+### 8.1 Verify before installation:
 ```
+#grid user execution
 /home/grid/grid/runcluvfy.sh stage -pre dbinst -n oracle-rac1,oracle-rac2 -verbose
 ```
 
-2. Compile the response file
+### 8.2 Compile the response file
 ```
+#oracle user execution
 vi u01/soft/oracle/database/response/db_install_jdtest.rsp
 ```
 
@@ -457,25 +554,36 @@ oracle.install.db.CLUSTER_NODES=rac1,rac2
 DECLINE_SECURITY_UPDATES=true
 ```
 
-3. Execute silent installation of oracle software
+### 8.3 Modify directory permissions
+
+Because the permissions of /u01/app become root, you need to modify it. Two nodes execute:
+```
+chown -R oracle:oinstall /u01/app
+chmod -R 775 /u01/app/
+chown -R grid:oinstall /u01/app/grid_base
+chown -R grid:oinstall /u01/app/grid_home
+```
+
+
+### 8.4 Execute silent installation of oracle software
 ```
 ./runInstaller -silent -ignoreSysPrereqs -ignorePrereq -responseFile /home/oracle/database/response/db_install_jdtest.rsp
 ```
 
-4. Execute the following script according to notification:
+### 8.5 Execute the following script according to notification:
 ```
 /u01/app/oracle/product/11.2.0/db_1/root.sh
 ```
 
-
 ## 9. Install DB
 
-1. Prepare the response file
+### 9.1 Prepare the response file
 ```
-vi /u01/soft/oracle/database/response/dbca_jdtest.rsp
+#oracle user execution
+cp /home/oracle/database/response/dbca.rsp /home/oracle/database/response/dbca_jdtest.rsp
 ```
-
-2. Modify reference:
+### 9.2 Edit the file dbca_jdtest.rsp
+The modified parameters are as follows:
 ```
 GDBNAME = "orcl"
 SID = "orcl"
@@ -488,11 +596,30 @@ RECOVERYGROUPNAME=DATA
 CHARACTERSET = "ZHS16GBK"
 ```
 
-3. Create database in silence
+Check the $ORACLE_HOME/bin/oracle file attribute
+```
+su - grid #Switch to grid user
+```
+
+Check file attributes:
+```
+ls -l $ORACLE_HOME/bin/oracle
+```
+
+The output results should be:
+```
+-rwsr-sr-x 1 grid oinstall
+```
+
+If it is not -rwsr-sr-x, execute the attribute modification:
+```
+chmod 6755 $ORACLE_HOME/bin/oracle
+```
+
+### 9.3 Create database in silence
 ```
 dbca -silent -responseFile /home/oracle/database/response/dbca_jdtest.rsp
 ```
-
 
 Now that the installation is complete, the output for confirming the result is as follows:
 ```

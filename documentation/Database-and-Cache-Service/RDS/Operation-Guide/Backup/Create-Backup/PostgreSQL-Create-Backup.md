@@ -10,13 +10,13 @@ The backup of instance will be stored on cloud storage server of JD Cloud. At pr
 * If you need to test the modification for data of database instance, please perform manual backup for the instance in advance. After ensuring the test validation, the database of database instance may be restored to the original normal status.
 
 ## Create Manual Backup
-1. Login [Cloud Database RDS Console] (https://rds-console.jdcloud.com/database).
+1. Login [Cloud Database RDS Console](https://rds-console.jdcloud.com/database).
 2. Select the target instance that needs to be set as manual backup, click target instance name to enter Instance Details page.
-3. Select ***Backup Management***tag, click***Create Backup***button, Parameters of Create Backup pop-up box are described as below:
+3. Select ***Backup Management*** tag, click ***Create Backup*** button, Parameters of Create Backup pop-up box are described as below:
     * Backup name: duplication is allowed but the length and characters of the name have some limits which are subject to the console.
-    * Click **OK**button to complete backup operation.
-    * Click **Cancel**button to abandon backup operation.
+    * Click **OK** button to complete backup operation.
+    * Click **Cancel** button to abandon backup operation.
 
     ![创建备份](../../../../../../image/RDS/Create-Backup.png)
 
-4. Click **OK** to return Backup Policy Details page.
+4. Click ***OK*** to return Backup Policy Details page.

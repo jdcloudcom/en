@@ -57,7 +57,7 @@ Just click **Install
 
 ### Bucket Operations
 
-**OSS does not support [Server Access Log Management] and [Version Control] in the Bucket Operations. The cross-region replication function cannot be set because the tool can only select bucket of the same region. For [[Image Back-to-origin]](https://docs.jdcloud.com/cn/object-storage-service/manage-origin-retrieval-settings-2) and [[Customized Domain]](https://docs.jdcloud.com/cn/object-storage-service/set-custom-domain-name-2) that are not compatible with S3, please [Go to Console] (https://oss-console.jdcloud.com/space) for settings, some advanced configurations for this tool can be used after they are purchased.**
+**OSS does not support [Server Access Log Management] and [Version Control] in the Bucket Operations. The cross-region replication function cannot be set because the tool can only select bucket of the same region. For [[Image Back-to-origin]](https://docs.jdcloud.com/cn/object-storage-service/manage-origin-retrieval-settings-2) and [[Customized Domain]](https://docs.jdcloud.com/cn/object-storage-service/set-custom-domain-name-2) that are not compatible with S3, please [Go to Console](https://oss-console.jdcloud.com/space) for settings, some advanced configurations for this tool can be used after they are purchased.**
 
 <div id="user-content-3"></div>
 

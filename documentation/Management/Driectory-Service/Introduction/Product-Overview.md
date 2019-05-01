@@ -1,0 +1,3 @@
+### Overview
+
+JD Cloud Directory Service is a kind of Microsoft Active Directory hosted on JD Cloud, which integrates most functions of Directory Service with JD Cloud. No matter enterprises use directory service separately in JD Cloud, or expand current directory basic architecture into JD Cloud through the trust relationships of directory service, the end users of them can access resources and applications in the JD Cloud through JD Cloud directory service.

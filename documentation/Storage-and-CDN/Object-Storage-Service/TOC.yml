@@ -38,7 +38,7 @@ items:
       - name: Delete Object
         href: Getting-Started/Delete-Object-1.md
       - name: Delete Bucket
-        href: Getting-Started/Delete-Bucket-1.md
+        href: Getting-Started/Delete-Bucket-1.md      
       - name: Set event notification
         href: Getting-Started/Event-Notifications-1.md 
  - name: Operation Guide

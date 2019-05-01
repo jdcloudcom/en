@@ -5,7 +5,12 @@
 - Kubernetes Service defines such a kind of abstraction: Logical grouping of Pod, a strategy that can visit them --- usually called micro service. This set of Pods can be visited by Service, usually through Label Selector (check below to see why you might need Services without selectors). Service is REST object in Kubernetes, similar to Pod. Like all REST objects, Service definitions can request apiserver to create new instances based on POST mode.  
 
 **JD Cloud Kubernetes integrates load balancer services, supports the creation of LoadBalance-type Services, and provides the secure and reliable network for applications.**  
-- Sufficient quota must be guaranteed for the load balancer created will occupy the load balancer quota in the local region.  
+- As the created Load Balancer will use the Application Load Balancer quota in local domain, please be sure to provide sufficient quota. 
+- One Application Load Balancer will be associated and created for Service and Public IP will be automatically associated with Service;
+- One service port corresponds to one group of Load Balancer Listeners and backend servers;
+- Where several service port groups are associated with the same nodeport, the listener will be associated with the same backend service;
+- The backend server name and listener name of Application Load Balancer of JD Cloud cannot exceed 32 characters. By default, the backend server name and the listener name, associated with and created by service, shall respectively cite the service name and port name. As a result, the service name and port name shall not exceed 14 characters, respectively. For creation of backend server and listener of Application Load Balancer, please refer to [Backend Service Management](https://docs.jdcloud.com/en/application-load-balancer/backend-management) and [Listener Management](https://docs.jdcloud.com/en/application-load-balancer/listener-management) of Load Balancer.
+
 1. Create service that supports LoadBalance type. It's named myservice.yaml and defined as follows:
 ```
 kind: Service

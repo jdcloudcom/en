@@ -23,3 +23,14 @@ Q: Can v1 version of the image be used in JCS for Kubernetes?
 
 
 A: It will not support it.
+
+Q: What is the relationship between the service definition in JCS for Kubernetes and the related Application Load Balancer created?
+
+
+A: One Application Load Balancer can be associated and created for one service; one service port corresponds to one group of Load Balancer Listeners and backend servers;
+
+Q: What are the naming conventions for the service name in JCS for Kubernetes and the name of service port?
+
+
+A: The service name and the service port name respectively contain 14 characters at most, and the rules comply with the naming conventions of Application Load Balancer [Backend Server](https://docs.jdcloud.com/en/application-load-balancer/backend-management) and [Listener](https://docs.jdcloud.com/en/application-load-balancer/listener-management). Where any name exceeds 14 characters in length, the first 14 characters will be automatically captured and cited to the backend server and listener of corresponding Application Load Balancer. The names comply with k8s conventions, but are inconsistent with the naming convention of the Application Load Balancer, causing failure in creating the listener or the Load Balancer.
+

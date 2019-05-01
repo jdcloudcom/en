@@ -15,7 +15,7 @@ Please ensure that CodeBuild tasks and Container Registry are in the same region
 
 ### Clone example codes to the CodeCommit
 
-The code example address is: https://code.jdcloud.com/JDCloud-Codebuild/hello-java
+The code example address is: https://code.jdcloud.com/devops-demo/golang-demo
 
 Please clone the example code to the CodeCommit and the address of the CodeCommit is https://code.jdcloud.com/
 
@@ -46,27 +46,18 @@ Please clone the example code to the CodeCommit and the address of the CodeCommi
 
 ### Create compilation task in the CodeBuild
 
-Create a new task in the CodeBuild, with specific information as below:
+Click **Create** task on the CodeBuild Task List Page.
 
--  Application name: ci-demo
--  Image compilation: maven/maven3.6.0-jdk13
+Specific information is as shown below:
+
+   ![](/image/codebuild/best-ct.PNG)
+   
+-  Application name: golang-demo
+-  Image compilation: golang/golang 1.12
 -  Code source: JD Cloud-CodeCommit
--  Codebase: Select an example code, JDCloud-Codebuild/golang-demo
+-  Codebase: Select an example code, devops-demo/golang-demo
 -  Branch: master
--  Building command: Use jdcloud-build.yml under the source code root directory
--  Building type: Image
--  Repository: Select the created Repository
--  Advanced Configuration: Keep the default option
-
-
-
-
-Save and run the setting. Compile and build tasks.
-
-### Realize unit test through CodeBuild
-
-The unit test method in code is also applicable to the unit test made with CodeBuild. Execute unit test commands in the compilation script (jdcloud-build.yml), and the examples are as follows.
-
+-  Building command: Select and insert the building command
  ```
 cmds:
   - name: Make output
@@ -82,13 +73,26 @@ cmds:
 out_dir: 'output'
 
  ```
+-  Building type: Image
+-  Repository: Select the created Repository
+-  Advanced Configuration: Keep the default option
+
+
+Save and run the setting. Compile and build tasks.
+
  
 ### View Building Logs
 
 The latest building logs can be viewed in the Task Details Page or the building history can be viewed in the following building history page.
 
+   ![](/image/codebuild/best-log.PNG)
 
 ### View pushed images by logging in Repository
 
+When CodeBuild is successfully executed, the outputted image will be pushed to the Container Registry designated by the user.
+
+The user can select Repository selected by CodeBuild in the Container Registry -- Image list to view the built and produced images.
+
+   ![](/image/codebuild/best-image.PNG)
 
 
