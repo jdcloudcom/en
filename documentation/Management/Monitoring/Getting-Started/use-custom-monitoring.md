@@ -5,7 +5,7 @@ Customized Metric Monitoring is a feature that provides users with the freedom t
 ### Report Monitoring Data
 
 The function of Customized Metric Monitoring provides you with an interface for reporting monitoring data, so that you can report the time series data collected by yourself to the Cloud Monitor. Currently, the method of OpenAPI is supported to report, and the original data and the aggregated statistics can be reported.
-Click to see how [Report Monitoring Data](https://github.com/jdcloudcom/cn/blob/edit/documentation/Management-and-Monitoring/Cloud-Monitor/Operation-Guide/%E8%87%AA%E5%AE%9A%E4%B9%89%E7%9B%91%E6%8E%A7.md#Report-Monitoring-Data).
+Click to see how [Report Monitoring Data](http://docs.jdcloud.com/en/monitoring/reporting-monitoring-data).
 
 ### View Monitoring Data
 **View Namespace**
