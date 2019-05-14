@@ -2,7 +2,7 @@
 
 ## Overview
 
-This document is based on AWS Node.js SDK. JD Cloud Object Storage Service is compatible to AWS S3 interface. For the details of compatible interface, please view [Compatible Interface](https://docs.jdcloud.com/cn/object-storage-service/compatibility-api-overview).
+This document is based on AWS Node.js SDK. JD Cloud Object Storage Service is compatible to AWS S3 interface. For the details of compatible interface, please view [Compatible Interface](https://docs.jdcloud.com/en/object-storage-service/compatibility-api-overview).
 
 ## Development Preparation
 
@@ -40,7 +40,7 @@ Go to [Console AccessKey Management](https://uc.jdcloud.com/account/accesskey) t
 
 **Description:**
 
-For the meaning of the names shown in this document, such as AccessKeyId, AccessKeySecret and Bucket, please refer to [OSS-Core Concepts](https://docs.jdcloud.com/cn/object-storage-service/core-concepts).
+For the meaning of the names shown in this document, such as AccessKeyId, AccessKeySecret and Bucket, please refer to [OSS-Core Concepts](https://docs.jdcloud.com/en/object-storage-service/core-concepts).
 
 # Create client
 
@@ -80,8 +80,8 @@ s3.config.update({
 
 # Quick Start
  **Description**
- You must subscribe JD Cloud Object Storage Service in OSS Console before using SDK to create Bucket. For the subscription process, please refer to [Getting Started-Subscribe Object Storage Service](https://docs.jdcloud.com/cn/object-storage-service/sign-up-service-1).
- You can also create Bucket via the Console. Refer to [Getting Started-Create Bucket](https://docs.jdcloud.com/cn/object-storage-service/create-bucket-1).
+ You must subscribe JD Cloud Object Storage Service in OSS Console before using SDK to create Bucket. For the subscription process, please refer to [Getting Started-Subscribe Object Storage Service](https://docs.jdcloud.com/en/object-storage-service/sign-up-service-1).
+ You can also create Bucket via the Console. Refer to [Getting Started-Create Bucket](https://docs.jdcloud.com/en/object-storage-service/create-bucket-1).
 
 ### Creating Bucket
 

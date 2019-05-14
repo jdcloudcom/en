@@ -74,6 +74,8 @@ items:
     href: Cloud-Physics-Server-Service-Clause.md
   - name: Cloud Physical Server Service Level Agreement (SLA)
     href: Cloud-Physics-Server-Service-Level-Protocol-SLA.md
+  - name: Service Agreement on Physical Cloud Public IP
+    href: Elastic-IP-For-Physical-Cloud-Terms-Of-Service.md
   - name: Message Queue Service Agreement
     href: Message-Queue-JCQ-Service-Terms.md
   - name: Message Queue Service Level Agreement (SLA)
@@ -114,3 +116,7 @@ items:
     href: Cloud-File-Service-terms-of-service.md
   - name: Cloud File Service Beta Trial Agreement
     href: Cloud-file-service-public-beta-terms-of-service.md
+  - name: Service Terms on Rich Media SMS
+    href: Rich-Media-SMS-Terms-Of-Service.md
+  - name: Service Level Agreement (SLA) on Rich Media SMS
+    href: Rich-Media-SMS-Terms-Of-Service-SLA.md

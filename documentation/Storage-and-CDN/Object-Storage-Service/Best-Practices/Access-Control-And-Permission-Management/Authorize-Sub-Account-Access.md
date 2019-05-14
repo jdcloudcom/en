@@ -1,6 +1,6 @@
 # Authorize the sub-account to access OSS
 ### Glossary
-For detailed IAM introduction, please go to [IAM Overview](https://docs.jdcloud.com/cn/iam/product-overview).
+For detailed IAM introduction, please go to [IAM Overview](https://docs.jdcloud.com/en/iam/product-overview).
 
 ### Relevant Terms of Identity Management
 #### Primary Account

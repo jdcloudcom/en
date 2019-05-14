@@ -1,6 +1,6 @@
 # Benefits
 ### High Availability and Complete Hosting
-Relied on the network architecture of multiple availability zone of JD Cloud, all services of JD Cloud Distributed Service Framework conduct cross-availability zone distributed deployment. After the users enable the service, they can enjoy high availability of cross-data center without any further operations.
+Relied on the network architecture of multiple availability zone of JD Cloud, all services of JD Distributed Service Framework conduct cross-availability zone distributed deployment. After the users enable the service, they can enjoy high availability of cross-data center without any further operations.
 
 
 ### Viewable Call

@@ -1,7 +1,7 @@
 # Service Usage Overview
 
 
-The functions have been provided by JD Cloud Distributed Service Framework include: Registration Center, Service Management, Calling Chain Analysis Service and Configuration Management. The usage process of Console is shown as below:
+Functions provided by JD Distributed Service Framework of JD Cloud include: Registration Center, Service Management, Calling Chain Analysis Service and Configuration Management. The usage process of Console is shown as below:
  
 ![](../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/struct-sylc.png)
 

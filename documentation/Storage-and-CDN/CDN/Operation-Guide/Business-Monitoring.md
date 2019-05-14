@@ -9,3 +9,8 @@ Log in to the [CDN Console](https://cdn-console.jdcloud.com/dbw), and click **Se
 - Time range: today, yesterday, last 2 days, last 7 days, this week, last week, last 30 days, this month, last month, user customized time range (Data of up to the last 90 days can be viewed; the range of one query cannot exceed 31 days, and can be refined to the hour and minute.)
 - Domain name: Support all current domain names or selected domain names of customers, provide domain name fuzzy search, extensive domain name search function, and select, invert, cancel, etc.
 -  Report data and raw data in the granularity of 5 minute can be exported;
+
+**Note**:
+* Average peak bandwidth: Search sum of peak bandwidth per day during the period/search service day 
+* 95 peak bandwidth: (Billing days of the current day/total days of the same month) *95 billing value; here, the 95 billing value is settled per natural months. In a natural month, the valid bandwidth value every 5 minutes is sorted in the descending order, and the top 5% bandwidth number is removed and the left highest bandwidth value is the 95 peak bandwidth billing value;
+* Average peak bandwidth and 95 peak bandwidth of the current day are not available for counting 

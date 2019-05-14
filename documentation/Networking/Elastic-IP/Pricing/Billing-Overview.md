@@ -25,7 +25,7 @@ The Elastic IP is currently classified into two IP provider types: BGP and non-B
 - The stopped resources can be used normally upon renewal.
 
 ### Billing by Configuration
-- The users' paid online resources (Elastic IP) status will become overdue when the sum of the balance in the users' account and the coupon that can be used to pay the paid online resources is insufficient to pay the costs of next billing cycle (24 hour) resulting the deduction failing;
+- The users' paid online resources (Elastic IP) status will become overdue when the sum of the balance in the users' account and the coupon that can be used to pay the paid online resources is insufficient to pay the costs of next billing cycle resulting the deduction failing;
 
 - Service and deduction will stop when the users' paid online resources are overdue;
 

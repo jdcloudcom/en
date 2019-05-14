@@ -30,7 +30,9 @@
           - name: Delete Domain Name
             href: Operation-Guide/Domain-Name-Operation/Domaindelete.md
           - name: Modify Domain Name
-            href: Operation-Guide/Domain-Name-Operation/Domainmodify.md      
+            href: Operation-Guide/Domain-Name-Operation/Domainmodify.md
+          - name: Domain Locking
+            href: Operation-Guide/Domain-Name-Operation/Domainlock.md 
       - name: Resolution Record Operation
         items:
           - name: Add Resolution Record

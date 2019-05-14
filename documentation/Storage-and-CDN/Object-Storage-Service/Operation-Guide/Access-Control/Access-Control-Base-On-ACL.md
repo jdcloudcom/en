@@ -12,9 +12,9 @@ Bucket ACL is the permission IAM at the Bucket level. Currently three access per
 
 The permission setting and read method of Bucket ACL are as follows:
 
--   Console: [Set ACL when creating a Bucket](https://docs.jdcloud.com/cn/object-storage-service/create-bucket-1),
+-   Console: [Set ACL when creating a Bucket](https://docs.jdcloud.com/en/object-storage-service/create-bucket-1),
 [Modify Bucket ACL](../Manage-Bucket/Set-Bucket-Policy-2.md)
 
 -   API：[PutBucketACL](../../API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Put-Bukcet-acl-2.md)、
-[GetBucketACL](https://docs.jdcloud.com/cn/object-storage-service/get-bucket-acl-2)
+[GetBucketACL](https://docs.jdcloud.com/en/object-storage-service/get-bucket-acl-2)
 

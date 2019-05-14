@@ -8,10 +8,11 @@ If you want to use the function services during Beta, please apply for Beta on t
 
 The function service usage process is as follows:
 
-1. Create functions, write codes, add event sources, deploy application;
-2. Implement business functions through API or cloud service event source triggering functions;
-3. View function logs;
-4. View function monitoring.
+1. Function creation: Compile codes on line or upload code packages to Function Service and configure function running conditions;
+2. Function test: Test function codes with the Console or call API to trigger function execution to verify if expected function execution is reached;
+3. Release of function version and alias: Release new versions for tested and verified functions, configure source triggering functions for cloud service event of the new versions, and realize business function and functional iteration for new functions may be continuously carried out on the LATEST version;
+4. Function monitoring: Monitor function operation status and handle function run-time error in time by configuring alarm policies;
+5. Function log: Check function execution log with function logs and investigate function run-time errors.
 
  
 
@@ -30,7 +31,11 @@ For detailed information of trigger, please refer to [Trigger](../Operation-Guid
 
 In addition, if the trigger is not configured, you can also invoke function execution directly using methods such as the console, SDK.
 
+## View function monitoring
 
+Through cloud monitoring, the user can monitor the running status of functions in real time to ensure the smooth operation of the business.
+
+For function monitoring detailed information, please refer to [Function Monitoring](../Operation-Guide/monitor.md).
 
 ## View execution log
 
@@ -40,8 +45,4 @@ For function log detailed information, please refer to [Function Log](../Operati
 
 
 
-## View function monitoring
 
-Through cloud monitoring, the user can monitor the running status of functions in real time to ensure the smooth operation of the business.
-
-For function monitoring detailed information, please refer to [Function Monitoring](../Operation-Guide/monitor.md).

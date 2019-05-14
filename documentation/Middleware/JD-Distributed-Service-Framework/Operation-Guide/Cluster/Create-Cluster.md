@@ -8,7 +8,7 @@ Middleware>JD Distributed Service Framework>Service Registration>Registration Ce
 
 ##  Operation Steps:
 ###   Step 1: Enter the management page of the registration center
-Enter the JD Distributed Service Framework menu, and select the registration center menu under the service registration, and enter the registration center list page.
+Log in the JD Distributed Service Framework Menu, select Registration Center Menu under Service Registration and log in the Registration Center List Page.
 
 
 ###   Step 2: Select the partition in which you want to deploy the resource

@@ -4,16 +4,16 @@
 
 The new generation cloud disks provide three types of cloud disks for your option, to meet business scenarios with different performance requirements
 
-| Block storage type | SSD Cloud Disk (off line soon) | Premium Hdd Cloud Disk (off line soon) | General Type SSD Cloud Disk (New) | Performance Type SSD Cloud Disk (new) | Capacity Type HDD Cloud Disk (New) |
-| --- | --- | --- | --- | --- | --- |
-| Single disk capacity | 20-1000G | 20-3000G | 20-4000G | 20-4000G | 20-4000G |
-| Maximum single disk IOPS | 20000 | 500 | 15000 | 32000 | 500 |
-| Maximum single disk throughput | 100MBps (Ticket Application:300MBps) | 80MBps | 150MBps | 150MBps | 80MBps |
-| Single Disk Performance Formula | None | None | Min(Max(500,10&times;size),15,000) | Min(30&times;size,32,000) | Not Applicable |
-| Formula of Single Disk Throughput | None | None | min (max (80, 0.2&times; size), 150) | min (max (120, 0.5&times; size), 150) | NA |
-| Data Persistence | 99.9999999% | 99.9999999% | 99.9999999% | 99.9999999% | 99.9999999% |
-| API Name | ssd | Premium-hdd | ssd.gp1 | ssd.io1 | hdd.std1 |
-| Typical application scenarios | Big data analysis<br> I/O intensive business<br> medium and large-sized database application | Process fewer transactions<br> Cold data backup | Applicable to boot volumes, small databases, large-scale development tests, web servers, and other scenarios that require random read-write | Applicable to SQL, NoSQL, and other core business scenarios that require random read-write | Provide secure and reliable storage resources for Web applications to meet data integrity and data protection requirements, applicable to scenarios with moderate read-write rate, fewer transactions to process, cold data backup, etc. |
+| Block storage type |General Type SSD Cloud Disk                                                | Performance Type SSD Cloud Disk                                        | Capacity Type HDD Cloud Disk                                                |
+| -------------- | ------------------------------------------------------------ | ---------------------------------------------------- | ------------------------------------------------------------ |
+| Single disk capacity       | 20-4000G                                                     | 20-4000G                                             | 20-4000G                                                     |
+| Maximum single disk IOPS   | 15000                                                        | 32000                                                | 500                                                          |
+| Maximum single disk throughput | 150MBps                                                      | 150MBps                                              | 80MBps                                                       |
+| Single Disk Performance Formula   | min(max(500，10&times;size), 15000)                          | min(30&times;size，32000)                            | Not Applicable                                                       |
+| Formula of Single Disk Throughput   | min(max(80, 0.2&times;size), 150)                        | min（max（120, 0.5&times;size），150）               | Not Applicable                                                       |
+| Data Persistence     | 99.9999999%                                                  | 99.9999999%                                          | 99.9999999%                                                  |
+|  API Name        | ssd.gp1                                                      | ssd.io1                                              | hdd.std1                                                     |
+| Typical application scenarios | Applicable to boot volumes, small databases, large-scale development tests, web servers, and other scenarios that require random read-write | Applicable to SQL, NoSQL, and other core business scenarios that require random read-write | Provide secure and reliable storage resources for Web applications to meet data integrity and data protection requirements, applicable to scenarios with moderate read-write rate, fewer transactions to process, cold data backup, etc. |
 
 ### Independent storage service ###
 

@@ -5,7 +5,7 @@ The user can view all instances that exist in each service and see details of ea
 
 ###  Step 1: Select the service to be operated
 For example, if select a service named "game-client", click the instance details action on the right side of the list.
-  ![服务管理列表](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/service-list.png)
+  ![服务管理列表](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/service-list-new.png)
   
 ###  Step 2: View instance list information.
 The list of instance details shows information of all instances under the current service.

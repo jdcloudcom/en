@@ -24,7 +24,7 @@ OSS currently supports standard storage and reduced redundancy storage.
 | Features and Application Scenarios | It is suitable for reading data frequently and has higher requirements for high availability and high reliability compared to the reduced redundancy. Scenario: Mobile Applications, Website Videos, Data Analysis | Reduced redundancy storage enables customers to store non-critical renewable data at a level of redundancy lower than OSS standard storage <br>. It provides a highly available solution, scenario: Suitable for distributing or sharing content that is persisted elsewhere, <br> or for storing thumbnails, transcoding media, or other easily replicated processed data |
 | Storage Price | CNY 0.00427/GB/Day (CNY 0.128/GB/Month) | CNY 0.00233/GB/Day (CNY 0.07/GB/Month) |
 
-Note: Please refer to [OSS Price Overview](https://docs.jdcloud.com/cn/object-storage-service/price-overview) for pricing of the two storage types.
+Note: Please refer to [OSS Price Overview](https://docs.jdcloud.com/en/object-storage-service/price-overview) for pricing of the two storage types.
 
 ### How to use the reduced redundancy storage type?
 

@@ -1,6 +1,6 @@
-#  Scaling
+#  Expansion
 
-The user can increase the number of instances according to business needs by scaling action.
+The user can increase the number of instances according to business needs with the expansion operation.
 
 ##  Operation Steps:
 ###  Step 1: Select the registration center to be operated
@@ -12,4 +12,5 @@ In the confirmation pop-up, select the service instance count to be adjusted to,
   ![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/zczx-yyks.png)
 
 #### Description:
-The registration center in abnormal operation, cannot carry on the scaling action.
+The Registration Center in abnormal running status cannot carry on the expansion operation.
+

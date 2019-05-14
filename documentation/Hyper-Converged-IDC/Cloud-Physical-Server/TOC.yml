@@ -49,6 +49,14 @@
         href: Operation-Guide/Terms-and-Conditions.md
       - name: Network and Security
         items:
+          - name: VPC
+            href: Operation-Guide/Networking/Virtual-Network-Interface.md
+          - name: Subnet
+            href: Operation-Guide/Networking/Subnet.md
+          - name: Elastic IP
+            href: Operation-Guide/Networking/Elastic-IP-For-Physical-Cloud.md
+      - name: Firewall Configuration Instruction
+        items:
           - name:  Function Description
             href: Operation-Guide/Network-And-Security/Description-Network-And-Security.md
           - name: Action Steps
@@ -109,13 +117,7 @@
   - name: API Reference
     status: 0
   - name: SDK Reference
-    status: 0
-  - name: User Agreement
-    items:
-    - name: Terms of Service
-      href: User-Agreements/Product-Terms-of-Service.md              
-    - name: SLA
-      href: User-Agreements/SLA.md               
+    status: 0               
   - name: Related Resources
     items:
     - name: Document History

@@ -11,5 +11,5 @@ For Availability Groups that have been created, their new Virtual Machines will 
 2. Choose region.
 3. Select the area where the Availability Group that needs to be operated, and click the name to enter its details page.
 4. Click **Resource information Tab**-**Instance Template** and then **Modify** icon.
-5. The instance template drop-down box of the pop-up modification window will display the instance template that satisfies the condition (the second generation Virtual Machines specification with the same Virtual Private Cloud and configuration), and you can select the instance template that you need to replace.
+5. The instance template drop-down box of the pop-up modification window will display the instance template that satisfies the condition (VPC is the same and Generation II Specification of Virtual Machines or GPU Specification is configured), and you can select the instance template that you need to replace.
 6. Click **OK** to trigger the modification of the instance template. After the modification is completed, the popup will be closed and it will return to the details page.

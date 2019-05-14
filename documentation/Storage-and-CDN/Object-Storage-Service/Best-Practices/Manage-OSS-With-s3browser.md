@@ -1,5 +1,5 @@
 # Use s3browser to Manage OSS
-s3browser is an easy to use client that manages S3. JD Cloud OSS is compatible with Amazon S3 API, you can use s3browser to manage JD Cloud OSS. For details, see [Compatible APIs](https://docs.jdcloud.com/cn/object-storage-service/compatibility-api-overview). 
+s3browser is an easy to use client that manages S3. JD Cloud OSS is compatible with Amazon S3 API, you can use s3browser to manage JD Cloud OSS. For details, see [Compatible APIs](https://docs.jdcloud.com/en/object-storage-service/compatibility-api-overview). 
 
 * Installation: [Install s3browser](Manage-OSS-With-s3browser#user-content-1)
 * Use s3browser to Access OSS: [Use s3browser to Access OSS-Add Users](Manage-OSS-With-s3browser#user-content-2)
@@ -47,7 +47,7 @@ Just click **Install
 
 * Account Name: Name to display, filling in your user name will usually do;
 * Account Type: S3 Compatible Storage；
-* REST Endpoint:Fill in JD Cloud[Service Domain Compatible with S3](https://docs.jdcloud.com/cn/object-storage-service/regions-and-endpoints)；
+* REST Endpoint:Fill in JD Cloud[Service Domain Compatible with S3](https://docs.jdcloud.com/en/object-storage-service/regions-and-endpoints)；
 * Signature Version: Select Version 4;
 * Access Key ID: JD Cloud AK;
 * Secret Access Key: JD Cloud SK;
@@ -57,7 +57,7 @@ Just click **Install
 
 ### Bucket Operations
 
-**OSS does not support [Server Access Log Management] and [Version Control] in the Bucket Operations. The cross-region replication function cannot be set because the tool can only select bucket of the same region. For [[Image Back-to-origin]](https://docs.jdcloud.com/cn/object-storage-service/manage-origin-retrieval-settings-2) and [[Customized Domain]](https://docs.jdcloud.com/cn/object-storage-service/set-custom-domain-name-2) that are not compatible with S3, please [Go to Console](https://oss-console.jdcloud.com/space) for settings, some advanced configurations for this tool can be used after they are purchased.**
+**OSS does not support [Server Access Log Management] and [Version Control] in the Bucket Operations. The cross-region replication function cannot be set because the tool can only select bucket of the same region. For [[Image Back-to-origin]](https://docs.jdcloud.com/en/object-storage-service/manage-origin-retrieval-settings-2) and [[Customized Domain]](https://docs.jdcloud.com/en/object-storage-service/set-custom-domain-name-2) that are not compatible with S3, please [Go to Console](https://oss-console.jdcloud.com/space) for settings, some advanced configurations for this tool can be used after they are purchased.**
 
 <div id="user-content-3"></div>
 
@@ -73,7 +73,7 @@ Just click **Install
 
 **Description**
 
-* The bucket name is globally unique. If the name is already used by other users, the creation will not succeed. Please follow the [OSS Naming Specification](https://docs.jdcloud.com/cn/object-storage-service/put-bucket -2), and enter the appropriate name that identifies your business.
+* The bucket name is globally unique. If the name is already used by other users, the creation will not succeed. Please follow the [OSS Naming Specification](https://docs.jdcloud.com/en/object-storage-service/put-bucket -2), and enter the appropriate name that identifies your business.
 * When the bucket is created, the default ACL is Private Read/Write. You can change the space access permissions after creation according to your needs. Refer to[[Set Bucket Acl]](Manage-OSS-With-s3browser#user-content-4)
 And[[Set Bucket policy]](Manage-OSS-With-s3browser#user-content-5)。
 
@@ -119,7 +119,7 @@ At the same time, you need to be aware that for OSS, Bucket ACL and Bucket polic
 ![](../../../../image/Object-Storage-Service/OSS-132.png)
 
 
-2.Refer to [Bucket policy Specification](https://docs.jdcloud.com/cn/object-storage-service/access-control-base-on-bucket-policy), complete settings in the following form.
+2.Refer to [Bucket policy Specification](https://docs.jdcloud.com/en/object-storage-service/access-control-base-on-bucket-policy), complete settings in the following form.
 
 ![](../../../../image/Object-Storage-Service/OSS-133.png)
 
@@ -130,7 +130,7 @@ At the same time, you need to be aware that for OSS, Bucket ACL and Bucket polic
 **Description:**
 
 -  Do Not Currently Support **All Request Redirects**.
--  For details, refer to [Static Website Hosting Setting](https://docs.jdcloud.com/cn/object-storage-service/set-bucket-website-2), for API, please refer to[put bucket website](https://docs.jdcloud.com/cn/object-storage-service/put-bucket-website-2)。
+-  For details, refer to [Static Website Hosting Setting](https://docs.jdcloud.com/en/object-storage-service/set-bucket-website-2), for API, please refer to[put bucket website](https://docs.jdcloud.com/en/object-storage-service/put-bucket-website-2)。
 
 
 ##### Operation Steps
@@ -169,7 +169,7 @@ To delete OSS Bucket, currently the following conditions must be met:
 
 **Description:**
 
-You can use CORS to build web applications and use javaScript and HTML5 to access resources directly in OSS. For details, see [Cross-Origin Resource Sharing Setting](https://docs.jdcloud.com/cn/object-storage-service/set-bucket-cors-2), for API please refer to [put bucket cors](http://docs.jdcloud.com/cn/object-storage-service/put-bucket-website-2)。
+You can use CORS to build web applications and use javaScript and HTML5 to access resources directly in OSS. For details, see [Cross-Origin Resource Sharing Setting](https://docs.jdcloud.com/en/object-storage-service/set-bucket-cors-2), for API please refer to [put bucket cors](http://docs.jdcloud.com/en/object-storage-service/put-bucket-website-2)。
 
 ##### Operation Steps
 
@@ -187,7 +187,7 @@ You can use CORS to build web applications and use javaScript and HTML5 to acces
 
 **Description:**
 
-* Expired Objects can be automatically deleted to facilitate maintenance and reduce cost during the use of Bucket. For details, see [Life Cycle Management](https://docs.jdcloud.com/cn/object-storage-service/lifecycle), for API please refer to[put bucket lifecycle](../API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Put-Bucket-Lifecycle.md).
+* Expired Objects can be automatically deleted to facilitate maintenance and reduce cost during the use of Bucket. For details, see [Life Cycle Management](https://docs.jdcloud.com/en/object-storage-service/lifecycle), for API please refer to[put bucket lifecycle](../API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Put-Bucket-Lifecycle.md).
 * Currently only support deleting objects, and do not support **the automatic deletion of converted storage type and unsynthesized expired shard**.
 
 

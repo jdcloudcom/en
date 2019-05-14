@@ -1,6 +1,6 @@
 # Billing Rules
 
-The following description is only for instances. If you need to check the instance association resource billing rules, please refer to [Cloud Disk Billing Documentation](http://docs.jdcloud.com/cn/cloud-disk-service/price-overview) and [Elastic IP Billing Documentation](../../../Networking/Elastic-IP/Pricing/Billing-Overview.md). The instance of JD Cloud provides two billing methods for different business scenario requirements, namely, monthly package billing and billing by configuration.
+The following description is only for instances. If you need to check the instance association resource billing rules, please refer to [Cloud Disk Billing Documentation](http://docs.jdcloud.com/en/cloud-disk-service/price-overview) and [Elastic IP Billing Documentation](../../../Networking/Elastic-IP/Pricing/Billing-Overview.md). The instance of JD Cloud provides two billing methods for different business scenario requirements, namely, monthly package billing and billing by configuration.
 
 ## Monthly Package Billing
 
@@ -34,7 +34,7 @@ In the pay-as-you-go mode, the bill for the previous hour will be generated acco
 
 ### Instructions for Service Stop Due to Arrears
 * If the available balance of your account (including cash balance, available coupons) cannot settle the issued bill of the instance, the system will determine the instance in arrears and your instance billing state will become in arrears;
-* When your Virtual Machines become in arrears, the services will be stopped 24 hours after the arrears, and you will not be billed after the services are stopped;
+* When your Virtual Machines become in arrears, the services will be stopped after the arrears, and you will not be billed after the services are stopped;
 * When your Virtual Machines become in arrears, a resource arrears notice will be sent to you. Please pay attention to check the notice and recharge it in time to avoid unnecessary losses. Please refer to the expiration & arrears reminder for details.
 * Your instance and the data in the instance will be retained for 7 days from the time when the services are stopped. 7 days later, a resource release notice will be sent to you. After the resource is recovered, the data cannot be retrieved;
 * When you make up the arrears, the resources will be automatically restored and the billing will be restarted. If the instance is not restored to the running state after the recharge, please manually [Start Instance](../Operation-Guide/Instance/Start-Instance.md);
@@ -61,7 +61,7 @@ Free use of monitoring and Load Balancer|Support|Support
 * An instance billed under monthly package cannot be converted into the one billed by configuration
 
 ## Related Reference
-[Cloud Disk Billing Documentation](http://docs.jdcloud.com/cn/cloud-disk-service/price-overview)
+[Cloud Disk Billing Documentation](http://docs.jdcloud.com/en/cloud-disk-service/price-overview)
 
 [Elastic IP Billing Documentation](../../../Networking/Elastic-IP/Pricing/Billing-Overview.md)
 

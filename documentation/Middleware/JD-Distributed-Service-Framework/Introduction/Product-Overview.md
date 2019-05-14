@@ -1,7 +1,7 @@
 
 # Product Overview
 
-JD Cloud Distributed Service Framework is a hosted service governance framework, which can provide all-round functions of service deployment, registration, discovery, call, monitoring, etc. around the whole life cycle of the Microservice. It fully adapts to Spring Cloud framework. It uses native Spring Cloud packages to connect to Registration Center, Configuration Center and Calling Chain Analysis Service of JD Cloud Distributed Service Framework. Relied on JD Cloud's infrastructures featured by multiple data centers with high speed network connection in the same city, all components of the product all are capable of high availability, so that users will no longer worry about service interruption due to lightning strikes, cable digging and other anomalies.
+JD Cloud Distributed Service Framework (hereinafter referred to as JDSF) is a hosted service governance framework, which can provide all-round functions of service deployment, registration, discovery, call, monitoring, and others around the whole life cycle of the JD Distributed Service, facilitating implementation by users of JD Distributed Service Applications such as Spring Cloud and Dubbo. With the native Spring Cloud package, Registration Center, Configuration Center and Calling Chain Analysis Service of JD Distributed Service Framework can be accessed; relied on JD Cloud's infrastructures featured by multiple data centers with high speed network connection in the same city, all components of the product all are capable of high availability, so that users will no longer worry about service interruption due to lightning strikes, cable digging and other exceptions.
 
 
 ##### Description: 
@@ -27,7 +27,7 @@ The product is in Beta period and free in the period. The Beta version is the fo
 
 
 ## Billing
-JD Cloud Distributed Service Framework is charged for registration center and calling chain analysis services, and the price is related to the selected service instance type. Configuration Management Service relies on the Registration Center, used for free. At present, the product is in the Beta stage, and all services are completely free of charge.
+JD Distributed Service Framework is charged for Registration Center and Calling Chain Analysis Service, and the price is subject to the selected service instance type. Configuration Management Service relies on the Registration Center, used for free. At present, the product is in the Beta stage, and all services are completely free of charge.
 
 For details, refer to: [Billing Instructions](../Pricing/Billing-Overview.md)
 

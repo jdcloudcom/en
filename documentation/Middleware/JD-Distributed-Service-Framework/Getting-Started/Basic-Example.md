@@ -1,22 +1,21 @@
 # Examples for Getting Started
 
-At present, we have provided introductory examples of the following languages:
+Now, we provide support to mainstream JD Distributed Service Framework such as Spring Cloud and Dubbo and realize backup to various languages.
 
+Select entry examples depending on Java language:
+
+-   Spring Cloud Framework: [Download Link of Example Project](https://github.com/jdcloud-cmw/jdsf-demo-springcloud)
+
+-   Spring Cloud + K8S Framework [Download Link of Example Project](https://github.com/jdcloud-cmw/jdsf-demo-springcloud-kubernetes)
+
+-   Dubbo Framework: [Download Link of Example Project](https://github.com/jdcloud-cmw/jdsf-demo-dubbo)
+
+
+Select entry examples depending on other languages:
 
 -   Python : [Example Project Download Link](https://github.com/jdcloud-cmw/jdsf-demo-python)
 
-
 -   Dotnet : [Example Project Download Link](https://github.com/jdcloud-cmw/jdsf-demo-dotnet)
-
-
--   Spring Cloud : [Example Project Download Link](https://github.com/jdcloud-cmw/jdsf-demo-springcloud)
-
-
--   Spring Cloud + K8S : [Example Project Download Link](https://github.com/jdcloud-cmw/jdsf-demo-springcloud-kubernetes)
-
-
--   Dubbo : [Example Project Download Link](https://github.com/jdcloud-cmw/jdsf-demo-dubbo)
-
 
 -   Go : [Example Project Download Link](https://github.com/jdcloud-cmw/jdsf-demo-go)
 
@@ -29,6 +28,8 @@ Let's take an example of Spring Cloud to illustrate the calling method.
 1. JDK of version 1.8 or above is required;<br />
 2. Download example project: [Download link of the example project](https://github.com/jdcloud-cmw/jdsf-demo-springcloud)<br />
 3. The Demo is idea project with the construction tool of maven. If your environment also is idea + maven, then you can directly download and use it. Otherwise you shall create your project according to your own tools and environment;<br />
+4. Where the configuration spring.cloud.consul.discovery.prefer-ip-address=true is missing in the configuration file, it needs to add the Local Name Local IP in the host file of Virtual Machines;<br />
+5. Safety polices of VPC shall grant access permissions to Consul of Registration Center, to guarantee normal conduct of service exploration.<br />
 
 
 # Project Structure

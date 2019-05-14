@@ -7,13 +7,13 @@ After creating bucket and uploading objects to the bucket, you can share and dow
 
 2.Find the object to be shared and downloaded and click **Obtain external link**:
 
-![获取外链](../../../../image/Object-Storage-Service/OSS-015.png)
+![分片管理](../../../../image/Object-Storage-Service/OSS-015.png)
 
 3.If access permission of current bucket is private read and private write or customized permission, the below popup will show after clicking **Obtain external link**, that means you need to set the valid time of the link before obtaining the external link of the object:
 
 ![有效期](../../../../image/Object-Storage-Service/OSS-016.png)
 
-4.after finishing time set, click obtain external link to generate external link; you can replicate the external link by pressing the button on the right side of the external link ;
+4.after finishing time set, click **Obtain external link** to generate external link; you can replicate the external link by pressing the button on the right side of the external link ;
 
 ![复制外链](../../../../image/Object-Storage-Service/OSS-017.png)
 

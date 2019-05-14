@@ -49,7 +49,7 @@ items:
           herf: Operation-Guide/Cluster/Create-Cluster.md
         - name: View Information of Registration Center
           herf: Operation-Guide/Cluster/Cluster-Detail.md
-        - name: Scaling
+        - name: Expansion
           herf: Operation-Guide/Cluster/Expansion-Cluster.md
         - name: Delete Registration Center
           herf: Operation-Guide/Cluster/Delete-Cluster.md

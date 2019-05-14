@@ -10,7 +10,7 @@ Click the name of the configuration item, as shown in the figure "Configuration 
 ### Step 2: Select the current version as the parent version; enter the configuration details, and click Generate a New Version under action to enter the version edit page. Generate a new version after saving.
  
 
-  ![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/config-vision-add.png)
+  ![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/config-vision-add-new.png)
   
 #### Note:
 - The default parent version number here is the version number you selected in the previous step.
@@ -21,7 +21,7 @@ Click the name of the configuration item, as shown in the figure "Configuration 
 ### Step 3: Release new version.
 - If you need to release a new version, directly select the version to be released and click Release button.
 - And then fill in the release information to configure the release.
-  ![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/config-vision-publish.png)
+  ![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/config-vision-publish-new.png)
   
   
   

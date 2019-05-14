@@ -1,7 +1,7 @@
 # Description of Billing Method
 #### Billing Rules
 
-JD Cloud provides a variety of billing modes for different user demands, namely [Pay by Monthly Package](http://docs.jdcloud.com/cn/billing/subscription), [Pay By Configuration](http://docs.jdcloud.com/cn/billing/pay-as-you-go) and [Pay By Consumption](http://docs.jdcloud.com/cn/billing/pay-as-you-go) respectively. The JD Cloud Application Security Gateway (VPC-WAF) currently adopts the billing method of paying by monthly package.
+JD Cloud provides a variety of billing modes for different user demands, namely [Pay by Monthly Package](http://docs.jdcloud.com/en/billing/subscription), [Pay By Configuration](http://docs.jdcloud.com/en/billing/pay-as-you-go) and [Pay By Consumption](http://docs.jdcloud.com/en/billing/pay-as-you-go) respectively. The JD Cloud Application Security Gateway (VPC-WAF) currently adopts the billing method of paying by monthly package.
 
 #### Monthly Package Billing
 
@@ -19,7 +19,7 @@ Monthly Package Billing Instance Renewal: Expand the use duration of Application
 
 Renewal instruction for trial version: JD Cloud Application Security Gateway (VPC-WAF) provides a 6-month usage time by default and the trial version does not support renewal. If you need to renew it, please upgrade the trial version to another version first before renewal. Or, after the trial version expires, you can reapply for the trial version and disassociate the Load Balancer that was associated to the trial version previously and then associate it to the new VPC-WAF trial version instance. The new VPC-WAF trial version instance will perform security protection for all HTTP/HTTPs traffic passing through the Load Balancer.
 
-The paid version can be renewed according to the normal rules. For the detailed renewal instruction, please refer to [Renew Management](https://docs.jdcloud.com/cn/online-buying/renew-management)
+The paid version can be renewed according to the normal rules. For the detailed renewal instruction, please refer to [Renew Management](https://docs.jdcloud.com/en/online-buying/renew-management)
 
 
 #### Expiration & Overdue Rules

@@ -24,4 +24,4 @@ Click the name of the configuration item. Enter the version list page.
    
 ### Step 4: View the version details.
 Click the version number name to view the version details.
-   ![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/config-vision-detail.png)
+   ![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/config-vision-detail-new.png)

@@ -1,5 +1,7 @@
 # Core Concepts
 
+Before you use the product Object Storage Service, please read the basic concept of Object Storage Service. The document specifies in detail the creation and naming rules of Bucket and Object and definitions of Region, Endpoint, AccessKey and others, which can help you better understand and use OSS.
+
 |English|Chinese|Description|
 | - | - | - |
 |Bucket|Bucket|Bucket is the fundamental organization unit of data in Object Storage Service and all data must be a Bucket. The name of Bucket is globally unique, global refers to the regions supported by OSS. If you create a Bucket of a certain name, then other users cannot create a Bucket with the same name|

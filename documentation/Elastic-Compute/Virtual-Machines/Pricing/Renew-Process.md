@@ -24,7 +24,7 @@ You can renew the instance from the following two accesses:
 	2. Select the region, and you can find the instance that needs to be renewed by condition search;
 	3. Click **Operate** - **More** - **Renew** to jump to corresponding renewal page；<br>
 	![](https://github.com/jdcloudcom/cn/blob/edit/image/vm/renew.png)
-	4. For detailed operation and detailed procedure on the renewal page, please refer to [Renew Management](http://docs.jdcloud.com/cn/online-buying/renew-management).
+	4. For detailed operation and detailed procedure on the renewal page, please refer to [Renew Management](http://docs.jdcloud.com/en/online-buying/renew-management).
 
 
 ## Related Reference
@@ -33,7 +33,7 @@ You can renew the instance from the following two accesses:
 
 [Virtual Machines Console](https://cns-console.jdcloud.com/host/compute/list);
 
-[Renew Management](http://docs.jdcloud.com/cn/online-buying/renew-management)
+[Renew Management](http://docs.jdcloud.com/en/online-buying/renew-management)
 
 
 

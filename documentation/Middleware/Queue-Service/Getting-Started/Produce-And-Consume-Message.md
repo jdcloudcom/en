@@ -87,7 +87,7 @@ Take Java SDK as an example to illustrate; other for methods and development lan
 
 For the latest version number of Java SDK, please [View](https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk).
 
-Or download [AWS SDK](https://aws.amazon.com/cn/sdk-for-java/) to add by yourself.
+Or download [AWS SDK](https://aws.amazon.com/en/sdk-for-java/) to add by yourself.
 
 2. Initialize, and fill in the AK&SK, access point and Region information.
 

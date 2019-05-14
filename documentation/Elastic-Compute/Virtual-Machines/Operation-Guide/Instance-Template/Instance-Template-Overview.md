@@ -1,4 +1,4 @@
-# Instance Template Overview (in beta)
+# Instance Template Overview
 The instance template is the configuration information template for the instance creation provided by JD Cloud, including the image, instance type, type and capacity of system disk and data disk, VPC and subnet configuration, security group, and login information, etc. Instance templates can be used to create instances and to configure Availability Groups, and instance templates must be specified when creating  Availability Groups. You don't have to re-specify the parameters that are included in the instance template each time you create an instance, which can shorten the deployment time.
 	
 	Note: Once an instance template is created, its attributes will not be editable.
