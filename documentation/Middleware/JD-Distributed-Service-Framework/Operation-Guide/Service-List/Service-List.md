@@ -3,8 +3,11 @@
 Service is the basic unit of microservice platform management. Currently, the console can search the service content under the service under the registration center.
 
 #### Entry
+
 -	Middleware>JD Distributed Service Framework>Service Registration>Service Management.
--	Middleware>JD Distributed Service Framework>Service Registration>Registration Center, to view the service management of a certain cluster
+
+-	Middleware>JD Distributed Service Framework>Service Registration>Registration Center, to view service management of a specific cluster
+
 
 
 ###  Service Management List

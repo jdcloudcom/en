@@ -1,5 +1,5 @@
 # Report Monitoring Data
-The function of Custom Metric Monitoring provides you with an interface for reporting monitoring data, so that you can report the time series data collected by yourself to the Monitoring. OpenAPI and command line tool CLI are currently supported for reporting; raw data and aggregated statistics can be reported.  
+The function of Custom Metric Monitoring provides you with an interface for reporting monitoring data, so that you can report the time series data collected by yourself to the Monitoring. OpenAPI and command line tool CLI are currently supported for reporting.  
 ## OpenAPI Reporting
 
 ### Reporting Interface Description
@@ -48,8 +48,8 @@ dimensions|Object |True|Data dimension, data type is map type, support at least 
 metric|	String |True |Metric name, no more than 255 bytes in length, only English, numbers, underlines_, dot., [0-9][a-z] [A-Z] [. _ ] are allowed, others will return err               
 namespace|	String |True |Naming space,  no more than 255 bytes in length, only English, numbers, underlines_, dot., [0-9][a-z] [A-Z] [. _ ] are allowed, others will return er               
 timestamp|Integer|True|Timestamp for reporting data points only supports 10-bit, second timestamp, the time of the past 30 days cannot be written in                              
-type |Integer|True | Data reporting type, 1 is the original value, 2 is aggregated data. When the aggregated data is reported, it is suggested that it shall be reported during the period of 60s, otherwise, it cannot be queried normally.                           
-values |	Object |	True | Metric value collection, the data type must be the map type, key is the data type, value is the data value, when type=1, key only can be “value”, the reported is the original value, when type=2, key can be "avg”, "sum”, "last”, "max”, "min”, “count”, which only support the above types, otherwise it will report an error, value contents are integers or floating point numbers, the largest value is 9223372036854775807, count only supports numbers >=0  
+type |Integer|True |Data type, only the value 1, original data, can be entered now.                          
+values |	Object | True |In the indicator value set, the data type must be the map type, key is the data type, value is the data value, type=1 is supported now and key only can be “value”.  
 
 ### Return Parameter  
 
@@ -112,8 +112,7 @@ Request Sample
 			"timestamp": 1552446075,
 			"type": 2,
 			"values": {
-				"avg": "80",
-				"max": "32424244120"
+				"value": "12342213"
 			}
 		}
 	]

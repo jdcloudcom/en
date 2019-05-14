@@ -8,11 +8,11 @@ Configuration management provides users with the service to configure the applic
 
 ### Configure Management List
 
- ![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/config-list.png)
+ ![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/config-list-new.png)
 
 ### Release History
 Select a configuration in the configuration management list to view the release history information of that configuration.
 
 
- ![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/config-vision-history.png)
+ ![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/config-vision-history-new.png)
 

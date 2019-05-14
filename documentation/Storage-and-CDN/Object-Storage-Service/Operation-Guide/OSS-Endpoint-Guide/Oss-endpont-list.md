@@ -13,7 +13,7 @@ Intranet and Internet of Endpoint in each region are configured as below:
 |cn-north-1|cn-north-1|s3.cn-north-1.jdcloud-oss.com|Yes|s3-internal.cn-north-1.jdcloud-oss.com|Yes|
 |cn-south-1|cn-south-1|s3.cn-south-1.jdcloud-oss.com|Yes|s3-internal.cn-south-1.jdcloud-oss.com|Yes|
 |cn-east-2|cn-east-2|s3.cn-east-2.jdcloud-oss.com|Yes|s3-internal.cn-east-2.jdcloud-oss.com|Yes|
-|cn-east-1 2|cn-east-1|s3.cn-east-1.jdcloud-oss.com|Yes|s3-internal.cn-east-1.jdcloud-oss.com|Yes|
+|cn-east-1|cn-east-1|s3.cn-east-1.jdcloud-oss.com|Yes|s3-internal.cn-east-1.jdcloud-oss.com|Yes|
 
 **Description:** 
 

@@ -1,7 +1,7 @@
 #  View Information of Registration Center
 
 ## Operation Steps:
-###  Step 1: Select the registration center to be operated
+###  Step 1: Log in the Registration Center Menu under JD Distributed Service Framework and select the registration center to be operated
 Click "Cluster Information" action on the right side of the list.
  ![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/zczx-list.png)
  

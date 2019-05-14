@@ -79,7 +79,7 @@ A: Anti-DDoS Pro sets up error code pages for the following special cases, and y
 |ERROR 524 |	The server is busy	. The origin server is busy. |	The origin server is busy. Please access later. |
 
 An example of the error page style:
-![](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/error%20page.png)
+![](https://github.com/jdcloudcom/en/blob/edit/image/Advanced%20Anti-DDoS/error%20page.png)
 
 **Q: What is backup IP? What's the benefit of configuring a backup IP?**
 
@@ -96,7 +96,7 @@ The benefits of configuring backup IP are:
 
 As an example of non-web service settings, the schematic diagram is as follows:
 
-![](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/instruction%2001.png)
+![](https://github.com/jdcloudcom/en/blob/edit/image/Advanced%20Anti-DDoS/instruction%2001.png)
 
 You can expand the “Product Graphic Instructions” on the Instance Details page to view the diagram.
 
@@ -115,7 +115,7 @@ A: It supports.Anti-DDoS Pro supports custom port to meet access requirements fo
 **Q: What is an HTTP back-to-origin?**
 
 A: As shown in the figure below, after the HTTP back-to-origin is turned on, it returns to server via  Anti-DDoS Pro and will be translated into the protocol back-to-origin of HTTP. The back-to-origin port used by default is 80.
-![](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/HTTP%20rule%2001.png)
+![](https://github.com/jdcloudcom/en/blob/edit/image/Advanced%20Anti-DDoS/HTTP%20rule%2001.png)
 
 If the port is customized by HTTP, the port back-to-origin of custom port will be used.
 
@@ -124,3 +124,11 @@ If the port is customized by HTTP, the port back-to-origin of custom port will b
 A: The China Telecom Line of Anti-DDoS Pro has already supported IPv6 ISP-Lines, you can only select IPV4 addresses or select both IPV4 and IPV6 addresses according to your needs when you purchase new instances.
 
 Restrictions: Unicom and CMCC ISP-Lines temporarily do not support IPV6; the purchased IPV4 instances temporarily do not support to upgrade to IPV6; IP addresses of back-to-origin do not support to configure IPV6. If you have special requirements, please submit ticket feedback.
+
+**Q: After Advanced Anti-DDoS Pro is accessed, how to get the true client IP?**
+
+A: For the (four-layer) non-web service access, the origin server needs to get the true client IP with the TOA module, if traffic is forwarded via the TCP port. When the UDP port is used for forwarding, the origin server cannot get the true client IP.
+
+For the (seven-layer) web service access, as the seven-layer server is used as the agent, the origin server will observe the IP Address of the proxy server by default. We can get the client’s true IP Address via the field X-Forwarded-For in the HTTP header. The format is as follows: **X-Forwareded-For: user’s true IP, IP of proxy server 1, IP of proxy server 2, IP of proxy server 3,...**
+
+Regardless of how many proxy servers are applied (for example, the traffic passes through Anti-DDoS Pro at first, then WAF, LB and other proxy servers), the user’s true request IP will always be located at the first location of X-Forwareded-For.

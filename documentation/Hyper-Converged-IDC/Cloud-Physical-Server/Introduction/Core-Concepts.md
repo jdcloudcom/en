@@ -34,11 +34,11 @@ The following is the regions and availability zones where the data centers with 
     <tr>   
         <td rowspan="5"><B>Mainland China</B></td>
 		<td rowspan="2">cn-north-1</td>
-		<td >Availability Zone A, Availability Zone C</td>
+		<td >Availability Zone C</td>
 		<td >In Preparation</td>
     </tr>
     <tr>  
-	<td >Availability Zone B</td>
+	<td >Availability Zone A, Availability Zone B</td>
 	<td >Open</td>
     </tr>
     <tr>   
@@ -59,9 +59,11 @@ The following is the regions and availability zones where the data centers with 
 </table>
 
 
-
 ### Private IP
 Under the basic network mode, the private IP address under the subnet specified by the user is allocated uniformly by the system. If you change the private IP in the operating system, the intranet communication will be cut off. Communication traffic via private IP between Cloud Physical Servers in the same data center is free. Private IP is used for accessing each other of intranets between Cloud Physical Servers.
 
 ### Public IP
-Public IP address is the main method for users to access Cloud Physical Server and for Cloud Physical Server instance to provide external service. Under the basic network mode, a cloud physical server can only be associated with one Public IP. You may adjust the bandwidth peak of Public IP dynamically. The user may choose not to purchase the Public IP, but he cannot add Public IP in the future.
+EIP address is the main method for users to access Cloud Physical Server and for Cloud Physical Server instance to provide external service. One Cloud Physical Server can only be associated with one Public IP. You may adjust the bandwidth peak of EIP dynamically.<br/>
+If the user decides to purchase no Public IP when creating the Cloud Physical Server in the basic network mode, no Public IP can be added subsequently.<br/>
+If the user decides to purchase no Public IP when creating the Cloud Physical Server in the VPC mode, Elastic IP can be still added subsequently only by selecting the Cloud Physical Server and associating EIP.<br/>
+

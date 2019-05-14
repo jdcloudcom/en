@@ -7,6 +7,8 @@ See Table 1 for the details when the function supported by Function runs.
 
 Table 1: List Upon Function Running
 
-| Type Upon Running | Description           | Document Link |
-| ---------- | -------------- | -------- |
-| Python 3   | Python 3.6 Version | [Programming Model](programming-model/basic-concept.md) |  
+| Type Upon Running |   Document Link |
+| ---------- | -------- |
+| Python 2.7 Version   |  [Programming Model](programming-model/basic-concept.md) |  
+| Python 3.6 Version   |  [Programming Model](programming-model/basic-concept.md) | 
+| Python 3.7 Version   |  [Programming Model](programming-model/basic-concept.md) | 

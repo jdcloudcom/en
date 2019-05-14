@@ -58,6 +58,7 @@
 14.Q: Can third party software be installed to the Cloud Physical Server?
 
 &nbsp;&nbsp;&nbsp;A: The physical server of JD Cloud does not limit customer’s installation of third party software by default, but users are required to maintain the security of the leased physical servers. Where the server is attacked due to user, the user may be warned by JD Cloud’s Security Department or even the network will be cut off.
+
 15.Q: What Security Services are supported to be accessed to Cloud Physical Server?
 
-&nbsp;&nbsp;&nbsp;AJD Cloud automatically offers up to 2Gbps traffic protection for your Public IP from malicious attack for free, please refer to Operation Guide for Enabling Anti-DDoS Basic [https://docs.jdcloud.com/en/anti-ddos-basic/anti-ddos-basic-started](https://docs.jdcloud.com/en/anti-ddos-basic/anti-ddos-basic-started); Besides, if you have purchased JD Cloud Web Application Firewall, please refer to Operation Guide for Configuring Web Application Firewall [https://docs.jdcloud.com/en/web-application-firewall/web-attack-protection](https://docs.jdcloud.com/en/web-application-firewall/web-attack-protection)
+&nbsp;&nbsp;&nbsp;AJD Cloud automatically offers up to 2Gbps traffic protection for your Public IP from malicious attack for free, please refer to Operation Guide for Enabling Anti-DDoS Basic [https://docs.jdcloud.com/anti-ddos-basic/anti-ddos-basic-started](https://docs.jdcloud.com/anti-ddos-basic/anti-ddos-basic-started); Besides, if you have purchased JD Cloud Web Application Firewall, please refer to Operation Guide for Configuring Web Application Firewall [https://docs.jdcloud.com/web-application-firewall/web-attack-protection](https://docs.jdcloud.com/web-application-firewall/web-attack-protection)

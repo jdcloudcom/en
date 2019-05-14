@@ -4,13 +4,45 @@
 
 You can logout offline if the filing information of domain name is no longer use and cannot logout online through service providers. Access the Communication Administration website where your domain name record number belongs to; download and print application form of logout of filing; and submit the form with your credentials to the Communication Administration where recorded. Please fill and submit the logout application form according to the requirement for filing in the forms and the mode of submission. The logout website domain name cannot access after check passed by Communication Administration. You can resubmit the filing application of this domain name after logout.
 
-For the forgotten filing password, refer to [How to Get Back the Password Filing in the Ministry](https://docs.jdcloud.com/cn/icp-license-service/icp-filing-password-recovery-method).
+For the forgotten filing password, refer to [How to Get Back the Password Filing in the Ministry](https://docs.jdcloud.com/en/icp-license-service/icp-filing-password-recovery-method).
 
-To download the logout filing application form, please visit: [Beijing](http://bcainfo.miitbeian.gov.cn/state/outPortal/queryMutualityDownloadInfo.action;jsessionid=1F8CDE6614FE88372567B8E480A1D342?id=7), [Guangdong](http://gdcainfo.miitbeian.gov.cn/state/outPortal/queryMutualityDownloadInfo.action;jsessionid=11D98F03D10723A0333BB562337D56C8?id=18), [Zhejiang](http://zcainfo.miitbeian.gov.cn/state/outPortal/queryMutualityDownloadInfo.action?id=31), [Jiangsu](http://jscainfo.miitbeian.gov.cn/state/outPortal/queryMutualityDownloadInfo.action?id=2), [Hebei](http://hbcainfo.miitbeian.gov.cn/state/outPortal/queryMutualityDownloadInfo.action?id=1), [Henan](http://hcainfo.miitbeian.gov.cn/state/outPortal/queryMutualityDownloadInfo.action;jsessionid=6D748424B16D9D7123D701E7F23DEDEA?id=1), [Shandong](http://imgs-storage.cdn.aliyuncs.com/help/beian/%E5%B1%B1%E4%B8%9C%E6%B3%A8%E9%94%80%E5%A4%87%E6%A1%88%E7%94%B3%E8%AF%B7%E8%A1%A8.doc?spm=5176.7736988.0.0.fLqgDU&file=%E5%B1%B1%E4%B8%9C%E6%B3%A8%E9%94%80%E5%A4%87%E6%A1%88%E7%94%B3%E8%AF%B7%E8%A1%A8.doc), [Shanxi](http://sxcainfo.miitbeian.gov.cn/state/outPortal/queryMutualityDownloadInfo.action;jsessionid=2BE81A301C27B3471D3C59ED431E3223?id=2)、[Hubei](http://ecainfo.miitbeian.gov.cn/state/outPortal/queryMutualityDownloadInfo.action?id=13), [Tianjin](http://tjcainfo.miitbeian.gov.cn/state/outPortal/queryMutualityDownloadInfo.action;jsessionid=36EB9C3312F87278EF8568B51DF49963?id=8), [Chongqing](http://cqcainfo.miitbeian.gov.cn/state/outPortal/queryMutualityDownloadInfo.action;jsessionid=85B1049BF601BC4F8D55112F85317D11?id=21), [Liaoning](http://lncainfo.miitbeian.gov.cn/state/outPortal/queryMutualityDownloadInfo.action;jsessionid=9BDFDA5DAF494982C45D6A8CD277C225?id=11), [Jinlin](http://jlcainfo.miitbeian.gov.cn/state/outPortal/queryMutualityDownloadInfo.action;jsessionid=32C6588B35102D127588F0A589956D8F?id=1), [Yunnan](http://yncainfo.miitbeian.gov.cn/state/outPortal/queryMutualityDownloadInfo.action;jsessionid=216CA3184F2412B2A347EC17FDDE7AA7?id=2), [Guizhou](http://gzcainfo.miitbeian.gov.cn/state/outPortal/queryMutualityDownloadInfo.action;jsessionid=C4C461304A00806C9FAC64BB253325AE?id=16), [Jiangxi](http://jxcainfo.miitbeian.gov.cn/state/outPortal/queryMutualityDownloadInfo.action;jsessionid=8EC4442121772B901CF1FA91934653EA?id=1), [Anhui](http://ahcainfo.miitbeian.gov.cn/state/outPortal/queryMutualityDownloadInfo.action;jsessionid=0C615D2696D48398E28670AEB8A2E5F6?id=12), [Fujian](http://fjcainfo.miitbeian.gov.cn/state/outPortal/queryMutualityDownloadInfo.action;jsessionid=F61855270D01B8A48840224BE2C783EA?id=6), [Guangxi](http://gxcainfo.miitbeian.gov.cn/state/outPortal/queryMutualityDownloadInfo.action;jsessionid=661BA0A41B8CED69985C5C17732FE97E?id=7), [Hainan](http://hncainfo.miitbeian.gov.cn/state/outPortal/queryMutualityDownloadInfo.action;jsessionid=9CB990A7B32D67C3061E673AB6767884?id=1), [Neimenggu](http://nmcainfo.miitbeian.gov.cn/state/outPortal/queryMutualityDownloadInfo.action;jsessionid=35AF73896F124C6BB06F6AF328B8733F?id=21), [Shaanxi](http://shxcainfo.miitbeian.gov.cn/state/outPortal/queryMutualityDownloadInfo.action;jsessionid=51A0874FEBC3C49F793FC38B4C87053F?id=16), [Qinghai](http://qhcainfo.miitbeian.gov.cn/state/outPortal/queryMutualityDownloadInfo.action;jsessionid=AB4723653C122BD3E67AD222EDB06946?id=9), [Ningxia](http://aliyun_portal_storage.oss-cn-hangzhou.aliyuncs.com/help%2Fbeian%2F%E5%AE%81%E5%A4%8F%E6%B3%A8%E9%94%80%E5%A4%87%E6%A1%88%E7%94%B3%E8%AF%B7%E8%A1%A8.doc?spm=5176.7736988.0.0.isa2SB&file=help%2Fbeian%2F%E5%AE%81%E5%A4%8F%E6%B3%A8%E9%94%80%E5%A4%87%E6%A1%88%E7%94%B3%E8%AF%B7%E8%A1%A8.doc), [Xinjiang](http://xjcainfo.miitbeian.gov.cn/state/outPortal/queryMutualityDownloadInfo.action;jsessionid=92F9FBEC9DE5D3E5BEC672E9804F56DA?id=16), [Gansu](http://gscainfo.miitbeian.gov.cn/state/outPortal/queryMutualityDownloadInfo.action;jsessionid=6FF388EF9F0BB2662F7A24AA3C17B801?id=20), [Tibet](http://xzcainfo.miitbeian.gov.cn/state/outPortal/queryMutualityDownloadInfo.action;jsessionid=7ACDC5FF4FD247C5FBD22F8D25F479A8?id=4), [Heilongjiang](http://hlcainfo.miitbeian
+To download the logout filing application form, please visit:
+
+| Region             | URL                 |
+| ---------------- | -------------------- |
+| Beijing           | bj.beian.miit.gov.cn |
+| Tianjin           | tj.beian.miit.gov.cn |
+| Chongqing           | cq.beian.miit.gov.cn |
+| Hebei Province           | he.beian.miit.gov.cn |
+| Shanxi Province           | sx.beian.miit.gov.cn |
+| Inner Mongolia Autonomous Region     | nm.beian.miit.gov.cn |
+| Liaoning Province           | ln.beian.miit.gov.cn |
+| Jilin Province           | jl.beian.miit.gov.cn |
+| Heilongjiang Province         | hl.beian.miit.gov.cn |
+| Jiangsu Province           | js.beian.miit.gov.cn |
+| Zhejiang Province           | zj.beian.miit.gov.cn |
+| Anhui Province           | ah.beian.miit.gov.cn |
+| Fujian Province           | fj.beian.miit.gov.cn |
+| Jiangxi Province           | jx.beian.miit.gov.cn |
+| Shandong Province           | sd.beian.miit.gov.cn |
+| He’nan Province           | ha.beian.miit.gov.cn |
+| Hubei Province           | hb.beian.miit.gov.cn |
+| Guangdong Province           | gd.beian.miit.gov.cn |
+| Guangxi Zhuang Autonomous Region   | gx.beian.miit.gov.cn |
+| Hainan Province           | hi.beian.miit.gov.cn |
+| Guizhou Province           | gz.beian.miit.gov.cn |
+| Yunnan Province           | yn.beian.miit.gov.cn |
+| Tibet Autonomous Region       | xz.beian.miit.gov.cn |
+| Shaanxi Province           | sn.beian.miit.gov.cn |
+| Gansu Province           | gs.beian.miit.gov.cn |
+| Qinghai Province           | qh.beian.miit.gov.cn |
+| Ningxia Hui Autonomous Region   | nx.beian.miit.gov.cn |
+| Xinjiang Uygur Autonomous Region | xj.beian.miit.gov.cn |
+
 Please click to access the relevant website and be deregistered as requested if filing in provinces below.
 
-- [Shanghai](https://beian.shca.gov.cn/)
-- [Sichuan](http://sccainfo.miitbeian.gov.cn/state/outPortal/queryMutualityDownloadInfo.action?id=11)(Account can apply for logout only when registered)
-- [Hunan](http://www.xca.gov.cn/TGJCMS/zwdt/index.htm)(All the online applications will be handled in a unified framework by local Communication Administration.)
+- [Shanghai](http://114.80.217.250/)
+- [Sichuan](http://sc.beian.miit.gov.cn)(Account can apply for logout only when registered)
+- [Hunan](http://hunca.miit.gov.cn/TGJCMS/bgfjxz2/3082.htm)(All the online applications will be handled in a unified framework by local Communication Administration.)
 
 If the information, such as filing number was forgotten, please query in Public Inquiry page of the ICP Filing Management System of the Ministry of Industry and Information Technology of the PRC ([www.beian.miit.gov.cn](https://www.beian.miit.gov.cn))

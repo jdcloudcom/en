@@ -40,7 +40,7 @@ Cross-Origin Resource Sharing (CORS) is a standard cross-origin solution provide
 
 2.Click **Cross-origin Access Settings** and the following is a list of CORS rules. Each bucket supports at most 10 rules by default. The description of each field of the rule list is as follows:
 
-a. Source Allowed Origin: Multiple sources allowing cross-origin requests can be assigned simultaneously. The configuration shall be with complete domain information, such as http://10.100.100.100:8001 or https://www.jcloud.com. Note: Do not omit the protocol name http or https, and bring the port too if the port is not default 80. If the domain name is uncertain, turn on the call debugging function of the browser to view the Origin in the header. The domain name supports the wildcard *; one * is allowed to be used in each domain name at most, such as https://*.jcloud.com. If the source is assigned as *, it means allowing the cross-origin requests from all sources.
+a. Source Allowed Origin: Multiple sources allowing cross-origin requests can be assigned simultaneously. The configuration shall be with complete domain information, such as http://10.100.100.100:8001 or https://www.jcloud.com. Note: Do not omit the protocol name http or https, and bring the port too if the port is not default 80. If the domain name is uncertain, turn on the call debugging function of the browser to view the Origin in the header. The domain name supports the wildcard \*; one * is allowed to be used in each domain name at most, such as https://\*.jcloud.com. If the source is assigned as \*, it means allowing the cross-origin requests from all sources.
 
 b. Allowed Method: Enabling corresponding methods according to demands will do, such as GET, PUT, POST, HEAD, and DELETE; may select all.
 

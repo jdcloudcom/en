@@ -6,7 +6,7 @@ Table 1: Account Resource Description Table
 
 | Resource                               | Default Value            |
 | ---------------------------------- | ----------------- |
-| Maximum number of functions allowed to be created under a single account   | 100               |
+| Maximum number of functions allowed to be created under a single account   | 100 (Increase quota by open ticket) |
 | Maximum number of versions allowed to be created under a single function   | 10                |
 | Maximum number of aliases allowed to be created under a single function   | 10                |
 | Maximum number of triggers allowed to be created under a single function   | 10                |
@@ -15,7 +15,7 @@ Table 1: Account Resource Description Table
 | Code deployment package size (compressed to be .zip file)   | 50MB              |
 | Original code size                       | 250MB             |
 | Maximum allowable deployment package size in a single region       | 1GB               |
-| Function concurrency in a single region               |20                    |
+| Function concurrency in a single region               |20 (Increase quota by open ticket) |
 | Environment variable number under a single function             | 128      |
 
 

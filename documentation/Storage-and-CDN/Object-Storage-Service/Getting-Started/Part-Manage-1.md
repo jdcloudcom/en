@@ -39,7 +39,8 @@ In case of multipart upload, Object will be cut into several Parts, and these Pa
 
 ### You can view the shard details in each multipart upload task
 
-to display the shard details in the multipart upload task. As shown in the figure:
+to display the shard details in the multipart upload task.
+As shown in the figure:
 
 ![分片管理](../../../../image/Object-Storage-Service/OSS-155.png)
 

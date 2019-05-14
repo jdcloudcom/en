@@ -7,9 +7,9 @@ Cloud Disk Service is a low-delay, high-persistence and high-reliability data bl
 
 Cloud Disk Service may be attached to any running Virtual Machines in the data center where the cloud disk is located. Cloud Disk Service is generally suitable for data requiring frequent updating (such as file system, log, database, etc.), and has the high-availability, high-reliability and high-performance characteristics.
 
-Based on different performances and physical devices, Cloud Disk Service is divided into two types, i.e. SSD Cloud Disk Service and Premium Hdd cloud disk. You may purchase, upgrade and management your Cloud Disk Service through the console.
+Cloud Disk Service can be divided into three types according to differences of performance and physical device, including Capacity Type HDD Cloud Disk, General Type SSD Cloud Disk and Performance Type SSD Cloud Disk. You may purchase, upgrade and manage your Cloud Disk Service through Console or OpenAPI.
 
-In order to better meet the requirements of actual application scenarios of different users, three new generation types of Cloud Disk Service have been put into service by JD Cloud Disk Service in regions of Shanghai, Suqian and Guangzhou: Capacity type HDD cloud disk, general type SSD cloud disk and performance type SSD cloud disk.
+Two former types, Premium Hdd Cloud Disk and SSD Cloud Disk, have been terminated, and OpenAPI creation will be supported until May 31, 2019.
 
 
 **Cloud Disk Snapshot Overview**

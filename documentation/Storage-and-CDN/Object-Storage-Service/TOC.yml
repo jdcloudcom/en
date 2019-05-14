@@ -1,5 +1,5 @@
 name: Object Storage Service
-href: 
+href:
 items:
  - name: Introduction
    items:
@@ -10,15 +10,15 @@ items:
       - name: Features
         href: Introduction/Features.md
       - name: Restrictions
-        href: Introduction/Restrictions.md 
-      - name: Application Scenarios 
-        href: Introduction/Application-Scenarios.md    
+        href: Introduction/Restrictions.md
+      - name: Application Scenarios
+        href: Introduction/Application-Scenarios.md
  - name: Pricing
    items:
       - name: Billing Overview
         href: Pricing/Billing-Overview.md
       - name: Free Quota
-        href: Pricing/Free-Tier-For-Oss.md         
+        href: Pricing/Free-Tier-For-Oss.md
       - name: Billing Rules
         href: Pricing/Billing-Rules.md
       - name: Price Overview
@@ -38,9 +38,11 @@ items:
       - name: Delete Object
         href: Getting-Started/Delete-Object-1.md
       - name: Delete Bucket
-        href: Getting-Started/Delete-Bucket-1.md      
+        href: Getting-Started/Delete-Bucket-1.md
+      - name: Shard Management
+        href: Getting-Started/Part-Manage-1.md
       - name: Set event notification
-        href: Getting-Started/Event-Notifications-1.md 
+        href: Getting-Started/Event-Notifications-1.md
  - name: Operation Guide
    items:
       - name: Sign up Service
@@ -50,7 +52,7 @@ items:
       - name: OSS Access Domain and Region
         href: Operation-Guide/OSS-Endpoint-Guide/Oss-endpont-list.md
       - name: OSS Access Domain Use Rules
-        href: Operation-Guide/OSS-Endpoint-Guide/Endpoint-Using-Rulers.md           
+        href: Operation-Guide/OSS-Endpoint-Guide/Endpoint-Using-Rulers.md
       - name: Bucket Management
         items:
            - name: Bucket Overview
@@ -58,11 +60,11 @@ items:
            - name: Create Bucket
              href: Operation-Guide/Manage-Bucket/Create-Bucket-2.md
            - name: Delete Bucket
-             href: Operation-Guide/Manage-Bucket/Delete-Bucket-2.md  
+             href: Operation-Guide/Manage-Bucket/Delete-Bucket-2.md
            - name: Set Bucket Policy
              href: Operation-Guide/Manage-Bucket/Set-Bucket-Policy-2.md
            - name: Cross-Origin Resource Sharing Setting
-             href: Operation-Guide/Manage-Bucket/Set-Bucket-CORS-2.md                 
+             href: Operation-Guide/Manage-Bucket/Set-Bucket-CORS-2.md
            - name: Static Website Hosting Setting
              href: Operation-Guide/Manage-Bucket/Set-Bucket-Website-2.md
            - name: Cross-regionReplication Setting
@@ -84,13 +86,13 @@ items:
           - name: Create Folder
             href: Operation-Guide/Manage-Object/Create-Folder.md
           - name: Search Object
-            href: Operation-Guide/Manage-Object/Search-Object.md	
+            href: Operation-Guide/Manage-Object/Search-Object.md
           - name: Get Object URL
             href: Operation-Guide/Manage-Object/Get-Object-URL.md
           - name: Delete Object
             href: Operation-Guide/Manage-Object/Delete-Object.md
           - name: Post Object
-            href: Operation-Guide/Manage-Object/Post-Object-1.md                  
+            href: Operation-Guide/Manage-Object/Post-Object-1.md
           - name: Consumption Monitoring
             href: Operation-Guide/Manage-Object/Usage-Monitoring.md
       - name: Permission Control
@@ -104,53 +106,53 @@ items:
            - name: Bucket Policy-based Permission Control
              href: Operation-Guide/Access-Control/Access-Control-Base-On-Bucket-Policy.md
       - name: Image Processing Guide
-        items:            
+        items:
           - name: Introduction
             href: Operation-Guide/Image-Service-Guide/Introduction-1.md
           - name: Access Rules of Image Processing
             href: Operation-Guide/Image-Service-Guide/Image-Access-Rules.md
           - name: Quick Use Image Service
-            href: Operation-Guide/Image-Service-Guide/Getting-Started-1.md  
+            href: Operation-Guide/Image-Service-Guide/Getting-Started-1.md
           - name: Image Zooming
             href: Operation-Guide/Image-Service-Guide/Resize-Images.md
           - name: Image Rotation
-            href: Operation-Guide/Image-Service-Guide/Rotate-Image.md 
+            href: Operation-Guide/Image-Service-Guide/Rotate-Image.md
           - name: Image Cropping
-            href: Operation-Guide/Image-Service-Guide/Crop-Images.md 
+            href: Operation-Guide/Image-Service-Guide/Crop-Images.md
           - name: Format Conversion
-            href: Operation-Guide/Image-Service-Guide/Convert-Format.md	
+            href: Operation-Guide/Image-Service-Guide/Convert-Format.md
           - name: Image Watermark
-            href: Operation-Guide/Image-Service-Guide/Add-Image-Watermarks.md 
+            href: Operation-Guide/Image-Service-Guide/Add-Image-Watermarks.md
           - name: Text Watermark
-            href: Operation-Guide/Image-Service-Guide/Add-Text-Watermarks.md 
+            href: Operation-Guide/Image-Service-Guide/Add-Text-Watermarks.md
           - name: Obtain Image Information
             href: Operation-Guide/Image-Service-Guide/Obtain-Image-Information.md
           - name: Face Recognition
-            href: Operation-Guide/Image-Service-Guide/Face-Recognition.md	
+            href: Operation-Guide/Image-Service-Guide/Face-Recognition.md
           - name: Image Porn Identification
-            href: Operation-Guide/Image-Service-Guide/Porn-Recognition.md  
+            href: Operation-Guide/Image-Service-Guide/Porn-Recognition.md
           - name: Original Image Protection
             href: Operation-Guide/Image-Service-Guide/Source-Image-Protection.md
           - name: Customized Delimiter
-            href: Operation-Guide/Image-Service-Guide/Delimiter-Guidance.md           
+            href: Operation-Guide/Image-Service-Guide/Delimiter-Guidance.md
           - name: Error Response
             href: Operation-Guide/Image-Service-Guide/Response-To-Errors.md
       - name: Video Processing Guide
-        items:                        
+        items:
           - name: Overview
             href: Operation-Guide/Video-Service-Guide/Video-Service-Guide-Overview.md
           - name: Quick Use Video Service
             href: Operation-Guide/Video-Service-Guide/Getting-Started-2.md
           - name: User Signature Verification
-            href: Operation-Guide/Video-Service-Guide/User-Signature-Authentication.md   
+            href: Operation-Guide/Video-Service-Guide/User-Signature-Authentication.md
           - name: Create Video Transcoding
-            href: Operation-Guide/Video-Service-Guide/Create-Video-Transcoding.md 
+            href: Operation-Guide/Video-Service-Guide/Create-Video-Transcoding.md
           - name: Get Video Task List
-            href: Operation-Guide/Video-Service-Guide/Get-Video-Task.md 
+            href: Operation-Guide/Video-Service-Guide/Get-Video-Task.md
           - name: Query Video Task
             href: Operation-Guide/Video-Service-Guide/Query-Video-Task.md
           - name: Delete Video Task
-            href: Operation-Guide/Video-Service-Guide/Delete-Video-Task.md	
+            href: Operation-Guide/Video-Service-Guide/Delete-Video-Task.md
  - name: API Documentation
    items:
       - name: S3 Compatible API Overview
@@ -158,9 +160,9 @@ items:
       - name: Regions And Endpoints
         href:  API-Reference-S3-Compatible/Regions-And-Endpoints.md
       - name: Compatible Signature Verification
-        href:  API-Reference-S3-Compatible/User-Signature-Authentication-s3.md  
+        href:  API-Reference-S3-Compatible/User-Signature-Authentication-s3.md
       - name: Compatible Public Header
-        href:  API-Reference-S3-Compatible/Compatibility-Header.md      
+        href:  API-Reference-S3-Compatible/Compatibility-Header.md
       - name: Compatible Interface
         items:
            - name: Compatible Interface Overview
@@ -169,34 +171,34 @@ items:
              items:
                - name: GetService
                  href: API-Reference-S3-Compatible/Compatibility-API/Service-Related/Get-Service-2.md
-           - name:  About Bucket Operation 
+           - name:  About Bucket Operation
              items:
                - name: Delete Bucket
                  href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Delete-Bucket-2-Compatibility-API.md
                - name: Delete Bucket cors
-                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Delete-Bucket-Cors-2.md           
+                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Delete-Bucket-Cors-2.md
                - name: Delete Bucket encryption
                  href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Delete-Bucket-Encryption-2.md
                - name: Delete Bucket policy
-                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Delete-Bucket-Policy-2.md 
+                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Delete-Bucket-Policy-2.md
                - name: Delete Bucket replication
-                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Delete-Bucket-Replication-2.md 
+                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Delete-Bucket-Replication-2.md
                - name: Delete Bucket website
                  href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Delete-Bucket-Website-2.md
                - name: Delete Bucket lifecycle
-                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Delete-Bucket-Lifecycle.md                 
+                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Delete-Bucket-Lifecycle.md
                - name: GET Bucket acl
-                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/GET-Bucket-Acl-2.md           
+                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/GET-Bucket-Acl-2.md
                - name: GET Bucket notification
                  href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/GET-Bucket-Notification-2.md
                - name: Get Bucket(ListObjects)
-                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Get-Bucket-2.md 
+                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Get-Bucket-2.md
                - name: Get Bucket cors
                  href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Get-Bucket-Cors-2.md
                - name: Get Bucket encryption
                  href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Get-Bucket-Encryption-2.md
                - name: Get Bucket policy
-                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Get-Bucket-Policy-2.md           
+                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Get-Bucket-Policy-2.md
                - name: Get Bucket replication
                  href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Get-Bucket-Replication-2.md
                - name: Get Bucket website
@@ -208,13 +210,13 @@ items:
                - name: List Multipart Uploads
                  href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/List-Multipart-Uploads-2.md
                - name: PUT Bucket notification
-                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/PUT-Bucket-Notification-2.md           
+                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/PUT-Bucket-Notification-2.md
                - name: Put Bucket
                  href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Put-Bucket-2.md
                - name: Put Bucket ACL
-                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Put-Bukcet-acl-2.md        
+                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Put-Bukcet-acl-2.md
                - name: Put Bucket cors
-                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Put-Bucket-Cors-2.md 
+                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Put-Bucket-Cors-2.md
                - name: Put Bucket encryption
                  href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Put-Bucket-Encryption-2.md
                - name: Put Bucket policy
@@ -222,9 +224,9 @@ items:
                - name: Put Bucket replication
                  href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Put-Bucket-Replication-2.md
                - name: Put Bucket website
-                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Put-Bucket-Website-2.md 
+                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Put-Bucket-Website-2.md
                - name: Put Bucket lifecycle
-                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Put-Bucket-Lifecycle.md    
+                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Put-Bucket-Lifecycle.md
            - name: About Object Operation
              items:
               - name: Abort Multipart Upload
@@ -247,14 +249,14 @@ items:
                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Objects/Post-Object-2.md
               - name: Put Object
                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Objects/Put-Object-2.md
-              - name: Put Object Copy	
+              - name: Put Object Copy
                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Objects/Put-Object-Copy-2.md
               - name: Upload Part
                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Objects/Upload-Part-2.md
-              - name: Upload Part Copy	
-                href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Objects/Upload-Part-Copy-2.md	                                     
+              - name: Upload Part Copy
+                href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Objects/Upload-Part-Copy-2.md
       - name: Error Response
-        href: API-Reference-S3-Compatible/Error-Response-2.md                
+        href: API-Reference-S3-Compatible/Error-Response-2.md
       - name: Expansion Interface
         items:
            - name: Compress Object
@@ -268,9 +270,9 @@ items:
            - name: Strong Consistency
              href: API-Reference/Introduction/Strong-Consistency.md
            - name: Compare OSS With File System
-             href: API-Reference/Introduction/OSS-Compared-With-File-System.md 
+             href: API-Reference/Introduction/OSS-Compared-With-File-System.md
            - name: OSS Glossary
-             href: API-Reference/Introduction/OSS-Concepts.md 
+             href: API-Reference/Introduction/OSS-Concepts.md
            - name: API Overview
              href: API-Reference/API-Overview.md
            - name: General HTTP Header Definition
@@ -290,13 +292,13 @@ items:
                - name: PutBucket
                  href: API-Reference/Bucket-Operations/PutBucket-1.md
                - name: GetBucket
-                 href: API-Reference/Bucket-Operations/GetBucket.md             
+                 href: API-Reference/Bucket-Operations/GetBucket.md
                - name: PutBucketReferer
-                 href: API-Reference/Bucket-Operations/PutBucketReferer.md 
+                 href: API-Reference/Bucket-Operations/PutBucketReferer.md
                - name: GetBucketReferer
-                 href: API-Reference/Bucket-Operations/GetBucketReferer.md 
+                 href: API-Reference/Bucket-Operations/GetBucketReferer.md
                - name: DeleteBucket
-                 href: API-Reference/Bucket-Operations/DeleteBucket-1.md               
+                 href: API-Reference/Bucket-Operations/DeleteBucket-1.md
            - name: Object Operations
              items:
               - name: PutObject
@@ -314,47 +316,53 @@ items:
               - name: CompleteMultipartUpload
                 href: API-Reference/MultipartUpload-Operations/CompleteMultipartUpload.md
               - name: ListMultipartUploads
-                href: API-Reference/MultipartUpload-Operations/ListMultipartUploads.md 
+                href: API-Reference/MultipartUpload-Operations/ListMultipartUploads.md
               - name: AbortMultipartUpload
-                href: API-Reference/MultipartUpload-Operations/AbortMultipartUpload.md 
+                href: API-Reference/MultipartUpload-Operations/AbortMultipartUpload.md
               - name: ListParts
                 href: API-Reference/MultipartUpload-Operations/ListParts.md
            - name: Error Response
              items:
               - name: Error Response List
-                href:  API-Reference/Response-To-Errors/Error-List.md 
+                href:  API-Reference/Response-To-Errors/Error-List.md
               - name: Error Response Structure
-                href: API-Reference/Response-To-Errors/Response-Structure.md   
+                href: API-Reference/Response-To-Errors/Response-Structure.md
  - name: SDK Documentation
    items:
        - name: Overview
-         href: API-Reference-S3-Compatible/Compatibility-Tools/Introduction-3.md   
+         href: API-Reference-S3-Compatible/Compatibility-Tools/Introduction-3.md
        - name: Compatible S3 Java SDK (Recommended)
          items:
             - name: Installation
               href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-Java/Installation-S3.md
             - name: Initialization
               href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-Java/Initialization-S3.md
+            - name: Storage Space
+              href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-Java/Bucket-JavaSDK.md
             - name: Simple Upload
               href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-Java/Simple-Upload-S3.md
             - name: Multipart Upload
-              href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-Java/Multipart-Upload-S3.md              
+              href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-Java/Multipart-Upload-S3.md
+            - name: Download
+              href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-Java/getObject-JavaSDK.md
+            - name: Management Object
+              href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-Java/Manage-Object-JavaSDK.md
        - name: Compatible S3  SDK-Python (Recommended)
-         href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-Python.md   
+         href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-Python.md
        - name: Compatible to S3  SDK-Go
-         href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-Go.md            
+         href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-Go.md
        - name: Compatible S3  SDK-PHP
          href:  API-Reference-S3-Compatible/Compatibility-Tools/SDK-PHP.md
        - name: Compatible S3  SDK-Android
          href:  API-Reference-S3-Compatible/Compatibility-Tools/SDK-Android.md
        - name: Compatible S3  SDK-iOS
-         href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-iOS.md      
+         href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-iOS.md
        - name: Compatible S3 SDK-.NET
-         href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-NET.md 
+         href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-NET.md
        - name: Compatible to S3 SDK-Node.js
          href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-Nodejs.md
        - name: Compatible with S3 SDK-Ruby
-         href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-Ruby.md     
+         href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-Ruby.md
        - name: Previous Version Java SDK (Not Recommended)
          items:
            - name: Installation
@@ -362,15 +370,15 @@ items:
            - name: Initialization
              href: SDK-Reference/Java-SDK/Initialization-3.md
            - name: Getting Started
-             href: SDK-Reference/Java-SDK/Quick-Start-3.md 
+             href: SDK-Reference/Java-SDK/Quick-Start-3.md
            - name: Create Bucket
-             href: SDK-Reference/Java-SDK/Create-Bucket-3.md 
+             href: SDK-Reference/Java-SDK/Create-Bucket-3.md
            - name: List Bucket
-             href: SDK-Reference/Java-SDK/List-Buckets-3.md  
+             href: SDK-Reference/Java-SDK/List-Buckets-3.md
            - name: Delete Bucket
-             href: SDK-Reference/Java-SDK/Delete-Bucket-3.md 
+             href: SDK-Reference/Java-SDK/Delete-Bucket-3.md
            - name: Simple Upload
-             href: SDK-Reference/Java-SDK/Simple-Upload-3.md 
+             href: SDK-Reference/Java-SDK/Simple-Upload-3.md
            - name: Multipart Upload
              href: SDK-Reference/Java-SDK/Multipart-Upload-3.md
            - name: Simple Download
@@ -393,32 +401,32 @@ items:
         href: Best-Practices/S3fs.md
       - name: IAM
         items:
-            - name: Bucket Policy Best Practices 
+            - name: Bucket Policy Best Practices
               href: Best-Practices/Bucket-Policy.md
             - name: Access Management Practices
               href: Best-Practices/Access-Control-And-Permission-Management/Access-Management-Practices.md
             - name: Cross-account Authorization Overview
               href: Best-Practices/Access-Control-And-Permission-Management/Cross-Account-Access-Overview.md
             - name: Authorize the sub-account to access OSS
-              href: Best-Practices/Access-Control-And-Permission-Management/Authorize-Sub-Account-Access.md            
+              href: Best-Practices/Access-Control-And-Permission-Management/Authorize-Sub-Account-Access.md
       - name: Anti-leech
-        href: Best-Practices/Anti-leech.md         
+        href: Best-Practices/Anti-leech.md
       - name: Use CloudBerry to Manage OSS
-        href: Best-Practices/CloudBerry-2.md 
+        href: Best-Practices/CloudBerry-2.md
       - name: Generate Presigned-URL
         href: Best-Practices/Signature-In-URL-1.md
       - name: Cross-origin Resource Sharing
         href:  Best-Practices/CORS.md
       - name: Data Migration Tool Osstransfer (Recommended)
-        href: Best-Practices/Migration-Tool.md 
-      - name: Data Migration Tool 
-        href: Best-Practices/Data-Migration-Tool.md 
-      - name: Use S3cmd to Manage OSS
+        href: Best-Practices/Migration-Tool.md
+      - name: Data Migration Tool
+        href: Best-Practices/Data-Migration-Tool.md
+      - name: Use S3cmdto Manage OSS
         href: Best-Practices/S3cmd.md
       - name: Use S3 Browser to Manage OSS
-        href: Best-Practices/Manage-OSS-With-s3browser.md        
+        href: Best-Practices/Manage-OSS-With-s3browser.md
       - name: Set Signature Authentication For Callback Server
-        href: Best-Practices/Setting-Signature-Authentication-For-Callback-Server.md        
+        href: Best-Practices/Setting-Signature-Authentication-For-Callback-Server.md
       - name: OSS Online Service Quick Verification Tools
         href: Best-Practices/OSS-Verification-Tool.md
       - name: Mobile Application Direct Transmission OSS
