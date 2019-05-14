@@ -5,7 +5,7 @@ You can directly use the [Virtual Machines Price Calculator] provided by JD Clou
 Please note: The price in the price overview is the unified official price excluding the user's discounts. To ensure the price accuracy, it is recommended that you log in and use the Virtual Machines price calculator or log in the Virtual Machines creation page at the console to view the configuration price.
 
 ## Billing Method
-Three billing methods are involved for related resources of the Virtual Machines: [Monthly Package Billing](http://docs.jdcloud.com/cn/billing/subscription), [Billing by Configuration](http://docs.jdcloud.com/cn/billing/pay-as-you-go) and [Billing by Consumption](http://docs.jdcloud.com/cn/billing/pay-as-you-go).
+Three billing methods are involved for related resources of the Virtual Machines: [Monthly Package Billing](http://docs.jdcloud.com/en/billing/subscription), [Billing by Configuration](http://docs.jdcloud.com/en/billing/pay-as-you-go) and [Billing by Consumption](http://docs.jdcloud.com/en/billing/pay-as-you-go).
 
 ## Billing Resources
 ### Instance
@@ -13,7 +13,7 @@ Three billing methods are involved for related resources of the Virtual Machines
 The instance is billed according to the number of vCPU cores and memory capacity corresponding to the type of your purchased instance. The billing methods include monthly package billing and billing by configuration.
 ### Cloud Disk
 
-The cloud disk is billed according to your purchased capacity. The billing methods include monthly package billing and billing by configuration. The cloud disk created along with the Virtual Machines has the same billing method as the instance. To ensure a consistent life cycle, you are advised to renew the instance along with its attached cloud disk. For details, please refer to [Cloud Disk Billing Documentation](http://docs.jdcloud.com/cn/cloud-disk-service/billing-rules)
+The cloud disk is billed according to your purchased capacity. The billing methods include monthly package billing and billing by configuration. The cloud disk created along with the Virtual Machines has the same billing method as the instance. To ensure a consistent life cycle, you are advised to renew the instance along with its attached cloud disk. For details, please refer to [Cloud Disk Billing Documentation](http://docs.jdcloud.com/en/cloud-disk-service/billing-rules)
 
 ### Elastic IP
 
@@ -27,13 +27,13 @@ Elastic IP (EIP for short) is billed based on the fixed bandwidth selected or th
 
 [Price Overview](Price-Overview.md)
 
-[Monthly Package Billing](http://docs.jdcloud.com/cn/billing/subscription)
+[Monthly Package Billing](http://docs.jdcloud.com/en/billing/subscription)
 
-[Billing by Configuration](http://docs.jdcloud.com/cn/billing/pay-as-you-go)
+[Billing by Configuration](http://docs.jdcloud.com/en/billing/pay-as-you-go)
 
-[Billing by Consumption](http://docs.jdcloud.com/cn/billing/pay-as-you-go)
+[Billing by Consumption](http://docs.jdcloud.com/en/billing/pay-as-you-go)
 
-[Cloud Disk Billing Documentation](http://docs.jdcloud.com/cn/cloud-disk-service/billing-rules)
+[Cloud Disk Billing Documentation](http://docs.jdcloud.com/en/cloud-disk-service/billing-rules)
 
 [Elastic IP Billing Documentation](../../../Networking/Elastic-IP/Pricing/Billing-Overview.md)
 

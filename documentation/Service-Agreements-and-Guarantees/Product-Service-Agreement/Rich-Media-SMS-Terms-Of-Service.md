@@ -167,7 +167,7 @@
 
     10.1 These Service Terms are subject to the jurisdiction of the laws of the People's Republic of China.
 
-    10.2 In the event of disputes arising from the performance of these Service Terms, the Parties shall promptly resolve the disputes. When the negotiation fails, either Party may file a lawsuit directly with the People’s Court of Daxing District of Beijing. <
+    10.2 In the event of disputes arising from the performance of these Service Terms, the Parties shall promptly resolve the disputes. When the negotiation fails, either Party may file a lawsuit directly with the People’s Court of Daxing District of Beijing.
 
     
 

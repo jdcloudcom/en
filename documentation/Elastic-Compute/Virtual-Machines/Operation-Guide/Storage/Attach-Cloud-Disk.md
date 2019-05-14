@@ -35,15 +35,15 @@ The multi-attachment cloud disk cannot be attached as a system disk. If you sele
 		* The instance needs to be in the "Stopped" status;
 	    * The capacity of the disk to be attached needs to be between 40GB~500GB.
 
-In addition, you can also perform attaching operation from the cloud disk console. Refer to [Cloud Disk Side Attaching](http://docs.jdcloud.com/cn/cloud-disk-service/attach-cloud-disk) for detailed steps.
+In addition, you can also perform attaching operation from the cloud disk console. Refer to [Cloud Disk Side Attaching](http://docs.jdcloud.com/en/cloud-disk-service/attach-cloud-disk) for detailed steps.
 
-The attaching state of the cloud disk in the tab page will be changed into "Attaching". It takes some time to attach the cloud disk. Please wait patiently and refresh the page. After the attaching succeeds, the attaching state will be changed into "Attached". After the cloud disk is attached, it also needs to be partitioned, formatted, etc. For details, see: [Linux System Data Disk Partitioning and Formatting](http://docs.jdcloud.com/cn/cloud-disk-service/linux-partition), [Windows System Disk Partitioning and Formatting](http://docs.jdcloud.com/cn/cloud-disk-service/windows-partition)
+The attaching state of the cloud disk in the tab page will be changed into "Attaching". It takes some time to attach the cloud disk. Please wait patiently and refresh the page. After the attaching succeeds, the attaching state will be changed into "Attached". After the cloud disk is attached, it also needs to be partitioned, formatted, etc. For details, see: [Linux System Data Disk Partitioning and Formatting](http://docs.jdcloud.com/en/cloud-disk-service/linux-partition), [Windows System Disk Partitioning and Formatting](http://docs.jdcloud.com/en/cloud-disk-service/windows-partition)
 
 
 ## Related Reference
 
-[Cloud Disk Side Attaching](http://docs.jdcloud.com/cn/cloud-disk-service/attach-cloud-disk)
+[Cloud Disk Side Attaching](http://docs.jdcloud.com/en/cloud-disk-service/attach-cloud-disk)
 
-[Linux System Data Disk Partitioning and Formatting](http://docs.jdcloud.com/cn/cloud-disk-service/linux-partition)
+[Linux System Data Disk Partitioning and Formatting](http://docs.jdcloud.com/en/cloud-disk-service/linux-partition)
 
-[Windows System Data Disk Partitioning and Formatting](http://docs.jdcloud.com/cn/cloud-disk-service/windows-partition)
+[Windows System Data Disk Partitioning and Formatting](http://docs.jdcloud.com/en/cloud-disk-service/windows-partition)

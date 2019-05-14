@@ -2,7 +2,7 @@
 
 ## Overview
 
-This document is based on [AWS .NET SDK](https://aws.amazon.com/cn/sdk-for-net/). JD Cloud object storage service supports the AWS S3 interface. For more information about compatible interfaces,
+This document is based on [AWS .NET SDK](https://aws.amazon.com/en/sdk-for-net/). JD Cloud object storage service supports the AWS S3 interface. For more information about compatible interfaces,
 see [Compatible Interface](../Compatibility-API/Compatibility-API-Overview.md).
 
 ## Environment Preparation

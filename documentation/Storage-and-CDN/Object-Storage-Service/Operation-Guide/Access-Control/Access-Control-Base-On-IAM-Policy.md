@@ -6,7 +6,7 @@ Bucket. The sub-account is subordinate to the primary account, and these account
 
 **Description**
 
-At present, OSS only supports access of sub-user only in IAM, and the role will be supported later. The premise of using IAM Policy to control the permissions of sub-users is that you must log in to the IAM console, create a new sub-user, and grant its corresponding access policy. [For details, refer to IAM](https://docs.jdcloud.com/cn/iam/core-concepts). And in current period, OSS does not support sub-account logging in the console. Your sub-account can only use API/SDK to complete various operations on OSS.
+At present, OSS only supports access of sub-user only in IAM, and the role will be supported later. The premise of using IAM Policy to control the permissions of sub-users is that you must log in to the IAM console, create a new sub-user, and grant its corresponding access policy. [For details, refer to IAM](https://docs.jdcloud.com/en/iam/core-concepts). And in current period, OSS does not support sub-account logging in the console. Your sub-account can only use API/SDK to complete various operations on OSS.
 
 If you have cross-account authorization requirements, please view. [Access Control Based on Bucket policy](./Access-Control-Base-On-Bucket-Policy.md), to complete the cross-account authorization.
 
@@ -31,7 +31,7 @@ Version: Version defines the version of IAM Policy. The element value of "versio
     - Resource: It describes and refers to a specific resource or some resources on OSS. This element is required. For more information about how to specify resources, refer to the text below
     [Use of OSS IN IAM Policy-Resource].
     
-    Policy needs to follow the JSON syntax specification. For more information, please refer to [IAM Policy-Policy Syntax](https://docs.jdcloud.com/cn/iam/elements).
+    Policy needs to follow the JSON syntax specification. For more information, please refer to [IAM Policy-Policy Syntax](https://docs.jdcloud.com/en/iam/elements).
     
 ### Use of OSS IN IAM Policy
 #### 1) Specify the Action
@@ -47,7 +47,7 @@ List of Action supported in this period in IAM Policy is as follows:
 |oss:ListBucket|List the Object in the Bucket|GET Bucket (List Objects), HEAD Bucket|Bucket Level Action |
 |oss:DeleteBucket|Delete the Bucket|DELETE Bucket|Bucket Level Action |
 |oss:ListBucketMultipartUploads|List All Multipart Upload Events in Execution in the Bucket|ListMultipartUploads|Bucket Level Action |
-|oss:* |All Actions Supported by OSS, Including Service Level Action, Bucket Level Action, Object Level Action| For list of all corresponding API, refer to [API Reference](https://docs.jdcloud.com/cn/object-storage-service/compatibility-api-overview)| Actions at All Levels |
+|oss:* |All Actions Supported by OSS, Including Service Level Action, Bucket Level Action, Object Level Action| For list of all corresponding API, refer to [API Reference](https://docs.jdcloud.com/en/object-storage-service/compatibility-api-overview)| Actions at All Levels |
 
 Example:
 
@@ -70,7 +70,7 @@ For example, with oss:GetObject permission, a user can perform a download operat
 For your OSS resources, the method for specifying in IAM Policy is as follows:
 Instead of specifying regions and namespaces, you can replace by "\*" as shown below. relative-id specifies your OSS resources, which can be bucket or some or a certain object therein. It supports the wildcard (\*) only currently.
 
- For details on description methods of various resources, refer to [IAM-Resource Description Methods](https://docs.jdcloud.com/cn/iam/resource)
+ For details on description methods of various resources, refer to [IAM-Resource Description Methods](https://docs.jdcloud.com/en/iam/resource)
  
 ```
 //Examples:

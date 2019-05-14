@@ -18,7 +18,7 @@ a. The rules are valid only for non-owner users. After the original image protec
 
 b. The original image protection is mainly for image files, and the suffixes of the protected images must be configured. For example, if the configuration limits the .png suffix files, the original images with the .jpg suffixes can still be accessed. Image formats supporting configuration include png, jpg, jpeg, gif, bmp, webp, svg, jp2 (jpeg 2000), tiff, jbig
 
-c. The original image protection supports the old and new interfaces for image processing, and also supports OSS domain names and compatible S3 domain names, we recommend to use [New Version Service Domain](https://docs.jdcloud.com/cn/object-storage-service/regions-and-endpoints)
+c. The original image protection supports the old and new interfaces for image processing, and also supports OSS domain names and compatible S3 domain names, we recommend to use [New Version Service Domain](https://docs.jdcloud.com/en/object-storage-service/regions-and-endpoints)
 
 ## Configuration rules
 

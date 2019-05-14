@@ -15,7 +15,7 @@ The basic concepts of the two are the same, but the syntax is slightly different
 Granting access permission refers to the control capability combination where the user can decide who, under what conditions, to which resources and perform which specific actions. Therefore, the description of an access permission behavior usually comprise of four elements: identity, resource, action and condition (optional).
 
 ### Identity of JD Cloud
-When the user applies for a JD Cloud account, the system creates a primary account identity to log in JD Cloud Service. The primary account can manage the users under various types with different responsibilities through the user management function. User types include sub-users and groups. For the specific definitions, refer to [Access Management-Identity Management](https://docs.jdcloud.com/cn/iam/sub-user) .
+When the user applies for a JD Cloud account, the system creates a primary account identity to log in JD Cloud Service. The primary account can manage the users under various types with different responsibilities through the user management function. User types include sub-users and groups. For the specific definitions, refer to [Access Management-Identity Management](https://docs.jdcloud.com/en/iam/sub-user) .
 
 ### Resources of Object Storage Service (OSS)
 

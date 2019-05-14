@@ -1,7 +1,7 @@
 # Network Overview
 ## Network Environment
 
-[Virtual Private Cloud](http://docs.jdcloud.com/cn/virtual-private-cloud/product-overview)(Virtual Private Cloud, VPC) provides the logic-isolated network space customized for you by JD Cloud, which is similar to the traditional network you set up in the data center. This Virtual Private Cloud space is completely controlled by users, and supports customized network segmentation and routing policies, etc. Users can create and manage multiple cloud products in VPC, such as VM instance, Load Balancer, etc., and configure resources within the network to connect to the Internet. In addition, you can access your IDC intranet and JD cloud network through VPN/Direct Access to achieve multicloud deployment of applications and smooth migration of applications to the cloud.
+[Virtual Private Cloud](http://docs.jdcloud.com/en/virtual-private-cloud/product-overview)(Virtual Private Cloud, VPC) provides the logic-isolated network space customized for you by JD Cloud, which is similar to the traditional network you set up in the data center. This Virtual Private Cloud space is completely controlled by users, and supports customized network segmentation and routing policies, etc. Users can create and manage multiple cloud products in VPC, such as VM instance, Load Balancer, etc., and configure resources within the network to connect to the Internet. In addition, you can access your IDC intranet and JD cloud network through VPN/Direct Access to achieve multicloud deployment of applications and smooth migration of applications to the cloud.
 
 ## Elastic IP
 
@@ -17,7 +17,7 @@ An elastic IP address is a EIP address that can be independently applied. It can
 
 ## Elastic Network Interface
 
-**Elastic Network Interface**(http://docs.jdcloud.com/cn/elastic-network-interface/product-overview) is a virtual network interface, you can bind the elastic network interface on the instance to connect the instance to different networks. Elastic network interface can be used to support application scenarios such as separation of service traffic, multi-service bearer, and network availability.
+**Elastic Network Interface**(http://docs.jdcloud.com/en/elastic-network-interface/product-overview) is a virtual network interface, you can bind the elastic network interface on the instance to connect the instance to different networks. Elastic network interface can be used to support application scenarios such as separation of service traffic, multi-service bearer, and network availability.
 
 JD Cloud provides an elastic network interface with no availability zone attribute. The elastic network interface can be associated to any instance of the VPC. A single instance can be associated to multiple elastic network interfaces, the number of which depends on the instance type.
 
@@ -33,7 +33,7 @@ There is bottleneck for a single vCPU when handles the network interruption. You
 
 ## Related Reference
 
-[VPC](http://docs.jdcloud.com/cn/virtual-private-cloud/product-overview)
+[VPC](http://docs.jdcloud.com/en/virtual-private-cloud/product-overview)
 
-**Elastic Network Interface**(http://docs.jdcloud.com/cn/elastic-network-interface/product-overview)
+**Elastic Network Interface**(http://docs.jdcloud.com/en/elastic-network-interface/product-overview)
 

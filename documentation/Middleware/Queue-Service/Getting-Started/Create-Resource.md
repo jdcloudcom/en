@@ -9,7 +9,7 @@ In the Queue Service, messages are sent and received through a point-to-point Qu
 
 ## Note
 
-- Where you begin to use the queue service provided by JD Cloud, which means that you agree to [Service Level Agreement](https://docs.jdcloud.com/cn/product-service-agreement/queue-service-terms-of-service) of the service and [Billing Standard](../Pricing/Price-Overview.md).
+- Where you begin to use the queue service provided by JD Cloud, which means that you agree to [Service Level Agreement](https://docs.jdcloud.com/en/product-service-agreement/queue-service-terms-of-service) of the service and [Billing Standard](../Pricing/Price-Overview.md).
 - There is no limit to the queue number and service created by a user, create them according to your business needs.
 
 ## Step I: Create Queue

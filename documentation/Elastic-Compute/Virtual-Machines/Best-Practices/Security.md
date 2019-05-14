@@ -13,11 +13,11 @@ For Windows instances, it is recommended to change the password periodically and
 For system vulnerabilities, it is recommended to periodically resolve them through system patches. For Linux system, tasks should be set regularly to execute yum update -y to update system packages and kernels. For Windows system, the patch update is recommended to be always enabled.
 
 ## Account Access Management
-When multiple different accounts are required to control a same group of instances, the user can use the access to cloud through [Identity and Access Management](http://docs.jdcloud.com/cn/iam/product-overview).
+When multiple different accounts are required to control a same group of instances, the user can use the access to cloud through [Identity and Access Management](http://docs.jdcloud.com/en/iam/product-overview).
 
 ## Division of VPC
 
-Choose to use VPC to divide logical areas, deploy instances of different business attributes in different VPCs, or in different subnets of a same VPC, and configure the identity and access management between subnets through network ACL to isolate instances at different security levels inside the enterprise. For more information, please refer to [VPC](http://docs.jdcloud.com/cn/virtual-private-cloud/product-overview).
+Choose to use VPC to divide logical areas, deploy instances of different business attributes in different VPCs, or in different subnets of a same VPC, and configure the identity and access management between subnets through network ACL to isolate instances at different security levels inside the enterprise. For more information, please refer to [VPC](http://docs.jdcloud.com/en/virtual-private-cloud/product-overview).
 
 ## Security Group Configuration
 

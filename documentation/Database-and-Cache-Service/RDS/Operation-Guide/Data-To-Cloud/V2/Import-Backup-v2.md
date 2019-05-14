@@ -12,13 +12,13 @@ Select the Bucket of Object Storage Service and enter the path of imported backu
 
 ![备份导入2](../../../../../../image/RDS/Import-Backup-V2-2.png)
 
-If the file is absent or does not have sufficient permissions, an error information notification will be given. You need to check if the file path is correct and if the permission for Bucket or file is granted correctly. For permission setting, you can view [Document](https://docs.jdcloud.com/cn/rds/grant-file-privilege-v2)
+If the file is absent or does not have sufficient permissions, an error information notification will be given. You need to check if the file path is correct and if the permission for Bucket or file is granted correctly. For permission setting, you can view [Document](https://docs.jdcloud.com/en/rds/grant-file-privilege-v2)
 
 ![备份导入3](../../../../../../image/RDS/Import-Backup-V2-3.png)
 
 3. Confirm the information and start to import
 - View that the operation information is correct. 
-Note: Backup of Cloud on Single Database only supports backups in FULL mode. Therefore, please verify if the backup method is correct. You can view the [Document](https://docs.jdcloud.com/cn/rds/backup-local-database-v2)
+Note: Backup of Cloud on Single Database only supports backups in FULL mode. Therefore, please verify if the backup method is correct. You can view the [Document](https://docs.jdcloud.com/en/rds/backup-local-database-v2)
 - After information is confirmed to be correct, check the option box and start to import
 
 ![备份导入4](../../../../../../image/RDS/Import-Backup-V2-4.png)

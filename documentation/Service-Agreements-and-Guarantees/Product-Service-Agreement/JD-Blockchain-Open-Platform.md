@@ -4,7 +4,7 @@
 
 ## 1. **Service Content**
 
-1.1. For the purposes of the Terms, the “Service" means: JD Cloud provides you with the BaaS platform service of JD Blockchain Open Platform, related technologies and network support services as displayed on the website [www.jdcloud.com](https://www.jdcloud.com/cn/).
+1.1. For the purposes of the Terms, the “Service" means: JD Cloud provides you with the BaaS platform service of JD Blockchain Open Platform, related technologies and network support services as displayed on the website [www.jdcloud.com](https://www.jdcloud.com/en/).
 
 1.2. The service provided by JD Cloud must comply with the agreement in these Service Terms.
 
@@ -18,7 +18,7 @@
 
 3.1. Your Rights and Obligations
 
-3.1.1 You agree to abide by these Service Terms and the related management specification and procedures on the service display page. You understand that the above contents of the agreement and specification may change from time to time. If any change is made to the contents of these Service Terms, JD Cloud shall notify you of the modified contents by announcement on the suitable coverage on [www.jdcloud.com](https://www.jdcloud.com/cn/) in advance. If you disagree with JD Cloud's modification to the related terms in these Service Terms, you have the right to stop using JD Cloud's services. In such case, JD Cloud shall settle the service charge with you (if any), and you shall move the business data out. If you continue to use JD Cloud services, you are deemed to have accepted the modifications made by JD Cloud to the relevant terms in these Service Terms.
+3.1.1 You agree to abide by these Service Terms and the related management specification and procedures on the service display page. You understand that the above contents of the agreement and specification may change from time to time. If any change is made to the contents of these Service Terms, JD Cloud shall notify you of the modified contents by announcement on the suitable coverage on [www.jdcloud.com](https://www.jdcloud.com/en/) in advance. If you disagree with JD Cloud's modification to the related terms in these Service Terms, you have the right to stop using JD Cloud's services. In such case, JD Cloud shall settle the service charge with you (if any), and you shall move the business data out. If you continue to use JD Cloud services, you are deemed to have accepted the modifications made by JD Cloud to the relevant terms in these Service Terms.
 
 3.1.2 You shall pay the corresponding service charge according to the page notifications of JD Cloud and the agreement in these Service Terms.
 
@@ -164,7 +164,7 @@ You understand and acknowledge that the above list does not exhaust all types of
 
 7.3.4 You understand and fully recognize that although JD Cloud has established (and will continue to improve according to the development of technology) necessary technical measures to protect against the matters or acts harmful to network security (hereinafter referred to as such acts) including computer viruses, network intrusions, attack damages (including but not limited to DDOS and NTP attacks), etc., network security matters or actions (collectively referred to as such behaviors), however given the limitations and relativity of network security technology and the unpredictability of such acts, JD Cloud may decide to suspend or terminate the services if you encounter such acts and bring harms to JD Cloud or JD Cloud’s other networks or servers (including but not limited to local and foreign and international networks, servers, etc.), or affect the smooth communications between JD Cloud and the Internet or between JD Cloud and specific networks and servers and internal smooth communication within JD Cloud. If the service is terminated, the service charge will be calculated on the basis of the actual month of service (if it is less than one month, it shall be count as one month of service) and the remaining amount (if any) will be returned.
 
-7.3.5 JD Cloud can terminate these Service Terms by sending out a public notice or giving you an on-website or written notice at [www.jdcloud.com](https://www.jdcloud.com/cn/). At that time, JD Cloud shall refund the amount you have paid but not consumed to your JD Cloud account.
+7.3.5 JD Cloud can terminate these Service Terms by sending out a public notice or giving you an on-website or written notice at [www.jdcloud.com](https://www.jdcloud.com/en/). At that time, JD Cloud shall refund the amount you have paid but not consumed to your JD Cloud account.
 
 ## 8. ** Liability for Breach of the Agreement**
 
@@ -194,8 +194,8 @@ You understand and acknowledge that the above list does not exhaust all types of
 
 ## 11. ** Supplementary Provisions**
 
-11.1 JD Cloud's service description, price description and the Ordering Page you confirm on [www.jdcloud.com](https://www.jdcloud.com/cn/) are an integral part of these Service Terms. If the service description, price description and the Ordering Page you agree on the relevant pages at [www.jdcloud.com](https://www.jdcloud.com/cn/) are inconsistent with these Service Terms, these Service Terms shall prevail.
+11.1 JD Cloud's service description, price description and the Ordering Page you confirm on [www.jdcloud.com](https://www.jdcloud.com/en/) are an integral part of these Service Terms. If the service description, price description and the Ordering Page you agree on the relevant pages at [www.jdcloud.com](https://www.jdcloud.com/en/) are inconsistent with these Service Terms, these Service Terms shall prevail.
 
-11.2 JD Cloud is entitled to transfer part or all of the rights and obligations under these Service Terms to JD associated companies by making an announcement on [www.jdcloud.com](https://www.jdcloud.com/cn/) or giving you an on-website or written notice to you.
+11.2 JD Cloud is entitled to transfer part or all of the rights and obligations under these Service Terms to JD associated companies by making an announcement on [www.jdcloud.com](https://www.jdcloud.com/en/) or giving you an on-website or written notice to you.
 
 11.3. If any terms, in nature or otherwise, shall continue to exist at the termination of the Agreement, they shall be deemed to be continuing terms, including but not limited to warranty terms, confidentiality terms, intellectual property right terms, and law application and dispute resolution terms.

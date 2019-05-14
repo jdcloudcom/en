@@ -17,7 +17,7 @@
 	Users first using JD Cloud can choose the "Public Image" provided by JD Cloud. You can choose the corresponding system and the appropriate version as required. If you have created your own instance and configured the appropriate environment, you can create a private image for this instance, create a batch of instances based on this image with the same system and environment configuration, and share this private image with other JD Cloud users.
 
 
-6. Instance Type Selection: JD Cloud instance type supports customized selection: Users can select instance types and corresponding configurations according to different business scenarios, please refer to [Instance Type] for details(http://docs.jdcloud.com/cn/virtual-machines/instance-type-family).
+6. Instance Type Selection: JD Cloud instance type supports customized selection: Users can select instance types and corresponding configurations according to different business scenarios, please refer to [Instance Type] for details(http://docs.jdcloud.com/en/virtual-machines/instance-type-family).
 
 		Note: If you plan to use the instance template to create an  Availability Group, you should select a second generation instance type, such as g.n2.large when creating the instance template.
 
@@ -49,7 +49,7 @@
 
 	Bandwidth Range: 1Mbps~200Mbps, EIP cannot be configured with instance, and you could purchase and associate it after creating instance by instance template.
 
-	The EIP bandwidth cost is independent of the instance cost. Please refer to [Public IP Price](http://docs.jdcloud.com/cn/elastic-ip/price-overview) for detailed price information.
+	The EIP bandwidth cost is independent of the instance cost. Please refer to [Public IP Price](http://docs.jdcloud.com/en/elastic-ip/price-overview) for detailed price information.
 **Please note that the instance template service is free of charge. The following billing information is estimated when creating VM instance by instance template.**
 	<table>
 	   <tr>
@@ -90,8 +90,8 @@ The instance template service is free, the information you have configured is di
 
 ## Related Reference
 
-[Public IP Price](http://docs.jdcloud.com/cn/elastic-ip/price-overview)
+[Public IP Price](http://docs.jdcloud.com/en/elastic-ip/price-overview)
 
-[Instance Type](http://docs.jdcloud.com/cn/virtual-machines/instance-type-family)
+[Instance Type](http://docs.jdcloud.com/en/virtual-machines/instance-type-family)
 
 [Key Pair](../Key-Pair/KeyPair-Overview.md)

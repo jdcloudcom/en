@@ -3,8 +3,8 @@
 JD Cloud provides you with a variety of ways to create a cloud disk:
 
 * Create a cloud disk when the instance is created. For details, please refer to [Create Instance](../Instance/Create-Instance.md);
-* Separately [Create Cloud Disk](http://docs.jdcloud.com/cn/cloud-disk-service/create-cloud-disk);
-* [Create Disk from Snapshot](http://docs.jdcloud.com/cn/cloud-disk-service/create-disk-by-snapshot), namely, you can keep historical time point data of a certain cloud disk in the new disk.
+* Separately [Create Cloud Disk](http://docs.jdcloud.com/en/cloud-disk-service/create-cloud-disk);
+* [Create Disk from Snapshot](http://docs.jdcloud.com/en/cloud-disk-service/create-disk-by-snapshot), namely, you can keep historical time point data of a certain cloud disk in the new disk.
 
 
 		Please note:
@@ -20,7 +20,7 @@ JD Cloud provides you with a variety of ways to create a cloud disk:
 ## Related Reference
 [Create Instance](../Instance/Create-Instance.md)
 
-[Create Cloud Disk](http://docs.jdcloud.com/cn/cloud-disk-service/create-cloud-disk)
+[Create Cloud Disk](http://docs.jdcloud.com/en/cloud-disk-service/create-cloud-disk)
 
 
-[Create A Cloud Disk from Snapshot](http://docs.jdcloud.com/cn/cloud-disk-service/create-disk-by-snapshot)
+[Create A Cloud Disk from Snapshot](http://docs.jdcloud.com/en/cloud-disk-service/create-disk-by-snapshot)
