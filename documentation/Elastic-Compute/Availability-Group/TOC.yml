@@ -37,26 +37,26 @@
         href: /Operation-Guide/Auto-Scaling/Disable-AS.md
       - name: Modify Auto-Scaling
         href: /Operation-Guide/Auto-Scaling/Modify-AS-Attributes.md
-      - name: Create Auto-Scaling Strategy
-        href: /Operation-Guide/Auto-Scaling/Create-AS-Strategy.md
-      - name: Enable Auto-Scaling Strategy
-        href: /Operation-Guide/Auto-Scaling/Enable-AS-Strategy.md
-      - name: Disable Auto-Scaling Strategy
-        href: /Operation-Guide/Auto-Scaling/Disable-AS-Strategy.md
-      - name: Manually Add Instances
-        href: /Operation-Guide/Add-Instance-Manually.md
-      - name: Manually Remove Instances
-        href: /Operation-Guide/Remove-Instance-Manually.md
-      - name: Delete Availability Group
-        href: /Operation-Guide/Delete-AG.md
+      - name: Create Auto-Scaling Policy
+        href: /Operation-Guide/Auto-Scaling/Create-AS-Policy.md
+      - name: Enable Auto-Scaling Policy
+        href: /Operation-Guide/Auto-Scaling/Enable-AS-Policy.md
+      - name: Disable Auto-Scaling Policy
+        href: /Operation-Guide/Auto-Scaling/Disable-AS-Policy.md
+    - name:  Manually Add Instances
+      href: /Operation-Guide/Add-Instance-Manually.md
+    - name: Manually Remove Instances
+      href: /Operation-Guide/Remove-Instance-Manually.md
+    - name: Delete Availability Group
+      href: /Operation-Guide/Delete-AG.md
   - name: Best Practices
     items:
     - name: Optimal Configuration
-      href: Best-Practices/Best-configuration-recommendation.md
+      href: Best-Practices/recommended-configuration.md
     - name: Configure self-starting
-      href: Best-Practices/Auto-Enable-Services-on-Startup.md
-    - name: Set fixed exit IP
-      href: Best-Practices/Set-Static-Outbound-IP.md
+      href: Best-Practices/configure-self-starting.md
+    - name: Set fixed  IP
+      href: Best-Practices/Set-fixed-Outbound-IP.md
   - name: Tutorial
     status: 0
     items:     
