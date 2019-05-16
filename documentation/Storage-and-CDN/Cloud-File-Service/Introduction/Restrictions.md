@@ -13,7 +13,7 @@ Cloud File Storage currently supports NFS v4.1 and NFS v4.0 protocols for Linux 
 
 | **Resource**                 | **Limit**                 |
 | ------------------------ | ------------------------ |
-| File storage number               |  cn-south-1   -  not exceeding 20 |
+| File storage number               |  cn-south-1   -  not exceeding 5 |
 | The attached target number of each file storage | not exceeding 1                |
 | The VPC number of each file storage | not exceeding 1                |
 | The maximum capacity of each File Storage     | 1PB(1T during Beta period)          |
@@ -22,7 +22,7 @@ Cloud File Storage currently supports NFS v4.1 and NFS v4.0 protocols for Linux 
 
 ## Size limit of a single file
 
-During product Beta period, a single file size of up to 140G is supported. After the product is officially released, it supports a single file of up to 8T.
+During product Beta period, a single file size of up to 140GB is supported. After the product is officially released, it supports a single file of up to 8TB.
 
 
 
