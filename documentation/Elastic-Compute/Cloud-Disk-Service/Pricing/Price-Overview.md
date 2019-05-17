@@ -2,15 +2,24 @@
 
 For Cloud Disk Service price, refer to the following table, with specific price subject to the charge made by the console:
 
-| Type         | Capacity    | Monthly Package (RMB)   |           |           |           |           |           |           |           | Pay By Configuration (RMB)   |           |           |           |
-| ------------- | ------ | -------------- | --------- | --------- | --------- | --------- | --------- | --------- | --------- | ------------ | --------- | --------- | --------- |
-|               |          | One Month           | One Month    | One Month    | One Month    | One Year      | One Year      | One Year      | One Year      | One Hour         | One Hour    | One Hour    | One Hour    |
-|               |          | cn-north-1        | cn-east-2      | cn-east-1      | cn-south-1      | cn-north-1      | cn-east-2      | cn-east-1      | cn-south-1      | cn-north-1      | cn-east-2      | cn-east-1      | cn-south-1      |
-| SSD Cloud Disk (Terminated)       | 10GB   | 10             | 10        | 7.5       | 10        | 120       | 120       | 90        | 120       | 0.014        | 0.014     | 0.0105    | 0.014     |
-| Premium Hdd Cloud Disk (Terminated)      | 10GB   | 3              | 3         | 2.25      | 3         | 36        | 36        | 27        | 36        | 0.0042       | 0.0042    | 0.00315   | 0.0042    |
-| General SSD Cloud Disk | 10GB   | 3.9            | 3.9       | 2.925     | 3.9       | 46.8      | 46.8      | 35.1      | 46.8      | 0.00625      | 0.00625   | 0.004688  | 0.00625   |
-| Capacity-oriented HDD Cloud Disk | 10GB   | 2.4            | 2.4       | 1.8       | 2.4       | 28.8      | 28.8      | 21.6      | 28.8      | 0.0034       | 0.0034    | 0.00255   | 0.0034    |
-| Performance-oriented SSD Cloud Disk | 10GB   | 8              | 8         | 6         | 8         | 96        | 96        | 72        | 96        | 0.0112       | 0.0112    | 0.0084    | 0.0112    |
+**Price of Monthly Package**（Unit：  Capacity： yuan/(GB * month) ； IOPS：yuan/(unit * month) ）
+
+| Region     | General SSD Cloud Disk  | Capacity-oriented HDD Cloud Disk  | Performance-oriented SSD Cloud Disk                         |SSD Cloud Disk (Offline) | Premium Hdd Cloud Disk (offline) |
+| --------- | -------------- | -------------- | ------------------------------------- | ----------------- | ------------------ |
+| cn-north-1 | Capacity：0.39 | Capacity：0.24 | Capacity：0.5<br />IOPS：0.01     | Capacity：1       | Capacity：0.3      |
+| cn-east-2 | Capacity：0.39 | Capacity：0.24 | Capacity：0.5<br />IOPS：0.01     | Capacity：1       | Capacity：0.3      |
+| cn-east-1 | Capacity：0.29 | Capacity：0.18 | Capacity：0.375<br />IOPS：0.0075 | Capacity：0.75    | Capacity：0.225    |
+| cn-south-1 | Capacity：0.39 | Capacity：0.24 | Capacity：0.5<br />IOPS：0.01     | Capacity：1       | Capacity：0.3      |
+
+
+**Price of Pay as you go**（单位：  容量价格： 元/(GB * 小时) ； IOPS价格：元/(个 * 小时) ）
+
+| Region       | General SSD Cloud Disk       | Capacity-oriented HDD Cloud Disk      | Performance-oriented SSD Cloud Disk                            | SSD Cloud Disk (Offline) | Premium Hdd Cloud Disk (offline) |
+| --------- | ------------------- | ------------------ | ---------------------------------------- | ----------------- | ------------------ |
+| cn-north-1 | Capacity：0.000625  | Capacity：0.00034  | Capacity：0.0007<br />IOPS：0.00001389 | Capacity：0.0014  | Capacity：0.00042  |
+| cn-east-2 | Capacity：0.000625  | Capacity：0.00034  | Capacity：0.0007<br />IOPS：0.00001389 | Capacity：0.0014  | Capacity：0.00042  |
+| cn-east-1 | Capacity：0.0004688 | Capacity：0.000255 | Capacity：0.000525<br />IOPS：0.00001042 | Capacity：0.00105 | Capacity：0.000315 |
+| cn-south-1 | Capacity：0.000625  | Capacity：0.00034  | Capacity：0.0007<br />IOPS：0.00001389 | Capacity：0.0014  | Capacity：0.00042  |
 
 
 You may also click [Price Calculator](https://www.jdcloud.com/en/calculator/calDisk) to view the price of required cloud disk configuration, estimate the cost of resources, and add it to purchase budget list.
