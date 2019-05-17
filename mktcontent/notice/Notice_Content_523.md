@@ -1,4 +1,0 @@
-<p style="text-align:left;text-autospace:none"><span style="font-size:15px;font-family:宋体">Dear users, </span></p>
-<p><span style="font-size:15px;font-family:宋体">
-In order to provide more stable Load Balancer service, JD Cloud will upgrade Load Balancer service from 21:00:00 on November 15, 2018 to 01:59:59 on November 16, 2018, during which the Load Balancer console access and OpenAPI service in all regions (cn-north-1, - cn-south-1, - cn-east-1, - and - cn-east-2) will be paused, and the inherent business running in all of your regions won’t be affected. During the upgrading, there are no data displayed in the Load Balancer monitoring graph of Monitoring, but the query to historic monitoring data will not be influenced. Upon the completion of upgrading, the console will be resumed. If you have relevant questions during the upgrading, please contact JD Cloud customer service personnel at any time (Tel: 4006151212 ). Thanks for your support to JD Cloud.
-</span></p>
