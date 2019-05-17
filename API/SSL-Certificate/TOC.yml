@@ -1,0 +1,19 @@
+  name: SSL Certificate
+  href:
+  items:
+  - name: Interface Overview
+    href: overview.md
+  - name: Update History
+    href: ChangeLog.md
+  - name: Interface Information
+    items:
+      - name: View certificate list
+        href: describeCerts.md
+      - name: View certificate details
+        href: describeCert.md
+      - name: Upload certificate
+        href: uploadCert.md
+      - name: Download certificate
+        href: downloadCert.md
+      - name: Delete Certificate
+        href: deleteCerts.md

@@ -2,7 +2,7 @@
 
 
 ## Description
-Query account quota information
+Search Redis quota information of the account
 
 ## Request method
 GET
@@ -12,7 +12,7 @@ https://redis.jdcloud-api.com/v1/regions/{regionId}/quota
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True| |The Region ID of the region where the JCS for Redis instance is located. At present, the JCS for Redis has North China, South China, and East China regions, and the corresponding Region IDs are cn-north-1, cn-south-1, and cn-east-2|
+|**regionId**|String|True| |Region ID of the region where the Redis instance is located. At present, there are three regions, with Region ID of cn-north-1, cn-south-1 and cn-east-2 respectively|
 
 ## Request parameter
 None
@@ -21,9 +21,8 @@ None
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String| |
 |**result**|Result| |
-
+|**requestId**|String| |
 
 ### Result
 |Name|Type|Description|
@@ -32,8 +31,8 @@ None
 ### Quota
 |Name|Type|Description|
 |---|---|---|
-|**max**|Integer|Quota|
 |**name**|String|Name of the Quota Item|
+|**max**|Integer|Quota|
 |**used**|Integer|Used Number|
 
 ## Response code

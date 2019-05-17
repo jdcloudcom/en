@@ -2,7 +2,7 @@
 
 
 ## Description
-Reset the password of the JCS for Redis instance to support the password-free operation
+Reset Redis instance password which can be null
 
 ## Request method
 POST
@@ -12,20 +12,19 @@ https://redis.jdcloud-api.com/v1/regions/{regionId}/cacheInstance/{cacheInstance
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**cacheInstanceId**|String|True| |The ID of the JCS for Redis instance is the unique identifier to access to instance.|
-|**regionId**|String|True| |The Region ID of the region where the JCS for Redis instance is located. At present, the JCS for Redis has North China, South China, and East China regions, and the corresponding Region IDs are cn-north-1, cn-south-1, and cn-east-2|
+|**regionId**|String|True| |Region ID of the region where the Redis instance is located. At present, there are three regions, with Region ID of cn-north-1, cn-south-1 and cn-east-2 respectively|
+|**cacheInstanceId**|String|True| |Redis instance ID is the only identifier for instance access|
 
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**password**|String|False| |Password contains and only supports letters and numbers with no less than 8 characters and no more than 16 characters. If the password is null, it means password-free.|
+|**password**|String|False| |The null password means that there is no password, and the password cannot be less than 8 characters and no more than 16 characters|
 
 
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String|ID of This Reset Request|
-
+|**requestId**|String|ID of This Request|
 
 
 ## Response code

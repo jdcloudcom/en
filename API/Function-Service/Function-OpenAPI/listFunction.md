@@ -17,7 +17,7 @@ https://function.jdcloud-api.com/v1/regions/{regionId}/functions
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**filters**|Filter[]|False| |functionId - Function ID, exact match, support multiple <br>|
+|**filters**|Filter[]|False| |functionId -FunctionID, Exact Match, Support Multiple<br>functionName  - Function Name, Fuzzy Match, Support Single<br>|
 
 ### Filter
 |Name|Type|Required or Not|Default Value|Description|
@@ -29,8 +29,8 @@ https://function.jdcloud-api.com/v1/regions/{regionId}/functions
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String|This Request Id|
 |**result**|Result|Search Function List Return Value|
+|**requestId**|String|This Request Id|
 
 ### Result
 |Name|Type|Description|
@@ -39,14 +39,14 @@ https://function.jdcloud-api.com/v1/regions/{regionId}/functions
 ### FunctionSpec
 |Name|Type|Description|
 |---|---|---|
-|**createTime**|String|Function Creation Time|
-|**description**|String|Function Description|
-|**downloadUrl**|String|url Address Downloaded by Code Package|
 |**functionId**|String|FunctionId|
 |**name**|String|Function Name|
+|**description**|String|Function Description|
 |**runtime**|String|Function Running Environment, currently there is python3|
+|**createTime**|String|Function Creation Time|
 |**updateTime**|String|Last Update Time of Function|
 |**version**|String|Function Version Name|
+|**downloadUrl**|String|url Address Downloaded by Code Package|
 
 ## Return Code
 |Return Code|Description|

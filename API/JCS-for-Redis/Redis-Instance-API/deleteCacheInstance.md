@@ -2,9 +2,9 @@
 
 
 ## Description
-Delete a single JCS for Redis instance that is paid by configuration billing or the monthly package has expired and the monthly package that has not expired cannot be deleted
-Only in the running<b>running</b>or error<b>error</b>status can be deleted, but other status cannot be deleted
-The user in the White List cannot delete the virtual machine that the monthly package has expired
+Delete Redis instances with expired Pay By Configuration or Monthly Package and those with unexpired Monthly Package cannot be deleted.
+Instances in the running or error status only can be deleted, while cannot be deleted in other status.
+For the White List user, the expired Redis instance in Monthly Package cannot be deleted.
 
 
 ## Request method
@@ -15,8 +15,8 @@ https://redis.jdcloud-api.com/v1/regions/{regionId}/cacheInstance/{cacheInstance
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**cacheInstanceId**|String|True| |The ID of the JCS for Redis instance is the unique identifier to access to instance.|
-|**regionId**|String|True| |The Region ID of the region where the JCS for Redis instance is located. At present, the JCS for Redis has North China, South China, and East China regions, and the corresponding Region IDs are cn-north-1, cn-south-1, and cn-east-2|
+|**regionId**|String|True| |Region ID of the region where the Redis instance is located. At present, there are three regions, with Region ID of cn-north-1, cn-south-1 and cn-east-2 respectively|
+|**cacheInstanceId**|String|True| |Redis instance ID is the only identifier for instance access|
 
 ## Request parameter
 None
@@ -25,8 +25,7 @@ None
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String|ID of This Delete Request|
-
+|**requestId**|String|ID of This Request|
 
 
 ## Response code

@@ -26,8 +26,8 @@ https://function.jdcloud-api.com/v1/regions/{regionId}/functions/{functionName}/
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String|This Request Id|
 |**result**|Result|alias Response Body|
+|**requestId**|String|This Request Id|
 
 ### Result
 |Name|Type|Description|
@@ -38,8 +38,8 @@ https://function.jdcloud-api.com/v1/regions/{regionId}/functions/{functionName}/
 |---|---|---|
 |**aliasId**|String|Alias Id|
 |**aliasName**|String|Alias Name|
-|**description**|String|Description Information of Alias|
 |**functionName**|String|Function Name Corresponding to Alias|
+|**description**|String|Description Information of Alias|
 |**version**|String|Version Name Corresponding to Alias|
 
 ## Return Code

@@ -22,8 +22,8 @@ None
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String| |
 |**result**|Result|Alias List|
+|**requestId**|String| |
 
 ### Result
 |Name|Type|Description|
@@ -34,8 +34,8 @@ None
 |---|---|---|
 |**aliasId**|String|Alias Id|
 |**aliasName**|String|Alias Name|
-|**description**|String|Description Information of Alias|
 |**functionName**|String|Function Name Corresponding to Alias|
+|**description**|String|Description Information of Alias|
 |**version**|String|Version Name Corresponding to Alias|
 
 ## Return Code

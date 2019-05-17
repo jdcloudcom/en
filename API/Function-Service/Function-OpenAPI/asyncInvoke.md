@@ -1,14 +1,14 @@
-# deleteVersion
+# asyncInvoke
 
 
 ## Description
-Delete Version
+Execution Function of Asynchronous Test
 
 ## Request Method
-DELETE
+POST
 
 ## Request Address
-https://function.jdcloud-api.com/v1/regions/{regionId}/functions/{functionName}/versions/{versionName}
+https://function.jdcloud-api.com/v1/regions/{regionId}/functions/{functionName}/versions/{versionName}:asyncinvoke
 
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
@@ -17,13 +17,15 @@ https://function.jdcloud-api.com/v1/regions/{regionId}/functions/{functionName}/
 |**regionId**|String|True| |Region ID|
 
 ## Request Parameter
-None
+|Name|Type|Required or Not|Default Value|Description|
+|---|---|---|---|---|
+|**event**|String|True| |Enter Event of Asynchronous Execution Function|
 
 
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String|This Request Id|
+|**requestId**|String|Id of This Request|
 
 
 ## Return Code

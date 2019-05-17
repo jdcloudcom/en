@@ -12,8 +12,8 @@ https://function.jdcloud-api.com/v1/regions/{regionId}/functions/{functionName}/
 
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**aliasName**|String|True| |Alias Name|
 |**functionName**|String|True| |Function Name of Alias|
+|**aliasName**|String|True| |Alias Name|
 |**regionId**|String|True| |Region ID|
 
 ## Request Parameter
@@ -23,8 +23,8 @@ None
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String|This Request Id|
 |**result**|Result|Alias Details Return Value|
+|**requestId**|String|This Request Id|
 
 ### Result
 |Name|Type|Description|
@@ -35,8 +35,8 @@ None
 |---|---|---|
 |**aliasId**|String|Alias Id|
 |**aliasName**|String|Alias Name|
-|**description**|String|Description Information of Alias|
 |**functionName**|String|Function Name Corresponding to Alias|
+|**description**|String|Description Information of Alias|
 |**version**|String|Version Name Corresponding to Alias|
 
 ## Return Code

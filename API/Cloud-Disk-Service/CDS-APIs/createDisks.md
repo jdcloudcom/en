@@ -2,13 +2,20 @@
 
 
 ## Description
--   Create one or more Cloud Disks that are paid by configuration or by service time.
--   Cloud Disk Service types include Premium Hdd Cloud Disk (premium-hdd), SSD Cloud Disk (ssd), general SSD (ssd.gp1), performance-oriented SSD (ssd.io1) and capacity-oriented HDD (hdd.std1).
--   The billing method defaults to paying by configuration.
--   After creation is completed, the status of the Cloud Disk is available.
--   The optional parameter snapshot ID is used to create a new disk.
--   In batch creation, the name of the Cloud Disk is: hard disk name -number, such as myDisk-1 and myDisk-2.
--   maxCount is the maximum effort, and it is not guaranteed that maxCount can be reached.
+Create one or more cloud disks according to designated configuration
+
+- The available cloud disk types include ssd (to be off-line), premium-hdd (to be off-line) or hdd.std1, ssd.gp1 and ssd.io1
+- Disk Size
+    - ssd: With range [20,1000]GiB, step size of 10GiB and the fixed-value iops
+    - premium-hdd: With range [20,3000]GiB, step size of 10GiB and the fixed-value iops
+    - hdd.std1: Capacity type hdd, with range [20,16000]GiB, step size of 10GiB and iops obtained by calculation which is directly proportional to the capacity of purchased disk
+    - ssd.gp1: General type ssd, with range [20,16000]GiB, step size of 10GiB and iops obtained by calculation which is directly proportional to the capacity of purchased disk.
+    - ssd.io1: Performance type ssd, with range [20,16000]GiB, step size of 10GiB, iops obtained by calculating the purchased capacity or designated by the user.
+- Others
+    - After being created, the cloud disk status is available
+    - Available parameter snapshot ID is used for creating new disk from snapshots
+    - In the case of being created in batches, cloud disk is named as Disk Name-Number, such as myDisk-1 and myDisk-2
+    - maxCount refers to the maximum effort and maxCount is not guaranteed
 
 
 ## Request method
@@ -35,7 +42,7 @@ https://disk.jdcloud-api.com/v1/regions/{regionId}/disks
 |**name**|String|True| |Name of the cloud disk|
 |**description**|String|False| |Description of the cloud disk|
 |**diskType**|String|True| |Type of the cloud disk, value ssd, premium-hdd, ssd.gp1, ssd.io1 or hdd.std1|
-|**diskSizeGB**|Integer|True| |Size of the cloud disk, unit: GiB; ssd value range of [20,1000]GB and step size of 10G; premium-hdd value range of [20,3000]GB and step size of 10G|
+|**diskSizeGB**|Integer|True| |Size of cloud disk is in GiB; for ssd type, the value range is [20,1000]GB and the step size is 10G; for premium-hdd type, the value range is [20,3000]GB and the step size is 10G; for ssd.io1 type, the value range is [20,16000]GB and the step size is 10G; for ssd.gp1 type, the value range is [20,16000]GB and the step size is 10G; and for hdd.std1 type, the value range is [20,16000]GB and the step size is 10G|
 |**snapshotId**|String|False| |Snapshot ID used to create a cloud disk|
 |**charge**|ChargeSpec|False| |Billing configuration. If not specified, the default billing type is pay-as-you-go - pay by service time by default.|
 |**multiAttachable**|Boolean|False| |Whether the Cloud Disk Service supports the mode that one disk is attached to multiple machines. It is set as false by default (not supported).|
@@ -46,6 +53,17 @@ https://disk.jdcloud-api.com/v1/regions/{regionId}/disks
 |**chargeMode**|String|False|postpaid_by_duration|Billing model value is prepaid_by_duration, postpaid_by_usage or postpaid_by_duration; prepaid_by_duration means Pay-In-Advance, postpaid_by_usage means Pay-As-You-Go By Consumption and postpaid_by_duration means pay by configuration; is postpaid_by_duration by default. Please refer to the Help Documentation of specific product line to confirm the billing type supported by the production line|
 |**chargeUnit**|String|False| |Billing unit of Pay-In-Advance, the Pay-In-Advance is compulsory, and valid only when chargeMode is prepaid_by_duration, and the value is month or year and month by default|
 |**chargeDuration**|Integer|False| |Pay-In-Advance billing duration, the Pay-In-Advance is compulsory and valid only when the value of chargeMode is prepaid_by_duration. When chargeUnit is month, the value shall be 1~9; when chargeUnit is year, the value shall be 1, 2 or 3|
+
+## Successful Response
+
+```json
+{
+    "result": {
+        "diskIds": [string]
+    },
+    "requestId": string
+}
+```
 
 ## Response parameter
 |Name|Type|Description|

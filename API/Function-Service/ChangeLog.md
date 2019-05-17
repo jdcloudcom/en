@@ -6,3 +6,4 @@ API Version: v1
 | ---------- | ------ | -------- | ------------------------------------------------------------ |
 | 2018-11-21 | 1.0.0  | Initialization   | Initial Version, Basic Operation APIs of function                                     |
 | 2018-12-27 | 1.0.1  | Beta Version   | Function Computing Service Beta Version                                     |
+| 2019-02-10 | 1.0.2  | Beta Version   | APIs Adjustment                                                     |

@@ -22,8 +22,8 @@ None
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**requestId**|String|This Request Id|
 |**result**|Result|Function Details Return Value|
+|**requestId**|String|This Request Id|
 
 ### Result
 |Name|Type|Description|
@@ -32,36 +32,36 @@ None
 ### Function
 |Name|Type|Description|
 |---|---|---|
-|**code**|Code|Function Package|
-|**codeCheckSum**|String|Code Package Verification Sum|
-|**codeSize**|Integer|Code Package Size, the unit is byte|
-|**createTime**|String|Function Creation Time|
-|**description**|String|Function Description|
-|**downloadUrl**|String|url Address Downloaded by Code Package|
-|**entrance**|String|Function Entrance, the format is entrance file.entrance function name|
-|**environment**|Env|Function Environment Variable|
 |**functionId**|String|FunctionId|
+|**name**|String|Function Name|
+|**description**|String|Function Description|
+|**entrance**|String|Function Entrance, the format is entrance file.entrance function name|
+|**memory**|Integer|Maximum Memory Upon Function Running|
+|**runTime**|String|Function Running Environment, currently there is python3.6|
+|**overTime**|Integer|Function Time-out Period|
+|**version**|String|Function Version Name|
+|**code**|Code|Function Package|
+|**environment**|Env|Function Environment Variable|
 |**logSetId**|String|Log Collection id Designated by Function|
 |**logTopicId**|String|Log Subject id Designated by Function|
-|**memory**|Integer|Maximum Memory Upon Function Running|
-|**name**|String|Function Name|
-|**overTime**|Integer|Function Time-out Period|
-|**runTime**|String|Function Running Environment, currently there is python3.6|
-|**subnetId**|String|Subnet of Function Configuration id|
-|**updateTime**|String|Last Update Time of Function|
-|**version**|String|Function Version Name|
+|**codeCheckSum**|String|Code Package Verification Sum|
+|**codeSize**|Integer|Code Package Size, the unit is byte|
+|**downloadUrl**|String|url Address Downloaded by Code Package|
 |**vpcId**|String|VPCid of Function Configuration|
-### Code
-|Name|Type|Description|
-|---|---|---|
-|**bucketName**|String|bucket Name of Object Storage Service where code is located|
-|**objectName**|String|object Name of Object Storage Service where code is located|
-|**onlineCode**|String|Online Edit Code|
-|**zipFile**|String|Code Compression File, base64 coding|
+|**subnetId**|String|Subnet of Function Configuration id|
+|**createTime**|String|Function Creation Time|
+|**updateTime**|String|Last Update Time of Function|
 ### Env
 |Name|Type|Description|
 |---|---|---|
 |**data**|Object| |
+### Code
+|Name|Type|Description|
+|---|---|---|
+|**zipFile**|String|Code Compression File, base64 coding|
+|**onlineCode**|String|Online Edit Code|
+|**bucketName**|String|bucket Name of Object Storage Service where code is located|
+|**objectName**|String|object Name of Object Storage Service where code is located|
 
 ## Return Code
 |Return Code|Description|
