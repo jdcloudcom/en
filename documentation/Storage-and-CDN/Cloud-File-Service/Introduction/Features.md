@@ -2,7 +2,7 @@
 
 ## Support for NFS file system protocol
 
-The Cloud File Service supports NFS v4.0 and NFS v4.1 protocols and can attach by using standard file system attach command.
+The Cloud File Service supports NFS v4.0 and NFS v4.1 protocols and can be attached by using standard file system attach command.
 
 ## Shared File Storage
 

@@ -62,15 +62,15 @@ To avoid low IO performance caused by less configuration of this parameter, you 
 
 4) Test parameter: The following parameters will affect the performance test result or the cost of performance test. Please understand the configuration and use of these parameters before test or use the test example below for direct test.
 
-**Io Type (parameter: -rw): ** Different IO types affect the performance test result. Common IO types include: write (sequential writes), read (sequential reads), randwrite (random writes), randread (random reads), readwrite (mixed sequential reads and writes), randrw (mixed random reads and writes);
+ **Io Type (parameter: -rw):** Different IO types affect the performance test result. Common IO types include: write (sequential writes), read (sequential reads), randwrite (random writes), randread (random reads), readwrite (mixed sequential reads and writes), randrw (mixed random reads and writes);
 
-**Block Size (parameter: -bs): ** The size of use block affects the performance of IOPS and bandwidth;
+**Block Size (parameter: -bs):** The size of use block affects the performance of IOPS and bandwidth;
 
-**Io Size (parameter: -size): ** The quantity of data required in this test. When the data bulk can be guaranteed to be sufficient for the test, it has no direct impact on the performance test result. But please note that because the test tool will in fact create a file of size set by the parameter, occupying storage space of your file system, a fee of storage will be generated. Please set this parameter at your own discretion;
+**Io Size (parameter: -size):** The quantity of data required in this test. When the data bulk can be guaranteed to be sufficient for the test, it has no direct impact on the performance test result. But please note that because the test tool will in fact create a file of size set by the parameter, occupying storage space of your file system, a fee of storage will be generated. Please set this parameter at your own discretion;
 
-**Io Depth (parameter: -iodepth): ** Queue depth;
+**Io Depth (parameter: -iodepth):** Queue depth;
 
-**Num of Jobs (parameter: -numjobs): ** Threads shall be configured as 1 when the reads and writes of a single file is tested;
+**Num of Jobs (parameter: -numjobs):** Threads shall be configured as 1 when the reads and writes of a single file is tested;
 
 
  
@@ -79,14 +79,14 @@ To avoid low IO performance caused by less configuration of this parameter, you 
 
 **Test environment:**
 
-- **VM Instance Type: ** Region: cn-south-1; Instance Type: g.n2.2xlarge
-- **Operating system: ** CentOS 7.4 64-bit
+- **VM Instance Type:** Region: cn-south-1; Instance Type: g.n2.2xlarge
+- **Operating system:** CentOS 7.4 64-bit
 
-- **File system: ** Region: cn-south-1
+- **File system:** Region: cn-south-1
 
-- **Date: ** 2019-04-08
+- **Date:** 2019-04-08
 
-- **Test Tool: ** Fio-3.1
+- **Test Tool:** Fio-3.1
 
 
 
@@ -97,7 +97,7 @@ To avoid low IO performance caused by less configuration of this parameter, you 
 
 `fio -thread -ioengine=libaio -group_reporting -name=fiotest -randrepeat=0 -time_based -sync=1 -direct=1 -directory=/root/nfs/ -size=1G -rw=randread -bs=4k -iodepth=64 -numjob=1 -runtime=180`
 
-  **Expected IOPS: ** 5000
+  **Expected IOPS:** 5000
 
 ![randread_iops](../../../../image/Cloud-File-Service/randread_iops.png)
 
@@ -109,7 +109,7 @@ To avoid low IO performance caused by less configuration of this parameter, you 
 
 `fio -thread -ioengine=libaio -group_reporting -name=fiotest -randrepeat=0 -time_based -sync=1 -direct=1 -directory=/root/nfs/ -size=1G -rw=randwrite -bs=4k -iodepth=64 -numjob=1 -runtime=180`
 
- **Expected IOPS: ** 5000
+ **Expected IOPS:** 5000
 
 ![randwrite_iops](../../../../image/Cloud-File-Service/randwrite_iops.png)
 
@@ -119,9 +119,9 @@ To avoid low IO performance caused by less configuration of this parameter, you 
 
   **Test sentence:**
 
-`fio -thread -ioengine=libaio -group_reporting -name=testwang -randrepeat=0 -time_based -sync=1 -direct=1 -directory=/root/nfs/ -size=1G -rw=randread -bs=1M -iodepth=64 -numjob=1 -runtime=180`
+`fio -thread -ioengine=libaio -group_reporting -name=fiotest -randrepeat=0 -time_based -sync=1 -direct=1 -directory=/root/nfs/ -size=1G -rw=randread -bs=1M -iodepth=64 -numjob=1 -runtime=180`
 
-  **Expected bandwidth: ** 50MiB/s
+  **Expected bandwidth:** 50MiB/s
 
 ![randread_bw](../../../../image/Cloud-File-Service/randread_bw.png)
 
@@ -131,8 +131,8 @@ To avoid low IO performance caused by less configuration of this parameter, you 
 
   **Test sentence:**
 
-`fio -thread -ioengine=libaio -group_reporting -name=testwang -randrepeat=0 -time_based -sync=1 -direct=1 -directory=/root/nfs/ -size=1G -rw=randwrite -bs=1M -iodepth=64 -numjob=1 -runtime=180`
+`fio -thread -ioengine=libaio -group_reporting -name=fiotest -randrepeat=0 -time_based -sync=1 -direct=1 -directory=/root/nfs/ -size=1G -rw=randwrite -bs=1M -iodepth=64 -numjob=1 -runtime=180`
 
-  **Expected bandwidth: ** 50MiB/s
+  **Expected bandwidth:** 50MiB/s
 
 ![randwrite_bw](../../../../image/Cloud-File-Service/randwrite_bw.png)
