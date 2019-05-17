@@ -12,7 +12,7 @@ For Cloud Disk Service price, refer to the following table, with specific price 
 | cn-south-1 | Capacity：0.39 | Capacity：0.24 | Capacity：0.5<br />IOPS：0.01     | Capacity：1       | Capacity：0.3      |
 
 
-**Price of Pay as you go**（单位：  容量价格： 元/(GB * 小时) ； IOPS价格：元/(个 * 小时) ）
+**Price of Pay as you go**（Unit：  Capacity： yuan/(GB * hour) ； IOPS：yuan/(unit * hour)  ）
 
 | Region       | General SSD Cloud Disk       | Capacity-oriented HDD Cloud Disk      | Performance-oriented SSD Cloud Disk                            | SSD Cloud Disk (Offline) | Premium Hdd Cloud Disk (offline) |
 | --------- | ------------------- | ------------------ | ---------------------------------------- | ----------------- | ------------------ |
