@@ -1,0 +1,39 @@
+name: Resource Orchestration
+href: 
+items:
+  - name: Interface Overview
+    href: overview.md
+  - name: Update History
+    href: ChangeLog.md
+  - name: Interface Information
+    items:
+      - name: Resource Stack
+        items:
+          - name: createStack
+            href: Stack/createStack.md
+          - name: deleteStack
+            href: Stack/deleteStack.md         
+          - name: describeStack
+            href: Stack/describeStack.md
+          - name: describeStacks
+            href: Stack/describeStacks.md
+          - name: describeStackTemplate
+            href: Stack/describeStackTemplate.md
+          - name: describeStackResources
+            href: Stack/describeStackResources.md
+          - name: describeStackEvents
+            href: Stack/describeStackEvents.md
+          - name: createChangeSet
+            href: Stack/createChangeSet.md
+          - name: executeChangeSet
+            href: Stack/executeChangeSet.md
+      - name: Template
+        items:
+          - name: validateTemplate
+            href: Template/validateTemplate.md
+      - name: Resources
+        items:
+          - name: describeResourceTypeList
+            href: Resource/describeResourceTypeList.md
+          - name: describeResourceTypeSpecification
+            href: Resource/describeResourceTypeSpecification.md

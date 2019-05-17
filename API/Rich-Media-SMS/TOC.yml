@@ -1,0 +1,23 @@
+  name: Rich Media SMS
+  href: 
+  items:
+  - name: Interface Overview
+    href: overview.md
+  - name: Update History
+    href: ChangeLog.md
+  - name: Interface Information
+    items:
+      - name:  Send SMS & get receipt
+        items:
+          - name: sendBatchMsg
+            href:  Send-Message-Related-APIs/sendBatchMsg.md
+          - name: querySendStatus
+            href:  Send-Message-Related-APIs/querySendStatus.md
+      - name: SMS Template
+        items:
+          - name: addTemplate
+            href: Message-Content-APIs/addTemplate.md
+          - name: queryOneTemplate
+            href: Message-Content-APIs/queryOneTemplate.md
+          - name: queryTemplateList
+            href: Message-Content-APIs/queryTemplateList.md

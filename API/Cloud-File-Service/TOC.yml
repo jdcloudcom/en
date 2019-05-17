@@ -1,0 +1,30 @@
+  name: Cloud File Service
+  href:
+  items:
+  - name: Interface Overview
+    href: overview.md
+  - name: Update History
+    herf: ChangeLog.md
+  - name: File Storage APIs
+    items:
+      - name: createFileSystem
+        href: File-System/createFileSystem.md
+      - name: deleteFileSystem
+        href: File-System/deleteFileSystem.md
+      - name: describeFileSystem
+        href: File-System/describeFileSystem.md
+      - name: describeFileSystems
+        href: File-System/describeFileSystems.md
+      - name: modifyFileSystemAttribute
+        href: File-System/modifyFileSystemAttribute.md
+
+  - name: Attached Target APIs
+    items:
+      - name: createMountTarget
+        href: Mount-Target/createMountTarget.md
+      - name: deleteMountTarget
+        href: Mount-Target/deleteMountTarget.md
+      - name: describeMountTarget
+        href: Mount-Target/describeMountTarget.md
+      - name: describeMountTargets.md
+        href: Mount-Target/describeMountTargets.md
