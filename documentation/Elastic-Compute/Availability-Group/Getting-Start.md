@@ -174,6 +174,6 @@ At the end of setting the fixed-time policy will be shown on the listing page. E
 
 [Create Subnet](../../Networking/Virtual-Private-Cloud/Operation-Guide/Subnet-Configuration.md)
 
-[Create Key Pair](../Virtual-Machine/Operation-Guide/Key-Pair/Create-Keypair.md)
+[Create Key Pair](../Virtual-Machines/Operation-Guide/Key-Pair/Create-Keypair.md )
 
 [Create Security Group](../../Networking/Virtual-Private-Cloud/Operation-Guide/Security-Group-Configuration.md)

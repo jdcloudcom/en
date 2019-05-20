@@ -2,7 +2,7 @@
 
 ## Precondition
 
-Before deleting the Availability Group, you need to remove or delete all instances in the Availability Group. For detailed steps, see [Delete instances](../../Virtual-Machines/Operation-Guide/Instance/Delete-Instance.md), [Remove Instances](../../Virtual-Machine/Operation-Guide/Instance-Template/Create-Instance-Template.md).
+Before deleting the Availability Group, you need to remove or delete all instances in the Availability Group. For detailed steps, see [Delete instances](../../Virtual-Machines/Operation-Guide/Instance/Delete-Instance.md), [Remove Instances](Remove-Instance-Manually.md).
 
 ## Operational Steps
 
@@ -17,4 +17,5 @@ Before deleting the Availability Group, you need to remove or delete all instanc
 
 [Delete Instances](../../Virtual-Machines/Operation-Guide/Instance/Delete-Instance.md)
 
-[Delete Instances](../../Virtual-Machines/Operation-Guide/Instance-Template/Create-Instance-Template.md).
+[Remove Instances](Remove-Instance-Manually.md)
+

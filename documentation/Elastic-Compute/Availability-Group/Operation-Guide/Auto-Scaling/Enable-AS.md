@@ -21,4 +21,4 @@ You can also configure alarm policy and fixed-time policy after enabling the aut
 
 ## Related References
 
-[Create Instance Template](../../Virtual-Machines/Operation-Guide/Instance-Template/Create-Instance-Template.md)
+[Create Instance Template](../../../Virtual-Machines/Operation-Guide/Instance-Template/Create-Instance-Template.md)

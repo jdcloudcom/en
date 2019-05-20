@@ -17,4 +17,4 @@ If instance templates the Availability Group associated have configured with a p
 
 ## Related References
 
-[Create instance](../../Virtual-Machine/Operation-Guide/Instance/Create-Instance.md)
+[Create instance](../../Virtual-Machines/Operation-Guide/Instance/Create-Instance.md)
