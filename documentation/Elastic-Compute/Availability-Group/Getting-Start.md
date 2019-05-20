@@ -11,7 +11,7 @@ Instance template defines the configuration information of instances in Availabi
 ### Preconditions:
 
 * You can in advance [Create VPC ](../../Networking/Virtual-Private-Cloud/Operation-Guide/VPC-Configuration.md) and [Create Subnet](../../Networking/Virtual-Private-Cloud/Operation-Guide/Subnet-Configuration.md) or create VPC and subnet together with the Virtual Machines.
-* If you need a SSH key pair to login an Linux instance, you can in advance the [ Create SSH Key Pair](../Virtual-Machine/Operation-Guide/Key-Pair/Create-Keypair.md) or create key pair together with instances.
+* If you need a SSH key pair to login an Linux instance, you can in advance the [ Create SSH Key Pair](../Virtual-Machines/Operation-Guide/Key-Pair/Create-Keypair.md) or create key pair together with instances.
 * If you need a security group to mange the access secutity of instances, you can in advance [Create Security Group](../../Networking/Virtual-Private-Cloud/Operation-Guide/Security-Group-Configuration.md) and [Configure Security Group](../../Networking/Virtual-Private-Cloud/Operation-Guide/Security-Group-Configuration.md), or create the security group together with instances.
 
 ### Creation Steps

@@ -6,7 +6,7 @@ When the Availability Group is applied, instances within one Availability Group 
 
 [Centos 7](../../Virtual-Machines/Linux-Troubleshooting/Configure-boot-automatically/CentOS-7-system.md)
 
-[Ubuntu 14](../../Virtual-Machines/Linux-Troubleshooting/Configure-boot-automatically/Ubuntu-12-04-14-04-system)
+[Ubuntu 14](../../Virtual-Machines/Linux-Troubleshooting/Configure-boot-automatically/Ubuntu-12-04-14-04-system.md)
 
 [Ubuntu 16](../../Virtual-Machines/Linux-Troubleshooting/Configure-boot-automatically/Ubuntu-16-04-system.md)
 
