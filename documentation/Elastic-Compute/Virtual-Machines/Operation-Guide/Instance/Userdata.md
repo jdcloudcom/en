@@ -1,7 +1,14 @@
-# Customized Data (Beta)
+# Customized Data
 
 Instance customized data means that when an instance is created, the user can pass on the executable script to the instance in the specified data format to implement customization of the instance startup behavior. With this function, you can automatically complete operations such as downloading/upgrading/installing software, enabling services, modifying system configuration, and initializing the service environment after the instance is started.<br>
 The customized data function is currently in the public beta stage. If you need to use it, please open ticket to apply for qualification.
+
+* [Format Requirement](Userdata#user-content-1)
+* [Execution Description](Userdata#user-content-2)
+* [Image Support Situation](Userdata#user-content-3)
+* [Operation Steps](Userdata#user-content-4)
+
+<div id="user-content-1"></div>
 
 ## Format Requirement
 The instance customized data needs to be imported after the Base64 encoding, and the data before encoding cannot exceed 16 KB (not greater than 21848 Byte after encoding). If the instance is created through the Console, the data may not be encoded by Base64; select the corresponding tooltip and the system will complete the encoding. If it is created through the API, you must complete the encoding yourself.<br>
@@ -33,6 +40,7 @@ echo %random%>cmd-text1.txt
       Note:
       * To avoid format incompatibility, when using bash or python format scripts, please complete the encoding in the Linux environment and debug it before entering.
 
+<div id="user-content-2"></div>
 
 ## Execution Description
 * After the instance system starts and completes the basic initialization configuration such as the network (create a new instance or rebuild), the system will execute the customized data with root or administrator permissions;
@@ -41,6 +49,8 @@ echo %random%>cmd-text1.txt
 * If the customized data does not execute as expected, go to the specified directory to view the execution log for causes. Linux system log path: /var/log/jcloud/agent; Windows system log path: C:\ProgramData\JD.com\jCloud\Agent\Logs.
 
 <div id=image-support></div>
+
+<div id="user-content-3"></div>
 
 ## Image Support Situation
 The implementation of the customized data function depends on the system component JCS-Agent installed by default in the public image. Due to historical reasons, the public image system component has undergone the evolution of multiple versions and multiple components. Only the JCS-Agent with the specified version can guarantee the normal use of the function.
@@ -57,12 +67,12 @@ Enter the command:
 ```
 systemctl status jcs-agent-core.service
 ```
-    The following figure shows that the service is enabled and the status is active, indicating that the current instance has installed and is using JCS-Agent.
+The following figure shows that the service is enabled and the status is active, indicating that the current instance has installed and is using JCS-Agent.
 ![](../../../../../image/vm/Operation-Guide-Instance-userdata1.png)
 
 2. Confirm that the JCS-Agent version is not a version of "1.0.675.56819b0", which means that the customized data function is supported. Enter the following command as shown in the figure to view the version number:
 ```
- ps -ef|grep Monitor
+ ps -ef|grep MonitorPlugin
 ```
 ![](../../../../../image/vm/Operation-Guide-Instance-userdata2.png)
 
@@ -81,6 +91,8 @@ wmic process where caption="MonitorPlugin.exe" get caption,commandline /value
       Note:
       * If you do not have JCS-Agent installed in your current instance or the current version does not support customized data, please open ticket to have it installed by the technical service personnel.
 
+<div id="user-content-4"></div>
+
 ## Operation Steps
 1. Access [Instance Console](https://cns-console.jdcloud.com/host/compute/list), or access the JD Cloud Console and click on the left navigation bar **Elastic Compute** - **Virtual Machines** - **Instance** to enter the instance list page and click **Create** to enter the Virtual Machines purchase page.
 2. Select the region where the instance belongs and click **Create** to enter the VM instance purchase page.
@@ -91,7 +103,7 @@ wmic process where caption="MonitorPlugin.exe" get caption,commandline /value
 5. In order to ensure the correct execution of the script, please be sure to check whether the declaration format of the first/last line of the data is correct according to the [Format Requirements] above.
 6. After the instance is running, log in the instance to view the running result of the customized data. If the execution fails, check the related log positioning problem. Linux system log path: /var/log/jcloud/agent; Windows system log path: C:\ProgramData\JD.com\jCloud\Agent\Logs.
 
-
+<div id="user-content-4"></div>
 
 
 ## Related References

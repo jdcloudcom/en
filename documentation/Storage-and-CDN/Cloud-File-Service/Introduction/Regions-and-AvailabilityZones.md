@@ -1,4 +1,4 @@
 # Region and Availability Zone
 
-JD Cloud Cloud File Storage currently supports the provision of services in the “cn-south-1” and the "cn-north-1" regions. More service regions will be available in the future.
+Currently, Cloud File Storage of JD Cloud is provided in “cn-south-1” and “cn-north-1”. More service regions will be available in the future.
 

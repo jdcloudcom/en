@@ -2,7 +2,7 @@
 
 ## **1. Description**
 
-CDN sends pushing streaming interruption notification to the customer when the pushing streaming end streamer starts pushing streaming or the pushing streaming is interrupted or the pushing streaming ends.
+Search online persons of each traffic path.
 
 ## **2. Request Parameter**
 

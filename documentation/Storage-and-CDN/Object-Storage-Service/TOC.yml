@@ -155,6 +155,10 @@ items:
             href: Operation-Guide/Video-Service-Guide/Delete-Video-Task.md
  - name: API Documentation
    items:
+      - name: Strong Consistency
+        href: API-Reference/Introduction/Strong-Consistency.md
+      - name: Compare OSS With File System
+        href: API-Reference/Introduction/OSS-Compared-With-File-System.md
       - name: S3 Compatible API Overview
         href:  API-Reference-S3-Compatible/Introduction-2.md
       - name: Regions And Endpoints
@@ -267,10 +271,6 @@ items:
         items:
            - name: Basic Concept
              href: API-Reference/Introduction/Basic-Concepts.md
-           - name: Strong Consistency
-             href: API-Reference/Introduction/Strong-Consistency.md
-           - name: Compare OSS With File System
-             href: API-Reference/Introduction/OSS-Compared-With-File-System.md
            - name: OSS Glossary
              href: API-Reference/Introduction/OSS-Concepts.md
            - name: API Overview
@@ -347,6 +347,8 @@ items:
               href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-Java/getObject-JavaSDK.md
             - name: Management Object
               href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-Java/Manage-Object-JavaSDK.md
+            - name: TransferManager
+              href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-Java/TransferManager.md
        - name: Compatible S3  SDK-Python (Recommended)
          href: API-Reference-S3-Compatible/Compatibility-Tools/SDK-Python.md
        - name: Compatible to S3  SDK-Go

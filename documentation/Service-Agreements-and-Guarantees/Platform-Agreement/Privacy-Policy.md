@@ -1,5 +1,9 @@
 ## <div align=center>JD Cloud Privacy Policy</div>
 
+Updating Date: May 13, 2019
+
+Effective Date: May 20, 2019
+
 **[Special Notification] Please read the JD Cloud Privacy Policy carefully (especially the content underlined in bold) and make sure to understand our rules for handling your personal information. In the reading process, if you have any questions, please contact our Customer Service for consultation. If you do not agree with any terms in the agreement, you shall immediately stop accessing JD Cloud. In the process of reading the agreement, if you do not agree to the relevant agreement or any of the terms therein, you shall immediately stop using JD Cloud services.**
 
  
@@ -184,7 +188,7 @@ We will only publicly disclose your personal information under the following cir
 
 6.2.1 Your personal information will be entirely stored within the People's Republic of China. In the event that you use the cross-border transaction service and need to transmit your personal information overseas to complete such transaction, we will separately obtain your authorized consent and request receivers to process such personal information in accordance with our instructions, the Privacy Policy and any other relevant confidentiality and security measures. 
 
-6.2.2 **Please note that after you apply for cancelling your JD Cloud account, we will review and approve your application for account cancellation within 3 working days upon your application. Upon such review and approval, we will delete or anonymize your personal information.**
+6.2.2 You can call JD Cloud Customer Service or submit account cancellation application via “Ticket - Basic Service Type - Account & Verification”. For details of account cancellation method and requirements, please refer to the *Instructions for the Cancellation of JD Cloud Account*. After you cancel your account, we will stop providing product and/or service to you, and delete your personal information as required by you, unless otherwise specified by laws and regulations.  **Please note that after you apply for canceling your JD Cloud account, we will review and approve your application for account cancellation within 3 working days upon your application. Upon such review and approval, we will delete or anonymize your personal information.** 
 
 6.2.3 Where we terminate services or operations, we will inform you at least thirty days in advance and delete or anonymize your personal information after termination of services or operations.
 
@@ -325,7 +329,7 @@ You are reminded with good faith that **the cancellation of your account will br
 6. **The cancellation of the JD Cloud account shall not exempt or relieve any behavior of the account and relevant responsibilities before cancellation of such account**.
 
 
-[JD Cloud Privacy Policy-PDF Download](https://docs-downloads.oss.cn-north-1.jcloudcs.com/Privacy-Policy-pdf.pdf)
+[JD Cloud Privacy Policy-PDF Download](https://github.com/jdcloudcom/cn/blob/jccsgithub-patch-6/image/Service-Agreements-and-Guarantees/Platform-Agreement/Privacy-Policy.pdf)
       
 
  

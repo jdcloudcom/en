@@ -1,0 +1,3 @@
+## Rich Media Information Platform<br>
+Rich Media Information is based on normal SMS channel. The brand new patent technology (the information size of the system inbox is limited to 1.9MB), with which user's mobile phone SMS inbox can receive and read **text, static images, dynamic images, audio, video** and other rich media SMS, can provide enterprise network terminal mass texting: single message with high capacity, multi-media and direct opening for reading. It provides a new tool for multi-media interaction and rich media broadcasting of enterprise promotion and user communication.<br>
+![富媒体短信效果](../../../../image/Cloud-Communication/Rich-Media-SMS/rms-001.png)<br><br>

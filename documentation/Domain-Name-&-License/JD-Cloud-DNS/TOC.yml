@@ -21,6 +21,8 @@
         href: Pricing/Price-Overview.md
       - name: Purchase Process
         href: Pricing/Purchase-Process.md 
+      - name: Renew Process
+        href: Pricing/Renew-Process.md
   - name: Operation Guide
     items:
       - name: Domain Name Operation

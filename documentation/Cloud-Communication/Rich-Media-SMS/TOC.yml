@@ -1,0 +1,35 @@
+name: Rich Media SMS
+href:
+items:
+- name: Introduction
+  items:
+    - name: Product Overview
+      href: Introduction/product-overview.md
+    - name: Rich Media SMS Introduction
+      href: Introduction/Introduction.md
+    - name: Audit Standard
+      href: Introduction/standard.md
+- name: Product Pricing
+  items:
+    - name: Price Overview
+      href: Pricing/Billing-Overview.md
+- name: Getting Started
+  items:
+    - name: Application Management
+      href: Getting-Started/Application.md
+- name: Operation Guide
+  items:
+    - name: Business Rules
+      href: Operation-Guide/rule.md
+    - name: Create Rich Media SMS
+      href: Operation-Guide/content.md
+    - name: Send SMS
+      href: Operation-Guide/send.md
+    - name: Statistics & Analysis
+      href: Operation-Guide/stat.md
+- name: Relevant Agreement
+  items:
+    - name: Service Agreement
+      href: Service-Agreements-and-Guarantees/Rich-Media-SMS-Term.md
+    - name: SLA Service Agreement
+      href: Service-Agreements-and-Guarantees/Rich-Media-SMS-SLA.md

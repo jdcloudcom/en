@@ -15,115 +15,184 @@ Check JD Cloud images in the image option and check the registry address and ima
 
 **Note: Select repositories under different regions as much as possible.**
 
-II. Integration to JCS for Kubernetes
+**II. Integration to JCS for Kubernetes**
 
+See [Help Documentation of Container Registry](https://docs.jdcloud.com/en/container-registry/create-image) for use method of Container Registry.  
 For example, the registry is myregistry, the repository is myrepo, the image version number is latest and the region is cn-north-1. Users can make the alternation depending on specific conditions.
 
-1.   
-**Step 1: Save secret all at once with time validity**
+**For one-time use, the Token is valid within its validity period and is time-effective**  
+With this scheme, only permissions of all Docker Images under one Registry can be gotten.  
+1. Get Token and among Docker client login commands, one character string after -p is the content of docker-password:  
+For example, login command of Docker client is as follows: docker login -u jdcloud -p cWj36rigll1J2k8u 1227-cn-north-1.jcr.service.jdcloud.com. Namely, cWj36rigll1J2k8u is a part of docker-password.  
+2. When creating secret in the name of my-secret, please execute the following command, with relevant contents to be modified based on reality:  
 ```
-kubectl create secret docker-registry my-secret --docker-server=myregistry-cn-north-1.jcr.service.jdcloud.com --docker-username=jdcloud --docker-password=C********u --docker-email=l****@jd.com
+kubectl create secret docker-registry my-secret --docker-server=myregistry-cn-north-1.jcr.service.jdcloud.com --docker-username=jdcloud --docker-password=cWj36rigll1J2k8u --docker-email=l****@jd.com
+```  
+3. When resources are creating, my-secret is used by imagePullSecrets:  
+For example
 ```
-**Step 2: Automatically obtain Token on a regular basis, long-term valid:**  
-Create a jcr-credential-rbac.yaml file with the following contents:
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  labels:
+    run: nginx
+  name: nginx
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      run: nginx
+  template:
+    metadata:
+      labels:
+        run: nginx
+    spec:
+      containers:
+      - image: myregistry-cn-north-1.jcr.service.jdcloud.com/myrepo:latest
+        imagePullPolicy: Always
+        name: nginx
+      imagePullSecrets:
+      - name: my-secret
+```  
+
+**For long-term use, login permission of Container Registry will be automatically obtained**  
+With this scheme, permissions of Docker Image of all Registries under the account can be gotten.  
+1. You can make base 64-bit code for Access Key and Access Key Secret of user:  
+`
+printf  22BC1***********02C8C  | base64   #22BC1***********02C8C are Access Key and Access Key Secret
+`  
+Output contents, i.e. Access Key and Access Key Secret can be applied for base 64-bit coding:   
+2. Create a secret.yaml file:  
+`
+vi secret.yaml
+`  
+The content is as follows:
 ```
+apiVersion: v1
+kind: Secret
+metadata: 
+  name: c-tokens-fresher-secret
+  
+type: Opaque
+data: 
+  ak: NE*******************xQjk= # is modified to as the base64-bit code of the user’s Access Key, as required
+  sk: RU*******************4QTE= # is modified as the base64 code of the user’s Access Key Secret, as required
+```
+3. Create cronjod.yaml file:  
+`
+vi cronjob.yaml
+`  
+The content is as follows:
+```
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: init-jcr-token-refresher
+spec:
+  template:
+    metadata:
+      name: init-jcr-token-refresher
+    spec:
+      serviceAccountName: jcr-credential
+      restartPolicy: Never
+      hostNetwork: true
+      containers:
+      - name: init-jcr-token-refresher
+        env:
+        - name: ACCESS_KEY
+          valueFrom:
+            secretKeyRef:
+              name: c-tokens-fresher-secret
+              key: ak
+        - name: SECRET_KEY
+          valueFrom:
+            secretKeyRef:
+              name: c-tokens-fresher-secret
+              key: sk
+        imagePullPolicy: Always
+        image: jdcloudiaas/jcrtoken:cronjob
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: jcr-credential
+  namespace: default
+---
 apiVersion: rbac.authorization.k8s.io/v1beta1
 kind: ClusterRoleBinding
 metadata:
   name: jcr-credential-rbac
 subjects:
   - kind: ServiceAccount
-    # Reference to upper's `metadata.name`
-    name: default
-    # Reference to upper's `metadata.namespace`
+    name: jcr-credential
     namespace: default
 roleRef:
   kind: ClusterRole
   name: cluster-admin
   apiGroup: rbac.authorization.k8s.io
-```
-Create a jcr-credential-cron.yaml file and set to obtain Token every hour. Please add JDCLOUD_ACCESS_KEY and JDCLOUD_SECRET_KEY content when using it. The content of yaml is as follows:
-```
+---
 apiVersion: batch/v1beta1
 kind: CronJob
 metadata:
   name: jdcloud-jcr-credential-cron
 spec:
-  schedule: "*0 */1 * * *" # 0 represents the integral point of each hour. You can modify the time according to your demands. If such number is changed to 15, it means that the token will be gotten at the 15th minute per hour.
+  schedule: "*/5 * * * *"
   successfulJobsHistoryLimit: 2
-  failedJobsHistoryLimit: 2  
+  failedJobsHistoryLimit: 2
   jobTemplate:
     spec:
       backoffLimit: 4
       template:
         spec:
-          serviceAccountName: default
+          serviceAccountName: jcr-credential
           terminationGracePeriodSeconds: 0
           restartPolicy: Never
           hostNetwork: true
           containers:
           - name: jcr-token-refresher
+            env:
+            - name: ACCESS_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: c-tokens-fresher-secret
+                  key: ak
+            - name: SECRET_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: c-tokens-fresher-secret
+                  key: sk
             imagePullPolicy: Always
-            image: jdcloudcli/jdcloud-cli:latest
-            command:
-            - "/bin/sh"
-            - "-c"
-            - |
-              REGISTRY_NAME=myregistry
-              JCR_REGION=cn-north-1
-              DOCKER_REGISTRY_SERVER=https://${REGISTRY_NAME}-${JCR_REGION}.jcr.service.jdcloud.com
-              DOCKER_USER=jdcloud
-              JDCLOUD_ACCESS_KEY=****************************
-              JDCLOUD_SECRET_KEY=****************************
-              jdc configure add --profile ${DOCKER_USER} --access-key ${JDCLOUD_ACCESS_KEY} --secret-key ${JDCLOUD_SECRET_KEY}
-              PRECHECK=`jdc cr get-authorization-token --region-id ${JCR_REGION} --registry-name ${REGISTRY_NAME} |jq .result.authorizationToken`
-              if [ 'null' = "$PRECHECK" ]; then
-                  echo "jdc cr call failed no valid content" 
-                  exit 0 
-              else
-                  echo "jdc cr call return authentication string"
-              fi;
-              DOCKER_PASSWORD=`echo ${PRECHECK} | base64 -d |cut  -d  ':' -f2`
-              kubectl delete secret my-secret || true
-              echo "0:"$PRECHECK
-              echo "1:"$DOCKER_REGISTRY_SERVER
-              echo "2:"$DOCKER_USER
-              echo "3:"$DOCKER_PASSWORD
-              kubectl create secret docker-registry my-secret \
-              --docker-server=$DOCKER_REGISTRY_SERVER \
-              --docker-username=$DOCKER_USER \
-              --docker-password=$DOCKER_PASSWORD \
-              --docker-email=**@jd.com
-              kubectl patch serviceaccount default  -p '{"imagePullSecrets":[{"name":"my-secret"}]}' # kubectl patch  $SERVICEACCOUNT xxxxx  -n $NAMESPACEOFSERVICEACCOUNT  
+            image: jdcloudiaas/jcrtoken:cronjob
+```  
+4. Execute the following commands to run:
+```
+kubectl create -f secret.yaml
+kubectl create -f cronjob.yaml
+```
+5. When resources are creating, please select the image under the ak and sk users and adopt jcr-pull-secret as imagePullSecrets:  
+For example:
+```
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  labels:
+    run: nginx
+  name: nginx
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      run: nginx
+  template:
+    metadata:
+      labels:
+        run: nginx
+    spec:
+      containers:
+      - image: myregistry-cn-north-1.jcr.service.jdcloud.com/myrepo:latest
+        imagePullPolicy: Always
+        name: nginx
+      imagePullSecrets:
+      - name: jcr-pull-secret
+```
 
-```
-```
-kubectl apply  -f  jcr-credential-rbac.yaml
-kubectl apply  -f  jcr-credential-cron.yaml
-```
-2.   Create a yaml file with the file name of registrysecret
-```
-apiVersion: v1
- kind: ReplicationController
- metadata:
-    name: webapp
- spec:
-    replicas: 1
-    selector:
-      name: container-private-repo
-    template:
-      metadata:
-        labels:
-           name: container-private-repo
-      spec:
-        containers:
-          - name:  mycontainer
-            image: myregistry-cn-north-1.jcr.service.jdcloud.com/myrepo:latest
-            imagePullPolicy: Always
-        imagePullSecrets:
-          - name: my-secret
-```
-3. Create:  
- `kubectl create -f registrysecret`
-4. View details:  
- `kubectl describe rc webapp`

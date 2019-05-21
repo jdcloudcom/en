@@ -21,6 +21,8 @@
         href: Operation-Guide/Configuration-Change.md         
       - name: Security Visualization Screen
         href: Operation-Guide/Security-Bigscreen.md     
+      - name: Asset Fingerprint
+        href: Operation-Guide/Asset-Print.md          
   - name: FAQ
     href: FAQ/FAQ.md
   - name: Revision Update

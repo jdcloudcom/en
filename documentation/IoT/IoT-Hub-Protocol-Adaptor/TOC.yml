@@ -1,0 +1,57 @@
+  name: IoT Hub Protocol Adaptor
+  href: 
+  items:
+  - name: Introduction
+    items:
+      - name: Product Overview
+        href: Introduction/Product-Overview.md
+      - name: Core Concepts
+        href: Introduction/Core-Concepts.md
+      - name: Basic Architecture
+        href: Introduction/Basic-Infrastructure.md
+      - name: Benefits
+        href: Introduction/Benefits.md
+      - name: Features
+        href: Introduction/Features.md
+      - name: Restrictions
+        href: Introduction/Restrictions.md
+      - name: Application Scenarios 
+        href: Introduction/Application-Scenarios.md    
+  - name: Product Pricing
+    items:
+      - name: Billing Overview
+        href: Pricing/Billing-Overview.md
+  - name: Getting Started
+    items:
+      - name: Create instance
+        href: Getting-Started/Create-Instance.md
+      - name: Instance List
+        href: Getting-Started/List-Instance.md
+      - name: Delete Instance
+        href: Getting-Started/Delete-Instance.md
+  - name: Operation Guide
+    items:
+      - name: Instance Configuration
+        items:
+          - name: Instance Configuration
+            href: Operation-Guide/Instance-Configuration/Instance-Configuration.md            
+  - name: FAQ
+    href: FAQ/FAQ.md
+  - name: User Agreements
+    status: 0
+    items:
+    - name: Service Terms
+      href: User-Agreements/Product-Terms-of-Service.md               
+    - name: SLA
+      href: User-Agreements/SLA.md           
+      status: 0       
+  - name: Related Resources
+    items:
+    - name: Document History Records
+      href: Related-Resources/Document-History.md   
+    - name: ICP Filing
+      href: Related-Resources/Filing.md           
+      status: 0        
+    - name: Glossary
+      href: Related-Resources/Glossary.md           
+      status: 0

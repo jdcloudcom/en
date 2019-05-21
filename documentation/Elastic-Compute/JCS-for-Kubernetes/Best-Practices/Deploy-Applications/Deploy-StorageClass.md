@@ -29,6 +29,7 @@ reclaimPolicy: Retain
 1. provisioner: Set the parameter value to [kubernetes.io/jdcloud-ebs](https://kubernetes.io/docs/concepts/storage/storage-classes/), and it should not be modified. Identity is created with the JD Cloud cloud disk Provisioner plug-in.
 
 2. reclaimPolicy: Persistent Volume, dynamically created by storage class, will specify the recycle policy in the field reclaimPolicy, being Delete or Retain. If reclaimPolicy is not designated when the storageClass object is created, Delete is the default value.
+
 3. parameters  
   - type: Set the parameter value to ssd or premium-hdd, corresponding to JD Cloud SSD cloud disk and Premium Hdd cloud disk.  
   - fstype: Set the file system type, with optional parameter values of fstyle and ext4. If no fstyle is specified, ext4 will be used as the default file system type; for example, fstyle = ext4;  
@@ -43,9 +44,10 @@ reclaimPolicy: Retain
 |cn-east-2	|Availability Zone A	cn-east-2a  |
 |cn-east-2	|Availability Zone B	cn-east-2b  |
 |cn-south-1	|Availability Zone A	cn-south-1a   |
-3. When creating the Persistent Volume Claim, one specific storageclass resource can be associated with the storageClassName field, one Persistent Volume can be dynamically created and associated according to definitions of storageClass or the Persistent Volume with the same storageClassName and with satisfactory parameters can be directly associated; for more details, please refer to [Deploy Persistent Volume](https://docs.jdcloud.com/en/jcs-for-kubernetes/deploy-pv);
 
-4. For more descriptions of the parameter storageClass, please refer to [Kubernetes Parameter Instruction](https://kubernetes.io/docs/concepts/storage/storage-classes/);  
+4. When creating the Persistent Volume Claim, one specific storageclass resource can be associated with the storageClassName field, one Persistent Volume can be dynamically created and associated according to definitions of storageClass or the Persistent Volume with the same storageClassName and with satisfactory parameters can be directly associated; for more details, please refer to [Deploy Persistent Volume](https://docs.jdcloud.com/en/jcs-for-kubernetes/deploy-pv);
+
+5. For more descriptions of the parameter storageClass, please refer to [Kubernetes Parameter Instruction](https://kubernetes.io/docs/concepts/storage/storage-classes/). 
 
 
  

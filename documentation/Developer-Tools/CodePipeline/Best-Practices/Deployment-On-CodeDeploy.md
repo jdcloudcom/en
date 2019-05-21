@@ -128,7 +128,7 @@ hooks:
     - command: /home/demo/bin/start.sh
       timeout: 10
       runas: root
-permisssions: {}
+permisssions: []
 env: {}
  ```
 

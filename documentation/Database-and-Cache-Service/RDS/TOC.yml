@@ -380,6 +380,8 @@
     items:
     - name: Memory Usage Rate
       href: Troubleshooting/Memory-Use-Rate.md          
+    - name: Coding problems of JCS for MySQL character set 
+      href: Troubleshooting/Character-Encoding.md 
   - name: Related Resources
     items:
     - name: Document History

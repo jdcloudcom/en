@@ -1,0 +1,82 @@
+  name: IoT Intelligent Edge Computing
+  href:
+  items:
+  - name: Introduction
+    items:
+      - name: Product Overview
+        href: Introduction/Product-Overview.md
+      - name: Core Concepts
+        href: Introduction/Core-Concepts.md
+      - name: Basic Architecture
+        href: Introduction/Basic-Infrastructure.md
+      - name: Benefits
+        href: Introduction/Benefits.md
+      - name: Features
+        href: Introduction/Features.md
+      - name: Product Specifications
+        href: Introduction/Specifications.md
+      - name: Restrictions
+        href: Introduction/Restrictions.md
+      - name: Application Scenarios
+        href: Introduction/Application-Scenarios.md
+  - name: Product Pricing
+    items:
+      - name: Billing Overview
+        href: Pricing/Billing-Overview.md
+      - name: Billing Rules
+        href: Pricing/Billing-Rules.md
+      - name: Price Overview
+        href: Pricing/Price-Overview.md
+      - name: Purchase Process
+        href: Pricing/Purchase-Process.md
+      - name: Renew Process
+        href: Pricing/Renew-Process.md
+        status: 0
+  - name: Getting Started
+    items:
+      - name: Create edge node
+        href: Getting-Started/Create-Edgenode.md
+      - name: Install Edge system
+        href: Getting-Started/Install-Edge-System.md
+  - name: Operation Guide
+    items:
+      - name: Edge Computing Operation
+        items:
+          - name: Deploy edge computing module
+            href: Operation-Guide/Edge-Module/Deploy-Edge-Module.md
+          - name: View edge computing result
+            href: Operation-Guide/Edge-Module/View-Module-Result.md
+  - name: Best Practices
+    items:
+    - name: Control edge node sub-device
+      href: Best-Practices/Control-Device.md
+  - name: Tutorial
+    items:
+    status: 0
+  - name: Troubleshooting
+    items:
+    - name: Failed to install Edge system
+      href: Troubleshooting/Install-Failed.md
+    - name: Failed to view edge computing result
+      href: Troubleshooting/Viewresult-Failed.md
+  - name: FAQ
+    href: FAQ/FAQ.md
+  - name: User Agreements
+    status: 0
+    items:
+    - name: Service Terms
+      href: User-Agreements/Product-Terms-of-Service.md
+      status: 0
+    - name: SLA
+      href: User-Agreements/SLA.md
+      status: 0
+  - name: Related Resources
+    items:
+    - name: Document History Records
+      href: Related-Resources/Document-History.md
+    - name: ICP Filing
+      href: Related-Resources/Filing.md
+      status: 0
+    - name: Glossary
+      href: Related-Resources/Glossary.md
+      status: 0

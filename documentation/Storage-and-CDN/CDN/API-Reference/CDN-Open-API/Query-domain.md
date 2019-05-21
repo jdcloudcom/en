@@ -13,7 +13,7 @@ Query Accelerated Domain Name
 | domain     | String   | No           | Fuzzily match accelerated domain name                                             |
 | pageNumber | int      | No           | Query the paging page number, 1 by default if not uploaded                                    |
 | pageSize   | int      | No           | Query the paging number, 10 by default if not uploaded                                   |
-| type       | String   | No          | Domain service resource type, currently only supports: web means image small files, download means large file download, vod means video files; (types not supported currently: dynamic means dynamic acceleration, live means cloud live video) |
+| type       | String   | No          | Domain service resource type, currently only supports: web means image small files, download means large file download, vod means video files, dynamic means dynamic acceleration; (api interface is adopted for CDN live) |
 | status     | String   | No           | Status, search all the domains if not uploaded, 0 (search the suspended domains), 1 (search the running domains), 4 (search the configuring domains), 5 (search the domains being audited), 6 (search the unapproved and rejected domains), 7 (search the blocked domains) |
 
 ## **3. Return Parameter**
@@ -25,7 +25,7 @@ Query Accelerated Domain Name
 | data     | Domain Name Information Array                                                 |
 | domain   | Accelerated Domain Name                                                     |
 | cname    | cname                                                        |
-| type     | Domain service resource type, currently only supports: web means image small files, download means large file download, vod means video files; (types not supported currently: dynamic means dynamic acceleration, live means cloud live video) |
+| type     | Domain service resource type, currently only supports: small image file, large file download, video file, dynamic acceleration; (api interface is adopted for CDN live) |
 | status   | The enabling application status of the domain, running, auditing, disapproved, configuring, stopped, blocked   |
 
 ## **4. Call Example**

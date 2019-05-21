@@ -3,19 +3,19 @@
 You should specify information such as the instance type, image, VPC, security group, and login password when creating an instance. JD Cloud provides the user with a variety of ways to create an instance, including:
 
 * [Create customized instance](Create-Instance#user-content-1)
-* [Create instance by instance template (in beta) ](Create-Instance#user-content-2)
-* [Create instance in Availability Group (in beta)](Create-Instance#user-content-3)
+* [Create instance by instance template](Create-Instance#user-content-2)
+* [Create instance in Availability Group](Create-Instance#user-content-3)
 
 
 The customized instance creation also includes the clone instance.
 
+<div id="user-content-1"></div>
+
 ## Create Customized Instance
 The custom creation indicates that you need to customize the region, availability zone, instance type, image, VPC, security group, login password and so on based on your business scenarios. Depending on the types of operating system platforms, please refer to [Create Linux Instance](http://docs.jdcloud.com/en/virtual-machines/create-linux-instance) and [Create Windows Instance](http://docs.jdcloud.com/en/virtual-machines/create-windows-instance) for detailed creation steps.
 
-<div id="user-content-1"></div>
-### Clone Instance
+## Clone Instance
 You can create an instance of the same configuration as your current instance, including information such as the region, instance type, image, VPC, security group, etc., without including information such as the availability zone, login password, instance name, and description, etc. Clone instance is a quick customized creation method,
-
 The detailed steps are as follows:
 
 1. Access [Virtual Machines Console](https://cns-console.jdcloud.com/host/compute/list) and enter the instance list page. Or access [JD Cloud Console](https://console.jdcloud.com) Click navigation bar on the left **Elastic Compute** - **Virtual Machines** to enter the instance list page.
@@ -29,8 +29,9 @@ The detailed steps are as follows:
 		* If the private image used by the current Virtual Machines is deleted, you should re-specify the image;
 		* The Clone Instance indicates that the new configuration information is the same, but the data in the instance is not replicated.
 
-<div id=user-content-2></div>
-## Create Instance by Instance Template (in Beta)
+<div id="user-content-2"></div>
+
+## Create Instance by Instance Template
 The instance template is the configuration information template for creating VM instance provided by JD Cloud, including the image, instance type, type and capacity of system disk & data disk, VPC and subnet configuration, security group, and login information, etc., but without including the availability zone, instance name and description, etc. Please refer to [Instance Template Overview](http://docs.jdcloud.com/en/virtual-machines/instance-template-overview) for detailed instructions of the instance template.
 
 When creating instance by instance template, the configuration included in the instance template is selected by default and you can change it based on this.
@@ -52,8 +53,9 @@ The detailed steps are as follows, there are two operation entrances:
 		
 			Note: If the configuration resource contained in the current instance template has been deleted, you need to reassign the corresponding resource information.
 
-<div id=user-content-3></div>
-## Create Instance in Availability Group (in Beta)
+<div id="user-content-3"></div>
+
+## Create Instance in Availability Group
 Availability Group (AG) is a logical collection of VM instance provided by JD Cloud. The instances in the Availability Group are distributed on the physical resources that are isolated from each other. When a hardware failure occurs, only some instances are affected. Your overall business is still not available. For details of Availability Group, please see [Availability Group Overview](http://docs.jdcloud.com/en/availability-group/product-overview).
 
 Create instance in the Availability Group means that the newly created instances will be deployed on the corresponding physical resources according to the rules of the current Availability Group
