@@ -53,4 +53,4 @@ Now Virtual Machines in the Availability Group can all visit public network via 
 
 ## Related References
 
-[Create Linux Instance](../../Virtual-Machines/Getting-Start-Linux/Create-Instance.md)
+[Create Linux Instance](../../Virtual-Machines/Getting-Start-Linux/Create-Linux-Instance.md)
