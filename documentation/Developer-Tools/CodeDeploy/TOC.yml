@@ -69,6 +69,8 @@
         href: Operation-Guide/Convention.md
       - name: Jenkins Plug-ins  
         href: Operation-Guide/Jenkins.md
+      - name: Use JD Distributed Service Framework  
+        href: Operation-Guide/JDSF.md
   - name: Best Practices
     items: 
       - name: Blue and Green Deployment

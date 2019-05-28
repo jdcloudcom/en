@@ -9,5 +9,6 @@ Two billing methods are provided to JCS for Elasticsearch, including the method 
 ## Renewal Rules
 
 Pay billing and renewal by configuration: Change the billing method of JCS for Elasticsearch to pay by monthly package, and the renewal period can be 1 month - 9 months, 1 year, 2 years and 3 years.</br>
+
 Monthly package renewal: Support the user to conduct renewal operation before monthly package expiration. The renewal period can be 1 month - 9 months, 1 year, 2 years and 3 years, which the start time order is the expiration time of the original order.
 

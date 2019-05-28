@@ -45,7 +45,7 @@ Take Java SDK as an example, other ways and development languages please refer t
 <dependency>
    <groupId>com.jdcloud</groupId>
    <artifactId>jcq-java-sdk</artifactId>
-   <version>1.0.2</version>
+   <version>${jcq.sdk.version}</version>
 </dependency>
 ```
 2. For sending and subscription codes, please refer to the demo example:[jcq-sdk-demo.zip](http://jcq-inuse-important-cannotdelete.oss.cn-north-1.jcloudcs.com/jcq-sdk-demo.zip).

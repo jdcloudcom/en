@@ -9,7 +9,7 @@ The function of situation awareness asset fingerprint enables periodical collect
 
 Log in [Situation Awareness]->[Configuration Changes]->[Asset Management] and click specific asset information.
 
-![](../../../../image/Situational-Awareness/bash3.png)
+![](../../../../image/Situational-Awareness/bash3_1.jpg)
 
 ![](../../../../image/Situational-Awareness/bash2.png)
 

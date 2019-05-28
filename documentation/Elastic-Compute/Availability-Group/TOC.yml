@@ -18,7 +18,7 @@
   - name: Pricing
     items:
     - name: Billing Overview
-      href: Pricing/Billing-Overview.md
+      href: Pricing/Pricing.md
   - name: Getting Started
     href: Getting-Start.md
   - name: Operation Guide
@@ -52,11 +52,11 @@
   - name: Best Practices
     items:
     - name: Optimal Configuration
-      href: Best-Practices/Recommended-Configuration.md
+      href: Best-Practices/recommended-configuration.md
     - name: Configure self-starting
-      href: Best-Practices/Configure-Self-Starting.md
+      href: Best-Practices/configure-self-starting.md
     - name: Set fixed  IP
-      href: Best-Practices/Set-Fixed-Outbound-IP.md
+      href: Best-Practices/Set-fixed-Outbound-IP.md
   - name: Tutorial
     status: 0
     items:     

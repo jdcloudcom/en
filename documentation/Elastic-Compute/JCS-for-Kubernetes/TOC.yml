@@ -53,6 +53,8 @@
             href: Operation-Guide/NodeGroup/Nodegroup-Overview.md
           - name: Create the Working Node Group
             href: Operation-Guide/NodeGroup/Create-NodeGroup.md
+          - name: Add GPU working node groups
+            href: Operation-Guide/NodeGroup/Add-GPU.md  
           - name: Working Node Group Scaling
             href: Operation-Guide/NodeGroup/Telescopic-NodeGroup.md
           - name: Delete Working Node Group
@@ -87,7 +89,7 @@
             href: Best-Practices/Deploy-Applications/Deploy-PV.md
          -  name: Deploy Service
             href: Best-Practices/Deploy-Applications/Deploy-Service.md
-     - name: Create native container Pod
+     - name: Ingress
        items:
          -  name: Deploy Nginx-ingress controller
             href: Best-Practices/Ingress/Deploy-Ingress-NGINX-Controller.md
@@ -103,6 +105,8 @@
        href: Best-Practices/Deploy-istio.md
      - name: Use Object Storage Service Bucket as the shared storage
        href: Best-Practices/Oss-s3fs-volume.md
+     - name: Deploy NVIDIA GPU driver of customized version
+       href: Best-Practices/Custom-GPU-driver.md
   - name: FAQ  
     href: Common-Problem.md
   - name: Related Resources

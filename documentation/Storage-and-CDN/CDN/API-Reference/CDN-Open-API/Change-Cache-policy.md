@@ -15,7 +15,7 @@ Cache Policy Change (changeCache/{status})
 | weight    | String   | Yes            | Weight, weight cannot be repeated, only one can be created when having the same weights                   |
 | content   | String   | Yes           | Cache Policy Contents                                                 |
 | ttl       | int      | Yes           | Expiry Time, time seconds                                             |
-| status    | String   | Yes           | add, update, delete, wherein update and delete need configid, cache configuration id |
+| configid   | int      | No         |  The request parameter must be configid when calling update and delete and the configuration id must be cached                                        |
 
 ## **3. Return Parameter**
 
@@ -31,17 +31,19 @@ Cache Policy Change (changeCache/{status})
 
 - ### **Request Address**
 
-https://opencdn.jcloud.com/api/changeCache/add
+Set cache configuration: https://opencdn.jcloud.com/api/changeCache/add
+Change cache configuration: https://opencdn.jcloud.com/api/changeCache/update
+Delete cache configuration: https://opencdn.jcloud.com/api/changeCache/delete
 
 - ### **Request Example**
 
 curl Request Example:
 
 ```
- curl -H “Content-type: application/json” -X POST -d ‘{“username”:“test_user”,“signature”:“914a3f412fd9bc1eec14bb5eb104d253”,“domain” :“www.a.com”, “weight” :“1”, “ttl” :“7200”, “content” :“.jpg”}’ http://opencdn.jcloud.com/api/changeCache/add
+ curl -H "Content-type: application/json" -X POST -d ‘{"username":"test_user","signature":"914a3f412fd9bc1eec14bb5eb104d253","domain" :"www.a.com", "weight" :"1", "ttl" :"7200", "content" :".jpg"}’ http://opencdn.jcloud.com/api/changeCache/add
 ```
 
-*json Format
+* json Format
 
 ```
 https://opencdn.jcloud.com/api/changeCache/add
@@ -51,7 +53,6 @@ https://opencdn.jcloud.com/api/changeCache/add
     "domain" :"www.a.com",
     "weight" :"1",
     "ttl" :"7200",
-    "configId": "1303",//Compulsory field upon modification and deletion, which is not required when adding new cache configurations
     "content" :".jpg"
  }
 ```
@@ -62,8 +63,11 @@ https://opencdn.jcloud.com/api/changeCache/add
 
 ```
 {
-  "status": 0,
-  "msg": "Successful",
-  "data": "www.a.com"
+    "status": 0,
+    "msg": "Successful",
+    "data": {
+        "domain": "www.a.com",
+        "configId": "12310"
+    }
 }
 ```

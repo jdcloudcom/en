@@ -1,8 +1,21 @@
 ## Jenkins Plug-ins
 
+**Version Requirement**
+
+Not lower than 2.7.3
+
+
 **Install Plug-ins**
 
-In Jenkins, you can install a CodeDeploy plug-in through uploading a plug-in.
+In Jenkins, two installation methods are supported for CodeDeploy plug-ins, i.e. direct installation and plug-in upload.
+
+1. Direct Installation
+
+The Plug-in Management Page can be entered via "System Management"-->"Plug-in Management" in Jenkins.
+
+Search "JDCloud CodeDeploy" and then the plug-in can be installed.
+
+2. Plug-in Upload
 
 A user can first download the plug-in to the local memory. The download link is: https://jdcloud-codedeploy.oss.cn-north-1.jcloudcs.com/jdcloud-codedeploy.hpi
 

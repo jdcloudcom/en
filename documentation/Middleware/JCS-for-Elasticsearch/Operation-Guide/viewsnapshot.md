@@ -48,8 +48,13 @@ GET _snapshot/auto_snapshot/_all
 GET _snapshot/auto_snapshot/snapshot_1/_status
 ```
 It responds general status containing snapshots, but it also contains statistics values drilling down each index and each sharding, with different completed status of shardings being shown as below:</br>
+
 INITIALIZING: The sharding is checking the cluster status to view whether the snapshot can be taken for it.This is typically very quick.</br>
+
 STARTED:Data is being transmitted to the repository.</br>
+
 FINALIZING: Data transmission is completed; the sharding is sending the metadata of the snapshot.</br>
+
 DONE: Snapshot is completed.</br>
+
 FAILED: Error occurred when processing snapshot, the sharding/index/snapshot cannot be completed. View your log to get more information.</br>

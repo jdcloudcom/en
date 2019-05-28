@@ -20,7 +20,7 @@ spec:
     - ReadWriteOnce
   persistentVolumeReclaimPolicy: Retain
   jdcloudElasticBlockStore:
-    volumeID: vol-ogcbkdjg7x
+    volumeID: vol-ogcbkdjg7x      #Please replace the Cloud Disk Service ID with the available Cloud Disk Service ID in the same region of JCS for Kubernetes
     fsType: xfs
 ```     
 **Parameter Description:**
@@ -31,12 +31,15 @@ spec:
 
 3. fsType: Specify file system type; currently only ext4 and xfs are supplied;  
 
-4. capacity: PV will have specific storage capacity. This is set with the capacity attribute of PV.  
+4. capacity: PV will have specific storage capacity. This is set with the capacity attribute of PV. For more details, please refer to [Help Documentation of Cloud Disk Service](https://docs.jdcloud.com/en/cloud-disk-service/features);
 
 |StorageClass type | Cloud Disk Service Type   |Capacity Range  |Step Size|
 | ------ | ------ | ------ |------ |
-|	ssd|SSD Cloud Disk  | [20-1000]Gi  |10G |
-|premium-hdd	|Premium Hdd Cloud Disk | [20-3000]Gi  |10G|
+|	ssd|SSD Cloud Disk  | [20-1000]GiB  |10GiB |
+|premium-hdd	|Premium Hdd Cloud Disk | [20-3000]GiB  |10GiB|
+|hdd.std1	|Capacity Type hdd | [20-16000]GiB  |10GiB|
+|ssd.gp1	|General ssd | [20-16000]GiB  |10GiB|
+|ssd.io1	|Performance Type ssd | [20-16000]GiB  |10GiB|
 
 5. PersistentVolume can be attached to the machine in any way supported by the resource provider.
   - JD Cloud cloud disk currently supports only ReadWriteOnce --- it can be attached in read/write mode by a single node;  
@@ -104,16 +107,44 @@ spec:
           name: pv-static
 ```
 
+**4. You can also directly create pod using static storage**
+```
+kind: Pod
+apiVersion: v1
+metadata:
+  name: pod-static
+spec:
+  volumes:
+    - name: pv-static
+      jdcloudElasticBlockStore:
+        volumeID: vol-ogcbkdjg7x      #Please replace the Cloud Disk Service ID with the available Cloud Disk Service ID in the same region of JCS for Kubernetes
+        fsType: xfs
+  containers:
+    - name: busybox-static
+      image: busybox
+      command:
+         - sleep
+         - "600"
+      imagePullPolicy: Always
+      volumeMounts:
+        - mountPath: "/usr/share/mybusybox/"
+          name: pv-static
+```
+
+
 ## II. Use JD Cloud cloud disk to define dynamic storage
 
 When the static PVs in the cluster do not match the new PersistentVolumeClaim, the cluster may try to create volumes for PVC dynamically.
 
-1. Instruction About Cloud Disk Service Specification of JD Cloud
+1. Instruction About Cloud Disk Service Specification of JD Cloud, see table below; for more details, please refer to [Help Documentation of Cloud Disk Service](https://docs.jdcloud.com/en/cloud-disk-service/features);
 
 |StorageClass type | Cloud Disk Service Type   |Capacity Range  |Step Size|
 | ------ | ------ | ------ |------ |
-|	ssd| SSD Cloud Disk  | [20-1000]Gi  |10G |
-|premium-hdd	| Premium Hdd Cloud Disk | [20-3000]Gi  |10G| 
+|	ssd| SSD Cloud Disk  | [20-1000]GiB  |10GiB |
+|premium-hdd	| Premium Hdd Cloud Disk | [20-3000]GiB  |10GiB| 
+|hdd.std1	|Capacity Type hdd | [20-16000]GiB  |10GiB|
+|ssd.gp1	|General ssd | [20-16000]GiB  |10GiB|
+|ssd.io1	|Performance Type ssd | [20-16000]GiB  |10GiB| 
 
 2. Create PVC
 ```

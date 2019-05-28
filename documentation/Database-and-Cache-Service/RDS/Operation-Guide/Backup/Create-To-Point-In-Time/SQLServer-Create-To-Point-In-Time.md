@@ -2,7 +2,8 @@
 
 SQL Server can built one new instance in the same region according to the backup, and data in the instance can be recovered to the designated moment within last 7 days (default).
 
-When it needs to recover the failed instance, we suggest that one new instance shall be created with the method **Create Based on Backup** or **Create Based on Time Point** with priority, then the row data shall be checked and finally the recovered data shall be confirmed to be correct or not. When data verification is passed, use the **Domain Switch** function to switch the domain of original instance to the new instance.
+## Best Practices
+When it needs to recover the failed instance, we suggest that one new instance shall be created with the method **Create Based on Backup** or **Create Based on Time Point** with priority, then the row data shall be checked and finally the recovered data shall be confirmed to be correct or not. When data verification is passed, use the [**Domain Switch**](../../Instance/Exchanged-DNS.md) function to switch the domain of original instance to the new instance.
 
 ## 1. Operation entry
 Log in the backup management page of Instance Details and click **Build According to Backup**

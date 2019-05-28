@@ -7,7 +7,7 @@
 
 In Linux system, you can use the script provided by JD Cloud to detect whether there is any data disk that has not yet been partitioned and then to automatically format and attach the data disk so as to spare you of entering complex commands and going through procedures.
 
-<p><a title="Attach Script.zip" href="https://docs-downloads.oss.cn-north-1.jcloudcs.com/auto_fdisk%25281%2529.sh" target="_self"><span style="color: rgb(0, 0, 0); font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 14px;">Attach Script.zip</span></a>
+<p><a title="Attach Script.zip" href="https://iaas-cns-download.s3.cn-north-1.jdcloud-oss.com/DOCS/auto_fdisk.sh" target="_self"><span style="color: rgb(0, 0, 0); font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 14px;">Attach Script.zip</span></a>
 </p>
 <br>
 You can use this script in the following two manners:
@@ -100,7 +100,11 @@ mkdir -p /mnt/vdb1 && mount -t ext4 /dev/vdb1 /mnt/vdb1
 ```
 blkid /dev/vdb1
 ```
-6. Write /etc/fstab file to attach cloud disk
+6. Replace the following codes with searched UUID and attaching target location. Namely, once the /etc/fstab file is written, the Cloud Disk Service will be automatically attached when the Virtual Machines are started at next time
+
+```
+echo "UUID="Replace contents here with UUID searched in step 5"             /mnt/vdb1                 ext4    defaults,nofail        0 0" >> /etc/fstab
+```
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/CloudDisk/cloud-disk/parted-format/parted_007.png)
 
 

@@ -28,7 +28,7 @@ Ubuntu system runs the commands below:
 
 
 
-4. Attach the File Storage by the IP address of the mount target. The IP address of the mount target can be viewed on “Console-Storage and CDN-Cloud File Service-File Storage” page after clicking the ID of the File Storage.
+4. Attach the File Storage by the IP address of the mount target. The IP address of the mount target can be viewed on "Console-Storage and CDN-Cloud File Service-File Storage" page after clicking the ID of the File Storage.
 
 ![MtIp](../../../../image/Cloud-File-Service/MtIp.png)
 
@@ -50,7 +50,7 @@ Run the commands below under Ubuntu terminal:
 
 `df -h`
 
-After the attach is successful, “Filesystem” will appear as the mount target IP, and “Mounted on” will be the record of the specified directory in the previous step.
+After the attach is successful, "Filesystem" will appear as the mount target IP, and "Mounted on" will be the record of the specified directory in the previous step.
 
 ![Mount&Check](../../../../image/Cloud-File-Service/mount_target.png)
 

@@ -21,23 +21,23 @@ It is recommended that you use pay by configuration billing instances for perfor
 
  1. Open the console and select Elastic Compute>>JCS for Kubernetes>>cluster service>>cluster
  ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/JCS-for-Kubernetes/新建Kubernetes集群集群信息.png)  
- 2. Choose the creation region, click the “Create” button, it is suggested that you choose the cluster location and available area according to the business situation; by default, it is recommended that you select all available areas under the specified area in the default mode; you can also cancel an availability zone that has been selected and ensure that at least one available area is selected.
- 3. Set the name and description: Name should not be null, which only supports Chinese text, figures, uppercase and lowercase letters, English text, underline “ _ ” and line-through “ - ”, with a length no more than 32 characters; description is an optional item, with a length no more than 256 characters.
+ 2. Choose the creation region, click the "Create" button, it is suggested that you choose the cluster location and available area according to the business situation; by default, it is recommended that you select all available areas under the specified area in the default mode; you can also cancel an availability zone that has been selected and ensure that at least one available area is selected.
+ 3. Set the name and description: Name should not be null, which only supports Chinese text, figures, uppercase and lowercase letters, English text, underline " _ " and line-through " - ", with a length no more than 32 characters; description is an optional item, with a length no more than 256 characters.
  4. Cluster version: Currently, it only supports 1.12.3 version.
  5. Management node CIDR: It can not be overlapped with CIDR of other VPCs, and the CIDR mask range is 24~27. You can refer to the rules of VPC CIDR for rules of CIDR settings.
  6. Client Certificate and Basic Authentication: By default, they are all open and it is recommended that they should be reserved; at least one should be reserved as open; Client Certificate: Certificate based on base64 encoding is used for authentication from client to cluster service endpoint; Basic Authentication: After opening, the client is allowed to use the user name and password to be authenticated at the cluster service endpoint.
  7. Add Accesskey: Select AccessKey at startup; if no Access Key is available, go to the Access Key management page to create a new Access Key and start it. Refer to Accesskey management.
 New working node group:
  ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/JCS-for-Kubernetes/新建Kubernetes集群工作节点组.png)   
-8. VPC: Select the VPC to create. It is recommended to create Virtual Private Cloud; the mask value range shall be 16~18.  
-9. Working node CIDR: For setting rules, you can refer to the rules of VPC subnet CIDR, and the CIDR mask range is 16~18.
+8. VPC: Select the VPC to create. It is recommended to create Virtual Private Cloud; the mask value range shall be 16 ~ 18.  
+9. Working node CIDR: For setting rules, you can refer to the rules of VPC subnet CIDR, and the CIDR mask range is 16 ~ 18.    
 10. Image: It only supports JD Cloud customized image.
 11. Specification: According to the specific business conditions, select different types and specifications of VM that support the specifications of the second generation VM. It is acceptable to refer to the instance specifications and types.
 12. Quantity: The default number is 3, and you can click to increase or decrease or input the number as required. The maximum number is the minimum number of hosts that can be created in Node CIDR and the Virtual Machine quota.
-13. Name: The default name is nodegroup1, which cannot be empty and supports only Chinese text, numbers, uppercase and lowercase letters, English text with underline “_” and hyphen “-”, and should not exceed 32 characters. Working node groups under the same cluster cannot be in an identical name.
+13. Name: The default name is nodegroup1, which cannot be empty and supports only Chinese text, numbers, uppercase and lowercase letters, English text with underline "_" and hyphen "-", and should not exceed 32 characters. Working node groups under the same cluster cannot be in an identical name.
 14. The following are advanced options that do not necessarily need to be filled in
 Description: Description should consist of no more than 256 characters
 System disk: The default capacity of the local disk is 100G, which can not be modified.
-Tags: Set tags to work nodes; the key is composed of prefix and name. The prefix does not exceed 253 characters, and the name and value do not exceed 63 characters; the prefix is made up of DNS subdomains, and the key values must start with letters and numbers, supporting “-”“ _ ”“. ”, uppercase letters, lowercase letters and numbers; up to 5 sets of tags.
+Tags: Set tags to work nodes; the key is composed of prefix and name. The prefix does not exceed 253 characters, and the name and value do not exceed 63 characters; the prefix is made up of DNS subdomains, and the key values must start with letters and numbers, supporting "-"" _ "". ", uppercase letters, lowercase letters and numbers; up to 5 sets of tags.
 15. After completing the relevant settings, click OK to enter Elastic Compute>>JCS for Kubernetes>>Cluster Services>>Cluster and view the created JCS for Kubernetes. It usually takes a few minutes to create, and please be patient.
 

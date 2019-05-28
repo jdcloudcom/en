@@ -6,7 +6,7 @@ In Message Queue, the production and consumption of messages need to be in the f
 - Because the Billing Type of the product is charged by amount, please confirm that your account cannot be overdue.
 
 ## Considerations
-- During public beta, the user can create at most 5 topics.
+- By default, users can only create up to 10 topics in one region. If necessary, they can increase the number by opening ticket.
 - There is no limit to the number of Consumer Group subscriptions for a topic.
 
 ## Step 1: Create Consumption Topic

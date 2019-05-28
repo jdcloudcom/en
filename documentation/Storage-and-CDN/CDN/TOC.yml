@@ -163,6 +163,10 @@
             href: API-Reference/CDN-Open-API/Query-uv.md
           - name: Set/Delete Header
             href: API-Reference/CDN-Open-API/Set-Header.md
+          - name: Set IP Blacklist
+            href: API-Reference/CDN-Open-API/Set-IP-Blacklist.md
+          - name: Search IP Blacklist
+            href: API-Reference/CDN-Open-API/Query-IP-Blacklist.md
           - name: Search Header
             href: API-Reference/CDN-Open-API/Query-Header.md
           - name: Attachment：Notification Information Status Code Reference Table

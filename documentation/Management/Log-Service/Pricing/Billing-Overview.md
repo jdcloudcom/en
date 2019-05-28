@@ -2,7 +2,7 @@
 
 **Billing Overview**
 
-In the JD Cloud Log Service Beta, there is no charge at this stage.
+The Log Service of JD Cloud is free of charge now.
 
 
 

@@ -35,13 +35,12 @@ In regions: Create 2 Virtual Machines in the region cn-north-1, with specific in
 Next, install Agent and execute the same by the root user upon logging in the Virtual Machines
 
 ```
-# cn-north-1
-wget -c http://devops-hb.s3.cn-north-1.jcloudcs.com/ifrit/ifrit-agent-external-v0.01.403.a81f9eb.20181127121007.bin -O installer && sh installer -- -a zero-agent  /usr/local/share/jdcloud/ifrit && rm -f installer
+curl -fsSL http://deploy-code-vpc.jdcloud.com/dl-ifrit-agents/install_deploy | bash
 ```
 
 The execution results are as below:
 
-![Alt text](https://github.com/jdcloudcom/cn/blob/codedeploy/image/CodeDeploy/practice10.png)
+![Alt text](https://github.com/jdcloudcom/cn/blob/codedeploy/image/CodeDeploy/starting20.png)
 
 
 ### Create Load Balancer Instances and Listener
@@ -122,6 +121,8 @@ Next, please deploy the program package to the Virtual Machines with the CodeDep
 ### Create application and deployment group
 
 On the **Deployment Application** page, after appointing the region as the same as that of Virtual Machines and Object Storage Service, click **Create Application**,
+
+Use JD Distributed Service Framework: Please select **No** by default
 
 ![Alt text](https://github.com/jdcloudcom/cn/blob/edit/image/CodeDeploy/Ch/Pra-1%EF%BC%88Ch%EF%BC%89.png)
 

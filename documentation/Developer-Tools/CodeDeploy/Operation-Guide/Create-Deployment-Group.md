@@ -10,10 +10,11 @@ There are options as below for creating deployment group in application:
     - Filter by Tag: Support to screen multiple key-value pairs. Union is taken in the same key and intersection is taken among different keys. For specific logic, see the Tag Product Help Documentation for details. A maximum of 3 keys are supported here. Each key is corresponding to a maximum of 3 values
     - Filter by Condition: Support private IP fuzzy search
     
+- Registration Center of JD Distributed Service Framework: If select **Yes** in the option of "Use JD Distributed Service Framework", then the existing registration center shall be designated. Please note that the Virtual Machines in the selected deployment targets and the registration center shall be under the same subnet
 - Use Load Balancer: If the "Deployment Type" selects the "Rolling Deployment", then you can select "Use Load Balancer or Not"; if the Deployment Type selects the Blue and Green Deployment, then you must use Load Balancer
 - Load Balancer instance: If in the "Use Load Balancer" option, you select "Yes", then you need to appoint an existed Load Balancer instance. Please note: If the Load Balancer is selected, then the Virtual Machines in the selected deployment target shall be in the same subnet with the Load Balancer instance
 - Backend service of Load Balancer: If in the "Use Load Balancer or Not" option, you check "Yes", then you need to select the existed backend service of a specified Load Balancer instance.
-- Concurrency: If “Rolling Deployment” is selected in the “Deployment Type”, the concurrency deployment setting is supported. Two setting modes are supported, i.e. the setting based on percentage and the setting based on machine number. Taking the concurrency setting of 2 sets as example, the application deployment and the traffic routing are made via 2 machines when conducting the rolling deployment.
+- Concurrency: If "Rolling Deployment" is selected in the "Deployment Type", the concurrency deployment setting is supported. Two setting modes are supported, i.e. the setting based on percentage and the setting based on machine number. Taking the concurrency setting of 2 sets as example, the application deployment and the traffic routing are made via 2 machines when conducting the rolling deployment
 - Failure threshold: If deployment of n or more sets failed, it indicates that the deployment task failed
 - Senior option: For details, please refer to the "Operation Guide-Senior Options of Deployment Group"
 

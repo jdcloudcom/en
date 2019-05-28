@@ -16,14 +16,4 @@ Provide functions of task development, customized function and task scheduling a
 
 Stipulate security mechanism for data storage and access; provide the multi-dimensional permission verification mechanism with data actions permission
 
-## Relevant References
-
-- [Product Overview](../Product-Introduction/Overview.md)
-- [Specifications](../Product-Introduction/Specification.md)
-- [Price Overview](../Pricing/Price-Overview.md)
-- [Create Instance](../Getting-Started/Create-Instance.md)
-- [Modify Configuration](../Operation-Guide/Instance-Management/Modify-Instance-Spec.md)
-- [Recover Data](../Operation-Guide/Backup/Restore-Instance.md)
-- [Set Alarm Rules](../Operation-Guide/Monitoring/Alarm-Rules.md)
-
 

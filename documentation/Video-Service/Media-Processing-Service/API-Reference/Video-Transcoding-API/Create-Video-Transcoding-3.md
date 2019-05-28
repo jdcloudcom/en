@@ -16,13 +16,15 @@ expires: Expiration Time, Standard HTTP Header
 
 policy: transcoding strategy, JSON format, and policy relevant parameters are explained as follows:
 
-"targetSaveas": save as, that is, the location of the processed video file
+* "targetSaveas": save as, that is, the location of the processed video file
 
-"persistentOps": a video transcoding rule triggered after a successful resource upload.
+* "persistentOps": a video transcoding rule triggered after a successful resource upload.
 
-"vcodec": optional value h264 or h265, by default h264 (note: when flv is output, h265 is not supported, error 4 will be returned upon call)
+* "vcodec": optional value h264 or h265, by default h264 (note: when flv is output, h265 is not supported, error 4 will be returned upon call).
 
-"audioVolume": The optional values are as follows:
+* "inFrameRate": Set video and enter source frame rate. For example, 15/1 means the frame rate is 15.
+
+* "audioVolume": The optional values are as follows:
 1. floating-point count, output volume = original volume*input value, such as "5.0"; 
 2. Absolute value of output volume, such as "10dB"
 
@@ -71,7 +73,7 @@ ETag: "a0eb630d0cab1a1240b2bae67410cdb7"
 Content-Type: application/json;charset=UTF-8
 Content-Length: 34
 Date: Tue, 15 Dec 2015 13:10:50 GMT
-{“taskId”: "0a354cca27994b398931b205bbf96985"}   
+{"taskId": "0a354cca27994b398931b205bbf96985"}   
 Wrong Return Information:
 {"code":"NoSuchKey","message":" The specified file used for video transcoding does not exist, file name = Wildlifetest.wmv","resource":"/test-bucket13/Wildlifetest.wmv","requestId":"8764E879D8AEE8BF"}
 ```

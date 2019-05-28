@@ -32,14 +32,10 @@ The following is the regions and availability zones where the data centers with 
 		<td ><B>Open Status</B></td>		
     </tr>
     <tr>   
-        <td rowspan="5"><B>Mainland China</B></td>
-		<td rowspan="2">cn-north-1</td>
-		<td >Availability Zone C</td>
-		<td >In Preparation</td>
-    </tr>
-    <tr>  
-	<td >Availability Zone A, Availability Zone B</td>
-	<td >Open</td>
+        <td rowspan="4"><B>Mainland China</B></td>
+		<td >cn-north-1</td>
+		<td >Availability Zone A, Availability Zone B and Availability Zone C</td>
+		<td >Open</td>
     </tr>
     <tr>   
         <td >cn-east-2</td>

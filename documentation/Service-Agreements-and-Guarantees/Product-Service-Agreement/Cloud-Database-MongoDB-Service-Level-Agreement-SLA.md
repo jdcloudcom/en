@@ -1,6 +1,6 @@
 ## **1 Service Scope**
 
-JD Cloud MongoDB Service ("Service" for short) provides users with online database services. The Service uses MongoDB version 3.2 and provides on-demand and pay-as-you go settling functions based on the cloud computing model.
+The JCS for MongoDB Service (hereinafter referred to as the "Service") is the on-line NOSQL database service provided by JD Cloud, which is fully compatible with the MongoDB protocol and supports functions such as automatic disaster recovery, on-line expansion and backup recovery.
 
 ## **2 Service Level Indicators**
 
@@ -17,7 +17,7 @@ JD Cloud MongoDB Service ("Service" for short) provides users with online databa
 
 ### **2.3 Data Migration**
 
-MongoDB is delivered to the user as an online database instance, and currently it supports MongoDB3.2 version. Users can import or export standard data formats of MongoDB through the corresponding database customer software to meet the migration requirements of user data.
+MongoDB is delivered to the user as an online database instance, users can import or export standard data formats of MongoDB through the corresponding database customer software to meet the migration requirements of user data.
 
 ### **2.4 Data Privacy**
 
@@ -27,7 +27,7 @@ JD Cloud uses encryption, security group isolation and other means to ensure tha
 
 2.5.1 The user has the right to know the data, the geographical location of the data center where the backup data is located, and the number of data backups, among which:
 
-2.5.1.1 At present, the data centers of JD Cloud are located in cn-north-1, cn-east-1 and cn-south-1. Users must select the corresponding data according to the geological position when applying for the service and the user data will be stored in its designated data center;
+2.5.1.1 At present, the data centers of JD Cloud are located in cn-north-1, cn-east-2. Users must select the corresponding data according to the geological position when applying for the service and the user data will be stored in its designated data center;
 
 2.5.1.2 JD Cloud Service has automatic data backup function. Please refer to the related technical documents for the number of backups. The backup data is stored in the same data center as the source data by default. The user does not need to specify the number of automatic backups and the location where the data backed up automatically is stored.
 
@@ -41,7 +41,7 @@ In accordance with current laws and regulations or according to the requirements
 
 ### **2.7 Service Features**
 
-MongoDB is an online database service, which supports Version 3.2 under the MongoDB protocol. The MongoDB instance can be available through the Web or API, and it provides online database capacity expansion, backup roll-back, performance monitoring and analysis functions, as well as data backup, data recovery, log management and other management functions. For details on all the specific functions of MongoDB, please refer to the detailed description documentation, technical documentation and help documentation provided by JD Cloud on the official website. All functional changes to MongoDB that may affect the user will be announced to the user.
+The JCS for MongoDB is the on-line database service, which can be subscribed via Web or API and supports management functions such as on-line expansion, data backup, data recovery and performance monitoring. For details of all functions of the JCS for MongoDB, please refer to specific instruction, technical document and help documentation provided by JD Cloud on the official website. All the functional changes of the JCS for MongoDB that may affect users will be announced to the users.
 
 ### **2.8 Service Availability**
 
@@ -91,6 +91,7 @@ For the inability of MongoDB service to work properly caused by JD Cloud fault, 
 (9) Unavailability caused by other reasons not related to JD Cloud.
 
 2.12.2 Compensation plan
+
 • Fault time = unavailable time.
 
 • Cloud database in monthly package is compensated in the way of service time compensation, i.e. 100 times/set of the fault time.

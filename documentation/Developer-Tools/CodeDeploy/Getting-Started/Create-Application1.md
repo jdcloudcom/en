@@ -7,7 +7,9 @@ On the "Application List" page, after appointing the region same as that of Virt
 
 redirect to the "New Application" page.
 
-On the "New Application" page, first fill in the application information. Application name: codedeploy-app-demo01
+On the "New Application" page, first fill in the application information. Application name: codedeploy-app-demo01.
+
+Use JD Distributed Service Framework: Please select **No** by default
 
 ![Alt text](https://github.com/jdcloudcom/cn/blob/edit/image/CodeDeploy/Ch/Start-3%EF%BC%88Ch%EF%BC%89.png)
 

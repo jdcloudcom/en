@@ -5,10 +5,3 @@ This document will introduce the important update history of the Data Compute Do
 |Release Date|Character|Description|
 |-|-|-|
 |August 2018|revision|first formal release. |
-
-
-
-## Relevant References
-
-- [Product Overview](../Introduction/What-Is-Advanced-Anti-DDoS.md)
-
