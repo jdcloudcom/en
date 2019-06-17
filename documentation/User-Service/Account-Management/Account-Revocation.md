@@ -2,11 +2,12 @@
 **Please ensure that you have read, acknowledged and agreed to [the *Instructions for the Cancellation of JD Cloud Account*](https://docs.jdcloud.com/platform-agreement/privacy-policy) before you apply for account cancellation. If you have any questions, please contact us.**
 
 Upon applying for account cancellation, your JD Cloud Account must meet the following conditions simultaneously:</br>
-&emsp; (1) There is no valid business under JD Cloud Account, including: JD Cloud Product, Cloud Marketplace Product, JD Wanxiang Product, JD YunDing Product, JD Cloud Account Balance;</br>
-&emsp; (2) The account is not the merchant of JD Cloud Marketplace, JD Wanxiang or JD YunDing;</br>
-&emsp; (3) There are no unfinished orders of JD Cloud or unsettled debts;</br>
-&emsp; (4) The account has not undergone sensitive operations such as changing the password or changing the mobile phone number within a month;</br>
-&emsp; (5) No account disputes or complaints.</br>
+&emsp; (1) The account have activated JD Cloud services for three months;</br>
+&emsp; (2) There is no valid business under JD Cloud Account, including: JD Cloud Product, Cloud Marketplace Product, JD Wanxiang Product, JD YunDing Product, JD Cloud Account Balance;</br>
+&emsp; (3) The account is not the merchant of JD Cloud Marketplace, JD Wanxiang or JD YunDing;</br>
+&emsp; (4) There are no unfinished orders of JD Cloud or unsettled debts;</br>
+&emsp; (5) The account has not undergone sensitive operations such as changing the password or changing the mobile phone number within a month;</br>
+&emsp; (6) No account disputes or complaints.</br>
 
 Once your account is canceled, it cannot be recovered. Please backup your account information and data on your own before you apply for cancellation. After account cancellation, you will not be able to use the account to access JD Cloud again, and JD Cloud will not be able to help you query or obtain information such as any data, transaction vouchers, and bills. It will be deemed that you have given up coupons, qualifications and discounts obtained in your account, and all of them cannot be recovered. Account cancellation only affects services related to JD Cloud, and will not affect the use of other services of JD Group. The association between your account and other platforms or services will be canceled automatically.
 
