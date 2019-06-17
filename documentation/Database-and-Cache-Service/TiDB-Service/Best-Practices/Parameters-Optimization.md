@@ -124,7 +124,7 @@ block-size = "64KB"
 # RocksDB the compression method of the data of each layer, and the optional values are no, snappy, zlib, bzip2, lz4, lz4hc and zstd.
 # no:no:lz4:lz4:lz4:zstd:zstd denotes that level0 and level1 don’t need to be compressed, lz4 compression algorithm is used from level2 to level4,
 # and zstd compression algorithm is used from level5 to level6.
-# “no” means no compression, lz4 is a compression algorithm with moderate speed and compression ratio. The compression ratio of zlib is high which is
+# "no" means no compression, lz4 is a compression algorithm with moderate speed and compression ratio. The compression ratio of zlib is high which is
 # more memory-friendly, but the compression speed is slow, and more CPU resources are occupied during compression. Different machines need to configure
 # the compression method according to their CPU and I/O resources. E.g: Suppose that "no: lz4: lz4: lz4: zstd: zstd" compression method is used. When
 # writing a large amount of data (import data), you find that the system I/O is under high pressure (using iostat to find that %util keeps 100% or

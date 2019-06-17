@@ -91,7 +91,7 @@ S3fs is a FUSE-based file system, which allows Linux to mount Bucket to the loca
 
 ## II. Example Application
 
-Two Pods will be created by the example application, the first Pod will create a file with the name of SUCCESS in Object Storage Service, and the second Pod will write the content “helloworld” in the file with the name of SUCCESS.
+Two Pods will be created by the example application, the first Pod will create a file with the name of SUCCESS in Object Storage Service, and the second Pod will write the content "helloworld" in the file with the name of SUCCESS.
 
 1. When deploying the first Pod, create one file in Object Storage Service with the name of SUCCESS, save the Yaml file with the name of test-s3fs-pod1.yaml and execute the following commands to create Pod objects:
 
@@ -135,7 +135,7 @@ Two Pods will be created by the example application, the first Pod will create a
       ```
       After execution, the newly-created empty file with the name SUCCESS can be viewed under [Bucket Details] - [Object Management Tab Page] of Object Storage Service specified when deploying Daemonset in the last step;
    
-2. For deployment of the second Pod, please write the character “helloworld” in the SUCESS file created in the last step, save the Yaml file with the name test-s3fs-pod2.yaml and execute the following commands to create Pod objects:
+2. For deployment of the second Pod, please write the character "helloworld" in the SUCESS file created in the last step, save the Yaml file with the name test-s3fs-pod2.yaml and execute the following commands to create Pod objects:
 
     `
     kubectl create -f test-s3fs-pod1.yaml
@@ -175,4 +175,4 @@ Two Pods will be created by the example application, the first Pod will create a
     NAME              READY   STATUS    RESTARTS   AGE
     test-s3fs-pod-2   1/1     Running   0          11s
     ```
-    After execution, the output content “helloworld” can be viewed in the file with the name of SUCCESS created in the last step.
+    After execution, the output content "helloworld" can be viewed in the file with the name of SUCCESS created in the last step.

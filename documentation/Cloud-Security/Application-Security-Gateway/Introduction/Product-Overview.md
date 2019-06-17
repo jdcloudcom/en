@@ -21,4 +21,4 @@ The VPC-WAF makes comprehensive uses of rules to protect various security techno
 
 ## Billing
 
-Application Security Gateway is charged as per the monthly package billing method. For details, please refer to “[Billing Rules](../Pricing/Price-Overview.md)”.
+Application Security Gateway is charged as per the monthly package billing method. For details, please refer to "[Billing Rules](../Pricing/Price-Overview.md)".

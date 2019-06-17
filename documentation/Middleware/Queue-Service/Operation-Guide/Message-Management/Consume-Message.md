@@ -2,7 +2,7 @@
 
 1. Find the queue on which you want to receive the message on the Queue Management page, and select **Receive Message** in the operation to enter the message receiving interface.
 
-2. Select the number of messages you want to receive and the waiting time for the queue round robin and click to start **Receive Messages”.
+2. Select the number of messages you want to receive and the waiting time for the queue round robin and click to start **Receive Messages".
 
    Setting receiving parameter:
 

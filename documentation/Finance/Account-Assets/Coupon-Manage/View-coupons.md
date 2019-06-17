@@ -8,7 +8,7 @@ Login JD Cloud Home Page [www.jdcloud.com](https://www.jdcloud.com/), click the 
 
 ### **2. How to view the use details of the coupons?**
 
-Login JD Cloud Home Page [www.jdcloud.com](https://www.jdcloud.com/), click the login button at the upper right corner, enter the JD account to login, enter Cost - Coupon page, then click used or expired coupon column, click “View Details” to list coupons use details. ![4.png](http://img1.jcloudcs.com/cms/372b453e-489a-4020-8f5a-ef534338e30520170818161549.png)
+Login JD Cloud Home Page [www.jdcloud.com](https://www.jdcloud.com/), click the login button at the upper right corner, enter the JD account to login, enter Cost - Coupon page, then click used or expired coupon column, click "View Details" to list coupons use details. ![4.png](http://img1.jcloudcs.com/cms/372b453e-489a-4020-8f5a-ef534338e30520170818161549.png)
 
 ### **3. How to view available coupons list?**
 

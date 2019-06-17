@@ -27,7 +27,7 @@ By log subscription, logs are collected, cleaned, and stored in the repository, 
 
 **Compilation Construction**
 
-1. Select “Continuous Delivery-Compilation Construction” from the menu in the navigation bar, click “New Construction” button to set basic information of compilation construction. 
+1. Select "Continuous Delivery-Compilation Construction" from the menu in the navigation bar, click "New Construction" button to set basic information of compilation construction. 
 
 - Git code address: provide source code address with the following naming specification:
 group name need to be>two characters, module name & branch name naming specification is lowercase+numeric+underline+line-through (currently capital letters will be automatically converted to lowercase letters), special characters such as/etc are not supported
@@ -135,7 +135,7 @@ Advanced options:
 - Email notification: email address may be entered
 - Notification frequency: you can set the notification frequency as to send when there are construction exception or at every construction
 
-2. After saving, enter the compilation construction list, click “Construct Now” to perform compilation construction operation. If the construction is successful, module revision with compiled construction can be seen in Module-View Revision.
+2. After saving, enter the compilation construction list, click "Construct Now" to perform compilation construction operation. If the construction is successful, module revision with compiled construction can be seen in Module-View Revision.
 
 **Module management**
 
@@ -148,11 +148,11 @@ In the module sub-page, it supports users to create modules, manually upload pac
 
 1.Basic Settings
 
-Select one application in the Service Tree at the left side, select “Continuous Delivery-online Release” from the menu to enter “online” page. Click “basic setting” sub-page to set executive account, associate the application to all modules (only after they have been associated together, you can select the compiled package version under your module when you go online)
+Select one application in the Service Tree at the left side, select "Continuous Delivery-online Release" from the menu to enter "online" page. Click "basic setting" sub-page to set executive account, associate the application to all modules (only after they have been associated together, you can select the compiled package version under your module when you go online)
 
 2.Group Settings
 
-Click “Configuration” on the “Group Settings” page to set configuration files and environmental variables for each group.
+Click "Configuration" on the "Group Settings" page to set configuration files and environmental variables for each group.
 
 Of which, configuration files can be added, uploaded, and cloned.
  
@@ -160,7 +160,7 @@ Of which, configuration files can be added, uploaded, and cloned.
 
 3.Online
 
-Select the group(s) to be online on the “online” page and set online concurrence and time-out period. Select package revision to be online for online release. On the “Online Dynamic” page, you can view online details and perform rollback operation.
+Select the group(s) to be online on the "online" page and set online concurrence and time-out period. Select package revision to be online for online release. On the "Online Dynamic" page, you can view online details and perform rollback operation.
 
 Then, the basic online release is completed.
 
@@ -293,11 +293,11 @@ esac
 ```
 5. Log service
 
-5.1 Site log: select the application with log to be view, select “Continuous Delivery” - “online Release” from the menu, the logs corresponding to each instance can be viewed on the “Log Service - Site Log” page. Log view supports keyword highlighting, reverse query, whole word matching, etc. Click a row of log, its context log also can be viewed.
+5.1 Site log: select the application with log to be view, select "Continuous Delivery" - "online Release" from the menu, the logs corresponding to each instance can be viewed on the "Log Service - Site Log" page. Log view supports keyword highlighting, reverse query, whole word matching, etc. Click a row of log, its context log also can be viewed.
  
  ![image](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Operation-Guide15.png)
  
-5.2 Log subscription and historical log: select the application to view the log, select the menu “Continuous Delivery" - “Online Release", in the “Log service-Log subscription" page, click “New Subscription" to set the log path and save, you can view the group of subscriptions and the log of instances from the log page after the next online.
+5.2 Log subscription and historical log: select the application to view the log, select the menu "Continuous Delivery" - "Online Release", in the "Log service-Log subscription" page, click "New Subscription" to set the log path and save, you can view the group of subscriptions and the log of instances from the log page after the next online.
  
  ![image](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Operation-Guide16.png)
 
@@ -323,7 +323,7 @@ See the following examples,
     {
         concurrency: 2, // Concurrency in group 1 (Note: 0 stands for full concurrency, 1 stands for serial, n stands for up to n jobs are executed at the same time)
         timeout: 1200,  // time-out of group 1 (s)
-        pause: 1,       // After the execution of this level is completed, the view will enter into the “pause” status; click “continue to execute” in the execution records to continue executing the following levels
+        pause: 1,       // After the execution of this level is completed, the view will enter into the "pause" status; click "continue to execute" in the execution records to continue executing the following levels
         max_fail: 3,    // The level (and the whole view) will only be marked as failed when the number of failed jobs in this level  reaches 3; if it is given 0 here, all the failed jobs will be ignored
         // Deployment job in group 1, each job corresponds to the deployment of one APP
         "jobs": [

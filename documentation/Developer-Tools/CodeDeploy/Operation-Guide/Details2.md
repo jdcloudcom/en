@@ -21,4 +21,4 @@ Click **View Configuration** to view the detailed configuration information of t
 
 Click **View Log** in the specified instance to view the deployment log.
 
-Show logs as per the workflow structure. For details, please refer to “Operation Guide-Deployment Workflow”
+Show logs as per the workflow structure. For details, please refer to "Operation Guide-Deployment Workflow"

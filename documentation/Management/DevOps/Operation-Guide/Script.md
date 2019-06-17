@@ -4,7 +4,7 @@ Click **Operation & Maintenance Tools** in the menu bar, enter **Script Manageme
 
 Create Script
 
-After selecting the service tree node, select the menu “Operation and Maintenance Tools - Script Management", and click **Create Script** in the Script List page. It supports manual input or upload script from local and it can set script parameters and timeout.
+After selecting the service tree node, select the menu "Operation and Maintenance Tools - Script Management", and click **Create Script** in the Script List page. It supports manual input or upload script from local and it can set script parameters and timeout.
 
 Execute Script
 

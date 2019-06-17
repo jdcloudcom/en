@@ -14,6 +14,6 @@
  
 4. Fill in corresponding records based on your domain name.
 
-The column with the mark “*” is required. The record value added shall vary with the record type.
+The column with the mark "*" is required. The record value added shall vary with the record type.
 For add of specific resolution records, please refer to detailed annotation for resolution record type.
 

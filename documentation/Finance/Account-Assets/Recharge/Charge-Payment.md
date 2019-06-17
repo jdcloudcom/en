@@ -15,9 +15,9 @@ JD Pay recharge (recommended): for the purpose of convenience, we recommend you 
 
 Online banking: if you need to recharge by online banking, you can select Online Recharge, select Personal Online Banking or Enterprise Online Banking, after successful recharge, the fund will be recharged into your cloud account in real time.
 
-Pay by WeChat: if you need to pay by WeChat, select Pay by WeChat, click “Recharge”, then the system will automatically jump to Pay by WeChat page, you can complete payment by the method of scanning QR code via WeChat. The period of validity of QR code is two hours, after expiry, it needs to refresh to generate new QR code.
+Pay by WeChat: if you need to pay by WeChat, select Pay by WeChat, click "Recharge", then the system will automatically jump to Pay by WeChat page, you can complete payment by the method of scanning QR code via WeChat. The period of validity of QR code is two hours, after expiry, it needs to refresh to generate new QR code.
 
-Offline remittance: if you need to pay by bank wire transfer to our corporate account, you can click “Offline remittance”. The offline remittance is directly transferred to the exclusive account of JD Cloud, and the system will directly match the remittance to your JD Cloud account. The account entry time in such method is generally 1-2 days for China Merchants Bank and 3-5 days for inter-bank transfer (the specific account entry time shall be subject to the actual account entry time of the bank);
+Offline remittance: if you need to pay by bank wire transfer to our corporate account, you can click "Offline remittance". The offline remittance is directly transferred to the exclusive account of JD Cloud, and the system will directly match the remittance to your JD Cloud account. The account entry time in such method is generally 1-2 days for China Merchants Bank and 3-5 days for inter-bank transfer (the specific account entry time shall be subject to the actual account entry time of the bank);
 
 **Notes: **
 

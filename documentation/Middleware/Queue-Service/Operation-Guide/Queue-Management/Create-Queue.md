@@ -4,7 +4,7 @@
 
    ![创建](../../../../../image/Internet-Middleware/Queue-Service/操作指南-01.png)
 
-2. You need to fill in the “Queue Name” for creating a queue. It can only contain letters, digits, hyphens (-), underlines (_)  or addition operator (+), with the maximum length of 80 characters. Select the type of queue. If a FIFO queue is selected, the name of queue needs to be ended with the “.fifo” suffix.
+2. You need to fill in the "Queue Name" for creating a queue. It can only contain letters, digits, hyphens (-), underlines (_)  or addition operator (+), with the maximum length of 80 characters. Select the type of queue. If a FIFO queue is selected, the name of queue needs to be ended with the ".fifo" suffix.
 
    ![创建详情](../../../../../image/Internet-Middleware/Queue-Service/操作指南-02.png)
 

@@ -25,14 +25,14 @@
 (3) Custom Detection Point: the starting point at which the detection of the site address is performed. The default detection points and the custom detection points can be selected based on requirements. Currently, up to 5 custom detection points are supported to be selected.
 
 ### Modify site monitoring tasks
-1. Log in JD Cloud Monitoring Console, Click **Management->Cloud Monitor->Site Monitoring” to enter the Dashboard list page.
+1. Log in JD Cloud Monitoring Console, Click **Management->Cloud Monitor->Site Monitoring" to enter the Dashboard list page.
 
 2. Select the task that is required to be modified, and click **Modify** in the operation. 
 
 3. Enter the modification page to modify corresponding content. Monitoring type, site address and detection point are not supported to modify for now, and the rest of information can be modified.
 
 ### Delete the monitoring task.
-1. Log in JD Cloud Monitoring Console, Click **Management->Cloud Monitor->Site Monitoring” to enter the Dashboard list page.
+1. Log in JD Cloud Monitoring Console, Click **Management->Cloud Monitor->Site Monitoring" to enter the Dashboard list page.
 
 2. Select the task that is required to be modified, click **More** in the operation, and select **Delete**.
 

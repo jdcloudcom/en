@@ -10,7 +10,7 @@ The content of the Policy contains one or more sets of authorization details. Ea
  - permission
 
 Support 3 types of resource actions, namely reading (R refers to Read), modification (M refers to Modify), and deletion (D refers to Delete). For example, viewing the virtual machine details is a read action, and backing up or rebooting the virtual machine is a modify action, and deleting the image is a delete operation.
-When multiple action types need to be authorized, they may be separated by a vertical line "|”. For example, when only read-only actions are authorized, the permission is "R"; when the administrator permissions are authorized, the permission is "R|M|D”.
+When multiple action types need to be authorized, they may be separated by a vertical line "|". For example, when only read-only actions are authorized, the permission is "R"; when the administrator permissions are authorized, the permission is "R|M|D".
 Note: If a subaccount is authorized with modify permission (M) and delete permission (D), the subaccount also has read permission (R) by default.
 
  - resource

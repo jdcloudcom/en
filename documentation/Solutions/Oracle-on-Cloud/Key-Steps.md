@@ -185,7 +185,7 @@ Execute under the root user
 # Add file system
 mkdir -p /home/oracle/myswaps
 dd if=/dev/zero of=/home/oracle/myswaps/swapfile1 bs=1M count=2048
-# Note: The path after “of” must not be under / dev, otherwise invalid parameter will be alarmed when swap files are activated.
+# Note: The path after "of" must not be under / dev, otherwise invalid parameter will be alarmed when swap files are activated.
 
 # Create swap file
 mkswap /home/oracle/myswaps/swapfile1

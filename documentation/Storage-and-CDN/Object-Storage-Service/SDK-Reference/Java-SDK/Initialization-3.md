@@ -4,7 +4,7 @@ JingdongStorageService (JSS) is the core class of Object Storage Service OSS, it
 
 ## Determine Endpoint
 
-Please read the part of “[Basic Concepts](../../API-Reference/Introduction/Basic-Concepts.md)-access domain name” to understand the concepts relevant to Endpoint.
+Please read the part of "[Basic Concepts](../../API-Reference/Introduction/Basic-Concepts.md)-access domain name" to understand the concepts relevant to Endpoint.
 
 ## Configure key
 

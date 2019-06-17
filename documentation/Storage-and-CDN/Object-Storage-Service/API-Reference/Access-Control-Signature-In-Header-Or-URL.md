@@ -25,11 +25,11 @@ Note:
 
 4. \n represents line separator
 
-5. Content-MD5 represents MD5 value of the requested content, and the message content (not including the header) is calculated for MD5 value to obtain a 128-bit number, and content-MD5 is obtained by encoding base64. The request header is available for the examination of message legality (whether a message is consistent with the sent content), such as “3fe8ebd7f5996651fa46c4aefe24b6af”, and it can also be null.
+5. Content-MD5 represents MD5 value of the requested content, and the message content (not including the header) is calculated for MD5 value to obtain a 128-bit number, and content-MD5 is obtained by encoding base64. The request header is available for the examination of message legality (whether a message is consistent with the sent content), such as "3fe8ebd7f5996651fa46c4aefe24b6af", and it can also be null.
 
-6. Content-Type represents the class of request, such as “text/plain”, and it can also be null
+6. Content-Type represents the class of request, such as "text/plain", and it can also be null
 
-7. Date represents the time of this operation, and it must be GMT format, such as “Sun, 09 Jul 2017 06:08:40 GMT”
+7. Date represents the time of this operation, and it must be GMT format, such as "Sun, 09 Jul 2017 06:08:40 GMT"
 
 8. CanonicalizedHeaders represents the arrangement in the dictionary order of HTTP headers with prefix x-jss-.
 
@@ -57,7 +57,7 @@ Note:
 
 2. If there is only one request header, such as x-jss-server-side-encryption:false\n, pay attention to \n at the end.
 
-3. If there are more than one request headers, pay attention to “\n” at the end.
+3. If there are more than one request headers, pay attention to "\n" at the end.
 
 ## Methods of Constructing CanonicalizedResource
 
@@ -65,7 +65,7 @@ The OSS target resource to be accessed in the request sent by the user is called
 
 1. Set CanonicalizedResource to a null character string "".
 
-2. Put in the OSS resource to be accessed /BucketName/ObjectName(if there is no ObjectName, then CanonicalizedResource will be “/BucketName”, and if there is no BucketName at the same time, it shall be “/”).
+2. Put in the OSS resource to be accessed /BucketName/ObjectName(if there is no ObjectName, then CanonicalizedResource will be "/BucketName", and if there is no BucketName at the same time, it shall be "/").
 
 Example:
 
@@ -93,9 +93,9 @@ Signature Example
 
 If:
 
-AccessKey is “qbS5QXpLORrvdrmb”,
+AccessKey is "qbS5QXpLORrvdrmb",
 
-AccessKeySecret is “1MYaiNh3NeN9SuxaqFjSrc7I49rWKkQCxpl9eLNZ”
+AccessKeySecret is "1MYaiNh3NeN9SuxaqFjSrc7I49rWKkQCxpl9eLNZ"
 
 Request
 ```
@@ -111,10 +111,10 @@ PUT /sign.txt   HTTP/1.1
 Signature Character String Calculation Formula
 ```
 Signature =   base64(hmac-sha1(AccessKeySecret,
-  HTTP-Verb + “\n” 
-  + Content-MD5 + “\n”
-  + Content-Type + “\n” 
-  + Date + “\n”
+  HTTP-Verb + "\n" 
+  + Content-MD5 + "\n"
+  + Content-Type + "\n" 
+  + Date + "\n"
 
 + CanonicalizedHeaders
   + CanonicalizedResource))
@@ -152,7 +152,7 @@ String signature =  new String(Base64.encodeBase64(rawHmac), "UTF-8");
 ```
 The Signature calculation result shall be xvj2Iv7WcSwnN26XYnTq/c2YBQs=, because
 
-Authorization = “jingdong “ + AccessKey + “:” + Signature, so the final Authorization is "jingdong qbS5QXpLORrvdrmb: xvj2Iv7WcSwnN26XYnTq/c2YBQs=", then plus Authorization header to compose the message to be sent finally:
+Authorization = "jingdong " + AccessKey + ":" + Signature, so the final Authorization is "jingdong qbS5QXpLORrvdrmb: xvj2Iv7WcSwnN26XYnTq/c2YBQs=", then plus Authorization header to compose the message to be sent finally:
 ```
 PUT /sign.txt   HTTP/1.1
   Content-Type: text/plain

@@ -8,7 +8,7 @@
 
   ![NLB前端监听设置](../../../../image/Networking/NLB/NLB-058.png)
 
-  Select “Not purchase” EIP when creating load balancer, complete relevant resource configuration, confirm load balancer instance for creating Intranet type by default.
+  Select "Not purchase" EIP when creating load balancer, complete relevant resource configuration, confirm load balancer instance for creating Intranet type by default.
 	
 ## Public network load balancer
 

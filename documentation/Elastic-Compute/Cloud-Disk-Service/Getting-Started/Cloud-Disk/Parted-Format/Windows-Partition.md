@@ -35,7 +35,7 @@ Take Windows Server 2012 R2 standard version operating system for example, the p
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/CloudDisk/cloud-disk/parted-format/windows_parted_007.jpg)
 
-[Step 8] After completing the above setting, you can view the new Cloud Disk Service in the "My Computer” page;
+[Step 8] After completing the above setting, you can view the new Cloud Disk Service in the "My Computer" page;
 
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/CloudDisk/cloud-disk/parted-format/windows_parted_008.png)

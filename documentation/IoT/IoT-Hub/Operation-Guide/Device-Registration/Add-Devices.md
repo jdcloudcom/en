@@ -10,7 +10,7 @@ You can add devices through the Console or API of the IoT Hub Service. This docu
 
 ## Operation Steps
 1. Log in [IoT Hub Service Console](https://iot-console.jdcloud.com/iothub).
-2. On the “Device Management” page, you can conduct the Add Device operation.
+2. On the "Device Management" page, you can conduct the Add Device operation.
 
 	
 	

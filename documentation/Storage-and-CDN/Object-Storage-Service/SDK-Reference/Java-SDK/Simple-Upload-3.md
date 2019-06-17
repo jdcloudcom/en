@@ -30,7 +30,7 @@ ObjectService objectService = jss.bucket(bucketName).object(objectName);
 InputStream inputStream = new FileInputStream(file);  
 //Obtain streaming length  
 long contentLength = file.length();  
-//Set the Content-type of the uploaded file as "text/html”. The function returns the Etag of the uploaded data, and the current value of Etad is MD5 of the uploaded data  
+//Set the Content-type of the uploaded file as "text/html". The function returns the Etag of the uploaded data, and the current value of Etad is MD5 of the uploaded data  
 String md5 = objectService.entity(contentLength,inputStream).contentType("text/html").put();  
 //If the uploaded file is to be encrypted, then use this code  
 //String md5 = objectService.entity(contentLength,inputStream).contentType("text/html").put(true);  
@@ -65,7 +65,7 @@ ObjectService objectService = jss.bucket(bucketName).object(objectName);
 //If low redundancy storage is used, then use this code  
 //objectService.getBuilder().getHeaders().put(JssHeaders.X_JSS_STORAGE_CLASS, StorageClass.ReducedRedundancy.toString());  
  
-//Set the Content-type of the uploaded file as "text/html”. The function returns the Etag of the uploaded data, and the current value of Etad is MD5 of the uploaded data  
+//Set the Content-type of the uploaded file as "text/html". The function returns the Etag of the uploaded data, and the current value of Etad is MD5 of the uploaded data  
 String md5 = objectService.entity(file).contentType("text/html").put();  
 //If the uploaded file is to be encrypted, then use this code  
 //String md5 = objectService.entity(file).contentType("text/html").put(true);  

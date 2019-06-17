@@ -5,7 +5,7 @@ Apply for enabling enterprise online banking of China Construction Bank, you can
 Contact information of China Construction Bank: nationwide unified customer service telephone (95533) or access website of China Construction Bank: http://www.ccb.com/
 
 ### Payment Operations
-When paying, select payment method of “Enterprise Online Banking Payment”, select “China Construction Bank” to submit payment application.
+When paying, select payment method of "Enterprise Online Banking Payment", select "China Construction Bank" to submit payment application.
 
 Special reminder: please insert enterprise online banking UKEY of China Construction Bank before submitting payment application, and ensure that relevant plug-ins and drivers have been installed
 

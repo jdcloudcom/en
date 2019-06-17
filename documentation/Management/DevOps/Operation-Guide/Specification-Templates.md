@@ -6,7 +6,7 @@ Click **Configuration Management** in the menu bar to enter **Specification Temp
 
 1. Instance Template
 
-Instance modules selected when performing "Edit Group” in the above "Service Tree". When deploying, DevOps will automatically create the VM instances and deploy the program in the JD Cloud Console based on the specified instance module. Users can select the region, base image, configuration specifications (CPU and memory), network and bandwidth of the machine resource according to their needs.
+Instance modules selected when performing "Edit Group" in the above "Service Tree". When deploying, DevOps will automatically create the VM instances and deploy the program in the JD Cloud Console based on the specified instance module. Users can select the region, base image, configuration specifications (CPU and memory), network and bandwidth of the machine resource according to their needs.
 
 ![Alt text](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Operation13.png)
 

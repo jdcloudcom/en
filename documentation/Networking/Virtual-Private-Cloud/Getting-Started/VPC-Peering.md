@@ -75,7 +75,7 @@ The routing table configuration information is as follows:
 - For a private network, select VPCforPeeringA
 - for name, fill in RTBforPeeringAtoB
 
-4) In the routing table details page, click the **routing policy** tab, then click **Edit** to open the route editing mode, click ”edit” to add a new routing rule.
+4) In the routing table details page, click the **routing policy** tab, then click **Edit** to open the route editing mode, click "edit" to add a new routing rule.
 
 5) Fill in the relevant configuration in the routing entry, click **Save** to complete editing the routing table. The routing entries are configured as follows:
 

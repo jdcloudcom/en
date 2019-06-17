@@ -14,8 +14,8 @@ Take Windows 2008 R2 data center version as an example, the steps to install the
 * Install GPU Driver:
 	* In Windows system, double-click directly to install GPU Driver.
 * GPU Driver Verification
-	* Before installing the GPU driver, the display card information in the device manager is “3D Video Controller”, which is shown in the following figure <br>![](../../../../../image/vm/GPUdriver3.png)
-	* After successful installation of GPU display card driver, the display card will be displayed in the “Display Adapter” drawer, which is shown in the following figure <br>![](../../../../../image/vm/GPUdriver4.png)
+	* Before installing the GPU driver, the display card information in the device manager is "3D Video Controller", which is shown in the following figure <br>![](../../../../../image/vm/GPUdriver3.png)
+	* After successful installation of GPU display card driver, the display card will be displayed in the "Display Adapter" drawer, which is shown in the following figure <br>![](../../../../../image/vm/GPUdriver4.png)
 
 ### Linux System
 
@@ -31,7 +31,7 @@ Take CentOS7.4 as an example, the steps to install the GPU driver are as follows
 	
 * Install GPU Driver:
 	* Download and install the kernel-devel and kernel-header packages in the corresponding versions of kernel:
-		* Via the “uname -r” command, the kernel version in centos7.4 is 3.10.0-693.17.1.el7.x86_64.
+		* Via the "uname -r" command, the kernel version in centos7.4 is 3.10.0-693.17.1.el7.x86_64.
 		* Download link of corresponding Kernel-devel: http://vault.centos.org/7.4.1708/updates/x86_64/Packages/kernel-devel-3.10.0-693.17.1.el7.x86_64.rpm
 		* Download link of corresponding kernel-header: http://vault.centos.org/7.4.1708/updates/x86_64/Packages/kernel-headers-3.10.0-693.17.1.el7.x86_64.rpm
 		* The above two packages can be downloaded via the wget command and then be installed via yum install.

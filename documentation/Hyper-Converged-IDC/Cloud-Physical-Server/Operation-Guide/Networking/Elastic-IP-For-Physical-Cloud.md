@@ -2,7 +2,7 @@
 
 ## Product Overview
 
-Elastic IP is a static IP dedicated for dynamic cloud computing. Different from the traditional static IP, Elastic IP can be associated with any Cloud Physical Server and you can associated it to A or B. Where the Cloud Physical Server fails or the availability zone fails, you may remap IP Address to healthy Cloud Physical Server, then you can handle server issues while providing service. Elastic IP is called as “Physical Cloud Public IP”. (Note: The server refers to the “Cloud Physical Server”)
+Elastic IP is a static IP dedicated for dynamic cloud computing. Different from the traditional static IP, Elastic IP can be associated with any Cloud Physical Server and you can associated it to A or B. Where the Cloud Physical Server fails or the availability zone fails, you may remap IP Address to healthy Cloud Physical Server, then you can handle server issues while providing service. Elastic IP is called as "Physical Cloud Public IP". (Note: The server refers to the "Cloud Physical Server")
 
 ## Use Restrictions
 

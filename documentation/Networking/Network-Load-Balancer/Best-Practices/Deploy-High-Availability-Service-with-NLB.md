@@ -92,7 +92,7 @@
 
 - Add server to the virtual server group;
 
-- If there is no available virtual server group, click “Create New Virtual Server Group” to create a new virtual server group. VM and containers can be selected to define the port and weight of the instance **Note: only VM and container resources with the same availability zone as that of the load balancer and in the virtual private cloud with may be selected**.
+- If there is no available virtual server group, click "Create New Virtual Server Group" to create a new virtual server group. VM and containers can be selected to define the port and weight of the instance **Note: only VM and container resources with the same availability zone as that of the load balancer and in the virtual private cloud with may be selected**.
 
 ![NLB虚拟服务器组添加成员设置](../../../../image/Networking/NLB/NLB-079.png)
 

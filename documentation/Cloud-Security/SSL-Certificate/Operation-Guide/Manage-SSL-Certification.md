@@ -4,4 +4,4 @@
 
 ![image.png](https://github.com/jdcloudcom/cn/blob/edit/image/SSL-Certification/6.png)
 
-2. Click “Download”, then you can download specified certificate
+2. Click "Download", then you can download specified certificate

@@ -22,7 +22,7 @@ jss.setEndpoint(endPoint);
 ObjectService objectService = jss.bucket(bucketName).object(objectName);  
 //Obtain an object, return the data of the first 1000 bytes (including the 1000th), 1001 bytes data in total.  
 StorageObject storageObject = objectService.range(0, 1000).get();  
-//Obtain object, wherein the data returns without the first 1000 bytes and download the rest part to the local file ” localFile”  
+//Obtain object, wherein the data returns without the first 1000 bytes and download the rest part to the local file " localFile"  
 //StorageObject storageObject = objectService.range(1000).get();  
 //Download the file to the local files, as the example below, the specified object is downloaded to the "localFile"  
 storageObject.toFile(new File("<localFile>"));    

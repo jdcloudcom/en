@@ -113,12 +113,12 @@ Create working node group:
 
 12. Count: The default count is 3; the count can be changed by clicking **Increase**, **Decrease** or inputting the number; the maximum count is the count of Virtual Machines to be created in Node CIDR; and the minimum value is the quota of Virtual Machines.
 
-13. Name: The default name is nodegroup1 and is unchangeable, supporting Chinese, numbers, uppercase and lowercase letters, English underline “_” and line-through “-”, with at most 32 characters. Working node groups under the same cluster shall not have the same name.  
+13. Name: The default name is nodegroup1 and is unchangeable, supporting Chinese, numbers, uppercase and lowercase letters, English underline "_" and line-through "-", with at most 32 characters. Working node groups under the same cluster shall not have the same name.  
 
 14. The following advanced options are optional  
 Description: Description cannot exceed 256 characters  
 System disk: The default capacity of a local disk is 100G and is unchangeable.  
-Tag: Set labels added to working nodes; the key consists of a prefix and the name; the prefix cannot exceed 253 characters, while the name and the value cannot exceed 63 characters; the prefix consists of DNS sub-domain, but the key value must be started with letters and numbers and support “-”, “ _ ”, “.”, uppercase letters, lowercase letters and numbers; and at most 5 label groups can be added.
+Tag: Set labels added to working nodes; the key consists of a prefix and the name; the prefix cannot exceed 253 characters, while the name and the value cannot exceed 63 characters; the prefix consists of DNS sub-domain, but the key value must be started with letters and numbers and support "-", " _ ", ".", uppercase letters, lowercase letters and numbers; and at most 5 label groups can be added.
 
 15. After completing relevant settings, click **OK** to enter Elastic Compute>>JCS for Kubernetes>>Cluster Service>>Cluster and view created JCS for Kubernetes. Generally, creation process only requires a few minutes. Please wait with patience.
 

@@ -56,7 +56,7 @@ virtual-kubelet-cn-****-2b   Ready     agent     3d        v1.8.3
   AvailableZone = "cn-east-2a" 		#The Availability Zone where the created Native Container Pod is located must be the Availability Zone supported by JCS for Kubernetes
   ClusterID = "k8s-1m******lv"	 	#JCS for Kubernetes ID
   PodSubnetId = "subnet-ds******2v"		# The subnet where the Native Container Pod is located must be consistent with the subnet where the JCS for Kubernetes Pod is located.
-  PodSecurityGroups = ["sg-12******o7”] 		#Security Group ID Associated to the Subnet
+  PodSecurityGroups = ["sg-12******o7"] 		#Security Group ID Associated to the Subnet
   AccessKey = "4B06***********************01B9" 		#Create AccessKey associated with JCS for Kubernetes
   SecretKey = "EA94************************18A1"		#Create SecretKey associated with JCS for Kubernetes
 [Resource]

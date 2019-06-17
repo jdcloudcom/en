@@ -14,7 +14,7 @@ Log in the CodeBuild interface and click **Create Task** button in the Task List
  
    * Task Name
    
-     Name the compile task. The name cannot be null and it supports only Chinese, numbers, uppercase and lowercase letters, English underline “ _ ” and line-through “ - ”, with at most 32 characters
+     Name the compile task. The name cannot be null and it supports only Chinese, numbers, uppercase and lowercase letters, English underline " _ " and line-through " - ", with at most 32 characters
    
    * Image Source
    

@@ -4,7 +4,7 @@
 
 **1. Service Content**
 
-  1.1. For the purposes of the Terms, the “Service" means: JD Cloud provides you with the VOD Service, related technologies and network support services as displayed on the website [www.jdcloud.com](https://www.jdcloud.com/index).
+  1.1. For the purposes of the Terms, the "Service" means: JD Cloud provides you with the VOD Service, related technologies and network support services as displayed on the website [www.jdcloud.com](https://www.jdcloud.com/index).
 
   1.2. The service provided by JD Cloud must comply with the agreement in these Service Terms.
 
@@ -56,7 +56,7 @@
 
   *3.1.3.5.8. Other contents that violate laws and regulations, departmental regulations or national policies.*
 
-  3.1.3.6. Do not occupy or cause programs or processes to occupy a large amount of the server memory, CPU or network bandwidth resources on the platform (hereinafter referred to as the “cloud platform”) consisting of JD Cloud cloud computing resources (such as cloud servers, network bandwidth, and storage space), cause serious load on the networks, servers (including but not limited to local and foreign and international networks, servers, etc.), and products/applications of the users of JD Cloud cloud platform or other users of JD Cloud, affect the smooth communications between JD Cloud and the Internet or between JD Cloud specific and networks and servers and internal smooth communication within JD Cloud, or cause the system breakdown or system halt of the servers that the products and services of JD Cloud cloud platform or other user websites of JD Cloud are on, or failure of access of users to the products/applications based on the cloud platform, etc.;
+  3.1.3.6. Do not occupy or cause programs or processes to occupy a large amount of the server memory, CPU or network bandwidth resources on the platform (hereinafter referred to as the "cloud platform") consisting of JD Cloud cloud computing resources (such as cloud servers, network bandwidth, and storage space), cause serious load on the networks, servers (including but not limited to local and foreign and international networks, servers, etc.), and products/applications of the users of JD Cloud cloud platform or other users of JD Cloud, affect the smooth communications between JD Cloud and the Internet or between JD Cloud specific and networks and servers and internal smooth communication within JD Cloud, or cause the system breakdown or system halt of the servers that the products and services of JD Cloud cloud platform or other user websites of JD Cloud are on, or failure of access of users to the products/applications based on the cloud platform, etc.;
 
   3.1.3.7. Do not conduct any acts that damage or attempt to damage network security (including but not limited to phishing, hacking, internet fraud, website or space containing or suspected of disseminating: viruses, Trojan horses, malicious code, and other acts suspected of attacking other websites and servers through virtual servers such as scanning, sniffing, ARP spoofing and DOS);
 

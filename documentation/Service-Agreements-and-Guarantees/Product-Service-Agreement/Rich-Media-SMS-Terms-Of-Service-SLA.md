@@ -8,7 +8,7 @@
 
 2. #### Service Level Indicator
 
-  The Service Level Agreement (hereinafter referred to as “SLA”) specifies success rate level indicator of Rich Media SMS (domestic) provided by JD Cloud to customers as well as compensation schemes, and makes the promises on providing guarantee to data management and business quality. Meanwhile, JD Cloud has the right to make adjustments to some service indicators of the Service Level Agreement according to changes. Unless otherwise agreed, the “Month” in this Clause refers to the natural month.
+  The Service Level Agreement (hereinafter referred to as "SLA") specifies success rate level indicator of Rich Media SMS (domestic) provided by JD Cloud to customers as well as compensation schemes, and makes the promises on providing guarantee to data management and business quality. Meanwhile, JD Cloud has the right to make adjustments to some service indicators of the Service Level Agreement according to changes. Unless otherwise agreed, the "Month" in this Clause refers to the natural month.
 
   
 

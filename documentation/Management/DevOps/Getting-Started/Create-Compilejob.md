@@ -4,7 +4,7 @@ Create compilation construction task to start code compilation.
 
 **Operation steps**
 
-1. Select one application in the Service Tree on the left side, select “Continuous Delivery-Compilation and Construction” in the menu bar, click **New Construction** to set basic information of compilation and construction.
+1. Select one application in the Service Tree on the left side, select "Continuous Delivery-Compilation and Construction" in the menu bar, click **New Construction** to set basic information of compilation and construction.
 
 ![Alt text](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Starting8.png)
 

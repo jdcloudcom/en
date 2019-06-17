@@ -29,7 +29,7 @@ There are two entries for the subaccount to associate to virtual MFA equipment b
 ## Virtual MFA equipment enablement process:
 Step 1: Open the virtual MFA application. For the convenience of users, we provide JD Cloud Assistant based on the WeChat applet version. In addition, we also support the Google Authenticator of IOS version and the Google Authenticator of Android version. Please refer to the Guidance for Third-party Application Installation and Usage for specific instructions.
 
-We recommend you to use the WeChat applet JD Cloud Assistant. Please open WeChat - “Scan” to scan the QR code in the picture.
+We recommend you to use the WeChat applet JD Cloud Assistant. Please open WeChat - "Scan" to scan the QR code in the picture.
 
 ![虚拟MFA设备启用流程1](../../../../image/IAM/Virtual-MFA-Device/虚拟MFA设备启用流程1.jpg)
 

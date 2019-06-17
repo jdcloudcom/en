@@ -10,7 +10,7 @@ The connection between components needs to maintain unified input and output for
 
 ![](https://img1.jcloudcs.com/cms/390c2756-a69c-42eb-a057-7704177a3b0920170714160004.png)
 
-After the model is successfully executed, a “tick” icon will appear on the component. If the output data type of the component is “data”, right-click the component and the following menu appears.
+After the model is successfully executed, a "tick" icon will appear on the component. If the output data type of the component is "data", right-click the component and the following menu appears.
 
 ![](https://img1.jcloudcs.com/cms/ece91719-9758-4761-9543-45c9bb0514da20170714160019.png)
 
@@ -18,7 +18,7 @@ Select **Save the Data As** from the menu, select the output parameter name, and
 
 ![](https://img1.jcloudcs.com/cms/05ab486a-5a57-41b4-8ba6-cc88b02d1d0c20170714160033.png)
 
-After the model is successfully executed, a “tick” icon will appear on the component. If the output type of the component is “model”, right-click the component and the following menu appears.
+After the model is successfully executed, a "tick" icon will appear on the component. If the output type of the component is "model", right-click the component and the following menu appears.
 
 ![](https://img1.jcloudcs.com/cms/6449d202-b57b-475e-aed4-47f02e842ee720170714160050.png)
 

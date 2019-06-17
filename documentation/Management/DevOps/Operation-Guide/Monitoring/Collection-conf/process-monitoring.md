@@ -38,9 +38,9 @@ Step 2: Open acquisition configuration new window as shown in the figure. In whi
 **Process path**: Fill in the process path
 ```
 Filling in the path is supported by following methods are supported,
-- Fill in the name of process that can be uniquely identified, such as “hawkeye-agent”, “nginx”; 
-- Populated/initial absolute path of process such as /a/b/c, it is required to “file /a/b/c” at first to confirm whether the output result contains ELF; 
-- Specify a specific java process, “process path parameter” can be filled in (what in the middle is space. Method: The process startup parameters acquired by ps -elf are separated by spaces. You can extract 1~2 fields from these parameters in sequence, as long as the process can be uniquely identified); 
-- Name of jar package, such as “xxx.jar”", 
+- Fill in the name of process that can be uniquely identified, such as "hawkeye-agent", "nginx"; 
+- Populated/initial absolute path of process such as /a/b/c, it is required to "file /a/b/c" at first to confirm whether the output result contains ELF; 
+- Specify a specific java process, "process path parameter" can be filled in (what in the middle is space. Method: The process startup parameters acquired by ps -elf are separated by spaces. You can extract 1~2 fields from these parameters in sequence, as long as the process can be uniquely identified); 
+- Name of jar package, such as "xxx.jar"", 
 ```
 ![image](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Operation-Guide34.JPG)

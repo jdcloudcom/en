@@ -4,7 +4,7 @@
 
 1. Enter the backend service management page by clicking the Application Application Load Balancer-Details-Backend service;
 
-3. Click “Create a new backend service”, turn on backend service creation page;
+3. Click "Create a new backend service", turn on backend service creation page;
 
 5. Backend service setting:
 	
@@ -48,7 +48,7 @@
 
 	- Normal state code: input range 2xx (equivalent to 200-299), 3xx (equivalent to 300-399), 4xx (equivalent to 400-499);
 
-	- Check path: It only will be filled in when the health check method is HTTP, it must start with “/”, at most support 5-level contents, and cannot exceed 100 characters.
+	- Check path: It only will be filled in when the health check method is HTTP, it must start with "/", at most support 5-level contents, and cannot exceed 100 characters.
 
 		![ALB健康检查设置](../../../../image/Networking/ALB/ALB-029.png)	
 
@@ -95,7 +95,7 @@
 
         Note:
         * The on/off status of health check can be modified in the backend service editing dialog box only. The Load Balancer can detect running status of backend server via the health check function. When any backend service failure is detected, traffic will not be distributed to the backend service, guaranteeing overall business availability. It is suggested that the health check function shall not be disabled.
-        * Where the health check function is disabled, the health status of the backend server will be displayed as “N/A”. In such case, traffic will be distributed to all “running” backend servers as per the scheduling algorithm by the Load Balancer.
+        * Where the health check function is disabled, the health status of the backend server will be displayed as "N/A". In such case, traffic will be distributed to all "running" backend servers as per the scheduling algorithm by the Load Balancer.
 
 ![ALB编辑后端服务](../../../../image/Networking/ALB/ALB-033.png)
 	

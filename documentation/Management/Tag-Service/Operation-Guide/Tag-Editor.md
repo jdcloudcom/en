@@ -1,6 +1,6 @@
 # Tag Edit
 
-1. The resources can be bound or unbound on the list page of the product that supports the tag, the resource details page, or the “Management”à“Tag Management” à “Tagged Resource” page in the Console menu.
+1. The resources can be bound or unbound on the list page of the product that supports the tag, the resource details page, or the "Management"à"Tag Management" à "Tagged Resource" page in the Console menu.
 
 ![editbutton-resource](../../../../image/Tag/tagresource/editbutton-resource.png)
 
@@ -20,7 +20,7 @@
 
 ![tag-editor-current](../../../../image/Tag/tagresource/tag-editor-current.png)
 
-2) Enter the “Key” and “Value” to be bound for the currently selected resource in the tag “Key” and tag “Value” on the right side of “Add Tag”; click **Add** to record the tag in the “Current Tags”. When the mouse clicks tag “Key” or tag “Value” in turn, you can see all tag “Keys” of the resources bound by the current user as well as the tag “Values” corresponding to these tag keys in the downward extended drop-down box. You can click directly to select the options you need. Note that the drop-down box has a downward scroll bar, and it needs to be scrolled down to search for the contents beyond 7 items.
+2) Enter the "Key" and "Value" to be bound for the currently selected resource in the tag "Key" and tag "Value" on the right side of "Add Tag"; click **Add** to record the tag in the "Current Tags". When the mouse clicks tag "Key" or tag "Value" in turn, you can see all tag "Keys" of the resources bound by the current user as well as the tag "Values" corresponding to these tag keys in the downward extended drop-down box. You can click directly to select the options you need. Note that the drop-down box has a downward scroll bar, and it needs to be scrolled down to search for the contents beyond 7 items.
 
 ![tag-editor-tagkey](../../../../image/Tag/tagresource/tag-editor-tagkey.png)
 
@@ -32,8 +32,8 @@ Tag keys and values have the following restrictions:
 
 - Tag keys and values are case-sensitive, and tags with different cases are treated as different tags;
 
-- The tag “Key” supports up to 127 characters while the tab Value supports up to 255 characters. It is not recommended to name a key or value too long, which is not conducive to the use and understanding of the tag. Each resource can bind up to 10 tags (A tag with different keys is accounted as one).
+- The tag "Key" supports up to 127 characters while the tab Value supports up to 255 characters. It is not recommended to name a key or value too long, which is not conducive to the use and understanding of the tag. Each resource can bind up to 10 tags (A tag with different keys is accounted as one).
 
-3) Enter the existing tag “Key” in “Add Tag”, but the tag “Value” is different from that of the current tag; after clicking **Add**, it means to replace the current tag and bind the new tag.
+3) Enter the existing tag "Key" in "Add Tag", but the tag "Value" is different from that of the current tag; after clicking **Add**, it means to replace the current tag and bind the new tag.
 
 ![tag-editor-update](../../../../image/Tag/tagresource/tag-editor-update.png)

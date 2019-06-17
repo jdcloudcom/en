@@ -96,7 +96,7 @@ Request failed: HTTP response status code is 4XX, response result is in JSON for
 | Name     | Description                                                         |
 | -------- | ------------------------------------------------------------ |
 | ret_code | Request response, 0 for success, non-0 for failure                                   |
-| msg      | Response result description information, “success” for success, notification on detailed information for failure           |
+| msg      | Response result description information, "success" for success, notification on detailed information for failure           |
 | data     | Response data, domain resolution result for successful request, string type for failure, and it may also be null or more detailed error notification |
 | domain   | Resolved Domain                                                     |
 | ips      | Resolution Result                                                     |

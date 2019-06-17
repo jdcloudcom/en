@@ -4,7 +4,7 @@ With this template, you can quickly create the Node.js application deployment un
 
 Supported by the userdata function of the elastic Virtual Machine, this template can install and deploy Node.js.
 
-To monitor the execution result of the installation and deployment scripts for userdata, two virtual resources are added in the template, including: “JDCLOUD::ResourceOrchestration::WaitCondition” and “JDCLOUD::ResourceOrchestration::WaitConditionHandle”. As for detailed introduction of the two resource types, please refer to the introduction page of JDRO resource type.
+To monitor the execution result of the installation and deployment scripts for userdata, two virtual resources are added in the template, including: "JDCLOUD::ResourceOrchestration::WaitCondition" and "JDCLOUD::ResourceOrchestration::WaitConditionHandle". As for detailed introduction of the two resource types, please refer to the introduction page of JDRO resource type.
 
 For userdata execution scripts of the elastic Virtual Machine, we suggest the user to download the message sending script provided by the Resource Orchestration service at first via the OSS address specified by the Resource Orchestration service. Upon completing installation of Node.js, the message sending script will be called to provide feedback to the Resource Orchestration server. For details, please refer to the instance template.  
 `Note`: The download link specified for message sending scripts of the Resource Orchestration service is as follows:  

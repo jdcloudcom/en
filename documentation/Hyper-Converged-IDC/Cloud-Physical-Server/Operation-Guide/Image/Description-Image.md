@@ -2,7 +2,7 @@
 
 ## Function Description
 
-Image is the template of Cloud Physical Server running environment, including two modes, i.e. “standard image” and “standard image+application”.
+Image is the template of Cloud Physical Server running environment, including two modes, i.e. "standard image" and "standard image+application".
 
 ### Standard Image
 Currently the standard image of Cloud Physical Server supports:

@@ -20,7 +20,7 @@ GLSurfaceView mGLSurface;
 ```
 JDCloudLive mStreamer = new JDCloudLive(this);
 //Set pushing streaming url
-mStreamer.setUrl(“rtmp://pu.jdcloud.com/android/ {streamName}”);
+mStreamer.setUrl("rtmp://pu.jdcloud.com/android/ {streamName}");
 // Set pushing streaming resolution
 mStreamer.setPreviewResolution(BaseConstants.VIDEO_RESOLUTION_360P);
 mStreamer.setTargetResolution(BaseConstants.VIDEO_RESOLUTION_360P);

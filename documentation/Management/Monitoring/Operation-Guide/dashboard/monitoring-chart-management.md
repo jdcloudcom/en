@@ -29,7 +29,7 @@ Currently, the advanced configuration only has labels. The label only supports "
 1. Click on "Delete" in the chart.
 ![](../../../../../image/Cloud-Monitor/Introduction/Operation-Guide/dashboard/dashboard-07.png)
 
-2. The pop-up box prompts whether to delete the monitoring chart, click “OK”, delete the monitoring chart to complete.
+2. The pop-up box prompts whether to delete the monitoring chart, click "OK", delete the monitoring chart to complete.
 ![](../../../../../image/Cloud-Monitor/Introduction/Operation-Guide/dashboard/dashboard-08.png)
 
 ### Copy Monitoring Graph
@@ -46,7 +46,7 @@ You can quickly open the Add Monitor page by clicking **Copy** option in the gra
 
 
 ### Export Data
-1. Click the “Export” Data option in the thumbnail or click the “Export” icon in the enlarged view.
+1. Click the "Export" Data option in the thumbnail or click the "Export" icon in the enlarged view.
 
 ![](../../../../../image/Cloud-Monitor/Introduction/Operation-Guide/dashboard/dashboard-12.png)
 

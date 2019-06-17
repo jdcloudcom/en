@@ -44,7 +44,7 @@ You understand and acknowledge that the above list does not exhaust all types of
 
    6.3 Information on feudalistic superstition and/or obscenity, pornography, indecency or information abetting commitment of crime;
 
-   6.4 Lottery prizes, gambling games, “private services”, “plug-ins” and other illegal Internet publishing activities;
+   6.4 Lottery prizes, gambling games, "private services", "plug-ins" and other illegal Internet publishing activities;
 
    6.5 Information that violates national ethnic and religious policies;
 
@@ -54,7 +54,7 @@ You understand and acknowledge that the above list does not exhaust all types of
 
    6.8 Other contents that violate laws and regulations, departmental regulations or national policies.
 
-7. Do not occupy or cause programs or processes to occupy a large amount of the server memory, CPU, Cloud Disk Service space or network bandwidth resources on the platform (hereinafter referred to as the “cloud platform”) consisting of cloud computing resources of JD Cloud (such as Virtual Machines, network bandwidth, bucket, etc.), and cause serious and unreasonable load on the networks, servers (including but not limited to local and foreign and international networks, servers, etc.), products/applications, etc. of the Cloud Platform of JD Cloud or other customers of JD Cloud, or affect the normal and smooth communications between JD Cloud and the Internet or JD Cloud between specific networks, servers and JD Cloud internal, or cause the system breakdown or system halt of Cloud Platform products and services of JD Cloud or servers of other users of JD Cloud, or failure of access of Cloud Platform-based products/applications of customers, etc.;
+7. Do not occupy or cause programs or processes to occupy a large amount of the server memory, CPU, Cloud Disk Service space or network bandwidth resources on the platform (hereinafter referred to as the "cloud platform") consisting of cloud computing resources of JD Cloud (such as Virtual Machines, network bandwidth, bucket, etc.), and cause serious and unreasonable load on the networks, servers (including but not limited to local and foreign and international networks, servers, etc.), products/applications, etc. of the Cloud Platform of JD Cloud or other customers of JD Cloud, or affect the normal and smooth communications between JD Cloud and the Internet or JD Cloud between specific networks, servers and JD Cloud internal, or cause the system breakdown or system halt of Cloud Platform products and services of JD Cloud or servers of other users of JD Cloud, or failure of access of Cloud Platform-based products/applications of customers, etc.;
 
 8. Do not conduct any acts that damage or attempt to damage network security (including but not limited to phishing, hacking, Internet fraud, website or space containing or suspected of disseminating: viruses, Webshell, malicious code, and other acts suspected of attacking other websites and servers through virtual servers such as scanning, sniffing, ARP spoofing, DOS, etc.);
 

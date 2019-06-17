@@ -8,7 +8,7 @@ It can choose to purchase and configure Application Load Balancer instances of p
 
 	![创建内网ALB设置](../../../../image/Networking/ALB/ALB-058.png)
 
-	Select “Not purchase” EIP when creating Application Load Balancer, complete relevant resource configuration, confirm Application Load Balancer instance for creating Intranet type by default.
+	Select "Not purchase" EIP when creating Application Load Balancer, complete relevant resource configuration, confirm Application Load Balancer instance for creating Intranet type by default.
 	
 ## Public network Application Load Balancer
 

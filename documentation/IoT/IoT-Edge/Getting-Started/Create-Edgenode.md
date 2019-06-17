@@ -1,6 +1,6 @@
 # Create edge computing node
 
-You can rapidly create and register edge nodes via IoT Edge Console or API. For billing instructions, please refer to “[Price Overview](../Pricing/Billing-Overview.md)” and “[Billing Rules](../Pricing/Billing-Rules.md)”.
+You can rapidly create and register edge nodes via IoT Edge Console or API. For billing instructions, please refer to "[Price Overview](../Pricing/Billing-Overview.md)" and "[Billing Rules](../Pricing/Billing-Rules.md)".
 
 This Document specifies how to create edge nodes through the Console.
 
@@ -11,19 +11,19 @@ This Document specifies how to create edge nodes through the Console.
 ## Operation Steps
 1. Log in [IoT Edge Console](https://iot-console.jdcloud.com/iotedge).
 
-2. In the “Edge Node List” Page, click **Create Edge Node** to enter the “Create Edge Node” page.
+2. In the "Edge Node List" Page, click **Create Edge Node** to enter the "Create Edge Node" page.
 
-3. On the “Create Edge Node - Step 1” Page, fill in corresponding information according to notification on the page.
+3. On the "Create Edge Node - Step 1" Page, fill in corresponding information according to notification on the page.
 
     ![新建边缘节点第一步](../../../../image/IoT/IoT-Edge/Createedge01.png)
 
     Note: During Beta, only the X86-64 architecture and the above Ubuntu18.04 system are supported.
 
-4. Please download the Edge system installation file on the “Create Edge Node-Step 2” page and appropriately save configuration information. Then, please install the Edge system according to the Operation Guide on the bottom of the page.
+4. Please download the Edge system installation file on the "Create Edge Node-Step 2" page and appropriately save configuration information. Then, please install the Edge system according to the Operation Guide on the bottom of the page.
 
     ![新建边缘节点第二步](../../../../image/IoT/IoT-Edge/Createedge02.png)
 
-5. Click **Complete Creation**, this page will automatically redirect to the “Edge Node List” page and please wait to complete creation of edge node. You can view newly-created edge nodes on the “Edge Node List” page.
+5. Click **Complete Creation**, this page will automatically redirect to the "Edge Node List" page and please wait to complete creation of edge node. You can view newly-created edge nodes on the "Edge Node List" page.
 
 ## Related References
 

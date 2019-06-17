@@ -9,7 +9,7 @@
 # FAQ about Alarm
 **1.Q: How to add/use an Alarm Rule Template?**
 
-   A: Enter the JD Cloud Console - Monitoring menu, find the instance of the alarm rules that needs to be modified, click **Alarm Rules**. Click the newly added alarm rules on this page, modify the metric, statistical period, statistical method, calculation method, threshold, duration, and alarm level according to the needs. When finished, check the “Save as New Alarm Rules Template” to save the rule as a template.
+   A: Enter the JD Cloud Console - Monitoring menu, find the instance of the alarm rules that needs to be modified, click **Alarm Rules**. Click the newly added alarm rules on this page, modify the metric, statistical period, statistical method, calculation method, threshold, duration, and alarm level according to the needs. When finished, check the "Save as New Alarm Rules Template" to save the rule as a template.
    
 After the alarm template is available, check "Use Existing Alarm Rules Template" to select the available template to use on the Newly Added Alarm Rules page.
 

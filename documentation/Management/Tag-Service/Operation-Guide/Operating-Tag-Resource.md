@@ -31,7 +31,7 @@ You can enter the details page of the resource by clicking on the resource ID.
 ![resource-detail](../../../../image/Tag/tagresource/resource-detail.png)
 
 ### Edit Tag
-You can associate or dissassociate the resource to the tag by clicking on the “Edit Tag” button on the right side of each data. When editing a tag, you can perform multiple associating or dissassociating operations, and then click on the “OK” button to complete the associating and dissassociating operations of multiple tags at a time.
+You can associate or dissassociate the resource to the tag by clicking on the "Edit Tag" button on the right side of each data. When editing a tag, you can perform multiple associating or dissassociating operations, and then click on the "OK" button to complete the associating and dissassociating operations of multiple tags at a time.
 You can either select an existing tag to associate to the current resource by the drop-down box, or enter a new tag key and value to create a new tag and associate to the current resource.
 The key and value of the tag are not allowed to be null. The leading and trailing spaces are automatically filtered, and multiple spaces contained in name characters are automatically processed into one space.
 Each resource can be associated up to 10 tags. Each user can have up to 500 tags. Each tag key can have up to 500 different tag values.

@@ -11,13 +11,13 @@ You can deploy the edge computing module, through the Console for IoT Edge. Next
 
 1. Log in [IoT Edge Console](https://iot-console.jdcloud.com/iotedge).
 
-2. On the “Edge Computing List” Page， click **Create Deployment** to enter the “Create Deployment” page.
+2. On the "Edge Computing List" Page， click **Create Deployment** to enter the "Create Deployment" page.
 
-3. On the “Create Deployment - Step 1” page, choose the edge node ID to be deployed and click to add devices: Add the device used for collecting the edge computing module.
+3. On the "Create Deployment - Step 1" page, choose the edge node ID to be deployed and click to add devices: Add the device used for collecting the edge computing module.
 
    ![新建部署第一步](../../../../../image/IoT/IoT-Edge/newdeploy0.png)
 
-4. On the “Create Deployment - Step 2” page, please fill in it and choose the relevant configuration as per the notification on it
+4. On the "Create Deployment - Step 2" page, please fill in it and choose the relevant configuration as per the notification on it
 
    ![新建部署第二步](../../../../../image/IoT/IoT-Edge/newdeploy1.png)
 
@@ -31,7 +31,7 @@ You can deploy the edge computing module, through the Console for IoT Edge. Next
 
    AI model: Please select the AI model used for the computing module.
 
-5. Click **Immediately Deploy**, the page will automatically redirect to “Edge Computing List” page, on which you can view the edge node newly deployed.
+5. Click **Immediately Deploy**, the page will automatically redirect to "Edge Computing List" page, on which you can view the edge node newly deployed.
 
    
 

@@ -12,5 +12,5 @@ For billing instructions of Column-oriented Storage, please refer to: [Price Ove
 	   
 2. Click [Create] in the cluster management page to enter the creation page.
 
-3. Enter the node and network Information, click “Buy Now”, and the page will automatically jump to the Column-oriented Storage cluster management page to wait for completion of cluster creation.
+3. Enter the node and network Information, click "Buy Now", and the page will automatically jump to the Column-oriented Storage cluster management page to wait for completion of cluster creation.
 

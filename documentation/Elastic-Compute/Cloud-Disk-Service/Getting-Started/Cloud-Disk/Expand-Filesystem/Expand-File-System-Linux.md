@@ -2,7 +2,7 @@
 
 <br>
 
-Take CentOS operating system for example, assume that there is a 42.9GB hard disk attaching to a machine and the partition is “/dev/vdb1”, file system format is “ext4”, attach location is “/home/test”; now we need to expand it to 53.7GB. Specific procedures are as below (need root authority):
+Take CentOS operating system for example, assume that there is a 42.9GB hard disk attaching to a machine and the partition is "/dev/vdb1", file system format is "ext4", attach location is "/home/test"; now we need to expand it to 53.7GB. Specific procedures are as below (need root authority):
 
 **Note: Back up the data before expansion to prevent the data from losing due to misoperation and other factors**.
 

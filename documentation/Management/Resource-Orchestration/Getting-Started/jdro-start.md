@@ -19,8 +19,8 @@
 
  ![创建资源栈](https://raw.githubusercontent.com/jdcloudcom/cn/edit/image/Resource-Orchestration/resource001.png)
  
-2. Select a template type, **Example Template** or **My Template**. The “Example Template” is a reference text file with the standard resource delivery mode officially provided by JD Cloud. The Getting Started will be showed by taking examples with the “Example Template”.
-Select the template source, “vpc_subnet_(vpc_subnet)”. The template content will be automatically produced and click **Next**.
+2. Select a template type, **Example Template** or **My Template**. The "Example Template" is a reference text file with the standard resource delivery mode officially provided by JD Cloud. The Getting Started will be showed by taking examples with the "Example Template".
+Select the template source, "vpc_subnet_(vpc_subnet)". The template content will be automatically produced and click **Next**.
 
 ![创建资源栈-选择模板](https://raw.githubusercontent.com/jdcloudcom/cn/edit/image/Resource-Orchestration/resource002.png)
 

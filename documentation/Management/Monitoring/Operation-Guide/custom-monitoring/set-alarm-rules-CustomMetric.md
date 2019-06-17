@@ -4,6 +4,6 @@ After entering the JD Cloud Console, select Monitoring - Customized Metric Monit
 
 ![image](https://raw.githubusercontent.com/jdcloudcom/en/Monitoring/image/Cloud-Monitor/getting-started/cmm-04.png)
 
-Click “New Alarm Rule” to go to the alarm rule page and follow the process to guide the settings, as shown in the diagram below:
+Click "New Alarm Rule" to go to the alarm rule page and follow the process to guide the settings, as shown in the diagram below:
 
 ![image](https://raw.githubusercontent.com/jdcloudcom/en/Monitoring/image/Cloud-Monitor/getting-started/cmm-05.png)

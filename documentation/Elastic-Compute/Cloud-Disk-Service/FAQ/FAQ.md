@@ -55,7 +55,7 @@ Because multi-point attached disk is attached to multiple cloud instances at the
 
 **Q: How to expand multi-point attached disk?**
 
-Multi-point attached disk can only be expanded in “available” state
+Multi-point attached disk can only be expanded in "available" state
 
 **Q: How to use the multi-point mounted disk correctly?**
 
@@ -141,7 +141,7 @@ Take Windows Server 2012 R2 standard version operating system for example, the p
 
 ![faq_mount_012](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/CloudDisk/faq_mount_012.jpg)
 
-7) After confirming the selected configuration, click **Complete** button to finish the new volume wizard; or click "Last Step” to return to modify the selected setting.
+7) After confirming the selected configuration, click **Complete** button to finish the new volume wizard; or click "Last Step" to return to modify the selected setting.
 
 
 ![faq_mount_013](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/CloudDisk/faq_mount_013.jpg)

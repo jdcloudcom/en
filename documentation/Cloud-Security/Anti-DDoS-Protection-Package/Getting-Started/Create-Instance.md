@@ -1,6 +1,6 @@
 # Create Instance
 
-You can create protection package instance through Anti-DDoS Basic console or API quickly. For Billing Instructions of the instance, see “[Price Overview](../Pricing/Price-Overview.md)”,
+You can create protection package instance through Anti-DDoS Basic console or API quickly. For Billing Instructions of the instance, see "[Price Overview](../Pricing/Price-Overview.md)",
 "[Billing rules](../Pricing/Billing-Rules.md)".
 
 This document introduces how to create instance of Anti-DDoS Protection Package through the console.

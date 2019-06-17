@@ -10,7 +10,7 @@ Configuration management provides basic services such as service tree structure 
 
 Service tree
 
-The service tree is a tree structure with a visual topology that stores business organization architecture information. On the one hand, it supports JNS service (name service) and is in accordance with the hierarchical relationship of “department - product line - system - application - group - instance” to maintain the correspondence between machines and instances for providing other systems with accurate and unified service data information, on the other hand, users can implement role based on service tree management and role based unified privilege control, which is the foundation of the DevOps system.
+The service tree is a tree structure with a visual topology that stores business organization architecture information. On the one hand, it supports JNS service (name service) and is in accordance with the hierarchical relationship of "department - product line - system - application - group - instance" to maintain the correspondence between machines and instances for providing other systems with accurate and unified service data information, on the other hand, users can implement role based on service tree management and role based unified privilege control, which is the foundation of the DevOps system.
 - Department: users can flexibly define and divide departments, e.g., it may be a second level or third level department in the actual organization.
 - Product line: the product line is a complete product or service, e.g., a department that may have multiple product lines or businesses.
 - System: the system is a set contains one or multiple applications that can be a stand-alone product or a major branch of a product.
@@ -66,7 +66,7 @@ the following information should be entered:
 - environment: production/pre-release
 - support scaling policy: Yes/No. Namely, whether this group supports auto scaling, that is, scaling the virtual machine according to the configured scaling policy, and deploying the corresponding programs
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if you select “Yes”, then:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if you select "Yes", then:
 
   the following information should be entered:
   - Instances template: select the defined specification template in the menu bar - Configuration Management - Specification Template
@@ -78,11 +78,11 @@ the following information should be entered:
   - Tags：
   - Description:
 
-	If you select “No”, then:
+	If you select "No", then:
 
   Select deployment machines: select existing machines/create machines based on your instance modules,
   
-  If you select “select existing machine”, then:
+  If you select "select existing machine", then:
   
  ![image](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Operation-Guide7.png)
  
@@ -110,7 +110,7 @@ Relate machine resource to product line
 
 Configuration Management-Resource Pool from the navigation bar
 
-i. Method one: quick import, select the product line to be imported in the Service Tree, click “Quick Import” button, select the Region of the Virtual Machine on the Import page, select the Virtual Machine needed.
+i. Method one: quick import, select the product line to be imported in the Service Tree, click "Quick Import" button, select the Region of the Virtual Machine on the Import page, select the Virtual Machine needed.
 
 ii. Method two: batch import, select the product line to be imported in the Service Tree, enter the correct Machine information according to the provided import template, then click OK.
 

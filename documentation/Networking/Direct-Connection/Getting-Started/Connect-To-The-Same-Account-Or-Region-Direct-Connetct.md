@@ -26,7 +26,7 @@ Step 6: Configure route table within customer IDC
 
 1. Log in JD Cloud console.
 
-2. Click the navigation bar on the left side, select “Direct Connection Service -> Direct Connection -> Physical Connection”.
+2. Click the navigation bar on the left side, select "Direct Connection Service -> Direct Connection -> Physical Connection".
 
 3. For the creation of physical connection, you can directly contact with the Direct Connection partner of JD Cloud. Our partner will provide you one-stop service. For the specific partners, see JD Cloud Marketplace. You can also choose self-service application, as the Document indicates.
 
@@ -54,7 +54,7 @@ Auditors of JD Cloud will review your application. Under normal circumstances, i
 
 1. Log in JD Cloud console.
 
-2. Click the navigation bar on the left side, select “Direct Connection Service -> Direct Connection Service -> Border Gateway”.
+2. Click the navigation bar on the left side, select "Direct Connection Service -> Direct Connection Service -> Border Gateway".
 
 3. Create border gateway, and it will automatically connect with the VPC of the account within the same region.
 
@@ -64,7 +64,7 @@ Auditors of JD Cloud will review your application. Under normal circumstances, i
 
 1. Log in JD Cloud console.
 
-2. Click the navigation bar on the left side, select “Direct Connection Service -> Direct Connection -> Private Virtual Interface”.
+2. Click the navigation bar on the left side, select "Direct Connection Service -> Direct Connection -> Private Virtual Interface".
 
 3. Configure private virtual interface, see console page for details.
 
@@ -86,7 +86,7 @@ Primary configuration items are as follows:
 
 1. Log in JD Cloud console.
 
-2. Click the navigation bar on the left side, select “Virtual Private Cloud”, enter the route table related to JD Cloud VPC Private Subnet required to communicate with IDC Intranet.
+2. Click the navigation bar on the left side, select "Virtual Private Cloud", enter the route table related to JD Cloud VPC Private Subnet required to communicate with IDC Intranet.
 
 3. Configure the route table. The destination is the network segment in your IDC. And select the border gateway that hosts the direct connection network intercommunication for the nest hop.
 
@@ -96,7 +96,7 @@ Primary configuration items are as follows:
 
 1. Log in JD Cloud console.
 
-2. Click the navigation bar on the left side, and select “Direct Connection Service -> Direct Connection Service -> Border Gateway”, enter the details for the border gateway hosting the direct connection network intercommunication.
+2. Click the navigation bar on the left side, and select "Direct Connection Service -> Direct Connection Service -> Border Gateway", enter the details for the border gateway hosting the direct connection network intercommunication.
 
 3. Configure the route table. Two-way route is required, one way to VPC side and another to your IDC side.
 

@@ -5,7 +5,7 @@ Apply for enabling enterprise online banking of Industrial and Commercial Bank o
 Contact information of Industrial and Commercial Bank of China: nationwide unified customer service telephone (95588) or access website of China Merchants Bank: http://www.icbc.com.cn/
 
 ### Payment Operations
-When paying, select payment method of “Enterprise Online Banking Payment”, select “Industrial and Commercial Bank of China” to submit payment application.
+When paying, select payment method of "Enterprise Online Banking Payment", select "Industrial and Commercial Bank of China" to submit payment application.
 
 Special reminder: Please insert the UKEY of Corporate Banking of ICBC before submitting payment application, and ensure that relevant plug-ins and drivers have been installed
 

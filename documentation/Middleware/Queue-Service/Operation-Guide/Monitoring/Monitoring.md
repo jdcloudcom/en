@@ -5,8 +5,8 @@ The Queue Console provides rich performance monitoring data and you can view the
 ## Operation Steps
 
 1. Log in [Queue Service Console](https://jqs-console.jdcloud.com/).
-2. On the “Queue Management” page, select the target queue and click **Queue Name**, to enter the “Queue Details” page.
-3. On the “Queue Details” page, click **Monitoring** to view the monitoring information.
+2. On the "Queue Management" page, select the target queue and click **Queue Name**, to enter the "Queue Details" page.
+3. On the "Queue Details" page, click **Monitoring** to view the monitoring information.
    - You can quickly select to view data from 1 hour to 14 days, or enter a date range to view, with the largest time range of 1 month.
 
 ## Monitoring Items Description

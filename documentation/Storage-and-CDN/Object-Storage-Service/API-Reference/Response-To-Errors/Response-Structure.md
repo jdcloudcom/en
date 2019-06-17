@@ -8,8 +8,8 @@ If an error occurs at the time of interacting with APIs, response of cloud stora
 
 The following is an example of returning JSON:
 ```
-{“code”   :”AccessDenied”,”message”:”Access   Denied”,”resource”:”/mybucket/public/index.html”,
-”requestId”:”71515159-E06D-406F-81C4-E03FA635B831”}
+{"code"   :"AccessDenied","message":"Access   Denied","resource":"/mybucket/public/index.html",
+"requestId":"71515159-E06D-406F-81C4-E03FA635B831"}
 ```
 
 The following table introduces the meaning of each element:

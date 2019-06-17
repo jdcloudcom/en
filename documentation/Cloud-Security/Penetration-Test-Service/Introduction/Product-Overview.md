@@ -41,4 +41,4 @@ JD Cloud penetration test service can detect potential risk threats in the syste
 
 At present, offline purchase is offered for JD Cloud vulnerability scan service.
 
-For details, please refer to “[Billing Overview](../Pricing/Billing-Overview.md)”. About the detailed charging standard, please open ticket for consultation
+For details, please refer to "[Billing Overview](../Pricing/Billing-Overview.md)". About the detailed charging standard, please open ticket for consultation

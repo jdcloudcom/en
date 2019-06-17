@@ -236,7 +236,7 @@ The following is the configuration template for a dynamic unknown path:
 
 **(5) Configuration methods for filtering APP or group**
 
-When the collection configuration is for the part of APPs under a system or the part of groups under an APP, “apps” or “groups” field can be used to filter. The specific template is as follows:
+When the collection configuration is for the part of APPs under a system or the part of groups under an APP, "apps" or "groups" field can be used to filter. The specific template is as follows:
 
 ```json
 {

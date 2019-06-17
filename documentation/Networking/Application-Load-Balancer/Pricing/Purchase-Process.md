@@ -4,7 +4,7 @@ This text will introduce the purchase entrance of the Application Load Balancer 
 
 ## Entrance 1: [Product Introduction Page](https://www.jdcloud.com/products/loadbalance)
 1. Login to JD Cloud official website [https://www.jdcloud.com/](https://www.jdcloud.com/).
-2. Select “Product>Network Application Load Balancer”, see the picture below for details.
+2. Select "Product>Network Application Load Balancer", see the picture below for details.
 
 ![ALB](../../../../image/Networking/ALB/ALB-011.png)
 
@@ -17,7 +17,7 @@ This text will introduce the purchase entrance of the Application Load Balancer 
 ## Entrance 2: [LB Console](https://console.jdcloud.com/host/loadBalance/list)
 
 1. Login to JD Cloud official website [https://www.jdcloud.com/](https://www.jdcloud.com/).
-2. Select “Console”, see the picture below for details.
+2. Select "Console", see the picture below for details.
 
 ![控制台](../../../../image/Networking/ALB/console-buy.png)
 

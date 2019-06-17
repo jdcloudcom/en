@@ -1,6 +1,6 @@
 # Create Instance
 
-You can create Memcached instance use Memcached console or API. See “[Price Overview](../Pricing/Price-Overview.md)” and “[Billing Rules](../Pricing/Billing-Rules.md)” for billing instructions of the instance.
+You can create Memcached instance use Memcached console or API. See "[Price Overview](../Pricing/Price-Overview.md)" and "[Billing Rules](../Pricing/Billing-Rules.md)" for billing instructions of the instance.
 
 This document introduces how to create Memcached instance through Memcached console.
 

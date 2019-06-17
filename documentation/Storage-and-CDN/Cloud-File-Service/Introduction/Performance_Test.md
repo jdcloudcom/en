@@ -15,13 +15,13 @@ You can use test tools such as FIO or IOZone to test the file service. This docu
 - Since the current Cloud File Service only supports NFS 4.0 and NFS 4.1, please create Linux instance.
 - To avoid impact of the performance and bandwidth of the VM Instance on the performance test result of Cloud File Service, please create VM Instance with specification of 8 core 32GB or above.
 
-Log in VM Instance. Refer to ["Log in Virtual Machines”](https://docs.jdcloud.com/en/virtual-machines/connect-to-linux-instance) for the operation.
+Log in VM Instance. Refer to ["Log in Virtual Machines"](https://docs.jdcloud.com/en/virtual-machines/connect-to-linux-instance) for the operation.
 
 2) Install fio tool through yum source, or you can choose to download and install it from fio official website:
 
 `yum install fio`
 
-Select “y” in the notification of downloading installation package size to complete the download and installation.
+Select "y" in the notification of downloading installation package size to complete the download and installation.
 ![fio_installed](../../../../image/Cloud-File-Service/fio_installed.png)
 After installation, please enter:
 
@@ -36,7 +36,7 @@ Verify fio version. Please confirm to install fio of v3.1 and above version for 
 
 The installation of the test tool is finished after installation of this engine.
 
-4) Create Cloud File Service and attach it to this VM Instance. You can refer to [“Create File Storage”](https://docs.jdcloud.com/en/cloud-file-service/creating-file-system) and [“Attach File Storage”](https://docs.jdcloud.com/en/cloud-file-service/mount-file-system)
+4) Create Cloud File Service and attach it to this VM Instance. You can refer to ["Create File Storage"](https://docs.jdcloud.com/en/cloud-file-service/creating-file-system) and ["Attach File Storage"](https://docs.jdcloud.com/en/cloud-file-service/mount-file-system)
 
  
 

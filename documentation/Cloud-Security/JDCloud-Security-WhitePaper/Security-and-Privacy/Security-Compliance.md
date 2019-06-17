@@ -14,11 +14,11 @@ JD Cloud’s Main Certifications:
 
 · ISO27001: ISO Information Security Management System Certification
 
-· “Trusted Cloud Service Certification” from China Academy of Information and Communications Technology
+· "Trusted Cloud Service Certification" from China Academy of Information and Communications Technology
 
-· “Level III of Information Security Protection” from Ministry of Public Security of the People's Republic of China
+· "Level III of Information Security Protection" from Ministry of Public Security of the People's Republic of China
 
-· “Standard Compliance Certificate of ITSS Cloud Computing Service Ability” from Ministry of Industry and Information Technology
+· "Standard Compliance Certificate of ITSS Cloud Computing Service Ability" from Ministry of Industry and Information Technology
 
 **ISO27001 Certification: ** As a Cloud Service provider that meets the international standards of Information Security Management System, JD Cloud proves the security responsibilities performed by Cloud Platform from various aspects including network security, communication security, system security, operation security and data security.
 

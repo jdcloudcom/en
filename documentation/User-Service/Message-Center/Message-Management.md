@@ -27,9 +27,9 @@ All: all the above messages.
 ## Message Settings
 The **Message Settings** page shows the types of messages sent to you via SMS and email.
 
-Click the **Edit** button next to each “Message Recipient” to set a contact or contact group as the recipient of messages. Please refer to the Contact Management Help Documentation for [how to manage contacts](../../../documentation/User-Service/Message-Center/Contact-Management.md).
+Click the **Edit** button next to each "Message Recipient" to set a contact or contact group as the recipient of messages. Please refer to the Contact Management Help Documentation for [how to manage contacts](../../../documentation/User-Service/Message-Center/Contact-Management.md).
 
-The way to send the account "Balance Warning" messages and “Insufficient Balance Reminder" cannot be modified. Such messages and reminders will be sent to your account contact (i.e. yourself) via SMS and email by default; you can set whether to specify contacts or contact groups to receive “Product Messages” via email and SMS.
+The way to send the account "Balance Warning" messages and "Insufficient Balance Reminder" cannot be modified. Such messages and reminders will be sent to your account contact (i.e. yourself) via SMS and email by default; you can set whether to specify contacts or contact groups to receive "Product Messages" via email and SMS.
 
 ![image](../../../image/Message-Center/消息管理-2.png)
 

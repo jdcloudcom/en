@@ -13,7 +13,7 @@ Click the instance name to enter Instance page, select **Database Management** p
 
 **Character sets: ** supports UTF8 character set currently and the other character sets of subsequent versions will be provided successively
 
-**Type: ** only supports “split”, i.e., the database will be corresponded to multiple databases of multiple JCS for MySQL instance
+**Type: ** only supports "split", i.e., the database will be corresponded to multiple databases of multiple JCS for MySQL instance
 
 **Select backend JCS for MySQL instance**
 

@@ -9,4 +9,4 @@ This document describes the entrance for buying DevOps
 
 ![image](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Pricing1.png)
 
-3. Enter DevOps, and select “Account Management” in the user name drop-down list at the upper right corner to enter the “Quota Setting” page.
+3. Enter DevOps, and select "Account Management" in the user name drop-down list at the upper right corner to enter the "Quota Setting" page.

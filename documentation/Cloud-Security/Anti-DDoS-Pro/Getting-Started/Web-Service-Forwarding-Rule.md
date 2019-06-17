@@ -9,7 +9,7 @@ The Web Service is the protection designed to protect the business of website do
 1. Select a purchased instance. Click the "Instance Name" or "Forwarding Setting" of operation bar to enter the Forwarding Setting page.
 ![Website Forwarding Rules](../../../../image/Advanced%20Anti-DDoS/non-web%2001.png)
 
-2. On the Instance Details page, switch to the “Website Forwarding Setting”.
+2. On the Instance Details page, switch to the "Website Forwarding Setting".
 ![Website Forwarding Rules](../../../../image/Advanced%20Anti-DDoS/web-rule%2002.png)
 
 3. Click the "Add Rules" button to configure the forwarding rules according to the pop-up notifications as follows.

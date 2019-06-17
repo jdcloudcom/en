@@ -23,7 +23,7 @@ jss.setEndpoint(endpoint);
 //Destruct JingdongStorageService instance  
 jss.destroy();
 ```
-Notification: see “Initialization” for more initialization contents of OSSClient.
+Notification: see "Initialization" for more initialization contents of OSSClient.
 
 ## Create Bucket
 
@@ -35,9 +35,9 @@ jss.createBucket(bucketName);
 ```
 Notification:
 
-See the naming specification in “Basic Concepts” for that of the Bucket.
+See the naming specification in "Basic Concepts" for that of the Bucket.
 
-See “Manage Bucket” for more information of creating Bucket.
+See "Manage Bucket" for more information of creating Bucket.
 
 ## Put Object
 
@@ -51,14 +51,14 @@ ObjectService objectService = jss.bucket(bucketName).object(objectName);
 InputStream inputStream = new FileInputStream(file);  
 //Obtain streaming length  
 long contentLength = file.length();  
-//Set the Content-type of the uploaded file as "text/html”. The function returns the Etag of the uploaded data  
+//Set the Content-type of the uploaded file as "text/html". The function returns the Etag of the uploaded data  
 String md5 = objectService.entity(contentLength,inputStream).contentType("text/html").put();
 ```
 Notification:
 
 Java SDK upload Object to OSS via InputStream.
 
-See “Upload File” for more information of uploading Object.
+See "Upload File" for more information of uploading Object.
 
 ## Get Object
 
@@ -84,7 +84,7 @@ while ((tempString = reader.readLine()) != null) {
 reader.close();       
 storageObject.close();
 ```
-Notification: see “Download File” for more information of downloading Object.
+Notification: see "Download File" for more information of downloading Object.
 
 ## List Objects
 

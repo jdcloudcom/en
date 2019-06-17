@@ -18,6 +18,6 @@ Note: Backup of Cloud on Single Database only supports backups in FULL mode. The
 ![Import Backup 3](../../../../../image/RDS/Import-Backup-3.png)
          
 ## 4. View Importing Status
-- Click ***Refresh*** and it can be seen that the files are "Importing", and the status of the instance is also changed to “Single Database Backup Recovering". 
+- Click ***Refresh*** and it can be seen that the files are "Importing", and the status of the instance is also changed to "Single Database Backup Recovering". 
 - View the status of the database. It can be seen that the status of the database changes in the following order: "Deleting"-->"Single database backup recovering" --> "Running".
 

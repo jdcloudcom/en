@@ -24,7 +24,7 @@ It is forbidden to send messages of stocks, immigration, interview & recruitment
 2.	 It is required to provide complete SMS templates. In case of variable SMS template, complete variable SMS templates are not supported, avoiding that the actual content sent and customer scenario of an SMS cannot be judged.<br>
 3.	 The SMS content supports band link, which, however, requires that the content and signature are related to each other.<br>
 4.	 The SMS content shouldn’t include such special symbols as ^_^, √ and ※, avoiding any messy codes in SMS resulting from wrong transcoding and an influence on the business.<br>
-5.	 “Unsubscribe by replying with T” must be added at the end of SMS (both T and t (in uppercase and lowercase) are OK)<br><br>
+5.	 "Unsubscribe by replying with T" must be added at the end of SMS (both T and t (in uppercase and lowercase) are OK)<br><br>
 
 **Audit Process**<br>
 Usually the audit result will be reported back 2 hours after SMS application, as our customer service staff need to collect and collate materials and submit them to the operator for ICP filing. The audit time: 9:00 - 23:00 from Monday to Sunday (delayed in case of a legal holiday). It is suggested to submit the application before 18:00.<br>

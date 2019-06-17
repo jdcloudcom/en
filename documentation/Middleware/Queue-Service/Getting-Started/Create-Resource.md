@@ -20,13 +20,13 @@ In the Queue Service, messages are sent and received through a point-to-point Qu
 
    ![新建](../../../../image/Internet-Middleware/Queue-Service/入门指南-01.png)
 
-3. It is required to fill in “Queue Name” in the created queue, select the queue type, and fill in the queue properties and dead letter queue configuration according to their own needs, then click **Create Queue** to complete creation.
+3. It is required to fill in "Queue Name" in the created queue, select the queue type, and fill in the queue properties and dead letter queue configuration according to their own needs, then click **Create Queue** to complete creation.
 
    ![新建队列](../../../../image/Internet-Middleware/Queue-Service/入门指南-02.png)
 
    ### Description:
 
-   1. The name of FIFO Queue needs to be ended with the “.fifo” suffix.
+   1. The name of FIFO Queue needs to be ended with the ".fifo" suffix.
    2. The dead letter queue is the isolation queue after message receiving failure, that's, messages in the source queue will be sent to the dead letter queue after exceeding the maximum set number of receiving times; these messages can be isolated in the dead letter queue to determine the cause of their processing failure, and normal consumption of the source queue will not be affected. The dead letter queue of the standard queue must be the standard queue, the dead letter queue of the FIFO queue must be the FIFO queue.
 
 

@@ -54,7 +54,7 @@ The DNS condition forwarding server must be set in each domain Before performing
 
 10. Select **IP address of Primary Server**, and enter the DNS address of JD Cloud Directory Service recorded earlier. In this example, those are: 10.0.0.9, 10.0.0.10
 
-    After entering the DNS address, you may encounter errors such as “Timeout” or “Unresolvable”. These errors can be ignored generally.
+    After entering the DNS address, you may encounter errors such as "Timeout" or "Unresolvable". These errors can be ignored generally.
 
 ![图片](https://github.com/jdcloudcom/cn/blob/joytaobao-ad-2019011501/image/DirectoryService/cn/Local-AD-Prepartion-cn-2.png)
 

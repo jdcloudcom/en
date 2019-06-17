@@ -44,7 +44,7 @@ API gateway supports to manage the API version used for test/online, so you can 
 ![Switch Version](../../../../../image/Internet-Middleware/API-Gateway/bslb-qhbb.png)
 
 ### STEP4: logoff
-Directly click the “Off-line” if required, it will take effect in real time.
+Directly click the "Off-line" if required, it will take effect in real time.
 
 ![Logoff](../../../../../image/Internet-Middleware/API-Gateway/bslb-xx.png)
 

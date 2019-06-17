@@ -14,7 +14,7 @@ Common http fields are combined by conditions to support customized protection o
 
 The matching condition consists of matching field, logic symbol and matching content.
 
-**Description: **A maximum of three matching condition combinations is allowed to be set for each accurate identity and access management rule; the logical relation among each condition is “and”, namely that this rule is hit until the access request must simultaneously satisfy all matching conditions and corresponding matching action will be executed.
+**Description: **A maximum of three matching condition combinations is allowed to be set for each accurate identity and access management rule; the logical relation among each condition is "and", namely that this rule is hit until the access request must simultaneously satisfy all matching conditions and corresponding matching action will be executed.
 
 ### **Matching Action**
 

@@ -12,7 +12,7 @@ Inquiry Website for MIIT:[**www.beian.miit.gov.cn**](http://www.beian.miit.gov.c
 
 Name of the Unit in Charge of Canceling Filing: The name of the subject at the time of filing
 
-Canceled Filing Number: Fill in “J ICP XXXXXX” for canceling subject; fill in “J ICP XXXXXX-X for canceling website
+Canceled Filing Number: Fill in "J ICP XXXXXX" for canceling subject; fill in "J ICP XXXXXX-X for canceling website
 
 Canceling Domains List: Canceling all the domains under the filing number
 

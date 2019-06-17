@@ -1,6 +1,6 @@
 # Tag Filter
 
-The tag can be used to filter the resource on both the Instance List page that supports the “Tag Service” products and the “Tag Management”-”Tagged Resource” page of the JD Cloud Console.
+The tag can be used to filter the resource on both the Instance List page that supports the "Tag Service" products and the "Tag Management"-"Tagged Resource" page of the JD Cloud Console.
 
 ![tagfilter-resourcelist](../../../../image/Tag/TagFilter/tagfilter-resourcelist.png)
 
@@ -34,10 +34,10 @@ By clicking **X** at the back of the filter criteria tag, you can remove the tag
 
 When multiple tags are selected as filter criteria at the same time, the filter logic is as follows:
 
-The tags with different tag keys are of “AND" relationship at the time of filtering, that is to say, it will meet the filter criteria only when the selected tags of different keys are bound at the same time;
+The tags with different tag keys are of "AND" relationship at the time of filtering, that is to say, it will meet the filter criteria only when the selected tags of different keys are bound at the same time;
 
-The tags with the same tag keys but different tag values are of “OR" relationship at the time of filtering, that is to say, it will meet the filter criteria when any of the tags is bound.
+The tags with the same tag keys but different tag values are of "OR" relationship at the time of filtering, that is to say, it will meet the filter criteria when any of the tags is bound.
 
-For example: When the three tags of “Department: Business Research and Development Department”, “Department: Storage Research and Development Department” as well as “Project: Basic Platform Project” are selected at the same time, the resource meeting the filter criteria will be:
+For example: When the three tags of "Department: Business Research and Development Department", "Department: Storage Research and Development Department" as well as "Project: Basic Platform Project" are selected at the same time, the resource meeting the filter criteria will be:
 
-Bind both the “Department: Business Research and Development Department” tag and the “Project: Basic Platform Project” tag at the same time, or bind both the “Department: Storage Research and Development Department” tag and the “Project: Basic Platform Project” tag at the same time.
+Bind both the "Department: Business Research and Development Department" tag and the "Project: Basic Platform Project" tag at the same time, or bind both the "Department: Storage Research and Development Department" tag and the "Project: Basic Platform Project" tag at the same time.

@@ -1,6 +1,6 @@
 **Live Domain Name Creation**
 
-1. Enter the **Domain Name List** page in the CDN customer console; click “Add Domain Name”
+1. Enter the **Domain Name List** page in the CDN customer console; click "Add Domain Name"
 
 ![image.png](https://img1.jcloudcs.com/cms/8060a399-d9b1-49e4-9842-b033298704f120180514184345.png)
 
@@ -11,7 +11,7 @@
 2) Add Domain Name:
 
 - Please complete the ICP filing of the domain name with the communications administration and then conduct this domain name adding configuration; 
-- Domain name filling characters only support 26 English letters, 10 Arabic numerals and the horizontal bar “-”;
+- Domain name filling characters only support 26 English letters, 10 Arabic numerals and the horizontal bar "-";
 - The pushing streaming domain name and the pulling streaming domain name cannot be the same one; for example, the streamer’s pushing streaming is a.com, playing domain name can be b.com but cannot be a.com;
 - Adding extensive domain name not supported
 - Audio and video formats support H264, AAC
@@ -21,7 +21,7 @@
 
 ![image.png](https://img1.jcloudcs.com/cms/cb088c7c-ea22-476f-8c42-e05b953e2b8320180514202823.png)
 
-3. After adding the domain name, the domain name will be displayed as “auditing” status. For the domain name auditing task submitted between 9 to 21 each day, we will complete the manual auditing of the compliance of the domain name content within 2 hours;
+3. After adding the domain name, the domain name will be displayed as "auditing" status. For the domain name auditing task submitted between 9 to 21 each day, we will complete the manual auditing of the compliance of the domain name content within 2 hours;
 
 4. After the audit is completed, the status is not started by default, that is, the distribution status is not configured. You need to switch cname and click the running status of the domain name
 

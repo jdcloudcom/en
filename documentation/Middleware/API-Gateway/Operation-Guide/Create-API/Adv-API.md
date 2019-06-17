@@ -51,7 +51,7 @@ When this configuration is selected, the backend address used by the API when it
 
 
 ####   Type 2: Customized independent backend.
-When this configuration is selected, it is to cancel the selection of “Unified Configuration While Releasing the Group”, then when the API is actually called, the backend address that is configured here separately is used as the real request address.
+When this configuration is selected, it is to cancel the selection of "Unified Configuration While Releasing the Group", then when the API is actually called, the backend address that is configured here separately is used as the real request address.
 
 ##### 1、HTTP/HTTPS
 

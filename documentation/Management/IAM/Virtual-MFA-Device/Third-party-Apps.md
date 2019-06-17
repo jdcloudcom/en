@@ -4,7 +4,7 @@ In addition to using JD Cloud Assistant (WeChat applet) to associate virtual MFA
 Application|Note|None
 ---|:--:|:---:
 IOS System|Google Authenticator|APP Store Download
-Search and download (such as Tencent myapp and Baidu Search) in Android System|Google Authenticator|Mainstream App Store <br /> the Google Authenticator of Android version relies on external QR code scanning component, <br /> so you also need to search and install the “Barcode Scanner” in App Market.
+Search and download (such as Tencent myapp and Baidu Search) in Android System|Google Authenticator|Mainstream App Store <br /> the Google Authenticator of Android version relies on external QR code scanning component, <br /> so you also need to search and install the "Barcode Scanner" in App Market.
 
 # How to install and use the IOS system
 

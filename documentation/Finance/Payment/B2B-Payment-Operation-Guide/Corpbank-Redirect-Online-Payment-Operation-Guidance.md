@@ -17,7 +17,7 @@ Enterprise Online Banking supports online banking transfer of China Construction
 
 The person operating the online payment needs to log in the online banking site of the corresponding bank to complete the transaction.
 
-The displayed merchant name on the bank enterprise online banking payment page is “Customer Reserve for Chinabank Payments (Beijing) Technology Co., Ltd.”.
+The displayed merchant name on the bank enterprise online banking payment page is "Customer Reserve for Chinabank Payments (Beijing) Technology Co., Ltd.".
 
 Enterprise users need to go to the bank outlets to handle online payment related business.
 

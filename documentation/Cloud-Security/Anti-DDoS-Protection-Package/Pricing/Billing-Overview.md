@@ -32,7 +32,7 @@ After the instance expires, the charging state will be marked to be in the expir
 If there is renewal within 7 days promptly, the minimum bandwidth protection capability and elastic protection capability can be used normally after renewal. Before expiry of your Anti-DDoS protection package instance, JD Cloud will send email and SMS reminders to you, please pay attention to checking and making renewals promptly. Upon expiration of your Anti-DDoS protection package instance, you will be sent email and SMS to notify you that your resources are expired, please be sure to check notification and recharge in time to prevent unnecessary losses.
 
 ### Pay-As-You-Go for Elastic Traffic
-When the sum of the balance in your account and the coupon that can be used to pay the resources is insufficient to pay the cost of the last billing cycle (24 hours) caused by the elastic traffic, the deduction fails, and the status of your anti-DDOS protection package instance will become “overdue”. The elastic protection capability of the anti-DDoS protection package instance will be stopped after arrearage, only having the basic protection capability.
+When the sum of the balance in your account and the coupon that can be used to pay the resources is insufficient to pay the cost of the last billing cycle (24 hours) caused by the elastic traffic, the deduction fails, and the status of your anti-DDOS protection package instance will become "overdue". The elastic protection capability of the anti-DDoS protection package instance will be stopped after arrearage, only having the basic protection capability.
 
 
 ## Related References

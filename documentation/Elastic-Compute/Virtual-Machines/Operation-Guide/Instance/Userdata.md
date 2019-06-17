@@ -78,7 +78,7 @@ The following figure shows that the service is enabled and the status is active,
 
 ### Windows system: <br>
 1. Confirm that the JCS-Agent is installed in the current instance and is running.
-    Execute `services.msc` in “Running" to view the windows running service. The following figure shows that JCSAgentCore is running, and the enabling type is automatic, indicating that the current instance has installed and is using JCS-Agent.
+    Execute `services.msc` in "Running" to view the windows running service. The following figure shows that JCSAgentCore is running, and the enabling type is automatic, indicating that the current instance has installed and is using JCS-Agent.
 ![](../../../../../image/vm/Operation-Guide-Instance-userdata3.png)
 
 2. Confirm that the JCS-Agent version is not a version of "1.0.641.fc127b7", which means that the customized data function is supported.
@@ -96,9 +96,9 @@ wmic process where caption="MonitorPlugin.exe" get caption,commandline /value
 ## Operation Steps
 1. Access [Instance Console](https://cns-console.jdcloud.com/host/compute/list), or access the JD Cloud Console and click on the left navigation bar **Elastic Compute** - **Virtual Machines** - **Instance** to enter the instance list page and click **Create** to enter the Virtual Machines purchase page.
 2. Select the region where the instance belongs and click **Create** to enter the VM instance purchase page.
-3. After selecting image and completing other basic configurations, turn on the “Customized Data” function in the “Advanced Options” area.
+3. After selecting image and completing other basic configurations, turn on the "Customized Data" function in the "Advanced Options" area.
 ![](../../../../../image/vm/Operation-Guide-Instance-userdata5.png)
-4. Enter the customized data in the text box. If the data has been encoded by Base64, please select “the following input has been encoded by Base64”. If the data is plaintext that has not been encoded, please leave it unchecked.
+4. Enter the customized data in the text box. If the data has been encoded by Base64, please select "the following input has been encoded by Base64". If the data is plaintext that has not been encoded, please leave it unchecked.
 ![](../../../../../image/vm/Operation-Guide-Instance-userdata6.png)
 5. In order to ensure the correct execution of the script, please be sure to check whether the declaration format of the first/last line of the data is correct according to the [Format Requirements] above.
 6. After the instance is running, log in the instance to view the running result of the customized data. If the execution fails, check the related log positioning problem. Linux system log path: /var/log/jcloud/agent; Windows system log path: C:\ProgramData\JD.com\jCloud\Agent\Logs.

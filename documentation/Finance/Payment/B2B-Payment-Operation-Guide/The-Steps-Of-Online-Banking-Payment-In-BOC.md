@@ -5,7 +5,7 @@ Apply for enabling enterprise online banking of Bank of China, you can consult e
 Contact information of Bank of China: nationwide unified customer service telephone (95566) or access website of Bank of China: http://www.boc.cn/
 
 ### Payment Operations
-When paying, select payment method of “Enterprise Online Banking Payment”, select “Bank of China” to submit payment application.
+When paying, select payment method of "Enterprise Online Banking Payment", select "Bank of China" to submit payment application.
 
 Special reminder: please insert enterprise online banking UKEY of Bank of China before submitting payment application, and ensure that relevant plug-ins and drivers have been installed
 

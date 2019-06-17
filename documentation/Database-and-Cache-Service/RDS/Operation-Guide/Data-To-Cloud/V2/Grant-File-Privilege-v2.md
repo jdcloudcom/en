@@ -18,4 +18,4 @@ Click **Enter the Bucket**, select **Space Setting**, **Add Customized Permissio
 
 ![权限设置2](../../../../../../image/RDS/Grant-File-Privilege-2.png)
 
-**Note: Do not set any parameters in the “Static Website Hosting” page under “Space Settings” in this Bucket, or the reading of backup file may fail**
+**Note: Do not set any parameters in the "Static Website Hosting" page under "Space Settings" in this Bucket, or the reading of backup file may fail**

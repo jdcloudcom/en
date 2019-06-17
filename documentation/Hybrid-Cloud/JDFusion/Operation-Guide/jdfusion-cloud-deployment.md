@@ -4,7 +4,7 @@
 　　Deployment is a resource orchestration file which can be edited by the user. The Hybrid Cloud Deployment function uses templates as a standard to describe resource configuration information and dependencies in batches to achieve unified deployment of resources, and can realize resource configuration backup of platforms on the same cloud and platforms across the cloud and resource recovery and replication through its specific reverse deployment pattern. The Deployment engine can complete the automated build and deployment of resources with definitions of Deployment to realize purposes such as unified management of resources and automatic operation and maintenance.
 
 - Support Visual Operation and Editing of Interface
-- Support “Standard” JSON-style syntax, which can be converted to a code editor;
+- Support "Standard" JSON-style syntax, which can be converted to a code editor;
 - Support historical change log view and rollback of deployment of Resource Orchestration;
 - Support flexible variable definitions and references;
 - Support flexible cross-referencing of attributes between resources;
@@ -119,7 +119,7 @@ Description: for the standard format of resource description, it can click **JSO
 - #### How to quickly build orchestration templates by use of variables?
 
  - Overview
-   - When creating Deployment, the use of variables can enhance flexibility and improve reusability of orchestration template. Use of resource variables can achieve pre-association between resources. For example, to batch build a set of applications, including one Virtual Private Cloud, one Subnet, one VM Instance, one Public IP, and the names of all resources are “web-a”, parameters can be defined in Deployment according to the following example:
+   - When creating Deployment, the use of variables can enhance flexibility and improve reusability of orchestration template. Use of resource variables can achieve pre-association between resources. For example, to batch build a set of applications, including one Virtual Private Cloud, one Subnet, one VM Instance, one Public IP, and the names of all resources are "web-a", parameters can be defined in Deployment according to the following example:
 ```json
 {
  "deployment": {

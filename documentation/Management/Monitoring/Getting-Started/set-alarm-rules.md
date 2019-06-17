@@ -26,7 +26,7 @@ After logging in to the JD Cloud Account, click the Account Information drop-dow
 ![image](https://raw.githubusercontent.com/jdcloudcom/en/Monitoring/image/Cloud-Monitor/getting-started/getting-practices-07.png)
 
 ### Add/Use Alarm Template
-1. Enter the JD Cloud Console - Monitoring menu, find the instance of the alarm rules that needs to be modified, click **Alarm Rules**. Click the newly added alarm rules on this page, modify the metric, statistical period, statistical method, calculation method, threshold, duration according to the needs. When finished, check the “Save as New Alarm Rules Template” to save the rule as a template.
+1. Enter the JD Cloud Console - Monitoring menu, find the instance of the alarm rules that needs to be modified, click **Alarm Rules**. Click the newly added alarm rules on this page, modify the metric, statistical period, statistical method, calculation method, threshold, duration according to the needs. When finished, check the "Save as New Alarm Rules Template" to save the rule as a template.
 
 ![image](https://raw.githubusercontent.com/jdcloudcom/en/Monitoring/image/Cloud-Monitor/getting-started/getting-practices-05.png)
 

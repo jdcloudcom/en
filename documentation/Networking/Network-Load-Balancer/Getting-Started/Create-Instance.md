@@ -6,7 +6,7 @@ It can choose to purchase and configure network load balancer instances of publi
 
 ![NLB列表页](../../../../image/Networking/NLB/NLB-List.png)
 
-###### 2. Click “Create” to create a new load balancer instance.
+###### 2. Click "Create" to create a new load balancer instance.
 
 ###### 3. Select load balancer type, and here network load balancer should be selected.
 
@@ -41,7 +41,7 @@ It can choose to purchase and configure network load balancer instances of publi
 - Intranet load balancer only can be used in JD Cloud Intranet, can forward client request having access permission to JD Cloud Intranet. - Steps for creating Intranet load balancer are as follows:
 ![创建内网NLB设置](../../../../image/Networking/NLB/NLB-058.png)
 
-Select “Not purchase” EIP when creating load balancer, complete relevant resource configuration, confirm load balancer instance for creating Intranet type by default.
+Select "Not purchase" EIP when creating load balancer, complete relevant resource configuration, confirm load balancer instance for creating Intranet type by default.
 	
 ## Public network load balancer
 

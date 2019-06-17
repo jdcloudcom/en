@@ -1,6 +1,6 @@
 ## Jdcloud-codedeploy File
 
-When “Create Deployment”, if the “Deployment Operating Command” selects the “Use jdcloud-codedeploy.yml in Code Root Directory”, then CodeDeploy will execute all contents of jdcloud-codedeploy.yml. Note here that the directory where the jdcloud-codedeploy.yml file locates must be the code root directory and the file name is jdcloud-codedeploy.yml (uppercase and lowercase sensitive).
+When "Create Deployment", if the "Deployment Operating Command" selects the "Use jdcloud-codedeploy.yml in Code Root Directory", then CodeDeploy will execute all contents of jdcloud-codedeploy.yml. Note here that the directory where the jdcloud-codedeploy.yml file locates must be the code root directory and the file name is jdcloud-codedeploy.yml (uppercase and lowercase sensitive).
 
 **Template**
 

@@ -11,7 +11,7 @@ The details on registration process and purchase process are as follows:
 
 - Login to JD Cloud official website
 www.jdcloud.com
-- It is allowed to directly login to JD Cloud with JD account; if you do not have a JD account, please click “Register for Free” to register JD Cloud and JD account.
+- It is allowed to directly login to JD Cloud with JD account; if you do not have a JD account, please click "Register for Free" to register JD Cloud and JD account.
 - After registration, the page will automatically jump to the page for completing information, please click Submit after filling in the account information according to facts.
 
 ### Purchase Cloud Physical Server

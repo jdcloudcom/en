@@ -26,7 +26,7 @@ jss.destroy();
 
 Notification:
 
-* See naming specification in “Basic Concepts” for the naming specification of Bucket.
+* See naming specification in "Basic Concepts" for the naming specification of Bucket.
 
 * The name of Bucket is global unique, so you need to ensure the names of the Buckets are not duplicated with that of others.
 

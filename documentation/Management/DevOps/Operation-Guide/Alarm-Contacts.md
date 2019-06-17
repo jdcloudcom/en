@@ -20,7 +20,7 @@ There are two types of alarm groups:
 
 **(1) Alarm Group Configuration**
 
-After selecting the service tree nodes (shown as system nodes in the figure), select [Intelligent Monitoring] - [Monitoring Configuration] in the menu, and you can edit the alarm groups added by default and perform the contact addition and deletion operations on the “Alarm Group Configuration” page.
+After selecting the service tree nodes (shown as system nodes in the figure), select [Intelligent Monitoring] - [Monitoring Configuration] in the menu, and you can edit the alarm groups added by default and perform the contact addition and deletion operations on the "Alarm Group Configuration" page.
 
 Click **Create**, open the page as shown in the figure.
 
@@ -42,7 +42,7 @@ Select the service tree system or the product line nodes (the on-duty group only
 
 Name: The duty group name is onCall by default and cannot be changed by users.
 
-Scope: As shown in the figure, it is the system node; it can only be selected as “system”, and can select product line or system in the product line node.
+Scope: As shown in the figure, it is the system node; it can only be selected as "system", and can select product line or system in the product line node.
 
 Node: Select a specific service tree node.
 

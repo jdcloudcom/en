@@ -45,7 +45,7 @@ After turning on the origin server monitoring, the CDN distribution node will de
 
 ![image.png](https://img1.jcloudcs.com/cms/ce478878-87ee-49a0-a29b-f72e6b61606f20180118102744.png)
 
--  The configuration content of the “Monitoring Link" is: (either-or)
+-  The configuration content of the "Monitoring Link" is: (either-or)
 
 - Standard monitoring link: Put a specific file under the root directory of the customer accelerated domain name, such as: www.jdcloud.com/monitor.gif
 - Customized monitoring link: text box input, customer customized monitoring file and monitoring file path

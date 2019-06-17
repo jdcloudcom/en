@@ -10,7 +10,7 @@ You can quickly purchase the instance of TiDB Service from the console
 
 3. Billing method during the period of public beta shall be pay by configuration by default. For the billing standard, please refer to the billing method.
 4. Parameter description of instance configuration is as follows:
-- **Region**: Select the region where the instance is located. The intranets of different regional resources are not interoperable and cannot be changed after creation. For detailed description of the region, please refer to “Region and Availability Zone”. During the period of public beta, only the “Availability Zone A” of “cn-north-1” is supported.
+- **Region**: Select the region where the instance is located. The intranets of different regional resources are not interoperable and cannot be changed after creation. For detailed description of the region, please refer to "Region and Availability Zone". During the period of public beta, only the "Availability Zone A" of "cn-north-1" is supported.
 - **Database type**: The currently supported database type is TiDB+TiKV.
 - **Version**: Refer to the version of the database type. Currently, the latest version - version 2.04 - is provided. Different regions support different versions. The specific circumstances shall be subject to the console.
 

@@ -113,7 +113,7 @@ do {
 Acquire all objects after the specific Object by paging, with the number of Objects being equal to the value of maxKeys per page.
 
 ```
-//The Object information in dictionary order after obtaining "file” by paging, the result does not contain "file"  
+//The Object information in dictionary order after obtaining "file" by paging, the result does not contain "file"  
 String marker = "file";  
 ObjectListing objectList = null;  
 do {  
@@ -169,9 +169,9 @@ You can simulate the folder function by matching the parameters of Delimiter and
 
 If Prefix is set as a folder name, then the files (i.e., all files and subfolders (directory) being recursive under the folder) with the prefix of the name will be listed.
 
-If Delimiter is set as “/”, the return value only list the files and subfolders (directory) under the folder. The sub-file names (directory) under the folder return the part at CommonPrefixes while recursive files and folders under the subfolder will not be displayed.
+If Delimiter is set as "/", the return value only list the files and subfolders (directory) under the folder. The sub-file names (directory) under the folder return the part at CommonPrefixes while recursive files and folders under the subfolder will not be displayed.
 
-Notification: if there 4 files in the Bucket: oss.jpg, jingdong/file, jingdong/dir/file1, jingdong/dir/file2, “/” is used as the delimiter of the folders. The following example demonstrates how to simulate folder function.
+Notification: if there 4 files in the Bucket: oss.jpg, jingdong/file, jingdong/dir/file1, jingdong/dir/file2, "/" is used as the delimiter of the folders. The following example demonstrates how to simulate folder function.
 
 **List all files in the Bucket**
 
@@ -246,7 +246,7 @@ In the case of combining Prefix and Delimiter, files and sub-directories under t
 ```
 //Create BucketService instance  
 BucketService bucketService = jss.bucket(bucketName);  
-//List all the files and subdirectories under “jingdong/”. Please note that hasCommonPrefix must be true to take effect
+//List all the files and subdirectories under "jingdong/". Please note that hasCommonPrefix must be true to take effect
 bucketService.prefix("jingdong/").delimiter("/").hasCommonPrefix(true);  
 //List the files and folders under the bucket that satisfy the conditions  
 ObjectListing objectList = bucketService.listObject();  

@@ -7,12 +7,12 @@
 		
  1. Enter JD Cloud Console - Monitoring - Resource Monitoring menu, the monitoring list of each resource will be seen.	
 ![](https://raw.githubusercontent.com/jdcloudcom/en/Monitoring/image/Cloud-Monitor/Best-Practices/Best-Practices-04.png) 
- 2. Click on the “Monitoring Table” in the operation column of each instance, the monitoring data of each metric of the instance will be seen.	
+ 2. Click on the "Monitoring Table" in the operation column of each instance, the monitoring data of each metric of the instance will be seen.	
 ![](https://raw.githubusercontent.com/jdcloudcom/en/Monitoring/image/Cloud-Monitor/Best-Practices/Best-Practices-05.png) 
  **Set Alarm Rules**		
 		
- 1. Enter JD Cloud Console - Monitoring menu, the monitoring list of each resource will be seen, click on the “Alarm Rules” in the operation column of each instance. Click on “Add Alarm Rules” to create alarm rules.	
+ 1. Enter JD Cloud Console - Monitoring menu, the monitoring list of each resource will be seen, click on the "Alarm Rules" in the operation column of each instance. Click on "Add Alarm Rules" to create alarm rules.	
 ![](https://raw.githubusercontent.com/jdcloudcom/en/Monitoring/image/Cloud-Monitor/Best-Practices/Best-Practices-06.png) 
- 2. Enter the monitoring item, statistical period, statistical method, calculation method, threshold, duration, add alarm rules and contacts, and click on “OK”.
+ 2. Enter the monitoring item, statistical period, statistical method, calculation method, threshold, duration, add alarm rules and contacts, and click on "OK".
 ![](https://raw.githubusercontent.com/jdcloudcom/en/Monitoring/image/Cloud-Monitor/Best-Practices/Best-Practices-07.png) 	
 		

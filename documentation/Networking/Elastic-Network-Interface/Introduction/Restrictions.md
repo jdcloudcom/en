@@ -15,7 +15,7 @@ Each ENI can be associated with 1 to 5 security groups, and such limit cannot be
 ENI can be associated to VM with the same virtual private cloud attribute and are not limited by the availability zone.
 
 ## Elastic IP
-Elastic IP with secondary network interface associated with “Availability Zone A” attribute is not supported.
+Elastic IP with secondary network interface associated with "Availability Zone A" attribute is not supported.
 
 ## Miscellaneous
 The ENI list page only displays secondary network interface operation. Please enter the details of the VM for operations related to the primary network interface.

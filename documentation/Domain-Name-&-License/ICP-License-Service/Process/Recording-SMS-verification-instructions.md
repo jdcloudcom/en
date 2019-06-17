@@ -32,7 +32,7 @@ SMS verification platform address of pilot provinces:
 
 (1) Verification SMSes are only sent to responsible person of the subject and/or responsible person of the website whose filing order form is added or change. No change, no verification.
 
-(2) Verification code is only sent once and verified once when responsible person of the subject and responsible person of the website is a same person (“Same person” was confirmed by the same mobile number).
+(2) Verification code is only sent once and verified once when responsible person of the subject and responsible person of the website is a same person ("Same person" was confirmed by the same mobile number).
 
 (3) Verification code is sent only to the mobile of responsible person of the subject and responsible person of the website according to filing messages.
 

@@ -1,6 +1,6 @@
 # Instance List
 
-You can view the instances of IoT Hub through the Console for IoT Hub Service or the API. Please refer to “[Price Overview](../Pricing/Billing-Overview.md)”, “[Billing Rules](../Pricing/Billing-Rules.md)” for the billing instructions for instances.
+You can view the instances of IoT Hub through the Console for IoT Hub Service or the API. Please refer to "[Price Overview](../Pricing/Billing-Overview.md)", "[Billing Rules](../Pricing/Billing-Rules.md)" for the billing instructions for instances.
 
 This document introduces how to view the instance list of IoT Hub Service through the Console.
 
@@ -11,7 +11,7 @@ This document introduces how to view the instance list of IoT Hub Service throug
 
 ## Operation Steps
 1. Log in [IoT Hub Service Console](https://iot-console.jdcloud.com/iothub).
-2. On the “Instance List” page, instance name, availability zone, VPC/Subnet, intranet access domain, public network domain, status, billing information, etc. can be viewed.
+2. On the "Instance List" page, instance name, availability zone, VPC/Subnet, intranet access domain, public network domain, status, billing information, etc. can be viewed.
 3. Click the link of instance name to view the detailed information about the instance.
 4. Click VPC/Subnet to view the setting information of VPC/Subnet.
 

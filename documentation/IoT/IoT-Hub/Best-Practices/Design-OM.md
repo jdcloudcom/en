@@ -13,7 +13,7 @@ A completion definition of TSL consists of the definitions of 5 types of data:
 2. Device State Data
 
 	Compared to packet data, the device status data, such as running status of device, device version number and sending frequency of device packet data, is updated with lower frequency. The status data can be modified by Server-Side Application. Such status data can have the corresponding Expected Value and Reported Value.
-	To modify the Expected Value of State, the listening of Expected Value at the device end should be changed, and the corresponding device action should be triggered. For instance, to change the Expected Value of the running status of a device from “Start” to “Restart”, the device end should autonomously implement the reboot operation.
+	To modify the Expected Value of State, the listening of Expected Value at the device end should be changed, and the corresponding device action should be triggered. For instance, to change the Expected Value of the running status of a device from "Start" to "Restart", the device end should autonomously implement the reboot operation.
 
 3. Device Metadata
 

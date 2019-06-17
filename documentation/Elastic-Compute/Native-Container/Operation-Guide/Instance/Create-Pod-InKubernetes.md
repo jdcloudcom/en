@@ -4,7 +4,7 @@ Create native container Pod using Kubectl client tool after finishing Virtual-Ku
 ## Use Restrictions of Native Container Pod Created by Virtual Kubelet   
 - Native Container Pod does not currently support service associated to Kubernetes;  
 - Native Container Pod does not support dynamic PVC mount; corresponding Cloud Disk needs to have file system when mounting existing Cloud Disk or static PV.  
-- Name setting specification of Native Container Pod: Cannot exceed 253 characters, may include multiple labels, separated with “.”. Label supports numbers, lowercase letters, and English line-through “-”, and does not support the start characters and end characters with the name of “-”; and cannot exceed 63 characters;  
+- Name setting specification of Native Container Pod: Cannot exceed 253 characters, may include multiple labels, separated with ".". Label supports numbers, lowercase letters, and English line-through "-", and does not support the start characters and end characters with the name of "-"; and cannot exceed 63 characters;  
 - Not support setting DNSPolicy;  
 - Native Container Pod can mount up to 7 Cloud Disks as the volume;  
 - Native Container Pod can define up to 8 Containers; the number of Containers is subject to the number of added volumes.  

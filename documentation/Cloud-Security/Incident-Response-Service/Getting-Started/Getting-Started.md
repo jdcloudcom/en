@@ -7,7 +7,7 @@ By logging in the official website of JD Cloud, filling in and opening ticket to
 Click **Login** in JD Cloud Home Page and enter your JD Cloud account and password. If you do not have a JD Cloud account, please refer to the account registration document.
 
 ### Step 2: On-line application
-Log in JD Cloud “Incident Response Service” product page and click **Ticket Consultation** to fill in the incident response service application form. After completion, click **Submit** to complete the on-line application.
+Log in JD Cloud "Incident Response Service" product page and click **Ticket Consultation** to fill in the incident response service application form. After completion, click **Submit** to complete the on-line application.
 
 ### Step 3: Application audit
 After receiving an application for a service ticket, JD Cloud Platform will conduct a service requirement audit. After the audit is passed, the security team will contact you for initial requirement confirmation and business negotiation. You can also call JD Cloud Hotline to consult the application process and progress.

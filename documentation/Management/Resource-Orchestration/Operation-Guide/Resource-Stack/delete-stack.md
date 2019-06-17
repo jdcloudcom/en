@@ -3,11 +3,11 @@
 
 ## Operation Steps:
 
-1. Select the resource stack to be deleted and click **Delete**, the confirmation page for deleting the resource stack pops up with the notification: “Confirm to delete the resource stack?”. It is shown in the figure below.
+1. Select the resource stack to be deleted and click **Delete**, the confirmation page for deleting the resource stack pops up with the notification: "Confirm to delete the resource stack?". It is shown in the figure below.
 
 ![](https://raw.githubusercontent.com/jdcloudcom/cn/edit/image/Resource-Orchestration/delete%20stack001.png)
 
-2. Click **OK** to complete the deletion operation and enter the resource stack list page. The status of the deleted resource stack is displayed as “Deleting".
+2. Click **OK** to complete the deletion operation and enter the resource stack list page. The status of the deleted resource stack is displayed as "Deleting".
 
 ![](https://raw.githubusercontent.com/jdcloudcom/cn/edit/image/Resource-Orchestration/delete%20stack002.png)
 

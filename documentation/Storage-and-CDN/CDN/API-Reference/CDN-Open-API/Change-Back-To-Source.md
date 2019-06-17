@@ -37,7 +37,7 @@ https://opencdn.jcloud.com/api/changeSource
 curl Request Example: 
 
 ```
-curl -H “Content-type: application/json” -X POST -d ‘{“username”:“test_user”,“signature”:“914a3f412fd9bc1eec14bb5eb104d253”,“domain” :“www.b.com”, “type” :“web”,“sourceType” :“domain”,“source” :“[{’domain’:’source1.www.a.com’,’priority’:’1’},{’domain’:’source2.www.a.com’,’priority’:’2’}]”}’ http://opencdn.jcloud.com/api/changeSource
+curl -H "Content-type: application/json" -X POST -d ‘{"username":"test_user","signature":"914a3f412fd9bc1eec14bb5eb104d253","domain" :"www.b.com", "type" :"web","sourceType" :"domain","source" :"[{’domain’:’source1.www.a.com’,’priority’:’1’},{’domain’:’source2.www.a.com’,’priority’:’2’}]"}’ http://opencdn.jcloud.com/api/changeSource
 ```
 
 * json Format

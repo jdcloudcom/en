@@ -4,7 +4,7 @@
 
 	![ALB列表页](../../../../image/Networking/ALB/ALB-015.png)
 
-1. Click “Create” to create a new Application Application Load Balancer instance.
+1. Click "Create" to create a new Application Application Load Balancer instance.
 
 1. Select a region and pay attention to select the region of the virtual private cloud to be selected.
 

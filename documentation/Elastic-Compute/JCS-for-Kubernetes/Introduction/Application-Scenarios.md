@@ -8,7 +8,7 @@ With the aid of JCS for Kubernetes Service, container-based development & test d
 
 ## Microservice Architecture
 
-Container is the “natural” carrier for microservice architecture. With the aid of JCS for Kubernetes Service, container’s features - lightweight and unified deployment - bring a new thinking for solving the unified management, scheduling and deployment of each microservice AND greatly reduce the dependency relationship between service and version, which allows the same microservice to maintain good consistency under different environments.
+Container is the "natural" carrier for microservice architecture. With the aid of JCS for Kubernetes Service, container’s features - lightweight and unified deployment - bring a new thinking for solving the unified management, scheduling and deployment of each microservice AND greatly reduce the dependency relationship between service and version, which allows the same microservice to maintain good consistency under different environments.
 
 ## Rapid Auto Scaling
 

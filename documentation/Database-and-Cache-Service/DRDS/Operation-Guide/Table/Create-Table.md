@@ -4,7 +4,7 @@
 
 1) Login console and create the routing information of the table in **Table Management**
 
-2) Login DRDS to execute “CREATE TABLE” statement
+2) Login DRDS to execute "CREATE TABLE" statement
 
 **Note: the above two operation order must strictly follow the sequence that login the console and perform creation first and then login DRDS to execute "CREATE TABLE" statement**
 
@@ -34,4 +34,4 @@ Select **Database Management**->**Table Management** page, click **Create Table*
 
 **3. Login DRDS to execute "CREATE TABLE" statement**
 
-Link into DRDS with client tool to execute "CREATE TABLE” statement to create database. DRDS will create actual table on multiple JCS for MySQL instances at backend according to the created routing information of the table
+Link into DRDS with client tool to execute "CREATE TABLE" statement to create database. DRDS will create actual table on multiple JCS for MySQL instances at backend according to the created routing information of the table

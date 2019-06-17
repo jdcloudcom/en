@@ -1,6 +1,6 @@
 # View the expansion task
 
-- After executing the horizontal expansion of the database, the user can view the status of the task in the **“Expansion Task”** page.
+- After executing the horizontal expansion of the database, the user can view the status of the task in the **"Expansion Task"** page.
 
 > Description: Since the database expansion time is generally long, in order to avoid affecting the overall performance of the console, the page will not be automatically refreshed, and the user needs to manually refresh the page to view the latest task status.
 

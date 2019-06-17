@@ -3,7 +3,7 @@
 After auto-scaling is enabled, if you need to adjust auto-scaling information, you can realize it by modification.
 
 ## Preconditions
-The Availability Group is currently on auto-scaling, and the current Availability Group is in a “normal” state, i.e. there is no ongoing scaling activity and the cooling is complete. If the current Auto Scaling Group is in scaling or cooling, you will have to wait until it turns to normal.
+The Availability Group is currently on auto-scaling, and the current Availability Group is in a "normal" state, i.e. there is no ongoing scaling activity and the cooling is complete. If the current Auto Scaling Group is in scaling or cooling, you will have to wait until it turns to normal.
 
 ## Operational Steps
 

@@ -13,7 +13,7 @@ Click **Create Group**
 
 **Edit or Delete Group**
 
-Enter into the assigned group page, click **General** in “Settings”, and edit or delete the group information
+Enter into the assigned group page, click **General** in "Settings", and edit or delete the group information
 
 **Edit**
 

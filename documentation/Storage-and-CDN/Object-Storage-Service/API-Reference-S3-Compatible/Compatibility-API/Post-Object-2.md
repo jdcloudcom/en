@@ -136,7 +136,7 @@ eyJjb25kaXRpb25zIjpbeyJidWNrZXQiOiJ5b3VoZS10ZXN0In0sWyJzdGFydHMtd2l0aCIsIiRrZXki
 Content-Disposition: form-data; name="X-Amz-Signature"
 1b336b54bb3c7800f2137ee5b2d5d7ee676376800d388a17004ec2bee607897a
 --123456789000
-Content-Disposition: form-data; name="file"; filename=”d:/ test.txt”
+Content-Disposition: form-data; name="file"; filename="d:/ test.txt"
 Content-Type: text/plain
 wrwe
 --123456789000
@@ -174,7 +174,7 @@ Policy Example:
 Post policy must include expiration and conditions.
 
 ##### expiration
-The expiration time of policy requested by post, the time format is ISO8601 GMT. For example: “2018-06-01T12:00:00.000Z”, means the specified Post request must occur before June 1, 2018 12:00.
+The expiration time of policy requested by post, the time format is ISO8601 GMT. For example: "2018-06-01T12:00:00.000Z", means the specified Post request must occur before June 1, 2018 12:00.
 
 ##### Conditions
 Conditions are a list, which can be used to specify the legal value of form field of the specified Post request. See the following form for the conditions supported in the Policy:
@@ -190,13 +190,13 @@ Conditions are a list, which can be used to specify the legal value of form fiel
 |x-amz-algorithm|Signature algorithm, the value is AWS4-HMAC-SHA256 code<br>Support the matching types of exact matching|
 |x-amz-credential|If S3 API is used, then the format is <your-access-key-id>/<date>/<region>/s3/aws4_requestExample: AKIAIOSFODNN7EXAMPLEYYYYYYYYYYYY/20180601/cn-north-1/s3/aws4_request<br>Support the matching types of exact matching|
 |x-amz-date|ISO8601 time format, such as: 20180601T000000Z<br>Note that the time of computing signature at this moment is 20180601,<br>Support the matching types of exact matching|
-|x-amz-storage-class|The storage type of Object, the default value is “STANDARD” (standard storage). Support two storage types, "STANDARD" (standard storage) and "REDUCED_REDUNDANCY" (reduced redundancy storage)<br>Support the matching types of exact matching|
+|x-amz-storage-class|The storage type of Object, the default value is "STANDARD" (standard storage). Support two storage types, "STANDARD" (standard storage) and "REDUCED_REDUNDANCY" (reduced redundancy storage)<br>Support the matching types of exact matching|
  
  ###### Conditions Matching Method
  
 |Matching Method|Description|
 |-|-|
-|Exact Matching|The form attribute must exactly match the value<br>For example, {"bucket":   "example-bucket”}, then it is required that the files can only be uploaded to the bucket named "example-bucket”.<br>Another writing way: [ "eq", "$bucket",   "example-bucket" ]|
+|Exact Matching|The form attribute must exactly match the value<br>For example, {"bucket":   "example-bucket"}, then it is required that the files can only be uploaded to the bucket named "example-bucket".<br>Another writing way: [ "eq", "$bucket",   "example-bucket" ]|
 |Starts With|The prefix of the form attribute must be the specified value <br>e.g. ["starts-with",   "$key", "OSS/"] specifies that the name of the uploaded file must have the OSS/ prefix
 |Match An Arbitrary Value|Used to allow to specify the value of form attribute to be any content, use Starts With and assign it as empty ("")<br>For example: ["starts-with",   "$success_action_redirect", ""] allows the success_action_redirect in the form to be any value|
 |Specified File Size|Only support content-length, the maximum and minimum values can be separated by commas<br>For example, ["content-length-range",   1048579, 10485760], limits the uploaded content size to be 1M~10M|

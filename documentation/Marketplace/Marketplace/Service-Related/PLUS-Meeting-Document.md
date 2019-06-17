@@ -2,7 +2,7 @@
 1	Meeting Client
 1.1	Download and Install the Client
 PC Download Method
-Step 1. Use the browser to access the download page of https://meeting.jdcloud.com. In the “JD Cloud PLUS Meeting Client”, click **Download Now**
+Step 1. Use the browser to access the download page of https://meeting.jdcloud.com. In the "JD Cloud PLUS Meeting Client", click **Download Now**
 
 Step 2. Download the file and double-click the application
 
@@ -13,8 +13,8 @@ Method 1. Use the browser to access the download page of https://meeting.jdcloud
 
 click **IOS Download** or **Android Download**, or directly scan the QR code with mobile phone to download the app.
 
-Method 2: IOS system users can directly access the App Store. Search “JD Cloud PLUS Meeting”, and download & install it.
-    Android system users can access Baidu Mobile Assistant, 360 Application Market, Tencent Mobile Manager, Huawei App Store, and Xiaomi Market. Search “JD Cloud PLUS Meeting”, and download & install it.
+Method 2: IOS system users can directly access the App Store. Search "JD Cloud PLUS Meeting", and download & install it.
+    Android system users can access Baidu Mobile Assistant, 360 Application Market, Tencent Mobile Manager, Huawei App Store, and Xiaomi Market. Search "JD Cloud PLUS Meeting", and download & install it.
     Method 3: click directly on the invitation link to join the club and download & install according to the page prompts.
 1.2	 PC Operation Instructions
 1.2.1	Join a Meeting
@@ -47,8 +47,8 @@ After logging in, go to the meeting arrangement interface, select the meeting yo
 Note: you may not start a meeting before the scheduled meeting time
 1.2.4	 Audio / Video Setting
 Audio Setting
-First meeting audio setting: after joining a meeting for the first time, the prompt box of "Connect Computer Audio” will automatically pop up. You can click **Use Computer Voice Devices** to connect to the computer audio so that you can hear the voice of the meeting venue.
-2. Manually connect audio: If the audio is not connected after joining a meeting, just click the icon in the lower left corner to pop up the “Connect Computer Audio Options”. Click **Connect** directly, and the icon will change into the status of successful audio connection.
+First meeting audio setting: after joining a meeting for the first time, the prompt box of "Connect Computer Audio" will automatically pop up. You can click **Use Computer Voice Devices** to connect to the computer audio so that you can hear the voice of the meeting venue.
+2. Manually connect audio: If the audio is not connected after joining a meeting, just click the icon in the lower left corner to pop up the "Connect Computer Audio Options". Click **Connect** directly, and the icon will change into the status of successful audio connection.
 3. Mute / Unmute Oneself: if participants want to mute themselves, click the icon in the lower right corner to indicate that they have muted themselves. Click the microphone, and you can unmute yourself.
 4. Change the default microphone: if the computer is connected to multiple microphones/speakers, the participant can click the upper triangle next to the microphone icon to quickly select other microphones /speakers in the pop-up setting window.
 5. Microphone / speaker check: If the participant has successfully connected to the audio device but the microphone/speaker still cannot work during a meeting, it is recommended to click the upper triangle next to the microphone icon. In the pop-up setting window, click the voice device test and then click **Check Speaker/Microphone** to check if the microphone/speaker device is working properly.
@@ -78,7 +78,7 @@ User can control & manage a meeting and participants as the host, including: mut
 Audio Control
 In order to ensure that the voice of the presenter in a meeting is not disturbed, and a good meeting environment is created for the participants, the host can choose to mute all in the meeting, and can also turn on or off the microphone of any participant in the meeting at any time.
 1. Mute All
-The host clicks the button and a prompt box pops up. As shown in the figure below, click **Yes**. Then, the microphones of all the participants except the host are muted, and the microphone icon changes into the state that the participants can unmute by themselves; if you want to disable the self-unmuting function, you need to untick “Allow Participants to Unmute Themselves."
+The host clicks the button and a prompt box pops up. As shown in the figure below, click **Yes**. Then, the microphones of all the participants except the host are muted, and the microphone icon changes into the state that the participants can unmute by themselves; if you want to disable the self-unmuting function, you need to untick "Allow Participants to Unmute Themselves."
 2. Unmute All
 The host clicks **Mute All** to unmute the participants. Then the participants’ microphones are turned on and the icon changes.
 
@@ -100,7 +100,7 @@ Pause: it does not close the data sharing window, and the shared data keeps the 
 Share a new window: directly select a new file for sharing in the pop-up window
 Annotations: The contents can be annotated in the current window, and the annotations are shared with other participants.
 Clicking **Annotations** in the floating window will bring up the Annotation Tools Menu. The menu bar functions are as follows:
-The mouse cursor state can be restored when the cursor is in the “Brush" or “Laser Pointer" state.
+The mouse cursor state can be restored when the cursor is in the "Brush" or "Laser Pointer" state.
 You can select a shape for annotations.
 You can select a laser pointer or an arrow for annotations.
 The mouse cursor becomes an eraser icon and you can click to erase the target content.
@@ -112,7 +112,7 @@ Clear all annotations: the host can clear all annotations made by all participan
 Stop sharing: directly close what’s sharing, and all participants’ interfaces return to the video layout
 1.2.8	 Enable Dual Monitor Display
 Currently, the software supports the sending and receiving dual streams. If the computer has dual monitors, the dual display mode can be enabled, so that one monitor can receive video images, and the other monitor can receive data images when data are being shared.
-Click on the function panel and tick "Enable Dual Monitor Display Mode”.
+Click on the function panel and tick "Enable Dual Monitor Display Mode".
 1.2.9	 Switch Language
 By default, the client language is consistent with the system environment language. If the client user wants to switch languages, it is recommended to right-click the icon in the taskbar before joining the meeting, select "Switch Language" in the menu bar, and select your preferred language. Currently, English and Chinese (Simplified) are available for switching. If you need to switch voices during a meeting, you would automatically drop out of the meeting.
 1.2.10	 User Invitation
@@ -121,7 +121,7 @@ Invite Before a Meeting
 (1) Email invitation: in the meeting reservation interface, select email client for sending invitations. The email client would be automatically invoked when clicking for reservation, with invitation messages being copied in the email. User can directly enter recipient’s email address to send the invitation.
 (2) SMS invitation: select the invitation mode of SMS invitation. Clicking **Reserve**, the SMS invitation interface would pop up. Fill in the name and mobile number, and click **Add** and **Invite**. The recipients would receive an invitation SMS later.
 
- (3) Copy invitation: select Others as the invitation mode. Clicking **Reserve**, the interface of copying invitation would pop up. Clicking **Copy to Clipboard**, it would prompt that “Invitation has been copied to clipboard."    
+ (3) Copy invitation: select Others as the invitation mode. Clicking **Reserve**, the interface of copying invitation would pop up. Clicking **Copy to Clipboard**, it would prompt that "Invitation has been copied to clipboard."    
 2. User Invitation for a Scheduled Meeting
 If you want to invite users for a scheduled meeting, click **Invite** under the corresponding meeting in the meeting schedule interface, and an invitation interface would pop up. Select a proper mode to invite users.
 1. Email Invitation
@@ -135,7 +135,7 @@ Participants can click the icon in the bottom menu bar during a meeting for the 
 Recording Function
 Participants can record a meeting by clicking the icon in the bottom menu bar during a meeting. click **Stop Recording** to stop recording the meeting. After the meeting, the system will automatically convert the record file to MP4 format for saving. If the participant doesn’t click **Stop Recording** and click to end the meeting, the system will automatically convert and save the record file.
 Record File Path Setting
-Click the icon in the upper left corner of the function panel. In the pop-up setting window, click **Record** - “Change Save Path” to modify the save path of the record file, or click **Open” to open the folder where the record file is in.
+Click the icon in the upper left corner of the function panel. In the pop-up setting window, click **Record** - "Change Save Path" to modify the save path of the record file, or click **Open" to open the folder where the record file is in.
 1.2.13	 Attention Tracking
     When the host or any participant is sharing the desktop, any participant who does not set the shared contents in the focus state would be marked in the host’s list.
 1.2.14	 Exit from a Meeting
@@ -166,7 +166,7 @@ User can configure in the following steps to create a proxy environment for the 
 (2) Configure the proxy from client: open the client to enter the login page, click the icon to enter the proxy configuration interface, and fill in the address, port number, username and password. Note: be sure to tick the "Use Proxy" option. User can also click **Test** to test whether the proxy is set correctly. Then click **OK** to return to the login interface, and all operations would be carried out in a proxy environment.
  Android Client Instructions
 1.2.15	 Start a Meeting
-Note: when "Use Personal Meeting ID” is selected and the option of joining meeting before host is disabled, participants cannot join the meeting before the host.
+Note: when "Use Personal Meeting ID" is selected and the option of joining meeting before host is disabled, participants cannot join the meeting before the host.
 1.2.16	 Join a Meeting
 click **Join** on the app homepage login window or click **Join** icon after login, enter the meeting ID and the participant's name, and click **Join** to join a meeting.     
 1.2.17	 Reserve a Meeting
@@ -314,7 +314,7 @@ Cancel a Meeting:
 2.3.8.1	 Address List
 Manage your frequent contacts, which you can add to the list of participants for meeting invitation.
 	 Add a Contact
-1.	 Select “Address List”. 
+1.	 Select "Address List". 
 2.	 Click Add a Contact to bring up the contact information interface. 
 3.	 click **OK**. 
 Description: 
@@ -357,7 +357,7 @@ Description:
 	View the time that the participants join and exit from a meeting
 2.3.10	 Meeting Default Settings
 The meeting default settings provide the meeting template function for the host. After saving the settings, all instant meetings would be configured with the default value.
-1.	 Select “Meeting Default Settings” and it would display corresponding interface.
+1.	 Select "Meeting Default Settings" and it would display corresponding interface.
 2.	 click **Save**.
 Description: 
 Join before the host: whether it permits participants to join a meeting before the host.
@@ -373,7 +373,7 @@ When you need to modify your password, you can quickly modify it.
 2.	 click **OK**.
 2.3.12	 Download Center
 Users can download meeting client installation packages and common toolkits
-Select “Support > Download Center” to display the interface as shown in the figure.
+Select "Support > Download Center" to display the interface as shown in the figure.
 Description: 
 Mobile installation package: packages respectively for IOS system and Android system, which can be downloaded locally or by QR code scanning. Meetings can be held anytime and anywhere with a mobile client.
 Windows installation package: please click **Download Now** in the meeting client to download
@@ -400,7 +400,7 @@ Enterprise administrators can query all enterprise users under their own site, a
 3.4	 Address List
 Enterprise administrators can create and manage multiple enterprise contacts to facilitate recording. click **Address List** in the menu bar.
 3.4.1	 Add a Contact
-1.	 Select “User Management > Enterprise Administrator Management”. 
+1.	 Select "User Management > Enterprise Administrator Management". 
 2.	 click **Add Enterprise Management**. 
 3.	 Enter contact information. 
 4.	 click **OK**.
@@ -424,7 +424,7 @@ Enterprise administrators can create and manage multiple enterprise contacts to 
 3.5	 Information Query
 3.5.1	 Meeting Information Query
 Enterprise administrators view the meetings created by enterprise users, and view meeting and participation status
-Select “Information Query > Meeting Information” to display the interface as shown in the figure
+Select "Information Query > Meeting Information" to display the interface as shown in the figure
 3.5.2	 Meeting Statistics
 When the enterprise administrator wants to view the meeting of all the hosts under his/her own site, he/she can use the meeting statistics:
 1.	 click **Information Query > Meeting Statistics** on the left menu bar. 

@@ -14,11 +14,11 @@ You are enabling the **third-party account association and login function**.
 
 1.1 Third-party account association and login: Refers to that when a third-party account is associated with the JD Cloud account and the valid login is made in the third-party platform, login status of the third-party account and its associated JD Cloud account will be synchronized without login the JD Cloud account.
 
-1.2 User: Refers to the person, legal person or other organization (hereinafter referred to as “You”) accepting *[JD Cloud Service Agreement](https://docs.jdcloud.com/platform-agreement/service-agreement)* and *[Privacy Policy](https://docs.jdcloud.com/platform-agreement/privacy-policy)* and obtaining JD Cloud member account by voluntary registration or carrying out activities on the JD Cloud website.
+1.2 User: Refers to the person, legal person or other organization (hereinafter referred to as "You") accepting *[JD Cloud Service Agreement](https://docs.jdcloud.com/platform-agreement/service-agreement)* and *[Privacy Policy](https://docs.jdcloud.com/platform-agreement/privacy-policy)* and obtaining JD Cloud member account by voluntary registration or carrying out activities on the JD Cloud website.
 
 1.3 JD Cloud website: Refers to the website with the domain [www.jdcloud.com](https://www.jdcloud.com/ ) and JD Cloud’s client such as mobile client APP.
 
-1.4 JD Cloud member account: Refers to the unique identity voucher for carrying out activities by users on the JD Cloud website, called as “JD Cloud account name”.
+1.4 JD Cloud member account: Refers to the unique identity voucher for carrying out activities by users on the JD Cloud website, called as "JD Cloud account name".
 
 1.5 Third-party account: Refers to the identity voucher for carrying out activities on a third-party network platform besides JD Cloud.
 

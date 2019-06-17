@@ -6,7 +6,7 @@ Service tree is the basic module of DevOps, playing the role of CMDB in DevOps. 
 
 Service Tree
 
-The service tree is a tree structure with a visual topology that stores business organization architecture information. On the one hand, it supports JNS service (name service) and is in accordance with the hierarchical relationship of “department - product line - system - application - group - instance” to maintain the correspondence between machines and instances for providing other systems with accurate and unified service data information, on the other hand, users can implement role based on service tree management and role based unified privilege control, which is the foundation of the DevOps system.
+The service tree is a tree structure with a visual topology that stores business organization architecture information. On the one hand, it supports JNS service (name service) and is in accordance with the hierarchical relationship of "department - product line - system - application - group - instance" to maintain the correspondence between machines and instances for providing other systems with accurate and unified service data information, on the other hand, users can implement role based on service tree management and role based unified privilege control, which is the foundation of the DevOps system.
 
 - Department: users can flexibly define and divide departments, e.g., it may be a second level or third level department in the actual organization.
 - Product Line: the product line is a complete product or service, e.g., a department that may have multiple product lines or businesses.
@@ -96,7 +96,7 @@ When selecting groups that support scaling policy when creating groups, VM insta
 
 a. Select Existing Machine
 
-When selecting groups that do not support scaling policy and deploy the machine to select the groups with existing machines when creating groups, you need to add instances to the groups. Click **Add Instance**, select the group in the pop-up window, and add a machine to the group. An instance is a machine that has been associated to the corresponding service tree product line. The “Operation Guide - Resource Pool” will explain how to associate the JD Virtual Machine with the service tree product line.
+When selecting groups that do not support scaling policy and deploy the machine to select the groups with existing machines when creating groups, you need to add instances to the groups. Click **Add Instance**, select the group in the pop-up window, and add a machine to the group. An instance is a machine that has been associated to the corresponding service tree product line. The "Operation Guide - Resource Pool" will explain how to associate the JD Virtual Machine with the service tree product line.
 
 ![Alt text](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Operation9.png)
 

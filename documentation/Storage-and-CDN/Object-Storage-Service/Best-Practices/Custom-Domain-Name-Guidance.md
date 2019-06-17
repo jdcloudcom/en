@@ -17,7 +17,7 @@ When you complete the adding of domain by reference of [Console-Customized Domai
 
 ## Operation Guide:
 
-* You need to open ticket first to enter the question description “The customized domain of Object Storage Service supports https access”.
+* You need to open ticket first to enter the question description "The customized domain of Object Storage Service supports https access".
 * The corresponding materials to be submitted in the ticket are as follows:
 
 |Name                | Description                | 

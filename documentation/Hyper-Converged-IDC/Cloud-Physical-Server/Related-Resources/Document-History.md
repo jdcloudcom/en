@@ -14,7 +14,7 @@ This document will introduce the important update history of the Cloud Physical 
 |2018.11.30|V1.4.1|The international Console (English Version) is supported.|
 |2018.12.13|V1.5|Support the customized operating system hostname; <br/>Add the Ubuntu18.04 operation system.|
 |2018.12.26|V1.5.1|Launch New Categories GPUⅢ; <br/>Add GPU information display.|
-|2019.01.25|V1.6|Terminate “Pre-install Image+Application” function; <br/>Launch new availability zone: <br/>cn-north-1, availability zone A; <br/>Release Ironic-based new architecture installation stream.|
+|2019.01.25|V1.6|Terminate "Pre-install Image+Application" function; <br/>Launch new availability zone: <br/>cn-north-1, availability zone A; <br/>Release Ironic-based new architecture installation stream.|
 |2019.01.29|V1.7|Optimize hardware status accuracy and add hardware monitoring logs.|
 |2019.05|V2.0|Upgrade the network architecture to the SDN-based new network architecture and add new functions, including: VPC Instance, VPC, Subnet and Elastic IP;<br/>|
 

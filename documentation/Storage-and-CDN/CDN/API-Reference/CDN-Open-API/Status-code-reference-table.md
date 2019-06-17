@@ -54,7 +54,7 @@ ERROR_QUERY_DOMAIN_50(22, "The number of queried domain names cannot exceed the 
 
 ERROR_DOMAINTYPE(23, "Accelerated domain name type error, must be one among web, download and vod"),
 
-ERROR_DOMAIN_SOURCETYPE(24, “Back-to-origin type error, must be one among ips, domain and oss"),
+ERROR_DOMAIN_SOURCETYPE(24, "Back-to-origin type error, must be one among ips, domain and oss"),
 
 ERROR_SOURCE(25, "Back-to-origin data must be in json array format"),
 
@@ -86,7 +86,7 @@ ERROR_ACCESSKEYTYPE_NOTNULL(38, "URL authentication type cannot be blank"),
 
 ERROR_ACCESSKEYKEY_NOTNULL(39, "URL authentication password cannot be blank"),
 
-ERROR_ACCESSKEYKEEP_NOTNULL(40, “URL back-to-origin authentication"),
+ERROR_ACCESSKEYKEEP_NOTNULL(40, "URL back-to-origin authentication"),
 
 ERROR_FIELD_NULL(41, "Must provide the field to be queried"),
 

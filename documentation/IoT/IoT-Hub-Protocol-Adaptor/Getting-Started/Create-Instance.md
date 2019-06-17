@@ -10,7 +10,7 @@ This document introduces how to create an IoT Hub Protocol Adaptor Service   ins
 
 ## Operation Steps
 1. Log in [IoT Hub Protocol Adaptor Service   Console](https://iot-console.jdcloud.com/iot-protocol-adaptor).
-2. On the “Instance List” page, click **Create** to enter the “Create Instance” page.
+2. On the "Instance List" page, click **Create** to enter the "Create Instance" page.
 
     ![创建实例](../../../../image/IoT/IoT-Hub-Protocol-Adaptor/iotpa-001.png)
 	
@@ -32,9 +32,9 @@ This document introduces how to create an IoT Hub Protocol Adaptor Service   ins
 	- Basic Information
 	
 	    Create a name for your service instance. Names of different instances cannot be the same.
-4 Click **Confirm** to enter the “Order Confirmation” page.
-6. On the “Order Confirmation” page, confirm the instance information and read the Cloud Database IoT Hub Protocol Adaptor   Service Terms. Please click **Instant Account Setup**.
-7. After the payment process is completed, the page will automatically redirect to the IoT Hub Protocol Adaptor Service   “Instance List” page; after the completion of the instance creation, you can view the newly created instance of IoT Hub Protocol Adaptor Service   on the “Instance List” page.
+4 Click **Confirm** to enter the "Order Confirmation" page.
+6. On the "Order Confirmation" page, confirm the instance information and read the Cloud Database IoT Hub Protocol Adaptor   Service Terms. Please click **Instant Account Setup**.
+7. After the payment process is completed, the page will automatically redirect to the IoT Hub Protocol Adaptor Service   "Instance List" page; after the completion of the instance creation, you can view the newly created instance of IoT Hub Protocol Adaptor Service   on the "Instance List" page.
 
 		*Note
 		During the Beta, you need not to pay for the IoT Hub Protocol Adaptor Service but need to pay for the IoT Hub Service. The above payment process will deduct the balance in your account.

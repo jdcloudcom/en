@@ -2,9 +2,9 @@
 
 ## Create Cloud Physical Server
 
-1. Click the “Buy Now” button on the product page in JD Cloud official website, and jump to the console page of Cloud Physical Server. (Under the condition of real-name verified)
+1. Click the "Buy Now" button on the product page in JD Cloud official website, and jump to the console page of Cloud Physical Server. (Under the condition of real-name verified)
 
-2. Select the region and availability zone, click the “Create” button, and jump to the creation page.
+2. Select the region and availability zone, click the "Create" button, and jump to the creation page.
 
 ![Creation Page](https://github.com/jdcloudcom/cn/blob/edit/image/Hyper-Converged-IDC/Cloud-Physical-Server/CPS011.png)
 
@@ -21,8 +21,8 @@ Refer to [product specification](../Introduction/Specification.md).
 
 **3. Select Image.**
 
-For example, two image types, i.e. “standard image” and “standard image+application”, are supported currently.
-Wherein, “standard image” supports CentOS7.2 and 6.6, Ubuntu supports 16.04 and 14.04; “standard image+application” supports Nginx, MySQL and RabbitMQ applications under CentOS7.2 and CentOS6.6.
+For example, two image types, i.e. "standard image" and "standard image+application", are supported currently.
+Wherein, "standard image" supports CentOS7.2 and 6.6, Ubuntu supports 16.04 and 14.04; "standard image+application" supports Nginx, MySQL and RabbitMQ applications under CentOS7.2 and CentOS6.6.
 
 ![Select Image](https://github.com/jdcloudcom/cn/blob/edit/image/Hyper-Converged-IDC/Cloud-Physical-Server/CPS014.png)
 
@@ -59,7 +59,7 @@ The purchase duration is 1-9 months, 1, 2 and 3 years. There’s discount for lo
 
 ![Configure Purchase Duration](https://github.com/jdcloudcom/cn/blob/edit/image/Hyper-Converged-IDC/Cloud-Physical-Server/CPS019.png)
 
-**8. Click the “Buy Now” button.**
+**8. Click the "Buy Now" button.**
 Jump to the order confirmation page.
 
 After successful payment in accordance with the unified order billing process of JD Cloud, jump back to the console list page.

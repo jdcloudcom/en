@@ -34,7 +34,7 @@ If problems still cannot be solved via above methods, please refer to the follow
 
 5. Rename the folder from C:\windows\System32\catroot2 to C:\windows\System32\catroot2.bak.
 
-6. Carry out an automatic update detection as per the command prompt after the folder C:\Windows\SoftwareDistribution” is created.
+6. Carry out an automatic update detection as per the command prompt after the folder C:\Windows\SoftwareDistribution" is created.
 
 ***wuauclt.exe /resetauthorization /detectnow***
 

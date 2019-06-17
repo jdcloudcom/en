@@ -30,7 +30,7 @@
 	
 - Default backend service: select to create a new backend service;
 
-- Backend service name: define backend service name; name it as “testback”;
+- Backend service name: define backend service name; name it as "testback";
 
 - Backend Protocol: display the corresponding default protocol according to the Listening Protocol
 

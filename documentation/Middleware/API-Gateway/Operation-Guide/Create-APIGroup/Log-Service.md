@@ -23,7 +23,7 @@ Management > Log Service
  ![日志集管理](../../../../../image/Internet-Middleware/API-Gateway/Log_Service_logset1.png)
  
 
-###  Step 3: Set the log set name, description (non-compulsory), and save time. After clicking **OK**, the notification “Log set creation succeeded, go to add the log subject immediately?” will pop up "
+###  Step 3: Set the log set name, description (non-compulsory), and save time. After clicking **OK**, the notification "Log set creation succeeded, go to add the log subject immediately?" will pop up "
 
 ![创建日志集](../../../../../image/Internet-Middleware/API-Gateway/Log_Service_logset2.png)
 
@@ -34,10 +34,10 @@ Management > Log Service
 ![创建日志集主题](../../../../../image/Internet-Middleware/API-Gateway/Log_Service_logset_theme1.png)
 ![创建日志集主题](../../../../../image/Internet-Middleware/API-Gateway/Log_Service_logset_theme2.png)
 
-###  Step 5: After adding the log subject name, click **OK**, the notification “Log subject creation succeeded, go to add the collection configuration immediately?” will pop up "
+###  Step 5: After adding the log subject name, click **OK**, the notification "Log subject creation succeeded, go to add the collection configuration immediately?" will pop up "
 ![添加采集配置](../../../../../image/Internet-Middleware/API-Gateway/Log_Service_logset_config1.png)
 
-###  Step 6: After clicking **OK**, enter the collection configuration page. Click **Add Collection Configuration** to enter the adding collection configuration page and select “API Gateway” from the corresponding options of “Products”, click **OK** to complete configuration.
+###  Step 6: After clicking **OK**, enter the collection configuration page. Click **Add Collection Configuration** to enter the adding collection configuration page and select "API Gateway" from the corresponding options of "Products", click **OK** to complete configuration.
 ![添加采集配置](../../../../../image/Internet-Middleware/API-Gateway/Log_Service_logset_config2.png)
 ![添加采集配置](../../../../../image/Internet-Middleware/API-Gateway/Log_Service_logset_config3.png)
 ![添加采集配置](../../../../../image/Internet-Middleware/API-Gateway/Log_Service_logset_config4.png)

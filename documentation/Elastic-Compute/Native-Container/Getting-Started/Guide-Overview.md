@@ -17,24 +17,24 @@ Go to the real-name verification page to select the individual or corporate auth
 
 1. Open console, select Network>>VPC to go to [the VPC List page][2];
 
-2. Select create region that the VPC belongs to and click “Create” button;
+2. Select create region that the VPC belongs to and click "Create" button;
 
 3. Region Selection: In this step, you can still select the region for creation of VPC; if quota in region you selected is filled, then you may increase quota by open ticket;
 
-4 Set name for VPC: Name can not be empty, which only supports Chinese text, numbers, uppercase and lowercase letters, English text with underline “_” and hyphen “-”, and should exceed 32 characters.
+4 Set name for VPC: Name can not be empty, which only supports Chinese text, numbers, uppercase and lowercase letters, English text with underline "_" and hyphen "-", and should exceed 32 characters.
 
 5. Set CIDR for VPC: Set up the border of VPC. CIDR shall only be the intranet segments, with choices ranging from 10.0.0.0 (mask 16 ~ 28), 172.16.0.0 ~ 172.31.0.0 (mask 16 ~ 28), to 192.168.0.0 (mask 16 ~ 28). CIDR can also be the non-preset type. In this case, the VPC border will operate in auto scaling with the applied subnet segments. Users with good understanding of network knowledge are recommended for VPC of non-preset CIDR type.
 
-6. Set VPC description: The description can be blank, only supports Chinese, numbers, uppercase and lowercase letters, English underscore “_”, and cannot exceed 256 characters;
+6. Set VPC description: The description can be blank, only supports Chinese, numbers, uppercase and lowercase letters, English underscore "_", and cannot exceed 256 characters;
 
-7. Click **OK** and then you can go to “Console” to check the VPC you created;
+7. Click **OK** and then you can go to "Console" to check the VPC you created;
 
 
 **Create Subnet (mandatory)**
 
 1. Open console and select Network>>VPC>>Subnet to go to [the Subnet List page][3];
 
-2. Select the region that the subnet created belongs to and click “Create” button;
+2. Select the region that the subnet created belongs to and click "Create" button;
 
 3. Region Selection: In this step, you can still select the region for creation of subnet; if quota in region you selected is filled, then you may increase quota by open ticket;
 
@@ -46,13 +46,13 @@ Go to the real-name verification page to select the individual or corporate auth
 
 7. There can not be overlap between CIDRs of multiple subnets; if belonging VPC has preset CIDR, then the CIDR of subnet shall not exceed the border of VPC.
 
-8. Set subnet name: Name can not be empty, which only supports Chinese text, numbers, uppercase and lowercase letters, English text with underline “_” and hyphen “-”, and should exceed 32 characters.
+8. Set subnet name: Name can not be empty, which only supports Chinese text, numbers, uppercase and lowercase letters, English text with underline "_" and hyphen "-", and should exceed 32 characters.
 
 9. Select route table associated to subnet; each subnet can and must associate to one route table.
 
-10. Set subnet description: Description can not be blank, and only supports Chinese, numbers, capital and lowercase letters and English underline “_” and line-through “-”, and can not exceed 256 characters;
+10. Set subnet description: Description can not be blank, and only supports Chinese, numbers, capital and lowercase letters and English underline "_" and line-through "-", and can not exceed 256 characters;
 
-11. Click **OK** to go to “Console” and view the subnet created;
+11. Click **OK** to go to "Console" and view the subnet created;
 
 
 **Create security group (optional)**
@@ -61,9 +61,9 @@ Security group provide instance-level network Identity and Access management. Yo
 
 1. Enter JD Cloud console and select Elastic Compute>>Native Container>>Security Group page; click **Create** to pop up the Create box;
 
-2. At first you are required to select the region that security group located in and VPC and the security group can only use the container which is in the same VPC. You can Create security group for the VPC that is already created and can click “Create a new VPC” button to jump to the new VPC page to create new VPC. 50 security groups in maximum can be created in a single VPC and if the quantity of security groups in the VPC selected reach 50, you shall be reminded that “Security group quota of the VPC resources selected has reached 50,” and you are required to select other VPC again.
+2. At first you are required to select the region that security group located in and VPC and the security group can only use the container which is in the same VPC. You can Create security group for the VPC that is already created and can click "Create a new VPC" button to jump to the new VPC page to create new VPC. 50 security groups in maximum can be created in a single VPC and if the quantity of security groups in the VPC selected reach 50, you shall be reminded that "Security group quota of the VPC resources selected has reached 50," and you are required to select other VPC again.
 
-3. After that, enter security group name and description to describe the additional description of security group rules, for example, “80, 443 entry ports have been opened”; it is suggested that you use the customer scenario or function of the security group as the name of the security group, for example “Web server cluster_open 80 port”.
+3. After that, enter security group name and description to describe the additional description of security group rules, for example, "80, 443 entry ports have been opened"; it is suggested that you use the customer scenario or function of the security group as the name of the security group, for example "Web server cluster_open 80 port".
 
 4. Create security group all drop all entry flow and export flow by default.
 

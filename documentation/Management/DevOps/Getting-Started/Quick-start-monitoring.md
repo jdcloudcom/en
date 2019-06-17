@@ -17,7 +17,7 @@ Realization of intelligent monitoring comprises sections below:
 
 **Step 1: Agent Deployment and Monitoring Access**
 
-Before using the intelligent monitoring, please ensure that ifrit-agent is successfully deployed. After deployment, the agent status can be viewed via the modes below: select the product line of Service Tree and nodes hereunder. Then, the agent status of a machine can be viewed in the “Machine List” page.
+Before using the intelligent monitoring, please ensure that ifrit-agent is successfully deployed. After deployment, the agent status can be viewed via the modes below: select the product line of Service Tree and nodes hereunder. Then, the agent status of a machine can be viewed in the "Machine List" page.
 
 ![image](https://github.com/jdcloudcom/cn/blob/DevOps-guhezhu1/image/DevOps/Getting-Started9.jpg)
 
@@ -89,7 +89,7 @@ Alarm Callback: It is used to configure and trigger some operation and supports 
 Maximum Number of Alarms: Refer to the maximum number of alarm notifications sent per alarm event.
 
 Effective Time: When the alarm is enabled, the voice alarm is not subject to restrictions of effective time period of alarm configuration.
-Enable Alarm Merging: With a valid alarm convergence mode, merging can be enabled only when the ns type of monitoring item is Host or INSTANCE. The modes include merging by APP and merging by groups. When multiple ns trigger the alarm at the same time, the first alarm notification contains one ns, and the subsequent alarm notifications will be merged and sent, showing one ns, and the rest merges are notified by “Alarm and Merging of N sets of NSs”.
+Enable Alarm Merging: With a valid alarm convergence mode, merging can be enabled only when the ns type of monitoring item is Host or INSTANCE. The modes include merging by APP and merging by groups. When multiple ns trigger the alarm at the same time, the first alarm notification contains one ns, and the subsequent alarm notifications will be merged and sent, showing one ns, and the rest merges are notified by "Alarm and Merging of N sets of NSs".
 
 Reception of Recovery Notification: Whether to send a notification when the alarm event is recovered.
 

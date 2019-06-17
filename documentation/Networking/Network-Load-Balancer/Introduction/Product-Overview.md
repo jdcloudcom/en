@@ -63,4 +63,4 @@
 
 ## Billing
 
-Network load balancer supports the traffic-based billing type For details, please refer to “[Billing Instructions](../Pricing/Billing-Rules.md)”.
+Network load balancer supports the traffic-based billing type For details, please refer to "[Billing Instructions](../Pricing/Billing-Rules.md)".

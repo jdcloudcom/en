@@ -51,7 +51,7 @@ https://opencdn.jcloud.com/api/hcode
 "status": 0,//0 means this request succeeded
 "data": [
 {
-"domain": "DOMAIN”,//Queried domain name, do not include http://
+"domain": "DOMAIN",//Queried domain name, do not include http://
 "data": [
 [
 TS, //Time Stamp

@@ -20,11 +20,11 @@ Click on the name of the Namespace to view the status of the resources reported 
 
 **View Monitoring Graph**
 
-Select the monitoring object to be viewed, click on the “View” in the operation column, and enter the monitoring graph detail page to view the monitoring trend graph of the monitoring object, as shown in the following figure:
+Select the monitoring object to be viewed, click on the "View" in the operation column, and enter the monitoring graph detail page to view the monitoring trend graph of the monitoring object, as shown in the following figure:
 ![](https://raw.githubusercontent.com/jdcloudcom/en/Monitoring/image/Cloud-Monitor/getting-started/cmm-03.png)
 
 ### Delete Monitoring Data
 
-Enter the JD Cloud Console - Monitoring - Customized Metric Monitoring, enter the Customized Metric Monitoring page. Click the name of the Namespace, enter the monitoring resource list page, select the monitoring object to be deleted, and click the “Delete” button in the operation column to delete.
+Enter the JD Cloud Console - Monitoring - Customized Metric Monitoring, enter the Customized Metric Monitoring page. Click the name of the Namespace, enter the monitoring resource list page, select the monitoring object to be deleted, and click the "Delete" button in the operation column to delete.
 
 Note: After deleting all the monitoring objects under the Namespace, Cascading delete of the Namespace is also executed.

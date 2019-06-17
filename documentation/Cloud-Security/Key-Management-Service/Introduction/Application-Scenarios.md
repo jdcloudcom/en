@@ -10,11 +10,11 @@ Taking the password protection for the MySQL database for example, please give t
 
 1. The user creates a user Key by using the KMS service at first;
 
-2. Call “encryption data” interface of KMS and encrypt the plaintext password of MySQL database into the ciphertext by using specified user Key;
+2. Call "encryption data" interface of KMS and encrypt the plaintext password of MySQL database into the ciphertext by using specified user Key;
 
 3. Save the ciphertext locally;
 
-4. 	When there is a need to connecting the database, please call “Data Decryption” APIs of KMS service to decrypt the ciphertext password into the plaintext password.
+4. 	When there is a need to connecting the database, please call "Data Decryption" APIs of KMS service to decrypt the ciphertext password into the plaintext password.
 ![数据加解密](/image/Key-Management-Service/小数据加解密.png )
 
 ### Envelope Encryption and Decryption Data
@@ -26,7 +26,7 @@ Taking protection to local storage files for example, please encrypt and decrypt
 
 1. The user creates a user Key by using the KMS service at first;
 
-2. The user calls the APIs “producing data keys” of KMS to create data encryption keys (DEK). The user obtains a data encryption key in the plaintext form and a data encryption key in the ciphertext form;
+2. The user calls the APIs "producing data keys" of KMS to create data encryption keys (DEK). The user obtains a data encryption key in the plaintext form and a data encryption key in the ciphertext form;
 
 3. The user can encrypt the plaintext file by using the data encryption key in the plaintext form, produce the ciphertext file and delete the data Key in the plaintext form.
 
@@ -37,7 +37,7 @@ Taking protection to local storage files for example, please encrypt and decrypt
 
 1. Read data encryption key of ciphertext and ciphertext files.
 
-2. Call “Decryption data Key” APIs of KMS and use data encryption key of corresponding user Key decryption ciphertext to obtain data encryption key in the plaintext form; rotation of Key will have no influence to the original Key decryption process;
+2. Call "Decryption data Key" APIs of KMS and use data encryption key of corresponding user Key decryption ciphertext to obtain data encryption key in the plaintext form; rotation of Key will have no influence to the original Key decryption process;
 
 3. Decrypt the ciphertext file by using the data encryption key in the plaintext form to obtain the data of plaintext file.
 ![信封解密](/image/Key-Management-Service/信封解密.png )

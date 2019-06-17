@@ -4,7 +4,7 @@
 
 ### What is OSS?
 
-JD Cloud Object Storage Service (OSS) is a storage service for Internet provided by JD Cloud, providing bulk, safe, low-cost, and highly reliable cloud storage service. It has a platform-independent RESTful API interface and can provide data reliability of 99.999999999% (eleven “9” in total) and service availability of 99.9%. You can store and access any type of data in any application, anytime and anywhere. In order to realize the unified utilization of resources, reduce the difficulty of using and improve the working efficiency, the data are stored in multi-region and cross-cluster.
+JD Cloud Object Storage Service (OSS) is a storage service for Internet provided by JD Cloud, providing bulk, safe, low-cost, and highly reliable cloud storage service. It has a platform-independent RESTful API interface and can provide data reliability of 99.999999999% (eleven "9" in total) and service availability of 99.9%. You can store and access any type of data in any application, anytime and anywhere. In order to realize the unified utilization of resources, reduce the difficulty of using and improve the working efficiency, the data are stored in multi-region and cross-cluster.
 
 ### What’s function of OSS?
 

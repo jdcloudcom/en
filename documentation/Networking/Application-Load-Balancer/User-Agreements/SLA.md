@@ -111,7 +111,7 @@ The load balancing service has an accurate and transparent metering and billing 
 
 **2.7 Service Compensation Terms**
 
-The principle of “100 times compensation for faults” is implemented for JD Cloud load balancing service.
+The principle of "100 times compensation for faults" is implemented for JD Cloud load balancing service.
 
 2.7.1 Compensation Scope
 

@@ -26,12 +26,12 @@ The system will generate the recommended expansion plan, showing the database di
 
 The user can adjust the expansion plan according to the actual business specifications.
 
-- Click **"X”** at the top right of the database in the “Add New Instance”, then this database can be removed from the expansion plan of this instance. The removed database will be returned to its original instance.
+- Click **"X"** at the top right of the database in the "Add New Instance", then this database can be removed from the expansion plan of this instance. The removed database will be returned to its original instance.
 
--  Click **“Add Sub-database”** link in the right table in the “Add New Instance” line, then the sub-databases on other original instances can be added to the this instance.
+-  Click **"Add Sub-database"** link in the right table in the "Add New Instance" line, then the sub-databases on other original instances can be added to the this instance.
 
 ![水平扩容3](../../../../../../image/DRDS/database-expansion-3.png)
 
 **5. Execute the expansion plan**
 
-When the adjustment is complete, click **Confirm** to execute the expansion plan. The execution of the expansion can be viewed in the **“Expansion Task”** page
+When the adjustment is complete, click **Confirm** to execute the expansion plan. The execution of the expansion can be viewed in the **"Expansion Task"** page

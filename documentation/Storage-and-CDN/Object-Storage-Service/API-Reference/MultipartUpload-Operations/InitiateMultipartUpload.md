@@ -48,7 +48,7 @@ Authorization:  signatureValue#Please refer to "Identity and Access Management"
 
 Detail Analysis:
 
-1.When the action computes and verifies the signature, "?uploads” is required to be added in CanonicalizedResource.
+1.When the action computes and verifies the signature, "?uploads" is required to be added in CanonicalizedResource.
 
 2.Initializing Multipart Upload request will not influence the existing object with the same name.
 

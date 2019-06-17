@@ -234,7 +234,7 @@ The flashlight can be turned on for the rear camera only (You can confirm the cu
 if([self.live isFlashLightSupported]){
 [self.live toggleFlashLight];
  }else{
-NSLog (@” If the rear camera is used, the flashlight is available. ”)
+NSLog (@" If the rear camera is used, the flashlight is available. ")
   }
 ```
 * **Beauty Filter**  
@@ -301,7 +301,7 @@ if([self.live getPushStreamMode] ! = JDLPushStreamMode_Normal){ //It is not the 
 return;
 }
 //Pop up the notification of setting a cover a not
-[[[JDActionController alloc]init] showAlertControllerWithTitle:@"Pure audio pushing streaming" message:@"Whether the cover is set or not?" preferredStyle:UIAlertControllerStyleAlert otherButtonTitles:@[@"No Setting”,@"Yes"] superViewController:(UIViewController*)self.context actionControllerBlock:^(NSString *buttonTitle) {
+[[[JDActionController alloc]init] showAlertControllerWithTitle:@"Pure audio pushing streaming" message:@"Whether the cover is set or not?" preferredStyle:UIAlertControllerStyleAlert otherButtonTitles:@[@"No Setting",@"Yes"] superViewController:(UIViewController*)self.context actionControllerBlock:^(NSString *buttonTitle) {
 if ([buttonTitle isEqualToString:@"Yes"]){
 [SharePhotoManager ShowSheetToSelectedMediaWithInFatherVC:(UIViewController*)self.context FinishPickingMediaBlock:^(UIImage *assetImage, NSURL *assetURL) {
         //With cover pushing streaming

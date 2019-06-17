@@ -33,11 +33,11 @@ The issuance of the following invoices is not supported currently:
 
 
 ## What if the wrong VAT invoice qualification information is filled in?
-1. If you need to completely change the existing VAT invoice qualification information, you may click “Cost Management-Invoice Management-Invoice Information Management”, click “Delete” button, and fill in the new qualification information. After receiving your invoice information, we will arrange audit as soon as possible.
+1. If you need to completely change the existing VAT invoice qualification information, you may click "Cost Management-Invoice Management-Invoice Information Management", click "Delete" button, and fill in the new qualification information. After receiving your invoice information, we will arrange audit as soon as possible.
 
-2. If you just change part of information (other than tax number), in case of the company name, you may click “Modify” directly, in case of registered address, registered phone number or information of bank of deposit, click “Modify”;
+2. If you just change part of information (other than tax number), in case of the company name, you may click "Modify" directly, in case of registered address, registered phone number or information of bank of deposit, click "Modify";
 
-3. If the VAT invoice qualification fails to pass the audit, please delete the qualification in “Cost Management-Invoice Management-Invoice Virtual Line Management” and fill in the VAT invoice qualification information again.
+3. If the VAT invoice qualification fails to pass the audit, please delete the qualification in "Cost Management-Invoice Management-Invoice Virtual Line Management" and fill in the VAT invoice qualification information again.
 
 ## Paper invoice return and replacement procedures
 1. Mail the paper invoice
@@ -50,7 +50,7 @@ After mailing, please be sure to contact the machine owner (either by phone or b
 
 2. Submit on-line application for invoice return after mailing
 
-After mailing, please enter into [Invoice List](https://invoice-uc.jdcloud.com/cost/invoice/list) and find the record of your returned invoice. Click the “Return Invoice” button under “Actions”, and select the return reason, notes, invoice mailing logistics, logistic tracking number in the page popped up. Then, click Submit to complete application for invoice return.
+After mailing, please enter into [Invoice List](https://invoice-uc.jdcloud.com/cost/invoice/list) and find the record of your returned invoice. Click the "Return Invoice" button under "Actions", and select the return reason, notes, invoice mailing logistics, logistic tracking number in the page popped up. Then, click Submit to complete application for invoice return.
 After JD Cloud receives your invoice sent back and your on-line application for invoice return, JD Cloud will cancel the invoice/issue another invoice for you. Please apply for invoice again after the invoice is returned. Thank you.
 
 ## Notes:

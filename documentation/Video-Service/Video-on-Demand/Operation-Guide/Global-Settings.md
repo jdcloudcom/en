@@ -32,7 +32,7 @@ After adding the customized domain, the domain can be normally resolved and used
    
 ### 4.2 Identity and Access Management
 
-VOD products support configuration in respect of playing domain security. Click the domain to be configured in the domain setting interface to go to the domain “access setting” page.
+VOD products support configuration in respect of playing domain security. Click the domain to be configured in the domain setting interface to go to the domain "access setting" page.
 
 
 ![域名设置-访问设置页面.png](../../../../image/Video-on-Demand/域名设置-访问设置页面.png)

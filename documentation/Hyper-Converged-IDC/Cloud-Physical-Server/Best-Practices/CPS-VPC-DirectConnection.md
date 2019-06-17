@@ -134,15 +134,15 @@ B.	Hosted Connection: The Hosted Connection created will be automatically displa
 
 C.	Border Gateway: The Border Gateway created will be automatically displayed. If there are several Border Gateways, please select the name of corresponding Border Gateway by clicking the drop-down arrow.
 
-D、	Vlanid:Complete information in the column “Ctag” of the planning information form.
+D、	Vlanid:Complete information in the column "Ctag" of the planning information form.
 
 E.	Routing method: The default routing is BGP.
 
-F.	BGP ASN: Complete information in the column “AS” of the planning information form.
+F.	BGP ASN: Complete information in the column "AS" of the planning information form.
 
 G.	BGP key pair: The customized one can be completed by referring to requirements right below the box, which shall contain at least 6 numbers or letters.
 
-H.	Interconnection address of routing: Include the “CPS IP” and “JD Cloud IP” in the first row of the Primary IP completion planning form and the “CPS IP” and “JD Cloud IP” in the second row of the Secondary IP completion planning form; the first row of the planning form corresponds to primaryIP; the second row corresponds to SecondaryIP; and primary\secondaryIP cannot be replaced with each other.
+H.	Interconnection address of routing: Include the "CPS IP" and "JD Cloud IP" in the first row of the Primary IP completion planning form and the "CPS IP" and "JD Cloud IP" in the second row of the Secondary IP completion planning form; the first row of the planning form corresponds to primaryIP; the second row corresponds to SecondaryIP; and primary\secondaryIP cannot be replaced with each other.
 
 I.	Description: It is optional and the text description with the symbolic meaning can be filled in, such as the private line communication from CPS to VPC.
 

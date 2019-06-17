@@ -5,7 +5,7 @@ Domain switch is to exchange the Intranet and Internet domains of two instances 
  For example, the user deletes a batch of data by mistake and needs to recover such data via backup with original instance kept for data verification. In such case, the user can carry out the following operation:
 1. Use **"Create Based on Backup"** or **"Create Via Time Point"** to recover the data to a new instance.
 2. Check the data on the new instance
-3. Use **“Domain Switch”** to switch the domain of the old instance to the recovered new instance, which can avoid applying and adjusting the access domain of database.
+3. Use **"Domain Switch"** to switch the domain of the old instance to the recovered new instance, which can avoid applying and adjusting the access domain of database.
 
 ## Operation Steps
 **1. Click **Domain Switch**

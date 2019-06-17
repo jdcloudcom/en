@@ -1,6 +1,6 @@
 ## Example of Accessing Cluster
 ### Based On Cloud Server Access
-JCS for Elasticsearch and the dependent virtual machine must be under the same VPC, so the virtual machine of the same VPC and subnet must be created first; JCS for Elasticsearch service can be accessed only after obtaining “EIP” under the virtual machine.
+JCS for Elasticsearch and the dependent virtual machine must be under the same VPC, so the virtual machine of the same VPC and subnet must be created first; JCS for Elasticsearch service can be accessed only after obtaining "EIP" under the virtual machine.
 ### Access intranet domain name through curl test
 1. Ssh user name @ Public IP, enter the password.</br>
 2. Access the port 9200 of JCS for Elasticsearch instance through the curl command in the Linux environment. The access example format of specified account password is curl –XGET [Intranet access domain name of instance]/_cat, and Intranet access domain name is the **Intranet access domain name** in the basic information interface of ES instance. The command examples are as follows:
@@ -40,7 +40,7 @@ wget https://download.elastic.co/demos/kibana/gettingstarted/logs.jsonl.gz
 unzip accounts.zip
 gunzip logs.jsonl.gz
 ```
-3. Create mapping for Shakespeare data set. The format is curl -X PUT “[Intranet access domain name of instance]/shakespeare” -H ‘Content-Type: application/json' -d'
+3. Create mapping for Shakespeare data set. The format is curl -X PUT "[Intranet access domain name of instance]/shakespeare" -H ‘Content-Type: application/json' -d'
  {
   "mappings" : {
    "_default_" : {
@@ -64,7 +64,7 @@ The response below indicates mapping created:
 ```
 {"acknowledged":true,"shards_acknowledged":true,"index":"shakespeare"}
 ```
-4. Create mapping for logstash. The format is curl -X PUT “[Intranet access domain name of instance]/logstash-20181010” -H ‘Content-Type: application/json' -d'
+4. Create mapping for logstash. The format is curl -X PUT "[Intranet access domain name of instance]/logstash-20181010" -H ‘Content-Type: application/json' -d'
 {
   "mappings": {
     "log": {

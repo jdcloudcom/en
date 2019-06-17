@@ -13,7 +13,7 @@ Once the Object Storage Service is provided, you need to create a bucket to save
 
 4.In the bucket name text box, the naming of bucket must conform to naming specification (relevant notifications after ? of the text box). The selected bucket name must be globally universe among all current bucket names of the Object Storage Service. The Bucket name can’t be changed after being created.
 
-5. JD Cloud's bucket supports four access permissions, “Public Read”, “Private”, “Public Readand Public Write” and “Customized Permissions” respectively, (When creating a bucket, only the “Public Read and Private Write”, “Private Read/Write” and “Public Read/Write” are supported. **If you need to set the “Customized Permission”, please select the “Customized Permission” in the permission setting of the space setting page after creating the bucket and complete the option setting**.)
+5. JD Cloud's bucket supports four access permissions, "Public Read", "Private", "Public Readand Public Write" and "Customized Permissions" respectively, (When creating a bucket, only the "Public Read and Private Write", "Private Read/Write" and "Public Read/Write" are supported. **If you need to set the "Customized Permission", please select the "Customized Permission" in the permission setting of the space setting page after creating the bucket and complete the option setting**.)
 
 * Public Readand Public Write: Only the creator of the bucket can carry out the write action to files in the bucket, anyone (including anonymous access) can carry out the read operation to files in the bucket.
 

@@ -14,9 +14,9 @@ Operation Steps:</br>
 * "Number of Nodes": Single point storage specification range is 1-15, 1 node is selected by default; the input range is larger or smaller than the specified range, and the maximum number of nodes and the minimum number of nodes are displayed.</br>
   ![Query 1](https://github.com/jdcloudcom/cn/blob/Elasticsearch/image/Internet-Middleware/JCS%20for%20Elasticsearch/配置ES-031.png)
 4. Set a dedicated master node. Since disabling the dedicated master node can improve the cluster stability, it is recommended to disable it.
-* “Specification of dedicated master node”: 2-core 8G and 4-core 16G are supported.</br>
-* “Number of dedicated master nodes”: For most instances, three dedicated master nodes are applicable.</br>
-* “Storage of dedicated master nodes”: Fixed 20G.</br>
+* "Specification of dedicated master node": 2-core 8G and 4-core 16G are supported.</br>
+* "Number of dedicated master nodes": For most instances, three dedicated master nodes are applicable.</br>
+* "Storage of dedicated master nodes": Fixed 20G.</br>
 ![查询1](https://github.com/jdcloudcom/cn/blob/Elasticsearch/image/Internet-Middleware/JCS%20for%20Elasticsearch/configes_11.png)
 5. Specify the network specification related parameters of the cluster, including "Virtual Private Cloud" and "Subnet".</br>
 * "Virtual Private Cloud": Displays the current VPC list. The most newly created VPC is selected by default. Click **Create New Virtual Private Cloud** after the list to jump to the Virtual Private Cloud (VPC) page.</br>

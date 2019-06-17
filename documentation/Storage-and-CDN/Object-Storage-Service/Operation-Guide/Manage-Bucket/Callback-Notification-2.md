@@ -65,7 +65,7 @@ Note:
 
 - Id: the unique identifier of TopicConfiguration; if it is not set, OSS will assign an ID randomly
 
-- Topic: When the event of occurrence is specified, OSS will send message to this topic in the format of NS:endpoint1,endpoint2,endpoint3 (it must begin with "NS:", several addresses must be separated with ",” and at most 5 addresses are configured)
+- Topic: When the event of occurrence is specified, OSS will send message to this topic in the format of NS:endpoint1,endpoint2,endpoint3 (it must begin with "NS:", several addresses must be separated with "," and at most 5 addresses are configured)
 
 - Event: Event type triggering notification
 

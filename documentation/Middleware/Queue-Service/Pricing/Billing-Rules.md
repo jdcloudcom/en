@@ -3,7 +3,7 @@
 
 Pay-As-You-Go billing mode is supported by the Queue Service:
 
-- Type of “Pay by Consumption”
+- Type of "Pay by Consumption"
 
 ## Pay by Consumption
 

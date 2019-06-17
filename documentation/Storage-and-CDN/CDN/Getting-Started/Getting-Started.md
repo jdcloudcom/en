@@ -14,7 +14,7 @@
 
   1. Enter the **domain name list** page in the CDN customer console;
 
-  2. Click “Add Domain Name”           
+  2. Click "Add Domain Name"           
 
   ![image.png](https://img1.jcloudcs.com/cms/2c5c61ed-968d-46cd-bb04-7ece86b1993120180423140715.png)
 
@@ -22,8 +22,8 @@
 
   1) Accelerated domain name: Fill in the information of the domain name, of which the content needs to be distributed and accelerated.
   * Please complete the ICP filing of the domain name with the communications administration and then conduct this domain name adding configuration.
-  * Domain name filling characters only support 26 English letters, 10 Arabic numerals and the horizontal bar “-”'*’;
-  * Supporting extensive domain names, up to level 4 extensive domain names, such as “*.*.jdcloud.com”;
+  * Domain name filling characters only support 26 English letters, 10 Arabic numerals and the horizontal bar "-"'*’;
+  * Supporting extensive domain names, up to level 4 extensive domain names, such as "*.*.jdcloud.com";
   * Supporting adding up to 100 accelerated domain names. If there are more domain name acceleration demands, please open online tickets.
 
   2) Business type: Please select the appropriate business type based on the domain name content.
@@ -52,7 +52,7 @@
 
   ![image.png](https://img1.jcloudcs.com/cms/ae21571d-831b-49e2-bea1-be9661afa2d720180423141627.png)
 
-  2) Select the domain name to be bound, click “Resolution”, enter the domain name resolution interface, click “Add Resolution”, select the record type as “CNAME”, and fill in the CNAME information allocated by JD Cloud customer console for the domain name in the record value. The format shall be “*.*.*.jcloud-cdn.com”, set the IP provider type to be "default", and then save them.
+  2) Select the domain name to be bound, click "Resolution", enter the domain name resolution interface, click "Add Resolution", select the record type as "CNAME", and fill in the CNAME information allocated by JD Cloud customer console for the domain name in the record value. The format shall be "*.*.*.jcloud-cdn.com", set the IP provider type to be "default", and then save them.
 
   ![image.png](https://img1.jcloudcs.com/cms/3ddf1f01-aafd-4a3f-a9d9-0ad7ab8ac4a820180320194422.png)
 

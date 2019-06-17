@@ -59,7 +59,7 @@ Backend service management is used for giving instructions about creating a back
  
          Note:
          * The on/off status of health check can be modified in the backend service editing dialog box only. The Distributed Network Load Balancer can detect running status of backend server via the health check function. When any backend service failure is detected, traffic will not be distributed to the backend service, guarantee overall business availability. It is suggested that the health check function shall not be disabled.
-         * Where the health check function is disabled, the health status of the backend server will be displayed as “N/A”. In such case, traffic will be distributed to all “running” backend servers as per the scheduling algorithm by the Load Balancer.
+         * Where the health check function is disabled, the health status of the backend server will be displayed as "N/A". In such case, traffic will be distributed to all "running" backend servers as per the scheduling algorithm by the Load Balancer.
 
  4. Delete backend service: click **Delete** under the **Operation** bar to delete specified backend service.
  

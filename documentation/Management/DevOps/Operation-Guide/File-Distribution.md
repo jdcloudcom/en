@@ -1,6 +1,6 @@
 # File Distribution
 
-Click **Operation and Maintenance Tools** in the menu bar, enter “File Distribution”
+Click **Operation and Maintenance Tools** in the menu bar, enter "File Distribution"
 
 Create new file distribution task
 

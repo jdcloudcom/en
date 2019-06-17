@@ -16,7 +16,7 @@ With this teaching you can complete a simple network deployment on JD Cloud and 
 #### **Step 1: Create VPC**
 
 - Click Network -> VPC -> VPC in the menu on the left side, to enter the VPC list page click **Create**, thenthe Create Configuration window pops up.
-- Select a region based on your demands, fill in the name, fill in CIDR, and click “Create” to establish a VPC.
+- Select a region based on your demands, fill in the name, fill in CIDR, and click "Create" to establish a VPC.
 
 ![](/image/Networking/Virtual-Private-Cloud/Getting-Started/Create-Virtual-Machine-Instance-In-VPC/Step1.png)
 

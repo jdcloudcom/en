@@ -10,7 +10,7 @@ You can create rules through the IoT Hub Protocol Adaptor Service  Console or AP
 
 ## Operation Steps
 1. Log in [IoT Hub Protocol Adaptor Service  Console](https://iot-console.jdcloud.com/iot-protocol-adaptor).
-2. On the “Instance List” page, select a specific instance name and click **Instance Name** to go to the “Resource Information” page.
-3. On the “Resource Information” page, click **Resource Configuration**.
-4. On the pop-up “Service Instance Configuration” page, you can configure the intranet domain of IoT Hub Service instance and the configuration parameter of JD Cloud OSS Service associated with the IoT Hub Protocol Adaptor Service instance.
+2. On the "Instance List" page, select a specific instance name and click **Instance Name** to go to the "Resource Information" page.
+3. On the "Resource Information" page, click **Resource Configuration**.
+4. On the pop-up "Service Instance Configuration" page, you can configure the intranet domain of IoT Hub Service instance and the configuration parameter of JD Cloud OSS Service associated with the IoT Hub Protocol Adaptor Service instance.
 

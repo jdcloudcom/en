@@ -19,4 +19,4 @@ Security incident response refers to the measures and actions taken by security 
 
 At present, offline purchase is offered for JD Cloud vulnerability scan service.
 
-For details, please refer to “[Billing Overview](../Pricing/Billing-Overview.md)”. About the detailed charging standard, please open ticket for consultation
+For details, please refer to "[Billing Overview](../Pricing/Billing-Overview.md)". About the detailed charging standard, please open ticket for consultation

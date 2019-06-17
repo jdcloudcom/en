@@ -16,13 +16,13 @@ On the basis of harbor to create privatized docker image registry, providing sta
 
 **New script**
 
-After selecting the service tree node, select the menu “Operation and Maintenance Tool - Script Management", and click “Add Script" in the Script List page, as shown in the figure. It supports manual input or upload script from local and it can set script parameters and timeout.
+After selecting the service tree node, select the menu "Operation and Maintenance Tool - Script Management", and click "Add Script" in the Script List page, as shown in the figure. It supports manual input or upload script from local and it can set script parameters and timeout.
 
 **Execute script**
 
 Once the script is created, you can execute it through the script list. When executing, you can set the target machine, execution methods, execution account, etc., you can also modify the content, script parameters and timeout (changes only affect the execution process at this time, which it does not affect the original script) of the script again at the same time. When choose the target machine, it provides two ways of direct "select the server" and "selection service tree" for the purpose of convenience.
 
-After setting, click “Execute Script". On the Script Execution page, click single machine to view the detailed log output.
+After setting, click "Execute Script". On the Script Execution page, click single machine to view the detailed log output.
 
 ![image](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Operation-Guide26.png)
  

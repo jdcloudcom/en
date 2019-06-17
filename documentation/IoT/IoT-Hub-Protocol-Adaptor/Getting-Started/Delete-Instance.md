@@ -11,7 +11,7 @@ This document introduces how to delete an IoT Hub Protocol Adaptor Service  inst
 
 ## Operation Steps
 1. Log in [IoT Hub Protocol Adaptor Service  Console](https://iot-console.jdcloud.com/iot-protocol-adaptor).
-2. On the “Instance List” page, click **Delete** link under **Operation** bar, to enter the “Delete Instance” confirmation page.
+2. On the "Instance List" page, click **Delete** link under **Operation** bar, to enter the "Delete Instance" confirmation page.
 
     ![删除实例](../../../../image/IoT/IoT-Hub-Protocol-Adaptor/iotpa-003.png)
 	

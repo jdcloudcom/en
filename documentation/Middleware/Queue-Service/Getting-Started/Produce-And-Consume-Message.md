@@ -39,7 +39,7 @@ Batch sending is not supported by the Console, which is mainly used to debug and
 
 4. Find the queue on which you sent the message, and select **Receive Message** in the operation to enter the message receiving interface.
 
-5. Select the number of messages you want to receive and the waiting time for the queue round robin and click to start **Receive Messages”.
+5. Select the number of messages you want to receive and the waiting time for the queue round robin and click to start **Receive Messages".
 
    Setting receiving parameter:
 
@@ -62,7 +62,7 @@ Batch sending is not supported by the Console, which is mainly used to debug and
 
 ## Method 2: Send and receive messages through SDK
 
-For SDK, it is recommended that you use AWS SQS SDK. JD Cloud Queue Service supports the interface of SQS SDK. When using SDK, you need to configure 4 parameters: Accesskey, Secretkey, Endpoint and Region. In which, AK&SK has been created already by you on the [AccessKey Management Page](https://uc.jdcloud.com/account/accesskey). You can obtain Endpoint and Region by clicking “Access Point Address” in the Console. Endopint is the address of a HTTP/S, and Region is the English code of the selected region, as shown in the following figure.
+For SDK, it is recommended that you use AWS SQS SDK. JD Cloud Queue Service supports the interface of SQS SDK. When using SDK, you need to configure 4 parameters: Accesskey, Secretkey, Endpoint and Region. In which, AK&SK has been created already by you on the [AccessKey Management Page](https://uc.jdcloud.com/account/accesskey). You can obtain Endpoint and Region by clicking "Access Point Address" in the Console. Endopint is the address of a HTTP/S, and Region is the English code of the selected region, as shown in the following figure.
 
 ![接入点地址](../../../../image/Internet-Middleware/Queue-Service/入门指南-07.png)
 

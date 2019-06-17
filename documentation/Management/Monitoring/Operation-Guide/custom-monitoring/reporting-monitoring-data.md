@@ -49,7 +49,7 @@ metric|	String |True |Metric name, no more than 255 bytes in length, only Englis
 namespace|	String |True |Naming space,  no more than 255 bytes in length, only English, numbers, underlines_, dot., [0-9][a-z] [A-Z] [. _ ] are allowed, others will return er               
 timestamp|Integer|True|Timestamp for reporting data points only supports 10-bit, second timestamp, the time of the past 30 days cannot be written in                              
 type |Integer|True |Data type, only the value 1, original data, can be entered now.                          
-values |	Object | True |In the indicator value set, the data type must be the map type, key is the data type, value is the data value, type=1 is supported now and key only can be “value”.  
+values |	Object | True |In the indicator value set, the data type must be the map type, key is the data type, value is the data value, type=1 is supported now and key only can be "value".  
 
 ### Return Parameter  
 
@@ -154,7 +154,7 @@ fail：
 
 ## CLI Reporting 
 ### Installation of CLI  
-About how to install, please refer to <a href="https://docs.jdcloud.com/en/cli/installation”> for installation instructions </a> .
+About how to install, please refer to <a href="https://docs.jdcloud.com/en/cli/installation"> for installation instructions </a> .
 ### Configuration Environment  
 
 Configure the KEY, location area (region-id) and gateway address (endpoint) and edit /root/.jdc/config

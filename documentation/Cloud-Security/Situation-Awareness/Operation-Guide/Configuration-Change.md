@@ -11,7 +11,7 @@ As the machine-related threat events are introduced at the current stage, the co
 
 #### Action steps
 The query based on EIP, private IP, machine IP, machine name, enterprise version and basic version is provided. Meanwhile, counts of alarms, threats, machine vulnerabilities and website vulnerabilities are associated.
-Disable the network detection engine of a single EIP and click “Network Engine” to operate corresponding EIP.
+Disable the network detection engine of a single EIP and click "Network Engine" to operate corresponding EIP.
 Disable network detection engines of EIP in batches by using the OpenAPI function provided by the cloud situation awareness.
 The installation status of the Endpoint Security software can be queried for the reported account asset IP. At the same time, click [Install Now] to jump to the security page of the machine security client.
 

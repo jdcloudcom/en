@@ -166,7 +166,7 @@ Test log: /root/shest/log/test_throughput.log
 
 ### Execute Test Cases in Batches
 
-These tools support to execute test cases in bathes through executing `shest/test_suites/shest.sh`. You can define what test cases should be executed by editing `shest.sh`, and add or reduce the test cases to be executed by adding or noting certain “run_tc” statements.
+These tools support to execute test cases in bathes through executing `shest/test_suites/shest.sh`. You can define what test cases should be executed by editing `shest.sh`, and add or reduce the test cases to be executed by adding or noting certain "run_tc" statements.
 
 ```
 run_tc tc_oss_simple_test s3.cn-north-1.jcloudcs.com cn-north-1

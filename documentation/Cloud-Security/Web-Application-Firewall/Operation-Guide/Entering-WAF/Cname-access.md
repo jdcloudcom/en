@@ -80,7 +80,7 @@ The below operation steps are described by taking JD Cloud DNS for example. If o
 
 | **Configuration**     | **Description**                                                     |
 | ------------ | ------------------------------------------------------------ |
-| **Machine record** | Fill in corresponding subdomain (for example, the machine record of www.jdclouddemo.cn is “www” and the machine record ofjdclouddemo.cn is “@”). |
+| **Machine record** | Fill in corresponding subdomain (for example, the machine record of www.jdclouddemo.cn is "www" and the machine record ofjdclouddemo.cn is "@"). |
 | **Record type** | Modify to CNAME.                                                |
 | **Record value**   | Fill in the CNAME address assigned by Web Application Firewall.                           |
 | **TTL**    | Namely, the domain cache time; you may fill as per your actual needs (it is generally recommended to set to 600 seconds).   |

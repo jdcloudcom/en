@@ -20,7 +20,7 @@ RDS of JD Cloud supports the use of TDE in the following SQL Server version:
 4. If at least encrypted database is possessed by the database instance, the un-encrypted database performance may be reduced. Hence, you are suggested to keep the encrypted database and the un-encrypted database on different database instances.
 
 ## Restriction
-- The encrypted database backup cannot be restored to other instances via the “cross-instance recovery” function
+- The encrypted database backup cannot be restored to other instances via the "cross-instance recovery" function
 - After being downloaded, the encrypted database backup can be restored to the local database only after being decrypted. Please obtain the decryption key pair by contacting the Customer Service. The self-help download function will be provided later.
 - The cross-origin backup synchronization is not supported by the encrypted database
 

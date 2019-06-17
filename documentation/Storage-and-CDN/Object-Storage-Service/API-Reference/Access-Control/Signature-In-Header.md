@@ -110,10 +110,10 @@ PUT /sign.txt   HTTP/1.1
 Signature character string calculation formula
 ```
 Signature =   base64(hmac-sha1(AccessKeySecret,
-  HTTP-Verb + “\n” 
-  + Content-MD5 + “\n”
-  + Content-Type + “\n” 
-  + Date + “\n”
+  HTTP-Verb + "\n" 
+  + Content-MD5 + "\n"
+  + Content-Type + "\n" 
+  + Date + "\n"
 
 + CanonicalizedHeaders
   + CanonicalizedResource))
@@ -151,7 +151,7 @@ String signature =  new String(Base64.encodeBase64(rawHmac), "UTF-8");
 ```
 The Signature calculation result shall be xvj2Iv7WcSwnN26XYnTq/c2YBQs=, because
 
-Authorization ="jingdong” + AccessKey + ":" + Signature. Therefore, Authorization is “jingdong qbS5QXpLORrvdrmb: xvj2Iv7WcSwnN26XYnTq/c2YBQs=", and add Authorization header to compose the final message that needs to be sent:
+Authorization ="jingdong" + AccessKey + ":" + Signature. Therefore, Authorization is "jingdong qbS5QXpLORrvdrmb: xvj2Iv7WcSwnN26XYnTq/c2YBQs=", and add Authorization header to compose the final message that needs to be sent:
 ```
 PUT /sign.txt   HTTP/1.1
   Content-Type: text/plain

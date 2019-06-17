@@ -2,7 +2,7 @@
 Depending on your business changes, you can manually delete the instance whose billing type is pay by configuration.
 
 ## Precautions
-- The operation of deleting can only be performed when the instance status is “running”.
+- The operation of deleting can only be performed when the instance status is "running".
 - If the instance is deleted, all read-only instances under this instance and backup will be deleted synchronously.
 
 ## Operation Steps

@@ -48,8 +48,8 @@ The following characters are the JSON characters contained in the policy syntax:
 - Where several values are allowed by one element, please separate them with the delimiter comma. For example:
 
 ```
-"resource":["resource_string", "resource_string”]  
-"action":["action_string", "action_string”]  
+"resource":["resource_string", "resource_string"]  
+"action":["action_string", "action_string"]  
 "Principal":{<Principal_map>, <Principal_map>}
 ```
 

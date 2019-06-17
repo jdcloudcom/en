@@ -40,11 +40,11 @@ Fill in the information of the subject
 
 Fill in Website Information
 
-(1) Fill in the website information as required, and click **Add Domain** at the domain name of the website in case of multiple domains, which may also be “deleted” after filled in
+(1) Fill in the website information as required, and click **Add Domain** at the domain name of the website in case of multiple domains, which may also be "deleted" after filled in
 
 ![TimLine image 20180112143207.jpg](https://img1.jcloudcs.com/cms/c9cf54e3-bb83-4cab-a5bf-89bc66913e4220180112143251.jpg)
 
-(2) Fill in the information of the responsible person of the website, who needs complete the subsequent procedure for the filing such as taking picture etc. Please fill in the information based on the actual circumstances. If the responsible person of the website and the responsible of the subject are the same person, it is acceptable to tick “The responsible person of the same subject” and then click “Next”; if the application is submitted for multiple websites, click **Continue Add Website** after completing the website information.
+(2) Fill in the information of the responsible person of the website, who needs complete the subsequent procedure for the filing such as taking picture etc. Please fill in the information based on the actual circumstances. If the responsible person of the website and the responsible of the subject are the same person, it is acceptable to tick "The responsible person of the same subject" and then click "Next"; if the application is submitted for multiple websites, click **Continue Add Website** after completing the website information.
 
 ![TimLine image 20180423102319.jpg](https://img1.jcloudcs.com/cms/5992ebae-a72f-4bfb-9530-0dd935f3ca0a20180423102534.jpg)
 
@@ -56,7 +56,7 @@ Fill in Website Information
 
 ![123.jpg](https://img1.jcloudcs.com/cms/58aaaa3c-a855-4ec0-9f05-144e39011fa220180627143345.jpg)
 
-(2) Look through the Filing Information page to check for any errors in the filing information. Click **Edit** to revise if needed. If there are no errors, tick “I have read and agreed to Assist in Revising Online Service Terms for Filling Information” and then submit the filing information
+(2) Look through the Filing Information page to check for any errors in the filing information. Click **Edit** to revise if needed. If there are no errors, tick "I have read and agreed to Assist in Revising Online Service Terms for Filling Information" and then submit the filing information
 
 ![1.jpg](https://img1.jcloudcs.com/cms/9907c06b-55c6-4812-98ea-8839be6f470820171130151124.jpg)
 

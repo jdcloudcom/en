@@ -56,7 +56,7 @@
 	
 	- Normal state code: input range 2xx (equivalent to 200-299), 3xx (equivalent to 300-399), 4xx (equivalent to 400-499);
 	
-	- Check path: It only will be filled in when the health check method is HTTP, it must start with “/”, at most support 5-level contents, and cannot exceed 100 characters.
+	- Check path: It only will be filled in when the health check method is HTTP, it must start with "/", at most support 5-level contents, and cannot exceed 100 characters.
 
 		![ALB健康检查设置](../../../../image/Networking/ALB/ALB-024.png)
 
@@ -64,7 +64,7 @@
 
 	- Select server group type: virtual server, availability group, or it cannot be added currently;
 	
-		 Virtual server group: The system will automatically filter out the list of server groups that can be associated now, if there is no available server group, it may click “Create a new virtual server group” to create;	
+		 Virtual server group: The system will automatically filter out the list of server groups that can be associated now, if there is no available server group, it may click "Create a new virtual server group" to create;	
 	
 		Note: The backend instances in the optional server group must be under the same region, virtual private cloud, and availability zone as the Application Application Load Balancer.
 

@@ -9,7 +9,7 @@ JD Cloud Smart SMS can transform traditional text messages into diversified form
 ##### 1.3.1 SMS Signature
 SMS signature is the information contained in each SMS [], representing the sender of each SMS.
 ##### 1.3.2 SMS Template
-The SMS template is also a part of the SMS besides signature, and consists of general SMS template and variable SMS template. The general SMS refers to the type of SMS with the same contents for multiple users, and is commonly used for member notification and member marketing. Variable SMS may be taken as personalized SMS, such as "[XX Express] Your order 12345 has been sent out. Please kindly note to check”. The order number "12345" in this SMS is a variable, which varies for different users. The variable SMS interface is required for this kind of SMS.
+The SMS template is also a part of the SMS besides signature, and consists of general SMS template and variable SMS template. The general SMS refers to the type of SMS with the same contents for multiple users, and is commonly used for member notification and member marketing. Variable SMS may be taken as personalized SMS, such as "[XX Express] Your order 12345 has been sent out. Please kindly note to check". The order number "12345" in this SMS is a variable, which varies for different users. The variable SMS interface is required for this kind of SMS.
 ##### 1.3.3 SMS Category
 SMS falls into three categories: verification code, industry notification, and member marketing. The verification code SMS refers to the SMS sent for user login verification; the industry notification SMS is used to send system service notifications, such as logistics & express, and order status change, etc.; marketing SMS, whose contents are obviously for marketing and promotion, is used for event notification and member marketing.
 ## 2.	 User Guide
@@ -21,7 +21,7 @@ The variables in the variable SMS are replaced with {}. For example, your expres
 It shall not contain special symbols such as ^_^&, ☞, √ and ※ etc.
 It is forbidden to send messages of stocks, immigration, interview & recruitment, lottery, rebate, loan, dunning, investment & wealth management, gambling, prize winning, One -Yuan Lucky Purpose, One -Yuan Seckill, fake goods, medical, plastic surgery, cosmetology, club, bar, foot bath, violence, intimidation, porn, fur, examination aid, trademark registration, group ID promotion, QQ or WeChat ID promotion, personal information selling, SMS channel promotion, game promotion, conference & exhibition promotion, website promotion, coupon promotion, card promotion, insurance promotion, wine, new user acquisition, user recall, finance, real estate, and education (only the sending of verification codes is supported).
 New user development SMSes such as event invitation shall not be sent without users’ permission.
-The marketing SMS must contain “Unsubscribe TD" and so on.
+The marketing SMS must contain "Unsubscribe TD" and so on.
 ### 2.3 Smart SMS Application
 To apply for smart SMS, you need to report the relevant signature in advance, and then you can apply for the corresponding smart SMS based on the signature. The smart SMS applicant is required to fill in the identification name, select the signature, upload the LOGO, and configure the menu. After the application is approved, applicant can use the smart SMS.
 ### 2.4 Mass Texting

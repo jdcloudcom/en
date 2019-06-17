@@ -1,6 +1,6 @@
 # Delete instance
 
-You can rapidly delete the instance of IoT Hub through the Console for IoT Hub Service or the API. For the Billing Instructions of the instance, see “[Price Overview](../Pricing/Billing-Overview.md)”, “[Billing Rules](../Pricing/Billing-Rules.md)”.
+You can rapidly delete the instance of IoT Hub through the Console for IoT Hub Service or the API. For the Billing Instructions of the instance, see "[Price Overview](../Pricing/Billing-Overview.md)", "[Billing Rules](../Pricing/Billing-Rules.md)".
 
 This document introduces how to delete the instance of IoT Hub Service through the Console.
 
@@ -11,7 +11,7 @@ This document introduces how to delete the instance of IoT Hub Service through t
 
 ## Operation Steps
 1. Log in [IoT Hub Service Console](https://iot-console.jdcloud.com/iothub).
-2. On the “Instance List” page, click **Delete** link under **Operation** bar, to enter the “Delete Instance” confirmation page.
+2. On the "Instance List" page, click **Delete** link under **Operation** bar, to enter the "Delete Instance" confirmation page.
 
     ![删除实例](../../../../image/IoT/IoT-Hub/iothub-002.png)
 	

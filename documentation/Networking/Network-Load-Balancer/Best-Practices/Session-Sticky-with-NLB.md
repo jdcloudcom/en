@@ -66,7 +66,7 @@
 
 - Modify backend service configuration
 
-  Find specific backend service name at the backend service, click “Edit” under “Actions” to enable session persistence function. The default time-out period is 1440s，which is the shortest guaranteed time of session persistence and during which time all packet with same source and destination IP will be forwarded to the same backend server no matter how NLB and backend service is elastically extended. When the session persistence duration is time out, it is not guaranteed that the packet will be forwarded to the same backend server.
+  Find specific backend service name at the backend service, click "Edit" under "Actions" to enable session persistence function. The default time-out period is 1440s，which is the shortest guaranteed time of session persistence and during which time all packet with same source and destination IP will be forwarded to the same backend server no matter how NLB and backend service is elastically extended. When the session persistence duration is time out, it is not guaranteed that the packet will be forwarded to the same backend server.
 
   ![NLB会话保持修改](../../../../image/Networking/NLB/NLB-BackSessionSticky.png)
 

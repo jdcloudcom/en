@@ -135,16 +135,16 @@ Previewing can also effectively prevent downloading, copying and printing.
 
 25. Advanced Content Combination Scheme - Loose-leaf Binder
 
-Users can group the advanced contents in different forms by document binding collection (loose-leaf binder) based on subjects and projects. For example: When sharing a project loose-leaf binder, the person in charge can put the relevant documents and folders in the JD Cloud PLUS Enterprise Cloud BOX into a “xx project loose-leaf binder”, and share the loose-leaf binder to relevant personnel to achieve high efficient sharing. When the original data is updated, the contents in the loose-leaf binder will also update automatically.
+Users can group the advanced contents in different forms by document binding collection (loose-leaf binder) based on subjects and projects. For example: When sharing a project loose-leaf binder, the person in charge can put the relevant documents and folders in the JD Cloud PLUS Enterprise Cloud BOX into a "xx project loose-leaf binder", and share the loose-leaf binder to relevant personnel to achieve high efficient sharing. When the original data is updated, the contents in the loose-leaf binder will also update automatically.
 
 26. Document Process
 
-“Document Process” can be used to circulate, approve and borrow documents. Applicable to ISO system document approval, drawing approval, official document approval and release, and daily affairs approval, etc. 
+"Document Process" can be used to circulate, approve and borrow documents. Applicable to ISO system document approval, drawing approval, official document approval and release, and daily affairs approval, etc. 
 
 
 27. Knowledge Directory Browse
 
-JD Cloud PLUS Enterprise Cloud BOX helps enterprises to scientifically and normatively storage knowledge and quickly find the knowledge they need according to the subject level. Each level is aimed at finer, more focused content. The “knowledge tree” supports folder and subfolder structure of unlimited levels.        &shy;
+JD Cloud PLUS Enterprise Cloud BOX helps enterprises to scientifically and normatively storage knowledge and quickly find the knowledge they need according to the subject level. Each level is aimed at finer, more focused content. The "knowledge tree" supports folder and subfolder structure of unlimited levels.        &shy;
 
 28. Metadata Management
 
@@ -152,7 +152,7 @@ JD Cloud PLUS Enterprise Cloud Box has powerful metadata management function. Wh
 
 29. Document Index Card - Leading Metadata Management Model
 
-Enterprises can set the document type based on business and associate multiple metadata, such as sale contract, financial statement, research report and customer service tracking form. A document with the category “contract" can include metadata (document attributes) such as "owner", "contract amount", “project code", and "project date”, etc. The end user can select the "contract" index card template and fill in the values of all the attributes when uploading the document. After the index is completed, the user can search based on these attributes.
+Enterprises can set the document type based on business and associate multiple metadata, such as sale contract, financial statement, research report and customer service tracking form. A document with the category "contract" can include metadata (document attributes) such as "owner", "contract amount", "project code", and "project date", etc. The end user can select the "contract" index card template and fill in the values of all the attributes when uploading the document. After the index is completed, the user can search based on these attributes.
 
 
 
@@ -203,7 +203,7 @@ By analyzing the access situation of each part of the knowledge base by each tim
 
 34. Organization Management
 
-After a JD Cloud user generates an order, the Enterprise Cloud BOX automatically enables an organization work area; the organization name is “work area of XXX”, “XXX” is the user ID, and the user is the administrator of Enterprise Cloud BOX of the organization. The administrator of Enterprise Cloud BOX can enter Enterprise Cloud BOX from JD Cloud by one click without logging in.
+After a JD Cloud user generates an order, the Enterprise Cloud BOX automatically enables an organization work area; the organization name is "work area of XXX", "XXX" is the user ID, and the user is the administrator of Enterprise Cloud BOX of the organization. The administrator of Enterprise Cloud BOX can enter Enterprise Cloud BOX from JD Cloud by one click without logging in.
 
 The administrator account of Enterprise Cloud BOX enters the administrator interface by default when logging in for the first time.
 
@@ -257,7 +257,7 @@ Support IE10+, Google Chrome, Firefox, Apple Safari, 360 and other browsers.
 
 3. Why can’t I view some files?
 
-The above situation is due to the permission settings of files and folders. If you need to view relevant documents, please contact your organization administrator to change the settings, or ask other colleagues to share the files with you by using “External Sharing”.
+The above situation is due to the permission settings of files and folders. If you need to view relevant documents, please contact your organization administrator to change the settings, or ask other colleagues to share the files with you by using "External Sharing".
 
  
 

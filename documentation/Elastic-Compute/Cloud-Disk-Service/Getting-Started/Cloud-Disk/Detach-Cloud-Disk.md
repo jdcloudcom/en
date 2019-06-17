@@ -78,4 +78,4 @@ Before detaching actions, please be aware of the below notes:
 
 3. If detaching successfully, please refresh for update relevant information; if detaching fails, tooltip appears, if detaching fails for several times, please contact the customer service.
 
-4. If multi-point attached disk attaches to multiple cloud instances at the same time, if you only detach it from one cloud instance, after detaching successfully, the state of cloud disk service still is “attached”. Only when multi-point attached data disk has been successfully detached from all cloud instance, the state will be “available”.
+4. If multi-point attached disk attaches to multiple cloud instances at the same time, if you only detach it from one cloud instance, after detaching successfully, the state of cloud disk service still is "attached". Only when multi-point attached data disk has been successfully detached from all cloud instance, the state will be "available".

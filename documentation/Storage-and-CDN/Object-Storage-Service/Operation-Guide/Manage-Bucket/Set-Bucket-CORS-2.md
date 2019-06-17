@@ -34,7 +34,7 @@ Cross-Origin Resource Sharing (CORS) is a standard cross-origin solution provide
 
 ## The setup process in the console is as follows:
 
-1.Login to the console->Object Storage Service->Space Management->Login to a certain Bucket->Space Settings, name it as “Cross-origin Access Settings”:
+1.Login to the console->Object Storage Service->Space Management->Login to a certain Bucket->Space Settings, name it as "Cross-origin Access Settings":
 
 ![跨域访问设置](../../../../../image/Object-Storage-Service/OSS-037.png)
 
@@ -50,7 +50,7 @@ d. Exposed Headers: A list of headers exposed to the browser, namely the respons
 
 e. Cache Max Age: The cache time, in seconds, for the browser to return results for an OPTIONS request for a specific resource. It can be longer if there is no special case, e.g. 60 seconds. The item is a selectable configuration item.
 
-3.Add CORS rules: Above the list of cross-origin access CORS rules, CORS rules can be added by clicking on the “CORS Rules Settings” button. The effect is as follows:
+3.Add CORS rules: Above the list of cross-origin access CORS rules, CORS rules can be added by clicking on the "CORS Rules Settings" button. The effect is as follows:
 
 ![添加CORS规则](../../../../../image/Object-Storage-Service/OSS-038.png)
 
@@ -60,11 +60,11 @@ a. The Sources Allowed Origin, Allowed Headers, and Exposed Headers are multi-li
 
 b. Cache Max Age only allows to enter a positive integer greater than or equal to 0, in the range of 0-999999999.
 
-c. If two lines of exactly the same contents are entered in the multi-line text boxes, for example, after entering “www.jcloud.com” in the Allow Headers text box, enter the “www.jcloud.com” again after line feed, then only one "www.jcloud.com" record will be kept after submitting the rules.
+c. If two lines of exactly the same contents are entered in the multi-line text boxes, for example, after entering "www.jcloud.com" in the Allow Headers text box, enter the "www.jcloud.com" again after line feed, then only one "www.jcloud.com" record will be kept after submitting the rules.
 
 d. The wildcard of the domain name format only supports http://*.example.com, and does not support the format of http://www.abc.*.com; for IP, it shall support CIDR format, support http://10.110. 120.*:8080, and does not support the http://10.110.*.*:8080 format
 
-4.You can also customize the CORS rules by clicking on the “CORS Rules Editor”. The effect is as follows:
+4.You can also customize the CORS rules by clicking on the "CORS Rules Editor". The effect is as follows:
 
 ![CORS规则编辑器](../../../../../image/Object-Storage-Service/OSS-039.png)
 

@@ -57,7 +57,7 @@
 
 - Modify backend service configuration
   
-  Find specific backend service name at the backend service, and click “Edit” under “Actions” to set the timeout period for session persistence. When a server is removed from the "virtual server group" or the availability group (AG), only the established TCP connection packet will continue to be forwarded to the server until the connection draining time expires. So far, the newly established TCP connection will not be forwarded to the server.
+  Find specific backend service name at the backend service, and click "Edit" under "Actions" to set the timeout period for session persistence. When a server is removed from the "virtual server group" or the availability group (AG), only the established TCP connection packet will continue to be forwarded to the server until the connection draining time expires. So far, the newly established TCP connection will not be forwarded to the server.
   
   If the function of connection draining is not required, the duration may be set as 0.
   

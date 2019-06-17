@@ -4,7 +4,7 @@ This document will introduce the purchase entrance of the network load balancer 
 
 ## Entrance 1: [Product Introduction Page](https://www.jdcloud.com/en/products/load-balancer)
 1. Login to JD Cloud official website log in [https://www.jdcloud.com/](https://www.jdcloud.com/).
-2. Select “Product>Network>Network Load Balancer”, see the picture below for details.
+2. Select "Product>Network>Network Load Balancer", see the picture below for details.
 
  ![NLB产品入口](../../../../image/Networking/NLB/NLB-Menu.png)
 
@@ -17,7 +17,7 @@ This document will introduce the purchase entrance of the network load balancer 
 ## Entrance 2: [Load Balancer Console](https://cns-console.jdcloud.com/host/loadBalance/list)
 
 1. Login to JD Cloud official website log in [https://www.jdcloud.com/](https://www.jdcloud.com/).
-2. Select “Console”, see the picture below for details.
+2. Select "Console", see the picture below for details.
 
 ![Console](../../../../image/Networking/NLB/console-buy.png)
 

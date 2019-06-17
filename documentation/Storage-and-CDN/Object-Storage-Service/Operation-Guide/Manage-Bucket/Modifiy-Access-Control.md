@@ -49,7 +49,7 @@ If you are creating a Bucket through API or SDK, and you do not specify the Buck
         |ListBucket|List the Objects in the Bucket|
         |DeleteBucket|Delete the Bucket|
 
-        c. Affected resources: It defines which resources under the Bucket are operable or inoperable (i.e. Allow or Deny). “Operable Resources” is selected by default. The default value in the text box is bucketname/*, and the semantics is all resources under the current Bucket are operable; the enter format example is: myBucket/myfolder/object*, myBucket/*; the contents must start with the Bucket name. If the resource has only one slash, it cannot end with a slash; multiple resources can be set, with 1 and at most 1 wildcard in each line. At most 10 records can be added.
+        c. Affected resources: It defines which resources under the Bucket are operable or inoperable (i.e. Allow or Deny). "Operable Resources" is selected by default. The default value in the text box is bucketname/*, and the semantics is all resources under the current Bucket are operable; the enter format example is: myBucket/myfolder/object*, myBucket/*; the contents must start with the Bucket name. If the resource has only one slash, it cannot end with a slash; multiple resources can be set, with 1 and at most 1 wildcard in each line. At most 10 records can be added.
 
         d. Referer white list: Since the JD Cloud object storage service is charged by consumption, in order to prevent the chain of data stored in the JD Cloud Object Storage Service from being stolen by others, JD Cloud object storage service supports the Referer Anti-Leech method based on the header field in the HTTP Header. You can set the white list of the Referer field to a Bucket and set whether to allow the request access with blank Referer in the customized permissions on the object storage service console or through API. The following is a detailed explanation of the rules of the Referer white list.
  - [Add Customized Editor]--You can use the visual editor to directly fill in the legitimate Bucket policy specified by JSON.
@@ -65,7 +65,7 @@ To prevent the data stored in object storage service from hotlinking by others, 
 
 The usage rules are as follows:
 
-* Referer Anti-Leech rules only apply to Buckets of which the Bucket permissions are “customized permissions”. The default rule is “Allow the Referer to be blank and the white list to be blank”;
+* Referer Anti-Leech rules only apply to Buckets of which the Bucket permissions are "customized permissions". The default rule is "Allow the Referer to be blank and the white list to be blank";
 
 * The blank Referer is defined as: There is no Referer Header in a HTTP request or the contents of the Referer Header are blank;
 
@@ -73,7 +73,7 @@ The usage rules are as follows:
 
 * The entered contents of the Anti-Leech can be 500 at most or the total number of bytes does not exceed 16384 bytes (i.e. 16KB);
 
-* The Anti-Leech Referer domain name or IP parameters support the use of the wildcard “*”; using wildcard such as *.test.com in the domain name prefixes can refer to all multi-level subdomain names under test.com, and the domain name supports http and https protocols;
+* The Anti-Leech Referer domain name or IP parameters support the use of the wildcard "*"; using wildcard such as *.test.com in the domain name prefixes can refer to all multi-level subdomain names under test.com, and the domain name supports http and https protocols;
 
 * IP address: Assign a list of IP addresses that have this permission. Use CIDR method to identify the IPs; each IP can have at most 1 wildcard * and shall end with .*. Example: 192.168.0.1/24, 192.168.0.100, 192.168.* or 192.168.1.*;
 

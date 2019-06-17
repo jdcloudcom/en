@@ -6,7 +6,7 @@
 
 3. Protocol port: Monitoring data of all listeners of the network load balancer can be displayed by default, and the monitoring data of corresponding listeners can also be viewed by inputting the specified port number;
 
-4. If you need to set alarm rules for the monitoring indicator, please click “Set alarm rules” to go the Cloud Monitor page for setting.
+4. If you need to set alarm rules for the monitoring indicator, please click "Set alarm rules" to go the Cloud Monitor page for setting.
 
 ![NLB Monitoring Management](../../../../image/Networking/NLB/NLB-Monitor.png)
 

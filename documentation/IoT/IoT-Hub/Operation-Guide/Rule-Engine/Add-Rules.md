@@ -10,7 +10,7 @@ You can create rules through the Console or API of the IoT Hub Service. This doc
 
 ## Operation Steps
 1. Log in [IoT Hub Service Console](https://iot-console.jdcloud.com/iothub).
-2. On the “Rule Engine” page, you can conduct the Create Rule operation.
+2. On the "Rule Engine" page, you can conduct the Create Rule operation.
 
 	
 	
@@ -19,10 +19,10 @@ You can create rules through the Console or API of the IoT Hub Service. This doc
 ![实例列表](../../../../../image/IoT/IoT-Hub/iothub-006.png)
 
 
-5. On the “Create Rule” page, enter the basic information of the rule: rule name and rule description. Name cannot be duplicated.
-6. On the “Create Rule” page, you can write JS script to pre-process the data.
-7. On the “Create Rule” page, you can set the forwarding data action to forward the data to JD Cloud JCQ, JD Cloud RDS and JD Cloud ES services or other Topic subjects of MQTT to implement M2M communication.
-8. On the “Create Rule” page, you can set the forwarding failure data action and then you can forward the device data to other available services when the destination service of forward service is unavailable.
+5. On the "Create Rule" page, enter the basic information of the rule: rule name and rule description. Name cannot be duplicated.
+6. On the "Create Rule" page, you can write JS script to pre-process the data.
+7. On the "Create Rule" page, you can set the forwarding data action to forward the data to JD Cloud JCQ, JD Cloud RDS and JD Cloud ES services or other Topic subjects of MQTT to implement M2M communication.
+8. On the "Create Rule" page, you can set the forwarding failure data action and then you can forward the device data to other available services when the destination service of forward service is unavailable.
 		*Note
 		The destination service setting defined in forwarding failure action must be different from that defined in forwarding data action.
 

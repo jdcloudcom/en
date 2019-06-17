@@ -3,7 +3,7 @@
 
 DevOps compilation and construction provide container-based automatic and continuous integration services for developers. It supports multiple languages construction environment, automatic/manual task trigger and view construction results and logs.
 
-Click **Continuous Delivery** in the menu bar to log in the “Compilation and Construction”.
+Click **Continuous Delivery** in the menu bar to log in the "Compilation and Construction".
 
 **Compilation and Construction**
 
@@ -11,7 +11,7 @@ Select an application from the Service Tree on the left side and click **Create 
 
 - Git Code Address: Complete code library address, with the naming specification as follows: group name need to be > two characters, naming specification in lowercase + number + underline + line-through (the uppercase letters will be automatically converted to lowercase letters). Special characters such as /, etc. are not supported.
 - Code Branch: Select code branch to be compiled
-- Module Name: The module name is automatically produced according to code address, used for associating “Compilation and Construction” and “On-line Release”.
+- Module Name: The module name is automatically produced according to code address, used for associating "Compilation and Construction" and "On-line Release".
 - Construct Image: select compilation environment, and currently multiple versions of compilation environments for different languages such as Java, golang, node, static_resource are supported Support the customized compilation environment. For details, please refer to the Container Registry.
 - Compile Dependence: It can add compilation dependence
 - Construction Method: it supports build.sh and makefile Put the constructed scripts in the root directory of codes. For details, see Compilation and Construction-Specification.
@@ -20,7 +20,7 @@ Select an application from the Service Tree on the left side and click **Create 
 - Construction Type: code package
 - Version Rule: Provide version naming rules, please refer **Module-->Version View**.
 - Cache Compilation Workspace: for multiple complication and construction, cache workspace can accelerate the process of compilation
-- Construct upload location (multiple choices): In order to accelerate the “On-line Release” to obtain the compilation results, you can select the location of the construction package upload location according to the region of the Virtual Machine. 
+- Construct upload location (multiple choices): In order to accelerate the "On-line Release" to obtain the compilation results, you can select the location of the construction package upload location according to the region of the Virtual Machine. 
 
 Advanced Options:
 - Enable LFS: Corresponding to large files in the code library

@@ -3,7 +3,7 @@
 
 Support across-application deployment and release operation by compiling json, and provide settings of serial, parallel, failure threshold and others.
 
-Click **Continuous Delivery** in the menu bar to log in the “Arrange On-line”.
+Click **Continuous Delivery** in the menu bar to log in the "Arrange On-line".
 
 1. New View
 
@@ -22,7 +22,7 @@ Enter view name, time-out period and other configurations
     {
         "concurrency": 2, // Concurrency in group 1 (Note: 0 stands for full concurrency, 1 stands for serial, n stands for up to n jobs are executed at the same time)
         "timeout": 1200,  // time-out time of group 1 (s)
-        "pause": 1,       // After the execution of this level is completed, the view will enter into the “pause” status; click **Continue to Execute** in the execution records to continue executing the following levels
+        "pause": 1,       // After the execution of this level is completed, the view will enter into the "pause" status; click **Continue to Execute** in the execution records to continue executing the following levels
         "max_fail": 3,    // The level (and the whole view) will only be marked as failed when the number of failed jobs in this level reaches 3; if it is given 0 here, all the failed jobs will be ignored
         // Deployment job in group 1, each job corresponds to the deployment of one APP
         "jobs": [

@@ -41,7 +41,7 @@ https://opencdn.jcloud.com/api/queryDomainDetail
 curl Request Example:
 
 ```
- curl -H “Content-type: application/json” -X POST -d ‘{“username”:“test_user”,“signature”:“914a3f412fd9bc1eec14bb5eb104d253”,“domain” :“www.a.com”}’ https://opencdn.jcloud.com/api/queryDomainDetail
+ curl -H "Content-type: application/json" -X POST -d ‘{"username":"test_user","signature":"914a3f412fd9bc1eec14bb5eb104d253","domain" :"www.a.com"}’ https://opencdn.jcloud.com/api/queryDomainDetail
 ```
 
 * json Format

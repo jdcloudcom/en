@@ -52,7 +52,7 @@ https://opencdn.jcloud.com/api/origin_ratio
 "status": 0,//0 means this request succeeded
 "data": [
 {
-"domain": "DOMAIN”,//Queried domain name, do not include http://
+"domain": "DOMAIN",//Queried domain name, do not include http://
 "data": [
 {
 "time": TS,//Time Stamp

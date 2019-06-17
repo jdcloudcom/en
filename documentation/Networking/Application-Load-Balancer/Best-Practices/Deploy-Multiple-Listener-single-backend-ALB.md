@@ -33,7 +33,7 @@ For example, if you need both HTTP and HTTPS services simultaneously when deploy
 	
 	1. Backend service by fault: Select to create a new backend service;
 
-	2. Backend service name: define backend service name; name it as “backend1”;
+	2. Backend service name: define backend service name; name it as "backend1";
 
 	3. Backend Protocol: Display the corresponding default protocol according to the Listening Protocol
 
@@ -79,7 +79,7 @@ For example, if you need both HTTP and HTTPS services simultaneously when deploy
 
 	1. Configure frontend Listening Protocol as HTTPS, Port 443;
 
-	2. Select encryption certificate, if no certificate is available, click “Create a new certificate" to upload;
+	2. Select encryption certificate, if no certificate is available, click "Create a new certificate" to upload;
 
 	3. Set idle connection timeout time;
 

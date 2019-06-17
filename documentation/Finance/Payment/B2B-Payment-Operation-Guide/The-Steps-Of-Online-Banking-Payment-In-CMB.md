@@ -5,7 +5,7 @@ Apply for enabling online banking of China Merchants Bank, you can consult each 
 Contact information of China Merchants Bank: nationwide unified customer service telephone (95555) or access website of China Merchants Bank: http://www.cmbchina.com/
 
 ### Payment Operations
-When paying, select payment method of “Enterprise Online Banking Payment”, select “China Merchants Bank” to submit payment application.
+When paying, select payment method of "Enterprise Online Banking Payment", select "China Merchants Bank" to submit payment application.
 
 Special reminder: please insert enterprise online banking UKEY of China Merchants Bank before submitting payment application, and ensure that relevant plug-ins and drivers have been installed
 

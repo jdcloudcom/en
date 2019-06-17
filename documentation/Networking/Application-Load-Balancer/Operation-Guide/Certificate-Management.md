@@ -6,7 +6,7 @@ When the certificate is issued via Root CA institution and there is only one cer
 The format requirements for certificate contents are as follows:
 
    - Only the certificate in the PEM format is supported, and if the certificate is in any other format, OpenSSL is suggested to be used for conversion.
-   - It must begin with “-----BEGIN CERTIFICATE-----” and end with “-----END CERTIFICATE-----”.
+   - It must begin with "-----BEGIN CERTIFICATE-----" and end with "-----END CERTIFICATE-----".
    - 64 characters in each line, provided that in the last line there may be less than 64 characters.
    - No space is allowed in the certificate contents.
    - The server certificate in the certificate chain shall be put in the first place, the intermediate certificate shall be put in the second place, and no space is allowed between the certificates.
@@ -14,8 +14,8 @@ The format requirements for certificate contents are as follows:
 
 The format requirements for key shall be as follows:
 
-   - Only the secret key in PEM format is supported, and if the key is in any other format, the key is encrypted or the key includes “Proc-Type: 4,ENCRYPTED”, OpenSSL is suggested to be used for conversion.
-   - It must begin with “-----BEGIN RSA PRIVATE KEY-----” and end with “-----END RSA PRIVATE KEY-----”.
+   - Only the secret key in PEM format is supported, and if the key is in any other format, the key is encrypted or the key includes "Proc-Type: 4,ENCRYPTED", OpenSSL is suggested to be used for conversion.
+   - It must begin with "-----BEGIN RSA PRIVATE KEY-----" and end with "-----END RSA PRIVATE KEY-----".
    - 64 characters in each line, provided that in the last line there may be less than 64 characters.
    - No space is allowed in the key.
 ## Create Certificate	

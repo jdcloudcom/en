@@ -58,7 +58,7 @@ The Application Load Balancer supports the session persistence based on HTTP and
 
 ### Obtaining visitor’s actual IP
 
-- For HTTP service, as the request is forwarded by replacing the HTTP header file, the access IP caught by the backend cloud server is the local IP of the Application Load Balancer system rather than the actual IP of the visitor. The system supports the user to obtain the visitor’s actual IP by using X-Forwarded-For. The system also turns on the 7-layer (HTTP protocol) service listening by default to “obtain the actual IP” and such service listening cannot be shut down.
+- For HTTP service, as the request is forwarded by replacing the HTTP header file, the access IP caught by the backend cloud server is the local IP of the Application Load Balancer system rather than the actual IP of the visitor. The system supports the user to obtain the visitor’s actual IP by using X-Forwarded-For. The system also turns on the 7-layer (HTTP protocol) service listening by default to "obtain the actual IP" and such service listening cannot be shut down.
 
 - For TCP service, the client IP pass-through listened based on TCP/TLS is provided via the proxy protocol v1 protocol, which is shut down by default and can be turned on.
 

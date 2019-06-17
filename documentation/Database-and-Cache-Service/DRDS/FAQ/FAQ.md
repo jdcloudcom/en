@@ -12,7 +12,7 @@ A: DRDS can support thousands of storage nodes, which is able to meet the storag
 
 **4. Q: Does DRDS support automatic backup?**
 
-A: DRDS stores data on the JCS for MySQL nodes of backend, so that it does not store data needed to be backed up. The backend JCS for MySQL database supports automatic backup, which can be set on the console of “RDS”
+A: DRDS stores data on the JCS for MySQL nodes of backend, so that it does not store data needed to be backed up. The backend JCS for MySQL database supports automatic backup, which can be set on the console of "RDS"
 
 **5. Q: Which character sets does DRDS support?**
 

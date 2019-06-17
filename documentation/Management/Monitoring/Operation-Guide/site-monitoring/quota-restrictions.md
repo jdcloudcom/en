@@ -3,7 +3,7 @@ This chapter mainly describes the management of site monitoring tasks, including
 ### Site Monitoring Restrictions
  Limit Item | Restrictions 
  -- | --
- Name of Site Monitoring Tasks | It shall not be null, and only Chinese, digits, capital and lowercase letters, English underline “_” and line-through “-”, with at most 32 characters.
+ Name of Site Monitoring Tasks | It shall not be null, and only Chinese, digits, capital and lowercase letters, English underline "_" and line-through "-", with at most 32 characters.
  Site Address | When the monitoring type is HTTP(S), you need to full fill the site address to indicate that whether it is http or https, for example, https://www.xx.com.
  HTTP Request Header | Up to 20 pairs of keys and values can be supported, no more than 1KB in total length.
  Cookie | Up to 20 pairs of keys and values can be supported, no more than 1KB in total length.

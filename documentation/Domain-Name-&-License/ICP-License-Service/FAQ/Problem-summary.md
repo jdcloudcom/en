@@ -27,7 +27,7 @@ For Units:
 (4) Other pictures required by each local authority;
 
 5. Ingress of Submitting the Filing
-The ingress of “Filing” on the upper right corner of official website of JD Cloud ([www.jdcloud.com](http://www.jcloud.com/)). Filing process for all types of filing is consistent. Please truthfully fill in the form following the prompts.
+The ingress of "Filing" on the upper right corner of official website of JD Cloud ([www.jdcloud.com](http://www.jcloud.com/)). Filing process for all types of filing is consistent. Please truthfully fill in the form following the prompts.
 
 6. Expense of Filing
 Whole process of filing on JD Cloud is free, and for some special materials required by authority, which needs express delivery, the expense of express delivery shall be handled by themselves

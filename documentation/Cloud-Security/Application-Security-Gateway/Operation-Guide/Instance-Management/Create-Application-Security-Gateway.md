@@ -16,7 +16,7 @@
 
 ​    2. Select region which should be consistent with the region of web server.
 
-​    3. Click “Create” to enter the Application Security Gateway instance creating page.
+​    3. Click "Create" to enter the Application Security Gateway instance creating page.
 
 ![image.png](https://img1.jcloudcs.com/cms/b5e03c75-9d4c-4e05-8403-6d00b6c4851a20180815151830.png)
 

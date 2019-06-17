@@ -46,7 +46,7 @@ The operations are as follows: Container Registry ---> Select the specified prod
 
 4) Relation to Compilation and Construction
 
-The “Create Image” in the New Creation is the “Compiled Image” in the Container Registry.
+The "Create Image" in the New Creation is the "Compiled Image" in the Container Registry.
 
 **Create Image**
 

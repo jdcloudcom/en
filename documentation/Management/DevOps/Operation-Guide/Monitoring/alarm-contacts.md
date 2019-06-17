@@ -23,7 +23,7 @@ There are two types of alarm groups:
 
 **(1) Alarm Group Configuration**
 
-After selecting the service tree nodes (shown as system nodes in the figure), select [Intelligent Monitoring] - [Monitoring Configuration] in the menu, and you can edit the alarm groups added by default and perform the contact addition and deletion operations on the “Alarm Group Configuration” page.
+After selecting the service tree nodes (shown as system nodes in the figure), select [Intelligent Monitoring] - [Monitoring Configuration] in the menu, and you can edit the alarm groups added by default and perform the contact addition and deletion operations on the "Alarm Group Configuration" page.
 
 Click **Create**, open the page as shown in the figure.
 
@@ -31,7 +31,7 @@ Alarm group type: Select from role alarm group or global alarm group
 
 Role: May select operation and maintenance, testing, R&D and product. The role alarm group does not need to set this item.
 
-Scope: As shown in the figure, it is the system node; it can be selected as “system” and “application”, which respectively represent the alarm group that creates the system node and the one creates application node. When creating a global alarm group, the scope and node are current product line nodes, not optional.
+Scope: As shown in the figure, it is the system node; it can be selected as "system" and "application", which respectively represent the alarm group that creates the system node and the one creates application node. When creating a global alarm group, the scope and node are current product line nodes, not optional.
 
 Node: Select a specific service tree node.
 
@@ -45,7 +45,7 @@ Select the service tree system or product line nodes (shown as system nodes in t
 
 Name: The duty group name is onCall by default and cannot be changed by users.
 
-Scope: As shown in the figure, it is the system node; it can only be selected as “system”, and can select product line or system in the product line node.
+Scope: As shown in the figure, it is the system node; it can only be selected as "system", and can select product line or system in the product line node.
 
 Node: Select a specific service tree node.
 

@@ -9,7 +9,7 @@ The underlayer of the Edge Storage takes advantage of the system established by 
 3. Via natural P2P network distribution features, save user’s bandwidth cost.
 
 * Customer Scenario: [Monitoring Video Storage](edgeStorage#user-content-1), [Edge Storage of Internet of Things](edgeStorage#user-content-2), [Data Storage and Backup](edgeStorage#user-content-3), [Internet Information Security](edgeStorage#user-content-4) and [Block Chain Application](edgeStorage#user-content-5)
-* Console operation process: [Enable “Edge Storage” Service](edgeStorage#user-content-6), [Synchronize OSS to Edge Storage](edgeStorage#user-content-7) and [Synchronize Edge Storage to OSS](edgeStorage#user-content-8)
+* Console operation process: [Enable "Edge Storage" Service](edgeStorage#user-content-6), [Synchronize OSS to Edge Storage](edgeStorage#user-content-7) and [Synchronize Edge Storage to OSS](edgeStorage#user-content-8)
 * API Unified Information: [API Unified Information](edgeStorage#user-content-9)
 * API details: [Synchronize to Edge Storage](edgeStorage#user-content-10), [Synchronize Edge Storage to OSS](edgeStorage#user-content-11), [View File Management](edgeStorage#user-content-12)and [View Synchronization Logs](edgeStorage#user-content-13)
 * FAQ: [FAQ and API List](edgeStorage#user-content-14), [Can the non-public network IPFS files be synchronized to OSS? ](edgeStorage#user-content-15)

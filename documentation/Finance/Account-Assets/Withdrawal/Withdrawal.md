@@ -20,7 +20,7 @@ If your JD Cloud account is under arrearage status, you are not allowed to withd
 
 ![file-list](../../../../image/Finance/RechargeAndWithdrawl/withdrawl-1.png)
 
-(2) Enter “Withdrawal” module, click “Withdrawal Application” to enter the withdrawal process.
+(2) Enter "Withdrawal" module, click "Withdrawal Application" to enter the withdrawal process.
 
 ![file-list](../../../../image/Finance/RechargeAndWithdrawl/withdrawl-2.png)
 

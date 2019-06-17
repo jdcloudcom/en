@@ -4,7 +4,7 @@ This chapter mainly describes the management of site monitoring tasks, including
 ### Availability Monitoring Restrictions
  Restricted Item | Restrictions 
  -- | --
- Name of the Availability Monitoring Task |Only support Chinese, numbers, capital and lowercase letters, English underline “_” and line-through “-”, with the length of 1-32 characters.
+ Name of the Availability Monitoring Task |Only support Chinese, numbers, capital and lowercase letters, English underline "_" and line-through "-", with the length of 1-32 characters.
  Detection Target | Currently it supports URL/IP, and RDS
  Detection Method | Currently it supports HTTP(s) and TELNET
  HTTP Request Head | Up to 20 pairs of keys and values can be supported, and the total length cannot exceed 1KB.

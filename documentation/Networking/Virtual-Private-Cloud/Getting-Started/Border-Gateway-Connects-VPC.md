@@ -28,7 +28,7 @@ In Region cn-north-1, two VPCs have communication requirements through private I
 
 ![](/image/Networking/Virtual-Private-Cloud/Getting-Started/Border-Gateway-Connects-VPC/Step2-1.png)
 
-3) Input gateway name in Border Gateway Creation window, click “OK” to complete the creation.Then, the List page will display the created Border Gateway. The configuration information is shown as follows:
+3) Input gateway name in Border Gateway Creation window, click "OK" to complete the creation.Then, the List page will display the created Border Gateway. The configuration information is shown as follows:
 
 - Region: cn-north-1
 - Border Gateway Name: BGWA-B
@@ -50,7 +50,7 @@ In Region cn-north-1, two VPCs have communication requirements through private I
 
 2) Click **Create** on Route Table List page to open Route Table Create window.
 
-3) Configure basic information of route table in Route Table Creation window, click “OK” to complete configuration. displaying : **Route policies to be configured after creating route table, and it will take effect by being associated with subnet. Configure now?**, select configure now to access Route Table Details page.
+3) Configure basic information of route table in Route Table Creation window, click "OK" to complete configuration. displaying : **Route policies to be configured after creating route table, and it will take effect by being associated with subnet. Configure now?**, select configure now to access Route Table Details page.
 
 The configuration information of route table is shown as below:
 
@@ -60,7 +60,7 @@ The configuration information of route table is shown as below:
 
 ![](/image/Networking/Virtual-Private-Cloud/Getting-Started/Border-Gateway-Connects-VPC/Step4-1.png) 
 
-4) Click “Route Policy” tab on Route Table Details page, then click “Edit” to enable route edit mode, click “Add a New One” for editing new route items.
+4) Click "Route Policy" tab on Route Table Details page, then click "Edit" to enable route edit mode, click "Add a New One" for editing new route items.
 
 5) Fill in relevant configuration in the route item, click to save and complete route table edit. Detailed configuration is shown as below:
 

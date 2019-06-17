@@ -32,11 +32,11 @@ To meet the office needs and improve the efficiency of file management, the mail
 
 1. Quickly set todo emails; you can choose the date to process the todo emails on your own:
 
-1) Select the corresponding emails in the mailing list of the inbox, “Mark Them as” “Todo Emails”;
+1) Select the corresponding emails in the mailing list of the inbox, "Mark Them as" "Todo Emails";
 
-2) Or “Mark Them as” “Todo Emails” on the reading page;
+2) Or "Mark Them as" "Todo Emails" on the reading page;
 
-2. After the todo items are completed, you can change the status of the todo email: Select the completed email in the todo emails, and click **Todo Completed”.
+2. After the todo items are completed, you can change the status of the todo email: Select the completed email in the todo emails, and click **Todo Completed".
 
 3. The system will remind you of the todo emails to prevent them from being missed
 
@@ -44,7 +44,7 @@ To meet the office needs and improve the efficiency of file management, the mail
 
 With the standardization of modern office processes, email office is particularly important. It is very common to use email to manage your office agenda, so every office worker can use Email Todo to manage their work. Here is a simple example:
 
-If your boss likes to arrange tasks for you by email, you can sort your emails and mark all the task emails given by your boss as “Todo Emails”, and you can see what you need to everyday by the day. After the task is done, you can change it as “Todo Completed”, so that it will automatically disappear from your todo tasks, ensuring that your work is done orderly and efficiently.
+If your boss likes to arrange tasks for you by email, you can sort your emails and mark all the task emails given by your boss as "Todo Emails", and you can see what you need to everyday by the day. After the task is done, you can change it as "Todo Completed", so that it will automatically disappear from your todo tasks, ensuring that your work is done orderly and efficiently.
 
  
 
@@ -74,7 +74,7 @@ In the writing check bar, check "Burn After Reading", the settings of number of 
 
 1.4.  Full Password Protection
 
-As the mailing system most widely used by actual users in China, the password protection policy of the mailing system plays a very good role in protecting the security of email accounts, which can effectively prevent information security problems caused by password disclosure. You can use the security encryption function to “encrypt” emails, net disks and customized folders; the password protection policy from the inside out of the mailing system builds a strong fortress for users' mailboxes. Make the information data in your emails more secure.
+As the mailing system most widely used by actual users in China, the password protection policy of the mailing system plays a very good role in protecting the security of email accounts, which can effectively prevent information security problems caused by password disclosure. You can use the security encryption function to "encrypt" emails, net disks and customized folders; the password protection policy from the inside out of the mailing system builds a strong fortress for users' mailboxes. Make the information data in your emails more secure.
 
 
 
@@ -86,7 +86,7 @@ The function of Mailbox Lock Screen can be used when you need to leave the compu
 
 How do I encrypt net disks and folders?
 
-The user can lock and protect the data in the scope of "Net Disks" and “Customized Folders" in the mailbox. The security lock can achieve triple protection to prevent others from using and peeking at private files:
+The user can lock and protect the data in the scope of "Net Disks" and "Customized Folders" in the mailbox. The security lock can achieve triple protection to prevent others from using and peeking at private files:
 
 Password verification is required to enter the locked scope.
 
@@ -96,9 +96,9 @@ Password verification is required to clear or delete the locked folders.
 
 1.4.3    What is SSL Login Transport Encryption?
 
-SSL is short for Secure Socket Layer and its Chinese description is “安全套接层协议层”. After using this protocol, all the data you submit will be encrypted first and then submitted to NetEase mailbox, which can effectively prevent hackers from stealing your user name, password and communication content, ensuring the security of your personal content.
+SSL is short for Secure Socket Layer and its Chinese description is "安全套接层协议层". After using this protocol, all the data you submit will be encrypted first and then submitted to NetEase mailbox, which can effectively prevent hackers from stealing your user name, password and communication content, ensuring the security of your personal content.
 
-Operation steps: In the mailbox login home page, select “SSL Secure Login” to log in to the mailbox.
+Operation steps: In the mailbox login home page, select "SSL Secure Login" to log in to the mailbox.
 
 
 1.4.4    What is Weak Password Policy?
@@ -125,17 +125,17 @@ The function of Email Recall can successfully recall the email sent to the users
 
 1.5.2    If I sent an email but I regret it, can I recall it?
 
-It can be recalled, but it must be confirmed to meet the following preconditions: The administrator has enabled the email recall function for you, the recipient is also a user in the system, and the email sent has not been read yet (If the recipient has read it, the recall will fail. It is recommended that you recall before checking the email reading status of the recipient through the “Sending Query” in the self-service query).
+It can be recalled, but it must be confirmed to meet the following preconditions: The administrator has enabled the email recall function for you, the recipient is also a user in the system, and the email sent has not been read yet (If the recipient has read it, the recall will fail. It is recommended that you recall before checking the email reading status of the recipient through the "Sending Query" in the self-service query).
 
 Recall process: You need to open the email you want to recall in the sent folder, and Click **Recall Email** button in the top left corner of the menu bar. The system will automatically pop up the recall condition notification window. After clicking **OK**, the system will automatically begin the recalling work and pop up the notification of recalling status information. You will be notified of the recalling result by a system mail.
 
-1.5.3    What is an “Email Recalled by the Sender”?
+1.5.3    What is an "Email Recalled by the Sender"?
 
 This is the system notification letter generated by the email recall operation after the sender sent the email to you. You will not be able to view the original email content because the sender has recalled the email.
 
 1.5.4    Can I recall the emails of which the sender is a mailing list?
 
-It can be recalled, all messages sent are still unread (if some recipients have read them, only the remaining unread emails can be recalled at this time; it is recommended that you recall before checking the email reading status of the recipient through the “Sending Query” in the self-service query).
+It can be recalled, all messages sent are still unread (if some recipients have read them, only the remaining unread emails can be recalled at this time; it is recommended that you recall before checking the email reading status of the recipient through the "Sending Query" in the self-service query).
 
  
 
@@ -182,7 +182,7 @@ You can view the busy/idle status of up to three meeting rooms/invitees at one t
 
 1.6.5    How do I reply to a meeting invitation?
 
-When you receive a meeting invitation, you can select “Accept”, “Uncertain” and “Reject”, and the meeting organizer will receive your response immediately.
+When you receive a meeting invitation, you can select "Accept", "Uncertain" and "Reject", and the meeting organizer will receive your response immediately.
 
 1.6.6    How do I delete agendas?
 
@@ -194,14 +194,14 @@ o   2) Click on the agenda to enter the full agenda view page, click **Delete** 
 
 Delete agendas in batches:
 
-o   Select multiple agendas on the “Events” page, select the choice box before the agenda, and click **Delete Event** to delete the agendas in batches.
+o   Select multiple agendas on the "Events" page, select the choice box before the agenda, and click **Delete Event** to delete the agendas in batches.
 
 
 Disable
 
 1.6.7    How do I search the agenda?
 
-You can see the search box of "Quick Search” in the top left bar of the "Events" view of Agenda Management. You can quickly locate the agendas you are looking for by keyword search.
+You can see the search box of "Quick Search" in the top left bar of the "Events" view of Agenda Management. You can quickly locate the agendas you are looking for by keyword search.
 
 
 As shown above, enter keywords in the search box and click Search. The system will find the agendas having the matched keywords in the event name, location and description, and display it in the middle main area.
@@ -214,7 +214,7 @@ As shown above, enter keywords in the search box and click Search. The system wi
 Click **Agenda Management** to set the corresponding permissions; the steps are shown in the figure:
 
 
-You can set permissions for other users to deal with your emails: Read-only, agent and representative. The default permissions are “Read-only."
+You can set permissions for other users to deal with your emails: Read-only, agent and representative. The default permissions are "Read-only."
 
 Read-only: Can only view the shared emails with no available operations.
 
@@ -246,7 +246,7 @@ For the email you are reading, move the mouse to the sender address bubble, the 
 
 1.7.5    Can I recover and search the emails I have deleted?
 
-If your operation on the email was “Delete”, you can find the deleted emails in the “Deleted” and move them back to the inbox or personal folder to recover; if it was “Delete Completely”, then it cannot be recovered.
+If your operation on the email was "Delete", you can find the deleted emails in the "Deleted" and move them back to the inbox or personal folder to recover; if it was "Delete Completely", then it cannot be recovered.
 
  
 
@@ -268,13 +268,13 @@ If your operation on the email was “Delete”, you can find the deleted emails
 
 Here are some of the possible reasons:
 
-1) The username and password are wrong. The Webmail page prompts “Verification failed. Please check the username and password you entered carefully”
+1) The username and password are wrong. The Webmail page prompts "Verification failed. Please check the username and password you entered carefully"
 
-2) Clicking on any operation after logging in has an error. Please check the notification in the error information carefully. If “FS_code” appears, it means that a certain service corresponding to the system is abnormal. Please contact the mailbox administrator.
+2) Clicking on any operation after logging in has an error. Please check the notification in the error information carefully. If "FS_code" appears, it means that a certain service corresponding to the system is abnormal. Please contact the mailbox administrator.
 
 1.8.3    What is Operation Timeout?
 
-After logging in to the mailbox, if the user has no action for a long time, when the user performs operations again, he will see the “Operation Timeout” notification. At this time, the user needs to log in to the mailbox again to continue using it. This is a security measure provided by the mailbox.
+After logging in to the mailbox, if the user has no action for a long time, when the user performs operations again, he will see the "Operation Timeout" notification. At this time, the user needs to log in to the mailbox again to continue using it. This is a security measure provided by the mailbox.
 
 If you need to edit a long email, you should avoid editing directly in the mailbox to avoid losing the contents of the edited email due to timeouts.
 
@@ -282,7 +282,7 @@ If you need to edit a long email, you should avoid editing directly in the mailb
 
 If you have forgotten your password or are unable to log in to your account with this password, you can modify or retrieve your password by the "Forgot Password" function. Please log in to the home page and click **Forgot Password** on the page, and the system will guide you to use this function to modify or retrieve the password. If you did not set the birthday and hint questions, please contact the system administrator to change your password.
 
-1.8.5    Why does the “Wrong Username/Password” appear after entering the username and password?
+1.8.5    Why does the "Wrong Username/Password" appear after entering the username and password?
 
 Please check if you have entered the correct username and password, especially the capital/lowercase status of the password: PASSWORD, PaSsWoRd or password are treated as different 3 passwords.
 
@@ -292,7 +292,7 @@ If you fail to change the password, please contact the mailbox administrator.
 
 Remind again: Once the account takes effect, please change your personal mailbox password immediately and develop the habit of changing passwords regularly.
 
-1.8.6    Why “Your account is disabled” appears after entering the username and password?
+1.8.6    Why "Your account is disabled" appears after entering the username and password?
 
 The possible reason is that the number of the emails you send and receive everyday by SMTP and POP (i.e. Outlook and other clients) has exceeded the allowed scope.
 
@@ -336,9 +336,9 @@ Webmail provides the latest customer experience. When you log in for the first t
 
 When you need to share emails to other users, other users will be able to help you deal with your emails.
 
-You can add the email address of the users of Mailbox Sharing and set the corresponding permissions by entering "Share My Mailbox" in the "Settings" - "Account Information” of the mailbox.
+You can add the email address of the users of Mailbox Sharing and set the corresponding permissions by entering "Share My Mailbox" in the "Settings" - "Account Information" of the mailbox.
 
-You can set permissions for other users to deal with your emails: Read-only, agent and representative. The default permissions are “Read-only."
+You can set permissions for other users to deal with your emails: Read-only, agent and representative. The default permissions are "Read-only."
 
 Read-only: Can only view the shared emails with no available operations.
 
@@ -348,25 +348,25 @@ Representative: Can view the shared mailbox; can represent the authorized person
 
 1.9.2    How do I set up an automatic reply for vacation (outgoing)?
 
-Use Jdcloud Vacation/Outgoing Reply Function when you are on vacation or outgoing. During this period, when someone sends you an email, he or she will receive an automatic reply from the system. You can set the time, main text and sending objects by entering the “Holiday Automatic Reply” in the “Settings” - “Advanced Functions” of the mailbox.
+Use Jdcloud Vacation/Outgoing Reply Function when you are on vacation or outgoing. During this period, when someone sends you an email, he or she will receive an automatic reply from the system. You can set the time, main text and sending objects by entering the "Holiday Automatic Reply" in the "Settings" - "Advanced Functions" of the mailbox.
 
 1.9.3    How do I change the interface style of the mailbox after logging in to the interface?
 
 1) Click on "Personal Settings" in the profile picture on the top right of the mailbox page;
 
-2) On the “Settings” page, click **Style Settings** in “General Settings”;
+2) On the "Settings" page, click **Style Settings** in "General Settings";
 
 3) Choose your preferred interface style, color scheme and language
 
 1.9.4    How do I display my name when I send emails?
 
-1) Enter the "Settings” of the mailbox;
+1) Enter the "Settings" of the mailbox;
 
-2) Click **Personal Profile** in “Account Information” and fill in the name you want to display;
+2) Click **Personal Profile** in "Account Information" and fill in the name you want to display;
 
 3) click **OK** to complete the operation;
 
-When you send an email, your name will appear in the “Sender" field of the sending email.
+When you send an email, your name will appear in the "Sender" field of the sending email.
 
 1.9.5    What is the parameter setting in the mailbox options used for?
 
@@ -380,13 +380,13 @@ In the Signature Options the Mailbox Settings, you can set some texts yourself, 
 
 The way to create a signature:
 
-1) Open the “Settings” page, enter “Signature Line Settings” in “Account Information”, and enter the “Signature Line” page;
+1) Open the "Settings" page, enter "Signature Line Settings" in "Account Information", and enter the "Signature Line" page;
 
-2) Fill in the hint of signature in the “Add” signature edit box (such as categorizing signatures by emails of private or business purposes), and fill in the signature content in the “Signature Content” box, such as your name, company name, phone number, etc.; it can be set as the default signature, and can the location where the signature line is to be added can also be set;
+2) Fill in the hint of signature in the "Add" signature edit box (such as categorizing signatures by emails of private or business purposes), and fill in the signature content in the "Signature Content" box, such as your name, company name, phone number, etc.; it can be set as the default signature, and can the location where the signature line is to be added can also be set;
 
 3) Finally click **Add** to create a signature line.
 
-For information on how to use signatures, see "How do I use automatic signatures" in the “Write an Email" help? “
+For information on how to use signatures, see "How do I use automatic signatures" in the "Write an Email" help? "
 
 1.9.7    What is the classification of received emails, and how do I set it up?
 
@@ -394,9 +394,9 @@ After the received email classification is set, the system will process the rece
 
 Setting Method:
 
-1) Enter the "Settings” of the mailbox, select **Received Email Classification** on the “Email Management" page;
+1) Enter the "Settings" of the mailbox, select **Received Email Classification** on the "Email Management" page;
 
-2) On the “Received Email Classification” page, Click **Add**;
+2) On the "Received Email Classification" page, Click **Add**;
 
 3) Enter the names of the email classification rules, select whether to use this rule, and whether to continue the next rule after checking this rule.
 
@@ -633,7 +633,7 @@ Once you have logged in to your mailbox, please click **Write an Email** on the 
 
 1.10.3 How do I take a snapshot when I write an email?
 
-You can click the snapshot button in the “Multimedia” editing on the writing page to capture the image you need in three ways: Full screen, area and window.
+You can click the snapshot button in the "Multimedia" editing on the writing page to capture the image you need in three ways: Full screen, area and window.
 
 Note: You can operate through IE browser; Firefox/Chrome/Safari browsers do not support the operation currently.
 
@@ -649,17 +649,17 @@ In fact, sending an email with attachments is like sending a parcel; the package
 
 The time for delivering the email to the recipient’s mailbox depends on the size of the email, the speed of the network, and how busy the server is. Under normal circumstances, it can reach the recipient’s mailbox within 10 minutes.
 
-You can Click **Sending Query” of User Self-service Query in the Webmail interface to check it. If the recipient is not a user of the site, then you can only check if the email has been delivered to his mailbox; if the recipient is a user of the site, then you can also check if he has read the email.
+You can Click **Sending Query" of User Self-service Query in the Webmail interface to check it. If the recipient is not a user of the site, then you can only check if the email has been delivered to his mailbox; if the recipient is a user of the site, then you can also check if he has read the email.
 
 If the recipient still cannot receive the email after a long time, please try to send it again or contact the customer service center.
 
 1.10.6 How many people can an email be sent to at the same time?
 
-The recipients' email addresses can be distributed in the “To", “Cc" and “Bcc" addresses. For up to how many addresses can an email be sent to at the same time by default, please consult the mailbox administrator's specific settings. If the maximum sending limit number is exceeded, please send it in batches.
+The recipients' email addresses can be distributed in the "To", "Cc" and "Bcc" addresses. For up to how many addresses can an email be sent to at the same time by default, please consult the mailbox administrator's specific settings. If the maximum sending limit number is exceeded, please send it in batches.
 
 1.10.7 Email addresses of what formats can’t I send emails to?
 
-Jdcloud mailing system currently does not support sending emails to email addresses with “／” and Chinese characters in the email username. If you send an email to these email addresses, the system will return the email.
+Jdcloud mailing system currently does not support sending emails to email addresses with "／" and Chinese characters in the email username. If you send an email to these email addresses, the system will return the email.
 
 1.10.8 Can my mailbox exchange emails with other mailboxes in the world?
 
@@ -677,11 +677,11 @@ Other Methods:
 
 1.10.10         If my email has not been finished yet, can I save it first and send it later?
 
-Yes, Click **Save Draft** button on the writing page, the email will be stored in the “Draft” folder. When you need to send it later, you can open the email in the “Draft” folder, and then send it after editing.
+Yes, Click **Save Draft** button on the writing page, the email will be stored in the "Draft" folder. When you need to send it later, you can open the email in the "Draft" folder, and then send it after editing.
 
 1.10.11         Can I send multiple attachments in one email?
 
-Yes, if you want to send multiple attachments, just click **Add Attachment** multiple times. Please note that the total capacity of the attached attachments must not exceed the total capacity of the sent attachments limited by the system. Otherwise, it will lead to unsuccessful sending. Please refer to the above question “Can I send an email of the same size as the attachment limit?". (For the actual size notification, different systems have different settings)
+Yes, if you want to send multiple attachments, just click **Add Attachment** multiple times. Please note that the total capacity of the attached attachments must not exceed the total capacity of the sent attachments limited by the system. Otherwise, it will lead to unsuccessful sending. Please refer to the above question "Can I send an email of the same size as the attachment limit?". (For the actual size notification, different systems have different settings)
 
 1.10.12         How do I use the automatic signatures?
 
@@ -689,7 +689,7 @@ click **Signature** on the writing page, select the signature notification ident
 
 If you haven't added a signature line yet, you can set your own signature line by going to the "Signature Line" function in the mailbox settings.
 
-1.10.13         What is "Multimedia”?
+1.10.13         What is "Multimedia"?
 
 The "Multimedia" format is a web page format edited in hypertext language (Html), such as modifying the font color or inserting an image, etc. The system provides two HTML editing methods to edit and send emails.
 
@@ -697,23 +697,23 @@ The "Multimedia" format is a web page format edited in hypertext language (Html)
 
 2) If you are familiar with the HTML language code, you can select the "Edit Source Code" box in the toolbar in the "Multimedia" editing status, and write it in code form; When editing, click **Preview** in the toolbar to preview the email page you are editing.
 
-1.10.14         What is “Read Receipt”?
+1.10.14         What is "Read Receipt"?
 
-If you select “Read Receipt”, the receipt will be sent out automatically when the recipient opens your email, and in this way, you can more formally confirm whether the recipient’s computer receives the email or not and know when the recipient reads the email.
+If you select "Read Receipt", the receipt will be sent out automatically when the recipient opens your email, and in this way, you can more formally confirm whether the recipient’s computer receives the email or not and know when the recipient reads the email.
 
 
-1.10.15         What is “Critical”?
+1.10.15         What is "Critical"?
 
-If you select “Critical” in the “Setting” of the writing page, the email cannot be sent to the recipient’s mailbox faster than regular emails, and instead, when receiving your email, as there will be a mark in front of the email, the recipient will know that you are looking forward to his/her reply.
+If you select "Critical" in the "Setting" of the writing page, the email cannot be sent to the recipient’s mailbox faster than regular emails, and instead, when receiving your email, as there will be a mark in front of the email, the recipient will know that you are looking forward to his/her reply.
 
-1.10.16         How can I send an email and meanwhile save a copy in the “Sent” folder?
+1.10.16         How can I send an email and meanwhile save a copy in the "Sent" folder?
 
-If you select “Save in the Sent” before sending the email, the email that you send out will be saved in the “Sent” folder at the same time. The next time you send an email, the item will be selected by default.
+If you select "Save in the Sent" before sending the email, the email that you send out will be saved in the "Sent" folder at the same time. The next time you send an email, the item will be selected by default.
 
 
 1.10.17         How to send an email at a specified time?
 
-After entering the email address of the recipient and the main text of the email, you can enter the specified sending time (including year, month, day and hour) in the “Send at Specified Time” at the bottom of the email, and then Click **Send at Specified Time** button, the email will be sent to the recipient at the specified time.
+After entering the email address of the recipient and the main text of the email, you can enter the specified sending time (including year, month, day and hour) in the "Send at Specified Time" at the bottom of the email, and then Click **Send at Specified Time** button, the email will be sent to the recipient at the specified time.
 
 
 1.10.18         How to modify or cancel the email that has been set as sent at the specified time?
@@ -722,13 +722,13 @@ After entering the email address of the recipient and the main text of the email
 
 
 
-2) Click to enter the editing page of the email, re-click **Send** on the menu to select “Timed Sending” to re-edit the time for sending the email.
+2) Click to enter the editing page of the email, re-click **Send** on the menu to select "Timed Sending" to re-edit the time for sending the email.
 
 3) If you want to cancel sending, you can directly click **Save Draft** on this menu, and the request for timed sending the email will be canceled and the email will be saved as a draft. Or you can send and delete the email directly.
 
 1.10.19         What should I do when I receive bounce message after sending an email?
 
-You can check if the address of the recipient is filled correctly, you can also ask if the mailbox capacity of the recipient is already saturated, because our mailbox can send large-capacity attachments, but when the size of the email exceeds the size that the recipient’s mailbox can accommodate, it will cause the bounce message. Alternatively, you can view the help of “Bounce Message” to view more corresponding solutions. When you have excluded these possibilities, you can contact our mailbox administrator and provide the specific bounce information, we have relevant technical staff to analyze reasons and provide solutions after receiving your consulting email.
+You can check if the address of the recipient is filled correctly, you can also ask if the mailbox capacity of the recipient is already saturated, because our mailbox can send large-capacity attachments, but when the size of the email exceeds the size that the recipient’s mailbox can accommodate, it will cause the bounce message. Alternatively, you can view the help of "Bounce Message" to view more corresponding solutions. When you have excluded these possibilities, you can contact our mailbox administrator and provide the specific bounce information, we have relevant technical staff to analyze reasons and provide solutions after receiving your consulting email.
 
 1.10.20         Why can’t the recipient receive the email I sent to him?
 
@@ -742,13 +742,13 @@ In Windows 2000/XP, If you successively press Esc key twice when writing an emai
 
 Yes. You can perform the following operations to complete the reply with the attachment:
 
-1) At the time of replying an email with attachment, you may click **Reply** drop-down list at the top of the reading page to select “Reply with Attachment”. If you need to reply to everyone, please select **Reply All with Attachment** after clicking **Reply All**.
+1) At the time of replying an email with attachment, you may click **Reply** drop-down list at the top of the reading page to select "Reply with Attachment". If you need to reply to everyone, please select **Reply All with Attachment** after clicking **Reply All**.
 
-2) Reply a session with attachment, please open the session email that is required to be replied. click **Email Actions** at the top right of this email to select **Reply with Attachment**. If you need to reply to everyone, please select “Reply All with Attachment”.
+2) Reply a session with attachment, please open the session email that is required to be replied. click **Email Actions** at the top right of this email to select **Reply with Attachment**. If you need to reply to everyone, please select "Reply All with Attachment".
 
 1.10.23           How to use the attachment drag-and-drop functionality?
 
-Click the drop-down arrow near the “Add Attachment” to open the attachment add-on area, as long as you drag and drop the attachment that is required to be added into this area, and then adding attachment can be implemented. In addition, you can also drag and drop the attachment into the writing window, and the system will open the attachment add-on area automatically. The browsers that the attachment drag-and-drop functionality supports are IE9, Chrome and Firefox.
+Click the drop-down arrow near the "Add Attachment" to open the attachment add-on area, as long as you drag and drop the attachment that is required to be added into this area, and then adding attachment can be implemented. In addition, you can also drag and drop the attachment into the writing window, and the system will open the attachment add-on area automatically. The browsers that the attachment drag-and-drop functionality supports are IE9, Chrome and Firefox.
  
 
 1.11.    Receiving
@@ -761,7 +761,7 @@ After logging in your email address, you can click **Receive** button at the top
 
 1.11.2 The recipient is not me, why did I receive the email?
 
-If the sender sends out the email through Bcc (Blind carbon copy), the recipient cannot find his/her email address directly in the recipient list. If in the Outlook, you can find your email address in the “Bcc” row by right-clicking **Attribute**-**Details**.
+If the sender sends out the email through Bcc (Blind carbon copy), the recipient cannot find his/her email address directly in the recipient list. If in the Outlook, you can find your email address in the "Bcc" row by right-clicking **Attribute**-**Details**.
 
 1.11.3 Why not receive emails sent from external sites?
 
@@ -785,7 +785,7 @@ In rare cases, when the sender’s mailbox space is not enough, if the sent emai
 
 1.11.5 Will my email system automatically delete the received email?
 
-In general, the email will not be deleted automatically. However, if you put the email in the “Deleted” email folder, the system will automatically clear the email in the “Deleted” email folder every 30 days. However, if you put the email in the” email folder, the system will automatically clear the email in the “Spam” email folder every 30 days.
+In general, the email will not be deleted automatically. However, if you put the email in the "Deleted" email folder, the system will automatically clear the email in the "Deleted" email folder every 30 days. However, if you put the email in the" email folder, the system will automatically clear the email in the "Spam" email folder every 30 days.
 
 1.11.6 Why can’t I receive any email from my friend?
 
@@ -795,9 +795,9 @@ If you have not received the email from your friend, please check if there is an
 
 2) Send yourself an email, if it’s normal to send the email and you can receive the email, it means that your mailbox works well and has no problem.
 
-3) Check if the setting of spam filtering is proper. Open “Setting” and click **Email Classification” to see if you have ever set the spam filtering and check if there is any improper setting.
+3) Check if the setting of spam filtering is proper. Open "Setting" and click **Email Classification" to see if you have ever set the spam filtering and check if there is any improper setting.
 
-4) Check if your friend’s email address has mistakenly added to the blacklist. Open “Setting” and click **Blacklist** to view if your friend’s email address is in there. If your friend’s email address is mistakenly added to the blacklist, you can receive his/her email after deleting it from the blacklist.
+4) Check if your friend’s email address has mistakenly added to the blacklist. Open "Setting" and click **Blacklist** to view if your friend’s email address is in there. If your friend’s email address is mistakenly added to the blacklist, you can receive his/her email after deleting it from the blacklist.
 
 You can contact your friend to see if there is any bounce message or contact our mailbox administrator.
 
@@ -815,13 +815,13 @@ Use Outlook. Outlook Express. Foxmail to move all the emails to the hard disk of
 
 1) Delete the email
 
-Select the email to be deleted, click **Delete** button at the top left or bottom left of the page to delete the email to the “Deleted” folder.
+Select the email to be deleted, click **Delete** button at the top left or bottom left of the page to delete the email to the "Deleted" folder.
 
 2) Completely delete the email.
 
-If you want to delete the email in the “Deleted” folder, please open the “Deleted” folder to select the email that is required to be completely deleted, click **Completely Delete** button to finish it; click **Clear** button to completely delete all the emails in the “Deleted” folder.
+If you want to delete the email in the "Deleted" folder, please open the "Deleted" folder to select the email that is required to be completely deleted, click **Completely Delete** button to finish it; click **Clear** button to completely delete all the emails in the "Deleted" folder.
 
-3) If you want to delete the email in the inbox directly without the intermediate process of deleting the email to the “Deleted” folder, select the email to be deleted and click **Completely Delete** button directly.
+3) If you want to delete the email in the inbox directly without the intermediate process of deleting the email to the "Deleted" folder, select the email to be deleted and click **Completely Delete** button directly.
 
 4) If you need to completely delete the email when you read it, just click **Completely Delete** button above.
 
@@ -833,9 +833,9 @@ It is probably due to the reason that the previous DNS resolution is not refresh
 
 1.11.10         How to reject the emails?
 
-If you don’t want to receive the email from someone any more, you can select “Reject Email” operation.
+If you don’t want to receive the email from someone any more, you can select "Reject Email" operation.
 
-1) In reading page, select “Reject Email” in “More” to remind you whether to add his/her email address to the “Blacklist” and click **OK** to include the recipient in the blacklist.
+1) In reading page, select "Reject Email" in "More" to remind you whether to add his/her email address to the "Blacklist" and click **OK** to include the recipient in the blacklist.
 
 2) In the email list page of a folder, select the email to be rejected, click **OK**, the system will add the email address to the blacklist, to reach the purpose of rejecting the email sent from this address.
 
@@ -845,16 +845,16 @@ Any email sent from this address will not be sent to your inbox from now on.
 
 You can receive the emails from multiple mailboxes at the same time, saving your time to receive the emails from different mailbox.
 
-Setting method: click **Collect Email Setting** in “Account Information” in “Setting” at the left side of the mailbox page, fill in the addresses and passwords of other mailboxes which you are going to collect emails, and select the receiving server and receiving folder, and finally click **Save Changes**.
+Setting method: click **Collect Email Setting** in "Account Information" in "Setting" at the left side of the mailbox page, fill in the addresses and passwords of other mailboxes which you are going to collect emails, and select the receiving server and receiving folder, and finally click **Save Changes**.
 
 
 After the settings are completed, click **Receiving** at the top of the page, and the system will start receiving the emails from other mailboxes.
 
 1.11.12         How to sort the order of the emails?
 
-When you view the content of a folder, the emails within the folder are automatically sorted by the sending date. There is a downward arrow mark at the right side of the “sending time” link.
+When you view the content of a folder, the emails within the folder are automatically sorted by the sending date. There is a downward arrow mark at the right side of the "sending time" link.
 
-If the emails within the folder are sorted by sender, please click the title column of “Sender”. Similarly, you can sort the emails in any folder. If you want to sort the emails in reverse order (that is, from back to front, instead of from front to back), please click the title, and the arrow will be changed to point in the opposite direction.
+If the emails within the folder are sorted by sender, please click the title column of "Sender". Similarly, you can sort the emails in any folder. If you want to sort the emails in reverse order (that is, from back to front, instead of from front to back), please click the title, and the arrow will be changed to point in the opposite direction.
 
 1.11.13         What does the status flag of the email mean?
 
@@ -879,7 +879,7 @@ Indicate that you have replied to this email and forwarded it to the others
 Indicate that this email has set the timed sending
               
  
-Indicate that this email is an email that is marked as “low priority-level”
+Indicate that this email is an email that is marked as "low priority-level"
               
  
 Indicate that this email has been marked as an urgent email
@@ -904,7 +904,7 @@ You can manage the mailbox more conveniently by viewing these statuses.
 
 1.11.14         How to mark the email status?
 
-1) Please check the folder (it can be “inbox” or the other folder) containing the email to be marked.
+1) Please check the folder (it can be "inbox" or the other folder) containing the email to be marked.
 
 2) Select the email to be marked.
 
@@ -914,7 +914,7 @@ You can manage the mailbox more conveniently by viewing these statuses.
 
 Alternatively, you can also click the flag mark in front of the email subject on the email list page, the subject and flag are highlighted in red after being marked.
 
-1.11.15         Will the server clear the “Deleted” folder automatically?
+1.11.15         Will the server clear the "Deleted" folder automatically?
 
 By default, the system will automatically clear the emails in the [Deleted] folder that are deleted for 30 days, therefore, please do not put the useful email in the [Deleted] folder to ensure the security of your email.
 
@@ -924,11 +924,11 @@ Our email list is sorted by date, the emails with the latest date are ranked on 
 
 1.11.17         How to create a new folder?
 
-Enter “File Management” in “Advanced Functions” of “Setting”, you can create a new folder.
+Enter "File Management" in "Advanced Functions" of "Setting", you can create a new folder.
 
 1.11.18         How to modify or delete a self-created folder?
 
-For self-created folders, you can click the corresponding link in the “Operations” column on the right to clear, rename and delete operations.
+For self-created folders, you can click the corresponding link in the "Operations" column on the right to clear, rename and delete operations.
 
 For non-empty folders, the delete function is not provided, so that the emails will not be lost due to misoperation, that is, you can delete this folder only when there is no email in the folder. Therefore, to delete a non-empty folder, you must first delete all the emails in this folder.
 
@@ -946,7 +946,7 @@ You can set the stuck email of this folder, not only in your inbox, but also in 
 
 1.11.22         How can I batch add the recipient and the sender to my address list when reading the email?
 
-For the email that is being read, you can add the sender, CC, Bcc and other contacts’ email address related to this email to the address list, and specify the group of contacts as “ungrouped” of the address list by default. click **Add All to Personal Address List** behind the sender to pop up a prompt on the top of the menu bar: “Add XXX, XXX to Personal Address List, [Modify]”. Then click **Modify** to pop up a dialog box to edit the contact information.
+For the email that is being read, you can add the sender, CC, Bcc and other contacts’ email address related to this email to the address list, and specify the group of contacts as "ungrouped" of the address list by default. click **Add All to Personal Address List** behind the sender to pop up a prompt on the top of the menu bar: "Add XXX, XXX to Personal Address List, [Modify]". Then click **Modify** to pop up a dialog box to edit the contact information.
 
 1.11.23         How to add multiple category labels for email?
 
@@ -987,7 +987,7 @@ The specific action steps are as follows:
 
 1) Open IE explorer, select **Internet Option** in the **Tool** menu.
 
-2) Find “Browse” option in the “Advanced” tag in the Internet Option, then cancel “Send URL always by UTF-8”, finally click **OK** to save the change you have made.
+2) Find "Browse" option in the "Advanced" tag in the Internet Option, then cancel "Send URL always by UTF-8", finally click **OK** to save the change you have made.
 
 After changing the setting in the above step, you can open the attachment in the email.
 
@@ -1023,7 +1023,7 @@ ZIP 压缩，WinRAR 打开
  
  
 
-1.12.5 What is “More” on the reading page?
+1.12.5 What is "More" on the reading page?
 
 Take XT5.0 as an example:
 
@@ -1071,7 +1071,7 @@ Take XT5.0 as an example:
 
 1.12.6 How to move an email to other folder?
 
-1) Check the folder (it can be “inbox” or the other folder)  containing the email to be moved.
+1) Check the folder (it can be "inbox" or the other folder)  containing the email to be moved.
 
 2) Select the email to be moved.
 
@@ -1095,7 +1095,7 @@ c) The email transfer mechanism of the email server of the sender is different f
 
 For a majority of emails which are unreadable codes, you may try the following solutions:
 
-Open the email page, select the corresponding code from the code options in “More”, check whether the email can be read normally.
+Open the email page, select the corresponding code from the code options in "More", check whether the email can be read normally.
 
 1.12.9 What if the time of Webmail is different from that in the original text of mail?
 
@@ -1113,15 +1113,15 @@ POP3 Protocol allows the email client to download the emails on the server, howe
 
 IMAP provides two-way communication between webmail and email client. The operations at client will be fed back to the server. The operations implemented to emails will also be implemented to those on the server.
 
-This means when you log in mailbox on internet browser, the operations (for example, move the email to “Share” folder) implemented at email client and mobile equipment will be immediately reflected in the mailbox (for example, when you log in next time, this email already has a “Share” tag).
+This means when you log in mailbox on internet browser, the operations (for example, move the email to "Share" folder) implemented at email client and mobile equipment will be immediately reflected in the mailbox (for example, when you log in next time, this email already has a "Share" tag).
 
 1.13.2 Setting of Outlook Express
 
-1) Open Outlook Express, click **Tool** menu in the window, select “Account”;
+1) Open Outlook Express, click **Tool** menu in the window, select "Account";
 
-2) click **Email** tag, click **Add** on the right side, and select “Email” in the pop-out menu;
+2) click **Email** tag, click **Add** on the right side, and select "Email" in the pop-out menu;
 
-3) Enter your “Display Name” in the pop-out dialog box according to the notification, then click **Next**;
+3) Enter your "Display Name" in the pop-out dialog box according to the notification, then click **Next**;
 
 4) Enter your email address, click **Next**;
 
@@ -1137,11 +1137,11 @@ This means when you log in mailbox on internet browser, the operations (for exam
 
 7) click **Complete** to save your settings;
 
-8) Set SMTP server identity authentication: double click the account added just now in the “Email” tag to pop out the attribute box of the account;
+8) Set SMTP server identity authentication: double click the account added just now in the "Email" tag to pop out the attribute box of the account;
 
-9) click **Server** tag, select “My server requires identity authentication” option in “Email Sending Server”, Click **Setting” tag on the right side, select “Use the Same Setting with the Email Receiving Server”;
+9) click **Server** tag, select "My server requires identity authentication" option in "Email Sending Server", Click **Setting" tag on the right side, select "Use the Same Setting with the Email Receiving Server";
 
-10) click **OK**, then “Close” the account box.
+10) click **OK**, then "Close" the account box.
 
 Now you have completed setting. click **Send and Receive** button in the main window to send and receive emails.
 
@@ -1151,7 +1151,7 @@ Now you have completed setting. click **Send and Receive** button in the main wi
 
 2) Click **Next**, the system will automatically check the POP3 server of the enterprise email entered. Later a new page will pop out, please select the email type as [imap] or [pop3], enter the right password of your enterprise email in the password tooltip;
 
-3) Click **Next**, enter the email receiving server. If you select “IMAP”, the receiving server is “imap.onjdcloud.com”; if you select “POP3”, the receiving server is “pop.onjdcloud.com”; both sending servers are smtp.onjdcloud.com (you may inquire of the enterprise email administrator about the server address).
+3) Click **Next**, enter the email receiving server. If you select "IMAP", the receiving server is "imap.onjdcloud.com"; if you select "POP3", the receiving server is "pop.onjdcloud.com"; both sending servers are smtp.onjdcloud.com (you may inquire of the enterprise email administrator about the server address).
 
  4) Click **Next**, the account setting is completed. According to safety requirements, you must use SSL secure link to receive and send emails. Please check **Use SSL to Link Server** respectively, and confirm the port of receiving server is imaps: 993 or pop3s: 995; the port of email sending server (smtps) is 465;
 
@@ -1159,7 +1159,7 @@ Now you have completed setting. click **Send and Receive** button in the main wi
 
 1) Open outlook, click **Tool** menu in the window, select **Select Service**;
 
-2) Select “Link POP or IMAP Email Account” in the dialog box, then click Next;
+2) Select "Link POP or IMAP Email Account" in the dialog box, then click Next;
 
 3) Implement the following settings in the account setting dialog box:
 
@@ -1171,13 +1171,13 @@ Now you have completed setting. click **Send and Receive** button in the main wi
 
 　 Password: the password to log in email
 
-　 Select “Manual Setting or Other Server Type (M)”, click **Next**;
+　 Select "Manual Setting or Other Server Type (M)", click **Next**;
 
-4) In “Server Information”, if you select “IMAP”, the receiving server is “imap.onjdcloud.com”; if you select “POP3”, the receiving server is “pop.onjdcloud.com”; both sending servers are smtp.onjdcloud.com (you may inquire of the enterprise email administrator about the server address).
+4) In "Server Information", if you select "IMAP", the receiving server is "imap.onjdcloud.com"; if you select "POP3", the receiving server is "pop.onjdcloud.com"; both sending servers are smtp.onjdcloud.com (you may inquire of the enterprise email administrator about the server address).
 
-　 Enter the email address in “User Name” in “Login Information”.
+　 Enter the email address in "User Name" in "Login Information".
 
-5) click **Other Setting” - “Sending Server”, select “My sending server requires authentication” and “Use the Same Setting with the Email Receiving Server”;
+5) click **Other Setting" - "Sending Server", select "My sending server requires authentication" and "Use the Same Setting with the Email Receiving Server";
 
 6) Click **OK**, return to the previous page, click **Next** to complete the setting. According to safety requirements, you must use SSL secure link to receive and send emails. Please link SSL and select the following encryption type according to the sending server, and confirm the port of receiving server is imaps: 993 or pop3s: 995; the port of email sending server (smtps) is 465;
 
@@ -1191,21 +1191,21 @@ You may check whether 25 and 110 port of the email server can be connected by th
 
 # telnet mailserverip 25
 
-// If there is no firewall restriction, return to “220” and wait for the next command of the user.
+// If there is no firewall restriction, return to "220" and wait for the next command of the user.
 
 # telnet mailserverip 110
 
-// If there is no firewall restriction, return to “+OK” and wait for the next command of the user.
+// If there is no firewall restriction, return to "+OK" and wait for the next command of the user.
 
 If there is restriction, for the firewall of linux operating system, you may disable it by the following method:
 
 # setup
 
-Select “Firewall configuration”
+Select "Firewall configuration"
 
-Select “Disable” behind the security level
+Select "Disable" behind the security level
 
-Then select **OK** - “Exit”.
+Then select **OK** - "Exit".
 
 For the firewall purchased and installed by the user, please consult with the corresponding administrator.
 
@@ -1225,15 +1225,15 @@ For the firewall purchased and installed by the user, please consult with the co
 
 1.14.1    How to create or delete a contact?
 
-Click **Personal Address List** link in the “Address List” in the left navigation bar feature list, then you can enter the address list page.
+Click **Personal Address List** link in the "Address List" in the left navigation bar feature list, then you can enter the address list page.
 
 Click **Create a Contact Group** at the lower left of the address list page, then you can create a new contact group; click **Create a Contact**, then you can create a new contact;
 
-If you want to delete a contact, please select the contact and then click **Delete the Contact** at the top of the page, then the system will pop up the confirmation information: “Do you confirm to delete the selected contact completely?” ; then click **Confirm**, and then you can delete the address information selected.
+If you want to delete a contact, please select the contact and then click **Delete the Contact** at the top of the page, then the system will pop up the confirmation information: "Do you confirm to delete the selected contact completely?" ; then click **Confirm**, and then you can delete the address information selected.
 
 1.14.2 How to use the personal address list?
 
-The name and Email address of the contact are displayed on the selected address list page, with “More” action above the contact:
+The name and Email address of the contact are displayed on the selected address list page, with "More" action above the contact:
 
 1) Create contact: You can create a new contact;
 
@@ -1248,13 +1248,13 @@ The name and Email address of the contact are displayed on the selected address 
 
 The selected contact editing page will be popped up in the right:
 
-1) click **Cancel all selected**, then you can return to the “Select the contact” page;
+1) click **Cancel all selected**, then you can return to the "Select the contact" page;
 
 2) click **Write an Email**, then it can link to the writing page and fill in the contact address automatically in the address bar;
 
 3) click **Edit**, then you can modify the detail information of the contact;
 
-4) click **More**, you can “Add the Contact to the Group”, “List the Information”, “Print” and “Delete the Contact”.
+4) click **More**, you can "Add the Contact to the Group", "List the Information", "Print" and "Delete the Contact".
 
 1.14.3 How to quickly find contact address in the personal address list?
 
@@ -1263,9 +1263,9 @@ A quick query function is available at the top of the address list page.
 You can select the group where the contact is at the top left of the page to narrow down the scope and find the contact address you need.
 
 
-1.14.4 How to sort out the information in “Contacts” into groups?
+1.14.4 How to sort out the information in "Contacts" into groups?
 
-Select the contact first, then click **Add to the Group** through “More” to add to the corresponding contact group (friends, relatives, workmates, net friends, etc.)
+Select the contact first, then click **Add to the Group** through "More" to add to the corresponding contact group (friends, relatives, workmates, net friends, etc.)
 
 
 1.14.5 How to create or delete a contact group?
@@ -1279,24 +1279,24 @@ If you want to delete a contact group, click **OK**, and then you can delete the
 
 click **Address List Management" in the left navigation bar to access the contact group management page, and the system will display all the current contact groups and number of contacts in the contact group; user can create, delete, modify the name, or clear the contact group on this page; while the system default contact group cannot be deleted or renamed. Click the name of the contact group to enter the contact list page of the group.
 
-click **Address List Management** through “More” on the “Personal Address List”, then the contact group details of the current contact group will be listed on the right page, as shown in the figure.
+click **Address List Management** through "More" on the "Personal Address List", then the contact group details of the current contact group will be listed on the right page, as shown in the figure.
 
 
 Disable
 
 1.14.7 How to accurately search and print an address list?
 
-click **Search** at the top left of the personal address list page, then you can search by name, email address, company and other keywords, and sort the search results based on certain rules. The “Print” action is available through “More” in the right editing page.
+click **Search** at the top left of the personal address list page, then you can search by name, email address, company and other keywords, and sort the search results based on certain rules. The "Print" action is available through "More" in the right editing page.
 
 1.14.8 How to import and export personal address list?
 
 There are following steps to import the address list:
 
-1) Click the button “More” and select the file to be imported.
+1) Click the button "More" and select the file to be imported.
 
 2) Select the import format.
 
-3) Select “Do not Import Duplication Records” or “Replace the Duplication Records”.
+3) Select "Do not Import Duplication Records" or "Replace the Duplication Records".
 
 4) click **Start to Import** to complete the action.
 
@@ -1322,15 +1322,15 @@ Or you can Click **Recipient** button when you are writing an email, then the sy
 
 1.15.3 How to add a contact in the organization address list to the personal address list?
 
-1) This action only applies to addition of contacts, but not addition of departments, while it will be in gray state and is prohibited using when selecting a department to “Add to Personal Address List”.
+1) This action only applies to addition of contacts, but not addition of departments, while it will be in gray state and is prohibited using when selecting a department to "Add to Personal Address List".
 
-2) After the contact is selected,  click the drop-down list in the “Add to Personal Address List” through “More” on the editing page on the right to list the corresponding group in the Personal Address List, and the user can select a group to add to; after addition, the contact information will be kept in both the personal address list and the organization address list; the system will give a notification “n users have been added successfully to the personal address list” for a successful addition.
+2) After the contact is selected,  click the drop-down list in the "Add to Personal Address List" through "More" on the editing page on the right to list the corresponding group in the Personal Address List, and the user can select a group to add to; after addition, the contact information will be kept in both the personal address list and the organization address list; the system will give a notification "n users have been added successfully to the personal address list" for a successful addition.
 
 3) When the contact to be added has been existed in the personal address list, and the related information of such contact will be updated by the system; it can be judged by the email address whether the contact exists or not.
 
 4) If you select meanwhile the department and the contact and then click **OK** to add the contact to the personal address list only.
 
-5) If the number of contacts to be added exceeds the limit of a personal address list, the system will automatically add only the first few contacts, while the remaining contacts will be neglected indicating that “Capacity of the personal address list is full."
+5) If the number of contacts to be added exceeds the limit of a personal address list, the system will automatically add only the first few contacts, while the remaining contacts will be neglected indicating that "Capacity of the personal address list is full."
 
  
 
@@ -1346,11 +1346,11 @@ Or you can Click **Recipient** button when you are writing an email, then the sy
 
 2) More convenient to manage emails
 
-　　There is no longer a long list of “Re" on the title of correspondence emails, but directly identify the number of email next to the title thereof.
+　　There is no longer a long list of "Re" on the title of correspondence emails, but directly identify the number of email next to the title thereof.
 
 On the reading page, the email on the top is the email arrived first, while the email at the bottom one is the latest one. All emails having been read are folded by default, the summaries of which are displayed, while the unread emails are unfolded by default.
 
-Where in the same session, if there are too many emails having been read, the system will “Hide” part of them, to make sure you can see the latest unread email as fast.
+Where in the same session, if there are too many emails having been read, the system will "Hide" part of them, to make sure you can see the latest unread email as fast.
 
 3) More convenient to handle emails
 
@@ -1393,21 +1393,21 @@ Spam generally refers to an email sent without a request, such as a commercial a
 
 1.17.2 How to deal with the spam?
 
-If you see a spam in the Web page, you can click **Refuse** through “More” at the top of the reading page, and the sender of such spam will be listed in your Blacklist automatically, and any future email from this address will not be sent to your mailbox.
+If you see a spam in the Web page, you can click **Refuse** through "More" at the top of the reading page, and the sender of such spam will be listed in your Blacklist automatically, and any future email from this address will not be sent to your mailbox.
 
-If you download the email to local and find it a spam, you can use “Block the Sender” in your software for receiving and sending emails, such as the tool provided in Outlook Express, to set the refusal. For specific methods, please refer to the corresponding help files.
+If you download the email to local and find it a spam, you can use "Block the Sender" in your software for receiving and sending emails, such as the tool provided in Outlook Express, to set the refusal. For specific methods, please refer to the corresponding help files.
 
 1.17.3 What is the Blacklist and how to set it?
 
 All emails coming from the Blacklist will be refused by the system directly.
 
-Setting method: click **Blacklist** in Security Setting therein. click **Add** button at the top of the “Blacklist Setting” page to add contacts to the Blacklist; click **OK**, the contact will be displayed in the list box on the left, so that the Blacklist is set successfully.
+Setting method: click **Blacklist** in Security Setting therein. click **Add** button at the top of the "Blacklist Setting" page to add contacts to the Blacklist; click **OK**, the contact will be displayed in the list box on the left, so that the Blacklist is set successfully.
 
 1.17.4 What is the white list and how to set it?
 
 All emails coming from the white list will be filtered by the system.
 
-Setting method: Click **Setting** at the top right corner of the mailbox page, and select “white list” in Security Setting therein. click **Add** button at the top of the “White List Setting” page to add contacts to the white list; click **OK**, the contact will be displayed in the list box on the left, so that the white list is set successfully.
+Setting method: Click **Setting** at the top right corner of the mailbox page, and select "white list" in Security Setting therein. click **Add** button at the top of the "White List Setting" page to add contacts to the white list; click **OK**, the contact will be displayed in the list box on the left, so that the white list is set successfully.
 
 1.17.5 How to prevent from receiving spams?
 
@@ -1433,11 +1433,11 @@ Please do not worry when you receive such emails; delete the emails immediately 
 
 ·       Spams are sent by a mass sending software in general; the address of the sender can be falsified at will, but you can find the true sender by checking the header. The method to check the header:
 
-·        1) If you read the email on a Web page, open the email directly and click **View the Original Text** through “Other Actions” at the top of the email displaying page, then you can see the header.
+·        1) If you read the email on a Web page, open the email directly and click **View the Original Text** through "Other Actions" at the top of the email displaying page, then you can see the header.
 
 ·        2) If you receive the email through Outlook Express, point to the email but not open it, click the right mouse button to see the attribute of the email, and then click **Detailed Information**, then you can see the header.
 
-·        If there is the Sender, the content followed thereby is the true sender; if there is no Sender, “Received from” at the bottom is the SMTP server used by the sender.
+·        If there is the Sender, the content followed thereby is the true sender; if there is no Sender, "Received from" at the bottom is the SMTP server used by the sender.
 
 ·        The basic expression format of the Receive sentence is: From Server A by Server B; Server A is the sending server, while Server B is the receiving server.
 
@@ -1487,9 +1487,9 @@ Click **File Center** in the left navigation bar; click **Enterprise Net Disk** 
 
 4) Delete: Select the files to be deleted, tick them, and click **OK** to complete the deletion;
 
-5) In the list of folders, there will be corresponding actions based on permission limits for individuals in different folders, such as “Rename”, “Upload” and “Access Permission”.
+5) In the list of folders, there will be corresponding actions based on permission limits for individuals in different folders, such as "Rename", "Upload" and "Access Permission".
 
-6) When you enter the list of files, you can conduct “Download”, “Preview” and “Send an Email” to a single file; click **Send an Email**, it will jump to the “Writing an Email” Page, and the file will be attached automatically, you can just write the email content.
+6) When you enter the list of files, you can conduct "Download", "Preview" and "Send an Email" to a single file; click **Send an Email**, it will jump to the "Writing an Email" Page, and the file will be attached automatically, you can just write the email content.
 
 1.19.3 Who is in charge of the enterprise net disk?
 
@@ -1503,7 +1503,7 @@ The enterprise net disk is different from the personal net disk, because the per
 
 1.20.1       What is a personal net disk?
 
-Allow you to own a completely private, secure Internet storage space. Through the personal net disk, you can store a variety of personal files on the Internet and have the same file actions as those on your local hard disk, such as delete, copy, move, and search. The personal net disk is easy to “Carry”, the content of which is easy to modify; it is safe and reliable, and is easy to share photos and other files with other relatives and friends. The storage, modification, management, share and sending of the personal files can be solved on the Web easily.
+Allow you to own a completely private, secure Internet storage space. Through the personal net disk, you can store a variety of personal files on the Internet and have the same file actions as those on your local hard disk, such as delete, copy, move, and search. The personal net disk is easy to "Carry", the content of which is easy to modify; it is safe and reliable, and is easy to share photos and other files with other relatives and friends. The storage, modification, management, share and sending of the personal files can be solved on the Web easily.
 
 1.20.2 How to use personal net disk?
 
@@ -1521,9 +1521,9 @@ Click **File Center** in the left navigation bar; click **Personal Net Disk** to
 
 6) More: It can download and modify the personal net disk and view the internal sharing;
 
-7) There are actions such as “Sharing Setting”, “Download”, “Upload” and “Rename” in the list of folders; it can set “Open to the User Logged in”, “Open to the Organization” and “Open to the Specified User” through “Sharing Setting”;
+7) There are actions such as "Sharing Setting", "Download", "Upload" and "Rename" in the list of folders; it can set "Open to the User Logged in", "Open to the Organization" and "Open to the Specified User" through "Sharing Setting";
 
-8) When you enter the list of files, you can conduct “Download”, “Preview” and “Send an Email” and “Rename” to a single file; click **Send an Email**, it will jump to the “Writing an Email” Page, and the file will be attached automatically, you can just write the email content.
+8) When you enter the list of files, you can conduct "Download", "Preview" and "Send an Email" and "Rename" to a single file; click **Send an Email**, it will jump to the "Writing an Email" Page, and the file will be attached automatically, you can just write the email content.
 
 1.20.3 What is the file transfer station and what is the function of it?
 
@@ -1531,7 +1531,7 @@ The file transfer station provides network temporary storage services for large 
 
 1.20.4 What is a super-large attachment and what is the difference from an ordinary attachment?
 
-As we know, an ordinary “Email Attachment” is 20M or 30M generally in size (subject to the setting by the administrator) and we still worry that if the mailbox of the other party can receive such a large attachment. Now, if your mailbox has opened the file transfer station, the large attachment of your mailbox can reach 1G (subject to the setting by the administrator), and you can send it to any email address. The recipient receives only the download link to large file, which is not subject to the capacity of the mailbox.
+As we know, an ordinary "Email Attachment" is 20M or 30M generally in size (subject to the setting by the administrator) and we still worry that if the mailbox of the other party can receive such a large attachment. Now, if your mailbox has opened the file transfer station, the large attachment of your mailbox can reach 1G (subject to the setting by the administrator), and you can send it to any email address. The recipient receives only the download link to large file, which is not subject to the capacity of the mailbox.
 
 Note: You can operate through IE browser; Firefox/Chrome/Safari browsers do not support the operation currently.
 
@@ -1543,7 +1543,7 @@ The upload control can support resuming from break point and display upload prog
 
 What the recipient actually receive is a file download link with time limit, so it has nothing to do with how much attachment the recipient's mailbox supports. The other party only needs to download the file just according to the address in the email. If the super-large attachment you send is out of the validity period, or the number of downloads exceeds the limit, or you have deleted it, then the other party cannot download such super-large attachment.
 
-Besides, you can also check whether the other party has successfully downloaded your large file through “Query” function in the file transfer station.
+Besides, you can also check whether the other party has successfully downloaded your large file through "Query" function in the file transfer station.
 
  
 
@@ -1587,7 +1587,7 @@ Here are some of the possible reasons:
 4) Human error. This type of error is easily overlooked. Please carefully check is the recipient's email address is correct and try troubleshooting by selecting another recipient;
 
 
-5) The client software configuration is incorrect. If you are sending emails through a software such as Outlook and Foxmail, please check the server address, user name, password, etc. in these client software settings for troubleshooting, and make sure that you have selected “My Server Needs Verification”;
+5) The client software configuration is incorrect. If you are sending emails through a software such as Outlook and Foxmail, please check the server address, user name, password, etc. in these client software settings for troubleshooting, and make sure that you have selected "My Server Needs Verification";
 
 
 6) Other reasons. If there is no problem with the above checks, please contact the mailing system customer service personnel.
@@ -1596,10 +1596,10 @@ Here are some of the possible reasons:
 7. The user sends spams and there are many emails accumulated, and the inode of the disk is full as a result of that. (Error information is: Internal Server      Error)
 
 
-8. When sending an email, if there is an extra blank space at the end of the address of the “Recipient” (The blank space entered in English will be ignored by the system, and the blank space entered in Chinese will be considered as part of the address), the other party will not receive the email, but the notification of successful sending will be given by the system, and the email is not bounced, either.
+8. When sending an email, if there is an extra blank space at the end of the address of the "Recipient" (The blank space entered in English will be ignored by the system, and the blank space entered in Chinese will be considered as part of the address), the other party will not receive the email, but the notification of successful sending will be given by the system, and the email is not bounced, either.
 
 
-9). In Outlook, if the sender’s address filled in is not the email address of the user, emails may not be sent out. (Error information is: 553      You are not authorized to send mail, authentication is required). Please set that the sender's address is allowed to be inconsistent with the actual user's email address. Under the anti-spam management interface, Advanced Settings - Global Settings - Advanced Configuration - “The mail from sender must be consistent with the auth verified user”, which is modified as “No”.
+9). In Outlook, if the sender’s address filled in is not the email address of the user, emails may not be sent out. (Error information is: 553      You are not authorized to send mail, authentication is required). Please set that the sender's address is allowed to be inconsistent with the actual user's email address. Under the anti-spam management interface, Advanced Settings - Global Settings - Advanced Configuration - "The mail from sender must be consistent with the auth verified user", which is modified as "No".
 
 
 
@@ -1647,7 +1647,7 @@ Here are some of the possible reasons:
 13. Ns fails to resolve the domain name. If the server dns is modified, it shall restart the deliveragent to take effect; the methods are as follows: /home/coremail/bin/coremail      restart deliveragent
 
 
-14. The email is bounced, since there are too many “Similar” emails. If an anti-spam system is installed, these values can be set; it can also set whether to filter internal emails. (At the anti-spam management interface - Advanced Settings - Global Settings - Advanced Configuration - Fingerprint Counter Filter Threshold Setting.)
+14. The email is bounced, since there are too many "Similar" emails. If an anti-spam system is installed, these values can be set; it can also set whether to filter internal emails. (At the anti-spam management interface - Advanced Settings - Global Settings - Advanced Configuration - Fingerprint Counter Filter Threshold Setting.)
 
 
 15. Its score is too high judged by the intelligent filtering.
@@ -1683,10 +1683,10 @@ Here are some of the possible reasons:
 
 Here are some of the possible reasons:
 
-1. Password to the user name is wrong and it gives a notification that “Verification failed, please carefully check the user name and password you enter” on the Webmail page
+1. Password to the user name is wrong and it gives a notification that "Verification failed, please carefully check the user name and password you enter" on the Webmail page
 
 
-2. Clicking on any action after login has an error. Please check the notification in the error information carefully. If “FS_code” appears, it means that a certain service to the system is abnormal. It needs to restart the corresponding service module to enable the system back to normal. Steps for restarting is:
+2. Clicking on any action after login has an error. Please check the notification in the error information carefully. If "FS_code" appears, it means that a certain service to the system is abnormal. It needs to restart the corresponding service module to enable the system back to normal. Steps for restarting is:
 
 
 o   Access to command console (Run cmd command under Windows)
@@ -1724,9 +1724,9 @@ adminsvr
 
 
 
-2.1.6        What if the management interface is not logged in properly with the notification “The system is busy, please contact the administrator”?
+2.1.6        What if the management interface is not logged in properly with the notification "The system is busy, please contact the administrator"?
 
-If the management interface is not logged in properly with the notification “The system is busy, please contact the administrator”, please try the following steps to restart part service of the system:
+If the management interface is not logged in properly with the notification "The system is busy, please contact the administrator", please try the following steps to restart part service of the system:
 
 1. Use command tool to stop tomcat service 
       Refer to the step and use the command [coremail stop tomcat]
@@ -1824,7 +1824,7 @@ The mailing system divides each mailbox service into different levels based on d
 
 2.2.3      Why can't I assign the new service level to users after I've created it?
 
-It needs to be assigned to Org after adding a service level. The administrator may get access to the organization and user - organization management page; select an organization in the organization list, and add the created service level in “Optional Service Level” to “Add Service Level” and save it.
+It needs to be assigned to Org after adding a service level. The administrator may get access to the organization and user - organization management page; select an organization in the organization list, and add the created service level in "Optional Service Level" to "Add Service Level" and save it.
 
 
 
@@ -1839,7 +1839,7 @@ As the maximum available email size includes email main text and attachment, if 
 
 2.2.5      How to limit the sending and receiving of emails within the site?
 
-The administrator can enter System Management interface - Operation and Maintenance Management - User Service Level, then click to enter the page of User Service Level Modification, select Only Sending and Receiving in the Site for “Email Sending Limit” and “Email Receiving Limit” respectively in field of “Mailbox Limit”, finally save them. The user emails associated with the service can only be sent and received in the site.
+The administrator can enter System Management interface - Operation and Maintenance Management - User Service Level, then click to enter the page of User Service Level Modification, select Only Sending and Receiving in the Site for "Email Sending Limit" and "Email Receiving Limit" respectively in field of "Mailbox Limit", finally save them. The user emails associated with the service can only be sent and received in the site.
 
 
 2.2.6      How to view the usage of mailbox space
@@ -1968,7 +1968,7 @@ You can modify welcome message in System Management interface -- Enterprise Cust
 
 2.2.15    How to modify LOGO in Webmail login interface?
 
-If the administrator wants to replace the LOGO in the Webmail login interface with the LOGO of his own company, he can replace “logo.gif” and “title.gif” under Coremail\web\html\common\login Note: the names of the images must be the same as the original ones. The images sizes just need to follow the original ones.
+If the administrator wants to replace the LOGO in the Webmail login interface with the LOGO of his own company, he can replace "logo.gif" and "title.gif" under Coremail\web\html\common\login Note: the names of the images must be the same as the original ones. The images sizes just need to follow the original ones.
 
 The administrator can add logo of his organization, following the notification and change the logo display in the organization mailbox flexibly. The uploaded logo may be formats of GIF, JPG or PNG files, with the recommended size being less than 16,384 bytes.
 
@@ -1983,7 +1983,7 @@ Other description:
 3. The logos for login interface are all stored under the directory of /home/coremail/web/html/common/login..., you can change your image as the above format and then upload it to this directory, then change its name to logo.gif to finish your work.
 
 
-4. If you want to change the whole webmail images, they are in the directory under /home/coremail/web/html/common/login...with the image format of gif. If other image formats are used, you need to open webapp/index.jsp to find “/common/login/logo.gif” and change logo.gif to the required image name. The size shall be controlled to 480*55 and the image size shall be controlled within 50k for the purpose of avoiding affecting the load of login page.
+4. If you want to change the whole webmail images, they are in the directory under /home/coremail/web/html/common/login...with the image format of gif. If other image formats are used, you need to open webapp/index.jsp to find "/common/login/logo.gif" and change logo.gif to the required image name. The size shall be controlled to 480*55 and the image size shall be controlled within 50k for the purpose of avoiding affecting the load of login page.
 
 
 5. In addition, if you want to modify the upper left LOGO after you login the management interface, it is in the package file and cannot be modified.
@@ -2025,15 +2025,15 @@ Please enter letters or numbers as the unique serial number of the organization 
 
 
 
-2.3.2      What’s the difference between “deactivate” and “lock” status? What is its impact on users?
+2.3.2      What’s the difference between "deactivate" and "lock" status? What is its impact on users?
 
-“Lock”: user only can use limited functions set in the system. They can be modified through Service Level Function page -User Lock Setting; “deactive”: users in this status can use no functions of the system.
+"Lock": user only can use limited functions set in the system. They can be modified through Service Level Function page -User Lock Setting; "deactive": users in this status can use no functions of the system.
 
 
 
 2.3.3      What is external contact
 
-By clicking **New** drop-down list to find “contact”, then you can add external contacts who do not belong to current organization to organization address list, so that they can displayed in the organization address list as well and facilitate all users of current system to read and write emails.
+By clicking **New** drop-down list to find "contact", then you can add external contacts who do not belong to current organization to organization address list, so that they can displayed in the organization address list as well and facilitate all users of current system to read and write emails.
 
 
 2.3.4      What is the added extra capacity of mailbox capacity and network hard disk capacity?
@@ -2074,7 +2074,7 @@ Batch deleting user function is provided in User Management, the administrator c
 
 The administrator can select import and export users in batches in Organization and User - Organization Management.
 
-The formats of user batch export have two selections: 1 user list; 2 CSV files. You can select “selected objects” or “all search results” for export content.
+The formats of user batch export have two selections: 1 user list; 2 CSV files. You can select "selected objects" or "all search results" for export content.
 
 User batch import provides the following three operating methods:
 
@@ -2084,7 +2084,7 @@ User batch import provides the following three operating methods:
 2. Import by uploading files (.txt file format, one user name per line is required)
 
 
-3. Import by uploading files (.csv file format). The “users created in batches” uploaded by .csv file format has the maximum flexibility. Administrator may separately define organization, department, applied service level, domain name for different users. According to the system requirements, .csv file format is: the first line provides the field property name, the second line provides the data based on the field in the first line, each line specifies only one user related properties. The administrator may edit and save required .csv files with excel.
+3. Import by uploading files (.csv file format). The "users created in batches" uploaded by .csv file format has the maximum flexibility. Administrator may separately define organization, department, applied service level, domain name for different users. According to the system requirements, .csv file format is: the first line provides the field property name, the second line provides the data based on the field in the first line, each line specifies only one user related properties. The administrator may edit and save required .csv files with excel.
 
 
 For CSV file template downloading, user_id in the template is a compulsory field, the rest fields are optional. The values of fields in the template must be the values that are existed in the system, invalid values cannot be added in the system.
@@ -2196,9 +2196,9 @@ See system tool instruction manual for details, use -move-org  through userutil 
 
 
 
-2.3.11    Can “Send Notification Message” of User Management interface send group emails to the users of the whole site?
+2.3.11    Can "Send Notification Message" of User Management interface send group emails to the users of the whole site?
 
-Select the notification function from the left navigation bar, and the administrator can send a group notification to all administrators or users of the organization. The location of recipient is the “root (the whole site scope)”, recipient scope is “direct and subordinate users”.
+Select the notification function from the left navigation bar, and the administrator can send a group notification to all administrators or users of the organization. The location of recipient is the "root (the whole site scope)", recipient scope is "direct and subordinate users".
 
 
 
@@ -2210,7 +2210,7 @@ Please open New/Modify Org information page to add extra capacity.
 
 2.3.13    How to postpone the clearance of deleted user data?
 
-Recover deleted user function has been provided in User Management, the administrator enters the recover page through “Recover Deleted Users”  in the sub-menu of the toolbox in the navigation bar. You can click **Recover” after checking users needed to be recovered.
+Recover deleted user function has been provided in User Management, the administrator enters the recover page through "Recover Deleted Users"  in the sub-menu of the toolbox in the navigation bar. You can click **Recover" after checking users needed to be recovered.
 
 2.4.   Anti-spam management
 
@@ -2230,12 +2230,12 @@ The sender address is filled in with *, IP field is filled in with ip address re
 1. Emails from an email address
 
 
-Destination email address is filled in Sender address and recipient address, e.g., abc@abc.com, the filling content of IP needs to be processed separately. We recommended that you set rules for blacklist. IP address is filled in with 0.0.0.0-255.255.255, which means that for any IP connection, this rule is triggered to filter the connection requests; when set white list, IP address field should be left as blank, which means the system does not need to trigger this rule when the user perform connections, but determine white list users by senders’ addresses during the process that system receives emails. Other types of rules that need to be set can also be referenced above. In short, when ip address is filled in with 0.0.0.0-255.255.255, it means that for any IP connection, it will trigger the rules to determine connection operation; when IP addresses is not filled in with content, it means that the user connection process is not filtered. In the meanwhile, the sender and recipient address settings support reverse operation, i.e., !uid1@domain.com, uid2@domain.com is address reverse operation, if the first character is “!” , it means that other users other than filled in addresses (e.g.:”! 1@1.com, 2@2.com, 3@3.com” mean that all users other than 1@1.com, 2@2.com, 3@3.com match the rule)
+Destination email address is filled in Sender address and recipient address, e.g., abc@abc.com, the filling content of IP needs to be processed separately. We recommended that you set rules for blacklist. IP address is filled in with 0.0.0.0-255.255.255, which means that for any IP connection, this rule is triggered to filter the connection requests; when set white list, IP address field should be left as blank, which means the system does not need to trigger this rule when the user perform connections, but determine white list users by senders’ addresses during the process that system receives emails. Other types of rules that need to be set can also be referenced above. In short, when ip address is filled in with 0.0.0.0-255.255.255, it means that for any IP connection, it will trigger the rules to determine connection operation; when IP addresses is not filled in with content, it means that the user connection process is not filtered. In the meanwhile, the sender and recipient address settings support reverse operation, i.e., !uid1@domain.com, uid2@domain.com is address reverse operation, if the first character is "!" , it means that other users other than filled in addresses (e.g.:"! 1@1.com, 2@2.com, 3@3.com" mean that all users other than 1@1.com, 2@2.com, 3@3.com match the rule)
 
 1. The email addresses from a domain
 
 
-Directly fill in domain name “abc.com” in the field of email address, which means that all email address under the domain name; “.abc.com” represents all abc.com and sub-domain users.
+Directly fill in domain name "abc.com" in the field of email address, which means that all email address under the domain name; ".abc.com" represents all abc.com and sub-domain users.
 
 1 Emails from email address of an IP
 
@@ -2257,17 +2257,17 @@ click **New Keyword Rule** button on the page to create new content filter rules
 
 Set rule name and match keyword content. Keyword filter type can be used to set filter keywords including heading, subject, body attachment name. Then select the operations to be executed.
 
-Check the check box at the right side of “use regular expression” to create keyword filter rules using regular expression. E.g., “.*” represents 0 or multiple characters,”\” is the escape character, e.g., fill in “.*\.exe” in “Attachment Name Keyword”, and check the “regular expression”, it means that it will filter all emails with the attachment expanded-name of .exe. See Use Manual for Anti-spam Management for detailed regular expression use instructions.
+Check the check box at the right side of "use regular expression" to create keyword filter rules using regular expression. E.g., ".*" represents 0 or multiple characters,"\" is the escape character, e.g., fill in ".*\.exe" in "Attachment Name Keyword", and check the "regular expression", it means that it will filter all emails with the attachment expanded-name of .exe. See Use Manual for Anti-spam Management for detailed regular expression use instructions.
 
-Let’s take an example of how to create a rule by filtering emails containing the keyword “invoice for issuance”:
+Let’s take an example of how to create a rule by filtering emails containing the keyword "invoice for issuance":
 
-1. Select operation of “Reject delivery”;
-
-
-2. Fill in “invoice for issuance” in the “Matching Keywords” or fill in “invoice.{0,100}for.{0,100}issuance.{0,100}” after selecting the regular expression, with the rest items being default values;
+1. Select operation of "Reject delivery";
 
 
-3. Name the keyword rule, example, “invoice for issuance” and click **OK** to confirm.
+2. Fill in "invoice for issuance" in the "Matching Keywords" or fill in "invoice.{0,100}for.{0,100}issuance.{0,100}" after selecting the regular expression, with the rest items being default values;
+
+
+3. Name the keyword rule, example, "invoice for issuance" and click **OK** to confirm.
 
 
 
@@ -2279,7 +2279,7 @@ Let’s take an example of how to create a rule by filtering emails containing t
 
 The limit of recipient number (from external site)
 
-Rule description: if the administrator set it as “15”, it means that when user a of the site receives emails of user b from an external site, each email can contain 15 recipients.
+Rule description: if the administrator set it as "15", it means that when user a of the site receives emails of user b from an external site, each email can contain 15 recipients.
 
 If the rule is triggered, rcpt to command returns "450 Requested mail action not taken: too much recipient\r\n"
 
@@ -2299,7 +2299,7 @@ Whether to filter the email sent from this site
 
 Rule description: when users of this site send emails, if the email scoring exceeds the threshold, whether to deliver the email
 
-If the rule is triggered: data command returns "550 Requested action not taken: mail %s is rejected\r\n”, the emails will not be delivered.
+If the rule is triggered: data command returns "550 Requested action not taken: mail %s is rejected\r\n", the emails will not be delivered.
 
 1. Error number control
 
@@ -2308,13 +2308,13 @@ The maximum number of SMTP verification failure for each connection
 
 Rule description: for SMTP verification, in a nutshell, the system requires users to provide an account name and password before they can login the SMTP server. The purpose of adding SMTP verification is to protect users from spam. Limit the number of failures of SMTP verification for each connection to prevent repeated attempts of passwords
 
-If the rule is triggered: mail from command returns "550 Requested mail action not taken: too much fail authentications\r\n” and disconnects
+If the rule is triggered: mail from command returns "550 Requested mail action not taken: too much fail authentications\r\n" and disconnects
 
 Maximum number of commands for each connection can be accepted
 
 Rule description: limit the number of commands for each connection to prevent the client from sending too many commands. If a user SMTP verification fails for more than 30 times within a connection, the system disconnects.
 
-If the rule is triggered: mail form or rcpt to command returns "450 Requested mail action not taken: too much command\r\n” and disconnects
+If the rule is triggered: mail form or rcpt to command returns "450 Requested mail action not taken: too much command\r\n" and disconnects
 
 Maximum number of command errors for each connection can be accepted
 
@@ -2329,31 +2329,31 @@ Maximum number of simultaneous connections of an IP
 
 Rule description: limit how many connections an IP can make to the server at most simultaneously, mainly avoid both spam and DoS attacks.
 
-If the rule is triggered: When an IP connection is made and the limit is exceeded, it returns "554 IP<%s> is rejected”, and it disconnects at once
+If the rule is triggered: When an IP connection is made and the limit is exceeded, it returns "554 IP<%s> is rejected", and it disconnects at once
 
 IP connection limit per 15 min/day
 
 Rule description: limit the maximum number of connections allowed by an IP within the last 15 minutes/the maximum number of connections allowed by an IP per day
 
-If the rule is triggered: When an IP connection is made and the limit is exceeded, it returns "554 IP<%s> is rejected”, and it disconnects at once
+If the rule is triggered: When an IP connection is made and the limit is exceeded, it returns "554 IP<%s> is rejected", and it disconnects at once
 
 Maximum number of SMTP verification failures per hour for an IP
 
 Rule description: limit the number of SMTP verification failures per hour for an IP to prevent password attempts
 
-If the rule is triggered: when an IP connection is made and the limit is exceeded, it returns "554 IP<%s> is rejected, smtp auth error limit exceed\r\n”, and it disconnects at once
+If the rule is triggered: when an IP connection is made and the limit is exceeded, it returns "554 IP<%s> is rejected, smtp auth error limit exceed\r\n", and it disconnects at once
 
 MAIL commands that the user does not have a proportional cap per hour for an IP (unit %)
 
 Rule description: prevent users from being exhaustive by MAIL FROM commands.
 
-If the rule is triggered: when an IP connection is made and the limit is exceeded, it returns "554 IP<%s> is rejected, mail command error limit exceed\r\n”, and it disconnects at once
+If the rule is triggered: when an IP connection is made and the limit is exceeded, it returns "554 IP<%s> is rejected, mail command error limit exceed\r\n", and it disconnects at once
 
 RCPT commands that the user does not have a proportional cap per hour for an IP (unit %)
 
 Rule description: Prevent user from beings exhaustive by RCPT TO command.
 
-If the rule is triggered: when an IP connection is made and the limit is exceeded, it returns "554 IP<%s> is rejected, rcpt command error limit exceed\r\n”, and it disconnects at once
+If the rule is triggered: when an IP connection is made and the limit is exceeded, it returns "554 IP<%s> is rejected, rcpt command error limit exceed\r\n", and it disconnects at once
 
 1. Frequency control for user sending emails
 
@@ -2426,7 +2426,7 @@ If the rule is triggered: mail from command returns "553 Mail from must equal au
 
 The from sender in the heading must be the same as the sender of mail from
 
-If the rule is triggered: after running data command, it returns "550 Requested mail action not taken: Fake sender\r\n” and the email will not be delivered
+If the rule is triggered: after running data command, it returns "550 Requested mail action not taken: Fake sender\r\n" and the email will not be delivered
 
 
 
@@ -2539,7 +2539,7 @@ It refers to the limit of recipient number for emails sent from external sites.
 
 
 
-2.4.9      What happens if I set “Yes” to whether filter emails sent by this site?
+2.4.9      What happens if I set "Yes" to whether filter emails sent by this site?
 
 When user of this site sends an email, whether to deliver any email scoring above the threshold. When the rule is triggered, "550 Requested action not taken: mail %s is rejected\r\n" is returned, and the email is not delivered.
 
@@ -2551,7 +2551,7 @@ The gray list indicates that the system suspects the email is not delivered by t
 
 
 
-2.4.11    What does the “Use Spam Fingerprint Filter" in the advanced settings mean?
+2.4.11    What does the "Use Spam Fingerprint Filter" in the advanced settings mean?
 
 Extract the email fingerprint features and match them with those in the system spam feature library. Reject those matching emails.
 

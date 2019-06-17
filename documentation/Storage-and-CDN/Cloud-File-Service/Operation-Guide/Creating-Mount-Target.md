@@ -5,7 +5,7 @@ When your Cloud Instance uses File Storage, it needs to connect to the File Stor
 There are two methods to create a mount target:
 
 1. Create while creating File Storage;
-2. Create by “Manage File Storage Access”.
+2. Create by "Manage File Storage Access".
 
 
 

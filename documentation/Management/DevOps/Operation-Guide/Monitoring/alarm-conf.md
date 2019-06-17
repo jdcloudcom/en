@@ -87,7 +87,7 @@ Voice Effective Time: Configure the effective time period for voice alarms.
 			{
 				"formula": "Compulsory cpu.idle < 80",  ---[Judging rules of monitoring items alarm]
 				"metricDataFilter": {  ---[Filter the monitoring items whose statistics type and the tag matching result are true.]
-					"tags": "",  ---[Monitoring item tags, supporting the inclusion and exclusion relations. HasTag (1 parameter), NotHasTag, TagValueIn, TagValueNotIn(\"core\", \"1,2,3\”) refer to that tag value is only met when it is not in this scope. When the tag field is null, match the monitoring items excluding tags.]
+					"tags": "",  ---[Monitoring item tags, supporting the inclusion and exclusion relations. HasTag (1 parameter), NotHasTag, TagValueIn, TagValueNotIn(\"core\", \"1,2,3\") refer to that tag value is only met when it is not in this scope. When the tag field is null, match the monitoring items excluding tags.]
 					"valueType": "STATISTIC",  ---[Support STRING, STATISTIC]
 					"valueKey": "AVG"  ---【MAX|AVGetc. effective when valueType=STATISTIC]
 				},

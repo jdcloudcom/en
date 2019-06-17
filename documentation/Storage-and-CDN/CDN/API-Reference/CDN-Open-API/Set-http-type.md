@@ -37,7 +37,7 @@ https://opencdn.jcloud.com/api/setHttpType
 curl Request Example: 
 
 ```
-curl -H “Content-type: application/json” -X POST -d ‘{“username”:“test_user”,“signature”:“914a3f412fd9bc1eec14bb5eb104d253”,“domain” :“www.a.com”,“httpType” :“https”,“certificate” :“start—-stop”,“rsaKey” :“start—stop”,“jumpType” :“https”}’ https://opencdn.jcloud.com/api/setHttpType
+curl -H "Content-type: application/json" -X POST -d ‘{"username":"test_user","signature":"914a3f412fd9bc1eec14bb5eb104d253","domain" :"www.a.com","httpType" :"https","certificate" :"start—-stop","rsaKey" :"start—stop","jumpType" :"https"}’ https://opencdn.jcloud.com/api/setHttpType
 ```
 
 * json Format

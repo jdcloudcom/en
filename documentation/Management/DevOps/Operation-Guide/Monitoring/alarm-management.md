@@ -8,7 +8,7 @@ The alarm management mainly includes two modules: Alarm history and alarm block,
 **Alarm History**: Record all alarm events that occur, including monitoring objects, alarm time, number of alarms, rules, recovery, etc., and allow users to view alarm configurations and query figures, perform ack and manual repair operations.
 
 - An alarm event is a record
-- Repair: Manual “recovery" of alarm events that cannot be recovered (such as changing monitoring items) is not really fault repair.
+- Repair: Manual "recovery" of alarm events that cannot be recovered (such as changing monitoring items) is not really fault repair.
 - ACK: Record the operation time and the operator, indicating that the operator knows the alarm and will repair it. For this fault event, the alarm notification will not be sent.
 - Click **>** following the operation bar to view: Alarm group, alarm number (number of sent alarms/maximum number of alarms), whether to block, cause of alarm recovery, current value of monitoring items, NS type, monitoring type, Tags, alarm rules, alarm modes and other information
 

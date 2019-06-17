@@ -105,7 +105,7 @@ Where the Userdata function of the Virtual Machines is required when creating th
 
    The user is allowed to download the signal script provided by the Resource Orchestration in the Userdata script. The python script is available in the Linux platform, while signal.exe is available in the Windows platform. Scripts of different regions are independently deployed. Please refer to the reference above.
 
-   The user is suggested to execute the signal script at the Userdata end and send the script execution result to the Resource Orchestration server. The JDCLOUD::ResourceOrchestration::WaitCondition resource can listen to the execution results. If the execution results are succeeded, the resource will display “Created”. Otherwise, the resource will display “Create Failed”.
+   The user is suggested to execute the signal script at the Userdata end and send the script execution result to the Resource Orchestration server. The JDCLOUD::ResourceOrchestration::WaitCondition resource can listen to the execution results. If the execution results are succeeded, the resource will display "Created". Otherwise, the resource will display "Create Failed".
 
 
 
@@ -144,9 +144,9 @@ Where the results are sent via different customized IDs (e.g. by using random nu
 
 You are allowed to select **Management-Resource Orchestration-Resource Type** in the console to enter the resource type list page. Then, select a resource type in the list and click **View Details** in the operation column to view the resource type details.
 
-- Return value: Refer to relevant information returned by the resource type; exhibit “name” and “description” information. 
+- Return value: Refer to relevant information returned by the resource type; exhibit "name" and "description" information. 
 
-- Attribute: Refer to the attribute information to be specified when defining the resource in the template; the list will exhibit “name”, “type”, “required or not”, “description” and “details”.
+- Attribute: Refer to the attribute information to be specified when defining the resource in the template; the list will exhibit "name", "type", "required or not", "description" and "details".
 
 ### Return Value
 

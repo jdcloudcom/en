@@ -17,7 +17,7 @@ The Resources consists of resource logic IDs and resource descriptions. See the 
             Attribute Description
         }
         "DeletionPolicy":"Resource Deletion Policy",
-        "DependsOn":[“Resource Dependency List"],
+        "DependsOn":["Resource Dependency List"],
     },
     "resource2 LogicID" : {
         "Type" : "Resource Type",

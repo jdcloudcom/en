@@ -96,7 +96,7 @@ Note: Only when the available zone of the Application Application Load Balancer 
 
 - Add server to the virtual server group:
 
-	If there is no available virtual server group, click “create new virtual server group" to create a new virtual server group. VM and containers can be selected to define the port and weight of the instance;
+	If there is no available virtual server group, click "create new virtual server group" to create a new virtual server group. VM and containers can be selected to define the port and weight of the instance;
 
 	Note: Only VM and container resources in the same Availability Zone, virtual private cloud with Application Application Load Balancer can be selected.
 

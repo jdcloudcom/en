@@ -40,7 +40,7 @@
 
 - Normal state code: input range 2xx (equivalent to 200-299), 3xx (equivalent to 300-399), 4xx (equivalent to 400-499);
 
-- Check path: It only will be filled in when the health check method is HTTP, it must start with “/”, at most support 5-level contents, and cannot exceed 100 characters.
+- Check path: It only will be filled in when the health check method is HTTP, it must start with "/", at most support 5-level contents, and cannot exceed 100 characters.
 
   ![NLB健康检查设置](../../../../image/Networking/NLB/NLB-BackHealth.png)	
 

@@ -25,7 +25,7 @@ Version: Version defines the version of IAM Policy. The element value of "versio
 * Principal: It describes the entity to which the policy grant authorization, which does not need to be specified in user authorized access policy. The sub-account to which IAM Policy is granted is the entity for policy authorization. This element is valid for bucket access policy (Bucket Policy), but it should not be added for user authorized access policy (IAM Policy).
 
 * Statement: It describes the details of one or more permissions. The element comprises permission or permission sets of several other elements such as effect, action and resource. One policy has only one statement element.
-    - Effect: It describes that the result of the statement is “allow”; **it does not support to display as “deny” currently. The function is updating, coming soon **. This element is required.
+    - Effect: It describes that the result of the statement is "allow"; **it does not support to display as "deny" currently. The function is updating, coming soon **. This element is required.
     - Action: It describe the allowed or denied action. The action can be API or function set (a set of specific APIs). This element is required,
              Refer to the text below [Use of OSS IN IAM Policy-Specify the Action].
     - Resource: It describes and refers to a specific resource or some resources on OSS. This element is required. For more information about how to specify resources, refer to the text below

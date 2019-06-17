@@ -24,7 +24,7 @@ Bucket Policy is a resource-based authorization policy. The access policy uses t
 
 * Principal: It describes the entity of policy authorization. For example the user, or maybe other partner (primary account), sub-account, anonymous user, etc. This element is valid for bucket access policy, but it should not be added for user’s access policy.
 * Statement: It describes the details of one or more permissions. The element comprises permission or permission sets of several other elements such as effect, action, resource and condition. One policy has only one statement element.
-    - Effect: It describes that the result of the statement is “allow” or “deny”, including two situations, namely allow and deny. This element is required.
+    - Effect: It describes that the result of the statement is "allow" or "deny", including two situations, namely allow and deny. This element is required.
     - Action: It describe the allowed or denied action. The action can be API or function set (a set of specific APIs). This element is required. See details in the following [Element Usage - Action].
     - Resource: It describes and refers to a specific resource or some resources on OSS. Resources are described in six segments. This element is required. For more information about how to specify resources, refer to the following [Element Usage - Resource].
     - Condition: It describes restrictions for effectiveness of policies. Condition comprises operator, operational key and operational value. Condition value may include Referer and IP address information. The element is an optional field.

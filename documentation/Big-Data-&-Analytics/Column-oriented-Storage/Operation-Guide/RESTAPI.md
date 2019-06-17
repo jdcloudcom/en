@@ -63,32 +63,32 @@ public class RestDemo {
     public static void main(String []args) {
         String baseUrl = "http://116.196.81.217:8080";
 
-        System.out.println(“Create a table");
+        System.out.println("Create a table");
         String postStr = "<?xml version=\"1.0\" encoding=\"UTF-8\"?><TableSchema name=\"testnew\"><ColumnSchema name=\"cf\" /></TableSchema>";
         String urlPath = "/testnew/schema";
         String url = baseUrl+urlPath;
         String result = doPost(url, postStr);
 
-        System.out.println(“Acquire the table list");
+        System.out.println("Acquire the table list");
         urlPath = "";
         url = baseUrl + urlPath;
         result = doSend(url);
         System.out.println(result);
 
-        System.out.println(“Acquire the table structure");
+        System.out.println("Acquire the table structure");
         urlPath = "/testnew/schema";
         url = baseUrl + urlPath;
         result = doSend(url);
         System.out.println(result);
 
-        System.out.println(“Insert data");
+        System.out.println("Insert data");
         urlPath = "/testnew/fakerow";
         url = baseUrl + urlPath;
         postStr="<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><CellSet><Row key=\"cm93NQo=\"><Cell column=\"Y2Y6ZQo=\">dmFsdWU1Cg==</Cell></Row></CellSet>";
         result = doPost(url, postStr);
         System.out.println(result);
 
-        System.out.println(“Acquire data");
+        System.out.println("Acquire data");
         urlPath = "/testnew/*";
         url = baseUrl + urlPath;
         result = doSend(url);

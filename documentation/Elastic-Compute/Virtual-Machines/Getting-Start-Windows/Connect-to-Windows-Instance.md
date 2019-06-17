@@ -87,7 +87,7 @@ Taking Remote Desktop officially provided by Microsoft, the example illustrates 
 2. Enter Public IP Address of windows instances in the pop-up window and click **Add** to add and save the address.
 ![](../../../../image/vm/Getting-Start-Windows-Connect-Windows-mac2.png)
 
-3. After addition is completed, the instance can be found via the Public IP Address in “saved Desktop”, click the icon, and enter user name and password. The default user name of Windows instance is administrator. Then, click **Done** to connect instances.
+3. After addition is completed, the instance can be found via the Public IP Address in "saved Desktop", click the icon, and enter user name and password. The default user name of Windows instance is administrator. Then, click **Done** to connect instances.
 ![](../../../../image/vm/Getting-Start-Windows-Connect-Windows-mac3.png)
 ![](../../../../image/vm/Getting-Start-Windows-Connect-Windows-mac4.png)
 

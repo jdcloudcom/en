@@ -2,7 +2,7 @@
 
 ## Description
 The action can specify the IAM list (acl) of Bucket.
-Currently Bucket has three access permissions: private, public-read, and public-read-write. Put Bucket ACL action is set through “x-amz-acl” header in Put request.
+Currently Bucket has three access permissions: private, public-read, and public-read-write. Put Bucket ACL action is set through "x-amz-acl" header in Put request.
 Only the creator of the Bucket has the permission to execute the action. If the action succeeds, 200 will be returned; otherwise, the corresponding error code and notification information will be returned.
 
 ## Request

@@ -80,7 +80,7 @@ Software applications generally have independently accessible website. Customers
    <td class="tg-0pky">action</td>
    <td class="tg-0pky">String</td>
    <td class="tg-0pky">Yes</td>
-   <td class="tg-0pky">“createInstance”</td>
+   <td class="tg-0pky">"createInstance"</td>
    <td class="tg-0pky"></td>
    </tr>
    <tr>
@@ -329,7 +329,7 @@ After the user renews and pays successfully, the Marketplace calls the renewal i
             <td class="tg-0lax">action</td>
             <td class="tg-0lax">String</td>
             <td class="tg-0lax">Yes</td>
-            <td class="tg-0lax">“upgradeInstance”</td>
+            <td class="tg-0lax">"upgradeInstance"</td>
             <td class="tg-0lax"></td>
           </tr>
           <tr>

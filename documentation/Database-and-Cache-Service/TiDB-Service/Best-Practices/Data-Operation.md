@@ -26,7 +26,7 @@ Also note that, regardless of whether it is limit of size or number of rows, we 
 
 It is recommended that, regardless of Insert, Update and Delete statements, all should be restricted by Batch or by adding Limit.
 
-To delete a large amount of data, it is recommended to use “Delete * from t where xx limit 5000”, which is a solution to achieve the deletion through a loop, with “Affected Rows, = 0” as the end condition of the loop to avoid the limit of transaction size.
+To delete a large amount of data, it is recommended to use "Delete * from t where xx limit 5000", which is a solution to achieve the deletion through a loop, with "Affected Rows, = 0" as the end condition of the loop to avoid the limit of transaction size.
 
 If the amount of data deleted at a time is very large, this loop will be slower and slower, because each deletion is traversed from front to back, and after the previous deletion, there will be a lot of deletion marks left in a short time (later will be collected by gc), affecting the subsequent Delete statements. If possible, it is recommended to refine the Where conditions. For example, suppose that you want to delete all the data of May 26, 2017, you can operate as follows:
 ```SQL

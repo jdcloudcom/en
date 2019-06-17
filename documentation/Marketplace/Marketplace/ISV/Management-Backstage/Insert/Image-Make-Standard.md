@@ -36,7 +36,7 @@ You can use the command: netsh interface ipv4 show interface to view the MTU val
 
        To adjust, open the command line window and enter the following command to set the MTU (up to 1500):
 
-c:\> netsh interface ipv4 set subinterface “local connection" mtu=1500 store=persistent (network interface name: 2008 is "local connection" and 2012 is "Ethernet")
+c:\> netsh interface ipv4 set subinterface "local connection" mtu=1500 store=persistent (network interface name: 2008 is "local connection" and 2012 is "Ethernet")
 
 
 

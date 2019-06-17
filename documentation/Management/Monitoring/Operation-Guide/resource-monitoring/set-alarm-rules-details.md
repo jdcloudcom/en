@@ -8,7 +8,7 @@
 
 ![](https://raw.githubusercontent.com/jdcloudcom/en/Monitoring/image/Cloud-Monitor/Introduction/Operation-Guide/resource-monitoring/resource-02.png)
 
-3. Input monitoring metircs, statistical periods, statistical methods, calculation methods, thresholds, and durations. According to business requirements, you can also set grading alarms (divided into moderate, severe, and critical). click **Next** to add alarm rules and contacts, and click “Next” step, click "Finish". 
+3. Input monitoring metircs, statistical periods, statistical methods, calculation methods, thresholds, and durations. According to business requirements, you can also set grading alarms (divided into moderate, severe, and critical). click **Next** to add alarm rules and contacts, and click "Next" step, click "Finish". 
 
 ![](https://raw.githubusercontent.com/jdcloudcom/en/Monitoring/image/Cloud-Monitor/Introduction/Operation-Guide/resource-monitoring/resource-03.png)
 
@@ -19,7 +19,7 @@
 
 ![](https://raw.githubusercontent.com/jdcloudcom/en/Monitoring/image/Cloud-Monitor/Introduction/Operation-Guide/resource-monitoring/resource-04.png)
 
-2. Click the “Modify” button under the More Operations column to modify the monitoring metrics, statistics period, statistical methods, calculation methods, thresholds, duration, and alarm contact information as needed.
+2. Click the "Modify" button under the More Operations column to modify the monitoring metrics, statistics period, statistical methods, calculation methods, thresholds, duration, and alarm contact information as needed.
 3. Click the "Delete" button under More Operations in the Operation column to delete.
 4. Click the "Disable" button under More Operations in the Operation column to disable the rule.
 
@@ -35,6 +35,6 @@ After logging in to the JD Cloud Account, click the Account Information drop-dow
 
 ![](https://raw.githubusercontent.com/jdcloudcom/en/Monitoring/image/Cloud-Monitor/Introduction/Operation-Guide/resource-monitoring/resource-06.png)
 
-2. After the alarm template is available, check the “Use the existing alarm rule template” to select the available template to use on the Newly Added Alarm Rules page.
+2. After the alarm template is available, check the "Use the existing alarm rule template" to select the available template to use on the Newly Added Alarm Rules page.
  
 ![](https://raw.githubusercontent.com/jdcloudcom/en/Monitoring/image/Cloud-Monitor/Introduction/Operation-Guide/resource-monitoring/resource-07.png)

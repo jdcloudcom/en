@@ -1,7 +1,7 @@
 # Close Auto-Scaling
 
 ## Preconditions
-The Availability Group is currently enabled auto-scaling, and the current scaling Availability Group is in the “Normal” state, i.e. there is no ongoing scaling activity and the cooldown is complete.
+The Availability Group is currently enabled auto-scaling, and the current scaling Availability Group is in the "Normal" state, i.e. there is no ongoing scaling activity and the cooldown is complete.
 
 ## Operational Steps
 

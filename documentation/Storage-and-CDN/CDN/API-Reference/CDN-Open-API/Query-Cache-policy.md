@@ -42,7 +42,7 @@ https://opencdn.jcloud.com/api/queryDomainCache
 curl Request Example:
 
 ```
- curl -H “Content-type: application/json” -X POST -d ‘{“username”:“test_user”,“signature”:“914a3f412fd9bc1eec14bb5eb104d253”,“domain” :“www.b.com”}’ https://opencdn.jcloud.com/api/queryDomainCache
+ curl -H "Content-type: application/json" -X POST -d ‘{"username":"test_user","signature":"914a3f412fd9bc1eec14bb5eb104d253","domain" :"www.b.com"}’ https://opencdn.jcloud.com/api/queryDomainCache
 ```
 
 * json Format

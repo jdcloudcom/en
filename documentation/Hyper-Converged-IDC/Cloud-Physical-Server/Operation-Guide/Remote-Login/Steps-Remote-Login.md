@@ -14,8 +14,8 @@ Download the remote link software PuTTY, the download link for reference is: htt
 Open Putty client, and enter the following contents in the PuTTY Configuration window:
 - Host  Name：The extranet IP address of the server
 -	Port：Server port, must enter 22.
--	Connect type：Select “SSH”.
--	Click “Open” after entering all the contents and create a new dialog.
+-	Connect type：Select "SSH".
+-	Click "Open" after entering all the contents and create a new dialog.
 
 ![PuTTY Window](https://github.com/jdcloudcom/cn/blob/edit/image/Hyper-Converged-IDC/Cloud-Physical-Server/CPS005.png)
 

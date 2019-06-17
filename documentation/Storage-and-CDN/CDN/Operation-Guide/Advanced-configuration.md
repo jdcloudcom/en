@@ -4,7 +4,7 @@ Click**Domain Name List**--Select Accelerated Domain Name--**Advanced Configurat
 
 **Filter Parameter**
 
-After being turned on, CDN will ignore the parameters following “?” in the request URL.
+After being turned on, CDN will ignore the parameters following "?" in the request URL.
 
 ![image.png](https://img1.jcloudcs.com/cms/5c01bc8b-7074-4b97-8a70-9bb5009a9df320180118163149.png)
 

@@ -16,13 +16,13 @@ The following process is the guide for creating the API in the API Gateway Conso
 
 ![新建API分组](../../../../image/Internet-Middleware/API-Gateway/example_subkey_group2.png)
 
-### 4. After clicking **OK**, the “Creation Succeeded” notification will be given. In such case, please select “API Management” in the pop-up window and redirect to the API list interface of this group.
+### 4. After clicking **OK**, the "Creation Succeeded" notification will be given. In such case, please select "API Management" in the pop-up window and redirect to the API list interface of this group.
 
 ![新建API分组成功](../../../../image/Internet-Middleware/API-Gateway/example_subkey_createAPIList_success.png)
 
 ### 5. You can deploy API via the two methods below.
 
-(1) Create API: Click **Create API** click **OK** after configuring “Name”, “Sub-path”, “Search Parameter”, “Request Body Format” and “Normal Return Format” of API on Details, therefore, API is created. If SDK is required to be generated, Request Body Format and Normal Return Format are required to be defined. If SDK is not required, **Request Body Format** and **Normal Return Format** are left blank.
+(1) Create API: Click **Create API** click **OK** after configuring "Name", "Sub-path", "Search Parameter", "Request Body Format" and "Normal Return Format" of API on Details, therefore, API is created. If SDK is required to be generated, Request Body Format and Normal Return Format are required to be defined. If SDK is not required, **Request Body Format** and **Normal Return Format** are left blank.
 
 ![新建API1](../../../../image/Internet-Middleware/API-Gateway/example_subkey_createAPI_1.png)
 
@@ -62,7 +62,7 @@ The following process is the guide for creating the API in the API Gateway Conso
 
     ![创建订阅密钥3](../../../../image/Internet-Middleware/API-Gateway/example_subkey_createSubkey_3.png)
 
-4. Turn on [Access Authorization](https://apigateway-console.jdcloud.com/authorizationList) and click **Create Authorization**, select the authorization type as “Subscription Key”. You can select the target key from an existing list of subscription Keys and authorize the API group. When different authorization types access the same API group, API Gateway will verify the authorization information of “Subscription Key” type in priority in the API call process.
+4. Turn on [Access Authorization](https://apigateway-console.jdcloud.com/authorizationList) and click **Create Authorization**, select the authorization type as "Subscription Key". You can select the target key from an existing list of subscription Keys and authorize the API group. When different authorization types access the same API group, API Gateway will verify the authorization information of "Subscription Key" type in priority in the API call process.
 
     ![创建授权1](../../../../image/Internet-Middleware/API-Gateway/example_subkey_createAuth_1.png)
 

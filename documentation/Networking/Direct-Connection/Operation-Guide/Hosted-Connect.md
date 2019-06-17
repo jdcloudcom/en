@@ -10,7 +10,7 @@
 
 1. Log in JD Cloud console.
 
-2. Click the navigation bar on the left side, select “Direct Connection -> Hosted Connect -> Hosted Connection”.
+2. Click the navigation bar on the left side, select "Direct Connection -> Hosted Connect -> Hosted Connection".
 
 3. For the configuration of the hosted connection, see console page for details.
 
@@ -30,7 +30,7 @@ Auditors of JD Cloud will review your application. Under normal circumstances, i
 
 1. Log in JD Cloud console.
 
-2. Click the navigation bar on the left side, select “Direct Connection Service -> Direct Connection Service -> Border Gateway”.
+2. Click the navigation bar on the left side, select "Direct Connection Service -> Direct Connection Service -> Border Gateway".
 
 3. Create border gateway, and it will automatically connect with the VPC of the account within the same region.
 
@@ -40,7 +40,7 @@ Auditors of JD Cloud will review your application. Under normal circumstances, i
 
 1. Log in JD Cloud console.
 
-2. Click the navigation bar on the left side, select “Direct Connection -> Hosted Connect -> Hosted Private Virtual Interface”.
+2. Click the navigation bar on the left side, select "Direct Connection -> Hosted Connect -> Hosted Private Virtual Interface".
 
 3. For the configuration of the hosted private virtual interface, see console page for details.
 
@@ -54,7 +54,7 @@ Auditors of JD Cloud will review your application. Under normal circumstances, i
 
 1. Log in JD Cloud console.
 
-2. Click the navigation bar on the left side, select “Virtual Private Cloud”, enter the route table related to JD Cloud VPC Private Subnet required to communicate with the Intranet of JD Cloud hosted area.
+2. Click the navigation bar on the left side, select "Virtual Private Cloud", enter the route table related to JD Cloud VPC Private Subnet required to communicate with the Intranet of JD Cloud hosted area.
 
 3. Configure the route table. The destination is the network segment in your JD Cloud hosted area. And select the border gateway that hosts the hosted connect network intercommunication for the nest hop.
 
@@ -64,7 +64,7 @@ Auditors of JD Cloud will review your application. Under normal circumstances, i
 
 1. Log in JD Cloud console.
 
-2. Click the navigation bar on the left side, and select “Direct Connection Service ->  Border Gateway”, enter the details for the border gateway hosting the hosted connect network intercommunication.
+2. Click the navigation bar on the left side, and select "Direct Connection Service ->  Border Gateway", enter the details for the border gateway hosting the hosted connect network intercommunication.
 
 3. Configure the route table. Two-way route is required, one way to VPC side and another to your JD Cloud hosted area side.
 
@@ -86,9 +86,9 @@ For the route to the VPC, the destination is the network segment in your VPC. An
 
 1. Log in JD Cloud console.
 
-2. Click the navigation bar on the left side, select “Direct Connection -> Hosted Connect -> Hosted Private Virtual Interface”.
+2. Click the navigation bar on the left side, select "Direct Connection -> Hosted Connect -> Hosted Private Virtual Interface".
 
-3. Enter the list or details of Hosted Private Virtual Interface, and click “Delete” to delete the Hosted Private Virtual Interface.
+3. Enter the list or details of Hosted Private Virtual Interface, and click "Delete" to delete the Hosted Private Virtual Interface.
 
 
 
@@ -96,8 +96,8 @@ For the route to the VPC, the destination is the network segment in your VPC. An
 
 1. Log in JD Cloud console.
 
-2. Click the navigation bar on the left side, select “Direct Connection -> Hosted Connect -> Hosted Connection”.
+2. Click the navigation bar on the left side, select "Direct Connection -> Hosted Connect -> Hosted Connection".
 
-3. Enter the list or details of Hosted Connection, and click “Delete”. Only the Hosted Connection that has not been used to create the Hosted Private Virtual Interface can be deleted. After the Hosted Connection is deleted, if you need to use the Hosted Connect Service again, you need to apply for a new Hosted Connection.
+3. Enter the list or details of Hosted Connection, and click "Delete". Only the Hosted Connection that has not been used to create the Hosted Private Virtual Interface can be deleted. After the Hosted Connection is deleted, if you need to use the Hosted Connect Service again, you need to apply for a new Hosted Connection.
 
 After the Hosted Connection is deleted through the JD Cloud Console/Open API, the physical port and physical link of the JD Cloud routing device will be released immediately without your participation.

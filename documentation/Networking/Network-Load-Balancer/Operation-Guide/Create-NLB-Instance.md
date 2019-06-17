@@ -4,7 +4,7 @@
  
  ![NLB列表页](../../../../image/Networking/NLB/NLB-List.png)
 
-#### 2. Click “Create” to create a new load balancer instance.
+#### 2. Click "Create" to create a new load balancer instance.
 
 #### 3. Select load balancer type, and here network load balancer should be selected.
  

@@ -2,7 +2,7 @@
 
 Support the deployment function for JD Cloud Virtual Machines, physical machines and other vendors’ virtual machines.
 
-Click **Continuous Delivery** in the menu bar to log in the “On-line Release”.
+Click **Continuous Delivery** in the menu bar to log in the "On-line Release".
 
 1. Basic Settings
 
@@ -41,7 +41,7 @@ If automatic migration is started, used resources will be recycled, the Virtual 
 
 3. On-line
 
-Select the group(s) to be launched and set launch concurrency and time-out period. Select package revision to be on-line for on-line release. On the “On-line Dynamic” page, you can view on-line details and perform rollback operation.
+Select the group(s) to be launched and set launch concurrency and time-out period. Select package revision to be on-line for on-line release. On the "On-line Dynamic" page, you can view on-line details and perform rollback operation.
 
 ![Alt text](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Operation24.png)
 
@@ -53,7 +53,7 @@ Grouping and Expansion
 
 5. Instance Management
 
-It supports batch operations of restart, start, stop, enable or disable traffic, scaling (elastic deployment) for the instance dimension I.e. execute control files of code package. For writing specification of control file, please refer to “Compilation and Construction”.
+It supports batch operations of restart, start, stop, enable or disable traffic, scaling (elastic deployment) for the instance dimension I.e. execute control files of code package. For writing specification of control file, please refer to "Compilation and Construction".
 
 ![Alt text](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Operation26.png)
 

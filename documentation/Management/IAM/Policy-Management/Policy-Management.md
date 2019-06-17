@@ -17,7 +17,7 @@ Log in the console and enter Identity and Access Management > Authorization Poli
 
 ![策略列表](../../../../image/IAM/PolicyManagement/策略列表.jpg)
 
-> You may find that there suddenly adds some policy names that contain “-v3” in the policy list. It is the policy automatically created by the system for you when the product line is connected to the IAM, the policy (Policy) syntax changes after switching from v2 version to v3 version, with the purpose to make all actions in the policy created previously by you compatible and effective. For example, when you need to grant JD Cloud administrator permissions to all user types of IAM, you need to grant both JDCloudAdmin and JDCloudAdmin-new policy, and when you grant JD Cloud read-only permission, you need to grant both JDCloudRead and JDCloudRead-new policy. This action will continue until all product lines supporting v2 switch to v3 version.
+> You may find that there suddenly adds some policy names that contain "-v3" in the policy list. It is the policy automatically created by the system for you when the product line is connected to the IAM, the policy (Policy) syntax changes after switching from v2 version to v3 version, with the purpose to make all actions in the policy created previously by you compatible and effective. For example, when you need to grant JD Cloud administrator permissions to all user types of IAM, you need to grant both JDCloudAdmin and JDCloudAdmin-new policy, and when you grant JD Cloud read-only permission, you need to grant both JDCloudRead and JDCloudRead-new policy. This action will continue until all product lines supporting v2 switch to v3 version.
 
 ## Policy Creation
 

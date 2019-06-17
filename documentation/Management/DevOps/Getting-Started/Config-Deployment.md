@@ -6,7 +6,7 @@ Release the compiled program packages to Virtual Machine.
 
 1. Basic Settings
 
-Select an application of the service tree on the left side, select menu “Continuous Delivery-Online Launch”, log in the “Basic Setting” page and click **Set**.
+Select an application of the service tree on the left side, select menu "Continuous Delivery-Online Launch", log in the "Basic Setting" page and click **Set**.
 
 ![Alt text](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Starting12.png)
 
@@ -27,7 +27,7 @@ Here, the example code does not require configuration.
 
 3.Online
 
-Select the group(s) to be online on the "online" page and set online concurrence and time-out period. Select package revision to be online for online release. On the “Online Dynamic” page, you can view online details and perform rollback operation.
+Select the group(s) to be online on the "online" page and set online concurrence and time-out period. Select package revision to be online for online release. On the "Online Dynamic" page, you can view online details and perform rollback operation.
 
 ![Alt text](https://github.com/jdcloudcom/cn/blob/DevOps/image/DevOps/Starting11.png)
 

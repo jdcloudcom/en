@@ -40,7 +40,7 @@ Basic Steps of Using Form Upload
 
 1.Create a Post Policy.
 
-The Policy form field of the Post request is used to verify the validity of the request. For example, you can specify the prefix of the upload Object, specify the upload size, the URL that the client needs to jump to after the upload is successful, and the status code received by the client after the upload is successful. Policy is a character string in json format. For example, the following policy, the expiration time that a website user can upload is 2018-12-01T12:00:00.000Z, and the prefix of the file that can be uploaded must match "user/yuyu/", the name of the target bucket to be uploaded must be "myBucketName”.
+The Policy form field of the Post request is used to verify the validity of the request. For example, you can specify the prefix of the upload Object, specify the upload size, the URL that the client needs to jump to after the upload is successful, and the status code received by the client after the upload is successful. Policy is a character string in json format. For example, the following policy, the expiration time that a website user can upload is 2018-12-01T12:00:00.000Z, and the prefix of the file that can be uploaded must match "user/yuyu/", the name of the target bucket to be uploaded must be "myBucketName".
 ```
  { "expiration": "2018-12-01T12:00:00.000Z",
   "conditions": [

@@ -11,4 +11,4 @@
 
 ## Action Steps:
 1. Click **Upload** button in the page.
-2. Click **Select file** in the pop-up window; select the file to be locally uploaded; click “Upload” for uploading.
+2. Click **Select file** in the pop-up window; select the file to be locally uploaded; click "Upload" for uploading.

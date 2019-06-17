@@ -1,6 +1,6 @@
 # **Create Domain Name**
 
- 1. Enter the **Domain Name List** page in the CDN customer console; click “Add Domain Name”;           
+ 1. Enter the **Domain Name List** page in the CDN customer console; click "Add Domain Name";           
 
 ![image.png](https://img1.jcloudcs.com/cms/b5b15af8-d4c9-4806-a050-e59c81ddbcf120180423142138.png)
 
@@ -10,7 +10,7 @@
 
   Please complete the ICP filing of the domain name with the communications administration and then conduct this domain name adding configuration;
 
-  Domain name filling characters only support 26 English letters, 10 Arabic numerals and the horizontal bar “-”'*’;
+  Domain name filling characters only support 26 English letters, 10 Arabic numerals and the horizontal bar "-"'*’;
 
   Support Extensive Domain, do not support the domain addition of domain and sub-domain with the same content. For example, if you have added the Extensive Domain *.b.a.com, it is not supported to add c.b.a.com or b.a.com;
 

@@ -2,7 +2,7 @@
 
 ## Problem Description
 
-The user cannot create an instance successfully when he enters the console page and clicks the “Create Instance”
+The user cannot create an instance successfully when he enters the console page and clicks the "Create Instance"
 
 ## Possible Causes
 ### Processing Steps
@@ -17,7 +17,7 @@ There is a quota limit for each order (It is basically limited to 5 units, which
 
 3. Confirm whether actions are made too frequently.
 
-When a user clicks on the “purchase” repeatedly, it may not be possible to create an instance successfully. At this point, you can either wait or manually clear the cache and recreate it.
+When a user clicks on the "purchase" repeatedly, it may not be possible to create an instance successfully. At this point, you can either wait or manually clear the cache and recreate it.
 
 4. The server purchase was successful but the creation of the server failed.
 

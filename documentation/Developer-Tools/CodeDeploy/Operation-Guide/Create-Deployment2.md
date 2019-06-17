@@ -13,7 +13,7 @@ There are options as below:
 
    - Enter deployment operation command: A convenient and easy-to-use form is provided to meet basic demands of most users, please select the "Form" function and fill in specific operation commands. At the same time, to cope with complex operation commands, yaml files can be filled. For writing specifications, please refer to "Operation Guide File-Jdcloud-codedeploy"
   
-      - Deployment content: A maximum of 5 pairs of sources and destinations are supported. For details, please refer to “Operation Guide-source and destination in Jdcloud-codedeploy File”
+      - Deployment content: A maximum of 5 pairs of sources and destinations are supported. For details, please refer to "Operation Guide-source and destination in Jdcloud-codedeploy File"
      
       - Stop script path: Refer to the command or script used for stopping a program in case of rollback and deployment update
      

@@ -98,7 +98,7 @@ As an example of non-web service settings, the schematic diagram is as follows:
 
 ![](https://github.com/jdcloudcom/en/blob/edit/image/Advanced%20Anti-DDoS/instruction%2001.png)
 
-You can expand the “Product Graphic Instructions” on the Instance Details page to view the diagram.
+You can expand the "Product Graphic Instructions" on the Instance Details page to view the diagram.
 
 Eg：
 

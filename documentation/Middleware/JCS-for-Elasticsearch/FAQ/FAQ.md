@@ -2,7 +2,7 @@
 ### What is ELK
 ELK=elasticsearch+Logstash+kibana </br>
 JCS for Elasticsearch: Background distributed storage and full-text retrieval. </br>
-logstash: Log processing, “porter”.</br>
+logstash: Log processing, "porter".</br>
 kibana: Data visualization display. </br>
 ELK architecture creates a powerful management chain for data distributed storage, visual query and log resolution. The three cooperate with each other and complement each other to complete distributed big data processing work.
 ### What is Lucene

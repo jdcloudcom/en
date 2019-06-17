@@ -59,7 +59,7 @@ If data is deleted, costs will be calculated accurately to hour according to spe
 Description:
 Actual processing data size of computing means data bulk actually scanned by a SQL query task. </br>
 (Note: most SQL statement will be filtered by partition and by column, so generally this value will be much less than the original data size)</br>
-Partition filter: for example: if the SQL statement includes where userid<"200000”, userid is partition column, the billed data bulk will only include the actually read-write partition but exclude data of other partition. </br>
+Partition filter: for example: if the SQL statement includes where userid<"200000", userid is partition column, the billed data bulk will only include the actually read-write partition but exclude data of other partition. </br>
 Column filter: for example: if the SQL statement submitted by the user is select name from class, only data bulk in the column name in class table will be calculated, excluding other columns. </br>
 SQL = Join + Group By + Order By + Distinct + window functions + max(insert into-1, 1)</br>
 SQL complexity computing: </br>

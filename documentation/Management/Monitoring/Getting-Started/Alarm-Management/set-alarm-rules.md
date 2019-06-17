@@ -30,6 +30,6 @@ After logging into JD Cloud account, view the account information drop-down box 
 
 ![image](https://raw.githubusercontent.com/jdcloudcom/cn/edit/image/Cloud-Monitor/yunziyuan/8.%E8%B5%84%E6%BA%90%E7%9B%91%E6%8E%A7.png)
 
-2. If there is an alarm template, you can tick “Use the Existing Alarm Rule Template” on the page of adding a new alarm rule to use the existing template.
+2. If there is an alarm template, you can tick "Use the Existing Alarm Rule Template" on the page of adding a new alarm rule to use the existing template.
  
 ![image](https://raw.githubusercontent.com/jdcloudcom/cn/edit/image/Cloud-Monitor/yunziyuan/9.%E8%B5%84%E6%BA%90%E7%9B%91%E6%8E%A7.png)

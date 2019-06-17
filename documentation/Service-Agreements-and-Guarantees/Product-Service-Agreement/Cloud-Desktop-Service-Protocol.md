@@ -1,6 +1,6 @@
 
 
-**These Service Terms are the effective contracts concluded by and between the owners of the JD Cloud website (referred to as “JD Cloud” in the Agreement, website: [www.jdcloud.com](https://www.jdcloud.com/index)) and you on the matters related to the JD WorkSpaces service. You accept these Service Terms by sealing, clicking to confirm on the web page or other means, including but not limited to actually using the JD WorkSpaces service of JD Cloud without clicking to confirm, indicating that you have reached an agreement with JD Cloud and agree to accept all agreed contents of these Service Terms. If the text sealed by the Parties is inconsistent with the Service Terms confirmed on the web page or clicked to be accepted otherwise, the text sealed by the Parties shall prevail.**
+**These Service Terms are the effective contracts concluded by and between the owners of the JD Cloud website (referred to as "JD Cloud" in the Agreement, website: [www.jdcloud.com](https://www.jdcloud.com/index)) and you on the matters related to the JD WorkSpaces service. You accept these Service Terms by sealing, clicking to confirm on the web page or other means, including but not limited to actually using the JD WorkSpaces service of JD Cloud without clicking to confirm, indicating that you have reached an agreement with JD Cloud and agree to accept all agreed contents of these Service Terms. If the text sealed by the Parties is inconsistent with the Service Terms confirmed on the web page or clicked to be accepted otherwise, the text sealed by the Parties shall prevail.**
 
  
 
@@ -10,7 +10,7 @@
 
 **1.** **Service Content**
 
-1.1 For the purposes of the Terms, the “Service" means: JD Cloud provides you with the JD WorkSpaces service, related technologies and network support services as displayed on the website [www.jdcloud.com](https://www.jdcloud.com/index). 
+1.1 For the purposes of the Terms, the "Service" means: JD Cloud provides you with the JD WorkSpaces service, related technologies and network support services as displayed on the website [www.jdcloud.com](https://www.jdcloud.com/index). 
 
  
 
@@ -78,7 +78,7 @@
 
 3.1.3.7.8 Other contents that violate laws and regulations, departmental regulations or national policies.
 
-3.1.3.8 Do not be occupy or cause programs or processes to occupy a large amount of the server memory, CPU or network bandwidth resources on the platform (hereinafter referred to as the “cloud platform”) consisting of JD Cloud cloud computing resources (such as cloud physical server, network bandwidth, storage space, etc.), cause serious and unreasonable load on the networks, servers (including but not limited to local and foreign and international networks, servers, etc.), products/applications, etc. of the users of JD Cloud cloud platform or other users of JD Cloud, affect the normal and smooth communications between JD Cloud and the Internet or JD Cloud between specific networks, servers and JD Cloud internal, or cause the system breakdown or system halt of the servers that the products and services of JD Cloud cloud platform or other user websites of JD Cloud are on, or failure of access of users to the products/applications based on the cloud platform, etc;
+3.1.3.8 Do not be occupy or cause programs or processes to occupy a large amount of the server memory, CPU or network bandwidth resources on the platform (hereinafter referred to as the "cloud platform") consisting of JD Cloud cloud computing resources (such as cloud physical server, network bandwidth, storage space, etc.), cause serious and unreasonable load on the networks, servers (including but not limited to local and foreign and international networks, servers, etc.), products/applications, etc. of the users of JD Cloud cloud platform or other users of JD Cloud, affect the normal and smooth communications between JD Cloud and the Internet or JD Cloud between specific networks, servers and JD Cloud internal, or cause the system breakdown or system halt of the servers that the products and services of JD Cloud cloud platform or other user websites of JD Cloud are on, or failure of access of users to the products/applications based on the cloud platform, etc;
 
 3.1.3.9 You fully understand and authorize JD Cloud to scan and monitor machines for security vulnerabilities; JD Cloud shall not bear any responsibility for the possible adverse effects (including but not limited to the occupancy of cloud physical server resource and network bandwidth; service exception, etc.) that may occur during the scanning process.
 

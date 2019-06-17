@@ -11,7 +11,7 @@ The document specifies renewal entry of JD Cloud DNS.
 
   ![renew1](../../../../image/dns-img/renew1.png)
 
-3. Find the domain to be renewed, click **Renew** in the operation bar, log in the “Renew Page” and carry out renewal operation
+3. Find the domain to be renewed, click **Renew** in the operation bar, log in the "Renew Page" and carry out renewal operation
 
   ![renew2](../../../../image/dns-img/renew2.png)
 
@@ -19,13 +19,13 @@ The document specifies renewal entry of JD Cloud DNS.
 
 1. Log in JD Cloud Console.
 
-2. Log in the header navigation or the left menu bar, click **Product** > **Management** > **Renewal Management** and open “Renewal Management” page.
+2. Log in the header navigation or the left menu bar, click **Product** > **Management** > **Renewal Management** and open "Renewal Management" page.
 
    ![renew4](../../../../image/dns-img/renew4.png)
 
-3. Click **JD Cloud DNS** in the “Renew Management” page and view JD Cloud DNS instance.
+3. Click **JD Cloud DNS** in the "Renew Management" page and view JD Cloud DNS instance.
 
-4. Click **Renew** in the operation bar, log in the “Renewal Page” and carry out renewal operation
+4. Click **Renew** in the operation bar, log in the "Renewal Page" and carry out renewal operation
 
    ![renew3](../../../../image/dns-img/renew3.png)
 

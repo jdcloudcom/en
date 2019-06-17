@@ -3,7 +3,7 @@ If you want to search cash income and expenditure details such recharge, consump
 
 ![file-list](../../../../image/Finance/RechargeAndWithdrawl/income-1.png)
 
-Click “[recharging history](https://uc.jdcloud.com/cost/capital/recharge-history)” “[withdrawal history](https://uc.jdcloud.com/cost/capital/withdrawal-history)” to search the details of your recharge history and withdrawal history respectively
+Click "[recharging history](https://uc.jdcloud.com/cost/capital/recharge-history)" "[withdrawal history](https://uc.jdcloud.com/cost/capital/withdrawal-history)" to search the details of your recharge history and withdrawal history respectively
 
 ![file-list](../../../../image/Finance/RechargeAndWithdrawl/income-2.png)
 ![file-list](../../../../image/Finance/RechargeAndWithdrawl/income-3.png)

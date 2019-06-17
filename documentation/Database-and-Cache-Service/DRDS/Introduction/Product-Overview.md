@@ -1,6 +1,6 @@
 # Product Overview
 
-DRDS is the database middleware product elaborately developed by JD Cloud itself, which implements automatic database and table sharding and mass data. It has advantages of ** high performance, distribution, elastic upgrade, being compatible with MySQL, etc. It is applicable to high concurrency, online transaction with mass data, historical data query, automatic data sharding and other business scenarios, having experienced the test of “618” and “Double 11” shopping festivals and been used on a large scale in JD Group.
+DRDS is the database middleware product elaborately developed by JD Cloud itself, which implements automatic database and table sharding and mass data. It has advantages of ** high performance, distribution, elastic upgrade, being compatible with MySQL, etc. It is applicable to high concurrency, online transaction with mass data, historical data query, automatic data sharding and other business scenarios, having experienced the test of "618" and "Double 11" shopping festivals and been used on a large scale in JD Group.
 
 ## Function Introduction
 ### Database and Table Sharding
