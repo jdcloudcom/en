@@ -10,11 +10,12 @@ Server availability refers to the ratio of the time that the server hardware per
 
 Server availability: No less than 99.9%
 
+Service cycle: one natural month shall be one service cycle; in case of less than one month, it shall not be counted as one service cycle.
+
 Unavailability refers to the state in which the cloud physical server has no-redundant hardware fault and needs to be shut down for maintenance.
 
-Available duration= (the total available duration of all servers)/(the total duration of all servers in the current month)
+The formula for computing the availability of Cloud Physical Server service is as follows: all available time for a single Cloud Physical Server per service cycle/(all available time for a single Cloud Physical Server per service cycle + all unavailable time for a single Cloud Physical Server per service cycle).
 
-Assume that Party A purchases 100 sets of cloud physical servers from Party B, that is, the available duration of the current month= 100*24*30*99.9%=71928 hours; and there is 100*24*30*(1- 99.9% ) =72 hours of unavailable duration.
 
 **2.2 Data Destructibility**
 
@@ -87,8 +88,6 @@ Fault time = unavailable time.
 The cloud physical server in monthly package is compensated in the way of service time compensation, i.e. 100 times/set of the fault time.
 
 Instructions:
-
-Total amount of compensation shall not exceed the total amount of cash paid for current service by a single cloud physical server.
 
 The compensation paid by JD Cloud shall be made by giving coupons, gift coupons only support the purchase of products of cloud physical server, the total amount of compensation shall not exceed the monthly service fee paid for the instance of the cloud physical server by the user (excluding the bonus balance or deduction by the coupons).
 

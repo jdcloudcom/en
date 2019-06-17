@@ -14,8 +14,13 @@ The use restrictions of JD Cloud Storage Gateway are shown as below:
 - The Storage Gateway does not support random writing, file lock, soft link and hard link now.
 - Clients accessing NFS need to be used by attaching by Root user other than other users temporarily.
 
+### Relevant Restrictions on FTP
+
+- mput, mget and append commands are not supported
+
 ### Related References
 - [Product Overview](../Introduction/Product-Overview.md)
 - [Core Concepts](../Introduction/Core-Concepts.md)
 - [Deploy Storage Gateway](../Operation-Guide/Installation-Configuration.md)
-- [Use Storage Gateway](../Operation-Guide/Use-Storage-Gateway.md)
+- [Use NFS to access](../Operation-Guide/Use-Storage-Gateway.md)
+- [Use FTP to access](../Operation-Guide/Use-FTP.md)

@@ -439,3 +439,9 @@ items:
    items:
       - name: General Questions
         href: FAQ/General-Problem.md
+ - name: User Agreements
+   items:
+     - name: Service Terms
+       href: User-Agreement/Product-Terms-Of-Service.md                 
+     - name: SLA
+       href: User-Agreement/SLA.md             

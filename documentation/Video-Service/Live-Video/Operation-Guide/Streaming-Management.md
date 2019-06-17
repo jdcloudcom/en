@@ -3,22 +3,22 @@
 
 ##1. Check Pushing Streaming List
 
-Log in the live broadcast Console and go to the "Streaming Management" page; click "Select Domain" drop-down box and check the pushing steaming domain you want to view in the domain list; the system shall refresh and show information list of the stream which is now being pushed automatically
+Log in the Live Console, access the "Streaming Management" page, click the drop-down box of **Streaming Type** and "Select Domain" in turn, select the pushing streaming domain to be viewed from the domain list and fill in appName and streamName optionally. Then, the system will be automatically refreshed and streaming information list under the current screening conditions will be displayed
 
-![](https://github.com/jdcloudcom/cn/blob/edit/image/live-video/%E6%B5%81%E7%AE%A1%E7%90%86-%E6%B5%81%E6%9F%A5%E7%9C%8B%E5%9F%9F%E5%90%8D%E9%80%89%E6%8B%A9.png)
+![](https://github.com/jdcloudcom/cn/blob/cn-Live-Video/image/live-video/54%E6%B5%81%E7%AE%A1%E7%90%86.png)
 
-Information of stream in different status can be viewed fast by switching "Under Pushing Streaming","Blacklist" in the "Status" title bar
+Streaming information of different statuses can be rapidly viewed by switching among "All Streaming", "On-line Streaming", "Historical Streaming" and "Forbidden Streaming" in the "Streaming Type" column
 
-![](https://github.com/jdcloudcom/cn/blob/edit/image/live-video/%E6%B5%81%E7%AE%A1%E7%90%86-%E6%B5%81%E6%9F%A5%E7%9C%8B-%E7%8A%B6%E6%80%81%E5%88%87%E6%8D%A2.png)
+![](https://github.com/jdcloudcom/cn/blob/cn-Live-Video/image/live-video/55%E6%B5%81%E7%AE%A1%E7%90%86.png)
 
 ## 2. Add to Blacklist
 
-If there are irregularities in certain steam, click "Add to Blacklist" on the right of the stream in the "Streaming Management" page and cut off the stream; the stream added to blacklist shall not carry on operations of pushing and pulling streaming
+If a path streaming has illegal behaviors, you can click **Forbid Pushing Streaming** at the right of the streaming on the "Streaming Management". If steam breaking operation is made to stream, stream added in the blacklist will be no longer applicable for pulling streaming and pulling streaming operation
 
-![](https://github.com/jdcloudcom/cn/blob/edit/image/live-video/%E6%B5%81%E7%AE%A1%E7%90%86-%E6%B5%81%E6%9F%A5%E7%9C%8B-%E5%8A%A0%E5%85%A5%E9%BB%91%E5%90%8D%E5%8D%95.png)
+![](https://github.com/jdcloudcom/cn/blob/cn-Live-Video/image/live-video/56%E6%B5%81%E7%AE%A1%E7%90%86.png)
 
 ## 3. Remove from Blacklist
 
 If you want remove streams added to blacklist, click "Restore Pushing Streaming" on the right of the live stream and after restore, the live stream can be normally pushed and broadcast
 
-![](https://github.com/jdcloudcom/cn/blob/edit/image/live-video/%E6%B5%81%E7%AE%A1%E7%90%86-%E6%B5%81%E6%9F%A5%E7%9C%8B-%E6%81%A2%E5%A4%8D%E6%8E%A8%E6%B5%81.png)
+![](https://github.com/jdcloudcom/cn/blob/cn-Live-Video/image/live-video/57%E6%B5%81%E7%AE%A1%E7%90%86.png)

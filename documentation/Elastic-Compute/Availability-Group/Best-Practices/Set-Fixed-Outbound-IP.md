@@ -1,56 +1,57 @@
-# Set-Fixed-Outbound-IP
+# Set the IPs of fixed exits
 
-If the following three requirements are posed to the Virtual Machines in your Availability Group:
+If you have these three demands for the Virtual Machines in Availability Group:
 
-* Receives requests from a Load Balancer
-* Virtual Machines in the Availability Group requires an active access to the Internet
-* Fixed EIP is expected when access to the Internet
+* Receive requests from Load Balancer
+* The Virtual Machines in Availability Group needs to actively access the public network
+* A fixed public IP is expected to be used when the public network is accessed
+
 ![](../../../../image/ag/settingoutboundIP.png)
 
-## Operational Steps
+## Operation Steps
 
 
-**Step 1: Create a VPC and two Subnets: Subnet 1 and Subnet 2: one subnet is where the Availability Group is located and the other is where NAT instances located.**
+**Step 1: Create the Virtual Private Cloud and two subnets: Subnet 1 and Subnet 2. One of the subnets contains Availability Group, and the other contains the NAT instance.**
 
-1. Access to [ VPC Console](https://cns-console.jdcloud.com/vpc/list) to go to the  VPC Listing page. Or access to [JD Cloud Console](https://console.jdcloud.com) and click **Networking**-**Virtual Private Cloud** in left guide bar to go to the VPC Listing page.
-2. Choose region.
-3. Click **Creation** button.
-4. A pop-up screen for Virtual Private Cloud creation will show up. Set up therein the name and the description of Virtual Private Cloud.
+1. Access the [Virtual Private Cloud Console](https://cns-console.jdcloud.com/vpc/list) to log in the VPC list page. Or access [JD Cloud Console](https://console.jdcloud.com) click the left navigation bar **Network** - **Virtual Private Cloud** to log in the VPC list page.
+2. Select regions.
+3. Click **Create** button.
+4. Set the name and description of Virtual Private Cloud in the popped-up Create virtual private cloud popup.
 	
-	The name shall be set up at this step as: “Web Service”.
-5. Set up CIDR for the VPC: Set up the border of Virtual Private Cloud. CIDR shall only be the intranet segments, with choices ranging from 10.0.0.0 (mask 16-28), 172.16.0.0~172.31.0.0 (mask 16-28), to 192.168.0.0 (mask 16-28). CIDR can also be the non-preset type. In this case, the VPC border will operate in auto scaling with the applied subnet segments. Users with good understanding of network knowledge are recommended for VPC of non-preset CIDR type.
+	Set the name of this step as: "Web service".
+5. Set the CIDR of Virtual Private Cloud: Set the boundary of the Virtual Private Cloud. CIDR can only be an intranet segment, and the optional scope is 10.0.0.0 (mask 16 ~ 28), 172.16.0.0 ~ 172.31.0.0 (mask 16 ~ 28), 192.168.0.0 (mask 16 ~ 28). CIDR presetting can be ignored. In this case, the boundary of vpc will automatically scale with the subnet segment therein. The user having deeply understood the network is suggested to select the Virtual Private Cloud without preset CIDR.
 
-	At this step, CIDR shall be set up as VPC 192.168.0.0/16 and be named as XXX.
+	In this step, CIDR is set as the Virtual Private Cloud of 192.168.0.0/16, and is named as.
 
-6. Click **OK** to view the Virtual Private Cloud just created.
-7. Visit [Subnet Console](https://cns-console.jdcloud.com/subnet/list) to access to subnet listing page. Or visit [JD Cloud Console](https://console.jdcloud.com) and click **Networking**-**Virtual Private Cloud**-**Subnet** in left guide bar to go to the Subnet Listing page.
-8. Choose the region where you just created the VPC and click **Creation** button to pop up a Create Subnet Popup Window.
-9. Choose “Web Service” of hosting VPC; subnet CIDR shall only be Intranet segments, with choices within “Web Service” CIDR range. The allocated CIDR for Subnet 1 is 192.168.1.0/24 and for Subnet 2 is 192.168.2.0/24.
-10. Set up subnet name and description.
-11. Choose associated route table for subnet. Each subnet can be and shall be attached with one route table. Please remember to attach an independent route table (such as “Availability Group suited route table”) for Subnet 1, as it requires the public network access.
-12. Click **OK** to trigger the Create Subnet.
+6. Click **OK** to view the Virtual Private Cloud created.
+7. Access [Subnet Console](https://cns-console.jdcloud.com/subnet/list) to log in the subnet list page. Or access [JD Cloud Console](https://console.jdcloud.com) click the left navigation bar **Network** - **Virtual Private Cloud** - **Subnet** to log in the VPC list page.
+8. Select the region of the Virtual Private Cloud created just now, and click **Create**, so the Create Subnet popup pops up.
+9. Select the "Web service" of the corresponding Virtual Private Cloud; the CIDR of a subnet can only be an intranet segment, and the optional scope is within the CIDR scope of "Web service". Here, 192.168.1.0/24 and 192.168.2.0/24 are assigned to subnets 1 and 2 respectively.
+10. Set the name and description of the subnet.
+11. Select the route table associated with subnets, each subnet can and must associate a route table. Please note that a separate route table, such as "Availability Group Route Table" is configured for subnet 1 with public network access requirement.
+12. Click **OK** to trigger subnet creation.
 
-**Step 2: Create NAT instance in Subnet 2 and associate an EIP to the instance. This IP is the fixed IP for Virtual Machines of Availability Group to access to public network.**
+**Step 2: Create the NAT instance in Subnet 2, and assign the elastic IP for the instance. The IP is the fixed IP address for the Virtual Machines in Availability Group to access the public network.**
 
-Operation steps for NAT creation can be referenced from [Linux Instance Creation](../../Virtual-Machines/Getting-Start-Linux/Create-Linux-Instance.md), only select the CentOS 7.2 64-bit NAT Gateway from the public images.
+Refer to [Create Linux instances](../../Virtual-Machines/Getting-Start-Linux/Create-Linux-Instance.md) for the detailed steps for creating NAT instances. It is only required to select the CentOS 7.2 64-bit NAT Gateway in public images.
 
-**Step 3: Configure Virtual Private Cloud route table and direct the public traffic flow in Subnet 1 into the NAT instance.**
+**Step 3: Configure the Virtual Private Cloud route table to guide the public network flow of Subnet 1 to the NAT instance.**
 
-1. Visit [Route Table Console](https://cns-console.jdcloud.com/routeTable/list) to go to the rout table listing page. Or access to [JD Cloud Console](https://console.jdcloud.com) and go to route table listing page by clicking **Network**-**Virtual Private Cloud**-**Route Table** in the left guide menu.
-2. Find “Availability Group Route Table” and click to go to the detail page;
-3. Click **Routing Strategy** tag to check Tab information of the route strategy and click **Edit**.
-4. Add routing strategy. The destination shall be a public IP or be 0.0.0.0/0. Next hop shall be Virtual Machines type and shall be picked after getting access to the instances created by NAT Gateway image.
+1. Access the [route table Console](https://cns-console.jdcloud.com/routeTable/list) to log in the route table list page. Or access the [JD Cloud Console](https://console.jdcloud.com), click the left navigation bar **Network** - **Virtual Private Cloud** - **Route Table** to log in the route table list page.
+2. Find the "Availability Group Route Table", click the name to log in the details;
+3. Click **Route Policy** tag to view the information on the route policy tab, and click **Edit**.
+4. To add a route policy, the target end is the address of the public network or 0.0.0.0/0. The next-hop type is Virtual Machines, and the instance created by NAT Gateway image shall be passed before the next-hop is selected.
 5. Click **Save**.
 
-**Step 4: Create Availability Group on the basis of Subnet 1 and add new instances to the Availability Group.**
+**Step 4: Availability Group is created based on Subnet 1, and new instances shall be added to Availability Group.**
 
-You are now required to create Availability Group for your service. You can log into [Availability Group Quick Start Guide](../Getting-Start.md) to view more detailed steps.
+Now you need to create Availability Group for your business. Refer to [Quick Start for Availability Group](../Getting-Start.md) for the detailed steps.
 
-	Please note that the VPC of the Availability Group shall be the same VPC of the NAT instance and the subnet shall be different.
+	Please note that the Virtual Private Cloud of Availability Group shall be the same as that of the NAT instance, but the subnet shall be different.
 	
-Now Virtual Machines in the Availability Group can all visit public network via the EIP associated with the NAT instance.
+So, the Virtual Machines in Availability Group can access the public network through the elastic IP configured by the NAT instance.
 
 
 ## Related References
 
-[Create Linux Instance](../../Virtual-Machines/Getting-Start-Linux/Create-Linux-Instance.md)
+[Create Linux instance](../../Virtual-Machines/Getting-Start-Linux/Create-Linux-Instance.md)

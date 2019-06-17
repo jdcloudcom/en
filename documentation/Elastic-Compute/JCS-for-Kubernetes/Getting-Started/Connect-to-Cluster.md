@@ -11,14 +11,12 @@ The kubectl version can be the same as the cluster version, or the cluster versi
 
 ## 2. Install and set the kubectl client
 
-Open the [Kubernetes Version Page](https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG-1.12.md), find the client binaries (aka kubectl), select the client for the corresponding operating system, and then copy the link address.
+Open the [Kubernetes Version Page](https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG-1.12.md), find the client binaries (aka kubectl), select the client for the corresponding operating system, and then copy the link address. Example, select kubectl version 1.12.3 under Centos 7.4 64-bit system with the link address of https://dl.k8s.io/v1.12.3/kubernetes-client-linux-amd64.tar.gz;
 
-Example, select kubectl version 1.12.3 under Centos 7.4 64-bit system with the link address of https://dl.k8s.io/v1.12.3/kubernetes-client-linux-amd64.tar.gz;
-
-Execute the following commands:
+JD Cloud provides the kubectl client of Version 1.12.3, and you can directly download it for use. For details, please refer to the following commands:
 
 ```
-wget https://dl.k8s.io/v1.12.3/kubernetes-client-linux-amd64.tar.gz
+wget https://kubernetes.s3.cn-north-1.jdcloud-oss.com/kubectl/1.12.3/kubernetes-client-linux-amd64.tar.gz
 tar -zxvf kubernetes-client-linux-amd64.tar.gz
 cd kubernetes/client/bin
 chmod +x ./kubectl

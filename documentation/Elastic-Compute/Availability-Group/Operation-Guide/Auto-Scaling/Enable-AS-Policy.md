@@ -1,16 +1,16 @@
-# Enable Auto-Scaling Policy
+# Activate the auto scaling policy
 
-If you need to restore a suspended scaling policy, you can achieve it by enabling the scaling policy operation.
+You can achieve the resumption of a suspended auto scaling policy by activating the scaling policy, if required.
 
-## Operational Steps
+## Operation Steps
 
-1. Access[Availability Groups Console](https://cns-console.jdcloud.com/availabilitygroup/list) to enter the Availability Groups List page. Or access[JD Cloud Console](https://console.jdcloud.com) and then click on the left navigation bar **Elastic Compute**-**Availability Groups** to enter the Availability Groups List page. 
-2. Find the corresponding Availability Group and click the name to enter the details page.
-3. Click on **Auto-Scaling Tab**-**Alarm/Fixed-time policy**.
-4. Find the scaling policy that needs to be enabled, and click the **Enable**.
-4. Click **OK** in the pop-up double-confirmation window.
+1. Access [Availability Group Console](https://cns-console.jdcloud.com/availabilitygroup/list) to log in the Availability Group list page. Or access [JD Cloud Console](https://console.jdcloud.com) and log in the Availability Group list page by clicking **Elastic Compute** - **Availability Group** on the left navigation bar. 
+2. Find the corresponding Availability Group, click the name to log in the details.
+3. Click **Automatic Scaling Tab** - **Alarm/Periodic Policy**.
+4. Find the scaling policy to be activated, and click **Enable** button.
+4. Click **OK** in the popped-up secondary confirmation popup.
 
-After the completion of the operation, the corresponding scaling policy will become “Enabled”.
+The corresponding scaling policy will change into the "Enabled" status, after the operation is completed.
 		
 
 

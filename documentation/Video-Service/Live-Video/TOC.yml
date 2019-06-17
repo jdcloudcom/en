@@ -41,6 +41,8 @@ items:
       href: Getting-Started/Start-Playing.md
 - name: Operation Guide
   items:
+    - name: Overview
+      href: Operation-Guide/Live-overview.md  
     - name: Domain Management
       href: Operation-Guide/Domain-Management.md
     - name: Live Streaming
@@ -49,6 +51,8 @@ items:
       href: Operation-Guide/Live-Broadcast.md    
     - name: Live Transcoding
       href: Operation-Guide/Live-Transcoding.md
+    - name: Live Watermark
+      href: Operation-Guide/Live-watermark.md 
     - name: Live Recording
       href: Operation-Guide/Live-Recording.md  
     - name: Live Snapshot

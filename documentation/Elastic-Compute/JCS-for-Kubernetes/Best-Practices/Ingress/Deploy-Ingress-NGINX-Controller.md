@@ -204,18 +204,23 @@ III. Example Application
             backend:
               serviceName: servicetest-jdcloud
               servicePort: 60000
+    ```
 
      
 5. Execute the commands below to deploy the above ingress resource to clusters:
 
     ```
-    
+
     kubectl create -f X.yaml        # X.yaml Please use corresponding Yaml file name to replace 
 
     kubectl get ingress k8s-app-monitor-agent-ingress
+
     NAME                            HOSTS                                       ADDRESS   PORTS   AGE
+
     k8s-app-monitor-agent-ingress   k8s-ingress-nginx-controller-test.jdcloud             80      23d
+
     ```
+    
 6. Add DNS configuration in /etc/hosts of local server: IP refers to the external IP of LoadBalance type service which provides public network entrance to nginx-ingress controller created in Item 8, Party II, and domain refers to the name of Virtual Machines: k8s-ingress-nginx-controller-test.jdcloud, configured in ingress resource rule;
 7. Upon inputting k8s-ingress-nginx-controller-test.jdcloud/servicetest-jdcloud in a browser, the output results can be viewed, i.e. nginx webserver deployed in Item 1 has been exposed outside the cluster.
 

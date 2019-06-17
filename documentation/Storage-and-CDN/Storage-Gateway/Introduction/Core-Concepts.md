@@ -7,3 +7,4 @@ File Gateway|Storage Gateway that supports file protocol access is also called F
 Sharing File System|Storage Gateway can enable its sharing file system. One file system corresponds to one OSS Bucket. Users access sharing file system on the Storage Gateway.
 Cache|Cloud Disk Service attached to the Virtual Machines provides cache for the Storage Gateway, which the data written into the Storage Gateway will be stored in the cache disks for offering low latency read-write access; the data in the cache disks will be transmitted to OSS asynchronously.
 NFS|Networking file system consists of NFS Client and NFS Server, as the NFS Server, the Storage Gateway provides files storage service for each Client.
+FTP|The file transfer protocol is a standard protocol used for transferring files on the Internet and consists of FTP Client/Server.

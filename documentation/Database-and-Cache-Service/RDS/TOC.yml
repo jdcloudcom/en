@@ -84,7 +84,9 @@
           - name:  Failover Instance
             href: Operation-Guide/Instance/Failover-Instance.md
           - name: Domain Switch
-            href: Operation-Guide/Instance/Exchanged-DNS.md           
+            href: Operation-Guide/Instance/Exchanged-DNS.md          
+          - name: Migrate the availability zone
+            href: Operation-Guide/Instance/Migrate-AZ.md                
           - name: Reboot Instance
             items:
             - name: Reboot JCS for MySQL

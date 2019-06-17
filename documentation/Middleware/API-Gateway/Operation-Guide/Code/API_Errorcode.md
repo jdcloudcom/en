@@ -17,6 +17,7 @@ You may be faced with error codes when using services of the API gateway. The ta
 | HTTP_FORBIDDEN   | 403 |  No Resource Permission  |    Please authorize the permission to relevant systems or contact relevant administrator for permission authorization     |
 | RESOURCE_NOT_EXIST   | 404 |  Resource Absent  |     Please check access information    |
 | NOT_FOUND   | 404 |  resource cannot be found   |     Please check access information    |
+| Request Timeout   | 408 |  Request time out   |     Please check the connection information    |
 | ABORTED   | 409 |  Operation cannot be made to the resource now  |    Please check access information     |
 | ALREADY_EXISTS   | 409 |  The resource already exists  |     Please check access information    |
 | CONFLICT   | 409 |  The two resources have different parent resources  |    Please check access information     |

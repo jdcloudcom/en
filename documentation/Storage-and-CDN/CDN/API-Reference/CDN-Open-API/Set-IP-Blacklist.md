@@ -34,10 +34,7 @@ https://opencdn.jcloud.com/api/setIpBlackList
     "username": "user_test",
     "signature": "ca4c56f85e3582f4d814cc77949c82a7",
     "domain":"test.jcloud.com",
-    "ipList":[
-        "1.1.1.1",
-        "2.2.2.2"
-        ]
+    "ipList":"1.1.1.1,2.2.2.2"
 }
 ```
 

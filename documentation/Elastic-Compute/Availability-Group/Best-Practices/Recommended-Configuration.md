@@ -1,13 +1,13 @@
-# Recommended Configuration
+# Optimal Configuration Recommended
 
-*  Different services shall be allocated with independent Availability Groups. If there are  instances of different function applied in the same Availability Group, one occurrence of fault may influence all the instances of the same function and thus leads to the failure of the whole service.
-* The Availability Group is configured with multiple Availability Zones to cope with data center level fault.
-* Create instances in an Availability Group (no less than two instances), so as to avoid single point service failure.
-* Attach the Availability Group to load balancer to serve as backend service group for service load balance.
-* Enable the auto-scaling (optional) to cope with load fluctuation.
+* It is required to assign one Availability Group for different services independently. One failure may affect all the instances with one function, resulting in unavailability of the overall business, if the instances with two functions are mixed in one Availability Group.
+* The Availability Group is configured with multiple Availability Zones, to deal with the fault at the data center level.
+* Create multiple instances (no less than two) in Availability Group, avoiding single-point faults in services.
+* The Availability Group is attached to the Load Balancer to distribute business flow as its backend service group.
+* Enable Auto Scaling (optional) to deal with the fluctuations in business loading.
 
-The following figure shows an example of high availability of Web service. The Availability Group of Web service and Database are different and two Availability Zones are already configured into the two Availability Groups. Multiple instances have been deployed in each Availability Group and the Availability Groups are all attached to the responding load balancers. Instances in the Availability Group of Web service will receive service traffic from the Internet Load Balancer. The fault in one FD will only influence instances of the affected FD and will not influence Web instances and database instances in other FDs.
+In the following diagram, by taking the configuration of one available Web service as an example, the Web service and Database service respectively belong to two different Availability Groups, and the two Availability Groups have been configured with two Availability Zones. Multiple instances are deployed in the single Availability Group, and they have been attached to the corresponding Load Balancer. The instances in the Web service Availability Group will receive business flow from the Internet Load Balancer. When an FD breaks down, only the instances in the FD will be affected, rather than the Web instances in other FDs and the database instance.
 
-	The figure only gives an example of 2 FDs in each Availability Zone of a Availability Group. There are actually 5 FDs in each Availability Zone.
+	Each Availability Zone in the single Availability Group in the diagram shows 2 FDs only, and actually, there are 5 FDs in each Availability Zone.
 
 ![](../../../../image/ag/scenarios1.png)

@@ -18,13 +18,13 @@ JD Cloud provides two billing modes for different user needs, namely Pay-By-Conf
 
 Function     | Pay by Configuration |Pay by Monthly Package
 -------- | ---|----
-Renewal | Non-support|Non-support
+Renewal | Non-support|Support
 Release the instance at any time  | Supported|Non-support
 Adjust insaatance configuration     | Non-support|Non-support
 Associate Elastic IP     | Supported| Supported
 Attach Cloud Disk   | Supported, attach only when creating a container | Supported, attach only when creating a container 
 Expand Cloud Disk Service     | Supported| Supported
-Convert billing mode     | Non-support|Non-support
+Convert billing mode |Support, with the billing method of pay by configuration converted to the billing method of monthly package    | Non-support
 Create all specification instances     | Supported  | Supported
 Use the Cloud Monitoring for free     | Supported| Supported
 

@@ -1,7 +1,8 @@
 # Billing Summary
 ## Charge Method
 
-Pay-As-You-Go, calculate according to daily peak bandwidth; billing cycle is 0:00-24:00 everyday and the bill for the day before shall be calculated at 6:00 everyday.
+The Live Video of JD Cloud adopts the Pay-As-You-Go method, and the settlement is made per day as per consumption of different billing item. You need recharge your JD Cloud account in advance, and the system will conduct statistics of actual usage for the previous recharging period
+, push bill and settle costs, and deduct corresponding amount from balance of your account.  
 
 ## Notes on Delay in Payment/Expiration
 

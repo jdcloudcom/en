@@ -4,11 +4,11 @@
 
 Log in the Live Broadcast Console and go to the "Domain Name Management" page; select the group of domain names to be viewed for broadcast address and click "Management" on the right to go to the "Basic Information" page
 
-![](https://github.com/jdcloudcom/cn/blob/edit/image/live-video/%E6%8E%A8%E6%B5%81%E5%9C%B0%E5%9D%80-%E8%8E%B7%E5%8F%96%E6%8E%A8%E6%B5%81%E5%9C%B0%E5%9D%80.png)
+![](https://github.com/jdcloudcom/cn/blob/cn-Live-Video/image/live-video/6%E7%9B%B4%E6%92%AD%E6%8E%A8%E6%B5%81.png)
 
 The broadcast address can be viewed and copied in the "Broadcast Information" bar and broadcast address is spliced according to certain rules; among which, broadcast address, "APPName" and "StreamName" are customized at user pushing streaming and currently only supporting English letters, digits, "-", "_" with length between 1-50 characters; the customer should splice the broadcast address according to the APPName and StreamName defined at the time watching pushing streaming
 
-![](https://github.com/jdcloudcom/cn/blob/edit/image/live-video/%E5%9F%9F%E5%90%8D%E7%AE%A1%E7%90%86-%E8%8E%B7%E5%8F%96%E6%92%AD%E6%94%BE%E5%9C%B0%E5%9D%80.png)
+![](https://github.com/jdcloudcom/cn/blob/cn-Live-Video/image/live-video/8%E7%9B%B4%E6%92%AD%E6%92%AD%E6%94%BE.png)
 
 ## **2. Description of Broadcast Address**
 

@@ -1,40 +1,31 @@
 # Live Transcoding
 
-Live Video service supports transcoding and can transform the video stream to different code rates and resolutions real-timely according to template that is set, when pushing streaming is started, the transcoding is started automatically and customer can watch the video streams after transcoding according to the broadcast address after transcoding, transcoding broadcast address is spliced according to certain rules and refer to Live Broadcast - Broadcast Address chapter for details.
+The Live Video Service supports the transcode function, transcode video streaming into different code rates and resolutions as per the preset template in real time. After transcode configuration is completed and when pushing streaming is started, the transcode operation will be started automatically.   
+The customer can view transcoded video streaming with the transcoded play address, and the transcoded playing address is stitched with certain rules, and the stitching rules are as follows:  
+rtmp://Domain/{AppName}/{StreamName}_Code Rate Identifier  
+http://Domain/{AppName}/{StreamName}_Code Rate Identifier.flv  
+http://Domain/{AppName}/{StreamName}_Code Rate Identifier.m3u8.  
+The "Code Rate Identifier" is the pull-transcode streaming identifier field filled while creating transcode templates.  
 
-Live transcoding templates are distinguished by AppName and all streams under the same AppName shall be transcoded according to parameters of current template settings.
+Configuration of live transcode configuration is divided in two steps: 1. Create transcode template; 2. Add transcode configuration.   
+The system has preset a standard quality template for you. If it cannot satisfy your transcode needs, please first create a transcode template and then add domain transcode configuration. After transcode configuration is completed, the newly-pushed live streaming will take effect. For transcode configuration, three levels can be associated, including domain, APP and streaming. The configuration will take effect as per minimum granularity. For example, for domain rtmp://abc.com/live/123, the transcode template A can be associated at the APP"live" level; the transcode template B can be associated at the stream "123" level; and then, all other streams under APP"live", except "123", and the template B is only effective for the stream "123".
 
-If the AppName is filled with test when configuring the template, then all the streams under test shall execute tanscoding operation and transcode the streams according to parameters of test template settings at the same time.
+## Step 1: Create a template
 
-## 1. New Template
+Log in the Live Console, access "Template Management"-"Transcode Template Management" page, view "General Transcode Template" and view if the following system prefabricated transcode template conforms to your transcode configuration demands. If yes, you do not need to create any new templates and corresponding templates can be directly called from the transcode configuration.   
+![](https://github.com/jdcloudcom/cn/blob/cn-Live-Video/image/live-video/9%E6%96%B0%E5%BB%BA%E8%BD%AC%E7%A0%81%E6%A8%A1%E6%9D%BF%E9%9C%80%E4%BF%AE%E6%94%B9.png)  
+Where prefabricated transcode template cannot meet your transcode requests, please access the "Customized Transcode Template" page to add the customized transcode template.
+![](https://github.com/jdcloudcom/cn/blob/cn-Live-Video/image/live-video/10%E6%96%B0%E5%BB%BA%E8%BD%AC%E7%A0%81%E6%A8%A1%E6%9D%BF.png)
+Click **Add Transcode Template**, output demands as per your real transcode, fill in corresponding transcode video and audio parameters and click **Create Now** to successfully create the transcode template. The successfully-created transcode template will be displayed in the transcode template list.  
+![](https://github.com/jdcloudcom/cn/blob/cn-Live-Video/image/live-video/11%E6%96%B0%E5%BB%BA%E8%BD%AC%E7%A0%81%E6%A8%A1%E6%9D%BF.png) 
 
-Log in the live broadcast Console and go to the "Domain Name Management" page, select the group of domains to be viewed for broadcast addresses and click "Management" on the right to enter domain configuration page, click "Transcoding Configuration" to switch to the management page for template recording
+## Step 2: Create transcode configuration  
 
-![](https://github.com/jdcloudcom/cn/blob/cn-live-video/image/live-video/%E7%9B%B4%E6%92%AD%E8%BD%AC%E7%A0%81-%E8%BD%AC%E7%A0%81%E9%A1%B5%E5%88%87%E6%8D%A2.png)
-
-Click "New Template" in the Transcoding Configuration page and fill in corresponding parameter information in the pop-up window, then click "OK" to complete the adding of transcoding template.
-
-![](https://github.com/jdcloudcom/cn/blob/cn-live-video/image/live-video/%E7%9B%B4%E6%92%AD%E8%BD%AC%E7%A0%81-%E6%96%B0%E5%BB%BA%E8%BD%AC%E7%A0%81%E6%A8%A1%E6%9D%BF%E6%8C%89%E9%92%AE.png)
-
-Template parameters instructions are as follows:
-
-![](https://github.com/jdcloudcom/cn/blob/cn-live-video/image/live-video/%E7%9B%B4%E6%92%AD%E8%BD%AC%E7%A0%81-%E6%96%B0%E5%BB%BA%E6%A8%A1%E6%9D%BF.png)
-
-**App
-Name**: Application name for live transcoding, which at present only supports English text, digits, "-", "_" with length between 1-50 characters
-
-**Transcoding Template**: Optional prefabricated transcoding template types, which at present supports laser disc, standard definition and high definition, one of which shall be checked when creating a template.
-
-Parameter instructions for prefabricated template:
-
-| **Template Name** | **Template ID** | **Resolution** | **Code Rate (kbps)** |
-|--------------|-------------|------------|------------------|
-| Laser Disc         | lld         | 640x360    | 200              |
-| Standard Definition         | lsd         | 854x480    | 400              |
-| High Definition         | lhd         | 1280x720   | 800              |
-
-## 2. Delete Template
-
-Log in the live broadcast Console and go to the "Transcoding Setting" page; click "Delete" on the right of the transcoding template you want to delete and click "OK" in the pop-up window to complete.
-
-![](https://github.com/jdcloudcom/cn/blob/cn-live-video/image/live-video/%E7%9B%B4%E6%92%AD%E8%BD%AC%E7%A0%81-%E6%A8%A1%E6%9D%BF%E5%88%A0%E9%99%A4.png)
+Click **Domain Management** on the left menu bar of the Console, find the live domain group requiring transcode configuration, click **Management** and access the "Transcode Configuration" page.
+![](https://github.com/jdcloudcom/cn/blob/cn-Live-Video/image/live-video/12%E6%96%B0%E5%BB%BA%E8%BD%AC%E7%A0%81%E9%85%8D%E7%BD%AE.png)
+Click **Create Transcode Configuration** on the transcode configuration page and access the transcode configuration page:
+![](https://github.com/jdcloudcom/cn/blob/cn-Live-Video/image/live-video/13%E6%96%B0%E5%BB%BA%E8%BD%AC%E7%A0%81%E9%85%8D%E7%BD%AE.png)  
+Select **All AppName**, then the configuration is effective to all APPs, i.e. the entire domain. If customized AppName is designated, then APP name requiring transcode configuration shall be filled in and then the effective range of "All StreamName" can be continuously selected or customized StreamName can be designated. If customized StreamName is designated, then StreamName name requiring transcode configuration shall be filled in. Then, select corresponding transcode template (s) which is/are applicable independently or multiply. Click **Create Now** to complete transcode configuration. After transcode configuration is created, the created transcode rules can be viewed in the transcode configuration list. The configuration is effective to newly-pushed live streaming.
+![](https://github.com/jdcloudcom/cn/blob/cn-Live-Video/image/live-video/14%E6%96%B0%E5%BB%BA%E8%BD%AC%E7%A0%81%E9%85%8D%E7%BD%AE.png) 
+In the transcode configuration list, ALL in the AppName column means that the newly-created transcode configuration is effective to all AppName, i.e. effective to the domain level. ALL in the StreamName column means that the newly-created transcode configuration is effective to all StreamName, i.e. effective to the APP level.
+![](https://github.com/jdcloudcom/cn/blob/cn-Live-Video/image/live-video/15%E6%96%B0%E5%BB%BA%E8%BD%AC%E7%A0%81%E9%85%8D%E7%BD%AE.png) 

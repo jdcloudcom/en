@@ -61,3 +61,10 @@ After the reboot is complete, enter the following name to view if the current sy
 ```
 uname -r
 ```
+10. Compared with the earlier version, Storage Gateway 1_0_4 image restores the following two vulnerabilities:
+- [Intel Processor Meltdown and Spectre Security Vulnerability](https://docs.jdcloud.com/en/security-instruction/intel-meltdown-spectre-solution)
+- [NTP Service and Monlist Vulnerability](https://docs.jdcloud.com/en/security-instruction/ntp-monlist-vulnerability)
+
+If you use an image of the early version (e.g.: Storage Gateway1_0_0), please upgrade to Storage Gateway 1_0_4 version as quickly as possible.
+
+If it is inconvenient to conduct upgrading due to business, please refer to the above-mentioned vulnerability solution to conduct repair on the original system.

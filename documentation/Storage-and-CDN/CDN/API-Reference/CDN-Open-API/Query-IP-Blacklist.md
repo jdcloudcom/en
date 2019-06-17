@@ -48,7 +48,7 @@ https://opencdn.jcloud.com/api/queryIpBlackList
       "10.112.3.1",
       "10.112.3.2",
     ],
-    "isOpen": "off"
+    "isOpen": "on"
   }
 }
 

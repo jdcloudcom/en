@@ -1,4 +1,4 @@
-# Use Storage Gateway
+# Use NFS to access
 
 After completion of Storage Gateway deployment and start, you can use a Linux instance as a NFS client to access Storage Gateway that shall be deployed with the accessing NFS client under the same VPC.
 

@@ -9,7 +9,7 @@ The Availability Group does not currently enable auto-scaling.
 
 1. Access[Availability Groups Console](https://cns-console.jdcloud.com/availabilitygroup/list) to enter the Availability Groups List page. Or access[JD Cloud Console](https://console.jdcloud.com) and then click on the left navigation bar **Elastic Compute**-**Availability Groups** to enter the Availability Groups List page. 
 2. Find the name of the corresponding Availability Group.
-3. Click **Operation**-**Enable Auto-Scaling**.
+3. Click **Operation** - **Enable Auto-Scaling**.
 4. In the pop-out window, please specify the minimum and maximum instance number as well as the remove policy of the Availability Group.
 		
 		The number of instances in the Availability Group will remain between the minimum and maximum number of scaling. If the current instance number of Availability Group is lower than the minimum instance number, new instances will be automatically added to meet the minimum limit. Please note that the automatically added Virtual Machines will be Pay By Configuration; if the current instance number of Availability Group is higher than the maximum instance number, instances will be removed to meet the maximum limit（adding manually will not be affected by this rule）. Note: the automatically removed Virtual Machines will be directly deleted (different from those removed manually) and Virtual Machines under monthly package will not be automatically removed.

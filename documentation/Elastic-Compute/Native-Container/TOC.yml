@@ -103,6 +103,10 @@
             href: Operation-Guide/Monitoring-Alarm/Retrieve-Data.md
           - name: Obtain Pod Monitoring Data
             href: Operation-Guide/Monitoring-Alarm/Retrieve-PodData.md
+      - name: IAM
+        href: Operation-Guide/IAM.md
+      - name: Tag
+        href: Operation-Guide/Tag.md
   - name: Best Practices
     items:
     - name: Create Image with SSH

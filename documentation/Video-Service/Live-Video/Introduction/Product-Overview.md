@@ -5,4 +5,4 @@ Live Video service is a one-stop service providing low latency, high availabilit
 
 # Billing
 
-Live Video products adopt Pay-In-Advance and is billed by peak bandwidth. Refer to "[Charging rules](../Pricing/Billing-Rules.md)" for details.
+The Live Video product shall adopt the Pay-In-Advance mode and charges shall be deducted as per consumption via each function. For details, please refer to "[Billing Rules](../Pricing/Billing-Overview.md)".

@@ -63,6 +63,14 @@ items:
           href: Operation-Guide/Create-API/Create-API.md
         - name: API Advanced Configuration
           href: Operation-Guide/Create-API/Adv-API.md
+    - name: Backend Service
+      items:
+        - name: HTTP/HTTPS Backend Service
+          href: Operation-Guide/Back-end-Services/Back-end-Services-HTTP.md
+        - name: Mock Backend Service
+          href: Operation-Guide/Back-end-Services/Back-end-Services-Mock.md
+        - name: Function Backend Service
+          href: Operation-Guide/Back-end-Services/Back-end-Services-Function.md
     - name: Access Authorization
       items:
         - name: Access Authorization for API

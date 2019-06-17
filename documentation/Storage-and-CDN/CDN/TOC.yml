@@ -115,6 +115,12 @@
             href: API-Reference/CDN-Open-API/Set-range.md
           - name: Set Referer Black and White Lists
             href: API-Reference/CDN-Open-API/Set-referer.md
+          - name: Search referer Blacklist and White List
+            href: API-Reference/CDN-Open-API/Query-Referer.md
+          - name: Set URL authentication
+            href: API-Reference/CDN-Open-API/Set-Url-Authentication.md
+          - name: Search URL Authentication
+            href: API-Reference/CDN-Open-API/Query-Url-Authentication.md
           - name: Statistics of Detailed Data of Operators in Separated Areas
             href: API-Reference/CDN-Open-API/Area-isp-detail-statistics.md
           - name: Back-to-origin Bandwidth Statistics
@@ -167,6 +173,10 @@
             href: API-Reference/CDN-Open-API/Set-IP-Blacklist.md
           - name: Search IP Blacklist
             href: API-Reference/CDN-Open-API/Query-IP-Blacklist.md
+          - name: Set UA IAM
+            href: API-Reference/CDN-Open-API/Set-UA.md
+          - name: Search UA IAM
+            href: API-Reference/CDN-Open-API/Query-UA.md
           - name: Search Header
             href: API-Reference/CDN-Open-API/Query-Header.md
           - name: Attachment：Notification Information Status Code Reference Table

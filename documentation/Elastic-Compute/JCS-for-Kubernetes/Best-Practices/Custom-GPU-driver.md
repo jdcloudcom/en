@@ -154,7 +154,7 @@ spec:
         - name: root-mount
           mountPath: /root
       containers:
-      - image: "jdcloud.com/pause-amd64:3.0"
+      - image: "jdcloud-cn-north-1.jcr.service.jdcloud.com/k8s/pause-amd64:3.1"
         name: pause
 ```
 

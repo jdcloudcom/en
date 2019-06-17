@@ -1,6 +1,6 @@
-# Configure Self-Starting
+# Self-starting is enabled by configuration
 
-When the Availability Group is applied, instances within one Availability Group usually provide the same service. We suggest you configure the self-starting for the application in the instance and create private image based on this instance, which is also used for instance template creation to be associated to the Availability Group. Configuration method differs according to different operation system versions. Please make your choice according to your specific service requirement:
+When Availability Group is used, the instances in one Availability Group usually provides one service only. You are recommended to configure self-starting for the applications in an instance, make private images based on the instance, and use them to create instance templates for associating with Availability Group. There are different configuration methods for different operating system versions. Please choose them based on your business demand:
 
 [Centos 6](../../Virtual-Machines/Linux-Troubleshooting/Configure-boot-automatically/CentOS-5-and-CentOS-6-systems.md)
 

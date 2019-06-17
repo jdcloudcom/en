@@ -1,53 +1,41 @@
 # Live Broadcast Record
 
-Live Video service supports record function and the video stream can be recorded as files which are stored in the  Object Storage Service; the Object Storage Service of JD Cloud shall be turned on to use this function and the corresponding Bucket space shall be created in cn-north (at present, the Live Video is supported only in cn-north); the files shall be created automatically after live broadcast has begun and the customer can view and download the video files according to storage path.
 
-The live broadcast record template shall be distinguished by AppName and all streams under the same AppName shall be recorded according to parameters of the current template settings.
+The Live Video Service supports the record function that the live streaming is recorded to files and then saved in Object Storage Service. To have the function, please subscribe Object Storage Service of JD Cloud and create corresponding Bucket space in North China (now, Live Video is supported in North China only). After Live Video is ended, files will be automatically produced and customers can view and download video files from the storage path.  
+```
+File Record and Storage Path:  
+record/{Date}/{SourceId}/{AppName}/{StreamName}/{StartTime}_{EndTime}。
+{Date} is the recording date of live streaming
 
-If the AppName is filled with test when setting the template, then all the streams under test shall execute record operation and video files shall be generated according to parameters of test template settings at the same time.
+{SourceID} Source ID is the unique task ID associated with one domain group. For pushing streaming and play domain in the same group, SourceId is generated at random and is unique and unchangeable.
+ID number of one domain group can be searched in "Domain Management"-"Basic Information" of the Console.
 
-## 1. New Template
+{AppName} is the live application name
 
-Log in the live broadcast Console and go to the "Domain Name Management" page; select the group of domain names to be viewed for broadcast addresses and click "Management" on the right to go to the  "Basic Information" page; click "Record Settings" to switch to the "Management" page for template recording
+{StreamName} is the live streaming name
 
-![](https://github.com/jdcloudcom/cn/blob/edit/image/live-video/%E7%9B%B4%E6%92%AD%E5%BD%95%E5%88%B6-%E9%A1%B5%E9%9D%A2%E5%88%87%E6%8D%A2.png)
+{StartTime} is the recording start time
 
-Click "New Template" in the Record Configuration page and fill in corresponding parameters information in the pop-up window, then click "OK" to complete the adding of record template.
+{EndTime} is the recording end time
+```  
+Configuration of live record is divided in two steps: 1. Create a record template; 2. Add watermark configuration.   
+Please first create a record template and then add domain record configuration. After record configuration is completed, the newly-pushed live streaming will take effect. For record configuration, three levels can be associated, including domain, APP and streaming. The configuration will take effect as per minimum granularity. For example, for domain rtmp://abc.com/live/123, the record template A can be associated at the APP"live" level; the record template B can be associated at the stream "123" level; and then, all other streams under APP"live", except "123", and the template B is only effective for the stream "123".
 
-![](https://github.com/jdcloudcom/cn/blob/edit/image/live-video/%E7%9B%B4%E6%92%AD%E5%BD%95%E5%88%B6-%E6%96%B0%E5%BB%BA%E6%A8%A1%E6%9D%BF%E6%8C%89%E9%92%AE.png)
+## Step 1: Create a record template
 
-Template parameters instructions are as follows:
+Log in the Live Console, access the "Template Management"-"Record Template Management" page and click **Add Record Template  
+Fill in corresponding record file parameters as per your actual record demands and click **Create Now** to successfully create the record template. The successfully-created record template will be displayed in the record template list.    
+![](https://github.com/jdcloudcom/cn/blob/cn-Live-Video/image/live-video/29%E5%BD%95%E5%88%B6%E7%AE%A1%E7%90%86.png) 
+![](https://github.com/jdcloudcom/cn/blob/cn-Live-Video/image/live-video/30%E5%BD%95%E5%88%B6%E7%AE%A1%E7%90%86.png) 
+![](https://github.com/jdcloudcom/cn/blob/cn-Live-Video/image/live-video/31%E5%BD%95%E5%88%B6%E7%AE%A1%E7%90%86.png) 
+## Step 2: Create record configuration  
 
-![](https://github.com/jdcloudcom/cn/blob/edit/image/live-video/%E7%9B%B4%E6%92%AD%E5%BD%95%E5%88%B6-%E6%96%B0%E5%BB%BA%E6%A8%A1%E6%9D%BF.png)
+Click **Domain Management** on the left menu bar of the Console, find the live domain group requiring record configuration, click **Management** and access the "Record Configuration" page.  
+![](https://github.com/jdcloudcom/cn/blob/cn-Live-Video/image/live-video/12%E6%96%B0%E5%BB%BA%E8%BD%AC%E7%A0%81%E9%85%8D%E7%BD%AE.png)
+Click **Create Record Configuration** on the record configuration page and access the record configuration page:  
+![](https://github.com/jdcloudcom/cn/blob/cn-Live-Video/image/live-video/32%E5%BD%95%E5%88%B6%E7%AE%A1%E7%90%86.png) 
+![](https://github.com/jdcloudcom/cn/blob/cn-Live-Video/image/live-video/33%E5%BD%95%E5%88%B6%E7%AE%A1%E7%90%86.png)
+Select **All AppName**, then the configuration is effective to all APPs, i.e. the entire domain. If customized AppName is designated, then APP name requiring record configuration shall be filled in and then the effective range of "All StreamName" can be continuously selected or customized StreamName can be designated. If customized StreamName is designated, then StreamName name requiring record configuration shall be filled in. Then, select corresponding record templates. Click **Create Now** to complete record configuration. After record configuration is created, the created record configuration rules can be viewed in the record configuration list. The configuration is effective to newly-pushed live streaming.    
 
-**App
-Name**: The application name for live recording is currently only supporting English letters, digits, "-", "_" with length between 1-50 characters
-
-**Storage Location**: The location for video files recorded storage, click "New Storage" and create Bucket space in the redirected page if it is empty
-
-**Cycle Length**: The time length for video file recording, with a range from 15-360 minutes, if it exceeds 6 hours, the system shall generate a new video file automatically
-
-**Record Format**: File format for video generated supports only flv at present
-
-**Storage Path**: The detailed directory to store recorded files, the system shall generate corresponding directory to store files according to the Bucket that customer has set up automatically
-
-record/{Date}/{DomainName}/{AppName}/{StreamName}/{StartTime}_{EndTime}.flv
-
--   {Date} Divide the record files into folders according to date and the default format is "year-month-day".
-
--   {DomainName} The pushing streaming name that customer has set
-
--   {APPName} can get AppName of your pushing streaming as storage path automatically; if it is required to be changed, then change {APPName};
-    it is currently only supporting English letters, digits, "-", "_" with length between 1-50 characters
-
--   {StreamName} can get StreamName of your pushing streaming as storage path automatically;
-    if it is required to be changed, then change {StreamName}
-    it is currently only supporting English letters, digits, "-", "_" with length between 1-50 characters
-
--   {StartTime} is the start time to record and {EndTime} is the end time to end recording
-
-## 2. Delete Template
-
-Log in the live broadcast Console and go to the "Record Configuration" page, click "Delete" on the right of the record template you want to delete and click "OK" in the pop-up window to finish deleting.
-
-![](https://github.com/jdcloudcom/cn/blob/edit/image/live-video/%E7%9B%B4%E6%92%AD%E5%BD%95%E5%88%B6-%E6%A8%A1%E6%9D%BF%E5%88%A0%E9%99%A4.png)
+In the record configuration list, ALL in the AppName column means that the newly-created record configuration is effective to all AppName, i.e. effective to the domain level. ALL in the StreamName column means that the newly-created record configuration is effective to all StreamName, i.e. effective to the APP level.  
+![](https://github.com/jdcloudcom/cn/blob/cn-Live-Video/image/live-video/34%E5%BD%95%E5%88%B6%E7%AE%A1%E7%90%86.png)   

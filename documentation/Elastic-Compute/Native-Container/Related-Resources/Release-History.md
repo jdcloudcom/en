@@ -3,6 +3,7 @@
 
 | Time   |Online Contents |
 |-|-|
+|May 2019|Native Container Instance supports renewal and tag<br> Native Container Pod supports renewal, tag and operation protection|
 |January 2019|Official Commercial Use of Pod|
 |December 2018|Pod is launched in cn-north-1, cn-east-2 and cn-south-1 with open Beta|
 |November 2018|Instance launched in cn-south-1|

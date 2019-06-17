@@ -59,7 +59,7 @@ Notification:
 
 - The cache directory for the Storage Gateway is `/cache`, the data about your resent access is cached under such directory, and the cache can be manually cleared.
  
-3. After completion of configuration, you can start NFS file system on the Storage Gateway with the starting script path of `/root/bin/gw ` that can be used for starting NFS service. Execution command example is as follows:
+3. After completion of configuration, you can start the file sharing service on the Storage Gateway with the starting script path of `/root/bin/gw ` that can be used for starting the script starting service. Execution command example is as follows:
 
 ```
 gw start
@@ -73,7 +73,7 @@ Note: After executing start command, when `Starting httpd... monitor` is display
 
 Notification: 127.0.0.1 the loopback address of local, i.e., Localhost.
 
-5. The configuration file path of Storage Gateway is `/etc/gateway/gw.conf`and the relevant configuration items are accessKeyID, accessKeySecret, endpoint and bucket. Reconfiguration also can be conducted by executing `gw install`. After rebooting NFS service, new configuration items will take effect. The example of command for rebooting NFS service is shown as below:
+5. The configuration file path of Storage Gateway is `/etc/gateway/gw.conf`and the relevant configuration items are accessKeyID, accessKeySecret, endpoint and bucket. Reconfiguration also can be conducted by executing `gw install`. After rebooting NFS service, new configuration items will take effect. The example of command for rebooting service is shown as below:
 
 ```
 gw restart

@@ -1,31 +1,31 @@
-# New auto-scaling policy
+# Auto Scaling Policy Added
 
-After auto-scaling, you can configure auto-scaling policy on demand, including alarm policy and fixed-time policy.
+After the automatic scaling is started, you can configure the automatic scaling policy as demanded, including the alarm policy and periodic policy.
 
-## Alarm policy
+## Alarm Policy
 
-The alarm policy is based on the configuration of monitoring metrics (such as CPU, memory utilization) and the number of instances in the dynamically expanded and auto scaling group. It is suitable for unpredictable business fluctuations.
+The alarm policy is based on the alarm policy configured for the monitoring indicators (like CPU, memory utilization rate) and the number of instances in the dynamic expansion auto scaling group, and applies to the situation when the business fluctuation cannot be estimated.
 
 ### Operation Steps
 
-1. Access[Availability Groups Console](https://cns-console.jdcloud.com/availabilitygroup/list) to enter the Availability Groups List page. Or access[JD Cloud Console](https://console.jdcloud.com) and then click on the left navigation bar **Elastic Compute**-**Availability Groups** to enter the Availability Groups List page. 
-2. Find the corresponding Availability Group and click the name to enter the details page.
-3. Click on **Automatic Scaling Tab**-**Alarm policy**-**Add** buttons.
-4. An alarm policy is set in the pop-up window to automatically increase or decrease the number of VMs specified for the Availability Group based on monitoring performance metrics (such as CPU, memory, etc.).	
-![](../../../../../image/ag/gettingstart2.png)
+1. Access [Availability Group Console](https://cns-console.jdcloud.com/availabilitygroup/list) to log in the Availability Group list page. Or access [JD Cloud Console](https://console.jdcloud.com) and log in the Availability Group list page by clicking **Elastic Compute** - **Availability Group** on the left navigation bar. 
+2. Find the corresponding Availability Group, click the name to log in the details.
+3. Click the **Automatic Scaling Tab** - **Alarm Policy** - **Add** buttons.
+4. Set the alarm policy in the popped-up popup, and automatically increase or decrease the Virtual Machines in the designated number for Availability Group, based on the monitoring performance indicators (like CPU, memory, etc.).	
+![](../../../../../image/ag/addstrategy1.png)
 
-The current statistical cycle supports 2 minutes, 5 minutes, 15 minutes, 30 minutes and one hour. Statistical methods support average, minimum and maximum.
+The current statistical period supports 2 minutes, 5 minutes, 15 minutes, 30 minutes and 1 hour. The statistical method supports the average value, minimum value and maximum value.
 
-## Fixed-time policy
+## Fixed-time Policy
 
-Fixed-time policy will increase or delete the number of instances in the Availability Groups within specific times and cycles set by you, suitable for predictable business load.
+The periodic policy requires your setting the specific time and cycle, and periodically increasing and deleting the number of instances in Availability Group, it applies to the load boding of predictable business.
 		
 ### Operation Steps
 
-1. Access[Availability Groups Console](https://cns-console.jdcloud.com/availabilitygroup/list) to enter the Availability Groups List page. Or access[JD Cloud Console](https://console.jdcloud.com) and then click on the left navigation bar **Elastic Compute**-**Availability Groups** to enter the Availability Groups List page. 
-2. Find the corresponding Availability Group and click the name to enter the details page.
-3. Click on **Automatic Scaling Tab**-**Fixed-time policy**-**Add** .
-4. Set up the name, execution time and scaling rules for timing policy in pop-up windows. You can also tick **Repeat Tasks** to perform tasks at a defined interval.	
-5. You need to specify the execution time of the timed task and the specific execution operations, such as increasing the number of new Virtual Machines or removing the number of instances. In addition, you can set the repetition cycle and the end time of repetition for the policy. Currently, you can repeat the timing operation between the execution time and the end time of day, week and month.
-![](../../../../../image/ag/gettingstart4.png)
+1. Access [Availability Group Console](https://cns-console.jdcloud.com/availabilitygroup/list) to log in the Availability Group list page. Or access [JD Cloud Console](https://console.jdcloud.com) and log in the Availability Group list page by clicking **Elastic Compute** - **Availability Group** on the left navigation bar. 
+2. Find the corresponding Availability Group, click the name to log in the details.
+3. Click the **Automatic Scaling Tab** - **Periodic Policy** - **Add** buttons.
+4. Set the name, execution time, scaling rules and other information of periodic policy in the popped-up popup. You can also tick [Repeated Task] to periodically implement tasks within the defined cycle.	
+5. You need to designate the implementation time and specific implementation operation of periodic tasks, for instance, add the number of Virtual Machines or remove the count of removed instances. Besides, your setting of the repeat period and end time of repeated implementation for the policy is supported. Currently, the repeatedly daily, weekly and monthly implemented periodic operations from the implementation time to the end time of repeat is supported.
+![](../../../../../image/ag/addstrategy2.png)
 

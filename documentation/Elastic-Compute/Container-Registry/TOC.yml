@@ -67,6 +67,8 @@
         items:
           - name: Image List Overview
             href: Operation-Guide/Image-List/Image-List-Overview.md
+      - name: IAM
+        href: Operation-Guide/IAM.md
   - name: Best Practices
     items:
          -  name: Continuous Deployment of Containerized Applications

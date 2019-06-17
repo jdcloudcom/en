@@ -10,7 +10,7 @@ JD Cloud DevOps service is set of DevOps service constructed on the basis that J
 
 **2.1 Data persistence**
 
-Data persistence: not less than 99.99%
+Data persistence: not less than 99.999%
 
 Data persistence is counted by service cycle, a service cycle is a natural month, if it is less than a month, then it is not counted as a service cycle.
 
@@ -50,7 +50,7 @@ DevOps service has CMDB, CICD, intelligent monitoring, operation and maintenance
 
 **2.8 Service availability**
 
-Service availability: not less than 99.9%.
+Service availability: not less than 99.99%.
 
 DevOps service is counted by service cycle, a service cycle is a natural month, if it is less than a month, then it is not counted as a service cycle. The business unit of statistics is single function module, and the time unit is in minute.
 

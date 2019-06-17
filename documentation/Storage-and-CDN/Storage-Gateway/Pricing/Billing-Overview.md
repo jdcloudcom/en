@@ -2,7 +2,7 @@
 
 ## Billing Instructions
 
-The Storage Gateway now provides file gateway supporting NFS standard file protocol and it needs Virtual Machines and Object Storage Service products when deploying Storage Gateway. So, you need ensure to enable Virtual Machines and Object Storage Service.
+The Storage Gateway now provides file gateway supporting NFS and FTP protocol and it needs Virtual Machines and Object Storage Service products when deploying Storage Gateway. So, you need ensure to enable Virtual Machines and Object Storage Service.
 
 The description of Storage Gateway charge:
 

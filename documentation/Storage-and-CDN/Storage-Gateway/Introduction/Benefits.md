@@ -2,7 +2,7 @@
 
 ## Flexible Deployment
 
-Support one-click deployment on the Virtual Machines; provide NFS file storage protocol, which is applicable to the access of different businesses.
+Support one-click deployment on the Virtual Machines; provide NFS and FTP file storage protocol, which is applicable to the access of different businesses.
 
 ## Install-and-play
 

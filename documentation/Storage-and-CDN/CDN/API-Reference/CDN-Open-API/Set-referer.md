@@ -2,7 +2,7 @@
 
 ## **1. Description**
 
-Set Referer Black and White List Information(setReferConfig)
+Search referer blacklist and White List information (setReferConfig)
 
 ## **2. Request Parameter**
 
@@ -58,6 +58,7 @@ https://opencdn.jcloud.com/api/setReferConfig
   "msg": "Successful",
   "data": "www.a.com"
 }
+
 ```
 
  
