@@ -1,4 +1,4 @@
-# Windows 2012 Disk Partition and Formatting
+# Windows2012&2016 Disk Partition and Formatting
 Note: Disk partitioning and formatting are high-risk behaviors, please operate with caution. The following operations are for newly purchased data disks. If it involves the processing of the original data disk, make sure to create a snapshot for the data disk of the Virtual Machines to avoid possible data loss.
 
 **The data disk just purchased, by default, is not partitioned and formatted. You can refer to the following methods to initially configure it:**

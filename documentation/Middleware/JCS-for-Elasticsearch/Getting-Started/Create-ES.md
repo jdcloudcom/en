@@ -13,21 +13,21 @@ You can create clusters via the console of JCS for Elasticsearch. For billing in
 
 3. After entering the "Create Cluster" page, specify the cluster "Region" and "Availability Zone".</br>
 
-* "Region": The current work areas support "cn-north-1", "cn-south-1" and "cn-east-2".</br>
+* "Region": The current work areas support "cn-north-1", "cn-east-2".</br>
 * "Availability Zone": An Availability Zone is a physical area that uses independent power and network resources. Interconnected through the internal network and physically isolated to improve the availability of application program. Different Availability Zones are not interconnected and cannot be changed after creation.</br> 
  ![查询1](https://github.com/jdcloudcom/cn/blob/Elasticsearch/image/Internet-Middleware/JCS%20for%20Elasticsearch/ES3.png)
  
 4. Set the cluster basic information, select "Cluster Version" and enter the "Cluster Name".</br>
 
-* "Cluster Version": The current version only supports 5.6.9.</br>
-* "Cluster Name": The name of the customized cluster. The name cannot be blank. It only supports Chinese, numbers, capital and lowercase letters, English underline "_" and line-through "-", and cannot exceed 32 characters.</br>
+* "Cluster Version": The current version supports 5.6.9 and 6.5.4.</br>
+* "Cluster Name": The name of the customized cluster. The name cannot be blank. It only supports numbers, capital and lowercase letters, English underline "_" and line-through "-", start with letters and cannot exceed 32 characters.</br>
  ![查询1](https://github.com/jdcloudcom/cn/blob/Elasticsearch/image/Internet-Middleware/JCS%20for%20Elasticsearch/ES4.png)
  
 5. Set the machine specification related parameters of the cluster.</br>
 
 * "Node Specification": Currently supports six specifications, including: 1 core 2G, 2 core 4G, 2 core 8G, 4 core 16G, 8 core 32G and 16 core 64G. Different virtual machine specifications can be selected according to specific business conditions, wherein 1 core 2G is only applicable to testing, not to production environment.</br>
-* "Single Point Storage Specification": Single point storage specification range is 20-1000GB, and integers can be entered.</br>
-* "Number of Nodes": Single point storage specification range is 1-15 and 1 node is selected by default. Where the input range is larger or smaller than the specified range, the maximum number of nodes and the minimum number of nodes will be displayed.</br>
+* "Single Point Storage Specification": Single point storage specification range is 20-4000GB, the step size is 10GB and integers can be entered.</br>
+* "Number of Nodes": Support the ticket method to enhance the node quota.</br>
   ![查询1](https://github.com/jdcloudcom/cn/blob/Elasticsearch/image/Internet-Middleware/JCS%20for%20Elasticsearch/ES5.png)
   
 6. Set a dedicated master node. Since disabling the dedicated master node can improve the cluster stability, it is recommended to disable it.

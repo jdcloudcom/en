@@ -60,7 +60,7 @@ You can set the environment variable for the function, without need to change th
 
 **6. Whether Function supports the version control?**
 
-Function supports the version control. By default, each function has code that is unique to the latest (LATEST) version. The function client can call a particular version or get the latest implementation, please refer to [Version Management](Operation-Guide/version.md).
+Function supports the version control. By default, each function has code that is unique to the latest (LATEST) version. The function client can call a particular version or get the latest implementation, please refer to [Version Management](Operation-Guide/version-management/manegement.md).
 
  
 

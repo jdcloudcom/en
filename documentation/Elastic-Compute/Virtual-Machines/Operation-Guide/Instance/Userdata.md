@@ -74,6 +74,7 @@ The following figure shows that the service is enabled and the status is active,
 ```
  ps -ef|grep MonitorPlugin
 ```
+
 ![](../../../../../image/vm/Operation-Guide-Instance-userdata2.png)
 
 ### Windows system: <br>
@@ -86,6 +87,7 @@ The following figure shows that the service is enabled and the status is active,
 ```
 wmic process where caption="MonitorPlugin.exe" get caption,commandline /value
 ```
+
 ![](../../../../../image/vm/Operation-Guide-Instance-userdata4.png)
 
       Note:

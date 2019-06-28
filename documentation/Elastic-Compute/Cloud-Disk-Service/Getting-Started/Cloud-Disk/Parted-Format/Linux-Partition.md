@@ -2,40 +2,6 @@
 
 <br>
 
-##  Use script to complete partitioning, formatting and attaching of data disk
-<br>
-
-In Linux system, you can use the script provided by JD Cloud to detect whether there is any data disk that has not yet been partitioned and then to automatically format and attach the data disk so as to spare you of entering complex commands and going through procedures.
-
-<p><a title="Attach Script.zip" href="https://iaas-cns-download.s3.cn-north-1.jdcloud-oss.com/DOCS/auto_fdisk.sh" target="_self"><span style="color: rgb(0, 0, 0); font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 14px;">Attach Script.zip</span></a>
-</p>
-<br>
-You can use this script in the following two manners:
-
-1. Without any parameter: this script will automatically partition, format and attach (default attach points include jddata1, jddata2……jddatan) all of your non-partitioned devices and realize automatic attach of  Cloud Disk Service by UUID in /etc/fstab file
-
-</p>
-<pre class="brush:as3;toolbar:false;">
-sh auto_fdisk.sh</pre>
-<p>
-
-2. With device name (e.g. /dev/vdc, etc.), attach point, file system parameters: this script will automatically complete the partitioning, formatting and attachment actions according to your entering parameters.
-
-</p>
-<pre class="brush:as3;toolbar:false;">
-sh auto_fdisk.sh /dev/vdb jddata1 ext4</pre>
-<p>
-
-**Note:**
-
-1. Because related actions may lead to loss of data, before executing the actions, please ensure a valid backup of data has been done by snapshot and other means or that there is no impact of loss of relevant data;
-
-2. This script is only applicable to non-partitioned and unattached  Cloud Disk Service and will not take effect to hard disk partitioned or attached;
-
-3. This script will create one partition for the hard disk by default and it is non-modifiable;
-
-4. This script will write the disk UUID and attach information to /etc/fstab file in order to realize automatic attach of  Cloud Disk Service. If you need to detach cloud disk, please delete corresponding /etc/fstab information, or it may result in failure to normal start by Virtual Machines.
-
 
 ## Manually complete partitioning, formatting and attaching of data disk
 
@@ -49,7 +15,7 @@ fdisk -l
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/CloudDisk/cloud-disk/parted-format/parted_001.png)
 
-2) You can complete the partition by the following command /dev/vdb and please modify it to the device name to be partitioned
+2. You can complete the partition by the following command /dev/vdb and please modify it to the device name to be partitioned
 
 ```
 fdisk /dev/vdb
@@ -80,7 +46,7 @@ Note: If the hard disk capacity created is greater than 2T, do not partition it 
 ```
 mkfs -t ext4 /dev/vdb1
 ```
-
+Warning: This command will format and delete vdb1 device disk. If there is any existing data in this disk, do not use this command.
 
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/CloudDisk/cloud-disk/parted-format/parted_006.png)

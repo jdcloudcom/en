@@ -6,15 +6,15 @@ OSS: Object Storage Service is a large-scale distributed object storage service 
  
 Trigger Example: ossTrigger.yml
 
-```
+```YAML
 triggerConfig:
-   events:
-       s3:ObjectCreated:Put
-       s3:ObjectCreated:Post
-   filter:
-      key:
-          prefix: sourcefile/
-          suffix: .gif
+    events:
+        s3:ObjectCreated:Put
+        s3:ObjectCreated:Post
+    filter:
+       key:
+           prefix: sourcefile/
+           suffix: .gif
 ```
 
 **Note:**

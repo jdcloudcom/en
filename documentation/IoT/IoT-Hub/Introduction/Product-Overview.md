@@ -1,9 +1,9 @@
 # Product Overview
 
 
-IoT Hub Service is the PaaS service for device management focusing connection with IoT devices.
+IoT Hub is the PaaS service for device management focusing connection with IoT devices.
 
-The IoT Hub Service provides the device connection communication function to help users with collection and JD Cloud onboarding of device data; the platform provides the device management function to help users with remote management and controlling devices; the platform offers interfaces to forward and store the device data to other JD Cloud services through the rule engine so as to help users with the integration of applications.
+The IoT Hub provides the device connection communication function to help users with collection and JD Cloud onboarding of device data; the platform provides the device management function to help users with remote management and controlling devices; the platform offers interfaces to forward and store the device data to other JD Cloud services through the rule engine so as to help users with the integration of applications.
 
 ## Common Operation
 
@@ -20,4 +20,4 @@ The IoT Hub Service provides the device connection communication function to hel
 
 
 ## Billing
-The IoT Hub Service supports the billing type of Pay By Consumption. The billing items include messages sending to and received from devices and managed devices. For details, please refer to "[Billing Rules](../Pricing/Billing-Overview.md)".
+The IoT Hub supports the billing type of Pay By Consumption. The billing items include messages sending to and received from devices and managed devices. For details, please refer to "[Billing Rules](../Pricing/Billing-Overview.md)".

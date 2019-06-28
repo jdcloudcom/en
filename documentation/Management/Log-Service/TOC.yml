@@ -15,6 +15,8 @@ items:
       href: Introduction/Restrictions.md
     - name: Application Scenarios 
       href: Introduction/Application-Scenarios.md
+    - name: IAM Instruction to Log Service 
+      href: /Introduction/LogService-IAM.md
     - name: Cloud Product Log Description
       items:
         - name: Application Security Gateway Log
@@ -27,6 +29,8 @@ items:
           href: Introduction/ResourceLog/apiLog.md
         - name: Application Load Balancer Access Log
           href: Introduction/ResourceLog/ALBLog.md
+        - name: MySQL Audit Log
+          href: Introduction/ResourceLog/MySQLLog.md
 - name: Product Pricing
   items:
     - name: Billing Overview

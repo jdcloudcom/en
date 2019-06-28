@@ -22,7 +22,7 @@ If you use Apache Maven to manage a Java project, you only need to add a corresp
 <dependency>
     <groupId>com.jdcloud.sdk</groupId>
     <artifactId>vm</artifactId>
-    <version>0.6.1</version>
+    <version>1.0.8</version>
 </dependency>
 ```
 You can also download the SDK source code yourself. The source code address is [Java SDK](https://github.com/jdcloud-api/jdcloud-sdk-java).

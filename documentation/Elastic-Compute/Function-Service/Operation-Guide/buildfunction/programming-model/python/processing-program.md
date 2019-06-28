@@ -1,7 +1,7 @@
 # Processing Program
 
 When creating the Function, an event processing program shall be specified and `event`, `context` and `invoke` of the object shall be specified. The general syntactic structures as below shall be followed:
-```
+```Python
    def my_handler(event, context):
    return 'hello world'
    ```
@@ -22,7 +22,7 @@ When creating the Function, an event processing program shall be specified and `
 * If the event invoking type (asynchronous invoking) is used by you, such value shall be abandoned.
 
 For example: create a function in the name of my_handler and set the entry function to be index.handler. The execution code receives enter event from the event parameter and return a message containing data.
-```
+```Python
  def my_handler(event, context):
     message = 'Hello {} {}!'.format(event['first_name'], 
                                     event['last_name'])  

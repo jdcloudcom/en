@@ -33,7 +33,7 @@
 2. Chinese citizens must use ID card to perform filing
 3. **In case of prior filing with JD**, its filing information must be consistent with the actual information of the current unit. If there is any inconsistency, please go to the original filing provider to make change, and then apply for a new one
 4. **After the filed website has been opened**, there must be a hyperlink of the filing number and a mark for the copyright of the website under the webpage, **the website of an unfiled domain name shall not be opened, otherwise the filing will fail**
-5. The Personal Filing change only supports one kind of situation (the personal filing may change to the filing in the name of the unit that the said person is a legal person thereof)
+5. Change of subject is not allowed for individual license
 6. Data to be prepared prior to filing: A color photocopy of the front and back of a personal ID card
 
  

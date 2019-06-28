@@ -119,10 +119,10 @@ For API Gateway Trigger Configuration details, please refer to [API Gateway Trig
 Function will normalize the output content to return it to the API Gateway in the JSON format as below:
 
 ```
-{     
-    "statusCode": httpStatusCode,     
-    "headers": {"headerName":"headerValue",...},     
-    "body": "..." 
+{     
+   "statusCode":httpStatusCode,
+   "headers":{"headerName":"headerValue", ...}, 
+   "body":"..."
  } 
 ```
 

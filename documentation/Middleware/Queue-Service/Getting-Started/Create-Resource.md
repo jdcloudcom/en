@@ -1,4 +1,4 @@
-# Create Queue
+# Create Resource
 
 In the Queue Service, messages are sent and received through a point-to-point Queue, therefore, the user is required to create the Queue in the Queue Service first before sending messages to a certain specified Queue, and the consumer can consume messages in the Queue through the Pull pattern.
 

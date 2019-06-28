@@ -16,7 +16,7 @@ Click **Create**, fill in sub-account information, click **OK** and complete cre
 
 ![image](https://raw.githubusercontent.com/jdcloudcom/cn/zhangwenjie-only/image/LogService/LogserviceIAM/LS02.png)
 
-### 2.2 Authorization of Sub-account
+### 2. Authorization of Sub-account
 
 Log in **Management-->IAM-->User Management**, select specified sub-account, click "Authorization" to authorize several policies for sub-accounts. For policy management, please view "Management-->IAM-->Policy Management".
 There are two default policies, i.e. the administrator and the read-only, and the customized policy is supported.

@@ -27,13 +27,13 @@ It is forbidden to send messages of stocks, immigration, interview & recruitment
 5.	 "Unsubscribe by replying with T" must be added at the end of SMS (both T and t (in uppercase and lowercase) are OK)<br><br>
 
 **Audit Process**<br>
-Usually the audit result will be reported back 2 hours after SMS application, as our customer service staff need to collect and collate materials and submit them to the operator for ICP filing. The audit time: 9:00 - 23:00 from Monday to Sunday (delayed in case of a legal holiday). It is suggested to submit the application before 18:00.<br>
+Usually the audit result will be reported back 2 hours after SMS application, as our customer service staff need to collect and collate materials and submit them to the operator for ICP filing. The audit time: 9:00 - 18:00 from Monday to Sunday (delayed in case of a legal holiday). <br>
 If you urgently need to use the SMS function, please contact the customer service staff to accelerate the audit speed; if it is unapproved, you can also contact the customer service staff for detailed communication.<br>
 As for the content template having passed the audit, it doesn’t indicate that it is bound to be issued successfully (there is also a spot check audit mechanism on the operator side). The customer service staff can be contacted for detailed communication, in case failed sending of SMS.<br><br>
 
 **Instructions for SMS Use**<br>
 1.	 Sending Time of SMS<br>
-SMS is under the precondition that the user’s rest won’t be disturbed, and the time interval for limited sending at the gateway: 8:30-21:30.<br><br>
+SMS is under the precondition that the user’s rest won’t be disturbed, and the time interval for limited sending at the gateway: 8:00-21:00.<br><br>
 
 **Security Management Rules**<br>
 To improve the safety of SMS sending and avoid omitted and hacked sending of SMS, our system has a strict monitoring mechanism preventing the sending of any illegal information.<br>

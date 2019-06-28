@@ -84,7 +84,13 @@ items:
       - name: Network Configuration
         href: Operation-Guide/net.md 
       - name: Version Management
-        href: Operation-Guide/version.md         
+        items:
+          - name: Function Version Overview
+            href: Operation-Guide/version-management/manegement.md
+          - name: Version
+            href: Operation-Guide/version-management/version.md
+          - name: Alias
+            href: Operation-Guide/version-management/alias.md
       - name: Function Log
         href: Operation-Guide/function-log.md            
       - name: Function Monitoring

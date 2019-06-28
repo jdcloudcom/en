@@ -30,3 +30,34 @@ The monitoring data can be stored for up to 180 days. In the console, users can 
 bps stands for the number of bit transmitted per second; ps stands for per second, similar to /s;
 
 Kbps=1024bps.
+
+
+**Power Status Instruction**   
+Native Container Instance and Pod support setting alarm rules according to power status. Set in [Container Instance Monitoring](https://cms-console.jdcloud.com/containerMonitor),[Pod](https://cms-console.jdcloud.com/monitor/pod).  
+
+|Native Container Instance Power Status|Corresponding Number|
+|-----|-----|
+|Creating|1|
+|Created|2|
+|Starting|3|
+|Running|4|
+|Stopping|5|
+|Stop|6|
+|Deleting|7|
+|Unknown|8|
+|Error|9|
+
+|Native Container Pod Power Status|Corresponding Number|
+|-----|-----|
+|Creating|1|
+|Created|2|
+|Starting|3|
+|Running|4|
+|Stopping|5|
+|Stop|6|
+|Deleting|7|
+|Unknown|8|
+|Error|9|
+|Succeeded|10|
+|Failed|11|
+

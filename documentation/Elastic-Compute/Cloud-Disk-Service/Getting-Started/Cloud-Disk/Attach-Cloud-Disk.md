@@ -1,20 +1,36 @@
 # Attach Cloud Disk Service
 
+<br>
+
 ## Operation Instructions
 
 You can attach Cloud Disk Service to any Virtual Machines in the same region or the same availability zone. Before attaching cloud disk, please be aware of the below notes:
 
+
+
 - Virtual Machines must be in running or stopping status;
+
+
 
 - Only Cloud Disk Service in available status can be attached;
 
+
+
 - Resources are not in arrearage status;
+
+
 
 - A single virtual machine can attach 8 Cloud Disk Services at most;
 
+
+
 - Cloud Disk Service can only be attached to a virtual machine in the same region or the same availability zone;
 
+
+
 - Cloud Disk Service cannot be attached in cross-regions and cross-availability zones;
+
+
 
 - Ordinary cloud disk service can only be attached to one virtual machine at the same time other than being supported to multiple virtual machines.
 
@@ -22,12 +38,24 @@ You can attach Cloud Disk Service to any Virtual Machines in the same region or 
 
 - Directly attaching multi-point attached disk to multiple cloud instances cannot implement file sharing function, if files are needed to be shared among multiple cloud instances, sharing file system or cluster management system are needed to be set up.
 
+
+
+<br>
+
 ## Operation guide
+<br>
 
 **You can select to attach cloud disk on the Cloud Disk Service list page or Cloud Disk Service details, or select to attach cloud disk on the Virtual Machines details**:
 
+
+
 - If you need to attach several disks to an assigned Virtual Machines, you can refer to **Method 1** or **Method 2** as below;
+
+
+
 - If you need to attach Cloud Disk Service to an assignedVirtual Machines, you can refer to **Method 3**as below.
+
+<br>
 
 ## Method 1: Attach Cloud Disk Service on the Cloud Disk Service list page
 
@@ -35,13 +63,19 @@ You can attach Cloud Disk Service to any Virtual Machines in the same region or 
 
 2. Select the Cloud Disk Service to be attached and click **Attach** on the right side;
 
+
+<br>
+
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/CloudDisk/cloud-disk/cloud-disk-009.png)
 
 <br>
 
 3. When [Attach to a Virtual Machines] list page pops up, select the Virtual Machines to be attached to with Cloud Disk Service, and click **OK** button;
+<br>
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/CloudDisk/cloud-disk/cloud-disk-010.jpg)
+
+<br>
 
 4. If attachment succeeds, the relevant information changes; if attachment fails, the tooltip is shown. If attachment fails for several times, please contact customer service.
 
@@ -54,9 +88,17 @@ Note: After disk attachment succeeds, you need to log in Virtual Machines and fo
 2. Select the Cloud Disk Service to be attached on the Cloud Disk Service list page and click the corresponding name of the Cloud Disk Service in the Cloud Disk Service list to jump to its details;
 
 3. Click the **Operation** icon at the top right corner; when the list of more operation options is shown, click **Attach**;
+
+<br>
+
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/CloudDisk/cloud-disk/cloud-disk-011.jpg)
 
+<br>
+
 4. When [Attach to a Virtual Machines] list page pops up, select the Virtual Machines to be attached to with Cloud Disk Service, and click **OK** button.
+
+<br>
+
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/CloudDisk/cloud-disk/cloud-disk-012.jpg)
 
 <br>

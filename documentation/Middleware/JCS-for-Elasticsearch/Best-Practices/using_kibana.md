@@ -2,8 +2,48 @@
 Kibana is a visual open source platform for data analysis. Users can use Kibana to search and analyze the data stored in JCS for Elasticsearch.
 ![查询1](https://github.com/jdcloudcom/cn/blob/Elasticsearch/image/Internet-Middleware/JCS%20for%20Elasticsearch/kibana访问设置-01.png)
 
+### Stored Data
+#### Definition Index mapping
+Enter into the ES Console, single-click **kibana** in the Instance List page to be redirected to kibana web page, and click **Dev Tools** in the left navigation bar to enter the page where data can be stored. Index name is blog_index, type name is user, the types of field title and name are text, and the type of field age is integer. Then index pattern can be added through Management->Index Patterns.
+![查询1](https://github.com/jdcloudcom/cn/blob/Elasticsearch/image/Internet-Middleware/JCS%20for%20Elasticsearch/kibana_save1.png)
+```
+PUT blog_index
+{
+
+"mappings": {
+
+"user": {
+
+"properties": {
+
+"title": { "type": "text" },
+
+"name": { "type": "text" },
+
+"age": { "type": "integer" }
+
+}
+}
+}
+}
+```
+#### Add the index document
+```
+PUT blog_index/user
+{
+
+"title": "manager",
+
+"name": "Tom Jerry",
+
+"age": 34
+
+}
+
+```
+
 ### Definition Index Mode
-Enter into the ES console, single click **kibana** in the Instance List page, redirect to kibana web page, single click **Management** in the left navigation bar, and select **Index Patterns**, so you can define the new index mode in the page.</br>
+Single click **Management** in the left navigation bar, and select **Index Patterns**, so you can define the new index mode in the page.</br>
 #### Operation Example
 1. Define index "shakes*" for the sample data set Shakespeare in the previous step, then click **Create**.</br>
 

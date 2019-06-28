@@ -1,6 +1,6 @@
 # Binlog File View
 The Binlog file records the transaction information of the instances and is the basis for MySQL/Percona/MariaDB service instance HA architecture, availability and restorability.
-The  JCS for MySQL/Percona/MariaDB service instance automatically synchronizes Binlog files to cloud storage on a regular basis and cleans up the local Binlog files after 48 hours, at which point the instance's local storage space can be freed for other uses.
+The JCS for MySQL/Percona/MariaDB service instance automatically synchronizes Binlog files to cloud storage on a regular basis and cleans up the local Binlog files after 6 hours, at which point the instance's local storage space can be freed for other uses.
 
 ## Precautions
 * At present, JD Cloud does not charge for the space occupied by Binlog files.

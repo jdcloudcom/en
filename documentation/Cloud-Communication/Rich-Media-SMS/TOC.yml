@@ -27,6 +27,10 @@ items:
       href: Operation-Guide/send.md
     - name: Statistics & Analysis
       href: Operation-Guide/stat.md
+- name: SDK Reference
+  items:
+    - name: Environment Preparation
+      href: SDK-Rerference/Environment-Preparation.md
 - name: Relevant Agreement
   items:
     - name: Service Agreement

@@ -19,13 +19,20 @@ SysBench is a scriptable multi-thread benchmark test tool based on LuaJIT. It is
 
 ```
 $ yum install gcc gcc-c++ autoconf automake make libtool bzr mysql-devel
-$ unzip sysbench-1.0.zip
+$ unzip 1.0.zip
 $ cd sysbench-1.0
 $ ./autogen.sh
 $ ./configure --prefix=/usr
 $ make
 $ make install
 ```
+
+## Database Instance Initialization
+### Create Account
+See [Create Account](../Operation-Guide/Account/Create-Account/MySQL-Create-Account.md).
+
+### Create Database
+See [Create Database](../Operation-Guide/Database-Management/Create-Database.md). You need to create a database named ***sbtest*** and remember to grant the read-write permission of new database to the account created previously when creating the database.
 
 ## Test Commands
 ### Data Preparation

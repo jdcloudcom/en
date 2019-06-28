@@ -40,8 +40,7 @@ Select or enter the relevant configuration information of the instance. The para
 
 - Basic Information
    - Instance Name: It is allowed to repeat, while the length and characters of the name have certain limits, which shall be subject to the console.
-   - Database Name: When the instance is created successfully, the corresponding database specified will be created in the instance, and the name refers to the given database name. Please refer to Q&A for the keywords of database name we have reserved, and the length and characters of the database name are limited, which shall be subject to the console.
-   - Database Account and Password: After the instance is created successfully, you can use the account and password to login the database instance. Please refer to Q&A for the keywords of database name we have reserved, and the length and characters of the database name can be limited, which shall be subject to the console.
+
 ![Create Instance 8](../../../../image/RDS/Create-Instance-8.png)
 
 - Purchase Duration: The purchase duration shall be selected if the billing method is monthly package, with options varying from 1 month to 2 years. The longer the purchase duration, the greater the discount is, which shall be subject to the console.

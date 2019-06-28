@@ -8,7 +8,7 @@ Different package types can be selected according to different business scenario
 
 | Category      | Basic Version                                 | Advanced Version                           | Enterprise Version                                               | Flagship Version                                     |
 | --------- | -------------------------------------- | -------------------------------- | ---------------------------------------------------- | ------------------------------------------ |
-| Package Cost  | 336                                    | 3880                             | 9880                                                 | 29800                                      |
+| Package Cost  | 336                                    | 3880                             | 9800                                                 | 29800                                      |
 | Applicable scenarios | Applicable to personal website protection and testing, no special security requirements | Suitable for small and medium-sized website protection, have certain security requirements | Suitable for medium-sized website protection, website or service is open to the public, high security requirements | Suitable for large-scale website protection, or personalized security customization needs |
 
 #### Domain Extension Package

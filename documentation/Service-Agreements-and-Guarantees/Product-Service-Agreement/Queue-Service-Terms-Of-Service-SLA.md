@@ -6,7 +6,7 @@ The Queue Service provided by JD Cloud is fully hosted message Queue Service wit
 
 **2.1 Data Persistence**
 
-Data persistence: 99.999999999%
+Data persistence: 99.9999999%
 
 The Queue Service provides fully hosted message Queue Service, guaranteeing the data persistence within the life cycle of messages.
 

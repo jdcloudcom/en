@@ -101,8 +101,6 @@
        href: Best-Practices/performance.md
   - name: FAQ
     href: FAQ/FAQ.md
-  - name: API Reference
-    href: API-Reference/API-Reference.md
   - name: Related Resources
     items:
     - name: Document History

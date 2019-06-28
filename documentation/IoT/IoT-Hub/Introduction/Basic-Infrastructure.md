@@ -1,6 +1,6 @@
 # Basic Architecture
 
-IoT Hub Service consists of four main modules, i.e., protocol engine, device management, Edge module management and data management.
+IoT Hub consists of four main modules, i.e., protocol engine, device management, Edge module management and data management.
 
 ## Business Architecture
 Business architecture is shown as in the following figure:

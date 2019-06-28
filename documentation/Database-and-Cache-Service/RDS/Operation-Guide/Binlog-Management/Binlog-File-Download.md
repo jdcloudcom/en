@@ -15,3 +15,16 @@ You can download the Binlog files of JCS for  MySQL/Percona/MariaDB instance ser
     * Click ***Cancel*** to cancel the download of Binlog files.
 
     ![backup](../../../../../image/RDS/1109_8.jpg)
+
+## Binlog Decompression
+> JD Cloud has compressed Binlog files, so you need to decompress the files after downloading them to the local and then parse Binlog files with standard tools
+
+1. Download the backup decompression tool [Click Download](http://jddb-common-public.oss.cn-north-1.jcloudcs.com/general_mysql_backup_extract_tool.zip) and decompress with the tool name of mysql_backup_extract.py, the use example is shown as below
+
+```
+ # View Help Manual
+ ./mysql_backup_extract.py -h
+ 
+ # Binlog File to Decompress Instances
+ ./mysql_backup_extract.py  -f [name of binlog file to be decompressed] 
+```

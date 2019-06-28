@@ -2,9 +2,9 @@
 
 Related function information about the running execution can be gotten via context. For example, obtain basic information of function, obtain the request ID in context and record it in the function log. Subsequently, track detailed information of request execution via this ID.
 
- The definition is as follows:
+ ## Context Object (Python):
 
-```
+```Python
 class FunctionMeta:
     def __init__(self, invoked_function_id, function_name, function_version, function_handler, memory_size, timeout):
         self.invoked_function_id = invoked_function_id

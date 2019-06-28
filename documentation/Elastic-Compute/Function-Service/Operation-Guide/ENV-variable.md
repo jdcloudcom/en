@@ -34,7 +34,7 @@ The configured environment variable will be configured to the running environmen
 
 In the Python running environment, the method to read environment variables is as follows:
 
-```
+```Python
 import os
 value = os.environ.get('key')
 print(value)

@@ -336,7 +336,7 @@ items:
       - name: Following Error Occurs during SSH Connection： error Could not get shadow infromation for root
         href: Linux-Troubleshooting/Fault-Class/SSH-connection-error.md
       - name: Errors Below Arising during SSH Connection： pam_limits(sshd： session)： could not sent limit for 'nofile'
-        href: Linux-Troubleshooting/Fault-Class/SSH-connection-error.md
+        href: Linux-Troubleshooting/Fault-Class/SSH-connection-Error.md
       - name: Following Error Occurs during SSH Connection： pam_unix(sshdsession) session closed for user
         href: Linux-Troubleshooting/Fault-Class/SSH-connection-error-session-closed.md
       - name: Following Error Occurs during SSH Login： Disconnected：No supported authentication methods available
@@ -421,8 +421,8 @@ items:
             href: Windows-Troubleshooting/Configuration-Class/Windows2008-opens-kernel-dump-configuration.md
           - name: Windows 2008 Virtual Memory Setting
             href: Windows-Troubleshooting/Configuration-Class/Windows2008-set-virtual-memory.md
-          - name: Windows 2012 Disk Partition and Formatting
-            href: Windows-Troubleshooting/Configuration-Class/Windows2012-disk-partitioning-and-formatting.md
+          - name: Windows2012&2016 Disk Partition and Formatting
+            href: Windows-Troubleshooting/Configuration-Class/Windows2012-2016-disk-partitioning-and-formatting.md
           - name: Windows 2012 FTP Service Installation and Configuration
             href: Windows-Troubleshooting/Configuration-Class/Windows2012-installation-and-configuration-ftp-service.md
           - name: Windows 2012 SID Modification

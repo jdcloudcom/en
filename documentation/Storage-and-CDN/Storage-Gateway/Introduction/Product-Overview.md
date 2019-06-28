@@ -7,3 +7,9 @@ Storage Gateway now is under Open Beta Test and we welcome you to submit [Open B
 ## Gateway Type
 
 JD Cloud Storage Gateway provides file gateway supporting NFS and FTP protocols. File gateway establishes mapping relationship between object structure of OSS Bucket and directories and files of NAS file system. Users can read and write the objects in specified OSS Bucket through standard file storage protocol. Meanwhile, the gateway utilizes local cache space as hot data cache so that users can enjoy OSS Bucket mass space while the high performance of their data access can be guaranteed.
+
+## Suggestions
+
+You can access the Object Storage Service through Storage Gateway and with NFS, FTP and other file protocols, when the Object Storage Service is used and you do not wish to access it through RESTful API.
+
+When you need to use the NAS storage supporting the NFS file protocol, you are suggested to use JD Cloud [Cloud File Service](https://docs.jdcloud.com/en/cloud-file-service/product-overview).

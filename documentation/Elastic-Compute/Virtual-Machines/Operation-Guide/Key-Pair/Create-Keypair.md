@@ -9,7 +9,8 @@
    * Use Existing public key: Upload your local public key file to JD Cloud. When creating in this way, make sure you have a private key saved in the local with the public key.
    
 5. After it is created, the public key fingerprint information is available in the details of key pair.
-Note: If you choose to create a new key pair, the console will provide a  interface to download private key after creation. Please be sure to save the corresponding private key and ensure that the private key is not spread on the Internet. JD Cloud will not save your private key. The link to download the private key is only valid within 10 minutes. Please download it in time.
+Note: If you select to create a new key pair, the private key will be downloaded automatically to your local after creation succeeded. You must save the corresponding private key and ensure the private key will not be disseminated throughout the Internet. JD Cloud will not save your private key.
+
 ![](../../../../../image/vm/Operation-Guide-keypair-create1.png)
 
 

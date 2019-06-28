@@ -19,27 +19,27 @@ items:
       - name: Management Backend
         items:
         - name: Modifying Service Price
-          herf: Management-Backstage/Revise-The-Price.md
+          herf: ISV/Management-Backstage/Revise-The-Price.md
         - name: Introduction to Image Products Release
-          herf: Management-Backstage/Image-Release.md
+          herf: ISV/Management-Backstage/Image-Release.md
         - name: Introduction to Software Products Release
-          herf: Management-Backstage/Software-Release.md
+          herf: ISV/Management-Backstage/Software-Release.md
         - name: Introduction to Downloading Type Products Release
-          herf: Management-Backstage/Download-Release.md
+          herf: ISV/Management-Backstage/Download-Release.md   
         - name: Introduction to Offline Service Commodities
-          herf: Management-Backstage/Offline-Service-Release.md
+          herf: ISV/Management-Backstage/Offline-Service-Release.md
         - name: Select the Type of Products To Be Released (Delivery Method)
-          herf: Management-Backstage/Delivery-Method.md
+          herf: ISV/Management-Backstage/Delivery-Method.md
         - name: Service Provider Settlement
-          herf: Management-Backstage/ISV-Balance.md
+          herf: ISV/Management-Backstage/ISV-Balance.md
       - name: Product Access
         items:
         - name: Third-party Image Security Specification
-          herf: Product-Enter/Image-Safe-Standard.md
+          herf: ISV/Product-Enter/Image-Safe-Standard.md
         - name: Third-party Image Creation Specification
-          herf: Product-Enter/Image-Make-Standard.md
+          herf: ISV/Product-Enter/Image-Make-Standard.md
         - name: Help Documentation on Generation Method of JD Cloud Marketplace Active Notification
-          herf: Product-Enter/Notify-Interface-Standard.md
+          herf: ISV/Product-Enter/Notify-Interface-Standard.md
   - name: Service-related
     items:
       - name: Subscription Agreement
@@ -50,8 +50,6 @@ items:
         herf: Service-Related/Image-Help.md
       - name: Website Building Help Documentation
         herf: Service-Related/Website-Help.md
-      - name: Help Documentation of JD Cloud PLUS Enterprise Cloud Disk
-        herf: Service-Related/PLUS-Enterprise-Cloud-Box-Document.md
       - name: Help Documentation of JD Cloud PLUS Enterprise Email
         herf: Service-Related/PLUS-Enterprise-Email-Document.md
       - name: Help Documentation of JD Cloud PLUS Meeting
@@ -63,17 +61,17 @@ items:
       - name: SMS Service
         items:
         - name: JD Cloud SMS Benefits
-          herf: Messaging-Service/Message-Advantage.md
+          herf: Service-Related/Messaging-Service/Message-Advantage.md
         - name: SMS ServiceFAQ
-          herf: Messaging-Service/Message-FAQ.md
+          herf: Service-Related/Messaging-Service/Message-FAQ.md
         - name: Sending Process
-          herf: Messaging-Service/Message-Send.md
+          herf: Service-Related/Messaging-Service/Message-Send.md
         - name: SMS Pricing Method
-          herf: Messaging-Service/Message-Charging.md
+          herf: Service-Related/Messaging-Service/Message-Charging.md
         - name: Signature Review Rule
-          herf: Messaging-Service/Sign-Rule.md
+          herf: Service-Related/Messaging-Service/Sign-Rule.md
         - name: Template Review Rule
-          herf: Messaging-Service/Templet-Rule.md
+          herf: Service-Related/Messaging-Service/Templet-Rule.md
   - name: Contact Us
     items:
       - name: Contact Us

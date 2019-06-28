@@ -13,7 +13,7 @@ Log entries are generated using the following Python statements:
 
 You can use `logging` module to write information into the function log, and the example is as follows: 
 
-```
+```Python
 import logging
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
@@ -30,7 +30,7 @@ return 'function is worked'
 
 You can print the function log through `print` statement, and the example is as follows:
 
-```
+```Python
 from __future__ import print_function
 def lambda_handler(event, context):
   print('it is running')`

@@ -12,10 +12,11 @@ The user logs in the function service console, go to the "Overview" page or the 
   * Function code: Enter Hello World function at the code edit page, the console editor default function is HelloWorld function;<br>
   
  
-  ```
+  ```Python
 def handler(event,context):
 print(event)
 return "hello world"
+
 ```
      
   * Function execution memory: 128MB by default;  

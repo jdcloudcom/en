@@ -34,7 +34,7 @@
         href: Getting-Started/Getting-Started.md
       - name: Create Resource
         href: Getting-Started/Create-Resource.md
-      - name: Production and Consumption Message
+      - name: Send and receive messages
         href: Getting-Started/Produce-And-Consume-Message.md
   - name: Operation Guide
     items:
@@ -56,6 +56,14 @@
             href: Operation-Guide/Monitoring/Monitoring.md
           - name: Set Alarm Rules
             href: Operation-Guide/Monitoring/Alarm-Rules.md
+      - name: Authorization Management
+        items:
+          - name: Permission Control Overview
+            href: Operation-Guide/Authorization-Management/Authorization-Overview.md
+          - name: Authorization to IAM Sub-users by Primary Account
+            href: Operation-Guide/Authorization-Management/Main-Sub-Authorization.md
+          - name: Cross-primary Account Authorization
+            href: Operation-Guide/Authorization-Management/Main-Main-Authorization.md
   - name: Tutorial
     items:
     status: 0

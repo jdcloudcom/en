@@ -12,7 +12,7 @@ JD Cloud provides two billing modes for different user needs, namely Pay-By-Conf
 **Monthly Package**
 - Pay in advance for several months or years. The current purchase period supports 1 month to 9 months, 1 year, 2 years; the fee is deducted once you create an instance:
 - In order to protect your use rights, the container of the monthly package does not support the deletion before it expires.
-- Use the first-use Pay-as-you-go payment method, the expiration time of the monthly package is the Nth natural month or the natural year's 23:59:59 from the date of the order start time; E.g: If the order start time at 15:00:00 on January 1, 2017, and the purchase duration is 1 month, then the expiration time is 23:59:59 on February 1, 2017.
+- Adopt the Pay-In-Advance method, the expiration time of the monthly package is the Nth natural month or the natural year's 23:59:59 from the date of the order start time; E.g: If the order start time at 15:00:00 on January 1, 2017, and the purchase duration is 1 month, then the expiration time is 23:59:59 on February 1, 2017.
 
 **The Pay by configuration and Pay by Monthly Package modes support different functions, see the table below for details:**
 

@@ -159,7 +159,7 @@ About how to install, please refer to <a href="https://docs.jdcloud.com/en/cli/i
 
 Configure the KEY, location area (region-id) and gateway address (endpoint) and edit /root/.jdc/config
 ```
-vi /root/.jdc/config
+vi ~/.jdc/config
 ```
 
 ```
@@ -185,6 +185,8 @@ Use the put-metric-data interface to Report Monitoring Data, examples are as fol
 ```
 jdc monitor put-metric-data --input-json '{"metricDataList": [{"namespace": "test_ns","metric": "vm.cpu.usage1","dimensions": {"host": "10.10.10.23","datacenter": "cn_north_1"},"timestamp": 1544425695,"type": 1,"values": {"value": "12342213"}}]}'
 ```  
+Note: Only monitoring data in the latest one week can be reported. Please modify the time stamp in the timestamp in the above example to the UNIX time you currently report.
+
 The example for successful return is as follows:
 ```
 {

@@ -24,7 +24,7 @@ Table 1 Test Event Configuration
 | Parameter         | Description                                                         |
 | ------------ | ------------------------------------------------------------ |
 |* Configure test event | Create a new test event or edit the existing test event (by default: create a new test event)  |
-|* Event template      | Selection a blank template or the existing template to create a test event (the existing template will load corresponding test events. See Table 2 for instructions of test event templates) |
+|* Event template     | Select a blank template or event source template to create a test event (for template instructions, see Table 2) |
 |* Event name     | It can only contain letters, digits, underline and line-through, and cannot begin with digits and line-through; it shall be case sensitive, and the length does not exceed 24 characters               |
 | Test event     | Enter test event: the test event is defined as JSON format. Please save the test event in JSON format.  |
 
@@ -34,6 +34,8 @@ Table 2 Test Event Template Description
 | -------------------------- | ----------------------------------------- |
 | Blank Template                   | Template Event no: {"key":’value"}, modify as needed |
 | API Gateway-event-template | Simulate API gateway events, trigger the function to execute             |
+| OSS-event-template | Simulate Object Storage Service OSS events, trigger the function to execute             |
+
 
 
  
