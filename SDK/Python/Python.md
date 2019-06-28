@@ -7,7 +7,7 @@
 # Environment Preparation #
 
 1. The JD Cloud Python SDK is suitable for Python 2.7. * and 3. * Version.
-2. Before calling JD Cloud open API, it's necessary to apply for accesskey and secretKey Key Pair (AK/SK) in advance in Account Mmanagement of JD Cloud User Center[AccessKey Management Page](https://uc.jdcloud.com/accesskey/index). AK/ SK information shall be kept properly and if lost, it is likely to allow illegal users to use this information to operate your resources on the cloud, resulting in data or property losses.
+2. Before calling JD Cloud open API, it's necessary to apply for accesskey and secretKey Key Pair (AK/SK) in advance in Account Mmanagement of JD Cloud User Center [AccessKey Management Page](https://uc.jdcloud.com/accesskey/index). AK/ SK information shall be kept properly and if lost, it is likely to allow illegal users to use this information to operate your resources on the cloud, resulting in data or property losses.
 
 # SDK Usage Method #
 It is recommended to install the JD Cloud Python SDK using pip as follows:
@@ -19,7 +19,7 @@ Using the source code to install as follows:
 
 	python setup.py install
  
-With any problems in the use of SDK, welcome to communicate at the[SDK Use Problem Feedback page](https://github.com/jdcloud-api/jdcloud-sdk-python/issues) for the Github project.
+With any problems in the use of SDK, welcome to communicate at the [SDK Use Problem Feedback page](https://github.com/jdcloud-api/jdcloud-sdk-python/issues) for the Github project.
 
 **Note: JD Cloud does not provide other downloading methods. Please be sure to use the above-mentioned official download method.**
  
