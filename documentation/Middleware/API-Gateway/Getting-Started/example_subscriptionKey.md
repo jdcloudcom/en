@@ -28,7 +28,7 @@ The following process is the guide for creating the API in the API Gateway Conso
 
 ![新建API2](../../../../image/Internet-Middleware/API-Gateway/example_subkey_createAPI_2.png)
 
-(2) Import API: Click **Import API**, upload yaml files conforming to the swagger2.0 specification, and click **OK**. Then, API set in the yaml file will be displayed in the API list interface. ([Yaml File Download Link](https://apigateway.oss.cn-north-1.jcloudcs.com/demo/PetStoreTest_Yaml.zip))
+(2) Import API: Click **Import API**, upload yaml files conforming to the swagger2.0 specification, and click **OK**. Then, API set in the yaml file will be displayed in the API list interface. [Yaml File Download Link](https://apigateway.oss.cn-north-1.jcloudcs.com/demo/PetStoreTest_Yaml.zip)
 
 ![导入API1](../../../../image/Internet-Middleware/API-Gateway/example_subkey_createAPI_3.png)
 

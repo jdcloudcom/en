@@ -193,7 +193,7 @@ public class Demo {
 
 #### 1.	Unzip the downloaded Python SDK and execute the setup.py file.
 
-#### 2.	Switch to the PetStore directory and create a PetStoreTest.py file. ([Item Download Link](../../../../image/Internet-Middleware/API-Gateway/PetStoreTest_pythonSDK_jdcloud.zip))
+#### 2.	Switch to the PetStore directory and create a PetStoreTest.py file. [Item Download Link](../../../../image/Internet-Middleware/API-Gateway/PetStoreTest_pythonSDK_jdcloud.zip)
 
 ```
 # coding=utf-8

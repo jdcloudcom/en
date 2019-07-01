@@ -22,7 +22,7 @@ It is recommend that before formally deploying business, you should use an insta
 ## Create Cluster
 
  1. Open the console and select Elastic Compute>>JCS for Kubernetes>>cluster service>>cluster
- ![Create Cluster](../../../../image/Elastic-Compute/JCS-for-Kubernetes/Create JCS for Kubernetes Cluster Information.png).  
+ ![Create Cluster](../../../../image/Elastic-Compute/JCS-for-Kubernetes/新建Kubernetes集群集群信息.png).  
  2. Select a region and availability zone: It is recommended that you should select the region and availability zone where the cluster is located according to specific business conditions; by default, all availability zones under the specified region are selected and it is recommended to use the default mode; you can also cancel any one or more selected availability zones, but you shall ensure at least one availability zone is selected.
 
  3. Set the name and description: Name should not be null, which only supports Chinese text, figures, uppercase and lowercase letters, English text, underline " _ " and line-through " - ", with a length no more than 32 characters; description is an optional item, with a length no more than 256 characters.
