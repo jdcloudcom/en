@@ -1018,7 +1018,7 @@ Open PowerPoint by Microsoft PowerPoint
 Open PDF by AdobeReader
                
  
-ZIP 压缩，WinRAR 打开
+ZIP zip, WinRAR open
  
  
  

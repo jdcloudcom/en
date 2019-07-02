@@ -26,6 +26,8 @@ The Queue Service has comprehensively connected to the Identity and Access Manag
      | JDCloudQueueServiceProduceMessage | Production Message Permission of Queue Service | System Policy | All Resources of Queue Service under the Primary Account | It is allowed to send messages to the existing queue                                      |
      | JDCloudQueueServiceConsumeMessage | Consumption Message Permission of Queue Service | System Policy | All Resources of Queue Service under the Primary Account | It is allowed to receive information from the existing queue, modify the time-out period of message visibility and clear the queue |
      | JDCloudQueueServiceManageQueue    | Queue Management Permission of Queue Service | System Policy | All Resources of Queue Service under the Primary Account | It is allowed to create, modify or delete the queue and obtain the queue list and detailed information         |
+     | JDCloudResourceTagAdmin           | Tag Service Administrator Permission   | System Policy | All Resources Under Primary Account         | The resource tag can be edited, tag-level resources are filtered and authorization is required if the tag function is required |
+     | JDCloudResourceTagRead            | Tag Service Read permission       | System Policy | All Resources Under Primary Account         | The tag can be viewed, tag-level resources are filtered and it is suggested to authorize the read permission       |
 
    - For the customized policy, [refer to](https://docs.jdcloud.com/en/iam/createpolicy). ([For the policy syntax, refer to](https://docs.jdcloud.com/en/iam/policy-management), **fill in the queue name of resource ID**)
 

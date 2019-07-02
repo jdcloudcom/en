@@ -10,6 +10,6 @@ Data Compute, as a new cloud data warehouse, can process and analyze the data in
 
 ## Relevant References
 
-- [产品功能](Features.md)
-- [价格总览](../Pricing/Billing-Overview.md)
+- [Features](Features.md)
+- [Price Overview](../Pricing/Billing-Overview.md)
 - [Billing Rules](../Pricing/Billing-Rules.md)

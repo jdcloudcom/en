@@ -179,6 +179,8 @@
             href: API-Reference/CDN-Open-API/Query-UA.md
           - name: Search Header
             href: API-Reference/CDN-Open-API/Query-Header.md
+          - name: Search whether the IP is that of the manufacturer or not
+            href: API-Reference/CDN-Open-API/Query-Include-Node-IP.md
           - name: Attachment：Notification Information Status Code Reference Table
             href: API-Reference/CDN-Open-API/Status-code-reference-table.md
           - name: Appendix: Abbreviation List of Regions and Operators

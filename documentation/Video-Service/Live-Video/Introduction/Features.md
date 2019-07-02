@@ -38,7 +38,7 @@
 </tr>
 <tr>
     <td>Real-time Transcoding</td>
-    <td>Support real-time transcoding, smooth,standard definition, high definition multi-resolutions and multi-code rates transcoding</td>
+    <td>Support real-time transcoding, smooth,standard definition, high definition multi-resolutions and multi-code rates transcoding, also support H.264 and H.265</td>
 </tr>
 <tr>
     <td>Live Watermark</td>

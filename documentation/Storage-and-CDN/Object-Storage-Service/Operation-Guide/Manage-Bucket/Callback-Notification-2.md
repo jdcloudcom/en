@@ -26,7 +26,7 @@ OSS callback notification comprises the two parts, including the **configuration
 
 **Callback notification support API**: [PUT Bucket notification](../../API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/PUT-Bucket-Notification-2.md)、[GET Bucket notification](../../API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/GET-Bucket-Notification-2.md)
 
-**控制台设置回调通知**：请参考[控制台设置事件通知-HTTP\\(S\\)](../../Getting-Started/Event-Notifications-1.md)完成设置。
+**Callback notification setting in the Console**: For setting, please refer to [Event Notification Setting in the Console-HTTP\\(S\\)](../../Getting-Started/Event-Notifications-1.md).
 
 ## Configuration callback notification
 

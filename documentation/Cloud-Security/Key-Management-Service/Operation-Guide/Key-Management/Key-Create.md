@@ -17,4 +17,4 @@ Please refer to [Create keys via OpenAPI](/API/Key-Management-Service/Key-Manage
 
 
 # Related References
-- [密钥状态](Key-Status.md)
+- [Key Status](Key-Status.md)

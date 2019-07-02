@@ -37,8 +37,8 @@ items:
   items:
     - name: Overview
       href: Getting-Started/Getting-Started.md
-    - name: Use examples to construct API in the console
-      href: Getting-Started/example_console.md
+    - name: Build API with the method of signature key pair
+      herf: Getting-Started/example_SignatureKey.md
     - name: Use Function to construct API
       href: Getting-Started/example_function.md
     - name: Build API using the method of subscription Key

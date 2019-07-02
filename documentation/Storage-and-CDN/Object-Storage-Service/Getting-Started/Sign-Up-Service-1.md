@@ -1,7 +1,7 @@
 # Sign Up Service
 
- Functions provided by the Object Storage Service can be used only when the Object Storage Service is signed up. Procedures for signing up on are as below:
- 
+Functions provided by the Object Storage Service can be used only when the Object Storage Service is signed up. Procedures for signing up on are as below:
+
 1.Log in JD Cloud official website to enter the Object Storage Service product page and click Instant Account Setup:
 
 ![Sign Up Now](../../../../image/Object-Storage-Service/OSS-021.png)

@@ -6,7 +6,7 @@
 
 The dependent sdk configured in pom.xml is as follows:
 ```
-<dependency>XML
+<dependency>
     <groupId>com.amazonaws</groupId>
     <artifactId>aws-java-sdk</artifactId>
     <version>1.11.490</version>

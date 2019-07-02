@@ -1,109 +1,109 @@
-# 设置事件通知
+# Set event notification
 
-OSS支持事件通知功能，您可以指定某些资源发生相关操作时及时进行回调通知。事件通知是异步进行的，不影响OSS操作。事件通知常见以下应用场景，例如：
+OSS supports the event notification function. You can make callback notification in time while specifying relevant operation of some resources. Event notification is performed asynchronously, so that OSS operations will not be affected. Event notification is often seen in the following application scenarios, for example:
 
-有新数据从图片内容分享平台、音视频平台上传到OSS。
+New data are uploaded to OSS from image sharing platforms and audio and video platforms.
 
-OSS上的相关内容发生了更新。
+Relevant contents in OSS are updated.
 
-OSS上的重要文件被删除。
+Important files in OSS are deleted.
 
-您可以为存储空间启用事件通知功能，以便每次发生这些事件时都向目标发送通知消息。本部分介绍如何使用 OSS 控制台启用事件通知。
-有关将事件通知 REST API 的信息，请参阅[事件的通知-API](https://docs.jdcloud.com/cn/object-storage-service/callback-notification-2)。
+You may enable the event notification function for the bucket such that a notification message will be sent to the target in case of each event. This part specifies the method of enabling event notification with the OSS Console.
+For information about informing event to REST API, please refer to [Event Notification-API](https://docs.jdcloud.com/en/object-storage-service/callback-notification-2).
 
- **事件通知支持的类型：[OSS可以为以下事件类型发送通知](Event-Notifications-1#user-content-1)**
+ **Type supported by event notification: [OSS can send notification for the following event types](Event-Notifications-1#user-content-1)**
  
- **事件通知支持的目标：[事件通知消息可以发送到的目标](Event-Notifications-1#user-content-2)**
+ **Targets supported by event notification: [Targets Reachable by Event Notification Message](Event-Notifications-1#user-content-2)**
  
- **控制台设置事件通知：[控制台设置事件通知](Event-Notifications-1#user-content-3)**
+ **Event notification setting in the Console: [Event Notification Setting in the Console](Event-Notifications-1#user-content-3)**
  
 
-# 事件通知支持的类型和目标
+# Type and Target Supported by Event Notification
 
-您在为存储空间配置事件通知时，必须指定要针对哪些事件类型进行通知以及希望通知发送到哪些目标。
+When you configure event notification for the bucket, please be sure to specify which event types are to be notified and the notification receiving targets.
 
 <div id="user-content-1"></div>
 
-## OSS可以为以下事件类型发送通知
+## OSS can send notifications for the following event types
 
-事件类型|描述
+Event type|Description
 ---|---
-s3:ObjectCreated:* |创建Object的行为，包含Put Object，Post Object，Copy Object，Complete Multipart Upload
-s3:ObjectCreated:Put |使用Put Object上传文件
-s3:ObjectCreated:Post |使用Post Object上传文件
-s3:ObjectCreated:Copy |使用Put Object-Copy复制文件
-s3:ObjectCreated:CompleteMultipartUpload |完成分片上传
-s3:ObjectRemoved:* |删除Object的行为，包含Delete Object
-s3:ObjectRemoved:Delete |删除文件
+s3:ObjectCreated:* |Create Object behaviors, including Put Object, Post Object, Copy Object and Complete Multipart Upload
+s3:ObjectCreated:Put |Use Put Object to upload files
+s3:ObjectCreated:Post |Use Post Object to upload files
+s3:ObjectCreated:Copy |Use Put Object-Copy to copy files
+s3:ObjectCreated:CompleteMultipartUpload |Complete multipart upload
+s3:ObjectRemoved:* |Delete Object behaviors, including Delete Object
+s3:ObjectRemoved:Delete |Delete Files
 
 <div id="user-content-1"></div>
 
-## 事件通知消息可以发送到的目标：
+## Reachable targets of event notification message:
 
-*  **HTTP(S)**: 按照您配置的回调URL，当Bucket中事件通知触发时，OSS会向回调URL发送指定格式的通知内容，通知方式支持HTTP(S)。
-*  **函数服务（Function Service）**: 函数服务是一项事件驱动的Serverless计算服务。通过函数服务平台，用户无需配置和管理服务器等基础设施，即可弹性、可靠地运行业务代码，快速构建应用与服务，且只需为代码实际消耗的资源付费。**目前函数服务仅支持华北地域配置**
+*  **HTTP(S)**: According to the callback URL configured by you, where there is any event notification triggered in Bucket, OSS will send notification contents in specified format to the callback URL and notification method supports HTTP(S).
+*  **Function Service**: The Function Service is an event-driven Serverless computing service. With the Function Service platform, users can elastically, reliably run business codes, rapidly construct applications and services without configuring and managing infrastructures such as servers, and only need to pay for the resources that the codes actually consume.**Now, the Function Service can be configured in North China only**
 
 <div id="user-content-3"></div>
 
-# 控制台设置事件通知
+# Event Notification Setting in the Console
 
-1.登录京东云控制台，选择对象存储->空间管理->空间设置，选择 **事件通知** ，如图：
+1. Log in the JD Cloud Console, select Object Storage Service -> Space Management -> Space Setting, and select **Event Notification**, as shown in the figure:
 
  ![事件通知](../../../../image/Object-Storage-Service/OSS-148.png)
  
- 2.点击【创建规则】，打开创建规则页面。
+ 2. Click **Creation Rules** to open the rule creation page.
  
  ![事件通知](../../../../image/Object-Storage-Service/OSS-149.png)
  
- 3.在 **名称** 框中，输入规则名称。
+ 3. Please enter the rule name in the **Name** box.
  
- **说明**
+ **Description**
  
- * 您的bucket最多可以创建100条规则。
- * 名称限制256个字节，由字母，数字，下滑线（_）,中滑线（-）组成。
+ * At most 100 rules can be created for your bucket.
+ * The name shall be restricted to 256 bytes, consisting of the letter, the number, the underline (_) and the line-through (-).
  
- 4.在 **事件类型** 下拉列表中，选择一个或多个需要进行消息通知的事件。
+ 4. Select one or more events for message notification from the **Event Type** drop-down list.
  
-**说明**
+**Description**
 
-* 事件类型对应OSS资源的不同操作，具体类型和含义请参下文中[OSS可以为以下事件类型发送通知](Event-Notifications-1#user-content-1)。
-* 您可以选择多个想要触发通知的事件。
-* 同样的事件不可以多次配置在同一资源上（重叠的前后缀）。
-* 同样的事件可以配置发送到不同的目标。
-* 需要特别注意的是，对于每个存储空间，单个事件不要配置多个相互重叠的前缀或后缀，事件通知服务将按序依次匹配，匹配成功则发出消息通知并终止匹配。
-* 执行顺序以服务端规则为准，与控制台展示顺序存在不一致可能。
+* The event type corresponds to different operations of OSS resources. For specific types and meanings, please refer to the following [OSS can send notifications for the following event types](Event-Notifications-1#user-content-1).
+* You are allowed to select several events intended to trigger a notification.
+* The same event cannot be configured on the same resource for several times (overlapped prefixes and suffixes).
+* The same event can be sent to different targets by configuration.
+* It is important to note that for each bucket, a single event shall not be configured with prefixes or suffixes that are overlapped; the event notification service shall be matched in turn; and the message notification will be sent and the match is terminated once the match is successfully done.
+* The execution sequence shall be subject to the server rules and may be inconsistent with the Console exhibition sequence.
 
-5.在 **资源描述** 处，添加前缀、后缀，完成对资源的描述,达到筛选文件的效果。
+5. Add prefixes and suffixes in the "Resource Description" to complete resource description and screen files.
 
-**说明**
+**Description**
 
-* 资源描述：可以是前缀、后缀以及前后缀，请注意不同资源的描述不能有交集。
-* 前缀与后缀：设置Object的前后缀可以达到只关注bucekt中部分Object的目标。
-      例如：
-   -  要关注bucekt中所有的文件，则前缀、后缀都不填。
-   -  要关注bucekt中目录jdcloudoss下的所有文件，则前缀填 jdcloudoss/，后缀不填。
-   -  要关注bucekt中所有的.jpg的图片，则前缀不填，后缀填 .jpg。
-   -  要关注bucekt中目录jdcloudoss下的.mp3格式的影片，则前缀填 jdcloudoss/，后缀填 .mp3。
+* Resource description: It can be a prefix, a suffix or both a prefix and a suffix. Please note that different resource descriptions shall not have any intersection.
+* Prefix and suffix: Some Object targets in the bucket can be exclusively concerned by setting prefixes and suffixes of Object.
+      For example:
+   -  To concern all files in the bucket, both the prefix and suffix shall not be completed.
+   -  To concern all files under the directory jdcloudoss in the bucket, the prefix shall be completed as jdcloudoss/ and suffix shall not be completed.
+   -  To concern all .jpg images in the bucket, the prefix shall not be completed while the suffix shall be completed as .jpg.
+   -  To concern all films in the .mp3 under the directory jdcloudoss in the bucket, the prefix shall be completed as jdcloudoss/ and suffix shall be completed as .mp3.
    
- 6.在 **发送到** 下拉框中，选择【http(s)】或者【函数服务】，完成接收终端的设置。
+ 6. Select [http(s)] or the [Function Service] in the "Send to" drop-down box to complete setting of the receiving terminal.
  
-**说明**
+**Description**
 
-* 【http(s)】 ：OSS会向此地址发布消息，您可输入最多5个回调地址。必须为完整的URL，需指定http协议。了解更多请参考[回调通知](https://docs.jdcloud.com/cn/object-storage-service/callback-notification-2)。
-* 【函数服务】：可运行基于OSS事件的Function 函数脚本。函数服务目前在公测阶段，您需先申请试用，了解更多[函数服务](https://www.jdcloud.com/cn/products/function-service)，参与公测。
-*  函数服务目前仅支持华北-北京，其他区域暂不可设置【函数服务】。
-*  OSS作为函数服务触发器，需满足函数服务关于单个函数最多创建10个触发器的限制，如果您超过限制将导致失败，查看某个函数触发器配置详情，请前往[函数服务控制台](https://function-console.jdcloud.com/services)。
+* [http(s)]: OSS will release message to this address and you can enter 5 callback addresses at most. The address must be the complete URL and the http protocol shall be specified. For more, please refer to [Callback Notification](https://docs.jdcloud.com/en/object-storage-service/callback-notification-2).
+* [Function Service]: Function scripts based on OSS events can be run. The Function Service is in the Beta stage now. You need to apply for trial use. For more, please refer to [Function Service](https://www.jdcloud.com/en/products/function-service) and participate in the Beta.
+*  Now, the Function Service is supported in cn-north-1 only. The [Function Service] cannot be set in other regions temporarily.
+*  Serving as the trigger of Function Service, OSS shall meet the restriction for the Function Service that at most 10 triggers shall be created to a single function. Creation will fail if you exceed such limit. To view configuration details of a single function trigger, please go to [Function Service Console](https://function-console.jdcloud.com/services).
  
-7.点击【保存】。
+7. Click **Save**.
 
-**说明**
+**Description**
 
-*  发动到选择【http(s)】时，点击保存OSS会向事件通知目标发送一条测试消息，为了您服务的安全，请完成[回调服务器设置签名认证]
-(https://docs.jdcloud.com/cn/object-storage-service/setting-signature-authentication-for-callback-server),从而OSS会完成对该地址的订阅。
+*  Since initiation to [http(s)] selection, OSS will send a test message to the event notification target by clicking **Save**. For your service safety, please complete [Signature Certification Setting for Callback Server]
+(https://docs.jdcloud.com/en/object-storage-service/setting-signature-authentication-for-callback-server),so that OSS will complete the address subscription.
 
-*  消息通知格式参见[消息通知](https://docs.jdcloud.com/cn/object-storage-service/callback-notification-2)。
+*  For message notification format, please refer to [Message Notification](https://docs.jdcloud.com/en/object-storage-service/callback-notification-2).
 
-## 您可通过控制台，编辑或者删除事件通知规则
+## You may edit or delete event notification rules via the Console
 
  ![事件通知修改](../../../../image/Object-Storage-Service/OSS-150.png)
 
