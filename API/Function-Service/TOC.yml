@@ -38,12 +38,9 @@
           - name: deleteAlias
             href: Function-OpenAPI/deleteAlias.md 
           - name: getTrigger
-            href: Function-OpenAPI/getTrigger.md  
-          - name: listTrigger
-            href: Function-OpenAPI/listTrigger.md               
+            href: Function-OpenAPI/getTrigger.md                
           - name: invoke
             href: Function-OpenAPI/invoke.md           
           - name: asyncInvoke
-            href: Function-OpenAPI/asyncInvoke.md        
-            
+            href: Function-OpenAPI/asyncInvoke.md
      

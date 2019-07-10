@@ -1,0 +1,29 @@
+  name: Availability Group
+  href:
+  items:
+  - name: Interface Overview
+    href: overview.md
+  - name: Update History
+    href: ChangeLog.md
+  - name: Interface Information
+    items:
+      - name: Availability Group Related APIs
+        items:
+          - name: Create an availability group
+            href: Availability-Group/createAg.md
+          - name: Search details of availability group
+            href: Availability-Group/describeAg.md
+          - name: Search one or more availability groups
+            href: Availability-Group/describeAgs.md
+          - name: Modify availability group
+            href: Availability-Group/updateAg.md
+          - name: Delete availability group
+            href: Availability-Group/deleteAg.md
+          - name: Modify instance template of availability group
+            href: Availability-Group/setInstanceTemplate.md
+          - name: Remove instance from availability group
+            href: Availability-Group/abandonInstances.md
+      - name: Quota
+        items:
+          - name: Search availability group related quota
+            href: Quota/describeQuotas.md

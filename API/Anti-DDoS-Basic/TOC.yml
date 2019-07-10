@@ -1,5 +1,5 @@
   name: Anti-DDoS Basic
-  href: 
+  href:
   items:
   - name: API Overview
     href: overview.md
@@ -7,16 +7,35 @@
     href: ChangeLog.md
   - name: API Information
     items:
-      - name:  Anti-DDoS Basic APIs
+      - name:  Attack Record APIs
         items:
+          - name: describeAttackLogs
+            href: Attack-Log-APIs/describeAttackLogs.md
+          - name: describeAttackStatistics
+            href: Attack-Log-APIs/describeAttackStatistics.md
+          - name: describeAttackTypeCount
+            href: Attack-Log-APIs/describeAttackTypeCount.md
+          - name: describeIpMonitorFlow
+            href: Attack-Log-APIs/describeIpMonitorFlow.md
+      - name:  Protected Public IP APIs
+        items:
+          - name: describeCpsIpResources
+            href: IP-Resource-APIs/describeCpsIpResources.md
+          - name: describeElasticIpResources
+            href: IP-Resource-APIs/describeElasticIpResources.md
+          - name: describeIpCleanThresholdRange
+            href: IP-Resource-APIs/describeIpCleanThresholdRange.md
           - name: describeIpResourceFlow
-            href: Anti-DDoS-Basic-APIs/describeIpResourceFlow.md
+            href: IP-Resource-APIs/describeIpResourceFlow.md
           - name: describeIpResourceInfo
-            href: Anti-DDoS-Basic-APIs/describeIpResourceInfo.md
+            href: IP-Resource-APIs/describeIpResourceInfo.md
           - name: describeIpResourceProtectInfo
-            href: Anti-DDoS-Basic-APIs/describeIpResourceProtectInfo.md
+            href: IP-Resource-APIs/describeIpResourceProtectInfo.md
           - name: describeIpResources
-            href: Anti-DDoS-Basic-APIs/describeIpResources.md
+            href: IP-Resource-APIs/describeIpResources.md
+          - name: describeIpSafetyInfo
+            href: IP-Resource-APIs/describeIpSafetyInfo.md
           - name: setCleanThreshold
-            href: Anti-DDoS-Basic-APIs/setCleanThreshold.md 
-                    
+            href: IP-Resource-APIs/setCleanThreshold.md
+          - name: setIpCleanThreshold
+            href: IP-Resource-APIs/setIpCleanThreshold.md

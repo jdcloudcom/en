@@ -159,26 +159,57 @@ items:
         href: Live-Video/deleteLiveStreamDomainWatermark.md
       - name: Search watermark configuration
         href: Live-Video/describeCustomLiveStreamWatermarkConfig.md
-  - name: Resource Monitoring
+  - name: Data Statistics
     items:
       - name: Search live recording duration data
         status: 0
         href: Live-Video/describeLiveRecordData.md
-      - name: Search live snapshot number data
+      - name: Search Pushing Streaming Monitoring Data
+        href: Live-Video/describePublishStreamInfoData.md
+      - name: Search Live Streaming Historic Online Number
+        href: Live-Video/describeLiveStreamHistoryUserNum.md
+      - name: Search Live Pushing Streaming Number
+        href: Live-Video/describeLivePublishStreamNum.md
+      - name: Transcode Search Duration
+        href: Live-Video/describeLiveTranscodingDurationData.md
+      - name: Search Play Bandwidth
+        href: Live-Video/describeLiveStreamBandwidthData.md
+      - name: Search Play Traffic
+        href: Live-Video/describeLiveStreamTrafficData.md
+      - name: Search Live Snapshot Number
         href: Live-Video/describeLiveSnapshotData.md
-      - name: Search live porn identification number data
+      - name: Search Live Porn Identification Number
+        status: 0
         href: Live-Video/describeLivePornData.md
   - name: Authentication Correlation
     items:
-      - name: Authentication Rules
-        href: Authentication/Url.md
-      - name: Search play authentication KEY
-        href: Live-Video/describeLivePlayAuthKey.md
-      - name: Set play authentication KEY
-        href: Live-Video/setLivePlayAuthKey.md
+      - name: Live Pushing Streaming Authentication
+        items:
+          - name: Pushing Streaming Authentication Rule
+            href: Authentication/PublishUrl.md
+          - name: Set Pushing Streaming Authentication KEY
+            status: 0
+            href: Authentication/PublishUrl.md
+          - name: Search Pushing Streaming Authentication KEY
+            status: 0
+            href: Authentication/PublishUrl.md
+      - name: Live Pushing Streaming Authentication
+        items:
+          - name: Play Authentication Rule
+            href: Authentication/PlayUrl.md
+          - name: Set play authentication KEY
+            href: Live-Video/setLivePlayAuthKey.md
+          - name: Search play authentication KEY
+            href: Live-Video/describeLivePlayAuthKey.md
 #  - name: Live Audit
 #    href: Loading.md
   - name: SDK Call Method
     href: Example/SDK-Java.md
+  - name: Reference Document
+    items:
+      - name: Abbreviation List of Regions
+        href: Reference/Region.md
+      - name: Abbreviation List of Operators
+        href: Reference/Operator.md
 
 

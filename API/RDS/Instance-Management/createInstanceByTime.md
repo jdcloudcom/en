@@ -24,7 +24,7 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:createI
 ### RestoredNewDBInstanceSpec
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**instanceName**|String|False| |Database instance name with restrictions detailed in the [Help Center Documentation](../../../documentation/Cloud-Database-and-Cache/RDS/Introduction/Restrictions/SQLServer-Restrictions.md)|
+|**instanceName**|String|False| |Database Instance Name, see [Help Center Document](../../../documentation/Database-and-Cache-Service/RDS/Introduction/Restrictions/SQLServer-Restrictions.md) for restrictions of Name|
 |**instanceClass**|String|True| |View document [MySQL instance type](../Instance-Specifications/Instance-Specifications-MySQL.md) and [SQL Server instance type](../Instance-Specifications/Instance-Specifications-SQLServer.md) for instance type code|
 |**instanceStorageGB**|Integer|True| |Disk Size, Unit: GB|
 |**azId**|String[]|True| |AZ ID, the first ID must be AZ where the primary instance is located. If the two AZs are the same, you also need to enter two azIds.|
@@ -32,6 +32,9 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:createI
 |**subnetId**|String|True| |Subnet ID|
 |**parameterGroup**|String|False| |Parameter Set ID, system will create a default parameter set by default <br>- only support MySQL|
 |**chargeSpec**|ChargeSpec|True| |Billing specification, including billing type, billing period, etc.|
+|**instanceStorageType**|String|False| |Storage Type, see [Enumeration Parameter Definitions](../Enum-Definitions/Enum-Definitions.md), the default value is: LOCAL_SSD<br>- Only support MySQL|
+|**storageEncrypted**|Boolean|False| |Instance Data Encryption (data encryption will be supported only when the storage type is Cloud Disk Service). false: no encryption, true: encryption, the default is false<br> - Only support MySQL|
+|**instanceType**|String|False| |Instance Availability Architecture. standalone: single machine, cluster: architecture of master and slave machines, the default is cluster<br>- Only support SQL Server|
 ### ChargeSpec
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|

@@ -2,7 +2,7 @@
 
 
 ## Description
-Modify the instance name, which may support Chinese, and the specific rules of instance name may refer to the help center document: [name and password restrictions](../../../documentation/Cloud-Database-and-Cache/RDS/Introduction/Restrictions/SQLServer-Restrictions.md)
+Modify Instance Name, which may support Chinese, and the specific rules of Instance Name may refer to the Help Center Document: [Name and Password Restrictions](../../../documentation/Database-and-Cache-Service/RDS/Introduction/Restrictions/SQLServer-Restrictions.md)
 
 ## Request Method
 POST
@@ -18,7 +18,7 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:modifyI
 ## Request Parameter
 |Name|Type|Required or Not|Default|Description|
 |---|---|---|---|---|
-|**instanceName**|String|True| |Instance name, which supports Chinese, and the specific rules of instance name may refer to the help center document: [name and password restrictions](../../../documentation/Cloud-Database-and-Cache/RDS/Introduction/Restrictions/SQLServer-Restrictions.md)|
+|**instanceName**|String|True| |Instance Name, which supports Chinese, and the specific rules of Instance Name may refer to the Help Center Document: [Name and Password Restrictions](../../../documentation/Database-and-Cache-Service/RDS/Introduction/Restrictions/SQLServer-Restrictions.md)|
 
 
 ## Return Parameter

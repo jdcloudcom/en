@@ -18,7 +18,7 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/audit
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**enabled**|String|True| |The audit options to be enable shall be separated from each other by a comma or a space, for example: DATABASE_OBJECT_ACCESS_GROUP,ACKUP_RESTORE_GROU, etc. <br>The audit options supported by each database version can be obtained via the API [getAuditOptions](./getAuditOptions.md), and the specific meaning of each audit option can be found in the official document of Microsoft.|
+|**enabled**|String|True| |The audit options to be enabled are separated by English commas or Spaces, such as DATABASE_OBJECT_ACCESS_GROUP,ACKUP_RESTORE_GROU<br>The audit option supported by each Database Version can be obtained by API[describeAuditOptions](./describeAuditOptions.md), and see Official Microsoft Document for specific meanings of each audit option|
 
 
 ## Response parameter

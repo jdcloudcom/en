@@ -6,7 +6,7 @@ Relevant APIs of function
 
 
 ### Version
-v1
+v1.0.3
 
 
 ## API
@@ -26,7 +26,6 @@ v1
 |**invoke**|POST|Console Test Execution Function|
 |**listAlias**|GET|Search alias list|
 |**listFunction**|GET|Search function list|
-|**listTrigger**|GET|Search Trigger List|
 |**listVersion**|GET|Search version list|
 |**updateAlias**|PUT|Update alias|
 |**updateFunction**|PUT|Update function|

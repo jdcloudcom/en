@@ -19,7 +19,7 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances
 |---|---|---|---|---|
 |**pageNumber**|Integer|False| |Display the page number of the data. The default is 1 and the value range is [-1, ∞). When pageNumber is -1, return all data page numbers; when the total number of pages is exceeded, display the last page;|
 |**pageSize**|Integer|False| |The number of data displayed per page is 100 by default and the value range is [10,100], which is used for the API to query the list|
-|**filters**|Filter[]|False| |Filtering parameters, the relationship between multiple filtering parameters is “and" (and) <br>, supporting filtering with the following attributes: <br>instanceId, support operator option: eq<br>instanceName, support operator option: eq<br>engine, support operator option: eq<br>engineVersion, support operator option: eq<br>instanceStatus, support operator option: eq<br>chargeMode, support operator option: eq<br>|
+|**filters**|Filter[]|False| |Filtering parameters, the relationship between multiple filtering parameters is "and" (and) <br>, supporting filtering with the following attributes: <br>instanceId, support operator option: eq<br>instanceName, support operator option: eq<br>engine, support operator option: eq<br>engineVersion, support operator option: eq<br>instanceStatus, support operator option: eq<br>chargeMode, support operator option: eq<br>|
 |**tagFilters**|TagFilter[]|False| |Resource Tag|
 
 ### TagFilter
@@ -48,16 +48,23 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances
 |Name|Type|Description|
 |---|---|---|
 |**instanceId**|String|Instance ID|
-|**instanceName**|String|Instance name with specific rules detailed in the Help Center Documentation: [Name and Password Restrictions](../../../documentation/Cloud-Database-and-Cache/RDS/Introduction/Restrictions/SQLServer-Restrictions.md)|
+|**instanceName**|String|Instance Name, see Help Center Document [Name and Password Restrictions](../../../documentation/Database-and-Cache-Service/RDS/Introduction/Restrictions/SQLServer-Restrictions.md) for specific rules|
 |**instanceType**|String|Instance category, such as primary instances, read-only instances, etc., detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)|
 |**engine**|String|Instance engine type, such as MySQL or SQL Server, etc., detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)|
 |**engineVersion**|String|Instance engine version, detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)|
+|**instanceClass**|String|Instance Type Code|
+|**instanceStorageGB**|Integer|Disk, Unit: GB|
+|**instanceCPU**|Integer|CPU Core Number|
+|**instanceMemoryMB**|Integer|Memory, Unit: MB|
 |**regionId**|String|Region ID, detailed in [Regions and Availability Zone Comparison Table](../Enum-Definitions/Regions-AZ.md)|
 |**azId**|String[]|AZ ID, the first is AZ for the primary instance, which is detailed in [Regions and Availability Zone Comparison Table](../Enum-Definitions/Regions-AZ.md)|
+|**vpcId**|String|VPC ID|
+|**subnetId**|String|Subnet ID|
 |**instanceStatus**|String|Instance status, detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)|
 |**createTime**|String|Instance Creation Time|
 |**charge**|Charge|Billing Configuration|
 |**tags**|Tag[]|Tag Information|
+|**sourceInstanceId**|String|Main Instance ID Corresponded To MySQL Read-only Instance|
 ### Tag
 |Name|Type|Description|
 |---|---|---|

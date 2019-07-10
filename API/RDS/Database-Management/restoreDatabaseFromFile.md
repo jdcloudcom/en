@@ -19,7 +19,7 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/databas
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**sharedFileGid**|String|False| |The global ID of the shared file can be obtained from the query API to upload file [describeImportFiles](../import/describeImportFiles.md); if the file is not a shared file, you do not need to enter this parameter|
+|**sharedFileGid**|String|False| |The global ID of the shared file can be obtained from the uploaded file search APIs [describeImportFiles](../Cloud-on-Single-Database/describeImportFiles.md); if such file is not the shared file, it is not required to enter the parameter|
 |**fileName**|String|True| |The name of the backup file uploaded by the user (including suffix name of the file ), for example, mydb1.bak|
 
 

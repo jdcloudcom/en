@@ -1,6 +1,6 @@
 # Live Authentication
 
-## Authentication Description
+## Pushing Streaming Authentication Description
 
 ###  Composition of Authentication URL
 
@@ -14,7 +14,7 @@ Valid time means that this authentication will expire if the time when a user's 
 
 ### User Access Encrypted URL Composition
 
-http:// DomainName/Filename?auth_key=timestamp-rand-uid-md5hash
+http://DomainName/Filename?auth_key=timestamp-rand-uid-md5hash
 
 
 ### Authentication Field Description
@@ -34,7 +34,7 @@ When the server gets the request, it will determine if the timestamp in the requ
 ### Example Description
 
 1. Allow req_auth request target:
-http:// cdn.example.com/sports/football
+http://cdn.example.com/sports/football
 
 2. Key is set as:
 jdlivekeyexample123 (set by the user)

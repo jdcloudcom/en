@@ -19,7 +19,7 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/account
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**accountPassword**|String|True| |New password with specific rules detailed in the Help Center Documentation: [Name and Password Restrictions](../../../documentation/Cloud-Database-and-Cache/RDS/Introduction/Restrictions/SQLServer-Restrictions.md)|
+|**accountPassword**|String|True| |New Password, see Help Center Document: [Name and Password Restrictions](../../../documentation/Database-and-Cache-Service/RDS/Introduction/Restrictions/SQLServer-Restrictions.md) for specific rules of Password|
 
 
 ## Response parameter

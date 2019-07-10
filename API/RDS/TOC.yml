@@ -89,6 +89,8 @@
             herf: Cross-region-synchronization-service/deleteBackupSynchronicity.md
           - name: describeBackupSynchronicities
             herf: Cross-region-synchronization-service/describeBackupSynchronicities.md
+          - name: createInstanceByTimeInCrossRegion
+            herf: Cross-region-synchronization-service/createInstanceByTimeInCrossRegion.md
 
       - name: Database Management
         items:
@@ -118,6 +120,8 @@
             herf: Instance-Management/createInstanceByTime.md
           - name: createInstanceFromBackup
             herf: Instance-Management/createInstanceFromBackup.md
+          - name: createROInstance
+            herf: Instance-Management/createROInstance.md
           - name: deleteInstance
             herf: Instance-Management/deleteInstance.md
           - name: describeBackupPolicy

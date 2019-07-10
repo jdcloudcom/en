@@ -35,13 +35,13 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/account
 ### Account
 |Name|Type|Description|
 |---|---|---|
-|**accountName**|String|Account name with specific rules detailed in the Help Center Documentation: [Name and Password Restrictions](../../../documentation/Cloud-Database-and-Cache/RDS/Introduction/Restrictions/SQLServer-Restrictions.md)|
+|**accountName**|String|Account Name, see Help Center Document: [Name and Password Restrictions](../../../documentation/Database-and-Cache-Service/RDS/Introduction/Restrictions/SQLServer-Restrictions.md) for specific rules of Account Name|
 |**accountStatus**|String|Account status, detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)<br>- **MySQL: Not support, not return this field**<br>- **SQL Server: return this field**|
 |**accountPrivileges**|AccountPrivilege[]|Specific Privilege|
 ### Account
 |Name|Type|Description|
 |---|---|---|
-|**dbName**|String|Database name with specific rules detailed in the Help Center Documentation: [Name and Password Restrictions](../../../documentation/Cloud-Database-and-Cache/RDS/Introduction/Restrictions/SQLServer-Restrictions.md)|
+|**dbName**|String|Database Name, see Help Center Document: [Name and Password Restrictions](../../../documentation/Database-and-Cache-Service/RDS/Introduction/Restrictions/SQLServer-Restrictions.md) for specific rules|
 |**privilege**|String|Privilege of account to the database with the specific definition detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)|
 
 ## Response code

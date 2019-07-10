@@ -12,7 +12,9 @@ https://cps.jdcloud-api.com/v1/regions
 
 
 ## Request parameter
-None
+|Name|Type|Required or Not|Default Value|Description|
+|---|---|---|---|---|
+|**networkType**|String|False| |Network type basic/vpc, basic by default|
 
 
 ## Response parameter

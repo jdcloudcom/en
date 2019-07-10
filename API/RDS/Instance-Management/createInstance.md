@@ -22,7 +22,7 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances
 ### DBInstanceSpec
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**instanceName**|String|False| |Instance name with specific rules detailed in the Help Center Documentation: [Name and Password Restrictions](../../../documentation/Cloud-Database-and-Cache/RDS/Introduction/Restrictions/SQLServer-Restrictions.md)|
+|**instanceName**|String|False| |Instance Name, see Help Center Document: [Name and Password Restrictions](../../../documentation/Database-and-Cache-Service/RDS/Introduction/Restrictions/SQLServer-Restrictions.md) for specific rules|
 |**engine**|String|True| |Instance engine type, detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)|
 |**engineVersion**|String|True| |Instance engine version, detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)|
 |**instanceClass**|String|True| |View document [MySQL instance type](../Instance-Specifications/Instance-Specifications-MySQL.md) and [SQL Server instance type](../Instance-Specifications/Instance-Specifications-SQLServer.md) for instance type code|
@@ -32,6 +32,9 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances
 |**subnetId**|String|True| |Subnet ID|
 |**parameterGroup**|String|False| |Parameter Set ID, system will create a default parameter set by default <br>- only support MySQL|
 |**chargeSpec**|ChargeSpec|True| |Billing specification, including billing type, billing period, etc.|
+|**instanceStorageType**|String|False| |Storage Type, see [Enumeration Parameter Definitions](../Enum-Definitions/Enum-Definitions.md), the default value is: LOCAL_SSD<br>- Only support MySQL|
+|**storageEncrypted**|Boolean|False| |Instance Data Encryption (data encryption will be supported only when the storage type is Cloud Disk Service). false: no encryption, true: encryption, the default is false<br> - Only support MySQL|
+|**instanceType**|String|False| |Instance Availability Architecture. standalone: single machine, cluster: architecture of master and slave machines, the default is cluster<br>- Only support SQL Server|
 ### ChargeSpec
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|

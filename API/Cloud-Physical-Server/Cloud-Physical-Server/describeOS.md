@@ -18,6 +18,7 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/os
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**deviceType**|String|True| |Instance Type Family, the API (describeDeviceTypes) may be called to obtain the instance type family of a specific region, such as: cps.c.normal|
+|**osType**|String|False| |OS type, value range: CentOS, Ubuntu|
 
 
 ## Response parameter
@@ -37,7 +38,7 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/os
 |**osName**|String|Operating System Name, such as Ubuntu 16.04(x86_64)|
 |**osType**|String|Operating System Type Id, such as Ubuntu/Centos|
 |**osVersion**|String|Operating System Version, such as 14.04/16.04|
-|**deviceType**|String|Instance Type Family, such as cps.c.normal,|
+|**deviceType**|String|Instance Type Family, e.g. cps.c.normal|
 
 ## Response code
 |Return code|Description|

@@ -24,7 +24,7 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/account
 ### AccountPrivilege
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**dbName**|String|False| |Database name with specific rules detailed in the Help Center Documentation: [Name and Password Restrictions](../../../documentation/Cloud-Database-and-Cache/RDS/Introduction/Restrictions/SQLServer-Restrictions.md)|
+|**dbName**|String|False| |Database Name, see Help Center Document: [Name and Password Restrictions](../../../documentation/Database-and-Cache-Service/RDS/Introduction/Restrictions/SQLServer-Restrictions.md) for specific rules|
 |**privilege**|String|False| |Privilege of account to the database with the specific definition detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)|
 
 ## Response parameter

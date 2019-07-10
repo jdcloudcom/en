@@ -17,14 +17,14 @@ https://function.jdcloud-api.com/v1/regions/{regionId}/functions
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**name**|String|True| |Function Name|
+|**name**|String|False| |Function Name|
 |**description**|String|False| |Function Description Information|
-|**entrance**|String|True| |Function Entrance, the format is entrance file.entrance function name|
-|**memory**|Integer|True| |Maximum Memory Upon Function Running|
-|**runTime**|String|True| |Function Running Environment|
-|**overTime**|Integer|True| |Time-out Period Upon Function Running|
+|**entrance**|String|False| |Function Entrance, the format is entrance file.entrance function name|
+|**memory**|Integer|False| |Maximum Memory Upon Function Running|
+|**runTime**|String|False| |Function Running Environment|
+|**overTime**|Integer|False| |Time-out Period Upon Function Running|
 |**version**|String|False| |Function Version, defaulted as LATEST|
-|**code**|Code|True| |Function Code Package|
+|**code**|Code|False| |Function Code Package|
 |**environment**|Env|False| |Environment Variable Upon Function Running|
 |**logSetId**|String|False| |Log Collection Id Designated by Function|
 |**logTopicId**|String|False| |Log Subject Id Designated by Function|

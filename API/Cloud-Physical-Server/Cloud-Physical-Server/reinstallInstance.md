@@ -34,14 +34,6 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:reinsta
 |**dataRaidTypeId**|String|True| |Data Disk RAID Type ID|
 |**password**|String|True| |Password|
 |**hostname**|String|False| |Machine Name|
-|**softwares**|Software[]|False| | |
-### Software
-|Name|Type|Required or not|Default value|Description|
-|---|---|---|---|---|
-|**name**|String|False| |Software Package Name|
-|**version**|String|False| |Software Package Version|
-|**osTypeId**|String|False| |Operating System Type ID|
-|**description**|String|False| |Software Package Description|
 
 ## Response parameter
 |Name|Type|Description|

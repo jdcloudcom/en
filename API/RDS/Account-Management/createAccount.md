@@ -18,8 +18,8 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/account
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**accountName**|String|True| |Account name; in the same RDS instance, the account name cannot be duplicated. The specific rules of account name can be seen the Help Center Documentation: [Name and Password Restrictions](../../../documentation/Cloud-Database-and-Cache/RDS/Introduction/Restrictions/SQLServer-Restrictions.md)|
-|**accountPassword**|String|True| |Password with specific rules detailed in the Help Center Documentation: [Name and Password Restrictions](../../../documentation/Cloud-Database-and-Cache/RDS/Introduction/Restrictions/SQLServer-Restrictions.md)|
+|**accountName**|String|True| |For Account Name, in the same RDS instance, the Account Name cannot be repeated. See Help Center Document: [Name and Password Restrictions](../../../documentation/Database-and-Cache-Service/RDS/Introduction/Restrictions/SQLServer-Restrictions.md) for specific rules of Account Name|
+|**accountPassword**|String|True| |Password, see Help Center Document: [Name and Password Restrictions](../../../documentation/Database-and-Cache-Service/RDS/Introduction/Restrictions/SQLServer-Restrictions.md) for specific rules of Password|
 
 
 ## Response parameter

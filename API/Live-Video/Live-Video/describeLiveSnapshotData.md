@@ -14,7 +14,7 @@ https://live.jdcloud-api.com/v1/liveSnapshotData
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**publishDomain**|String|True| |Pushing Streaming Domain|
+|**publishDomain**|String|False| |Pushing Streaming Domain|
 |**appName**|String|False| |Application Name|
 |**streamName**|String|False| |Stream Name|
 |**startTime**|String|True| |Start time:<br>- UTC Time<br>  Format: yyyy-MM-dd'T'HH:mm:ss'Z'<br>  Example: 2018-10-21T10:00:00Z<br>- Support searching data within up to 90 days<br>|
@@ -30,15 +30,17 @@ https://live.jdcloud-api.com/v1/liveSnapshotData
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**snapshotData**|SnapshotData[]| |
-### SnapshotData
+|**snapshotData**|SnapshotCountStatisticResult[]| |
+### SnapshotCountStatisticResult
 |Name|Type|Description|
 |---|---|---|
-|**publishDomain**|String|Pushing Streaming Domain|
-|**appName**|String|Application Name|
-|**streamName**|String|Stream Name|
-|**date**|String|Date<br>- Format: yyyyMMdd<br>- Example: 20190308<br>|
-|**total**|Integer|Sheets of Snapshot:<br>- Unit: Sheet<br>|
+|**startTime**|String|Time Point<br>|
+|**endTime**|String|Time Point<br>|
+|**data**|SnapshotCountStatisticData| |
+### SnapshotCountStatisticData
+|Name|Type|Description|
+|---|---|---|
+|**count**|Integer|Sheets of Snapshot:<br>- Unit: Sheet<br>|
 
 ## Return Code
 |Return Code|Description|
@@ -60,22 +62,23 @@ https://live.jdcloud-api.com/v1/liveSnapshotData?publishDomain=push.yourdomain.c
 ## Return Example
 ```
 {
+    "code": 200, 
     "requestId": "bgvmivir54gddpgi764se9f4kfr7ge41", 
     "result": {
-        "snapshotDatas": [
+        "snapshotData": [
             {
-                "appName": "yourapp", 
-                "date": "20180101", 
-                "publishDomain": "push.yourdomain.com", 
-                "streamName": "yourstream", 
-                "total": 86310
+                "data": {
+                    "count": 0
+                }, 
+                "endTime": "2019-04-15T15:59:59Z", 
+                "startTime": "2019-04-14T16:00:00Z"
             }, 
             {
-                "appName": "yourapp", 
-                "date": "20180102", 
-                "publishDomain": "push.yourdomain.com", 
-                "streamName": "yourstream", 
-                "total": 86310
+                "data": {
+                    "count": 0
+                }, 
+                "endTime": "2019-04-16T15:59:59Z", 
+                "startTime": "2019-04-15T16:00:00Z"
             }
         ]
     }

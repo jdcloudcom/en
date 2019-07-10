@@ -2,7 +2,7 @@
 
 
 ## Description
-To execute the shutdown operation to a single Cloud Physical Server, only the running server can be stopped
+Shutdown single Cloud Physical Server, only servers with running status can be stopped
 
 ## Request method
 PUT

@@ -32,11 +32,13 @@ None
 |Name|Type|Description|
 |---|---|---|
 |**instanceId**|String|Instance ID|
-|**instanceName**|String|Instance name with specific rules detailed in the Help Center Documentation: [Name and Password Restrictions](../../../documentation/Cloud-Database-and-Cache/RDS/Introduction/Restrictions/SQLServer-Restrictions.md)|
+|**instanceName**|String|Instance Name, see Help Center Document [Name and Password Restrictions](../../../documentation/Database-and-Cache-Service/RDS/Introduction/Restrictions/SQLServer-Restrictions.md) for specific rules|
 |**instanceType**|String|Instance type, such as primary instances, read-only instances, etc., detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)|
 |**engine**|String|Instance engine type, such as MySQL or SQL Server, etc., detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)|
 |**engineVersion**|String|Instance engine version, detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)|
 |**instanceClass**|String|Instance Type Code|
+|**instanceStorageType**|String|Storage Type, see [Enumeration Parameter Definitions](../Enum-Definitions/Enum-Definitions.md)|
+|**storageEncrypted**|Boolean|Instance Data Encryption. false: no encryption; true: encryption|
 |**instanceStorageGB**|Integer|Disk, Unit: GB|
 |**instanceCPU**|Integer|Number of CPU Cores|
 |**instanceMemoryMB**|Integer|Memory Size, Unit: MB|
@@ -44,6 +46,9 @@ None
 |**azId**|String[]|AZ ID, the first is AZ for the primary instance, which is detailed in [Regions and Availability Zone Comparison Table](../Enum-Definitions/Regions-AZ.md)|
 |**vpcId**|String|VPC ID|
 |**subnetId**|String|Subnet ID|
+|**parameterGroupId**|String|Parameter Set ID|
+|**parameterGroupName**|String|Parameter Set Name|
+|**parameterStatus**|String|Status of parameters, see [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)|
 |**internalDomainName**|String|Intranet Domain of Instance|
 |**publicDomainName**|String|Internet Domain of Instance|
 |**instancePort**|String|Application Access Port|
@@ -52,6 +57,8 @@ None
 |**instanceStatus**|String|Instance status, detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)|
 |**createTime**|String|Instance Creation Time|
 |**charge**|Charge|Billing Configuration|
+|**sourceInstanceId**|String|Main Instance ID Corresponded To MySQL Read-only Instance|
+|**roInstanceIds**|String[]|Read-only Instance ID List|
 |**primaryNode**|DBInstanceNode|Information of master node in High Availability Cluster<br>- only support SQL Serverer|
 |**secondaryNode**|DBInstanceNode|Information of slave node in High Availability Cluster<br>- only support SQL Serverer|
 |**tags**|Tag[]|Tag Information|

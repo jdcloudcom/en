@@ -2,7 +2,7 @@
 
 
 ## Description
-To execute the startup operation to a single Cloud Physical Server, only the stopped server can be started
+Start single Cloud Physical Server, only servers with stopped status can be started
 
 ## Request method
 PUT

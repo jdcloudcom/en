@@ -1,8 +1,15 @@
 # Update History #
-API Version: 0.4.6
+API Version: 0.5.4
 
 |Release Time|Version Number| Update |Instructions|
 |---|---|---|---|
+|2019-05-08|0.5.4|APIs Update|* Some APIs Optimization|
+|2019-04-17|0.5.3|SQL Server APIs Update|* Support cross-origin related APIs<br>* Instance Creation Related APIs support standalone creation|
+|2019-04-16|0.5.2|MySQL APIs Update|* Add Parameter Set Name in Instance Details|
+|2019-04-10|0.5.1|MySQL APIs Update|* Support for creating Read-only Instance<br>* Add parameters in Instance Details| 
+|2019-04-02|0.5.0|MySQL APIs Update|* Search Account List and search Database List Support Page<br>* Search Instance Details, support for returning Parameter Set ID, Parameter Status, Public Network domain<br>* Create related APIs to support Cloud Disk Service<br>* Instance List supports for returning vpcId, subnetId and specification parameter<br>* Optimize Parameter Set ID|
+|2019-03-21|0.4.9|SQL Server APIs Update|* Add Migration Availability Zone APIs|
+|2019-03-11|0.4.7|Read-only Instance|* Read-only Instance resource is added in the Instance List sourceInstanceId|
 |2019-03-06|0.4.6|Document Update|* Update some interface descriptions|
 |2019-02-26|0.4.4|SQL Server Interface Update|* Add exchange DNS interface|
 |2019-01-29|0.4.3|MySQL interface update|* Add relevant interface for parameter array<br>* Add search for whether to enable high security mode interface<br>* Add interface for searching SQL interception record interface|

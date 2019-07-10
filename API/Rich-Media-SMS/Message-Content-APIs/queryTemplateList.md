@@ -8,20 +8,20 @@ Search content list APIs of Rich Media SMS
 POST
 
 ## Request Address
-https://rms.jdcloud-api.com/v1/regions/{regionId}/queryTemplateList
+https://rms.jdcloud-api.com/v2/regions/{regionId}/queryTemplateList
 
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True| |Region ID|
+|**regionId**|String|True|cn-north-1|Region ID|
 
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**appId**|String|False| |Application Id|
-|**searchKey**|String|False| |SMS Title for Search, optional|
-|**pageNum**|String|False| |Page XX|
-|**pageLimit**|String|False| |Data Count per Page|
-|**status**|String|False| |SMS Audit Status|
+|**appId**|String|True| |Application ID|
+|**title**|String|False| |Search title key words|
+|**pageNum**|Integer|True| |Page XX|
+|**pageLimit**|Integer|True| |Record Counts per Page|
+|**status**|String|False| |Review status: 0: Reviewing 1: Pass 2: Failed 4: To Be Submitted|
 |**startTime**|String|False| |Start Time, in the format of YYYY-MM-DD|
 |**endTime**|String|False| |End Time, in the format of YYYY-MM-DD|
 
@@ -30,25 +30,34 @@ https://rms.jdcloud-api.com/v1/regions/{regionId}/queryTemplateList
 |Name|Type|Description|
 |---|---|---|
 |**result**|Result| |
-|**requestId**|String|Request Id|
+|**requestId**|String| |
 
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**data**|RespQueryTemplateListData[]| |
-|**message**|String|Response Message|
-|**totalElements**|String|Total Entry|
-|**status**|String|Request Status|
+|**data**|RespTemplatePageResult| |
+|**status**|Boolean|Request Status|
+|**code**|String|Error Code|
+|**message**|String|Error Message|
+### RespTemplatePageResult
+|Name|Type|Description|
+|---|---|---|
+|**count**|Long|Total Entry|
+|**pageNum**|Integer|Current Page|
+|**pageSize**|Integer|Entry Counts per Page|
+|**pageCount**|Integer|Total Number of Pages|
+|**list**|RespQueryTemplateListData[]|Data|
 ### RespQueryTemplateListData
 |Name|Type|Description|
 |---|---|---|
-|**reason**|String|Unapproved Reason|
-|**createTime**|String|SMS Creation Time|
-|**contentSize**|String|SMS Size|
-|**description**|String|SMS Description|
-|**templateId**|String|SMS Id|
+|**templateId**|String|SMS ID|
 |**title**|String|SMS Title|
-|**status**|String|SMS Audit Status|
+|**status**|String|Review Status  0: Reviewing  1: Pass  2: Failed  4: To Be Submitted|
+|**reason**|String|Unapproved Reason|
+|**createTime**|String|SMS Creation Time yyyy-MM-dd HH:mm:ss|
+|**contentSize**|String|SMS Size|
+|**aptitudesId**|String|Qualification Id|
+|**description**|String|SMS Description|
 
 ## Return Code
 |Return Code|Description|

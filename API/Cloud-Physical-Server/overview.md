@@ -12,21 +12,36 @@ v1
 ## API
 |Interface name|Request mehod|Function description|
 |---|---|---|
-|**createInstances**|PUT|Create one or multiple Cloud Physical Server(s) with designated configuration<br/></br>- Region and Availability Zone<br/></br> \- Call interface (describeRegiones) to get Region and Availability Zone supported by Cloud Physical Servers- Instance type<br/></br> \- Call interface (describeDeviceTypes) to get physical instance type list<br/></br> \- offline or sold out instance type cannot be used<br/></br>- Operating software and pre-installed software<br/></br> \- Call interface (describeOS) to get the list of operating systems supported by Cloud Physical Servers- Storage<br/></br> \- Multiple types of RAID for data disk are available, call interface (describeDeviceRaids) to get list of RAID supported by servers<br/></br>- Network<br/></br> \- Network type only supports basic at present<br/></br> \- ISP line
- only supports bgp<br/></br> \- Support to disable Internet, if Internet is enabled, the bandwidth rang is [1,200] with unit of Mbps<br/></br>- Other<br/></br> \- Purchase duration, purchase can be under monthly package: month value range[1,9], year value range [1,3]<br/></br> \- Refer to the common parameter specification for password settings<br/></br>|
+|**applyElasticIps**|PUT|Apply for elastic IP<br>|
+|**associateElasticIp**|PUT|Associate elastic IP<br>|
+|**createInstances**|PUT|Create one or more configured Cloud Physical Server<br/><br>- Region and Availability Zone<br/><br>  \- Call API (describeRegiones) to get Region and Availability Zone supported by Cloud Physical Server<br/><br>- Instance Type Family<br/><br>  \- Call API (describeDeviceTypes) to get physical Instance Type Family list <br/><br>  \- Cannot use Instance Type Family that has been offline or sold out<br/><br>- Operating System<br/><br>  \- Call API (describeOS) to get OS list supported by Cloud Physical Server<br/><br>- Storage<br/><br>  \- Data disk with multiple optional RAIDs, call API (describeDeviceRaids) to get RAID list supported by server<br/><br>- Network<br/><br>  \- Network type supports basic and vpc currently<br/><br>  \- ISP Line only supports bgp currently<br/><br>  \- Disabling Internet is supported; if enabling Internet, the bandwidth range is [1,200] Unit Mbps<br/><br>- Others<br/><br>  \- Purchase Duration, which can be purchased by yearly or monthly package: monthly package value range [1,9], yearly package value range [1,3]<br/><br>  \- See public parameter specifications for password settings<br/><br>|
+|**createSubnet**|PUT|Create subnet|
+|**createVpc**|PUT|Create VPC|
+|**deleteSubnet**|DELETE|Delete subnet|
+|**deleteVpc**|DELETE|Delete VPC<br>|
+|**describeBasicSubnet**|GET|Search underlying network Subnet|
 |**describeDeviceRaids**|GET|Query the RAID types supported by the Cloud Physical Server of a certain instance type family, may query the system disk RAID type and data disk RAID type|
 |**describeDeviceTypes**|GET|Query the instance type family of Cloud Physical Server|
+|**describeElasticIp**|GET|Search elastic IP detail|
+|**describeElasticIps**|GET|Search elastic IP list<br/><br>Support paging search, with 20 entries per page by default<br/><br>|
 |**describeInstance**|GET|Query the details of a single Cloud Physical Server|
 |**describeInstanceName**|GET|Query the name of Cloud Physical Server|
 |**describeInstanceRaid**|GET|Query the installed RAID information of a single Cloud Physical Server, including the system disk RAID information and data disk RAID information|
 |**describeInstanceStatus**|GET|Query the hardware monitoring information of a single Cloud Physical Server|
-|**describeInstances**|GET|Batch query the details of Cloud Physical Server<br/></br>Support query in pages, with 10 entries per page by default<br/></br>|
+|**describeInstances**|GET|Search Cloud Physical Server detail information in batches<br/><br>Support paging search, with 20 entries per page by default<br/><br>|
 |**describeOS**|GET|Query the Operating Systems Supported by the Cloud Physical Server|
 |**describeRegiones**|GET|Cloud Physical Server Region List Query|
-|**describeSubnet**|GET|Query Subnet |
-|**modifyBandwidth**|PUT|When upgrading Internet bandwidth of Cloud Physical Servers, only servers with running or stopped status can be operated<br/></br>- Bandwidth upgrade is unavailable to servers without enabling Internet</br>- degradation is not supported to Internet bandwidth</br>|
+|**describeSubnet**|GET|Search Subnet detail|
+|**describeSubnets**|GET|Query subnet list|
+|**describeVpc**|GET|Search VPC detail|
+|**describeVpcs**|GET|Query virtual private cloud list|
+|**disassociateElasticIp**|PUT|Disassociate elastic IP<br>|
+|**modifyBandwidth**|PUT|When upgrading Internet bandwidth of Cloud Physical Servers, only servers with running or stopped status can be operated<br/><br>- Servers without enabling Internet are not supported to upgrade bandwidth<br>- Degrade for Internet bandwidth is not supported<br>|
+|**modifyElasticIpBandwidth**|PUT|Modify elastic IP bandwidth<br>|
 |**modifyInstance**|POST|Modify some information of Cloud Physical Server, including name, description|
-|**reinstallInstance**|PUT|Only servers with stopped status can be re-installed when re-installing Cloud Physical Server</br></br>- Call interface (describeOS) to get list of operating systems supported by Cloud Physical Server</br>|
-|**restartInstance**|PUT|To reboot a single Cloud Physical Server, only the running servers can be rebooted|
-|**startInstance**|PUT|To execute the startup operation to a single Cloud Physical Server, only the stopped server can be started|
-|**stopInstance**|PUT|To execute the shutdown operation to a single Cloud Physical Server, only the running server can be stopped|
+|**modifySubnet**|POST|Modify subnet|
+|**modifyVpc**|POST|Modify VPC<br>|
+|**reinstallInstance**|PUT|When reinstalling Cloud Physical Servers, only servers with stopped status can be reinstalled<br/></br>- Call API (describeOS) to get OS list supported by Cloud Physical Servers</br>|
+|**restartInstance**|PUT|Reboot single Cloud Physical Server, only servers with running status can be rebooted|
+|**startInstance**|PUT|Start single Cloud Physical Server, only servers with stopped status can be started|
+|**stopInstance**|PUT|Shutdown single Cloud Physical Server, only servers with running status can be stopped|

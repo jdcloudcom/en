@@ -17,6 +17,9 @@ https://function.jdcloud-api.com/v1/regions/{regionId}/functions
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
+|**listAll**|Boolean|True| |Whether all functions are returned|
+|**pageNumber**|Integer|False| |Page|
+|**pageSize**|Integer|False| |Paging Size|
 |**filters**|Filter[]|False| |functionId -FunctionID, Exact Match, Support Multiple<br>functionName  - Function Name, Fuzzy Match, Support Single<br>|
 
 ### Filter
@@ -35,7 +38,12 @@ https://function.jdcloud-api.com/v1/regions/{regionId}/functions
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**data**|FunctionSpec[]| |
+|**data**|ListFunctionResult| |
+### ListFunctionResult
+|Name|Type|Description|
+|---|---|---|
+|**functions**|FunctionSpec[]|Function List|
+|**totalCount**|Integer|Total Number of Functions|
 ### FunctionSpec
 |Name|Type|Description|
 |---|---|---|

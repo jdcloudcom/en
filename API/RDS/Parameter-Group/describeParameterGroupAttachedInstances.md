@@ -2,7 +2,7 @@
 
 
 ## Description
-View modification history of parameters<br>- Only support MySQL
+View Cloud Database Instance associated by Parameter Set<br>- Only support MySQL
 
 ## Request Method
 GET
@@ -36,7 +36,7 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/parameterGroups/{parameterGrou
 |Name|Type|Description|
 |---|---|---|
 |**instanceId**|String|Instance ID|
-|**instanceName**|String|Instance Name, see document of help center [Name and password limit](../../../documentation/Cloud-Database-and-Cache/RDS/Introduction/Restrictions/SQLServer-Restrictions.md) for specific rules|
+|**instanceName**|String|Instance Name, see Help Center Document [Name and Password Restrictions](../../../documentation/Database-and-Cache-Service/RDS/Introduction/Restrictions/SQLServer-Restrictions.md) for specific rules|
 |**instanceType**|String|Instance type, e.g., primary instance, read-only instance, etc., see [Enum parameter definition](../Enum-Definitions/Enum-Definitions.md) for details|
 |**engine**|String|Instance engine types, e.g., MySQL or SQL Server, etc., see [Enum parameter definition](../Enum-Definitions/Enum-Definitions.md) for details|
 |**engineVersion**|String|Instance engine version, see [Enum parameter definition](../Enum-Definitions/Enum-Definitions.md) for details|

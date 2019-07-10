@@ -3,7 +3,7 @@
 
 ## Description
 Batch query the details of Cloud Physical Server<br/>
-Support query in pages, with 10 entries per page by default<br/>
+Support paging search, with 20 entries per page by default<br/>
 
 
 ## Request method
@@ -20,13 +20,14 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/instances
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**pageNumber**|Integer|False|1|Page; 1 by default|
-|**pageSize**|Integer|False|10|Paging Size; 10 by default; value range [10, 100]|
+|**pageSize**|Integer|False|20|Segmentation size; it is 20 by default; value range[20, 100]|
 |**az**|String|False| |Availability Zone, Exact Matching|
 |**name**|String|False| |Name of the Cloud Physical Server, support fuzzy matching|
-|**networkType**|String|False| |Network Type, exact matching, currently only support basic|
+|**networkType**|String|False| |Network type, exact match, supporting basic, vpc|
 |**deviceType**|String|False| |Instance Type, exact matching, the instance type family can be obtained by calling API (describeDeviceType)|
-|**status**|String|False| |Cloud Physical Server Status, referring to Cloud Physical Server status|
-|**filters**|Filter[]|False| |containerId - Cloud Physical Server ID, exact match, support multiple IDs<br>|
+|**subnetId**|String|False| |Subnet ID|
+|**enableInternet**|String|False| |Whether to enable Internet, yes/no|
+|**filters**|Filter[]|False| |instanceId - Cloud Physical Server ID, exact match, supporting multiple IDs<br/><br>privateIp - Cloud Physical Server Private IP, exact match, supporting multiple IPs<br/><br>status - Cloud Physical Server Status, refer to Cloud Physical Server Status, exact match, supporting multiple statuses<br>|
 
 ### Filter
 |Name|Type|Required or not|Default value|Description|
@@ -46,7 +47,7 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/instances
 |---|---|---|
 |**instances**|Instance[]| |
 |**pageNumber**|Integer|Page; 1 by default|
-|**pageSize**|Integer|Paging Size; 10 by default; value range [10, 100]|
+|**pageSize**|Integer|Segmentation size; it is 20 by default; value range[20, 100]|
 |**totalCount**|Integer|Query Result of Total Amount|
 ### Instance
 |Name|Type|Description|
@@ -61,7 +62,7 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/instances
 |**enableInternet**|String|Whether to Enable Internet, such as yes/no|
 |**enableIpv6**|String|Whether to enable IPv6, e.g., yes/no|
 |**bandwidth**|Integer|Bandwidth, Unit: Mbps|
-|**imageType**|String|Image Type, such as Standard/Standard_app|
+|**imageType**|String|Image type, e.g. standard|
 |**osTypeId**|String|Operating System Type ID|
 |**osName**|String|Operating System Name|
 |**osType**|String|Operating System Type Id, such as Ubuntu/Centos|
@@ -70,10 +71,14 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/instances
 |**sysRaidType**|String|System Disk RAID Type ID, such as NORAID, RAID0, and RAID1|
 |**dataRaidTypeId**|String|Data Disk RAID Type ID|
 |**dataRaidType**|String|Data Disk RAID Type ID, such as NORAID, RAID0, and RAID1|
-|**networkType**|String|Network Type, such as Basic|
-|**lineType**|String|Internet Link Type, such as bgp|
+|**networkType**|String|Network type, e.g. basic, vpc|
+|**vpcId**|String|VPC ID|
+|**vpcName**|String|Name of VPC|
 |**subnetId**|String|Subnet Number|
+|**subnetName**|String|Subnet Name|
 |**privateIp**|String|Private IP|
+|**lineType**|String|Internet Link Type, such as bgp|
+|**elasticIpId**|String|Elastic IPID|
 |**publicIp**|String|Public IP|
 |**publicIpv6**|String|Internet IPv6|
 |**charge**|Charge|Billing Information|

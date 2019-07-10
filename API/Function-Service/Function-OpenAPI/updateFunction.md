@@ -18,18 +18,18 @@ https://function.jdcloud-api.com/v1/regions/{regionId}/functions/{functionName}
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**description**|String|True| |Function Description Information|
-|**entrance**|String|True| |Function Entrance, the format is entrance file.entrance function name|
-|**memory**|Integer|True| |Maximum Memory Upon Function Running|
-|**runTime**|String|True| |Function Running Environment|
-|**overTime**|Integer|True| |Time-out Period Upon Function Running|
+|**description**|String|False| |Function Description Information|
+|**entrance**|String|False| |Function Entrance, the format is entrance file.entrance function name|
+|**memory**|Integer|False| |Maximum Memory Upon Function Running|
+|**runTime**|String|False| |Function Running Environment|
+|**overTime**|Integer|False| |Time-out Period Upon Function Running|
 |**version**|String|False| |Function Version|
-|**code**|Code|True| |Function Code Package|
-|**environment**|Env|True| |Environment Variable Upon Function Running|
-|**logSetId**|String|True| |Log Collection Id Designated by Function|
-|**logTopicId**|String|True| |Log Subject Id Designated by Function|
-|**vpcId**|String|True| |VPCId of Function Configuration|
-|**subnetId**|String|True| |Subnet Id of Function Configuration|
+|**code**|Code|False| |Function Code Package|
+|**environment**|Env|False| |Environment Variable Upon Function Running|
+|**logSetId**|String|False| |Log Set Id Designated by Function|
+|**logTopicId**|String|False| |Log Subject Id Designated by Function|
+|**vpcId**|String|False| |VPCId of Function Configuration|
+|**subnetId**|String|False| |Subnet Id of Function Configuration|
 
 ### Env
 |Name|Type|Required or Not|Default Value|Description|

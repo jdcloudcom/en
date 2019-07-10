@@ -18,7 +18,7 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/databas
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**dbName**|String|True| |About database name and database name restrictions, please refer to [Help Center Documentation](../../../documentation/Cloud-Database-and-Cache/RDS/Introduction/Restrictions/SQLServer-Restrictions.md)|
+|**dbName**|String|True| |Database Name, see [Help Center Document](../../../documentation/Database-and-Cache-Service/RDS/Introduction/Restrictions/SQLServer-Restrictions.md) for restrictions of Database Name|
 |**characterSetName**|String|True| |About the character set name of the database and the currently supported character set, please see[Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)|
 
 

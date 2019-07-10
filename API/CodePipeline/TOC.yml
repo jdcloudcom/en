@@ -1,0 +1,33 @@
+name: CodePipeline
+href:
+items:
+  - name: Interface Overview
+    href: overview.md
+  - name: Update History
+    href: ChangeLog.md
+  - name: Interface Information
+    items:
+      - name: CodePipeline Task
+        items:
+          - name: createPipeline
+            href: APIs/createPipeline.md
+          - name: deletePipeline
+            href: APIs/deletePipeline.md
+          - name: getPipeline
+            href: APIs/getPipeline.md
+          - name: getPipelineInstance
+            href: APIs/getPipelineInstance.md
+          - name: getPipelineInstances
+            href: APIs/getPipelineInstances.md
+          - name: getPipelineInstancesByUuids
+            href: APIs/getPipelineInstancesByUuids.md
+          - name: getPipelines
+            href: APIs/getPipelines.md
+          - name: manualAction
+            href: APIs/manualAction.md
+          - name: startPipeline
+            href: APIs/startPipeline.md
+          - name: stostopPipelineInstancepBuild
+            href: APIs/stopPipelineInstance.md
+          - name: updatePipeline
+            href: APIs/updatePipeline.md

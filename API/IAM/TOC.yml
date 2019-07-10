@@ -7,23 +7,79 @@ items:
     href: ChangeLog.md
   - name: API Information
     items:
+      - name: Sub-user Management APIs
+        items:
+          - name: createSubUser
+            href: SubUser-Management/createSubUser.md
+          - name: describeSubUser
+            href: SubUser-Management/describeSubUser.md
+          - name: updateSubUser
+            href: SubUser-Management/updateSubUser.md
+          - name: deleteSubUser
+            href: SubUser-Management/deleteSubUser.md
+          - name: attachSubUserPolicy
+            href: SubUser-Management/attachSubUserPolicy.md
+          - name: detachSubUserPolicy
+            href: SubUser-Management/detachSubUserPolicy.md
+      - name: User Group Management APIs
+        items:
+          - name: createGroup
+            href: User-Group-Management/createGroup.md
+          - name: describeGroup
+            href: User-Group-Management/describeGroup.md
+          - name: updateGroup
+            href: User-Group-Management/updateGroup.md
+          - name: deleteGroup
+            href: User-Group-Management/deleteGroup.md
+          - name: addSubUserToGroup
+            href: User-Group-Management/addSubUserToGroup.md
+          - name: removeSubUserFromGroup
+            href: User-Group-Management/removeSubUserFromGroup.md
+          - name: attachGroupPolicy
+            href: User-Group-Management/attachGroupPolicy.md
+          - name: detachGroupPolicy
+            href: User-Group-Management/detachGroupPolicy.md
+      - name: Role Management APIs
+        items:
+          - name: createRole
+            href: Role-Management/createRole.md
+          - name: describeRole
+            href: Role-Management/describeRole.md
+          - name: updateAssumeRolePolicy
+            href: Role-Management/updateAssumeRolePolicy.md
+          - name: deleteRole
+            href: Role-Management/deleteRole.md
+          - name: attachRolePolicy
+            href: Role-Management/attachRolePolicy.md
+          - name: detachRolePolicy
+            href: Role-Management/detachRolePolicy.md
       - name:  Policy Management APIs
         items:
-          - name: addPermissionsToSubUser
+          - name: createPolicy
+            href: Policy-Management/createPolicy.md
+          - name: describePolicy
+            href: Policy-Management/describePolicy.md
+          - name: updatePolicyDescription
+            href: Policy-Management/updatePolicyDescription.md
+          - name: deletePolicy
+            href: Policy-Management/deletePolicy.md
+      - name:  Policy Management APIs
+        items:
+          - name: addPermissionsToSubUser (the old version is about to be offline)
             href: Permission-Management/addPermissionsToSubUser.md
-          - name: createPermission
+          - name: createPermission (the old version is about to be offline)
             href: Permission-Management/createPermission.md
-          - name: describePermissionDetail
+          - name: describePermissionDetail (the old version is about to be offline)
             href: Permission-Management/describePermissionDetail.md
-          - name: describePermissions
+          - name: describePermissions (the old version is about to be offline)
             href: Permission-Management/describePermissions.md
-          - name: describeSubUserPermissions
+          - name: describeSubUserPermissions (the old version is about to be offline)
             href: Permission-Management/describeSubUserPermissions.md
-          - name: removePermissionOfSubUser
+          - name: removePermissionOfSubUser (the old version is about to be offline)
             href: Permission-Management/removePermissionOfSubUser.md
-          - name: updatePermission
+          - name: updatePermission (the old version is about to be offline)
             href: Permission-Management/updatePermission.md
-      - name: User Management APIs
+      - name: AKSK Management APIs of Primary Accounts
         items:
           - name: createUserAccessKey
             href: User-Management/createUserAccessKey.md
@@ -35,3 +91,12 @@ items:
             href: User-Management/disabledUserAccessKey.md
           - name: enabledUserAccessKey
             href: User-Management/enabledUserAccessKey.md
+      - name: AKSK Management APIs of Sub-users
+        items:
+          - name: deleteSubUserAccessKey
+            href: SubUser-AccessKey-Management/deleteSubUserAccessKey.md
+          - name: enableSubUserAccessKey
+            href: SubUser-AccessKey-Management/enableSubUserAccessKey.md
+          - name: disableSubUserAccessKey
+            href: SubUser-AccessKey-Management/disableSubUserAccessKey.md
+    

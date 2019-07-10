@@ -22,4 +22,12 @@
       - name: Obtain cloud storage service information            
         items:
           - name: getStoreService
-            href: Elite-CloudStore-APIs/getStoreService.md            
+            href: Elite-CloudStore-APIs/getStoreService.md 
+      - name: Inquire prices            
+        items:
+          - name: jdxQueryPrice
+            href: JDX-Price-APIs/jdxQueryPrice.md
+      - name: Report orders            
+        items:
+          - name: jdxReportOrder
+            href: JDX-Order-APIs/jdxReportOrder.md

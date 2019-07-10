@@ -36,7 +36,7 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/databas
 ### Database
 |Name|Type|Description|
 |---|---|---|
-|**dbName**|String|Database name with specific rules detailed in the Help Center Documentation: [Name and Password Restrictions](../../../documentation/Cloud-Database-and-Cache/RDS/Introduction/Restrictions/SQLServer-Restrictions.md)|
+|**dbName**|String|Database Name, see Help Center Document: [Name and Password Restrictions](../../../documentation/Database-and-Cache-Service/RDS/Introduction/Restrictions/SQLServer-Restrictions.md) for specific rules|
 |**dbStatus**|String|Database status, detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)<br>- **MySQL: Not support, not return this field**<br>- **SQL Server: return this field**|
 |**characterSetName**|String|Character set, detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)|
 |**createTime**|String|Database creation time, with the format: YYYY-MM-DD HH:mm:ss<br>- only support SQL Serverer|

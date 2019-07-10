@@ -3,49 +3,84 @@
   items:
   - name: API Overview
     href: overview.md
-
   - name: Update History
     herf: ChangeLog.md
-
-  - name: Cloud Physical Server APIs
+  - name: Interface Information
     items:
-      - name: describeOS
-        href: Cloud-Physical-Server/describeOS.md
-      - name: describeInstanceName
-        href: Cloud-Physical-Server/describeInstanceName.md
-      - name: createInstances
-        href: Cloud-Physical-Server/createInstances.md
-      - name: modifyInstance
-        href: Cloud-Physical-Server/modifyInstance.md
-      - name: describeDeviceTypes
-        href: Cloud-Physical-Server/describeDeviceTypes.md  
-      - name: describeDeviceRaids
-        href: Cloud-Physical-Server/describeDeviceRaids.md
-      - name: describeInstanceRaid
-        href: Cloud-Physical-Server/describeInstanceRaid.md
-      - name: describeInstanceStatus
-        href: Cloud-Physical-Server/describeInstanceStatus.md
-      - name: restartInstance
-        href: Cloud-Physical-Server/restartInstance.md  
-      - name: stopInstance
-        href: Cloud-Physical-Server/stopInstance.md
-      - name: startInstance
-        href: Cloud-Physical-Server/startInstance.md
-      - name: reinstallInstance
-        href: Cloud-Physical-Server/reinstallInstance.md
-      - name: describeInstance
-        href: Cloud-Physical-Server/describeInstance.md
-      - name: modifyBandwidth
-        href: Cloud-Physical-Server/modifyBandwidth.md
-      - name: describeInstances
-        href: Cloud-Physical-Server/describeInstances.md
-      - name: describeRegiones
-        href: Cloud-Physical-Server/describeRegiones.md
-      - name: describeSubnet
-        href: Cloud-Physical-Server/describeSubnet.md
-      
-      
-      
-      
-      
-        
+      - name: Cloud Physical Server
+        items:
+          - name: describeOS
+            href: Cloud-Physical-Server/describeOS.md
+          - name: describeInstanceName
+            href: Cloud-Physical-Server/describeInstanceName.md
+          - name: createInstances
+            href: Cloud-Physical-Server/createInstances.md
+          - name: modifyInstance
+            href: Cloud-Physical-Server/modifyInstance.md
+          - name: describeDeviceTypes
+            href: Cloud-Physical-Server/describeDeviceTypes.md  
+          - name: describeDeviceRaids
+            href: Cloud-Physical-Server/describeDeviceRaids.md
+          - name: describeInstanceRaid
+            href: Cloud-Physical-Server/describeInstanceRaid.md
+          - name: describeInstanceStatus
+            href: Cloud-Physical-Server/describeInstanceStatus.md
+          - name: restartInstance
+            href: Cloud-Physical-Server/restartInstance.md  
+          - name: stopInstance
+            href: Cloud-Physical-Server/stopInstance.md
+          - name: startInstance
+            href: Cloud-Physical-Server/startInstance.md
+          - name: reinstallInstance
+            href: Cloud-Physical-Server/reinstallInstance.md
+          - name: describeInstance
+            href: Cloud-Physical-Server/describeInstance.md
+          - name: modifyBandwidth
+            href: Cloud-Physical-Server/modifyBandwidth.md
+          - name: describeInstances
+            href: Cloud-Physical-Server/describeInstances.md
+          - name: associateElasticIp
+            href: Cloud-Physical-Server/associateElasticIp.md
+          - name: disassociateElasticIp
+            href: Cloud-Physical-Server/disassociateElasticIp.md
+      - name: Relevant Interface of Region
+        items:
+          - name: describeRegiones
+            href: Cloud-Physical-Server/describeRegiones.md
+      - name: Elastic IP APIs
+        items:
+          - name: describeElasticIps
+            href: Cloud-Physical-Server/describeElasticIps.md
+          - name: applyElasticIps
+            href: Cloud-Physical-Server/applyElasticIps.md
+          - name: describeElasticIp
+            href: Cloud-Physical-Server/describeElasticIp.md
+          - name: modifyElasticIpBandwidth
+            href: Cloud-Physical-Server/modifyElasticIpBandwidth.md
+      - name: Subnet APIs
+        items:
+          - name: describeBasicSubnet
+            href: Cloud-Physical-Server/describeBasicSubnet.md
+          - name: describeSubnets
+            href: Cloud-Physical-Server/describeSubnets.md
+          - name: createSubnet
+            href: Cloud-Physical-Server/createSubnet.md
+          - name: describeSubnet
+            href: Cloud-Physical-Server/describeSubnet.md
+          - name: modifySubnet
+            href: Cloud-Physical-Server/modifySubnet.md
+          - name: deleteSubnet
+            href: Cloud-Physical-Server/deleteSubnet.md
+      - name: VPC APIs
+        items:
+          - name: describeVpc
+            href: Cloud-Physical-Server/describeVpc.md
+          - name: modifyVpc
+            href: Cloud-Physical-Server/modifyVpc.md
+          - name: deleteVpc
+            href: Cloud-Physical-Server/deleteVpc.md
+          - name: describeVpcs
+            href: Cloud-Physical-Server/describeVpcs.md
+          - name: createVpc
+            href: Cloud-Physical-Server/createVpc.md
+    

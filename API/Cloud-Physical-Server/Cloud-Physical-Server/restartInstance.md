@@ -2,7 +2,7 @@
 
 
 ## Description
-To reboot a single Cloud Physical Server, only the running servers can be rebooted
+Reboot single Cloud Physical Server, only servers with running status can be rebooted
 
 ## Request method
 PUT

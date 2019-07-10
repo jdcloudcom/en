@@ -2,7 +2,7 @@
 
 
 ## Description
-Delete an RDS Instance or a read-only instance of MySQL. When the primary instance of MySQL is deleted, the corresponding read-only instance of MySQL is also deleted</br>Sensitive operation, enable<a href="https://docs.jdcloud.com/IAM/Operation-Protection">MFA operation protection</a>
+Delete an RDS instance or read-only instance of MySQL. MySQL Read-only Instance will also be deleted while deleting the Main MySQL Instance<br>Sensitive Operation, enable<a href="https://docs.jdcloud.com/en/security-operation-protection/operation-protection">MFA Operation Protection</a>
 
 ## Request method
 DELETE

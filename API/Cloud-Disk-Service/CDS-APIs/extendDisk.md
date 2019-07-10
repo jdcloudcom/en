@@ -1,38 +1,59 @@
 # extendDisk
 
-
 ## Description
--   Expansion of the cloud disk requires it in available status.
--   When creating snapshot for a Cloud Disk, expansion is not allowed.
 
+Expand Cloud Disk to specified size
 
-## Request method
-POST
+Cloud Disk must be in available status
 
-## Request address
-https://disk.jdcloud-api.com/v1/regions/{regionId}/disks/{diskId}:extend
+## HTTP Request
 
-|Name|Type|Required or not|Default value|Description|
-|---|---|---|---|---|
-|**regionId**|String|True| |Region ID|
-|**diskId**|String|True| |Cloud Disk ID|
+POST <https://disk.jcloudcs.com/v1/regions/{regionId}/disks/{diskId}:extend>
 
 ## Request parameter
-|Name|Type|Required or not|Default value|Description|
-|---|---|---|---|---|
-|**diskSizeGB**|Integer|True| |The size of the cloud disk after expansion is in GiB|
 
+### Path Parameter
 
-## Response parameter
-None
+| Param | Type | Required | Desc |
+|---|---|---|---|
+| regionId | string | Yes | Region ID |
+| diskId | string | Yes | Cloud Disk D |
 
+### Request Body
 
-## Response code
-|Return code|Description|
-|---|---|
-|**200**|OK|
-|**400**|Invalid parameter|
-|**401**|Authentication failed|
-|**404**|Not found|
-|**500**|Internal server error|
-|**503**|Service unavailable|
+```json
+{
+    "diskSizeGB": int,
+    "iops": int
+}
+```
+
+- Detail
+
+| Param | Type | Required | Desc |
+|---|---|---|---|
+| diskSizeGB | int | Yes | Size of expanded Cloud Disk, unit: GiB |
+| iops       | int | No  | Modified iops value, only valid to the ssd.io1 type cloud disk. |
+
+## Successful Response
+
+```json
+{
+    "requestId": string
+}
+```
+
+- Error Code
+
+| Code | Status | Message |
+|---|---|---|
+| 400 | INVALID_ARGUMENT | Parameter diskSizeGB missing |
+| 400 | INVALID_ARGUMENT | Malformed disk id 'xxx' |
+| 400 | INVALID_ARGUMENT | Invalid region 'xxx' |
+| 400 | INVALID_ARGUMENT | Invalid diskSizeGB 'xxx' |
+| 400 | INVALID_ARGUMENT | Invalid iops number for ssd.io1 |
+| 400 | FAILED_PRECONDITION | Invalid disk status 'xxx' |
+| 404 | NOT_FOUND | Disk 'xxx' not found |
+| 500 | INTERNAL | Internal server error |
+| 500 | UNKNOWN | Unknown server error |
+| 503 | SERVICE UNAVAILABLE | Service unavailable |

@@ -15,5 +15,5 @@ v1
 |**describeCerts**|GET|View certificate list|
 |**describeCert**|GET|View certificate details|
 |**uploadCert**|POST|Upload certificate|
-|**downloadCert**|GET|Certificate Download<br>Sensitive operation can be enabled<a href="https://docs.jdcloud.com/en/security-operation-protection/operation-protection">MFA Operation Protection</a>|
-|**deleteCerts**|DELETE|Certificate Deletion<br>Sensitive operation can be enabled<a href="https://docs.jdcloud.com/en/security-operation-protection/operation-protection">MFA Operation Protection</a>|
+|**downloadCert**|GET|Certificate Download<br>Sensitive operation, <a href="https://docs.jdcloud.com/en/security-operation-protection/operation-protection">MFA Operation Protection</a> can be enabled|
+|**deleteCerts**|DELETE|Certificate Deletion<br>Sensitive operation, <a href="https://docs.jdcloud.com/en/security-operation-protection/operation-protection">MFA Operation Protection</a> can be enabled|

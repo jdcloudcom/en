@@ -17,7 +17,7 @@ https://live.jdcloud-api.com/v1/transcodeCustoms
 |---|---|---|---|---|
 |**pageNum**|Integer|False|1|Page Number<br>- Value Range [1, 100000]<br>|
 |**pageSize**|Integer|False|10|Paging Size<br>- Value Range [10, 100]<br>|
-|**filters**|Filter[]|False| |Transcoding Template Search Filter Conditions:<br>  - name:   template  Recording Template Customized Name<br>  - value:  If the parameter is null, search all<br>  - If it’s null, it means to search all the customized transcoding templates under this user<br>|
+|**filters**|Filter[]|False| |Transcode Template Search Filter Conditions:<br>  - name:   template  Transcoding Template Customized Name<br>  - value:  If the parameter is null, search all<br>  - If it’s null, it means to search all the customized transcoding templates under this user<br>|
 
 ### Filter
 |Name|Type|Required or Not|Default Value|Description|
@@ -42,8 +42,8 @@ https://live.jdcloud-api.com/v1/transcodeCustoms
 ### TranscodeInfo
 |Name|Type|Description|
 |---|---|---|
-|**videoCodeRate**|Integer|Transcoding Output Code Rate Value<br>  - Value: [200,3000]<br>  - Unit: kpbs<br>|
-|**videoFrameRate**|String|Transcoding Output Frame Rate Value:<br>  - Value: 15/1, 25/1, 30/1, 60/1<br>|
+|**videoCodeRate**|Integer|Transcode Output Code Rate Value<br>- Value: [1,6000]<br>  - Unit: kpbs<br>|
+|**videoFrameRate**|String|Transcode Output Frame Rate Value:<br>  - Value: [1,30]<br>|
 |**width**|Integer|Transcoding Output Video Width:<br>  - Value: [100,1920]<br>  - Equal Ratio: If only one parameter is filled in, the output transcoding video is adjusted in proportion to the parameter<br>  - Source-followed: If neither parameter is filled in, the transcoding video is output according to the source proportion<br>|
 |**height**|Integer|Transcoding Output Video Width:<br>  - Value: [100,1920]<br>  - Equal Ratio: If only one parameter is filled in, the output transcoding video is adjusted in proportion to the parameter<br>  - Source-followed: If neither parameter is filled in, the transcoding video is output according to the source proportion<br>|
 |**template**|String|Transcoding Template Customized Name:<br>  - Customized Template: Enumeration type verification, ignore uppercase and lowercase, automatically delete spaces,<br>              Value Requirements: For numbers, uppercase and lowercase letters, or hyphens("-"),<br>              no special characters are allowed at the beginning and end("-")<br>  - Note: It cannot be repeated with the standard transcoding template and the defined name<br>|

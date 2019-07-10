@@ -1,0 +1,59 @@
+  name: Anti-DDoS Protection Package
+  href:
+  items:
+  - name: Interface Overview
+    href: overview.md
+  - name: Update History
+    href: ChangeLog.md
+  - name: Interface Information
+    items:
+      - name: Attack Record APIs
+        items:
+          - name: describeAttackLogs
+            href: Attack-Log-APIs/describeAttackLogs.md
+          - name: describeAttackSource
+            href: Attack-Log-APIs/describeAttackSource.md
+          - name: describeAttackStatistics
+            href: Attack-Log-APIs/describeAttackStatistics.md
+          - name: describeAttackTypeCount
+            href: Attack-Log-APIs/describeAttackTypeCount.md
+          - name: describeIpMonitorFlow
+            href: Attack-Log-APIs/describeIpMonitorFlow.md
+      - name: Protection Package Instance APIs
+        items:
+          - name: addProtectedIp
+            href: Instance-APIs/addProtectedIp.md
+          - name: checkInstanceName
+            href: Instance-APIs/checkInstanceName.md
+          - name: createInstance
+            href: Instance-APIs/createInstance.md
+          - name: deleteProtectedIp
+            href: Instance-APIs/deleteProtectedIp.md
+          - name: describeGeoAreas
+            href: Instance-APIs/describeGeoAreas.md
+          - name: describeInstance
+            href: Instance-APIs/describeInstance.md
+          - name: describeInstances
+            href: Instance-APIs/describeInstances.md
+          - name: describeProtectedIpList
+            href: Instance-APIs/describeProtectedIpList.md
+          - name: describeProtectionOutline
+            href: Instance-APIs/describeProtectionOutline.md
+          - name: describeProtectionRule
+            href: Instance-APIs/describeProtectionRule.md
+          - name: modifyInstance
+            href: Instance-APIs/modifyInstance.md
+          - name: modifyInstanceName
+            href: Instance-APIs/modifyInstanceName.md
+          - name: modifyProtectionRule
+            href: Instance-APIs/modifyProtectionRule.md
+      - name: Protective Public IP APIs
+        items:
+          - name: describeCpsIpResources
+            href: IP-Resources-APIs/describeCpsIpResources.md
+          - name: describeElasticIpResources
+            href: IP-Resources-APIs/describeElasticIpResources.md
+      - name: Operation Record APIs
+        items:
+          - name: describeOperationRecords
+            href: Operation-Records-APIs/describeOperationRecords.md

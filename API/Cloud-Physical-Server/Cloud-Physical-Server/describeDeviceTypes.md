@@ -33,11 +33,9 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/deviceTypes
 ### DeviceType
 |Name|Type|Description|
 |---|---|---|
-|**nameEN**|String|English Name of Instance Type Family, such as cps.c.normal|
-|**nameZH**|String|Chinese Name of Instance Type Family, such as 计算型|
+|**deviceType**|String|Instance Type Family, e.g. cps.c.normal|
+|**name**|String|Name of Instance Type Family, e.g. compute standard|
 |**family**|String|Type Series of instances, e.g., computing, storage, GPU|
-|**useTypeEN**|String|English Description of Image Type, such as Standard|
-|**useTypeZH**|String|Chinese Description of Image Type, such as 标准型|
 |**region**|String|Region Code, such as cn-east-1|
 |**cpuConcise**|String|CPU Summary Description|
 |**cpuDetail**|String|CPU Details|
@@ -45,12 +43,14 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/deviceTypes
 |**memDetail**|String|Memory Details|
 |**ifConcise**|String|Summary Information of Network Port|
 |**ifDetail**|String|Details of Network Port|
-|**systemDiskConcise**|String|Summary Information of System Disk|
-|**systemDiskDetail**|String|Details of System Disk|
-|**dataDiskConcise**|String|Summary Information of Data Disk|
-|**dataDiskDetail**|String|Details of Data Disk|
 |**gpuConcise**|String|GPU Summary Information|
 |**gpuDetail**|String|GPU Details|
+|**systemDiskAmount**|Integer|System Disk Counts|
+|**systemDiskSize**|Integer|Single System Disk Size (GB)|
+|**systemDiskModel**|String|System Disk Specification|
+|**dataDiskAmount**|Integer|Data Disk Counts|
+|**dataDiskSize**|Integer|Single Data Disk Size (GB)|
+|**dataDiskModel**|String|Data Disk Specification|
 |**isSoldOut**|Boolean|Sold out status|
 
 ## Response code

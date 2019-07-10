@@ -1,4 +1,4 @@
-#Update History
+# Update History
 
 API Version: v1
 
@@ -6,4 +6,5 @@ API Version: v1
 | ---------- | ------ | -------- | ------------------------------------------------------------ |
 | 2018-11-21 | 1.0.0  | Initialization   | Initial Version, Basic Operation APIs of function                                     |
 | 2018-12-27 | 1.0.1  | Beta Version   | Function Computing Service Beta Version                                     |
-| 2019-02-10 | 1.0.2  | Beta Version   | APIs Adjustment                                                     |
+| 2019-02-10 | 1.0.2  | Beta Version   | Added asyncInvoke APIs                                                   |
+| 2019-05-05 | 1.0.3  | Beta Version   | Adjustment of Internal APIs                                        |

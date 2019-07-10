@@ -42,7 +42,7 @@ None
 |**enableInternet**|String|Whether to Enable Internet, such as yes/no|
 |**enableIpv6**|String|Whether to enable IPv6, e.g., yes/no|
 |**bandwidth**|Integer|Bandwidth, Unit: Mbps|
-|**imageType**|String|Image Type, such as Standard/Standard_app|
+|**imageType**|String|Image type, e.g. standard|
 |**osTypeId**|String|Operating System Type ID|
 |**osName**|String|Operating System Name|
 |**osType**|String|Operating System Type Id, such as Ubuntu/Centos|
@@ -51,10 +51,14 @@ None
 |**sysRaidType**|String|System Disk RAID Type ID, such as NORAID, RAID0, and RAID1|
 |**dataRaidTypeId**|String|Data Disk RAID Type ID|
 |**dataRaidType**|String|Data Disk RAID Type ID, such as NORAID, RAID0, and RAID1|
-|**networkType**|String|Network Type, such as Basic|
-|**lineType**|String|Internet Link Type, such as bgp|
+|**networkType**|String|Network type, e.g. basic, vpc|
+|**vpcId**|String|VPC ID|
+|**vpcName**|String|Name of VPC|
 |**subnetId**|String|Subnet Number|
+|**subnetName**|String|Subnet Name|
 |**privateIp**|String|Private IP|
+|**lineType**|String|Internet Link Type, such as bgp|
+|**elasticIpId**|String|Elastic IPID|
 |**publicIp**|String|Public IP|
 |**publicIpv6**|String|Internet IPv6|
 |**charge**|Charge|Billing Information|

@@ -21,8 +21,8 @@ https://live.jdcloud-api.com/v1/transcodeCustoms:template
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**videoCodeRate**|Integer|True| |Code Rate of Transcoding Output<br>- Value Range: [200,3000]<br>- Unit: kpbs<br>|
-|**videoFrameRate**|String|True| |Frame Rate of Transcoding Output<br>- Value: 15, 25, 30 and 60<br>|
+|**videoCodeRate**|Integer|True| |Transcode Rate of Transcoding Output<br>- Value Range: [1,6000]<br>- Unit: kpbs<br>|
+|**videoFrameRate**|String|True| |Frame Rate of Transcode Output<br>- Value: [1,30]<br>|
 |**width**|Integer|False| |Video Width of Transcoding Output<br>- Value: [100,1920]<br>- If only one of (width, height) is set, then output the snapshot with another item scaled according to the set parameter item<br>- if none of (width, height) is set, then output the snapshot according to the source stream size<br>|
 |**height**|Integer|False| |Video Width of Transcoding Output<br>- Value: [100,1920]<br>- If only one of (width, height) is set, then output the snapshot with another item scaled according to the set parameter item<br>- if none of (width, height) is set, then output the snapshot according to the source stream size<br>|
 |**template**|String|True| |Transcoding Template (Transcoding stream output suffix)<br>- Value Requirements: Numbers, uppercase and lowercase letters or hyphen ("-"), both ends must be a number or a letter, the length cannot exceed 50 characters<br>- <b>Note: It cannot duplicate the standard transcoding template of system and the current user customized naming</b><br>- System Standard Transcoding Templates<br>  ld (h.264/640*360/15f)<br>  sd (h.264/854*480/24f)<br>  hd (h.264/1280*720/25f)<br>  shd (h.264/1920*1080/30f)<br>|

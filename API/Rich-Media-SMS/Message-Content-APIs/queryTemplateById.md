@@ -1,4 +1,4 @@
-# queryOneTemplate
+# queryTemplateById
 
 
 ## Description
@@ -8,43 +8,42 @@ Search APIs of one Rich Media SMS
 POST
 
 ## Request Address
-https://rms.jdcloud-api.com/v1/regions/{regionId}/queryOneTemplate
+https://rms.jdcloud-api.com/v2/regions/{regionId}/queryTemplateById
 
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True| |Region ID|
+|**regionId**|String|True|cn-north-1|Region ID|
 
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**templateId**|String|False| |SMS Id|
+|**templateId**|String|True| |SMS ID|
 
 
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
 |**result**|Result| |
-|**requestId**|String|Request Id|
+|**requestId**|String| |
 
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**data**|RespQueryOneTemplateResourceList[]| |
-|**description**|String|SMS Description|
-|**mediaLength**|String|SMS Size|
-|**type**|String|SMS Type|
-|**title**|String|SMS Title|
-|**isTuiding**|String|Subscription cancellation is supported or not:0 means that it is not supported;1 means that it is supported|
-|**message**|String|Response Message|
-|**status**|String|Request Status|
-### RespQueryOneTemplateResourceList
+|**data**|RespQueryTemplateListData|Response Data|
+|**status**|Boolean|Request Status|
+|**code**|String|Error Code|
+|**message**|String|Error Message|
+### RespQueryTemplateListData
 |Name|Type|Description|
 |---|---|---|
-|**size**|String|Byte Length of This Item|
-|**name**|String|Name of This Item|
-|**type**|String|Type of the item can be in the format of txt/jpg/png/gif/mp3/mp4 only|
-|**url**|String|Access Link for Non-txt Type|
-|**content**|String|Specific Contents for txt Type|
+|**templateId**|String|SMS ID|
+|**title**|String|SMS Title|
+|**status**|String|Review Status  0: Reviewing  1: Pass  2: Failed  4: To Be Submitted|
+|**reason**|String|Unapproved Reason|
+|**createTime**|String|SMS Creation Time yyyy-MM-dd HH:mm:ss|
+|**contentSize**|String|SMS Size|
+|**aptitudesId**|String|Qualification Id|
+|**description**|String|SMS Description|
 
 ## Return Code
 |Return Code|Description|

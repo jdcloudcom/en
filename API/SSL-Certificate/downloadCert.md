@@ -2,7 +2,7 @@
 
 
 ## Description
-Certificate Download<br>Sensitive operation can be enabled<a href="https://docs.jdcloud.com/en/security-operation-protection/operation-protection">MFA Operation Protection</a>
+Certificate Download<br>Sensitive operation, <a href="https://docs.jdcloud.com/en/security-operation-protection/operation-protection">MFA Operation Protection can be enabled</a>
 
 ## Request Method
 GET
