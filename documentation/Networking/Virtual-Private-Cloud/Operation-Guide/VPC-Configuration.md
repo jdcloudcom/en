@@ -4,7 +4,7 @@
 
 1. Open the console and select Networking > VPC to enter the VPC list page.
 
-2. Select the region where creating VPC belongs to (currently open cn-north, cn-south and cn-east region), click the **Create** button;
+2. Select the region where creating VPC belongs to (at present, cn-north-1, cn-south-1, cn-east-1 and cn-east-2 are open), click the **Create** button;
 
 3. Region Selection: In this step, you can still choose region to create the VPC. If the selected region limit is full, you can increase the limit by **Open Ticket**;
 

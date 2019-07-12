@@ -22,10 +22,14 @@ items:
         href: Introduction/Application-Scenarios.md    
  - name: Product Pricing
    items:
-      - name: Billing Overview
-        href: Pricing/Billing-Overview.md
-      - name: Purchase Channel
-        href: Pricing/Purchase-Channel.md
+      - name: Billing Rules
+        href: Pricing/Pricing-Rules.md
+      - name: Resource Arrear Handling Rule
+        href: Pricing/Owe-Rules.md
+      - name: Arrear Reminder
+        href: Pricing/Owe-Remind.md
+
+        
  - name: Operation Guide
    items:
       - name: File Storage List

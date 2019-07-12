@@ -11,3 +11,11 @@
     href: AccessKey-Management.md
   - name: Account Cancellation
     href: Account-Revocation.md
+  - name: Introduction to New JD Cloud Account
+    href: What-Is-JDCloud-Account.md
+  - name: View account information (applicable to new account)
+    href: Check-JDCloud-Account.md
+  - name: Set login password (applicable to new account)
+    href: Set-User-Password.md
+  - name: Modify security verification phone number (applicable to new account)
+    href: Change-JDCloud-Phone-Number.md

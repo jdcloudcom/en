@@ -17,14 +17,18 @@ items:
       href: Getting-Started/Getting-Started.md
   - name: Operation Guide
     items:
-    - name: Security Status
-      href: Operation-Guide/Instance-Management/Security-Status.md
+    - name: Threat Overview
+      href: Operation-Guide/Security-Status.md
     - name: Security Configuration
-      href: Operation-Guide/Instance-Management/Security-Configuration.md
+      href: Operation-Guide/Security-Configuration.md
     - name: Security Vulnerability
-      href: Operation-Guide/Instance-Management/Security-Vulnerability.md    
+      href: Operation-Guide/Security-Vulnerability.md    
     - name: Security Incidents
-      href: Operation-Guide/Instance-Management/Security-Incidents.md       
+      href: Operation-Guide/Security-Incidents.md
+    - name: Compliance Baseline
+      href: Operation-Guide/Compliance-Baseline.md         
+    - name: Asset Management
+      href: Operation-Guide/Asset-Management.md   
   - name: Best Practices
     items:
     - name: Latest Practice of Endpoint Security

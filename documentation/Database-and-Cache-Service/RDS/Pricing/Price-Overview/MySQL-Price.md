@@ -1,6 +1,7 @@
 # MySQL
 For price, refer to the following table, with specific price subject to the charge made by the Console.
 
+## Local Disk SSD
 |Instance Type|Bucket (GB)|Monthly Package (RMB/Month)|Pay by Configuration (RMB/Hour)|
 |---|---|---|---|
 |1-core 1GB|20|108|0.25|
@@ -38,7 +39,16 @@ For price, refer to the following table, with specific price subject to the char
 |16-core 64GB|1600|7168|16.32|
 |16-core 64GB|2000|7488|17.04|
 
-## MySQL Read-only instance
+### Local Disk NVMe 
+|Instance Type|Bucket (GB)|Monthly Package (RMB/Month)|Pay by Configuration (RMB/Hour)|
+|---|---|---|---|
+|2-core 8GB|500|1336|3.03|
+|4-core 16GB|1000|2672|6.06|
+|8-core 32GB|2000|5344|12.12|
+
+# MySQL Read-only instance
+For price, refer to the following table, with specific price subject to the charge made by the Console.
+## Local Disk SSD
 |Instance Type|Bucket (GB)|Pay by Configuration (RMB/Hour)|
 |---|---|---|
 |1-core 1GB|20|0.13|
@@ -75,3 +85,10 @@ For price, refer to the following table, with specific price subject to the char
 |16-core 64GB|1200|8.12|
 |16-core 64GB|1600|8.48|
 |16-core 64GB|2000|8.84|
+
+### Local Disk NVMe 
+|Instance Type|Bucket (GB)|Pay by Configuration (RMB/Hour)|
+|---|---|---|
+|2-core 8GB|500|1.57|
+|4-core 16GB|1000|3.13|
+|8-core 32GB|2000|6.26|

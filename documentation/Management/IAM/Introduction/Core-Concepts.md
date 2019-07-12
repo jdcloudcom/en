@@ -18,7 +18,7 @@ The relevant terms used in IAM are listed in this document to help you understan
  Role is divided into user role and service role, which is kind of virtual identity type that has no definite credential and only can be used by being associated to a certain entity identity. The difference between sub-user and role is use method, of which the role is required to be played by a credit entity user. After successfully playing, the entity user will get the temporary credential of the role, which can access granted resources as the identity of the role by using the temporary security token.
  * The user role can only take effect after being played by a sub-user under the primary account or a sub-user under the crossing primary account.
  * The service role is required to be played by a certain cloud service (such as Virtual Machines, databases), which service role will on behalf of user to manage and operate your JD Cloud resources.
-### Principal
+### The trust relationship is also called principal
  The entity users or services that can play roles in the JD Cloud.
 ### Play and switch roles
  - Switch login identity to SwitchRole: after the sub-user login the console, it can select **Switch Role**, the precondition is that the sub-user is granted the permission playing the user role. The sub-user only can play one user role for each time. When the sub-user enters the user role identity from the login identity, the user only can use the granted permissions of the user role while the permissions associated by the sub-user login identity are shielded. If the sub-user needs to use permissions of login identity, then it needs to switch role identity to login identity.

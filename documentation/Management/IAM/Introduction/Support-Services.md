@@ -46,6 +46,7 @@ The information in the table is defined as follows:
 | :----------: | :--------------: | :------: | :------: | :----: | :------: | :------: | :------: |
 | Container Registry  |       containerregistry        |    v3    |    ✔     |   ✔    |  Resource Level  |   －     |    －    |
 |     POD      |       pod        |    v3    |    ✔     |   ✔    |  Resource Level  |    －    |   －    |
+|     JCS for Kubernetes     |       kubernetes        |    v3    |    ✔     |   ✔    |  Resource Level  |    －    |   －    |
 ##### Network
 |  **Cloud Product**  | **Service Name** | **Policy Version** | **Open API** | **Console** | **Authorization Granularity** | **User Role** | **Service Role** |
 | :----------: | :--------------: | :------: | :------: | :----: | :------: | :------: | :------: |
@@ -65,34 +66,61 @@ The information in the table is defined as follows:
 ##### Cloud Security
 |  **Cloud Product**  | **Service Name** | **Policy Version** | **Open API** | **Console** | **Authorization Granularity** | **User Role** | **Service Role** |
 | :----------: | :--------------: | :------: | :------: | :----: | :------: | :------: | :------: |
-|   Endpoint Security   |       hips       |    v3    |    ✔     |   ✔    |Operation level  |   －     |   －   |
-| Anti-DDoS Basic |     baseanti     |    v3    |    ✔     |   ✔    | Resource level  |   －    |   －    |
-|   Situation Awareness   |       csa        |    v3    |    ✔     |   ✔    |  Operation level  |   －     |   －     |
-| Application Security Gateway |       sgw        |    v3    |    ✔     |   ✔    |Resource level  |   －     |    －     |
+|   Endpoint Security   |       hips       |    v3    |    ✔     |   ✔    |Operation level  |   ✔      |   －   |
+| Anti-DDoS Basic |     baseanti     |    v3    |    ✔     |   ✔    | Resource level  |   ✔  |   －    |
+| DDoS Protection Package |     antipro     |    v3    |    ✔     |   ✔    |  Resource Level  |   ✔  |   －    |
+|   Situation Awareness   |       csa        |    v3    |    ✔     |   ✔    |  Operation level  |   ✔    |   －     |
+| Application Security Gateway |       sgw        |    v3    |    ✔     |   ✔    |Resource level  |   ✔     |    －     |
 |SSL Certificate |    ssl      |    v3    |    ✔     |   ✔    |  Resource Level  |   ✔    |    －    |
+|Key Management Service |    kms     |    v3    |    ✔     |   ✔    |  Resource Level  |   ✔    |    －    |
 ##### Management
 |  **Cloud Product**  | **Service Name** | **Policy Version** | **Open API** | **Console** | **Authorization Granularity** | **User Role** | **Service Role** |
 | :----------: | :--------------: | :------: | :------: | :----: | :------: | :------: | :------: |
+| Identity and Access Management |     iam   |    v3    |    ✔     |   ✔    |  Resource Level  |   ✔    |    －    |
+| Tag Service |     resourcetag   |    v3    |    ✔     |   ✔    |  Operation Level  |   ✔    |    －   |
 | Directory Service |     directoryservice     |    v3    |    ✔     |   ✔    |  Resource Level  |   ✔    |    ✔   |
 |Security Token Service |    sts     |    v3    |    ✔     |   ✔    |  Resource Level  |    －    |    －   |
 |Audit Trail |    audittrail     |    v3    |    ✔     |   ✔    |  Operation Level  |     ✔    |    －   |
+|Renew Management |   renewal    |    v3    |    ✔     |   ✔    |  Operation Level  |     ✔    |    －   |
+|Resource Orchestration |   jdro    |    v3    |    ✔     |   ✔    |  Resource Level  |     ✔    |    －   |
+|Log Service|   logs   |    v3    |    ✔     |   ✔    |  Resource Level  |     ✔    |    －   |
 ##### Middleware
 |  **Cloud Product**  | **Service Name** | **Policy Version** | **Open API** | **Console** | **Authorization Granularity** | **User Role** | **Service Role** |
 | :----------: | :--------------: | :------: | :------: | :----: | :------: | :------: | :------: |
 | Message Queue JCQ  |       jcq        |    v3    |    ✔     |   ✔    | Resource level  |   －     |    －    |
 | JCS for Elasticsearch |     es   |    v3    |    ✔     |   ✔    |  Resource Level  |    ✔   |  －   |
 | JD Distributed Service Framework |     jdsf   |    v3    |    ✔     |   ✔    |  Resource Level  |    ✔   |  －   |
+|Queue Service|     jqs   |    v3    |    ✔     |   ✔    |  Resource Level  |    ✔   |  －   |
+|API Gateway|     apigateway  |    v3    |    ✔     |   ✔    |  Resource Level  |    ✔   |  －   |
+##### Hyper-Converged IDC
+|  **Cloud Product**  | **Service Name** | **Policy Version** | **Open API** | **Console** | **Authorization Granularity** | **User Role** | **Service Role** |
+| :----------: | :--------------: | :------: | :------: | :----: | :------: | :------: | :------: |
+| Cloud Cabinet Service|     jdccs   |    v3    |    －     |   －    | Service Level |   ✔  |  －   |
 ##### Expense Center
 |  **Cloud Product**  | **Service Name** | **Policy Version** | **Open API** | **Console** | **Authorization Granularity** | **User Role** | **Service Role** |
 | :----------: | :--------------: | :------: | :------: | :----: | :------: | :------: | :------: |
-| Order Placement and Payment Permissions  |      order       |    v3    |   ✔       |  ✔     |  Resource Level  |   －     |    －    |
+| Order Management  |      order       |    v3    |   ✔       |  ✔     |  Operation Level  |    ✔     |    －    |
+| Invoice Management  |      invoice       |    v3    |   ✔       |  ✔     |  Operation Level  |    ✔     |    －    |
 | Consumption Management |      billing    |    v3    |   ✔       |  ✔     |  Operation Level  |    ✔     |    －    |
+| Consumption Prediction |     forecast   |    v3    |   ✔       |  ✔     |  Operation Level  |    ✔     |    －    |
 | Settlement Management  |      settlement    |    v3    |   ✔       |  ✔     |  Operation Level  |    －     |    －    |
+| Capital Management  |      asset    |    v3    |   ✔       |  ✔     |  Operation Level  |     ✔     |    －    |
 ##### Channel Management
 |  **Cloud Product**  | **Service Name** | **Policy Version** | **Open API** | **Console** | **Authorization Granularity** | **User Role** | **Service Role** |
 | :----------: | :--------------: | :------: | :------: | :----: | :------: | :------: | :------: |
 | Channel Management  |      partner   |    v3    |   ✔       |  ✔     |  Operation Level  |    ✔     |    －    |
+##### Video Service
+|  **Cloud Product**  | **Service Name** | **Policy Version** | **Open API** | **Console** | **Authorization Granularity** | **User Role** | **Service Role** |
+| :----------: | :--------------: | :------: | :------: | :----: | :------: | :------: | :------: |
+| Live Video  |       live       |    v3    |    ✔     |  ✔     |  Operation Level |   ✔      |    －    |
+| Video on Demand  |       vod       |    v3    |    ✔     |  ✔     |  Operation Level |   ✔      |    －    |
 ##### Big Data & Analytics
 |  **Cloud Product**  | **Service Name** | **Policy Version** | **Open API** | **Console** | **Authorization Granularity** | **User Role** | **Service Role** |
 | :----------: | :--------------: | :------: | :------: | :----: | :------: | :------: | :------: |
 | Data Factory2.0  |       datafactory       |    v3    |   －      |  －    |  Service Level  |   －     |    －    |
+##### Developer Tools
+|  **Cloud Product**  | **Service Name** | **Policy Version** | **Open API** | **Console** | **Authorization Granularity** | **User Role** | **Service Role** |
+| :----------: | :--------------: | :------: | :------: | :----: | :------: | :------: | :------: |
+| CodeBuild |       compile       |    v3    |  ✔      |  ✔     |  Resource Level |   ✔     |    －    |
+| CodeDeploy |       deploy      |    v3    |   ✔      |  ✔    |  Resource Level  |   ✔     |    －    |
+| CodePipeline  |       pipeline      |    v3    |   ✔      |  ✔      |  Resource Level  |   ✔      |    －    |

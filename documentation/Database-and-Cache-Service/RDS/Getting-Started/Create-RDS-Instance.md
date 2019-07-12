@@ -15,10 +15,11 @@ RDS instance can be purchased through the console.
 Select or enter the relevant configuration information of the instance. The parameters of the instance configuration are as follows:
 
 - Billing Method: "Monthly Package" or "Pay By Configuration" are available. Please refer to [Billing Rules](../Pricing/Billing-Rules.md) for the billing method selection.
-- Region: Select the region where the instance is located. **The intranets of resources in different regions are not interconnected and cannot be changed after creation**. Please refer to the region and availability zone for details of regions. It is recommended to choose the region closest to the regions of users to reduce access delay and increase download speed.
+- Region: Select the region where the instance is located. **The intranets of resources in different regions are not interconnected and cannot be changed after creation**. Please refer [Core Concepts](../Introduction/Core-Concepts.md). It is recommended to choose the region closest to the regions of users to reduce access delay and increase download speed.
 - Database Type: Currently, it supports five database types, namely, JCS for MySQL, SQL Server, Percona, MariaDB and PostgreSQL, and different regions support different database types, which shall be subject to the console.
 - Version: It refers to the version of the database type. Different versions are supported in different regions, which shall be subject to the console.
-- Type: CPU and memory of the instance in different types corresponding to relevant max. connections and max. IOPS. Please refer to the price overview for a detailed description of the types.
+- Storage Type: Different Storage Types correspond to Maximum IOPSs of different Instance Types, please refer to [MySQL Specifications](../Introduction/Specifications/MySQL-Specifications.md).
+- Specification: Different Specifications correspond to maximum connections and maximum IOPS for CPU and Memory of Instance, please refer to [MySQL Specifications](../Introduction/Specifications/MySQL-Specifications.md).
 - Storage Space: The space includes data space, system file space, and log file space.
 
 ![Create Instance 1](../../../../image/RDS/Create-Instance-1.png)

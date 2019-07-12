@@ -13,6 +13,10 @@ Bucket Policy is a resource-based authorization policy. The access policy uses t
 -   Authorize sub-users of other accounts to access.
 
     You can grant sub-users of other accounts the permission to access your OSS resources.
+    
+-   Authorize role and access.
+
+    You can grant permissions to roles accessing your OSS resources.
 
 -   Grant anonymous users the access permissions with specific restrictions.
 
@@ -22,7 +26,7 @@ Bucket Policy is a resource-based authorization policy. The access policy uses t
 
 #### Bucket policy language comprises the elements with the following basic meanings:
 
-* Principal: It describes the entity of policy authorization. For example the user, or maybe other partner (primary account), sub-account, anonymous user, etc. This element is valid for bucket access policy, but it should not be added for user’s access policy.
+* Principal: It describes the entity of policy authorization. For example the user, or maybe other partner (primary account), sub-account, role, anonymous user, etc. This element is valid for bucket access policy, but it should not be added for user’s access policy.
 * Statement: It describes the details of one or more permissions. The element comprises permission or permission sets of several other elements such as effect, action, resource and condition. One policy has only one statement element.
     - Effect: It describes that the result of the statement is "allow" or "deny", including two situations, namely allow and deny. This element is required.
     - Action: It describe the allowed or denied action. The action can be API or function set (a set of specific APIs). This element is required. See details in the following [Element Usage - Action].
@@ -38,7 +42,7 @@ The size restriction for Bucket Policy is 16k.
 
 ### principal
 
-The principal element is used to specify the users, accounts, services or other entities allowed or denied to access resources. The element principal only functions in the bucket; is not required to be specified in user policy, as the user policy is directly attached to a specific user. The following is an example to specify a principal in the Bucket Policy.
+The principal element is used to specify the users, accounts, role or other entities allowed or denied to access resources. The element principal only functions in the bucket; is not required to be specified in user policy, as the user policy is directly attached to a specific user. The following is an example to specify a principal in the Bucket Policy.
    
 **Description**
 
@@ -53,25 +57,18 @@ The principal element is used to specify the users, accounts, services or other 
     
 ```
     //Single Account
-
     "Principal":{"AWS":"arn:aws:iam::123456789012:root"}
- 
-
     //Multiple Accounts
-
     "Principal": {
     "AWS": [
     "arn:aws:iam::123456789012:root",
-    "arn:aws:iam::123456789010"
-    ]
+    "arn:aws:iam::123456789010"]
     }  
-
 ```
     
 2. To grant JD Cloud IAM sub-users the permission
 
-  Specify IAM sub-user:"AWS": "arn:aws:iam::account-ID:user/user-name"
-  The user-name is the user name of the sub-user that you want to authorize
+  Specify IAM sub-user:"AWS": "arn:aws:iam::account-ID:user/user-name", the user-name is the user name of the sub-user that you want to authorize
     
 ```
     //Single IAM Sub-user
@@ -80,13 +77,25 @@ The principal element is used to specify the users, accounts, services or other 
     "Principal": {
     "AWS": [
         "arn:aws:iam::123456789012:user/user-name-1",
-        "arn:aws:iam::111111111111:user/UserName2"
-     ]
+        "arn:aws:iam::111111111111:user/UserName2"]
     }
-
 ``` 
-    
-3. To grant everyone the permission, also called as anonymous access
+
+3. Grant permissions to JD Cloud IAM role
+
+Specifies the IAM role："AWS":"arn:aws:iam::accountID:role/roleName", roleName refers to the authorized role name.
+```
+    //Single IAM role
+    "Principal": { "AWS": "arn:aws:iam::123456789012:role/role-test" }  
+    //Multiple IAM roles
+    "Principal": {
+    "AWS": [
+        "arn:aws:iam::123456789012:role/role-test1",
+        "arn:aws:iam::123456789012:role/role-test2"]
+    }
+```
+ 
+4. To grant everyone the permission, also called as anonymous access
  
   For example, if you configure the bucket as a website, and you need to set all the objects in the bucket open for access, please do as follows: 
   Example:

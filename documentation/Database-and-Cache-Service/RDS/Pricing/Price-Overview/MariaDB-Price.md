@@ -1,6 +1,7 @@
 # MariaDB 
 For price, refer to the following table, with specific price subject to the charge made by the Console.
 
+## Local Disk SSD
 |Instance Type|Bucket (GB)|Monthly Package (RMB/Month)|Pay by Configuration (RMB/Hour)|
 |---|---|---|---|
 |1-core 1GB|20|108|0.25|
@@ -37,6 +38,13 @@ For price, refer to the following table, with specific price subject to the char
 |16-core 64GB|1200|6848|15.60|
 |16-core 64GB|1600|7168|16.32|
 |16-core 64GB|2000|7488|17.04|
+
+### Local Disk NVMe 
+|Instance Type|Bucket (GB)|Monthly Package (RMB/Month)|Pay by Configuration (RMB/Hour)|
+|---|---|---|---|
+|2-core 8GB|500|1264|2.87|
+|4-core 16GB|1000|2528|5.74|
+|8-core 32GB|2000|5056|11.48|
 
 ## MariaDB Read-only Instance
 |Instance Type|Bucket (GB)|Pay by Configuration (RMB/Hour)|
@@ -75,3 +83,10 @@ For price, refer to the following table, with specific price subject to the char
 |16-core 64GB|1200|8.12|
 |16-core 64GB|1600|8.48|
 |16-core 64GB|2000|8.84|
+
+### Local Disk NVMe 
+|Instance Type|Bucket (GB)|Pay by Configuration (RMB/Hour)|
+|---|---|---|
+|2-core 8GB|500|1.41|
+|4-core 16GB|1000|2.81|
+|8-core 32GB|2000|5.62|

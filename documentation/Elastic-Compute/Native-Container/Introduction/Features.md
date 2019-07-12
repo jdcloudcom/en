@@ -1,6 +1,6 @@
 # Features
 
-JD Cloud native container mainly provide following functions and experience JD Cloud console for more functions:
+JD Cloud native container mainly provide following functions and experience [JD Cloud console](https://cns-console.jdcloud.com/host/container/list?dataCenter=cn-north-1) for more functions:
 
 **Product Type**
 
@@ -21,7 +21,7 @@ Flexible billing: JD Cloud Native Container Instance and Native Container Pod pr
 
 Persistence Storage: Cloud Disk Service provides Native Container Instance and Native Container Pod with persistence storage with low latency and high reliability.
 
-Cloud Disk Service and its snapshot: cloud disk service provides customers with two types of cloud disks of Premium Hdd Cloud Disk and SSD Cloud Disk. It supports to set capacity of Cloud Disk Service as required and the capacity can be expanded at any time to satisfy the rapid increase of business. In addition, Cloud Disk Service provide function of make snapshot that can further satisfy data backup, batch deployment, rapid restore and other demand scenarios
+Cloud Disk Service and its snapshot: Cloud Disk Service has General SSD Disk, Performance SSD Disk, Capacity HDD Cloud Disk for customers to choose. It supports to set capacity of Cloud Disk Service as required and the capacity can be expanded at any time to satisfy the rapid increase of business. In addition, Cloud Disk Service provide function of make snapshot that can further satisfy data backup, batch deployment, rapid restore and other demand scenarios
 
 **Networking**
 
@@ -34,7 +34,7 @@ They are instance resources in VPC together with VM, database, etc.; assign priv
 
 Image: directly run Native Container Instance and Native Container Pod based on Docker Image to quickly implement lightweight deployment and rapid start.
 
-Repository: seamlessly integrated with JD Cloud repository to implement high speed image download and accelerate the deployment of container application.
+Repository: Seamless integration with JD Cloud Container Registry to realize high speed image downloading and accelerate the deployment of containerized applications.
 
 
 **Security Group and Monitoring**

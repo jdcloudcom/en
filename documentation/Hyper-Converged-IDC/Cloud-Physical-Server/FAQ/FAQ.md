@@ -6,7 +6,7 @@
 
 2.Q: Is there any public/Private IP?
 
-&nbsp;&nbsp;&nbsp;A: Under the basic network environment, each Cloud Physical Server provides one Public IP and a Private IP. Users may select the intranet CIDR segment beginning with 10/192/172. IP address is automatically allocated by system, rather than the user. The user may not intend to associate the public IP. However, once the public IP is not associated, the public IP cannot be purchased in the later period.
+&nbsp;&nbsp;&nbsp;A: Under the basic network environment, each Cloud Physical Server provides one Public IP and a Private IP. When creating a basic network instance, users may select the intranet CIDR segment beginning with 10/192/172. IP address is automatically allocated by system, rather than the user. The user may not intend to associate the public IP. However, once the public IP is not associated, the public IP cannot be purchased in the later period.
 
 3.Q: Are the intranets of different regions connected? Are the intranets of different availability zones connected?
 

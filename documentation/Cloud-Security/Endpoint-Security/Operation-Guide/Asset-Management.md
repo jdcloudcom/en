@@ -2,37 +2,58 @@
 
 ### Application for Enterprise Version
 
-As Asset Management is covered by Enterprise Version, please apply for trial of Enterprise Version to enable this function.
+As the Compliance Baseline function is covered by Enterprise Version, tenants need to apply for trial of Enterprise Version to enable this function.
 
-Log in to the Official Website - Product - Endpoint Security and click **Trial Application of Enterprise Version**.
+Log in to the Official Website -> Product -> Endpoint Security and click **Trial Application of Enterprise Version**.
 [Application Link](https://www.jdcloud.com/en/public/testApply/baseline),
 
-Image - Application Page
+![申请试用1](../../../../image/Endpoint-Security/申请试用-1.png)
 
-![%E7%94%B3%E8%AF%B7%E9%A1%B5.png](https://github.com/jdcloudcom/cn/blob/bt0sea-patch-23/image/Endpoint-Security/%E7%94%B3%E8%AF%B7%E9%A1%B5.png)
+![申请试用2](../../../../image/Endpoint-Security/申请试用-2.png)
 
-Wait for background approval. After the application is made, two menus, i.e. Compliance Baseline and Asset Management, can be displayed.
+Wait for background approval. After the approval is obtained, the compliance baseline and asset management will be displayed in the Endpoint Security product menu under this account.
 
 
 ### Asset Management
 
 #### Entrance of Features
 
-Log in to Console - Cloud Security - Endpoint Security - Threat Overview and click **Compliance Baseline Risk** to redirect to 
+Log in [Endpoint Security] -> [Asset Management]
 
-Figure - Compliance Baseline 1
-![%E5%90%88%E8%A7%84%E5%9F%BA%E7%BA%BF-1.png](https://github.com/jdcloudcom/cn/blob/bt0sea-patch-23/image/Endpoint-Security/%E5%90%88%E8%A7%84%E5%9F%BA%E7%BA%BF-1.png)
+![资产管理1](../../../../image/Endpoint-Security/资产管理-1.png)
 
-Log in to Console - Cloud Security - Endpoint Security - Compliance Baseline
-
-Figure - Compliance Baseline 2
-![%E5%90%88%E8%A7%84%E5%9F%BA%E7%BA%BF-2.png](https://github.com/jdcloudcom/cn/blob/bt0sea-patch-23/image/Endpoint-Security/%E5%90%88%E8%A7%84%E5%9F%BA%E7%BA%BF-2.png)
-
-#### Create Check Task
-
-Figure - Compliance Baseline 3
-
-![%E5%90%88%E8%A7%84%E5%9F%BA%E7%BA%BF-3.png](https://github.com/jdcloudcom/cn/blob/bt0sea-patch-23/image/Endpoint-Security/%E5%90%88%E8%A7%84%E5%9F%BA%E7%BA%BF-3.png)
 
 ### Asset Fingerprint
+
+#### Function Description
+With the situation awareness asset fingerprint function, the following information on servers will be periodically and recorded: running process, port service, account information and software information, helping you fully understand asset running status and facilitating invasion check.
+
+- View a single asset fingerprint
+
+Log in [Endpoint Security] -> [Asset Management], click specific asset information.
+
+![资产管理1](../../../../image/Endpoint-Security/资产管理-1.png)
+
+
+- Search historical change of designated asset fingerprint
+
+Log in [Endpoint Security] -> [Asset Management], enter process to be searched and search historical change.
+
+![](../../../../image/Situational-Awareness/filter1.png)
+
+
+- View all asset fingerprints
+
+Log in [Endpoint Security] -> [Asset Management], click specific asset information, click processes concerned and log enter running situation of the concerned process among entire network assets.
+
+![](../../../../image/Situational-Awareness/bash.png)
+
+
+- Search aggregation results of designated asset fingerprint
+
+Log in [Endpoint Security] -> [Asset Management], click specific asset information, click processes, enter aggregation data interface and enter process to be searched.
+
+![](../../../../image/Situational-Awareness/filter2.png)
+
+![](../../../../image/Situational-Awareness/filter3.png)
 

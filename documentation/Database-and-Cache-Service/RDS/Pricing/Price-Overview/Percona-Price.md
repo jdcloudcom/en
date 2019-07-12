@@ -1,6 +1,7 @@
 # Percona 
 For price, refer to the following table, with specific price subject to the charge made by the Console.
 
+## Local Disk SSD
 |Instance Type|Bucket (GB)|Monthly Package (RMB/Month)|Pay by Configuration (RMB/Hour)|
 |---|---|---|---|
 |1-core 1GB|20|99|0.23|
@@ -38,7 +39,16 @@ For price, refer to the following table, with specific price subject to the char
 |16-core 64GB|1600|6592|15.04|
 |16-core 64GB|2000|6912|15.76|
 
+### Local Disk NVMe 
+|Instance Type|Bucket (GB)|Monthly Package (RMB/Month)|Pay by Configuration (RMB/Hour)|
+|---|---|---|---|
+|2-core 8GB|500|1264|2.87|
+|4-core 16GB|1000|2528|5.74|
+|8-core 32GB|2000|5056|11.48|
+
 ## Percona read-only instance 
+For price, refer to the following table, with specific price subject to the charge made by the Console.
+## Local Disk SSD
 |Instance Type|Bucket (GB)|Pay by Configuration (RMB/Hour)|
 |---|---|---|
 |1-core 1GB|20|0.11|
@@ -75,3 +85,10 @@ For price, refer to the following table, with specific price subject to the char
 |16-core 64GB|1200|6.84|
 |16-core 64GB|1600|7.20|
 |16-core 64GB|2000|7.56|
+
+### Local Disk NVMe 
+|Instance Type|Bucket (GB)|Pay by Configuration (RMB/Hour)|
+|---|---|---|
+|2-core 8GB|500|1.41|
+|4-core 16GB|1000|2.81|
+|8-core 32GB|2000|5.62|

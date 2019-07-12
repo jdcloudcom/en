@@ -1,6 +1,8 @@
 # SQL Server Instance Type
 
-Description: The specification code is related to CPU and the memory only. Therefore, the instances of the same CPU and memory specification shall have the same specification code
+Description: 
+- The specification code is related to CPU and the memory only. Therefore, the instances of the same CPU and memory specification shall have the same specification code
+- SQL Server Enterprise Version in Beijing Region supports for both local SSD and NVME, while other regions only support local SSD Storage for the time being
 
 |Instance Type|Specification Code|Bucket (GB)|
 |---|---|---|

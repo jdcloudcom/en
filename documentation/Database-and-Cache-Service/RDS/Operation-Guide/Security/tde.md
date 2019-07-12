@@ -12,6 +12,7 @@ RDS of JD Cloud supports the use of TDE in the following SQL Server version:
 - SQL Server 2012 Enterprise Version
 - SQL Server 2014 Enterprise Version
 - SQL Server 2016 Enterprise Version
+- SQL Server 2017 Enterprise Version
 
 ## Precautions
 1. It is not allowed to disable TDE when it is enabled at the instance level
@@ -24,7 +25,7 @@ RDS of JD Cloud supports the use of TDE in the following SQL Server version:
 - After being downloaded, the encrypted database backup can be restored to the local database only after being decrypted. Please obtain the decryption key pair by contacting the Customer Service. The self-help download function will be provided later.
 - The cross-origin backup synchronization is not supported by the encrypted database
 
-## Operation Steps
+## 1. Enable TDE encryption
 1. Log in the RDS console and click the instance to enter the **"Security Management"** page.
 2. Select **"TDE Encryption"** and click **Enable** to enable the instance-level TDE.
 3. Execute the following SQL for the database with TDE to be enabled. Taking the database db1 for example
@@ -52,6 +53,31 @@ GO
 SELECT db_name(database_id) as DatabaseName, * FROM sys.dm_database_encryption_keys
 GO 
 ```
+
+## 2. Download TDE certificate and get Key
+After TDE is enabled in the Database, the backup downloaded to the local cannot be restored directly, and it only can be restored in the local SQL Server Instance in combination with the TDE certificate and Key
+
+1. The certificate of TDE can be downloaded after TDE is enabled in the Console. The certificate can be downloaded from the Intranet or public network.
+2. Click **"Click Replication"** to get Key
+3. Execute the following SQL for the backup to be restored
+```SQL
+USE master
+GO
+
+create master key encryption by password = N'xxx';  --xxx is the Key obtained previously
+GO
+
+
+CREATE CERTIFICATE Mycertificate 
+FROM FILE = N'D:\Database\mycertificate.cer'
+with private key 
+(
+    file = N'D:\Database\mycertificate.pvk' , 
+    decryption by password = N'xxx'
+);                                                -- mycertificate.cer and mycertificate.pvk are TDE certificates previously downloaded, and the specific file names are slightly different
+```
+
+4. Then, execute the restored SQL statement or restore via the SSMS client
 
 
 

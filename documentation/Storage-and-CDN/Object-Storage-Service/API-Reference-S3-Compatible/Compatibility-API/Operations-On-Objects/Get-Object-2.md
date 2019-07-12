@@ -3,6 +3,8 @@
 ## Description
 Operation can retrieve Object from OSS, and you must have READ permission to the Object. If the Object permission is Public and Read, then Object can be retrieved without signature verification.
 
+Note: Data pull assignment via x-amz-customize-back-source-url and x-amz-customize-back-source-param headers is supported; when the object is downloading after assignment, URL data provided by the request header will be pulled and returned to the user.
+
 ## Request
 ### Syntax
 ```
@@ -25,6 +27,8 @@ If-Modified-Since|If Object is modified after specified time, the Object will be
 If-Unmodified-Since|If Object is not modified after specified time, the Object will be returned, otherwise 412 (precondition failed) will be returned. <br>Type: String<br>Default: None<br>Constraints: None|No
 If-Match|If the ETag is consistent with the specified ETag, the Object will be returned, otherwise 412 (precondition failed) will be returned. <br>Type: String<br>Default: None<br>Constraints: None|No
 IF-None-Match|If the ETag is inconsistent with the specified ETag, the Object will be returned, otherwise 304 (not modified) will be returned. <br>Type: String<br>Default: None<br>Constraints: None|No
+x-amz-customize-back-source-url|Back-to-origin address, supporting format such as http://www.example.com:1000/path. <br>Type: String<br>Default: None|No
+x-amz-customize-back-source-param|json character string of base64 code. Set parameters with images back-to-origin. <br>Type: String<br>Default: None|No
 
 Note:
 + If both If-Match and If-Unmodified-Since are existed in the request, If-Match is true, and If-Unmodified-Since is false, OSS will return 200 OK

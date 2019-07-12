@@ -16,5 +16,9 @@ This document will introduce the important update history of the Cloud Physical 
 |2018.12.26|V1.5.1|Launch New Categories GPUⅢ; <br/>Add GPU information display.|
 |2019.01.25|V1.6|Terminate "Pre-install Image+Application" function; <br/>Launch new availability zone: <br/>cn-north-1, availability zone A; <br/>Release Ironic-based new architecture installation stream.|
 |2019.01.29|V1.7|Optimize hardware status accuracy and add hardware monitoring logs.|
-|2019.05|V2.0|Upgrade the network architecture to the SDN-based new network architecture and add new functions, including: VPC Instance, VPC, Subnet and Elastic IP;<br/>|
+|2019.05.14|V2.0|Upgrade the network architecture to the SDN-based new network architecture and add new functions, including: VPC Instance, VPC, Subnet and Elastic IP; open new availability zone, cn-north-1-availability zone C; cn-north-1 launches new categories cps.c2.perf1 and cps.s2.normal;<br/>|
+|2019.06.04|V2.0.1|Launch an image CentOS 7.5 64-bit TD Enhancement;<br/>|
+|2019.06.26|V2.0.2|cn-north-1 launches new categories cps.s.perf1、cps.c.perf2.memory and cps.c.perf3;<br/>|
+|2019.06.28|V2.1|Add server monitoring functions to support different monitoring dimensions;<br/>|
+
 

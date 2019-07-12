@@ -64,10 +64,9 @@
               
       - name: Table Management
         items:
-          - name: Create Table
-            href: Operation-Guide/Table/Create-Table.md
-          - name: Delete Table
-            href: Operation-Guide/Table/Drop-Table.md              
+          - name: Table DDL Syntax
+            href: Operation-Guide/Table/Table-DDL.md
+            
   - name: FAQ
     items:
     - name: FAQ

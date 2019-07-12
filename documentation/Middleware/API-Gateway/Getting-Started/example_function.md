@@ -36,7 +36,6 @@ On the **API Group Management** page, release API groups into the environment vi
 In the release process, environments to be released (test, pre-release, on-line) can be selected, versions to be released can be selected and the backend address can be configured. Then, click **Release** to release groups into the environment.
 
 
-
 ###  Step 4: Provide authorization access to the API caller
 
 - Authorization Access
@@ -49,7 +48,7 @@ When API provider provides API calling without authentication, API caller may di
 
 ###  Step 5: API caller downloads and uses SDK package to call functions
 
-- Easy action: [Rapid Release and Call of an API Application](../Getting-Started/example_console.md)
+- Easy action: [Rapid Release and Call of an API Application](https://docs.jdcloud.com/en/api-gateway/example_signaturekey)
 
 
 

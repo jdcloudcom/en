@@ -6,7 +6,7 @@ Bucket. The sub-account is subordinate to the primary account, and these account
 
 **Description**
 
-At present, OSS only supports access of sub-user only in IAM, and the role will be supported later. The premise of using IAM Policy to control the permissions of sub-users is that you must log in to the IAM console, create a new sub-user, and grant its corresponding access policy. [For details, refer to IAM](https://docs.jdcloud.com/en/iam/core-concepts). And in current period, OSS does not support sub-account logging in the console. Your sub-account can only use API/SDK to complete various operations on OSS.
+OSS supports sub-user in IAM and role access. The premise of using IAM Policy to control the permissions of sub-users is that you must log in to the IAM Console, create a new sub-user, and grant its corresponding access policy. [For details, refer to IAM](https://docs.jdcloud.com/en/iam/core-concepts). And in current period, OSS does not support sub-account logging in the console. Your sub-account can only use API/SDK to complete various operations on OSS.
 
 If you have cross-account authorization requirements, please view. [Access Control Based on Bucket policy](./Access-Control-Base-On-Bucket-Policy.md), to complete the cross-account authorization.
 

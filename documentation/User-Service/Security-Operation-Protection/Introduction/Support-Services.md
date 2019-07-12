@@ -10,6 +10,10 @@ The list of currently defined sensitive operations is as follows:
 |     Container Registry  |  containerregistry:deleteRegistry   |    Delete Registry  |  
 |     Container Registry  | containerregistry:deleteRepository   |  Delete Registry  | 
 |     Container Registry  |  containerregistry:deleteImage   |    Delete Image |  
+|     Pod  |   pod:deletePod    |   Delete Pod  | 
+|     JCS for Kubernetes  |   kubernetes:deleteCluster   |   Delete Cluster| 
+|    JCS for Kubernetes  |   kubernetes:deleteNodeGroup    |    Delete Working Node Group | 
+|    Function Service |   function:deleteFunction   |    Delete Function | 
 
 #### Database and Cache
 |  **Cloud Product**  | **Interface Name** | **Interface Description** |
@@ -19,6 +23,8 @@ The list of currently defined sensitive operations is as follows:
 | Cloud Database (My SQL)  |      rds:deleteDatabase     |    Delete Instance   | 
 |     Cloud Database (SQL Server) |  rds:deleteDatabase    |    Delete Database  |  
 |     Cloud Database (SQL Server) |  rds:deleteInstance    |    Delete Instance|  
+|     Cloud Database (SQL Server) | rds:restoreDatabaseFromFile   |  Cloud on Single Database|  
+|     Cloud Database (SQL Server) |rds:restoreDatabaseFromBackup |  Single Database Recovery|  
 |     JCS for MongoDB |  mongodb:deleteInstance   |    Delete Instance|  
 |     DRDS |  drds:deleteInstance   |    Delete Instance|  
 |     JCS|  redis:deleteCacheInstance  |    Delete a Singe Redis Instance|  
@@ -36,16 +42,19 @@ The list of currently defined sensitive operations is as follows:
 | Application Security Gateway  |      sgw:deleteWaf    |    Delete WAF Instance   | 
 | SSL Certificate  |    ssl:deleteCerts    |    Delete Certificate  | 
 | SSL Certificate |      ssl:downloadCert  |    Download Certificate  | 
+| JD Cloud DNS |      clouddnsservice:setLock  |    Enable/Disable Domain Locking | 
 
 #### Management
 |  **Cloud Product**  | **Interface Name** | **Interface Description** |
 | :----------: | :--------------: | :------: |
 | Resource Orchestration |      jdro:deleteStack  |    Delete Stack  | 
+| IAM |     iam:createSubUser |   Create sub-user | 
+| IAM|     iam:deleteSubUser  |    Delete sub-user  | 
 
-#### Domain Name Service
+#### Developer Tools
 |  **Cloud Product**  | **Interface Name** | **Interface Description** |
 | :----------: | :--------------: | :------: |
-| JD Cloud DNS |      clouddnsservice:setLock  |    Enable/Disable Domain Locking | 
+| CodeDeploy|    deploy:deleteApp  |    Delete application | 
 
 #### Middleware
 |  **Cloud Product**  | **Interface Name** | **Interface Description** |
@@ -57,3 +66,5 @@ The list of currently defined sensitive operations is as follows:
 | JD Distributed Service Framework |    jdsf:deleteAppConfig |    Delete Application Configuration | 
 | JD Distributed Service Framework |     jdsf:deleteAppConfigVersion |   Delete Application Configuration Version  | 
 | JD Distributed Service Framework |     jdsf:rollbackAppConfigVersion  |    Rollback Release of Configuration Version  | 
+| Message Queue |   jcq:deleteTopic  |    Delete a  Single Topic  | 
+| Queue Service |   jqs:deleteQueue  |  Delete queue  | 

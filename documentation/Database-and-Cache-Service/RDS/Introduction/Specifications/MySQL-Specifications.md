@@ -1,5 +1,5 @@
 # MySQL
-
+## Local Disk SSD
 |Instance Type|Maximum Connections|Maximum IOPS|Bucket (GB)|
 |---|---|---|---|
 |1-core 1GB|300|600|20|
@@ -36,8 +36,16 @@
 |16-core 64GB|16000|14000|1200|
 |16-core 64GB|16000|14000|1600|
 |16-core 64GB|16000|14000|2000|
+
+## Local Disk NVMe 
+|Instance Type|Maximum Connections|Maximum IOPS|Bucket (GB)|
+|---|---|---|---|
+|2-core 8GB|2000|15000|500|
+|4-core 16GB|4000|24000|1000|
+|8-core 32GB|8000|42000|2000|
 
 # MySQL Read-only instance
+## Local Disk SSD
 |Instance Type|Maximum Connections|Maximum IOPS|Bucket (GB)|
 |---|---|---|---|
 |1-core 1GB|300|600|20|
@@ -74,3 +82,11 @@
 |16-core 64GB|16000|14000|1200|
 |16-core 64GB|16000|14000|1600|
 |16-core 64GB|16000|14000|2000|
+
+## Local Disk NVMe 
+|Instance Type|Maximum Connections|Maximum IOPS|Bucket (GB)|
+|---|---|---|---|
+|2-core 8GB|2000|15000|500|
+|4-core 16GB|4000|24000|1000|
+|8-core 32GB|8000|42000|2000|
+

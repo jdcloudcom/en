@@ -134,7 +134,7 @@ public class Demo {
 ```
 #### 3.	 Run SDKTest.java to obtain returned results.
 
-![Java返回结果](../../../../image/Internet-Middleware/API-Gateway/exap_Java_return.png)
+![Java返回结果](../../../../image/Internet-Middleware/API-Gateway/example_Java_return.png)
 
 
 ### (2) Call via Python SDK
@@ -177,9 +177,10 @@ if __name__ == "__main__":
     print(CreatePet_response)
 ```
 
+
 #### 3.	 Run PetStoreTest.py to obtain returned results.
 
-![Python返回结果](../../../../image/Internet-Middleware/API-Gateway/exap_Python_return.png)
+![Python返回结果](../../../../image/Internet-Middleware/API-Gateway/example_Python_return.png)
 
 
 ### You are allowed to obtain your API calling conditions in real time via the [API Gateway Monitoring](http://cms-console-north-2a-backup.jdcloud.com/monitor/apigateway), including: success number, traffic, response time, request exception and other information as well as exception condition alarm setting.

@@ -411,6 +411,8 @@ items:
               href: Best-Practices/Access-Control-And-Permission-Management/Cross-Account-Access-Overview.md
             - name: Authorize the sub-account to access OSS
               href: Best-Practices/Access-Control-And-Permission-Management/Authorize-Sub-Account-Access.md
+            - name: Access OSS by using temporary secret key
+              href: Best-Practices/Access-Control-And-Permission-Management/Authorize-Role-Access.md
       - name: Anti-leech
         href: Best-Practices/Anti-leech.md
       - name: Use CloudBerry to Manage OSS

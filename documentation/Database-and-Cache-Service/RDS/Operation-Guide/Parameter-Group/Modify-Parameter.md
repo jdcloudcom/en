@@ -12,6 +12,7 @@ The default value of all parameters in the parameter list is the value optimized
 * [MySQL 8.0 Parameter Definition](https://dev.mysql.com/doc/refman/8.0/en/server-system-variables.html)
 * [Percona 5.7 Parameter Definition](https://dev.mysql.com/doc/refman/5.7/en/server-system-variables.html)
 * [MariaDB 10.2 Parameter Definition](https://mariadb.com/kb/en/library/server-system-variables/)
+* [PostgreSQL 10.6 Parameter Definition](https://www.postgresql.org/docs/10/runtime-config.html)
 
 ## Action Steps
 1. Log in [Parameter group Console](https://rds-console.jdcloud.com/paramgroup/list)

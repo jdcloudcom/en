@@ -21,10 +21,15 @@ Intranet interface and public network interface are 10-gigabit network interface
 - **Firewall setting:**
 Set customized instance network access control via iptables firewall to configure different identity and access management rules for different instances. For firewall action steps, please refer to [Firewall Setting Steps](../Operation-Guide/Network-And-Security/Steps-Network-And-Security.md).
 - **Isolated network architecture:**
-Intranets are isolated from each other between users, similar to the traditional network you build in data center, and the virtual private cloud space is completely controlled by the user, supporting customized intranet CIDR segment partitioning.
+The high-speed network devices of JD Cloud data center are relied on to achieve the intranet interconnection, and provide a high-quality, high-speed, and low-delay intranet environment. The intranet of users is isolated from each other, being secure and reliable.</br>
+It supports self-planned network deployment, including preset/non-preset network range (CIDR), subnet segment and intranet CIDR segment that users can choose depending on their preference.</br>
+The double upper-link network adopts the bond redundancy policy of IEEE 802.3ad dynamic link aggregation mode, and supports network interface redundancy disaster recovery to guarantee the high availability of network.</br>
+Elastic IP can be independently applied for, and the public network bandwidth can be dynamically expanded to a maximum of 200Mbps, supporting association and disassociation.</br>
 - **Quick batch deployment:**
 Automatically deploy the operating system when creating the Cloud Physical Server, and allow users to reinstall the operating system.
 - **All-round security protection service:**
 Provide free DDoS infrastructure service.
 - **Free Out-of-band Monitoring Function:**
 Multiple-dimension monitoring to master instance running status in real time and provide in-place status monitoring for CPU, memory, disk and network interface.
+
+

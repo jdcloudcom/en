@@ -21,7 +21,7 @@ Log in JD Cloud Console, enter IAM > Role Management, and click the **Create** b
 
 Enter the role list or role details, and associate the user role with corresponding policy to control and switch role login, and then the role can have the permission, e.g. associate RoleA with the policy you want to associate.
 
-![为角色授权](../../../../image/IAM/RoleManagement/为角色授权.jpg)
+![角色列表授予策略](../../../../image/IAM/RoleManagement/角色授予策略.jpg)
 
 ## Grant permission of playing role to sub-user
 

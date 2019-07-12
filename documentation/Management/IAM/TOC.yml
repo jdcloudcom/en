@@ -35,6 +35,8 @@ items:
             href: Identity-Management/Sub-User.md
           - name: Group(s)
             href: Identity-Management/Group.md
+          - name: Role
+            href: Identity-Management/Role.md
       - name: Policy Management
         items:
           - name: Policy Management

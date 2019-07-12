@@ -14,7 +14,7 @@ The specific charging standards are as follows.
 
 ### **Physical Link Access Fees**
 
-- The Physical Connection in the Direct Connection, self-service access mode. Each time a customer accesses a dedicated line, JD Cloud charges a one-time access fee of RMB 15,000. The line laying fee is charged by the operator, and the customer needs to contact the operator for price consultation.
+- The Physical Connection in the Direct Connection, self-service access mode. Each time a customer accesses a dedicated line, JD Cloud charges a one-time access fee of RMB 15,000. The laying expense of physical line will be charged by the operator, and customers need to contact the operator by themselves and consulate price of end-to-end link resource (probably involving entry cost of data center park and optical fiber jumper cost).
 - The Physical Connection in the Direct Connection, the partner access mode. When the customer access to the dedicated line, JD Cloud does not charge any fees, the line laying fee is charged by the partner, and the customer needs to contact the partner for price consultation.
 - The Hosted Connection in the Hosted Connect. Each time a connection is connected, JD Cloud charges a one-time access fee of RMB 15,000. JD Cloud is responsible for completing the line laying from the hosted area to the public cloud.
 

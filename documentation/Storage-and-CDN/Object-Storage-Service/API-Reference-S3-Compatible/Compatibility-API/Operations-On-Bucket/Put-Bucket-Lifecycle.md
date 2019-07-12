@@ -39,7 +39,9 @@ Filter|Define the filter conditions of Objects influenced by life cycle manageme
 Prefix|By specifying the Prefix of Object, which Objects are influenced by life cycle management policies is determined; if \<Prefix\>\</Prefix\> is defined, it shall be considered as a filter condition for matching without prefix. In the Filter of a Rule, only one Prefix is allowed to exist. No more than 1,022 bytes is allowed under utf-8 code. <br>Type: String<br>Parent Tag: Filter|No
 Days|Specify the number of days after the Objects meeting the filter conditions are uploaded to Bucket for storage type conversion. If the Date exists under the Expiration tag, Days shall not be specified. <br>Type: Positive Integer<br>Parent Tag: Expiration|If no Date is specified, you must
 Date|Specify a date for storage type conversion after the Objects meeting the filter conditions are uploaded to the Bucket. If the Days exist under the Expiration tag, Date shall not be specified. The date format must conform to ISO 8601 format specifications, midnight UTC. <br>Type: String<br>Parent Tag: Expiration|If no Days is specified, you must
-Expiration|Specify the time for deleting the expired Objects. <br>Type: Container<br>Subtag: Days and Date<br>Parent Tag: Rule|Yes
+Expiration|Specify the time for deleting the expired Objects. <br>Type: Container<br>Subtag: Days and Date<br>Parent Tag: Rule|NO
+AbortIncompleteMultipartUpload|Assign the time when Abort Multipart Upload operation is executed to uncompleted multipart upload. <br>Type: Container<br>Subtag: DaysAfterInitiation<br>Parent tag: Rule|No
+DaysAfterInitiation|Assign the time period (day since initial multipart upload) terminating multipart upload by OSS, with maximum period of 2147483647<br>Type: Positive Integer<br>Parent tag: AbortIncompleteMultipartUpload|No
 
 ## Response
 ### Response Header

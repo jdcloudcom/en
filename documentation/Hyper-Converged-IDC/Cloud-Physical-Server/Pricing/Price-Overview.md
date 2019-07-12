@@ -7,47 +7,88 @@ The instance prices of the Cloud Physical Server mainly include the Cloud Physic
 
 <table>
     <tr>
-        <td colspan="2"><B>Instance Type</B></td> 
-        <td ><B>Instance Type</B></td> 
-		<td ><B>Monthly Package Price (RMB)</B></td>	
-    </tr>
+        <td rowspan="2" colspan="2"><B>Instance Type</B></td> 
+        <td  rowspan="2" colspan="1"><B>Instance Type</B></td> 
+		<td colspan="2"><B>Monthly Package Price (RMB)</B></td>	
+	    <tr>
+		<td><B>cn-north-1</B></td>
+                <td><B>cn-east-1</B></td>
+            </tr>
+   </tr>
     <tr>   
-        <td rowspan="3">Compute Type</td>
+        <td rowspan="6">Compute Type</td>
 		<td >Compute Standard</td>
 		<td >cps.c.normal</td>
 		<td >6300</td>
+	        <td >4725</td>
     </tr>
 	<tr>   
 		<td >Compute Performance Ⅰ</td>
 		<td >cps.c.perf1</td>
 		<td >7000</td>
+	        <td >5250</td>
     </tr>
 	<tr>   
 		<td >Compute Performance Ⅱ</td>
-		<td >cps.c.perf2</td>
-		<td >9000</td>
+		<td >cps.c2.perf1</td>
+		<td >8200</td>
+	        <td >--</td>
     </tr>
 	<tr>   
-		<td >Storage Type</td>
+		<td >Computing Performance Type Ⅱ</td>
+		<td >cps.c.perf2</td>
+		<td >9000</td>
+	        <td >--</td>
+    </tr>
+	<tr>   
+		<td >Compute PerformanceⅡMemory</td>
+		<td >cps.c.perf2.memory</td>
+		<td >9900</td>
+	        <td >--</td>
+    </tr>
+	<tr>   
+		<td >Compute PerformanceⅢ</td>
+		<td >cps.c.perf3</td>
+		<td >5600</td>
+	        <td >--</td>
+    </tr>
+	<tr>   
+		<td  rowspan="3">Storage Type</td>
 		<td >Storage Standard</td>
 		<td >cps.s.normal</td>
 		<td >4500</td>
+	        <td >3375</td>
+    </tr>
+	<tr>   
+		<td >Storage Standard (Generation II)</td>
+		<td >cps.s2.normal</td>
+		<td >6500</td>
+	        <td >--</td>
+    </tr>
+	<tr>   
+		<td >Storage PerformanceⅠ</td>
+		<td >cps.s.perf1</td>
+		<td >6600</td>
+	        <td >--</td>
     </tr>
 	<tr>   
 		<td rowspan="3">GPU Type</td>
 		<td >GPUⅠ</td>
 		<td >cps.gpu.1</td>
 		<td >23000</td>
+	        <td >17250</td>
     </tr>
 	<tr>   
 		<td >GPUⅡ</td>
 		<td >cps.gpu.2</td>
 		<td >19900</td>
+	        <td >--</td>
     </tr>
 	<tr>   
 		<td >GPUⅢ</td>
 		<td >cps.gpu.3</td>
 		<td >32000</td>
+	        <td >--</td>
     </tr>	
 </table>
 
@@ -62,7 +103,7 @@ The instance prices of the Cloud Physical Server mainly include the Cloud Physic
 <td rowspan="2"><B>IP Provider</B></td> 
 <td rowspan="2"><B>Region</B></td> 
 <td rowspan="2"><B>Bandwidth</B></td>
-<td colspan="2"><B>Monthly Package</B></td>
+<td colspan="2"><B>Monthly Package(RMB)</B></td>
 </tr>
 <tr>
 <td ><B>RMB/Month</B></td>
@@ -71,8 +112,7 @@ The instance prices of the Cloud Physical Server mainly include the Cloud Physic
 <tr>
 <td rowspan="12">BGP</td>
 <td rowspan="6">cn-north-1<br/>
-cn-south-1<br/>
-cn-east-2</td>
+</td>
 <td>1Mbps</td>
 <td>23</td>
 <td>276</td>
@@ -142,4 +182,3 @@ Note:
 
 The public IP prices are different depending on the regions and the IP providers. The specific price is subject to the region and line selected at the time of purchase. The regions in the table are not all open; some regions are in preparation for opening.
 
-The bandwidth quota is shared by the public network IPV4 and the public network IPV6.

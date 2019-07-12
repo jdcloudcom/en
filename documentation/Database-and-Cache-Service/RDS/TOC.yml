@@ -308,7 +308,11 @@
           href: Operation-Guide/Cross-Region-Synchronization-Service/Delete-Cross-Region-Synchronization-Service.md
            
       - name: Log Management
-        href: Operation-Guide/Log-Management.md   
+        items:
+        - name: Slow Log 
+          href: Operation-Guide/Log/Log-Management.md   
+        - name: PostgreSQL Log Management 
+          href: Operation-Guide/Log/PostgreSQL-Log-Management.md   
       - name: Access Mode Setting
         href: Operation-Guide/Set-Access-Mode.md     
       - name: PostgreSQL Plug-ins 

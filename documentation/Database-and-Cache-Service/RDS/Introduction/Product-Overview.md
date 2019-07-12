@@ -27,6 +27,7 @@ The following engines and versions are supported by RDS
     - 2012: Enterprise Version and Standard Version
     - 2014: Enterprise Version and Standard Version
     - 2016: Enterprise Version, Standard Version and Web Version
+    - 2017: Enterprise Version
 
 - PostgreSQL
     - 10.6
@@ -40,4 +41,5 @@ The following engines and versions are supported by RDS
 |cn-south-1|cn-south-1|Availability Zone A|cn-south-1a|
 |cn-east-2|cn-east-2|Availability Zone A|cn-east-2a|
 |cn-east-2|cn-east-2|Availability Zone B|cn-east-2b|
+|cn-east-2|cn-east-2|Availability Zone C|cn-east-2c|
 |cn-east-1|cn-east-1|Availability Zone A|cn-east-1a|

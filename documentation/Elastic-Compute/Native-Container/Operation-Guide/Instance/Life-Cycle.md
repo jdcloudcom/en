@@ -14,6 +14,7 @@ The life cycle of Native Container Instance and Native Container Pod begins from
 |Deleting  |Middle State     |  The state of Native Container Instance of pay by configuration, in error state or of monthly package from the submission by the console of the Native Container Instance to be deleted to the successful deletion.            |
 |Starting              | Middle State      |  The state of Native Container Instance in "stopped" state after "start" operation at console or through API and before the "running" state, and if it is in such state for a long time, it indicates that exception occurs.   |
 | Stopping      | Middle State    |The state after the "stop" operation is done at the console to the Native Container Instance and before it enters into the "stopped" state, and if it is in such state for a long time, it indicates that exception occurs.     |
+| In Reset      | Middle State    |The Native Container Instance enters the status after the Console performs "Reset Image" operation    |  
 | Deleted      | Stability State    |The Native Container Instance is successfully deleted, and the deleted Native Container Instance is kept for 15 minutes before it automatically disappears.     |
            
 **State Corresponding to Native Container Pod**
@@ -28,7 +29,8 @@ The life cycle of Native Container Instance and Native Container Pod begins from
 | Error     |  Stability State        |  Exception occurs during the creation of Native Container Pod, the system automatically deletes it, and fees are returned.  |
 |Deleting  |Middle State     |  The state of Native Container Pod of pay by configuration, in error state or of monthly package from the submission by the console of the instance to be deleted to the successful deletion.            |
 |Starting              | Middle State      |  The state of Native Container Pod in "stopped" state after "start" operation at console or through API and before the "running" state, and if it is in such state for a long time, it indicates that exception occurs.   |
-| Stopping      | Middle State    |The state after the "stop" operation is done at the console to the Native Container Pod and before it enters into the "stopped" state, and if it is in such state for a long time, it indicates that exception occurs.     |
+| Stopping      | Middle State    |The state after the "stop" operation is done at the console to the Native Container Pod and before it enters into the "stopped" state, and if it is in such state for a long time, it indicates that exception occurs.     |  
+| In Reset      | Middle State    |The Native Container Pod enters the status after the Console performs "Reset Image" operation    |  
 | Deleted      | Stability State    |The Native Container Pod is successfully deleted, and the deleted Native Container Pod is kept for 15 minutes before it automatically disappears.     |
 
 If there is an exception in your instance, please open ticket.

@@ -19,8 +19,8 @@ Availability zone is a physical region where power and network are independent o
 		</thead>
 	<tbody>
    	<tr>
-      	<td rowspan="6">Regions in Mainland China</td>
-      	<td rowspan="2">Cn-north-1<br>cn-north-1</td>
+      	<td rowspan="8">Regions in Mainland China</td>
+      	<td rowspan="3">Cn-north-1<br>cn-north-1</td>
      	<td> Availability Zone A<br>cn-north-1a</td>
 	   	<td> Beijing</td>
    </tr>
@@ -28,15 +28,22 @@ Availability zone is a physical region where power and network are independent o
    <tr>
      	<td> Availability Zone B<br>cn-north-1b</td>
 	   	<td> Beijing</td>
+    </tr>
+   <tr>
+     	<td> Availability Zone C<br>cn-north-1c</td>
+	   	<td> Beijing</td>
    </tr>
-    	<tr>
-     	<td rowspan="2">Cn-east-2<br>cn-east-2</td>
+   <tr>
+     	<td rowspan="3">Cn-east-2<br>cn-east-2</td>
      	<td>Availability Zone A<br>cn-east-2a</td>
 	   	<td>Shanghai</td>
    </tr>
-      </tr>
     	<tr>
      	<td>Availability Zone B<br>cn-east-2b</td>
+	   	<td>Shanghai</td>
+   </tr>
+  <tr>
+     	<td>Availability Zone C<br>cn-east-2c</td>
 	   	<td>Shanghai</td>
    </tr>
   <tr>

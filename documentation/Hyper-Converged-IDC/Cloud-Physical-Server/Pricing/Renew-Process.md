@@ -3,7 +3,7 @@
 ## Renewal Rules
 Renewal of monthly package: Expand the use duration of monthly package Cloud Physical Server. The renewal time periods include 1 moth ~ 9 moths, 1 year, 2 years and 3 years. The start time of the new order is the expiration time of the original order;
 
-Associated renewal: When the Cloud Physical Server is renewed, the EIP associated to the Cloud Physical Server will be renewed together.
+Associated renewal logic: When the basic network instance is renewed, the public IP associated with this Cloud Physical Server will associate the renewal; when the VPC instance is renewed, you can choose whether the public IP associate renewal.
 
 ## Application Scenario
 Renewal action can be performed before the resource is released (within 7 days after expiration).

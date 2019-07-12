@@ -79,7 +79,7 @@
             href: Operation-Guide/Remote-Login/Description-Remote-Login.md
           - name: Action Steps
             href: Operation-Guide/Remote-Login/Steps-Remote-Login.md
-      - name: Life Cycle Management of Cloud Physical Server
+      - name: Life Cycle Management
         items:
           - name:  Function Description
             href: Operation-Guide/Cloud-Physical-Server-Life-Cycle-Management/Description-Cloud-Physical-Server-Life-Cycle-Management.md
@@ -97,6 +97,12 @@
             href: Operation-Guide/Adjust-Public-Network-Bandwidth/Description-Adjust-Public-Network-Bandwidth.md
           - name: Action Steps
             href: Operation-Guide/Adjust-Public-Network-Bandwidth/Steps-Adjust-Public-Network-Bandwidth.md
+      - name: Monitoring
+        items:
+          - name: Hardware Monitoring
+            href: Operation-Guide/Monitoring/Hardware-Monitoring.md
+          - name: Performance Monitoring
+            href: Operation-Guide/Monitoring/Monitoring-Overview.md
   - name: Best Practices
     items:
     - name: Network Security Scheme for NAT Gateway

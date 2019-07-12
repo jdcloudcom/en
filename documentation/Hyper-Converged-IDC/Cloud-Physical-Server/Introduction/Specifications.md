@@ -1,6 +1,6 @@
 # Specifications
 
-The Cloud Physical Server provides the following instance types: Compute Standard, Compute Performance I, Compute Performance II, Storage Standard, Compute Performance I (Generation II) and Storage Standard (Generation II). Now, the GPU Cloud Physical Server includes GPU I, GPU II and GPU III. More models are coming.
+The Cloud Physical Server provides the following instance types: Compute Standard, Compute Performance I, Compute PerformanceⅠ(Generation II), Compute PerformanceⅡ, Compute PerformanceⅡMemory, Compute PerformanceⅢ, Storage Standard, and Storage Standard (Generation II), Storage PerformanceⅠ. Now, the GPU Cloud Physical Server includes GPUⅠ, GPUⅡ and GPUⅢ. More models are coming.
 
 <table align="center" >
 <table>
@@ -29,12 +29,36 @@ The Cloud Physical Server provides the following instance types: Compute Standar
 		<td align="center">NO RAID</td>
     </tr>
     <tr>   
+        <td align="center"><B>Compute Performance Type Ⅱ (Generation II)<br/>(cps.c2.perf1)<B></td>
+		    <td align="center">2*Gold-6148<br/>(20-core 2.4G)</td>
+		    <td align="center">384G（12*32G）DDR4</td>
+		    <td >1*240GB（SSD）+<br/>1*2TB（NVME）</td>
+		    <td align="center">1 independent management port + <br/>2*10GE network interfaces</td>
+		<td align="center">NO RAID</td>
+    </tr>
+    <tr>   
         <td align="center"><B>Compute Performance Ⅱ <br/> (cps.c.perf2)<B></td>
 		    <td align="center">2*2683V4<br/> (16 cores 2.1G)</td>
 		    <td align="center">256G（8*32G）DDR4</td>
 		    <td >1*240GB（SSD）+<br/>16*960GB（SSD）</td>
 		    <td align="center">1 independent management port+<br/>2*10GE network interface</td>
 		<td align="center">NO RAID/RAID0/RAID1/RAID10</td>
+    </tr>
+    <tr>   
+        <td align="center"><B>Compute PerformanceⅡMemory<br/>(cps.c.perf2.memory)<B></td>
+		    <td align="center">2*2683V4<br/> (16-core 2.1G)</td>
+		    <td align="center">768G（24*32G）DDR4</td>
+		    <td >2*960GB（SSD）+<br/>14*960G（SATA）</td>
+		    <td align="center">1 independent management port + <br/>2*10GE network interfaces</td>
+		<td align="center">RAID10</td>
+    </tr>
+    <tr>   
+        <td align="center"><B>Compute PerformanceⅢ<br/>(cps.c.perf3)<B></td>
+		    <td align="center">2*2620V4<br/>(16-core 2.1G)</td>
+		    <td align="center">256G（8*32G）DDR4</td>
+		    <td >1*960GB（SSD）+<br/>7*960G（SSD）</td>
+		    <td align="center">1 independent management port + <br/>2*10GE network interfaces</td>
+		<td align="center">RAID5+1hotspare</td>
     </tr>
     <tr>   
         <td align="center"><B>Storage Standard <br/> (cps.s.normal)<B></td>
@@ -45,20 +69,20 @@ The Cloud Physical Server provides the following instance types: Compute Standar
 		<td align="center">NO RAID</td>
     </tr>
     <tr>   
-        <td align="center"><B>Compute Performance Type II (Generation II)<br/>(cps.c2.perf1)<B></td>
-		    <td align="center">2*Gold-6148<br/>(40-core, 2.4G)</td>
-		    <td align="center">384G（12*32G）DDR4</td>
-		    <td >1*240GB（SSD）+<br/>1*2TB（NVME）</td>
-		    <td align="center">1 independent management port +<br/>2*10GE network interface</td>
-		<td align="center">NO RAID</td>
-    </tr>
-    <tr>   
         <td align="center"><B>Storage Standard Type (Generation II)<br/>(cps.s2.normal)<B></td>
-		    <td align="center">2*Silver-4116<br/>(24-core and 2.1G)</td>
+		    <td align="center">2*Silver-4116<br/>(12-core 2.1G)</td>
 		    <td align="center">256G（8*32G）DDR4</td>
 		    <td >2*300GB（SAS）+<br/>12*10TB（SATA）</td>
 		    <td align="center">1 independent management port +<br/>2*10GE network interface</td>
 		<td align="center">NO RAID/RAID0/RAID1/RAID10</td>
+    </tr>
+    <tr>   
+        <td align="center"><B>Storage PerformanceⅠ<br/>(cps.s.perf1)<B></td>
+		    <td align="center">2*2620V4<br/>(16-core 2.1G)</td>
+		    <td align="center">256G（8*32G）DDR4</td>
+		    <td >1*480GB（SSD）+<br/>12*6000G +<br/>1*4TB（NVME）</td>
+		    <td align="center">1 independent management port +<br/>2*10GE network interface</td>
+		<td align="center">RAID 5+1hotspare + NO RAID</td>
     </tr>
 </table>
 

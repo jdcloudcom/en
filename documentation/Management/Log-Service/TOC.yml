@@ -31,6 +31,8 @@ items:
           href: Introduction/ResourceLog/ALBLog.md
         - name: MySQL Audit Log
           href: Introduction/ResourceLog/MySQLLog.md
+        - name: JCS for Kubernetes System Log
+          href: Introduction/ResourceLog/KubernetesLog.md
 - name: Product Pricing
   items:
     - name: Billing Overview
@@ -61,6 +63,8 @@ items:
           href: Operation-Guide/LogSearch/fullTextSearch.md
         - name: Key Value Retrieval
           href: Operation-Guide/LogSearch/KVSearch.md
+    - name: Log Dump
+      href: Operation-Guide/LogTransfer.md
 - name: Best Practices
   items:
     - name: Application Security Gateway Log

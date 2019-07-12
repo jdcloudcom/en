@@ -1,0 +1,128 @@
+  name: Distributed Cloud Physical Server
+  href:
+  items:
+  - name: Introduction
+    items:
+      - name: Product Overview
+        href: Introduction/Product-Overview.md
+      - name: Core Concepts
+        href: Introduction/Core-Concepts.md
+      - name: Basic Architecture
+        href: Introduction/Basic-Infrastructure.md
+      - name: Benefits
+        href: Introduction/Benefits.md
+      - name: Features
+        href: Introduction/Features.md
+      - name: Product Specifications
+        href: Introduction/Specifications.md
+      - name: Restrictions
+        href: Introduction/Restrictions.md
+      - name: Application Scenarios 
+        href: Introduction/Application-Scenarios.md    
+  - name: Product Pricing
+    items:
+      - name: Billing Overview
+        href: Pricing/Billing-Overview.md
+      - name: Billing Rules
+        href: Pricing/Billing-Rules.md
+      - name: Price Overview
+        href: Pricing/Price-Overview.md
+      - name: Purchase Process
+        href: Pricing/Purchase-Process.md 
+      - name: Renew Process
+        href: Pricing/Renew-Process.md
+  - name: Getting Started
+    items:
+      - name: Getting Started Overview
+        href: Getting-Started/Getting-Started.md
+      - name: Create Distributed Cloud Physical Server
+        href: Getting-Started/Create-Distributed-Cloud-Physical-Server.md
+      - name: Configure Distributed Cloud Physical Server
+        href: Getting-Started/Allocate-Distributed-Cloud-Physical-Server.md
+      - name: View Distributed Cloud Physical Server
+        href: Getting-Started/Check-Distributed-Cloud-Physical-Server.md
+      - name: Delete Distributed Cloud Physical Server
+        href: Getting-Started/Delete-Distributed-Cloud-Physical-Server.md
+  - name: Operation Guide
+    items:
+      - name: Instructions for Use
+        href: Operation-Guide/Terms-and-Conditions.md
+      - name: Network
+        items:
+          - name: VPC
+            href: Operation-Guide/Networking/Virtual-Network-Interface.md
+          - name: Subnet
+            href: Operation-Guide/Networking/Subnet.md
+          - name: Elastic IP
+            href: Operation-Guide/Networking/Elastic-IP-For-Edge-Cloud.md
+      - name: Firewall Configuration Instruction
+        items:
+          - name: Function Description
+            href: Operation-Guide/Network-And-Security/Description-Network-And-Security.md
+          - name: Operation Steps
+            href: Operation-Guide/Network-And-Security/Steps-Network-And-Security.md
+      - name: Image Use Instructions
+        items:
+          - name: Function Description
+            href: Operation-Guide/Image/Description-Image.md
+          - name: Operation Steps
+            href: Operation-Guide/Image/Steps-Image.md
+      - name: Set RAID Levels
+        items:
+          - name: Function Description
+            href: Operation-Guide/Set-RAID-Level/Description-Set-RAID-Level.md      
+          - name: Operation Steps
+            href: Operation-Guide/Set-RAID-Level/Steps-Set-RAID-Level.md
+      - name: Remotely Log In
+        items:
+          - name: Function Description
+            href: Operation-Guide/Remote-Login/Description-Remote-Login.md
+          - name: Operation Steps
+            href: Operation-Guide/Remote-Login/Steps-Remote-Login.md
+      - name: Life Cycle Management of Distributed Cloud Physical Server
+        items:
+          - name: Function Description
+            href: Operation-Guide/Distributed-Cloud-Physical-Server-Life-Cycle-Management/Description-Distributed-Cloud-Physical-Server-Life-Cycle-Management.md
+          - name: Operation Steps
+            href: Operation-Guide/Distributed-Cloud-Physical-Server-Life-Cycle-Management/Steps-Distributed-Cloud-Physical-Server-Life-Cycle-Management.md
+      - name: Reinstall Operating System
+        items:
+          - name: Function Description
+            href: Operation-Guide/Reinstall/Description-Reinstall.md
+          - name: Operation Steps
+            href: Operation-Guide/Reinstall/Steps-Reinstall.md
+      - name: Modify Public Network Bandwidth
+        items:
+          - name: Function Description
+            href: Operation-Guide/Adjust-Public-Network-Bandwidth/Description-Adjust-Public-Network-Bandwidth.md
+          - name: Operation Steps
+            href: Operation-Guide/Adjust-Public-Network-Bandwidth/Steps-Adjust-Public-Network-Bandwidth.md
+  - name: Best Practices
+    items:
+    - name: Network Security Scheme for NAT Gateway
+      href: Best-Practices/NAT-Gateway-Network-Safety.md
+  - name: Tutorial
+    items:
+    status: 0
+  - name: Troubleshooting
+    items:
+    - name: Create Distributed Cloud Physical Server Failed
+      href: Troubleshooting/Create-Distributed-Cloud-Physical-Server-Failed.md
+    - name: Server Status Shows Error
+      href: Troubleshooting/Server-State-Wrong.md
+  - name: FAQ
+    href: FAQ/FAQ.md
+  - name: API Reference
+    status: 0
+  - name: SDK Reference
+    status: 0               
+  - name: Related Resources
+    items:
+    - name: Document History Records
+      href: Related-Resources/Document-History.md   
+    - name: ICP Filing
+      href: Related-Resources/Filing.md           
+      status: 0        
+    - name: Glossary
+      href: Related-Resources/Glossary.md           
+      status: 0
