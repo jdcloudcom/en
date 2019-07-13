@@ -32,7 +32,7 @@ https://cdn.jdcloud-api.com/v1/domain/{domain}/cacheRule
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**configId**|Long| |
+|**configId**|Long|Cache Rule Configuration ID|
 
 ## Return Code
 |Return Code|Description|

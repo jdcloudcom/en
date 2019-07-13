@@ -14,6 +14,7 @@ https://cdn.jdcloud-api.com/v1/domain:batchCreate
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
+|**x-jdcloud-channel**|String|False|cdn|Domain source cdn/cdn, video cloud|
 |**domains**|String[]|False| | |
 |**sourceType**|String|False| |Back-to-origin can be one of types [ips,domain,oss] only|
 |**cdnType**|String|False| |VOD domain can be one of types [vod,download,web] only|

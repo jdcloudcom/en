@@ -3,12 +3,6 @@
 
 ## Description
 Search user customized transcoding template details
-- Search user customized transcoding template details
-- System Standard Transcoding Templates<br>
-    ld (h.264/640 * 360/15f)<br>
-    sd (h.264/854 * 480/24f)<br>
-    hd (h.264/1280 * 720/25f)<br>
-    shd (h.264/1920 * 1080/30f)<br>
 
 
 ## Request Method
@@ -34,6 +28,7 @@ None
 ### Result
 |Name|Type|Description|
 |---|---|---|
+|**videoCodec**|String|Video Encoding Format<br>  - value: h264, h265, h264<br> by default|
 |**videoCodeRate**|Integer|Transcoding Output Code Rate Value<br>- Unit: kpbs<br>|
 |**videoFrameRate**|String|Transcoding Output Frame Rate Value<br>|
 |**width**|Integer|Transcoding Output Video Width<br>|

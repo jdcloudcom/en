@@ -27,9 +27,9 @@ None
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**domain**|String| |
-|**ips**|Object[]| |
-|**status**|String| |
+|**domain**|String|Domain|
+|**ips**|Object[]|Blacklist List|
+|**status**|String|Blacklist List Status, on: enabled, off: disabled|
 
 ## Return Code
 |Return Code|Description|

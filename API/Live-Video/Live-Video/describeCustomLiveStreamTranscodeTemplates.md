@@ -42,6 +42,7 @@ https://live.jdcloud-api.com/v1/transcodeCustoms
 ### TranscodeInfo
 |Name|Type|Description|
 |---|---|---|
+|**videoCodec**|String|Video Encoding Format<br>  - value: h264, h265, h264<br> by default|
 |**videoCodeRate**|Integer|Transcode Output Code Rate Value<br>- Value: [1,6000]<br>  - Unit: kpbs<br>|
 |**videoFrameRate**|String|Transcode Output Frame Rate Value:<br>  - Value: [1,30]<br>|
 |**width**|Integer|Transcoding Output Video Width:<br>  - Value: [100,1920]<br>  - Equal Ratio: If only one parameter is filled in, the output transcoding video is adjusted in proportion to the parameter<br>  - Source-followed: If neither parameter is filled in, the transcoding video is output according to the source proportion<br>|

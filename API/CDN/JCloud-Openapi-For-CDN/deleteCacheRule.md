@@ -17,7 +17,7 @@ https://cdn.jdcloud-api.com/v1/domain/{domain}/cacheRule
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**configId**|Long|False| |Cache Rule id|
+|**configId**|Long|False| |Cache Rule Configuration ID|
 
 
 ## Return Parameter

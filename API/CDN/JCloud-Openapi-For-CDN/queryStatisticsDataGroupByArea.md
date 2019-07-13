@@ -8,7 +8,7 @@ Search and count data by regions and operators
 POST
 
 ## Request Address
-https://cdn.jdcloud-api.com/v1/statistics:groupByArea
+https://cdn.jdcloud-api.com/v1/vodStatistics:groupByArea
 
 
 ## Request Parameter
@@ -49,7 +49,7 @@ https://cdn.jdcloud-api.com/v1/statistics:groupByArea
 |Name|Type|Description|
 |---|---|---|
 |**area**|String| |
-|**ispStat**|Object|Search result, the type is HashMap<String, Object>|
+|**ispStat**|Object[]| |
 
 ## Return Code
 |Return Code|Description|

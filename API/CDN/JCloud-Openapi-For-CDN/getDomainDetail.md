@@ -54,6 +54,12 @@ None
 |**certificate**|String| |
 |**rsaKey**|String| |
 |**jumpType**|String| |
+|**certFrom**|String| |
+|**sslCertId**|String| |
+|**certName**|String| |
+|**certType**|String| |
+|**sslCertStartTime**|String| |
+|**sslCertEndTime**|String| |
 ### BackSourceInfo
 |Name|Type|Description|
 |---|---|---|

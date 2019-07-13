@@ -89,6 +89,8 @@ items:
         href: Live-Video/describeCustomLiveStreamTranscodeTemplate.md
       - name: Search user customized transcoding template list
         href: Live-Video/describeCustomLiveStreamTranscodeTemplates.md
+      - name: Search System Default Transcode Template List
+        href: Live-Video/describeSystemLiveStreamTranscodeTemplates.md
       - name: Search transcoding template configuration
         href: Live-Video/describeLiveStreamTranscodeConfig.md
   - name: Live Record
@@ -176,11 +178,18 @@ items:
         href: Live-Video/describeLiveStreamBandwidthData.md
       - name: Search Play Traffic
         href: Live-Video/describeLiveStreamTrafficData.md
+      - name: Search Stream Group Statistics Data
+        href: Live-Video/describeLiveStatisticGroupByStream.md
+      - name: Search Region/Operator Group Statistics Data
+        href: Live-Video/describeLiveStatisticGroupByAreaIsp.md
+      - name: Search Online Stream List
+        href: Live-Video/describeDomainOnlineStream.md
       - name: Search Live Snapshot Number
         href: Live-Video/describeLiveSnapshotData.md
       - name: Search Live Porn Identification Number
         status: 0
         href: Live-Video/describeLivePornData.md
+
   - name: Authentication Correlation
     items:
       - name: Live Pushing Streaming Authentication

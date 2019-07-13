@@ -19,7 +19,7 @@ https://cdn.jdcloud-api.com/v1/domain/{domain}/monitor
 |---|---|---|---|---|
 |**cycle**|Integer|False| |Detection period, value: 1 and 5, unit: minute|
 |**monitorPath**|String|False| |Detection Path|
-|**httpRequestHeader**|Object|False| | |
+|**httpRequestHeader**|Object|False| |http Request Head|
 
 
 ## Return Parameter

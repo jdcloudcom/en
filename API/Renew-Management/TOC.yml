@@ -1,0 +1,17 @@
+name: Renew Management
+href: 
+items:
+- name: Interface Overview
+  href: overview.md
+- name: Update History
+  href: ChangeLog.md
+- name: Interface Information
+  items:
+    - name:  Renew Management APIs
+      items:
+        - name: queryInstance
+          href: Renew-Management-APIs/queryInstance.md
+        - name: renewInstance
+          href: Renew-Management-APIs/renewInstance.md
+        - name: setRenewal
+          href: Renew-Management-APIs/setRenewal.md

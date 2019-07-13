@@ -21,8 +21,8 @@ https://cdn.jdcloud-api.com/v1/domain/{domain}/source
 |**backSourceType**|String|False| |Back-to-origin can be one of methods [https,http] and shall be http by default|
 |**ipSource**|IpSourceInfo[]|False| | |
 |**domainSource**|DomainSourceInfo[]|False| | |
-|**ossSource**|String|False| | |
-|**defaultSourceHost**|String|False| | |
+|**ossSource**|String|False| |oss Back-to-origin Domain|
+|**defaultSourceHost**|String|False| |Default back-to-origin host|
 
 ### DomainSourceInfo
 |Name|Type|Required or Not|Default Value|Description|

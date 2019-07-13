@@ -27,9 +27,9 @@ None
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**domain**|String| |
-|**cycle**|Integer| |
-|**monitorPath**|String| |
+|**domain**|String|Domain|
+|**cycle**|Integer|Detection period, unit: minute|
+|**monitorPath**|String|Detection Path|
 |**httpRequestHeader**|Object|Search result, the type is HashMap<String, Object>|
 
 ## Return Code

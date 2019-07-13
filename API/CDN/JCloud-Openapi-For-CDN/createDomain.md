@@ -17,6 +17,7 @@ https://cdn.jdcloud-api.com/v1/domain/{domain}
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
+|**x-jdcloud-channel**|String|False|cdn|Domain source cdn/cdn, video cloud|
 |**sourceType**|String|False| |Back-to-origin can be one of types [ips,domain,oss] only|
 |**cdnType**|String|False| |VOD domain can be one of types [vod,download,web] only|
 |**backSourceType**|String|False| |Back-to-origin can be one of methods [https,http] and shall be http by default|

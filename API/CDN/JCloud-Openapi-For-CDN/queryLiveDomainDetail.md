@@ -77,6 +77,12 @@ None
 |**publishNormalTimeout**|String|Pushing Streaming Interruption Time-out Period (Unit Second)|
 |**notifyCustomUrl**|String|Pushing Streaming Notification Url|
 |**notifyCustomAuthKey**|String|Pushing Streaming Notification key|
+|**certFrom**|String|There are two types of certificate sources: default, ssl|
+|**sslCertId**|String|ssl Certificate id|
+|**certName**|String|Certificate Name|
+|**certType**|String|Certificate Type|
+|**sslCertStartTime**|String| |
+|**sslCertEndTime**|String| |
 ### ProtocolConvert
 |Name|Type|Description|
 |---|---|---|

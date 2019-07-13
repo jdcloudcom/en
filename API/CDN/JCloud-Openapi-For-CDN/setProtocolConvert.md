@@ -19,6 +19,10 @@ https://cdn.jdcloud-api.com/v1/liveDomain/{domain}/protocolConvert
 |---|---|---|---|---|
 |**certificate**|String|False| |https certificate must be uploaded when transferring https format|
 |**rsaKey**|String|False| |https Private Key must be uploaded when transferring https format|
+|**certFrom**|String|False| |There are two types of certificate sources: default, ssl|
+|**sslCertId**|String|False| |ssl Certificate id|
+|**syncToSsl**|Boolean|False| |Whether to synchronize to ssl, boolean values, value true or false|
+|**certName**|String|False| |When syncToSsl is true, certName is mandatory|
 |**protocolConverts**|ProtocolConvert[]|False| | |
 
 ### ProtocolConvert

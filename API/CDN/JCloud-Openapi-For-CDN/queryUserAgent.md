@@ -28,9 +28,9 @@ None
 |Name|Type|Description|
 |---|---|---|
 |**domain**|String| |
-|**userAgentType**|String| |
-|**userAgentList**|String[]| |
-|**allowNoUserAgentHeader**|String| |
+|**userAgentType**|String|userAgent type, value: block (blacklist), allow (whitelist), block by default|
+|**userAgentList**|String[]|UA List|
+|**allowNoUserAgentHeader**|String|Allow null userAgent access or not, "on" by default|
 
 ## Return Code
 |Return Code|Description|

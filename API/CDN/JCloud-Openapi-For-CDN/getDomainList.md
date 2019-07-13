@@ -15,10 +15,11 @@ https://cdn.jdcloud-api.com/v1/domain
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**keyWord**|String|False| |Fuzzy Matching by Keywords|
-|**pageNumber**|Integer|False|1|pageNumber|
-|**pageSize**|Integer|False|20|pageSize|
+|**x-jdcloud-channel**|String|False|cdn|Domain source cdn/cdn, video cloud|
+|**pageNumber**|Integer|False|1|pageNumber, default value1|
+|**pageSize**|Integer|False|20|pageSize, maximum value 50, default value20|
 |**status**|String|False| |Search by domain status, value: [offline, online, configuring, auditing, audit_reject]|
-|**type**|String|False| |type|
+|**type**|String|False| |Domain type, (web: static small file, download: large file acceleration, vod: video acceleration, live: live acceleration), do not upload all|
 
 
 ## Return Parameter
@@ -33,7 +34,7 @@ https://cdn.jdcloud-api.com/v1/domain
 |**totalCount**|Integer| |
 |**pageSize**|Integer| |
 |**pageNumber**|Integer| |
-|**domains**|ListDomainItem[]| |
+|**domains**|ListDomainItem[]|Domain List|
 ### ListDomainItem
 |Name|Type|Description|
 |---|---|---|

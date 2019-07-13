@@ -18,7 +18,7 @@ https://live.jdcloud-api.com/v1/transcodeApps:config
 |---|---|---|---|---|
 |**publishDomain**|String|True| |Pushing Streaming Domain|
 |**appName**|String|True| |Application Name|
-|**template**|String|True| |Transcoding Template<br>- Value Range: System Standard Transcoding Templates, User Customized Transcoding Template<br>- System Standard Transcoding Templates<br>  ld (h.264/640 * 360/15f)<br>  sd (h.264/854 * 480/24f)<br>  hd (h.264/1280 * 720/25f)<br>  shd (h.264/1920 * 1080/30f)<br>|
+|**template**|String|True| |Transcode Template<br>- Value Range: System Standard Transcode Template, User Customized Transcode Template<br>  ld (h.264/640 * 360/15f)<br>  sd (h.264/960 * 540/25f)<br>  hd (h.264/1280 * 720/25f)<br>  shd (h.264/1920 * 1080/30f)<br>  ld-265 (h.265/640 * 360/15f)<br>  sd-265 (h.265/960 * 540/25f)<br>  hd-265 (h.265/1280 * 720/25f)<br>  shd-265 (h.265/1920 * 1080/30f)<br>|
 
 
 ## Response parameter

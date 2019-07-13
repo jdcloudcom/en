@@ -8,7 +8,7 @@ Search and count data and summarize as well as sum the same
 POST
 
 ## Request Address
-https://cdn.jdcloud-api.com/v1/statistics:groupSum
+https://cdn.jdcloud-api.com/v1/vodStatistics:groupSum
 
 
 ## Request Parameter

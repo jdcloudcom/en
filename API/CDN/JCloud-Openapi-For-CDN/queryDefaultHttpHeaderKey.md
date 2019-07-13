@@ -24,8 +24,8 @@ None
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**reqDefaultHttpHeaderKey**|String[]| |
-|**respDefaultHttpHeaderKey**|String[]| |
+|**reqDefaultHttpHeaderKey**|String[]|Default http Request Head|
+|**respDefaultHttpHeaderKey**|String[]|Default http Response Head|
 
 ## Return Code
 |Return Code|Description|

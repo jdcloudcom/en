@@ -5,7 +5,7 @@
 Delete httpHeader
 
 ## Request Method
-DELETE
+PUT
 
 ## Request Address
 https://cdn.jdcloud-api.com/v1/domain/{domain}/httpHeader

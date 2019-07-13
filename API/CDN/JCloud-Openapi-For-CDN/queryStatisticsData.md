@@ -8,7 +8,7 @@ Search statistical data
 POST
 
 ## Request Address
-https://cdn.jdcloud-api.com/v1/statistics
+https://cdn.jdcloud-api.com/v1/vodStatistics
 
 
 ## Request Parameter
