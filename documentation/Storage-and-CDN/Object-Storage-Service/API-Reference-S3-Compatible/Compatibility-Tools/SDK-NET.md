@@ -48,4 +48,20 @@ namespace Amazon.Samples.S3
 }
 ```
 
+## Upload object
+Use .NET s3Client to upload file.
+```C#
+// Create a PutObject request
+PutObjectRequest request = new PutObjectRequest
+{
+    BucketName = "SampleBucket",
+    Key = "Item1",
+    ContentBody = "This is sample content...",
+    UseChunkEncoding = false
+};
+ 
+// Put object
+PutObjectResponse response = s3Client.PutObject(request);
+```
 
+Note: UseChunkEncoding shall be set false to disable Chunked-Encoding

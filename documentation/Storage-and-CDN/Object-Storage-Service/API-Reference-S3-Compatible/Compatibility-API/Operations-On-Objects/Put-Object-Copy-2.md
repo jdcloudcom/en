@@ -22,7 +22,7 @@ Except public request Headers, the following Headers also can be used
 Name|Description|Must
 ---|---|---
 x-amz-copy-source|Source Bucket and source Object name are separated by "/". <br>Type: String<br>Default: None<br>The character string must use URL encoding|Yes
-x-amz-storage-class|If there is no specified header, the default storage type is Standard storage. <br>Type: Enum<br>Default: STANDARD<br>Valid Values: STANDARD, REDUCED_REDUNDANCY|No
+x-amz-storage-class|If there is no specified header, the default storage type is Standard storage. <br>Type: Enum<br>Default: STANDARD<br>Valid Values: STANDARD, GLACIER, REDUCED_REDUNDANCY|No
 
 ### Request Elements
 No Request Elements
@@ -33,7 +33,7 @@ Except public response Headers, the operation can also use the following Headers
 
 Name|Description
 ---|---
-x-amz-storage-class|object Storage Type Information. <br>Type: String<br>Default: None
+x-amz-storage-class|Provide storage type information of Object. In the case of non-standard storage, OSS will return the Header
 
 ### Response Element
 

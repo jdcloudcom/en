@@ -110,4 +110,8 @@ Multiple RDS service instance indexes can be viewed on the console. Through the 
 |CPU Utilization Rate|CPU Utilization Rate of Instance|60 Seconds/Time|30 Days|
 |Memory Utilization Rate|Memory Utilization Rate of Instance|60 Seconds/Time|30 Days|
 |Hard Disk Usage|The disk space usage of instance, including total disk space usage, user data usage, log file usage and system data usage. Unit: MByte|60 seconds/time|30 days|
+|IOPS|IO count of an instance per second, unit: times/second|60 seconds/time|30 days|
+|Network Traffic|Incoming traffic and sending traffic of instance per second. Unit: Kbps|60 seconds/time|30 days|
 |Current Connection Number|Active and Total Connection Numbers of Instance|60 Seconds/Time|30 Days|
+|Data Request|Scan and return row numbers of instance|60 seconds/time|30 days|
+|Table Level Lock|Information about table lock of instance|60 seconds/time|30 days|

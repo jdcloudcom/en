@@ -59,6 +59,8 @@
         href: Operation-Guide/Backend-Management.md
       - name: Virtual Server Group Management
         href: Operation-Guide/TargetGroup-Management.md
+      - name: Configuration Access Log
+        href: Operation-Guide/Access-Log.md
       - name: Monitoring Service
         href: Operation-Guide/Monitoring.md           
   - name: Best Practices

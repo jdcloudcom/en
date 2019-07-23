@@ -8,7 +8,7 @@ It is recommended to introduce the dependence in Maven mode:<br>
 
  ```XML
 <dependency>
-   <groupId>com.jdcloud</groupId>
+   <groupId>com.jdcloud.sdk</groupId>
    <artifactId>rms</artifactId>
    <version>x.x.x</version>
    //Set as the latest version number of Java SDK

@@ -5,6 +5,7 @@
 1.Configuration Dependency
 
 The dependent sdk configured in pom.xml is as follows:
+
 ```
 <dependency>
     <groupId>com.amazonaws</groupId>

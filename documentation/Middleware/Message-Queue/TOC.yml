@@ -81,10 +81,10 @@
             items:
             - name: Send Message
               href: Operation-Guide/API-Reference/Interface-Specification/Send-Message-Http.md
-            - name: Ack Message
-              href: Operation-Guide/API-Reference/Interface-Specification/Ack-Message.md
             - name: Consume Message
               href: Operation-Guide/API-Reference/Interface-Specification/Consume-Message.md
+            - name: Ack Message
+              href: Operation-Guide/API-Reference/Interface-Specification/Ack-Message.md
   - name: SDK Reference
     items:
       - name: Example Download

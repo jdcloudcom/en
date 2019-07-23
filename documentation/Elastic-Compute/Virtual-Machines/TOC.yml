@@ -111,6 +111,8 @@ items:
             href: Operation-Guide/Image/Image-Overview.md
           - name: Image Type
             href: Operation-Guide/Image/Image-Type.md
+          - name: Components of Public Image System
+            href: Operation-Guide/Image/Default-Agent-in-Public-Image.md            
           - name: Make Private Image
             href: Operation-Guide/Image/Create-Private-Image.md
           - name: Share Private Image

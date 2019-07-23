@@ -1,6 +1,6 @@
 # Live Transcoding
 
-The Live Video Service supports the transcode function, transcode video streaming into different code rates and resolutions as per the preset template in real time. After transcode configuration is completed and when pushing streaming is started, the transcode operation will be started automatically.   
+Live transcoding function of JD Cloud can enable Jingxiang Super Definition Mode by default for you to achieve high performance live transcoding mode with higher quality and lower code rate. After transcode configuration is completed and when pushing streaming is started, the transcode operation will be started automatically.   
 The customer can view transcoded video streaming with the transcoded play address, and the transcoded playing address is stitched with certain rules, and the stitching rules are as follows:  
 rtmp://Domain/{AppName}/{StreamName}_Code Rate Identifier  
 http://Domain/{AppName}/{StreamName}_Code Rate Identifier.flv  
@@ -8,8 +8,60 @@ http://Domain/{AppName}/{StreamName}_Code Rate Identifier.m3u8.
 The "Code Rate Identifier" is the pull-transcode streaming identifier field filled while creating transcode templates.  
 
 Configuration of live transcode configuration is divided in two steps: 1. Create transcode template; 2. Add transcode configuration.   
-The system has preset a standard quality template for you. If it cannot satisfy your transcode needs, please first create a transcode template and then add domain transcode configuration. After transcode configuration is completed, the newly-pushed live streaming will take effect. For transcode configuration, three levels can be associated, including domain, APP and streaming. The configuration will take effect as per minimum granularity. For example, for domain rtmp://abc.com/live/123, the transcode template A can be associated at the APP"live" level; the transcode template B can be associated at the stream "123" level; and then, all other streams under APP"live", except "123", and the template B is only effective for the stream "123".
+The system has preset a standard quality template for you. If it cannot satisfy your transcode needs, please first create a transcode template and then add domain transcode configuration. After transcode configuration is completed, the newly-pushed live streaming will take effect. For transcode configuration, three levels can be associated, including domain, APP and streaming. The configuration will take effect as per minimum granularity. For example, for domain rtmp://abc.com/live/123, the transcode template A can be associated at the APP"live" level; the transcode template B can be associated at the stream "123" level; and then, all other streams under APP"live", except "123", and the template B is only effective for the stream "123".  
+  
+## Live Transcoding Parameter Recommendation  
 
+<table>
+<tr>
+    <td>Resolution<br/>
+    <td>Recommended video code rate (bps)</td>
+    <td>Recommended frame rate (fps)</td>
+    <td>Recommended audio code rate (bps)</td>
+</tr>
+<tr>
+    <td>240p(426×240)<br/>
+    <td>200,000~300,000</td>
+    <td>15</td>
+    <td>48,000</td>
+</tr>
+<tr>
+    <td>360p(640×360)<br/>
+    <td>300,000~600,000</td>
+    <td>15</td>
+    <td>48,000</td>
+</tr>
+<tr>
+    <td>480p(854×480)<br/>
+    <td>600,000~1000,000</td>
+    <td>25</td>
+    <td>64,000</td>
+<tr>
+    <td>720p(1280×720)<br/>
+    <td>1000,000~1500,000</td>
+    <td>25</td>
+    <td>64,000</td>
+</tr> 
+<tr>
+    <td>1080p(1920×1080)<br/>
+    <td>1500,000~3000,000</td>
+    <td>30</td>
+    <td>128,000</td>
+</tr>
+<tr>
+    <td>2k(2560×1440)<br/>
+    <td>3000,000~7000,000</td>
+    <td>30</td>
+    <td>192,000</td>
+</tr>
+<tr>
+    <td>4k(3840×2160)<br/>
+    <td>7000,000~15000,000</td>
+    <td>30</td>
+    <td>256,000</td>
+</tr>  
+</table>
+  
 ## Step 1: Create a template
 
 Log in the Live Console, access "Template Management"-"Transcode Template Management" page, view "General Transcode Template" and view if the following system prefabricated transcode template conforms to your transcode configuration demands. If yes, you do not need to create any new templates and corresponding templates can be directly called from the transcode configuration.   

@@ -56,7 +56,7 @@ You may not purchase the public IP during the process of creating a host. After 
 ![](../../../../image/vm/Getting-Start-Linux-Create-IP.png)
 
 11. Set Instance Name and Description:
-You need to set machine name, and the name cannot be blank. It only supports Chinese, numbers, uppercase and lowercase letters, English underscore "_" and hyphen "-", and cannot exceed 32 characters. If the instances are created and purchased in batch, the names will be displayed as "xxx1" and "xxx2" in sequence. Meanwhile, it supports adding description to the instance. The description is allowed to be blank, but if added, the length cannot exceed 256 characters.
+You need to set machine name, and the name cannot be blank. It only supports Chinese, numbers, uppercase and lowercase letters, English underscore "_", hyphen "-" and ".", and cannot exceed 32 characters. If the instances are created and purchased in batch, the names will be displayed as "xxx1" and "xxx2" in sequence. Meanwhile, it supports adding description to the instance. The description is allowed to be blank, but if added, the length cannot exceed 256 characters.
 ![](../../../../image/vm/Getting-Start-Linux-Create-information.png)
 
 12. Set Password:

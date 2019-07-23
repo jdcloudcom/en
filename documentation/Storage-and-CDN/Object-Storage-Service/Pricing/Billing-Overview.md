@@ -1,18 +1,22 @@
 # Billing Overview
 
-## Charging Items
+## Billing Item Overview
 
-Object Storage Service adopts the quantity-based pay-as-you-go billing mode, which pushes the bill on a daily basis according to the actual consumption of user and collects charge for the previous day as per the bill per day. Currently, the base charging items for Object Storage Service include bucket capacity, access traffic and request times.
+Object Storage Service adopts the quantity-based pay-as-you-go billing mode, which pushes the bill on a daily basis according to the actual consumption of user and collects charge for the previous day as per the bill per day. Currently, the base charging items for JD Cloud Object Storage Service include: storage capacity, access traffic, request times, data retrieval and Cloud data processing.
 
-Bucket capacity: refers to the data occupancy amount of the bucket, including the actual bucket occupancy amount and data retrieval amount; the data retrieval amount mainly refers to the access to low-redundancy storage type files, which will calculate the amount of data retrieval according to the reading size of the file, without distinguishing the Intranet from the Internet.
+Storage capacity: means data usage of bucket, standard storage type files are billed according to the actual storage capacity, archival storage type files has requirements on minimum storage unit and minimum storage days;
 
-Access traffic: refers to the accumulative value of network traffic consumed, including output traffic of Internet, output traffic of Intranet, input traffic of Internet, input traffic of Intranet, CDN back-to-source output traffic and cross-region replication traffic.
+Data retrieval amount: For the archival storage type, the data retrieval amount will be mainly calculated by the size of read files and retrieval mode, without differentiating intranet and Internet.
 
-Request time: request time for calling Object Storage Service API. User console actions also are implemented by calling API, so when using user console to operate on Object Storage Service, number of requests will be generated as well.
+Access traffic: refers to the accumulative value of network traffic consumed, including output traffic of Internet, output traffic of Intranet, input traffic of Internet, input traffic of Intranet, CDN back-to-source output traffic and cross-region replication traffic;
+
+Request time: request time for calling Object Storage Service API. User console actions also are implemented by calling API, so when using console to operate on Object Storage Service, number of requests will be generated as well.
 
 Cloud data processing: refers to the data processing fees from using cloud data processing, including the file output duration of audio and video transcoding service and number of snapshots of video snapshot service.
 
-**Description**: Object Storage Service is at the stage of profit concession promotion now, only bucket usage, Internet output traffic and CDN back-to-source output traffic are charged while data getting back amount, intranet input traffic/output traffic, Internet input traffic and cross-region replication traffic are all free at present.
+**Description**
+
+See [Billing Item](./Billing-Rules.md) for the details of OSS service charge composition and calculation method
 
 ## Free Quota
 

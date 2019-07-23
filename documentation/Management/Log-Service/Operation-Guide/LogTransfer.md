@@ -8,7 +8,11 @@ To create a dump task, it is required to confirm the added collection configurat
 
 1) Log in the corresponding log set, click **Dump Configuration** in the "Management" after the log subject to be dumped, log in the Dump Configuration Page.
 
+![](https://raw.githubusercontent.com/jdcloudcom/cn/zhangwenjie-only/image/LogService/LogTransfer/logtransfer1.png)
+
 2) Dump Information Configuration
+
+![](https://raw.githubusercontent.com/jdcloudcom/cn/zhangwenjie-only/image/LogService/LogTransfer/logtransfer2.png)
 
 Click **Create Dump Task** to fill in the dump task name (non-null), which only consists of 32 characters at most including Chinese, numbers, uppercase and lowercase letters, English underlines "_" and line-throughs "-".
 
@@ -31,7 +35,11 @@ After the dump task is created completely, a delay of about 15 minutes required 
 
 Log in the Dump Configuration Page, select the dump task to be stopped, click **Stop Dumping** at the back to stop dumping log data.
 
+![](https://raw.githubusercontent.com/jdcloudcom/cn/zhangwenjie-only/image/LogService/LogTransfer/logtransfer3.png)
+
 Click **Log Dump Patent** in the menu on the left of the log service, select the log set, log subject and dump task to be dumped, click **Stop Dumping** to stop dumping log data.
+
+![](https://raw.githubusercontent.com/jdcloudcom/cn/zhangwenjie-only/image/LogService/LogTransfer/logtransfer4.png)
 
 ## II. Log Dump Management
 

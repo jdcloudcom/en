@@ -28,7 +28,7 @@
     <td>Support self-owned mobile-end player SDK and common third-party streaming play software such as VLC and support terminal SDK player at the same time</td>
 </tr>
 <tr>
-    <td rowspan="6"> Live Broadcasting Function<br/>
+    <td rowspan="8"> Live Broadcasting Function<br/>
     <td>Live Broadcast Recording</td>
     <td> Support recording live broadcasting streaming as files and the recording time is customized,support FLV, MP4 and TS format</td>
 </tr>
@@ -38,8 +38,16 @@
 </tr>
 <tr>
     <td>Real-time Transcoding</td>
-    <td>Support real-time transcoding, smooth,standard definition, high definition multi-resolutions and multi-code rates transcoding, also support H.264 and H.265</td>
-</tr>
+    <td>Support real-time transcoding, smooth, standard definition, high definition multi-resolutions and multi-code rates transcoding, also support H.264 and H.265. Provide high performance transcoding with low code rate and high quality in Jingxiang Super Definition Mode by default</td>
+</tr> 
+<tr>
+    <td>Live Watermark</td>
+    <td>Watermark addition to live transcode streaming is supported, with watermark size and position customized and formats jpg and png supported</td>
+</tr> 
+<tr>
+    <td>4K Live</td>
+    <td>Support transcoding of 4K live streaming, and the maximum value range of resolution is 4096</td>
+</tr>     
 <tr>
     <td>Live Watermark</td>
     <td>Watermark addition to live transcode streaming is supported, with watermark size and position customized and formats jpg and png supported</td>
@@ -101,5 +109,10 @@
     <td>Statistics of Pushing Streaming Path Number</td>
     <td>Support customized time period, domain and regional search pushing streaming path number within 30 days</td>
 </tr>
+<tr>
+    <td>Log</td>
+    <td>Log Download</td>
+    <td>Can provide log download of three formats of log, zip, gz; and log intervals of 1 day, 1 hour, 5 minutes are optional</td>
+</tr>    
 </table>
 

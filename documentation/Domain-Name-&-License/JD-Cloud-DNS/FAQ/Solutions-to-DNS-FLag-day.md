@@ -11,7 +11,7 @@
 2. From February 1, the domains that use JD Cloud DNS service can be resolved in any part of the world without any influence 
  
 ### How to test
-You can use the test website [https://dnsflagday.net/index-zh-CN.html] to check whether the domains hosted in JD Cloud DNS is in compliance with the EDNS standard specification.
+You can use the test website [https://dnsflagday.net] to check whether the domains hosted in JD Cloud DNS is in compliance with the EDNS standard specification.
 
 There are three resolution results:
 

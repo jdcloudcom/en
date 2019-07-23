@@ -1,8 +1,8 @@
 # Detached File Storage
 
-Running the umount command on the VM Instances can uninstall the attached File Storage. After logging in to the VM Instance, run the following command, for example, attaching File Storage on the efs directory:
+Running the umount command on the VM Instances can uninstall the attached File Storage. After logging in to the VM Instance, run the following command, for example, attaching File Storage on the nfs directory:
 
-`umount efs`
+`umount nfs`
 
  
 

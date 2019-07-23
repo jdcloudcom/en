@@ -1,102 +1,101 @@
-**1. Service Scope**
+## 1. Service Scope
 
 The load balancer provided by JD Cloud is a service that distributes traffic to multiple cloud servers. Load balancer extends the external service capability of the application system through traffic distribution and improves the availability of the application system by eliminating single point of fault.
 
-## **2. Service Level Indicators**
+## 2. Service Level Indicators
 
-### **2.1 Service Features**
+### 2.1 Service Features
 
 The load balancer has advanced features such as self-service management, automatic fault recovery, and anti-network attacks. The load balancer is suitable for community sites, corporate websites, portals, e-commerce sites, SAAS apps, and gaming apps. For details on all the specific functions of the load balancer service, please refer to the detailed description documentation, technical documentation and help documentation provided by JD Cloud on the official website. All functional changes to the load balancer that may affect the user will be announced to the user.
 
-**2.2 Service Availability**
+### 2.2 Service Availability
 
-Service Availability: No less than 99.9% of single instance.
+#### 2.2.1 Definitions of service availability
 
-Calculation Formula for Service Availability: Actual availability of the instance = (total time-actual unavailable time) / total time × 100%
+(1) Service cycle: Availability of Load Balancer is counted by service cycles. A service cycle is a natural month, and if it is less than a month, then it is not counted as a service cycle.
 
-Among them, the actual unavailable time = unavailable time × reduction ratio of user's business traffic, which applies to the VIP of 4/7 layer as well.
+(2) Unavailable single monitoring service of instance: If all attempts of a customer to set up connection with one listener in the appointed Load Balancer instance failed within 1 minute, it is deemed that the listening service is unavailable within this minute.
 
-Instructions:
+(3) Unavailable minutes of all listening services of instance: Service unavailable minute sum of all listened services for a single Load Balancer instance in a service cycle.
 
-1) Calculate the actual availability of the instance in month.
+(4) Unavailable minute sum of all listening services of instance: Sum of all listened service cycles for a single Load Balancer instance within one service cycle.
 
-Fault statistical point:
+#### 2.2.2 Calculation formula for service availability
 
-| **Statistical Point**                                              | **Included in Availability or Not**                                           |                            |      |
-| ------------------------------------------------------- | ------------------------------------------------------------ | -------------------------- | ---- |
-| Instance Running Status                                            | Network                                                         | User Network                   | No   |
-| ISP Network                                                 | No                                                           |                            |      |
-| Basic Network IDC (Fault caused by force majeure will not be deemed as service unavailability) | Yes                                                          |                            |      |
-| Intranet and Internet ACL                                             | Yes                                                          |                            |      |
-| Security                                                    | Network Attack (Attacks against individual user are not included, and attacks against JD Cloud are included)       | Yes                        |      |
-| Product                                                   | Service unavailability The unavailability caused by the configuration of users' application servers (such as the user's firewall rule restrictions, failure of health check caused by false configuration of the user's health check, etc.), capacity bottlenecks of the backend server, fault of backend server itself is not included.  | Hardware Faults Such as Servers and Storage Devices | Yes  |
-| JD Cloud System Software Fault                                      | Yes                                                          |                            |      |
-| Service Unavailability Caused by Changes in System                                | Yes                                                          |                            |      |
-| Management Console                                              | Create Instance                                                     | No                         |      |
-| Configuration Management (e.g. Health Check, Session Persistence, etc.)                    | No                                                           |                            |      |
-| Display Exception (e.g. Health Check Results, etc.)                          | No                                                           |                            |      |
-| OpenAPI                                                 | Create Instance                                                     | No                         |      |
-| Configuration Management (e.g. Health Check, Session Persistence, etc.)                    | No                                                           |                            |      |
-| Display Exception (e.g. Health Check Results, etc.)                          | No                                                           |                            |      |
+Instance service availability = (total minutes of all listened service cycles of instances - minutes of all listened unavailable services of instances) / total minutes of service cycle of all listened service cycle of instances × 100%
 
-### **2.3 Service Resource Allocation Capability**
+Calculation formula of service unavailable time: (unit: minute)
 
-Load balancer provides the system elastic capacity expansion, it can manually expand the capacity according to the cluster service capacity.
+Service unavailable time = (1-instance service unavailability) X service cycle day X 24 (hour) X 60 (minute)
 
-**2.4 Fault Recovery Capability**
+Service availability commitment to Load Balancer of JD Cloud: The service availability of a single instance service per availability zone is no less than 99.5% and the service availability of a single instance in multiple availability zones is no less than 99.95%.
 
-JD Cloud provides 7×24h operation and maintenance for the load balancer instances of paying users, and provides technical support by means of telephone reporting, and has a series of fault emergency response mechanisms such as fault monitoring, automatic alarm, rapid positioning and fast recovery.
+### 2.3 Service Resource Allocation Capability
 
-**2.5 Network Access Performance**
+The Load Balancer provides elastic system expansion capability, which can be manually expanded according to the needs of cluster service capability.
 
-When setting up the load balancer service of JD Cloud, the user can select the public network outlet bandwidth required for each load balancer or billing by traffic. The public network outlet bandwidth can be configured from 1Mbps to 100Mbps. JD Cloud provides BGP multi-line access to ensure the quality of network access for users.
+### 2.4 Fault Recovery Capability
 
-**2.6 Service Measurement Accuracy**
+JD Cloud provides 7×24 hours of operation maintenance for the cloud services of the paying users, provides technical support by means of on-line ticket and telephone fault reporting, and has a series of fault incident response mechanisms such as fault monitoring, automatic alarm, fast positioning and fast recovery.
+
+### 2.5 Network Access Performance
+
+The public network bandwidth cap and billing method of Load Balancer purchased by the user are subject to EIP associated with the Load Balancer. JD Cloud provides self-built BGP multi-line access (including Telecom, Unicom, Mobile, etc.), ensuring users’ network access quality.
+
+### 2.6 Service Measurement Accuracy
 
 The load balancer service has an accurate and transparent metering and billing system. JD Cloud settles and charges in real time according to the actual usage of the user's load balancer, and the specific billing standard is subject to the effective billing mode and price announced on the official website of JD Cloud. The user's original billing log is reserved for a minimum of 1 year by default for future reference.
 
-**2.7 Services Compensation Terms**
+## 3. Services Compensation Terms
 
-The load balancer service of JD Cloud follows the principle of compensation for faults by 100 times.
+### 3.1 Compensation Scope
 
-**2.7.1** **Compensation Scope**
+In the event of failure of normal use of Load Balancer service purchased by users due to JD Cloud’s device faults, design defects or misoperation, JD Cloud will compensate for the unavailable time, excluding the service unavailable time caused by the following reasons:
 
-For the inability of the load balancer to work properly caused by JD Cloud fault, and the inability of normal access to the website caused by JD Cloud fault, JD Cloud will compensate for the unavailable time. However, the service unavailable time caused by the following reasons is not included:
+(1) Caused by the system maintenance that JD Cloud have notified the users in advance, including migration, maintenance, upgrade and simulation fault drill;
 
-1) Caused by the system maintenance procedures after JD Cloud's notification in advance, including cutting, maintenance, upgrading and simulated fault drill;
+(2) Any problems caused by the network, equipment failure or configuration adjustment other than JD Cloud’s device;
 
-2) Packet loss and delay caused by operators' fault;
+(3) Service unavailable due to user’s configuration error (such as wrong configuration of Security Group, ACL, Certificate, etc.);
 
-3) Hackers' hacking to the users' application programs or data information;
+(4) Caused by hacker attacks to the user’s application program or data information;
 
-4) The loss or leakage of data, key, passwords, etc. due to user's improper maintenance or improper confidentiality measures;
+(5) Problems due to customer’s failure to configure backend server or backend server exception (it is suggested that the user shall enable the health check function and monitor backend server status in real time);
 
-5) Caused by the user upgrading the operating system by himself;
+(6) Caused by loss or leakage of data, passwords, etc. due to user’s improper maintenance or improper confidentiality;
 
-6) Caused by the user's application or installation activities;
+(7) Caused by user’s own upgrading of operating system;
 
-7) Caused by user's negligence or operation authorized by the user;
+(8) Caused by user’s application program or installation activities;
 
-8) Caused by force majeure or accidents;
+(9) Caused by user’s negligence or operations authorized by the user;
 
-9) Unavailability caused by other reasons not related to JD Cloud.
+(10) Caused by force majeure and accidents;
 
-**2.7.2** **Compensation Plan**
+(11) Server suspended or terminated due to breach of JD Cloud Service Agreement by customers, including but not limited to service suspension, release or others of Load Balancer instance due to arrear;
 
-Fault time = actual unavailable time.
+(12) Other unavailability caused not due to JD Cloud’s account.
 
-Load balancer in monthly package is compensated in the way of service time compensation, i.e. 100 times/set of the fault time.
+### 3.2 Compensation Scheme
 
-Load balancer paid by configuration is compensated in the form of coupon, the payout amount of a single case = the average hourly cost in the 24 hours before the fault/ 60 × fault time × 100.
+JD Cloud will make the compensation equal to 100 times of the unavailable time per instance of Load Balancer to users, with the compensation amount = average cost per minute in 24 hours before the instance fails × service unavailable time × 100 times.
 
-Instructions:
+Description:
 
-If the use time of the load balancer is paid by configuration is less than 24 hours, the cost shall be calculated based on the average of actual use time, the fault time shall be calculated by minutes;
+(1) If the service is used for less than 24 hours by the user before the failure, the average cost per minute shall be calculated as per the actual service time.
 
-Total amount of compensation shall not exceed the total amount of cash paid for the current service of a single set of load balancer;
+(2) Service unavailable time is calculated by minutes.
 
-Load balancer only compensates the load balancer itself, and does not compensate for the virtual machine under the load balancer.
+(3) The compensation will only be made against users who incur cost of Load Balancer services in the form of Load Balancer coupons which cannot be converted to cash for return.
 
-## 3. Others
+(4) The total compensation amount shall not exceed the total cash cost of current service cycle already paid for the Load Balancer instance.
 
-JD Cloud has the right to make adjustments to some service indicators of the SLA according to the changes, and promptly publish announcements at [www.jdcloud.com](https://www.jdcloud.com/) or send emails or written notices to notify users of the revised content.
+### 3.3 Compensation Application Deadline
+
+(1) If the service cycle of a month fails to reach the service availability standard, you can propose a compensation application via the ticket system of your corresponding account after the fifth (5th) working day of the month following the end of corresponding failure service cycle. JD Cloud will correspondingly verify your compensation application and calculate service availability of the service cycle. If there is a dispute between the Parties, the Parties agree to finally solve such dispute subject to the background records of JD Cloud.
+
+(2) The compensation application proposing time shall be no later than sixty (60) natural days after the end of corresponding failure service cycle. If you failed to propose the compensation application within sixty (60) days after the end of corresponding failure service cycle or propose after sixty (60) days after corresponding failure service cycle or failed to propose the application as agreed in the Agreement, it is deemed that you have automatically given up your right of claim and other rights against JD Cloud. JD Cloud has the right to reject your compensation application and make no compensation or indemnity.
+
+## 4. Others
+
+JD Cloud has the right to make adjustments to some service indicators of the SLA according to the changes, and promptly publish announcements at [www.jdcloud.com](https://www.jdcloud.com/) or send emails or written notices to notify users of the revised content. If you disagree with any modification to the Service Level Agreement by JD Cloud, you have the right to stop using the Load Balancer service. If you continue to use the Load Balancer service, it is deemed that you have accepted the modified Service Level Agreement.

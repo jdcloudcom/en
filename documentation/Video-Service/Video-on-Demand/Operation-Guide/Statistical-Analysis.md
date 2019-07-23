@@ -1,12 +1,60 @@
 # Statistics & Analysis
 
-Click **VOD** - **Statistics & Analysis** to view information such as storage usage of the video file, traffic and bandwidth data used, transcoding duration and others.
+Statistics & Analysis mainly include data display of "Consumption Query", "Data Monitoring" so that different data can be searched according to demands as business reference.
 
-The user statistics menu page can display the total storage volume, bandwidth peak of last 30 days and traffic usage data of last 30 days and can be used for searching bandwidth and traffic value of different periods based on a single domain
-![](https://github.com/jdcloudcom/cn/blob/cn-Video-on-Demand/image/Video-on-Demand/%E7%BB%9F%E8%AE%A1%E5%88%86%E6%9E%90-%E7%94%A8%E9%87%8F%E7%BB%9F%E8%AE%A1.png)
+## 1. Consumption Query
 
-The transcoding time period menu can display the total transcoding time period of different granularities and time periods and can be used for viewing the transcoding time period of a target resolution ratio
-![](https://github.com/jdcloudcom/cn/blob/cn-Video-on-Demand/image/Video-on-Demand/%E7%BB%9F%E8%AE%A1%E5%88%86%E6%9E%90-%E8%BD%AC%E7%A0%81%E6%97%B6%E9%95%BF.png)
+Data of "Traffic Bandwidth", "Bucket", "Transcoding Duration" with respect to the consumption can be searched on Consumption Query page, meanwhile, you can filter the data you want to display through the search conditions for each search item. Specific search conditions and data content for each item are as follows:
+
+|Data Item|Data Content|Search Condition|
+|-|-|-|
+|Traffic Bandwidth|Traffic Bandwidth Consumption|Domain, Region, Operator, Time Granularity (recent 7 days, recent 30 days, customized period)|
+|Bucket|Storage Consumption|Time Granularity (recent 7 days, recent 30 days, customized period)|
+|Transcoding Duration|Transcoding Consumption Duration|Transcoding Specifications, Time Granularity (recent 7 days, recent 30 days, customized period)|
+
+a. Bandwidth Traffic
+
+![用量查询-带宽流量.png](../../../../image/Video-on-Demand/用量查询-带宽流量.png)
+
+b. Bucket
+
+![用量查询-存储空间.png](../../../../image/Video-on-Demand/用量查询-存储空间.png)
+
+c. Transcoding Duration
+
+![用量查询-转码时长.png](../../../../image/Video-on-Demand/用量查询-转码时长.png)
+
+## 2. Data Monitoring
+
+
+Data of "UV/PV", "Hit Ratio", "Status Code" with respect to monitoring can be searched on Data Monitoring page, meanwhile, you can filter the data you want to display through the search conditions for each search item. Specific search conditions and data content for each item are as follows:
+
+|Data Item|Data Content|Search Condition|
+|-|-|-|
+|UV/PV|Count of PV and UV|Domain, Time Granularity (recent 7 days, recent 30 days, customized period)|
+|Hit Ratio|Hit Ratio Proportion|Domain, Region, Operator, Time Granularity (recent 7 days, recent 30 days, customized period)|
+|Status Code| Count of Status Codes (5XX, 4XX, 3XX, 2XX)|Domain, Region, Operator, Time Granularity (recent 7 days, recent 30 days, customized period)|
+
+a.UV/PV
+
+![数据监控-UV-PV.png](../../../../image/Video-on-Demand/数据监控-UV-PV.png)
+
+b. Hit Ratio
+
+![数据监控-命中率.png](../../../../image/Video-on-Demand/数据监控-命中率.png)
+
+c. Status Code
+
+![数据监控-状态码.png](../../../../image/Video-on-Demand/数据监控-状态码.png)
+
+
+
+
+
+
+
+
+
 
 
 

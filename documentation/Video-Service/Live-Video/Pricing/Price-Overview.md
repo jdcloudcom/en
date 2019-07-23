@@ -44,21 +44,29 @@ Live traffic will be deducted as per actual traffic consumed per day. For video 
     <td>Price (RMB/Minute)<br><= 30fps output</td>
 </tr>
 <tr>
-    <td rowspan="3">H.264<br/>
-    <td>360P ( 640 x 360 ) (inclusive) and below </td>
+    <td rowspan="5">H.264<br/>
+    <td>360P (640 x 360) (inclusive) and below </td>
     <td>0.01 </td>
 </tr>
 <tr>
-    <td>360P( 640 x 360 ) -720P( 1280 x 720 ) (inclusive) </td>
+    <td>360P(640 x 360) -720P(1280 x 720) (inclusive) </td>
     <td>0.03 </td>
 </tr>
 <tr>
-    <td>720P( 1280 x 720 )-1080P( 1920 x 1080 ) (inclusive) </td>
+    <td>720P(1280 x 720)-1080P(1920 x 1080) (inclusive) </td>
     <td>0.05 </td>
 </tr>
 <tr>
-    <td rowspan="3">H.265<br/>
-    <td>360P ( 640 x 360 ) (inclusive) and below </td>
+    <td>1080P(1920 x 1080) -2k(2560×1440) (inclusive) </td>
+    <td>0.10 </td>
+</tr>
+<tr>
+    <td>2k(2560×1440)-4k(3840×2160) (inclusive) </td>
+    <td>0.20 </td>
+</tr>        
+<tr>
+    <td rowspan="5">H.265<br/>
+    <td>360P (640 x 360) (inclusive) and below </td>
     <td>0.10 </td>
 </tr>
 <tr>
@@ -68,7 +76,15 @@ Live traffic will be deducted as per actual traffic consumed per day. For video 
 <tr>
     <td>720P( 1280 x 720 )-1080P( 1920 x 1080 ) (inclusive) </td>
     <td>0.30</td>
-</tr>    
+</tr> 
+<tr>
+    <td>1080P(1920 x 1080) -2k(2560×1440) (inclusive) </td>
+    <td>0.60 </td>
+</tr>
+<tr>
+    <td>2k(2560×1440）-4k(3840×2160) (inclusive) </td>
+    <td>1.20 </td>
+</tr>     
 <tr>
     <td>Encapsulation Conversion</td>
     <td>Rtmp, Hls and flv provide error detection </td>

@@ -1,0 +1,34 @@
+name: JDMigration
+href: 
+items:
+- name: Introduction
+  items:
+    - name: Product Overview
+      href: Introduction/Product-Overview.md
+    - name: Core Concepts
+      href: Introduction/Core-Concepts.md
+    - name: Basic Architecture
+      href: Introduction/Basic-Infrastructure.md
+    - name: Benefits
+      href: Introduction/Benefits.md
+    - name: Features
+      href: Introduction/Features.md
+
+- name: Getting Started
+  items:
+    - name: Overview and Environment Deployment
+      href: Getting-Started/Anti-JDMigration-Basic-Started.md
+      
+- name: Operation Guide
+  items:
+    - name: How to get an invitation code
+      href: Operation-Guide/jdmigration-cloud-InvitationCode.md
+    - name: How to log in JDFusion Console
+      href: Operation-Guide/jdmigration-cloud-uc.md
+ 
+      
+- name: Historic Release
+  items:
+    - name: Historic Release of Document
+      href: Related-Resources/Document-History.md
+

@@ -1,10 +1,10 @@
 # File Storage List
 
-Log in to the JD Cloud Console and click on **Storage and CDN**-**Cloud File Service** on the left menu of the Console to enter the "File Storage" list page. 
+Log in to the JD Cloud Console and click on **Storage** - **Cloud File Service** on the left menu of the Console to enter the **File Storage** list page. 
 
 ![list](../../../../image/Cloud-File-Service/list.png)
 
-On the file storage list page, you can see all the created file storage under the current login account. File storage distinguishes between "regions", so you can switch between different regions and view the file storage created under that region by clicking **Region** at the top of the list page. During the public Beta period, only the "cn-south-1" region will be open.
+On the file storage list page, you can see all the created file storage under the current login account. File storage distinguishes between "regions", so you can switch between different regions and view the file storage created under that region by clicking **Region** at the top of the list page.
 
  
 

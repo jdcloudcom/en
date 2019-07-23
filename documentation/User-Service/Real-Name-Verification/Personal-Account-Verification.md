@@ -1,57 +1,47 @@
-# Personal Real-name Verification Guideline
-You can complete personal real-name verification through JD Finance. For more details, please visit My JD (http://home.jd.com) > Account Setting > Account Security > Real-Name Verification > Verify Now.
+# Personal Real-name Mobile Phone Verification
+[JD Cloud Page](https://realname.jdcloud.com/account/verify) supports that the user completes the personal real-name verification by filling in information; meanwhile, if your account is the account of JD Mall/JD Finance, and you have completed the personal real-name verification in JD Mall/JD Finance, you can also complete the one-click synchronization of verification status and verification information on JD Cloud Page.
+## Concept Interpretation
+Personal real-name mobile phone verification means that you use the real-name mobile phone number under your name to complete personal real-name verification. Currently, the personal real-name verification only supports users with the mainland ID cards and mainland real-name mobile phone numbers; support to other certificate types is gradually expanding.
 
-You can also select **Personal Real-name Verification** in JD Cloud Account Management > Real-name Verification to perform **Verify Now**.
-![](../../../image/User/Real-name-verification/个人认证1.png)
+## Process Diagram
+1. Enter the Real-name Verification Page, and click **Verify Now** in "Personal Verification" tab.
 
-## New User Verification
+![](../../../image/User/personal/%E9%A6%96%E9%A1%B5.png)
 
-If you have never performed the personal real-name verification on the website of JD Group, please select the newly verified user. When filling in the bank card number, please select the deposit card or credit card of the supported bank. For supported banks, please check **Supported Banks**.
-![](../../../image/User/Real-name-verification/新用户认证.png)
+2. If the system detects that your account has completed personal real-name verification in JD Cloud/JD Finance, the following popup will automatically pop up. You can click **Authorize Now** to authorize JD Cloud to obtain your real-name information in JD Mall/JD Finance.
 
+![](../../../image/User/personal/%E7%AB%8B%E5%8D%B3%E6%8E%88%E6%9D%83.png)
 
-If you receive the following notification during real-name verification, which indicates that you may have other accounts in JD Group and have performed real-name verification with the same identity certificate.
-![](../../../image/User/Real-name-verification/%E4%B8%AA%E4%BA%BA%E8%AE%A4%E8%AF%81-%E5%AE%9E%E5%90%8D%E8%BA%AB%E4%BB%BD%E5%B7%B2%E8%A2%AB%E5%8D%A0%E7%94%A8.png)
+3. If your account has not completed personal real-name verification in JD Mall/JD Finance or you choose "Temporarily not authorize, manual verify", you need to fill in your name, ID card number and mobile phone number under your name on the following page, and receive mobile phone verification code to submit for verification.
 
-In such case,
+![](../../../image/User/personal/%E5%A1%AB%E5%86%991.png)
 
- 1. If you have never used this certificate to perform personal real-name verification for any JD Group account, please click **Get Back by Appealing** and submit an appeal application;
-    
- 2. If your JD Cloud account is an enterprise account, please perform enterprise real-name verification to avoid possible account ownership disputes; and
+4. Information verification is correct, and the account through the personal real-name verification.
 
- 3. If you confirm that you have performed personal real-name verification on any website of JD Group, and you remember information on the verified account, please select **Associate Verified Account**.
+![](../../../image/User/personal/%E8%AE%A4%E8%AF%81%E6%88%90%E5%8A%9F.png)
 
-## Associate Verified Account
-When associate verified account, you need to provide the JD account user name that has undergone personal real-name verification with your identity document. You can log in to My JD (http://home.jd.com) with your verified account to view it on the personal information page.
-![](../../../image/User/Real-name-verification/%E4%B8%AA%E4%BA%BA%E8%AE%A4%E8%AF%81-%E8%AE%A4%E8%AF%81%E8%B4%A6%E5%8F%B7%E7%BB%91%E5%AE%9A1.png)
+Note: If the system detects the risk of your identity information being stolen, in order to protect the security of your account and identity information, you need to conduct face scanning verification, the process is as follows:
 
 
-Fill in the user name verified with real name into the verified JD account and click **Bind Now**:
-![](https://github.com/jdcloudcom/en/blob/en-signin-signup/image/User/Real-name-verification/立即绑定.png)
+1. The personal real-name verification page on PC automatically displays QR code to be scanned
 
-To ensure that you are the owner of the verified account, the mobile phone number of the verified account needs to be verified. After the verification, the personal real-name verification is completed. Your personal real name information will be the same as the verified account:
-![](https://github.com/jdcloudcom/en/blob/en-signin-signup/image/User/Real-name-verification/验证手机.png)
+![](../../../image/User/personal/%E4%BA%8C%E7%BB%B4%E7%A0%8111.jpg)
 
+2. You need to download [JD Cloud APP] (https://console.jdcloud.com/download) and use the scan function of JD Cloud APP to scan the QR code on the PC
 
-**Exception Handling**
- - If the following notification pops up when you associate verified account, it indicates that your verified account is not currently associated with a mobile phone number in My JD.
-![](../../../image/User/Real-name-verification/%E4%B8%AA%E4%BA%BA%E8%AE%A4%E8%AF%81-%E8%AE%A4%E8%AF%81%E8%B4%A6%E5%8F%B7%E7%BB%91%E5%AE%9A-%E5%BC%82%E5%B8%B8%E6%83%85%E5%86%B51.png)
+3. Complete face scanning verification according to APP notification
 
+![](../../../image/User/personal/%E6%89%AB%E8%84%B8.jpg)
 
-You need to first set a mobile phone number for this verified account in My JD:
-![](../../../image/User/Real-name-verification/%E4%B8%AA%E4%BA%BA%E8%AE%A4%E8%AF%81-%E8%AE%A4%E8%AF%81%E8%B4%A6%E5%8F%B7%E7%BB%91%E5%AE%9A-%E5%BC%82%E5%B8%B8%E6%83%85%E5%86%B52.png)
+4. You can check the status of real-name verification on the PC after passing the face scanning
 
 
- - If the following notification pops up when you associate verified account, it indicates that the account with real-name verification you are trying to associate has not performed real-name verification. Please retry after reconfirming the information about the verified account by using your identity.
-![](../../../image/User/Real-name-verification/%E4%B8%AA%E4%BA%BA%E8%AE%A4%E8%AF%81-%E8%AE%A4%E8%AF%81%E8%B4%A6%E5%8F%B7%E7%BB%91%E5%AE%9A-%E5%BC%82%E5%B8%B8%E6%83%85%E5%86%B53.png)
+## FAQ
 
+1. How many JD Cloud account can be verified at most for one ID card information?
 
- - When you associate verified account, the verification fails and the following notification pops up, it indicates that you have already performed personal real-name verification for another account (that is the account shown in brackets) in JD Cloud. The personal identity information of each person can only verify one account in JD Cloud, and no repeated verification or associate is allowed.
-![](../../../image/User/Real-name-verification/%E4%B8%AA%E4%BA%BA%E8%AE%A4%E8%AF%81-%E8%AE%A4%E8%AF%81%E8%B4%A6%E5%8F%B7%E7%BB%91%E5%AE%9A-%E5%BC%82%E5%B8%B8%E6%83%85%E5%86%B54.png)
+   One ID card information only can verify one JD Cloud account at most.
 
-If it is not your own operation, please contact JD Cloud Customer Service at 4006151212 or open ticket for consultation, and you need to provide the ownership certificate of your account with real-name verification at the same time.
+2. Why did it notify me that "My mobile phone number is inconsistent with my identity information"?
 
-## Upgrade Personal Verification as Enterprise Verification
-After the personal verification is passed, you can upgrade as an enterprise user on the following page.
-![](https://github.com/jdcloudcom/en/blob/en-signin-signup/image/User/Real%20name%20verification/升级.png)
-
+   Please use your real name mobile phone number applied for with your ID card.

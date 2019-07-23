@@ -51,7 +51,12 @@ Bucket is adopted by JD Cloud as the naming space of user files and the manageme
 
 **2.8 Service Availability**
 
-Service availability: not less than 99.9%.
+Availability Commitment:
+
+|Storage Type|Service Availability|
+|---|---|
+|Standard Storage/Reduced Redundancy Storage|99.9%|
+|Archival Storage|99.0%|
 
 Availability of Object Storage Service is counted by service cycles. A service cycle is a natural month, and if it is less than a month, then it is not counted as a service cycle.
 

@@ -3,6 +3,8 @@
 
 Message Queue JCQ SDK supports two sequential message modes: Synchronously sending a single message and synchronously sending batch messages (up to 32). The sequential message is applicable to the scenarios where the message is released and consumed strictly according to the principle of first-in-first-out. The specific parameters and reference examples are as follows.
 
+Notification: When selecting production sequential messages, the user can start only one Producer process, and more Producer requests will be denied by the server. [In order to ensure that the messages reaching the server are truly ordered]
+
 ## Configurable Parameters
 | Parameter          | Parameter Description                                   |
 | ------------- | ------------------------------------------ |

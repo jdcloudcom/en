@@ -68,7 +68,7 @@ Special Tips for Header:
 |x-amz-credential|String|If S3 API is used, then the format is <your-access-key-id>/<date>/<region>/s3/aws4_request<br>Example:AKIAIOSFODNN7EXAMPLEYYYYYYYYYYYY/20180601/cn-north-1/s3/aws4_request<br>Default Value: None|Required for requests requiring signatures|
 |x-amz-date|String|ISO8601 time format, such as: 20180601T000000Z.The value of x-amz-date attribute in the policy should be the same as it<br>Note that the time of computing signature at this moment is 20180601<br>Default Value: None|Required for requests requiring signatures|
 |x-amz-signature|String|String to signature <br>Default Value: None|Required for requests requiring signatures|
-|x-amz-storage-class|String|Object Storage Type<br> Default Value: STANDARD (Standard Storage)<br>Valid Value: STANDARD (Standard Storage) and REDUCED_REDUNDANCY Reduced Redundancy Storage)|No|
+|x-amz-storage-class|String|Object Storage Type<br> Default Value: STANDARD (Standard Storage)<br>Valid Value: STANDARD (Standard Storage), GLACIER(Archive Storage) and REDUCED_REDUNDANCY Reduced Redundancy Storage)|No|
 |file|String|File or Text Content .The attribute must be placed at the end of the form, otherwise the attributes after the file will be ignored. Don't support multiple files to be uploaded at the same time<br>Default Value: None|Yes|
  
 #### Response

@@ -1,5 +1,5 @@
 
-### Adaptation Situation of Different VOD Protocols Corresponding to Different Terminals
+### 1. Adaptation Situation of Different VOD Protocols Corresponding to Different Terminals
 <table>
 <tr>
 <tr>
@@ -38,3 +38,14 @@
 </tr>
 </tr>
 </table>
+
+
+### 2. Recommendation of Common Video Definition
+
+|Definition|Recommended Code Rate|Recommended Resolution|Resolution Range|
+|-|-|-|-|
+|Smooth|400Kbps|640x360|128x128~640x360|
+|Standard Definition|900Kbps|960x540|641x361~960x540|
+|High Definition|1500Kbps|1280x720|961x541~1280x720|
+|2K|3500Kbps|2560x1440|1920x1080 ~2560x1440|
+|4K|6000Kbps|2560x1440|2560x1440 ~ 3840x2160|

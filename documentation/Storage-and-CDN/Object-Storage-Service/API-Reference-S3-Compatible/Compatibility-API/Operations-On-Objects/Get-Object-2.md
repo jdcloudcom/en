@@ -40,7 +40,8 @@ Note:
 
 Name|Description
 ---|---
-x-amz-storage-class|Provide storage type information of Object
+x-amz-storage-class|Provide storage type information of Object. In the case of non-standard storage, OSS will return the Header
+x-amz-restore|Restoration information and replica life cycle of the object
 
 ### Response Element
 No Response Element
@@ -64,8 +65,3 @@ Content-Length: 434234
 
 [434234 bytes of object data]
 ```
-
-
-
-
-

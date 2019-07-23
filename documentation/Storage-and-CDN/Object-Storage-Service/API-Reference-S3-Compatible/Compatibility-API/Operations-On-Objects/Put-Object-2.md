@@ -30,7 +30,7 @@ Content-MD5|Obtain 128-bit binary number from packet body with MD5 algorithm, an
 Content-Type|Present MIME type in the request. <br>Type: String<br>Default: binary/octet-stream<br>Valid Values: MIME types<br>Constraints: None|No
 Expect|The client uses Expect to inform OSS, expecting to occur certain specific behavior. If errors occur because OSS cannot respond, request packet body will not be sent. <br>Type: String<br>Default: None<br>Valid Values: 100-continue<br>Constraints: None|No
 Expires|Object Cache Expiration Time. <br>Type: String<br>Default: None<br>Constraints: None|No
-x-amz-storage-class| Object Storage Type, if it is not specified, it will be standard storage by default. <br>Type: Enum<br>Default: STANDARD<br>Valid Values: STANDARD, REDUCED_REDUNDANCY|No
+x-amz-storage-class| Object Storage Type, if it is not specified, it will be standard storage by default. <br>Type: Enum<br>Default: STANDARD<br>Valid Values: STANDARD, GLACIER, REDUCED_REDUNDANCY|No
 
 ## Response
 ### Response Header

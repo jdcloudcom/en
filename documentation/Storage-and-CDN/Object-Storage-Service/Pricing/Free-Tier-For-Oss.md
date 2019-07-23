@@ -3,7 +3,7 @@
 Users adopting the standard storage type of the Object Storage Service (OSS) of JD Cloud can enjoy the storage capacity of specific volume for free.
 The free quota will be deducted at first for daily billing and the portion in excess of the free quota is charged according to price details.
 
-## Users adopting the standard storage type of OSS will enjoy free quota as below:
+## Adopting the standard storage type of OSS will enjoy free quota as below:
 
 |cn-north-1|cn-south-1|cn-east-1|cn-east-2|
 ---|:--:|---:|---:

@@ -1,6 +1,6 @@
 # Product Performance
 
-Performance parameters of Cloud File Service are shown as below:
+Performance parameters of Cloud File Service(CFS) are shown as below:
 
 
 | **Indicator**    | **Type**    | **min** |**Description**                        |

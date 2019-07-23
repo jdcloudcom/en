@@ -71,12 +71,15 @@
           href: Getting-Started/Cloud-Disk/Expand-Filesystem/Expand-Raw-Disk-File-System.md
         - name: file system expansion (multi partition)
           href: Getting-Started/Cloud-Disk/Expand-Filesystem/Expand-File-System-Multi-Partition.md
-        - name: Detach Cloud Disk
-          href: Getting-Started/Cloud-Disk/Detach-Cloud-Disk.md
-        - name: Delete Cloud Disk Service
-          href: Getting-Started/Cloud-Disk/Delete-Cloud-Disk.md
-        - name: Cloud Disk Service Monitoring
-          href: Getting-Started/Cloud-Disk/CDS-Monitoring.md
+    - name: Detach Cloud Disk
+      href: Getting-Started/Cloud-Disk/Detach-Cloud-Disk.md
+    - name: Delete Cloud Disk Service
+      href: Getting-Started/Cloud-Disk/Delete-Cloud-Disk.md
+    - name: Cloud Disk Service Monitoring
+      href: Getting-Started/Cloud-Disk/CDS-Monitoring.md
+          
+    - name: IOPS Configured for Performance Type SSD Cloud Disk
+      href: Getting-Started/Cloud-Disk/Editing_Iops.md
           
   - name: Snapshot Operation Guide
     items:

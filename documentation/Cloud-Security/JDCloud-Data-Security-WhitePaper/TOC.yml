@@ -1,0 +1,23 @@
+name: Data Security White Paper
+href: 
+items:
+- name: Summary
+  href: Introduction/Overview.md
+- name: JD Cloud Data Security Concept
+  href: Data-security-concepts/data-security-concepts.md
+- name: Cloud Data Protection Responsibility
+  href: Data-proteciton-responsibilities/Data-proteciton-responsibilities.md
+- name: JD Cloud Data Security Practice
+  items:
+    - name: JD Cloud Data Security Protection System
+      href: Data-security-practices/Data-security-protection-system.md
+    - name: Network and Infrastructure Guarantee
+      href: Data-security-practices/Network-and-infrastructure-support.md
+    - name: Identity and Access Management
+      href: Data-security-practices/Identity-and-access-control.md
+    - name: Data Full Life Cycle Security Guarantee
+      href: Data-security-practices/Data-life-cycle.md
+    - name: Security Operation Guarantee
+      href: Data-security-practices/Security-Operation.md
+- name: Download Link
+  href: Download-Link/Related-Resources.md

@@ -9,7 +9,7 @@ The new generation cloud disks provide three types of cloud disks for your optio
 | Single disk capacity       | 20-4000G                                                     | 20-4000G                                             | 20-4000G                                                     |
 | Maximum single disk IOPS   | 15000                                                        | 32000                                                | 500                                                          |
 | Maximum single disk throughput | 150MBps                                                      | 150MBps                                              | 80MBps                                                       |
-| Single Disk Performance Formula   | min(max(500，10&times;size), 15000)                          | min(30&times;size，32000)                            | Not Applicable                                                       |
+| Single Disk Performance Formula   | min(max(500，10&times;size), 15000)                          | min(30&times;size，32000)  can be configured as required                          | Not Applicable                                                       |
 | Formula of Single Disk Throughput   | min(max(80, 0.2&times;size), 150)                        | min（max（120, 0.5&times;size），150）               | Not Applicable                                                       |
 | Data Persistence     | 99.9999999%                                                  | 99.9999999%                                          | 99.9999999%                                                  |
 |  API Name        | ssd.gp1                                                      | ssd.io1                                              | hdd.std1                                                     |
@@ -42,3 +42,5 @@ Elastic expansion ensures that you may expand the capacity of Cloud Disk Service
 1. You may expand the Cloud Disk Service capacity as needed, to meet storage demands of different business requirements;
 
 2. When cloud disk is created based on snapshot, the Cloud Disk Service may be configured with storage space larger than or equal to the snapshot capacity, to meet your demands to run business based on snapshot data, and you may also be provided with large storage space.
+
+3. The capacity and IOPS performance of performance type SSD cloud disks are billed independently. During creation, you can adjust the highest IOPS of a cloud disk according to the actual needs, so as to obtain a performance type SSD cloud disk not only meeting the performance demand but economical.

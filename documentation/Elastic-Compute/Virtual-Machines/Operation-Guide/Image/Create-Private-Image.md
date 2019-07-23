@@ -6,8 +6,8 @@ You can create a private image from an instance created as required, and use thi
 * You must ensure that the image and cloud disk snapshot quotas are sufficient, because if the instance system disk is a cloud disk or the instance attaches a data disk, it will take up the private image quotas and the cloud disk snapshot quotas.
 
 		Note:
-		* In the Linux system, if the instance has an auto-attach command configured in /etc/fstab, it shall delete the relevant auto-attach command prior to creating the private image, otherwise the instance created from its private image may not start properly.
-		If the current instance's system disk is local disk, then the created private image is local system disk image; If the current instance's system disk is cloud disk, then the created private image is cloud system disk image. You can convert a local system disk image to a cloud system disk image by [Image Type Conversion](Convert-Image.md).
+		* For the Linux system, if the instance configures the automatic attachment command of the data disk in /etc/fstab or configures 70-persistent-net.rules in /etc/udev/rules.d, please delete it before producing private images, or the instance based on private image creation may not be able to be started normally.
+		* If the current instance's system disk is local disk, then the created private image is local system disk image; If the current instance's system disk is cloud disk, then the created private image is cloud system disk image. You can convert a local system disk image to a cloud system disk image by [Image Type Conversion](Convert-Image.md).
 
 
 ## Operation Steps

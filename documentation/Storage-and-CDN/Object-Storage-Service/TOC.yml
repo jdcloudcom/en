@@ -9,6 +9,8 @@ items:
         href: Introduction/Core-Concepts.md
       - name: Features
         href: Introduction/Features.md
+      - name: Storage Type
+        href: Introduction/StorageClass-Overview.md
       - name: Restrictions
         href: Introduction/Restrictions.md
       - name: Application Scenarios
@@ -23,6 +25,8 @@ items:
         href: Pricing/Billing-Rules.md
       - name: Price Overview
         href: Pricing/Price-Overview.md
+      - name: Billing Case
+        href: Pricing/Billing-Case.md
       - name: View Bills
         href: Pricing/Check-Bill.md
  - name: Getting Started
@@ -95,6 +99,8 @@ items:
             href: Operation-Guide/Manage-Object/Post-Object-1.md
           - name: Consumption Monitoring
             href: Operation-Guide/Manage-Object/Usage-Monitoring.md
+          - name: Restore Archival Object
+            href: Operation-Guide/Manage-Object/Restore-Glacier-Object.md
       - name: Permission Control
         items:
            - name: Permission Control Overview
@@ -259,6 +265,8 @@ items:
                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Objects/Upload-Part-2.md
               - name: Upload Part Copy
                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Objects/Upload-Part-Copy-2.md
+              - name: Post Object Restore
+                href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Objects/Post-Object-Restore.md
       - name: Error Response
         href: API-Reference-S3-Compatible/Error-Response-2.md
       - name: Expansion Interface
