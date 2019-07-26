@@ -1,6 +1,6 @@
-# VOD Acceleration
+# Video Acceleration
 ## Introduction:
-The VOD Acceleration platform independently researched and developed by JD Cloud supports the acceleration of the video contents of the websites accessed by HTTP and HTTPS protocols as well as file uploading and downloading, multiple video file formats, etc., buffers video resources to the CDN nodes nearest to the user; and helps the customer save IT resources and alleviate the pressure of origin servers. Various sudden accesses are dealt with easily by monitoring origin servers, guaranteeing the safe operation of websites.
+The Video Acceleration platform independently researched and developed by JD Cloud supports the acceleration of the video contents of the websites accessed by HTTP and HTTPS protocols as well as file uploading and downloading, multiple video file formats, etc., buffers video resources to the CDN nodes nearest to the user; and helps the customer save IT resources and alleviate the pressure of origin servers. Various sudden accesses are dealt with easily by monitoring origin servers, guaranteeing the safe operation of websites.
 
 ## Scenario Application:
 ![视频点播加速业务框架图](https://github.com/jdcloudcom/cn/blob/cdn-new/image/CDN/%E8%A7%86%E9%A2%91%E7%82%B9%E6%92%AD%E5%8A%A0%E9%80%9F.png)

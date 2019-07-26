@@ -1,4 +1,4 @@
-# Live Video Acceleration
+# Live Acceleration
 ## Introduction:
 Based on JD Cloud national high quality nodes and intelligent cloud computing ability, live CDN service provides high availability and stable audio and video content distribution service for all kinds of live video platforms. It supports interactive pulling streaming live broadcast, and traditional back-to-origin pulling streaming mode and provides distributed transcoding, recording storage, IAM, multi-dimensional statistical query one-stop service.
 
