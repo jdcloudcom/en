@@ -46,7 +46,7 @@ Processing Duration of VOD Transcoding
 </tr>
 <tr>
     <td> H.264<br/>
-    <td>FHD (1920 x 1080) or below</td>
+    <td>Super Definition FHD (1920x1080) and below</td>
     <td>0.05</td>	
 </tr>
 <tr>
@@ -71,7 +71,7 @@ Processing Duration of VOD Transcoding
 </tr>
 <tr>
     <td> H.265<br/>
-    <td>FHD (1920 x 1080) or below</td>
+    <td>Super Definition FHD (1920x1080) and below</td>
     <td>0.3</td>	
 </tr>
 <tr>

@@ -45,7 +45,7 @@
     items: 
       - name: Console Introduction
         href: Operation-Guide/Console-introduction.md  
-      - name: Creating Domain
+      - name: Domain Name Management
         href: Operation-Guide/Create-domain.md
       - name: Access Control
         href: Operation-Guide/Access-control.md  
@@ -181,9 +181,11 @@
             href: API-Reference/CDN-Open-API/Query-Header.md
           - name: Search whether the IP is that of the manufacturer or not
             href: API-Reference/CDN-Open-API/Query-Include-Node-IP.md
-          - name: Attachment：Notification Information Status Code Reference Table
+          - name: Count traffic requests by protocols
+            href: API-Reference/CDN-Open-API/Query-Scheme-Data.md
+          - name: Attachment： Notification Information Status Code Reference Table
             href: API-Reference/CDN-Open-API/Status-code-reference-table.md
-          - name: Appendix: Abbreviation List of Regions and Operators
+          - name: Appendix： Abbreviation List of Regions and Operators
             href: API-Reference/CDN-Open-API/area-isp-reference-table.md
       - name: Live OPEN API
         items:

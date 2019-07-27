@@ -5,12 +5,13 @@
 
 You can compile function code with development languages (see Table 1) supported by Function Service.
 
-
-|Type for Running     | Relevant Document    |
-| ---------- | ---------- |
-| Python 2.7  | [Function Programming Model](../Operation-Guide/buildfunction/programming-model/basic-concept.md)|
-| Python 3.6 | [Function Programming Model](../Operation-Guide/buildfunction/programming-model/basic-concept.md)|
-| Python 3.7 | [Function Programming Model](../Operation-Guide/buildfunction/programming-model/basic-concept.md)|
+| Type Upon Running | Version Upon Running | Document Link |
+| ---------- | -------- | -------- |
+| Python 2.7  | Python 2.7 Version| [python runtime](../Operation-Guide/buildfunction/runtime/python.md) |  
+| Python 3.6   | Python 3.6 Version| [python runtime](../Operation-Guide/buildfunction/runtime/python.md) | 
+| Python 3.7   | Python 3.7 Version| [python runtime](../Operation-Guide/buildfunction/runtime/python.md) | 
+| NodeJS 6    | NodeJS 6.17 Version | [nodejs runtime](../Operation-Guide/buildfunction/runtime/nodejs.md) | 
+| NodeJS 8    | NodeJS 8.16 Version | [nodejs runtime](../Operation-Guide/buildfunction/runtime/nodejs.md) | 
 
 ## Functions supports multiple methods to upload code
 

@@ -1,114 +1,57 @@
-# File system expansion (Linux)
+# File System Expansion (Linux)
 
-<br>
+After the Cloud Disk Console completes the expansion operation and attaches the Cloud Disk, it needs to log in Virtual Machines to expand the file system before continuous use. Refer to "[Cloud Disk Upgrade Capacity](https://docs.jdcloud.com/en/cloud-disk-service/disk-expand)" for expansion operation of Cloud Disk on the Console
 
-Take CentOS operating system for example, assume that there is a 42.9GB hard disk attaching to a machine and the partition is "/dev/vdb1", file system format is "ext4", attach location is "/home/test"; now we need to expand it to 53.7GB. Specific procedures are as below (need root authority):
+**Note: Back up the data before expansion to prevent the data from losing due to maloperation and other factors**
 
-**Note: Back up the data before expansion to prevent the data from losing due to misoperation and other factors**.
+Take CentOS operating system as an example, suppose that the original size of Cloud Disk Service to be expanded is 20GB, and it has been expanded to 50GB in the Console and remounted. File System expansion operations are as follows (root permission required):
 
-1. Detach the hard disk from the VM on the console and attach to the VM after completing the cloud disk expansion action.
+## Expansion of ext2, ext3 or ext4 file systems
 
-2. View Environment
+1. After confirming that the Cloud Disk has been expanded in the Console and attached to the Virtual Machines, reboot Virtual Machines on the Console.
 
-1) Use fdisk -l to view the hard disk partition information
+   ![vm_restart](../../../../../../image/Elastic-Compute/CloudDisk/cloud-disk/expand-filesystem/vm_restart.png)
 
-![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/CloudDisk/cloud-disk/expand-filesystem/linux_expand_001.png)
+2. Log in Virtual Machines after reboot, enter `lsblk` command to check Device Name:
 
-2) You can see the /dev/vdb disk capacity is 53.7GB and there is a partition /dev/vdb1; use fdisk -l /dev/vdb1 to view the partition capacity and you can see the /dev/vdb1 capacity is 42.9GB
+   `lsblk`
 
+   ![lsblk_ext4](../../../../../../image/Elastic-Compute/CloudDisk/cloud-disk/expand-filesystem/lsblk_ext4.PNG)
 
-![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/CloudDisk/cloud-disk/expand-filesystem/linux_expand_002.png)
+3. Use `e2fsck` command to check the file system:
 
-3) Use df -h to view the file system and you can see the attach point is /home/test with size of 40GB
+   `e2fsck -f /dev/vde`
 
+   ![e2fsck_ext4](../../../../../../image/Elastic-Compute/CloudDisk/cloud-disk/expand-filesystem/e2fsck_ext4.PNG)
 
+4. Use resize2fs command to expand the file system, such as expansion of the file system of /dev/vde device:
 
-![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/CloudDisk/cloud-disk/expand-filesystem/linux_expand_003.png)
+   `sudo resize2fs /dev/vde`
 
-3. Begin to expand partition /dev/vdb1
+   ![resize2fs_ext4](../../../../../../image/Elastic-Compute/CloudDisk/cloud-disk/expand-filesystem/resize2fs_ext4.PNG)
 
-1) Detach file system
+5. After successful mount, run `df -h` command to verify whether mount is successful.
 
-```
-umount /home/test
-```
+## Expansion of XFS File System
 
-2) Expand partition capacity. Here take fdisk for example or you may use parted for expansion. But you may not mix up these two commands together since it will lead to inconsistency of start sector.
+1. Use `df -h` command to verify the size of file system of volume to be expanded. As shown in figure below, the original size of /dev/vdc to be expanded is 20GB:
 
-```
-fdisk /dev/vdb
-```
+   ![expand_df](../../../../../../image/Elastic-Compute/CloudDisk/cloud-disk/expand-filesystem/expand_df.PNG)
 
-Enter p, d, n, p and 1 in turn, enter press enter key twice and enter wq
+2. Enter `lsblk` command to check Device Name:
 
-p: Print out partition information
+   `lsblk`
 
-d: Delete partition
+   ![lsblk](../../../../../../image/Elastic-Compute/CloudDisk/cloud-disk/expand-filesystem/lsblk.PNG)
 
-n: Create partition
+3. Use `xfs_growfs` command to expand the file system, such as the device is currently mounted on /mnt:
 
-p: Type of newly created partition is main partition
+   `sudo xfs_growfs -d /mnt`
 
-1: Partition number is 1
+   ![growfs](../../../../../../image/Elastic-Compute/CloudDisk/cloud-disk/expand-filesystem/growfs.PNG)
 
-wq: Save and exit
+   
 
-**Note: Please ensure your actions are correct before saving; in case of any misoperation, you can enter q and exit without bringing the previous actions into effect.**
+4. (Optional) After completion of execution, it may execute `df -h` command again to verify the size of expanded volume.
 
-
-![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/CloudDisk/cloud-disk/expand-filesystem/linux_expand_004.png)
-
-3) View partition capacity after expansion
-
-```
-fdisk -l /dev/vdb1
-```
-
-
-
-
-![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/CloudDisk/cloud-disk/expand-filesystem/linux_expand_005.png)
-
-
-The partition capacity has been expanded to 53.7GB. However, the file system is still the original size. The below two commands can make the file system extend to a size matching the partition.
-
-4) Detect correctness of file system
-
-```
-e2fsck -f /dev/vdb1
-```
-
-
-
-
-
-![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/CloudDisk/cloud-disk/expand-filesystem/linux_expand_006.png)
-
-
-5) Redefine size of file system
-
-```
-resize2fs /dev/vdb1
-```
-
-
-
-![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/CloudDisk/cloud-disk/expand-filesystem/linux_expand_007.png)
-
-6) mount /dev/vdb1 /home/test to attach the expanded file system to attach point /home/test
-
-7) View size of file system
-
-```
-df -h /dev/vdb1
-```
-
-
-![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/CloudDisk/cloud-disk/expand-filesystem/linux_expand_008.png)
-
-You can see the file system has been extended.
-
-	
-	
-
-
+   ![df_aga](../../../../../../image/Elastic-Compute/CloudDisk/cloud-disk/expand-filesystem/df_aga.PNG)

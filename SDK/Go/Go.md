@@ -24,7 +24,7 @@ To facilitate the understanding of some concepts and parameters in the SDK, it's
 4.	Response to implementation requests
 
 ### The general code is as follows:
-``` go
+```Go
 package main
 
 import (
@@ -50,9 +50,9 @@ func main() {
 	fmt.Println(len(resp.Result.Instances))
 }
 ```
-If you need to set up an additional header, for example, call an interface that opens the [MFA operation protection]("https://docs.jdcloud.com/cn/IAM/Operation-Protection"), you need to pass x-jdcloud-security-token, as follows:
+If you need to set up an additional header, for example, call an interface that opens the [MFA operation protection]("https://docs.jdcloud.com/en/IAM/Operation-Protection"), you need to pass x-jdcloud-security-token, as follows:
 
-```go
+```Go
 const securityTokenHeader = "x-jdcloud-security-token"
 req := NewDeleteInstanceRequest("cn-north-1", "i-xxxxx")
 req.AddHeader(securityTokenHeader, "xxx")
@@ -60,3 +60,15 @@ resp, err := client.DeleteInstance(req)
 ```
 
 Refer to the test cases in demo and access each business line interface of JD Cloud.
+
+
+**Note:**
+
+- JD Cloud does not provide other download methods. Please be sure to adopt the above official download method.
+
+- The latest version number provided by JD Cloud product shall be used as the version number. For example: The latest version number used by VM in the example can be searched in API [Update History](../../API/Virtual-Machines/ChangeLog.md).
+
+- Each cloud product has its own Client. When API of this product is called, the Client of such product will be used. For example: When VmClient of Virtual Machines is used, only APIs of Virtual Machines (Vm) can be called; when AgClient of Availability Group is used, only APIs of Availability Group (Ag) can be called.
+
+
+ 

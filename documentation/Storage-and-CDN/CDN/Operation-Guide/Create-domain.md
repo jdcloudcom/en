@@ -1,4 +1,6 @@
-# **Create Domain Name**
+# **Domain Name Management**
+
+**Create Domain**
 
  1. Enter the **Domain Name List** page in the CDN customer console; click "Add Domain Name";           
 
@@ -29,3 +31,8 @@
 * Back-to-source mode: Please select IP back-to-source, domain name back-to-source or OSS back-to-source according to actual needs, fill in the origin server IP address and origin server domain name, and select the bucket information of OSS. JD Cloud CDN supports multi-IP load balancer back-to-source, and multi-IP, multi-domain name backup back-to-source, please fill in the back-to-source configuration according to actual needs.
 
 ![image.png](https://github.com/jdcloudcom/cn/blob/cdn-new/image/CDN/%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9B%9E%E6%BA%90host.png)
+
+**Accelerated Domain Recycling Rule**
+
+* If the accelerated domain hasn’t have any access traffics for more than 90 days (including the status of "normal running"), the platform will automatically "stop" the domain, but still keep records related to such accelerated domain; if you need to use the accelerated domain, please "run" it.
+* The accelerated domain has been in the "Stopped" status (including the status of "Reviewing") for more than 120 days, and the system will automatically delete records related to the domain; if you still need to make CDN acceleration to the domain, please add the domain again.

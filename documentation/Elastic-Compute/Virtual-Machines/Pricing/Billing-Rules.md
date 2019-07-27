@@ -26,7 +26,7 @@ For example: if the order start time is 15:00:00 on January 1, 2018, and the pur
 
 It is billed according to the actual usage time based on the instance type with statistical time accurate to the second. It is applicable to scenarios with large fluctuations in traffic, and resources can be enabled and released at any time.
 
-Opening Requirements: To ensure your normal use, the sum of your account balance and available coupon will be no less than RMB 50 when you launch an instance billed by configuration.
+Opening Requirements: To ensure your normal use, the sum of your account balance and available coupon will be no less than consumption threshold when you launch an instance billed by configuration.
 
 In the pay-as-you-go mode, the bill for the previous hour will be generated according to the instance type and actual usage time and charge is then cleared.
 

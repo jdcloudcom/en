@@ -115,6 +115,18 @@ items:
             href: Operation-Guide/Image/Default-Agent-in-Public-Image.md            
           - name: Make Private Image
             href: Operation-Guide/Image/Create-Private-Image.md
+          - name: Import images
+            items:
+              - name: Import private images
+                href: Operation-Guide/Image/Import-Private-Image.md
+              - name: Install virtio driver
+                href: Operation-Guide/Image/Install-Virtio-Driver.md
+              - name: Image self-inspection tool
+                href: Operation-Guide/Image/Image-Check-Tool.md
+              - name: Convert the image format
+                href: Operation-Guide/Image/Convert-Image-File-Format.md
+              - name: Conversion of Images in ISO Format
+                href: Operation-Guide/Image/Convert-Image-File-Format-From-ISO.md
           - name: Share Private Image
             href: Operation-Guide/Image/Share-Image.md
           - name: Cancel Private Image Sharing

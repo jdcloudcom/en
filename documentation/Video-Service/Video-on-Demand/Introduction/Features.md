@@ -66,13 +66,25 @@
     <td>Different finished product formats of videos can be previewed</td>
 </tr>
 <tr>	
-    <td rowspan="2"> Video Processing<br/>
+    <td rowspan="5"> Video Processing<br/>
     <td>Transcoding</td>
     <td>Customized transcoding template are supported, which single or multiple templates can be attached to implement multiplex transcoding output to source videos</td>
 </tr>
 <tr>
     <td>Watermark</td>
     <td>Superimposing watermark for uploaded videos is supported, which watermark templates can be customized for adjusting the size and location of watermark at will to protect video copyright</td>
+</tr>
+<tr>
+    <td>Jingxiang Super Definition Transcode</td>
+    <td>Provide Jingxiang super definition transcode capacity, improve video definition and decrease code rate, saving storage and bandwidth cost for customers</td>
+</tr>
+<tr>
+    <td>Topspeed Transcode</td>
+    <td>Provide multiple transcode capacity and meet customers’ business scenario demands for rapid production and rapid release of video contents</td>
+</tr>
+<tr>
+    <td>Comfortable Audio</td>
+    <td>Apply automatic analysis and dynamic adjustment to audio, realize smooth tone transition between programs and improve audio and video comfort</td>
 </tr>
 
 <tr>
@@ -95,9 +107,12 @@
     <td>Console Live Video Service management and video file processing are supported</td>
 </tr>
 <tr>
-    <td rowspan="1">Statistics & Analysis<br/>
+    <td rowspan="2">Statistics & Analysis<br/>
     <td>Resources Usage</td>
     <td>Search for resources usage of storage amount, traffic amount, and transcoding duration at different time slots and with different granularities is supported for better understanding the customer’s own businesses</td>
+</tr>
+    <td>Data Monitoring</td>
+    <td>Support search to data monitoring contents such as UV/PV, hit ratio and status code by time period and granularity, facilitating customers to better understand their own businesses</td>
 </tr>
 </table>
 

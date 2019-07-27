@@ -1,7 +1,5 @@
 # Billing Overview
 
-Description: Queue Service is free of charge during the Beta period; The users will be notified for billing before the product is formally launched. For the charging standards, please view [Price Overview](Price-Overview.md).
-
 ## Billing Method
 
 Billing Method of Queue Service: [Pay By Consumption](http://docs.jdcloud.com/en/billing/pay-as-you-go).

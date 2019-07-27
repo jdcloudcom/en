@@ -142,3 +142,14 @@ else
     return;
 }
 ```
+
+**Note:**
+
+- JD Cloud does not provide other download methods. Please be sure to adopt the above official download method.
+
+- The latest version number provided by JD Cloud product shall be used as the version number. For example: The latest version number used by VM in the example can be searched in API [Update History](../../API/Virtual-Machines/ChangeLog.md).
+
+- Each cloud product has its own Client. When API of this product is called, the Client of such product will be used. For example: When VmClient of Virtual Machines is used, only APIs of Virtual Machines (Vm) can be called; when AgClient of Availability Group is used, only APIs of Availability Group (Ag) can be called.
+
+
+ 

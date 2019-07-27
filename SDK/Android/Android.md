@@ -19,13 +19,23 @@ To facilitate the understanding of some concepts and parameters in the SDK, we r
 If you use Gradle to manage the project, you only need to add a corresponding dependency in the build.gradle file of the project, as follows:
 
     //Corresponding product line SDK
-    implementation 'com.jdcloud.sdk:vm:1.0.3'
+    implementation 'com.jdcloud.sdk:vm:1.2.0'
 
 You can also download the SDK source code yourself. The source code address is [Java SDK](https://github.com/jdcloud-api/jdcloud-sdk-java).
 
 With any of the problems in the SDK use, you are welcomed to communicate at the [SDK Usage Problem Feedback Page](https://github.com/jdcloud-api/jdcloud-sdk-java/issues) for the Github project.
 
-Note: JD Cloud does not provide other downloading ways, please be sure to use the above-mentioned official download method.
+
+**Note: **
+
+- JD Cloud does not provide other downloading ways, please be sure to use the above-mentioned official download method.
+
+- The latest version number provided by JD Cloud product shall be used as the version number. For example: The latest version number used by VM in the example can be searched in API [Update History](../../API/Virtual-Machines/ChangeLog.md).
+
+- Each cloud product has its own Client. When API of this product is called, the Client of such product will be used. For example: When VmClient of Virtual Machines is used, only APIs of Virtual Machines (Vm) can be called; when AgClient of Availability Group is used, only APIs of Availability Group (Ag) can be called.
+
+
+ 
 
  
 

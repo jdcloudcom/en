@@ -22,10 +22,6 @@ sudo apt-get install automake autotools-dev fuse g++ git libcurl4-openssl-dev li
 
 **2. Installation**
 
-You can use the two methods below for installation:
-
-2.1 Build installation:
-
 ```
 git clone https://github.com/s3fs-fuse/s3fs-fuse.git
 cd s3fs-fuse
@@ -37,7 +33,6 @@ sudo make install
 
 2.2 Packages installation:
 
-CentOS：
 ```
 sudo yum install epel-release
 sudo yum install s3fs-fuse
@@ -90,7 +85,7 @@ df -h
 
 **Tips：**
 
-1. If CentOS 6 is used, please refer to the following installation steps:
+1. If CentOS 6 is used, please install fuse by referring to the following:
 
 ```
 yum install automake gcc-c++ git libcurl-devel libxml2-devel make openssl-devel
@@ -134,3 +129,5 @@ sudo s3fs bucketname /new -o passwd_file=~/.passwd-s3fs -o url="https://s3.cn-no
 - For catalogs mounted by the `s3fs` command, it needs use `umount` command at first and the command will take effect once the `s3fs` command is executed once again.
 
 5. If you enable static website hosted before using S3fs to mount Bucket, the mount will fail; if you enable static website hosted after using S3fs to mount Bucket, the file operation will be invalid.
+
+6. If the Debug mode is needed, please specify the parameter `-o dbglevel=dbg -f -o curldbg` in the case of attaching

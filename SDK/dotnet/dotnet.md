@@ -29,13 +29,13 @@
 Find the JDCloudSDK in the visual studio Nuget package browser or enter commands with Package Management Console
 
 ```powershell
-Install-Package JDCloudSDK.Vm -Version 0.7.4.1
+Install-Package JDCloudSDK.Vm -Version 1.2.0.1
 ```
 
 or use .NET CLI for installation
 
 ```powershell
-dotnet add package JDCloudSDK.Vm --version 0.7.4.1
+dotnet add package JDCloudSDK.Vm --version 1.2.0.1
 ```
 
 Please select the module which you need to install.
@@ -95,3 +95,14 @@ If you need to set up an additional header, for example, call an interface that 
 ```csharp
 vmClient.SetCustomHeader("x-jdcloud-security-token","xxx");
 ```
+
+**Note:**
+
+- JD Cloud does not provide other download methods. Please be sure to adopt the above official download method.
+
+- The latest version number provided by JD Cloud product shall be used as the version number. For example: The latest version number used by VM in the example can be searched in API [Update History](../../API/Virtual-Machines/ChangeLog.md).
+
+- Each cloud product has its own Client. When API of this product is called, the Client of such product will be used. For example: When VmClient of Virtual Machines is used, only APIs of Virtual Machines (Vm) can be called; when AgClient of Availability Group is used, only APIs of Availability Group (Ag) can be called.
+
+
+ 

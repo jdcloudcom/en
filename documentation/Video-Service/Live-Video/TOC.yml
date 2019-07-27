@@ -65,7 +65,9 @@ items:
       href: Operation-Guide/Streaming-Management.md
     - name: Statistics & Analysis
       href: Operation-Guide/Statistical-Analysis.md
-- name: Best Practices
+    - name: Log Management
+      href: Operation-Guide/Live-Log.md
+- name: Live Tool
   items:
     - name: SDK Introduction
       href: SDK-Reference/SDK-introduction.md

@@ -59,7 +59,7 @@ The implementation of the customized data function depends on the system compone
 * Private/shared Image: If an instance of a private image is created using a public image and created no earlier than December 14, 2018, then this function can be normally used when using the private/shared image to create instances;<br>
 * Cloud Marketplace Image: The frequency of Cloud Marketplace image update depends on the service provider. Different images support different types of customized data functions. Please open ticket or contact JD Cloud technical support personnel for consulting.
 
-You can confirm whether the private image created based on the current instance supports this function by viewing the version of JCS-Agent in the instance:<br>
+You can confirm whether the private image created based on the current instance supports this function by viewing the version of JCS-Agent in the instance by the following means. If the agent installed in the current instance is other early-stage components or the version of JCS-Agent is too low, please refer to [Public Image System Component](http://docs.jdcloud.com/en/virtual-machines/default-agent-in-public-image) for installation.<br>
 
 ### Linux System<br>
 1. Confirm that the JCS-Agent is installed in the current instance and is running.

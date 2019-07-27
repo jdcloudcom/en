@@ -6,7 +6,7 @@ Method 2: By self-service enabling through the official website, the process is 
 
 ![image.png](https://img1.jcloudcs.com/cms/266a0834-5e5d-47db-9710-d01195b30bf520180117155324.png)
 
- 1.       Log in [JD Cloud Official Website](https://www.jdcloud.com/index), click "[Register for Free](https://uc.jdcloud.com/reg?returnUrl=http%3A%2F%2Fwww.jdcloud.com)" at the right top corner, and register a JD Cloud account
+ 1.       Log in [JD Cloud Official Website](https://www.jdcloud.com/en/), click "[Register for Free](https://user.jdcloud.com/register)" at the right top corner, and register a JD Cloud account
 
 ![image.png](https://img1.jcloudcs.com/cms/750664a7-65c2-4f36-b443-d1ed4ff865e020180423110225.png)
 

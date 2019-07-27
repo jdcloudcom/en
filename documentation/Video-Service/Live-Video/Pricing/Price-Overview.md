@@ -36,7 +36,7 @@ The peak bandwidth consumed is billed per day. A bandwidth is counted per 5 minu
 </table>
 Live traffic will be deducted as per actual traffic consumed per day. For video play acceleration cost, the customer can select charging method as per bandwidth or traffic.   
 
-## Live Transcode 
+## Live Transcode-Jingxiang Super Definition 
 <table>
 <tr>
     <td>Coding Mode<br/>

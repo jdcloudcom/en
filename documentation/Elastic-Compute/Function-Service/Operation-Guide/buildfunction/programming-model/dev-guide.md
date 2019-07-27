@@ -1,5 +1,5 @@
 
-# Basic Concept
+# Function Development Guide
 
 Where the user uses the language supported by the Function Service of JD Cloud to write codes, a general code writing mode comprising the following core concepts shall be used:
 

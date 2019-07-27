@@ -31,8 +31,8 @@ Click Change to attach it as a system disk to the Virtual Machine![](../../../..
 
 The multi-attachment cloud disk cannot be attached as a system disk. If you select a non-multi-attachment cloud disk that is billed by configuration, you can set the attribute as to be deleted on instance termination (release behavior) along with the instance. If it is a system disk, by default, it will be deleted on instance termination, and the attribute can be modified. If such attribute is ticked, the corresponding cloud disk will be deleted when the instance is deleted. If such attribute is not ticked, the cloud disk will remain when the instance is deleted. Deletion attribute cannot be specified for the cloud disk under monthly package, so the disk will remain when the instance is deleted.
 
-		Please note:
-		* The instance needs to be in the "Stopped" status;
+	Please note:
+	    * The instance needs to be in the "Stopped" status;
 	    * The capacity of the disk to be attached needs to be between 40GB~500GB.
 
 In addition, you can also perform attaching operation from the cloud disk console. Refer to [Cloud Disk Side Attaching](http://docs.jdcloud.com/en/cloud-disk-service/attach-cloud-disk) for detailed steps.

@@ -7,6 +7,7 @@ You can view the instances you have through the console:
 * [Instance Details Page](Query-Instance-Info#user-content-3): You can view the details of the specified instance.
 
 <div id ="user-content-1"></div>
+
 ## Overview Page
 
 [Overview Page](https://console.jdcloud.com) is the default home page for logging in to the JD Cloud console. You can view the number of region instances and quota in the current account. ![](../../../../../image/vm/queryinstance4.png)
@@ -14,6 +15,7 @@ You can view the instances you have through the console:
 	
 	
 <div id ="user-content-2"></div>
+
 ## Instance List Page
 
 1. Access [Virtual Machines Console](https://cns-console.jdcloud.com/host/compute/list) and enter the instance list page. Or access [JD Cloud Console](https://console.jdcloud.com) Click navigation bar on the left **Elastic Compute** - **Virtual Machines** to enter the instance list page.
@@ -30,6 +32,7 @@ You can view the instances you have through the console:
 		
 You can also view related information from the instance list page to VPC, Subnet, and Availability Group, etc. of instance.
 <div id ="user-content-3"></div>	
+
 ## Instance Details Page
 
 1. Access [Virtual Machines Console](https://cns-console.jdcloud.com/host/compute/list) and enter the instance list page. Or access [JD Cloud Console](https://console.jdcloud.com) Click navigation bar on the left **Elastic Compute** - **Virtual Machines** to enter the instance list page.

@@ -2,13 +2,54 @@
 
 A function is a combination of code, runtime, resources, and settings required to implement a function. It is the smallest unit that can run independently. The function is triggered by a trigger, which is subject to auto scaling according to the business requirements to implement the expected function.
 
- 
-See Table 1 for the details when the function supported by Function runs.
+## Function Attribute
 
-Table 1: List Upon Function Running
+When a function is created, in addition to the code and any associated dependencies, the function attribute information shall also be configured. Function offers console and API to configure the function attribute. The function configuration information is shown as follows:
 
-| Type Upon Running |   Document Link |
-| ---------- | -------- |
-| Python 2.7 Version   |  [Programming Model](programming-model/basic-concept.md) |  
-| Python 3.6 Version   |  [Programming Model](programming-model/basic-concept.md) | 
-| Python 3.7 Version   |  [Programming Model](programming-model/basic-concept.md) | 
+**name**(mandatory): Function Name It shall be unique within the current service and complies with the following restrictions:
+
+   1. It can only contain letters, digits, underline and line-through
+   2. It cannot begin with digits and line-through
+   3. Case sensitive
+   4. The length is between 1-128 characters
+                         
+**description**(optional): function description. Provide users with attributes for identification, recording, and you can easily describe your functions for annotation and differentiation. 
+
+**entrance**(mandatory): processing function, which is the call entry for Function to run the user Function.
+
+**memory**(optional): Memory resources required for the function to run, unit in MB. Value range is [128, 1024], the step size is 128 MB.
+
+**runTime**(mandatory): Type upon function running.
+
+**overTime**(optional): Maximum run time of function, unit in second.
+
+
+**code**(mandatory): Code package. It must be zip type and uploaded locally.
+
+
+**In addition to the above, the followings can also be configured in the advanced configuration:**
+
+**environment**(optional): Environment variables defined in the configuration are available from the environment when the function runs.
+
+**vpcId**(optional): Configure Virtual Private Cloud.
+
+**subnetId**(optional): Configuration subnet, functions that have been configured in the VPC and subnet will be put in the configured Virtual Private Cloud to run.
+
+Public network (require no configuration): The function opens public network access by default.
+
+**logSetId**(optional): Designate log set.
+
+**logTopicId**(optional): Designate log topic.
+
+**Description **:  Other attributes can be modified later, except the function name.
+
+## List Upon Function Running supported by Function
+
+
+| Type Upon Running | Version Upon Running | Document Link |
+| ---------- | -------- | -------- |
+| Python 2.7  | Python 2.7 Version | [python runtime](runtime/python.md) |  
+| Python 3.6   | Python 3.6 Version | [python \runtime](runtime/python.md) | 
+| Python 3.7   | Python 3.7 Version | [python \runtime](runtime/python.md) | 
+| NodeJS 6    | NodeJS 6.17 Version | [nodejs runtime](runtime/nodejs.md) | 
+| NodeJS 8    | NodeJS 8.16 Version | [nodejs runtime](runtime/nodejs.md) | 

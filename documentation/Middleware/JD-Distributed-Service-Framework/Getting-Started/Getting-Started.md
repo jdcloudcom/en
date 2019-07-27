@@ -17,7 +17,7 @@ Functions provided by JD Distributed Service Framework of JD Cloud include: Regi
 
 ###  Step 1: Enable Service
 #### Register an Account
-Register a JD Cloud account. If you have already had a JD Cloud account, you can skip the step and carry out subsequent settings. If you have not registered a JD Cloud account, you can conduct registration at JD Cloud official website, please see [Registration](https://accounts.jdcloud.com/p/regPage?source=jdcloud&ReturnUrl=https%3a%2f%2fuc.jdcloud.com%2fpassport%2fcomplete%3freturnUrl%3dhttps%3a%2f%2fwww.jdcloud.com).
+Register a JD Cloud account. If you have already had a JD Cloud account, you can skip the step and carry out subsequent settings. If you have not registered a JD Cloud account, you can conduct registration at JD Cloud official website, please see [Registration](https://user.jdcloud.com/register).
 
 #### Verification Account
 You need to verify your account so as to use the service normally.

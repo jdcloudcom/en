@@ -71,12 +71,12 @@ A: Anti-DDoS Pro sets up error code pages for the following special cases, and y
 
 | Error Code	| Meaning	| Reasons for Occurring | What to do |
 | :- | :- | :- | :- |
-|ERROR 422|	Access denied| 	Sorry, the webmaster has performed IAM to the region you are in or the access IP and denied your access because of possible malicious behavior on your computer or IP. |	Please contact the webmaster to modify the access policy. |
-|ERROR 420 |	Request to re-enter |	The same access from you has passed though the node of Anti-DDoS Pro of JD. |	Please confirm the website configuration, and confirm whether it is configured with multiple proxy servers, and the proxy path has generated loop. |
-|ERROR 522 |	The origin server is unreachable	. The same access from you has passed though the node of Anti-DDoS Pro of JD. |F	or errors occurring to the origin server, the common causes are DNS setting error, changes have not taken effect or origin server firewall |The request is blocked. Please access later or contact the webmaster. |
-|ERROR 421 |	The domain name does not exist	| The domain you access has not purchased Anti-DDoS Pro service of JD Cloud or the configuration has not taken effect, so the services cannot be provided. |	Please confirm the website has purchased Anti-DDoS Pro service of JD Cloud and the configuration has taken effect. |
-|ERROR 523|	The origin server is busy |	The server is busy due to the possible reason that the origin server is subject to CC attack	| The origin server is busy. Please access later. |
-|ERROR 524 |	The server is busy	. The origin server is busy. |	The origin server is busy. Please access later. |
+|ERROR 400| The domain is absent | The domain is not configured to the Anti-DDoS Pro instance| Detect configuration and add website forwarding domain|
+|ERROR 421 | Connection blocked	| Hitting Blacklist Rules |	Please confirm the Anti-DDoS Pro service of JD Cloud has been purchased for the website and the configuration has taken effect.|
+|ERROR 493 |	Request to re-enter |	The same access from you has passed through the node of Anti-DDoS Pro of JD for several times or has been intercepted by CC defense. |	Please confirm whether the website is configured with multiple proxy servers, and the proxy path has generated loop.|
+|ERROR 522 | Origin servers return errors |Origin server returns error codes 500 and 502 | Origin Server Detection Service|
+|ERROR 526 |	Origin server is busy | Back-to-origin connection creation of Anti-DDoS Pro node failed or is overtime	| Origin Server Detection|
+|ERROR 527 | Origin servers return errors |Origin server returns error code 504 | Origin Server Detection Service|
 
 An example of the error page style:
 ![](https://github.com/jdcloudcom/en/blob/edit/image/Advanced%20Anti-DDoS/error%20page.png)

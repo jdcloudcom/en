@@ -56,13 +56,13 @@
           href: Getting-Started/Cloud-Disk/Parted-Format/Linux-Partition.md
         - name: Windows partitioning, formatting and creating file system
           href: Getting-Started/Cloud-Disk/Parted-Format/Windows-Partition.md
-         
-    - name: Cloud Disk Service capacity upgrading
-      href: Getting-Started/Cloud-Disk/Disk-Expand.md
+          
     - name: file system expansion
       items:
         - name: Cloud Disk Service expansion overview
           href: Getting-Started/Cloud-Disk/Expand-Filesystem/Cloud-Disk-Expansion-Overview.md
+        - name: Cloud Disk Service capacity upgrading
+          href: Getting-Started/Cloud-Disk/Disk-Expand.md
         - name: file system expansion (Windows)
           href: Getting-Started/Cloud-Disk/Expand-Filesystem/Expand-File-System-Windows.md
         - name: file system expansion (Linux)

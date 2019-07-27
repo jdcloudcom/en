@@ -39,6 +39,15 @@ Click **Management** in video management list to enter the video detail informat
 
 ![视频信息-Web播放器代码.png](../../../../image/Video-on-Demand/视频信息-Web播放器代码.png)
 
-    
-
+**For player code parameters, please refer to the table below**
+	
+|Parameter Name|Parameter Description|Value Description|
+|-|-|-|
+|autoplay|Autoplay Setting|true: Autoplay Setting    false: No Autoplay|
+|controls|Display Control Strip|true: Display   false: No Display|
+|loop|Loop Playback or not|true: Loop Playback  false: No loop playback|
+|aspectRatio|Video Display Aspect Ratio|Value refers to the character string, e.g., "16:9" and "4:3"|
+|muted|Mute Setting|true: Mute  false: Non-mute|
+|width|Player Width|Value: Character String or number, unit pixel (px), e.g.: width:300 or width:'300px'|
+|height|Player Height|Value: Character String or number, unit pixel (px), e.g.: height:300 or height:'300px'|
     

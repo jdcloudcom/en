@@ -61,11 +61,18 @@
               href: Operation-Guide/Database/Expand-Database/View-Expansion-Task.md
             - name: Check and Clear
               href: Operation-Guide/Database/Expand-Database/Drop-Migrated-Databases.md               
-              
-      - name: Table Management
-        items:
-          - name: Table DDL Syntax
-            href: Operation-Guide/Table/Table-DDL.md
+  - name: SQL Document
+    items:
+      - name: DRDS SQL Introduction
+        href: SQL-Doc/DRDS-SQL-Introduction.md
+      - name: DDL Syntax
+        href: SQL-Doc/DRDS-DDL.md
+      - name: DML Syntax
+        href: SQL-Doc/DRDS-DML.md        
+      - name: Global Self-increase ID
+        href: SQL-Doc/Auto-Increment.md
+      - name: SQL Restriction
+        href: SQL-Doc/SQL-Restrictions.md
             
   - name: FAQ
     items:

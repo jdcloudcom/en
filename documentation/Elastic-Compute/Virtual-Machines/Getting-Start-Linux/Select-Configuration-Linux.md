@@ -37,15 +37,16 @@ After you have successfully registered an account and completed real-name verifi
 
 * Storage:
   
-	JD Cloud provides Cloud Disk and local disk. A local disk is a storage device on a physical machine where the cloud server is located. It can obtain a lower delay, but there is a risk of single point data loss. The Cloud Disk adopts a multi-backup and distributed storage mode with high data reliability. The Cloud Disk provides **SSD Cloud Disk** and **Premium Hdd Cloud Disk** to be used as the system disk and data disk for the instance. Please see [Cloud Disk Type](http://docs.jdcloud.com/en/cloud-disk-service/specifications) for details.
+	JD Cloud provides Cloud Disk and local disk. A local disk is a storage device on a physical machine where the cloud server is located. It can obtain a lower delay, but there is a risk of single point data loss. The Cloud Disk adopts a multi-backup and distributed storage mode with high data reliability. Cloud Disk Service provides various types of Cloud Disks to be taken by instances as system and data disks. Please see [Cloud Disk Type](http://docs.jdcloud.com/en/cloud-disk-service/specifications) for details.
 	
 	* System Disk:: Support local disk and cloud disk, of which the local disk has 40GB for free, and the capacity cannot be changed. The cloud disk supports 40GB~500GB.
-	* Data Disk: If the system disk is a local disk, it supports attaching 8 data disks. If the system disk is a cloud disk, it supports attaching 7 data disks. It supports SSD cloud disk and Premium Hdd cloud disk, and the capacity can be set by yourself.
+	* Data Disk: If the system disk is a local disk, it supports attaching 8 data disks. If the system disk is a cloud disk, it supports attaching 7 data disks. The capacity can be set by yourself.
     
    Different types of cloud disks support different capacity ranges:
    
-   * Premium Hdd Cloud Disk as a data disk: 20G~3,000G.                
-   * SSD Cloud Disk as data disk: 20G~1,000G.
+   * General SSD cloud disks are used as data disks: 20G~4000G.     
+   * Performance SSD cloud disks are used as data disks: 20G~4000G.
+   * Capacity-oriented HDD cloud disks are used as data disks: 20G~4000G.
 
 * Networking:
     * VPC and Subnet: Select VPC and Subnet: You need to create a VPC and a subnet in the VPC first. Please see [VPC](http://docs.jdcloud.com/virtual-private-cloud/product-overview) and [Subnet](http://docs.jdcloud.com/virtual-private-cloud/subnet-features) for details.
@@ -71,7 +72,7 @@ After you have successfully registered an account and completed real-name verifi
 
 * Purchase Quantity:
     
-    After selecting all the configuration parameters, user needs to determine the instance quantity to be purchased, which is limited to your Virtual Machines, Cloud Disk and EIP quota as well as the remaining IP quantity of the subnet you have selected. If the quota is not enough, you can increase it via [Open Ticket][1]. 
+    After selecting all the configuration parameters, user needs to determine the instance quantity to be purchased, which is limited to your Virtual Machines, Cloud Disk and EIP quota as well as the remaining IP quantity of the subnet you have selected. If the quota is not enough, you can increase it via [Open Ticket](https://ticket.jdcloud.com/myorder/submit). 
 
 After knowing how to set the above configuration items, you can create a Linux VM instance in the console by referring to the next document.
 

@@ -10,6 +10,13 @@
 - One service port corresponds to one group of Load Balancer Listeners and backend servers;
 - Where several service port groups are associated with the same nodeport, the listener will be associated with the same backend service;
 - The backend server name and listener name of Application Load Balancer of JD Cloud cannot exceed 32 characters. By default, the backend server name and the listener name, associated with and created by service, shall respectively cite the service name and port name. As a result, the service name and port name shall not exceed 14 characters, respectively. For creation of backend server and listener of Application Load Balancer, please refer to [Backend Service Management](https://docs.jdcloud.com/en/application-load-balancer/backend-management) and [Listener Management](https://docs.jdcloud.com/en/application-load-balancer/listener-management) of Load Balancer.
+- If it is required to specify the Public IP bandwidth associated with LB, add the following annotations to the service:
+
+```
+annotations:
+    service.beta.kubernetes.io/jdcloud-load-balancer-floatingIP-bandwidth: "XX"           #XXReplace with the desired Public IP bandwidth, such as 20; 10M by default
+
+```
 
 1. Create service that supports LoadBalance type. It's named myservice.yaml and defined as follows:
 ```

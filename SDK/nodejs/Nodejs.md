@@ -24,8 +24,17 @@ You can also download the sdk source code yourself. The source code address is [
 
 With any of the problems in the SDK use, welcome to communicate at the [Github SDK Use Problem Feedback page](https://github.com/jdcloud-api/jdcloud-sdk-nodejs/issues).
 
-**Note: JD Cloud does not provide other downloading ways, please be sure to use the above-mentioned official download method.**
 
+**Note:**
+
+- JD Cloud does not provide other downloading ways, please be sure to use the above-mentioned official download method.
+
+- The latest version number provided by JD Cloud product shall be used as the version number. For example: The latest version number used by VM in the example can be searched in API [Update History](../../API/Virtual-Machines/ChangeLog.md).
+
+- Each cloud product has its own Client. When API of this product is called, the Client of such product will be used. For example: When VmClient of Virtual Machines is used, only APIs of Virtual Machines (Vm) can be called; when AgClient of Availability Group is used, only APIs of Availability Group (Ag) can be called.
+
+
+ 
 
 
  

@@ -1,7 +1,7 @@
 # Introduction
 
 &emsp;&emsp; Welcome to use JD Cloud iOS SDK (programmed with swift). You can access various services provided by JD Cloud without complex programming by using JD Cloud iOS SDK.    
-&emsp;&emsp; We recommend you view OpenAPI Getting Started first prior to using SDK so that you can easily understand the meaning of some concepts and parameters in the SDK. Please see program notes or API documents of specific product line under [OpenAPI&SDK](https://docs.jdcloud.com/cn/?act=3) for understanding the specific parameters and meaning of each API.
+&emsp;&emsp; We recommend you view OpenAPI Getting Started first prior to using SDK so that you can easily understand the meaning of some concepts and parameters in the SDK. Please see program notes or API documents of specific product line under [OpenAPI&SDK](https://docs.jdcloud.com/en/?act=3) for understanding the specific parameters and meaning of each API.
 
 # Environment Preparation & Compilation
 
@@ -27,7 +27,7 @@ pod install {framework name}
 ```Swift
 dependencies: [
         // Dependencies declare other packages that this package depends on.
-        .package(url: "https://github.com/jdcloud-api/jdcloud-sdk-ios.git", from: "0.0.1"),
+        .package(url: "https://github.com/jdcloud-api/jdcloud-sdk-ios.git", from: "0.0.11"),
     ]
 ```
 
@@ -63,3 +63,14 @@ try vmClient.describeInstancesAsync(request: describeInstancesRequest) { (status
   print(error)
 }
 ```
+
+**Note:**
+
+- JD Cloud does not provide other download methods. Please be sure to adopt the above official download method.
+
+- The latest version number provided by JD Cloud product shall be used as the version number. For example: The latest version number used by VM in the example can be searched in API [Update History](../../API/Virtual-Machines/ChangeLog.md).
+
+- Each cloud product has its own Client. When API of this product is called, the Client of such product will be used. For example: When VmClient of Virtual Machines is used, only APIs of Virtual Machines (Vm) can be called; when AgClient of Availability Group is used, only APIs of Availability Group (Ag) can be called.
+
+
+ 

@@ -9,7 +9,7 @@ JD Cloud API Gateway provides API whole life cycle management, traffic control p
 
 
 ## Preconditions
-- JD Cloud account registration is done and real-name verification is completed. If you don't have an account yet, please [register](https://accounts.jdcloud.com/p/regPage?source=jdcloud).
+- JD Cloud account registration is done and real-name verification is completed. If you don't have an account yet, please [register](https://user.jdcloud.com/register).
 
 
 ## Operation Steps

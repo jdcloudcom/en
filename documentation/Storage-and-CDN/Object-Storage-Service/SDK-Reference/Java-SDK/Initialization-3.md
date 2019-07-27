@@ -10,7 +10,7 @@ Please read the part of "[Basic Concepts](../../API-Reference/Introduction/Basic
 
 A pair of valid Access Keys (including Access KeyId and Access KeySecretID) to perform signature verification for accessing JD Cloud OSS. They can be acquired through the following steps:
 
-* [register JD Cloud accounts](https://uc.jdcloud.com/reg?returnUrl=http%3A%2F%2Fwww.jdcloud.com%2Findex)
+* [register JD Cloud accounts](https://user.jdcloud.com/register)
 
 * [Apply for AccessKey](https://uc.jdcloud.com/accesskey/index)
 

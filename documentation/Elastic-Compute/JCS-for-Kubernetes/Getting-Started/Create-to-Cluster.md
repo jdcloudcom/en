@@ -22,7 +22,7 @@ It is recommend that before formally deploying business, you should use an insta
 ## Create Cluster
 
  1. Open the console and select Elastic Compute>>JCS for Kubernetes>>cluster service>>cluster
- ![Create Cluster](../../../../image/Elastic-Compute/JCS-for-Kubernetes/新建Kubernetes集群集群信息.png).  
+ ![Create Cluster](../../../../image/Elastic-Compute/JCS-for-Kubernetes/Create JCS for Kubernetes cluster information.png).  
  2. Select a region and availability zone: It is recommended that you should select the region and availability zone where the cluster is located according to specific business conditions; by default, all availability zones under the specified region are selected and it is recommended to use the default mode; you can also cancel any one or more selected availability zones, but you shall ensure at least one availability zone is selected.
 
  3. Set the name and description: Name should not be null, which only supports Chinese text, figures, uppercase and lowercase letters, English text, underline " _ " and line-through " - ", with a length no more than 32 characters; description is an optional item, with a length no more than 256 characters.
@@ -46,17 +46,23 @@ You need to add a working node group when creating a new cluster. You can config
  ![新建集群增加工作节点组](../../../../image/Elastic-Compute/JCS-for-Kubernetes/新建Kubernetes集群工作节点组.png) 
 
 1. VPC: Select the VPC to deploy the working node group resources:
-  * JD Cloud will create four subnets in the selected VPC, including Working Node Subnet, Pod Subnet, Service Subnet and Service-LB Subnet;
+  * JD Cloud will create four subnets in the selected VPC, including Working Node Subnet, Pod Subnet, Service Subnet and Service-LB Subnet, and create one route table for each of the subnets.
   * The CIDR created in the above VPC cannot be overlapped with other CIDRs created in VPC; for details, please refer to [Subnet Configuration](https://docs.jdcloud.com/en/virtual-private-cloud/subnet-configuration);
   * The working node group and the management node will be connected via the VPC Peering Network, so the selected VPC CIDR cannot be overlapped with the management node CIDR; for details, please refer to [VPC Peering Connection](https://docs.jdcloud.com/en/virtual-private-cloud/vpc-peering-configuration);
-  * To avoid failing to create subnets related to working nodes caused by CIDR overlap, it is recommended that you create a new VPC;
+  * To avoid failing to create subnets related to working nodes caused by CIDR overlap, it is recommended that you [create a new VPC](https://docs.jdcloud.com/en/virtual-private-cloud/vpc-configuration);
   * The value range of VPC CIDR is 16 ~ 18.
+  * When a cluster is created, the relevant quota of Virtual Private Cloud will be verified. So, please guarantee that the relevant network has a sufficient quota. For details, refer to [use restrictions for Virtual Private Cloud](https://docs.jdcloud.com/en/virtual-private-cloud/restrictions).
 
 2. Select working node group version: It is recommended that you select a default working node group version matching the current management node version; click the drop-down list to show all working node group versions supported by current management node version.
 
-3. Specification: Select different Virtual Machines instance types according to specific business situations and the Virtual Machines support Generation II specification and GPU instance type. You can refer to [Instance Type](https://docs.jdcloud.com/en/virtual-machines/instance-type-family).
+3. Specification: Select different working nodes types according to specific business situations and the Virtual Machines support Generation II specification and GPU instance type. You can refer to [Instance Type](https://docs.jdcloud.com/en/virtual-machines/instance-type-family).
+  * JD Cloud uses Virtual Machines as the working node of clusters;
+  * The working nodes in each of the working node groups have the same instance type;
+  * You can [add multiple node groups](https://docs.jdcloud.com/en/jcs-for-kubernetes/create-nodegroup) for a cluster, and different instance types are designated for each of the node groups for meeting the requirements of different types of application loads for instance types;
 
-4. Count: The default count is 3; you can click **Increase**, **Decrease** or enter the expected node count directly according to needs; the maximum count of working nodes is subject to the quota of Virtual Machines in current region and assignable count of Private IP of working node CIDR.
+4. Count: The default count is 3; you can click **Increase**, **Decrease** or enter the expected node count directly according to needs; the maximum count of working nodes is subject to [the quota of Virtual Machines](https://docs.jdcloud.com/en/virtual-machines/restrictions) in current region and assignable count of Private IP of Working Node Subnet CIDR.
+  * A Virtual Machine is created in the designated region/availability zone every time a working node is added;
+  * To adjust the count of nodes in a cluster, you can [manually scale](https://docs.jdcloud.com/en/jcs-for-kubernetes/telescopic-nodegroup) the designated node group or [add working node groups](https://docs.jdcloud.com/en/jcs-for-kubernetes/create-nodegroup) and [delete working node groups](https://docs.jdcloud.com/en/jcs-for-kubernetes/delete-nodegroup);
 
 5. Name: The default name is nodegroup1 and is unchangeable, supporting Chinese, numbers, uppercase and lowercase letters, English underline "_" and line-through "-", with at most 32 characters. Working node groups under the same cluster shall not have the same name.
 

@@ -67,6 +67,8 @@
             href: Operation-Guide/Authorization-Management/Main-Main-Authorization.md
           - name: Primary-sub-account Authorization
             href: Operation-Guide/Authorization-Management/Main-Sub-Authorization.md
+          - name: Role Authorization
+            href: Operation-Guide/Authorization-Management/Role-Authorization.md           
       - name: API Reference (receiving and sending of HTTP messages)
         items:
           - name: Invoke Method

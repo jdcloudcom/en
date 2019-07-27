@@ -83,12 +83,16 @@
        items:
          -  name: Deploy Deployment
             href: Best-Practices/Deploy-Applications/Deploy-Deployment.md
-         -  name: Deploy StorageClass
-            href: Best-Practices/Deploy-Applications/Deploy-StorageClass.md
-         -  name: Deploy Persistent Storage
-            href: Best-Practices/Deploy-Applications/Deploy-PV.md
-         -  name: Deploy Service
+         -  name: Deployment Service
             href: Best-Practices/Deploy-Applications/Deploy-Service.md
+     - name: Volumes
+       items:
+         -  name: Use Cloud Disk as Volume
+            items:
+             -  name: Deploy StorageClass
+                href: Best-Practices/Volumes/Cloud-Disk-Service/Deploy-StorageClass.md
+             -  name: Deploy Persistent Storage
+                href: Best-Practices/Volumes/Cloud-Disk-Service/Deploy-PV.md
      - name: Ingress
        items:
          -  name: Deploy Nginx-ingress controller
@@ -103,8 +107,6 @@
        href: Best-Practices/Deploy-Helm.md
      - name: Run Istio on JCS for Kubernetes
        href: Best-Practices/Deploy-istio.md
-     - name: Use Object Storage Service Bucket as the shared storage
-       href: Best-Practices/Oss-s3fs-volume.md
      - name: Deploy NVIDIA GPU driver of customized version
        href: Best-Practices/Custom-GPU-driver.md
   - name: FAQ  

@@ -2,7 +2,7 @@
 
 ## Account Limit
 * You need to perform real-name verification for the JD Cloud account used to create the VM instance. For details, please refer to [Real-name Verification](http://docs.jdcloud.com/en/real-name-verification/real-name-verification);
-* To create an instance billing by monthly package, you need to prepay the instance fee. To create an instance billing by configuration, you need to keep the total sum of your account balance and available coupons no less than RMB 50.
+* The instance cost shall be pre-paid when a monthly package billing instance is created, and the sum of your account balance and available coupon shall not be less than the consumption threshold when a pay-by-configuration billing instance is created.
 
 ## Usage Restrictions
 * Secondary virtualization is not supported for now (such as installing and using VMware and Hyper-V).

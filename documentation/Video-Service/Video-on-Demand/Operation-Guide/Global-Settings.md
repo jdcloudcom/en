@@ -1,12 +1,65 @@
 # Global Settings
 
 ## 1. Transcoding Settings
-Log in VOD console, click **VOD**-**Global Configuration**-**Transcoding Settings** on the menu bar at the left to access Transcoding Configuration page. You can click **Add Transcoding Template** to add new transcoding template(s). For existed transcoding templates, you can click **Edit** in the template list to access Template Edit page for modifying video and audio parameters in the templates.
 
-![](https://github.com/jdcloudcom/cn/blob/6095a336fd4c1d5c1e448a37e933d569414fe918/image/Video-on-Demand/%E8%BD%AC%E7%A0%81%E8%AE%BE%E7%BD%AE1.png)
+JD Cloud’s Video on Demand product provides two transcode methods, i.e., "Jingxiang Super Definition" and "Topspeed Transcode". Customers can create different template types in the template according to their own business demands. In the transcoding process, the "comfortable audio" function is also provided to bring better audio and video experience. For specific introduction, please refer to the document below.
 
-The template editing interface is as shown below:
-![](https://github.com/jdcloudcom/cn/blob/cn-Video-on-Demand/image/Video-on-Demand/%E6%A8%A1%E6%9D%BF%E7%BC%96%E7%A0%81%E5%8F%82%E6%95%B0%E8%AE%BE%E7%BD%AE.png)
+**Jingxiang Super Definition: ** Jingxiang super definition transcode is based on JD Cloud’s unique "Intelligent Definition" coding and transcode technology. It enables intelligent analysis and treatment to contents, scenarios and images in videos, provide high-quality video, lower video code rate and effectively save use bandwidth and cost for customers, thus being suitable for most business scenarios.
+
+**Topspeed transcode: ** Topspeed transcode is based on the "Particle Transcode" technology developed by JD Cloud on its own. It supports multiple transcode acceleration, greatly reducing transcode time and meeting customers’ demands for rapid production and release of videos. It is suitable for business scenarios where a large number of video sources are to be processed with high requirements on transcode speed, rapid release but low requirements on image quality.
+
+**Comfortable audio: **The comfortable audio is based on JD Cloud’s unique "Enjoy Intelligent Audio" analysis and processing technology. It analyzes audio volume, automatically enables automatic gain and dynamic range adjustment for audios,
+making volume transition between programs in different scenarios smoother and bringing more comfortable audio and video enjoyment to customers.
+
+|Transcode Method  |Additional Function|Applicable Scenario|
+|-|-|-|
+|Jingxiang Super Definition|With Overlaid Watermark and Comfortable Audio|Improve definition while decreasing video code rate, suitable for most video processing scenarios,|
+|Topspeed transcode|Comfortable audios can be overlaid and watermarks cannot be overlaid|Multiple transcode, suitable for video processing scenarios where image quality is insensitive, transcode speed requirements are high and rapid transcode is required|
+
+
+### 1.1 Template Setting ###
+
+Log in JD Cloud Console, click **Video on Demand** product among "Video Service" product types on the left view, select **Global Configuration** menu, click **Transcode Setting** sub-menu, and enter the transcode template management page.
+
+![转码设置-总览.png](../../../../image/Video-on-Demand/转码设置-总览.png)
+
+### 1.2 Jingxiang Super Definition Template ###
+
+For template management, customers can manage corresponding templates by selecting the "Jingxiang Super Definition" tag page. The Jingxiang super definition template is divided into two types, i.e., the "Preset Template" and the "Customized Template". The preset template contains several common target resolution formats. If the preset template cannot meet your business demands, you can create a customized template via the **Add Transcode Template** button. Transcode parameters can be set according to actual demands. Meanwhile, other management operations such as edition and deletion can be made to templates in the template list.
+
+![转码设置-京享超清.png](../../../../image/Video-on-Demand/转码设置-京享超清.png)
+
+### 1.3 Topspeed Transcode Template ###
+
+For template management, customers can manage corresponding templates by selecting the "Topspeed Transcode" tag page. Customized templates can be created via the **Add Transcode Template**. Transcode parameters can be set according to actual demands. Meanwhile, management operations such as edition and deletion can be made to templates in the template list.
+
+![转码设置-极速转码.png](../../../../image/Video-on-Demand/转码设置-极速转码.png)
+
+### 1.4 Transcode Template Parameter Setting ###
+
+When adding the "Jingxiang Super Definition" or "Topspeed Transcode" template, you can set target transcode parameters according to your demands, including three parts such as "basic information", "video parameter" and "audio parameter". Parameters such as template names, video coding formats, video code rates, audio code rates can be set. The "Comfortable Audio" reinforcement function is provided to audio parameters of JD Cloud’s Video on Demand product. Once the function is enabled, automatic analysis and dynamic adjustment can be made to audio, making tone transition between different programs smoother and bringing better audio and video experience.
+
+**Video Parameter Setting**
+
+![转码设置-视频参数设置.png](../../../../image/Video-on-Demand/转码设置-视频参数设置.png)
+
+**Audio Parameter Setting**
+
+![转码设置-音频参数.png](../../../../image/Video-on-Demand/转码设置-音频参数.png)
+
+**Comfortable Audio Setting**
+
+![转码设置-舒适音频.png](../../../../image/Video-on-Demand/转码设置-舒适音频.png)
+
+### 1.5 Common Transcode Parameter Recommendation ###
+
+|Definition|Recommended Code Rate|Recommended Resolution|Resolution Range|
+|-|-|-|-|
+|Standard Definition|400Kbps|640x360|128x128~640x360|
+|High Definition|1500Kbps|1280x720|641x361~1280x720|
+|Super Definition|3000Kbps|1920x1080|1281x721~1920x1080|
+|2K|3500Kbps|2560x1440|1921x1081~2560x1440|
+|4K|6000Kbps|3840x2160|2561x1441~3840x2160|
 
 ## 2. Watermark Settings
 Login VOD console, click **VOD**-**Global Configuration**-**Watermark Settings** on the menu bar at the left to access "Watermark Settings" page. You can click **Add Watermark Template** to add new watermark template(s). For existed watermark templates, you can click **Edit** in the template list to access Template Edit page for modifying watermark parameters in the templates.
@@ -162,8 +215,8 @@ The authentication is passed if the HashValue worked out is consistent with the 
 
 ## 5. Callback Settings
 VOD supports message subscription of task completion. If customers need to obtain message notifications of upload completion, transcoding completion, they can set callback URL and callback events in the Callback Settings, which relevant events will be timely notified to customers through URL they entered.
-![](https://github.com/jdcloudcom/cn/blob/cn-Video-on-Demand/image/Video-on-Demand/%E5%9B%9E%E8%B0%83%E8%AE%BE%E7%BD%AE1.png)
 
+![回调设置.png](../../../../image/Video-on-Demand/回调设置.png)
 
 
 

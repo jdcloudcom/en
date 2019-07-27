@@ -6,7 +6,7 @@ It supports to use the local disk or cloud disk as system disk.
 
 For local disk, you can't select the capacity and a capacity of 40GB is given for free; it is created along with the VMs and its life cycle is the same as that of the instance, that is, it starts or ends with the instance life cycle.
 
-For cloud disks, general SSD Cloud Disk, performance-oriented SSD Cloud Disk, capacity-oriented HDD Cloud Disk, SSD Cloud Disk and Premium Hdd Cloud Disk (where the first three are only provided in cn-east-2 region and the latter two are only provided in cn-north-1, cn-east-1 and cn-south-1 regions) are supported; capability can be designated among 40GB~500GB. For a Pay By Configuration billing cloud disk which is a non-multi-point attached disk, you may designate its deletion on instance termination attribute; if they are configured as deletion on instance termination, this disk will be deleted while deleting the instance. For a Monthly Package disk or a multi-point attached disk, this attribute will not take effect and the disk will be reserved while deleting the instance.
+For cloud disks, general SSD Cloud Disk, performance-oriented SSD Cloud Disk and capacity-oriented HDD Cloud Disk are supported, capability can be designated among 40GB~500GB. For a Pay By Configuration billing cloud disk which is a non-multi-point attached disk, you may designate its deletion on instance termination attribute; if they are configured as deletion on instance termination, this disk will be deleted while deleting the instance. For a Monthly Package disk or a multi-point attached disk, this attribute will not take effect and the disk will be reserved while deleting the instance.
 
 ## Data Disk
 

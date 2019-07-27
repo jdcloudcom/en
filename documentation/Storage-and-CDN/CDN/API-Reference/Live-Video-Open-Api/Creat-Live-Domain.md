@@ -123,7 +123,7 @@ https://opencdn.jcloud.com/api/live/createDomain
 {
     "username":"jcloud_username",
     "signature":"xxxxxxxxx",
-    "siteType":"pull",//Mixing mode (pushing pulling streaming mode)
+    "siteType":"pull",//Pulling Streaming Mode
     "domainType":"pull",  //Domain type added this time
     "domain":"pullRtmp.ex.com",//Domain needed to be added this time
     "protocol":"rtmp",//If the created is pulling streaming domain, then it must be the compulsory field
@@ -154,7 +154,7 @@ https://opencdn.jcloud.com/api/live/createDomain
 {
     "username":"jcloud_username",
     "signature":"xxxxxxxxx",
-    "siteType":"push",//Mixing mode (pushing pulling streaming mode)
+    "siteType":"push",//Pushing Streaming Mode
     "domainType":"pull",  //Domain type added this time
     "domain":"pullHls.ex.com",//Domain needed to be added this time
     "protocol":"hls",//If the created is pulling streaming domain, then it must be the compulsory field

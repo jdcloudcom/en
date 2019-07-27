@@ -1,78 +1,81 @@
-# Linux partitioning, formatting and creating file system
+# Linux Partitioning, Formatting and Creating File System
 
-<br>
+Take CentOS operating system as an example, operations of data disk partitioning, formatting and creating file system are as follows:
 
+1. After attaching on the Console, you can see a non-partitioned, formatted disk in Virtual Machines. You can view the disk partitioning information by the below command:
 
-## Manually complete partitioning, formatting and attaching of data disk
+   `lsblk`
 
-If you need to manually partition, format and create file system, we take Centos operating system for example as an instruction as below:
+   As shown in figure below, unpartitioned, unformatted disk devices are /dev/vdb, `/dev/`prefix of **lsblk** output has been removed from the complete device path. If the device /dev/vdb already has partitions, its partitions will be listed as /dev/vda: /dev/vda1.
+   
+   ![lsblk](../../../../../../image/Elastic-Compute/CloudDisk/cloud-disk/parted-format/lsblk.PNG)
 
-1. After attaching on the console, you can see a non-partitioned, formatted disk in Virtual Machines. You can view the disk partition information by the following command:
+2. Before attaching and using newly created cloud disks, the file systems must be created on them. Before that, the following commands may be entered to verify whether the device contains the file system, take the device /dev/vdb as an example:
 
-```
-fdisk -l
-```
+   `file -s /dev/vdb`
 
-![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/CloudDisk/cloud-disk/parted-format/parted_001.png)
+   When the device has no file system, as shown in figure below:
 
-2. You can complete the partition by the following command /dev/vdb and please modify it to the device name to be partitioned
+   ![vdb_nonfs](../../../../../../image/Elastic-Compute/CloudDisk/cloud-disk/parted-format/vdb_nonfs.PNG)
 
-```
-fdisk /dev/vdb
+   If the device already has a file system, the system inputs and outputs are shown below (device /dev/vdb contains a file system in XFS format):
 
-```
+   ![vdb_fsexs](../../../../../../image/Elastic-Compute/CloudDisk/cloud-disk/parted-format/vdb_fsexs.PNG)
 
-After entering the command, enter n, p and 1 in turn, press enter key twice and then enter wq; complete and save it. After that, when viewing through fdisk -l once again, you can see the new partition /dev/vdb1
+   **Note: **If your cloud disk was created through a snapshot, this cloud disk may already contain the file system and data, which can be mounted without recreating the file system, recreating of file system will overwrite the original disk data. If it is confirmed that there is no need to create a file system, skip this step and mount by directly executing step X.
 
+3. If it is confirmed that it is required to create a new file system on this device, enter the mkfs-t command, take creating a file system in XFS format on the /dev/vdb device as an example:
 
-![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/CloudDisk/cloud-disk/parted-format/parted_002.png)
+   `mkfs -t xfs /dev/vdb`
 
-Note: If the hard disk capacity created is greater than 2T, do not partition it or refer to the below procedures to use parted partition:
+   It is shown as the figure below after successful operation:
 
-1) Create partition table and select GPT format:
+   ![mkfs](../../../../../../image/Elastic-Compute/CloudDisk/cloud-disk/parted-format/mkfs.PNG)
 
-![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/CloudDisk/cloud-disk/parted-format/parted_003.png)
+4. Use mount command to mount the device to the specified directory, taking mounting /dev/vdb to /mnt directory as an example:
 
-2) Create partition
+   `sudo mount /dev/vdb /mnt`
 
-![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/CloudDisk/cloud-disk/parted-format/parted_004.jpg)
+   After successful execution, the system has no notification information. The mount can be checked by entering the `df -h` command. As shown in the figure below, the device /dev/vdb has been mounted successfully.
 
-3) Run fdisk -l command again to confirm partition
+   ![mounted](../../../../../../image/Elastic-Compute/CloudDisk/cloud-disk/parted-format/mounted.PNG)
 
-![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/CloudDisk/cloud-disk/parted-format/parted_005.jpg)
+   If you want to attach the device in a different directory, you can also create an attaching directory by entering the mkdir command, taking the directory name /mypoint as an example:
 
-3. Then you need to use the following command to format the partitioned hard disk
+   `sudo mkdir /mypoint`
 
-```
-mkfs -t ext4 /dev/vdb1
-```
-Warning: This command will format and delete vdb1 device disk. If there is any existing data in this disk, do not use this command.
+   Then use /mypoint to replace /mnt in the mount command, namely `sudo mount /dev/vdb /mypoint`.
 
+   
+## Automatic Mount After Reboot
 
-![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/CloudDisk/cloud-disk/parted-format/parted_006.png)
+Virtual Machines need to be attached with Cloud Disk every time upon reboot. In order to avoid attaching Virtual Machines with the hard disk manually upon each reboot, automatic attaching of Virtual Machines with Cloud Disk after reboot can be achieved by adding entries in the device in /etc/fstab file.
 
+1. (Optional) Back up /etc/fstab file to facilitate recovery of the file after maloperation.
 
-Note: This example created an ext4 formatted file system; you can also select to create other file systems. To guarantee the completeness and availability of data to the extent of file system, it is not recommended to use formats not providing jounral mechanism, such as ext2.
+   `sudo cp /etc/fstab /etc/fstab.bak`
 
-4. Create the vdb1 catalog under mnt catalog and attach the disk to this catalog for convenience of management
+2. Enter `blkid` command to find UUID of the device.
 
+   ![check_uuid](../../../../../../image/Elastic-Compute/CloudDisk/cloud-disk/parted-format/check_uuid.PNG)
 
-```
-mkdir -p /mnt/vdb1 && mount -t ext4 /dev/vdb1 /mnt/vdb1
-```
+3. Use vim or other text editor to open /etc/fstab file, take using vim as an example below:
 
-5. View UUID of the disk
+   `vim /etc/fstab`
 
-```
-blkid /dev/vdb1
-```
-6. Replace the following codes with searched UUID and attaching target location. Namely, once the /etc/fstab file is written, the Cloud Disk Service will be automatically attached when the Virtual Machines are started at next time
+4. Add a new line of entries in fstab with the UUID, current attaching directory, file system and attaching options of devices you want to be automatically attached after reboot, respectively.
 
-```
-echo "UUID="Replace contents here with UUID searched in step 5"             /mnt/vdb1                 ext4    defaults,nofail        0 0" >> /etc/fstab
-```
-![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/CloudDisk/cloud-disk/parted-format/parted_007.png)
+   `UUID=e4abe4f9-4c65-4ce7-b8b1-171b7ab93f39 /mnt xfs defaults,nofail 0 2`
 
+   ![fstab](../../../../../../image/Elastic-Compute/CloudDisk/cloud-disk/parted-format/fstab.PNG)
 
-**Note: If the system is Centos 7 or higher, you must use nofail parameter when writing fstab; if a private image is produced for current Virtual Machines, the new virtual machine created based on this private image will be unable to normally start.**
+   **Note:**
+
+   It is recommended to add **nofail** in the attaching options, as in the above example, namely, allow the instance to start normally even if an error occurs while the device is attached. Otherwise, it may cause failure of normal start of the instance upon reboot of the instance or recreating Virtual Machines through the image created through the instance under the condition that the device of such UUID is absent (such as the Cloud Disk is uninstalled).
+
+5. (Optional) To check the validity of fstab file editing, uninstall the attached device through the `umount /mnt` command, and then enter:
+
+   `mount -a`
+
+   The command will automatically mount the device according to attaching information in fstab file, and fstab file editing is successful if the system has no error message generated.
 

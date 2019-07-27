@@ -11,8 +11,13 @@ Video search of reliable cloud storage and multi-dimension
 
 Full coverage of main stream formats  
 Abundant templates of transcoding, snapshot, and watermark, which support customization  
-Provide H.264, H.265 encoding to save mass bandwidth cost for customers  
+Provide H.264, H.265 encoding to save mass bandwidth cost for customers
 
+-   **Professional Ability**
+
+Support Jingxiang super definition transcode, improve definition while decreasing low code rate of video
+Enjoy topspeed transcode capacity and meet business scenario demands for rapid production and release of videos  
+With unique comfortable audio processing technology, tone transition is smoother and better audio and video experiences are provided
 
 -   **Video Play**
 

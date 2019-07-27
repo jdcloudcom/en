@@ -32,19 +32,19 @@ Ubuntu system runs the commands below:
 
 ![MtIp](../../../../image/Cloud-File-Service/MtIp.png)
 
-For example, the IP address of the Mount target is 10.0.0.30, which is attached to the nfs directory created in the previous step. **Note that the default NFS protocol for the attach tool is 4.1 version, so the attach commands for CentOS 7.2 and below are slightly different:**
+For example, the directory of the Mount target is 10.0.0.30:/cfs, which is attached to the nfs directory created in the previous step. **Note that the default NFS protocol for the attach tool is 4.0 version, so the attach commands for CentOS 7.2 and below are slightly different:**
 
 **CentOS 6.9 to CentOS 7.2 versions run commands below:**
 
-`sudo mount -t nfs,nfsvers=4.0 10.0.0.30:/ nfs`
+`sudo mount -t nfs,nfsvers=4.0 10.0.0.30:/cfs nfs`
 
 CentOS 7.3 and above versions run commands below:
 
-`sudo mount -t nfs 10.0.0.30:/ nfs`
+`sudo mount -t nfs 10.0.0.30:/cfs nfs`
 
 Run the commands below under Ubuntu terminal:
 
-`mount -t nfs 10.0.0.30:/ nfs`
+`mount -t nfs 10.0.0.30:/cfs nfs`
 
 5. Verify if the attachment is successful by running commands below:
 
@@ -58,7 +58,7 @@ After the attach is successful, "Filesystem" will appear as the mount target IP,
 
 1. The Cloud File Service does not support the use of data encryption during transmission. That is, the following commands are not supported for attaching the file system.
 
-sudo mount -t nfs -o tls 10.0.0.30:/ nfs
+sudo mount -t nfs -o tls 10.0.0.30:/cfs nfs
 
 2. When attaching the File Storage, the default values for the attach options are as follows. In most cases, avoid modifying the default parameter values to avoid performance or stability impact:
 

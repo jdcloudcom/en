@@ -1,13 +1,15 @@
-# Use Object Storage Service Bucket as the shared storage of JCS for Kubernetes
+# Mount Object Storage Service Bucket in JCS for Kubernetes
 S3fs is a FUSE-based file system, which allows Linux to mount Bucket to the local file system and S3fs can remain the original format of the object. By using S3fs, a Bucket can be mounted into the Linux system as a folder and used as a system folder. For more details, please refer to [Attach Bucket on Linux Instances by Using S3fs](https://docs.jdcloud.com/en/object-storage-service/s3fs). This document specifies how to attach Object Storage Service Bucket to working nodes of JCS for Kubernetes with the method Daemonset, and provides application examples to illustrate how to share specified Bucket storage between two Pods.
 
 ## I. Deploying BUCKET Attached with S3 via the Method DaemonSet
 
 1. Create one secret to save the secret key file of Object Storage Service Bucket, the file is saved with the name of s3fs-secret.yaml and the following commands are executed to create the secret object;
 
-    `
+    ```
+    wget https://kubernetes.s3.cn-north-1.jdcloud-oss.com/s3fs/s3fs-secret.yaml                #Please modify Access_Key_ID, Access_Key_Secret in s3fs-secret.yaml file first, then execute secret creation operation
+
     kubectl create -f s3fs-secret.yaml
-    `
+    ```
     
     Contents of Yaml file are as follows:
 
@@ -24,8 +26,16 @@ S3fs is a FUSE-based file system, which allows Linux to mount Bucket to the loca
         Access_Key_ID:Access_Key_Secret     #Please replace Access_Key_ID and Access_Key_Secret respectively with contents of Access Key with access permission of Object Storage Service Bucket;
     ```
 
-2. Create the Pod with s3fs file system with the Daemonset method, deploy Daemonset on the working node which allows use of Object Storage Service Bucket, and deploy Daemonset to all working nodes of cluster in this example;
+2. Create the Pod with s3fs file system with the Daemonset method, deploy Daemonset on the working node which allows use of Object Storage Service Bucket, and deploy Daemonset to all working nodes of cluster in this example:
 
+  * Execute the commands below to create Daemonset object:
+
+    ```
+    wget https://kubernetes.s3.cn-north-1.jdcloud-oss.com/s3fs/s3fs-ds.yaml                #Plesase modify Object Storage Service Bucket related contents in s3fs-ds.yaml file first, then execute Daemonset creation operation
+
+    kubectl create -f s3fs-ds.yaml
+    ``` 
+  **Note**: In this example. Daemonset uses s3fs image provided by JD Cloud, you may refer to help documentation descriptions of [Build s3fs Customized Image](https://docs.jdcloud.com/en/jcs-for-kubernetes/s3fs-custom-image) to build customized image
   * Contents of Yaml file are as follows:
     ```
     
@@ -44,7 +54,7 @@ S3fs is a FUSE-based file system, which allows Linux to mount Bucket to the loca
         spec:
           containers:
           - name: s3fs-mount
-            image: jdcloud-cn-north-1.jcr.service.jdcloud.com/jdcloud/oss-volumes   
+            image: jdcloud-cn-north-1.jcr.service.jdcloud.com/jdcloud/oss-volumes:latest       #s3fs image provided by JD Cloud, you can use customized s3fs image for replacement
             securityContext:
               privileged: true        # cannot be changed, or Object Storage Service Bucket cannot be attached
             env:
@@ -73,12 +83,19 @@ S3fs is a FUSE-based file system, which allows Linux to mount Bucket to the loca
 
     ```
 
-  * Save the yaml file with the name of s3fs-ds.yaml and execute the following commands to create the secret object;
+* **Note**:
 
-    `
-    kubectl create -f s3fs-ds.yaml
-    `
-  * Execute the following commands to confirm if all Daemonset is in running status:
+  * If it is required to access s3fs mount directories in Pod using the specified UID and GID, add runAsUser or runAsGroup definitions in the SecurityContext.
+  * If it is required to add other s3fs customized parameters in CMD exec directive of s3fs-mount container, it can be added through OPTION of env; for example, authorize all users to access MNT_POINT, add a new set of env definitions, and name is set to OPTION and value is defined as allow_other (ENV OPTION allow_other):
+
+    ```
+    - name: OPTION
+      value: allow_other
+    ```
+
+
+
+* Execute the following commands to confirm if all Daemonset is in running status:
     ```
     
     kubectl get daemonset s3fs-mount
@@ -95,9 +112,11 @@ Two Pods will be created by the example application, the first Pod will create a
 
 1. When deploying the first Pod, create one file in Object Storage Service with the name of SUCCESS, save the Yaml file with the name of test-s3fs-pod1.yaml and execute the following commands to create Pod objects:
 
-    `
+    ```
+    wget https://kubernetes.s3.cn-north-1.jdcloud-oss.com/s3fs/test-s3fs-pod1.yaml
+
     kubectl create -f test-s3fs-pod1.yaml
-    `
+    ```
     
     Contents of Yaml file are as follows:
     ```
@@ -137,9 +156,11 @@ Two Pods will be created by the example application, the first Pod will create a
    
 2. For deployment of the second Pod, please write the character "helloworld" in the SUCESS file created in the last step, save the Yaml file with the name test-s3fs-pod2.yaml and execute the following commands to create Pod objects:
 
-    `
+    ```
+    wget https://kubernetes.s3.cn-north-1.jdcloud-oss.com/s3fs/test-s3fs-pod2.yaml
+
     kubectl create -f test-s3fs-pod1.yaml
-    `
+    ```
     
     Contents of Yaml file are as follows:
     ```

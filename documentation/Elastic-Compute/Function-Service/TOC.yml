@@ -37,21 +37,25 @@ items:
       - name: Function Construction
         items:
            - name: Function Overview
-             href: Operation-Guide/buildfunction/function-overview.md 
+             href: Operation-Guide/buildfunction/function-overview.md
+           - name: Function Development Guide
+             href: Operation-Guide/buildfunction/programming-model/dev-guide.md  
+           - name: Create Function Deployment Package
+             href: Operation-Guide/buildfunction/programming-model/package.md  
+           - name: Programming Language
+             items:
+               - name: Python
+                 href: Operation-Guide/buildfunction/runtime/python.md
+               - name: NodeJS
+                 href: Operation-Guide/buildfunction/runtime/nodejs.md                
            - name: Programming Model
              items:
-               - name: Basic Concept
-                 href: Operation-Guide/buildfunction/programming-model/basic-concept.md 
                - name: Processing Program
                  href: Operation-Guide/buildfunction/programming-model/python/processing-program.md 
                - name: Context Object
                  href: Operation-Guide/buildfunction/programming-model/python/context.md 
                - name: Log Record
                  href: Operation-Guide/buildfunction/programming-model/python/record.md 
-           - name: Create Function Deployment Package
-             href: Operation-Guide/buildfunction/programming-model/package.md  
-           - name: Configuration Function
-             href: Operation-Guide/buildfunction/config-function.md  
            - name: Test Function
              href: Operation-Guide/buildfunction/test-function.md                  
                
