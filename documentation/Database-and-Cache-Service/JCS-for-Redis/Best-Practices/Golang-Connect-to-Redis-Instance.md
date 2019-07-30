@@ -6,7 +6,7 @@
 
 - step2: Write test case
 
-```
+```Go
 package main
  import (
      "fmt"

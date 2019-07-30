@@ -47,3 +47,4 @@ Upon execution, your function needs to transmit the execution result to the Func
 Synchronous invoke: For the function triggered via the synchronization method, the request will not be returned during execution of such function. When the function execution is finished, the function return value will be encapsulated in the JSON format and then returned to the invoker. For example: triggering of the API Gateway.
 
 Asynchronous invoke: For the function triggered via the asynchronous method, once the Function receives the function, the triggering request will be returned. When the function execution is finished, the function return value will be encapsulated in the JSON format and then saved in the log. Where the user needs to get the function return value after asynchronous triggering, the function return value can be obtained by searching logs via the requestId returned by the record request, upon completion of the function execution. For example: OSS triggering.
+ 

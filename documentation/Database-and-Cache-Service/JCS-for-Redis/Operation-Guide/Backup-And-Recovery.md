@@ -18,7 +18,7 @@ Each instance provides backup once a day in seven days a week. Users may customi
 
 ⑤. Click **Edit** to customize the period and time of automatic backup.
 
- ![备份1](https://github.com/jdcloudcom/cn/blob/edit/image/Redis/backup1.png)
+ ![备份1](https://github.com/jdcloudcom/cn/blob/redis-1/image/Redis/backup.PNG)
 
 Note: The retention time of backup data by default is 7 days. This is unchangeable.
 
@@ -32,12 +32,14 @@ Users can click the manual backup button on the top right corner of the backup r
  
 ## 3. Backup Download
 
-Users can see the backup data list by default in the backup recovery tag page. Click **Download** in the action bar on the right side of the corresponding backup data line to be downloaded and a download link notification will pop up. Users can download to the local memory based on their own conditions.
+Users can view the backup data list on the "backup data" tag page. After checking the backup data required to be downloaded and clicking **Download**, there will be a pop-up notifying the download link and then you can download it to the local specified path.
 
-![备份3](https://github.com/jdcloudcom/cn/blob/edit/image/Redis/backup3.png)
+Description: Each replicable node "download link" shall be an intelligent resolution address (with a valid duration of 1 hour) through which you can conduct resolution and download based on the network environment (note: in case of intranet download, the Virtual Machines and the database shall be in the same region).
+
+![备份3](https://github.com/jdcloudcom/cn/blob/redis-1/image/Redis/backupdownload.PNG)
 
 ## 4. Backup Recovery
 
-Users can see the backup data list by default in the backup recovery tag page. Click **Data Recovery** in the action bar on the right side of the corresponding backup data line to be recovered and a recovery confirmation notification will pop up. Data recovery begins after users click **OK**.
+Users can view the backup data list on the "backup data" tag page. After clicking **Data Recovery** for the backup data to be recovered, there will be a pop-up notifying the recovery confirmation and then the data begins to recover after you click **OK**.
 
  ![备份4](https://github.com/jdcloudcom/cn/blob/edit/image/Redis/backup4.png)

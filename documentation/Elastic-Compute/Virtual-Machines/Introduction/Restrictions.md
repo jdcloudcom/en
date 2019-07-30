@@ -27,7 +27,7 @@ Single Region Cloud Disk Snapshot Quota|15|Open Ticket
 Single Region Elastic IP Quota|10|Open Ticket
 Single VPC Security Group Quota|50|Open Ticket  
 Single Region Private Image Quota|5|Open Ticket  
-Single Region Shared Image Quota|5 (acceptable for no more than 5)|Adjustment Not Supported
+Quota of sharing users in a single private image|10|Ticket
 Quota of Cloud Disk Attached to Single Virtual Machine|8 (System Disk + Data Disk 8 Pieces In Total)|Adjustment Not Supported       
 Quota of Elastic IP Associated to Single Virtual Machine |Limited by Count of Elastic Network Interface and the Private IP Count assigned by Elastic Network Interface, one Private IP can be associated with one Elastic IP|Adjustment Not Supported        
 Quota of Security Group Associated to Single Virtual Machine|5|Adjustment Not Supported    

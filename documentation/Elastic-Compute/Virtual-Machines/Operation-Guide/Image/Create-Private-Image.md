@@ -8,8 +8,9 @@ You can create a private image from an instance created as required, and use thi
 		Note:
 		* For the Linux system, if the instance configures the automatic attachment command of the data disk in /etc/fstab or configures 70-persistent-net.rules in /etc/udev/rules.d, please delete it before producing private images, or the instance based on private image creation may not be able to be started normally.
 		* If the current instance's system disk is local disk, then the created private image is local system disk image; If the current instance's system disk is cloud disk, then the created private image is cloud system disk image. You can convert a local system disk image to a cloud system disk image by [Image Type Conversion](Convert-Image.md).
-
-
+		* If the machine mounts a data disk of local disk (e.g. GPU instance type machine), because the local data disk does not support manufacturing snapshot, in this case, the manufactured private image will not be able to include the local data disk.
+		
+		
 ## Operation Steps
 1. Access [Virtual Machines Console][1] to enter the instance list page. Or access [JD Cloud Console][2] Click navigation bar on the left **Elastic Compute** - **Virtual Machines** - **Instance** to enter the instance list page.
 2. Select the instance which you want to create a private image and click**More**-**Create Image**.

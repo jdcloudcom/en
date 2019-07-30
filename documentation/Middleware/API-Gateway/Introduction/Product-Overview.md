@@ -9,7 +9,9 @@ API Gateway is an API hosting service. It provides full life-cycle management fo
 ## Common Operation
 
 - Easy Operation
-	- [Rapidly release and call an API application](../Getting-Started/example_console.md)
+	- [Build APIs by way of signature key pair](../Getting-Started/example_SignatureKey.md)
+	- [Build APIs with Function](../Getting-Started/example_function.md)
+	- [Build APIs by way of subscription of key pair](../Getting-Started/example_subscriptionKey.md)
 
 - Group Management
 	- [Create an API group](../Operation-Guide/Create-APIGroup/Create-APIGroup.md)

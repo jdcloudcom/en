@@ -25,11 +25,11 @@ Upload using the local ZIP package. Please confirm that the root directory of th
 ## Input Parameter
 Input parameters in NodeJS Environment contain event, context, callback, wherein callback is an optional parameter.
 
-event:  Input trigger event parameters when the function is called.
+event: Input trigger event parameters when the function is called.
 
-context:  This parameter passes running information to your processing program.
+context: This parameter passes running information to your processing program.
 
-callback:  This parameter is used to return the information you want to the caller. If this parameter value is not present, the return value is null.
+callback: This parameter is used to return the information you want to the caller. If this parameter value is not present, the return value is null.
 
 
 ## Log
@@ -47,3 +47,4 @@ console.info()
 ## Use Built-in Module
 
 Except the standard module of NodeJS, there is no module built in the Function Service, you can open ticket and contact us.
+ 

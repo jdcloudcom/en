@@ -5,15 +5,15 @@
     items:
     - name: Product Overview
       href: Introduction/Product-Overview.md
-    - name: Core Concept
+    - name: Core Concepts
       href: Introduction/Core-Concepts.md
     - name: Benefits
       href: Introduction/Benefits.md
     - name: Features
       href: Introduction/Features.md
-    - name: Restrictions 
+    - name: Restrictions
       href: Introduction/Restrictions.md
-    - name: Application Scenarios 
+    - name: Application Scenarios
       href: Introduction/Scenarios.md    
   - name: Pricing
     items:
@@ -23,39 +23,39 @@
     href: Getting-Start.md
   - name: Operation Guide
     items:
-    - name: Create Availability Group
+    - name: Create an availability group
       href: /Operation-Guide/Create-AG.md
-    - name: Modify Instance Template
+    - name: Modify instance template
       href: /Operation-Guide/Modify-Instance-Template.md
     - name: Auto Scaling
       items:
-      - name: Auto-Scaling Overview
+      - name: Auto Scaling Overview
         href: /Operation-Guide/Auto-Scaling/Auto-Scaling-Overview.md
-      - name: Enable Auto-Scaling
+      - name: Enable Auto Scaling
         href: /Operation-Guide/Auto-Scaling/Enable-AS.md
-      - name: Disable Auto-Scaling
+      - name: Disable Auto Scaling
         href: /Operation-Guide/Auto-Scaling/Disable-AS.md
-      - name: Modify Auto-Scaling
+      - name: Modify Auto Scaling
         href: /Operation-Guide/Auto-Scaling/Modify-AS-Attributes.md
-      - name: Create Auto-Scaling Policy
+      - name: Create Auto Scaling Policy
         href: /Operation-Guide/Auto-Scaling/Create-AS-Policy.md
-      - name: Enable Auto-Scaling Policy
+      - name: Activate the auto scaling policy
         href: /Operation-Guide/Auto-Scaling/Enable-AS-Policy.md
-      - name: Disable Auto-Scaling Policy
+      - name: Disable Auto Scaling Policy
         href: /Operation-Guide/Auto-Scaling/Disable-AS-Policy.md
-    - name:  Manually Add Instances
+    - name:  Manually Add Instance
       href: /Operation-Guide/Add-Instance-Manually.md
-    - name: Manually Remove Instances
+    - name: Manually Remove Instance
       href: /Operation-Guide/Remove-Instance-Manually.md
-    - name: Delete Availability Group
+    - name: Delete availability group
       href: /Operation-Guide/Delete-AG.md
   - name: Best Practices
     items:
-    - name: Optimal Configuration
+    - name: Optimum Configuration
       href: Best-Practices/Recommended-Configuration.md
-    - name: Configure self-starting
+    - name: Configure Self Startup
       href: Best-Practices/Configure-Self-Starting.md
-    - name: Set fixed  IP
+    - name: Set the IPs of fixed exits
       href: Best-Practices/Set-Fixed-Outbound-IP.md
   - name: Tutorial
     status: 0

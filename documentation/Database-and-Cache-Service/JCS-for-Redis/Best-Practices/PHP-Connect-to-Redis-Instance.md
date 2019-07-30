@@ -3,7 +3,7 @@
 
 - step2: Write test case
 
-```
+```PHP
 <?php
   /* Here replaced as connection instance host and port */
   $host = "jredis-cn-north-1-prod-redis-xxxxxxxxxx.jdcloud.com";

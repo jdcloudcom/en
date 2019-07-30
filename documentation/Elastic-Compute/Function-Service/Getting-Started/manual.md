@@ -10,8 +10,8 @@ The function service usage process is as follows:
 2. Execute function: Test function codes with the Console or call API to trigger function execution, and configure the trigger for function after the testing of code execution is free of error to verify if the expected event source triggering is reached;
 3. Release function version: Release new versions for tested and verified functions, and functional iteration for new functions may be continuously carried out on the LATEST version;
 4. Create function alias: Alias refers to pointers to a particular version of function. We recommend using alias to serve all kinds of environments. By associating the event source triggering function with the alias, you can point to a new function version through switching alias to switch environment traffic. For detailed information, please refer to [Version Overview](../Operation-Guide/version-management/manegement.md);
-4. Function monitoring: Monitor function operation status and handle function run-time error in time by configuring alarm policies;
-5. Function log: Check function execution log with function logs and investigate function run-time errors.
+5. Function monitoring: Monitor function operation status and handle function run-time error in time by configuring alarm policies;
+6. Function log: Check function execution log with function logs and investigate function run-time errors.
 
  
 
@@ -19,7 +19,7 @@ The function service usage process is as follows:
 
 Function is the basic unit of scheduling and running, which is the processing logic of a piece of code. You need to write code based on the function interface format provided by Function and deploy the code to the Function Service as a Function.
 
-For function creation detailed information, please refer to [Function Construction](../Operation-Guide/buildfunction/config-function.md).
+For function creation detailed information, please refer to [Function Construction](../Operation-Guide/buildfunction/function-overview.md).
 
  
 ## Invoke Function

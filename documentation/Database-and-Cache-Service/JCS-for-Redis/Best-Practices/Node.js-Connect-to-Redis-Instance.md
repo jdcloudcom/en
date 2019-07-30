@@ -8,13 +8,13 @@ git clone https://github.com/NodeRedis/node_redisnpm install redis
 
 - step2: Call sample code
 
-```
+```JavaScript
 //Connect JCS for Redis
 var redis = require("redis"),
   port = 6379,
   host = 'jredis-cn-north-1-prod-redis-xxxxxxxxxx.jdcloud.com',
   password = '********',
-  opts = {no_ready_check:true},//Setting Item: Since once the ready_check is opened, info command will be sent to check if redis is available, Jmiss AP does not currently support the info command. Configure the item to be true, or the AP will close the connection.
+  opts = {no_ready_check:true},// Setting Item: Since once the ready_check is opened, info command will be sent to check if redis is available, Jmiss AP does not currently support the info command. Configure the item to be true, or the AP will close the connection.
   client = redis.createClient(port, host, opts);
 
 // AUTH

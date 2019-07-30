@@ -13,7 +13,7 @@ When creating the Function, an event processing program shall be specified and `
 
  
 
-`invoke`(optional): processing program return value, notifying that terminate the running function and return information to the invoker. You must invoke the invoke function actively or a timeout error will occur.
+`callback`(optional): processing program return value, notifying that terminate the running function and return information to the invoker. You must invoke the callback function actively or a timeout error will occur.
 
 * If the RequestResponse invoking type (synchronous invoking) is used, Function will return the Python function invoking result to the client invoking the Function. For example, as the Function console adopts the RequestResponse invoking type, the console will display the returned value when the console invoking function is used.
 
@@ -30,4 +30,4 @@ For example: create a function in the name of my_handler and set the entry funct
         'message' : message
     }  
 ```
-
+ 

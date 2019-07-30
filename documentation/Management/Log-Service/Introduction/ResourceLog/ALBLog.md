@@ -5,7 +5,7 @@ Currently, the type of ALB log accessed to Log Service is **Application Load Bal
 ### Field Description
 Log Field(7-level) | Field Description | Field Type| Field Value Description
 -- | -- | -- | --
-timestamp  | Time stamp | time | accurate to millisecond, eg: 2018-12-20T02:59:40.001
+timestamp  | Time stamp | time | accurate to millisecond, eg: 2018-12-20T02:59:40.001Z
 alb_id | Load Balancer ID| string | alb-[0-9][a-z]{10} , eg: alb-gmjnqw8bnh
 client_ip | Client ip | string | eg: 192.168.10.1
 client_port | Client port  | int | 1-65535, eg: 50398

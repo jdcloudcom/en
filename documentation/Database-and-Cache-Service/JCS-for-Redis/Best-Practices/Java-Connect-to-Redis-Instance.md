@@ -3,7 +3,7 @@
 
 - step2: Write test case
 
-```
+```Java
 package com.jd.jmiss;
 import redis.clients.jedis.Jedis;
 public class JedisTester {
@@ -42,7 +42,7 @@ public static void main(String[] args) {
 
 - step1: Introduce maven dependence
 
-```
+```XML
 <dependencies>
 <dependency>
    <groupId>redis.clients</groupId>
@@ -63,7 +63,7 @@ public static void main(String[] args) {
 - step2: Configure Spring element
 
 
-```
+```XML
 <beans>
 <bean id="jedisPoolConfig" class="redis.clients.jedis.JedisPoolConfig">
     <!-- <property name="maxActive" value="${redis.pool.maxTotal}" />-->
@@ -124,7 +124,7 @@ redis.pool.testWhileIdle=true
 - step4: Define redis value object shall be serialized here.
 
 
-```
+```Java
 class JMiss implements Serializable {
 private String time;
 
@@ -161,7 +161,7 @@ public String toString() {
 - step5: Define the type of JMiss controller
 
 
-```
+```Java
 public class JMissProcessor {
 
 private RedisTemplate<String, JMiss> redisTemplate;
@@ -186,7 +186,7 @@ public JMiss getJMiss(String key){
 - step6: Call sample code
 
 
-```
+```Java
 public class JedisTester {
 
 public static void main(String [] args){

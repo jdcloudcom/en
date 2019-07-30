@@ -4,7 +4,7 @@ Here's an example of c/c++ being connected to Jmiss-Redis:
 
 - step1: Download and install c client used for connecting c/c++ to JCS for Redis
 
-```
+```Shell
  git clone https://github.com/redis/hiredis.git 
  cd hiredis 
  make 
@@ -14,7 +14,7 @@ Here's an example of c/c++ being connected to Jmiss-Redis:
 
 - step2: Write test code
 
-```
+```C
  #include <stdio.h>
  #include <stdlib.h>
  #include <string.h>
@@ -106,7 +106,7 @@ step3: Compile
 
 step4: Run test case
 
-```
+```Shell
 ./example jredis-cn-north-1-prod-redis-xxxxxxxxxx.jdcloud.com 6379 password
 AUTH: OK
 PING: PONG

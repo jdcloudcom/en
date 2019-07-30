@@ -39,4 +39,4 @@ Table 1: Attribute of context object
 | **logtopic**            | The log subject shall be null if it is not created.                                     |
 
  
-
+ 

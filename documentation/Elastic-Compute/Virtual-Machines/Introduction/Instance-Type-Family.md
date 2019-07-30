@@ -224,7 +224,7 @@ Instance Type|vCPU (core)|Memory (GB)|Network Interface Multi-Queue
 
 ## GPU Type
 
-GPU Type currently provides GPU Standard Type, providing you with a heterogeneous computing resource with high performance. Each vCPU is corresponded to hyper-threading core of on Intel Xeon processor.
+GPU Type currently provides GPU Standard Type, providing you with a heterogeneous computing resource with high performance. Each vCPU is corresponded to hyper-threading core of an Intel Xeon processor.
 
 <div id="user-content-6"></div>
 ### GPU Standard Type

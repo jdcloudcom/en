@@ -12,7 +12,7 @@ Parameter modification opens nine parameters for user modification. Parameter mo
 
 5. Click **Save Modification** on the top right corner after entering.
 
-- Parameter Description Sheet is attached
+- Table 1: Parameter Description Sheet
 
 Parameter Name|Parameter Description|Default Value|Parameter Range
 :--|:--|:--|:--

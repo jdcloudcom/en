@@ -1,5 +1,5 @@
 
-# Check registry authentication information
+# View Secrets
 
 Operation Guide
 

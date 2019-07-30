@@ -1,11 +1,11 @@
 
-# Delete registry authentication information
+# Delete Secrets
 
 **Operation Instructions**
 
-If you are sure to not use registry authentication information any more, please delete it in a timely manner from JD Cloud page;
+- If you are sure to not use registry authentication information any more, please delete it in a timely manner from JD Cloud page;
 
-After delete, JD Cloud can not use this registry authentication information to download container instance images any longer and the container instances based on the registry authentication information shall not be affected;
+- After delete, JD Cloud can not use this registry authentication information to download container instance images any longer and the container instances based on the registry authentication information shall not be affected;
 
 **Operation Guide**
 

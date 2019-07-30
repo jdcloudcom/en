@@ -1,6 +1,6 @@
 ## MySQL Log
 ### Introduction
-Now, the MySQL log type for access of Log Service is the **Audit Log**.
+Now, the MySQL log type for access of Log Service is the **Audit Log**. As for the retrieval span of log audit by MySQL, 7 days are supported at most.
 
 ### Field Description
 Log Field | Log Description | Log Type

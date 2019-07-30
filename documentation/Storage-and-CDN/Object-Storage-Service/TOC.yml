@@ -85,6 +85,8 @@ items:
              href: Operation-Guide/Manage-Bucket/edgeStorage.md
            - name: Life Cycle Management
              href: Operation-Guide/Manage-Bucket/Lifecycle.md
+           - name: Tag Management
+             href: Operation-Guide/Manage-Bucket/Bucket-Tagging.md
       - name: File Management
         items:
           - name: Create Folder
@@ -215,6 +217,8 @@ items:
                  href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Get-Bucket-Website-2.md
                - name: Get Bucket lifecycle
                  href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Get-Bucket-Lifecycle.md
+               - name: Get Bucket tagging
+                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Get-Bucket-Tagging.md
                - name: Head Bucket
                  href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Head-Bucket-2.md
                - name: List Multipart Uploads
@@ -237,6 +241,8 @@ items:
                  href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Put-Bucket-Website-2.md
                - name: Put Bucket lifecycle
                  href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Put-Bucket-Lifecycle.md
+               - name: Put Bucket tagging
+                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Put-Bucket-Tagging.md 
            - name: About Object Operation
              items:
               - name: Abort Multipart Upload

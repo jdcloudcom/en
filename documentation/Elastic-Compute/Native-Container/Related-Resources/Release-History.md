@@ -3,6 +3,8 @@
 
 | Time   |Online Contents |
 |-|-|
+|July 2019|Support information verification of Secrets;<br>Support verification of third-party images when native container instance and Pod are created|
+|July 2019|Native container instance and Pod support image resetting function|
 |May 2019|Native Container Instance supports renewal and tag<br> Native Container Pod supports renewal, tag and operation protection|
 |January 2019|Official Commercial Use of Pod|
 |December 2018|Pod is launched in cn-north-1, cn-east-2 and cn-south-1 with open Beta|

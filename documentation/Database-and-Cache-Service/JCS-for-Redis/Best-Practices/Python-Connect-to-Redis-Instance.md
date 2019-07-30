@@ -1,11 +1,17 @@
 # Python Connection
 - step1: Download redis python client
 
- ```git clone https://github.com/andymccurdy/redis-py```
+ ```
+ git clone https://github.com/andymccurdy/redis-py
+ ```
  
+
+
+
+
 - step2: Write test case
 
-```
+```Python
 #!/usr/bin/env python
 #-*- coding: utf-8 -*-
 import redis

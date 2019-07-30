@@ -37,4 +37,4 @@ def lambda_handler(event, context):
   return 'Hello World!'`   
 ```  
 
-In this example, only the printed text is sent to Log Service. Log entries will not contain the additional information returned by `logging.*` function.
+In this example, only the printed text is sent to Log Service. Log entries will not contain the additional information returned by `logging.*` function. 

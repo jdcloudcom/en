@@ -32,7 +32,7 @@ Table 2 Test Event Template Description
 
 | Template Name                   | Description                                      |
 | -------------------------- | ----------------------------------------- |
-| Blank Template                   | Template Event no: {"key":’value"}, modify as needed |
+| Blank Template                   | Template Event no: {"key":"value"}, modify as needed |
 | API Gateway-event-template | Simulate API gateway events, trigger the function to execute             |
 | OSS-event-template | Simulate Object Storage Service OSS events, trigger the function to execute             |
 
@@ -69,3 +69,4 @@ Description: if it is required to view the complete function execution log, plea
 ## Delete Test Event
 
 For the template which is created by the user and is not used anymore, please select such template and click "Delete" to delete such template.
+ 
