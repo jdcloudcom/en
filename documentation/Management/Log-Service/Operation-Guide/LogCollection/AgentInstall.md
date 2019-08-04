@@ -13,7 +13,7 @@ ak: xxxxxxx (fill in YourAccessKeyID)       sk: xxxxxxx (fill in YourAccessKeySe
 
 3. Press the Enter key to execute installation operation.   
  	
- ![](https://raw.githubusercontent.com/jdcloudcom/cn/zhangwenjie-only/image/LogService/LogCollection/logs-agent-install-1.png)
+ ![image](https://raw.githubusercontent.com/jdcloudcom/cn/zhangwenjie-only/image/LogService/LogCollection/logs-agent-install-1.png)
   
 4. Wait for 1 to 3 minutes, and execute the following command to verify whether agent has been installed successfully.
 
@@ -21,6 +21,6 @@ ak: xxxxxxx (fill in YourAccessKeyID)       sk: xxxxxxx (fill in YourAccessKeySe
 
 5. The existence of the process indicates successful installation. The examples are as follows: 
 
- ![](https://raw.githubusercontent.com/jdcloudcom/cn/zhangwenjie-only/image/LogService/LogCollection/logs-agent-install-2.png)
+ ![image](https://raw.githubusercontent.com/jdcloudcom/cn/zhangwenjie-only/image/LogService/LogCollection/logs-agent-install-2.png)
 
 **Note: If installation fails, execute the installation command again after 1 to 3 minutes. Please contact the customer service if the installation failed for several times.**
