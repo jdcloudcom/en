@@ -47,6 +47,10 @@ items:
       items:
         - name: Cloud Product Log Collection
           href: Operation-Guide/LogCollection/CloudResource.md
+        - name: Business Application Log Collection
+          href: Operation-Guide/LogCollection/CustomLog.md
+        - name: Agent Installation Tutorial
+          href: Operation-Guide/LogCollection/AgentInstall.md
     - name: Log Management
       items:
         - name: Log Collection Management
@@ -72,9 +76,11 @@ items:
 - name: FAQ
   href: FAQ/FAQ.md
 - name: Document History Records
-  href: Related-Resources/Document-History.md  
-- name: Service Terms         
-  status: 0      
+  href: Related-Resources/Document-History.md
+- name: User Agreements
+  items:
+    - name: Service Terms
+      href: User-Agreement/Product-Terms-Of-Service.md
 - name: SLA         
   status: 0       
 - name: ICP Filing         

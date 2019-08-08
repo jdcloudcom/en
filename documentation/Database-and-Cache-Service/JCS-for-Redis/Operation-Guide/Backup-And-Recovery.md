@@ -1,8 +1,4 @@
 # Backup Recovery
-
-  Here mainly introduce the use of backup recovery.
- 
-- Note: JCS Redis2.8 version supports backup recovery. JCS for Redis4.0 does not support it during the Beta but will support it at the end of the Beta.
   
 ## 1. Automatic Backup (Set Automatic Backup Policy)
 

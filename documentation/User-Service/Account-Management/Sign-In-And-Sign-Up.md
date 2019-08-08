@@ -1,25 +1,46 @@
 # Login and Registration
-## I. Log in with JD
-If you have a JD account, you can log in JD Cloud directly with the following steps:
+## Register an Account
+Newly registered accounts at all JD Cloud registry entries (except JD Cloud APP) are JD Cloud’s independent accounts, which cannot log in to JD Mall.
+Currently, JD Cloud only supports registration by the mainland mobile phone number, with the steps as follows:
 
-### 1. Click **Login** in JD Cloud home page and enter your JD account and password;
-![](../../../image/User/Account-Management/signin-and-signup/%E4%BA%AC%E4%B8%9C%E8%B4%A6%E5%AF%86%E7%99%BB%E5%BD%95.png)
+### 1. Enter account name and password
+The page notifies for entry rules upon entering:
+The length of the account name is 4-20 bits. Chinese characters, English letters, numbers or symbols of "-" and "_" can be entered. Account names in pure digital format are not supported;
+The login password length is 7-20 bits. The password must contain English letters, numbers, and symbols (support for English symbols other than spaces), and the password must not be the same as the account name.
 
-### 2. Enable JD Cloud service
-When logging in JD Cloud with JD account for the first time, you will need to provide some additional information and confirm that you have read and agreed to the JD Cloud User Service Agreement. In this step, you can modify your phone (Mainland, Hong Kong, Macao and Taiwan phones are supported currently) and add an Email. If you have a salesperson's recommendation code, please add it. Click Submit and you can enable JD Cloud service.
-![](../../../image/User/Account-Management/signin-and-signup/%E7%99%BB%E5%BD%95%E6%BF%80%E6%B4%BB%E9%A1%B5%E9%9D%A2.png)
+![](../../../image/User/Account-Mgmt/reg2.png)
 
- 
-## II. Register a New Account at JD Cloud
-If you do not have any available JD account, please click "Register Now" on the home page of JD Cloud. Normal subscription of cloud service via phone numbers of Mainland China, Hong Kong, Macao and Taiwan is supported by JD Cloud now. Procedures are as below:
-### 1. Phone Verification
-Enter your phone number and get a verification code. Correctly enter the verification code and confirm that you have read and agreed to JD Registration Agreement, Privacy Policy and JD Cloud Service Agreement. Then click **Next**.
-![](../../../image/User/Account-Management/signin-and-signup/%E6%B3%A8%E5%86%8C%E9%AA%8C%E8%AF%81%E6%89%8B%E6%9C%BA%E5%8F%B7.png)
+### 2. Enter a commonly used mobile phone number, as the security phone number of the account
+Please use your regular mobile phone number for verification. The verification code may be sent by SMS or phone call. If the alternative mobile phone number is used for registration, because the network of secondary number is not stable, there may be problems of not receiving SMS or phone calls occasionally. Please wait for a while and try again later.
 
-### 2. User Name and Password Setting
-User name is the unique identifier of your account in JD Cloud. It supports Chinese characters, English, numbers, "-" and "_" combination, and supports 4-20 bit characters. Password settings support 6-20 bit characters; letters, numbers and special symbols are supported. Two or more character combinations are recommended.
-![](../../../image/User/Account-Management/signin-and-signup/%E6%B3%A8%E5%86%8C%E8%B4%A6%E5%8F%B7%E8%AE%BE%E7%BD%AE.png)
+After successful registration, the phone number will become a security phone number associated to the account, used to receive important notifications from JD Cloud, and as a method of security verification of your account.
+If your mobile phone number is used to subscribe JD Cloud service for the first time, the mobile phone number can be used for account login; if the mobile phone number has been associated with other JD Cloud Account, your mobile phone number cannot be used for login of the account you are currently registering.
 
-### 3. Enable JD Cloud Service
-You need to supplement the information first after setting user name and password. In this step, you can modify the JD Cloud contact mobile phone number (Mobile phone numbers of mainland, Hong Kong, Macao and Taiwan are supported currently) and add the contact mailbox (You can also modify it at JD Cloud Account Management - Security Setting page). If there is a salesperson's recommendation code, please add it. Click Submit, then you can enable JD Cloud service.
-![](../../../image/User/Account-Management/signin-and-signup/%E8%8B%B1%E6%96%87%E6%BF%80%E6%B4%BB%E9%A1%B5.png)
+![](../../../image/User/Account-Mgmt/reg3.png)
+
+### 3. Supplement Security Email
+When the registration is completed, it will guide you to Email association, which can be skipped. Email is one of the main methods for JD Cloud to contact users. In order not to miss the change information, monitoring alarm, account information of JD Cloud resources and services, it is suggested to fill in and verify the Email.
+
+![](../../../image/User/Account-Mgmt/reg4.png)
+
+After filling in, JD Cloud will send a verification Email to your mailbox. Please go to the mailbox and click the verification link as soon as possible to verify the Email. The validity of the verification link is 2 hours. If your Email is used to subscribe JD Cloud service for the first time, the Email can be used for account login after successful verification; if the mobile phone number has been associated with other JD Cloud Account, the Email can only be used for identity verification and message receiving, which cannot be used for login of the account you are currently registering.
+
+![](../../../image/User/Account-Mgmt/reg5.png)
+![](../../../image/User/Account-Mgmt/reg7.png)
+
+## Login Accounts
+
+### 1. Login of New JD Cloud Account
+Since July 19, 2019, the newly registered JD Cloud account or the account that has been upgraded can be logged in directly through JD Cloud account.
+
+![](../../../image/User/Account-Mgmt/log1.png)
+
+If you use your mobile phone number or Email for login, it notifies that "This mobile phone number/email has been associated with multiple accounts and cannot be used for login", it means your mobile phone number or email cannot be used for login, please use the account name plus password directly for login.
+
+![](../../../image/User/Account-Mgmt/log2.png)
+
+### 2. Login through JD
+If you have subscribed JD Cloud service before July 19, 2019 and have not upgraded your account, you can log in through the JD account.
+
+![](../../../image/User/Account-Mgmt/log3.png)
+![](../../../image/User/Account-Mgmt/log4.png)

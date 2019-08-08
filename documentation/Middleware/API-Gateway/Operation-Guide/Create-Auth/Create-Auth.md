@@ -1,53 +1,35 @@
-# Access Authorization for API
+# Access Authorization of API
 
-The process of access authorization of API means that the API provider authorizes API caller to access the API group. The authorization process is divided into two parts:
+Access Authorization of API provides two modes of "no authentication" and "authorized access".
 
-* API caller creates and provides **Access Key**. The access key (APIKey/APISecret) represents the identity of the requester.
+"The "no authentication" mode means that it can be authorized by verification when API Gateway receives anonymous request. The "authorized access" mode means the process that the API provider authorizes the application to the API caller, the authorization process can be divided into two parts:
+#### (1) The API caller creates and provides the key. Key represents the identity of the requester.
+#### (2) The API provider authorizes APIs to the API caller in groups for use.
+When the API provider's customer or the provider itself needs to test the calling API, it is required to create a key as the requester identity, and then the API provider authorizes the API group to the API caller in the "Access Authorization" module.
+In which, the authorized access mode supports three authorization types, including subscription key, API Gateway signature and JD Cloud user signature.
 
-* API provider authorizes the API group to API caller.
+## The introduction of three authorization types is a follows:
 
-When the customer of API provider or himself needs to test the API calling, it is necessary to create the access key as the identity of requester, and then the API provider authorizes the API group to API caller via access key.
+### (1) Subscription Key
 
+JD Cloud API Gateway supports the authorization type of subscription keys. The user can achieve the authorized access of API by passing subscription key (jdcloud-apim-subscription-key) in header, in addition to accessing API by selecting and using SDK. Carrying out authorized access with subscription keys has a low cost and is convenient and rapid, and at the same time can guarantee security to a certain extent. Thus, it is quite suitable for the users who expect rapid API calling.
+See [Subscription Key](https://docs.jdcloud.com/en/api-gateway/subscription-key?SOP=JDCloud) for details.
 
-## Operational Steps
-### API caller creates and provides **Access Key** 
-#### STEP1: Click the **Access Key** at left menu to enter the page of access key list
+### (2) API Gateway Signature Key
 
-![Access key list page ](../../../../../image/Internet-Middleware/API-Gateway/fwmy-list.png)
+JD Cloud API Gateway supports the authorization type of subscription key. API Gateway adopts a special signature algorithm for the authorization type and thus has high security, and after such authorization, the user can use SDK to call API.
+See [Signature Key](https://docs.jdcloud.com/en/api-gateway/signature-key?SOP=JDCloud) for details.
 
-#### STEP2: Click **Create Access Key**
+### (3) Access Key of JD Cloud User Signature
 
-![Create access key](../../../../../image/Internet-Middleware/API-Gateway/fwmy-add.png)
-
-* After creation of key pair, the system will automatically generate access key ID, API key and API Secret.
-
-* API caller needs to send **APIKey** to API provider, and then the API provider perform the authorized access to APIKey.
-
-
-### API provider authorizes the API group to API caller
-
-#### STEP1: API provider obtains the Access Key ID of API caller .
-
-API caller can find the access key ID in the access key details page and tell this ID to API provider.
-
-
-![Access Key details page](../../../../../image/Internet-Middleware/API-Gateway/fwmy-xqy.png)
- 
+JD Cloud API Gateway supports the authorization types of JD Cloud user signatures, the key of the authorization type originates from the Access Key created by the user in account management of JD Cloud, and after such authorization the user can use SDK to call API. API Gateway can check its backend signature.
+See [Access Key of JD Cloud User Signature](https://docs.jdcloud.com/en/api-gateway/jd-cloud-user-signature?SOP=JDCloud) for details.
  
 
  
-#### STEP2: API provider creates 1 authorization.
-
-Enter the list page of **Access Authorization** at left menu firstly
-
-![Access authorization page](../../../../../image/Internet-Middleware/API-Gateway/fwsq-list.png)
-
-Then click **Create Authorization**, and fill the Access Key or AK offered by API caller in the authorization information.
 
 
-#### STEP3: API provider binds the authorization and API group
 
-Click **Bind** to bind the authorization group after creation of key pair.
 
 
 

@@ -109,6 +109,12 @@
        href: Best-Practices/Deploy-istio.md
      - name: Deploy NVIDIA GPU driver of customized version
        href: Best-Practices/Custom-GPU-driver.md
+     - name: Use Object Storage Service Bucket as the shared storage
+       items:
+         - name: Mount Object Storage Service Bucket in JCS for Kubernetes
+           href: Best-Practices/s3fs/Oss-s3fs-volume.md
+         - name: Build s3fs Customized Image
+           href: Best-Practices/s3fs/s3fs-custom-image.md
   - name: FAQ  
     href: Common-Problem.md
   - name: Related Resources

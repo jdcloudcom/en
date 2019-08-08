@@ -25,6 +25,10 @@ items:
       href: Operation-Guide/Security-Vulnerability.md    
     - name: Security Incidents
       href: Operation-Guide/Security-Incidents.md
+    - name: System Back Door
+      href: Operation-Guide/Rookit-Detection.md      
+    - name: Suspicious Operation
+      href: Operation-Guide/Suspicious-Operation.md
     - name: Compliance Baseline
       href: Operation-Guide/Compliance-Baseline.md         
     - name: Asset Management

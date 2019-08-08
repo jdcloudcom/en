@@ -46,6 +46,10 @@ items:
     href: Cloud-Database-MongoDB-Service-Cause.md
   - name: JCS for MongoDB Service Level Agreement (SLA)
     href: Cloud-Database-MongoDB-Service-Level-Agreement-SLA.md
+  - name: JCS for InfluxDB Service Terms
+    href: JCS-For-InfluxDB-Terms-Of-Service.md
+  - name: JCS for InfluxDB Service Level Agreement (SLA)
+    href: JCS-For-InfluxDB-Level-Agreement-SLA.md
   - name: Virtual Machines Security Service Agreement
     href: Cloud-Host-Security-Service-Clause.md
   - name: Cloud Disk Service Agreement
@@ -126,3 +130,5 @@ items:
     href: Rich-Media-SMS-Terms-Of-Service.md
   - name: Service Level Agreement (SLA) on Rich Media SMS
     href: Rich-Media-SMS-Terms-Of-Service-SLA.md
+  - name: Service Terms for Log Service
+    href: Log-Service-Terms-Of-Service.md

@@ -9,6 +9,8 @@
         href: Introduction/Basic-Infrastructure.md
       - name: Application Scenarios
         href: Introduction/Application-Scenarios.md
+      - name: Situation Awareness Proprietary Cloud
+        href: Introduction/Private-Cloud-Overview.md
   - name: Operation Guide
     items:
       - name: Threat Overview

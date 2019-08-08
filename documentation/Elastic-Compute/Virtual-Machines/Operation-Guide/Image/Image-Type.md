@@ -25,7 +25,7 @@ The marketplace image is provided by the service providers in the cloud marketpl
 |   **Operating System**  |  **System Version**   |
 | :--- | :--- |
 |   Windows Server  |  2016 Data Center Edition Chinese version<br>2012 R2 Standard Edition Chinese version<br>2008 R2 Data Center Edition Chinese version|
-|  CentOS   |  7.4、7.3、7.2、7.1、7.2  NAT Gateway<br>6.9、6.8、6.6、6.5   |
+|  CentOS   |  7.6、7.4、7.3、7.2、7.1、7.2  NAT Gateway<br>6.9、6.8、6.6、6.5   |
 |   Ubuntu  |  16.04、14.04   |
 
 **Note: The Public images provided by JD Cloud currently are 64-bit images**

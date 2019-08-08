@@ -50,10 +50,6 @@ items:
         href: Operation-Guide/Unmount-File-System.md
       - name: Delete File Storage
         href: Operation-Guide/Deleting-File-System.md
- - name: Application Practices
-   items:
-      - name: System of Cross-VPC Attached Files through Peering Connection (VPC Peering)
-        href: Best-Practice/Mount-Through-VPCPeering.md
  - name: Related Resources
    items:
       - name: JD Cloud File Service Beta Trial Agreement

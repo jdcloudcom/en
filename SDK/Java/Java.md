@@ -25,10 +25,10 @@ If you use Apache Maven to manage a Java project, you only need to add a corresp
     <version>1.2.0</version>
 </dependency>
 ```
+
 You can also download the SDK source code yourself. The source code address is [Java SDK](https://github.com/jdcloud-api/jdcloud-sdk-java).
 
 With any of the problems in the SDK use, you are welcomed to communicate at the [SDK Usage Problem Feedback Page](https://github.com/jdcloud-api/jdcloud-sdk-java/issues) for the Github project.
-
 
 **Note:** 
 
@@ -67,7 +67,7 @@ The following is an example of a call to query details for individual VM Instanc
 	public class VmClientExample {
 
 	    public static void main(String[] args) {
-	        // 1. Set accessKey and securKey
+	        // 1. Set accessKey and secretKey
 	        String accessKeyId = "{accessKey}";
 	        String secretAccessKey = "{secretKey}";
 	        CredentialsProvider credentialsProvider = new StaticCredentialsProvider(accessKeyId, secretAccessKey);
@@ -107,3 +107,4 @@ If you need to set up an additional header, for example, call an interface that 
 	 vmClient.setCustomHeader("x-jdcloud-security-token", "xxxx"); 
 	
 ```
+

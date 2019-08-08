@@ -57,14 +57,15 @@ Description:
 
 ## Increased Commands Supported by 4.0
 
-Key|Hash|SortedSet|Server|Scripting|HyperLogLog|Geo|
-|:-------:|:------------:|:---------------------:|:----------------:|:---------------:|:------------------:|:-----------------:|
-|  OBJECT |    HSTRLEN   |     ZREVRANGEBYLEX    |      DBSIZE      |       EVAL      |        PFADD       |       GEOADD      |
-|  TOUCH  |              |                       |     RANDOMKEY    |     EVALSHA     |       PFCOUNT      |     GEORADIUS     |
-|  UNLINK |              |                       |      MEMORY      |  SCRIPT EXISTS  |       PFMERGE      | GEORADIUSBYMEMBER |
-|  BITOP  |              |                       |      LATENCY     |   SCRIPT FLUSH  |                    |      GEOHASH      |
-|   MOVE  |              |                       |                  |   SCRIPT KILL   |                    |       GEOPOS      |
-|         |              |                       |                  |   SCRIPT LOAD   |                    |      GEODIST      |
+Key|Hash|SortedSet|Server|Scripting|HyperLogLog|Geo| Pub/Sub (Publication/Subscription) |
+| :-----: | :----------: | :-------------------: | :--------------: | :-------------: | :----------------: | :---------------: | :------------------: |
+| OBJECT  |   HSTRLEN    |    ZREVRANGEBYLEX     |      DBSIZE      |      EVAL       |       PFADD        |      GEOADD       |      PSUBSCRIBE      |
+|  TOUCH  |              |                       |    RANDOMKEY     |     EVALSHA     |      PFCOUNT       |     GEORADIUS     |       PUBLISH        |
+| UNLINK  |              |                       |      MEMORY      |  SCRIPT EXISTS  |      PFMERGE       | GEORADIUSBYMEMBER |        PUBSUB        |
+|  BITOP  |              |                       |     LATENCY      |  SCRIPT FLUSH   |                    |      GEOHASH      |     PUNSUBSCRIBE     |
+|  MOVE   |              |                       |                  |   SCRIPT KILL   |                    |      GEOPOS       |      SUBSCRIBE       |
+|         |              |                       |                  |   SCRIPT LOAD   |                    |      GEODIST      |     UNSUBSCRIBE      |
+
 
 - LATENCY:  In the cluster version mode, shardId can be specified. It is used to obtain the data of the specified shard, and the data with shard 0 are returned by default.
 
@@ -79,14 +80,16 @@ MEMORY stats 1 indicates viewing the memory statistic information of Shard 1, an
 ## Commands not Supported by Cluster Instance
 
 Key|String|List|Set|SortedSet|Server|Transaction|
-|:---------:|:----------------:|-------------:|--------------|------------------------|-------------------|---------------------|
-| RENAME    |       BITOP      |    RPOPLPUSH | SDIFF        | ZUNIONSTORE            | SLOWLOG           | DISCARD             |
+| :-------: | :--------------: | -----------: | ------------ | ---------------------- | ----------------- | ------------------- |
+|  RENAME   |      BITOP       |    RPOPLPUSH | SDIFF        | ZUNIONSTORE            | SLOWLOG           | DISCARD             |
 | RENAMENX  |      MSETNX      |              | SDIFFSTORE   | ZINTERSTORE            | CONFIG REWRITE    | EXEC                |
-| OBJECT    |                  |              | SINTER       |                        | CONFIG RESETSTAT  | MULTI               |
+|  OBJECT   |                  |              | SINTER       |                        | CONFIG RESETSTAT  | MULTI               |
 |           |                  |              | SINTERSTORE  |                        | COMMAND COUNT     | UNWATCH             |
 |           |                  |              | SMOVE        |                        | COMMAND GETKEYS   | WATCH               |
 |           |                  |              | SUNION       |                        | COMMAND INFO      |                     |
 |           |                  |              | SUNIONSTORE  |                        |                   |                     |
+
+
 	
 - Redis2.8 version primary-secondary supports transactions, while the cluster does not; Redis4.0 primary-secondary and cluster support transaction. Commands not supported in transactions: SCRIPT *, INFO, SLOWLOG, LATENCY, EVAL, FLUSHALL, SCAN, AUTH, EVALSHA, DBSIZE, CONFIG, FLUSHDB, RANDOMKEY and PING
 
@@ -97,14 +100,14 @@ All keys and destinations specified must be in the same slot. Otherwise, (error)
    
 ## Unavailable Commands
 
-Key|List|Server|Pub/Sub|Cluster|Connection|
-|:---------:|:------------:|:----------------:|:--------------------:|:-------------:|:----------------:|
-|  MIGRATE  |     BLPOP    |       TIME       |      PSUBSCRIBE      |  READWRITE   |      SWAPDB      |
-|    WAIT   |     BRPOP    |      MONITOR     |        PUBLISH       |   READONLY   |                  |
-|           |  BRPOPLPUSH  |   BGREWRITEAOF   |        PUBSUB        |  CLUSTER *   |                  |
-|           |              |      BGSAVE      |     PUNSUBSCRIBE     |              |                  |
-|           |              |    CONFIG SET    |       SUBSCRIBE      |              |                  |
-|           |              |      COMMAND     |      UNSUBSCRIBE     |              |                  |
+|Key|List|Server|Cluster|Connection|
+|:---------:|:------------:|:----------------:|:-------------:|:----------------:|
+|  MIGRATE  |     BLPOP    |       TIME       |  READWRITE   |      SWAPDB      |
+|    WAIT   |     BRPOP    |      MONITOR     |      READONLY   |                  |
+|           |  BRPOPLPUSH  |   BGREWRITEAOF   |      CLUSTER *   |                  |
+|           |              |      BGSAVE      |                |                  |
+|           |              |    CONFIG SET    |               |                  |
+|           |              |      COMMAND     |                 |                  |
 |           |              |   DEBUG OBJECT   |                      |              |                  |
 |           |              |       DEBUG      |                      |              |                  |
 |           |              |  DEBUG SEGFAULT  |                      |              |                  |

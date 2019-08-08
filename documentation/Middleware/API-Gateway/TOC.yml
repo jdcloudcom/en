@@ -75,6 +75,13 @@ items:
       items:
         - name: Access Authorization for API
           href: Operation-Guide/Create-Auth/Create-Auth.md  
+        - name: Subscription Key
+          href: Operation-Guide/Create-Auth/Subscription-Key.md
+        - name: Signature Key
+          href: Operation-Guide/Create-Auth/Signature-Key.md
+        - name: Access Key of JD Cloud User Signature
+          href: Operation-Guide/Create-Auth/JD-Cloud-User-Signature.md
+      
     - name: Backend Signature
       items:
         - name: Backend Signature

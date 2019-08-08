@@ -171,7 +171,7 @@ spec:
 * You can execute the commands below to download instance Yaml file:
 
 `
-wget https://kubernetes.s3.cn-north-1.jdcloud-oss.com/CFS/read-data-from-pvc.txt
+wget https://kubernetes.s3.cn-north-1.jdcloud-oss.com/CFS/read-data-from-pvc.yml
 `
 
 * Before Pod is created, please modify the corresponding parameter value in Yaml file based on the definition of PVC.

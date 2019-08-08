@@ -9,7 +9,7 @@ Currently, different images have different support for network interface multi-q
 
 #### Public Image:
 
-* CentOS 6.6/6.8/6.9/7.1/7.2/7.2 NAT Gateway/7.3/7.4 is supported, but 6.5 is not supported;
+* CentOS 6.6/6.8/6.9/7.1/7.2/7.2 NAT Gateway/7.3/7.4/7.6 is supported, but 6.5 is not supported;
 * Ubuntu 14.04/16.04 is supported;
 * Windows Server is not support yet.
 
