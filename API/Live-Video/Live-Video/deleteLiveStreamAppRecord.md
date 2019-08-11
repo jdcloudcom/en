@@ -16,8 +16,7 @@ https://live.jdcloud-api.com/v1/recordApps/{publishDomain}/appNames/{appName}/te
 |---|---|---|---|---|
 |**publishDomain**|String|True| |Pushing Streaming Domain|
 |**appName**|String|True| |Application Name|
-|**template**|String|True| |Recording Template
-|
+|**template**|String|True| |Recording Template|
 
 ## Request Parameter
 None
@@ -43,7 +42,6 @@ None
 DELETE
 ```
 https://live.jdcloud-api.com/v1/recordApps/push.yourdomain.com/appNames/yourapp/templates/yourrecordtemplate
-
 ```
 
 ## Return Example

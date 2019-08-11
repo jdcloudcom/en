@@ -18,7 +18,7 @@ https://live.jdcloud-api.com/v1/snapshotApps:template
 |---|---|---|---|---|
 |**publishDomain**|String|True| |Pushing Streaming Domain|
 |**appName**|String|True| |Application Name|
-|**template**|String|True| |Snapshot Template<br>|
+|**template**|String|True| |Snapshot Template|
 
 
 ## Response parameter
@@ -41,8 +41,8 @@ https://live.jdcloud-api.com/v1/snapshotApps:template
 POST
 ```
 https://live.jdcloud-api.com/v1/snapshotApps:template
-
 ```
+
 ```
 {
     "appName": "yourapp", 

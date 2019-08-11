@@ -1,0 +1,114 @@
+name: VOD
+href:
+items:
+  - name: Interface Overview
+    href: overview.md
+  - name: Update History
+    href: ChangeLog.md
+  - name: Interface Information
+    items:
+      - name: Media Upload
+        items:
+          - name: Get video uploading address and credential
+            href: Media-Upload/createVideoUploadTask.md
+          - name: Refresh video uploading address and credential
+            href: Media-Upload/refreshVideoUploadTask.md
+          - name: Get image uploading address and credential
+            href: Media-Upload/createImageUploadTask.md
+      - name:  Category Management
+        items:
+          - name: Add category
+            href: Category/createCategory.md
+          - name: Search category list
+            href: Category/listCategories.md
+          - name: Search category and its sub-category
+            href: Category/getCategoryWithChildren.md
+          - name: Search category
+            href: Category/getCategory.md
+          - name: Modify category
+            href: Category/updateCategory.md
+          - name: Delete category
+            href: Category/deleteCategory.md
+      - name: Video and Audio Management
+        items:
+          - name: Search video information list
+            href: Video/listVideos.md
+          - name: Search information of a single video
+            href: Video/getVideo.md
+          - name: Modify video information
+            href: Video/updateVideo.md
+          - name: Delete video
+            href: Video/deleteVideo.md
+          - name: Modify video information in batches
+            href: Video/batchUpdateVideos.md
+          - name: Delete videos in batches
+            href: Video/batchDeleteVideos.md
+          - name: Get video playing information
+            href: Video/getVideoPlayInfo.md
+          - name: Delete video transcode flow information
+            href: Video/deleteVideoStreams.md
+      - name: Transcode Template Management
+        items:
+          - name: Search transcode template list
+            href: Transcode-Template/listTranscodeTemplates.md
+          - name: Create transcode template
+            href: Transcode-Template/createTranscodeTemplate.md
+          - name: Search transcode template
+            href: Transcode-Template/getTranscodeTemplate.md
+          - name: Modify transcode template
+            href: Transcode-Template/updateTranscodeTemplate.md
+          - name: Delete transcode template
+            href: Transcode-Template/deleteTranscodeTemplate.md
+      - name: Watermark Management
+        items:
+          - name: Add watermark
+            href: Watermark/createWatermark.md
+          - name: Search watermark list
+            href: Watermark/listWatermarks.md
+          - name: Search a single watermark
+            href: Watermark/getWatermark.md
+          - name: Modify watermark
+            href: Watermark/updateWatermark.md
+          - name: Delete watermark
+            href: Watermark/deleteWatermark.md
+      - name: Submit job
+        items:
+          - name: Submit transcode job
+            href: Transcode-Task/submitTranscodeJob.md
+          - name: Submit transcode jobs in batches
+            href: Transcode-Task/batchSubmitTranscodeJobs.md
+      - name: Domain Configuration
+        items:
+          - name: Add domain
+            href: Domain/createDomain.md
+          - name: Search domain list
+            href: Domain/listDomains.md
+          - name: Query domain
+            href: Domain/getDomain.md
+          - name: Delete domain
+            href: Domain/deleteDomain.md
+          - name: Enable domain
+            href: Domain/enableDomain.md
+          - name: Disable domain
+            href: Domain/disableDomain.md
+          - name: Set default domain
+            href: Domain/setDefaultDomain.md
+          - name: Set domain access header
+            href: Domain/setHeader.md
+          - name: Search domain access header list
+            href: Domain/listHeaders.md
+          - name: Delete domain access header
+            href: Domain/deleteHeader.md
+          - name: Set domain Referer anti-leech rule
+            href: Domain/setRefererRule.md
+          - name: Search domain Referer anti-leech rule
+            href: Domain/getRefererRule.md
+          - name: Set domain URL authentication rule
+            href: Domain/setURLRule.md
+          - name: Search domain URL authentication rule
+            href: Domain/getURLRule.md
+          - name: Set domain IP blacklist rule
+            href: Domain/setIPRule.md
+          - name: Search domain IP blacklist rule
+            href: Domain/getIPRule.md
+

@@ -16,7 +16,7 @@ https://live.jdcloud-api.com/v1/domains/{publishDomain}
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**publishDomain**|String|True| |Pushing Streaming Domain|
-|
+
 
 ## Request Parameter
 None
@@ -42,8 +42,8 @@ None
 DELETE
 ```
 https://live.jdcloud-api.com/v1/domains:stop
-
 ```
+
 ```
 {
     "publishDomain": "push.yourdomain.com"

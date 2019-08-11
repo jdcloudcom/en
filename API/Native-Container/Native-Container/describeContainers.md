@@ -10,7 +10,7 @@ This API supports paging query with 20 items per page by default.
 GET
 
 ## Request address
-https://nc.jdcloud-api.com/v1/regions/{regionId}/containers
+https://nativecontainer.jdcloud-api.com/v1/regions/{regionId}/containers
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
@@ -21,8 +21,14 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/containers
 |---|---|---|---|---|
 |**pageNumber**|Integer|False| |Page; 1 by default|
 |**pageSize**|Integer|False| |Page size; it is 20 by default; value range[10, 100]|
-|**filters**|Filter[]|False| |containerId - Instance ID, exact match, support many IDs<br>privateIpAddress - Primary network interface IP address, fuzzy matching and supporting many IP addresses<br>az-Availability Zone, exact match, multiple supported<br>vpcId-VPC ID, exact match, multiple supported<br>status - Container status, exact match, support many statuses<br>name - Instance name, fuzzy matching and supporting many names<br>subnetId - Instance ID, fuzzy matching and supporting many IDs<br>|
+|**filters**|Filter[]|False| |containerId - instance ID, accuracy matching, supporting multiple <br>privateIpAddress - Primary network interface IP address, fuzzy matching, supporting a single <br>az - Availability zone, accuracy matching, supporting multiple <br>vpcId - VPC ID, accuracy matching, supporting multiple <br>status - Container status, accuracy matching, supporting multiple <br>name -  Instance name, fuzzy matching, supporting a single <br>subnetId -  Image ID, fuzzy matching, supporting a single <br>securityGroups - Security group id, accuracy matching, supporting multiple<br>|
+|**tags**|TagFilter[]|False| |Tag Screen Requirements|
 
+### TagFilter
+|Name|Type|Required or not|Default value|Description|
+|---|---|---|---|---|
+|**key**|String|False| |Tag Key|
+|**values**|String[]|False| |Tag Value|
 ### Filter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
@@ -68,6 +74,7 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/containers
 |**primaryNetworkInterface**|InstanceNetworkInterfaceAttachment|Primary Network Interface Information|
 |**secondaryNetworkInterfaces**|InstanceNetworkInterfaceAttachment[]|Elastic Network Interface Information|
 |**logConfiguration**|LogConfiguration|Container Log Configuration Information|
+|**tags**|Tag[]| |
 |**charge**|Charge|Billing Configuration Information |
 |**launchTime**|String|Creation Time|
 |**reason**|String|Container Termination Reason |
@@ -80,6 +87,11 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/containers
 |**chargeStartTime**|String|The start time of the billing shall be subject to ISO8601, with the UTC time used in the format of YYYY-MM-DDTHH:mm:ssZ|
 |**chargeExpiredTime**|String|Expiration Time, i.e. the expiration time of Pay-In-Advance resource, which shall be subject to ISO8601, with the UTC time used in the format of YYYY-MM-DDTHH:mm:ssZ. Pay-As-You-Go resource field is blank.|
 |**chargeRetireTime**|String|The Expected Release Time refers to the expected release time of resources. This value is both available for the Pay-In-Advance/Pay-As-You-Go resources, conforming to the ISO8601 standard, with the UTC time used in the format of YYYY-MM-DDTHH:mm:ssZ|
+### Tag
+|Name|Type|Description|
+|---|---|---|
+|**key**|String|Tag Key|
+|**value**|String|Tag Value|
 ### LogConfiguration
 |Name|Type|Description|
 |---|---|---|
@@ -138,6 +150,7 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/containers
 |**description**|String|Disk Description|
 |**diskType**|String|Disk Type, Value: ssd or premium-hdd|
 |**diskSize**|Integer|Disk Size (GiB)|
+|**iops**|Integer|The iops value to be purchased as designated by the user currently only supports the cloud disk of ssd.io1 type|
 |**status**|String|Cloud Disk Service type, value: creating, available, in-use, extending, restoring, deleting, deleted, error_creating, error_deleting, error_restoring or error_extending|
 |**createTime**|String|Creation Time|
 ### EnvVar

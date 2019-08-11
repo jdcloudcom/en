@@ -21,8 +21,8 @@ https://live.jdcloud-api.com/v1/streams/{publishDomain}/publishList
 |**pageSize**|Integer|False|10|Paging Size<br><br>- Value Range [10, 100]<br>|
 |**appName**|String|False| |Application Name|
 |**streamName**|String|False| |Stream Name|
-|**startTime**|String|True| |pushing streaming Start time<br><br>- UTC Time<br>  Format:yyyy-MM-dd'T'HH:mm:ss'Z'<br>  Example:2018-10-21T10:00:00Z<br>- Support searching streaming data within up to 90 days<br>|
-|**endTime**|String|False|Current Time|Pushing Streaming End Time<br><br>- UTC Time<br>  Format:yyyy-MM-dd'T'HH:mm:ss'Z'<br>  Example:2018-10-21T10:00:00Z<br>- Support searching streaming data within up to 90 days<br>- If end time is null, it’s the current time by default<br>|
+|**startTime**|String|True| |Pushing Streaming Start Time<br>- UTC Time<br>  Format:yyyy-MM-dd'T'HH:mm:ss'Z'<br>  Example:2018-10-21T10:00:00Z<br>- Support searching streaming data within up to 90 days<br>|
+|**endTime**|String|False|Current Time|Pushing Streaming End Time<br>- UTC Time<br>  Format:yyyy-MM-dd'T'HH:mm:ss'Z'<br>  Example:2018-10-21T10:00:00Z<br>- Support searching streaming data within up to 90 days<br>- If end time is null, it’s the current time by default<br>|
 
 
 ## Response parameter
@@ -61,7 +61,6 @@ https://live.jdcloud-api.com/v1/streams/{publishDomain}/publishList
 GET
 ```
 https://live.jdcloud-api.com/v1/streams/push.yourdomain.com/onlineList?appName=yourapp&streamName=yourstream&startTime=2015-12-02T01:00:00Z&endTime=2015-12-02T04:00:00Z
-
 ```
 
 ## Return Example

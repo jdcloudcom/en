@@ -3,7 +3,7 @@
 
 ## Description
 Delete transcoding template configuration at domain level
-- Delete transcoding template configuration at domain level, taking effect after pushing streaming again
+- Delete transcoding template configuration at domain level
 
 
 ## Request Method
@@ -41,7 +41,6 @@ None
 DELETE
 ```
 https://live.jdcloud-api.com/v1/transcodeDomains/push.yourdomain.com/templates/shd:config
-
 ```
 
 ## Return Example

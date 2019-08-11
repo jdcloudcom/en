@@ -40,7 +40,6 @@ None
 DELETE
 ```
 https://live.jdcloud-api.com/v1/snapshotCustoms/yoursnapshottemplate
-
 ```
 
 ## Return Example

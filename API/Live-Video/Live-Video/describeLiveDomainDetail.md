@@ -12,9 +12,7 @@ https://live.jdcloud-api.com/v1/domains/{publishDomain}
 
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**publishDomain**|String|True| |Pushing Streaming Domain
-- The pushing streaming domain of the domain pairs to be disabled (pushing streaming domain, playing domain)
-|
+|**publishDomain**|String|True| |Pushing Streaming Domain<br> -The pushing streaming domain of the domain pairs to be disabled (pushing streaming domain, playing domain)|
 
 ## Request Parameter
 None
@@ -63,7 +61,6 @@ None
 GET
 ```
 https://live.jdcloud-api.com/v1/domains/push.yourdomain.com
-
 ```
 
 ## Return Example

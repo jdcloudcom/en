@@ -18,7 +18,7 @@ https://antipro.jdcloud-api.com/v1/operationRecords
 |**pageSize**|Integer|False|10|Paging Size|
 |**startTime**|String|True| |Start time, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ|
 |**endTime**|String|True| |End time, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ|
-|**action**|Integer|False| |Operation type, searching all types by default.<br>- 0: All<br>- 1: Package change<br>- 2: Protection rule change<br>- 3: Protection object change<br>- 4: IP Address change<br>- 5: Protection package name change<br>|
+|**action**|Integer|False| |Operation type, search all types by default.<br>- 0: All<br>- 1: Package change<br>- 2: Protection rule change<br>- 3: Protection object change<br>- 4: IP Address change<br>- 5: Protection package name change|
 |**name**|String|False| |Protection package name, supporting fuzzy match|
 
 
@@ -52,7 +52,7 @@ https://antipro.jdcloud-api.com/v1/operationRecords
 |---|---|---|
 |**time**|String|Operation Time|
 |**name**|String|Name of Protection Package|
-|**action**|Integer|Operation Type:  1: Package Change, 2: Protection Rule Change, 3: Protection Object Change, 4: IP Address Change, 5: Protection Package Name Change|
+|**action**|Integer|Operation type.<br>- 1: Package change<br>- 2: Protection rule change<br>- 3: Protection object change<br>- 4: IP Address change<br>- 5: Protection package name change|
 |**info**|String|Operation Details|
 |**operator**|String|Operator|
 

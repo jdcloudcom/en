@@ -32,17 +32,20 @@ https://live.jdcloud-api.com/v1/liveRestart:configs
 |**pageSize**|Integer|Number on Each Page|
 |**totalCount**|Integer|Search Total Amount|
 |**restartConfigs**|RestartConfig[]|Domain Set|
+
 ### RestartConfig
 |Name|Type|Description|
 |---|---|---|
 |**publishDomains**|RestartPublishDomain[]|Pushing Streaming Domain Set|
 |**playDomains**|RestartPlayDomain[]|Playing Domain Set|
+
 ### RestartPlayDomain
 |Name|Type|Description|
 |---|---|---|
 |**playDomain**|String|Playing Domain|
 |**restartStatus**|String|Live Restart Status:<br>  on: Start<br>  off: Close<br>|
 |**playType**|String|Playing Domain Type:<br>  normal: Normal Playing Domain(Timeshift Playing Domain)<br>  restart: Restart Playing Domain|
+
 ### RestartPublishDomain
 |Name|Type|Description|
 |---|---|---|

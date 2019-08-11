@@ -9,7 +9,7 @@
     items:
       - name: Native Container
         items:
-          - name: Associate Native Container with Elastic IP
+          - name: Native Container
             href: Native-Container/associateElasticIp.md
           - name: Create Native Container
             href: Native-Container/createContainers.md
@@ -19,7 +19,7 @@
             href: Native-Container/describeContainer.md
           - name: Search Native-Container List
             href: Native-Container/describeContainers.md
-          - name: Disassociate Native-Container with Elastic IP
+          - name: Native Container
             href: Native-Container/disassociateElasticIp.md
           - name: Search Native-Container Log
             href: Native-Container/getLogs.md
@@ -29,6 +29,14 @@
             href: Native-Container/startContainer.md
           - name: Stop Native-Container
             href: Native-Container/stopContainer.md
+          - name: Reset the Native Dock Image
+            href: Native-Container/rebuildContainer.md
+          - name: Create exec
+            href: Native-Container/execCreate.md
+          - name: Obtain exec exit code
+            href: Native-Container/execGetExitCode.md
+          - name: Reset the size of TTY
+            href: Native-Container/resizeTTY.md
       - name: Quota
         items:
           - name: Search Native-Container Quota

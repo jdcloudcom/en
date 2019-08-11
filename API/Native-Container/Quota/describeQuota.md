@@ -9,7 +9,7 @@ Search resource quota and support Native Container, pod and secret.
 GET
 
 ## Request address
-https://nc.jdcloud-api.com/v1/regions/{regionId}/quotas
+https://nativecontainer.jdcloud-api.com/v1/regions/{regionId}/quotas
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|

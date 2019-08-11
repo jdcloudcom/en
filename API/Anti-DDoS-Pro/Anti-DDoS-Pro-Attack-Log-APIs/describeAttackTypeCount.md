@@ -8,18 +8,18 @@ Query the Attack Counts of Various Types
 GET
 
 ## Request Address
-https://ipanti.jdcloud-api.com/v1/regions/{regionId}/attacklog/describeAttackTypeCount
+https://ipanti.jdcloud-api.com/v1/regions/{regionId}/attacklog:describeAttackTypeCount
 
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True| |Region ID|
+|**regionId**|String|True| |Region ID, Anti-DDoS Pro dose not differentiate regions, upload to cn-north-1 directly|
 
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**startTime**|String|True| |Start time, up to the latest 30 days, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ|
+|**startTime**|String|True| |Start time, only data within the latest 90 days can be searched, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ|
 |**endTime**|String|True| |Search end time, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ|
-|**instanceId**|Long[]|False| |Anti-DDoS Pro Instance ID|
+|**instanceId**|String[]|False| |Anti-DDoS Pro instance ID|
 
 
 ## Response parameter
@@ -32,9 +32,14 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/attacklog/describeAttackTyp
 ### Error
 |Name|Type|Description|
 |---|---|---|
-|**code**|Integer|Request Error Status Code|
-|**status**|String|Request Error Status Code|
-|**message**|String|Request Error Notification|
+|**err**|Err| |
+### Err
+|Name|Type|Description|
+|---|---|---|
+|**code**|Long|Same as http code|
+|**details**|Object| |
+|**message**|String| |
+|**status**|String|Specific Error|
 ### Result
 |Name|Type|Description|
 |---|---|---|

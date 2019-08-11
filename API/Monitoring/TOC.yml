@@ -4,14 +4,14 @@ items:
   - name: API Overview
     href: overview.md
   - name: Update History
-    href: changelog.md
+    href: ChangeLog.md
   - name: API Information
     items:
       - name: Monitor Item Customized Metric Monitoring
         items:
           - name: putMetricData
             href: Monitor-Item-Customized-Monitoring-APIs/putMetricData.md
-      - name: Cloud Monitoring Rules
+      - name: Monitoring
         items:
           - name: createAlarm
             href: Monitoring-Rules-APIs/createAlarm.md
@@ -41,3 +41,9 @@ items:
             href: Monitoring-Items-APIs/describeMetricsForCreateAlarm.md
           - name: lastDownsample
             href: Monitoring-Items-APIs/lastDownsample.md
+  - name: Use Help
+    items:
+      - name: Monitoring
+        href: Help/monitor_alarm.md
+      - name: Monitor Item Data
+        href: Help/monitor_metric_data.md            

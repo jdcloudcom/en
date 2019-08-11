@@ -53,6 +53,8 @@
             href: IP-Resources-APIs/describeCpsIpResources.md
           - name: describeElasticIpResources
             href: IP-Resources-APIs/describeElasticIpResources.md
+          - name: describeCcsIpResources
+            href: IP-Resources-APIs/describeCcsIpResources.md
       - name: Operation Record APIs
         items:
           - name: describeOperationRecords

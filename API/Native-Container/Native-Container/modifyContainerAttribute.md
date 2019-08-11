@@ -9,7 +9,7 @@ Modify the container name and description.
 PATCH
 
 ## Request address
-https://nc.jdcloud-api.com/v1/regions/{regionId}/containers/{containerId}:modifyContainerAttribute
+https://nativecontainer.jdcloud-api.com/v1/regions/{regionId}/containers/{containerId}:modifyContainerAttribute
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|

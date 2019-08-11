@@ -12,8 +12,8 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}
 
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True| |Region ID|
-|**instanceId**|Long|True| |Instance ID|
+|**regionId**|String|True| |Region ID, Anti-DDoS Pro dose not differentiate regions, upload to cn-north-1 directly|
+|**instanceId**|String|True| |Instance ID|
 
 ## Request Parameter
 None
@@ -29,9 +29,14 @@ None
 ### Error
 |Name|Type|Description|
 |---|---|---|
-|**code**|Integer|Request Error Status Code|
-|**status**|String|Request Error Status Code|
-|**message**|String|Request Error Notification|
+|**err**|Err| |
+### Err
+|Name|Type|Description|
+|---|---|---|
+|**code**|Long|Same as http code|
+|**details**|Object| |
+|**message**|String| |
+|**status**|String|Specific Error|
 ### Result
 |Name|Type|Description|
 |---|---|---|
@@ -39,33 +44,35 @@ None
 ### Instance
 |Name|Type|Description|
 |---|---|---|
-|**id**|Long|Instance ID|
+|**id**|String|Instance ID|
 |**name**|String|Instance Name|
-|**carrier**|Integer|Link type, 1: China Telecom, 2: China Telecom, China Unicom, 3: China Telecom, China Unicom and China Mobile|
-|**ipType**|Integer|ip types that can be protected, only China Telecom Line supports IPV6 ISP line at present:<br>- 0: IPV4,<br>- 1: IPV4/IPV6<br>|
+|**carrier**|Integer|Link Type. <br>- 1: China Telecom<br>- 3: China Telecom, China Unicom and China Mobile|
+|**ipType**|Integer|IP type that can be protected, only China Telecom Line supports IPV6 ISP line at present. <br>- 0: IPV4. <br>- 1: IPV4/IPV6|
 |**elasticTriggerCount**|Integer|Times of Triggering Elastic Bandwidth|
 |**abovePeakCount**|Integer|Frequency of Over Peak Value|
 |**inBitslimit**|Integer|Minimum Bandwidth|
 |**resilientBitslimit**|Integer|Elastic Bandwidth|
 |**businessBitslimit**|Integer|Business Bandwidth|
-|**ccThreshold**|Integer|CC Threshold|
+|**ccThreshold**|Integer|CC Threshold Size|
+|**ccPeakQPS**|Integer|CC defense Peak, unit: QPS|
 |**ruleCount**|Integer|Non-web Service Rules|
 |**webRuleCount**|Integer|Web Service Rules|
-|**chargeStatus**|String|PAID|ARREARS|EXPIRED|
-|**securityStatus**|String|SAFE|CLEANING|BLOCKING|
+|**chargeStatus**|String|Billing status: <br>- PAID: Paid<br>- ARREARS: Overdue<br>- EXPIRED: Expired|
+|**securityStatus**|String|Security status: <br>- SAFE: Safe<br>- CLEANING: Clean<br>- BLOCKING: Blocking|
 |**createTime**|String|Instance Creation Time|
 |**expireTime**|String|Instance Expiration Time|
 |**resourceId**|String|Resource ID, used during upgrade and renewal|
-|**ccProtectMode**|Integer|cc Defense Mode, 0->normal  1->critical  2->relaxed  3->customized|
-|**ccProtectStatus**|Integer|cc enabling status, 0->disabled  1->enabled|
-|**ccSpeedLimit**|Integer|cc defense mode has the same speed limit as customized mode|
-|**ccSpeedPeriod**|Integer|cc defense mode has the same speed limit period as customized mode|
-|**ipBlackList**|String[]|IP Blacklist|
-|**ipBlackStatus**|Integer|IP Blacklist Status, 0->disabled  1->enabled|
-|**ipWhiteList**|String[]|IP White List|
-|**ipWhiteStatus**|Integer|IP White List Status, 0->disabled  1->enabled|
+|**ccObserveMode**|Integer|CC defense observer mode. <br>- 0: Disable <br>- 1: Enable|
+|**ccProtectMode**|Integer|CC defense mode. <br>- 0: Normal <br>- 1: Critical <br>- 2: Loose <br>- 3: Customized|
+|**ccProtectStatus**|Integer|CC enabling status. <br>- 0: Disable <br>- 1: Enable|
+|**ccSpeedLimit**|Integer|CC defense mode is with the same speed limit as customized mode|
+|**ccSpeedPeriod**|Integer|CC defense mode is with the same speed limit period as customized mode|
+|**ipBlackList**|String[]|IP blacklist|
+|**ipBlackStatus**|Integer|IP blacklist status. <br>- 0: Disable <br>- 1: Enable|
+|**ipWhiteList**|String[]|IP white list|
+|**ipWhiteStatus**|Integer|IP whitelist status. <br>- 0: Disable <br>- 1: Enable|
 |**urlWhitelist**|String[]|url White List|
-|**urlWhitelistStatus**|Integer|url White List Status, 0->disabled  1->enabled|
+|**urlWhitelistStatus**|Integer|url whitelist status. <br>- 0: Disable <br>- 1: Enable|
 |**hostQps**|Integer|The protection threshold of each Host when ccProtectMode is a customized mode|
 |**hostUrlQps**|Integer|The protection threshold of each Host+URI when ccProtectMode is a customized mode|
 |**ipHostQps**|Integer|The protection threshold of each source IP to Host when ccProtectMode is a customized mode|

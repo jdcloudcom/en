@@ -9,7 +9,7 @@ Stop a single instance in the operating status and the container involved in a j
 POST
 
 ## Request address
-https://nc.jdcloud-api.com/v1/regions/{regionId}/containers/{containerId}:stopContainer
+https://nativecontainer.jdcloud-api.com/v1/regions/{regionId}/containers/{containerId}:stopContainer
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|

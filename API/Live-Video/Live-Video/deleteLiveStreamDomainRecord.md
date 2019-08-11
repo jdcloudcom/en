@@ -3,7 +3,7 @@
 
 ## Description
 Delete recording template configuration at domain level
-- Delete recording template configuration at domain level, taking effect after pushing streaming again
+- Delete recording template configuration at domain level
 
 
 ## Request Method
@@ -15,8 +15,7 @@ https://live.jdcloud-api.com/v1/recordDomains/{publishDomain}/templates/{templat
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**publishDomain**|String|True| |Pushing Streaming Domain|
-|**template**|String|True| |Recording Template
-|
+|**template**|String|True| |Recording Template|
 
 ## Request Parameter
 None
@@ -42,7 +41,6 @@ None
 DELETE
 ```
 https://live.jdcloud-api.com/v1/recordDomains/push.yourdomain.com/templates/yourrecordtemplate
-
 ```
 
 ## Return Example

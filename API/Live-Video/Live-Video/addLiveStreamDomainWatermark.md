@@ -16,7 +16,7 @@ https://live.jdcloud-api.com/v1/watermarkDomains:config
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**publishDomain**|String|True| |Pushing Streaming Domain|
-|**template**|String|True| |Watermark Template<br>|
+|**template**|String|True| |Watermark Template|
 
 
 ## Response parameter
@@ -39,8 +39,8 @@ https://live.jdcloud-api.com/v1/watermarkDomains:config
 POST
 ```
 https://live.jdcloud-api.com/v1/watermarkDomains:config
-
 ```
+
 ```
 {
     "publishDomain": "push.yourdomain.com", 

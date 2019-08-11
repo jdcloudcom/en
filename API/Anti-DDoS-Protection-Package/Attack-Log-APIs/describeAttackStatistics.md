@@ -3,10 +3,6 @@
 
 ## Description
 Attack record statistics, with parameter ip priority higher than that of instanceId
-  - When ip parameters are appointed, ignore instanceId parameters and count ip attacks
-  - Count attacks related to instances appointed by instanceId when ip is not appointed
-  - Search all public IP attack conditions of users when neither ip nor instanceId is appointed
-
 
 ## Request Method
 GET
@@ -21,7 +17,7 @@ https://antipro.jdcloud-api.com/v1/describeAttackStatistics
 |**startTime**|String|True| |Start time, only data within the latest 90 days can be queried, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ|
 |**endTime**|String|True| |End time, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ|
 |**instanceId**|String|False| |Protection package instance Id|
-|**ip**|String[]|False| |Public IP Protected by Anti-DDoS Protection Package<br>- Use <a href="http://docs.jdcloud.com/anti-ddos-protection-package/api/describeprotectediplist">describeProtectedIpList</a> APIs to search public IP protected by Anti-DDoS Protection Package<br>|
+|**ip**|String[]|False| |Public IP Protected by Anti-DDoS Protection Package<br>- Use <a href='http://docs.jdcloud.com/anti-ddos-protection-package/api/describeprotectediplist'>describeProtectedIpList</a> APIs to search public IP protected by Anti-DDoS Protection Package|
 
 
 ## Return Parameter

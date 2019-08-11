@@ -1,8 +1,9 @@
 # Update History #
-API Version: 1.3.0
+API Version: 1.4.9
 
 |Release Time|Version Number| Update |Instructions|
 |---|---|---|---|
+|2019-07-26|1.4.9|Add and delete APIs|1. Add web rule level blacklist and whitelist APIs<br>2. Add non-web rule level blacklist and whitelist APIs<br>3. Add instance IP blacklist and whitelist database APIs<br>4. Add web rule level CC defense APIs<br>5. Web rule back-to-origin IP supports setting Cloud Physical Server public IP(use describeCpsIpList for search)<br>6. Delete instance level IP blacklist and whitelist, url whitelist and CC defense APIs|
 |2019-02-28|1.3.0|Add Interface|1. Add Interface: Query the protection rules of non-web service forwarding rules (describeProtectionRuleOfForwardRule)<br>2. Add Interface: Modify the protection rules of non-web service forwarding rules (modifyProtectionRuleOfForwardRule)<br>3. Add Interface: Query the protection rules of non-web service forwarding rules  Region code may be set for Geo interception (describeGeoAreas)|
 |2018-11-30|1.2.0|Interface Update|1. Create instance, ipv6 support is added for query instance|
 |2018-08-31|1.1.0|Add Interface|1. Add download APIs for DDos attack logs, CC attack logs and CC attack details<br>2. Add query APIs for attack counts, traffic peak value and various attack counts<br>3. Add query APIs for the list of Anti-DDoS Pro instance names, Anti-DDoS Pro instance protection statistic information, CC customized default threshold, and user JD Cloud IP resources<br>4. Add APIs for legality detection of instance names, and APIs for instance elastic protection bandwidth update<br>5. Add APIs for alarm configuration query and alarm configuration update<br>6. Add APIs for certificate preview information query and certificate editing|

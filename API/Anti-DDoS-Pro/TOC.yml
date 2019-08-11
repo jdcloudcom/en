@@ -8,7 +8,7 @@
   - name: API Information
     items:
       - name: Anti-DDoS Pro Attack Record APIs
-        items: 
+        items:
           - name: describeAttackStatistics
             href: Anti-DDoS-Pro-Attack-Log-APIs/describeAttackStatistics.md
           - name: describeAttackTypeCount
@@ -19,14 +19,8 @@
             href: Anti-DDoS-Pro-Attack-Log-APIs/describeCCAttackLogs.md
           - name: describeDDoSAttackLogs
             href: Anti-DDoS-Pro-Attack-Log-APIs/describeDDoSAttackLogs.md
-          - name: downloadCCAttackLogDetails
-            href: Anti-DDoS-Pro-Attack-Log-APIs/downloadCCAttackLogDetails.md
-          - name: downloadCCAttackLogs
-            href: Anti-DDoS-Pro-Attack-Log-APIs/downloadCCAttackLogs.md
-          - name: downloadDDoSAttackLogs
-            href: Anti-DDoS-Pro-Attack-Log-APIs/downloadDDoSAttackLogs.md
       - name: Anti-DDoS Pro Report APIs
-        items: 
+        items:
           - name: describeCCGraph
             href: Anti-DDoS-Pro-Flow-APIs/describeCCGraph.md
           - name: describeDDoSGraph
@@ -34,15 +28,15 @@
           - name: describeFwdGraph
             href: Anti-DDoS-Pro-Flow-APIs/describeFwdGraph.md
       - name: Anti-DDoS Pro Instance APIs
-        items: 
+        items:
           - name: checkName
             href: Anti-DDoS-Pro-Instance-APIs/checkName.md
           - name: createInstance
             href: Anti-DDoS-Pro-Instance-APIs/createInstance.md
           - name: describeAlarmConfig
             href: Anti-DDoS-Pro-Instance-APIs/describeAlarmConfig.md
-          - name: describeCCDefaultThresholds
-            href: Anti-DDoS-Pro-Instance-APIs/describeCCDefaultThresholds.md
+          - name: describeCpsIpList
+            href: Anti-DDoS-Pro-Instance-APIs/describeCpsIpList.md
           - name: describeInstance
             href: Anti-DDoS-Pro-Instance-APIs/describeInstance.md
           - name: describeInstances
@@ -53,76 +47,110 @@
             href: Anti-DDoS-Pro-Instance-APIs/describeProtectionStatistics.md
           - name: describeVpcIpList
             href: Anti-DDoS-Pro-Instance-APIs/describeVpcIpList.md
-          - name: disableCCIpLimit
-            href: Anti-DDoS-Pro-Instance-APIs/disableCCIpLimit.md
-          - name: disableCCObserverMode
-            href: Anti-DDoS-Pro-Instance-APIs/disableCCObserverMode.md
-          - name: disableInstanceCC
-            href: Anti-DDoS-Pro-Instance-APIs/disableInstanceCC.md
-          - name: disableInstanceIpBlackList
-            href: Anti-DDoS-Pro-Instance-APIs/disableInstanceIpBlackList.md
-          - name: disableInstanceIpWhiteList
-            href: Anti-DDoS-Pro-Instance-APIs/disableInstanceIpWhiteList.md
-          - name: disableInstanceUrlWhiteList
-            href: Anti-DDoS-Pro-Instance-APIs/disableInstanceUrlWhiteList.md
-          - name: enableCCIpLimit
-            href: Anti-DDoS-Pro-Instance-APIs/enableCCIpLimit.md
-          - name: enableCCObserverMode
-            href: Anti-DDoS-Pro-Instance-APIs/enableCCObserverMode.md
-          - name: enableInstanceCC
-            href: Anti-DDoS-Pro-Instance-APIs/enableInstanceCC.md
-          - name: enableInstanceIpBlackList
-            href: Anti-DDoS-Pro-Instance-APIs/enableInstanceIpBlackList.md
-          - name: enableInstanceIpWhiteList
-            href: Anti-DDoS-Pro-Instance-APIs/enableInstanceIpWhiteList.md
-          - name: enableInstanceUrlWhiteList
-            href: Anti-DDoS-Pro-Instance-APIs/enableInstanceUrlWhiteList.md
           - name: modifyAlarmConfig
             href: Anti-DDoS-Pro-Instance-APIs/modifyAlarmConfig.md
           - name: modifyEPB
             href: Anti-DDoS-Pro-Instance-APIs/modifyEPB.md
-          - name: modifyInstanceCC
-            href: Anti-DDoS-Pro-Instance-APIs/modifyInstanceCC.md
-          - name: modifyInstanceIpBlackList
-            href: Anti-DDoS-Pro-Instance-APIs/modifyInstanceIpBlackList.md
-          - name: modifyInstanceIpWhiteList
-            href: Anti-DDoS-Pro-Instance-APIs/modifyInstanceIpWhiteList.md
           - name: modifyInstanceName
             href: Anti-DDoS-Pro-Instance-APIs/modifyInstanceName.md
-          - name: modifyInstanceUrlWhiteList
-            href: Anti-DDoS-Pro-Instance-APIs/modifyInstanceUrlWhiteList.md
-          - name: setCCIpLimit
-            href: Anti-DDoS-Pro-Instance-APIs/setCCIpLimit.md
       - name: Anti-DDoS Pro Web Forwarding Configuration APIs
-        items: 
+        items:
+          - name: createBlackListRuleOfWebRule
+            href: Anti-DDos-Pro-Web-Rule-Configuration-APIs/createBlackListRuleOfWebRule.md
+          - name: createCCProtectionRuleOfWebRule
+            href: Anti-DDos-Pro-Web-Rule-Configuration-APIs/createCCProtectionRuleOfWebRule.md
           - name: createWebRule
             href: Anti-DDos-Pro-Web-Rule-Configuration-APIs/createWebRule.md
+          - name: createWhiteListRuleOfWebRule
+            href: Anti-DDos-Pro-Web-Rule-Configuration-APIs/createWhiteListRuleOfWebRule.md
+          - name: deleteBlackListRuleOfWebRule
+            href: Anti-DDos-Pro-Web-Rule-Configuration-APIs/deleteBlackListRuleOfWebRule.md
+          - name: deleteCCProtectionRuleOfWebRule
+            href: Anti-DDos-Pro-Web-Rule-Configuration-APIs/deleteCCProtectionRuleOfWebRule.md
           - name: deleteWebRule
             href: Anti-DDos-Pro-Web-Rule-Configuration-APIs/deleteWebRule.md
-          - name: describeCertInfo
-            href: Anti-DDos-Pro-Web-Rule-Configuration-APIs/describeCertInfo.md
+          - name: deleteWhiteListRuleOfWebRule
+            href: Anti-DDos-Pro-Web-Rule-Configuration-APIs/deleteWhiteListRuleOfWebRule.md
+          - name: describeBlackListRuleOfWebRule
+            href: Anti-DDos-Pro-Web-Rule-Configuration-APIs/describeBlackListRuleOfWebRule.md
+          - name: describeBlackListRulesOfWebRule
+            href: Anti-DDos-Pro-Web-Rule-Configuration-APIs/describeBlackListRulesOfWebRule.md
+          - name: describeCCProtectionConfigOfWebRule
+            href: Anti-DDos-Pro-Web-Rule-Configuration-APIs/describeCCProtectionConfigOfWebRule.md
+          - name: describeCCProtectionDefaultConfigOfWebRule
+            href: Anti-DDos-Pro-Web-Rule-Configuration-APIs/describeCCProtectionDefaultConfigOfWebRule.md
+          - name: describeCCProtectionRuleOfWebRule
+            href: Anti-DDos-Pro-Web-Rule-Configuration-APIs/describeCCProtectionRuleOfWebRule.md
+          - name: describeCCProtectionRulesOfWebRule
+            href: Anti-DDos-Pro-Web-Rule-Configuration-APIs/describeCCProtectionRulesOfWebRule.md
           - name: describeWebRule
             href: Anti-DDos-Pro-Web-Rule-Configuration-APIs/describeWebRule.md
+          - name: describeWebRuleBlackListGeoAreas
+            href: Anti-DDos-Pro-Web-Rule-Configuration-APIs/describeWebRuleBlackListGeoAreas.md
+          - name: describeWebRuleBlackListUsage
+            href: Anti-DDos-Pro-Web-Rule-Configuration-APIs/describeWebRuleBlackListUsage.md
           - name: describeWebRules
             href: Anti-DDos-Pro-Web-Rule-Configuration-APIs/describeWebRules.md
+          - name: describeWebRuleWhiteListGeoAreas
+            href: Anti-DDos-Pro-Web-Rule-Configuration-APIs/describeWebRuleWhiteListGeoAreas.md
+          - name: describeWebRuleWhiteListUsage
+            href: Anti-DDos-Pro-Web-Rule-Configuration-APIs/describeWebRuleWhiteListUsage.md
+          - name: describeWhiteListRuleOfWebRule
+            href: Anti-DDos-Pro-Web-Rule-Configuration-APIs/describeWhiteListRuleOfWebRule.md
+          - name: describeWhiteListRulesOfWebRule
+            href: Anti-DDos-Pro-Web-Rule-Configuration-APIs/describeWhiteListRulesOfWebRule.md
+          - name: disableBlackListRuleOfWebRule
+            href: Anti-DDos-Pro-Web-Rule-Configuration-APIs/disableBlackListRuleOfWebRule.md
+          - name: disableCCProtectionRuleOfWebRule
+            href: Anti-DDos-Pro-Web-Rule-Configuration-APIs/disableCCProtectionRuleOfWebRule.md
+          - name: disableWebRuleBlackList
+            href: Anti-DDos-Pro-Web-Rule-Configuration-APIs/disableWebRuleBlackList.md
           - name: disableWebRuleCC
             href: Anti-DDos-Pro-Web-Rule-Configuration-APIs/disableWebRuleCC.md
+          - name: disableWebRuleCCObserverMode
+            href: Anti-DDos-Pro-Web-Rule-Configuration-APIs/disableWebRuleCCObserverMode.md
+          - name: disableWebRuleWhiteList
+            href: Anti-DDos-Pro-Web-Rule-Configuration-APIs/disableWebRuleWhiteList.md
+          - name: disableWhiteListRuleOfWebRule
+            href: Anti-DDos-Pro-Web-Rule-Configuration-APIs/disableWhiteListRuleOfWebRule.md
+          - name: enableBlackListRuleOfWebRule
+            href: Anti-DDos-Pro-Web-Rule-Configuration-APIs/enableBlackListRuleOfWebRule.md
+          - name: enableCCProtectionRuleOfWebRule
+            href: Anti-DDos-Pro-Web-Rule-Configuration-APIs/enableCCProtectionRuleOfWebRule.md
+          - name: enableWebRuleBlackList
+            href: Anti-DDos-Pro-Web-Rule-Configuration-APIs/enableWebRuleBlackList.md
           - name: enableWebRuleCC
             href: Anti-DDos-Pro-Web-Rule-Configuration-APIs/enableWebRuleCC.md
+          - name: enableWebRuleCCObserverMode
+            href: Anti-DDos-Pro-Web-Rule-Configuration-APIs/enableWebRuleCCObserverMode.md
+          - name: enableWebRuleWhiteList
+            href: Anti-DDos-Pro-Web-Rule-Configuration-APIs/enableWebRuleWhiteList.md
+          - name: enableWhiteListRuleOfWebRule
+            href: Anti-DDos-Pro-Web-Rule-Configuration-APIs/enableWhiteListRuleOfWebRule.md
+          - name: modifyBlackListRuleOfWebRule
+            href: Anti-DDos-Pro-Web-Rule-Configuration-APIs/modifyBlackListRuleOfWebRule.md
+          - name: modifyCCProtectionConfigOfWebRule
+            href: Anti-DDos-Pro-Web-Rule-Configuration-APIs/modifyCCProtectionConfigOfWebRule.md
+          - name: modifyCCProtectionRuleOfWebRule
+            href: Anti-DDos-Pro-Web-Rule-Configuration-APIs/modifyCCProtectionRuleOfWebRule.md
           - name: modifyCertInfo
             href: Anti-DDos-Pro-Web-Rule-Configuration-APIs/modifyCertInfo.md
           - name: modifyWebRule
             href: Anti-DDos-Pro-Web-Rule-Configuration-APIs/modifyWebRule.md
+          - name: modifyWhiteListRuleOfWebRule
+            href: Anti-DDos-Pro-Web-Rule-Configuration-APIs/modifyWhiteListRuleOfWebRule.md
           - name: switchWebRuleOrigin
             href: Anti-DDos-Pro-Web-Rule-Configuration-APIs/switchWebRuleOrigin.md
           - name: switchWebRuleProtect
             href: Anti-DDos-Pro-Web-Rule-Configuration-APIs/switchWebRuleProtect.md
       - name: Anti-DDoS Pro Non-web Forwarding Configuration APIs
-        items: 
+        items:
           - name: createForwardRule
             href: Anti-DDos-Pro-non-Web-Rule-Configuration-APIs/createForwardRule.md
           - name: deleteForwardRule
             href: Anti-DDos-Pro-non-Web-Rule-Configuration-APIs/deleteForwardRule.md
+          - name: describeBlackListRuleOfForwardRule
+            href: Anti-DDos-Pro-non-Web-Rule-Configuration-APIs/describeBlackListRuleOfForwardRule.md
           - name: describeForwardRule
             href: Anti-DDos-Pro-non-Web-Rule-Configuration-APIs/describeForwardRule.md
           - name: describeForwardRules
@@ -131,11 +159,37 @@
             href: Anti-DDos-Pro-non-Web-Rule-Configuration-APIs/describeGeoAreas.md
           - name: describeProtectionRuleOfForwardRule
             href: Anti-DDos-Pro-non-Web-Rule-Configuration-APIs/describeProtectionRuleOfForwardRule.md
+          - name: describeWhiteListRuleOfForwardRule
+            href: Anti-DDos-Pro-non-Web-Rule-Configuration-APIs/describeWhiteListRuleOfForwardRule.md
+          - name: disableBlackListRuleOfForwardRule
+            href: Anti-DDos-Pro-non-Web-Rule-Configuration-APIs/disableBlackListRuleOfForwardRule.md
+          - name: disableWhiteListRuleOfForwardRule
+            href: Anti-DDos-Pro-non-Web-Rule-Configuration-APIs/disableWhiteListRuleOfForwardRule.md
+          - name: enableBlackListRuleOfForwardRule
+            href: Anti-DDos-Pro-non-Web-Rule-Configuration-APIs/enableBlackListRuleOfForwardRule.md
+          - name: enableWhiteListRuleOfForwardRule
+            href: Anti-DDos-Pro-non-Web-Rule-Configuration-APIs/enableWhiteListRuleOfForwardRule.md
+          - name: modifyBlackListRuleOfForwardRule
+            href: Anti-DDos-Pro-non-Web-Rule-Configuration-APIs/modifyBlackListRuleOfForwardRule.md
           - name: modifyForwardRule
             href: Anti-DDos-Pro-non-Web-Rule-Configuration-APIs/modifyForwardRule.md
           - name: modifyProtectionRuleOfForwardRule
             href: Anti-DDos-Pro-non-Web-Rule-Configuration-APIs/modifyProtectionRuleOfForwardRule.md
+          - name: modifyWhiteListRuleOfForwardRule
+            href: Anti-DDos-Pro-non-Web-Rule-Configuration-APIs/modifyWhiteListRuleOfForwardRule.md
           - name: switchForwardRuleOrigin
             href: Anti-DDos-Pro-non-Web-Rule-Configuration-APIs/switchForwardRuleOrigin.md
           - name: switchForwardRuleProtect
             href: Anti-DDos-Pro-non-Web-Rule-Configuration-APIs/switchForwardRuleProtect.md
+      - name: Anti-DDoS Pro IP blacklist and whitelist database APIs
+        items:
+          - name: createIpSet
+            href: IP-Sets/createIpSet.md
+          - name: deleteIpSet
+            href: IP-Sets/deleteIpSet.md
+          - name: describeIpSet
+            href: IP-Sets/describeIpSet.md
+          - name: describeIpSets
+            href: IP-Sets/describeIpSets.md
+          - name: describeIpSetUsage
+            href: IP-Sets/describeIpSetUsage.md

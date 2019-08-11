@@ -42,8 +42,8 @@ https://redis.jdcloud-api.com/v1/regions/{regionId}/cacheInstance
 ### AzIdSpec
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**master**|String|False| |The availability zone ID of the region where the primary instance of the JCS for Redis is located|
-|**slave**|String|False| |The availability zone ID of the region where the secondary instance of the JCS for Redis is located|
+|**master**|String|True| |Availability zone ID of the region where the master Redis instance is located|
+|**slave**|String|True| |Availability zone ID of the region where the secondary Redis instance is located|
 
 ## Response parameter
 |Name|Type|Description|

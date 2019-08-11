@@ -12,7 +12,7 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/describeProtectionStatistic
 
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True| |Region ID|
+|**regionId**|String|True| |Region ID, Anti-DDoS Pro dose not differentiate regions, upload to cn-north-1 directly|
 
 ## Request Parameter
 None
@@ -28,9 +28,14 @@ None
 ### Error
 |Name|Type|Description|
 |---|---|---|
-|**code**|Integer|Request Error Status Code|
-|**status**|String|Request Error Status Code|
-|**message**|String|Request Error Notification|
+|**err**|Err| |
+### Err
+|Name|Type|Description|
+|---|---|---|
+|**code**|Long|Same as http code|
+|**details**|Object| |
+|**message**|String| |
+|**status**|String|Specific Error|
 ### Result
 |Name|Type|Description|
 |---|---|---|

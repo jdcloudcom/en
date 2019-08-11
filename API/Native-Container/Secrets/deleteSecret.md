@@ -9,7 +9,7 @@ Delete a single secrete
 DELETE
 
 ## Request address
-https://nc.jdcloud-api.com/v1/regions/{regionId}/secrets/{name}
+https://nativecontainer.jdcloud-api.com/v1/regions/{regionId}/secrets/{name}
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|

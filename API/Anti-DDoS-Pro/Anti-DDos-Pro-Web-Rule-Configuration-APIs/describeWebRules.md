@@ -12,8 +12,8 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/webR
 
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True| |Region ID|
-|**instanceId**|Long|True| |Anti-DDoS Pro Instance Id|
+|**regionId**|String|True| |Region ID, Anti-DDoS Pro dose not differentiate regions, upload to cn-north-1 directly|
+|**instanceId**|String|True| |Anti-DDoS Pro instance Id|
 
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
@@ -40,29 +40,32 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/webR
 ### WebRule
 |Name|Type|Description|
 |---|---|---|
-|**id**|Long|Rule ID|
-|**instanceId**|Long|Instance ID|
+|**id**|String|Rule Id|
+|**instanceId**|String|Instance Id|
 |**domain**|String|Subdomain|
-|**cname**|String|cname of Rules|
+|**cname**|String|CNAME of Rules|
+|**cnameStatus**|Integer|CNAME resolution status, 0: Abnormal resolution, 1: Normal resolution|
 |**protocol**|WebRuleProtocol| |
 |**customPortStatus**|Integer|Confirm whether it is customized port number or not, 0: default, 1: customized|
 |**port**|Integer[]|HTTP protocol port number, such as 80,81|
 |**httpsPort**|Integer[]|HTTPS protocol port number, such as 443,8443|
-|**httpOrigin**|Integer|Confirm to enable http back-to-origin, 0: No, 1: Yes. The attribute may be configured when HTTPS is checked|
+|**httpOrigin**|Integer|Enable HTTP back-to-origin or not, 0: No, 1: Yes, this attribute can be configured when HTTPS is checked|
 |**status**|Integer|0: defense status, 1: back-to-origin status|
 |**originType**|String|Back-to-origin type: A or CNAME|
-|**originAddr**|OriginAddrItem[]| |
+|**originAddr**|OriginAddrItem[]|Back-to-origin domain, when originType is A, return this field|
 |**originDomain**|String|Back-to-origin domain, the field is returned when originType is CNAME|
-|**onlineAddr**|String[]| |
-|**httpCertStatus**|Integer|Certificate status, 0: abnormal, 1: normal, 2: certificate un-uploaded|
-|**certId**|Long|Certificate Id|
+|**onlineAddr**|String[]|Backup back-to-origin address list, is a domain or multiple IP addresses|
+|**httpCertStatus**|Integer|Certificate Status. <br>- 0: Abnormal<br>- 1: Normal<br>- 2: Certificate un-uploaded|
+|**certId**|String|Certificate Id|
 |**certName**|String|Certificate Name|
 |**httpsCertContent**|String|Certificate Content|
 |**httpsRsaKey**|String|Certificate Private Key|
-|**forceJump**|Integer|Confirm to enable https forced redirection, the attribute may be configured when the protocol is HTTP_HTTPS<br>  - 0 refers to No<br>  - 1 refers to Yes<br>|
-|**algorithm**|String|Forwarding rules: wrr: round robin with weight, rr: round robin without weight|
+|**forceJump**|Integer|Enable HTTPS forced redirection or not, this attribute can be configured when the protocol is HTTP_HTTPS<br>- 0: No<br>- 1: Yes|
+|**algorithm**|String|Forwarding rules. <br>- wrr: Round robin with weight<br>- rr:  Round robin without weight<br>- sh:  Source address hash|
 |**ccStatus**|Integer|CC status, 0: CC Disabled, 1: CC Enabled|
-|**webSocketStatus**|Integer|webSocketStatus, 0: Disabled, 1: Enabled|
+|**webSocketStatus**|Integer|webSocket status, 0: Disable, 1: Enable|
+|**blackListEnable**|Integer|Blacklist status, 0: Disable, 1: Enable|
+|**whiteListEnable**|Integer|Whitelist status, 0: Disable, 1: Enable|
 ### OriginAddrItem
 |Name|Type|Description|
 |---|---|---|

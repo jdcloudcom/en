@@ -23,6 +23,8 @@ items:
             href: Redis-Instance-API/modifyCacheInstanceClass.md
           - name: resetCacheInstancePassword
             href: Redis-Instance-API/resetCacheInstancePassword.md
+          - name: describeClusterInfo
+            href: Redis-Instance-API/describeClusterInfo.md  
       - name: Redis Instance Type API
         items:
           - name: describeInstanceClass

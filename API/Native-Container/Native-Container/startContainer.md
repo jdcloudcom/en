@@ -10,7 +10,7 @@ When the container instance or a cloud disk associated is defaulting, the contai
 POST
 
 ## Request address
-https://nc.jdcloud-api.com/v1/regions/{regionId}/containers/{containerId}:startContainer
+https://nativecontainer.jdcloud-api.com/v1/regions/{regionId}/containers/{containerId}:startContainer
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|

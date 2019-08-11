@@ -3,8 +3,8 @@
 
 ## Description
 Delete Application
-- Application needs to be stopped before its deletion
-- All data under the application will be deleted while deleting the application
+- Delete Application
+- Delete Application
 
 
 ## Request Method
@@ -42,7 +42,6 @@ None
 DELETE
 ```
 https://live.jdcloud-api.com/v1/apps/push.yourdomain.com/appNames/yourapp
-
 ```
 
 ## Return Example

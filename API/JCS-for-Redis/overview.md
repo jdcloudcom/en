@@ -16,6 +16,7 @@ v1
 |**deleteCacheInstance**|DELETE|Delete Redis instances with expired Pay By Configuration or Monthly Package and those with unexpired Monthly Package cannot be deleted. <br>Instances in the running or error status only can be deleted, while cannot be deleted in other status. <br>For the White List user, the expired Redis instance in Monthly Package cannot be deleted. <br>|
 |**describeCacheInstance**|GET|Search detailed information of Redis instances|
 |**describeCacheInstances**|GET|Search Redis instance list, with available functions such as paging, ranking, search and filter|
+|**describeClusterInfo**|GET|Search internal cluster information of Redis instances|
 |**describeInstanceClass**|GET|Search Redis Instance Type List under one region|
 |**describeUserQuota**|GET|Search Redis quota information of the account|
 |**modifyCacheInstanceAttribute**|PATCH|Modify the resource name and description of Redis instance, alternatively|

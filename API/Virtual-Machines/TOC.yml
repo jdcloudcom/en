@@ -63,6 +63,10 @@
             href: Image/describeImages.md            
           - name: describeImage
             href: Image/describeImage.md
+          - name: imageTasks
+            href: Image/imageTasks.md
+          - name: importImage
+            href: Image/importImage.md
           - name: modifyImageAttribute
             href: Image/modifyImageAttribute.md
           - name: shareImage
@@ -85,6 +89,20 @@
             href: SSH-Keypair/describeKeypairs.md
           - name: deleteKeypair
             href: SSH-Keypair/deleteKeypair.md
+      - name: Instance Template
+        items:      
+          - name: createInstanceTemplate
+            href: Instance-Template/createInstanceTemplate.md
+          - name: deleteInstanceTemplate
+            href: Instance-Template/deleteInstanceTemplate.md
+          - name: describeInstanceTemplate
+            href: Instance-Template/describeInstanceTemplate.md
+          - name: describeInstanceTemplates
+            href: Instance-Template/describeInstanceTemplates.md
+          - name: updateInstanceTemplate
+            href: Instance-Template/updateInstanceTemplate.md
+          - name: verifyInstanceTemplate
+            href: Instance-Template/verifyInstanceTemplate.md
       - name: Specification Type
         items:
           - name: describeInstanceTypes
@@ -95,11 +113,11 @@
             href: Quota/describeQuotas.md
   - name: Use Help
     items:
-      - name: Creation VM Sample
+      - name: Virtual Machines
         href: Help/Create_Vm_Sample.md
       - name: Description of Public Parameter Specification
         href: Help/General_Parameters.md
-      - name: Image Status Description
+      - name: Image
         href: Help/Image_Status.md
-      - name: VM Status Description
+      - name: Virtual Machines
         href: Help/Vm_Status.md

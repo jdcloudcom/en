@@ -45,7 +45,6 @@ None
 GET
 ```
 https://live.jdcloud-api.com/v1/recordNotifys/push.yourdomain.com
-
 ```
 
 ## Return Example

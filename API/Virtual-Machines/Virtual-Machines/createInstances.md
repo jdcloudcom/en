@@ -8,17 +8,16 @@ Create one or more virtual machines with the assigned configuration, with the cr
     - Can query the API <a href="http://docs.jdcloud.com/virtual-machines/api/describeinstancetypes">DescribeInstanceTypes</a> to get specification information for a specified region or availability zone.
     - It is not possible to use an off-line, or a sold out instance type.
 - image
-    - Windows Server 2012 R2 Standard Version 64-bit Chinese Version SQL Server 2014 Standard Version SP2 memory shall be larger than 1GB;
     - All Windows Server all image cannot selecte an instance type that has exceeded 64 cores vCPU.
     - Can query the API <a href="http://docs.jdcloud.com/virtual-machines/api/describeimages">DescribeImages</a> to get image information for a specified region.
     - The selected image must support the seled instance type. Can query the API <a href="http://docs.jdcloud.com/virtual-machines/api/describeimageconstraints">DescribeImageConstraints</a>  to get instance type limit information for the specified image.<br>
 - Network Instance Type
     - Specify primary network interface configuration information
         - SubnetId must be specified
-        - You can specify the EIP specification to constrain the EIP to be created, the bandwidth value range is [1-100] Mbps, and the step size is 1 Mbps
+        - The elastic IP can be restricted by specifying elasticIp specification, with the bandwidth value range of [1-200]Mbps and the stepping of 1Mbps.
         - The primary private IP (primaryIpAddress) of primary network interface can be specified, and then the maxCount can only be 1
         - The security group (securityGroup) needs to be within the same VPC as the the subnet (Subnet)
-        - At least one security group must be specified when a VM is created, and at most 5 security groups can be specified. If no security group is specified, the default security group is used by default.
+        - At least one security group must be specified and at most 5 security groups can be specified, when a Virtual Machine is created. The default security group is used by default, when there are no specified security groups
         - The primary network interface deviceIndex will be set to 1
 - Storage
     - System Disk
@@ -27,17 +26,18 @@ Create one or more virtual machines with the assigned configuration, with the cr
             - local: Unable to specify size, the default size is 40GB
             - cloud: Value range: 40-500GB, and cannot be smaller than the minimum system disk size of image; if not specified, the default is the system disk size in the image
         - Auto-delete
-            - For a local disk, the default value is True, and this attribute cannot be modified
-            - For a cloud disk paid by configuration,  the default value is True
+            - In case it is of local type, it will be automatically deleted by default and cannot be modified
+            - In case it is Pay By Configuration Cloud Disk Service of cloud type, It is True by default and can be modified
+            - In case it is monthly package Cloud Disk Service of cloud type, it is False by default and cannot be modified
     - Data Disk
         - Disk classification, data disks only support cloud
         - The type of cloud disk can be ssd or premium-hdd
         - Disk Size
             - premium-hdd: Range[20, 3000] GB, Step Size: 10G
             - ssd: Range[20, 1000] GB, Step Size: 10G
+            - hdd.std1、ssd.gp1、ssd.io1: Scope [20-16000]GB, and the step length is 10GB
         - Auto-delete
-            - True by default. For a cloud disk under the monthly package, this parameter does not take effect
-            - A snapshotId can be specified to create a cloud disk
+            - It is automatically deleted by default. In case of monthly package Cloud Disk Service, the parameter is invalid
         - You can create a disk from a snapshot
     - The VM with a local disk as its system disk can attach with 8 cloud disks
     - The VM with a cloud disk as its system disk can attach with another 7 cloud disks
@@ -86,7 +86,16 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instances
 |**systemDisk**|InstanceDiskAttachmentSpec|False| |System Disk Configuration Information|
 |**dataDisks**|InstanceDiskAttachmentSpec[]|False| |The configuration information of the data disk. The VM with a local disk as its system disk can be attach 8 cloud disks, and the VM with a cloud disk as its system disk can be attach another 7 cloud disks.|
 |**charge**|ChargeSpec|False| |Billing Configuration<br>The VM does not support pay by consumption. The default value is pay by configuration.<br>In the case of packaging cloud disks, the billing method of the cloud disks can only be consistent with the VM.<br>In the case of packaging an EIP, if the EIP is not specified to be paid by consumption, the EIP billing method can only be consistent with the VM.<br>|
+|**userdata**|Userdata[]|False| |As for the metadata information, introduction of a key of "launch-script" is only supported, indicating the first enabling script. The value is in the format of base64. <br>launch-script: The linux system supports bash and python, and before encoding, it is required to take #!/bin/bash and #!/usr/bin/env python as the first line of the content respectively;<br>The launch-script: windows system supports bat and powershell, and before encoding, it is required to take <cmd></cmd> and <powershell></powershell> as the first and last lines of the content respectively. <br>|
 |**description**|String|False| |VM Description, <a href="http://docs.jdcloud.com/virtual-machines/api/general_parameters"> Refer to the public parameter specification</a>.|
+|**noPassword**|Boolean|False| |The password in the template isn’t used. <br>The parameter (value: true) is valid, only when no Ag is used, a template is used, and the password parameter is null. <br>The parameter is invalid, and the newly specified one shall prevail, when a virtual machine is created with templates, and the password parameter has been specified. <br>|
+|**noKeyNames**|Boolean|False| |The key in the template isn’t used. <br>The parameter (value: true) is valid, only when no Ag is used, a template is used, and the keynames parameter is null. <br>The parameter is invalid, and the newly specified one shall prevail, when a virtual machine is created with templates, and the keynames parameter has been specified. <br>|
+|**noElasticIp**|Boolean|False| |The Elastic IP in the template isn’t used. <br>The parameter (value: true) is valid, only when no Ag is used, a template is used, and the elasticIp parameter is null. <br>The parameter is invalid, and the newly specified one shall prevail, when a virtual machine is created with templates, and the elasticIp parameter has been specified.|
+### Userdata
+|Name|Type|Required or not|Default value|Description|
+|---|---|---|---|---|
+|**key**|String|False| |Key|
+|**value**|String|False| |Value|
 ### ChargeSpec
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
@@ -99,7 +108,7 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instances
 |**diskCategory**|String|False| |Disk classification, the local or cloud disk is taken.<br>The system disk supports local disk or cloud disk. If select the local type for the system disk , and you must use a image of localDisk type; if select the cloud type for the system disk, you must use a image of the cloudDisk type.<br>The data disk supports cloud disk only.<br>|
 |**autoDelete**|Boolean|False| |Deleting this disk with the VM automatically when the VM is deleted. The default value is true, which cannot be changed for a local disk.<br>This parameter does not take effect if the billing method of the disk is a monthly package.<br>|
 |**cloudDiskSpec**|DiskSpec|False| |Data Disk Configuration|
-|**deviceName**|String|False| |Device name, value range: vda, vdb, vdc, vdd, vde, vdf, vdg, vdh, vdi, vdj, vdk, vdl, vdm|
+|**deviceName**|String|False| |Logical attach point of data disk, value range: vda,vdb,vdc,vdd,vde,vdf,vdg,vdh,vdi,vmj,vdk,vdl,vdm|
 |**noDevice**|Boolean|False| |Exclude the device, and parameter noDevice is used with deviceName.<br>Create a entile image that contains all the system disk and attached cloud data disks: deviceName: vdb, noDevice: true, the cloud data disk whose device name is vdb that attached to the VM will not be involved in creating the  image.<br>Create a template: deviceName: vdb, noDevice: true, the data disk whose device name is vdb in the image will not be involved in creating the VM.<br>Create a VM: deviceName: vdb, noDevice: true, the data disk vdb in the image or the data disk whose device name is vdb in the template (create a VM using the template) will not be involved in creating the machine.<br>|
 ### DiskSpec
 |Name|Type|Required or not|Default value|Description|
@@ -108,7 +117,8 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instances
 |**name**|String|True| |Name of the cloud disk|
 |**description**|String|False| |Description of the cloud disk|
 |**diskType**|String|True| |Type of the cloud disk, value ssd, premium-hdd, ssd.gp1, ssd.io1 or hdd.std1|
-|**diskSizeGB**|Integer|True| |Size of the cloud disk, unit: GiB; ssd value range of [20,1000]GB and step size of 10G; premium-hdd value range of [20,3000]GB and step size of 10G|
+|**diskSizeGB**|Integer|True| |Size of Cloud Disk Service is in GiB, for ssd type, the value range is [20,1000]GB and the step size is 10G, for premium-hdd type, the value range is [20,3000]GB, and the step size is 10G, for ssd.gp1, ssd.io1 and hdd.std1 types, the value range is [20,16000]GB, and the step size is 10G|
+|**iops**|Integer|False| |The size of Cloud Disk Service IOPS is effective only when the cloud disk type is ssd.io1, and the step size is 10.|
 |**snapshotId**|String|False| |Snapshot ID used to create a cloud disk|
 |**charge**|ChargeSpec|False| |Billing configuration. If not specified, the default billing type is pay-as-you-go - pay by service time by default.|
 |**multiAttachable**|Boolean|False| |Whether the Cloud Disk Service supports the mode that one disk is attached to multiple machines. It is set as false by default (not supported).|
@@ -122,8 +132,8 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instances
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**subnetId**|String|True| |Subnet ID|
-|**az**|String|False| |Availability Zone, User’s Default Availability Zone|
-|**networkInterfaceName**|String|False| |Network interface name, only allow Chinese, numbers, capital and lowercase letters, English underline “_” and line-through “-”, must provide a name which cannot exceed 32 characters.|
+|**az**|String|False| |Availability zone refers to the user’s default availability zone, which is an invalid parameter and shall not be used|
+|**networkInterfaceName**|String|False| |Network interface name, only allow Chinese, numbers, capital and lowercase letters, English underline "_" and line-through "-", must provide a name which cannot exceed 32 characters.|
 |**primaryIpAddress**|String|False| |Network interface primary IP, if it has not been assigned, it will be allocated automatically from the subnet|
 |**secondaryIpAddresses**|String[]|False| |Secondary IP List|
 |**secondaryIpCount**|Integer|False| |Amount of Secondary IP Assigned Automatically|

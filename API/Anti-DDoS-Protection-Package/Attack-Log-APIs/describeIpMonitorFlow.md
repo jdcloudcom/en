@@ -16,7 +16,7 @@ https://antipro.jdcloud-api.com/v1/describeIpMonitorFlow
 |---|---|---|---|---|
 |**startTime**|String|True| |Start time, only data within the latest 90 days can be searched, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ|
 |**endTime**|String|True| |Search end time, UTC time, format: yyyy-MM-dd'T'HH:mm:ssZ|
-|**ip**|String[]|True| |Public IP Protected by Anti-DDoS Protection Package<br>- Use <a href="http://docs.jdcloud.com/anti-ddos-protection-package/api/describeprotectediplist">describeProtectedIpList</a> APIs to search public IP protected by Anti-DDoS Protection Package<br>|
+|**ip**|String[]|True| |Public IP Protected by Anti-DDoS Protection Package<br>- Use <a href='http://docs.jdcloud.com/anti-ddos-protection-package/api/describeprotectediplist'>describeProtectedIpList</a> APIs to search public IP protected by Anti-DDoS Protection Package|
 
 
 ## Return Parameter

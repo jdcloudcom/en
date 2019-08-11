@@ -41,7 +41,6 @@ None
 DELETE
 ```
 https://live.jdcloud-api.com/v1/snapshotDomains/push.yourdomain.com/templates/yoursnapshottemplate
-
 ```
 
 ## Return Example

@@ -12,7 +12,7 @@ https://antipro.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:des
 
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True| |Region Code|
+|**regionId**|String|True| |Region Id, now the Anti-DDoS Protection Package is supported in: cn-north-1, cn-east-1 and cn-east-2|
 |**instanceId**|String|True| |Protection package instance Id|
 
 ## Request Parameter
@@ -46,7 +46,7 @@ https://antipro.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:des
 ### ProtectionRule
 |Name|Type|Description|
 |---|---|---|
-|**type**|Integer|Protection Rules Type: 0: Default protection package, 1: Customized rule of IP|
+|**type**|Integer|Protection Rules Type. <br>- 0: Default protection package<br>- 1: Customized rule of IP|
 |**cleanThresholdBps**|Long|Cleaning Trigger Value bps|
 |**cleanThresholdPps**|Long|Cleaning Trigger Value pps|
 |**spoofIpEnable**|Integer|Enable IP address spoofing|
@@ -57,6 +57,8 @@ https://antipro.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:des
 |**datagramRangeMin**|Long|Minimum Packet length|
 |**datagramRangeMax**|Long|Maximum Packet Length|
 |**geoBlackList**|GeoBlack[]|geo Interception Region List|
+|**ipBlackList**|String[]|IP Blacklist|
+|**ipWhiteList**|String[]|IP Whitelist|
 ### GeoBlack
 |Name|Type|Description|
 |---|---|---|

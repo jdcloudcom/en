@@ -2,7 +2,7 @@
 
 
 ## Description
-Search monitoring traffic within 15 minutes before endTime of public IP, only supporting ipv4. (obsolete, <a href="http://docs.jdcloud.com/anti-ddos-basic/api/describeipmonitorflow">describeIpMonitorFlow</a> APIs are recommended)
+Search monitoring traffic within 15 minutes before endTime of public IP, only supporting ipv4. (obsolete, <a href='http://docs.jdcloud.com/anti-ddos-basic/api/describeipmonitorflow'>describeIpMonitorFlow</a> APIs are recommended)
 
 
 ## Request Method
@@ -14,7 +14,7 @@ https://baseanti.jdcloud-api.com/v1/regions/{regionId}/ipResources/{ip}/monitorF
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**regionId**|String|True| |Region code. Anti-DDoS Basic is supported in cn-north-1, cn-east-1, cn-east-2, and cn-south-1|
-|**ip**|String|True| |Public IP protected by Anti-DDoS Basic, only supporting ipv4 format<br>- Use <a href="http://docs.jdcloud.com/anti-ddos-basic/api/describeelasticipresources">describeElasticIpResources</a> APIs to search VPC elastic IP protected by Anti-DDoS Basic<br>- Use <a href="http://docs.jdcloud.com/anti-ddos-basic/api/describecpsipresources">describeCpsIpResources</a> APIs to search Cloud Physical Server public IP and elastic IP protected by Anti-DDoS Basic|
+|**ip**|String|True| |Public IP protected by Anti-DDoS Basic, only supporting ipv4 format .<br>- Use <a href='http://docs.jdcloud.com/anti-ddos-basic/api/describeelasticipresources'>describeElasticIpResources</a> APIs to search elastic IP of VPC protected by Anti-DDoS Basic<br>- Use <a href='http://docs.jdcloud.com/anti-ddos-basic/api/describecpsipresources'>describeCpsIpResources</a> APIs to search public IP and elastic IP of Cloud Physical Server protected by Anti-DDoS Basic <br>- Use <a href='http://docs.jdcloud.com/anti-ddos-basic/api/describeccsipresources'>describeCcsIpResources</a> APIs to search public IP of Cabinet Service protected by Anti-DDoS Basic|
 
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|

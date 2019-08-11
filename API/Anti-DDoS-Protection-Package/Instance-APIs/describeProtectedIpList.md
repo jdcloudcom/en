@@ -17,7 +17,7 @@ https://antipro.jdcloud-api.com/v1/describeProtectedIpList
 |**pageNumber**|Integer|False|1|Page|
 |**pageSize**|Integer|False|10|Paging Size|
 |**instanceId**|Integer|False| |Instance Id, search all protected IPs of user if it is the default|
-|**type**|Integer|True| |Protected IP type: 0: All, 1: Elastic IP, 2: Cloud Physical Server Public IP|
+|**type**|Integer|True| |Protected IP Type. <br>- 0: All<br>-1: Elastic IP<br>-2: Public IP of Cloud Physical Server<br>- 4: Public IP of Cabinet Service|
 |**ip**|String|False| |Protected IP, supporting fuzzy search|
 
 
@@ -50,9 +50,9 @@ https://antipro.jdcloud-api.com/v1/describeProtectedIpList
 |Name|Type|Description|
 |---|---|---|
 |**ip**|String|Protected IP|
-|**safeStatus**|Integer|Security Status, 0: Secure, 1: Clean, 2: Black Hole|
-|**resourceType**|Integer|Public IP type or associated resource type:<br>  0: Unknown type,<br>  1: Elastic IP (IP is elastic IP, and associated resource type is unknown),<br>  10: Elastic IP (IP is elastic IP, and no resource is associated),<br>  11: Virtual Machines,<br>  12: Load Balancer,<br>  13: Native Container Instance,<br>  14: Native Container Pod,<br>  2: Cloud Physical Server,<br>|
-|**protectionRuleType**|Integer|Protection Rules Type, 0: Default (protection rule of protection package), 1: Customized rule of IP|
+|**safeStatus**|Integer|Security Status, <br>- 0: Secure<br>- 1: Clean<br>- 2: Black Hole|
+|**resourceType**|Integer|Public IP type or associated resource type.<br>- 0: Unknown type,<br>- 1: Elastic IP (IP is elastic IP, and associated resource type is unknown),<br>- 10: Elastic IP (IP is elastic IP, and no resource is associated),<br>- 11: Virtual Machines,<br>- 12: Load Balancer,<br>- 13: Native Container Instance,<br>- 14: Native Container Pod,<br>- 2: Public IP of Cloud Physical Server,<br>- 4: Public IP of Cabinet Service|
+|**protectionRuleType**|Integer|Protection Rules Type. <br>-0: Default (protection rule of protection package), <br>-1: Customized rule of IP|
 
 ## Return Code
 |Return Code|Description|

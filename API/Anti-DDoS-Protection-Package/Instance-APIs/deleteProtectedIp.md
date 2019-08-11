@@ -12,7 +12,7 @@ https://antipro.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:del
 
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True| |Region Code|
+|**regionId**|String|True| |Region Id, now the Anti-DDoS Protection Package is supported in: cn-north-1, cn-east-1 and cn-east-2|
 |**instanceId**|String|True| |Protection package instance Id|
 
 ## Request Parameter

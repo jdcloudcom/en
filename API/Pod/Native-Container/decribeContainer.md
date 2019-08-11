@@ -83,7 +83,7 @@ None
 |Name|Type|Description|
 |---|---|---|
 |**name**|String|pod volume name must be used|
-|**mountPath**|String|Attach point in the container, with absolute path; repeated attaching and nesting attaching are not allowed; it is not allowed to be attached to the root directory ("/”). Length range: [1-1024]|
+|**mountPath**|String|Attach point in the container, with absolute path; repeated attaching and nesting attaching are not allowed; it is not allowed to be attached to the root directory ("/"). Length range: [1-1024]|
 |**readOnly**|Boolean|Whether to attach with the method of read-only. Default Read and Write mode|
 ### CloudDiskSpec
 |Name|Type|Description|
@@ -94,6 +94,7 @@ None
 |**diskType**|String|Cloud Disk type: ssd,premium-hdd,hdd.std1,ssd.gp1,ssd.io1|
 |**sizeGB**|Integer|Cloud Disk size, unit GB, requirement|
 |**fsType**|String|Specify volume file system type and support [xfs, ext4] now; if the file system type is not specified for the newly-created disk, such disk will be formatted to xfs by default.|
+|**iops**|Integer|Only the ssd.io1 type iops value of cloud disk is valid now|
 |**autoDelete**|Boolean|Whether to delete with pod. Default: true|
 ### ResourceRequestsSpec
 |Name|Type|Description|

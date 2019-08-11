@@ -17,7 +17,7 @@ https://baseanti.jdcloud-api.com/v1/regions/{regionId}/describeIpSafetyInfo
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**ip**|String|True| |Public IP protected by Anti-DDoS Basic.<br>- Use <a href="http://docs.jdcloud.com/anti-ddos-basic/api/describeelasticipresources">describeElasticIpResources</a> APIs to search VPC elastic IP protected by Anti-DDoS Basic<br>- Use <a href="http://docs.jdcloud.com/anti-ddos-basic/api/describecpsipresources">describeCpsIpResources</a> APIs to search Cloud Physical Server public IP and elastic IP protected by Anti-DDoS Basic<br>|
+|**ip**|String|True| |Public IP protected by Anti-DDoS Basic. <br>- Use <a href='http://docs.jdcloud.com/anti-ddos-basic/api/describeelasticipresources'>describeElasticIpResources</a> APIs to search elastic IP of VPC protected by Anti-DDoS Basic<br>- Use <a href='http://docs.jdcloud.com/anti-ddos-basic/api/describecpsipresources'>describeCpsIpResources</a> APIs to search public IP and elastic IP of Cloud Physical Server protected by Anti-DDoS Basic<br>- Use <a href='http://docs.jdcloud.com/anti-ddos-basic/api/describeccsipresources’>describeCcsIpResources</a> APIs to search public IP of Cabinet Service protected by Anti-DDoS Basic|
 
 
 ## Return Parameter
@@ -46,7 +46,7 @@ https://baseanti.jdcloud-api.com/v1/regions/{regionId}/describeIpSafetyInfo
 |Name|Type|Description|
 |---|---|---|
 |**ip**|String|EIP Address|
-|**safetyStatus**|Integer|Security Status, 0-> Secure, 1-> Clean, 2-> Black Hole|
+|**safetyStatus**|Integer|Security Status, <br>- 0: Secure<br>- 1: Clean<br>- 2: Black Hole|
 |**region**|String|Region Code|
 |**blackHoleThreshold**|Long|Black hole threshold, unit: bps|
 |**cleanThresholdBps**|Long|Traffic rate of trigger cleaning, unit: bps|

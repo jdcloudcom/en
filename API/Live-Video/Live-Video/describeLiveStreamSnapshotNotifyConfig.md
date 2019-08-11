@@ -45,7 +45,6 @@ None
 GET
 ```
 https://live.jdcloud-api.com/v1/snapshotNotifys/push.yourdomain.com:config
-
 ```
 
 ## Return Example

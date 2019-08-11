@@ -17,7 +17,7 @@ https://live.jdcloud-api.com/v1/watermarkApps:config
 |---|---|---|---|---|
 |**publishDomain**|String|True| |Pushing Streaming Domain|
 |**appName**|String|True| |Application Name|
-|**template**|String|True| |Watermark Template Name<br>|
+|**template**|String|True| |Watermark Template Name|
 
 
 ## Response parameter
@@ -40,8 +40,8 @@ https://live.jdcloud-api.com/v1/watermarkApps:config
 POST
 ```
 https://live.jdcloud-api.com/v1/watermarkApps:config
-
 ```
+
 ```
 {
     "appName": "yourapp", 

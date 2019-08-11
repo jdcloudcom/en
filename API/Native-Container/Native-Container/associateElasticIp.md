@@ -11,7 +11,7 @@ If the user is in the blacklist, the error will be returned.
 POST
 
 ## Request address
-https://nc.jdcloud-api.com/v1/regions/{regionId}/containers/{containerId}:associateElasticIp
+https://nativecontainer.jdcloud-api.com/v1/regions/{regionId}/containers/{containerId}:associateElasticIp
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|

@@ -32,13 +32,16 @@ None
 |**videoCodeRate**|Integer|Transcoding Output Code Rate Value<br>- Unit: kpbs<br>|
 |**videoFrameRate**|String|Transcoding Output Frame Rate Value<br>|
 |**width**|Integer|Transcoding Output Video Width<br>|
-|**height**|Integer|Transcoding Output Video Width<br>|
+|**height**|Integer|Transcode Output Video Height<br>|
 |**template**|String|Transcoding Template<br>|
 |**audioCodec**|String|Transcoding Output Audio Coded Format<br>|
 |**audioFormat**|String|Transcoding Output Audio Format<br>|
 |**audioSampleRate**|Integer|Transcoding Output Audio Sampling Rate<br>|
 |**audioChannel**|Integer|Audio Channel Number of Transcoding Output<br>  1: Mono<br>  2: Stereo<br>|
 |**audioCodeRate**|Integer|Audio Code Rate of Transcoding Output<br>- Unit: kbps<br>|
+|**jdchd**|String|Jingxiang Super Definition <br>- Value: jdchd-1.0,off<br>|
+|**audioComfort**|String|Comfortable Audio<br>- Value: on,off<br>|
+
 
 ## Return Code
 |Return Code|Description|
@@ -54,7 +57,6 @@ None
 GET
 ```
 https://live.jdcloud-api.com/v1/transcodeCustoms/yt
-
 ```
 
 ## Return Example

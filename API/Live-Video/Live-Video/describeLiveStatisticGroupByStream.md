@@ -63,7 +63,6 @@ https://live.jdcloud-api.com/v1/describeLiveStatisticGroupByStream
 GET
 ```
 https://live.jdcloud-api.com/v1/describeLiveStatisticGroupByStream?domainName=yourdomain&appName=yourapp&streamName=yourstream&startTime=2018-10-21T10:00:00Z&&endTime=2018-10-22T10:00:00Z
-
 ```
 
 ## Return Example

@@ -32,12 +32,8 @@ https://live.jdcloud-api.com/v1/describeDomainOnlineStream
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**dataList**|PublishOnlineStreamResult[]| |
-### PublishOnlineStreamResult
-|Name|Type|Description|
-|---|---|---|
-|**total**|Integer|Number of Returned Records<br>|
 |**streamList**|PublishOnlineStreamResultData[]| |
+|**total**|Integer|Traffic Count|
 ### PublishOnlineStreamResultData
 |Name|Type|Description|
 |---|---|---|
@@ -68,7 +64,6 @@ https://live.jdcloud-api.com/v1/describeDomainOnlineStream
 GET
 ```
 https://live.jdcloud-api.com/v1/describeDomainOnlineStream?domainName=yourdomain&appName=yourapp&streamName=yourstream&startTime=2018-10-21T10:00:00Z&&endTime=2018-10-22T10:00:00Z
-
 ```
 
 ## Return Example

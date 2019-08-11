@@ -10,9 +10,9 @@
         - Neither start with a minus nor end with a minus
         - At least 1 character and at most 63 characters
     - A complete machine name consists of a series of tabs and dots
-        - Tags are connected with “.” (dot)
-        - Neither start with a “.” (dot) or end with a “.” (dot).
-        - Complete machine name (including tags and dots “.”) with at most 63 ASCII characters
+        - Tags are connected with "." (dot)
+        - Neither start with a "." (dot) or end with a "." (dot).
+        - Complete machine name (including tags and dots ".") with at most 63 ASCII characters
     - Regular: `^([a-zA-Z0-9]|[a-zA-Z0-9][a-zA-Z0-9-]{0,61}[a-zA-Z0-9])(.([a-zA-Z0-9]|[a-zA-Z0-9][a-zA-Z0-9-]{0,61}[a-zA-Z0-9]))*$`
 - Network Configuration
     - Specify primary network interface configuration information
@@ -96,8 +96,8 @@ https://pod.jdcloud-api.com/v1/regions/{regionId}/pods
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**subnetId**|String|True| |Subnet ID|
-|**az**|String|False| |Availability Zone, User’s Default Availability Zone|
-|**networkInterfaceName**|String|False| |Network interface name, only allowed to enter Chinese, numbers, capital and lowercase letters, English underline “_” and line-through “-”, must provide a name which cannot exceed 32 characters.|
+|**az**|String|False| |Availability zone refers to the user’s default availability zone, which is an invalid parameter and shall not be used|
+|**networkInterfaceName**|String|False| |Network interface name, only allowed to enter Chinese, numbers, capital and lowercase letters, English underline "_" and line-through "-", must provide a name which cannot exceed 32 characters.|
 |**primaryIpAddress**|String|False| |Network interface primary IP, if it has not been assigned, it will be allocated automatically from the subnet|
 |**secondaryIpAddresses**|String[]|False| |SecondaryIp List|
 |**secondaryIpCount**|Integer|False| |Amount of SecondaryIp allocated automatically|
@@ -135,7 +135,7 @@ https://pod.jdcloud-api.com/v1/regions/{regionId}/pods
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**name**|String|True| |pod volume name must be used|
-|**mountPath**|String|True| |Attach point in the container, with absolute path; repeated attaching and nesting attaching are not allowed; it is not allowed to be attached to the root directory ("/”). Length range: [1-1024]|
+|**mountPath**|String|True| |Attach point in the container, with absolute path; repeated attaching and nesting attaching are not allowed; it is not allowed to be attached to the root directory ("/"). Length range: [1-1024]|
 |**readOnly**|Boolean|False| |Whether to attach with the method of read-only. Default Read and Write mode|
 ### CloudDiskSpec
 |Name|Type|Required or Not|Default Value|Description|
@@ -146,6 +146,7 @@ https://pod.jdcloud-api.com/v1/regions/{regionId}/pods
 |**diskType**|String|False| |Cloud Disk type: ssd,premium-hdd,hdd.std1,ssd.gp1,ssd.io1|
 |**sizeGB**|Integer|False| |Cloud Disk size, unit GB, requirement|
 |**fsType**|String|False| |Specify volume file system type and support [xfs, ext4] now; if the file system type is not specified for the newly-created disk, such disk will be formatted to xfs by default.|
+|**iops**|Integer|False| |Only the ssd.io1 type iops value of cloud disk is valid now|
 |**autoDelete**|Boolean|False| |Whether to delete with pod. Default: true|
 ### ResourceRequestsSpec
 |Name|Type|Required or Not|Default Value|Description|
@@ -209,11 +210,12 @@ https://pod.jdcloud-api.com/v1/regions/{regionId}/pods
 |**sizeGB**|Integer|False| |Cloud Disk size, unit GB, requirement|
 |**fsType**|String|True| |Specify volume file system type and support [xfs, ext4] now; if the file system type is not specified for the newly-created disk, such disk will be formatted to xfs by default.|
 |**formatVolume**|Boolean|False| |A new disk automatically created with the container will be automatically formatted to the specified file system type; the existing disk mounted will not be formatted by default and only will be mounted as per specified fsType; and if you intend to format the mounted disk, be sure to set the field as true.|
+|**iops**|Integer|False| |Only the ssd.io1 type iops value of cloud disk is valid now|
 |**autoDelete**|Boolean|False| |Whether to delete with pod. Default: true|
 ### HostAlias
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**hostnames**|String[]|True| |Domain List. <br><br>eg  ["foo.local", "bar.local”]. Length range is 1-10; elements conform to hostname naming convention. <br>|
+|**hostnames**|String[]|True| |Domain List. <br><br>eg  ["foo.local", "bar.local"]. Length range is 1-10; elements conform to hostname naming convention. <br>|
 |**ip**|String|True| |ipv4 information; eg "127.0.0.1"|
 ### LogConfig
 |Name|Type|Required or Not|Default Value|Description|
@@ -222,9 +224,9 @@ https://pod.jdcloud-api.com/v1/regions/{regionId}/pods
 ### DnsConfig
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**nameservers**|String[]|False| |IP address list of DNS server; the repeated ones will be removed. <br><br>eg ["8.8.8.8", "4.2.2.2”]. List length: [0-20]; elements conform to IPv4 format. <br>|
-|**searches**|String[]|False| |DNS search domain list, used for search of host name. <br><br>eg ["ns1.svc.cluster.local", "my.dns.search.suffix”]. List length: [0-6]; the total length of all characters in the list cannot exceed 256. <br>|
-|**options**|PodDnsConfigOption[]|False| |DNS parser options list. <br><br>eg  ["ndots":"2", "edns0":"”]. List length: [0-10]|
+|**nameservers**|String[]|False| |IP address list of DNS server; the repeated ones will be removed. <br><br>eg ["8.8.8.8", "4.2.2.2"]. List length: [0-20]; elements conform to IPv4 format. <br>|
+|**searches**|String[]|False| |DNS search domain list, used for search of host name. <br><br>eg ["ns1.svc.cluster.local", "my.dns.search.suffix"]. List length: [0-6]; the total length of all characters in the list cannot exceed 256. <br>|
+|**options**|PodDnsConfigOption[]|False| |DNS parser options list. <br><br>eg  ["ndots":"2", "edns0":""]. List length: [0-10]|
 ### PodDnsConfigOption
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|

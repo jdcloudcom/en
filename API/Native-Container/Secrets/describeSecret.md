@@ -9,7 +9,7 @@ Search details of a single secrete
 GET
 
 ## Request address
-https://nc.jdcloud-api.com/v1/regions/{regionId}/secrets/{name}
+https://nativecontainer.jdcloud-api.com/v1/regions/{regionId}/secrets/{name}
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
@@ -34,7 +34,7 @@ None
 |Name|Type|Description|
 |---|---|---|
 |**name**|String|Confidential Data Name|
-|**type**|String|Now, only the following private data type is supported: docker-registry, which is the docker registry verification type.|
+|**secretType**|String|Now, only the following private data type is supported: docker-registry, which is the docker registry verification type|
 |**createdAt**|String|Creation Time|
 |**data**|DockerRegistryData|Confidential Data|
 ### DockerRegistryData

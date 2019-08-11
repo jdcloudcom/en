@@ -9,7 +9,7 @@ Search details of one Native Container
 GET
 
 ## Request address
-https://nc.jdcloud-api.com/v1/regions/{regionId}/containers/{containerId}
+https://nativecontainer.jdcloud-api.com/v1/regions/{regionId}/containers/{containerId}
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
@@ -57,6 +57,7 @@ None
 |**primaryNetworkInterface**|InstanceNetworkInterfaceAttachment|Primary Network Interface Information|
 |**secondaryNetworkInterfaces**|InstanceNetworkInterfaceAttachment[]|Elastic Network Interface Information|
 |**logConfiguration**|LogConfiguration|Container Log Configuration Information|
+|**tags**|Tag[]| |
 |**charge**|Charge|Billing Configuration Information |
 |**launchTime**|String|Creation Time|
 |**reason**|String|Container Termination Reason |
@@ -69,6 +70,11 @@ None
 |**chargeStartTime**|String|The start time of the billing shall be subject to ISO8601, with the UTC time used in the format of YYYY-MM-DDTHH:mm:ssZ|
 |**chargeExpiredTime**|String|Expiration Time, i.e. the expiration time of Pay-In-Advance resource, which shall be subject to ISO8601, with the UTC time used in the format of YYYY-MM-DDTHH:mm:ssZ. Pay-As-You-Go resource field is blank.|
 |**chargeRetireTime**|String|The Expected Release Time refers to the expected release time of resources. This value is both available for the Pay-In-Advance/Pay-As-You-Go resources, conforming to the ISO8601 standard, with the UTC time used in the format of YYYY-MM-DDTHH:mm:ssZ|
+### Tag
+|Name|Type|Description|
+|---|---|---|
+|**key**|String|Tag Key|
+|**value**|String|Tag Value|
 ### LogConfiguration
 |Name|Type|Description|
 |---|---|---|
@@ -127,6 +133,7 @@ None
 |**description**|String|Disk Description|
 |**diskType**|String|Disk Type, Value: ssd or premium-hdd|
 |**diskSize**|Integer|Disk Size (GiB)|
+|**iops**|Integer|The iops value to be purchased as designated by the user currently only supports the cloud disk of ssd.io1 type|
 |**status**|String|Cloud Disk Service type, value: creating, available, in-use, extending, restoring, deleting, deleted, error_creating, error_deleting, error_restoring or error_extending|
 |**createTime**|String|Creation Time|
 ### EnvVar

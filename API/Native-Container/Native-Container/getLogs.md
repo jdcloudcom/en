@@ -9,7 +9,7 @@ Search a container log
 GET
 
 ## Request address
-https://nc.jdcloud-api.com/v1/regions/{regionId}/containers/{containerId}:getLogs
+https://nativecontainer.jdcloud-api.com/v1/regions/{regionId}/containers/{containerId}:getLogs
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|

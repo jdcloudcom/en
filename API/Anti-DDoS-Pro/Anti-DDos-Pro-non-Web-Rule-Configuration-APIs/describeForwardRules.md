@@ -12,8 +12,8 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/forw
 
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True| |Region ID|
-|**instanceId**|Long|True| |Anti-DDoS Pro Instance Id|
+|**regionId**|String|True| |Region ID, Anti-DDoS Pro dose not differentiate regions, upload to cn-north-1 directly|
+|**instanceId**|String|True| |Anti-DDoS Pro instance Id|
 
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
@@ -34,9 +34,14 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/forw
 ### Error
 |Name|Type|Description|
 |---|---|---|
-|**code**|Integer|Request Error Status Code|
-|**status**|String|Request Error Status Code|
-|**message**|String|Request Error Notification|
+|**err**|Err| |
+### Err
+|Name|Type|Description|
+|---|---|---|
+|**code**|Long|Same as http code|
+|**details**|Object| |
+|**message**|String| |
+|**status**|String|Specific Error|
 ### Result
 |Name|Type|Description|
 |---|---|---|
@@ -47,18 +52,18 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/forw
 ### ForwardRule
 |Name|Type|Description|
 |---|---|---|
-|**id**|Long|Rule ID|
-|**instanceId**|Long|Instance ID|
+|**id**|String|Rule Id|
+|**instanceId**|String|Instance Id|
 |**protocol**|String|TCP or UDP|
-|**cname**|String|cname of Rules|
+|**cname**|String|CNAME of Rules|
 |**originType**|String|Back-to-origin Type: ip or domain|
 |**port**|Integer|Port Number|
-|**algorithm**|String|Forwarding rules<br>- wrr Round robin with weights <br>- wlc Minimum weighted connection<br>- rr  Round robin without weights<br>- sh  Source address hash<br>|
+|**algorithm**|String|Forwarding rules. <br>- wrr: Round robin with weight<br>- rr:  Round robin without weight<br>- sh:  Source address hash|
 |**originAddr**|OriginAddrItem[]| |
 |**onlineAddr**|String[]|Backup Back-to-origin Address List|
 |**originDomain**|String|Back-to-origin Domain Name|
 |**originPort**|Integer|Back-to-origin Port Number|
-|**status**|Integer|0 defense Status  1 back-to-origin Status|
+|**status**|Integer|0: Defense Status<br>1: Back-to-origin Status|
 ### OriginAddrItem
 |Name|Type|Description|
 |---|---|---|

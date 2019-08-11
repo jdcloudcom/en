@@ -9,7 +9,7 @@ The EIP disassociated with the container is the elastic IP corresponding to the 
 POST
 
 ## Request address
-https://nc.jdcloud-api.com/v1/regions/{regionId}/containers/{containerId}:disassociateElasticIp
+https://nativecontainer.jdcloud-api.com/v1/regions/{regionId}/containers/{containerId}:disassociateElasticIp
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|

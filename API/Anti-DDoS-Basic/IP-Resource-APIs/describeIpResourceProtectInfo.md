@@ -2,7 +2,7 @@
 
 
 ## Description
-Search public IP attack record, only supporting ipv4. (obsolete, <a href="http://docs.jdcloud.com/anti-ddos-basic/api/describeattacklogs">describeAttackLogs</a> APIs are recommended)
+Search public IP attack record, only supporting ipv4. (obsolete, <a href='http://docs.jdcloud.com/anti-ddos-basic/api/describeattacklogs'>describeAttackLogs</a> APIs are recommended)
 
 
 ## Request Method
@@ -14,7 +14,7 @@ https://baseanti.jdcloud-api.com/v1/regions/{regionId}/ipResources/{ip}/protectI
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**regionId**|String|True| |Region code. Anti-DDoS Basic is supported in cn-north-1, cn-east-1, cn-east-2, and cn-south-1|
-|**ip**|String|True| |Public IP protected by Anti-DDoS Basic, only supporting ipv4 format<br>- Use <a href="http://docs.jdcloud.com/anti-ddos-basic/api/describeelasticipresources">describeElasticIpResources</a> APIs to search VPC elastic IP protected by Anti-DDoS Basic<br>- Use <a href="http://docs.jdcloud.com/anti-ddos-basic/api/describecpsipresources">describeCpsIpResources</a> APIs to search Cloud Physical Server public IP and elastic IP protected by Anti-DDoS Basic|
+|**ip**|String|True| |Public IP protected by Anti-DDoS Basic, only supporting ipv4 format .<br>- Use <a href='http://docs.jdcloud.com/anti-ddos-basic/api/describeelasticipresources'>describeElasticIpResources</a> APIs to search elastic IP of VPC protected by Anti-DDoS Basic<br>- Use <a href='http://docs.jdcloud.com/anti-ddos-basic/api/describecpsipresources'>describeCpsIpResources</a> APIs to search public IP and elastic IP of Cloud Physical Server protected by Anti-DDoS Basic <br>- Use <a href='http://docs.jdcloud.com/anti-ddos-basic/api/describeccsipresources'>describeCcsIpResources</a> APIs to search public IP of Cabinet Service protected by Anti-DDoS Basic|
 
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
@@ -50,8 +50,8 @@ https://baseanti.jdcloud-api.com/v1/regions/{regionId}/ipResources/{ip}/protectI
 |---|---|---|
 |**startTime**|String|Start Time of Attack|
 |**endTime**|String|End Time of Attack|
-|**status**|Integer|Security Status, 0: Secure, 1: Clean, 2: Black Hole|
-|**cause**|Integer|Trigger cause, 0->unknown  1->four-layer  2->seven-layer  3->four-layer and seven-layer|
+|**status**|Integer|Security Status, <br>- 0: Secure<br>- 1: Clean<br>- 2: Black Hole|
+|**cause**|Integer|Trigger reason.<br>- 0: Unknown<br>- 1: Four-layer<br>- 2: Seven-layer<br>- 3: Four-layer and seven-layer|
 
 ## Return Code
 |Return Code|Description|

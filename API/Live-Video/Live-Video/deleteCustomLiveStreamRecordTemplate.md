@@ -40,7 +40,6 @@ None
 DELETE
 ```
 https://live.jdcloud-api.com/v1/transcodeCustoms/yourrecordtemplate
-
 ```
 
 ## Return Example

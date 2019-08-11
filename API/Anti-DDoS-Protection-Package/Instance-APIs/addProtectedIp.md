@@ -3,11 +3,6 @@
 
 ## Description
 Add protection IP of protection package.
-- The protection package can only protect public IP in the region where the protection package instances are located, and such public IP is not protected by other protection packages. If it is protected by other protection packages, please call protection IP API of protection package to delete protection IP
-- Counts of protection IP to be added to protection package is less than or equal to the difference between the protective IP counts of protection package minus protected IP counts
-- Use <a href="http://docs.jdcloud.com/anti-ddos-protection-package/api/describeelasticipresources">describeElasticIpResources</a> APIs to search Elastic IP protected by protection package
-- Use <a href="http://docs.jdcloud.com/anti-ddos-protection-package/api/describecpsipresources">describeCpsIpResources</a> APIs to search public IP of Cloud Physical Server protected by protection package
-
 
 ## Request Method
 POST
@@ -17,7 +12,7 @@ https://antipro.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:add
 
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True| |Region Code|
+|**regionId**|String|True| |Region Id, now the Anti-DDoS Protection Package is supported in: cn-north-1, cn-east-1 and cn-east-2|
 |**instanceId**|String|True| |Protection package instance Id|
 
 ## Request Parameter

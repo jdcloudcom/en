@@ -22,9 +22,9 @@ https://baseanti.jdcloud-api.com/v1/regions/{regionId}/setIpCleanThreshold
 ### IpCleanThresholdSpec
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**ip**|String|True| |Public IP protected by Anti-DDoS Basic, supporting ipv4 and ipv6.<br>- Use <a href="http://docs.jdcloud.com/anti-ddos-basic/api/describeelasticipresources">describeElasticIpResources</a> APIs to search VPC elastic IP protected by Anti-DDoS Basic<br>- Use <a href="http://docs.jdcloud.com/anti-ddos-basic/api/describecpsipresources">describeCpsIpResources</a> APIs to search Cloud Physical Server public IP and elastic IP protected by Anti-DDoS Basic<br>|
-|**cleanThresholdBps**|Long|True| |Traffic rate of trigger cleaning, unit: bps. Value range can be searched through <a href="http://docs.jdcloud.com/anti-ddos-basic/api/describeipcleanthresholdrange">describeIpCleanThresholdRange</a> APIs<br>|
-|**cleanThresholdPps**|Long|True| |Packet traffic rate of trigger cleaning, unit pps. Value range can be searched through <a href="http://docs.jdcloud.com/anti-ddos-basic/api/describeipcleanthresholdrange">describeIpCleanThresholdRange</a> APIs<br>|
+|**ip**|String|True| |Public IP protected by Anti-DDoS Basic, only supporting ipv4 and ipv6.<br>- Use <a href='http://docs.jdcloud.com/anti-ddos-basic/api/describeelasticipresources'>describeElasticIpResources</a> APIs to search elastic IP of VPC protected by Anti-DDoS Basic<br>- Use <a href='http://docs.jdcloud.com/anti-ddos-basic/api/describecpsipresources'>describeCpsIpResources</a> APIs to search public IP and elastic IP of Cloud Physical Server protected by Anti-DDoS Basic <br>- Use <a href='http://docs.jdcloud.com/anti-ddos-basic/api/describeccsipresources'>describeCcsIpResources</a> APIs to search public IP of Cabinet Service protected by Anti-DDoS Basic|
+|**cleanThresholdBps**|Long|True| |Traffic rate of trigger cleaning, unit: bps. Value range can be searched through <a href='http://docs.jdcloud.com/anti-ddos-basic/api/describeipcleanthresholdrange'>describeIpCleanThresholdRange</a> APIs|
+|**cleanThresholdPps**|Long|True| |Packet traffic rate of trigger cleaning, unit pps. Value range can be searched through <a href='http://docs.jdcloud.com/anti-ddos-basic/api/describeipcleanthresholdrange'>describeIpCleanThresholdRange</a> APIs|
 
 ## Return Parameter
 |Name|Type|Description|

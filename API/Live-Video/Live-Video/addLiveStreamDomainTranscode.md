@@ -17,7 +17,7 @@ https://live.jdcloud-api.com/v1/transcodeDomains:config
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**publishDomain**|String|True| |Live Pushing Streaming Domain|
-|**template**|String|True| |Transcode Template<br>- Value Range: System Standard Transcode Template, User Customized Transcode Template<br>  ld (h.264/640 * 360/15f)<br>  sd (h.264/960 * 540/25f)<br>  hd (h.264/1280 * 720/25f)<br>  shd (h.264/1920 * 1080/30f)<br>  ld-265 (h.265/640 * 360/15f)<br>  sd-265 (h.265/960 * 540/25f)<br>  hd-265 (h.265/1280 * 720/25f)<br>  shd-265 (h.265/1920 * 1080/30f)<br>|
+|**template**|String|True| |Transcode Template (Transcode stream output suffix)<br>- Value Requirements: Numbers, uppercase and lowercase letters or hyphen ("-"), it must begin and end with a number or letter, the length cannot exceed 50 characters<br>- <b>Note: It cannot duplicate the standard transcode template of system and the current user customized naming</b><br>- System Standard Transcode Templates<br>  ld (h.264/640 * 360/15f)<br> sd (h.264/854 * 480/25f)<br> hd (h.264/1280 * 720/25f)<br> shd (h.264/1920 * 1080/30f)<br> 2k (h.264/2560 * 1440/30f)<br> 4k (h.264/3840 * 2160/30f)<br> ld-265 (h.265/640 * 360/15f)<br> sd-265 (h.265/854 * 480/25f)<br> hd-265 (h.265/1280 * 720/25f)<br> shd-265 (h.265/1920 * 1080/30f)<br> 2k-265 (h.265/2560 * 1440/30f)<br> 4k-265 (h.265/3840 * 2160/30f)<br>|
 
 
 ## Response parameter
@@ -40,18 +40,18 @@ https://live.jdcloud-api.com/v1/transcodeDomains:config
 POST
 ```
 https://live.jdcloud-api.com/v1/transcodeDomains:config
+```
 
 ```
-```
 {
-    "publishDomain": "push.yourdomain.com", 
-    "template": "shd"
+    "publishDomain":"push.yourdomain.com",
+    "template":"shd"
 }
 ```
 
 ## Return Example
 ```
 {
-    "requestId": "bgvmivir54gddpgi764se9f4kfr7ge41"
+    "requestId":"bgvmivir54gddpgi764se9f4kfr7ge41"
 }
 ```

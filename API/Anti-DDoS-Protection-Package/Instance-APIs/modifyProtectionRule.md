@@ -12,7 +12,7 @@ https://antipro.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:mod
 
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True| |Region Code|
+|**regionId**|String|True| |Region Id, now the Anti-DDoS Protection Package is supported in: cn-north-1, cn-east-1 and cn-east-2|
 |**instanceId**|String|True| |Protection package instance Id|
 
 ## Request Parameter
@@ -34,7 +34,9 @@ https://antipro.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:mod
 |**dstNewConnLimitValue**|Long|False| |Target creation connection speed limit, required while modifying instance protection rule or customizing IP protection rule|
 |**datagramRangeMin**|Long|False| |Minimum packet length, value range [1, datagramRangeMax)|
 |**datagramRangeMax**|Long|False| |Maximum packet length, value range (datagramRangeMin, 1518]|
-|**geoBlackList**|String[]|False| |geo interception region code list. Search <a href="http://docs.jdcloud.com/anti-ddos-protection-package/api/describegeoareas">describeGeoAreas</a> API to get settable region code list|
+|**geoBlackList**|String[]|False| |geo interception region code list. Search <a href='http://docs.jdcloud.com/anti-ddos-protection-package/api/describegeoareas'>describeGeoAreas</a> API to get settable region code list|
+|**ipBlackList**|String[]|False| |IP Blacklist|
+|**ipWhiteList**|String[]|False| |IP Whitelist|
 
 ## Return Parameter
 |Name|Type|Description|

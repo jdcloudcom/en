@@ -14,7 +14,7 @@ https://live.jdcloud-api.com/v1/describeLiveTranscodingDurationData
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**grade**|String|False| |For the code rate grade, the transcode duration for a specified grade can be searched, value:<br>- video_h264_4k_1<br>- video_h264_2k_1<br>- video_h264_fhd_1<br>- video_h264_hd_1<br>- video_h264_sd_1<br>- video_h265_4k_1<br>- video_h265_2k_1<br>- video_h265_fhd_1<br>- video_h265_hd_1<br>- video_h265_sd_1<br>|
+|**grade**|String|False| |For the code rate grade, the transcode duration for a specified grade can be searched, value:<br>- video_h264_4k_1<br>- video_h264_2k_1<br>- video_h264_shd_1<br>- video_h264_hd_1<br>- video_h264_sd_1<br>- video_h265_4k_1<br>- video_h265_2k_1<br>- video_h265_shd_1<br>- video_h265_hd_1<br>- video_h265_sd_1<br>|
 |**period**|String|False| |Search period, value range: "day, month, year, followTime", representing 1 day, 1 month, 1 year, follow the time. It is null by default, representing day. When followTime is transmitted, representing as per the period of Endtime-StartTime, only one point is returned<br>|
 |**startTime**|String|True| |Search start time, UTC time, format: yyyy-MM-dd'T'HH:mm:ss'Z'<br>|
 |**endTime**|String|False| |Search End Time, UTC time, Format: yyyy-MM-dd'T'HH:mm:ss’Z’<br>, it is the current time by default when null<br>|
@@ -55,7 +55,6 @@ https://live.jdcloud-api.com/v1/describeLiveTranscodingDurationData
 GET
 ```
 https://live.jdcloud-api.com/v1/describeLiveTranscodingDurationData?startTime=2018-10-21T16:00:00Z&endTime=2019-03-25T16:00:00Z
-
 ```
 
 ## Return Example

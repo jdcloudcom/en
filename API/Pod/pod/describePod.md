@@ -44,7 +44,7 @@ None
 |**vpcId**|String|vpcId of the Primary Network Interface|
 |**subnetId**|String|ID of Primary Network Interface’s Subnet|
 |**privateIpAddress**|String|Primary IP address of primary network interface|
-|**dnsConfig**|DnsConfig|/etc/resolv.conf configuration of container in pod |
+|**dnsConfig**|DnsConfig|/etc/resolv.conf configuration [DnsConfig](DnsConfig.md) of a container in pod      /etc/resolv.conf configuration of a container in pod|
 |**logConfig**|LogConfig|Container log configuration information; 10MB storage space will be assigned to the local by default|
 |**hostAliases**|HostAlias[]|/etc/hosts configuration of container in pod|
 |**volumes**|Volume[]|A list of volume belonging to pod, which provides attachment to containers.|
@@ -52,6 +52,7 @@ None
 |**podStatus**|PodStatus|Pod Status Information|
 |**elasticIp**|ElasticIp|Elastic IP specification related to primary IP of primary network interface|
 |**primaryNetworkInterface**|NetworkInterfaceAttachment|Primary Network Interface Configuration Information|
+|**tags**|Tag[]| |
 |**charge**|Charge|Billing configuration; if no specification is made, the billing type is Pay-As-You-Go - Pay as the service time by default|
 |**createTime**|String|Pod Creation Time|
 ### Charge
@@ -62,6 +63,11 @@ None
 |**chargeStartTime**|String|The start time of the billing shall be subject to ISO8601, with the UTC time with the format of YYYY-MM-DDTHH:mm:ssZ adopted|
 |**chargeExpiredTime**|String|Expiration time, i.e. the expiration time of Pay-In-Advance resource shall be up to ISO8601, with the UTC time with the format of YYYY-MM-DDTHH:mm:ssZ adopted. Pay-As-You-Go resource field is blank|
 |**chargeRetireTime**|String|The expected release time refers to the expected release time of resources. This value is both available for the Pay-In-Advance/Pay-As-You-Go resources, conforming to the ISO8601 standard, using the UTC time and following the format of YYYY-MM-DDTHH:mm:ssZ|
+### Tag
+|Name|Type|Description|
+|---|---|---|
+|**key**|String|Tag Key|
+|**value**|String|Tag Value|
 ### NetworkInterfaceAttachment
 |Name|Type|Description|
 |---|---|---|
@@ -168,7 +174,7 @@ None
 |Name|Type|Description|
 |---|---|---|
 |**name**|String|pod volume name must be used|
-|**mountPath**|String|Attach point in the container, with absolute path; repeated attaching and nesting attaching are not allowed; it is not allowed to be attached to the root directory ("/”). Length range: [1-1024]|
+|**mountPath**|String|Attach point in the container, with absolute path; repeated attaching and nesting attaching are not allowed; it is not allowed to be attached to the root directory ("/"). Length range: [1-1024]|
 |**readOnly**|Boolean|Whether to attach with the method of read-only. Default Read and Write mode|
 ### CloudDiskSpec
 |Name|Type|Description|
@@ -179,6 +185,7 @@ None
 |**diskType**|String|Cloud Disk type: ssd,premium-hdd,hdd.std1,ssd.gp1,ssd.io1|
 |**sizeGB**|Integer|Cloud Disk size, unit GB, requirement|
 |**fsType**|String|Specify volume file system type and support [xfs, ext4] now; if the file system type is not specified for the newly-created disk, such disk will be formatted to xfs by default.|
+|**iops**|Integer|Only the ssd.io1 type iops value of cloud disk is valid now|
 |**autoDelete**|Boolean|Whether to delete with pod. Default: true|
 ### ResourceRequestsSpec
 |Name|Type|Description|
@@ -242,11 +249,12 @@ None
 |**sizeGB**|Integer|Cloud Disk size, unit GB, requirement|
 |**fsType**|String|Specify volume file system type and support [xfs, ext4] now; if the file system type is not specified for the newly-created disk, such disk will be formatted to xfs by default.|
 |**formatVolume**|Boolean|A new disk automatically created with the container will be automatically formatted to the specified file system type; the existing disk mounted will not be formatted by default and only will be mounted as per specified fsType; and if you intend to format the mounted disk, be sure to set the field as true.|
+|**iops**|Integer|Only the ssd.io1 type iops value of cloud disk is valid now|
 |**autoDelete**|Boolean|Whether to delete with pod. Default: true|
 ### HostAlias
 |Name|Type|Description|
 |---|---|---|
-|**hostnames**|String[]|Domain List. <br><br>eg  ["foo.local", "bar.local”]. Length range is 1-10; elements conform to hostname naming convention. <br>|
+|**hostnames**|String[]|Domain List. <br><br>eg  ["foo.local", "bar.local"]. Length range is 1-10; elements conform to hostname naming convention. <br>|
 |**ip**|String|ipv4 information; eg "127.0.0.1"|
 ### LogConfig
 |Name|Type|Description|
@@ -255,9 +263,9 @@ None
 ### DnsConfig
 |Name|Type|Description|
 |---|---|---|
-|**nameservers**|String[]|IP address list of DNS server; the repeated ones will be removed. <br><br>eg ["8.8.8.8", "4.2.2.2”]. List length: [0-20]; elements conform to IPv4 format. <br>|
-|**searches**|String[]|DNS search domain list, used for search of host name. <br><br>eg ["ns1.svc.cluster.local", "my.dns.search.suffix”]. List length: [0-6]; the total length of all characters in the list cannot exceed 256. <br>|
-|**options**|PodDnsConfigOption[]|DNS parser options list. <br><br>eg  ["ndots":"2", "edns0":"”]. List length: [0-10]|
+|**nameservers**|String[]|IP address list of DNS server; the repeated ones will be removed. <br><br>eg ["8.8.8.8", "4.2.2.2"]. List length: [0-20]; elements conform to IPv4 format. <br>|
+|**searches**|String[]|DNS search domain list, used for search of host name. <br><br>eg ["ns1.svc.cluster.local", "my.dns.search.suffix"]. List length: [0-6]; the total length of all characters in the list cannot exceed 256. <br>|
+|**options**|PodDnsConfigOption[]|DNS parser options list. <br><br>eg  ["ndots":"2", "edns0":""]. List length: [0-10]|
 ### PodDnsConfigOption
 |Name|Type|Description|
 |---|---|---|

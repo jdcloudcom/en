@@ -14,8 +14,7 @@ https://live.jdcloud-api.com/v1/snapshotApps/{publishDomain}/appNames/{appName}/
 |---|---|---|---|---|
 |**publishDomain**|String|True| |Pushing Streaming Domain|
 |**appName**|String|True| |Application Name|
-|**template**|String|True| |Snapshot Template
-|
+|**template**|String|True| |Snapshot Template|
 
 ## Request Parameter
 None
@@ -41,7 +40,6 @@ None
 DELETE
 ```
 https://live.jdcloud-api.com/v1/snapshotApps/push.yourdomain.com/appNames/yourapp/templates/yoursnapshottemplate
-
 ```
 
 ## Return Example

@@ -9,7 +9,7 @@ Create a secret for storing relevant confidential information of image registry.
 POST
 
 ## Request address
-https://nc.jdcloud-api.com/v1/regions/{regionId}/secrets
+https://nativecontainer.jdcloud-api.com/v1/regions/{regionId}/secrets
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|

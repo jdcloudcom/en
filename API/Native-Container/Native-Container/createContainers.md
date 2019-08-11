@@ -16,9 +16,9 @@ Create configuration containers for one or more sets
         - Neither start with a minus nor end with a minus.
         - At least 1 character and at most 63 characters
     - A complete machine name consists of a series of tabs and dots
-        - Tags are connected with “.” (dots)
-        - Neither start with a “.” (dot) or end with a “.” (dot).
-        - Complete machine name (including tags and dots “.”) with at most 63 ASCII characters
+        - Tags are connected with "." (dots)
+        - Neither start with a "." (dot) or end with a "." (dot).
+        - Complete machine name (including tags and dots ".") with at most 63 ASCII characters
 - Network Instance Type
     - Specify primary network interface configuration information
         - Be sure to specify one subnet
@@ -61,7 +61,7 @@ Create configuration containers for one or more sets
 POST
 
 ## Request address
-https://nc.jdcloud-api.com/v1/regions/{regionId}/containers
+https://nativecontainer.jdcloud-api.com/v1/regions/{regionId}/containers
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
@@ -152,7 +152,8 @@ https://nc.jdcloud-api.com/v1/regions/{regionId}/containers
 |**name**|String|True| |Name of the cloud disk|
 |**description**|String|False| |Description of the cloud disk|
 |**diskType**|String|True| |Type of the cloud disk, value ssd, premium-hdd, ssd.gp1, ssd.io1 or hdd.std1|
-|**diskSizeGB**|Integer|True| |Size of the cloud disk, unit: GiB; ssd value range of [20,1000]GB and step size of 10G; premium-hdd value range of [20,3000]GB and step size of 10G|
+|**diskSizeGB**|Integer|True| |Size of Cloud Disk Service is in GiB, for ssd type, the value range is [20,1000]GB and the step size is 10G, for premium-hdd type, the value range is [20,3000]GB, and the step size is 10G, for ssd.gp1, ssd.io1 and hdd.std1 types, the value range is [20,16000]GB, and the step size is 10G|
+|**iops**|Integer|False| |The size of Cloud Disk Service IOPS is effective only when the cloud disk type is ssd.io1, and the step size is 10.|
 |**snapshotId**|String|False| |Snapshot ID used to create a cloud disk|
 |**charge**|ChargeSpec|False| |Billing configuration. If not specified, the default billing type is pay-as-you-go - pay by service time by default.|
 |**multiAttachable**|Boolean|False| |Whether the Cloud Disk Service supports the mode that one disk is attached to multiple machines. It is set as false by default (not supported).|

@@ -31,6 +31,8 @@ items:
       href: pod/startPod.md
     - name: Stop Pod
       href: pod/stopPod.md
+    - name: Reset Docker Image in Pod
+      href: pod/rebuildPod.md
   - name: Container
     items:
     - name: Search details of a container in the Pod

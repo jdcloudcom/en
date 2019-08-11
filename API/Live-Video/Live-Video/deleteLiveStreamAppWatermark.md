@@ -16,8 +16,7 @@ https://live.jdcloud-api.com/v1/watermarkApps/{publishDomain}/appNames/{appName}
 |---|---|---|---|---|
 |**publishDomain**|String|True| |Pushing Streaming Domain|
 |**appName**|String|True| |Application Name|
-|**template**|String|True| |Watermark Template
-|
+|**template**|String|True| |Watermark Template|
 
 ## Request Parameter
 None
@@ -43,7 +42,6 @@ None
 DELETE
 ```
 https://live.jdcloud-api.com/v1/watermarkApps/push.yourdomain.com/appNames/yourapp/templates/yourwatermarktemplate
-
 ```
 
 ## Return Example

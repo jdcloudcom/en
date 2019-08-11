@@ -11,7 +11,7 @@ Only the instance with the billing type by volume can be passively deleted. The 
 DELETE
 
 ## Request address
-https://nc.jdcloud-api.com/v1/regions/{regionId}/containers/{containerId}
+https://nativecontainer.jdcloud-api.com/v1/regions/{regionId}/containers/{containerId}
 
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|

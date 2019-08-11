@@ -17,6 +17,7 @@ https://live.jdcloud-api.com/v1/streams:forbid
 |**publishDomain**|String|True| |Pushing Streaming Domain|
 |**appName**|String|True| |Application Name|
 |**streamName**|String|True| |Stream Name|
+|**forbidTime**|Long|False| |Blocked Streaming Duration, unit:s 0 represents permanent blocked streaming duration; when the value is greater than 0, it is limited blocked streaming duration, and blocking will be automatically relieved after passing the time limit|
 
 
 ## Response parameter
@@ -39,8 +40,8 @@ https://live.jdcloud-api.com/v1/streams:forbid
 PUT
 ```
 https://live.jdcloud-api.com/v1/streams:forbid
-
 ```
+
 ```
 {
     "appName": "yourapp", 

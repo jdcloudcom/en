@@ -23,6 +23,8 @@
             href: IP-Resource-APIs/describeCpsIpResources.md
           - name: describeElasticIpResources
             href: IP-Resource-APIs/describeElasticIpResources.md
+          - name: describeCcsIpResources
+            href: IP-Resource-APIs/describeCcsIpResources.md
           - name: describeIpCleanThresholdRange
             href: IP-Resource-APIs/describeIpCleanThresholdRange.md
           - name: describeIpResourceFlow

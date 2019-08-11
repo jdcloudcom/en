@@ -49,7 +49,6 @@ None
 GET
 ```
 https://live.jdcloud-api.com/v1/streams/push.yourdomain.com/appNames/yourapp/streamNames/yourstream/streamInfo
-
 ```
 
 ## Return Example

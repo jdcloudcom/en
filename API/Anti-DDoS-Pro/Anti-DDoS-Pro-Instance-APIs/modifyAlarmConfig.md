@@ -12,8 +12,8 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:modi
 
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True| |Region ID|
-|**instanceId**|Long|True| |Instance ID|
+|**regionId**|String|True| |Region ID, Anti-DDoS Pro dose not differentiate regions, upload to cn-north-1 directly|
+|**instanceId**|String|True| |Instance ID|
 
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
@@ -42,9 +42,14 @@ https://ipanti.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:modi
 ### Error
 |Name|Type|Description|
 |---|---|---|
-|**code**|Integer|Request Error Status Code|
-|**status**|String|Request Error Status Code|
-|**message**|String|Request Error Notification|
+|**err**|Err| |
+### Err
+|Name|Type|Description|
+|---|---|---|
+|**code**|Long|Same as http code|
+|**details**|Object| |
+|**message**|String| |
+|**status**|String|Specific Error|
 ### Result
 |Name|Type|Description|
 |---|---|---|

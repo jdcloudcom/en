@@ -38,6 +38,8 @@ items:
         href: Live-Video/forbidLiveStream.md
       - name: Recover live streaming pushing
         href: Live-Video/resumeLiveStream.md
+      - name: Interrupt Live Streaming Pushing
+        href: Live-Video/interruptLiveStream.md
       - name: View real-time pushing streaming information under the domain
         href: Live-Video/describeLiveStreamOnlineList.md
       - name: View history pushing streaming record under the domain
@@ -93,6 +95,8 @@ items:
         href: Live-Video/describeSystemLiveStreamTranscodeTemplates.md
       - name: Search transcoding template configuration
         href: Live-Video/describeLiveStreamTranscodeConfig.md
+      - name: Search Transcode Template Association
+        href: Live-Video/describeTranscodeBinding.md
   - name: Live Record
     items:
       - name: Add record template
@@ -111,6 +115,8 @@ items:
         href: Live-Video/deleteLiveStreamDomainRecord.md
       - name: Search record configuration
         href: Live-Video/describeCustomLiveStreamRecordConfig.md
+      - name: Search Record Template Association
+        href: Live-Video/describeRecordBinding.md
       - name: Set record callback notification
         href: Live-Video/setLiveStreamRecordNotifyConfig.md
       - name: Search record callback configuration
@@ -135,6 +141,8 @@ items:
         href: Live-Video/addLiveStreamDomainSnapshot.md
       - name: Search live snapshot configuration
         href: Live-Video/describeCustomLiveStreamSnapshotConfig.md
+      - name: Search Snapshot Template Association
+        href: Live-Video/describeSnapshotBinding.md
       - name: Delete domain
         href: Live-Video/deleteLiveStreamDomainSnapshot.md
       - name: Set snapshot callback notification
@@ -161,6 +169,18 @@ items:
         href: Live-Video/deleteLiveStreamDomainWatermark.md
       - name: Search watermark configuration
         href: Live-Video/describeCustomLiveStreamWatermarkConfig.md
+      - name: Search Watermark Template Association
+        href: Live-Video/describeWatermarkBinding.md
+  - name: Live restart
+    items:
+      - name: Add Restart Domain
+        href: Live-Video/addLiveRestartDomain.md
+      - name: Open restart
+        href: Live-Video/openLiveRestart.md
+      - name: Close restart
+        href: Live-Video/closeLiveRestart.md
+      - name: Search restart configuration
+        href: Live-Video/describeLiveRestartConfigs.md
   - name: Data Statistics
     items:
       - name: Search live recording duration data
@@ -172,7 +192,7 @@ items:
         href: Live-Video/describeLiveStreamHistoryUserNum.md
       - name: Search Live Pushing Streaming Number
         href: Live-Video/describeLivePublishStreamNum.md
-      - name: Transcode Search Duration
+      - name: Search Transcode Duration
         href: Live-Video/describeLiveTranscodingDurationData.md
       - name: Search Play Bandwidth
         href: Live-Video/describeLiveStreamBandwidthData.md
@@ -180,6 +200,8 @@ items:
         href: Live-Video/describeLiveStreamTrafficData.md
       - name: Search Stream Group Statistics Data
         href: Live-Video/describeLiveStatisticGroupByStream.md
+      - name: Search Region Group Statistics Data
+        href: Live-Video/describeLiveStatisticGroupByArea.md
       - name: Search Region/Operator Group Statistics Data
         href: Live-Video/describeLiveStatisticGroupByAreaIsp.md
       - name: Search Online Stream List
@@ -189,6 +211,8 @@ items:
       - name: Search Live Porn Identification Number
         status: 0
         href: Live-Video/describeLivePornData.md
+      - name: Search Play URL Ranking
+        href: Live-Video/describeUrlRanking.md
 
   - name: Authentication Correlation
     items:
@@ -202,7 +226,7 @@ items:
           - name: Search Pushing Streaming Authentication KEY
             status: 0
             href: Authentication/PublishUrl.md
-      - name: Live Pushing Streaming Authentication
+      - name: Live Play Authentication
         items:
           - name: Play Authentication Rule
             href: Authentication/PlayUrl.md
@@ -210,8 +234,8 @@ items:
             href: Live-Video/setLivePlayAuthKey.md
           - name: Search play authentication KEY
             href: Live-Video/describeLivePlayAuthKey.md
-#  - name: Live Audit
-#    href: Loading.md
+  - name: Log Download
+    href: Live-Video/describeDomainsLog.md
   - name: SDK Call Method
     href: Example/SDK-Java.md
   - name: Reference Document

@@ -39,14 +39,15 @@ https://live.jdcloud-api.com/v1/transcodeSystem
 |**pageSize**|Integer|Number on Each Page|
 |**totalCount**|Integer|Search Total Amount|
 |**transcodeTemplates**|TranscodeInfo[]|Code Rate Information|
+
 ### TranscodeInfo
 |Name|Type|Description|
 |---|---|---|
 |**videoCodec**|String|Video Encoding Format<br>  - value: h264, h265, h264<br> by default|
-|**videoCodeRate**|Integer|Transcoding Output Code Rate Value<br>  - Value: [200,3000]<br>  - Unit: kpbs<br>|
+|**videoCodeRate**|Integer|Transcode Output Code Rate Value<br>  -  Value: [128,15000]<br>  - Unit: kpbs<br>|
 |**videoFrameRate**|String|Transcode Output Frame Rate Value:<br>  - value: [1,30]<br>|
-|**width**|Integer|Transcoding Output Video Width:<br>  - Value: [100,1920]<br>  - Equal Ratio: If only one parameter is filled in, the output transcoding video is adjusted in proportion to the parameter<br>  - Source-followed: If neither parameter is filled in, the transcoding video is output according to the source proportion<br>|
-|**height**|Integer|Transcoding Output Video Width:<br>  - Value: [100,1920]<br>  - Equal Ratio: If only one parameter is filled in, the output transcoding video is adjusted in proportion to the parameter<br>  - Source-followed: If neither parameter is filled in, the transcoding video is output according to the source proportion<br>|
+|**width**|Integer|Transcode Output Video Width:<br>  - Value: [128,4096]<br>  - Equal Ratio: If only one parameter is filled in, the output transcode video is adjusted in proportion to the parameter<br>  - Source-followed: If neither parameter is filled in, the transcode video is output according to the source proportion<br>|
+|**height**|Integer|Transcode Output Video Width:<br>  - Value: [128,4096]<br>  - Equal Ratio: If only one parameter is filled in, the output transcode video is adjusted in proportion to the parameter<br>  - Source-followed: If neither parameter is filled in, the transcode video is output according to the source proportion<br>|
 |**template**|String|Transcoding Template Customized Name:<br>  - Customized Template: Enumeration type verification, ignore uppercase and lowercase, automatically delete spaces,<br>              Value Requirements: For numbers, uppercase and lowercase letters, or hyphens("-"),<br>              no special characters are allowed at the beginning and end("-")<br>  - Note: It cannot be repeated with the standard transcoding template and the defined name<br>|
 |**templateName**|String|Transcode Template Name<br>|
 |**audioCodec**|String|Transcoding Output Audio Coded Format:<br>  - Value: aac, mp3<br>  - Case Insensitive<br>|
@@ -54,6 +55,8 @@ https://live.jdcloud-api.com/v1/transcodeSystem
 |**audioSampleRate**|Integer|Transcoding Output Audio Sampling Rate:<br>  - Value: [44100,48000]<br>|
 |**audioChannel**|Integer|Transcoding Output Audio Path Number:<br>  - 1  Single Track<br>  - 2  Dual Track<br>|
 |**audioCodeRate**|Integer|Transcoding Output Audio Code Rate:<br>  - Value: [16,128]<br>  - Unit: kbps<br>|
+|**jdchd**|String|Jingxiang Super Definition <br>- Value: jdchd-1.0,off<br>|
+|**audioComfort**|String|Comfortable Audio<br>- Value: on,off<br>|
 
 ## Return Code
 |Return Code|Description|
@@ -69,7 +72,6 @@ https://live.jdcloud-api.com/v1/transcodeSystem
 GET
 ```
 https://live.jdcloud-api.com/v1/transcodeSystem?filters.1.name=template&filters.1.values.1=yt
-
 ```
 
 ## Return Example

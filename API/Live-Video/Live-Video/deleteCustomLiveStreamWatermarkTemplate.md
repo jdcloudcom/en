@@ -15,7 +15,6 @@ https://live.jdcloud-api.com/v1/watermarkCustoms/{template}
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**template**|String|True| |Watermark Template|
-|
 
 ## Request Parameter
 None
@@ -41,7 +40,6 @@ None
 DELETE
 ```
 https://live.jdcloud-api.com/v1/watermarkCustoms/yourwatermarktemplate
-
 ```
 
 ## Return Example

@@ -17,7 +17,7 @@ https://live.jdcloud-api.com/v1/snapshotDomains:template
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**publishDomain**|String|True| |Pushing Streaming Domain|
-|**template**|String|True| |Snapshot Template<br>|
+|**template**|String|True| |Snapshot Template|
 
 
 ## Response parameter
@@ -40,8 +40,8 @@ https://live.jdcloud-api.com/v1/snapshotDomains:template
 POST
 ```
 https://live.jdcloud-api.com/v1/snapshotDomains:template
-
 ```
+
 ```
 {
     "publishDomain": "push.yourdomain.com", 
