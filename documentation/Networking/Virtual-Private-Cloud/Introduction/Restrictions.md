@@ -38,6 +38,7 @@
 |Range of VPC CIDR Mask 	|16 to 28	| Ticket 	|
 |Range of subnet CIDR Mask 	|16 to 28	| Unchangeable 	|
 |Quantity of ACLs in the same VPC	|20	| Ticket 	|
+|Number of Subnets in each of the VPCs	|10	| Ticket	|
 |Quantity of two-way rules for each ACL (inbound + outbound) 	|100	| Ticket 	|
 |Quantity of ACL which can be associated with each subnet 	|1	| Unchangeable 	|
 |Quantity of security groups in the same VPC	|50	| Ticket 	|

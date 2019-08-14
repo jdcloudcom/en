@@ -80,6 +80,10 @@ items:
     href: Cloud-Physics-Server-Service-Level-Protocol-SLA.md
   - name: Service Agreement on Physical Cloud Public IP
     href: Elastic-IP-For-Physical-Cloud-Terms-Of-Service.md
+  - name: Service Terms of Physical Cloud Load Balancer Service
+    href: Physical-Cloud-Load-Balancer-Service-Clause.md 
+  - name: Service Level Agreement (SLA) of Physical Cloud Load Balancer Service
+    href: Physical-Cloud-Load-Balancer-Level-Agreement-SLA.md    
   - name: Service Terms of Distributed Cloud Physical Server
     href: Distributed-Cloud-Physical-Server-Service-Clause.md
   - name: Service Level Agreement (SLA) on Distributed Cloud Physical Server

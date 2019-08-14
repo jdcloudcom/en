@@ -21,30 +21,18 @@ Select or enter the relevant configuration information of the instance. The para
 - Storage Type: Different Storage Types correspond to Maximum IOPSs of different Instance Types, please refer to [MySQL Specifications](../Introduction/Specifications/MySQL-Specifications.md).
 - Specification: Different Specifications correspond to maximum connections and maximum IOPS for CPU and Memory of Instance, please refer to [MySQL Specifications](../Introduction/Specifications/MySQL-Specifications.md).
 - Storage Space: The space includes data space, system file space, and log file space.
-
-![Create Instance 1](../../../../image/RDS/Create-Instance-1.png)
-
 - Virtual Private Cloud: Instances can only be created in the Virtual Private Cloud. If not having a Virtual Private Cloud and subnet, users can create a Virtual Private Cloud and subnet through the link of ***New Virtual Private Cloud*** and ***Create New Subnet***. After the creation is complete, click ***Refresh*** to see the newly created Virtual Private Cloud and subnet.
    - Please make sure that database instance and VM that needs to connect to the database instance are in the same Virtual Private Cloud when choosing Virtual Private Cloud.
    - Instance can be created in a selected subnet which retains a vast number of remaining IPs to allow creation of instances due to management demand.
       - JCS for MySQL,  JCS for Percona and JCS for MariaDB: More than 4 remaining IPs are required.
       - JCS for SQL Server: More than 10 remaining IPs are required.
       - PostgreSQL: Require more than 10 remaining IPs
-      
-![Connection Instance 2](../../../../image/RDS/Create-Instance-2.png)
- 
 - Deployment Mode: Currently, it supports single-availability zone deployment and multi-availability zone deployment.
    - Multiple Availability Zones: The primary and secondary databases are located in different availability zones, with higher availability; if an availability zone fails, the entire instances can still provide services.
    - Single Availability Zone Deployment: The primary and secondary database are located in the same availability zone. If the availability zone fails, the entire instances cannot provide services.
-   
-![Connection Instance 3](../../../../image/RDS/Create-Instance-3.png)  
-
 - Basic Information
    - Instance Name: It is allowed to repeat, while the length and characters of the name have certain limits, which shall be subject to the console.
-
-![Create Instance 8](../../../../image/RDS/Create-Instance-8.png)
-
-- Purchase Duration: The purchase duration shall be selected if the billing method is monthly package, with options varying from 1 month to 2 years. The longer the purchase duration, the greater the discount is, which shall be subject to the console.
+- Purchase Duration: The purchase duration shall be selected if the billing method is monthly package, with options varying from 1 month to 3 years. The longer the purchase duration, the greater the discount is, which shall be subject to the console.
 ![Create Instance 8](../../../../image/RDS/Create-Instance-4.png)
 
 ## 3. Purchase Confirmation

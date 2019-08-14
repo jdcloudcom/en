@@ -9,7 +9,12 @@ The underlying architecture of Object Storage Service is entirely same as the pi
 Meanwhile, Object Storage Service also provides you with a simple and convenient Restful interface and easy-used SDK to help you manage and access the data on Object Storage Service in any application, at any time and any place.
 
 ## OSS Storage Level
+
 Standard Storage: standard storage provides users with high-reliability, high-availability and high-performance Object Storage Service. Standard storage has low access delay and higher throughput, so it is applicable to the business scenario where large throughput and hotspot files required frequently access, e.g. mobile application, large-scale websites, picture sharing, hotspot audio/video, etc.
+
+Infrequent Access Storage (STANDARD-IA): Infrequent access storage type is suitable for data stored for a long term without frequent access (once and twice accesses every month averagely). The unit price for storage is lower than the standard type and it is applicable to long-term backup of all kinds of mobile applications, intelligent devices and enterprise data and supports real-time data access. There will be certain costs if an Object stored for less than 30 days is deleted in advance.
+
+Archival Storage (GLACIER): Archival storage type has the lowest unit price among storage types and is suitable for archive data requiring long-term storage (more than half a year is recommended) and rarely accessed during the storage cycle of the data; when the data is retrieved, you need to wait from several minutes to several hours depending on the retrieval mode you selected. Archival storage type is suitable for archival data, operation logs, film and television materials requiring for long-term preservation. There will be certain costs if an Object stored for less than 60 days is deleted in advance.
 
 Reduced Redundancy Storage: reduced redundancy storage provides users with Object Storage Service of lower storage cost and lower access delay. Compared with standard storage, reduced redundancy storage largely reduces the price of storage, so it is applicable to the business scenario where has low read frequency and data requires long-time cold backup on Object Storage Service; the minimum of storage time is 30 days.
 

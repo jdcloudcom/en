@@ -53,8 +53,12 @@
             href: Operation-Guide/Networking/Virtual-Network-Interface.md
           - name: Subnet
             href: Operation-Guide/Networking/Subnet.md
+          - name: Route Table
+            href: Operation-Guide/Networking/Route-Table.md
           - name: Elastic IP
             href: Operation-Guide/Networking/Elastic-IP-For-Physical-Cloud.md
+          - name: Load Balancer
+            href: Operation-Guide/Networking/Load-Balancer.md
       - name: Firewall Configuration Instruction
         items:
           - name:  Function Description

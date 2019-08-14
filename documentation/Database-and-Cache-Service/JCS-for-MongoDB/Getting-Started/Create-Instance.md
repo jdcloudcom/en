@@ -30,7 +30,7 @@ This article describes how to create a MongoDB instance via console.
 	   - When purchasing a cloud service, it is recommended to choose the region closest to your customer to reduce the access delay;
 	  
 	- Specification configuration
-	   - Database Version: Currently available versions are 3.2, 3.4 and 3.6 will be released soon.
+	   - Database Version: Currently available versions are 3.2 version, 3.4 version, 3.6 version and 4.0 version will be released soon.
 	   - Specifications: The CPU and memory occupied by the instance, different specifications correspond to different maximum number of connections and IOPS (that is, the maximum value that can be achieved by reading and writing respectively, and the maximum number of mixed reading and writing can reach 2 times of the index).
 	   - Storage Space: The disk space occupied by the instance.
 	   

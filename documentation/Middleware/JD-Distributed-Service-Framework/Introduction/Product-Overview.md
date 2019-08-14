@@ -31,3 +31,13 @@ JD Distributed Service Framework is charged for Registration Center and Calling 
 
 For details, refer to: [Billing Instructions](../Pricing/Billing-Overview.md)
 
+
+## List of Supported Regions and Availability Zones
+|Region|Region Indication|Availability Zone|Availability Zone Indication|
+|---|---|---|---|
+|cn-north-1|cn-north-1|Availability Zone A|cn-north-1a|
+|cn-north-1|cn-north-1|Availability Zone B|cn-north-1b|
+|cn-north-1|cn-north-1|Availability Zone C|cn-north-1c|
+|cn-east-2|cn-east-2|Availability Zone A|cn-east-2a|
+|cn-east-2|cn-east-2|Availability Zone B|cn-east-2b|
+|cn-east-2|cn-east-2|Availability Zone C|cn-east-2c|

@@ -17,10 +17,4 @@ The search supports fuzzy searches for tag keys and values. You can enter only p
 Click on the "Refresh" button on the upper left of the Tag List page to refresh the data of the current search results, to obtain the latest data under the current search criteria.
 ![refresh](../../../../image/Tag/Taglist/refresh.png)
 
-## Tag List
-
-You can see all the tags associated to resources under the account in the Tag List and the number of resources under each tag.
-You can sort the data in the list in ascending order or descending order of tag keys or values by clicking on the ascending or descending button on the right of the "Tag Key" or "Tag Value".
-You can go to the "Tagged Resources" page and see a list of all such resources that have been associated to the tag, by clicking on the number of resources on the right side of a tag.
-![sort](../../../../image/Tag/Taglist/sort.png)
 

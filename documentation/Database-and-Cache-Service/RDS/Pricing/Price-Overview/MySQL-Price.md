@@ -24,20 +24,27 @@ For price, refer to the following table, with specific price subject to the char
 |2-core 8GB|300|976|2.22|
 |2-core 8GB|400|1056|2.40|
 |2-core 8GB|500|1136|2.58|
+|2-core 16GB|200|1582|3.61|
 |4-core 16GB|400|1792|4.08|
 |4-core 16GB|500|1872|4.26|
 |4-core 16GB|600|1952|4.44|
 |4-core 16GB|800|2112|4.80|
 |4-core 16GB|1000|2272|5.16|
+|4-core 32GB|400|3164|7.22|
 |8-core 32GB|600|3424|7.80|
 |8-core 32GB|800|3584|8.16|
 |8-core 32GB|1000|3744|8.52|
 |8-core 32GB|1200|3904|8.88|
 |8-core 32GB|1600|4224|9.60|
+|8-core 64GB|600|6168|14.08|
+|8-core 64GB|800|6328|14.44|
 |16-core 64GB|1000|6688|15.24|
 |16-core 64GB|1200|6848|15.60|
 |16-core 64GB|1600|7168|16.32|
 |16-core 64GB|2000|7488|17.04|
+|16-core 128GB|1000|12176|27.80|
+|16-core 128GB|1500|12576|28.70|
+|16-core 128GB|2000|12976|29.60|
 
 ### Local Disk NVMe 
 |Instance Type|Bucket (GB)|Monthly Package (RMB/Month)|Pay by Configuration (RMB/Hour)|
@@ -71,20 +78,27 @@ For price, refer to the following table, with specific price subject to the char
 |2-core 8GB|300|1.15|
 |2-core 8GB|400|1.24|
 |2-core 8GB|500|1.33|
+|2-core 16GB|200|1.8|
 |4-core 16GB|400|2.12|
 |4-core 16GB|500|2.21|
 |4-core 16GB|600|2.30|
 |4-core 16GB|800|2.48|
 |4-core 16GB|1000|2.66|
+|4-core 32GB|400|3.6|
 |8-core 32GB|600|4.06|
 |8-core 32GB|800|4.24|
 |8-core 32GB|1000|4.42|
 |8-core 32GB|1200|4.60|
 |8-core 32GB|1600|4.96|
+|8-core 64GB|600|7.02|
+|8-core 64GB|800|7.2|
 |16-core 64GB|1000|7.94|
 |16-core 64GB|1200|8.12|
 |16-core 64GB|1600|8.48|
 |16-core 64GB|2000|8.84|
+|16-core 128GB|1000|13.86|
+|16-core 128GB|1500|14.31|
+|16-core 128GB|2000|14.76|
 
 ### Local Disk NVMe 
 |Instance Type|Bucket (GB)|Pay by Configuration (RMB/Hour)|

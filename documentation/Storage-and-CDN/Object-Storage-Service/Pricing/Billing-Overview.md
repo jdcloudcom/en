@@ -4,9 +4,9 @@
 
 Object Storage Service adopts the quantity-based pay-as-you-go billing mode, which pushes the bill on a daily basis according to the actual consumption of user and collects charge for the previous day as per the bill per day. Currently, the base charging items for JD Cloud Object Storage Service include: storage capacity, access traffic, request times, data retrieval and Cloud data processing.
 
-Storage capacity: means data usage of bucket, standard storage type files are billed according to the actual storage capacity, archival storage type files has requirements on minimum storage unit and minimum storage days;
+Storage capacity: means data usage of bucket, standard storage type files are billed according to the actual storage capacity, infrequent access storage and archival storage type files has requirements on minimum storage unit and minimum storage days;
 
-Data retrieval amount: For the archival storage type, the data retrieval amount will be mainly calculated by the size of read files and retrieval mode, without differentiating intranet and Internet.
+Data retrieval amount: For archival storage type, the billing is based on the size of the read file and the retrieval mode; for infrequent access storage, the billing is based on the size of the read file; without differentiating Intranet and Internet;
 
 Access traffic: refers to the accumulative value of network traffic consumed, including output traffic of Internet, output traffic of Intranet, input traffic of Internet, input traffic of Intranet, CDN back-to-source output traffic and cross-region replication traffic;
 

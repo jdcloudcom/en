@@ -1,9 +1,9 @@
 # Application Scenario
 
-## Classified Statistic of Resources
+## Application Scenarios
 
-Associate tags for resource and make sure the tags can describe the resoure instance as much as possible. By doing this, it can help users quickly and accurately count which resources are used under the current account and which tags are associated to these resources respectively.
-## Resource Filtering
+### In-batch Resource Management
+After setting different "tag keys" and "tag values" for resources according to the actual application scenario and ownership as well as other different dimensions for the resources, the user can filter resources according to tags of different dimensions in the resource list of the product line Console to achieve classified filtering of resources.
 
-By giving "tags" that describe resources as far as possible to these resources, the users can implement management of this kind of resources in batch through quickly filtering a certain kind of resources by "tags" in the resource list of product line supported by tags.
-See "Product Overview" for resources supported by tags now
+### Authorize resources based on tags
+Through Identity and Access Management, set policies based on tags, to achieve the permission control accurate to resource granularity. For the specific operation guide, see Identity and Access Management.

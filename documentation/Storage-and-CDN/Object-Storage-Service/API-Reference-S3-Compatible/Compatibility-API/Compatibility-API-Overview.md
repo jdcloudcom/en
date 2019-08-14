@@ -37,6 +37,8 @@ The JD Cloud OSS compatible AWS S3 APIs and the description are as follows:
 |PUT Bucket lifecycle|Set Life Cycle Rules of Bucket|Do not support:Transition, AbortIncompleteMultipartUpload<br>Compatible to: [PUT Bucket lifecycle](./Operations-On-Bucket/Put-Bucket-Lifecycle.md)|[PUT Bucket lifecycle](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/RESTBucketPUTlifecycle.html)|
 |GET Bucket lifecycle|Set Life Cycle Rules of Bucket|Compatible to: [GET Bucket lifecycle](./Operations-On-Bucket/Get-Bucket-Lifecycle.md)|[GET Bucket lifecycle](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/RESTBucketGETlifecycle.html)|
 |DELETE Bucket lifecycle|Delete Life Cycle Rules of Bucket|Compatible to: [DELETE Bucket lifecycle](./Operations-On-Bucket/Delete-Bucket-Lifecycle.md)|[DELETE Bucket lifecycle](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/RESTBucketDELETElifecycle.html)|
+Put Bucket tagging|Set Bucket tagging|Compatible: [Put Bucket tagging](./Operations-On-Bucket/Put-Bucket-Tagging.md)|[Put Bucket tagging](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/RESTBucketPUTtagging.html)|
+Get Bucket tagging|Get Bucket tagging|Compatible: [Get Bucket tagging](./Operations-On-Bucket/Get-Bucket-Tagging.md)|[Get Bucket tagging](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/RESTBucketGETtagging.html)
 
 # About Object Operation 
 

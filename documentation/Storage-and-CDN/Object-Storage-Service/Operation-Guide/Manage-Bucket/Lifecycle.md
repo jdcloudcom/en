@@ -2,7 +2,7 @@
 
 ## Life Cycle Overview
 
-JD Cloud Object Storage Service supports object Lifecycle management function through Bucket rule setting. Expired Objects can be automatically deleted to facilitate maintenance and reduce cost during the use of Bucket. If users manually maintain the life cycle of data, it will take a lot of time and energy; but the failure of maintenance will lead to high cost. The life cycle management can help users automatically complete data life cycle management, realize automatic process of data deletion, and save manpower and money cost.
+JD Cloud Object Storage Service supports object Lifecycle management function through Bucket rule setting. Expired Objects and shards can be automatically deleted to facilitate maintenance and reduce costs during the use of Bucket. If users manually maintain the life cycle of data, it will take a lot of time and energy; but the failure of maintenance will lead to high cost. The life cycle management can help users automatically complete data life cycle management, realize automatic process of data deletion, and save manpower and money cost.
 
 ## Rule Description
 
@@ -12,7 +12,8 @@ The life cycle management rule shall be based on the definition of Bucket, and t
 
 **Support Operations**
 
- - Expire: Set the expiration time of Objects, and OSS will delete the specified Object when the time condition is met.
+ - Object Expiry (Expiration): Set the expiration time of Objects, and OSS will delete the specified Object when the time condition is met.
+ - Shard Expiry (AbortIncompleteMultipartUpload): Set the ongoing multipart upload task to terminate after maintaining a while and then delete the shard; this operation is only for the incomplete multipart upload.
 
 **Support Resources**
 
@@ -23,6 +24,8 @@ The life cycle management rule shall be based on the definition of Bucket, and t
  - Date: The absolute date to execute the operation can be specified, and after the date the relevant operation will be executed for the relevant Object;
  
  - Days: The number of relative days can be specified, and after the Days after the last modified date, the relevant operation will executed for the defined Object.
+ 
+ - Days after Initializing Shard (DaysAfterInitiation): Only for shard expiry (AbortIncompleteMultipartUpload); you can specify the relative days and the number of days to terminate the incomplete multipart upload after the initialized multipart upload and then delete the shard.
 
 ### Rule Example
 
@@ -39,6 +42,9 @@ The life cycle configuration is in XML format, and each Bucket has 1,000 rules a
     <Expiration>
        <Days>365</Days>
     </Expiration>
+    <AbortIncompleteMultipartUpload>
+       <DaysAfterInitiation>30</DaysAfterInitiation>
+    </AbortIncompleteMultipartUpload>
   </Rule>
   <Rule>
     <ID>id2</ID>
@@ -49,7 +55,7 @@ The life cycle configuration is in XML format, and each Bucket has 1,000 rules a
     <Expiration>
        <Date>2020-01-01T00:00:00.000Z</Date>
     </Expiration>
-  </Rule>  
+  </Rule>
   ...
 </LifecycleConfiguration>
 ```
@@ -65,6 +71,8 @@ Detail Analysis:
  - Days: The number of relative days can be specified, and after the Days after the last modified date, the relevant operation will executed for the defined Object, and the Days must be a positive integer;
  
  - Date: The absolute date to execute the operation can be specified, and the rule will become valid on the specified date; the date must be UTC 0:00 a.m. in the midnight, and conform to ISO8601 format.
+ 
+ - DaysAfterInitiation: Only for shard expiry (AbortIncompleteMultipartUpload); you can specify the relative days and the number of days to terminate the incomplete multipart upload after the initialized multipart upload and the number must be a positive integer.
 
 ### Note
 
@@ -112,6 +120,10 @@ Details:
  
  - Affected Resources: The resources with the specified prefix configuration may be selected to take effect or the entire Bucket is specified to take effect;
  
- - Expiration Policies: It supports two time conditions, i.e. Days and Date, which cannot be specified simultaneously.
+ - Object Expiration Policies: It supports two time conditions, i.e. Days and Date, which cannot be specified simultaneously.
+ 
+ - Shard Expiry Policy: Support number of days and time conditions;
+ 
+ - Under the same rule, you may either at least set one of object expiry and shard expiry or set both.
  
  Note: if there are more than 100 entries of life cycle rules to be set, API or SDK is recommended for setting.

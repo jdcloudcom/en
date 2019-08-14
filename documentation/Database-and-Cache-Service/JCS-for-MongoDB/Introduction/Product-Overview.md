@@ -3,12 +3,27 @@
 
 The MongoDB Service, which is based on JCS for MongoDB, is a high-performance NoSQL database service provided by JD Cloud, which is widely accepted in the world. It is fully compatible with MongoDB protocol and provides a highly available architecture of three-node replica set by default. It supports automatic disaster tolerance switching and auto completion of default transfer to ensure service availability, and supports flexible expansion, backup recovery and monitoring alarm, so as to reduce management and maintenance costs and help you focus on the application and business development.
 
-The JCS for MongoDB has the following features:
+## Main Characteristics
 
 * Automatically build a high-availability architecture of three-node replica set to support automatic disaster tolerance switching.
 * Provide convenient database backup and restore functions, and backup and restore can be done with one click.
 * Support flexible expansion, and the instance configuration can be adjusted at any time to meet business needs while reducing the cost of use.
 * Provide detailed performance indicator monitoring and automatic alarm function to reduce the difficulty of operation and maintenance.
+
+## Supported Version
+
+Currently, MongoDB 3.2, 3.4 and 3.6 versions are supported.
+
+## Supported Region and Availability Zone
+
+| Region      | Region Indication   | Availability Zone  | Availability Zone Indication  |
+| :-------- | :--------- | :------ | :---------- |
+| cn-north-1 | cn-north-1 | Availability Zone A | cn-north-1a |
+| cn-north-1 | cn-north-1 | Availability Zone B | cn-north-1b |
+| cn-north-1 | cn-north-1 | Availability Zone C | cn-north-1c |
+| cn-east-2 | cn-east-2  | Availability Zone A | cn-east-2a  |
+| cn-east-2 | cn-east-2  | Availability Zone B | cn-east-2b  |
+| cn-east-2 | cn-east-2  | Availability Zone C | cn-east-2c  |
 
 ## Common Operations
 

@@ -4,7 +4,11 @@ Select the Virtual Machines that need to collect business application logs (supp
 1. Configure credential files     
 - Create ~/.jdcloud/logs_credentials.yml file     
 - Edit and save logs_credentials.yml file. The file content is:        
-ak: xxxxxxx (fill in YourAccessKeyID)       sk: xxxxxxx (fill in YourAccessKeySecret)         
+
+ak: xxxxxxx (fill in YourAccessKeyID)
+
+sk: xxxxxxx (fill in YourAccessKeySecret)   
+
 **Note: ak (there must be spaces between key-value pairs), otherwise ak will be read. For example: ak:(space)xxxxxx**
 
 2. Replicate installation commands to Virtual Machines.  

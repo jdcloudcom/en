@@ -7,9 +7,13 @@
 |1-core 2GB|600|
 |1-core 4GB|1200|
 |2-core 8GB|2000|
+|2-core 16GB|3000|
 |4-core 16GB|4000|
+|4-core 32GB|6000|
 |8-core 32GB|8000|
+|8-core 64GB|12000|
 |16-core 64GB|16000|
+|16-core 128GB|24000|
 
 ### Read-only JCS for Percona Instance
 |Instance Type|Max. Connections|
@@ -18,9 +22,13 @@
 |1-core 2GB|600|
 |1-core 4GB|1200|
 |2-core 8GB|2000|
+|2-core 16GB|3000|
 |4-core 16GB|4000|
+|4-core 32GB|6000|
 |8-core 32GB|8000|
+|8-core 64GB|12000|
 |16-core 64GB|16000|
+|16-core 128GB|24000|
 
 ## Functional Limits
 ### Capacity Reduction Operation
