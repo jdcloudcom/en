@@ -2,7 +2,7 @@
 Before you start creating Linux instance, you need to complete the registration of JD Cloud account and real-name verification, and get ready to pay for resources to be purchased.
 ## Account Registration
 If you already have a JD Cloud account, you can skip this step for subsequent setting.
-If you have not registered a JD Cloud account, you can register at JD Cloud official website, please refer to [Register JD Cloud](3d//www.jdcloud.com/)
+If you have not registered a JD Cloud account, you can register at JD Cloud official website, please refer to [Register JD Cloud](https://user.jdcloud.com/register)
 ## Account Verification
 Real-name verification is a prerequisite for purchasing and using resources of JD Cloud. You can choose to perform personal real-name verification or enterprise real-name verification for the account. For details, see [Real-name Verification](../../../User-Service/Real-Name-Verification/Real-Name-Verification.md).
 ## Payment Preparation
@@ -15,7 +15,7 @@ If you want to know the specific cost for different configurations, different bi
 
 ## Related Reference
 
-[Register JD Cloud](https://accounts.jdcloud.com/p/regPage?source=jdcloud&ReturnUrl=%2f%2fuc.jdcloud.com%2fpassport%2fcomplete%3freturnUrl%3d//www.jdcloud.com/)
+[Register JD Cloud](https://accounts.jdcloud.com/p/regPage?source=jdcloud%26ReturnUrl=%2f%2fuc.jdcloud.com%2fpassport%2fcomplete%3freturnUrl%3d//www.jdcloud.com/)
 
 [Real-name Verification](../../../User-Service/Real-Name-Verification/Real-Name-Verification.md)
 
