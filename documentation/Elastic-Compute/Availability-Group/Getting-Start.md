@@ -33,7 +33,7 @@ Instance template defines the configuration information of instances in Availabi
 	First-time users can choose "Public Image" provided by JD Cloud and pick up the responding system and applicable version which meet your requirement. If you have already established your instance and the responding environment is also configured up, you can use this instance to create a private image. You can also create instances of the same system and environment based on this private image or share this private image to other JD Cloud users.
 
 
-7. Choose Instance Type: JD Cloud supports a customized instance type choice: Users are able to choose instance type and the responding configuration according to different service. Please view [Instance Type](../Virtual-Machines/Introduction/Instance-Type-Family.md) for more details.
+7. Choose Instance Type: JD Cloud supports a customized instance type choice: Users are able to choose instance type and the responding configuration according to different service. Please view [Instance Type](https://docs.jdcloud.com/en/virtual-machines/instance-type-family) for more details.
 
 		Please note that: If you plan to use this instance template to create Availability Group, a second generation specification or GPU Type shall be applied, such as g.n2.large.
 

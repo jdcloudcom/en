@@ -35,8 +35,6 @@ spec:
 
 |StorageClass type | Cloud Disk Service Type   |Capacity Range  |Step Size|
 | ------ | ------ | ------ |------ |
-|	ssd|SSD Cloud Disk  | [20-1000]GiB  |10GiB |
-|premium-hdd	|Premium Hdd Cloud Disk | [20-3000]GiB  |10GiB|
 |hdd.std1	|Capacity Type hdd | [20-16000]GiB  |10GiB|
 |ssd.gp1	|General ssd | [20-16000]GiB  |10GiB|
 |ssd.io1	|Performance Type ssd | [20-16000]GiB  |10GiB|

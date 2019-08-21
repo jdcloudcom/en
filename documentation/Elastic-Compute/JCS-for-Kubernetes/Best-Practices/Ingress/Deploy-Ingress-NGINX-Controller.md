@@ -1,5 +1,5 @@
 # Nginx-ingress controller deployment
-Ingress is an entry for access of internal cluster service from external of JCS for Kubernetes, with concept and interpretation reference listed as follows. You may configure URL, Load Balancer, SSL, name-based Virtual Machines and others available for external access to Ingress. Users can request ingress by sending POST Ingress resources to the API server. 
+Ingress is an entry for access of internal cluster service from external of JCS for Kubernetes, with concept and interpretation reference listed as follows. You may provide URL, Load Balancer, SSL, name-based Virtual Machines and others available for external access in Ingress configuration. Users can request ingress by sending POST Ingress resources to the API server. 
 
   ```
    internet
@@ -8,7 +8,9 @@ Ingress is an entry for access of internal cluster service from external of JCS 
    --|-----|--
    [ Services ]
   ```
-Ingress controller is responsible for realizing Ingress. Ingress controller will not be automatically started in JCS for Kubernetes by default and you may deploy the customized Ingress Controller of any type in one pod. Taking Nginx-ingress controller as an example, this document specifies deployment of Controller and definition of Ingress. For more details of external Ingresss Controller, please refer to [Official Document of Kubernetes](https://kubernetes.io/docs/concepts/services-networking/ingress-controllers/).
+Ingress controller is responsible for realizing Ingress. Ingress controller will not be automatically started in JCS for Kubernetes by default and you may deploy the customized Ingress Controller of any type in one pod.
+
+Taking officially open-source Nginx-ingress controller as an example, this document specifies deployment of Controller and definition of Ingress. For more details of external Ingresss Controller, please refer to [Official Document of Kubernetes](https://kubernetes.io/docs/concepts/services-networking/ingress-controllers/).
 
 I. Environment Preparation
 1. Download the latest installation deployment file of nginx-ingress controller from github and decompress the deployment file to the local directory:
@@ -95,7 +97,7 @@ II. Installation of nginx-ingress controller
       selector:
         app: nginx-ingress
     ```
-    **Description**: The nginx-ingress controller application is associated with the port 80 and 443 in this example
+    **Description**: Now, use of externalTrafficPolicy: Local in spec is not supported. Please delete corresponding fields in the file Service Yaml first and then deploy Service.
 
     Define the above Service to the Yaml file and create corresponding Service by executing the following commands:
 
@@ -103,6 +105,7 @@ II. Installation of nginx-ingress controller
     
     kubectl create -f X.yaml        # Please use corresponding Yaml file name to replace X.yaml
     ```
+    **Description**: Now, data provided by config map is null and you may add customized configuration on demand.
 8. Wait for a time period, confirm if Service has been configured and get the field External IP configured on Service
 
     ```
@@ -138,93 +141,13 @@ II. Installation of nginx-ingress controller
     nginx-ingress-nt68q             1/1     Running   0          24d
     ```
 
-III. Example Application
-1. Deploy one Deployment in clusters, run one Nginx webserver and return name of pod Virtual Machines, IP Address, port, request URI and local time of server. For details, please refer to the following Yaml files:
+III. Reference Link
 
-    ```
+After Nginx-ingress Controller is deployed, you can deploy Ingress Resource in JCS for Kubernetes. JD Cloud provides the following deployment schemes based on Nginx-ingress Controller. For details, please refer to the following documents.
+
+1. [Deploy Ingress Resource of http/https Type](https://docs.jdcloud.com/en/jcs-for-kubernetes/Deploy-Ingress-Resource);
+2. [Realize Source IP Pass-through at the Client Based on JD Cloud ALB](https://docs.jdcloud.com/en/jcs-for-kubernetes/nginx-ingress-source-ip).
     
-    apiVersion: apps/v1
-    kind: Deployment
-    metadata:
-      name: nginx-deployment
-      labels:
-        app: nginx
-    spec:
-      replicas: 3
-      selector:
-        matchLabels:
-          app: nginx
-      template:
-        metadata:
-          labels:
-            app: nginx
-        spec:
-          containers:
-          - name: nginx
-            image: nginxdemos/hello:latest        #Nginx webserver Docker Image
-            ports:
-            - containerPort: 80
-    ```
-2. Execute the commands below to deploy the above Deployment to clusters:
-    ```
-    
-    kubectl create -f X.yaml        # X.yaml Please use corresponding Yaml file name to replace 
-
-    kubectl get deployment nginx-deployment
-    NAME               DESIRED   CURRENT   UP-TO-DATE   AVAILABLE   AGE
-    nginx-deployment   3         3         3            3           24d
-    ```
-3. Create one service of nodeport type and expose applications deployed in deployment (created in step 1):
-
-    ```
-    
-    kubectl expose deployment nginx-deployment --target-port=80 --port=60000 --protocol=TCP --name=servicetest-jdcloud --type=NodePort
-    
-    kubectl get svc servicetest-jdcloud
-
-    NAME                  TYPE       CLUSTER-IP    EXTERNAL-IP   PORT(S)
-    servicetest-jdcloud   NodePort   10.0.57.193   <none>        60000:30770/TCP   23d
-    ```
-4. Create one ingress resouce and use service created in step 2 as the backend of ingress:
-
-    ```
-    
-    apiVersion: extensions/v1beta1
-    kind: Ingress
-    metadata:
-      name: k8s-app-monitor-agent-ingress
-      annotations:
-        metadata.annotations.kubernetes.io/ingress.class: "nginx "     # designates Ingress Controller used for creating Ingress Resource, and Nginx Controller created above is used for this instance
-    spec:
-      rules:
-      - host: k8s-ingress-nginx-controller-test.jdcloud
-        http:
-          paths:
-          - path: /
-            backend:
-              serviceName: servicetest-jdcloud
-              servicePort: 60000
-    ```
-
-     
-5. Execute the commands below to deploy the above ingress resource to clusters:
-
-    ```
-
-    kubectl create -f X.yaml        # X.yaml Please use corresponding Yaml file name to replace 
-
-    kubectl get ingress k8s-app-monitor-agent-ingress
-
-    NAME                            HOSTS                                       ADDRESS   PORTS   AGE
-
-    k8s-app-monitor-agent-ingress   k8s-ingress-nginx-controller-test.jdcloud             80      23d
-
-    ```
-    
-6. Add DNS configuration in /etc/hosts of local server: IP refers to the external IP of LoadBalance type service which provides public network entrance to nginx-ingress controller created in Item 8, Party II, and domain refers to the name of Virtual Machines: k8s-ingress-nginx-controller-test.jdcloud, configured in ingress resource rule;
-7. Upon inputting k8s-ingress-nginx-controller-test.jdcloud/servicetest-jdcloud in a browser, the output results can be viewed, i.e. nginx webserver deployed in Item 1 has been exposed outside the cluster.
-
-
     
 
 

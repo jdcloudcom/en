@@ -55,6 +55,8 @@
             href: Operation-Guide/Parsing-Record-Operation/Domain-Record-Import.md
           - name: Customized ISP Line Operation
             href: Operation-Guide/Custom-Route-Operation/Custom-Route.md
+      - name: IAM
+        href: Operation-Guide/iam.md
   - name: FAQ
     items:
     - name: Website Monitoring

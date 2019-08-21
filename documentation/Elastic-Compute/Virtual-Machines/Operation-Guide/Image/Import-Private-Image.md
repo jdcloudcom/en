@@ -19,6 +19,7 @@ Use Description about Image Importation:<br>
 |File System|* xfs, ext3, ext4|
 |Partition|* MBR Partition|
 |Driver Virtualization|* only KVM virtualization is supported, and it is required to install the virtio driver|
+|Enabling Method|* Only support BIOS and does not support UEFI method
 |Network|* the Ipv6 address isn’t supported for the time being|
 |Basic system environment |* Disable the firewall, and release the TCP 22 port <br>* Enable the DHCP service<br>* Ensure that the system disk has remaining space<br>* Ensure that the file system is complete|
 |System Configuration|* If /etc/fstab is configured with automatic attaching, please delete <br>* /etc/udev/rules.d. In case of 70-persistent-net.rules configuration, please delete <br>* please don’t modify /etc/shadow is read only<br>* Please don’t modify /etc/selinux/config Enable SELinux<br>* Please don’t modify /etc/grub/grub.cfg<br>* Please don’t modify /boot/grub/menu.lst
@@ -34,6 +35,7 @@ Use Description about Image Importation:<br>
 |File System|* NTFS|
 |Partition|* MBR Partition|
 |Driver Virtualization|* only KVM virtualization is supported, and it is required to install the virtio driver|
+|Enabling Method|* Only support BIOS and does not support UEFI method
 |Network|* the Ipv6 address isn’t supported for the time being|
 |Basic System Environment |* Disable the firewall, release the RDP 3389 port<br>* Ensure that the system disk has remaining space<br>* Ensure that the file system is complete|
 |System Configuration|* Please don’t modify the key system file|
@@ -44,7 +46,7 @@ Use Description about Image Importation:<br>
 
 ![](../../../../../image/vm/Image-Import-Image-Overview.png)<br>
 ### 1. Prepare image files
-To guarantee the availability of imported images, please make test image configuration in accordance with the above-mentioned requirement for making JD Cloud images, and operate importation after confirming that the imported image coincides with JD Cloud’s specification.<br>
+To guarantee the availability of imported images, please be sure to conduct image configuration test before import by referring to JD Cloud image making requirements, especially key configuration of starting method, partition and [virtio Installation](https://docs.jdcloud.com/en/virtual-machines/install-virtio-driver), and carry out import operation after confirming the images conforming to JD Cloud specifications.<br>
 Meanwhile, to guarantee that imported images can get such functions as password modification, monitoring data reporting, security scan testing, etc. under the JD Cloud environment, you are suggested to install important system components before exporting images. For the functions and installation methods of system components, please refer to: [Public image system components](https://docs.jdcloud.com/en/virtual-machines/default-agent-in-public-image). <br>
 For Linux images, self inspection of important system configurations can be completed with the image self-inspection tool provided by us. For the use method, please refer to: [Image Self-inspection Tool](Image-Check-Tool.md)
 
@@ -81,6 +83,8 @@ The parameter description of import APIs is as follows:
 
 ## View and Test Image
 After the import image request is submitted, you can immediately see the specific progress via the proportion in the "Status" attribute in the Console Private Image List Page/Details.
+
+As the system disk function of Cloud Disk Service in cn-north-1 is in the greyscale open period, if you cannot view imported disk images of cloud disk systems in the private image list, please open tickets to apply for permissions.
 
 If the image is found at "Creating 0%" for a long time when searched, it is possible that there are too much import image requests, so your request is at queuing status, then you can call [Image Import Task Search](https://docs.jdcloud.com/en/virtual-machines/api/imagetasks?content=API) APIs through openAPI to know more detailed task progress.
 

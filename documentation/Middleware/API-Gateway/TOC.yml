@@ -43,6 +43,8 @@ items:
       href: Getting-Started/example_function.md
     - name: Build API using the method of subscription Key
       herf: Getting-Started/example_subscriptionKey.md
+    - name: Use APIs in Open VPC of API Gateway
+      href: Getting-Started/VPC.md
 - name: Operation Guide
   items:
     - name: API Group Management
@@ -81,7 +83,10 @@ items:
           href: Operation-Guide/Create-Auth/Signature-Key.md
         - name: Access Key of JD Cloud User Signature
           href: Operation-Guide/Create-Auth/JD-Cloud-User-Signature.md
-      
+    - name: JD Distributed Service Gateway
+      items:
+        - name: JD Distributed Service Gateway
+          href: Operation-Guide/JDSF-gw.md  
     - name: Backend Signature
       items:
         - name: Backend Signature

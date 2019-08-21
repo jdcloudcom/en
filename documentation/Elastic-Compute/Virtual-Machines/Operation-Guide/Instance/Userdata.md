@@ -1,7 +1,6 @@
 # Customized Data
 
 Instance customized data means that when an instance is created, the user can pass on the executable script to the instance in the specified data format to implement customization of the instance startup behavior. With this function, you can automatically complete operations such as downloading/upgrading/installing software, enabling services, modifying system configuration, and initializing the service environment after the instance is started.<br>
-The customized data function is currently in the public beta stage. If you need to use it, please open ticket to apply for qualification.
 
 * [Format Requirement](Userdata#user-content-1)
 * [Execution Description](Userdata#user-content-2)

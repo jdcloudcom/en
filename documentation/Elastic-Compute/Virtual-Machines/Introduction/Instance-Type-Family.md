@@ -19,9 +19,10 @@ The General currently provides General Shared and General Standard types, provid
 
 * vCPU to Memory Ratio is 1:1 or 1:2
 * Processor: 2.1 GHz Intel Xeon E5-2683 v4 (Broadwell) processor
-* Support for the following two types of Cloud Disk Services:
-	* Premium Hdd Cloud Disk
-	* SSD Cloud Disk
+* The following Cloud Disk Service types are supported:
+	* General Type SSD Cloud Disk
+	* Performance Type SSD Cloud Disk
+	* Capacity Type HDD Cloud Disk
 * Applicable Scenario:
 	* Primary stage of personal website with small visits
 	* Microservices
@@ -42,9 +43,10 @@ Instance Type|vCPU (core)|Memory (GB)
 * Processor:
 	* Second generation: 2.4 GHz Intel Xeon Gold 6148 (Skylake) processor
 	* First generation: 2.1 GHz Intel Xeon E5-2683 v4 (Broadwell) processor
-* Support for the following two types of Cloud Disk Services:
-	* Premium Hdd Cloud Disk
-	* SSD Cloud Disk
+* The following Cloud Disk Service types are supported:
+	* General Type SSD Cloud Disk
+	* Performance Type SSD Cloud Disk
+	* Capacity Type HDD Cloud Disk
 * Applicable Scenario:
 	* Enterprise applications of all types and sizes
 	* Small and medium data systems, caches, search clusters
@@ -91,9 +93,10 @@ Compute Optimized Type currently offer Compute-Optimized Standard that provide y
 * Processor:
 	* Second generation: 2.4 GHz Intel Xeon Gold 6148 (Skylake) processor
 	* First generation: 2.1 GHz Intel Xeon E5-2683 v4 (Broadwell) processor
-* Support for the following two types of Cloud Disk Services:
-	* Premium Hdd Cloud Disk
-	* SSD Cloud Disk
+* The following Cloud Disk Service types are supported:
+	* General Type SSD Cloud Disk
+	* Performance Type SSD Cloud Disk
+	* Capacity Type HDD Cloud Disk
 * Applicable Scenario:
 	* Batch Workload
 	* Web Frontend Server
@@ -143,9 +146,10 @@ Memory-Optimized Standard currently offer a Memory-Optimized Standard Type for a
 * Processor:
 	* Second generation: 2.4 GHz Intel Xeon Gold 6148 (Skylake) processor
 	* First generation: 2.1 GHz Intel Xeon E5-2683 v4 (Broadwell) processor
-* Support for the following two types of Cloud Disk Services:
-	* Premium Hdd Cloud Disk
-	* SSD Cloud Disk
+* The following Cloud Disk Service types are supported:
+	* General Type SSD Cloud Disk
+	* Performance Type SSD Cloud Disk
+	* Capacity Type HDD Cloud Disk
 * Applicable Scenario:
 	* High performance database, in-memory database
 	* Data analysis and mining, distributed memory caching
@@ -192,9 +196,10 @@ High-frequency computing models currently offer high-frequency computing general
 * Processor:
 	* Second Generation: 3.2 GHz Intel Xeon Gold 6146 (Skylake) processor
 	* First Generation: 3.2 GHz Intel Xeon E5-2667 v4 (Broadwell) processor
-* Support for the following two types of Cloud Disk Services:
-	* Premium Hdd Cloud Disk
-	* SSD Cloud Disk
+* The following Cloud Disk Service types are supported:
+	* General Type SSD Cloud Disk
+	* Performance Type SSD Cloud Disk
+	* Capacity Type HDD Cloud Disk
 * Applicable Scenario:
 	* High-performance Web Front-end Server
 	* High Performance Science and Engineering Applications
@@ -239,9 +244,10 @@ GPU Type currently provides GPU Standard Type, providing you with a heterogeneou
 * Processor:
 	* Intel Xeon E5-2683 v4 (Broadwell) processor with 2.1 GHz dominant frequency(P40)
 	* Intel Xeon E5-2650 v4 (Broadwell) processor (V100) with 2.2 GHz dominant frequency
-* Support the local data disk (temporary storage), please note that, **local data disk data will be cleared when shutdown occurs**, and support the following two Cloud Disk Services:
-	* Premium Hdd Cloud Disk
-	* SSD Cloud Disk
+* Support the local data disk (temporary storage). Please note that **local data disk data will be cleared when shutdown occurs**, and the following Cloud Disk Service types will be supported:
+	* General Type SSD Cloud Disk
+	* Performance Type SSD Cloud Disk
+	* Capacity Type HDD Cloud Disk
 * Applicable Scenarios:
 	* Scientific Computing
 	* Machine Learning

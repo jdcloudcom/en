@@ -1,0 +1,77 @@
+  name: JCS for Greenplum
+  href: 
+  items:
+  - name: Introduction
+    items:
+      - name: Product Overview
+        href: Introduction/Product-Overview.md
+      - name: Core Concepts
+        href: Introduction/Core-Concepts.md
+      - name: Benefits
+        href: Introduction/Benefits.md
+      - name: Features
+        href: Introduction/Features.md
+      - name: Specifications
+        href: Introduction/Specifications.md
+  - name: Pricing
+    items:
+      - name: Billing Overview
+        href: Pricing/Billing-Overview.md
+      - name: Billing Rules
+        href: Pricing/Billing-Rules.md
+      - name: Price Overview
+        href: Pricing/Price-Overview.md
+  - name: Getting Started
+    items:
+      - name: Create Instance
+        href: Getting-Started/Create-Instance.md
+      - name: Connection Instance
+        href: Getting-Started/Connect-Instance.md
+  - name: Operation Guide
+    items:
+      - name: Instance Management
+        items:
+          - name: Create Instance 
+            href: Operation-Guide/Instance-Management/Create-Instance.md
+          - name: Restart Instance
+            href: Operation-Guide/Instance-Management/Restart-Instance.md
+          - name: Renewal Instance
+            href: Operation-Guide/Instance-Management/Renewal-Instance.md 
+          - name: Delete instance
+            href: Operation-Guide/Instance-Management/Delete-Instance.md
+      - name: Account Management
+        items:
+          - name: Create Account
+            href: Operation-Guide/Account-Management/Create-Account.md
+          - name: Reset Password
+            href: Operation-Guide/Account-Management/Reset-Password.md
+      - name: Monitoring Alarm
+        items:
+          - name: View Monitoring Information
+            href: Operation-Guide/Monitoring/Monitoring.md
+          - name: Set alarm rules
+            href: Operation-Guide/Monitoring/Alarm-Rules.md              
+  - name: FAQ
+    href: FAQ/FAQ.md
+  - name: User Agreements
+    status: 0
+    items:
+    - name: Service Terms
+      href: User-Agreements/Product-Terms-of-Service.md           
+      status: 0      
+    - name: SLA
+      href: User-Agreements/SLA.md           
+      status: 0       
+  - name: Related Resources
+    status: 0 
+    items:
+    - name: Document History Records
+      href: Related-Resources/Document-History.md
+      status: 0 
+    - name: ICP Filing
+      href: Related-Resources/Filing.md           
+      status: 0        
+    - name: Glossary
+      href: Related-Resources/Glossary.md           
+      status: 0
+

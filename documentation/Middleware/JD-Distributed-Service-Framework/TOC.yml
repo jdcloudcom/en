@@ -41,6 +41,8 @@ items:
       herf: Getting-Started/Getting-Started.md
     - name: Examples for Getting Started
       herf: Getting-Started/Basic-Example.md
+    - name: Use APIs in Open VPC of API Gateway
+      herf: Getting-Started/GW_VPC.md
 - name: Operation Guide
   items:
     - name: Registration Center
@@ -84,7 +86,14 @@ items:
           herf: Operation-Guide/Analysis-Service/Update-Analysis-Service.md
         - name: Delete Service
           herf: Operation-Guide/Analysis-Service/del-Analysis-Service.md
-    
+    - name: JD Distributed Service Gateway
+      items:
+        - name: Overview
+          herf: Operation-Guide/JDSFGW/overview.md
+        - name: Create service
+          herf: Operation-Guide/JDSFGW/CreateGW.md
+        - name: View service
+          herf: Operation-Guide/JDSFGW/ViewGW.md   
 - name: FAQ
   herf: FAQ/faq.md
 

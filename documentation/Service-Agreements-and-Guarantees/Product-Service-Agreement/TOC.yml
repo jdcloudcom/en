@@ -48,8 +48,12 @@ items:
     href: Cloud-Database-MongoDB-Service-Level-Agreement-SLA.md
   - name: JCS for InfluxDB Service Terms
     href: JCS-For-InfluxDB-Terms-Of-Service.md
-  - name: JCS for InfluxDB Service Level Agreement (SLA)
+  - name: JCS for InflxDB Service Level Agreement (SLA)
     href: JCS-For-InfluxDB-Level-Agreement-SLA.md
+  - name: JCS for Greenplum Service Terms
+    href: JCS-For-Greenplum-Terms-Of-Service.md  
+  - name: JCS for Greenplum Service Level Agreement (SLA)
+    href: JCS-For-Greenplum-Level-Agreement-SLA.md
   - name: Virtual Machines Security Service Agreement
     href: Cloud-Host-Security-Service-Clause.md
   - name: Cloud Disk Service Agreement
@@ -136,3 +140,7 @@ items:
     href: Rich-Media-SMS-Terms-Of-Service-SLA.md
   - name: Service Terms for Log Service
     href: Log-Service-Terms-Of-Service.md
+  - name: JD Cloud HSM Service Terms
+    href: JDCloudHSM-Terms-Of-Service.md
+  - name: JD Cloud HSM Service Level Agreement (SLA)
+    href: JDCloudHSM-Level-Agreements-SLA.md

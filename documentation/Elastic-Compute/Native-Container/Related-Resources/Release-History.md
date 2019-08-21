@@ -3,6 +3,7 @@
 
 | Time   |Online Contents |
 |-|-|
+|August 2019|Native Container Instance supports IAM |
 |July 2019|Support information verification of Secrets;<br>Support verification of third-party images when native container instance and Pod are created|
 |July 2019|Native container instance and Pod support image resetting function|
 |May 2019|Native Container Instance supports renewal and tag<br> Native Container Pod supports renewal, tag and operation protection|

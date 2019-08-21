@@ -31,7 +31,7 @@ reclaimPolicy: Retain
 2. reclaimPolicy: Persistent Volume, dynamically created by storage class, will specify the recycle policy in the field reclaimPolicy, being Delete or Retain. If reclaimPolicy is not designated when the storageClass object is created, Delete is the default value.
 
 3. parameters  
-  - type: Set the parameter value to ssd or premium-hdd, corresponding to JD Cloud SSD cloud disk and Premium Hdd cloud disk.  
+  - type: Set the parameter value as ssd.gp1, ssd.io1 or hdd.std1, respectively corresponding to General Type SSD Cloud Disk, Performance Type SSD Cloud Disk and Capacity Type HDD Cloud Disk of JD Cloud;
   - fstype: Set the file system type, with optional parameter values of fstyle and ext4. If no fstyle is specified, ext4 will be used as the default file system type; for example, fstyle = ext4;  
   - zones: Set availability zones of Cloud Disk Service according to region of clusters; you are not required to set this parameter for the region supporting a single availability zone; you may choose one availability zone or all availability zones for the region supporting multiple availability zones (separate parameter values with ","), for example zones=cn-north-1a, cn-north-1b; when selecting all availability zones, the created Cloud Disk Service will be distributed to one availability zone at random according to the name hash algorithm; for correspondence between region and availability zone, please refer to the table below:  
 

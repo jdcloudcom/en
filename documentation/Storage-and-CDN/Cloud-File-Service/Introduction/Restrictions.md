@@ -4,7 +4,7 @@
 
 Cloud File Storage currently supports NFS v4.1 and NFS v4.0 protocols for Linux Virtual Machines. The compatible JD Cloud Public Image versions include:
 
-- CentOS 6.9 64-bit and versions above, including: NFSv4.1 protocol for CentOS 7.3 and above, and NFSv4.0 protocol for CentOS 6.9 to CentOS 7.2.
+- CentOS 6.9 64-bit and versions above, including: NFSv4.0 and NFSv4.1 protocol for CentOS 7.3 and above, and NFSv4.0 protocol for CentOS 6.9 to CentOS 7.2.
 - Ubuntu 14.04 64-bit and Ubuntu 16.04 64-bit
 
 
@@ -13,22 +13,22 @@ Cloud File Storage currently supports NFS v4.1 and NFS v4.0 protocols for Linux 
 
 | **Resource**                 | **Limit**                 |
 | ------------------------ | ------------------------ |
-| File storage number               |  cn-south-1 and cn-north-1 -  No more than 5  |
+| File storage number               |cn-north-1 -  No more than 5 (you can open ticket to increase capacity)|
 | The attached target number of each file storage | not exceeding 1                |
 | The VPC number of each file storage | not exceeding 1                |
-| The maximum capacity of each File Storage     | No more than 1T during Beta          |
+| The maximum capacity of each File Storage     | No more than 1PB (you can open ticket to increase capacity)          |
 
 
 
 ## Size limit of a single file
 
-During product Beta period, a single file size of up to 140GB is supported. After the product is officially released, it supports a single file of up to 8TB.
+A single file sized up to 8TB is supported.
 
 
 
 ## Support for NFS protocol
 
-- File storage supports NFS v4.1 and NFS v4.0 version protocols, and does not support NFS v2 or NFS v3 now.
+- File storage supports NFS v4.1, NFS v4.0 and NFS v3 version protocols, and does not support NFS v2 now.
 
 
 - The following features of the NFSv4.1 and NFSv4.0 version protocols are not supported currently:

@@ -10,7 +10,7 @@ You can create cloud disk from snapshot and attach it to any of the Virtual Mach
 
 
 
-- Each SSD cloud disk supports a maximum of 1,000G capacity; each Premium Hdd cloud disk supports a maximum of 3,000G capacity; the three new type disks all support a maximum of 4,000G capacity;
+- When Cloud Disk is created on the Console, a single disk supports maximum capacity of 4000GB but supports maximum capacity of 16000GB when Cloud Disk is created with OpenAPI or JD Cloud CLI;
 
 
 
