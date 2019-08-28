@@ -1,0 +1,72 @@
+  name: JDStack HCI
+  href: 
+  items:
+  - name: Introduction
+    items:
+      - name: Product Overview
+        href: Introduction/Product-Overview.md
+      - name: Core Concepts
+        href: Introduction/Core-Concepts.md
+        status: 0
+      - name: Basic Architecture
+        href: Introduction/Basic-Infrastructure.md
+      - name: Benefits
+        href: Introduction/Benefits.md
+      - name: Features
+        href: Introduction/Features.md
+      - name: Restrictions
+        href: Introduction/Restrictions.md
+        status: 0
+      - name: Application Scenarios 
+        href: Introduction/Application-Scenarios.md    
+  - name: Getting Started
+    items:
+      - name: Overview
+        href: Getting-Started/Getting-Started-Overview.md
+      - name: Log in Platform
+        href: Getting-Started/Logging-In-Platform.md
+      - name: Role Permission
+        href: Getting-Started/Role-Permission.md
+      - name: Create Network
+        href: Getting-Started/Create-Network.md
+      - name: Create Route
+        href: Getting-Started/Create-Router.md
+      - name: Create VM Instance
+        href: Getting-Started/Create-Instance.md
+      - name: Assign Floating IP
+        href: Getting-Started/Allocate-Floating-IP.md
+  - name: Operation Guide
+    items:
+      - name: User Self-service
+        items:
+          - name: Resource Overview
+            href: Operation-Guide/Resource-Overview.md
+          - name: Virtual Machines
+            href: Operation-Guide/Associated-With-Instance.md
+          - name: Cloud Disk Service
+            href: Operation-Guide/Associated-With-Disk.md
+          - name: Networking
+            href: Operation-Guide/Associated-With-Network.md
+          - name: Load Balancer
+            href: Operation-Guide/LBaaS.md
+      - name: Background Management
+        items:
+          - name: Overview
+            href: Operation-Guide/Background-Management.md
+          - name: Management of Organization Users
+            href: Operation-Guide/Organizations-And-Users-Management.md
+          - name: Quota Management
+            href: Operation-Guide/Quota-Management.md
+      - name: Operation and Maintenance Management
+        items:
+          - name: Operation and Maintenance Monitoring
+            href: Operation-Guide/Operation-Maintenance-And-Monitoring.md           
+  - name: FAQ
+    items:
+      - name: FAQ
+        href: FAQ/FAQ.md
+  - name: Related Resources
+    items:
+    - name: Document History Records
+      href: Related-Resources/Document-History.md
+

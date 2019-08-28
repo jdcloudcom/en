@@ -1,0 +1,81 @@
+name: NAT Gateway
+href: 
+items:
+  - name: Introduction
+    items:
+      - name: Product Overview
+        href: Introduction/Product-Overview.md
+      - name: Basic Architecture
+        href: Introduction/Basic-Infrastructure.md
+      - name: Core Concepts
+        href: Introduction/Core-Concepts.md
+      - name: Benefits
+        href: Introduction/Benefits.md
+      - name: Features
+        href: Introduction/Features.md
+      - name: Specifications
+        href: Introduction/Specifications.md
+      - name: Restrictions
+        href: Introduction/Restrictions.md
+      - name: Application Scenarios 
+        href: Introduction/Application-Scenarios.md    
+  - name: Pricing
+    items:
+      - name: Billing Overview
+        href: Pricing/Billing-Overview.md
+      - name: Billing Rules
+        href: Pricing/Billing-Rules.md
+      - name: Price Overview
+        href: Pricing/Price-Overview.md
+      - name: Purchase Process
+        href: Pricing/Purchase-Process.md 
+  - name: Getting Started
+    items:
+      - name: NAT Gateway for Virtual Machines
+        items:
+          - name: NAT Gateway for Virtual Machines
+            href: Getting-Started/Create-NatGateway.md
+  - name: Operation Guide
+    items:
+      - name: NAT Gateway Management
+        items:
+          - name: Create NAT Gateway
+            href: Operation-Guide/Nat-Gateway-Management/Create-Nat-Gateway.md
+          - name: Delete NAT Gateway
+            href: Operation-Guide/Nat-Gateway-Management/Delete-Nat-Gateway.md
+          - name: Change NAT Gateway Specification
+            href: Operation-Guide/Nat-Gateway-Management/Change-Nat-Gateway-Type.md
+          - name: Edit NAT Gateway
+            href: Operation-Guide/Nat-Gateway-Management/Edit-Nat-Gateway.md
+          - name: Start and Stop NAT Gateway
+            href: Operation-Guide/Nat-Gateway-Management/Start-Stop-Nat-Gateway.md
+      - name: View NAT Gateway Monitoring Information
+        items:
+          - name: View NAT Gateway Monitoring Information
+            href: Operation-Guide/View-Nat-Gateway-Monitoring/View-Nat-Gateway-Monitoring.md
+      - name: View NAT Gateway Billing Information
+        items:
+          - name: View NAT Gateway Billing Information
+            href: Operation-Guide/View-Nat-Gateway-Billing/View-Nat-Gateway-Billing.md   
+  - name: Best Practices
+    items:
+          - name: Migrate from NAT Instance to NAT Gateway
+            href: Best-Practices/Migration-From-Instance-To-Nat-Gateway.md  
+  - name: Troubleshooting
+    items:
+    status: 0      
+  - name: FAQ
+    href: FAQ/FAQ.md
+  - name: API Reference
+    href:
+    status: 0      
+  - name: SDK Reference
+    href:
+    status: 0      
+  - name: User Agreements
+    items:
+    - name: Service Terms
+      href: User-Agreements/Product-Terms-of-Service.md         
+  - name: Related Resources
+    items:
+    status: 0 

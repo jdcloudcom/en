@@ -15,9 +15,6 @@
 ### Contraction Operations
 * It does not support expansion and shrinkage of instance.
 
-### Instance Recovery
-* Do not support to recover instances have been deleted.
-
 ### Create Instance
 * The number of instance for a single region is limited. A region supports a maximum of 5 instances be default. If you need more instance, please open ticket.
 

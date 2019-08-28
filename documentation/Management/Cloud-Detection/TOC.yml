@@ -1,0 +1,78 @@
+name: Cloud Detection
+items:
+- name: Introduction
+  items:
+    - name: Product Overview
+      href: Introduction/Product-Overview.md
+    - name: Core Concepts
+      href: Introduction/Core-Concepts.md
+    - name: Benefits
+      href: Introduction/Benefits.md
+    - name: Restrictions
+      href: Introduction/Restrictions.md
+    - name: Application Scenarios 
+      href: Introduction/Application-Scenarios.md    
+- name: Pricing
+  items:
+    - name: Billing Overview
+      href: Pricing/Billing-Overview.md
+- name: Getting Started
+  items:
+    - name: Use Site Monitoring
+      href: Getting-Started/Site-Monitoring.md
+    - name: Use Availability Monitoring
+      href: Getting-Started/Availability-Monitoring.md
+- name: Operation Guide
+  items:
+    - name: Site Monitoring
+      items:
+        - name: Task Management
+          href: Operation-Guide/Site-Monitoring/SiteTask-Management.md
+        - name: View Monitoring Graph
+          href: Operation-Guide/Site-Monitoring/ViewSiteMonitoring.md
+        - name: Alarm Management
+          href: Operation-Guide/Site-Monitoring/AlarmRules-site.md
+    - name: Availability Monitoring
+      items:
+        - name: Install Monitoring Plug-ins
+          href: Operation-Guide/AvailabilityMonitoring/InstallAgent.md
+        - name: Task Management
+          href: Operation-Guide/AvailabilityMonitoring/AvailTask-Management.md
+        - name: View Monitoring Graph
+          href: Operation-Guide/AvailabilityMonitoring/ViewAvailMonitoring.md
+        - name: View Detection Details
+          href: Operation-Guide/AvailabilityMonitoring/ViewDetections.md
+        - name: Alarm Management
+          href: Operation-Guide/AvailabilityMonitoring/AlarmRules-usa.md
+    - name: Alarm Management
+      items:
+        - name: Alarm Rules
+          href: Operation-Guide/AlarmManagement/AlarmRules.md
+        - name: All Alarm History
+          href: Operation-Guide/AlarmManagement/Alarms.md
+- name: Best Practices
+  items:
+    - name: Monitoring Site Quality
+      href: Best-Practices/WebsiteMonitoring.md
+    - name: Monitor RDS
+      href: Best-Practices/RDSMonitoring.md
+- name: Tutorial
+  items:
+  status: 0
+- name: Troubleshooting
+  items:
+  status: 0       
+- name: FAQ
+  href: FAQ/FAQ.md
+- name: Related Resources
+  items:
+    - name: Document Release History
+      href: Related-Resources/document-history.md 
+    - name: Service Terms         
+  status: 0      
+- name: SLA         
+  status: 0       
+- name: ICP Filing         
+  status: 0        
+- name: Glossary          
+  status: 0

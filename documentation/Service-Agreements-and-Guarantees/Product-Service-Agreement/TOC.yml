@@ -48,7 +48,7 @@ items:
     href: Cloud-Database-MongoDB-Service-Level-Agreement-SLA.md
   - name: JCS for InfluxDB Service Terms
     href: JCS-For-InfluxDB-Terms-Of-Service.md
-  - name: JCS for InflxDB Service Level Agreement (SLA)
+  - name: JCS for InfluxDB Service Level Agreement (SLA)
     href: JCS-For-InfluxDB-Level-Agreement-SLA.md
   - name: JCS for Greenplum Service Terms
     href: JCS-For-Greenplum-Terms-Of-Service.md  
@@ -127,9 +127,15 @@ items:
   - name: JD Blockchain Open Platform (BaaS) Service Terms
     href: JD-Blockchain-Open-Platform.md
   - name: Internet of Things Center Service Terms
-    href: IoT-Hub.md
+    href: IoT-Hub-Terms-Of-Service.md    
   - name: IoT Hub Protocol Adaptor Service Terms
-    href: IoT-Hub-Protocol-Adaptor.md
+    href: IoT-Protocol-Adaptor-Terms-Of-Service.md   
+  - name: IoT Hub Protocol Adaptor Service Level Agreement (SLA)
+    href: IoT-Protocol-Adaptor-Level-Agreements-SLA.md
+  - name: IoT Engine Service Terms
+    href: IoT-Engine-Terms-Of-Service.md 
+  - name: IoT Engine Service Level Agreement (SLA)
+    href: IoT-Engine-Level-Agreements-SLA.md
   - name: Cloud File Service Agreement
     href: Cloud-File-Service-terms-of-service.md
   - name: Service Level Agreement (SLA) on Cloud File Service

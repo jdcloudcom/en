@@ -143,7 +143,6 @@ Please refer to: https://docs.jdcloud.com/en/endpoint-security/getting-started
 Jdog-Monitor is the upgrade plug-in provided by JD Cloud for the core security components to realize maintenance and upgrade for security related components.
 
 ### Installation Mode
-Currently only installation method for Linux systems is provided.<br>
 **Linux：**<br>
 
 1. Download installation package: (download after associating EIP for non-north China regional endpoint)<br>
@@ -155,3 +154,10 @@ mkdir -p /usr/local/share/jcloud/jdog-monitor
 tar zxvf jdog-op-agent-master-fbe96b07-0306202642.tar -C /usr/local/share/jcloud/jdog-monitor
 /usr/local/share/jcloud/jdog-monitor/scripts/jdog_service install
 ```
+
+**Windows：**<br>
+1. Download installation package: (download after associating EIP for non-north China regional endpoint)<br>
+https://iaas-cns-download.s3.cn-north-1.jdcloud-oss.com/JdogMonitor/jdog-monitor.exe <br>
+
+2. Run and install jdog-monitor.exe with the permission of administrator.
+

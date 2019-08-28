@@ -31,7 +31,7 @@ The following engines and versions are supported by RDS
 
 - PostgreSQL
     - 10.6
-
+    - 11.2
 ## List of Supported Regions and Availability Zones
 |Region|Region Mark|Availability Zone| Availability Zone Mark|
 |---|---|---|---|

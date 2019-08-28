@@ -1,5 +1,7 @@
 #   Create service
-Now, JD Distributed Service gateway service supports two calling methods: external calling via API gateway and calling VPC applications via the VPC agent mode. This document specifies how to set up JD Distributed Service gateway for applications based on [JD Cloud API Gateway](../../../API-Gateway/Introduction/Product-Overview.md) and JD Distributed Service gateway of JD Distributed Service Framework of JD Cloud.
+With the JD Distributed Service of JD Cloud, the service is opened to other services of Intranet and also opened to the public network for access with cooperation of the API gateway. If the registration center service of JD Distributed Service Framework is used, the JD Distributed Service gateway can automatically complete service discovery and Load Balancer when being called, without using another Load Balancer or gateway service. If the service is released on the Load Balancer service in Intranet via other methods, seamless connection to the API gateway can also be realized via JD Distributed Service gateway. To avoid exposure to public network, it neither needs to apply for Public IP nor incurs any public network traffic cost.
+
+Now, JD Distributed Service Gateway Service supports two calling methods: external calling via API Gateway and calling during applications via the VPC agent mode. This document specifies how to set up JD Distributed Service gateway for applications based on [JD Cloud API Gateway](../../../API-Gateway/Introduction/Product-Overview.md) and JD Distributed Service gateway of JD Distributed Service Framework of JD Cloud.
 
 ## Operation Scenario
 If the user is implementing JD Distributed Service transformation and has created a group of JD Distributed Service applications on JD Distributed Service Framework of JD Cloud, you can create a group of JD Distributed Service gateway services as per the following processes to provide calling services between external requests and each JD Distributed Service.
@@ -61,11 +63,13 @@ Next, operation processes in combination with API Gateway are specified as below
 
 -  When API Gateway forwards requests to JD Distributed Service gateway, the JD Distributed Service API group type does not support forwarding of group path prefix content to the JD Distributed Service gateway.
 
+-  To facilitate the demonstration, the "Free Access Authentication" mode is selected as access authorization mode.
+
 ![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/jdsfgw-APIdetail-1.png)
 
 Information of created API group is as follows:
 
-![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/jdsfgw-APIdetail-2.png)
+![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/jdsfgw-APIdetail-1-1.png)
  
  
 
@@ -84,7 +88,9 @@ Information of created API group is as follows:
 
 Note:
 
-	-  Each release environment of API group can be associated with only one backend service. For example, where the "pre-release" environment of this group is not associated with any JD Distributed Service, this group under the "pre-release" environment can only be associated to the new JD Distributed Service gateway service;
+	-  Each release environment of API group can be associated with only one backend service. 
+	    
+	   For example, where the "pre-release" environment of this group is not associated with any JD Distributed Service, this group under the "pre-release" environment can only be associated to the new JD Distributed Service gateway service;
 	
 	-  If the API group has been associated with other JD Distributed Service gateway service, it cannot be associated with others.
 	
@@ -105,7 +111,6 @@ After release, user can call the public network via the API gateway. There are t
 ![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/jdsfgw-fb-jdsf.png)
 
 
-
 2. Click **Release** among API gateway products.
 
 -  For release here, you can select to release the API group to different environments (test, pre-release and on-line).
@@ -115,19 +120,107 @@ After release, user can call the public network via the API gateway. There are t
 ![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/jdsfgw-fb-apigwjdsfgw.png)
 
 
+#####   STEP5: Call.
+
+
+
+
+######   Call Method in VPC
+
+1. Open API Group Basic Information tab Tag of JD Distributed Service Gateway Service to see path call rules in VPC. For example:
+
+![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/jdsfgw-mic-detail-1.png)
+
+2. Call services according to the rule spelling path through calling statements. For example:
+
+![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/jdsfgw-mic-detail-2.png)
+
+```
+curl -X GET http://jdsf-mgw-126aemarp4s1s-nlb.jvessel-open-hb.jdcloud.com:8080/jdsf-server/server/get
+```    
+
+Path Description:
+
+| Content 	| Description	|  
+| :- | :- | 
+|  http://jdsf-mgw-126aemarp4s1s-nlb.jvessel-open-hb.jdcloud.com:8080/  	|   Call Path Generated for JD Distributed Service Framework	|
+| jdsf-server  | Namely, {serviceName} content, which is the application that already exists in your registration center and is normally accessible  | 
+| server/get   | Namely, {path} content, which is the path of application  | 
+
+
+
+
+
+
+######   Public Network Call Method
+
+1. First ensure that the API Group has been released to the environment. Then, the Internet call path can be obtained from the deployment environment of API Group.
+
+The path to search Internet call has two entries:
+
+
+-  In JD Distributed Service Gateway, view API Group List tab Tag of JD Distributed Service Gateway Service, click group environment to view the call address as show in the below
+
+![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/jdsfgw-mic-detail-3.png)
+
+
+-  In API Gateway, view the call address in release environment tab Tag of group details
+
+![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/jdsfgw-mic-detail-4.png)
+
+
+2. Call address.
+
+1) You can enter the call address directly into the browser. For example:
+
+```
+    http://w27vqwu8gkzy-preview.cn-north-1.jdcloud-api.net/jdsf-server/server/get
+```    
+
+
+2) Through call statements. For example:
+
+![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/jdsfgw-mic-detail-5.png)
+
+```
+curl -X GET http://w27vqwu8gkzy-preview.cn-north-1.jdcloud-api.net/jdsf-server/server/get
+```    
+
+Path Description:
+
+| Content 	| Description	|  
+| :- | :- | 
+|  http://w27vqwu8gkzy-preview.cn-north-1.jdcloud-api.net/ 	|   Perform public network call for call address generated for API Gateway.	|
+| jdsf-server  | Namely, {serviceName} content, which is the application that already exists in your registration center and is normally accessible  | 
+| server/get   | Namely, {path} content, which is the path of application  | 
+
+
+
+
+
+
+
 
 ####    Release VPC agent service steps via API gateway
 
 #####   STEP 1: Create JD Distributed Service gateway service. Select "VPC" agent as the creation method
 
--  Please note that the IP forward address is: IP+port method and the port is the required option.
+-  Please note that the IP forward address is: Private IP+port method and the port is the required option.
 
 -  It needs to specify network information of VPC. Please note that mutual calling can be enabled only in the same VPC.
 
 -  Now, the https  web service of agent backend with the private certificate is not supported now
 
+For example:
+
+Create contents as follows:
 
 ![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/jdsfgw-create-2vpc.png)
+ 
+Creation Completed:
+ 
+![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/jdsfgw-mic-detail-vpc-1.png
+
  
  
 
@@ -135,7 +228,13 @@ After release, user can call the public network via the API gateway. There are t
 
 -  The VPC agent is one of the general methods provided to API gateway. Therefore, it is included in the API group as the standard function.
 
+   Note: Currently, you cannot use the VPC agent method if you do not choose "General API Group" for releasing.
+
 -  Therefore, during deployment and release of general API group, VPC agent method can be selected as its backend service. Other methods (such as http/https, mock, etc.) can also be selected as its backend services.
+
+- To facilitate the demonstration, the group information is set as follow, do not forward the group path to the backend, and select Free Access Authentication mode.
+
+For example: Create API Group with the name of vpctest
 
 ![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/jdsfgw-APIdetail-1-ty.png)
 
@@ -151,9 +250,75 @@ After release, user can call the public network via the API gateway. There are t
 ![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/jdsfgw-fb-jdsf.png)
 	
 
-For DEMO examples, please refer to: [Best Practices](../../Getting-Started/GW_VPC.md)  
+
+#####   STEP4: Call.
 
 
+
+
+######   Call Method in VPC
+
+1. Open API Group Basic Information tab Tag of JD Distributed Service Gateway Service to see path call rules in VPC.
+
+2. Call services according to the rule spelling path through calling statements. For example:
+
+```
+curl -X GET http://jdsf-mgw-l6mnhdd1zpc-nlb.jvessel-open-sh.jdcloud.com:8080/10.0.0.69:9999/server/get
+```    
+
+![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/jdsfgw-mic-detail-vpc-2.png)
+
+
+Path Description:
+
+| Content 	| Description	|  
+| :- | :- | 
+|  http://jdsf-mgw-l6mnhdd1zpc-nlb.jvessel-open-sh.jdcloud.com:8080/ 	|   Call Path Generated for JD Distributed Service Framework	|
+| 10.0.0.69:9999 | For Private IP+Port | 
+| jdsf-server  | Namely, {serviceName} content, which is the application that already exists in your registration center and is normally accessible  | 
+| server/get   | Namely, {path} content, which is the path of application  | 
+
+
+
+
+
+
+######   Call Method Through API Gateway
+
+1. First ensure that the API Group has been released to the environment. Then, the Internet call path can be obtained from the deployment environment of API Group.
+
+The path to search Internet call has two entries:
+
+
+-  In JD Distributed Service Gateway, view API Group List tab Tag of JD Distributed Service Gateway Service, click group environment to view the call address as show in the below
+
+![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/jdsfgw-mic-detail-vpc-3.png)
+
+
+-  In API Gateway, view the call address in release environment tab Tag of group details
+
+
+
+2. Call address.
+
+1) You can enter the call address directly into the browser. For example:
+
+```
+    http://w2xmjqwbx62p-test.cn-north-1.jdcloud-api.net/server/get
+```    
+
+
+2) Through call statements. For example:
+
+![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/jdsfgw-mic-detail-vpc-4.png)
+
+```
+curl -X GET http://w2xmjqwbx62p-test.cn-north-1.jdcloud-api.net/server/get
+```    
+ 
+
+
+-   See the DEMO Example: [Best Practices](../../Getting-Started/GW_VPC.md) for the above  
 
 
 

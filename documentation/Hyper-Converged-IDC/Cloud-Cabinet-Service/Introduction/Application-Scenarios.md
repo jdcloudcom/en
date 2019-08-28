@@ -4,7 +4,7 @@ The applicable scenarios of Cloud Cabinet Service is described as follows.
 
 **Device Hosting**
 
-  Customers may have their own devices hosted to the JD Cloud data center and they can choose self-maintenance or hosted service for DevOps Service of devices.
+  JD Cloud provides various device hosting services and adopts the "self-owned + leasing" mode. The customers can host their self-owned servers, TOR interchangers, firewalls, special devices to the JD Cloud IDC Data Center, and they can also lease JD Cloud’s servers, interchangers, firewalls and other devices. Customers can choose self-maintenance or Delegated DevOps to conduct DevOps service to the hosted device.
   
 ![To view Application Scenario 1, click the link](https://github.com/jdcloudcom/en/blob/en-Cloud-Cabinet-Service/image/Hyper-Converged-IDC/Cloud-Cabinet-Service/CCS013.png)
 
