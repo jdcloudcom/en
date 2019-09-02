@@ -6,12 +6,12 @@ Billing by Fixed Bandwidth
 
 IP provider	| Region	|Bandwidth	| Pay by Configuration (¥/hour)	 |Monthly Package (¥/month) |
 :---|:--- |---: |---: |---: |
-Single IP provider	| cn-north-1/cn-south-1 | 1Mbps | 0.03	| 13	|
-Single IP provider	| cn-north-1/cn-south-1 | 2Mbps | 0.06	| 26	|
-Single IP provider	| cn-north-1/cn-south-1 | 3Mbps | 0.09	| 40	|
-Single IP provider	| cn-north-1/cn-south-1 | 4Mbps | 0.12	| 53	|
-Single IP provider	| cn-north-1/cn-south-1 | 5Mbps | 0.15	| 70	|
-Single IP provider	| cn-north-1/cn-south-1 | over 5Mbps, per Mbps cost | 0.12	| 40	|
+Single IP provider	| cn-south-1 | 1Mbps | 0.03	| 13	|
+Single IP provider	| cn-south-1 | 2Mbps | 0.06	| 26	|
+Single IP provider	| cn-south-1 | 3Mbps | 0.09	| 40	|
+Single IP provider	| cn-south-1 | 4Mbps | 0.12	| 53	|
+Single IP provider	| cn-south-1 | 5Mbps | 0.15	| 70	|
+Single IP provider	| cn-south-1 | over 5Mbps, per Mbps cost | 0.12	| 40	|
 Single IP provider	| cn-east-1 | 1Mbps | 0.02	| 9.75	|
 Single IP provider	| cn-east-1 | 2Mbps | 0.05	| 19.5	|
 Single IP provider	| cn-east-1 | 3Mbps | 0.07	| 30	|
@@ -37,5 +37,5 @@ BGP	| cn-east-1 | over 5Mbps, per Mbps cost | 0.11 | 60	|
 
 IP provider	| Region	| IP retention cost (¥/day)	 | traffic cost (¥/GB) |
 :---|:--- |---: |---: |
-Single IP provider	| cn-north-1/cn-south-1/cn-east-1 | 0.48| 0.65	|
+Single IP provider	| cn-south-1/cn-east-1 | 0.48| 0.65	|
 BGP	| cn-north-1/cn-south-1/cn-east-1/cn-east-2 | 0.48 | 0.80	|

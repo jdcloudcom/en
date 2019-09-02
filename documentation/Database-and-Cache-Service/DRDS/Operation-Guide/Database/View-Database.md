@@ -12,13 +12,7 @@ Database information page will list the basic information of the databases, such
 
 ![DB Information](../../../../../image/DRDS/db-detail.png)
 
-**3. Table Management**
-
-It lists the table names that are defined to be performed sharding in the current database. See **Table Management** relevant documents for specific relevant operations
-
-![Table List](../../../../../image/DRDS/table-list.png)
-
-**4 Account Management**
+**3. Account Management**
 
 Accounts that have access permission for the current database is listed and the account permissions can be modified here
 

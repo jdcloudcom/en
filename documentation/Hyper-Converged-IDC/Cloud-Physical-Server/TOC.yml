@@ -49,6 +49,12 @@
         href: Operation-Guide/Terms-and-Conditions.md
       - name: Network and Security
         items:
+          - name: Reset Password
+            href: Operation-Guide/Instance/Reset-Password.md
+          - name: Customized Data
+            href: Operation-Guide/Instance/User-Data.md
+      - name: Network
+        items:
           - name: VPC
             href: Operation-Guide/Networking/Virtual-Network-Interface.md
           - name: Subnet

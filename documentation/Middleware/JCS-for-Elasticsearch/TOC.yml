@@ -99,6 +99,8 @@
        href: Best-Practices/using_kibana.md
      - name: Performance Indicators
        href: Best-Practices/performance.md
+     - name: Suggestions for Monitoring Alarm Configuration
+       href: Best-Practices/automonitor.md
   - name: FAQ
     href: FAQ/FAQ.md
   - name: Related Resources

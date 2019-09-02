@@ -59,6 +59,9 @@ You may not purchase the public IP during the process of creating a host. After 
 You need to set machine name, and the name cannot be blank. It only supports Chinese, numbers, uppercase and lowercase letters, English underscore "_", hyphen "-" and ".", and cannot exceed 32 characters. If the instances are created and purchased in batch, the names will be displayed as "xxx1" and "xxx2" in sequence. Meanwhile, it supports adding description to the instance. The description is allowed to be blank, but if added, the length cannot exceed 256 characters.
 ![](../../../../image/vm/Getting-Start-Linux-Create-information.png)
 
+    * Default Configuration Rules of hostname:
+      hostname customization is not supported at the time of host creation. The system will set hostname by determining host name on the premise that the instance name conforms to the rules of RFC-952 and RFC-1123. If the instance name does not conform to the specifications, the system will convert some of the characters. If the specifications are met after such conversion, the hostname is configured after truncation (no more than 63 characters in linux; no more than 15 characters in windows). Otherwise, it will be configured by default hostname, and the default form is "server-<*instance-id*>".
+      
 12. Set Password:
 You can select "Set Now", or "Set Later"(the system will send the default password by SMS and email). It is the password used for SSH to login instance and also the password for the console to login the instance via VNC.                
 ![](../../../../image/vm/Getting-Start-Windows-Create-login.png)

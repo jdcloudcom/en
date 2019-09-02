@@ -1,6 +1,6 @@
 ## ALB (Application Load Balancer) Access Log
 ### Introduction
-Currently, the type of ALB log accessed to Log Service is **Application Load Balancer Access Log**. Currently, it only supports retrieval of 7-level log of Application Load Balancer.
+Currently, the type of ALB log accessed to Log Service is **Application Load Balancer Access Log**. Currently, it only supports retrieval of 7-level log of Application Load Balancer. ALB access log currently only supports the search of log data in the past 7 days.
 
 ### Field Description
 Log Field(7-level) | Field Description | Field Type| Field Value Description

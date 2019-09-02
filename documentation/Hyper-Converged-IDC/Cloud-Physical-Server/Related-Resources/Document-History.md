@@ -22,5 +22,6 @@ This document will introduce the important update history of the Cloud Physical 
 |2019.06.28|V2.1|Add server monitoring functions to support different monitoring dimensions;<br/>|
 |2019.07.29|V2.2|Support IAM service and the Cloud Physical Server instances support control to resource operation by sub-users and roles;<br/>|
 |2019.08.05|V2.3|Reinforce network functions and support route table and Load Balancer (four-layer) service;<br/>|
+|2019.08.26|V2.4|Support online password resetting for instances; support setting of random passwords for instance creation; support the function of creating instance enabling customized scripts; optimize password resetting operation; <br/>|
 
 
