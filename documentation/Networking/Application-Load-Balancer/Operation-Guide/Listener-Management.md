@@ -97,5 +97,10 @@
 
 ![ALB编辑监听器](../../../../image/Networking/ALB/ALB-027.png)
 	
+## Manage the Listener associated with Forwarding Rules Group
 
+1. Click **More** by Listener List Page - Operation Bar to pop up the dialog box of Manage Forwarding Rules Group.
+2. In the dialog box of Manage Forwarding Rules Group, associate, disassociate, and replace the forwarding rules group with the Listener.
+
+![ALB管理监听器](../../../../image/Networking/ALB/ALB-urlmap3.png)
 

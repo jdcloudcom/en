@@ -24,6 +24,7 @@ DNLB has the following functions and features:
 |Performance 	| Million Level Concurrent Connections and Hundreds of Thousands Level New Connections per Second | Hundreds of Million Level Concurrent Connections and Million Level New Connections per Second | No Forwarding Performance Bottle Neck |
 |Service Protocol Layer |   Lay-4/Lay-7 | Lay-4 (stateful)| Lay-4 (Stateless)|
 |Protocol Type	| HTTP, HTTPS, TLS and TCP | TCP | TCP |
+|Forward based on domain and URL path| ✔ | —— | —— |
 |WebSocket Support| ✔ | —— | —— |
 |Auto Scaling of Service Instance | ✔ | ✔ | ✔ |
 |High-availability deployment of multiple availability zones | ✔ | ✔ | ✔ |

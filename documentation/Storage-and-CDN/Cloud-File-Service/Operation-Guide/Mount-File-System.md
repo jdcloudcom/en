@@ -36,11 +36,11 @@ For example, the directory of the Mount target is 10.0.0.30:/cfs, which is attac
 
 **CentOS 6.9 to CentOS 7.2 versions run commands below:**
 
-`sudo mount -t nfs,nfsvers=4.0 10.0.0.30:/cfs nfs`
+`sudo mount -t nfs,nfsvers=4.0, -o lookupcache=none 10.0.0.30:/cfs nfs`
 
 CentOS 7.3 and above versions run commands below:
 
-`sudo mount -t nfs 10.0.0.30:/cfs nfs`
+`sudo mount -t nfs -o lookupcache=none 10.0.0.30:/cfs nfs`
 
 Run the commands below under Ubuntu terminal:
 

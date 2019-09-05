@@ -6,7 +6,7 @@ Custom Metric Monitoring is a feature that provides the users with the freedom t
 
 ## Benefits
 - Easy to use  No configuration is required, and the data is automatically displayed after being reported; the alarm rule settings are the same as the basic cloud resources, and your usage habits are continued.
-- Free use  Free of charge for report, store, or compute, help you manage the monitoring data.
+- Free use now  Free of charge for report, store, or compute, help you manage the monitoring data.
 
 ## Usage Restriction
 Restricting Items|Quota Restrictions|Restriction Description

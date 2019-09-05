@@ -7,6 +7,7 @@ The following concepts and interpretations used in the **Application Load Balanc
 | Application Load Balancer instance | Resource instance of operation Application Load Balancer service |
 | VIP | Private IP address distributed to Application Load Balancer instance by system |
 |Listener| defines the access traffic from Application Load Balancer to backend service for forwarding protocol, algorithm, policy, etc. |
+|Forwarding Rules Group|A set of forwarding rules group, the forwarding rules can forward the traffic to different backend services for processing based on access requested domains and URL paths|
 |Backend service| defines the access traffic from Application Load Balancer to backend service for forwarding protocol, algorithm, policy, etc.|
 |Virtual server group| A group of virtual machine and container instances processing forwarding request of Application Load Balancer traffic|
 |Multiple availability zone |Thanks to the disaster tolerance function of multiple availability zones across machine room, the Application Load Balancer instance can be created under different availability zones|

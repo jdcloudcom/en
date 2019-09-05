@@ -43,6 +43,16 @@ When adding the "Jingxiang Super Definition" or "Topspeed Transcode" template, y
 
 ![转码设置-视频参数设置.png](../../../../image/Video-on-Demand/转码设置-视频参数设置.png)
 
+**Please note that for video resolution, the crown ratio supports automatic zooming by source video proportion, and the zooming rules are as follows:**
+
+1. If the width and the height are both null, please keep the resolution unchanged
+
+2. If the width is null, but the height is not null, please zoom out the width as per the original video proportion
+
+3. If the width is not null, but the height is null, please zoom out the height as per the original video proportion
+
+4. If neither the width nor the height is null, please process the video as per the values of the width and the height
+
 **Audio Parameter Setting**
 
 ![转码设置-音频参数.png](../../../../image/Video-on-Demand/转码设置-音频参数.png)
@@ -66,7 +76,23 @@ Login VOD console, click **VOD**-**Global Configuration**-**Watermark Settings**
 
 ![](https://github.com/jdcloudcom/cn/blob/6095a336fd4c1d5c1e448a37e933d569414fe918/image/Video-on-Demand/%E6%B0%B4%E5%8D%B0%E8%AE%BE%E7%BD%AE1.png)
 
-![](https://github.com/jdcloudcom/cn/blob/6095a336fd4c1d5c1e448a37e933d569414fe918/image/Video-on-Demand/%E6%B0%B4%E5%8D%B0%E6%A8%A1%E6%9D%BF3.png)
+The watermark width and height as well as the watermark displacement support setting by pixel and percentage both.
+
+**Watermark Size**
+
+|Configuration Unit|Description|
+|-|-|
+|Pixel|Set actual pixel size of a watermark image within the value range [8,4096]|
+|Percentage|Proportion between the watermark and the actual picture, with value range (0,100)|
+
+**Watermark Displacement**
+
+|Configuration Unit|Description|
+|-|-|
+|Pixel|Set actual pixel size of a watermark image within the value range [8,4096]|
+|Percentage|Proportion between the watermark and the actual picture, with value range (0,100)|
+
+![水印宽高和偏移支持百分比设置.png](../../../../image/Video-on-Demand/水印宽高和偏移支持百分比设置.png)
 
 ## 3. Category Settings
 Login VOD console, click **VOD**-**Global Configuration**-**Category Settings** on the menu bar at the left to access "Category Configuration" page. You can add categories and sub-categories.
@@ -212,6 +238,30 @@ url at the request is:
 http://cdn.example.com/1592409600/8afb0900782e14c35214ccda534a3679/video/standard/1K.html? fa=121&cc=121
 
 The authentication is passed if the HashValue worked out is consistent with the value of md5hash = 8afb0900782e14c35214ccda534a3679 in the user’s request.
+
+### 4.3 Advanced Settings
+
+On the domain setting interface, click the domain to be configured, enter the specific domain configuration page, select a senior page and the relevant advanced domain setting can be viewed. Now, setting of the parameter HTTP Header is supported.
+
+![域名设置-HTTP-Header设置.png](../../../../image/Video-on-Demand/域名设置-HTTP-Header设置.png)
+
+![域名设置-HTTP-Header设置-2.png](../../../../image/Video-on-Demand/域名设置-HTTP-Header设置-2.png)
+
+### 4.4 HTTPS Certificate Setting
+
+Also on the domain setting interface, click the domain to be configured, enter the specific domain configuration page and click the HTTPS certificate configuration page. Then, HTTPS certificates can be added to the current domain and the redirection rules can be set.
+
+![https证书配置-1.png](../../../../image/Video-on-Demand/https证书配置-1.png)
+
+![https证书配置-2.png](../../../../image/Video-on-Demand/https证书配置-2.png)
+
+Redirection Type Description:
+
+Default means: If client protocol is HTTP, then the request protocol to a CDN node is HTTP, HTTPS in a similar way.
+
+HTTPS -> HTTP: If client protocol is HTTPS, then the request protocol to a CDN node is HTTP.
+
+HTTP -> HTTPS means: If client protocol is HTTP, then the request protocol to a CDN node is HTTPS。
 
 ## 5. Callback Settings
 VOD supports message subscription of task completion. If customers need to obtain message notifications of upload completion, transcoding completion, they can set callback URL and callback events in the Callback Settings, which relevant events will be timely notified to customers through URL they entered.

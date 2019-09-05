@@ -104,7 +104,9 @@ items:
            - name: OSS Trigger Example
              href: Operation-Guide/use-cases/oss-case.md  
            - name: API Gateway Trigger Example
-             href: Operation-Guide/use-cases/apig-case.md          
+             href: Operation-Guide/use-cases/apig-case.md  
+           - name: Python WSGI Web Service Migration to Function Service
+             href: Operation-Guide/use-cases/wsgi.md
   
   - name: FAQ
     href: FAQ.md  

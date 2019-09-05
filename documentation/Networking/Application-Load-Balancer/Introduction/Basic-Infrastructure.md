@@ -1,6 +1,6 @@
 # Basic architecture
 
-- The Application Load Balancer provides four-layer and seven-layer load listening service, so as to realize traffic forwarding under TCP Protocol, TLS Protocol, HTTP Protocol, HTTPS Protocol based on nginx architecture.
+- The Application Load Balancer provides four-layer and seven-layer load listening service, so as to realize traffic forwarding under TCP Protocol, TLS Protocol, HTTP Protocol and HTTPS Protocol.
 - The Application Load Balancer adopts cluster for deployment, so as to improve service availability through device redundancy and eliminate device single point failure.
 
 ![负载均衡基础架构](../../../../image/Networking/ALB/ALB-002.png)
@@ -27,6 +27,10 @@ A set of VM or container resources receiving access request is managed by the vi
 
 Availability Group is the Virtual Machine logic set provided by JD Cloud, which may support auto scaling across racks, across AZ according to the machine template designated by the user so as to distribute Virtual Machines in dispersion to the physical resources separately isolated. When hardware or power failure occurs, only the Virtual Machines in Availability Group can be affected, the business is still in available status.
 
+- Forwarding Rules Group
+
+The forwarding rules group is a logical set of forwarding rules. Seven-layer listening supports association with the forwarding rules group to forward the traffic to different backend servers for processing based on domains and paths requested by URL.
+
 ## High reusability architecture
 
 ![高复用架构](../../../../image/Networking/ALB/ALB-003.png)
@@ -36,6 +40,8 @@ Availability Group is the Virtual Machine logic set provided by JD Cloud, which 
 - Multiple listeners under the same Application Load Balancer can be reused to associate with the same backend service;
 
 - Multiple backend services under the same Application Load Balancer can be reused to associate with the same backend server group/availability group;
+
+- Multiple listeners under the same Application Load Balancer can be reused to associate with the same forwarding rules group;
 
 - The same virtual server (machine/container) can be registered to the same virtual server group through different ports;
 

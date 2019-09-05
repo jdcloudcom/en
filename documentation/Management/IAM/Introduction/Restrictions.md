@@ -8,7 +8,9 @@
 | The number of access keys assigned to a IAM user    |     2        |
 | The number of access keys assigned to the primary account         |     5        |
 | The number of groups that a sub-user can be added       |     10       |
+|Count of Sub-user that Can be Added to a Group       |    100       |
 | The number of policies that a sub-user can be granted         |    10       |
 | The number of policies that a group can be granted           |    10       |
+| Count of Policy that Can be Authorized by a Role           |    10       |
 | The number of Virtual MFA equipment that a sub-user can be associated  |     1        |
 

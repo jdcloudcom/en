@@ -202,7 +202,7 @@ kubectl create -f deploy-https-ingress-resource.yml
 
 3. Access following service after verification of names of Virtual Machines configured in Ingress Resource Rule is passed in local browser:
 
-* Get Internet IP of Nginx-ingress Controller, i.e., External IP of LoadBalancer type service associated to Nginx-ingress Controller. For details, please refer to [Nginx-ingress controller Deployment](https://docs.jdcloud.com/en/jcs-for-kubernetes/deploy-ingress-nginx-controller).
+* Get Internet IP of Nginx-ingress Controller, i.e., External IP of LoadBalancer type service associated to Nginx-ingress Controller. For details, please refer to [Nginx-ingress controller Deployment](https://docs.jdcloud.com/en/jcs-for-kubernetes/deploy-ingress-nginx-controller);
 
 * Add DNS configuration in /etc/hosts of local server: IP refers to the external IP of LoadBalance type service searched in the last step, and domain refers to the names of Virtual Machines: nginx-ingress-test.jdcloud, configured in ingress resource rule;
 

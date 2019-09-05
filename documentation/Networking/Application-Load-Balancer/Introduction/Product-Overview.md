@@ -25,7 +25,7 @@ JD Cloud Application Application Load Balancer can realize high availability of 
 
 ## Main functions of Application Application Load Balancer
 
-- Traffic distribution: By setting VIP, the backend instances (virtual machine/container) under the same VPC will be a virtual service pool by the Application Application Load Balancer, the access traffic of frontend customer will be distributed to the backend instance resource pool for processing as per specified rules and the external serviceability of the user can be improved.
+- Forwarding based on domain and URL path: By setting virtual service address VIP, the backend instances Virtual Machines/containers) under the same VPC will be virtualized to a pool of service resources by the Application Load Balancer, the access traffic of frontend customer will be distributed to the backend service for processing according to the domain and URL path to improve the external serviceability of the user.
 
 - Multi-protocol listening: The Application Application Load Balancer supports the listening service to different ports under multiple protocols as TCP/TLS/HTTP/HTTPS, so as to support a variety of client service accesses and traffic distribution.
 
@@ -42,6 +42,29 @@ JD Cloud Application Application Load Balancer can realize high availability of 
 - Source IP pass-through: The Application Application Load Balancer supports the client IP pass-through function based on the TCP/TLS/HTTP/HTTPS protocol.
 
 - WebSocket support: WebSocket provides a two-way communication channel both to the client and the server, better saving server resources and bandwidth and ensuring communication timeliness.
+
+## Comparison between Application Load Balancer & Network Load Balancer & Distributed Network Load Balancer
+
+| Comparison Item   |  Application Load Balancer | Network Load Balancer | Distributed Network Load Balancer |
+|:-----|  :---- | :---- | :---- |
+|Performance 	| Million Level Concurrent Connections and Hundreds of Thousands Level New Connections per Second | Hundreds of Million Level Concurrent Connections and Million Level New Connections per Second | No Forwarding Performance Bottle Neck |
+|Service Protocol Layer |   Lay-4/Lay-7 | Lay-4 (stateful)| Lay-4 (Stateless)|
+|Protocol Type	| HTTP, HTTPS, TLS and TCP | TCP | TCP |
+|Forward based on domain and URL path| ✔ | —— | —— |
+|WebSocket Support| ✔ | —— | —— |
+|Auto Scaling of Service Instance | ✔ | ✔ | ✔ |
+|High-Availability Deployment of Multi-Availability Zones | ✔ | ✔ | ✔ |
+|Scheduling algorithm	| Weighted Round Robin, Weighting Least Connection Number and Source IP | Weighted Round Robin, Weighting Least Connection Number and Source IP | Weighted Source IP and Weighted Quintuple Form |
+|SSL Unloading and Certificate Management | ✔ | —— | —— |
+|Idle connection timeout | ✔ | ✔ | —— |
+|Source IP Reservation	| Pass-through based on X-forward-for mechanism of HTTP Header | Pass-through of Three-layer Packet Source IP | Source IP Pass-through of Three-layer Packet |
+|Session Persistence | Cookie-based Session Persistence  |  Session Persistence of TCP Connection | —— |
+|Connection Draining Overtime | Support connection draining only and do not support configuration time-out period |  ✔ | —— |
+|Instance Type Family of Backend Service | Virtual Machines/Native Container/Availability Group| Virtual Machines/Native Container/Availability Group | Virtual Machines/Native Container/Availability Group |
+|Health Check | ✔ | ✔ | ✔ |
+|Switch Between Intranet and Internet Load Balancer	 | ✔ |	✔ | ✔ |
+|Deletion Protection | ✔  | ✔ | ✔ |
+|Billing Standard	| Relatively-high Rate (Temporarily Free)| Relatively-low Rate (Temporarily Free) | Free |
 
 ## Relevant references
 

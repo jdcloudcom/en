@@ -81,3 +81,4 @@ For the JD Cloud HSM by monthly package, compensation shall be made by the means
 ### **3. Others**
 
 JD Cloud has the right to make adjustments to some service indicators of the Service Level Agreement according to changes, and promptly publish announcements on JD Cloud official website ([www.jdcloud.com](https://www.jdcloud.com/)), or send emails or written notices to notify the users of the modified contents.
+

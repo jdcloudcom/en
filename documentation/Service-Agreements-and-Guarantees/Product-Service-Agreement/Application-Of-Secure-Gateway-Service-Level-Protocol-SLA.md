@@ -103,3 +103,4 @@ The compensation shall be paid in the form of application security gateway coupo
 #### **4. Others**
 
 JD Cloud has the right to make adjustments to some service indicators of the SLA according to the changes, and promptly publish announcements at [www.jdcloud.com](https://www.jdcloud.com/index) or send emails or written notices to notify users of the revised content.
+

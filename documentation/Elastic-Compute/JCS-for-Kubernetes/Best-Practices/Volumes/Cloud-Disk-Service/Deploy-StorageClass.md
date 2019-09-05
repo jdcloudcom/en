@@ -13,7 +13,9 @@ jdcloud-hdd         kubernetes.io/jdcloud-ebs   39d
 jdcloud-ssd         kubernetes.io/jdcloud-ebs   39d
 
 ```
+
 You can also create customized Storageclass:
+
 ```
 kind: StorageClass
 apiVersion: storage.k8s.io/v1
@@ -25,7 +27,9 @@ parameters:
   fstype: ext4
 reclaimPolicy: Retain
 ```
+
 **Parameter Description:**  
+
 1. provisioner: Set the parameter value to [kubernetes.io/jdcloud-ebs](https://kubernetes.io/docs/concepts/storage/storage-classes/), and it should not be modified. Identity is created with the JD Cloud cloud disk Provisioner plug-in.
 
 2. reclaimPolicy: Persistent Volume, dynamically created by storage class, will specify the recycle policy in the field reclaimPolicy, being Delete or Retain. If reclaimPolicy is not designated when the storageClass object is created, Delete is the default value.

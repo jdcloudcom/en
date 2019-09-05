@@ -59,6 +59,8 @@
         href: Operation-Guide/Backend-Management.md
       - name: Virtual Server Group Management
         href: Operation-Guide/TargetGroup-Management.md
+      - name: Forwarding Rules Group Management
+        href: Operation-Guide/UrlMap-Management.md      
       - name: Configuration Access Log
         href: Operation-Guide/Access-Log.md
       - name: Monitoring Service
@@ -81,6 +83,8 @@
       href: Best-Practices/AG-as-backend-server.md
     - name: Conversion between public network Application Load Balancer and private network Application Load Balancer
       href: Best-Practices/Switch-between-Internal-and-External-ALB.md
+    - name: Forward traffic based on domain and URL path
+      href: Best-Practices/Forward-traffic-based-on-UrlMap.md
   - name: FAQ
     href: FAQ/FAQ.md
   - name: API Reference

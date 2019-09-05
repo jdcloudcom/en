@@ -5,6 +5,7 @@ This document will introduce the important update history of the Application App
 
 |Release Date|Character|Description|
 |-|-|-|
+|August 2019|Support forwarding rules group|Support forwarding the traffic to different backend servers for processing based on machine names and paths requested by URL|
 |March 2019|Function Iteration|Support deletion protection and support search by specified fields when adding instances to virtual server groups|
 |November 2018|Support TLS Protocol|Application Load Balancer Supports TLS Protocol Listening|
 |July 2018|Support availability group|Support providing backend service by availability group

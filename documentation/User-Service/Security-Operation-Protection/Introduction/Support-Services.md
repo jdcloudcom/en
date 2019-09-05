@@ -5,14 +5,15 @@ The list of currently defined sensitive operations is as follows:
 #### Elastic Compute
 |  **Cloud Product**  | **Interface Name** | **Interface Description** |
 | :----------: | :--------------: | :------: |
-| Virtual Machines  |      vm:deleteInstance       |    Delete Virtual Machines    | 
-|     Auto Scaling  |   autoscaling:deleteAutoscalingGroup     |    Delete Auto Scaling Group  |  
+| Virtual Machines  |      vm:deleteInstance       |    Delete Virtual Machines    |  
+|     Native Container  |  nativecontainer:deleteContainer   |   Delete Container Instance  | 
+|     Pod  |   pod:deletePod    |   Delete Pod  | 
 |     Container Registry  |  containerregistry:deleteRegistry   |    Delete Registry  |  
 |     Container Registry  | containerregistry:deleteRepository   |  Delete Registry  | 
 |     Container Registry  |  containerregistry:deleteImage   |    Delete Image |  
-|     Pod  |   pod:deletePod    |   Delete Pod  | 
 |     JCS for Kubernetes  |   kubernetes:deleteCluster   |   Delete Cluster| 
 |    JCS for Kubernetes  |   kubernetes:deleteNodeGroup    |    Delete Working Node Group | 
+|     Auto Scaling  |   autoscaling:deleteAutoscalingGroup     |    Delete Auto Scaling Group  | 
 |    Function Service |   function:deleteFunction   |    Delete Function | 
 
 #### Database and Cache
@@ -27,10 +28,15 @@ The list of currently defined sensitive operations is as follows:
 |     Cloud Database (SQL Server) |rds:restoreDatabaseFromBackup |  Single Database Recovery|  
 |     JCS for MongoDB |  mongodb:deleteInstance   |    Delete Instance|  
 |     DRDS |  drds:deleteInstance   |    Delete Instance|  
-|     JCS|  redis:deleteCacheInstance  |    Delete a Singe Redis Instance|  
+|     JCS for Redis|  redis:deleteCacheInstance  |    Delete a Singe Redis Instance|  
 |     JCS for Memcached |  memcached:deleteInstance  |    Delete a Single memcached Instance|  
 
-#### Storage and CDN
+#### Storage
+|  **Cloud Product**  | **Interface Name** | **Interface Description** |
+| :----------: | :--------------: | :------: |
+| Cloud File Service |     zfs:deleteFileSystem   |  Delete File System   | 
+
+#### Edge and Acceleration
 |  **Cloud Product**  | **Interface Name** | **Interface Description** |
 | :----------: | :--------------: | :------: |
 | CDN  |     cdn:stopDomain   |    Service Status Change-Stop Service   | 
@@ -68,3 +74,13 @@ The list of currently defined sensitive operations is as follows:
 | JD Distributed Service Framework |     jdsf:rollbackAppConfigVersion  |    Rollback Release of Configuration Version  | 
 | Message Queue |   jcq:deleteTopic  |    Delete a  Single Topic  | 
 | Queue Service |   jqs:deleteQueue  |  Delete queue  | 
+
+#### Hyper-Converged IDC
+|  **Cloud Product**  | **Interface Name** | **Interface Description** |
+| :----------: | :--------------: | :------: |
+|Cloud Physical Server |    cps:restartInstance |   Reboot Cloud Physical Server  | 
+| Cloud Physical Server |   cps:reinstallInstance  |   Reinstall Cloud Physical Server | 
+| Cloud Physical Server |     cps:stopInstance  |    	Stop Cloud Physical Server  | 
+|Distributed Cloud Physical Server |  edcps:restartInstance |   Reboot Distributed Cloud Physical Server  | 
+|Distributed Cloud Physical Server|   edcps:reinstallInstance |   Reinstall Distributed Cloud Physical Server | 
+|Distributed Cloud Physical Server |     edcps:stopInstance  |    	Stop Distributed Cloud Physical Server  | 

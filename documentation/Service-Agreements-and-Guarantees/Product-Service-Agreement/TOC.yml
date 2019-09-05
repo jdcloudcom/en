@@ -133,9 +133,9 @@ items:
   - name: IoT Hub Protocol Adaptor Service Level Agreement (SLA)
     href: IoT-Protocol-Adaptor-Level-Agreements-SLA.md
   - name: IoT Engine Service Terms
-    href: IoT-Engine-Terms-Of-Service.md 
+    href: IoT-Core-Terms-Of-Service.md 
   - name: IoT Engine Service Level Agreement (SLA)
-    href: IoT-Engine-Level-Agreements-SLA.md
+    href: IoT-Core-Level-Agreements-SLA.md
   - name: Cloud File Service Agreement
     href: Cloud-File-Service-terms-of-service.md
   - name: Service Level Agreement (SLA) on Cloud File Service

@@ -16,6 +16,14 @@
 
 - Idle connection timeout setting: An idle connection timeout setting for listening rules. In case of connection idle timeout, the Application Load Balancer will automatically disconnect the client and the Application Load Balancer as well as the two-end connection between the Application Load Balancer and the backend server.
 
+## Forwarding Rules Group
+
+- Forwarding Rules: The forwarding rules can forward the traffic to different backend services for processing based on access requested domains and URL paths. The domain matching the request, the URL path, and the backend service to which it is forwarded can be defined in a forwarding rule.
+
+- Domain: Domain and IP Address for matching seven-layer access traffic. The domain supports exact match and wildcard match.
+
+- URL Path: URL path for matching seven-layer access traffic. URL path supports exact match and prefix match.
+
 ## Backend service
 
 - Service rules: Define protocol types and port number to be received by the backend server. When the backend service is related to the virtual machine group, if the port is defined by the registered instance (virtual machine or container) of the virtual server group, the Application Load Balancer will forward the message to the service instance with the port defined by the instance. If no port is defined by the registered instance (virtual machine or container) of the virtual server group, the Application Load Balancer will forward the message with the port number defined by the backend service to the service instance. When the backend service is related to the availability group and the port information is not defined by the service instance within the availability group, the Application Load Balancer will forward the message via the port number defined by the backend service to the service instance.
@@ -43,6 +51,7 @@
 ## Availability group
 
 The Application Load Balancer does not have the availability group function, but the availability group can be related to the backend service of the Application Load Balancer. The availability group had the auto scaling capacity and can adjust the backend service virtual machine quantity according to the business load conditions, so as to provide high-availability granularity service capacity to the across rack in the machine room.
+
 
 ## Relevant references
 

@@ -202,4 +202,4 @@ You understand and acknowledge that the above list does not cover all types of l
 
 11.2. JD Cloud is entitled to, by announcing at [www.jdcloud.com](https://www.jdcloud.com/index) or notifying you through website or in writing, transfer all or part of the rights and obligations under the Service Terms to JD Cloud's affiliates.
 
-11.3. If any provisions should remain in existence in nature or otherwise at the termination of this agreement, they shall be deemed to be continuing terms, including but not limited to terms of commitments and guarantees terms, confidentiality terms, intellectual property terms, and governing law and dispute resolution terms.
+11.3. If any provisions should remain in existence in nature or otherwise at the termination of this agreement, they shall be deemed to be continuing terms, including but not limited to terms of commitments and guarantees terms, confidentiality terms, intellectual property terms, and governing law and dispute resolution terms. 

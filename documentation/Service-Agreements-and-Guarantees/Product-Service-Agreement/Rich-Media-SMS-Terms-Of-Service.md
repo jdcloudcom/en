@@ -75,15 +75,15 @@
 
     (5) Send information disturbing other’s normal life for several times and containing contents forbidden by the constitution, laws and administrative regulations.
 
-    3.6 You are responsible for collecting user’s mobile phone number, getting the user’s authorization for submission to JD Cloud and submitting such phone number to JD Cloud via a business acceptance platform or an API interface.
+    3.7 You are responsible for collecting user’s mobile phone number, getting the user’s authorization for submission to JD Cloud and submitting such phone number to JD Cloud via a business acceptance platform or an API interface.
 
-    3.7 Other acts violating national laws and regulations and industrial policies.
+    3.8 Other acts violating national laws and regulations and industrial policies.
 
     
 
 4. #### Saving, Destroying and Downloading of User Data
 
-    4.1. For the purpose of serving you, JD Cloud may provide services to you by using your data, including but not limited to sending products and service information to you.
+    4.1 For the purpose of serving you, JD Cloud may provide services to you by using your data, including but not limited to sending products and service information to you.
 
     4.2 Your user data will be disclosed in part or in whole under the following circumstances:
 
@@ -115,19 +115,19 @@
 
     6.3 The user information, business data, etc. respectively recognized expressly by the Parties to these Service Terms are the respective important assets and key confidential information. The Parties to these Service Terms agree to do their utmost to protect the above confidential information from disclosure. In the incident of any such confidential information disclosure incident, the Parties shall cooperate to take all reasonable measures to avoid or mitigate the consequences of the damage.
 
-    6.4. The Terms does not lose effect due to the termination of these Service Terms.
+    6.4 The Terms does not lose effect due to the termination of these Service Terms.
 
     
 
 7. #### Subscription, Use and Termination of the Service
 
-    7.1. You can use JD Cloud service from the date of enabling.
+    7.1 You can use JD Cloud service from the date of enabling.
 
-    7.2. You shall keep your account balance sufficient to ensure continuous use of the services.
+    7.2 You shall keep your account balance sufficient to ensure continuous use of the services.
 
-    7.3. The services will be terminated in the following cases:
+    7.3 The services will be terminated in the following cases:
 
-    5.3.1. The Parties agree to terminate in advance upon consensus;
+    7.3.1 The Parties agree to terminate in advance upon consensus;
 
     7.3.2 For any material breach to the Service Terms or material violation to laws, regulations and the like, JD Cloud will suspend provision of service and freeze operation of Short Message Service under your account;
 
@@ -149,7 +149,7 @@
 
     8.2.2 Your website access speed is degraded due to path congestion on the Internet.
 
-    8.3. JD Cloud shall not be liable for any indirect, consequential, disciplinary, incidental or special damages in any cases, including loss of profits suffered by you using JD Cloud services (even if you have been informed of the possibility of such losses).
+    8.3 JD Cloud shall not be liable for any indirect, consequential, disciplinary, incidental or special damages in any cases, including loss of profits suffered by you using JD Cloud services (even if you have been informed of the possibility of such losses).
 
     8.4 JD Cloud's total liability for breach of these service terms shall not exceed the total service charge corresponding to the breach service in any cases.
 
@@ -177,6 +177,5 @@
 
       11.2 JD Cloud is entitled to transfer part or all of the rights and obligations under these Service Terms to JD associated companies by making an announcement on [www.jdcloud.com](https://www.jdcloud.com/) or giving you an on-website or written notice to you.
 
-      11.3. If any terms, in nature or otherwise, shall continue to exist after the termination of the Agreement, they shall be deemed to be continuing terms, including but not limited to warranty, confidentiality, intellectual property right, governing law and dispute resolution.
-
+      11.3 If any terms, in nature or otherwise, shall continue to exist after the termination of the Agreement, they shall be deemed to be continuing terms, including but not limited to warranty, confidentiality, intellectual property right, governing law and dispute resolution.
      

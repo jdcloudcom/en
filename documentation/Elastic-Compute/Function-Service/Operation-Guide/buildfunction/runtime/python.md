@@ -58,3 +58,14 @@ When writing THE function code, OSS SDK can be introduced and used by the follow
 import boto3
 ```
  
+## Support WSGI Protocol
+For Python Web Server Gateway Interface (WSGI for short), the Function Service Python API is compatible with WSGI, so your projects built on the basis of web frameworks of wsgi protocol, such as Flask and Django, can be run in the python runtime of the Function Service, and your codes based on WSGI protocol or the existing codes in the original frameworks can be rapidly migrated to JD Cloud Function Service. For details, please refer to [Python WSGI Web Framework Service Migration to Function Service](../../use-cases/wsgi.md).
+
+Function Service has built in the database jdcloud_wsgi_wrapper converting API Gateway trigger event to WSGI, in which the wsgi_run function is used to convert the event of API Gateway to WSGI function format and run the application program. The codes are as follows:
+
+```Python
+from jdcloud_wsgi_wrapper import wsgi_run
+def handler(event, context):
+    result = wsgi_run(event, context, application)
+    return result
+```

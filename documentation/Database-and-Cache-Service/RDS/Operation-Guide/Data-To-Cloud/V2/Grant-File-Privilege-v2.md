@@ -12,7 +12,7 @@ Click **Enter the Bucket**, select **Space Setting**, **Add Customized Permissio
 
 3. Set permission
 - Select **Customized User**, add user ID: **785455908940**
-- Check **"GetObject"** for Operations
+- Check **"GetObject"** and **"ListBucket"** for Operations
 - Keep others unchanged
 - Click **OK** to save settings
 

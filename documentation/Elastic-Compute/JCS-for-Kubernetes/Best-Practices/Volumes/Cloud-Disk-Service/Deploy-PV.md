@@ -6,6 +6,7 @@ JD Cloud Kubernetes Service integrates JD Cloud cloud disk, and you can use JD C
 ## I. Use JD Cloud disk to define static storage.
     
 **1. Create PV**
+
 ```
 kind: PersistentVolume
 apiVersion: v1
@@ -23,6 +24,7 @@ spec:
     volumeID: vol-ogcbkdjg7x      #Please replace the Cloud Disk Service ID with the available Cloud Disk Service ID in the same region of JCS for Kubernetes
     fsType: xfs
 ```     
+
 **Parameter Description:**
 
 1. To use JD Cloud cloud disk as persistent storage in JD Cloud JCS for Kubernetes Service, you should specify the plug-in jdcloudElasticBlockStore when the PersistentVolume is defined;  
@@ -82,7 +84,9 @@ spec:
     matchLabels:
       type: jdcloud-ebs
 ```
+
 **3. Create Pod**
+
 ```
 kind: Pod
 apiVersion: v1
@@ -106,6 +110,7 @@ spec:
 ```
 
 **4. You can also directly create pod using static storage**
+
 ```
 kind: Pod
 apiVersion: v1
@@ -129,7 +134,6 @@ spec:
           name: pv-static
 ```
 
-
 ## II. Use JD Cloud cloud disk to define dynamic storage
 
 When the static PVs in the cluster do not match the new PersistentVolumeClaim, the cluster may try to create volumes for PVC dynamically.
@@ -145,6 +149,7 @@ When the static PVs in the cluster do not match the new PersistentVolumeClaim, t
 |ssd.io1	|Performance Type ssd | [20-16000]GiB  |10GiB| 
 
 2. Create PVC
+
 ```
 apiVersion: v1
 kind: PersistentVolumeClaim
@@ -158,24 +163,29 @@ spec:
     requests:
       storage: 20Gi
 ```  
+
 3. View Cluster PVC
 
 `kubectl get pvc`  
 
 Output:  
+
 ```
 NAME                                         STATUS    VOLUME                                     CAPACITY   ACCESS MODES   STORAGECLASS   AGE
 pvc1                                         Bound     pvc-73d8538b-ebd6-11e8-a857-fa163eeab14b   20Gi       RWO            jdcloud-ssd    18s
 ```  
+
 4. View Cluster PV  
 
 `kubectl get pv`  
 
 Output:  
+
 ```
 NAME                                       CAPACITY   ACCESS MODES   RECLAIM POLICY   STATUS    CLAIM                                                STORAGECLASS   REASON    AGE
 pvc-73d8538b-ebd6-11e8-a857-fa163eeab14b   20Gi       RWO            Delete           Bound     default/pvc1                                         jdcloud-ssd              2m
 ```  
+
 **Note**: Based on StorageClass jdcloud-ssd, a volume is created for PVC. Once PV and PVC are associated, PersistentVolumeClaim associating are exclusive, regardless of the way they are associated. The associate between PVC and PV is one –to- one mapping.
 
  
