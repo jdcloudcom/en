@@ -15,7 +15,7 @@ After the message is sent successfully, it needs to consume the message accordin
 ## Method 1: Produce message by console
 1. In the Topic Management page, find the topic that you want to send the message, and you can choose to send the message during the operation.
 
-2. Input Message Body and tag, and if you want to send the delay message, you can set the message delay time.
+2. Enter Message Body, Business ID and tag and you can set the message latency time if you want to send latency messages.
 
 3. If the message is sent successfully, the Message Sending Success Notice and Message ID will be returned. Click on the message details to view.
 
@@ -25,15 +25,15 @@ After the message is sent successfully, it needs to consume the message accordin
 
 2. The delay time of messages is 0~3600 seconds.
 
-3. Subscriber tag rules: tag is a message subscriber filters the messages, when the subscriber sets the tag, the subscriber can consume the same tag message, if you do not set the tag, and the subscriber does not filter the message. The single subscriber can add no more than 5 tags. A single tag is a string of no more than 64 characters, separated by a ','.
+3. Subscriber tag rule description: tag is a message filter used by message consumers. When a consumer sets a tag, only messages with the same tag can be consumed by the consumer. If no tag is set, the consumer cannot filter the messages.
 
-- For message 1, does not have message tag, the subscriber has tag, then the subscriber does not match and receives no news.
+- For Message 1, if the message has no tag but a consumer has a tag, then this consumer does not match and will not receive any message;
 
-- For message 2, the message has a tag, the subscriber does not have a tag, the message does not need to match when delivered, and all the subscribers can receive the message.
+- For Message 2, if the message has a tag but a consumer has no tag, then the consumer can always receive messages without matching the messages in delivery;
 
-- For message 3, when the message and the subscriber both have a tag, the two matches, and can receive the message.
+- For Message 3, if both the message and the consumer have tags, the consumer can receive the message when both tags match with each other;
 
-- For Message 4, the message does not have a tag; the subscriber does not have a tag either. After delivery, all subscribers can receive the message.
+- For Message 4, if neither the message nor the consumer have tags, all consumers can receive the message after delivery.
 
 
 ## Method 2: Produce and Consume Messages by SDK/API

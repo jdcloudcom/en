@@ -32,6 +32,7 @@ Select or enter the relevant configuration information of the instance. The para
    - Single Availability Zone Deployment: The primary and secondary database are located in the same availability zone. If the availability zone fails, the entire instances cannot provide services.
 - Basic Information
    - Instance Name: It is allowed to repeat, while the length and characters of the name have certain limits, which shall be subject to the console.
+   - Port: Now, MySQL, Percona and MariaDB support specified operation ports, the default value is 3306 and the port range supports 1150 ~ 5999.
 - Purchase Duration: The purchase duration shall be selected if the billing method is monthly package, with options varying from 1 month to 3 years. The longer the purchase duration, the greater the discount is, which shall be subject to the console.
 ![Create Instance 8](../../../../../image/RDS/Create-Instance-4.png)
 

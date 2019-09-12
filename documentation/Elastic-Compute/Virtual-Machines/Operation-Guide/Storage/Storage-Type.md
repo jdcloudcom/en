@@ -4,7 +4,7 @@
 
 It supports to use the local disk or cloud disk as system disk.
 
-For local disk, you can't select the capacity and a capacity of 40GB is given for free; it is created along with the VMs and its life cycle is the same as that of the instance, that is, it starts or ends with the instance life cycle.
+For local disk, you can't select the capacity and a capacity of 40GB is given for free; it is created along with the VMs and its life cycle is the same as that of the instance, that is, it starts or ends with the instance life cycle. The local disk is a storage area divided from the local storage area of the physical machine where the instance is located. If the local disk and the instance are arranged on the same physical machine, the access delay is short, but there is single point failure risk of data.
 
 For cloud disks, general SSD Cloud Disk, performance-oriented SSD Cloud Disk and capacity-oriented HDD Cloud Disk are supported, capability can be designated among 40GB~500GB. For a Pay By Configuration billing cloud disk which is a non-multi-point attached disk, you may designate its deletion on instance termination attribute; if they are configured as deletion on instance termination, this disk will be deleted while deleting the instance. For a Monthly Package disk or a multi-point attached disk, this attribute will not take effect and the disk will be reserved while deleting the instance.
 

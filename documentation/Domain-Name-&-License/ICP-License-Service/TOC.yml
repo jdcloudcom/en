@@ -6,7 +6,11 @@
       - name: Filing Introduction
         href: Getting-Started/Introduction.md
       - name: Filing Progress
-        href: Getting-Started/Process.md
+        items:
+          - name: Add filing
+            href: Getting-Started/Process/Addition-Filing.md
+          - name: Add Website (with Main Body)
+            href: Getting-Started/Process/Addition-Website.md      
       - name: Rules of Regulatory Authority
         items:
           - name: Anhui

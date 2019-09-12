@@ -15,16 +15,16 @@
 ### 1. Click **Create** in the Topic Management page
 
 In the left menu of the console, click **Create** in [Middleware] - [Message Queue] - Management interface of [JCQ-Topic]
- ![Create topic Step 1](https://github.com/jdcloudcom/en/blob/messagequeue/image/Internet-Middleware/Message-Queue/创建topic-01.PNG)
+ ![创建topic步骤1](../../../../../image/Internet-Middleware/Message-Queue/创建topic-01.PNG)
 
 ### 2. Complete Topic Information and click **Create**.
 
 Refresh pages to finish new topic creation
- ![Create topic Step 2](https://github.com/jdcloudcom/en/blob/messagequeue/image/Internet-Middleware/Message-Queue/创建topic-02.png)  
+ ![创建topic步骤2](../../../../../image/Internet-Middleware/Message-Queue/创建topic-02.png)  
 I. The topic name can be entered according to the prompt information, and cannot be modified.  
-II. Message types are divided into unordered messages and global ordered messages：  
+II. Message type consists of common message and global sequential message:  
 
-- Unordered messages: Cannot guarantee first in first out (FIFO) ordered consumption, including general messages and delayed messages.
+- Common message: Cannot guarantee first in first out (FIFO) ordered consumption, including general messages and delayed messages.
 - Global ordered messages: The production and consumption of messages are carried out according to the publishing order of messages (FIFO).  
 
 III. You should enter the remarks according to the requirements, and cannot exceed 255 bytes.

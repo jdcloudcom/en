@@ -64,38 +64,44 @@ For example:
 ### Syntax Description
 
 ```JSON
-policy  = {
+policy = {
      <version_block>
-     <principal_block?>,
      <statement_block>
 }
+```
 
+```JSON
 <version_block> = "version" : "3"
+```
 
+```JSON
 <statement_block> = "statement" : [ <statement>, <statement>, ... ]
+```
 
+```JSON
 <statement> = {     
     <effect_block>,
     <action_block>,
     <resource_block>,
     <condition_block?>
 }
+```
 
+```JSON
 <effect_block> = "effect" : ("allow" | "deny")  
+```
 
-<principal_block> = "principal": ("*" | <principal_map>)
-
-<principal_map> = { <principal_map_entry>, <principal_map_entry>, ... }
-
-<principal_map_entry> = "JDCloud":   
-[<principal_id_string>, <principal_id_string>, ...]
-
+```JSON
 <action_block> = "action": 
 ("*" | [<action_string>, <action_string>, ...])
+```
 
+```JSON
 <resource_block> = "resource": 
 ("*" | [<resource_string>, <resource_string>, ...])
+```
 
+```JSON
 <condition_block> = "condition" : { <condition_map> }
 
 <condition_map> = 
@@ -105,8 +111,5 @@ policy  = {
 }  
 
 <condition_value_list> = [<condition_value>, <condition_value>, ...]
-
-<condition_value> = ("string" | "number" |"boolean")
 ```
 
-> The functions of Condition is continuously under update, coming soon

@@ -37,6 +37,7 @@ Taking the cluster Version 1.12.3 as an example, this document specifies steps o
     `
     
     Output is as follows
+
     ```
     
     NAME           STATUS   AGE
@@ -72,7 +73,8 @@ Taking the cluster Version 1.12.3 as an example, this document specifies steps o
     istio-tracing-6445d6dbbf-88jx4            1/1     Running     0          9m59s
     prometheus-66f96fdfbc-44htl               1/1     Running     0          10m
     servicegraph-658fd9f76d-jrvdp             1/1     Running     0          10m
-    ```    
+    ```  
+
 **Description:**
 
   Instructions to main components of istio are as follows:
@@ -88,6 +90,7 @@ Taking the cluster Version 1.12.3 as an example, this document specifies steps o
     `
     kubectl delete -f install/kubernetes/istio-demo.yaml
     `
+
 ## II. Example Application
 
 The example application is an on-line book directory system displaying book-related information, including book details such as book name, ISBN and sheet as well as book preview function. It is composed of four independent microservices, including detail, productpage, ratings and reviews.
@@ -150,6 +153,7 @@ The example application is an on-line book directory system displaying book-rela
     NAME                   TYPE           CLUSTER-IP     EXTERNAL-IP      PORT(S)                                                                                                                   AGE
     istio-ingressgateway   LoadBalancer   10.0.250.151   114.XXX.XXX.XXX   80:31380/TCP,443:31390/TCP,31400:31400/TCP,15011:30570/TCP,8060:30615/TCP,853:32610/TCP,15030:30259/TCP,15031:31241/TCP   47m
     ```
+    
 4. Verify if service of cluster is running normally with external-IP and service name returned by the cluster in the last step. Taking microservice of productpage as an example, the executing commands are as follows:
 
     ```
@@ -198,6 +202,7 @@ The example application is an on-line book directory system displaying book-rela
         subset: v3
       weight: 50
     ```
+
   * After the following commands are executed and the browser url in the last step is refreshed, it is found that the ratings and reviews are always in red color. This is because the service traffic is completely switched to v3 due to configuration of corresponding yaml file;
 
     ```

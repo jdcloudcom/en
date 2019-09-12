@@ -1,6 +1,8 @@
 # Image Type Conversion
 Since the image formats required for creating the local system disk Virtual Machines and the cloud system disk Virtual Machines are different, if you want to create the cloud system disk Virtual Machines by using a private image made from the local system disk Virtual Machines, you should generate a new image based on the current image through **Image Type Conversion**, and the types of the two images are "Local System Disk" and "Cloud System Disk" respectively.
 
+Data reliability of local disk system disk is far inferior to that of the cloud disk system disk. In case of migration or host machine system breakdown, there are data loss risks. Therefore, you are highly recommended to create a machine with images of cloud disk system disk, if the business deployment permits.
+
 You can view the field "Image Type" in the image list page or detail page to get the system disk type of the image, and you can convert the private image as required. The public image and the cloud marketplace image provide two types of images at the same time.
 
 ## Precondition

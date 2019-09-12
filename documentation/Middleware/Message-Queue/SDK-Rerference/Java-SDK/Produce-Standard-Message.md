@@ -14,10 +14,12 @@ Message Queue JCQ SDK supports four sequential message modes: synchronously send
 
 
 ## Configurable Parameters
-| Parameter                | Parameter Description                                   |
+| Parameter                | Parameter Description                                   |Remark                                       |
 | ------------------- | ------------------------------------------ |
-| PROPERTY_TAGS       | The message tag can be set; 1 tag is supported temporarily |
-| PROPERTY_DELAY_TIME | The message deferred time can be set, ranging from 0-3,600 seconds     |
+| PROPERTY_BUSINESS_ID|Business ID for messages can be set, and users can query messages by business ID|The maximum length is 128 characters                       |
+| PROPERTY_TAGS       | The message tag can be set                  | 1 tag is supported temporarily |
+| PROPERTY_DELAY_TIME | The message deferred time can be set                     | ranging from 0-3,600 seconds     |
+| PROPERTY_RETRY_TIMES| Message retry times at client can be set                 |It is not related to retry times at server, 2 times by default. Namely the message is sent to server for 3 times in total|
 
 ## Code Example
 ```Java
@@ -64,6 +66,7 @@ public class ProducerDemo {
 
     public static void main(String[] args) throws Exception {
         // Create Common Message  producer
+        // If you log in by role, you can simply put the obtained ST Stoken as UserCredential parameter
         UserCredential userCredential = new UserCredential(ACCESS_KEY, SECRET_KEY);
         ProducerConfig producerConfig = ProducerConfig.builder()
                 .metaServerAddress(META_SERVER_ADDRESS)
@@ -80,6 +83,9 @@ public class ProducerDemo {
         Message message1 = new Message();
         message1.setTopic(TOPIC);
         message1.setBody(("this is message1 boy").getBytes());
+
+        // Set the message businessID attribute, if needed
+        message.getProperties().put(MessageConstants.PROPERTY_BUSINESS_ID,"yourBusinessID");
 
         // Set the attribute of message tag Attribute, if needed
         message.getProperties().put(MessageConstants.PROPERTY_TAGS, "TAG");

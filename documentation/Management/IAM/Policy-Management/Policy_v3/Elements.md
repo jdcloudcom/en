@@ -25,13 +25,13 @@ It is a required field, describing Json information of one or more permissions. 
 
 ### Effect
 
-It is the required field, comprising two conditions, i.e. allow and deny.
+It is the required field, comprising two conditions, i.e. allow and deny. [Details](https://docs.jdcloud.com/en/iam/effect)
 
-> The functions of Deny is continuously under update, coming soon
+> When the same action has both Allow authorization and Deny authorization, the action will be denied in conformance with the priority principle of Deny.
 
-### Action
+### Action 
 
-It is the required field. In order to unify the access of JD Cloud Console and SDK, we have detailed each action on the console at Open API level, and the action is divided into two major types:
+It is the required field. In order to unify the access of JD Cloud Console and SDK, we have detailed each action on the console at Open API level, and the action is divided into two major types.[Details](https://docs.jdcloud.com/en/iam/action)
 
 - Operations that cannot designate resources: such as IAM sub-user list (iam:descirbeSubusers), group list (iam:describeGroups), sub-user creation (iam:createSubuser) and other interfaces, which these interfaces are not allowed to conduct operations of designating resources by definition. When you create customized policies in IAM, these interfaces do not support operations for designated resources. In general, list interface, creation interface and report interface all do not support action of authorization to designated resources.
 - Operations that can designate resources: such as IAM sub-user description (iam:describeSubuser), IAM sub-user editing (iam:modifySubuser) and other interfaces, and these interfaces support operations to designated resources by definition. When you create customized policies in IAM, these interfaces allow you to conduct authorization and operation to designated resources. In general, interfaces such as detail, edit, delete, disassociate and associate all support action and authorization for designated resources.
@@ -39,12 +39,11 @@ It is the required field. In order to unify the access of JD Cloud Console and S
 ### Resource
 
 It is the required field. The JD Cloud Resource Name (JRN) is used for unique identification of a JD Cloud resource, with which we can definitely designate a resource in the global environment of JDCLOUD.
+[Details](https://docs.jdcloud.com/en/iam/resource)
 
 ### Condition
 
-It is the optional field, describing restrictions for effectiveness of policies. The conditions consist of condition operational character, condition key and condition value.
-
-> The functions of Condition is continuously under update, coming soon
+It is the optional field, describing restrictions for effectiveness of policies. The conditions consist of condition operational character, condition key and condition value. [Details](https://docs.jdcloud.com/en/iam/condition)
 
 ## Policy Sample
 

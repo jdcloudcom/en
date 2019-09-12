@@ -1,5 +1,5 @@
   name: Distributed Cloud Physical Server
-  href:
+  href: 
   items:
   - name: Introduction
     items:
@@ -47,6 +47,12 @@
     items:
       - name: Instructions for Use
         href: Operation-Guide/Terms-and-Conditions.md
+      - name: Instance
+        items:
+          - name: Reset Password
+            href: Operation-Guide/Instance/Reset-Password.md
+          - name: Customized Data
+            href: Operation-Guide/Instance/User-Data.md
       - name: Network
         items:
           - name: VPC

@@ -38,7 +38,7 @@ The instance of JD Cloud provides different types and combinable data storage de
 ## Classification according to Architectural Pattern
 
 ### Local Disk
-The local disk and the instance are in the same physical machine. Instances using the local disk have shorter data access delay. The life cycle of local disk is same as that of instance. Local system disk data will be lost on instance termination while local data disk data will be lost on instance shutdown. If your application architecture cannot implement data reliability, it is recommended that you should use Cloud Disk Service to store the important data.
+The local disk and the instance are in the same physical machine. With the instance of local disk, the lower data access delay will be obtained, but there are single-point fault disks. In addition, the life cycle of local disk is as the same as that of the instance. Local system disk data will be lost upon deletion on instance termination while local data disk data will be lost upon instance shutdown. If your application architecture cannot implement data reliability, it is recommended that you should use Cloud Disk to store the important data.
 
 ### Cloud Disk
 The cloud disk is a data block storage device with a triple copy architecture, which makes it highly available.

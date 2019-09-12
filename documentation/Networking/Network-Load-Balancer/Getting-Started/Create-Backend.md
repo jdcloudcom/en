@@ -14,7 +14,7 @@
 
 - Port: The input range is 1-65535 and ports for different backend services can be duplicated;
 
-- Scheduling algorithm: Support weighted round robin algorithm, weighted least connection number and source IP;
+- Scheduling algorithm: Support weighted round robin algorithm, weighting least connection count and weighted source IP;
 
 - Session persistence: Session persistence enabling and disabling; the duration is 300s after it is enabled;
 	

@@ -26,7 +26,7 @@
 	
 - Port: Backend business forwarding port, input range 1~65535, ports for different backend services can be duplicated;
 	
-- Scheduling algorithm: Weighted round robin algorithm, weighted least connection number and source IP can be selected according to actual business needs;
+- Scheduling algorithm: Weighted round robin, weighting least connection count and weighted source IP can be selected according to actual business needs;
 
 - Session persistence: it is closed by default, open to support the TCP-based session persistence, and the default time is 300 seconds;	
 	

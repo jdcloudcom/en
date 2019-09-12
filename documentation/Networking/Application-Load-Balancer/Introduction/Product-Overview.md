@@ -54,7 +54,7 @@ JD Cloud Application Application Load Balancer can realize high availability of 
 |WebSocket Support| ✔ | —— | —— |
 |Auto Scaling of Service Instance | ✔ | ✔ | ✔ |
 |High-Availability Deployment of Multi-Availability Zones | ✔ | ✔ | ✔ |
-|Scheduling algorithm	| Weighted Round Robin, Weighting Least Connection Number and Source IP | Weighted Round Robin, Weighting Least Connection Number and Source IP | Weighted Source IP and Weighted Quintuple Form |
+|Scheduling Algorithm	| Weighted Round Robin, Weighting Least Connection Count and Weighted Source IP | Weighted Round Robin, Weighting Least Connection Count and Weighted Source IP | Weighted Source IP and Weighted Quintuple Form |
 |SSL Unloading and Certificate Management | ✔ | —— | —— |
 |Idle connection timeout | ✔ | ✔ | —— |
 |Source IP Reservation	| Pass-through based on X-forward-for mechanism of HTTP Header | Pass-through of Three-layer Packet Source IP | Source IP Pass-through of Three-layer Packet |

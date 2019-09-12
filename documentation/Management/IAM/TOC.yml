@@ -49,10 +49,14 @@ items:
                 href: Policy-Management/Policy_v3/Elements.md
               - name: Syntactic Structure
                 href: Policy-Management/Policy_v3/Syntax-Structure.md
+              - name: IAM Permission Determination Rules
+                href: Policy-Management/Policy_v3/effect.md
               - name: Operation Description Method
                 href: Policy-Management/Policy_v3/Action.md
               - name: Resource Description Method
                 href: Policy-Management/Policy_v3/Resource.md
+              - name: Condition Description Method
+                href: Policy-Management/Policy_v3/Condition.md
       - name: Set
         href: Setting.md        
       - name: Virtual MFA Equipment

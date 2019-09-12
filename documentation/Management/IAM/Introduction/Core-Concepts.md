@@ -39,14 +39,12 @@ The relevant terms used in IAM are listed in this document to help you understan
  IAM supports two types of policies: system policies preset by JD Cloud and customized policies managed by users themselves.
  
 - The system policies preset by JD Cloud when accessing product line, which are not allowed to be modified by users.
-- As for customized policies managed by users themselves, users can create policies for specific action to specific resource by means of customized policy. You can also add restricted conditions to restrict source IP, specific access time, Virtual MFA Verification, etc. Users can edit this kind of policies by themselves or delete customized policies.
-
- > The functions of Condition is continuously under update, coming soon
+- As for customized policies managed by users themselves, users can create policies for allowing or denying (Effect) specific action to specific resource by means of customized policy. You can also add restricted conditions to restrict source IP, specific access time, Virtual MFA Verification, etc., and users can edit and delete customized policies.
  
 ### Effect
  Effect refers to the users' access or operation permission to the resources, which includes: Allow or Deny.
  
- > The functions of Deny is continuously under update, coming soon
+ > When the policy has both Allow authorization and Deny authorization, the action will be denied in conformance with the priority principle of Deny.
  
 ### Action
  In order to unify the access of JD Cloud Console and SDK, we have detailed each action on the console at Open API level, the action is divided into two major types:
@@ -57,3 +55,5 @@ The relevant terms used in IAM are listed in this document to help you understan
 ### Resource
  JDCloud resource name (JDCloud Resource Name, JRN) is used for unique identification of a JDCloud resource, which we can use JRN definitely designate a resource in the global environment of JDCLOUD.
 
+### Condition
+It describes conditions for effectiveness of policies

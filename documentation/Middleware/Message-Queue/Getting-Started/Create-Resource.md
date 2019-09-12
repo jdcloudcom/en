@@ -18,9 +18,9 @@ In Message Queue, the production and consumption of messages need to be in the f
 ### Note:
 
 1. The Topic Name must be globally unique, if a name already exists; you are not able to create a Topic Name any more. The topic only contains letters, numbers, hyphens (-), underscores (_), waveforms (~) or sign (+), and the length is 3-64 characters.
-2. The message type includes unordered messages and global ordered messages.
+2. The message type consists of common message and global sequential message.
 
-- Unordered messages: Cannot guarantee first in first out (FIFO) ordered consumption, including general messages and delayed messages.
+- Common message: Cannot guarantee first in first out (FIFO) ordered consumption, including general messages and delayed messages.
 - Global ordered messages: The production and consumption of messages are carried out according to the publishing order of messages (FIFO).
 
 ## Step 2: Add Subscription

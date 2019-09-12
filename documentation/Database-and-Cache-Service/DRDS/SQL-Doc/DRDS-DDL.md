@@ -10,10 +10,7 @@ Therefore, comparing with traditional non-split table, two key points shall be d
 - Split field: Which field is used for splitting data in a table.
 - Split function: Which algorithm is used for splitting data in a table.
 
-
-Specific syntaxes for creation of table split are as follows
-
-**Please note that the syntax of the part [DRDS Partition Optiosn] must be placed to the end**
+### Syntax
 ```SQL
 CREATE TABLE table_name
 (create_definition,...)
@@ -28,7 +25,11 @@ CREATE TABLE table_name
      YYYYMM ([column_name]) START ([start_date]) PERIOD [num]|
      YYYY ([column_name]) START ([start_date]) PERIOD [num]  
 ```
-   
+
+**Note**
+1. Syntax of the part [DRDS Partition Options] must be placed to the end
+2. Primary keys of tables must be split fields
+
 ### Split Function
 Currently, DRDS supports the following split functions, the names of which are case-insensitive
 - INT_MOD(): For split of integer fields, int, smallint, bigint, tinyint and mediumint are supported
@@ -43,21 +44,25 @@ Currently, DRDS supports the following split functions, the names of which are c
  ### Examples
  1. Split by integer type field
   ```SQL
- create table ddl_demo1(
- id int,
- name varchar(10))
- ENGINE=InnoDB DEFAULT CHARSET=utf8
- dbpartition by int_mod(id);
- ```
+create table ddl_demo1(
+id int,
+name varchar(10) default ‘’,
+dept varchar(10) not null,
+primary key(id))
+ENGINE=InnoDB DEFAULT CHARSET=utf8
+dbpartition by int_mod(id);
+```
  
 2. Split by character field
   ```SQL
- create table ddl_demo2(
- id int,
- name varchar(10))
- ENGINE=InnoDB DEFAULT CHARSET=utf8
- dbpartition by string_hash(name);
- ```
+create table ddl_demo2(
+id int,
+name varchar(10) default ‘’
+dept varchar(10) not null,
+primary key(name))
+ENGINE=InnoDB DEFAULT CHARSET=utf8
+dbpartition by string_hash(name);
+```
  
  3. If the function YYYYMM is used, the data start time is May 2019 and the data will be put into one table sharding per 3 months
  ```SQL
@@ -75,3 +80,13 @@ Currently, DRDS supports the following split functions, the names of which are c
  ENGINE=InnoDB DEFAULT CHARSET=utf8
  dbpartition by YYYY(order_date) start('2000') period 2;
  ```
+
+## Delete split tables
+Syntax for table deletion must be standard SQL
+```SQL
+drop table table_name1,table_name2,table_name3, ......
+```
+For example:
+```SQL
+drop table ddl_demo1,ddl_demo2,ddl_demo3, ddl_demo4;
+```

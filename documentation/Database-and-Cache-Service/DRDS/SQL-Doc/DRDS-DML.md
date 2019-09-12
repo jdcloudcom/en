@@ -20,7 +20,7 @@ update ddl_demo1
 set name = 'efg'
 where id = 100;
 
-delete ddl_demo1
+delete from ddl_demo1
 where id =100;
 ```
 

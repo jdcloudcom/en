@@ -89,8 +89,8 @@ The watermark width and height as well as the watermark displacement support set
 
 |Configuration Unit|Description|
 |-|-|
-|Pixel|Set actual pixel size of a watermark image within the value range [8,4096]|
-|Percentage|Proportion between the watermark and the actual picture, with value range (0,100)|
+|Pixel|Set offset by pixel according to the selected initial position, value range [8-4096]|
+|Percentage|Set offset by corresponding percentage according to the selected initial position, value range (0,100)|
 
 ![水印宽高和偏移支持百分比设置.png](../../../../image/Video-on-Demand/水印宽高和偏移支持百分比设置.png)
 

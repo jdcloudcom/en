@@ -6,9 +6,11 @@ Message Queue JCQ SDK supports two sequential message modes: Synchronously sendi
 Notification: When selecting production sequential messages, the user can start only one Producer process, and more Producer requests will be denied by the server. [In order to ensure that the messages reaching the server are truly ordered]
 
 ## Configurable Parameters
-| Parameter          | Parameter Description                                   |
-| ------------- | ------------------------------------------ |
-| PROPERTY_TAGS | The message tag can be set; 1 tag is supported temporarily |
+| Parameter          | Parameter Description                                   |Remark                                       |
+| ------------------- | ------------------------------------------ |------------------------------------------ |
+| PROPERTY_BUSINESS_ID|Business ID for messages can be set, and users can query messages by business ID|The maximum length is 128 characters                       |
+| PROPERTY_TAGS       | The message tag can be set                  |One tag is supported temporarily                             |
+| PROPERTY_RETRY_TIMES| Message retry times at client can be set                 |It is not related to retry times at server, 2 times by default. Namely the message is sent to server for 3 times in total|
 
 ## Code Example
 ```Java
@@ -69,6 +71,9 @@ public class GlobalOrderProducerDemo {
         message1.setTopic(TOPIC);
         message1.setBody(("this is message1 boy").getBytes());
 
+        // Set the message businessID attribute, if needed
+        message.getProperties().put(MessageConstants.PROPERTY_BUSINESS_ID,"yourBusinessID");
+        
         // Set the attribute of message tag Attribute, if needed
         message.getProperties().put(MessageConstants.PROPERTY_TAGS, "TAG");
         

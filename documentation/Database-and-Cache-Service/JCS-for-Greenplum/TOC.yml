@@ -50,7 +50,11 @@
           - name: View Monitoring Information
             href: Operation-Guide/Monitoring/Monitoring.md
           - name: Set alarm rules
-            href: Operation-Guide/Monitoring/Alarm-Rules.md              
+            href: Operation-Guide/Monitoring/Alarm-Rules.md   
+      - name: Data Migration
+        items:
+          - name: Migrate MySQL data to Greenplum
+            href: Operation-Guide/Data-Migration/mysql2pgsql.md
   - name: FAQ
     href: FAQ/FAQ.md
   - name: User Agreements

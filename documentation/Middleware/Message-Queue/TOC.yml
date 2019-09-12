@@ -51,8 +51,10 @@
             href: Operation-Guide/Message-Management/Send-Message.md      
           - name: Query Message
             href: Operation-Guide/Message-Management/Query-Message.md    
+          - name: Message Track
+            href: Operation-Guide/Message-Management/Message-Trace.md
           - name: Resend Message
-            href: Operation-Guide/Message-Management/Redrive-Message.md   
+            href: Operation-Guide/Message-Management/Redrive-Message.md
       - name: Monitoring and Alarms
         items:
           - name: View Monitoring Information
