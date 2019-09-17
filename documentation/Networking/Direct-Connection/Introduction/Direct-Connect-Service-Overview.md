@@ -4,17 +4,19 @@ The Direct Connection Service is a high-speed, secure and stable network access 
 
 
 
-Sub-products of Direct Connection Service: Direct Connection and Hosted Connect.
+The Direct Connection consists of four sub-products: Direct Connect, Hosted Connect, Border Gateway and VPC Attachment.
 
 
 
-Direct Connection: Connect the machine room of JD Cloud and your IDC machine room through physical links to realize Intranet-level communication between JD Cloud network and your IDC network.
+  Direct Connection: Connect the machine room of JD Cloud and your IDC machine room through physical links to realize Intranet-level communication between JD Cloud network and your IDC network.
 
-Hosted Connect: Connect the machine room of JD Cloud and your physical device in the cloud managed service area of JD Cloud through a physical link to realize Intranet-level communication between JD Cloud network and your network in JD Cloud hosted area.
+  Hosted Connect: Connect the machine room of JD Cloud and your physical device in the cloud managed service area of JD Cloud through a physical link to realize Intranet-level communication between JD Cloud network and your network in JD Cloud hosted area.
 
+  Border Gateway: The gateway to host the communication between VPCs and between VPC and external device/environment and the current hosted functions include Direct Connection, Cabinet Service, VPN Connection and VPC Attachment.
 
+  VPC Attachment: Interconnection APIs between JD Cloud VPC and Border Gateway.
 
-JD Cloud Resources that can be connected to Direct Connection Service: All resources in JD Cloud VPC, including Virtual Machine, Cloud Database, and cloud cache, JCS, etc.
+JD Cloud resources that can be connected to Direct Connection: All resources in JD Cloud VPC, including Virtual Machines, Container, Load Balancer, Cloud Database, JCS, etc., but the NAT Gateway in VPC cannot be used to unify the Internet exit.
 
 
 

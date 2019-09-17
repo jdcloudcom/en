@@ -46,7 +46,8 @@
 |Quantity of security groups which can be associated with each machine’s instance 	|5	| Ticket 	|
 |Quantity of route tables in the same VPC	|10	| Ticket 	|
 |Quantity of route tables that can be associated with each subnet 	|1	| Unchangeable 	|
-|Quantity of route rules in each route table 	|50	| Ticket 	|
+|Count of static route rules of each Route Table	|50	| Ticket	|
+|Count of transmission route rules (including quantity of invalid transmission routes) of Each Route Table	|100	| Ticket	|
 |Quantity of VPC peering connections which can be created by each VPC 	|10	| Ticket 	|
 |Quantity of VPC peering connections which can be created between the same two VPCs 	|1	| Unchangeable 	|
 

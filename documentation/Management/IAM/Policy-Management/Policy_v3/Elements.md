@@ -23,7 +23,7 @@ It is the optional field, referring to the entity users or services that can pla
 
 It is a required field, describing Json information of one or more permissions. The element comprises permission or permission sets of several other elements such as action, resource, condition and effect. One policy has only one statement element.
 
-### Effect
+### Permission (effect)
 
 It is the required field, comprising two conditions, i.e. allow and deny. [Details](https://docs.jdcloud.com/en/iam/effect)
 
@@ -47,7 +47,7 @@ It is the optional field, describing restrictions for effectiveness of policies.
 
 ## Policy Sample
 
-The sample is described as follows: It is allowed that the sub-account under the primary account 876393467912 can view and create sub-users and groups of IAM when the secondary IP address is "203.0.113.0/24",
+The sample is described as follows: It is allowed that the sub-account under the primary account 876393467912 can view and create sub-users and groups of IAM when the secondary IP address is "203.0.113.0/24".
 
 ```JSON
 {

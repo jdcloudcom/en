@@ -73,6 +73,8 @@ items:
           href: Operation-Guide/Back-end-Services/Back-end-Services-Mock.md
         - name: Function Backend Service
           href: Operation-Guide/Back-end-Services/Back-end-Services-Function.md
+        - name: Dynamic Route
+          href: Operation-Guide/Back-end-Services/Dynamic-routing.md
     - name: Access Authorization
       items:
         - name: Access Authorization for API
@@ -83,6 +85,8 @@ items:
           href: Operation-Guide/Create-Auth/Signature-Key.md
         - name: Access Key of JD Cloud User Signature
           href: Operation-Guide/Create-Auth/JD-Cloud-User-Signature.md
+        - name: Based on User Authorization
+          href: Operation-Guide/Create-Auth/User-based-Auth.md
     - name: JD Distributed Service Gateway
       items:
         - name: JD Distributed Service Gateway

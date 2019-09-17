@@ -19,7 +19,6 @@ items:
       status: 0
     - name: Restrictions
       href: Introduction/Restrictions.md
-      status: 0
     - name: Application Scenarios
       href: Introduction/Application-Scenarios.md
 - name: Pricing

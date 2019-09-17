@@ -62,10 +62,25 @@ The Direct Connection  Service fee of public cloud consists of two parts: direct
 
 A: Currently it is not provided.</br>
 
+14.Q: Before and after the Border Gateway supports VPC Attachment, if the interconnection method between the Border Gateway and VPC is changed?</br>
 
+A: The interconnection method between the Border Gateway and VPC is changed both before and after the Border Gateway supports VPC Attachment.
+
+Before the border gateway supports VPC Attachment, once the Border Gateway is created, all VPCs in the same region will be connected automatically. 
+Where the Border Gateway supports release of VPC Attachment, newly created Border Gateways won’t connect to any VPC by default, so users need to create "VPC Attachments" to interconnect specified VPC with Border Gateways. For Border Gateways already created, routes, which have already connected to VPC, in the Border Gateway Route Table are still valid and available, but no other routes to VPC can be created unless VPC Attachment connected to VPC is created first.
+
+15.Q: When the valid Route Table of Border Gateway reaches the quota cap, how to handle the added routes for route transmission?</br>
+
+A: When a batch of route entries to be updated + existing entries in a valid Route Table are greater than valid dynamic route quota, any entry of this route will be updated to the valid Route Table, and update of subsequently arrival routes will be blocked. Routes of this batch will be processed until sufficient route space is released by the valid Route Table or larger valid route space is provided.</br>
+ 
+ 
 
 ### **Fault Handling**
 
 1.Q: What if the Direct Connection Service interrupts?</br>
 
 A: Check whether the configured interconnect address (/30) of the two ends can communicate normally. If the communication is normal, recheck the routing configuration of the router on the client side, border gateway, and route table in VPC. If the communication cannot be performed normally, the operator/partner will report the failure according to the line code of the physical links, and the operator/partner will be responsible for processing.</br>
+
+2.Q: Why new transmission routes cannot be added to the valid Route Table of Border Gateway? How to solve it?</br>
+
+A: There are dynamic route entry quota restrictions for valid Route Table of Border Gateway. When a batch of route entries to be updated + existing entries in a valid Route Table are greater than valid dynamic route quota, any entry of this route will be updated to the valid Route Table. Resolution I: open ticket to increase dynamic route quota of Border Gateway and update the route batch to the Route Table; Resolution II: cut off unnecessary route channel, for example cut off unnecessary BGP session, delete API/channel for this route transmission and release storage space for valid Route Table</br>

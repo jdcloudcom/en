@@ -26,7 +26,7 @@ jrn:<service_name>:<region>:<accountId>:<resourceType>/<resourceId><subresouceTy
 
 - ` <resourceType>/<resourceId>/<subresouceType>/<subresouceId>` , Resource Type refers to the level I resource of the product line Open API, Resource ID refers to the level I resource ID of the product line Open API, Subresource Type refers to the level II resource of the product line Open API and Subresouce ID refers to the level II resource ID of the product line Open API. In case that the subsequent products are required to support the level III and level IV resources, please separate such products with / . All resources can be indicated with *.
 
-JRN Example:
+**JRN Example:**
 
 | **Description**                                             | **JRN Example**                                                  |
 | :--------------------------------------------------- | :----------------------------------------------------------- |

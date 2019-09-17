@@ -16,3 +16,5 @@
   A: 0.0.0.0/0 means to select all IP addresses. </br>
 - **Q: What is the rule implementation order of the network ACL?**</br>
   A: Network ACL rules are matched according to the priority you set when created. The smaller number has the higher priority level;Once a rule matched, it will be immediately executed. If no rule been matched, the access will be denied. When two network ACL rules have the same priority, the rule matchs first will be executed. You are suggested do not set two network ACL rules with the same priority number, cause it may not be executed in the way you expect.
+- **Q: When the VPC Route Table Transmission Route reaches the quota cap, how to handle the added routes for route transmission?**</br>
+  A: When a batch of route entries to be updated + existing entries in a Transmission Route Table are higher than transmission route quota, any entry of this route will be updated to the VPC Route Table and will block update of subsequent incoming routes; until VPC Route Table releases enough route space, or more efficient route space is provided by increasing quotas, the batch of routes will be processed.</br>

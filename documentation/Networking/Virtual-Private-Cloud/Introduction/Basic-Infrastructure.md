@@ -22,7 +22,7 @@ Security Group: Security group is implemented on each compute node, and users ca
 
 Public Network Gateway: Public network gateway is implemented outside VPC. By default, JD Cloud has configured a public network gateway for each user. Users can configure routes in route table to use public network gateway.
 
-BGW: BGW is implemented outside VPC and carries dedicated Line channel and hosted private virtual interface channel. Users can purchase as requirements and use BGW gateway by configuring route table.
+BGW: As the Border Gateway of VPC, BGW supports the interconnection among VPCs, among VPC and Private Virtual Interface and Hosted Private Virtual Interface; users can create interconnection APIs and channels by themselves based on demands and realize interconnection among different business ends through configuration of Route Table.
 
 
 

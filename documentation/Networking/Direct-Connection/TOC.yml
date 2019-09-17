@@ -19,6 +19,8 @@
             href: Introduction/Features/Hosted-Connect-Features.md
           - name: Border Gateway
             href: Introduction/Features/Border-Gateway-Features.md
+          - name: VPC Attachment
+            href: Introduction/Features/VPC-Interface-Features.md
       - name: Restrictions
         href: Introduction/Restrictions.md
       - name: Application Scenarios
@@ -41,10 +43,14 @@
          href: Getting-Started/Connect-To-The-Same-Account-Or-Region-Hosted-Connetct.md
   - name: Operation Guide
     items:
+       - name: Border Gateway
+         href: Operation-Guide/Border-Gateway.md
        - name: Direct Connection
          href: Operation-Guide/Direct-Connect.md
        - name: Hosted Connect
          href: Operation-Guide/Hosted-Connect.md
+       - name: VPC Attachment
+         href: Operation-Guide/VPC-Attachment.md
   - name: Best Practices
     items:
     status: 0

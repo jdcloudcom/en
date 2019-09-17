@@ -8,4 +8,6 @@ High reliability: end-to-end, full-path, and dual-channel high availability.
 
 High performance: up to 10G transmission bandwidth for single channel.
 
-The direct connection provides flexible access methods: self-service and partner creating modes, and support two-layer and three-layer access modes.
+Flexible Route Management: The Border Gateway provides two management capabilities, namely route manual configuration and route dynamic transmission for users’ choice. The route transmission supports end-to-end route automatic update from VPC to IDC, simplifying the deployment means of network responding to dynamic changes.
+
+Rich Access Method: The Direct Connect provides self-service and partner creating modes, and supports two-layer and three-layer access modes.

@@ -44,9 +44,7 @@ Route policy is used to control the route path of the data packet in subnet. It 
 
 - Destination End: Description of the destination network segment (only the format of network segment is supported. If you want the destination end to be the single IP, you can set the subnet mask code to `32` (for example: `192.168.10.10/32`). If the destination end is the network segment in VPC where the route table is located, this route policy will be overwritten by the Local rule, and the data packet will be routed according to the Local rule.
 - Next Hop Type: VPC’s data-packet exit. The type of next hop supports the types such as **Internet** and **VM**, etc.
-- 
-- Next Hop: Specify the specific address of 
-- route’s next-hop.
+- Next Hop: Specify the specific address of route’s next-hop.
 
 > Remarks: In all route tables, there is a default Local route policy, which means that the intranets of the VPC are interconnected. Its route rule is [ Local，Local，Local ], and this route rule cannot be modified or deleted.
 
@@ -54,14 +52,21 @@ Route policy is used to control the route path of the data packet in subnet. It 
 
 ### **Route Policy Priority**
 
-When there are multiple route policies in route table, from the highest to the lowest, route priority is respectively as follows:
+  VPC route table supports two route types: Dynamic transmission route and static route. The static route can be edited, and the dynamic transmission route can be viewed but cannot be edited.
+  
+  JD Cloud VPC route table priority range is 1~256, the smaller the value, the higher the route priority. The static route priority of JD Cloud VPC route table is 100 by default and the transmission route priority is 120 by default.
 
-- Internal Traffic of the VPC: Internal traffic of the VPC will be matched first;
-- Precise Route: The one which is not the internal traffic of the VPC shall be matched according to the most accurate route policy;
+  - When there are multiple route policies in the route table, the route priority from high to low is as follows, respectively:
+
+    Local route takes the priority;
+
+    The longest prefix (the prefix with the longest mask length) takes the priority for matching;
+
+    If the routes have the same prefix length, and different route types, the static route precedes the dynamic transmission route;
+
+    If the routes have the same prefix length, and same route type (such as that they are both transmission routes or static routes), they are equivalent routes. Currently, only the transmission route supports the equivalent route.
 
 E.g: If a VM in VPC is associated with the elastic IP and it is also in the subnet associated with NAT gateway (in route table, the next hop setting the access Internet traffic of this subnet is the NAT gateway), then the traffic, which this VM accesses to the Internet, will all be realized through NAT gateway. Because the priority of the most accurate route is higher than EIP.
-
-
 
 ### **Billing Mode**
 

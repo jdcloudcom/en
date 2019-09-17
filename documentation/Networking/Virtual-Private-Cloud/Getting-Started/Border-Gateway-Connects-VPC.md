@@ -2,7 +2,12 @@
 
 **Business Scenarios**
 
-In Region cn-north-1, two VPCs have communication requirements through private IPs, details as follows:
+In one region, when more than 3 VPCs are required for intercommunication, the operation steps of configuration are tedious through VPC Peering, and the configuration can be simplified by interconnecting multiple VPCs and the same Border Gateway. However, the VPC intercommunication through Border Gateway interconnection has higher network delay than VPC Peering.
+
+The configuration guidance mainly uses the static route configuration of VPC Route Table and Border Gateway Route Table as the example, please see relevant specific document of Direct Connection for dynamic transmission routing method.
+The document takes the example that two VPCs in North China region have communication requirements through Private IPs to provide configuration guidance.
+
+The detail is as follows:
 
 - First VPC
 
