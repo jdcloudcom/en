@@ -20,7 +20,7 @@ Turn on the Console, click **Distributed Cloud Physical Server** -> **VPC** in t
 
 **Restriction**<br/>
 
-1. Now, only one VPC can be created under the same operator for the same account
+1. Now, 10 VPC can be created under the same operator for the same account
 
 
 

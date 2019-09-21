@@ -52,7 +52,7 @@ JD Cloud Application Application Load Balancer can realize high availability of 
 |Protocol Type	| HTTP, HTTPS, TLS and TCP | TCP | TCP |
 |Forward based on domain and URL path| ✔ | —— | —— |
 |WebSocket Support| ✔ | —— | —— |
-|Auto Scaling of Service Instance | ✔ | ✔ | ✔ |
+|Backend Service Instance Auto Scaling | ✔ | ✔ | ✔ |
 |High-Availability Deployment of Multi-Availability Zones | ✔ | ✔ | ✔ |
 |Scheduling Algorithm	| Weighted Round Robin, Weighting Least Connection Count and Weighted Source IP | Weighted Round Robin, Weighting Least Connection Count and Weighted Source IP | Weighted Source IP and Weighted Quintuple Form |
 |SSL Unloading and Certificate Management | ✔ | —— | —— |

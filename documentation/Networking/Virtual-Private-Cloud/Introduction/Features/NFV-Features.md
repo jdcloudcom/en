@@ -85,4 +85,4 @@ Currently, it provides VPN communication service based on IPSEC protocol, suppor
 
 Demand: Some resources are deployed in the enterprise IDC, and resources such as application services are deployed in the JD Cloud intranet, and data communication is performed through the VPN tunnel to implement hybrid cloud deployment.
 
-![](/image/Networking/Virtual-Private-Cloud/NFV.jpg)
+![](/image/Networking/Virtual-Private-Cloud/NFV.png)

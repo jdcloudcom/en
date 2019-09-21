@@ -44,3 +44,12 @@ A: The virtual server group can add or delete VM instance by the user manually o
 **Q: Intranet ip resource occupied by one Application Load Balancer instance? **
 
 A: The Application Load Balancer adopts high availability frame architecture in each availability zone, enables two instance resources by default, it also occupies the ip resources of two located subnets, except for vip, thus, the single availability zone will occupy 3 Intranet ips in total, the double availability zone will occupy 5 Intranet ips in total, it needs to occupy 2 more ip resources of two located subnets for supporting one more availability zone, the rest can be done in the same manner.
+
+**Q: When the forwarding rules group is used, why the Application Load Balancer will redirect some requested URLs?**
+
+A: When the URL path of forwarding rules configured by Application Load Balancer ends with '/', and the prefix of another same URL path does not configure under the same domain and there is no forwarding rule with '/', the Application Load Balancer will execute 301 redirect for requests accessing URL path prefix without '/' and return a URL request with '/', so that access requests with '/' and without '/' can both be compatible with and forwarded by Application Load Balancer.
+
+Example 1: Application Load Balancer has configured forwarding rule 1 (domain:aaa. bbb. com, URL path: /path1/abc/or/path/abc/\*, backend service: backend) but did not configure forwarding rule 2 (domain: aaa. bbb. com, URL path: /path/abc, backend service: backend). When the user accesses http:// aaa. bbb . com/path1/abc and the Application Load Balancer receives the access request, it will execute 301 redirect to return http:// aaa. bbb. com/path1/abc/ and the access traffic will match forwarding rule 1 and distribute to backend for processing.
+
+If the user does not want Application Load Balancer to execute 301 redirect, he or she can configure forwarding rule 2 (domain: aaa. bbb. com, URL path: /path1/abc, backend service: backend) to specify the forwarding act of the designated access request http:// aaa. bbb. com/path1/abc through this forwarding rule.
+

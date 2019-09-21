@@ -4,4 +4,4 @@ Scenario: User with multiple VMs that need to access public network can use the 
 
 Recommended Configuration: VPC, subnet, route table, VM, EIP, NAT gateway instance.
 
-![](/image/Networking/Virtual-Private-Cloud/Multiple-VM-Use-Shared-IpAddress-To-Access-Internet.jpg)
+![](/image/Networking/Virtual-Private-Cloud/Multiple-VM-Use-Shared-IpAddress-To-Access-Internet.png)

@@ -21,6 +21,11 @@ Coupon cannot be altered after use.
 
 ### **4. Does coupon have a reminding function?**
 
-The total available amount of coupon lower than RMB200 will trigger message reminding, and the reminding modes are mail and SMS. 11
+The default coupon warning value of each account is RMB 200; if the value is less than RMB 200, the notification will be triggered and will be given via an email and SMS; and customized balance notification is also supported at the same time, and you can customize coupon balance notification according to your business demand.
+
+![1](https://github.com/jdcloudcom/cn/blob/joytaobao-coupon-20190916/image/Coupon-Manage/FAQ-1.png)
+
+![2](https://github.com/jdcloudcom/cn/blob/joytaobao-coupon-20190916/image/Coupon-Manage/FAQ-2.png)
 
 The message reminder will be triggered respectively 7 days, 3 days and 1 day before expiry of the coupon(s) in the account, with the reminder methods to be Email and SMS.
+

@@ -4,4 +4,4 @@ Scenario: Use a private network to deploy simple WEB services, such as websites 
 
 Recommended Configuration: VPC, subnet, network ACL, security group, load balancer, VM, EIP
 
-![](/image/Networking/Virtual-Private-Cloud/Business-Security-Access-Control.jpg)
+![](/image/Networking/Virtual-Private-Cloud/Business-Security-Access-Control.png)

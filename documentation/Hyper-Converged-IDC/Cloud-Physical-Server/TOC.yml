@@ -113,6 +113,12 @@
             href: Operation-Guide/Monitoring/Hardware-Monitoring.md
           - name: Performance Monitoring
             href: Operation-Guide/Monitoring/Monitoring-Overview.md
+      - name: SSH Key Pair
+        items:
+          - name: Overview
+            href: Operation-Guide/SSH-Key-Pair/Description-SSH-Key-Pair.md
+          - name: Operation Steps
+            href: Operation-Guide/SSH-Key-Pair/Step-SSH-Key-Pair.md
   - name: Best Practices
     items:
     - name: Network Security Scheme for NAT Gateway

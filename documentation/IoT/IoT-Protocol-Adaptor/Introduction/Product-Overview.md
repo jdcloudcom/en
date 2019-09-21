@@ -1,7 +1,7 @@
 # Product Overview
 
 
-The IoT Hub Protocol Adaptor Service converts the adaptor modules through the built-in non-standard device communication protocol to help users with JD Cloud Onboarding of the existing devices in a quick and low-cost manner. The service builds in JTT-808 (related to vehicle monitoring system of the Ministry of Communications) protocol support.
+The IoT Protocol Adaptor Service converts the adaptor modules through the built-in non-standard device communication protocol to help users with JD Cloud Onboarding of the existing devices in a quick and low-cost manner. The service builds in JTT-808 (related to vehicle monitoring system of the Ministry of Communications) protocol support.
 
 The IoT Hub Protocol Adaptor Service has features as below:
 

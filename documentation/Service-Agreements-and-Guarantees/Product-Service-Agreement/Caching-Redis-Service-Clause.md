@@ -170,9 +170,9 @@ You understand and acknowledge that the above list does not cover all types of l
 
 8.2.2 The speed of your website access is reduced due to path blocking on the Internet.
 
-8.4 In no event shall JD Cloud be liable for any indirect, consequential, disciplinary, incidental or special damages, including loss of profits suffered by you using JD Cloud services (even if you have been advised of the possibility of such losses).
+8.3 In no event shall JD Cloud be liable for any indirect, consequential, disciplinary, incidental or special damages, including loss of profits suffered by you using JD Cloud services (even if you have been advised of the possibility of such losses).
 
-8.5 In any case, the total amount of JD Cloud's liability for breach of the Service Terms shall not exceed the total service fee of the defaulted service.
+8.4 In any case, the total amount of JD Cloud's liability for breach of the Service Terms shall not exceed the total service fee of the defaulted service.
 
 ## 9. Force Majeure
 

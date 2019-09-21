@@ -27,14 +27,12 @@ items:
   items:
     - name: Getting Started Overview
       href: Getting-Started/getting-started-overview.md
-    - name: View Resource Monitoring Chart
-      href: Getting-Started/view-cloud-resource-monitoring-chart.md
-    - name: Alarm Management
+    - name: Resource Monitoring
       items:
-        - name: Alarm Template
-          href: Getting-Started/Alarm-Management/Rule-Template.md
-        - name: Set Alarm Rules
-          href: Getting-Started/Alarm-Management/set-alarm-rules.md
+        - name: View Monitoring Graph
+          href: Getting-Started/View-monitoring-cahrt.md
+        - name: Add Alarm Rule
+          href: Getting-Started/CreateRule.md 
     - name: Use Dashboard
       href: Getting-Started/use-dashboard.md
     - name: Use Customized Metric Monitoring
@@ -55,13 +53,19 @@ items:
           href: Operation-Guide/dashboard/monitoring-chart-management.md
     - name: Cloud Resource Monitoring
       items:
-        - name: Resource Monitoring
+        - name: Resource Monitoring Overview
           href: Operation-Guide/resource-monitoring/resource-monitoring-overview.md
-        - name: View Resource Monitoring Chart
+        - name: View Monitoring Graph
           href: Operation-Guide/resource-monitoring/view-resource-monitoring-chart-details.md
-        - name: Set Monitoring Alarm to the Resources
+        - name: View alarm rules
+          href: Operation-Guide/resource-monitoring/view-resource-rules.md     
+        - name: Add Alarm Rule
           href: Operation-Guide/resource-monitoring/set-alarm-rules-details.md
-    - name: Site Monitoring
+        - name: Manage Alarm Rule
+          href: Operation-Guide/resource-monitoring/resource-rules.md  
+        - name: Alarm Template
+          href: Operation-Guide/resource-monitoring/alarm-template.md
+    - name: Custom Metric Monitoring 
       items:
         - name: Customized Metric Monitoring Overview
           href: Operation-Guide/custom-monitoring/custom-monitoring-overview.md

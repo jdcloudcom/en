@@ -103,6 +103,12 @@
             href: Operation-Guide/Adjust-Public-Network-Bandwidth/Description-Adjust-Public-Network-Bandwidth.md
           - name: Operation Steps
             href: Operation-Guide/Adjust-Public-Network-Bandwidth/Steps-Adjust-Public-Network-Bandwidth.md
+      - name: SSH Key Pair
+        items:
+          - name: Overview
+            href: Operation-Guide/SSH-Key-Pair/Description-SSH-Key-Pair.md
+          - name: Operation Steps
+            href: Operation-Guide/SSH-Key-Pair/Step-SSH-Key-Pair.md
   - name: Best Practices
     items:
     - name: Network Security Scheme for NAT Gateway

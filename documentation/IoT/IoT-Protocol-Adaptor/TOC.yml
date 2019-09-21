@@ -21,37 +21,29 @@
     items:
       - name: Billing Overview
         href: Pricing/Billing-Overview.md
+      - name: Billing Rules
+        href: Pricing/Billing-Rules.md
+      - name: Price Overview
+        href: Pricing/Price-Overview.md   
+      - name: Purchase Process
+        href: Pricing/Purchase-Process.md
   - name: Getting Started
     items:
       - name: Create instance
         href: Getting-Started/Create-Instance.md
       - name: Instance List
         href: Getting-Started/List-Instance.md
-      - name: Delete Instance
-        href: Getting-Started/Delete-Instance.md
   - name: Operation Guide
     items:
       - name: Instance Configuration
         items:
           - name: Instance Configuration
-            href: Operation-Guide/Instance-Configuration/Instance-Configuration.md            
+            href: Operation-Guide/Instance-Configuration/Instance-Configuration.md
+          - name: Add sub-device
+            href: Operation-Guide/Instance-Configuration/Add-SubDevices.md 
   - name: FAQ
     href: FAQ/FAQ.md
   - name: User Agreements
-    status: 0
-    items:
-    - name: Service Terms
-      href: User-Agreements/Product-Terms-of-Service.md               
-    - name: SLA
-      href: User-Agreements/SLA.md           
-      status: 0       
-  - name: Related Resources
     items:
     - name: Document History Records
       href: Related-Resources/Document-History.md   
-    - name: ICP Filing
-      href: Related-Resources/Filing.md           
-      status: 0        
-    - name: Glossary
-      href: Related-Resources/Glossary.md           
-      status: 0

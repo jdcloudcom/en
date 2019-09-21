@@ -4,4 +4,4 @@ Scenario: Users intend to deploy some resources such as applications and databas
 
 Recommended Configuration: VPC, Dedicated Line, VPN, VM, RDS
 
-![](/image/Networking/Virtual-Private-Cloud/Hybrid-Cloud-Data-InterConnect-With-High-Speed.jpg)
+![](/image/Networking/Virtual-Private-Cloud/Hybrid-Cloud-Data-InterConnect-With-High-Speed.png)
