@@ -16,7 +16,7 @@ The IoT Hub Protocol Adaptor Service has features as below:
 - Easy Operation
 	- [Create instance](../Getting-Started/Create-Instance.md)
 	- [Instance List](../Getting-Started/List-Instance.md)
-	- [Delete Instance](../Getting-Started/Delete-Instance.md)
 - Instance Configuration
 	- [Set Service](../Operation-Guide/Instance-Configuration/Instance-Configuration.md)
+ 
 

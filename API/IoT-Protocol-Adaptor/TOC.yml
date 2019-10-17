@@ -1,0 +1,24 @@
+name: IoT Hub Protocol Adaptor
+href: 
+items:
+  - name: Interface Overview
+    href: overview.md
+  - name: Update History
+    href: ChangeLog.md
+  - name: Interface Information
+    items:
+      - name: Search Instance API
+        items:
+          - name: describeInstance
+            href: iotcloudgatewayInstances/describeInstance.md
+          - name: describeInstances
+            href: iotcloudgatewayInstances/describeInstances.md
+          - name: queryInstanceExposeDomain
+            href: iotcloudgatewayInstances/queryInstanceExposeDomain.md
+          - name: queryInstanceStatus
+            href: iotcloudgatewayInstances/queryInstanceStatus.md
+    
+      - name: Device API
+        items:
+          - name: deviceControl
+            href: iotcloudgatewayInstances/deviceControl.md

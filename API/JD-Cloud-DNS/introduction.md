@@ -17,9 +17,9 @@ In the interface description part of this document, in case of any conflict betw
 In order to use JD Cloud DNS, you need to do two basic operations:
 
 1. Add domain resolution
-   You can use the [Add Domain](https://docs.jdcloud.com/cn/jd-cloud-dns/api/adddomain) interface to add your domain in the JD Cloud DNS Platform.
+   You can use the [Add Domain](./Domain-Name-v2/createDomain.md) API to add your domain in the JD Cloud DNS Platform.
 
 2. Add resolution record
-   After adding the domain, you need to use [Add Resolution Record](https://docs.jdcloud.com/cn/jd-cloud-dns/api/addrr) interface to add a resolution record for your domain; you can specify the host record, record type, TTL, ISP Line type and the record value.
+   After adding the domain, you need to use [Add Resolution Record](./Resolution-Record-v2/createResourceRecord.md) API to add a resolution record to your domain and specify the host record, record type, TTL, ISP Line type and the record value.
 
-What’s more, JD Cloud DNS provides more interfaces to facilitate your use. Please view [Interface Overview](https://docs.jdcloud.com/cn/jd-cloud-dns/api/overview).
+JD Cloud DNS also provides more APIs to facilitate your use. Please view [API Overview](./overview.md).

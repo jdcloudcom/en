@@ -152,7 +152,8 @@ The following environment variables can be supported in the hooks scripts:
 | JDCLOUD_CODEDEPLOY_GROUP_ID | Deployment group ID, which can be viewed on the application details page |
 | JDCLOUD_CODEDEPLOY_GROUP_NAME | Deployment group name, which can be viewed on the application details page |
 | JDCLOUD_CODEDEPLOY_DEPLOY_ID | Deployment task ID, which can be viewed on the deployment history page |
-| JDCLOUD_CODEDEPLOY_LIFECYCLE_EVENT | Workflow Keyword |
+| JDCLOUD_CODEDEPLOY_LIFECYCLE_EVENT | Events of current life cycle, such as beforeInstall |
+| JDCLOUD_CODEDEPLOY_OPERATION | Means UPDATE/ROLLBACK of task type in execution |
 
 
 **Examples**

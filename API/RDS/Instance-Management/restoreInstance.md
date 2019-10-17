@@ -2,7 +2,7 @@
 
 
 ## Description
-Restore and replace the current instance by using the full backup of the instance<br>- only support MySQL
+Use the full backup of instance to replace and recover the current instance
 
 ## Request method
 POST

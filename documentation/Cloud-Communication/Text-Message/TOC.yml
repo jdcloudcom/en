@@ -1,0 +1,39 @@
+name: Text Message
+href:
+items:
+- name: Introduction
+  items:
+    - name: Product Overview
+      href: Introduction/product-overview.md
+    - name: Glossary
+      href: Introduction/Glossary.md
+    - name: Audit Standard
+      href: Introduction/standard.md
+- name: Pricing
+  items:
+    - name: Price Overview
+      href: Pricing/Billing-Overview.md
+- name: Getting Started
+  items:
+    - name: Application Management
+      href: Getting-Started/Application.md
+- name: Operation Guide
+  items:
+    - name: Business Rules
+      href: Operation-Guide/rule.md
+    - name: SMS Signature
+      href: Operation-Guide/signature.md
+    - name: SMS Template
+      href: Operation-Guide/content.md    
+    - name: Statistics & Analysis
+      href: Operation-Guide/stat.md
+- name: SDK Reference
+  items:
+    - name: Environment Preparation
+      href: SDK-Rerference/Environment-Preparation.md      
+- name: Relevant Agreement
+  items:
+    - name: Service Agreement
+      href: Service-Agreements-and-Guarantees/Text-Message-Term.md
+    - name: Service Level Agreement (SLA)
+      href: Service-Agreements-and-Guarantees/Text-Message-SLA.md

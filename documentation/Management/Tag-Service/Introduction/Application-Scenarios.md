@@ -7,3 +7,6 @@ After setting different "tag keys" and "tag values" for resources according to t
 
 ### Authorize resources based on tags
 Through Identity and Access Management, set policies based on tags, to achieve the permission control accurate to resource granularity. For the specific operation guide, see Identity and Access Management.
+
+### Classify bills by tags
+By setting cost tags, bills can be shared and managed at different dimensions by tags.

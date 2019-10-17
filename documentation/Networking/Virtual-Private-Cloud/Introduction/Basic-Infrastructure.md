@@ -35,3 +35,4 @@ VPC IP: VPC IP is a cross-AZ product. The AZ attribute of VPC IP is determined b
 Public IP: EIP is a cross-AZ product. When users apply for EIP, they do not have to select the attribute of available zones. EIP can be used by default in all AZ zones.
 
 Load Balancer: Load balancer is a multi-AZ product. Users have to select AZ attribute when creating load balancer, and can assign available zones for load balancer as requirements.
+

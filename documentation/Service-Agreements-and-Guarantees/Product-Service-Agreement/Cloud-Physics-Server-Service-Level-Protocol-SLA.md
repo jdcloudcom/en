@@ -96,3 +96,7 @@ The user can apply for compensation for an instance that did not reach availabil
 #### **3. Others**
 
 JD Cloud has the right to make adjustments to some service indicators of the SLA according to the changes, and promptly publish announcements at [www.jdcloud.com](https://www.jdcloud.com/index) or send emails or written notices to notify users of the revised content.
+
+
+
+

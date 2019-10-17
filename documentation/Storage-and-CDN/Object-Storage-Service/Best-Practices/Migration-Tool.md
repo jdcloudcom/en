@@ -1,4 +1,4 @@
-# Data Migration Tool Osstransfer -- (Beta)
+# Data Migration Tool Osstransfer
 
 ## Function Description
 
@@ -7,7 +7,7 @@ Osstransfer tool can migrate data stored locally and data stored by other object
 
 -   Support rich data sources:
     * Local Data: Migrate data stored locally to OSS;
-    * Other Object Storage Service: Currently support AWS S3, migrate Alibaba Cloud OSS, Tencent Cloud OSS, Baidu OSS, Huawei OBS Storage to JD Cloud OSS, which will be expanded continuously;
+    * Other Object Storage Service: Currently support AWS S3, Alibaba Cloud OSS, Tencent Cloud OSS, Baidu BOS, Huawei OBS, Qiniu Cloud Storage and others to be migrated to JD Cloud OSS, which will be expanded continuously;
     * URL List: Download according to URL download list according to designated URL download list, migrate it to JD Cloud OSS;
     * Mutual Bucket Replication: Bucket data of JD Cloud OSS are replicated mutually to support data replication across regions, across accounts and in the same region.
 -   Support breakpoint upload;
@@ -30,7 +30,7 @@ Osstransfer tool can migrate data stored locally and data stored by other object
 
 ### 1. Get tool
 
-Download link: [OssMigration](https://downloads.oss.cn-north-1.jcloudcs.com/transfer-tools-java-1.0.0.jar)
+Download link: [transfer-tools](https://downloads.oss.cn-north-1.jcloudcs.com/transfer-tools-java-1.0.0.jar)
 
 ### 2. Get configuration file
 

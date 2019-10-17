@@ -16,11 +16,7 @@ Specific information is as below:
 **Initiate Deployment**
 
 When the deployment task is initializing, corresponding environment variable will be obtained according to the selected "Registration Center of JD Distributed Service Framework" and written to the global environment variables of deployment targets (Virtual Machines).
-
-
-
-
-
-
-
-
+Environment variables are as follows:
+- JDSF_CONSUL_HOST
+- JDSF_CONSUL_PORT
+- JDSF_REGISTRY_ADDRESS

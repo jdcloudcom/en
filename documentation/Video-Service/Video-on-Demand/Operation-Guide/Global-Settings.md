@@ -19,7 +19,7 @@ making volume transition between programs in different scenarios smoother and br
 
 ### 1.1 Template Setting ###
 
-Log in JD Cloud Console, click **Video on Demand** product among "Video Service" product types on the left view, select **Global Configuration** menu, click **Transcode Setting** sub-menu, and enter the transcode template management page.
+Log in JD Cloud Console, click **Video on Demand** product among "Video Service" product types on the left, select **Global Configuration** menu, click **Transcode Setting** sub-menu, and enter the transcode template management page.
 
 ![转码设置-总览.png](../../../../image/Video-on-Demand/转码设置-总览.png)
 
@@ -268,5 +268,22 @@ VOD supports message subscription of task completion. If customers need to obtai
 
 ![回调设置.png](../../../../image/Video-on-Demand/回调设置.png)
 
+## 6. Quality Detection Settings
+
+**Quality Detection: ** Quality Detection is based on the self-developed video picture review technology of JD Cloud, which can detect various independent indicators of video picture quality, precisely identify static frames, color shifts, black burst and other problems in video files, discover picture quality in advance, reduce manual check cost and improve quality and efficiency of the entire business and video production.
+
+Log in to JD Cloud Console, click **Video on Demand** product among "Video Service" product types on the left, select **Global Configuration** menu, click **Quality Detection** sub-menu, and enter the quality detection template management page.
+
+![全局配置质量检测.png](../../../../image/Video-on-Demand/全局配置质量检测.png)
+
+Click the **Create Quality Detection** button on the quality detection page to create a new quality detection template, and configure the template name and parameter detected. Currently, six parameters are supported, and more detectable items will be continuously added.
+
+![新建质量检测模板.png](../../../../image/Video-on-Demand/新建质量检测模板.png)
+
+![质量检测模板参数配置.png](../../../../image/Video-on-Demand/质量检测模板参数配置.png)
+
+The quality detection templates created will be displayed in the template list, and may be edited and deleted.
+
+![质量检测-模板列表.png](../../../../image/Video-on-Demand/质量检测-模板列表.png)
 
 

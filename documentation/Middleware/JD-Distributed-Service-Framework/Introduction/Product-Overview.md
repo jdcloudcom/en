@@ -10,32 +10,20 @@ The product is in Beta period and free in the period. The Beta version is the fo
 
 ## Common Operation
 
-
+- Namespace
+	- [Namespace](../Operation-Guide/Namespace.md)	
+- Resource Management
+	- [Resource Pool Management](../Operation-Guide/Resource-Manage/Resource-List.md)
+	- [Registration Center](../Operation-Guide/Resource-Manage/Cluster.md)
+	- [JD Distributed Service Gateway](../Operation-Guide/Resource-Manage/JDSFGW.md)
+- Application Management
+	- [Application List](../Operation-Guide/APP-Manage/APPList.md)	
+	- [Configuration Management](../Operation-Guide/APP-Manage/Config-Manage.md)
+	- [Service Administration](../Operation-Guide/APP-Manage/Service-Assignuse.md)
+	- [Deployment Group](../Operation-Guide/APP-Manage/Deploy-Group.md)
+- Operation and Maintenance Management
+	- [Calling Chain Analysis Service](../Operation-Guide/DevOps/Analysis-Service.md)
 	
-- Registration Center Management
-	- [Create Registration Center](../Operation-Guide/Cluster/Create-Cluster.md)
-	- [Delete Registration Center](../Operation-Guide/Cluster/Delete-Cluster.md)
-	- [Scaling](../Operation-Guide/Cluster/Expansion-Cluster.md)
-- Service Management
-	- [Service management list](../Operation-Guide/Service-List/Service-List.md)	
-	- [Instance Management List](../Operation-Guide/Service-List/Instance-List.md)	
-- Calling Chain Analysis Service
-	- [Create Analysis Service](../Operation-Guide/Analysis-Service/Create-Analysis-Service.md)
-	- [Delete Analysis Service](../Operation-Guide/Analysis-Service/del-Analysis-Service.md)
-	- [Modify Service](../Operation-Guide/Analysis-Service/Update-Analysis-Service.md)
-- JD Distributed Service Gateway
-	- [JD Distributed Service Gateway Introduction](../Operation-Guide/JDSFGW/overview.md)
-	- [Start API in VPC by API Gateway](../Getting-Started/GW_VPC.md)
-	- [Create Service](../Operation-Guide/JDSFGW/CreateGW.md)
-
-
-
-
-
-## Billing
-JD Distributed Service Framework is charged for Registration Center and Calling Chain Analysis Service, and the price is subject to the selected service instance type. Configuration Management Service relies on the Registration Center, used for free. At present, the product is in the Beta stage, and all services are completely free of charge.
-
-For details, refer to: [Billing Instructions](../Pricing/Billing-Overview.md)
 
 
 ## List of Supported Regions and Availability Zones

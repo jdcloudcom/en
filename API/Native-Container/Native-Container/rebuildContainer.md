@@ -28,13 +28,13 @@ https://nativecontainer.jdcloud-api.com/v1/regions/{regionId}/containers/{contai
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**image**|String|False| |Image name </br> 1. Docker Hub public image is specified via names as nginx, mysql/mysql-server </br> </br> repository contains at most 256 characters, tag contains at most 128 characters, and registry contains as most 255 characters </br> the image download overtime is 10min|
-|**secret**|String|False| |Name cited by secrete; secret is not required when using images of Docker Hub and JD Cloud CR|
-|**command**|String[]|False| |The container will carry out the command. It is ENTRYPOINT of docker image by default if none is specified|
-|**args**|String[]|False| |The container will carry out the parameter of the command. It is CMD of docker image by default if none is specified|
+|**image**|String|True| |Image name </br> 1. Docker Hub public image is specified via names as nginx, mysql/mysql-server </br> </br> The length of repository contains at most 256 characters, tag contains at most 128 characters, and registry contains at most 255 characters </br> the image download time-out period is 10min|
+|**secret**|String|False| |Secrets; secret is not required when using images of Docker Hub and JD Cloud CR|
+|**command**|String[]|False| |Command executed in container start, if it is not specified to be ENTRYPOINT of image by default, the total length range of array characters: [0-256]|
+|**args**|String[]|False| |Parameter of command executed in container start, if it is not specified to be CMD of image by default, the total length range of array characters: [0-2048]|
 |**tty**|Boolean|False| |Whether a container is assigned with tty. It is not assigned by default|
-|**workingDir**|String|False| |Container’s working catalog. If not specified, it is root catalog (/) by default; and the working catalog must be the absolute path|
-|**envs**|EnvVar[]|False| |Environment variables executed by containers; if the environmental variable Key is the same in the image, values in the image will be replaced; </br> 10 pairs at most|
+|**workingDir**|String|False| |Container’s Working Catalog. If not specified, it is root catalog (/) by default; and the working catalog must be the absolute path. Character length range: [0-1024]|
+|**envs**|EnvVar[]|False| |Environment variables executed by containers; if the environmental variable Key is the same in the image, values in the image will be replaced; </br> 100 pairs at most|
 
 ### EnvVar
 |Name|Type|Required or Not|Default Value|Description|

@@ -13,9 +13,6 @@ items:
       herf: Introduction/Benefits.md
     - name: Features
       herf: Introduction/Features.md
-    - name: Product Specifications
-      herf: Introduction/Specifications.md
-      status: 0
     - name: Restrictions
       herf: Introduction/Restrictions.md
     - name: Application Scenarios 
@@ -26,15 +23,6 @@ items:
       herf: Pricing/Billing-Overview.md
     - name: Purchase Process
       herf: Pricing/Purchase-Process.md 
-    - name: Billing Rules
-      herf: Pricing/Billing-Rules.md
-      status: 0 
-    - name: Price Overview
-      herf: Pricing/Price-Overview.md
-      status: 0 
-    - name: Renew Process
-      herf: Pricing/Renew-Process.md
-      status: 0 
 - name: Getting Started
   items:
     - name: Service Usage Overview
@@ -43,57 +31,34 @@ items:
       herf: Getting-Started/Basic-Example.md
     - name: Use APIs in Open VPC of API Gateway
       herf: Getting-Started/GW_VPC.md
+    - name: Description for JD Distributed Service Framework Plug-in
+      herf: Getting-Started/JDSF-Plugin.md
 - name: Operation Guide
   items:
-    - name: Registration Center
+    - name: Namespace
+      herf: Operation-Guide/Namespace.md
+    - name: Resource Management
       items:
-        - name: Create Registration Center
-          herf: Operation-Guide/Cluster/Create-Cluster.md
-        - name: View Information of Registration Center
-          herf: Operation-Guide/Cluster/Cluster-Detail.md
-        - name: Expansion
-          herf: Operation-Guide/Cluster/Expansion-Cluster.md
-        - name: Delete Registration Center
-          herf: Operation-Guide/Cluster/Delete-Cluster.md
-    - name: Service Management
+        - name: Resource Pool Management
+          herf: Operation-Guide/Resource-Manage/Resource-List.md
+        - name: Registration Center
+          herf: Operation-Guide/Resource-Manage/Cluster.md
+        - name: JD Distributed Service Gateway
+          herf: Operation-Guide/Resource-Manage/JDSFGW.md
+    - name: Application Management
       items:
-        - name: Service Management List
-          herf: Operation-Guide/Service-List/Service-List.md
-        - name: Instance List
-          herf: Operation-Guide/Service-List/Instance-List.md
+        - name: Application List
+          herf: Operation-Guide/APP-Manage/APPList.md
+        - name: Configuration Management
+          herf: Operation-Guide/APP-Manage/Config-Manage.md
         - name: Service Authentication
-          herf: Operation-Guide/Service-List/Service-Assignuse.md 
-          status: 0
-    - name: Configuration Management
+          herf: Operation-Guide/APP-Manage/Service-Assignuse.md 
+        - name: Deployment Group
+          herf: Operation-Guide/APP-Manage/Deploy-Group.md
+    - name: Operation and Maintenance Management
       items:
-        - name: Configure Management List
-          herf: Operation-Guide/Config-List/Config-List.md
-        - name: Create Configuration Items
-          herf: Operation-Guide/Config-List/Create-Config.md
-        - name: Generate New Version
-          herf: Operation-Guide/Config-List/Config-V-Add.md
-        - name: Delete Version
-          herf: Operation-Guide/Config-List/Del-Config.md
-    - name: Call Chain Analysis
-      items:
-        - name: Create Analysis Service
-          herf: Operation-Guide/Analysis-Service/Create-Analysis-Service.md
-        - name: View details of calling chain service
-          herf: Operation-Guide/Analysis-Service/Analysis-Detail.md
-        - name: Dependent Map
-          herf: Operation-Guide/Analysis-Service/Analysis-Service-Dependline.md
-        - name: Modify service specification and information
-          herf: Operation-Guide/Analysis-Service/Update-Analysis-Service.md
-        - name: Delete Service
-          herf: Operation-Guide/Analysis-Service/del-Analysis-Service.md
-    - name: JD Distributed Service Gateway
-      items:
-        - name: Overview
-          herf: Operation-Guide/JDSFGW/overview.md
-        - name: Create service
-          herf: Operation-Guide/JDSFGW/CreateGW.md
-        - name: View service
-          herf: Operation-Guide/JDSFGW/ViewGW.md   
+        - name: Calling Chain Analysis Service
+          herf: Operation-Guide/DevOps/Analysis-Service.md       
 - name: FAQ
   herf: FAQ/faq.md
 

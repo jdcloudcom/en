@@ -5,56 +5,62 @@
 Create configuration containers for one or more sets
 - Real-name verification is required for creating containers
 - image
-    - Determine the container image via the image name
-    - Images named as nginx:tag or mysql/mysql-server:tag are the public images of docker hub
-    - Images named as container-registry/image:tag are the images of private registry
-    - The private registry must be compatible to the docker registry verification mechanism and save confidential information via secret.
-- Hostname Specification
-    - Two modes are supported: Write through a tab mode or write through a complete machine name mode.
-    - Tag Specification
-        - 0-9, a-z (both upper case and lower case are acceptable) and - (minus), others are deemed as invalid character string
-        - Neither start with a minus nor end with a minus.
-        - At least 1 character and at most 63 characters
-    - A complete machine name consists of a series of tabs and dots
-        - Tags are connected with "." (dots)
-        - Neither start with a "." (dot) or end with a "." (dot).
-        - Complete machine name (including tags and dots ".") with at most 63 ASCII characters
+  - Determine the container image via the image name
+  - nginx: Images named as tag or mysql/mysql-server:tag are the public images of docker hub
+  - container-registry/imageImages named as container-registry/image :tag are the images of private registry
+  - The private registry must be compatible to the docker registry verification mechanism and save confidential information via secret
+- hostname Specification
+  - Two modes are supported: Write through a tab mode or write through a complete machine name mode.
+  - Tag Specification
+    - 0-9, a-z (both upper case and lower case are acceptable) and - (minus), others are deemed as invalid character string
+    - Neither start with a minus nor end with a minus.
+    - At least 1 character and at most 63 characters
+  - A complete machine name consists of a series of tabs and dots
+    - Tags are connected with "." (dots)
+    - Neither start with a "." (dot) or end with a "." (dot).
+    - Complete machine name (including tags and dots ".") with at most 63 ASCII characters
+  - Regular Expression
+    - `^([a-zA-Z0-9]|[a-zA-Z0-9][a-zA-Z0-9-]{0,61}[a-zA-Z0-9])(\.([a-zA-Z0-9]|[a-zA-Z0-9][a-zA-Z0-9-]{0,61}[a-zA-Z0-9]))*$`
 - Network Instance Type
-    - Specify primary network interface configuration information
-        - Be sure to specify one subnet
-        - A security group must be specified when creating a virtual machine and at most 5 security groups can be specified.
-        - The elastic IP can be restricted by specifying elasticIp specification, with the bandwidth value range of [1-200]Mbps and the stepping of 1Mbps.
-        - The primaryIpAddress of network interface can be specified; such IP shall be within the subnet IP range and shall not be occupied; and maxCount can only be 1 when specifying subnet IP.
-        - The securityGroup and the Subnet shall be in the same Virtual Private Cloud (VPC).
-        - Set deviceIndex of primary network interface to be 1
+  - Specify primary network interface configuration information
+    - Must specify vpcId, subnetId and securityGroupIds
+    - The elastic IP can be restricted by specifying elasticIp specification, with the bandwidth value range of [1-200]Mbps and the stepping of 1Mbps
+    - The primary IP (primaryIpAddress) and secondary IP (secondaryIpAddresses) of network interface can be specified; at such time, maxCount can only be 1
+    - The excepted secondary IP count (secondaryIpAddressCount) can be specified to make the system automatically create the Private IP
+    - Automatic deletion (autoDelete) attribute of network interface can be specified to indicate that if the network interface is deleted automatically when deleting an instance
+    - The securityGroup and the Subnet shall be in the same virtual private cloud (VPC)
+    - Every container can specify at most 5 security groups
+    - Set deviceIndex of primary network interface to be 0
 - Storage
-    - The volume can be divided into a root volume and a data volume; the root volume is mounted with the catalog /; and the data volume is mounted with any specified catalog.
-    - The bottom storage medium of the volume only supports the cloud type, i.e. the Cloud Disk Service.
-    - System Disk
-        - The available Cloud Disk Service types include ssd and premium-hdd.
-        - Disk Size
-            - SSD: Range [10, 100]GB, Step Size: 10G
-            - Premium-hdd: Range [20, 1000]GB, Step Size: 10G
-        - Auto-delete
-            - The cloud disk will be automatically deleted with the container by default. For the data disk or the shared type data disk with the monthly package, the parameter is invalid.
-        - The existing Cloud Disk Service can be selected.
-    - Data Disk
-        - The available Cloud Disk Service types include ssd and premium-hdd.
-        - Disk Size
-            - ssd: Range[20, 1000] GB, Step Size: 10G
-            - premium-hdd: Range[20, 3000] GB, Step Size: 10G
-        - Auto-delete
-            - Automatic Deletion by Default
-        - The existing Cloud Disk Service can be selected.
-        - A single container can be mounted with 7 data volumes at most.
-- Billing
-  - Billing mode of EIP. You may choose pay by consumption separately, or the billing modes will be subject to the VM.
-  - The billing mode of the cloud disks is subject to the VM
+  - The volume can be divided into a root volume and a data volume; the root volume is mounted with the catalog /; and the data volume is mounted with any specified catalog
+  - The bottom storage medium of the volume only supports the cloud type, i.e. the cloud disk service
+  - When the cloud disk type is ssd.io1, users can specify iops which is invalid for other types of cloud disks and the already existing cloud disks. The specific rules are as follows
+    - Step Length 10
+    - Range [200, min(32000, size*50)]
+    - Default Value size*30
+  - root volume
+  - root volume can only be the cloud category
+    - The available Cloud Disk Service types include hdd.std1, ssd.gp1 and ssd.io1
+    - Disk Size
+      - All types: Range [10,100]GB, step length is 10G
+    - Auto-delete
+      - Automatic Deletion by Default
+    - The existing Cloud Disk Service can be selected.
+  - data volume
+    - cloud category can be selected only for data volume currently
+    - The available Cloud Disk Service types include hdd.std1, ssd.gp1 and ssd.io1
+    - Disk Size
+      - All types: Range [20,4000]GB, step length is 10G
+    - Auto-delete
+      - Automatic Deletion by Default
+    - The existing Cloud Disk Service can be selected.
+    - Disk can be created from snapshot
+    - A single container can attach 7 data volumes
 - Container Log
-    - A 10MB storage space will be distributed to the local by default and is automatically rotated.
+  - default: A 10MB bucket will be distributed to the local by default and is automatically rotated
 - Others
-    - After being created, the container is in running status.
-    - maxCount refers to the maximum effort and the maxCount is not guaranteed.
+  - After being created, the container is in running status.
+  - maxCount refers to the maximum effort and the maxCount is not guaranteed
 
 
 ## Request method
@@ -70,8 +76,9 @@ https://nativecontainer.jdcloud-api.com/v1/regions/{regionId}/containers
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**containerSpec**|ContainerSpec|False| |Create container specification|
-|**maxCount**|Integer|False| |Purchase number of instances; value range: [1,100]|
+|**containerSpec**|ContainerSpec|True| |Create container specification|
+|**maxCount**|Integer|True| |Purchase number of instances; value range: [1,100]|
+|**clientToken**|String|False| |Guarantee request idempotence|
 
 ### ContainerSpec
 |Name|Type|Required or not|Default value|Description|
@@ -79,13 +86,13 @@ https://nativecontainer.jdcloud-api.com/v1/regions/{regionId}/containers
 |**instanceType**|String|True| |Instance Type Family; Refer to [Document](https://www.jdcloud.com/help/detail/1992/isCatalog/1)|
 |**az**|String|True| |Availability Zone of Container |
 |**name**|String|True| |Container Name|
-|**hostAliases**|HostAlias[]|False| |Domain and IP Mapping Information; </br> at most 10 alias |
+|**hostAliases**|HostAliasSpec[]|False| |Domain and IP mapping information; </br> at most 10 alias|
 |**hostname**|String|False| |For machine name and specification, please refer to the instruction document; default container ID |
 |**command**|String[]|False| |The container will carry out the command. It is ENTRYPOINT of docker image by default if none is specified. |
 |**args**|String[]|False| |The container will carry out the parameter of the command. It is CMD of docker image by default if none is specified. |
-|**envs**|EnvVar[]|False| |Environment variables executed by containers; if the environmental variable Key is the same in the image, values in the image will be replaced; </br> 10 pairs at most |
-|**image**|String|True| |Image name </br> 1. Docker Hub public image is specified via names as nginx, mysql/mysql-server </br> </br> repository contains at most 256 characters, tag contains at most 128 characters, and registry contains as most 255 characters </br> the image download overtime is 10min|
-|**secret**|String|False| |Name cited by secrete; secret is not required when using images of Docker Hub and JD Cloud CR |
+|**envs**|EnvVar[]|False| |Environment variables executed by containers; if the environmental variable Key is the same in the image, values in the image will be replaced; </br> 100 pairs at most|
+|**image**|String|True| |Image Name </br> 1. Docker Hub public image is specified via names such as nginx, mysql/mysql-server </br> </br> The length of repository contains at most 256 characters, tag contains at most 128 characters and registry contains at most 255 characters|
+|**secret**|String|False| |Secrets; secret is not required when using images of Docker Hub and JD Cloud CR|
 |**tty**|Boolean|False| |If a container is assigned with tty. It is not assigned by default|
 |**workingDir**|String|False| |Container’s Working Catalog. If not specified, it is root catalog (/) by default; and the working catalog must be the absolute path. |
 |**rootVolume**|VolumeMountSpec|True| |Root Volume Information |
@@ -105,12 +112,6 @@ https://nativecontainer.jdcloud-api.com/v1/regions/{regionId}/containers
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**logDriver**|String|False| |Name log configuration information; a 10MB storage space will be assigned to the local by default and is automatically rotated.|
-|**options**|LogOption|False| |Configuration Options of Log Driver|
-### LogOption
-|Name|Type|Required or not|Default value|Description|
-|---|---|---|---|---|
-|**key**|String|False| | |
-|**value**|String|False| | |
 ### ContainerNetworkInterfaceAttachmentSpec
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
@@ -121,28 +122,28 @@ https://nativecontainer.jdcloud-api.com/v1/regions/{regionId}/containers
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**subnetId**|String|True| |Subnet ID|
-|**az**|String|True| |Availability Zone, User’S Default Availability Zone|
+|**az**|String|True| |Availability Zone, user’s default availability zone, not support currently|
 |**primaryIpAddress**|String|False| |Primary IP of Network Interface|
 |**secondaryIpAddresses**|String[]|False| |Secondary IP List|
 |**secondaryIpCount**|Integer|False| |Amount of Secondary IP Assigned Automatically|
-|**securityGroups**|String[]|False| |Security Group ID List|
-|**sanityCheck**|Boolean|False| |PortSecurity, with value 0 or 1 and default value 1|
+|**securityGroups**|String[]|False| |Security group ID list to be associated, a maximum of 5 security groups can be done|
+|**sanityCheck**|Boolean|False| |Source and target IP address verification, with value 0 or 1, default value is 1, not support this function currently|
 |**description**|String|False| |Description|
 ### ElasticIpSpec
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**bandwidthMbps**|Integer|False| |Elastic IP Speed Limit Unit: MB|
-|**provider**|String|False| |IP service provider, value: bgp or no_bg|
+|**bandwidthMbps**|Integer|True| |Elastic IP Speed Limit Unit: MB|
+|**provider**|String|False| |IP service provider, values include bgp or no_bgp|
 |**chargeSpec**|ChargeSpec|False| |Billing Configuration|
 ### VolumeMountSpec
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**category**|String|True| |Disk Classification Cloud: According to Cloud Disk Service volume, root volume can only be the cloud type. |
+|**category**|String|True| |Disk classification cloud: Volume based on Cloud Disk Service  Only support cloud type|
 |**autoDelete**|Boolean|False| |Automatic deletion, the volume is automatically deleted at the time the container is deleted; the value is True by default; and only the scenario of Cloud Disk Service is supported.|
 |**mountPath**|String|False| |Catalog mounted into the container; it is not required to specify catalog for the root volume and the mounted catalog is (/); a catalog must be specified for the data volume, which must be the absolute path without any (:). |
 |**readOnly**|Boolean|False| |Read-only, false by default; only valid to data volume; when root volume is false, both write and read are available. |
 |**cloudDiskSpec**|DiskSpec|False| |Cloud Disk Service specification; the Cloud Disk Service automatically created with the container will not divide the disk and will only format the file system. |
-|**cloudDiskId**|String|False| |Cloud Disk Service ID; if the existing cloud disk is used, be sure to specify partion and fsType. |
+|**cloudDiskId**|String|False| |Cloud Disk Service ID, if the existing cloud disk is used, the fsType must be specified at the same time|
 |**fsType**|String|False| |Specify volume file system type and support [xfs, ext4] now; if the file system type is not specified for the newly-created disk, such disk will be formatted to xfs by default. |
 |**formatVolume**|Boolean|False| |A new disk automatically created with the container will be automatically formatted to the specified file system type; the existing disk mounted will not be formatted by default and only will be mounted as per specified fsType; and if you intend to format the mounted disk, be sure to set the field as true. |
 ### DiskSpec
@@ -163,7 +164,7 @@ https://nativecontainer.jdcloud-api.com/v1/regions/{regionId}/containers
 |---|---|---|---|---|
 |**name**|String|True| |Environment Variable Name|
 |**value**|String|False| |Value of Environment Variable|
-### HostAlias
+### HostAliasSpec
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**hostnames**|String[]|True| |Domain List|

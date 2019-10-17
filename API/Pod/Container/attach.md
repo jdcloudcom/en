@@ -2,7 +2,7 @@
 
 
 ## Description
-Search a container log
+Connect the container to local standard input and output
 
 
 ## Request Method

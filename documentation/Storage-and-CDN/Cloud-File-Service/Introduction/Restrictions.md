@@ -69,3 +69,5 @@ A single file sized up to 140GB is supported.
   - File types not supported when using CREATE operations: Block storage device (NF4BLK), character device (NF4CHR), attribute directory (NF4ATTRDIR), and naming attribute (NF4NAMEDATTR).
 
   - Attributes not supported: FATTR4_ARCHIVE, FATTR4_FILES_AVAIL, FATTR4_FILES_FREE, FATTR4_FS_LOCATIONS, FATTR4_MIMETYPE, FATTR4_QUOTA_AVAIL_HARD, FATTR4_QUOTA_AVAIL_SOFT, FATTR4_QUOTA_USED, FATTR4_TIME_BACKUP and FATTR4_ACL, Attempting to set these properties will result in an NFS4RR_ATTRNOTSUPP error being sent back to the client.
+  
+  

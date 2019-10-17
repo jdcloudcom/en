@@ -1,10 +1,10 @@
 # Resize
 
-The RDS instance is able to dynamically adjust instance CPU, memory and disk size. During the configuration adjustment, RDS instance can be normally used. After completion of adjustment, there is only a flash. Then, please re-connect the application.
+The RDS instance can dynamically adjust instance CPU, memory and disk size. During the configuration adjustment, RDS instance can be normally used. After completion of adjustment, there is only a short flash. Therefore, a database reconnection mechanism shall be provided in the application development process.
 
 - MySQL、Percona、MariaDB
-  - Expansion is supported only, while shrink is not supported.
-  - Expansion of primary instance is supported only, while expansion of read-only instance is not supported
+  - Expansion and shrinkage are supported at the same time
+  - Only primary and backup instances are supported and real-only instances are not supported for now
   
 - SQL Server
   - Expansion and shrinkage are supported at the same time
@@ -16,8 +16,8 @@ The RDS instance is able to dynamically adjust instance CPU, memory and disk siz
   
 ## Operation Steps
 1. There are to entries, including
-    * List page: Select the target instance and click **More** -> **Upgrade Configuration/Resize** in the Actions column
-    * Instance Details: Enter the Instance Details, click **Operation** -> **Upgrade Configuration/Resize** on the upper right corner
+    * List page: Select the target instance and click **More** -> **Change Configuration/Resize** in the Actions column
+    * Instance Details: Enter the Instance Details, click **Operation** -> **Change Configuration/Resize** on the upper right corner
 2. Select the adjusted configuration and click **OK** to make the adjustment
     
 ![调整配置](../../../../../image/RDS/Modify-Instance-Spec.png)

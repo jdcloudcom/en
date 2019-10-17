@@ -2,7 +2,7 @@
 
 
 ## Description
-Delete a single VM that is paid by configuration, or monthly package but expired. You cannot delete a VM without billing information.
+Please delete a single Virtual Machine which is paid by configuration and whose monthly package is expired. Virtual Machines without billing information cannot be deleted, but excluding the loss of billing information caused by such case: After requesting to delete Virtual Machines, the abnormal billing information in the system has been deleted but the resource cleanup failed.<br>
 The VM status must be <b>running</b>, <b>stopped</b>, or <b>error</b>, and the deletion is only availabe when there is no task in progress of the VM. <br>
 The VM that has not expired in monthly package cannot be deleted.
 If the cloud disks attached to the VM is billed by configuration and the AutoDelete attribute is true, then the data disk will be deleted along with the VM.

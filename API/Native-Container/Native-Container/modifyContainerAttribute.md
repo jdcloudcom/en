@@ -3,6 +3,7 @@
 
 ## Description
 Modify the container name and description.
+Either name or description must be specified
 
 
 ## Request method
@@ -20,7 +21,7 @@ https://nativecontainer.jdcloud-api.com/v1/regions/{regionId}/containers/{contai
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**name**|String|False| |Container Name|
-|**description**|String|False| |Container description; the description must be specified|
+|**description**|String|False| |Container description|
 
 
 ## Response parameter

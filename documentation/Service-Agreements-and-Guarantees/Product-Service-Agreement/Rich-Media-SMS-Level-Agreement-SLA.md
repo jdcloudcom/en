@@ -130,4 +130,10 @@
 3. #### Others
 
      JD Cloud has the right to make adjustments to some service indicators of the Service Level Agreement according to changes in good time, and promptly release announcements on JD Cloud’s official website ([www.jdcloud.com](https://www.jdcloud.com)), or send emails or written notices to notify users of the modified contents.
+     
+     
+
+
+     
+     
 

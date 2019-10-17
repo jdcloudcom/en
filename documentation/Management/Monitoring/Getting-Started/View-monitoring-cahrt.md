@@ -16,6 +16,10 @@ The monitoring graph of cloud resource can be viewed via two methods, i.e., view
 
 
 
+
+
+
+
    
    
    

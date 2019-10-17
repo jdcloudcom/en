@@ -48,7 +48,15 @@ Route policy is used to control the route path of the data packet in subnet. It 
 
 > Remarks: In all route tables, there is a default Local route policy, which means that the intranets of the VPC are interconnected. Its route rule is [ Local，Local，Local ], and this route rule cannot be modified or deleted.
 
+### **Route Transmission**
 
+  The route transmission is the route rule obtained other than by means of manual configuration, such as route information that is obtained by synchronizing, automatically updating or forwarding information in Route Table of different gateway entities (such as Route Gateway and Border Gateway where VPC Route Table is located) via internal working mechanism.
+
+  Dynamic transmission with two-way routing can be realized between VPC Route Table and Border Gateway Route Table:
+
+  Border Gateway->Route transmission to VPC direction: When the VPC Route Table configures route transmission, select the source Border Gateway of route transmission and fill in the scope of route transmission. After the transmission relation is created, the system will automatically add the route rules that conform to the transmission range in the valid route table of the Border Gateway to the VPC route table, and the Next Hop points to the relevant Border Gateway;
+  
+  VPC->Route transmission to a Border Gateway: When creating VPC Attachment based on BGW, if "VPC All Segment" or "Specify Subnet Segment is selected in transmission of VPC segment, it is the automatic route transmission method. The Border Gateway route table will automatically add or delete route table items that reach the relevant subnet based on the configured subnet scope, the route prefix is the subnet segment, and the Next Hop is the VPC Attachment connecting the specified VPC and the Border Gateway.
 
 ### **Route Policy Priority**
 

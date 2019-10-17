@@ -1,8 +1,14 @@
 # Update History #
-API Version: 0.5.4
+API Version: 0.6.4
 
 |Release Time|Version Number| Update |Instructions|
 |---|---|---|---|
+|2019-05-27|0.6.4|MySQL APIs Update|* Newly created instance supports designated port number|
+|2019-05-27|0.5.9|Add PG APIs |* Support configuration change and log management|
+|2019-05-27|0.5.8|Add MySQL APIs|* Support onlineDDL and high permission authorization|
+|2019-05-27|0.5.7|Query data type modification to backup lists|* Query backup lists, and modify the field data type of returned backupSizeByte from int to int64|
+|2019-05-13|0.5.6|Add SQL Server APIs|* Support TDE Query, enable and obtain certificate link|
+|2019-05-13|0.5.5|MySQL APIs update|* Add associated cross-origin service information to instance list|
 |2019-05-08|0.5.4|APIs Update|* Some APIs Optimization|
 |2019-04-17|0.5.3|SQL Server APIs Update|* Support cross-origin related APIs<br>* Instance Creation Related APIs support standalone creation|
 |2019-04-16|0.5.2|MySQL APIs Update|* Add Parameter Set Name in Instance Details|

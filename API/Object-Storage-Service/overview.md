@@ -2,8 +2,9 @@
 
 
 ## Introduction
-Object Storage Service APIs, mainly include query Bucket list, create Bucket, delete Bucket and query whether Bucket exists or not. Image Back-to-origin APIs, mainly include adding image back-to-origin configuration, obtaining image back-to-origin configuration and deleting image back-to-origin configuration. For more APIs, see: https://www.jdcloud.com/help/detail/1901/isCatalog/1
+Object Storage Service APIs
 
+Note: OpneAPI APIs do not support IAM sub-users to access. When access via sub-user, please use [Compatible S3 API](https://docs.jdcloud.com/en/object-storage-service/compatibility-api-overview).
 
 ### Version
 v1
@@ -19,3 +20,4 @@ v1
 |**listBuckets**|GET|List all bucket(oss) of current user</br>|
 |**putBackSourceConfiguration**|PUT|Add and Modify Back-to-origin Configuration (ossopenapi)|
 |**putBucket**|PUT|Create a bucket(oss)</br>|
+|**getSingleBucketCapacity**|POST|Obtain designated bucket consumption data by type (ossopenapi)|

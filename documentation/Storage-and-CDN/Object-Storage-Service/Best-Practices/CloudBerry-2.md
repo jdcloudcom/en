@@ -10,7 +10,7 @@ For more details of actions, please download [User Manual for Object Storage Ser
 
 ## Use CloudBerry to Access OSS
 
-CloudBerry download link: http://www.cloudberrylab.com/download-thanks.aspx?prod=cbes3free
+Download [CloudBerry Installation Package](https://downloads.s3.cn-north-1.jdcloud-oss.com/CloudBerryExplorerSetup_v5.9.1.192_netv4.0_c421412.exe)
 
 Before using CloudBerry, you need to register an account in JD Cloud in advance and sign up the JD Cloud OSS.
 

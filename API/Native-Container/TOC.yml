@@ -41,13 +41,17 @@
         items:
           - name: Search Native-Container Quota
             href: Quota/describeQuota.md
-      - name: secret
+      - name: Secrets
         items:
-          - name: Create Secret
+          - name: Create Secrets
             href: Secrets/createSecret.md
-          - name: Delete Secret
+          - name: Delete Secrets
             href: Secrets/deleteSecret.md
-          - name: Search Secret Details
+          - name: Search Secrets Detail
             href: Secrets/describeSecret.md
-          - name: Search Secret List
+          - name: Search Secrets List
             href: Secrets/describeSecrets.md
+      - name: Instance Type
+        items:
+          - name: describeInstanceTypes
+            href: Instance-Type/describeInstanceTypes.md

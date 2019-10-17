@@ -1,21 +1,19 @@
   name: Account Management
   href: 
   items:
+  - name: Introduction to New JD Cloud Account
+    href: What-Is-JDCloud-Account.md
   - name: Login and Registration
     href: Sign-In-And-Sign-Up.md
   - name: View account information
-    href: Check-Your-Account.md
-  - name: Modify the binding mobile of the account
-    href: Change-The-Phone-Number.md
+    href: Check-JDCloud-Account.md
+  - name: Manage Associated Mobile Phone or Email
+    href: Change-JDCloud-Phone-Number.md
+  - name: Modify login password
+    href: Set-User-Password.md    
   - name: AccessKey Management
     href: AccessKey-Management.md
   - name: Account Cancellation
     href: Account-Revocation.md
-  - name: Introduction to New JD Cloud Account
-    href: What-Is-JDCloud-Account.md
-  - name: View account information (applicable to new account)
-    href: Check-JDCloud-Account.md
-  - name: Set login password (applicable to new account)
-    href: Set-User-Password.md
-  - name: Modify security verification phone number (applicable to new account)
-    href: Change-JDCloud-Phone-Number.md
+  - name: JD Account Management
+    href: Manage-JD-Account.md

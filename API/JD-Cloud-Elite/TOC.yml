@@ -31,3 +31,15 @@
         items:
           - name: jdxReportOrder
             href: JDX-Order-APIs/jdxReportOrder.md
+      - name: api Ordering and Payment            
+        items:
+          - name: jdxCreateOrder
+            href: JDX-Order-APIs/jdxCreateOrder.md
+      - name: Commodity Output            
+        items:
+          - name: jdxQueryProduct
+            href: JDX-Product-APIs/jdxQueryProduct.md
+      - name: Delivery Information Search            
+        items:
+          - name: jdxQueryDeliveryInfo
+            href: JDX-Delivery-APIs/jdxQueryDeliveryInfo.md            

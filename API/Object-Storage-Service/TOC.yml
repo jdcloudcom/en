@@ -2,10 +2,10 @@
  href: 
  items:
  - name: API Overview
-   href: Overview.md
+   href: overview.md
  - name: Update History
    href: ChangeLog.md
- - name: Object Storage Service APIs
+ - name: Object Storage Service
    items:
       - name: deleteBucket
         href: OSS-APIs/deleteBucket.md
@@ -21,3 +21,5 @@
         href: OSS-APIs/getBackSourceConfiguration.md
       - name: deleteBackSourceConfiguration
         href: OSS-APIs/deleteBackSourceConfiguration.md
+      - name: getSingleBucketCapacity
+        href: OSS-APIs/getSingleBucketCapacity.md

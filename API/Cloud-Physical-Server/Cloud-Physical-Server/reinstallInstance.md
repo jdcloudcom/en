@@ -4,7 +4,7 @@
 ## Description
 To reinstall the Cloud Physical Server, only the stopped servers can be reinstalled<br/>
 - The API (describeOS) may be called to obtain the operating system list supported by the Cloud Physical Server
-
+<br>For sensitive operation, <a href="https://docs.jdcloud.com/en/security-operation-protection/operation-protection">MFA operation protection can be enabled</a>
 
 ## Request method
 PUT

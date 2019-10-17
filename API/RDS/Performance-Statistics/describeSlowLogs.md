@@ -18,8 +18,8 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/perform
 ## Request Parameter
 |Name|Type|Required or Not|Default|Description|
 |---|---|---|---|---|
-|**startTime**|String|True| |Slow Log Start Time, with the format as: YYYY-MM-DD HH:mm:ss, the duration from the start time to the end time is no more than 7 days, the start time shall not be greater than the end time, and the end time shall not be greater than the current time|
-|**endTime**|String|True| |Slow Log End Time, with the format as: YYYY-MM-DD HH:mm:ss, the duration from the start time to the end time is no more than 7 days, the start time shall not be greater than the end time, and the end time shall not be greater than the current time|
+|**startTime**|String|True| |Slow Log Start Time, with the format as: YYYY-MM-DD HH:mm:ss, the duration from the start time to the current time is no more than 7 days, the start time shall not be greater than the end time, and the end time shall not be greater than the current time|
+|**endTime**|String|True| |Slow Log End Time, with the format as: YYYY-MM-DD HH:mm:ss, the duration from the start time to the current time is no more than 7 days, the start time shall not be greater than the end time, and the end time shall not be greater than the current time|
 |**dbName**|String|False| |Which database is queries for slow log? If it is not filled, it represents that slow logs of all databases are returned|
 |**pageNumber**|Integer|False| |The page displaying the data, which is 1 by default, with value range: [-1,1000). When the pageNumber is -1, all data pages are returned; when it exceeds the total pages, the last page is displayed.|
 |**pageSize**|Integer|False| |The data entries displayed on each page, which is 10 by default, with value range: 10, 20, 30, 50, 100|

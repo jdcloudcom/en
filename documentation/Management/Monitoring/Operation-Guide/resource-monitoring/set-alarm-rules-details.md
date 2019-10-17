@@ -59,4 +59,5 @@ Precondition: VM Instance status needs to be "Running" or "Stopped".
 ![添加报警规则](../../../../../image/Cloud-Monitor/8-qbbj-tj.png)
 4. The configuration of trigger condition and notification policy is the same as the "Configure Alarm Rules in Batch".
 5. After the end of the above configuration, click **Complete Creation** operation. After creation succeeded, you can see the just added rule in the List of Alarm Rules.  
+**Note: ** For alarm rules configured with this method, only corresponding tags shall be added to new resources subsequently, and alarms can be associated without adding rules manually.  
 ![添加报警规则](../../../../../image/Cloud-Monitor/8-qbbj-1.png)  

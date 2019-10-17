@@ -19,7 +19,7 @@ https://pod.jdcloud-api.com/v1/regions/{regionId}/pods/{podId}/containers/{conta
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**execId**|String|False| | |
+|**execId**|String|True| | |
 
 
 ## Return Parameter
@@ -31,7 +31,7 @@ https://pod.jdcloud-api.com/v1/regions/{regionId}/pods/{podId}/containers/{conta
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**execCode**|Integer|Exit Code|
+|**execCode**|Integer|Exit Code Executed by exec Command|
 
 ## Return Code
 |Return Code|Description|

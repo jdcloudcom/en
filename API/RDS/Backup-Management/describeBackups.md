@@ -50,7 +50,7 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/backups
 |**backupMode**|String|Backup mode, automatic system backup or manual backup, detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)|
 |**backupUnit**|String|Backup granularity, instance backup or multi-database backup, detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)<br>- **SQL Server supports**<br>- **MySQL does not support**|
 |**backupFiles**|String[]|Backup File List<br>- **SQL Server supports**, there can be multiple backup files and the naming rules for file name are:<br>(1) Full: Database name +.bak<br>(2) Incremental: Database name +.diff<br>- **MySQL does not support**|
-|**backupSizeByte**|Integer|Size of Whole Backup Set, Unit: Byte|
+|**backupSizeByte**|Long|Overall backup set size, unit: Byte|
 
 ## Response code
 |Return code|Description|

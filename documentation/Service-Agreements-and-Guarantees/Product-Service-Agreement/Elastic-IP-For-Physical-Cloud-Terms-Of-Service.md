@@ -136,6 +136,10 @@
 
 **9.2 JD Cloud shall transfer all or part of the rights and obligations of these Service Terms to the affiliated company of JD Cloud by posting it on [www.jdcloud.com](https://www.jdcloud.com/) 30 days in advance or by sending you notice or written notice on the website.**
 
-9.3. If any terms, in nature or otherwise, shall continue to exist after the termination of the Agreement, they shall be deemed to be continuing terms, including but not limited to warranty, confidentiality, intellectual property right, governing law and dispute resolution.
+9.3 If any terms, in nature or otherwise, shall continue to exist after the termination of the Agreement, they shall be deemed to be continuing terms, including but not limited to warranty, confidentiality, intellectual property right, governing law and dispute resolution.
+
+
+
+
 
  

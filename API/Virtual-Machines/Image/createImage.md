@@ -2,12 +2,9 @@
 
 
 ## Description
-Create a private image for a VM. The VM status must be <b>stopped</b>. 
-
-The creation of an image is only available when there is no task in progress of the VM. 
-
-The image creation is based on backing up the system disk. A image can be created containing all or partial attached cloud data disks (If no change is made, then the entile image contains all cloud data disks is created by default). During the process of creating an image, the snapshots of the choosen attached cloud disks will be created and will be associated with the image. 
-
+Create a private image for a VM. The VM status must be <b>stopped</b>.
+The creation of an image is only available when there is no task in progress of the VM.
+The image creation is based on backing up the system disk. A image can be created containing all or partial attached cloud data disks (If no change is made, then the entile image contains all cloud data disks is created by default). During the process of creating an image, the snapshots of the choosen attached cloud disks will be created and will be associated with the image.
 After calling the API, you can not use the image normally until the image status becomes <b>ready</b>.
 
 
@@ -26,7 +23,7 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:createIm
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**dataDisks**|InstanceDiskAttachmentSpec[]|False| |A list of data disks that you can add new snapshots and empty disks to, or excludes currently attached cloud data disks.|
-|**description**|String|True| |Image Description, <a href="http://docs.jdcloud.com/virtual-machines/api/general_parameters">Refer to public parameter specification</a>.|
+|**description**|String|False| |For the image description, <a href="http://docs.jdcloud.com/virtual-machines/api/general_parameters">please refer to the public parameter specification</a>.|
 |**name**|String|True| |Image Name, <a href="http://docs.jdcloud.com/virtual-machines/api/general_parameters">Refer to the public parameter specification </a>.|
 
 ### InstanceDiskAttachmentSpec
@@ -37,7 +34,6 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:createIm
 |**deviceName**|String|False| |Device name, value range: vda, vdb, vdc, vdd, vde, vdf, vdg, vdh, vdi, vdj, vdk, vdl, vdm|
 |**diskCategory**|String|False| |Disk classification, the local or cloud disk is taken.<br>The system disk supports local disk or cloud disk. If select the local type for the system disk , and you must use a image of localDisk type; if select the cloud type for the system disk, you must use a image of the cloudDisk type.<br>The data disk supports cloud disk only.<br>|
 |**noDevice**|Boolean|False| |Exclude the device, and parameter noDevice is used with deviceName.<br>Create a entile image that contains all the system disk and attached cloud data disks: deviceName: vdb, noDevice: true, the cloud data disk whose device name is vdb that attached to the VM will not be involved in creating the  image.<br>Create a template: deviceName: vdb, noDevice: true, the data disk whose device name is vdb in the image will not be involved in creating the VM.<br>Create a VM: deviceName: vdb, noDevice: true, the data disk vdb in the image or the data disk whose device name is vdb in the template (create a VM using the template) will not be involved in creating the machine.<br>|
-
 ### DiskSpec
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|

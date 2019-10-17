@@ -40,7 +40,9 @@
 1. Log in JD Cloud Console, click **Management -> Monitoring -> Alarm Management -> Alarm Rules** and enter the page of List of Alarm Rules.    
 ![报警规则列表](../../../../../image/Cloud-Monitor/8-qbbj-1.png)  
 
-2. Select an alarm rule to be deleted and click the **Disable** button under the operation bar; or select several rules to be deleted in batch and click the button of **Delete** in batch on the bottom.  
+2. Select an alarm rule to be deleted and click the **Delete** button under the operation bar; or select several rules to be deleted in batch and click the button of **Delete** in batch on the bottom.  
 ![删除规则](../../../../../image/Cloud-Monitor/10-bjgz-sc.png)  
 
 3. Click the **OK** button in the popped confirmation tooltip.
+
+

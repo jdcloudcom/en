@@ -10,7 +10,7 @@ Cloud Disk Service is an extensible storage device on cloud. After the creation 
 
 
 
-- Only Cloud Disk Service in available status supports expansion.
+- Only Cloud Disk Service in available status supports expansion (the "available" status means the Cloud Disk Service is not mounted and has no operation in progress).
 
 
 

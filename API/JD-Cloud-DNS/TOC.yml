@@ -9,7 +9,75 @@ items:
   href: overview.md
 - name: Update History
   href: ChangeLog.md
-- name: API Information
+- name: Differences between V2 and V1 APIs
+  href: diffV1V2_external.md
+- name: Version V2 API
+  items:
+    - name:  Domain Name APIs
+      items:
+        - name: describeDomains
+          href: Domain-Name-v2/describeDomains.md
+        - name: deleteDomain
+          href: Domain-Name-v2/deleteDomain.md
+        - name: modifyDomain
+          href: Domain-Name-v2/modifyDomain.md
+        - name: createDomain
+          href: Domain-Name-v2/createDomain.md
+        - name: describeDomainQueryCount
+          href: Domain-Name-v2/describeDomainQueryCount.md
+        - name: describeDomainQueryTraffic
+          href: Domain-Name-v2/describeDomainQueryTraffic.md
+    - name: Resolution Record APIs  
+      items:
+        - name: createResourceRecord
+          href: Resolution-Record-v2/createResourceRecord.md
+        - name: describeViewTree
+          href: Resolution-Record-v2/describeViewTree.md
+        - name: modifyResourceRecord
+          href: Resolution-Record-v2/modifyResourceRecord.md
+        - name: modifyResourceRecordStatus
+          href: Resolution-Record-v2/modifyResourceRecordStatus.md
+        - name: describeResourceRecord
+          href: Resolution-Record-v2/describeResourceRecord.md
+        - name: deleteResourceRecord
+          href: Resolution-Record-v2/deleteResourceRecord.md
+        - name: batchSetResourceRecords
+          href: Resolution-Record-v2/batchSetResourceRecords.md
+        - name: createUserView
+          href: Resolution-Record-v2/createUserView.md
+        - name: createUserViewIP
+          href: Resolution-Record-v2/createUserViewIP.md
+        - name: describeUserView
+          href: Resolution-Record-v2/describeUserView.md
+        - name: describeUserViewIP
+          href: Resolution-Record-v2/describeUserViewIP.md
+        - name: deleteUserView
+          href: Resolution-Record-v2/deleteUserView.md
+        - name: deleteUserViewIP
+          href: Resolution-Record-v2/deleteUserViewIP.md
+    - name:  Website Monitoring APIs
+      items:
+        - name: createMonitor
+          href: Website-Monitoring-v2/createMonitor.md
+        - name: createMonitorTarget
+          href: Website-Monitoring-v2/createMonitorTarget.md 
+        - name: describeMonitor
+          href: Website-Monitoring-v2/describeMonitor.md 
+        - name: describeMonitorAlarm
+          href: Website-Monitoring-v2/describeMonitorAlarm.md 
+        - name: describeMonitorTarget
+          href: Website-Monitoring-v2/describeMonitorTarget.md
+        - name: modifyMonitor
+          href: Website-Monitoring-v2/modifyMonitor.md
+        - name: modifyMonitorStatus
+          href: Website-Monitoring-v2/modifyMonitorStatus.md
+        - name: deleteMonitor
+          href: Website-Monitoring-v2/deleteMonitor.md
+    - name: Interface Related to Operation Lists            
+      items:
+        - name: describeActionLog
+          href: Operation-Log-v2/describeActionLog.md
+- name: Version V1 API
   items:
     - name:  Domain Name APIs
       items:

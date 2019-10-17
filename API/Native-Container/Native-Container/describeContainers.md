@@ -27,7 +27,7 @@ https://nativecontainer.jdcloud-api.com/v1/regions/{regionId}/containers
 ### TagFilter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**key**|String|False| |Tag Key|
+|**key**|String|True| |Tag Key|
 |**values**|String[]|False| |Tag Value|
 ### Filter
 |Name|Type|Required or not|Default value|Description|
@@ -61,7 +61,7 @@ https://nativecontainer.jdcloud-api.com/v1/regions/{regionId}/containers
 |**args**|String[]|Parameters for Command Execution by Container |
 |**envs**|EnvVar[]|Environment Variable for Execution by Dynamically-assigned Container |
 |**image**|String|Image Name|
-|**secret**|String|Name Cited by Secret |
+|**secret**|String|Secrets Name|
 |**tty**|Boolean|If a container is assigned with tty |
 |**workingDir**|String|Container’s Working Catalog |
 |**rootVolume**|VolumeMount|Root Volume Information |
@@ -96,12 +96,6 @@ https://nativecontainer.jdcloud-api.com/v1/regions/{regionId}/containers
 |Name|Type|Description|
 |---|---|---|
 |**logDriver**|String|Name log configuration information; a 10MB storage space will be assigned to the local by default and is automatically rotated.|
-|**options**|LogOption|Configuration Options of Log Driver|
-### LogOption
-|Name|Type|Description|
-|---|---|---|
-|**key**|String| |
-|**value**|String| |
 ### InstanceNetworkInterfaceAttachment
 |Name|Type|Description|
 |---|---|---|
@@ -116,6 +110,7 @@ https://nativecontainer.jdcloud-api.com/v1/regions/{regionId}/containers
 |**networkInterfaceId**|String|ENI ID|
 |**macAddress**|String|Ethernet Address|
 |**vpcId**|String|Virtual Network ID|
+|**subnetId**|String|Subnet ID|
 |**description**|String|Description|
 |**securityGroups**|SecurityGroupSimple[]|Security Group List|
 |**sanityCheck**|Boolean|Source and target IP address verification, with value 0 or 1|
@@ -125,7 +120,7 @@ https://nativecontainer.jdcloud-api.com/v1/regions/{regionId}/containers
 |Name|Type|Description|
 |---|---|---|
 |**privateIpAddress**|String|IPV4 Address of Private IP|
-|**elasticIpId**|String|IPV4 Address of Private IP|
+|**elasticIpId**|String|Elastic IP instance ID|
 |**elasticIpAddress**|String|Elastic IP Instance Address|
 ### SecurityGroupSimple
 |Name|Type|Description|
@@ -135,7 +130,7 @@ https://nativecontainer.jdcloud-api.com/v1/regions/{regionId}/containers
 ### VolumeMount
 |Name|Type|Description|
 |---|---|---|
-|**category**|String|Environment Variable Name|
+|**category**|String|Disk Category|
 |**autoDelete**|Boolean|Automatic deletion, the volume is automatically deleted at the time the container is deleted.|
 |**mountPath**|String|Catalog Mounted into the Container|
 |**readOnly**|Boolean|Read-only, false by default; only valid to data volume; when root volume is false.|
@@ -148,7 +143,7 @@ https://nativecontainer.jdcloud-api.com/v1/regions/{regionId}/containers
 |**az**|String|Corresponding AZ|
 |**name**|String|Disk Name|
 |**description**|String|Disk Description|
-|**diskType**|String|Disk Type, Value: ssd or premium-hdd|
+|**diskType**|String|Disk Type|
 |**diskSize**|Integer|Disk Size (GiB)|
 |**iops**|Integer|The iops value to be purchased as designated by the user currently only supports the cloud disk of ssd.io1 type|
 |**status**|String|Cloud Disk Service type, value: creating, available, in-use, extending, restoring, deleting, deleted, error_creating, error_deleting, error_restoring or error_extending|

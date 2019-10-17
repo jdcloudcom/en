@@ -50,6 +50,9 @@ https://elite.cn-south-1.jdcloud-api.com/v1/regions/{regionId}/listSaleService
 |---|---|---|
 |**deliverNumber**|String|Delivery Form Number|
 |**orderNumber**|String|Order Number|
+|**buyerPin**|String|Purchaser|
+|**mappingCode**|String|Mapping Number|
+|**supportAutoDeliver**|Integer|If automatic delivery is supported, 0 means No, 1 means Yes|
 |**productId**|Integer|Product ID|
 |**skuId**|Integer|sku ID|
 |**skuName**|String|sku Name|

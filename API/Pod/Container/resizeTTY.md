@@ -19,9 +19,9 @@ https://pod.jdcloud-api.com/v1/regions/{regionId}/pods/{podId}/containers/{conta
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**height**|Integer|False| |tty row; value range: [10, 2000]|
-|**width**|Integer|False| |tty column; value range: [10, 1000]|
-|**execId**|String|False| |tty column; value range: [10, 1000]|
+|**height**|Integer|True| |tty row; value range: [10, 2000]|
+|**width**|Integer|True| |tty column; value range: [10, 1000]|
+|**execId**|String|False| |exec ID|
 
 
 ## Return Parameter

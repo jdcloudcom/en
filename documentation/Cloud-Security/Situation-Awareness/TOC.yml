@@ -24,9 +24,11 @@
       - name: Security Visualization Screen
         href: Operation-Guide/Security-Bigscreen.md     
       - name: Asset Fingerprint
-        href: Operation-Guide/Asset-Print.md   
+        href: Operation-Guide/Asset-Print.md
       - name: Cloud Product Baseline
-        href: Operation-Guide/Cloudbaseline.md      
+        href: Operation-Guide/Cloudbaseline.md
+      - name: Threat Cheat
+        href: Operation-Guide/honeyPot.md      
   - name: FAQ
     href: FAQ/FAQ.md
   - name: Revision Update

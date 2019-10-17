@@ -13,3 +13,4 @@ The Monitoring Graph of the resource can be viewed in two ways, one is viewed on
 
 2. On the Cloud Resource details page, switch to the "Monitoring" tab page and you will see real-time data for each instance of the monitoring metrics for that instance.
 ![监控详情](../../../../../image/Cloud-Monitor/11-yzy-xq.png)
+

@@ -127,6 +127,8 @@
             href: API-Reference/CDN-Open-API/Area-isp-detail-statistics.md
           - name: Back-to-origin Bandwidth Statistics
             href: API-Reference/CDN-Open-API/Back-to-source-bandwidth.md
+          - name: Back-to-origin Statistics
+            href: API-Reference/CDN-Open-API/Origin-Code-status.md
           - name: Status Code Details
             href: API-Reference/CDN-Open-API/Code-status.md
           - name: Get All Operator Region Information

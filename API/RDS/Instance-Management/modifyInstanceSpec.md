@@ -2,7 +2,7 @@
 
 
 ## Description
-Instance Expansion, Supports Upgrading the Instance CPU, Memory and Disk. Instance configuration downgrade not supported currently<br>- only support MySQL
+Instance Expansion, Supports Upgrading the Instance CPU, Memory and Disk.
 
 ## Request method
 POST

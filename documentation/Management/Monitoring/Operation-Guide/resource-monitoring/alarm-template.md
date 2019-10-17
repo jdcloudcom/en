@@ -3,10 +3,10 @@ Alarm templates can help users quickly create and update alarm rules. Alarm temp
 
 ## The default alarm template  
 ### View Template
-1. 	Enter JD Cloud Console-Cloud Monitoring Menu-Alarm Management-Alarm Template; click on the "Default Alarm Template" tab, then you can enter the default alarm template list page.  
+1. 	Enter JD Cloud Console-Cloud Monitoring Menu-Alarm Management-Alarm Template; click on the "Default Alarm Template" tab, then you can enter the default alarm template list page. You can view the template name, resource type, trigger condition count, rule association or not and other information.  
 ![系统模板](../../../../../image/Cloud-Monitor/9-mb-xt.png)  
 
-2. Click **View** in the list, then you can view details of alarm template by default.  
+2. Click **View** in the list, then you can view details of alarm template by default, i.e., details of trigger conditions and information of associated alarm rules.  
 ![模板详情](../../../../../image/Cloud-Monitor/9-mb-xq.png)
 ### Replication Template
 1. 	Enter JD Cloud Console-Cloud Monitoring Menu-Alarm Management-Alarm Template; click on the "Default Alarm Template" tab, then you can enter the default alarm template list page.  
@@ -22,11 +22,11 @@ Note: If the customized template count reaches the cap, the template cannot be r
 1. Enter JD Cloud Console-Monitoring Menu-Alarm Management-Alarm Template, click the tag of **Customized Alarm Template** and enter the customized alarm template list page.  
 ![自定义模板](../../../../../image/Cloud-Monitor/9-mb-zdy-0.png)  
 
-2. Click **View**, then you can view the details of the customized alarm template.  
+2. Click **View**, then you can view the details of the customized alarm template, i.e., details of trigger conditions and information of associated alarm rules. 
 ![模板详情](../../../../../image/Cloud-Monitor/9-mb-zdy-xq.png)
 
 ### Add Template
-1. Enter JD Cloud Console-Monitoring Menu-Alarm Management-Alarm Template, click the tag of **Customized Alarm Template** and enter the customized alarm template list page.  
+1. Enter JD Cloud Console-Monitoring Menu-Alarm Management-Alarm Template, click the tag of **Customized Alarm Template** and enter the customized alarm template list page. You can view the template name, resource type, trigger condition count, rule association or not and other information. 
 ![自定义模板](../../../../../image/Cloud-Monitor/9-mb-zdy.png)  
 
 2. Click **Add Alarm Template**, complete alarm template name, select resource type, complete template description information and triggering conditions for this template, and click **Complete Creation** to save a new template created.  
@@ -53,7 +53,8 @@ Note: The alarm template associated with any alarm rule cannot be deleted. Delet
     ![使用模板](../../../../../image/Cloud-Monitor/10-bjgz-tj-mb.png)  
     3) In the notification policy: Configure notification period, effective time, notification requirement, reception channel and notification object information.
     
-4. Click **Complete Creation** on the page bottom to complete rule creation based on alarm template.
+4.  Click **Complete Creation** on the page bottom to complete rule creation based on alarm template.  
+
 
 
 

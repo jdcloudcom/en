@@ -29,3 +29,5 @@ The default coupon warning value of each account is RMB 200; if the value is les
 
 The message reminder will be triggered respectively 7 days, 3 days and 1 day before expiry of the coupon(s) in the account, with the reminder methods to be Email and SMS.
 
+
+

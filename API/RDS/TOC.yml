@@ -21,6 +21,8 @@
             herf: Account-Management/resetPassword.md
           - name: revokePrivilege
             herf: Account-Management/revokePrivilege.md
+          - name: createSuperAccount
+            herf: Account-Management/createSuperAccount.md
 
       - name: Audit Management
         items:
@@ -155,6 +157,13 @@
           - name: restoreInstance
             herf: Instance-Management/restoreInstance.md
 
+      - name: Log Management
+        items:
+          - name: describeLogs
+            herf: LOG/describeLogs.md
+          - name: updateLogDownloadURLInternal
+            herf: LOG/updateLogDownloadURLInternal.md
+
       - name: Parameter Set Management
         items:
           - name: copyParameterGroup
@@ -206,6 +215,13 @@
             herf: SQL-Interception/disableIntercept.md
           - name: enableIntercept
             herf: SQL-Interception/enableIntercept.md
+
+      - name: Transparent Data Encryption
+        items:
+          - name: describeTde
+            herf: TDE/describeTde.md
+          - name: enableTde
+            herf: TDE/enableTde.md
             
       - name: White List
         items:

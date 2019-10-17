@@ -12,8 +12,8 @@ https://order.jdcloud-api.com/v2/regions/{regionId}/order/{orderNumber}
 
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True| |Region ID|
-|**orderNumber**|String|True| |orderNumber ID|
+|**regionId**|String|True| |Region Code|
+|**orderNumber**|String|True| |Order Number|
 
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|

@@ -44,10 +44,10 @@ https://pod.jdcloud-api.com/v1/regions/{regionId}/secrets
 ### Secret
 |Name|Type|Description|
 |---|---|---|
-|**name**|String|Confidential Data Name|
-|**type**|String|Now, only the following private data type is supported: docker-registry, which is the docker registry verification type.|
-|**createdAt**|String|Creation Time|
-|**data**|DockerRegistryData|Confidential Data|
+|**name**|String|Secrets Name|
+|**type**|String|Secrets Type|
+|**createdAt**|String|Creation Time of Secrets|
+|**data**|DockerRegistryData|Secrets Data|
 ### DockerRegistryData
 |Name|Type|Description|
 |---|---|---|

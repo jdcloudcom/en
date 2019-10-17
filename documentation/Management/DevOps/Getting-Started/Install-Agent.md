@@ -5,7 +5,7 @@ In the Virtual Machine, you need to install the super Agent for deployment and u
 Specific methods are as follows:
 
 ```
-curl -fsSL http://deploy-code-vpc.jdcloud.com/dl-ifrit-agents/install | bash
+curl -fsSL https://deploy-code-vpc.jdcloud.com/dl-ifrit-agents/install | bash -s zero-agent,hawkeye-agent,log-agent,ark-query
 ```
 
 About the description of Agent is shown as below:

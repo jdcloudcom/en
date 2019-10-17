@@ -20,4 +20,5 @@ The IoT Hub provides the device connection communication function to help users 
 
 
 ## Billing
-The IoT Hub supports the billing type of Pay By Consumption. The billing items include messages sending to and received from devices and managed devices. For details, please refer to "[Billing Rules](../Pricing/Billing-Overview.md)".
+
+  The IoT Hub supports the billing type of Pay By Consumption. The billing items include messages sending to and received from devices and managed devices. For details, please refer to "[Billing Rules](../Pricing/Billing-Overview.md)".

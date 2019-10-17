@@ -1,0 +1,13 @@
+  name: Industrial Data Service
+  href: 
+  items:
+  - name: Interface Overview
+    href: overview.md
+  - name: Update History
+    href: ChangeLog.md
+  - name: Interface Information
+    items:
+      - name: Visualization Screen Data Query API
+        items:
+          - name: getLargeScreenData
+            href: Large-Screen-APIs/getLargeScreenData.md

@@ -1,10 +1,9 @@
 # Login and Registration
 ## Register an Account
-Newly registered accounts at all JD Cloud registry entries (except JD Cloud APP) are JD Cloud’s independent accounts, which cannot log in to JD Mall.
-Currently, JD Cloud only supports registration by the mainland mobile phone number, with the steps as follows:
+The account registered at JD Cloud cannot be used for logging in JD Mall. Currently, JD Cloud only supports registration by the mainland mobile phone number, with the steps as follows:
 
 ### 1. Enter account name and password
-The page notifies for entry rules upon entering:
+The account name is the identifier of JD Cloud account for login. The page notifies for entry rules upon entering:
 The length of the account name is 4-20 bits. Chinese characters, English letters, numbers or symbols of "-" and "_" can be entered. Account names in pure digital format are not supported;
 The login password length is 7-20 bits. The password must contain English letters, numbers, and symbols (support for English symbols other than spaces), and the password must not be the same as the account name.
 
@@ -30,17 +29,22 @@ After filling in, JD Cloud will send a verification Email to your mailbox. Pleas
 
 ## Login Accounts
 
-### 1. Login of New JD Cloud Account
-Since July 19, 2019, the newly registered JD Cloud account or the account that has been upgraded can be logged in directly through JD Cloud account.
+### 1. JD Cloud Login
+JD Cloud supports login via the account name and password. For some users, if their mobile phone numbers or emails are unique for the accounts associated with JD Cloud, they can log in JD Cloud via the mobile phone number or email and the password.
 
-![](../../../image/User/Account-Mgmt/log1.png)
+![](../../../image/User/Account-Mgmt/log1.PNG)
 
-If you use your mobile phone number or Email for login, it notifies that "This mobile phone number/email has been associated with multiple accounts and cannot be used for login", it means your mobile phone number or email cannot be used for login, please use the account name plus password directly for login.
+The account registered before July 18, 2019 is a JD account. If this account is not upgraded, please access JD Cloud via "JD Login".
 
-![](../../../image/User/Account-Mgmt/log2.png)
+![](../../../image/User/Account-Mgmt/login2.png)
+
+If you use your mobile phone number or email for login and a notification "this mobile phone number/email cannot log in", it means that the entered mobile phone number/email has been associated with several accounts in JD Cloud or the associated account does not support login via mobile phone number/email. In such case, please try to log in via your account name and password. If you confirm that this mobile phone number/email has been used for logging in JD Cloud successfully, your account might be the original JD account. Please try to access via "JD Login".
+
+![](../../../image/User/Account-Mgmt/login3.png)
 
 ### 2. Login through JD
-If you have subscribed JD Cloud service before July 19, 2019 and have not upgraded your account, you can log in through the JD account.
+If you have enabled JD Cloud service before July 18, 2019 and have not upgraded your account, you can access JD Cloud via "JD Login".
 
-![](../../../image/User/Account-Mgmt/log3.png)
 ![](../../../image/User/Account-Mgmt/log4.png)
+
+JD login rules are as the same as those of JD Mall. If you have any problems in the JD login process, please refer to [Introduction to New JD Cloud Account](https://docs.jdcloud.com/cn/account-management/what-is-jdcloud-account) or contact the customer service (400-615-1212) for account upgrade. After upgrade, you can log in directly with a JD Cloud account.

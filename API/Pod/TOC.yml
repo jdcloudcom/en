@@ -35,29 +35,33 @@ items:
       href: pod/rebuildPod.md
   - name: Container
     items:
-    - name: Search details of a container in the Pod
-      href: Native-Container/decribeContainer.md
-    - name: attach to a container in a Pod
-      href: Native-Container/attach.md
+    - name: Search details of a container in Pod
+      href: Container/describeContainer.md
+    - name: attach to a container in Pod
+      href: Container/attach.md
     - name: Create exec
-      href: Native-Container/execCreate.md
+      href: Container/execCreate.md
     - name: Obtain exec exit code
-      href: Native-Container/execGetExitCode.md
+      href: Container/execGetExitCode.md
     - name: Execute exec
-      href: Native-Container/execStart.md
+      href: Container/execStart.md
     - name: Reset size of TTY
-      href: Native-Container/resizeTTY.md
+      href: Container/resizeTTY.md
   - name: Quota
     items:
     - name: Search quota of Pod
       href: Quota/describeQuota.md
-  - name: secret
+  - name: Secrets
     items:
-    - name: Create secret
+    - name: Create Secrets
       href: Secrets/createSecret.md
-    - name: Delete secret
+    - name: Delete Secrets
       href: Secrets/deleteSecret.md
-    - name: Search secret details
+    - name: Search Secrets Detail
       href: Secrets/describeSecret.md
-    - name: Search secret lists
+    - name: Search Secrets List
       href: Secrets/describeSecrets.md
+  - name: Instance Type
+    items:
+    - name: Search instance type family
+      href: Instance-Type/describeInstanceTypes.md

@@ -2,7 +2,7 @@
 
 
 ## Description
-Modify name and description of pod.
+Modify pod description.
 
 
 ## Request Method
@@ -19,7 +19,7 @@ https://pod.jdcloud-api.com/v1/regions/{regionId}/pods/{podId}:modifyPodAttribut
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**description**|String|False| |Either pod name or description must be designated|
+|**description**|String|False| |Description after Modification|
 
 
 ## Return Parameter

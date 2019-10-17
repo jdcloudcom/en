@@ -1,0 +1,10 @@
+|名称|类型|是否必需|默认值|Description|
+|名称|类型|是否必需|默认值|Description|
+|名称|类型|Description|
+|名称|类型|Description|
+|**message**|String|Description信息|
+|名称|类型|Description|
+|名称|类型|Description|
+|名称|类型|Description|
+|**saleAttributes**|String|销售属性json字符串,version表示版本(套次、周期、套餐包类商品均有该属性),validity表示周期(周期和套餐包类商品有该属性),packageNum表示条数(只有套餐包类商品有该属性)：例如[{"attrCode":"version","attrValue":"Upgrade"},{"attrCode":"validity","attrValue":365},{"attrCode":"packageNum","attrValue":1000}]|
+|名称|类型|Description|

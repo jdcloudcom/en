@@ -1,12 +1,14 @@
-# Set login password (applicable to new account)
+# Modify login password
 
-<small>This document is applicable to the new version of JD Cloud account. If you are using a JD account, please conduct operation by going to "[My JD](https://home.jd.com/)".</small>
+(If you are using a JD account, please conduct operation by going to "[My JD](https://home.jd.com/)".)
 
 You can modify the login password on the "Account Management - Security Setting" page.
-![](../../../image/User/Account%20Management/Set%20User%20Password/setpwd.PNG)
 
-Please complete identity verification before modifying the password. Please select one identity verification method.
-![](../../../image/User/Account%20Management/Set%20User%20Password/step1.png)
+![](../../../image/User/Account-Mgmt/safe6.png)
+
+Please complete identity verification before modifying the password. Please select one identity verification method (mobile phone number or email).
+
+![](../../../image/User/Account-Mgmt/pwd1.png)
 
 After identity verification, new password can be set. New passwords must satisfy all of following requirements:
 
@@ -18,7 +20,8 @@ After identity verification, new password can be set. New passwords must satisfy
 
 4. Cannot as the same as the four historical passwords
 
-![](../../../image/User/Account%20Management/Set%20User%20Password/step2.png)
+![](../../../image/User/Account-Mgmt/pwd2.png)
 
 New password will come into force immediately upon setting.
-![](../../../image/User/Account%20Management/Set%20User%20Password/step3.PNG)
+
+![](../../../image/User/Account-Mgmt/pwd3.png)

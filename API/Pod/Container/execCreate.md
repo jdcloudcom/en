@@ -20,7 +20,7 @@ https://pod.jdcloud-api.com/v1/regions/{regionId}/pods/{podId}/containers/{conta
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**command**|String[]|False| |Command Executed|
+|**command**|String[]|True| |Command Executed|
 |**tty**|Boolean|False| |Whether to assign tty for executing command. It is not assigned by default|
 
 
@@ -33,7 +33,7 @@ https://pod.jdcloud-api.com/v1/regions/{regionId}/pods/{podId}/containers/{conta
 ### Result
 |Name|Type|Description|
 |---|---|---|
-|**execId**|String|Exit Code|
+|**execId**|String|exec id|
 
 ## Return Code
 |Return Code|Description|

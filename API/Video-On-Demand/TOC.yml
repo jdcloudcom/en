@@ -45,7 +45,7 @@ items:
             href: Video/batchDeleteVideos.md
           - name: Get video playing information
             href: Video/getVideoPlayInfo.md
-          - name: Delete video transcode flow information
+          - name: Delete video
             href: Video/deleteVideoStreams.md
       - name: Transcode Template Management
         items:
@@ -71,12 +71,30 @@ items:
             href: Watermark/updateWatermark.md
           - name: Delete watermark
             href: Watermark/deleteWatermark.md
-      - name: Submit job
+      - name: Video Transcoding
         items:
           - name: Submit transcode job
             href: Transcode-Task/submitTranscodeJob.md
           - name: Submit transcode jobs in batches
             href: Transcode-Task/batchSubmitTranscodeJobs.md
+      - name: Quality Control Template Management
+        items:
+          - name: Search Quality Control Template List
+            href: Quality-Detection-Template/listQualityDetectionTemplates.md
+          - name: Create Quality Control Template
+            href: Quality-Detection-Template/createQualityDetectionTemplate.md
+          - name: Search Quality Control Template
+            href: Quality-Detection-Template/getQualityDetectionTemplate.md
+          - name: modify Quality Control Template
+            href: Quality-Detection-Template/updateQualityDetectionTemplate.md
+          - name: Delete Quality Control Template
+            href: Quality-Detection-Template/deleteQualityDetectionTemplate.md
+      - name: Quality Detection
+        items:
+          - name: Submit Quality Control Jobs
+            href: Quality-Detection/submitQualityDetectionJob.md
+          - name: Submit Quality Control Jobs in Batches
+            href: Quality-Detection/batchSubmitQualityDetectionJobs.md
       - name: Domain Configuration
         items:
           - name: Add domain
@@ -95,20 +113,24 @@ items:
             href: Domain/setDefaultDomain.md
           - name: Set domain access header
             href: Domain/setHeader.md
-          - name: Search domain access header list
+          - name: Query domain
             href: Domain/listHeaders.md
-          - name: Delete domain access header
+          - name: Delete domain
             href: Domain/deleteHeader.md
           - name: Set domain Referer anti-leech rule
             href: Domain/setRefererRule.md
-          - name: Search domain Referer anti-leech rule
+          - name: Query domain
             href: Domain/getRefererRule.md
           - name: Set domain URL authentication rule
             href: Domain/setURLRule.md
-          - name: Search domain URL authentication rule
+          - name: Query domain
             href: Domain/getURLRule.md
           - name: Set domain IP blacklist rule
             href: Domain/setIPRule.md
-          - name: Search domain IP blacklist rule
+          - name: Query domain
             href: Domain/getIPRule.md
+          - name: Set Domain Name SSL Configuration
+            href: Domain/setHttpSsl.md
+          - name: Query domain
+            href: Domain/getHttpSsl.md
 

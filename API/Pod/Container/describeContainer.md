@@ -1,4 +1,4 @@
-# decribeContainer
+# describeContainer
 
 
 ## Description
@@ -34,17 +34,17 @@ None
 |Name|Type|Description|
 |---|---|---|
 |**name**|String|Container Name|
-|**command**|String[]|The container will carry out the command. It is ENTRYPOINT of docker image by default if none is specified. The total length is 256 characters.|
-|**args**|String[]|The container will carry out the parameter of the command. It is CMD of docker image by default if none is specified. The total length is 2,048 characters.|
-|**env**|EnvSpec[]|Environment variables executed by containers; if the environmental variable Key is the same in the image, values in the image will be replaced. Length range: [0-100]|
-|**image**|String|Image name </br>Docker image name. nginx:latest. Length range: [1-500] 1. Docker Hub public image is specified via names as nginx, mysql/mysql-server </br> 2. repository contains at most 256 characters, tag contains at most 128 characters, and registry contains as most 255 characters </br>|
-|**secret**|String|Registry secret name. If not uploaded currently, dockerHub image is selected by default|
-|**tty**|Boolean|Whether a container is assigned with tty. It is not assigned by default|
-|**workingDir**|String|Container’s Working Catalog. If not specified, it is root directory (/) by default; and the working catalog must be the absolute path; length range: [0-1024]|
-|**livenessProbe**|ProbeSpec|Container Liveness Probe Configuration|
-|**readinessProbe**|ProbeSpec|Container Service Readiness Probe Configuration|
-|**resources**|ResourceRequestsSpec|Container Computing Resource Configuration|
-|**systemDisk**|CloudDiskSpec|Container Computing Resource Configuration|
+|**command**|String[]|Command Executed by Container.|
+|**args**|String[]|Parameters for command execution by container.|
+|**env**|Env[]|Environment Variable Executed by Container.|
+|**image**|String|Docker Image Name.|
+|**secret**|String|Container Registry Secrets.|
+|**tty**|Boolean|Whether a container is assigned with tty.|
+|**workingDir**|String|Container’s Working Catalog.|
+|**livenessProbe**|Probe|Container Liveness Probe Configuration|
+|**readinessProbe**|Probe|Container Service Readiness Probe Configuration|
+|**resources**|ResourceRequests|Container Computing Resource Configuration|
+|**systemDisk**|CloudDisk|Container Computing Resource Configuration|
 |**volumeMounts**|VolumeMount[]|Container Computing Resource Configuration|
 |**containerStatus**|ContainerStatus|Container Status Information|
 ### ContainerStatus
@@ -59,7 +59,7 @@ None
 |Name|Type|Description|
 |---|---|---|
 |**running**|ContainerStateRunning|Detailed Information of Container Running|
-|**terminated**|ContainerStateTerminated|Detailed Information of Container Terminated|
+|**terminated**|ContainerStateTerminated|Detailed Information of Container Termination|
 |**waiting**|ContainerStateWaiting|Detailed Information of Container Waiting|
 ### ContainerStateWaiting
 |Name|Type|Description|
@@ -69,11 +69,11 @@ None
 ### ContainerStateTerminated
 |Name|Type|Description|
 |---|---|---|
-|**signal**|Integer|Signal for Container Being Subject to Termination|
-|**exitCode**|Integer|Exit Code for Container Being Subject to Ttermination|
-|**reason**|String|(Brief) Causes for Container Being Subject to Ttermination|
-|**message**|String|Detailed information of Container Being Subject to Ttermination|
-|**finishedAt**|String|Time for Container Being Subject to Ttermination|
+|**signal**|Integer|Signal for Container Being Terminated.|
+|**exitCode**|Integer|Exit Code for Container Being Terminated.|
+|**reason**|String|(Brief) Causes for Container Being Terminated.|
+|**message**|String|Detailed Information of Container Being Terminated.|
+|**finishedAt**|String|Time of Container Being Terminated.|
 |**startedAt**|String|Execution Start Time of Container|
 ### ContainerStateRunning
 |Name|Type|Description|
@@ -82,67 +82,66 @@ None
 ### VolumeMount
 |Name|Type|Description|
 |---|---|---|
-|**name**|String|pod volume name must be used|
-|**mountPath**|String|Attach point in the container, with absolute path; repeated attaching and nesting attaching are not allowed; it is not allowed to be attached to the root directory ("/"). Length range: [1-1024]|
-|**readOnly**|Boolean|Whether to attach with the method of read-only. Default Read and Write mode|
-### CloudDiskSpec
+|**name**|String|Name of Cloud Disk Attached in pod.|
+|**mountPath**|String|Attach Point in Container|
+|**readOnly**|Boolean|Whether to attach with the method of read-only.|
+### CloudDisk
 |Name|Type|Description|
 |---|---|---|
-|**volumeId**|String|Cloud Disk id, use existed Cloud Disk|
-|**name**|String|Cloud Disk Name|
-|**snapshot**|String|Cloud Disk snapshot id, creating Cloud Disk according to Cloud Disk snapshot.|
-|**diskType**|String|Cloud Disk type: ssd,premium-hdd,hdd.std1,ssd.gp1,ssd.io1|
-|**sizeGB**|Integer|Cloud Disk size, unit GB, requirement|
-|**fsType**|String|Specify volume file system type and support [xfs, ext4] now; if the file system type is not specified for the newly-created disk, such disk will be formatted to xfs by default.|
-|**iops**|Integer|Only the ssd.io1 type iops value of cloud disk is valid now|
-|**autoDelete**|Boolean|Whether to delete with pod. Default: true|
-### ResourceRequestsSpec
+|**volumeId**|String|Cloud Disk ID.|
+|**snapshotId**|String|Cloud Disk Snapshot ID.|
+|**diskType**|String|Cloud Disk Types: hdd.std1,ssd.gp1,ssd.io1.|
+|**sizeGB**|Integer|Cloud disk size, unit GB.|
+|**fsType**|String|Specify volume file system type and support [xfs, ext4] now.|
+|**iops**|Integer|Only the ssd.io1 type iops value of cloud disk is valid now.|
+|**autoDelete**|Boolean|Whether to delete with pod.|
+### ResourceRequests
 |Name|Type|Description|
 |---|---|---|
-|**requests**|RequestSpec|Computing Resource Necessary for Container|
-|**limits**|RequestSpec|Cap of Computing Resource Used by Container|
-### RequestSpec
+|**requests**|Request|Computing Resource Necessary for Container|
+|**limits**|Request|Cap of Computing Resource Used by Container|
+### Request
 |Name|Type|Description|
 |---|---|---|
 |**cpu**|String|Computing Resource Necessary for Container|
 |**memoryMB**|String|Cap of Computing Resource Used by Container|
-### ProbeSpec
+### Probe
 |Name|Type|Description|
 |---|---|---|
-|**initialDelaySeconds**|Integer|How long after the container starts can trigger the probe. Default value: 10 seconds; range: [0-300]|
-|**periodSeconds**|Integer|Time interval for detection. Default value is 10 seconds; range: [1-300]|
-|**timeoutSeconds**|Integer|Time-out period of detection. Default value is 1 second; range: [1-300]|
-|**failureThreshold**|Integer|The number of consecutive alive detection failure after a successful status, to which extent the alive detection is considered as failed. Default value is 3 times; range 1-10|
-|**successThreshold**|Integer|The number of consecutive alive detection success after a successful status, to which extent the alive detection is considered as successful. Default value is 1 time; range 1-10|
+|**initialDelaySeconds**|Integer|How long the container does trigger the probe after start.|
+|**periodSeconds**|Integer|Time interval for detection.|
+|**timeoutSeconds**|Integer|Time-out period of detection.|
+|**failureThreshold**|Integer|The number of consecutive alive detection failure after a successful status, to which extent the alive detection is considered as failed.|
+|**successThreshold**|Integer|The number of consecutive alive detection success after a successful status, to which extent the alive detection is considered as successful.|
 |**exec**|Exec|Execute specified command within the container; if the return code is 0 when the command exits, the diagnostic is considered as successful.|
-|**httpGet**|Hg|Execute HTTP Get request to the IP address of the container on the specified port and path. <br><br>If the response status code is greater than or equal to 200 and less than 400, the diagnosis is considered as successful. <br>|
-|**tcpSocket**|TcpSocketSpec|Conduct TCP inspection to the IP address of the container on the specified port. If the port opens, the diagnosis is considered as successful.|
-### TcpSocketSpec
+|**httpGet**|Hg|Execute HTTP Get request to the IP address of the container on the specified port and path. If the response status code is greater than or equal to 200 and less than 400, it shall be considered to be successful diagnostics.|
+|**tcpSocket**|TcpSocket|Conduct TCP inspection to the IP address of the container on the specified port; if the port opens, it shall be considered to be successful diagnostics.|
+### TcpSocket
 |Name|Type|Description|
 |---|---|---|
-|**port**|Integer|Range: [1-65535]|
+|**port**|Integer|Port number, range: [1-65535]|
 ### Hg
 |Name|Type|Description|
 |---|---|---|
-|**scheme**|String|Default value: http; optional value http, https|
-|**host**|String|pod_ip is used by default as hose information connected to pod, to satisfy hostname or ipv4 format|
-|**port**|Integer|Range: [1-65535]|
-|**path**|String|Path of HTTP Range: [1-256]|
-|**httpHeader**|Hh[]|Execute HTTP Get request to the IP address of the container on the specified port and path. <br><br>If the response status code is greater than or equal to 200 and less than 400, the diagnosis is considered as successful. |
+|**scheme**|String|Default value: http.|
+|**host**|String|host information connected to pod.|
+|**port**|Integer|Port Number.|
+|**path**|String|Path of HTTP.|
+|**httpHeader**|Hh[]|Customized Http headers|
 ### Hh
 |Name|Type|Description|
 |---|---|---|
-|**name**|String|http header key, http rules shall be followed|
-|**value**|String|Container Alive Detection Method|
+|**name**|String|http header Key|
+|**value**|String|http header Value|
 ### Exec
 |Name|Type|Description|
 |---|---|---|
-|**command**|String[]|The total length of the command executed is 256 characters. s|
-### EnvSpec
+|**command**|String[]|Command Executed.|
+### Env
 |Name|Type|Description|
 |---|---|---|
-|**name**|String|Environment Variable Name (ASCII). Range: [1-64]. Must be letters, figures and underline (). The regular is `[a-zA-Z0-9]*$`.|
-|**value**|String|Environment Variable Value. Range: [0-1024]|
+|**name**|String|Environment Variable Name (ASCII).|
+|**value**|String|Environment Variable Value.|
 
 ## Return Code
 |Return Code|Description|

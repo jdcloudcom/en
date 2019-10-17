@@ -51,3 +51,4 @@
 |Quantity of VPC peering connections which can be created by each VPC 	|10	| Ticket 	|
 |Quantity of VPC peering connections which can be created between the same two VPCs 	|1	| Unchangeable 	|
 
+

@@ -51,6 +51,8 @@ items:
         href: Getting-Started/Private-Image.md
       - name: Policy Management
         href: Getting-Started/Policy-Management.md
+      - name: Public Network Bandwidth
+        href: Getting-Started/Elastic-IP-With-Workspace.md
       - name: JD WorkSpaces User (Terminal User)
         href: Getting-Started/User.md
   - name: Operation Guide

@@ -22,27 +22,20 @@ items:
       href: Introduction/Application-Scenarios.md    
 - name: Pricing
   items:
-    - name: Billing Overview
-      href: Pricing/Billing-Overview.md
     - name: Billing Rules
       href: Pricing/Billing-Rules.md
-    - name: Price Overview
-      href: Pricing/Price-Overview.md
     - name: Purchase Process
       href: Pricing/Purchase-Process.md 
-    - name: Renew-Process
-      href: Pricing/Renew-Process.md
-      status: 0 
 - name: Getting Started
   items:
     - name: Overview
       href: Getting-Started/Getting-Started.md
     - name: Build API with the method of signature key pair
-      herf: Getting-Started/example_SignatureKey.md
+      href: Getting-Started/example_SignatureKey.md
     - name: Use Function to construct API
       href: Getting-Started/example_function.md
     - name: Build API using the method of subscription Key
-      herf: Getting-Started/example_subscriptionKey.md
+      href: Getting-Started/example_subscriptionKey.md
     - name: Use APIs in Open VPC of API Gateway
       href: Getting-Started/VPC.md
 - name: Operation Guide

@@ -12,6 +12,7 @@ v1
 ## API
 |Interface name|Request mehod|Function description|
 |---|---|---|
+|**alterTableWithOnlineDDL**|POST|Process DDL commands by PT-OSC Service to avoid lock tables. This API is temporarily opened to some users|
 |**clearBinlogs**|POST|Clear local binlog and release spaces. The system will only clear binlog backed up to the memory, without any influence to backup recovery of MySQL instances<br>- Support MySQL only|
 |**copyParameterGroup**|POST|Copy parameter group<br>- only support MySQL|
 |**createAccount**|POST|Create a database account. The user can use the client, application, etc. to log in to the RDS database instance through the account and password. <br>For ease of management and recovery, RDS restricts accounts. Database accounts can only be created, deleted, and authorized by the console or OpenAPI. Users cannot perform related operations on accounts through SQL statements.|
@@ -25,6 +26,7 @@ v1
 |**createInstanceFromBackup**|POST|Creates a new instance based on the full backup of the source instance. The data of the new instance is the same as the data status of the source instance when the backup is created. <br>For example, create a new instance B according to a full backup 'mybak' of source instance A. The backup is created in '2018-8-18 03:23:54'. Then the data status of the new instance B is consistent with the status of the instance A'2018-8-18 03:23:54'|
 |**createParameterGroup**|POST|Create a parameter group<br>- Only support MySQL|
 |**createROInstance**|POST|Create Read-only Instance of MySQL<br>- Only Support MySQL|
+|**createSuperAccount**|POST|Create a database account, and then users can use the client, applications or others to log in to RDS database instance through this account and password via client, applications, etc. <br>For management and recovery, RDS has restricted accounts, database account can only create, delete and authorize accounts, etc. through Console or OpenAPI, and users cannot take relevant actions to their accounts by the SQL statement.|
 |**deleteAccount**|DELETE|Delete the database account. After the account is deleted, it cannot be restored and the user cannot use this account to log in the RDS instance.|
 |**deleteAudit**|DELETE|Disable Database Audit. After the database audit is disabled, the previously generated audit result files are not deleted immediately. The audit result files will be automatically deleted by the system after the expiration date. The default expiration time is 6 months<br>- Support SQL Server Only|
 |**deleteBackup**|DELETE|Deletes the RDS instance backup. Only the user-generated backups are allowed to be deleted and the system automatic backups are not allow to be deleted.|
@@ -56,6 +58,7 @@ v1
 |**describeIntercept**|GET|View the security mode enabled in current instance. If high security mode of database is enabled, configuration information will be returned<br>- Only support MySQL|
 |**describeInterceptResult**|GET|View SQL interception records of current instance after enabling high security mode<br>- Only support MySQL|
 |**describeLatestRestoreTime**|GET|When recover/create the obtained SQL Server instances based on the time point, the latest time point can be recovered<br>- Support SQL Server only|
+|**describeLogs**|GET|Obtain log file list of PostgreSQL|
 |**describeParameterGroupAttachedInstances**|GET|View Cloud Database Instance associated by Parameter Set<br>- Only support MySQL|
 |**describeParameterGroupParameters**|GET|View parameters of parameter group<br>- Only support MySQL|
 |**describeParameterGroups**|GET|Get all parameter group list under current account<br>- Only support MySQL|
@@ -64,6 +67,7 @@ v1
 |**describeQueryPerformance**|GET|Obtain the information of performance statistics of SQL execution, such as slow SQL, etc. based on user-defined query conditions. Based on this information, users can find and optimize performance bottlenecks related to SQL execution. <br>- Support SQL Server Only|
 |**describeSlowLogAttributes**|GET|Query the detailed information of slow log of MySQL instance. <br>- only support MySQL|
 |**describeSlowLogs**|GET|Query the summary information of slow log of MySQL instance. <br>- only support MySQL|
+|**describeTde**|GET|View whether the current instance enables TDE|
 |**describeWhiteList**|GET|View the current White List of RDS instances. The White List is a list of IP/IP segments that are allowed to access the current instance. By default, the White List is open to the VPC. If the user has enabled the internet access, you need to configure a White List for the IP of the internet.|
 |**disableAudit**|POST|Only support disabled database audit of MySQL instance|
 |**disableIntercept**|POST|Disable high security mode of database<br>- Support MySQL only|
@@ -71,6 +75,7 @@ v1
 |**enableAudit**|POST|Only support enabled database audit of MySQL instance|
 |**enableIntercept**|POST|Enable high security mode of database<br>- Support MySQL only|
 |**enableInternetAccess**|POST|Enable the internet access function of the RDS instance. After enabling, users can access RDS instances through the internet|
+|**enableTde**|POST|Enable TDE function of database|
 |**exchangeInstanceDns**|POST|Exchange the domains of two instances, including intranet and internet ones. No exchange is allowed, when one instance has an internet domain while the other doesn’t. <br>- Only Support SQL Server|
 |**failoverInstance**|POST|Perform a RDS Instance Failover. <br>Note: If the instance is being backed up, the failover will terminate the backup operation. You can view the start time of backup in the backup policy to see whether a backup is running. If you need to perform the failover during the instance backup, you are advised to perform a full instance backup manually<br>for SQL Server, within 30 minutes of failover, restore/create by time point is not supported. For example, the user performs the failover at 10:05, then the time period from 10:05 to 10:35 cannot be restored/created. <br>- Support SQL Server Only|
 |**getUploadKey**|POST|Obtain the required key for uploading files from Cloud on Single Database. Cloud on Single Database needs the correct key value to connect to JD Cloud<br>- only support SQL Server|
@@ -79,7 +84,7 @@ v1
 |**modifyBackupPolicy**|POST|Modify the RDS instance backup policy. Currently only the modification by the user of the "automatic backup start time window" parameter is supported, and other parameters are not open for modification|
 |**modifyConnectionMode**|POST|Modify the connection mode of MySQL instance: standard and high security modes.<br>- **Standard mode**: the despondence time is short, without SQL audit and interception capability. <br>- **High security mode**: has certain SQL injection interception capability (through analysis expression, key system function, etc. to implement the prevention from SQL injection attack), and SQL audit may be enabled, but the response time will be extended to a certain extent. <br>- only support MySQL|
 |**modifyInstanceName**|POST|Modify Instance Nam, which may support Chinese, and the specific rules of Instance Nam may refer to the Help Center Document: [Name and Password Restrictions](../../documentation/Database-and-Cache-Service/RDS/Introduction/Restrictions/SQLServer-Restrictions.md)|
-|**modifyInstanceSpec**|POST|Instance Expansion, Supports Upgrading the Instance CPU, Memory and Disk. Instance configuration downgrade not supported currently<br>- only support MySQL|
+|**modifyInstanceSpec**|POST|Instance Expansion, Supports Upgrading the Instance CPU, Memory and Disk.|
 |**modifyParameterGroup**|PUT|Modify parameters of a DS instances<br>- Only support MySQL|
 |**modifyParameterGroupAttribute**|PUT|Modify parameter set name and description<br>- Support MySQL only|
 |**modifyParameterGroupParameters**|PUT|Modify parameters of parameter groups<br>- Only support MySQL|
@@ -90,6 +95,7 @@ v1
 |**restoreDatabaseFromBackup**|POST|Restore the single database from backup, and support recovery from backups of other instances (but must be instances under the same account). For example, you can restore from a backup of a database instance in a production environment to a database in a test environment. <br>- Support SQL Server Only|
 |**restoreDatabaseFromFile**|POST|Restore a single database from the backup file uploaded by the user to the cloud through the Cloud on Single Database<br>- only support SQL Server|
 |**restoreDatabaseFromOSS**|POST|Restore a single database from the backup file uploaded to OSS<br> \- only support SQL Server|
-|**restoreInstance**|POST|Restore and replace the current instance by using the full backup of the instance<br>- only support MySQL|
+|**restoreInstance**|POST|Use the full backup of instance to replace and recover the current instance|
 |**revokePrivilege**|POST|Cancel all permissions of the account to a certain database. After the permissions are canceled, the account will not be able to access the database. Cancel the access permission of the account to a certain database without affecting the access permissions of the account to other databases|
 |**setImportFileShared**|POST|Set or cancel whether the uploaded file is shared to other instances under the same account. By default, files are only visible and can be imported on the uploaded instance. Other instances are not visible and cannot be imported. If you need this file to be imported on other instances, you can set this file to share<br>- only support SQL Server|
+|**updateLogDownloadURLInternal**|POST|Set a download link expiration time to log file, and refresh to generate a log file download link to PostgreSQL|

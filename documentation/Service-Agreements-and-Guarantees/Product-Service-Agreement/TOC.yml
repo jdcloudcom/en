@@ -78,6 +78,10 @@ items:
     href: Application-Of-Secure-Gateway-Service-Clause.md
   - name: Application Security Gateway Service Level Agreement (SLA)
     href: Application-Of-Secure-Gateway-Service-Level-Protocol-SLA.md
+  - name: API Gateway Service Terms
+    href: Api-Gateway-Terms-Of-Service.md
+  - name: API Gateway Service Level Agreement (SLA)
+    href: Api-Gateway-Level-Agreements-SLA.md
   - name: Cloud Physical Server Service Agreement
     href: Cloud-Physics-Server-Service-Clause.md
   - name: Cloud Physical Server Service Level Agreement (SLA)
@@ -126,8 +130,6 @@ items:
     href: Queue-Service-Terms-Of-Service-SLA.md
   - name: JD Blockchain Open Platform (BaaS) Service Terms
     href: JD-Blockchain-Open-Platform.md
-  - name: Internet of Things Center Service Terms
-    href: IoT-Hub-Terms-Of-Service.md    
   - name: IoT Hub Protocol Adaptor Service Terms
     href: IoT-Protocol-Adaptor-Terms-Of-Service.md   
   - name: IoT Hub Protocol Adaptor Service Level Agreement (SLA)
@@ -136,6 +138,10 @@ items:
     href: IoT-Core-Terms-Of-Service.md 
   - name: IoT Engine Service Level Agreement (SLA)
     href: IoT-Core-Level-Agreements-SLA.md
+  - name: Service Terms of IoT Card Service
+    href: IoT-Link-Service-Terms-Of-Service.md
+  - name: IoT Card Service Level Agreement (SLA)
+    href: IoT-Link-Service-Level-Agreements-SLA.md
   - name: Cloud File Service Agreement
     href: Cloud-File-Service-terms-of-service.md
   - name: Service Level Agreement (SLA) on Cloud File Service
@@ -143,7 +149,11 @@ items:
   - name: Service Terms on Rich Media SMS
     href: Rich-Media-SMS-Terms-Of-Service.md
   - name: Service Level Agreement (SLA) on Rich Media SMS
-    href: Rich-Media-SMS-Terms-Of-Service-SLA.md
+    href: Rich-Media-SMS-Level-Agreement-SLA.md
+  - name: Service Terms on Text Message
+    href: Text-Message-Terms-Of-Service.md
+  - name: Service Level Agreement (SLA) on Text Message
+    href: Text-Message-Level-Agreement-SLA.md
   - name: Service Terms for Log Service
     href: Log-Service-Terms-Of-Service.md
   - name: JD Cloud HSM Service Terms

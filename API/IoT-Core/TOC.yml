@@ -1,0 +1,48 @@
+name: IoT Core
+href: 
+items:
+  - name: Interface Overview
+    href: overview.md
+  - name: Update History
+    href: ChangeLog.md
+  - name: Interface Information
+    items:
+      - name: Product API
+        items:
+          - name: createProduct
+            href: Product/createProduct.md
+          - name: deleteProduct
+            href: Product/deleteProduct.md
+          - name: describeProduct
+            href: Product/describeProduct.md
+          - name: listProducts
+            href: Product/listProducts.md
+          - name: updateProduct
+            href: Product/updateProduct.md
+      - name: Product TSL API
+        items:
+          - name: exportThingModel
+            href: ProductAbility/exportThingModel.md
+          - name: importThingModel
+            href: ProductAbility/importThingModel.md
+          - name: listProductAbilities
+            href: ProductAbility/listProductAbilities.md
+      - name: Device API
+        items:
+          - name: addDevice
+            href: DeviceInfo/addDevice.md
+          - name: describeThingShadow
+            href: DeviceInfo/describeThingShadow.md
+          - name: invokeThingService
+            href: DeviceInfo/invokeThingService.md
+          - name: queryDeviceDetail
+            href: DeviceInfo/queryDeviceDetail.md
+          - name: queryDevicePage
+            href: DeviceInfo/queryDevicePage.md
+          - name: removeDevice
+            href: DeviceInfo/removeDevice.md
+          - name: updateDevice
+            href: DeviceInfo/updateDevice.md
+          - name: updateThingShadow
+            href: DeviceInfo/updateThingShadow.md 
+

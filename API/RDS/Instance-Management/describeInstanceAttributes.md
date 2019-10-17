@@ -46,19 +46,19 @@ None
 |**azId**|String[]|AZ ID, the first is AZ for the primary instance, which is detailed in [Regions and Availability Zone Comparison Table](../Enum-Definitions/Regions-AZ.md)|
 |**vpcId**|String|VPC ID|
 |**subnetId**|String|Subnet ID|
-|**parameterGroupId**|String|Parameter Set ID|
-|**parameterGroupName**|String|Parameter Set Name|
-|**parameterStatus**|String|Status of parameters, see [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)|
+|**parameterGroupId**|String|ID of parameter set<br>- Only support MySQL|
+|**parameterGroupName**|String|Parameter Set Name<br>- Only support MySQL|
+|**parameterStatus**|String|Status of parameters, see [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)<br>- Only support MySQL|
 |**internalDomainName**|String|Intranet Domain of Instance|
 |**publicDomainName**|String|Internet Domain of Instance|
 |**instancePort**|String|Application Access Port|
-|**connectionMode**|String|Access  Mode, detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)|
-|**auditStatus**|String|Audit status, detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)|
+|**connectionMode**|String|Access mode, see [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)<br>- Only support MySQL|
+|**auditStatus**|String|Auditing status, see [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)<br>- Only support MySQL|
 |**instanceStatus**|String|Instance status, detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)|
 |**createTime**|String|Instance Creation Time|
 |**charge**|Charge|Billing Configuration|
-|**sourceInstanceId**|String|Main Instance ID Corresponded To MySQL Read-only Instance|
-|**roInstanceIds**|String[]|Read-only Instance ID List|
+|**sourceInstanceId**|String|Main Instance ID Corresponded To MySQL Read-only Instance<br>- Only support MySQL|
+|**roInstanceIds**|String[]|Read-only Instance ID List<br>- Only support MySQL|
 |**primaryNode**|DBInstanceNode|Information of master node in High Availability Cluster<br>- only support SQL Serverer|
 |**secondaryNode**|DBInstanceNode|Information of slave node in High Availability Cluster<br>- only support SQL Serverer|
 |**tags**|Tag[]|Tag Information|
