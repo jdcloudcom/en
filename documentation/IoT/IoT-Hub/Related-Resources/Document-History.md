@@ -5,6 +5,7 @@ This document describes the important update history of the IoT Hub Service Docu
 |Release Date|Features|Description|
 |-|-|-|
 |April 2019|Beta|IoT Hub Service  Beta Version Launch.|
+|October 2019|GA|IoT Hub Service Officially Launched|
 
 
 ## Related References
@@ -12,4 +13,4 @@ This document describes the important update history of the IoT Hub Service Docu
 - [Product Overview](../Introduction/Product-Overview.md)
 - [Core Concepts](../Introduction/Core-Concepts.md)
 - [Product Function](../Introduction/Features.md)
-- [Create instance](../Getting-Started/Create-Instance.md)
+

@@ -1,24 +1,24 @@
 # Purchase Process
 
-This document introduces the purchase entrance of IoT Hub Service instance.
+The document introduces purchase entrance and process of IoT Hub Service.
 
-## Entrance: [Production Introduction Page](https://www.jdcloud.com/products/mongodb)
+## Entrance: [Production Introduction Page](https://www.jdcloud.com/cn/products/iot-core)
 1. Login to JD Cloud official website [https://www.jdcloud.com/](https://www.jdcloud.com/).
-2. Select **Product > IoT Hub**.
+2. Select **Product > Enterprise Application> IoT > IoT Hub**.
+3. Click **Instant Account Setup* on the popped product introduction page of IoT Hub.
 
-3. The product introduction page of IoT Hub Service will pop up, click **Buy Now**.
 
-![Hub-buy](../../../../image/IoT/IoT-Hub/iothub-007.png)
 
-4. Submit your application form on the application page. If your application is approved, we will enable the Console for you to access the menu of IoT Hub Service.
+4. Click **Instant Account Setup* after logging in IoT Core Console, entering Service Enable page, and reading relevant product information and service agreements.
 
-5. Log in to JD Cloud official website [https://www.jdcloud.com/](https://www.jdcloud.com/).
+![IoT-Hub-Service-Open](../../../../image/IoT/IoT-Hub/Service-Open.png)
 
-6. Select **Console**, see the picture below for details.
+5. Once the resource is created successfully, you can start using the IoT Hub Service.
 
-![控制台](https://github.com/jdcloudcom/cn/blob/master/image/mongodb/console-buy.png)
+Related References:
 
-7. Login to the Console, refer to [Create Instance](../Getting-Started/Create-Instance.md) for specific operations.
+- [Create Product](../Operation-Guide/Create-Product.md)
+- [Define Product Thing Model](../Operation-Guide/Thing-Model/Create-Thing-Model.md)
+- [Add Device](../Operation-Guide/Create-Device/Create-Single-Device.md)
 
-		Note:
-		* You need to submit an application for purchasing the IoT Hub Service during the Beta.
+

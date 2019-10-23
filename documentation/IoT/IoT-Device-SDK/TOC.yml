@@ -1,0 +1,24 @@
+  name: IoT Device SDK
+  href: 
+  items:
+  - name: Device SDK Introduction
+    href: Developer-Guide-Device/Introduction.md
+  - name: Quick Access Device
+    href: Developer-Guide-Device/DeviceEasyLink.md       
+  - name: Device Authentication
+    href: Developer-Guide-Device/AuthenticateDevices.md   
+  - name: Establish connection
+    href: Developer-Guide-Device/EstablishConnection.md
+  - name: Subscription and Release
+    href: Developer-Guide-Device/SubPub.md
+  - name: Network Connection and Heart Beat
+    href: Developer-Guide-Device/HeartBeat-Reconnection.md
+  - name: Secondary API
+    href: Developer-Guide-Device/API.md  
+  - name: Gateway Function
+    href: Developer-Guide-Device/Gateway_Connection.md         
+  - name: Terminology
+    href: Developer-Guide-Device/Glossary.md 
+  - name: Device SDK Download
+    href: Developer-Guide-Device/Device-SDK-Download-Link.md
+

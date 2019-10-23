@@ -1,0 +1,78 @@
+  name: IoT Core
+  href: 
+  items:
+  - name: Introduction
+    items:
+      - name: Product Overview
+        href: Introduction/Product-Overview.md
+      - name: Core Concepts
+        href: Introduction/Core-Concepts.md
+      - name: Basic Architecture
+        href: Introduction/Basic-Infrastructure.md
+      - name: Benefits
+        href: Introduction/Benefits.md
+      - name: Features
+        href: Introduction/Features.md
+      - name: Restrictions
+        href: Introduction/Restrictions.md   
+  - name: Pricing
+    items:
+      - name: Billing Overview
+        href: Pricing/Billing-Overview.md
+      - name: Billing Rules
+        href: Pricing/Billing-Rules.md
+      - name: Price Overview
+        href: Pricing/Price-Overview.md
+      - name: Purchase Process
+        href: Pricing/Purchase-Process.md 
+  - name: Getting Started
+    items:
+      - name: Create Product and Device
+        href: Getting-Started/Create-Product-and-Device.md
+      - name: Define Thing Model
+        href: Getting-Started/Product_Model.md
+  - name: Operation Guide
+    items:
+      - name: Create product
+        href: Operation-Guide/Create-Product.md
+      - name: Add a Single Device
+        href: Operation-Guide/Create-Device/Create-Single-Device.md
+      - name: Batch Add Devices
+        href: Operation-Guide/Create-Device/Create-Batch-Devices.md
+      - name: Device Management
+        href: Operation-Guide/Create-Device/Manage-Devices.md
+      - name: Product Thing Model Introduction
+        href: Operation-Guide/Thing-Model/Thing-Model-Introduction.md       
+      - name: Add Thing Model
+        href: Operation-Guide/Thing-Model/Create-Thing-Model.md    
+      - name: Create Rule Engine
+        href: Operation-Guide/Rule-Engine/Create-Rule.md
+  - name: Device Development Guide
+    items:
+      - name: Device SDK Introduction
+        href: Developer-Guide-Device/Introduction.md
+      - name: Quick Access Device
+        href: Developer-Guide-Device/DeviceEasyLink.md       
+      - name: Device Authentication
+        href: Developer-Guide-Device/AuthenticateDevices.md   
+      - name: Establish connection
+        href: Developer-Guide-Device/EstablishConnection.md
+      - name: Subscription and Release
+        href: Developer-Guide-Device/SubPub.md
+      - name: Network Connection and Heart Beat
+        href: Developer-Guide-Device/HeartBeat-Reconnection.md
+      - name: Gateway Function
+        href: Developer-Guide-Device/Gateway_Connection.md   
+      - name: Secondary API
+        href: Developer-Guide-Device/API.md  
+      - name: Terminology
+        href: Developer-Guide-Device/Glossary.md 
+  - name: Related Resources
+    items:
+    - name: Document History Records
+      href: Related-Resources/Document-History.md   
+  - name: FAQ
+    href: FAQ/FAQ.md
+  - name: Device SDK Download
+    href: Developer-Guide-Device/Device-SDK-Download-Link.md
+

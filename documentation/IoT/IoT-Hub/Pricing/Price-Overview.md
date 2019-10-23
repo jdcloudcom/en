@@ -1,15 +1,18 @@
 # Price Overview
 
- The IoT Hub Service is billed by pay by consumption. The billing items are composed of the messages transmitted by devices and the managed devices.
- 
+The IoT Hub Service is billed according to the number of messages used. The number of messages refers to the number of the messages released by the device, the messages released through Cloud API by the application and the messages transmitted to the device by the IoT communication platform, settled as per unit byte (2KB) of the message content length.
+
+Actual message number per message entry; the message content length is measures by the unit of 2KB, and the message number is calculated by "content length per message entry/2KB" and rounded to an integer.
+
  ## Specification Cost
- 
-|  Billing Item  |  Specification Code |          Specification          |         Cost         |
-|:--------:|:---------:|:----------------------:|:--------------------:|
-| Data Transmission | Free Tier | First 5 Million Pcs./Month           | 0                    |
-|          | Tier 1    | 0 ~ 400,000 Pcs./Day          | 4.24/Day              |
-|          | Tier 2    | 400,000 Pcs./Day ~ 6 Million Pcs./Day | 42.4/Day              |
-|          | Tier 3    | 6 Million Pcs./Day ~ 300 Million Pcs./Day  | 424/Day               |
-|          | Tier 4    | Over 300 Million Pcs./Day           | Please contact JD Cloud         |
-| Device Management | Free Tier | First 10-day Active Devices/Day        | 0                    |
-|          | Tier 1    | Over 10-day Active Devices/Day      | RMB 0.008 for Daily Active Devices/Day |
+
+| Message number (unit: entry(ies)/month) | Unit price (unit: RMB/one million message entries) |
+| --------------------- | -------------------------- |
+| ≤1.5 million                | 0                          |
+| >1.5 million               | 2.7                        |
+
+## Arrear Handling Methods:
+Grace period: 3 days, i.e., a user can continue to use the service normally within 3 days since the defaulting day. When you make the payment, you need to pay up the overdue amount and the cost of the 3 days.
+
+Retention period: The service will be stopped since 00:00 of the fourth defaulting day. Data will be kept for 7 days since the day when the service is stopped. Service will be recovered when you pay up the overdue amount. User resources will be released if you fail to pay up the overdue amount since 00:00 of the eighth day.
+

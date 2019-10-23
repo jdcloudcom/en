@@ -15,8 +15,6 @@
         href: Introduction/Features.md
       - name: Restrictions
         href: Introduction/Restrictions.md
-      - name: Application Scenarios 
-        href: Introduction/Application-Scenarios.md    
   - name: Product Pricing
     items:
       - name: Billing Overview
@@ -29,47 +27,51 @@
         href: Pricing/Purchase-Process.md 
   - name: Getting Started
     items:
-      - name: Create instance
-        href: Getting-Started/Create-Instance.md
-      - name: Instance List
-        href: Getting-Started/List-Instance.md
-      - name: Delete Instance
-        href: Getting-Started/Delete-Instance.md
+      - name: Create Product and Device
+        href: Getting-Started/Create-Product-and-Device.md
+      - name: Define Thing Model
+        href: Getting-Started/Product_Model.md
   - name: Operation Guide
     items:
-      - name: Device Registration
-        items:
-          - name: Add Device
-            href: Operation-Guide/Device-Registration/Add-Devices.md
-      - name: Rule Engine
-        items:
-          - name: Add Rules
-            href: Operation-Guide/Rule-Engine/Add-Rules.md            
-  - name: Best Practices
+      - name: Create product
+        href: Operation-Guide/Create-Product.md
+      - name: Add a Single Device
+        href: Operation-Guide/Create-Device/Create-Single-Device.md
+      - name: Batch Add Devices
+        href: Operation-Guide/Create-Device/Create-Batch-Devices.md
+      - name: Device Management
+        href: Operation-Guide/Create-Device/Manage-Devices.md
+      - name: Product Thing Model Introduction
+        href: Operation-Guide/Thing-Model/Thing-Model-Introduction.md       
+      - name: Add Thing Model
+        href: Operation-Guide/Thing-Model/Create-Thing-Model.md    
+      - name: Create Rule Engine
+        href: Operation-Guide/Rule-Engine/Create-Rule.md    
+  - name: Device Development Guide
     items:
-    - name: Design TSL
-      href: Best-Practices/Design-OM.md
-  - name: Troubleshooting
-    items:
-    - name: The issue of the failure to connect a device to the IoT Hub Service
-      href: Troubleshooting/Device-Connection.md     
-  - name: FAQ
-    href: FAQ/FAQ.md
-  - name: User Agreements
-    status: 0
-    items:
-    - name: Service Terms
-      href: User-Agreements/Product-Terms-of-Service.md             
-    - name: SLA
-      href: User-Agreements/SLA.md           
-      status: 0       
+      - name: Device SDK Introduction
+        href: Developer-Guide-Device/Introduction.md
+      - name: Quick Access Device
+        href: Developer-Guide-Device/DeviceEasyLink.md       
+      - name: Device Authentication
+        href: Developer-Guide-Device/AuthenticateDevices.md   
+      - name: Establish connection
+        href: Developer-Guide-Device/EstablishConnection.md
+      - name: Subscription and Release
+        href: Developer-Guide-Device/SubPub.md
+      - name: Network Connection and Heart Beat
+        href: Developer-Guide-Device/HeartBeat-Reconnection.md
+      - name: Gateway Function
+        href: Developer-Guide-Device/Gateway_Connection.md
+      - name: Secondary API
+        href: Developer-Guide-Device/API.md  
+      - name: Terminology
+        href: Developer-Guide-Device/Glossary.md             
   - name: Related Resources
     items:
     - name: Document History Records
       href: Related-Resources/Document-History.md   
-    - name: ICP Filing
-      href: Related-Resources/Filing.md           
-      status: 0        
-    - name: Glossary
-      href: Related-Resources/Glossary.md           
-      status: 0
+  - name: FAQ
+    href: FAQ/FAQ.md
+  - name: Device SDK Download
+    href: Developer-Guide-Device/Device-SDK-Download-Link.md

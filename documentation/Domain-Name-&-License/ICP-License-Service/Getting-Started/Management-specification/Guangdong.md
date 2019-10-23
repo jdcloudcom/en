@@ -37,5 +37,7 @@
    ①The clear color picture of the front and back of the personal ID card
 
    ②**Use the special verification form for the unit in Guangdong area unit (downloadable in process)**
+   
+   ③If your household register is outside Guangdong Province, you need to provide the supporting materials proving your residence place or work place, such as the Residence Permit of Guangdong Province, the house leasing contract and the certificate of employment.
 
  

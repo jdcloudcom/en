@@ -28,6 +28,7 @@ Return Value: If succeeded, MOTT instances will be returned. Otherwise, NULL is 
 
 Parameter Description:
 
+
 | **iot_mqtt_param_t****Parameter Name** | **Parameter Type**            | **Description**             |
 | ------------------------------ | ----------------------| -------------------- |
 | port                           | uint16_t              | MQTT Broker Port      |
@@ -38,7 +39,7 @@ Parameter Description:
 | pub_key                        | char*                 | CA Certificate for Verifying MQTT Broker    |
 | clean_session                  | uint8_t               | Clear MQTT Session or not     |
 | request_timeout_ms             | uint32_t              | Timeout Setting of MQTT Message Request      |
-| keepalive_interval_ms          | uint32_t              | MQTT Heartbeat Interval
+| keepalive_interval_ms          | uint32_t              | MQTT Heartbeat Interval |
 | write_buf_size                 | uint32_t              | size of write buffer |
 | read_buf_size                  | uint32_t              | size of read buffer  |
 | handle_event                  | iot_mqtt_event_handle_t | MQTT Incident Handling and Callback Function   |

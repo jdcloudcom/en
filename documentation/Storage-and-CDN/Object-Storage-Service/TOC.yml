@@ -12,9 +12,9 @@ items:
       - name: Storage Type
         href: Introduction/StorageClass-Overview.md
       - name: Restrictions
-        href: Introduction/Restrictions.md
+        href: Introduction/Restrictions.md 
       - name: Application Scenarios
-        href: Introduction/Application-Scenarios.md
+        href: Introduction/Application-Scenarios.md    
  - name: Pricing
    items:
       - name: Billing Overview
@@ -25,6 +25,8 @@ items:
         href: Pricing/Billing-Rules.md
       - name: Price Overview
         href: Pricing/Price-Overview.md
+      - name: Pay-In-Advance Resource Pack
+        href: Pricing/Resource-Packages.md
       - name: Billing Case
         href: Pricing/Billing-Case.md
       - name: View Bills

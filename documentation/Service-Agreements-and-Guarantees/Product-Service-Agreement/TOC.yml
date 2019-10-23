@@ -138,6 +138,10 @@ items:
     href: IoT-Core-Terms-Of-Service.md 
   - name: IoT Engine Service Level Agreement (SLA)
     href: IoT-Core-Level-Agreements-SLA.md
+  - name: IoT Hub Service Terms
+    href: IoT-Hub-Terms-Of-Service.md
+  - name: Service Level Agreement of IoT Hub Service (SLA)  
+    href: IoT-Hub-Level-Agreements-SLA.md
   - name: Service Terms of IoT Card Service
     href: IoT-Link-Service-Terms-Of-Service.md
   - name: IoT Card Service Level Agreement (SLA)

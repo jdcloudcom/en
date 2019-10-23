@@ -1,50 +1,36 @@
 # Features
 
-## Easy to Use
+## Device Access 
 
-### Quick Creation
-Through the Console or simple calling of API, a new IoT Hub service instance can be created in several minutes.
+Support quick device access to multiple protocols and multiple networks
 
-### Elastic Expansion
-Support expansion and shrinkage and JD Cloud can adjust the instance configuration as needed according to tenant business conditions to improve resource utilization rate and reduce the cost of use.
+## Device Communication
 
-## Security Guarantee
- 
-### VPC (Virtual Private Cloud)
-Instances are deployed in users’ customized VPC and network isolation protection is performed directly at the application layer to ensure customers’ application security and data privacy.
+Provide two-way communication between devices and cloud, and devices are stable and reliable in device reporting and instruction placing
 
-## Monitoring Alarm
+## Device Management
 
-### Visual Monitoring
-The Console provides visual monitoring data indicators and you can view the status related to instance running at any time.
+Provide device registration, single and batches of device registration, device status, device data collection, device deletion/device disabling and other functions
 
-## Device TSL
+## Device Shadow
 
-### TSL (Thing Specification Language)
-The function descriptions of devices on cloud include the device telemetry data property, device status attribute and device control instruction of the devices. TSL is described with JSON format.
+Provide cache mechanism of device shadow to ensure devices communicates reliably and normally under unstable network
 
-### TSL – Device Telemetry Data
-The packet streaming data of device uplink is an observation value describing objective facts, which cannot be modified by the Cloud Service or other applications.
+## Product Management
 
-### TSL – Device Status Attribute
-Compared to packet data, the device status data, such as running status of device, device version number and sending frequency of device packet data, is updated with lower frequency. The status property can be modified by the Cloud Service or other applications.
+Define device set, customize products or create products by presetting template
 
-### TSL – Device Control Instruction
-The control instructions of devices positively called by the Cloud Service or other applications or triggered by a rule in the rule engine will not modify the device status attribute. For example, the message broadcast instruction of all devices.
+## Product Thing Model
 
-## Device Twins
-Device telemetry data and device status attribute data are included. Through such two types of data, a time node can be specified to completely describe the device by digital methods. It is the digital twins of the device.
-For example, at 10:00 on January 1, the current device is started up; the packet transmission frequency of the device is 5 seconds/time and the current ambient temporary is 5℃. (It is under the status of starting up; the packet transmission frequency is the device status attribute data; the ambient temporary is the device telemetry data)
+The functional descriptions of devices on cloud, through unified Thing Model definition and standard data, include the device telemetry data attribute, device status attribute and device control instruction of the devices
 
 ## Rule Engine
-Pre-process the device data received by IoT Hub and can forward and store the processed data to JD Cloud's other services, such as RDS, JCQ and ES.
 
-
+By pre-processing device data received by IoT Hub, data is dumped to JD Cloud's other cloud services, such as RDS, JCQ, ES.
 
 ## Related References
 
 - [Product Overview](../Introduction/Product-Overview.md)
 - [Price Overview](../Pricing/Price-Overview.md)
-- [Create instance](../Getting-Started/Create-Instance.md)
 
 
