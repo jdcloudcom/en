@@ -1,0 +1,62 @@
+  name: 数据传输 DTS
+  href: 
+  items:
+  - name: 产品简介
+    items:
+      - name: 产品概述
+        href: Introduction/Product-Overview.md
+      - name: 基础架构
+        href: Introduction/Basic-Infrastructure.md
+      - name: 产品优势
+        href: Introduction/Benefits.md
+      - name: 产品功能
+        href: Introduction/Features.md
+      - name: 应用场景 
+        href: Introduction/Application-Scenarios.md    
+  - name: 入门指南
+    items:
+      - name: 创建迁移任务
+        href: Getting-Started/Create-Migration-Task.md
+      - name: 启动迁移任务
+        href: Getting-Started/Start-Migration-Task.md
+      - name: 结束迁移任务
+        href: Getting-Started/Stop-Migration-Task.md
+      - name: 支持的数据库类型与版本
+        href: Getting-Started/Database-Type-and-Version.md
+      - name: 预检查说明
+        href: Getting-Started/Task-Assessment-Description.md
+      - name: 数据一致性校验说明
+        href: Getting-Started/Data-Comparison-Description.md
+      - name: JSON方式定义迁移对象
+        href: Getting-Started/Define-The-Migration-Object-in-JSON.md
+  - name: 操作指南
+    items:
+      - name: 自建MySQL迁移至云数据库MySQL
+        href: Operation-Guide/MySQL-Migrate-to-JCS-for-MySQL.md
+      - name: 自建SQL Server迁移至云数据库SQL Server
+        href: Operation-Guide/SQLServer-Migrate-to-JCS-for-SQLServer.md
+      - name: 自建MongoDB迁移至云数据库MongoDB
+        href: Operation-Guide/MongoDB-Migrate-to-JCS-for-MongoDB.md 
+  - name: 常见问题
+    href: FAQ/FAQ.md
+  - name: 用户协议
+    status: 0
+    items:
+    - name: 服务条款
+      href: User-Agreements/Product-Terms-of-Service.md           
+      status: 0      
+    - name: SLA
+      href: User-Agreements/SLA.md           
+      status: 0       
+  - name: 相关资源
+    status: 0 
+    items:
+    - name: 文档历史记录
+      href: Related-Resources/Document-History.md
+      status: 0 
+    - name: 备案
+      href: Related-Resources/Filing.md           
+      status: 0        
+    - name: 词汇表
+      href: Related-Resources/Glossary.md           
+      status: 0

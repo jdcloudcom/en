@@ -1,9 +1,8 @@
-
 # JD Cloud C++ Signature Library
-## Basic Description
-The JD Cloud C ++ signature tool provides the request signature function when C ++ language is used to access the JD Cloud OpenAPI.
 
-Before calling JD Cloud open API, it's necessary to apply for Accesskey and secretKey Key Pair (AK/SK) in advance in Account Management of JD Cloud User Center [AccessKey Management Page](https://uc.jdcloud.com/accesskey/index). AK/ SK information shall be kept properly and if lost, it is likely to allow illegal users to use this information to operate your resources on the cloud, resulting in data or property losses.
+
+## Basic Description
+JD Cloud C++ signature tool provides the function of requesting signatures when C++ language accesses JD Cloud OpenAPI. It uses AccessKey and SecretKey as materials to conduct multiple processes of relevant information of HTTP request, and sign the request with time and nonce random value. Using this signature tool can save your time of writing signatures. If there is no correct signature, you possibly cannot normally access JD Cloud OpenAPI. Using the signature function can guarantee your identity will not be impersonated. Please pay attention to the security of AK/SK.
 
 This signature tool is available in a static library using the C++11 standard. The approximate process used is:
 - Introducing the dependent header files and static libraries into your project through the cmake tool
@@ -12,109 +11,51 @@ This signature tool is available in a static library using the C++11 standard. T
 - Put the returned Authorization, x-jdcloud-date, and x-jdcloud-nonce and their values into your real request Header
 - Then initiate a call to JD Cloud OpenAPI gateway
 
-## Linux(Ubuntu)
-### Installation Method
-1) Installation of development dependency library
-```
-sudo apt-get install g++ cmake libssl-dev uuid-dev
-```
-2) Download the Demo example from the GitHub, the address is https://github.com/jdcloud-api/jdcloud-sdk-cpp-signer
+## Installation Method
+### Linux (Ubuntu)
 
-### Application Method
-1) Create Project Catalogue
-2) Write the cmake file, refer to the examples in Demo, and reference the header file
 ```
-include_directories(${PROJECT_SOURCE_DIR}/h)
-include_directories(${PROJECT_SOURCE_DIR}/http)
-include_directories(${PROJECT_SOURCE_DIR}/util)
-include_directories(${PROJECT_SOURCE_DIR}/util/crypto)
-include_directories(${PROJECT_SOURCE_DIR}/util/logging)
-```
-3) Refer to static library
-```
-link_libraries(${PROJECT_SOURCE_DIR}/libjdcloudsigner.a)
-link_libraries(ssl)
-link_libraries(crypto)
-link_libraries(uuid)
-```
-4) Refer to the main.cpp in Demo to call the signature interface. See Subsection "Call Method" for details.
-5) Compile link
-```
-cmake .
-make
+sudo add-apt-repository ppa:jdcloud/sdk
+sudo apt-get update
+sudo apt-get install libjdcloud-signer-dev
 ```
 
-## macOS
-### Installation Method
-1) Install the cmake of above 3.5 version
-```
-brew install cmake
-```
-2) Download the Demo example from the GitHub, the address is https://github.com/jdcloud-api/jdcloud-sdk-cpp-signer
+### MacOS
 
-### Application Method
-1) Create Project Catalogue
-2) Write the cmake file, refer to the examples in Demo, and reference the header file
-```
-include_directories(${PROJECT_SOURCE_DIR}/h)
-include_directories(${PROJECT_SOURCE_DIR}/http)
-include_directories(${PROJECT_SOURCE_DIR}/util)
-include_directories(${PROJECT_SOURCE_DIR}/util/crypto)
-include_directories(${PROJECT_SOURCE_DIR}/util/logging)
-```
-3) Refer to static library (ssl library is brought with the mac system without installation)
-```
-link_libraries(${PROJECT_SOURCE_DIR}/libjdcloudsigner.a)
-link_libraries(ssl)
-link_libraries(crypto)
-```
-4) Refer to the main.cpp in Demo to call the signature interface. See Subsection "Call Method" for details.
-5) Compile link
-```
-cmake .
-make
-```
-## Windows
-### Installation Method
-1) Updated version of Visual Studio 2015, the official address is https://visualstudio.microsoft.com/
-2) Updated version of CMake 3.5, the official address is https://cmake.org/
-3) Download the Demo example from the GitHub, the address is https://github.com/jdcloud-api/jdcloud-sdk-cpp-signer
+1. Install [homebrew](https://brew.sh/index_zh-cn)
+2. Run the following script
 
-### Application Method
-1) Create Project Catalogue
-2) Write the cmake file, refer to the examples in Demo, and reference the header file
-```
-include_directories(${PROJECT_SOURCE_DIR}/h)
-include_directories(${PROJECT_SOURCE_DIR}/http)
-include_directories(${PROJECT_SOURCE_DIR}/util)
-include_directories(${PROJECT_SOURCE_DIR}/util/crypto)
-include_directories(${PROJECT_SOURCE_DIR}/util/logging)
-```
-3) Refer to static library
-```
-link_libraries(${PROJECT_SOURCE_DIR}/jdcloudsigner.lib)
-link_libraries(${PROJECT_SOURCE_DIR}/libeay32.lib)
-```
-4) Refer to the main.cpp in Demo to call the signature interface. See Subsection "Call Method" for details.
-5) Compile link
-
-Open Visual Studio developer command prompt, execute
-```
-cmake .
-devenv Demo.sln /build
+```sh
+brew tap jdcloud-api/tap
+# Stable
+brew install libjdcloud_signer
+# git head version
+brew install libjdcloud_signer --HEAD
 ```
 
-Open the Demo.sln solution using Visual Studio, compile.
+### Windows
+1. Install Visual Stdio 2015 or above versions, the official website is: https://visualstudio.microsoft.com/
+2. Install CMake 3.5 or above versions, the official website is: https://cmake.org/
+3. Execute `cmake .`under the download code directory
+4. Download and install openssl library, the website is: http://slproweb.com/products/Win32OpenSSL.html
+5. Use Visual Studio to open the Demo.sln solution, and compile it. The generation path is: src/Debug.
+## Use Method
 
-## Call Method
-```C++
-// reference header files
-#include "Credential.h"
-#include "JdcloudSigner.h"
-#include "http/HttpTypes.h"
-#include "http/HttpRequest.h"
-#include "util/logging/Logging.h"
-#include "util/logging/ConsoleLogSystem.h"
+* Please refer to [examples](https://github.com/jdcloud-api/jdcloud-sdk-cpp-signer/tree/master/examples)
+
+### Call Method
+
+```cpp
+// Reference header file
+#include "jdcloud_signer/Credential.h"
+#include "jdcloud_signer/JdcloudSigner.h"
+#include "jdcloud_signer/http/HttpTypes.h"
+#include "jdcloud_signer/http/HttpRequest.h"
+#include "jdcloud_signer/logging/Logging.h"
+#include "jdcloud_signer/logging/ConsoleLogSystem.h"
+
+using namespace std;
+using namespace jdcloud_signer;
 
 // Configuration log
 ConsoleLogSystem* cls = new ConsoleLogSystem(LogLevel::Debug);
@@ -122,9 +63,9 @@ shared_ptr<ConsoleLogSystem> log(cls);
 InitializeLogging(log);
 
 // Create LinkpRequest object
-HttpRequest request(URI("YOUR URL"), HttpMethod::HTTP_GET);
+HttpRequest request(URI("http://www.jdcloud-api.com/v1/regions/cn-north-1/instances?pageNumber=2&pageSize=10"), HttpMethod::HTTP_GET);
 request.SetHeaderValue(CONTENT_TYPE_HEADER, "application/json");
-request.SetHeaderValue(USER_AGENT_HEADER, "JdcloudSdkGo/1.0.2 vm/0.7.4");
+request.SetHeaderValue(USER_AGENT_HEADER, "JdcloudSdkCpp/1.0.2 vm/0.7.4");
 
 // Create signature object
 Credential credential("YOUR AK", "YOUR SK");
@@ -143,6 +84,27 @@ else
 }
 ```
 
+## FAQ
+### How to use openssl 1.1 for compilation?
+
+#### Ubuntu 18.04
+
+```
+sudo apt install libssl-dev
+cmake .
+make
+sudo make install
+```
+
+#### MacOS X
+
+```
+brew install openssl@1.1
+cmake -DOPENSSL_ROOT_DIR=/usr/local/opt/openssl@1.1/ .
+make
+sudo make install
+```
+
 **Note:**
 
 - JD Cloud does not provide other download methods. Please be sure to adopt the above official download method.
@@ -150,6 +112,3 @@ else
 - The latest version number provided by JD Cloud product shall be used as the version number. For example: The latest version number used by VM in the example can be searched in API [Update History](../../API/Virtual-Machines/ChangeLog.md).
 
 - Each cloud product has its own Client. When API of this product is called, the Client of such product will be used. For example: When VmClient of Virtual Machines is used, only APIs of Virtual Machines (Vm) can be called; when AgClient of Availability Group is used, only APIs of Availability Group (Ag) can be called.
-
-
- 

@@ -98,6 +98,8 @@ items:
     href: Distributed-Cloud-Physical-Server-SLA.md
   - name: Service Terms on Edge Cloud Public IP
     href: Elastic-IP-For-Edge-Cloud-Terms-Of-Service.md
+  - name: 边缘网络隧道(ENT)服务协议
+    href: Edge-Network-Tunnel-Terms-Of-Service.md
   - name: Message Queue Service Agreement
     href: Message-Queue-JCQ-Service-Terms.md
   - name: Message Queue Service Level Agreement (SLA)
@@ -164,5 +166,10 @@ items:
     href: JDCloudHSM-Terms-Of-Service.md
   - name: JD Cloud HSM Service Level Agreement (SLA)
     href: JDCloudHSM-Level-Agreements-SLA.md
+  - name: 数据传输(DTS)服务协议
+    href: Data-Transmission-Service-Terms-Of-Service.md 
   - name: Intelligent Design Product Service Agreement
     href: Intelligent-Design-Terms-Of-Service.md
+  - name: 京东云提货券服务协议
+    href: Voucher-Terms-Of-Service.md
+    

@@ -1,6 +1,5 @@
-
-
 # Introduction
+
 
 &emsp;&emsp; Welcome to use JD Cloud Developer.NET SDK. To use JD Cloud .NET SDK, you can access the various services provided by JD Cloud without complex programming.    
 &emsp;&emsp; To facilitate the understanding of some concepts and parameters in SDK, it is recommended to view Getting-Started Guide for OPENAPI before using SDK. To understand the specific parameters and meanings of each API, please refer to the program comments or refer to the API documentation of the specific product line under [OpenAPI&SDK](https://www.jdcloud.com/help/faq?act=3).
@@ -36,11 +35,19 @@ or use .NET CLI for installation
 
 ```powershell
 dotnet add package JDCloudSDK.Vm --version 1.2.0.1
-```
+```  
+
+You can also download the SDK source code and directly add to the project or compile it into DLL and quote it to the project.  
+
+For any questions in using SDK, welcome to communicate with us at the [SDK Feedback Page of problems](https://github.com/jdcloud-api/jdcloud-sdk-net/issues).
 
 Please select the module which you need to install.
 
-For any questions in using SDK, welcome to communicate with us at the [SDK Feedback Page of problems](https://github.com/jdcloud-api/jdcloud-sdk-net/issues) for the Github project.
+<em> Note: </em> Please use the package manager to update the version of JDCloudSDK.Core to 0.2.8 because in 0.2.7 version, if there is a space in the value when post transmits the data, the space will be put away, resulting exceptions of backend
+
+```powershell
+Install-Package JDCloudSDK.Core -Version 0.2.8
+```
 
 # Call SDK
 
@@ -53,14 +60,17 @@ For any questions in using SDK, welcome to communicate with us at the [SDK Feedb
 The following is an example of a call to query details for individual VM Instance
 
 ```csharp
+using System;
+
+using Newtonsoft.Json;
+
 using JDCloudSDK.Core.Auth;
 using JDCloudSDK.Core.Client;
 using JDCloudSDK.Core.Http;
-using Newtonsoft.Json;
-using System;
 using JDCloudSDK.Vm.Model;
 using JDCloudSDK.Vm.Apis;
 using JDCloudSDK.Vm.Client;
+
 namespace JDCloudSDK.ConsoleTest
 {
     class Program
@@ -71,6 +81,7 @@ namespace JDCloudSDK.ConsoleTest
             string accessKeyId = "{accessKey}";
             string secretAccessKey = "{secretKey}";
             CredentialsProvider credentialsProvider = new StaticCredentialsProvider(accessKeyId, secretAccessKey);
+            
             // 2. Creating XXXClient
             VmClient vmClient = new VmClient.DefaultBuilder()
                      .CredentialsProvider(credentialsProvider)
@@ -81,6 +92,7 @@ namespace JDCloudSDK.ConsoleTest
             DescribeInstanceRequest request = new DescribeInstanceRequest();
             request.RegionId="cn-north-1";
             request.InstanceId="i-c0se9uju";
+            
             // 4. Execution Requests
             var response = vmClient.DescribeInstance(request).Result;
             Console.WriteLine(JsonConvert.SerializeObject(response))
@@ -94,7 +106,37 @@ If you need to set up an additional header, for example, call an interface that 
 
 ```csharp
 vmClient.SetCustomHeader("x-jdcloud-security-token","xxx");
+```  
+If you need to set an access point or configure time-out, please refer to the following examples:  
+
+```csharp
+
+//1.Set accessKey and secretKey
+string accessKeyId = "";
+string secretAccessKey = "";
+CredentialsProvider credentialsProvider = new StaticCredentialsProvider(accessKeyId, secretAccessKey);
+//2.Build request endpoint configuration
+SDKEnvironment sdkEnvironment = new SDKEnvironment("nativecontainer.internal.cn-north-1.jdcloud-api.com");
+//3.Create XXXClient
+VmClient vmClient = new VmClient.DefaultBuilder()
+        .CredentialsProvider(credentialsProvider)
+        .Environment(sdkEnvironment) //specify the non-default Endpoint
+        .HttpRequestConfig(new HttpRequestConfig(Protocol.HTTP, 50))  // set request http schema HTTP or HTTPS ,50 is the time-out period, second by default
+        .Build();
+
 ```
+
+If you need to read all kinds of information of the request response (for example, the value of a header), you can refer to the following method:  
+
+```csharp
+ Dictionary<string,List<string>> headers = response.HttpResponse.Header;
+if (headers.ContainsKey("headerKey")) {
+    List<string> headerValue = headers["headerKey"];
+}
+```  
+
+For more calling examples, please refer to [SDK Use Demo](https://github.com/jdcloud-api/jdcloud-sdk-net/tree/master/sdk/src/Examples)
+
 
 **Note:**
 
@@ -103,6 +145,3 @@ vmClient.SetCustomHeader("x-jdcloud-security-token","xxx");
 - The latest version number provided by JD Cloud product shall be used as the version number. For example: The latest version number used by VM in the example can be searched in API [Update History](../../API/Virtual-Machines/ChangeLog.md).
 
 - Each cloud product has its own Client. When API of this product is called, the Client of such product will be used. For example: When VmClient of Virtual Machines is used, only APIs of Virtual Machines (Vm) can be called; when AgClient of Availability Group is used, only APIs of Availability Group (Ag) can be called.
-
-
- 

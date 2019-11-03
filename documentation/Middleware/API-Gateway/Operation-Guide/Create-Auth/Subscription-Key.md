@@ -25,7 +25,7 @@ Middleware>API Gateway> API Calling >subscription key
 
   ![访问授权](../../../../../image/Internet-Middleware/API-Gateway/Auth-subkey-2.png)
   
-- Select the "subscription key" of the authorization type in the "basic information" part. The user can select the subscription key created by the current user from the subscription key list or enter the subscription ID of other users to search and select keys.
+- Select the "subscription key" of the authorization type in the "basic information" part. The user can select the subscription key created by the current user from the subscription key list to search and select keys.
 - After selecting the subscription key, select the corresponding group that can be associated in the "associate group" part for association, and click **OK**. At this point, the authorization between the subscription key and API group has been completed.
 
   Note: The API groups can be exhibited only in the associated list only when by releasing API groups in the environment and setting the access authorization method as "Enable Access Authorization".

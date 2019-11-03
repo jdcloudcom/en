@@ -5,6 +5,10 @@
     href: Real-Name-Verification.md
   - name: Personal Real-name Verification Guideline
     href: Personal-Account-Verification.md
+  - name: Real-name Mobile Phone Verification
+    href: Personal-Account-Phone.md
+  - name: Face Scanning Verification
+    href: Personal-Account-Face.md
   - name: Enterprise Real-name Verification Guideline
     href: Business-Account-Verification.md
   - name: Updating of Enterprise Real-name Verification Information

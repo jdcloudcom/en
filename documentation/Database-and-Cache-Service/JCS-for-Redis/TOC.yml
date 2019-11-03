@@ -61,6 +61,8 @@
         href: Operation-Guide/Backup-And-Recovery.md
       - name: Parameter Modification
         href: Operation-Guide/Parameter-Modification.md
+      - name: 慢日志查询
+        href: Operation-Guide/SlowLog.md
       - name: Monitoring Alarm
         items:
           - name: View Monitoring Information

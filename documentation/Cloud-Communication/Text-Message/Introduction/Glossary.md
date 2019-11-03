@@ -14,7 +14,7 @@ SMS Template: Your JD Cloud login verification code is ${1}, please keep it a se
 
 **SMS Template**<br>
 SMS template is the specific SMS content sent.<br>
-SMS template supports two modes, i.e., the verification code and the notification SMS. For verification code and notification SMS, individual SMS can be customized by replacing variables.<br>
+SMS template supports three modes, i.e., the verification code ,the notification SMS and 推广短信. For verification code and notification SMS, individual SMS can be customized by replacing variables. 推广短信不支持在模版中添加变量。<br>
 SMS templates can be used only upon approval.<br><br>
 
 Example:<br>

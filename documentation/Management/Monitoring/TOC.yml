@@ -67,16 +67,16 @@ items:
           href: Operation-Guide/resource-monitoring/alarm-template.md
     - name: Custom Metric Monitoring 
       items:
-        - name: Customized Metric Monitoring Overview
+        - name: Overview
           href: Operation-Guide/custom-monitoring/custom-monitoring-overview.md
         - name: Report Monitoring Data
           href: Operation-Guide/custom-monitoring/reporting-monitoring-data.md
-        - name: View Monitoring Data
-          href: Operation-Guide/custom-monitoring/view-monitoring-data.md
-        - name: Delete Monitoring Data
-          href: Operation-Guide/custom-monitoring/delete-monitoring-data.md      
-        - name: Set Alarm Rules
-          href: Operation-Guide/custom-monitoring/set-alarm-rules-CustomMetric.md
+        - name: View the monitoring graph
+          href: Operation-Guide/custom-monitoring/chart-view.md
+        - name: Add Alarm Rule
+          href: Operation-Guide/custom-monitoring/create-alarmrule-custom.md      
+        - name: Manage Alarm Rule
+          href: Operation-Guide/custom-monitoring/manage_alarmrules_cm.md
         - name: View Historical Alarms
           href: Operation-Guide/custom-monitoring/view-alarm-history-CustomMetric.md
 - name: Best Practice

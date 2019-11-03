@@ -36,6 +36,7 @@ After OSS Bucket uploads the object, the address of the object is available, inc
 ```
 <BucketName>.<Endpoint>
 ```
+
 [Internet Domain- endpoint ](../../API-Reference-S3-Compatible/Regions-And-Endpoints.md)
 
 Customized domain is available as access address to the storage file in OSS after the customized domain is associated successfully. For example, your storage space example is located in cn-north-1, the object file name is test.jpg, and the customized domain associated is hello-world.com, then the object access address is:

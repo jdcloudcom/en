@@ -4,6 +4,7 @@ The backup of instance will be stored on cloud storage server of JD Cloud. At pr
 
 ## Precautions
 * Please ensure to create backup in the business off-peak season.
+* 备份文件不会占用数据库实例的本地磁盘空间。
 * During implementing manual backup or automatic backup, implementing DDL modification will cause the failure of creating backup.
 * During implementing manual backup or automatic backup, a large amount of DML modification will cause the failure of creating backup.
 * Manual backup: each region supports to create 5 backups at most. Manual backup will be automatically released as instances are deleted.

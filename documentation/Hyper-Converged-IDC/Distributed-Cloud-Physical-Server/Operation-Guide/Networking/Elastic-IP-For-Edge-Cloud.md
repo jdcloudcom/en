@@ -20,7 +20,7 @@ Please keep the following restrictions in mind when using the Elastic IP.
 
 ## Billing Overview
 
-Elastic IP supports the monthly package billing method. Monthly package: Pay-in-advance by bandwidth configuration
+Elastic IP supports the monthly package billing method. Monthly package: Pay-in-advance by bandwidth configuration, 弹性公网IP支持带宽和额外上行带宽2个计费项。
 
 **Amount Overdue/Expiry Description**
 
@@ -43,7 +43,7 @@ Elastic IP supports the monthly package billing method. Monthly package: Pay-in-
 The monthly package is Pay-In-Advance type, with a one-time fee of one month, several months or many years. It is suitable for the scenario of pre-estimation of Elastic IP bandwidth demand, and the cost is cheaper than billing by configuration.
 
 Example:
-If you purchase the Telecom Elastic IP with 1M bandwidth for 1 month at 10:00:00 on August 2, 2017 at the monthly unit price of RMB 23, you need to pay RMB 23=23* 1 and you could use this resource till 23:59:59 on September 2, 2017.
+您在2017-8-2 10:00:00购买1个月1M带宽、1M额外上行带宽的电信弹性公网IP，月单价总和为23元，则您需要支付的费用为23=23* 1元，您可以使用该资源至2017-9-2 23:59:59。
 
 Detailed Description:
 Costs for months or years are paid in advance, and current purchased time period supports 1 month~9 months, 1 year, 2 years, and 3 years; costs are deducted at one time when creating the resources;
@@ -61,14 +61,14 @@ For details, please refer to Elastic IP [Price Overview](../../Pricing/Price-Ove
 Turn on the Console, click **Distributed Cloud Physical Server** -> **Elastic IP** in turn in the left navigation bar, log in the Elastic IP List Page and click **Apply**, with the pop-up as shown below:<br/>
 
 Select **Node**, operator, Billing by Bandwidth mode, ISP Line type, bandwidth cap, purchase duration and count according to demands and click **OK**, to create 1 Elastic IP.
-![创建eip](https://github.com/jdcloudcom/cn/blob/cn-distributed-cloud-physical-service/documentation/Hyper-Converged-IDC/Distributed-Cloud-Physical-Server/Image/DCPS-0088.png)
+![创建eip](https://github.com/jdcloudcom/cn/blob/cn-distributed-cloud-physical-service/documentation/Hyper-Converged-IDC/Distributed-Cloud-Physical-Server/Image/create-eip.png)
 
 ## View Elastic IP
 
 Turn on the Console, click **Distributed Cloud Physical Server** -> **Elastic IP** in turn in the left navigation bar, log in the Elastic IP List Page and view Elastic IP information, as shown in the picture below:<br/>
 
 Click **Public IP ID/Address** of Elastic IP, redirect to the Details Page and View details of Elastic IP.
-![查看eip表页](https://github.com/jdcloudcom/cn/blob/cn-distributed-cloud-physical-service/documentation/Hyper-Converged-IDC/Distributed-Cloud-Physical-Server/Image/DCPS-009.png)
+![查看eip表页](https://github.com/jdcloudcom/cn/blob/cn-distributed-cloud-physical-service/documentation/Hyper-Converged-IDC/Distributed-Cloud-Physical-Server/Image/eip-list.png)
 
 ## Associate the EIP
 
@@ -87,4 +87,4 @@ Moreover, turn on the Console, click **Distributed Cloud Physical Server** -> **
 ## Modify Bandwidth
 
 Moreover, turn on the Console, click **Distributed Cloud Physical Server -> **Elastic IP** in turn in the left navigation bar, and click **Modify Bandwidth** in operation. Then, the bandwidth to be adjusted can be selected in the pop-up to complete the operation.
-![修改带宽](https://github.com/jdcloudcom/cn/blob/cn-distributed-cloud-physical-service/documentation/Hyper-Converged-IDC/Distributed-Cloud-Physical-Server/Image/DCPS-012.png)
+![修改带宽](https://github.com/jdcloudcom/cn/blob/cn-distributed-cloud-physical-service/documentation/Hyper-Converged-IDC/Distributed-Cloud-Physical-Server/Image/modify-eip.png)

@@ -13,3 +13,8 @@
 ## Log Management
 &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;The management of the log collection and log subject can change the log retention duration and the instance information collected by the log subject.
 
+## Log Dump
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; it supports that the user can dump the collected log data to OSS. Meet the users’ demands for log audit, Persistent Volume and offline analysis.
+
+## Log Field Monitoring
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; the user can create monitoring tasks for keywords or some fields in logs, view the monitoring graph and set alarm rules.

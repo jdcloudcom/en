@@ -1,5 +1,5 @@
 ## Product Overview<br>
-JD SMS Cloud Platform is a large distributed communication operation cloud platform built with JD Cloud distributed architecture, providing various SMS service such as domestic and overseas notification SMS, verification code SMS and notification SMS to large-sized enterprises and public institutions as well as small and medium-sized customers.<br><br>
+JD SMS Cloud Platform is a large distributed communication operation cloud platform built with JD Cloud distributed architecture, providing various SMS service such as domestic and overseas notification SMS, verification code SMS, 推广类短信 and notification SMS to large-sized enterprises and public institutions as well as small and medium-sized customers.<br><br>
 Currently, the platform is based on the cloud computing architecture, realizes JD Distributed Service management of fine granularity, and has great advantages in high performance, high security, high availability and elastic expansion.<br><br>
 **Benefits**<br>
 1. Strongly Stable Modules with Each Module Having High Message Handling Efficiency<br>
@@ -18,3 +18,5 @@ Support multiple producers and consumers to concurrently access the same queue, 
 The notification SMS has 99% arrival rate, telecom-level operation and maintenance guarantee, real-time monitoring and flexible switch.<br><br>
 2. 	Verification Code SMS<br>
 The verification code SMS provides a dedicated three-in-one network channel, is connected to the platform for shifting network with the same phone number of the Ministry of Industry and Information Technology in real time and can reach the user in 3 seconds. The verification code SMS supports variables, has flexible and mobile contents and can fit to demands of several business scenarios.<br><br>
+3.	推广类短信<br>
+支持推广类型的短信发送，为提升企业产品增加曝光率。如：业务推广、新产品宣讲、会员关怀等。<br><br>

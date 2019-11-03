@@ -18,34 +18,25 @@ jdcloud_signer = "0.1"
 
 ### Example of use
 
-```Rust
-use jdcloud_signer::{Credential, Signer, Client};
-use http::Request;
-use serde_json::Value;
+For detailed examples, please refer to [client.rs](https://github.com/jdcloud-api/jdcloud-sdk-rust-signer/blob/master/examples/client.rs)
 
-fn main() {
-    let ak = "...";
-    let sk = "...";
-    let credential = Credential::new(ak, sk);
-    let signer = Signer::new(credential, "vm".to_string(), "cn-north-1".to_string());
-
-    let mut req = Request::builder();
-    let mut req = req.method("GET")
-        .uri("https://vm.jdcloud-api.com/v1/regions/cn-north-1/instances")
-        .body("".to_string()).unwrap();
-    signer.sign_request(&mut req).unwrap();
-
-    let client = Client::new();
-    let mut res = client.execute(req).unwrap();
-
-    println!("status: {}", res.status());
-    for header in res.headers().into_iter() {
-        println!("{}: {:?}", header.0, header.1);
-    }
-    let text = res.text().unwrap();
-    let json: Value = serde_json::from_str(&text).unwrap();
-    println!("requestId: {}", json["requestId"]);
-}
+```sh
+$ export JDCLOUD_AK="..."
+$ export JDCLOUD_SK="..."
+$ cargo run --example client
+    Finished dev [unoptimized + debuginfo] target(s) in 0.37s
+     Running `target/debug/examples/client`
+status: 200 OK
+content-type: "application/json; charset=utf-8"
+transfer-encoding: "chunked"
+connection: "close"
+date: "Mon, 22 Jul 2019 09:18:34 GMT"
+x-jdcloud-request-id: "bkrovrdrv8ewru46782326noreauvdsf"
+x-jdcloud-operationid: "describeInstances"
+x-jdcloud-upstream-latency: "310"
+x-jdcloud-proxy-latency: "30"
+via: "jd-gateway/1.0.1"
+requestId: "bkrovrdrv8ewru46782326noreauvdsf"
 ```
 
 ## Usage: Signature-only Mode
@@ -70,7 +61,7 @@ jdcloud_signer = { version = "0.1", default-features = false }
 
 ### Example of use
 
-```Rust
+```rust
 use jdcloud_signer::{Credential, Signer};
 use http::Request;
 
@@ -88,6 +79,11 @@ fn main() {
     println!("{}", req);
 }
 ```
+
+For more calling examples, please refer to [SDK Use Demo](https://github.com/jdcloud-api/jdcloud-sdk-rust-signer/tree/master/examples)
+
+
+
 
 
 **Note:**

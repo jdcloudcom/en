@@ -33,6 +33,8 @@ items:
           href: Introduction/ResourceLog/MySQLLog.md
         - name: JCS for Kubernetes System Log
           href: Introduction/ResourceLog/KubernetesLog.md
+        - name: JCS for Redis Log
+          href: Introduction/ResourceLog/RedisLog.md
 - name: Product Pricing
   items:
     - name: Billing Overview
@@ -69,18 +71,26 @@ items:
           href: Operation-Guide/LogSearch/KVSearch.md
     - name: Log Dump
       href: Operation-Guide/LogTransfer.md
+    - name: Log Monitoring
+      items:
+        - name: Log Monitoring Configuration
+          href: Operation-Guide/LogMonitor/MonitorConfig.md
 - name: Best Practices
   items:
-    - name: Application Security Gateway Log
+    - name: Log Collection - Application Security Gateway Log Collection
       href: Best-Practices/Practice-waf.md
+    - name: Log Dump Configuration - ALB Access Log Dump
+      href: Operation-Guide/LogTransfer/EasyCase.md
+    - name: Log Monitoring Configuration - Business Application Log Monitoring
+      href: Operation-Guide/LogMonitor/EasyCase.md
 - name: FAQ
   href: FAQ/FAQ.md
 - name: Document History Records
-  href: Related-Resources/Document-History.md
+  href: Related-Resources/Document-History.md 
 - name: User Agreements
   items:
     - name: Service Terms
-      href: User-Agreement/Product-Terms-Of-Service.md
+      href: User-Agreement/Product-Terms-Of-Service.md        
 - name: SLA         
   status: 0       
 - name: ICP Filing         

@@ -4,27 +4,23 @@ Customized Metric Monitoring is a feature that provides users with the freedom t
 
 ### Report Monitoring Data
 
-The function of Customized Metric Monitoring provides you with an interface for reporting monitoring data, so that you can report the time series data collected by yourself to the Cloud Monitor. Currently, the method of OpenAPI is supported to report, and the original data and the aggregated statistics can be reported.
-Click to see how [Report Monitoring Data](http://docs.jdcloud.com/en/monitoring/reporting-monitoring-data).
+### View the monitoring graph  
+1. Log in JD Cloud Console and click **Management->Monitoring->Custom Metric Monitoring** to enter the Monitoring Graph Search page.  
+![查询监控图](../../../../image/Cloud-Monitor/CustomMetric/chart-view_0.png)  
 
-### View Monitoring Data
-**View Namespace**
+2. Configure the information about region, namespace, monitoring indicator, aggregation method and indicator dimension as required. The meaning of each field can be viewed [View the Monitoring Graph](https://docs.jdcloud.com/cn/monitoring/chart-view).
 
-Enter the JD Cloud Console - Monitoring - Customized Metric Monitoring, enter the Customized Metric Monitoring main page, you can view the namespaces, monitoring objects and indicators that you have reported. As shown in the diagram below:
-![](https://raw.githubusercontent.com/jdcloudcom/en/Monitoring/image/Cloud-Monitor/getting-started/cmm-01.png)
+3. After specifying search conditions, the monitoring data for the indicator can be viewed on the right side. The trend chart information can be viewed by switching time, and the aggregation method can be changed.  
 
-**View Monitoring Resources**
 
-Click on the name of the Namespace to view the status of the resources reported to the Namespace, as shown in the following figure:
-![](https://raw.githubusercontent.com/jdcloudcom/en/Monitoring/image/Cloud-Monitor/getting-started/cmm-02.png)
+### Configure Alarm
 
-**View Monitoring Graph**
+1. Click **Configure Alarm** button in the monitoring graph searched by following the above steps to open the **Add Alarm Rules** page.  
+![添加报警规则](../../../../image/Cloud-Monitor/CustomMetric/create_rules.png)
 
-Select the monitoring object to be viewed, click on the "View" in the operation column, and enter the monitoring graph detail page to view the monitoring trend graph of the monitoring object, as shown in the following figure:
-![](https://raw.githubusercontent.com/jdcloudcom/en/Monitoring/image/Cloud-Monitor/getting-started/cmm-03.png)
+2. Configure the following information as required:  
+- Set the basic information about rule name, region, namespace, monitoring indicator, aggregation method, and monitoring dimension, which should be consistent with the configuration in the search monitoring graph and can be adjusted as needed. 
+- Configure triggering conditions, statistical periods, statistical methods, calculation methods, alarm threshold and duration period.
+- Set the notification policies, notification period, effective time, notification conditions, reception channel and notification object information.
 
-### Delete Monitoring Data
-
-Enter the JD Cloud Console - Monitoring - Customized Metric Monitoring, enter the Customized Metric Monitoring page. Click the name of the Namespace, enter the monitoring resource list page, select the monitoring object to be deleted, and click the "Delete" button in the operation column to delete.
-
-Note: After deleting all the monitoring objects under the Namespace, Cascading delete of the Namespace is also executed.
+3. Click the **OK** button to finish configuration. View the alarm rules set in the alarm rule list. Once the monitoring dimension of the monitoring indicator configured by the rule reaches the alarm threshold, Monitoring will notify according to the notification policies set.

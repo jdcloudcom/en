@@ -3,15 +3,15 @@
 
 The CLI is currently supported on Linux, macOS, and Windows systems.
 
-## Installation Instructions ##
+## 1. Installation Instructions ##
 
 JD Cloud CLI is developed based on Python language and JD Cloud Python SDK. Please install Python 2.7.* Version before using the CLI. Please visit the official website to download and install the Python 2.7.* Version.
 
-The JD Cloud Python SDK does not have to be installed manually, and the Python package management tool can automatically download and install the corresponding version of the dependency package. If you have installed the JD Cloud Python SDK, which cannot work properly because the CLI version does not correspond to it, please refer to the version correspondence table in the “CLI Use Instructions”, install the corresponding version, or delete the old Python SDK and reinstall the CLI.
+The JD Cloud Python SDK does not have to be installed manually, and the Python package management tool can automatically download and install the corresponding version of the dependency package. If you have installed the JD Cloud Python SDK, which cannot work properly because the CLI version does not correspond to it, please refer to the version correspondence table in the "CLI Use Instructions", install the corresponding version, or delete the old Python SDK and reinstall the CLI.
 
   
 
-## Python 2.7 Installation ##
+## 2. Python 2.7 Installation ##
 
 Download and install: https://www.python.org/downloads
 
@@ -35,7 +35,7 @@ macOS
 	brew install python@2
 
 
-## Installation of Pip ##
+## 3. Installation of Pip ##
 
 For installation, refer to: https://pip.pypa.io/
 
@@ -51,17 +51,17 @@ https://packaging.python.org/guides/installing-using-linux-tools/#installing-pip
 
 
 
-## CLI Installation ##
+## 4. CLI Installation ##
 
 ### Linux & macOS Installation ###
 
-- pip Installation (Recommended)
+-Method 1: pip Installation (Recommended)
 
 
 	pip install jdcloud_cli
 
 
-- Source Code Installation
+-Method 2: Source Code Installation
 
 Download Address: https://github.com/jdcloud-api/jdcloud-cli
 
@@ -71,7 +71,7 @@ After unzipping, it is performed in the project directory:
 	python setup.py install
 
 
-- Open Bash auto-completion
+- Open Bash auto-completion (recommended configuration)
 
 The CLI's auto-completion feature can be started by executing the following command.
 
@@ -119,13 +119,13 @@ After installation, perform the following scripts in the git bash:
 	source ~/.bashrc
 
 
-## Remove CLI ##
+## 5. Remove CLI ##
 
 
 	pip uninstall jdcloud_cli
 
 
-## Upgrade CLI ##
+## 6. Upgrade CLI ##
 
 Use the following command to upgrade to the latest version.
 

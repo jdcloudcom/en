@@ -3,6 +3,10 @@ The following system components are installed by default in the Public Image to 
 
 Due to the objective factors of system upgrade and component upgrade, the following components may not be installed in the early Public Image. It is recommended that you check the current system installation status and complete the installation one by one.
 
+    * Note:
+      When the private images are imported to the installed scenario, please install other agents (except ifrit) under the external environment. After the private images are imported to JD Cloud environment, ifrit shall be installed on your own.
+    
+
 | Component Name    | Relevant Process Name    | Main Feature     | Influence when it is not installed    |
 | --- | --- | --- | --- |
 |   JCS-Agent  | JCSAgentCore <br> MonitorPlugin-‘Version Number’  <br>  UpgradePlugin-‘Version Number’  | General core components provide password key injection, customized script injection, monitoring data reporting and other features  in cooperation metadata service    |  It is impossible to set passwords, keys and customized user data through JD Cloud Console or openAPI, and some VM Monitoring data cannot be obtained   |
@@ -54,12 +58,18 @@ If the endpoint is not associated with EIP, please replace the regional paramete
 https://bj-jcs-agent-linux.s3.cn-north-1.jdcloud-oss.com/jcloud-jcs-agent-linux-deploy.py <br>
 https://bj-jcs-agent-linux.s3.cn-north-1.jdcloud-oss.com/jcloud-jcs-agent-linux.zip <br>
 
-2. Execute the following command to install in the directory where the installation packages and scripts are stored.<br>
+2. Execute the following instructions under the download directory and uninstall the older version (**this step is used for updating JCS-Agent and can be skipped if no installation is carried out**)<br>
 ```
-python jcloud-jcs-agent-linux-deploy.py install
+python jcloud-jcs-agent-linux-deploy.py uninstall
 ```
 
-3. Execute 'ps-ef' and installation is successful when seeing there processes of UpgradePlugin, MonitorPlugin and JCSAgentCore. After successful installation, you can delete the installation package and the installation script.
+3. Execute the following instructions under the download directory and install the latest version.<br>
+```
+python jcloud-jcs-agent-linux-deploy.py install
+python /usr/local/share/jcloud/agent/scripts/linux/entry.py (This instruction is executed for installing or updating JCS-Agent after images are imported. If JCS-Agent is installed in the outer environment of JD Cloud before images are imported, please skip this step)
+```
+
+4. Execute `ps -ef` and installation is successful when seeing there processes of UpgradePlugin, MonitorPlugin and JCSAgentCore. After successful installation, you can delete the installation package and the installation script.
 
 **Windows:**<br>
 1. Download the installation package, installation script and MD5 tools to the same directory (for example: C:\jcloud).<br>
@@ -68,12 +78,18 @@ https://bj-jcs-agent-windows.s3.cn-north-1.jdcloud-oss.com/jcloud-jcs-agent-wind
 https://bj-jcs-agent-windows.s3.cn-north-1.jdcloud-oss.com/jcloud-jcs-agent-win-deploy.ps1 <br>
 https://bj-jcs-agent-windows.s3.cn-north-1.jdcloud-oss.com/MD5.exe <br>
 
-2. Open powershll and go to the directory where the installation package is located (C:\jcloud), execute the following command to install <br>
+2. Execute the following instructions when powershell is used in the download directory and uninstall the older version (**this step is used for updating JCS-Agent and can be skipped if no installation is carried out**)<br>
 ```
-.\jcloud-jcs-agent-win-deploy.ps1 install
+.\jcloud-jcs-agent-win-deploy.ps1 uninstall
 ```
 
-3. Execute 'ps-ef' command and installation is successful when seeing there processes of UpgradePlugin, MonitorPlugin and JCSAgentCore. After successful installation, you can delete the installation package, the installation script and MD5 tools.
+3. Open powershll and go to the directory where the installation package is located (C:\jcloud), execute the following command to install <br>
+```
+.\jcloud-jcs-agent-win-deploy.ps1 install
+PS C:\Program Files\JD.com\jCloud\Agent\Scripts\Windows> .\InitializeInstance.ps1 (this instruction is executed for installing or updating JCS-Agent after images are imported. If JCS-Agent is installed in the outer environment of JD Cloud before images are imported, please skip this step)
+```
+
+3. Execute `ps -ef` command and installation is successful when seeing there processes of UpgradePlugin, MonitorPlugin and JCSAgentCore. After successful installation, you can delete the installation package, the installation script and MD5 tools.
 
 
 <div id="user-content-2"></div>
@@ -151,7 +167,7 @@ https://iaas-cns-download.s3.cn-north-1.jdcloud-oss.com/JdogMonitor/jdog-op-agen
 2. Run the following instructions for installation.<br>
 ```
 mkdir -p /usr/local/share/jcloud/jdog-monitor
-tar zxvf jdog-op-agent-master-fbe96b07-0306202642.tar -C /usr/local/share/jcloud/jdog-monitor
+tar zxvf jdog-op-agent-master-7a35746b-0709091136.tar -C /usr/local/share/jcloud/jdog-monitor
 /usr/local/share/jcloud/jdog-monitor/scripts/jdog_service install
 ```
 

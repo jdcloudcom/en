@@ -48,6 +48,7 @@ The currently released node is East China-Taizhou.
    <tr>
        <td rowspan="2"><B>ISP Line</B></td>
        <td rowspan="2"><B>Node</B></td>
+       <td rowspan="2"><B>计费项</B></td>
        <td rowspan="2"><B>Bandwidth</B></td>
        <td colspan="2"><B>Monthly Package</B></td>
    </tr>
@@ -56,8 +57,9 @@ The currently released node is East China-Taizhou.
        <td><B>RMB/year</B></td>
    </tr>
    <tr>
-      <td rowspan="6">Telecom</td>
-      <td rowspan="6">East China-Taizhou<br/>
+      <td rowspan="12">Telecom</td>
+      <td rowspan="12">East China-Taizhou<br/>
+      <td rowspan="6">带宽</td>
       <td>1Mbps</td>
       <td>19</td>
       <td>228</td>
@@ -83,15 +85,46 @@ The currently released node is East China-Taizhou.
      <td>1140</td>
    </tr>
    <tr>
-     <td>6Mbps and above, n is the bandwidth value and the unit price is 19</td>
-     <td>5M total price + (n-5) * unit price</td>
-     <td>95+(n-5)*19</td>
+     <td>6Mbps and above, n is the bandwidth value</td>
+     <td>n*19</td>
+     <td>n*19*12</td>
   </tr>
+  <tr>
+        <td rowspan="6">额外上行带宽</td>
+        <td>1Mbps</td>
+        <td>4</td>
+        <td>48</td>
+    </tr>
+    <tr>
+        <td>2Mbps</td>
+        <td>8</td>
+        <td>96</td>
+    </tr>
+    <tr>
+        <td>3Mbps</td>
+        <td>12</td>
+        <td>144</td>
+    </tr>
+    <tr>
+        <td>4Mbps</td>
+        <td>16</td>
+        <td>192</td>
+    </tr>
+    <tr>
+        <td>5Mbps</td>
+        <td>20</td>
+        <td>240</td>
+    </tr>
+    <tr>
+        <td>6Mbps及以上，n为带宽值</td>
+        <td>n*4</td>
+        <td>n*4*12</td>
+    </tr>
 </table>
 
 
 
 Note:
 
-The EIP prices are different depending on the nodes and ISP Line. The specific price is subject to the node and ISP Line selected at the time of purchase. The nodes in the table are not all open; some nodes are in preparation for opening.
+The EIP prices are different depending on the nodes and ISP Line. The specific price is subject to the node and ISP Line selected at the time of purchase.
 

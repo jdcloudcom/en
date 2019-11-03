@@ -8,9 +8,9 @@ When you use Message Queue, there are some restrictions to pay attention.
 |TPS of each Topic is 5000 (Public Network Area is 500)|Yes|Ticket|
 |The quota for single-region user-created topics is 10|Yes|Ticket|
 | The life cycle ( persistent storage time ) of the message is 3 days|No|－|
-|Time-out period receiving message confirmation (extract message hidden duration) is 30s|No	|—|
+|Time-out period receiving message confirmation (extract message hidden duration) is 30s|Yes	|Console or OpenAPI modification, range 30s-600s|
 | The maximum size of the message is 256KB|No|－|
-| After the failure of message consumption, the maximum number of attempts to retry is 16 times|No|－|
+| After the failure of message consumption, the maximum number of attempts to retry is 16 times|Yes|Console or OpenAPI modification, range 0-16 times|
 
 
 ### Network Restriction  

@@ -27,17 +27,15 @@ In Message Queue, the production and consumption of messages need to be in the f
 
 1. In "Topic Management" page, find the topic you want to subscribe, and you can subscribe in the operations.
 2. To add a subscriber, you need to create / bind an existing Consumer Group ID, select the transport type, and add a tag.
+3. Fill in parameters such as extract message hidden duration, dead letter queue setting and maximum reception times, which can remain as the default configuration if no special needs.
 
 ### Note:
 
 1. The Consumer Group ID must be globally unique. If a name already exists, you are not able to create a Consumer Group ID with that name any more. The Consumer Group ID only contains letters, numbers, hyphens (-), underscores (_), and the length is 7~64 characters.
 2. The relationship between Consumer Group ID and topic is N:M; that is the same Consumer Group ID can subscribe multiple topics, and the same topic can be bound with multiple Consumer Group ID.
-3. Choose the message type to send, including SDK method and HTTP method.
-4. Subscriber tag rules: tag is a message subscriber for message filtering, when the subscriber sets the tag, the same tag message can be consumed by the subscriber, if not set the tag, the subscriber does not filter the message. A single subscriber can add up to five tags, a single tag is a string of no more than 64 characters, separated by a ',' sign.
-- For message 1, does not have message tag, the subscriber has tag, then the subscriber does not match and will not receive news.
-- For message 2, the message has a tag, the subscriber does not have a tag, the message does not need to match when delivered, and all the subscribers can receive the message.
-- For message 3, when the message and the subscriber both have a tag, the two matches, and can receive the message.
-- For Message 4, the message does not have a tag; the subscriber does not have a tag either. After delivery, all subscribers can receive the message.
+3. Extract message hidden duration is the length of time that messages received are not visible to other consumers, range: 30 seconds - 600 seconds.
+4. Parameter of dead letter queue setting decides whether to enable dead letter queue of topic.
+5. Maximum reception times are the maximum times that allow receiving this message before it is sent to the dead letter queue, range: 0-16 times.
 
 ## Step 3: Create AccessKey and SecretKey
 When calling the SDK or openAPI of Message Queue to send, consume, and manage messages, you need to verify the user’s identity information, that is, you need to create AccessKey and SecretKey in the console.

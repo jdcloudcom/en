@@ -20,4 +20,4 @@
 | Local Disk SSD  |               2.13 |            0.0046 |
 | Local Disk NVMe |               3.20 |            0.0069 |
 
-**Note: **Currently, only the "cn-north-1" region provides the local disk NVMe storage type, and other regions are to provide it.
+**Note: ** Currently, only the "cn-north-1" region provides the local disk NVMe storage type, and other regions are to provide it.

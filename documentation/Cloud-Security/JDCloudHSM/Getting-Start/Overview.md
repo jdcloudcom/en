@@ -1,15 +1,5 @@
 # Quick Start
 
-## Apply for Beta
-
-Since currently JD Cloud HSM product is in beta, you need to apply for the beta qualification to normally use it.
-
-[Apply for beta connection](https://www.jdcloud.com/en/public/testApply/cloudhsm)
-
-Add the beta table and wait for audit
-
-![申请公测表格](/image/JDCloudHSM/GettingStart/申请公测表格.png)
-
 ## Purchase Instances
 
 Please purchase the JD Cloud HSM instance as per the [Purchase Process](../Pricing/Purchase-Process.md)

@@ -11,6 +11,5 @@ Custom Metric Monitoring is a feature that provides the users with the freedom t
 ## Usage Restriction
 Restricting Items|Quota Restrictions|Restriction Description
 --|--|--
-Namespace|20|Each user can report up to 20 namespaces per region
-Metric Dimensions|5|Each indicator supports up to 5 dimensions
+Indicator Dimension|20|Every indicator can report a maximum of 20 dimensions one time.
 Data Time Limit | 30| can only push data within the past 30 days

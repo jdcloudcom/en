@@ -98,6 +98,10 @@ items:
           href: Operation-Guide/Code/TestAPI.md        
         - name:  Error Code
           href: Operation-Guide/Code/API_Errorcode.md
+    - name: SDK and Relevant Document
+      items:
+        - name: SDK and Relevant Document
+          herf: Operation-Guide/SDK-and-Document.md  
 - name: Best Practices
   items:
   - name: Best Practices

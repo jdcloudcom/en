@@ -11,5 +11,5 @@
 | One Machine and One Password      | A device can make verification connection via ProductKey, Identifier and DeviceSecret     |
 | Three-element Group        | ProductKey, Identifier and DeviceSecret of device are called as the three-element group         |
 | Gateway Device      | The device connecting and managing sub-devices and playing the role of verification and communication with the cloud as the sub-device agent    |
-| Sub-device       | The device which cannot be directly connected to the cloud and must be connected to the cloud via an agent        |
+| Sub-device       |Device connected to the cloud via a gateway agent        |
 
