@@ -1,0 +1,42 @@
+name: Cloud Disaster Recovery
+href: 
+items:
+- name: Introduction
+  items:
+    - name: Product Overview
+      href: Introduction/Product-Overview.md
+    - name: Core Concepts
+      href: Introduction/Core-Concepts.md
+    - name: Basic Architecture
+      href: Introduction/Basic-Infrastructure.md
+    - name: Benefits
+      href: Introduction/Benefits.md
+    - name: Features
+      href: Introduction/Features.md
+
+- name: Getting Started
+  items:
+    - name: Overview
+      href: Getting-Started/Anti-JD-Cloud-DRS-Basic-Started.md
+    - name: Disaster Recovery Type
+      href: Getting-Started/Type-JD-Cloud-DRS-Basic-Started.md      
+      
+- name: Operation Guide
+  items:
+    - name: Login
+      href: Operation-Guide/Login-JD-Cloud-DRS.md
+    - name: Create Disaster Recovery Plan
+      href: Operation-Guide/CreatePlan-JD-Cloud-DRS.md
+    - name: Enable Plan
+      href: Operation-Guide/StartPlan-JD-Cloud-DRS.md
+    - name: Monitoring Plan
+      href: Operation-Guide/MonitorPlan-JD-Cloud-DRS.md     
+    - name: Disable Plan
+      href: Operation-Guide/StopPlan-JD-Cloud-DRS.md      
+    - name: Switch Fault
+      href: Operation-Guide/SwitchPlan-JD-Cloud-DRS.md
+      
+- name: Historic Release
+  items:
+    - name: Document Historic Release
+      href: Related-Resources/Document-History.md

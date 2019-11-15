@@ -29,7 +29,7 @@ Set and confirm the new account login password, click the **Upgrade Now** button
 
 After upgrade is successfully made, you can log in JD Cloud via the new account name and password. The new account login page is as shown below.
 By default, JD Cloud supports account login still via the original JD Cloud account. If you need to disable access to JD Cloud account, please contact JD Cloud Customer Service or open ticket for application.
-![](../../../image/User/Account-Mgmt/log1.PNG)
+![](../../../image/User/Account-Mgmt/log1-1030.PNG)
 
 ### FAQ
 

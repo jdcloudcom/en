@@ -4,5 +4,5 @@ This document introduces the important update history of the JCS for Elasticsear
 
 |Release Date|Features|Description|
 |-|-|-|
+|December 28, 2018|Official Launched|Middleware - JCS for Elasticsearch was officially launched.|
 |September 28, 2018|Open Beta Test|Middleware-JCS for Elasticsearch Open Beta Test version went online.|
-|December 28, 2018|Beta|Middleware - JCS for Elasticsearch was officially launched.|

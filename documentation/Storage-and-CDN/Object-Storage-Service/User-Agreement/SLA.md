@@ -55,7 +55,7 @@ Availability Commitment:
 
 |Storage Type|Service Availability|
 |---|---|
-|Standard Storage/Reduced Redundancy Storage|99.9%|
+|Standard Storage/Infrequent Access Storage/Reduced Redundancy Storage|99.9%|
 |Archival Storage|99.0%|
 
 Availability of Object Storage Service is counted by service cycles. A service cycle is a natural month, and if it is less than a month, then it is not counted as a service cycle.

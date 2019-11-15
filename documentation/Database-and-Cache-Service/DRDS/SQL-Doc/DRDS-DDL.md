@@ -29,6 +29,8 @@ CREATE TABLE table_name
 **Note**
 1. Syntax of the part [DRDS Partition Options] must be placed to the end
 2. Primary keys of tables must be split fields
+3. For tables split by date and time, each sub-table can only store data of a time period and cannot be circulated. When table shardings are used up, users need to expand table shardings by hand.
+For example, if there are 16 database shardings in a DRDS database of a user, the table tab1 is split by year and month and one table sharding is provided per month, then data of 16 months in total can be stored. Where a user needs to store data of more time period, he/she needs to add database shardings by hand and expand tables.
 
 ### Split Function
 Currently, DRDS supports the following split functions, the names of which are case-insensitive
@@ -40,7 +42,7 @@ Currently, DRDS supports the following split functions, the names of which are c
  **Keyword: ** (Case Insensitive)
  - START : For split by time, start time of data is in the format of ‘YYYY’ or ‘YYYY-MM’, with other formats rejected, e.g., start('2018') or start('2018-05')
  - PERIOD: Where split is made by time, data will put into one table sharding per time period. For example, data will be put into one table sharding per 3 months or per 2 years
- 
+  
  ### Examples
  1. Split by integer type field
   ```SQL
@@ -90,3 +92,52 @@ For example:
 ```SQL
 drop table ddl_demo1,ddl_demo2,ddl_demo3, ddl_demo4;
 ```
+
+## Expand Split Table
+>Remark: Only support tables split by date and time
+
+For tables split by date and time, each sub-table can only store data of a time period and cannot be circulated. When table shardings are used up, users need to expand table shardings by hand. There are two steps to expand the sub-table:
+
+1. Add sub-library through the Console
+2. Connect with DRDS Database and execute SQL to expand the corresponding table
+
+For example, if there are 24 database shardings in a DRDS database of a user, the table tab1 is split by year and month and one table sharding is provided per month, then data of 24 months in total can be stored. Where users need to store data of more time period, they need to add new libraries on the Console and expand the sub-table through SQL.
+
+### 1. Expand the sub-table in all new sub-libraries
+This method is recommend for expanding the sub-table in all new sub-libraries
+```SQL
+alter table <table name> add partitions on all dbpartitions;
+```
+
+For example
+```SQL
+alter table demo_timetb add partitions on all dbpartitions;
+```
+
+### 2. Expand the sub-table in the specified sub-libraries
+If you just want to expand the sub-table on the specific sub-library, you can use the following SQL:
+```SQL
+alter table <table name> add partitions on <sub db name1>,<sub db name1>,<sub db name1>,.......
+```
+sub db name: refers to the sub-library name of DRDS on RDS MySQL. You can view all sub-library names at the current database in the [Database Management] page in the Console instance details
+
+For example, expand a sub-library in the sub-library db1_drds_593c_17,db1_drds_593c_18,db1_drds_593c_19,db1_drds_593c_20
+```SQL
+alter table demo_timetb add partitions on db1_drds_593c_17,db1_drds_593c_18,db1_drds_593c_19,db1_drds_593c_20;
+```
+
+## Delete partition of the split table
+>Remark: Only support tables split by date and time
+
+For tables split by date and time, you can effectively remove the historical data in batch by directly deleting the sub-table on a sub-library, the pre-release is as follows:
+```SQL
+alter table <table name> drop dbpartition <sub db name>;
+```
+sub db name: refers to the sub-library name of DRDS on RDS MySQL. You can view all sub-library names at the current database in the [Database Management] page in the Console instance details
+
+For example, the historical data of Table timetb stored on the sub-library db1_drds_593c_17 for the previous 24 months are no more needed, you can directly clear it through the following SQL.
+```SQL
+alter table timetb drop dbpartition db1_drds_593c_17;
+```
+
+

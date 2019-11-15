@@ -16,17 +16,42 @@ items:
 
 - name: Getting Started
   items:
-    - name: Overview and Environment Deployment
+    - name: Overview
       href: Getting-Started/Anti-JDFusion-Basic-Started.md
-      
+    - name: Login
+      href: Getting-Started/Logging-In-JDFusion.md      
+    - name: Fusion Cloud Platform
+      href: Getting-Started/Create-Register.md
+    - name: Create VPC and Subnet
+      href: Getting-Started/Create-Network.md
+    - name: Create Security Group
+      href: Getting-Started/Create-SecurityGroup.md      
+    - name: Create EIP
+      href: Getting-Started/Create-EIP.md     
+    - name: Create VM Instance
+      href: Getting-Started/Create-VM.md    
+    - name: Associate EIP for Virtual Machines
+      href: Getting-Started/BoundEIP-VM.md        
+    
 - name: Operation Guide
   items:
-    - name: How to get an invitation code
+    - name: Resource Overview
       href: Operation-Guide/jdfusion-cloud-InvitationCode.md
-    - name: How to log in JDFusion console
-      href: Operation-Guide/jdfusion-cloud-uc.md
-    - name: Deployment Operation Guide
-      href: Operation-Guide/jdfusion-cloud-deployment.md 
+    - name: Virtual Machines
+      href: Operation-Guide/Associated-With-Instance.md
+    - name: Cloud Disk Service
+      href: Operation-Guide/Associated-With-Disk.md   
+    - name: Networking
+      href: Operation-Guide/Associated-With-Network.md
+    - name: Load Balancer Correlation
+      href: Operation-Guide/Associated-With-LB.md    
+    - name: Database Correlation
+      href: Operation-Guide/Associated-With-DB.md
+    - name: Object Storage Service Correlation
+      href: Operation-Guide/Associated-With-OSS.md 
+    - name: Cloud Security Correlation
+      href: Operation-Guide/Associated-With-KMS.md
+      
       
 - name: Historic Release
   items:

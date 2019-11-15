@@ -32,15 +32,15 @@ After filling in, JD Cloud will send a verification Email to your mailbox. Pleas
 ### 1. JD Cloud Login
 JD Cloud supports login via the account name and password. For some users, if their mobile phone numbers or emails are unique for the accounts associated with JD Cloud, they can log in JD Cloud via the mobile phone number or email and the password.
 
-![](../../../image/User/Account-Mgmt/log1.PNG)
+![](../../../image/User/Account-Mgmt/log1-1030.PNG)
 
 The account registered before July 18, 2019 is a JD account. If this account is not upgraded, please access JD Cloud via "JD Login".
 
-![](../../../image/User/Account-Mgmt/login2.png)
+![](../../../image/User/Account-Mgmt/login2-1030.png)
 
 If you use your mobile phone number or email for login and a notification "this mobile phone number/email cannot log in", it means that the entered mobile phone number/email has been associated with several accounts in JD Cloud or the associated account does not support login via mobile phone number/email. In such case, please try to log in via your account name and password. If you confirm that this mobile phone number/email has been used for logging in JD Cloud successfully, your account might be the original JD account. Please try to access via "JD Login".
 
-![](../../../image/User/Account-Mgmt/login3.png)
+![](../../../image/User/Account-Mgmt/login3-1030.png)
 
 ### 2. Login through JD
 If you have enabled JD Cloud service before July 18, 2019 and have not upgraded your account, you can access JD Cloud via "JD Login".
@@ -48,3 +48,36 @@ If you have enabled JD Cloud service before July 18, 2019 and have not upgraded 
 ![](../../../image/User/Account-Mgmt/log4.png)
 
 JD login rules are as the same as those of JD Mall. If you have any problems in the JD login process, please refer to [Introduction to New JD Cloud Account](https://docs.jdcloud.com/cn/account-management/what-is-jdcloud-account) or contact the customer service (400-615-1212) for account upgrade. After upgrade, you can log in directly with a JD Cloud account.
+
+### 3. Login via WeChat
+You can also login to JD Cloud via WeChat account. If you selects to login via WeChat for PC, you need to scan the WeChat login QR code with your WeChat for mobile phone, and then agree on JD Cloud's use of WeChat login in the WeChat for mobile phone. JD Cloud will access your WeChat nickname for display on the page.
+
+![](../../../image/User/Account-Mgmt/wechat-login1.PNG)
+
+When you use the WeChat login for the first time, please associate the WeChat account with a JD Cloud account. When your mobile phone number is entered, the system will search the JD Cloud registered by you or automatically created a JD Cloud account for you.
+
+![](../../../image/User/Account-Mgmt/wechat-login2.PNG)
+
+If you have registered an account, you can select to associate with and login to this account.
+
+![](../../../image/User/Account-Mgmt/wechat-login3.png)
+
+If you are a new user, the system will automatically create an account for you. You can later view and manage the account in the "Account Management" center.
+
+![](../../../image/User/Account-Mgmt/wechat-login6.PNG)
+
+Under special circumstances, you will not be able to use the WeChat login because your JD Cloud account has been associated with another WeChat account or your account is a JD account, in which case, you can only login via JD; then please return to the login page and select **JD Login** — Only when the account is upgraded (view [JD Account Management](https://docs.jdcloud.com/cn/account-management/manage-jd-account) - for upgrading JD account to JD Cloud account), you can associate with the WeChat account and use WeChat login.
+
+![](../../../image/User/Account-Mgmt/wechat-login4.png)
+
+#### Disassociate WeChat account
+When you no more need to use WeChat login, you can disassociate WeChat account on the page "Account Management - Basic Data". The precondition for disassociation is that a login password has been set for the current account and you can login by other means other than WeChat login.
+
+If you haven't set a login password, you should set one too guarantee that the account can still be logged in by other means after the WeChat account is disassociated.
+
+![](../../../image/User/Account-Mgmt/wechat-safe1.png)
+
+Click **Disassociate** and confirm the available login method after disassociation.
+
+![](../../../image/User/Account-Mgmt/wechat-baseinfo1.png)
+![](../../../image/User/Account-Mgmt/wechat-baseinfo2.png)

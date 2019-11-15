@@ -85,7 +85,7 @@
     <td>Carry on porn identification for the live broadcast and feed back the results to customers who may carry on processing of the illegal contents</td>
 </tr>
 <tr>
-    <td rowspan="6">Data Statistics<br/>
+    <td rowspan="7">Data Statistics<br/>
     <td>Visitor Count</td>
     <td>Support audience number statistics and search by customized time period</td>
 </tr>
@@ -108,6 +108,10 @@
 <tr>
     <td>Statistics of Pushing Streaming Path Number</td>
     <td>Support customized time period, domain and regional search pushing streaming path number within 30 days</td>
+</tr>
+    <tr>
+    <td>Data Export</td>
+    <td>The user can search the data through the Console and export the detailed data at the same time. It mainly includes bandwidth traffic data export, transcoding duration data export, screenshot number data export; and the pushing streaming monitoring data export includes the searched code rate, frame rate, streamer IP data</td>
 </tr>
 <tr>
     <td>Log</td>

@@ -1,4 +1,4 @@
-## Use Kibana
+## Build a Visual Analysis System with kibana
 Kibana is a visual open source platform for data analysis. Users can use Kibana to search and analyze the data stored in JCS for Elasticsearch.
 ![查询1](https://github.com/jdcloudcom/cn/blob/Elasticsearch/image/Internet-Middleware/JCS%20for%20Elasticsearch/kibana访问设置-01.png)
 

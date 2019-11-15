@@ -38,19 +38,19 @@ See [Create Database](../Operation-Guide/Database-Management/Create-Database.md)
 ### Data Preparation
 
 ```
-$ sysbench ./share/sysbench/oltp_read_write.lua --table_size=10000000 --db-driver=mysql --tables=10 --mysql-host=XXX --mysql-user=XXX --mysql-password=XXX prepare
+$ sysbench ./share/sysbench/oltp_read_write.lua --table_size=10000000 --tables=64 --threads=32 --db-driver=mysql --mysql-host=XXX --mysql-user=XXX --mysql-password=XXX prepare
 ```
 
 ### Pressure Test for Performance
 
 ```
-$ sysbench ./share/sysbench/oltp_read_write.lua --tables=10 --threads=32 --max-requests=999999999 --time=3600 --table_size=10000000  --db-driver=mysql --mysql-host=XXX --mysql-user=XXX --mysql-password=XXX run
+$ sysbench ./share/sysbench/oltp_read_write.lua --tables=64 --threads=32 --time=1800 --table_size=10000000  --db-driver=mysql --mysql-host=XXX --mysql-user=XXX --mysql-password=XXX run
 ```
 
 ### Environment Clear
 
 ```
-$ sysbench ./share/sysbench/oltp_read_write.lua --tables=10 --threads=32 --max-requests=999999999 --time=3600 --table_size=10000000  --db-driver=mysql --mysql-host=XXX --mysql-user=XXX --mysql-password=XXX cleanup
+$ sysbench ./share/sysbench/oltp_read_write.lua --tables=64 --threads=32 --table_size=10000000  --db-driver=mysql --mysql-host=XXX --mysql-user=XXX --mysql-password=XXX cleanup
 ```
 
 ## Test Model

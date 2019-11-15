@@ -167,4 +167,34 @@ downloadUrl: Available Download Link<br>
 status: Status [success]<br>
 </td>
 </tr>
+<tr>
+    <td>Quality Detection Callback<br/>
+    <td>{<br>
+	"publishDomain": "push1-test-yjh.jd.com",<br>
+	"appName": "mqd-app-test",<br>
+	"module": "Brightness",<br>
+	"startTime": 1571301677664,<br>
+	"endTime": 1571301684919,<br>
+	"type": "video",<br>
+	"version": "v1.0",<br>
+	"streamName": "mqd-stream-test-1"<br>
+	}<br>    
+</td>
+    <td>version:Message Body Version Number<br>  
+publishDomain: Pushing Streaming Domain<br>  
+appName: Application name<br>
+streamName: Stream Name<br>
+module: Quality Assurance Item<br>
+      Currently, only supports:<br>
+     - BlackScreen<br>
+     - PureColor<br>
+     - ColorCast<br>
+      - FrozenFrame<br>
+      - Brightness<br>
+      - Contrast<br>
+type: video; audio<br>
+startTime: Exception Start Time<br>
+stopTime: Exception End Time<br>
+</td>
+</tr>	
 </table>

@@ -23,6 +23,7 @@ The product is in Beta period and free in the period. The Beta version is the fo
 	- [Deployment Group](../Operation-Guide/APP-Manage/Deploy-Group.md)
 - Operation and Maintenance Management
 	- [Calling Chain Analysis Service](../Operation-Guide/DevOps/Analysis-Service.md)
+	- [Log Configuration](../Operation-Guide/DevOps/LogConfig.md)
 	
 
 

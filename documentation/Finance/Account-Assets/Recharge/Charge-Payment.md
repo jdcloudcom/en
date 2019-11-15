@@ -26,14 +26,13 @@ Offline remittance: if you need to pay by bank wire transfer to our corporate ac
 3. One identification code is corresponding to one recharge order and corresponding amount, please transfer with the correct amount.
 
 
-
 **Our Current Corporate Account is: **
 
-Collection account name: Beijing Jingdong 360 Degree Electric Commerce Co., Ltd.
+Account Name: JD Cloud Computing Co., Ltd.
 
 Collection opening bank: China Merchants Bank Co., Ltd. Beijing Asian Games Village Subbranch
 
-Account No. for collection: 999019783710402
+Account No.: 110938841310106
 
 When you transfer by remittance identification code, you need not submit the remittance slip information if the remittance identification code has been filled in correctly. After transfer is successful, the remittance will be automatically recharged to your JD Cloud account.
 

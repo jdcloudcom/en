@@ -44,13 +44,9 @@ Detail Specification:
 
    b. File prefixes do not support overlapping prefixes, for example, text and test/01 are not allowed.
 
-5.Select Storage Type
+5. Change Storage Type or Not.
 
- * Same as source: The storage type will be consistent with that of the file in the source storage, which is the default setting if you do not assign it.
-
- * Standard storage: Set the replicated file storage type as standard storage.
-
- * Low redundancy storage: Set the replicated file storage type as low redundancy storage.
+ * Check to change the storage type: the replicated file storage type can be changed, and standard storage, infrequent access storage, archival storage and reduced redundancy storage (not recommended) are supported.
 
 
 6.Click the Confirm button to save the settings.

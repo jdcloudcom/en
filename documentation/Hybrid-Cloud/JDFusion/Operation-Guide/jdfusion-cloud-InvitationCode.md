@@ -1,18 +1,8 @@
 
-# Get invitation code
-## 1. Log in JD Cloud console
+## Resource Overview
 
-Access [JD Cloud Console](https://console.jdcloud.com), click **Console** - **Input User Name and Password** at upper right corner to enter JD Cloud Console page.
+Resource Overview will provide you with overview of cloud resource service conditions. Therefore, you can understand resource retention and service condition of each cloud platform resource.
 
-If the user have no JD Cloud account, the user can click **Free Registration** at upper right corner and the user may enter JD Cloud Console page after completion of registration
+Facing the fact that enterprises will access many businesses to the cloud platform and there are more and more resources of various kinds on the cloud, the resource overview function provided by the cloud management platform provides status view and resource service condition statistics of various cloud platforms, visually displays fusion cloud resources from different perspectives and realizes overall and comprehensive statistics and analysis to various resources.
 
-## 2. Get AK/SK
-Enter [JD Cloud Console](https://console.jdcloud.com), click **User Name" - **AccessKey Management** at upper right corner to enter AK/SK Management page.
-![创建实例](https://github.com/jdcloudcom/cn/blob/edit/image/JDFusion/yaoqingma-1.png)
-Manage AK/SK
-![创建实例](https://github.com/jdcloudcom/cn/blob/edit/image/JDFusion/yaoqingma-2.png)
-## 3. Submit application for Beta
-Enter [JD Cloud Console](https://console.jdcloud.com), click **Product** - **Hybrid Cloud** - **JDFusion** - **Beta Application** in navigation bar to enter JDFusion Product page.
-![创建实例](https://github.com/jdcloudcom/cn/blob/edit/image/JDFusion/yaoqingma-3.png)
-## 4. Get an Invitation Code
-JDFusion product team of JD Cloud will generate Beta invitation code in the background according to the submitted Beta application and deliver it to the applicant offline.
+![dashboard](../../../../image/JDFusion/dashboard.png)

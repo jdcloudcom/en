@@ -51,6 +51,8 @@
             href: Operation-Guide/Database/View-Database.md        
           - name: Delete Database
             href: Operation-Guide/Database/Delete-Database.md
+          - name: Add Sub-library
+            href: Operation-Guide/Database/Add-Sub-Database.md
           - name: Horizontal Expansion of Database
             items:            
             - name: Overview

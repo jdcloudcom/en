@@ -1,6 +1,6 @@
 # FAQ
 
-###  Comprehensive Class
+##  Comprehensive Class
 
 **Q: Issues related to cost such as product charge, refund, etc.**
 
@@ -31,7 +31,7 @@ A: The current version only supports to use your purchased registration center c
 A: You can find it back through opening ticket.
 
 
-### Utilization Class
+## Utilization Class
 **Q: What are common failure reasons when creation in Calling Chain Analysis Service?**
 
 A: There are several reasons as follows:
@@ -42,4 +42,20 @@ A: There are several reasons as follows:
 |  System creation failed |  It may be caused by arrear; if you are not in arrear, please try again later.    |
 
 Please feel free to contact our customer service at any time.
+
+**Q: Does the Calling Chain Dependency Mapping cannot be seen in the Calling Chain Analysis Service?**
+
+A: Self-detection Method:
+
+- Whether a reference dependency is added.
+
+- Configuration: Whether the domain, port, backend service address is correctly configured.
+
+- url needs a complete path.
+
+- Whether the network is working or not
+
+- According to official advice, the sampling rate is recommended to be 0.01 instead of 1, and jdsf can support 0.1 at the present, but the users’ bandwidth needs to meet the required conditions.
+
+For any doubt, please call customer service.
 

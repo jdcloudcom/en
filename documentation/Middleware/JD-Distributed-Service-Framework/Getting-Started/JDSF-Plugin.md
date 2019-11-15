@@ -10,12 +10,12 @@
     <dependency>
         <groupId>com.jdcloud.jdsf</groupId>
         <artifactId>spring-cloud-jdsf-auth</artifactId>
-        <version>1.0-Edgware-SNAPSHOT</version>
+        <version>1.0.0-Edgware</version>
     </dependency>
     <dependency>
         <groupId>com.jdcloud.jdsf</groupId>
         <artifactId>spring-cloud-jdsf-consul</artifactId>
-        <version>1.0-Edgware-SNAPSHOT</version>
+        <version>1.0-Edgware</version>
     </dependency>
 ```
 
@@ -25,12 +25,12 @@
     <dependency>
         <groupId>com.jdcloud.jdsf</groupId>
         <artifactId>spring-cloud-jdsf-auth</artifactId>
-        <version>1.0-Finchley-SNAPSHOT</version>
+        <version>1.0-Finchley</version>
     </dependency>
     <dependency>
         <groupId>com.jdcloud.jdsf</groupId>
         <artifactId>spring-cloud-jdsf-consul</artifactId>
-        <version>1.0-Finchley-SNAPSHOT</version>
+        <version>1.0-Finchley</version>
     </dependency>
 ```
 
@@ -40,12 +40,12 @@
     <dependency>
         <groupId>com.jdcloud.jdsf</groupId>
         <artifactId>spring-cloud-jdsf-auth</artifactId>
-        <version>1.0-Greenwich-SNAPSHOT</version>
+        <version>1.0-Greenwich</version>
     </dependency>
     <dependency>
         <groupId>com.jdcloud.jdsf</groupId>
         <artifactId>spring-cloud-jdsf-consul</artifactId>
-        <version>1.0-Greenwich-SNAPSHOT</version>
+        <version>1.0-Greenwich</version>
     </dependency>
 ```
 

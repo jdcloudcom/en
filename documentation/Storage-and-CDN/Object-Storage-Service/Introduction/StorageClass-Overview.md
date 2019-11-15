@@ -50,8 +50,7 @@ Key Characteristic:
 <div id="user-content-3"></div>
 
 OSS archival storage type has the lowest unit price among storage types and is suitable for archival data requiring long-term storage (more than half a year is recommended) and rarely accessed during the storage cycle of the data; when the data is retrieved, you need to
-wait for few minutes to few hours according to the retrieval mode you selected. Archival storage type is suitable for archival data, operation logs, film and television materials requiring for long-term preservation. An Object of the archival storage type has a minimum storage time; if deleting Object with the storage time
-less than 60 days, there will be certain costs. An Object of the archival storage type has the minimum measuring space; if Object size is less than 48KB, the bucket will be calculated by 48KB, and data acquisition incurs data retrieval costs.
+wait for few minutes to few hours according to the retrieval mode you selected. Archival storage type is suitable for archival data, operation logs, film and television materials requiring for long-term preservation. An Object of the archival storage type has a minimum storage time; if deleting Object with the storage time less than 60 days, there will be certain costs. An Object of the archival storage type has the minimum measuring space; if Object size is less than 48KB, the bucket will be calculated by 48KB, and data acquisition incurs data retrieval costs.
 
 
 Key Characteristic:

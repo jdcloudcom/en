@@ -1,6 +1,6 @@
 # Basic Architecture
 The basic architecture is as shown below:
-![创建实例](https://github.com/jdcloudcom/cn/blob/JDFusion/image/JDFusion/JDFusion-jcjg.jpg)
+![创建实例](../../../../image/JDFusion/JDFusion-jcjg.jpg)
    The main interactive method between JDFusion and the user includes the console interface, CLI and API, wherein:
  - Console: It is the main delivery method provided by JDFusion, providing visual and concise operation experiences to the user.
  - CLI tool: Based on the command line tool under the Bash environment, it can access the JDFusion via scripts.

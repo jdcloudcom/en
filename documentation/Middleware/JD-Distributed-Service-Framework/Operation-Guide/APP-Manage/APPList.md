@@ -27,10 +27,10 @@ Application operation process is as follows:
 
 **Description:**
 
--  Java running environments now supports OpenJDK1.7 and OpenJDK1.8.
+-  Java running environments now supports JDK1.7 and OpenJDK1.8.
 
 
-![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/app-create-1.png)
+![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/app-create-11.png)
 
 
 ### Delete Application
@@ -41,9 +41,9 @@ Application operation process is as follows:
 
 **Description:**
 
-- Applications can be deleted after the deployment group is deleted; otherwise, it cannot be deleted.
+- In case of having the deployment group, the application can be deleted only after the deployment group is deleted; otherwise, it cannot be deleted.
 
-- When deleting, a user can also select to delete the program package at the same time. By default, they are checked to be deleted at the same time.
+- When deleting the application, the program package and historical records will be deleted at the same time.
 
 - Before deleting the data, a user needs to well complete data backup work on his/her own.
 
@@ -51,37 +51,14 @@ Application operation process is as follows:
 ![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/app-del-1.png)
 
 
-### Deployment Application
+### Application Deployment
 
-1. Log in the JD Distributed Service Framework Console.	Click **Application Management** on the left side navigation bar and log in the application list page.
-
-2. For applications to be deployed, click **Initiate Deployment** on the operation bar.
-
-- To improve user experience, ** system will manage user service by adopting Supervisor in Virtual Machines.**
-
-- If corresponding deployment groups have been created, please directly configure deployment source and select a deployment group and then initiate deployment.
-
-- If no deployment group is created, please click **Create Deployment Group**, create a deployment group and deploy it. For deployment group contents, please view the section [Deployment Group](Deploy-Group.md).
-
-![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/app-fqbs.png)
-
-
-3. Implement deployment.
-
-![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/bsz-xq.png)
-
-**Description:**
-
-- After deployment, operation such as rollback and re-deployment can be made.
-
-- A user can view deployment information of each instance as well.
-
-- When deleting an application, a user can also select to delete the program package at the same time. By default, they are checked to be deleted at the same time.
+For more details about this, please refer to: [Application Deployment](APPDeloy.md).
 
 
 ### Instance Deployment Information
 
-1. A user can view that the current applications are deployed to which instances via which deployment groups and enable or disable applications on each instance.
+1. The user can view that the current applications are deployed to which instances via which deployment groups and enable or disable applications on each instance.
 
 
 ![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/app-slbsxx.png)
@@ -94,7 +71,11 @@ Application operation process is as follows:
 
 ### Program Package Management
 
-Program packages used by the current application in deployment is uploaded for program package management. When deleting an application, a user can select to delete all program packages under the application synchronously or not. Before deletion, the user needs to back up on his/her own.
+1. Program packages used by the current application in deployment is uploaded for program package management.
+
+2. When deleting an application, all program packages under the application will be deleted. Before deletion, the user needs to back up on his/her own.
+
+3. Currently, the program package supports two types, JAR and WAR, and its maximum SoftSize is 256 MB.
 
 ![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/app-cxb-list-1.png)
 

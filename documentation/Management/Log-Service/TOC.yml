@@ -82,7 +82,7 @@ items:
     - name: Log Dump Configuration - ALB Access Log Dump
       href: Operation-Guide/LogTransfer/EasyCase.md
     - name: Log Monitoring Configuration - Business Application Log Monitoring
-      href: Operation-Guide/LogMonitor/EasyCase.md
+      href: Operation-Guide/LogMonitor/BestMonitor.md
 - name: FAQ
   href: FAQ/FAQ.md
 - name: Document History Records

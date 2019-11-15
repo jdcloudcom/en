@@ -37,28 +37,30 @@ items:
   items:
     - name: Namespace
       herf: Operation-Guide/Namespace.md
-    - name: Resource Management
-      items:
-        - name: Resource Pool Management
-          herf: Operation-Guide/Resource-Manage/Resource-List.md
-        - name: Registration Center
-          herf: Operation-Guide/Resource-Manage/Cluster.md
-        - name: JD Distributed Service Gateway
-          herf: Operation-Guide/Resource-Manage/JDSFGW.md
+    - name: Resource Pool Management
+      herf: Operation-Guide/Resource-Manage/Resource-List.md
+    - name: Registration Center
+      herf: Operation-Guide/Resource-Manage/Cluster.md
+    - name: JD Distributed Service Gateway
+      herf: Operation-Guide/Resource-Manage/JDSFGW.md   
     - name: Application Management
       items:
         - name: Application List
           herf: Operation-Guide/APP-Manage/APPList.md
-        - name: Configuration Management
-          herf: Operation-Guide/APP-Manage/Config-Manage.md
-        - name: Service Authentication
-          herf: Operation-Guide/APP-Manage/Service-Assignuse.md 
         - name: Deployment Group
           herf: Operation-Guide/APP-Manage/Deploy-Group.md
-    - name: Operation and Maintenance Management
-      items:
-        - name: Calling Chain Analysis Service
-          herf: Operation-Guide/DevOps/Analysis-Service.md       
+        - name: Application Deployment
+          herf: Operation-Guide/APP-Manage/APPDeloy.md
+        - name: Agent Installation
+          href: Operation-Guide/APP-Manage/Install-Agent.md
+    - name: Configuration Management
+      herf: Operation-Guide/APP-Manage/Config-Manage.md
+    - name: Service Authentication
+      herf: Operation-Guide/APP-Manage/Service-Assignuse.md        
+    - name: Calling Chain Analysis Service
+      herf: Operation-Guide/DevOps/Analysis-Service.md       
+    - name: Log Configuration
+      herf: Operation-Guide/DevOps/LogConfig.md       
 - name: FAQ
   herf: FAQ/faq.md
 

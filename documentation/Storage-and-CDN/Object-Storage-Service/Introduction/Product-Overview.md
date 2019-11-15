@@ -4,9 +4,9 @@
 
 Object Storage Service (OSS) provides a safe, stable, mass and convenient Object Storage Service for users with JD's rich technological experience in the field of distributed storage. Object Storage Service provides a full range of products including file upload, storage, download, distribution and online processing. From a few bytes to a few terabytes of data, we can offer you a complete storage solution.
 
-The underlying architecture of Object Storage Service is entirely same as the picture storage and order storage system used inside JD. Currently, the system has carried key data of about 200 departments including online store, finance, mobile, logistics, paipai, JD Cloud, Data Department to provide solid security for rapid growing of JD business;
-
 Meanwhile, Object Storage Service also provides you with a simple and convenient Restful interface and easy-used SDK to help you manage and access the data on Object Storage Service in any application, at any time and any place.
+
+Currently, the JD Cloud Object Storage Service has carried key data of about 200 departments including mall, finance, mobile, logistics, paipai, JD Cloud to provide solid security for rapid growing of JD business.
 
 ## OSS Storage Level
 

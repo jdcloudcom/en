@@ -21,6 +21,7 @@ Run the commands below under Ubuntu terminal:
 3. Create directory, such as creating directory named as nfs:
 
 `sudo mkdir nfs`
+
 Ubuntu system runs the commands below:
 `mkdir nfs`
 
@@ -32,15 +33,9 @@ Ubuntu system runs the commands below:
 
 ![MtIp](../../../../image/Cloud-File-Service/MtIp.png)
 
-For example, the directory of the Mount target is 10.0.0.30:/cfs, which is attached to the nfs directory created in the previous step. **Note that the default NFS protocol for the attach tool is 4.0 version, so the attach commands for CentOS 7.2 and below are slightly different:**
+For example, the directory of the Mount target is 10.0.0.30:/cfs, which is attached to the nfs directory created in the previous step. **Note: The attach command defaults NFS agreement to be 4.0 Version. In case of attaching, the relevant parameters can be added depending on different requirements for version, performance and consistency. For more details, please see the descriptions at the end of the text.**
 
-**CentOS 6.9 to CentOS 7.2 versions run commands below:**
-
-`sudo mount -t nfs,nfsvers=4.0, -o lookupcache=none 10.0.0.30:/cfs nfs`
-
-CentOS 7.3 and above versions run commands below:
-
-`sudo mount -t nfs -o lookupcache=none 10.0.0.30:/cfs nfs`
+`mount -t nfs -o vers=4,minorversion=0 10.0.0.30:/cfs nfs`
 
 Run the commands below under Ubuntu terminal:
 
@@ -50,7 +45,7 @@ Run the commands below under Ubuntu terminal:
 
 `df -h`
 
-After the attach is successful, "Filesystem" will appear as the mount target IP, and "Mounted on" will be the record of the specified directory in the previous step.
+After the attach is successful, "Filesystem" will appear as the mount target IP:/cfs, and "Mounted on" will be the record of the specified directory in the previous step.
 
 ![Mount&Check](../../../../image/Cloud-File-Service/mount_target.png)
 
@@ -58,13 +53,14 @@ After the attach is successful, "Filesystem" will appear as the mount target IP,
 
 1. The Cloud File Service does not support the use of data encryption during transmission. That is, the following commands are not supported for attaching the file system.
 
-sudo mount -t nfs -o tls 10.0.0.30:/cfs nfs
+mount -t nfs -o tls 10.0.0.30:/cfs nfs
 
 2. When attaching the File Storage, the default values for the attach options are as follows. In most cases, avoid modifying the default parameter values to avoid performance or stability impact:
-
-- rw: load in read/write mode
+- -o lookupcache=all : When setting to cache the directory on files storage or not, the value can be set as: all,none,pos. The default all means you trust the data in the cache. When the value is none, the directory shall not be cached, which is conducive to the data consistency when different nodes attach files for storage at the same time, but the performance of readdir operation will be affected. When the value is pos (or positive), the nfs client will verify cache the cache on read.
+- -o ac: set to cache the attribute data of files or not. The default ac means to cache the file attribute. The value set as noac is conducive to the data consistency when different nodes attach files for storage, but the performance to read files will be affected.
+- rw: attach in read/write mode. When the value is set as -ro, attach in read mode only.
 - relatime: When accessing a file, atime is updated only when atime is earlier than the file's change time.
-- vers=4.1: NFS protocol version is 4.1
+- vers=4: NFS protocol version is 4.0
 - rsize=1048576 : Set the maximum number of bytes of data that the NFS client can receive for each network READ request. This value is applied when reading data from a file on the File Storage. It is set to the maximum value by default: 1048576.
 - wsize=1048576: Set the maximum number of bytes of data that the NFS client can send for each network WRITE request. This value is applied when reading data from a file on the File Storage. It is set to the maximum value by default: 1048576.
 - namlen=255: Set the longest file name allowed by the remote server to be 255 bytes.

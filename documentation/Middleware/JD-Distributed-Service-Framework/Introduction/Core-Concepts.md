@@ -23,7 +23,7 @@
 | Concept | Interpretation |
 | :- | :- |
 | Namespace | Provide separated running environments to resources, such as development environments, test environments and production environments. Under one namespace, 1 registration center can manage all application services deployed in this space. |
-|  Registration Center | Registration Center mainly provides functions of service registration and discovery, and the creation process of Registration Center is the process for discovering service instance on user VPC. In the creation process, the user can select to automatically allocate availability zones with the system or manual select availability zones; in the deletion process, the current Registration Center is not open to service. Now, this product supports 3AZ deployment, providing reliability guarantee. |
+|  Registration Center | Registration Center mainly provides functions of service registration and discovery. When a namespace is created, a registration center will be created. When the namespace is deleted, the registration center information will be synchronously deleted.|
 | Resource Pool | Concept of a group of resource collection. With the resource pool, Virtual Machines, containers and other resources can be managed for deploying applications. One resource pool can only serve namespaces in the same VPC. |
 |  Application  | A group of collections with specific functions.  |             
 |  Services  | Services refer to functions run on JD Distributed Service Framework and logical component able to communicate with each other. One service belongs to one namespace and can be run on one or more instances at the same time.  |  
@@ -33,7 +33,7 @@
 | TPS | This TPS is the write-in value for collecting calling chain data by a calling chain. TPS calculation method is: application number * (requests per second of a service entry) * 2 * sampling rate. Where, 2 means each application has two data. |
 | Running Instance |Instance passes the health check in a registration center.  |
 | Total Number of Instances | Total number of service instances which are running and are registered in a registration center. |
-|  Region  | Different regions mean different geographic regions. Now, this product can be subscribed in cn-north-1. |
+|  Region  | Different regions mean different geographic regions. Now, this product can be subscribed in cn-north-1 and cn-east-2. |
 |  Cluster Network  | Customized Virtual Network Space can implement logical separation between resources. |
 |  Calling Chain Analysis Service   |  Calling Chain Analysis Service can trace the calling path for every request of distributed service, which helps user understand and analyze the time consuming and status of each stage for request processing, so as to completely grasp  the service calling relationships and accurately discover the bottleneck of the system and the services with hidden trouble. |
 |  Service Dependent Map  | Obtain calling roles and processes between services according to Calling Chain Data Analysis, which help the users understand the calling paths, service performance and status statistics between services, providing the users with data support for problem positioning, troubleshooting and optimization. |
