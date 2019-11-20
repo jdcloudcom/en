@@ -6,7 +6,7 @@ Renewal of monthly package: Expand the use duration of monthly package Distribut
 Associated renewal: When Distributed Cloud Physical Server is renewed, the EIP associated to the Distributed Cloud Physical Server will be renewed together.
 
 ## Applicable Scenario:
-Renewal can be performed before the resource is released (within 7 days after expiration).
+Renewal can be performed before the resource is released (within 7 days after expiration) in case of Monthly Package.
 
 ## Renewal Operation Steps
 - Log in the Renewal Page: Log in the Console List Page and click more buttons in the bar of Distributed Cloud Physical Server to be renewed to drop down to log in the Renew Page. Or drop down from **Cost** on the main interface of the Console to select **Renew Management**. Select **Distributed Cloud Physical Server** in the renew management list. Select the correct region, expiration time and billing type to search, then you can find the Distributed Cloud Physical Server that needs to be renewed. Select renewal in the operation bar.

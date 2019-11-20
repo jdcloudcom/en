@@ -52,10 +52,12 @@
       href: Getting-Started/Cloud-Disk/Attach-Cloud-Disk.md
     - name: Cloud Disk Service partitioning, formatting, online and creating file system
       items:
-        - name: Linux partitioning, formatting and creating file system
-          href: Getting-Started/Cloud-Disk/Parted-Format/Linux-Partition.md
+        - name: Linux Partition and Formatting
+          href: Getting-Started/Cloud-Disk/Linux-Partition.md
+        - name: Linux File Creation System
+          href: Getting-Started/Cloud-Disk/Linux-mkfs.md
         - name: Windows partitioning, formatting and creating file system
-          href: Getting-Started/Cloud-Disk/Parted-Format/Windows-Partition.md
+          href: Getting-Started/Cloud-Disk/Windows-Partition.md
           
     - name: file system expansion
       items:

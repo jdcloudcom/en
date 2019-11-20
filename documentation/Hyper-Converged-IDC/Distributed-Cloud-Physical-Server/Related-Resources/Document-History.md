@@ -7,4 +7,6 @@ This document introduces the important update history of the Distributed Cloud P
 |2019.06.27|V1.0|Distributed Cloud Physical Server V1.0 is released for Beta.|
 |2019.08.29|V1.1|Support on-line password resetting and random password setting;<br/>support customized script function;|
 |2019.09.11|V1.2|Support the function of SSH Key Pair;|
-|2019.09.27|V1.1.1|弹性公网IP支持2个计费项；|
+|2019.09.27|V1.2.1|The Elastic IP supports 2 billing items;|
+|2019.10.18|V1.3|When Pay By Configuration is added for Instance and Elastic IP, billing based on the usage duration is supported.|
+|2019.10.30|V1.4|Creation and association of alias IP ranges are supported;|

@@ -12,7 +12,9 @@
 
 6. To change a filed subject, a proof issued by the changed unit for the change shall be provided
 
-7. Data to be prepared prior to filing:
+7. The filing website count shall not exceed 30
+
+8. Prepare materials before filing:
 
    ① Clear color pictures of the Business License (Unified Social Credit Code)
 
@@ -36,7 +38,9 @@
 
 5. **In case of prior filing with JD**, its filing information must be consistent with the actual information of the current unit. If there is any inconsistency, please go to the original filing provider to make change, and then apply for a new one
 
-6. Data to be prepared prior to filing:
+6. The filing website count shall not exceed 5
+
+7. Prepare materials before filing:
 
    ①The clear color picture of the front and back of the personal ID card
 

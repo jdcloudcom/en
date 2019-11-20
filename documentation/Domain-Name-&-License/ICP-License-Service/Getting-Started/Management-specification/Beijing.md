@@ -18,8 +18,6 @@
 
    ③ Official seal of the filing unit (the Verification Form shall be sealed during the process)
 
-   ⑤**When each website’s domain name is ≥2, you need to download the multi-domain name verification form for Beijing and fill in it following the instructions.
-
    
 
 ** Rules for Personal Filing in Beijing: **

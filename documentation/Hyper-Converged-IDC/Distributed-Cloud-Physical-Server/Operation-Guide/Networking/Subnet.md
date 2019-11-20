@@ -4,8 +4,8 @@
 
 Turn on the Console, click **Distributed Cloud Physical Server* -> **Subnet** in turn in the left navigation bar, log in the Subnet List Page and click **Create**, with the pop-up as shown below:<br/>
 
-Select **Node**, operator and Virtual Private Cloud according to demands, fill in name, fill in CIDR and click **OK** to create 1 subnet.
-![创建子网弹框](https://github.com/jdcloudcom/cn/blob/cn-distributed-cloud-physical-service/documentation/Hyper-Converged-IDC/Distributed-Cloud-Physical-Server/Image/DCPS-006.png)
+By selecting **Node**, operator and VPC according to your demands, filling in name and main CIDR to continue to add a secondary CIDR (optional, and only 1 secondary CIDR is supported at present) and clicking **OK**, you can create 1 subnet.
+![创建子网弹框](https://github.com/jdcloudcom/cn/blob/cn-distributed-cloud-physical-service/documentation/Hyper-Converged-IDC/Distributed-Cloud-Physical-Server/Image/create-subnet.png)
 
 ## View subnet
 

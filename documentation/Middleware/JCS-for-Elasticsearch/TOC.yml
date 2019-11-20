@@ -115,6 +115,8 @@
        href: Best-Practices/using_kibana.md
      - name: Public Network Access
        href: Best-Practices/publicIP.md
+     - name: MySQL Data Synchronization
+       href: Best-Practices/mysqltoes.md
      - name: Performance Indicators
        href: Best-Practices/performance.md
      - name: Suggestions for Monitoring Alarm Configuration

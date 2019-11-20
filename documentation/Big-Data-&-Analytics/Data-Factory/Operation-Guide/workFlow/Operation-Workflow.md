@@ -1,11 +1,12 @@
 # Operation and Maintenance of Workflow
 
-List page is as follows:
+Enter the "Task List". Then, you can make the operations below
+- Select to view "Node Task" or "Workflow Task"
+- Filter by "task type", "task status" or "workflow ownership task"
+- You can make fuzzy matching and search according to task name
+- You can perform operations such as run or terminate a task
 
-![Operation and Maintenance of Workflow](../../../../../image/Data-Factory/exe-task.png)
+![工作流运维](../../../../../image/Data-Factory/work-flow-op-1.png)
 
-Edit: Modify the workflow;
 
-Start: Start the workflow;
 
-Delete: Delete the workflow.

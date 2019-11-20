@@ -1,11 +1,9 @@
 # Product Performance
 
-Performance parameters of Cloud File Service(CFS) are shown as below:
+The Cloud File Service consists of general and capacity types. Their performance indexes are listed in the table as below:
 
+| Specification   | Characteristics                                                         | Performance Formula                                                     | Applicable Scenario                                                     |
+| ------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| General | Flexible capacity expansion and pay by actual usage; <br />linear growth between throughput bandwidth performance and capacity; <br />millisecond-level delay and a maximum of tens of GB/s total throughput bandwidth; <br />stable high-throughput, low-delay performance for sequential and random read/write scenarios. | **Throughput Bandwidth**: Capacity increase of 0.1MB/s per GB with a basic speed limit of 50MB/s; you may open a ticket to increase the bandwidth throughput. <br />**Delay: **2ms (4KB IO size, same as AZ environment). | Scenarios where the shared file service has high requirements for delay and total bandwidth throughput, such as AI training, image & video rendering, etc. |
+| Capacity | Flexible capacity expansion and pay by actual usage; <br />linear growth between throughput bandwidth performance and capacity; <br />millisecond-level delay and a maximum of tens of GB/s total throughput bandwidth; <br />in non-frequent write scenarios, the sequential read/write can provide throughput and delay performance equivalent to the General but requiring lower costs. | Not Applicable                                                       |File sharing, backup and filing scenarios requiring low cost and big capacity.               |
 
-| **Indicator**    | **Type**    | **min** |**Description**                        |
-| ----------- | ----------- | ------- |------------------------------- |
-| Bandwidth throughput    | write       | 50MB/s  |According to file system capacity, the rate of increase is 0.1MB/s * V(GB)             |
-|             |  read       |  50MB/s   |According to file system capacity, the rate of increase is 0.1MB/s * V(GB)          |
-| Latency        | write       | 10ms    |IO size is 4K, latency under pressure |
-|             |  read      | 10ms     |IO size is 4K, latency under pressure |

@@ -1,5 +1,8 @@
 # Features
 
+## The standard and capacity specifications are suitable for different scenarios
+The Cloud File Service provides types of standard and capacity. The standard one is applicable to frequent read/write scenarios, which provides stable highly shared bandwidth throughput and IOPS performance; the capacity one is applicable to non-frequent read/write scenarios, such as filing and backup, which provides shared file storage of better cost performance.
+
 ## Support for NFS file system protocol
 
 The Cloud File Service supports NFS v4.0 and NFS v4.1 protocols and can be attached by using standard file system attach command.

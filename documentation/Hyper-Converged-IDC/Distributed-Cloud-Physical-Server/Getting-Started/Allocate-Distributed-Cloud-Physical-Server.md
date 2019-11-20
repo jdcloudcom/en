@@ -35,7 +35,7 @@ Elastic IP can be associated with Distributed Cloud Physical Server.
 
 Users may purchase or not purchase the Elastic IP when creating the Distributed Cloud Physical Server. When the Elastic IP is selected in the purchase, it will be automatically allocated by the system, and the user cannot modify this Elastic IP.
 
-The user may select the 1-10240Mbps(根据不同节点库存而定最大值) public network bandwidth rate and make the configuration upgrade upon creation.
+The user can choose the public network bandwidth rate ranging from 1M to the highest 10240Mbps (10240Mbps is the maximum bandwidth that can be provided. The bandwidth may vary depending on various nodes, please make a reasonable choice according to actual node), and can perform the "Modify Bandwidth" operation after creation.
 For specific operation steps, please refer to the section of [Modify Public Network Bandwidth](../Operation-Guide/Adjust-Public-Network-Bandwidth/Description-Adjust-Public-Network-Bandwidth.md).
 
 - Configure Server Basic Information:

@@ -2,7 +2,7 @@
 
 ## Stable and Reliable
 
-The Cloud File Service(CFS) adopts three-copy redundancy storage offering super powerful stability and reliability which can satisfy the needs of your application services on the availability and reliability of file system.
+The Cloud File Service(CFS) adopts three-copy redundancy storage offering super powerful stability and reliability which can satisfy the needs of your application services on the availability and reliability of file system. General CFS backend provides excellent read/write performance by using SSD hard disk and capacity CFS backend provides good sequential read/write performance and higher cost performance by using HDD hard disk.
 
 ## Complete Hosting Service
 

@@ -1,15 +1,13 @@
-Please download SDK in  ‘*Download Zone*’.
+Please download SDK in  ‘*[Download Zone](../Download-Center.md)*’.
 
 1.	 Use shared library to build a project
-		 Install shared library
-You can use the following command to install libentapi library:
+	 a) Install shared library, you can use the following command to install libentapi library:
 
-	```
-sudo cp libentapi.so /usr/lib/  //dynamic library installation
 ```
-
-		 Build application
-	Write your own application according to the API document, e.g.: example.c
+	sudo cp libentapi.so /usr/lib/  //dynamic library installation
+```
+	
+	b) Build application, write your own application according to the API document, e.g.: example.c
 	
 	```
 	gcc -o example example.c -L. -Wl,-dy –lentapi
@@ -17,8 +15,7 @@ sudo cp libentapi.so /usr/lib/  //dynamic library installation
 	```
 	
 2. Use static library to build a project
-   	 Build application
-   Write your own application according to the API document, e.g.: example.c. If you place libentapi.a under the same folder, you can use the following command to build it:
+   Build application, write your own application according to the API document, e.g.: example.c. If you place libentapi.a under the same folder, you can use the following command to build it:
 
    ```
    gcc -o example example.c -L. -Wl,-dn -lentapi -Wl,-dy -lpthread

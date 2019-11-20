@@ -1,6 +1,6 @@
 **SDK Download**
 
-Description: Download SDK of edge network tunnel service (ent) here.
+Description: Download SDK of edge network tunnel service (ENT) here.
 
 <table>
   <tr bgcolor="#D8D8D8">

@@ -12,7 +12,7 @@ items:
 - name: Pricing
   items:
     - name: Billing Overview
-      href: Pricing/Pricing.md
+      href: Pricing/Billing-Overview.md
 - name: Getting Started
   items:
     - name: Overview
@@ -26,17 +26,17 @@ items:
     - name: Login Console
       href: Operation-Guide/Console-guide.md
     - name: Workflow
-      items:
-        - name: Create Workflow
-          href: Operation-Guide/workFlow/create-Workflow.md
-        - name: Operation and Maintenance of Workflow
-          href: Operation-Guide/workFlow/Operation-Workflow.md
+      href: Operation-Guide/workflow.md      
     - name: Operation and Maintenance Center
-      href: Operation-Guide/Operation-center-guide.md
+      items:
+        - name: Task List
+          href: Operation-Guide/Operation-Center/Task-list.md
+        - name: Instance List
+          href: Operation-Guide/Operation-Center/Instance-list.md
 - name: Tools for Uploading Data to Cloud
   items:
     - name: xDatacmd
-      href: SDK-Reference/DBUS-SDK.md
+      href: SDK-Reference/xDatacmd.md
     - name: DBUS SDK
       href: SDK-Reference/DBUS-SDK.md
 - name: FAQ

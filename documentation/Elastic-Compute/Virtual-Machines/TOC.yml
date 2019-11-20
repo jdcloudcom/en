@@ -193,48 +193,48 @@ items:
             href: Operation-Guide/Key-Pair/Bind-Keypair.md
           - name: Key Pair Deletion
             href: Operation-Guide/Key-Pair/Delete-Keypair.md
-  - name: Security Group
-    items:
-      - name: Security Group Overview
-        href: Operation-Guide/Security-Group/Security-Group-Overview.md
-      - name: Security Group Rules
-        href: Operation-Guide/Security-Group/Security-Group-Rules.md
-      - name: Typical Configuration
-        href: Operation-Guide/Security-Group/Typical-Configuration.md
-      - name: Scenario
-        href: Operation-Guide/Security-Group/Security-Group-Scenarios.md
-      - name: Create Security Group
-        href: Operation-Guide/Security-Group/Create-Security-Group.md
-      - name: Associate Security Group to VM
-        href: Operation-Guide/Security-Group/Associate-Security-Group.md
-      - name: Disassociate Security Group from VM
-        href: Operation-Guide/Security-Group/Disassociate-Security-Group.md
-      - name: Configure Inbound Rules
-        href: Operation-Guide/Security-Group/Configurate-Inbound-Rules.md
-      - name: Configure Outbound Rules
-        href: Operation-Guide/Security-Group/Configurate-Outbound-Rules.md
-      - name: Delete Security Group
-        href: Operation-Guide/Security-Group/Delete-Security-Group.md
-  - name: Tag
-    items:
-      - name: Tag Overview
-        href: Operation-Guide/Tag/Tag-Overview.md
-      - name: Filter by Tag
-        href: Operation-Guide/Tag/Filter-by-Tag.md
-      - name: Edit Tag
-        href: Operation-Guide/Tag/Edit-Tag.md
-  - name: Security
-    items:
-      - name: Enable CC Protection
-        href: Operation-Guide/Security/Turn-on-CC-Protection.md
-  - name: Monitoring
-    items:
-      - name: Monitoring Overview
-        href: Operation-Guide/Monitoring/Monitoring-Overview.md
-      - name: Obtain Monitoring Data
-        href: Operation-Guide/Monitoring/Get-Monitor-Data.md
-      - name: Set Alarm Rules
-        href: Operation-Guide/Monitoring/Set-Alarm.md
+      - name: Security Group
+        items:
+          - name: Security Group Overview
+            href: Operation-Guide/Security-Group/Security-Group-Overview.md
+          - name: Security Group Rules
+            href: Operation-Guide/Security-Group/Security-Group-Rules.md
+          - name: Typical Configuration
+            href: Operation-Guide/Security-Group/Typical-Configuration.md
+          - name: Scenario
+            href: Operation-Guide/Security-Group/Security-Group-Scenarios.md
+          - name: Create Security Group
+            href: Operation-Guide/Security-Group/Create-Security-Group.md
+          - name: Associate Security Group to VM
+            href: Operation-Guide/Security-Group/Associate-Security-Group.md
+          - name: Disassociate Security Group from VM
+            href: Operation-Guide/Security-Group/Disassociate-Security-Group.md
+          - name: Configure Inbound Rules
+            href: Operation-Guide/Security-Group/Configurate-Inbound-Rules.md
+          - name: Configure Outbound Rules
+            href: Operation-Guide/Security-Group/Configurate-Outbound-Rules.md
+          - name: Delete Security Group
+            href: Operation-Guide/Security-Group/Delete-Security-Group.md
+      - name: Tag
+        items:
+          - name: Tag Overview
+            href: Operation-Guide/Tag/Tag-Overview.md
+          - name: Filter by Tag
+            href: Operation-Guide/Tag/Filter-by-Tag.md
+          - name: Edit Tag
+            href: Operation-Guide/Tag/Edit-Tag.md
+      - name: Security
+        items:
+          - name: Enable CC Protection
+            href: Operation-Guide/Security/Turn-on-CC-Protection.md
+      - name: Monitoring
+        items:
+          - name: Monitoring Overview
+            href: Operation-Guide/Monitoring/Monitoring-Overview.md
+          - name: Obtain Monitoring Data
+            href: Operation-Guide/Monitoring/Get-Monitor-Data.md
+          - name: Set Alarm Rules
+            href: Operation-Guide/Monitoring/Set-Alarm.md
   - name: Best Practices
     items:
       - name: Security

@@ -83,6 +83,8 @@
         href: FAQ/Operational-ICP-Filing.md
       - name: Note on Access Cancellation
         href: FAQ/Cancel-Access.md
+      - name: Access Filing Description
+        Href: FAQ/Access-Filing-Notes.md
   - name: User Agreement
     items:
        - name: Assistance in Changing Online Service Terms of Fling Information Service
@@ -107,6 +109,8 @@
           href: Loading/Common-data/Guangdong-Province-Personal-Verification-Checklist-Download.md
         - name: Guangdong Province Corporate Verification Form Download
           href: Loading/Common-data/Guangdong-Province-Unit-verification-form-download.md
+        - name: Government Website Filing Description
+          href: Loading/Common-data/Government-Website-Description.md
   - name: Process Help
     items:
        - name: Notes on SMS Verification of MIIT

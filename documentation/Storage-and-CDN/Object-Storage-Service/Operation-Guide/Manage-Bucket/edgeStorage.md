@@ -1,3 +1,4 @@
+*You can use this function only when you enable it in the product or subscribe it by opening ticket*
 # Edge Storage
 
 The underlayer of the Edge Storage takes advantage of the system established by IPFS (Interplanetary File System), having the features below:

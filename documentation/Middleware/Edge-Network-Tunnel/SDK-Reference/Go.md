@@ -1,4 +1,4 @@
-Please download SDK in  ‘*Download Zone*’.
+Please download SDK in  ‘*[Download Zone](../Download-Center.md)*’.
 
 1. Take Go SDK as plugin to build projects
 

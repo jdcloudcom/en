@@ -54,7 +54,7 @@ Windows：`wmic process where caption="MonitorPlugin.exe" get caption,commandlin
 ### Installation Mode
 **Linux：**<br>
 1. Download the following installation package and installation script to the same directory (for example: /root/jcloud).<br>
-If the endpoint is not associated with EIP, please replace the regional parameter "cn-north-1" in the link with the code of endpoint region: "cn-south-1", "cn-east-1", "cn-east-2".<br>
+If the machine is not associated with any EIP, please replace bucket address "bj" and the region parameter "cn-north-1" in the link with code of region where the machine is located: "gz", "cn-south-1", "sq", "cn-east-1", "sh" and "cn-east-2".<br>
 https://bj-jcs-agent-linux.s3.cn-north-1.jdcloud-oss.com/jcloud-jcs-agent-linux-deploy.py <br>
 https://bj-jcs-agent-linux.s3.cn-north-1.jdcloud-oss.com/jcloud-jcs-agent-linux.zip <br>
 

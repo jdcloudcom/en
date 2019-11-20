@@ -24,7 +24,7 @@ For example: if the order start time is 15:00:00 on January 1, 2018, and the pur
 
 ## Example of Pay By Configuration
 
-It is billed according to the actual usage time based on the instance type with statistical time accurate to the second. It is applicable to scenarios with large fluctuations in traffic, and resources can be enabled and released at any time.
+It is billed according to the actual usage time based on the instance type with statistical time accurate to the second. It is applicable to scenarios with large fluctuations in traffic, and resources can be enabled and released at any time, without deducting cost in advance.
 
 Opening Requirements: To ensure your normal use, the sum of your account balance and available coupon will be no less than consumption threshold when you launch an instance billed by configuration.
 

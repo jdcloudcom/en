@@ -7,7 +7,7 @@ Cover domestic edge nodes. At present, East China-Taizhou (Telecom 1) has been o
 - **Multiple Instance Types:**
 Provide two instance types, namely edge computing and edge storage. Now, different and specific specifications are launched to meet different business scenarios of the user. For details, please refer to [Product Specifications](../Introduction/Specifications.md). More instance types are in preparation.
 - **Flexible Billing Method:**
-Monthly package billing method is supported, and users may purchase based on demands to save the costs. For billing details, please refer to "[Billing Rules](../Pricing/Billing-Overview.md)".
+2 billing methods, i.e., Monthly Package and Pay By Configuration are supported. The user may purchase based on their demands to save costs. For billing details, please refer to [Billing Rules](../Pricing/Billing-Overview.md).
 - **Rich Image Resources:**
 Support CentOS (6.6, 7.1, 7.2 and 7.5) and Ubuntu (18.04, 16.04 and 14.04), as well as multiple common application software installation. For details of image system, please refer to [Image Support System](../Operation-Guide/Image/Description-Image.md).
 - **Four Disk Types:**
@@ -24,7 +24,7 @@ Set customized instance network access control via iptables firewall to configur
 The high-speed network devices of JD Cloud data center are relied on to achieve the intranet interconnection, and provide a high-quality, high-speed, and low-delay intranet environment. The intranet of users is isolated from each other, being secure and reliable.</br>
 It supports self-planned network deployment, including preset/non-preset network range (CIDR), subnet segment and intranet CIDR segment that users can choose depending on their preference.</br>
 The double upper-link network adopts the bond redundancy policy of IEEE 802.3ad dynamic link aggregation mode, and supports network interface redundancy disaster recovery to guarantee the high availability of network.</br>
-Elastic IP can be independently applied for, and the public network bandwidth can be dynamically expanded to a maximum of 200Mbps, supporting association and disassociation.
+Elastic IP can be independently applied for. The public network bandwidth can reach a maximum of 10240Mbps (10240Mbps is the maximum bandwidth that can be provided. The bandwidth may vary depending on various nodes, please make a reasonable choice according to actual node) and be dynamically expanded, supporting association and disassociation.
 
 - **Quick Batch Deployment:**
 Automatically deploy the operating system when creating the Distributed Cloud Physical Server, and allow users to reinstall the operating system.

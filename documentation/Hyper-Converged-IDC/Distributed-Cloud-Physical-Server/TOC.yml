@@ -53,6 +53,8 @@
             href: Operation-Guide/Instance/Reset-Password.md
           - name: Customized Data
             href: Operation-Guide/Instance/User-Data.md
+          - name: Alias IP Ranges
+            href: Operation-Guide/Instance/Alisas-IP.md
       - name: Network
         items:
           - name: VPC
